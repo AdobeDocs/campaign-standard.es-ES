@@ -4,7 +4,7 @@ seo-title: Llamada a un recurso mediante una clave de identificación formada po
 description: Llamada a un recurso mediante una clave de identificación formada por dos campos
 seo-description: Aprenda a llamar a un recurso utilizando una clave de identificación formada por dos campos
 translation-type: tm+mt
-source-git-commit: b46579e3bf270b26986e107be9d8e07a39841b38
+source-git-commit: 6d4f814ecd3862a632a25728545bc98a5e336fb5
 
 ---
 
@@ -23,16 +23,16 @@ Estos son los pasos principales para este caso de uso:
 
 Temas relacionados:
 
-* [Creación o ampliación del recurso](help/developing/using/creating-or-extending-the-resource.md)
-* [Definición de claves de identificación](help/developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
+* [Creación o ampliación del recurso](../../developing/using/creating-or-extending-the-resource.md)
+* [Definición de claves de identificación](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
 * [API de REST de campaña estándar](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
 
 ## Paso 1: Configurar la clave de identificación
 
 >[!NOTE]
-> Global concepts when configuring identification keys are detailed in [this section](help/developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
+> Global concepts when configuring identification keys are detailed in [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
 
-1. Antes de configurar la clave de identificación, asegúrese de que el recurso se haya ampliado con los campos deseados y que se haya publicado. For more on this, refer to [this section](help/developing/using/creating-or-extending-the-resource.md).
+1. Antes de configurar la clave de identificación, asegúrese de que el recurso se haya ampliado con los campos deseados y que se haya publicado. For more on this, refer to [this section](../../developing/using/creating-or-extending-the-resource.md).
 
 1. Go to the **[!UICONTROL Administration]** / **[!UICONTROL Developement]** / **[!UICONTROL Custom resources]** menu, then open the **[!UICONTROL Profile]** resource.
 
@@ -47,14 +47,14 @@ Temas relacionados:
    ![](assets/uc_idkey3.png)
 
    >[!NOTE]
-   > If you want to display the two custom fields in the profile's interface, configure the **[UICONTROL Screen definition]** tab. For more on this, refer to [this section](help/developing/using/configuring-the-screen-definition.md).
+   > If you want to display the two custom fields in the profile's interface, configure the **[UICONTROL Screen definition]** tab. For more on this, refer to [this section](../../developing/using/configuring-the-screen-definition.md).
 
 1. Ahora puede configurar la definición de filtro para poder llamar al recurso utilizando su clave de identificación.
 
 ## Paso 2: Configurar la definición del filtro
 
 >[!NOTE]
-> Global concepts when configuring filter definitions are detailed in [this section](help/developing/using/configuring-filter-definition.md).
+> Global concepts when configuring filter definitions are detailed in [this section](../../developing/using/configuring-filter-definition.md).
 
 1. In the **[UICONTROL Filter definition]** tab, click **[UICONTROL Add an element]**, then enter the filter definition's label and ID.
 
@@ -87,7 +87,7 @@ Temas relacionados:
 
 Una vez configurada la clave de identificación y su definición de filtro, puede utilizarlos para llamar al recurso, ya sea desde la interfaz estándar de Campaign o desde las API de REST.
 
-To use the filter definition from the interface, use a **[UICONTROL Query]** activity in a workflow (see [this section](help/automating/using/query.md)). El filtro está disponible en el panel izquierdo.
+To use the filter definition from the interface, use a **[UICONTROL Query]** activity in a workflow (see [this section](../../automating/using/query.md)). El filtro está disponible en el panel izquierdo.
 
 ![](assets/uc_idkey9.png)
 
