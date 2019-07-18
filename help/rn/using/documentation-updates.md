@@ -14,7 +14,7 @@ discoiquuid: dcee 9711-7 fa 6-4773-ba 21-1 d 54 cda 20 c 05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c2be404f780c8df57c5b0aa9858aa162592ca55c
+source-git-commit: 0a481ba4fcaf808ba0c524ec437f0e7e28cc2274
 
 ---
 
@@ -33,7 +33,9 @@ Se ha agregado una página nueva en las limitaciones de página de aterrizaje. [
 
 Se ha agregado un caso de uso sobre cómo llamar a un perfil utilizando una clave de identificación compuesta. [Más información](../../developing/using/uc-calling-resource-id-key.md)
 
-Se ha agregado una recomendación sobre el uso de entregas recurrentes sin un período de aggris al llamar a un perimetraje con parámetros. [Más información](../../automating/using/calling-a-workflow-with-external-parameters.md)
+Se ha agregado una recomendación sobre el uso de entregas recurrentes sin período de agregación al llamar a un flujo de trabajo con parámetros. [Más información](../../automating/using/calling-a-workflow-with-external-parameters.md)
+
+Se ha actualizado la sección sobre cómo guardar contenido de correo electrónico como fragmento en el Designer Designer. [Más información](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)
 
 ## Release 19.2 - May 2019 {#release-19-2---may-2019}
 
