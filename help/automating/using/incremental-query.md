@@ -15,7 +15,7 @@ context-tags: incremental, main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 15bba7a6f76cbd17b07f1243075da0832619278b
+source-git-commit: 3e2081fc3377fe4edbdf3fb8c4765a9acda6d79e
 
 ---
 
@@ -79,7 +79,7 @@ El flujo de trabajo está conformado por los siguientes elementos:
 
 ![](assets/incremental_query_example1.png)
 
-* **[!UICONTROL Scheduler]** Actividad, para ejecutar el flujo de trabajo todos los lunes a las 7 am.
+* **[!UICONTROL Scheduler]** Actividad, para ejecutar el flujo de trabajo todos los lunes a las 6 am.
 
    ![](assets/incremental_query_example2.png)
 
