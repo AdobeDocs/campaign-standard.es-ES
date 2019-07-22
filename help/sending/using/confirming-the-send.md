@@ -15,7 +15,7 @@ context-tags: entrega, implementación, atrás
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+source-git-commit: e9dd7c374903d0c57ac4881ed125c3215bd7fe11
 
 ---
 
@@ -43,6 +43,10 @@ El mensaje se está enviando.
 >[!NOTE]
 >
 >Si el mensaje está programado, se enviará cuando se llegue al tiempo de envío. For more on scheduling messages, refer to [this section](../../sending/using/about-scheduling-messages.md).
+
+Si utiliza un envío recurrente sin período de agregación, puede solicitar confirmación antes de enviar la entrega. To do this, open the **[!UICONTROL Schedule]** block of the delivery dashboard, then activate the dedicated option.
+
+![](assets/confirmation_recurring_deliveries.png)
 
 **[!UICONTROL Deployment]** El bloque muestra el progreso del envío.
 
