@@ -15,7 +15,7 @@ context-tags: entrega, principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
+source-git-commit: 25d997b2e5aa41e29e49ab047398b3db811bd6b6
 
 ---
 
@@ -31,7 +31,7 @@ El panel de mensajes es un espacio de trabajo compuesto por distintos iconos, re
 La barra gris recompone varios iconos vinculados al mensaje.
 
 * **[!UICONTROL Summary]**: muestra u oculta la información principal relacionada con el mensaje.
-* **[!UICONTROL Edit properties]**: permite editar los parámetros avanzados del mensaje.
+* **[!UICONTROL Edit properties]**: permite editar los parámetros [avanzados del mensaje](../../administration/using/configuring-email-channel.md#list-of-email-properties).
 * **[!UICONTROL Reports]**: le permite acceder a los informes relacionados con el mensaje.
 
 **Temas relacionados:**
