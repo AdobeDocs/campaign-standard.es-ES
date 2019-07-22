@@ -14,7 +14,7 @@ discoiquuid: 45 ddf 7 b 7-98 f 7-4 fdd-bb 4 a -49 ec 8490 e 877
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 698466596fdacd005dc4d72b8071208c8c39f77d
+source-git-commit: eed2e3597548c97345f51fe62dd2b56af5042e87
 
 ---
 
@@ -27,7 +27,7 @@ Mientras edita un correo electrónico, puede insertar una imagen dinámica de Ad
 
 Antes de acceder a la imagen en Adobe Campaign, primero debe realizar las siguientes tareas en Adobe Target:
 
-* Create one or several [redirect offers](https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Creating_a_Redirect_Offer.html), in which you must specify the URL of the image you will be using.
+* Create one or several [redirect offers](https://docs.adobe.com/content/help/en/target/using/experiences/offers/offer-redirect.html), in which you must specify the URL of the image you will be using.
 * Create one or several [audiences](https://marketing.adobe.com/resources/help/en_US/target/ov/c_about_segments.html), to define the target of your activity.
 * Create a [Form-based experience composer](https://marketing.adobe.com/resources/help/en_US/target/target/t_form_experience_composer.html) activity, in which you have to select a rawbox and specify several experiences, depending on the number of redirect offers created. Para cada experiencia, debe seleccionar una de las ofertas de redireccionamiento creadas.
 * Cree segmentos utilizando información de Adobe Campaign para especificar experiencias. Para utilizar datos de Adobe Campaign en las reglas de selección de la oferta, debe especificar los datos en el rawbox de Adobe Target.
