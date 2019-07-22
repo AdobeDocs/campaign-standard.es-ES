@@ -15,7 +15,7 @@ context-tags: flujo de trabajo, información general; flujo de trabajo, principa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: e33cbfbf6376dabfe81b9bd6f7cce817f35d1b75
 
 ---
 
@@ -28,7 +28,7 @@ Un flujo de trabajo siempre se inicia manualmente. However, once started, it can
 
 >[!CAUTION]
 >
->Recomendamos que no ejecute más de 5 flujos de trabajo simultáneamente. Cuando se ejecutan demasiados flujos de trabajo al mismo tiempo, el sistema puede agotar la cantidad de recursos y volverse inestable. También recomendamos que distribuya los flujos de trabajo a través del tiempo.
+> Adobe recomienda a los clientes priorizar las ejecuciones de flujo de trabajo y ejecutar hasta veinte ejecuciones simultáneas de flujo de trabajo para lograr de forma constante el máximo rendimiento en su instancia. Se pueden planificar más de veinte ejecuciones simultáneas de flujo de trabajo y se ejecutarán secuencialmente de forma predeterminada. Puede ajustar la configuración predeterminada para el número máximo de ejecuciones de flujo de trabajo simultáneas enviando un ticket al Servicio de atención al cliente.
 
 Acciones relacionadas con la ejecución (iniciar, parar, pausar, etc.) are **asynchronous** processes: the command is saved and will become effective once the server is available to apply it.
 
