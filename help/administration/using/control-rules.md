@@ -14,7 +14,7 @@ discoiquuid: 305 cadde -6424-4 c 6 f-b 11 b -1 e 8 bdbad 6 ef 1
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6a877d878f01fa1e541dc20b8b0941602113d15b
+source-git-commit: 5e5532c0769fe33016eaee994bdaae9c70a7eaa5
 
 ---
 
@@ -58,3 +58,6 @@ Los valores posibles son:
 
    Cuando una comprobación requiera que se complete la personalización de mensaje, seleccione esta fase.
 
+>[!NOTE]
+>
+>Por razones de seguridad, no se puede modificar el contenido de las reglas de control. **[!UICONTROL Code]** El campo es de solo lectura.
