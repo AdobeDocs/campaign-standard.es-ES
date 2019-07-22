@@ -14,7 +14,7 @@ discoiquuid: d 7088 c 18-7 daf -4 c 30-b 633-2 f 19496 b 1143
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 20b4d5dfb297cac4cd69fe6f945b4399abd7f06a
 
 ---
 
@@ -40,7 +40,7 @@ Para obtener más información sobre Adobe Campaign, compruebe los siguientes ca
 
 * [Pasos clave para diseñar un mensaje de correo electrónico](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch): leer pasos clave para diseñar contenido de correo electrónico desde cero.
 * [Uso de Experience Cloud Triggers con Adobe Campaign](../../integrating/using/abandonment-triggers-use-cases.md): enviar correos electrónicos personalizados a sus clientes después de comportamientos específicos rastreados por Adobe Analytics en su sitio web.
-* [Adición o ampliación de un recurso](../../developing/using/key-steps-of-adding-a-resource.md): descubra cómo crear nuevos recursos o ampliar las existentes.
+* [Adición o ampliación de un recurso](../../developing/using/key-steps-to-add-a-resource.md): descubra cómo crear nuevos recursos o ampliar las existentes.
 * [Importación de plantilla de flujo de trabajo](../../automating/using/importing-data.md#example--import-workflow-template): utilice la plantilla import para importar archivos con la misma estructura.
 * [Configuración de un proceso de selección doble](../../channels/using/setting-up-a-double-opt-in-process.md): descubra cómo enviar un correo electrónico vinculado a una página de aterrizaje para confirmar la suscripción de un cliente.
 * [Personalizar un mensaje de correo electrónico](../../designing/using/example--email-personalization.md): personalizar un mensaje de correo electrónico según la edad del cliente.
