@@ -14,7 +14,7 @@ discoiquuid: 332 bd 6 be -6 ca 3-4 d 38-b 608-8 a 66 c 156 d 080
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 51154892b2d5bd5685272735cdd6e7d9474e09a6
 
 ---
 
@@ -36,3 +36,4 @@ The **[!UICONTROL Data management (ETL)]** section provides the following activi
 * [Extraer archivo](../../automating/using/extract-file.md)
 * [Servicios de suscripción](../../automating/using/subscription-services.md)
 
+**[!UICONTROL Data management (ETL)]** permite definir los códigos **de segmento** para sus transiciones salientes. Luego puede crear informes basados en estos códigos de segmento para medir la eficacia de sus campañas de inserción. For more on this, refer to [this section](../../reporting/using/creating-a-report-workflow-segment.md).
