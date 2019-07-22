@@ -15,7 +15,7 @@ context-tags: workflow, asistente; flujo de trabajo, principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e384a0cef325bc01eb5ea050b0f3d926aea9a88f
+source-git-commit: 51154892b2d5bd5685272735cdd6e7d9474e09a6
 
 ---
 
@@ -94,6 +94,10 @@ Para crear el diagrama:
    >[!NOTE]
    >
    >También puede duplicar actividades existentes copiándolas y pegándolas. De esta forma, mantiene la configuración definida originalmente. For more on this, refer to [Duplicating workflow activities](../../automating/using/workflow-interface.md#duplicating-workflow-activities).
+
+Once your workflow activities are linked together, you can personalize the transitions between them with the **label** of your choice. Para ello, haga doble clic en la transición para acceder a sus propiedades.
+
+Moreover, **[!UICONTROL Targeting]** and **[!UICONTROL Data management (ETL)]** activities allows you to define **segment codes** for their outbound transitions. Luego puede crear informes basados en estos códigos de segmento para medir la eficacia de sus campañas de inserción. For more on this, refer to [this section](../../reporting/using/creating-a-report-workflow-segment.md).
 
 ## Configuring activities {#configuring-activities}
 
