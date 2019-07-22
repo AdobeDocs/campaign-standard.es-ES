@@ -14,7 +14,7 @@ discoiquuid: 0766 bd 57-c 5 f 1-4 f 56-ac 84-e 5 a 04 d 3819 ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+source-git-commit: 07c0b1b1ad6f9822e220e86f54dfa46475009132
 
 ---
 
@@ -58,7 +58,7 @@ Para administrar los destinatarios de las notificaciones, definir los criterios 
 
 >[!NOTE]
 >
->To access and configure the dashboards and the alerting criteria, you must have administration rights or appear in the **Delivery supervisors** security group. Los usuarios estándar no pueden acceder a los tableros en la interfaz de Adobe Campaign. Solo pueden recibir notificaciones de alerta. For more on users and security in Adobe Campaign, see [Types of users](../../administration/using/types-of-users.md) and [About security groups](../../administration/using/managing-groups-and-users.md#about-security-groups).
+>To access and configure the dashboards and the alerting criteria, you must have administration rights or appear in the **Delivery supervisors** security group. Los usuarios estándar no pueden acceder a los tableros en la interfaz de Adobe Campaign. Solo pueden recibir notificaciones de alerta. For more on users and security in Adobe Campaign, see [Types of users](../../administration/using/users-management.md) and [About security groups](../../administration/using/managing-groups-and-users.md#about-security-groups).
 
 Desde la interfaz de Adobe Campaign puede:
 
@@ -182,7 +182,7 @@ Una vez creados, estos criterios se pueden agregar a un tablero de alerta de ent
 
 **Tema relacionado:**
 
-[Adición o ampliación de un recurso](../../developing/using/key-steps-of-adding-a-resource.md)
+[Adición o ampliación de un recurso](../../developing/using/key-steps-to-add-a-resource.md)
 
 ## Delivery alerting parameters {#delivery-alerting-parameters}
 
