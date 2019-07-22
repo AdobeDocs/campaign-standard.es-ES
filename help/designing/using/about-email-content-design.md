@@ -14,7 +14,7 @@ discoiquuid: 39 b 86 fda -7766-4 e 5 f-ab 48-bcc 536 ab 66 b 3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
+source-git-commit: 89c139e3e2934996e267f875ef7fc2502c27a028
 
 ---
 
@@ -365,7 +365,10 @@ Todas las opciones de estilo están disponibles en la vista móvil. The Email De
 
    ![](assets/email_designer_mobile_view_change.png)
 
-1. También puede ocultar un componente. Al marcar esta opción, el componente correspondiente se ocultará cuando se muestre en un dispositivo móvil.
+1. Puede ocultar un componente cuando se muestre en un dispositivo móvil. To do this, select **[!UICONTROL Show only on desktop devices]** from the **[!UICONTROL Display options]**.
+También puede optar por ocultar este componente en dispositivos de escritorio, lo que significa que solo se mostrará en dispositivos móviles. To do this, select **[!UICONTROL Show only on mobile devices]**.
+Por ejemplo, esta opción permite mostrar una imagen específica en dispositivos móviles y otra imagen en dispositivos de escritorio.
+Puede establecer esta opción desde la vista móvil o de escritorio.
 
    ![](assets/email_designer_mobile_hide.png)
 
