@@ -14,7 +14,7 @@ discoiquuid: b 27 e 0170-e 73 f -4782-8568-02927 fb 374 f 4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
+source-git-commit: 8f4c849adf1852d8a23c5ff5252da25c175faa84
 
 ---
 
@@ -62,7 +62,9 @@ You can create an email from a [campaign](../../start/using/marketing-activities
    >
    >Para poder guardar su correo electrónico, primero debe realizar algunas ediciones en el contenido. If you click **[!UICONTROL Cancel]** at this point, you will not complete the wizard and your email will not be created.
 
-   Se muestra el tablero de correo electrónico. For more on this, see [Approving messages](../../sending/using/preparing-the-send.md).
+   Se muestra el tablero de correo electrónico. It allows you to check your message and [prepare the send](../../sending/using/preparing-the-send.md).
+
+   **[!UICONTROL Edit properties]** El botón de la esquina superior derecha permite editar las propiedades del correo electrónico. Por ejemplo, puede configurar el correo electrónico para que su etiqueta se calcule en el momento de la preparación de la entrega. Available parameters are listed in [this section](../../administration/using/configuring-email-channel.md#list-of-email-properties).
 
    ![](assets/delivery_dashboard_2.png)
 
