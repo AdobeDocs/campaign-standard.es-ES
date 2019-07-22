@@ -15,7 +15,7 @@ context-tags: Deliverytransactionaltemplate, información general
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d50d486ed77cb7989df47133bb49fde3227ae3a5
+source-git-commit: e08b7e01956a9106937cb72ab790cb2e98999fcd
 
 ---
 
@@ -313,8 +313,6 @@ Por ejemplo: el evento no se pudo asignar a una entrega de ejecución porque su 
 
 Una vez que el evento se ha asignado a una entrega de ejecución, el mensaje transaccional puede fallar debido a un error temporal, si el buzón de correo del destinatario está lleno. For more on this, see [Retries after a delivery temporary failure](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
-Si se ha asignado un evento de transacción a una entrega de ejecución que ha fallado, este evento se retrasa y se vuelve a probar posteriormente. Cuando se vuelve a probar, se asigna a una nueva entrega de ejecución.
-
 >[!NOTE]
 >
 >Cuando se asigna un evento a una entrega de ejecución, aparece en los registros de envío de esta entrega de ejecución y solo en este momento. The failed deliveries are displayed in the **[!UICONTROL Execution list]** tab of the transactional message.
@@ -323,9 +321,7 @@ Si se ha asignado un evento de transacción a una entrega de ejecución que ha f
 
 **Envío de registros de registros**
 
-Cuando se asigna un evento de transacción a una entrega de ejecución que ha fallado, este evento se retrasa y se vuelve a intentar unos minutos después. Cuando se vuelve a probar, se asigna a una nueva entrega de ejecución.
-
-Sin embargo, los registros de envío de la nueva entrega de ejecución no se actualizan inmediatamente (la actualización se realiza a través de un flujo de trabajo programado). It means that the message could be in **[!UICONTROL Pending]** status even if the transactional event has been processed by the new execution delivery.
+En el proceso de reintento, los registros de envío de la nueva entrega de ejecución no se actualizan inmediatamente (la actualización se realiza a través de un flujo de trabajo programado). It means that the message could be in **[!UICONTROL Pending]** status even if the transactional event has been processed by the new execution delivery.
 
 **Entrega de ejecución fallida**
 
