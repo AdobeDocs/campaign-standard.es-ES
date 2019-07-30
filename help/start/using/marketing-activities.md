@@ -15,7 +15,7 @@ context-tags: actividad, información general
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+source-git-commit: a0823161ff03fac0a617c3d89a8d3cac0ed3afb9
 
 ---
 
@@ -51,6 +51,7 @@ En la zona principal, cada tipo de actividad de la lista tiene un icono:
 * ![](assets/marketing_email_icon.png) : Correo electrónico
 * ![](assets/marketing_sms_icon.png) : SMS
 * ![](assets/marketing_push_icon.png) : Notificación push
+* ![](assets/marketing_lp_icon.png) : Mensaje en la aplicación
 * ![](assets/marketing_lp_icon.png) : Página de aterrizaje
 * ![](assets/marketing_workflow_icon.png) : Flujo de trabajo
 
