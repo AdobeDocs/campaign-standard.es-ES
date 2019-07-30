@@ -15,7 +15,7 @@ context-tags: Seedmember, información general
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cb6396228e42f99f7e184a82e6c894b09a164cd9
+source-git-commit: 663ce734a79d7895e1e5cbd6d5756447d42299fd
 
 ---
 
@@ -128,3 +128,42 @@ Debe enviar tantas pruebas como sea necesario hasta que haya finalizado el conte
 **Tema relacionado:**
 
 [Envío de una prueba, preparación y envío de](https://helpx.adobe.com/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html) un vídeo de correo electrónico
+
+## Sending proofs using additional data {#sending-proofs-using-additional-data}
+
+En esta sección se describe cómo enviar pruebas utilizando datos reales de cliente accesibles a través de un flujo de trabajo, en vez de utilizar datos falsos de perfil de prueba. Esto le permite comprobar que las variables utilizadas en el flujo de trabajo son precisas y obtener una vista del mensaje que recibirán los destinatarios.
+
+1. Create a test profile and enable **[!UICONTROL Proof]** and **[!UICONTROL Trap]** as the intended usage. For more on this, see [Managing test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles).
+
+   Este perfil de prueba pasa a formar parte de la audiencia objetivo.
+
+   >[!NOTE]
+   >
+   >Cuando se utiliza un perfil de prueba como reventado, para cualquier campo enriquecido de un mensaje, los datos adicionales correspondientes se seleccionan aleatoriamente desde un perfil de destino real y se asignan al perfil de prueba de reventado.
+
+1. Acceda a la lista de actividades de marketing y cree un flujo de trabajo de prueba.
+
+   See [Creating a workflow](../../automating/using/building-a-workflow.md#creating-a-workflow).
+
+1. Drag and drop a **[!UICONTROL Query]** activity into your workflow and open it.
+
+   The Query activity is presented in the [Query](../../automating/using/query.md) section.
+
+1. Agregar datos adicionales de una tabla vinculada. For more on this, see [Enriching data](../../automating/using/query.md#enriching-data).
+
+1. Drag and drop an **Email delivery** activity into your workflow and open it.
+
+   The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.
+
+1. En el panel de mensajes de correo electrónico, seleccione el perfil de prueba con el uso de reventado que ha creado.
+
+1. Agregue a los campos de personalización de contenido de correo electrónico utilizando los datos adicionales que definió en la actividad Consulta.
+
+1. Guarde el correo electrónico e inicie el flujo de trabajo.
+
+Durante la preparación de los mensajes, el recuento de objetivos incluye el perfil de prueba seleccionado.
+Una vez enviado el mensaje, los datos se sustituyen por datos de un perfil real.
+
+>[!NOTE]
+>
+>Solo se reemplazan los datos adicionales. No se utilizarán datos de perfil reales como nombre o apellido para el perfil de prueba.
