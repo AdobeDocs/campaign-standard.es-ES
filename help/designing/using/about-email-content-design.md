@@ -14,7 +14,7 @@ discoiquuid: 39 b 86 fda -7766-4 e 5 f-ab 48-bcc 536 ab 66 b 3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 89c139e3e2934996e267f875ef7fc2502c27a028
+source-git-commit: 072843b5507dbae34b5d3924bf22f20b4edfa285
 
 ---
 
@@ -128,6 +128,26 @@ For more on converting an existing email into an Email Designer-compatible email
 * No puede guardar directamente como fragmento cierto contenido de un correo electrónico que esté editando dentro del correo electrónico de Designer. Debe copiar y pegar el HTML correspondiente a dicho contenido en un nuevo fragmento. For more on this, see [Saving content as a fragment](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
 * Al editar estilos, sólo están disponibles oficialmente las fuentes web oficialmente admitidas por la mayoría de los clientes de correo electrónico.
 * Los estilos no se pueden guardar como un tema para volver a utilizarlos. Sin embargo, el estilo CSS se puede guardar en una plantilla de contenido o en un mensaje de correo electrónico. For more on styles, see [this section](../../designing/using/editing-email-styles.md).
+
+### Email Designer updates {#email-designer-updates}
+
+El correo electrónico de correo electrónico se encuentra en una mejora continua. Si creó un contenido de correo electrónico desde cero, desde una plantilla lista para usar o si creó fragmentos, puede que reciba el siguiente mensaje de actualización la próxima vez que abra el contenido:
+
+![](assets/email_designer_fragment-patch-message.png)
+
+Adobe recomienda actualizar el contenido a la versión más reciente para evitar problemas como problemas de conflictos CSS. Click **[!UICONTROL Update now]**.
+
+Si se produce un error durante la actualización de contenido, verifique su HTML y arregle la aplicación antes de ejecutar esta actualización de nuevo.
+
+Cuando se trata de fragmentos, tenga en cuenta lo siguiente:
+
+* Si desea agregar un fragmento a un nuevo correo electrónico o una plantilla, y si recibe este mensaje, primero debe actualizar este fragmento.
+
+* Si tiene varios fragmentos, debe actualizar cada fragmento que desee utilizar en un contenido de correo electrónico.
+
+* Para evitar tener impacto en los mensajes de correo electrónico actuales, ya que algunos pueden estar en fase de preparación o en una campaña específica en la que no desee alterar, puede elegir no actualizar algunos fragmentos.
+
+* Todavía puede enviar correos electrónicos donde ya se haya utilizado un fragmento que no está actualizado, pero ese fragmento no es editable.
 
 ## Designing an email content from scratch {#designing-an-email-content-from-scratch}
 
