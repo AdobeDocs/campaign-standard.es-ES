@@ -15,7 +15,7 @@ context-tags: Extaccountemail, overview; Emailconfig, main; Ruleset, overview; e
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
+source-git-commit: 8f737b1f66b40862d0e0f64cf7d7f4a2d4d29518
 
 ---
 
@@ -177,8 +177,6 @@ De forma predeterminada, se programan cinco reintentos para el primer día con u
 
 El número de reintentos puede cambiarse globalmente (comuníquese con el administrador técnico de Adobe) o con cada plantilla de entrega o entrega
 
-The **[!UICONTROL Test SMTP delivery]** option allows you to test sending messages via SMTP. Los mensajes se procesan hasta que se logra la conexión con el servidor SMTP, pero no se envían. For more information on configuring SMTP, refer to the [List of email SMTP parameters](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters) section.
-
 #### Email format parameters {#email-format-parameters}
 
 Puede configurar el formato de mensajes de correo electrónico que se enviarán. Existen tres opciones disponibles:
@@ -191,6 +189,24 @@ Puede configurar el formato de mensajes de correo electrónico que se enviarán.
    >Esta opción incluye ambas versiones del mensaje. Por lo tanto, influye en el rendimiento de entrega, ya que el tamaño del mensaje es mayor.
 
 * **Enviar todos los mensajes en formato de texto**: el mensaje se envía en formato de texto. No se enviará el formato HTML, pero se utilizará para la página de reflejo solo cuando el destinatario haga clic en el vínculo del mensaje.
+
+#### SMTP test mode {#smtp-test-mode}
+
+The **[!UICONTROL Enable SMTP test mode]** option allows you to test sending emails via an SMTP connection without actually sending messages.
+Los mensajes se procesan hasta que se logra la conexión con el servidor SMTP, pero no se envían.
+
+![](assets/smtp-test-mode.png)
+
+Esta opción está disponible para correos electrónicos y plantillas de correo electrónico.
+
+Si activa la opción del modo de prueba SMTP para una plantilla de correo electrónico, todos los mensajes de correo electrónico creados a partir de esta plantilla tendrán habilitada esta opción.
+
+>[!CAUTION]
+>
+>Cuando esta opción está habilitada para un mensaje de correo electrónico, no se enviarán mensajes hasta que no esté activada.
+>Se mostrará una advertencia en el tablero de correo electrónico o de plantillas de correo electrónico.
+
+For more information on configuring SMTP, refer to the [List of email SMTP parameters](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters) section.
 
 ### Validity period parameters {#validity-period-parameters}
 
