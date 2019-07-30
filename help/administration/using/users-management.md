@@ -14,7 +14,7 @@ discoiquuid: 08 c 8712 a -0066-4 b 8 b -8471-2656 b 8 fb 23 ed
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
+source-git-commit: ab329af94dc4e28651aaef17f4588d894fb48b74
 
 ---
 
@@ -124,11 +124,11 @@ Para agregar un usuario a su instancia, primero debe crearlo en Admin Console an
 
    ![](assets/create_user_4.png)
 
-Ahora se crea su usuario y debe recibir un redireccionamiento por correo electrónico a la siguiente ventana, donde el usuario tiene que establecer una contraseña y aceptar la fecha de uso. Este usuario podrá conectarse a su instancia de Adobe Campaign Standard.
+Ahora se crea su usuario y debe recibir un redireccionamiento por correo electrónico a la siguiente ventana, donde el usuario tiene que establecer una contraseña y aceptar el contrato de uso. Este usuario podrá conectarse a su instancia de Adobe Campaign Standard.
 
 ![](assets/create_user_5.png)
 
-Su usuario se sincronizará con Adobe Campaign Standard en cuanto inicie sesión en su instancia.
+El usuario se sincronizará con Adobe Campaign Standard en cuanto inicie sesión en su instancia.
 
 Puede comprobar si el usuario se ha sincronizado correctamente con Adobe Campaign:
 
@@ -149,3 +149,5 @@ Puede comprobar si el usuario se ha sincronizado correctamente con Adobe Campaig
 1. In the **[!UICONTROL Authorized connection zone]** field, select through which way your user will connect to this instance, e.g. internal network or VPN.
 
 1. Click **[!UICONTROL Save]**.
+
+El usuario está listo para usar Adobe Campaign Standard.
