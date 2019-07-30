@@ -14,7 +14,7 @@ discoiquuid: 3 f 968556-e 774-43 dc-a 0 b 8-7188 d 7665 fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 20b4d5dfb297cac4cd69fe6f945b4399abd7f06a
+source-git-commit: 8e2f947cce39ce08f233292d34cb4440aa48a2b5
 
 ---
 
@@ -38,6 +38,10 @@ Comience creando el evento correspondiente a sus necesidades.
 1. Give a **[!UICONTROL Label]** and an **[!UICONTROL ID]** to the event. **[!UICONTROL ID]** El campo es obligatorio y debe comenzar con el prefijo "EVT". If you do not use this prefix, it is automatically added once you click **[!UICONTROL Create]**.
 
    ![](assets/message-center_1.png)
+
+   >[!CAUTION]
+   >
+   >El ID no debe exceder los 64 caracteres, incluido el prefijo EVT.
 
 1. Select the channel that will be used to send your transactional messages **[!UICONTROL Email]**, **[!UICONTROL Mobile (SMS)]** or **[!UICONTROL Mobile application]** (push notification).
 
