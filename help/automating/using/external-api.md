@@ -12,7 +12,7 @@ context-tags: Externalapi, flujo de trabajo, principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1444a636f401ed9c34295aaca1a2b3271d6700a4
+source-git-commit: eb908d4e0ff23319025d3193bb9b22d006b5901e
 
 ---
 
@@ -25,16 +25,29 @@ source-git-commit: 1444a636f401ed9c34295aaca1a2b3271d6700a4
 
 **[!UICONTROL External API]** La actividad incorpora datos en el flujo de trabajo desde un sistema **externo** a través de **una llamada de API** REST.
 
-The REST endpoints can be a Customer management system, an [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html) or an Experience Cloud REST endpoints (Data Platform, Target, Analytics, Campaign, etc).
+The REST endpoints can be a customer management system, an [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html) instance or an Experience Cloud REST endpoints (Data Platform, Target, Analytics, Campaign, etc).
+
+>[!CAUTION]
+>
+>Esta capacidad está actualmente en versión beta pública. Debe aceptar el acuerdo de uso antes de comenzar con la actividad de API externa. Tenga en cuenta que, debido a que Adobe todavía no ha lanzado esta función beta pública, Adobe Client Care no lo admite, puede que contenga errores y que no funcione así como otras funciones publicadas.
 
 Las características principales de esta actividad son:
 
-* Límite de tamaño de datos de respuesta http 5 MB
+* Capacidad para pasar datos en formato JSON a un extremo de API de REST de terceros
+* Capacidad para recibir una respuesta JSON, asignarla a tablas de salida y pasar hacia abajo a otras actividades de flujo de trabajo.
 * Administración de errores con una transición específica saliente
+
+Se han implementado las siguientes garantías para esta actividad:
+
+* Límite de tamaño de datos de respuesta http 5 MB
 * El tiempo de espera de la solicitud es de 60 segundos
 * No se permiten redirecciones HTTP
 * Se rechazan las direcciones URL no HTTPS
 * " Aceptar: application/json "request header and" Content-Type: Se permite el encabezado de respuesta application/json
+
+>[!CAUTION]
+>
+>Tenga en cuenta que la actividad está pensada para recuperar datos de toda la campaña (conjunto más reciente de ofertas, puntuaciones más recientes, etc.) no para recuperar información específica para cada perfil, ya que esto puede dar como resultado una gran cantidad de datos que se transfieren. If the use case requires this, the recommendation is to use the [Transfer File](../../automating/using/transfer-file.md) activity.
 
 ## Configuration {#configuration}
 
@@ -61,7 +74,7 @@ This tab lets you define the sample **JSON structure** returned by the API Call.
 
 ![](assets/externalAPI-outbound.png)
 
-The JSON structure pattern is: **{“data”:[{“key”:“value”}, {“key”:“value”},...]}**
+The JSON structure pattern is: `{“data”:[{“key”:“value”}, {“key”:“value”},...]}`
 
 The sample JSON definition must have the **following characteristics**:
 
@@ -86,9 +99,9 @@ This tab lets you control **general properties** on the external API activity li
 
 ### Definición de columna
 
-    &gt; [! NOTA]
-    &gt;
-    &gt; Esta ficha aparece cuando el** formato de datos de respuesta** se completa y se valida en la ficha Asignación saliente.
+>[!NOTE]
+>
+>This tab appears when the **response data format** is completed and validated in Outbound Mapping tab.
 
 The **Column definition** tab allows you to precisely specify the data structure of each column in order to import data that does not contain any errors and make it match the types that are already present in the Adobe Campaign database for future operations.
 
@@ -109,6 +122,109 @@ This tab lets you activate the **outbound transition** and its label. This speci
 Esta ficha está disponible en la mayoría de las actividades de flujo de trabajo. For more information, consult the [Activity properties](../../automating/using/executing-a-workflow.md#activity-properties) section.
 
 ![](assets/externalAPI-options.png)
+
+## Solución de problemas
+
+Se agregaron dos tipos de mensajes de registro a esta nueva actividad de flujo de trabajo: información y errores. Pueden ayudarle a solucionar problemas potenciales.
+
+### Información
+
+Estos mensajes de registro se utilizan para registrar información sobre puntos de comprobación útiles durante la ejecución de la actividad del flujo de trabajo. Concretamente, los siguientes mensajes de registro se utilizan para registrar el primer intento y un intento de reintento (y motivo para el primer intento) de acceder a la API.
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Message format<br /> </th> 
+   <th> Example<br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> Invocar URL de API ' % s '.</td> 
+   <td> <p>Invocando URL de API ' https://example.com/api/v1/web-coupon?count=2'.</p></td> 
+  </tr> 
+  <tr> 
+   <td> Reintentar URL de API ' % s ', falló el intento previo (' % s ').</td> 
+   <td> <p>Reintentar URL de API ' https://example.com/api/v1/web-coupon?count=2', falló el intento previo (' HTTP - 401 ').</p></td>
+  </tr> 
+  <tr> 
+   <td> Transfiriendo contenido de ' % s ' (% s/% s).</td> 
+   <td> <p>Transfiriendo contenido desde ' https://example.com/api/v1/web-coupon?count=2' (1234/1234).</p></td> 
+  </tr>
+ </tbody> 
+</table>
+
+### Errores
+
+Estos mensajes de registro se utilizan para registrar información sobre condiciones de error inesperadas, lo que finalmente puede provocar errores en la actividad del flujo de trabajo.
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Code - Message format<br /> </th> 
+   <th> Example<br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> WKF -560250 - Cuerpo de solicitud de API excedido (límite: ' % d ').</td> 
+   <td> <p>Se excedió el límite del cuerpo de la solicitud de API (límite: ' 5242880 ').</p></td> 
+  </tr> 
+  <tr> 
+   <td> WKF -560239 - La respuesta de la API excedió el límite (límite: ' % d ').</td> 
+   <td> <p>Se excedió el límite de respuesta de API (límite: 5242880 ').</p></td> 
+  </tr> 
+  <tr> 
+   <td> WKF -560245 - La URL de API no pudo analizarse (error: ' % d ').</td> 
+   <td> <p>No se pudo analizar la URL de API (error: ' -2010 ').</p>
+   <p> Nota: Este error se registra cuando la URL de API falla en las reglas de validación.</p></td>
+  </tr> 
+  <tr>
+   <td> WKF -560244 - El host de URL de API no debe ser'localhost ', o literal de dirección IP (host de URL: ' % s ').</td> 
+   <td> <p>El host de la URL de API no debe ser'localhost ', o literal de dirección IP (host de URL: ' localhost ').</p>
+    <p>El host de la URL de API no debe ser'localhost ', o literal de dirección IP (host de URL: ' 192.168.0.5 ').</p>
+    <p>El host de la URL de API no debe ser'localhost ', o literal de dirección IP (host de URL: ' [2001]').</p></td>
+  </tr> 
+  <tr> 
+   <td> WKF -560238 - La URL de API debe ser una URL segura (https) (URL solicitada: ' % s ').</td> 
+   <td> <p>La URL de API debe ser una URL segura (https) (URL solicitada: ' https://example.com/api/v1/web-coupon?count=2').</p></td> 
+  </tr> 
+  <tr> 
+   <td> WKF -560249 - Error al crear el cuerpo de solicitud JSON. Error al agregar ' % s '.</td> 
+   <td> <p>No se pudo crear el cuerpo de solicitud JSON. Error al agregar'params '.</p>
+    <p>No se pudo crear el cuerpo de solicitud JSON. Error al agregar'datos '.</p></td>
+  </tr> 
+  <tr> 
+   <td> WKF -560246 - La clave del encabezado HTTP es mala (clave de encabezado: ' % s ').</td> 
+   <td> <p>La clave del encabezado HTTP es mala (clave de encabezado: ' % s ').</p>
+   <p> Nota: Este error se registra cuando la clave de encabezado personalizada falla en la validación según [RFC] (https://tools.ietf.org/html/rfc7230#section-3.2.html)</p></td> 
+  </tr>
+ <tr> 
+   <td> WKF -560248 - No se permite la clave de encabezado HTTP (clave del encabezado: ' % s ').</td> 
+   <td> <p>No se permite la clave del encabezado HTTP (clave del encabezado: ' Accept ').</p></td> 
+  </tr> 
+  <tr> 
+   <td> WKF -560247 - El valor del encabezado AHTTP es negativo (valor de encabezado: ' % s ').</td> 
+   <td> <p>El valor del encabezado HTTP es negativo (valor del encabezado: ' % s '). </p>
+    <p>Nota: Este error se registra cuando el valor del encabezado personalizado falla en la validación según [RFC] (https://tools.ietf.org/html/rfc7230#section-3.2.html)</p></td> 
+  </tr> 
+  <tr> 
+   <td> WKF -560240 - JSON Payload tiene una propiedad ' % s'errónea.</td> 
+   <td> <p>La carga útil JSON tiene una propiedad'blah'errónea.</p></td>
+  </tr> 
+  <tr>
+   <td> WKF -560241: JSON incorrecto o formato incorrecto.</td> 
+   <td> <p>JSON incorrecto o formato incorrecto.</p>
+   <p>Nota: Este mensaje solo se aplica al análisis del cuerpo de respuesta de la API externa y se registra al intentar validar si el cuerpo de respuesta sigue el formato JSON solicitado por esta actividad.</p></td>
+  </tr>
+  <tr> 
+   <td> WKF -560246 - Activity failed (reason: ' % s ').</td> 
+   <td> <p>Cuando la actividad falla debido a la respuesta de error HTTP 401 - Error de actividad (motivo: ' HTTP - 401 ')</p>
+        <p>Cuando la actividad falla debido a una llamada interna fallida - La actividad falló (motivo: ' Irc - -nn ').</p>
+        <p>Cuando falla la actividad debido a un encabezado de tipo de contenido no válido. - Error de actividad (motivo: ' Content-Type - application/html ').</p></td> 
+  </tr>
+ </tbody> 
+</table>
 
 <!--
 ## Example: Managing coupons with External API Activity
