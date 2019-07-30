@@ -14,7 +14,7 @@ discoiquuid: 5 c 7 bfb 74-4002-4 ffe -87 e 8-bddb 41 d 34 b 41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3b40e71ea9aa7e31c4ab8dcc46f78919328c8572
+source-git-commit: f6ac14bf13433444e71d58cf677681b30f4b620f
 
 ---
 
@@ -41,11 +41,11 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  <tbody> 
   <tr> 
    <td> External API Activity (Public Beta)<br /> </td> 
-   <td> <p>Para una personalización más profunda, la actividad de API externa permite introducir datos de sistemas externos en un flujo de trabajo mediante una llamada de API REST. Los puntos finales de REST pueden ser un sistema de administración de clientes, un tiempo de ejecución de Adobe I/O o un punto final de Adobe Experience Cloud REST (por ejemplo, plataforma de datos, Target, Analytics, campaña).</p><p>Esta capacidad está actualmente en versión beta pública.</p><p>For more information, refer to the <a href="../../automating/using/external-api.md">detailed documentation</a>.</p></td> 
+   <td> <p>Para una personalización más profunda, la actividad de API externa permite introducir datos de sistemas externos en un flujo de trabajo mediante una llamada de API REST. Los puntos finales de REST pueden ser un sistema de administración de clientes, un tiempo de ejecución de Adobe I/O o un punto final de Adobe Experience Cloud REST (por ejemplo, plataforma de datos, Target, Analytics, campaña).</p><p>Esta capacidad está actualmente en versión beta pública.</p><p>For more information, refer to the <a href="../../automating/using/external-api.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">how-to video</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Report on workflow segment<br /> </td> 
-   <td> <p>Esta función permite a los especialistas en marketing desglosar el rendimiento de entrega por código de segmento. Cuando crea un flujo de trabajo y utiliza una actividad de segmentación para asignar segmentos a la población de envíos, estos segmentos ahora pueden entrar en la misma entrega. Esto le permite mostrar las estadísticas de aperturas/clics en función de varios segmentos dentro de una entrega única.</p><p>For more information, refer to the <a href="../../reporting/using/creating-a-report-workflow-segment.md">detailed documentation</a>.</p></td> 
+   <td> <p>Esta función permite a los especialistas en marketing desglosar el rendimiento de entrega por código de segmento. Cuando crea un flujo de trabajo y utiliza una actividad de segmentación para asignar segmentos a la población de envíos, estos segmentos ahora pueden entrar en la misma entrega. Esto le permite mostrar las estadísticas de aperturas/clics en función de varios segmentos dentro de una entrega única.</p><p>For more information, refer to the <a href="../../reporting/using/creating-a-report-workflow-segment.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">how-to video</a>.</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -70,8 +70,8 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Se ha corregido un problema que rompió la salida HTML al utilizar el símbolo mayor que en el contenido dinámico. (CAMP -33688)
 * Se ha corregido un problema que ocurría al utilizar la opción Deshacer al editar texto en el correo electrónico de Designer. (CAMP -32565)
 * Se ha corregido un problema que creaba etiquetas adicionales al deshacer estilos en lugar de eliminarlos. (CAMP -32359)
-* Ahora es posible definir si cada imagen usada en un mensaje de correo electrónico solo se mostrará en dispositivos de escritorio o en dispositivos móviles.
-* Ahora es posible definir la anchura y la altura de un componente de contenido Social.
+* Ahora puede definir si cada componente utilizado en un correo electrónico solo se mostrará en dispositivos de escritorio o solo en dispositivos móviles.
+* Ahora puede establecer la anchura y la altura de un componente de contenido Social.
 * Se ha corregido un problema que impedía eliminar el código fuente antiguo del contenido dinámico tras eliminar dicho contenido dinámico.
 * Se ha corregido un problema que impedía que el asunto de un mensaje de correo electrónico se actualizara después de modificarse.
 * Se ha corregido un problema que impedía un n: n La estructura de columna no se selecciona una vez en el espacio de trabajo.
@@ -91,6 +91,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Ahora puede personalizar la etiqueta de una entrega con variables de evento declaradas en la actividad de señal externa del flujo de trabajo. For more on this, refer to the [detailed documentation](../../automating/using/calling-a-workflow-with-external-parameters.md).
 * La consulta de eliminación del RGPD se ha mejorado para mejorar el rendimiento. (CAMP -33504)
 * La opción «ftp» se ha eliminado de la interfaz de configuración de cuenta externa. (CAMP -34472)
+* Ahora puede habilitar y deshabilitar la opción del modo de prueba SMTP para cada mensaje de correo electrónico. For more on this, refer to the [detailed documentation](../../administration/using/configuring-email-channel.md#smtp-test-mode). (CAMP -34602)
 
 ### Other changes {#other-changes-2}
 
@@ -123,7 +124,6 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Se corrigió un problema en las páginas de aterrizaje que se podía producir al configurar campos de casilla de verificación con suscripciones. (CAMP -34369)
 * Se ha corregido un problema que se producía al configurar una lista y al agregar el campo "icono". (CAMP -34585)
 * Se ha corregido un problema que impedía utilizar la variable "|" y " %" como separadores de fecha o hora en las actividades de flujo de trabajo de archivos de carga. (CAMP -34706)
-* Se corrigió un problema que se producía en los flujos de trabajo al agregar una actividad, guardar el flujo de trabajo y luego visitar el botón "atrás" del explorador. La actividad recién añadida se ha eliminado del espacio de trabajo. (CAMP -34788)
 * Se ha corregido un problema que se producía al usar condiciones de visibilidad con casillas de verificación en páginas de aterrizaje. (CAMP -34802)
 * Se ha corregido un problema en la actividad de enriquecimiento que impedía que los campos se mostraran en la ficha «Datos adicionales», si la dimensión de filtrado estaba definida en registros de seguimiento y en la dimensión de destino en el perfil.
 * Se ha corregido un problema que provocaba un mensaje de error al exportar un recurso "workflowtemplate".
