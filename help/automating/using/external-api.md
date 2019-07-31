@@ -12,7 +12,7 @@ context-tags: Externalapi, flujo de trabajo, principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb908d4e0ff23319025d3193bb9b22d006b5901e
+source-git-commit: 6748e59aaeafce9dc6e77dc0664a9024a53c3e35
 
 ---
 
@@ -197,7 +197,7 @@ Estos mensajes de registro se utilizan para registrar información sobre condici
   <tr> 
    <td> WKF -560246 - La clave del encabezado HTTP es mala (clave de encabezado: ' % s ').</td> 
    <td> <p>La clave del encabezado HTTP es mala (clave de encabezado: ' % s ').</p>
-   <p> Nota: Este error se registra cuando la clave de encabezado personalizada falla en la validación según [RFC] (https://tools.ietf.org/html/rfc7230#section-3.2.html)</p></td> 
+   <p> Note: This error is logged when the custom header key fails validation according to <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr>
  <tr> 
    <td> WKF -560248 - No se permite la clave de encabezado HTTP (clave del encabezado: ' % s ').</td> 
@@ -206,7 +206,7 @@ Estos mensajes de registro se utilizan para registrar información sobre condici
   <tr> 
    <td> WKF -560247 - El valor del encabezado AHTTP es negativo (valor de encabezado: ' % s ').</td> 
    <td> <p>El valor del encabezado HTTP es negativo (valor del encabezado: ' % s '). </p>
-    <p>Nota: Este error se registra cuando el valor del encabezado personalizado falla en la validación según [RFC] (https://tools.ietf.org/html/rfc7230#section-3.2.html)</p></td> 
+    <p>Note: This error is logged when the custom header value fails validation according to <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr> 
   <tr> 
    <td> WKF -560240 - JSON Payload tiene una propiedad ' % s'errónea.</td> 
