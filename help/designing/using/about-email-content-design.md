@@ -14,7 +14,7 @@ discoiquuid: 39 b 86 fda -7766-4 e 5 f-ab 48-bcc 536 ab 66 b 3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 072843b5507dbae34b5d3924bf22f20b4edfa285
+source-git-commit: ed67b5e68aa308a6bf54348d4b86f223aec969dd
 
 ---
 
@@ -133,7 +133,7 @@ For more on converting an existing email into an Email Designer-compatible email
 
 El correo electrónico de correo electrónico se encuentra en una mejora continua. Si creó un contenido de correo electrónico desde cero, desde una plantilla lista para usar o si creó fragmentos, puede que reciba el siguiente mensaje de actualización la próxima vez que abra el contenido:
 
-![](assets/email_designer_fragment-patch-message.png)
+![](assets/email_designer_fragment_patch_message.png)
 
 Adobe recomienda actualizar el contenido a la versión más reciente para evitar problemas como problemas de conflictos CSS. Click **[!UICONTROL Update now]**.
 
@@ -181,7 +181,7 @@ You can also check out this [introduction video](https://video.tv.adobe.com/v/22
 
 En esta sección se explica cómo convertir un correo electrónico existente a un correo electrónico compatible con Designer Designer.
 
-By default, if you just upload any HTML (see [Importing content from a file](../../designing/using/importing-content-from-a-file.md)), the content is loaded in ' [compatibility mode](../../designing/using/about-email-content-design.md#email-designer-compatibility-mode)', which limits the edition possibilities through the UI (only in-place edition, no drag-and-drop).
+By default, if you just upload any HTML (see [Importing content from a file](../../designing/using/importing-content-from-a-file.md)), the content is loaded in '[compatibility mode](../../designing/using/about-email-content-design.md#email-designer-compatibility-mode)', which limits the edition possibilities through the UI (only in-place edition, no drag-and-drop).
 
 Sin embargo, si desea crear un marco de plantillas modulares y fragmentos que se pueden combinar para reutilizarlos en varios correos electrónicos, debe convertir su HTML de correo electrónico en una plantilla de correo electrónico de Designer.
 
