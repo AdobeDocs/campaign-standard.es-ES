@@ -15,46 +15,46 @@ context-tags: Filetransfer, main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0fcedd464ae2074e7eda793bbf20cc53ce04f324
+source-git-commit: 4fe36a1747aca69e8857cf415593086781947a47
 
 ---
 
 
-# Transfer file{#transfer-file}
+# Transferir archivo{#transfer-file}
 
-## Description {#description}
+## Descripción {#description}
 
 ![](assets/file_transfer.png)
 
-The **[!UICONTROL Transfer file]** activity allows you to receive or send files, test whether there are files present, or list files in Adobe Campaign.
+La **[!UICONTROL Transfer file]** actividad le permite recibir o enviar archivos, comprobar si existen archivos presentes o de lista en Adobe Campaign.
 
-## Context of use {#context-of-use}
+## Contexto de uso {#context-of-use}
 
 La manera en que se extraerán los datos se define cuando se configura la actividad. El archivo que se carga puede ser una lista de contactos, por ejemplo.
 
-You can use this activity to recover data that will then be structured with the **[!UICONTROL Load file]** activity.
+Puede utilizar esta actividad para recuperar datos que luego estarán estructurados con **[!UICONTROL Load file]** la actividad.
 
-## Configuration {#configuration}
+## Configuración {#configuration}
 
-1. Drop a **[!UICONTROL Transfer file]** activity into your workflow.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. Use the drop-down list in the **[!UICONTROL Action]** field to select one of the following activity actions:
+1. Coloque una **[!UICONTROL Transfer file]** actividad en el flujo de trabajo.
+1. Seleccione la actividad y ábrala utilizando ![](assets/edit_darkgrey-24px.png) el botón de las acciones rápidas que aparecen.
+1. Utilice la lista desplegable del **[!UICONTROL Action]** campo para seleccionar una de las siguientes acciones de actividad:
 
    ![](assets/wkf_file_transfer_01.png)
 
    * **Descarga de archivo**: permite descargar un archivo.
-   * **Carga de archivos**: permite cargar un archivo. Uploading a file from Adobe Campaign file generates a log entry in the **[!UICONTROL Export audits]** menu. For more information on export audits, refer to the [Auditing exports](../../administration/using/auditing-export-logs.md) section.
+   * **Carga de archivos**: permite cargar un archivo. Al cargar un archivo desde un archivo de Adobe Campaign, se genera una entrada de registro en **[!UICONTROL Export audits]** el menú. Para obtener más información sobre las auditorías de exportación, consulte la sección [Auditar exportaciones](../../administration/using/auditing-export-logs.md) .
    * **Pruebe si existe el archivo**: le permite comprobar si hay un archivo.
    * **Listado de archivos**: permite enumerar los archivos presentes en Adobe Campaign.
    Según la acción seleccionada, hay disponibles uno o varios protocolos:
 
    * **HTTP**: este protocolo permite descargar un archivo desde una cuenta externa o desde una dirección URL.
 
-      * Click the **[!UICONTROL Use connection parameters defined in an external account]** option, then select the account you would like and specify the path of the file to download.
+      * Haga clic en **[!UICONTROL Use connection parameters defined in an external account]** la opción y, a continuación, seleccione la cuenta que desee y especifique la ruta del archivo que desea descargar.
 
          ![](assets/wkf_file_transfer_03.png)
 
-      * Click the **[!UICONTROL Quick configuration]** option, then enter the URL in the field that appears.
+      * Haga clic en la **[!UICONTROL Quick configuration]** opción y, a continuación, introduzca la URL en el campo que aparece.
 
          ![](assets/wkf_file_transfer_04.png)
    * **S 3**: este protocolo le permite empezar a descargar un archivo desde una URL o una cuenta externa mediante Amazon Simple Storage Service (S 3).
@@ -64,7 +64,7 @@ You can use this activity to recover data that will then be structured with the 
          ![](assets/wkf_file_transfer_08.png)
    * **SFTP**: este protocolo le permite empezar a descargar un archivo desde una dirección URL o una cuenta externa.
 
-      * Click the **[!UICONTROL Use connection parameters defined in an external account]** option, then select the account you would like and specify the path of the file to download.
+      * Haga clic en **[!UICONTROL Use connection parameters defined in an external account]** la opción y, a continuación, seleccione la cuenta que desee y especifique la ruta del archivo que desea descargar.
 
          ![](assets/wkf_file_transfer_07.png)
 
@@ -72,8 +72,8 @@ You can use this activity to recover data that will then be structured with the 
          >
          >Se admiten comodines.
 
-      * Click the **[!UICONTROL Quick configuration]** option, then enter the URL in the field that appears.
-      * If you want to sort the imported files, select the **[!UICONTROL Sort alphanumerically]** option from the **[!UICONTROL Additional options]** section. Los archivos se procesarán en orden secuencial.
+      * Haga clic en la **[!UICONTROL Quick configuration]** opción y, a continuación, introduzca la URL en el campo que aparece.
+      * Si desea ordenar los archivos importados, seleccione **[!UICONTROL Sort alphanumerically]** la opción de **[!UICONTROL Additional options]** la sección. Los archivos se procesarán en orden secuencial.
 
          ![](assets/wkf_file_transfer_sort.png)
    * **Archivos presentes en el servidor de Adobe Campaign**: este protocolo corresponde al repositorio que contiene los archivos que se deben recuperar.
@@ -84,18 +84,18 @@ You can use this activity to recover data that will then be structured with the 
 
       >[!NOTE]
       >
-      >La ruta debe ser relativa al directorio de espacio de almacenamiento del servidor de Adobe Campaign. Los archivos se encuentran en el directorio** sftp &lt; yourinstancename &gt;/**. Tampoco puede examinar los directorios por encima del espacio de almacenamiento. For example: **user&lt;yourinstancename&gt;/my_recipients.csv** is correct. **../hello/my_recipients.csv** es incorrecto. **//myserver/hello/myrecipients.csv** es incorrecto.
+      >La ruta debe ser relativa al directorio de espacio de almacenamiento del servidor de Adobe Campaign. Los archivos se encuentran en **sftp &lt; yourinstancename &gt;/** directory. Tampoco puede examinar los directorios por encima del espacio de almacenamiento. Por ejemplo: **user &lt; yourinstancename &gt;/my_ recipients. csv** es correcto. **../hello/my_recipients.csv** es incorrecto. **//myserver/hello/myrecipients.csv** es incorrecto.
    Seleccione el protocolo y complete los campos asociados.
 
-   The **[!UICONTROL Use a dynamic file path]** option, available for each protocol, lets you use a standard expression and events variables to personalize the name of the file to transfer. For more on this, refer to the [Customizing activities with events variables](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) section.
+   La **[!UICONTROL Use a dynamic file path]** opción, disponible para cada protocolo, permite utilizar variables estándar de expresión y eventos para personalizar el nombre del archivo que se va a transferir. Para obtener más información, consulte la [sección Personalización de actividades con](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) variables de eventos.
 
-1. The **[!UICONTROL Additional options]** section, available depending on the protocol selected, allows you to add parameters to your protocol. Puede:
+1. La **[!UICONTROL Additional options]** sección, disponible según el protocolo seleccionado, permite agregar parámetros al protocolo. Puede:
 
    * **[!UICONTROL Delete the source files after transfer]**
    * **[!UICONTROL Disable passive mode]**
-   * **[!UICONTROL List all files]**: esta opción está disponible al seleccionar **[!UICONTROL File listing]** la acción. It allows you to index all the files present on the server in the **vars.filenames** event variable in which the file names are separated by the **'n'** characters.
+   * **[!UICONTROL List all files]**: esta opción está disponible al seleccionar **[!UICONTROL File listing]** la acción. Permite indexar todos los archivos presentes en el servidor en la variable de evento **vars. filennames** en la que los nombres de los archivos están separados **por** los caracteres'n '.
 
-1. The **[!UICONTROL If no files are found]** section of the **[!UICONTROL Advanced options]** tab allows you to configure specific actions if any errors or inexistent files are detected when the activity is started.
+1. La **[!UICONTROL If no files are found]** sección de **[!UICONTROL Advanced options]** la ficha permite configurar acciones específicas si se detectan errores o archivos inexistentes cuando se inicia la actividad.
 
    También puede definir reintentos. Los diferentes reintentos aparecen en el registro de ejecución del flujo de trabajo.
 
@@ -103,33 +103,33 @@ You can use this activity to recover data that will then be structured with the 
 
 1. Confirme la configuración de su actividad y guarde el flujo de trabajo.
 
-## Historization settings {#historization-settings}
+## Configuración de la historización {#historization-settings}
 
-Every time a **[!UICONTROL Transfer file]** activity is executed, it stores the uploaded or downloaded files in a dedicated folder. One folder is created for each **[!UICONTROL Transfer file]** activity of a workflow. Por lo tanto, es importante poder limitar el tamaño de esta carpeta para conservar el espacio físico en el servidor.
+Cada vez que se ejecuta una **[!UICONTROL Transfer file]** actividad, almacena los archivos cargados o descargados en una carpeta dedicada. Se crea una carpeta para cada **[!UICONTROL Transfer file]** actividad de un flujo de trabajo. Por lo tanto, es importante poder limitar el tamaño de esta carpeta para conservar el espacio físico en el servidor.
 
-To do that, you can define **[!UICONTROL Historization settings]** in the **[!UICONTROL Advanced options]** of the **[!UICONTROL Transfer File]** activity.
+Para ello, puede definir **[!UICONTROL Historization settings]** en la **[!UICONTROL Advanced options]****[!UICONTROL Transfer File]** actividad.
 
 **[!UICONTROL Historization settings]** permitir definir un número máximo de archivos o el tamaño total de la carpeta de la actividad. De forma predeterminada, se autorizan 100 archivos y 50 MB.
 
 Cada vez que se ejecuta la actividad, la carpeta se comprueba de la siguiente manera:
 
 * Solo se tienen en cuenta los archivos creados más de 24 horas antes de la ejecución de la actividad.
-* If the number of files taken into account is greater than the value of the **[!UICONTROL Maximum number of files]** parameter, the oldest files are deleted until the **[!UICONTROL Maximum number of files]** allowed is reached.
-* If the total size of files taken into account is greater than the value of the **[!UICONTROL Maximum size (in MB)]** parameter, the oldest files are deleted until the **[!UICONTROL Maximum size (in MB)]** allowed is reached.
+* Si el número de archivos teniendo en cuenta el valor es mayor que el valor del **[!UICONTROL Maximum number of files]** parámetro, los archivos más antiguos se eliminarán hasta que se llegue al **[!UICONTROL Maximum number of files]** permitido.
+* Si el tamaño total de los archivos teniendo en cuenta el valor es mayor que el valor del **[!UICONTROL Maximum size (in MB)]** parámetro, los archivos más antiguos se eliminarán hasta que se llegue al **[!UICONTROL Maximum size (in MB)]** permitido.
 
 >[!NOTE]
 Si la actividad no vuelve a ejecutarse, su carpeta no se revisará ni se purgará. Tenga en cuenta esto, tenga cuidado al transferir archivos de gran tamaño.
 
-## Example {#example}
+## Ejemplo {#example}
 
-The following example shows the configuration of a **File transfer** activity which will then be followed by a **Load file** activity then an **Update data** activity. El objetivo de este flujo de trabajo es agregar o actualizar los perfiles de base de datos de Adobe Campaign con los datos recuperados por el flujo de trabajo.
+El siguiente ejemplo muestra la configuración de una **actividad de transferencia** de archivos que después estará seguida por una actividad **de archivo** Load, luego una actividad **de actualización de datos** . El objetivo de este flujo de trabajo es agregar o actualizar los perfiles de base de datos de Adobe Campaign con los datos recuperados por el flujo de trabajo.
 
-1. Drag and drop a **Transfer file** activity into your workflow.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. In the **[!UICONTROL Protocol]** tab, select **SFTP**.
-1. Select the **Use connection parameters defined in an external account** option.
+1. Arrastre y suelte una **actividad de transferencia** de archivos en el flujo de trabajo.
+1. Seleccione la actividad y ábrala utilizando ![](assets/edit_darkgrey-24px.png) el botón de las acciones rápidas que aparecen.
+1. En la **[!UICONTROL Protocol]** ficha, seleccione **SFTP**.
+1. Seleccione los **parámetros de conexión definidos en una opción de cuenta** externa.
 1. Introduzca el nombre de la cuenta externa.
-1. Enter the **File path on the remote server**.
+1. Introduzca la ruta **File en el servidor remoto**.
 
    ![](assets/wkf_file_transfer_07.png)
 
