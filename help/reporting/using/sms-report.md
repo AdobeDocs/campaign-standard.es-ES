@@ -14,18 +14,18 @@ discoiquuid: a 9 afbb 76-d 2 b 3-44 c 7-b 97 a -1694501 aa 913
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 82df97bb1fe4d65f204fc55ebcedd0c47337a8e7
 
 ---
 
 
-# SMS report{#sms-report}
+# Informe SMS{#sms-report}
 
-El informe** SMS** proporciona detalles sobre entregas SMS, como las tasas de salida hacia otro sitio y hacia otro sitio.
+El informe **SMS** proporciona detalles sobre envíos SMS, como las tasas de salida hacia otro sitio y hacia otro sitio.
 
 ![](assets/dynamic_report_sms.png)
 
-The **SMS summary** table, graphs and summary numbers contain available data for SMS deliveries that have been sent.
+La tabla **resumen** de SMS, los gráficos y los números de resumen contienen datos disponibles para envíos SMS que se han enviado.
 
 * **Procesado/enviado**: Número de SMS enviado.
 * **Entregado**: El número de SMS entregado.
