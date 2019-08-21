@@ -14,7 +14,7 @@ discoiquuid: 39 b 86 fda -7766-4 e 5 f-ab 48-bcc 536 ab 66 b 3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 86600fe800477442e274429e1ef9cd299c33026a
+source-git-commit: 68d9732efb55b9d5363218e5c35204892f16d983
 
 ---
 
@@ -125,7 +125,6 @@ Para obtener más información sobre la conversión de un correo electrónico ex
 ### Limitaciones de Email Designer {#email-designer-limitations}
 
 * No puede utilizar campos de personalización en un fragmento. Para obtener más información sobre fragmentos, consulte [esta sección](../../designing/using/defining-the-email-structure.md#about-fragments).
-* No puede guardar directamente como fragmento cierto contenido de un correo electrónico que esté editando dentro del correo electrónico de Designer. Debe copiar y pegar el HTML correspondiente a dicho contenido en un nuevo fragmento. Para obtener más información sobre esto, consulte [Guardado de contenido como fragmento](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
 * Al editar estilos, sólo están disponibles oficialmente las fuentes web oficialmente admitidas por la mayoría de los clientes de correo electrónico.
 * Los estilos no se pueden guardar como un tema para volver a utilizarlos. Sin embargo, el estilo CSS se puede guardar en una plantilla de contenido o en un mensaje de correo electrónico. Para obtener más información sobre los estilos, consulte [esta sección](../../designing/using/editing-email-styles.md).
 
