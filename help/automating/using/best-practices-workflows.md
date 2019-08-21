@@ -14,7 +14,7 @@ context-tags: flujo de trabajo, información general; flujo de trabajo, principa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3ed76cc48c94510b40e7a946031ec4331c6e0905
+source-git-commit: fd44c6e6d0f6a4ca75b01c99fbae6d9072dd7736
 
 ---
 
@@ -116,7 +116,7 @@ Para obtener más información, consulte [Administración de paquetes](../../aut
 
 ## Exportación de listas{#exporting-lists}
 
-La opción de lista de exportación permite exportar un máximo de 100 000 líneas de forma predeterminada y definir la opción **Nms_ exportlistlimit**. El administrador funcional puede gestionar esta opción en **Administración** &gt; Ajustes **de la aplicación** &gt; **Opciones**.
+La opción de lista de exportación permite exportar un máximo de 100 000 líneas de forma predeterminada y definir la opción **Nms_ exportlistlimit**. Esta opción puede ser administrada por el administrador funcional, en **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Options]**.
 Para obtener más información, consulte [Exportación de listas](../../automating/using/exporting-lists.md).
 
 ## Solución de problemas{#workflow-troubleshooting}
@@ -133,15 +133,15 @@ Para obtener más información, consulte [Supervisión del flujo de trabajo de m
 
 Puede analizar las consultas SQL en la ficha Registro.
 
-1. En el espacio de trabajo del flujo de trabajo, haga clic **en Editar propiedades**.
-1. **En General** &gt; **Ejecución**, marque **la opción Guardar consultas SQL en el registro** y **Ejecutar en las opciones del motor** y haga clic **en Confirmar**.
+1. En el espacio de trabajo del flujo de trabajo, haga clic **[!UICONTROL Edit properties]** en.
+1. En **[!UICONTROL General]** &gt; **[!UICONTROL Execution]**, compruebe las opciones **[!UICONTROL Save SQL queries in the log]** y **[!UICONTROL Execute in the engine]** las opciones y haga clic **[!UICONTROL Confirm]** en.
 
 **Para ver consultas SQL en Registro:**
-1. Haga clic **en Registro y tareas**.
-1. En la ficha **Registro** , abra el panel **Buscar** .
-1. Marque **Mostrar registros SQL solamente**.
+1. Click **[!UICONTROL Log and Tasks]**.
+1. En la **[!UICONTROL Logs]** ficha, abra **[!UICONTROL Search]** el panel.
+1. Compruebe.**[!UICONTROL Display SQL logs only]**
 
-La consulta se muestra en la columna **Mensaje** de los registros.
+La consulta se muestra en **[!UICONTROL Message]** la columna de los registros.
 
 ### Uso de registros de entrega{#using-delivery-logs}
 
