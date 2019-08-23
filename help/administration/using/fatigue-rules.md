@@ -14,7 +14,7 @@ discoiquuid: 4337 a 80 b -0 fb 9-4 a 37-bce 3-fe 2121 a 66586
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 48c725de297e3a8b2fc05be65f59cd23b2cfd7d7
+source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
 
 ---
 
@@ -36,6 +36,7 @@ Temas relacionados:
 * [Preparación](../../administration/using/configuring-email-channel.md#preparation)
 * [Administración de tipologías](../../administration/using/about-typology-rules.md#managing-typologies)
 * [Reglas de tipología](../../administration/using/about-typology-rules.md#typology-rules)
+* [Optimización de la frecuencia de comunicación para evitar fatiga de contacto](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
 
 ## Creación de una regla de fatiga {#creating-a-fatigue-rule}
 
