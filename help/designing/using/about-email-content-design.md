@@ -14,7 +14,7 @@ discoiquuid: 39 b 86 fda -7766-4 e 5 f-ab 48-bcc 536 ab 66 b 3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68d9732efb55b9d5363218e5c35204892f16d983
+source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
 
 ---
 
@@ -177,6 +177,7 @@ También puede consultar este [vídeo de introducción](https://video.tv.adobe.c
 * [Programación de mensajes](../../sending/using/about-scheduling-messages.md)
 * [Vista previa de mensajes](../../sending/using/previewing-messages.md)
 * [Procesamiento por correo electrónico](../../sending/using/email-rendering.md)
+* [Genere correos electrónicos personalizados sin necesidad de HTML](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Createcompellingcontenttailoredtoeveryindividual)
 
 ## Diseño de un correo electrónico con contenido existente {#designing-an-email-using-existing-contents}
 
