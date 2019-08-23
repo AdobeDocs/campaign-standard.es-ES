@@ -14,7 +14,7 @@ discoiquuid: dcee 9711-7 fa 6-4773-ba 21-1 d 54 cda 20 c 05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7364d547cabe9ae83b43ab964bf57e48338130f8
+source-git-commit: 2c16cdff843115e122dc1d9ccca69a39ea6ebb22
 
 ---
 
@@ -30,6 +30,8 @@ También puede consultar las Notas [de la versión de Adobe Campaign](../../rn/u
 ## Actualizaciones de documentación: agosto de 2019 {#doc-updates-august-2019}
 
 En la sección de solución de problemas de flujo de trabajo se agregó un procedimiento sobre cómo mostrar consultas SQL en la ficha Registro. [Más información](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
+
+Se ha añadido un nuevo artículo de ayuda con información relacionada con subdominios y administración de certificados en el Panel de control. [Más información](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)
 
 ## Versión 19.3: julio de 2019 {#release-19-3---july-2019}
 
