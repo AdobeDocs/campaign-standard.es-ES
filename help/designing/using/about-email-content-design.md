@@ -14,7 +14,7 @@ discoiquuid: 39 b 86 fda -7766-4 e 5 f-ab 48-bcc 536 ab 66 b 3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
+source-git-commit: 2ac7fa8be4c408d75d77d3035af4cec25ac001c2
 
 ---
 
@@ -429,6 +429,10 @@ Puede establecer esta opción desde la vista móvil o de escritorio.
    El color de fondo definido en la vista de escritorio ahora se aplica: se vuelve gris (no está en blanco).
 
    La única excepción es **[!UICONTROL Border color]** la configuración. Cuando se desactiva en la vista móvil, ya no se aplica ningún borde, incluso si se define un color de borde en la vista de escritorio.
+
+>[!NOTE]
+>
+>La vista móvil no está disponible en [fragmentos](../../designing/using/defining-the-email-structure.md#about-fragments).
 
 ## Texto sin formato y modos HTML {#plain-text-and-html-modes}
 
