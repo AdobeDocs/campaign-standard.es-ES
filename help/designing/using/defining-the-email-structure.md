@@ -14,7 +14,7 @@ discoiquuid: 207 fdf 6 d -165 a -41 af-ad 53-ba 97 d 3403 b 62
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c2316d35c582efc8a3cc9be5de810c5dbe3f5e97
+source-git-commit: 2ac7fa8be4c408d75d77d3035af4cec25ac001c2
 
 ---
 
@@ -167,10 +167,10 @@ Puede crear sus propios fragmentos de contenido para utilizarlos según sea nece
 
 1. Vaya a **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]** y haga clic **[!UICONTROL Create]** en.
 1. Haga clic en la etiqueta de correo electrónico para acceder **[!UICONTROL Properties]** a la ficha de Email Designer.
-1. Especifique una etiqueta reconocible y seleccione los siguientes parámetros para encontrar el fragmento más adelante en nuevos correos electrónicos:
+1. Especifique una etiqueta reconocible y seleccione los siguientes parámetros para encontrar el fragmento al editar contenido de correo electrónico:
 
    * Debido a que los fragmentos solo son compatibles con los correos electrónicos, seleccione **[!UICONTROL Delivery]** en la lista **[!UICONTROL Content type]** desplegable.
-   * Seleccione **[!UICONTROL Fragment]** entre la lista **[!UICONTROL HTML type]** desplegable para poder utilizar este contenido como fragmento en sus correos electrónicos.
+   * Seleccione **[!UICONTROL Fragment]** entre la lista **[!UICONTROL HTML type]** desplegable para poder utilizar este contenido como fragmento.
    ![](assets/email_designer_createfragment.png)
 
 1. Si es necesario, puede definir una imagen que se utilizará como miniatura para el fragmento. Selecciónelo en la **[!UICONTROL Thumbnail]** ficha de las propiedades de la plantilla.
@@ -179,23 +179,29 @@ Puede crear sus propios fragmentos de contenido para utilizarlos según sea nece
 
    Esta miniatura se mostrará junto a la etiqueta del fragmento al editar un mensaje de correo electrónico.
 
-1. Guarde los cambios para volver al área de trabajo principal.
-1. Agregue un componente de estructura y un componente de contenido que puede personalizar según sea necesario.
+1. Cierre **[!UICONTROL Properties]** la ficha para volver al área de trabajo principal.
+1. Agregue componentes de estructura y componentes de contenido que puede personalizar según sea necesario.
+
+   >[!NOTE]
+   >
+   >Los fragmentos no pueden incluir campos de personalización, contenido dinámico u otro fragmento.
+   >La vista [móvil no](../../designing/using/about-email-content-design.md#switching-to-mobile-view) está disponible en fragmentos.
+
 1. Una vez editado, guarde el fragmento.
 
-Ahora, el fragmento se puede utilizar en cualquier correo electrónico creado con el correo electrónico de Designer. Aparece debajo de **[!UICONTROL Fragments]** la sección de la paleta.
+Este fragmento ahora se puede utilizar en cualquier correo electrónico creado con el correo electrónico de Designer. Aparece debajo de **[!UICONTROL Fragments]** la sección de la paleta.
 
 >[!NOTE]
 >
->No se pueden insertar campos de personalización dentro de un fragmento a menos que se usen en un mensaje de correo electrónico. Para ello, debe desbloquear este fragmento. Consulte [Acerca de los fragmentos](../../designing/using/defining-the-email-structure.md#about-fragments).
+>No se pueden insertar campos de personalización dentro de un fragmento a menos que se usen en un correo electrónico y se desbloquee. Consulte [Acerca de los fragmentos](../../designing/using/defining-the-email-structure.md#about-fragments).
 
 ### Guardar contenido como fragmento {#saving-content-as-a-fragment}
 
 Al editar un correo electrónico con el correo electrónico de Designer, puede guardar directamente parte de ese mensaje de correo electrónico como fragmento.
 
->[!CAUTION]
->
->No puede guardar como fragmento una estructura que contenga campos de personalización, contenido dinámico u otro fragmento.
+* No puede guardar como fragmento una estructura que contenga campos de personalización, contenido dinámico u otro fragmento.
+* Solo puede seleccionar estructuras adyacentes entre sí.
+<!--* You cannot select an empty structure.-->
 
 1. Cuando edite un correo electrónico en el correo electrónico de Designer, seleccione **[!UICONTROL Save as fragment]** en la barra de herramientas principal.
 
@@ -207,7 +213,8 @@ Al editar un correo electrónico con el correo electrónico de Designer, puede g
 
    >[!NOTE]
    >
-   >Solo puede seleccionar estructuras adyacentes entre sí.
+   >Asegúrese de seleccionar estructuras adyacentes entre sí y que no incluyan campos de personalización, contenido dinámico u otro fragmento.
+   <!--You cannot select an empty structure.-->
 
 1. Click **[!UICONTROL Create]**.
 
@@ -222,6 +229,9 @@ Al editar un correo electrónico con el correo electrónico de Designer, puede g
 1. Para utilizar el nuevo fragmento, abra cualquier contenido de correo electrónico y selecciónelo en la lista de fragmentos.
 
 ![](assets/email_designer_save-as-fragment_in-new-email.png)
+
+>[!NOTE]
+>La vista [móvil no](../../designing/using/about-email-content-design.md#switching-to-mobile-view) está disponible en fragmentos. Si desea editar una vista móvil de correo electrónico, hágalo antes de guardar el contenido como fragmento.
 
 <!--You need to copy-paste the HTML corresponding to the section that you want to save into a new fragment.
 
