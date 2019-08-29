@@ -14,7 +14,7 @@ discoiquuid: dcee 9711-7 fa 6-4773-ba 21-1 d 54 cda 20 c 05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: feec1991a3c8730e97ab4a990ef5edd29d1a5964
+source-git-commit: 8006d2631a512c68ffdd6eed9e7536abac45faa2
 
 ---
 
@@ -28,6 +28,8 @@ Esta página enumera todas las nuevas funciones y actualizaciones de documentaci
 También puede consultar las Notas [de la versión de Adobe Campaign](../../rn/using/release-notes.md).
 
 ## Actualizaciones de documentación: agosto de 2019 {#doc-updates-august-2019}
+
+Se ha añadido una nueva sección con casos de uso en flujos de trabajo centrados en consultas. [Más información](../../automating/using/workflow-created-query-with-complement.md)
 
 En la sección de solución de problemas de flujo de trabajo se agregó un procedimiento sobre cómo mostrar consultas SQL en la ficha Registro. [Más información](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
