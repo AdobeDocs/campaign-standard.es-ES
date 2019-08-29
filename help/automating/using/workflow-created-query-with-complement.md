@@ -15,7 +15,7 @@ context-tags: flujo de trabajo, uso de mayúsculas y minúsculas, segmentación
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 
 ---
 
@@ -42,15 +42,14 @@ Puede enviar un correo electrónico a los clientes: Una para clientes creados ha
 1. Pase el ratón sobre el segmento y luego haga clic ![](assets/edit_darkgrey-24px.png) para dirigirse a los clientes que agregaron este año en la base de datos.
 1. Arrastre y suelte **[!UICONTROL Profiles]** y seleccione **[!UICONTROL Created]** con el tipo **[!UICONTROL Relative]** de filtro.
 1. Cambie el **[!UICONTROL Level of precision]** valor y **[!UICONTROL Year]** seleccione **[!UICONTROL This year]**.
-
->[!NOTE]
->
->Para observar la estructura de la regla, haga clic **[!UICONTROL Advanced Mode]** en.
-
 1. Haga clic **[!UICONTROL Confirm]** dos veces.
 1. En **[!UICONTROL Advanced Options]**, asegúrese **[!UICONTROL Generate complement]** de crear un segmento dirigido a los destinatarios restantes.
 1. Click **[!UICONTROL Confirm]**.
 1. Click **[!UICONTROL Save]**.
+
+>[!NOTE]
+>
+>Para observar la estructura de la regla, haga clic **[!UICONTROL Advanced Mode]** en.
 
 ## Creación de una entrega por correo electrónico {#create-an-email-delivery}
 
@@ -62,11 +61,10 @@ Puede enviar un correo electrónico a los clientes: Una para clientes creados ha
 1. Para crear la presentación del correo electrónico, haga clic **[!UICONTROL Email Designer]** en.
 1. Inserte elementos o seleccione una plantilla existente.
 1. Personalice su correo electrónico con ofertas específicas de cada entrega.
-
-Para obtener más información, consulte [Diseño de un correo electrónico](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
-
 1. Haga clic para **[!UICONTROL Preview]** comprobar el diseño.
 1. Click **[!UICONTROL Save]**.
+
+Para obtener más información, consulte [Diseño de un correo electrónico](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
 
 **Temas relacionados:**
 
