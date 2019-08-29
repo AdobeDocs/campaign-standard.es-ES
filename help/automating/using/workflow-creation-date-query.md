@@ -15,7 +15,7 @@ context-tags: flujo de trabajo, caso de uso, consulta
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 
 ---
 
@@ -36,14 +36,13 @@ Puede enviar una oferta por correo electrónico en el aniversario de la creació
 1. En **[!UICONTROL Execution frequency]**, seleccione **[!UICONTROL Daily]**.
 1. Seleccione un **[!UICONTROL Time]** y el **[!UICONTROL Repetition frequency]** de ejecución para el flujo de trabajo.
 1. Seleccione una **[!UICONTROL Start]** fecha y **[!UICONTROL Expiration]** el flujo de trabajo.
+1. Confirme su actividad y guarde el flujo de trabajo.
 
 >[!NOTE]
 >
 >Para iniciar el flujo de trabajo en una zona horaria específica, en **[!UICONTROL Execution options]** la ficha, configure el huso horario del programador en **[!UICONTROL Time zone]** el campo.
 
 ![](assets/time_zone.png)
-
-1. Confirme su actividad y guarde el flujo de trabajo.
 
 ## Creación de una actividad de consulta {#creating-a-query-activity}
 
@@ -75,13 +74,13 @@ Click **[!UICONTROL Confirm]**.
 1. En **[!UICONTROL Query]** el editor, seleccione la primera consulta y duplíquela.
 1. Abra el duplicado.
 1. Reemplace **[!UICONTROL Day]** por **[!UICONTROL Month]** en la consulta.
-Debe finalizar con esto:
-
-``` Month(@created) = Month(GetDate()) ```
-
 1. Click **[!UICONTROL Confirm]**.
 
 ![](assets/month_rule.png)
+
+Debe finalizar con esto:
+
+``` Month(@created) = Month(GetDate()) ```
 
 Se muestra la consulta final:
 
