@@ -15,7 +15,7 @@ context-tags: flujo de trabajo, caso de uso, consulta, entrega, programador
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 
 ---
 
@@ -37,14 +37,13 @@ Puede enviar un mensaje de correo electrónico cada martes a todos los clientes 
 1. Seleccione un **[!UICONTROL Time]** y un **[!UICONTROL Repetition frequency]** para sus envíos.
 1. En **[!UICONTROL Days of the week]**, seleccione **[!UICONTROL Tuesday]**.
 1. Especifique un **[!UICONTROL Start]** parámetro y un **[!UICONTROL Expiration]** parámetro para el flujo de trabajo.
+1. Confirme su actividad y guarde el flujo de trabajo.
 
 ![](assets/scheduler_properties.png)
 
 >[!NOTE]
 >
 >Para iniciar el flujo de trabajo en una **[!UICONTROL Time Zone]****[!UICONTROL Execution options]** ficha específica, configure la zona horaria del programador en el campo Zona horaria.
-
-1. Confirme su actividad y guarde el flujo de trabajo.
 
 ## Creación de una actividad de consulta{#creating-a-query-activity}
 
