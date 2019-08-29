@@ -14,29 +14,29 @@ discoiquuid: 54028 f 63-c 9 ca -4397-a 079-e 27 e 0 cfdebf 6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 25fd443c580d83eb4de0a8becfcbae8f450525cb
+source-git-commit: 52547aedf10cfaf8e4edf0b496d6bf108e8c41f6
 
 ---
 
 
-# About access management{#about-access-management}
+# Acerca de la administración de acceso{#about-access-management}
 
 Adobe Campaign permite definir y administrar los permisos asignados a distintos usuarios. Los permisos son un conjunto de derechos y restricciones que autoriza o deniega el acceso a ciertas funcionalidades u objetos de la interfaz. Estos permisos se basan en dos conceptos:
 
-* **Unidades organizativas**: Permiten definir una jerarquía de permisos en los distintos objetos de la plataforma (correos electrónicos, flujos de trabajo, plantillas, usuarios, perfiles, etc.). Refer to the [Organizational units](../../administration/using/organizational-units.md) section.
-* **Funciones**: Conjunto de derechos unitario que permite definir las autorizaciones asignadas a usuarios y grupos de usuarios. Refer to the [List of roles](../../administration/using/list-of-roles.md) section.
+* **Unidades organizativas**: Permiten definir una jerarquía de permisos en los distintos objetos de la plataforma (correos electrónicos, flujos de trabajo, plantillas, usuarios, perfiles, etc.). Consulte [la sección Unidades](../../administration/using/organizational-units.md) de organización.
+* **Funciones**: Conjunto de derechos unitario que permite definir las autorizaciones asignadas a usuarios y grupos de usuarios. Consulte la sección [Lista de funciones](../../administration/using/list-of-roles.md) .
 
-   Junto con las unidades organizativas, las funciones proporcionan a los usuarios una vista filtrada de la interfaz y definen su acceso a las distintas funciones. For more on this, refer to the [Roles and permissions table](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
+   Junto con las unidades organizativas, las funciones proporcionan a los usuarios una vista filtrada de la interfaz y definen su acceso a las distintas funciones. Para obtener más información, consulte la tabla [Autorizaciones](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
 
 >[!CAUTION]
 >
->Tenga en cuenta que la funcionalidad de la unidad geográfica se ha desaprobado. For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html).
+>Tenga en cuenta que la funcionalidad de la unidad geográfica se ha desaprobado. Para obtener más información, consulte esta [página](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html).
 
-Roles, groups, and organizational units can be managed by the functional administrator of the platform, under the **[!UICONTROL Administration > Users & Security]** menu.
+Las funciones, los grupos y las unidades de organización pueden ser administrados por el administrador funcional de la plataforma, en **[!UICONTROL Administration > Users & Security]** el menú.
 
 ![](assets/user_management_1.png)
 
-Users are managed in the Admin console (refer to the [Managing groups and users](../../administration/using/managing-groups-and-users.md) section or the [Admin console documentation](https://helpx.adobe.com/enterprise/managing/user-guide.html)).
+Los usuarios se administran en la Consola de administración (consulte la [sección Administración de grupos y usuarios](../../administration/using/managing-groups-and-users.md) o la documentación de la Consola [de administración](https://helpx.adobe.com/enterprise/managing/user-guide.html)).
 
 ![](assets/user_management_6.png)
 
