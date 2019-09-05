@@ -14,7 +14,7 @@ discoiquuid: 95218 ebe -5430-42 a 2-b 900-1 dadbbc 92 d 99
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8e2766bb9fef619142d3ee59cb8aa8ed20424a3f
+source-git-commit: 816c580d952848ac760c9a98c06f54bf260f3554
 
 ---
 
@@ -54,15 +54,15 @@ Estas plantillas se gestionan desde **[!UICONTROL Resources]** la **[!UICONTROL 
 
 ## Plantillas de contenido {#content-templates}
 
-Se puede acceder a las plantillas de contenido HTML desde **[!UICONTROL Resources]** la **[!UICONTROL Content templates & fragments]** pantalla &gt; del menú [Avanzado](../../start/using/interface-description.md#advanced-menu). Desde allí puede administrar plantillas de contenido de página de aterrizaje, plantillas de contenido de correo electrónico y fragmentos.
+Se puede acceder a las plantillas de contenido HTML desde **[!UICONTROL Resources]** la **[!UICONTROL Content templates & fragments]** pantalla &gt; del menú [Avanzado](../../start/using/interface-description.md#advanced-menu). Desde allí, puede administrar plantillas de contenido de página de aterrizaje, plantillas de contenido de correo electrónico y también fragmentos.
 
 ![](assets/content_templates_list.png)
 
-Las plantillas de contenido integradas son de solo lectura. Para editar uno de ellos, primero debe duplicarlo.
+Las plantillas de contenido integradas son de solo lectura. Para editar uno de ellos, primero debe duplicar la plantilla que desee.
 
 Puede crear nuevas plantillas o fragmentos y definir su propio contenido. Para obtener más información sobre esto, consulte [Creación de una plantilla](../../start/using/about-templates.md#creating-a-content-template) de contenido y [Creación de un fragmento de contenido](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment).
 
-Al editar contenido con el correo electrónico de Designer, también puede crear plantillas de contenido guardando el contenido como fragmento o plantilla. Para obtener más información sobre esto, consulte [Guardar contenido como plantilla](../../start/using/about-templates.md#saving-content-as-template) y [Guardar contenido como fragmento](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
+Al editar contenido con el correo electrónico de Designer, también puede crear plantillas de contenido guardando el contenido como fragmento o como plantilla. Para obtener más información sobre esto, consulte [Guardar contenido como plantilla](../../start/using/about-templates.md#saving-content-as-template) y [Guardar contenido como fragmento](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
 
 ### Plantillas de contenido de correo electrónico predeterminadas {#email-content-templates}
 
