@@ -15,7 +15,7 @@ context-tags: 'flujo de trabajo, caso de uso, consulta, espera, entrega '
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: 035726bbd3112058b9a89525a861521bc3b9867e
 
 ---
 
@@ -36,6 +36,8 @@ Puede enviar un correo electrónico a los clientes y, a continuación, enviar un
 1. En **[!UICONTROL Shortcuts]**, arrastre y suelte **[!UICONTROL Profiles]** y seleccione **[!UICONTROL no longer contact by email]** con el valor **[!UICONTROL no ]**.
 1. Click **[!UICONTROL Confirm]**.
 
+![](assets/wf-complement-query.png)
+
 ## Creación de una entrega por correo electrónico{#creating-an-email-delivery}
 
 1. Arrastre y suelte una publicación[!UICONTROL Email delivery]de correo electrónico**** después de cada segmento.
@@ -44,7 +46,6 @@ Puede enviar un correo electrónico a los clientes y, a continuación, enviar un
 1. Seleccione **[!UICONTROL Add an outbound transition without the population]** y haga clic **[!UICONTROL Next]** en.
 1. Seleccione una plantilla de correo electrónico y haga clic **[!UICONTROL Next]** en.
 1. Introduzca las propiedades de correo electrónico y haga clic **[!UICONTROL Next]** en.
-1. Cambie el nombre de la oferta **de correo electrónico de correo** electrónico.
 1. Para crear la presentación del correo electrónico, haga clic **[!UICONTROL Using the Email Designer]** en.
 1. Inserte elementos o seleccione una plantilla existente.
 1. Personalice su correo electrónico con ofertas específicas de cada ubicación. Para obtener más información, consulte [Diseño de un correo electrónico](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
@@ -76,6 +77,8 @@ Puede enviar un correo electrónico a los clientes y, a continuación, enviar un
 Para obtener más información, consulte [Diseño de un sms](../../channels/using/creating-an-sms-message.md).
 1. Haga clic para **[!UICONTROL Preview]** comprobar el diseño.
 1. Click **[!UICONTROL Save]**.
+
+![](assets/wf-retargeting-non-openers.png)
 
 **Temas relacionados:**
 
