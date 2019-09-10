@@ -15,20 +15,20 @@ context-tags: Fileimport, main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: fc3c687328c5a460b442b8b2497965ccab3be50b
 
 ---
 
 
-# Load file{#load-file}
+# Cargar archivo{#load-file}
 
-## Description {#description}
+## Descripción {#description}
 
 ![](assets/data_loading.png)
 
-The **[!UICONTROL Load file]** activity allows you to import data in one structured form to use this data in Adobe Campaign. Los datos se importan temporalmente y es necesario otra actividad para integrarlos de forma definitiva en la base de datos de Adobe Campaign.
+La **[!UICONTROL Load file]** actividad permite importar datos en un formulario estructurado para utilizar estos datos en Adobe Campaign. Los datos se importan temporalmente y es necesario otra actividad para integrarlos de forma definitiva en la base de datos de Adobe Campaign.
 
-## Context of use {#context-of-use}
+## Contexto de uso {#context-of-use}
 
 La manera en que se extraerán los datos se define cuando se configura la actividad. El archivo que se carga puede ser una lista de contactos, por ejemplo.
 
@@ -38,10 +38,10 @@ La manera en que se extraerán los datos se define cuando se configura la activi
 
 Puede:
 
-* Use the file structure to apply it to another file's data (recovered using the **[!UICONTROL Transfer file]** activity) or,
+* Utilice la estructura de archivos para aplicarla a los datos de otro archivo (recuperados con **[!UICONTROL Transfer file]** la actividad) o,
 * Utilice la estructura y los datos del archivo para importarlos a Adobe Campaign.
 
-## Configuration {#configuration}
+## Configuración {#configuration}
 
 La configuración de la actividad implica dos pasos. Primero, debe definir la estructura de archivos esperada cargando un archivo de ejemplo. Una vez realizada esta acción, puede especificar el origen del archivo cuyos datos se importarán.
 
@@ -49,22 +49,22 @@ La configuración de la actividad implica dos pasos. Primero, debe definir la es
 >
 >Los datos del archivo de ejemplo se utilizan para configurar la actividad pero no se importan. Recomendamos utilizar un archivo de muestra con pocos datos.
 
-1. Drag and drop a **[!UICONTROL Load file]** activity into your workflow.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
+1. Arrastre y suelte una **[!UICONTROL Load file]** actividad en el flujo de trabajo.
+1. Seleccione la actividad y ábrala utilizando ![](assets/edit_darkgrey-24px.png) el botón de las acciones rápidas que aparecen.
 1. Cargue el archivo de ejemplo que le permitirá definir la estructura esperada al importar el archivo final.
 
    ![](assets/wkf_file_loading.png)
 
-   Once the data file is uploaded, two new tabs appear in the activity: **[!UICONTROL File structure]** and **[!UICONTROL Column definition]**.
+   Una vez cargado el archivo de datos, aparecen dos nuevas fichas en la actividad: **[!UICONTROL File structure]** y **[!UICONTROL Column definition]**.
 
-1. Go to the **[!UICONTROL File structure]** tab to view the structure that is automatically detected from the sample file.
+1. Vaya a **[!UICONTROL File structure]** la ficha para ver la estructura que se detecta automáticamente desde el archivo de muestra.
 
    Si la estructura de archivos se detectó incorrectamente, tiene varias opciones para corregir los posibles errores:
 
-   * You can choose to use the structure of another file by selecting the **[!UICONTROL Detect structure from a new file]** option.
-   * Puede modificar los parámetros de detección predeterminados para adaptarlos al archivo. The **[!UICONTROL File type]** field lets you specify if the file you want to import is made up of columns with fixed length. In that case, you must also specify the maximum number of characters for each column in the **[!UICONTROL Column definition]** tab.
+   * Puede elegir utilizar la estructura de otro archivo seleccionando la **[!UICONTROL Detect structure from a new file]** opción.
+   * Puede modificar los parámetros de detección predeterminados para adaptarlos al archivo. El **[!UICONTROL File type]** campo permite especificar si el archivo que desea importar está formado por columnas con longitud fija. En ese caso, también debe especificar el número máximo de caracteres para cada columna de la **[!UICONTROL Column definition]** ficha.
 
-      All of the detection options necessary to correctly recover the data from the file are regrouped in **[!UICONTROL File format]**. Puede modificarlas y volver a detectar la estructura del último archivo cargado en la actividad teniendo en cuenta estos nuevos ajustes. To do this, use the **[!UICONTROL Apply configuration]** button. Por ejemplo, puede especificar un separador de columnas diferente.
+      Todas las opciones de detección necesarias para recuperar correctamente los datos del archivo se regroupan en **[!UICONTROL File format]**. Puede modificarlas y volver a detectar la estructura del último archivo cargado en la actividad teniendo en cuenta estos nuevos ajustes. Para ello, utilice **[!UICONTROL Apply configuration]** el botón. Por ejemplo, puede especificar un separador de columnas diferente.
 
       >[!NOTE]
       >
@@ -72,46 +72,46 @@ La configuración de la actividad implica dos pasos. Primero, debe definir la es
 
       ![](assets/wkf_file_loading3.png)
 
-      In the **[!UICONTROL File format]** section, the **[!UICONTROL Check columns from file against column definitions]** option lets you verify that the columns of the file you are uploading correspond to the column definition.
+      En **[!UICONTROL File format]** la sección, la **[!UICONTROL Check columns from file against column definitions]** opción le permite comprobar que las columnas del archivo que está cargando corresponden a la definición de columna.
 
       Si el número y/o el nombre de las columnas no coinciden con la definición de columna, aparecerá un mensaje de error al ejecutar el flujo de trabajo. Si la opción no está activada, se mostrarán advertencias en el archivo de registro.
 
       ![](assets/wkf_file_loading_check.png)
 
-1. Go to the **[!UICONTROL Column definition]** tab to check the data format for each column and adjust the parameters if necessary.
+1. Vaya a **[!UICONTROL Column definition]** la ficha para comprobar el formato de los datos de cada columna y ajustar los parámetros si es necesario.
 
-   The **[!UICONTROL Column definition]** tab allows you to precisely specify the data structure of each column in order to import data that does not contain any errors (for example, using null management) and make it match the types that are already present in the Adobe Campaign database for future operations.
+   La **[!UICONTROL Column definition]** ficha permite especificar con precisión la estructura de datos de cada columna para importar datos que no contengan errores (por ejemplo, utilizar administración nula) y hacer que coincida con los tipos que ya están presentes en la base de datos de Adobe Campaign para futuras operaciones.
 
    Por ejemplo, puede cambiar la etiqueta de una columna, seleccionar su tipo (cadena, entero, fecha, etc.) o incluso especificar el procesamiento de errores.
 
-   For more information, refer to the [Column format](../../automating/using/load-file.md#column-format) section.
+   Para obtener más información, consulte [la sección Formato](../../automating/using/load-file.md#column-format) de columna.
 
    ![](assets/wkf_file_loading4.png)
 
-1. In the **[!UICONTROL Execution]** tab, specify whether the file is to be processed for loading data:
+1. En **[!UICONTROL Execution]** la ficha, especifique si el archivo se procesará para cargar datos:
 
    * Proviene de una transición entrante en el flujo de trabajo.
    * Es la que cargó durante el paso anterior.
-   * Es un nuevo archivo que se carga desde el equipo local. The **[!UICONTROL Upload a new file from local machine]** option appears if uploading a first file was already defined in the workflow. Esto le permite cargar otro archivo para procesarlo si el archivo actual no se adapta a sus necesidades.
+   * Es un nuevo archivo que se carga desde el equipo local. La **[!UICONTROL Upload a new file from local machine]** opción aparece si la carga de un primer archivo ya se ha definido en el flujo de trabajo. Esto le permite cargar otro archivo para procesarlo si el archivo actual no se adapta a sus necesidades.
 
       ![](assets/wkf_file_loading1.png)
 
-1. If the file that you want to load the data from is compressed into a GZIP file (.gz), select the **[!UICONTROL Decompression]** option in the **[!UICONTROL Add a pre-processing step]** field. Esto le permite descomprimir el archivo antes de cargar los datos. Esta opción solo está disponible si el archivo proviene de la transición de entrada de la actividad.
-1. The **[!UICONTROL Keep the rejects in a file]** option enables you to download a file containing errors that occurred during the import, and to apply to it a post-processing stage.
+1. Si el archivo desde el que desea cargar los datos se comprime en un archivo GZIP (.gz), seleccione **[!UICONTROL Decompression]** la opción en **[!UICONTROL Add a pre-processing step]** el campo. Esto le permite descomprimir el archivo antes de cargar los datos. Esta opción solo está disponible si el archivo proviene de la transición de entrada de la actividad.
+1. La **[!UICONTROL Keep the rejects in a file]** opción le permite descargar un archivo que contiene errores producidos durante la importación y aplicarle una etapa posterior al procesamiento.
 
    >[!NOTE]
    >
-   >The **[!UICONTROL Add date and time to the file name]** option lets you add a timestamp the name of the file containing the rejects.
+   >La **[!UICONTROL Add date and time to the file name]** opción permite agregar una marca de hora al nombre del archivo que contiene los rechazos.
 
    ![](assets/wkf_file_loading_keeprejects.png)
 
 1. Confirme la configuración de su actividad y guarde el flujo de trabajo.
 
-## Column format {#column-format}
+## Formato de columna {#column-format}
 
 Cuando carga un archivo de ejemplo, el formato de columna se detecta automáticamente con los parámetros predeterminados para cada tipo de datos. Puede modificar estos parámetros predeterminados para especificar los procesos particulares que se deben aplicar a los datos, especialmente cuando hay un error o un valor vacío.
 
-To do this, select **[!UICONTROL Edit properties]** from the quick actions of the column whose format you would like to define. Se abrirá la ventana de detalles de formato de columna.
+Para ello, seleccione **[!UICONTROL Edit properties]** entre las acciones rápidas de la columna cuyo formato desee definir. Se abrirá la ventana de detalles de formato de columna.
 
 ![](assets/wkf_file_loading4.png)
 
@@ -152,20 +152,74 @@ El formato de columna permite definir el procesamiento de valores de cada column
    * **[!UICONTROL Insert NULL in the corresponding field]**: autoriza valores vacíos. Por lo tanto, se inserta el valor NULL.
    * **[!UICONTROL Generate an error]**: genera un error si un valor está vacío.
 
-## Example {#example}
+## Ejemplo 1: Actualización de la base de datos {#example-1-update-the-database}
 
 La actividad de archivos de carga principalmente estructura los datos de una actividad de archivo de transferencia para integrarlos en los datos existentes.
 
 El siguiente ejemplo muestra el resultado de una actividad de archivo de carga descargada automáticamente a través de una actividad de archivo de transferencia, seguida de una actividad de actualización de datos. Este flujo de trabajo pretende enriquecer la base de datos de Adobe Campaign con nuevos perfiles o actualizar los perfiles existentes utilizando los datos recuperados del archivo importado.
 
-1. Drag and drop a **[!UICONTROL Transfer file]** activity into your workflow and configure it in a way so that it recovers the file you would like.
-1. Drag and drop a **[!UICONTROL Load file]** activity into your workflow and place it after the **[!UICONTROL Transfer file]** activity.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. In the **[!UICONTROL File to load]** section of the **[!UICONTROL Execution]** tab, check the **[!UICONTROL Use the file specified in the inbound transition]** option.
+![](assets/load_file_workflow_ex1.png)
+
+1. Arrastre y suelte una **[!UICONTROL Transfer file]** actividad en el flujo de trabajo y configúrela de forma que recupere el archivo que desea.
+1. Arrastre y suelte una **[!UICONTROL Load file]** actividad en el flujo de trabajo y colóquela después de la **[!UICONTROL Transfer file]** actividad.
+1. Seleccione la actividad y ábrala utilizando ![](assets/edit_darkgrey-24px.png) el botón de las acciones rápidas que aparecen.
+1. En **[!UICONTROL File to load]** la sección de **[!UICONTROL Execution]** la ficha, marque la **[!UICONTROL Use the file specified in the inbound transition]** opción.
 
    ![](assets/wkf_file_loading8.png)
 
 1. Configure la actividad como se especifica anteriormente.
-1. Drag and drop an **[!UICONTROL Update data]** activity into your workflow and place it after the **[!UICONTROL Load file]** activity, then configure it. Refer to [Update data](../../automating/using/update-data.md).
+1. Arrastre y suelte una **[!UICONTROL Update data]** actividad en el flujo de trabajo y colóquela después de la **[!UICONTROL Load file]** actividad, luego configúrela. Consulte [Actualizar datos](../../automating/using/update-data.md).
 
 Una vez que se ha iniciado el flujo de trabajo, se extraen los datos del archivo cargado y se utilizan para enriquecer la base de datos de Adobe Campaign.
+
+## Ejemplo 2: Envío de un correo electrónico con campos enriquecidos {#example-2-email-with-enriched-fields}
+
+<!--A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](../../automating/using/load-file.md#example-2-email-with-enriched-fields)-->
+
+La actividad de carga de archivos también permite enviar un correo electrónico enriquecido con datos adicionales de un archivo externo en el mismo flujo de trabajo.
+
+El ejemplo siguiente muestra cómo enviar un correo electrónico utilizando datos adicionales recuperados de un archivo externo a través de la actividad de archivo de carga. En este ejemplo, el archivo externo contiene una lista de perfiles con su número de cuenta asociado. Desea importar estos datos para enviar un correo electrónico a cada perfil con su número de cuenta.
+
+![](assets/load_file_workflow_ex2.png)
+
+1. Arrastre y suelte una **[!UICONTROL Query]** actividad en el flujo de trabajo y ábrala para definir el objetivo principal.
+
+   <!--The Query activity is presented in the [Query](../../automating/using/query.md) section.-->
+
+1. Arrastre y suelte una **[!UICONTROL Load file]** actividad para asignar algunos datos a un perfil. En este ejemplo, cargue un archivo que contenga números de cuenta correspondientes a algunos perfiles de la base de datos.
+
+   ![](assets/load_file_activity.png)
+
+1. Arrastre y suelte una **[!UICONTROL Enrichment]** actividad en el flujo de trabajo y vincule el archivo de carga y las actividades de consulta a él.
+
+1. En **[!UICONTROL Advanced relations]** la ficha de la actividad de enriquecimiento, seleccione **[!UICONTROL 0 or 1 cardinality simple link]** y defina los campos que se utilizarán para la reconciliación. Aquí utilizamos el apellido para reconciliar los datos con los perfiles de la base de datos.
+
+   ![](assets/load_file_enrichment_relation.png)
+
+1. En **[!UICONTROL Additional data]** la ficha, seleccione los elementos que desee utilizar en su correo electrónico. Aquí seleccione Número de cuenta (columna del archivo que recuperó a través de la actividad de archivo de carga).
+
+   ![](assets/load_file_enrichment_select_element.png)
+
+   <!--![](assets/load_file_enrichment_additional_data.png)-->
+
+   Para obtener más información, consulte la sección [Enriquecimiento](../../automating/using/enrichment.md) .
+
+1. Arrastre y suelte una **[!UICONTROL Segmentation]** actividad en el flujo de trabajo y ábrala para refinar el objetivo principal.
+
+   ![](assets/load_file_segmentation.png)
+
+   Para obtener más información, consulte la sección [Segmentación](../../automating/using/segmentation.md) .
+
+1. Arrastre y suelte una **[!UICONTROL Email delivery]** actividad en el flujo de trabajo y ábrala.
+
+   <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
+
+1. Agregue un campo de personalización y seleccione los datos adicionales definidos en la actividad de enriquecimiento (aquí Número de cuenta) del **[!UICONTROL Additional data (targetData)]** nodo. Esto permite recuperar dinámicamente el número de cuenta de cada perfil en el contenido de correo electrónico.
+
+   ![](assets/load_file_perso_field.png)
+
+1. Guarde el correo electrónico e inicie el flujo de trabajo.
+
+El correo electrónico se envía al objetivo. Cada perfil recibe el correo electrónico con su correspondiente número de cuenta.
+
+![](assets/load_file_email.png)
