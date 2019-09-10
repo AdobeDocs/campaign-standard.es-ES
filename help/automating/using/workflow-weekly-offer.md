@@ -15,7 +15,7 @@ context-tags: flujo de trabajo, caso de uso, consulta, entrega, programador
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
+source-git-commit: 035726bbd3112058b9a89525a861521bc3b9867e
 
 ---
 
@@ -52,6 +52,8 @@ Puede enviar un mensaje de correo electrónico cada martes a todos los clientes 
 1. Seleccione **[!UICONTROL is not empty]** como operador.
 1. **[!UICONTROL Shortcuts]** En &gt; **[!UICONTROL General]**, agregue perfiles y seleccione **[!UICONTROL no longer contact by email]** con el valor **[!UICONTROL No]**.
 1. Click **[!UICONTROL Confirm]**.
+
+![](assets/wf-complement-query.png)
 
 ## Creación de una entrega por correo electrónico{#creating-an-email-delivery}
 
