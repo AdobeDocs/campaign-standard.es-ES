@@ -15,40 +15,40 @@ context-tags: Seedmember, información general
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3cb698bc5025a59771128a8df493e7e126f00cab
+source-git-commit: 27447db9ee0dd387c39976c7bd4e157a4b7899b8
 
 ---
 
 
-# Managing test profiles and sending proofs{#managing-test-profiles-and-sending-proofs}
+# Administración de perfiles de prueba y envío de pruebas{#managing-test-profiles-and-sending-proofs}
 
-## About test profiles {#about-test-profiles}
+## Acerca de los perfiles de prueba {#about-test-profiles}
 
 Los perfiles de prueba le permiten dirigirse a destinatarios adicionales que no coinciden con los criterios de objetivo definidos. Se agregan a la audiencia de un mensaje para detectar cualquier uso fraudulento de la base de datos de destinatarios o para garantizar que los mensajes de correo electrónico lleguen a las bandejas de entrada.
 
-You can manage your test profiles from the advanced menu **[!UICONTROL Profiles & audiences > Test profiles]**.
+Puede administrar los perfiles de prueba desde el menú **[!UICONTROL Profiles & audiences > Test profiles]** avanzado.
 
 Un perfil de prueba contiene información de contacto ficticia o información de contacto controlada por el remitente, que luego se puede utilizar en un mensaje en los siguientes contextos:
 
-* For sending **Proofs**: the Proof is a specific message used to check the message before sending the finalized delivery to recipients. El perfil de prueba de prueba se encarga de comprobar la entrega con respecto a su contenido y formato. See [Sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs).
-* For **Email rendering**: the Email rendering test profile is used to check the way in which a message is displayed according to the message inbox that receives it. Por ejemplo, correo web, servicio de mensajes, móvil, etc. See [Email rendering](../../sending/using/email-rendering.md).
+* Para enviar **pruebas**: La prueba es un mensaje específico que se utiliza para comprobar el mensaje antes de enviar la entrega terminada a los destinatarios. El perfil de prueba de prueba se encarga de comprobar la entrega con respecto a su contenido y formato. Consulte [Envío de pruebas](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs).
+* Para **procesamiento por correo electrónico**: El perfil de prueba de procesamiento de correo electrónico se utiliza para comprobar la forma en que se muestra un mensaje según la bandeja de entrada del mensaje que la reciba. Por ejemplo, correo web, servicio de mensajes, móvil, etc. Consulte [Procesamiento de correo electrónico](../../sending/using/email-rendering.md).
 
-   The **Email rendering** use is read-only. Los perfiles de prueba con este uso solo están disponibles en Adobe Campaign.
+   El **uso de procesamiento** de correo electrónico es de solo lectura. Los perfiles de prueba con este uso solo están disponibles en Adobe Campaign.
 
-* **Como reventado**: El mensaje se envía al perfil de prueba al igual que se envía al objetivo principal, como un medio para identificar si el archivo cliente se está usando de forma fraudulenta.
-* To **Preview** messages: a test profile can be selected when previewing a message to test the personalization elements.
+* **Como reventado**: El mensaje se envía al perfil de prueba al igual que se envía al objetivo principal. Consulte [Uso de trampas](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps).
+* Para **previsualizar** mensajes: se puede seleccionar un perfil de prueba al obtener una vista previa de un mensaje para probar los elementos de personalización. Consulte [Vista previa de mensajes](/help/sending/using/previewing-messages.md).
 
 ![](assets/test_profile.png)
 
-## Managing test profiles {#managing-test-profiles}
+## Administración de perfiles de prueba {#managing-test-profiles}
 
-### Creating test profiles {#creating-test-profiles}
+### Creación de perfiles de prueba {#creating-test-profiles}
 
-1. From the advanced menu, via the Adobe Campaign logo, select **Profiles &amp; audiences &gt; Test profiles** to access the list of test profiles.
+1. Desde el menú avanzado, a través del logotipo de Adobe Campaign, seleccione **Perfiles y audiencias &gt; Perfiles de prueba** para acceder a la lista de perfiles de prueba.
 
    ![](assets/test_profile_creation_1.png)
 
-1. From the **[!UICONTROL Test profiles]** dashboard, click **Create**.
+1. En el **[!UICONTROL Test profiles]** tablero, haga clic **en Crear**.
 
    ![](assets/test_profile_creation_2.png)
 
@@ -60,14 +60,14 @@ Un perfil de prueba contiene información de contacto ficticia o información de
 
    ![](assets/test_profile_creation_4.png)
 
-1. Enter the contact channels **[!UICONTROL Email, Telephone, Mobile, Mobile app]**, as well as the test profile address if necessary.
+1. Introduzca los canales **[!UICONTROL Email, Telephone, Mobile, Mobile app]** de contacto, así como la dirección de perfil de prueba, si es necesario.
 
    >[!NOTE]
    >
-   >You can define a preferred email format: **[!UICONTROL Text]** or **[!UICONTROL HTML]**.
+   >Puede definir un formato de correo electrónico preferido: **[!UICONTROL Text]** o **[!UICONTROL HTML]**.
 
 1. Especifique un tipo de evento y los datos de este evento si desea utilizar este perfil de prueba para probar la personalización de un mensaje transaccional.
-1. Click **[!UICONTROL Create]** to save the test profile.
+1. Haga clic en **[!UICONTROL Create]** para guardar el perfil de prueba.
 
 El perfil de prueba se agregará a la lista de perfiles.
 
@@ -75,7 +75,7 @@ El perfil de prueba se agregará a la lista de perfiles.
 
 [Creación de un vídeo de perfil](https://helpx.adobe.com/campaign/kt/acs/using/acs-test-profiles-feature-video-use.html) de prueba
 
-### Editing test profiles {#editing-test-profiles}
+### Edición de perfiles de prueba {#editing-test-profiles}
 
 Para editar un perfil de prueba y consultar los datos vinculados a él, o para modificarlos:
 
@@ -84,25 +84,25 @@ Para editar un perfil de prueba y consultar los datos vinculados a él, o para m
 
    ![](assets/test_profile_edit.png)
 
-1. Click **[!UICONTROL Save]** if you have entered your changes, or select the name of the test profile then **[!UICONTROL Test profiles]** in the section at the top of the screen to go back to the test profiles dashboard.
+1. Haga clic **[!UICONTROL Save]** en si ha introducido los cambios o en el nombre del perfil de prueba, en **[!UICONTROL Test profiles]** la sección situada en la parte superior de la pantalla, para regresar al tablero de perfiles de prueba.
 
-## Sending proofs {#sending-proofs}
+## Envío de pruebas {#sending-proofs}
 
 Una prueba es un mensaje específico que permite probar un mensaje antes de enviarlo al objetivo principal.
 
-Los destinatarios de la prueba se encargan de aprobar el mensaje (su contenido y formulario). They are defined in the **Test profiles**. For more on this, see [Managing test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles).
+Los destinatarios de la prueba se encargan de aprobar el mensaje (su contenido y formulario). Se definen en los perfiles **de prueba**. Para obtener más información sobre esto, consulte [Administración de perfiles de prueba](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles).
 
 Para enviar una prueba, los perfiles de la prueba deben incluirse en la audiencia del mensaje.
 
 En un mensaje:
 
-1. Click the **[!UICONTROL Send a test]** button.
+1. Haga clic en **[!UICONTROL Send a test]** el botón.
 
    ![](assets/bat_select.png)
 
 1. Seleccione el tipo de prueba que desee utilizar:
 
-   * **[!UICONTROL Email rendering]**: Seleccione esta opción para comprobar la forma en que se recibe el mensaje según las bandejas de entrada dirigidas. For more information, refer to [Email rendering](../../sending/using/email-rendering.md).
+   * **[!UICONTROL Email rendering]**: Seleccione esta opción para comprobar la forma en que se recibe el mensaje según las bandejas de entrada dirigidas. Para obtener más información, consulte Procesamiento [por correo electrónico](../../sending/using/email-rendering.md).
    * **[!UICONTROL Proof]**: seleccione esta opción para probar el mensaje antes de enviarlo al objetivo principal. Los destinatarios de la prueba se encargan de aprobar la entrega, comprobando tanto su contenido como su formato.
    * **[!UICONTROL Proof + Email rendering]**: esta opción combina las dos opciones anteriores.
    ![](assets/bat_select1.png)
@@ -113,15 +113,15 @@ En un mensaje:
 
    ![](assets/bat_select2.png)
 
-1. You can view your proofs using the **[!UICONTROL Proofs]** drop-down list.
+1. Puede ver las pruebas mediante la lista **[!UICONTROL Proofs]** desplegable.
 
    ![](assets/bat_view.png)
 
-1. Seleccione una prueba para acceder a su resumen. For an email, if you have selected the **Email rendering** option as the proof type, the **[!UICONTROL Access email rendering]** icon is displayed on the right of the proof label. See [Email rendering](../../sending/using/email-rendering.md).
+1. Seleccione una prueba para acceder a su resumen. Para un correo electrónico, si ha seleccionado **la opción de procesamiento** Correo electrónico como tipo de prueba, el **[!UICONTROL Access email rendering]** icono se muestra a la derecha de la etiqueta de prueba. Consulte [Procesamiento de correo electrónico](../../sending/using/email-rendering.md).
 
    ![](assets/bat_view2.png)
 
-Según los comentarios de las personas que reciban la prueba, es posible que se le pida que modifique el contenido de la entrega. Una vez realizadas las modificaciones, tendrá que reiniciar la preparación de correo electrónico y volver a enviar una prueba. Each new proof can be accessed using the **[!UICONTROL Show proofs]** button.
+Según los comentarios de las personas que reciban la prueba, es posible que se le pida que modifique el contenido de la entrega. Una vez realizadas las modificaciones, tendrá que reiniciar la preparación de correo electrónico y volver a enviar una prueba. Se puede acceder a cada nueva prueba mediante **[!UICONTROL Show proofs]** el botón.
 
 Debe enviar tantas pruebas como sea necesario hasta que haya finalizado el contenido de la entrega. Una vez finalizado esto, puede enviar la entrega al destino principal y cerrar el ciclo de aprobación.
 
@@ -129,41 +129,46 @@ Debe enviar tantas pruebas como sea necesario hasta que haya finalizado el conte
 
 [Envío de una prueba, preparación y envío de](https://helpx.adobe.com/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html) un vídeo de correo electrónico
 
-<!-- ## Sending proofs using additional data {#sending-proofs-using-additional-data}
+## Uso de reventados {#using-traps}
 
-This section describes how to send proofs using real customer data accessible via a workflow, as opposed to using fake test profile data. This allows you to check that the variables used in the workflow are accurate and to get a view of the message that your recipients will receive.
+Cuando se usan reventados, el mensaje se envía al perfil de prueba al igual que se envía al destino principal, como un medio para identificar si el archivo cliente se está usando de forma fraudulenta.
 
-1. Create a test profile and enable **[!UICONTROL Proof]** and **[!UICONTROL Trap]** as the intended usage. For more on this, see [Managing test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles).
+Las trampas originalmente se diseñaron para envíos directos de correo electrónico. Permiten:
+* Verifique que el proveedor de correo directo esté enviando la comunicación.
+* Reciba el correo al mismo tiempo y en las mismas condiciones que sus clientes.
+* Mantenga una copia exacta del correo enviado.
+* Compruebe que su proveedor de correo directo no utiliza la lista de clientes. En realidad, si se envía alguna otra comunicación a la dirección del perfil de prueba, es posible que el archivo de cliente se haya utilizado sin su conocimiento. Por este motivo, la dirección del perfil de prueba debe utilizarse únicamente para este fin.
 
-    This test profile becomes part of the targeted audience.
+Para obtener más información sobre cómo agregar a una audiencia de correo directo, consulte [Adición de perfiles de prueba y de captura](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles).
 
-   >[!NOTE]
-   >
-   >When using a test profile as a trap, for any enriched fields in a message, the corresponding additional data is randomly picked from a real targeted profile and assigned to the trap test profile.
+Para los demás canales de comunicación, puede agregar perfiles de prueba de reventado al objetivo principal para:
+* Compruebe que el mensaje se envió correctamente.
+* Obtenga y mantenga una copia exacta del mensaje.
+* Rastrear cuándo se envió y recibió.
 
-1. Access the marketing activity list and create a test workflow.
-
-   See [Creating a workflow](../../automating/using/building-a-workflow.md#creating-a-workflow).
-
-1. Drag and drop a **[!UICONTROL Query]** activity into your workflow and open it.
-
-   The Query activity is presented in the [Query](../../automating/using/query.md) section.
-
-1. Add additional data from a linked table. For more on this, see [Enriching data](../../automating/using/query.md#enriching-data).
-
-1. Drag and drop an **Email delivery** activity into your workflow and open it.
-
-   The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.
-
-1. From the email message dashboard, select the test profile with trap usage that you created.
-
-1. Add to your email content personalization fields using the additional data that you defined in the Query activity.
-
-1. Save the email and start the workflow.
-
-During message preparation, the target count includes the test profile that you selected.
-Once the message is sent, additional data is replaced by data from a real profile.
+Para utilizar un perfil de prueba como reventado, debe incluirse en la audiencia del mensaje.
 
 >[!NOTE]
+>
+>A diferencia de los perfiles de prueba utilizados para [las pruebas](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs) o [el procesamiento de correo electrónico](../../sending/using/email-rendering.md), el mensaje se envía al mismo tiempo al destino principal y a los perfiles de prueba utilizados como trampas.
+
+Al definir la audiencia de un mensaje:
+
+1. En la **[!UICONTROL Test profiles]** ficha, seleccione un perfil de prueba. Asegúrese de que tiene **[!UICONTROL Trap]** el uso previsto.
+
+   ![](assets/trap_select.png)
+
+1. Cuando el contenido del mensaje esté listo, haga clic en **[!UICONTROL Prepare]** el botón. Consulte [Preparación del envío](../../sending/using/preparing-the-send.md).
+   >[!NOTE]
    >
-   >Only additional data are replaced. No real profile data such as first name or last name will be used for the test profile. -->
+   >Asegúrese de seleccionar un objetivo principal. De lo contrario, no se puede enviar el mensaje.
+
+1. Haga clic en **[!UICONTROL Confirm]** el botón. Consulte [Confirmación del envío](../../sending/using/confirming-the-send.md).
+
+   ![](assets/trap_confirm.png)
+
+El mensaje se envía al objetivo principal y al perfil de prueba.
+
+>[!NOTE]
+>
+>Cuando se utiliza un perfil de prueba como reventado, para cualquier campo enriquecido de un mensaje, los datos adicionales correspondientes se seleccionan aleatoriamente desde un perfil de destino real y se asignan al perfil de prueba de reventado. Para obtener más información sobre el enriquecimiento, consulte [este ejemplo](../../automating/using/enrichment.md#example--enriching-profile-data-with-data-contained-in-a-file).
