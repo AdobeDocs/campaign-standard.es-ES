@@ -15,7 +15,7 @@ context-tags: flujo de trabajo, uso de mayúsculas y minúsculas, segmentación
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
+source-git-commit: 035726bbd3112058b9a89525a861521bc3b9867e
 
 ---
 
@@ -36,6 +36,8 @@ Puede enviar un correo electrónico a los clientes: Una para clientes creados ha
 1. En **[!UICONTROL Shortcuts]**, arrastre y suelte **[!UICONTROL Profiles]** y seleccione **[!UICONTROL no longer contact by email]** con el valor **[!UICONTROL no]**.
 1. Click **[!UICONTROL Confirm]**.
 
+![](assets/wf-complement-query.png)
+
 ## Crear una actividad de segmentación {#create-a-segmentation-activity}
 
 1. En **[!UICONTROL Activities]** &gt; **[!UICONTROL Targeting]**, arrastre y suelte una **[!UICONTROL Segmentation]** actividad y haga doble clic en ella.
@@ -46,6 +48,8 @@ Puede enviar un correo electrónico a los clientes: Una para clientes creados ha
 1. En **[!UICONTROL Advanced Options]**, asegúrese **[!UICONTROL Generate complement]** de crear un segmento dirigido a los destinatarios restantes.
 1. Click **[!UICONTROL Confirm]**.
 1. Click **[!UICONTROL Save]**.
+
+![](assets/wf-complement-segmentation.png)
 
 >[!NOTE]
 >
@@ -65,6 +69,8 @@ Puede enviar un correo electrónico a los clientes: Una para clientes creados ha
 1. Click **[!UICONTROL Save]**.
 
 Para obtener más información, consulte [Diseño de un correo electrónico](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
+
+![](assets/wf-deliveries-with-a-complement.png)
 
 **Temas relacionados:**
 
