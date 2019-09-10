@@ -15,31 +15,33 @@ context-tags: delivery, directmailcontent, back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b0cf437ec97153b53bd4502171b24286abb25731
+source-git-commit: 27447db9ee0dd387c39976c7bd4e157a4b7899b8
 
 ---
 
 
-# Defining the direct mail audience{#defining-the-direct-mail-audience}
+# Definición de la audiencia de correo directo{#defining-the-direct-mail-audience}
 
-You can either define the audience in the creation wizard or by clicking on the **Audience** section of the delivery dashboard.
+Puede definir la audiencia en el asistente para creación o haciendo clic en la **sección Audiencia** del tablero de envío.
 
 ![](assets/direct_mail_15.png)
 
-## Defining the main target {#defining-the-main-target}
+## Definición del objetivo principal {#defining-the-main-target}
 
 Para el correo directo, los perfiles de objetivo son los que se incluirán en el archivo de extracción que se enviarán al proveedor de correo directo.
 
-Para cada perfil de destino, se agrega una nueva línea en el archivo de extracción. The amount of profile information that will be included for each recipient is defined in the [Defining the extraction](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) screen.
+Para cada perfil de destino, se agrega una nueva línea en el archivo de extracción. La cantidad de información de perfil que se incluirá para cada destinatario se define en [la definición de la](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) pantalla de extracción.
 
 >[!CAUTION]
 >
->Asegúrese de que los perfiles incluyan una dirección postal, ya que esta información es esencial para el proveedor de correo directo. Also make sure you have checked the **[!UICONTROL Address specified]** box in your profiles' information. See [Recommendations](../../channels/using/about-direct-mail.md#recommendations).
+>Asegúrese de que los perfiles incluyan una dirección postal, ya que esta información es esencial para el proveedor de correo directo. También asegúrese de que ha marcado **[!UICONTROL Address specified]** la casilla en la información de los perfiles. Consulte [Recomendaciones](../../channels/using/about-direct-mail.md#recommendations).
 
-## Adding test and trap profiles {#adding-test-and-trap-profiles}
+## Adición de perfiles de prueba y de reventado {#adding-test-and-trap-profiles}
 
-Agregue perfiles de prueba para poder probar el archivo con un pequeño número de perfiles. Permite crear rápidamente un ejemplo de archivo para probar y validar la estructura antes de preparar el archivo real. Refer to [Managing test profiles and sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md).
+Agregue perfiles de prueba para poder probar el archivo con un pequeño número de perfiles. Permite crear rápidamente un ejemplo de archivo para probar y validar la estructura antes de preparar el archivo real. Consulte [Administración de perfiles de prueba y envío de pruebas](../../sending/using/managing-test-profiles-and-sending-proofs.md).
 
-El uso de trampas es esencial para enviar envíos de correo electrónico. Por ejemplo, permiten verificar que el proveedor de correo directo realmente esté enviando la comunicación y que no envían la lista de clientes a otro proveedor.
+El uso de trampas es esencial para enviar envíos de correo electrónico. Permiten verificar que el proveedor de correo directo realmente esté enviando la comunicación y que no envían la lista de clientes a otro proveedor. Consulte [Uso de trampas](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps).
 
-Para envíos de correo directo, se agregan trampas durante la extracción y se mezclan en el documento de salida. By default, they are inserted in the sorting order of the output file, but you can choose to insert them at the end or the beginning of the file ( **[!UICONTROL Trap insertion mode]** tab).
+Para envíos de correo directo, se agregan trampas durante la extracción y se mezclan en el documento de salida. De forma predeterminada, se insertan en el orden de clasificación del archivo de salida, pero puede optar por insertarlos al final o al principio del archivo. Al definir la audiencia, seleccione la opción que desee en **[!UICONTROL Trap insertion mode]** la ficha.
+
+![](assets/direct_mail_trap_insertion_mode.png)
