@@ -14,7 +14,7 @@ discoiquuid: dcee 9711-7 fa 6-4773-ba 21-1 d 54 cda 20 c 05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8006d2631a512c68ffdd6eed9e7536abac45faa2
+source-git-commit: 815a0aba5a31346e3cd8dcaf0c24ee311da81ed1
 
 ---
 
@@ -26,6 +26,14 @@ Obtenga información sobre las últimas actualizaciones de la documentación de 
 Esta página enumera todas las nuevas funciones y actualizaciones de documentación para cada versión de Adobe Campaign Standard.
 
 También puede consultar las Notas [de la versión de Adobe Campaign](../../rn/using/release-notes.md).
+
+## Actualizaciones de documentación: septiembre de 2019 {#doc-updates-september-2019}
+
+Se agregó una nueva sección en la sección Notificaciones push sobre cómo crear y actualizar información de perfil en función de los datos de suscripción de aplicaciones móviles. [Más información](../../channels/using/updating-profile-with-mobile-app-data.md)
+
+Se ha añadido un ejemplo nuevo que muestra cómo enviar un correo electrónico que contiene datos recuperados de una actividad de archivo de carga. [Más información](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
+
+Se ha añadido una nueva sección sobre cómo utilizar las trampas. [Más información](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps)
 
 ## Actualizaciones de documentación: agosto de 2019 {#doc-updates-august-2019}
 
