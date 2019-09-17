@@ -1,42 +1,42 @@
 ---
-title: Uso de los servicios principales de campaña y recursos
-seo-title: Uso de los servicios principales de campaña y recursos
-description: Uso de los servicios principales de campaña y recursos
-seo-description: Utilice los recursos compartidos en Adobe Experience Cloud en sus mensajes de Adobe Campaign y en las páginas de aterrizaje gracias a la integración del servicio principal de recursos.
-page-status-flag: no activado nunca
-uuid: 264 a 1260-33 d 6-412 b-b 2 c 8-0 d 57 ca 10 d 025
+title: Uso del servicio principal de Campaign y Assets
+seo-title: Uso del servicio principal de Campaign y Assets
+description: Uso del servicio principal de Campaign y Assets
+seo-description: Utilice todos los recursos compartidos en Adobe Experience Cloud en sus mensajes y páginas de aterrizaje de Adobe Campaign gracias a la integración del servicio principal de Assets.
+page-status-flag: nunca activado
+uuid: 264a1260-33d6-412b-b2c8-0d57ca10d025
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: integrar
-content-type: reference
-topic-tags: working-with-campaign-and-assets-core-service
-discoiquuid: e 6 fefe 10-afd 5-4628-8 d 9 b -69 eeb 38070 eb
+content-type: referencia
+topic-tags: trabajo con campaña y recursos-servicio principal
+discoiquuid: e6fefe10-afd5-4628-8d9b-69eeb38070eb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
 
 ---
 
 
-# Working with Campaign and Assets core service{#working-with-campaign-and-assets-core-service}
+# Uso del servicio principal de Campaign y Assets{#working-with-campaign-and-assets-core-service}
 
-La integración de los servicios principales de Assets o los recursos On Demand (según la configuración del entorno de Adobe Experience Cloud) con Adobe Campaign permite utilizar cualquier recurso que se comparte dentro de Adobe Experience Cloud en sus correos electrónicos y páginas de aterrizaje de Adobe Campaign.
+La integración del servicio principal de Recursos o Recursos On Demand (según la configuración del entorno de Adobe Experience Cloud) con Adobe Campaign le permite utilizar cualquier recurso que se comparta en Adobe Experience Cloud en sus correos electrónicos y páginas de aterrizaje de Adobe Campaign.
 
-Los recursos compartidos desde Adobe Experience Cloud se pueden utilizar en sus correos electrónicos y páginas de aterrizaje.
+Los recursos compartidos desde Adobe Experience Cloud se pueden usar en sus correos electrónicos y páginas de aterrizaje.
 
-1. When editing the content of an email or landing page, go to an image block, then select **[!UICONTROL Image shared from Adobe Experience Cloud]** via the contextual menu.
+1. Al editar el contenido de un correo electrónico o una página de aterrizaje, vaya a un bloque de imagen y, a continuación, seleccione **[!UICONTROL Image shared from Adobe Experience Cloud]** mediante el menú contextual.
 
    ![](assets/dam_insert_image_dce.png)
 
-1. En la ventana de selección que se abre, seleccione una imagen y, a continuación, confirme.
+1. En la ventana de selección que se abre, seleccione una imagen y confirme.
 
    ![](assets/dam_shared_image_selection.png)
 
-La imagen se inserta posteriormente. Ahora se puede personalizar la entrega según sea necesario y enviada.
+A continuación, se inserta la imagen. La entrega ahora se puede personalizar según sea necesario y enviar.
 
 **Temas relacionados:**
 
 * [Recursos y uso compartido](https://marketing.adobe.com/resources/help/en_US/mcloud/experience-cloud-assets.html)
-* [Editor de contenido](../../designing/using/example--email-personalization.md)
+* [Editor de contenido](../../designing/using/personalization.md#example-email-personalization)
 
