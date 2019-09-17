@@ -2,39 +2,39 @@
 title: Vista previa de mensajes
 seo-title: Vista previa de mensajes
 description: Vista previa de mensajes
-seo-description: Obtenga información sobre cómo obtener una vista previa de un mensaje en el editor de contenido o en el correo electrónico de Designer.
-page-status-flag: no activado nunca
-uuid: 8 dffca 95-59 fe -4 e 9 b -93 cb -73 b 33 ffde 020
+seo-description: Obtenga información sobre cómo obtener una vista previa de un mensaje en el editor de contenido o en el Diseñador de correo electrónico.
+page-status-flag: nunca activado
+uuid: 8dffca95-59fe-4e9b-93cb-73b33ffde020
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: enviar
-content-type: reference
-topic-tags: preparing-and-testing-messages
-discoiquuid: 8428 f 8 ac -8 ef 5-46 cd -9 d 93-10 ec 0 ecd 3 ded
+content-type: referencia
+topic-tags: preparar y probar mensajes
+discoiquuid: 8428f8ac-8ef5-46cd-9d93-10ec0ecd3ded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 4ad558fce83006879455a791127594157456f0c4
 
 ---
 
 
-# Previewing messages{#previewing-messages}
+# Vista previa de mensajes{#previewing-messages}
 
-After adding test profiles in the **[!UICONTROL Audience]** window, you can preview your message to check its personalization and how your recipients will see your delivery.
+Después de agregar perfiles de prueba en la **[!UICONTROL Audience]** ventana, puede obtener una vista previa del mensaje para comprobar su personalización y cómo verán la entrega los destinatarios.
 
-1. In the [Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer), click the **[!UICONTROL Preview]** button.
+1. En el Diseñador de [correo electrónico](../../designing/using/overview.md), haga clic en el **[!UICONTROL Preview]** botón .
 
    ![](assets/sending_preview.png)
 
-   Una vista de escritorio y una vista móvil adaptable de su correo electrónico se muestran en paralelo.
+   Una vista de escritorio y una vista móvil adaptable del correo electrónico se muestran una al lado de la otra.
 
-1. Durante cada vista previa se realiza una comprobación automática contra los descodificadores. Click the **[!UICONTROL Anti-spam analysis]** button to find out more about the warning.
+1. Durante cada vista previa se realiza una comprobación automática del contenido no deseado. Haga clic en el **[!UICONTROL Anti-spam analysis]** botón para obtener más información sobre la advertencia.
 
    ![](assets/sending_anti-spam_analysis.png)
 
-1. Select the **[!UICONTROL Change profile]** button to choose the test profile you want to test the personalization elements on.
-1. To exit the **[!UICONTROL Preview]** mode, click the **[!UICONTROL Edit]** button on top left of the screen.
+1. Seleccione el **[!UICONTROL Change profile]** botón para elegir el perfil de prueba en el que desea probar los elementos de personalización.
+1. Para salir del **[!UICONTROL Preview]** modo, haga clic en el **[!UICONTROL Edit]** botón situado en la parte superior izquierda de la pantalla.
 
    ![](assets/sending_preview_edit.png)
 
