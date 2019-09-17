@@ -2,76 +2,76 @@
 title: Notificaciones push transaccionales
 seo-title: Notificaciones push transaccionales
 description: Notificaciones push transaccionales
-seo-description: Obtenga información sobre cómo crear y publicar una notificación push de transacción.
-page-status-flag: no activado nunca
-uuid: ef 31 c 1 b 6-9 ef 8-42 e 3-b 49 d -72 f 9 eac 8 ea 32
+seo-description: Obtenga información sobre cómo crear y publicar una notificación push transaccional.
+page-status-flag: nunca activado
+uuid: ef31c1b6-9ef8-42e3-b49d-72f9eac8ea32
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: canales
-content-type: reference
-topic-tags: mensajes transaccionales
-discoiquuid: e 645 d 4 b 9-001 f -47 d 9-8 a 0 f-b 4696 c 75 c 5 d 3
+content-type: referencia
+topic-tags: transaccional-mensajería
+discoiquuid: e645d4b9-001f-47d9-8a0f-b4696c75c5d3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 855db33971afdf9f02bf1b00be67c9e3f50bee06
+source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
 
 
-# Transactional push notifications{#transactional-push-notifications}
+# Notificaciones push transaccionales{#transactional-push-notifications}
 
-Puede utilizar Adobe Campaign para enviar notificaciones push transaccionales en dispositivos móviles iOS y Android. Estos mensajes se reciben en aplicaciones móviles que configuró en Adobe Campaign aprovechando el SDK de Mobile Cloud Mobile.
+Puede utilizar Adobe Campaign para enviar notificaciones push transaccionales en dispositivos móviles iOS y Android. Estos mensajes se reciben en aplicaciones móviles que se configuran en Adobe Campaign mediante el uso del SDK de Experience Cloud Mobile.
 
 >[!NOTE]
 >
->El canal push es opcional. Verifique su contrato de licencia. For more information on standard push notifications, see [Push notifications](../../channels/using/about-push-notifications.md).
+>El canal push es opcional. Verifique su contrato de licencia. Para obtener más información sobre las notificaciones push estándar, consulte Notificaciones [](../../channels/using/about-push-notifications.md)push.
 
-Puede enviar dos tipos de notificaciones push transaccionales:
+Puede enviar dos tipos de notificaciones push de transacciones:
 
 * Notificaciones push transaccionales dirigidas a un evento.
-* Notificaciones push transaccionales de segmentación de perfiles desde la base de datos de Adobe Campaign.
+* Notificaciones push transaccionales con perfiles de objetivo de la base de datos de Adobe Campaign.
 
-Once you have created and published an event (the cart abandonment explained in [this section](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle)), the corresponding transactional push notification is created automatically.
+Una vez creado y publicado un evento (el abandono del carro de compras explicado en [esta sección](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle)), la notificación push de transacción correspondiente se crea automáticamente.
 
-The configuration steps are presented in the [Configuring an event to send a transactional push notification](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) section.
+Los pasos de configuración se presentan en la sección [Configuración de un evento para enviar una notificación](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) push transaccional.
 
-Para que el evento active enviar un mensaje de transacción, debe personalizar el mensaje, luego probarlo y publicarlo.
+Para que el evento active el envío de un mensaje transaccional, debe personalizar el mensaje, probarlo y publicarlo.
 
 >[!NOTE]
 >
->To access the transactional messages, you must have administration rights or appear in the **[!UICONTROL Message Center agents]** (mcExec) security group.
+>Para acceder a los mensajes transaccionales, debe tener derechos de administración o aparecer en el grupo de seguridad **[!UICONTROL Message Center agents]** (mcExec).
 
-## Transactional push notifications targeting an event {#transactional-push-notifications-targeting-an-event}
+## Notificaciones push transaccionales dirigidas a un evento {#transactional-push-notifications-targeting-an-event}
 
-Puede enviar una notificación push de transacción anónima a todos los usuarios que hayan elegido recibir notificaciones desde su aplicación móvil.
+Puede enviar una notificación push de transacción anónima a todos los usuarios que hayan elegido recibir notificaciones desde la aplicación móvil.
 
-En este caso, solo los datos contenidos en el evento propiamente dicho se utilizan para definir el objetivo de entrega. No se aprovechan los datos de la base de datos de perfil integrada de Adobe Campaign.
+En este caso, solo se utilizan los datos contenidos en el propio evento para definir el objetivo de entrega. No se aprovecha ningún dato de la base de datos de perfiles integrados de Adobe Campaign.
 
-### Sending a transactional push notification targeting an event {#sending-a-transactional-push-notification-targeting-an-----------event}
+### Envío de una notificación push transaccional dirigida a un evento {#sending-a-transactional-push-notification-targeting-an-----------event}
 
-Por ejemplo, una empresa de aerolíneas desea invitar a los usuarios de la aplicación móvil a dirigirse a la portada relevante para ingresar.
+Por ejemplo, una empresa de aerolíneas desea invitar a sus usuarios de aplicaciones móviles a que procedan a la puerta de embarque correspondiente.
 
-La empresa enviará una notificación push de transacción por usuario (identificada con un distintivo de registro) usando una aplicación móvil a través de un único dispositivo.
+La empresa enviará una notificación push transaccional por usuario (identificada con un token de registro), utilizando una aplicación móvil, a través de un solo dispositivo.
 
-1. Vaya al mensaje de transacción creado para editarlo. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
+1. Vaya al mensaje transaccional que se creó para editarlo. Consulte Mensajes [transaccionales](../../channels/using/event-transactional-messages.md)de eventos.
 
    ![](assets/message-center_push_message.png)
 
-1. Click the **[!UICONTROL Content]** block to modify your message's title and body.
+1. Haga clic en el **[!UICONTROL Content]** bloque para modificar el título y el cuerpo del mensaje.
 
    Puede insertar campos de personalización para agregar elementos que definió al crear el evento.
 
    ![](assets/message-center_push_content.png)
 
-   To find these fields, click the pencil next to an item, click **[!UICONTROL Insert personalization field]** and select **[!UICONTROL Transactional event]** &gt; **[!UICONTROL Event context]**.
+   Para buscar estos campos, haga clic en el lápiz situado junto a un elemento, haga clic en **[!UICONTROL Insert personalization field]** y seleccione **[!UICONTROL Transactional event]** &gt; **[!UICONTROL Event context]**.
 
    ![](assets/message-center_push_personalization.png)
 
-   For more on editing a push notification content, see [Creating a push notification](../../channels/using/preparing-and-sending-a-push-notification.md).
+   Para obtener más información sobre la edición de contenido de una notificación push, consulte [Creación de una notificación](../../channels/using/preparing-and-sending-a-push-notification.md)push.
 
-1. Guarde los cambios y publique el mensaje. See [Publishing a transactional message](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
-1. Mediante la API REST de Adobe Campaign Standard, envíe un evento a un distintivo de registro (ABCDEF 123456789) usando una aplicación móvil (weflight), en Android (gcm), que contenga los datos de embarque.
+1. Guarde los cambios y publique el mensaje. Consulte [Publicación de un mensaje](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message)transaccional.
+1. Mediante la API REST de Adobe Campaign Standard, envíe un evento a un token de registro (ABCDEF123456789), mediante una aplicación móvil (WeFlight), en Android (gcm), que contenga los datos de embarque.
 
    ```
    {
@@ -87,43 +87,43 @@ La empresa enviará una notificación push de transacción por usuario (identifi
    }
    ```
 
-   For more on integrating the triggering of an event into an external system, see [Site integration](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website).
+   Para obtener más información sobre la integración del activador de un evento en un sistema externo, consulte Integración [del](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)sitio.
 
-Si el distintivo de registro existe, el usuario correspondiente recibe una notificación push transaccional que incluye el siguiente contenido:
+Si existe el token de registro, el usuario correspondiente recibe una notificación push transaccional que incluye el siguiente contenido:
 
-" Hello Jane Green, la internada acaba de empezar! Vaya a Gate B 18. "
+"Hola Jane Green, el embarque acaba de empezar! Proceda a la Puerta B18."
 
-## Transactional push notifications targeting a profile {#transactional-push-notifications-targeting-a-profile}
+## Notificaciones push transaccionales dirigidas a un perfil {#transactional-push-notifications-targeting-a-profile}
 
-Puede enviar una notificación push de transacción a los perfiles de Adobe Campaign que se han suscrito a la aplicación móvil. This delivery can contain [personalization](../../designing/using/inserting-a-personalization-field.md) fields, such as the recipient's first name.
+Puede enviar una notificación push de transacción a los perfiles de Adobe Campaign que se hayan suscrito a su aplicación móvil. Esta entrega puede contener campos de [personalización](../../designing/using/personalization.md#inserting-a-personalization-field) , como el nombre del destinatario.
 
-En este caso, el evento debe contener campos que permitan la reconciliación con un perfil de la base de datos de Adobe Campaign.
+En este caso, el evento debe contener algunos campos que permitan la reconciliación con un perfil de la base de datos de Adobe Campaign.
 
-Al destinar perfiles, se envía una notificación push transaccional por aplicación móvil y por dispositivo. Por ejemplo, si un usuario de Adobe Campaign se ha suscrito a dos aplicaciones, este usuario recibirá dos notificaciones. Si un usuario se ha suscrito a la misma aplicación con dos dispositivos diferentes, este usuario recibirá una notificación en cada dispositivo.
+Al destinar perfiles, se envía una notificación push transaccional por aplicación móvil y por dispositivo. Por ejemplo, si un usuario de Adobe Campaign se ha suscrito a dos aplicaciones, este usuario recibirá dos notificaciones. Si un usuario se ha suscrito a la misma aplicación con dos dispositivos diferentes, recibirá una notificación en cada dispositivo.
 
-The mobile applications a profile has subscribed to are listed in the **[!UICONTROL Mobile App Subscriptions]** tab of this profile. To access this tab, select a profile and click the **[!UICONTROL Edit profile properties]** button on the right.
+Las aplicaciones móviles a las que se ha suscrito un perfil se muestran en la **[!UICONTROL Mobile App Subscriptions]** ficha de este perfil. Para acceder a esta ficha, seleccione un perfil y haga clic en el **[!UICONTROL Edit profile properties]** botón de la derecha.
 
 ![](assets/push_notif_subscriptions.png)
 
-For more information on accessing and editing profiles, see [Profiles](../../audiences/using/creating-profiles.md).
+Para obtener más información sobre el acceso y la edición de perfiles, consulte [Perfiles](../../audiences/using/creating-profiles.md).
 
-### Sending a transactional push notification targeting a profile {#sending-a-transactional-push-notification-targeting-a-----------profile}
+### Envío de una notificación push transaccional dirigida a un perfil {#sending-a-transactional-push-notification-targeting-a-----------profile}
 
-Por ejemplo, una empresa de aerolíneas desea enviar una última llamada para ingresar a todos los usuarios de Adobe Campaign que hayan suscrito a su aplicación móvil.
+Por ejemplo, una empresa de aerolíneas desea enviar una última llamada de embarque a todos los usuarios de Adobe Campaign que se hayan suscrito a su aplicación móvil.
 
-1. Vaya al mensaje de transacción creado para editarlo. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
+1. Vaya al mensaje transaccional que se creó para editarlo. Consulte Mensajes [transaccionales](../../channels/using/event-transactional-messages.md)de eventos.
 
    ![](assets/message-center_push_message_profile.png)
 
-1. Click the **[!UICONTROL Content]** block to modify your message's title and body.
+1. Haga clic en el **[!UICONTROL Content]** bloque para modificar el título y el cuerpo del mensaje.
 
-   A diferencia de las configuraciones basadas en eventos en tiempo real, tiene acceso directo a toda la información de perfil para personalizar el mensaje. See [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md).
+   A diferencia de las configuraciones basadas en eventos en tiempo real, tiene acceso directo a toda la información de perfil para personalizar su mensaje. Consulte [Inserción de un campo](../../designing/using/personalization.md#inserting-a-personalization-field)de personalización.
 
    ![](assets/message-center_push_content_profile.png)
 
-   Para obtener más información sobre cómo editar un contenido de notificaciones Push. See [Creating a push notification](../../channels/using/preparing-and-sending-a-push-notification.md).
+   Para obtener más información sobre la edición de contenido de notificaciones push. Consulte [Creación de una notificación](../../channels/using/preparing-and-sending-a-push-notification.md)push.
 
-1. Guarde los cambios y publique el mensaje. See [Publishing a transactional message](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
+1. Guarde los cambios y publique el mensaje. Consulte [Publicación de un mensaje](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message)transaccional.
 1. Mediante la API REST de Adobe Campaign Standard, envíe un evento a un perfil.
 
    ```
@@ -136,9 +136,9 @@ Por ejemplo, una empresa de aerolíneas desea enviar una última llamada para in
    }
    ```
 
-   For more on integrating the triggering of an event into an external system, see [Site integration](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website).
+   Para obtener más información sobre la integración del activador de un evento en un sistema externo, consulte Integración [del](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)sitio.
 
    >[!NOTE]
    >
-   >No hay ningún campo de registro, aplicación ni plataforma push. En este ejemplo, la reconciliación se realiza con el campo de correo electrónico.
+   >No hay campos de token de registro, aplicación y plataforma push. En este ejemplo, la reconciliación se realiza con el campo de correo electrónico.
 
