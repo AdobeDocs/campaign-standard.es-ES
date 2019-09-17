@@ -2,87 +2,87 @@
 title: Mensajes transaccionales de perfil
 seo-title: Mensajes transaccionales de perfil
 description: Mensajes transaccionales de perfil
-seo-description: Descubra cómo crear y publicar un mensaje transaccional de perfil.
-page-status-flag: no activado nunca
-uuid: a 8 efe 979-74 ae -46 ff-a 305-b 86 a 90679581
+seo-description: Obtenga información sobre cómo crear y publicar un mensaje transaccional de perfil.
+page-status-flag: nunca activado
+uuid: a8efe979-74ae-46ff-a305-b86a90679581
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: canales
-content-type: reference
-topic-tags: mensajes transaccionales
-discoiquuid: dcb 90 afc -42 c 3-419 e -8345-79 cddf 969 e 41
+content-type: referencia
+topic-tags: transaccional-mensajería
+discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 855db33971afdf9f02bf1b00be67c9e3f50bee06
+source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
 
 
-# Profile transactional messages{#profile-transactional-messages}
+# Mensajes transaccionales de perfil{#profile-transactional-messages}
 
-Puede enviar mensajes transaccionales en función de los perfiles de marketing del cliente, lo que le permite:
+Puede enviar mensajes transaccionales basados en perfiles de marketing de clientes, lo que le permite:
 
-* Apply marketing typology rules such as **[!UICONTROL Blacklisted address]** or [fatigue rules](../../administration/using/fatigue-rules.md).
-* Incluya el vínculo de cancelación de suscripción dentro de los mensajes.
+* Aplicar reglas de tipología de marketing como **[!UICONTROL Blacklisted address]** o reglas [de](../../administration/using/fatigue-rules.md)fatiga.
+* Incluya el vínculo de cancelación de suscripción en los mensajes.
 * Agregue los mensajes transaccionales a los informes de entrega global.
 * Aproveche los mensajes transaccionales en el viaje del cliente.
 
-Once you have created and published an event (the cart abandonment as per the [example](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) above), the corresponding transactional message is created automatically.
+Una vez creado y publicado un evento (el abandono del carro de compras según el [ejemplo](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) anterior), el mensaje transaccional correspondiente se crea automáticamente.
 
-The configuration steps are presented in the [Configuring an event to send a profile transactional message](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) section.
+Los pasos de configuración se presentan en la sección [Configuración de un evento para enviar un mensaje](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) transaccional de perfil.
 
-Para que el evento active enviar un mensaje de transacción, debe personalizar el mensaje, luego probarlo y publicarlo.
+Para que el evento active el envío de un mensaje transaccional, debe personalizar el mensaje, probarlo y publicarlo.
 
 >[!NOTE]
 >
->To access the transactional messages, you must have administration rights or appear in the **[!UICONTROL Message Center agents]** (mcExec) security group. Las reglas de fatiga son compatibles con los mensajes transaccionales de perfil. See [Fatigue rules](../../administration/using/fatigue-rules.md).
+>Para acceder a los mensajes transaccionales, debe tener derechos de administración o aparecer en el grupo de seguridad **[!UICONTROL Message Center agents]** (mcExec). Las reglas de fatiga son compatibles con los mensajes transaccionales de perfil. Consulte Reglas [de fatiga](../../administration/using/fatigue-rules.md).
 
-## Sending a profile transactional message {#sending-a-profile-transactional-message}
+## Envío de un mensaje transaccional de perfil {#sending-a-profile-transactional-message}
 
-Los pasos para crear, personalizar y publicar un mensaje transaccional de perfil son los mismos que para un mensaje transaccional de eventos. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
+Los pasos para crear, personalizar y publicar un mensaje transaccional de perfil son los mismos que para un mensaje transaccional de evento. Consulte Mensajes [transaccionales](../../channels/using/event-transactional-messages.md)de eventos.
 
 Las diferencias se enumeran a continuación.
 
-1. Vaya al mensaje de transacción creado para editarlo.
-1. In the transactional message, click the **[!UICONTROL Content]** section. In addition to the transactional template, you can also choose the default email template, which targets **[!UICONTROL Profile]**.
+1. Vaya al mensaje transaccional que se creó para editarlo.
+1. En el mensaje transaccional, haga clic en la **[!UICONTROL Content]** sección . Además de la plantilla transaccional, también puede elegir la plantilla de correo electrónico predeterminada, que se dirige **[!UICONTROL Profile]**.
 
    ![](assets/message-center_marketing_templates.png)
 
 1. Seleccione la plantilla de correo electrónico predeterminada.
 
-   Al igual que todos los correos electrónicos de mercadotecnia, incluye un vínculo de cancelación de suscripción.
+   Al igual que todos los correos electrónicos de marketing, incluye un vínculo de cancelación de suscripción.
 
    ![](assets/message-center_marketing_perso_unsubscription.png)
 
-   Además, en oposición a las configuraciones basadas en eventos en tiempo real, tiene acceso directo a toda la información de perfil para personalizar su mensaje. See [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md).
+   Además, a diferencia de las configuraciones basadas en eventos en tiempo real, tiene acceso directo a toda la información de perfil para personalizar su mensaje. Consulte [Inserción de un campo](../../designing/using/personalization.md#inserting-a-personalization-field)de personalización.
 
-1. Guarde los cambios y publique el mensaje. See [Publishing a transactional message](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
+1. Guarde los cambios y publique el mensaje. Consulte [Publicación de un mensaje](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message)transaccional.
 
-## Monitoring a profile transactional message delivery {#monitoring-a-profile-transactional-message-delivery}
+## Supervisión de la entrega de mensajes transaccionales de perfil {#monitoring-a-profile-transactional-message-delivery}
 
-Una vez que se publica el mensaje y se realiza la integración del sitio, puede monitorear la entrega.
+Una vez que se publique el mensaje y se haya completado la integración del sitio, puede supervisar la entrega.
 
-1. To view the message delivery log, click the icon at the bottom right of the **[!UICONTROL Deployment]** block.
+1. Para ver el registro de entrega de mensajes, haga clic en el icono en la parte inferior derecha del **[!UICONTROL Deployment]** bloque.
 
-   For more information on accessing the logs, see [Monitoring the delivery](../../sending/using/monitoring-a-delivery.md).
+   Para obtener más información sobre el acceso a los registros, consulte [Supervisión del envío](../../sending/using/monitoring-a-delivery.md).
 
-1. Select the **[!UICONTROL Sending logs]** tab. In the **[!UICONTROL Status]** column, **[!UICONTROL Sent]** indicates that a profile has opted in.
+1. Seleccione la **[!UICONTROL Sending logs]** ficha. En la **[!UICONTROL Status]** columna, **[!UICONTROL Sent]** indica que un perfil ha elegido.
 
    ![](assets/message-center_marketing_sending_logs.png)
 
-1. Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as blacklisted addresses.
+1. Seleccione la **[!UICONTROL Exclusions logs]** ficha para ver los destinatarios que se han excluido del destino del mensaje, como las direcciones bloqueadas.
 
    ![](assets/message-center_marketing_exclusion_logs.png)
 
-For any profile that has opted out, the **[!UICONTROL Blacklisted address]** typology rule excluded the corresponding recipient.
+Para cualquier perfil que haya optado por no participar, la regla de **[!UICONTROL Blacklisted address]** tipología excluyó al destinatario correspondiente.
 
-This rule is part of a specific typology that applies to all transactional messages based on the **[!UICONTROL Profile]** table.
+Esta regla forma parte de una tipología específica que se aplica a todos los mensajes transaccionales basados en la **[!UICONTROL Profile]** tabla.
 
 ![](assets/message-center_marketing_typology.png)
 
-**Temas relacionados**:
+**Temas** relacionados:
 
 * [Integración del sitio](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)
-* [Tipologies](../../administration/using/about-typology-rules.md)
+* [Tipos](../../administration/using/about-typology-rules.md)
 
