@@ -1,28 +1,28 @@
 ---
-title: Clics directos
-seo-title: Clics directos
-description: Clics directos
-seo-description: Con el informe predeterminado Clics directos, conozca dónde hizo clic el cliente en la entrega.
-page-status-flag: no activado nunca
-uuid: 7 ed 49 dd 3-d 7 ee -466 a -9 a 7 b-d 2 aa 16961667
+title: Clics interactivos
+seo-title: Clics interactivos
+description: Clics interactivos
+seo-description: Con los clics directos en el informe listo para usar, descubra dónde hizo clic el cliente en la entrega.
+page-status-flag: nunca activado
+uuid: 7ed49dd3-d7ee-466a-9a7b-d2aa16961667
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: informes
-content-type: reference
+content-type: referencia
 topic-tags: lista de informes
-discoiquuid: ecbc 1 ade -63 d 9-4 ac 2-9828-380 a 1 aa 95094
-context-tags: Deliveryhotclicksreport, main
+discoiquuid: ecbc1ade-63d9-4ac2-9828-380a1aa95094
+context-tags: deliveryHotClicksReport,principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
 
 ---
 
 
-# Hot clicks{#hot-clicks}
+# Clics interactivos{#hot-clicks}
 
-This report can be accessed from the **[!UICONTROL Reports]** button in each delivery or transactional message.
+Se puede acceder a este informe desde el **[!UICONTROL Reports]** botón de cada envío o mensaje transaccional.
 
 ![](assets/delivery_reports_hot-clicks_4.png)
 
@@ -30,53 +30,53 @@ Presenta el contenido del mensaje (HTML o texto) con el porcentaje de clics en c
 
 ![](assets/delivery_reports_10.png)
 
-Si ha creado contenido dinámico para la entrega, puede ver los porcentajes de cada condición que haya definido. For more on inserting conditional content in a delivery, see [Defining dynamic content](../../designing/using/defining-dynamic-content-in-a-landing-page.md).
+Si ha creado contenido dinámico para la entrega, puede ver los porcentajes de cada condición que haya definido. Para obtener más información sobre la inserción de contenido condicional en una entrega, consulte [Definición de contenido](../../channels/using/defining-dynamic-content-in-a-landing-page.md)dinámico.
 
-Por ejemplo, imagine que ha creado una entrega con las condiciones siguientes:
+Por ejemplo, imagine que ha creado una entrega con las siguientes condiciones:
 
-* El vínculo de la imagen principal es diferente si el destinatario es hombre o mujer.
-* También agregó un vínculo a una oferta especial que solo es visible para destinatarios mayores de 25 años.
+* El vínculo de la imagen principal es diferente si el destinatario es un hombre o una mujer.
+* También ha agregado un vínculo a una oferta especial que solo es visible para los destinatarios mayores de 25 años.
 
-Once your message is sent, select **[!UICONTROL Reports]** &gt; **[!UICONTROL Hot clicks]** from the delivery dashboard.
+Una vez enviado el mensaje, seleccione **[!UICONTROL Reports]** &gt; **[!UICONTROL Hot clicks]** en el panel de envío.
 
-De forma predeterminada, no se selecciona ningún perfil. Se muestran sólo clics para destinatarios cuyo sexo es desconocido y para destinatarios que tienen menos de 25 años o cuya edad es desconocida.
+De forma predeterminada, no hay ningún perfil seleccionado. Solo se muestran los clics para los destinatarios cuyo sexo es desconocido y para los destinatarios menores de 25 años o cuya edad se desconoce.
 
 ![](assets/delivery_reports_hot-clicks_1.png)
 
-To display clicks for women, click the **[!UICONTROL Change profile]** button and select a female test profile. Para mostrar los clics de los hombres, continúe de forma similar y seleccione un perfil de prueba masculino.
+Para mostrar clics para mujeres, haga clic en el **[!UICONTROL Change profile]** botón y seleccione un perfil de prueba femenino. Para mostrar clics para hombres, proceda de manera similar y seleccione un perfil de prueba masculino.
 
 ![](assets/delivery_reports_hot-clicks_2.png)
 
-To display clicks for recipients over 25, click the **[!UICONTROL Change profile]** button and select a test profile whose birth date is matching this condition.
+Para mostrar los clics de los destinatarios mayores de 25 años, haga clic en el **[!UICONTROL Change profile]** botón y seleccione un perfil de prueba cuya fecha de nacimiento coincida con esta condición.
 
-For more on test profiles, see [About test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#about-test-profiles).
+Para obtener más información sobre los perfiles de prueba, consulte [Acerca de los perfiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#about-test-profiles)de prueba.
 
 >[!NOTE]
 >
->El número de clics en un vínculo específico es un porcentaje del total de clics para todo el contenido condicional de una entrega. Por lo tanto, si ha definido contenido dinámico, el total de porcentajes mostrados para un perfil de prueba específico podría no ser igual a 100.
+>El número de clics en un vínculo específico es un porcentaje del total de clics para todo el contenido condicional de una entrega. Por lo tanto, si ha definido contenido dinámico, el total de los porcentajes mostrados para un perfil de prueba específico puede no ser igual a 100.
 
-Del mismo modo, para los envíos recurrentes y los mensajes transaccionales, puede seleccionar el perfil de prueba correspondiente al contenido dinámico que desea mostrar, pero también puede ver los porcentajes de clics según la entrega de ejecución seleccionada.
+Del mismo modo, para envíos recurrentes y mensajes transaccionales, puede seleccionar el perfil de prueba correspondiente al contenido dinámico que desea mostrar, pero también puede ver los porcentajes de clics según la entrega de ejecución seleccionada.
 
 Una entrega de ejecución es un mensaje técnico no procesable y no funcional que se crea en los siguientes casos:
 
 * Cada vez que se ejecuta o actualiza una entrega recurrente.
 
-   Por ejemplo, si el flujo de trabajo que administra la entrega se ejecuta una vez al mes, habrá una entrega de ejecución al mes. Además, cada vez que se actualiza el contenido de la entrega, se crea una entrega adicional de ejecución.
+   Por ejemplo, si el flujo de trabajo que administra esta entrega se ejecuta una vez al mes, habrá una entrega de ejecución por mes. Además, cada vez que se actualiza el contenido de la entrega, se crea una entrega de ejecución adicional.
 
-   For more on recurring email deliveries, see [Email delivery](../../automating/using/email-delivery.md).
+   Para obtener más información sobre los envíos recurrentes por correo electrónico, consulte Envío [por correo electrónico](../../automating/using/email-delivery.md).
 
-* De forma predeterminada, una vez al mes para los mensajes transaccionales, y cada vez que se edita y vuelve a publicar un mensaje de transacción.
+* De forma predeterminada, una vez al mes para los mensajes transaccionales y cada vez que se edita y publica un mensaje transaccional de nuevo.
 
-   For more on transactional messages, see [About transactional messaging](../../channels/using/about-transactional-messaging.md).
+   Para obtener más información sobre los mensajes transaccionales, consulte [Acerca de los mensajes](../../channels/using/about-transactional-messaging.md)transaccionales.
 
 >[!NOTE]
 >
->Debido a que los ID de las URL rastreadas son diferentes para cada ejecución, los datos de clics dinámicos no se pueden agregar para todas las entregas de ejecución de un mensaje dado. Solo se puede mostrar para una entrega de ejecución a la vez.
+>Dado que los ID de las direcciones URL rastreadas son diferentes para cada ejecución, los datos de clics interactivos no se pueden agregar para todas las entregas de ejecución de un mensaje determinado. Solo se puede mostrar para una entrega de ejecución a la vez.
 
-Once your message is sent, select **[!UICONTROL Reports]** &gt; **[!UICONTROL Hot clicks]** from the delivery dashboard.
+Una vez enviado el mensaje, seleccione **[!UICONTROL Reports]** &gt; **[!UICONTROL Hot clicks]** en el panel de envío.
 
-De forma predeterminada, se selecciona la última entrega de ejecución. Click the **[!UICONTROL Change execution delivery]** button to select another one.
+De forma predeterminada, se selecciona la última entrega de ejecución. Haga clic en el **[!UICONTROL Change execution delivery]** botón para seleccionar otro.
 
 ![](assets/delivery_reports_hot-clicks_3.png)
 
-Solo se muestran los porcentajes de clic para la ejecución de entrega seleccionada.
+Solo se muestran los porcentajes de clics para la ejecución de entrega seleccionada.
