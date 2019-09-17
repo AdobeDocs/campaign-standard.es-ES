@@ -3,154 +3,154 @@ title: Diseño de una página de aterrizaje
 seo-title: Diseño de una página de aterrizaje
 description: Diseño de una página de aterrizaje
 seo-description: Siga estos pasos para diseñar el contenido de una página de aterrizaje y vincularlo a un servicio.
-page-status-flag: no activado nunca
-uuid: de 6 fe 190-835 c -40 fd -8101-a 809 b 430 b 423
+page-status-flag: nunca activado
+uuid: de6fe190-835c-40fd-8101-a809b430b423
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: canales
-content-type: reference
+content-type: referencia
 topic-tags: landing-pages
-discoiquuid: bd 77 d 6 f 0-3143-4030-a 91 b -988 a 2 bebc 534
-context-tags: Landingpage, main
+discoiquuid: bd77d6f0-3143-4030-a91b-988a2bebc534
+context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b0cf437ec97153b53bd4502171b24286abb25731
+source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
 
 ---
 
 
-# Designing a landing page{#designing-a-landing-page}
+# Diseño de una página de aterrizaje{#designing-a-landing-page}
 
-## About content design {#about-content-design}
+## Acerca del diseño de contenido {#about-content-design}
 
-Landing pages are created as any [marketing activity](../../start/using/marketing-activities.md#about-marketing-activities).
+Las páginas de aterrizaje se crean como cualquier actividad [de mercadotecnia](../../start/using/marketing-activities.md#about-marketing-activities).
 
 Al diseñar una página de aterrizaje, debe definir el contenido de:
 
-* la página misma,
+* la propia página,
 * la página de confirmación,
 * la página de error.
 
-Utilice el conmutador en la barra de acciones para mostrar y configurar cada una de estas páginas.
+Utilice el conmutador situado debajo de la barra de acciones para mostrar y configurar cada una de estas páginas.
 
-El contenido de estas páginas se diseña mediante el editor de contenido de campaña. Refer to [Design content](../../designing/using/about-landing-page-content-design.md).
+El contenido de estas páginas se ha diseñado mediante el editor de contenido de Campaign. Consulte Contenido [de](../../channels/using/about-landing-page-content-design.md)diseño.
 
-## Mapping form fields {#mapping-form-fields}
+## Asignación de campos de formulario {#mapping-form-fields}
 
-Los campos de entrada se utilizan para almacenar o actualizar datos en la base de datos de campaña. Para ello, debe vincular campos de base de datos con zona de entrada, botón de opción o bloques de tipo de casilla de verificación. Para ello:
+Los campos de entrada se utilizan para almacenar o actualizar datos en la base de datos de Campaign. Para ello, debe vincular los campos de la base de datos con la zona de entrada, el botón de radio o los bloques de tipo de casilla de verificación. Para ello:
 
 1. Seleccione un bloque en la página de aterrizaje.
-1. Complete the **[!UICONTROL Form data]** part in the palette.
+1. Complete la **[!UICONTROL Form data]** parte de la paleta.
 
    ![](assets/editing_lp_content_4.png)
 
-1. Choose a database field to link with the form field in the **[!UICONTROL Field]** selection zone.
+1. Elija un campo de base de datos para establecer un vínculo con el campo de formulario en la zona de **[!UICONTROL Field]** selección.
 
-   When the **[!UICONTROL Mandatory]** option is checked, the page can only be submitted if the user has completed this field. Si no se completa un campo obligatorio, aparecerá un mensaje de error cuando el usuario valide la página.
+   Cuando se selecciona la **[!UICONTROL Mandatory]** opción, la página solo se puede enviar si el usuario ha completado este campo. Si no se completa un campo obligatorio, aparecerá un mensaje de error cuando el usuario valide la página.
 
    >[!NOTE]
    >
-   >Landing pages can only be mapped with **Profiles**.
+   >Las páginas de aterrizaje solo se pueden asignar con **perfiles**.
 
-1. Define the field type by choosing, for example **[!UICONTROL Text]**, **[!UICONTROL Number]**,or **[!UICONTROL Date]** in the **[!UICONTROL HTML type of the field]** selection area.
+1. Defina el tipo de campo eligiendo, por ejemplo **[!UICONTROL Text]**, **[!UICONTROL Number]** o **[!UICONTROL Date]** en el área de **[!UICONTROL HTML type of the field]** selección.
 
 >[!NOTE]
 >
 >Los campos predeterminados de las páginas de aterrizaje integradas están preconfigurados. Puede modificarlas según sea necesario.
 
-## Submitting the form {#submitting-the-form}
+## Envío del formulario {#submitting-the-form}
 
 Puede seleccionar la acción que realizar cuando el visitante haga clic en el botón de envío. Para ello:
 
 1. Seleccione el botón de envío de la página de aterrizaje.
-1. Seleccione la acción en la lista desplegable del panel izquierdo. Possible actions are: **[!UICONTROL Refresh]** (to refresh the page) and **[!UICONTROL Next page]** (to display the confirmation page).
+1. Seleccione la acción en la lista desplegable del panel izquierdo. Las acciones posibles son: **[!UICONTROL Refresh]** (para actualizar la página) y **[!UICONTROL Next page]** (para mostrar la página de confirmación).
 
    ![](assets/editing_lp_content_5.png)
 
 Además, puede cambiar la etiqueta del botón o configurar un vínculo específico. Para ello:
 
-1. Seleccione el botón Enviar.
-1. Click on the ![](assets/lp_link_properties.png) button in the left panel.
+1. Seleccione el botón de envío.
+1. Haga clic en el ![](assets/lp_link_properties.png) botón del panel izquierdo.
 1. Introduzca la etiqueta del botón, seleccione el tipo de vínculo, sus propiedades y el destino.
 
    ![](assets/lp_link_custom.png)
 
-## Linking a form to a service {#linking-a-form-to-a-service}
+## Vinculación de un formulario a un servicio {#linking-a-form-to-a-service}
 
-Puede vincular un formulario a un servicio para que los perfiles puedan suscribirse a un servicio específico al validar las páginas de aterrizaje.
+Puede vincular un formulario a un servicio para que los perfiles se puedan suscribir a un servicio específico al validar las páginas de aterrizaje.
 
-Los parámetros para vincular una página de aterrizaje permiten especificar el tipo de acción realizado y si la página de aterrizaje está vinculada específicamente a un único servicio o si es genérico.
+Los parámetros para vincular una página de aterrizaje permiten especificar el tipo de acción realizado y si la página de aterrizaje está vinculada específicamente a un único servicio o si es genérica.
 
 Para seleccionar el servicio que desea vincular, debe:
 
-1. Edit the landing page properties accessed via the ![](assets/edit_darkgrey-24px.png) icon in the landing page dashboard, and display the **[!UICONTROL Job]** parameters.
+1. Edite las propiedades de la página de aterrizaje a las que se accede mediante el icono ![](assets/edit_darkgrey-24px.png) del tablero de la página de aterrizaje y muestre los **[!UICONTROL Job]** parámetros.
 
    ![](assets/lp_edit_properties_button.png)
 
-1. Choose **[!UICONTROL Subscription]** in the **[!UICONTROL Specific actions]** drop-down list.
+1. Elija **[!UICONTROL Subscription]** en la lista **[!UICONTROL Specific actions]** desplegable.
 
    ![](assets/lp_parameters_5.png)
 
-1. Select **[!UICONTROL Specific service]** to link the landing page to a single service. No seleccione esta opción si desea utilizar varios servicios con la página de aterrizaje.
+1. Seleccione **[!UICONTROL Specific service]** para vincular la página de aterrizaje a un solo servicio. No seleccione esta opción si desea utilizar varios servicios con la página de aterrizaje.
 
-   Use the **[!UICONTROL Specified service in the URL]** option to allow the landing page to be used for several services. Por lo tanto, debe hacer referencia a la página de aterrizaje al configurar el servicio.
+   Utilice la **[!UICONTROL Specified service in the URL]** opción para permitir que la página de aterrizaje se utilice en varios servicios. Por lo tanto, debe hacer referencia a la página de aterrizaje al configurar el servicio.
 
-### Confirm a landing page submission {#confirm-a-landing-page-submission}
+### Confirmar un envío de página de aterrizaje {#confirm-a-landing-page-submission}
 
 Cuando un visitante envía una página de aterrizaje, puede configurar las acciones activadas. Para ello:
 
-1. Edit the landing page properties accessed via the ![](assets/edit_darkgrey-24px.png) icon in the landing page dashboard, and display the **[!UICONTROL Job]** parameters.
+1. Edite las propiedades de la página de aterrizaje a las que se accede mediante el icono ![](assets/edit_darkgrey-24px.png) del tablero de la página de aterrizaje y muestre los **[!UICONTROL Job]** parámetros.
 
    ![](assets/lp_edit_properties_button.png)
 
-1. Under the **[!UICONTROL Specific actions]** section, select **[!UICONTROL Start sending message]** to determine the sending of an automatic message, for example to confirm subscription to a service. Es necesario seleccionar una plantilla de envío de correo electrónico.
+1. En la **[!UICONTROL Specific actions]** sección , seleccione **[!UICONTROL Start sending message]** para determinar el envío de un mensaje automático, por ejemplo para confirmar la suscripción a un servicio. A continuación, debe seleccionar una plantilla de envío de correo electrónico.
 
-   Tenga en cuenta que si ya se ha configurado un mensaje de confirmación en el nivel de servicio, no debe seleccionar ninguno en esta pantalla para evitar enviar varios mensajes de confirmación. Refer to [Configure a service](../../audiences/using/creating-a-service.md).
+   Tenga en cuenta que si un mensaje de confirmación ya está configurado en el nivel de servicio, no debe seleccionar uno en esta pantalla para evitar enviar varios mensajes de confirmación. Consulte [Configurar un servicio](../../audiences/using/creating-a-service.md).
 
-1. Create **[!UICONTROL Additional data]** to enable storing additional data when the landing page is being submitted. Estos datos no son visibles para las personas que visitan la página. Solo se tienen en cuenta los valores constantes.
+1. Crear **[!UICONTROL Additional data]** para habilitar el almacenamiento de datos adicionales cuando se envía la página de aterrizaje. Estos datos no son visibles para las personas que visitan la página. Solo se tienen en cuenta los valores constantes.
 
    ![](assets/lp_parameters_6.png)
 
-## Setting permissions and pre-loading data {#setting-permissions-and-pre-loading-data}
+## Configuración de permisos y precarga de datos {#setting-permissions-and-pre-loading-data}
 
-El acceso a una página de aterrizaje puede restringirse a los visitantes identificados, que provienen de un vínculo de un mensaje enviado por Campaign por ejemplo. En este caso, puede cargar previamente sus datos en la página de aterrizaje. Para ello:
+El acceso a una página de aterrizaje puede restringirse a los visitantes identificados, que provienen de un vínculo en un mensaje enviado por Campaign, por ejemplo. En este caso, puede cargar previamente sus datos en la página de aterrizaje. Para ello:
 
-1. Edit the landing page properties accessed via the ![](assets/edit_darkgrey-24px.png) icon in the landing page dashboard, and display the **[!UICONTROL Access & loading]** parameters.
+1. Edite las propiedades de la página de aterrizaje a las que se accede mediante el icono ![](assets/edit_darkgrey-24px.png) del tablero de la página de aterrizaje y muestre los **[!UICONTROL Access & loading]** parámetros.
 
    ![](assets/lp_edit_properties_button.png)
 
-1. Select **[!UICONTROL Preload visitor data]**.
+1. Seleccione **[!UICONTROL Preload visitor data]**.
 
-   Si un visitante de la página corresponde a un perfil de la base de datos, sus datos se muestran en los campos del formulario que se asignan con los datos de la base de datos y se tienen en cuenta los elementos de personalización de la página de aterrizaje.
+   Si un visitante de la página corresponde a un perfil de la base de datos, sus datos se muestran en los campos del formulario asignados a los datos de la base de datos y se tienen en cuenta los elementos de personalización de la página de aterrizaje.
 
    ![](assets/lp_parameters_3.png)
 
 También puede:
 
-* Use the URL parameters to identify the visitors, using the **[!UICONTROL Authorize visitor identification via URL parameters]** option: then you must choose the loading key and map the filter parameters with the parameters of the corresponding URL.
-* Authorize any visitor to access the landing page, using the **[!UICONTROL Authorize unidentified visitors]** option.
+* Utilice los parámetros de URL para identificar a los visitantes mediante la **[!UICONTROL Authorize visitor identification via URL parameters]** opción: a continuación, debe elegir la clave de carga y asignar los parámetros del filtro con los parámetros de la URL correspondiente.
+* Autorice a cualquier visitante a acceder a la página de aterrizaje mediante la **[!UICONTROL Authorize unidentified visitors]** opción .
 
-## Setting Google reCAPTCHA {#setting-google-recaptcha}
+## Configuración de Google reCAPTCHA {#setting-google-recaptcha}
 
-Puede configurar Google recaptcha V 3 con su página de aterrizaje para protegerla del correo no deseado y de los abusos provocados por bots. Para poder utilizarla con su página de aterrizaje, primero debe crear una cuenta externa. For more information on how to configure it, refer to this [section](../../administration/using/external-accounts.md#google-recaptcha-external-account).
+Puede configurar Google reCAPTCHA V3 con su página de aterrizaje para protegerla del spam y los abusos causados por los bots. Para poder utilizarlo con la página de aterrizaje, primero debe crear una cuenta externa. Para obtener más información sobre cómo configurarla, consulte esta [sección](../../administration/using/external-accounts.md#google-recaptcha-external-account).
 
-Una vez configurada la cuenta externa de Google recaptcha V 3, puede agregarla a su página de aterrizaje:
+Una vez configurada la cuenta externa de Google reCAPTCHA V3, puede agregarla a la página de aterrizaje:
 
-1. Before publishing your landing page, access the page properties accessed via the ![](assets/edit_darkgrey-24px.png) icon from you landing page dashboard.
+1. Antes de publicar la página de aterrizaje, acceda a las propiedades de página a las que se accede mediante el icono del tablero de la página de aterrizaje. ![](assets/edit_darkgrey-24px.png)
 
    ![](assets/lp_parameters_google3.png)
 
-1. Unfold the **[!UICONTROL Access & loading]** menu.
-1. Check the **[!UICONTROL Use reCAPTCHA to protect your site from spam and abuse]** option.
-1. Seleccione la cuenta externa de Google recaptcha previamente creada.
+1. Despliegue el **[!UICONTROL Access & loading]** menú.
+1. Marque la **[!UICONTROL Use reCAPTCHA to protect your site from spam and abuse]** opción.
+1. Seleccione la cuenta externa de Google reCAPTCHA creada anteriormente.
 
    ![](assets/lp_parameters_google.png)
 
 1. Click **[!UICONTROL Confirm]**.
 
-La página de aterrizaje ahora está configurada con Google recaptcha, que se puede ver en la parte inferior de la página.
+La página de aterrizaje ahora está configurada con Google reCAPTCHA, que se puede ver en la parte inferior de la página.
 
 ![](assets/lp_parameters_google2.png)
 
-A continuación, Google recaptcha devolverá una puntuación basada en las interacciones de los usuarios con su página. To check your score, connect to your [Google admin console](https://g.co/recaptcha/admin).
+Google reCAPTCHA devolverá una puntuación basada en las interacciones de los usuarios con su página. Para comprobar su puntuación, conéctese a su consola [de administración de](https://g.co/recaptcha/admin)Google.
