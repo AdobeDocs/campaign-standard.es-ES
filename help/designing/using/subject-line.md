@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 29cbde1a6bb57526f626f2d1fef52695c50de8e6
+source-git-commit: 0cf4807fc3d617b0c5ca33705b6344d1f3994ab3
 
 ---
 
@@ -25,31 +25,31 @@ El asunto del mensaje es obligatorio para preparar y enviar el mensaje.
 
 >[!NOTE]
 >
->Si la línea de asunto está vacía, se muestra una advertencia en el panel de mensajes y en el Diseñador de correo electrónico.
+>If the subject line is empty, a warning is displayed in the message dashboard and in the Email Designer.
 
 Para configurar el asunto del correo electrónico, vaya a la **[!UICONTROL Properties]** ficha de la página de inicio de Email Designer (a la que se puede acceder desde el icono de inicio) y rellene la **[!UICONTROL Subject]** sección.
 
 **Para definir la línea de asunto de un correo electrónico**:
 
-1. Cree un correo electrónico.
-1. Cierre la página principal.
-1. Vaya a la **[!UICONTROL Properties]** ficha de la página de inicio de Email Designer (accesible mediante el icono de inicio) y rellene la **[!UICONTROL Subject]** sección.
+1. Create an email.
+1. Close homepage.
+1. Go the  tab of the Email Designer home page (accessible through the home icon) and fill in the  section.**[!UICONTROL Properties]****[!UICONTROL Subject]**
 
 ![](assets/email_designer_subject.png)
 
-También puede agregar campos de personalización, bloques de contenido y contenido dinámico a la línea de asunto haciendo clic en los iconos correspondientes.
+You can also add personalization fields, content blocks and dynamic content to the subject line by clicking the corresponding icons.
 
-**Temas relacionados:**
+**Related topics:**
 
-* [Inserción de un campo de personalización](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [Adición de un bloque de contenido](../../designing/using/personalization.md#adding-a-content-block)
-* [Definición de contenido dinámico en un correo electrónico](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
+* [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field)
+* [Adding a content block](../../designing/using/personalization.md#adding-a-content-block)
+* [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
 
-## Línea de asunto predictiva {#predictive-subject-line}
+## Predictive subject line {#predictive-subject-line}
 
-Al editar un mensaje de correo electrónico, puede probar distintas líneas de asunto y obtener una estimación de su tasa de apertura antes de enviarlo.
+When editing an email, you can try out different subject lines and get an estimation of its open rate before you send it.
 
-Esta función está deshabilitada de forma predeterminada. Se activa cuando se importa el primer modelo. Un modelo es el resultado de conjuntos de datos de capacitación específicos de un sector determinado. Los modelos permiten al sistema predecir la velocidad de apertura del correo electrónico cuando se envía una nueva línea de asunto.
+This feature is disabled by default. It is enabled when the first model is imported. A model is the result of training data sets specific to a given industry. Models allow the system to predict the open rate of the email when a new subject line is submitted.
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Para definir el nombre del remitente que aparecerá en el encabezado de los mens
 
    Este campo se puede personalizar. Para ello, puede agregar campos de personalización, bloques de contenido y contenido dinámico haciendo clic en los iconos situados debajo del nombre del remitente.
 
-* El **[!UICONTROL From: email address]** campo no se puede editar desde esta sección. Puede cambiarlo editando las propiedades del correo electrónico desde su tablero. Para obtener más información sobre esto, consulte [Lista de parámetros](../../administration/using/configuring-email-channel.md#advanced-parameters)avanzados de correo electrónico.
+* El **[!UICONTROL From: email address]** campo no se puede editar desde esta sección. Puede cambiarlo editando las propiedades del correo electrónico desde su tablero. Para obtener más información, consulte [Lista de parámetros](../../administration/using/configuring-email-channel.md#advanced-parameters)avanzados de correo electrónico.
 
 >[!NOTE]
 >
