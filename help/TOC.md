@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
 sub-product: adobe campaign standard
-audience: usuario final
-user-guide-title: Ayuda de Adobe Campaign Standard
+audience: end-user
+user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
+source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
 
 ---
 
 
-# Ayuda de Adobe Campaign Standard {#using}
+# Adobe Campaign Standard Help {#using}
 
 + [Documentación del producto](campaign-standard-home.md)
 + Notas de la versión {#release-notes}
@@ -22,7 +22,7 @@ source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
    + Acerca de Adobe Campaign {#about-adobe-campaign}
       + [Organización de campañas](start/using/campaign-orchestration.md)
       + [Segmentación y segmentación](start/using/segmentation-and-targeting.md)
-      + [Contenido dinámico y personalizado](start/using/dynamic-and-personalized-content.md)
+      + [Dynamic and personalized content](start/using/dynamic-and-personalized-content.md)
       + [Seguimiento, supervisión y presentación de informes](start/using/tracking--monitoring-and-reporting.md)
       + [Integración con las soluciones de Adobe](start/using/integrating-with-adobe-solutions.md)
    + Descubrimiento de la interfaz {#discovering-the-interface}
@@ -42,22 +42,22 @@ source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
    + Tutoriales {#tutorials}
       + [Guías paso a paso](start/using/step-by-step-guides.md)
       + [Vídeos de procedimientos](start/using/how-to-videos.md)
-+ Perfiles y audiencias {#profiles-and-audiences}
-   + [Acerca de los perfiles y las audiencias](audiences/using/about-profiles-and-audiences.md)
-   + Administración de perfiles {#managing-profiles}
-      + [Acerca de los perfiles](audiences/using/about-profiles.md)
-      + [Creación de perfiles](audiences/using/creating-profiles.md)
-      + [Edición de perfiles](audiences/using/editing-profiles.md)
-      + [Perfil de cliente integrado](audiences/using/integrated-customer-profile.md)
-      + [Perfiles activos](audiences/using/active-profiles.md)
-   + Administración de audiencias {#managing-audiences}
-      + [Acerca de las audiencias](audiences/using/about-audiences.md)
-      + [Creación de audiencias](audiences/using/creating-audiences.md)
-      + [Selección de una audiencia en un mensaje](audiences/using/selecting-an-audience-in-a-message.md)
++ Profiles and audiences {#profiles-and-audiences}
+   + [About profiles and audiences](audiences/using/about-profiles-and-audiences.md)
+   + Managing profiles {#managing-profiles}
+      + [About profiles](audiences/using/about-profiles.md)
+      + [Creating profiles](audiences/using/creating-profiles.md)
+      + [Editing profiles](audiences/using/editing-profiles.md)
+      + [Integrated customer profile](audiences/using/integrated-customer-profile.md)
+      + [Active profiles](audiences/using/active-profiles.md)
+   + Managing audiences {#managing-audiences}
+      + [About audiences](audiences/using/about-audiences.md)
+      + [Creating audiences](audiences/using/creating-audiences.md)
+      + [Selecting an audience in a message](audiences/using/selecting-an-audience-in-a-message.md)
    + Administración de suscripciones {#managing-subscriptions}
-      + [Acerca de las suscripciones](audiences/using/about-subscriptions.md)
+      + [About subscriptions](audiences/using/about-subscriptions.md)
       + [Creación de un servicio](audiences/using/creating-a-service.md)
-      + [Promoción de un servicio](audiences/using/promoting-a-service.md)
+      + [Promoting a service](audiences/using/promoting-a-service.md)
       + [Supervisión de suscripciones](audiences/using/monitoring-subscriptions.md)
    + Explicación de los procesos de inclusión y exclusión {#understanding-opt-in-and-opt-out-processes}
       + [Acerca de la inclusión y la exclusión en Campaign](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
@@ -69,7 +69,7 @@ source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
       + [Pasos clave para enviar un mensaje](channels/using/key-steps-to-send-a-message.md)
       + [Acceso a mensajes](channels/using/accessing-messages.md)
       + [Tablero de mensajes](channels/using/message-dashboard.md)
-   + Mensajes de correo electrónico {#email-messages}
+   + Email messages {#email-messages}
       + [Acerca de los correos electrónicos](channels/using/about-emails.md)
       + [Creación de un correo electrónico](channels/using/creating-an-email.md)
       + [Diseño de un correo electrónico de prueba A/B](channels/using/designing-an-a-b-test-email.md)
@@ -87,12 +87,12 @@ source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
       + [Preparación y envío de una notificación push](channels/using/preparing-and-sending-a-push-notification.md)
       + [Personalización de una notificación push](channels/using/customizing-a-push-notification.md)
       + [Creación de una notificación push multilingüe](channels/using/creating-a-multilingual-push-notification.md)
-      + [Creación y actualización de información de perfil basada en datos de aplicaciones móviles](channels/using/updating-profile-with-mobile-app-data.md)
-   + Mensajería en la aplicación {#in-app-messaging}
-      + [Acerca de la mensajería en la aplicación](channels/using/about-in-app-messaging.md)
-      + [Preparación y envío de un mensaje en la aplicación](channels/using/preparing-and-sending-an-in-app-message.md)
-      + [Personalización de un mensaje en la aplicación](channels/using/customizing-an-in-app-message.md)
-   + Correo directo {#direct-mail}
+      + [Creating and updating profile information based on mobile application data](channels/using/updating-profile-with-mobile-app-data.md)
+   + In-App messaging {#in-app-messaging}
+      + [About In-App messaging](channels/using/about-in-app-messaging.md)
+      + [Preparing and sending an In-App message](channels/using/preparing-and-sending-an-in-app-message.md)
+      + [Customizing an In-App message](channels/using/customizing-an-in-app-message.md)
+   + Direct mail {#direct-mail}
       + [Acerca del correo directo](channels/using/about-direct-mail.md)
       + [Volver al remitente](channels/using/return-to-sender.md)
       + [Creación del correo directo](channels/using/creating-the-direct-mail.md)
@@ -115,9 +115,9 @@ source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
       + [Acerca del diseño del contenido de la página de aterrizaje](channels/using/about-landing-page-content-design.md)
       + [Interfaz del editor de contenido de la página de aterrizaje](channels/using/landing-page-content-editor-interface.md)
       + [Administración de la estructura y el estilo de la página de aterrizaje](channels/using/managing-landing-page-structure-and-style.md)
-      + [Cambio de las propiedades de datos de un formulario de página de aterrizaje](channels/using/changing-a-landing-page-form-data-properties.md)
-      + [Definición de contenido dinámico en una página de aterrizaje](channels/using/defining-dynamic-content-in-a-landing-page.md)
-+ Diseño del contenido del correo electrónico {#designing-content}
+      + [Changing a landing page form data properties](channels/using/changing-a-landing-page-form-data-properties.md)
+      + [Defining dynamic content in a landing page](channels/using/defining-dynamic-content-in-a-landing-page.md)
++ Designing email content {#designing-content}
    + [Diseñador de correo electrónico de campaña](designing/using/designing-content-in-adobe-campaign.md)
    + [Inicio rápido](designing/using/quick-start.md)
    + [Uso y recomendaciones](designing/using/overview.md)
@@ -129,8 +129,8 @@ source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
    + [Personalización](designing/using/personalization.md)
    + [Modos de texto sin formato y HTML](designing/using/plain-text-html-modes.md)
    + [Administración de estilos](designing/using/styles.md)
-   + [Administración de imágenes](designing/using/images.md)
    + [Administración de vínculos](designing/using/links.md)
+   + [Administración de imágenes](designing/using/images.md)
 + Prueba y envío {#testing-and-sending}
    + [Acerca del envío de mensajes con Campaign](sending/using/about-sending-messages-with-campaign.md)
    + Preparación y prueba de mensajes {#preparing-and-testing-messages}
@@ -271,7 +271,7 @@ source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
       + [Exportación de registros](automating/using/exporting-logs.md)
       + [Administración de paquetes](automating/using/managing-packages.md)
       + [Exportación de listas](automating/using/exporting-lists.md)
-   + Casos de uso:Flujos de trabajo {#workflow-use-case}
+   + Casos de uso: Flujos de trabajo {#workflow-use-case}
       + [Creación de entregas con un complemento](automating/using/workflow-created-query-with-complement.md)
       + [Creación de envíos en la fecha de creación](automating/using/workflow-creation-date-query.md)
       + [Creación de un envío semanal](automating/using/workflow-weekly-offer.md)
