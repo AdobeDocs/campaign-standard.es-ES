@@ -14,7 +14,7 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bcf4a2e2b522b084d63c7bf15293b177f1c96333
+source-git-commit: 8b85bbad7458286252a2900ce730288f6e52442e
 
 ---
 
@@ -25,23 +25,23 @@ source-git-commit: bcf4a2e2b522b084d63c7bf15293b177f1c96333
 
 Esta sección describe cómo enviar un correo electrónico de confirmación personalizado y automático a los perfiles que se suscriben a un servicio específico.
 
-Si desea enviar un mensaje de confirmación de una suscripción (o cancelación de la suscripción) a un servicio, puede utilizar el mensaje predeterminado o un mensaje personalizado. Los pasos para seleccionar un mensaje de confirmación se presentan en la sección [Creación de un servicio](../../audiences/using/creating-a-service.md) .
+Si desea enviar un mensaje de confirmación de una suscripción (o cancelación de la suscripción) a un servicio, puede utilizar el mensaje predeterminado o un mensaje personalizado. The steps for selecting a confirmation message are presented in the Creating a service section.[](../../audiences/using/creating-a-service.md)
 
-Si decide utilizar el mensaje predeterminado, puede editar su contenido con las siguientes limitaciones:
-* Solo puede personalizar el contenido del mensaje con campos limitados desde el contexto del evento.
-* Este mensaje será el mismo para todos los servicios que utilicen el modo predeterminado.
+If you choose to use the default message, you can edit its content with the following limitations:
+* You can only personalize the message content with limited fields from the event context.
+* This message will be the same for all services that use the default mode.
 
-Para enviar un mensaje de confirmación específico para un servicio determinado, puede crear un mensaje de confirmación personalizado en el que también podrá aprovechar los campos de personalización de otros recursos. Para ello, debe crear y configurar un mensaje transaccional. Se puede hacer referencia a este mensaje:
-* Del propio servicio. Para obtener más información sobre esto, consulte [Configuración del mensaje de confirmación desde un servicio](../../audiences/using/confirming-subscription-to-a-service.md#configuring-confirmation-message-from-service).
-* Desde una página de aterrizaje de suscripción. Para obtener más información sobre esto, consulte [Configuración del mensaje de confirmación desde una página](../../audiences/using/confirming-subscription-to-a-service.md#configuring-confirmation-message-from-landing-page)de aterrizaje.
+To send a specific confirmation email for a given service, you can create a custom message, in which you will also be able to leverage personalization fields from other resources. To do this, you must create and configure a transactional message. This message can be referenced :
+* From the service itself. For more on this, see Configuring confirmation message from a service.[](../../audiences/using/confirming-subscription-to-a-service.md#configuring-confirmation-message-from-service)
+* From a subscription landing page. For more on this, see Configuring confirmation message from a landing page.[](../../audiences/using/confirming-subscription-to-a-service.md#configuring-confirmation-message-from-landing-page)
 
-## Configuración del mensaje de confirmación de un servicio {#configuring-confirmation-message-from-service}
+## Configuring confirmation message from a service {#configuring-confirmation-message-from-service}
 
-Por ejemplo, desea enviar automáticamente un mensaje de confirmación a los visitantes del sitio web cuando se suscriban a la newsletter de su marca.
+For example, you want to automatically send a confirmation message to the visitors of your website when they subscribe to your brand newsletter.
 
-Debe configurar un correo electrónico transaccional y hacer referencia a ese mensaje desde el servicio deseado (en este caso, suscribirse a su newsletter de marca). Para enriquecer el mensaje transaccional con información de servicio, puede definir una reconciliación al crear el evento.
+Debe configurar un correo electrónico transaccional y hacer referencia a ese mensaje desde el servicio deseado (en este caso, suscribirse a su newsletter de marca). In order to enrich the transactional message with service information, you can define a reconciliation when creating the event.
 
-Al configurarlo desde el servicio, el mensaje transaccional de confirmación se enviará sólo la primera vez que cada visitante se suscriba a ese servicio. Si un perfil ya está suscrito, no se enviará ningún mensaje de confirmación a ese perfil.
+Al configurarlo desde el servicio, el mensaje transaccional de confirmación se enviará sólo la primera vez que cada visitante se suscriba a ese servicio. If a profile is already subscribed, no confirmation message will be sent again to that profile.
 
 ### Paso 1: Crear el correo electrónico de confirmación {#step-1--create-the-confirmation-email-1}
 
@@ -86,25 +86,25 @@ El evento está listo. Ahora puede diseñar el mensaje de correo electrónico tr
 
 El correo electrónico de confirmación es un mensaje transaccional basado en el evento que acaba de publicar.
 
-1. En el logotipo de Adobe Campaign, seleccione **[!UICONTROL Marketing plans]** &gt; **[!UICONTROL Transactional messages]** y haga clic en **[!UICONTROL Transactional messages]**.
+1. From the Adobe Campaign logo, select  &gt;  and click .**[!UICONTROL Marketing plans]****[!UICONTROL Transactional messages]****[!UICONTROL Transactional messages]**
 1. Seleccione el correo electrónico de transacción correspondiente al evento que acaba de publicar.
 
 1. Haga clic en la **[!UICONTROL Content]** sección y seleccione una plantilla de correo electrónico. Para obtener más información sobre la edición de contenido de mensajes transaccionales, consulte Mensajes [transaccionales](../../channels/using/event-transactional-messages.md)de eventos.
-1. Como tiene acceso directo a todos los campos del **[!UICONTROL Service]** recurso, puede seleccionar cualquier campo del nodo **[!UICONTROL Context]** &gt; **[!UICONTROL Real-time event (rtEvent)]** &gt; **[!UICONTROL Event context (ctx)]** &gt;**[!UICONTROL Service]** para personalizar el contenido.
+1. As you have direct access to all fields from the  resource, you can select any field from the  &gt;  &gt;  &gt; node to personalize your content.**[!UICONTROL Service]****[!UICONTROL Context]****[!UICONTROL Real-time event (rtEvent)]****[!UICONTROL Event context (ctx)]****[!UICONTROL Service]**
 
    ![](assets/confirmation_personalization-service.png)
 
    Para obtener más información sobre cómo personalizar un mensaje transaccional, consulte [esta sección](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message).
 
-1. Obtenga una vista previa del mensaje con un perfil de prueba. Para obtener más información sobre esto, consulte [Definición de un perfil de prueba en un mensaje](../../channels/using/event-transactional-messages.md#defining-a-test-profile-in-a-transactional-message)transaccional.
+1. Preview your message using a test profile. For more on this, see Defining a test profile in a transactional message.[](../../channels/using/event-transactional-messages.md#defining-a-test-profile-in-a-transactional-message)
 
-1. Haga clic **[!UICONTROL Save & close]** para guardar el contenido.
-1. Publique el mensaje transaccional. Consulte [Publicación de un mensaje](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message)transaccional.
+1. Click  to save your content.**[!UICONTROL Save & close]**
+1. Publish the transactional message. See Publishing a transactional message.[](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message)
 
-### Paso 2: Crear y configurar el servicio {#step-2--create-and-configure-the-service-1}
+### Step 2: Create and configure the service {#step-2--create-and-configure-the-service-1}
 
 1. En el menú avanzado **Perfiles y audiencias** &gt; **Servicios** mediante el logotipo de Adobe Campaign, cree un servicio.
-1. Vaya a la **[!UICONTROL Service properties]** sección, a la que se accede mediante el ![](assets/edit_darkgrey-24px.png) botón del panel de servicios.
+1. Go to the  section, accessed via the  button in the service dashboard.**[!UICONTROL Service properties]**![](assets/edit_darkgrey-24px.png)
 1. Fill in the **[!UICONTROL Service label]** field.
 
    ![](assets/confirmation_service-label.png)
@@ -166,7 +166,7 @@ Los pasos para diseñar el mensaje transaccional se presentan en esta [sección]
 
 ### Paso 2: Crear y configurar el servicio {#step-2--create-and-configure-the-service-2}
 
-1. En el menú avanzado **[!UICONTROL Profiles & audiences]** &gt; **[!UICONTROLSServicios]** mediante el logotipo de Adobe Campaign, cree un servicio.
+1. En el menú avanzado **[!UICONTROL Profiles & audiences]** &gt; **[!UICONTROL Services]** mediante el logotipo de Adobe Campaign, cree un servicio.
 1. Vaya a la **[!UICONTROL Service properties]** sección, a la que se accede mediante el ![](assets/edit_darkgrey-24px.png) botón del panel de servicios.
 1. Fill in the **[!UICONTROL Service label]** field. Esta etiqueta se mostrará en el mensaje de confirmación y en la página de inicio de la suscripción.
 1. Click **[!UICONTROL Confirm]** and save the service.
