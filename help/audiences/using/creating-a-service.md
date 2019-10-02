@@ -2,52 +2,59 @@
 title: Creación de un servicio
 seo-title: Creación de un servicio
 description: Creación de un servicio
-seo-description: Aprenda a crear su primer servicio y configúrelo para enviar confirmaciones de correo electrónico a sus suscriptores.
-page-status-flag: no activado nunca
-uuid: 0 d 95 d 852-0 f 22-4 b 7 b-b 301-8 fb 4844 c 3 ca 2
+seo-description: Obtenga información sobre cómo crear su primer servicio y configurarlo para enviar confirmaciones de correo electrónico a sus suscriptores.
+page-status-flag: nunca activado
+uuid: 0d95d852-0f22-4b7b-b301-8fb4844c3ca2
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: audiencias
-content-type: reference
-topic-tags: administración de suscripciones
-discoiquuid: 6 b 7788 fe-fa 6 c -472 a -97 db -765595 ce 1589
-context-tags: service, wizard; servicio, principal
+products: SG_CAMPAIGN/STANDARD
+audience: audiences
+content-type: referencia
+topic-tags: administrar suscripciones
+discoiquuid: 6b7788fe-fa6c-472a-97db-765595ce1589
+context-tags: servicio,asistente;servicio,principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6a877d878f01fa1e541dc20b8b0941602113d15b
+source-git-commit: 32a11ad57eee6bc0b7ab693fbaa55811f36f94dc
 
 ---
 
 
-# Creating a service{#creating-a-service}
+# Creación de un servicio{#creating-a-service}
 
-Para poder administrar las suscripciones, primero debe crear un servicio y configurarlo. La configuración de un nuevo servicio permite especificar las confirmaciones de correo electrónico que recibirán los perfiles al suscribirse o cancelar la suscripción del servicio. También debe definir las páginas de aterrizaje de suscripción y sin suscripción vinculadas al servicio. Por ejemplo, un vínculo de suscripción de servicio insertado en un mensaje de correo electrónico automáticamente dirigirá el perfil a la página de aterrizaje de suscripción que se especifique en el servicio.
+Para poder administrar las suscripciones, primero debe crear un servicio y configurarlo. La configuración de un nuevo servicio le permite especificar las confirmaciones de correo electrónico que los perfiles recibirán cuando se suscriban o cancelen la suscripción al servicio. También definirá las páginas de aterrizaje de suscripción y cancelación de suscripción vinculadas al servicio. Por ejemplo, un vínculo de suscripción de servicio insertado en un correo electrónico dirigirá automáticamente el perfil a la página de aterrizaje de suscripción especificada en el servicio.
 
 Para configurar un servicio:
 
-1. From the advanced menu **Profiles &amp; audiences** &gt; **Services** via the Adobe Campaign logo, add a new service or select an existing service. Si crea un nuevo servicio, simplemente siga los pasos que se muestran en la pantalla.
+1. En el menú avanzado **[!UICONTROL Profiles & audiences]** &gt; **[!UICONTROL Services]** mediante el logotipo de Adobe Campaign, agregue un nuevo servicio o seleccione uno existente. Si crea un nuevo servicio, simplemente siga los pasos que se muestran en la pantalla.
 
-   Hay disponible una plantilla de servicio predeterminada. Esta plantilla está preconfigurada con páginas de aterrizaje predeterminadas y mensajes de correo electrónico de confirmación. Puede crear otras plantillas para definir configuraciones específicas. For more on this, refer to the [Managing templates](../../start/using/about-templates.md) section.
+   Hay disponible una plantilla de servicio predeterminada. Esta plantilla está preconfigurada con páginas de aterrizaje y correos electrónicos de confirmación predeterminados. Puede crear otras plantillas para definir configuraciones específicas. For more on this, refer to the [Managing templates](../../start/using/about-templates.md) section.
 
-1. In the **Service properties** section, accessed via the ![](assets/edit_darkgrey-24px.png) button in the service dashboard, configure the confirmation messages for subscriptions and unsubscriptions.
+1. En la **[!UICONTROL Service properties]** sección, a la que se accede a través del ![](assets/edit_darkgrey-24px.png) botón del panel de servicios, configure los mensajes de confirmación de suscripciones y cancelaciones.
 
    ![](assets/lp_service_parameters.png)
 
-1. Seleccione una plantilla de mensaje de confirmación para suscripciones y cancelaciones. Hay tres modos disponibles:
+1. Fill in the **[!UICONTROL Service label]** field. La etiqueta de servicio es obligatoria cuando se utiliza un mensaje de confirmación personalizado.
 
-   * **[!UICONTROL No message]**: este modo permite crear un servicio sin un mensaje de confirmación.
-   * **[!UICONTROL Default message]**: este modo utilizará el mensaje predeterminado de suscripción o cancelación de suscripción. Los mensajes de confirmación predeterminados son genéricos y son los mismos para todos los servicios que utilicen el modo predeterminado.
-   * **[!UICONTROL Custom message]**: este modo le permite gestionar mensajes de confirmación personalizados, específicos para cada servicio. You then select the **[!UICONTROL Custom subscription event configuration]** which is associated with a specific transactional message template. Refer to [Transactional messages](../../channels/using/about-transactional-messaging.md) for more information on transactional event and message configuration.
+1. Seleccione una plantilla de mensaje de confirmación para suscripciones y suscripciones. Hay tres modos disponibles:
 
-1. Guarde el servicio. Ahora está listo para utilizarse.
+   * **[!UICONTROL No message]**:: este modo le permite crear un servicio sin un mensaje de confirmación.
+   * **[!UICONTROL Default message]**:: este modo utilizará el mensaje transaccional de confirmación de suscripción o cancelación de suscripción predeterminado. Los mensajes de confirmación predeterminados son genéricos y serán los mismos para todos los servicios que utilicen el modo predeterminado.
 
-Una vez creado el servicio, puede empezar a ascenderlo.
+      >[NOTA]
+      >
+      >Para modificar un mensaje predeterminado, haga clic en su etiqueta en la sección **[!UICONTROL Service properties]** o selecciónelo en la lista de mensajes transaccionales de Adobe Campaign, después de marcar la **[!UICONTROL Show internal transactional messages]** casilla.
+
+   * **[!UICONTROL Custom message]**:: este modo le permite gestionar mensajes de confirmación personalizados, específicos para cada servicio. A continuación, seleccione el **[!UICONTROL Custom subscription event configuration]** que está asociado a una plantilla de mensaje [](../../channels/using/about-transactional-messaging.md) transaccional específica. Para obtener más información sobre esto, consulte [Confirmación de la suscripción a un servicio](../../audiences/using/confirming-subscription-to-a-service.md).
+
+1. Guarde el servicio. Ahora está listo para ser utilizado.
+
+Una vez creado un servicio, puede empezar a promocionarlo.
 
 **Temas relacionados:**
 
-* [Gestión de un vídeo de suscripciones](https://helpx.adobe.com/campaign/kt/acs/using/acs-services-and-subscriptions-feature-video-use.html) y servicios
+* [Administración de un servicio y un vídeo de suscripciones](https://helpx.adobe.com/campaign/kt/acs/using/acs-services-and-subscriptions-feature-video-use.html)
 * [Promoción de un servicio](../../audiences/using/promoting-a-service.md)
-* [Creación de una audiencia realizada por suscriptores](../../audiences/using/creating-audiences.md#creating-list-audiences)
+* [Creación de una audiencia formada por suscriptores](../../audiences/using/creating-audiences.md#creating-list-audiences)
 * [Vinculación de un formulario a un servicio en una página de aterrizaje](../../channels/using/designing-a-landing-page.md#linking-a-form-to-a-service)
 
