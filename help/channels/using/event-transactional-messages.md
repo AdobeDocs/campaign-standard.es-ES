@@ -15,7 +15,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
+source-git-commit: 443b374506d388009fbd43108577001d35f406ee
 
 ---
 
@@ -83,21 +83,27 @@ Ahora puede acceder al mensaje que ha creado y seleccionar el perfil de prueba a
 
 Para configurar la personalización en un mensaje transaccional, siga los pasos a continuación:
 
-1. Haga clic en el **[!UICONTROL Content]** bloque para modificar el asunto y el contenido del mensaje. Para este ejemplo, importe una plantilla HTML que contenga imágenes, la hoja de estilo y un archivo HTML. La importación de plantillas HTML se presenta en la sección [Carga de contenido](../../designing/using/using-existing-content.md) existente.
+1. Haga clic en el **[!UICONTROL Content]** bloque para modificar el asunto y el contenido del mensaje. Para este ejemplo, seleccione cualquier plantilla que contenga imágenes y texto. Para obtener más información sobre las plantillas de contenido de correo electrónico, consulte [Diseño con plantillas](../../designing/using/using-reusable-content.md#designing-templates).
 
    ![](assets/message-center_6.png)
 
-1. Introduzca el contenido del mensaje. En este ejemplo, hemos añadido tres campos de personalización: apellido, último producto consultado, cantidad total del carro de compras. El vínculo al carro abandonado es un vínculo a una dirección URL externa que redireccionará a la persona al carro de compras. Este parámetro no se administra en Adobe Campaign.
+1. Agregue un asunto y edite el contenido del mensaje para adaptarlo a sus necesidades.
 
-   Para agregar campos que definió al crear el evento (consulte [Configuración de un evento](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)), inserte un campo de personalización en el contenido del mensaje. Puede encontrar los campos seleccionando **[!UICONTROL Transactional event]** &gt; **[!UICONTROL Event context]**.
+   >[NOTA]
+   >
+   >El vínculo al carro abandonado es un vínculo a una dirección URL externa que redireccionará a la persona al carro de compras. Este parámetro no se administra en Adobe Campaign.
+
+1. En este ejemplo, desea agregar tres campos que definió al [crear el evento](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message): nombre, último producto consultado, cantidad total del carro de compras. Para ello, [inserte un campo](../../designing/using/personalization.md#inserting-a-personalization-field) de personalización en el contenido del mensaje.
+
+1. Vaya a esos campos a través **[!UICONTROL Context]** &gt; **[!UICONTROL Real-time event]** &gt; **[!UICONTROL Event context]**.
 
    ![](assets/message-center_7.png)
 
-1. Para enriquecer el contenido del mensaje, agregue campos seleccionándolos en la tabla con la que vinculó el evento. En nuestro ejemplo, seleccione el **[!UICONTROL Title (salutation)]** campo de la **[!UICONTROL Profile]** tabla.
+1. Para enriquecer el contenido del mensaje, agregue campos seleccionándolos en la tabla con la que vinculó el evento. En nuestro ejemplo, seleccione el **[!UICONTROL Title (salutation)]** campo de la **[!UICONTROL Profile]** tabla a través de **[!UICONTROL Context]** &gt; **[!UICONTROL Real-time event]** &gt; **[!UICONTROL Event context]**.
 
    ![](assets/message-center_7-enrichment.png)
 
-   Los pasos para insertar un campo de personalización se detallan en la sección [Inserción de un campo](../../designing/using/personalization.md#inserting-a-personalization-field) de personalización.
+1. Inserte todos los campos necesarios.
 
    ![](assets/message-center_8.png)
 
@@ -119,7 +125,7 @@ Puede crear listas de productos que hagan referencia a una o varias colecciones 
 
 Para agregar una lista de productos abandonados en un mensaje transaccional, siga los pasos a continuación.
 
-También puede ver un conjunto de vídeos en los que se explican los pasos necesarios para configurar las listas de productos en un mensaje de correo electrónico transaccional. Para obtener más información sobre esto, consulte [esta página](https://helpx.adobe.com/campaign/kt/acs/using/acs-product-listings-in-transactional-emails-feature-video-setup.html).
+También puede ver un conjunto de vídeos en los que se explican los pasos necesarios para configurar las listas de productos en un mensaje de correo electrónico transaccional. For more on this, see [this page](https://helpx.adobe.com/campaign/kt/acs/using/acs-product-listings-in-transactional-emails-feature-video-setup.html).
 
 >[!NOTE]
 >
@@ -280,7 +286,7 @@ Si selecciona un mensaje transaccional, puede eliminarlo con el **[!UICONTROL De
 
 * **Mensajes** transaccionales: Para eliminar un mensaje transaccional, se debe cancelar la publicación del mensaje y no ponerlo en pausa.
 
-   Si se deja de publicar el mensaje transaccional, también es necesario cancelar la publicación de la configuración del evento para eliminar correctamente el mensaje transaccional, a menos que otro mensaje transaccional esté vinculado al evento correspondiente. Para obtener más información sobre cómo cancelar la publicación de un mensaje transaccional, consulte esta [sección](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message).
+   Si se deja de publicar el mensaje transaccional, también es necesario cancelar la publicación de la configuración del evento para eliminar correctamente el mensaje transaccional, a menos que otro mensaje transaccional esté vinculado al evento correspondiente. For more information on how to unpublish a transactional message, refer to this [section](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message).
 
    >[!CAUTION]
    >
