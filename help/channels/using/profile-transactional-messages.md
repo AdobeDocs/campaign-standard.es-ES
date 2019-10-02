@@ -14,7 +14,7 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: d9357481a567cb0d11eea43211abf08a6dcb07d6
 
 ---
 
@@ -45,7 +45,7 @@ Los pasos para crear, personalizar y publicar un mensaje transaccional de perfil
 Las diferencias se enumeran a continuación.
 
 1. Vaya al mensaje transaccional que se creó para editarlo.
-1. En el mensaje transaccional, haga clic en la **[!UICONTROL Content]** sección . Además de la plantilla transaccional, también puede elegir la plantilla de correo electrónico predeterminada, que se dirige **[!UICONTROL Profile]**.
+1. En el mensaje transaccional, haga clic en la **[!UICONTROL Content]** sección . Además de la plantilla transaccional, también puede elegir cualquier objetivo de plantilla de correo electrónico **[!UICONTROL Profile]**.
 
    ![](assets/message-center_marketing_templates.png)
 
@@ -55,7 +55,7 @@ Las diferencias se enumeran a continuación.
 
    ![](assets/message-center_marketing_perso_unsubscription.png)
 
-   Además, a diferencia de las configuraciones basadas en eventos en tiempo real, tiene acceso directo a toda la información de perfil para personalizar su mensaje. Consulte [Inserción de un campo](../../designing/using/personalization.md#inserting-a-personalization-field)de personalización.
+   Además, a diferencia de las configuraciones basadas en eventos en tiempo real, tiene acceso directo a toda la información de perfil para personalizar su mensaje. See [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field).
 
 1. Guarde los cambios y publique el mensaje. Consulte [Publicación de un mensaje](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message)transaccional.
 
@@ -67,7 +67,7 @@ Una vez que se publique el mensaje y se haya completado la integración del siti
 
    Para obtener más información sobre el acceso a los registros, consulte [Supervisión del envío](../../sending/using/monitoring-a-delivery.md).
 
-1. Seleccione la **[!UICONTROL Sending logs]** ficha. En la **[!UICONTROL Status]** columna, **[!UICONTROL Sent]** indica que un perfil ha elegido.
+1. Select the **[!UICONTROL Sending logs]** tab. En la **[!UICONTROL Status]** columna, **[!UICONTROL Sent]** indica que un perfil ha elegido.
 
    ![](assets/message-center_marketing_sending_logs.png)
 
@@ -81,8 +81,8 @@ Esta regla forma parte de una tipología específica que se aplica a todos los m
 
 ![](assets/message-center_marketing_typology.png)
 
-**Temas** relacionados:
+**Temas relacionados**:
 
 * [Integración del sitio](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)
-* [Tipos](../../administration/using/about-typology-rules.md)
+* [Tipologías](../../administration/using/about-typology-rules.md)
 
