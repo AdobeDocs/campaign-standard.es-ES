@@ -14,7 +14,7 @@ discoiquuid: 8428f8ac-8ef5-46cd-9d93-10ec0ecd3ded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4ad558fce83006879455a791127594157456f0c4
+source-git-commit: fba337604c678bad17cb03796aeb24d14549605c
 
 ---
 
@@ -34,6 +34,9 @@ Después de agregar perfiles de prueba en la **[!UICONTROL Audience]** ventana, 
    ![](assets/sending_anti-spam_analysis.png)
 
 1. Seleccione el **[!UICONTROL Change profile]** botón para elegir el perfil de prueba en el que desea probar los elementos de personalización.
+
+   ![](assets/sending_test-profile.png)
+
 1. Para salir del **[!UICONTROL Preview]** modo, haga clic en el **[!UICONTROL Edit]** botón situado en la parte superior izquierda de la pantalla.
 
    ![](assets/sending_preview_edit.png)
