@@ -1,9 +1,9 @@
 ---
-title: Prueba de la línea de asunto de un correo electrónico
-seo-title: Prueba de la línea de asunto de un correo electrónico
-description: Prueba de la línea de asunto de un correo electrónico
-seo-description: Descubra cómo definir la línea de asunto de un correo electrónico en el Diseñador de correo electrónico.
-page-status-flag: nunca activado
+title: Testing the subject line of an email
+seo-title: Testing the subject line of an email
+description: Testing the subject line of an email
+seo-description: Discover how to define the subject line of an email in the Email Designer.
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
@@ -14,13 +14,13 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 62992dbedea7209ca26ae9e1a475a0c87405a4d9
+source-git-commit: 8b85bbad7458286252a2900ce730288f6e52442e
 
 ---
 
 # Prueba de un sujeto {#testing-a-subject}
 
-Para probar la línea de asunto:
+Para probar la línea de asunto, siga los pasos a continuación:
 
 1. Cree o abra su correo electrónico.
 1. Abra el contenido e introduzca el asunto del correo electrónico en el campo de entrada correspondiente.
@@ -47,22 +47,22 @@ Se calculan varios indicadores y se muestra un conjunto de herramientas para ayu
 
 ![](assets/predictive_subject_line_example.png)
 
-## Importación de modelos {#importing-models}
+## Importing models {#importing-models}
 
-De forma predeterminada, no hay ningún modelo en ejecución en el servidor de Adobe Campaign. Existen dos formas de obtener un modelo y activar la función:
+De forma predeterminada, no hay ningún modelo en ejecución en el servidor de Adobe Campaign. There are two ways to get a model and activate the feature:
 
-* Puede formar un modelo local a partir de los datos de los mensajes de correo electrónico anteriores:
+* You can train a local model from the data of your previous email messages:
 
-   * Si ya utiliza Adobe Campaign, el modelo local recibirá automáticamente formación sobre los mensajes que ya haya enviado.
-   * Si es nuevo en Adobe Campaign, puede extraer un archivo CSV del sistema o ESP anterior que contenga 4 columnas: fecha, asunto, enviado, se abre. Para ello, vaya a **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Email]** &gt; **[!UICONTROL Subject Line Import]** y siga las instrucciones que aparecen en las pantallas sucesivas. Una vez completada la carga del asunto, importe un modelo local como se describe a continuación. El modelo local se capacita automáticamente con los datos cargados.
-   * Si es nuevo en Adobe Campaign y no puede obtener un archivo CSV como se describe anteriormente, puede utilizar un modelo preentrenado o esperar a que tenga suficientes datos de entrega en el sistema para formar un modelo local. El sistema determinará automáticamente si el conjunto de datos actual contiene datos suficientes para reconocer patrones y para entrenar el modelo.
+   * If you are already using Adobe Campaign, the local model will be automatically trained on the messages that you have already sent.
+   * If you are new to Adobe Campaign, you can extract a CSV file from your previous system/ESP that contains 4 columns: date, subject, sent, opens. To do that, go to  &gt;  &gt;  &gt;  and follow the instructions provided on the successive screens. **[!UICONTROL Administration]****[!UICONTROL Channels]****[!UICONTROL Email]****[!UICONTROL Subject Line Import]** When the subject upload is complete, import a local model as described below. The local model is automatically trained with the data you uploaded.
+   * If you are new to Adobe Campaign and cannot get a CSV file as described above, you can use a pre-trained model or wait until you have enough delivery data in your system to train a local model. The system will automatically determine whether your current data set contains enough data to recognize patterns and to train the model.
 
       >[!NOTE]
       >
-      >No hay un número definido de líneas de asunto necesarias para entrenar su propio modelo. Para poder capacitarlo, las líneas de asunto deben ser variadas y no tener duplicados. Si no hay suficientes datos para procesar, el sistema no podrá entrenar al modelo. Sólo puede tener un modelo entrenado en su instancia.
-   Para formar un modelo local, descargue subjectLineTraining.xml desde [aquí](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) y utilice la función de importación [de](../../automating/using/managing-packages.md) paquetes para cargarlo en la instancia de Adobe Campaign. Un flujo de trabajo técnico hará automáticamente la formación.
+      >There is no defined number of subject lines needed to train your own model. To be able to train it, the subject lines need to be varied and to have no duplicates. Si no hay suficientes datos para procesar, el sistema no podrá entrenar al modelo. You can only have one trained model on your instance.
+   To train a local model, download the subjectLineTraining.xml from here and use the package import feature to upload it to your Adobe Campaign instance. [](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter)[](../../automating/using/managing-packages.md) Un flujo de trabajo técnico hará automáticamente la formación.
 
-   La primera vez que desee formar un modelo, un administrador puede forzar el **[!UICONTROL SubjectLine Training workflow]** inicio desde el menú **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Workflows]** .
+   The first time you want to train a model, an administrator can force the  to start from the  &gt;  &gt;  menu.**[!UICONTROL SubjectLine Training workflow]****[!UICONTROL Administration]****[!UICONTROL Application settings]****[!UICONTROL Workflows]**
 
    Una vez cargado y entrenado un modelo, la función se activa automáticamente y aparece una nueva opción junto al campo de línea de asunto de los mensajes.
 
