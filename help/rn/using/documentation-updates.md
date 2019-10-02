@@ -14,30 +14,36 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b4f9d8ec6c5fc8dec8e4ad16930a183cda665a15
+source-git-commit: d9357481a567cb0d11eea43211abf08a6dcb07d6
 
 ---
 
 
-# Actualizaciones de documentación{#documentation-updates}
+# Documentation Updates{#documentation-updates}
 
-Obtenga información sobre las últimas actualizaciones de la documentación de Adobe Campaign Standard.
+Learn about all the latest updates for Adobe Campaign Standard documentation.
 
-Esta página enumera todas las nuevas funciones y actualizaciones de documentación de cada versión de Adobe Campaign Standard.
+This page lists all the new features and documentation updates for each release of Adobe Campaign Standard.
 
-También puede consultar las Notas de la [versión](../../rn/using/release-notes.md)de Adobe Campaign.
+You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
 
-## Actualizaciones de documentación - septiembre de 2019 {#doc-updates-september-2019}
+## Documentation updates - October 2019 {#doc-updates-october-2019}
 
-Se ha añadido una nueva sección en la sección Notificaciones push sobre cómo crear y actualizar la información de perfil en función de los datos de suscripción de la aplicación móvil. [Más información](../../channels/using/updating-profile-with-mobile-app-data.md)
+A new section describing how to send an automatic custom confirmation email to profiles who subscribe to a specific service has been added. [Más información](../../audiences/using/confirming-subscription-to-a-service.md)
 
-Se ha añadido un nuevo ejemplo que muestra cómo enviar un correo electrónico que contiene datos adicionales recuperados de una actividad de archivo de carga. [Más información](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
+The Transactional messaging section has been modified with the latest UI updates, including editing content with the Email Designer. [Más información](../../channels/using/event-transactional-messages.md)
 
-Se ha añadido una nueva sección sobre cómo utilizar las trampas. [Lea más](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps).
+## Documentation updates - September 2019 {#doc-updates-september-2019}
 
-Se ha añadido una nota sobre la opción **Launch_URL_Campaign** en la página sobre cómo configurar una aplicación móvil mediante los SDK de la plataforma de experiencia de Adobe. [Más información](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
+A new section was added in the Push notifications section on how to create and update profile information based on mobile application subscription data. [Más información](../../channels/using/updating-profile-with-mobile-app-data.md)
 
-Se ha reorganizado la guía del diseñador del correo electrónico. [Más información](../../designing/using/designing-content-in-adobe-campaign.md)
+A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Más información](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
+
+A new section on how to use traps has been added. [Más información](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps).
+
+A note about the Launch_URL_Campaign option was added in the page on how to configure a mobile application using Adobe Experience Platform SDKs. **** [Más información](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
+
+The email designer guide has been reorganized. [Más información](../../designing/using/designing-content-in-adobe-campaign.md)
 
 ## Actualizaciones de documentación - Agosto de 2019 {#doc-updates-august-2019}
 
@@ -95,33 +101,33 @@ Se ha añadido una advertencia en la documentación de recursos personalizada. S
 
 Se ha agregado una nueva página en las limitaciones de la página de aterrizaje. [Más información](../../channels/using/landing-page-limitations.md)
 
-Se agregó un caso de uso sobre cómo llamar a un perfil mediante una clave de identificación compuesta. [Más información](../../developing/using/uc-calling-resource-id-key.md)
+A use case was added on how to call a profile using a composite identification key. [Más información](../../developing/using/uc-calling-resource-id-key.md)
 
-Se ha agregado una recomendación con respecto al uso de entregas recurrentes sin período de agregación al llamar a un flujo de trabajo con parámetros. [Más información](../../automating/using/calling-a-workflow-with-external-parameters.md)
+A recommendation has been added regarding the use of recurring deliveries with no aggregation period when calling a workflow with parameters. [Más información](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
-Se ha actualizado la lista de mensajes de error para Campaign Standard y Classic. [Más información](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+The list of error messages for Campaign Standard and Classic has been updated. [Más información](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
-Se ha añadido una advertencia en la documentación de recursos personalizada. Se recomienda usar un máximo de 30 caracteres para los ID de recursos personalizados. Esto también se aplica a campos de recursos personalizados, claves, índices y vínculos. [Más información](../../developing/using/creating-or-extending-the-resource.md)
+Added a warning in custom resource documentation. We recommend using 30 characters maximum for custom resource IDs. This also applies to custom resource fields, keys, indexes and links. [Más información](../../developing/using/creating-or-extending-the-resource.md)
 
-## Versión 19.2: mayo de 2019 {#release-19-2---may-2019}
+## Release 19.2 - May 2019 {#release-19-2---may-2019}
 
-### Nuevas funciones incluidas en la versión {#new-capabilities-included-in-the-release}
+### New capabilities included in the release {#new-capabilities-included-in-the-release}
 
-Panel de control - [Más información](https://helpx.adobe.com/campaign/kb/control-panel.html)
+Control Panel - Read more[](https://helpx.adobe.com/campaign/kb/control-panel.html)
 
-Notificaciones locales - [Más información](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
+Local notifications - Read more[](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
-Mejora del flujo de trabajo: agregue una carga útil a la actividad de señal externa. [Más información](../../automating/using/calling-a-workflow-with-external-parameters.md)
+Workflow enhancement - Add a payload to external signal activity - Read more[](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
-Mejora de las páginas de aterrizaje - Google reCAPTCHA - [Más información](../../channels/using/designing-a-landing-page.md#setting-google-recaptcha)
+Landing Pages enhancement - Google reCAPTCHA - Read more[](../../channels/using/designing-a-landing-page.md#setting-google-recaptcha)
 
-### Otras actualizaciones de la documentación incluidas en la versión {#other-documentation-updates-coming-with-the-release}
+### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release}
 
 Se ha actualizado el artículo Delegación de nombres de dominio. [Más información](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html)
 
-Se ha publicado un nuevo artículo de Planificación de versiones para compartir las próximas fechas de lanzamiento. [Más información](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
+A new Release Planning article has been published to share upcoming release dates. [Más información](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 
-Se han actualizado los vínculos de ayuda contextuales disponibles directamente desde Adobe Campaign.
+The contextual help links available directly from Adobe Campaign have been updated.
 
 La siguiente [página](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html) se convierte en la página oficial de vídeos de Adobe Campaign Standard.
 
@@ -171,7 +177,7 @@ Se ha actualizado la página Funciones obsoletas y eliminadas. [Más informació
 
 Se ha actualizado y mejorado la sección de integración de Dreamweaver. [Más información](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 
-## Versión 19.1: febrero de 2019 {#release-19-1---february-2019}
+## Release 19.1 - February 2019 {#release-19-1---february-2019}
 
 ### Nuevas funciones incluidas en la versión {#new-capabilities-included-in-the-release-1}
 
@@ -187,7 +193,7 @@ Mejoras en el flujo de trabajo: lea más [aquí](../../automating/using/workflow
 
 La nueva experiencia de integración para crear contenido de correo electrónico y otras mejoras en el Diseñador de correo electrónico se han añadido al capítulo Editar contenido de correo electrónico. [Más información](../../designing/using/overview.md#email-designer-home-page)
 
-Se ha añadido una nueva sección sobre las limitaciones de mensajería transaccionales. [Más información](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
+A new section on Transactional messaging limitations has been added. [Más información](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
 
 Se ha añadido una nueva sección en la que se comparan las distintas opciones de creación de correo electrónico en Adobe Campaign. [Más información](../../designing/using/using-integrations.md#email-design-options-comparison)
 
@@ -381,7 +387,7 @@ Se agregó información sobre cómo configurar las páginas de aterrizaje para q
 
 Se ha reorganizado la sección [Configuración de mensajes](../../administration/using/configuring-transactional-messaging.md) transaccionales y se ha agregado un caso [de uso](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) paso a paso.
 
-Se ha agregado una nota técnica para aprender a generar un archivo CSV multilingüe para utilizarlo en las notificaciones push. [Lea más](http://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html).
+Se ha agregado una nota técnica para aprender a generar un archivo CSV multilingüe para utilizarlo en las notificaciones push. [Más información](http://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html).
 
 Se ha añadido información sobre la plantilla de importación de **Actualizar cuarentena de correo directo y registros** de entrega. [Más información](../../automating/using/defining-import-templates.md)
 
@@ -389,7 +395,7 @@ Se ha actualizado la lista técnica de flujo de trabajo. [Más información](../
 
 Se ha actualizado la sección de actividad del programador. [Más información](../../automating/using/scheduler.md)
 
-Se ha actualizado la lista de materiales de ayuda sobre Campaign y la integración de soluciones de Adobe. [Lea más](../../integrating/using/about-campaign-integrations.md).
+Se ha actualizado la lista de materiales de ayuda sobre Campaign y la integración de soluciones de Adobe. [Más información](../../integrating/using/about-campaign-integrations.md).
 
 Se ha actualizado la ayuda contextual de Campaign Standard en el producto.
 
@@ -493,7 +499,7 @@ La sección "Recursos personalizados" se ha aclarado con un procedimiento más d
 
 Se ha actualizado y aclarado la [nota técnica](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) sobre cómo integrar el SDK de Adobe Marketing Cloud Mobile con una aplicación móvil para recibir notificaciones push de Adobe Campaign Standard.
 
-Se ha añadido una nota técnica que explica la estructura de la carga útil recibida en una aplicación móvil. [Lea más.](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)
+Se ha añadido una nota técnica que explica la estructura de la carga útil recibida en una aplicación móvil. [Más información.](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)
 
 La [sección](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) de configuración de canal push se ha actualizado con nuevos datos de carga útil en la versión del SO para añadirlos al definir postbacks en la interfaz de Adobe Mobile Services.
 
