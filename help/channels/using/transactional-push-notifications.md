@@ -14,7 +14,7 @@ discoiquuid: e645d4b9-001f-47d9-8a0f-b4696c75c5d3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: d9357481a567cb0d11eea43211abf08a6dcb07d6
 
 ---
 
@@ -25,7 +25,7 @@ Puede utilizar Adobe Campaign para enviar notificaciones push transaccionales en
 
 >[!NOTE]
 >
->El canal push es opcional. Verifique su contrato de licencia. Para obtener más información sobre las notificaciones push estándar, consulte Notificaciones [](../../channels/using/about-push-notifications.md)push.
+>El canal push es opcional. Compruebe el acuerdo de licencia. Para obtener más información sobre las notificaciones push estándar, consulte Notificaciones [](../../channels/using/about-push-notifications.md)push.
 
 Puede enviar dos tipos de notificaciones push de transacciones:
 
@@ -64,7 +64,7 @@ La empresa enviará una notificación push transaccional por usuario (identifica
 
    ![](assets/message-center_push_content.png)
 
-   Para buscar estos campos, haga clic en el lápiz situado junto a un elemento, haga clic en **[!UICONTROL Insert personalization field]** y seleccione **[!UICONTROL Transactional event]** &gt; **[!UICONTROL Event context]**.
+   Para buscar estos campos, haga clic en el lápiz situado junto a un elemento, haga clic en **[!UICONTROL Insert personalization field]** y seleccione **[!UICONTROL Context]** &gt; **[!UICONTROL Real-time event]** &gt; **[!UICONTROL Event context]**.
 
    ![](assets/message-center_push_personalization.png)
 
@@ -113,13 +113,13 @@ Por ejemplo, una empresa de aerolíneas desea enviar una última llamada de emba
 
 1. Vaya al mensaje transaccional que se creó para editarlo. Consulte Mensajes [transaccionales](../../channels/using/event-transactional-messages.md)de eventos.
 
-   ![](assets/message-center_push_message_profile.png)
+   <!--![](assets/message-center_push_message_profile.png)-->
 
 1. Haga clic en el **[!UICONTROL Content]** bloque para modificar el título y el cuerpo del mensaje.
 
-   A diferencia de las configuraciones basadas en eventos en tiempo real, tiene acceso directo a toda la información de perfil para personalizar su mensaje. Consulte [Inserción de un campo](../../designing/using/personalization.md#inserting-a-personalization-field)de personalización.
+   A diferencia de las configuraciones basadas en eventos en tiempo real, tiene acceso directo a toda la información de perfil para personalizar su mensaje. See [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field).
 
-   ![](assets/message-center_push_content_profile.png)
+   <!--![](assets/message-center_push_content_profile.png)-->
 
    Para obtener más información sobre la edición de contenido de notificaciones push. Consulte [Creación de una notificación](../../channels/using/preparing-and-sending-a-push-notification.md)push.
 
