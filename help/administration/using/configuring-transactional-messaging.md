@@ -14,7 +14,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e89bd70459c92ba9706bbec5c488cbb340b14651
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
@@ -186,7 +186,7 @@ Una vez creado un evento, deberá integrar la activación de este evento en su s
 
 En el ejemplo descrito en la sección Principio [operativo de mensajería](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) transaccional, desea que se active un evento de "abandono del carro de compras" cada vez que uno de los clientes abandone el sitio Web antes de comprar los productos en el carro de compras. Para ello, el desarrollador web de su sitio web debe utilizar la API REST de Adobe Campaign Standard.
 
-Consulte la documentación de la API de [REST](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#transactional-messages-api) .
+Consulte la documentación de la API de [REST](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#transactional-messages-api) .
 
 ## Configuraciones específicas de eventos transaccionales {#transactional-event-specific-configurations}
 
