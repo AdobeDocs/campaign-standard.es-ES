@@ -14,7 +14,7 @@ discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
@@ -51,7 +51,7 @@ El primer paso para llamar a un flujo de trabajo con parámetros es declararlos 
 
 ## Definición de los parámetros al llamar al flujo de trabajo {#defining-the-parameters-when-calling-the-workflow}
 
-En esta sección se explica cómo definir parámetros al llamar a un flujo de trabajo. Para obtener más información sobre cómo realizar esta operación desde una llamada de API, consulte la documentación [de las API de](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)REST.
+En esta sección se explica cómo definir parámetros al llamar a un flujo de trabajo. Para obtener más información sobre cómo realizar esta operación desde una llamada de API, consulte la documentación [de las API de](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)REST.
 
 Antes de definir los parámetros, asegúrese de que:
 
@@ -76,7 +76,7 @@ Para configurar la **[!UICONTROL End]** actividad, siga los pasos a continuació
 
 ## Monitoreo de las variables de eventos {#monitoring-the-events-variables}
 
-Es posible supervisar las variables de eventos disponibles en el flujo de trabajo, incluidos los parámetros externos declarados. Para ello, siga los pasos a continuación:
+Es posible supervisar las variables de eventos disponibles en el flujo de trabajo, incluidos los parámetros externos declarados. Para realizar esto, siga los pasos a continuación:
 
 1. Seleccione la actividad que sigue a la **[!UICONTROL External signal]** actividad y haga clic en el **[!UICONTROL Log and tasks]** botón.
 1. En la **[!UICONTROL Tasks]** ficha, haga clic en ![](assets/edit_darkgrey-24px.png) .
@@ -120,7 +120,7 @@ Cuando se utiliza una variable en una actividad, la interfaz proporciona ayuda p
 
    ![](assets/wkf_test_activity_variables.png)
 
-* ![](assets/extsignal_expression_editor.png):: editar expresiones combinando variables y funciones. Para obtener más información sobre el editor de expresiones, consulte [esta sección](../../automating/using/advanced-expression-editing.md).
+* ![](assets/extsignal_expression_editor.png):: editar expresiones combinando variables y funciones. For more on the Expression editor, refer to [this section](../../automating/using/advanced-expression-editing.md).
 
    ![](assets/wkf_test_activity_variables_expression.png)
 
@@ -136,25 +136,25 @@ Las variables de eventos se pueden utilizar para personalizar varias actividades
 
 **[!UICONTROL Read audience]** actividad: defina la audiencia a la que se dirigirá en función de las variables de eventos.
 
-Para obtener más información sobre cómo usar la actividad, consulte la sección [](../../automating/using/read-audience.md)dedicada.
+For more on how to use the activity, refer to the [dedicated section](../../automating/using/read-audience.md).
 
 ![](assets/extsignal_activities_audience.png)
 
 **[!UICONTROL Test]** actividad: generar condiciones basadas en variables de eventos.
 
-Para obtener más información sobre cómo usar la actividad, consulte la sección [](../../automating/using/test.md)dedicada.
+For more on how to use the activity, refer to the [dedicated section](../../automating/using/test.md).
 
 ![](assets/extsignal_activities_test.png)
 
 **[!UICONTROL Transfer file]** actividad: personalice el archivo para transferir en función de las variables de eventos.
 
-Para obtener más información sobre cómo usar la actividad, consulte la sección [](../../automating/using/transfer-file.md)dedicada.
+For more on how to use the activity, refer to the [dedicated section](../../automating/using/transfer-file.md).
 
 ![](assets/extsignal_activities_transfer.png)
 
 **[!UICONTROL Query]** actividad: se puede hacer referencia a los parámetros en una consulta, mediante expresiones que combinan variables y funciones de eventos. Para ello, agregue una regla y haga clic en el **[!UICONTROL Advanced mode]** vínculo para acceder a la ventana de edición de expresiones (consulte Edición [de expresiones](../../automating/using/advanced-expression-editing.md)avanzadas).
 
-Para obtener más información sobre cómo usar la actividad, consulte la sección [](../../automating/using/query.md)dedicada.
+For more on how to use the activity, refer to the [dedicated section](../../automating/using/query.md).
 
 ![](assets/extsignal_activities_query.png)
 
@@ -175,7 +175,7 @@ Para personalizar una entrega según las variables de eventos, primero debe decl
 
    ![](assets/extsignal_activities_delivery.png)
 
-1. Haga clic en el **[!UICONTROL Confirm]** botón.
+1. Click the **[!UICONTROL Confirm]** button.
 
 Las variables de eventos declarados ya están disponibles en la lista de campos de personalización. Puede utilizarlos en la entrega para realizar las acciones siguientes:
 
@@ -205,7 +205,7 @@ Las variables de eventos declarados ya están disponibles en la lista de campos 
 
 ![](assets/extsignal_activities_label.png)
 
-## Caso de uso {#use-case}
+## Ejemplo de uso {#use-case}
 
 El siguiente caso de uso muestra cómo llamar al flujo de trabajo con parámetros dentro de los flujos de trabajo.
 
@@ -225,7 +225,7 @@ Antes de configurar los flujos de trabajo, debe crear los flujos de trabajo 1 y 
 
 ### Paso 1: Configuración de la llamada de API {#step-1--configuring-the-api-call}
 
-Realice una llamada de API para activar Workflow 1 con parámetros. Para obtener más información sobre la sintaxis de llamada de API, consulte la documentación [de las API de REST de](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)Campaign Standard.
+Realice una llamada de API para activar Workflow 1 con parámetros. Para obtener más información sobre la sintaxis de llamada de API, consulte la documentación [de las API de REST de](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)Campaign Standard.
 
 En nuestro caso, queremos llamar al flujo de trabajo con los parámetros siguientes:
 
@@ -317,7 +317,7 @@ Siga los pasos a continuación para configurar el flujo de trabajo:
 
    ![](assets/extsignal_uc7.png)
 
-El flujo de trabajo 1 está configurado, ahora puede crear el flujo de trabajo 2. For more on this, refer to [this section](../../automating/using/calling-a-workflow-with-external-parameters.md#step-3--configuring-workflow-2).
+El flujo de trabajo 1 está configurado, ahora puede crear el flujo de trabajo 2. Para obtener más información, consulte [esta sección](../../automating/using/calling-a-workflow-with-external-parameters.md#step-3--configuring-workflow-2).
 
 ### Paso 3: Configuración del flujo de trabajo 2 {#step-3--configuring-workflow-2}
 
