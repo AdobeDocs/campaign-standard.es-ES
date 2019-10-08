@@ -14,7 +14,7 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d9357481a567cb0d11eea43211abf08a6dcb07d6
+source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 ---
 
@@ -36,7 +36,9 @@ Para que el evento active el envío de un mensaje transaccional, debe personaliz
 
 >[!NOTE]
 >
->Para acceder a los mensajes transaccionales, debe tener derechos de administración o aparecer en el grupo de seguridad **[!UICONTROL Message Center agents]** (mcExec). Las reglas de fatiga son compatibles con los mensajes transaccionales de perfil. Consulte Reglas [de fatiga](../../administration/using/fatigue-rules.md).
+>Para acceder a los mensajes transaccionales, debe formar parte del grupo de **[!UICONTROL Administrators (all units)]** seguridad.
+>
+>Las reglas de fatiga son compatibles con los mensajes transaccionales de perfil. Consulte Reglas [de fatiga](../../administration/using/fatigue-rules.md).
 
 ## Envío de un mensaje transaccional de perfil {#sending-a-profile-transactional-message}
 
