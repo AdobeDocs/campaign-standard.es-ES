@@ -15,7 +15,7 @@ context-tags: landingPage,asistente;landingPage,información general;landingPage
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 0068746b0b90b85edfb2c93eb08a82e1adc2fca8
 
 ---
 
@@ -24,26 +24,14 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 Campaign viene con páginas de aterrizaje que son formularios web que se pueden utilizar para capturar información sobre las audiencias, ofrecer suscripciones a un servicio, mostrar datos y ampliar la base de datos. Las páginas de aterrizaje también se pueden utilizar para adquirir o actualizar perfiles existentes.
 
->[!CAUTION]
->
->Las páginas de aterrizaje solo se pueden utilizar para actualizar perfiles.
+Para obtener más información sobre los pasos necesarios para configurar una página de aterrizaje, consulte [esta sección](../../channels/using/main-steps-to-set-up-a-landing-page.md)
 
-Campaign viene con un conjunto de plantillas de página de aterrizaje integradas:
+**Temas relacionados:**
 
-* **[!UICONTROL Acquisition]**:: esta es la plantilla predeterminada para las páginas de aterrizaje, que permite capturar y actualizar datos en la base de datos de Campaign.
-* **[!UICONTROL Subscription]**:: esta plantilla debe utilizarse para ofrecer suscripciones a un servicio.
-* **[!UICONTROL Unsubscription]**:: esta plantilla se puede vincular desde un correo electrónico enviado a los suscriptores de un servicio para permitirles cancelar la suscripción a este servicio.
-* **[!UICONTROL Blacklist]**:: esta plantilla debe utilizarse cuando Campaign ya no desee establecer contacto con un perfil. Para obtener más información sobre la lista negra, consulte [Acerca de la inclusión y la exclusión en Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+* [Creación de un vídeo](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html) de tutorial de página de aterrizaje
+* [Uso de una página de aterrizaje para suscribir un servicio](../../audiences/using/creating-a-service.md)
 
-Estas plantillas se proponen de forma predeterminada al crear una nueva página de aterrizaje.
-
-![](assets/lp_creation_1.png)
-
-Adobe recomienda crear sus propias plantillas duplicando una plantilla integrada. Algunos parámetros solo se pueden configurar en plantillas de página de aterrizaje y no se pueden modificar directamente en las páginas de aterrizaje.
-
->[!NOTE]
->
->Para acceder a las plantillas de página de aterrizaje, haga clic en el logotipo de Adobe Campaign en la esquina superior izquierda y seleccione **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Landing page templates]**.
+## Ciclo de vida de las páginas de aterrizaje {#landing-pages-life-cycle}
 
 El ciclo de vida completo de una página de aterrizaje es el siguiente:
 
@@ -56,7 +44,39 @@ El ciclo de vida completo de una página de aterrizaje es el siguiente:
 
 Una vez creada y publicada, puede hacer que la página de aterrizaje sea accesible a través de un sitio web o [insertando un vínculo directo a la página de aterrizaje en un correo electrónico](../../designing/using/links.md#inserting-a-link).
 
-**Temas relacionados:**
+## Limitaciones de la página de aterrizaje{#landing-page-limitations}
 
-* [Creación de un vídeo de página](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html) de aterrizaje
-* [Utilice una página de aterrizaje para suscribirse a un servicio](../../audiences/using/creating-a-service.md)
+La sección siguiente enumera las limitaciones que debe tener en cuenta antes de comenzar a configurar las páginas de aterrizaje.
+
+**Escritura y actualización de datos**
+
+* Las páginas de aterrizaje están limitadas a **[!UICONTROL Profile]** y solo a **[!UICONTROL Subscription]** recursos. El registro se puede guardar y actualizar desde **[!UICONTROL Profile]** y una suscripción o cancelación de suscripción a un **[!UICONTROL Service]**.
+Para obtener más información sobre la configuración de recursos, consulte [Configuración de la estructura](../../developing/using/configuring-the-resource-s-data-structure.md)de datos del recurso.
+
+>[!CAUTION]
+>
+>Una página de aterrizaje no puede mostrar ni actualizar datos de ningún otro recurso que no sea **[!UICONTROL Profile]** y **[!UICONTROL Subscription]**.
+
+**Precarga**
+
+* La página de aterrizaje no puede mostrar una lista de registros automáticamente, no puede enumerar los servicios a los que los perfiles ya están suscritos. For more information on services, refer to this [page](../../audiences/using/creating-a-service.md).
+
+* Sólo se puede acceder a la página de aterrizaje con un formulario prerellenado (los datos se cargan previamente con la página) desde un correo electrónico de Adobe Campaign. No es posible acceder a este formulario desde una página web.
+
+**Reconciliación**
+
+* El comportamiento de reconciliación es el siguiente: tan pronto como se encuentra una coincidencia, el proceso de reconciliación se detiene. Esto significa que la reconciliación sólo se puede realizar en un registro de perfil y no en varios registros cuando hay duplicados.
+
+Por ejemplo, si desea enviar la siguiente página de inicio de adquisición a sus perfiles para actualizar la base de datos de Campaign con los números móviles de sus perfiles.
+
+![](assets/landing_page_limitation_1.png)
+
+Si uno de los perfiles rellena la página de aterrizaje con información nueva pero ya tiene un perfil duplicado, el perfil coincidente con la fecha de creación más temprana se actualizará, ya que los perfiles se priorizan según la fecha de creación.
+
+Aquí solo se actualizó el primer perfil porque era la entrada más antigua.
+
+![](assets/landing_page_limitation_2.png)
+
+**Prueba de las páginas de aterrizaje**
+
+* Las páginas de aterrizaje solo funcionan en perfiles y no en perfiles de prueba, lo que significa que las páginas de aterrizaje no se pueden probar como parte de una prueba de correo electrónico.
