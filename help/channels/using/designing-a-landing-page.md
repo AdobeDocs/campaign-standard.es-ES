@@ -15,88 +15,342 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aeb0e7bc6765b23042fafd34fb360d4e3046adcd
+source-git-commit: 9380d7f624c051c42b61d88e39c85a216fb7caec
 
 ---
 
 
 # Diseño de una página de aterrizaje{#designing-a-landing-page}
 
-## Acerca del diseño de contenido {#about-content-design}
+## Acerca del diseño del contenido del diseño de contenido de la página de aterrizaje {#about-content-design}
 
 Las páginas de aterrizaje se crean como cualquier actividad [de mercadotecnia](../../start/using/marketing-activities.md#about-marketing-activities).
 
-Al diseñar una página de aterrizaje, debe definir el contenido de:
+Al diseñar una página de aterrizaje, debe definir el contenido de la propia página, la página de confirmación y la página de error. Utilice el conmutador situado debajo de la barra de acciones para mostrar y configurar cada una de estas páginas.
 
-* la propia página,
-* la página de confirmación,
-* la página de error.
-
-Utilice el conmutador situado debajo de la barra de acciones para mostrar y configurar cada una de estas páginas.
-
-El contenido de estas páginas se ha diseñado mediante el editor de contenido de Campaign. Consulte Contenido [de](../../channels/using/about-landing-page-content-design.md)diseño.
-
-## Asignación de campos de formulario {#mapping-form-fields}
-
-Los campos de entrada se utilizan para almacenar o actualizar datos en la base de datos de Campaign. Para ello, debe vincular los campos de la base de datos con la zona de entrada, el botón de radio o los bloques de tipo de casilla de verificación. Para ello:
-
-1. Seleccione un bloque en la página de aterrizaje.
-1. Complete la **[!UICONTROL Form data]** parte de la paleta.
-
-   ![](assets/editing_lp_content_4.png)
-
-1. Elija un campo de base de datos para establecer un vínculo con el campo de formulario en la zona de **[!UICONTROL Field]** selección.
-
-   Cuando se selecciona la **[!UICONTROL Mandatory]** opción, la página solo se puede enviar si el usuario ha completado este campo. Si no se completa un campo obligatorio, aparecerá un mensaje de error cuando el usuario valide la página.
-
-   >[!NOTE]
-   >
-   >Las páginas de aterrizaje solo se pueden asignar con **perfiles**.
-
-1. Defina el tipo de campo eligiendo, por ejemplo **[!UICONTROL Text]**, **[!UICONTROL Number]** o **[!UICONTROL Date]** en el área de **[!UICONTROL HTML type of the field]** selección.
+El contenido de las páginas de aterrizaje se diseña mediante el editor de contenido de Campaign.
 
 >[!NOTE]
 >
->Los campos predeterminados de las páginas de aterrizaje integradas están preconfigurados. Puede modificarlas según sea necesario.
+>Si la instancia se instaló antes de la versión 19.0 de Adobe Campaign Standard, aún tendrá acceso al editor de contenido de correo electrónico heredado. La interfaz, los principios de uso y la configuración son mayormente los mismos que se describen a continuación para las páginas de aterrizaje. Sin embargo, es posible que todas las funciones no estén disponibles ni se mantengan en el editor de contenido de correo electrónico heredado, que ya no se utiliza en la versión 19.0. Para editar rápidamente el contenido del correo electrónico mediante una interfaz de arrastrar y soltar con funciones extendidas, utilice el Diseñador de [correo electrónico](../../designing/using/overview.md).
 
-## Envío del formulario {#submitting-the-form}
+Esta página describe las características específicas del editor de contenido de la página de aterrizaje. Para obtener más información sobre las acciones comunes a una o varias actividades de marketing, consulte estas secciones en la guía **Diseño de contenido** de correo electrónico:
 
-Puede seleccionar la acción que realizar cuando el visitante haga clic en el botón de envío. Para ello:
+* [Inserción de un campo personalizado](../../designing/using/personalization.md#inserting-a-personalization-field)
+* [Adición de un bloque](../../designing/using/personalization.md#adding-a-content-block)de contenido.
+* [Inserción de un enlace](../../designing/using/links.md#inserting-a-link).
+* [Inserción de imágenes](../../designing/using/images.md).
+* [Prácticas recomendadas generales para el diseño](../../designing/using/overview.md#content-design-best-practices)de contenido.
 
-1. Seleccione el botón de envío de la página de aterrizaje.
-1. Seleccione la acción en la lista desplegable del panel izquierdo. Las acciones posibles son: **[!UICONTROL Refresh]** (para actualizar la página) y **[!UICONTROL Next page]** (para mostrar la página de confirmación).
+>[!NOTE]
+>Si tiene una página de aterrizaje que ya está predefinida en formato HTML, puede importarla directamente con el **[!UICONTROL Change content]** botón.
+>
+>Antes de importar una página HTML en Adobe Campaign, asegúrese de que se abre y se muestra correctamente en los distintos navegadores. Si la página HTML contiene secuencias de comandos JavaScript, deben ejecutarse sin errores fuera del editor. En general, evite utilizar secuencias de comandos en el contenido del mensaje para asegurarse de que los clientes de correo electrónico lo procesan correctamente.
 
-   ![](assets/editing_lp_content_5.png)
+## Interfaz del editor de contenido de la página de aterrizaje{#landing-page-content-editor-interface}
 
-Además, puede cambiar la etiqueta del botón o configurar un vínculo específico. Para ello:
+El editor de contenido de la página de aterrizaje permite definir, modificar y personalizar fácilmente el contenido en Adobe Campaign. Para acceder a él, haga clic en el **[!UICONTROL Content]** bloque de un tablero de página de aterrizaje.
 
-1. Seleccione el botón de envío.
-1. Haga clic en el ![](assets/lp_link_properties.png) botón del panel izquierdo.
-1. Introduzca la etiqueta del botón, seleccione el tipo de vínculo, sus propiedades y el destino.
+El editor de contenido está organizado en tres secciones diferentes. Estas secciones le permiten ver y editar el contenido.
 
-   ![](assets/lp_link_custom.png)
+![](assets/des_lp_content_8.png)
 
-## Vinculación de un formulario a un servicio {#linking-a-form-to-a-service}
+1. La **paleta** de la parte izquierda de la pantalla permite modificar las opciones generales vinculadas a un bloque seleccionado. Las opciones que se pueden modificar son: color de fondo, borde, alineación de texto, condición de visibilidad, etc. See [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field).
+1. La barra de **acciones** contiene las opciones generales de la página. Puede seleccionar una plantilla y cambiar el modo de visualización.
+1. La zona **de** edición principal le permite interactuar directamente con el contenido mediante la barra de herramientas contextual: insertar un vínculo en una imagen, cambiar la fuente, eliminar un campo, etc.
 
-Puede vincular un formulario a un servicio para que los perfiles se puedan suscribir a un servicio específico al validar las páginas de aterrizaje.
+La barra **de** acciones contiene diferentes botones que le permiten interactuar con el contenido que se está creando.
 
-Los parámetros para vincular una página de aterrizaje permiten especificar el tipo de acción realizado y si la página de aterrizaje está vinculada específicamente a un único servicio o si es genérica.
+![](assets/des_lp_content_9.png)
 
-Para seleccionar el servicio que desea vincular, debe:
+<table> 
+ <thead> 
+  <tr> 
+   <th> Icono<br /> </th> 
+   <th> Nombre del botón<br /> </th> 
+   <th> Canal<br /> </th> 
+   <th> Descripción<br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <img height="21px" src="assets/download_darkgrey-24px.png" /> <br /> </td> 
+   <td> <span class="uicontrol">Cambiar contenido</span><br /> </td> 
+   <td> Página de aterrizaje y correo electrónico<br /> </td> 
+   <td> Le permite seleccionar contenido listo para usar o importar su propio contenido HTML. Consulte <a href="../../designing/using/using-existing-content.md">Carga de contenido</a>existente.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <img height="21px" src="assets/undo_darkgrey-24px.png" /> <br /> </td> 
+   <td> <span class="uicontrol">Deshacer</span><br /> </td> 
+   <td> Todos<br /> </td> 
+   <td> Cancela la última acción realizada.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <img height="21px" src="assets/redo_darkgrey-24px.png" /> <br /> </td> 
+   <td> <span class="uicontrol">Rehacer</span><br /> </td> 
+   <td> Todos<br /> </td> 
+   <td> Rehace la última acción que canceló.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <img height="21px" src="assets/display_block_darkgrey-24px.png" /> <br /> </td> 
+   <td> <span class="uicontrol">Mostrar bloques</span><br /> </td> 
+   <td> Página de aterrizaje y correo electrónico<br /> </td> 
+   <td> Permite mostrar los cuadros alrededor de los bloques de contenido (corresponde a la etiqueta <strong>&lt;div&gt;</strong> HTML).<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <img height="21px" src="assets/code_darkgrey-24px.png" /> <br /> </td> 
+   <td> <span class="uicontrol">Mostrar origen</span><br /> </td> 
+   <td> Página de aterrizaje y correo electrónico<br /> </td> 
+   <td> Permite mostrar el código fuente HTML de la página.<br /> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
-1. Edite las propiedades de la página de aterrizaje a las que se accede mediante el icono ![](assets/edit_darkgrey-24px.png) del tablero de la página de aterrizaje y muestre los **[!UICONTROL Job]** parámetros.
+La **barra de herramientas** es un elemento contextual de la interfaz del editor que ofrece diversas funcionalidades en función de la zona seleccionada. Contiene botones de acción y botones que le permiten cambiar el estilo del texto. Las modificaciones realizadas se aplican siempre a la zona seleccionada. Una vez seleccionado un bloque, puede eliminarlo o duplicarlo, por ejemplo. Después de seleccionar el texto dentro de un bloque, puede convertirlo en un vínculo o ponerlo en negrita.
 
-   ![](assets/lp_edit_properties_button.png)
+![](assets/delivery_content_17.png)
 
-1. Elija **[!UICONTROL Subscription]** en la lista **[!UICONTROL Specific actions]** desplegable.
+>[!CAUTION]
+>
+>Algunas funciones de la barra de herramientas permiten dar formato al contenido HTML. However, if the page contains a CSS style sheet, the **instructions** from the style sheet may prove to take **priority** over the instructions specified via the toolbar.
 
-   ![](assets/lp_parameters_5.png)
+<table> 
+ <thead> 
+  <tr> 
+   <th> Icono<br /> </th> 
+   <th> Nombre del botón<br /> </th> 
+   <th> Contexto<br /> </th> 
+   <th> Descripción<br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <img height="21px" src="assets/link_darkgrey-24px.png" /> <br /> </td> 
+   <td> <span class="uicontrol">Vínculo a una dirección URL</span> externa <br /> </td> 
+   <td> Cualquier elemento<br /> </td> 
+   <td> Permite agregar un vínculo a una dirección URL. Los detalles de cómo configurar un vínculo se presentan en la sección <a href="../../designing/using/links.md#inserting-a-link">Insertar un vínculo</a> .<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <img height="21px" src="assets/linkpage_darkgrey-24px.png" /> <br /> </td> 
+   <td> <span class="uicontrol">Vínculo a una página</span> de aterrizaje <br /> </td> 
+   <td> Cualquier elemento<br /> </td> 
+   <td> Permite acceder a una página de aterrizaje de Adobe Campaign. Los detalles de cómo configurar un vínculo se presentan en la sección <a href="../../designing/using/links.md#inserting-a-link">Insertar un vínculo</a> .<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <img height="21px" src="assets/link_subscribe_darkgrey-24px.png" /> <br /> </td> 
+   <td> <span class="uicontrol">Vínculo</span> de suscripción <br /> </td> 
+   <td> Cualquier elemento<br /> </td> 
+   <td> Permite insertar un vínculo de suscripción al servicio. Los detalles de cómo configurar un vínculo se presentan en la sección <a href="../../designing/using/links.md#inserting-a-link">Insertar un vínculo</a> .<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <img height="21px" src="assets/link_unsubscribe_darkgrey-24px.png" /> <br /> </td> 
+   <td> <span class="uicontrol">Vínculo</span> de cancelación de suscripción <br /> </td> 
+   <td> Cualquier elemento<br /> </td> 
+   <td> Le permite insertar un vínculo de cancelación de suscripción a un servicio. Los detalles de cómo configurar un vínculo se presentan en la sección <a href="../../designing/using/links.md#inserting-a-link">Insertar un vínculo</a> .<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <img height="21px" src="assets/linkoff_darkgrey-24px.png" /> <br /> </td> 
+   <td> <span class="uicontrol">Eliminar vínculo</span><br /> </td> 
+   <td> Enlace<br /> </td> 
+   <td> Permite eliminar el vínculo, así como todas las configuraciones vinculadas a él, después de confirmarlo.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <img height="21px" src="assets/personalization_field_darkgrey-24px.png" /> <br /> </td> 
+   <td> <span class="uicontrol">Insertar un campo</span> de personalización <br /> </td> 
+   <td> Elemento Texto<br /> </td> 
+   <td> Permite agregar un campo de la base de datos al contenido. Consulte <a href="../../designing/using/personalization.md#inserting-a-personalization-field">Inserción de un campo</a>de personalización.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <img height="21px" src="assets/personalization_block_darkgrey-24px.png" /> <br /> </td> 
+   <td> <span class="uicontrol">Insertar un bloque</span> de contenido <br /> </td> 
+   <td> Elemento Texto<br /> </td> 
+   <td> Permite agregar un bloque de personalización al contenido. Consulte <a href="../../designing/using/personalization.md#adding-a-content-block">Adición de un bloque</a>de contenido.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <img height="21px" src="assets/dynamiccontent_24px.png" /> <br /> </td> 
+   <td> <span class="uicontrol">Habilitar contenido</span> dinámico <br /> </td> 
+   <td> Elemento Texto<br /> </td> 
+   <td> Permite insertar contenido dinámico en el contenido. Consulte <a href="../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page">Definición de contenido</a>dinámico.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <img height="21px" src="assets/dynamiccontentdisable_24px.png" /> <br /> </td> 
+   <td> <span class="uicontrol">Deshabilitar contenido</span> dinámico <br /> </td> 
+   <td> Elemento Texto<br /> </td> 
+   <td> Permite eliminar contenido dinámico.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <img height="21px" src="assets/increase_fontsize_darkgrey-24px.png" /> <br /> </td> 
+   <td> <span class="uicontrol">Ampliar fuente</span><br /> </td> 
+   <td> Elemento Texto<br /> </td> 
+   <td> Aumenta el tamaño del texto seleccionado (agrega <strong>&lt;span style="font-size:"&gt;</strong>).<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <img height="21px" src="assets/decrease_fontsize_darkgrey-24px.png" /> <br /> </td> 
+   <td> <span class="uicontrol">Reducir fuente</span><br /> </td> 
+   <td> Elemento Texto<br /> </td> 
+   <td> Reduce el tamaño del texto seleccionado (agrega <strong>&lt;span style="font-size:"&gt;</strong>).<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <img height="21px" src="assets/textbold_darkgrey-24px.png" /> <br /> </td> 
+   <td> <span class="uicontrol">Negrita</span><br /> </td> 
+   <td> Elemento Texto<br /> </td> 
+   <td> Agrega el estilo de negrita al texto seleccionado (ajusta el texto con las etiquetas <strong>&lt;strong&gt;</strong><strong>&lt;/strong&gt;</strong> ).<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <img height="21px" src="assets/textitalic_darkgrey-24px.png" /> <br /> </td> 
+   <td> <span class="uicontrol">Cursiva</span><br /> </td> 
+   <td> Elemento Texto<br /> </td> 
+   <td> Agrega el estilo en cursiva al texto seleccionado (ajusta el texto con las etiquetas <strong>&lt;em&gt;</strong><strong>&lt;/em&gt;</strong> ).<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <img height="21px" src="assets/textunderline_darkgrey-24px.png" /> <br /> </td> 
+   <td> <span class="uicontrol">Subrayado</span><br /> </td> 
+   <td> Elemento Texto<br /> </td> 
+   <td> Subraya el texto seleccionado (ajusta el texto seleccionado con la <strong>&lt;span style="text-decoration: underline;"&gt;</strong> tag).<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <img height="21px" src="assets/colorselector_darkgrey-24px.png" /> <br /> </td> 
+   <td> <span class="uicontrol">Cambiar color</span> de fondo <br /> </td> 
+   <td> Elemento Texto<br /> </td> 
+   <td> Permite cambiar el color de fondo del bloque seleccionado (agrega style="background-color: rgba(170, 86, 255, 0,87)).<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <img height="21px" src="assets/textcolor_darkgrey-24px.png" /> <br /> </td> 
+   <td> <span class="uicontrol">Cambiar color</span> de fuente <br /> </td> 
+   <td> Elemento Texto<br /> </td> 
+   <td> Permite cambiar el color de todo el texto del bloque o solo el texto seleccionado en el bloque (<strong>&lt;span style="color: #56ff56;"&gt;</strong>).<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <img height="21px" src="assets/image_darkgrey-24px.png" /> <br /> </td> 
+   <td> <span class="uicontrol">Imagen</span><br /> </td> 
+   <td> Bloque que contiene una imagen<br /> </td> 
+   <td> Permite insertar una imagen de un archivo guardado localmente.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <img height="21px" src="assets/delete_darkgrey-24px.png" /> <br /> </td> 
+   <td> <span class="uicontrol">Eliminar</span><br /> </td> 
+   <td> Cualquier bloque<br /> </td> 
+   <td> Elimina el bloque y su contenido.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <img height="21px" src="assets/duplicate_fontsize_darkgrey-24px.png" /> <br /> </td> 
+   <td> <span class="uicontrol">Duplicar</span><br /> </td> 
+   <td> Cualquier bloque<br /> </td> 
+   <td> Duplica el bloque, incluidos los estilos vinculados a él.<br /> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
-1. Seleccione **[!UICONTROL Specific service]** para vincular la página de aterrizaje a un solo servicio. No seleccione esta opción si desea utilizar varios servicios con la página de aterrizaje.
+## Administración de la estructura y el estilo de la página de aterrizaje{#managing-landing-page-structure-and-style}
 
-   Utilice la **[!UICONTROL Specified service in the URL]** opción para permitir que la página de aterrizaje se utilice en varios servicios. Por lo tanto, debe hacer referencia a la página de aterrizaje al configurar el servicio.
+### Administración de bloques en el editor de contenido {#managing-blocks-in-the-content-editor}
 
-### Confirmar un envío de página de aterrizaje {#confirm-a-landing-page-submission}
+Los diferentes elementos de contenido HTML se muestran en la página de aterrizaje como bloques, correspondientes a la etiqueta **&lt;div&gt;** **&lt;/div&gt;** . Seleccione un bloque para interactuar con él. Luego estará rodeada por una caja azul.
+
+![](assets/des_lp_content_1.png)
+
+Si se selecciona un bloque, los objetos principales del elemento HTML correspondiente se mostrarán en una ruta de exploración ubicada en la parte inferior de la zona de edición.
+
+Cuando el ratón se sitúa sobre uno de los elementos de la ruta de exploración, se resalta el elemento correspondiente. Por lo tanto, puede desplazarse fácilmente entre los diferentes bloques y seleccionar exactamente el elemento HTML que desea modificar.
+
+![](assets/des_lp_content_2.png)
+
+Utilice las opciones de la paleta y la barra de herramientas contextual para modificar, eliminar o duplicar el bloque.
+
+Para los bloques que contienen texto, vuelva a hacer clic en el bloque para activar el modo de edición de texto. El marco alrededor del bloque se vuelve verde. A continuación, puede seleccionar o introducir texto. Utilice las opciones de la paleta y la barra de herramientas contextual para agregar un vínculo o modificar el formato del texto.
+
+![](assets/des_lp_content_3.png)
+
+Parámetros definidos para un elemento de un bloque (vínculos, campos de personalización, bloques de contenido, etc.) puede modificarse en cualquier momento desde la paleta.
+
+![](assets/des_lp_content_4.png)
+
+### Adición de un borde y un fondo en el editor de contenido {#adding-a-border-and-a-background-in-the-content-editor}
+
+Asimismo, se puede definir un **de fondo** seleccionando un color en la tabla de colores. Este color se aplica al bloque seleccionado.
+
+![](assets/des_lp_content_5.png)
+
+You can add a **border** to the selected block.
+
+![](assets/des_lp_content_6.png)
+
+### Cambio del estilo de texto en el editor de contenido {#changing-the-text-style-in-the-content-editor}
+
+Para cambiar el estilo del texto, debe hacer clic dentro de un bloque de texto.
+
+Para cambiar la alineación del texto, seleccione uno de los tres iconos siguientes en la paleta de la izquierda:
+
+![](assets/des_lp_content_7.png)
+
+* **Alinear a la izquierda**: alinea el texto a la izquierda del bloque seleccionado (agrega style="text-align: left;").
+* **Centro**: centra el texto del bloque seleccionado (agrega style="text-align: center;").
+* **Alinear a la derecha**: alinea el texto a la derecha del bloque seleccionado (agrega style="text-align: right;").
+
+También puede utilizar la barra de herramientas para cambiar los atributos de fuente: adaptar el tamaño de fuente, poner el texto en negrita o en cursiva, subrayar o cambiar el color del texto. Consulte [esta sección](../../channels/using/designing-a-landing-page.md#landing-page-content-editor-interface).
+
+### Inserción de imágenes en una página de aterrizaje {#inserting-images-in-a-landing-page}
+
+1. En el contenido de una página de aterrizaje, seleccione un bloque que contenga una imagen.
+1. Seleccione el **[!UICONTROL Insert]** botón.
+
+   ![](assets/des_insert_images_lp_1.png)
+
+1. Elija **[!UICONTROL Local image]** en la barra de herramientas contextual.
+
+   ![](assets/des_insert_images_lp_2.png)
+
+1. Seleccione un archivo.
+
+   ![](assets/des_insert_images_lp_3.png)
+
+1. Ajuste las propiedades de la imagen según sea necesario.
+
+   ![](assets/des_insert_images_lp_4.png)
+
+## Definición de contenido dinámico en una página de aterrizaje{#defining-dynamic-content-in-a-landing-page}
+
+Para definir el contenido dinámico en una página de aterrizaje, seleccione un bloque con la ruta de exploración o haga clic directamente en un elemento.
+
+![](assets/dynamic_content_lp_1.png)
+
+Algunos bloques, como las imágenes, no se pueden seleccionar directamente. En este caso, seleccione el bloque principal mediante la ruta de exploración. A continuación, puede modificar todos los elementos incluidos en este elemento principal, incluidas las imágenes. La condición se aplicará a todos los elementos secundarios dentro del bloque principal.
+
+La ruta de exploración se presenta en la sección [Administración de bloques](../../channels/using/designing-a-landing-page.md#managing-landing-page-structure-and-style) .
+
+Los siguientes pasos para definir contenido dinámico en una página de aterrizaje son similares a los pasos a seguir para un correo electrónico. Consulte [esta sección](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+
+>[!NOTE]
+>
+>Si un elemento de variante se describe en rojo, significa que aún no se ha definido una expresión.
+
+Puede desplazarse entre los distintos contenidos dinámicos de un bloque. Para ello:
+
+1. Seleccione el bloque.
+
+   Las flechas aparecen en los lados derecho e izquierdo de la imagen.
+
+1. Haga clic en la flecha derecha para navegar por el contenido dinámico disponible.
+
+   ![](assets/dynamic_content_lp_2.png)
+
+   Las flechas de cada lado se atenuan según se haya alcanzado el último o el primer contenido dinámico disponible.
+
+   ![](assets/dynamic_content_lp_3.png)
+
+1. Para eliminar todas las condiciones aplicadas a un bloque, selecciónelo y haga clic en el **[!UICONTROL Disable dynamic content]** icono .
+1. Seleccione el contenido dinámico que desea conservar.
+
+   ![](assets/dynamic_content_lp_5.png)
+
+En la paleta:
+
+* El contenido que tiene una expresión ingresada ya no está delineado en rojo, se muestra en gris.
+* El contenido seleccionado actualmente aparece en azul.
+
+![](assets/dynamic_content_lp_4.png)
+
+## Confirmar un envío de página de aterrizaje {#confirm-a-landing-page-submission}
 
 Cuando un visitante envía una página de aterrizaje, puede configurar las acciones activadas. Para ello:
 
