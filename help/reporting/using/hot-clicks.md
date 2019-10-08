@@ -1,7 +1,7 @@
 ---
-title: Clics interactivos
-seo-title: Clics interactivos
-description: Clics interactivos
+title: Clics activos
+seo-title: Clics activos
+description: Clics activos
 seo-description: Con los clics directos en el informe listo para usar, descubra dónde hizo clic el cliente en la entrega.
 page-status-flag: nunca activado
 uuid: 7ed49dd3-d7ee-466a-9a7b-d2aa16961667
@@ -15,12 +15,12 @@ context-tags: deliveryHotClicksReport,principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
+source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
 
 ---
 
 
-# Clics interactivos{#hot-clicks}
+# Clics activos{#hot-clicks}
 
 Se puede acceder a este informe desde el **[!UICONTROL Reports]** botón de cada envío o mensaje transaccional.
 
@@ -30,7 +30,7 @@ Presenta el contenido del mensaje (HTML o texto) con el porcentaje de clics en c
 
 ![](assets/delivery_reports_10.png)
 
-Si ha creado contenido dinámico para la entrega, puede ver los porcentajes de cada condición que haya definido. Para obtener más información sobre la inserción de contenido condicional en una entrega, consulte [Definición de contenido](../../channels/using/defining-dynamic-content-in-a-landing-page.md)dinámico.
+Si ha creado contenido dinámico para la entrega, puede ver los porcentajes de cada condición que haya definido. Para obtener más información sobre la inserción de contenido condicional en una entrega, consulte [Definición de contenido](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)dinámico.
 
 Por ejemplo, imagine que ha creado una entrega con las siguientes condiciones:
 
