@@ -4,7 +4,7 @@ seo-title: Llamar a un recurso mediante una clave de identificación compuesta
 description: Llamar a un recurso mediante una clave de identificación compuesta
 seo-description: Obtenga información sobre cómo llamar a un recurso mediante una clave de identificación compuesta
 translation-type: tm+mt
-source-git-commit: 339dfbcc9b6443211079d116eb3e007db69c8b1a
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
@@ -25,14 +25,14 @@ Temas relacionados:
 
 * [Creación o ampliación del recurso](../../developing/using/creating-or-extending-the-resource.md)
 * [Definición de claves de identificación](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
-* [API de REST de Campaign Standard](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+* [API de REST de Campaign Standard](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
 
 ## Paso 1: Configurar la clave de identificación{#step-1-configure-the-identification-key}
 
 >[!NOTE]
 > Los conceptos globales al configurar claves de identificación se detallan en [esta sección](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
 
-1. Antes de configurar la clave de identificación, asegúrese de que el recurso se ha ampliado con los campos deseados y de que se ha publicado. For more on this, refer to [this section](../../developing/using/creating-or-extending-the-resource.md).
+1. Antes de configurar la clave de identificación, asegúrese de que el recurso se ha ampliado con los campos deseados y de que se ha publicado. Para obtener más información, consulte [esta sección](../../developing/using/creating-or-extending-the-resource.md).
 
 1. Vaya al menú **[!UICONTROL Administration]** / **[!UICONTROL Developement]** / **[!UICONTROL Custom resources]** y luego abra el **[!UICONTROL Profile]** recurso.
 
@@ -47,7 +47,7 @@ Temas relacionados:
    ![](assets/uc_idkey3.png)
 
    >[!NOTE]
-   > Si desea mostrar los dos campos personalizados en la interfaz del perfil, configure la **[!UICONTROL Screen definition]** ficha. For more on this, refer to [this section](../../developing/using/configuring-the-screen-definition.md).
+   > Si desea mostrar los dos campos personalizados en la interfaz del perfil, configure la **[!UICONTROL Screen definition]** ficha. Para obtener más información, consulte [esta sección](../../developing/using/configuring-the-screen-definition.md).
 
 1. Ahora puede configurar la definición del filtro para poder llamar al recurso mediante su clave de identificación.
 
@@ -106,4 +106,4 @@ En nuestro caso, la sintaxis para recuperar un perfil de la categoría "primaver
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byidentification_key?category_parameter=spring&crm_id_parameter=123456
 ```
 
-Para obtener más información, consulte la documentación [de las API de REST de](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)Campaign Standard.
+Para obtener más información, consulte la documentación [de las API de REST de](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)Campaign Standard.
