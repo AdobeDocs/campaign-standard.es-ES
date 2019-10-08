@@ -14,7 +14,7 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
+source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
 
 ---
 
@@ -37,11 +37,11 @@ Al crear un correo electrónico, puede elegir utilizar una plantilla predefinida
 
 Para aumentar la eficacia de las campañas de marketing, personalice el contenido. Consulte [Inserción de un campo](../../designing/using/personalization.md#inserting-a-personalization-field) de personalización y [Adición de un bloque](../../designing/using/personalization.md#adding-a-content-block)de contenido.
 
-También puede definir contenido dinámico que varía en función de cada perfil. Consulte [Definición de contenido dinámico en un correo electrónico](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) y [Definición de contenido dinámico en una página](../../channels/using/defining-dynamic-content-in-a-landing-page.md)de aterrizaje.
+También puede definir contenido dinámico que varía en función de cada perfil. Consulte [Definición de contenido dinámico en un correo electrónico](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) y [Definición de contenido dinámico en una página](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)de aterrizaje.
 
 Mejore sus mensajes y páginas de aterrizaje con vínculos e imágenes. Consulte [Inserción de un vínculo](../../designing/using/links.md#inserting-a-link) e [Inserción de imágenes](../../designing/using/images.md#inserting-images).
 
-**Temas** relacionados:
+**Temas relacionados**:
 
 * [Creación de un correo electrónico](../../channels/using/creating-an-email.md)
 * [Diseño de una página de aterrizaje](../../channels/using/designing-a-landing-page.md)
