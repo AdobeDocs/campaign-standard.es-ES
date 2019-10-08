@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: usuario final
 user-guide-title: Ayuda de Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 41b298ad4f0a75bc196d050955c7edf221877a6f
+source-git-commit: 57a0d20697461fb87b61c38dfd1779fadd565888
 
 ---
 
@@ -53,24 +53,24 @@ source-git-commit: 41b298ad4f0a75bc196d050955c7edf221877a6f
    + Administración de audiencias {#managing-audiences}
       + [Acerca de las audiencias](audiences/using/about-audiences.md)
       + [Creación de audiencias](audiences/using/creating-audiences.md)
-      + [Selecting an audience in a message](audiences/using/selecting-an-audience-in-a-message.md)
+      + [Selección de una audiencia en un mensaje](audiences/using/selecting-an-audience-in-a-message.md)
    + Administración de suscripciones {#managing-subscriptions}
-      + [About subscriptions](audiences/using/about-subscriptions.md)
-      + [Creating a service](audiences/using/creating-a-service.md)
-      + [Promoting a service](audiences/using/promoting-a-service.md)
-      + [Monitoring subscriptions](audiences/using/monitoring-subscriptions.md)
-      + [Confirming subscription to a service](audiences/using/confirming-subscription-to-a-service.md)
-   + Understanding opt-in and opt-out processes {#understanding-opt-in-and-opt-out-processes}
-      + [About opt-in and opt-out in Campaign](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-      + [Managing opt-in and opt-out in Campaign](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+      + [Acerca de las suscripciones](audiences/using/about-subscriptions.md)
+      + [Creación de un servicio](audiences/using/creating-a-service.md)
+      + [Promoción de un servicio](audiences/using/promoting-a-service.md)
+      + [Supervisión de suscripciones](audiences/using/monitoring-subscriptions.md)
+      + [Confirmación de la suscripción a un servicio](audiences/using/confirming-subscription-to-a-service.md)
+   + Explicación de los procesos de inclusión y exclusión {#understanding-opt-in-and-opt-out-processes}
+      + [Acerca de la inclusión y la exclusión en Campaign](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+      + [Administración de la inclusión y la exclusión en Campaign](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
       + [Identificación de perfiles de exclusión para una entrega](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
 + Canales de comunicación {#communication-channels}
-   + About communication channels {#about-communication-channels}
-      + [Discovering communication channels](channels/using/discovering-communication-channels.md)
-      + [Key steps to send a message](channels/using/key-steps-to-send-a-message.md)
-      + [Accessing messages](channels/using/accessing-messages.md)
-      + [Message dashboard](channels/using/message-dashboard.md)
-   + Email messages {#email-messages}
+   + Acerca de los canales de comunicación {#about-communication-channels}
+      + [Descubrimiento de canales de comunicación](channels/using/discovering-communication-channels.md)
+      + [Pasos clave para enviar un mensaje](channels/using/key-steps-to-send-a-message.md)
+      + [Acceso a mensajes](channels/using/accessing-messages.md)
+      + [Tablero de mensajes](channels/using/message-dashboard.md)
+   + Mensajes de correo electrónico {#email-messages}
       + [Acerca de los correos electrónicos](channels/using/about-emails.md)
       + [Creación de un correo electrónico](channels/using/creating-an-email.md)
       + [Diseño de un correo electrónico de prueba A/B](channels/using/designing-an-a-b-test-email.md)
@@ -106,25 +106,21 @@ source-git-commit: 41b298ad4f0a75bc196d050955c7edf221877a6f
       + [Mensajes transaccionales de eventos](channels/using/event-transactional-messages.md)
       + [Mensajes transaccionales de perfil](channels/using/profile-transactional-messages.md)
       + [Notificaciones push transaccionales](channels/using/transactional-push-notifications.md)
-      + [Follow-up messages](channels/using/follow-up-messages.md)
+      + [Mensajes de seguimiento](channels/using/follow-up-messages.md)
    + Páginas de destino {#landing-pages}
-      + [About landing pages](channels/using/about-landing-pages.md)
-      + [Landing page limitations](channels/using/landing-page-limitations.md)
-      + [Designing a landing page](channels/using/designing-a-landing-page.md)
-      + [Sharing a landing page](channels/using/sharing-a-landing-page.md)
-      + [Data storage and reconciliation](channels/using/data-storage-and-reconciliation.md)
-      + [Setting up a double opt-in process](channels/using/setting-up-a-double-opt-in-process.md)
-      + [About landing page content design](channels/using/about-landing-page-content-design.md)
-      + [Landing page content editor interface](channels/using/landing-page-content-editor-interface.md)
-      + [Managing landing page structure and style](channels/using/managing-landing-page-structure-and-style.md)
-      + [Changing a landing page form data properties](channels/using/changing-a-landing-page-form-data-properties.md)
-      + [Definición de contenido dinámico en una página de aterrizaje](channels/using/defining-dynamic-content-in-a-landing-page.md)
-+ Designing email content {#designing-content}
-   + [Campaign Email Designer](designing/using/designing-content-in-adobe-campaign.md)
+      + [Acerca de las páginas de aterrizaje](channels/using/about-landing-pages.md)
+      + [Pasos principales para configurar una página de aterrizaje](channels/using/main-steps-to-set-up-a-landing-page.md)
+      + [Acerca de las plantillas de página de aterrizaje](channels/using/landing-page-templates.md)
+      + [Diseño de una página de aterrizaje](channels/using/designing-a-landing-page.md)
+      + [Administración de datos de formulario de página de aterrizaje](channels/using/managing-landing-page-form-data.md)
+      + [Uso compartido de una página de aterrizaje](channels/using/sharing-a-landing-page.md)
+      + [Configuración de un proceso de doble inclusión](channels/using/setting-up-a-double-opt-in-process.md)
++ Diseño del contenido del correo electrónico {#designing-content}
+   + [Campaign EmailDesigner](designing/using/designing-content-in-adobe-campaign.md)
    + [Inicio rápido](designing/using/quick-start.md)
-   + [Usage &amp; Recommendations](designing/using/overview.md)
+   + [Uso y recomendaciones](designing/using/overview.md)
    + [Definición de la línea de asunto y del remitente](designing/using/subject-line.md)
-   + [Designing emails from scratch](designing/using/designing-from-scratch.md)
+   + [Diseño de correos electrónicos desde cero](designing/using/designing-from-scratch.md)
    + [Diseño de correos electrónicos con contenido existente](designing/using/using-existing-content.md)
    + [Diseño de correos electrónicos con contenido reutilizable](designing/using/using-reusable-content.md)
    + [Diseño de correo electrónico de varias soluciones](designing/using/using-integrations.md)
@@ -157,21 +153,21 @@ source-git-commit: 41b298ad4f0a75bc196d050955c7edf221877a6f
 + Informes {#reporting}
    + Acerca de los informes {#about-reporting}
       + [Acerca de los informes dinámicos](reporting/using/about-dynamic-reports.md)
-      + [Reporting interface](reporting/using/reporting-interface.md)
-      + [List of components ](reporting/using/list-of-components-.md)
+      + [Interfaz de informes](reporting/using/reporting-interface.md)
+      + [Lista de componentes ](reporting/using/list-of-components-.md)
       + [Cálculo de indicador](reporting/using/indicator-calculation.md)
       + [Resolución de problemas](reporting/using/troubleshooting.md)
    + Lista de informes {#list-of-reports}
-      + [Defining the report period](reporting/using/defining-the-report-period.md)
-      + [Bounce summary](reporting/using/bounce-summary.md)
-      + [Breakdown by domains](reporting/using/breakdown-by-domains.md)
+      + [Definición del período de informe](reporting/using/defining-the-report-period.md)
+      + [Resumen de devolución](reporting/using/bounce-summary.md)
+      + [Desglose por dominios](reporting/using/breakdown-by-domains.md)
       + [Reclamaciones](reporting/using/complaints.md)
       + [Resumen de envíos](reporting/using/delivery-summary.md)
       + [Rendimiento de envío](reporting/using/delivery-throughput.md)
       + [Informe en la aplicación](reporting/using/in-app-report.md)
       + [Rechazos y no entregables](reporting/using/non-deliverables-and-bounces.md)
       + [Aperturas](reporting/using/opens.md)
-      + [Push notification report](reporting/using/push-notification-report.md)
+      + [Informe de notificaciones push](reporting/using/push-notification-report.md)
       + [Informe SMS](reporting/using/sms-report.md)
       + [Indicadores de seguimiento](reporting/using/tracking-indicators.md)
       + [Bajas](reporting/using/unsubscriptions.md)
@@ -206,11 +202,11 @@ source-git-commit: 41b298ad4f0a75bc196d050955c7edf221877a6f
       + [Acerca de la integración de datos Campaign-Points de interés](integrating/using/about-campaign-points-of-interest-data-integration.md)
       + [Configuración de la integración de datos Campaign-Points de interés](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
       + [Personalización de mensajes de campaña con datos del punto de interés](integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md)
-   + Working with Campaign and Triggers {#working-with-campaign-and-triggers}
+   + Uso de Campaign y Triggers {#working-with-campaign-and-triggers}
       + [Acerca de Adobe Experience Cloud Triggers](integrating/using/about-adobe-experience-cloud-triggers.md)
-      + [Configuring Triggers in Experience Cloud](integrating/using/configuring-triggers-in-experience-cloud.md)
+      + [Configuración de activadores en Experience Cloud](integrating/using/configuring-triggers-in-experience-cloud.md)
       + [Uso de activadores en campañas](integrating/using/using-triggers-in-campaign.md)
-      + [Testing your triggers](integrating/using/testing-your-triggers.md)
+      + [Prueba de los activadores](integrating/using/testing-your-triggers.md)
       + [Casos de uso de activadores de abandono](integrating/using/abandonment-triggers-use-cases.md)
 + Administración de procesos y datos {#managing-processes-and-data}
    + Acerca de los flujos de trabajo y la administración de datos {#about-workflows-and-data-management}
@@ -264,7 +260,7 @@ source-git-commit: 41b298ad4f0a75bc196d050955c7edf221877a6f
       + [Servicios de suscripción](automating/using/subscription-services.md)
       + [API externa](automating/using/external-api.md)
    + Filtrado de datos {#filtering-data}
-      + [Editing queries](automating/using/editing-queries.md)
+      + [Edición de consultas](automating/using/editing-queries.md)
       + [Edición avanzada de expresiones](automating/using/advanced-expression-editing.md)
       + [Lista de funciones](automating/using/list-of-functions.md)
    + Importación y exportación de datos.{#importing-and-exporting-data}
@@ -274,7 +270,7 @@ source-git-commit: 41b298ad4f0a75bc196d050955c7edf221877a6f
       + [Exportación de registros](automating/using/exporting-logs.md)
       + [Administración de paquetes](automating/using/managing-packages.md)
       + [Exportación de listas](automating/using/exporting-lists.md)
-   + Casos de uso: Flujos de trabajo {#workflow-use-case}
+   + Casos de uso:Flujos de trabajo {#workflow-use-case}
       + [Creación de entregas con un complemento](automating/using/workflow-created-query-with-complement.md)
       + [Creación de envíos en la fecha de creación](automating/using/workflow-creation-date-query.md)
       + [Creación de un envío semanal](automating/using/workflow-weekly-offer.md)
@@ -324,6 +320,7 @@ source-git-commit: 41b298ad4f0a75bc196d050955c7edf221877a6f
       + [Reglas de fatiga](administration/using/fatigue-rules.md)
       + [Reglas de control](administration/using/control-rules.md)
    + Ajustes de la aplicación {#application-settings}
+      + [Acerca de la configuración de Campaign Standard](administration/using/about-campaign-standard-settings.md)
       + [Cuentas externas](administration/using/external-accounts.md)
       + [Asignaciones de objetivos en Campaign](administration/using/target-mappings-in-campaign.md)
       + [Flujos de trabajo técnicos](administration/using/technical-workflows.md)
