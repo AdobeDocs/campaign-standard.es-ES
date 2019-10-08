@@ -1,7 +1,7 @@
 ---
-title: Acerca de las integraciones de campañas
-seo-title: Acerca de las integraciones de campañas
-description: Acerca de las integraciones de campañas
+title: Acerca de las integraciones de Campaign
+seo-title: Acerca de las integraciones de Campaign
+description: Acerca de las integraciones de Campaign
 seo-description: Adobe Campaign le permite utilizar otras soluciones de Adobe y combinar sus diferentes capacidades.
 page-status-flag: nunca activado
 uuid: 59d7cd99-a6f7-47f1-9b5c-c50e27a2bef8
@@ -14,12 +14,12 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
 
-# Acerca de las integraciones de campañas{#about-campaign-integrations}
+# Acerca de las integraciones de Campaign{#about-campaign-integrations}
 
 Esta sección detalla las integraciones funcionales disponibles entre la versión actual de Adobe Campaign y otras soluciones y servicios.
 
@@ -31,9 +31,9 @@ Las distintas integraciones que se presentan a continuación le permiten combina
 
 Según el entorno, otras soluciones también se pueden vincular a Adobe Experience Cloud. Están vinculados como Organizaciones (también llamados Inquilinos).
 
-Una organización es la entidad que habilita a un administrador para configurar grupos y usuarios, y para controlar el inicio de sesión único en Experience Cloud. La organización funciona como una empresa de inicio de sesión que abarca todos los productos y soluciones de Experience Cloud. La mayoría de las veces, una organización es el nombre de su empresa. Sin embargo, una empresa puede tener muchas organizaciones. La administración de usuarios y organizaciones se detalla en el portal [de ayuda de](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)Adobe Experience Cloud.
+Una organización es la entidad que permite a un administrador configurar grupos y usuarios y controlar el inicio de sesión único en Experience Cloud. La organización funciona como una empresa de inicio de sesión que abarca todos los productos y soluciones de Experience Cloud. Generalmente, la organización es el nombre de la empresa. Sin embargo, una empresa puede tener muchas organizaciones. La administración de usuarios y organizaciones se detalla en el portal [de ayuda de](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)Adobe Experience Cloud.
 
-Si desea integrar flujos de datos de otros sistemas con Adobe Campaign, consulte nuestra documentación [](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)de API.
+Si desea integrar flujos de datos de otros sistemas con Adobe Campaign, consulte nuestra documentación [](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)de API.
 
 >[!NOTE]
 >
@@ -44,21 +44,21 @@ Si desea integrar flujos de datos de otros sistemas con Adobe Campaign, consulte
  <thead> 
   <tr> 
    <th> Solución<br /> </th> 
-   <th> Caso de uso<br /> </th> 
-   <th> Consulte<br /> </th> 
+   <th> Use Case<br /> </th> 
+   <th> Consulte <br />. </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> Experience Manager<br /> 6.1, 6.2, 6.3, 6.4<br /> </td> 
-   <td> Permite crear contenido o formularios de correo electrónico asignados a la base de datos de Adobe Campaign directamente en Adobe Experience Manager.<br /> </td> 
+   <td> Permite crear contenido de correo electrónico o formularios asignados a la base de datos de Adobe Campaign directamente en Adobe Experience Manager.<br /> </td> 
    <td> 
      <a href="../../integrating/using/integrating-with-experience-manager.md">Trabajar con Campaign y Experience Manager</a><br/>, <a href="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignstandard.html">integrar Experience Manager y Campaign Standard</a> <br/>, <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">crear un correo electrónico con Experience Manager y Campaign</a> 
     </td> 
   </tr> 
   <tr> 
    <td> Target<br /> Classic, Standard<br /> </td> 
-   <td> Permite insertar imágenes que Adobe Target calcula dinámicamente cuando se abre un correo electrónico creado y enviado por Adobe Campaign.<br /> </td> 
+   <td> Allows you to insert images that are dynamically computed by Adobe Target when an email created and sent by Adobe Campaign is opened.<br /> </td> 
    <td> 
     <a href="../../integrating/using/about-campaign-target-integration.md">Trabajar con Campaign y Target</a> <br/>, <a href="https://marketing.adobe.com/resources/help/en_US/target/a4t/c_campaign_and_target.html">integrar campaña y objetivo</a><br/>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">personalizar imágenes de correo electrónico en vídeo en tiempo</a> real (paso 3)
     </td> 
@@ -77,7 +77,7 @@ Si desea integrar flujos de datos de otros sistemas con Adobe Campaign, consulte
   </tr> 
   <tr> 
    <td> Servicio principal de recursos y Recursos On Demand<br /> </td> 
-   <td> Permite insertar recursos de la biblioteca de Adobe Experience Cloud en correos electrónicos y páginas de aterrizaje creadas en Adobe Campaign.<br /> </td> 
+   <td> Permite insertar activos de la biblioteca de Adobe Experience Cloud en correos electrónicos y páginas de destino creadas en Adobe Campaign.<br /> </td> 
    <td> <a href="../../integrating/using/working-with-campaign-and-assets-core-service.md">Servicio</a> principal de recursos o Recursos On Demand<br /> </td> 
   </tr> 
   <tr> 
