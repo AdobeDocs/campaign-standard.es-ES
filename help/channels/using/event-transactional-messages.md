@@ -15,7 +15,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 443b374506d388009fbd43108577001d35f406ee
+source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 ---
 
@@ -32,7 +32,9 @@ Para que el evento active el envío de un mensaje transaccional, debe personaliz
 
 >[!NOTE]
 >
->Para acceder a los mensajes transaccionales, debe tener derechos de administración o aparecer en el grupo de seguridad **[!UICONTROL Message Center agents]** (mcExec). Los mensajes transaccionales de eventos no contienen información de perfil, por lo tanto no son compatibles con las reglas de fatiga (incluso en el caso de un enriquecimiento con perfiles). Consulte Reglas [de fatiga](../../administration/using/fatigue-rules.md#choosing-the-channel).
+>Para acceder a los mensajes transaccionales, debe formar parte del grupo de **[!UICONTROL Administrators (all units)]** seguridad.
+>
+>Los mensajes transaccionales de eventos no contienen información de perfil, por lo tanto no son compatibles con las reglas de fatiga (incluso en el caso de un enriquecimiento con perfiles). Consulte Reglas [de fatiga](../../administration/using/fatigue-rules.md#choosing-the-channel).
 
 ## Definición de un perfil de prueba en un mensaje transaccional {#defining-a-test-profile-in-a-transactional-message}
 
@@ -109,7 +111,7 @@ Para configurar la personalización en un mensaje transaccional, siga los pasos 
 
 1. Para previsualizar el mensaje, seleccione el perfil que definió para este evento.
 
-   Los pasos para obtener una vista previa de un mensaje se detallan en la sección [Vista previa de mensajes](../../sending/using/preparing-the-send.md) .
+   Los pasos para obtener una vista previa de un mensaje se detallan en la sección [Vista previa de mensajes](../../sending/using/previewing-messages.md) .
 
    ![](assets/message-center_9.png)
 
@@ -258,7 +260,7 @@ Para acceder a los informes relacionados con su mensaje transaccional, utilice e
 
 Puede suspender la publicación del mensaje de transacción utilizando el **[!UICONTROL Pause]** botón, por ejemplo, para modificar los datos contenidos en el mensaje. Por lo tanto, los eventos ya no se procesan, sino que se mantienen en una cola en la base de datos de Adobe Campaign.
 
-Los eventos en cola se guardan durante un período de tiempo definido en la API de REST (consulte la documentación [de la API de](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)REST) o en el evento desencadenador si utiliza el servicio principal de activadores (consulte [Uso de Campaign y Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
+Los eventos en cola se guardan durante un período de tiempo definido en la API de REST (consulte la documentación [de la API de](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)REST) o en el evento desencadenador si utiliza el servicio principal de activadores (consulte [Uso de Campaign y Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
 
 ![](assets/message-center_pause.png)
 
