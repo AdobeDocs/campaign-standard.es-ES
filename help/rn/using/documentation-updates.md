@@ -14,36 +14,40 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d9357481a567cb0d11eea43211abf08a6dcb07d6
+source-git-commit: 57a0d20697461fb87b61c38dfd1779fadd565888
 
 ---
 
 
-# Documentation Updates{#documentation-updates}
+# Actualizaciones de documentación{#documentation-updates}
 
-Learn about all the latest updates for Adobe Campaign Standard documentation.
+Obtenga información sobre las últimas actualizaciones de la documentación de Adobe Campaign Standard.
 
-This page lists all the new features and documentation updates for each release of Adobe Campaign Standard.
+Esta página enumera todas las nuevas funciones y actualizaciones de documentación de cada versión de Adobe Campaign Standard.
 
-You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
+También puede consultar las Notas de la [versión](../../rn/using/release-notes.md)de Adobe Campaign.
 
-## Documentation updates - October 2019 {#doc-updates-october-2019}
+## Actualizaciones de documentación - Octubre de 2019 {#doc-updates-october-2019}
 
-A new section describing how to send an automatic custom confirmation email to profiles who subscribe to a specific service has been added. [Más información](../../audiences/using/confirming-subscription-to-a-service.md)
+Se agregó una nueva sección relacionada con la configuración de Campaign Standard. [Más información](../../administration/using/about-campaign-standard-settings.md)
 
-The Transactional messaging section has been modified with the latest UI updates, including editing content with the Email Designer. [Más información](../../channels/using/event-transactional-messages.md)
+Se ha añadido una nueva sección que describe cómo enviar un correo electrónico de confirmación personalizado automático a los perfiles que se suscriben a un servicio específico. [Más información](../../audiences/using/confirming-subscription-to-a-service.md)
 
-## Documentation updates - September 2019 {#doc-updates-september-2019}
+La sección Mensajería transaccional se ha modificado con las últimas actualizaciones de la interfaz de usuario, incluida la edición de contenido con el Diseñador de correo electrónico. [Más información](../../channels/using/event-transactional-messages.md)
 
-A new section was added in the Push notifications section on how to create and update profile information based on mobile application subscription data. [Más información](../../channels/using/updating-profile-with-mobile-app-data.md)
+El capítulo de las páginas de aterrizaje se ha reorganizado. También se ha enriquecido con una nueva sección que detalla los pasos para configurar una página de aterrizaje. [Más información](../../channels/using/main-steps-to-set-up-a-landing-page.md)
 
-A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Más información](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
+## Actualizaciones de documentación - septiembre de 2019 {#doc-updates-september-2019}
 
-A new section on how to use traps has been added. [Más información](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps).
+Se ha añadido una nueva sección en la sección Notificaciones push sobre cómo crear y actualizar la información de perfil en función de los datos de suscripción de la aplicación móvil. [Más información](../../channels/using/updating-profile-with-mobile-app-data.md)
 
-A note about the Launch_URL_Campaign option was added in the page on how to configure a mobile application using Adobe Experience Platform SDKs. **** [Más información](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
+Se ha añadido un nuevo ejemplo que muestra cómo enviar un correo electrónico que contiene datos adicionales recuperados de una actividad de archivo de carga. [Más información](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
 
-The email designer guide has been reorganized. [Más información](../../designing/using/designing-content-in-adobe-campaign.md)
+Se ha añadido una nueva sección sobre cómo utilizar las trampas. [Más información](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps).
+
+Se ha añadido una nota sobre la opción **Launch_URL_Campaign** en la página sobre cómo configurar una aplicación móvil mediante los SDK de la plataforma de experiencia de Adobe. [Más información](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
+
+Se ha reorganizado la guía del diseñador del correo electrónico. [Más información](../../designing/using/designing-content-in-adobe-campaign.md)
 
 ## Actualizaciones de documentación - Agosto de 2019 {#doc-updates-august-2019}
 
@@ -99,35 +103,35 @@ Se ha añadido una advertencia en la documentación de recursos personalizada. S
 
 ## Actualizaciones de documentación - julio de 2019 {#doc-updates-2019}
 
-Se ha agregado una nueva página en las limitaciones de la página de aterrizaje. [Más información](../../channels/using/landing-page-limitations.md)
+Se ha agregado una nueva página en las limitaciones de la página de aterrizaje. [Más información](../../channels/using/about-landing-pages.md#landing-page-limitations)
 
-A use case was added on how to call a profile using a composite identification key. [Más información](../../developing/using/uc-calling-resource-id-key.md)
+Se agregó un caso de uso sobre cómo llamar a un perfil mediante una clave de identificación compuesta. [Más información](../../developing/using/uc-calling-resource-id-key.md)
 
-A recommendation has been added regarding the use of recurring deliveries with no aggregation period when calling a workflow with parameters. [Más información](../../automating/using/calling-a-workflow-with-external-parameters.md)
+Se ha agregado una recomendación con respecto al uso de entregas recurrentes sin período de agregación al llamar a un flujo de trabajo con parámetros. [Más información](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
-The list of error messages for Campaign Standard and Classic has been updated. [Más información](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Se ha actualizado la lista de mensajes de error para Campaign Standard y Classic. [Más información](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
-Added a warning in custom resource documentation. We recommend using 30 characters maximum for custom resource IDs. This also applies to custom resource fields, keys, indexes and links. [Más información](../../developing/using/creating-or-extending-the-resource.md)
+Se ha añadido una advertencia en la documentación de recursos personalizada. Se recomienda usar un máximo de 30 caracteres para los ID de recursos personalizados. Esto también se aplica a campos de recursos personalizados, claves, índices y vínculos. [Más información](../../developing/using/creating-or-extending-the-resource.md)
 
-## Release 19.2 - May 2019 {#release-19-2---may-2019}
+## Versión 19.2: mayo de 2019 {#release-19-2---may-2019}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release}
+### Nuevas funciones incluidas en la versión {#new-capabilities-included-in-the-release}
 
-Control Panel - Read more[](https://helpx.adobe.com/campaign/kb/control-panel.html)
+Panel de control - [Más información](https://helpx.adobe.com/campaign/kb/control-panel.html)
 
-Local notifications - Read more[](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
+Notificaciones locales - [Más información](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
-Workflow enhancement - Add a payload to external signal activity - Read more[](../../automating/using/calling-a-workflow-with-external-parameters.md)
+Mejora del flujo de trabajo: agregue una carga útil a la actividad de señal externa. [Más información](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
-Landing Pages enhancement - Google reCAPTCHA - Read more[](../../channels/using/designing-a-landing-page.md#setting-google-recaptcha)
+Mejora de las páginas de aterrizaje - Google reCAPTCHA - [Más información](../../channels/using/designing-a-landing-page.md#setting-google-recaptcha)
 
-### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release}
+### Otras actualizaciones de la documentación incluidas en la versión {#other-documentation-updates-coming-with-the-release}
 
 Se ha actualizado el artículo Delegación de nombres de dominio. [Más información](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html)
 
-A new Release Planning article has been published to share upcoming release dates. [Más información](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
+Se ha publicado un nuevo artículo de Planificación de versiones para compartir las próximas fechas de lanzamiento. [Más información](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 
-The contextual help links available directly from Adobe Campaign have been updated.
+Se han actualizado los vínculos de ayuda contextuales disponibles directamente desde Adobe Campaign.
 
 La siguiente [página](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html) se convierte en la página oficial de vídeos de Adobe Campaign Standard.
 
@@ -137,7 +141,7 @@ Se ha agregado una sección sobre actualizaciones y operaciones de mantenimiento
 
 Se agregó información sobre la nueva opción de ordenación en la actividad de archivos **de** transferencia. [Más información](../../automating/using/transfer-file.md)
 
-Se ha actualizado la documentación [de las API de](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html) REST:
+Se ha actualizado la documentación [de las API de](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html) REST:
 
 * Se ha añadido una nueva sección con información genérica sobre por qué utilizar las API de REST de Campaign Standard.
 * Se ha puesto a disposición una colección de solicitudes de API prediseñadas que representan casos de uso comunes.
@@ -177,7 +181,7 @@ Se ha actualizado la página Funciones obsoletas y eliminadas. [Más informació
 
 Se ha actualizado y mejorado la sección de integración de Dreamweaver. [Más información](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 
-## Release 19.1 - February 2019 {#release-19-1---february-2019}
+## Versión 19.1: febrero de 2019 {#release-19-1---february-2019}
 
 ### Nuevas funciones incluidas en la versión {#new-capabilities-included-in-the-release-1}
 
@@ -193,7 +197,7 @@ Mejoras en el flujo de trabajo: lea más [aquí](../../automating/using/workflow
 
 La nueva experiencia de integración para crear contenido de correo electrónico y otras mejoras en el Diseñador de correo electrónico se han añadido al capítulo Editar contenido de correo electrónico. [Más información](../../designing/using/overview.md#email-designer-home-page)
 
-A new section on Transactional messaging limitations has been added. [Más información](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
+Se ha añadido una nueva sección sobre las limitaciones de mensajería transaccionales. [Más información](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
 
 Se ha añadido una nueva sección en la que se comparan las distintas opciones de creación de correo electrónico en Adobe Campaign. [Más información](../../designing/using/using-integrations.md#email-design-options-comparison)
 
@@ -317,7 +321,7 @@ La guía Usuarios y seguridad se ha actualizado para reflejar la depreciación d
 
 ### Nuevas funciones incluidas en la versión {#new-capabilities-included-in-the-release-5}
 
-La documentación de la API se actualizó con información sobre la API de **historial** . Se agregó un caso de uso sobre cómo recuperar la página de reflejo para una entrega enviada a un perfil. [Más información](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#how-to-retrieve-the-mirror-page-for-a-delivery-sent-to-a-profile)
+La documentación de la API se actualizó con información sobre la API de **historial** . Se agregó un caso de uso sobre cómo recuperar la página de reflejo para una entrega enviada a un perfil. [Más información](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#how-to-retrieve-the-mirror-page-for-a-delivery-sent-to-a-profile)
 
 ### Otras actualizaciones de la documentación incluidas en la versión {#other-documentation-updates-coming-with-the-release-5}
 
@@ -331,7 +335,7 @@ Se ha actualizado la definición de la función Preparar entregas. [Más informa
 
 Se ha agregado un ejemplo en la sección de actividad de consulta sobre cómo dirigirse a los perfiles que hicieron clic en un vínculo específico en una entrega. [Más información](../../automating/using/query.md#targeting-profiles-who-clicked-a-specific-link-)
 
-Se ha añadido una sección en la documentación de la API relacionada con los filtros **** personalizados. [Más información](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)
+Se ha añadido una sección en la documentación de la API relacionada con los filtros **** personalizados. [Más información](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)
 
 ## Versión 18.5: mayo de 2018 {#release-18-5---may-2018}
 
@@ -381,7 +385,7 @@ Uso de recursos personalizados en la mensajería transaccional - [Más informaci
 
 ### Otras actualizaciones de la documentación incluidas en la versión {#other-documentation-updates-coming-with-the-release-7}
 
-La API de GDPR reagrupa funciones que permiten el procesamiento automático de solicitudes de GDPR. [Más información](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#gdpr-api)
+La API de GDPR reagrupa funciones que permiten el procesamiento automático de solicitudes de GDPR. [Más información](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#gdpr-api)
 
 Se agregó información sobre cómo configurar las páginas de aterrizaje para que los destinatarios puedan quedar bloqueados. [Más información](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
@@ -455,7 +459,7 @@ Mejoras de inserción: lea más [aquí](../../channels/using/preparing-and-sendi
 
 Entregas optimizadas para zonas horarias: [Más información](../../automating/using/scheduler.md)
 
-Activación de actividad de señal de API: [Más información](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity)
+Activación de actividad de señal de API: [Más información](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity)
 
 ### Otras actualizaciones de la documentación incluidas en la versión {#other-documentation-updates-coming-with-the-release-9}
 
@@ -505,11 +509,11 @@ La [sección](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) de
 
 La documentación de SMS se ha actualizado con algunas aclaraciones agregadas a la sección de respuestas [automáticas de](../../channels/using/managing-incoming-sms.md#managing-stop-sms) SMS.
 
-Nueva sección dedicada a la administración de flujos de trabajo mediante la API. [Más información](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#workflows-and-api)
+Nueva sección dedicada a la administración de flujos de trabajo mediante la API. [Más información](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#workflows-and-api)
 
-Nueva sección dedicada a las claves principales y al uso de un ID comercial como clave en la API. [Más información](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#primary-key)
+Nueva sección dedicada a las claves principales y al uso de un ID comercial como clave en la API. [Más información](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#primary-key)
 
-Se ha añadido información sobre filtros simples y múltiples en la API. [Más información](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)
+Se ha añadido información sobre filtros simples y múltiples en la API. [Más información](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)
 
 ## Versión 17.9: septiembre de 2017 {#release-17-9---september-2017}
 
@@ -659,7 +663,7 @@ Recursos vinculados en las API de REST: [Más información](../../developing/usi
 
 Desencadena la integración: se han agregado dos casos de uso. [Más información](../../integrating/using/abandonment-triggers-use-cases.md)
 
-Hemos rediseñado la documentación de la API de desarrollador con nuevos fragmentos de código e información para mejorar la experiencia del usuario. [Más información](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+Hemos rediseñado la documentación de la API de desarrollador con nuevos fragmentos de código e información para mejorar la experiencia del usuario. [Más información](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
 
 Descubra ejemplos de las nuevas actividades de flujo de trabajo de audiencia [de](../../automating/using/read-audience.md) lectura y señal [](../../automating/using/external-signal.md) externa.
 
@@ -669,7 +673,7 @@ Descubra ejemplos de las nuevas actividades de flujo de trabajo de audiencia [de
 
 Exportación de registros para informes externos: [Más información](../../automating/using/exporting-logs.md)
 
-API de mensajería transaccional: [Más información](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+API de mensajería transaccional: [Más información](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
 
 Capacidades de mercadotecnia para mensajes transaccionales: [leer más](../../channels/using/profile-transactional-messages.md)
 
@@ -693,7 +697,7 @@ Nueva página de inicio de documentación y nueva presentación.
 
 Explicación de los permisos de usuario: se ha agregado un caso de uso. Consulte también la matriz [de permisos de](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)usuario.
 
-Uso de las API: se ha agregado un caso [de uso de extensión](../../developing/using/about-extending-the-api.md) API. Consulte también la documentación [de API](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
+Uso de las API: se ha agregado un caso [de uso de extensión](../../developing/using/about-extending-the-api.md) API. Consulte también la documentación [de API](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
 
 Mensajes de error de campaña: acceda a la lista completa de mensajes de error tanto en Campaign v6 como en Standard, filtrados por versión e idioma. [Más información](http://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
