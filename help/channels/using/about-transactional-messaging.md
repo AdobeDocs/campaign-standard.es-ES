@@ -1,7 +1,7 @@
 ---
-title: Acerca de los mensajes transaccionales
-seo-title: Acerca de los mensajes transaccionales
-description: Acerca de los mensajes transaccionales
+title: Acerca de la mensajería transaccional
+seo-title: Acerca de la mensajería transaccional
+description: Acerca de la mensajería transaccional
 seo-description: Descubra los distintos tipos de mensajes transaccionales que puede enviar y cómo se utilizan en Adobe Campaign.
 page-status-flag: nunca activado
 uuid: 8470e9e2-ee17-456f-9e4c-460e69c78a2c
@@ -14,12 +14,12 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 ---
 
 
-# Acerca de los mensajes transaccionales{#about-transactional-messaging}
+# Acerca de la mensajería transaccional{#about-transactional-messaging}
 
 Puede crear y administrar mensajes transaccionales personalizados en Adobe Campaign.
 
@@ -33,7 +33,7 @@ Adobe Campaign le permite integrar esta funcionalidad con un sistema de informac
 
 >[!NOTE]
 >
->Los mensajes transaccionales se pueden enviar por correo electrónico, SMS o notificación push, según las opciones que tenga. Verifique su contrato de licencia.
+>Los mensajes transaccionales se pueden enviar por correo electrónico, SMS o notificación push, según las opciones que tenga. Compruebe el acuerdo de licencia.
 
 Adobe Campaign ofrece dos tipos de mensajes transaccionales:
 
@@ -46,7 +46,7 @@ El tipo de mensaje se define al configurar el evento que se transformará en un 
 >
 >Adobe Campaign prioriza el procesamiento de los mensajes transaccionales sobre cualquier otra entrega.
 
-La mensajería transaccional también está disponible en la API de Adobe Campaign Standard. Para obtener más información sobre esto, consulte la documentación [](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#about-transactional-messaging)dedicada.
+La mensajería transaccional también está disponible en la API de Adobe Campaign Standard. For more on this, refer to the [dedicated documentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#about-transactional-messaging).
 
 ## Principio operativo de mensajería transaccional {#transactional-messaging-operating-principle}
 
@@ -63,6 +63,10 @@ Los pasos para ponerlo en práctica son:
 Una vez que se han realizado todos estos pasos, tan pronto como un usuario abandona el sitio sin ordenar los productos en su carro, automáticamente recibe un mensaje de correo electrónico de notificación.
 
 ## Limitaciones de mensajería transaccional {#transactional-messaging-limitations}
+
+>[!NOTE]
+>
+>Para acceder a los mensajes transaccionales, debe tener derechos de administración.
 
 ### Diseño y publicación {#design-and-publication}
 
@@ -95,13 +99,13 @@ Tenga en cuenta que las listas de productos solo están disponibles en los mensa
 
 ### Permisos y marca {#permissions-and-branding}
 
-En cuanto a la administración de [marca](../../administration/using/branding.md) , la mensajería transaccional permite menos flexibilidad que la mensajería estándar. Adobe recomienda vincular todas las marcas utilizadas en los mensajes transaccionales a la unidad organizativa **[!UICONTROL All]** . Para más información sobre esto, lea la explicación detallada a continuación.
+En cuanto a la administración de [marca](../../administration/using/branding.md) , la mensajería transaccional permite menos flexibilidad que la mensajería estándar. Adobe recomienda vincular todas las marcas utilizadas en los mensajes transaccionales a la unidad **[!UICONTROL All]** [](../../administration/using/organizational-units.md)organizativa. Para más información sobre esto, lea la explicación detallada a continuación.
 
 Al editar un mensaje transaccional, puede vincularlo a una marca para aplicar automáticamente algunos parámetros como el nombre de la marca o el logotipo de la marca. La opción **[!UICONTROL Default brand]** se selecciona de forma predeterminada en las propiedades del mensaje transaccional.
 
 ![](assets/message-center_branding.png)
 
-Para acceder a los mensajes transaccionales, debe formar parte del grupo de seguridad **[!UICONTROL Message Center agents]** (mcExec), que está vinculado a la unidad **[!UICONTROL Message Center]** [](../../administration/using/organizational-units.md)organizativa. Por lo tanto, todos los objetos (incluida la marca) utilizados en un mensaje transaccional deben ser visibles desde la unidad organizativa, lo que significa que estos objetos deben estar en las unidades organizativas **[!UICONTROL Message Center]** o **[!UICONTROL Message Center]** **[!UICONTROL All]** .
+Todos los objetos (incluida la marca) utilizados en un mensaje transaccional deben ser visibles desde la unidad organizativa, lo que significa que estos objetos deben estar en las unidades organizativas **[!UICONTROL Message Center]** o **[!UICONTROL Message Center]** **[!UICONTROL All]** .
 
 Sin embargo, si la marca seleccionada en las propiedades del mensaje está vinculada a una unidad organizativa distinta de **[!UICONTROL Message Center]** o **[!UICONTROL All]**, se producirá un error y no podrá enviar el mensaje transaccional.
 
