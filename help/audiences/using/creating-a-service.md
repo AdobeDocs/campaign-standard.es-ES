@@ -15,7 +15,7 @@ context-tags: servicio,asistente;servicio,principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: da59fad19bcf35b63afdfc6389be527c27f21fc3
+source-git-commit: 60424543028fa4df548d6d5bcfb1e9acc4131132
 
 ---
 
@@ -39,22 +39,22 @@ Para configurar un servicio:
 1. Seleccione una plantilla de mensaje de confirmación para suscripciones y suscripciones. Hay tres modos disponibles:
 
    * **[!UICONTROL No message]**:: este modo le permite crear un servicio sin un mensaje de confirmación.
-   * **[!UICONTROL Default message]**:: este modo utilizará el mensaje transaccional de confirmación de suscripción o cancelación de suscripción predeterminado. The default confirmation messages are generic and will be the same for all services that use the default mode.
+   * **[!UICONTROL Default message]**:: este modo utilizará el mensaje transaccional de confirmación de suscripción o cancelación de suscripción predeterminado. Los mensajes de confirmación predeterminados son genéricos y serán los mismos para todos los servicios que utilicen el modo predeterminado.
 
-      >[NOTA]
+      >[!NOTE]
       >
       >Para modificar un mensaje predeterminado, haga clic en su etiqueta en la sección **[!UICONTROL Service properties]** o selecciónelo en la lista de mensajes transaccionales de Adobe Campaign, después de marcar la **[!UICONTROL Show internal transactional messages]** casilla.
 
-   * **[!UICONTROL Custom message]**: this mode allows you to handle custom confirmation messages, specific for each service. A continuación, seleccione el **[!UICONTROL Custom subscription event configuration]** que está asociado a una plantilla de mensaje [](../../channels/using/about-transactional-messaging.md) transaccional específica. For more on this, see [Confirming subscription to a service](../../audiences/using/confirming-subscription-to-a-service.md).
+   * **[!UICONTROL Custom message]**:: este modo le permite gestionar mensajes de confirmación personalizados, específicos para cada servicio. A continuación, seleccione el **[!UICONTROL Custom subscription event configuration]** que está asociado a una plantilla de mensaje [](../../channels/using/about-transactional-messaging.md) transaccional específica. Para obtener más información sobre esto, consulte [Confirmación de la suscripción a un servicio](../../audiences/using/confirming-subscription-to-a-service.md).
 
-1. Save the service. It is now ready to be used.
+1. Guarde el servicio. Ahora está listo para ser utilizado.
 
-Once a service has been created, you can start promoting it.
+Una vez creado un servicio, puede empezar a promocionarlo.
 
 **Temas relacionados:**
 
-* [Managing a service and subscriptions](https://helpx.adobe.com/campaign/kt/acs/using/acs-services-and-subscriptions-feature-video-use.html) video
-* [Promoting a service](../../audiences/using/promoting-a-service.md)
-* [Creating an audience made of subscribers](../../audiences/using/creating-audiences.md#creating-list-audiences)
-* [Linking a form to a service in a landing page](../../channels/using/designing-a-landing-page.md#linking-a-form-to-a-service)
+* [Administración de un servicio y un vídeo de suscripciones](https://helpx.adobe.com/campaign/kt/acs/using/acs-services-and-subscriptions-feature-video-use.html)
+* [Promoción de un servicio](../../audiences/using/promoting-a-service.md)
+* [Creación de una audiencia formada por suscriptores](../../audiences/using/creating-audiences.md#creating-list-audiences)
+* [Vinculación de un formulario a un servicio en una página de aterrizaje](../../channels/using/designing-a-landing-page.md#linking-a-form-to-a-service)
 
