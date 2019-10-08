@@ -3,32 +3,32 @@ title: Acerca de las suscripciones
 seo-title: Acerca de las suscripciones
 description: Acerca de las suscripciones
 seo-description: null
-page-status-flag: no activado nunca
-uuid: b 0263 e 40-f 910-49 f 2-a 138-0 a 1302 aeeec 6
+page-status-flag: nunca activado
+uuid: b0263e40-f910-49f2-a138-0a1302aeec6
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: audiencias
-content-type: reference
-topic-tags: administración de suscripciones
-discoiquuid: 27 de 5 a 13-7 b 7 c -4 c 91-bf 26-3 dfd 324 beb 8 f
+products: SG_CAMPAIGN/STANDARD
+audience: audiences
+content-type: referencia
+topic-tags: administrar suscripciones
+discoiquuid: 27de5a13-7b7c-4c91-bf26-3dfd324beb8f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
 
-# About subscriptions{#about-subscriptions}
+# Acerca de las suscripciones{#about-subscriptions}
 
-Adobe Campaign allows you to create and manage newsletters and cross-channel communications, through a set of **services**: messages can only be sent to profiles who subscribed to the service (opt-in). Estos perfiles se identifican con un filtro dedicado al crear un mensaje.
+Adobe Campaign permite crear y administrar boletines informativos y comunicaciones entre canales mediante un conjunto de **servicios**: solo se pueden enviar mensajes a perfiles suscritos al servicio (opción de inclusión). Estos perfiles se identifican mediante un filtro dedicado al crear un mensaje.
 
-Subscription mechanisms can be set up to offer your customers a chance to subscribe to these services, notably though **emails** and **landing pages**.
+Se pueden configurar mecanismos de suscripción para ofrecer a sus clientes la oportunidad de suscribirse a estos servicios, especialmente a través de **correos electrónicos** y páginas **de** aterrizaje.
 
-Cada servicio viene con:
+Cada servicio incluye:
 
-* **Mecanismos de suscripción** (opt-in) y **[!UICONTROL Unsubscription]** (opt-out).
-* Subscription and/or unsubscription **confirmation mechanisms**.
-* A subscription **history**.
+* **Mecanismos de suscripción** (inclusión) y **[!UICONTROL Unsubscription]** (exclusión).
+* Mecanismos **de** confirmación de suscripción y/o cancelación de suscripción.
+* Un **historial** de suscripción.
 
-Las suscripciones también se pueden administrar mediante la API de Adobe Campaign Standard. For more on this, refer to the [dedicated documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-subscriptions) .
+Las suscripciones también se pueden administrar mediante la API de Adobe Campaign Standard. For more on this, refer to the [dedicated documentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-subscriptions) .
