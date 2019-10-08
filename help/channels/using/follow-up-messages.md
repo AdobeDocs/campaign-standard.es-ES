@@ -14,7 +14,7 @@ discoiquuid: 9615e369-754f-4f6a-a1b1-14462f94666
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d9357481a567cb0d11eea43211abf08a6dcb07d6
+source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 ---
 
@@ -49,7 +49,7 @@ Solo se muestran los mensajes de seguimiento.
 
 >[!NOTE]
 >
->Para acceder a los mensajes transaccionales, debe tener derechos de administración o aparecer en el grupo de seguridad **[!UICONTROL Message Center agents]** (mcExec).
+>Para acceder a los mensajes transaccionales, debe formar parte del grupo de **[!UICONTROL Administrators (all units)]** seguridad.
 
 ## Envío de un mensaje de seguimiento {#sending-a-follow-up-message}
 
