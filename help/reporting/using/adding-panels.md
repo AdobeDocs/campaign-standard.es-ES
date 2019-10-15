@@ -2,79 +2,79 @@
 title: Adición de paneles
 seo-title: Adición de paneles
 description: Adición de paneles
-seo-description: El informe dinámico permite agregar panel para filtrar mejor los datos según el período de tiempo elegido.
-page-status-flag: no activado nunca
-uuid: 8 e 76 e 837-5 efc -4250-8192-dee 1 a 0 bd 62 fe
+seo-description: El informe dinámico permite agregar un panel para filtrar mejor los datos en función del período de tiempo seleccionado.
+page-status-flag: nunca activado
+uuid: 8e76e837-5efc-4250-8192-dee1a0bd62fe
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: informes
-content-type: reference
+content-type: referencia
 topic-tags: personalizar informes
-discoiquuid: f 4 e 1 e 676-5 ca 2-4 a 58-96 d 7-d 378 ff 803710
+discoiquuid: f4e1e676-5ca2-4a58-96d7-d378ff803710
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e9a4d99ddf311898c48b2b352fa13f5b59ed1fbe
+source-git-commit: d3fca4c85f418a6a50bbf12f730990ad4b33a4cc
 
 ---
 
 
-# Adding panels{#adding-panels}
+# Adición de paneles{#adding-panels}
 
-## Adding a blank panel {#adding-a-blank-panel}
+## Adición de un panel en blanco {#adding-a-blank-panel}
 
-Para iniciar el informe, puede agregar un conjunto de paneles a una salida del cuadro o informe personalizado. Cada panel contiene diferentes conjuntos de datos y se compone de tablas y visualizaciones improvisadas.
+Para iniciar el informe, puede agregar un conjunto de paneles a un informe predeterminado o personalizado. Cada panel contiene diferentes conjuntos de datos y está compuesto de tablas y visualizaciones improvisadas.
 
-Este panel permite crear los informes según sea necesario. Puede agregar tantos paneles como desee en los informes para filtrar los datos con diferentes períodos de tiempo.
+Este panel le permite generar los informes según sea necesario. Puede agregar tantos paneles como desee en los informes para filtrar los datos con diferentes períodos de tiempo.
 
-1. Click the **Panels** icon. You can also add a panel by clicking the **Insert tab** and selecting **New Blank Panel**.
+1. Click the **Panels** icon. También puede agregar un panel haciendo clic en la ficha **** Insertar y seleccionando **Nuevo panel** en blanco.
 
    ![](assets/dynamic_report_panel_1.png)
 
-1. Drag and drop the **Blank Panel** into your dashboard.
+1. Arrastre y suelte el panel **en blanco** en el tablero.
 
    ![](assets/dynamic_report_panel.png)
 
-Ahora puede agregar una tabla improvisada al panel para iniciar los datos de objetivo.
+Ahora puede agregar una tabla improvisada al panel para empezar a dirigir los datos.
 
-## Adding a freeform table {#adding-a-freeform-table}
+## Adición de una tabla improvisada {#adding-a-freeform-table}
 
-Freeform tables allow you to create a table to analyze your data using the different metrics and dimensions available in the **Component** table.
+Las tablas improvisadas permiten crear una tabla para analizar los datos con las distintas métricas y dimensiones disponibles en la tabla **Componente** .
 
-Cada tabla y visualización se pueden cambiar de tamaño y se pueden mover para personalizar mejor el informe.
+Se puede cambiar el tamaño de cada tabla y visualización y moverlas para personalizar mejor el informe.
 
 1. Click the **Panels** icon.
 
    ![](assets/dynamic_report_panel_1.png)
 
-1. Drag and drop the **Freeform** item into your dashboard.
+1. Arrastre y suelte el elemento **improvisado** en el tablero.
 
-   You can also add a table by clicking the **Insert** tab and selecting **New Freeform** or by clicking **Add a freeform table** in an empty panel.
+   También puede agregar una tabla haciendo clic en la ficha **Insertar** y seleccionando **Nueva forma libre** o haciendo clic en **Agregar una tabla** improvisada en un panel vacío.
 
    ![](assets/dynamic_report_panel_2.png)
 
-1. If needed, drag and drop **[!UICONTROL Segments]** from the **[!UICONTROL Components]** tab into the top bar to filter your report depending on your recipient's age range.
+1. A partir de la versión 19.4 de Campaign, el **[!UICONTROL Exclude proof]** se seleccionará de forma predeterminada. Si es necesario, puede cambiarlo arrastrando y soltando uno de los **[!UICONTROL Segments]** de la **[!UICONTROL Components]** ficha en la barra superior.
 
    ![](assets/dynamic_report_panel_3.png)
 
-1. Drag and drop items from the **Components** tab into the columns and rows to build your table.
+1. Arrastre y suelte los elementos de la ficha **Componentes** en las columnas y filas para crear la tabla.
 
    ![](assets/dynamic_report_freeform_3.png)
 
-1. Click the **Settings** icon to change how the data is displayed in your columns.
+1. Haga clic en el icono **Configuración** para cambiar la forma en que se muestran los datos en las columnas.
 
    ![](assets/dynamic_report_freeform_4.png)
 
-   The **[!UICONTROL Column settings]** is composed of:
+   El **[!UICONTROL Column settings]** grupo está compuesto por:
 
-   * **[!UICONTROL Number]**: permite mostrar u ocultar los números de resumen de la columna.
-   * **[!UICONTROL Percent]**: permite mostrar u ocultar porcentaje en la columna.
-   * **[!UICONTROL Interpret zero as no value]**: permite mostrar u ocultar cuando el valor es igual a cero.
-   * **[!UICONTROL Background]**: permite mostrar u ocultar la barra de progreso horizontal en las celdas.
-   * **[!UICONTROL Include retries]**: permite incluir reintentos en el resultado. This is only available for **[!UICONTROL Sent]** and **[!UICONTROL Bounces + Errors]**.
+   * **[!UICONTROL Number]**:: permite mostrar u ocultar los números de resumen en la columna.
+   * **[!UICONTROL Percent]**:: permite mostrar u ocultar el porcentaje en la columna.
+   * **[!UICONTROL Interpret zero as no value]**:: permite mostrar u ocultar cuando el valor es igual a cero.
+   * **[!UICONTROL Background]**:: permite mostrar u ocultar la barra de progreso horizontal en las celdas.
+   * **[!UICONTROL Include retries]**:: permite incluir reintentos en el resultado. Esto solo está disponible para **[!UICONTROL Sent]** y **[!UICONTROL Bounces + Errors]**.
 
-1. Select one or multiple rows and click the **Visualize** icon. Se agrega una visualización para reflejar las filas seleccionadas.
+1. Seleccione una o varias filas y haga clic en el icono **Visualizar** . Se agrega una visualización para reflejar las filas seleccionadas.
 
    ![](assets/dynamic_report_freeform_5.png)
 
-Ahora puede agregar tantos componentes como necesite y agregar visualizaciones para dar representaciones gráficas de sus datos.
+Ahora puede agregar tantos componentes como necesite y también agregar visualizaciones para proporcionar representaciones gráficas de los datos.
