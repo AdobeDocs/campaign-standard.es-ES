@@ -15,7 +15,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9380d7f624c051c42b61d88e39c85a216fb7caec
+source-git-commit: c216210e2cb279c87ba472d4ec6a02284aae7a74
 
 ---
 
@@ -368,7 +368,8 @@ Cuando un visitante envía una página de aterrizaje, puede configurar las accio
 
 ## Configuración de permisos y precarga de datos {#setting-permissions-and-pre-loading-data}
 
-El acceso a una página de aterrizaje puede restringirse a los visitantes identificados, que provienen de un vínculo en un mensaje enviado por Campaign, por ejemplo. En este caso, puede cargar previamente sus datos en la página de aterrizaje. Para ello:
+El acceso a una página de aterrizaje puede restringirse a los visitantes identificados, que provienen de un vínculo en un mensaje enviado por Campaña, por ejemplo, o a una unidad organizativa específica.
+En el caso de los visitantes identificados, puede cargar previamente sus datos en la página de aterrizaje. Para ello:
 
 1. Edite las propiedades de la página de aterrizaje a las que se accede mediante el icono ![](assets/edit_darkgrey-24px.png) del tablero de la página de aterrizaje y muestre los **[!UICONTROL Access & loading]** parámetros.
 
@@ -384,6 +385,26 @@ También puede:
 
 * Utilice los parámetros de URL para identificar a los visitantes mediante la **[!UICONTROL Authorize visitor identification via URL parameters]** opción: a continuación, debe elegir la clave de carga y asignar los parámetros del filtro con los parámetros de la URL correspondiente.
 * Autorice a cualquier visitante a acceder a la página de aterrizaje mediante la **[!UICONTROL Authorize unidentified visitors]** opción .
+
+Las páginas de aterrizaje también se pueden vincular a una unidad organizativa. Esto definirá el acceso de los usuarios a las diferentes páginas de aterrizaje. Para asignar una unidad organizativa:
+
+1. Acceda a las propiedades de la página de aterrizaje mediante el **[!UICONTROL Edit properties]** icono .
+
+   ![](assets/lp_parameters_google3.png)
+
+1. Despliegue el **[!UICONTROL Access authorization]**.
+
+1. Haga clic en el menú desplegable y seleccione la unidad organizativa. For more information on how to create organization unit, refer to this [page](../../administration/using/organizational-units.md).
+
+   ![](assets/lp_org_unit_2.png)
+
+1. Los campos **[!UICONTROL Created by]**, **[!UICONTROL Created]****[!UICONTROL Access authorization]** y **[!UICONTROL Last modified]** se completan automáticamente.
+
+1. Haga clic en **[!UICONTROL Confirm]** luego **[!UICONTROL Save]**.
+
+Ahora solo los usuarios de la unidad organizativa seleccionada pueden acceder a la página de aterrizaje y administrarla.
+
+![](assets/lp_org_unit_3.png)
 
 ## Configuración de Google reCAPTCHA {#setting-google-recaptcha}
 
