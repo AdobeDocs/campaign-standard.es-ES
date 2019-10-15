@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
+source-git-commit: f76e88798c1c570b02442aec316a3f24e3615a4a
 
 ---
 
@@ -72,7 +72,7 @@ La interfaz de Email Designer permite ajustar rápidamente los ajustes de margen
 
 ![](assets/des_padding.png)
 
- Por ejemplo:
+Por ejemplo:
 
 * Utilice el relleno para definir los márgenes en los lados izquierdo y derecho de una imagen.
 * Utilice el relleno superior e inferior para añadir más espacio a un **[!UICONTROL Text]** componente o a un **[!UICONTROL Divider]** componente.
@@ -148,7 +148,7 @@ A continuación se muestran los ajustes de fondo disponibles que puede utilizar.
 
 #### Ejemplo: ajuste de alineación vertical y relleno {#example--adjusting-vertical-alignment-and-padding}
 
-Desea ajustar el margen y la alineación vertical dentro de un componente de estructura compuesto por tres columnas. Para ello, siga los pasos a continuación:
+Desea ajustar el margen y la alineación vertical dentro de un componente de estructura compuesto por tres columnas. Para realizar esto, siga los pasos a continuación:
 
 1. Seleccione el componente de estructura directamente en el correo electrónico o mediante el árbol de estructura disponible en la **paleta** izquierda.
 1. En la barra de herramientas **contextual, haga clic en****[!UICONTROL Select a column]** y elija la que desee editar. También puede seleccionarlo en el árbol de estructura.
@@ -172,6 +172,30 @@ Desea ajustar el margen y la alineación vertical dentro de un componente de est
 1. Proceda de forma similar para ajustar la alineación y el relleno de las demás columnas.
 
    ![](assets/des_adjusting_columns.png)
+
+1. Guarde los cambios.
+
+### Acerca del estilo de los vínculos {#about-styling-links}
+
+Puede subrayar un vínculo y seleccionar su color y destino en el Diseñador de correo electrónico.
+
+1. En un componente en el que se inserta un vínculo, seleccione el texto de la etiqueta del vínculo.
+
+1. En la configuración del componente, marque **[!UICONTROL Underline link]** para subrayar el texto de la etiqueta del vínculo.
+
+   ![](assets/stylelinks-selecttext.png)
+
+1. Para seleccionar en qué contexto de exploración se abrirá el vínculo, seleccione un **[!UICONTROL Target]**.
+
+   ![](assets/stylelinks-target.png)
+
+1. Para cambiar el color del vínculo, haga clic en **[!UICONTROL Link color]**.
+
+   ![](assets/stylelinks-colorpicker.png)
+
+1. Elija el color que necesita.
+
+   ![](assets/stylelinks-colorchanged.png)
 
 1. Guarde los cambios.
 
