@@ -2,44 +2,44 @@
 title: Adición de componentes
 seo-title: Adición de componentes
 description: Adición de componentes
-seo-description: Arrastre y coloque componentes a la tabla improvisada para comenzar a filtrar los datos y crear su informe.
-page-status-flag: no activado nunca
-uuid: a 1 aa 880 c -4 ee 8-4 ffb-b 3 bf -45249 e 6 d 446 f
+seo-description: Arrastre y arrastre componentes a la tabla improvisada para empezar a filtrar los datos y a generar el informe.
+page-status-flag: nunca activado
+uuid: a1aa880c-4ee8-4ffb-b3bf-45249e6d446f
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: informes
-content-type: reference
+content-type: referencia
 topic-tags: personalizar informes
-discoiquuid: a 773 b 7 a 8-c 290-4 c 81-bb 52-48 acc 14 fc 89 f
+discoiquuid: a773b7a8-c290-4c81-bb52-48acc14fc89f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e9a4d99ddf311898c48b2b352fa13f5b59ed1fbe
+source-git-commit: d3fca4c85f418a6a50bbf12f730990ad4b33a4cc
 
 ---
 
 
-# Adding components{#adding-components}
+# Adición de componentes{#adding-components}
 
 Los componentes ayudan a personalizar los informes con diferentes dimensiones, métricas y períodos de tiempo.
 
-1. Click the **[!UICONTROL Components]** tab to access the list of components.
+1. Haga clic en la **[!UICONTROL Components]** ficha para acceder a la lista de componentes.
 
    ![](assets/dynamic_report_components.png)
 
-1. Each category presented in the **[!UICONTROL Components]** tab displays the five most used items, click the name of a category to access its full list of components.
+1. Cada categoría presentada en la **[!UICONTROL Components]** ficha muestra los cinco elementos más utilizados, haga clic en el nombre de una categoría para acceder a su lista completa de componentes.
 
    La tabla de componentes se divide en cuatro categorías:
 
-   * **Dimensiones**: Obtener detalles del registro de envíos, como el explorador o el dominio del destinatario, o el éxito de una entrega.
-   * **Métricas**: Obtener detalles sobre el estado de un mensaje. Por ejemplo, si se entregó un mensaje y el usuario la abrió.
-   * **[!UICONTROL Segments]**: Filtre los datos según el rango de edad del destinatario. **[!UICONTROL Segments]** puede arrastrarse y soltarse directamente en una tabla improvisada o en la barra superior del panel.
+   * **Dimensiones**: Obtenga detalles del registro de envíos, como el explorador o dominio del destinatario, o el éxito de una entrega.
+   * **Métricas**: Obtenga detalles sobre el estado de un mensaje. Por ejemplo, si se entregó un mensaje y el usuario lo abrió.
+   * **[!UICONTROL Segments]**:: Filtre los datos en función del intervalo de edad del destinatario. **[!UICONTROL Segments]** se pueden arrastrar y soltar directamente en una tabla improvisada o en la barra superior del panel. A partir de la versión 19.4 de Campaign, el **[!UICONTROL Exclude proof]** se seleccionará de forma predeterminada pero se puede cambiar si es necesario.
 
-      Esta categoría sólo está disponible cuando el administrador aprueba los términos y condiciones del Acuerdo de uso dinámico de informes que se mostrarán en pantalla. If the administrator declines the agreement, the segments will not be visible in the **[!UICONTROL Components]** tab and data will not be collected.
+      Esta categoría solo está disponible una vez que el administrador haya aprobado los términos y condiciones del Acuerdo de uso de informes dinámicos que se mostrarán en pantalla. Si el administrador rechaza el acuerdo, los segmentos no estarán visibles en la **[!UICONTROL Components]** ficha y no se recopilarán datos.
 
    * **Hora**: Establezca un período de tiempo para la tabla.
 
-1. Arrastre y suelte componentes en un panel para comenzar a filtrar los datos.
+1. Arrastre y suelte componentes en un panel para empezar a filtrar los datos.
 
 Puede arrastrar y soltar tantos componentes como sea necesario y compararlos entre sí.
 
