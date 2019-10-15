@@ -14,7 +14,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b43f43f300f14c9abe1cc471a74586e19841b6e1
+source-git-commit: 637cddaa2fb29554f7e6c8b6ae2e4076515488de
 
 ---
 
@@ -52,13 +52,14 @@ Recursos adicionales:
     <li><p>Al crear una solicitud de privacidad, se ha agregado el tipo de regulación (GDPR o CCPA) en el servicio principal de privacidad. Este método es el que debe utilizar para todas las solicitudes de acceso y eliminación. El uso de la API de campaña y la interfaz para acceder y eliminar solicitudes está en desuso. Sin embargo, si todavía necesita usar estos métodos en 19.4, tenga en cuenta que el tipo de regulación se ha agregado en la interfaz de Campaign y la API y es obligatorio. Para la interfaz, el valor predeterminado se establecerá en GDPR. Para la API, deberá incluir este campo en la carga útil. Consulte la documentación <a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#privacy-management">de API</a>.</p></li>
     <li>Se ha agregado un campo de exclusión <strong>de</strong> CCPA al recurso Perfiles para permitir a los usuarios de Adobe Campaign realizar un seguimiento de si un cliente ha optado por la venta de información personal. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa">Más información</a>.</li>
   </ul>
+    <p>Consulte el vídeo de <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">procedimientos</a>.</p>
 </td> 
   </tr> 
   <tr> 
    <td> Integración de Microsoft Dynamics 365 (GA)<br /> </td> 
    <td> 
     <p>Ya está disponible la integración entre Adobe Campaign Standard y Microsoft Dynamics 365. Podrá transferir los registros de contacto y de entidad personalizada de Dynamics 365 a Campaign y obtener los datos de eventos de correo electrónico de Campaign a Dynamics 365 para mejorar la alineación de ventas y marketing.</p>
-    <p>Consulte la documentación <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html"></a> detallada para configurar esta integración.</p>
+    <p>Consulte la documentación <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html"></a> detallada para configurar esta integración y ver el vídeo de <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/integrating/microsoft-dynamics365-connector/introduction.html">procedimientos</a>.</p>
   </td>
   </tr> 
  </tbody> 
