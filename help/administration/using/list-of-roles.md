@@ -2,45 +2,45 @@
 title: Lista de funciones
 seo-title: Lista de funciones
 description: Lista de funciones
-seo-description: Averigüe la lista de funciones que puede asignar a los usuarios.
-page-status-flag: no activado nunca
-uuid: 128 aaf 9 b -9 b 7 d -49 f 3-9 e 1 f -72 e 79 a 29 baa 0
+seo-description: Descubra la lista de funciones que puede asignar a los usuarios.
+page-status-flag: nunca activado
+uuid: 128aaf9b-9b7d-49f3-9e1f-72e79a29baa0
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: administración
-content-type: reference
+content-type: referencia
 topic-tags: usuarios y seguridad
-discoiquuid: Ceaa 3 c 94-9 e 1 a -4271-b 443-b 00 b 4068929 f
-context-tags: role, overview; función, principal
+discoiquuid: ceaa3c94-9e1a-4271-b443-b00b4068929f
+context-tags: función,descripción general;función,principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6a877d878f01fa1e541dc20b8b0941602113d15b
+source-git-commit: c331937dcfef849798f1a5ed693da5f01759a1b8
 
 ---
 
 
-# List of roles{#list-of-roles}
+# Lista de funciones{#list-of-roles}
 
-De forma predeterminada, Adobe Campaign ofrece un conjunto de funciones que le permite definir autorizaciones unitarias asignadas a usuarios y grupos de usuarios. Junto con las unidades organizativas, las funciones proporcionan a los usuarios una vista filtrada de la interfaz y definen su acceso a las distintas funciones. For more on this, refer to the [Roles and permissions table](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
+De forma predeterminada, Adobe Campaign ofrece un conjunto de funciones que le permiten definir autorizaciones unitarias asignadas a usuarios y grupos de usuarios. Combinadas con las unidades organizativas, las funciones proporcionan a los usuarios una vista filtrada de la interfaz y definen su acceso a las diferentes funciones. Para obtener más información sobre esto, consulte la tabla [Funciones y permisos](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
 
-![](assets/user_management_3.png)
+[![imagen](/help/administration/using/assets/user_management_3.png)](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
-Roles can be managed from the **[!UICONTROL Administration > Users & Security > Roles]** menu.
+Las funciones se pueden administrar desde el **[!UICONTROL Administration > Users & Security > Roles]** menú.
 
 Los derechos predeterminados son:
 
-* **[!UICONTROL Administration]**: Administración genérica de la administración.
-* **[!UICONTROL Datamodel]**: Derecho a ejecutar publicaciones y crear recursos personalizados.
-* **[!UICONTROL Export]**: Right to export data.
-* **[!UICONTROL Generic import]**: Right to run a generic import on data. For this to work, you need to link the **[!UICONTROL Generic import]** role to the **[!UICONTROL Workflow]** role.
-* **[!UICONTROL Prepare deliveries]**: Haga clic derecho para crear, editar, iniciar y enviar pruebas.
-* **[!UICONTROL Start deliveries]**: Right to validate previously ready entregas.
-* **[!UICONTROL Workflow]**: Right to use workflows.
+* **[!UICONTROL Administration]**:: Derecho de administración genérico.
+* **[!UICONTROL Datamodel]**:: Derecho a ejecutar publicaciones y crear recursos personalizados.
+* **[!UICONTROL Export]**: derecho para exportar datos.
+* **[!UICONTROL Generic import]**:: Derecho a ejecutar una importación genérica de datos. Para que esto funcione, debe vincular la **[!UICONTROL Generic import]** función a la **[!UICONTROL Workflow]** función.
+* **[!UICONTROL Prepare deliveries]**:: Derecho a crear, modificar, preparar y eliminar entregas. Los usuarios con esta función pueden preparar la entrega pero no enviarla.
+* **[!UICONTROL Start deliveries]**:: Derecho a crear, modificar, preparar, enviar y eliminar entregas.
+* **[!UICONTROL Workflow]**:: Derecho a crear, modificar, iniciar y eliminar flujos de trabajo. Los usuarios con esta función no pueden enviar una entrega ni siquiera en un flujo de trabajo.
 
 >[!CAUTION]
 >
->La función DELIVERABILITY es para los administradores de Adobe únicamente para uso interno. No debe concederse a un usuario.
+>Las funciones **[!UICONTROL Deliverability]**, **[!UICONTROL Command execution]**, **[!UICONTROL Export]**, **[!UICONTROL File access]** y **[!UICONTROL Message Center push]** son solo para uso interno de los administradores de Adobe. No deben concederse a un usuario.
 
 **Temas relacionados:**
 
