@@ -1,46 +1,46 @@
 ---
-title: Solución de problemas
-seo-title: Solución de problemas
-description: Solución de problemas
-seo-description: Aquí encontrará preguntas comunes relacionadas con los informes dinámicos.
-page-status-flag: no activado nunca
-uuid: a 84 a 18 bd -4 e 33-466 e-a 6 ce-d 7008 fe 12746
-contentOwner: en
-products: SG_ CAMPAIGN/STANDARD
+title: Resolución de problemas
+seo-title: Resolución de problemas
+description: Resolución de problemas
+seo-description: Encuentre aquí preguntas comunes relacionadas con los informes dinámicos.
+page-status-flag: nunca activado
+uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
+contentOwner: benat
+products: SG_CAMPAIGN/STANDARD
 audience: informes
-content-type: reference
-topic-tags: solución de problemas
-discoiquuid: bbb 41 c 38-12 c 1-4625-85 d 5-69627 e 2 f 4 b 39
+content-type: referencia
+topic-tags: resolución
+discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e0cbdfecde495d7c9f8bfa33dd5ee8598cdfe60a
+source-git-commit: 0ccb6df9b3de49baf1a230547c33f5d2246c0e85
 
 ---
 
 
-# Troubleshooting{#troubleshooting}
+# Resolución de problemas{#troubleshooting}
 
 En esta sección encontrará preguntas comunes relacionadas con los informes dinámicos.
 
-## For Unique opens and Unique clicks, the count in the aggregate row is not matching the ones in individual rows {#unique-open-clicks-no-match}
+## Para las aperturas únicas y los clics únicos, el recuento de la fila agregada no coincide con los de filas individuales {#unique-open-clicks-no-match}
 
-Se trata de un comportamiento esperado.
+Este es un comportamiento esperado.
 Podemos tomar el siguiente ejemplo para explicar este comportamiento.
 
-Se envía un correo electrónico a los perfiles P 1 y P 2.
+Se envía un correo electrónico a los perfiles P1 y P2.
 
-P 1 abre el mensaje de correo electrónico dos veces el primer día y, a continuación, hora del árbol el segundo día.
+P1 abre el correo electrónico dos veces el primer día y luego tres veces el segundo día.
 
-En cambio, P 2 abre el mensaje de correo electrónico una vez el primer día y no lo vuelve a abrir en los días siguientes.
-Esta es una representación visual de la interacción de perfiles con el correo electrónico enviado:
+Mientras que P2 abre el correo electrónico una vez el primer día y no lo vuelve a abrir en los días siguientes.
+Esta es una representación visual de la interacción de los perfiles con el correo electrónico enviado:
 
 <table> 
  <thead> 
   <tr> 
    <th align="center"> <strong>Día</strong><br /> </th> 
-   <th align="center"> <strong>Aperturas</strong><br /> </th> 
-   <th align="center"> <strong>Aperturas únicas</strong><br /> </th> 
+   <th align="center"> <strong>Abre</strong><br /> </th> 
+   <th align="center"> <strong>Aperturas</strong> únicas <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -57,18 +57,18 @@ Esta es una representación visual de la interacción de perfiles con el correo 
  </tbody> 
 </table>
 
-To understand the overall number of unique opens, we need to sum up the row counts of **[!UICONTROL Unique Opens]** which gives us the value 3. Sin embargo, como el correo electrónico fue dirigido solo a 2 perfiles, la tasa de apertura debería mostrar 150%.
+Para comprender el número total de aperturas únicas, necesitamos sumar los recuentos de filas de **[!UICONTROL Unique Opens]** los que se obtiene el valor 3. Pero como el correo electrónico estaba dirigido a solo 2 perfiles, la tasa de apertura debería mostrar el 150%.
 
-To not obtain percentage higher than 100, the definition of **[!UICONTROL Unique Opens]** is maintained to be the number of unique broadlogs that were opened. En este caso, incluso si P 1 abrió el correo electrónico el día 1 y el Día 2, sus aperturas únicas seguirán siendo 1.
+Para no obtener un porcentaje superior a 100, se mantiene la definición de **[!UICONTROL Unique Opens]** frecuencia como el número de diarios de banda ancha únicos que se abrieron. En este caso, incluso si P1 abrió el correo electrónico el día 1 y el día 2, su apertura única seguirá siendo 1.
 
-Esto resultará en la siguiente tabla:
+Esto dará como resultado la siguiente tabla:
 
 <table> 
  <thead> 
   <tr> 
    <th align="center"> <strong>Día</strong><br /> </th> 
-   <th align="center"> <strong>Aperturas</strong><br /> </th> 
-   <th align="center"> <strong>Aperturas únicas</strong><br /> </th> 
+   <th align="center"> <strong>Abre</strong><br /> </th> 
+   <th align="center"> <strong>Aperturas</strong> únicas <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -87,44 +87,44 @@ Esto resultará en la siguiente tabla:
 
 >[!NOTE]
 >
->Los recuentos únicos se basan en un boceto basado en HLL, esto puede provocar leves imprecisiones en recuentos grandes.
+>Los recuentos únicos se basan en un boceto basado en HLL, lo que puede causar pequeñas imprecisiones en los recuentos grandes.
 
-## Open counts do not match the Database count {#open-counts-no-match-database}
+## Los recuentos abiertos no coinciden con el recuento de la base de datos {#open-counts-no-match-database}
 
-This may be due to the fact that, heuristics are used in Dynamic reporting to track opens even when we can't track the **[!UICONTROL Open]** action.
+Esto puede deberse al hecho de que la heurística se utiliza en los informes dinámicos para rastrear las aperturas incluso cuando no podemos rastrear la **[!UICONTROL Open]** acción.
 
-For example, if a user has disabled images on their client and click on a link in the email, the **[!UICONTROL Open]** may not be tracked by the database but the **[!UICONTROL Click]** will.
+Por ejemplo: si un usuario ha desactivado las imágenes de su cliente y hace clic en un vínculo del correo electrónico, es posible que la base de datos no **[!UICONTROL Open]** las rastree, pero la **[!UICONTROL Click]** voluntad.
 
-Therefore, the **[!UICONTROL Open]** tracking logs counts may not have the same count in the database.
+Por lo tanto, es posible que los recuentos de registros de seguimiento no tengan el mismo recuento en la base de datos. **[!UICONTROL Open]**
 
-Such occurrences are added as **"an email click implies an email open"**.
+Estas ocurrencias se agregan como **"un clic de correo electrónico implica abrir un correo electrónico"**.
 
 >[!NOTE]
 >
->Debido a que los recuentos únicos se basan en un boceto basado en HLL, se pueden experimentar incoherencias menores entre los recuentos.
+>Dado que los recuentos únicos se basan en un boceto basado en HLL, se pueden experimentar incoherencias menores entre los recuentos.
 
-## ¿Cómo se calculan los recuentos para entregas recurrentes o transaccionales?
+## ¿Cómo se calculan los recuentos de entregas recurrentes/transaccionales?
 
-Al trabajar con entregas recurrentes y transaccionales, los recuentos se atribuirán tanto a los envíos principales como secundarios.
+Al trabajar con entregas recurrentes y transaccionales, los recuentos se atribuirán tanto a las entregas principales como a las secundarias.
 
-We can take the example of a recurring delivery named **R1** set to run every day on day 1 (RC1), day 2 (RC2) and day 3 (RC3).
+Podemos tomar el ejemplo de un envío recurrente llamado **R1** configurado para ejecutarse todos los días en el día 1 (RC1), día 2 (RC2) y día 3 (RC3).
 
-Supongamos que solo una persona abrió todos los envíos secundarios varias veces. In this case, the individual recurring child deliveries will show the **[!UICONTROL Open]** count as 1 for each.
+Supongamos que sólo una persona abrió todas las entregas de niños varias veces. En este caso, las entregas infantiles recurrentes individuales mostrarán el **[!UICONTROL Open]** recuento como 1 para cada una.
 
-However, since the same person clicked on all the deliveries, the parent recurring delivery will also have **[!UICONTROL Unique open]** as 1.
+Sin embargo, como la misma persona hizo clic en todas las entregas, la entrega recurrente principal también tendrá **[!UICONTROL Unique open]** el valor 1.
 
-After the Adobe Campaign Standard 19.2.1 release, the definition of **Unique counts** is changed from **Number of unique persons interacting with the delivery** to **Number of unique messages interacted**.
+Después de la versión de Adobe Campaign Standard 19.2.1, la definición de recuentos **** únicos se cambia de **Número de personas únicas que interactúan con la entrega** a **Número de mensajes únicos interactuados**.
 
-Antes de la versión de Adobe Campaign Standard 19.2.1, los informes tenían el siguiente aspecto:
+Antes de la versión 19.2.1 de Adobe Campaign, los informes tenían el siguiente aspecto:
 
 <table> 
  <thead> 
   <tr> 
    <th align="center"> <strong>Entrega</strong><br /> </th> 
    <th align="center"> <strong>Enviado</strong><br /> </th> 
-   <th align="center"> <strong>Entregado</strong><br /> </th>
-   <th align="center"> <strong>Aperturas</strong><br /> </th> 
-   <th align="center"> <strong>Aperturas únicas</strong><br /> </th>
+   <th align="center"> <strong>Enviado</strong><br /> </th>
+   <th align="center"> <strong>Abre</strong><br /> </th> 
+   <th align="center"> <strong>Aperturas</strong> únicas <br /> </th>
   </tr> 
  </thead> 
  <tbody> 
@@ -159,16 +159,16 @@ Antes de la versión de Adobe Campaign Standard 19.2.1, los informes tenían el 
  </tbody> 
 </table>
 
-Después de la versión Adobe Campaign Standard 19.2.1, los informes tienen el siguiente aspecto:
+Tras la versión 19.2.1 de Adobe Campaign Standard, los informes tienen el siguiente aspecto:
 
 <table> 
  <thead> 
   <tr> 
    <th align="center"> <strong>Entrega</strong><br /> </th> 
    <th align="center"> <strong>Enviado</strong><br /> </th> 
-   <th align="center"> <strong>Entregado</strong><br /> </th>
-   <th align="center"> <strong>Aperturas</strong><br /> </th> 
-   <th align="center"> <strong>Aperturas únicas</strong><br /> </th>
+   <th align="center"> <strong>Enviado</strong><br /> </th>
+   <th align="center"> <strong>Abre</strong><br /> </th> 
+   <th align="center"> <strong>Aperturas</strong> únicas <br /> </th>
   </tr> 
  </thead> 
  <tbody> 
@@ -203,16 +203,26 @@ Después de la versión Adobe Campaign Standard 19.2.1, los informes tienen el s
  </tbody> 
 </table>
 
-## What is the colors' signification in my reports' table? {#reports-color-signification}
+## ¿Cuál es la significación de los colores en la tabla de los informes? {#reports-color-signification}
 
-Los colores mostrados en los informes se muestran aleatoriamente y no pueden personalizarse. Representan una barra de progreso y se muestran para ayudarle a resaltar mejor el valor máximo alcanzado en los informes.
+Los colores mostrados en los informes son aleatorios y no se pueden personalizar. Representan una barra de progreso y se muestran para ayudarle a resaltar mejor el valor máximo alcanzado en los informes.
 
-En el ejemplo siguiente, la celda es del mismo color, ya que su valor es 100%.
+En el ejemplo siguiente, la celda tiene el mismo color, ya que su valor es 100%.
 
 ![](assets/troubleshooting_1.png)
 
-If you change the **Conditional formatting** to custom, when the value reaches the upper limit the cell will get greener. En cambio, si alcanza el límite inferior, se obtendrá un rojizo.
+Si cambia el **[!UICONTROL Conditional formatting]** a personalizado, cuando el valor alcance el límite superior, la celda se volverá más verde. Mientras que, si alcanza el límite inferior, se enrojecerá.
 
-For example, here, we set the **Upper limit** to 500 and **Lower limit** to 0.
+Por ejemplo: aquí, configuramos el **[!UICONTROL Upper limit]** en 500 y el **[!UICONTROL Lower limit**] en 0.
 
 ![](assets/troubleshooting_2.png)
+
+## ¿Por qué aparece el valor N/D en mis informes?
+
+![](assets/troubleshooting_3.png)
+
+El valor **N/D** puede aparecer a veces en los informes dinámicos. Esto se puede mostrar por dos motivos:
+
+* El envío se ha eliminado y se muestra aquí como **N/D** para no causar discrepancias en los resultados.
+* Al arrastrar y soltar la **[!UICONTROL Transactional Delivery]** dimensión en los informes, el valor **N/D** podría aparecer como resultado. Esto sucede porque los informes dinámicos recuperan cada entrega aunque no sean transaccionales.
+Esto también puede suceder cuando arrastra y suelta la **[!UICONTROL Delivery]** dimensión en el informe, pero en este caso, el valor **N/D** representará entregas transaccionales.
