@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 57a0d20697461fb87b61c38dfd1779fadd565888
+source-git-commit: 6650d44a79b9f31d860ed60e3683bc7c4da0c020
 
 ---
 
@@ -26,6 +26,24 @@ Obtenga información sobre las últimas actualizaciones de la documentación de 
 Esta página enumera todas las nuevas funciones y actualizaciones de documentación de cada versión de Adobe Campaign Standard.
 
 También puede consultar las Notas de la [versión](../../rn/using/release-notes.md)de Adobe Campaign.
+
+## Versión 19.4: octubre de 2019 {#release-19-4---october-2019}
+
+### Nuevas funciones incluidas en la versión {#new-capabilities-included-in-the-release-20}
+
+California Consumer Privacy Act (CCPA) - [Más información](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa)
+
+Integración de Microsoft Dynamics 365 (GA): [Más información](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+
+### Otras actualizaciones de la documentación incluidas en la versión {#other-documentation-updates-coming-with-the-release-18}
+
+Se ha actualizado la lista de mensajes de error para Campaign Standard y Classic. [Más información](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+
+La guía de introducción al RGPD se ha mejorado y enriquecido. Ahora es una documentación de administración de privacidad que incluye el RGPD y la CCPA. [Más información](https://helpx-internal.corp.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
+
+Se ha añadido un nuevo gráfico que presenta el proceso de publicación de mensajes transaccionales. [Más información](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
+
+Se ha actualizado la guía de introducción a las optimizaciones de entrega. [Más información](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
 ## Actualizaciones de documentación - Octubre de 2019 {#doc-updates-october-2019}
 
