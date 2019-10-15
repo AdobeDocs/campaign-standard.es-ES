@@ -15,7 +15,7 @@ context-tags: entrega,inAppContent,retroceso
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 6d74d310f69b8800a635c6ac71de66c51fd64f2d
 
 ---
 
@@ -35,6 +35,7 @@ El editor de contenido en la aplicación permite elegir entre dos modos de mensa
 
 * [Envío de un mensaje en la aplicación](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message)
 * [Informes en la aplicación](../../reporting/using/in-app-report.md)
+* [Implementación del seguimiento de notificaciones locales](https://helpx.adobe.com/campaign/kb/local-notification-tracking.html)
 
 ## Personalización con una plantilla de mensaje {#customizing-with-a-message-template}
 
@@ -98,7 +99,7 @@ Si es necesario, también puede añadir un título y contenido de mensaje al men
 
 1. Escriba el contenido del mensaje y agregue los campos de personalización si es necesario.
 
-   Para obtener más información sobre el campo de personalización, consulte esta [sección](../../designing/using/personalization.md#inserting-a-personalization-field).
+   For more information on personalization field, refer to this [section](../../designing/using/personalization.md#inserting-a-personalization-field).
 
    ![](assets/inapp_customize_10.png)
 
@@ -140,6 +141,7 @@ Puede agregar hasta dos botones al mensaje en la aplicación.
 ## Personalización de un tipo de mensaje de notificación local {#customizing-a-local-notification-message-type}
 
 Las notificaciones locales solo se pueden activar mediante una aplicación en un momento determinado y en función de un evento. Alertarán a los usuarios de que algo está pasando en su aplicación incluso sin tener acceso a Internet.
+Para obtener información sobre cómo rastrear las notificaciones locales, consulte esta [página](https://helpx.adobe.com/campaign/kb/local-notification-tracking.html).
 
 Para personalizar una notificación local:
 
@@ -190,11 +192,11 @@ Una vez importado el HTML, puede encontrar una vista previa del archivo en difer
 
 Antes de enviar un mensaje en la aplicación, puede realizar pruebas con sus perfiles de prueba para comprobar qué verá la audiencia objetivo cuando reciba la entrega.
 
-1. Haga clic en el **[!UICONTROL Preview]** botón.
+1. Click the **[!UICONTROL Preview]** button.
 
    ![](assets/inapp_sending_2.png)
 
-1. Haga clic en el **[!UICONTROL Select a test profile]** botón y seleccione uno de los perfiles de prueba para empezar a previsualizar la entrega. Para obtener más información sobre los perfiles de prueba, consulte esta [sección](../../sending/using/managing-test-profiles-and-sending-proofs.md).
+1. Haga clic en el **[!UICONTROL Select a test profile]** botón y seleccione uno de los perfiles de prueba para empezar a previsualizar la entrega. For more information on test profiles, refer to this [section](../../sending/using/managing-test-profiles-and-sending-proofs.md).
 1. Compruebe el mensaje en distintos dispositivos, como Android, iPhone o incluso tablets. También puede comprobar si los campos de personalización están recuperando los datos correctos.
 
    ![](assets/inapp_sending_3.png)
