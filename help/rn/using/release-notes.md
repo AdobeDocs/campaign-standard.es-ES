@@ -14,7 +14,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1ffc4d5ab10cc2210b6d47466e556a1dcf9c722
+source-git-commit: b43f43f300f14c9abe1cc471a74586e19841b6e1
 
 ---
 
@@ -49,8 +49,7 @@ Recursos adicionales:
    <p>Además de las funciones de privacidad ya disponibles en Adobe Campaign (incluida la administración de consentimiento, la configuración de retención de datos y las funciones de usuario), aprovechamos esta oportunidad para incluir funciones adicionales que le ayudarán a facilitar su preparación para el CCPA:</p>
    <ul>
     <li>Derecho de acceso y derecho de eliminación: estamos aprovechando las capacidades agregadas para el RGPD. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">Más información</a> </li>
-    <li><p>Al crear una solicitud de privacidad, ahora puede seleccionar el tipo de regulación: RGPD o CCPA.<p>
-      <p><strong>Nota</strong>: este nuevo campo es obligatorio. Si utiliza la API de privacidad de campaña para sus solicitudes de acceso y eliminación, deberá incluirla en la carga útil. Consulte la documentación <a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#privacy-management">de API</a>.</p></li>
+    <li><p>Al crear una solicitud de privacidad, se ha agregado el tipo de regulación (GDPR o CCPA) en el servicio principal de privacidad. Este método es el que debe utilizar para todas las solicitudes de acceso y eliminación. El uso de la API de campaña y la interfaz para acceder y eliminar solicitudes está en desuso. Sin embargo, si todavía necesita usar estos métodos en 19.4, tenga en cuenta que el tipo de regulación se ha agregado en la interfaz de Campaign y la API y es obligatorio. Para la interfaz, el valor predeterminado se establecerá en GDPR. Para la API, deberá incluir este campo en la carga útil. Consulte la documentación <a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#privacy-management">de API</a>.</p></li>
     <li>Se ha agregado un campo de exclusión <strong>de</strong> CCPA al recurso Perfiles para permitir a los usuarios de Adobe Campaign realizar un seguimiento de si un cliente ha optado por la venta de información personal. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa">Más información</a>.</li>
   </ul>
 </td> 
