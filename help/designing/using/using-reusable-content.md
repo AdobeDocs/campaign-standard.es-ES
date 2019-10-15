@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
+source-git-commit: 7d044652c58c3fc66dac64f9d080852dbe29044d
 
 ---
 
@@ -36,7 +36,7 @@ Puede administrar el contenido HTML que se ofrecerá en la **[!UICONTROL Templat
 
 Para obtener información sobre cómo generar un correo electrónico a partir de una plantilla lista para usar, consulte Diseñador de [correo electrónico](../../designing/using/quick-start.md#building-content-from-an-out-of-the-box-template).
 
-### Creación de una plantilla de contenido {#creating-a-content-template}
+### Creating a content template {#creating-a-content-template}
 
 Puede crear sus propias plantillas de contenido para utilizarlas tantas veces como sea necesario.
 
@@ -199,9 +199,12 @@ Puede crear sus propios fragmentos de contenido para utilizarlos según sea nece
 1. Cierre la **[!UICONTROL Properties]** ficha para volver al espacio de trabajo principal.
 1. Agregue componentes de estructura y componentes de contenido que puede personalizar según sea necesario.
 
-   >[!NOTE]
+   >[!CAUTION]
    >
    >Los fragmentos no pueden incluir campos de personalización, contenido dinámico u otro fragmento.
+   >
+   >Evite guardar como contenido de fragmento con componentes de estructura vacíos. Una vez insertado el fragmento &gt;, no se podrán editar.
+   >
    >La vista [](../../designing/using/styles.md#switching-to-mobile-view) móvil no está disponible en fragmentos.
 
 1. Una vez editado, guarde el fragmento.
@@ -270,7 +273,7 @@ To save as a fragment some email content that you created, follow the steps belo
 
 Mediante el Diseñador de correo electrónico, cree un fragmento para cada sección reutilizable. En este ejemplo, creará dos fragmentos: una para el encabezado y otra para el pie de página. A continuación, puede copiar las partes relevantes del contenido existente en estos fragmentos.
 
-Para ello, siga los pasos a continuación:
+Para realizar esto, siga los pasos a continuación:
 
 1. En Adobe Campaign, vaya a **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]** y cree un fragmento para el encabezado. Para obtener más información sobre esto, consulte [Creación de un fragmento](../../designing/using/using-reusable-content.md#creating-a-content-fragment)de contenido.
 1. Agregue al fragmento tantos componentes de estructura como necesite.
