@@ -14,7 +14,7 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4d3f2efb118e07247caa15ef7edaa67657d164ea
+source-git-commit: 7df9d0d4a3cb801619d703857fb71f2ee9ccb435
 
 ---
 
@@ -82,14 +82,14 @@ La siguiente tabla muestra lo que sucede después de aceptar este acuerdo según
 |  | Informes dinámicos | Conector de Microsoft Dynamics 365 |
 |---|---|---|
 | América y APAC (Asia Pacífico) | **Función disponible**. <br>Toda la información lista para usar (por ejemplo, ciudad, país o región, estado, género y segmentos según la edad) y la información de perfiles personalizados ingresaron al centro de informes de EE.UU. For more information on profile dimensions, refer to this [page](../../reporting/using/list-of-components-.md) | **Función disponible**. <br>Todos los campos de perfiles predeterminados y personalizados y los campos de eventos de Adobe Campaign Standard se procesan en el centro de datos de EE. UU. |
-| EMEA (Europa, Oriente Medio y África) | **Función disponible**. <br>Toda la información lista para usar (por ejemplo, ciudad, país o región, estado, sexo y segmentos según la edad) y la información de perfiles personalizados se incorporaron al centro de informes de EMEA. For more information on profile dimensions, refer to this [page](../../reporting/using/list-of-components-.md) | **Función disponible.** <br>Todos los campos de perfiles predeterminados y personalizados y los campos de eventos de Adobe Campaign Standard se procesan en el centro de datos de EMEA. **[!UICONTROL Control data]** que contiene los datos de registro de E/S de Adobe y los ID de eventos de usuario final del cliente enviados y almacenados en el centro de datos de EE. UU. |
+| EMEA (Europa, Oriente Medio y África) | **Función disponible**. <br>Toda la información lista para usar (por ejemplo, ciudad, país o región, estado, sexo y segmentos según la edad) y la información de perfiles personalizados se incorporaron al centro de informes de EMEA. For more information on profile dimensions, refer to this [page](../../reporting/using/list-of-components-.md) | **Función disponible.** <br>Todos los campos de perfiles predeterminados y personalizados y los campos de eventos de Adobe Campaign Standard se procesan en el centro de datos de EMEA. <br>**[!UICONTROL Control data]** que contiene los datos de registro de E/S de Adobe y los ID de eventos de usuario final del cliente enviados y almacenados en el centro de datos de EE. UU. |
 
 La siguiente tabla muestra lo que sucede después de rechazar este acuerdo en función de su región. Tenga en cuenta que, aunque rechace este acuerdo, los informes de entregas y la integración con Microsoft Dynamics 365 seguirán estando disponibles.
 
 | Región | Informes dinámicos | Conector de Microsoft Dynamics 365 |
 |---|---|---|
 | América y APAC (Asia Pacífico) | **Función disponible**. <br> No se insertó información de perfiles personalizados ni lista para usar en el centro de informes de EE. UU., excepto ExternalID. | **Función disponible**. <br>No se han enviado al centro de datos de EE. UU. campos de perfil predeterminados o personalizados, a excepción de ID externa e ID de destinatario. <br>Todos los campos de eventos de Adobe Campaign Standard procesados en el centro de datos de EE. UU., excepto el código de segmento y el ID de página de reflejo. |
-| EMEA (Europa, Oriente Medio y África) | **Función disponible**. <br>No se insertó información de perfiles personalizados ni lista para usar en el centro de informes de EMEA, con excepción de ExternalID. | **Función disponible.** <br>No se han enviado al centro de datos de EMEA campos de perfil predeterminados o personalizados con excepción de ID externa e ID de destinatario. <br>Todos los campos de eventos de Adobe Campaign Standard procesados en el centro de datos de EMEA, a excepción del código de segmento y el ID de página de reflejo. |
+| EMEA (Europa, Oriente Medio y África) | **Función disponible**. <br>No se insertó información de perfiles personalizados ni lista para usar en el centro de informes de EMEA, con excepción de ExternalID. | **Función disponible.** <br>No se han enviado al centro de datos de EMEA campos de perfil predeterminados o personalizados con excepción de ID externa e ID de destinatario. <br>Todos los campos de eventos de Adobe Campaign Standard procesados en el centro de datos de EMEA, a excepción del código de segmento y el ID de página de reflejo.  <br>**[!UICONTROL Control data]** que contiene los datos de registro de E/S de Adobe y los ID de eventos de usuario final del cliente enviados y almacenados en el centro de datos de EE. UU. |
 
 Esta opción no es definitiva, siempre puede cambiarla seleccionando **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** en **[!UICONTROL Administration]** &gt; **[!UICONTROL Application Settings]** &gt; **[!UICONTROL Options]**.
 
