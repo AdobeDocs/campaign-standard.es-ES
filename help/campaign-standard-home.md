@@ -5,7 +5,7 @@ solution: Campaign Standard
 title: Documentación del producto de Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 091f3176bcf063aaf908967ee36579d43638b644
+source-git-commit: 6912ca6dbf985518009b3e119f86298db52b6f5f
 
 ---
 
@@ -16,13 +16,13 @@ source-git-commit: 091f3176bcf063aaf908967ee36579d43638b644
 
 ## Novedades
 
-* **[Diseñador](channels/using/event-transactional-messages.md)**<br/>de correo electrónico Utilice el diseñador de correo electrónico en los mensajes transaccionales.
+* **[Administración](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>de privacidad Obtenga información sobre las herramientas proporcionadas por Adobe Campaign para ayudarle a cumplir con la privacidad.
 
-* **[Segmentos](reporting/using/creating-a-report-workflow-segment.md)**<br/>de flujo de trabajo Cree un informe basado en segmentos de flujo de trabajo.
+* **[Prácticas recomendadas de entrega](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>Obtenga más información sobre las prácticas recomendadas relacionadas con el diseño y el envío de envíos.
 
-* **[Nuevos casos](automating/using/workflow-created-query-with-complement.md)**<br/>de uso del flujo de trabajoLea nuestros casos de uso de consultas del flujo de trabajo.
+* **[Diseñador](designing/using/designing-content-in-adobe-campaign.md)**<br/>de correo electrónico Consulte la documentación del diseñador de correo electrónico reorganizada.
 
-* **[Cargar actividad](automating/using/load-file.md)**<br/>de archivoUtilice la actividad Cargar archivo para enviar un correo electrónico con datos adicionales.
+* **[Páginas](channels/using/main-steps-to-set-up-a-landing-page.md)**<br/>de aterrizaje Obtenga más información sobre cómo configurar una página de aterrizaje.
 
 [Haga clic aquí para obtener más actualizaciones](rn/using/documentation-updates.md)
 
