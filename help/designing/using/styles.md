@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f76e88798c1c570b02442aec316a3f24e3615a4a
+source-git-commit: 45916918fc9e8008d4eb583a9c92886672c04b71
 
 ---
 
@@ -176,6 +176,10 @@ Desea ajustar el margen y la alineación vertical dentro de un componente de est
 1. Guarde los cambios.
 
 ### Acerca del estilo de los vínculos {#about-styling-links}
+
+>[!NOTE]
+>
+>Esta función estará disponible a partir de la versión 19.4 de Campaign Standard.
 
 Puede subrayar un vínculo y seleccionar su color y destino en el Diseñador de correo electrónico.
 
