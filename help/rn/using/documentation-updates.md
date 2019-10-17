@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6650d44a79b9f31d860ed60e3683bc7c4da0c020
+source-git-commit: 0e6f85047179572131739659b8175f82c8a5f40e
 
 ---
 
@@ -44,6 +44,8 @@ La guía de introducción al RGPD se ha mejorado y enriquecido. Ahora es una doc
 Se ha añadido un nuevo gráfico que presenta el proceso de publicación de mensajes transaccionales. [Más información](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
 
 Se ha actualizado la guía de introducción a las optimizaciones de entrega. [Más información](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+
+Se ha añadido una nueva sección. Proporciona información general sobre los diferentes métodos que permiten enriquecer la base de datos de Campaign Standard. [Más información](../../start/using/enriching-campaign-database.md)
 
 ## Actualizaciones de documentación - Octubre de 2019 {#doc-updates-october-2019}
 
