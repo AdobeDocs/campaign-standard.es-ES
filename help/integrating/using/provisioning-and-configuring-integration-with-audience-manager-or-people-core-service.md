@@ -14,7 +14,7 @@ discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f54c92b92524e2966aa8c1c8497c8a7dff1bcf9
+source-git-commit: 90bb41ae78fe6fbcca0bd359c169adde4efd4b1b
 
 ---
 
@@ -41,7 +41,8 @@ Esta integración debe configurarse primero. Para solicitar el aprovisionamiento
   </tr> 
   <tr> 
    <td> <strong>ID de organización IMS</strong><br /> </td> 
-   <td> Su ID de organización de IMS. <br> Puede encontrar su ID de organización de IMS en Experience Cloud, en el menú **Administración**. También se proporciona al conectarse
+   <td> Su ID de organización de IMS. <br> Puede encontrar la ID de la organización IMS en Experience Cloud, en el menú
+        Administration. También se proporciona al conectarse
       por primera vez a Adobe Experience Cloud. </td> 
   </tr> 
   <tr> 
