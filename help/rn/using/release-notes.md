@@ -14,7 +14,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 03fe22d7a209bb65b13149c04bd9ab4a432e6a5b
+source-git-commit: 819f312b485494b87aec88952d23d933d43d5019
 
 ---
 
@@ -45,7 +45,7 @@ Recursos adicionales:
  <tbody> 
   <tr> 
    <td> California Consumer Privacy Act (CCPA)<br /> </td> 
-   <td> <p>CCPA es la nueva ley de privacidad del estado de California que armoniza y moderniza los requerimientos de protección de datos que entrarán en vigencia el 1 de enero de 2020. CCPA se aplica a los clientes de Adobe Campaign que tienen datos para los sujetos de datos que residen en California.</p>
+   <td> <p>CCPA es la nueva ley de privacidad del Estado de California que armoniza y moderniza los requerimientos de protección de datos que entrarán en vigencia el 1 de enero de 2020. CCPA se aplica a los clientes de Adobe Campaign que tienen datos para los sujetos de datos que residen en California.</p>
    <p>Además de las funciones de privacidad ya disponibles en Adobe Campaign (incluida la administración de consentimiento, la configuración de retención de datos y las funciones de usuario), aprovechamos esta oportunidad para incluir funciones adicionales que le ayudarán a facilitar su preparación para el CCPA:</p>
    <ul>
     <li>Derecho de acceso y derecho de eliminación: estamos aprovechando las capacidades agregadas para el RGPD. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">Más información</a> </li>
