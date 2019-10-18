@@ -14,7 +14,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: dec43f3646a775fb16c3751635087666fc3969fb
+source-git-commit: 8b4cf35fcbdee436ce3f9fa4aeb1b1fdd8609f50
 
 ---
 
@@ -56,7 +56,7 @@ Para obtener más información sobre las páginas de aterrizaje, consulte la doc
 ## Sincronización de perfiles de Microsoft Dynamics 365
 
 La integración de Campaign Standard con Microsoft Dynamics 365 le permite pasar datos de contacto de Microsoft Dynamics 365 a la base de datos de Campaign.
-Estos contactos están visibles en la lista Perfiles y se pueden dirigir a las campañas de marketing.
+Estos contactos están visibles en la **[!UICONTROL Profiles]** lista y se pueden dirigir a campañas de marketing.
 
 For more on this integration, refer to the [dedicated documentation](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html).
 
