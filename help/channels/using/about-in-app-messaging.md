@@ -3,52 +3,45 @@ title: Acerca de la mensajería en la aplicación
 seo-title: Acerca de la mensajería en la aplicación
 description: Acerca de la mensajería en la aplicación
 seo-description: Mostrar mensaje o alerta dentro de la aplicación móvil con mensajería en la aplicación.
-page-status-flag: no activado nunca
-uuid: 6784 cdfc -6 db 9-41 dd -9 fbb -2 e 756 a 5 bcb 5 f
+page-status-flag: nunca activado
+uuid: 6784cdfc-6db9-41dd-9fbb-2e756a5bcb5f
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: canales
-content-type: reference
+content-type: referencia
 topic-tags: mensajería en la aplicación
-discoiquuid: a 4168 cfb -22 bf -4 ab 3-b 9 d 8-6 e 76 e 1 bdc 055
-context-tags: entrega, activadores, atrás
+discoiquuid: a4168cfb-22bf-4ab3-b9d8-6e76e1bdc055
+context-tags: entrega,activadores,devolución
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 74f037ba618639ab61edfb8311adeb44a7a99ebd
+source-git-commit: 96001355220a9dd0cd3851d3f7de9f4dc8ea2782
 
 ---
 
 
-# About In-App messaging{#about-in-app-messaging}
+# Acerca de la mensajería en la aplicación{#about-in-app-messaging}
 
-La mensajería en la aplicación es un canal de mensajes que permite mostrar un mensaje cuando el usuario está activo dentro de la aplicación móvil. Este tipo de mensaje es gratuito para las notificaciones push que se envían al centro de notificaciones del teléfono de los usuarios. For more information on the push notification channel, refer to this [section](../../channels/using/about-push-notifications.md).
+La mensajería en la aplicación es un canal de mensajería que permite mostrar un mensaje cuando el usuario está activo en la aplicación móvil. Este tipo de mensaje es gratuito para las notificaciones push que se envían al centro de notificaciones del teléfono de los usuarios. For more information on the push notification channel, refer to this [section](../../channels/using/about-push-notifications.md).
 
-Este canal requiere que las aplicaciones móviles se integren con el SDK de Adobe Experience Platform. Estas aplicaciones deben activarse en Adobe Experience Platform Launch antes de estar disponibles en Adobe Campaign para los envíos desde la propia aplicación.
+Este canal requiere que las aplicaciones móviles se integren con el SDK de la plataforma Adobe Experience. Estas aplicaciones deben activarse en Adobe Experience Platform Launch antes de estar disponibles en Adobe Campaign para envíos en la aplicación.
 
 ![](assets/launch_campaign.png)
 
-Para empezar a enviar mensajes en la aplicación en aplicaciones móviles aprovechando el SDK de Experience Platform, debe cumplir los requisitos previos siguientes:
+Para empezar a enviar mensajes en la aplicación en aplicaciones móviles que utilicen el SDK de la plataforma de experiencia, debe cumplir los siguientes requisitos previos:
 
-1. In Adobe Campaign, make sure you can access the **[!UICONTROL In-App]** channel. Si no puede acceder a estos canales, póngase en contacto con el equipo de su cuenta.
-1. En Launch Platform Launch, cree la aplicación móvil creando una propiedad móvil e instrumentando su aplicación móvil con el SDK de la plataforma de Experience Platform.
+1. En Adobe Campaign, asegúrese de tener acceso al **[!UICONTROL In-App]** canal. Si no puede acceder a estos canales, póngase en contacto con el equipo de cuentas.
 
-   For more information, refer to the [Set up a mobile property](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property) section in Adobe Launch documentation.
+1. Para aprovechar los casos de uso móvil en Adobe Campaign Standard con una aplicación de SDK de Experience Cloud, se debe crear una aplicación móvil en Adobe Experience Platform Launch y configurarla en Adobe Campaign Standard. Para obtener la guía paso a paso, consulte esta [página](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
-1. In Experience Platform Launch, install the **[!UICONTROL Adobe Campaign Standard]** extension for your mobile application in Experience Platform Launch:
+1. Una vez configurado, ahora puede preparar el mensaje en la aplicación. Para obtener más información, consulte [esta página](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message).
 
-   For more on extensions, refer to the [Configure Campaign Standard Extension in Experience Platform Launch](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) in Experience Platform Launch documentation.
+1. A continuación, puede decidir enviar un mensaje [](../../channels/using/customizing-an-in-app-message.md) en la aplicación o [personalizar un tipo](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)de mensaje de notificación local.
 
-1. In Experience Platform Launch, configure rules and data elements for your application, see [Configuring your application in Experience Platform Launch](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements)
-
-1. Configure your Experience Platform Launch application in Adobe Campaign Standard, see [Setting up your Experience Platform Launch application in Adobe Campaign](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#SettingupyourAdobeLaunchapplicationinAdobeCampaign) .
-
-To learn how to configure Experience Platform SDKs, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+1. La entrega ya está lista para enviarse. Para obtener más información, consulte esta [página](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message).
 
 **Contenido relacionado:**
 
-* [Preparación y envío de un mensaje en la aplicación](../../channels/using/preparing-and-sending-an-in-app-message.md)
-* [Personalización de un mensaje en la aplicación](../../channels/using/customizing-an-in-app-message.md)
-* [Personalización de un tipo de mensaje de notificación local](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
-* [Envío de un mensaje en la aplicación dentro de un flujo de trabajo](../../automating/using/in-app-delivery.md)
-* [Preguntas más frecuentes sobre Push y en la aplicación](https://helpx.adobe.com/campaign/kb/push_inapp_faq.html)
+* [Informe en la aplicación](../../reporting/using/in-app-report.md)
+* [Preguntas más frecuentes sobre push y en la aplicación](https://helpx.adobe.com/campaign/kb/push_inapp_faq.html)
+* [Casos de uso móvil admitidos en Adobe Campaign Standard](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html)
