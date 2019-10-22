@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
+source-git-commit: c43a258734f3344fad8c9cbd5bd5774d7f37b4f6
 
 ---
 
@@ -31,11 +31,11 @@ Los siguientes tipos de imágenes están disponibles según la configuración:
 * Imágenes compartidas desde Adobe Experience Cloud: consulte [Uso de Campaign y los recursos del servicio](../../integrating/using/working-with-campaign-and-assets-core-service.md) principal / Recursos On Demand
 * Imágenes dinámicas de Adobe Target: consulte [Uso de Campaign y Target](../../integrating/using/about-campaign-target-integration.md)
 
-Si está activada, puede modificar imágenes con el SDK de Adobe Creative. Consulte [Modificación de imágenes con el SDK](../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk)de Adobe Creative.
+Si está activada, puede modificar imágenes con el SDK de Adobe Creative. Consulte [Modificación de imágenes con el SDK](images.md#modifying-images-with-the-adobe-creative-sdk)de Adobe Creative.
 
 >[!CAUTION]
 >
->Si decide agregar una imagen directamente editando la versión HTML del correo electrónico, no debe llamar a los archivos **externos en una etiqueta** &lt;script&gt; de la página HTML. Estos archivos no se importarán en el servidor de Adobe Campaign.
+>Si decide agregar una imagen directamente editando la versión HTML del correo electrónico, no debe llamar a los archivos **externos en una etiqueta** &lt;script&gt; de la página HTML. Estos archivos no se importan en el servidor de Adobe Campaign.
 
 ### Inserción de imágenes en un correo electrónico {#inserting-images-in-an-email}
 
