@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
+source-git-commit: 8f63c039231a7028825981098e6f97eb3ebca67e
 
 ---
 
@@ -26,12 +26,12 @@ Puede crear un mensaje de correo electrónico que comience de nuevo:
 
 * Puede crear un correo electrónico a partir de un lienzo en blanco agregando fácilmente componentes de estructura y contenido y personalizando su contenido para enviar una entrega rápidamente. También puede administrar completamente los elementos de estilo. Para obtener más información, [comience rápidamente](../../designing/using/quick-start.md#from-scratch-email) o consulte la documentación [](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)completa.
 
-* Puede crear un mensaje de correo electrónico a partir de plantillas integradas seleccionando una plantilla y generando su nuevo contenido de correo electrónico desde aquí. [Más información](../../designing/using/quick-start.md#building-content-from-an-out-of-the-box-template)
+* Puede crear un mensaje de correo electrónico a partir de plantillas integradas seleccionando una plantilla y generando su nuevo contenido de correo electrónico desde aquí. [Más información](quick-start.md#building-content-from-an-out-of-the-box-template)
 
 También puede crear un correo electrónico con contenido existente:
 
-* Puede convertir un contenido HTML existente (creado externamente o en el editor heredado). [Más información](../../designing/using/quick-start.md#converting-an-html-content)
-* Puede importar de inmediato un contenido HTML existente en modo de compatibilidad. [Más información](../../designing/using/quick-start.md#compatibility-mode)
+* Puede convertir un contenido HTML existente (creado externamente o en el editor heredado). [Más información](quick-start.md#converting-an-html-content)
+* Puede importar de inmediato un contenido HTML existente en modo de compatibilidad. [Más información](quick-start.md#compatibility-mode)
 
 ## Sin contenido existente {#without-existing-content}
 
@@ -87,7 +87,7 @@ Puede agregar varios componentes de contenido al correo electrónico, como imág
 1. En Componentes **** de contenido, arrastre y suelte HTML en uno de los componentes de estructura.
 1. Haga clic en **Mostrar el código** fuente.
 1. Escriba el contenido HTML.
-1. Haga clic en **Guardar**.
+1. Haga clic en **Save**.
 
 ![](assets/html-component-source-code.png)
 
@@ -103,7 +103,7 @@ Puede ajustar el estilo del correo electrónico, por ejemplo, cambiando el relle
 1. A la derecha, en la paleta, vaya a **Relleno**.
 1. Haga clic en el icono de bloqueo para romper la sincronización entre los parámetros superior e inferior o derecho e izquierdo.
 1. Ajuste el **relleno** según sea necesario.
-1. Haga clic en **Guardar**.
+1. Haga clic en **Save**.
 
 ![](assets/padding-quick-start.png)
 
@@ -173,11 +173,11 @@ Una vez identificados todos los bloques, en el Diseñador de correo electrónico
 1. Agregue un componente de estructura. Para obtener más información sobre esto, consulte [Edición de la estructura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)de correo electrónico.
 1. Agregue un componente HTML. Para obtener más información sobre esto, consulte [Adición de fragmentos y componentes](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Copie y pegue el HTML en ese componente.
-1. Cambie a la vista móvil. Para obtener más información sobre esto, consulte [esta sección](../../designing/using/styles.md#switching-to-mobile-view).
+1. Cambie a la vista móvil. For more on this, see [this section](../../designing/using/styles.md#switching-to-mobile-view).
 
    La vista interactiva está dañada, ya que falta la CSS.
 
-1. Para solucionarlo, cambie al modo de código fuente y copie y pegue la sección de estilo en una nueva sección de estilo.  Por ejemplo:
+1. Para solucionarlo, cambie al modo de código fuente y copie y pegue la sección de estilo en una nueva sección de estilo. Por ejemplo:
 
    ```
    <style type="text/css">
