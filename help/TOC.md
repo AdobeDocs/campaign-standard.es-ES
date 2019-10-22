@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: usuario final
 user-guide-title: Ayuda de Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 9291786739a8b2e5823abe32e5b2ad21603f7b88
+source-git-commit: 5b5784d6c80e96e3303bbb372e171889bbb29f99
 
 ---
 
@@ -137,7 +137,7 @@ source-git-commit: 9291786739a8b2e5823abe32e5b2ad21603f7b88
       + [Administración de perfiles de prueba y envío de pruebas](sending/using/managing-test-profiles-and-sending-proofs.md)
       + [Prueba de la línea de asunto de un correo electrónico](sending/using/testing-subject-line-email.md)
       + [Procesamiento de correo electrónico](sending/using/email-rendering.md)
-   + Programación de mensajes {#sheduling-messages}
+   + Programación de mensajes {#scheduling-messages}
       + [Acerca de la programación de mensajes](sending/using/about-scheduling-messages.md)
       + [Optimización del tiempo de envío](sending/using/optimizing-the-sending-time.md)
       + [Envío de mensajes en el huso horario del destinatario](sending/using/sending-messages-at-the-recipient-s-time-zone.md)
