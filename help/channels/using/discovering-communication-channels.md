@@ -1,44 +1,44 @@
 ---
-title: Detección de canales de comunicación
-seo-title: Detección de canales de comunicación
-description: Detección de canales de comunicación
-seo-description: Aprenda a enviar mensajes personalizados en varios canales y a crear campañas multicanal para dirigir mejor a los destinatarios.
-page-status-flag: no activado nunca
-uuid: 5 d 61 d 8 df -8256-4 f 28-8 dd 3-e 791891 e 312 f
+title: Descubrimiento de canales de comunicación
+seo-title: Descubrimiento de canales de comunicación
+description: Descubrimiento de canales de comunicación
+seo-description: Obtenga información sobre cómo enviar mensajes personalizados en varios canales y crear campañas entre canales para dirigirse mejor a los destinatarios.
+page-status-flag: nunca activado
+uuid: 5d61d8df-8256-4f28-8dd3-e791891e312f
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: canales
-content-type: reference
-topic-tags: about-communication-channels
-discoiquuid: 5214 becf -005 b -42 ac -97 d 2-2 bce 5 ba 2 ecb 5
+content-type: referencia
+topic-tags: about-Communication-channels
+discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 96001355220a9dd0cd3851d3f7de9f4dc8ea2782
 
 ---
 
 
-# Discovering communication channels{#discovering-communication-channels}
+# Descubrimiento de canales de comunicación{#discovering-communication-channels}
 
-Adobe Campaign permite crear y enviar mensajes personalizados en varios canales y medir su eficacia a través de informes dedicados.
+Adobe Campaign permite crear y enviar mensajes personalizados en varios canales y medir su eficacia mediante informes dedicados.
 
-También permite crear campañas multicanal para dirigir mejor a los destinatarios.
+También le permite crear campañas multicanal para dirigirse mejor a los destinatarios.
 
 Hay cuatro canales de mensajería disponibles en Adobe Campaign:
 
-* Email, presented in the [Creating an email](../../channels/using/creating-an-email.md) section.
-* SMS, presented in the [Creating an SMS message](../../channels/using/creating-an-sms-message.md) section.
-* Push notification, presented in the [Creating a push notification](../../channels/using/preparing-and-sending-a-push-notification.md) section.
-* In-App messages, presented in the [Creating an In-App message](../../channels/using/about-in-app-messaging.md) section.
-* Direct mail, presented in the [Creating a direct mail delivery](../../channels/using/creating-the-direct-mail.md) section.
+* Correo electrónico, presentado en la sección [Creación de un correo electrónico](../../channels/using/about-emails.md) .
+* SMS, presentado en la sección [Creación de un mensaje](../../channels/using/about-sms-messages.md) SMS.
+* Notificación push, presentada en la sección [Creación de una notificación](../../channels/using/about-push-notifications.md) push.
+* Mensajes en la aplicación, presentados en la sección [Creación de un mensaje](../../channels/using/about-in-app-messaging.md) en la aplicación.
+* Correo directo, presentado en la sección [Creación de una entrega](../../channels/using/about-direct-mail.md) de correo directo.
 
-Todas las actividades de marketing se basan en una plantilla. Las plantillas se pueden utilizar para configurar propiedades usadas con frecuencia, permitiéndole ganar tiempo y coherencia en la estrategia de mensajes.
+Todas las actividades de marketing se basan en una plantilla. Las plantillas se pueden utilizar para configurar las propiedades utilizadas con frecuencia, lo que le permite ganar tiempo y coherencia en su estrategia de mensajería.
 
-El administrador funcional encargado de configurar las plantillas, puede definir, en el caso de una plantilla de correo electrónico:
+El administrador funcional encargado de configurar las plantillas puede definir, en el caso de una plantilla de correo electrónico:
 
 * Parámetros estándar de un correo electrónico, como la audiencia, la programación o el contenido.
-* Los parámetros avanzados relacionados con el envío, validez, seguimiento, etc.
+* Parámetros avanzados relacionados con el envío, la validez, el seguimiento, etc.
 * Parámetros de preconfiguración relativos a la segmentación y personalización (contexto de segmentación).
 
 **Temas relacionados**:
