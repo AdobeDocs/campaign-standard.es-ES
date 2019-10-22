@@ -2,57 +2,58 @@
 title: Acerca de los mensajes SMS
 seo-title: Acerca de los mensajes SMS
 description: Acerca de los mensajes SMS
-seo-description: Descubrir las principales especificidades del canal SMS en Adobe Campaign.
-page-status-flag: no activado nunca
-uuid: 14 dc 7434-8171-4 ad 1-9540-52 ca 637659 a 9
+seo-description: Descubra las principales características del canal SMS en Adobe Campaign.
+page-status-flag: nunca activado
+uuid: 14dc7434-8171-4ad1-9540-52ca637659a9
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: canales
-content-type: reference
+content-type: referencia
 topic-tags: sms-messages
-discoiquuid: 6134 fe 72-77 de -4 fd 0-b 794-4 d 966 effaccf
-delivercontext-tags: Deliverycreation, wizard; entrega, smscontent, back
+discoiquuid: 6134fe72-77de-4fd0-b794-4d966effaccf
+delivercontext-tags: deliveryCreation,asistente;delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b0cf437ec97153b53bd4502171b24286abb25731
+source-git-commit: 96001355220a9dd0cd3851d3f7de9f4dc8ea2782
 
 ---
 
 
-# About SMS messages{#about-sms-messages}
+# Acerca de los mensajes SMS{#about-sms-messages}
 
-Adobe Campaign permite enviar mensajes SMS (servicio de mensajes cortos).
+Adobe Campaign permite enviar mensajes SMS (Servicio de mensajes cortos).
 
 >[!NOTE]
 >
->SMS channel es un complemento. Verifique su contrato de licencia.
+>El canal SMS es un complemento. Compruebe el acuerdo de licencia.
 
-Para los mensajes SMS, puede crear, modificar y personalizar mensajes solo en formato de texto. También puede obtener una vista previa de los mensajes SMS antes de enviarlos.
+En los mensajes SMS, puede crear, modificar y personalizar mensajes solo de formato de texto. También puede obtener una previsualización de los mensajes SMS antes de enviarlos.
 
-La longitud de un mensaje SMS está restringida a 160 caracteres si se encuentra en codificación GSM y solo 70 caracteres si se encuentra en Unicode. Sin embargo, ciertos caracteres especiales pueden influir en la longitud del mensaje. For more on this, refer to the [SMS encoding](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) section.
+La longitud de un mensaje SMS está restringida a 160 caracteres si está en codificación GSM y sólo a 70 caracteres si está en Unicode. Sin embargo, algunos caracteres especiales pueden influir en la longitud del mensaje. For more on this, refer to the [SMS encoding](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) section.
 
-SMS messages can be created from the **[!UICONTROL Marketing activities]** menu, from a campaign, or in a workflow, see [Creating an SMS message](../../channels/using/creating-an-sms-message.md).
+Los mensajes SMS se pueden crear desde el **[!UICONTROL Marketing activities]** menú, desde una campaña o en un flujo de trabajo, consulte [Creación de un mensaje](../../channels/using/creating-an-sms-message.md)SMS.
 
-Para enviar mensajes SMS a un teléfono móvil que necesite:
+Para enviar mensajes SMS a un teléfono móvil necesitas:
 
-* A **[!UICONTROL Routing]** external account configured on the **[!UICONTROL Mobile (SMS)]** channel with the **[!UICONTROL Bulk delivery]** mode. For more on this, refer to the [Routing](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) section.
-* Una plantilla de envío que está correctamente vinculada a esta cuenta externa.
+* Cuenta **[!UICONTROL Routing]** externa configurada en el **[!UICONTROL Mobile (SMS)]** canal con el **[!UICONTROL Bulk delivery]** modo. For more on this, refer to the [Routing](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) section.
+* Una plantilla de entrega que está correctamente vinculada a esta cuenta externa.
 
 **Temas relacionados:**
 
 * [Administración de plantillas](../../start/using/about-templates.md)
-* [Configuración SMS](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)
+* [Configuración de SMS](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)
+* [Informe SMS](../../reporting/using/sms-report.md)
 
-## SMS delivery template {#sms-delivery-template}
+## Plantilla de envío SMS {#sms-delivery-template}
 
-Adobe Campaign ofrece una plantilla de envío para dispositivos móviles. This template must be correctly linked to the external account used for the **[!UICONTROL Mobile (SMS)]** channel. Para acceder y modificarla:
+Adobe Campaign ofrece una plantilla de entrega para dispositivos móviles. Esta plantilla debe estar correctamente vinculada a la cuenta externa utilizada para el **[!UICONTROL Mobile (SMS)]** canal. Para acceder y modificarlo:
 
-1. Select **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Delivery templates]** from the advanced menu.
-1. Hover over the **[!UICONTROL Send via SMS]** template with the mouse and select the **Duplicate element** option.
+1. Seleccione **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Delivery templates]** en el menú avanzado.
+1. Pase el ratón sobre la **[!UICONTROL Send via SMS]** plantilla y seleccione la opción **Duplicar elemento** .
 1. Seleccione la nueva plantilla.
 1. Click the **[!UICONTROL Edit properties]** button.
-1. In the **[!UICONTROL Advanced parameters]** section of the template properties, make sure that the template is linked to the external account to be used for delivering SMS.
+1. En la **[!UICONTROL Advanced parameters]** sección de las propiedades de la plantilla, asegúrese de que la plantilla está vinculada a la cuenta externa que se va a utilizar para enviar SMS.
 
    ![](assets/sms_template.png)
 
