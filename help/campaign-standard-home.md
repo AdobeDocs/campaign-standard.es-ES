@@ -4,7 +4,7 @@ seo-title: Documentación del producto de Adobe Campaign Standard
 solution: Campaign Standard
 title: Documentación del producto de Adobe Campaign Standard
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6912ca6dbf985518009b3e119f86298db52b6f5f
 
 ---
@@ -16,13 +16,13 @@ source-git-commit: 6912ca6dbf985518009b3e119f86298db52b6f5f
 
 ## Novedades
 
-* **[Administración](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>de privacidad Obtenga información sobre las herramientas proporcionadas por Adobe Campaign para ayudarle a cumplir con la privacidad.
+* **[Administración de privacidad](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>Obtenga información sobre las herramientas proporcionadas por Adobe Campaign para ayudarle a cumplir con la privacidad.
 
-* **[Prácticas recomendadas de entrega](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>Obtenga más información sobre las prácticas recomendadas relacionadas con el diseño y el envío de envíos.
+* **[Recomendaciones de entrega](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>Obtenga más información sobre las recomendaciones relacionadas con la creación y el envío de entregas.
 
-* **[Diseñador](designing/using/designing-content-in-adobe-campaign.md)**<br/>de correo electrónico Consulte la documentación del diseñador de correo electrónico reorganizada.
+* **[Creador de correo electrónico](designing/using/designing-content-in-adobe-campaign.md)**<br/>Consulte la documentación reorganizada del creador de correos electrónicos.
 
-* **[Páginas](channels/using/main-steps-to-set-up-a-landing-page.md)**<br/>de aterrizaje Obtenga más información sobre cómo configurar una página de aterrizaje.
+* **[Páginas de aterrizaje](channels/using/main-steps-to-set-up-a-landing-page.md)**<br/>Obtenga más información sobre cómo configurar una página de aterrizaje.
 
 [Haga clic aquí para obtener más actualizaciones](rn/using/documentation-updates.md)
 
@@ -37,17 +37,18 @@ source-git-commit: 6912ca6dbf985518009b3e119f86298db52b6f5f
     <div>
     <a href="administration/using/about-access-management.md"><strong>Funciones y grupos de seguridad</strong></a>
     </div>
-    <em></em>Obtenga información sobre cómo definir permisos y asignar funciones a usuarios de Campaign.
+    <em>Obtenga información sobre cómo definir permisos y asignar funciones a usuarios de Campaign.</em>
     <br>
   </td>
   <td valign="top">
     <a href="designing/using/designing-content-in-adobe-campaign.md">
-      <img alt="Designer" src="start/using/assets/design.png" />
+      <img alt="Creador" src="start/using/assets/design.png" />
     </a>
     <div>
-    <a href="designing/using/designing-content-in-adobe-campaign.md"><strong>Diseño de un correo electrónico</strong></a>
+    <a href="designing/using/designing-content-in-adobe-campaign.md"><strong>Cree un correo electrónico</strong></a>
     </div>
-    <em>Aprenda a utilizar el diseñador de correo electrónico para crear correos</em>interactivos y personalizados <br>
+    <em>Aprenda a utilizar el creador de correo electrónico para crear correos interactivos y personalizados</em>
+    <br>
   </td>
   <td valign="top">
        <img alt="Desarrolladores" src="start/using/assets/dev.png" />
@@ -55,7 +56,7 @@ source-git-commit: 6912ca6dbf985518009b3e119f86298db52b6f5f
     <strong>Recursos para desarrolladores</strong>
     </div>
     <p><em><a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html">API de Adobe Campaign</a></em></p>
-    <p><em><a href="integrating/using/about-adobe-experience-cloud-triggers.md">Adobe Experience Cloud Triggers</a></em></p>
+    <p><em><a href="integrating/using/about-adobe-experience-cloud-triggers.md">Activadores de Adobe Experience Cloud</a></em></p>
     <br>
   </td>
 </tr>
