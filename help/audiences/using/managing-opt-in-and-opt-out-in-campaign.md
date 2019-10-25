@@ -1,63 +1,63 @@
 ---
-title: Administración de opciones de inclusión y exclusión en Campaign
-seo-title: Administración de opciones de inclusión y exclusión en Campaign
-description: Administración de opciones de inclusión y exclusión en Campaign
-seo-description: Comprender cómo se administran las opciones de inclusión y exclusión en Adobe Campaign.
-page-status-flag: no activado nunca
-uuid: aa 1801 ec -562 b -420 e -8 d 79-c 07 d 066 b 7 b 1 a
+title: Administración de la inclusión y la exclusión en Campaign
+seo-title: Administración de la inclusión y la exclusión en Campaign
+description: Administración de la inclusión y la exclusión en Campaign
+seo-description: Comprenda cómo se administran las opciones de inclusión y exclusión en Adobe Campaign.
+page-status-flag: nunca activado
+uuid: aa1801ec-562b-420e-8d79-c07d066b7b1a
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: audiencias
-content-type: reference
-topic-tags: comprender y excluir procesos
-discoiquuid: 6 b 5680 f 2-bba 9-453 e-a 0 d 5-8 ca 69 dd 02001
+products: SG_CAMPAIGN/STANDARD
+audience: audiences
+content-type: referencia
+topic-tags: Understanding-opt-in-and-opt-out-process
+discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
 
-# Managing opt-in and opt-out in Campaign{#managing-opt-in-and-opt-out-in-campaign}
+# Administración de la inclusión y la exclusión en Campaign{#managing-opt-in-and-opt-out-in-campaign}
 
-## Managing opt-in and opt-out from a profile {#managing-opt-in-and-opt-out-from-a-profile}
+## Administración de la inclusión y la exclusión de un perfil {#managing-opt-in-and-opt-out-from-a-profile}
 
-Users can be opted in or out by an operator directly from the profile **[!UICONTROL General]** tab.
+Los usuarios pueden ser seleccionados por un operador directamente desde la ficha de perfil **[!UICONTROL General]** .
 
-In the **[!UICONTROL No longer contact (blacklist)]** section, the selected checkboxes correspond to the channels from which the user chose to opt out. Seleccione los canales según las necesidades del usuario.
+En la **[!UICONTROL No longer contact (blacklist)]** sección, las casillas de verificación seleccionadas corresponden a los canales de los que el usuario eligió desactivar la opción. Seleccione los canales según las necesidades del usuario.
 
 ![](assets/optin_landingpage_3.png)
 
-## Setting up opt-in and opt-out landing pages {#setting-up-opt-in-and-opt-out-landing-pages}
+## Configuración de páginas de aterrizaje de inclusión y exclusión {#setting-up-opt-in-and-opt-out-landing-pages}
 
-To give users the ability to opt in or opt out, you have to create and publish a **[!UICONTROL Profile acquisition]** landing page. Luego podrán seleccionar los canales según sus necesidades. Para ello, siga los pasos a continuación.
+Para que los usuarios puedan optar por la activación o la desactivación, debe crear y publicar una página **[!UICONTROL Profile acquisition]** de aterrizaje. Luego podrán seleccionar los canales según sus necesidades. Para realizar esto, siga los pasos a continuación.
 
-You can also set up a **[!UICONTROL BlackList]** landing page that will enable users to opt out from all deliveries. For more on this, refer to [Setting up a landing page to opt out from all deliveries](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#setting-up-a-landing-page-to-opt-out-from-all-deliveries).
+También puede configurar una **[!UICONTROL BlackList]** página de aterrizaje que permita a los usuarios desactivar todas las entregas. Para obtener más información sobre esto, consulte [Configuración de una página de aterrizaje para desactivar todas las entregas](#setting-up-a-landing-page-to-opt-out-from-all-deliveries).
 
 >[!NOTE]
 >
->Las páginas de aterrizaje también se pueden utilizar para habilitar la suscripción de servicios. For more on this, refer to [this page](../../channels/using/designing-a-landing-page.md#linking-a-form-to-a-service).
+>Las páginas de aterrizaje también se pueden utilizar para habilitar la suscripción a servicios. Para obtener más información, consulte [esta página](../../channels/using/designing-a-landing-page.md#linking-a-form-to-a-service).
 
-1. Create a **[!UICONTROL Profile acquisition]** landing page (see [this section](../../channels/using/about-landing-pages.md)).
-1. Agregue una casilla en el contenido de la página de aterrizaje para cada canal deseado y, a continuación, vincule el campo al campo correspondiente de la base de datos de campaña.
+1. Cree una **[!UICONTROL Profile acquisition]** página de aterrizaje (consulte [esta sección](../../channels/using/about-landing-pages.md)).
+1. Agregue una casilla de verificación en el contenido de la página de aterrizaje para cada canal deseado y, a continuación, vincúlelo al campo correspondiente de la base de datos de Campaign.
 
    ![](assets/optin_landingpage_1.png)
 
 1. Guarde la página de aterrizaje y publíquela.
-1. In the landing page, the checkboxes are already selected according to the profile **[!UICONTROL General]** tab. El usuario puede seleccionar o anular la selección de los canales según sus necesidades y enviar el formulario.
+1. En la página de aterrizaje, las casillas de verificación ya están seleccionadas según la ficha de perfil **[!UICONTROL General]** . El usuario puede seleccionar o anular la selección de los canales según sus necesidades y enviar el formulario.
 
    ![](assets/optin_landingpage_2.png)
 
-1. Once the form submitted, the profile **[!UICONTROL General]** tab is updated according to the user's selection.
+1. Una vez enviado el formulario, la ficha de perfil **[!UICONTROL General]** se actualiza según la selección del usuario.
 
    ![](assets/optin_landingpage_3.png)
 
-### Setting up a landing page to opt out from all deliveries {#setting-up-a-landing-page-to-opt-out-from-all-deliveries}
+### Configuración de una página de aterrizaje para desactivar todas las entregas {#setting-up-a-landing-page-to-opt-out-from-all-deliveries}
 
-To give users the ability to opt out from all deliveries, you have to create and publish a **[!UICONTROL BlackList]** landing page. For more on landing pages creation, refer to [this page](../../channels/using/about-landing-pages.md).
+Para que los usuarios puedan desactivar todas las entregas, debe crear y publicar una página **[!UICONTROL BlackList]** de aterrizaje. For more on landing pages creation, refer to [this page](../../channels/using/about-landing-pages.md).
 
-Once a user clicks on the landing page link, the **[!UICONTROL No longer contact (by any channel)]** option in the profile is automatically selected.
+Una vez que un usuario hace clic en el vínculo de la página de aterrizaje, la **[!UICONTROL No longer contact (by any channel)]** opción del perfil se selecciona automáticamente.
 
 ![](assets/blacklisting_allchannels.png)
 
