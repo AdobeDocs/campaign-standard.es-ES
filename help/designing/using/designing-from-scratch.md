@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 78bb4189dea522bbdf3bf8248f405bb4ab381bae
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -28,8 +28,8 @@ Aprenda a dominar la edición de contenido de correo electrónico. Con Email Des
 A continuación se indican los pasos principales para crear y diseñar contenido de correo electrónico desde cero con el Diseñador de correo electrónico:
 
 1. Cree un correo electrónico y abra su contenido.
-1. Agregue componentes de estructura para dar forma al correo electrónico. Consulte [Edición de la estructura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)de correo electrónico.
-1. Inserte componentes y fragmentos de contenido en los componentes de estructura. Consulte [Adición de fragmentos y componentes](../../designing/using/designing-from-scratch.md#defining-the-email-structure)de contenido.
+1. Agregue componentes de estructura para dar forma al correo electrónico. Consulte [Edición de la estructura](#defining-the-email-structure)de correo electrónico.
+1. Inserte componentes y fragmentos de contenido en los componentes de estructura. Consulte [Adición de fragmentos y componentes](#defining-the-email-structure)de contenido.
 1. Agregue imágenes y edite el texto del correo electrónico. Consulte [Inserción de imágenes](../../designing/using/images.md#inserting-images).
 1. Personalice su correo electrónico agregando campos de personalización, vínculos, etc. Consulte [Inserción de un campo](../../designing/using/personalization.md#inserting-a-personalization-field)de personalización, [Inserción de un vínculo](../../designing/using/links.md#inserting-a-link) y [Definición de contenido dinámico en un correo electrónico](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 1. Defina la línea de asunto de su correo electrónico. Consulte [Personalización de la línea de asunto de un correo electrónico](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
@@ -155,7 +155,7 @@ Esta es la lista de los componentes disponibles en el Diseñador de correo elect
    >
    >El componente carrusel es compatible con las siguientes plataformas de correo electrónico: Apple Mail 7, Apple Mail 8, Outlook 2011 para Mac, Outlook 2016 para Mac, Mozilla Thunderbird, iPad y iPad mini iOS, iPhone iOS, Android, AOL (Chrome, Firefox y Safari).
 
-**Temas** relacionados:
+**Temas relacionados**:
 
 - [Creación de un correo electrónico](../../channels/using/creating-an-email.md)
 - [Selección de una audiencia en un mensaje](../../audiences/using/selecting-an-audience-in-a-message.md)
