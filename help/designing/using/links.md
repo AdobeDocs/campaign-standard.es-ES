@@ -14,18 +14,18 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 14155f29492f66b070dd302c59bdd8e81008f281
+source-git-commit: 1ccea1d142f0b1550c8891b2f31233af8c9d4e29
 
 ---
 
 
 # Vínculos {#links}
 
-## Inserción de un vínculo {#inserting-a-link}
+## Inserción de un enlace {#inserting-a-link}
 
 El editor le permite personalizar un correo electrónico o una página de aterrizaje mediante la inserción de vínculos en los elementos de contenido HTML.
 
-Puede insertar un vínculo en cualquier elemento de página: imagen, palabra, grupo de palabras, bloque de texto, etc.
+Puede insertar un enlace en cualquier elemento de página: imagen, palabra, grupo de palabras, bloque de texto, etc.
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ Una vez creado el vínculo, puede modificarlo desde el panel Configuración. Hag
 
 ![](assets/des_link_edit.png)
 
-Al editar un correo electrónico con el Diseñador [de](../../designing/using/overview.md)correo electrónico, puede acceder y modificar fácilmente los vínculos que ha creado a partir de la tabla que enumera todas las direcciones URL incluidas en el correo electrónico. Esta lista le permite tener una vista centralizada y localizar cada URL en el contenido del correo electrónico. Para acceder a él, consulte [Acerca de las direcciones URL](../../designing/using/links.md#about-tracked-urls)rastreadas.
+Al editar un correo electrónico con el Diseñador [de](../../designing/using/overview.md)correo electrónico, puede acceder y modificar fácilmente los vínculos que ha creado a partir de la tabla que enumera todas las direcciones URL incluidas en el correo electrónico. Esta lista le permite tener una vista centralizada y localizar cada URL en el contenido del correo electrónico. Para acceder a él, consulte [Acerca de las direcciones URL](#about-tracked-urls)rastreadas.
 
 ![](assets/des_link_list.png)
 
@@ -71,9 +71,9 @@ Al editar un correo electrónico con el Diseñador [de](../../designing/using/ov
 >
 >Las direcciones URL personalizadas, como la URL **de página** espejo o el vínculo de **cancelación de suscripción** , no se pueden modificar desde esta lista. Todos los demás vínculos son editables.
 
-**Temas** relacionados:
+**Temas relacionados**:
 
-* [Inserción de un campo de personalización](../../designing/using/personalization.md#inserting-a-personalization-field)
+* [Inserción de un campo personalizado](../../designing/using/personalization.md#inserting-a-personalization-field)
 * [Adición de bloques de contenido](../../designing/using/personalization.md#adding-a-content-block)
 * [Definición de contenido dinámico](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
 
@@ -87,7 +87,7 @@ El **[!UICONTROL Links]** icono de la barra de acciones muestra automáticamente
 
 >[!NOTE]
 >
->El seguimiento está activado de forma predeterminada. Esta funcionalidad solo está disponible para correos electrónicos, si el seguimiento se ha activado en Adobe Campaign. Para obtener más información sobre los parámetros de seguimiento, consulte [esta sección](../../administration/using/configuring-email-channel.md#tracking-parameters).
+>El seguimiento está activado de forma predeterminada. Esta funcionalidad solo está disponible para correos electrónicos, si el seguimiento se ha activado en Adobe Campaign. For more on the tracking parameters, refer to [this section](../../administration/using/configuring-email-channel.md#tracking-parameters).
 
 La dirección URL, categoría, etiqueta y tipo de seguimiento de cada vínculo se puede modificar desde esta lista. Para editar un vínculo, haga clic en el icono de lápiz correspondiente.
 
