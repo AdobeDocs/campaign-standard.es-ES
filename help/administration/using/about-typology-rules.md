@@ -3,105 +3,105 @@ title: Acerca de las reglas de tipología
 seo-title: Acerca de las reglas de tipología
 description: Acerca de las reglas de tipología
 seo-description: Descubra cómo funcionan las reglas de tipología en Adobe Campaign.
-page-status-flag: no activado nunca
-uuid: a 98 ebc 36-172 d -4 f 46-b 6 ee-b 2636 a 1007 c 9
+page-status-flag: nunca activado
+uuid: a98ebc36-172d-4f46-b6ee-b2636a1007c9
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: administración
-content-type: reference
-topic-tags: working-with-typology-rules
-discoiquuid: 2590 d 94 c -51 ef -4 c 0 f-b 1 ec-c 2837 e 94 da 40
-context-tags: tipología, información general; Typologyrule, main; Typologyrule, información general
+content-type: referencia
+topic-tags: reglas de trabajo con tipología
+discoiquuid: 2590d94c-51ef-4c0f-b1ec-c2837e94da40
+context-tags: tipología,información general;tipologíaRegla,principal;tipologíaRegla,información general
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5e5532c0769fe33016eaee994bdaae9c70a7eaa5
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
 
-# About typology rules{#about-typology-rules}
+# Acerca de las reglas de tipología{#about-typology-rules}
 
-Una tipología es un conjunto de reglas ejecutado durante la fase de análisis de mensaje, que permite que el objetivo, el contenido y la configuración de los siguientes elementos se validen: el asunto, la URL, las imágenes, el vínculo de cancelación de suscripción, el tamaño de la prueba, etc.
+Una tipología es un conjunto de reglas, ejecutadas durante la fase de análisis de mensajes, que permiten validar el destino, el contenido y la configuración de los siguientes elementos: asunto, URL, imágenes, vínculo de cancelación de suscripción, tamaño de prueba, etc.
 
-En Adobe Campaign, cada mensaje contiene un vínculo a una tipología. This link is defined in the advanced parameters of the delivery template's properties (for more on this, refer to the [Preparation](../../administration/using/configuring-email-channel.md#preparation) section).
+En Adobe Campaign, cada mensaje contiene un vínculo a una tipología. Este vínculo se define en los parámetros avanzados de las propiedades de la plantilla de envío (para obtener más información sobre esto, consulte la sección [Preparación](../../administration/using/configuring-email-channel.md#preparation) ).
 
 >[!NOTE]
 >
->Solo se puede asignar una tipología única a cada mensaje.
+>A cada mensaje solo se le puede asignar una única tipología.
 
-For each typology, the **[!UICONTROL Typology rules]** section lists the set of rules for this typology.
+Para cada tipología, la **[!UICONTROL Typology rules]** sección enumera el conjunto de reglas para esta tipología.
 
 ![](assets/typology_typo-rule-list.png)
 
-## Managing typologies {#managing-typologies}
+## Administración de tipologías {#managing-typologies}
 
-De forma predeterminada, existen varias tipologías en la aplicación. Según sus necesidades, puede crear sus propias tipologías o modificar las existentes.
+Hay varias tipologías de forma predeterminada en la aplicación. En función de sus necesidades, puede crear sus propias tipologías o modificar las existentes.
 
-1. Access the **[!UICONTROL List of typologies]** from the **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Typologies]** menu.
-1. Seleccione una tipología para modificar su contenido y propiedades o crear uno nuevo.
+1. Acceda al **[!UICONTROL List of typologies]** desde el menú **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Typologies]** .
+1. Seleccione una tipología para modificar su contenido y propiedades o crear una nueva.
 
    ![](assets/typology_list.png)
 
-1. Definir el tipo de tipología. Las tipologías pueden ser estándar o filtrado de tipografías.
-1. Add the typology rules you need using the **[!UICONTROL Add an element]** button or remove the ones you do not want to use.
+1. Defina el tipo de tipología. Las tipologías pueden ser estándar o de filtrado.
+1. Agregue las reglas de tipología que necesite con el **[!UICONTROL Add an element]** botón o elimine las que no desee utilizar.
 
-   Puede modificar el orden en que se aplican las reglas para una tipología determinada. Para ello, mueva los elementos a fin de modificar el orden en que aparecen en la pantalla. A continuación, los números correspondientes al orden de ejecución se recalculan automáticamente. The rule application mode is presented in the [Typology rules execution order](../../administration/using/about-typology-rules.md#typology-rules-execution-order) section.
+   Puede modificar el orden en que se aplican las reglas para una tipología determinada. Para ello, mueva los elementos para modificar el orden en que aparecen en la pantalla. Los números correspondientes al orden de ejecución se vuelven a calcular automáticamente. El modo de aplicación de reglas se presenta en la sección Orden [de ejecución de reglas de](#typology-rules-execution-order) tipología.
 
-   Se puede acceder a las reglas mostradas en esta pantalla en modo de solo lectura.
+   Se puede acceder a las reglas que se muestran en esta pantalla en modo de solo lectura.
 
 Su tipología está lista para usarse. Puede seleccionarlo en propiedades de mensaje o en propiedades de plantilla de mensaje.
 
 >[!NOTE]
 >
->The **[!UICONTROL IP affinity]** field allows you to manage the affinities according to your configuration. Se definen en el archivo de configuración de la instancia. Si desea utilizar las afinidades, póngase en contacto con su administrador.
+>El **[!UICONTROL IP affinity]** campo permite administrar las afinidades según la configuración. Se definen en el archivo de configuración de la instancia. Si desea utilizar las afinidades, póngase en contacto con el administrador.
 
-## Typology rules {#typology-rules}
+## Reglas de tipología {#typology-rules}
 
-Las reglas de tipología son reglas comerciales que se aplican durante la preparación de los mensajes. Se utilizan para comprobar si un mensaje es válido y cumple los criterios de calidad. También comprueban si cada miembro de la audiencia objetivo puede recibir el mensaje.
+Las reglas de tipología son reglas comerciales que se aplican durante la preparación del mensaje. Se utilizan para comprobar si un mensaje es válido y cumple los criterios de calidad. También comprueban si cada miembro de la audiencia de destino puede recibir el mensaje.
 
-Typology rules are available under the **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Typologies]** &gt; **[!UICONTROL Typology rules]** menu.
+Las reglas de tipología están disponibles en el menú **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Typologies]** &gt; **[!UICONTROL Typology rules]** .
 
 Existen dos tipos de reglas:
 
-* **Reglas de filtrado** : permite excluir una parte del objetivo del mensaje según los criterios definidos en una consulta, como perfiles en cuarentena o perfiles que ya se han enviado a un determinado número de correos electrónicos. See [Filtering rules](../../administration/using/filtering-rules.md).
-* **Reglas de fatiga** : le permite definir un número máximo de mensajes por perfil para evitarlos. See [Fatigue rules](../../administration/using/fatigue-rules.md).
-* **Reglas de control** : permitir al usuario comprobar la validez y la calidad de los mensajes antes de enviarlos, como visualización de caracteres, tamaño de mensaje SMS, formato de dirección, etc. See [Control rules](../../administration/using/control-rules.md).
+* **Filtrado** de reglas: le permite excluir una parte del objetivo de mensaje según los criterios definidos en una consulta, como perfiles en cuarentena o perfiles que ya se han enviado un determinado número de correos electrónicos. Consulte [Filtrado de reglas](../../administration/using/filtering-rules.md).
+* **Reglas de fatiga** : le permite definir un número máximo de mensajes por perfil para evitar que se les solicite demasiado. Consulte Reglas [de fatiga](../../administration/using/fatigue-rules.md).
+* **Reglas de control** : permitir al usuario comprobar la validez y calidad de los mensajes antes de enviarlos, como la visualización de caracteres, el tamaño del mensaje SMS, el formato de la dirección, etc. Consulte Reglas [de control](../../administration/using/control-rules.md).
 
-Una regla de tipología solo se puede aplicar a un canal o a todos los canales.
+Una regla de tipología puede aplicarse a un solo canal o a todos los canales.
 
 ![](assets/typology_channel.png)
 
-In the **[!UICONTROL Properties]** of a typology rule, you can set its execution order. Cuando se deben aplicar varias reglas, el orden de ejecución de cada regla determina los que se deben procesar primero. For more on this, refer to the [Typology rules execution order](../../administration/using/about-typology-rules.md#typology-rules-execution-order) section.
+En el caso **[!UICONTROL Properties]** de una regla de tipología, puede establecer su orden de ejecución. Cuando hay que aplicar varias reglas, el orden de ejecución de cada regla determina las que se procesarán primero. Para obtener más información sobre esto, consulte la sección Orden [de ejecución de reglas de](#typology-rules-execution-order) tipología.
 
 ![](assets/typology_rule-active.png)
 
-A typology rule can be deactivated through its **[!UICONTROL Properties]** if you do not want the rule to be applied at the moment that the messages concerned by the rule are analyzed.
+Una regla de tipología se puede desactivar mediante su **[!UICONTROL Properties]** aplicación si no desea que la regla se aplique en el momento en que se analizan los mensajes relacionados con la regla.
 
 ![](assets/typology_rule-order.png)
 
-In the **[!UICONTROL Targeting context]** category, you can select the **Targeting dimension** and **Filtering dimension** depending on the data that you want to target.
+En la **[!UICONTROL Targeting context]** categoría, puede seleccionar la dimensión **** Segmentación y la dimensión **** Filtrado en función de los datos que desee segmentar.
 
-By default, filtering is carried out on the **[!UICONTROL Profiles]**. For example, if the rule is aimed at a mobile application, the **[!UICONTROL Filtering dimension]** can be changed to **[!UICONTROL Subscriptions to an application]**.
+De forma predeterminada, el filtrado se realiza en el **[!UICONTROL Profiles]**. Por ejemplo, si la regla está dirigida a una aplicación móvil, **[!UICONTROL Filtering dimension]** se puede cambiar a **[!UICONTROL Subscriptions to an application]**.
 
 ![](assets/typology_rule-order_2.png)
 
-## Typology rules execution order {#typology-rules-execution-order}
+## Orden de ejecución de reglas de tipología {#typology-rules-execution-order}
 
 Las reglas de tipología se ejecutan en un orden especificado durante las fases de segmentación, análisis y personalización de mensajes.
 
-En el modo de operación estándar, las reglas se aplican en la secuencia siguiente:
+En el modo de operación estándar, las reglas se aplican en la siguiente secuencia:
 
-1. Reglas de control, si se aplican al principio de la segmentación.
+1. Reglas de control, si se aplican al principio del objetivo.
 1. Reglas de filtrado:
 
-   * Reglas nativas de aplicación para la cualificación de direcciones: dirección definida/dirección no verificada/dirección bloqueada/dirección de dirección en cuarentena.
+   * Reglas de aplicación nativas para la revisión de direcciones: dirección definida/dirección no verificada/dirección en lista negra/dirección en cuarentena/calidad de la dirección.
    * Reglas de filtrado definidas por el usuario.
 
-1. Reglas de control, si se aplican al final de la segmentación.
-1. Reglas de control, si se aplican al principio de la personalización.
+1. Reglas de control, si se aplican al final del objetivo.
+1. Reglas de control, si se aplican al inicio de la personalización.
 1. Reglas de control, si se aplican al final de la personalización.
 
-Sin embargo, puede adaptar el orden de ejecución del mismo tipo de reglas en cada tipología. De hecho, cuando se ejecutan varias reglas durante la misma fase de procesamiento de mensaje, puede elegir el orden en que se aplican.
+Sin embargo, puede adaptar el orden de ejecución del mismo tipo de reglas en cada tipología. De hecho, cuando se ejecutan varias reglas durante la misma fase de procesamiento de mensajes, puede elegir el orden en que se aplican.
 
-Por ejemplo, una regla de filtrado cuyo orden de ejecución se coloque en el número 20 se ejecutará antes de una regla de filtrado cuyo orden de ejecución se coloque en el número 30.
+Por ejemplo, una regla de filtrado cuya orden de ejecución se sitúa en el número 20 se ejecutará antes que una regla de filtrado cuya orden de ejecución se posicione en el número 30.
