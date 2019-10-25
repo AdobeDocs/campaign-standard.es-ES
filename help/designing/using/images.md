@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c43a258734f3344fad8c9cbd5bd5774d7f37b4f6
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -31,7 +31,7 @@ Los siguientes tipos de imágenes están disponibles según la configuración:
 * Imágenes compartidas desde Adobe Experience Cloud: consulte [Uso de Campaign y los recursos del servicio](../../integrating/using/working-with-campaign-and-assets-core-service.md) principal / Recursos On Demand
 * Imágenes dinámicas de Adobe Target: consulte [Uso de Campaign y Target](../../integrating/using/about-campaign-target-integration.md)
 
-Si está activada, puede modificar imágenes con el SDK de Adobe Creative. Consulte [Modificación de imágenes con el SDK](images.md#modifying-images-with-the-adobe-creative-sdk)de Adobe Creative.
+Si está activada, puede modificar imágenes con el SDK de Adobe Creative. Consulte [Modificación de imágenes con el SDK](#modifying-images-with-the-adobe-creative-sdk)de Adobe Creative.
 
 >[!CAUTION]
 >
