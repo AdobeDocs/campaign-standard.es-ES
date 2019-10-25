@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7d044652c58c3fc66dac64f9d080852dbe29044d
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -30,7 +30,7 @@ Aprenda a dominar la edición de contenido de correo electrónico. Con Email Des
 
 ### Plantillas de contenido {#content-templates}
 
-Puede administrar el contenido HTML que se ofrecerá en la **[!UICONTROL Templates]** ficha de la página de inicio de [Email Designer](../../designing/using/overview.md) . Las distintas plantillas presentan varias combinaciones de varios tipos de elementos. Por ejemplo, las plantillas 'Calado' tienen márgenes mientras que las plantillas 'Astro' no tienen uno. Para obtener más información sobre esto, consulte Plantillas [de contenido](../../designing/using/using-reusable-content.md#content-templates).
+Puede administrar el contenido HTML que se ofrecerá en la **[!UICONTROL Templates]** ficha de la página de inicio de [Email Designer](../../designing/using/overview.md) . Las distintas plantillas presentan varias combinaciones de varios tipos de elementos. Por ejemplo, las plantillas 'Calado' tienen márgenes mientras que las plantillas 'Astro' no tienen uno. Para obtener más información sobre esto, consulte Plantillas [de contenido](#content-templates).
 
 ![](assets/template_content.png)
 
@@ -93,7 +93,7 @@ Al editar un correo electrónico con el Diseñador de correo electrónico, puede
 
 Ahora puede crear una plantilla de correo electrónico con el Diseñador de correo electrónico. Utilice los componentes de contenido para reflejar las diferentes secciones del correo electrónico y ajustar la configuración para que estén lo más cerca posible de la newsletter original. Por último, inserte los fragmentos que acaba de crear.
 
-1. Con el Diseñador de correo electrónico, cree una plantilla. Para obtener más información sobre esto, consulte Plantillas [de contenido](../../designing/using/using-reusable-content.md#content-templates).
+1. Con el Diseñador de correo electrónico, cree una plantilla. Para obtener más información sobre esto, consulte Plantillas [de contenido](#content-templates).
 1. Inserte varios componentes de estructura en la plantilla, correspondientes al encabezado, pie de página y cuerpo del correo electrónico. Para obtener más información sobre cómo agregar componentes de estructura, consulte [Edición de la estructura de correo electrónico con el Diseñador](../../designing/using/designing-from-scratch.md#defining-the-email-structure)de correo electrónico.
 1. Inserte tantos componentes de contenido como sea necesario para crear el cuerpo de la newsletter. Este será el contenido editable de su correo electrónico que actualizará cada mes.
 
@@ -134,8 +134,8 @@ Se pueden encontrar en la interfaz en **Recursos** &gt; Fragmentos y plantillas 
 
 Para optimizar el uso de fragmentos en el Diseñador de correo electrónico:
 
-* Cree sus propios fragmentos. Consulte [Creación de un fragmento](../../designing/using/using-reusable-content.md#creating-a-content-fragment) de contenido y [Guardado de contenido como fragmento](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
-* Utilícelos tantas veces como sea necesario en sus correos electrónicos. Consulte [Inserción de elementos en un correo electrónico](../../designing/using/using-reusable-content.md#inserting-elements-into-an-email).
+* Cree sus propios fragmentos. Consulte [Creación de un fragmento](#creating-a-content-fragment) de contenido y [Guardado de contenido como fragmento](#saving-content-as-a-fragment).
+* Utilícelos tantas veces como sea necesario en sus correos electrónicos. Consulte [Inserción de elementos en un correo electrónico](#inserting-elements-into-an-email).
 * Al editar un fragmento, los cambios se sincronizan: se propagan automáticamente a todos los correos electrónicos (siempre que no se hayan preparado ni enviado aún) que contengan ese fragmento.
 
 Cuando se agregan a un correo electrónico, los fragmentos se bloquean de forma predeterminada. Si desea modificar un fragmento para un correo electrónico específico, puede romper la sincronización con el fragmento original desbloquearlo en el correo electrónico donde se utiliza. Los cambios ya no se sincronizarán.
@@ -150,7 +150,7 @@ Ese fragmento se convierte en un componente independiente que ya no está vincul
 
 Para definir el contenido del correo electrónico, puede añadir elementos de contenido en los componentes de estructura que haya colocado de antemano. Consulte [Edición de la estructura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)de correo electrónico.
 
-1. Acceda a los elementos de contenido seleccionando el icono **+** de la izquierda. Seleccione [Fragmentos](../../designing/using/using-reusable-content.md#about-fragments) o componentes [de contenido](../../designing/using/designing-from-scratch.md#about-content-components).
+1. Acceda a los elementos de contenido seleccionando el icono **+** de la izquierda. Seleccione [Fragmentos](#about-fragments) o componentes [de contenido](../../designing/using/designing-from-scratch.md#about-content-components).
 1. Si ya conoce la etiqueta o parte de la etiqueta del fragmento que desea agregar, puede buscarla.
 
    ![](assets/email_designer_fragmentsearch.png)
@@ -167,7 +167,7 @@ Para definir el contenido del correo electrónico, puede añadir elementos de co
 
    >[!NOTE]
    >
-   >Los fragmentos se bloquean de forma predeterminada cuando se agregan a un correo electrónico. Puede romper la sincronización con el fragmento original si desea modificar el fragmento para un correo electrónico específico o realizar el cambio directamente en el fragmento. Consulte [Acerca de los fragmentos](../../designing/using/using-reusable-content.md#about-fragments).
+   >Los fragmentos se bloquean de forma predeterminada cuando se agregan a un correo electrónico. Puede romper la sincronización con el fragmento original si desea modificar el fragmento para un correo electrónico específico o realizar el cambio directamente en el fragmento. Consulte [Acerca de los fragmentos](#about-fragments).
 
 1. Repita este procedimiento para todos los elementos que necesite agregar al correo electrónico.
 1. Guarde su correo electrónico.
@@ -176,7 +176,7 @@ Ahora que la estructura de correo electrónico está llena, puede editar el esti
 
 >[!NOTE]
 >
->Si se modifica un fragmento, los cambios se propagan automáticamente en los mensajes de correo electrónico donde se utiliza. Para obtener más información sobre esto, consulte [Acerca de los fragmentos](../../designing/using/using-reusable-content.md#about-fragments).
+>Si se modifica un fragmento, los cambios se propagan automáticamente en los mensajes de correo electrónico donde se utiliza. Para obtener más información sobre esto, consulte [Acerca de los fragmentos](#about-fragments).
 
 ### Creación de un fragmento de contenido {#creating-a-content-fragment}
 
@@ -213,7 +213,7 @@ Este fragmento ahora se puede utilizar en cualquier correo electrónico generado
 
 >[!NOTE]
 >
->No se pueden insertar campos de personalización dentro de un fragmento a menos que se utilicen en un correo electrónico y se desbloqueen. Consulte [Acerca de los fragmentos](../../designing/using/using-reusable-content.md#about-fragments).
+>No se pueden insertar campos de personalización dentro de un fragmento a menos que se utilicen en un correo electrónico y se desbloqueen. Consulte [Acerca de los fragmentos](#about-fragments).
 
 ### Guardar contenido como fragmento {#saving-content-as-a-fragment}
 
@@ -275,7 +275,7 @@ Mediante el Diseñador de correo electrónico, cree un fragmento para cada secci
 
 Para realizar esto, siga los pasos a continuación:
 
-1. En Adobe Campaign, vaya a **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]** y cree un fragmento para el encabezado. Para obtener más información sobre esto, consulte [Creación de un fragmento](../../designing/using/using-reusable-content.md#creating-a-content-fragment)de contenido.
+1. En Adobe Campaign, vaya a **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]** y cree un fragmento para el encabezado. Para obtener más información sobre esto, consulte [Creación de un fragmento](#creating-a-content-fragment)de contenido.
 1. Agregue al fragmento tantos componentes de estructura como necesite.
 
 ![](assets/des_loading_compatible_fragment_1.png)
