@@ -3,65 +3,65 @@ title: Importación de datos
 seo-title: Importación de datos
 description: Importación de datos
 seo-description: Obtenga información sobre cómo importar datos con un flujo de trabajo.
-page-status-flag: no activado nunca
-uuid: d 909 d 26 a-cf 50-46 af-ae 09-f 0 fd 7258 ca 27
+page-status-flag: nunca activado
+uuid: d909d26a-cf50-46af-ae09-f0fd7258ca27
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: automatizar
-content-type: reference
-topic-tags: flujo de trabajo general operation
-discoiquuid: 75 b 83165-dcbd -4 bb 7-b 703-ed 769 f 489 b 16
+content-type: referencia
+topic-tags: workflow-general-operation
+discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6748e59aaeafce9dc6e77dc0664a9024a53c3e35
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
 
-# Importing data{#importing-data}
+# Importación de datos{#importing-data}
 
-## Collecting data {#collecting-data}
+## Recopilación de datos {#collecting-data}
 
 Puede recopilar datos de un archivo para procesarlos o importarlos en la base de datos de Adobe Campaign.
 
-* The **[!UICONTROL Load file]** activity allows you to import data in one structured form to use this data in Adobe Campaign. Los datos se importan temporalmente y es necesario otra actividad para integrarlos de forma definitiva en la base de datos de Adobe Campaign.
-* The **[!UICONTROL Transfer file]** activity allows you to receive or send files, test whether there are files present, or list files in Adobe Campaign.
+* La **[!UICONTROL Load file]** actividad permite importar datos en un formulario estructurado para utilizarlos en Adobe Campaign. Los datos se importan temporalmente y es necesaria otra actividad para integrarlos definitivamente en la base de datos de Adobe Campaign.
+* La **[!UICONTROL Transfer file]** actividad le permite recibir o enviar archivos, probar si hay archivos presentes o mostrar archivos en Adobe Campaign.
 
-   You can use this activity before a **[!UICONTROL Load file]** in case you need to retrieve the file from an external source.
+   Puede utilizar esta actividad antes de una **[!UICONTROL Load file]** en caso de que necesite recuperar el archivo de una fuente externa.
 
-## Import best practices {#import-best-practices}
+## Prácticas recomendadas de importación {#import-best-practices}
 
-Ser cauteloso y seguir las pocas reglas simples detalladas a continuación ayudará mucho a garantizar la coherencia de los datos dentro de la base de datos y a evitar errores comunes durante la actualización de la base de datos o las exportaciones de datos.
+Tenga cuidado y siga las sencillas reglas detalladas debajo, ya que le pueden ayudar a garantizar la coherencia de los datos en la base de datos y a evitar errores comunes durante la actualización o las exportaciones de datos.
 
-### Using import templates {#using-import-templates}
+### Uso de plantillas de importación {#using-import-templates}
 
-Most import workflows should contain the following activities: **[!UICONTROL Load file]**, **[!UICONTROL Reconciliation]**, **[!UICONTROL Segmentation]**, **[!UICONTROL Deduplication]**, **[!UICONTROL Update data]**.
+La mayoría de los flujos de trabajo de importación deben contener las siguientes actividades: **[!UICONTROL Load file]**, **[!UICONTROL Reconciliation]**, **[!UICONTROL Segmentation]**, **[!UICONTROL Deduplication]**, **[!UICONTROL Update data]**.
 
 El uso de plantillas de importación facilita la preparación de importaciones similares y la coherencia de los datos en la base de datos.
 
-In many projects, imports are built without **[!UICONTROL Deduplication]** activity because the files used in the project do not have duplicates. A veces, los duplicados no aparecen para importar distintos archivos. La anulación de duplicación es difícil. Por lo tanto, un paso de anulación de duplicación es una buena medida en todos los flujos de trabajo de importación.
+In many projects, imports are built without **[!UICONTROL Deduplication]** activity because the files used in the project do not have duplicates. Los duplicados aparecen en ocasiones al importar archivos diferentes. En este caso, la deduplicación resulta difícil. Por lo tanto, la deduplicación es una buena precaución en todos los flujos de trabajo de importación.
 
-No descansa en suponer que los datos entrantes son coherentes y correctos, o que el departamento de TI o el supervisor de Adobe Campaign lo harán. Durante el proyecto, tenga en cuenta la limpieza de datos. Elimine, concilie y mantenga la coherencia al importar datos.
+No dé por hecho que los datos entrantes son coherentes y correctos, o que el departamento de TI o el iniciador de Adobe Campaign se pueden encargar de ello. Durante el proyecto, tenga en cuenta la limpieza de los datos. Deduplique, reconcilie y mantenga la coherencia al importar datos.
 
-An example of a generic workflow template designed for importing data is available in the [Example: Import workflow template](../../automating/using/importing-data.md#example--import-workflow-template) section.
+En el [ejemplo encontrará un ejemplo de una plantilla de flujo de trabajo genérica diseñada para importar datos: Importar la sección de plantillas](#example--import-workflow-template) de flujo de trabajo.
 
 >[!NOTE]
 >
->You can also use [import templates](../../automating/using/importing-data-with-import-templates.md). Son plantillas de flujo de trabajo definidas por un administrador que, una vez activadas, solo ofrecen la posibilidad de especificar el archivo que contiene los datos que se van a importar.
+>También puede utilizar plantillas [de](../../automating/using/importing-data-with-import-templates.md)importación. Son plantillas de flujo de trabajo definidas por un administrador que, una vez activadas, solo ofrecen la posibilidad de especificar el archivo que contiene los datos que se van a importar.
 
-### Using flat file formats {#using-flat-file-formats}
+### Uso de formatos de archivo plano {#using-flat-file-formats}
 
-El formato más eficaz para las importaciones es archivos planos. Los archivos planos pueden importarse en modo masivo a nivel de base de datos.
+El formato más eficaz para las importaciones es un archivo plano. Los archivos planos se pueden importar en modo masivo a nivel de base de datos.
 
 Por ejemplo:
 
-* Separador: tab o punto y coma
+* Separador: tabulación o punto y coma
 * Primera línea con encabezados
-* Sin delimitador de cadena
-* Formato de fecha: AAAA/MM/DD HH: mm: SS
+* Sin delimitador de cadenas
+* Formato de fecha: AAAA/MM/DD HH:mm:SS
 
-Ejemplo de archivo que se va a importar:
+Ejemplo del archivo que se va a importar:
 
 ```
 lastname;firstname;birthdate;email;crmID
@@ -71,132 +71,132 @@ Smith;Clara;08/02/1989;hayden.smith@example.com;124567
 Durance;Allison;15/12/1978;allison.durance@example.com;120987
 ```
 
-### Using compression {#using-compression}
+### Uso de compresión {#using-compression}
 
-Utilice archivos compactados para importar y exportar cuando sea posible. Se admite GZIP de forma predeterminada. You can add pre-processing when importing files or post-processing when extracting data, respectively in the **[!UICONTROL Load file]** and **[!UICONTROL Extract file]** workflow activities.
+Utilice archivos comprimidos para importar y exportar cuando sea posible. GZIP es compatible de forma predeterminada. Puede agregar el preprocesamiento al importar archivos o el posprocesamiento al extraer datos, respectivamente, en las actividades **[!UICONTROL Load file]** y **[!UICONTROL Extract file]** del flujo de trabajo.
 
-### Importing in Delta mode {#importing-in-delta-mode}
+### Importación en modo Delta {#importing-in-delta-mode}
 
-Las importaciones normales deben realizarse en modo delta. Significa que solo se han modificado los datos nuevos o modificados a Adobe Campaign, en vez de toda la tabla siempre.
+Las importaciones regulares deben realizarse en modo delta. Esto significa que solo se envían datos modificados o nuevos a Adobe Campaign, en lugar de toda la tabla de una sentada.
 
-Las importaciones completas deben usarse solo para carga inicial.
+Las importaciones completas deben utilizarse únicamente para la carga inicial.
 
-### Maintaining consistency {#maintaining-consistency}
+### Mantenimiento de la coherencia {#maintaining-consistency}
 
-Para mantener la coherencia de los datos en la base de datos de Adobe Campaign, siga los principios a continuación:
+Para mantener la coherencia de los datos en la base de datos de Adobe Campaign, siga los principios siguientes:
 
-* Si los datos importados coinciden con una tabla de referencia en Adobe Campaign, debe conciliarse con esa tabla en el flujo de trabajo. Los registros que no coinciden deben rechazarse.
-* Ensure that the imported data is always **"normalized"** (email, phone number, direct mail address) and that this normalization is reliable and will not change over the years. Si no es así, es probable que algunos duplicados aparezcan en la base de datos, y, dado que Adobe Campaign no proporciona herramientas para realizar coincidencias "borrosas", será muy difícil administrarlas y eliminarlas.
-* Los datos transaccionales deben tener una clave de reconciliación y deben conciliarse con los datos existentes para evitar la creación de duplicados.
-* **Importar archivos relacionados en orden**. Si la importación está compuesta por varios archivos que dependen entre sí, el flujo de trabajo debe asegurarse de que los archivos se importan en el orden correcto. Cuando un archivo falla, no se importan los demás archivos.
-* **Elimine,** concilie y mantenga la coherencia al importar datos.
+* Si los datos importados coinciden con una tabla de referencia de Adobe Campaign, se deben reconciliar con esa tabla en el flujo de trabajo. Los registros que no coinciden deben ser rechazados.
+* Asegúrese de que los datos importados siempre estén **“normalizados”** (correo electrónico, número de teléfono, dirección de correo postal) y que esta normalización sea fiable y no cambie con los años. Si no es así, es probable que algunos duplicados aparezcan en la base de datos y, como Adobe Campaign no proporciona herramientas para establecer correspondencias “difusas”, resulta muy difícil administrarlos y eliminarlos.
+* Los datos de transacciones deben tener una clave de reconciliación y se deben reconciliar con los datos existentes para evitar la creación de duplicados.
+* **Importación de archivos relacionados en orden**. Si la importación está compuesta por varios archivos que dependen unos de otros, el flujo de trabajo debe asegurar que los archivos se importen en el orden correcto. Si un archivo falla, los demás archivos no se importan.
+* **Deduplique**, reconcilie y mantenga la coherencia al importar datos.
 
-## Example: Import workflow template {#example--import-workflow-template}
+## Ejemplo: Importar plantilla de flujo de trabajo {#example--import-workflow-template}
 
-El uso de una plantilla de importación es una práctica recomendada si necesita importar archivos con la misma estructura de forma regular.
+La utilización de una plantilla de importación es una práctica recomendada si necesita importar con regularidad archivos con la misma estructura.
 
-En este ejemplo se muestra cómo predefinir un flujo de trabajo que se puede reutilizar para importar perfiles provenientes de una CRM en la base de datos de Adobe Campaign.
+Este ejemplo muestra cómo se puede predefinir un flujo de trabajo para reutilizarlo a la hora de importar perfiles provenientes de un CRM en la base de datos de Adobe Campaign.
 
-1. Create a new workflow template from **[!UICONTROL Resources > Templates > Workflow templates]**.
-1. Agregue las siguientes actividades:
+1. Cree una nueva plantilla de flujo de trabajo desde **[!UICONTROL Resources > Templates > Workflow templates]**.
+1. Añada las siguientes actividades:
 
    * **[!UICONTROL Load file]**: Defina la estructura esperada del archivo que contiene los datos que se van a importar.
 
       >[!NOTE]
       >
-      >Solo puede importar datos desde un único archivo. If the workflow has multiple **[!UICONTROL Load file]** activities, the same file will be used each time.
+      >Sólo puede importar datos de un solo archivo. Si el flujo de trabajo tiene varias **[!UICONTROL Load file]** actividades, se utilizará el mismo archivo cada vez.
 
-   * **[!UICONTROL Reconciliation]**: Concilie los datos importados con datos de base de datos.
-   * **[!UICONTROL Segmentation]**: Cree filtros para procesar registros de diferentes maneras dependiendo de si se pueden reconciliar o no.
-   * **[!UICONTROL Deduplication]**: Elimine los datos del archivo entrante antes de insertarlo en la base de datos.
+   * **[!UICONTROL Reconciliation]**: Reconcilie los datos importados con los datos de la base de datos.
+   * **[!UICONTROL Segmentation]**: Cree filtros para procesar registros de formas diferentes, dependiendo de si se podrían reconciliar o no.
+   * **[!UICONTROL Deduplication]**: Deduplique los datos del archivo entrante antes de insertarlos en la base de datos.
    * **[!UICONTROL Update data]**: Actualice la base de datos con los perfiles importados.
    ![](assets/import_template_example0.png)
 
 1. Configure the **[!UICONTROL Load file]** activity:
 
-   * Para definir la estructura esperada, cargue un archivo de ejemplo. El archivo de ejemplo debe contener sólo unas pocas líneas, pero todas las columnas necesarias para la importación. Compruebe y edite el formato de archivo para asegurarse de que el tipo de cada columna esté correctamente configurado: texto, fecha, entero, etc. Por ejemplo:
+   * Cargue un archivo de muestra para definir la estructura que desee. El archivo de muestra debe contener tan solo unas pocas líneas, pero todas las columnas necesarias para la importación. Compruebe y edite el formato del archivo para asegurarse de que el tipo de cada columna está correctamente definido: texto, fecha, entero, etc. Por ejemplo:
 
       ```
       lastname;firstname;birthdate;email;crmID
       Smith;Hayden;23/05/1989;hayden.smith@mailtest.com;123456
       ```
 
-   * In the **[!UICONTROL File to load]** section, select **[!UICONTROL Upload a new file from the local machine]** and leave the field blank. Cada vez que se crea un nuevo flujo de trabajo a partir de esta plantilla, puede especificar el archivo que desea, ya que corresponde a la estructura definida.
+   * En la **[!UICONTROL File to load]** sección, seleccione **[!UICONTROL Upload a new file from the local machine]** y deje el campo en blanco. Cada vez que cree un nuevo flujo de trabajo a partir de esta plantilla, puede especificar aquí el archivo que desee, siempre que se corresponda con la estructura definida.
 
-      Puede utilizar cualquiera de las opciones pero debe modificar la plantilla en consecuencia. For example, if you select **[!UICONTROL Use the file specified in the inbound transition]**, you can add a **[!UICONTROL Transfer file]** activity before to retrieve the file to import from a FTP/SFTP server.
+      Puede utilizar cualquiera de las opciones, pero debe modificar la plantilla según corresponda. For example, if you select **[!UICONTROL Use the file specified in the inbound transition]**, you can add a **[!UICONTROL Transfer file]** activity before to retrieve the file to import from a FTP/SFTP server.
 
-      If you want users to be able to download a file containing errors that occurred during an import, check the **[!UICONTROL Keep the rejects in a file]** option and specify the **[!UICONTROL File name]**.
+      Si desea que los usuarios puedan descargar un archivo que contenga errores producidos durante una importación, marque la **[!UICONTROL Keep the rejects in a file]** opción y especifique la **[!UICONTROL File name]**.
 
       ![](assets/import_template_example1.png)
 
-1. Configure the **[!UICONTROL Reconciliation]** activity. La finalidad de esta actividad en este contexto es identificar los datos entrantes.
+1. Configure the **[!UICONTROL Reconciliation]** activity. El objetivo de esta actividad en este contexto es identificar los datos entrantes.
 
-   * In the **[!UICONTROL Relations]** tab, select **[!UICONTROL Create element]** and define a link between the imported data and the recipients targeting dimension (see [Targeting dimensions and resources](../../automating/using/query.md#targeting-dimensions-and-resources)). In this example, the **CRM ID** custom field is used to create the join condition. Utilice el campo o la combinación de campos que necesite siempre que permita identificar registros únicos.
-   * In the **[!UICONTROL Identification]** tab, leave the **[!UICONTROL Identify the document from the working data]** option unchecked.
+   * En la **[!UICONTROL Relations]** ficha, seleccione **[!UICONTROL Create element]** y defina un vínculo entre los datos importados y la dimensión de objetivo de destinatarios (consulte [Segmentación de dimensiones y recursos](../../automating/using/query.md#targeting-dimensions-and-resources)). En este ejemplo, el campo personalizado **CRM ID** se utiliza para crear la condición de unión. Utilice el campo o la combinación de campos que necesite siempre que permita identificar registros únicos.
+   * En la **[!UICONTROL Identification]** ficha, deje la **[!UICONTROL Identify the document from the working data]** opción sin marcar.
    ![](assets/import_template_example2.png)
 
 1. Configure the **[!UICONTROL Segmentation]** activity to retrieve reconciled recipients in one transition and recipients that could not be reconciled but who have enough data in a second transition.
 
-   La transición con destinatarios conciliados se puede utilizar para actualizar la base de datos. La transición con destinatarios desconocidos se puede utilizar para crear nuevas entradas de destinatario en la base de datos si hay un conjunto mínimo de información disponible en el archivo.
+   La transición con los destinatarios reconciliados se puede utilizar después para actualizar la base de datos. La transición con destinatarios desconocidos se puede utilizar para crear nuevas entradas de destinatario en la base de datos si en el archivo hay un conjunto mínimo de información disponible.
 
-   Los destinatarios que no se pueden reconciliar y no tienen datos suficientes se seleccionan en una transición saliente complementaria y pueden exportarse en un archivo independiente o simplemente ignorarse.
+   Los destinatarios que no se pueden reconciliar y no tienen datos suficientes se seleccionan en una transición saliente de complemento y se pueden exportar en un archivo independiente, o sencillamente se ignoran.
 
-   * In the **[!UICONTROL General]** tab of the activity, set the **[!UICONTROL Resource type]** to **[!UICONTROL Temporary resource]** and select **[!UICONTROL Reconciliation]** as the targeted set.
-   * In the **[!UICONTROL Advanced options]** tab, check the **[!UICONTROL Generate complement]** option to be able to see if any record cannot be inserted in the database. Si lo necesita, puede aplicar más procesamiento a los datos complementarios: exportación de archivos, actualización de lista, etc.
-   * In the first segment of the **[!UICONTROL Segments]** tab, add a filtering condition on the inbound population to select only records for which the profile's CRM ID is not equal to 0. De esta forma, se seleccionan en ese subconjunto los datos del archivo que se reconcilian con perfiles de la base de datos.
+   * En la **[!UICONTROL General]** ficha de la actividad, establezca el **[!UICONTROL Resource type]** en **[!UICONTROL Temporary resource]** y seleccione **[!UICONTROL Reconciliation]** como conjunto de objetivos.
+   * In the **[!UICONTROL Advanced options]** tab, check the **[!UICONTROL Generate complement]** option to be able to see if any record cannot be inserted in the database. Si lo necesita, puede seguir procesando los datos complementarios: exportación de archivo, actualización de lista, etc.
+   * In the first segment of the **[!UICONTROL Segments]** tab, add a filtering condition on the inbound population to select only records for which the profile's CRM ID is not equal to 0. De este modo, los datos del archivo reconciliados con perfiles de la base de datos se seleccionan en ese subconjunto.
 
       ![](assets/import_template_example3.png)
 
-   * Agregue un segundo segmento que seleccione registros no conciliados que tengan datos suficientes para insertarse en la base de datos. Por ejemplo: dirección de correo electrónico, nombre y apellido. Los registros que no se concilian tienen el valor de ID de CRM de su perfil igual a 0.
+   * Agregue un segundo segmento que seleccione registros no conciliados que tengan suficientes datos para insertar en la base de datos. Por ejemplo: dirección de correo electrónico, nombre y apellidos. Los registros no conciliados tienen el valor de ID de CRM de su perfil igual a 0.
 
       ![](assets/import_template_example3_2.png)
 
-   * All records that are not selected in the first two subsets are selected in the **[!UICONTROL Complement]**.
+   * Todos los registros que no están seleccionados en los dos primeros subconjuntos se seleccionan en la **[!UICONTROL Complement]**.
 
 1. Configure the **[!UICONTROL Update data]** activity located after the first outbound transition of the **[!UICONTROL Segmentation]** activity configured previously.
 
    * Select **[!UICONTROL Update]** as **[!UICONTROL Operation type]** since the inbound transition only contains recipients already present in the database.
-   * In the **[!UICONTROL Identification]** tab, select **[!UICONTROL Using reconciliation criteria]** and define a key between the **[!UICONTROL Dimension to update]** - Profiles in this case - and the link created in the **[!UICONTROL Reconciliation]** activity. In this example, the **CRM ID** custom field is used.
+   * En la **[!UICONTROL Identification]** ficha, seleccione **[!UICONTROL Using reconciliation criteria]** y defina una clave entre el vínculo **[!UICONTROL Dimension to update]** - Perfiles en este caso- y el vínculo creado en la **[!UICONTROL Reconciliation]** actividad. En este ejemplo, se utiliza el campo personalizado **CRM ID**.
 
       ![](assets/import_template_example6.png)
 
-   * In the **[!UICONTROL Fields to update]** tab, indicate the fields from the Profiles dimension to update with the value of the corresponding column from the file. Si los nombres de las columnas del archivo son idénticos o casi idénticos a los de los campos de dimensión destinatarios, puede utilizar el botón varita mágica para coincidir automáticamente con los distintos campos.
+   * In the **[!UICONTROL Fields to update]** tab, indicate the fields from the Profiles dimension to update with the value of the corresponding column from the file. Si los nombres de las columnas del archivo son idénticos o casi idénticos a los nombres de los campos de dimensión de los destinatarios, puede utilizar el botón de varita mágica para hacer coincidir automáticamente los diferentes campos.
 
       ![](assets/import_template_example6_2.png)
 
       >[!NOTE]
       >
-      >Si planea enviar correos electrónicos directos a estos perfiles, asegúrese de incluir una dirección postal, ya que esta información es esencial para el proveedor de correo directo. Also make sure that the **[!UICONTROL Address specified]** box in your profiles' information is checked. To update this option from a workflow, simply add an element to the fields to update, and specify **1** as **[!UICONTROL Source]** and select the **postalAddress/@addrDefined** field as **[!UICONTROL Destination]**. For more on direct mail and the use of the **[!UICONTROL Address specified]** option, see [this document](../../channels/using/about-direct-mail.md#recommendations).
+      >Si planea enviar correos directos a estos perfiles, asegúrese de incluir una dirección postal, ya que esta información es esencial para el proveedor de correo directo. Asegúrese también de que la **[!UICONTROL Address specified]** casilla de la información de los perfiles está marcada. Para actualizar esta opción desde un flujo de trabajo, simplemente agregue un elemento a los campos para actualizar, especifique **1** como **[!UICONTROL Source]** y seleccione el campo **postalAddress/@addrDefined** como **[!UICONTROL Destination]**. Para obtener más información sobre el correo directo y el uso de la **[!UICONTROL Address specified]** opción, consulte [este documento](../../channels/using/about-direct-mail.md#recommendations).
 
 1. Configure the **[!UICONTROL Deduplication]** activity located after the transition containing unreconciled profiles:
 
-   * In the **[!UICONTROL Properties]** tab, set the **[!UICONTROL Resource type]** to the temporary resource generated from the **[!UICONTROL Reconciliation]** activity of the workflow.
+   * En la **[!UICONTROL Properties]** ficha, establezca la **[!UICONTROL Resource type]** en el recurso temporal generado a partir de la **[!UICONTROL Reconciliation]** actividad del flujo de trabajo.
 
       ![](assets/import_template_example4.png)
 
-   * En este ejemplo, el campo de correo electrónico se utiliza para encontrar perfiles únicos. Puede utilizar cualquier campo que esté seguro y parte de una combinación única.
-   * Choose a **[!UICONTROL Deduplication method]**. En este caso, la aplicación decide automáticamente qué registros se conservan en caso de duplicados.
+   * En este ejemplo, el campo de correo electrónico se utiliza para buscar perfiles únicos. Puede utilizar cualquier campo que esté rellenado y que forme parte de una combinación única.
+   * Elija un **[!UICONTROL Deduplication method]**. En este caso, la aplicación decide automáticamente qué registros se conservan en caso de duplicados.
    ![](assets/import_template_example7.png)
 
 1. Configure the **[!UICONTROL Update data]** activity located after the **[!UICONTROL Deduplication]** activity configured previously.
 
    * Select **[!UICONTROL Insert only]** as **[!UICONTROL Operation type]** since the inbound transition only contains profiles not present in the database.
-   * In the **[!UICONTROL Identification]** tab, select **[!UICONTROL Using reconciliation criteria]** and define a key between the **[!UICONTROL Dimension to update]** - Profiles in this case - and the link created in the **[!UICONTROL Reconciliation]** activity. In this example, the **CRM ID** custom field is used.
+   * En la **[!UICONTROL Identification]** ficha, seleccione **[!UICONTROL Using reconciliation criteria]** y defina una clave entre el vínculo **[!UICONTROL Dimension to update]** - Perfiles en este caso- y el vínculo creado en la **[!UICONTROL Reconciliation]** actividad. En este ejemplo, se utiliza el campo personalizado **CRM ID**.
 
       ![](assets/import_template_example6.png)
 
-   * In the **[!UICONTROL Fields to update]** tab, indicate the fields from the Profiles dimension to update with the value of the corresponding column from the file. Si los nombres de las columnas del archivo son idénticos o casi idénticos a los de los campos de dimensión destinatarios, puede utilizar el botón varita mágica para coincidir automáticamente con los distintos campos.
+   * In the **[!UICONTROL Fields to update]** tab, indicate the fields from the Profiles dimension to update with the value of the corresponding column from the file. Si los nombres de las columnas del archivo son idénticos o casi idénticos a los nombres de los campos de dimensión de los destinatarios, puede utilizar el botón de varita mágica para hacer coincidir automáticamente los diferentes campos.
 
       ![](assets/import_template_example6_2.png)
 
       >[!NOTE]
       >
-      >Si planea enviar correos electrónicos directos a estos perfiles, asegúrese de incluir una dirección postal, ya que esta información es esencial para el proveedor de correo directo. Also make sure that the **[!UICONTROL Address specified]** box in your profiles' information is checked. To update this option from a workflow, simply add an element to the fields to update, and specify **1** as **[!UICONTROL Source]** and select the **[postalAddress/@addrDefined]** field as **[!UICONTROL Destination]**. For more on direct mail and the use of the **[!UICONTROL Address specified]** option, see [this document](../../channels/using/about-direct-mail.md#recommendations).
+      >Si planea enviar correos directos a estos perfiles, asegúrese de incluir una dirección postal, ya que esta información es esencial para el proveedor de correo directo. Asegúrese también de que la **[!UICONTROL Address specified]** casilla de la información de los perfiles está marcada. Para actualizar esta opción desde un flujo de trabajo, simplemente agregue un elemento a los campos para actualizar, especifique **1** como **[!UICONTROL Source]** y seleccione el campo **[postalAddress/@addrDefined]** como **[!UICONTROL Destination]**. Para obtener más información sobre el correo directo y el uso de la **[!UICONTROL Address specified]** opción, consulte [este documento](../../channels/using/about-direct-mail.md#recommendations).
 
-1. After the third transition of the **[!UICONTROL Segmentation]** activity, add a **[!UICONTROL Extract file]** activity and a **[!UICONTROL Transfer file]** activity if you want to keep track of data not inserted in the database. Configure esas actividades para exportar la columna que necesita y para transferir el archivo en un servidor FTP o SFTP donde pueda recuperarlo.
+1. After the third transition of the **[!UICONTROL Segmentation]** activity, add a **[!UICONTROL Extract file]** activity and a **[!UICONTROL Transfer file]** activity if you want to keep track of data not inserted in the database. Configure las actividades para exportar la columna que necesite y para transferir el archivo en un servidor FTP o SFTP desde donde pueda recuperarlo.
 1. Add an **[!UICONTROL End]** activity and save the workflow template.
 
-La plantilla ahora se puede utilizar y está disponible para cada nuevo flujo de trabajo. All is needed is then to specify the file containing the data to import in the **[!UICONTROL Load file]** activity.
+Ahora la plantilla se puede utilizar y está disponible para cada nuevo flujo de trabajo. All is needed is then to specify the file containing the data to import in the **[!UICONTROL Load file]** activity.
 
 ![](assets/import_template_example9.png)
 
