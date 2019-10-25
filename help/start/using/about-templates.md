@@ -14,7 +14,7 @@ discoiquuid: 95218ebe-5430-42a2-b900-1dadbc92d99
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -37,10 +37,10 @@ Las plantillas están disponibles para las siguientes actividades de marketing:
 
 * Programas
 * Campañas
-* Entregas por correo electrónico
+* Envíos por correo electrónico
 * Entregas de SMS
 * Notificaciones push
-* Páginas de aterrizaje
+* Páginas de destino
 * Flujos de trabajo
 * Servicios
 * Importar
@@ -50,7 +50,7 @@ Estas plantillas se administran desde la pantalla **[!UICONTROL Resources]** &gt
 
 >[!NOTE]
 >
->La configuración de marca puede preconfigurarse en una plantilla de página de aterrizaje o correo electrónico. Para obtener más información, consulte la sección [Marcas](../../administration/using/branding.md) .
+>La configuración de marca puede preconfigurarse en una plantilla de página de aterrizaje o correo electrónico. For more information, refer to the [Branding](../../administration/using/branding.md) section.
 
 ## Plantillas de contenido {#content-templates}
 
@@ -60,9 +60,9 @@ Se puede acceder a las plantillas de contenido HTML desde la pantalla **[!UICONT
 
 Las plantillas de contenido integradas son de solo lectura. Para editar uno de ellos, primero debe duplicar la plantilla deseada.
 
-Puede crear nuevas plantillas o fragmentos y definir su propio contenido. Para obtener más información sobre esto, consulte [Creación de una plantilla](../../start/using/about-templates.md#creating-a-content-template) de contenido y [Creación de un fragmento](../../designing/using/using-reusable-content.md#creating-a-content-fragment)de contenido.
+Puede crear nuevas plantillas o fragmentos y definir su propio contenido. Para obtener más información sobre esto, consulte [Creación de una plantilla](#creating-a-content-template) de contenido y [Creación de un fragmento](../../designing/using/using-reusable-content.md#creating-a-content-fragment)de contenido.
 
-Al editar contenido con el Diseñador de correo electrónico, también puede crear plantillas de contenido guardando el contenido como fragmento o plantilla. Para obtener más información sobre esto, consulte [Guardar contenido como plantilla](../../start/using/about-templates.md#saving-content-as-template) y [Guardar contenido como fragmento](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
+Al editar contenido con el Diseñador de correo electrónico, también puede crear plantillas de contenido guardando el contenido como fragmento o plantilla. Para obtener más información sobre esto, consulte [Guardar contenido como plantilla](#saving-content-as-template) y [Guardar contenido como fragmento](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
 
 ### Plantillas de contenido de correo electrónico integradas {#email-content-templates}
 
@@ -77,7 +77,7 @@ Las plantillas de contenido de correo electrónico integradas incluyen dieciocho
 * Aprenda a personalizar plantillas de contenido [en este vídeo](https://helpx.adobe.com/campaign/kt/acs/using/acs-email_content_templates-feature-video-use.html).
 * Para obtener más información sobre la edición de contenido, consulte [Acerca del diseño](../../designing/using/overview.md)de contenido de correo electrónico.
 
-### Creación de una plantilla de contenido {#creating-a-content-template}
+### Creating a content template {#creating-a-content-template}
 
 Puede crear sus propias plantillas de contenido para utilizarlas tantas veces como sea necesario.
 
