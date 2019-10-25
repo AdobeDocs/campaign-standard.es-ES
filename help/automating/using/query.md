@@ -2,84 +2,84 @@
 title: Consulta
 seo-title: Consulta
 description: Consulta
-seo-description: La actividad Consulta permite filtrar y extraer una población de elementos de la base de datos de Adobe Campaign.
-page-status-flag: no activado nunca
-uuid: b 3 c 629 fa -370 e -481 c-b 347-fcf 9 f 5 a 5 e 847
+seo-description: La actividad Consulta le permite filtrar y extraer una población de elementos de la base de datos de Adobe Campaign.
+page-status-flag: nunca activado
+uuid: b3c629fa-370e-481c-b347-fcf9f5a5e847
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: automatizar
-content-type: reference
-topic-tags: segmentación de actividades
-discoiquuid: 8 d 46 ce 28-0101-4 f 13-865 a -2208 ed 6 d 6139
-context-tags: query, main
+content-type: referencia
+topic-tags: segmentación-actividades
+discoiquuid: 8d46ce28-0101-4f13-865a-2208ed6d6139
+context-tags: consulta,principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d50d486ed77cb7989df47133bb49fde3227ae3a5
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
 
-# Query{#query}
+# Consulta{#query}
 
-## Description {#description}
+## Descripción {#description}
 
 ![](assets/query.png)
 
-The **[!UICONTROL Query]** activity allows you to filter and extract a population of elements from the Adobe Campaign database. You can define **[!UICONTROL Additional data]** for the targeted population via a dedicated tab. Estos datos se almacenan en columnas adicionales y solo se pueden utilizar para el flujo de trabajo en curso.
+La **[!UICONTROL Query]** actividad permite filtrar y extraer una población de elementos de la base de datos de Adobe Campaign. Puede definir **[!UICONTROL Additional data]** para la población objetivo mediante una ficha dedicada. Estos datos se almacenan en columnas adicionales y solo se pueden utilizar para el flujo de trabajo en curso.
 
-La actividad utiliza la herramienta Editor de consultas. This tool is detailed in a [dedicated section](../../automating/using/editing-queries.md#about-query-editor).
+La actividad utiliza la herramienta de edición de consultas. Esta herramienta se detalla en una sección [](../../automating/using/editing-queries.md#about-query-editor)dedicada.
 
-## Context of use {#context-of-use}
+## Contexto de uso {#context-of-use}
 
-The **[!UICONTROL Query]** activity can be used for various types of uses:
+La **[!UICONTROL Query]** actividad se puede utilizar para varios tipos de usos:
 
-* Segmentar a personas para definir el objetivo de un mensaje, audiencia, etc.
+* Segmentación de individuos para definir el destino de un mensaje, una audiencia, etc.
 * Enriquecimiento de datos de toda la tabla de base de datos de Adobe Campaign.
 * Exportación de datos.
 
-## Configuration {#configuration}
+## Configuración {#configuration}
 
-1. Drag and drop a **[!UICONTROL Query]** activity into your workflow.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear. De forma predeterminada, la actividad está preconfigurada para buscar perfiles.
-1. If you would like to run a query on a resource other than the profile resource, go to the activity's **[!UICONTROL Properties]** tab and select a **[!UICONTROL Resource]** and a **[!UICONTROL Targeting dimension]**.
+1. Arrastre y suelte una **[!UICONTROL Query]** actividad en el flujo de trabajo.
+1. Seleccione la actividad y, a continuación, ábrala con el ![](assets/edit_darkgrey-24px.png) botón de las acciones rápidas que aparecen. De forma predeterminada, la actividad está preconfigurada para buscar perfiles.
+1. Si desea ejecutar una consulta en un recurso que no sea el recurso de perfil, vaya a la ficha de la actividad **[!UICONTROL Properties]** y seleccione un **[!UICONTROL Resource]** y un **[!UICONTROL Targeting dimension]**.
 
-   The **[!UICONTROL Resource]** allows you to refine the filters displayed in the palette whereas the **[!UICONTROL Targeting dimension]**, contextual with regard to the resource selected, corresponds to the type of population that you would like to obtain (identified profiles, deliveries, data linked to the selected resource, etc.).
+   El **[!UICONTROL Resource]** permite refinar los filtros mostrados en la paleta, mientras que el **[!UICONTROL Targeting dimension]**, contextual con respecto al recurso seleccionado, corresponde al tipo de población que desea obtener (perfiles identificados, entregas, datos vinculados al recurso seleccionado, etc.).
 
-   For more on this, refer to [Targeting dimensions and resources](../../automating/using/query.md#targeting-dimensions-and-resources)
+   Para obtener más información sobre esto, consulte [Segmentación de dimensiones y recursos](#targeting-dimensions-and-resources).
 
-1. In the **[!UICONTROL Target]** tab, run your query by defining and combining rules.
-1. You can define **[!UICONTROL Additional data]** for the targeted population via a dedicated tab. Estos datos se almacenan en columnas adicionales y solo se pueden utilizar para el flujo de trabajo en curso. En concreto, puede agregar datos de las tablas de base de datos de Adobe Campaign vinculadas a la dimensión de segmentación de la consulta. Consult the [Enriching data](../../automating/using/query.md#enriching-data) section.
+1. En la **[!UICONTROL Target]** ficha, ejecute la consulta definiendo y combinando reglas.
+1. Puede definir **[!UICONTROL Additional data]** para la población objetivo mediante una ficha dedicada. Estos datos se almacenan en columnas adicionales y solo se pueden utilizar para el flujo de trabajo en curso. En particular, puede agregar datos de las tablas de base de datos de Adobe Campaign vinculadas a la dimensión de objetivo de la consulta. Consulte la sección [Enriquecimiento de datos](#enriching-data) .
 
    >[!NOTE]
    >
-   >By default, the **[!UICONTROL Remove duplicate rows (DISTINCT)]** option is checked in the **[!UICONTROL Advanced options]** of the **[!UICONTROL Additional data]** tab of the query. If the **[!UICONTROL Query]** activity contains many (from 100) additional data defined, it is recommended to uncheck this option, for performance reasons. Tenga en cuenta que si desactiva esta opción, obtendrá duplicados en función de la consulta de datos.
+   >De forma predeterminada, la **[!UICONTROL Remove duplicate rows (DISTINCT)]** opción está marcada en la **[!UICONTROL Advanced options]** ficha **[!UICONTROL Additional data]** de la consulta. Si la **[!UICONTROL Query]** actividad contiene muchos (de 100) datos adicionales definidos, se recomienda desactivar esta opción por motivos de rendimiento. Tenga en cuenta que, al desmarcar esta opción, se pueden obtener duplicados, según los datos consultados.
 
-1. In the **[!UICONTROL Transition]** tab, the **[!UICONTROL Enable an outbound transition]** option lets you add an outbound transition after the query activity, even if it retrieves no data.
+1. En la **[!UICONTROL Transition]** ficha, la **[!UICONTROL Enable an outbound transition]** opción le permite agregar una transición de salida después de la actividad de consulta, incluso si no recupera ningún dato.
 
-   The outbound transition's segment code can be personalized using a standard expression and events variables (see [Customizing activities with events variables](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables)).
+   El código de segmento de la transición de salida se puede personalizar mediante una expresión estándar y variables de eventos (consulte [Personalización de actividades con variables](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables)de eventos).
 
-1. Confirme la configuración de su actividad y guarde el flujo de trabajo.
+1. Confirme la configuración de la actividad y guarde el flujo de trabajo.
 
-## Targeting dimensions and resources {#targeting-dimensions-and-resources}
+## Dimensiones y recursos de objetivo {#targeting-dimensions-and-resources}
 
-Las dimensiones y los recursos de objetivos le permiten definir en qué elementos se basará una consulta para determinar el objetivo de una entrega.
+Las dimensiones y los recursos de objetivo permiten definir en qué elementos se basará una consulta para determinar el objetivo de una entrega.
 
-Las dimensiones de objetivo se definen en asignaciones de destino. For more on this, refer to [this section](../../administration/using/target-mappings-in-campaign.md).
+Las dimensiones de objetivo se definen en las asignaciones de objetivo. Para obtener más información, consulte [esta sección](../../administration/using/target-mappings-in-campaign.md).
 
-### Defining the targeting dimension and resource of a query {#defining-the-targeting-dimension-and-resource-of-a-query}
+### Definición de la dimensión de objetivo y el recurso de una consulta {#defining-the-targeting-dimension-and-resource-of-a-query}
 
-Targeting dimension and resources are defined when creating a workflow, in the **[!UICONTROL Properties]** tab of a Query activity.
+La dimensión y los recursos de objetivo se definen al crear un flujo de trabajo, en la **[!UICONTROL Properties]** ficha de una actividad de consulta.
 
 >[!NOTE]
 >
->The targeting dimension can also be defined when creating an audience (see [this section](../../audiences/using/creating-audiences.md)).
+>La dimensión de objetivo también se puede definir al crear una audiencia (consulte [esta sección](../../audiences/using/creating-audiences.md)).
 
 ![](assets/targeting_dimension1.png)
 
 Las dimensiones y los recursos de objetivos están vinculados. Por lo tanto, las dimensiones de objetivo disponibles dependen del recurso seleccionado.
 
-For example, for the Resource **[!UICONTROL Profiles (profile)]**, the following targeting dimensions will be available:
+Por ejemplo, para el recurso **[!UICONTROL Profiles (profile)]**, estarán disponibles las siguientes dimensiones de objetivo:
 
 ![](assets/targeting_dimension2.png)
 
@@ -87,272 +87,272 @@ While for **[!UICONTROL Deliveries (delivery)]**, the list will contain the foll
 
 ![](assets/targeting_dimension3.png)
 
-Una vez especificado los medios y la dimensión de segmentación, en la consulta se encuentran disponibles diferentes filtros.
+Una vez que se han especificado la dimensión y el recurso de objetivo, hay diferentes filtros disponibles en la consulta.
 
-Example of available filters for the **[!UICONTROL Profiles (profile)]** resource:
+Ejemplo de filtros disponibles para el **[!UICONTROL Profiles (profile)]** recurso:
 
 ![](assets/targeting_dimension4.png)
 
-Example of available filters for the **[!UICONTROL Deliveries (delivery)]** resource:
+Ejemplo de filtros disponibles para el **[!UICONTROL Deliveries (delivery)]** recurso:
 
 ![](assets/targeting_dimension5.png)
 
-### Using resources different from targeting dimensions {#using-resources-different-from-targeting-dimensions}
+### Uso de recursos diferentes de dimensiones de objetivo {#using-resources-different-from-targeting-dimensions}
 
-De forma predeterminada, la dimensión y el recurso de segmentación se definen para destinar los perfiles.
+De forma predeterminada, la dimensión de objetivo y el recurso se establecen para dirigirse a los perfiles.
 
-Sin embargo, puede resultar útil utilizar otro recurso de la dimensión de segmentación si desea buscar un registro específico en una tabla distante.
+Sin embargo, puede resultar útil utilizar un recurso diferente de la dimensión de objetivo si desea buscar un registro específico en una tabla distante.
 
-**Ejemplo 1: identificar los perfiles objetivo de la entrega con la etiqueta "Bienvenido atrás! »**.
+**Ejemplo 1: identificando perfiles dirigidos por la entrega con la etiqueta "Welcome back !"**.
 
-* En este caso, queremos segmentar perfiles. We will set the targeting dimension to **[!UICONTROL Profiles (profile)]**.
-* Queremos filtrar los perfiles seleccionados según la etiqueta de entrega. We will therefore set the resource to **[!UICONTROL Delivery logs]**. De este modo, se filtran directamente en la tabla de registro de entrega, lo que ofrece mejores resultados.
+* En este caso, queremos segmentar perfiles. Estableceremos la dimensión de objetivo en **[!UICONTROL Profiles (profile)]**.
+* Queremos filtrar los perfiles seleccionados según la etiqueta de entrega. Por lo tanto, estableceremos el recurso en **[!UICONTROL Delivery logs]**. De esta manera, estamos filtrando directamente en la tabla del registro de entrega, lo que ofrece mejores resultados.
 
 ![](assets/targeting_dimension6.png)
 
 ![](assets/targeting_dimension7.png)
 
-**Ejemplo 2: identificar perfiles que no fueron dirigidos por la entrega con la etiqueta «Bienvenido hacia atrás! »»**
+**Ejemplo 2: identificando perfiles que no fueron objetivo de la entrega con la etiqueta "Bienvenido de nuevo!"**
 
-En el ejemplo anterior, usamos un recurso diferente de la dimensión de objetivo. This operation is only possible if you want to find a record that **is present** in the distant table (delivery logs in our example).
+En el ejemplo anterior, se utilizaba un recurso distinto de la dimensión de objetivo. Esta operación solo es posible si desea encontrar un registro que **esté presente** en la tabla distante (en nuestro ejemplo, registros de entrega).
 
-If we want to find a record that **is not present** in the distant table (for example, profiles who were not targeted by a specific delivery), you must use the same resource and targeting dimension, as the record will not be present in the distant table (delivery logs).
+Si queremos encontrar un registro que no **está presente** en la tabla distante (por ejemplo, perfiles que no están segmentados por una entrega específica), debe utilizar la misma dimensión de objetivo y recurso, ya que el registro no estará presente en la tabla distante (registros de entrega).
 
-* En este caso, queremos segmentar perfiles. We will set the targeting dimension to **[!UICONTROL Profiles (profile)]**.
-* Queremos filtrar los perfiles seleccionados según la etiqueta de entrega. No es posible filtrar directamente en los registros de entrega, ya que estamos buscando un registro no presente en la tabla Registros de entrega. We will therefore set the resource to **[!UICONTROL Profile (profile)]** and build our query on the profiles table.
+* En este caso, queremos segmentar perfiles. Estableceremos la dimensión de objetivo en **[!UICONTROL Profiles (profile)]**.
+* Queremos filtrar los perfiles seleccionados según la etiqueta de entrega. No es posible filtrar directamente los registros de entrega, ya que estamos buscando un registro que no esté presente en la tabla de registros de entrega. Por lo tanto, estableceremos el recurso **[!UICONTROL Profile (profile)]** y construiremos nuestra consulta en la tabla de perfiles.
 
 ![](assets/targeting_dimension8.png)
 
 ![](assets/targeting_dimension9.png)
 
-## Enriching data {#enriching-data}
+## Enriquecimiento de datos {#enriching-data}
 
-**[!UICONTROL Additional data]** La ficha y **[!UICONTROL Query]****[!UICONTROL Incremental query]****[!UICONTROL Enrichment]** las actividades permiten enriquecer los datos dirigidos y transferir estos datos a las siguientes actividades de flujo de trabajo, donde se puede utilizar. En particular, puede agregar:
+La **[!UICONTROL Additional data]** ficha de las actividades **[!UICONTROL Query]**, **[!UICONTROL Incremental query]** y **[!UICONTROL Enrichment]** le permite enriquecer los datos dirigidos y transferir estos datos a las siguientes actividades de flujo de trabajo, donde se pueden utilizar. En particular, puede agregar:
 
 * Datos simples
-* Agrega
+* Acumulados
 * Colecciones
 
-For aggregates and collections, an **[!UICONTROL Alias]** is automatically defined to give a technical ID to a complex expression. Este alias, que debe ser único, permite que los agregados y las colecciones se encuentren fácilmente después. Puede modificarlo para darle un nombre reconocible.
+En el caso de los agregados y las colecciones, **[!UICONTROL Alias]** se define automáticamente un identificador técnico para proporcionar una expresión compleja. Este alias, que debe ser único, permite que los agregados y las colecciones se encuentren fácilmente posteriormente. Puede modificarla para darle un nombre fácilmente reconocible.
 
 >[!NOTE]
 >
->Los alias deben respetar las siguientes reglas de sintaxis: Solo se autorizan los caracteres alfanuméricos y los caracteres "_". Los alias distinguen entre mayúsculas y minúsculas. El alias debe comenzar con el carácter " @". El carácter inmediatamente posterior al " @" no debe ser numérico. Por ejemplo: @ Myalias_ 1 y @_ 1 Alias son correctos; mientras @ myalias # 1 y @ 1 Alias son incorrectos.
+>Los alias deben respetar las siguientes reglas de sintaxis: Sólo se autorizan los caracteres alfanuméricos y los caracteres "_". Los alias distinguen entre mayúsculas y minúsculas. El alias debe comenzar con el carácter "@". El carácter que sigue inmediatamente a "@" no debe ser numérico.  Por ejemplo: @myAlias_1 y @_1Alias son correctos; mientras que @myAlias#1 y @1Alias son incorrectos.
 
-Después de agregar datos adicionales, puede aplicar un nivel de filtro adicional a los datos inicialmente dirigidos creando condiciones basadas en los datos adicionales definidos.
+Después de agregar cualquier dato adicional, puede aplicar un nivel de filtro adicional a los datos objetivo inicial creando condiciones basadas en los datos adicionales definidos.
 
 >[!NOTE]
 >
->By default, the **[!UICONTROL Remove duplicate rows (DISTINCT)]** option is checked in the **[!UICONTROL Advanced options]** of the **[!UICONTROL Additional data]** tab of the query. If the **[!UICONTROL Query]** activity contains many (from 100) additional data defined, it is recommended to uncheck this option, for performance reasons. Tenga en cuenta que si desactiva esta opción, obtendrá duplicados en función de la consulta de datos.
+>De forma predeterminada, la **[!UICONTROL Remove duplicate rows (DISTINCT)]** opción está marcada en la **[!UICONTROL Advanced options]** ficha **[!UICONTROL Additional data]** de la consulta. Si la **[!UICONTROL Query]** actividad contiene muchos (de 100) datos adicionales definidos, se recomienda desactivar esta opción por motivos de rendimiento. Tenga en cuenta que, al desmarcar esta opción, se pueden obtener duplicados, según los datos consultados.
 
-### Adding a simple field {#adding-a-simple-field}
+### Adición de un campo simple {#adding-a-simple-field}
 
-Al agregar un campo simple como datos adicionales, ese campo queda directamente visible en la transición saliente de la actividad. Esto permite al usuario comprobar, por ejemplo, que los datos de la consulta son los datos deseados.
+Al agregar un campo simple como datos adicionales, ese campo se vuelve directamente visible en la transición de salida de la actividad. Esto permite al usuario comprobar, por ejemplo, que los datos de la consulta son los datos deseados.
 
-1. From the **[!UICONTROL Additional data]** tab, add a new element.
-1. In the window that opens, in the **[!UICONTROL Expression]** field, select one of the fields available directly in the targeting dimension or in one of the linked dimensions. Puede editar expresiones y utilizar funciones o cálculos simples (excepto agregados) de los campos de dimensión.
+1. En la **[!UICONTROL Additional data]** ficha, agregue un nuevo elemento.
+1. En la ventana que se abre, en el **[!UICONTROL Expression]** campo, seleccione uno de los campos disponibles directamente en la dimensión de objetivo o en una de las dimensiones vinculadas. Puede editar expresiones y utilizar funciones o cálculos simples (excepto agregados) desde los campos de dimensión.
 
-   An **[!UICONTROL Alias]** is automatically created if you edit an expression that is not a simple XPATH path (for example: "Year(&lt;@birthDate&gt;)"). Si lo desea, puede modificarlo. If you only select one field (for example: "@age"), you do not need to define an **[!UICONTROL Alias]**.
+   Se **[!UICONTROL Alias]** crea automáticamente si edita una expresión que no es una ruta XPATH simple (por ejemplo: "Year(&lt;@bornDate&gt;)"). Si lo desea, puede modificarlo. Si sólo selecciona un campo (por ejemplo: "@age"), no necesita definir un **[!UICONTROL Alias]**.
 
-1. Select **[!UICONTROL Add]** to confirm adding the field to the additional data. Cuando se ejecute la consulta, se mostrará una columna adicional correspondiente al campo agregada en la transición saliente de la actividad.
+1. Seleccione **[!UICONTROL Add]** para confirmar la adición del campo a los datos adicionales. Cuando se ejecuta la consulta, una columna adicional correspondiente al campo agregado estará presente en la transición de salida de la actividad.
 
 ![](assets/enrichment_add_simple_field.png)
 
-### Adding an aggregate {#adding-an-aggregate}
+### Adición de un agregado {#adding-an-aggregate}
 
-Los agregados permiten calcular los valores a partir de los campos de la dimensión de objetivo o de los campos de dimensiones vinculados a la dimensión de objetivo. Por ejemplo: la cantidad media comprada por un perfil.
+Los agregados permiten calcular valores a partir de campos de la dimensión de objetivo o de campos de dimensiones vinculados a la dimensión de objetivo.  Por ejemplo: la cantidad promedio comprada por un perfil.
 
-1. From the **[!UICONTROL Additional data]** tab, add a new element.
-1. In the window that opens, select the collection that you want to use to create your aggregate in the **[!UICONTROL Expression]** field.
+1. En la **[!UICONTROL Additional data]** ficha, agregue un nuevo elemento.
+1. En la ventana que se abre, seleccione la colección que desee utilizar para crear el agregado en el **[!UICONTROL Expression]** campo.
 
-   An **[!UICONTROL Alias]** is created automatically. If you like, you can modify it by going back to the query's **[!UICONTROL Additional data]** tab.
+   Se **[!UICONTROL Alias]** crea automáticamente un archivo. Si lo desea, puede modificarla volviendo a la **[!UICONTROL Additional data]** ficha de la consulta.
 
-   Se abre la ventana de definición agregada.
+   Se abre la ventana de definición de agregado.
 
-1. Define an aggregate from the **[!UICONTROL Data]** tab. Depending on the type of aggregate selected, only the elements whose data is compatible are available in the **[!UICONTROL Expression]** field. Por ejemplo, una suma solo se puede calcular con datos numéricos.
+1. Defina un agregado desde la **[!UICONTROL Data]** ficha. Según el tipo de agregado seleccionado, solo los elementos cuyos datos son compatibles están disponibles en el **[!UICONTROL Expression]** campo. Por ejemplo, una suma solo se puede calcular con datos numéricos.
 
    ![](assets/enrichment_add_aggregate.png)
 
-   Puede agregar varios agregados para los campos de la colección seleccionada. Asegúrese de definir etiquetas explícitas para distinguir las distintas columnas en los detalles de los datos salientes de la actividad.
+   Puede agregar varios agregados para los campos de la colección seleccionada. Asegúrese de definir etiquetas explícitas para distinguir las diferentes columnas en los detalles de los datos de salida de la actividad.
 
-   También puede cambiar los alias que se definen automáticamente para cada conjunto.
+   También puede cambiar los alias que se definen automáticamente para cada agregado.
 
    ![](assets/enrichment_add_aggregate2.png)
 
 1. Si es necesario, puede agregar un filtro para limitar los datos tomados en cuenta.
 
-   Refer to the [Filtering added data](../../automating/using/query.md#filtering-added-data) section.
+   Consulte la sección [Filtrado de datos](#filtering-added-data) agregados.
 
-1. Select **[!UICONTROL Confirm]** to add aggregates.
+1. Seleccione **[!UICONTROL Confirm]** para agregar agregados.
 
 >[!NOTE]
 >
->You cannot create an expression containing an aggregate directly from the **[!UICONTROL Expression]** field of the **[!UICONTROL New additional data]** window.
+>No se puede crear una expresión que contenga un agregado directamente desde el **[!UICONTROL Expression]** campo de la **[!UICONTROL New additional data]** ventana.
 
-### Adding a collection {#adding-a-collection}
+### Adición de una colección {#adding-a-collection}
 
-1. From the **[!UICONTROL Additional data]** tab, add a new element.
-1. In the window that opens, select the collection that you want to add in the **[!UICONTROL Expression]** field. An **[!UICONTROL Alias]** is created automatically. If you like, you can modify it by going back to the query's **[!UICONTROL Additional data]** tab.
-1. Select **[!UICONTROL Add]**. Se abre una ventana nueva que permite refinar los datos de la colección que desee mostrar.
-1. In the **[!UICONTROL Parameters]** tab, select **[!UICONTROL Collection]** and define the number of lines of the collection that you want to add. For example, if you want to get the three most recent purchases carried out by each profile, enter "3" in the **[!UICONTROL Number of lines to return]** field.
+1. En la **[!UICONTROL Additional data]** ficha, agregue un nuevo elemento.
+1. En la ventana que se abre, seleccione la colección que desee agregar al **[!UICONTROL Expression]** campo. Se **[!UICONTROL Alias]** crea automáticamente un archivo. Si lo desea, puede modificarla volviendo a la **[!UICONTROL Additional data]** ficha de la consulta.
+1. Select **[!UICONTROL Add]**. Se abre una nueva ventana, que permite refinar los datos de recopilación que desea mostrar.
+1. En la **[!UICONTROL Parameters]** ficha, seleccione **[!UICONTROL Collection]** y defina el número de líneas de la colección que desea agregar. Por ejemplo, si desea que las tres compras más recientes realizadas por cada perfil se realicen, introduzca "3" en el **[!UICONTROL Number of lines to return]** campo.
 
    >[!NOTE]
    >
    >Debe especificar un número mayor o igual que 1.
 
-1. From the **[!UICONTROL Data]** tab, define the fields of the collection that you want to display for each line.
+1. En la **[!UICONTROL Data]** ficha, defina los campos de la colección que desea mostrar para cada línea.
 
    ![](assets/enrichment_add_collection.png)
 
-1. Si lo desea, puede agregar un filtro para limitar las líneas de la colección teniendo en cuenta.
+1. Si lo desea, puede agregar un filtro para limitar las líneas de recopilación que se tienen en cuenta.
 
-   Refer to the [Filtering added data](../../automating/using/query.md#filtering-added-data) section.
+   Consulte la sección [Filtrado de datos](#filtering-added-data) agregados.
 
-1. Si lo desea, puede definir una ordenación de datos.
+1. Si lo desea, puede definir una clasificación de datos.
 
-   For example, if you have selected 3 lines to return in the **[!UICONTROL Parameters]** tab, and you want to determine the three most recent purchases, you can define a descending sort on the "date" field of the collection that corresponds to the transactions.
+   Por ejemplo, si ha seleccionado 3 líneas para que se devuelvan en la **[!UICONTROL Parameters]** ficha y desea determinar las tres compras más recientes, puede definir un orden descendente en el campo "fecha" de la colección que corresponde a las transacciones.
 
-1. Refer to the [Sorting additional data](../../automating/using/query.md#sorting-additional-data) section.
-1. Select **[!UICONTROL Confirm]** to add the collection.
+1. Consulte la sección [Ordenar datos](#sorting-additional-data) adicionales.
+1. Seleccione **[!UICONTROL Confirm]** para agregar la colección.
 
-### Filtering added data {#filtering-added-data}
+### Filtrado de datos agregados {#filtering-added-data}
 
-Al agregar un conjunto o una colección, puede especificar un filtro adicional para limitar los datos que desee mostrar.
+Al agregar un agregado o una colección, puede especificar un filtro adicional para limitar los datos que desea mostrar.
 
-For example, if you want to only process the collection lines of transactions with amounts of 50 dollars and above, you can add a condition on the field corresponding to the transaction amount from the **[!UICONTROL Filter]** tab.
+Por ejemplo, si sólo desea procesar las líneas de recopilación de transacciones con importes de 50 dólares o más, puede agregar una condición en el campo correspondiente al importe de la transacción desde la **[!UICONTROL Filter]** ficha.
 
 ![](assets/enrichment_filter_data.png)
 
-### Sorting additional data {#sorting-additional-data}
+### Ordenar datos adicionales {#sorting-additional-data}
 
-Cuando agrega un conjunto o una colección a los datos de una consulta, puede especificar si desea aplicar una ordenación (ya sea ascendente o descendente) según el valor del campo o la expresión definida.
+Al agregar un agregado o una colección a los datos de una consulta, puede especificar si desea aplicar una ordenación (ya sea ascendente o descendente) basada en el valor del campo o en la expresión definida.
 
-For example, if you want to save only the transaction that was carried out most recently by a profile, enter "1" in the **[!UICONTROL Number of lines to return]** field of the **[!UICONTROL Parameters]** tab, and apply a descending sort on the field corresponding to the transaction date via the **[!UICONTROL Sort]** tab.
+Por ejemplo, si desea guardar únicamente la transacción que un perfil realizó más recientemente, introduzca "1" en el **[!UICONTROL Number of lines to return]** campo de la **[!UICONTROL Parameters]** ficha y aplique un orden descendente en el campo correspondiente a la fecha de transacción mediante la **[!UICONTROL Sort]** ficha.
 
 ![](assets/enrichment_sort_data.png)
 
-### Filtering the targeted data according to additional data {#filtering-the-targeted-data-according-to-additional-data}
+### Filtrado de datos objetivo según datos adicionales {#filtering-the-targeted-data-according-to-additional-data}
 
-Once you have added additional data, a new **[!UICONTROL Output filtering]** tab appears in the **[!UICONTROL Query]**. This tab allows you to apply an additional filter on the data initially targeted in the **[!UICONTROL Target]** tab, by taking into account the added data.
+Una vez que haya agregado datos adicionales, aparecerá una nueva **[!UICONTROL Output filtering]** ficha en la **[!UICONTROL Query]**. Esta ficha le permite aplicar un filtro adicional a los datos que inicialmente están en la **[!UICONTROL Target]** ficha, teniendo en cuenta los datos agregados.
 
-For example, if you have targeted all of the profiles that carried out at least one transaction and an aggregate calculating the average transaction amount carried out for each profile was added to the **[!UICONTROL Additional data]**, you can refine the population initially calculated using this average.
+Por ejemplo, si se han segmentado todos los perfiles que han realizado al menos una transacción y se ha añadido al perfil un cálculo global del importe de transacción promedio realizado para cada perfil, puede refinar la población calculada inicialmente con este promedio. **[!UICONTROL Additional data]**
 
-To do this, in the **[!UICONTROL Output filtering]** tab, simply add a condition on this additional data.
+Para ello, en la **[!UICONTROL Output filtering]** ficha, simplemente agregue una condición a estos datos adicionales.
 
 ![](assets/enrichment_output_filtering2.png)
 
 ![](assets/enrichment_output_filtering.png)
 
-### Example: personalizing an email with additional data {#example--personalizing-an-email-with-additional-data}
+### Ejemplo: personalización de un correo electrónico con datos adicionales {#example--personalizing-an-email-with-additional-data}
 
-El siguiente ejemplo ilustra la adición de distintos tipos de datos adicionales a una consulta y su uso como campo de personalización en un mensaje de correo electrónico.
+El siguiente ejemplo ilustra la adición de diferentes tipos de datos adicionales a una consulta y su uso como campo de personalización en un correo electrónico.
 
-For this example, [custom resources](../../developing/using/data-model-concepts.md) are used:
+Para este ejemplo, se utilizan recursos [](../../developing/using/data-model-concepts.md) personalizados:
 
-* The **profile** resource was extended in order to add a field which allows each profile's loyalty points to be saved.
-* A **transactions** resource was created and identifies all purchases carried out by the profiles in the database. La fecha, el precio y el producto comprado se guardan para cada transacción.
-* A **products** resource was created and references the products available for purchase.
+* El recurso de **perfil** se amplió para agregar un campo que permite guardar los puntos de lealtad de cada perfil.
+* Se creó un recurso de **transacciones** que identifica todas las compras realizadas por los perfiles de la base de datos. La fecha, el precio y el producto comprados se guardan para cada transacción.
+* Se creó un recurso de **productos** que hace referencia a los productos disponibles para la compra.
 
-El objetivo es enviar un correo electrónico a los perfiles para los que se haya guardado al menos una transacción. A través de este mensaje de correo electrónico, los clientes recibirán un recordatorio de la última transacción realizada, así como una descripción general de todas sus transacciones: la cantidad de productos comprados, el total invertido, un recordatorio del número total de puntos de lealtad que han acumulado.
+El objetivo es enviar un correo electrónico a los perfiles para los que se ha guardado al menos una transacción. A través de este correo electrónico, los clientes recibirán un recordatorio de la última transacción realizada, así como una visión general de todas sus transacciones: el número de productos comprados, el total gastado, un recordatorio del número total de puntos de lealtad que han acumulado.
 
 El flujo de trabajo se presenta de la siguiente manera:
 
 ![](assets/enrichment_example1.png)
 
-1. Add a **[!UICONTROL Query]** activity, which allows you to target the profiles that have carried out at least one transaction.
+1. Agregue una **[!UICONTROL Query]** actividad que le permita dirigirse a los perfiles que han realizado al menos una transacción.
 
    ![](assets/enrichment_example2.png)
 
-   From the query's **[!UICONTROL Additional data]** tab, define the different data to be displayed in the final email:
+   En la **[!UICONTROL Additional data]** ficha de la consulta, defina los diferentes datos que se mostrarán en el correo electrónico final:
 
-   * The simple field of the **profile** dimension corresponding to the loyalty points. Refer to the [Adding a simple field](../../automating/using/query.md#adding-a-simple-field) section.
-   * Dos agregados en función de la colección de transacciones: la cantidad de productos comprados y la cantidad total gastada. You can add them from the **[!UICONTROL Data]** tab of the aggregate configuration window, using the **Count** and **Sum** aggregates. Refer to the [Adding an aggregate](../../automating/using/query.md#adding-an-aggregate) section.
-   * Una colección que devuelve la cantidad gastada, la fecha y el producto de la última transacción realizada.
+   * Campo simple de la dimensión de **perfil** correspondiente a los puntos de lealtad. Consulte la sección [Adición de un campo](#adding-a-simple-field) sencillo.
+   * Dos agregados basados en la recopilación de transacciones: el número de productos comprados y la cantidad total gastada. Puede agregarlos desde la **[!UICONTROL Data]** ficha de la ventana de configuración agregada, utilizando los agregados **Recuento** y **Suma** . Consulte la sección [Adición de un agregado](#adding-an-aggregate) .
+   * Recopilación que devuelve el importe gastado, la fecha y el producto de la última transacción realizada.
 
-      To do this, you have to add the different fields that you want to display from the **[!UICONTROL Data]** tab of the collection configuration window.
+      Para ello, debe agregar los diferentes campos que desea mostrar desde la ficha de la ventana de configuración de la colección **[!UICONTROL Data]** .
 
-      To return only the most recent transaction, you have to enter "1" for the **[!UICONTROL Number of lines to return]** and apply a descending sort on the **Date** field of the collection from the **[!UICONTROL Sort]** tab.
+      Para devolver solo la transacción más reciente, debe introducir "1" para la **[!UICONTROL Number of lines to return]** y aplicar un orden descendente en el campo **Fecha** de la colección desde la **[!UICONTROL Sort]** ficha.
 
-      Refer to the [Adding a collection](../../automating/using/query.md#adding-a-collection) and [Sorting additional data](../../automating/using/query.md#sorting-additional-data) sections.
+      Consulte las secciones [Adición de una colección](#adding-a-collection) y [Clasificación de datos](#sorting-additional-data) adicionales.
    ![](assets/enrichment_example4.png)
 
-   If you would like to check that the data is correctly transferred by the activity's outbound transition, start the workflow for the first time (without the **[!UICONTROL Email delivery]** activity) and open the query's outbound transition.
+   Si desea comprobar que la transición de salida de la actividad transfiere correctamente los datos, inicie el flujo de trabajo por primera vez (sin la actividad) y abra la transición de salida de la consulta. **[!UICONTROL Email delivery]**
 
    ![](assets/enrichment_example5.png)
 
-1. Add an **[!UICONTROL Email delivery]** activity. En el contenido de correo electrónico, inserte los campos de personalización correspondientes a los datos calculados en la consulta. You can find it via the **[!UICONTROL Additional data (targetData)]** link of the personalization fields explorer.
+1. Agregue una **[!UICONTROL Email delivery]** actividad. En el contenido del correo electrónico, inserte los campos de personalización correspondientes a los datos calculados en la consulta. Puede encontrarlo a través del **[!UICONTROL Additional data (targetData)]** vínculo del explorador de campos de personalización.
 
    ![](assets/enrichment_example3.png)
 
-El flujo de trabajo ya está listo para ejecutarse. Los perfiles objetivo de la consulta recibirán un correo electrónico personalizado con los datos calculados a partir de sus transacciones.
+El flujo de trabajo ya está listo para ejecutarse. Los perfiles dirigidos en la consulta recibirán un correo electrónico personalizado que contiene los datos calculados a partir de sus transacciones.
 
-## Query samples {#query-samples}
+## Ejemplos de consultas {#query-samples}
 
 ### Targeting on simple profile attributes {#targeting-on-simple-profile-attributes}
 
-El siguiente ejemplo muestra una actividad de consulta configurada para dirigirse a hombres entre 18 y 30 años, viviendo en Londres.
+El siguiente ejemplo muestra una actividad de consulta configurada para dirigirse a hombres de entre 18 y 30 años que viven en Londres.
 
 ![](assets/query_sample_1.png)
 
-### Targeting on email attributes {#targeting-on-email-attributes}
+### Objetivo en atributos de correo electrónico {#targeting-on-email-attributes}
 
-El siguiente ejemplo muestra una actividad de consulta configurada para segmentar perfiles con el dominio de dirección de correo electrónico "orange.co.uk".
+El siguiente ejemplo muestra una actividad de consulta configurada para perfiles de destino con el dominio de dirección de correo electrónico "orange.co.uk".
 
 ![](assets/query_sample_emaildomain.png)
 
-El siguiente ejemplo muestra una actividad de consulta configurada para segmentar perfiles cuya dirección de correo electrónico se ha proporcionado.
+El siguiente ejemplo muestra una actividad de consulta configurada para perfiles de destino cuya dirección de correo electrónico se ha proporcionado.
 
 ![](assets/query_sample_emailnotempty.png)
 
-### Targeting profiles whose birthday is today {#targeting-profiles-whose-birthday-is-today}
+### Perfiles de objetivo cuyo cumpleaños es hoy {#targeting-profiles-whose-birthday-is-today}
 
-El siguiente ejemplo muestra una actividad de consulta configurada para segmentar perfiles cuyo cumpleaños es hoy.
+El siguiente ejemplo muestra una actividad de consulta configurada para perfiles de destino cuyo cumpleaños es hoy.
 
-1. Drag the **[!UICONTROL Birthday]** filter in your query.
+1. Arrastre el **[!UICONTROL Birthday]** filtro en la consulta.
 
    ![](assets/query_sample_birthday.png)
 
-1. Set the **[!UICONTROL Filter type]** to **[!UICONTROL Relative]** and select **[!UICONTROL Today]**.
+1. Configure el **[!UICONTROL Filter type]** en **[!UICONTROL Relative]** y seleccione **[!UICONTROL Today]**.
 
    ![](assets/query_sample_birthday2.png)
 
-### Targeting profiles who opened a specific delivery {#targeting-profiles-who-opened-a-specific-delivery}
+### Perfiles de objetivo que abrieron una entrega específica {#targeting-profiles-who-opened-a-specific-delivery}
 
 El siguiente ejemplo muestra una actividad de consulta configurada para filtrar perfiles que abrieron la entrega con la etiqueta "Hora de verano".
 
-1. Drag the **[!UICONTROL Opened]** filter in your query.
+1. Arrastre el **[!UICONTROL Opened]** filtro en la consulta.
 
    ![](assets/query_sample_opened.png)
 
-1. Select the delivery then click **[!UICONTROL Confirm]**.
+1. Seleccione el envío y haga clic en **[!UICONTROL Confirm]**.
 
    ![](assets/query_sample_opened2.png)
 
-### Targeting profiles for whom deliveries failed for a specific reason {#targeting-profiles-for-whom-deliveries-failed-for-a-specific-reason}
+### Perfiles de objetivo para los que fallaron las entregas por un motivo específico {#targeting-profiles-for-whom-deliveries-failed-for-a-specific-reason}
 
-El siguiente ejemplo muestra una actividad de consulta configurada para filtrar perfiles para los que las entregas fallaron porque su buzón de correo estaba lleno. This query is only available for users with administration rights and belonging to the **[!UICONTROL All (all)]** organizational units (see [this section](../../administration/using/organizational-units.md)).
+El siguiente ejemplo muestra una actividad de consulta configurada para filtrar perfiles para los que las entregas fallaron porque su buzón estaba lleno. Esta consulta sólo está disponible para usuarios con derechos de administración y pertenecientes a las **[!UICONTROL All (all)]** unidades organizativas (ver [esta sección](../../administration/using/organizational-units.md)).
 
-1. Select the **[!UICONTROL Delivery logs]** resource in order to filter directly in the delivery log table (see [Using resources different from targeting dimensions](../../automating/using/query.md#using-resources-different-from-targeting-dimensions)).
+1. Seleccione el **[!UICONTROL Delivery logs]** recurso para filtrar directamente en la tabla del registro de entrega (consulte [Uso de recursos diferentes de las dimensiones](#using-resources-different-from-targeting-dimensions)de objetivo).
 
    ![](assets/query_sample_failure1.png)
 
-1. Drag the **[!UICONTROL Nature of failure]** filter in your query.
+1. Arrastre el **[!UICONTROL Nature of failure]** filtro en la consulta.
 
    ![](assets/query_sample_failure2.png)
 
-1. Seleccione el tipo de error que desea establecer como objetivo. In our case **[!UICONTROL Mailbox full]**.
+1. Seleccione el tipo de error al que desea dirigirse. En nuestro caso **[!UICONTROL Mailbox full]**.
 
    ![](assets/query_sample_failure3.png)
 
-### Targeting profiles not contacted during the last 7 days {#targeting-profiles-not-contacted-during-the-last-7-days}
+### Perfiles de objetivo no contactados durante los últimos 7 días {#targeting-profiles-not-contacted-during-the-last-7-days}
 
-El siguiente ejemplo muestra una actividad de consulta configurada para filtrar perfiles que no se han contestado durante los últimos 7 días.
+El siguiente ejemplo muestra una actividad de consulta configurada para filtrar perfiles con los que no se ha contactado durante los últimos 7 días.
 
-1. Drag the **[!UICONTROL Delivery logs (logs)]** filter in your query.
+1. Arrastre el **[!UICONTROL Delivery logs (logs)]** filtro en la consulta.
 
    ![](assets/query_sample_7days.png)
 
-   Select **[!UICONTROL Does not exist]** in the drop-down list, then drag the **[!UICONTROL Delivery]** filter.
+   Seleccione **[!UICONTROL Does not exist]** en la lista desplegable y arrastre el **[!UICONTROL Delivery]** filtro.
 
    ![](assets/query_sample_7days1.png)
 
@@ -360,17 +360,17 @@ El siguiente ejemplo muestra una actividad de consulta configurada para filtrar 
 
    ![](assets/query_sample_7days2.png)
 
-### Targeting profiles who clicked a specific link {#targeting-profiles-who-clicked-a-specific-link-}
+### Perfiles de objetivo que hicieron clic en un vínculo específico {#targeting-profiles-who-clicked-a-specific-link-}
 
-1. Drag the **[!UICONTROL Tracking logs (tracking)]** filter in your query.
+1. Arrastre el **[!UICONTROL Tracking logs (tracking)]** filtro en la consulta.
 
    ![](assets/query_sample_trackinglogs.png)
 
-1. Drag the **[!UICONTROL Label (urlLabel)]** filter.
+1. Arrastre el **[!UICONTROL Label (urlLabel)]** filtro.
 
    ![](assets/query_sample_trackinglogs2.png)
 
-1. In the **[!UICONTROL Value]** field, type the label that was defined when inserting the link in the delivery, then confirm.
+1. En el **[!UICONTROL Value]** campo, escriba la etiqueta que se definió al insertar el vínculo en el envío y confirme.
 
    ![](assets/query_sample_trackinglogs3.png)
 
