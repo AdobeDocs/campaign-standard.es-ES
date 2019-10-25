@@ -3,106 +3,106 @@ title: Actualización de la estructura de la base de datos
 seo-title: Actualización de la estructura de la base de datos
 description: Actualización de la estructura de la base de datos
 seo-description: Descubra cómo actualizar la base de datos de Adobe Campaign.
-page-status-flag: no activado nunca
-uuid: 6 c 802 f 4 f-d 298-4 ca 4-acdb -09 f 2 ad 3865 b 9
+page-status-flag: nunca activado
+uuid: 6c802f4f-d298-4ca4-acdb-09f2ad3865b9
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: desarrollar
-content-type: reference
-topic-tags: adición-ampliación-a-recurso
-discoiquuid: 2448 b 126-66 b 8-4608-aa 6 c -8028 fb 1902 a 4
-context-tags: implementar, main; Eventcusresource, información general
+products: SG_CAMPAIGN/STANDARD
+audience: desarrollo
+content-type: referencia
+topic-tags: agregar o ampliar un recurso
+discoiquuid: 2448b126-66b8-4608-aa6c-8028fb1902a4
+context-tags: implementación,principal;eventCusResource,información general
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
 
-# Updating the database structure{#updating-the-database-structure}
+# Actualización de la estructura de la base de datos{#updating-the-database-structure}
 
-Para que las modificaciones del modelo de datos sean eficaces y poder utilizarlas, es necesario actualizar la estructura de la base de datos.
+Para que las modificaciones del modelo de datos sean efectivas y puedan utilizarse, es necesario actualizar la estructura de la base de datos.
 
 >[!NOTE]
 >
 >Los recursos personalizados se actualizan automáticamente durante las actualizaciones automáticas realizadas por Adobe.
 
-## Publishing a custom resource {#publishing-a-custom-resource}
+## Publicación de un recurso personalizado {#publishing-a-custom-resource}
 
-Para aplicar los cambios realizados en los recursos, debe realizar una actualización de base de datos.
+Para aplicar los cambios realizados en los recursos, debe realizar una actualización de la base de datos.
 
 >[!NOTE]
 >
->Si se modifica o elimina un campo de un recurso personalizado en un evento, el evento correspondiente se cancelará automáticamente. See [Configuring Transactional messaging](../../administration/using/configuring-transactional-messaging.md).
+>Si se modifica o elimina un campo de un recurso personalizado utilizado en un evento, el evento correspondiente se cancelará automáticamente la publicación. Consulte [Configuración de mensajes](../../administration/using/configuring-transactional-messaging.md)transaccionales.
 
-1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]**, then **[!UICONTROL Publishing]**.
-1. By default, the option **[!UICONTROL Determine modifications since the last publication]** is checked, which means that only the changes carried out since the last update will be applied.
+1. En el menú avanzado, a través del logotipo de Adobe Campaign, seleccione **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** y, a continuación, **[!UICONTROL Publishing]**.
+1. De forma predeterminada, la opción **[!UICONTROL Determine modifications since the last publication]** está marcada, lo que significa que solo se aplicarán los cambios realizados desde la última actualización.
 
    >[!NOTE]
    >
-   >The **[!UICONTROL Repair database structure]** reestablishes a correct configuration if the publication failed before completing. Todas las modificaciones que se realicen directamente en la base de datos y no utilicen recursos personalizados se eliminarán.
+   >El **[!UICONTROL Repair database structure]** restablece una configuración correcta si la publicación falló antes de completarse. Se eliminará cualquier modificación que se haya realizado directamente en la base de datos y que no utilice recursos personalizados.
 
    ![](assets/schema_extension_12.png)
 
-1. Click the **[!UICONTROL Prepare publication]** button to start the analysis. Tenga en cuenta que las actualizaciones de tabla grandes deben realizarse cuando la instancia no está intensa por los flujos de trabajo.
+1. Haga clic en el **[!UICONTROL Prepare publication]** botón para iniciar el análisis. Tenga en cuenta que las actualizaciones de tablas grandes deben realizarse cuando los flujos de trabajo no ocupen la instancia de forma intensiva.
 
-   To learn more on the action to perform on the Profiles &amp; Services API, refer to [Publishing a resource with API extension](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension).
+   Para obtener más información sobre la acción que se debe realizar en la API de perfiles y servicios, consulte [Publicación de un recurso con extensión](#publishing-a-resource-with-api-extension)API.
 
    ![](assets/schema_extension_13.png)
 
-1. Once the publication has been carried out, click the **[!UICONTROL Publish]** button to apply your new configurations.
-1. Once published, the **[!UICONTROL Summary]** pane of each resource indicates that the status is now **[!UICONTROL Published]** and specifies the date of the last publication.
+1. Una vez realizada la publicación, haga clic en el **[!UICONTROL Publish]** botón para aplicar las nuevas configuraciones.
+1. Una vez publicada, el **[!UICONTROL Summary]** panel de cada recurso indica que el estado es ahora **[!UICONTROL Published]** y especifica la fecha de la última publicación.
 
    >[!NOTE]
    >
    >Si realiza nuevos cambios en un recurso, debe repetir esta operación para que se apliquen los cambios.
 
-   If resources have the **[!UICONTROL Pending re-draft]** status before publishing, then an additional message will appear inviting you to check your actions because publishing will result in definitive changes (deleting columns, tables...). To help you carry out this last change, an **[!UICONTROL SQL Script]** tab is available. Proporciona el comando SQL que se ejecutará durante la publicación.
+   Si los recursos tienen el **[!UICONTROL Pending re-draft]** estado antes de publicar, aparecerá un mensaje adicional invitándole a comprobar sus acciones porque la publicación generará cambios definitivos (eliminando columnas, tablas...). Para ayudarle a realizar este último cambio, hay una **[!UICONTROL SQL Script]** ficha disponible. Proporciona el comando SQL que se ejecutará durante la publicación.
 
    ![](assets/schema_extension_scriptsql.png)
 
    >[!NOTE]
    >
-   >You can stop the Re-draft process by clicking the **[!UICONTROL Cancel re-draft]** button. Esta acción revertirá el estado del recurso a su original.
+   >Para detener el proceso de reborrador, haga clic en el **[!UICONTROL Cancel re-draft]** botón . Esta acción revertirá el estado del recurso a su estado original.
 
-1. If your publication failed, you can always go back to the previous publication by clicking **[!UICONTROL Back to latest successful publication]**.
+1. Si la publicación falla, siempre puede volver a la publicación anterior haciendo clic en **[!UICONTROL Back to latest successful publication]**.
 
-   Tenga en cuenta que, si deja la publicación en estado de error, se abrirá una ventana emergente en cuanto inicie sesión en la instancia para recordarle que corrija esta publicación. Su instancia no se actualizará con versiones de producto nuevas hasta que se corrija la publicación.
+   Tenga en cuenta que, si deja la publicación en un estado de error, se abrirá una ventana emergente en cuanto inicie sesión en la instancia para recordarle que debe corregir esta publicación. Su instancia no se actualizará con nuevas versiones de productos hasta que se corrija la publicación.
 
    ![](assets/schema_extension_31.png)
 
-## Publishing a resource with API extension {#publishing-a-resource-with-api-extension}
+## Publicación de un recurso con la extensión API {#publishing-a-resource-with-api-extension}
 
 Puede crear la API de perfil y servicios en los siguientes casos:
 
-* When you extend the custom resources **[!UICONTROL Profiles]** or **[!UICONTROL Services]**, you can perform an update of the Profiles and Services API to integrate the fields declared in the custom resources extension.
-* When you define a custom resource and you create a link between the resources **[!UICONTROL Profiles]** or **[!UICONTROL Services]** and the custom resource, you can perform an update to include the new resource in the API.
+* Al ampliar los recursos personalizados **[!UICONTROL Profiles]** o **[!UICONTROL Services]**, puede actualizar la API de perfiles y servicios para integrar los campos declarados en la extensión de recursos personalizados.
+* Cuando define un recurso personalizado y crea un vínculo entre los recursos **[!UICONTROL Profiles]** o **[!UICONTROL Services]** y el recurso personalizado, puede realizar una actualización para incluir el nuevo recurso en la API.
 
 Puede seleccionar esta opción en la pantalla de publicación.
 
-* Si la API todavía no se ha publicado (significa que nunca ha extendido el recurso o si nunca ha seleccionado esta opción para este recurso u otro recurso), tiene la opción de crearla o no.
+* Si la API aún no se ha publicado (es decir, si nunca ha ampliado el recurso o si nunca ha marcado esta opción para este recurso u otro recurso), tiene la opción de crearla o no.
 
    ![](assets/create-profile-and-services-api.png)
 
-* Si la API ya se ha publicado (significa que ya ha ampliado el recurso y ha seleccionado esta opción una vez), se forzará la actualización de la API.
+* Si la API ya se ha publicado (es decir, si ya ha ampliado el recurso y ha marcado esta opción una vez), se forzará la actualización de la API.
 
-   De hecho, una vez que se ha creado, la API se actualiza automáticamente cada vez que vuelve a publicarla. Esto sirve para evitar romper el perfil de servicio o de servicio de esta API y dañar su instancia.
+   De hecho, una vez creada, la API se actualiza automáticamente cada vez que se vuelve a publicar. Esto sirve para evitar que se rompa el perfil o el recurso de servicio de esta API y que se dañe la instancia.
 
-Note that by default, the custom resource is integrated, but, for a specific behavior, if you don't want to publish this resource, you can select the option **[!UICONTROL Hide this resource from APIs]** available in the **[!UICONTROL Resource Properties]**.
+Tenga en cuenta que, de forma predeterminada, el recurso personalizado está integrado, pero, para un comportamiento específico, si no desea publicar este recurso, puede seleccionar la opción **[!UICONTROL Hide this resource from APIs]** disponible en la **[!UICONTROL Resource Properties]**.
 
 ![](assets/removefromextoption.png)
 
-After the **[!UICONTROL Prepare Publication]** step, Adobe Campaign displays the delta between the current version of the API and the future version after the publication in the tab **[!UICONTROL Profiles & Services API Preview]**. Si amplía la API por primera vez, el delta compara la definición de recurso personalizada predeterminada con la extensión.
+Después del **[!UICONTROL Prepare Publication]** paso, Adobe Campaign muestra el delta entre la versión actual de la API y la versión futura después de la publicación en la ficha **[!UICONTROL Profiles & Services API Preview]**. Si amplía la API por primera vez, el delta compara la definición de recurso personalizada con la extensión.
 
-La información mostrada en la ficha se divide en tres secciones: agregados, eliminados y modificados.
+La información mostrada en la ficha se divide en tres secciones: elementos agregados, eliminados y modificados.
 
 ![](assets/extendpandsapi_diff.png)
 
-El análisis del delta es un paso obligatorio, ya que el paso de publicación modificará el comportamiento de la API y lo más probable es que afecte al desarrollo que lo rodea en un efecto domino.
+El análisis del delta es un paso obligatorio, ya que el paso de publicación modificará el comportamiento de la API y probablemente afectará el desarrollo circundante en un efecto dominó.
 
 >[!NOTE]
 >
->This publication updates the **[!UICONTROL profilesAndServicesExt]** API. **[!UICONTROL profilesAndServices]** La API no se actualiza.
+>Esta publicación actualiza la **[!UICONTROL profilesAndServicesExt]** API. La **[!UICONTROL profilesAndServices]** API no se ha actualizado.
 
-For more information on the Adobe Campaign API, consult the dedicated Adobe Campaign documentation on [Adobe IO](https://docs.campaign.adobe.com/doc/standard/en/adobeio.html).
+Para obtener más información sobre la API de Adobe Campaign, consulte la documentación dedicada de Adobe Campaign en la E/S [de](https://docs.campaign.adobe.com/doc/standard/en/adobeio.html)Adobe.
