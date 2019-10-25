@@ -15,7 +15,7 @@ context-tags: extAccountEmail,información general;emailConfig,principal;ruleSet
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -40,13 +40,13 @@ La pantalla de configuración de correo electrónico permite definir los paráme
 
    Adobe Campaign envía los mensajes a partir de la fecha de inicio. El **[!UICONTROL Message delivery duration]** campo permite especificar la duración durante la cual se pueden enviar los mensajes.
 
-   El **[!UICONTROL Online resources validity duration]** campo se utiliza para los recursos cargados, principalmente para la página reflejada y las imágenes. Los recursos de esta página son válidos durante un tiempo limitado (para ahorrar espacio en disco).
+   The **[!UICONTROL Online resources validity duration]** field is used for uploaded resources, mainly for the mirror page and images. Los recursos de esta página son válidos durante un tiempo limitado (para ahorrar espacio en el disco).
 
 * **Reintentos**
 
    Los mensajes no entregados temporalmente están sujetos a un reintento automático. Esta sección indica cuántos reintentos se deben realizar el día siguiente al inicio del envío (**Número de reintentos**) y el retraso mínimo entre reintentos (período **de** reintento).
 
-   De forma predeterminada, se programan cinco reintentos para el primer día con un intervalo mínimo de una hora, repartidos en las 24 horas del día. Después de eso, se programará un reintento por día hasta la fecha límite de entrega, que se define en la **[!UICONTROL Delivery parameters]** sección.
+   De forma predeterminada, se programan cinco reintentos para el primer día con un intervalo mínimo de una hora, repartidos en las 24 horas del día. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.
 
 * **Parámetros de cuarentena de correo electrónico**
 
@@ -56,7 +56,7 @@ La pantalla de configuración de correo electrónico permite definir los paráme
 
 **Tema** relacionado:
 
-[Explicación de la administración de cuarentena](../../sending/using/understanding-quarantine-management.md)
+[Compresión de la gestión de la cuarentena](../../sending/using/understanding-quarantine-management.md)
 
 ## Cuentas de enrutamiento de correo electrónico {#email-routing-accounts}
 
@@ -72,34 +72,34 @@ El tipo de cuenta siempre debe estar establecido en **[!UICONTROL Routing]**, el
 
 ## Reglas de procesamiento de correo electrónico {#email-processing-rules}
 
-Estas reglas contienen la lista de cadenas de caracteres que pueden ser devueltas por servidores remotos y que permiten calificar el error (**Duro**, **Suave** u **Ignorado**).
+Estas reglas contienen la lista de cadenas de caracteres que pueden devolver los servidores remotos y que le permiten clasificar el error (**Grave**, **leve** o **ignorado**).
 
 Las reglas predeterminadas son las siguientes:
 
 **Mensajes de devolución**
 
-Cuando falla un mensaje de correo electrónico, el servidor de mensajes remoto devuelve un mensaje de error de devolución a la dirección especificada en la configuración de la aplicación. Adobe Campaign compara el contenido de cada correo de devolución con las cadenas de la lista de reglas y, a continuación, le asigna uno de los tres tipos de error.
+Cuando falla un mensaje de correo electrónico, el servidor de mensajes remoto devuelve un mensaje de error de devolución a la dirección especificada en la configuración de la aplicación. Adobe Campaign compara el contenido de cada mensaje de rechazo con las cadenas de la lista de reglas y, a continuación, lo asigna a uno de los tres tipos de error.
 
 El usuario puede crear sus propias reglas.
 
 >[!CAUTION]
 >
->Al importar un paquete y actualizar los datos mediante el flujo de trabajo **Actualizar para la entrega** , se sobrescriben las reglas creadas por el usuario.
+>When importing a package and when updating data via the **Update for deliverability** workflow, the user-created rules are overwritten.
 
 **Administración de dominios de correo electrónico**
 
-Las reglas de administración de dominios se utilizan para regular el flujo de correos electrónicos salientes para un dominio específico. Muestran los mensajes de devolución y bloquean el envío cuando corresponde. El servidor de mensajería de Adobe Campaign aplica reglas específicas para los dominios y, a continuación, las reglas para el caso general representado por un asterisco en la lista de reglas. Las reglas para los dominios Hotmail y MSN están disponibles de forma predeterminada en Adobe Campaign.
+Las reglas de administración de dominios se utilizan para regular el flujo de correos electrónicos salientes para un dominio específico. Realizan muestras de los mensajes de rechazo y bloquean el envío a donde corresponda. El servidor de mensajería de Adobe Campaign aplica reglas específicas a los dominios y, a continuación, las reglas para el caso general representado por un asterisco en la lista de reglas. Las reglas para los dominios de Hotmail y MSN están disponibles de forma predeterminada en Adobe Campaign.
 
-Para configurar las reglas de administración de dominios, simplemente configure un umbral y seleccione ciertos parámetros SMTP. Un **umbral** es un límite calculado como un porcentaje de error más allá del cual se bloquean todos los mensajes hacia un dominio específico.
+Para configurar las reglas de administración de dominios, simplemente configure un umbral y seleccione ciertos parámetros SMTP. Un **umbral** es un límite calculado como un porcentaje de error por encima del cual se bloquean todos los mensajes dirigidos a un dominio específico.
 
-Por ejemplo, en el caso general, para un mínimo de 300 mensajes, el envío de correos electrónicos se bloquea durante tres horas si la tasa de error alcanza el 90 %.
+Por ejemplo, en el caso general, para un mínimo de 300 mensajes, el envío de correos electrónicos se bloquea durante tres horas si la tasa de error alcanza el 90 %.
 
-Los parámetros **** SMTP actúan como filtros aplicados a una regla de bloqueo.
+Los **parámetros SMTP** actúan como filtros aplicados a una regla de bloqueo.
 
-* Puede elegir si activar o no determinados estándares de identificación y claves de cifrado para comprobar el nombre de dominio, como **ID** del remitente, **DomainKeys**, **DKIM** y **S/MIME**.
-* **Relé** SMTP: permite configurar la dirección IP y el puerto de un servidor de retransmisión para un dominio en particular.
+* Se puede elegir si activar o no determinadas normas de identificación y claves de cifrado para comprobar el nombre del dominio como, por ejemplo, **ID de remitente**, **DomainKeys**, **DKIM** y **S/MIME**.
+* **SMTP relay**: permite configurar la dirección IP y el puerto de un servidor de transmisión para un dominio determinado.
 
-**Administración de MX**
+**Administración MX**
 
 Cada regla define una máscara de dirección para el MX. Cualquier MX cuyo nombre coincida con esta máscara es elegible. La máscara puede contener "*" y "?" caracteres genéricos.
 
@@ -131,8 +131,8 @@ Los siguientes parámetros están disponibles para cada regla:
 
 >[!CAUTION]
 >
->* El servidor de entrega (MTA) debe reiniciarse si se han cambiado los parámetros.
->* La modificación o creación de reglas de administración es únicamente para usuarios expertos.
+>* El servidor de envío (MTA) debe reiniciarse si los parámetros se han modificado.
+>* La modificación o creación de reglas de administración solo es para usuarios expertos.
 >
 
 
@@ -173,7 +173,7 @@ La **[!UICONTROL Send]** sección solo está disponible para plantillas de corre
 
 Los mensajes no entregados temporalmente están sujetos a un reintento automático. Esta sección indica cuántos reintentos se deben realizar el día siguiente al inicio del envío ( **[!UICONTROL Max. number of retries]** ) y el retraso mínimo entre reintentos ( **[!UICONTROL Retry period]** ).
 
-De forma predeterminada, se programan cinco reintentos para el primer día con un intervalo mínimo de una hora, repartidos en las 24 horas del día. Un reintento por día se programa después de eso y hasta la fecha límite de entrega, que se define en la sección Parámetros [del período de](../../administration/using/configuring-email-channel.md#validity-period-parameters) validez.
+De forma predeterminada, se programan cinco reintentos para el primer día con un intervalo mínimo de una hora, repartidos en las 24 horas del día. One retry per day is programmed after that and until the delivery deadline, which is defined in the [Validity period parameters](#validity-period-parameters) section.
 
 El número de reintentos se puede cambiar globalmente (póngase en contacto con el administrador técnico de Adobe) o para cada plantilla de entrega o entrega
 
@@ -181,7 +181,7 @@ El número de reintentos se puede cambiar globalmente (póngase en contacto con 
 
 Puede configurar el formato de los mensajes de correo electrónico que se van a enviar. Hay tres opciones disponibles:
 
-* **Usar preferencias** de destinatario (modo predeterminado): el formato del mensaje se define según los datos almacenados en el perfil del destinatario y se almacena de forma predeterminada en el campo Formato **de** correo electrónico (@emailFormat). Si un destinatario desea recibir mensajes en un determinado formato, este es el formato que se envía. Si el campo no se ha completado, se envía un mensaje alternativo de varias partes (véase más abajo).
+* **Usar preferencias** de destinatario (modo predeterminado): el formato del mensaje se define según los datos almacenados en el perfil del destinatario y se almacena de forma predeterminada en el campo Formato **de** correo electrónico (@emailFormat). Si un destinatario desea recibir mensajes en un formato determinado, este es el formato enviado. Si el campo no se ha completado, se envía un mensaje alternativo de varias partes (véase más abajo).
 * **Permita que el cliente de correo del destinatario elija el formato más adecuado (multipart-alternativa)**: el mensaje contiene ambos formatos: texto y HTML. El formato que se muestra tras la recepción depende de la configuración del software de correo del destinatario (multipart-alternativa).
 
    >[!CAUTION]
@@ -206,7 +206,7 @@ Si activa la opción de modo de prueba SMTP para una plantilla de correo electr�
 >Cuando esta opción está habilitada para un correo electrónico, no se enviará ningún mensaje hasta que no esté activada.
 >Se mostrará una advertencia en el tablero de plantillas de correo electrónico o correo electrónico.
 
-Para obtener más información sobre la configuración de SMTP, consulte la sección [Lista de parámetros](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters) SMTP de correo electrónico.
+Para obtener más información sobre la configuración de SMTP, consulte la sección [Lista de parámetros](#list-of-email-smtp-parameters) SMTP de correo electrónico.
 
 ### Parámetros del período de validez {#validity-period-parameters}
 
@@ -214,7 +214,7 @@ La **[!UICONTROL Validity]** sección contiene los siguientes parámetros:
 
 * **[!UICONTROL Explicitly set validity dates]**:: cuando esta casilla está desactivada, debe introducir una duración en los campos **[!UICONTROL Delivery duration]** y **[!UICONTROL Resource validity limit]** . Marque esta casilla si desea definir fechas y horas específicas.
 * **[!UICONTROL Delivery duration]**::Adobe Campaign envía los mensajes a partir de la fecha de inicio. Este campo permite especificar la duración durante la cual se pueden enviar los mensajes.
-* **[!UICONTROL Resource validity duration]**:: este campo se utiliza para los recursos cargados, principalmente para la página reflejada y las imágenes. Los recursos de esta página son válidos durante un tiempo limitado (para ahorrar espacio en disco).
+* **[!UICONTROL Resource validity duration]**:: este campo se utiliza para los recursos cargados, principalmente para la página reflejada y las imágenes. Los recursos de esta página son válidos durante un tiempo limitado (para ahorrar espacio en el disco).
 * **[!UICONTROL Mirror page management]**:: la página reflejada es una página HTML a la que se puede acceder en línea a través de un navegador web. Su contenido es idéntico al del correo electrónico. De forma predeterminada, la página reflejada se genera si el vínculo se inserta en el contenido del correo. Este campo permite modificar la forma en que se genera esta página:
 
    >[!CAUTION]
@@ -242,7 +242,7 @@ La **[!UICONTROL Tracking]** sección contiene los siguientes parámetros:
 
 La **[!UICONTROL Advanced parameters]** sección contiene varios parámetros.
 
-Los dos primeros campos permiten introducir la información necesaria para elaborar los encabezados de los mensajes de correo electrónico (dirección de respuesta y texto de la dirección de respuesta). Esta información se puede personalizar. Para ello, haga clic en el botón situado a la derecha del campo que se va a cambiar y, a continuación, agregue los campos de personalización. La inserción y el uso de los campos de personalización se detallan en la sección [Inserción de un campo](../../designing/using/personalization.md#inserting-a-personalization-field) de personalización.
+Los dos primeros campos permiten introducir la información necesaria para elaborar los encabezados de los mensajes de correo electrónico (dirección de respuesta y texto de la dirección de respuesta). Dicha información puede personalizarse. Para ello, haga clic en el botón situado a la derecha del campo que se va a cambiar y, a continuación, agregue los campos de personalización. La inserción y el uso de los campos de personalización se detallan en la sección [Inserción de un campo](../../designing/using/personalization.md#inserting-a-personalization-field) de personalización.
 
 #### Contexto de Target {#target-context}
 
@@ -260,7 +260,7 @@ Este campo indica el modo de enrutamiento utilizado. Hace referencia a una cuent
 
 La preparación de mensajes se detalla en la sección [Aprobación de mensajes](../../sending/using/preparing-the-send.md) .
 
-* **[!UICONTROL Typology]**:: antes de cualquier envío, los mensajes deben prepararse para validar el contenido y la configuración. Las normas de verificación aplicadas durante la fase de preparación se definen en una **tipología**. Por ejemplo, para los correos electrónicos, la preparación implica comprobar el asunto, las direcciones URL y las imágenes, etc. Seleccione la tipología que se aplicará en este campo.
+* **[!UICONTROL Typology]**:: antes de cualquier envío, los mensajes deben prepararse para validar el contenido y la configuración. The verification rules applied during the preparation phase are defined in a **typology**. Por ejemplo, para los correos electrónicos, la preparación implica comprobar el asunto, las direcciones URL y las imágenes, etc. Seleccione la tipología que se aplicará en este campo.
 
    >[!NOTE]
    >
@@ -268,7 +268,7 @@ La preparación de mensajes se detalla en la sección [Aprobación de mensajes](
 
 * **[!UICONTROL Compute the label during delivery preparation]**:: permite calcular el valor de etiqueta del correo electrónico durante la fase de preparación del mensaje mediante campos de personalización, bloques de contenido y texto dinámico.
 
-   También es posible personalizar la etiqueta de entrega con variables de eventos que se han declarado en la actividad de señal externa del flujo de trabajo. For more on this, refer to [this section](../../automating/using/calling-a-workflow-with-external-parameters.md).
+   También es posible personalizar la etiqueta de entrega con variables de eventos que se han declarado en la actividad de señal externa del flujo de trabajo. Para obtener más información, consulte [esta sección](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
 * **[!UICONTROL Save SQL queries in the log]**:: esta opción le permite agregar registros de consultas SQL en el diario durante la fase de preparación.
 
@@ -282,7 +282,7 @@ La **[!UICONTROL SMTP]** sección contiene los siguientes parámetros:
 
    >[!CAUTION]
    >
-   >La adición de una secuencia de comandos para insertar encabezados SMTP adicionales está reservada para usuarios avanzados. La sintaxis de esta secuencia de comandos debe cumplir los requisitos de este tipo de contenido: no hay espacio sin usar, ni líneas vacías, etc.
+   >La adición de secuencias de comandos para insertar encabezados SMTP se reserva para usuarios avanzados. La sintaxis de esta secuencia de comandos debe cumplir con los requisitos de este tipo de contenido: no dejar espacios sin utilizar, ninguna línea vacía, etc.
 
 ### Lista de parámetros de autorización de acceso {#list-of-access-authorization-parameters}
 
@@ -296,7 +296,7 @@ La **[!UICONTROL Access authorization]** sección contiene los siguientes parám
 
 * Los campos **[!UICONTROL Created by]**, **[!UICONTROL Created]****[!UICONTROL Modified by]** y **[!UICONTROL Last modified]** se completan automáticamente.
 
-## Archivar correos electrónicos {#archiving-emails}
+## Archivado de correos electrónicos {#archiving-emails}
 
 Puede configurar Adobe Campaign para que conserve una copia de los correos electrónicos enviados desde su plataforma.
 
@@ -306,7 +306,7 @@ Cuando se activa en la plantilla de envío, esta función le permite enviar una 
 
 ### Recomendaciones y limitaciones {#recommendations-and-limitations}
 
-* Esta función es opcional. Verifique el contrato de licencia y comuníquese con el ejecutivo de cuentas para activarlo.
+* Esta función es opcional. Compruebe el acuerdo de licencia y póngase en contacto con el administrador de cuentas para activarlo.
 * Solo puede usar una dirección de correo electrónico CCO.
 * Solo se tienen en cuenta los correos electrónicos enviados correctamente. Las devoluciones no lo son.
 * Por razones de privacidad, los correos electrónicos CCO deben ser procesados por un sistema de archiving capaz de almacenar información personal (PII) de manera segura.
@@ -316,16 +316,16 @@ Cuando se activa en la plantilla de envío, esta función le permite enviar una 
 
 Email BCC se activa en la plantilla [de](../../start/using/about-templates.md)correo electrónico mediante una opción dedicada:
 
-1. Vaya a **Recursos** &gt; **Plantillas** &gt; Plantillas **de envío**.
+1. Go to **Resources** &gt; **Templates** &gt; **Delivery templates**.
 1. Duplique la plantilla lista para usar **[!UICONTROL Send via email]** .
 1. Seleccione la plantilla duplicada.
 1. Haga clic en el **[!UICONTROL Edit properties]** botón para editar las propiedades de la plantilla.
 1. Expanda la **[!UICONTROL Send]** sección.
-1. Marque la **[!UICONTROL Archive emails]** casilla para guardar una copia de todos los mensajes enviados para cada envío en función de esta plantilla.
+1. Check the **[!UICONTROL Archive emails]** box to keep a copy of all sent messages for each delivery based on this template.
 
    ![](assets/email_archiving.png)
 
 >[!NOTE]
 >
->Si se abren y pulsan los correos electrónicos enviados a la dirección de CCO, esto se tendrá en cuenta en el análisis **[!UICONTROL Total opens]** y en el análisis **[!UICONTROL Clicks]** de envío, lo que podría causar errores de cálculo.
+>If the emails sent to the BCC address are opened and clicked through, this will be taken into account in the **[!UICONTROL Total opens]** and **[!UICONTROL Clicks]** from the send analysis, which could cause some miscalculations.
 
