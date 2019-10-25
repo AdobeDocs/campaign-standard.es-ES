@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8f63c039231a7028825981098e6f97eb3ebca67e
+source-git-commit: 8e070a4c364c8a5e23870e28add142b46edc8994
 
 ---
 
@@ -24,14 +24,14 @@ El Diseñador de correo electrónico proporciona cuatro formas de crear correos 
 
 Puede crear un mensaje de correo electrónico que comience de nuevo:
 
-* Puede crear un correo electrónico a partir de un lienzo en blanco agregando fácilmente componentes de estructura y contenido y personalizando su contenido para enviar una entrega rápidamente. También puede administrar completamente los elementos de estilo. Para obtener más información, [comience rápidamente](../../designing/using/quick-start.md#from-scratch-email) o consulte la documentación [](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)completa.
+* Puede crear un correo electrónico a partir de un lienzo en blanco agregando fácilmente componentes de estructura y contenido y personalizando su contenido para enviar una entrega rápidamente. También puede administrar completamente los elementos de estilo. Para obtener más información, [comience rápidamente](#from-scratch-email) o consulte la documentación [](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)completa.
 
-* Puede crear un mensaje de correo electrónico a partir de plantillas integradas seleccionando una plantilla y generando su nuevo contenido de correo electrónico desde aquí. [Más información](quick-start.md#building-content-from-an-out-of-the-box-template)
+* Puede crear un mensaje de correo electrónico a partir de plantillas integradas seleccionando una plantilla y generando su nuevo contenido de correo electrónico desde aquí. [Más información](#building-content-from-an-out-of-the-box-template)
 
 También puede crear un correo electrónico con contenido existente:
 
-* Puede convertir un contenido HTML existente (creado externamente o en el editor heredado). [Más información](quick-start.md#converting-an-html-content)
-* Puede importar de inmediato un contenido HTML existente en modo de compatibilidad. [Más información](quick-start.md#compatibility-mode)
+* Puede convertir un contenido HTML existente (creado externamente o en el editor heredado). [Más información](#converting-an-html-content)
+* Puede importar de inmediato un contenido HTML existente en modo de compatibilidad. [Más información](#compatibility-mode)
 
 ## Sin contenido existente {#without-existing-content}
 
