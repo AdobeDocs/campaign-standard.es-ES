@@ -3,136 +3,136 @@ title: Administración de paquetes
 seo-title: Administración de paquetes
 description: Administración de paquetes
 seo-description: Los administradores pueden definir paquetes para intercambiar recursos entre distintas instancias de Adobe Campaign a través de archivos XML estructurados.
-page-status-flag: no activado nunca
-uuid: d 041 f 549-bfc 5-4 e 6 b -87 bf-a 63 c 7 c 224 bca
+page-status-flag: nunca activado
+uuid: d041f549-bfc5-4e6b-87bf-a63c7c224bca
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: automatizar
-content-type: reference
+content-type: referencia
 topic-tags: importar y exportar datos
-discoiquuid: c 3015 cdc -8432-4 e 57-8 ac 0-43 ae 7827 e 3 b 0
-context-tags: Packagedef, overview; Packageinstall, main
+discoiquuid: c3015cdc-8432-4e57-8ac0-43ae7827e3b0
+context-tags: packageDef,información general;packageInstall,principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
 
-# Managing packages{#managing-packages}
+# Administración de paquetes{#managing-packages}
 
-Los administradores pueden definir paquetes para intercambiar recursos entre distintas instancias de Adobe Campaign a través de archivos XML estructurados. Pueden ser parámetros o datos de configuración.
+Los administradores pueden definir paquetes para intercambiar recursos entre distintas instancias de Adobe Campaign a través de archivos XML estructurados. Pueden ser parámetros de configuración o datos.
 
 Esto puede resultar útil para transferir datos de un servidor a otro o para replicar la configuración de una instancia.
 
-Packages are available under the **[!UICONTROL Administration]** &gt; **[!UICONTROL Deployment]** &gt; **[!UICONTROL Package exports]** or **[!UICONTROL Package imports]** menus. Los dos menús funcionan de forma similar.
+Los paquetes están disponibles en los menús **[!UICONTROL Administration]** &gt; **[!UICONTROL Deployment]** &gt; **[!UICONTROL Package exports]** o **[!UICONTROL Package imports]** . Los dos menús funcionan de manera similar.
 
-Los elementos de cada lista se muestran de forma predeterminada según su modificación o fecha de instalación, de las más recientes a las menos recientes.
+Los elementos de cada lista se muestran de forma predeterminada según la fecha de modificación o instalación, desde la más reciente hasta la menos reciente.
 
 ![](assets/packages_1.png)
 
-Para mostrar y modificar el contenido de un elemento, haga clic en su etiqueta. Refer to the [Exporting a package](../../automating/using/managing-packages.md#exporting-a-package) and [Importing a package](../../automating/using/managing-packages.md#importing-a-package) sections.
+Para mostrar y modificar el contenido de un elemento, haga clic en su etiqueta. Consulte las secciones [Exportación de un paquete](#exporting-a-package) e [Importación de un paquete](#importing-a-package) .
 
-## Package exports {#package-exports}
+## Exportaciones de paquetes {#package-exports}
 
-### Standard packages {#standard-packages}
+### Paquetes estándar {#standard-packages}
 
-**[!UICONTROL Platform]** y **[!UICONTROL Administration]** son dos paquetes integrados, cada uno de los cuales contiene una lista predefinida de recursos que exportar. Se pueden abrir en modo de solo lectura y solo son adecuados para la exportación.
+**[!UICONTROL Platform]** y **[!UICONTROL Administration]** son dos paquetes integrados, cada uno con una lista predefinida de los recursos que se van a exportar. Pueden abrirse en modo de sólo lectura y sólo son adecuadas para la exportación.
 
 ![](assets/packages_14.png)
 
 >[!CAUTION]
 >
->La exportación de paquetes no está autorizada si los recursos exportados tienen ID predeterminados. Por lo tanto, los ID de recursos exportables deben cambiarse empleando un nombre distinto de las plantillas proporcionadas como estándar por Adobe Campaign Standard. Por ejemplo, para exportar perfiles de prueba, no se debe utilizar un ID que contenga el valor "SDM" o "sdm". Al intentar exportar paquetes que contengan ID predeterminados, se pueden ver errores como: " El tipo de entidad'Marcas (marca)' utiliza un ID predeterminado (' BRD 1 ') que puede provocar un conflicto al importar el paquete. Cambie este nombre y repita la operación. "
+>La exportación de paquetes no está autorizada si los recursos exportados tienen ID predeterminados. Por lo tanto, las ID de los recursos exportables deben cambiarse con un nombre que sea diferente de las plantillas proporcionadas como estándar por Adobe Campaign Standard. Por ejemplo, para exportar perfiles de prueba, no debe utilizarse un ID que contenga el valor "SDM" o "sdm". Al intentar exportar paquetes que contienen ID predeterminados, puede ver errores como: "El tipo de entidad 'Marcas (marca)' utiliza un ID predeterminado ('BRD1') que puede provocar un conflicto al importar el paquete. Cambie este nombre y repita la operación".
 
-The package export steps are described in the [Exporting a package](../../automating/using/managing-packages.md#exporting-a-package) section.
+Los pasos de exportación del paquete se describen en la sección [Exportación de un paquete](#exporting-a-package) .
 
-* **[!UICONTROL Platform]** El paquete recupera todos los recursos añadidos durante la configuración técnica: recursos personalizados, conjuntos de recursos personalizados, activadores y opciones de aplicación con **[!UICONTROL System]** el tipo.
-* **[!UICONTROL Administration]** El paquete recupera todos los objetos añadidos durante la configuración comercial como: plantillas de campaña, plantillas de contenido, plantillas de envío, plantillas de página de aterrizaje, plantillas de programa y plantillas de flujo de trabajo.
+* El **[!UICONTROL Platform]** paquete reagrupa todos los recursos agregados durante la configuración técnica: recursos personalizados, conjuntos de recursos personalizados, activadores y opciones de aplicación con el **[!UICONTROL System]** tipo.
+* El **[!UICONTROL Administration]** paquete reagrupa todos los objetos agregados durante la configuración comercial, como: plantillas de campaña, plantillas de contenido, plantillas de entrega, plantillas de página de aterrizaje, plantillas de programa y plantillas de flujo de trabajo.
 
-   It also includes the following objects: content blocks, target mappings, external accounts, organizational units, application options with the **[!UICONTROL User]** type, roles, typologies, typology rules and users.
+   También incluye los siguientes objetos: bloques de contenido, asignaciones de objetivo, cuentas externas, unidades organizativas, opciones de aplicación con el **[!UICONTROL User]** tipo, funciones, tipologías, reglas de tipología y usuarios.
 
 >[!NOTE]
 >
->El contenido de estos dos paquetes no puede modificarse. Por el contrario, estos paquetes siempre contienen los datos más actualizados disponibles. [Puede crear sus propios paquetes](../../automating/using/managing-packages.md#creating-a-package) para exportar elementos específicos.
+>El contenido de estos dos paquetes no puede modificarse. Por el contrario, estos paquetes siempre contienen los datos más actualizados disponibles. Puede [crear sus propios paquetes](#creating-a-package) para exportar elementos específicos.
 
-### Creating a package {#creating-a-package}
+### Creación de un paquete {#creating-a-package}
 
 Debe crear un paquete si necesita exportar conjuntos específicos de datos.
 
 Para crear un paquete, necesita los derechos de administración.
 
-1. From **[!UICONTROL Administration]** &gt; **[!UICONTROL Deployment]** &gt; **[!UICONTROL Package exports]**, click the **[!UICONTROL Create]** button in the list of package contents.
+1. En **[!UICONTROL Administration]** &gt; **[!UICONTROL Deployment]** &gt; **[!UICONTROL Package exports]**, haga clic en el **[!UICONTROL Create]** botón de la lista de contenido del paquete.
 
-   El elemento se crea inmediatamente. Para cancelar la creación, vuelva a la lista y marque el cuadro correspondiente para eliminarlo.
+   El elemento se crea inmediatamente. Para cancelar la creación, vuelva a la lista y marque la casilla correspondiente para eliminarla.
 
 1. En la pantalla de contenido del paquete, especifique un nombre y un ID.
-1. Click the **[!UICONTROL Edit properties]** button if you would like to add a description and restrict access to certain users.
+1. Haga clic en el **[!UICONTROL Edit properties]** botón si desea agregar una descripción y restringir el acceso a ciertos usuarios.
 
    ![](assets/packages_18.png)
 
-1. Use the **[!UICONTROL Create element]** button in the **[!UICONTROL Export content]** tab to select the resources you wish to export.
+1. Utilice el **[!UICONTROL Create element]** botón de la **[!UICONTROL Export content]** ficha para seleccionar los recursos que desea exportar.
 
    ![](assets/packages_2.png)
 
-1. Los recursos se muestran en orden alfabético y se pueden filtrar por nombre. Su nombre técnico se muestra entre corchetes. Seleccione un elemento de la lista y confirme.
+1. Los recursos se muestran en orden alfabético y se pueden filtrar por nombre. Su nombre técnico aparece entre paréntesis. Seleccione un elemento de la lista y confirme.
 
    ![](assets/packages_3.png)
 
-1. The resource name is displayed in the **[!UICONTROL Export content]** tab. To modify a resource, check the corresponding box and use the **[!UICONTROL Show detail of the element selected]** button.
+1. El nombre del recurso se muestra en la **[!UICONTROL Export content]** ficha. Para modificar un recurso, marque la casilla correspondiente y utilice el **[!UICONTROL Show detail of the element selected]** botón .
 
    ![](assets/packages_4.png)
 
-1. El uso del editor de consultas permite filtrar los elementos que se exportarán. For more on this, refer to the [Editing queries](../../automating/using/editing-queries.md#creating-queries) section.
+1. El uso del editor de consultas permite filtrar los elementos que se van a exportar. For more on this, refer to the [Editing queries](../../automating/using/editing-queries.md#creating-queries) section.
 
    ![](assets/packages_5.png)
 
    >[!NOTE]
    >
-   >Puede exportar hasta 5000 objetos por medio.
+   >Puede exportar hasta 5000 objetos por recurso.
 
-1. Una vez que haya especificado todos los recursos que desee exportar, guarde su selección.
+1. Una vez especificados todos los recursos que se van a exportar, guarde la selección.
 
-El paquete ahora se crea y está listo para exportarse.
+El paquete se ha creado y está listo para ser exportado.
 
-### Exporting a package {#exporting-a-package}
+### Exportación de un paquete {#exporting-a-package}
 
-Exportar un paquete permite guardar un estado específico de un recurso que podrá volver a importar en otra instancia o posterior en la misma instancia.
+Exportar un paquete le permite guardar un estado específico de un recurso que podrá volver a importar en otra instancia o más tarde en la misma instancia.
 
 >[!CAUTION]
 >
->La exportación de paquetes no está autorizada si los recursos exportados tienen ID predeterminados. Por lo tanto, los ID de recursos exportables deben cambiarse empleando un nombre distinto de las plantillas proporcionadas como estándar por Adobe Campaign Standard. Por ejemplo, para exportar perfiles de prueba, no se debe utilizar un ID que contenga el valor "SDM" o "sdm".
+>La exportación de paquetes no está autorizada si los recursos exportados tienen ID predeterminados. Por lo tanto, las ID de los recursos exportables deben cambiarse con un nombre que sea diferente de las plantillas proporcionadas como estándar por Adobe Campaign Standard. Por ejemplo, para exportar perfiles de prueba, no debe utilizarse un ID que contenga el valor "SDM" o "sdm".
 
-1. From **[!UICONTROL Administration]** &gt; **[!UICONTROL Deployment]** &gt; **[!UICONTROL Package exports]**, select a package to access its detail.
+1. En **[!UICONTROL Administration]** &gt; **[!UICONTROL Deployment]** &gt; **[!UICONTROL Package exports]**, seleccione un paquete para acceder a sus detalles.
 1. Compruebe que el paquete contiene los datos que necesita.
 1. Click the **[!UICONTROL Start export]** button.
 
-El archivo exportado se almacena en la carpeta de descarga del navegador en uso. Se denomina automáticamente "package_xxx.xml", por lo que "xxx" corresponde al ID del paquete.
+El archivo exportado se almacena en la carpeta de descarga del explorador en uso. Se le denomina automáticamente "package_xxx.xml", donde "xxx" corresponde al ID del paquete.
 
 Cuando la operación ha finalizado, aparecen varias secciones:
 
-* **[!UICONTROL Export status]**: esta sección muestra si la operación se ha llevado a cabo correctamente.
+* **[!UICONTROL Export status]**:: esta sección muestra si la operación se ha realizado correctamente.
 
    ![](assets/packages_6.png)
 
-* You can consult the different steps of the export via the **[!UICONTROL Log]** tab. Contiene los estados de todas las exportaciones anteriores.
+* Puede consultar los diferentes pasos de la exportación a través de la **[!UICONTROL Log]** ficha. Esto contiene los estados de todas las exportaciones anteriores.
 
    ![](assets/packages_7.png)
 
 >[!NOTE]
 >
->When selecting an element from the package content list that has already been exported, the **[!UICONTROL Log]** and **[!UICONTROL Last export]** tabs are still available.
+>Al seleccionar un elemento de la lista de contenido del paquete que ya se ha exportado, las fichas **[!UICONTROL Log]** y **[!UICONTROL Last export]** siguen estando disponibles.
 
-## Package imports {#package-imports}
+## Importaciones de paquetes {#package-imports}
 
-### System updates {#system-updates}
+### Actualizaciones del sistema {#system-updates}
 
 La lista de importación de paquetes anterior contiene las importaciones automáticas vinculadas a las actualizaciones realizadas por Adobe.
 
 ![](assets/packages_15.png)
 
-The **[!UICONTROL Execution logs]** tab stores all of the import steps. Un panel lateral muestra la información general.
+La **[!UICONTROL Execution logs]** ficha almacena todos los pasos de importación. Un panel lateral muestra la información general.
 
 ![](assets/packages_11.png)
 
@@ -140,38 +140,38 @@ The **[!UICONTROL Execution logs]** tab stores all of the import steps. Un panel
 >
 >Estos elementos son accesibles en modo de solo lectura.
 
-### Importing a package {#importing-a-package}
+### Importación de un paquete {#importing-a-package}
 
-Un administrador puede importar manualmente un paquete procedente de una exportación ejecutada anteriormente desde una instancia de Adobe Campaign. For more on this, refer to the [Package exports](../../automating/using/managing-packages.md#package-exports) section.
+Un administrador puede importar manualmente un paquete originado en una exportación ejecutada anteriormente desde una instancia de Adobe Campaign. For more on this, refer to the [Package exports](#package-exports) section.
 
-La importación manual del paquete consiste en dos pasos: primero, debe cargar un archivo, luego puede importar su contenido.
+La importación manual del paquete consta de dos pasos: primero, debe cargar un archivo y luego puede importar su contenido.
 
-1. From **[!UICONTROL Administration]** &gt; **[!UICONTROL Deployment]** &gt; **[!UICONTROL Package imports]**, click the **[!UICONTROL Create]** button in the package import list.
+1. En **[!UICONTROL Administration]** &gt; **[!UICONTROL Deployment]** &gt; **[!UICONTROL Package imports]**, haga clic en el **[!UICONTROL Create]** botón de la lista de importación de paquetes.
 
-   El elemento se crea inmediatamente. Para cancelar la creación, vuelva a la lista y marque el cuadro correspondiente para eliminarlo.
+   El elemento se crea inmediatamente. Para cancelar la creación, vuelva a la lista y marque la casilla correspondiente para eliminarla.
 
 1. Especifique un nombre y un ID para la nueva importación.
-1. Select the file you wish to upload by dragging and dropping it, or by clicking the **[!UICONTROL Select from folder]** link.
+1. Seleccione el archivo que desea cargar arrastrándolo y soltándolo o haciendo clic en el **[!UICONTROL Select from folder]** vínculo.
 
-   Los archivos importados deben ser XML o ZIP (con un archivo XML).
+   Los archivos importados deben tener formato XML o ZIP (que contenga un archivo XML).
 
    ![](assets/packages_16.png)
 
    >[!NOTE]
    >
-   >Para reemplazar el documento cargado, empiece por eliminar el archivo a través del icono X a la derecha del nombre y, a continuación, repita la operación.
+   >Para reemplazar el documento cargado, comience por eliminar el archivo mediante el icono X a la derecha de su nombre y, a continuación, repita la operación.
 
-1. Once the file is uploaded, import its content into the database by using the **[!UICONTROL Start import]** button.
+1. Una vez cargado el archivo, importe su contenido en la base de datos mediante el **[!UICONTROL Start import]** botón .
 
    ![](assets/packages_19.png)
 
 Cuando la operación ha finalizado, aparecen varias secciones:
 
-* **[!UICONTROL Import status]**: esta sección muestra si la operación se ha llevado a cabo correctamente.
-* You can consult the different steps of the import via the **[!UICONTROL Execution logs]** tab. Esto es especialmente importante para ver errores.
+* **[!UICONTROL Import status]**:: esta sección muestra si la operación se ha realizado correctamente.
+* Puede consultar los diferentes pasos de la importación a través de la **[!UICONTROL Execution logs]** ficha. Esto es especialmente importante para ver los errores.
 
    ![](assets/packages_20.png)
 
-Una vez importado el paquete, no puede volver a importarlo desde el mismo elemento. Solo puede modificar su etiqueta y su ID.
+Una vez importado un paquete, no se puede volver a importar desde el mismo elemento. Solo puede modificar su etiqueta y su ID.
 
-Para volver a importar el mismo paquete, tiene que volver a la lista de importación del paquete, crear un elemento y, a continuación, cargar nuevamente el archivo seleccionado.
+Para volver a importar el mismo paquete, debe volver a la lista de importación de paquetes, crear un elemento y, a continuación, cargar el archivo seleccionado de nuevo.
