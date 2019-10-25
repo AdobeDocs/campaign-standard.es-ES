@@ -14,7 +14,7 @@ discoiquuid: 1b9aeec5-70bb-4d72-a3e9-12342abf08f7
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4b69c92a8c877ecaf05e87b728009104066a38dc
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -23,8 +23,8 @@ source-git-commit: 4b69c92a8c877ecaf05e87b728009104066a38dc
 
 Esta sección presenta diferentes casos de uso que se pueden implementar mediante la integración entre Adobe Campaign y Experience Cloud Triggers. Encontrará dos ejemplos de casos de uso:
 
-* [Desencadenador](../../integrating/using/abandonment-triggers-use-cases.md#browse-abandonment-trigger)de abandono de exploración: enviar una comunicación a los clientes que abandonaron la visita en el sitio web.
-* [Activador](../../integrating/using/abandonment-triggers-use-cases.md#search-abandonment-trigger)de abandono de búsqueda: vuelva a interactuar con los visitantes que realizaron una búsqueda en el sitio web, pero no realizaron una compra.
+* [Desencadenador](#browse-abandonment-trigger)de abandono de exploración: enviar una comunicación a los clientes que abandonaron la visita en el sitio web.
+* [Activador](#search-abandonment-trigger)de abandono de búsqueda: vuelva a interactuar con los visitantes que realizaron una búsqueda en el sitio web, pero no realizaron una compra.
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ Esta sección presenta diferentes casos de uso que se pueden implementar mediant
 
 Para que estos casos de uso se implementen, debe tener acceso a las siguientes soluciones/servicios principales:
 
-* Adobe Campaign
+* Espacio de trabajo de Adobe Campaign
 * Adobe Analytics Ultimate, Premium, Foundation, OD, Select, Prime, Mobile Apps, Select o Standard.
 * Servicio principal de Experience Cloud Triggers
 * Servicio principal de DTM de Experience Cloud
@@ -123,11 +123,11 @@ En Adobe Campaign, debe crear un activador vinculado al que ha creado en Experie
 
 ## Activador de abandono de búsqueda {#search-abandonment-trigger}
 
-En este caso de uso, vamos a crear un activador para volver a interactuar con los visitantes que fueron a nuestro sitio web de reservación de viajes, buscaron un destino, no encontraron resultados exitosos y no reservaron nada después de eso. El proceso general es el mismo que en el caso de uso anterior (consulte Activador de abandono de [exploración](../../integrating/using/abandonment-triggers-use-cases.md#browse-abandonment-trigger)). Nos centraremos aquí en cómo personalizar el mensaje de correo electrónico de remercadotecnia.
+En este caso de uso, vamos a crear un activador para volver a interactuar con los visitantes que fueron a nuestro sitio web de reservación de viajes, buscaron un destino, no encontraron resultados exitosos y no reservaron nada después de eso. El proceso general es el mismo que en el caso de uso anterior (consulte Activador de abandono de [exploración](#browse-abandonment-trigger)). Nos centraremos aquí en cómo personalizar el mensaje de correo electrónico de remercadotecnia.
 
 ### Creación de un activador de Experience Cloud {#creating-an-experience-cloud-trigger-1}
 
-Siga los pasos descritos en el caso de uso anterior para crear Experience Cloud Trigger. Consulte [Creación de un activador](../../integrating/using/abandonment-triggers-use-cases.md#creating-an-experience-cloud-trigger)de Experience Cloud. La diferencia principal es la definición del activador.
+Siga los pasos descritos en el caso de uso anterior para crear Experience Cloud Trigger. Consulte [Creación de un activador](#creating-an-experience-cloud-trigger)de Experience Cloud. La diferencia principal es la definición del activador.
 
 ![](assets/trigger_uc_search_1.png)
 
@@ -135,7 +135,7 @@ La **[!UICONTROL Include Meta Data]** sección le permite pasar cualquier dato r
 
 ### Uso del activador en Adobe Campaign {#using-the-trigger-in-adobe-campaign-1}
 
-1. Siga los pasos descritos en el caso de uso anterior para crear el activador en Adobe Campaign. Consulte [Uso del activador en Adobe Campaign](../../integrating/using/abandonment-triggers-use-cases.md#using-the-trigger-in-adobe-campaign). La diferencia principal es cómo accedemos a los metadatos insertados en la carga útil Activador y los utilizamos en Adobe Campaign.
+1. Siga los pasos descritos en el caso de uso anterior para crear el activador en Adobe Campaign. Consulte [Uso del activador en Adobe Campaign](#using-the-trigger-in-adobe-campaign). La diferencia principal es cómo accedemos a los metadatos insertados en la carga útil Activador y los utilizamos en Adobe Campaign.
 1. En el activador de abandono de búsqueda que creó en Adobe Campaign, haga clic en el icono **[!UICONTROL Event content and enrichment]** para ver la carga útil que se ha insertado en Adobe Campaign.
 
    ![](assets/trigger_uc_search_2.png)
