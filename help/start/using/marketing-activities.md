@@ -1,85 +1,85 @@
 ---
-title: Actividades de mercadotecnia
-seo-title: Actividades de mercadotecnia
-description: Actividades de mercadotecnia
-seo-description: '" Obtenga información sobre cómo crear y administrar sus actividades de marketing: campañas, correo electrónico, envíos SMS y notificaciones push, páginas de aterrizaje, flujos de trabajo. Puede diseñar fácilmente una nueva actividad, editar una existente y consultar su estado y validez. "'
-page-status-flag: no activado nunca
-uuid: 5 d 45 a 935-6 d 03-4 b 27-aabd -7 c 47 c 11241 ba
+title: Actividades de marketing
+seo-title: Actividades de marketing
+description: Actividades de marketing
+seo-description: '"Conozca cómo crear y administrar sus actividades de marketing: campañas, correo electrónico, SMS y envíos de notificaciones push, páginas de aterrizaje, flujos de trabajo. Puede diseñar fácilmente una nueva actividad, editar una existente y consultar su estado y validez".'
+page-status-flag: nunca activado
+uuid: 5d45a935-6d03-4b27-aabd-7c47c11241ba
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: reference
+content-type: referencia
 topic-tags: planes de mercadotecnia
-discoiquuid: 3 ba 165 e 1-420 f -4 d 6 f-b 339-467 b 066 b 42 d 0
-context-tags: actividad, información general
+discoiquuid: 3ba165e1-420f-4d6f-b339-467b066b42d0
+context-tags: actividad,información general
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a0823161ff03fac0a617c3d89a8d3cac0ed3afb9
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
 
-# Marketing activities{#marketing-activities}
+# Actividades de marketing{#marketing-activities}
 
-## About marketing activities {#about-marketing-activities}
+## Acerca de las actividades de marketing {#about-marketing-activities}
 
-Puede crear y administrar sus actividades de marketing a partir de los programas y campañas a los que pertenecen o a través de la lista de actividades de marketing.
+Puede crear y administrar sus actividades de marketing desde los programas y campañas a los que pertenecen o a través de la lista de actividades de marketing.
 
-La lista de actividades de marketing centraliza todas las actividades, independientemente de los programas o las campañas en que se crearon. Por lo tanto, los programas, las campañas, los envíos (correos electrónicos, mensajes SMS y notificaciones push), las páginas de aterrizaje y los flujos de trabajo no se aplican en orden jerárquico en particular.
+La lista de actividades de marketing centraliza todas las actividades, independientemente de los programas o campañas en los que se crearon. Los programas, las campañas, los envíos (correos electrónicos, mensajes SMS y notificaciones push), las páginas de aterrizaje y los flujos de trabajo se desglosan sin orden jerárquico determinado.
 
-To access the marketing activity list, choose the **[!UICONTROL Marketing activities]** link from the top bar.
+Para acceder a la lista de actividades de marketing, elija el **[!UICONTROL Marketing activities]** vínculo en la barra superior.
 
 >[!NOTE]
 >
->The marketing activities can also be accessed by selecting the **[!UICONTROL Marketing activities]** card from the home page.
+>También se puede acceder a las actividades de marketing seleccionando la **[!UICONTROL Marketing activities]** tarjeta en la página principal.
 
 ![](assets/marketing_activities_1.png)
 
-The **[!UICONTROL Search]** pane allows you to filter elements according to different criteria: name (label and ID), date, status, or activity type. De forma predeterminada, se seleccionan todos los tipos de actividad, excepto los programas.
+El **[!UICONTROL Search]** panel permite filtrar elementos según diferentes criterios: nombre (etiqueta e ID), fecha, estado o tipo de actividad. De forma predeterminada, se seleccionan todos los tipos de actividad, excepto los programas.
 
 Para acceder directamente al contenido de cada actividad, elija uno de los elementos de la lista.
 
-The **[!UICONTROL Create]** button can be used to create a new activity. For more on this, refer to the [Creating a marketing activity](../../start/using/marketing-activities.md#creating-a-marketing-activity) section.
+El **[!UICONTROL Create]** botón se puede utilizar para crear una nueva actividad. For more on this, refer to the [Creating a marketing activity](#creating-a-marketing-activity) section.
 
-## Marketing activity icons and statuses {#marketing-activity-icons-and-statuses}
+## Iconos y estados de actividades de marketing {#marketing-activity-icons-and-statuses}
 
 En la zona principal, cada tipo de actividad de la lista tiene un icono:
 
 * ![](assets/marketing_program_icon.png) : Programa
 * ![](assets/marketing_campaign_icon.png) : Campaña
 * ![](assets/marketing_email_icon.png) : Correo electrónico
-* ![](assets/marketing_sms_icon.png) : SMS
-* ![](assets/marketing_push_icon.png) : Notificación push
-* ![](assets/marketing_lp_icon.png) : Mensaje en la aplicación
-* ![](assets/marketing_lp_icon.png) : Página de aterrizaje
+* ![](assets/marketing_sms_icon.png) :: SMS
+* ![](assets/marketing_push_icon.png) :: Notificación push
+* ![](assets/marketing_lp_icon.png) :: Mensaje en la aplicación
+* ![](assets/marketing_lp_icon.png) :: Página de aterrizaje
 * ![](assets/marketing_workflow_icon.png) : Flujo de trabajo
 
-Según el período de validez y el estado, el color asociado con este icono indica el estado de ejecución de la actividad correspondiente.
+Según el período de validez y el estado, el color asociado a este icono indica el estado de ejecución de la actividad correspondiente.
 
-* Gray: the activity has not yet started - **[!UICONTROL Editing]** status.
-* Blue: the activity is in progress - **[!UICONTROL In progress]** status.
-* Green: the activity has finished - **[!UICONTROL Finished]** status.
-* Yellow: the activity has received a warning - **[!UICONTROL Warning]** status.
-* Red: an error has occurred - **[!UICONTROL Erroneous]** status.
+* Gris: la actividad aún no ha comenzado - **[!UICONTROL Editing]** estado.
+* Azul: la actividad está en curso - **[!UICONTROL In progress]** estado.
+* Verde: la actividad ha finalizado - **[!UICONTROL Finished]** estado.
+* Amarillo: la actividad ha recibido una advertencia - **[!UICONTROL Warning]** estado.
+* Rojo: error: **[!UICONTROL Erroneous]** estado.
 
-## Creating a marketing activity {#creating-a-marketing-activity}
+## Creación de una actividad de marketing {#creating-a-marketing-activity}
 
-From an existing campaign, you can create different types of messages (**email**, **SMS**, **push notification**, etc.), workflows, and landing pages.
+Desde una campaña existente, puede crear diferentes tipos de mensajes (**correo electrónico**, **SMS**, notificación **** push, etc.), flujos de trabajo y páginas de aterrizaje.
 
 Desde un programa existente, puede crear otros programas, campañas, flujos de trabajo y páginas de aterrizaje.
 
 >[!NOTE]
 >
->Considere la posibilidad de crear flujos de trabajo directamente dentro de una campaña. Si crea un flujo de trabajo dentro de un programa, no podrá moverlo a una campaña posteriormente.
+>Considere la posibilidad de crear flujos de trabajo directamente dentro de una campaña. Si crea un flujo de trabajo dentro de un programa, después no podrá moverlo a una campaña.
 
-Programs and campaigns are presented in the [Programs and campaigns](../../start/using/programs-and-campaigns.md) section.
+Los programas y las campañas se presentan en la sección [Programas y campañas](../../start/using/programs-and-campaigns.md) .
 
-1. In the dashboard of a program or a campaign, create a new marketing activity using the **[!UICONTROL Create]** button.
+1. En el tablero de un programa o una campaña, cree una nueva actividad de marketing con el **[!UICONTROL Create]** botón .
 
    ![](assets/marketing_activiy_creation_1.png)
 
-1. Seleccione el tipo de actividad que desee crear.
+1. Seleccione el tipo de actividad que desea crear.
 
    ![](assets/marketing_activiy_creation_2.png)
 
@@ -87,14 +87,14 @@ Según el contexto, puede:
 
 * [Crear un correo electrónico](../../channels/using/creating-an-email.md)
 * [Crear un SMS](../../channels/using/creating-an-sms-message.md)
-* [Creación de una notificación Push](../../channels/using/preparing-and-sending-a-push-notification.md)
-* [Creación de un mensaje de inapp](../../channels/using/about-in-app-messaging.md)
+* [Crear una notificación push](../../channels/using/preparing-and-sending-a-push-notification.md)
+* [Creación de un mensaje de InApp](../../channels/using/about-in-app-messaging.md)
 * [Crear un flujo de trabajo](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* [Creación de una página de aterrizaje](../../channels/using/about-landing-pages.md)
-* [Crear una campaña](../../start/using/programs-and-campaigns.md#creating-a-campaign)
-* [Creación de un programa](../../start/using/programs-and-campaigns.md#creating-a-program)
+* [Crear una página de aterrizaje](../../channels/using/about-landing-pages.md)
+* [Cree una campaña](../../start/using/programs-and-campaigns.md#creating-a-campaign)
+* [Crear un programa](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]
 >
->También puede crear una actividad de marketing desde la lista de actividades de marketing. En este caso, puede crear cualquier tipo de actividad. Puede elegir vincular la actividad de mercadotecnia a una campaña principal (o a un programa principal si crea un programa) a través de las propiedades de la actividad.
+>También puede crear una actividad de marketing desde la lista de actividades de marketing. En este caso, puede crear cualquier tipo de actividad. Puede elegir vincular la actividad de marketing a una campaña principal (o a un programa principal si crea un programa) mediante las propiedades de la actividad.
 
