@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 45916918fc9e8008d4eb583a9c92886672c04b71
+source-git-commit: 55eb4f19691581e312224cb9008b9782196f37a4
 
 ---
 
@@ -49,16 +49,16 @@ Para seleccionar una columna, también puede hacer lo siguiente:
 1. Seleccione un componente de estructura (directamente en el correo electrónico o mediante el árbol de estructura disponible en la **paleta** izquierda).
 1. En la barra de herramientas **contextual, haga clic en****[!UICONTROL Select a column]** para elegir la columna deseada.
 
-Vea un ejemplo en [esta sección](../../designing/using/styles.md#example--adjusting-vertical-alignment-and-padding).
+Vea un ejemplo en [esta sección](#example--adjusting-vertical-alignment-and-padding).
 
 ### Ajuste de la configuración de estilo {#adjusting-style-settings}
 
-1. Seleccione un elemento en el correo electrónico. Para obtener más información sobre esto, consulte [Selección de un elemento](../../designing/using/styles.md#selecting-an-element).
+1. Seleccione un elemento en el correo electrónico. Para obtener más información sobre esto, consulte [Selección de un elemento](#selecting-an-element).
 1. Ajuste la configuración según sus necesidades. Cada elemento seleccionado ofrece un conjunto diferente de configuraciones.
 
-   Puede insertar fondos, cambiar el tamaño, modificar la alineación horizontal o vertical, administrar colores, agregar [relleno o margen](../../designing/using/styles.md#selecting-an-element), etc.
+   Puede insertar fondos, cambiar el tamaño, modificar la alineación horizontal o vertical, administrar colores, agregar [relleno o margen](#selecting-an-element), etc.
 
-   Para ello, utilice las opciones que se muestran en el **[!UICONTROL Settings]** panel o [agregue atributos](../../designing/using/styles.md#adding-inline-styling-attributes)de estilo en línea.
+   Para ello, utilice las opciones que se muestran en el **[!UICONTROL Settings]** panel o [agregue atributos](#adding-inline-styling-attributes)de estilo en línea.
 
    ![](assets/des_settings_pane.png)
 
@@ -220,7 +220,7 @@ El estilo se aplica al elemento seleccionado. Si los elementos secundarios no ti
 
 Puede ajustar el diseño interactivo de un correo electrónico editando por separado todas las opciones de estilo para la visualización móvil. Por ejemplo, puede adaptar los márgenes y el relleno, utilizar tamaños de fuente más pequeños o grandes, cambiar los botones o aplicar diferentes colores de fondo que sean específicos de la versión móvil del correo electrónico.
 
-Todas las opciones de estilo están disponibles en la vista móvil. La configuración de estilo de Email Designer se presenta en la sección [Editar estilos](../../designing/using/styles.md) de correo electrónico.
+Todas las opciones de estilo están disponibles en la vista móvil. La configuración de estilo de Email Designer se presenta en la sección [Editar estilos](#editing-email-styles) de correo electrónico.
 
 1. Cree un correo electrónico y comience a editar el contenido. Para obtener más información sobre esto, consulte [Diseño de contenido de correo electrónico desde cero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 1. Para acceder a la vista móvil dedicada, seleccione el **[!UICONTROL Switch to mobile view]** botón.
