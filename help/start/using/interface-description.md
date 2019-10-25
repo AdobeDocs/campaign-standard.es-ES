@@ -14,7 +14,7 @@ discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 14155f29492f66b070dd302c59bdd8e81008f281
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -57,7 +57,7 @@ Los principios de navegación son:
 
 * El **[!UICONTROL Adobe Campaign]** logotipo en la esquina superior izquierda de la página le permite acceder a las funciones y configuraciones avanzadas. Los menús dependen de su perfil y permisos.
 
-   El menú avanzado se presenta en la sección de menú [](../../start/using/interface-description.md#advanced-menu) Avanzado.
+   El menú avanzado se presenta en la sección de menú [](#advanced-menu) Avanzado.
 
 * El **[!UICONTROL Home]** vínculo le permite mostrar la página principal de Adobe Campaign.
 * Los vínculos **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]****[!UICONTROL Audiences]** y **[!UICONTROL Reports]** permiten acceder a las vistas vinculadas a estas funcionalidades.
@@ -103,7 +103,7 @@ El **[!UICONTROL Resources]** icono le permite acceder a las siguientes funcione
 
 ### Administración {#administration}
 
-El **[!UICONTROL Administration]** icono le permite acceder a las funciones avanzadas que sólo puede realizar un administrador funcional. Para obtener más información sobre esto, consulte la sección [Administración](../../administration/using/about-administrating-adobe-campaign.md) .
+El **[!UICONTROL Administration]** icono le permite acceder a las funciones avanzadas que sólo puede realizar un administrador funcional. For more on this, refer to the [Administration](../../administration/using/about-administrating-adobe-campaign.md) section.
 
 ## Zona central {#central-zone}
 
