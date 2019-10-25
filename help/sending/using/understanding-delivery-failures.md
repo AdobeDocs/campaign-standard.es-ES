@@ -1,122 +1,122 @@
 ---
-title: Explicación de los fallos de entrega
-seo-title: Explicación de los fallos de entrega
-description: Explicación de los fallos de entrega
-seo-description: Descubra cómo administrar errores de entrega con Campaign.
-page-status-flag: no activado nunca
-uuid: 2735 aa 05-7 b 6 f -47 c 9-98 c 4-a 15 cc 33 be 39 d
+title: Comprensión de los errores de envío
+seo-title: Comprensión de los errores de envío
+description: Comprensión de los errores de envío
+seo-description: Obtenga información sobre cómo administrar los errores de entrega con Campaign.
+page-status-flag: nunca activado
+uuid: 2735aa05-7b6f-47c9-98c4-a15cc33be39d
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: enviar
-content-type: reference
-topic-tags: monitoreo de mensajes
-discoiquuid: 38452841-4 cd 4-4 f 92-a 5 c 3-1 dfdd 54 ff 6 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f 4 f
+content-type: referencia
+topic-tags: monitoreo-mensajes
+discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
 
-# Understanding delivery failures{#understanding-delivery-failures}
+# Comprensión de los errores de envío{#understanding-delivery-failures}
 
-## About delivery failures {#about-delivery-failures}
+## Acerca de los errores de envío {#about-delivery-failures}
 
-Cuando una entrega no se puede enviar a un perfil, el servidor remoto envía automáticamente un mensaje de error, que la plataforma de Adobe Campaign recoge y califica para determinar si la dirección de correo electrónico o el número de teléfono deben colocarse en cuarentena. See [Bounce mail qualification](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
+Cuando no se puede enviar una entrega a un perfil, el servidor remoto envía automáticamente un mensaje de error, que recoge la plataforma de Adobe Campaign y que está cualificado para determinar si la dirección de correo electrónico o el número de teléfono se deben poner en cuarentena. Consulte [Rebotar cualificación](#bounce-mail-qualification)de correo.
 
 >[!NOTE]
 >
->**Los mensajes** de error de correo electrónico (o «devoluciones») se califican mediante el proceso de inmail. **Los mensajes** de error SMS (o "SR" para "Informe de estado") están cualificados mediante el proceso de MTA.
+>**Los mensajes de error de correo electrónico (o “rechazos”) se clasifican mediante el proceso de inMail.** **Los mensajes de error de SMS (o “SR”, de “informe de estado”) se clasifican mediante el proceso MTA.**
 
-Los mensajes también pueden excluirse durante la preparación de la entrega si se coloca en cuarentena una dirección o si un perfil está bloqueado. Excluded messages are listed in the **[!UICONTROL Exclusion logs]** tab of the delivery dashboard (see [this section](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
+Los mensajes también se pueden excluir durante la preparación del envío si una dirección está en cuarentena o si un perfil está en la lista negra. Los mensajes excluidos se enumeran en la **[!UICONTROL Exclusion logs]** ficha del tablero de envío (consulte [esta sección](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
 
 ![](assets/exclusion_logs.png)
 
 **Temas relacionados:**
 
-* [Información sobre la administración de cuarentena](../../sending/using/understanding-quarantine-management.md)
-* [Administración de listas bloqueadas en Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [Compresión de la gestión de la cuarentena](../../sending/using/understanding-quarantine-management.md)
+* [Administración de la lista negra en Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
-## Identifying delivery failures for a message {#identifying-delivery-failures-for-a-message}
+## Identificación de errores de entrega para un mensaje {#identifying-delivery-failures-for-a-message}
 
-Once a delivery is sent, the **[!UICONTROL Sending logs]** tab (see [this section](../../sending/using/monitoring-a-delivery.md#sending-logs)) allows you to view the delivery status for each profile and the associated failure type and reason (see [Delivery failure types and reasons](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)).
+Una vez enviado el envío, la **[!UICONTROL Sending logs]** ficha (consulte [esta sección](../../sending/using/monitoring-a-delivery.md#sending-logs)) le permite ver el estado de entrega de cada perfil y el tipo y motivo de error asociado (consulte Tipos y motivos [de error de](#delivery-failure-types-and-reasons)entrega).
 
 ![](assets/sending_logs.png)
 
-También hay disponible un informe predeterminado específico. Este informe detalla los errores generales y duros que se encontraron durante los envíos, así como el procesamiento automático de devoluciones. For more on this, refer to [this section](../../reporting/using/bounce-summary.md).
+También hay disponible un informe personalizado. Este informe detalla los errores generales de hardware y software encontrados durante las entregas, así como el procesamiento automático de las devoluciones. Para obtener más información, consulte [esta sección](../../reporting/using/bounce-summary.md).
 
-## Delivery failure types and reasons {#delivery-failure-types-and-reasons}
+## Tipos y motivos de errores de envío {#delivery-failure-types-and-reasons}
 
-Hay tres tipos de errores cuando falla una entrega:
+Existen tres tipos de errores cuando falla una entrega:
 
-* **Duro**: Un error "duro" indica una dirección no válida. Esto implica un mensaje de error que indica explícitamente que la dirección no es válida, como: " Usuario desconocido ".
-* **Suave**: Puede ser un error temporal o uno que no se pueda categorizar, por ejemplo: " Dominio no válido "o" Buzón de mailbox lleno ".
-* **Ignorado**: Se trata de un error que se conoce como temporal, como "Fuera de oficina", o bien un error técnico, por ejemplo, si el tipo de remitente es "postmaster".
+* **Duro**: Un error "duro" indica una dirección no válida. Esto implica un mensaje de error que indica explícitamente que la dirección no es válida, como: "Usuario desconocido".
+* **Suave**: Podría tratarse de un error temporal o uno que no se pudiera categorizar, como: "Dominio no válido" o "Buzón lleno".
+* **Ignorado**: Se trata de un error que se sabe que es temporal, como "Fuera de la oficina", o un error técnico, por ejemplo, si el tipo de remitente es "maestro de correo".
 
-Los posibles motivos de un fallo de entrega son:
+Los posibles motivos de un error de envío son:
 
-* **[!UICONTROL User unknown]** (Tipo duro): la dirección no existe. No se intentarán realizar más entregas para este perfil.
-* **[!UICONTROL Quarantined address]** (Tipo duro): la dirección se colocó en cuarentena.
-* **[!UICONTROL Unreachable]** (Tipo suave/duro): se ha producido un error en la cadena de entrega de mensajes (incidente en el rellamado SMTP, dominio no disponible temporalmente, etc.). Según el error devuelto por el proveedor, la dirección se enviará a cuarentena directamente o la entrega se volverá a probar hasta que Campaign reciba un error que justifique el estado de Cuarentena o hasta que el número de errores alcance 5.
+* **[!UICONTROL User unknown]** (Tipo duro): la dirección no existe. No se intenta realizar envíos adicionales para este perfil.
+* **[!UICONTROL Quarantined address]** (Tipo duro): la dirección se puso en cuarentena.
+* **[!UICONTROL Unreachable]** (Tipo suave/duro): se ha producido un error en la cadena de entrega de mensajes (incidente en el relé SMTP, dominio temporalmente inaccesible, etc.). Según el error devuelto por el proveedor, la dirección se enviará directamente a cuarentena o la entrega se volverá a intentar hasta que Campaign reciba un error que justifique el estado de cuarentena o hasta que el número de errores alcance el 5.
 * **[!UICONTROL Address empty]** (Tipo duro): la dirección no está definida.
-* **[!UICONTROL Mailbox full]** (Tipo suave): El buzón de correo de este usuario está lleno y no puede aceptar más mensajes. Esta dirección se puede eliminar de la lista de cuarentena para realizar otro intento. Se elimina automáticamente al cabo de 30 días.
+* **[!UICONTROL Mailbox full]** (Tipo suave): el buzón de este usuario está lleno y no puede aceptar más mensajes. Esta dirección se puede eliminar de la lista de cuarentena para realizar otro intento. Se elimina automáticamente después de 30 días.
 
    Para que la dirección se elimine de forma automática de la lista de direcciones en cuarentena, debe iniciarse el flujo de trabajo técnico **[!UICONTROL Database cleanup]**.
 
-* **[!UICONTROL Refused]** (Tipo suave/duro): La dirección se ha colocado en cuarentena debido a los comentarios de seguridad como un informe no deseado. Según el error devuelto por el proveedor, la dirección se enviará a cuarentena directamente o la entrega se volverá a probar hasta que Campaign reciba un error que justifique el estado de Cuarentena o hasta que el número de errores alcance 5.
-* **[!UICONTROL Duplicate]**: la dirección ya se detectó en la segmentación.
-* **[!UICONTROL Not defined]** (Tipo suave): la dirección está calificada porque todavía no se han incrementado los errores.
+* **[!UICONTROL Refused]** (Tipo suave/duro): la dirección se ha colocado en cuarentena debido a los comentarios de seguridad como un informe de spam. Según el error devuelto por el proveedor, la dirección se enviará directamente a cuarentena o la entrega se volverá a intentar hasta que Campaign reciba un error que justifique el estado de cuarentena o hasta que el número de errores alcance el 5.
+* **[!UICONTROL Duplicate]**:: la dirección ya se ha detectado en la segmentación.
+* **[!UICONTROL Not defined]** (Tipo suave): la dirección está cualificada porque aún no se han incrementado los errores.
 
-   Este tipo de error se produce cuando el servidor envía un nuevo mensaje de error: Puede ser un error aislado, pero si se vuelve a producir, el contador de errores aumenta, lo que avisará a los equipos técnicos.
+   Este tipo de error se produce cuando el servidor envía un nuevo mensaje de error: puede tratarse de un error aislado; sin embargo, si vuelve a producirse, el contador de errores aumenta, lo que advierte a los equipos técnicos.
 
-* **[!UICONTROL Error ignored]**: la dirección se encuentra en la lista de direcciones permitidas y se le enviará un correo electrónico en cualquier caso.
-* **[!UICONTROL Blacklisted address]**: la dirección estaba bloqueada en el momento del envío.
-* **[!UICONTROL Account disabled]** (Tipo suave/duro): Cuando el proveedor de acceso a Internet (IAP) detecta un período largo de inactividad, puede cerrar la cuenta del usuario: los envíos a la dirección del usuario serán imposibles. The Soft or Hard type depends upon the type of error received: if the account is temporarily disabled due to six months of inactivity and can still be activated, the status **[!UICONTROL Erroneous]** will be assigned and the delivery will be tried again. Si el error recibido indica que la cuenta está desactivada permanentemente, se enviará directamente a Cuarentena.
-* **[!UICONTROL Not connected]**: el teléfono móvil del perfil se desactiva o no a la red cuando se envía el mensaje.
-* **[!UICONTROL Invalid domain]** (Tipo suave): el dominio de la dirección de correo electrónico es incorrecto o ya no existe. Este perfil volverá a ser dirigido hasta que el recuento de errores alcance 5. Después de esto, el registro estará establecido en estado de Cuarentena y no se realizará ningún reintento.
-* **[!UICONTROL Text too long]**: el número de caracteres del mensaje SMS excede el límite. For more on this, see [SMS encoding, length and transliteration](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
-* **[!UICONTROL Character not supported by encoding]**: El mensaje SMS contiene uno o varios caracteres que la codificación no admite. &amp;For more on this, see [Table of characters - GSM Standard](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard).
+* **[!UICONTROL Error ignored]**:: la dirección está en la lista blanca y se le enviará un correo electrónico en cualquier caso.
+* **[!UICONTROL Blacklisted address]**:: la dirección estaba bloqueada en el momento del envío.
+* **[!UICONTROL Account disabled]** (Tipo suave/duro): cuando el proveedor de acceso a Internet (IAP) detecta un largo período de inactividad, puede cerrar la cuenta del usuario: las entregas a la dirección del usuario serán imposibles. El tipo Suave o Duro depende del tipo de error recibido: si la cuenta se desactiva temporalmente debido a seis meses de inactividad y aún se puede activar, se **[!UICONTROL Erroneous]** asignará el estado y se volverá a intentar la entrega. Si el error recibido indica que la cuenta está desactivada de forma permanente, se enviará directamente a cuarentena.
+* **[!UICONTROL Not connected]**:: el teléfono móvil del perfil está apagado o no conectado a la red cuando se envía el mensaje.
+* **[!UICONTROL Invalid domain]** (Tipo suave): el dominio de la dirección de correo electrónico es incorrecto o ya no existe. Este perfil se vuelve a seleccionar hasta que el recuento de errores llegue a 5. Después de esto, el registro se pone en estado de cuarentena y no se realiza ningún reintento.
+* **[!UICONTROL Text too long]**:: el número de caracteres del mensaje SMS supera el límite. Para obtener más información sobre esto, consulte Codificación, longitud y transliteración [SMS](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
+* **[!UICONTROL Character not supported by encoding]**:: el mensaje SMS contiene uno o varios caracteres que no son compatibles con la codificación. &amp;Para obtener más información sobre esto, consulte [Tabla de caracteres - Estándar](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard)GSM.
 
-## Retries after a delivery temporary failure {#retries-after-a-delivery-temporary-failure}
+## Reintentos tras un fallo temporal de envío {#retries-after-a-delivery-temporary-failure}
 
-If a message fails due to a temporary error of the **Ignored** type, retries will be performed during the delivery duration. For more on the types of errors, see [Delivery failure types and reasons](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+Si un mensaje falla debido a un error temporal del tipo **Ignorado** , los reintentos se realizarán durante la duración de la entrega. Para obtener más información sobre los tipos de errores, consulte Tipos y motivos [de error de](#delivery-failure-types-and-reasons)entrega.
 
-Para modificar la duración de una entrega, vaya a los parámetros avanzados del envío o plantilla de entrega y especifique la duración deseada en el campo correspondiente. The advanced delivery properties are presented in [this section](../../administration/using/configuring-email-channel.md#validity-period-parameters).
+Para modificar la duración de un envío, vaya a los parámetros avanzados del envío o de la plantilla de envío y especifique la duración deseada en el campo correspondiente. Las propiedades de envío avanzadas se presentan en [esta sección](../../administration/using/configuring-email-channel.md#validity-period-parameters).
 
-La configuración predeterminada permite cinco reintentos en intervalos de una hora, seguido de un reintento por día durante cuatro días. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).
+La configuración predeterminada permite cinco intentos en intervalos de una hora, seguidos de un reintento diario durante cuatro días. El número de reintentos se puede cambiar a nivel global (póngase en contacto con el administrador técnico de Adobe) o para cada envío o plantilla de envío (consulte [esta sección](../../administration/using/configuring-email-channel.md#sending-parameters)).
 
-## Synchronous and asynchronous errors {#synchronous-and-asynchronous-errors}
+## Errores sincrónicos y asíncronos {#synchronous-and-asynchronous-errors}
 
-Una entrega puede fallar inmediatamente (error sincrónico), o posterior, después de enviarse (error asincrónico).
+Una entrega puede fallar inmediatamente (error sincrónico), o más tarde, después de haber sido enviada (error asincrónico).
 
-* **Error sincrónico**: El servidor remoto del servidor de entrega de Adobe Campaign devolvía inmediatamente un mensaje de error, el envío no se permite al servidor del perfil.
-* **Error asincrónico**: el servidor receptor volvió a enviar un correo de devoluciones o SR. Los errores asincrónicos se pueden producir hasta una semana después de enviar una entrega.
+* **Error** sincrónico: el servidor remoto con el que se puso en contacto el servidor de entrega de Adobe Campaign devolvió inmediatamente un mensaje de error; la entrega no se puede enviar al servidor del perfil.
+* **Error** asincrónico: el servidor receptor envió posteriormente un mensaje de devolución o un SR. Pueden producirse errores asíncronos hasta una semana después de mandar el envío.
 
-## Bounce mail qualification {#bounce-mail-qualification}
+## Clasificación del correo rechazado {#bounce-mail-qualification}
 
-La plataforma Adobe Campaign detecta los mensajes de error de entrega (o «devoluciones») y los reúne el proceso de inmail para enriquecer la lista de reglas de administración de correo electrónico.
+Los mensajes de error de error de entrega (o "devoluciones") son recogidos por la plataforma de Adobe Campaign y calificados por el proceso de inMail para enriquecer la lista de reglas de administración de correo electrónico.
 
-Esta lista solo está disponible para los administradores y contiene todas las reglas utilizadas por Adobe Campaign para cumplir los fallos de entrega.
+Esta lista solo está disponible para los administradores y contiene todas las reglas utilizadas por Adobe Campaign para calificar los errores de entrega.
 
-To access it, click the **[!UICONTROL Adobe Campaign]** logo, at the top left, then select **[!UICONTROL Administration > Channels > Email > Email processing rules]**.
+Para acceder a él, haga clic en el **[!UICONTROL Adobe Campaign]** logotipo, en la parte superior izquierda y seleccione **[!UICONTROL Administration > Channels > Email > Email processing rules]**.
 
-For more on this, refer to this [section](../../administration/using/configuring-email-channel.md#email-processing-rules).
+Para obtener más información, consulte [esta sección](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
 Las devoluciones pueden tener los siguientes estados de cualificación:
 
-* **[!UICONTROL To qualify]**: el correo de devolución debe ser calificado. La cualificación debe realizarla el equipo de Suministro para asegurarse de que las funciones de la plataforma funcionan correctamente. Siempre que no esté cualificado, el correo de salida hacia otro sitio no se utiliza para enriquecer la lista de reglas de procesamiento por correo electrónico.
-* **[!UICONTROL Keep]**: El correo de devolución se cualificará y la **actualización para el** flujo de trabajo de entrega se comparará con las reglas de procesamiento de correo electrónico existentes y enriquecerá la lista.
-* **[!UICONTROL Ignore]**: El correo de devolución se cualificó pero la **actualización para el** flujo de trabajo de entrega no se usará. Por lo tanto, no se enviará a las instancias de cliente.
+* **[!UICONTROL To qualify]**:: el correo de devolución debe estar cualificado. El equipo de entregabilidad debe realizar la calificación para garantizar que la entrega de la plataforma funcione correctamente. Mientras no esté cualificado, el correo de devolución no se utiliza para enriquecer la lista de reglas de procesamiento de correo electrónico.
+* **[!UICONTROL Keep]**:: el correo de devolución estaba cualificado y será utilizado por la **actualización para que el flujo de trabajo de entregabilidad** se compare con las reglas de procesamiento de correo electrónico existentes y enriquezca la lista.
+* **[!UICONTROL Ignore]**:: el correo de devolución estaba cualificado pero no lo usará la **actualización para el flujo de trabajo de la entrega** . Por lo tanto, no se enviará a las instancias de cliente.
 
-To list the various bounces and their associated error types et reasons, click the **[!UICONTROL Adobe Campaign]** logo, in the top left, then select **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
+Para enumerar los distintos rebotes y sus tipos de error asociados y sus motivos, haga clic en el **[!UICONTROL Adobe Campaign]** logotipo, en la parte superior izquierda, y seleccione **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
 
 ![](assets/qualification.png)
 
-## Optimizing mail deliverability with double opt-in mechanism {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
+## Optimización de la entrega de correo con el mecanismo de doble inclusión {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
 
-El mecanismo de selección doble es una práctica recomendada al enviar correos electrónicos. Protege a la plataforma de direcciones de correo electrónico incorrectas o no válidas, bots de spam y evita posibles quejas no deseadas.
+El mecanismo de doble inclusión es una práctica recomendada al enviar correos electrónicos. Protege la plataforma de direcciones de correo electrónico equivocadas o no válidas, spambots y evita posibles quejas de spam.
 
-El principio es enviar un mensaje de correo electrónico para confirmar el acuerdo del visitante antes de almacenarlo como'perfiles'en la base de datos de campaña: El visitante completa una página de aterrizaje en línea, luego recibe un correo electrónico y tiene que hacer clic en el vínculo de confirmación para finalizar su suscripción.
+El principio es enviar un correo electrónico para confirmar el acuerdo del visitante antes de almacenarlo como "perfiles" en la base de datos de Campaign: el visitante rellena una página de aterrizaje en línea, luego recibe un correo electrónico y tiene que hacer clic en el vínculo de confirmación para finalizar su suscripción.
 
-For more on this, refer to [this section](../../channels/using/setting-up-a-double-opt-in-process.md).
+Para obtener más información, consulte [esta sección](../../channels/using/setting-up-a-double-opt-in-process.md).
