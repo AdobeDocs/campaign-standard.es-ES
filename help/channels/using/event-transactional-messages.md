@@ -15,7 +15,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -115,7 +115,7 @@ Para configurar la personalización en un mensaje transaccional, siga los pasos 
 
    ![](assets/message-center_9.png)
 
-   Puede comprobar que los campos de personalización coinciden con la información introducida en el perfil de prueba. Para obtener más información sobre esto, consulte [Definición de un perfil de prueba en un mensaje](../../channels/using/event-transactional-messages.md#defining-a-test-profile-in-a-transactional-message)transaccional.
+   Puede comprobar que los campos de personalización coinciden con la información introducida en el perfil de prueba. Para obtener más información sobre esto, consulte [Definición de un perfil de prueba en un mensaje](#defining-a-test-profile-in-a-transactional-message)transaccional.
 
 ## Uso de listados de productos en un mensaje transaccional {#using-product-listings-in-a-transactional-message}
 
@@ -234,7 +234,7 @@ Para obtener más información sobre la creación de una colección y los campos
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
-   Para obtener más información sobre la definición de un perfil de prueba en un mensaje transaccional, consulte [esta sección](../../channels/using/event-transactional-messages.md#defining-a-test-profile-in-a-transactional-message).
+   Para obtener más información sobre la definición de un perfil de prueba en un mensaje transaccional, consulte [esta sección](#defining-a-test-profile-in-a-transactional-message).
 
 ## Prueba de un mensaje transaccional {#testing-a-transactional-message}
 
@@ -274,9 +274,9 @@ Al hacer clic en **[!UICONTROL Unpublish]** se puede cancelar la publicación de
 
 >[!NOTE]
 >
->Para volver a publicar el mensaje, debe volver a la configuración del evento correspondiente, publicarlo y publicarlo. Para obtener más información sobre esto, consulte [Publicación de un mensaje](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message)transaccional.
+>Para volver a publicar el mensaje, debe volver a la configuración del evento correspondiente, publicarlo y publicarlo. Para obtener más información sobre esto, consulte [Publicación de un mensaje](#publishing-a-transactional-message)transaccional.
 
-Si cancela la publicación de un mensaje transaccional pausado, es posible que tenga que esperar hasta 24 horas para poder volver a publicarlo. Esto permite que el flujo de trabajo **[!UICONTROL Database cleanup]** limpie todos los eventos que se han enviado a la cola. Los pasos para pausar un mensaje se detallan en la sección [Suspender una publicación](../../channels/using/event-transactional-messages.md#suspending-a-transactional-message-publication) de mensajes transaccionales.
+Si cancela la publicación de un mensaje transaccional pausado, es posible que tenga que esperar hasta 24 horas para poder volver a publicarlo. Esto permite que el flujo de trabajo **[!UICONTROL Database cleanup]** limpie todos los eventos que se han enviado a la cola. Los pasos para pausar un mensaje se detallan en la sección [Suspender una publicación](#suspending-a-transactional-message-publication) de mensajes transaccionales.
 
 Se puede acceder al **[!UICONTROL Database cleanup]** flujo de trabajo, que se ejecuta todos los días a las 4 de la mañana, a través de **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Workflows]**.
 
@@ -288,7 +288,7 @@ Si selecciona un mensaje transaccional, puede eliminarlo con el **[!UICONTROL De
 
 * **Mensajes** transaccionales: Para eliminar un mensaje transaccional, se debe cancelar la publicación del mensaje y no ponerlo en pausa.
 
-   Si se deja de publicar el mensaje transaccional, también es necesario cancelar la publicación de la configuración del evento para eliminar correctamente el mensaje transaccional, a menos que otro mensaje transaccional esté vinculado al evento correspondiente. For more information on how to unpublish a transactional message, refer to this [section](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message).
+   Si se deja de publicar el mensaje transaccional, también es necesario cancelar la publicación de la configuración del evento para eliminar correctamente el mensaje transaccional, a menos que otro mensaje transaccional esté vinculado al evento correspondiente. For more information on how to unpublish a transactional message, refer to this [section](#unpublishing-a-transactional-message).
 
    >[!CAUTION]
    >
@@ -304,8 +304,8 @@ Un mensaje transaccional no entregado temporalmente está sujeto a reintentos au
 
 Cuando no se puede enviar un mensaje transaccional, hay dos sistemas de reintentos:
 
-* En el nivel de mensajería transaccional, un mensaje transaccional puede fallar antes de que el evento se asigne a una entrega de ejecución, lo que significa entre la recepción del evento y la preparación de la entrega. Consulte Proceso [de reintento](../../channels/using/event-transactional-messages.md#event-processing-retry-process)de procesamiento de eventos.
-* A nivel de proceso de envío, una vez que el evento se ha asignado a una entrega de ejecución, el mensaje transaccional puede fallar debido a un error temporal. Consulte [Proceso](../../channels/using/event-transactional-messages.md#message-sending-retry-process)de reintento de envío de mensajes.
+* En el nivel de mensajería transaccional, un mensaje transaccional puede fallar antes de que el evento se asigne a una entrega de ejecución, lo que significa entre la recepción del evento y la preparación de la entrega. Consulte Proceso [de reintento](#event-processing-retry-process)de procesamiento de eventos.
+* A nivel de proceso de envío, una vez que el evento se ha asignado a una entrega de ejecución, el mensaje transaccional puede fallar debido a un error temporal. Consulte [Proceso](#message-sending-retry-process)de reintento de envío de mensajes.
 
 ### Proceso de reintentos de procesamiento de eventos {#event-processing-retry-process}
 
