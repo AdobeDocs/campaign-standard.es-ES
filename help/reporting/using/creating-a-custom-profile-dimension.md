@@ -14,7 +14,7 @@ discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4ad558fce83006879455a791127594157456f0c4
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -25,10 +25,10 @@ Los informes también se pueden crear y administrar en función de los datos de 
 
 En este ejemplo, queremos crear los programas **de** Lealtad de campo de perfil personalizado que se dividirán en tres niveles: oro, plata y bronce. Este perfil personalizado se ampliará para poder utilizarlo como dimensión de perfil personalizada en los informes dinámicos.
 
-* [Paso 1: Crear un nuevo campo de perfil](../../reporting/using/creating-a-custom-profile-dimension.md#step-1--create-a-new-profile-field)
-* [Paso 2: Ampliar los registros de envío con el campo de perfil](../../reporting/using/creating-a-custom-profile-dimension.md#step-2--extend-the-sending-logs-with-the-profile-field)
-* [Paso 3: Creación de destinatarios de entrega inscritos en el programa de fidelidad](../../reporting/using/creating-a-custom-profile-dimension.md#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program)
-* [Paso 4: Crear un informe dinámico para filtrar destinatarios con la dimensión de perfil personalizado](../../reporting/using/creating-a-custom-profile-dimension.md#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension)
+* [Paso 1: Crear un nuevo campo de perfil](#step-1--create-a-new-profile-field)
+* [Paso 2: Ampliar los registros de envío con el campo de perfil](#step-2--extend-the-sending-logs-with-the-profile-field)
+* [Paso 3: Creación de destinatarios de entrega inscritos en el programa de fidelidad](#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program)
+* [Paso 4: Crear un informe dinámico para filtrar destinatarios con la dimensión de perfil personalizado](#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension)
 
 ## Paso 1: Crear un nuevo campo de perfil {#step-1--create-a-new-profile-field}
 
@@ -64,7 +64,7 @@ Para ello:
 
    ![](assets/custom_profile_14.png)
 
-1. Seleccione la **[!UICONTROL Screen definition]** ficha. En la **[!UICONTROL Detail screen configuration]** lista desplegable, marque **[!UICONTROL Add personalized fields]** para crear una nueva sección en nuestro perfil.
+1. Select the **[!UICONTROL Screen definition]** tab. En la **[!UICONTROL Detail screen configuration]** lista desplegable, marque **[!UICONTROL Add personalized fields]** para crear una nueva sección en nuestro perfil.
 
    ![](assets/custom_profile_4.png)
 
@@ -91,7 +91,7 @@ El nuevo campo de perfil ya está listo para ser utilizado y seleccionado por lo
 
 Ahora que se ha creado el campo de perfil, necesitamos ampliar los registros de envío con nuestro campo de perfil para crear la dimensión de perfil personalizada asociada en los informes dinámicos.
 
-Antes de ampliar el registro con nuestro campo de perfil, asegúrese de que la ventana PII haya sido aceptada para tener acceso a la **[!UICONTROL Sending logs extension]** ficha. Para obtener más información sobre esto, consulte esta [página](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
+Antes de ampliar el registro con nuestro campo de perfil, asegúrese de que la ventana PII haya sido aceptada para tener acceso a la **[!UICONTROL Sending logs extension]** ficha. Para obtener más información, consulte [esta página](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
 >[!NOTE]
 >
@@ -99,7 +99,7 @@ Antes de ampliar el registro con nuestro campo de perfil, asegúrese de que la v
 
 1. En el menú avanzado, seleccione **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Custom resources]** y, a continuación, el recurso **[!UICONTROL Profile (profile)]** personalizado.
 1. Abra la **[!UICONTROL Sending logs extension]** lista desplegable.
-1. Haga clic en el **[!UICONTROL Create element]** botón.
+1. Click the **[!UICONTROL Create element]** button.
 
    ![](assets/custom_profile_9.png)
 
@@ -108,7 +108,7 @@ Antes de ampliar el registro con nuestro campo de perfil, asegúrese de que la v
 
    ![](assets/custom_profile_10.png)
 
-   Esta opción solo está disponible si se ha aceptado la ventana PII. Para obtener más información sobre esto, consulte esta [página](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
+   Esta opción solo está disponible si se ha aceptado la ventana PII. Para obtener más información, consulte [esta página](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
 1. Haga clic en **[!UICONTROL Add]** y guarde el recurso personalizado.
 1. Como el recurso personalizado se modificó, debemos publicarlo para implementar los nuevos cambios.
@@ -139,7 +139,7 @@ Una vez publicado el campo de perfil, puede iniciar la entrega. En este ejemplo,
    ![](assets/custom_profile_17.png)
 
 1. Haga clic en **[!UICONTROL Confirm]** y luego, cuando termine de filtrar, haga clic en **[!UICONTROL Next]**.
-1. Defina y personalice el contenido del mensaje, el nombre del remitente y el asunto. Para obtener más información sobre la creación de correo electrónico, consulte esta [página](../../designing/using/overview.md).
+1. Defina y personalice el contenido del mensaje, el nombre del remitente y el asunto. For more information on email creation refer to this [page](../../designing/using/overview.md).
 
    A continuación, haga clic en **[!UICONTROL Create]**.
 
