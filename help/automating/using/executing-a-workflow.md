@@ -15,7 +15,7 @@ context-tags: flujo de trabajo,descripción general;flujo de trabajo,principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -86,7 +86,7 @@ Una vez iniciado, un flujo de trabajo también puede tener otros dos estados:
 
 * **Erróneo** (rojo)
 
-   Error al ejecutar un flujo de trabajo. El flujo de trabajo se detuvo y el usuario debe realizar una acción. Para obtener más información sobre este error, utilice el ![](assets/printpreview_darkgrey-24px.png) botón para acceder al registro del flujo de trabajo (consulte [Supervisión](../../automating/using/executing-a-workflow.md#monitoring)).
+   Error al ejecutar un flujo de trabajo. El flujo de trabajo se detuvo y el usuario debe realizar una acción. Para obtener más información sobre este error, utilice el ![](assets/printpreview_darkgrey-24px.png) botón para acceder al registro del flujo de trabajo (consulte [Supervisión](#monitoring)).
 
 La lista de actividades de marketing le permite mostrar todos los flujos de trabajo, así como sus estados. Para obtener más información sobre esto, consulte [Administración de actividades](../../start/using/marketing-activities.md#about-marketing-activities)de marketing.
 
@@ -146,7 +146,7 @@ El ![](assets/checkdisable.png) botón desactiva las actividades seleccionadas.
 
 El ![](assets/printpreview_darkgrey-24px.png) icono abre el registro del flujo de trabajo y el menú de tareas.
 
-El historial de flujo de trabajo se guarda durante el tiempo especificado en las opciones de ejecución de flujo de trabajo (consulte las propiedades [de](../../automating/using/executing-a-workflow.md#workflow-properties)flujo de trabajo). Durante este período, todos los mensajes se guardan, incluso después de un reinicio. Si no desea guardar los mensajes de una ejecución anterior, debe depurar el historial haciendo clic en el ![](assets/delete_darkgrey-24px.png) botón.
+El historial de flujo de trabajo se guarda durante el tiempo especificado en las opciones de ejecución de flujo de trabajo (consulte las propiedades [de](#workflow-properties)flujo de trabajo). Durante este período, todos los mensajes se guardan, incluso después de un reinicio. Si no desea guardar los mensajes de una ejecución anterior, debe depurar el historial haciendo clic en el ![](assets/delete_darkgrey-24px.png) botón.
 
 La **[!UICONTROL Log]** ficha contiene el historial de ejecución de todas las actividades o de cualquier actividad seleccionada. Indice las operaciones realizadas y los errores de ejecución por orden cronológico.
 
@@ -174,9 +174,9 @@ En este caso, se anula la tarea errónea. Este modo es especialmente adecuado pa
 
 >[!NOTE]
 >
->Puede aplicar esta configuración individualmente para cada actividad. Para ello, seleccione una actividad y ábrala con la acción rápida ![](assets/edit_darkgrey-24px.png). A continuación, seleccione el modo de administración de errores en la ficha Opciones **de** ejecución. Consulte Opciones [de ejecución de actividades](../../automating/using/executing-a-workflow.md#activity-execution-options).
+>Puede aplicar esta configuración individualmente para cada actividad. Para ello, seleccione una actividad y ábrala con la acción rápida ![](assets/edit_darkgrey-24px.png). A continuación, seleccione el modo de administración de errores en la ficha Opciones **de** ejecución. Consulte Opciones [de ejecución de actividades](#activity-execution-options).
 
-La **[!UICONTROL Execution]** sección de las propiedades del flujo de trabajo también le permite definir un número de **[!UICONTROL Consecutive errors]** ellas autorizadas antes de que la ejecución del flujo de trabajo se suspenda automáticamente. Mientras no se alcance este número, se ignorarán los elementos erróneos y las demás ramas del flujo de trabajo se ejecutarán normalmente. Si se alcanza este número, el flujo de trabajo se suspende y se notifica automáticamente a los supervisores del flujo de trabajo (notificación por correo electrónico y en la aplicación). Consulte Propiedades [](../../automating/using/executing-a-workflow.md#workflow-properties) del flujo de trabajo y notificaciones [de](../../administration/using/sending-internal-notifications.md)Adobe Campaign.
+La **[!UICONTROL Execution]** sección de las propiedades del flujo de trabajo también le permite definir un número de **[!UICONTROL Consecutive errors]** ellas autorizadas antes de que la ejecución del flujo de trabajo se suspenda automáticamente. Mientras no se alcance este número, se ignorarán los elementos erróneos y las demás ramas del flujo de trabajo se ejecutarán normalmente. Si se alcanza este número, el flujo de trabajo se suspende y se notifica automáticamente a los supervisores del flujo de trabajo (notificación por correo electrónico y en la aplicación). Consulte Propiedades [](#workflow-properties) del flujo de trabajo y notificaciones [de](../../administration/using/sending-internal-notifications.md)Adobe Campaign.
 
 Los supervisores también se pueden definir en las propiedades de ejecución del flujo de trabajo.
 
