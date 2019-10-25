@@ -14,7 +14,7 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e89bd70459c92ba9706bbec5c488cbb340b14651
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -59,7 +59,7 @@ Para crear y configurar esta página de aterrizaje, debe:
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   Este contexto elimina el campo de lista negra para poder enviar correos electrónicos. Más adelante veremos que la primera página de aterrizaje establecía este campo en **true** antes de la confirmación, para evitar enviar correos electrónicos a perfiles no confirmados. Para obtener más información sobre esto, consulte el [paso 3: Cree la página](../../channels/using/setting-up-a-double-opt-in-process.md#step-3--create-the-acquisition-landing-page)de inicio de adquisición.
+   Este contexto elimina el campo de lista negra para poder enviar correos electrónicos. Más adelante veremos que la primera página de aterrizaje establecía este campo en **true** antes de la confirmación, para evitar enviar correos electrónicos a perfiles no confirmados. Para obtener más información sobre esto, consulte el [paso 3: Cree la página](#step-3--create-the-acquisition-landing-page)de inicio de adquisición.
 
 1. Personalice el contenido de la página de aterrizaje: puede mostrar datos personalizados y cambiar la etiqueta del botón de confirmación a "Haga clic aquí para confirmar mi suscripción", por ejemplo.
 
@@ -96,7 +96,7 @@ El mensaje de correo electrónico de confirmación es un mensaje [](../../channe
 1. Seleccione **[!UICONTROL Profile]** como el **[!UICONTROL Targeting enrichment]** en la lista desplegable.
 1. Haga clic en **[!UICONTROL Publish]** para publicar el evento.
 
-El evento está listo. Ahora puede diseñar la plantilla de correo electrónico. Esta plantilla debe incluir un vínculo a la página de aterrizaje de **CONFIRMACIÓN** creada anteriormente. Para obtener más información sobre esto, consulte [Diseño del mensaje](../../channels/using/setting-up-a-double-opt-in-process.md#design-the-confirmation-message)de confirmación.
+El evento está listo. Ahora puede diseñar la plantilla de correo electrónico. Esta plantilla debe incluir un vínculo a la página de aterrizaje de **CONFIRMACIÓN** creada anteriormente. Para obtener más información sobre esto, consulte [Diseño del mensaje](#design-the-confirmation-message)de confirmación.
 
 ### Crear la regla de tipología {#create-the-typology-rule}
 
@@ -136,7 +136,7 @@ Para crear y configurar esta página de aterrizaje, debe:
 
    y establezca el valor en **true**.
 
-   Es obligatorio forzar la lista negra y evitar el envío de mensajes a los visitantes que no confirmaron su acuerdo. La validación de la página de aterrizaje de CONFIRMACIÓN establecerá este campo en **false** después de la confirmación. Para obtener más información sobre esto, consulte el [Paso 1: Cree la página](../../channels/using/setting-up-a-double-opt-in-process.md#step-1--create-the-confirmation-landing-page)de aterrizaje de confirmación.
+   Es obligatorio forzar la lista negra y evitar el envío de mensajes a los visitantes que no confirmaron su acuerdo. La validación de la página de aterrizaje de CONFIRMACIÓN establecerá este campo en **false** después de la confirmación. Para obtener más información sobre esto, consulte el [Paso 1: Cree la página](#step-1--create-the-confirmation-landing-page)de aterrizaje de confirmación.
 
 1. En la sección **[!UICONTROL Job]** &gt; **[!UICONTROL Specific actions]** , seleccione la opción **[!UICONTROL Start sending messages]**.
 1. En la lista desplegable asociada, elija la plantilla de mensaje transaccional **CONFIRM** que ha creado.
