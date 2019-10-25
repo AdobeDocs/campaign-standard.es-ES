@@ -14,7 +14,7 @@ discoiquuid: 1e0f8945-fc3c-46a9-a8e5-b181a1f5ffcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e946069dd4cbd16085aaa8ac9fa2ea08beb74b5f
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -29,10 +29,10 @@ Aquí, queremos actualizar nuestros perfiles con el nuevo campo usando una pági
 
 Para ello, siga los pasos a continuación:
 
-* [Paso 1: Ampliar el recurso de perfil](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-1--extend-the-profile-resource)
-* [Paso 2: Ampliar el perfil de prueba](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-2--extend-the-test-profile)
-* [Paso 3: Publicar el recurso personalizado](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-3--publish-your-custom-resource)
-* [Paso 4: Actualización y destino de perfiles con un flujo de trabajo](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-4--update-and-target-profiles-with-a-workflow)
+* [Paso 1: Ampliar el recurso de perfil](#step-1--extend-the-profile-resource)
+* [Paso 2: Ampliar el perfil de prueba](#step-2--extend-the-test-profile)
+* [Paso 3: Publicar el recurso personalizado](#step-3--publish-your-custom-resource)
+* [Paso 4: Actualización y destino de perfiles con un flujo de trabajo](#step-4--update-and-target-profiles-with-a-workflow)
 
 A continuación, se agregará el siguiente campo a nuestros perfiles y se puede definir como objetivo en una entrega:
 
@@ -149,7 +149,7 @@ El nuevo campo de recursos ya está listo para utilizarse y segmentarse, por eje
 
 ## Paso 4: Actualización y destino de perfiles con un flujo de trabajo {#step-4--update-and-target-profiles-with-a-workflow}
 
-Para actualizar perfiles con datos para el nuevo campo personalizado, puede crear una página de aterrizaje con la **[!UICONTROL Profile acquisition]** plantilla. Para obtener más información sobre las páginas de aterrizaje, consulte esta [página](../../channels/using/about-landing-pages.md).
+Para actualizar perfiles con datos para el nuevo campo personalizado, puede crear una página de aterrizaje con la **[!UICONTROL Profile acquisition]** plantilla. For more information on landing pages, refer to this [page](../../channels/using/about-landing-pages.md).
 
 Aquí, queremos establecer como objetivo los perfiles de flujo de trabajo que no hayan rellenado este campo. Recibirán un correo electrónico pidiéndoles que actualicen sus perfiles para recibir boletines informativos y ofertas personalizados. A continuación, cada perfil recibirá un boletín personalizado en función de los intereses elegidos.
 
@@ -178,7 +178,7 @@ La página de aterrizaje ya está lista. Para actualizar los perfiles, puede cre
 
    ![](assets/schema_extension_uc3.png)
 
-1. Cree y diseñe su correo electrónico según sea necesario. Para obtener más información sobre la personalización del correo electrónico, consulte esta [página](../../designing/using/quick-start.md).
+1. Cree y diseñe su correo electrónico según sea necesario. For more information on email personalization, refer to this [page](../../designing/using/quick-start.md).
 1. Agregue un botón al correo electrónico que redireccione los perfiles a la página de aterrizaje.
 1. Seleccione el botón agregado y haga clic ![](assets/schema_extension_uc7.png) en la **[!UICONTROL Link]** sección del panel izquierdo.
 
