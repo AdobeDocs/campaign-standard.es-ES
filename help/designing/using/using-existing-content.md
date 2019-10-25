@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
+source-git-commit: fe2f9ef93e87bfd269a3503eb6d8c88461caf694
 
 ---
 
@@ -39,8 +39,8 @@ Al crear un correo electrónico o una página de aterrizaje, puede elegir cargar
 
    * [Plantillas](../../designing/using/using-reusable-content.md#content-templates)de contenido: haga clic en la **[!UICONTROL Templates]** ficha.
    * [Contenido desde cero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch), para empezar de cero: haga clic en el **[!UICONTROL Create]** botón.
-   * [Contenido del equipo como archivo](../../designing/using/using-existing-content.md#importing-content-from-a-file)ZIP o HTML: haga clic en el **[!UICONTROL Upload]** botón.
-   * [Contenido de una URL](../../designing/using/using-existing-content.md#importing-content-from-a-url) existente (solo para correos electrónicos): haga clic en el **[!UICONTROL Import from URL]** botón.
+   * [Contenido del equipo como archivo](#importing-content-from-a-file)ZIP o HTML: haga clic en el **[!UICONTROL Upload]** botón.
+   * [Contenido de una URL](#importing-content-from-a-url) existente (solo para correos electrónicos): haga clic en el **[!UICONTROL Import from URL]** botón.
    ![](assets/des_loading_2.png)
 
 1. Cargue el contenido. El contenido seleccionado reemplaza al contenido actual.
@@ -49,7 +49,7 @@ Al crear un correo electrónico o una página de aterrizaje, puede elegir cargar
 
    >[!NOTE]
    >
-   >El Diseñador [de correo electrónico](../../designing/using/overview.md) utiliza etiquetado específico. El contenido HTML estándar cargado en Campaign debe coincidir con el etiquetado esperado para ser totalmente compatible y editable desde el Diseñador de correo electrónico. Si no coincide, el contenido se carga en modo [de](../../designing/using/using-existing-content.md#compatibility-mode)compatibilidad. Para hacer compatible el contenido existente, consulte [esta sección](../../designing/using/using-existing-content.md#editing-existing-contents-with-the-email-designer).
+   >El Diseñador [de correo electrónico](../../designing/using/overview.md) utiliza etiquetado específico. El contenido HTML estándar cargado en Campaign debe coincidir con el etiquetado esperado para ser totalmente compatible y editable desde el Diseñador de correo electrónico. Si no coincide, el contenido se carga en modo [de](#compatibility-mode)compatibilidad. Para hacer compatible el contenido existente, consulte [esta sección](#editing-existing-contents-with-the-email-designer).
 
 **Temas relacionados:**
 
@@ -60,7 +60,7 @@ Al crear un correo electrónico o una página de aterrizaje, puede elegir cargar
 
 Para aprovechar al máximo las posibilidades de edición de [Email Designer](../../designing/using/overview.md), el HTML cargado debe contener etiquetas específicas que lo hagan compatible con el editor WYSIWYG.
 
-Si todo o parte del HTML no tiene este etiquetado, el contenido se carga en ' modo [de](../../designing/using/using-existing-content.md#compatibility-mode)compatibilidad'.
+Si todo o parte del HTML no tiene este etiquetado, el contenido se carga en ' modo [de](#compatibility-mode)compatibilidad'.
 
 Para que un contenido externo existente sea completamente editable en el Diseñador de correo electrónico, consulte la sección [Diseño de un correo electrónico con contenido](../../designing/using/using-existing-content.md) existente.
 
@@ -128,7 +128,7 @@ Para recuperar contenido en tiempo de preparación, siga los pasos a continuaci�
 
 1. Para obtener una vista previa del contenido de la URL que se ha recuperado, abra el mensaje una vez creado y haga clic en el **[!UICONTROL Preview]** botón .
 
-Es posible personalizar la dirección URL remota desde la que se recuperará el contenido. Para ello, siga los pasos a continuación:
+Es posible personalizar la dirección URL remota desde la que se recuperará el contenido. Para realizar esto, siga los pasos a continuación:
 
 1. Haga clic en la etiqueta de correo electrónico en la parte superior de la pantalla para acceder a la ficha Diseñador de correo electrónico **[!UICONTROL Properties]** .
 1. Busque el **[!UICONTROL Remote URL]** campo.
@@ -184,7 +184,7 @@ Este caso de uso ofrece una forma rápida de convertir un correo electrónico HT
 
 Fuera del Diseñador de correo electrónico, asegúrese de que el HTML original se divide en secciones reutilizables.
 
-Si este no es el caso, elimine los diferentes bloques del HTML.  Por ejemplo:
+Si este no es el caso, elimine los diferentes bloques del HTML. Por ejemplo:
 
 ```
 <!-- 3 COLUMN w/CTA (SCALED) -->
@@ -213,11 +213,11 @@ Una vez identificados todos los bloques, en el Diseñador de correo electrónico
 1. Agregue un componente de estructura. Para obtener más información sobre esto, consulte [Edición de la estructura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)de correo electrónico.
 1. Agregue un componente HTML. Para obtener más información sobre esto, consulte [Adición de fragmentos y componentes](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Copie y pegue el HTML en ese componente.
-1. Cambie a la vista móvil. Para obtener más información sobre esto, consulte [esta sección](../../designing/using/styles.md#switching-to-mobile-view).
+1. Cambie a la vista móvil. For more on this, see [this section](../../designing/using/styles.md#switching-to-mobile-view).
 
    La vista interactiva está dañada, ya que falta la CSS.
 
-1. Para solucionarlo, cambie al modo de código fuente y copie y pegue la sección de estilo en una nueva sección de estilo.  Por ejemplo:
+1. Para solucionarlo, cambie al modo de código fuente y copie y pegue la sección de estilo en una nueva sección de estilo. Por ejemplo:
 
    ```
    <style type="text/css">
