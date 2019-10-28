@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 621b643fdbae077b494ea02274233de7ec99f288
+source-git-commit: fc20cc5d3dfb4ad03ea4f8c7ad0931b5e190a089
 
 ---
 
@@ -45,7 +45,9 @@ Se ha añadido un nuevo gráfico que presenta el proceso de publicación de mens
 
 Se ha actualizado la guía de introducción a las optimizaciones de entrega. [Más información](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
-<!--A new section has been added. It provides an overview of the different methods that allow you to enrich Campaign Standard database. [Read more](../../start/using/enriching-campaign-database.md)-->
+Se ha añadido una nueva sección. Proporciona información general sobre los diferentes métodos que permiten enriquecer la base de datos de Campaign Standard. [Más información](../../start/using/enriching-campaign-database.md)
+
+Se ha añadido una nueva sección en la que se describe cómo aplicar estilo a los vínculos con el Diseñador de correo electrónico. [Más información](../../designing/using/styles.md#about-styling-links)
 
 ## Actualizaciones de documentación - Octubre de 2019 {#doc-updates-october-2019}
 
@@ -56,6 +58,8 @@ Se ha añadido una nueva sección que describe cómo enviar un correo electróni
 La sección Mensajería transaccional se ha modificado con las últimas actualizaciones de la interfaz de usuario, incluida la edición de contenido con el Diseñador de correo electrónico. [Más información](../../channels/using/event-transactional-messages.md)
 
 El capítulo de las páginas de aterrizaje se ha reorganizado. También se ha enriquecido con una nueva sección que detalla los pasos para configurar una página de aterrizaje. [Más información](../../channels/using/main-steps-to-set-up-a-landing-page.md)
+
+La página de integración de Audience Manager se ha actualizado para reflejar los cambios de ID **** declarados. [Más información](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 ## Actualizaciones de documentación - septiembre de 2019 {#doc-updates-september-2019}
 
