@@ -1,58 +1,56 @@
 ---
 title: Acerca de la programación de mensajes
-seo-title: Acerca de la programación de mensajes
-description: Acerca de la programación de mensajes
-seo-description: Obtenga información sobre cómo programar sus mensajes.
-page-status-flag: no activado nunca
-uuid: 286 fceee -65 a 9-4 cb 9-b 205-9 ce 5 d 024675 c
+description: Aprenda a programar sus mensajes.
+page-status-flag: nunca activado
+uuid: 286fce-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: enviar
-content-type: reference
-topic-tags: sheduling-messages
-discoiquuid: 9 c 7 fd 670-bba 9-4 f 3 c -8 cb 1-87397 a 1 acd 27
-context-tags: entrega, programación, atrás
+content-type: referencia
+topic-tags: programar mensajes
+discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
+context-tags: entrega,programación,devolución
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cb6396228e42f99f7e184a82e6c894b09a164cd9
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# About scheduling messages{#about-scheduling-messages}
+# Acerca de la programación de mensajes{#about-scheduling-messages}
 
 >[!CAUTION]
 >
->Whenever making changes to a delivery’s schedule, you must re-prepare the delivery by clicking on the **Prepare** button before clicking **Confirm**.
+>Siempre que realice cambios en la programación de un envío, debe volver a preparar el envío haciendo clic en el botón **Preparar** antes de hacer clic en **Confirmar**.
 
-In the message dashboard, the **[!UICONTROL Schedule]** block allows you to define when messages (email, SMS or Push notifications) will be sent.
+En el panel de mensajes, el **[!UICONTROL Schedule]** bloque le permite definir cuándo se enviarán los mensajes (correo electrónico, SMS o notificaciones push).
 
 ![](assets/delivery_dashboard.png)
 
-**[!UICONTROL Schedule]** Las propiedades permiten definir las opciones de envío de sus correos electrónicos, SMS o notificaciones Push:
+Las **[!UICONTROL Schedule]** propiedades le permiten establecer opciones de envío para sus correos electrónicos, SMS o notificaciones push:
 
-* **[!UICONTROL Messages to be sent once confirmed]**: los mensajes se envían tan pronto como se confirma el envío. See [Confirming the send](../../sending/using/confirming-the-send.md).
+* **[!UICONTROL Messages to be sent once confirmed]**:: se envían en cuanto se confirma el envío. See [Confirming the send](../../sending/using/confirming-the-send.md).
 
    ![](assets/delivery_planning_1.png)
 
-* **[!UICONTROL Messages to be sent automatically on the date specified below]**: los mensajes se enviarán en una fecha y hora posteriores. Specify the **contact date** in the **Start sending from** field.
+* **[!UICONTROL Messages to be sent automatically on the date specified below]**:: los mensajes se enviarán más adelante. Especifique la fecha **de** contacto en el campo **Comenzar a enviar desde** .
 
-   Puede preparar y confirmar el envío, pero los mensajes solo se enviarán comenzando la fecha y hora seleccionadas. Preparing and confirming the send are presented in the [Preparing the send](../../sending/using/preparing-the-send.md) and [Confirming the send](../../sending/using/confirming-the-send.md) sections.
+   Puede preparar y confirmar el envío, pero los mensajes solo se enviarán a partir de la fecha y hora seleccionadas. La preparación y confirmación del envío se presentan en las secciones [Preparación del envío](../../sending/using/preparing-the-send.md) y [Confirmación del envío](../../sending/using/confirming-the-send.md) .
 
-   The **[!UICONTROL Time zone of the contact date]** drop-down list allows you to modify the time zone that will be taken into account for the sending time. For example, if you enter 9:00 AM in the **[!UICONTROL Start sending from]** field and if you select Brussels, Copenhagen, Madrid, Paris (GMT+1) in the **[!UICONTROL Time zone of the contact date]** drop-down list, all recipients will receive the message at 9:00 AM Paris time. Por lo tanto, un destinatario ubicado en Moscú (GMT +3) recibirá el mensaje a las 11:00 AM Hora de Moscú.
+   La **[!UICONTROL Time zone of the contact date]** lista desplegable le permite modificar el huso horario que se tendrá en cuenta para la hora de envío. Por ejemplo, si introduce 9:00 AM en el campo y selecciona Bruselas, Copenhague, Madrid, París (GMT+1) en la lista **[!UICONTROL Start sending from]** **[!UICONTROL Time zone of the contact date]** desplegable, todos los destinatarios recibirán el mensaje a las 9:00 AM, hora de París. Por lo tanto, un destinatario ubicado en Moscú (GMT+3) recibirá el mensaje a las 11:00 AM hora de Moscú.
 
-   If you would like to manually confirm the send, check the **[!UICONTROL Request confirmation before sending messages]** option. Esta opción está habilitada de forma predeterminada.
+   Si desea confirmar manualmente el envío, marque la **[!UICONTROL Request confirmation before sending messages]** opción. Esta opción está activada de forma predeterminada.
 
    ![](assets/delivery_planning.png)
 
 >[!CAUTION]
 >
->Al duplicar una entrega, se eliminan todos los ajustes de programación. A menos que programe una nueva fecha de contacto, la entrega duplicada se enviará en cuanto se confirma el envío.
+>Al duplicar un envío, se eliminan todos los ajustes de programación. A menos que programe una nueva fecha de contacto, el envío duplicado se enviará en cuanto se confirme el envío.
 
 **Temas relacionados**:
 
 * [Optimización del tiempo de envío](../../sending/using/optimizing-the-sending-time.md)
-* [Envío de mensajes en la zona horaria del destinatario](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)
-* [Calcular la fecha de envío](../../sending/using/computing-the-sending-date.md)
+* [Envío de mensajes en el huso horario del destinatario](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)
+* [Cálculo de la fecha de envío](../../sending/using/computing-the-sending-date.md)
 
