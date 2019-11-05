@@ -1,8 +1,6 @@
 ---
 title: Acerca de los informes dinámicos
-seo-title: Acerca de los informes dinámicos
-description: Acerca de los informes dinámicos
-seo-description: Con los informes dinámicos, arrastre y suelte las variables y dimensiones en el entorno improvisado y analice el éxito de las campañas.
+description: Con los informes dinámicos, arrastre y suelte las variables y dimensiones en el entorno improvisado y analice el éxito de las campañas.
 page-status-flag: nunca activado
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c606612b1bfb313e8eb20e45cf631609ec07aa84
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
