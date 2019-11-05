@@ -1,8 +1,6 @@
 ---
 title: Envío directo por correo
-seo-title: Envío directo por correo
-description: Envío directo por correo
-seo-description: La actividad de envío directo por correo le permite configurar el envío de un único correo directo de envío o de un correo directo recurrente en un flujo de trabajo.
+description: La actividad de envío directo por correo le permite configurar el envío de un único correo directo de envío o de un correo directo recurrente en un flujo de trabajo.
 page-status-flag: nunca activado
 uuid: bfa7b176-a17c-4079-a073-64b8ce4788ed
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: directMail,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
