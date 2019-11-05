@@ -1,54 +1,52 @@
 ---
-title: Solución de problemas
-seo-title: Solución de problemas
-description: Solución de problemas
-seo-description: Descubra cómo solucionar problemas al compartir recursos.
-page-status-flag: no activado nunca
-uuid: 1 c 764 dd 8-e 09 f -4 e 8 e -9 ccd -88 ab 3 d 714284
+title: Resolución de problemas
+description: Obtenga información sobre cómo solucionar problemas al compartir recursos.
+page-status-flag: nunca activado
+uuid: 1c764dd8-e09f-4e8e-9ccd-88ab3d714284
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: integrar
-content-type: reference
-topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-discoiquuid: c 28 e 1 d 90-8074-4127-a 6 fc-ed 39 d 69 cdb 19
+content-type: referencia
+topic-tags: servicio de trabajo con campaña y audiencia-administrador-o-personas-núcleo
+discoiquuid: c28e1d90-8074-4127-a6fc-ed39d69cdb19
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 698466596fdacd005dc4d72b8071208c8c39f77d
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Troubleshooting{#troubleshooting}
+# Resolución de problemas{#troubleshooting}
 
-Pueden producirse errores al utilizar la integración con el servicio principal de Audience Manager o Personas.
+Pueden producirse errores al utilizar la integración con Audience Manager o el servicio principal Personas.
 
-En este caso, asegúrese de que los siguientes elementos estén correctamente configurados:
+En este caso, asegúrese de que los siguientes elementos están correctamente configurados:
 
 * **Cuentas externas**
 
-   In **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL External accounts]**, make sure that the following external S3 accounts are correctly configured. Los servidores S 3 mencionados deben configurarse durante el aprovisionamiento.
+   En **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL External accounts]**, asegúrese de que las siguientes cuentas de S3 externas están correctamente configuradas. Los servidores S3 mencionados deberían haberse configurado durante el aprovisionamiento.
 
-   * **[!UICONTROL importSharedAudience]**: Cuenta S 3 dedicada a importar audiencias.
-   * **[!UICONTROL exportSharedAudience]**: Cuenta S 3 dedicada a exportar audiencias.
+   * **[!UICONTROL importSharedAudience]**:: Cuenta S3 dedicada a la importación de audiencias.
+   * **[!UICONTROL exportSharedAudience]**:: Cuenta S3 dedicada a la exportación de audiencias.
 
 * **Fuentes de datos compartidas**
 
-   In **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Shared Data Sources]**, check that the shared data source is set properly.
+   En **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Shared Data Sources]**, compruebe que el origen de datos compartido está configurado correctamente.
 
-   **[!UICONTROL Priority]** se usa cuando se definen varias fuentes de datos. La prioridad decide qué fuente de datos se utilizará para coincidir con alias recibidos en el orden definido. **[!UICONTROL Priority]** solo es necesario para la implementación de Activadores.
+   **[!UICONTROL Priority]** se utiliza cuando tiene varias fuentes de datos definidas. Priority decide qué fuente de datos se utilizará para coincidir con el alias recibido en el orden definido. **[!UICONTROL Priority]** solo se necesita para la implementación de Triggers.
 
-   Compruebe que la clave de reconciliación sea correcta. Es el valor hash/cifrado de este campo que se utiliza para exportar e importar audiencias.
+   Compruebe que la clave de reconciliación es correcta. Es el valor hash/cifrado de este campo el que se utiliza para exportar e importar audiencias.
 
-   En caso de hash o cifrado del ID declarado, compruebe que se usen los mismos parámetros o algoritmos de codificación en el sitio web.
+   En caso de hash o cifrado del ID declarado, compruebe que se utilizan los mismos parámetros o algoritmos de codificación en el sitio web.
 
    Solo se admite un algoritmo de codificación: AES en modo CBC con un tamaño de clave de 128, 192 o 256 bits, con relleno PKCS.
 
-   Si se selecciona el algoritmo de codificación AES, los campos adicionales siguientes deben configurarse correctamente:
+   Si se selecciona el algoritmo de codificación AES, deben establecerse correctamente los siguientes campos adicionales:
 
-   * **Clave de cifrado** para AES
-   * **Codificación IV** (Vector de inicialización) para AES
-   * **Canal** (Correo electrónico/SMS/Otro): Este campo permite descifrar directamente las direcciones de correo electrónico y los números SMS. Make sure that the reconciliation key matches the setting of the **Channel** field. Si selecciona "Otro", este descifrado específico no se llevará a cabo y la clave de reconciliación se utilizará para reconciliar los datos.
-   Es posible que las audiencias de Experience Cloud no se compartan porque el flujo de trabajo técnico se ha detenido o detenido. Access the **[!UICONTROL Import shared audience]** workflow by clicking directly the **[!UICONTROL Show ImportShared Audience workflow]** option in your Data source.
+   * **Clave** de cifrado para AES
+   * **Cifrado IV** (vector de inicialización) para AES
+   * **Canal** (Correo electrónico/SMS/Otro): Este campo permite descifrar directamente direcciones de correo electrónico y números SMS. Asegúrese de que la clave de reconciliación coincide con la configuración del campo **Canal** . Si selecciona "Otro", este descifrado específico no se producirá y la clave de reconciliación se utilizará para reconciliar los datos.
+   Es posible que las audiencias de Experience Cloud no se compartan porque el flujo de trabajo técnico se ha detenido o pausado. Para acceder al flujo de trabajo, haga clic directamente en la **[!UICONTROL Import shared audience]** **[!UICONTROL Show ImportShared Audience workflow]** opción del origen de datos.
 
-Puede ocurrir que no se pierdan algunos datos al compartir una audiencia mediante el servicio principal Personas o al importar una audiencia. Solo se transferirán los registros de los que se pudo reconciliar el ID (' ID de visitante'o «ID declarado ') con la dimensión de perfil. Los ID de los segmentos del servicio principal Personas que no son reconocidos por Adobe Campaign no se importan.
+Al importar una audiencia o compartirla mediante el servicio principal Personas, puede que falten algunos datos. Solo se transfieren los registros cuya ID (“ID de visitante” o “ID declarada”) se haya podido conciliar con la dimensión del perfil. Las ID de los segmentos del servicio principal Personas que no reconozca Adobe Campaign no se importan.
