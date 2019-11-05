@@ -1,8 +1,6 @@
 ---
 title: Pasos clave para enviar un mensaje
-seo-title: Pasos clave para enviar un mensaje
-description: Pasos clave para enviar un mensaje
-seo-description: Siga estos pasos para crear y enviar mensajes con Adobe Campaign.
+description: Siga estos pasos para crear y enviar mensajes con Adobe Campaign.
 page-status-flag: nunca activado
 uuid: d3fbb1e6-6444-4b56-b9d6-ae39bd8d4804
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: a51351ee-e3b6-4996-9e68-b7d5157b8207
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
