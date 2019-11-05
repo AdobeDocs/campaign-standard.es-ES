@@ -1,38 +1,36 @@
 ---
 title: Configuración de la definición del filtro
-seo-title: Configuración de la definición del filtro
-description: Configuración de la definición del filtro
-seo-description: Descubrir la función de filtro para administrar un conjunto de datos grande.
-page-status-flag: no activado nunca
-uuid: c 9 db 95 fe-e 9 aa -40 f 8-9 c 0 a-e 74 bb 21 ac 14 b
+description: Descubrir la función de filtro para administrar grandes conjuntos de datos.
+page-status-flag: nunca activado
+uuid: c9db95fe-e9aa-40f8-9c0a-e74bb21ac14b
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: desarrollar
-content-type: reference
-topic-tags: adición-ampliación-a-recurso
-discoiquuid: 993 ab 2 bd-e 05 f -468 e -9 ef 8-a 603761247 f 8
-context-tags: Cusresource, main
+products: SG_CAMPAIGN/STANDARD
+audience: desarrollo
+content-type: referencia
+topic-tags: agregar o ampliar un recurso
+discoiquuid: 993ab2bd-e05f-468e-9ef8-a603761247f8
+context-tags: cusResource,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Configuring filter definition{#configuring-filter-definition}
+# Configuración de la definición del filtro{#configuring-filter-definition}
 
-In the **[!UICONTROL Filter definition]** tab, you can create advanced filters that users can directly access when creating complex queries, such as when defining an audience.
+En la **[!UICONTROL Filter definition]** ficha, puede crear filtros avanzados a los que los usuarios pueden acceder directamente al crear consultas complejas, como al definir una audiencia.
 
-Este paso no es obligatorio porque aún podrá rellenar el recurso y acceder a sus datos a través de flujos de trabajo, audiencias y API de REST.
+Este paso no es obligatorio, ya que podrá rellenar el recurso y acceder a sus datos a través de flujos de trabajo, audiencias y la API de REST.
 
 ![](assets/custom_resource_filter-definition.png)
 
-Estos filtros se utilizan en el editor de consultas en forma de reglas preconfiguradas. Permiten limitar la cantidad de pasos necesarios para obtener la configuración deseada, lo cual puede resultar particularmente beneficioso para las segmentaciones repetitivas.
+Estos filtros se utilizan en el editor de consultas en forma de reglas preconfiguradas. Permiten limitar el número de pasos necesarios para obtener la configuración deseada, lo que puede resultar especialmente beneficioso para las segmentaciones repetitivas.
 
-Por ejemplo, puede crear un filtro que permita seleccionar todas las transacciones mayores que una cierta cantidad dentro de los últimos tres meses.
+Por ejemplo, puede crear un filtro que permita seleccionar todas las transacciones mayores que una determinada cantidad en los últimos tres meses.
 
-To do this, you need to extend the **[!UICONTROL Profiles]** resource and define a filter linking to a transaction table (that you have previously created) with a rule indicating that the transaction price must be greater than or equal to a given parameter and that the transaction date must fall within a range corresponding to the last three months.
+Para ello, debe ampliar el recurso y definir un filtro que vincule a una tabla de transacciones (que ha creado anteriormente) con una regla que indique que el precio de transacción debe ser mayor o igual que un parámetro determinado y que la fecha de transacción debe estar dentro de un rango correspondiente a los últimos tres meses. **[!UICONTROL Profiles]**
 
 1. Asegúrese de crear y publicar una tabla de transacciones. See [Creating or extending the resource](../../developing/using/creating-or-extending-the-resource.md).
 
@@ -40,26 +38,26 @@ To do this, you need to extend the **[!UICONTROL Profiles]** resource and define
    >
    >Este procedimiento utiliza el ejemplo de una tabla de transacciones personalizada. Para su caso, ajústelo a sus necesidades comerciales.
 
-1. Before defining a filter related to the transaction table in the **[!UICONTROL Profiles]** resource, make sure you define the link to this table and publish your changes. See [Defining links with other resources](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources) and [Updating the database structure](../../developing/using/updating-the-database-structure.md).
-1. In the **[!UICONTROL Definition]** tab of your new filter's definition screen, select the transaction table.
+1. Antes de definir un filtro relacionado con la tabla de transacciones del **[!UICONTROL Profiles]** recurso, asegúrese de definir el vínculo a esta tabla y publicar los cambios. Consulte [Definición de vínculos con otros recursos](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources) y [Actualización de la estructura](../../developing/using/updating-the-database-structure.md)de la base de datos.
+1. En la **[!UICONTROL Definition]** ficha de la pantalla de definición del nuevo filtro, seleccione la tabla de transacciones.
 
    ![](assets/custom_resource_filter-definition_example-empty.png)
 
-1. In the **[!UICONTROL Add a rule - Profiles/Transactions]** window, drag and drop the transaction table into the workspace. En la siguiente ventana que se muestra, seleccione el campo que desee utilizar.
+1. En la **[!UICONTROL Add a rule - Profiles/Transactions]** ventana, arrastre y suelte la tabla de transacciones en el espacio de trabajo. En la siguiente ventana que se muestra, seleccione el campo que desee utilizar.
 
    ![](assets/custom_resource_filter-definition_example-field.png)
 
-1. In the **[!UICONTROL Optional parameter settings]** of the **[!UICONTROL Add a rule - Transactions]** window, check the **[!UICONTROL Switch to parameters]** box.
+1. En la parte **[!UICONTROL Optional parameter settings]** de la **[!UICONTROL Add a rule - Transactions]** ventana, marque la **[!UICONTROL Switch to parameters]** casilla.
 
-   In the **[!UICONTROL Filter conditions]**, select the **[!UICONTROL Greater than or equal to]** operator. In the **[!UICONTROL Parameters]** field, enter a name and click the plus sign to create the new parameter.
+   En el **[!UICONTROL Filter conditions]**, seleccione el **[!UICONTROL Greater than or equal to]** operador. En el **[!UICONTROL Parameters]** campo, introduzca un nombre y haga clic en el signo más para crear el nuevo parámetro.
 
    ![](assets/custom_resource_filter-definition_example-parameter.png)
 
-1. Confirme los cambios. Esta definición corresponde a un campo configurable que el usuario debe rellenar más tarde para ejecutar la consulta.
+1. Confirme los cambios. Esta definición corresponde a un campo configurable que el usuario debe rellenar más adelante para ejecutar la consulta.
 
    ![](assets/custom_resource_filter-definition_ex_edit-rule.png)
 
-1. Combine esta regla con otra regla especifique que la fecha de transacción debe estar dentro de un intervalo correspondiente a los últimos tres meses.
+1. Combine esta regla con otra regla que especifique que la fecha de transacción debe estar dentro de un intervalo correspondiente a los últimos tres meses.
 
    ![](assets/custom_resource_filter-definition_example.png)
 
@@ -67,21 +65,21 @@ To do this, you need to extend the **[!UICONTROL Profiles]** resource and define
 
    ![](assets/custom_resource_filter-definition_category.png)
 
-1. In the **[!UICONTROL Parameters]** tab of the filter definition screen, modify the description and the label to clearly indicate the subject of your filter to the users. Esta información aparecerá en el editor de consultas.
+1. En la **[!UICONTROL Parameters]** ficha de la pantalla de definición del filtro, modifique la descripción y la etiqueta para indicar claramente el asunto del filtro a los usuarios. Esta información aparecerá en el editor de consultas.
 
    ![](assets/custom_resource_filter-definition_parameters.png)
 
    Si define varios campos configurables, puede modificar el orden en que aparecen en la interfaz.
 
-1. Guarde los cambios y publique los recursos. For more on this, refer to the [Updating the database structure](../../developing/using/updating-the-database-structure.md) section.
+1. Guarde los cambios y publique los recursos. Para obtener más información sobre esto, consulte la sección [Actualización de la estructura](../../developing/using/updating-the-database-structure.md) de la base de datos.
 
-Once the **[!UICONTROL Profiles]** resource extension is published, the users will see this filter under the shortcuts tab in the [query editor](../../automating/using/editing-queries.md) interface.
+Una vez publicada la extensión del **[!UICONTROL Profiles]** recurso, los usuarios verán este filtro en la ficha Métodos abreviados de la interfaz del editor [de](../../automating/using/editing-queries.md) consultas.
 
-Esto permitirá al usuario definir fácilmente a la audiencia al crear un correo electrónico para enviarlo a todos los clientes que gastaron más de una cierta cantidad en los últimos tres meses.
+Esto permitirá al usuario definir fácilmente su audiencia al crear un correo electrónico para enviarlo a todos los clientes que gastaron más de una determinada cantidad en los últimos tres meses.
 
 ![](assets/custom_resource_filter-definition_email-audience.png)
 
-En lugar de configurarlos ellos mismos, simplemente tienen que introducir la cantidad deseada en el cuadro de diálogo que aparece.
+En lugar de configurarlo ellos mismos, simplemente tienen que introducir la cantidad deseada en el cuadro de diálogo que aparece.
 
 ![](assets/custom_resource_filter-definition_email-audience_filter.png)
 
