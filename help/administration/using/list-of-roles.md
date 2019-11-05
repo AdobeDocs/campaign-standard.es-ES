@@ -1,8 +1,6 @@
 ---
 title: Lista de funciones
-seo-title: Lista de funciones
-description: Lista de funciones
-seo-description: Descubra la lista de funciones que puede asignar a los usuarios.
+description: Descubra la lista de funciones que puede asignar a los usuarios.
 page-status-flag: nunca activado
 uuid: 128aaf9b-9b7d-49f3-9e1f-72e79a29baa0
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: función,descripción general;función,principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c331937dcfef849798f1a5ed693da5f01759a1b8
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
