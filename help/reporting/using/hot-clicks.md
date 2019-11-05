@@ -1,8 +1,6 @@
 ---
 title: Clics activos
-seo-title: Clics activos
-description: Clics activos
-seo-description: Con los clics directos en el informe listo para usar, descubra dónde hizo clic el cliente en la entrega.
+description: Con los clics directos en el informe listo para usar, descubra dónde hizo clic el cliente en la entrega.
 page-status-flag: nunca activado
 uuid: 7ed49dd3-d7ee-466a-9a7b-d2aa16961667
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: deliveryHotClicksReport,principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
