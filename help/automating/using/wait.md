@@ -1,60 +1,58 @@
 ---
-title: Esperar
-seo-title: Esperar
-description: Esperar
-seo-description: La actividad de espera suspende momentáneamente la ejecución de una parte de un flujo de trabajo.
-page-status-flag: no activado nunca
-uuid: 396 a 3 de 1-6 ffa -4385-ac 9 f -15 fdeae 5 a 366
+title: Espera
+description: La actividad de espera suspende momentáneamente la ejecución de una parte de un flujo de trabajo.
+page-status-flag: nunca activado
+uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: automatizar
-content-type: reference
-topic-tags: ejecución actividades
-discoiquuid: 377821 e 6-69 f 8-41 cc-a 1 ad -8 a 2 f 5 ed 4 d 409
-context-tags: esperar, principal
+content-type: referencia
+topic-tags: execute-activity
+discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
+context-tags: wait,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e384a0cef325bc01eb5ea050b0f3d926aea9a88f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Wait{#wait}
+# Espera{#wait}
 
-## Description {#description}
+## Descripción {#description}
 
 ![](assets/wait.png)
 
-The **[!UICONTROL Wait]** activity momentarily suspends executing a part of a workflow. Activa la transición saliente después de un retraso que puede abarcar de unos segundos a varios meses, lo que ejecuta las actividades colocadas posteriormente.
+La **[!UICONTROL Wait]** actividad suspende momentáneamente la ejecución de una parte de un flujo de trabajo. Activa su transición de salida después de un retraso que puede oscilar entre unos segundos y varios meses, lo que ejecuta las actividades posteriores.
 
-## Context of use {#context-of-use}
+## Contexto de uso {#context-of-use}
 
-The **[!UICONTROL Wait]** activity is used to allow a certain amount of time to pass between two activities being executed. Por ejemplo, para esperar varios días después de una actividad de envío de correo electrónico, analice las aperturas y los clics generados durante este período antes de realizar cualquier operación de seguimiento (correo electrónico de recordatorio, crear una audiencia, etc.).
+La **[!UICONTROL Wait]** actividad se utiliza para permitir que transcurra una cierta cantidad de tiempo entre dos actividades que se ejecutan. Por ejemplo, para esperar varios días después de una actividad de envío de correo electrónico, analice las aperturas y los clics generados durante este período antes de realizar cualquier operación de seguimiento (correo electrónico de recordatorio, creación de una audiencia, etc.).
 
-## Configuration {#configuration}
+## Configuración {#configuration}
 
-1. Drag and drop a **[!UICONTROL Wait]** activity into your workflow.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. Specify the **[!UICONTROL Duration]** of the wait between when the inbound and outbound transitions of the activity are activated.
+1. Arrastre y suelte una **[!UICONTROL Wait]** actividad en el flujo de trabajo.
+1. Seleccione la actividad y, a continuación, ábrala con el ![](assets/edit_darkgrey-24px.png) botón de las acciones rápidas que aparecen.
+1. Especifique la duración **[!UICONTROL Duration]** de la espera entre la activación de las transiciones de entrada y salida de la actividad.
 
    Puede introducir manualmente la duración o utilizar el selector disponible en el campo.
 
    ![](assets/wait_duration.png)
 
-1. Confirme la configuración de su actividad y guarde el flujo de trabajo.
+1. Confirme la configuración de la actividad y guarde el flujo de trabajo.
 
-## Example {#example}
+## Ejemplo {#example}
 
-The following example illustrates the **[!UICONTROL Wait]** activity in a typical use case. Se envía una invitación por correo electrónico a un evento. 24 horas después de enviarse, se analizan los registros de envío de correo electrónico y se envía un recordatorio de recordatorio a las personas que recibieron el primer correo electrónico pero que no se registraron.
+El siguiente ejemplo ilustra la actividad en un caso de uso típico **[!UICONTROL Wait]** . Se envía una invitación por correo electrónico a un evento. 24 horas después de que se enviara, se analizan los registros de entrega de correo electrónico y se envía un correo electrónico de recordatorio a las personas que recibieron el primer correo electrónico pero no se registraron.
 
 El flujo de trabajo se presenta de la siguiente manera:
 
 ![](assets/wait_example_workflow.png)
 
-* A first **[!UICONTROL Query]** targets the profiles that will be sent the email invitation.
-* An **[!UICONTROL Email delivery]** sends the invitation for the first time to the profiles selected.
-* **[!UICONTROL Wait]** Una actividad de 24 h coloca una pausa entre el momento en que se envió la invitación y el resto del flujo de trabajo.
-* A second **[!UICONTROL Query]** targets the profiles that received the first email but did not click on the subscription link inside.
-* A second **[!UICONTROL Email delivery]** sends a reminder of the invitation to the people selected.
+* Un primer **[!UICONTROL Query]** objetivo son los perfiles a los que se enviará la invitación por correo electrónico.
+* Un **[!UICONTROL Email delivery]** mensaje envía la invitación por primera vez a los perfiles seleccionados.
+* Una actividad **[!UICONTROL Wait]** de 24 horas coloca una pausa entre el momento en que se envió la invitación y el resto del flujo de trabajo.
+* Un segundo **[!UICONTROL Query]** se dirige a los perfiles que recibieron el primer correo electrónico pero que no hicieron clic en el vínculo de suscripción dentro.
+* Un segundo **[!UICONTROL Email delivery]** envía un recordatorio de la invitación a las personas seleccionadas.
 
