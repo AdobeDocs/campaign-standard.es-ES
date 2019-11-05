@@ -1,8 +1,6 @@
 ---
-title: Administración de datos de formulario de página de aterrizaje
-seo-title: Administración de datos de formulario de página de aterrizaje
-description: Administración de datos de formulario de página de aterrizaje
-seo-description: Obtenga información sobre cómo administrar los datos del formulario de página de aterrizaje.
+title: Administración de datos de formulario de una página de aterrizaje
+description: Obtenga información sobre cómo administrar los datos del formulario de página de aterrizaje.
 page-status-flag: nunca activado
 uuid: 5b222ea2-6628-457f-a618-bfc0e5eb93dd
 contentOwner: lemaitre
@@ -15,12 +13,12 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9cdfafad7a2ac2db59b037962a84aa03568a55e6
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Administración de datos de formulario de página de aterrizaje{#managing-landing-page-form-data}
+# Administración de datos de formulario de una página de aterrizaje{#managing-landing-page-form-data}
 
 ## Cambio de las propiedades de datos de un formulario de página de aterrizaje{#changing-a-landing-page-form-data-properties}
 
