@@ -1,8 +1,6 @@
 ---
 title: Creación de un mensaje SMS
-seo-title: Creación de un mensaje SMS
-description: Creación de un mensaje SMS
-seo-description: Siga estos pasos para crear un mensaje SMS de un solo envío en Adobe Campaign.
+description: Siga estos pasos para crear un mensaje SMS de un solo envío en Adobe Campaign.
 page-status-flag: nunca activado
 uuid: 591ae97e-2d19-4f93-be4b-d8d20f1d2d12
 contentOwner: sauviat
@@ -15,7 +13,7 @@ delivercontext-tags: deliveryCreation,Wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -28,12 +26,12 @@ Los parámetros avanzados de SMS se detallan en la sección de configuración [d
 
 Para crear y enviar mensajes SMS a un teléfono móvil, necesita:
 
-* Cuenta **[!UICONTROL Routing]** externa configurada en el **[!UICONTROL Mobile (SMS)]** canal con el **[!UICONTROL Bulk delivery]** modo. Para obtener más información sobre esto, consulte la sección [Enrutamiento](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) .
+* Cuenta **[!UICONTROL Routing]** externa configurada en el **[!UICONTROL Mobile (SMS)]** canal con el **[!UICONTROL Bulk delivery]** modo. For more on this, refer to the [Routing](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) section.
 * Una plantilla de entrega que está correctamente vinculada a esta cuenta externa.
 
 1. Crear un envío de SMS. Puede hacerlo desde la página [de](../../start/using/interface-description.md#home-page)inicio de Adobe Campaign, en una [campaña](../../start/using/marketing-activities.md#creating-a-marketing-activity) o en la lista [de actividades de](../../start/using/programs-and-campaigns.md#creating-a-campaign)marketing.
 
-   También puede agregar una actividad de SMS en un flujo de trabajo. Para obtener más información sobre esto, consulte la guía [Flujos de trabajo](../../automating/using/sms-delivery.md) .
+   También puede agregar una actividad de SMS en un flujo de trabajo. For more on this, refer to the [Workflows](../../automating/using/sms-delivery.md) guide.
 
    Al crear un mensaje, se muestra un asistente para guiarle por los pasos más importantes. Lo que se define a través del asistente se puede editar posteriormente desde el tablero de mensajes.
 
@@ -55,7 +53,7 @@ Para crear y enviar mensajes SMS a un teléfono móvil, necesita:
 
 1. Agrega contenido a tu SMS. También puede definir el contenido haciendo clic en la sección **[!UICONTROL Content]** del panel de envío, una vez que se haya finalizado la creación de SMS. Consulte [Acerca del diseño](../../channels/using/about-sms-and-push-content-design.md)de contenido SMS.
 
-   Si ha insertado campos de personalización o texto condicional en el contenido de su mensaje SMS, la longitud del mensaje puede variar de un destinatario a otro. de hecho, estos factores pueden introducir caracteres que no se tienen en cuenta en la codificación GSM. Por este motivo, la longitud del mensaje debe evaluarse una vez realizada la personalización. Consulte [Personalización de mensajes](../../channels/using/personalizing-sms-messages.md)SMS.
+   Si ha insertado campos de personalización o texto condicional en el contenido de su mensaje SMS, la longitud del mensaje puede variar de un destinatario a otro. de hecho, estos factores pueden introducir caracteres que no se tienen en cuenta en la codificación GSM. Por este motivo, la longitud del mensaje debe evaluarse una vez realizada la personalización. See [Personalizing SMS messages](../../channels/using/personalizing-sms-messages.md).
 
    ![](assets/sms_creation_4.png)
 
