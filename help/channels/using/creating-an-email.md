@@ -1,8 +1,6 @@
 ---
 title: Creación de un correo electrónico
-seo-title: Creación de un correo electrónico
-description: Creación de un correo electrónico
-seo-description: Siga estos pasos para crear un correo electrónico de un solo envío en Adobe Campaign.
+description: Siga estos pasos para crear un correo electrónico de un solo envío en Adobe Campaign.
 page-status-flag: nunca activado
 uuid: 74c7ef35-82c0-4bc4-b1f6-8e74fdcaea3c
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68d96b23f34f505c0a47a74a5e33bc3530fc4d72
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -64,7 +62,7 @@ Puede crear un correo electrónico a partir de una [campaña](../../start/using/
 
    A continuación, se muestra el tablero de correo electrónico. Le permite comprobar su mensaje y [preparar el envío](../../sending/using/preparing-the-send.md).
 
-   El **[!UICONTROL Edit properties]** botón situado en la esquina superior derecha permite editar las propiedades del correo electrónico. Por ejemplo, puede configurar el correo electrónico para que su etiqueta se calcule en el momento de la preparación de la entrega.  Los parámetros disponibles se enumeran en [esta sección](../../administration/using/configuring-email-channel.md#list-of-email-properties).
+   El **[!UICONTROL Edit properties]** botón situado en la esquina superior derecha permite editar las propiedades del correo electrónico. Por ejemplo, puede configurar el correo electrónico para que su etiqueta se calcule en el momento de la preparación de la entrega.  Available parameters are listed in [this section](../../administration/using/configuring-email-channel.md#list-of-email-properties).
 
    ![](assets/delivery_dashboard_2.png)
 
@@ -72,7 +70,7 @@ Puede crear un correo electrónico a partir de una [campaña](../../start/using/
 
    ![](assets/delivery_planning.png)
 
-1. Prepare el mensaje para analizar su objetivo. Consulte [Preparación del envío](../../sending/using/confirming-the-send.md).
+1. Prepare el mensaje para analizar su objetivo. See [Preparing the send](../../sending/using/confirming-the-send.md).
 
    ![](assets/preparing_delivery_2.png)
 
@@ -90,7 +88,7 @@ Puede crear un correo electrónico a partir de una [campaña](../../start/using/
 
 1. Mida el impacto del mensaje en los informes de envío. Para obtener más información sobre los informes, consulte [esta sección](../../reporting/using/about-dynamic-reports.md).
 
-**Temas** relacionados:
+**Temas relacionados**:
 
 * [Creación de un vídeo de correo electrónico](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html)
 * [Creación de una guía paso a paso de correo electrónico](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GettingStartedEmail.html) personalizada
