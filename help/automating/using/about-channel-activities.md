@@ -1,37 +1,35 @@
 ---
 title: Acerca de las actividades de canal
-seo-title: Acerca de las actividades de canal
-description: Acerca de las actividades de canal
-seo-description: Las actividades de canal están disponibles en el lado izquierdo de la pantalla.
-page-status-flag: no activado nunca
-uuid: 900 e 0580-2 e 56-4 aaf-b 584-58 d 8 e 9 a 408 cf
+description: Las actividades de canal están disponibles en la parte izquierda de la pantalla.
+page-status-flag: nunca activado
+uuid: 900e0580-2e56-4aaf-b584-58d8e9a408cf
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: automatizar
-content-type: reference
-topic-tags: channel-activities
-discoiquuid: 4 e 665635-5 f 2 a -4344-a 924-4 e 6 f 6 f 848568
+content-type: referencia
+topic-tags: channel-activity
+discoiquuid: 4e665635-5f2a-4344-a924-4e6f6f848568
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# About channel activities{#about-channel-activities}
+# Acerca de las actividades de canal{#about-channel-activities}
 
-From the palette, on the left-hand side of the screen, unfold the **[!UICONTROL Channels]** section.
+Desde la paleta, en el lado izquierdo de la pantalla, despliegue la **[!UICONTROL Channels]** sección.
 
-Estas actividades representan los distintos canales de comunicación disponibles. Puede combinarlos para crear un flujo de trabajo de múltiples canales.
+Estas actividades representan los diferentes canales de comunicación disponibles. Puede combinarlas para crear un flujo de trabajo entre canales.
 
 ![](assets/wkf_channels_activities.png)
 
-The **[!UICONTROL Channels]** section provides the following activities:
+La **[!UICONTROL Channels]** sección proporciona las siguientes actividades:
 
-* [Envío por correo electrónico](../../automating/using/email-delivery.md)
-* [Envío SMS](../../automating/using/sms-delivery.md)
-* [Entrega de notificaciones Push](../../automating/using/push-notification-delivery.md)
-* [Envío de correo directo](../../automating/using/direct-mail-delivery.md)
+* [Envío de correo electrónico](../../automating/using/email-delivery.md)
+* [Envío de SMS](../../automating/using/sms-delivery.md)
+* [Envío de notificaciones push](../../automating/using/push-notification-delivery.md)
+* [Envío directo por correo](../../automating/using/direct-mail-delivery.md)
 * [Entrega en la aplicación](../../automating/using/in-app-delivery.md)
 
