@@ -1,36 +1,34 @@
 ---
-title: Ejemplo de correo directo en un flujo de trabajo
-seo-title: Ejemplo de correo directo en un flujo de trabajo
-description: Ejemplo de correo directo en un flujo de trabajo
-seo-description: Descubrir un ejemplo de envío de correo directo en un flujo de trabajo.
-page-status-flag: no activado nunca
-uuid: 1 db 691 b 8-c 072-4 e 99-b 2 fa -27844 a 179 c 55
+title: Ejemplo de un correo postal en un flujo de trabajo
+description: Descubra un ejemplo de envío directo de correo en un flujo de trabajo.
+page-status-flag: nunca activado
+uuid: 1db691b8-c072-4e99-b2fa-27844a179c55
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: canales
-content-type: reference
-topic-tags: correo directo
-discoiquuid: 141 fa 646-5260-4450-bafb -431 ef 7736 c 73
-context-tags: delivery, directmailcontent, back
+content-type: referencia
+topic-tags: direct-mail
+discoiquuid: 141fa646-5260-4450-bafb-431ef7736c73
+context-tags: entrega,directMailContent,retroceso
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b0cf437ec97153b53bd4502171b24286abb25731
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Example of direct mail in a workflow{#example-of-direct-mail-in-a-workflow}
+# Ejemplo de un correo postal en un flujo de trabajo{#example-of-direct-mail-in-a-workflow}
 
-Como especialista en mercadotecnia, es posible que desee enviar catálogos a través de correo directo. En el catálogo de documentos, determinadas páginas ofrecen un 10% de descuento utilizando un código de promoción y un vínculo para comprar el producto en el sitio web.
+Como especialista en mercadotecnia, puede que desee enviar catálogos por correo directo. En el catálogo en papel, algunas páginas ofrecen un 10% de descuento con un código de promoción y un vínculo para comprar el producto en el sitio web.
 
-El diagrama entre sin conexión y en línea es interesante porque algunos clientes prefieren realizar pedidos en línea, pero prefieren ver las ofertas de productos en el papel.
+El acoplamiento entre offline y en línea es interesante porque algunos clientes prefieren pedir en línea, pero prefieren ver las ofertas de productos en papel.
 
 Este es un ejemplo de plantilla de correo directo que se puede utilizar.
 
 ![](assets/direct_mail_9.png)
 
-Este es un ejemplo de flujo de trabajo que mezcla los canales de correo electrónico y correo electrónico.
+Este es un ejemplo de flujo de trabajo que combina el correo directo y los canales de correo electrónico.
 
 ![](assets/direct_mail_10.png)
 
