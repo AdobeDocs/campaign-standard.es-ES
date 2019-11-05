@@ -1,8 +1,6 @@
 ---
 title: Administración de paquetes
-seo-title: Administración de paquetes
-description: Administración de paquetes
-seo-description: Los administradores pueden definir paquetes para intercambiar recursos entre distintas instancias de Adobe Campaign a través de archivos XML estructurados.
+description: Los administradores pueden definir paquetes para intercambiar recursos entre distintas instancias de Adobe Campaign a través de archivos XML estructurados.
 page-status-flag: nunca activado
 uuid: d041f549-bfc5-4e6b-87bf-a63c7c224bca
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: packageDef,información general;packageInstall,principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
