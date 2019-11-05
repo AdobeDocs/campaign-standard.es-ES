@@ -1,8 +1,6 @@
 ---
 title: Resolución de problemas
-seo-title: Resolución de problemas
-description: Resolución de problemas
-seo-description: Encuentre aquí preguntas comunes relacionadas con los informes dinámicos.
+description: Encuentre aquí preguntas comunes relacionadas con los informes dinámicos.
 page-status-flag: nunca activado
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
 contentOwner: benat
@@ -14,7 +12,7 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0ccb6df9b3de49baf1a230547c33f5d2246c0e85
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -39,7 +37,7 @@ Esta es una representación visual de la interacción de los perfiles con el cor
  <thead> 
   <tr> 
    <th align="center"> <strong>Día</strong><br /> </th> 
-   <th align="center"> <strong>Abre</strong><br /> </th> 
+   <th align="center"> <strong>Aperturas</strong> <br /> </th> 
    <th align="center"> <strong>Aperturas</strong> únicas <br /> </th> 
   </tr> 
  </thead> 
@@ -67,7 +65,7 @@ Esto dará como resultado la siguiente tabla:
  <thead> 
   <tr> 
    <th align="center"> <strong>Día</strong><br /> </th> 
-   <th align="center"> <strong>Abre</strong><br /> </th> 
+   <th align="center"> <strong>Aperturas</strong> <br /> </th> 
    <th align="center"> <strong>Aperturas</strong> únicas <br /> </th> 
   </tr> 
  </thead> 
@@ -123,7 +121,7 @@ Antes de la versión 19.2.1 de Adobe Campaign, los informes tenían el siguiente
    <th align="center"> <strong>Entrega</strong><br /> </th> 
    <th align="center"> <strong>Enviado</strong><br /> </th> 
    <th align="center"> <strong>Enviado</strong><br /> </th>
-   <th align="center"> <strong>Abre</strong><br /> </th> 
+   <th align="center"> <strong>Aperturas</strong> <br /> </th> 
    <th align="center"> <strong>Aperturas</strong> únicas <br /> </th>
   </tr> 
  </thead> 
@@ -167,7 +165,7 @@ Tras la versión 19.2.1 de Adobe Campaign Standard, los informes tienen el sigui
    <th align="center"> <strong>Entrega</strong><br /> </th> 
    <th align="center"> <strong>Enviado</strong><br /> </th> 
    <th align="center"> <strong>Enviado</strong><br /> </th>
-   <th align="center"> <strong>Abre</strong><br /> </th> 
+   <th align="center"> <strong>Aperturas</strong> <br /> </th> 
    <th align="center"> <strong>Aperturas</strong> únicas <br /> </th>
   </tr> 
  </thead> 
