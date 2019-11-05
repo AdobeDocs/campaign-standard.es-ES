@@ -1,25 +1,23 @@
 ---
-title: '" Paso 3: Verificar la extensión "'
-seo-title: '" Paso 3: Verificar la extensión "'
-description: '" Paso 3: Verificar la extensión "'
-seo-description: Obtenga información sobre cómo acceder al campo ampliado con la API de Rest.
-page-status-flag: no activado nunca
-uuid: 35 ba 89 a 5-a 354-466 f -91 a 0-50 de 111 a 2 e 00
+title: '"Paso 3: Verificar la extensión"'
+description: Obtenga información sobre cómo acceder al campo extendido con la API de descanso.
+page-status-flag: nunca activado
+uuid: 35ba89a5-a354-466f-91a0-50de111a2e00
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: desarrollar
-content-type: reference
+products: SG_CAMPAIGN/STANDARD
+audience: desarrollo
+content-type: referencia
 topic-tags: use-case—extension-the-api
-discoiquuid: 21 bad 242-5921-445 c -8 df 9-3 d 57 dbe 35197
+discoiquuid: 21bad242-5921-445c-8df9-3d57dbe35197
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Step 3: Verify the extension{#step-verify-the-extension}
+# Paso 3: Verificar la extensión{#step-verify-the-extension}
 
 1. Realice una operación GET en los metadatos de Profiles &amp; Services Extension API para comprobar si el campo agregado en el recurso personalizado Perfiles ya está disponible.
 
@@ -31,5 +29,5 @@ source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
    ![](assets/extendpandsapiview.png)
 
-   Ahora el campo está disponible para futuras integraciones e integraciones.
+   El campo está ahora disponible para nuevos desarrollos e integraciones.
 
