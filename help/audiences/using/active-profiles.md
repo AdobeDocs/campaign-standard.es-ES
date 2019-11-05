@@ -1,33 +1,31 @@
 ---
 title: Perfiles activos
-seo-title: Perfiles activos
-description: Perfiles activos
-seo-description: Puede acceder a un informe dedicado sobre métricas de clientes y visualizar perfiles activos en la base de datos de campaña.
-page-status-flag: no activado nunca
-uuid: ee 8 ac 493-c 297-49 ca-aed 4-3976 d 8 a 685 a 4
+description: Puede acceder a un informe dedicado sobre las métricas del cliente y visualizar los perfiles activos en la base de datos de Campaign.
+page-status-flag: nunca activado
+uuid: ee8ac493-c297-49ca-aed4-3976d8a685a4
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: audiencias
-content-type: reference
-topic-tags: administración de perfiles
-discoiquuid: e 029213 f -0 b 65-41 b 1-8 adf -34 fa 813 b 0 c 70
+products: SG_CAMPAIGN/STANDARD
+audience: audiences
+content-type: referencia
+topic-tags: administrar-perfiles
+discoiquuid: e029213f-0b65-41b1-8adf-34fa813b0c70
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Active profiles{#active-profiles}
+# Perfiles activos{#active-profiles}
 
-Adobe Campaign proporciona un informe que muestra el número de perfiles activos. Este informe solo es informativo, no tiene un impacto directo en la facturación. Only administrators can access this report, under **[!UICONTROL Administration > Customer metrics]**.
+ Adobe Campaign proporciona un informe que muestra el número de perfiles activos. Este informe es solo informativo, no tiene un impacto directo en la facturación. Solo los administradores pueden acceder a este informe en **[!UICONTROL Administration > Customer metrics]**.
 
 ![](assets/audience_active_profiles1.png)
 
-The **[!UICONTROL Billing]** technical workflow generates every month a report containing the number of active profiles that were targeted during the last 12-month rolling period.
+El flujo de trabajo **[!UICONTROL Billing]** técnico genera cada mes un informe que contiene el número de perfiles activos objetivo durante el último período móvil de 12 meses.
 
-Los perfiles excluidos durante la preparación de la entrega (reglas de tipología, ubicaciones) no se tienen en cuenta. Un perfil que se haya segmentado por varios envíos sólo se contará una vez. En la parte inferior del informe, encontrará la lista de perfiles activos para cada dimensión de segmentación.
+Los perfiles que se excluyen durante la preparación del envío (reglas de tipología, cuarentena) no se tienen en cuenta. Un perfil identificado por varios envíos solo se contará una vez. En la parte inferior del informe encontrará la lista de perfiles activos para cada dimensión de objetivo.
 
 ![](assets/audience_active_profiles2.png)
 
