@@ -1,8 +1,6 @@
 ---
 title: '"Caso de uso del flujo de trabajo: Creación de entregas con un complemento"'
-seo-title: '"Caso de uso del flujo de trabajo: Creación de entregas con un complemento"'
 description: '"Caso de uso del flujo de trabajo: Creación de entregas con un complemento"'
-seo-description: '"Caso de uso del flujo de trabajo: Creación de entregas con un complemento"'
 page-status-flag: nunca activado
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: flujo de trabajo,caso de uso,segmentación
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7e56dcb4c2bbdc802c9d271d4a44d9a72b239ed
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -55,7 +53,7 @@ Puede enviar un correo electrónico a los clientes: uno para clientes creados ha
 >
 >Para observar la estructura de la regla, haga clic en **[!UICONTROL Advanced Mode]**.
 
-## Creación de un envío de correo electrónico {#create-an-email-delivery}
+## Creating an Email delivery {#create-an-email-delivery}
 
 1. En **[!UICONTROL Activities]** &gt; **[!UICONTROL Channels]**, arrastre y suelte un envío de correo electrónico después de cada segmento.
 1. Haga clic en la actividad y seleccione ![](assets/edit_darkgrey-24px.png) editar.
