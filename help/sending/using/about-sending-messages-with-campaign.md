@@ -1,46 +1,44 @@
 ---
 title: Acerca del envío de mensajes con Campaign
-seo-title: Acerca del envío de mensajes con Campaign
-description: Acerca del envío de mensajes con Campaign
-seo-description: Descubrir los distintos pasos para probar y enviar un mensaje.
-page-status-flag: no activado nunca
-uuid: 58666444-6 e 7 c -4049-b 2 d 2-8 b 26 eabf 5 a 82
+description: Descubrir los diferentes pasos para probar y enviar un mensaje.
+page-status-flag: nunca activado
+uuid: 58666444-6e7c-4049-b2d2-8b26eabf5a82
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: enviar
-content-type: reference
+content-type: referencia
 topic-tags: about-send-messages-with-campaign
-discoiquuid: ae 2 eba 1 c -24 ad -4839-afa 9-5 a 2975570 d 9 b
+discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# About sending messages with Campaign{#about-sending-messages-with-campaign}
+# Acerca del envío de mensajes con Campaign{#about-sending-messages-with-campaign}
 
-Una vez definido el objetivo y creado el contenido de un mensaje, debe probarlo y aprobarlo antes de enviarlo al objetivo principal. Para ello:
+Una vez definido el objetivo y creado el contenido de un mensaje, debe probarlo y aprobarlo antes de enviarlo al destino principal. Para ello:
 
-* Obtenga una vista previa de la entrega utilizando un perfil de prueba.
-* Programe el envío: definir cuándo enviar el mensaje.
-* Prepare el envío: Este paso le permite pasar a analizar y preparar mensajes para enviarlos. La preparación de los mensajes analiza el objetivo, la personalización y la validez del mensaje. Los errores detectados durante este paso deben corregirse antes de poder continuar. Puede iniciar la preparación del mensaje tantas veces como sea necesario.
+* Obtenga una vista previa de la entrega mediante un perfil de prueba.
+* Programar el envío: definir cuándo enviar el mensaje.
+* Preparar el envío: este paso le permite pasar al análisis y la preparación de mensajes para enviarlos. La preparación del mensaje analiza el destino, la personalización y la validez del mensaje. Los errores detectados durante este paso deben corregirse antes de poder continuar. Puede iniciar la preparación del mensaje tantas veces como sea necesario.
 
    >[!NOTE]
    >
-   >Puede establecer reglas globales de fatiga de canales múltiples que excluyan automáticamente perfiles sobresoltados de las campañas. See [Fatigue rules](../../administration/using/fatigue-rules.md).
+   >Puede establecer reglas de fatiga globales entre canales que excluyan automáticamente perfiles superpuestos de las campañas. Consulte Reglas [de fatiga](../../administration/using/fatigue-rules.md).
 
-* Pruebe el envío: este paso permite aprobar el mensaje enviando pruebas.
-* Comprobar la representación de la entrega: Asegúrese de que el mensaje se muestre de una manera óptima en una variedad de clientes web, mensajes web y dispositivos (muy recomendables).
-* Envíe el mensaje: una vez que el mensaje esté listo, puede iniciar el envío. Los registros y los registros de acceso están disponibles para monitorear la entrega del mensaje y medir el éxito de la campaña. Adobe Campaign también proporciona un sistema de alerta por correo electrónico para realizar un seguimiento de la entrega correcta o incorrecta.
+* Compruebe el envío: este paso le permite aprobar el mensaje enviando pruebas.
+* Compruebe el procesamiento de entrega: asegúrese de que el mensaje se muestre de forma óptima en una variedad de clientes web, correos electrónicos web y dispositivos (muy recomendable).
+* Enviar el mensaje: una vez que el mensaje esté listo, puede iniciar el envío. Los registros de acceso y los informes están disponibles para supervisar la entrega de mensajes y medir el éxito de la campaña. Adobe Campaign también ofrece un sistema de alertas por correo electrónico para realizar un seguimiento de los éxitos o errores de entrega.
 
 **Temas relacionados**:
 
 * [Acerca de la programación de mensajes](../../sending/using/about-scheduling-messages.md)
 * [Preparación del envío](../../sending/using/preparing-the-send.md)
 * [Administración de perfiles de prueba y envío de pruebas](../../sending/using/managing-test-profiles-and-sending-proofs.md)
-* [Procesamiento por correo electrónico](../../sending/using/email-rendering.md)
-* [Recepción de alertas cuando se producen errores](../../sending/using/receiving-alerts-when-failures-happen.md)
+* [Procesamiento de correo electrónico](../../sending/using/email-rendering.md)
+* [Recibir alertas cuando se produzcan errores](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Optimización de la capacidad de entrega](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_Deliverability.html)
 
