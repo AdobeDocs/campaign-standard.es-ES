@@ -1,8 +1,6 @@
 ---
 title: Envío de correo electrónico
-seo-title: Envío de correo electrónico
-description: Envío de correo electrónico
-seo-description: La actividad de envío de correo electrónico le permite configurar el envío de un único correo electrónico de envío o de un correo electrónico recurrente en un flujo de trabajo.
+description: La actividad de envío de correo electrónico le permite configurar el envío de un único correo electrónico de envío o de un correo electrónico recurrente en un flujo de trabajo.
 page-status-flag: nunca activado
 uuid: 7de53431-84ae-4d21-8361-2775ad314ed2
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: entrega,flujo de trabajo,principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
