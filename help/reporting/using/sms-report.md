@@ -1,33 +1,31 @@
 ---
 title: Informe SMS
-seo-title: Informe SMS
-description: Informe SMS
-seo-description: 'Con el informe de SMS predeterminado, obtenga información sobre el éxito de sus envíos SMS. '
-page-status-flag: no activado nunca
-uuid: af 672 a 56-f 304-4 ea 9-99 b 1-e 9886 a 6 e 1823
+description: 'Con el informe listo para usar de SMS, conozca el éxito de sus envíos de SMS. '
+page-status-flag: nunca activado
+uuid: af672a56-f304-4ea9-99b1-e9886a6e1823
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: informes
-content-type: reference
+content-type: referencia
 topic-tags: lista de informes
-discoiquuid: a 9 afbb 76-d 2 b 3-44 c 7-b 97 a -1694501 aa 913
+discoiquuid: a9afbb76-d2b3-44c7-b97a-1694501aa913
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 82df97bb1fe4d65f204fc55ebcedd0c47337a8e7
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
 # Informe SMS{#sms-report}
 
-El informe **SMS** proporciona detalles sobre envíos SMS, como las tasas de salida hacia otro sitio y hacia otro sitio.
+El informe **SMS** proporciona detalles sobre los envíos SMS, como los entregados y las tasas de devoluciones.
 
 ![](assets/dynamic_report_sms.png)
 
-La tabla **resumen** de SMS, los gráficos y los números de resumen contienen datos disponibles para envíos SMS que se han enviado.
+La tabla de resumen **** SMS, los gráficos y los números de resumen contienen los datos disponibles para las entregas por SMS que se han enviado.
 
-* **Procesado/enviado**: Número de SMS enviado.
-* **Entregado**: El número de SMS entregado.
-* **Devoluciones + Errores**: Cantidad de mensajes que no se pudieron entregar.
+* **Procesado/enviado**: El número de SMS enviados.
+* **Enviado**: El número de mensajes de texto enviados.
+* **Devoluciones + Errores**: Número de mensajes que no se pudieron entregar.
 
