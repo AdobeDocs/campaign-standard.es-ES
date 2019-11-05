@@ -1,85 +1,83 @@
 ---
 title: Definición de plantillas de importación
-seo-title: Definición de plantillas de importación
-description: Definición de plantillas de importación
-seo-description: Importe las plantillas para reducir la configuración necesaria e importar datos más rápidamente.
-page-status-flag: no activado nunca
-uuid: 651 eb 57 c-adac -4 e 3 e-b 454-b 39 aea 1 f 0484
+description: Las plantillas de importación permiten reducir la configuración necesaria e importar datos más rápido.
+page-status-flag: nunca activado
+uuid: 651eb57c-adac-4e3e-b454-b39aea1f0484
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: automatizar
-content-type: reference
+content-type: referencia
 topic-tags: importar y exportar datos
-discoiquuid: 85 d 13147-fb 31-446 a -8476-f 112 c 841 fb 82
+discoiquuid: 85d13147-fb31-446a-8476-f112c841fb82
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 36727e82d3aa73add6116fa2916752ff0e407d9d
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Defining import templates{#defining-import-templates}
+# Definición de plantillas de importación{#defining-import-templates}
 
-Importar plantillas permite al administrador definir previamente un cierto número de configuraciones de importación técnica. Estas plantillas pueden estar disponibles para los usuarios estándar para que realicen y carguen archivos.
+Las plantillas de importación permiten al administrador definir previamente un determinado número de configuraciones técnicas de importación. Estas plantillas se pueden poner a disposición de los usuarios estándar para llevar a cabo y cargar archivos.
 
-An import template is defined by the functional administrator and can be managed under the **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Import templates]** menu.
+El administrador funcional define una plantilla de importación que se puede administrar en el menú **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Import templates]** .
 
 ![](assets/import_template_list.png)
 
-Hay disponibles tres plantillas de solo lectura predeterminadas:
+Existen tres plantillas de solo lectura predeterminadas:
 
-* **[!UICONTROL Update Direct mail quarantines and delivery logs]**: esta plantilla puede servir como base para nuevas importaciones para actualizar ubicaciones y registros de entrega de correo directo. El flujo de trabajo de la plantilla contiene las siguientes actividades:
-* **[!UICONTROL Import data]**: esta plantilla puede servir como base para las importaciones nuevas para insertar datos de un archivo en la base de datos. El flujo de trabajo de esta plantilla contiene las siguientes actividades:
+* **[!UICONTROL Update Direct mail quarantines and delivery logs]**:: esta plantilla puede servir de base para nuevas importaciones para actualizar las cuarentena y los registros de entrega del correo directo. El flujo de trabajo de la plantilla contiene las siguientes actividades:
+* **[!UICONTROL Import data]**:: esta plantilla puede servir de base para que las nuevas importaciones inserten datos de un archivo en la base de datos. El flujo de trabajo de esta plantilla contiene las siguientes actividades:
 
-   * **[!UICONTROL Load file]**: esta actividad permite cargar un archivo en el servidor de Adobe Campaign.
-   * **[!UICONTROL Update data]**: esta actividad permite insertar datos del archivo en la base de datos.
+   * **[!UICONTROL Load file]**:: esta actividad le permite cargar un archivo en el servidor de Adobe Campaign.
+   * **[!UICONTROL Update data]**:: esta actividad le permite insertar datos del archivo en la base de datos.
 
-* **[!UICONTROL Import list]**: esta plantilla puede servir como base para las importaciones nuevas a fin de crear una audiencia de tipo **Lista** a partir de datos de un archivo. El flujo de trabajo de esta plantilla contiene las siguientes actividades:
+* **[!UICONTROL Import list]**:: esta plantilla puede servir de base para nuevas importaciones para crear una audiencia de tipo **Lista** a partir de los datos de un archivo. El flujo de trabajo de esta plantilla contiene las siguientes actividades:
 
-   * **[!UICONTROL Load file]**: esta actividad permite cargar un archivo en el servidor de Adobe Campaign.
-   * **[!UICONTROL Reconciliation]**: esta actividad permite vincular una dimensión de segmentación a datos importados. This then allows you to create a **List** type audience. If the targeting dimension of the imported data is not known, the audience is **File** type. See [Targeting dimensions and resources](../../automating/using/query.md#targeting-dimensions-and-resources).
-   * **[!UICONTROL Save audience]**: esta actividad permite guardar datos importados en forma de audiencia de tipo **de lista** . El nombre de la audiencia guardada corresponde al nombre del archivo importado por el usuario y se agregará un sufijo que especifique la fecha y la hora de la importación. Por ejemplo: ' profiles_ 20150406_ 151448 '.
+   * **[!UICONTROL Load file]**:: esta actividad le permite cargar un archivo en el servidor de Adobe Campaign.
+   * **[!UICONTROL Reconciliation]**:: esta actividad le permite vincular una dimensión de objetivo a datos importados. Esto le permite crear una audiencia de tipo **Lista** . Si no se conoce la dimensión de objetivo de los datos importados, la audiencia es de tipo **Archivo** . Consulte [Segmentación de dimensiones y recursos](../../automating/using/query.md#targeting-dimensions-and-resources).
+   * **[!UICONTROL Save audience]**:: esta actividad permite guardar datos importados en forma de audiencia de tipo **Lista** . El nombre de la audiencia guardada corresponde al nombre del archivo importado por el usuario y se agregará un sufijo que especifica la fecha y hora de la importación.  Por ejemplo: 'profile_20150406_151448'.
 
 Estas plantillas predeterminadas son de solo lectura y no son visibles para los usuarios estándar. Para crear una plantilla que estará disponible para los usuarios, siga estos pasos:
 
-1. Duplicar una plantilla predeterminada. La plantilla duplicada contiene tres fichas:
+1. Duplique una plantilla predeterminada. La plantilla duplicada contiene tres fichas:
 
-   * **[!UICONTROL Properties]**: los parámetros generales de la plantilla de importación. Esta ficha permite habilitar la plantilla y cargar un archivo de ejemplo.
-   * **[!UICONTROL Workflow]**: flujo de trabajo de importación. Esta ficha permite definir las actividades del flujo de trabajo. Estas actividades no están visibles durante importaciones simplificadas realizadas por usuarios.
-   * **[!UICONTROL Executed imports]**: lista de importaciones realizadas con esta plantilla. Puede ver el estado, los detalles y los resultados de cada importación que se haya realizado con esta plantilla. Puede acceder directamente al flujo de trabajo (se lleva a cabo de forma transparente para el usuario) desde esta lista.
+   * **[!UICONTROL Properties]**:: los parámetros generales de la plantilla de importación. Esta ficha le permite activar la plantilla y cargar un archivo de muestra.
+   * **[!UICONTROL Workflow]**:: flujo de trabajo de importación. Esta ficha le permite definir las actividades del flujo de trabajo. Estas actividades no son visibles durante las importaciones simplificadas efectuadas por los usuarios.
+   * **[!UICONTROL Executed imports]**:: lista de las importaciones efectuadas con esta plantilla. Puede ver el estado, los detalles y los resultados de cada importación que se ha realizado con esta plantilla. Puede acceder directamente al flujo de trabajo (realizado de forma transparente para el usuario) desde esta lista.
 
-1. From the **[!UICONTROL Properties]** tab, rename the template and add a description. Los usuarios podrán ver la descripción cuando la plantilla esté disponible.
+1. En la **[!UICONTROL Properties]** ficha, cambie el nombre de la plantilla y agregue una descripción. Los usuarios podrán ver la descripción cuando la plantilla esté disponible.
 
    ![](assets/simplified_import_model1.png)
 
-1. Go to the **[!UICONTROL Workflow]** tab. Desde aquí puede enriquecer el flujo de trabajo ofrecido de forma predeterminada mediante la adición de nuevas actividades según sus necesidades.
+1. Vaya a la **[!UICONTROL Workflow]** ficha. Desde aquí puede enriquecer el flujo de trabajo ofrecido de forma predeterminada agregando nuevas actividades según sus necesidades.
 
-   For more on how to configure the workflow activities, refer to the use case describe in this section: [Example: Import workflow template](../../automating/using/importing-data.md#example--import-workflow-template). Este caso de uso le ayudará a configurar un flujo de trabajo que se puede reutilizar para importar perfiles provenientes de una CRM en la base de datos de Adobe Campaign.
+   Para obtener más información sobre cómo configurar las actividades de flujo de trabajo, consulte el caso de uso descrito en esta sección: [Ejemplo: Importar plantilla](../../automating/using/importing-data.md#example--import-workflow-template)de flujo de trabajo. Este caso de uso le ayudará a configurar un flujo de trabajo que se puede reutilizar para importar perfiles procedentes de una CRM en la base de datos de Adobe Campaign.
 
 1. Guarde la plantilla para que la configuración del flujo de trabajo se tenga en cuenta correctamente.
-1. Upload a sample file from the **[!UICONTROL Properties]** tab. El archivo cargado sólo puede tener columnas necesarias para importaciones futuras o datos de ejemplo. Los datos del archivo de ejemplo le permiten probar la importación simplificada una vez definido el flujo de trabajo.
+1. Cargue un archivo de muestra desde la **[!UICONTROL Properties]** ficha. El archivo cargado solo puede tener columnas necesarias para futuras importaciones o datos de muestra. Los datos del archivo de muestra permiten probar la importación simplificada una vez definido el flujo de trabajo.
 
    ![](assets/import_template_sample.png)
 
-   Este archivo de muestra estará disponible para los usuarios que utilicen la plantilla para realizar una importación. Podrán descargarlo en su equipo, por ejemplo para rellenarlo con datos que importar. Asegúrese de tener esto en cuenta al agregar un archivo de ejemplo.
+   Este archivo de muestra estará disponible para que los usuarios que utilicen la plantilla realicen una importación. Podrán descargarlo en su ordenador, por ejemplo, para rellenarlo con datos que se van a importar. Asegúrese de tener esto en cuenta al agregar un archivo de muestra.
 
-1. Guarde la plantilla. Ahora se tiene en cuenta el archivo de ejemplo. At any moment you can download it to your computer to check the content, or modify it by checking the **[!UICONTROL Drop a new sample file]** option.
+1. Guarde la plantilla. Ahora se tiene en cuenta el archivo de muestra. En cualquier momento puede descargarlo en su ordenador para comprobar el contenido o modificarlo marcando la **[!UICONTROL Drop a new sample file]** opción.
 
    ![](assets/simplified_import_model2.png)
 
-1. Go back to the **[!UICONTROL Workflow]** tab and open the **[!UICONTROL Load file]** activity to check and adjust the column configuration of the sample file that was uploaded at the previous step.
-1. Pruebe la importación iniciando el flujo de trabajo. The sample file uploaded at step **5** has to contain data.
+1. Vuelva a la **[!UICONTROL Workflow]** ficha y abra la **[!UICONTROL Load file]** actividad para comprobar y ajustar la configuración de columna del archivo de muestra que se cargó en el paso anterior.
+1. Pruebe la importación iniciando el flujo de trabajo. El archivo de muestra cargado en el paso **5** debe contener datos.
 
-   Los datos del archivo de ejemplo se importan realmente. Asegúrese de que los datos utilizados son pequeños y ficticios para garantizar que la base de datos no se encuentre comprometida.
+   Los datos del archivo de muestra se importan de forma genuina. Asegúrese de que los datos utilizados sean pequeños y ficticios para garantizar que la base de datos no se vea comprometida.
 
 1. Vaya al registro de ejecución del flujo de trabajo, disponible en la barra de acciones. Si se produce un error, compruebe que las actividades estén configuradas correctamente.
 
    ![](assets/simplified_import_model3.png)
 
-1. In the **[!UICONTROL Properties]** tab, set the **[!UICONTROL Import template status]** to **[!UICONTROL Available]**, then save the template. To stop using this template, you can set the **[!UICONTROL Import template status]** to **[!UICONTROL Archived]**.
+1. En la **[!UICONTROL Properties]** ficha, establezca el valor **[!UICONTROL Import template status]** en **[!UICONTROL Available]** y, a continuación, guarde la plantilla. Para dejar de usar esta plantilla, puede establecer el **[!UICONTROL Import template status]** en **[!UICONTROL Archived]**.
 
-The template workflow can be modified by re-uploading the sample file and checking the **[!UICONTROL Load file]** configuration.
+El flujo de trabajo de la plantilla se puede modificar cargando de nuevo el archivo de ejemplo y comprobando la **[!UICONTROL Load file]** configuración.
 
 La plantilla de importación ya está disponible para los usuarios y se puede utilizar para cargar archivos.
 
