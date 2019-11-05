@@ -1,8 +1,6 @@
 ---
 title: Mensajes de seguimiento
-seo-title: Mensajes de seguimiento
-description: Mensajes de seguimiento
-seo-description: Obtenga información sobre cómo crear y publicar un mensaje de seguimiento.
+description: Obtenga información sobre cómo crear y publicar un mensaje de seguimiento.
 page-status-flag: nunca activado
 uuid: d2a17da2-e935-420a-8531-78ed6a1fe68b
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 9615e369-754f-4f6a-a1b1-14462f94666
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -127,5 +125,5 @@ Una vez iniciado el flujo de trabajo, todos los clientes que hayan recibido la n
 
 >[!NOTE]
 >
->Si seleccionó la dimensión de objetivo al crear la configuración de evento, el mensaje de seguimiento también aprovechará la base de datos de marketing de Adobe Campaign. **[!UICONTROL Profile]** Consulte [Perfil de mensajes](../../channels/using/profile-transactional-messages.md)transaccionales.
+>Si seleccionó la dimensión de objetivo al crear la configuración de evento, el mensaje de seguimiento también aprovechará la base de datos de marketing de Adobe Campaign. **[!UICONTROL Profile]** See [Profile transactional messages](../../channels/using/profile-transactional-messages.md).
 
