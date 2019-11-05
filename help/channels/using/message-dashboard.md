@@ -1,8 +1,6 @@
 ---
-title: Tablero de mensajes
-seo-title: Tablero de mensajes
-description: Tablero de mensajes
-seo-description: Descubra en qué consiste el tablero de mensajes, incluida la barra de acciones y los distintos bloques funcionales.
+title: Panel de mensajes
+description: Descubra en qué consiste el tablero de mensajes, incluida la barra de acciones y los distintos bloques funcionales.
 page-status-flag: nunca activado
 uuid: 9bb44ee8-2cf6-43ce-94a4-367f4e469713
 contentOwner: sauviat
@@ -15,12 +13,12 @@ context-tags: entrega,principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Tablero de mensajes{#message-dashboard}
+# Panel de mensajes{#message-dashboard}
 
 El tablero de mensajes es un espacio de trabajo compuesto por diferentes iconos - reagrupados en una barra de acciones - y varios bloques funcionales que le permiten establecer los parámetros del mensaje y enviarlo. Estos elementos se presentan a continuación.
 
@@ -73,8 +71,8 @@ La pantalla principal está formada por diferentes bloques. Haga clic dentro de 
 
 ![](assets/delivery_dashboard_3.png)
 
-* **[!UICONTROL Deployment]**:: le permite realizar un seguimiento del progreso de la preparación o el envío de mensajes. Haga clic en el botón que se encuentra en la sección inferior derecha de este bloque para acceder a los registros de envío y análisis. Este bloque solo aparece una vez que se ha preparado el envío. Para más información sobre esto. Consulte [Confirmación de envío](../../sending/using/confirming-the-send.md).
+* **[!UICONTROL Deployment]**:: le permite realizar un seguimiento del progreso de la preparación o el envío de mensajes. Haga clic en el botón que se encuentra en la sección inferior derecha de este bloque para acceder a los registros de envío y análisis. Este bloque solo aparece una vez que se ha preparado el envío. Para obtener más información, consulte. Consulte [Confirmación de envío](../../sending/using/confirming-the-send.md).
 * **[!UICONTROL Audience]**:: permite establecer el objetivo principal del mensaje, así como los perfiles de prueba. Consulte [Creación de audiencias](../../audiences/using/creating-audiences.md).
 * **[!UICONTROL Schedule]**:: permite especificar la fecha en la que se enviará el mensaje. Consulte [Programación](../../sending/using/about-scheduling-messages.md).
-* **[!UICONTROL Content]**:: permite definir el contenido del mensaje y obtener una vista previa. Consulte Pasos [clave para enviar un mensaje](../../channels/using/key-steps-to-send-a-message.md).
+* **[!UICONTROL Content]**:: permite definir el contenido del mensaje y obtener una vista previa. See [Key steps to send a message](../../channels/using/key-steps-to-send-a-message.md).
 
