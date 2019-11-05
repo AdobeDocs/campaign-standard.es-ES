@@ -1,45 +1,43 @@
 ---
 title: Preparación del envío
-seo-title: Preparación del envío
-description: Preparación del envío
-seo-description: Descubra cómo definir preparación antes del envío.
-page-status-flag: no activado nunca
-uuid: 1038 dae 2-164 c -4579-9294-bdf 2 a 4 eb 12 d 6
+description: Aprenda a definir la preparación antes del envío.
+page-status-flag: nunca activado
+uuid: 1038dae2-164c-4579-9294-bdf2a4eb12d6
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: enviar
-content-type: reference
-topic-tags: preparing-and-testing-messages
-discoiquuid: 003 abc 83-7 f 07-471 f-ab 2 f -1 d 352 d 22 c 26 f
+content-type: referencia
+topic-tags: preparar y probar mensajes
+discoiquuid: 003abc83-7f07-471f-ab2f-1d352d22c26f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Preparing the send{#preparing-the-send}
+# Preparación del envío{#preparing-the-send}
 
-La preparación se corresponde con el paso de calcular la población objetivo y generar el contenido de los mensajes para cada perfil incluido en el objetivo. Once preparation is finished, the messages are ready to be sent, either immediately or at [the scheduled date and time](../../sending/using/about-scheduling-messages.md).
+La preparación corresponde al paso de calcular la población objetivo y generar el contenido del mensaje para cada perfil incluido en el destino. Una vez finalizada la preparación, los mensajes están listos para ser enviados, ya sea inmediatamente o en [la fecha y hora](../../sending/using/about-scheduling-messages.md)programadas.
 
-1. To start preparing the send, click the **Prepare** button located in the action bar.
+1. Para empezar a preparar el envío, haga clic en el botón **Preparar** situado en la barra de acciones.
 
    ![](assets/preparing_delivery_2.png)
 
-1. **[!UICONTROL Deployment]** El bloque muestra el progreso de preparación y las estadísticas de preparación: número de mensajes dirigidos, número de mensajes que enviar, etc.
+1. El **[!UICONTROL Deployment]** bloque muestra el progreso de la preparación y luego las estadísticas de preparación: número de mensajes dirigidos, número de mensajes que enviar, etc.
 
-   Según el tamaño de la población objetivo, esta operación podría llevar cierto tiempo.
+   Según el tamaño de la población objetivo, esta operación puede tardar algún tiempo.
 
    ![](assets/preparing_delivery.png)
 
-1. Stop the preparation at any time using the **Stop** button, located in the action bar.
+1. Detenga la preparación en cualquier momento con el botón **Detener** , ubicado en la barra de acciones.
 
-   Durante la fase de preparación, no se envían mensajes. Por lo tanto, puede iniciar o detener esto sin riesgo de afectar nada.
+   Durante la fase de preparación no se envían mensajes. Por lo tanto, puede comenzar o parar esto sin riesgo de afectar nada.
 
    ![](assets/preparing_delivery_6.png)
 
-1. El mensaje se guarda automáticamente durante la preparación para la etapa de envío. If you need to make any changes to your message's schedule after the preparation step, you will need to make sure that you click the **[!UICONTROL Prepare]** button again for those changes to be taken into account. For more information on how to schedule a message, refer to this [page](../../sending/using/about-scheduling-messages.md).
+1. El mensaje se guarda automáticamente durante la etapa de preparación de la entrega. Si necesita realizar cambios en la programación del mensaje después del paso de preparación, deberá asegurarse de volver a hacer clic en el **[!UICONTROL Prepare]** botón para que se tengan en cuenta dichos cambios. For more information on how to schedule a message, refer to this [page](../../sending/using/about-scheduling-messages.md).
 
    ![](assets/preparing_delivery_5.png)
 
@@ -47,22 +45,22 @@ La preparación se corresponde con el paso de calcular la población objetivo y 
 
    ![](assets/preparing_delivery_4.png)
 
-1. The **[!UICONTROL Deployment]** window opens, correct any errors then restart the preparation.
+1. Se abre la **[!UICONTROL Deployment]** ventana, corrija los errores y, a continuación, reinicie la preparación.
 
-   El último mensaje de registro muestra los mensajes de error y el número de errores. Un icono específico muestra el tipo de error encontrado: El icono amarillo indica un error de procesamiento no crítico, el icono rojo indica un error crítico que impide que se inicie la entrega.
+   El último mensaje de “log” muestra los mensajes de error y el número de errores. Un icono específico muestra el tipo de error encontrado: el icono amarillo indica un error de procesamiento no crítico; el icono rojo indica un error crítico que impide que se inicie la entrega.
 
    ![](assets/preparing_delivery_3.png)
 
-1. Compruebe las estadísticas de preparación antes de confirmar el envío de los mensajes. If the number of messages to send does not correspond to your configuration, edit the targeted population (see [Selecting an audience in a message](../../audiences/using/selecting-an-audience-in-a-message.md)) and restart the preparation.
+1. Compruebe las estadísticas de preparación antes de confirmar el envío de los mensajes. Si el número de mensajes que se van a enviar no se corresponde con la configuración, edite la población objetivo (consulte [Selección de una audiencia en un mensaje](../../audiences/using/selecting-an-audience-in-a-message.md)) y reinicie la preparación.
 
-Una vez completada la preparación, el mensaje estará listo para enviarse. For more on this, see [Confirming send](../../sending/using/confirming-the-send.md).
+Una vez finalizado el proceso de preparación, el mensaje estará listo para ser enviado. Para obtener más información sobre esto, consulte [Confirmación de envío](../../sending/using/confirming-the-send.md).
 
 **Reglas de tipología**
 
-Adobe Campaign incluye un conjunto de reglas de tipología de diseño que se aplican durante la preparación de los mensajes. Se utilizan para comprobar si un mensaje es válido y cumple los criterios de calidad. See [Typologies](../../administration/using/about-typology-rules.md). Puede definir sus propias reglas de tipología, por ejemplo, puede establecer reglas globales de fatiga entre canales que excluirán automáticamente perfiles sobresoltados de las campañas. See [Fatigue rules](../../administration/using/fatigue-rules.md).
+Adobe Campaign incluye un conjunto de reglas de tipología integradas que se aplican durante la preparación del mensaje. Se utilizan para comprobar si un mensaje es válido y cumple los criterios de calidad. Consulte [Tipologías](../../administration/using/about-typology-rules.md). Puede definir sus propias reglas de tipología, por ejemplo, puede establecer reglas de fatiga globales entre canales que excluirán automáticamente los perfiles superpuestos de las campañas. Consulte Reglas [de fatiga](../../administration/using/fatigue-rules.md).
 
-**Comprobación del mensaje SMS**
+**Comprobación de mensajes SMS**
 
-Si ha insertado campos de personalización o texto condicional en el contenido del mensaje SMS, estos factores pueden introducir caracteres que la codificación GSM no tenga en cuenta. Cuando se ejecuta la preparación, se supervisa la duración del mensaje y se mostrará un mensaje de advertencia si pasa el límite.
+Si ha insertado campos de personalización o texto condicional en el contenido de su mensaje SMS, estos factores pueden introducir caracteres que no se tienen en cuenta en la codificación GSM. Cuando se ejecuta la preparación, se supervisa la longitud del mensaje y se muestra un mensaje de advertencia si supera el límite.
 
-For more on this, refer to the [SMS encoding, length and transliteration](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) and [Personalizing SMS messages](../../channels/using/personalizing-sms-messages.md) sections.
+Para más información sobre esto, consulte las secciones de codificación, longitud y transliteración [de](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) SMS y [Personalización de mensajes](../../channels/using/personalizing-sms-messages.md) SMS.
