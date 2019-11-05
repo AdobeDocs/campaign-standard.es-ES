@@ -1,8 +1,6 @@
 ---
 title: Administración de SMS entrantes
-seo-title: Administración de SMS entrantes
-description: Administración de SMS entrantes
-seo-description: Obtenga información sobre cómo administrar STOP SMS y almacenar los mensajes de texto entrantes en Adobe Campaign.
+description: Obtenga información sobre cómo administrar STOP SMS y almacenar los mensajes de texto entrantes en Adobe Campaign.
 page-status-flag: nunca activado
 uuid: f063052b-96ef-41b6-bf1b-4006de73f0b9
 contentOwner: sauviat
@@ -15,7 +13,7 @@ delivercontext-tags: entrega,smsContent,retroceso
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
