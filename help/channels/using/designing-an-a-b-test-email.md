@@ -1,8 +1,6 @@
 ---
 title: Diseño de un correo electrónico de prueba A/B
-seo-title: Diseño de un correo electrónico de prueba A/B
-description: Diseño de un correo electrónico de prueba A/B
-seo-description: Descubra la funcionalidad de la prueba A/B y siga estos pasos para crear un correo electrónico a partir de una plantilla de prueba A/B en Adobe Campaign.
+description: Descubra la funcionalidad de la prueba A/B y siga estos pasos para crear un correo electrónico a partir de una plantilla de prueba A/B en Adobe Campaign.
 page-status-flag: nunca activado
 uuid: 104f6973-68a7-4692-a90a-a5570a980ec7
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: entrega,abTesting,devolución;entregaCreación,asistente;entrega,p
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -30,7 +28,7 @@ Puede elegir entre variar el contenido, el asunto o el remitente del correo elec
 >
 >No es posible realizar pruebas A/B en correos electrónicos creados en Adobe Experience Manager.
 
-## Creación de un correo electrónico de prueba A/B {#creating-an-a-b-test-email}
+## Creating an A/B test email {#creating-an-a-b-test-email}
 
 Se puede crear una prueba A/B con el asistente de creación de correo electrónico estándar, al que se agrega un paso de configuración de prueba A/B. La creación de un correo electrónico estándar se detalla en la sección [Creación de un correo electrónico](../../channels/using/creating-an-email.md) .
 
