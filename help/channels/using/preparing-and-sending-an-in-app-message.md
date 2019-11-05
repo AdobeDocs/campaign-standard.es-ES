@@ -1,8 +1,6 @@
 ---
 title: Preparación y envío de un mensaje en la aplicación
-seo-title: Preparación y envío de un mensaje en la aplicación
-description: Preparación y envío de un mensaje en la aplicación
-seo-description: Cree un mensaje en la aplicación para dirigirse a los suscriptores de la aplicación con contenido específico.
+description: Cree un mensaje en la aplicación para dirigirse a los suscriptores de la aplicación con contenido específico.
 page-status-flag: nunca activado
 uuid: a79b0466-8641-46cc-a70f-e4e839587bb2
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: entrega,activadores,devolución;entregaCreación,asistente
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -126,7 +124,7 @@ Los pasos para crear un mensaje independiente en la aplicación con Adobe Campai
 
    ![](assets/inapp_creating_5.png)
 
-1. Edite el contenido del mensaje y defina las opciones avanzadas. Consulte [Personalización de un mensaje](https://helpx.adobe.com/campaign/standard/channels/using/customizing-a-push-notification.html)en la aplicación.
+1. Edite el contenido del mensaje y defina las opciones avanzadas. See [Customizing an In-App message](https://helpx.adobe.com/campaign/standard/channels/using/customizing-a-push-notification.html).
 
    ![](assets/inapp_creating_6.png)
 
