@@ -1,91 +1,89 @@
 ---
 title: Reconciliación
-seo-title: Reconciliación
-description: Reconciliación
-seo-description: La actividad de reconciliación permite vincular datos no identificados a recursos existentes.
-page-status-flag: no activado nunca
-uuid: 7884 db 8 c -1717-4724-be 15-3 b 0 b 32 ccc 071
+description: La actividad Reconciliación le permite vincular datos no identificados a recursos existentes.
+page-status-flag: nunca activado
+uuid: 7884db8c-1717-4724-be15-3b0b32ccc071
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: automatizar
-content-type: reference
-topic-tags: data-management-activities
-discoiquuid: cb 8 c 43 f 4-9 cdd -4 e 85-99 a 4-004 b 36 b 336 aa
-context-tags: reconciliación, principal
+content-type: referencia
+topic-tags: gestión de datos-actividades
+discoiquuid: cb8c43f4-9cdd-4e85-99a4-004b36b336aa
+context-tags: reconciliación,principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6748e59aaeafce9dc6e77dc0664a9024a53c3e35
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Reconciliation{#reconciliation}
+# Reconciliación{#reconciliation}
 
-## Description {#description}
+## Descripción {#description}
 
 ![](assets/reconciliation.png)
 
-The **[!UICONTROL Reconciliation]** activity allows you to link unidentified data to existing resources.
+La **[!UICONTROL Reconciliation]** actividad le permite vincular datos no identificados a recursos existentes.
 
-## Context of use {#context-of-use}
+## Contexto de uso {#context-of-use}
 
-The **[!UICONTROL Reconciliation]** activity is essentially used for Data Management purposes and implies two different use cases:
+La **[!UICONTROL Reconciliation]** actividad se utiliza esencialmente con fines de administración de datos e implica dos casos de uso diferentes:
 
-* Adding relations: a **[!UICONTROL Links]** tab allows you to add links between the inbound data and several other Adobe Campaign database dimensions.
+* Agregando relaciones: una **[!UICONTROL Links]** ficha permite agregar vínculos entre los datos de entrada y varias otras dimensiones de base de datos de Adobe Campaign.
 
-   Por ejemplo, un archivo que contenga datos de compra también puede contener información para identificar los productos comprados y el comprador. Two additional dimensions (besides that of **Purchases**) are therefore concerned by the file data: the **Products** and **Profiles** dimensions. Relations then need to be created between these and the **Purchases** dimension (refer to the following example).
+   Por ejemplo, un archivo que contenga datos de compra también puede contener información para identificar tanto los productos comprados como el comprador. Dos dimensiones adicionales (además de la de **Compras**) se preocupan por los datos del archivo: las dimensiones **Productos** y **Perfiles** . Luego deben crearse relaciones entre éstas y la dimensión **Compras** (consulte el siguiente ejemplo).
 
    Al definir una relación, se agrega una columna a los datos de entrada para hacer referencia a la clave externa de la dimensión vinculada.
 
    >[!NOTE]
    >
-   >Esta operación implica que los datos de las dimensiones vinculadas ya están en la base de datos. Por ejemplo, si importa un archivo de compras que muestra qué producto se compró, a qué hora, por qué cliente, etc., debe existir el producto como así también el cliente en la base de datos.
+   >Esta operación implica que los datos de las dimensiones vinculadas ya están en la base de datos. Por ejemplo, si importa un archivo de compras que muestre qué producto se compró, a qué hora, por qué cliente, etc., el producto y el cliente ya deben existir en la base de datos.
 
-* Data identification: an **[!UICONTROL Identification]** tab allows you to simply link inbound data to columns of an existing dimension in the Adobe Campaign database. Después de la actividad, los datos se identifican como pertenecientes a la dimensión definida.
+* Identificación de datos: una **[!UICONTROL Identification]** ficha permite simplemente vincular datos de entrada a columnas de una dimensión existente en la base de datos de Adobe Campaign. Después de la actividad, los datos se identifican como pertenecientes a la dimensión definida.
 
-   Por ejemplo, puede realizar una audiencia guardada, actualizar la base de datos, etc.
+   Por ejemplo, puede guardar una audiencia, actualizar la base de datos, etc.
 
-For example, the **[!UICONTROL Reconciliation]** activity can be placed after a load data activity with the aim of importing non-standard data into the database.
+Por ejemplo, la actividad se puede colocar después de una actividad de carga de datos con el fin de importar datos no estándar en la base de datos. **[!UICONTROL Reconciliation]**
 
-## Configuration {#configuration}
+## Configuración {#configuration}
 
-1. Drag and drop a **[!UICONTROL Reconciliation]** activity into your workflow, following a transition containing a population whose targeting dimension does not directly come from Adobe Campaign. For more on this, refer to [Targeting dimensions and resources](../../automating/using/query.md#targeting-dimensions-and-resources).
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. If you would like to define links between the inbound data and other database dimensions, go to the **[!UICONTROL Links]** tab.
+1. Arrastre y suelte una **[!UICONTROL Reconciliation]** actividad en el flujo de trabajo, después de una transición que contenga una población cuya dimensión de objetivo no proceda directamente de Adobe Campaign. Para obtener más información sobre esto, consulte [Segmentación de dimensiones y recursos](../../automating/using/query.md#targeting-dimensions-and-resources).
+1. Seleccione la actividad y, a continuación, ábrala con el ![](assets/edit_darkgrey-24px.png) botón de las acciones rápidas que aparecen.
+1. Si desea definir vínculos entre los datos de entrada y otras dimensiones de base de datos, vaya a la **[!UICONTROL Links]** ficha .
 
-   Agregue tantas relaciones como sea necesario. Para cada relación, seleccione primero la dimensión vinculada y, en el detalle del vínculo, especifique los campos correspondientes.
+   Agregue tantas relaciones como sea necesario. Para cada relación, primero seleccione la dimensión vinculada y luego, en el detalle del vínculo, especifique los campos correspondientes.
 
-1. If you would like to simply identify the inbound data, go to the **[!UICONTROL Identification]** tab and check the **[!UICONTROL Identify the document from the working data]** box.
+1. Si desea simplemente identificar los datos entrantes, vaya a la **[!UICONTROL Identification]** ficha y marque la **[!UICONTROL Identify the document from the working data]** casilla.
 
    Seleccione la dimensión de objetivo a la que desea reconciliar los datos de entrada.
 
    Agregue criterios de reconciliación para vincular un registro de transición entrante a un registro de dimensión de objetivo seleccionado. Si se especifican varios criterios, todos deben verificarse para que funcione el vínculo entre todos sus datos.
 
-   Choose the **[!UICONTROL Processing unidentified source lines]** mode:
+   Elija el **[!UICONTROL Processing unidentified source lines]** modo:
 
-   * **[!UICONTROL Ignore them]**: solo se mantienen los datos identificables en la transición saliente de la actividad.
-   * **[!UICONTROL Keep in the outbound population]**: todos los datos de la transición entrante se mantienen en la transición saliente de la actividad.
+   * **[!UICONTROL Ignore them]**:: solo los datos identificables se conservan en la transición de salida de la actividad.
+   * **[!UICONTROL Keep in the outbound population]**:: todos los datos de la transición de entrada se guardan en la transición de salida de la actividad.
 
-1. Confirme la configuración de su actividad y guarde el flujo de trabajo.
+1. Confirme la configuración de la actividad y guarde el flujo de trabajo.
 
-## Example 1: Relation definition {#example-1--relation-definition}
+## Ejemplo 1: Definición de relación {#example-1--relation-definition}
 
-El siguiente ejemplo muestra un flujo de trabajo que actualiza la base de datos utilizando los datos de compra en un archivo. Los datos de compra contienen elementos de referencia de datos de otras dimensiones, como los correos electrónicos del cliente y los códigos de producto.
+En el siguiente ejemplo se muestra un flujo de trabajo que actualiza la base de datos con los datos de compra de un archivo. Los datos de compra contienen datos que hacen referencia a elementos de otras dimensiones, como los correos electrónicos del cliente y los códigos de producto.
 
 >[!NOTE]
 >
->The **Transactions** and **Products** resources used in this example do not exist in the Adobe Campaign database by default. They were therefore created beforehand using the [Custom resources](../../developing/using/data-model-concepts.md) function. Los perfiles que corresponden a las direcciones de correo electrónico del archivo importado, al igual que los productos, se cargaban previamente en la base de datos.
+>Los recursos **Transacciones** y **Productos** utilizados en este ejemplo no existen de forma predeterminada en la base de datos de Adobe Campaign. Por lo tanto, se crearon de antemano utilizando la función de recursos [](../../developing/using/data-model-concepts.md) personalizados. Los perfiles que corresponden a las direcciones de correo electrónico del archivo importado, así como los productos, se cargaron en la base de datos de antemano.
 
-El flujo de trabajo está formado por las siguientes actividades:
+El flujo de trabajo se compone de las siguientes actividades:
 
 ![](assets/reconciliation_example1.png)
 
-* **[!UICONTROL Load file]** Actividad que carga y detecta los datos del archivo que se va a importar. El archivo importado contiene los siguientes datos:
+* Una **[!UICONTROL Load file]** actividad que carga y detecta los datos del archivo que se va a importar. El archivo importado contiene los siguientes datos:
 
    * Fecha de transacción
    * Dirección de correo electrónico del cliente
-   * Código de producto comprado
+   * Código del producto comprado
    ```
    date;client;product
    2015-05-19 09:00:00;mail1@email.com;ZZ1
@@ -99,29 +97,29 @@ El flujo de trabajo está formado por las siguientes actividades:
    2015-05-19 09:06:00;mail9@email.com;ZZ6
    ```
 
-* **[!UICONTROL Reconciliation]** Actividad que enlaza los datos de compra a perfiles de base de datos y productos. Por lo tanto, es necesario definir una relación entre los datos del archivo y la tabla de perfil, así como la tabla del producto. This configuration is carried out in the activity's **[!UICONTROL Relations]** tab:
+* Una **[!UICONTROL Reconciliation]** actividad para enlazar datos de compra a perfiles de base de datos, así como a productos. Por lo tanto, es necesario definir una relación entre los datos del archivo y la tabla del perfil, así como la tabla del producto. Esta configuración se realiza en la **[!UICONTROL Relations]** ficha de la actividad:
 
-   * Relation with the **Profiles**: the file's **client** column is linked to the **email** field of the **Profiles** dimension.
-   * Relation with the **Products**: the file's **product** column is linked to the **productCode** field of the **Profiles** dimension.
+   * Relación con los **perfiles**: la columna **cliente** del archivo está vinculada al campo de **correo electrónico** de la dimensión **Perfiles** .
+   * Relación con los **productos**: la columna de **producto** del archivo está vinculada al campo **productCode** de la dimensión **Perfiles** .
    Las columnas se agregan a los datos de entrada para hacer referencia a las claves externas de las dimensiones vinculadas.
 
    ![](assets/reconciliation_example3.png)
 
-* An **[!UICONTROL Update data]** activity allows you to define the database fields to update using the imported data. As the data was already identified as belonging to the **Transactions** dimension in the previous activity, here you can use the **[!UICONTROL Directly using the targeting dimension]** identification option.
+* Una **[!UICONTROL Update data]** actividad permite definir los campos de la base de datos que se actualizarán con los datos importados. Como los datos ya se identificaron como pertenecientes a la dimensión **Transacciones** en la actividad anterior, aquí puede utilizar la opción de **[!UICONTROL Directly using the targeting dimension]** identificación.
 
-   By using the option that automatically detects fields to update, the links configured in the previous activity (to profiles and products) are added to the list of **[!UICONTROL Fields to update]**. También debe asegurarse de que el campo correspondiente a la fecha de transacción se agregue correctamente a esta lista.
+   Mediante la opción que detecta automáticamente los campos que se van a actualizar, los vínculos configurados en la actividad anterior (a perfiles y productos) se agregan a la lista de **[!UICONTROL Fields to update]**. También debe asegurarse de que el campo que corresponde a la fecha de transacción se agrega correctamente a esta lista.
 
    ![](assets/reconciliation_example5.png)
 
    ![](assets/reconciliation_example4.png)
 
-## Example 2: Identification {#example-2--identification}
+## Ejemplo 2: Identificación {#example-2--identification}
 
-El siguiente ejemplo muestra un flujo de trabajo que crea una audiencia de perfiles directamente desde un archivo importado que contiene nuevos clientes. Consta de las siguientes actividades:
+En el siguiente ejemplo se muestra un flujo de trabajo que crea una audiencia de perfiles directamente desde un archivo importado que contiene nuevos clientes. Se compone de las siguientes actividades:
 
 ![](assets/identification_example2.png)
 
-* **[!UICONTROL Load file]** Actividad que carga y detecta los datos del archivo que se va a importar. El archivo importado contiene los siguientes datos:
+* Una **[!UICONTROL Load file]** actividad que carga y detecta los datos del archivo que se va a importar. El archivo importado contiene los siguientes datos:
 
    ```
    lastname;firstname;email;dateofbirth
@@ -136,11 +134,11 @@ El siguiente ejemplo muestra un flujo de trabajo que crea una audiencia de perfi
    tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
    ```
 
-* **[!UICONTROL Reconciliation]** Una actividad que vincula cada columna del archivo cargado a una columna de dimensión de perfil. Los registros de archivos que no se pueden identificar (falta datos, tipo de datos incompatible, etc.) se omiten para preservar la integridad de los datos de audiencia finales.
+* Una **[!UICONTROL Reconciliation]** actividad que vincula cada columna del archivo cargado con una columna de dimensión de perfil. Los registros de archivos que no se pueden identificar (falta datos, tipo de datos incompatible, etc.) se ignoran para preservar la integridad de los datos de audiencia final.
 
    ![](assets/identification_example1.png)
 
-* **[!UICONTROL Save audience]** Actividad que guarda la audiencia de perfiles.
+* Una **[!UICONTROL Save audience]** actividad que guarda la audiencia de perfiles.
 
    ![](assets/identification_example3.png)
 
