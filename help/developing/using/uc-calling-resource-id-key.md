@@ -1,15 +1,13 @@
 ---
-title: Llamar a un recurso mediante una clave de identificación compuesta
-seo-title: Llamar a un recurso mediante una clave de identificación compuesta
-description: Llamar a un recurso mediante una clave de identificación compuesta
-seo-description: Obtenga información sobre cómo llamar a un recurso mediante una clave de identificación compuesta
+title: Invocación de un recurso mediante una clave de identificación compuesta
+description: Obtenga información sobre cómo llamar a un recurso mediante una clave de identificación compuesta
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Llamar a un recurso mediante una clave de identificación compuesta{#calling-a-resource-using-a-composite-identification-key}
+# Invocación de un recurso mediante una clave de identificación compuesta{#calling-a-resource-using-a-composite-identification-key}
 
 En algunos casos, es posible que necesite definir para un recurso una clave de identificación compuesta por dos campos. Una vez configurada la clave de identificación, debe configurar una definición de filtro para poder llamar al recurso con esta clave de identificación, ya sea desde la interfaz de Campaign Standard o las API.
 
