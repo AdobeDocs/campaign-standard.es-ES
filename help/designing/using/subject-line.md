@@ -1,9 +1,7 @@
 ---
-title: Defining the subject line and the sender of an email
-seo-title: Defining the subject line and the sender of an email
-description: Defining the subject line and the sender of an email
-seo-description: Discover how to define the subject line and the sender of an email in the Email Designer.
-page-status-flag: never-activated
+title: Definición de la línea de asunto y del remitente de un correo electrónico
+description: Descubra cómo definir la línea de asunto y el remitente de un correo electrónico en el Diseñador de correo electrónico.
+page-status-flag: nunca activado
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5847c89b97ede8b03e75d1d90f31c88ed5c8a84e
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -53,7 +51,7 @@ Esta función está deshabilitada de forma predeterminada. Se activa cuando se i
 
 >[!NOTE]
 >
->Esta función está disponible para los mensajes de correo electrónico y para las bases de datos que solo contienen contenido en inglés. The trained model will be inconsistent and will lead to erroneous results if your instance contains emails in other languages. La opción que permite probar un asunto solo está visible si ya hay un modelo disponible en la instancia.
+>Esta función está disponible para los mensajes de correo electrónico y para las bases de datos que solo contienen contenido en inglés. El modelo entrenado será incoherente y dará lugar a resultados erróneos si la instancia contiene correos electrónicos en otros idiomas. La opción que permite probar un asunto solo está visible si ya hay un modelo disponible en la instancia.
 
 **Tema relacionado**
 
@@ -69,9 +67,9 @@ Para definir el nombre del remitente que aparecerá en el encabezado de los mens
 
    Puede cambiar el nombre del remitente haciendo clic en el bloque de nombre **del** remitente. A continuación, el campo se puede editar y puede introducir el nombre que desee utilizar.
 
-   Este campo se puede personalizar. To do this, you can add personalization fields, content blocks and dynamic content by clicking the icons below the sender name.
+   Este campo se puede personalizar. Para ello, puede agregar campos de personalización, bloques de contenido y contenido dinámico haciendo clic en los iconos situados debajo del nombre del remitente.
 
-* The **[!UICONTROL From: email address]** field cannot be edited from this section. You can change it by editing the properties of the email from its dashboard. For more information, see [List of email advanced parameters](../../administration/using/configuring-email-channel.md#advanced-parameters).
+* El **[!UICONTROL From: email address]** campo no se puede editar desde esta sección. Puede cambiarlo editando las propiedades del correo electrónico desde su tablero. Para obtener más información, consulte [Lista de parámetros](../../administration/using/configuring-email-channel.md#advanced-parameters)avanzados de correo electrónico.
 
 >[!NOTE]
 >
@@ -80,5 +78,5 @@ Para definir el nombre del remitente que aparecerá en el encabezado de los mens
 **Temas relacionados:**
 
 * [Inserción de un campo personalizado](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [Adding a content block](../../designing/using/personalization.md#adding-a-content-block)
-* [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
+* [Adición de un bloque de contenido](../../designing/using/personalization.md#adding-a-content-block)
+* [Definición de contenido dinámico en un correo electrónico](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
