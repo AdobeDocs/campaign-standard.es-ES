@@ -1,34 +1,32 @@
 ---
-title: Seguimiento, supervisión e informes
-seo-title: Seguimiento, supervisión e informes
-description: Seguimiento, supervisión e informes
-seo-description: Conozca cómo rastrear los mensajes y comprenda el comportamiento de sus clientes enriqueciendo sus datos de perfil. Con Adobe Campaign, utilice las herramientas de generación de informes y análisis para capitalizar cada nueva campaña.
-page-status-flag: no activado nunca
-uuid: 09592947-e 65 f -4 be 4-b 39 f -1 e 0 c 9 f 6 d 014 b
+title: Seguimiento, supervisión y presentación de informes
+description: Conozca cómo rastrear mensajes y comprender el comportamiento de sus clientes enriqueciendo sus datos de perfil. Con Adobe Campaign, utilice las herramientas de informes y análisis para capitalizar cada nueva campaña.
+page-status-flag: nunca activado
+uuid: 09592947-e65f-4be4-b39f-1e0c9f6d014b
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: reference
+content-type: referencia
 topic-tags: about-adobe-campaign
-discoiquuid: fc 9 b 08 e 8-74 e 5-45 f 6-b 484-90 f 6 b 3161030
+discoiquuid: fc9b08e8-74e5-45f6-b484-90f6b3161030
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Tracking, monitoring and reporting{#tracking-monitoring-and-reporting}
+# Seguimiento, supervisión y presentación de informes{#tracking-monitoring-and-reporting}
 
-Además de las potentes plantillas de informes predeterminadas, Adobe Campaign permite crear informes personalizados sobre un nivel de entrega, campaña, usuario o segmento. Rastree los mensajes y comprenda el comportamiento de sus clientes enriqueciendo de forma progresiva sus datos de perfil. Las herramientas de informes y análisis permiten capitalizar cada nueva campaña, dirigir mejor sus acciones de mercadotecnia y optimizar su impacto y retorno de la inversión.
+Además de las potentes plantillas de informes listas para usar, Adobe Campaign permite crear informes personalizados sobre una entrega, campaña, usuario o segmento. Rastree sus mensajes y comprenda el comportamiento de sus clientes enriqueciendo progresivamente sus datos de perfil. Las herramientas de informes y análisis le permiten capitalizar cada nueva campaña, dirigir mejor sus acciones de mercadotecnia y optimizar su impacto y retorno en la inversión.
 
-La interfaz gráfica proporciona un acceso rápido y fácil a los indicadores principales y las estadísticas de entrega.
+La interfaz gráfica proporciona un acceso rápido y fácil a los principales indicadores y estadísticas de entrega.
 
 ![](assets/dynamic_report_intro.png)
 
-La interfaz de usuario de informes de campaña facilita la creación de informes dinámicos. Puede utilizar las variables de arrastrar y soltar para personalizar los informes y analizar el éxito de las campañas. Según la complejidad de las consultas y los cálculos, los datos pueden agregarse en una vista de lista o accederse a ellos en un formato que simplifique la generación de informes de análisis de marketing.
+La interfaz de usuario de informes de campaña facilita la creación de informes dinámicos. Puede utilizar las variables de arrastrar y soltar para personalizar los informes y analizar el éxito de las campañas. Según la complejidad de sus consultas y cálculos, los datos pueden agregarse a una vista de lista o accederse a ellos en un formato que facilite la generación de informes de análisis de marketing.
 
-For more information on reports, refer to the [Accessing reports](../../reporting/using/about-dynamic-reports.md) section.
+Para obtener más información sobre los informes, consulte la sección [Acceso a los informes](../../reporting/using/about-dynamic-reports.md) .
 
-Con Adobe Campaign, puede supervisar y rastrear cada entrega individualmente. El panel de mensajes muestra registros dedicados a procesos y reglas de seguimiento, e identifica posibles errores y advertencias. For more about delivery monitoring, refer to the [Monitoring a delivery](../../sending/using/monitoring-a-delivery.md) section. Tracking principles and capabilities are presented in the [Tracking messages](../../sending/using/tracking-messages.md) section.
+Con Adobe Campaign, puede supervisar y rastrear cada entrega de forma individual. El tablero de mensajes muestra registros dedicados a procesos de seguimiento, reglas e identifica posibles errores y advertencias. Para obtener más información sobre la supervisión de envíos, consulte la sección [Monitoreo de envíos](../../sending/using/monitoring-a-delivery.md) . Los principios y capacidades de seguimiento se presentan en la sección [Seguimiento de mensajes](../../sending/using/tracking-messages.md) .
