@@ -1,8 +1,6 @@
 ---
 title: Modos de texto sin formato y HTML
-seo-title: Modos de texto sin formato y HTML
-description: Modos de texto sin formato y HTML
-seo-description: Descubra los modos de texto sin formato y HTML
+description: Descubra los modos de texto sin formato y HTML
 page-status-flag: nunca activado
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2045c69398902a8e942e20c70287d7f3e9570837
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
