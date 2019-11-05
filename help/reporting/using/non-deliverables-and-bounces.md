@@ -1,37 +1,35 @@
 ---
-title: Elementos no entregados y devoluciones
-seo-title: Elementos no entregados y devoluciones
-description: Elementos no entregados y devoluciones
-seo-description: 'Con los elementos no entregados y rebote el informe predeterminado, obtenga información sobre los errores que pueden producirse en su entrega. '
-page-status-flag: no activado nunca
-uuid: b 70 ae 9 ec-b 659-42 bf-b 663-73615307005 b
+title: Rechazos y no entregables
+description: 'Con el informe No entregables y devoluciones listas para usar, conozca los errores que pueden producirse en el envío. '
+page-status-flag: nunca activado
+uuid: b70ae9ec-b659-42bf-b663-73615307005b
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: informes
-content-type: reference
+content-type: referencia
 topic-tags: lista de informes
-discoiquuid: 3567 f 9 f 9-ef 57-441 c -8844-198 bbf 962 c 9 d
-context-tags: Deliverynondeliverablesbouncesreport, main; Campaignnondeliverablesbouncesreport, main; Programnondeliverablesbouncesreport, main
+discoiquuid: 3567f9f9-ef57-441c-8844-198bbf962c9d
+context-tags: deliveryNonDeliveryBouncesReport,main;campaignNonDeliveryBouncesReport,main;programNonDeliveryBouncesReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Non-deliverables and bounces{#non-deliverables-and-bounces}
+# Rechazos y no entregables{#non-deliverables-and-bounces}
 
-**[!UICONTROL Non-deliverables and bounces]** El informe proporciona detalles sobre todos los errores encontrados durante la entrega.
+El **[!UICONTROL Non-deliverables and bounces]** informe proporciona detalles sobre todos los errores encontrados durante una entrega.
 
 ![](assets/delivery_reports_7.png)
 
-The **[!UICONTROL Overview]** table contains the data available regarding the possible errors that may be encountered for each delivery, such as:
+La **[!UICONTROL Overview]** tabla contiene los datos disponibles sobre los posibles errores encontrados en cada entrega, como:
 
 * **Procesado/enviado**: Número de correos electrónicos enviados.
-* **Entregado**: Número de correos electrónicos entregados.
-* **Devolución suave**: El número total de errores temporales, como una bandeja de entrada completa.
-* **Devolución dura**: El número total de errores permanentes, como una dirección de correo electrónico incorrecta.
-* **Devoluciones + Errores**: Cantidad de mensajes que no se pudieron entregar.
+* **Enviado**: Número de correos electrónicos enviados.
+* **Devolución** suave: Número total de errores temporales, como una bandeja de entrada completa.
+* **Rebotes** duros: Número total de errores permanentes, como una dirección de correo electrónico incorrecta.
+* **Devoluciones + Errores**: Número de mensajes que no se pudieron entregar.
 
-The **Breakdown by domain** table lists the bounces per recipients' domains.
+La tabla **Desglosar por dominio** muestra las devoluciones por dominios de los destinatarios.
