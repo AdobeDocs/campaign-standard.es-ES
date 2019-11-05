@@ -1,35 +1,33 @@
 ---
-title: URL y pulsaciones de clics
-seo-title: URL y pulsaciones de clics
-description: URL y pulsaciones de clics
-seo-description: Con las URL y haga clic en el informe predeterminado, obtenga información sobre el éxito de las URL en sus envíos.
-page-status-flag: no activado nunca
-uuid: 712 b 26 b 2-3 b 4 b -487 c -8 d 47-e 56 dc 34609 a 4
+title: URL y flujos de clics
+description: Con las direcciones URL y haga clic en los flujos de informes predeterminados, conozca el éxito de las direcciones URL en los envíos.
+page-status-flag: nunca activado
+uuid: 712b26b2-3b4b-487c-8d47-e56dc34609a4
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: informes
-content-type: reference
+content-type: referencia
 topic-tags: lista de informes
-discoiquuid: 9349 de 98-6 b 77-4 d 1 c-b 2 fe-cf 44 cdcd 07 ce
-context-tags: Deliverytopurlreport, main; Campaigntopurlreport, main; Programtopurlreport, principal
+discoiquuid: 9349de98-6b77-4d1c-b2fe-cf44cdcd07ce
+context-tags: deliveryTopUrlReport,main;campaignTopUrlReport,main;programTopUrlReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# URLs and click streams{#urls-and-click-streams}
+# URL y flujos de clics{#urls-and-click-streams}
 
-**Las direcciones URL y los flujos** de clics muestran las direcciones URL que más se hicieron clic durante una entrega, o bien varios envíos si están vinculados a una campaña o programa.
+Las **direcciones URL y los flujos** de clics muestran las direcciones URL en las que se hizo más clic durante un envío o varios envíos si están vinculados a una campaña o programa.
 
 ![](assets/delivery_reports_8.png)
 
-Cada tabla está representada por números de resumen y gráficos. Puede cambiar cómo se muestran los detalles en sus respectivas configuraciones de visualización.
+Cada tabla está representada por números de resumen y gráficos. Puede cambiar la forma en que se muestran los detalles en sus respectivas configuraciones de visualización.
 
-The **Most visited links** table contains the available data for recipient behavior per delivery, such as:
+La tabla de vínculos **** más visitados contiene los datos disponibles sobre el comportamiento del destinatario por entrega, como por ejemplo:
 
-* **Haga clic** en: Número de veces que se hizo clic en el contenido en una entrega.
-* **Clics únicos**: El número de destinatarios que hicieron clic en el contenido de una entrega.
+* **Haga clic**: Número de veces que se hizo clic en el contenido en una entrega.
+* **Clics**&#x200B;únicos: El número de destinatarios que hicieron clic en el contenido de una entrega.
 
