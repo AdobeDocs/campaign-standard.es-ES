@@ -1,8 +1,6 @@
 ---
 title: Acerca de los perfiles
-seo-title: Acerca de los perfiles
-description: Acerca de los perfiles
-seo-description: Los contactos se almacenan como perfiles en la base de datos de Campaign y se actualizan durante todo su ciclo de vida.
+description: Los contactos se almacenan como perfiles en la base de datos de Campaign y se actualizan durante todo su ciclo de vida.
 page-status-flag: nunca activado
 uuid: 087f91a4-6e69-488e-9aa0-424d23d396ed
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: destinatario,información general
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
