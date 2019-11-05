@@ -1,8 +1,6 @@
 ---
 title: Diseño de contenido en Adobe Campaign
-seo-title: Diseño de contenido en Adobe Campaign
-description: Diseño de contenido en Adobe Campaign
-seo-description: Obtenga información sobre todos los elementos que puede definir en su contenido con Adobe Campaign.
+description: Obtenga información sobre todos los elementos que puede definir en su contenido con Adobe Campaign.
 page-status-flag: nunca activado
 uuid: 8f73407f-ab90-46bc-aeb6-bd87fcb0404c
 contentOwner: sauviat
@@ -14,12 +12,12 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Diseñador de correo electrónico de campaña{#designing-content-in-adobe-campaign}
+# Diseñador de correos electrónicos de Campaign{#designing-content-in-adobe-campaign}
 
 Una vez creado un correo electrónico en Adobe Campaign, debe definir su contenido.
 
