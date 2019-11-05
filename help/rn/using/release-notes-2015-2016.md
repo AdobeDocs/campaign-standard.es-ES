@@ -1,8 +1,6 @@
 ---
 title: Notas de la versión 2015-2016
-seo-title: Notas de la versión 2015-2016
-description: Notas de la versión 2015-2016
-seo-description: Esta página enumera todas las versiones de 2015 y 2016 de Adobe Campaign Standard.
+description: Esta página enumera todas las versiones de 2015 y 2016 de Adobe Campaign Standard.
 page-status-flag: nunca activado
 uuid: d5a0f6cc-0bed-46cf-8dff-1717fb624f8f
 contentOwner: sauviat
@@ -14,12 +12,12 @@ discoiquuid: a3ce6b80-1858-49d1-8880-3543181127f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Release Notes 2015-2016{#release-notes}
+# Notas de la versión 2015-2016{#release-notes}
 
 ¿Busca una versión específica de Adobe Campaign Standard para 2015-2016?
 
@@ -135,7 +133,7 @@ Vea las últimas actualizaciones [de](../../rn/using/documentation-updates.md) d
 * Se ha corregido un problema que impedía que se mostraran los filtros predefinidos al editar la audiencia de una notificación push basada en la plantilla **[!UICONTROL Send via push notification]** (mobileApp).
 * La pantalla de configuración de la aplicación móvil ( **[!UICONTROL Administration > Channels > Push Notification > Mobile applications]** ) ahora muestra un mensaje para indicar que la plataforma iOS o Android se ha creado correctamente.
 
-#### Páginas de destino {#landing-pages}
+#### Páginas de aterrizaje {#landing-pages}
 
 * Se han corregido problemas que evitaban que se enviaran correos electrónicos de confirmación al enviar un formulario de página de aterrizaje.
 
@@ -316,7 +314,7 @@ Vea las últimas actualizaciones [de](../../rn/using/documentation-updates.md) d
 * La ventana de definición agregada, que se muestra al agregar datos adicionales, se ha mejorado para ofrecer únicamente opciones compatibles con los datos en uso (por ejemplo: solo es posible calcular una media para datos numéricos).
 * Ahora, el inicio o reinicio de un flujo de trabajo técnico integrado solo puede realizarlo un usuario con derechos de administración.
 
-#### Páginas de destino {#landing-pages-1}
+#### Páginas de aterrizaje {#landing-pages-1}
 
 * Se ha corregido un error que podía truncar las claves de codificación AES de 32 bits en las propiedades de una página de aterrizaje.
 * Se ha corregido un error que impedía que el editor de consultas se mostrara correctamente al definir una condición de visibilidad o al agregar contenido dinámico a una página de aterrizaje.
@@ -453,7 +451,7 @@ Vea las últimas actualizaciones [de](../../rn/using/documentation-updates.md) d
 * Se ha corregido un error que impedía que un campo de personalización se insertara en una actividad de entrega de un flujo de trabajo si el flujo de trabajo no se guardaba después de agregar la actividad.
 * Se ha corregido un error que impedía que se mostrara la dimensión de segmentación de transición de salida de una actividad de envío de correo electrónico.
 
-#### Páginas de destino {#landing-pages-2}
+#### Páginas de aterrizaje {#landing-pages-2}
 
 * Se ha corregido un error que impedía que los campos de personalización funcionaran correctamente en un bloque de contenido localizable en una página de aterrizaje.
 
@@ -611,7 +609,7 @@ Vea las últimas actualizaciones [de](../../rn/using/documentation-updates.md) d
 
 * Se ha corregido un error que podía hacer que se mostrara indeseablemente un icono o una barra de búsqueda al editar contenido.
 
-#### Páginas de destino {#landing-pages-3}
+#### Páginas de aterrizaje {#landing-pages-3}
 
 * Se ha corregido un error que impedía importar una página de aterrizaje mediante una importación de paquete.
 
@@ -667,7 +665,7 @@ Vea las últimas actualizaciones [de](../../rn/using/documentation-updates.md) d
 * **Los datos flotantes** ahora se tienen correctamente en cuenta en los recursos personalizados.
 * Se corrigió un error de visualización en la lista de importaciones simplificadas ejecutadas que se producía cuando se había modificado el estado de la plantilla correspondiente.
 
-#### Páginas de destino {#landing-pages-4}
+#### Páginas de aterrizaje {#landing-pages-4}
 
 * Se corrigieron ciertos elementos de las plantillas de página de aterrizaje que podían mostrarse incorrectamente en francés en instancias en inglés.
 
@@ -766,7 +764,7 @@ Vea las últimas actualizaciones [de](../../rn/using/documentation-updates.md) d
 * Se ha corregido un error que podía provocar un retraso de 15 minutos en la escritura de determinados registros.
 * Se ha corregido un error que podía impedir que se mostrara la lista de actividades de marketing al ordenarla por las **[!UICONTROL Date]** columnas o **[!UICONTROL Indicators]** .
 
-#### Páginas de destino {#landing-pages-5}
+#### Páginas de aterrizaje {#landing-pages-5}
 
 * Se corrigió un error que se producía al seleccionar un perfil de prueba para obtener una vista previa de una página de aterrizaje.
 
@@ -913,7 +911,7 @@ Vea las últimas actualizaciones [de](../../rn/using/documentation-updates.md) d
 
 * Se ha corregido un error que impedía comprobar los errores de sintaxis de JavaScript antes de enviar un correo electrónico cuando se agregaba contenido dinámico mediante el editor de expresiones.
 
-#### Páginas de destino {#landing-pages-6}
+#### Páginas de aterrizaje {#landing-pages-6}
 
 * Se corrigió un error que impedía que una página de aterrizaje se editara desde una tablet.
 
@@ -992,7 +990,7 @@ Vea las últimas actualizaciones [de](../../rn/using/documentation-updates.md) d
 * Se ha corregido un error que impedía que los botones **[!UICONTROL Edit properties]** y **[!UICONTROL Show proofs]** se usaran en tablets de Microsoft Surface Pro3 con Internet Explorer 11.
 * Se ha corregido un error que podía impedir que se mostraran los registros de envío de un correo electrónico.
 
-#### Páginas de destino {#landing-pages-7}
+#### Páginas de aterrizaje {#landing-pages-7}
 
 * Se ha corregido un error que impedía que el bloque de contenido del logotipo **de** marca se utilizara al editar contenido en una página de aterrizaje.
 * Se corrigió un error que impedía que las páginas de aterrizaje se mostraran en la lista de actividades de marketing si se especificaban fechas de validez para la página de aterrizaje.
