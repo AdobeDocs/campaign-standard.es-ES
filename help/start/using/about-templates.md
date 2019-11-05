@@ -1,8 +1,6 @@
 ---
 title: Acerca de las plantillas
-seo-title: Acerca de las plantillas
-description: Acerca de las plantillas
-seo-description: '"Las plantillas de Adobe Campaign le permiten preconfigurar parámetros según sus necesidades: las plantillas pueden contener una configuración completa o parcial de la actividad de marketing para simplificar el uso de Adobe Campaign para usuarios finales no técnicos."'
+description: '"Las plantillas de Adobe Campaign le permiten preconfigurar parámetros según sus necesidades: las plantillas pueden contener una configuración completa o parcial de la actividad de marketing para simplificar el uso de Adobe Campaign para usuarios finales no técnicos."'
 page-status-flag: nunca activado
 uuid: 018534b6-61a3-433e-bb60-49883c8b9386
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 95218ebe-5430-42a2-b900-1dadbc92d99
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -40,7 +38,7 @@ Las plantillas están disponibles para las siguientes actividades de marketing:
 * Envíos por correo electrónico
 * Entregas de SMS
 * Notificaciones push
-* Páginas de destino
+* Páginas de aterrizaje
 * Flujos de trabajo
 * Servicios
 * Importar
