@@ -1,31 +1,29 @@
 ---
 title: Flujos de trabajo técnicos
-seo-title: Flujos de trabajo técnicos
-description: Flujos de trabajo técnicos
-seo-description: Los flujos de trabajo técnicos son flujos de trabajo integrados diseñados para gestionar procesos técnicos en segundo plano en Adobe Campaign, lo que asegura el correcto comportamiento de la plataforma.
-page-status-flag: no activado nunca
-uuid: 6 e 763 dc 1-e 1 d 3-4 d 94-bc 0 b-ef 5 b 1703 d 8 e 5
+description: Los flujos de trabajo técnicos son flujos de trabajo integrados diseñados para gestionar los procesos técnicos en segundo plano en Adobe Campaign, lo que garantiza un comportamiento correcto de la plataforma.
+page-status-flag: nunca activado
+uuid: 6e763dc1-e1d3-4d94-bc0b-ef5b1703d8e5
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: administración
-content-type: reference
-topic-tags: app-settings
-discoiquuid: e 9 f 147 bd -6 a 5 b -4 b 82-b 9 bb -311 e 38 e 22 c 62
+content-type: referencia
+topic-tags: application-settings
+discoiquuid: e9f147bd-6a5b-4b82-b9bb-311e38e22c62
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2541b6dadd005c74d6bb737a0e3692e63a5b85db
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Technical workflows{#technical-workflows}
+# Flujos de trabajo técnicos{#technical-workflows}
 
-Los flujos de trabajo técnicos se entregan directamente con Adobe Campaign. Los flujos de trabajo técnicos son operaciones o trabajos programados para ejecutarse con regularidad en el servidor.
+Los flujos de trabajo técnicos se entregan de forma predeterminada con Adobe Campaign. Los flujos de trabajo técnicos son operaciones o trabajos programados para ejecutarse de forma regular en el servidor.
 
-Permiten llevar a cabo operaciones de mantenimiento en la base de datos, aprovechar la información de seguimiento en los envíos y actualizar los trabajos provisionales en los envíos.
+Permiten realizar operaciones de mantenimiento en la base de datos, aprovechar la información de seguimiento de los envíos y actualizar los trabajos provisionales de los envíos.
 
-Functional administrators can access technical workflows under the **[!UICONTROL Administration > Application settings > Workflows]** menu.
+Los administradores funcionales pueden acceder a los flujos de trabajo técnicos en el **[!UICONTROL Administration > Application settings > Workflows]** menú.
 
 >[!NOTE]
 >
@@ -33,9 +31,9 @@ Functional administrators can access technical workflows under the **[!UICONTROL
 
 ![](assets/technical_workflows.png)
 
-## List of technical workflows {#list-of-technical-workflows}
+## Lista de flujos de trabajo técnicos {#list-of-technical-workflows}
 
-Los flujos de trabajo técnicos se utilizan para gestionar los procesos técnicos y de fondo autoactivados en Adobe Campaign.
+Los flujos de trabajo técnicos se utilizan para gestionar procesos técnicos y de fondo autoactivados en Adobe Campaign.
 
 <table> 
  <tbody> 
@@ -45,79 +43,79 @@ Los flujos de trabajo técnicos se utilizan para gestionar los procesos técnico
    <td> <strong>Descripción</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Pruebas A/B</span><br /> </td> 
-   <td> <span class="uicontrol">Abtesting</span><br /> </td> 
-   <td> Este flujo de trabajo analiza los registros de seguimiento de cada variante. Al finalizar el período de prueba A/B, calcula automáticamente la variante ganadora. By default, it is started every day.<br /> </td> 
+   <td> <span class="uicontrol">Prueba</span> A/B <br /> </td> 
+   <td> <span class="uicontrol">abTesting</span><br /> </td> 
+   <td> Este flujo de trabajo analiza los registros de seguimiento de cada variante. Al final del período de prueba A/B, calcula automáticamente la variante ganadora. De forma predeterminada, se inicia todos los días.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Facturación</span><br /> </td> 
    <td> <span class="uicontrol">facturación</span><br /> </td> 
-   <td> Este flujo de trabajo envía el informe de actividad del sistema al usuario de facturación por correo electrónico. By default, it is automatically started every day at 1am.<br /> </td> 
+   <td> Este flujo de trabajo envía el informe de actividad del sistema al usuario de "facturación" por correo electrónico. De forma predeterminada, se inicia automáticamente todos los días a la 1 de la mañana.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Limpieza de base de datos</span><br /> </td> 
+   <td> <span class="uicontrol">Limpieza</span> de bases de datos <br /> </td> 
    <td> <span class="uicontrol">limpiar</span><br /> </td> 
-   <td> Este flujo de trabajo es el flujo de trabajo de mantenimiento de la base de datos: ejecuta diferentes estadísticas y procesos, y elimina los datos obsoletos de la base de datos según la configuración definida. By default, it is automatically started every day 4am.<br /> </td> 
+   <td> Este flujo de trabajo es el flujo de trabajo de mantenimiento de la base de datos: ejecuta diferentes estadísticas y procesos, y elimina datos obsoletos de la base de datos según la configuración que se haya definido. De forma predeterminada, se inicia automáticamente todos los días a las 4 de la mañana.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Previsión</span><br /> </td> 
    <td> <span class="uicontrol">previsión</span><br /> </td> 
-   <td> Este flujo de trabajo ejecuta el análisis de los envíos almacenados en la previsión provisional (creación de registros provisionales). By default, it is started every day at 1am. <br /> </td> 
+   <td> Este flujo de trabajo ejecuta el análisis de las entregas almacenadas en la previsión provisional (creación de los registros provisionales). By default, it is started every day at 1am. <br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Importar una audiencia compartida</span><br /> </td> 
-   <td> <span class="uicontrol">Importsharedaudience</span><br /> </td> 
-   <td> Este flujo de trabajo sincroniza los datos de audiencia de Adobe Experience Cloud importados en Adobe Campaign. By default, it is started every hour.<br /> </td> 
+   <td> <span class="uicontrol">Importar una audiencia</span> compartida <br /> </td> 
+   <td> <span class="uicontrol">importSharedAudience</span><br /> </td> 
+   <td> Este flujo de trabajo sincroniza los datos de audiencia de Adobe Experience Cloud importados en Adobe Campaign. De forma predeterminada, se inicia cada hora.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Uso compartido de informes instantáneos</span><br /> </td> 
-   <td> <span class="uicontrol">Reportsendingnow</span><br /> </td> 
-   <td> Este flujo de trabajo se inicia tan pronto como se programe un informe. It converts your report into a pdf file then sends it in an email to the targeted recipients.<br /> </td> 
+   <td> <span class="uicontrol">Uso compartido</span> instantáneo de informes <br /> </td> 
+   <td> <span class="uicontrol">reportSendingNow</span><br /> </td> 
+   <td> Este flujo de trabajo se inicia en cuanto se programa el envío de un informe. Convierte el informe en un archivo pdf y, a continuación, lo envía por correo electrónico a los destinatarios objetivo.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Reconciliación de KPI con Adobe Analytics</span><br /> </td> 
-   <td> <span class="uicontrol">Kpireconciliación</span><br /> </td> 
-   <td> Este flujo de trabajo recoge los KPI del servicio de informes una vez al día y los compara con los datos de Adobe Analytics. A continuación, inserta la diferencia si es necesario. By default, it is started every day at 4.20am.<br /> </td> 
+   <td> <span class="uicontrol">Conciliación de KPI con Adobe Analytics</span><br /> </td> 
+   <td> <span class="uicontrol">kpiCompatibility</span><br /> </td> 
+   <td> Este flujo de trabajo obtiene los KPI del servicio de informes una vez al día y los compara con los datos de Adobe Analytics. Luego empuja la diferencia si es necesario. By default, it is started every day at 4.20am.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Administración de exclusiones NMAC</span><br /> </td> 
-   <td> <span class="uicontrol">Mobileappoptoutmgt</span><br /> </td> 
-   <td> Este flujo de trabajo actualiza las suscripciones a las notificaciones en dispositivos móviles. By default, it is started every 6 hours between 1am and midnight.<br /> </td> 
+   <td> <span class="uicontrol">Administración de las exclusiones</span> de NMAC <br /> </td> 
+   <td> <span class="uicontrol">mobileAppOptOutMgt</span><br /> </td> 
+   <td> Este flujo de trabajo actualiza las suscripciones a las notificaciones en dispositivos móviles. De forma predeterminada, se inicia cada 6 horas entre la 1 de la mañana y la medianoche.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Archivo local del Centro de mensajes</span><br /> </td> 
-   <td> <span class="uicontrol">Mcsynch_ local</span><br /> </td> 
-   <td> Este flujo de trabajo archiva eventos en tiempo real en una tabla histórica. By default, it is started every hour.<br /> </td> 
+   <td> <span class="uicontrol">Archiving</span> local del centro de mensajes <br /> </td> 
+   <td> <span class="uicontrol">mcSynch_local</span><br /> </td> 
+   <td> Este flujo de trabajo archiva los eventos en tiempo real en una tabla histórica. De forma predeterminada, se inicia cada hora.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Informes agregados</span><br /> </td> 
-   <td> <span class="uicontrol">Informes agregados</span><br /> </td> 
-   <td> Este flujo de trabajo actualiza los agregados utilizados en los informes. By default, it is automatically started at 2am.<br /> </td> 
+   <td> <span class="uicontrol">Agregados</span> de informes <br /> </td> 
+   <td> <span class="uicontrol">reportingAggregates</span><br /> </td> 
+   <td> Este flujo de trabajo actualiza los agregados utilizados en los informes. De forma predeterminada, se inicia automáticamente a las 2 de la mañana.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Compartir KPI con Adobe Analytics</span><br /> </td> 
-   <td> <span class="uicontrol">Kpisharing</span><br /> </td> 
-   <td> This workflow pushes KPI data every 15 minutes from Adobe Campaign Standard to Adobe Analytics.<br /> </td> 
+   <td> <span class="uicontrol">kpiSharing</span><br /> </td> 
+   <td> Este flujo de trabajo transfiere datos KPI cada 15 minutos de Adobe Campaign Standard a Adobe Analytics.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Actualización de la ejecución de entrega</span><br /> </td> 
-   <td> <span class="uicontrol">Updatedeliveryexecinfo</span><br /> </td> 
-   <td> Este flujo de trabajo actualiza el seguimiento de la entrega. By default, it is started every 10 minutes.<br /> </td> 
+   <td> <span class="uicontrol">Actualizar ejecución</span> de entrega <br /> </td> 
+   <td> <span class="uicontrol">updateDeliveryExecInfo</span><br /> </td> 
+   <td> Este flujo de trabajo actualiza el seguimiento del envío. De forma predeterminada, se inicia cada 10 minutos.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Actualizar los indicadores de entrega</span><br /> </td> 
-   <td> <span class="uicontrol">Updatedeliveryindicator</span><br /> </td> 
-   <td> Este flujo de trabajo actualiza los KPI de la entrega (indicador de rendimiento clave). By default, it is started every hour.<br /> </td> 
+   <td> <span class="uicontrol">Actualizar indicadores</span> de entrega <br /> </td> 
+   <td> <span class="uicontrol">updateDeliveryIndicators</span><br /> </td> 
+   <td> Este flujo de trabajo actualiza los KPI de entrega (Indicador de rendimiento clave). De forma predeterminada, se inicia cada hora.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Actualizar estado del evento</span><br /> </td> 
-   <td> <span class="uicontrol">Updateeventsstatus</span><br /> </td> 
-   <td> Este flujo de trabajo le permite atribuir un estado a un evento. The following event statuses are available:<br /> <strong>Pending</strong>: The event is in a queue. Todavía no se ha asignado ninguna plantilla de mensaje.<br /><span class="uicontrol">Entrega</span> pendiente: El evento se encuentra en la cola, se le asigna una plantilla de mensaje y se procesa mediante la entrega.<br /><strong>Enviado</strong>: Este estado se copia desde los registros de entrega. Significa que la entrega se envió.<br /><strong>Omitido por la entrega</strong>: Este estado se copia desde los registros de entrega. Significa que la entrega se ha omitido.<br /><strong>Falló la entrega</strong>: Este estado se copia desde los registros de entrega. Significa que la entrega ha fallado.<br /><span class="uicontrol">Evento no tenido en cuenta</span> : El evento no se pudo vincular a una plantilla de mensaje. The event will not be processed.<br /> </td> 
+   <td> <span class="uicontrol">Actualizar estado</span> del evento <br /> </td> 
+   <td> <span class="uicontrol">updateEventsStatus</span><br /> </td> 
+   <td> Este flujo de trabajo le permite atribuir un estado a un evento. <br /> Están disponibles los siguientes estados de eventos: <strong>Pendiente</strong>: El evento está en una cola. Aún no se le ha asignado ninguna plantilla de mensaje.<br /> Entrega <span class="uicontrol"></span> pendiente: El evento está en la cola, se le ha asignado una plantilla de mensaje y la entrega lo está procesando.<br /> <strong>Enviado</strong>: Este estado se copia de los registros de entrega. Significa que se envió la entrega.<br /> <strong>Omitido por la entrega</strong>: Este estado se copia de los registros de entrega. Significa que el envío se ha omitido.<br /> Error <strong>de entrega</strong>: Este estado se copia de los registros de entrega. Significa que el envío ha fallado.<br /> No se tiene en <span class="uicontrol">cuenta</span> el evento: El evento no se pudo vincular a una plantilla de mensaje. El evento no se va a procesar.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Actualización para la entrega</span><br /> </td> 
-   <td> <span class="uicontrol">Deliverabilityupdate</span><br /> </td> 
-   <td> Este flujo de trabajo permite crear la lista de reglas de calificación de reglas de devoluciones, así como la lista de dominios y MX en la plataforma. Este flujo de trabajo solo funciona si HTTPS está abierto. By default, it is automatically started at 2am.<br /> </td> 
+   <td> <span class="uicontrol">Actualización de la capacidad de entrega</span><br /> </td> 
+   <td> <span class="uicontrol">deliveryUpdate</span><br /> </td> 
+   <td> Este flujo de trabajo le permite crear la lista de reglas de cualificación de reglas de devolución, así como la lista de dominios y MX en la plataforma. Este flujo de trabajo solo funciona si el HTTPS está abierto. De forma predeterminada, se inicia automáticamente a las 2 de la mañana.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
