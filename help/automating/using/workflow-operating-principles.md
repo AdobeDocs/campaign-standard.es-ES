@@ -1,33 +1,31 @@
 ---
 title: Principios operativos del flujo de trabajo
-seo-title: Principios operativos del flujo de trabajo
-description: Principios operativos del flujo de trabajo
-seo-description: Conozca los principales aspectos de los flujos de trabajo.
-page-status-flag: no activado nunca
-uuid: 85755 e 85-617 b -4 a 9 b-bb 30-96 ba 8333 f 4 f 0 f
+description: Conozca los principales aspectos de los flujos de trabajo.
+page-status-flag: nunca activado
+uuid: 85755e85-617b-4a9b-bb30-96ba8333f4f0
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: automatizar
-content-type: reference
-topic-tags: acerca de los flujos de trabajo y gestión de datos
-discoiquuid: 3 a 13785 d -1 ef 7-4043-9927-2 d 495 b 83709 f
+content-type: referencia
+topic-tags: acerca de los flujos de trabajo y la administración de datos
+discoiquuid: 3a13785d-1ef7-4043-9927-2d495b83709f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Workflow operating principles{#workflow-operating-principles}
+# Principios operativos del flujo de trabajo{#workflow-operating-principles}
 
-A workflow is a **sequence of configurable activities**. Cada actividad tiene una función específica en el proceso. The result of each activity is forwarded to the following activity by a **transition**, represented by an arrow.
+Un flujo de trabajo es una **secuencia de actividades** configurables. Cada actividad tiene una función específica en el proceso. El resultado de cada actividad se reenvía a la siguiente actividad mediante una **transición**, representada por una flecha.
 
-El tipo de datos intercambiados entre una actividad y otro puede afectar a la configuración de las siguientes actividades. Por ejemplo, si una población se establece antes de la actividad de entrega de correo electrónico, puede servir como objetivo para el correo electrónico en cuestión.
+El tipo de datos intercambiados entre una actividad y otra puede afectar a la configuración de las siguientes actividades. Por ejemplo, si se establece una población antes de la actividad de envío de correo electrónico, puede servir como objetivo para el correo electrónico en cuestión.
 
 Puede abrir actividades para comprobar o editar parámetros antes o después de ejecutar el flujo de trabajo.
 
-Puede abrir transiciones para comprobar que los datos enviados son correctos durante o después de ejecutar el flujo de trabajo. To access the detail view of the transitions, you have to check the **[!UICONTROL Keep interim results]** option in the **[!UICONTROL Execution]** section of the workflow properties.
+Puede abrir transiciones para comprobar que los datos enviados son correctos durante o después de ejecutar el flujo de trabajo. Para acceder a la vista de detalles de las transiciones, debe comprobar la **[!UICONTROL Keep interim results]** opción en la **[!UICONTROL Execution]** sección de las propiedades del flujo de trabajo.
 
 ![](assets/workflow_overview.png)
 
