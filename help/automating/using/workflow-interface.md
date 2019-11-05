@@ -1,8 +1,6 @@
 ---
 title: Interfaz de flujo de trabajo
-seo-title: Interfaz de flujo de trabajo
-description: Interfaz de flujo de trabajo
-seo-description: Conozca la interfaz y las opciones para crear, editar y ejecutar un flujo de trabajo.
+description: Conozca la interfaz y las opciones para crear, editar y ejecutar un flujo de trabajo.
 page-status-flag: nunca activado
 uuid: aafe33ed-fa07-4dd9-825e-242099334f1a
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: flujo de trabajo,principal;flujo de trabajo,descripción general
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
