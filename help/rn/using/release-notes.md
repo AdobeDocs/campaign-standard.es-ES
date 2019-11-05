@@ -1,8 +1,6 @@
 ---
 title: Notas de la versión
-seo-title: Notas de la versión
-description: Notas de la versión
-seo-description: Esta página enumera todas las versiones recientes de Adobe Campaign Standard.
+description: Esta página enumera todas las versiones recientes de Adobe Campaign Standard.
 page-status-flag: nunca activado
 uuid: 1cf2e40c-beca-43db-8261-a1820ee86ad3
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 819f312b485494b87aec88952d23d933d43d5019
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -280,13 +278,13 @@ Tenga en cuenta que el Panel de control solo está disponible para clientes aloj
 
 ## Versión 19.2.4: junio de 2019 {#release-19-2-4---june-2019}
 
-### Diseñador de correo electrónico {#email-designer-2}
+### Email Designer {#email-designer-2}
 
 * Se ha corregido un problema que impedía a los usuarios editar fragmentos cuando se utilizaban etiquetas de estilo vacías en el HTML. Esta es una corrección de seguimiento para CAMP-33778 en 19.2.3.
 
 ## Versión 19.2.3: junio de 2019 {#release-19-2-3---june-2019}
 
-### Diseñador de correo electrónico {#email-designer-1}
+### Email Designer {#email-designer-1}
 
 Se ha introducido una serie de mejoras y correcciones para optimizar los fragmentos en la versión 19.2. Los fragmentos recién creados funcionarán sin problemas. Los fragmentos que se generaron anteriormente se han atenuado y deben migrarse al nuevo formato. Para ello, haga clic en cada fragmento y valide su migración al nuevo formato. Se recomienda probar algunos fragmentos antes de migrarlos todos.
 
@@ -581,7 +579,7 @@ Se han añadido varias mejoras al canal de mensajería Transactional para optimi
 * Se ha enriquecido la lista de países disponibles al definir la dirección de un perfil. (CAMP-26707)
 * Ahora aparece un mensaje de error al intentar importar un flujo de trabajo integrado.
 
-### Diseñador de correo electrónico {#email-designer}
+### Email Designer {#email-designer}
 
 * Se ha corregido un problema que habilitaba la capacidad de unidad geográfica en una plantilla de correo electrónico o un fragmento de contenido creado con el Diseñador de correo electrónico, aunque esta capacidad estuviera deshabilitada en Adobe Campaign, lo que hacía que la plantilla o el fragmento no estuviera disponible al intentar acceder de nuevo. (CAMP-28174)
 * Se ha corregido un problema que impedía guardar las condiciones de contenido dinámico al editar contenido con el Diseñador de correo electrónico. (CAMP-27905)
