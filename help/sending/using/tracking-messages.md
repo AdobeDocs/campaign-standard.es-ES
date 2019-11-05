@@ -1,8 +1,6 @@
 ---
 title: Seguimiento de mensajes
-seo-title: Seguimiento de mensajes
-description: Seguimiento de mensajes
-seo-description: Obtenga información sobre cómo rastrear el comportamiento de los destinatarios de la entrega.
+description: Obtenga información sobre cómo rastrear el comportamiento de los destinatarios de la entrega.
 page-status-flag: nunca activado
 uuid: c3721647-0663-4614-a9c9-3b3a40af328a
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 6fa50f0d-3dcf-4a9e-bccc-1ecda2bfb449
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -29,14 +27,14 @@ Puede informar a los usuarios de que sus sitios están equipados con herramienta
 
 Adobe Campaign utiliza dos tipos de cookies:
 
-* Una cookie de sesión (nlid). Contiene el identificador del correo electrónico enviado al contacto (widelogId) y el identificador de la plantilla de mensaje (deliveryId). Se agrega cuando el contacto hace clic en una dirección URL incluida en un correo electrónico enviado por Adobe Campaign y le permite realizar un seguimiento de su comportamiento en la web. Esta cookie de sesión se borra automáticamente cuando se cierra el explorador. El contacto puede configurar su explorador para que rechace las cookies.
+* Una cookie de sesión (nlid). Contiene el identificador del correo electrónico enviado al contacto (widelogId) y el identificador de la plantilla de mensaje (deliveryId). Se añade cuando el contacto hace clic en una dirección URL incluida en un correo electrónico enviado por Adobe Campaign y le permite hacer un seguimiento de su comportamiento en la web. Esta cookie de sesión se borra automáticamente cuando se cierra el explorador. El contacto puede configurar el explorador para que rechace las cookies.
 * Una cookie compartida entre las soluciones de Adobe Experience Cloud. Esto le permite identificar a los usuarios que interactúan con las soluciones de Experience Cloud cuando visitan un sitio web. La descripción de esta cookie está disponible aquí: [https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html).
 
-La información de seguimiento está disponible para cada contacto de la base de datos en **[!UICONTROL integrated customer profiles]**. For more on this, refer to [this section](../../audiences/using/integrated-customer-profile.md).
+La información de seguimiento está disponible para cada contacto de la base de datos en **[!UICONTROL integrated customer profiles]**. Para obtener más información, consulte [esta sección](../../audiences/using/integrated-customer-profile.md).
 
-## Registros de seguimiento {#tracking-logs}
+## “Logs” de seguimiento{#tracking-logs}
 
-La **[!UICONTROL Tracking logs]** ficha enumera el historial de seguimiento de este envío. Esta ficha muestra la información de seguimiento de los mensajes enviados, como todas las direcciones URL que Adobe Campaign ha rastreado. La información de seguimiento de esta ficha se actualiza cada 10 minutos.
+The **[!UICONTROL Tracking logs]** tab lists the tracking history for this delivery. Esta ficha muestra la información de seguimiento de los mensajes enviados, como todas las direcciones URL que Adobe Campaign ha rastreado. La información de seguimiento de esta ficha se actualiza cada 10 minutos.
 
 >[!NOTE]
 >
