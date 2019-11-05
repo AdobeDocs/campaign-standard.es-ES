@@ -1,8 +1,6 @@
 ---
 title: Perfil de cliente integrado
-seo-title: Perfil de cliente integrado
-description: Perfil de cliente integrado
-seo-description: '"Rastree la interacción de cada cliente en una sola vista: El perfil de cliente integrado de Adobe Campaign se actualiza durante todo el ciclo de vida del cliente".'
+description: '"Rastree la interacción de cada cliente en una sola vista: El perfil de cliente integrado de Adobe Campaign se actualiza durante todo el ciclo de vida del cliente".'
 page-status-flag: nunca activado
 uuid: da2eb13a-2268-4a99-939c-c6388f5d34f3
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: marketingHistory,principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
