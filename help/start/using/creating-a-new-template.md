@@ -1,8 +1,6 @@
 ---
 title: Creación de una nueva plantilla
-seo-title: Creación de una nueva plantilla
-description: Creación de una nueva plantilla
-seo-description: Obtenga información sobre cómo crear una nueva plantilla, a partir de plantillas de actividad integradas existentes para correo electrónico, SMS, envíos de notificaciones push, etc.
+description: Obtenga información sobre cómo crear una nueva plantilla, a partir de plantillas de actividad integradas existentes para correo electrónico, SMS, envíos de notificaciones push, etc.
 page-status-flag: nunca activado
 uuid: 26e368ae-06e1-4c11-9899-c23cc727d398
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: campaignTemplate,información general;deliveryTemplate,informació
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
