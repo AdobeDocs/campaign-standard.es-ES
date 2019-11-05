@@ -1,31 +1,29 @@
 ---
-title: Quejas
-seo-title: Quejas
-description: Quejas
-seo-description: Con el informe Predeterminado de quejas, infórmese de la cantidad de tiempo que se ha declarado como correo no deseado.
-page-status-flag: no activado nunca
-uuid: 9 a 973460-fda 1-4 eb 0-9 b 6 e-df 421 df 8 ca 02
+title: Reclamaciones
+description: Con el informe de quejas listo para usar, conozca la cantidad de tiempo que la entrega fue declarada como correo no deseado.
+page-status-flag: nunca activado
+uuid: 9a973460-fda1-4eb0-9b6e-df421df8ca02
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: informes
-content-type: reference
+content-type: referencia
 topic-tags: lista de informes
-discoiquuid: e 32 cfb 8 f-e 973-4 bf 2-a 7 f 9-e 99951 a 6 bfbd
-context-tags: Deliverycomplaintsreport, main; Campaigncompleaintsreport, main; Programcompleaintsreport, principal
+discoiquuid: e32cfb8f-e973-4bf2-a7f9-e99951a6bfbd
+context-tags: deliveryQuaintsReport,main;campaignQuaintsReport,main;programQuaintsReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Complaints{#complaints}
+# Reclamaciones{#complaints}
 
 El informe **[!UICONTROL Complaints]** identifica los envíos que reciben la mayoría de las declaraciones como correo no deseado.
 
 ![](assets/delivery_reports_complaints.png)
 
-The **Flop** table, sorted by recipient domain, displays the number of recipients that have declared an email or junk. Los resultados de la tabla también están disponibles en un gráfico y en un número de resumen.
+La tabla **Flop** , ordenada por dominio de destinatario, muestra el número de destinatarios que han declarado un correo electrónico o correo no deseado. Los resultados de la tabla también están disponibles en un gráfico y en números de resumen.
 
-The **Delivered vs Blacklisted rate** table lists the number of recipients that have declared an email as spam or junk. La tabla se ordena por entrega.
+La tabla de tasas **** entregadas vs. bloqueadas enumera el número de destinatarios que declararon un correo electrónico como correo no deseado o no deseado. La tabla se ordena por envío.
