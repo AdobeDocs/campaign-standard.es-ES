@@ -1,8 +1,6 @@
 ---
 title: '"Caso de uso del flujo de trabajo: Creación de entregas en la fecha de creación del perfil"'
-seo-title: '"Caso de uso del flujo de trabajo: Creación de entregas en la fecha de creación del perfil"'
 description: '"Caso de uso del flujo de trabajo: Creación de entregas en la fecha de creación del perfil"'
-seo-description: '"Caso de uso del flujo de trabajo: Creación de entregas en la fecha de creación del perfil"'
 page-status-flag: nunca activado
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: flujo de trabajo,caso de uso,consulta
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4a38b1f3d7d6dbf12fa71c819147bf2d91acb0c4
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -88,7 +86,7 @@ Se muestra la consulta final:
 
 ![](assets/expression_editor_1.png)
 
-## Creación de un envío de correo electrónico{#creating-an-email-delivery}
+## Creating an Email delivery{#creating-an-email-delivery}
 
 1. Arrastre y suelte un envío de correo electrónico.
 1. Haga clic en la actividad y seleccione ![](assets/edit_darkgrey-24px.png) editar.
@@ -105,6 +103,6 @@ Para obtener más información, consulte [Diseño de un correo electrónico](../
 **Temas relacionados:**
 
 * [Consulta](../../automating/using/query.md)
-* [Programador](../../automating/using/scheduler.md)
+* [Planificador](../../automating/using/scheduler.md)
 * [Envío de correo electrónico](../../automating/using/email-delivery.md)
 * [Canal de correo electrónico](../../channels/using/creating-an-email.md)
