@@ -1,27 +1,25 @@
 ---
-title: Control de cambios del modelo de datos
-seo-title: Control de cambios del modelo de datos
-description: Control de cambios del modelo de datos
-seo-description: Descubra cómo diagnosticar el modelo de datos de Adobe Campaign.
-page-status-flag: no activado nunca
-uuid: 994 f 1 e 85-107 d -4348-a 197-87 a 95853 fca 6
+title: Control de cambios en el modelo de datos
+description: Descubra cómo diagnosticar el modelo de datos de Adobe Campaign.
+page-status-flag: nunca activado
+uuid: 994f1e85-107d-4348-a197-87a95853fca6
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: desarrollar
-content-type: reference
-topic-tags: acerca de los recursos personalizados
-discoiquuid: c 6375 a 92-339 f -4123-bc 69-b 0 da 1 saf 577
+products: SG_CAMPAIGN/STANDARD
+audience: desarrollo
+content-type: referencia
+topic-tags: about-custom-resources
+discoiquuid: c6375a92-339f-4123-bc69-b0da1deaf577
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Monitoring data model changes{#monitoring-data-model-changes}
+# Control de cambios en el modelo de datos{#monitoring-data-model-changes}
 
-**[!UICONTROL Diagnosis]** El menú permite consultar los diferentes objetos técnicos generados por la aplicación para analizarlos.
+El **[!UICONTROL Diagnosis]** menú permite consultar los diferentes objetos técnicos generados por la aplicación para analizarlos.
 
 >[!NOTE]
 >
