@@ -1,8 +1,6 @@
 ---
 title: Notificaciones push transaccionales
-seo-title: Notificaciones push transaccionales
-description: Notificaciones push transaccionales
-seo-description: Obtenga información sobre cómo crear y publicar una notificación push transaccional.
+description: Obtenga información sobre cómo crear y publicar una notificación push transaccional.
 page-status-flag: nunca activado
 uuid: ef31c1b6-9ef8-42e3-b49d-72f9eac8ea32
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: e645d4b9-001f-47d9-8a0f-b4696c75c5d3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -54,7 +52,7 @@ Por ejemplo, una empresa de aerolíneas desea invitar a sus usuarios de aplicaci
 
 La empresa enviará una notificación push transaccional por usuario (identificada con un token de registro), utilizando una aplicación móvil, a través de un solo dispositivo.
 
-1. Vaya al mensaje transaccional que se creó para editarlo. Consulte Mensajes [transaccionales](../../channels/using/event-transactional-messages.md)de eventos.
+1. Vaya al mensaje transaccional que se creó para editarlo. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
    ![](assets/message-center_push_message.png)
 
@@ -111,7 +109,7 @@ Para obtener más información sobre el acceso y la edición de perfiles, consul
 
 Por ejemplo, una empresa de aerolíneas desea enviar una última llamada de embarque a todos los usuarios de Adobe Campaign que se hayan suscrito a su aplicación móvil.
 
-1. Vaya al mensaje transaccional que se creó para editarlo. Consulte Mensajes [transaccionales](../../channels/using/event-transactional-messages.md)de eventos.
+1. Vaya al mensaje transaccional que se creó para editarlo. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
    <!--![](assets/message-center_push_message_profile.png)-->
 
