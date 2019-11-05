@@ -1,9 +1,7 @@
 ---
-title: Testing the subject line of an email
-seo-title: Testing the subject line of an email
-description: Testing the subject line of an email
-seo-description: Discover how to define the subject line of an email in the Email Designer.
-page-status-flag: never-activated
+title: Prueba de la línea de asunto de un correo electrónico
+description: Descubra cómo definir la línea de asunto de un correo electrónico en el Diseñador de correo electrónico.
+page-status-flag: nunca activado
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3fc0d9d7e90a31ffb34efc33d6f5c148ba5aac90
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -39,7 +37,7 @@ Se calculan varios indicadores y se muestra un conjunto de herramientas para ayu
 * **Tasa** abierta prevista: Este gráfico le ofrece una idea de la velocidad de apertura que puede esperar para el correo electrónico con su asunto actual.
 * **Duración** del asunto: Este indicador permite ver si la longitud actual del asunto es correcta o si debería ser más larga o más corta.
 * **Palabras** de color: Al probar el tema, las palabras resaltadas en verde son las que contribuyen en mayor medida a aumentar la predicción de la tasa abierta. Las palabras resaltadas en rojo son las que menos contribuyen a aumentar la predicción de tasa abierta. Si agrega o elimina palabras en el asunto, las palabras resaltadas cambiarán.
-* **Categorías y sugerencias** de palabras: Hacia la parte inferior de la ventana se muestran varias categorías relevantes para el modelo seleccionado. Estas categorías se ordenan por orden de importancia y permiten ver si el asunto contiene palabras que están asociadas con él a través de un símbolo de verificación. Each category contains a set of suggested words that could be used in your subject to make it more relevant and increase the open rate. Estas palabras son las palabras que se utilizan con más frecuencia en una categoría determinada.
+* **Categorías y sugerencias** de palabras: Hacia la parte inferior de la ventana se muestran varias categorías relevantes para el modelo seleccionado. Estas categorías se ordenan por orden de importancia y permiten ver si el asunto contiene palabras que están asociadas con él a través de un símbolo de verificación. Cada categoría contiene un conjunto de palabras sugeridas que se pueden usar en el asunto para hacerlo más relevante y aumentar la tasa abierta. Estas palabras son las palabras que se utilizan con más frecuencia en una categoría determinada.
 
 >[!NOTE]
 >
@@ -54,21 +52,21 @@ De forma predeterminada, no hay ningún modelo en ejecución en el servidor de A
 * Puede formar un modelo local a partir de los datos de los mensajes de correo electrónico anteriores:
 
    * Si ya utiliza Adobe Campaign, el modelo local recibirá automáticamente formación sobre los mensajes que ya haya enviado.
-   * If you are new to Adobe Campaign, you can extract a CSV file from your previous system/ESP that contains 4 columns: date, subject, sent, opens. Para ello, vaya a **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Email]** &gt; **[!UICONTROL Subject Line Import]** y siga las instrucciones que aparecen en las pantallas sucesivas. When the subject upload is complete, import a local model as described below. The local model is automatically trained with the data you uploaded.
-   * If you are new to Adobe Campaign and cannot get a CSV file as described above, you can use a pre-trained model or wait until you have enough delivery data in your system to train a local model. The system will automatically determine whether your current data set contains enough data to recognize patterns and to train the model.
+   * Si es nuevo en Adobe Campaign, puede extraer un archivo CSV del sistema o ESP anterior que contenga 4 columnas: fecha, asunto, enviado, se abre. Para ello, vaya a **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Email]** &gt; **[!UICONTROL Subject Line Import]** y siga las instrucciones que aparecen en las pantallas sucesivas. Una vez completada la carga del asunto, importe un modelo local como se describe a continuación. El modelo local se capacita automáticamente con los datos cargados.
+   * Si es nuevo en Adobe Campaign y no puede obtener un archivo CSV como se describe anteriormente, puede utilizar un modelo preentrenado o esperar a que tenga suficientes datos de entrega en el sistema para formar un modelo local. El sistema determinará automáticamente si el conjunto de datos actual contiene datos suficientes para reconocer patrones y para entrenar el modelo.
 
       >[!NOTE]
       >
-      >No hay un número definido de líneas de asunto necesarias para entrenar su propio modelo. To be able to train it, the subject lines need to be varied and to have no duplicates. If there is not enough data to process, the system will not be able to train the model. You can only have one trained model on your instance.
-   To train a local model, download the subjectLineTraining.xml from here and use the package import feature to upload it to your Adobe Campaign instance. [](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter)[](../../automating/using/managing-packages.md) A technical workflow will automatically do the training for you.
+      >No hay un número definido de líneas de asunto necesarias para entrenar su propio modelo. Para poder capacitarlo, las líneas de asunto deben ser variadas y no tener duplicados. Si no hay suficientes datos para procesar, el sistema no podrá entrenar al modelo. Sólo puede tener un modelo entrenado en su instancia.
+   Para formar un modelo local, descargue subjectLineTraining.xml desde [aquí](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) y utilice la función de importación [de](../../automating/using/managing-packages.md) paquetes para cargarlo en la instancia de Adobe Campaign. Un flujo de trabajo técnico hará automáticamente la formación.
 
-   The first time you want to train a model, an administrator can force the  to start from the  &gt;  &gt;  menu.**[!UICONTROL SubjectLine Training workflow]****[!UICONTROL Administration]****[!UICONTROL Application settings]****[!UICONTROL Workflows]**
+   La primera vez que desee formar un modelo, un administrador puede forzar el **[!UICONTROL SubjectLine Training workflow]** inicio desde el menú **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Workflows]** .
 
-   Once a model has been uploaded and trained, the feature is automatically activated and a new option appears next to the subject line field of your messages.
+   Una vez cargado y entrenado un modelo, la función se activa automáticamente y aparece una nueva opción junto al campo de línea de asunto de los mensajes.
 
-   Then, the technical workflow will automatically continue to train your model every week.
+   A continuación, el flujo de trabajo técnico seguirá formando automáticamente a su modelo cada semana.
 
-* You can import pre-trained models that are specific to certain industries (medical, etc.) mediante la función de importación [de](../../automating/using/managing-packages.md) paquetes. Estos modelos están disponibles [aquí](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) y no se pueden formar.
+* Puede importar modelos preformados específicos de determinadas industrias (médicas, etc.) mediante la función de importación [de](../../automating/using/managing-packages.md) paquetes. Estos modelos están disponibles [aquí](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) y no se pueden formar.
 
    Una vez cargado un modelo, la función se activa automáticamente y aparece una nueva opción junto al campo de línea de asunto de los mensajes.
 
