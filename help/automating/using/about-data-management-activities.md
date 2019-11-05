@@ -1,39 +1,37 @@
 ---
 title: Acerca de las actividades de administración de datos
-seo-title: Acerca de las actividades de administración de datos
-description: Acerca de las actividades de administración de datos
-seo-description: Las actividades de administración de datos están disponibles en el lado izquierdo de la pantalla.
-page-status-flag: no activado nunca
-uuid: c 377 bdb 6-ae 4 e -4 f 23-acb 7-ba 6 b 0 e 095241
+description: Las actividades de administración de datos están disponibles en la parte izquierda de la pantalla.
+page-status-flag: nunca activado
+uuid: c377bdb6-ae4e-4f23-acb7-ba6b0e095241
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: automatizar
-content-type: reference
-topic-tags: data-management-activities
-discoiquuid: 332 bd 6 be -6 ca 3-4 d 38-b 608-8 a 66 c 156 d 080
+content-type: referencia
+topic-tags: gestión de datos-actividades
+discoiquuid: 332bd6be-6ca3-4d38-b608-8a66c156d080
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51154892b2d5bd5685272735cdd6e7d9474e09a6
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# About data management activities{#about-data-management-activities}
+# Acerca de las actividades de administración de datos{#about-data-management-activities}
 
-From the palette, on the left-hand side of the screen, unfold the **[!UICONTROL Data management (ETL)]** section.
+Desde la paleta, en el lado izquierdo de la pantalla, despliegue la **[!UICONTROL Data management (ETL)]** sección.
 
-Estas actividades permiten manipular datos. Permiten, por ejemplo, importar datos, realizar actualizaciones masivas en campos de base de datos, recibir o enviar archivos, o vincular datos no identificados a recursos existentes.
+Estas actividades le permiten manipular datos. Permiten, por ejemplo, importar datos, realizar actualizaciones masivas en campos de base de datos, recibir o enviar archivos, o vincular datos no identificados a recursos existentes.
 
 ![](assets/wkf_etl_activities.png)
 
-The **[!UICONTROL Data management (ETL)]** section provides the following activities:
+La **[!UICONTROL Data management (ETL)]** sección proporciona las siguientes actividades:
 
-* [Actualizar datos](../../automating/using/update-data.md)
+* [Actualización de datos](../../automating/using/update-data.md)
 * [Cargar archivo](../../automating/using/load-file.md)
 * [Transferir archivo](../../automating/using/transfer-file.md)
 * [Reconciliación](../../automating/using/reconciliation.md)
 * [Extraer archivo](../../automating/using/extract-file.md)
 * [Servicios de suscripción](../../automating/using/subscription-services.md)
 
-**[!UICONTROL Data management (ETL)]** permite definir los códigos **de segmento** para sus transiciones salientes. Luego puede crear informes basados en estos códigos de segmento para medir la eficacia de sus campañas de inserción. For more on this, refer to [this section](../../reporting/using/creating-a-report-workflow-segment.md).
+**[!UICONTROL Data management (ETL)]** actividades le permite definir códigos **de** segmentos para sus transiciones de salida. A continuación, puede crear informes basados en estos códigos de segmento para medir la eficacia de las campañas de marketing. Para obtener más información, consulte [esta sección](../../reporting/using/creating-a-report-workflow-segment.md).
