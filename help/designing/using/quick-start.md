@@ -1,8 +1,6 @@
 ---
 title: Diseño de contenido de correo electrónico de inicio rápido
-seo-title: Diseño de contenido de correo electrónico de inicio rápido
-description: Diseño de contenido de correo electrónico de inicio rápido
-seo-description: Empiece a crear contenido de correo electrónico con el Diseñador de correo electrónico.
+description: Empiece a crear contenido de correo electrónico con el Diseñador de correo electrónico.
 page-status-flag: nunca activado
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8e070a4c364c8a5e23870e28add142b46edc8994
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
