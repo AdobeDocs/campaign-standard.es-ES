@@ -1,41 +1,39 @@
 ---
-title: Configuración de la integración de Target-Target
-seo-title: Configuración de la integración de Target-Target
-description: Configuración de la integración de Target-Target
-seo-description: Aprenda a configurar la integración de Adobe Target para empezar a utilizar contenido dinámico en Adobe Campaign.
-page-status-flag: no activado nunca
-uuid: 0 df 5701 c-dc 26-4 c 30-9 af 9-ebf 92815 d 90 c
+title: Configuración de la integración de Campaign-Target
+description: Obtenga información sobre cómo configurar la integración de Adobe Target para empezar a utilizar contenido dinámico en Adobe Campaign.
+page-status-flag: nunca activado
+uuid: 0df5701c-dc26-4c30-9af9-ebf92815d90c
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: integrar
-content-type: reference
+content-type: referencia
 topic-tags: trabajar con campaña y objetivo
-discoiquuid: f 7 fb 2084-dd 6 f -4 aa 2-940 f-e 48713146635
+discoiquuid: f7fb2084-dd6f-4aa2-940f-e48713146635
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 698466596fdacd005dc4d72b8071208c8c39f77d
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Configuring the Campaign-Target integration{#configuring-the-campaign-target-integration}
+# Configuración de la integración de Campaign-Target{#configuring-the-campaign-target-integration}
 
-La integración entre Adobe Campaign y Adobe Target permite insertar contenido dinámico en la entrega.
+La integración entre Adobe Campaign y Adobe Target le permite insertar contenido dinámico en la entrega.
 
-Primero se necesita una configuración en Adobe Campaign para utilizar las funcionalidades de integración con Adobe Target y debe gestionarla el administrador funcional.
+En primer lugar, Adobe Campaign necesita una configuración para utilizar las funcionalidades de integración con Adobe Target y debe administrarla el administrador funcional.
 
-Para este procedimiento se necesitan los siguientes elementos:
+Se necesitan los siguientes elementos para este procedimiento:
 
 * Un inquilino de Adobe Experience Cloud
 * Un inquilino de Adobe Target
-* Un rawbox de Adobe Target especificado para establecer la conexión con Adobe Campaign
+* Un “rawbox” de Adobe Target determinada para establecer la conexión con Adobe Campaign
 
-1. From the advanced menu, via the Adobe Campaign logo in the top left corner, select **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Options]**.
-1. Para configurar las opciones de servidor y de inquilino de Adobe Target, rellene los campos siguientes en consecuencia:
+1. En el menú avanzado, a través del logotipo de Adobe Campaign en la esquina superior izquierda, seleccione **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Options]**.
+1. Para configurar las opciones de servidor e inquilino para Adobe Target, rellene los siguientes campos de forma correspondiente:
 
-   * **[!UICONTROL TNT_TenantName]**: nombre del inquilino de Adobe Target. This value corresponds to the name of the Adobe Target **[!UICONTROL Client]**.
-   * **[!UICONTROL TNT_EdgeServer]**: Servidor de Adobe Target utilizado para la integración. Esta opción ya se proporciona de forma predeterminada. This value corresponds to the Adobe Target **[!UICONTROL Server Domain]**, followed by the **/m2** value. For example: **tt.omtrdc.net/m2**.
+   * **[!UICONTROL TNT_TenantName]**:: nombre del inquilino de Adobe Target. This value corresponds to the name of the Adobe Target **[!UICONTROL Client]**.
+   * **[!UICONTROL TNT_EdgeServer]**:: Servidor de Adobe Target utilizado para la integración. Esta opción ya se proporciona de forma predeterminada. Este valor corresponde a Adobe Target **[!UICONTROL Server Domain]**, seguido del valor **/m2** .  Por ejemplo: **tt.omtrdc.net/m2**.
    ![](assets/tar_options.png)
 
-Ahora los usuarios pueden añadir imágenes dinámicas en una entrega con Adobe Target.
+Los usuarios ahora pueden agregar imágenes dinámicas en una entrega con Adobe Target.
