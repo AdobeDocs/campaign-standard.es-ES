@@ -1,8 +1,6 @@
 ---
-title: Definición de la audiencia de correo directo
-seo-title: Definición de la audiencia de correo directo
-description: Definición de la audiencia de correo directo
-seo-description: Obtenga información sobre cómo definir el objetivo para la entrega directa de correo.
+title: Definición del audiencia de correo postal
+description: Obtenga información sobre cómo definir el objetivo para la entrega directa de correo.
 page-status-flag: nunca activado
 uuid: f843e368-5c07-4b53-8943-46f7bf45b62b
 contentOwner: sauviat
@@ -15,12 +13,12 @@ context-tags: entrega,directMailContent,retroceso
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Defining the direct mail audience{#defining-the-direct-mail-audience}
+# Definición del audiencia de correo postal{#defining-the-direct-mail-audience}
 
 Puede definir la audiencia en el asistente de creación o haciendo clic en la sección **Audiencia** del panel de envío.
 
@@ -38,7 +36,7 @@ Para cada perfil de destino se agrega una nueva línea en el archivo de extracci
 
 ## Adición de perfiles de prueba y captura {#adding-test-and-trap-profiles}
 
-Agregue perfiles de prueba para probar el archivo con un pequeño número de perfiles. Permite crear rápidamente un ejemplo de archivo para probar y validar la estructura antes de preparar el archivo real. Consulte [Administración de perfiles de prueba y envío de pruebas](../../sending/using/managing-test-profiles-and-sending-proofs.md).
+Agregue perfiles de prueba para probar el archivo con un pequeño número de perfiles. Permite crear rápidamente un ejemplo de archivo para probar y validar la estructura antes de preparar el archivo real. See [Managing test profiles and sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md).
 
 El uso de trampas es esencial para dirigir las entregas por correo. Le permiten verificar que su proveedor de correo directo está enviando realmente la comunicación y que no está enviando su lista de clientes a otro proveedor. Consulte [Uso de trampas](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps).
 
