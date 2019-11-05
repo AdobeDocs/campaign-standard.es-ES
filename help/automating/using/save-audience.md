@@ -1,94 +1,92 @@
 ---
 title: Guardar audiencia
-seo-title: Guardar audiencia
-description: Guardar audiencia
-seo-description: La actividad Guardar audiencia permite actualizar una audiencia existente o crear una audiencia nueva desde la población calculada hacia arriba en un flujo de trabajo.
-page-status-flag: no activado nunca
-uuid: 8 babb 173-fa 59-44 a 7-a 2 a 5-49 f 45 ba 6 bf 99
+description: La actividad Guardar audiencia le permite actualizar una audiencia existente o crear una nueva a partir de la población calculada en sentido ascendente en un flujo de trabajo.
+page-status-flag: nunca activado
+uuid: 8babb173-fa59-44a7-a2a5-49f45ba6bf99
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: automatizar
-content-type: reference
-topic-tags: segmentación de actividades
-discoiquuid: 1 f 6 bb 048-7 abd -499 b-a 4 b 0-187 f 9492 dc 47
-context-tags: Saveaudience, principal
+content-type: referencia
+topic-tags: segmentación-actividades
+discoiquuid: 1f6bb048-7abd-499b-a4b0-187f9492dc47
+context-tags: saveAudience,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Save audience{#save-audience}
+# Guardar audiencia{#save-audience}
 
-## Description {#description}
+## Descripción {#description}
 
 ![](assets/save_audience.png)
 
-The **[!UICONTROL Save audience]** activity allows you to update an existing audience or create a new audience from the population computed upstream in a workflow. The audiences created or updated from this activity are **List** or **File** audiences. They are added to the list of application audiences, and are made available via the **[!UICONTROL Audiences]** menu.
+La **[!UICONTROL Save audience]** actividad le permite actualizar una audiencia existente o crear una nueva a partir de la población calculada en sentido ascendente en un flujo de trabajo. Las audiencias creadas o actualizadas a partir de esta actividad son audiencias de **lista** o **archivo** . Se añaden a la lista de audiencias de la aplicación y están disponibles a través del **[!UICONTROL Audiences]** menú.
 
 >[!NOTE]
 >
->If the audience created through the **[!UICONTROL Save audience]** activity has been enriched with additional data, you will not be able to use these data to personalize a standalone delivery. Solo se pueden utilizar desde una entrega ejecutada en un flujo de trabajo.
+>Si la audiencia creada a través de la **[!UICONTROL Save audience]** actividad se ha enriquecido con datos adicionales, no podrá utilizar estos datos para personalizar una entrega independiente. Solo se pueden usar desde una entrega ejecutada en un flujo de trabajo.
 
-Esta actividad también permite exportar perfiles como audiencias/segmentos de Adobe Experience Cloud. Esto le permite aprovechar estas audiencias en otras soluciones de Adobe Experience Cloud. For more information about shared audiences, refer to [Working with Campaign and People Core Service](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
+Esta actividad también le permite exportar perfiles como audiencias o segmentos de Adobe Experience Cloud. Esto le permite aprovechar estas audiencias en otras soluciones de Adobe Experience Cloud. Para obtener más información sobre las audiencias compartidas, consulte [Uso de Campaign y Servicio](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)principal de personas.
 
-## Context of use {#context-of-use}
+## Contexto de uso {#context-of-use}
 
-The **[!UICONTROL Save audience]** activity is essentially used to keep population groups computed in the same workflow, by converting them into reusable audiences.
+La **[!UICONTROL Save audience]** actividad se utiliza esencialmente para mantener los grupos de población calculados en el mismo flujo de trabajo, convirtiéndolos en audiencias reutilizables.
 
-## Configuration {#configuration}
+## Configuración {#configuration}
 
-1. Drop a **[!UICONTROL Save audience]** activity into your workflow.
-1. Conéctela después de otras actividades de segmentación, como una consulta, una intersección, una unión o una exclusión.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. Seleccione la acción que desee llevar a cabo:
+1. Coloque una **[!UICONTROL Save audience]** actividad en el flujo de trabajo.
+1. Conéctelo después de otras actividades de segmentación como una consulta, una intersección, una unión o una exclusión.
+1. Seleccione la actividad y, a continuación, ábrala con el ![](assets/edit_darkgrey-24px.png) botón de las acciones rápidas que aparecen.
+1. Seleccione la acción que desee realizar:
 
-   * **[!UICONTROL Update an existing audience]**: Seleccione una audiencia existente y elija el tipo de actualización:
+   * **[!UICONTROL Update an existing audience]**:: Seleccione una audiencia existente y elija el tipo de actualización:
 
-      * **[!UICONTROL Replace audience content with new data]**: Se reemplazará todo el contenido de la audiencia. Se pierden los datos antiguos. Solo se conservan los datos de la transición entrante de la actividad de guardar audiencia.
-      * **[!UICONTROL Complete audience with new data]**: Se conservan los datos antiguos de audiencia y se agregan los datos de la transición de entrada de la actividad de la audiencia de guardado.
-   * **[!UICONTROL Create then update an audience]**: Introduzca el nombre de la audiencia y seleccione el tipo de actualización. Si la audiencia no existe, entonces se crea. Si ya existe, se actualiza según el modo seleccionado:
+      * **[!UICONTROL Replace audience content with new data]**:: Se reemplaza todo el contenido de la audiencia. Se pierden los datos antiguos. Solo se conservan los datos de la transición entrante de la actividad de guardar audiencia.
+      * **[!UICONTROL Complete audience with new data]**:: Se conservan los datos de audiencia anteriores y se agregan a ellos los datos de la transición de entrada de la actividad de audiencia guardada.
+   * **[!UICONTROL Create then update an audience]**:: Introduzca el nombre de la audiencia y seleccione el tipo de actualización. Si la audiencia no existe, se crea. Si ya existe, se actualiza según el modo seleccionado:
 
-      * **[!UICONTROL Replace audience content with new data]**: Se reemplazará todo el contenido de la audiencia. Se pierden los datos antiguos. Solo se conservan los datos de la transición entrante de la actividad de guardar audiencia.
+      * **[!UICONTROL Replace audience content with new data]**:: Se reemplaza todo el contenido de la audiencia. Se pierden los datos antiguos. Solo se conservan los datos de la transición entrante de la actividad de guardar audiencia.
 
-         Advertencia, esta opción borra el tipo de audiencia y la dimensión de objetivo de la audiencia actualizada.
+         Advertencia, esta opción borra el tipo de audiencia y la dimensión de segmentación de la audiencia actualizada.
 
-      * **[!UICONTROL Complete audience with new data]**: Se conservan los datos antiguos de audiencia y se agregan los datos de la transición de entrada de la actividad de la audiencia de guardado.
+      * **[!UICONTROL Complete audience with new data]**:: Se conservan los datos de audiencia anteriores y se agregan a ellos los datos de la transición de entrada de la actividad de audiencia guardada.
 
-         Advertencia, esta opción genera un error si el tipo de audiencia o la dimensión de objetivo de la audiencia actualizada no son compatibles con la configuración actual del flujo de trabajo. Por ejemplo, no se puede completar una audiencia de tipo de archivo con perfiles procedentes de una consulta.
-   * **[!UICONTROL Create a new audience]**: Escriba el nombre de la audiencia que desee crear. La hora y la fecha de creación de la audiencia se agregarán automáticamente al nombre de la audiencia. Esto hace que la audiencia sea única cada vez que se ejecuta el flujo de trabajo.
-   * **[!UICONTROL Share in Adobe Experience Cloud]**: Si tiene perfiles de objetivo y desea exportar su audiencia a Adobe Experience Cloud, seleccione esta opción y, a continuación, seleccione una audiencia compartida existente o cree una nueva.
+         Advertencia, esta opción provoca un error si el tipo de audiencia o la dimensión de segmentación de la audiencia actualizada no son compatibles con la configuración actual del flujo de trabajo. Por ejemplo, no se puede completar una audiencia de tipo de archivo con perfiles procedentes de una consulta.
+   * **[!UICONTROL Create a new audience]**:: Introduzca el nombre de la audiencia que desea crear. La hora y la fecha de creación de la audiencia se agregarán automáticamente al nombre de la audiencia. Esto hace que la audiencia sea única cada vez que se ejecuta el flujo de trabajo.
+   * **[!UICONTROL Share in Adobe Experience Cloud]**:: Si tiene perfiles de objetivo y desea exportar su audiencia a Adobe Experience Cloud, seleccione esta opción y, a continuación, seleccione una audiencia compartida existente o cree una audiencia nueva.
 
-      Also select a **[!UICONTROL Shared Data source]** that corresponds to the resource of the data contained in the audience so that the data is correctly reconciled in Adobe Experience Cloud.
+      Seleccione también un elemento **[!UICONTROL Shared Data source]** que corresponda al recurso de los datos contenidos en la audiencia para que los datos se reconcilien correctamente en Adobe Experience Cloud.
 
-      Using this option, the shared audience is not added to the list of Adobe Campaign audiences available via the **[!UICONTROL Audiences]** menu.
+      Con esta opción, la audiencia compartida no se agrega a la lista de audiencias de Adobe Campaign disponibles a través del **[!UICONTROL Audiences]** menú.
 
       >[!NOTE]
       >
-      >Esta opción solo está disponible si su administrador ha configurado la funcionalidad de audiencias compartidas con Adobe Experience Cloud. For more information, refer to [Working with Campaign and People Core Service](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
-   El tipo de audiencias guardadas o disponibles durante una actualización depende de las actividades colocadas en el flujo de trabajo.
+      >Esta opción solo está disponible si el administrador ha configurado la funcionalidad de audiencias compartidas con Adobe Experience Cloud. Para obtener más información, consulte [Trabajo con Campaign y Servicio](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)principal de personas.
+   El tipo de audiencias guardadas o disponibles durante una actualización depende de las actividades que se coloquen en el flujo de trabajo.
 
-   If the targeting dimension of the audience is unknown when it is saved (for example if it is from an imported file), the audience is created or updated as a **[!UICONTROL File]** type audience.
+   Si se desconoce la dimensión de segmentación de la audiencia al guardarla (por ejemplo, si procede de un archivo importado), la audiencia se crea o actualiza como audiencia de **[!UICONTROL File]** tipo.
 
-   If the targeting dimension of the saved audience is already defined when it is saved (for example, if it comes from a targeting, after a query, etc.), then the audience is saved or updated as a **[!UICONTROL List]** type audience.
+   Si la dimensión de objetivo de la audiencia guardada ya está definida cuando se guarda (por ejemplo, si procede de un objetivo, después de una consulta, etc.), la audiencia se guarda o actualiza como audiencia de **[!UICONTROL List]** tipo.
 
-   The content of the saved audience is then available in the detail view of the audience, which can be accessed from the **[!UICONTROL Audiences]** menu. Las columnas disponibles en esta vista corresponden a las columnas de la transición entrante de la actividad de audiencia guardada del flujo de trabajo. Por ejemplo: las columnas del archivo importado, los datos adicionales agregados de una consulta.
+   El contenido de la audiencia guardada está disponible en la vista de detalles de la audiencia, a la que se puede acceder desde el **[!UICONTROL Audiences]** menú. Las columnas disponibles en esta vista corresponden a las columnas de la transición de entrada de la actividad de guardar audiencia del flujo de trabajo.  Por ejemplo: las columnas del archivo importado, los datos adicionales agregados a partir de una consulta.
 
-1. Confirme la configuración de su actividad y guarde el flujo de trabajo.
+1. Confirme la configuración de la actividad y guarde el flujo de trabajo.
 
-## Example {#example}
+## Ejemplo {#example}
 
-El flujo de trabajo definido en este ejemplo muestra una actualización de audiencia normal desde la segmentación:
+El flujo de trabajo definido en este ejemplo muestra una actualización de audiencia regular desde la segmentación:
 
-* It is automatically executed once a month using a **[!UICONTROL Scheduler]**.
-* You can use a **[!UICONTROL Query]** to recover all the profiles subscribed to the different application services available.
-* **[!UICONTROL Save audience]** La actividad actualiza la audiencia eliminando perfiles que se han cancelado la suscripción del servicio desde la última ejecución del flujo de trabajo y añadiendo los perfiles recién suscritos.
+* Se ejecuta automáticamente una vez al mes mediante un **[!UICONTROL Scheduler]**.
+* Puede utilizar un **[!UICONTROL Query]** para recuperar todos los perfiles suscritos a los diferentes servicios de aplicaciones disponibles.
+* La **[!UICONTROL Save audience]** actividad actualiza la audiencia eliminando perfiles que se han cancelado de suscripción al servicio desde la última ejecución del flujo de trabajo y agregando los perfiles recién suscritos.
 
 ![](assets/save_audience_example_1.png)
 
-**[!UICONTROL Save audience]** La actividad se configura de la siguiente manera:
+La **[!UICONTROL Save audience]** actividad se configura de la siguiente manera:
 
 ![](assets/save_audience_example_2.png)
 
