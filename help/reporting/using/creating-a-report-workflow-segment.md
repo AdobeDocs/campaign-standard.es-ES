@@ -1,8 +1,6 @@
 ---
 title: Creación de un informe basado en segmentos de flujo de trabajo
-seo-title: Creación de un informe basado en segmentos de flujo de trabajo
-description: Creación de un informe basado en segmentos de flujo de trabajo
-seo-description: Obtenga información sobre cómo comprobar el éxito de la entrega en función de los segmentos de los flujos de trabajo de los informes.
+description: Obtenga información sobre cómo comprobar el éxito de la entrega en función de los segmentos de los flujos de trabajo de los informes.
 page-status-flag: nunca activado
 uuid: f75e005b-5328-4c98-9e78-51d54fd0e246
 contentOwner: benat
@@ -14,7 +12,7 @@ discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -30,7 +28,7 @@ Para dirigir estos segmentos en los informes:
 
 >[!CAUTION]
 >Se debe aceptar el acuerdo de uso de informes dinámicos para empezar a recopilar estos datos.
->Para obtener más información sobre este acuerdo, consulte esta [página](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
+>For more on this agreement, refer to this [page](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
 ## Paso 1: Actualizar el recurso personalizado de perfiles con segmentos{#step-1--update-profiles-custom-resource-segments}
 
@@ -50,7 +48,7 @@ En el menú avanzado, seleccione **[!UICONTROL Administration]** &gt; **[!UICONT
 
    ![](assets/custom_profile_7.png)
 
-1. Haga clic en **[!UICONTROL Prepare publication]** y, cuando termine la preparación, haga clic en el **[!UICONTROL Publish]** botón. Para obtener más información sobre los recursos personalizados, consulte esta [página](../../developing/using/updating-the-database-structure.md).
+1. Haga clic en **[!UICONTROL Prepare publication]** y, cuando termine la preparación, haga clic en el **[!UICONTROL Publish]** botón. For more information on custom resource, refer to this [page](../../developing/using/updating-the-database-structure.md).
 
 Ahora puede empezar a crear el flujo de trabajo con códigos de segmento.
 
@@ -71,7 +69,7 @@ En primer lugar, debe crear un flujo de trabajo con una población objetivo dife
 
    ![](assets/report_segment_1.png)
 
-1. Agregue una **[!UICONTROL Segmentation]** actividad para dividir los resultados de la consulta en dos poblaciones objetivo. Para obtener más información sobre segmentación, consulte esta [página](../../automating/using/targeting-data.md#segmenting-data).
+1. Agregue una **[!UICONTROL Segmentation]** actividad para dividir los resultados de la consulta en dos poblaciones objetivo. For more on segmentation, refer to this [page](../../automating/using/targeting-data.md#segmenting-data).
 
 1. Haga doble clic en la **[!UICONTROL Segmentation]** actividad para configurarla. Para editar el primer segmento, haga clic en **[!UICONTROL Edit properties]**.
 
@@ -94,7 +92,7 @@ En primer lugar, debe crear un flujo de trabajo con una población objetivo dife
 
    ![](assets/report_segment_3.png)
 
-1. Personalice los envíos en función de las distintas poblaciones objetivo. Para obtener más información sobre la creación de correo electrónico, consulte esta [página](../../designing/using/overview.md).
+1. Personalice los envíos en función de las distintas poblaciones objetivo. For more on email creation, refer to this [page](../../designing/using/overview.md).
 
 1. Guarde el flujo de trabajo.
 
