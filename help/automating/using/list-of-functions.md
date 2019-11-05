@@ -1,20 +1,18 @@
 ---
 title: Lista de funciones
-seo-title: Lista de funciones
-description: Lista de funciones
-seo-description: La herramienta de edición de consultas permite utilizar funciones avanzadas para llevar a cabo filtraciones complejas.
-page-status-flag: no activado nunca
-uuid: fd 50 fc 99-1 e 7 a -479 b-beb 7-1 f 246 b 419 d 46
+description: La herramienta de edición de consultas le permite utilizar funciones avanzadas para realizar filtros complejos.
+page-status-flag: nunca activado
+uuid: fd50fc99-1e7a-479b-beb7-1f246b419d46
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: automatizar
-content-type: reference
-topic-tags: filtrar datos
-discoiquuid: 3 cdbe 962-1 c 59-4 cd 8-b 29 e -36 aa 2562 fac 6
+content-type: referencia
+topic-tags: filter-data
+discoiquuid: 3cdbe962-1c59-4cd8-b29e-36aa2562face6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 83be3f22f3508248f2a4666080a7207998093dc3
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -23,23 +21,23 @@ source-git-commit: 83be3f22f3508248f2a4666080a7207998093dc3
 
 ## Acerca de las funciones {#about-functions}
 
-La herramienta de edición de consultas permite utilizar funciones avanzadas para llevar a cabo filtraciones complejas. Para ello, la paleta de herramientas contiene el **[!UICONTROL Expression]** elemento que puede utilizar en el espacio de trabajo. Encontrará más información sobre este elemento en una [sección específica](../../automating/using/advanced-expression-editing.md).
+La herramienta de edición de consultas le permite utilizar funciones avanzadas para realizar filtros complejos. Para ello, la paleta de herramientas contiene el **[!UICONTROL Expression]** elemento que puede utilizar en el espacio de trabajo. Encontrará más información sobre este elemento en una sección [](../../automating/using/advanced-expression-editing.md)específica.
 
-Este elemento permite introducir las condiciones manualmente. Aquí puede utilizar las funciones definidas en las secciones siguientes.
+Este elemento permite introducir las condiciones manualmente. Aquí puede utilizar las funciones definidas en las siguientes secciones.
 
-Hay disponibles varios tipos de funciones, según los resultados deseados y los tipos de datos manipulados:
+Existen varios tipos de funciones disponibles, según los resultados deseados y los tipos de datos manipulados:
 
 * Fechas
 * Geomarketing
 * Valores numéricos
 * Otras funciones
-* Agrega
+* Acumulados
 * Manipulación de cadenas
 * Ordenar
 
 ## Fechas {#dates}
 
-Las funciones de fecha se utilizan para manipular los valores de fecha o hora.
+Las funciones de fecha se utilizan para manipular los valores de fecha y hora.
 
 <table> 
  <tbody> 
@@ -49,241 +47,241 @@ Las funciones de fecha se utilizan para manipular los valores de fecha o hora.
    <td> <strong>Sintaxis</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Adddays</strong><br /> </td> 
+   <td> <strong>AddDays</strong><br /> </td> 
    <td> Agrega un número de días a una fecha<br /> </td> 
-   <td> Adddays (&lt; date &gt;, &lt; number &gt;)<br /> </td> 
+   <td> AddDays(&lt;date&gt;, &lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Addhours</strong><br /> </td> 
+   <td> <strong>AddHours</strong><br /> </td> 
    <td> Agrega un número de horas a una fecha<br /> </td> 
-   <td> Addhours (&lt; date &gt;, &lt; number &gt;)<br /> </td> 
+   <td> AddHours(&lt;date&gt;, &lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Addminutes</strong><br /> </td> 
-   <td> Agrega un número de minutos a una fecha<br /> </td> 
-   <td> Addminutes (&lt; date &gt;, &lt; number &gt;)<br /> </td> 
+   <td> <strong>AddMinutes</strong><br /> </td> 
+   <td> Añade un número de minutos a una fecha<br /> </td> 
+   <td> AddMinutes(&lt;date&gt;, &lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Addmonths</strong><br /> </td> 
-   <td> Agrega un número de meses a una fecha<br /> </td> 
-   <td> Addmonths (&lt; date &gt;, &lt; number &gt;)<br /> </td> 
+   <td> <strong>AddMonths</strong><br /> </td> 
+   <td> Añade un número de meses a una fecha<br /> </td> 
+   <td> AddMonths(&lt;date&gt;, &lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Addseconds</strong><br /> </td> 
-   <td> Agrega un número de segundos a una fecha<br /> </td> 
-   <td> Addseconds (&lt; date &gt;, &lt; number &gt;)<br /> </td> 
+   <td> <strong>AddSeconds</strong><br /> </td> 
+   <td> Añade un número de segundos a una fecha<br /> </td> 
+   <td> AddSeconds(&lt;date&gt;, &lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Addyears</strong><br /> </td> 
+   <td> <strong>AddYears</strong><br /> </td> 
    <td> Agrega un número de años a una fecha<br /> </td> 
-   <td> Addyears (&lt; date &gt;, &lt; number &gt;)<br /> </td> 
+   <td> AddYears(&lt;date&gt;, &lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Dateonly</strong><br /> </td> 
-   <td> Devuelve sólo la fecha (con el tiempo a las 00:00)<br /> </td> 
-   <td> Dateonly (&lt; date &gt;)<br /> </td> 
+   <td> <strong>DateOnly</strong><br /> </td> 
+   <td> Devuelve solo la fecha (con hora 00:00)<br /> </td> 
+   <td> DateOnly(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Día</strong><br /> </td> 
-   <td> Devuelve el número que representa el día de la fecha<br /> </td> 
-   <td> Día (&lt; fecha &gt;)<br /> </td> 
+   <td> Devuelve el número que representa el día de la fecha.<br /> </td> 
+   <td> Day(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Dayofyear</strong><br /> </td> 
-   <td> Devuelve un número que representa el día del año de la fecha.<br /> </td> 
-   <td> Dayofyear (&lt; date &gt;)<br /> </td> 
+   <td> <strong>Día del año</strong><br /> </td> 
+   <td> Returns a number representing the day in the year of the date<br /> </td> 
+   <td> DayOfYear(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Daysago</strong><br /> </td> 
+   <td> <strong>Días anteriores</strong><br /> </td> 
    <td> Devuelve la fecha actual menos n días<br /> </td> 
-   <td> Daysago (&lt; número &gt;)<br /> </td> 
+   <td> DaysAgo(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Daysagoint</strong><br /> </td> 
-   <td> Devuelve la fecha actual menos n días (como entero aaaammdd)<br /> </td> 
-   <td> Daysagoint (&lt; number &gt;)<br /> </td> 
+   <td> <strong>DaysAgoInt</strong><br /> </td> 
+   <td> Devuelve la fecha actual menos n días (como un entero aaaammdd)<br /> </td> 
+   <td> DaysAgoInt(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Daysdiff</strong><br /> </td> 
-   <td> Cantidad de días entre dos fechas<br /> </td> 
-   <td> Daysdiff (&lt; fecha de finalización &gt;, &lt; fecha de inicio &gt;)<br /> </td> 
+   <td> <strong>DifDías</strong><br /> </td> 
+   <td> Número de días entre dos fechas<br /> </td> 
+   <td> DaysDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Daysell</strong><br /> </td> 
+   <td> <strong>DaysOld</strong><br /> </td> 
    <td> Devuelve la edad en días de una fecha<br /> </td> 
-   <td> Daysell (&lt; date &gt;)<br /> </td> 
+   <td> DaysOld(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Getdate</strong><br /> </td> 
+   <td> <strong>GetDate</strong><br /> </td> 
    <td> Devuelve la fecha del sistema actual del servidor<br /> </td> 
-   <td> Getdate ()<br /> </td> 
+   <td> GetDate()<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Hora</strong><br /> </td> 
    <td> Devuelve la hora de la fecha<br /> </td> 
-   <td> Hora (&lt; fecha &gt;)<br /> </td> 
+   <td> Hour(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Hoursdiff</strong><br /> </td> 
+   <td> <strong>HoursDiff</strong><br /> </td> 
    <td> Devuelve el número de horas entre dos fechas<br /> </td> 
-   <td> Hoursdiff (&lt; fecha de finalización &gt;, &lt; fecha de inicio &gt;)<br /> </td> 
+   <td> HoursDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Localtoutc</strong><br /> </td> 
+   <td> <strong>LocalToUTC</strong><br /> </td> 
    <td> Convierte una fecha y hora locales a UTC<br /> </td> 
-   <td> Localtoutc (&lt; date &gt;, &lt; Huso horario &gt;)<br /> </td> 
+   <td> LocalToUTC(&lt;fecha&gt;, &lt;Huso horario&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Minuto</strong><br /> </td> 
    <td> Devuelve los minutos de la fecha<br /> </td> 
-   <td> Minuto (&lt; fecha &gt;)<br /> </td> 
+   <td> Minute(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Minutesdiff</strong><br /> </td> 
+   <td> <strong>MinutosDif</strong><br /> </td> 
    <td> Devuelve el número de minutos entre dos fechas<br /> </td> 
-   <td> Minutesdiff (&lt; end date &gt;, &lt; date date &gt;)<br /> </td> 
+   <td> MinutesDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Mes</strong><br /> </td> 
    <td> Devuelve el número que representa el mes de la fecha<br /> </td> 
-   <td> Mes (&lt; fecha &gt;)<br /> </td> 
+   <td> Month(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Monthsago</strong><br /> </td> 
+   <td> <strong>Meses anteriores</strong><br /> </td> 
    <td> Devuelve la fecha correspondiente a la fecha actual menos n meses<br /> </td> 
-   <td> Monthsago (&lt; número &gt;)<br /> </td> 
+   <td> MonthsAgo(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Monthsdiff</strong><br /> </td> 
+   <td> <strong>MesesDif</strong><br /> </td> 
    <td> Devuelve el número de meses entre dos fechas<br /> </td> 
-   <td> Monthsdiff (&lt; fecha de finalización &gt;, &lt; fecha de inicio &gt;)<br /> </td> 
+   <td> MonthsDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Monthvendido</strong><br /> </td> 
+   <td> <strong>MonthsOld</strong><br /> </td> 
    <td> Devuelve la edad en meses de una fecha<br /> </td> 
-   <td> Monthsell (&lt; fecha &gt;)<br /> </td> 
+   <td> MonthsOld(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Segundo</strong><br /> </td> 
    <td> Devuelve los segundos de la fecha<br /> </td> 
-   <td> Segundo (&lt; fecha &gt;)<br /> </td> 
+   <td> Second(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Más antiguos</strong><br /> </td> 
+   <td> <strong>Más antiguo</strong><br /> </td> 
    <td> Devuelve la fecha más antigua </td> 
-   <td> Más antiguas (&lt; Fecha &gt;, &lt; Fecha &gt;)<br /> </td> 
+   <td> Antiguo(&lt;Fecha&gt;, &lt;Fecha&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Secondsdiff</strong><br /> </td> 
+   <td> <strong>SecondsDiff</strong><br /> </td> 
    <td> Devuelve el número de segundos entre dos fechas<br /> </td> 
-   <td> Secondsdiff (&lt; fecha de finalización &gt;, &lt; fecha de inicio &gt;)<br /> </td> 
+   <td> SecondsDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Subdays</strong><br /> </td> 
-   <td> Resta un número de días desde una fecha<br /> </td> 
-   <td> Subdays (&lt; date &gt;, &lt; number &gt;)<br /> </td> 
+   <td> <strong>SubDays</strong><br /> </td> 
+   <td> Resta un número de días a partir de una fecha<br /> </td> 
+   <td> SubDays(&lt;date&gt;, &lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Subhoras</strong><br /> </td> 
-   <td> Resta un número de horas desde una fecha<br /> </td> 
-   <td> Subhours (&lt; fecha &gt;, &lt; número &gt;)<br /> </td> 
+   <td> <strong>SubHours</strong><br /> </td> 
+   <td> Resta un número de horas a partir de una fecha<br /> </td> 
+   <td> SubHours(&lt;date&gt;, &lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Subminutes</strong><br /> </td> 
+   <td> <strong>Subminutos</strong><br /> </td> 
    <td> Resta un número de minutos desde una fecha<br /> </td> 
-   <td> Subminutes (&lt; date &gt;, &lt; number &gt;)<br /> </td> 
+   <td> SubMinutes(&lt;date&gt;, &lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Submeses</strong><br /> </td> 
    <td> Resta un número de meses desde una fecha<br /> </td> 
-   <td> Submonths (&lt; fecha &gt;, &lt; número &gt;)<br /> </td> 
+   <td> SubMonths(&lt;date&gt;, &lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Subseconds</strong><br /> </td> 
+   <td> <strong>SubSeconds</strong><br /> </td> 
    <td> Resta un número de segundos desde una fecha<br /> </td> 
-   <td> Subseconds (&lt; date &gt;, &lt; number &gt;)<br /> </td> 
+   <td> SubSeconds(&lt;date&gt;, &lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Subyears</strong><br /> </td> 
-   <td> Resta un número de años desde una fecha<br /> </td> 
-   <td> Subyears (&lt; date &gt;, &lt; number &gt;)<br /> </td> 
+   <td> <strong>SubYears</strong><br /> </td> 
+   <td> Resta un número de años a partir de una fecha<br /> </td> 
+   <td> SubYears(&lt;date&gt;, &lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Todate</strong><br /> </td> 
-   <td> Convierte una fecha + hora como fecha<br /> </td> 
-   <td> Todate (&lt; fecha + hora &gt;)<br /> </td> 
+   <td> <strong>ToDate</strong><br /> </td> 
+   <td> Convierte una fecha y hora como fecha<br /> </td> 
+   <td> ToDate(&lt;date + time&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Todatetime</strong><br /> </td> 
-   <td> Convierte una cadena en una fecha + hora<br /> </td> 
-   <td> Todatetime (&lt; cadena &gt;)<br /> </td> 
+   <td> <strong>ToDateTime</strong><br /> </td> 
+   <td> Convierte una cadena en una fecha + hora.<br /> </td> 
+   <td> ToDateTime(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Todatetimewithtimezone</strong><br /> </td> 
-   <td> Convierte una cadena en una fecha + huso horario.<br /> Ejemplo: Todatetimewithtimezone ("2019-02-19 08:09:00", "Asia/Teherán")<br /> </td> 
-   <td> Todatetimewithtimezone (&lt; string &gt;)<br /> </td> 
+   <td> <strong>ToDateTimeWithTimezone</strong><br /> </td> 
+   <td> Convierte una cadena en una fecha + zona horaria.<br /> Ejemplo: ToDateTimeWithTimezone ("2019-02-19 08:09:00", "Asia/Teherán")<br /> </td> 
+   <td> ToDateTimeWithTimezone(&lt;cadena&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Truncdate</strong><br /> </td> 
-   <td> Redondea una fecha + hora al segundo más cercano<br /> </td> 
-   <td> Truncdate (@ lastmodified, &lt; número de segundos &gt;)<br /> </td> 
+   <td> <strong>TruncDate</strong><br /> </td> 
+   <td> Redondea una fecha y hora hacia el segundo más cercano<br /> </td> 
+   <td> TruncDate(@lastModified, &lt;number of seconds&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Truncdatetz</strong><br /> </td> 
-   <td> Redondea una fecha + hora a una precisión determinada expresada en segundos<br /> </td> 
-   <td> Truncdatetz (&lt; date &gt;, &lt; número de segundos &gt;, &lt; huso horario &gt;)<br /> </td> 
+   <td> <strong>TruncDateTZ</strong><br /> </td> 
+   <td> Redondea una fecha y hora con una precisión determinada expresada en segundos<br /> </td> 
+   <td> TruncDateTZ(&lt;date&gt;, &lt;number of seconds&gt;, &lt;time zone&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Truncquarter</strong><br /> </td> 
-   <td> Redondea una fecha al trimestre.<br /> </td> 
-   <td> Truncquarter (&lt; date &gt;)<br /> </td> 
+   <td> <strong>Trimestre</strong><br /> </td> 
+   <td> Redondea una fecha al trimestre<br /> </td> 
+   <td> TruncQuarter(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Trunctime</strong><br /> </td> 
-   <td> Redondea la parte del tiempo hasta el segundo más cercano<br /> </td> 
-   <td> Trunctime (&lt; date &gt;, &lt; número de segundos &gt;)<br /> </td> 
+   <td> <strong>TruncTime</strong><br /> </td> 
+   <td> Redondea la parte de tiempo hasta el segundo más cercano<br /> </td> 
+   <td> TruncTime(&lt;date&gt;, &lt;number of seconds&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Truncweek</strong><br /> </td> 
+   <td> <strong>TruncWeek</strong><br /> </td> 
    <td> Redondea una fecha a la semana<br /> </td> 
-   <td> Truncweek (&lt; date &gt;)<br /> </td> 
+   <td> TruncWeek(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Truncyear</strong><br /> </td> 
-   <td> Redondea una fecha + hora hasta el 1 de enero del año<br /> </td> 
-   <td> Truncyear (&lt; date &gt;)<br /> </td> 
+   <td> <strong>TruncYear</strong><br /> </td> 
+   <td> Redondea una fecha y hora al 1 de enero del año<br /> </td> 
+   <td> TruncYear(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Día de la semana</strong><br /> </td> 
-   <td> Devuelve el número que representa el día de la semana de la fecha.<br /> </td> 
-   <td> Día laborable (&lt; fecha &gt;)<br /> </td> 
+   <td> <strong>DíaSemana</strong><br /> </td> 
+   <td> Devuelve el número que representa el día de la semana de la fecha<br /> </td> 
+   <td> WeekDay(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Año</strong><br /> </td> 
    <td> Devuelve el número que representa el año de la fecha<br /> </td> 
-   <td> Año (&lt; fecha &gt;)<br /> </td> 
+   <td> Year(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Yearand Month</strong><br /> </td> 
+   <td> <strong>YearAndMonth</strong><br /> </td> 
    <td> Devuelve el número que representa el año y el mes de la fecha<br /> </td> 
-   <td> Yearandmonth (&lt; date &gt;)<br /> </td> 
+   <td> YearAndMonth(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Yearsdiff</strong><br /> </td> 
+   <td> <strong>YearsDiff</strong><br /> </td> 
    <td> Devuelve el número de años entre las dos fechas<br /> </td> 
-   <td> Yearsdiff (&lt; fecha de finalización &gt;, &lt; fecha de inicio &gt;)<br /> </td> 
+   <td> YearsDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Yearsell</strong><br /> </td> 
+   <td> <strong>YearsOld</strong><br /> </td> 
    <td> Devuelve la edad en años de una fecha<br /> </td> 
-   <td> Yearsell (&lt; fecha &gt;)<br /> </td> 
+   <td> YearsOld(&lt;date&gt;)<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Geomarketing {#geomarketing}
 
-Las funciones geomarketing se utilizan para manipular los valores geográficos.
+Las funciones de geomarketing se utilizan para manipular los valores geográficos.
 
 <table> 
  <tbody> 
@@ -294,15 +292,15 @@ Las funciones geomarketing se utilizan para manipular los valores geográficos.
   </tr> 
   <tr> 
    <td> <strong>Distancia</strong><br /> </td> 
-   <td> Devuelve la distancia en kilómetros entre dos puntos definidos por su longitud y latitud (expresados en grados).<br /> </td> 
-   <td> Distancia (&lt; Longitude A &gt;, &lt; Latitud A &gt;, &lt; Longitude B &gt;, &lt; Latitud B &gt;)<br /> </td> 
+   <td> Returns the distance in kilometers between two points defined by their longitude and latitude (expressed in degrees)<br /> </td> 
+   <td> Distance(&lt;Longitude A&gt;, &lt;Latitude A&gt;, &lt;Longitude B&gt;, &lt;Latitude B&gt;)<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Numérico {#numerical}
 
-Las funciones numéricas de valor se utilizan para convertir texto a números.
+Las funciones de valor numérico se utilizan para convertir texto en números.
 
 <table> 
  <tbody> 
@@ -314,79 +312,79 @@ Las funciones numéricas de valor se utilizan para convertir texto a números.
   <tr> 
    <td> <strong>Abs</strong><br /> </td> 
    <td> Devuelve el valor absoluto de un número<br /> </td> 
-   <td> Abs (&lt; número &gt;)<br /> </td> 
+   <td> Abs(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Ceil</strong><br /> </td> 
-   <td> Devuelve el número entero más bajo mayor o igual que un número<br /> </td> 
-   <td> Ceil (&lt; número &gt;)<br /> </td> 
+   <td> Devuelve el menor entero que sea mayor o igual que un número<br /> </td> 
+   <td> Ceil(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Floor</strong><br /> </td> 
-   <td> Devuelve el mayor entero mayor que o igual a un número<br /> </td> 
-   <td> Floor (&lt; número &gt;)<br /> </td> 
+   <td> <strong>Piso</strong><br /> </td> 
+   <td> Devuelve el mayor entero que sea mayor o igual que un número<br /> </td> 
+   <td> Floor(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Mayor</strong><br /> </td> 
-   <td> Devuelve el mayor de dos números<br /> </td> 
-   <td> Major (&lt; número 1 &gt;, &lt; número 2 &gt;)<br /> </td> 
+   <td> <strong>Más grande</strong><br /> </td> 
+   <td> Devuelve el número mayor de dos números<br /> </td> 
+   <td> Greatest(&lt;number 1&gt;, &lt;number 2&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Least</strong><br /> </td> 
-   <td> Devuelve el menor de dos números<br /> </td> 
-   <td> Least (&lt; número 1 &gt;, &lt; número 2 &gt;)<br /> </td> 
+   <td> <strong>Mínimo</strong><br /> </td> 
+   <td> Devuelve el número menor de dos números<br /> </td> 
+   <td> Least(&lt;number 1&gt;, &lt;number 2&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Mod</strong><br /> </td> 
-   <td> Devuelve el resto de la división integer desde n 1 por n 2<br /> </td> 
-   <td> Mod (&lt; número 1 &gt;, &lt; número 2 &gt;)<br /> </td> 
+   <td> Returns the remainder of the integer division from n1 by n2<br /> </td> 
+   <td> Mod(&lt;número 1&gt;, &lt;número 2&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Porcentaje</strong><br /> </td> 
-   <td> Devuelve la proporción entre dos números expresados como porcentaje<br /> </td> 
-   <td> Porcentaje (&lt; número 1 &gt;, &lt; número 2 &gt;)<br /> </td> 
+   <td> Devuelve la proporción de dos números expresado como un porcentaje<br /> </td> 
+   <td> Percent(&lt;number 1&gt;, &lt;number 2&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Aleatorio</strong><br /> </td> 
-   <td> Devuelve el valor aleatorio<br /> </td> 
-   <td> Aleatorio ()<br /> </td> 
+   <td> Devuelve un valor aleatorio<br /> </td> 
+   <td> Aleatorio()<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Round</strong><br /> </td> 
-   <td> Redondea un número a n decimales<br /> </td> 
-   <td> Round (&lt; número &gt;, &lt; número de decimales &gt;)<br /> </td> 
+   <td> Redondea un número a “n” decimales<br /> </td> 
+   <td> Redondeo(&lt;number&gt;, &lt;number of decimals&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Sign</strong><br /> </td> 
+   <td> <strong>Firmar</strong><br /> </td> 
    <td> Devuelve el signo del número<br /> </td> 
-   <td> Sign (&lt; número &gt;)<br /> </td> 
+   <td> Sign(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Todouble</strong><br /> </td> 
+   <td> <strong>ToDouble</strong><br /> </td> 
    <td> Convierte un entero en flotante<br /> </td> 
-   <td> Todouble (&lt; número &gt;)<br /> </td> 
+   <td> ToDouble(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ToInt64</strong><br /> </td> 
-   <td> Convierte un flotante a un entero de 64 bits<br /> </td> 
-   <td> Toint 64 (&lt; número &gt;)<br /> </td> 
+   <td> Convierte un flotante en un entero de 64 bits<br /> </td> 
+   <td> ToInt64(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Tointeger</strong><br /> </td> 
-   <td> Convierte un flotante a un entero<br /> </td> 
-   <td> Tointeger (&lt; número &gt;)<br /> </td> 
+   <td> <strong>ToInteger</strong><br /> </td> 
+   <td> Convierte un flotante en un entero<br /> </td> 
+   <td> ToInteger(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Trunc</strong><br /> </td> 
-   <td> Trunca n 1 a n 2 decimales<br /> </td> 
-   <td> Trunc (&lt; n 1 &gt;, &lt; n 2 &gt;)<br /> </td> 
+   <td> Trunca decimales de “n1” a “n2”<br /> </td> 
+   <td> Trunc(&lt;n1&gt;, &lt;n2&gt;)<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Otras {#others}
+## Otros {#others}
 
-Esta tabla contiene las funciones restantes que son predecibles.
+Esta tabla contiene las funciones restantes disponibles.
 
 <table> 
  <tbody> 
@@ -397,83 +395,83 @@ Esta tabla contiene las funciones restantes que son predecibles.
   </tr> 
   <tr> 
    <td> <strong>Caso</strong><br /> </td> 
-   <td> Devuelve el valor 1 si se ha verificado la condición. De lo contrario, devuelve valor 2<br /> </td> 
-   <td> Case (When (&lt; condition &gt;, &lt; value 1 &gt;), Else (&lt; value 2 &gt;))<br /> </td> 
+   <td> Devuelve el valor 1 si se comprueba la condición. De lo contrario, devuelve el valor 2<br /> </td> 
+   <td> Case(When(&lt;condition&gt;, &lt;value 1&gt;), Else(&lt;value 2&gt;))<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Clearbit</strong><br /> </td> 
+   <td> <strong>ClearBit</strong><br /> </td> 
    <td> Elimina el indicador del valor<br /> </td> 
-   <td> Clearbit (&lt; identificador &gt;, &lt; flag &gt;)<br /> </td> 
+   <td> ClearBit(&lt;identifier&gt;, &lt;flag&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Coalesce</strong><br /> </td> 
-   <td> Devuelve valor 2 si el valor 1 es cero o nulo, devuelve el valor 1<br /> </td> 
-   <td> Coalesce (&lt; value 1 &gt;, &lt; value 2 &gt;)<br /> </td> 
+   <td> <strong>Combinar</strong><br /> </td> 
+   <td> Devuelve el valor 2 si el valor 1 es cero o nulo, de lo contrario devuelve el valor 1<br /> </td> 
+   <td> Coalesce(&lt;value 1&gt;, &lt;value 2&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Decode</strong><br /> </td> 
-   <td> Devuelve value 3 es value 1 = value 2, de lo contrario devuelve 4<br /> </td> 
-   <td> Decode (&lt; value 1 &gt;, &lt; value 2 &gt;, &lt; value 3 &gt;, &lt; value 4 &gt;)<br /> </td> 
+   <td> Devuelve el valor 3 es el valor 1 = valor 2; en caso contrario, devuelve 4<br /> </td> 
+   <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Else</strong><br /> </td> 
-   <td> Devuelve valor 1 (sólo puede utilizarse como parámetro de la función case)<br /> </td> 
-   <td> Else (&lt; value 1 &gt;)<br /> </td> 
+   <td> Devuelve el valor 1 (solo puede utilizarse como parámetro de la función case)<br /> </td> 
+   <td> Else(&lt;value 1&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Getemaildomain</strong><br /> </td> 
-   <td> Extrae el dominio de una dirección de correo electrónico<br /> </td> 
-   <td> Getemaildomain (&lt; value &gt;)<br /> </td> 
+   <td> <strong>GetEmailDomain</strong><br /> </td> 
+   <td> Extracts the domain from an email address<br /> </td> 
+   <td> GetEmailDomain(&lt;value&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Getmirrorurl</strong><br /> </td> 
-   <td> Recupera la URL del servidor de páginas espejo<br /> </td> 
-   <td> Getmirrorurl (&lt; value &gt;)<br /> </td> 
+   <td> <strong>GetMirrorURL</strong><br /> </td> 
+   <td> Recupera la URL del servidor de la página espejo<br /> </td> 
+   <td> GetMirrorURL(&lt;value&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Iif</strong><br /> </td> 
-   <td> Devuelve el valor 1 si la expresión es verdadera, devuelve valor 2<br /> </td> 
-   <td> Iif (&lt; condición &gt;, &lt; valor 1 &gt;, &lt; valor 2 &gt;)<br /> </td> 
+   <td> Devuelve el valor 1 si la expresión es verdadera; en caso contrario, devuelve el valor 2<br /> </td> 
+   <td> Iif(&lt;condition&gt;, &lt;value 1&gt;, &lt;value 2&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Isbitset</strong><br /> </td> 
-   <td> Indica si el indicador está en el valor<br /> </td> 
-   <td> Isbitset (&lt; identificador &gt;, &lt; flag &gt;)<br /> </td> 
+   <td> <strong>IsBitSet</strong><br /> </td> 
+   <td> Indica si el indicador se encuentra en el valor<br /> </td> 
+   <td> IsBitSet(&lt;identifier&gt;, &lt;flag&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Isemptystring</strong><br /> </td> 
-   <td> Devuelve valor 2 si la cadena está vacía, devuelve valor 3<br /> </td> 
-   <td> Isemptystring (&lt; string &gt;, &lt; value 2 &gt;, &lt; value 3 &gt;)<br /> </td> 
+   <td> <strong>IsEmptyString</strong><br /> </td> 
+   <td> Returns value 2 if the string is empty, otherwise returns value 3<br /> </td> 
+   <td> IsEmptyString(&lt;string&gt;, &lt;value 2&gt;, &lt;value 3&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Nonull</strong><br /> </td> 
-   <td> Devuelve la cadena vacía si el argumento es NULO<br /> </td> 
-   <td> Nonull (&lt; value &gt;)<br /> </td> 
+   <td> <strong>NoNull</strong><br /> </td> 
+   <td> Devuelve la cadena vacía si el argumento es nulo<br /> </td> 
+   <td> NoNull(&lt;value&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Rowid</strong><br /> </td> 
+   <td> <strong>RowId</strong><br /> </td> 
    <td> Devuelve el número de línea<br /> </td> 
-   <td> Rowid<br /> </td> 
+   <td> RowId<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Setbit</strong><br /> </td> 
-   <td> Fuerza el indicador en el valor<br /> </td> 
-   <td> Setbit (&lt; identificador &gt;, &lt; flag &gt;)<br /> </td> 
+   <td> <strong>SetBit</strong><br /> </td> 
+   <td> Fuerza la marca en el valor<br /> </td> 
+   <td> SetBit(&lt;identifier&gt;, &lt;flag&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Toboolean</strong><br /> </td> 
-   <td> Convierte un número en un booleano<br /> </td> 
-   <td> Toboolean (&lt; número &gt;)<br /> </td> 
+   <td> <strong>ToBoolean</strong><br /> </td> 
+   <td> Convierte un número en Boolean<br /> </td> 
+   <td> ToBoolean(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Cuando</strong><br /> </td> 
-   <td> Devuelve el valor 1 si la expresión se ha verificado. De lo contrario, devuelve valor 2 (sólo se puede utilizar como parámetro de la función case)<br /> </td> 
-   <td> When (&lt; condition &gt;, &lt; value 1 &gt;)<br /> </td> 
+   <td> <strong>When</strong><br /> </td> 
+   <td> Devuelve el valor 1 si se comprueba la expresión. Otherwise, returns value 2 (may only be used as a parameter of the case function)<br /> </td> 
+   <td> When(&lt;condition&gt;, &lt;value 1&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Newuuid</strong><br /> </td> 
-   <td> Devuelve un nuevo UUID.<br /> </td> 
-   <td> Newuuid<br /> </td> 
+   <td> <strong>newUUID</strong><br /> </td> 
+   <td> Devuelve un UUID nuevo.<br /> </td> 
+   <td> newUUID<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -491,182 +489,182 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
   </tr> 
   <tr> 
    <td> <strong>AllNonNull2</strong><br /> </td> 
-   <td> Indica si todos los parámetros no son nulos y no están vacíos<br /> </td> 
-   <td> Allnonnull 2 (&lt; string &gt;, &lt; string &gt;)<br /> </td> 
+   <td> Indica si todos los parámetros no son nulos y no están vacíos.<br /> </td> 
+   <td> AllNonNull2(&lt;string&gt;, &lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>AllNonNull3</strong><br /> </td> 
-   <td> Indica si todos los parámetros no son nulos y no están vacíos<br /> </td> 
-   <td> Allnonnull 3 (&lt; string &gt;, &lt; string &gt;, &lt; string &gt;)<br /> </td> 
+   <td> Indica si todos los parámetros no son nulos y no están vacíos.<br /> </td> 
+   <td> AllNonNull3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ASCII</strong><br /> </td> 
    <td> Devuelve el valor ASCII del primer carácter de la cadena<br /> </td> 
-   <td> Ascii (&lt; cadena &gt;)<br /> </td> 
+   <td> Ascii(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Char</strong><br /> </td> 
-   <td> Devuelve el carácter correspondiente al código ASCII'n '<br /> </td> 
-   <td> Char (&lt; número &gt;)<br /> </td> 
+   <td> Devuelve el carácter correspondiente al código ASCII “n”.<br /> </td> 
+   <td> Char(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Charindex</strong><br /> </td> 
    <td> Devuelve la posición de la cadena 2 en la cadena 1<br /> </td> 
-   <td> Charindex (&lt; string &gt;, &lt; string &gt;)<br /> </td> 
+   <td> Charindex(&lt;string&gt;, &lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Datalength</strong><br /> </td> 
+   <td> <strong>DataLength</strong><br /> </td> 
    <td> Devuelve el número de caracteres de una cadena<br /> </td> 
-   <td> Datalength (&lt; String &gt;)<br /> </td> 
+   <td> DataLength(&lt;String&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Getline</strong><br /> </td> 
-   <td> Devuelve la línea nth (del 1 al n) de la cadena<br /> </td> 
-   <td> Getline (&lt; cadena &gt;)<br /> </td> 
+   <td> <strong>GetLine</strong><br /> </td> 
+   <td> Devuelve la línea n.º “n” (de 1 a n) de la cadena.<br /> </td> 
+   <td> GetLine(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Ifequals</strong><br /> </td> 
-   <td> Devuelve el tercer parámetro si los dos primeros parámetros son iguales, devuelve el último parámetro<br /> </td> 
-   <td> Ifequals (&lt; string &gt;, &lt; string &gt;, &lt; string &gt;, &lt; string &gt;)<br /> </td> 
+   <td> <strong>IfEquals</strong><br /> </td> 
+   <td> Devuelve el tercer parámetro si los dos primeros parámetros son iguales en caso contrario devuelve el último parámetro<br /> </td> 
+   <td> IfEquals(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Ismemonull</strong><br /> </td> 
-   <td> Indica si el memorando enviado como parámetro es nulo<br /> </td> 
-   <td> Ismemonull (&lt; Memo &gt;)<br /> </td> 
+   <td> <strong>IsMemoNull</strong><br /> </td> 
+   <td> Indica si la nota transferida como parámetro es nula<br /> </td> 
+   <td> IsMemoNull(&lt;Memo&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Juxtwords</strong><br /> </td> 
-   <td> Concatena las dos cadenas pasadas como parámetros. Se agrega un espacio entre cada cadena del valor devuelto.<br /> </td> 
-   <td> Juxtwords (&lt; string &gt;, &lt; string &gt;)<br /> </td> 
+   <td> <strong>JuxtWords</strong><br /> </td> 
+   <td> Conecta las dos cadenas pasadas como parámetros. Se agrega un espacio entre cada cadena en el valor devuelto.<br /> </td> 
+   <td> JuxtWords(&lt;string&gt;, &lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
-   <td> Concatena las tres cadenas pasadas como parámetros. Se agrega un espacio entre cada cadena del valor devuelto.<br /> </td> 
-   <td> Juxtwords 3 (&lt; string &gt;, &lt; string &gt;, &lt; string &gt;)<br /> </td> 
+   <td> Conecta las tres cadenas pasadas como parámetros. Se agrega un espacio entre cada cadena en el valor devuelto.<br /> </td> 
+   <td> JuxtWords3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Lpad</strong><br /> </td> 
-   <td> Devuelve la cadena completada a la izquierda<br /> </td> 
-   <td> Lpad (&lt; cadena &gt;, &lt; número &gt;, &lt; caractère &gt;)<br /> </td> 
+   <td> <strong>LPad</strong><br /> </td> 
+   <td> Devuelve la cadena completa a la izquierda<br /> </td> 
+   <td> LPad(&lt;string&gt;, &lt;number&gt;, &lt;character&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Izquierda</strong><br /> </td> 
-   <td> Devuelve los primeros n caracteres de la cadena<br /> </td> 
-   <td> Left (&lt; string &gt;, &lt; number &gt;)<br /> </td> 
+   <td> Devuelve los primeros “n” caracteres de la cadena<br /> </td> 
+   <td> Left(&lt;string&gt;, &lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Longitud</strong><br /> </td> 
-   <td> Devuelve la longitud de cadena<br /> </td> 
-   <td> Length (&lt; cadena &gt;)<br /> </td> 
+   <td> Devuelve la longitud de la cadena<br /> </td> 
+   <td> Length(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
-   <td> Devuelve la cadena en minúsculas<br /> </td> 
-   <td> Lower (&lt; cadena &gt;)<br /> </td> 
+   <td> Devuelve la cadena en minúscula<br /> </td> 
+   <td> Lower(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
-   <td> Quita los espacios a la izquierda de la cadena<br /> </td> 
-   <td> Ltrim (&lt; cadena &gt;)<br /> </td> 
+   <td> Elimina los espacios a la izquierda de la cadena<br /> </td> 
+   <td> Ltrim(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Md5Digest</strong><br /> </td> 
-   <td> Devuelve una representación hexadecimal de la clave MD 5 de una cadena<br /> </td> 
-   <td> Md 5 Digest (&lt; cadena &gt;)<br /> </td> 
+   <td> Devuelve una representación hexadecimal de la clave MD5 de una cadena<br /> </td> 
+   <td> Md5Digest(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Memocontiene</strong><br /> </td> 
-   <td> Especifica si el memorando contiene la cadena pasada como parámetro<br /> </td> 
-   <td> Memocontains (&lt; memo &gt;, &lt; string &gt;)<br /> </td> 
+   <td> <strong>MemoContains</strong><br /> </td> 
+   <td> Especifica si la nota contiene la cadena transferida como parámetro<br /> </td> 
+   <td> MemoContains(&lt;Memo&gt;, &lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Rpad</strong><br /> </td> 
-   <td> Devuelve la cadena completada a la derecha<br /> </td> 
-   <td> Rpad (&lt; string &gt;, &lt; number &gt;, &lt; carácter &gt;)<br /> </td> 
+   <td> <strong>RPad</strong><br /> </td> 
+   <td> Devuelve la cadena completa a la derecha<br /> </td> 
+   <td> RPad(&lt;string&gt;, &lt;number&gt;, &lt;character&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Reemplazar</strong><br /> </td> 
-   <td> Reemplaza todas las incidencias de una cadena especificada (segundo parámetro) por otro valor de cadena (tercer parámetro) en una cadena (primer parámetro).<br /> </td> 
-   <td> Replace (&lt; String &gt;, &lt; String &gt;, &lt; String &gt;)<br /> </td> 
+   <td> Reemplaza todas las incidencias de un valor de cadena especificado (segundo parámetro) con otro valor de cadena (tercer parámetro) en una cadena (primer parámetro).<br /> </td> 
+   <td> Replace(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Derecha</strong><br /> </td> 
-   <td> Devuelve los últimos n caracteres de la cadena<br /> </td> 
-   <td> Right (&lt; cadena &gt;)<br /> </td> 
+   <td> Devuelve los últimos “n” caracteres de la cadena<br /> </td> 
+   <td> Right(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Rtrim</strong><br /> </td> 
-   <td> Quita los espacios a la derecha de la cadena<br /> </td> 
-   <td> Rtrim (&lt; cadena &gt;)<br /> </td> 
+   <td> Elimina los espacios a la derecha de la cadena<br /> </td> 
+   <td> Rtrim(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha256Digest</strong><br /> </td> 
-   <td> Calcula el hash <strong>SHA 256</strong> estándar para una cadena UTF 8 determinada.<br /> </td> 
-   <td> Sha 256 Digest (&lt; String &gt;)<br /> </td> 
+   <td> Calcula el hash <strong>SHA256</strong> estándar para una cadena UTF8 determinada<br /> </td> 
+   <td> Sha256Digest(&lt;Cadena&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha384Digest</strong><br /> </td> 
-   <td> Calcula el hash <strong>SHA 384</strong> estándar para una cadena UTF 8 determinada.<br /> </td> 
-   <td> Sha 384 Digest (&lt; String &gt;)<br /> </td> 
+   <td> Calcula el hash <strong>SHA384</strong> estándar para una cadena UTF8 determinada<br /> </td> 
+   <td> Sha384Digest(&lt;Cadena&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha512Digest</strong><br /> </td> 
-   <td> Calcula el hash <strong>SHA 512</strong> estándar para una cadena UTF 8 determinada.<br /> </td> 
-   <td> Sha 512 Digest (&lt; String &gt;)<br /> </td> 
+   <td> Calcula el hash <strong>SHA512</strong> estándar para una cadena UTF8 determinada<br /> </td> 
+   <td> Sha512Digest(&lt;Cadena&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Inteligente</strong><br /> </td> 
-   <td> Devuelve la cadena con la primera letra de cada palabra en mayúsculas<br /> </td> 
-   <td> Inteligente (&lt; cadena &gt;)<br /> </td> 
+   <td> Devuelve la cadena con la primera letra de cada palabra en mayúscula<br /> </td> 
+   <td> Smart(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Subcadena</strong><br /> </td> 
-   <td> Extrae la subcadena comenzando por el carácter n 1 de la cadena y con una longitud n 2<br /> </td> 
-   <td> Subcadena (&lt; cadena &gt;, &lt; desplazamiento &gt;, &lt; longitud &gt;)<br /> </td> 
+   <td> Extracts the sub-string starting at character n1 of the string and with a length of n2<br /> </td> 
+   <td> Substring(&lt;string&gt;, &lt;offset&gt;, &lt;length&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Tointlstring</strong><br /> </td> 
+   <td> <strong>ToIntlString</strong><br /> </td> 
    <td> Convierte el número en una cadena<br /> </td> 
-   <td> Tointlstring (&lt; número &gt;)<br /> </td> 
+   <td> ToIntlString(&lt;número&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Tostring</strong><br /> </td> 
+   <td> <strong>ToString</strong><br /> </td> 
    <td> Convierte el número en una cadena<br /> </td> 
-   <td> Tostring (&lt; número &gt;)<br /> </td> 
+   <td> ToString(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Superior</strong><br /> </td> 
    <td> Devuelve la cadena en mayúsculas<br /> </td> 
-   <td> Upper (&lt; cadena &gt;)<br /> </td> 
+   <td> Upper(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Virtuallink</strong><br /> </td> 
-   <td> Devuelve la clave externa de un vínculo pasado como parámetro si los otros dos parámetros son iguales<br /> </td> 
-   <td> Virtuallink (&lt; number &gt;, &lt; number &gt;, &lt; number &gt;)<br /> </td> 
+   <td> <strong>VirtualLink</strong><br /> </td> 
+   <td> Devuelve la clave externa de un vínculo transferido como parámetro si los otros dos parámetros son iguales<br /> </td> 
+   <td> VirtualLink(&lt;number&gt;, &lt;number&gt;, &lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Virtuallinkstr</strong><br /> </td> 
-   <td> Devuelve la clave foreign (text) de un vínculo pasado como parámetro si los otros dos parámetros son iguales<br /> </td> 
-   <td> Virtuallinkstr (&lt; string &gt;, &lt; number &gt;, &lt; number &gt;)<br /> </td> 
+   <td> <strong>VirtualLinkStr</strong><br /> </td> 
+   <td> Devuelve la clave externa (texto) de un enlace transferido como parámetro si los otros dos parámetros son iguales<br /> </td> 
+   <td> VirtualLinkStr(&lt;string&gt;, &lt;number&gt;, &lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>encryption_ aescbcdecrypt</strong><br /> </td> 
-   <td> Descifra un valor cifrado en formato HEX con prefijo "<strong>x</strong>" (primer parámetro) con una clave en formato HEX (segundo parámetro) y un vector de inicialización en formato HEX (tercer parámetro)<br /> </td> 
-   <td> encryption_ aescbcdecrypt (&lt; String &gt;, &lt; String &gt;, &lt; String &gt;)<br /> </td> 
+   <td> <strong>crypt_aescbcDecrypt</strong><br /> </td> 
+   <td> Descifra un valor cifrado en formato HEX con el prefijo "<strong>x</strong>" (primer parámetro) utilizando una clave en formato HEX (segundo parámetro) y un vector de inicialización en formato HEX (tercer parámetro)<br /> </td> 
+   <td> crypt_aescbcDecrypt(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>encryption_ aescbcencrypt</strong><br /> </td> 
-   <td> Codifica el uso de algoritmo AES (modo bloque CBC) una cadena de caracteres (primer parámetro) con una clave (2. º parámetro) y un vector de inicialización (tercer parámetro). La clave y el vector de inicialización deben proporcionarse en una representación hexadecimal (partiendo de <strong>\ x</strong>). El resultado será hexadecimal sin la <strong>\ x</strong>.<br /> Tenga en cuenta que el tamaño de la clave puede ser de 128 bits, 192 bits, 256 bits (16, 24, 32 caracteres hexadecimales) pero le recomendamos que utilice 256 bits y un IV aleatorizado de la misma longitud que la clave.<br /> </td> 
-   <td> encryption_ aescbcencrypt (&lt; String &gt;, &lt; String &gt;, &lt; String &gt;)<br /> Por ejemplo: encryption_ aescbcencrypt (johndoe@example.com, "<strong>\ x 0123456789 ABCDEF 0123456789 ABCDEF</strong>", "<strong>\ x 0123456789 ABCDEFFEDCBA 9876543210</strong>")<br /> </td> 
+   <td> <strong>Encryption_aescbcEncrypt</strong><br /> </td> 
+   <td> Codifica utilizando el algoritmo AES (modo de bloque CBC) una cadena de caracteres (primer parámetro) con una clave (segundo parámetro) y un vector de inicialización (tercer parámetro). La clave y el vector de inicialización deben proporcionarse en una representación hexadecimal (comenzando por <strong>\x</strong>). El resultado será hexadecimal sin <strong>\x</strong>.<br /> Tenga en cuenta que el tamaño de la clave puede ser de 128 bits, 192 bits, 256 bits (16, 24, 32 caracteres hexadecimales) pero le recomendamos que utilice 256 bits y una IV aleatorizada de la misma longitud que la clave.<br /> </td> 
+   <td> encrypation_aescbcEncrypt(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br /> Por ejemplo: Encryption_aescbcEncrypt(johndoe@example.com, "<strong>\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\x0123456789ABCDEFFEDCCCCDCDEFFEDCBA 9876543210</strong>")<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Agrega {#aggregates}
+## Acumulados {#aggregates}
 
-Las funciones de agregación solo están disponibles al [agregar datos adicionales](../../automating/using/query.md#enriching-data) a partir **[!UICONTROL Query]** de una actividad del flujo de trabajo.
+Las funciones de agregación solo están disponibles cuando se [agregan datos](../../automating/using/query.md#enriching-data) adicionales de la **[!UICONTROL Query]** actividad de un flujo de trabajo.
 
-Las funciones agregadas se utilizan para realizar cálculos en un conjunto de valores.
+Las funciones de agregado se utilizan para realizar cálculos en un conjunto de valores.
 
 <table> 
  <tbody> 
@@ -676,39 +674,39 @@ Las funciones agregadas se utilizan para realizar cálculos en un conjunto de va
    <td> <strong>Sintaxis</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Promedio</strong>, promedio<br /> </td> 
+   <td> <strong>Promedio</strong>, Promedio<br /> </td> 
    <td> Devuelve el promedio en una columna numérica.<br /> </td> 
-   <td> Avg (&lt; valor &gt;)<br /> </td> 
+   <td> Avg(&lt;value&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Recuento</strong>, Recuento (excepto NULL)<br /> </td> 
-   <td> Cuenta los valores no nulos de una columna.<br /> </td> 
-   <td> Count (&lt; value &gt;)<br /> </td> 
+   <td> <strong>Count</strong>, Count (excepto NULL)<br /> </td> 
+   <td> Counts the non-null values in a column.<br /> </td> 
+   <td> Count(&lt;value&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Countall</strong>, Count all<br /> </td> 
+   <td> <strong>CountAll</strong>, Count all<br /> </td> 
    <td> Cuenta todos los valores (incluidos los valores nulos y los duplicados).<br /> </td> 
-   <td> Countall ()<br /> </td> 
+   <td> CountAll()<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Recuento distinto y</strong>diferenciado<br /> </td> 
-   <td> Cuenta los valores no nulos y distintos de una columna.<br /> </td> 
-   <td> Countdistinct (&lt; value &gt;)<br /> </td> 
+   <td> <strong>Contrapartida</strong>, recuento diferente<br /> </td> 
+   <td> Cuenta los valores distintos y no nulos de una columna.<br /> </td> 
+   <td> Countdistinct(&lt;value&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Máx</strong>., Máx.<br /> </td> 
-   <td> Devuelve el valor máximo de una columna numérica, de cadena o numérica.<br /> </td> 
-   <td> Max (&lt; value &gt;)<br /> </td> 
+   <td> <strong>Máx</strong>., máx.<br /> </td> 
+   <td> Devuelve el valor máximo en una columna numérica, de cadena o de fecha.<br /> </td> 
+   <td> Max(&lt;value&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Min</strong>, Min<br /> </td> 
-   <td> Devuelve el valor mínimo en una columna numérica, de cadena o numérica.<br /> </td> 
-   <td> Min (&lt; value &gt;)<br /> </td> 
+   <td> <strong>Mín</strong>., Mín.<br /> </td> 
+   <td> Devuelve el valor mínimo en una columna numérica, de cadena o de fecha.<br /> </td> 
+   <td> Min(&lt;value&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Suma</strong>, suma<br /> </td> 
-   <td> Devuelve la suma de los valores en una columna numérica.<br /> </td> 
-   <td> Sum (&lt; value &gt;)<br /> </td> 
+   <td> <strong>Sum</strong>, Sum<br /> </td> 
+   <td> Devuelve la suma de los valores de una columna numérica.<br /> </td> 
+   <td> Sum(&lt;value&gt;)<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -727,22 +725,22 @@ Las funciones de representación se utilizan para ordenar valores.
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 
    <td> Aplica un orden descendente<br /> </td> 
-   <td> Desc (&lt; valor 1 &gt;)<br /> </td> 
+   <td> Desc(&lt;value 1&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Orderby</strong><br /> </td> 
+   <td> <strong>OrderBy</strong><br /> </td> 
    <td> Ordena el resultado dentro de la partición<br /> </td> 
-   <td> Orderby (&lt; value 1 &gt;)<br /> </td> 
+   <td> OrderBy(&lt;value 1&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Partitionby</strong><br /> </td> 
-   <td> Particiones el resultado de una consulta en una tabla<br /> </td> 
-   <td> Partitionby (&lt; value 1 &gt;)<br /> </td> 
+   <td> <strong>PartitionBy</strong><br /> </td> 
+   <td> Particiona el resultado de una consulta en una tabla<br /> </td> 
+   <td> PartitionBy(&lt;value 1&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Rownum</strong><br /> </td> 
-   <td> Genera un número de línea basado en la partición de tabla y en una secuencia de orden. Esta función no es compatible con MySQL<br /> </td> 
-   <td> Rownum (partitionby (&lt; value 1 &gt;), orderby (&lt; value 1 &gt;))<br /> </td> 
+   <td> <strong>RowNum</strong><br /> </td> 
+   <td> Genera un número de línea basado en la partición de tabla y en una secuencia de ordenación. Esta función no es compatible con MySQL<br /> </td> 
+   <td> RowNum(PartitionBy(&lt;value 1&gt;), OrderBy(&lt;value 1&gt;))<br /> </td> 
   </tr> 
  </tbody> 
 </table>
