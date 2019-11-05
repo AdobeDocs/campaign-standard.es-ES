@@ -1,8 +1,6 @@
 ---
-title: Configuración del canal SMS
-seo-title: Configuración del canal SMS
-description: Configuración del canal SMS
-seo-description: '"Descubra los pasos de configuración de SMS: enrutamiento, codificación, formatos y propiedades avanzadas. "'
+title: Configuración de canales de SMS
+description: '"Descubra los pasos de configuración de SMS: enrutamiento, codificación, formatos y propiedades avanzadas. "'
 page-status-flag: nunca activado
 uuid: 5f13dbd5-9522-4199-8d9a-44c397cb2458
 contentOwner: sauviat
@@ -15,12 +13,12 @@ context-tags: extAccountMobile,información general;extAccount,main;delivery,sms
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0c455e965d21996ffbadeddf336c6709ce8ee8f3
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Configuración del canal SMS{#configuring-sms-channel}
+# Configuración de canales de SMS{#configuring-sms-channel}
 
 Para enviar mensajes SMS, un administrador debe configurar una o varias cuentas externas en el menú **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL SMS]** &gt; **[!UICONTROL SMS accounts]** .
 
