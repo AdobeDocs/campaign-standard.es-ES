@@ -1,8 +1,6 @@
 ---
 title: '"Caso de uso del flujo de trabajo: No abridores de redireccionamiento"'
-seo-title: '"Caso de uso del flujo de trabajo: No abridores de redireccionamiento"'
 description: '"Caso de uso del flujo de trabajo: No abridores de redireccionamiento"'
-seo-description: '"Caso de uso del flujo de trabajo: No abridores de redireccionamiento"'
 page-status-flag: nunca activado
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: 'flujo de trabajo,caso de uso,consulta,espera,entrega '
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4a38b1f3d7d6dbf12fa71c819147bf2d91acb0c4
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -64,7 +62,7 @@ Puede enviar un correo electrónico a los clientes y luego un mensaje de correo 
 1. Seleccione el operador entre reglas como **[!UICONTROL except]**.
 1. Click **[!UICONTROL Confirm]**.
 
-## Creación de una entrega de sms{#creating-a-sms-delivery}
+## Creating a sms delivery{#creating-a-sms-delivery}
 
 1. Arrastre y suelte un envío de SMS después de cada segmento.
 1. Haga clic en la actividad y seleccione ![](assets/edit_darkgrey-24px.png) editar.
@@ -83,6 +81,6 @@ Para obtener más información, consulte [Diseño de un sms](../../channels/usin
 **Temas relacionados:**
 
 * [Consulta](../../automating/using/query.md)
-* [Envío SMS](../../automating/using/sms-delivery.md)
+* [Envío de SMS](../../automating/using/sms-delivery.md)
 * [Envío de correo electrónico](../../automating/using/email-delivery.md)
 * [Canal de correo electrónico](../../channels/using/creating-an-email.md)
