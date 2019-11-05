@@ -1,8 +1,6 @@
 ---
 title: Personalización de un mensaje en la aplicación
-seo-title: Personalización de un mensaje en la aplicación
-description: Personalización de un mensaje en la aplicación
-seo-description: Aprenda a personalizar los mensajes en la aplicación con diversas opciones.
+description: Aprenda a personalizar los mensajes en la aplicación con diversas opciones.
 page-status-flag: nunca activado
 uuid: 1d9c08ed-4de5-440d-bf51-4a437eec67d5
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: entrega,inAppContent,retroceso
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
