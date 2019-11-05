@@ -1,8 +1,6 @@
 ---
 title: Acerca de la mensajería en la aplicación
-seo-title: Acerca de la mensajería en la aplicación
-description: Acerca de la mensajería en la aplicación
-seo-description: Mostrar mensaje o alerta dentro de la aplicación móvil con mensajería en la aplicación.
+description: Mostrar mensaje o alerta dentro de la aplicación móvil con mensajería en la aplicación.
 page-status-flag: nunca activado
 uuid: 6784cdfc-6db9-41dd-9fbb-2e756a5bcb5f
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: entrega,activadores,devolución
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 96001355220a9dd0cd3851d3f7de9f4dc8ea2782
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
