@@ -1,8 +1,6 @@
 ---
 title: Descubrimiento de canales de comunicación
-seo-title: Descubrimiento de canales de comunicación
-description: Descubrimiento de canales de comunicación
-seo-description: Obtenga información sobre cómo enviar mensajes personalizados en varios canales y crear campañas entre canales para dirigirse mejor a los destinatarios.
+description: Obtenga información sobre cómo enviar mensajes personalizados en varios canales y crear campañas entre canales para dirigirse mejor a los destinatarios.
 page-status-flag: nunca activado
 uuid: 5d61d8df-8256-4f28-8dd3-e791891e312f
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 96001355220a9dd0cd3851d3f7de9f4dc8ea2782
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
