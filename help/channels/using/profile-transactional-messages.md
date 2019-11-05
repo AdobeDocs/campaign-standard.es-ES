@@ -1,8 +1,6 @@
 ---
 title: Mensajes transaccionales de perfil
-seo-title: Mensajes transaccionales de perfil
-description: Mensajes transaccionales de perfil
-seo-description: Obtenga información sobre cómo crear y publicar un mensaje transaccional de perfil.
+description: Obtenga información sobre cómo crear y publicar un mensaje transaccional de perfil.
 page-status-flag: nunca activado
 uuid: a8efe979-74ae-46ff-a305-b86a90679581
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -42,7 +40,7 @@ Para que el evento active el envío de un mensaje transaccional, debe personaliz
 
 ## Envío de un mensaje transaccional de perfil {#sending-a-profile-transactional-message}
 
-Los pasos para crear, personalizar y publicar un mensaje transaccional de perfil son los mismos que para un mensaje transaccional de evento. Consulte Mensajes [transaccionales](../../channels/using/event-transactional-messages.md)de eventos.
+Los pasos para crear, personalizar y publicar un mensaje transaccional de perfil son los mismos que para un mensaje transaccional de evento. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
 Las diferencias se enumeran a continuación.
 
