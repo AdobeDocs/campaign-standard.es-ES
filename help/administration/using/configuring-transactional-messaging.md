@@ -1,8 +1,6 @@
 ---
 title: Configuración de la mensajería transaccional
-seo-title: Configuración de la mensajería transaccional
-description: Configuración de la mensajería transaccional
-seo-description: Obtenga información sobre cómo configurar los mensajes transaccionales.
+description: Obtenga información sobre cómo configurar los mensajes transaccionales.
 page-status-flag: nunca activado
 uuid: 4caeadbe-f4a7-43ce-986d-e99fa9ca0d0d
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -63,7 +61,7 @@ Los pasos para agregar y modificar campos son los mismos que para los recursos [
 
 >[!NOTE]
 >
->Si desea crear un mensaje transaccional multilingüe, defina un atributo de evento adicional con el **[!UICONTROL AC_language]** ID. Esto solo se aplica a los mensajes transaccionales de eventos. Una vez publicado el evento, los pasos para editar el contenido de un mensaje transaccional multilingüe son los mismos que para un correo electrónico estándar multilingüe. Consulte [Creación de un correo electrónico](../../channels/using/creating-a-multilingual-email.md)multilingüe.
+>Si desea crear un mensaje transaccional multilingüe, defina un atributo de evento adicional con el **[!UICONTROL AC_language]** ID. Esto solo se aplica a los mensajes transaccionales de eventos. Una vez publicado el evento, los pasos para editar el contenido de un mensaje transaccional multilingüe son los mismos que para un correo electrónico estándar multilingüe. See [Creating a multilingual email](../../channels/using/creating-a-multilingual-email.md).
 
 ## Definición de colecciones de datos {#defining-data-collections}
 
@@ -160,7 +158,7 @@ Antes de poder usar el evento, debe previsualizarlo y publicarlo.
 >
 >Cada vez que modifique el evento, debe hacer clic de **[!UICONTROL Publish]** nuevo para generar la API de REST actualizada que utilizará el desarrollador del sitio web.
 
-Una vez publicado el evento, se crea automáticamente un mensaje transaccional vinculado al nuevo evento. Para que este evento active el envío de un mensaje transaccional, debe modificar y publicar el mensaje que se acaba de crear. Consulte Mensajes [transaccionales](../../channels/using/event-transactional-messages.md)de eventos.
+Una vez publicado el evento, se crea automáticamente un mensaje transaccional vinculado al nuevo evento. Para que este evento active el envío de un mensaje transaccional, debe modificar y publicar el mensaje que se acaba de crear. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
 Puede acceder al mensaje transaccional que se creó directamente desde el vínculo en el área izquierda.
 
