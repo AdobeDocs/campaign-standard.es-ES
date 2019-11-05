@@ -1,8 +1,6 @@
 ---
 title: 'Diseño de correos electrónicos desde cero '
-seo-title: 'Diseño de correos electrónicos desde cero '
-description: 'Diseño de correos electrónicos desde cero '
-seo-description: Descubra cómo diseñar correos electrónicos desde cero en el Diseñador de correo electrónico.
+description: Descubra cómo diseñar correos electrónicos desde cero en el Diseñador de correo electrónico.
 page-status-flag: nunca activado
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -32,7 +30,7 @@ A continuación se indican los pasos principales para crear y diseñar contenido
 1. Inserte componentes y fragmentos de contenido en los componentes de estructura. Consulte [Adición de fragmentos y componentes](#defining-the-email-structure)de contenido.
 1. Agregue imágenes y edite el texto del correo electrónico. Consulte [Inserción de imágenes](../../designing/using/images.md#inserting-images).
 1. Personalice su correo electrónico agregando campos de personalización, vínculos, etc. Consulte [Inserción de un campo](../../designing/using/personalization.md#inserting-a-personalization-field)de personalización, [Inserción de un vínculo](../../designing/using/links.md#inserting-a-link) y [Definición de contenido dinámico en un correo electrónico](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
-1. Defina la línea de asunto de su correo electrónico. Consulte [Personalización de la línea de asunto de un correo electrónico](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
+1. Defina la línea de asunto de su correo electrónico. See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
 1. Previsualice el correo electrónico.
 1. Guarde el contenido y continúe con el mensaje después de asegurarse de haber definido una audiencia y de haber programado correctamente el envío.
 
