@@ -1,8 +1,6 @@
 ---
-title: Personalización de mensajes de campaña con datos del punto de interés
-seo-title: Personalización de mensajes de campaña con datos del punto de interés
-description: Personalización de mensajes de campaña con datos del punto de interés
-seo-description: Aprenda a crear un mensaje personalizado basado en la ubicación de sus suscriptores con la integración de datos del punto de interés.
+title: Personalización de mensajes de Campaign con datos de Puntos de interés
+description: Aprenda a crear un mensaje personalizado basado en la ubicación de sus suscriptores con la integración de datos del punto de interés.
 page-status-flag: nunca activado
 uuid: d74c3e55-f130-441b-bc2a-06dcd5d9784
 contentOwner: sauviat
@@ -14,12 +12,12 @@ discoiquuid: a1736ba3-5121-4d01-bf04-ebb7e701e2e0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Personalización de mensajes de campaña con datos del punto de interés{#personalizing-campaign-messages-with-point-of-interest-data}
+# Personalización de mensajes de Campaign con datos de Puntos de interés{#personalizing-campaign-messages-with-point-of-interest-data}
 
 En Adobe Campaign, puede utilizar los datos de puntos de interés recopilados de los suscriptores de la aplicación móvil para enviarles mensajes de marketing personalizados, como un correo electrónico.
 
