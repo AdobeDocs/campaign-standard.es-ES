@@ -1,8 +1,6 @@
 ---
-title: Llamada a un flujo de trabajo con parámetros externos
-seo-title: Llamada a un flujo de trabajo con parámetros externos
-description: Llamada a un flujo de trabajo con parámetros externos
-seo-description: Esta sección detalla cómo llamar a un flujo de trabajo con parámetros externos.
+title: Invocación de un flujo de trabajo con parámetros externos
+description: Esta sección detalla cómo llamar a un flujo de trabajo con parámetros externos.
 page-status-flag: nunca activado
 uuid: beccd1b6-8e6d-4504-9152-9ff537459c4a
 contentOwner: sauviat
@@ -14,12 +12,12 @@ discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Llamada a un flujo de trabajo con parámetros externos{#calling-a-workflow-with-external-parameters}
+# Invocación de un flujo de trabajo con parámetros externos{#calling-a-workflow-with-external-parameters}
 
 Campaign Standard le permite llamar a un flujo de trabajo con parámetros (un nombre de audiencia para el objetivo, un nombre de archivo para importar, una parte del contenido del mensaje, etc.). De este modo, puede integrar fácilmente las automatizaciones de su campaña con su sistema externo.
 
@@ -87,7 +85,7 @@ Es posible supervisar las variables de eventos disponibles en el flujo de trabaj
 
    ![](assets/extsignal_monitoring_3.png)
 
-## Personalización de un flujo de trabajo con parámetros externos {#customizing-a-workflow-with-external-parameters}
+## Customizing a workflow with external parameters {#customizing-a-workflow-with-external-parameters}
 
 Una vez activado el flujo de trabajo, los parámetros se ingieren en las variables de eventos y se pueden utilizar para personalizar las actividades del flujo de trabajo.
 
