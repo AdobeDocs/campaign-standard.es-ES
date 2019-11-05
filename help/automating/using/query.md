@@ -1,8 +1,6 @@
 ---
 title: Consulta
-seo-title: Consulta
-description: Consulta
-seo-description: La actividad Consulta le permite filtrar y extraer una población de elementos de la base de datos de Adobe Campaign.
+description: La actividad Consulta le permite filtrar y extraer una población de elementos de la base de datos de Adobe Campaign.
 page-status-flag: nunca activado
 uuid: b3c629fa-370e-481c-b347-fcf9f5a5e847
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: consulta,principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
