@@ -1,8 +1,6 @@
 ---
 title: Actividades de marketing
-seo-title: Actividades de marketing
-description: Actividades de marketing
-seo-description: '"Conozca cómo crear y administrar sus actividades de marketing: campañas, correo electrónico, SMS y envíos de notificaciones push, páginas de aterrizaje, flujos de trabajo. Puede diseñar fácilmente una nueva actividad, editar una existente y consultar su estado y validez".'
+description: '"Conozca cómo crear y administrar sus actividades de marketing: campañas, correo electrónico, SMS y envíos de notificaciones push, páginas de aterrizaje, flujos de trabajo. Puede diseñar fácilmente una nueva actividad, editar una existente y consultar su estado y validez".'
 page-status-flag: nunca activado
 uuid: 5d45a935-6d03-4b27-aabd-7c47c11241ba
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: actividad,información general
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
