@@ -1,8 +1,6 @@
 ---
 title: Acerca de los SMS y el diseño de contenido push
-seo-title: Acerca de los SMS y el diseño de contenido push
-description: Acerca de los SMS y el diseño de contenido push
-seo-description: Obtenga información sobre el editor utilizado para modificar el contenido de los mensajes SMS y las notificaciones push en Adobe Campaign.
+description: Obtenga información sobre el editor utilizado para modificar el contenido de los mensajes SMS y las notificaciones push en Adobe Campaign.
 page-status-flag: nunca activado
 uuid: 99277e46-e4f7-49a9-ba27-b87880f90da
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: entrega,smsContent,retroceso
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
