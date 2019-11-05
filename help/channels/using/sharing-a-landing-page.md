@@ -1,72 +1,70 @@
 ---
 title: Uso compartido de una página de aterrizaje
-seo-title: Uso compartido de una página de aterrizaje
-description: Uso compartido de una página de aterrizaje
-seo-description: Descubra cómo probar y publicar una página de aterrizaje en Adobe Campaign.
-page-status-flag: no activado nunca
-uuid: fb 7 b 087 a -3292-496 c-bc 41-2 e 3012 bacf 59
+description: Obtenga información sobre cómo probar y publicar una página de aterrizaje en Adobe Campaign.
+page-status-flag: nunca activado
+uuid: fb7b087a-3292-496c-bc41-2e3012bacf59
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: canales
-content-type: reference
+content-type: referencia
 topic-tags: landing-pages
-discoiquuid: f 7 d 4 bb 71-f 957-4 f 86-97 c 7-8 ac 0 a 0030026
+discoiquuid: f7d4bb71-f957-4f86-97c7-8ac0a0030026
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Sharing a landing page{#sharing-a-landing-page}
+# Uso compartido de una página de aterrizaje{#sharing-a-landing-page}
 
-## About landing page publication {#about-landing-page-publication}
+## Acerca de la publicación de la página de aterrizaje {#about-landing-page-publication}
 
-Antes de publicar una página de aterrizaje, debe realizar pruebas: valide la ejecución, configure el acceso y configure el final de su página de aterrizaje. Estos pasos son requisitos previos y deben ejecutarse con precaución.
+Antes de publicar una página de aterrizaje, debe realizar pruebas: valide la ejecución, configure el acceso y configure el final de la vida útil de la página de aterrizaje. Estos pasos son requisitos previos y deben ejecutarse con precaución.
 
-## Testing the landing page {#testing-the-landing-page-}
+## Prueba de la página de aterrizaje {#testing-the-landing-page-}
 
 Como la página de aterrizaje afectará a la plataforma y a los datos, debe probar cuidadosamente su ejecución. Para ello:
 
-1. Click the **[!UICONTROL Test]** button in the action bar of the landing page.
-1. En la pantalla de prueba, seleccione un perfil de prueba y un servicio de prueba si la página de aterrizaje va a gestionar suscripciones.
+1. Haga clic en el **[!UICONTROL Test]** botón de la barra de acciones de la página de aterrizaje.
+1. En la pantalla de prueba, seleccione un perfil de prueba y un servicio de prueba para administrar las suscripciones en la página de aterrizaje.
 
    ![](assets/lp_test_2.png)
 
-1. Introduzca los datos en los campos y seleccione las opciones.
+1. Introduzca datos en los campos y seleccione opciones.
 1. Envíe la página de aterrizaje y compruebe las actualizaciones en la base de datos.
 
    >[!CAUTION]
    >
-   >Cuando se envía el formulario, se actualiza el servicio y el perfil utilizados.
+   >Cuando se envía el formulario, se actualizan el servicio y el perfil utilizados.
 
-1. Repita este proceso con varios perfiles y datos.
+1. Repita esto con varios perfiles y datos.
 
    También puede generar la miniatura de la página de aterrizaje desde esta pantalla.
 
-## Setting up validity parameters {#setting-up-validity-parameters}
+## Configuración de parámetros de validez {#setting-up-validity-parameters}
 
-Antes de publicar, por razones de seguridad y rendimiento de plataforma, le recomendamos encarecidamente que establezca una fecha de caducidad en las propiedades de página de aterrizaje. En la fecha seleccionada, la página de aterrizaje se cancelará automáticamente. Para ello:
+Antes de publicar, por motivos de seguridad y rendimiento de la plataforma, le recomendamos encarecidamente que establezca una fecha de caducidad en las propiedades de la página de aterrizaje. En la fecha seleccionada, la página de aterrizaje se cancelará automáticamente la publicación. Para ello:
 
-1. Edit the landing page properties accessed via the ![](assets/edit_darkgrey-24px.png) button in the landing page dashboard.
+1. Edite las propiedades de la página de aterrizaje a las que se accede mediante el ![](assets/edit_darkgrey-24px.png) botón del tablero de la página de aterrizaje.
 
    ![](assets/lp_edit_properties_button.png)
 
-1. Set up expiration date and time in the **[!UICONTROL Publication]** section: the landing page will automatically be unpublished on the specified date and therefore no longer be available.
+1. Configure la fecha y hora de caducidad en la **[!UICONTROL Publication]** sección: la página de aterrizaje se cancelará automáticamente en la fecha especificada y, por lo tanto, ya no estará disponible.
 
-   Puede seleccionar la zona horaria que se debe tener en cuenta para esta fecha y hora.
+   Puede seleccionar el huso horario que se tendrá en cuenta para esta fecha y hora.
 
-1. Definir una dirección URL de redirección para redirigir a los visitantes al intentar acceder a una página de aterrizaje no activa.
+1. Defina una dirección URL de redirección para redireccionar a los visitantes al intentar acceder a una página de aterrizaje no activa.
 
    ![](assets/lp_settings_general.png)
 
 >[!CAUTION]
 >
->También puede definir una fecha y una hora de implementación: la página de aterrizaje se publicará automáticamente en la fecha especificada.
+>También puede definir una fecha y hora de implementación: la página de aterrizaje se publicará automáticamente en la fecha especificada.
 
-## Publishing a landing page {#publishing-a-landing-page}
+## Publicación de una página de aterrizaje {#publishing-a-landing-page}
 
-Cuando publica una página de aterrizaje, ésta se activa y los visitantes pueden acceder a ella.
+Al publicar una página de aterrizaje, esta se activa y los visitantes pueden acceder a ella.
 
-You can unpublish or update and republish your landing page at any time, via the **[!UICONTROL Publish]** button. Sin embargo, si falla la publicación y todavía no ha cancelado la publicación de la página de aterrizaje, la primera versión permanecerá en línea.
+Puede cancelar la publicación o actualizar y volver a publicar la página de aterrizaje en cualquier momento, mediante el **[!UICONTROL Publish]** botón. Sin embargo, si la republicación falla y aún no ha cancelado la publicación de la página de aterrizaje, la primera versión permanecerá en línea.
