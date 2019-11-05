@@ -1,25 +1,23 @@
 ---
 title: Pasos clave para agregar un recurso
-seo-title: Pasos clave para agregar un recurso
-description: Pasos clave para agregar un recurso
-seo-description: Descubra los pasos clave para agregar un recurso en el modelo de datos de Adobe Campaign.
-page-status-flag: no activado nunca
-uuid: b 8 a 32659-17 ec -4 e 3 e -92 f 2-0 a 0 d 6 aaf 2629
+description: Aprenda aquí los pasos clave para agregar un recurso en el modelo de datos de Adobe Campaign.
+page-status-flag: nunca activado
+uuid: b8a32659-17ec-4e3e-92f2-0a0d6aaf2629
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: desarrollar
-content-type: reference
-topic-tags: adición-ampliación-a-recurso
-discoiquuid: 7 e 130 e 62-3 f 6 e -41 cc -8108-e 64127 d 8 d 6 ec
+products: SG_CAMPAIGN/STANDARD
+audience: desarrollo
+content-type: referencia
+topic-tags: agregar o ampliar un recurso
+discoiquuid: 7e130e62-3f6e-41cc-8108-e64127d8d6ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e8348a9c262b5aab17ddfd1c9e69705687919e94
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Key steps to add a resource{#key-steps-to-add-a-resource}
+# Pasos clave para agregar un recurso{#key-steps-to-add-a-resource}
 
 Para crear un nuevo recurso o ampliar un recurso existente con campos nuevos, se requieren varios pasos:
 
@@ -31,5 +29,5 @@ Para crear un nuevo recurso o ampliar un recurso existente con campos nuevos, se
 
 >[!CAUTION]
 >
->La creación y modificación de recursos son operaciones sensibles que solo deben ser realizadas por usuarios expertos.
+>La creación y modificación de recursos son operaciones sensibles que deben realizar únicamente los usuarios expertos.
 
