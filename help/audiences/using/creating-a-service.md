@@ -1,8 +1,6 @@
 ---
 title: Creación de un servicio
-seo-title: Creación de un servicio
-description: Creación de un servicio
-seo-description: Obtenga información sobre cómo crear su primer servicio y configurarlo para enviar confirmaciones de correo electrónico a sus suscriptores.
+description: Obtenga información sobre cómo crear su primer servicio y configurarlo para enviar confirmaciones de correo electrónico a sus suscriptores.
 page-status-flag: nunca activado
 uuid: 0d95d852-0f22-4b7b-b301-8fb4844c3ca2
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: servicio,asistente;servicio,principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 60424543028fa4df548d6d5bcfb1e9acc4131132
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
