@@ -1,41 +1,39 @@
 ---
-title: '" Paso 2: Publicar la extensión "'
-seo-title: '" Paso 2: Publicar la extensión "'
-description: '" Paso 2: Publicar la extensión "'
-seo-description: null
-page-status-flag: no activado nunca
-uuid: 0 c 944 ed 0-3007-4 c 1 b -8960-41 c 7 ef 6121 cf
+title: '"Paso 2: Publicar la extensión"'
+description: null
+page-status-flag: nunca activado
+uuid: 0c944ed0-3007-4c1b-8960-41c7ef6121cf
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: desarrollar
-content-type: reference
+products: SG_CAMPAIGN/STANDARD
+audience: desarrollo
+content-type: referencia
 topic-tags: use-case—extension-the-api
-discoiquuid: b 57042 e 5-5073-4 e 79-a 3 e 3-1 eed 824 ac 537
+discoiquuid: b57042e5-5073-4e79-a3e3-1eed824ac537
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Step 2: Publish the extension{#step-publish-the-extension}
+# Paso 2: Publicar la extensión{#step-publish-the-extension}
 
-1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]**, then **[!UICONTROL Publication]**.
+1. En el menú avanzado, a través del logotipo de Adobe Campaign, seleccione **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** y, a continuación, **[!UICONTROL Publication]**.
 1. Click the **[!UICONTROL Prepare Publication]** button.
-1. Select the **[!UICONTROL Create the Profiles & Services Ext API]** option.
+1. Seleccione la **[!UICONTROL Create the Profiles & Services Ext API]** opción.
 
    ![](assets/create-profile-and-services-api.png)
 
    >[!NOTE]
    >
-   >Si la API ya se ha publicado (significa que ya ha marcado esta opción una vez, para este recurso u otro recurso), se forzará la actualización de la API.
+   >Si la API ya se ha publicado (es decir, si ya ha marcado esta opción una vez, para este recurso u otro recurso), se forzará la actualización de la API.
 
-1. Click the **[!UICONTROL Profiles & Services API Preview]** tab.
+1. Haga clic en la **[!UICONTROL Profiles & Services API Preview]** ficha.
 
-   Esto mostrará los cambios que la publicación de la API aplicará a la versión actual de profilesandservicesext API.
+   Esto le mostrará los cambios que la publicación de la API aplicará a la versión actual de la API profileAndServicesExt.
 
-   Aquí, el campo Código de promoción (ID: Cusbrand) se insertará en la API.
+   Aquí, el campo Código promocional (ID: cusBrand) se insertará en la API.
 
    ![](assets/extendpandsapi_diff.png)
 
