@@ -1,8 +1,6 @@
 ---
 title: Enriquecimiento de la base de datos
-seo-title: Enriquecimiento de la base de datos
-description: Enriquecimiento de la base de datos
-seo-description: Obtenga información sobre los distintos métodos para enriquecer la base de datos.
+description: Obtenga información sobre los distintos métodos para enriquecer la base de datos.
 page-status-flag: nunca activado
 uuid: 71f53808-0309-49f6-a4ee-3446eac9758a
 contentOwner: lemaitre
@@ -14,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2e114c4a9a6d6189c192ba72140a0e0b55f325ed
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
