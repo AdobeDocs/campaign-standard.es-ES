@@ -1,8 +1,6 @@
 ---
 title: Personalización de mensajes SMS
-seo-title: Personalización de mensajes SMS
-description: Personalización de mensajes SMS
-seo-description: Descubra la especificidad de las opciones de transliteración al personalizar los mensajes SMS.
+description: Descubra la especificidad de las opciones de transliteración al personalizar los mensajes SMS.
 page-status-flag: nunca activado
 uuid: 123fe70c-c279-40a3-88b6-6bfb2453ec83
 contentOwner: sauviat
@@ -15,7 +13,7 @@ delivercontext-tags: deliveryCreation,asistente;delivery,smsContent,back;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -40,4 +38,4 @@ Aquí tomamos un ejemplo de mensaje SMS que contiene campos de personalización 
 
 ## Enviador SMS {#sms-sender}
 
-Puede personalizar el nombre del remitente del SMS. Para obtener más información sobre esto, consulte la sección de configuración [de](../../administration/using/configuring-sms-channel.md#configuring-sms-properties) SMS.
+Puede personalizar el nombre del remitente del SMS. For more on this, refer to the [SMS configuration](../../administration/using/configuring-sms-channel.md#configuring-sms-properties) section.
