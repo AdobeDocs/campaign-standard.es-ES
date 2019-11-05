@@ -1,8 +1,6 @@
 ---
-title: Configuración del canal de correo electrónico
-seo-title: Configuración del canal de correo electrónico
-description: Configuración del canal de correo electrónico
-seo-description: Obtenga información sobre cómo configurar el canal de correo electrónico.
+title: Configuración de canales de correo electrónico
+description: Obtenga información sobre cómo configurar el canal de correo electrónico.
 page-status-flag: nunca activado
 uuid: 9fddb655-b445-41f3-9b02-5d356fc88aa1
 contentOwner: sauviat
@@ -15,12 +13,12 @@ context-tags: extAccountEmail,información general;emailConfig,principal;ruleSet
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Configuración del canal de correo electrónico{#configuring-email-channel}
+# Configuración de canales de correo electrónico{#configuring-email-channel}
 
 ## Parámetros de canal de correo electrónico {#email-channel-parameters}
 
