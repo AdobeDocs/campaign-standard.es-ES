@@ -1,8 +1,6 @@
 ---
-title: Segmentación y segmentación
-seo-title: Segmentación y segmentación
-description: Segmentación y segmentación
-seo-description: '"Obtenga información sobre perfiles, segmentación y creación de audiencias en Campaign: cree audiencias, importe contactos para compartir audiencias con soluciones de Experience Cloud y evite la fatiga del marketing".'
+title: Segmentación y direccionamiento
+description: '"Obtenga información sobre perfiles, segmentación y creación de audiencias en Campaign: cree audiencias, importe contactos para compartir audiencias con soluciones de Experience Cloud y evite la fatiga del marketing".'
 page-status-flag: nunca activado
 uuid: 71f53808-0309-49f6-a4ee-3446eac9758a
 contentOwner: sauviat
@@ -14,12 +12,12 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Segmentación y segmentación{#segmentation-and-targeting}
+# Segmentación y direccionamiento{#segmentation-and-targeting}
 
 ## Profiles {#profiles}
 
