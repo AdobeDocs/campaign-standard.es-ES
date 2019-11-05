@@ -1,8 +1,6 @@
 ---
 title: 'Lista de componentes '
-seo-title: 'Lista de componentes '
-description: 'Lista de componentes '
-seo-description: Aquí encontrará la lista de todos los componentes disponibles en los informes dinámicos, así como sus definiciones.
+description: Aquí encontrará la lista de todos los componentes disponibles en los informes dinámicos, así como sus definiciones.
 page-status-flag: nunca activado
 uuid: a2403806-8df4-4bb1-bac2-2689dc584ae0
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c2eecf17e121f51d3e94362304738d0c0e75d2d0
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
