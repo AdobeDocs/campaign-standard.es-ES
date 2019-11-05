@@ -1,8 +1,6 @@
 ---
 title: '"Caso de uso del flujo de trabajo: Creación de un envío semanal"'
-seo-title: '"Caso de uso del flujo de trabajo: Creación de un envío semanal"'
 description: '"Caso de uso del flujo de trabajo: Creación de un envío semanal"'
-seo-description: '"Caso de uso del flujo de trabajo: Creación de un envío semanal"'
 page-status-flag: nunca activado
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: flujo de trabajo,caso de uso,consulta,entrega,programador
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4a38b1f3d7d6dbf12fa71c819147bf2d91acb0c4
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -55,7 +53,7 @@ Puede enviar un correo electrónico todos los martes a todos los clientes para o
 
 ![](assets/wf-complement-query.png)
 
-## Creación de un envío de correo electrónico{#creating-an-email-delivery}
+## Creating an Email delivery{#creating-an-email-delivery}
 
 1. En **[!UICONTROL Activities]** &gt; **[!UICONTROL Channels]**, arrastre y suelte una **[!UICONTROL Email delivery]**.
 1. Haga clic en la actividad y seleccione ![](assets/edit_darkgrey-24px.png) editar.
