@@ -1,8 +1,6 @@
 ---
 title: Descripción de la interfaz
-seo-title: Descripción de la interfaz
-description: Descripción de la interfaz
-seo-description: '"Descubra cómo navegar y utilizar el espacio de trabajo de Adobe Campaign: página principal, barra superior, menús avanzados y barras de acción."'
+description: '"Descubra cómo navegar y utilizar el espacio de trabajo de Adobe Campaign: página principal, barra superior, menús avanzados y barras de acción."'
 page-status-flag: nunca activado
 uuid: af9f0f1f-d24a-4dc7-b4a8-70290de6eb3f
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -75,7 +73,7 @@ El menú avanzado se muestra haciendo clic en el icono de **Adobe Campaign** , e
 
 Este menú le permite navegar a funcionalidades y configuraciones específicas.
 
-### Planes de mercadotecnia {#marketing-plans}
+### Planes de marketing {#marketing-plans}
 
 El **[!UICONTROL Marketing plans]** icono le permite acceder a las siguientes funciones:
 
