@@ -1,48 +1,46 @@
 ---
 title: Resumen de devoluciones
-seo-title: Resumen de devoluciones
-description: Resumen de devoluciones
-seo-description: Con el informe desplegable Resumen de devoluciones, obtenga información sobre el estado de las campañas enviadas y los errores que pueden haber encontrado.
-page-status-flag: no activado nunca
-uuid: 90087311-4236-4 df 9-ae 7 d -4 a 15 c 00 c 70 ab
+description: Con el informe listo para usar del resumen de devoluciones, conozca el estado de las campañas enviadas y los errores que puedan haber encontrado.
+page-status-flag: nunca activado
+uuid: 90087311-4236-4df9-ae7d-4a15c00c70ab
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: informes
-content-type: reference
+content-type: referencia
 topic-tags: lista de informes
-discoiquuid: 5 ae 561 b 4-03 cf -4541-87 ff -47 f 1027 d 53 b 8
-context-tags: Bouncereport, main; Campaigncirculationreport, main; Programissuationreport, principal
+discoiquuid: 5ae561b4-03cf-4541-87ff-47f1027d53b8
+context-tags: bounceReport,principal;campaignCirculationReport,principal;programCirculationReport,principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Bounce summary{#bounce-summary}
+# Resumen de devoluciones{#bounce-summary}
 
-Este informe detalla los errores generales y duros que se encontraron durante los envíos, así como el procesamiento automático de devoluciones.
+Este informe detalla los errores generales de hardware y software encontrados durante las entregas, así como el procesamiento automático de las devoluciones.
 
 ![](assets/campaign_reports_bounces.png)
 
-Cada tabla está representada por números de resumen y gráficos. Puede cambiar cómo se muestran los detalles en sus respectivas configuraciones de visualización.
+Cada tabla está representada por números de resumen y gráficos. Puede cambiar la forma en que se muestran los detalles en sus respectivas configuraciones de visualización.
 
-**La repartición** de Flop 5 enumera los cinco envíos con el número más alto de ubicaciones:
+**La repartición** Flop 5 enumera las cinco entregas con el mayor número de cuarentena:
 
-The **Bounce reasons** table contains the available data for the types of errors that caused bounces for each delivery:
+La tabla **de motivos** de devolución contiene los datos disponibles para los tipos de errores que causaron devoluciones para cada entrega:
 
-* **[!UICONTROL User unknown]**: El tipo de error generado cuando se envía una entrega a una dirección de correo electrónico no válida.
-* **[!UICONTROL Invalid domain]**: El tipo de error generado cuando se envía una entrega a una dirección de correo electrónico cuyo dominio es incorrecto o ya no existe.
-* **[!UICONTROL Unreachable]**: El tipo de error encontrado en la cadena de entrega del mensaje. Por ejemplo, incidente de rellamada SMTP, dominio no disponible temporalmente, etc.
-* **[!UICONTROL Account disabled]**: El tipo de error generado cuando se envía una entrega a una dirección de correo electrónico que ya no existe.
-* **[!UICONTROL Mailbox full]**: El tipo de error generado cuando la bandeja de entrada del destinatario está llena. Hay cinco intentos de enviar el mensaje antes de que se genere este error.
-* **[!UICONTROL Not connected]**: El tipo de error generado cuando el teléfono móvil del destinatario está desactivado o no está conectado a una red en el momento en que se envía el mensaje.
+* **[!UICONTROL User unknown]**:: Tipo de error generado cuando se envía una entrega a una dirección de correo electrónico no válida.
+* **[!UICONTROL Invalid domain]**:: Tipo de error generado cuando se envía una entrega a una dirección de correo electrónico cuyo dominio es incorrecto o ya no existe.
+* **[!UICONTROL Unreachable]**:: Tipo de error encontrado en la cadena de envío del mensaje. Por ejemplo: incidente de retransmisión SMTP, dominio temporalmente inaccesible, etc.
+* **[!UICONTROL Account disabled]**:: Tipo de error generado cuando se envía una entrega a una dirección de correo electrónico que ya no existe.
+* **[!UICONTROL Mailbox full]**:: Tipo de error generado cuando la bandeja de entrada del destinatario está llena. Hay cinco intentos de enviar el mensaje antes de que se genere este error.
+* **[!UICONTROL Not connected]**:: Tipo de error generado cuando el teléfono móvil del destinatario está apagado o no está conectado a una red en el momento en que se envía el mensaje.
 
    >[!NOTE]
    >
-   >Este tipo de error solo se refiere a las entregas en canales móviles.
+   >Este tipo de error solo afecta a entregas en canales móviles.
 
-* **[!UICONTROL Refused]**: El tipo de error generado cuando el proveedor de servicios de Internet rechaza una dirección (ISP). Por ejemplo, cuando el software antispam aplicó una regla de seguridad.
+* **[!UICONTROL Refused]**:: Tipo de error generado cuando el proveedor de servicios de Internet (ISP) rechaza una dirección. Por ejemplo, cuando un software antispam ha aplicado una regla de seguridad.
 
-The **Domain repartition** table displays the overall problems encountered during the deliveries according to the recipient domain.
+La tabla **de partición** de dominio muestra los problemas generales que se han encontrado durante las entregas según el dominio del destinatario.
