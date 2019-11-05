@@ -1,8 +1,6 @@
 ---
 title: Pasos principales para configurar una página de aterrizaje
-seo-title: Pasos principales para configurar una página de aterrizaje
-description: Pasos principales para configurar una página de aterrizaje
-seo-description: Conozca los pasos principales para configurar una página de aterrizaje
+description: Conozca los pasos principales para configurar una página de aterrizaje
 page-status-flag: nunca activado
 uuid: b316bf47-7d98-46fa-ab4f-67ff50de8095
 contentOwner: lemaitre
@@ -15,7 +13,7 @@ context-tags: landingPage,asistente;landingPage,información general;landingPage
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f100f6b041c6dbb298113b4ecc7830951714131
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
