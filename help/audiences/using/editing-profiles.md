@@ -1,8 +1,6 @@
 ---
 title: Edición de perfiles
-seo-title: Edición de perfiles
-description: Edición de perfiles
-seo-description: Obtenga información sobre cómo editar los perfiles existentes y acceder a la información de contacto, los canales preferidos, los registros de seguimiento, las suscripciones, etc.
+description: Obtenga información sobre cómo editar los perfiles existentes y acceder a la información de contacto, los canales preferidos, los registros de seguimiento, las suscripciones, etc.
 page-status-flag: nunca activado
 uuid: 6fcdb719-6149-48fc-b400-64c24a51487f
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 8d3ba7bf-90ae-4c6d-aaeb-a48572a69f2f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -57,7 +55,7 @@ La **[!UICONTROL General]** ficha agrupa la siguiente información sobre el perf
 
 ![](assets/profile_creation4.png)
 
-## Envío y seguimiento de registros {#sending-and-tracking-logs}
+## Sending and tracking logs {#sending-and-tracking-logs}
 
 Las fichas **[!UICONTROL Sending logs]** y **[!UICONTROL Tracking logs]** agrupan la lista de entregas que se enviaron al perfil y todos los datos de seguimiento relacionados.
 
