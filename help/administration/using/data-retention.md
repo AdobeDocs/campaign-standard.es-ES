@@ -1,41 +1,39 @@
 ---
 title: Retención de datos
-seo-title: Retención de datos
-description: Retención de datos
-seo-description: null
-page-status-flag: no activado nunca
-uuid: d 90852 b 4-e 9 f 3-4187-bbea-e 748 d 16 d 1590
+description: null
+page-status-flag: nunca activado
+uuid: d90852b4-e9f3-4187-bbea-e748d16d1590
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: administración
-content-type: reference
-topic-tags: app-settings
-discoiquuid: b 791562 b -6 c 51-447 d -9 e 5 b-bb 77136 f 3 dd 8
+content-type: referencia
+topic-tags: application-settings
+discoiquuid: b791562b-6c51-447d-9e5b-bb77136f3dd8
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Data retention{#data-retention}
+# Retención de datos{#data-retention}
 
-Las tablas de registro estándar de Campaign tienen periodos de retención preestablecidos, lo que generalmente limita el almacenamiento de datos a 6 meses o menos.
+Las tablas de registro estándar de Campaign tienen períodos de retención preestablecidos en ellas, lo que generalmente limita su almacenamiento de datos a 6 meses o menos.
 
-A continuación se muestran los valores de retención predeterminados para las tablas estándar. Tenga en cuenta que los administradores técnicos de Adobe configuran la configuración de retención durante la implementación y los valores pueden variar para cada implementación, según los requisitos de los clientes.
+Los siguientes son los valores de retención predeterminados para las tablas estándar. Tenga en cuenta que los administradores técnicos de Adobe configuran la configuración de retención durante la implementación y que los valores pueden variar según los requisitos del cliente.
 
-* **Seguimiento consolidado**: 6 meses
-* **Registros de entrega**: 6 meses
-* **Registros de seguimiento**: 6 meses
+* **Seguimiento** consolidado: 6 meses
+* **Registros** de envío: 6 meses
+* **Registros** de seguimiento: 6 meses
 * **Eventos**: 1 mes
-* **Estadísticas del procesamiento de eventos**: 6 meses
-* **Eventos archivados**: 6 meses
-* **Entidades temporales**: 7 días
-* **Eventos de pipeline ignorados**: 1 mes
-* **Alertas de entrega**: 1 mes
-* **Auditar auditoría**: 6 meses
+* **Estadísticas del procesamiento** de eventos: 6 meses
+* **Eventos** archivados: 6 meses
+* **Entidades** temporales: 7 días
+* **Eventos** de canalización omitidos: 1 mes
+* **Alertas** de envío: 1 mes
+* **Auditoría** de exportación: 6 meses
 
-Con la funcionalidad de flujo de trabajo estándar, es posible configurar períodos de retención para cualquier tabla personalizada.
+Mediante la funcionalidad estándar del flujo de trabajo, es posible configurar períodos de retención para cualquier tabla personalizada.
 
-Póngase en contacto con los consultores o administradores técnicos de Adobe para obtener más información sobre la retención o si necesita establecer la retención para tablas personalizadas.
+Póngase en contacto con los consultores o administradores técnicos de Adobe para obtener más información sobre la retención o si necesita configurar la retención para tablas personalizadas.
