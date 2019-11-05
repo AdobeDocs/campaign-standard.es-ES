@@ -1,8 +1,6 @@
 ---
 title: Consulta incremental
-seo-title: Consulta incremental
-description: Consulta incremental
-seo-description: La actividad de consulta incremental permite filtrar y extraer una población de elementos de la base de datos de Adobe Campaign.
+description: La actividad de consulta incremental permite filtrar y extraer una población de elementos de la base de datos de Adobe Campaign.
 page-status-flag: nunca activado
 uuid: 73b42422-e815-43ef-84c0-97c4433ccc98
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: incremental,principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -41,7 +39,7 @@ La **[!UICONTROL Processed data]** ficha, que es específica de esta actividad, 
 La **[!UICONTROL Incremental query]** actividad se puede utilizar para varios tipos de usos:
 
 * Segmentación de individuos para definir el destino de un mensaje, una audiencia, etc.
-* Exportando datos.
+* Exportación de datos.
 
 ## Configuración {#configuration}
 
