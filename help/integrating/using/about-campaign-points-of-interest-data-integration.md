@@ -1,32 +1,30 @@
 ---
-title: Acerca de la integración de datos de puntos de interés de interés
-seo-title: Acerca de la integración de datos de puntos de interés de interés
-description: Acerca de la integración de datos de puntos de interés de interés
-seo-description: Al recopilar los datos de Puntos de interés de los suscriptores de la aplicación móvil, envíe mensajes de marketing basados en ubicaciones a los suscriptores mediante la integración en Adobe Campaign.
-page-status-flag: no activado nunca
-uuid: 1 e 6840 c 8-0472-4 da 2-85 ed-f 9 a 65147555 a
+title: Acerca de la integración de Campaign con datos de Puntos de interés
+description: Recopilando los datos de puntos de interés de los suscriptores de la aplicación móvil, envíe mensajes de marketing basados en la ubicación a los suscriptores mediante la integración en Adobe Campaign.
+page-status-flag: nunca activado
+uuid: 1e6840c8-0472-4da2-85ed-f9a65147555a
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: integrar
-content-type: reference
-topic-tags: working-with-campaign-and-mobile-for-mobile
-discoiquuid: bc 10 c 650-80 cd -4146-ae 82-c 5981 fc 62 bec
+content-type: referencia
+topic-tags: trabajar con campaña y análisis para móvil
+discoiquuid: bc10c650-80cd-4146-ae82-c5981fc62bec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# About Campaign-Points of Interest data integration{#about-campaign-points-of-interest-data-integration}
+# Acerca de la integración de Campaign con datos de Puntos de interés{#about-campaign-points-of-interest-data-integration}
 
-Además de rastrear la presencia en línea de los clientes, también puede aprovechar sus ubicaciones físicas. Mediante la integración con Adobe Analytics for Mobile, puede utilizar Adobe Campaign para enviar mensajes de marketing basados en ubicaciones a los suscriptores de la aplicación móvil.
+Además de rastrear la presencia en línea de los clientes, también puede aprovechar sus ubicaciones físicas. Mediante la integración con Adobe Analytics para móviles, puede utilizar Adobe Campaign para enviar mensajes de marketing basados en la ubicación a los suscriptores de la aplicación móvil.
 
-Puntos de interés consiste en una latitud, una longitud y un radio asociado a una etiqueta. They are defined in the [Adobe Mobile Services](https://marketing.adobe.com/resources/help/en_US/mobile/home.html) interface.
+Los puntos de interés consisten en una latitud, una longitud y un radio asociados a una etiqueta. Se definen en la interfaz de [Adobe Mobile Services](https://marketing.adobe.com/resources/help/en_US/mobile/home.html) .
 
-Cuando un suscriptor abre la aplicación móvil, si la ubicación coincide con un punto de interés, Adobe Campaign captura los datos a través del SDK de Mobile Cloud Mobile. Puede utilizar esta información para enviar mensajes personalizados según la ubicación del usuario (como correos electrónicos, notificaciones push, mensajes SMS).
+Cuando un suscriptor abre la aplicación móvil, si la ubicación coincide con un punto de interés, Adobe Campaign captura los datos mediante el SDK de Experience Cloud Mobile. Puede utilizar esta información para enviar mensajes personalizados en función de la ubicación del usuario (como correos electrónicos, notificaciones push o mensajes SMS).
 
-Por ejemplo, puede enviar una oferta del 10% de descuento a los clientes que utilicen su aplicación y visitar una de sus tiendas en Boston dentro de las últimas dos semanas.
+Por ejemplo, puede enviar una oferta de descuento del 10 % a los clientes que utilicen su aplicación y hayan visitado una de sus tiendas en Boston en las dos últimas semanas.
 
-A use case is presented in the [Personalizing Campaign messages with Point of Interest data](../../integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md) section.
+Se presenta un caso de uso en la sección [Personalización de mensajes de campaña con datos](../../integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md) de punto de interés.
