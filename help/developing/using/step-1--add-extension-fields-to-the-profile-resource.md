@@ -1,30 +1,28 @@
 ---
-title: '" Paso 1: Agregue campos de extensión al recurso de perfil "'
-seo-title: '" Paso 1: Agregue campos de extensión al recurso de perfil "'
-description: '" Paso 1: Agregue campos de extensión al recurso de perfil "'
-seo-description: Descubra cómo ampliar el recurso de perfil.
-page-status-flag: no activado nunca
-uuid: cb 93 ed 40-3 b 00-458 d -9554-883954565 fdb
+title: '"Paso 1: Agregar campos de extensión al recurso de perfil"'
+description: Descubra cómo ampliar el recurso de perfil.
+page-status-flag: nunca activado
+uuid: cb93ed40-3b00-458d-9554-883954565fdb
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: desarrollar
-content-type: reference
+products: SG_CAMPAIGN/STANDARD
+audience: desarrollo
+content-type: referencia
 topic-tags: use-case—extension-the-api
-discoiquuid: e 9 a 7 d 1 ab -9 a 4 a -49 d 2-a 725-7 bcf 8 fc 240 d 6
+discoiquuid: e9a7d1ab-9a4a-49d2-a725-7bcf8fc240d6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Step 1: Add extension fields to the profile resource{#step-add-extension-fields-to-the-profile-resource}
+# Paso 1: Agregar campos de extensión al recurso de perfil{#step-add-extension-fields-to-the-profile-resource}
 
-1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]**, then **[!UICONTROL Custom resources]**.
-1. Click the **[!UICONTROL Create]** icon to create a new custom resource.
-1. Choose the **[!UICONTROL Extend an existing resource]** option.
-1. Select the **[!UICONTROL Profile]** resource.
+1. En el menú avanzado, a través del logotipo de Adobe Campaign, seleccione **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** y, a continuación, **[!UICONTROL Custom resources]**.
+1. Haga clic en el **[!UICONTROL Create]** icono para crear un nuevo recurso personalizado.
+1. Elija la **[!UICONTROL Extend an existing resource]** opción.
+1. Seleccione el **[!UICONTROL Profile]** recurso.
 1. Click **[!UICONTROL Create]**.
-1. Add the **[!UICONTROL Text]** type **[!UICONTROL Promo code]** field with the **[!UICONTROL Brand]** ID in the resource fields.
+1. Agregue el **[!UICONTROL Text]** campo de tipo **[!UICONTROL Promo code]** con el **[!UICONTROL Brand]** ID en los campos del recurso.
 
