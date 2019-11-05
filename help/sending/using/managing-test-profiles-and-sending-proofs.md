@@ -1,8 +1,6 @@
 ---
 title: Administración de perfiles de prueba y envío de pruebas
-seo-title: Administración de perfiles de prueba y envío de pruebas
-description: Administración de perfiles de prueba y envío de pruebas
-seo-description: Aprenda a administrar perfiles y pruebas de prueba.
+description: Aprenda a administrar perfiles y pruebas de prueba.
 page-status-flag: nunca activado
 uuid: eb4d893b-3724-4b15-9312-1ec74784368d
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: startingMember,información general
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -158,12 +156,12 @@ Al definir la audiencia de un mensaje:
 
    ![](assets/trap_select.png)
 
-1. Una vez que el contenido del mensaje esté listo, haga clic en el **[!UICONTROL Prepare]** botón. Consulte [Preparación del envío](../../sending/using/preparing-the-send.md).
+1. Una vez que el contenido del mensaje esté listo, haga clic en el **[!UICONTROL Prepare]** botón. See [Preparing the send](../../sending/using/preparing-the-send.md).
    >[!NOTE]
    >
    >Asegúrese de seleccionar un objetivo principal. De lo contrario, no se puede enviar el mensaje.
 
-1. Click the **[!UICONTROL Confirm]** button. Consulte [Confirmación del envío](../../sending/using/confirming-the-send.md).
+1. Click the **[!UICONTROL Confirm]** button. See [Confirming the send](../../sending/using/confirming-the-send.md).
 
    ![](assets/trap_confirm.png)
 
