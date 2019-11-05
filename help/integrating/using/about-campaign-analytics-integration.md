@@ -1,42 +1,40 @@
 ---
 title: Acerca de la integración de Campaign-Analytics
-seo-title: Acerca de la integración de Campaign-Analytics
-description: Acerca de la integración de Campaign-Analytics
-seo-description: Al recopilar los datos de KPI de Adobe Campaign Standard, ahora puede compartir datos de campaña con Adobe Analytics para medir las métricas de mercadotecnia por correo electrónico desde Adobe Campaign.
-page-status-flag: no activado nunca
-uuid: 7 a 351 e 1 d -50 cb -4 ec 5-8 b 66-318 b 797 af 77 f
+description: Al recopilar los datos de KPI de Adobe Campaign Standard, ahora puede compartir los datos de campaña con Adobe Analytics para medir las métricas de marketing por correo electrónico de Adobe Campaign.
+page-status-flag: nunca activado
+uuid: 7a351e1d-50cb-4ec5-8b66-318b797af77f
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: integrar
-content-type: reference
-topic-tags: working-with-campaign-and-analytics
-discoiquuid: 2 ea 51543-fe 4 d -462 b-b 47 e -9 ccaa 1 d 68 dfa
+content-type: referencia
+topic-tags: trabajar con campaña y análisis
+discoiquuid: 2ea51543-fe4d-462b-b47e-9ccaa1d68dfa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# About Campaign-Analytics integration{#about-campaign-analytics-integration}
+# Acerca de la integración de Campaign-Analytics{#about-campaign-analytics-integration}
 
-Gracias a la integración de Adobe Analytics en Adobe Campaign, ahora puede realizar un seguimiento del éxito de sus entregas por correo electrónico directamente en Adobe Analytics.
+Gracias a la integración de Adobe Analytics en Adobe Campaign, ahora puede realizar un seguimiento del éxito de los envíos de correo electrónico directamente en Adobe Analytics.
 
 Esta integración entre Adobe Campaign Standard y Adobe Analytics le permitirá:
 
-* Comparta los datos de KPI (indicador de rendimiento clave) de Adobe Campaign Standard a Adobe Analytics.
-* Enriquezca las fórmulas de seguimiento con parámetros de Adobe Analytics.
+* Comparta los datos de KPI (Indicador de rendimiento clave) de Adobe Campaign Standard con Adobe Analytics.
+* Enriquecer las fórmulas de seguimiento con parámetros de Adobe Analytics.
 
-Esto funcionará creando primero una cuenta externa vinculada a Adobe Analytics. Después, un flujo de trabajo técnico se iniciará automáticamente y, de forma predeterminada, se ejecuta automáticamente cada 15 minutos. A continuación, los datos KPI se insertan en Analytics.
+Esto funcionará creando primero una cuenta externa vinculada a Adobe Analytics. A continuación, se iniciará automáticamente un flujo de trabajo técnico y, de forma predeterminada, se ejecutará automáticamente cada 15 minutos. A continuación, los datos de KPI se insertan en Analytics.
 
-Esta integración solo está disponible para entregas por correo electrónico.
+Esta integración solo está disponible para envíos por correo electrónico.
 
-An integration between Adobe Analytics' core service **Triggers** and Adobe Campaign is also available. Permite enviar correos electrónicos personalizados a sus clientes como reacción ante comportamientos específicos rastreados en su sitio web por Adobe Analytics (en un plazo de 15 minutos).
+También hay disponible una integración entre los **activadores** del servicio principal de Adobe Analytics y Adobe Campaign. Le permite enviar correos electrónicos personalizados a sus clientes como reacción a comportamientos específicos que Adobe Analytics rastrea en su sitio web en un plazo de 15 minutos.
 
 **Temas relacionados:**
 
-* [Dimensiones y métricas de campaña en Analytics](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
+* [Dimensiones y métricas de Campaign en Analytics](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 * [Informes](../../reporting/using/about-dynamic-reports.md)
 * [Documentación de Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/reference/adobe-campaign.html)
 
