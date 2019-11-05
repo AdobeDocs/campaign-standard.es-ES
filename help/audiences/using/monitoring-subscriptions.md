@@ -1,8 +1,6 @@
 ---
 title: Supervisión de suscripciones
-seo-title: Supervisión de suscripciones
-description: Supervisión de suscripciones
-seo-description: Obtenga información sobre cómo rastrear a los suscriptores y medir el éxito de los servicios mediante tableros e informes.
+description: Obtenga información sobre cómo rastrear a los suscriptores y medir el éxito de los servicios mediante tableros e informes.
 page-status-flag: nunca activado
 uuid: b0d8eb80-fa51-4518-a5e6-56de4046f6ff
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 36750524-eb54-47e8-aa1b-ae0b94f58cb1
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
