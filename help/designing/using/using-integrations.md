@@ -1,8 +1,6 @@
 ---
 title: 'Diseño de correos electrónicos mediante integraciones de Adobe Campaign '
-seo-title: 'Diseño de correos electrónicos mediante integraciones de Adobe Campaign  '
-description: 'Diseño de correos electrónicos mediante integraciones de Adobe Campaign '
-seo-description: Descubra cómo diseñar correos electrónicos mediante integraciones de Adobe Campaign en el Diseñador de correo electrónico.
+description: Descubra cómo diseñar correos electrónicos mediante integraciones de Adobe Campaign en el Diseñador de correo electrónico.
 page-status-flag: nunca activado
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -50,7 +48,7 @@ Adobe Campaign ofrece varias opciones de creación de correo electrónico. En el
  <thead> 
   <tr> 
    <th> </th> 
-   <th> Diseñador de correo electrónico<br /> </th> 
+   <th> Email Designer<br /> </th> 
    <th> Experience Manager<br /> </th> 
    <th> Dreamweaver<br /> </th> 
   </tr> 
@@ -129,7 +127,7 @@ Adobe Campaign ofrece varias opciones de creación de correo electrónico. En el
   <tr> 
    <td> <strong>Para obtener más información</strong><br /> </td> 
    <td> Consulte <a href="../../designing/using/overview.md">Acerca del Diseñador de correo electrónico</a><br /> </td> 
-   <td> Consulte <a href="../../integrating/using/integrating-with-experience-manager.md">Integración con Experience Manager</a><br /> </td> 
+   <td> See <a href="../../integrating/using/integrating-with-experience-manager.md">Integrating with Experience Manager</a><br /> </td> 
    <td> Consulte <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver y Campaign</a> y vea este <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">vídeo</a><br /> </td> 
   </tr> 
  </tbody> 
