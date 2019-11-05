@@ -1,8 +1,6 @@
 ---
 title: '"Caso de uso del flujo de trabajo: Segmentación en la ubicación"'
-seo-title: '"Caso de uso del flujo de trabajo: Segmentación en la ubicación"'
 description: '"Caso de uso del flujo de trabajo: Segmentación en la ubicación"'
-seo-description: '"Caso de uso del flujo de trabajo: Segmentación en la ubicación"'
 page-status-flag: nunca activado
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: 'flujo de trabajo,caso de uso,consulta,segmentación,entrega '
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7e56dcb4c2bbdc802c9d271d4a44d9a72b239ed
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
