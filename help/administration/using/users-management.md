@@ -1,8 +1,6 @@
 ---
 title: Administración de usuarios
-seo-title: Administración de usuarios
-description: Administración de usuarios
-seo-description: 'Los usuarios de Adobe Campaign tienen funciones específicas. Descubrir los tipos de usuarios principales. '
+description: 'Los usuarios de Adobe Campaign tienen funciones específicas. Descubrir los tipos de usuarios principales. '
 page-status-flag: nunca activado
 uuid: 8c4cc74a-815f-4815-af66-a7c21bc754f1
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
