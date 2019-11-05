@@ -1,46 +1,44 @@
 ---
 title: Adición de visualizaciones
-seo-title: Adición de visualizaciones
-description: Adición de visualizaciones
-seo-description: Los informes dinámicos ofrecen un conjunto de visualizaciones para agregar una representación gráfica al informe.
-page-status-flag: no activado nunca
-uuid: f 4 d 851 c 1-8 ef 8-4295-a 7 bc-eb 9608 fbc 497
+description: Los informes dinámicos ofrecen un conjunto de visualizaciones para agregar una representación gráfica al informe.
+page-status-flag: nunca activado
+uuid: f4d851c1-8ef8-4295-a7bc-eb9608fbc497
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: informes
-content-type: reference
+content-type: referencia
 topic-tags: personalizar informes
-discoiquuid: 6170342 b -7 e 16-4 cc 5-81 a 0-fa 0 bef 8569 a 8
+discoiquuid: 6170342b-7e16-4cc5-81a0-fa0bef8569a8
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Adding visualizations{#adding-visualizations}
+# Adición de visualizaciones{#adding-visualizations}
 
-The **Visualizations** tab lets you drag and drop visualization items, such as area, donut and graph. Las visualizaciones le proporcionan representaciones gráficas de sus datos.
+La ficha **Visualizaciones** permite arrastrar y soltar elementos de visualización, como área, anillo y gráfico. Las visualizaciones proporcionan representaciones gráficas de los datos.
 
-1. In the **[!UICONTROL Visualizations]** tab, drag and drop a visualization item in a panel.
+1. En la **[!UICONTROL Visualizations]** ficha, arrastre y suelte un elemento de visualización en un panel.
 
    ![](assets/dynamic_report_visualization_1.png)
 
-1. Después de agregar una visualización al panel, los informes dinámicos detectan automáticamente los datos en la tabla improvisada. Seleccione la configuración de la visualización.
-1. If you have more than one freeform table, choose the available data source to add in your graph in the **Data Source Settings** window. Esta ventana también está disponible haciendo clic en el punto coloreado junto al título de la visualización.
+1. Después de agregar una visualización al panel, los informes dinámicos detectan automáticamente los datos de la tabla improvisada. Seleccione la configuración de la visualización.
+1. Si tiene más de una tabla improvisada, elija el origen de datos disponible para agregar en el gráfico en la ventana Configuración **de fuente de** datos. Esta ventana también está disponible haciendo clic en el punto de color al lado del título de visualización.
 
    ![](assets/dynamic_report_visualization_2.png)
 
-1. Click the **[!UICONTROL Visualization]** settings button to directly change the graph type or what is displayed on it, such as:
+1. Haga clic en el botón **[!UICONTROL Visualization]** de configuración para cambiar directamente el tipo de gráfico o lo que se muestra en él, como:
 
    * **Porcentajes**: Muestra los valores en porcentaje.
    * **Eje Y delimitador en cero**: Fuerza el eje y a cero incluso si los valores están por encima de cero.
    * **Leyenda visible**: Permite ocultar la leyenda.
-   * **Normalización**: Obliga a que los valores coincidan.
-   * **Mostrar eje doble**: Agrega otro eje al gráfico.
-   * **Limitar elementos máximos**: Limita el número de gráficos mostrados.
-   * **Umbral**: Permite establecer un umbral en el gráfico. Aparece como una línea punteada negra.
+   * **Normalización**: Fuerza la coincidencia de valores.
+   * **Mostrar eje** doble: Agrega otro eje al gráfico.
+   * **Límite máximo de elementos**: Limita el número de gráficos mostrados.
+   * **Umbral**: Permite establecer un umbral en el gráfico. Aparece como una línea de puntos negra.
    ![](assets/dynamic_report_visualization_3.png)
 
-Esta visualización permite obtener una vista más clara de los datos en los informes.
+Esta visualización permite tener una vista más clara de los datos en los informes.
