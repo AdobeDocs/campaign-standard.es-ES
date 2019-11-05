@@ -1,8 +1,6 @@
 ---
-title: Definición del contenido del correo directo
-seo-title: Definición del contenido del correo directo
-description: Definición del contenido del correo directo
-seo-description: Obtenga información sobre cómo definir el contenido para la entrega directa de correo.
+title: Definición del contenido de correo postal
+description: Obtenga información sobre cómo definir el contenido para la entrega directa de correo.
 page-status-flag: nunca activado
 uuid: c1234c06-4d22-46d7-ad1b-3c88660f9b06
 contentOwner: sauviat
@@ -15,12 +13,12 @@ context-tags: entrega,directMailContent,retroceso
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Definición del contenido del correo directo{#defining-the-direct-mail-content}
+# Definición del contenido de correo postal{#defining-the-direct-mail-content}
 
 Puede definir el contenido en la última pantalla del asistente de creación o haciendo clic en la sección **Contenido** del tablero de envío.
 
