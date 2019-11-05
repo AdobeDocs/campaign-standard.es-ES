@@ -1,8 +1,6 @@
 ---
 title: Creación de un correo electrónico multilingüe
-seo-title: Creación de un correo electrónico multilingüe
-description: Creación de un correo electrónico multilingüe
-seo-description: Siga estos pasos para crear destinatarios de correo electrónico multilingües con distintos idiomas preferidos.
+description: Siga estos pasos para crear destinatarios de correo electrónico multilingües con distintos idiomas preferidos.
 page-status-flag: nunca activado
 uuid: e90f4ec8-14e3-4304-b5fc-bce0ba08a4ef
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
