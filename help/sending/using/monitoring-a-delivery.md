@@ -1,8 +1,6 @@
 ---
 title: Seguimiento de un envío
-seo-title: Seguimiento de un envío
-description: Seguimiento de un envío
-seo-description: Descubra cómo supervisar un envío.
+description: Descubra cómo supervisar un envío.
 page-status-flag: nunca activado
 uuid: 7772c607-debd-40fd-8322-4d49119979b4
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: entrega,principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -44,7 +42,7 @@ Existen varias formas de supervisar una entrega y medir su impacto:
 
 **Temas relacionados:**
 
-* [Recibir alertas cuando se producen errores](../../sending/using/receiving-alerts-when-failures-happen.md)
+* [Recibir alertas cuando se produzcan errores](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Informes](../../reporting/using/about-dynamic-reports.md)
 
 ## Registros de envío {#delivery-logs}
