@@ -1,54 +1,52 @@
 ---
 title: Intersección
-seo-title: Intersección
-description: Intersección
-seo-description: La actividad Intersección permite mantener solo los elementos comunes a las diferentes poblaciones entrantes de la actividad.
-page-status-flag: no activado nunca
-uuid: a 60 f 9811-0158-44 b 3-952 b -392685 c 006 cc
+description: La actividad Intersección permite mantener solo los elementos comunes a las distintas poblaciones entrantes de la actividad.
+page-status-flag: nunca activado
+uuid: a60f9811-0158-44b3-952b-392685c006cc
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: automatizar
-content-type: reference
-topic-tags: segmentación de actividades
-discoiquuid: 7 a 107 d 6 b-edc 3-44 c 3-bbb 7-ba 3 dec 8 e 43 f 9
+content-type: referencia
+topic-tags: segmentación-actividades
+discoiquuid: 7a107d6b-edc3-44c3-bbb7-ba3dec8e43f9
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 36727e82d3aa73add6116fa2916752ff0e407d9d
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Intersection{#intersection}
+# Intersección{#intersection}
 
-## Description {#description}
+## Descripción {#description}
 
 ![](assets/intersection.png)
 
-The **[!UICONTROL Intersection]** activity allows you to keep only the elements common to the different inbound populations in the activity.
+La **[!UICONTROL Intersection]** actividad permite mantener solo los elementos comunes a las distintas poblaciones entrantes de la actividad.
 
-## Context of use {#context-of-use}
+## Contexto de uso {#context-of-use}
 
-The **[!UICONTROL Intersection]** activity is generally used to carry out additional filtering on populations from inbound transitions.
+La **[!UICONTROL Intersection]** actividad se utiliza generalmente para realizar filtraciones adicionales en poblaciones de las transiciones de entrada.
 
-## Configuration {#configuration}
+## Configuración {#configuration}
 
-1. Drag and drop an **[!UICONTROL Intersection]** activity into your workflow.
-1. Conéctela a otras actividades anteriores, como consultas.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. Select the **[!UICONTROL Reconciliation type]**:
+1. Arrastre y suelte una **[!UICONTROL Intersection]** actividad en el flujo de trabajo.
+1. Conéctelo a las demás actividades anteriores, como consultas.
+1. Seleccione la actividad y, a continuación, ábrala con el ![](assets/edit_darkgrey-24px.png) botón de las acciones rápidas que aparecen.
+1. Seleccione el **[!UICONTROL Reconciliation type]**:
 
-   * **[!UICONTROL Keys only]**: Modo predeterminado. La actividad sólo conserva un elemento cuando los elementos de las distintas transiciones entrantes tienen la misma clave.
-   * **[!UICONTROL All shared columns]**: Los datos se concilian según las columnas en común con las transiciones entrantes. Por lo tanto, debe seleccionar el conjunto principal que servirá como base para la comparación. Esta opción se puede utilizar si las dimensiones de objetivo de población entrante son diferentes.
-   * **[!UICONTROL A selection of columns]**: Seleccione esta opción para definir la lista de columnas en la que se aplicará la reconciliación de datos. Primero debe seleccionar el conjunto principal (el que contiene los datos de origen) y, a continuación, especificar los campos que se utilizarán para la unión.
+   * **[!UICONTROL Keys only]**:: Modo predeterminado. La actividad solo mantiene un elemento cuando los elementos de las distintas transiciones de entrada tienen la misma clave.
+   * **[!UICONTROL All shared columns]**:: Los datos se concilian sobre la base de columnas comunes con las transiciones de entrada. Por lo tanto, debe seleccionar el conjunto principal que servirá como base para la comparación. Esta opción se puede utilizar si las dimensiones de objetivo de población entrante son diferentes.
+   * **[!UICONTROL A selection of columns]**:: Seleccione esta opción para definir la lista de columnas en las que se aplicará la reconciliación de datos. Primero debe seleccionar el conjunto principal (el que contiene los datos de origen) y luego especificar los campos que se utilizarán para la combinación.
 
-1. Check the **[!UICONTROL Use common additional data only]** box if you would like to keep only the additional data that is in all inbound transitions.
-1. If needed, manage the activity's [Transitions](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) to access the advanced options for the outbound population.
-1. Confirme la configuración de su actividad y guarde el flujo de trabajo.
+1. Marque la **[!UICONTROL Use common additional data only]** casilla si desea mantener solo los datos adicionales que están en todas las transiciones de entrada.
+1. Si es necesario, administre las [transiciones](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) de la actividad para acceder a las opciones avanzadas de la población saliente.
+1. Confirme la configuración de la actividad y guarde el flujo de trabajo.
 
-## Example {#example}
+## Ejemplo {#example}
 
-El siguiente ejemplo muestra la intersección entre dos actividades de consulta. Se utiliza aquí para ver la base de datos de Adobe Campaign y recuperar perfiles que tienen entre 18 y 27 años y perfiles cuya dirección de correo electrónico se haya proporcionado respectivamente.
+El siguiente ejemplo muestra la intersección entre dos actividades de consulta. Se utiliza aquí para buscar en la base de datos de Adobe Campaign y recuperar perfiles de entre 18 y 27 años de edad y perfiles cuya dirección de correo electrónico se ha proporcionado respectivamente.
 
 ![](assets/wkf_intersection_example.png)
 
