@@ -1,8 +1,6 @@
 ---
 title: Señal externa
-seo-title: Señal externa
-description: Señal externa
-seo-description: La actividad de señal externa activa un flujo de trabajo cuando se cumplen correctamente algunas condiciones en otro flujo de trabajo.
+description: La actividad de señal externa activa un flujo de trabajo cuando se cumplen correctamente algunas condiciones en otro flujo de trabajo.
 page-status-flag: nunca activado
 uuid: 884b6daf-bfd9-440b-8336-004b80c76def
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: señal,principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
