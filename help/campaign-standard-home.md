@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Documentación del producto de Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: c321545b2f5fdc3ed43b9b943601008ff31fba6a
 
 ---
 
@@ -73,3 +73,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * [Guía de planificación de versiones](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 
 * [Funciones obsoletas y eliminadas](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+
+* [Notas técnicas](https://helpx.adobe.com/campaign/kb/acs-article-list.html)
+
+* [Guía de implementación de Adobe Campaign Standard](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
