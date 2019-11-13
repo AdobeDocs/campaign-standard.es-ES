@@ -13,22 +13,22 @@ context-tags: función,descripción general;función,principal
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: c321545b2f5fdc3ed43b9b943601008ff31fba6a
 
 ---
 
 
 # Lista de funciones{#list-of-roles}
 
-De forma predeterminada, Adobe Campaign ofrece un conjunto de funciones que le permiten definir autorizaciones unitarias asignadas a usuarios y grupos de usuarios. Combinadas con las unidades organizativas, las funciones proporcionan a los usuarios una vista filtrada de la interfaz y definen su acceso a las diferentes funciones. Para obtener más información sobre esto, consulte la tabla [Funciones y permisos](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
+De forma predeterminada, Adobe Campaign ofrece un conjunto de funciones que le permiten definir autorizaciones unitarias asignadas a usuarios y grupos de usuarios. Combinadas con las unidades organizativas, las funciones proporcionan a los usuarios una vista filtrada de la interfaz y definen su acceso a las diferentes funciones. Para obtener más información sobre esto, consulte la tabla [Funciones y permisos](/help/administration/using/assets/acs_rights.pdf).
 
-[![imagen](/help/administration/using/assets/user_management_3.png)](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
+![](assets/user_management_3.png)
 
 Las funciones se pueden administrar desde el **[!UICONTROL Administration > Users & Security > Roles]** menú.
 
 Los derechos predeterminados son:
 
-* **[!UICONTROL Administration]**:: Derecho de administración genérico.
+* **[!UICONTROL Administration]**:: Derechos de administración genéricos.
 * **[!UICONTROL Datamodel]**:: Derecho a ejecutar publicaciones y crear recursos personalizados.
 * **[!UICONTROL Export]**: derecho para exportar datos.
 * **[!UICONTROL Generic import]**:: Derecho a ejecutar una importación genérica de datos. Para que esto funcione, debe vincular la **[!UICONTROL Generic import]** función a la **[!UICONTROL Workflow]** función.
