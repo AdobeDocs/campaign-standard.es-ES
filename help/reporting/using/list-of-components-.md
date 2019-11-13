@@ -12,16 +12,16 @@ discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: e7281dff9be97ededaa724552e64bffda3f26fa2
 
 ---
 
 
 # Lista de componentes {#list-of-components}
 
-Para obtener más información sobre la compatibilidad entre dimensiones y métricas, consulte esta [tabla](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf). Si dos componentes no son compatibles, la celda mostrará el valor **Ninguno**.
+Para obtener más información sobre la compatibilidad entre dimensiones y métricas, consulte esta [tabla](/help/reporting/using/assets/dynamic_report_compatibility.pdf). Si dos componentes no son compatibles, la celda mostrará el valor **Ninguno**.
 
-[![imagen](/help/reporting/using/assets/dynamic_report_compatibility.png)](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)
+![](assets/dynamic_report_compatibility.png)
 
 ## Dimensiones {#dimensions}
 
@@ -116,12 +116,12 @@ La tabla siguiente le proporciona la lista de dimensiones utilizadas en los info
    <td> Dirección URL en la que el usuario hizo clic desde el mensaje.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Categoría de URL de seguimiento<br /> </td> 
+   <td> Categoría de dirección URL de seguimiento<br /> </td> 
    <td> Categoría asignada a la dirección URL de seguimiento.<br /> </td> 
   </tr> 
   <tr> 
    <td> Etiqueta de URL de seguimiento<br /> </td> 
-   <td> Etiqueta dada a la dirección URL, como página espejo, contacto con nosotros o abrir.<br /> </td> 
+   <td> Etiqueta dada a la dirección URL, como la página espejo, póngase en contacto con nosotros o abra.<br /> </td> 
   </tr> 
   <tr> 
    <td> Entrega transaccional<br /> </td> 
@@ -153,7 +153,7 @@ Las tablas siguientes proporcionan la lista de métricas utilizadas en los infor
    <td> Número de destinatarios que declararon un correo electrónico como correo no deseado o no deseado.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Tarifa negra<br /> </td> 
+   <td> Tarifa bloqueada<br /> </td> 
    <td> Porcentaje de entregas marcadas como bloqueadas.<br /> </td> 
   </tr> 
   <tr> 
