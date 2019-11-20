@@ -1,10 +1,10 @@
 ---
 product: adobe campaign
 sub-product: adobe campaign standard
-audience: usuario final
-user-guide-title: Ayuda de Adobe Campaign Standard
+audience: end-user
+user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 1ccea1d142f0b1550c8891b2f31233af8c9d4e29
+source-git-commit: e059232068d79a512afda98dcde60578809656b2
 
 ---
 
@@ -19,22 +19,22 @@ source-git-commit: 1ccea1d142f0b1550c8891b2f31233af8c9d4e29
    + [Notas de la versión 2015-2016](rn/using/release-notes-2015-2016.md)
    + [Actualizaciones de documentación](rn/using/documentation-updates.md)
 + Introducción {#getting-started}
-   + About Adobe Campaign {#about-adobe-campaign}
+   + Acerca de Adobe Campaign {#about-adobe-campaign}
       + [Organización de campañas](start/using/campaign-orchestration.md)
-      + [Segmentación y segmentación](start/using/segmentation-and-targeting.md)
+      + [Segmentación y direccionamiento](start/using/segmentation-and-targeting.md)
       + [Contenido dinámico y personalizado](start/using/dynamic-and-personalized-content.md)
       + [Seguimiento, supervisión y presentación de informes](start/using/tracking--monitoring-and-reporting.md)
       + [Integración con las soluciones de Adobe](start/using/integrating-with-adobe-solutions.md)
-      + [Enriquecimiento de la base de datos de campañas](start/using/enriching-campaign-database.md)
+      + [Enriquecimiento de la base de datos de Campaign](start/using/enriching-campaign-database.md)
    + Descubrimiento de la interfaz {#discovering-the-interface}
       + [Acerca de la interfaz](start/using/about-the-interface.md)
       + [Descripción de la interfaz](start/using/interface-description.md)
       + [Exploradores compatibles](start/using/compatible-browsers.md)
       + [Personalización de listas](start/using/customizing-lists.md)
-   + Planes de mercadotecnia {#marketing-plans}
+   + Planes de marketing {#marketing-plans}
       + [Programas y campañas](start/using/programs-and-campaigns.md)
       + [Actividades de marketing](start/using/marketing-activities.md)
-      + [Cronograma](start/using/timeline.md)
+      + [Cronología](start/using/timeline.md)
    + Administración de plantillas {#managing-templates}
       + [Acerca de las plantillas](start/using/about-templates.md)
       + [Creación de una nueva plantilla](start/using/creating-a-new-template.md)
@@ -42,9 +42,9 @@ source-git-commit: 1ccea1d142f0b1550c8891b2f31233af8c9d4e29
       + [Uso de una plantilla](start/using/using-a-template.md)
    + Tutoriales {#tutorials}
       + [Guías paso a paso](start/using/step-by-step-guides.md)
-      + [Vídeos tutoriales](start/using/how-to-videos.md)
+      + [Videotutoriales](start/using/how-to-videos.md)
 + Perfiles y audiencias {#profiles-and-audiences}
-   + [Acerca de los perfiles y las audiencias](audiences/using/about-profiles-and-audiences.md)
+   + [Acerca de los perfiles y audiencias](audiences/using/about-profiles-and-audiences.md)
    + Administración de perfiles {#managing-profiles}
       + [Acerca de los perfiles](audiences/using/about-profiles.md)
       + [Creación de perfiles](audiences/using/creating-profiles.md)
@@ -70,7 +70,7 @@ source-git-commit: 1ccea1d142f0b1550c8891b2f31233af8c9d4e29
       + [Descubrimiento de canales de comunicación](channels/using/discovering-communication-channels.md)
       + [Pasos clave para enviar un mensaje](channels/using/key-steps-to-send-a-message.md)
       + [Acceso a mensajes](channels/using/accessing-messages.md)
-      + [Tablero de mensajes](channels/using/message-dashboard.md)
+      + [Panel de mensajes](channels/using/message-dashboard.md)
    + Mensajes de correo electrónico {#email-messages}
       + [Acerca de los correos electrónicos](channels/using/about-emails.md)
       + [Creación de un correo electrónico](channels/using/creating-an-email.md)
@@ -94,33 +94,32 @@ source-git-commit: 1ccea1d142f0b1550c8891b2f31233af8c9d4e29
       + [Acerca de la mensajería en la aplicación](channels/using/about-in-app-messaging.md)
       + [Preparación y envío de un mensaje en la aplicación](channels/using/preparing-and-sending-an-in-app-message.md)
       + [Personalización de un mensaje en la aplicación](channels/using/customizing-an-in-app-message.md)
-   + Correo
-                            postal {#direct-mail}
-      + [Acerca del correo directo](channels/using/about-direct-mail.md)
-      + [Volver al remitente](channels/using/return-to-sender.md)
-      + [Creación del correo directo](channels/using/creating-the-direct-mail.md)
-      + [Definición de la audiencia de correo directo](channels/using/defining-the-direct-mail-audience.md)
+   + Correo postal {#direct-mail}
+      + [Acerca del correo postal](channels/using/about-direct-mail.md)
+      + [Devolver al remitente](channels/using/return-to-sender.md)
+      + [Creación del correo postal](channels/using/creating-the-direct-mail.md)
+      + [Definición del audiencia de correo postal](channels/using/defining-the-direct-mail-audience.md)
       + [Definición del contenido de correo postal](channels/using/defining-the-direct-mail-content.md)
-      + [Ejemplo de correo directo en un flujo de trabajo](channels/using/example-of-direct-mail-in-a-workflow.md)
+      + [Ejemplo de un correo postal en un flujo de trabajo](channels/using/example-of-direct-mail-in-a-workflow.md)
    + Mensajería transaccional {#transactional-messaging}
       + [Acerca de la mensajería transaccional](channels/using/about-transactional-messaging.md)
       + [Mensajes transaccionales de eventos](channels/using/event-transactional-messages.md)
       + [Mensajes transaccionales de perfil](channels/using/profile-transactional-messages.md)
       + [Notificaciones push transaccionales](channels/using/transactional-push-notifications.md)
       + [Mensajes de seguimiento](channels/using/follow-up-messages.md)
-   + Páginas de destino {#landing-pages}
+   + Páginas de aterrizaje {#landing-pages}
       + [Acerca de las páginas de aterrizaje](channels/using/about-landing-pages.md)
       + [Pasos principales para configurar una página de aterrizaje](channels/using/main-steps-to-set-up-a-landing-page.md)
       + [Acerca de las plantillas de página de aterrizaje](channels/using/landing-page-templates.md)
       + [Diseño de una página de aterrizaje](channels/using/designing-a-landing-page.md)
-      + [Administración de datos de formulario de página de aterrizaje](channels/using/managing-landing-page-form-data.md)
+      + [Administración de datos de formulario de una página de aterrizaje](channels/using/managing-landing-page-form-data.md)
       + [Uso compartido de una página de aterrizaje](channels/using/sharing-a-landing-page.md)
-      + [Configuración de un proceso de doble inclusión](channels/using/setting-up-a-double-opt-in-process.md)
+      + [Configuración de un proceso de inclusión doble](channels/using/setting-up-a-double-opt-in-process.md)
 + Diseño del contenido del correo electrónico {#designing-content}
-   + [Diseñador de correo electrónico de campaña](designing/using/designing-content-in-adobe-campaign.md)
+   + [Diseñador de correos electrónicos de Campaign](designing/using/designing-content-in-adobe-campaign.md)
    + [Inicio rápido](designing/using/quick-start.md)
    + [Uso y recomendaciones](designing/using/overview.md)
-   + [Definición de la línea de asunto y del remitente](designing/using/subject-line.md)
+   + [Definición del asunto y del remitente](designing/using/subject-line.md)
    + [Diseño de correos electrónicos desde cero](designing/using/designing-from-scratch.md)
    + [Diseño de correos electrónicos con contenido existente](designing/using/using-existing-content.md)
    + [Diseño de correos electrónicos con contenido reutilizable](designing/using/using-reusable-content.md)
@@ -146,9 +145,9 @@ source-git-commit: 1ccea1d142f0b1550c8891b2f31233af8c9d4e29
    + Envío y seguimiento de mensajes {#sending-and-tracking-messages}
       + [Confirmación del envío](sending/using/confirming-the-send.md)
       + [Seguimiento de mensajes](sending/using/tracking-messages.md)
-   + Monitoreo de mensajes {#monitoring-messages}
+   + Supervisión de mensajes {#monitoring-messages}
       + [Seguimiento de un envío](sending/using/monitoring-a-delivery.md)
-      + [Recibir alertas cuando se producen errores](sending/using/receiving-alerts-when-failures-happen.md)
+      + [Recibir alertas cuando se produzcan errores](sending/using/receiving-alerts-when-failures-happen.md)
       + [Comprensión de los errores de envío](sending/using/understanding-delivery-failures.md)
       + [Compresión de la gestión de la cuarentena](sending/using/understanding-quarantine-management.md)
 + Informes {#reporting}
@@ -160,7 +159,7 @@ source-git-commit: 1ccea1d142f0b1550c8891b2f31233af8c9d4e29
       + [Resolución de problemas](reporting/using/troubleshooting.md)
    + Lista de informes {#list-of-reports}
       + [Definición del período de informe](reporting/using/defining-the-report-period.md)
-      + [Resumen de devolución](reporting/using/bounce-summary.md)
+      + [Resumen de devoluciones](reporting/using/bounce-summary.md)
       + [Desglose por dominios](reporting/using/breakdown-by-domains.md)
       + [Reclamaciones](reporting/using/complaints.md)
       + [Resumen de envíos](reporting/using/delivery-summary.md)
@@ -184,46 +183,46 @@ source-git-commit: 1ccea1d142f0b1550c8891b2f31233af8c9d4e29
    + [Acerca de las integraciones de Campaign](integrating/using/about-campaign-integrations.md)
    + Uso de Campaign y Experience Manager {#working-with-campaign-and-experience-manager}
       + [Integración con Experience Manager](integrating/using/integrating-with-experience-manager.md)
-      + [Creación de un formulario de campaña en Experience Manager ](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
+      + [Creación de un formulario de Campaign en Experience Manager ](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
    + Uso de Campaign y Target {#working-with-campaign-and-target}
       + [Acerca de la integración de Campaign-Target](integrating/using/about-campaign-target-integration.md)
       + [Configuración de la integración de Campaign-Target](integrating/using/configuring-the-campaign-target-integration.md)
       + [Adición de contenido dinámico de Target](integrating/using/adding-target-dynamic-content.md)
    + Uso de Campaign y Analytics {#working-with-campaign-and-analytics}
       + [Acerca de la integración de Campaign-Analytics](integrating/using/about-campaign-analytics-integration.md)
-      + [Configurar la integración de Campaign-Analytics](integrating/using/configure-campaign-analytics-integration.md)
-      + [Dimensiones y métricas de campaña en Analytics](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
-   + Uso del servicio principal Campaña y Audience Manager o Personas {#working-with-campaign-and-audience-manager-or-people-core-service}
-      + [Acerca de Campaign-Audience Manager o la integración de servicio principal Personas](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
-      + [Aprovisionamiento y configuración de la integración con el servicio principal de Audience Manager o Personas](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+      + [Configuración de la integración de Campaign-Analytics](integrating/using/configure-campaign-analytics-integration.md)
+      + [Dimensiones y métricas de Campaign en Analytics](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
+   + Uso de Campaign y Audience Manager o del servicio principal People {#working-with-campaign-and-audience-manager-or-people-core-service}
+      + [Acerca de la integración de Campaign con Audience Manager o el servicio principal People](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
+      + [Aprovisionamiento y configuración de la integración con Audience Manager o el servicio principal People](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
       + [Resolución de problemas](integrating/using/troubleshooting.md)
-      + [Uso compartido de audiencias con Audience Manager o el servicio principal Personas](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
-   + [Uso del servicio principal de Campaign y Assets](integrating/using/working-with-campaign-and-assets-core-service.md)
+      + [Uso compartido de audiencias con Audience Manager o el servicio principal People](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
+   + [Uso de Campaign y del servicio principal Assets](integrating/using/working-with-campaign-and-assets-core-service.md)
    + Uso de Campaign y Analytics para dispositivos móviles {#working-with-campaign-and-analytics-for-mobile}
-      + [Acerca de la integración de datos Campaign-Points de interés](integrating/using/about-campaign-points-of-interest-data-integration.md)
-      + [Configuración de la integración de datos Campaign-Points de interés](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
-      + [Personalización de mensajes de campaña con datos del punto de interés](integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md)
-   + Uso de Campaign y Triggers {#working-with-campaign-and-triggers}
-      + [Acerca de Adobe Experience Cloud Triggers](integrating/using/about-adobe-experience-cloud-triggers.md)
+      + [Acerca de la integración de Campaign con datos de Puntos de interés](integrating/using/about-campaign-points-of-interest-data-integration.md)
+      + [Configuración de la integración de Campaign con datos de Puntos de interés](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
+      + [Personalización de mensajes de Campaign con datos de Puntos de interés](integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md)
+   + Uso de Campaign y de los activadores {#working-with-campaign-and-triggers}
+      + [Acerca de los activadores de Adobe Experience Cloud](integrating/using/about-adobe-experience-cloud-triggers.md)
       + [Configuración de activadores en Experience Cloud](integrating/using/configuring-triggers-in-experience-cloud.md)
-      + [Uso de activadores en campañas](integrating/using/using-triggers-in-campaign.md)
+      + [Uso de activadores en Campaign](integrating/using/using-triggers-in-campaign.md)
       + [Prueba de los activadores](integrating/using/testing-your-triggers.md)
-      + [Casos de uso de activadores de abandono](integrating/using/abandonment-triggers-use-cases.md)
+      + [Ejemplos prácticos de activadores de abandono](integrating/using/abandonment-triggers-use-cases.md)
 + Administración de procesos y datos {#managing-processes-and-data}
    + Acerca de los flujos de trabajo y la administración de datos {#about-workflows-and-data-management}
       + [Procesos y datos de flujo de trabajo](automating/using/workflow-data-and-processes.md)
       + [Descubrimiento de flujos de trabajo](automating/using/discovering-workflows.md)
       + [Principios operativos del flujo de trabajo](automating/using/workflow-operating-principles.md)
       + [Interfaz de flujo de trabajo](automating/using/workflow-interface.md)
-   + Operación general de flujo de trabajo {#workflow-general-operation}
+   + Funcionamiento general del flujo de trabajo {#workflow-general-operation}
       + [Creación de un flujo de trabajo](automating/using/building-a-workflow.md)
       + [Datos de objetivos](automating/using/targeting-data.md)
       + [Importación de datos](automating/using/importing-data.md)
       + [Uso de datos de flujo de trabajo](automating/using/using-workflow-data.md)
       + [Ejecución de un flujo de trabajo](automating/using/executing-a-workflow.md)
-      + [Llamada a un flujo de trabajo con parámetros externos](automating/using/calling-a-workflow-with-external-parameters.md)
+      + [Invocación de un flujo de trabajo con parámetros externos](automating/using/calling-a-workflow-with-external-parameters.md)
       + [Prácticas recomendadas del flujo de trabajo](automating/using/best-practices-workflows.md)
-   + Objetivo de las actividades {#targeting-activities}
+   + Actividades de segmentación {#targeting-activities}
       + [Acerca de las actividades de segmentación](automating/using/about-targeting-activities.md)
       + [Consulta](automating/using/query.md)
       + [Consulta incremental](automating/using/incremental-query.md)
@@ -247,7 +246,7 @@ source-git-commit: 1ccea1d142f0b1550c8891b2f31233af8c9d4e29
    + Actividades de canal {#channel-activities}
       + [Acerca de las actividades de canal](automating/using/about-channel-activities.md)
       + [Envío de correo electrónico](automating/using/email-delivery.md)
-      + [Envío SMS](automating/using/sms-delivery.md)
+      + [Envío de SMS](automating/using/sms-delivery.md)
       + [Envío de notificaciones push](automating/using/push-notification-delivery.md)
       + [Envío directo por correo](automating/using/direct-mail-delivery.md)
       + [Entrega en la aplicación](automating/using/in-app-delivery.md)
@@ -255,7 +254,7 @@ source-git-commit: 1ccea1d142f0b1550c8891b2f31233af8c9d4e29
       + [Acerca de las actividades de administración de datos](automating/using/about-data-management-activities.md)
       + [Actualización de datos](automating/using/update-data.md)
       + [Cargar archivo](automating/using/load-file.md)
-      + [Archivo de transferencia](automating/using/transfer-file.md)
+      + [Transferir archivo](automating/using/transfer-file.md)
       + [Reconciliación](automating/using/reconciliation.md)
       + [Extraer archivo](automating/using/extract-file.md)
       + [Servicios de suscripción](automating/using/subscription-services.md)
@@ -271,13 +270,14 @@ source-git-commit: 1ccea1d142f0b1550c8891b2f31233af8c9d4e29
       + [Exportación de registros](automating/using/exporting-logs.md)
       + [Administración de paquetes](automating/using/managing-packages.md)
       + [Exportación de listas](automating/using/exporting-lists.md)
-   + Casos de uso:Flujos de trabajo {#workflow-use-case}
+   + Ejemplos prácticos: Flujos de trabajo {#workflow-use-case}
       + [Creación de entregas con un complemento](automating/using/workflow-created-query-with-complement.md)
       + [Creación de envíos en la fecha de creación](automating/using/workflow-creation-date-query.md)
       + [Creación de un envío semanal](automating/using/workflow-weekly-offer.md)
       + [Creación de una segmentación en una ubicación](automating/using/workflow-segmentation-location.md)
-      + [No abridores de redireccionamiento](automating/using/workflow-cross-channel-retargeting.md)
-+ Desarrollo {#developing}
+      + [Redirección de receptores que no abran el correo](automating/using/workflow-cross-channel-retargeting.md)
+      + [Creación de un grupo de control](automating/using/workflow-control-group.md)
++ Desarrollo de {#developing}
    + Acerca de los recursos personalizados {#about-custom-resources}
       + [Conceptos del modelo de datos](developing/using/data-model-concepts.md)
       + [Estados de recursos](developing/using/resource-statuses.md)
@@ -290,15 +290,29 @@ source-git-commit: 1ccea1d142f0b1550c8891b2f31233af8c9d4e29
       + [Configuración de la definición del filtro](developing/using/configuring-filter-definition.md)
       + [Actualización de la estructura de la base de datos](developing/using/updating-the-database-structure.md)
       + [Eliminación de un recurso](developing/using/deleting-a-resource.md)
-      + [Llamar a un recurso mediante una clave de identificación compuesta](developing/using/uc-calling-resource-id-key.md)
-   + Caso de uso: Ampliación de la API {#use-case--extending-the-api}
-      + [Ampliación de la API](developing/using/about-extending-the-api.md)
+      + [Invocación de un recurso mediante una clave de identificación compuesta](developing/using/uc-calling-resource-id-key.md)
+   + Ejemplo práctico: Ampliación de la API {#use-case--extending-the-api}
+      + [Acerca de la ampliación de la API](developing/using/about-extending-the-api.md)
       + [Paso 1: Agregar campos de extensión al recurso de perfil](developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
       + [Paso 2: Publicar la extensión](developing/using/step-2--publish-the-extension.md)
-      + [Paso 3: Verifique la extensión](developing/using/step-3--verify-the-extension.md)
-   + Casos de uso: Ampliación de recursos {#use-cases--extending-resources}
+      + [Paso 3: Verificar la extensión](developing/using/step-3--verify-the-extension.md)
+   + Ejemplo práctico: Ampliación de recursos {#use-cases--extending-resources}
       + [Ampliación del recurso de perfil con un nuevo campo](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [Ampliación de las suscripciones a un recurso de aplicación](developing/using/extending-the-subscriptions-to-an-application-resource.md)
+   + Datamodel {#datamodel}
+      + [Destinatarios](developing/using/datamodel-audience.md)
+      + [Campaña](developing/using/datamodel-campaign.md)
+      + [Envío](developing/using/datamodel-delivery.md)
+      + [Páginas de aterrizaje](developing/using/datamodel-landingpage.md)
+      + [Historial de mercadotecnia](developing/using/datamodel-history.md)
+      + [Perfil](developing/using/datamodel-profile.md)
+      + [Programa](developing/using/datamodel-program.md)
+      + [Miembro de la semilla](developing/using/datamodel-seed.md)
+      + [Servicio](developing/using/datamodel-service.md)
+      + [Evento de suscripción](developing/using/datamodel-subscription.md)
+      + [Registros de seguimiento](developing/using/datamodel-tracking.md)
+      + [Evento de cancelación de suscripción](developing/using/datamodel-unsubscription.md)
+      + [Visitante](developing/using/datamodel-visitor.md)
 + Administración {#administrating}
    + [Acerca de la administración de Adobe Campaign](administration/using/about-administrating-adobe-campaign.md)
    + Usuarios y seguridad {#users-and-security}
@@ -310,9 +324,9 @@ source-git-commit: 1ccea1d142f0b1550c8891b2f31233af8c9d4e29
       + [Auditoría de registros de exportación](administration/using/auditing-export-logs.md)
       + [Licencias](administration/using/licenses.md)
    + Configuración de canales {#configuring-channels}
-      + [Acerca de la configuración de canal](administration/using/about-channel-configuration.md)
-      + [Configuración del canal de correo electrónico](administration/using/configuring-email-channel.md)
-      + [Configuración del canal SMS](administration/using/configuring-sms-channel.md)
+      + [Acerca de la configuración de canales](administration/using/about-channel-configuration.md)
+      + [Configuración de canales de correo electrónico](administration/using/configuring-email-channel.md)
+      + [Configuración de canales de SMS](administration/using/configuring-sms-channel.md)
       + [Configuración de una aplicación móvil](administration/using/configuring-a-mobile-application.md)
       + [Configuración de la mensajería transaccional](administration/using/configuring-transactional-messaging.md)
    + Trabajo con reglas de tipología {#working-with-typology-rules}
