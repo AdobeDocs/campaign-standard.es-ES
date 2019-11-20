@@ -1,18 +1,18 @@
 ---
 title: Cálculo de indicador
 description: Comprender los resultados de los informes con una lista de la fórmula de cada métrica.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: dfbc9d7e-62db-4e77-bb8e-0ac826ec7333
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: informes
-content-type: referencia
-topic-tags: acerca de los informes
+audience: reporting
+content-type: reference
+topic-tags: about-reporting
 discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 3033e2f15065685f3c0e7c1759e184738cb67d9c
 
 ---
 
@@ -46,7 +46,7 @@ Las tablas siguientes proporcionan la lista de indicadores utilizados en los dis
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Tarifa negra<br /> </td> 
+   <td> Tarifa bloqueada<br /> </td> 
    <td> @rateBlacklists<br /> </td> 
    <td> @blacklisted/@sent<br /> </td> 
    <td> El denominador para el cálculo del tipo se basa en el recuento de envíos (entregado + devoluciones).<br /> </td> 
@@ -83,7 +83,7 @@ Las tablas siguientes proporcionan la lista de indicadores utilizados en los dis
   </tr> 
   <tr> 
    <td> Tasa de entrega<br /> </td> 
-   <td> @rateDelivery<br /> </td> 
+   <td> @rateEntreged<br /> </td> 
    <td> @delivery/@sent<br /> </td> 
    <td> El denominador para el cálculo del tipo se basa en el recuento de envíos (entregado + devoluciones).<br /> </td> 
   </tr> 
@@ -131,7 +131,7 @@ Las tablas siguientes proporcionan la lista de indicadores utilizados en los dis
   </tr> 
   <tr> 
    <td> Apertura<br /> </td> 
-   <td> @opens<br /> </td> 
+   <td> @uniqueOpen<br /> </td> 
    <td> count(@trackingUrlType=2 + unique(@trackingUrlType=1,2,3,6,10,11) - unique(@trackingUrlType=2))<br /> </td> 
    <td> </td> 
   </tr> 
@@ -251,7 +251,7 @@ Las tablas siguientes proporcionan la lista de indicadores utilizados en los dis
   </tr> 
   <tr> 
    <td> Tasa de entrega<br /> </td> 
-   <td> @rateDelivery<br /> </td> 
+   <td> @rateEntreged<br /> </td> 
    <td> (@did/@sent)*100<br /> </td> 
   </tr> 
   <tr> 
