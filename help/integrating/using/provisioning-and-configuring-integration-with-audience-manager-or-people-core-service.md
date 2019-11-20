@@ -1,18 +1,18 @@
 ---
 title: Aprovisionamiento y configuración de la integración con Audience Manager o el servicio principal People
 description: 'Obtenga información sobre cómo configurar la integración del servicio principal Audience Manager/Personas para empezar a compartir audiencias o segmentos con las distintas soluciones de Adobe Experience Cloud. '
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: e7329644-0033-4729-b4a7-61bef137f4b5
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: integrar
-content-type: referencia
-topic-tags: servicio de trabajo con campaña y audiencia-administrador-o-personas-núcleo
+audience: integrating
+content-type: reference
+topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b5dc0078bdc48a4c5c1ffc397f51db9222662477
 
 ---
 
@@ -68,7 +68,9 @@ Esta integración debe configurarse primero. Para solicitar esta integración, e
 * Si las audiencias se comparten de Adobe Campaign a Ad Cloud mediante el servicio principal Personas, no podrá usar el aprovisionamiento para el relleno histórico de audiencias **[!UICONTROL Declared ID]** . También se espera cierta latencia al crear audiencias.
 * Si las audiencias se comparten desde Adobe Analytics a Adobe Campaign a través del servicio principal Personas, los segmentos no se rellenarán en Adobe Campaign con **[!UICONTROL Declared ID]**.
 
-Si utiliza Adobe Audience Manager en lugar de People Core Service, **[!UICONTROL Declared ID]** funcionará en todos los casos.
+>[!NOTE]
+>
+>Si utiliza Adobe Audience Manager en lugar de People Core Service, **[!UICONTROL Declared ID]** funcionará en todos los casos.
 
 You can raise a request for **[!UICONTROL Declared ID]** provisioning to the following address: [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com).
 
