@@ -1,18 +1,18 @@
 ---
 title: Configuración de la mensajería transaccional
 description: Obtenga información sobre cómo configurar los mensajes transaccionales.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 4caeadbe-f4a7-43ce-986d-e99fa9ca0d0d
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: administración
-content-type: referencia
-topic-tags: configurar-canales
+audience: administration
+content-type: reference
+topic-tags: configuring-channels
 discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -76,7 +76,7 @@ Esta colección se puede utilizar en un correo electrónico transaccional para a
 1. Agregue una etiqueta y un ID para la colección.
 1. Agregue todos los campos que desee mostrar en el mensaje transaccional para cada producto de la lista.
 
-   En este ejemplo, hemos añadido los campos siguientes:
+   En este ejemplo, se han añadido los campos siguientes:
 
    ![](assets/message-center_collection_fields.png)
 
@@ -184,7 +184,7 @@ Una vez creado un evento, deberá integrar la activación de este evento en su s
 
 En el ejemplo descrito en la sección Principio [operativo de mensajería](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) transaccional, desea que se active un evento de "abandono del carro de compras" cada vez que uno de los clientes abandone el sitio Web antes de comprar los productos en el carro de compras. Para ello, el desarrollador web de su sitio web debe utilizar la API REST de Adobe Campaign Standard.
 
-Consulte la documentación de la API de [REST](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#transactional-messages-api) .
+Consulte la documentación de la API de [REST](../../api/using/managing-transactional-messages.md) .
 
 ## Configuraciones específicas de eventos transaccionales {#transactional-event-specific-configurations}
 
@@ -218,7 +218,7 @@ Para obtener más información, consulte [Uso de mensajes](https://helpx.adobe.c
 Para enviar un mensaje transaccional basado en perfiles, primero debe crear y configurar los datos de objetivo de eventos contenidos en la base de datos de Adobe Campaign.
 
 1. Al crear la configuración de eventos, seleccione la dimensión de **[!UICONTROL Profile event]** objetivo (consulte [Creación de un evento](#creating-an-event)).
-1. Agregue campos al evento para poder personalizar el mensaje transaccional (consulte [Definición de atributos](#defining-the-event-attributes)del evento). Debe agregar al menos un campo para crear un enriquecimiento. No es necesario crear otros campos, como **Nombre** y **Apellido** , ya que podrá utilizar campos de personalización de la base de datos de Adobe Campaign.
+1. Agregue campos al evento para poder personalizar el mensaje transaccional (consulte [Definición de atributos](#defining-the-event-attributes)del evento). Debe agregar al menos un campo para crear un enriquecimiento. No es necesario crear otros campos, como **Nombre** y **Apellido** , ya que podrá utilizar los campos de personalización de la base de datos de Adobe Campaign.
 1. Cree un enriquecimiento para vincular el evento al **[!UICONTROL Profile]** recurso (consulte [Enriquecimiento del contenido](#enriching-the-transactional-message-content)del mensaje transaccional). La creación de un enriquecimiento es obligatoria cuando se utiliza una dimensión **[!UICONTROL Profile]** de objetivo.
 1. Obtenga una vista previa y publique el evento (consulte [Vista previa y publicación del evento](#previewing-and-publishing-the-event)).
 
@@ -236,7 +236,7 @@ Para enviar una notificación push de transacción anónima a todos los usuarios
 
 El evento debe contener los tres elementos siguientes:
 
-* Un token **de** registro, que es el ID de usuario de una aplicación móvil y un dispositivo. Puede que no se corresponda con ningún perfil de la base de datos de Adobe Campaign.
+* Distintivo **de** registro, que es el ID de usuario de una aplicación móvil y un dispositivo. Puede que no se corresponda con ningún perfil de la base de datos de Adobe Campaign.
 * Un nombre **de aplicación** móvil (uno para todos los dispositivos: Android e iOS). ID de la aplicación móvil configurada en Adobe Campaign que se utilizará para recibir notificaciones push en los dispositivos de los usuarios. Para obtener más información, consulte [esta página](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 * Una plataforma **** push ("gcm" para Android o "apns" para iOS).
 
@@ -264,15 +264,15 @@ Para enviar una notificación push de transacción a los perfiles de Adobe Campa
 
 1. Al crear la configuración de eventos, seleccione el **[!UICONTROL Mobile application]** canal y la dimensión de **[!UICONTROL Profile]** objetivo (consulte [Creación de un evento](#creating-an-event)).
 
-   De forma predeterminada, la notificación push de transacción se enviará a todas las aplicaciones móviles a las que se hayan suscrito los destinatarios. Para enviar la notificación push a una aplicación móvil específica, selecciónela en la lista. Las demás aplicaciones móviles serán segmentadas por el mensaje pero se excluirán del envío.
+   De forma predeterminada, la notificación push de transacción se enviará a todas las aplicaciones móviles a las que se suscribieron los destinatarios. Para enviar la notificación push a una aplicación móvil específica, selecciónela en la lista. Las demás aplicaciones móviles serán segmentadas por el mensaje pero se excluirán del envío.
 
    ![](assets/message-center_push_appfilter.png)
 
-1. Agregue campos al evento si desea personalizar el mensaje transaccional (consulte [Definición de atributos](#defining-the-event-attributes)del evento).
+1. Agregue campos al evento si desea personalizar el mensaje transaccional (consulte [Definición de los atributos](#defining-the-event-attributes)del evento).
 
    >[!NOTE]
    >
-   >Debe agregar al menos un campo para crear un enriquecimiento. No es necesario crear otros campos, como **Nombre** y **Apellido** , ya que podrá utilizar campos de personalización de la base de datos de Adobe Campaign.
+   >Debe agregar al menos un campo para crear un enriquecimiento. No es necesario crear otros campos, como **Nombre** y **Apellido** , ya que podrá utilizar los campos de personalización de la base de datos de Adobe Campaign.
 
 1. Cree un enriquecimiento para vincular el evento al **[!UICONTROL Profile]** recurso (consulte [Enriquecimiento del contenido](#enriching-the-transactional-message-content)del mensaje transaccional). La creación de un enriquecimiento es obligatoria cuando se utiliza una dimensión **[!UICONTROL Profile]** de objetivo.
 1. Obtenga una vista previa y publique el evento (consulte [Vista previa y publicación del evento](#previewing-and-publishing-the-event)).
@@ -288,7 +288,7 @@ Para enviar una notificación push de transacción a los perfiles de Adobe Campa
 Un mensaje de seguimiento es una plantilla de envío de marketing predefinida que se puede utilizar en un flujo de trabajo para enviar mensajes a los destinatarios de un mensaje transaccional específico. Para obtener más información sobre esto, consulte [Mensajes](../../channels/using/follow-up-messages.md)de seguimiento.
 
 1. Utilice la misma configuración de evento que creó para enviar un mensaje transaccional de evento. Consulte Mensajes [transaccionales basados en](#event-based-transactional-messages)eventos.
-1. Al configurar el evento, marque la **[!UICONTROL Create follow-up delivery template for this event]** casilla antes de publicarlo.
+1. Al configurar el evento, marque la **[!UICONTROL Create follow-up delivery template for this event]** casilla antes de publicar el evento.
 
    ![](assets/message-center_follow-up-checkbox.png)
 
