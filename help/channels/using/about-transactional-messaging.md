@@ -1,18 +1,18 @@
 ---
 title: Acerca de la mensajería transaccional
 description: Descubra los distintos tipos de mensajes transaccionales que puede enviar y cómo se utilizan en Adobe Campaign.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 8470e9e2-ee17-456f-9e4c-460e69c78a2c
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: canales
-content-type: referencia
-topic-tags: transaccional-mensajería
+audience: channels
+content-type: reference
+topic-tags: transactional-messaging
 discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 Puede crear y administrar mensajes transaccionales personalizados en Adobe Campaign.
 
-Un mensaje transaccional es una comunicación individual y única enviada a un usuario por un proveedor como un sitio web.
+Un mensaje transaccional es una comunicación individual y única que un proveedor, como un sitio Web, envía a un usuario.
 
 * Este tipo de mensaje es especialmente esperado, ya que contiene información que el destinatario desea comprobar o confirmar. Podría ser un mensaje de bienvenida después de crear una cuenta, por ejemplo, o una confirmación de envío de un pedido, una factura o un mensaje que confirme un cambio de contraseña.
 * Es un mensaje importante que define la relación con el cliente: el usuario espera que se envíe en tiempo real. Por lo tanto, el retraso entre el evento que se está activando y el mensaje que llega tiene que ser muy corto.
@@ -44,7 +44,7 @@ El tipo de mensaje se define al configurar el evento que se transformará en un 
 >
 >Adobe Campaign prioriza el procesamiento de los mensajes transaccionales sobre cualquier otra entrega.
 
-La mensajería transaccional también está disponible en la API de Adobe Campaign Standard. For more on this, refer to the [dedicated documentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#about-transactional-messaging).
+La mensajería transaccional también está disponible en la API de Adobe Campaign Standard. For more on this, refer to the [dedicated documentation](../../api/using/managing-transactional-messages.md).
 
 ## Principio operativo de mensajería transaccional {#transactional-messaging-operating-principle}
 
@@ -93,7 +93,7 @@ La manera de personalizar el contenido de un mensaje depende del tipo de mensaje
 * La información de personalización proviene de los datos contenidos en el propio evento. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 * No puede utilizar los bloques de contenido de vínculos **de** cancelación de suscripciones en un mensaje transaccional de eventos.
 * Se supone que la mensajería transaccional basada en eventos utiliza solamente los datos que se encuentran en el evento enviado para definir el destinatario y la personalización del contenido del mensaje. Sin embargo, puede enriquecer el contenido del mensaje transaccional con información de la base de datos de Adobe Campaign. Consulte [Enriquecimiento del contenido](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)de mensajes transaccionales.
-* Como los mensajes transaccionales de eventos no contienen información de perfil, no son compatibles con las reglas de fatiga, incluso en el caso de un enriquecimiento con perfiles. Consulte Reglas [de fatiga](../../administration/using/fatigue-rules.md).
+* Dado que los mensajes transaccionales de eventos no contienen información de perfil, no son compatibles con las reglas de fatiga, incluso en el caso de un enriquecimiento con perfiles. Consulte Reglas [de fatiga](../../administration/using/fatigue-rules.md).
 
 **Mensajes** transaccionales basados en perfiles:
 
@@ -113,7 +113,7 @@ Al editar un mensaje transaccional, puede vincularlo a una marca para aplicar au
 
 Todos los objetos (incluida la marca) utilizados en un mensaje transaccional deben ser visibles desde la unidad organizativa, lo que significa que estos objetos deben estar en las unidades organizativas **[!UICONTROL Message Center]** o **[!UICONTROL Message Center]** **[!UICONTROL All]** .
 
-Sin embargo, si la marca seleccionada en las propiedades del mensaje está vinculada a una unidad organizativa distinta de **[!UICONTROL Message Center]** o **[!UICONTROL All]**, se producirá un error y no podrá enviar el mensaje transaccional.
+Sin embargo, si la marca seleccionada en las propiedades del mensaje está vinculada a una unidad organizativa distinta de **[!UICONTROL Message Center]** o **[!UICONTROL All]**, esto provocará un error y no podrá enviar el mensaje transaccional.
 
 Por lo tanto, si desea utilizar la marca múltiple en el contexto de los mensajes transaccionales, debe vincular todas las marcas a la unidad organizativa o a la unidad organizativa **[!UICONTROL Message Center]** o a la **[!UICONTROL All]** .
 
