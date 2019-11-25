@@ -1,19 +1,19 @@
 ---
 title: Mensajes transaccionales de eventos
 description: Obtenga información sobre cómo crear y publicar un mensaje transaccional de eventos.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: d747feb5-58fb-4e12-a176-404f0eca5391
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: canales
-content-type: referencia
-topic-tags: transaccional-mensajería
+audience: channels
+content-type: reference
+topic-tags: transactional-messaging
 discoiquuid: 4f6317a1-9dfe-4714-bc1c-393629d855cd
 context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -91,7 +91,7 @@ Para configurar la personalización en un mensaje transaccional, siga los pasos 
 
    >[NOTA]
    >
-   >El vínculo al carro abandonado es un vínculo a una dirección URL externa que redireccionará a la persona al carro de compras. Este parámetro no se administra en Adobe Campaign.
+   >El vínculo al carro de compras abandonado es un vínculo a una dirección URL externa que redireccionará a la persona al carro de compras. Este parámetro no se administra en Adobe Campaign.
 
 1. En este ejemplo, desea agregar tres campos que definió al [crear el evento](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message): nombre, último producto consultado, cantidad total del carro de compras. Para ello, [inserte un campo](../../designing/using/personalization.md#inserting-a-personalization-field) de personalización en el contenido del mensaje.
 
@@ -107,7 +107,7 @@ Para configurar la personalización en un mensaje transaccional, siga los pasos 
 
    ![](assets/message-center_8.png)
 
-1. Para previsualizar el mensaje, seleccione el perfil que definió para este evento.
+1. Para obtener una vista previa del mensaje, seleccione el perfil que definió para este evento.
 
    Los pasos para obtener una vista previa de un mensaje se detallan en la sección [Vista previa de mensajes](../../sending/using/previewing-messages.md) .
 
@@ -121,11 +121,11 @@ Puede crear listas de productos que hagan referencia a una o varias colecciones 
 
 >[!CAUTION]
 >
->Las listas de productos solo están disponibles cuando se editan mensajes de correo electrónico transaccionales a través de la interfaz de [Email Designer](../../designing/using/overview.md#email-designer) .
+>Los listados de productos solo están disponibles cuando se editan mensajes de correo electrónico transaccionales a través de la interfaz de [Email Designer](../../designing/using/overview.md#email-designer) .
 
 Para agregar una lista de productos abandonados en un mensaje transaccional, siga los pasos a continuación.
 
-También puede ver un conjunto de vídeos en los que se explican los pasos necesarios para configurar las listas de productos en un mensaje de correo electrónico transaccional. For more on this, see [this page](https://helpx.adobe.com/campaign/kt/acs/using/acs-product-listings-in-transactional-emails-feature-video-setup.html).
+También puede ver un conjunto de vídeos en los que se explican los pasos necesarios para configurar los listados de productos en un mensaje de correo electrónico transaccional. For more on this, see [this page](https://helpx.adobe.com/campaign/kt/acs/using/acs-product-listings-in-transactional-emails-feature-video-setup.html).
 
 >[!NOTE]
 >
@@ -164,7 +164,7 @@ Antes de poder utilizar una lista de productos en un mensaje transaccional, debe
 
 1. Utilice la lista desplegable **[!UICONTROL First item]** para seleccionar qué elemento iniciará la lista que se muestra en el correo electrónico.
 
-   Por ejemplo, si selecciona 2, el primer elemento de la colección no se mostrará en el correo electrónico. La lista de productos comenzará en el segundo artículo.
+   Por ejemplo, si selecciona 2, el primer elemento de la colección no se mostrará en el mensaje de correo electrónico. La lista de productos comenzará en el segundo artículo.
 
 1. Seleccione el número máximo de elementos que se mostrarán en la lista.
 
@@ -248,7 +248,7 @@ Una vez que haya comprobado el mensaje transaccional, puede publicarlo.
 
 ![](assets/message-center_12.png)
 
-Ahora, tan pronto como se activa el evento de "abandono del carro de compras", se muestra automáticamente un mensaje que contiene el título y los apellidos del destinatario, la dirección URL del carro de compras, el último producto consultado o una lista de productos si se ha definido una lista de productos y la cantidad total que se va a enviar.
+Ahora, tan pronto como se activa el evento de "abandono del carro de compras", se muestra automáticamente un mensaje que contiene el título y los apellidos del destinatario, la dirección URL del carro de compras, el último producto consultado o una lista de productos si se ha definido un listado de productos y la cantidad total que se va a enviar.
 
 Para acceder a los informes relacionados con su mensaje transaccional, utilice el **[!UICONTROL Reports]** botón . Consulte [Informes](../../reporting/using/about-dynamic-reports.md).
 
@@ -258,7 +258,7 @@ Para acceder a los informes relacionados con su mensaje transaccional, utilice e
 
 Puede suspender la publicación del mensaje de transacción utilizando el **[!UICONTROL Pause]** botón, por ejemplo, para modificar los datos contenidos en el mensaje. Por lo tanto, los eventos ya no se procesan, sino que se mantienen en una cola en la base de datos de Adobe Campaign.
 
-Los eventos en cola se guardan durante un período de tiempo definido en la API de REST (consulte la documentación [de la API de](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)REST) o en el evento desencadenador si utiliza el servicio principal de activadores (consulte [Uso de Campaign y Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
+Los eventos en cola se guardan durante un período de tiempo definido en la API de REST (consulte la documentación [de la API de](../../api/using/about-campaign-standard-apis.md)REST) o en el evento desencadenador si utiliza el servicio principal de activadores (consulte [Uso de Campaign y Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
 
 ![](assets/message-center_pause.png)
 
@@ -272,7 +272,7 @@ Al hacer clic en **[!UICONTROL Unpublish]** se puede cancelar la publicación de
 
 >[!NOTE]
 >
->Para volver a publicar el mensaje, debe volver a la configuración del evento correspondiente, publicarlo y publicarlo. Para obtener más información sobre esto, consulte [Publicación de un mensaje](#publishing-a-transactional-message)transaccional.
+>Para volver a publicar el mensaje, debe volver a la configuración del evento correspondiente, publicarlo y, a continuación, publicar el mensaje. Para obtener más información sobre esto, consulte [Publicación de un mensaje](#publishing-a-transactional-message)transaccional.
 
 Si cancela la publicación de un mensaje transaccional pausado, es posible que tenga que esperar hasta 24 horas para poder volver a publicarlo. Esto permite que el flujo de trabajo **[!UICONTROL Database cleanup]** limpie todos los eventos que se han enviado a la cola. Los pasos para pausar un mensaje se detallan en la sección [Suspender una publicación](#suspending-a-transactional-message-publication) de mensajes transaccionales.
 
@@ -290,7 +290,7 @@ Si selecciona un mensaje transaccional, puede eliminarlo con el **[!UICONTROL De
 
    >[!CAUTION]
    >
-   >Al eliminar un mensaje transaccional que ya ha enviado notificaciones también se eliminarán los registros de envío y seguimiento.
+   >Al eliminar un mensaje transaccional que ya ha enviado notificaciones, también se eliminarán los registros de envío y seguimiento.
 
 * **Mensajes transaccionales de una plantilla de evento lista para usar (mensajes transaccionales internos)**: Para eliminar un mensaje transaccional interno, se debe cancelar la publicación del mensaje y no ponerlo en pausa.
 
@@ -331,6 +331,6 @@ En el proceso de reintento, los registros de envío de la nueva entrega de ejecu
 
 **Error al ejecutar la entrega**
 
-No puede detener una entrega de ejecución. Sin embargo, si se produce un error en la entrega de ejecución actual, se crea una nueva en cuanto se recibe un nuevo evento y todos los eventos nuevos se procesan mediante esta nueva entrega de ejecución. No se procesan nuevos eventos debido al error en la entrega de ejecución.
+No se puede detener una entrega de ejecución. Sin embargo, si se produce un error en la entrega de ejecución actual, se crea una nueva en cuanto se recibe un nuevo evento y todos los eventos nuevos se procesan mediante esta nueva entrega de ejecución. No se procesan nuevos eventos debido a la entrega fallida de la ejecución.
 
 Si se han pospuesto algunos eventos ya asignados a una entrega de ejecución y se produce un error en dicha entrega, el sistema de reintentos no asigna los eventos pospuestos a la nueva entrega de ejecución, lo que significa que estos eventos se pierden.
