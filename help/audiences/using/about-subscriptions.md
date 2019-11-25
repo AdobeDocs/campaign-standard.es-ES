@@ -1,18 +1,18 @@
 ---
 title: Acerca de las suscripciones
-description: null
-page-status-flag: nunca activado
-uuid: b0263e40-f910-49f2-a138-0a1302aeec6
+description: Obtenga más información sobre servicios y suscripciones en Campaign Standard.
+page-status-flag: never-activated
+uuid: b0263e40-f910-49f2-a138-0a1302aeeec6
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: referencia
-topic-tags: administrar suscripciones
+content-type: reference
+topic-tags: managing-subscriptions
 discoiquuid: 27de5a13-7b7c-4c91-bf26-3dfd324beb8f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -29,4 +29,4 @@ Cada servicio incluye:
 * Mecanismos **de** confirmación de suscripción y/o cancelación de suscripción.
 * Un **historial** de suscripción.
 
-Las suscripciones también se pueden administrar mediante la API de Adobe Campaign Standard. For more on this, refer to the [dedicated documentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-subscriptions) .
+Las suscripciones también se pueden administrar mediante la API de Adobe Campaign Standard. For more on this, refer to the [dedicated documentation](../../api/using/managing-services-and-subscriptions.md) .
