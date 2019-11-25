@@ -1,18 +1,18 @@
 ---
 title: Creación de perfiles
 description: Obtenga información sobre cómo crear perfiles y recopilar datos de sus contactos mediante API, funciones de importación, adquisición en línea, actualizaciones automáticas o manuales.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: a5f5a58a-e798-400f-8648-05dc843d5557
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: referencia
-topic-tags: administrar-perfiles
+content-type: reference
+topic-tags: managing-profiles
 discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -23,9 +23,9 @@ En Adobe Campaign, los perfiles se utilizan de forma predeterminada para definir
 
 Para crear o actualizar un perfil en Campaign, puede:
 
-* Importar una lista de perfiles de un archivo mediante un [flujo de trabajo](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
+* Importación de una lista de perfiles de un archivo mediante un [flujo de trabajo](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
 * Recopilar datos en línea, a través de páginas [de aterrizaje](../../channels/using/about-landing-pages.md)
-* Creación masiva mediante la API de [REST](http://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+* Creación masiva mediante la API de [REST](../../api/using/about-campaign-standard-apis.md)
 * Sincronizar perfiles de [Microsoft Dynamics](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
 * Introduzca datos mediante las pantallas de interfaz gráfica, tal como se explica a continuación
 
@@ -57,7 +57,7 @@ El perfil ahora aparecerá en la lista.
 
 >[!NOTE]
 >
->También es posible crear perfiles mediante la API de Adobe Campaign Standard. For more on this, refer to the [dedicated documentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#creating-profiles) .
+>También es posible crear perfiles mediante la API de Adobe Campaign Standard. For more on this, refer to the [dedicated documentation](../../api/using/managing-profiles.md).
 
 Los perfiles también pueden dividirse en función de sus dependencias orgánicas. Para agregar los campos de organización a sus perfiles, consulte la sección Perfiles [de](../../administration/using/organizational-units.md#partitioning-profiles) partición.
 
