@@ -1,19 +1,19 @@
 ---
 title: Acerca de los perfiles
 description: Los contactos se almacenan como perfiles en la base de datos de Campaign y se actualizan durante todo su ciclo de vida.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 087f91a4-6e69-488e-9aa0-424d23d396ed
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: referencia
-topic-tags: administrar-perfiles
+content-type: reference
+topic-tags: managing-profiles
 discoiquuid: a35e736c-a17b-420c-8411-0debc3c6275a
-context-tags: destinatario,información general
+context-tags: recipient,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Campaign permite administrar los contactos durante todo el ciclo de vida: 
 
 >[!NOTE]
 >
->Los perfiles también están disponibles mediante la API de Adobe Campaign Standard. For more on this, refer to the [dedicated documentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#retrieving-profiles) .
+>Los perfiles también están disponibles mediante la API de Adobe Campaign Standard. For more on this, refer to the [dedicated documentation](../../api/using/managing-profiles.md).
 
 ![](assets/marketing_history.png)
 
