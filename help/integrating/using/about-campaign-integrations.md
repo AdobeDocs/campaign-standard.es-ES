@@ -1,18 +1,18 @@
 ---
 title: Acerca de las integraciones de Campaign
 description: Adobe Campaign le permite utilizar otras soluciones de Adobe y combinar sus diferentes capacidades.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 59d7cd99-a6f7-47f1-9b5c-c50e27a2bef8
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: integrar
-content-type: referencia
+audience: integrating
+content-type: reference
 topic-tags: about-campaign-integrations
 discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -27,11 +27,11 @@ Las distintas integraciones que se presentan a continuación le permiten combina
 >
 > De forma predeterminada, Adobe Campaign ya está vinculado a una cuenta de Adobe Experience Cloud.
 
-Según el entorno, otras soluciones también se pueden vincular a Adobe Experience Cloud. Están vinculados como Organizaciones (también llamados Inquilinos).
+En función de su entorno, otras soluciones también se pueden vincular a Adobe Experience Cloud. Están vinculados como Organizaciones (también llamados Inquilinos).
 
 Una organización es la entidad que permite a un administrador configurar grupos y usuarios y controlar el inicio de sesión único en Experience Cloud. La organización funciona como una empresa de inicio de sesión que abarca todos los productos y soluciones de Experience Cloud. Generalmente, la organización es el nombre de la empresa. Sin embargo, una empresa puede tener muchas organizaciones. La administración de usuarios y organizaciones se detalla en el portal [de ayuda de](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)Adobe Experience Cloud.
 
-Si desea integrar flujos de datos de otros sistemas con Adobe Campaign, consulte nuestra documentación [](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)de API.
+Si desea integrar flujos de datos de otros sistemas con Adobe Campaign, consulte nuestra documentación [](../../api/using/about-campaign-standard-apis.md)de API.
 
 >[!NOTE]
 >
