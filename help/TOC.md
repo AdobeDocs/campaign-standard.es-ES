@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: e059232068d79a512afda98dcde60578809656b2
+source-git-commit: 02cf4f79f69eb1aef81c9e805204febd363af1a2
 
 ---
 
@@ -343,3 +343,28 @@ source-git-commit: e059232068d79a512afda98dcde60578809656b2
       + [Envío de notificaciones internas](administration/using/sending-internal-notifications.md)
       + [Retención de datos](administration/using/data-retention.md)
       + [Actualizaciones y operaciones de mantenimiento](administration/using/updates-and-maintenance-operations.md)
++ Uso de API {#working-with-apis}
+   + Acerca de las API de Campaign Standard {#about-campaign-standard-apis}
+      + [Información general](api/using/about-campaign-standard-apis.md)
+      + [Por qué utilizar las API de Campaign Standard](api/using/why-using-campaign-standard-apis.md)
+      + [Configuración del acceso a API](api/using/setting-up-api-access.md)
+   + Conceptos globales {#global-concepts}
+      + [Lectura obligatoria](api/using/must-read.md)
+      + [Extremos](api/using/endpoints.md)
+      + [Mecanismo de metadatos](api/using/metadata-mechanism.md)
+      + [Verbos](api/using/verbs.md)
+      + Operaciones adicionales {#additional-operations}
+         + [Ordenar](api/using/sorting.md)
+         + [Filtrado](api/using/filtering.md)
+         + [Recuento](api/using/counting.md)
+         + [Paginación](api/using/pagination.md)
+      + [Recursos personalizados](api/using/custom-resources.md)
+   + [Administración de perfiles](api/using/managing-profiles.md)
+   + [Administración de servicios y suscripciones](api/using/managing-services-and-subscriptions.md)
+   + [Interactuar con el historial de mercadotecnia](api/using/interacting-with-marketing-history.md)
+   + [Administración de privacidad](api/using/privacy-management.md)
+   + [Administración de mensajes transaccionales](api/using/managing-transactional-messages.md)
+   + [Administración de flujos de trabajo](api/using/managing-workflows.md)
+   + [Administración de las dependencias orgánicas](api/using/managing-organizational-units.md)
+   + [Administración de unidades geográficas](api/using/managing-geographical-units.md)
+   + [Resolución de problemas](api/using/troubleshooting.md)
