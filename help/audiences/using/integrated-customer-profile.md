@@ -1,19 +1,19 @@
 ---
 title: Perfil de cliente integrado
 description: '"Rastree la interacción de cada cliente en una sola vista: El perfil de cliente integrado de Adobe Campaign se actualiza durante todo el ciclo de vida del cliente".'
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: da2eb13a-2268-4a99-939c-c6388f5d34f3
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: referencia
-topic-tags: administrar-perfiles
+content-type: reference
+topic-tags: managing-profiles
 discoiquuid: d44656e8-e652-45fc-a05c-0d5ffe456ecb
-context-tags: marketingHistory,principal
+context-tags: marketingHistory,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: fcd14668fc862b0ef4e2b294acd544739508471d
 
 ---
 
@@ -39,5 +39,4 @@ Haga clic en un evento de la lista para abrirlo: puede acceder al mensaje que se
 
 >[!NOTE]
 >
->También se puede acceder al historial de marketing mediante la API de Adobe Campaign Standard. For more on this, refer to the [dedicated documentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#interacting-with-marketing-history) .
-
+>También se puede acceder al historial de marketing mediante la API de Adobe Campaign Standard. For more on this, refer to the [dedicated documentation](../../api/using/interacting-with-marketing-history.md) .
