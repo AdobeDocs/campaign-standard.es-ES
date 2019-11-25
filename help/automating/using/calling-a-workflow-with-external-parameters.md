@@ -1,18 +1,18 @@
 ---
 title: Invocación de un flujo de trabajo con parámetros externos
 description: Esta sección detalla cómo llamar a un flujo de trabajo con parámetros externos.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: beccd1b6-8e6d-4504-9152-9ff537459c4a
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: automatizar
-content-type: referencia
+audience: automating
+content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -37,7 +37,7 @@ Una vez activado el flujo de trabajo, los parámetros se ingieren en las variabl
 El primer paso para llamar a un flujo de trabajo con parámetros es declararlos en una **[!UICONTROL External signal]** actividad.
 
 1. Abra la **[!UICONTROL External signal]** actividad y seleccione la **[!UICONTROL Parameters]** ficha.
-1. Haga clic en el **[!UICONTROL Create element]** botón y especifique el nombre y el tipo de cada parámetro.
+1. Haga clic en el **[!UICONTROL Create element]** botón y luego especifique el nombre y el tipo de cada parámetro.
 
    >[!CAUTION]
    >
@@ -49,7 +49,7 @@ El primer paso para llamar a un flujo de trabajo con parámetros es declararlos 
 
 ## Definición de los parámetros al llamar al flujo de trabajo {#defining-the-parameters-when-calling-the-workflow}
 
-En esta sección se explica cómo definir parámetros al llamar a un flujo de trabajo. Para obtener más información sobre cómo realizar esta operación desde una llamada de API, consulte la documentación [de las API de](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)REST.
+En esta sección se explica cómo definir parámetros al llamar a un flujo de trabajo. Para obtener más información sobre cómo realizar esta operación desde una llamada de API, consulte la documentación [de las API de](../../api/using/managing-workflows.md)REST.
 
 Antes de definir los parámetros, asegúrese de que:
 
@@ -144,7 +144,7 @@ For more on how to use the activity, refer to the [dedicated section](../../auto
 
 ![](assets/extsignal_activities_test.png)
 
-**[!UICONTROL Transfer file]** actividad: personalice el archivo para transferir en función de las variables de eventos.
+**[!UICONTROL Transfer file]** actividad: personalice el archivo que se va a transferir en función de las variables de eventos.
 
 For more on how to use the activity, refer to the [dedicated section](../../automating/using/transfer-file.md).
 
@@ -168,7 +168,7 @@ For more on how to use the activity, refer to the [dedicated section](../../auto
 
 Para personalizar una entrega según las variables de eventos, primero debe declarar en la actividad de entrega las variables que desee utilizar:
 
-1. Seleccione la actividad y haga clic en el ![](assets/dlv_activity_params-24px.png) botón para acceder a la configuración.
+1. Seleccione la actividad y, a continuación, haga clic en el ![](assets/dlv_activity_params-24px.png) botón para acceder a la configuración.
 1. Seleccione la **[!UICONTROL General]** ficha y, a continuación, agregue las variables de eventos que estarán disponibles como campos de personalización en la entrega.
 
    ![](assets/extsignal_activities_delivery.png)
@@ -213,7 +213,7 @@ Para realizar este caso de uso, debe realizar las acciones siguientes:
 
 1. **Realice una llamada** de API para activar Workflow 1 con parámetros externos. Consulte [el paso 1: Configuración de la llamada](../../automating/using/calling-a-workflow-with-external-parameters.md#step-1--configuring-the-api-call)de API.
 1. **Generar flujo de trabajo 1**: el flujo de trabajo transferirá un archivo y lo cargará en la base de datos. Luego comprobará si los datos están vacíos o no y, finalmente, guardará los perfiles en una audiencia. Finalmente, activará Workflow 2. Consulte [el paso 2: Configuración del flujo de trabajo 1](../../automating/using/calling-a-workflow-with-external-parameters.md#step-2--configuring-workflow-1).
-1. **Generar flujo de trabajo 2**: el flujo de trabajo leerá la audiencia que se ha creado en Workflow 1 y, a continuación, enviará un mensaje personalizado a los perfiles con un código de segmento personalizado con los parámetros. Consulte [el paso 3: Configuración del flujo de trabajo 2](../../automating/using/calling-a-workflow-with-external-parameters.md#step-3--configuring-workflow-2).
+1. **Generar flujo de trabajo 2**: el flujo de trabajo leerá la audiencia que se ha creado en Workflow 1 y, a continuación, enviará un mensaje personalizado a los perfiles, con un código de segmento personalizado con los parámetros. Consulte [el paso 3: Configuración del flujo de trabajo 2](../../automating/using/calling-a-workflow-with-external-parameters.md#step-3--configuring-workflow-2).
 
 ![](assets/extsignal_uc_process.png)
 
@@ -223,7 +223,7 @@ Antes de configurar los flujos de trabajo, debe crear los flujos de trabajo 1 y 
 
 ### Paso 1: Configuración de la llamada de API {#step-1--configuring-the-api-call}
 
-Realice una llamada de API para activar Workflow 1 con parámetros. Para obtener más información sobre la sintaxis de llamada de API, consulte la documentación [de las API de REST de](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)Campaign Standard.
+Realice una llamada de API para activar Workflow 1 con parámetros. Para obtener más información sobre la sintaxis de llamada de API, consulte la documentación [de las API de REST de](../../api/using/managing-workflows.md)Campaign Standard.
 
 En nuestro caso, queremos llamar al flujo de trabajo con los parámetros siguientes:
 
@@ -262,7 +262,7 @@ El flujo de trabajo 1 se generará de la siguiente manera:
 
 Siga los pasos a continuación para configurar el flujo de trabajo:
 
-1. Declare los parámetros que se han definido en la llamada de API. Para ello, abra la **[!UICONTROL External signal]** actividad y agregue los nombres y tipos de los parámetros.
+1. Declare los parámetros que se han definido en la llamada de API. Para ello, abra la **[!UICONTROL External signal]** actividad y, a continuación, agregue los nombres y tipos de los parámetros.
 
    ![](assets/extsignal_uc1.png)
 
@@ -289,7 +289,7 @@ Siga los pasos a continuación para configurar el flujo de trabajo:
 
    ![](assets/extsignal_uc4.png)
 
-1. Compruebe si se recuperan datos del archivo. Para ello, arrastre y suelte una **[!UICONTROL Test]** actividad en el flujo de trabajo y, a continuación, haga clic en el **[!UICONTROL Add an element]** botón para agregar una condición.
+1. Compruebe si los datos se recuperan del archivo. Para ello, arrastre y suelte una **[!UICONTROL Test]** actividad en el flujo de trabajo y, a continuación, haga clic en el **[!UICONTROL Add an element]** botón para agregar una condición.
 1. Asigne un nombre y defina la condición. En nuestro caso, queremos probar si la transición saliente contiene datos con la sintaxis siguiente:
 
    ```
@@ -331,7 +331,7 @@ Siga los pasos a continuación para configurar el flujo de trabajo:
 
 1. Declare los parámetros definidos en Workflow 1.
 
-   Para ello, abra la **[!UICONTROL External signal]** actividad y agregue el nombre y el tipo de cada parámetro definido en la **[!UICONTROL End]** actividad de Workflow 1.
+   Para ello, abra la **[!UICONTROL External signal]** actividad y, a continuación, agregue el nombre y el tipo de cada parámetro definido en la **[!UICONTROL End]** actividad de Workflow 1.
 
    ![](assets/extsignal_uc8.png)
 
