@@ -1,18 +1,18 @@
 ---
 title: Notas de la versión 2018
 description: Esta página enumera todas las versiones de 2018 de Adobe Campaign Standard.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 99f92a54-4b3d-48b9-b08d-e98b24e75f62
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: rn
-content-type: referencia
+content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 Cada versión incorpora nuevas funciones y parches. Haga clic en una versión para ver su contenido.
 
-Vea las últimas actualizaciones [de](../../rn/using/documentation-updates.md) documentación de Adobe Campaign Standard. Si busca una versión más reciente, consulte esta [página](../../rn/using/release-notes.md).
+Vea las últimas actualizaciones [de](../../rn/using/documentation-updates.md) documentación de Adobe Campaign Standard. Si está buscando una versión más reciente, consulte esta [página](../../rn/using/release-notes.md).
 
 ## Versión 18.9: septiembre de 2018 {#release-18-9---september-2018}
 
@@ -70,7 +70,7 @@ Vea las últimas actualizaciones [de](../../rn/using/documentation-updates.md) d
 ### Parches {#patches}
 
 * Se ha corregido un problema que mostraba una discrepancia en el recuento de registros entre el tablero de correo electrónico y el informe de resumen de correo electrónico para los mensajes de correo electrónico transaccionales. (CAMP-28237)
-* Se ha corregido un problema en los flujos de trabajo que podía mostrar un mensaje de error al importar un archivo mediante una actividad de transferencia de archivos. (CAMP-27435)
+* Se ha corregido un problema en los flujos de trabajo que podía mostrar un mensaje de error al importar un archivo a través de una actividad de transferencia de archivos. (CAMP-27435)
 * Se corrigió un problema con las páginas de aterrizaje que contenían más de 25 servicios, que hacía que los servicios no se seleccionaran al azar en el formulario. (CAMP-26572)
 * Se ha corregido un problema en los flujos de trabajo que impedía configurar cuentas externas con una URL SFTP al usar la actividad de transferencia de archivos. (CAMP-26475)
 * Se ha corregido un problema que impedía actualizar el informe de resumen de servicios. (CAMP-26301)
@@ -104,7 +104,7 @@ Vea las últimas actualizaciones [de](../../rn/using/documentation-updates.md) d
  <tbody> 
   <tr> 
    <td> Indicador de alta prioridad para notificaciones push de Android<br /> </td> 
-   <td> Indicador de alta prioridad para Android: permite enviar una notificación push con alta prioridad para las aplicaciones de Android, lo que provoca que el dispositivo de suspensión se active y ejecute un procesamiento limitado. Tenga en cuenta que la prioridad predeterminada es Normal, lo que puede retrasar la entrega del mensaje para guardar la batería. <br /><a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android"> Para obtener más información, consulte la documentación detallada</a>.<br /> </td> 
+   <td> Indicador de alta prioridad para Android: permite enviar una notificación push con alta prioridad para las aplicaciones de Android, lo que provoca que el dispositivo de suspensión se reactive y ejecute un procesamiento limitado. Tenga en cuenta que la prioridad predeterminada es Normal, lo que puede retrasar la entrega del mensaje para guardar la batería. <br /><a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android"> Para obtener más información, consulte la documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Filtro de tipología para suscriptores de aplicaciones móviles<br /> </td> 
@@ -134,14 +134,14 @@ Vea las últimas actualizaciones [de](../../rn/using/documentation-updates.md) d
 
 * El tiempo de espera de uso compartido de informes se ha aumentado de uno a cuatro minutos para evitar cualquier error de tiempo de espera.
 * Al editar el contenido de un correo electrónico, se abre el nuevo Diseñador creativo de forma predeterminada. Si lo desea, puede volver al editor de contenido predeterminado en cualquier momento después de guardar los cambios. For more on this, refer to the [detailed documentation](../../designing/using/overview.md).
-* En Creative Designer, ahora se puede añadir un nuevo componente de contenido a un correo electrónico: el carrusel. For more on this, refer to the [detailed documentation](../../designing/using/designing-from-scratch.md#about-content-components).
+* En Creative Designer, ahora se puede añadir un nuevo componente de contenido en un mensaje de correo electrónico: el carrusel. For more on this, refer to the [detailed documentation](../../designing/using/designing-from-scratch.md#about-content-components).
 * En un informe de clic en caliente de mensajes transaccionales, al hacer clic en el botón **Cambiar perfil** , ahora solo se muestran los perfiles de prueba vinculados al evento que definió para el mensaje transaccional.
 
 ### Parches {#patches-1}
 
 * Se ha corregido un problema con el filtro de consulta byEmail que no devolvía ningún resultado. (CAMP-23420)
 * Se ha corregido un problema que permitía a un usuario estándar acceder a determinadas funciones o pantallas restringidas a los administradores (extremos/rest/head/*, pantallas de mensajería transaccionales, perfiles y pantallas de importación de audiencias).
-* Se ha corregido un problema que impedía que las solicitudes de eliminación de privacidad GDPR procesaran recursos personalizados si su nombre empezaba por un número.
+* Se ha corregido un problema que impedía que las solicitudes de eliminación de privacidad de GDPR procesaran recursos personalizados si su nombre empezaba por un número.
 * Se ha corregido un error que impedía que la actividad Guardar audiencia compartiera suscriptores de aplicaciones en Adobe Experience Cloud.
 * Se ha corregido un problema con la actividad de transferencia de archivos que podía producirse cuando el nombre del archivo contenía espacios en blanco. (CAMP-25936)
 * Se ha corregido un problema que se podía producir al usar el botón de reconexión después de que caduque una sesión. (CAMP-25560)
@@ -149,7 +149,7 @@ Vea las últimas actualizaciones [de](../../rn/using/documentation-updates.md) d
 * Se ha corregido un problema que, al usar la función GDPR de API, impedía eliminar datos con un vínculo de tipo 0-1.
 * Se ha corregido un problema que podía generar un mensaje de error al cancelar la edición de una regla de tipología de fatiga.
 * Se ha corregido un problema que se podía producir al previsualizar un contenido de entrega después de editarlo.
-* Se ha corregido un problema que se podía producir al procesar archivos comprimidos CSV al utilizar la opción Descompresión.
+* Se ha corregido un problema que se podía producir al procesar archivos comprimidos CSV mientras se usaba la opción Descompresión.
 * Se ha corregido un problema en el Diseñador creativo que provocaba que la fuente de color y el formato no fueran deseados al cambiar texto con estilo incorporado a un vínculo o al editarlo. (CAMP-26001)
 * Se ha corregido un problema que impedía que el informe de clics interactivos mostrara los porcentajes de cada condición en las entregas que contenían contenido dinámico. Anteriormente, solo se mostraban los clics en la variante predeterminada.
 
@@ -157,14 +157,14 @@ Vea las últimas actualizaciones [de](../../rn/using/documentation-updates.md) d
 
 ### Mejoras {#improvements-2}
 
-* La **[!UICONTROL History]** API se ha agregado a Adobe.IO. Permite acceder a información relacionada con el historial de marketing de un perfil: número de puntos de contacto, envíos enviados, URL de la página de reflejo, etc. For more on this, refer to the [dedicated use case](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#how-to-retrieve-the-mirror-page-for-a-delivery-sent-to-a-profile) .
+* La **[!UICONTROL History]** API se ha agregado a Adobe.IO. Permite acceder a información relacionada con el historial de marketing de un perfil: número de puntos de contacto, envíos enviados, URL de la página de reflejo, etc. For more on this, refer to the [dedicated use case](../../api/using/interacting-with-marketing-history.md) .
 * El flujo de trabajo **[!UICONTROL Database cleanup]** técnico se ha optimizado para garantizar un mejor rendimiento para el backup de bases de datos.
 * Creative Designer para correo electrónico ahora también está disponible en francés y alemán.
 
 ### Otros cambios {#other-changes-2}
 
 * Se ha agregado un **[!UICONTROL Compute stats]** botón en la ventana **[!UICONTROL Deployment]** de envíos enviados. Le permite recuperar los KPI más recientes, por ejemplo si los resultados del envío tardan demasiado en actualizarse o no se han tenido en cuenta. Para obtener más información, consulte [esta sección](../../sending/using/confirming-the-send.md).
-* En el flujo de trabajo técnico de **actualización para la entrega** lista para usar, los administradores funcionales ahora pueden definir el número de errores consecutivos que se deben ignorar en la actividad de JavaScript de reglas **de** actualización. De forma predeterminada, el valor del campo se establece en 0, lo que significa que se omitirán todos los errores.
+* En el flujo de trabajo técnico de **actualización para la entrega** lista para usar, los administradores funcionales ahora pueden definir el número de errores consecutivos que se deben ignorar en la actividad de javascript de reglas **de** actualización. De forma predeterminada, el valor del campo se establece en 0, lo que significa que se omitirán todos los errores.
 * Se ha optimizado el SQL generado al administrar las condiciones de restricción de acceso a la unidad.
 * La **[!UICONTROL Update]** actividad ahora le permite agregar, actualizar o eliminar datos relacionados con suscripciones (tabla nms:appSubscriptionRcp).
 * El flujo de trabajo **[!UICONTROL Update delivery execution]** técnico se ha dividido en dos flujos de trabajo para optimizar el rendimiento: - **[!UICONTROL Update delivery execution]**: actualiza el seguimiento del envío. Se inicia cada 10 minutos de forma predeterminada. **[!UICONTROL Update delivery indicators]**:: actualiza los KPI del envío, se inicia cada hora de forma predeterminada. For more on technical workflows, refer to this [section](../../administration/using/technical-workflows.md#list-of-technical-workflows).
@@ -175,7 +175,7 @@ Vea las últimas actualizaciones [de](../../rn/using/documentation-updates.md) d
 ### Parches {#patches-2}
 
 * Se ha corregido un problema que podía impedir que se enviaran correos electrónicos al incluir una imagen dinámica de Adobe Target (CAMP-24848).
-* Se ha corregido un problema con los flujos de trabajo **[!UICONTROL Privacy Access/Delete Request]** técnicos, que no se completaban si se producía algún error en las solicitudes.
+* Se ha corregido un problema con los flujos de trabajo **[!UICONTROL Privacy Access/Delete Request]** técnicos, que no se completaban si se producía un error en alguna de las solicitudes.
 * Se ha corregido un problema que impedía que el servicio de Privacy Core recibiera actualizaciones del estado de la solicitud desde Campaign.
 * Se ha corregido un problema que impedía que el flujo de trabajo técnico **[!UICONTROL Import shared audience]** funcionara correctamente (CAMP -25465).
 * Se ha corregido un problema que impedía que las solicitudes de privacidad de campaña se marcaran como finalizadas en Core Privacy Service.
@@ -186,7 +186,7 @@ Vea las últimas actualizaciones [de](../../rn/using/documentation-updates.md) d
 * Se ha corregido un problema que impedía que las pruebas se prepararan en instancias con registros de envío extendidos.
 * Se han corregido dos problemas que podían producirse al publicar recursos personalizados con la **[!UICONTROL Sending log]** extensión activada.
 * Se ha corregido un problema que podía ocurrir con la duración de la entrega que no se tenía en cuenta en los envíos recurrentes.
-* Se ha corregido un problema que se podía producir al ordenar datos en el **[!UICONTROL Client data]** menú, para recursos personalizados con más de 100.000 registros. (CAMP-24308)
+* Se ha corregido un problema que se podía producir al ordenar datos en el **[!UICONTROL Client data]** menú, en el caso de recursos personalizados con más de 100.000 registros. (CAMP-24308)
 * Se ha corregido un problema con las dimensiones de perfil personalizadas que no se tenían en cuenta al usar la función de búsqueda en los informes dinámicos.
 * Se ha corregido un problema con la visualización de datos internacionales para los niveles de cuenta en los informes dinámicos.
 * Ahora es posible crear un servicio sin un mensaje de confirmación de suscripción o cancelación de suscripción.
@@ -221,14 +221,14 @@ Vea las últimas actualizaciones [de](../../rn/using/documentation-updates.md) d
   </tr> 
   <tr> 
    <td> Informes dinámicos con datos de perfil personalizados<br /> </td> 
-   <td> Esta función le permite crear y administrar informes basados en datos de perfil personalizados creados durante la extensión de recursos de perfil. Puede desglosar los informes por atributos de perfil, como programa de lealtad, canal preferido, etc.<br /><a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension"> Para obtener más información, consulte la documentación detallada</a>.<br /> </td> 
+   <td> Esta función le permite crear y administrar informes basados en datos de perfil personalizados creados durante la extensión de recursos de perfil. Puede desglosar los informes por atributos de perfil, tales como programa de lealtad, canal preferido, etc.<br /><a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension"> Para obtener más información, consulte la documentación detallada</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Mejoras {#improvements-3}
 
-* Se ha mejorado el uso general de memoria y CPU de la aplicación
+* Se ha mejorado el uso general de la memoria y la CPU de la aplicación
 
 ### Otros cambios {#other-changes-3}
 
@@ -241,10 +241,10 @@ Vea las últimas actualizaciones [de](../../rn/using/documentation-updates.md) d
 * Se han realizado mejoras en la interfaz de actividad de segmentación al crear nuevos segmentos: La ficha Limitación ahora aparece directamente después de agregar una limitación. Los nombres de los nuevos segmentos ahora se incrementan ("Segmento 1", "Segmento 2", etc.).
 * Se agrega un campo "nextProcessingDate" al recurso Flujo de trabajo. Este campo solo está visible a través de las llamadas de la API de REST, y le permite visualizar flujos de trabajo en las próximas fechas de procesamiento.
 * El campo "sourceId" ahora está expuesto en el recurso de registros de seguimiento (nms:trackingLog).
-* Los valores "Total de aperturas" y "Total de clics" ahora se pueden exportar en un archivo plano a través de un flujo de trabajo. (CAMP-24186)
+* Los valores "Total de aperturas" y "Total de clics" ahora se pueden exportar en un archivo sin formato a través de un flujo de trabajo. (CAMP-24186)
 * "Inglés - Danmark" ya está disponible en la lista de idiomas preferidos en los perfiles. (CAMP-23728)
 * Al utilizar una actividad de segmentación con un vínculo Datos adicionales (targetData), ahora un mensaje le informa de que los datos no están disponibles fuera del flujo de trabajo. Este mensaje se muestra al hacer clic en el botón Recuento o Vista previa de la actividad Segmentación. (CAMP-23651)
-* Se han realizado mejoras para optimizar el espacio en disco utilizado por los flujos de trabajo: (CAMP-21979): Los archivos procesados por la actividad "Cargar archivo" ahora se eliminan de forma predeterminada. Una opción permite mantenerlos para necesidades específicas. Cuando se elimina un flujo de trabajo, su carpeta dedicada se suprime automáticamente del directorio del servidor.
+* Se han realizado mejoras para optimizar el espacio en disco utilizado por los flujos de trabajo: (CAMP-21979): Los archivos procesados por la actividad "Cargar archivo" ahora se eliminan de forma predeterminada. Una opción le permite mantenerlos para necesidades específicas. Cuando se elimina un flujo de trabajo, su carpeta dedicada se suprime automáticamente del directorio del servidor.
 
 ### Parches {#patches-3}
 
@@ -253,9 +253,9 @@ Vea las últimas actualizaciones [de](../../rn/using/documentation-updates.md) d
 * Se ha corregido un problema que impedía que el texto ajustara el cuerpo del mensaje de una notificación push en la ventana de vista previa.
 * Se ha corregido un problema que se producía al enviar una entrega de recuperación desde un flujo de trabajo cuando el destino principal estaba vacío.
 * Se ha corregido un problema que impedía acceder a una asignación de destino si estaba vinculada a un esquema inexistente.
-* Se ha corregido un problema que podía producirse al importar un archivo zip mediante una actividad de carga de archivos. (CAMP-24309)
+* Se ha corregido un problema que se podía producir al importar un archivo zip mediante una actividad de carga de archivos. (CAMP-24309)
 * Se ha corregido un problema que provocaba un error PostgreSQL al enviar una entrega recurrente. (CAMP-23613)
-* Se ha corregido un problema que mostraba un mensaje de error al enviar una solicitud de API REST con un atributo JSON vacío. (CAMP-23506)
+* Se ha corregido un problema que mostraba un mensaje de error al enviar una solicitud de API de REST con un atributo JSON vacío. (CAMP-23506)
 * Se corrigió un problema en los perfiles que definía en mayúsculas los caracteres que siguen al carácter "ß". (CAMP-23136)
 * Se ha corregido un problema que se producía al enviar entregas utilizadas con la condición de elegibilidad de personalización o de bloque de contenido dinámico al usar atributos de un esquema de perfil vinculado. (CAMP-22751)
 * Se ha corregido un problema que impedía eliminar servicios. (CAMP-22050)
@@ -413,7 +413,7 @@ Vea las últimas actualizaciones [de](../../rn/using/documentation-updates.md) d
 
 * Se ha mejorado la fase de preparación de la ejecución para mejorar el rendimiento.
 * Se corrigieron varios problemas que podrían hacer que los registros de seguimiento se dañaran en algunas situaciones específicas.
-* Se ha corregido un problema de actualización de la fecha de contacto que se producía cuando se cambiaba la fecha de contacto entre la preparación de la entrega y la confirmación. Ahora, cuando cambie la fecha de contacto después de la preparación, deberá volver a preparar la entrega antes de poder confirmar el envío. Consulte la documentación [detallada](../../sending/using/preparing-the-send.md).
+* Se corrigió un problema con la actualización de la fecha de contacto que se producía cuando se cambiaba la fecha de contacto entre la preparación de la entrega y la confirmación. Ahora, cuando cambie la fecha de contacto después de la preparación, deberá volver a preparar la entrega antes de poder confirmar el envío. Consulte la documentación [detallada](../../sending/using/preparing-the-send.md).
 
 #### Notificaciones push {#push-notifications}
 
@@ -430,7 +430,7 @@ Vea las últimas actualizaciones [de](../../rn/using/documentation-updates.md) d
 * Se ha corregido un problema que impedía que las actividades fueran accesibles después de arrastrarlas y soltarlas.
 * Se ha corregido un problema que podía hacer que el orden de las transiciones de salida de una **[!UICONTROL Segmentation]** actividad cambiara en algunas situaciones.
 * Se corrigió un error que se producía al leer una audiencia que contenía un campo de tipo de enumeración y que anteriormente se había guardado desde un flujo de trabajo
-* Se ha corregido un problema que provocaba que la **[!UICONTROL Request confirmation before sending messages]** opción permaneciera marcada incluso después de desactivarla al definir las propiedades de programación de una entrega creada en un flujo de trabajo.
+* Se ha corregido un problema que provocaba que la **[!UICONTROL Request confirmation before sending messages]** opción permaneciera marcada incluso después de desmarcarla al definir las propiedades de programación de una entrega creada en un flujo de trabajo.
 * La eliminación automática de filas duplicadas (cláusula DISTINCT) ahora se puede desactivar en **[!UICONTROL Query]** las actividades, mediante una nueva opción ubicada en la **[!UICONTROL Additional data]** ficha. Se recomienda desactivar esta opción cuando se definan muchos (más de 100) elementos adicionales por motivos de rendimiento.
 
 #### Integraciones {#integrations-1}
@@ -439,7 +439,7 @@ Vea las últimas actualizaciones [de](../../rn/using/documentation-updates.md) d
 
 ### Problemas conocidos {#known-issues}
 
-Se recomienda no utilizar Internet Explorer versión 11 debido a posibles problemas de visualización.
+Le recomendamos que no utilice Internet Explorer versión 11 debido a posibles problemas de visualización.
 
 Pueden producirse algunos problemas al utilizar vínculos de ayuda contextuales desde la interfaz de Campaign. Se corregirán en 18.3.
 
@@ -479,7 +479,7 @@ Pueden producirse algunos problemas al utilizar vínculos de ayuda contextuales 
   </tr> 
   <tr> 
    <td> Activación de actividad de señal de API<br /> </td> 
-   <td> Ahora es posible activar una actividad de señal para los flujos de trabajo directamente desde la API de Adobe Campaign Standard.<br /><a class="anchorLink" href="https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity" target="_blank"> Para obtener más información, consulte la documentación detallada</a> .<br /> </td> 
+   <td> Ahora es posible activar una actividad de señal para los flujos de trabajo directamente desde la API de Adobe Campaign Standard.<br /><a class="anchorLink" href="../../api/using/managing-workflows.md"> Para obtener más información, consulte la documentación detallada</a> .<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -513,7 +513,7 @@ Pueden producirse algunos problemas al utilizar vínculos de ayuda contextuales 
 
 * Se corrigió un error que mostraba tasas superiores al 100%.
 * Se ha corregido un problema que impedía a los usuarios descargar informes en CSV.
-* Se agregó un nuevo **[!UICONTROL Report]** elemento en la página principal.
+* Se ha agregado un nuevo **[!UICONTROL Report]** elemento en la página principal.
 
 #### Workflows {#workflows-3}
 
