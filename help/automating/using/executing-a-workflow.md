@@ -1,19 +1,19 @@
 ---
 title: Ejecución de un flujo de trabajo
 description: Obtenga información sobre cómo ejecutar y supervisar un flujo de trabajo.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: automatizar
-content-type: referencia
+audience: automating
+content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
-context-tags: flujo de trabajo,descripción general;flujo de trabajo,principal
+context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -58,7 +58,7 @@ Cuando una transición está abierta, puede editar su imagen **[!UICONTROL Label
 
 Con la API de REST, puede **iniciar**, **pausar**, **reanudar** y **detener** un flujo de trabajo.
 
-Puede encontrar más detalles y ejemplos de llamadas REST en la documentación de la [API.](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#controlling-a-workflow)
+Puede encontrar más detalles y ejemplos de llamadas REST en la documentación de la [API.](../../api/using/managing-workflows.md)
 
 ## Ciclo de vida {#life-cycle}
 
@@ -66,7 +66,7 @@ El ciclo de vida de un flujo de trabajo incluye tres pasos principales y cada pa
 
 * **Edición** (gris)
 
-   Esta es la fase de diseño inicial de un flujo de trabajo (consulte [Creación de un flujo de trabajo](../../automating/using/building-a-workflow.md#creating-a-workflow)). El servidor aún no gestiona el flujo de trabajo y puede modificarse sin ningún riesgo.
+   Esta es la fase de diseño inicial de un flujo de trabajo (consulte [Creación de un flujo de trabajo](../../automating/using/building-a-workflow.md#creating-a-workflow)). El servidor aún no gestiona el flujo de trabajo y se puede modificar sin ningún riesgo.
 
 * **En curso** (azul)
 
@@ -130,7 +130,7 @@ El ![](assets/check_darkgrey-24px.png) botón reactiva cualquier actividad pausa
 
 **Ejecución suspendida**
 
-El ![](assets/check_pause_darkgrey-24px.png) botón pausa el flujo de trabajo en la actividad seleccionada: esta tarea, así como todas las que la siguen (en la misma rama), no se ejecutan.
+El ![](assets/check_pause_darkgrey-24px.png) botón pone en pausa el flujo de trabajo en la actividad seleccionada: esta tarea, así como todas las que la siguen (en la misma rama), no se ejecutan.
 
 **Sin ejecución**
 
@@ -253,6 +253,6 @@ El **[!UICONTROL Max. execution duration]** campo permite especificar una duraci
 
 El **[!UICONTROL Affinity]** campo permite forzar la ejecución de un flujo de trabajo o una actividad de flujo de trabajo en un equipo concreto. Para ello, debe especificar una o varias afinidades para el flujo de trabajo o la actividad en cuestión.
 
-El **[!UICONTROL Time zone]** campo permite seleccionar el huso horario de la actividad. Adobe Campaign permite administrar las diferencias horarias entre varios países en la misma instancia. La configuración aplicada se configura al crear la instancia.
+El **[!UICONTROL Time zone]** campo permite seleccionar el huso horario de la actividad. Adobe Campaign permite administrar las diferencias horarias entre varios países en la misma instancia. La configuración aplicada se configura cuando se crea la instancia.
 
 El campo **Comentario** es un campo gratuito que permite agregar una nota.
