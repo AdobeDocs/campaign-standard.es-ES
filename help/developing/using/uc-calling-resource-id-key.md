@@ -2,7 +2,7 @@
 title: Invocación de un recurso mediante una clave de identificación compuesta
 description: Obtenga información sobre cómo llamar a un recurso mediante una clave de identificación compuesta
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -23,7 +23,7 @@ Temas relacionados:
 
 * [Creación o ampliación del recurso](../../developing/using/creating-or-extending-the-resource.md)
 * [Definición de claves de identificación](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
-* [API de REST de Campaign Standard](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+* [API de REST de Campaign Standard](../../api/using/about-campaign-standard-apis.md)
 
 ## Paso 1: Configurar la clave de identificación{#step-1-configure-the-identification-key}
 
@@ -40,7 +40,7 @@ Temas relacionados:
 
    ![](assets/uc_idkey2.png)
 
-1. Agregue los dos campos personalizados "ID de CRM" y "Categoría" y haga clic en **[!UICONTROL Confirm]**.
+1. Agregue los dos campos personalizados "ID de CRM" y "Categoría" y, a continuación, haga clic en **[!UICONTROL Confirm]**.
 
    ![](assets/uc_idkey3.png)
 
@@ -104,4 +104,4 @@ En nuestro caso, la sintaxis para recuperar un perfil de la categoría "primaver
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byidentification_key?category_parameter=spring&crm_id_parameter=123456
 ```
 
-Para obtener más información, consulte la documentación [de las API de REST de](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)Campaign Standard.
+Para obtener más información, consulte la documentación [de las API de REST de](../../api/using/filtering.md)Campaign Standard.
