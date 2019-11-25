@@ -10,7 +10,7 @@ discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
+source-git-commit: 25ef93bcc48d58bfdfc13223c2c40b664d5159f0
 
 ---
 
@@ -95,7 +95,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>país (países)</td>
                   <td>País</td>
-                  <td> link </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -107,7 +107,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>createdBy (userBase)</td>
                   <td>Creado por</td>
-                  <td> link </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -119,7 +119,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>cusHobbieslink (cusHobbies)</td>
                   <td>CusHobbieslink</td>
-                  <td> link </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -162,13 +162,19 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>emailStatus (addressStatus)</td>
                   <td>Información sobre el correo electrónico</td>
-                  <td> link </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>excludeLogs</td>
                   <td>Registros de exclusión</td>
                   <td>colección </td>
+                  <td> </td>
+               </tr>
+               <tr>
+                  <td>externalId</td>
+                  <td>ID de recurso externo</td>
+                  <td>string(100) </td>
                   <td> </td>
                </tr>
                <tr>
@@ -241,7 +247,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>modifiedBy (userBase)</td>
                   <td>Modificado por</td>
-                  <td> link </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -271,7 +277,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>stateLink (estado)</td>
                   <td>Estado</td>
-                  <td> link </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -539,7 +545,7 @@ Por audiencia estática (byStaticAudience)
 </tr>
 <tr>
 <td>destinatarios</td>
-<td> link</td>
+<td>link</td>
 </tr>
 </table>
 
@@ -552,7 +558,7 @@ Clic (hasClicksDelivery)
 </tr>
 <tr>
 <td>entrega</td>
-<td> link</td>
+<td>link</td>
 </tr>
 </table>
 
@@ -565,7 +571,7 @@ Opened (hasOpenedDelivery)
 </tr>
 <tr>
 <td>entrega</td>
-<td> link</td>
+<td>link</td>
 </tr>
 </table>
 
@@ -578,7 +584,7 @@ Perfil (perfil)
 </tr>
 <tr>
 <td>profile</td>
-<td> link</td>
+<td>link</td>
 </tr>
 </table>
 
@@ -591,7 +597,7 @@ Recibido (hasReceivedDelivery)
 </tr>
 <tr>
 <td>entrega</td>
-<td> link</td>
+<td>link</td>
 </tr>
 </table>
 
@@ -604,6 +610,6 @@ Suscriptores (suscriptores)
 </tr>
 <tr>
 <td>service</td>
-<td> link</td>
+<td>link</td>
 </tr>
 </table>
