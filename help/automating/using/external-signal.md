@@ -1,19 +1,19 @@
 ---
 title: Señal externa
 description: La actividad de señal externa activa un flujo de trabajo cuando se cumplen correctamente algunas condiciones en otro flujo de trabajo.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 884b6daf-bfd9-440b-8336-004b80c76def
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: automatizar
-content-type: referencia
-topic-tags: execute-activity
+audience: automating
+content-type: reference
+topic-tags: execution-activities
 discoiquuid: 911c71b5-da8b-4916-b645-13bba6d21715
-context-tags: señal,principal
+context-tags: signal,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -30,7 +30,7 @@ La **[!UICONTROL External signal]** actividad desencadena un flujo de trabajo cu
 
 La **[!UICONTROL External signal]** actividad se utiliza para organizar y orquestar diferentes procesos que forman parte del mismo proceso del cliente en diferentes flujos de trabajo. Permite iniciar un flujo de trabajo desde otro, lo que permite soportar viajes de clientes más complejos, al tiempo que se puede supervisar y reaccionar mejor en caso de problemas.
 
-La **[!UICONTROL External signal]** actividad está diseñada para colocarse como la primera actividad de un flujo de trabajo. Se puede activar a partir de la **[!UICONTROL End]** actividad de otro flujo de trabajo o de una llamada a la API de REST (para obtener más información, consulte la documentación [de la](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity) API ).
+La **[!UICONTROL External signal]** actividad está diseñada para colocarse como la primera actividad de un flujo de trabajo. Se puede activar a partir de la **[!UICONTROL End]** actividad de otro flujo de trabajo o de una llamada a la API de REST (para obtener más información sobre esto, consulte la documentación [de la](../../api/using/managing-workflows.md)API).
 
 Al activarse, los parámetros externos se pueden definir y estar disponibles en las variables de eventos de flujo de trabajo. El proceso para llamar a un flujo de trabajo con parámetros externos se detalla en [esta sección](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
@@ -56,11 +56,11 @@ Al configurar una señal externa, es importante configurar primero la actividad 
 
    >[!NOTE]
    >
-   >Si desea activar el flujo de trabajo de destino desde otro flujo de trabajo, siga los pasos siguientes. Si desea activar el flujo de trabajo de destino desde una llamada a la API de REST, consulte la documentación [de la](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity) API para obtener más información.
+   >Si desea activar el flujo de trabajo de destino desde otro flujo de trabajo, siga los pasos siguientes. Si desea activar el flujo de trabajo de destino desde una llamada a la API de REST, consulte la documentación [de la](../../api/using/managing-workflows.md) API para obtener más información.
 
 1. Abra el flujo de trabajo de origen y seleccione una **[!UICONTROL End]** actividad. Si no hay ninguna **[!UICONTROL End]** actividad disponible, agregue una después de la última actividad de una rama del flujo de trabajo.
 
-   Algunas actividades no tienen ninguna transición de salida de forma predeterminada. Desde la **[!UICONTROL Properties]** ficha de estas actividades, puede agregar una transición saliente.
+   Algunas actividades no tienen ninguna transición de salida de forma predeterminada. Desde la **[!UICONTROL Properties]** ficha de estas actividades, puede agregar una transición de salida.
 
    Por ejemplo, en una **[!UICONTROL Update data]** actividad, vaya a la **[!UICONTROL Transitions]** ficha y marque la **[!UICONTROL Add an outbound transition without the population]** opción. Esta opción permite agregar una transición que no contenga datos y que no consuma espacio innecesario en el sistema. Solo se utiliza para conectar la actividad adicional **[!UICONTROL End]** que activa el flujo de trabajo de destino.
 
@@ -103,7 +103,7 @@ El flujo de trabajo de origen se presenta de la siguiente manera:
    ```
 
 * Una actividad de [reconciliación](../../automating/using/reconciliation.md) crea los vínculos entre los datos importados y la base de datos para que los datos de transacciones estén correctamente conectados a perfiles y productos.
-* Una actividad de [actualización de datos](../../automating/using/update-data.md) inserta y actualiza el recurso Transacciones de la base de datos con los datos entrantes.
+* Una actividad de [actualización de datos](../../automating/using/update-data.md) inserta y actualiza el recurso de transacciones de la base de datos con los datos entrantes.
 * Una **[!UICONTROL End]** actividad desencadena el flujo de trabajo de destino, que se utiliza para actualizar los agregados.
 
 ![](assets/signal_example_source1.png)
