@@ -1,18 +1,18 @@
 ---
 title: 'Diseño de correos electrónicos con contenido existente '
 description: Descubra cómo diseñar correos electrónicos con contenido existente de correo electrónico en el Diseñador de correo electrónico.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: diseñar
-content-type: referencia
+audience: designing
+content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -38,7 +38,7 @@ Al crear un correo electrónico o una página de aterrizaje, puede elegir cargar
    * [Plantillas](../../designing/using/using-reusable-content.md#content-templates)de contenido: haga clic en la **[!UICONTROL Templates]** ficha.
    * [Contenido desde cero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch), para empezar de cero: haga clic en el **[!UICONTROL Create]** botón.
    * [Contenido del equipo como archivo](#importing-content-from-a-file)ZIP o HTML: haga clic en el **[!UICONTROL Upload]** botón.
-   * [Contenido de una URL](#importing-content-from-a-url) existente (solo para correos electrónicos): haga clic en el **[!UICONTROL Import from URL]** botón.
+   * [Contenido de una dirección URL](#importing-content-from-a-url) existente (solo para correos electrónicos): haga clic en el **[!UICONTROL Import from URL]** botón.
    ![](assets/des_loading_2.png)
 
 1. Cargue el contenido. El contenido seleccionado reemplaza al contenido actual.
@@ -52,7 +52,7 @@ Al crear un correo electrónico o una página de aterrizaje, puede elegir cargar
 **Temas relacionados:**
 
 * [Creación de un correo electrónico](../../channels/using/creating-an-email.md)
-* [Administración de páginas de aterrizaje](../../channels/using/about-landing-pages.md)
+* [Administración de páginas de aterrizaje](../../channels/using/getting-started-with-landing-pages.md)
 
 ## Edición del contenido existente con el Diseñador de correo electrónico{#editing-existing-contents-with-the-email-designer}
 
@@ -66,7 +66,7 @@ Para que un contenido externo existente sea completamente editable en el Diseña
 
 ### Importación de contenido de un archivo {#importing-content-from-a-file}
 
-En la página de inicio de Email Designer, haga clic en el **[!UICONTROL Upload]** botón para cargar un archivo del equipo y confirme.
+En la página de inicio de Email Designer, haga clic en el **[!UICONTROL Upload]** botón para cargar un archivo desde el equipo y confirme.
 
 No hay restricciones en la estructura de archivos zip. Sin embargo, la referencia a archivos HTML debe ser relativa y respetar la estructura de árbol de la carpeta zip.
 
@@ -93,7 +93,7 @@ Antes de importar contenido desde una dirección URL, asegúrese de que cumple l
 
 >[!NOTE]
 >
->Cargar contenido desde una dirección URL solo está disponible para el canal de correo electrónico.
+>La carga de contenido desde una dirección URL solo está disponible para el canal de correo electrónico.
 
 Para recuperar contenido existente de una dirección URL, siga los pasos a continuación:
 
@@ -108,7 +108,7 @@ Para recuperar contenido existente de una dirección URL, siga los pasos a conti
 
 [Importación de contenido desde un vídeo de URL](https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html#Workingwithexistingcontent)
 
-### Recuperación de contenido de una URL automáticamente en tiempo de preparación {#retrieving-content-from-a-url-automatically-at-preparation-time}
+### Recuperación de contenido de una dirección URL automáticamente en tiempo de preparación {#retrieving-content-from-a-url-automatically-at-preparation-time}
 
 La importación de contenido desde una URL durante la preparación de mensajes le permite recuperar el contenido HTML más reciente cada vez que se prepara el correo electrónico. De este modo, el contenido de los correos electrónicos recurrentes siempre está actualizado en el momento de su envío. Esta función también le permite crear un mensaje programado en una fecha específica, aunque el contenido no esté listo todavía.
 
@@ -118,7 +118,7 @@ Para recuperar contenido en tiempo de preparación, siga los pasos a continuaci�
 
    ![](assets/email_designer_importfromurl2.png)
 
-1. El contenido de la URL se muestra en el editor como de solo lectura.
+1. El contenido de la dirección URL se muestra en el editor como de solo lectura.
 
    >[!CAUTION]
    >
@@ -156,7 +156,7 @@ Cuando se carga un contenido en modo de compatibilidad, aún puede realizar las 
 
 ![](assets/email_designer_compatibility.png)
 
-Otras modificaciones, como la adición de nuevas secciones al correo electrónico o el estilo avanzado, deben realizarse directamente en el código fuente del correo electrónico a través del modo HTML.
+Otras modificaciones, como la adición de nuevas secciones al correo electrónico o el estilo avanzado, se deben realizar directamente en el código fuente del correo electrónico a través del modo HTML.
 
 Para obtener más información sobre la conversión de un correo electrónico existente en un correo electrónico compatible con el Diseñador de correo electrónico, consulte [esta sección](../../designing/using/using-existing-content.md).
 
@@ -168,7 +168,7 @@ Para obtener más información sobre la conversión de un correo electrónico ex
 
 ## Conversión de contenido HTML {#converting-an-html-content}
 
-Si desea crear un marco de plantillas modulares y fragmentos que se puedan combinar para reutilizarlos en varios correos electrónicos, debe considerar la posibilidad de convertir el HTML de correo electrónico en una plantilla de Email Designer.
+Si desea crear un marco de plantillas modulares y fragmentos que se puedan combinar para reutilizarlos en varios correos electrónicos, debe considerar la posibilidad de convertir el HTML de correo electrónico en una plantilla de diseñador de correo electrónico.
 
 Este caso de uso ofrece una forma rápida de convertir un correo electrónico HTML en componentes de Email Designer.
 
