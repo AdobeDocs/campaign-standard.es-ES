@@ -1,19 +1,19 @@
 ---
 title: Cuentas externas
 description: Configure cuentas externas para configurar conexiones con sistemas externos como servidores SFTP.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 5d2e2e3d-5d1f-4466-97e5-842c50390146
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: administración
-content-type: referencia
+audience: administration
+content-type: reference
 topic-tags: application-settings
 discoiquuid: d5c6a3d4-f767-46c1-a8c0-3b9dc52dcea8
 internal: n
 snippet: y
-context-tags: extAccount,main;extAccount,información general
+context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -39,7 +39,7 @@ Puede configurar los siguientes tipos de cuentas
 >
 >Adobe utiliza otros tipos de cuentas externas durante el proceso de aprovisionamiento del producto. A partir de la versión 17.9 de Campaign Standard, las cuentas externas de FTP se pueden definir pero ya no se pueden utilizar en las nuevas actividades de flujo de trabajo. Si ya tiene una conexión configurada, aún está habilitada.
 
-Los administradores pueden configurar cuentas externas en el **[!UICONTROL Administration > Application settings > External accounts]** menú.
+Los administradores pueden configurar las cuentas externas en el **[!UICONTROL Administration > Application settings > External accounts]** menú.
 
 ## Creación de una cuenta externa {#creating-an-external-account}
 
@@ -52,7 +52,7 @@ Los procesos técnicos utilizan las cuentas externas
                  en un flujo de trabajo o un intercambio de datos con cualquier otra aplicación (Adobe Target, Experience
                  Manager, etc.), debe seleccionar una cuenta externa.
 
-1. Click the **[!UICONTROL Create]** button.
+1. Haga clic en el botón **.[!UICONTROL Create]**
 1. Introduzca una etiqueta. La etiqueta y el ID se utilizarán al seleccionar cuentas externas en flujos de trabajo.
 1. Seleccione el tipo de cuenta que desee crear.
 1. Configure el acceso a la cuenta especificando las credenciales, la dirección del servidor, el número de puerto y o las claves cuando corresponda.
@@ -85,7 +85,7 @@ Para evitar estos problemas, Adobe recomienda seguir las prácticas recomendadas
 
 * Mantenga los datos mínimos posibles.
 * Utilice la autenticación basada en claves para evitar la caducidad de la contraseña. Los formatos admitidos son **OpenSSH** y **SSH2** únicamente. Deberá proporcionar la clave pública al equipo de asistencia de Adobe para que se cargue en el servidor de campañas.
-* Mantenga los datos sólo durante el tiempo que sea necesario. 15 días es el plazo máximo.
+* Mantenga los datos sólo durante el tiempo que sea necesario. 15 días es el límite máximo de tiempo.
 * Utilice flujos de trabajo para eliminar correctamente los datos (administrar la retención de flujos de trabajo que consuman datos).
 * Utilice lotes en sus cargas por SFTP y sus flujos de trabajo.
 * Gestionar errores/excepciones.
@@ -109,7 +109,7 @@ El campo del servidor de Amazon S3 debe rellenarse de la siguiente manera:
 <S3 bucket name>.s3.amazonaws.com/<s3 object path>
 ```
 
-Para almacenar el archivo en modo cifrado S3, marque la **[!UICONTROL Keep files in S3 encrypted]** casilla.
+Para almacenar el archivo en modo codificado S3, marque la **[!UICONTROL Keep files in S3 encrypted]** casilla.
 
 ![](assets/external_accounts_2.png)
 
@@ -144,9 +144,9 @@ Al configurar esta nueva cuenta externa,
 >
 >La configuración de Google reCAPTCHA requiere una cuenta de Google.
 
-El mecanismo reCAPTCHA de Google le permite proteger su página de aterrizaje del spam y los abusos causados por los bots. Esto no es intrusivo para los clientes, ya que no requiere ninguna interacción de ellos y se basa en las interacciones con el sitio. Para registrar su sitio, consulte esta [página](https://www.google.com/recaptcha/admin/create). Debe elegir el tipo de reCAPTCHA V3.
+El mecanismo reCAPTCHA de Google le permite proteger su página de aterrizaje del spam y los abusos causados por los bots. Esto no es intrusivo para los clientes, ya que no requiere ninguna interacción por parte de ellos y se basa en las interacciones con el sitio. Para registrar su sitio, consulte esta [página](https://www.google.com/recaptcha/admin/create). Debe elegir el tipo de reCAPTCHA V3.
 
-Para agregar Google reCAPTCHA V3 a su página de aterrizaje, primero debe configurarla en su cuenta externa. Para obtener más información sobre cómo agregarla a la página de aterrizaje, consulte esta [sección](../../channels/using/designing-a-landing-page.md#setting-google-recaptcha).
+Para agregar Google reCAPTCHA V3 a su página de aterrizaje, primero debe configurarla en su cuenta externa. Para obtener más información sobre cómo agregarla a la página de aterrizaje, consulte esta [sección](../../channels/using/configuring-landing-page.md#setting-google-recaptcha).
 
 Para una cuenta externa de Google reCAPTCHA V3, proporcione los siguientes detalles:
 
@@ -158,4 +158,3 @@ Para una cuenta externa de Google reCAPTCHA V3, proporcione los siguientes detal
    El valor 0,0 **[!UICONTROL Threshold]** significa que es probable que sea un bot y 1,0 una buena interacción. De forma predeterminada, puede utilizar un umbral de 0,5.
 
 ![](assets/external_accounts_3.png)
-
