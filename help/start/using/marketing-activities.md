@@ -1,19 +1,19 @@
 ---
 title: Actividades de marketing
 description: '"Conozca cómo crear y administrar sus actividades de marketing: campañas, correo electrónico, SMS y envíos de notificaciones push, páginas de aterrizaje, flujos de trabajo. Puede diseñar fácilmente una nueva actividad, editar una existente y consultar su estado y validez".'
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 5d45a935-6d03-4b27-aabd-7c47c11241ba
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: referencia
-topic-tags: planes de mercadotecnia
+content-type: reference
+topic-tags: marketing-plans
 discoiquuid: 3ba165e1-420f-4d6f-b339-467b066b42d0
-context-tags: actividad,información general
+context-tags: activity,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -34,13 +34,13 @@ Para acceder a la lista de actividades de marketing, elija el **[!UICONTROL Mark
 
 ![](assets/marketing_activities_1.png)
 
-El **[!UICONTROL Search]** panel permite filtrar elementos según diferentes criterios: nombre (etiqueta e ID), fecha, estado o tipo de actividad. De forma predeterminada, se seleccionan todos los tipos de actividad, excepto los programas.
+El **[!UICONTROL Search]** panel le permite filtrar elementos según diferentes criterios: nombre (etiqueta e ID), fecha, estado o tipo de actividad. De forma predeterminada, se seleccionan todos los tipos de actividad, excepto los programas.
 
 Para acceder directamente al contenido de cada actividad, elija uno de los elementos de la lista.
 
 El **[!UICONTROL Create]** botón se puede utilizar para crear una nueva actividad. For more on this, refer to the [Creating a marketing activity](#creating-a-marketing-activity) section.
 
-## Iconos y estados de actividades de marketing {#marketing-activity-icons-and-statuses}
+## Iconos y estados de la actividad de marketing {#marketing-activity-icons-and-statuses}
 
 En la zona principal, cada tipo de actividad de la lista tiene un icono:
 
@@ -88,7 +88,7 @@ Según el contexto, puede:
 * [Crear una notificación push](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [Creación de un mensaje de InApp](../../channels/using/about-in-app-messaging.md)
 * [Crear un flujo de trabajo](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* [Crear una página de aterrizaje](../../channels/using/about-landing-pages.md)
+* [Crear una página de aterrizaje](../../channels/using/getting-started-with-landing-pages.md)
 * [Cree una campaña](../../start/using/programs-and-campaigns.md#creating-a-campaign)
 * [Crear un programa](../../start/using/programs-and-campaigns.md#creating-a-program)
 
