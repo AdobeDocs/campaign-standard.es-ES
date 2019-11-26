@@ -1,27 +1,27 @@
 ---
 title: Confirmación de la suscripción a un servicio
 description: Siga estos pasos para configurar un mensaje de confirmación para los perfiles suscritos a un servicio en Adobe Campaign.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 23e6c4c2-e2c7-472f-b616-36a95225ac1d
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: referencia
-topic-tags: administrar suscripciones
+content-type: reference
+topic-tags: managing-subscriptions
 discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
 
 # Confirmación de la suscripción a un servicio{#confirming-subscription-to-a-service}
 
-## Acerca del envío de confirmación de suscripción {#sending-subscription-confirmation}
+## Acerca del envío de la confirmación de suscripción {#sending-subscription-confirmation}
 
-Esta sección describe cómo enviar un correo electrónico de confirmación personalizado y automático a los perfiles que se suscriben a un servicio específico.
+En esta sección se describe cómo enviar un correo electrónico de confirmación personalizado y automático a los perfiles que se suscriben a un servicio específico.
 
 Si desea enviar un mensaje de confirmación de una suscripción (o cancelación de la suscripción) a un servicio, puede utilizar el mensaje predeterminado o un mensaje personalizado. Los pasos para seleccionar un mensaje de confirmación se presentan en la sección [Creación de un servicio](../../audiences/using/creating-a-service.md) .
 
@@ -37,9 +37,9 @@ Para enviar un correo electrónico de confirmación específico para un servicio
 
 Por ejemplo, desea enviar automáticamente un mensaje de confirmación a los visitantes del sitio web cuando se suscriban a la newsletter de su marca.
 
-Debe configurar un correo electrónico transaccional y hacer referencia a ese mensaje desde el servicio deseado (en este caso, suscribirse a su newsletter de marca). Para enriquecer el mensaje transaccional con información de servicio, puede definir una reconciliación al crear el evento.
+Debe configurar un correo electrónico transaccional y hacer referencia a ese mensaje desde el servicio deseado (en este caso, suscribirse a la newsletter de su marca). Para enriquecer el mensaje transaccional con información de servicio, puede definir una reconciliación al crear el evento.
 
-Al configurarlo desde el servicio, el mensaje transaccional de confirmación se enviará sólo la primera vez que cada visitante se suscriba a ese servicio. Si un perfil ya está suscrito, no se enviará ningún mensaje de confirmación a ese perfil.
+Al configurarlo desde el servicio, el mensaje transaccional de confirmación se enviará sólo la primera vez que cada visitante se suscriba a ese servicio. Si ya se ha suscrito un perfil, no se enviará ningún mensaje de confirmación a ese perfil.
 
 ### Paso 1: Crear el correo electrónico de confirmación {#step-1--create-the-confirmation-email-1}
 
@@ -96,7 +96,7 @@ El correo electrónico de confirmación es un mensaje transaccional basado en el
 
 1. Obtenga una vista previa del mensaje con un perfil de prueba. Para obtener más información sobre esto, consulte [Definición de un perfil de prueba en un mensaje](../../channels/using/event-transactional-messages.md#defining-a-test-profile-in-a-transactional-message)transaccional.
 
-1. Haga clic **[!UICONTROL Save & close]** para guardar el contenido.
+1. Haga clic en **[!UICONTROL Save & close]** para guardar el contenido.
 1. Publique el mensaje transaccional. Consulte [Publicación de un mensaje](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message)transaccional.
 
 ### Paso 2: Crear y configurar el servicio {#step-2--create-and-configure-the-service-1}
@@ -179,7 +179,7 @@ Cree una página de inicio de suscripción que se publicará en su sitio web.
 
 Para crear y configurar esta página de aterrizaje, siga los pasos a continuación:
 
-1. Diseñar una [nueva página](../../channels/using/about-landing-pages.md) de aterrizaje basada en la **[!UICONTROL Subscription]** plantilla.
+1. Diseñar una [nueva página](../../channels/using/getting-started-with-landing-pages.md) de aterrizaje basada en la **[!UICONTROL Subscription]** plantilla.
 1. Edite las propiedades de la página de aterrizaje. En la sección **[!UICONTROL Job]** &gt; **[!UICONTROL Specific actions]** , seleccione la **[!UICONTROL Specific service]** opción y elija el servicio que acaba de crear en la lista desplegable.
 
    ![](assets/confirmation_lp-specific-service.png)
@@ -190,7 +190,7 @@ Para crear y configurar esta página de aterrizaje, siga los pasos a continuaci�
 
 1. Personalice el contenido de la página de aterrizaje.
 
-1. [Pruebe y publique](../../channels/using/sharing-a-landing-page.md) la página de aterrizaje.
+1. [Pruebe y publique](../../channels/using/testing-publishing-landing-page.md) la página de aterrizaje.
 
 Ahora, cada vez que un perfil se suscribe a la newsletter enviando la página de aterrizaje, recibe el mensaje de confirmación que definió con los campos personalizados asignados al servicio.
 
