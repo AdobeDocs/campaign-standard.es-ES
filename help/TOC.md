@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 02cf4f79f69eb1aef81c9e805204febd363af1a2
+source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 ---
 
@@ -108,12 +108,13 @@ source-git-commit: 02cf4f79f69eb1aef81c9e805204febd363af1a2
       + [Notificaciones push transaccionales](channels/using/transactional-push-notifications.md)
       + [Mensajes de seguimiento](channels/using/follow-up-messages.md)
    + Páginas de aterrizaje {#landing-pages}
-      + [Acerca de las páginas de aterrizaje](channels/using/about-landing-pages.md)
-      + [Pasos principales para configurar una página de aterrizaje](channels/using/main-steps-to-set-up-a-landing-page.md)
+      + [Acerca de las páginas de aterrizaje](channels/using/getting-started-with-landing-pages.md)
+      + [Pasos principales para configurar una página de aterrizaje](channels/using/getting-started-with-landing-pages.md)
       + [Acerca de las plantillas de página de aterrizaje](channels/using/landing-page-templates.md)
+      + [Configuración de una página de aterrizaje](channels/using/configuring-landing-page.md)
       + [Diseño de una página de aterrizaje](channels/using/designing-a-landing-page.md)
       + [Administración de datos de formulario de una página de aterrizaje](channels/using/managing-landing-page-form-data.md)
-      + [Uso compartido de una página de aterrizaje](channels/using/sharing-a-landing-page.md)
+      + [Prueba y publicación de una página de aterrizaje](channels/using/testing-publishing-landing-page.md)
       + [Configuración de un proceso de inclusión doble](channels/using/setting-up-a-double-opt-in-process.md)
 + Diseño del contenido del correo electrónico {#designing-content}
    + [Diseñador de correos electrónicos de Campaign](designing/using/designing-content-in-adobe-campaign.md)
