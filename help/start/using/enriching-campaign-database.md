@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 ---
 
@@ -49,7 +49,7 @@ El principio es el siguiente:
 * Asigne cada campo de entrada con el campo correspondiente de la base de datos.
 * Haga que la página de aterrizaje esté disponible en línea a través de un sitio web o de un vínculo directo en un mensaje.
 
-Para obtener más información sobre las páginas de aterrizaje, consulte la documentación [](../../channels/using/about-landing-pages.md)dedicada.
+Para obtener más información sobre las páginas de aterrizaje, consulte la documentación [](../../channels/using/getting-started-with-landing-pages.md)dedicada.
 
 ## Sincronización de perfiles de Microsoft Dynamics 365
 
