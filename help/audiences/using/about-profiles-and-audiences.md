@@ -1,18 +1,18 @@
 ---
 title: Acerca de los perfiles y audiencias
 description: '"Obtenga información sobre la administración de perfiles y audiencias en Adobe Campaign: definir poblaciones objetivo, seleccionar audiencias, filtrar destinatarios, recopilar datos y actualizar perfiles".'
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: f4cb6c38-c8d1-44ec-93f0-d0f5f30a3d9a
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: referencia
-topic-tags: acerca de perfiles y audiencias
+content-type: reference
+topic-tags: about-profiles-and-audiences
 discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Campaign crea perfiles de cliente enriquecidos en tiempo real, permitiénd
 
    Mediante los flujos de trabajo y el editor de consultas, puede crear audiencias que serán el objetivo de sus campañas de marketing, en función de la información que tenga sobre ellas, sus actividades y su historial de marketing. Esto le permite filtrar perfiles suscritos, tomar muestras o crear audiencias de destino según un número ilimitado de criterios.
 
-Antes de empezar a enviar mensajes a un contacto, debe asegurarse de obtener su permiso. Si no es así, los mensajes de correo electrónico pueden marcarse como correo no deseado y esto afectará la capacidad de entrega de la plataforma. Para asegurarse de crear una base de datos de perfil sólida, asegúrese de que este permiso es el primer paso. Con Campaign, le recomendamos que utilice fácilmente los mecanismos de inclusión y exclusión a través de [servicios](../../audiences/using/creating-a-service.md)y páginas [de](../../channels/using/about-landing-pages.md) aterrizaje para actualizar su información de contacto y ampliar su base de datos.
+Antes de empezar a enviar mensajes a un contacto, debe asegurarse de obtener su permiso. Si no es así, los mensajes de correo electrónico pueden marcarse como correo no deseado y esto afectará la capacidad de entrega de la plataforma. Para asegurarse de crear una base de datos de perfil sólida, asegúrese de que este permiso es el primer paso. Con Campaign, le recomendamos que utilice fácilmente los mecanismos de inclusión y exclusión a través de [servicios](../../audiences/using/creating-a-service.md)y páginas [de](../../channels/using/getting-started-with-landing-pages.md) aterrizaje para actualizar su información de contacto y ampliar su base de datos.
 
 Al proporcionar vínculos de anulación de suscripción en los mensajes, se permitirá que los perfiles queden bloqueados cuando sea necesario y, por tanto, se mejorará la capacidad de entrega de la plataforma. Para obtener más información sobre la lista negra, consulte [Acerca de la inclusión y la exclusión en Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
