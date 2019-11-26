@@ -1,19 +1,19 @@
 ---
 title: Creación de un servicio
 description: Obtenga información sobre cómo crear su primer servicio y configurarlo para enviar confirmaciones de correo electrónico a sus suscriptores.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 0d95d852-0f22-4b7b-b301-8fb4844c3ca2
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: referencia
-topic-tags: administrar suscripciones
+content-type: reference
+topic-tags: managing-subscriptions
 discoiquuid: 6b7788fe-fa6c-472a-97db-765595ce1589
-context-tags: servicio,asistente;servicio,principal
+context-tags: service,wizard;service,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -24,7 +24,7 @@ Para poder administrar las suscripciones, primero debe crear un servicio y confi
 
 Para configurar un servicio:
 
-1. En el menú avanzado **[!UICONTROL Profiles & audiences]** &gt; **[!UICONTROL Services]** mediante el logotipo de Adobe Campaign, agregue un nuevo servicio o seleccione uno existente. Si crea un nuevo servicio, simplemente siga los pasos que se muestran en la pantalla.
+1. En el menú avanzado **[!UICONTROL Profiles & audiences]** &gt; **[!UICONTROL Services]** a través del logotipo de Adobe Campaign, agregue un nuevo servicio o seleccione uno existente. Si crea un nuevo servicio, simplemente siga los pasos que se muestran en la pantalla.
 
    Hay disponible una plantilla de servicio predeterminada. Esta plantilla está preconfigurada con páginas de aterrizaje y correos electrónicos de confirmación predeterminados. Puede crear otras plantillas para definir configuraciones específicas. For more on this, refer to the [Managing templates](../../start/using/about-templates.md) section.
 
@@ -54,5 +54,4 @@ Una vez creado un servicio, puede empezar a promocionarlo.
 * [Administración de un servicio y un vídeo de suscripciones](https://helpx.adobe.com/campaign/kt/acs/using/acs-services-and-subscriptions-feature-video-use.html)
 * [Promoción de un servicio](../../audiences/using/promoting-a-service.md)
 * [Creación de una audiencia formada por suscriptores](../../audiences/using/creating-audiences.md#creating-list-audiences)
-* [Vinculación de un formulario a un servicio en una página de aterrizaje](../../channels/using/designing-a-landing-page.md#linking-a-form-to-a-service)
-
+* [Vinculación de una página de aterrizaje a un servicio](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)
