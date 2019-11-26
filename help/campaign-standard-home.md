@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Documentación del producto de Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 * **[Creador de correo electrónico](designing/using/designing-content-in-adobe-campaign.md)**<br/>Consulte la documentación reorganizada del creador de correos electrónicos.
 
-* **[Páginas de aterrizaje](channels/using/main-steps-to-set-up-a-landing-page.md)**<br/>Obtenga más información sobre cómo configurar una página de aterrizaje.
+* **[Páginas de aterrizaje](channels/using/getting-started-with-landing-pages.md)**<br/>Obtenga más información sobre cómo configurar una página de aterrizaje.
 
 [Haga clic aquí para obtener más actualizaciones](rn/using/documentation-updates.md)
 
