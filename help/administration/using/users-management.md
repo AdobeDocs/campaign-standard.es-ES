@@ -1,18 +1,18 @@
 ---
 title: Administración de usuarios
 description: 'Los usuarios de Adobe Campaign tienen funciones específicas. Descubrir los tipos de usuarios principales. '
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 8c4cc74a-815f-4815-af66-a7c21bc754f1
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: administración
-content-type: referencia
-topic-tags: usuarios y seguridad
+audience: administration
+content-type: reference
+topic-tags: users-and-security
 discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -68,7 +68,7 @@ Estas son las tareas principales que pueden realizar:
 * [Configure las opciones](../../administration/using/external-accounts.md)generales de la aplicación: configure los diferentes elementos de la aplicación (cuentas externas, opciones, flujos de trabajo técnicos).
 * [Desarrollar nuevas funciones para mejorar las funcionalidades](../../developing/using/data-model-concepts.md)integradas: administre sus recursos personalizados y acceda a las herramientas de diagnóstico.
 * [Configure los parámetros](../../administration/using/branding.md)de instancia: defina las diferentes marcas y configure sus opciones (logotipo, administración del seguimiento, dominio de URL para acceder a las páginas de aterrizaje, etc.).
-* [Exportar e importar paquetes](../../automating/using/managing-packages.md)de datos: intercambiar recursos entre distintas instancias de Adobe Campaign mediante archivos XML estructurados.
+* [Exportar e importar paquetes](../../automating/using/managing-packages.md)de datos: intercambiar recursos entre distintas instancias de Adobe Campaign a través de archivos XML estructurados.
 * [Exporte registros](../../automating/using/exporting-logs.md) y [defina plantillas](../../automating/using/defining-import-templates.md)de importación.
 
 ### Usuarios avanzados {#advanced-users}
@@ -94,7 +94,7 @@ Estas son las tareas principales que pueden realizar:
 * [Administrar programas y campañas](../../start/using/programs-and-campaigns.md): cree campañas de marketing que incluyan diferentes tipos de actividades (correos electrónicos, mensajes SMS, notificaciones push, flujos de trabajo, páginas de aterrizaje).
 * Administrar [perfiles](../../audiences/using/about-profiles.md) y perfiles [de prueba](../../sending/using/managing-test-profiles-and-sending-proofs.md): administre los destinatarios identificados y de prueba que serán el objetivo de las entregas. Agregue información como nombre, apellidos, información de contacto, suscripciones, correos electrónicos, etc.
 * [Crear y enviar mensajes](../../sending/using/confirming-the-send.md): cree su mensaje, seleccione la audiencia, defina el contenido del mensaje y sus elementos de personalización, envíe pruebas y envíe el mensaje final a la audiencia.
-* [Crear y publicar páginas](../../channels/using/about-landing-pages.md)de aterrizaje: cree y gestione un conjunto de servicios que desee ofrecer a sus clientes, por ejemplo, formularios de suscripción o de cancelación de suscripciones.
+* [Crear y publicar páginas](../../channels/using/getting-started-with-landing-pages.md)de aterrizaje: cree y gestione un conjunto de servicios que desee ofrecer a sus clientes, por ejemplo, formularios de suscripción o de cancelación de suscripciones.
 * [Crear y ejecutar flujos de trabajo](../../automating/using/building-a-workflow.md)de campaña: automatice los procesos de campaña mediante flujos de trabajo.
 * Monitoree sus actividades de mercadotecnia a través de los informes [](../../reporting/using/defining-the-report-period.md)disponibles.
 
