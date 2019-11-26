@@ -1,19 +1,19 @@
 ---
 title: Diseño de una página de aterrizaje
-description: Siga estos pasos para diseñar el contenido de una página de aterrizaje y vincularlo a un servicio.
-page-status-flag: nunca activado
+description: Aprenda a diseñar el contenido de una página de aterrizaje.
+page-status-flag: never-activated
 uuid: de6fe190-835c-40fd-8101-a809b430b423
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: canales
-content-type: referencia
+audience: channels
+content-type: reference
 topic-tags: landing-pages
 discoiquuid: bd77d6f0-3143-4030-a91b-988a2bebc534
 context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -126,25 +126,25 @@ La **barra de herramientas** es un elemento contextual de la interfaz del editor
    <td> <img height="21px" src="assets/link_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Vínculo a una dirección URL</span> externa <br /> </td> 
    <td> Cualquier elemento<br /> </td> 
-   <td> Permite agregar un vínculo a una dirección URL. Los detalles de cómo configurar un vínculo se presentan en la sección <a href="../../designing/using/links.md#inserting-a-link">Insertar un vínculo</a> .<br /> </td> 
+   <td> Permite agregar un vínculo a una dirección URL. Los detalles de cómo configurar un vínculo se presentan en la sección <a href="../../designing/using/links.md#inserting-a-link">Inserción de un vínculo</a> .<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/linkpage_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Vínculo a una página</span> de aterrizaje <br /> </td> 
    <td> Cualquier elemento<br /> </td> 
-   <td> Permite acceder a una página de aterrizaje de Adobe Campaign. Los detalles de cómo configurar un vínculo se presentan en la sección <a href="../../designing/using/links.md#inserting-a-link">Insertar un vínculo</a> .<br /> </td> 
+   <td> Permite el acceso a una página de aterrizaje de Adobe Campaign. Los detalles de cómo configurar un vínculo se presentan en la sección <a href="../../designing/using/links.md#inserting-a-link">Inserción de un vínculo</a> .<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/link_subscribe_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Vínculo</span> de suscripción <br /> </td> 
    <td> Cualquier elemento<br /> </td> 
-   <td> Permite insertar un vínculo de suscripción al servicio. Los detalles de cómo configurar un vínculo se presentan en la sección <a href="../../designing/using/links.md#inserting-a-link">Insertar un vínculo</a> .<br /> </td> 
+   <td> Permite insertar un vínculo de suscripción al servicio. Los detalles de cómo configurar un vínculo se presentan en la sección <a href="../../designing/using/links.md#inserting-a-link">Inserción de un vínculo</a> .<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/link_unsubscribe_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Vínculo</span> de cancelación de suscripción <br /> </td> 
    <td> Cualquier elemento<br /> </td> 
-   <td> Le permite insertar un vínculo de cancelación de suscripción a un servicio. Los detalles de cómo configurar un vínculo se presentan en la sección <a href="../../designing/using/links.md#inserting-a-link">Insertar un vínculo</a> .<br /> </td> 
+   <td> Le permite insertar un vínculo de cancelación de suscripción a un servicio. Los detalles de cómo configurar un vínculo se presentan en la sección <a href="../../designing/using/links.md#inserting-a-link">Inserción de un vínculo</a> .<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/linkoff_darkgrey-24px.png" /> <br /> </td> 
@@ -154,7 +154,7 @@ La **barra de herramientas** es un elemento contextual de la interfaz del editor
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/personalization_field_darkgrey-24px.png" /> <br /> </td> 
-   <td> <span class="uicontrol">Insertar un campo</span> de personalización <br /> </td> 
+   <td> <span class="uicontrol">Inserción de un campo</span> de personalización <br /> </td> 
    <td> Elemento Texto<br /> </td> 
    <td> Permite agregar un campo de la base de datos al contenido. Consulte <a href="../../designing/using/personalization.md#inserting-a-personalization-field">Inserción de un campo</a>de personalización.<br /> </td> 
   </tr> 
@@ -282,7 +282,7 @@ Para cambiar la alineación del texto, seleccione uno de los tres iconos siguien
 ![](assets/des_lp_content_7.png)
 
 * **Alinear a la izquierda**: alinea el texto a la izquierda del bloque seleccionado (agrega style="text-align: left;").
-* **Centro**: centra el texto del bloque seleccionado (agrega style="text-align: center;").
+* **Centro**: centra el texto en el bloque seleccionado (agrega style="text-align: center;").
 * **Alinear a la derecha**: alinea el texto a la derecha del bloque seleccionado (agrega style="text-align: right;").
 
 También puede utilizar la barra de herramientas para cambiar los atributos de fuente: adaptar el tamaño de fuente, poner el texto en negrita o en cursiva, subrayar o cambiar el color del texto. Consulte [esta sección](../../channels/using/designing-a-landing-page.md#landing-page-content-editor-interface).
@@ -320,7 +320,7 @@ Los siguientes pasos para definir contenido dinámico en una página de aterriza
 
 >[!NOTE]
 >
->Si un elemento de variante se describe en rojo, significa que aún no se ha definido una expresión.
+>Si un elemento de variante está delineado en rojo, significa que aún no se ha definido una expresión.
 
 Puede desplazarse entre los distintos contenidos dinámicos de un bloque. Para ello:
 
@@ -343,87 +343,7 @@ Puede desplazarse entre los distintos contenidos dinámicos de un bloque. Para e
 
 En la paleta:
 
-* El contenido que tiene una expresión ingresada ya no está delineado en rojo, se muestra en gris.
+* El contenido que tiene una expresión ingresada ya no está delineado en rojo, sino que se muestra en gris.
 * El contenido seleccionado actualmente aparece en azul.
 
 ![](assets/dynamic_content_lp_4.png)
-
-## Confirmar un envío de página de aterrizaje {#confirm-a-landing-page-submission}
-
-Cuando un visitante envía una página de aterrizaje, puede configurar las acciones activadas. Para ello:
-
-1. Edite las propiedades de la página de aterrizaje a las que se accede mediante el icono ![](assets/edit_darkgrey-24px.png) del tablero de la página de aterrizaje y muestre los **[!UICONTROL Job]** parámetros.
-
-   ![](assets/lp_edit_properties_button.png)
-
-1. En la **[!UICONTROL Specific actions]** sección , seleccione **[!UICONTROL Start sending message]** para determinar el envío de un mensaje automático, por ejemplo para confirmar la suscripción a un servicio. A continuación, debe seleccionar una plantilla de envío de correo electrónico.
-
-   Tenga en cuenta que si un mensaje de confirmación ya está configurado en el nivel de servicio, no debe seleccionar uno en esta pantalla para evitar enviar varios mensajes de confirmación. Consulte [Configurar un servicio](../../audiences/using/creating-a-service.md).
-
-1. Crear **[!UICONTROL Additional data]** para habilitar el almacenamiento de datos adicionales cuando se envía la página de aterrizaje. Estos datos no son visibles para las personas que visitan la página. Solo se tienen en cuenta los valores constantes.
-
-   ![](assets/lp_parameters_6.png)
-
-## Configuración de permisos y precarga de datos {#setting-permissions-and-pre-loading-data}
-
-El acceso a una página de aterrizaje puede restringirse a los visitantes identificados, que provienen de un vínculo en un mensaje enviado por Campaña, por ejemplo, o a una unidad organizativa específica.
-En el caso de los visitantes identificados, puede cargar previamente sus datos en la página de aterrizaje. Para ello:
-
-1. Edite las propiedades de la página de aterrizaje a las que se accede mediante el icono ![](assets/edit_darkgrey-24px.png) del tablero de la página de aterrizaje y muestre los **[!UICONTROL Access & loading]** parámetros.
-
-   ![](assets/lp_edit_properties_button.png)
-
-1. Select **[!UICONTROL Preload visitor data]**.
-
-   Si un visitante de la página corresponde a un perfil de la base de datos, sus datos se muestran en los campos del formulario asignados a los datos de la base de datos y se tienen en cuenta los elementos de personalización de la página de aterrizaje.
-
-   ![](assets/lp_parameters_3.png)
-
-También puede:
-
-* Utilice los parámetros de URL para identificar a los visitantes mediante la **[!UICONTROL Authorize visitor identification via URL parameters]** opción: a continuación, debe elegir la clave de carga y asignar los parámetros del filtro con los parámetros de la URL correspondiente.
-* Autorice a cualquier visitante a acceder a la página de aterrizaje mediante la **[!UICONTROL Authorize unidentified visitors]** opción .
-
-Las páginas de aterrizaje también se pueden vincular a una unidad organizativa. Esto definirá el acceso de los usuarios a las diferentes páginas de aterrizaje. Para asignar una unidad organizativa:
-
-1. Acceda a las propiedades de la página de aterrizaje mediante el **[!UICONTROL Edit properties]** icono .
-
-   ![](assets/lp_parameters_google3.png)
-
-1. Despliegue el **[!UICONTROL Access authorization]**.
-
-1. Haga clic en el menú desplegable y seleccione la unidad organizativa. For more information on how to create organization unit, refer to this [page](../../administration/using/organizational-units.md).
-
-   ![](assets/lp_org_unit_2.png)
-
-1. Los campos **[!UICONTROL Created by]**, **[!UICONTROL Created]****[!UICONTROL Access authorization]** y **[!UICONTROL Last modified]** se completan automáticamente.
-
-1. Haga clic en **[!UICONTROL Confirm]** luego **[!UICONTROL Save]**.
-
-Ahora solo los usuarios de la unidad organizativa seleccionada pueden acceder a la página de aterrizaje y administrarla.
-
-![](assets/lp_org_unit_3.png)
-
-## Configuración de Google reCAPTCHA {#setting-google-recaptcha}
-
-Puede configurar Google reCAPTCHA V3 con su página de aterrizaje para protegerla del spam y los abusos causados por los bots. Para poder utilizarlo con la página de aterrizaje, primero debe crear una cuenta externa. Para obtener más información sobre cómo configurarla, consulte esta [sección](../../administration/using/external-accounts.md#google-recaptcha-external-account).
-
-Una vez configurada la cuenta externa de Google reCAPTCHA V3, puede agregarla a la página de aterrizaje:
-
-1. Antes de publicar la página de aterrizaje, acceda a las propiedades de página a las que se accede mediante el icono del tablero de la página de aterrizaje. ![](assets/edit_darkgrey-24px.png)
-
-   ![](assets/lp_parameters_google3.png)
-
-1. Despliegue el **[!UICONTROL Access & loading]** menú.
-1. Marque la **[!UICONTROL Use reCAPTCHA to protect your site from spam and abuse]** opción.
-1. Seleccione la cuenta externa de Google reCAPTCHA creada anteriormente.
-
-   ![](assets/lp_parameters_google.png)
-
-1. Click **[!UICONTROL Confirm]**.
-
-La página de aterrizaje ahora está configurada con Google reCAPTCHA, que se puede ver en la parte inferior de la página.
-
-![](assets/lp_parameters_google2.png)
-
-Google reCAPTCHA devolverá una puntuación basada en las interacciones de los usuarios con su página. Para comprobar su puntuación, conéctese a su consola [de administración de](https://g.co/recaptcha/admin)Google.
