@@ -1,18 +1,18 @@
 ---
 title: Importación de datos
 description: Obtenga información sobre cómo importar datos con un flujo de trabajo.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: d909d26a-cf50-46af-ae09-f0fd7258ca27
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: automatizar
-content-type: referencia
+audience: automating
+content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 Puede recopilar datos de un archivo para procesarlos o importarlos en la base de datos de Adobe Campaign.
 
 * La **[!UICONTROL Load file]** actividad permite importar datos en un formulario estructurado para utilizarlos en Adobe Campaign. Los datos se importan temporalmente y es necesaria otra actividad para integrarlos definitivamente en la base de datos de Adobe Campaign.
-* La **[!UICONTROL Transfer file]** actividad le permite recibir o enviar archivos, probar si hay archivos presentes o mostrar archivos en Adobe Campaign.
+* La **[!UICONTROL Transfer file]** actividad le permite recibir o enviar archivos, probar si hay archivos presentes o enumerar archivos en Adobe Campaign.
 
    Puede utilizar esta actividad antes de una **[!UICONTROL Load file]** en caso de que necesite recuperar el archivo de una fuente externa.
 
@@ -88,6 +88,26 @@ Para mantener la coherencia de los datos en la base de datos de Adobe Campaign, 
 * Los datos de transacciones deben tener una clave de reconciliación y se deben reconciliar con los datos existentes para evitar la creación de duplicados.
 * **Importación de archivos relacionados en orden**. Si la importación está compuesta por varios archivos que dependen unos de otros, el flujo de trabajo debe asegurar que los archivos se importen en el orden correcto. Si un archivo falla, los demás archivos no se importan.
 * **Deduplique**, reconcilie y mantenga la coherencia al importar datos.
+
+## Administración de datos cifrados {#managing-encrypted-data}
+
+En algunos casos, es posible que los datos que desea importar los servidores de campañas deban cifrarse, por ejemplo, si contienen datos PII.
+
+Para poder importar o exportar archivos cifrados, primero debe ponerse en contacto con el Servicio de atención al cliente de Adobe para que le proporcionen a su instancia los comandos de cifrado y descifrado necesarios.
+
+Para ello, envíe una solicitud que indique:
+
+* La **etiqueta** que se mostrará en la interfaz de Campaign para utilizar el comando. Por ejemplo, "Cifrar archivo".
+* El **comando** que se va a instalar en la instancia.
+Por ejemplo, para descifrar un archivo con PGP, el comando será:
+
+   ```
+   <path-to_pgp_if-not_global_or_server/>pgp.exe --decrypt --input nl6/var/vp/import/filename.pgp --passphrase "your password" --recipient recipient @email.com --verbose --output nl6/var/vp/import/filename
+   ```
+
+Una vez procesada la solicitud, los comandos de cifrado/descifrado estarán disponibles en el **!UICONTROL Pre-processing stage]** campo desde las **[!UICONTROL Data loading (file)]** actividades y **[!UICONTROL Extracting data (file)]** . Puede utilizarlos para descifrar o cifrar los archivos que desea importar o exportar.
+
+![](assets/preprocessing-encryption.png)
 
 ## Ejemplo: Importar plantilla de flujo de trabajo {#example--import-workflow-template}
 
@@ -197,4 +217,3 @@ Este ejemplo muestra cómo se puede predefinir un flujo de trabajo para reutiliz
 Ahora la plantilla se puede utilizar y está disponible para cada nuevo flujo de trabajo. All is needed is then to specify the file containing the data to import in the **[!UICONTROL Load file]** activity.
 
 ![](assets/import_template_example9.png)
-
