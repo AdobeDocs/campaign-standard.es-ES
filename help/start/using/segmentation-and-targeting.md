@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ba1e87b140a19967e67320cc4579ac025955ca23
+source-git-commit: 13430243e8f2840ca85e557798168f6380a7b0fa
 
 ---
 
@@ -29,7 +29,7 @@ La función de perfiles de cliente integra todos los datos de cliente en un solo
 
 ![](assets/mkt_hist_view.png)
 
-Adobe Campaign propone varios mecanismos para la adquisición de perfiles: recopilar datos en línea a través de páginas [de](../../channels/using/about-landing-pages.md)aterrizaje, mecanismos [de importación manuales o](../../automating/using/about-data-import-and-export.md)automatizados, entrada [](../../audiences/using/creating-profiles.md) directa en la interfaz de Adobe Campaign, creación masiva a través de las API [de](../../api/using/about-campaign-standard-apis.md)Campaign.
+Adobe Campaign propone varios mecanismos para la adquisición de perfiles: recopilar datos en línea a través de páginas [de](../../channels/using/getting-started-with-landing-pages.md)aterrizaje, mecanismos [de importación manuales o](../../automating/using/about-data-import-and-export.md)automatizados, entrada [](../../audiences/using/creating-profiles.md) directa en la interfaz de Adobe Campaign, creación masiva a través de las API [de](../../api/using/about-campaign-standard-apis.md)Campaign.
 
 **Temas relacionados:**
 
