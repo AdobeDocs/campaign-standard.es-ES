@@ -1,19 +1,19 @@
 ---
 title: Administración de datos de formulario de una página de aterrizaje
-description: Obtenga información sobre cómo administrar los datos del formulario de página de aterrizaje.
-page-status-flag: nunca activado
+description: Obtenga información sobre cómo administrar los datos del formulario de la página de aterrizaje.
+page-status-flag: never-activated
 uuid: 5b222ea2-6628-457f-a618-bfc0e5eb93dd
 contentOwner: lemaitre
 products: SG_CAMPAIGN/STANDARD
-audience: canales
-content-type: referencia
+audience: channels
+content-type: reference
 topic-tags: landing-pages
 discoiquuid: 899c7152-f415-4df9-b4b4-5ff3470a4e32
 context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -51,26 +51,6 @@ Los campos de entrada se utilizan para almacenar o actualizar datos en la base d
 >[!NOTE]
 >
 >Los campos predeterminados de las páginas de aterrizaje integradas están preconfigurados. Puede modificarlas según sea necesario.
-
-## Vinculación de un formulario a un servicio {#linking-a-form-to-a-service}
-
-Puede vincular un formulario a un servicio para que los perfiles se puedan suscribir a un servicio específico al validar las páginas de aterrizaje.
-
-Los parámetros para vincular una página de aterrizaje permiten especificar el tipo de acción realizado y si la página de aterrizaje está vinculada específicamente a un único servicio o si es genérica.
-
-Para seleccionar el servicio que desea vincular, debe:
-
-1. Edite las propiedades de la página de aterrizaje a las que se accede mediante el icono ![](assets/edit_darkgrey-24px.png) del tablero de la página de aterrizaje y muestre los **[!UICONTROL Job]** parámetros.
-
-   ![](assets/lp_edit_properties_button.png)
-
-1. Elija **[!UICONTROL Subscription]** en la lista **[!UICONTROL Specific actions]** desplegable.
-
-   ![](assets/lp_parameters_5.png)
-
-1. Seleccione **[!UICONTROL Specific service]** para vincular la página de aterrizaje a un solo servicio. No seleccione esta opción si desea utilizar varios servicios con la página de aterrizaje.
-
-   Utilice la **[!UICONTROL Specified service in the URL]** opción para permitir que la página de aterrizaje se utilice en varios servicios. Por lo tanto, debe hacer referencia a la página de aterrizaje al configurar el servicio.
 
 ## Almacenamiento y reconciliación de datos{#data-storage-and-reconciliation}
 
