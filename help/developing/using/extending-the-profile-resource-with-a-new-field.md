@@ -1,18 +1,18 @@
 ---
 title: Ampliación del recurso de perfil con un nuevo campo
 description: Obtenga información sobre cómo ampliar el recurso de perfil.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 9b99e95c-93ff-4187-90f7-db0baf5369ad
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: desarrollo
-content-type: referencia
-topic-tags: use-cases—extension-resources
+audience: developing
+content-type: reference
+topic-tags: use-cases--extending-resources
 discoiquuid: 1e0f8945-fc3c-46a9-a8e5-b181a1f5ffcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -130,7 +130,7 @@ Para aplicar los cambios realizados en los recursos y poder utilizarlos, debe re
 
    ![](assets/schema_extension_uc14.png)
 
-1. Haga clic **[!UICONTROL Prepare publication]** para iniciar el análisis que actualizará la base de datos.
+1. Haga clic en **[!UICONTROL Prepare publication]** para iniciar el análisis que actualizará la base de datos.
 1. Una vez realizada la publicación, haga clic en el botón **Publicar** para aplicar las nuevas configuraciones.
 
    ![](assets/schema_extension_uc17.png)
@@ -147,7 +147,7 @@ El nuevo campo de recursos ya está listo para utilizarse y segmentarse, por eje
 
 ## Paso 4: Actualización y destino de perfiles con un flujo de trabajo {#step-4--update-and-target-profiles-with-a-workflow}
 
-Para actualizar perfiles con datos para el nuevo campo personalizado, puede crear una página de aterrizaje con la **[!UICONTROL Profile acquisition]** plantilla. For more information on landing pages, refer to this [page](../../channels/using/about-landing-pages.md).
+Para actualizar perfiles con datos para el nuevo campo personalizado, puede crear una página de aterrizaje con la **[!UICONTROL Profile acquisition]** plantilla. For more information on landing pages, refer to this [page](../../channels/using/getting-started-with-landing-pages.md).
 
 Aquí, queremos establecer como objetivo los perfiles de flujo de trabajo que no hayan rellenado este campo. Recibirán un correo electrónico pidiéndoles que actualicen sus perfiles para recibir boletines informativos y ofertas personalizados. A continuación, cada perfil recibirá un boletín personalizado en función de los intereses elegidos.
 
