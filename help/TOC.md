@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
+source-git-commit: be26edfc30f6cbfcd6fbb449e0751f71924a1944
 
 ---
 
@@ -108,8 +108,7 @@ source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
       + [Notificaciones push transaccionales](channels/using/transactional-push-notifications.md)
       + [Mensajes de seguimiento](channels/using/follow-up-messages.md)
    + Páginas de aterrizaje {#landing-pages}
-      + [Acerca de las páginas de aterrizaje](channels/using/getting-started-with-landing-pages.md)
-      + [Pasos principales para configurar una página de aterrizaje](channels/using/getting-started-with-landing-pages.md)
+      + [Introducción a las páginas de aterrizaje](channels/using/getting-started-with-landing-pages.md)
       + [Acerca de las plantillas de página de aterrizaje](channels/using/landing-page-templates.md)
       + [Configuración de una página de aterrizaje](channels/using/configuring-landing-page.md)
       + [Diseño de una página de aterrizaje](channels/using/designing-a-landing-page.md)
