@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
+source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
 
 ---
 
@@ -299,15 +299,15 @@ source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
    + Ejemplo práctico: Ampliación de recursos {#use-cases--extending-resources}
       + [Ampliación del recurso de perfil con un nuevo campo](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [Ampliación de las suscripciones a un recurso de aplicación](developing/using/extending-the-subscriptions-to-an-application-resource.md)
-   + Datamodel {#datamodel}
-      + [Destinatarios](developing/using/datamodel-audience.md)
-      + [Campaña](developing/using/datamodel-campaign.md)
+   + Modelo de datos {#datamodel}
+      + [Audiencia](developing/using/datamodel-audience.md)
+      + [Campaign](developing/using/datamodel-campaign.md)
       + [Envío](developing/using/datamodel-delivery.md)
       + [Páginas de aterrizaje](developing/using/datamodel-landingpage.md)
-      + [Historial de mercadotecnia](developing/using/datamodel-history.md)
+      + [Historial de marketing](developing/using/datamodel-history.md)
       + [Perfil](developing/using/datamodel-profile.md)
       + [Programa](developing/using/datamodel-program.md)
-      + [Miembro de la semilla](developing/using/datamodel-seed.md)
+      + [Miembro semilla](developing/using/datamodel-seed.md)
       + [Servicio](developing/using/datamodel-service.md)
       + [Evento de suscripción](developing/using/datamodel-subscription.md)
       + [Registros de seguimiento](developing/using/datamodel-tracking.md)
@@ -346,26 +346,45 @@ source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
 + Uso de API {#working-with-apis}
    + Acerca de las API de Campaign Standard {#about-campaign-standard-apis}
       + [Información general](api/using/about-campaign-standard-apis.md)
-      + [Por qué utilizar las API de Campaign Standard](api/using/why-using-campaign-standard-apis.md)
+      + [Razones para utilizar las API de Campaign Standard](api/using/why-using-campaign-standard-apis.md)
       + [Configuración del acceso a API](api/using/setting-up-api-access.md)
    + Conceptos globales {#global-concepts}
       + [Lectura obligatoria](api/using/must-read.md)
-      + [Extremos](api/using/endpoints.md)
+      + [Puntos de conexión](api/using/endpoints.md)
       + [Mecanismo de metadatos](api/using/metadata-mechanism.md)
       + [Verbos](api/using/verbs.md)
       + Operaciones adicionales {#additional-operations}
          + [Ordenar](api/using/sorting.md)
-         + [Filtrado](api/using/filtering.md)
+         + [Filtrar](api/using/filtering.md)
          + [Recuento](api/using/counting.md)
          + [Paginación](api/using/pagination.md)
       + [Recursos personalizados](api/using/custom-resources.md)
-   + [Administración de perfiles](api/using/managing-profiles.md)
-   + [Administración de servicios y suscripciones](api/using/managing-services-and-subscriptions.md)
-   + [Interactuar con el historial de mercadotecnia](api/using/interacting-with-marketing-history.md)
-   + [Administración de privacidad](api/using/privacy-management.md)
-   + [Administración de mensajes transaccionales](api/using/managing-transactional-messages.md)
-   + [Administración de flujos de trabajo](api/using/managing-workflows.md)
    + [Interactuar con recursos personalizados](api/using/interacting-with-custom-resources.md)
-   + [Administración de las dependencias orgánicas](api/using/managing-organizational-units.md)
-   + [Administración de unidades geográficas](api/using/managing-geographical-units.md)
+   + Administración de perfiles {#managing-profiles}
+      + [Recuperación de perfiles](api/using/retrieving-profiles.md)
+      + [Actualización de perfiles](api/using/updating-profiles.md)
+      + [Creación de perfiles](api/using/creating-profiles.md)
+   + Administración de servicios y suscripciones {#managing-services-and-subscriptiopns}
+      + [Creación de un servicio](api/using/creating-a-service.md)
+      + [Recuperación de suscripciones](api/using/retrieving-subscriptions.md)
+      + [Realizar suscripciones](api/using/perform-subscriptions.md)
+      + [Eliminación de suscripciones](api/using/deleting-subscriptions.md)
+   + [Interactuar con el historial de marketing](api/using/interacting-with-marketing-history.md)
+   + Administración de la privacidad {#privacy-management}
+      + [Creación de una solicitud de privacidad](api/using/creating-a-privacy-request.md)
+      + [Supervisión de una solicitud de privacidad](api/using/monitoring-a-privacy-request.md)
+      + [Recuperación de archivos de datos de privacidad](api/using/retrieving-privacy-data-files.md)
+      + [Administración de la exclusión de CCPA](api/using/managing-ccpa-opt-out.md)
+   + [Administración de mensajes transaccionales](api/using/managing-transactional-messages.md)
+   + Administración de flujos de trabajo {#managing-workflows}
+      + [Control de un flujo de trabajo](api/using/controlling-a-workflow.md)
+      + [Activación de una actividad de señal](api/using/triggering-a-signal-activity.md)
+   + Administración de las unidades organizativas {#managing-organizational-units}
+      + [Recuperación de la unidad organizativa de un perfil](api/using/retrieving-an-organizational-unit.md)
+      + [Actualización de la unidad organizativa de un perfil](api/using/updating-profile-organizational-unit.md)
+      + [Actualización de atributos de unidad organizativa](api/using/updating-organizational-unit-attributes.md)
+   + Administración de unidades geográficas {#managing-geographical-units}
+      + [Recuperación de la unidad geográfica de un perfil](api/using/retrieving-a-geographical-unit.md)
+      + [Actualización de la unidad geográfica de un perfil](api/using/updating-a-geographical-unit.md)
+      + [Actualización de atributos de unidad geográfica](api/using/updating-geographical-unit-attributes.md)
    + [Resolución de problemas](api/using/troubleshooting.md)
