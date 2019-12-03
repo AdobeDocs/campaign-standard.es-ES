@@ -1,5 +1,5 @@
 ---
-title: Extremos
+title: Puntos de conexión
 description: Obtenga más información sobre los extremos de las API.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -12,20 +12,20 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 554bf4a441a0fb4daea3c5eddd95b0197ca12ae6
+source-git-commit: f251e4b5187aa09f65a5d8d6215f208a09cd9159
 
 ---
 
 
-# Extremos {#endpoints}
+# Puntos de conexión {#endpoints}
 
 Los extremos disponibles para la API REST de Adobe Campaign:
 
 * **/profileAndServices**: interactuar con los campos predeterminados. No se puede acceder a los campos extendidos con este extremo.
 * **/profileAndServicesExt**: interactuar con campos personalizados agregados durante la extensión de recursos personalizados de Perfil o Servicios. For more on custom resources, refer to [this section](../../api/using/custom-resources.md).
 * **/&lt;transactionAPI&gt;**: interactuar con la API de mensajes transaccionales (el nombre del extremo de la API de mensajes transaccionales depende de la configuración de la instancia). Para obtener más información, consulte [esta sección](../../api/using/managing-transactional-messages.md).
-* **/workflow/execute**: interactuar con flujos de trabajo. Para obtener más información, consulte [esta sección](../../api/using/managing-workflows.md).
-* **/privacy/privacyTool**: interactuar con la API de privacidad para permitir el proceso automático de solicitudes de privacidad. Para obtener más información, consulte [esta sección](../../api/using/privacy-management.md).
+* **/workflow/execute**: interactuar con flujos de trabajo. Para obtener más información, consulte [esta sección](../../api/using/controlling-a-workflow.md).
+* **/privacy/privacyTool**: interactuar con la API de privacidad para permitir el proceso automático de solicitudes de privacidad. Para obtener más información, consulte [esta sección](../../api/using/creating-a-privacy-request.md).
 * **/history**: recuperar el historial de marketing de los perfiles. Para obtener más información sobre los perfiles de cliente integrados en Campaign, consulte la documentación [de](https://helpx.adobe.com/campaign/standard/audiences/using/integrated-customer-profile.html)Campaign.
 
 De forma predeterminada, los recursos principales disponibles para las API **profileAndServices** y **profileAndServicesExt** son:
