@@ -13,7 +13,7 @@ context-tags: signal,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -30,7 +30,7 @@ La **[!UICONTROL External signal]** actividad desencadena un flujo de trabajo cu
 
 La **[!UICONTROL External signal]** actividad se utiliza para organizar y orquestar diferentes procesos que forman parte del mismo proceso del cliente en diferentes flujos de trabajo. Permite iniciar un flujo de trabajo desde otro, lo que permite soportar viajes de clientes más complejos, al tiempo que se puede supervisar y reaccionar mejor en caso de problemas.
 
-La **[!UICONTROL External signal]** actividad está diseñada para colocarse como la primera actividad de un flujo de trabajo. Se puede activar a partir de la **[!UICONTROL End]** actividad de otro flujo de trabajo o de una llamada a la API de REST (para obtener más información sobre esto, consulte la documentación [de la](../../api/using/managing-workflows.md)API).
+La **[!UICONTROL External signal]** actividad está diseñada para colocarse como la primera actividad de un flujo de trabajo. Se puede activar a partir de la **[!UICONTROL End]** actividad de otro flujo de trabajo o de una llamada a la API de REST (para obtener más información sobre esto, consulte la documentación [de la](../../api/using/triggering-a-signal-activity.md)API).
 
 Al activarse, los parámetros externos se pueden definir y estar disponibles en las variables de eventos de flujo de trabajo. El proceso para llamar a un flujo de trabajo con parámetros externos se detalla en [esta sección](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
@@ -56,7 +56,7 @@ Al configurar una señal externa, es importante configurar primero la actividad 
 
    >[!NOTE]
    >
-   >Si desea activar el flujo de trabajo de destino desde otro flujo de trabajo, siga los pasos siguientes. Si desea activar el flujo de trabajo de destino desde una llamada a la API de REST, consulte la documentación [de la](../../api/using/managing-workflows.md) API para obtener más información.
+   >Si desea activar el flujo de trabajo de destino desde otro flujo de trabajo, siga los pasos siguientes. Si desea activar el flujo de trabajo de destino desde una llamada a la API de REST, consulte la documentación [de la](../../api/using/triggering-a-signal-activity.md) API para obtener más información.
 
 1. Abra el flujo de trabajo de origen y seleccione una **[!UICONTROL End]** actividad. Si no hay ninguna **[!UICONTROL End]** actividad disponible, agregue una después de la última actividad de una rama del flujo de trabajo.
 
