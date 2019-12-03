@@ -1,0 +1,173 @@
+---
+title: Eliminación de suscripciones
+description: Obtenga información sobre cómo eliminar suscripciones con API.
+page-status-flag: never-activated
+uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
+contentOwner: sauviat
+products: SG_CAMPAIGN/STANDARD
+audience: developing
+content-type: reference
+topic-tags: campaign-standard-apis
+discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+
+---
+
+
+# Eliminación de suscripciones {#mdeleting-subscriptions}
+
+## Eliminación de una suscripción de servicio para un perfil específico
+
+Se trata de un procedimiento de tres pasos.
+
+1. Recupere la URL de suscripciones del perfil deseado.
+1. Realice una solicitud GET en la URL de suscripciones.
+1. Realice una solicitud DELETE en la dirección URL del servicio que desee.
+
+Si la solicitud de eliminación se realiza correctamente, el estado de la respuesta es 204 Sin contenido.
+
+<br/>
+
+***Solicitud de muestra***
+
+Las cargas útiles de ejemplo que se muestran a continuación muestran cómo cancelar la suscripción de un perfil de un servicio. En primer lugar, realice una solicitud GET para recuperar el perfil.
+
+```
+-X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer <ACCESS_TOKEN>' \
+-H 'Cache-Control: no-cache' \
+-H 'X-Api-Key: <API_KEY>'
+```
+
+Devuelve la URL de suscripciones del perfil.
+
+```
+  {
+    ...
+    "postalAddress":...,
+    "preferredLanguage": "none",
+    "subscriptions": {
+      "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions/"
+    },
+  }
+```
+
+Realice una solicitud GET en la URL de suscripciones.
+
+```
+-X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer <ACCESS_TOKEN>' \
+-H 'Cache-Control: no-cache' \
+-H 'X-Api-Key: <API_KEY>'
+```
+
+Devuelve la lista de suscripciones del perfil seleccionado, con una URL para cada servicio suscrito.
+
+```
+...
+"service": {
+  "PKey": "<PKEY>",
+  "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>",
+  "label": "Sport Newsletter",
+  "name": "SVC1",
+  "title": "Sport Newsletter (SVC1)"
+},
+...
+```
+
+Realice una solicitud DELETE en la dirección URL del servicio que desee.
+
+```
+-X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer <ACCESS_TOKEN>' \
+-H 'Cache-Control: no-cache' \
+-H 'X-Api-Key: <API_KEY>'
+```
+
+<!-- + réponse -->
+
+## Eliminación de una suscripción de servicio para un perfil específico
+
+Se trata de un procedimiento de tres pasos.
+
+1. Recupere el servicio deseado y su URL de suscripción.
+1. Realice una solicitud GET en la URL de suscripciones para recuperar todas las suscripciones de perfiles.
+1. Realice una solicitud DELETE en la URL de suscripción de perfil deseada.
+
+Si la solicitud de eliminación se realiza correctamente, el estado de la respuesta es 204 Sin contenido.
+
+<br/>
+
+***Solicitud de muestra***
+
+Recupere el registro de servicio.
+
+```
+-X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer <ACCESS_TOKEN>' \
+-H 'Cache-Control: no-cache' \
+-H 'X-Api-Key: <API_KEY>'
+```
+
+Devuelve la URL de suscripciones del servicio.
+
+```
+{
+  ...
+  "messageType": "email",
+  "mode": "newsletter",
+  "name": "SVC3",
+  "subScenarioEventType": "subscriptionEvent",
+  "subscriptions": {
+    "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions/"
+  },
+  "targetResource": "profile",
+  ...
+},
+```
+
+Realice una solicitud GET en la URL de suscripciones.
+
+```
+-X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer <ACCESS_TOKEN>' \
+-H 'Cache-Control: no-cache' \
+-H 'X-Api-Key: <API_KEY>'
+```
+
+Devuelve la lista de suscripciones para el servicio seleccionado, con una URL (href) para cada suscripción de perfil.
+
+```
+{
+  "PKey": "<PKEY>",
+  "created": "2019-03-26 08:58:04.764Z",
+  "email": "",
+  "expirationDate": "",
+  "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions/<PKEY>",
+  "metadata": "subscriptionRcp",
+  "service": ...,
+  "serviceName": "SVC3",
+  "subscriber": ...,
+  ...
+}
+```
+
+Realice una solicitud DELETE en la URL de suscripción de perfil deseada.
+
+```
+-X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions/<PKEY> \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer <ACCESS_TOKEN>' \
+-H 'Cache-Control: no-cache' \
+-H 'X-Api-Key: <API_KEY>'
+```
+
+<!-- + réponse -->
