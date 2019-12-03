@@ -12,7 +12,7 @@ discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -49,7 +49,7 @@ El primer paso para llamar a un flujo de trabajo con parámetros es declararlos 
 
 ## Definición de los parámetros al llamar al flujo de trabajo {#defining-the-parameters-when-calling-the-workflow}
 
-En esta sección se explica cómo definir parámetros al llamar a un flujo de trabajo. Para obtener más información sobre cómo realizar esta operación desde una llamada de API, consulte la documentación [de las API de](../../api/using/managing-workflows.md)REST.
+En esta sección se explica cómo definir parámetros al llamar a un flujo de trabajo. Para obtener más información sobre cómo realizar esta operación desde una llamada de API, consulte la documentación [de las API de](../../api/using/triggering-a-signal-activity.md)REST.
 
 Antes de definir los parámetros, asegúrese de que:
 
@@ -173,7 +173,7 @@ Para personalizar una entrega según las variables de eventos, primero debe decl
 
    ![](assets/extsignal_activities_delivery.png)
 
-1. Click the **[!UICONTROL Confirm]** button.
+1. Haga clic en el botón **.[!UICONTROL Confirm]**
 
 Las variables de eventos declarados ya están disponibles en la lista de campos de personalización. Puede utilizarlos en la entrega para realizar las acciones siguientes:
 
@@ -223,7 +223,7 @@ Antes de configurar los flujos de trabajo, debe crear los flujos de trabajo 1 y 
 
 ### Paso 1: Configuración de la llamada de API {#step-1--configuring-the-api-call}
 
-Realice una llamada de API para activar Workflow 1 con parámetros. Para obtener más información sobre la sintaxis de llamada de API, consulte la documentación [de las API de REST de](../../api/using/managing-workflows.md)Campaign Standard.
+Realice una llamada de API para activar Workflow 1 con parámetros. Para obtener más información sobre la sintaxis de llamada de API, consulte la documentación [de las API de REST de](../../api/using/triggering-a-signal-activity.md)Campaign Standard.
 
 En nuestro caso, queremos llamar al flujo de trabajo con los parámetros siguientes:
 
