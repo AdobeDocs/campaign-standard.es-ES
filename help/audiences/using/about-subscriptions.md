@@ -12,7 +12,7 @@ discoiquuid: 27de5a13-7b7c-4c91-bf26-3dfd324beb8f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -29,4 +29,4 @@ Cada servicio incluye:
 * Mecanismos **de** confirmación de suscripción y/o cancelación de suscripción.
 * Un **historial** de suscripción.
 
-Las suscripciones también se pueden administrar mediante la API de Adobe Campaign Standard. For more on this, refer to the [dedicated documentation](../../api/using/managing-services-and-subscriptions.md) .
+Las suscripciones también se pueden administrar mediante la API de Adobe Campaign Standard. For more on this, refer to the [dedicated documentation](../../api/using/creating-a-service.md) .
