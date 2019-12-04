@@ -301,7 +301,7 @@ source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
       + [Ampliación de las suscripciones a un recurso de aplicación](developing/using/extending-the-subscriptions-to-an-application-resource.md)
    + Modelo de datos {#datamodel}
       + [Audiencia](developing/using/datamodel-audience.md)
-      + [Campaign](developing/using/datamodel-campaign.md)
+      + [Campaña](developing/using/datamodel-campaign.md)
       + [Envío](developing/using/datamodel-delivery.md)
       + [Páginas de aterrizaje](developing/using/datamodel-landingpage.md)
       + [Historial de marketing](developing/using/datamodel-history.md)
