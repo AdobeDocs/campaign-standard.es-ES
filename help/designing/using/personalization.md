@@ -1,31 +1,31 @@
 ---
-title: Personalización
+title: Personalización del contenido del correo electrónico
 description: Descubra cómo personalizar un correo electrónico en el Diseñador de correo electrónico.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: diseñar
-content-type: referencia
+audience: designing
+content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: d0d5b19ad272c406f1081ed364193c7fb793de07
 
 ---
 
 
-# Personalización {#personalization}
+# Personalización del contenido del correo electrónico {#personalization}
 
-El contenido y la visualización de los mensajes suministrados por Adobe Campaign se pueden personalizar de varias formas. Estas formas se pueden combinar según los criterios según los perfiles. En general, Adobe Campaign le permite:
+El contenido y la visualización de los mensajes suministrados por Adobe Campaign se pueden personalizar de varias formas. Estas formas se pueden combinar según criterios en función de los perfiles. En general, Adobe Campaign permite:
 
-* Insertar campos personalizados dinámicos. See [Inserting a personalization field](#inserting-a-personalization-field).
-* Insertar bloques de personalización predefinidos. Consulte [Adición de un bloque](#adding-a-content-block)de contenido.
+* Inserte campos de personalización dinámica. Consulte [Inserción de un campo](#inserting-a-personalization-field)de personalización.
+* Inserte bloques de personalización predefinidos. Consulte [Adición de un bloque](#adding-a-content-block)de contenido.
 * Personalice el remitente de un correo electrónico. Consulte [Personalización del remitente](#personalizing-the-sender).
 * Personalice el asunto de un correo electrónico. See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
-* Cree contenido condicional. Consulte [Definición de contenido dinámico en un correo electrónico](#defining-dynamic-content-in-an-email)
+* Cree contenido condicional. Consulte [Definición de contenido dinámico en un mensaje de correo electrónico](#defining-dynamic-content-in-an-email)
 
 ## Personalización del remitente {#personalizing-the-sender}
 
@@ -37,7 +37,7 @@ Este campo se puede personalizar. Para ello, puede agregar campos de personaliza
 
 >[!NOTE]
 >
->Los parámetros de encabezado no deben estar vacíos. La dirección del remitente es obligatoria para permitir que se envíe un mensaje de correo electrónico (estándar RFC). Adobe Campaign comprueba la sintaxis de las direcciones de correo electrónico introducidas.
+>Los parámetros de encabezado no deben estar vacíos. La dirección del remitente es obligatoria para permitir el envío de un correo electrónico (estándar RFC). Adobe Campaign comprueba la sintaxis de las direcciones de correo electrónico introducidas.
 
 ## Personalización de direcciones URL{#personalizing-urls}
 
@@ -55,7 +55,7 @@ Adobe Campaign permite personalizar una o varias direcciones URL en el mensaje a
 >
 >Las direcciones URL de personalización no se pueden aplicar al nombre de dominio ni a la extensión URL. Se mostrará un mensaje de error durante el análisis de mensajes si la personalización es incorrecta. Al seleccionar un bloque de contenido, no se le permite seleccionar elementos como **Vínculo a página** de reflejo. Este tipo de bloques está prohibido dentro de un vínculo.
 
-## Inserción de un campo personalizado{#inserting-a-personalization-field}
+## Inserción de un campo de personalización{#inserting-a-personalization-field}
 
 Adobe Campaign permite insertar un campo de la base de datos en la página, como el nombre del perfil.
 
@@ -129,7 +129,7 @@ Los bloques de contenido predeterminados son:
 
 ### Creación de bloques de contenido personalizados {#creating-custom-content-blocks}
 
-Puede definir nuevos bloques de contenido que se insertarán en un mensaje o página de aterrizaje.
+Puede definir nuevos bloques de contenido que se insertarán en un mensaje o una página de aterrizaje.
 
 Para crear un bloque de contenido, siga estos pasos:
 
@@ -168,15 +168,15 @@ La dimensión de objetivo permite definir en qué tipo de mensaje puede utilizar
 
 De hecho, al editar un mensaje, solo puede seleccionar bloques de contenido con una dimensión de objetivo compatible con la dimensión de objetivo de ese mensaje.
 
-Por ejemplo, la dimensión de objetivo del **[!UICONTROL Unsubscription link]** bloque es **[!UICONTROL Profiles]** porque contiene campos de personalización específicos del **[!UICONTROL Profiles]** recurso. Por lo tanto, no puede utilizar un **[!UICONTROL Unsubscription link]** bloque en un mensaje [transaccional de](../../channels/using/event-transactional-messages.md)evento, ya que la dimensión de objetivo de ese tipo de mensaje es **[!UICONTROL Real-time events]**. Sin embargo, puede utilizar el bloque de vínculo **** Cancelar suscripción en un mensaje [transaccional de](../../channels/using/profile-transactional-messages.md)perfil, ya que la dimensión de objetivo de ese tipo de mensaje es **Perfiles**. Por último, el **[!UICONTROL Link to mirror page]** bloque no tiene una dimensión de objetivo, por lo que puede utilizarla en cualquier mensaje.
+Por ejemplo, la dimensión de objetivo del **[!UICONTROL Unsubscription link]** bloque se debe **[!UICONTROL Profiles]** a que contiene campos de personalización específicos del **[!UICONTROL Profiles]** recurso. Por lo tanto, no puede utilizar un **[!UICONTROL Unsubscription link]** bloque en un mensaje [transaccional de](../../channels/using/event-transactional-messages.md)evento, ya que la dimensión de objetivo de ese tipo de mensaje es **[!UICONTROL Real-time events]**. Sin embargo, puede utilizar el bloque de vínculo **** Cancelar suscripción en un mensaje [transaccional de](../../channels/using/profile-transactional-messages.md)perfil, ya que la dimensión de objetivo de ese tipo de mensaje es **Perfiles**. Por último, el **[!UICONTROL Link to mirror page]** bloque no tiene una dimensión de objetivo, por lo que puede utilizarla en cualquier mensaje.
 
-Si deja este campo vacío, el bloque de contenido será compatible con todos los mensajes, independientemente de cuál sea la dimensión de objetivo. Si establece una dimensión de objetivo, ese bloque solo será compatible con mensajes que tengan la misma dimensión de objetivo.
+Si deja este campo vacío, el bloque de contenido será compatible con todos los mensajes, independientemente de cuál sea la dimensión de objetivo. Si establece una dimensión de objetivo, ese bloque solo será compatible con los mensajes que tengan la misma dimensión de objetivo.
 
 Para obtener más información sobre esto, consulte [Segmentación de dimensiones y recursos](../../automating/using/query.md#targeting-dimensions-and-resources).
 
 **Temas relacionados:**
 
-* [Inserción de un campo personalizado](#inserting-a-personalization-field)
+* [Inserción de un campo de personalización](#inserting-a-personalization-field)
 * [Adición de un bloque de contenido](#adding-a-content-block)
 * [Definición de contenido dinámico en un correo electrónico](#defining-dynamic-content-in-an-email)
 
@@ -198,7 +198,7 @@ Adobe Campaign permite personalizar una o varias imágenes del mensaje según un
 
    >[!NOTE]
    >
-   >El nombre de dominio (http://mydomain.com) no se puede personalizar, debe introducirse manualmente. El resto de la dirección URL se puede personalizar.  Por ejemplo: http://mydomain.com/`[Gender]`.jpg
+   >El nombre de dominio (http://mydomain.com) no se puede personalizar, debe introducirse manualmente. El resto de la dirección URL se puede personalizar. Por ejemplo: http://mydomain.com/`[Gender]`.jpg
 
 1. Confirme los cambios.
 
@@ -216,7 +216,7 @@ Esta opción solo está disponible para los siguientes elementos: DIRECCIÓN, BL
 
 El editor de expresiones se presenta en la sección de edición [de expresiones](../../automating/using/editing-queries.md#about-query-editor) avanzadas.
 
-Estas condiciones adoptan la sintaxis de expresión XTK (por ejemplo, **context.profile.email !=''** o **context.profile.status='0'**). De forma predeterminada, todos los campos son visibles.
+Estas condiciones adoptan la sintaxis de expresión XTK (por ejemplo, **context.profile.email !=''** o **context.profile.status='0'**). De forma predeterminada, todos los campos están visibles.
 
 >[!NOTE]
 >
@@ -279,7 +279,7 @@ Definir contenido dinámico es diferente de [definir condiciones](#defining-a-vi
 
 >[!CAUTION]
 >
->Una vez preparado el mensaje y antes de enviarlo, pruébelo con una prueba. Si no lo hace, es posible que no se detecten algunos errores y que no se envíe el correo electrónico.
+>Una vez que haya preparado el mensaje y antes de enviarlo, pruébelo con una prueba. Si no lo hace, es posible que no se detecten algunos errores y que no se envíe el correo electrónico.
 
 **Temas relacionados:**
 
