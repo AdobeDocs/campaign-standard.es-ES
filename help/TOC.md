@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
+source-git-commit: 38fa758c32d1c38bd4200a720fea7f3ab2f444f3
 
 ---
 
@@ -117,15 +117,15 @@ source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
       + [Configuración de un proceso de inclusión doble](channels/using/setting-up-a-double-opt-in-process.md)
 + Diseño del contenido del correo electrónico {#designing-content}
    + [Diseñador de correos electrónicos de Campaign](designing/using/designing-content-in-adobe-campaign.md)
-   + [Inicio rápido](designing/using/quick-start.md)
-   + [Uso y recomendaciones](designing/using/overview.md)
+   + [Introducción al Diseñador de correo electrónico](designing/using/quick-start.md)
    + [Definición del asunto y del remitente](designing/using/subject-line.md)
-   + [Diseño de correos electrónicos desde cero](designing/using/designing-from-scratch.md)
-   + [Diseño de correos electrónicos con contenido existente](designing/using/using-existing-content.md)
-   + [Diseño de correos electrónicos con contenido reutilizable](designing/using/using-reusable-content.md)
-   + [Diseño de correo electrónico de varias soluciones](designing/using/using-integrations.md)
-   + [Personalización](designing/using/personalization.md)
-   + [Modos de texto sin formato y HTML](designing/using/plain-text-html-modes.md)
+   + Diseño del contenido del correo electrónico{#designing-email-content}
+      + [Diseño de correos electrónicos desde cero](designing/using/designing-from-scratch.md)
+      + [Diseño de correos electrónicos con contenido existente](designing/using/using-existing-content.md)
+      + [Diseño de correos electrónicos con contenido reutilizable](designing/using/using-reusable-content.md)
+      + [Diseño de correos electrónicos mediante integraciones de varias soluciones](designing/using/using-integrations.md)
+      + [Edición de mensajes de texto sin formato, HTML y móviles](designing/using/plain-text-html-modes.md)
+   + [Personalización del contenido del correo electrónico](designing/using/personalization.md)
    + [Administración de estilos de correo electrónico](designing/using/styles.md)
    + [Administración de vínculos](designing/using/links.md)
    + [Administración de imágenes](designing/using/images.md)
@@ -150,6 +150,15 @@ source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
       + [Recibir alertas cuando se produzcan errores](sending/using/receiving-alerts-when-failures-happen.md)
       + [Comprensión de los errores de envío](sending/using/understanding-delivery-failures.md)
       + [Compresión de la gestión de la cuarentena](sending/using/understanding-quarantine-management.md)
+   + Administración de la capacidad de entrega {#managing-deliverability}
+      + [Acerca de la capacidad de entrega](sending/using/about-deliverability.md)
+      + [Inicio de una nueva plataforma](sending/using/starting-new-platform.md)
+      + [Control del contenido del correo electrónico](sending/using/control-email-content.md)
+      + [Mejorar su reputación](sending/using/improving-reputation.md)
+      + [Listas blancas](sending/using/whitelists.md)
+      + [Recomendaciones técnicas](sending/using/technical-recommendations.md)
+      + [Monitoreo de la capacidad de entrega](sending/using/monitor-deliverability.md)
+      + [Resolución de problemas](sending/using/troubleshooting.md)
 + Informes {#reporting}
    + Acerca de los informes {#about-reporting}
       + [Acerca de los informes dinámicos](reporting/using/about-dynamic-reports.md)
