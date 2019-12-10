@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
+source-git-commit: bfb5ee7dd97ff46dbe285270275f37f39d2b5231
 
 ---
 
@@ -25,9 +25,17 @@ Esta página enumera todas las nuevas funciones y actualizaciones de documentaci
 
 También puede consultar las Notas de la [versión](../../rn/using/release-notes.md)de Adobe Campaign.
 
+## Actualizaciones de documentación - diciembre de 2019 {#doc-updates-december-2019}
+
+Se ha actualizado la documentación de Configuración de cuentas externas S3. [Más información](../../administration/using/external-accounts.md#amazon-s3-external-account)
+
+Se ha reorganizado la sección Diseño del contenido del correo electrónico. [Más información](../../designing/using/designing-content-in-adobe-campaign.md)
+
+La guía de introducción a la capacidad de entrega se ha integrado en la documentación básica y se ha actualizado. [Más información](../../sending/using/about-deliverability.md)
+
 ## Actualizaciones de documentación - noviembre de 2019 {#doc-updates-november-2019}
 
-Se ha añadido un nuevo caso de uso que describe cómo crear un grupo de control mediante un flujo de trabajo en Campaign Standard. [Read more](../../automating/using/workflow-control-group.md)
+Se ha añadido un nuevo caso de uso que describe cómo crear un grupo de control mediante un flujo de trabajo en Campaign Standard. [Más información](../../automating/using/workflow-control-group.md)
 
 La información relacionada con las propiedades de las páginas de aterrizaje se ha movido a una sección dedicada. [Más información](../../channels/using/configuring-landing-page.md)
 
@@ -87,7 +95,7 @@ Se ha añadido una nueva sección en la sección Notificaciones push sobre cómo
 
 Se ha añadido un nuevo ejemplo que muestra cómo enviar un correo electrónico que contiene datos adicionales recuperados de una actividad de archivo de carga. [Más información](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
 
-Se ha añadido una nueva sección sobre cómo utilizar las trampas. [Más información](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps).
+Se ha añadido una nueva sección sobre cómo utilizar las trampas. [Lea más](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps).
 
 Se ha añadido una nota sobre la opción **Launch_URL_Campaign** en la página sobre cómo configurar una aplicación móvil mediante los SDK de la plataforma de experiencia de Adobe. [Más información](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
@@ -289,7 +297,7 @@ Disponibilidad general de Email Designer: [Más información](../../designing/us
 
 Listados de productos en correos electrónicos transaccionales: [Más información](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
-Vista móvil en el Diseñador de correo electrónico: [Más información](../../designing/using/styles.md#switching-to-mobile-view)
+Vista móvil en el Diseñador de correo electrónico: [Más información](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)
 
 Mejoras en la versión beta de la mensajería en la aplicación: [Más información](../../channels/using/about-in-app-messaging.md)
 
@@ -435,7 +443,7 @@ Se agregó información sobre cómo configurar las páginas de aterrizaje para q
 
 Se ha reorganizado la sección [Configuración de mensajes](../../administration/using/configuring-transactional-messaging.md) transaccionales y se ha agregado un caso [de uso](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) paso a paso.
 
-Se ha agregado una nota técnica para aprender a generar un archivo CSV multilingüe para utilizarlo en las notificaciones push. [Más información](http://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html).
+Se ha agregado una nota técnica para aprender a generar un archivo CSV multilingüe para utilizarlo en las notificaciones push. [Lea más](http://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html).
 
 Se ha añadido información sobre la plantilla de importación de **Actualizar cuarentena de correo directo y registros** de entrega. [Más información](../../automating/using/defining-import-templates.md)
 
@@ -443,7 +451,7 @@ Se ha actualizado la lista técnica de flujo de trabajo. [Más información](../
 
 Se ha actualizado la sección de actividad del programador. [Más información](../../automating/using/scheduler.md)
 
-Se ha actualizado la lista de materiales de ayuda sobre Campaign y la integración de soluciones de Adobe. [Más información](../../integrating/using/about-campaign-integrations.md).
+Se ha actualizado la lista de materiales de ayuda sobre Campaign y la integración de soluciones de Adobe. [Lea más](../../integrating/using/about-campaign-integrations.md).
 
 Se ha actualizado la ayuda contextual de Campaign Standard en el producto.
 
@@ -547,7 +555,7 @@ La sección "Recursos personalizados" se ha aclarado con un procedimiento más d
 
 Se ha actualizado y aclarado la [nota técnica](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) sobre cómo integrar el SDK de Adobe Marketing Cloud Mobile con una aplicación móvil para recibir notificaciones push de Adobe Campaign Standard.
 
-Se ha añadido una nota técnica que explica la estructura de la carga útil recibida en una aplicación móvil. [Más información.](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)
+Se ha añadido una nota técnica que explica la estructura de la carga útil recibida en una aplicación móvil. [Lea más.](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)
 
 La [sección](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) de configuración de canal push se ha actualizado con nuevos datos de carga útil en la versión del SO para añadirlos al definir postbacks en la interfaz de Adobe Mobile Services.
 
