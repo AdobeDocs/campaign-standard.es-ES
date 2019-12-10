@@ -1,27 +1,25 @@
 ---
 title: Administración de estilos
-description: Descubra cómo administrar los estilos de correo electrónico en el Diseñador de correo electrónico.
-page-status-flag: nunca activado
+description: Descubra cómo se administran los estilos de correo electrónico en el Diseñador de correo electrónico.
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: diseñar
-content-type: referencia
+audience: designing
+content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 17264484102878d4eb58c0fe9d82d7d4f091179b
 
 ---
 
 
 # Administración de estilos {#managing-styles}
 
-## Edición de estilos de correo electrónico{#editing-email-styles}
-
-### Edición de un elemento {#editing-an-element}
+## Edición de un elemento {#editing-an-element}
 
 En el Diseñador de correo electrónico, al seleccionar un elemento, se muestran en el **[!UICONTROL Settings]** panel varias opciones específicas del tipo de contenido seleccionado. Puede utilizar estas opciones para cambiar fácilmente el estilo del correo electrónico.
 
@@ -34,7 +32,7 @@ Para seleccionar un elemento en la interfaz de Email Designer, puede:
 
 ![](assets/des_tree_structure.png)
 
-Al examinar el árbol de estructura, podrá realizar una selección más precisa. Puede seleccionar:
+Al examinar el árbol de estructura, podrá realizar una selección más precisa. Puede seleccionar una de las opciones siguientes:
 
 * todo el componente de estructura,
 * una de las columnas que componen el componente de estructura,
@@ -49,7 +47,7 @@ Para seleccionar una columna, también puede hacer lo siguiente:
 
 Vea un ejemplo en [esta sección](#example--adjusting-vertical-alignment-and-padding).
 
-### Ajuste de la configuración de estilo {#adjusting-style-settings}
+## Ajuste de la configuración de estilo {#adjusting-style-settings}
 
 1. Seleccione un elemento en el correo electrónico. Para obtener más información sobre esto, consulte [Selección de un elemento](#selecting-an-element).
 1. Ajuste la configuración según sus necesidades. Cada elemento seleccionado ofrece un conjunto diferente de configuraciones.
@@ -62,7 +60,7 @@ Vea un ejemplo en [esta sección](#example--adjusting-vertical-alignment-and-pad
 
 1. Guarde el contenido.
 
-### Acerca del relleno y el margen {#about-padding-and-margin}
+## Acerca del relleno y el margen {#about-padding-and-margin}
 
 La interfaz de Email Designer permite ajustar rápidamente los ajustes de margen y relleno.
 
@@ -88,7 +86,7 @@ Para ambos **[!UICONTROL Padding]** y **[!UICONTROL Margin]**, haga clic en el i
 
 ![](assets/des_padding_lock_icon.png)
 
-### Acerca de la alineación {#about-alignment}
+## Alineación de estilo {#about-alignment}
 
 * **Alineación** de texto: coloque el cursor del ratón sobre algún texto y utilice la barra de herramientas contextual para alinearlo.
 
@@ -102,7 +100,7 @@ Para ambos **[!UICONTROL Padding]** y **[!UICONTROL Margin]**, haga clic en el i
 
    ![](assets/des_set_vertical_alignment.png)
 
-### Acerca de los fondos {#about-backgrounds}
+## Configuración de fondos {#about-backgrounds}
 
 En cuanto a la configuración de fondos con Email Designer, Adobe recomienda lo siguiente:
 
@@ -144,9 +142,9 @@ A continuación se muestran los ajustes de fondo disponibles que puede utilizar.
 
    También puede establecer una imagen de fondo en el nivel de columna, pero esto no se suele utilizar.
 
-#### Ejemplo: ajuste de alineación vertical y relleno {#example--adjusting-vertical-alignment-and-padding}
+### Ejemplo: ajuste de alineación vertical y relleno {#example--adjusting-vertical-alignment-and-padding}
 
-Desea ajustar el margen y la alineación vertical dentro de un componente de estructura compuesto por tres columnas. Para realizar esto, siga los pasos a continuación:
+Desea ajustar el margen y la alineación vertical dentro de un componente de estructura compuesto por tres columnas. Para ello, siga los pasos a continuación:
 
 1. Seleccione el componente de estructura directamente en el correo electrónico o mediante el árbol de estructura disponible en la **paleta** izquierda.
 1. En la barra de herramientas **contextual, haga clic en****[!UICONTROL Select a column]** y elija la que desee editar. También puede seleccionarlo en el árbol de estructura.
@@ -173,7 +171,7 @@ Desea ajustar el margen y la alineación vertical dentro de un componente de est
 
 1. Guarde los cambios.
 
-### Acerca del estilo de los vínculos {#about-styling-links}
+## Estilo de los vínculos {#about-styling-links}
 
 >[!NOTE]
 >
@@ -201,7 +199,7 @@ Puede subrayar un vínculo y seleccionar su color y destino en el Diseñador de 
 
 1. Guarde los cambios.
 
-### Adición de atributos de estilo en línea {#adding-inline-styling-attributes}
+## Adición de atributos de estilo en línea {#adding-inline-styling-attributes}
 
 En la interfaz de Email Designer, al seleccionar un elemento y mostrar su configuración en el panel lateral, puede personalizar los atributos en línea y su valor para ese elemento específico.
 
@@ -212,13 +210,13 @@ En la interfaz de Email Designer, al seleccionar un elemento y mostrar su config
 
 1. Modifique los valores de los atributos existentes o agregue otros nuevos con el botón **+** . Puede agregar cualquier atributo y valor que sea compatible con CSS.
 
-El estilo se aplica al elemento seleccionado. Si los elementos secundarios no tienen atributos de estilo específicos definidos, se hereda el estilo del elemento principal.
+A continuación, el estilo se aplica al elemento seleccionado. Si los elementos secundarios no tienen atributos de estilo específicos definidos, se hereda el estilo del elemento principal.
 
 ## Cambio a la vista móvil {#switching-to-mobile-view}
 
 Puede ajustar el diseño interactivo de un correo electrónico editando por separado todas las opciones de estilo para la visualización móvil. Por ejemplo, puede adaptar los márgenes y el relleno, utilizar tamaños de fuente más pequeños o grandes, cambiar los botones o aplicar diferentes colores de fondo que sean específicos de la versión móvil del correo electrónico.
 
-Todas las opciones de estilo están disponibles en la vista móvil. La configuración de estilo de Email Designer se presenta en la sección [Editar estilos](#editing-email-styles) de correo electrónico.
+Todas las opciones de estilo están disponibles en la vista de dispositivos móviles. La configuración de estilo de Email Designer se presenta anteriormente en esta página.
 
 1. Cree un correo electrónico y comience a editar el contenido. Para obtener más información sobre esto, consulte [Diseño de contenido de correo electrónico desde cero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 1. Para acceder a la vista móvil dedicada, seleccione el **[!UICONTROL Switch to mobile view]** botón.
@@ -237,7 +235,7 @@ Todas las opciones de estilo están disponibles en la vista móvil. La configura
 
    ![](assets/email_designer_mobile_view_change.png)
 
-1. Puede ocultar un componente cuando se muestra en un dispositivo móvil. Para ello, seleccione **[!UICONTROL Show only on desktop devices]** en la **[!UICONTROL Display options]**.
+1. Puede ocultar un componente cuando se muestra en un dispositivo móvil. Para ello, seleccione **[!UICONTROL Show only on desktop devices]** una de las opciones **[!UICONTROL Display options]**.
 También puede ocultar este componente en dispositivos de escritorio, lo que significa que solo se mostrará en dispositivos móviles. Para ello, seleccione **[!UICONTROL Show only on mobile devices]**.
 Por ejemplo, esta opción le permite mostrar una imagen específica en dispositivos móviles y otra imagen en dispositivos de escritorio.
 Puede establecer esta opción desde la vista móvil o de escritorio.
