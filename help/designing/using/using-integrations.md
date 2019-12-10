@@ -1,22 +1,25 @@
 ---
 title: 'Diseño de correos electrónicos mediante integraciones de Adobe Campaign '
 description: Descubra cómo diseñar correos electrónicos mediante integraciones de Adobe Campaign en el Diseñador de correo electrónico.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: diseñar
-content-type: referencia
+audience: designing
+content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 021bea88b69a85b9a9535143ec8d689858af517b
 
 ---
 
+
 # Diseño de correo electrónico de varias soluciones {#multi-solution-email-design}
+
+Adobe Campaign ofrece varias opciones de creación de correo electrónico. Puede utilizar soluciones como Dreamweaver para editar el contenido del correo electrónico y crear mensajes interactivos en el Diseñador de correo electrónico. También puede enviar contenido por correo electrónico con Adobe Experience Manager y utilizarlo en sus correos electrónicos en Adobe Campaign Standard.
 
 ## Edición de contenido en Dreamweaver {#editing-content-in-dreamweaver}
 
@@ -63,13 +66,13 @@ Adobe Campaign ofrece varias opciones de creación de correo electrónico. En el
   <tr> 
    <td> <strong>Escribir HTML</strong><br /> </td> 
    <td> Admitido<br /> </td> 
-   <td> No admitido<br /> </td> 
+   <td>  No admitido<br /> </td> 
    <td> Admitido<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Actualizar HTML</strong><br /> </td> 
    <td> Solo dentro de un componente HTML<br /> </td> 
-   <td> No admitido<br /> </td> 
+   <td>  No admitido<br /> </td> 
    <td> Admitido<br /> </td> 
   </tr> 
   <tr> 
@@ -81,8 +84,8 @@ Adobe Campaign ofrece varias opciones de creación de correo electrónico. En el
   <tr> 
    <td> <strong>Personalización avanzada</strong><br /> </td> 
    <td> Admitido<br /> </td> 
-   <td> No admitido<br /> </td> 
-   <td> No admitido<br /> </td> 
+   <td>  No admitido<br /> </td> 
+   <td>  No admitido<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Prueba/Vista previa</strong><br /> </td> 
@@ -93,28 +96,36 @@ Adobe Campaign ofrece varias opciones de creación de correo electrónico. En el
   <tr> 
    <td> <strong>Listas de productos</strong><br /> </td> 
    <td> Admitido en mensajes transaccionales de correo electrónico<br /> </td> 
-   <td> No admitido<br /> </td> 
-   <td> No admitido<br /> </td> 
+   <td>  No admitido<br /> </td> 
+   <td>  No admitido<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Beneficios</strong><br /> </td> 
    <td> 
-     - Fácil creación de correos electrónicos mediante la experiencia<br/>de arrastrar y soltar: funciones similares al editor<br/>de contenido heredado: contenido reutilizable con fragmentos
+     <p>- Fácil creación de correos electrónicos mediante la experiencia de arrastrar y soltar</p>
+     <p>- Funciones similares al editor de contenido heredado</p>
+     <p>- Contenido reutilizable con fragmentos</p>
   </td> 
    <td> 
-     - Reutilización de recursos del sitio web en correos electrónicos<br/>: Aprovechamiento de la potencia de Experience Manager en el contenido del correo electrónico
+     <p>- Reutilización de recursos de sitios web en correos electrónicos</p>
+     <p>- Aprovechamiento del poder de Experience Manager en el contenido del correo electrónico</p>
     </td> 
    <td> 
-    - Capacidad de un desarrollador para codificar directamente un correo electrónico<br/>- Sincronización<br/>bidireccional - Edición sin conexión en Dreamweaver y sincronización posterior<br/>- Carga de imágenes en Adobe Campaign a través de Dreamweaver
+    <p>- Capacidad de un desarrollador para codificar directamente un correo electrónico</p>
+    <p>- Sincronización bidireccional</p>
+    <p>- Edición sin conexión en Dreamweaver y sincronización posterior</p>
+    <p>- Carga de imágenes en Adobe Campaign a través de Dreamweaver</p>
   </td> 
   </tr> 
   <tr> 
    <td> <strong>Limitaciones</strong><br /> </td> 
    <td> 
-     - Sin contenido condicional dentro de fragmentos<br/>- No es posible utilizar fragmentos de Experience Manager
+     <p>- No hay contenido condicional dentro de los fragmentos</p>
+     <p>- No es posible utilizar fragmentos de Experience Manager</p>
   </td> 
    <td> 
-     - Personalización avanzada difícil de implementar<br/>: necesidad de enviar pruebas en Adobe Campaign
+     <p>- Personalización avanzada difícil de implementar</p>
+     <p>- Necesidad de enviar pruebas en Adobe Campaign</p>
   </td> 
    <td> Contenido dinámico no admitido<br /> </td> 
   </tr> 
@@ -126,9 +137,9 @@ Adobe Campaign ofrece varias opciones de creación de correo electrónico. En el
   </tr> 
   <tr> 
    <td> <strong>Para obtener más información</strong><br /> </td> 
-   <td> Consulte <a href="../../designing/using/overview.md">Acerca del Diseñador de correo electrónico</a><br /> </td> 
-   <td> See <a href="../../integrating/using/integrating-with-experience-manager.md">Integrating with Experience Manager</a><br /> </td> 
-   <td> Consulte <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver y Campaign</a> y vea este <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">vídeo</a><br /> </td> 
+   <td> Consulte <a href="../../designing/using/overview.md">Acerca del Diseñador</a>de correo electrónico.<br /> </td> 
+   <td> See <a href="../../integrating/using/integrating-with-experience-manager.md">Integrating with Experience Manager</a>.<br /> </td> 
+   <td> Consulte <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver y Campaign</a> y vea este <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">vídeo</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
