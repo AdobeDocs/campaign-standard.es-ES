@@ -1,18 +1,18 @@
 ---
 title: 'Creación y uso de contenido reutilizable '
 description: Empiece a crear contenido de correo electrónico reutilizable con el Diseñador de correo electrónico.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: diseñar
-content-type: referencia
+audience: designing
+content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: d0d5b19ad272c406f1081ed364193c7fb793de07
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 Aprenda a dominar la edición de contenido de correo electrónico. Con Email Designer, puede crear plantillas y fragmentos con su propio contenido predefinido y reutilizarlos para los siguientes envíos.
 
-## Diseño mediante plantillas {#designing-templates}
+## Diseño de correos electrónicos mediante plantillas {#designing-templates}
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ Aprenda a dominar la edición de contenido de correo electrónico. Con Email Des
 
 ### Plantillas de contenido {#content-templates}
 
-Puede administrar el contenido HTML que se ofrecerá en la **[!UICONTROL Templates]** ficha de la página de inicio de [Email Designer](../../designing/using/overview.md) . Las distintas plantillas presentan varias combinaciones de varios tipos de elementos. Por ejemplo, las plantillas 'Calado' tienen márgenes mientras que las plantillas 'Astro' no tienen uno. Para obtener más información sobre esto, consulte Plantillas [de contenido](#content-templates).
+Puede administrar el contenido HTML que se ofrecerá en la **[!UICONTROL Templates]** ficha de la página de inicio de [Email Designer](../../designing/using/overview.md) . Las distintas plantillas presentan varias combinaciones de varios tipos de elementos. Por ejemplo, las plantillas 'Calado' tienen márgenes, mientras que las plantillas 'Astro' no tienen uno. Para obtener más información sobre esto, consulte Plantillas [de contenido](#content-templates).
 
 ![](assets/template_content.png)
 
@@ -97,7 +97,7 @@ Ahora puede crear una plantilla de correo electrónico con el Diseñador de corr
 
    ![](assets/des_loading_compatible_fragment_5.png)
 
-   Si está familiarizado con el código HTML, Adobe recomienda utilizar **[!UICONTROL Html]** componentes en los que puede copiar y pegar los elementos más complejos del correo electrónico original. Utilice otros componentes como **[!UICONTROL Button]**, **[!UICONTROL Image]** o **[!UICONTROL Text]** para el resto del contenido. Para obtener más información sobre esto, consulte [Acerca de los componentes](../../designing/using/designing-from-scratch.md#about-content-components)de contenido.
+   Si está familiarizado con el código HTML, Adobe recomienda aprovechar **[!UICONTROL Html]** los componentes en los que puede copiar y pegar los elementos más complejos del correo electrónico original. Utilice otros componentes como **[!UICONTROL Button]**, **[!UICONTROL Image]** o **[!UICONTROL Text]** para el resto del contenido. Para obtener más información sobre esto, consulte [Acerca de los componentes](../../designing/using/designing-from-scratch.md#about-content-components)de contenido.
 
    >[!NOTE]
    >
@@ -136,7 +136,7 @@ Para optimizar el uso de fragmentos en el Diseñador de correo electrónico:
 * Utilícelos tantas veces como sea necesario en sus correos electrónicos. Consulte [Inserción de elementos en un correo electrónico](#inserting-elements-into-an-email).
 * Al editar un fragmento, los cambios se sincronizan: se propagan automáticamente a todos los correos electrónicos (siempre que no se hayan preparado ni enviado aún) que contengan ese fragmento.
 
-Cuando se agregan a un correo electrónico, los fragmentos se bloquean de forma predeterminada. Si desea modificar un fragmento para un correo electrónico específico, puede romper la sincronización con el fragmento original desbloquearlo en el correo electrónico donde se utiliza. Los cambios ya no se sincronizarán.
+Cuando se agregan a un correo electrónico, los fragmentos se bloquean de forma predeterminada. Si desea modificar un fragmento para un correo electrónico específico, puede romper la sincronización con el fragmento original desbloquearlo en el correo electrónico en el que se utiliza. Los cambios ya no se sincronizarán.
 
 Para desbloquear un fragmento dentro de un correo electrónico, selecciónelo y haga clic en el icono de bloqueo de la barra de herramientas contextual.
 
@@ -185,7 +185,7 @@ Puede crear sus propios fragmentos de contenido para utilizarlos según sea nece
 1. Especifique una etiqueta reconocible y seleccione los parámetros siguientes para buscar el fragmento al editar el contenido del correo electrónico:
 
    * Debido a que los fragmentos solo son compatibles con los correos electrónicos, seleccione **[!UICONTROL Delivery]** en la lista **[!UICONTROL Content type]** desplegable.
-   * Seleccione **[!UICONTROL Fragment]** en la lista **[!UICONTROL HTML type]** desplegable para poder utilizar este contenido como fragmento.
+   * Seleccione **[!UICONTROL Fragment]** en la lista **[!UICONTROL HTML type]** desplegable para poder utilizar este contenido como un fragmento.
    ![](assets/email_designer_createfragment.png)
 
 1. Si es necesario, puede establecer una imagen que se utilizará como miniatura para el fragmento. Selecciónelo en la **[!UICONTROL Thumbnail]** ficha de las propiedades de la plantilla.
@@ -199,11 +199,11 @@ Puede crear sus propios fragmentos de contenido para utilizarlos según sea nece
 
    >[!CAUTION]
    >
-   >Los fragmentos no pueden incluir campos de personalización, contenido dinámico u otro fragmento.
+   >Los fragmentos no pueden incluir campos de personalización, contenido dinámico ni ningún otro fragmento.
    >
    >Evite guardar como contenido de fragmento con componentes de estructura vacíos. Una vez insertado el fragmento &gt;, no se podrán editar.
    >
-   >La vista [](../../designing/using/styles.md#switching-to-mobile-view) móvil no está disponible en fragmentos.
+   >La vista [](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) móvil no está disponible en fragmentos.
 
 1. Una vez editado, guarde el fragmento.
 
@@ -249,7 +249,7 @@ Al editar un correo electrónico con el Diseñador de correo electrónico, puede
 ![](assets/email_designer_save-as-fragment_in-new-email.png)
 
 >[!NOTE]
->La vista [](../../designing/using/styles.md#switching-to-mobile-view) móvil no está disponible en fragmentos. Si desea editar una vista móvil de correo electrónico, hágalo antes de guardar el contenido como un fragmento.
+>La vista [](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) móvil no está disponible en fragmentos. Si desea editar una vista móvil de correo electrónico, hágalo antes de guardar el contenido como un fragmento.
 
 <!--You need to copy-paste the HTML corresponding to the section that you want to save into a new fragment.
 
@@ -271,7 +271,7 @@ To save as a fragment some email content that you created, follow the steps belo
 
 Mediante el Diseñador de correo electrónico, cree un fragmento para cada sección reutilizable. En este ejemplo, creará dos fragmentos: una para el encabezado y otra para el pie de página. A continuación, puede copiar las partes relevantes del contenido existente en estos fragmentos.
 
-Para realizar esto, siga los pasos a continuación:
+Para ello, siga los pasos a continuación:
 
 1. En Adobe Campaign, vaya a **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]** y cree un fragmento para el encabezado. Para obtener más información sobre esto, consulte [Creación de un fragmento](#creating-a-content-fragment)de contenido.
 1. Agregue al fragmento tantos componentes de estructura como necesite.
