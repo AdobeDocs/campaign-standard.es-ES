@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 9e17218048daa091538a09dea6e2eabca0814a5f
 
 ---
 
@@ -62,7 +62,7 @@ Si todo o parte del HTML no tiene este etiquetado, el contenido se carga en ' mo
 
 Para que un contenido externo existente sea completamente editable en el Diseñador de correo electrónico, consulte la sección [Diseño de un correo electrónico con contenido](../../designing/using/using-existing-content.md) existente.
 
-## Importación {#importing}
+## Importación de contenido de correo electrónico existente {#importing}
 
 ### Importación de contenido de un archivo {#importing-content-from-a-file}
 
@@ -126,7 +126,7 @@ Para recuperar contenido en tiempo de preparación, siga los pasos a continuaci�
 
 1. Para obtener una vista previa del contenido de la URL que se ha recuperado, abra el mensaje una vez creado y haga clic en el **[!UICONTROL Preview]** botón .
 
-Es posible personalizar la dirección URL remota desde la que se recuperará el contenido. Para realizar esto, siga los pasos a continuación:
+Es posible personalizar la dirección URL remota desde la que se recuperará el contenido. Para ello, siga los pasos a continuación:
 
 1. Haga clic en la etiqueta de correo electrónico en la parte superior de la pantalla para acceder a la ficha Diseñador de correo electrónico **[!UICONTROL Properties]** .
 1. Busque el **[!UICONTROL Remote URL]** campo.
@@ -211,7 +211,7 @@ Una vez identificados todos los bloques, en el Diseñador de correo electrónico
 1. Agregue un componente de estructura. Para obtener más información sobre esto, consulte [Edición de la estructura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)de correo electrónico.
 1. Agregue un componente HTML. Para obtener más información sobre esto, consulte [Adición de fragmentos y componentes](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Copie y pegue el HTML en ese componente.
-1. Cambie a la vista móvil. For more on this, see [this section](../../designing/using/styles.md#switching-to-mobile-view).
+1. Cambie a la vista móvil. For more on this, see [this section](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
    La vista interactiva está dañada, ya que falta la CSS.
 
@@ -228,6 +228,15 @@ Una vez identificados todos los bloques, en el Diseñador de correo electrónico
 
    >[!NOTE]
    >
-   >No modifique la CSS generada por el Diseñador de correo electrónico: `<style acrite-template-css="true">` y `<style acrite-custom-styles="" type="text/css">`. Asegúrese de agregar su estilo después de esto.
+   >Asegúrese de agregar el estilo después de esto en otra etiqueta de estilo personalizada.
+   >
+   >No modifique la CSS generada por el Diseñador de correo electrónico:
+   >
+   >* `<style data-name="default" type="text/css">(##)</style>`
+   >* `<style data-name="supportIOS10" type="text/css">(##)</style>`
+   >* `<style data-name="mediaIOS8" type="text/css">(##)</style>`
+   >* `<style data-name="media-default-max-width-500px" type="text/css">(##)</style>`
+   >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
+
 
 1. Vuelva a la vista de dispositivos móviles para comprobar que el contenido se muestra correctamente y guardar los cambios.
