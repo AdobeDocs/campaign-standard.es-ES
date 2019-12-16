@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 385b566cfd893f6522de66a1c8307a1546c915fa
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -143,7 +143,7 @@ Se ha actualizado la sección sobre cómo guardar el contenido del correo electr
 
 Se ha añadido una advertencia sobre cómo los espacios en blanco adicionales pueden afectar al diseño de un contenido de correo electrónico. [Más información](../../designing/using/personalization.md#creating-custom-content-blocks)
 
-Se ha añadido una nueva sección sobre las actualizaciones recomendadas de Email Designer. [Más información](../../designing/using/overview.md#email-designer-updates)
+Se ha añadido una nueva sección sobre las actualizaciones recomendadas de Email Designer. [Más información](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)
 
 <!-- A new section on how to send proofs using real customer data has been added. [Read more](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data) -->
 
@@ -247,7 +247,7 @@ Mejoras en el flujo de trabajo: lea más [aquí](../../automating/using/workflow
 
 ### Otras actualizaciones de la documentación incluidas en la versión {#other-documentation-updates-coming-with-the-release-1}
 
-La nueva experiencia de integración para crear contenido de correo electrónico y otras mejoras en el Diseñador de correo electrónico se han añadido al capítulo Editar contenido de correo electrónico. [Más información](../../designing/using/overview.md#email-designer-home-page)
+La nueva experiencia de integración para crear contenido de correo electrónico y otras mejoras en el Diseñador de correo electrónico se han añadido al capítulo Editar contenido de correo electrónico. [Más información](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)
 
 Se ha añadido una nueva sección sobre las limitaciones de mensajería transaccionales. [Más información](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
 
@@ -293,7 +293,7 @@ Se ha añadido información en la sección de actividad de archivos de extracci�
 
 ### Nuevas funciones incluidas en la versión {#new-capabilities-included-in-the-release-2}
 
-Disponibilidad general de Email Designer: [Más información](../../designing/using/overview.md)
+Disponibilidad general de Email Designer: [Más información](../../designing/using/designing-content-in-adobe-campaign.md)
 
 Listados de productos en correos electrónicos transaccionales: [Más información](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
@@ -303,7 +303,7 @@ Mejoras en la versión beta de la mensajería en la aplicación: [Más informaci
 
 ### Otras actualizaciones de la documentación incluidas en la versión {#other-documentation-updates-coming-with-the-release-2}
 
-La guía de diseño de contenido se ha actualizado para reflejar la disponibilidad general de Email Designer y la obsolescencia del editor de contenido de correo electrónico heredado. [Más información](../../designing/using/overview.md)
+La guía de diseño de contenido se ha actualizado para reflejar la disponibilidad general de Email Designer y la obsolescencia del editor de contenido de correo electrónico heredado. [Más información](../../designing/using/designing-content-in-adobe-campaign.md)
 
 Se ha actualizado la documentación [de notificaciones](../../channels/using/about-in-app-messaging.md) en la aplicación y [push](../../channels/using/about-push-notifications.md) .
 
@@ -359,7 +359,7 @@ Se ha añadido una nueva nota técnica sobre el protocolo y la configuración de
 
 Se ha actualizado la documentación de la integración de Experience Manager con Adobe Campaign. [Más información](../../reporting/using/creating-a-custom-profile-dimension.md)
 
-La guía "Diseño de contenido" se ha reorganizado completamente, especialmente para presentar los dos editores que le permiten diseñar contenido para correos electrónicos. [Más información](../../designing/using/overview.md)
+La guía "Diseño de contenido" se ha reorganizado completamente, especialmente para presentar los dos editores que le permiten diseñar contenido para correos electrónicos. [Más información](../../designing/using/designing-content-in-adobe-campaign.md)
 
 Aprenda a hacer que el contenido externo se pueda editar completamente con el SDK creativo creando fragmentos a partir de los correos electrónicos existentes. [Más información](../../designing/using/designing-from-scratch.md)
 
@@ -421,7 +421,7 @@ Conozca las prácticas recomendadas para utilizar los servidores SFTP alojados p
 
 Se ha actualizado la lista de SKU de Analytics compatibles para la integración con Triggers. [Más información](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-solutions-and-services)
 
-Algunas páginas de la documentación del editor de contenido se han combinado para ofrecer una vista más completa de las diferentes acciones disponibles. [Más información](../../designing/using/overview.md)
+Algunas páginas de la documentación del editor de contenido se han combinado para ofrecer una vista más completa de las diferentes acciones disponibles. [Más información](../../designing/using/designing-content-in-adobe-campaign.md)
 
 ## Versión 18.3: marzo de 2018 {#release-18-3---march-2018}
 
@@ -429,7 +429,7 @@ Algunas páginas de la documentación del editor de contenido se han combinado p
 
 Reglamento general de protección de datos de la UE (RGPD) - [Más información](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
 
-Creative Designer para correo electrónico: [Más información](../../designing/using/overview.md)
+Creative Designer para correo electrónico: [Más información](../../designing/using/designing-content-in-adobe-campaign.md)
 
 Entregas push multilingües: [Más información](../../channels/using/creating-a-multilingual-push-notification.md)
 
@@ -443,7 +443,7 @@ Se agregó información sobre cómo configurar las páginas de aterrizaje para q
 
 Se ha reorganizado la sección [Configuración de mensajes](../../administration/using/configuring-transactional-messaging.md) transaccionales y se ha agregado un caso [de uso](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) paso a paso.
 
-Se ha agregado una nota técnica para aprender a generar un archivo CSV multilingüe para utilizarlo en las notificaciones push. [Más información](http://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html).
+Se ha agregado una nota técnica para aprender a generar un archivo CSV multilingüe para utilizarlo en las notificaciones push. [Más información](https://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html).
 
 Se ha añadido información sobre la plantilla de importación de **Actualizar cuarentena de correo directo y registros** de entrega. [Más información](../../automating/using/defining-import-templates.md)
 
@@ -751,7 +751,7 @@ Explicación de los permisos de usuario: se ha agregado un caso de uso. Consulte
 
 Uso de las API: se ha agregado un caso [de uso de extensión](../../developing/using/about-extending-the-api.md) API. Consulte también la documentación [de API](../../api/using/about-campaign-standard-apis.md).
 
-Mensajes de error de campaña: acceda a la lista completa de mensajes de error tanto en Campaign v6 como en Standard, filtrados por versión e idioma. [Más información](http://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Mensajes de error de campaña: acceda a la lista completa de mensajes de error tanto en Campaign v6 como en Standard, filtrados por versión e idioma. [Más información](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
 Caso de uso de varias marcas: [Más información](../../administration/using/branding.md)
 
