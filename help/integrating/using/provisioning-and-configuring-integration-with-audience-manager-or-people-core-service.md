@@ -12,7 +12,7 @@ discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b5dc0078bdc48a4c5c1ffc397f51db9222662477
+source-git-commit: 7e887fff76660dcb0369d4222e1ab3ac391c3a2d
 
 ---
 
@@ -49,7 +49,7 @@ Esta integración debe configurarse primero. Para solicitar esta integración, e
   </tr> 
   <tr> 
    <td> <strong>AAM o servicio Personas</strong><br /> </td> 
-   <td> Ejemplo: Adobe Audience Manager </td> 
+   <td> Ejemplo: Adobe Audience Manager. Asegúrese de mencionar al equipo de aprovisionamiento si posee o no una licencia de Audience Manager.</td> 
   </tr> 
   <tr> 
    <td> <strong>ID declarada o ID de visitante</strong><br /> </td> 
@@ -61,18 +61,6 @@ Esta integración debe configurarse primero. Para solicitar esta integración, e
   </tr> 
  </tbody> 
 </table>
-
-* **[!UICONTROL Declared ID]** funciona para cada integración de audiencias compartidas. Tenga en cuenta que si utiliza el servicio principal Personas, el uso de **[!UICONTROL Declared ID]** puede cambiar según la solución:
-
-* Si las audiencias se comparten desde Adobe Campaign a Adobe Target a través del servicio principal Personas, se **[!UICONTROL Declared ID]** puede aprovisionar.
-* Si las audiencias se comparten de Adobe Campaign a Ad Cloud mediante el servicio principal Personas, no podrá usar el aprovisionamiento para el relleno histórico de audiencias **[!UICONTROL Declared ID]** . También se espera cierta latencia al crear audiencias.
-* Si las audiencias se comparten desde Adobe Analytics a Adobe Campaign a través del servicio principal Personas, los segmentos no se rellenarán en Adobe Campaign con **[!UICONTROL Declared ID]**.
-
->[!NOTE]
->
->Si utiliza Adobe Audience Manager en lugar de People Core Service, **[!UICONTROL Declared ID]** funcionará en todos los casos.
-
-You can raise a request for **[!UICONTROL Declared ID]** provisioning to the following address: [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com).
 
 ## Configuración de la integración en Adobe Campaign {#configuring-the-integration-in-adobe-campaign}
 
