@@ -1,19 +1,19 @@
 ---
 title: Diseño de un correo electrónico de prueba A/B
 description: Descubra la funcionalidad de la prueba A/B y siga estos pasos para crear un correo electrónico a partir de una plantilla de prueba A/B en Adobe Campaign.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 104f6973-68a7-4692-a90a-a5570a980ec7
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: canales
-content-type: referencia
-topic-tags: mensajes de correo electrónico
+audience: channels
+content-type: reference
+topic-tags: email-messages
 discoiquuid: e249ba70-90d0-43f2-868c-ce9fdc7e642d
-context-tags: entrega,abTesting,devolución;entregaCreación,asistente;entrega,principal
+context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -36,7 +36,7 @@ En el contexto específico de una prueba A/B:
 
 1. Cree un nuevo correo electrónico a partir de una de las tres plantillas específicas de prueba A/B, según el elemento que desee modificar:
 
-   * Prueba A/B en remitente
+   * Prueba A/B en el remitente
    * Prueba A/B en contenido
    * Prueba A/B sobre el sujeto
    ![](assets/create_ab_testing.png)
@@ -50,14 +50,14 @@ En el contexto específico de una prueba A/B:
 
    * **[!UICONTROL Number of variants]**:: Puede elegir utilizar dos o tres variantes. Si elige tres variantes, esta opción no se puede modificar una vez confirmado este paso en el asistente.
    * **[!UICONTROL Winning strategy]**:: Seleccione el criterio que se utilizará para determinar la variante ganadora.
-   * **[!UICONTROL Target breakdown]**:: Elija qué porcentaje del objetivo recibirá cada variante. El porcentaje restante recibirá la variante ganadora una vez que se haya determinado. Los perfiles de destino se seleccionan aleatoriamente.
+   * **[!UICONTROL Target breakdown]**:: Elija qué porcentaje del objetivo recibirá cada variante. El porcentaje restante recibirá la variante ganadora una vez que se haya determinado. Los perfiles de destino se seleccionan de forma aleatoria.
    * **[!UICONTROL Winner sending method]**:: Elija si desea que la variante ganadora se envíe automáticamente una vez determinada o si desea confirmar manualmente el envío a la población restante.
    * **[!UICONTROL Test duration]**:: Especifique la duración de la prueba. La variante ganadora se determina automáticamente después de esta duración. Puede elegir manualmente la variante ganadora antes del final de la prueba en el panel de correo electrónico.
 
       La prueba debe ser de al menos una hora para que todos los datos de seguimiento se recopilen y se tengan en cuenta correctamente para seleccionar la variante ganadora.
    ![](assets/ab_parameters.png)
 
-1. Una vez definidos los parámetros de prueba A/B, pase al siguiente paso del asistente y defina el contenido del correo electrónico. En función de la plantilla que haya elegido, puede definir varios temas, varios nombres de remitente o varios contenidos diferentes. Utilice el carrusel para desplazarse entre las distintas variantes del elemento. Para obtener más información, consulte la sección del editor [de](../../designing/using/overview.md) contenido.
+1. Una vez definidos los parámetros de prueba A/B, pase al siguiente paso del asistente y defina el contenido del correo electrónico. En función de la plantilla que haya elegido, puede definir varios temas, varios nombres de remitente o varios contenidos diferentes. Utilice el carrusel para desplazarse entre las distintas variantes del elemento. Para obtener más información, consulte la sección del editor [de](../../designing/using/designing-content-in-adobe-campaign.md) contenido.
 
    ![](assets/create_ab_testing2.png)
 
