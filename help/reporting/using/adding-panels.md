@@ -1,18 +1,18 @@
 ---
 title: Adición de paneles
 description: El informe dinámico permite agregar un panel para filtrar mejor los datos en función del período de tiempo seleccionado.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 8e76e837-5efc-4250-8192-dee1a0bd62fe
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: informes
-content-type: referencia
-topic-tags: personalizar informes
+audience: reporting
+content-type: reference
+topic-tags: customizing-reports
 discoiquuid: f4e1e676-5ca2-4a58-96d7-d378ff803710
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
 
 ---
 
@@ -51,7 +51,7 @@ Se puede cambiar el tamaño de cada tabla y visualización y moverlas para perso
 
    ![](assets/dynamic_report_panel_2.png)
 
-1. A partir de la versión 19.4 de Campaign, el **[!UICONTROL Exclude proof]** se seleccionará de forma predeterminada. Si es necesario, puede cambiarlo arrastrando y soltando uno de los **[!UICONTROL Segments]** de la **[!UICONTROL Components]** ficha en la barra superior.
+1. El **[!UICONTROL Exclude proof]** segmento ya está seleccionado de forma predeterminada. Si es necesario, puede cambiarlo arrastrando y soltando uno de los **[!UICONTROL Segments]** de la **[!UICONTROL Components]** ficha en la barra superior.
 
    ![](assets/dynamic_report_panel_3.png)
 
