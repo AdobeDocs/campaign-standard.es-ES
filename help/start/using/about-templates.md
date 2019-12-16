@@ -1,18 +1,18 @@
 ---
 title: Acerca de las plantillas
 description: '"Las plantillas de Adobe Campaign le permiten preconfigurar parámetros según sus necesidades: las plantillas pueden contener una configuración completa o parcial de la actividad de marketing para simplificar el uso de Adobe Campaign para usuarios finales no técnicos."'
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 018534b6-61a3-433e-bb60-49883c8b9386
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: referencia
-topic-tags: administrar plantillas
-discoiquuid: 95218ebe-5430-42a2-b900-1dadbc92d99
+content-type: reference
+topic-tags: managing-templates
+discoiquuid: 95218ebe-5430-42a2-b900-1dadbbc92d99
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## Plantillas de actividades de marketing {#marketing-activity-templates}
 
-Cuando crea una nueva actividad de marketing, la primera pantalla del asistente le pide que seleccione un tipo o una plantilla. Las plantillas le permiten preconfigurar ciertos parámetros según sus necesidades. La plantilla puede contener una configuración completa o parcial de la actividad de marketing. La administración de plantillas la realiza el administrador funcional.
+Cuando se crea una nueva actividad de marketing, la primera pantalla del asistente le pide que seleccione un tipo o una plantilla. Las plantillas le permiten preconfigurar ciertos parámetros según sus necesidades. La plantilla puede contener una configuración completa o parcial de la actividad de marketing. La administración de plantillas la realiza el administrador funcional.
 
 El usuario final tiene una interfaz simplificada. Al crear una nueva actividad de marketing, solo tiene que seleccionar la plantilla que desee utilizar. No hay necesidad de preocuparse por ninguna configuración técnica. El administrador funcional de la plantilla ya lo ha preconfigurado.
 
@@ -48,7 +48,7 @@ Estas plantillas se administran desde la pantalla **[!UICONTROL Resources]** &gt
 
 >[!NOTE]
 >
->La configuración de marca puede preconfigurarse en una plantilla de página de aterrizaje o correo electrónico. For more information, refer to the [Branding](../../administration/using/branding.md) section.
+>La configuración de marca puede preconfigurarse en una plantilla de página de aterrizaje o de correo electrónico. For more information, refer to the [Branding](../../administration/using/branding.md) section.
 
 ## Plantillas de contenido {#content-templates}
 
@@ -64,7 +64,7 @@ Al editar contenido con el Diseñador de correo electrónico, también puede cre
 
 ### Plantillas de contenido de correo electrónico integradas {#email-content-templates}
 
-Puede administrar el contenido HTML que se ofrece en la **[!UICONTROL Templates]** ficha de la página de inicio de [Email Designer](../../designing/using/overview.md) .
+Puede administrar el contenido HTML que se ofrece en la **[!UICONTROL Templates]** ficha de la página de inicio de [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) .
 
 Las plantillas de contenido de correo electrónico integradas incluyen dieciocho diseños optimizados para dispositivos móviles y cuatro plantillas adaptables de primera categoría diseñadas por artistas de Behance. Corresponden a los usos más actuales, como mensajes de bienvenida al cliente, boletines informativos y correos electrónicos de recontratación, entre otros. Pueden personalizarse fácilmente con el contenido de sus marcas para facilitar el proceso de diseño de correos electrónicos desde cero.
 
@@ -73,7 +73,7 @@ Las plantillas de contenido de correo electrónico integradas incluyen dieciocho
 **Temas relacionados:**
 
 * Aprenda a personalizar plantillas de contenido [en este vídeo](https://helpx.adobe.com/campaign/kt/acs/using/acs-email_content_templates-feature-video-use.html).
-* Para obtener más información sobre la edición de contenido, consulte [Acerca del diseño](../../designing/using/overview.md)de contenido de correo electrónico.
+* Para obtener más información sobre la edición de contenido, consulte [Acerca del diseño](../../designing/using/designing-content-in-adobe-campaign.md)de contenido de correo electrónico.
 
 ### Creating a content template {#creating-a-content-template}
 
@@ -93,7 +93,7 @@ El siguiente ejemplo muestra cómo crear una plantilla de contenido de correo el
 
    ![](assets/email_designer_create-template_thumbnail.png)
 
-   Esta miniatura se mostrará en la **[!UICONTROL Templates]** ficha de la página de inicio de [Email Designer](../../designing/using/overview.md) .
+   Esta miniatura se mostrará en la **[!UICONTROL Templates]** ficha de la página de inicio de [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) .
 
 1. Cierre la **[!UICONTROL Properties]** ficha para volver al espacio de trabajo principal.
 1. Agregue componentes de estructura y componentes de contenido que puede personalizar según sea necesario.
@@ -102,7 +102,7 @@ El siguiente ejemplo muestra cómo crear una plantilla de contenido de correo el
    > No puede insertar campos de personalización ni contenido condicional dentro de una plantilla de contenido.
 1. Una vez editada, guarde la plantilla.
 
-Esta plantilla ahora se puede utilizar en cualquier correo electrónico generado con el Diseñador de correo electrónico. Selecciónelo en la **[!UICONTROL Templates]** ficha de la página de inicio de [Email Designer](../../designing/using/overview.md) .
+Esta plantilla ahora se puede utilizar en cualquier correo electrónico generado con el Diseñador de correo electrónico. Selecciónelo en la **[!UICONTROL Templates]** ficha de la página de inicio de [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) .
 
 ![](assets/content_template_new.png)
 
@@ -124,7 +124,7 @@ Al editar un correo electrónico con el Diseñador de correo electrónico, puede
 
 1. Para buscar la plantilla que acaba de crear, vaya a **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]**.
 
-1. Para utilizar la nueva plantilla, selecciónela en la **[!UICONTROL Templates]** ficha de la página de inicio de [Email Designer](../../designing/using/overview.md) .
+1. Para utilizar la nueva plantilla, selecciónela en la **[!UICONTROL Templates]** ficha de la página de inicio de [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) .
 
    ![](assets/content_template_new.png)
 
