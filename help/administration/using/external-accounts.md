@@ -13,18 +13,21 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 68921819a5335626e45678ec569172ffef46a636
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
 
 # Cuentas externas{#external-accounts}
 
-Una cuenta externa es una configuración que le permite configurar y probar el acceso a un servidor externo a Adobe Campaign.
+Una cuenta externa es una configuración que permite
+            configurar y probar el acceso a un servidor que sea externo a Adobe Campaign.
 
-Estas cuentas externas se pueden utilizar en flujos de trabajo de Campaign para acceder a los datos y administrarlos.
+Estas 
+            cuentas externas se pueden utilizar en flujos de trabajo de Campaign para acceder y administrar datos.
 
-Puede configurar los siguientes tipos de cuentas externas:
+Puede configurar los siguientes tipos de cuentas
+            externas:
 
 * SFTP. Para obtener más información, consulte [esta sección](#sftp-external-account).
 * Amazon Storage Service (S3). Para obtener más información, consulte [esta sección](#amazon-s3-external-account).
@@ -40,51 +43,58 @@ Los administradores pueden configurar las cuentas externas en el **[!UICONTROL A
 
 ## Creación de una cuenta externa {#creating-an-external-account}
 
-Adobe Campaign incluye un conjunto de cuentas externas predefinidas. Para configurar conexiones con sistemas externos como servidores FTP utilizados para transferencias de archivos, puede crear sus propias cuentas externas.
+Adobe Campaign viene con un conjunto de cuentas externas 
+                   predefinidas. Para configurar conexiones con sistemas externos como servidores FTP 
+                 utilizados para transferencias de archivos, puede crear cuentas externas propias.
 
-Las cuentas externas las utilizan procesos técnicos como flujos de trabajo técnicos o flujos de trabajo de campañas. Al configurar una transferencia de archivos en un flujo de trabajo o un intercambio de datos con cualquier otra aplicación (Adobe Target, Experience Manager, etc.), debe seleccionar una cuenta externa.
+Los procesos técnicos utilizan las cuentas externas 
+                 como flujos de trabajo técnicos o flujos de trabajo de campaña. Al configurar una transferencia de archivos 
+                 en un flujo de trabajo o un intercambio de datos con cualquier otra aplicación (Adobe Target, Experience
+                 Manager, etc.), debe seleccionar una cuenta externa.
 
 1. Haga clic en el botón **.[!UICONTROL Create]**
 1. Introduzca una etiqueta. La etiqueta y el ID se utilizarán al seleccionar cuentas externas en flujos de trabajo.
 1. Seleccione el tipo de cuenta que desee crear.
 1. Configure el acceso a la cuenta especificando las credenciales, la dirección del servidor, el número de puerto y o las claves cuando corresponda.
 
-   Normalmente, la información necesaria la proporciona el proveedor del servidor al que se está conectando.
+   La información necesaria suele ser proporcionada por 
+                       el proveedor del servidor al que está conectándose.
 
 1. Guarde su cuenta.
 
-La cuenta externa se crea y se agrega a la lista de cuentas. Ahora está disponible para sus transferencias de datos/archivos o configuraciones de enrutamiento en actividades de flujo de trabajo y propiedades de entrega.
+La cuenta externa se crea y se agrega a la lista de cuentas. Ahora está disponible para las transferencias de datos y archivos o las configuraciones
+                de enrutamiento en las actividades de flujo de trabajo y propiedades de entrega.
 
-## Cuenta externa de SFTP {#sftp-external-account}
+## Cuenta externa SFTP {#sftp-external-account}
 
 Los distintos tipos de cuentas externas requieren que se especifique información diferente.
 
 Para una cuenta externa de SFTP, proporcione los siguientes detalles:
 
 * Dirección del servidor. Por ejemplo, **ftp.domain.com**.
-* Número de puerto. Por ejemplo, **22**.
+* Número de puerto. For example, **22**.
 * Credenciales del servidor SFTP: nombre de cuenta y contraseña utilizados para conectarse al servidor.
 
 ### Recomendaciones de servidor SFTP alojado por Adobe {#adobe-hosted-sftp-server-recommendations}
 
-Al administrar archivos y datos con fines de ETL, estos archivos se almacenan en un servidor SFTP alojado proporcionado por Adobe. Este SFTP está diseñado para ser un espacio de almacenamiento temporal en el que puede controlar la retención y eliminación de archivos.
+Al administrar archivos y datos para fines de ETL, estos archivos se almacenan en un servidor SFTP alojado proporcionado por Adobe. Este SFTP está diseñado para ser un espacio de almacenamiento temporal en el que se puede controlar la retención y eliminación de archivos.
 
 Cuando no se utiliza o monitorea correctamente, este espacio puede llenar rápidamente el espacio físico disponible en el servidor y causar problemas graves. Puede provocar la pérdida o corrupción de datos en la plataforma.
 
-Para evitar estos problemas, Adobe recomienda seguir las siguientes optimizaciones:
+Para evitar estos problemas, Adobe recomienda seguir las prácticas recomendadas a continuación:
 
 * Mantenga los datos mínimos posibles.
 * Utilice la autenticación basada en claves para evitar la caducidad de la contraseña. Los formatos admitidos son **OpenSSH** y **SSH2** únicamente. Deberá proporcionar la clave pública al equipo de asistencia de Adobe para que se cargue en el servidor de campañas.
 * Mantenga los datos sólo durante el tiempo que sea necesario. 15 días es el límite máximo de tiempo.
-* Utilice los flujos de trabajo para eliminar correctamente los datos (administre la retención de los flujos de trabajo que consumen los datos).
-* Utilice el agrupamiento en cargas SFTP y en flujos de trabajo.
-* Administrar errores/excepciones.
-* Ocasionalmente, inicie sesión en SFTP para comprobar directamente qué hay allí.
-* Recuerde que la administración de discos SFTP es principalmente responsabilidad suya.
+* Utilice flujos de trabajo para eliminar correctamente los datos (administrar la retención de flujos de trabajo que consuman datos).
+* Utilice lotes en sus cargas por SFTP y sus flujos de trabajo.
+* Gestionar errores/excepciones.
+* Inicie sesión ocasionalmente en el SFTP para comprobar directamente lo que sucede allí.
+* Recuerde que la gestión de discos SFTP es responsabilidad principalmente suya.
 
 Además, tenga en cuenta que las IP públicas desde las que intenta iniciar la conexión SFTP deben incluirse en la lista de direcciones permitidas en la instancia de Campaign. La lista blanca de direcciones IP se puede solicitar a través de un ticket [de](https://support.neolane.net)soporte, junto con la clave pública que se utilizará para la autenticación.
 
-Los servidores SFTP se pueden administrar desde el Panel de control. Para obtener más información, consulte la documentación [del](https://helpx.adobe.com/campaign/kb/control-panel-sftp.html)Panel de control.
+Los servidores SFTP se pueden administrar desde el Panel de control. For more information, refer to the [Control Panel documentation](https://helpx.adobe.com/campaign/kb/control-panel-sftp.html).
 
 >[!NOTE]
 >
@@ -103,7 +113,8 @@ Para almacenar el archivo en modo codificado S3, marque la **[!UICONTROL Keep fi
 
 ![](assets/external_accounts_2.png)
 
-Normalmente, la información necesaria la proporciona el proveedor del servidor al que se está conectando.
+La información necesaria suele ser proporcionada por 
+                       el proveedor del servidor al que está conectándose.
 
 Especifique el **[!UICONTROL AWS Region]** punto final asociado. Puede consultar las regiones compatibles y las versiones de firma en la documentación [oficial de](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region)Amazon S3.
 
@@ -115,9 +126,9 @@ Especifique el **[!UICONTROL AWS Region]** punto final asociado. Puede consultar
 
 Para ayudarle a configurar su cuenta de Amazon S3, le recomendamos que siga estas recomendaciones:
 
-* Cree una política de cubos estricta para restringir el acceso a los cubos S3. La directiva de bucket se puede configurar al crear un bucket. Para obtener más información, consulte la documentación [de](http://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html)Amazon S3.
+* Cree una política de cubos estricta para restringir el acceso a los cubos S3. La directiva de bucket se puede configurar al crear un bucket. For more information, refer to the [Amazon S3 documentation](https://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html).
 * Durante la creación de una cuenta externa, active la casilla de verificación para que el cifrado almacene datos confidenciales en el bucket S3. Para ello, active la **[!UICONTROL Keep files in S3 encrypted]** casilla.
-* Conceder permisos de bloque para especificar quién puede acceder al objeto en un bloque. Para obtener más información sobre el permiso de bucket, consulte la documentación de [Amazon S3](http://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)
+* Conceder permisos de bloque para especificar quién puede acceder al objeto en un bloque. Para obtener más información sobre el permiso de bucket, consulte la documentación [de](https://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)Amazon S3.
 
 ## Cuenta externa de Adobe Experience Manager {#adobe-experience-manager-external-account}
 
@@ -125,7 +136,8 @@ Las cuentas externas de Adobe Experience Manager se utilizan al integrar Campaig
 
 El proceso y los requisitos relacionados con esta integración están disponibles en [este documento](../../integrating/using/about-campaign-integrations.md).
 
-Al configurar esta nueva cuenta externa, debe proporcionar los siguientes detalles:
+Al configurar esta nueva cuenta externa, 
+                debe proporcionar los siguientes detalles:
 
 * Servidor: introduzca la dirección URL del servidor de Adobe Experience Manager. Por ejemplo, **http://aem.domain.com:4502**.
 * Credenciales de cuenta de AEM: utilice la cuenta que accederá a la instancia de Adobe Experience Manager. Debe formar parte de la cuenta del grupo remoto de campañas en Experience Manager.
