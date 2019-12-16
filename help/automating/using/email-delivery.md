@@ -1,19 +1,19 @@
 ---
 title: Envío de correo electrónico
 description: La actividad de envío de correo electrónico le permite configurar el envío de un único correo electrónico de envío o de un correo electrónico recurrente en un flujo de trabajo.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 7de53431-84ae-4d21-8361-2775ad314ed2
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: automatizar
-content-type: referencia
-topic-tags: channel-activity
+audience: automating
+content-type: reference
+topic-tags: channel-activities
 discoiquuid: 5f288cf6-f8ff-4ac9-9c1a-8010260554bb
-context-tags: entrega,flujo de trabajo,principal
+context-tags: delivery,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -60,7 +60,7 @@ La preparación del mensaje se activa según los parámetros de ejecución del f
 
 1. Seleccione un tipo de correo electrónico. Los tipos de correo electrónico proceden de plantillas de correo electrónico definidas en el menú **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Delivery templates]** .
 1. Introduzca las propiedades generales del correo electrónico. También puede adjuntarla a una campaña existente. La etiqueta de la actividad de entrega del flujo de trabajo se actualiza con la etiqueta de correo electrónico.
-1. Defina el contenido del correo electrónico. Consulte la sección sobre edición [de](../../designing/using/overview.md)contenido.
+1. Defina el contenido del correo electrónico. Consulte la sección sobre edición [de](../../designing/using/designing-content-in-adobe-campaign.md)contenido.
 1. De forma predeterminada, la **[!UICONTROL Email delivery]** actividad no incluye ninguna transición de salida. Si desea agregar una transición de salida a su **[!UICONTROL Email delivery]** actividad, vaya a la **[!UICONTROL General]** ficha de las opciones de actividad avanzadas (botón ![](assets/dlv_activity_params-24px.png) en las acciones rápidas de la actividad) y, a continuación, marque una de las siguientes opciones:
 
    * **[!UICONTROL Add outbound transition without the population]**:: esto le permite generar una transición de salida que contiene exactamente la misma población que la transición de entrada.
@@ -70,7 +70,7 @@ La preparación del mensaje se activa según los parámetros de ejecución del f
 
 Cuando vuelve a abrir la actividad, se le redirige directamente al panel de correo electrónico. Solo se puede editar su contenido.
 
-De forma predeterminada, iniciar un flujo de trabajo de entrega solo activa la preparación del mensaje. El envío de mensajes creados a partir de un flujo de trabajo aún debe confirmarse una vez iniciado el flujo de trabajo. Sin embargo, desde el tablero de mensajes y solo si el mensaje se creó a partir de un flujo de trabajo, puede desactivar la **[!UICONTROL Request confirmation before sending messages]** opción. Al desmarcar esta opción, los mensajes se envían sin previo aviso una vez que se ha realizado la preparación.
+De forma predeterminada, iniciar un flujo de trabajo de entrega solo activa la preparación del mensaje. El envío de mensajes creados a partir de un flujo de trabajo aún debe confirmarse una vez iniciado el flujo de trabajo. Sin embargo, desde el tablero de mensajes, y sólo si el mensaje se creó a partir de un flujo de trabajo, puede desactivar la **[!UICONTROL Request confirmation before sending messages]** opción. Al desmarcar esta opción, los mensajes se envían sin previo aviso una vez que se ha realizado la preparación.
 
 ## Observaciones {#remarks}
 
@@ -108,5 +108,5 @@ Este ejemplo es un flujo de trabajo de cumpleaños. Cada día se envía un corre
 
 * [Caso de uso: Crear un envío de correo electrónico una vez a la semana](../../automating/using/workflow-weekly-offer.md)
 * [Caso de uso: Creación de una entrega segmentada en una ubicación](../../automating/using/workflow-segmentation-location.md)
-* [Caso de uso:Creación de entregas con un complemento](../../automating/using/workflow-created-query-with-complement.md)
+* [Caso de uso: Creación de entregas con un complemento](../../automating/using/workflow-created-query-with-complement.md)
 * [Caso de uso: Flujo de trabajo de redireccionamiento que envía una nueva entrega a no abridores](../../automating/using/workflow-cross-channel-retargeting.md)
