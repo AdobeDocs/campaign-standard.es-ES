@@ -1,19 +1,19 @@
 ---
 title: Creación de una nueva plantilla
 description: Obtenga información sobre cómo crear una nueva plantilla, a partir de plantillas de actividad integradas existentes para correo electrónico, SMS, envíos de notificaciones push, etc.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 26e368ae-06e1-4c11-9899-c23cc727d398
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: referencia
-topic-tags: administrar plantillas
+content-type: reference
+topic-tags: managing-templates
 discoiquuid: d3e37141-1170-4332-a46c-66a847ed3531
-context-tags: campaignTemplate,información general;deliveryTemplate,información general;programTemplate,información general;workflowTemplate,información general;importTemplate,información general;
+context-tags: campaignTemplate,overview;deliveryTemplate,overview;programTemplate,overview;workflowTemplate,overview;importTemplate,overview;
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -26,7 +26,7 @@ Las plantillas de mensaje pueden ser administradas por el administrador funciona
 
    ![](assets/template_2.png)
 
-1. Pase el ratón sobre ella y seleccione la **[!UICONTROL Duplicate element]** opción.
+1. Pase el ratón sobre ella y, a continuación, seleccione la **[!UICONTROL Duplicate element]** opción.
 
    ![](assets/template_3.png)
 
@@ -39,5 +39,5 @@ Las plantillas creadas pueden ser seleccionadas por el usuario estándar en la p
 **Temas relacionados:**
 
 * [Marcas](../../administration/using/branding.md)
-* [Diseño de contenido](../../designing/using/overview.md)
+* [Diseño de contenido](../../designing/using/designing-content-in-adobe-campaign.md)
 
