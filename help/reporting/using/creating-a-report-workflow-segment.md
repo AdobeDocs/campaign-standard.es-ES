@@ -1,18 +1,18 @@
 ---
 title: Creación de un informe basado en segmentos de flujo de trabajo
 description: Obtenga información sobre cómo comprobar el éxito de la entrega en función de los segmentos de los flujos de trabajo de los informes.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: f75e005b-5328-4c98-9e78-51d54fd0e246
-contentOwner: benat
+contentOwner: beneat
 products: SG_CAMPAIGN/STANDARD
-audience: informes
-content-type: referencia
-topic-tags: personalizar informes
+audience: reporting
+content-type: reference
+topic-tags: customizing-reports
 discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -48,7 +48,7 @@ En el menú avanzado, seleccione **[!UICONTROL Administration]** &gt; **[!UICONT
 
    ![](assets/custom_profile_7.png)
 
-1. Haga clic en **[!UICONTROL Prepare publication]** y, cuando termine la preparación, haga clic en el **[!UICONTROL Publish]** botón. For more information on custom resource, refer to this [page](../../developing/using/updating-the-database-structure.md).
+1. Haga clic en **[!UICONTROL Prepare publication]** y luego, cuando termine la preparación, haga clic en el **[!UICONTROL Publish]** botón. For more information on custom resource, refer to this [page](../../developing/using/updating-the-database-structure.md).
 
 Ahora puede empezar a crear el flujo de trabajo con códigos de segmento.
 
@@ -63,7 +63,7 @@ En primer lugar, debe crear un flujo de trabajo con una población objetivo dife
 
 1. Cree su flujo de trabajo. Para obtener más información sobre cómo crear el flujo de trabajo, consulte esta [página](../../automating/using/building-a-workflow.md).
 
-1. Agregue una **[!UICONTROL Query]** actividad arrastrándola desde la paleta y colocándola en el espacio de trabajo.
+1. Para agregar una **[!UICONTROL Query]** actividad, arrástrela desde la paleta y colóquela en el espacio de trabajo.
 
 1. Perfiles de 20 a 40 años de edad para segmentarlos posteriormente en poblaciones más específicas.
 
@@ -92,7 +92,7 @@ En primer lugar, debe crear un flujo de trabajo con una población objetivo dife
 
    ![](assets/report_segment_3.png)
 
-1. Personalice los envíos en función de las distintas poblaciones objetivo. For more on email creation, refer to this [page](../../designing/using/overview.md).
+1. Personalice los envíos en función de las distintas poblaciones objetivo. For more on email creation, refer to this [page](../../designing/using/designing-content-in-adobe-campaign.md).
 
 1. Guarde el flujo de trabajo.
 
