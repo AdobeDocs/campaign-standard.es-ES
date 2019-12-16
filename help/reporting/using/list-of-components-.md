@@ -1,18 +1,18 @@
 ---
 title: 'Lista de componentes '
 description: Aquí encontrará la lista de todos los componentes disponibles en los informes dinámicos, así como sus definiciones.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: a2403806-8df4-4bb1-bac2-2689dc584ae0
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: informes
-content-type: referencia
-topic-tags: acerca de los informes
+audience: reporting
+content-type: reference
+topic-tags: about-reporting
 discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e7281dff9be97ededaa724552e64bffda3f26fa2
+source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
 
 ---
 
@@ -459,7 +459,7 @@ La tabla siguiente le proporciona la lista de segmentos utilizados en los inform
   </tr> 
     <tr> 
    <td> Excluir prueba<br /> </td> 
-   <td> Excluir pruebas de los informes (comenzando solo la versión de Campaign 19.4)<br /> </td> 
+   <td> Excluir pruebas de los informes<br /> </td> 
   </tr> 
  </tbody> 
 </table>
