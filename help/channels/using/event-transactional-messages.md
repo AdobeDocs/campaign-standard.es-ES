@@ -13,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -121,7 +121,7 @@ Puede crear listas de productos que hagan referencia a una o varias colecciones 
 
 >[!CAUTION]
 >
->Los listados de productos solo están disponibles cuando se editan mensajes de correo electrónico transaccionales a través de la interfaz de [Email Designer](../../designing/using/overview.md#email-designer) .
+>Los listados de productos solo están disponibles cuando se editan mensajes de correo electrónico transaccionales a través de la interfaz de [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) .
 
 Para agregar una lista de productos abandonados en un mensaje transaccional, siga los pasos a continuación.
 
