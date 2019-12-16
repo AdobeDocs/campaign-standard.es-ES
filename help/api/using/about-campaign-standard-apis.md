@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4f7217a114454781b9e7cca261fd2d47717f3636
+source-git-commit: 594b2d3c3dcc1ec13ab06ca6219ad59fe1a267d8
 
 ---
 
@@ -43,4 +43,4 @@ Las API que proporcionamos utilizan conceptos **** estándar con una interfaz RE
 
 Todos los extremos se describen ampliamente en esta documentación con las nociones generales que debe conocer para manipular la API, la referencia completa de la API, ejemplos de código y guías de inicio rápido.
 
-Si falta algo o parece incorrecto, pregunte a la [comunidad](http://help-forums.adobe.com/content/adobeforums/en/campaign-forum/adobe-campaign.html).
+Si falta algo o parece incorrecto, pregunte a la [comunidad](https://help-forums.adobe.com/content/adobeforums/en/campaign-forum/adobe-campaign.html).
