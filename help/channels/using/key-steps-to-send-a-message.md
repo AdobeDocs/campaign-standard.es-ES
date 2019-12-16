@@ -1,31 +1,31 @@
 ---
 title: Pasos clave para enviar un mensaje
 description: Siga estos pasos para crear y enviar mensajes con Adobe Campaign.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: d3fbb1e6-6444-4b56-b9d6-ae39bd8d4804
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: canales
-content-type: referencia
-topic-tags: about-Communication-channels
+audience: channels
+content-type: reference
+topic-tags: about-communication-channels
 discoiquuid: a51351ee-e3b6-4996-9e68-b7d5157b8207
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
 
 # Pasos clave para enviar un mensaje{#key-steps-to-send-a-message}
 
-Para conocer las optimizaciones de entrega, consulte las prácticas recomendadas de [entrega](http://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html) para empezar.
+Para conocer las optimizaciones de entrega, consulte las prácticas recomendadas de [entrega](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html) para empezar.
 
 Los pasos para crear y enviar mensajes son los siguientes:
 
 1. Cree una **[!UICONTROL Email]**, una **[!UICONTROL SMS]**, una **[!UICONTROL direct mail]** o una **[!UICONTROL push notification]** actividad de marketing. Consulte [Creación de un correo electrónico](../../channels/using/creating-an-email.md), [Creación de un mensaje de texto](../../channels/using/creating-an-sms-message.md), [Creación de una entrega](../../channels/using/creating-the-direct-mail.md) de correo directo y [Creación de una notificación](../../channels/using/preparing-and-sending-a-push-notification.md)push.
 1. Seleccione las audiencias del mensaje. Consulte [Creación de audiencias](../../audiences/using/creating-audiences.md).
-1. Defina el contenido del mensaje y sus elementos de personalización. Consulte el editor [de](../../designing/using/overview.md) contenido para obtener información sobre el correo electrónico o contenido específico de otros canales.
+1. Defina el contenido del mensaje y sus elementos de personalización. Consulte el editor [de](../../designing/using/designing-content-in-adobe-campaign.md) contenido para obtener información sobre el correo electrónico o contenido específico de otros canales.
 1. Comience la preparación del envío para calcular la población objetivo y generar el contenido del mensaje. Consulte [Aprobación de mensajes](../../sending/using/preparing-the-send.md).
 
    >[!NOTE]
