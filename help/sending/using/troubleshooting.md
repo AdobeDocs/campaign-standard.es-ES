@@ -13,7 +13,7 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b2df5ca4d38e35f57815924ffbe0313dc1a22b29
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -52,8 +52,8 @@ Para obtener más información sobre esto, consulte [Explicación de la administ
 **¿Cómo puedo saber si una de mis IP está bloqueada? ¿Cómo desbloqueo mis IP?**
 
 Para comprobar si su dirección IP está bloqueada, puede utilizar varios sitios Web para verificarla:
-* http://mxtoolbox.com/
-* http://whatismyipaddress.com/blacklist-check
+* https://mxtoolbox.com/
+* https://whatismyipaddress.com/blacklist-check
 * http://www.blacklistalert.org/
 
 Generalmente, el resultado de la comprobación de la dirección IP devolverá una lista que contiene detalles de la lista negra y también el nombre del sitio Web que puso en la lista negra la dirección IP.
