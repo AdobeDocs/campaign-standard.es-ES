@@ -1,18 +1,18 @@
 ---
 title: Creación de una dimensión de perfil personalizada
 description: Obtenga información sobre cómo crear una dimensión de perfil personalizada basada en datos de perfil personalizados.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: f75e005b-5328-4c98-9e78-51d54fd0e246
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: informes
-content-type: referencia
-topic-tags: personalizar informes
+audience: reporting
+content-type: reference
+topic-tags: customizing-reports
 discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -46,7 +46,7 @@ Para ello:
 
    ![](assets/custom_profile_2.png)
 
-1. Introduzca el **[!UICONTROL Label]** y **[!UICONTROL ID]** seleccione el recurso personalizado **[!UICONTROL Type]**. Aquí seleccionamos **[!UICONTROL Text]** ya que los destinatarios tendrán la opción entre oro, plata y bronce.
+1. Introduzca el **[!UICONTROL Label]** y **[!UICONTROL ID]** seleccione el recurso personalizado **[!UICONTROL Type]**. Aquí, seleccionamos **[!UICONTROL Text]** ya que los destinatarios tendrán la opción entre oro, plata y bronce.
 
    ![](assets/custom_profile_3.png)
 
@@ -58,7 +58,7 @@ Para ello:
 
    ![](assets/custom_profile_13.png)
 
-1. Introduzca el **[!UICONTROL Label]** y **[!UICONTROL Value]** haga clic en **[!UICONTROL Add]**. Para este ejemplo, necesitamos crear el valor oro, plata y bronce. Haga clic **[!UICONTROL Confirm]** cuando termine.
+1. Introduzca el valor **[!UICONTROL Label]** y **[!UICONTROL Value]** haga clic en **[!UICONTROL Add]**. Para este ejemplo, necesitamos crear el valor oro, plata y bronce. Haga clic **[!UICONTROL Confirm]** cuando termine.
 
    ![](assets/custom_profile_14.png)
 
@@ -77,7 +77,7 @@ Para ello:
    ![](assets/custom_profile_6.png)
 
 1. En el menú avanzado, seleccione **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Publication]** para empezar a publicar el recurso personalizado.
-1. Haga clic en **[!UICONTROL Prepare publication]** y, cuando termine la preparación, haga clic en el **[!UICONTROL Publish]** botón.
+1. Haga clic en **[!UICONTROL Prepare publication]** y luego, cuando termine la preparación, haga clic en el **[!UICONTROL Publish]** botón.
 
    ![](assets/custom_profile_7.png)
 
@@ -97,7 +97,7 @@ Antes de ampliar el registro con nuestro campo de perfil, asegúrese de que la v
 
 1. En el menú avanzado, seleccione **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Custom resources]** y, a continuación, el recurso **[!UICONTROL Profile (profile)]** personalizado.
 1. Abra la **[!UICONTROL Sending logs extension]** lista desplegable.
-1. Click the **[!UICONTROL Create element]** button.
+1. Haga clic en el botón **.[!UICONTROL Create element]**
 
    ![](assets/custom_profile_9.png)
 
@@ -109,11 +109,11 @@ Antes de ampliar el registro con nuestro campo de perfil, asegúrese de que la v
    Esta opción solo está disponible si se ha aceptado la ventana PII. Para obtener más información, consulte [esta página](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
 1. Haga clic en **[!UICONTROL Add]** y guarde el recurso personalizado.
-1. Como el recurso personalizado se modificó, debemos publicarlo para implementar los nuevos cambios.
+1. Dado que el recurso personalizado se modificó, debemos publicarlo para implementar los nuevos cambios.
 
    En el menú avanzado, seleccione **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Publication]** para empezar a publicar el recurso personalizado.
 
-1. Haga clic en **[!UICONTROL Prepare publication]** y, cuando termine la preparación, haga clic en el **[!UICONTROL Publish]** botón.
+1. Haga clic en **[!UICONTROL Prepare publication]** y luego, cuando termine la preparación, haga clic en el **[!UICONTROL Publish]** botón.
 
    ![](assets/custom_profile_7.png)
 
@@ -137,11 +137,11 @@ Una vez publicado el campo de perfil, puede iniciar la entrega. En este ejemplo,
    ![](assets/custom_profile_17.png)
 
 1. Haga clic en **[!UICONTROL Confirm]** y luego, cuando termine de filtrar, haga clic en **[!UICONTROL Next]**.
-1. Defina y personalice el contenido del mensaje, el nombre del remitente y el asunto. For more information on email creation refer to this [page](../../designing/using/overview.md).
+1. Defina y personalice el contenido del mensaje, el nombre del remitente y el asunto. For more information on email creation refer to this [page](../../designing/using/designing-content-in-adobe-campaign.md).
 
    A continuación, haga clic en **[!UICONTROL Create]**.
 
-1. Cuando esté listo, puede obtener una vista previa y enviar el mensaje. Para obtener más información sobre cómo preparar y enviar el mensaje, consulte esta [página](../../sending/using/preparing-the-send.md).
+1. Cuando esté listo, puede obtener una vista previa del mensaje y enviarlo. Para obtener más información sobre cómo preparar y enviar el mensaje, consulte esta [página](../../sending/using/preparing-the-send.md).
 
 Una vez que el correo electrónico se haya enviado correctamente a los destinatarios seleccionados, puede empezar a filtrar los datos y realizar un seguimiento del éxito del envío con los informes.
 
