@@ -13,7 +13,7 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f0580e1ab75d4250bfb1cb801ff08b31b91cdc5a
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -29,7 +29,7 @@ Para mejorar la tasa de entrega de correo electrónico y asegurarse de que los m
 * **Vínculo de cancelación de suscripción y página** de aterrizaje: El vínculo de cancelación de suscripción es esencial. Debe ser visible y válido, y el formulario debe ser funcional.
 * **Utilice las herramientas** ofrecidas por Adobe Campaign para optimizar el contenido del correo electrónico (análisis de entrega, análisis antispam).
 
-Para obtener información adicional sobre la edición de contenido de correo electrónico, consulte la descripción general [de](../../designing/using/designing-content-in-adobe-campaign.md) Email Designer y las prácticas recomendadas [de diseño de](../../designing/using/overview.md#content-design-best-practices)mensajes.
+Para obtener información adicional sobre la edición de contenido de correo electrónico, consulte la descripción general [de](../../designing/using/designing-content-in-adobe-campaign.md) Email Designer y las prácticas recomendadas [de diseño de](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)mensajes.
 
 ## Nombre y dirección del remitente {#sender-name}
 
@@ -39,7 +39,7 @@ Algunos ISP verifican la validez de la dirección del remitente (Desde) antes de
 
 Para obtener más información sobre esto, consulte [Personalización del nombre](../../designing/using/personalization.md#personalizing-the-sender)del remitente.
 
-## Línea de asunto {#subject-line}
+## Subject line {#subject-line}
 
 Al editar un mensaje de correo electrónico, puede probar distintas líneas de asunto y obtener una estimación de su tasa de apertura antes de enviarlo. Para obtener más información sobre esto, consulte [Prueba de la línea de asunto de un correo electrónico](../../sending/using/testing-subject-line-email.md).
 
