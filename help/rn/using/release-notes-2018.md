@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -133,7 +133,7 @@ Vea las últimas actualizaciones [de](../../rn/using/documentation-updates.md) d
 ### Otros cambios {#other-changes-1}
 
 * El tiempo de espera de uso compartido de informes se ha aumentado de uno a cuatro minutos para evitar cualquier error de tiempo de espera.
-* Al editar el contenido de un correo electrónico, se abre el nuevo Diseñador creativo de forma predeterminada. Si lo desea, puede volver al editor de contenido predeterminado en cualquier momento después de guardar los cambios. For more on this, refer to the [detailed documentation](../../designing/using/overview.md).
+* Al editar el contenido de un correo electrónico, se abre el nuevo Diseñador creativo de forma predeterminada. Si lo desea, puede volver al editor de contenido predeterminado en cualquier momento después de guardar los cambios. For more on this, refer to the [detailed documentation](../../designing/using/designing-content-in-adobe-campaign.md).
 * En Creative Designer, ahora se puede añadir un nuevo componente de contenido en un mensaje de correo electrónico: el carrusel. For more on this, refer to the [detailed documentation](../../designing/using/designing-from-scratch.md#about-content-components).
 * En un informe de clic en caliente de mensajes transaccionales, al hacer clic en el botón **Cambiar perfil** , ahora solo se muestran los perfiles de prueba vinculados al evento que definió para el mensaje transaccional.
 
@@ -317,7 +317,7 @@ Vea las últimas actualizaciones [de](../../rn/using/documentation-updates.md) d
      <li> Crear y guardar una plantilla de contenido de correo electrónico y aprovechar las plantillas guardadas para ayudar a escalar la creación de correo electrónico </li> 
      <li> Cree y guarde fragmentos de contenido (como encabezado, pie de página, artículo, etc.) para optimizar la creación de contenido y garantizar la coherencia de la marca </li> 
      <li> Cambie sin problemas entre la creación en la interfaz de arrastrar y soltar y la edición directa de HTML de un correo electrónico haciendo clic en un botón </li> 
-    </ul> Creative Designer para correo electrónico solo está disponible en inglés.<br /> Para obtener más información, consulte la documentación <a href="../../designing/using/overview.md"></a> detallada y vea este <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">vídeo</a>.<br /> </td> 
+    </ul> Creative Designer para correo electrónico solo está disponible en inglés.<br /> Para obtener más información, consulte la documentación <a href="../../designing/using/designing-content-in-adobe-campaign.md"></a> detallada y vea este <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">vídeo</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Entregas push multilingües<br /> </td> 
