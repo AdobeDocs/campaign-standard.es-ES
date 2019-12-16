@@ -1,18 +1,18 @@
 ---
 title: Notas de la versión 2017
 description: Esta página enumera todas las versiones de 2017 de Adobe Campaign Standard.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: d73f8186-e309-441b-969d-71d0a1c33cf4
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: rn
-content-type: referencia
+content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 Cada versión incorpora nuevas funciones y parches. Haga clic en una versión para ver su contenido.
 
-Vea las últimas actualizaciones [de](../../rn/using/documentation-updates.md) documentación de Adobe Campaign Standard. Si busca una versión más reciente, consulte esta [página](../../rn/using/release-notes.md).
+Vea las últimas actualizaciones [de](../../rn/using/documentation-updates.md) documentación de Adobe Campaign Standard. Si está buscando una versión más reciente, consulte esta [página](../../rn/using/release-notes.md).
 
 ## Versión 17.10: octubre de 2017 {#release-17-10---october-2017}
 
@@ -39,7 +39,7 @@ Vea las últimas actualizaciones [de](../../rn/using/documentation-updates.md) d
  <tbody> 
   <tr> 
    <td> Administración de fatiga<br /> </td> 
-   <td> La Administración de fatiga le permite crear reglas de fatiga para administrar la sobrecomunicación con perfiles. Las reglas de fatiga se crean fácilmente, pero son extremadamente flexibles con capacidades como contar mensajes a través de múltiples canales (incluyendo mensajes transaccionales), contar solamente entregas específicas o aplicar reglas a perfiles específicos.<br /><a href="../../administration/using/fatigue-rules.md"> Para obtener más información, consulte la documentación detallada</a>.<br /> </td> 
+   <td> La Administración de fatiga le permite crear reglas de fatiga para administrar la sobrecomunicación con los perfiles. Las reglas de fatiga se crean fácilmente, pero son extremadamente flexibles con capacidades como contar mensajes a través de múltiples canales (incluyendo mensajes transaccionales), contar solamente entregas específicas o aplicar reglas a perfiles específicos.<br /><a href="../../administration/using/fatigue-rules.md"> Para obtener más información, consulte la documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creación de contenido: Importar desde una dirección URL<br /> </td> 
@@ -52,7 +52,7 @@ Vea las últimas actualizaciones [de](../../rn/using/documentation-updates.md) d
 
 #### Plataforma {#platform}
 
-* Se ha corregido un problema que podía impedir que los archivos comprimidos grandes se descomprimieran correctamente.
+* Se ha corregido un problema que podía impedir que los archivos comprimidos de gran tamaño se descomprimieran correctamente.
 * Se ha mejorado la seguridad en la gestión de marca. La modificación del nombre y la dirección del remitente de una marca ahora está reservada para los administradores técnicos de Adobe.
 * Para mejorar la seguridad, el contenido generado por el usuario (imágenes, páginas espejo, páginas de aterrizaje, etc.) el dominio adobe.com ya no puede servir. Ahora es obligatorio usar su propio dominio para manejar estos recursos, mediante el uso de la marca.
 * Se ha corregido un problema de la interfaz al mostrar y filtrar actividades de marketing.
@@ -78,7 +78,7 @@ Vea las últimas actualizaciones [de](../../rn/using/documentation-updates.md) d
 
 * Se ha corregido un problema que impedía que los porcentajes de clics interactivos se mostraran en el contenido del correo electrónico.
 * Se ha corregido un problema con la métrica de lista negra que se contaba como una devolución forzada en lugar de una devolución.
-* Se ha corregido un problema que hacía que se mostraran recuentos negativos en los datos de resumen.
+* Se ha corregido un problema que provocaba que se mostraran recuentos negativos en los datos de resumen.
 * Se ha corregido un problema que hacía que se contaran los perfiles en el segmento de edad incorrecto.
 * Las fórmulas de cálculo de devoluciones en bruto y en bruto han cambiado.
 
@@ -159,7 +159,7 @@ Vea las últimas actualizaciones [de](../../rn/using/documentation-updates.md) d
 * Se ha mejorado el informe de **clics** interactivos. Además, ahora es posible mostrar clics interactivos según cada contenido condicional definido en una entrega y mostrar clics interactivos para cada ejecución de envíos recurrentes o mensajes transaccionales. Para obtener más información, consulte la [documentación detallada](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion).
 * Se ha corregido un problema que impedía que la métrica de cuarentena recuperara los datos correctos.
 * Se ha agregado un nuevo intervalo de tiempo preestablecido al widget de calendario.
-* Las métricas [de informes](../../reporting/using/indicator-calculation.md) dinámicos y los KPI [de](../../sending/using/confirming-the-send.md) campañas (mostrados en el tablero de mensajes enviados) se han alineado para lograr una mayor coherencia.
+* Las métricas [de informes](../../reporting/using/indicator-calculation.md) dinámicos y los KPI [de](../../sending/using/confirming-the-send.md) las campañas (mostrados en el tablero de mensajes enviados) se han alineado para lograr una mayor coherencia.
 * Se ha corregido un problema que podía provocar que la tubería se bloqueara en debian 7.
 
 #### Workflows {#workflows-1}
@@ -194,7 +194,7 @@ Vea las últimas actualizaciones [de](../../rn/using/documentation-updates.md) d
   </tr> 
   <tr> 
    <td> Notificaciones de Adobe Campaign<br /> </td> 
-   <td> Reciba notificaciones sobre actividades importantes del sistema directamente en Adobe Campaign Standard. Se le notificará, por ejemplo, sobre el progreso de las entregas en curso o cuando haya un error en el flujo de trabajo.<br /> Las notificaciones en tiempo real mantienen informados a los interesados pertinentes y proporcionan a los usuarios la capacidad de actuar de forma inmediata y directa en las notificaciones de actividades desde la aplicación. El resultado para los equipos es agilidad avanzada, eficiencia y ejecución más fluida de las campañas. Para obtener más información, consulte la <a href="../../administration/using/sending-internal-notifications.md">documentación detallada</a>.<br /> </td> 
+   <td> Reciba notificaciones sobre actividades importantes del sistema directamente en Adobe Campaign Standard. Se le notificará, por ejemplo, sobre el progreso de las entregas en curso o cuando haya un error en el flujo de trabajo.<br /> Las notificaciones en tiempo real mantienen informados a los interesados pertinentes y proporcionan a los usuarios la capacidad de actuar de forma inmediata y directa en las notificaciones de actividades desde la aplicación. El resultado para los equipos es agilidad avanzada, eficiencia y una ejecución más fluida de las campañas. Para obtener más información, consulte la <a href="../../administration/using/sending-internal-notifications.md">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Alerta de entrega<br /> </td> 
@@ -202,15 +202,15 @@ Vea las últimas actualizaciones [de](../../rn/using/documentation-updates.md) d
   </tr> 
   <tr> 
    <td> Id. declarado cifrado en orígenes de datos<br /> </td> 
-   <td> Enviar desencadenantes de correo electrónico y SMS sin necesidad de un perfil existente en Campaign usando información de contacto cifrada (dirección de correo electrónico o número de teléfono) como ID declarada. Como Adobe Campaign Standard puede descodificar los ID declarados cifrados, Campaign ahora puede crear nuevos perfiles comercializables al recibir audiencias de otras soluciones de Experience Cloud que contengan contactos anteriormente desconocidos.<br /> Diríjase a clientes y clientes potenciales desconocidos en tiempo real a través de correo electrónico y SMS para mejorar la lealtad en su base de clientes existente y adquirir nuevos clientes, respectivamente. Saque el máximo partido a los datos de cookies de origen (de Adobe Audience Manager*) una vez que los posibles clientes se autentiquen y aprovechen estas perspectivas en Adobe Campaign. <br /> *Se requiere Adobe Audience Manager. Para obtener más información, consulte la <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">documentación detallada</a>.<br /> </td> 
+   <td> Enviar desencadenantes de correo electrónico y SMS sin necesidad de un perfil existente en Campaign mediante el uso de información de contacto cifrada (dirección de correo electrónico o número de teléfono) como ID declarada. Dado que Adobe Campaign Standard puede descodificar los ID declarados cifrados, Campaign ahora puede crear nuevos perfiles comercializables al recibir audiencias de otras soluciones de Experience Cloud que contengan contactos anteriormente desconocidos.<br /> Diríjase a clientes y clientes potenciales desconocidos en tiempo real a través de correo electrónico y SMS para mejorar la lealtad en su base de clientes existente y adquirir nuevos clientes, respectivamente. Saque el máximo partido a los datos de cookies de origen (de Adobe Audience Manager*) una vez que los posibles clientes se autentiquen y aprovechen estas perspectivas en Adobe Campaign. <br /> *Se requiere Adobe Audience Manager. Para obtener más información, consulte la <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Uso compartido de KPI de Campaign a Analytics<br /> </td> 
-   <td> Comparta datos de campaña con Adobe Analytics para medir las métricas de marketing por correo electrónico de Campaign junto con otros esfuerzos de marketing y publicidad a través de la conversión, unificando el comportamiento previo y posterior al clic.<br /> Rastree el rendimiento general directamente y descubra sinergias con programas externos en Analytics. Aplique el aprendizaje de esta vista consolidada a las campañas; en última instancia, se mejoran las tasas de apertura, pulsaciones y conversiones, lo que aumenta los ingresos y el rendimiento general de la campaña. <br /> Se requiere Adobe Analytics. Para obtener más información, consulte la <a href="../../integrating/using/about-campaign-analytics-integration.md">documentación detallada</a>.<br /> </td> 
+   <td> Comparta datos de campaña con Adobe Analytics para medir las métricas de marketing por correo electrónico de Campaign junto con otros esfuerzos de marketing y publicidad a través de la conversión, unificando el comportamiento previo y posterior al clic.<br /> Rastree el rendimiento general directamente y descubra sinergias con programas externos en Analytics. Aplique el aprendizaje de esta vista consolidada a las campañas; a fin de cuentas, se mejoran las tasas de apertura, pulsaciones y conversiones, lo que aumenta los ingresos y el rendimiento general de la campaña. <br /> Se requiere Adobe Analytics. Para obtener más información, consulte la <a href="../../integrating/using/about-campaign-analytics-integration.md">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Canal de correo directo: devolución al remitente<br /> </td> 
-   <td> Ahora se admiten los intercambios de archivos planos con proveedores de correo directo que incorporan información de devolución al remitente. Esta mejora del canal de correo directo permite excluir las direcciones postales correspondientes de futuras comunicaciones.<br /> Esto permite que se notifique a los especialistas en mercadotecnia de una dirección incorrecta y se ponga en contacto con el cliente a través de otros canales o que le anime a actualizar su dirección postal. Esto también reduce el número de dólares de mercadotecnia desperdiciados, ya que los especialistas en mercadotecnia evitan enviar correos a direcciones incorrectas. <br /> Direct Mail está disponible como canal complementario. Para obtener más información, consulte la <a href="../../channels/using/return-to-sender.md">documentación detallada</a>.<br /> </td> 
+   <td> Ahora se admiten los intercambios de archivos planos con proveedores de correo directo que incorporan la información de devolución al remitente. Esta mejora del canal de correo directo permite excluir las direcciones postales correspondientes de futuras comunicaciones.<br /> Esto permite que se notifique a los especialistas en mercadotecnia de una dirección incorrecta y se ponga en contacto con el cliente a través de otros canales o que le anime a actualizar su dirección postal. Esto también reduce el número de dólares de mercadotecnia desperdiciados, ya que los especialistas en mercadotecnia evitan enviar correos a direcciones incorrectas. <br /> Direct Mail está disponible como canal complementario. Para obtener más información, consulte la <a href="../../channels/using/return-to-sender.md">documentación detallada</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -240,7 +240,7 @@ Vea las últimas actualizaciones [de](../../rn/using/documentation-updates.md) d
 
 #### Informes {#reports-2}
 
-* Se corrigió un problema en el cual los valores aparecían diferentes entre gráficos y tablas.
+* Se corrigió un problema en el cual los valores aparecían diferentes entre los gráficos y la tabla.
 * Se corrigió un problema que mostraba los valores de notificación push como valores de correo electrónico.
 * Se corrigió un problema que mostraba valores como desconocidos cuando se creaba una entrega fuera de una campaña.
 * Se corrigió un problema que mostraba datos de informes SMS como datos de aplicaciones móviles.
@@ -330,7 +330,7 @@ Vea las últimas actualizaciones [de](../../rn/using/documentation-updates.md) d
   </tr> 
   <tr> 
    <td> Integración de Dreamweaver en directo<br /> </td> 
-   <td> La integración entre Adobe Campaign y Dreamweaver ya está activa. Ahora funciona con la última versión oficial de Dreamweaver (17.0.2).<br /> Esto requiere la instalación de la extensión de integración de Adobe Campaign desde aquí: <a href="http://adobe.ly/acdw_addon">http://adobe.ly/acdw_addon</a><br /> Para obtener más información, consulte este <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">vídeo</a>.<br /> </td> 
+   <td> La integración entre Adobe Campaign y Dreamweaver ya está activa. Ahora funciona con la última versión oficial de Dreamweaver (17.0.2).<br /> Esto requiere la instalación de la extensión de integración de Adobe Campaign desde aquí: <a href="http://adobe.ly/acdw_addon">https://adobe.ly/acdw_addon</a><br /> Para obtener más información, consulte este <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">vídeo</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -426,7 +426,7 @@ Vea las últimas actualizaciones [de](../../rn/using/documentation-updates.md) d
   </tr> 
   <tr> 
    <td> Flujos de trabajo: nueva actividad Señal<br /> </td> 
-   <td> Activar un flujo de trabajo desde otro flujo de trabajo mediante la nueva actividad <span class="uicontrol">Señal</span> .<br /> Con la capacidad de iniciar un flujo de trabajo desde otro, ahora puede admitir viajes de clientes más complejos. Puede supervisar mejor los viajes de los clientes y reaccionar en caso de que haya problemas.<br /> Se han actualizado varias actividades de flujo de trabajo:<br /> 
+   <td> Activar un flujo de trabajo desde otro flujo de trabajo mediante la nueva actividad <span class="uicontrol">Señal</span> .<br /> Con la capacidad de iniciar un flujo de trabajo desde otro, ahora puede admitir viajes de clientes más complejos. Puede supervisar mejor los viajes de los clientes y reaccionar en caso de que se produzcan problemas.<br /> Se han actualizado varias actividades de flujo de trabajo:<br /> 
     <ul> 
      <li> <span class="uicontrol">Actividad final</span> : una nueva ficha permite especificar un flujo de trabajo que se activará después de que se haya ejecutado esta actividad. </li> 
      <li> <span class="uicontrol">Actualizar actividad de datos</span> : utilice la nueva transición saliente vacía para agregar una actividad <strong>final</strong> que active otro flujo de trabajo. Las transiciones salientes vacías no transmiten ningún dato y no consumen espacio innecesario en el sistema </li> 
@@ -489,7 +489,7 @@ Vea las últimas actualizaciones [de](../../rn/using/documentation-updates.md) d
     </ul> Estas actividades están disponibles para los administradores con acceso a todas las unidades geográficas y de organización.<br /> Para obtener más información sobre la exportación de registros, consulte la documentación <a href="../../automating/using/exporting-logs.md"></a>detallada.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Capacidades de marketing para mensajes transaccionales<br /> </td> 
+   <td> Capacidades de mercadotecnia para mensajes transaccionales<br /> </td> 
    <td> Los especialistas en marketing ahora pueden enviar mensajes transaccionales en función de los perfiles de marketing del cliente. Esto les permite:<br /> 
     <ul> 
      <li> Aplicar reglas de tipología de marketing como, por ejemplo, <span class="uicontrol">Dirección</span> bloqueada. </li> 
@@ -534,7 +534,7 @@ Vea las últimas actualizaciones [de](../../rn/using/documentation-updates.md) d
 
 * Se ha corregido un problema que podía haber impedido la vista previa de consultas en recursos de eventos (por ejemplo, rtEvent).
 * El archivo de rechazo generado por una **[!UICONTROL Load file]** actividad ahora se puede recuperar en su transición de salida y procesar en la siguiente actividad. Por ejemplo, cargue el archivo de rechazo a través de un servidor SFTP mediante **[!UICONTROL Transfer file]** .
-* Se ha corregido un problema que podía impedir que un usuario limitara la población de un segmento si **[!UICONTROL Temporary resource]** se seleccionaba en la **[!UICONTROL General]** ficha de **[!UICONTROL Segmentation]** .
+* Se ha corregido un problema que podía haber impedido que un usuario limitara la población de un segmento si **[!UICONTROL Temporary resource]** se seleccionaba en la **[!UICONTROL General]** ficha de **[!UICONTROL Segmentation]** .
 * **[!UICONTROL Scheduler]** las actividades ya no se pueden configurar para activar un flujo de trabajo más de una vez cada 10 minutos.
 * Se ha corregido un problema que podía haber impedido que **[!UICONTROL Use common columns]** funcionara correctamente en una **[!UICONTROL Union]** actividad.
 
