@@ -1,19 +1,19 @@
 ---
 title: Conceptos del modelo de datos
 description: Obtenga información sobre el modelo de datos de Adobe Campaign y cómo modificarlo.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: cacd563f-6936-4b3e-83e3-5d4ae31d44e8
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: desarrollo
-content-type: referencia
+audience: developing
+content-type: reference
 topic-tags: about-custom-resources
 discoiquuid: 4e0468da-3052-4ce5-8174-45aba1f5c4ed
-context-tags: cusResource,overview;eventCusResource,información general
+context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 71ee939b6ef256be8c693ec6e15d9609c7e80677
 
 ---
 
@@ -28,11 +28,11 @@ Adobe Campaign incluye un modelo de datos predefinido. Este modelo de datos pued
 
 El menú **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** , al que se accede mediante el logotipo de Adobe Campaign, le permite administrar los recursos **** personalizados, **publicarlos** y **acceder a las herramientas** de diagnóstico.
 
-Los datos utilizados por Adobe Campaign se definen con diferentes recursos.
-
-Puede **enriquecer la plantilla** de datos que se proporciona creando sus propios recursos personalizados, como tablas de productos o de compras.
+Los datos utilizados por Adobe Campaign se definen con diferentes recursos. Puede **enriquecer la plantilla** de datos que se proporciona creando sus propios recursos personalizados, como tablas de productos o de compras.
 
 Los recursos predeterminados (como campañas, correos electrónicos o audiencias) no se pueden modificar. Sin embargo, los recursos personalizados se pueden ampliar para agregar nuevos campos.
+
+Los campos de extensión se generan con un prefijo para que nunca entren en conflicto con los campos predeterminados.
 
 >[!NOTE]
 >
@@ -40,4 +40,4 @@ Los recursos predeterminados (como campañas, correos electrónicos o audiencias
 
 También puede **configurar la navegación** en las pantallas correspondientes al recurso creado.
 
-Los campos de extensión se generan con un prefijo para que nunca entren en conflicto con los campos predeterminados.
+Es posible **exportar e importar** recursos personalizados, por ejemplo de un entorno de desarrollo a un entorno de producción. Para obtener más información sobre esto, consulte este caso [de uso](../../automating/using/exporting-importing-custom-resources.md)paso a paso.
