@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 32be3c4b3224d367fb0e7e5218fb2b30c2fdee34
+source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ---
 
@@ -70,7 +70,7 @@ Recursos adicionales:
 * Cuando se envía un evento de mensaje transaccional con un parámetro de contexto desconocido, ahora Campaign devuelve un mensaje de error "400" en lugar de "500". (CAMP-28632)
 * Se ha agregado un nuevo segmento de prueba **de** exclusión en los informes dinámicos. Este segmento ahora está seleccionado de forma predeterminada para filtrar los informes. [Más información](../../reporting/using/list-of-components-.md#segments)
 * La opción de caducidad **del** mensaje se ha agregado a la notificación push. Permite especificar una fecha de caducidad en la que Apple (APNS) o Android (FCM) dejarán de enviar el mensaje. [Más información](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
-* Se han realizado mejoras en la actividad de archivos **de** carga: los registros de flujo de trabajo se han aclarado y detallado sobre el error que se produce cuando un archivo no se carga. La transición de salida generada al activar la opción **Mantener los rechazados en un archivo** ha pasado a denominarse **Rechazados**. [Más información](../../automating/using/load-file.md#load-files)
+* Se han realizado mejoras en la actividad de archivos **de** carga: los registros de flujo de trabajo se han aclarado y detallado sobre el error que se produce cuando un archivo no se carga. La transición de salida generada al activar la opción **Mantener los rechazados en un archivo** ha pasado a denominarse **Rechazados**. [Más información](../../automating/using/load-file.md)
 * Se han agregado registros relacionados multilingües a los registros de envío para comprender mejor los errores de envío debido a la ausencia de idiomas en los archivos CSV cargados.
 
 ### Mejoras de seguridad {#security-enhancements-3}
@@ -469,7 +469,7 @@ Se han añadido varias mejoras al canal de mensajería Transactional para optimi
 
 * Nuestra nueva experiencia de integración le ayudará a iniciar la creación de correos electrónicos con mayor rapidez y le facilitará el acceso a la documentación y los tutoriales.
 
-   Para obtener más información, consulte la [documentación detallada](../../designing/using/overview.md#email-designer-home-page).
+   Para obtener más información, consulte la [documentación detallada](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page).
 
 * Ahora tiene la flexibilidad de configurar el número de columnas y el ancho en función de sus necesidades.
 
@@ -548,7 +548,7 @@ Se han añadido varias mejoras al canal de mensajería Transactional para optimi
      <li> Capacidad para <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">recuperar contenido de una URL automáticamente en tiempo de preparación</a> </li> 
      <li> Plantillas de contenido totalmente <a href="../../designing/using/using-reusable-content.md#content-templates">listas para usar y totalmente compatibles</a>. </li> 
     </ul> 
-    <p>Para obtener más información, consulte la <a href="../../designing/using/overview.md">documentación detallada</a> y el <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">videotutorial</a>. A continuación se enumeran las mejoras y correcciones.</p><p>Como consecuencia, el editor de contenido de correo electrónico heredado ya no se utiliza. Para obtener más información, consulte esta <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">página</a>.</p> </td> 
+    <p>Para obtener más información, consulte la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentación detallada</a> y el <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">videotutorial</a>. A continuación se enumeran las mejoras y correcciones.</p><p>Como consecuencia, el editor de contenido de correo electrónico heredado ya no se utiliza. Para obtener más información, consulte esta <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">página</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Listados de productos en correos electrónicos transaccionales<br /> </td> 
