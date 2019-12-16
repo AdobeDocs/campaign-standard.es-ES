@@ -12,7 +12,7 @@ discoiquuid: 98650305-7abf-456f-8c91-cf0b61f53763
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ---
 
@@ -31,4 +31,4 @@ Puede utilizar Campaign para promocionar un servicio mediante:
    >
    >También es importante dar a los suscriptores la posibilidad de cancelar la suscripción. Para ello, inserte un vínculo <b>de</b> cancelación de suscripción al servicio en el correo electrónico de confirmación (definido en las propiedades del servicio) enviado automáticamente a los nuevos suscriptores, así como en futuros correos electrónicos de la newsletter.
 
-* Publicación de una página de aterrizaje de suscripción o cancelación de suscripción en un sitio web. Las direcciones URL que le proporcionan acceso a la página de aterrizaje deben especificar parámetros como el servicio asociado, así como el ID de perfil que accede a ella. Este ID se puede definir en los parámetros de la página de aterrizaje (consulte [Configuración de una página](../../channels/using/configuring-landing-page.md#)de aterrizaje).
+* Publicación de una página de aterrizaje de suscripción o cancelación de suscripción en un sitio web. Las direcciones URL que le proporcionan acceso a la página de aterrizaje deben especificar parámetros como el servicio asociado, así como el ID de perfil que accede a ella. Este ID se puede definir en los parámetros de la página de aterrizaje (consulte [Configuración de una página](../../channels/using/configuring-landing-page.md)de aterrizaje.
