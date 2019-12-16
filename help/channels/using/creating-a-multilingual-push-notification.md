@@ -1,18 +1,18 @@
 ---
 title: Creación de una notificación push multilingüe
 description: Cree notificaciones push multilingües para dirigirse a los usuarios en sus idiomas y regiones preferidos.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: d4aff741-e969-47c6-bae8-787c6c673191
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: canales
-content-type: referencia
+audience: channels
+content-type: reference
 topic-tags: push-notifications
 discoiquuid: f9bb2235-d388-4025-9ace-734beb0c1961
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -61,7 +61,7 @@ Antes de personalizar la notificación push multilingüe, primero debemos cargar
 
 1. En la **[!UICONTROL Manage Content Variants]** ventana, arrastre y suelte el archivo o seleccione un archivo del equipo.
 
-   El archivo debe tener codificación UTF8 y un diseño específico que se puede encontrar haciendo clic en la **[!UICONTROL Download the sample file]** opción. También debe utilizar la sintaxis adecuada para los valores de configuración regional. Para obtener más información sobre el formato de archivo y las configuraciones regionales admitidas, consulte esta [nota técnica](http://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html).
+   El archivo debe tener codificación UTF8 y un diseño específico que se puede encontrar haciendo clic en la **[!UICONTROL Download the sample file]** opción. También debe utilizar la sintaxis adecuada para los valores de configuración regional. Para obtener más información sobre el formato de archivo y las configuraciones regionales admitidas, consulte esta [nota técnica](https://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html).
 
    ![](assets/multivariant_push_4.png)
 
@@ -69,7 +69,7 @@ Antes de personalizar la notificación push multilingüe, primero debemos cargar
 
    ![](assets/multivariant_push_5.png)
 
-1. La **[!UICONTROL Variant selection]** ficha proporcionará una secuencia de comandos para determinar qué preferencia de idioma se tendrá en cuenta en función de la plantilla de envío. Se trata de una secuencia de comandos lista para usar que no requiere que realice ningún cambio.
+1. La **[!UICONTROL Variant selection]** ficha proporciona una secuencia de comandos para determinar qué preferencia de idioma se debe tener en cuenta en función de la plantilla de envío. Se trata de una secuencia de comandos lista para usar que no requiere que realice ningún cambio.
 1. Si desea agregar más variantes que no estén presentes en el archivo importado, puede hacerlo haciendo clic en el **[!UICONTROL Add an element]** botón y agregando tantas variantes de idioma nuevas como sea necesario.
 
    Al agregar variantes distintas a las cargadas desde el archivo, no se vinculará ningún contenido a este idioma. Deberá editar el contenido directamente en el tablero de envío.
@@ -88,7 +88,7 @@ Después de cargar el archivo que contiene variantes de contenido, ahora puede o
 
 También es posible crear y editar más variantes además de las cargadas desde el archivo.
 
-1. En la **[!UICONTROL Content]** ventana del panel de envío, la lista desplegable le permite obtener una vista previa del contenido de la notificación push en función del idioma elegido.
+1. En la **[!UICONTROL Content]** ventana del tablero de envío, la lista desplegable le permite obtener una vista previa del contenido de la notificación push en función del idioma elegido.
 
    ![](assets/multivariant_push_7.png)
 
@@ -112,7 +112,7 @@ La entrega de notificaciones push multilingües ya está lista para enviarse.
 
 ## Paso 3: Envío y análisis de la entrega de notificaciones push multilingües {#step-3--send-and-analyze-multilingual-push-notification-delivery}
 
-Las notificaciones push de variante de contenido multilingüe ya están listas para enviarse a los usuarios.
+Las notificaciones push de la variante de contenido multilingüe ya están listas para enviarse a los usuarios.
 
 1. Para empezar a preparar el envío, haga clic en el **[!UICONTROL Prepare]** botón .
 1. Cuando la preparación haya terminado sin advertencias, puede hacer clic en el **[!UICONTROL Confirm]** botón para empezar a enviar la notificación Push multilingüe.
