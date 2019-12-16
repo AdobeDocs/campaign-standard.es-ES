@@ -1,18 +1,18 @@
 ---
 title: Acerca de los informes dinámicos
 description: Con los informes dinámicos, arrastre y suelte las variables y dimensiones en el entorno improvisado y analice el éxito de las campañas.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: informes
-content-type: referencia
-topic-tags: acerca de los informes
+audience: reporting
+content-type: reference
+topic-tags: about-reporting
 discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ![](assets/dynamic_report_intro.png)
 
-Informes dinámicos proporciona informes totalmente personalizables y en tiempo real. Agrega acceso a los datos de perfil, permitiendo el análisis demográfico por dimensiones de perfil como sexo, ciudad y edad, además de datos funcionales de campañas de correo electrónico como aperturas y clics. Con la interfaz de arrastrar y soltar, puede explorar datos, determinar el rendimiento de las campañas de correo electrónico en relación con los segmentos de clientes más importantes y medir su impacto en los destinatarios.
+Los informes dinámicos proporcionan informes totalmente personalizables y en tiempo real. Agrega acceso a los datos de perfil, permitiendo el análisis demográfico por dimensiones de perfil como sexo, ciudad y edad, además de datos funcionales de campañas de correo electrónico como aperturas y clics. Con la interfaz de arrastrar y soltar, puede explorar datos, determinar el rendimiento de las campañas de correo electrónico en relación con los segmentos de clientes más importantes y medir su impacto en los destinatarios.
 
 Gracias a su menú de arrastrar y soltar y a las visualizaciones personalizables, la función de informes dinámicos le permite combinar dimensiones, métricas e intervalo de tiempo en cualquier combinación, con desgloses y comparaciones ilimitados.
 
@@ -63,11 +63,7 @@ Los informes dinámicos se dividen en dos categorías:
 
 ## Acuerdo de uso de informes dinámicos {#dynamic-reporting-usage-agreement}
 
->[!NOTE]
->
-> A partir de la versión 19.4 de Campaign Standard, la ventana emergente de consentimiento para los informes dinámicos se ha actualizado para incluir Adobe Campaign Standard y la integración de Microsoft Dynamics 365.
-
-El propósito del acuerdo de uso de informes dinámicos es funcionar como un consentimiento emergente para el procesamiento de datos. De forma predeterminada, el acuerdo solo es visible y solo pueden aceptarlo o rechazarlo los usuarios con derechos de administración.
+El propósito del acuerdo de uso de informes dinámicos es funcionar como un consentimiento emergente para el procesamiento de datos. De forma predeterminada, el acuerdo solo es visible y solo pueden aceptarlo o rechazarlo los usuarios asignados con derechos de administración.
 
 Hay tres opciones disponibles:
 
@@ -86,13 +82,11 @@ La siguiente tabla muestra lo que sucede después de rechazar este acuerdo en fu
 
 | Región | Informes dinámicos | Conector de Microsoft Dynamics 365 |
 |---|---|---|
-| América y APAC (Asia Pacífico) | **Función disponible**. <br> No se insertó información de perfiles personalizados ni lista para usar en el centro de informes de EE. UU., excepto ExternalID. | **Función disponible**. <br>No se han enviado al centro de datos de EE. UU. campos de perfil predeterminados o personalizados, a excepción de ID externa e ID de destinatario. <br>Todos los campos de eventos de Adobe Campaign Standard procesados en el centro de datos de EE. UU., a excepción del ID de página reflejado. <br>Para obtener más información sobre la integración de Microsoft Dynamics 365, consulte esta [página](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html). |
+| América y APAC (Asia Pacífico) | **Función disponible**. <br> No se insertó información de perfiles personalizados ni lista para usar en el centro de informes de EE. UU., excepto ExternalID. | **Función disponible**. <br>No se han enviado al centro de datos de EE. UU. campos de perfil predeterminados o personalizados, a excepción del ID externo y el ID del destinatario. <br>Todos los campos de eventos de Adobe Campaign Standard procesados en el centro de datos de EE. UU., a excepción del ID de página reflejado. <br>Para obtener más información sobre la integración de Microsoft Dynamics 365, consulte esta [página](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html). |
 | EMEA (Europa, Oriente Medio y África) | **Función disponible**. <br>No se insertó información de perfiles personalizados ni lista para usar en el centro de informes de EMEA, con excepción de ExternalID. | **Función disponible.** <br>No se han enviado al centro de datos de EMEA campos de perfil predeterminados o personalizados con excepción de ID externa e ID de destinatario. <br>Todos los campos de eventos de Adobe Campaign Standard procesados en el centro de datos de EMEA, a excepción del ID de página reflejado.  <br>**[!UICONTROL Control data]** que contiene los datos de registro de E/S de Adobe y los ID de eventos de usuario final del cliente enviados y almacenados en el centro de datos de EE. UU.<br>Para obtener más información sobre la integración de Microsoft Dynamics 365, consulte esta [página](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html). |
 
 Esta opción no es definitiva, siempre puede cambiarla seleccionando **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** en **[!UICONTROL Administration]** &gt; **[!UICONTROL Application Settings]** &gt; **[!UICONTROL Options]**.
 
 El valor se puede cambiar en cualquier momento. El valor 1 corresponde a **[!UICONTROL Ask me later]**, 2 **[!UICONTROL Decline]** y 3 **[!UICONTROL Accept]**.
-
-Tenga en cuenta que en las versiones anteriores a Adobe Campaign Standard 19.4, el valor -1 corresponde a **[!UICONTROL Ask me later]**, 0 **[!UICONTROL Decline]** y 1 **[!UICONTROL Accept]**.
 
 ![](assets/pii_window_2.png)
