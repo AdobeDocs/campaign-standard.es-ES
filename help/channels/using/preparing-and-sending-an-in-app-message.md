@@ -13,7 +13,7 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 05743b8565720c0db6a35a493c66b8dad4ef5685
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -118,7 +118,7 @@ Los pasos para crear un mensaje independiente en la aplicación con Adobe Campai
 
 1. Si utiliza un **[!UICONTROL Places]** activador, los datos de contexto de Lugares, los metadatos personalizados de Lugares o el tipo de evento Lugares se rellenarán automáticamente en función de todas las bibliotecas y sus puntos de interés creados en Adobe Places.
 
-   Tenga en cuenta que este activador se aplicará en el dispositivo solo para los puntos de interés de las bibliotecas seleccionadas en la extensión Lugares del lanzamiento de la plataforma de experiencia. Para obtener más información sobre la extensión Places y cómo instalarla, consulte esta [documentación](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension-1/places-extension).
+   Tenga en cuenta que este activador se aplicará en el dispositivo solo para los puntos de interés de las bibliotecas seleccionadas en la extensión Lugares del lanzamiento de la plataforma de experiencia. Para obtener más información sobre la extensión Places y cómo instalarla, consulte esta [documentación](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
 
 1. En la **[!UICONTROL Frequency & duration]** ficha, elija la frecuencia del activador, la fecha de inicio y finalización, el día de la semana y la hora del día en que se activará el mensaje en la aplicación.
 
