@@ -1,19 +1,19 @@
 ---
 title: Definición del audiencia de correo postal
 description: Obtenga información sobre cómo definir el objetivo para la entrega directa de correo.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: f843e368-5c07-4b53-8943-46f7bf45b62b
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: canales
-content-type: referencia
+audience: channels
+content-type: reference
 topic-tags: direct-mail
 discoiquuid: f993d1b6-4b9a-4f95-81fc-60c126211bd2
-context-tags: entrega,directMailContent,retroceso
+context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 32bcfd57dfe881fa07c8d8e5700d0ae3996a78ec
 
 ---
 
@@ -28,11 +28,11 @@ Puede definir la audiencia en el asistente de creación o haciendo clic en la se
 
 Para el correo directo, los perfiles de destino son los que se incluirán en el archivo de extracción que se enviará a su proveedor de correo directo.
 
-Para cada perfil de destino se agrega una nueva línea en el archivo de extracción. La cantidad de información de perfil que se incluirá para cada destinatario se define en la pantalla [Definición de la extracción](#defining-the-extraction) .
+Para cada perfil de destino se agrega una nueva línea en el archivo de extracción. La cantidad de información de perfil que se incluirá para cada destinatario se define en la pantalla [Definición de la extracción](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) .
 
 >[!CAUTION]
 >
->Asegúrese de que sus perfiles incluyen una dirección postal, ya que esta información es esencial para el proveedor de correo directo. Asegúrese también de marcar la **[!UICONTROL Address specified]** casilla en la información de sus perfiles. Consulte [Recomendaciones](../../channels/using/about-direct-mail.md#recommendations).
+>Asegúrese de que sus perfiles incluyen una dirección postal, ya que esta información es esencial para el proveedor de correo directo. Asegúrese también de haber marcado la **[!UICONTROL Address specified]** casilla en la información de sus perfiles. Consulte [Recomendaciones](../../channels/using/about-direct-mail.md#recommendations).
 
 ## Adición de perfiles de prueba y captura {#adding-test-and-trap-profiles}
 
