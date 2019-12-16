@@ -1,24 +1,24 @@
 ---
 title: Cargar archivo
-description: La actividad Cargar archivo permite importar datos en un formulario estructurado para utilizar estos datos en Adobe Campaign.
-page-status-flag: nunca activado
+description: La actividad Cargar archivo le permite importar datos en un formulario estructurado para utilizar estos datos en Adobe Campaign.
+page-status-flag: never-activated
 uuid: 69af12cc-6f82-4977-9f53-aa7bc26f5d7e
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: automatizar
-content-type: referencia
-topic-tags: gestión de datos-actividades
+audience: automating
+content-type: reference
+topic-tags: data-management-activities
 discoiquuid: 584ff893-9b1b-46c9-9628-714ab349ab88
 context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ---
 
 
-# Cargar archivo{#load-file}
+# Cargar archivo {#load-file}
 
 ## Descripción {#description}
 
@@ -62,11 +62,11 @@ La configuración de la actividad incluye dos pasos. En primer lugar, debe defin
    * Puede elegir utilizar la estructura de otro archivo seleccionando la **[!UICONTROL Detect structure from a new file]** opción.
    * Puede modificar los parámetros de detección predeterminados para adaptarlos al archivo. El **[!UICONTROL File type]** campo permite especificar si el archivo que desea importar está compuesto por columnas de longitud fija. En ese caso, también debe especificar el número máximo de caracteres para cada columna de la **[!UICONTROL Column definition]** ficha.
 
-      Se reagrupan todas las opciones de detección necesarias para recuperar correctamente los datos del archivo **[!UICONTROL File format]**. Puede modificarlas y, a continuación, volver a detectar la estructura del último archivo cargado en la actividad teniendo en cuenta esta nueva configuración. Para ello, utilice el **[!UICONTROL Apply configuration]** botón . Por ejemplo, puede especificar un separador de columnas diferente.
+      Todas las opciones de detección necesarias para recuperar correctamente los datos del archivo se reagrupan en **[!UICONTROL File format]**. Puede modificarlas y, a continuación, volver a detectar la estructura del último archivo cargado en la actividad teniendo en cuenta esta nueva configuración. Para ello, utilice el **[!UICONTROL Apply configuration]** botón . Por ejemplo, puede especificar un separador de columnas diferente.
 
       >[!NOTE]
       >
-      >Esta operación tiene en cuenta el último archivo cargado en la actividad. Si el archivo detectado es grande, la vista previa de datos solo mostrará las primeras 30 líneas.
+      >Esta operación tiene en cuenta el último archivo que se cargó en la actividad. Si el archivo detectado es grande, la vista previa de datos solo mostrará las primeras 30 líneas.
 
       ![](assets/wkf_file_loading3.png)
 
@@ -80,7 +80,7 @@ La configuración de la actividad incluye dos pasos. En primer lugar, debe defin
 
    La **[!UICONTROL Column definition]** ficha permite especificar con precisión la estructura de datos de cada columna para importar datos que no contengan errores (por ejemplo, mediante el uso de la administración nula) y hacer que coincida con los tipos que ya están presentes en la base de datos de Adobe Campaign para futuras operaciones.
 
-   Por ejemplo, puede cambiar la etiqueta de una columna y seleccionar su tipo (cadena, entero, fecha, etc.)  o incluso especificar el procesamiento de errores.
+   Por ejemplo, puede cambiar la etiqueta de una columna y seleccionar su tipo (cadena, entero, fecha, etc.) o incluso especificar el procesamiento de errores.
 
    For more information, refer to the [Column format](#column-format) section.
 
@@ -168,7 +168,7 @@ El siguiente ejemplo muestra el resultado de una actividad de carga de archivos 
    ![](assets/wkf_file_loading8.png)
 
 1. Configure la actividad como se especificó anteriormente.
-1. Arrastre y suelte una **[!UICONTROL Update data]** actividad en el flujo de trabajo y colóquela después de la **[!UICONTROL Load file]** actividad. A continuación, configúrela. Consulte [Actualizar datos](../../automating/using/update-data.md).
+1. Arrastre y suelte una **[!UICONTROL Update data]** actividad en el flujo de trabajo y colóquela después de la **[!UICONTROL Load file]** actividad y, a continuación, configúrela. Consulte [Actualizar datos](../../automating/using/update-data.md).
 
 Una vez iniciado el flujo de trabajo, los datos del archivo cargado se extraen y se utilizan para enriquecer la base de datos de Adobe Campaign.
 
@@ -176,7 +176,7 @@ Una vez iniciado el flujo de trabajo, los datos del archivo cargado se extraen y
 
 <!--A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](example-2-email-with-enriched-fields)-->
 
-La actividad de cargar archivos también permite enviar un correo electrónico enriquecido con datos adicionales de un archivo externo en el mismo flujo de trabajo.
+La actividad de carga de archivos también permite enviar un correo electrónico enriquecido con datos adicionales de un archivo externo en el mismo flujo de trabajo.
 
 El ejemplo siguiente muestra cómo enviar un correo electrónico con datos adicionales recuperados de un archivo externo a través de la actividad de cargar archivo. En este ejemplo, el archivo externo contiene una lista de perfiles con su número de cuenta asociado. Desea importar estos datos para enviar un correo electrónico a cada perfil con su número de cuenta.
 
