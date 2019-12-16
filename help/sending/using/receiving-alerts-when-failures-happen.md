@@ -1,18 +1,18 @@
 ---
 title: Recibir alertas cuando se produzcan errores
-description: Aprenda a utilizar el sistema de gestión de alertas.
-page-status-flag: nunca activado
+description: Obtenga información sobre cómo utilizar el sistema de gestión de alertas.
+page-status-flag: never-activated
 uuid: a3ab733a-e3db-4adc-b930-cd4064b6dc1c
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: enviar
-content-type: referencia
-topic-tags: monitoreo-mensajes
+audience: sending
+content-type: reference
+topic-tags: monitoring-messages
 discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -26,7 +26,7 @@ La función de alerta **de** envío es un sistema de gestión de alertas que per
 Las notificaciones enviadas contienen un informe basado de forma predeterminada en los siguientes criterios:
 
 * Entregas fallidas
-* Entregas con error de preparación
+* Entregas con una preparación fallida
 * Entregas con una relación de error de devolución en blanco incorrecta
 * Entregas con un índice de error de devolución en bruto incorrecto
 * Entregas con un estado pendiente mayor que el habitual
@@ -56,7 +56,7 @@ Para administrar los destinatarios de las notificaciones, definir los criterios 
 
 >[!NOTE]
 >
->Para acceder y configurar los tableros y los criterios de alerta, debe tener derechos de administración o aparecer en el grupo de seguridad Supervisores **de** envío. Los usuarios estándar no pueden acceder a los tableros en la interfaz de Adobe Campaign. Solo pueden recibir las notificaciones de alerta. Para obtener más información sobre usuarios y seguridad en Adobe Campaign, consulte [Tipos de usuarios](../../administration/using/users-management.md) y [Acerca de los grupos](../../administration/using/managing-groups-and-users.md#about-security-groups)de seguridad.
+>Para acceder y configurar los tableros y los criterios de alerta, debe tener derechos de administración o aparecer en el grupo de seguridad Supervisores **de** envío. Los usuarios estándar no pueden acceder a los tableros en la interfaz de Adobe Campaign. Solo pueden recibir las notificaciones de alerta. Para obtener más información sobre los usuarios y la seguridad en Adobe Campaign, consulte [Tipos de usuarios](../../administration/using/users-management.md) y [Acerca de los grupos](../../administration/using/managing-groups-and-users.md#about-security-groups)de seguridad.
 
 Desde la interfaz de Adobe Campaign puede:
 
@@ -136,7 +136,7 @@ Para cada criterio, puede definir la siguiente configuración:
 
 * [Envío de registros](../../sending/using/monitoring-a-delivery.md#sending-logs)
 * [Frecuencia de alerta](#alerting-frequency)
-* [Iconos y estados de actividades de marketing](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
+* [Iconos y estados de la actividad de marketing](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
 
 ### Creación de un criterio de alerta de entrega {#creating-a-delivery-alerting-criterion}
 
@@ -157,7 +157,7 @@ Para ello, primero debe ampliar el recurso de **envío** y agregar un nuevo filt
 
    ![](assets/delivery-alerting_new-filter.png)
 
-1. Editar la nueva definición del filtro: en la **[!UICONTROL Filter definition]** ventana, arrastre y suelte el **[!UICONTROL Status]** elemento en el espacio de trabajo y selecciónelo **[!UICONTROL Finished]** como condición del filtro.
+1. Edite la nueva definición del filtro: en la **[!UICONTROL Filter definition]** ventana, arrastre y suelte el **[!UICONTROL Status]** elemento en el espacio de trabajo y selecciónelo **[!UICONTROL Finished]** como condición del filtro.
 
    ![](assets/delivery-alerting_filter-status.png)
 
@@ -191,11 +191,11 @@ En la **[!UICONTROL Criteria parameters]** ficha de un tablero [de alertas de](#
 ![](assets/delivery-alerting_dashboard_criteria-parameters.png)
 
 * **[!UICONTROL Delivery target minimum size]**:: Por ejemplo, si introduce 100 en este campo, se enviará una notificación solo para las entregas con un objetivo igual o superior a 100 destinatarios. Este parámetro se aplica a todos los criterios.
-* **[!UICONTROL Monitoring period before and after the contact date (in hours)]**:: Número de horas antes y después de la hora actual. Sólo se tienen en cuenta las entregas con una fecha de contacto en este intervalo de tiempo. Este parámetro se aplica a todos los criterios. De forma predeterminada, el valor de este campo se establece en 24 horas.
+* **[!UICONTROL Monitoring period before and after the contact date (in hours)]**:: Número de horas antes y después de la hora actual. Sólo se tienen en cuenta las entregas que tengan una fecha de contacto en este intervalo de tiempo. Este parámetro se aplica a todos los criterios. De forma predeterminada, el valor de este campo se establece en 24 horas.
 
    Para obtener más información sobre la fecha de contacto, consulte [Acerca de la programación](../../sending/using/about-scheduling-messages.md).
 
-* **[!UICONTROL Maximum ratio of soft bounce errors]**:: Se envía una notificación para todas las entregas con un índice de error de devolución en blanco superior al valor especificado. De forma predeterminada, el valor de este campo está establecido en 0,05 (5%).
+* **[!UICONTROL Maximum ratio of soft bounce errors]**:: Se envía una notificación para todas las entregas con un índice de error de devolución en blanco mayor que el valor especificado. De forma predeterminada, el valor de este campo está establecido en 0,05 (5%).
 
    Para obtener más información acerca de los errores de devolución suave, consulte [Rebotar cualificación](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) de correo y [Lista de tipos](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)de error de entrega.
 
@@ -204,7 +204,7 @@ En la **[!UICONTROL Criteria parameters]** ficha de un tablero [de alertas de](#
    Para obtener más información acerca de los errores de devolución en firme, consulte [Rebotar cualificación](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) de correo y [Lista de tipos](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)de error de entrega.
 
 * **[!UICONTROL Minimum time threshold for delivery in 'Start pending' status (in minutes)]**:: Se envía una notificación para todas las entregas con un estado **[!UICONTROL Start pending]** mayor que el especificado en este campo, lo que significa que el sistema no ha tenido en cuenta los mensajes aún **[!UICONTROL Start pending]** .
-* **[!UICONTROL Minimum time required for the computation of the throughput (in minutes)]**:: Solo se tienen en cuenta para el criterio las entregas iniciadas (con **[!UICONTROL In progress]** estado) durante más tiempo del especificado **[!UICONTROL Deliveries with low throughput]** .
+* **[!UICONTROL Minimum time required for the computation of the throughput (in minutes)]**:: Solo se tienen en cuenta para el criterio las entregas iniciadas (con **[!UICONTROL In progress]** estado) durante más tiempo que la duración especificada **[!UICONTROL Deliveries with low throughput]** .
 * **[!UICONTROL Maximum percentage of processed messages for the computation of the throughput]**:: Para el **[!UICONTROL Deliveries with low throughput]** criterio solo se tienen en cuenta las entregas con un porcentaje de mensajes procesados inferior al porcentaje especificado.
 * **[!UICONTROL Minimum expected throughput (in sent messages per hour)]**:: Para el **[!UICONTROL Deliveries with low throughput]** criterio solo se tienen en cuenta las entregas con un rendimiento inferior al valor especificado.
 * **[!UICONTROL Minimum processed ratio required for 'Deliveries in progress' criterion]**:: Solo se tienen en cuenta las entregas con un porcentaje de mensajes procesados superior al porcentaje especificado.
@@ -217,7 +217,7 @@ Puede cambiar esta configuración a través del menú **[!UICONTROL Administrati
 
 >[!NOTE]
 >
->Esta opción se aplica a todos los tableros definidos en Adobe Campaign. No puede establecer una frecuencia específica para cada tablero.
+>Esta opción se aplica a todos los tableros definidos en Adobe Campaign. No se puede establecer una frecuencia específica para cada tablero.
 
 ## Motivos de las alertas de envío {#delivery-alerting-reasons}
 
@@ -225,7 +225,7 @@ La función de alerta **de** envío mantiene informados automáticamente a todos
 
 Ahora, cuando reciba una notificación de alerta de envío, aquí tiene algunos consejos sobre lo que puede hacer.
 
-En primer lugar, marque la ficha **Registro** de la entrega para ver toda la información relacionada con la entrega y las pruebas. Los iconos rojo y amarillo permiten identificar errores o advertencias. El icono rojo indica un error crítico que impide que se inicie la entrega.
+En primer lugar, marque la ficha **Registro** de la entrega para ver toda la información relacionada con la entrega y las pruebas. Los iconos rojo y amarillo le permiten identificar errores o advertencias. El icono rojo indica un error crítico que impide que se inicie la entrega.
 
 Para ver el historial de cada incidencia de un envío, seleccione la **[!UICONTROL Sending logs]** ficha. Contiene la lista de mensajes enviados y sus estados. Allí puede comprobar el estado de entrega de cada destinatario ( **[!UICONTROL Sent]**, **[!UICONTROL Pending]**, **[!UICONTROL Failed]**, etc.). Para obtener más información sobre esto, consulte [Envío de registros](../../sending/using/monitoring-a-delivery.md#sending-logs).
 
@@ -263,7 +263,7 @@ A continuación se indican algunos motivos posibles para recibir notificaciones 
 
    * Genere reglas de tipología de filtrado para excluir una parte del destino del mensaje durante el análisis de entrega, como los destinatarios en cuarentena. See [Creating a filtering rule](../../administration/using/filtering-rules.md).
    * Actualice regularmente su base de datos de clientes para mantener buenos procesos de gestión de cuarentena. Consulte [Acerca de las cuarentena](../../sending/using/understanding-quarantine-management.md#about-quarantines).
-   * En términos generales, mejore la capacidad de entrega lo mejor posible. Consulte la guía detallada de la [administración de entregas](http://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) de Adobe Campaign v7 y póngase en contacto con el administrador de Adobe Campaign para obtener ayuda.
+   * En términos generales, mejore la capacidad de entrega lo mejor posible. Consulte la documentación detallada sobre la [entrega](../../sending/using/about-deliverability.md) de Adobe Campaign y póngase en contacto con el administrador de Adobe Campaign para obtener ayuda.
 
 
 
