@@ -1,18 +1,18 @@
 ---
 title: Administración de vínculos
 description: Descubra cómo administrar vínculos con el Diseñador de correo electrónico.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: diseñar
-content-type: referencia
+audience: designing
+content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -27,7 +27,7 @@ Puede insertar un enlace en cualquier elemento de página: imagen, palabra, grup
 
 >[!NOTE]
 >
->Las siguientes imágenes muestran cómo insertar un vínculo mediante el Diseñador de [correo electrónico](../../designing/using/overview.md) en un mensaje de correo electrónico.
+>Las siguientes imágenes muestran cómo insertar un vínculo mediante el Diseñador de [correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md) en un mensaje de correo electrónico.
 
 1. Seleccione un elemento y haga clic en **[!UICONTROL Insert link]** en la barra de herramientas contextual.
 
@@ -61,7 +61,7 @@ Una vez creado el vínculo, puede modificarlo desde el panel Configuración. Hag
 
 ![](assets/des_link_edit.png)
 
-Al editar un correo electrónico con el Diseñador [de](../../designing/using/overview.md)correo electrónico, puede acceder y modificar fácilmente los vínculos que ha creado a partir de la tabla que enumera todas las direcciones URL incluidas en el correo electrónico. Esta lista le permite tener una vista centralizada y localizar cada URL en el contenido del correo electrónico. Para acceder a él, consulte [Acerca de las direcciones URL](#about-tracked-urls)rastreadas.
+Al editar un correo electrónico con el Diseñador [de](../../designing/using/designing-content-in-adobe-campaign.md)correo electrónico, puede acceder y modificar fácilmente los vínculos que ha creado a partir de la tabla que enumera todas las direcciones URL incluidas en el correo electrónico. Esta lista le permite tener una vista centralizada y localizar cada URL en el contenido del correo electrónico. Para acceder a él, consulte [Acerca de las direcciones URL](#about-tracked-urls)rastreadas.
 
 ![](assets/des_link_list.png)
 
@@ -87,7 +87,7 @@ El **[!UICONTROL Links]** icono de la barra de acciones muestra automáticamente
 >
 >El seguimiento está activado de forma predeterminada. Esta funcionalidad solo está disponible para correos electrónicos, si el seguimiento se ha activado en Adobe Campaign. For more on the tracking parameters, refer to [this section](../../administration/using/configuring-email-channel.md#tracking-parameters).
 
-La dirección URL, categoría, etiqueta y tipo de seguimiento de cada vínculo se puede modificar desde esta lista. Para editar un vínculo, haga clic en el icono de lápiz correspondiente.
+La dirección URL, la categoría, la etiqueta y el tipo de seguimiento de cada vínculo se pueden modificar desde esta lista. Para editar un vínculo, haga clic en el icono de lápiz correspondiente.
 
 ![](assets/des_links_tracking.png)
 
@@ -106,7 +106,7 @@ También puede desactivar o activar el seguimiento de cada URL.
 >
 >De forma predeterminada, en Adobe Campaign, se realiza un seguimiento de todas las direcciones URL de contenido, excepto la URL **de la página** de reflejo y el vínculo de **cancelación de suscripciones** .
 
-Puede agrupar las direcciones URL editando el **[!UICONTROL Category]** campo, según las direcciones URL utilizadas en el mensaje. Estas categorías pueden mostrarse en informes, como en [direcciones URL y flujos](../../reporting/using/urls-and-click-streams.md)de clics.
+Puede reagrupar las direcciones URL editando el **[!UICONTROL Category]** campo, según las direcciones URL utilizadas en el mensaje. Estas categorías pueden mostrarse en informes, como en [direcciones URL y flujos](../../reporting/using/urls-and-click-streams.md)de clics.
 
 ![](assets/des_link_tracking_category.png)
 
