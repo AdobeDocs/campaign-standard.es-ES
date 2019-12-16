@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9e17218048daa091538a09dea6e2eabca0814a5f
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -26,7 +26,7 @@ Al crear un correo electrónico o una página de aterrizaje, puede elegir cargar
 
 >[!NOTE]
 >
->Las siguientes imágenes muestran cómo cargar un contenido existente mediante el Diseñador de [correo electrónico](../../designing/using/overview.md).
+>Las siguientes imágenes muestran cómo cargar un contenido existente mediante el Diseñador de [correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md).
 
 1. Después de crear el correo electrónico o la página de aterrizaje, abra su contenido.
 1. Haga clic en el icono de inicio para acceder a la página **[!UICONTROL Email Designer]** principal.
@@ -47,7 +47,7 @@ Al crear un correo electrónico o una página de aterrizaje, puede elegir cargar
 
    >[!NOTE]
    >
-   >El Diseñador [de correo electrónico](../../designing/using/overview.md) utiliza etiquetado específico. El contenido HTML estándar cargado en Campaign debe coincidir con el etiquetado esperado para ser totalmente compatible y editable desde el Diseñador de correo electrónico. Si no coincide, el contenido se carga en modo [de](#compatibility-mode)compatibilidad. Para hacer compatible el contenido existente, consulte [esta sección](#editing-existing-contents-with-the-email-designer).
+   >El Diseñador [de correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md) utiliza etiquetado específico. El contenido HTML estándar cargado en Campaign debe coincidir con el etiquetado esperado para ser totalmente compatible y editable desde el Diseñador de correo electrónico. Si no coincide, el contenido se carga en modo [de](#compatibility-mode)compatibilidad. Para hacer compatible el contenido existente, consulte [esta sección](#editing-existing-contents-with-the-email-designer).
 
 **Temas relacionados:**
 
@@ -56,7 +56,7 @@ Al crear un correo electrónico o una página de aterrizaje, puede elegir cargar
 
 ## Edición del contenido existente con el Diseñador de correo electrónico{#editing-existing-contents-with-the-email-designer}
 
-Para aprovechar al máximo las posibilidades de edición de [Email Designer](../../designing/using/overview.md), el HTML cargado debe contener etiquetas específicas que lo hagan compatible con el editor WYSIWYG.
+Para aprovechar al máximo las posibilidades de edición de [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md), el HTML cargado debe contener etiquetas específicas que lo hagan compatible con el editor WYSIWYG.
 
 Si todo o parte del HTML no tiene este etiquetado, el contenido se carga en ' modo [de](#compatibility-mode)compatibilidad'.
 
@@ -126,7 +126,7 @@ Para recuperar contenido en tiempo de preparación, siga los pasos a continuaci�
 
 1. Para obtener una vista previa del contenido de la URL que se ha recuperado, abra el mensaje una vez creado y haga clic en el **[!UICONTROL Preview]** botón .
 
-Es posible personalizar la dirección URL remota desde la que se recuperará el contenido. Para ello, siga los pasos a continuación:
+Es posible personalizar la dirección URL remota desde la que se recuperará el contenido. Para realizar esto, siga los pasos a continuación:
 
 1. Haga clic en la etiqueta de correo electrónico en la parte superior de la pantalla para acceder a la ficha Diseñador de correo electrónico **[!UICONTROL Properties]** .
 1. Busque el **[!UICONTROL Remote URL]** campo.
