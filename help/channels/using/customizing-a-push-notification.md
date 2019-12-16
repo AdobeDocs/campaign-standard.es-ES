@@ -1,19 +1,19 @@
 ---
 title: Personalización de una notificación push
-description: Descubra cómo personalizar las notificaciones push con varias opciones avanzadas.
-page-status-flag: nunca activado
+description: Aprenda a personalizar las notificaciones push con diversas opciones avanzadas.
+page-status-flag: never-activated
 uuid: 8cf74cad-b1ba-4aad-83bd-7289cb22d5f4
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: canales
-content-type: referencia
+audience: channels
+content-type: reference
 topic-tags: push-notifications
 discoiquuid: dc944c85-2059-46df-b396-676fe3617dd1
-context-tags: entrega,mobileAppContent,retroceso
+context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 78800930d78179c1e390313c35f70627b5df0769
 
 ---
 
@@ -60,7 +60,7 @@ Cuando se recibe una notificación en un dispositivo, puede actualizar o agregar
    * Para actualizar el distintivo, escriba 0 en el **[!UICONTROL Value of the badge]** campo. Esto eliminará el distintivo del icono de la aplicación.
    * Para agregar un valor de distintivo, introduzca cualquier número en el **[!UICONTROL Value of the badge]** campo. Este número aparecerá automáticamente en el distintivo en cuanto el usuario reciba la notificación push.
    * Si el campo está vacío o no contiene un entero, el valor del distintivo no cambiará.
-   Aquí, ingresamos 1 en el **[!UICONTROL Value of the badge]** campo para informar a los usuarios que tienen una nueva información en su aplicación.
+   Aquí, ingresamos 1 en el **[!UICONTROL Value of the badge]** campo para informar a los usuarios de que tienen una nueva información en su aplicación.
 
    ![](assets/push_notif_advanced_8.png)
 
@@ -81,7 +81,7 @@ Para agregar un vínculo profundo en una notificación push:
 
    ![](assets/push_notif_advanced_3.png)
 
-1. Después de enviar el mensaje, los usuarios recibirán la notificación push y accederán a la página específica de la aplicación interactuando con la notificación, por ejemplo tocando o haciendo clic en el botón de llamada a acción.
+1. Después de enviar el mensaje, los usuarios recibirán la notificación push y accederán a la página específica de la aplicación interactuando con la notificación, por ejemplo, tocando o haciendo clic en el botón de llamada a acción.
 
    ![](assets/push_notif_advanced_4.png)
 
@@ -108,10 +108,6 @@ Según la acción del usuario, se notificará a la aplicación para que pueda re
 
 ## Agregar una fecha de caducidad {#add-expiration-date}
 
->[!NOTE]
->
->Estos cambios solo se aplican a partir de la versión de Campaign Standard 19.4.
-
 La configuración de una fecha de caducidad en la notificación push le permite establecer una fecha de caducidad específica en la que Apple ([APNS](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/sending_notification_requests_to_apns)) o Android ([FCM](https://firebase.google.com/docs/cloud-messaging/concept-options)) ya no enviarán el mensaje.
 
 Para agregar una fecha de caducidad a la notificación push:
@@ -128,11 +124,11 @@ Para agregar una fecha de caducidad a la notificación push:
 
 1. Después de enviar la notificación push, si el usuario no la recibió de inmediato debido a que el teléfono no estaba encendido o no tenía señal, la notificación push se enviará dentro del intervalo de fecha de caducidad.
 
-Tenga en cuenta que si la notificación push no se envió antes de la fecha de caducidad, se descartará.
+Tenga en cuenta que si la notificación push no se ha enviado antes de la fecha de caducidad, se descartará.
 
 ## Agregar campos personalizados {#add-custom-fields}
 
-Los campos personalizados permiten pasar datos personalizados en la carga útil en forma de par de valor clave. Esta opción se puede utilizar para pasar datos adicionales a la aplicación más allá de las claves predefinidas.
+Los campos personalizados le permiten pasar datos personalizados en la carga útil en forma de par de valor clave. Esta opción se puede utilizar para pasar datos adicionales a la aplicación más allá de las claves predefinidas.
 
 Para ello:
 
@@ -155,7 +151,7 @@ Puede incluir un archivo de imagen, gif, audio o vídeo que se reproducirá o mo
 Para incluir medios enriquecidos en la notificación push:
 
 1. Abra la notificación push y acceda a la **[!UICONTROL Advanced options]** sección.
-1. Introduzca la dirección URL del archivo en el **[!UICONTROL Rich media content URL]** campo de cada formato: iOS y Android.
+1. Introduzca la dirección URL del archivo en el **[!UICONTROL Rich media content URL]** campo correspondiente a cada formato: iOS y Android.
 
    Para iOS 10 o superior, puede insertar archivos de imagen, gif, audio y vídeo. Para versiones anteriores de iOS, la notificación push se mostrará sin contenido enriquecido. Para ver los pasos detallados sobre cómo mostrar una imagen desde una notificación push de Adobe Campaign en un dispositivo iOS, consulte esta [página](https://helpx.adobe.com/campaign/kb/display-image-push.html).
 
@@ -186,7 +182,7 @@ Cuando **[!UICONTROL Content available]** se selecciona, el indicador de conteni
 
 ## Cambiar el comportamiento de notificación para Android {#change-the-notification-behavior-for-android}
 
-Para Android, puede introducir la URL del archivo en el campo URL **de contenido de medios** enriquecidos. Mientras que con la versión de iOS, para Android solo puede incluir imágenes y no archivos gif, de audio o de vídeo.
+Para Android, puede introducir la dirección URL del archivo en el campo URL **de contenido de medios** enriquecidos. Mientras que con la versión de iOS, para Android solo puede incluir imágenes y no archivos gif, de audio o de vídeo.
 
 La **[!UICONTROL High priority]** casilla de verificación permite configurar una prioridad alta o normal para las notificaciones push. Para obtener más información sobre la prioridad de los mensajes, consulte la documentación [para desarrolladores de](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message)Google.
 
