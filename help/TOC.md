@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 13e351225fe664e2d6e42cda86f2d7fbe17aa48c
+source-git-commit: bbc2986fe50948d88ed65b0d43ff61650132aad5
 
 ---
 
@@ -119,7 +119,7 @@ source-git-commit: 13e351225fe664e2d6e42cda86f2d7fbe17aa48c
    + [Diseñador de correos electrónicos de Campaign](designing/using/designing-content-in-adobe-campaign.md)
    + [Introducción al Diseñador de correo electrónico](designing/using/quick-start.md)
    + [Definición del asunto y del remitente](designing/using/subject-line.md)
-   + Diseño del contenido del correo electrónico{#designing-email-content}
+   + Creación de contenido de correo electrónico{#building-email-content}
       + [Diseño de correos electrónicos desde cero](designing/using/designing-from-scratch.md)
       + [Diseño de correos electrónicos con contenido existente](designing/using/using-existing-content.md)
       + [Diseño de correos electrónicos con contenido reutilizable](designing/using/using-reusable-content.md)
