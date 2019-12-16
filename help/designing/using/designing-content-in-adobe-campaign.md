@@ -12,7 +12,7 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 19c6a3d6f68ef0a96150c9e7f350abd92da8d7e1
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -32,7 +32,7 @@ Para empezar a usar el Diseñador de correo electrónico, vea este [conjunto de 
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
 * Para descubrir cómo crear contenido de correo electrónico, consulte [Introducción al diseñador](../../designing/using/quick-start.md)de correo electrónico.
-* Para obtener una descripción general del Diseñador de correo electrónico, consulte [Uso del Diseñador](../../designing/using/overview.md)de correo electrónico.
+* Para obtener una descripción general del Diseñador de correo electrónico, consulte [Uso del Diseñador](../../designing/using/designing-content-in-adobe-campaign.md)de correo electrónico.
 * Para obtener más información sobre la creación de contenido:
    * Desde cero, consulte [Diseño de correos electrónicos desde cero](../../designing/using/designing-from-scratch.md).
    * Con el contenido existente, consulte [Diseño con contenido](../../designing/using/using-existing-content.md)existente.
@@ -152,7 +152,7 @@ Cuando se trata de fragmentos, tenga en cuenta lo siguiente:
 * Al editar estilos, solo están disponibles las fuentes web oficialmente admitidas por la mayoría de los clientes de correo electrónico.
 * Los estilos no se pueden guardar como un tema para su reutilización futura. Sin embargo, el estilo CSS se puede guardar en una plantilla de contenido o en un correo electrónico. Para obtener más información sobre los estilos, consulte [esta sección](../../designing/using/styles.md).
 
-**Temas** relacionados:
+**Temas relacionados**:
 
 * [Creación de un correo electrónico](../../channels/using/creating-an-email.md)
 * [Diseño de una página de aterrizaje](../../channels/using/designing-a-landing-page.md)
