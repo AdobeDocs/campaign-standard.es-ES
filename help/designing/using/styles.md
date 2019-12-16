@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 17264484102878d4eb58c0fe9d82d7d4f091179b
+source-git-commit: 59007b6379bc3c0656cc0a3e5d11e15ce15f805a
 
 ---
 
@@ -144,7 +144,7 @@ A continuación se muestran los ajustes de fondo disponibles que puede utilizar.
 
 ### Ejemplo: ajuste de alineación vertical y relleno {#example--adjusting-vertical-alignment-and-padding}
 
-Desea ajustar el margen y la alineación vertical dentro de un componente de estructura compuesto por tres columnas. Para ello, siga los pasos a continuación:
+Desea ajustar el margen y la alineación vertical dentro de un componente de estructura compuesto por tres columnas. Para realizar esto, siga los pasos a continuación:
 
 1. Seleccione el componente de estructura directamente en el correo electrónico o mediante el árbol de estructura disponible en la **paleta** izquierda.
 1. En la barra de herramientas **contextual, haga clic en****[!UICONTROL Select a column]** y elija la que desee editar. También puede seleccionarlo en el árbol de estructura.
@@ -172,10 +172,6 @@ Desea ajustar el margen y la alineación vertical dentro de un componente de est
 1. Guarde los cambios.
 
 ## Estilo de los vínculos {#about-styling-links}
-
->[!NOTE]
->
->Esta función estará disponible a partir de la versión 19.4 de Campaign Standard.
 
 Puede subrayar un vínculo y seleccionar su color y destino en el Diseñador de correo electrónico.
 
