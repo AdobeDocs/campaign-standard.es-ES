@@ -12,17 +12,17 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0d5b19ad272c406f1081ed364193c7fb793de07
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
 
 # Personalización del contenido del correo electrónico {#personalization}
 
-El contenido y la visualización de los mensajes suministrados por Adobe Campaign se pueden personalizar de varias formas. Estas formas se pueden combinar según criterios en función de los perfiles. En general, Adobe Campaign permite:
+El contenido y la visualización de los mensajes suministrados por Adobe Campaign se pueden personalizar de varias formas. Estas formas se pueden combinar según criterios en función de los perfiles. En general, Adobe Campaign le permite:
 
-* Inserte campos de personalización dinámica. Consulte [Inserción de un campo](#inserting-a-personalization-field)de personalización.
-* Inserte bloques de personalización predefinidos. Consulte [Adición de un bloque](#adding-a-content-block)de contenido.
+* Insertar campos personalizados dinámicos. See [Inserting a personalization field](#inserting-a-personalization-field).
+* Insertar bloques de personalización predefinidos. Consulte [Adición de un bloque](#adding-a-content-block)de contenido.
 * Personalice el remitente de un correo electrónico. Consulte [Personalización del remitente](#personalizing-the-sender).
 * Personalice el asunto de un correo electrónico. See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
 * Cree contenido condicional. Consulte [Definición de contenido dinámico en un mensaje de correo electrónico](#defining-dynamic-content-in-an-email)
@@ -37,7 +37,7 @@ Este campo se puede personalizar. Para ello, puede agregar campos de personaliza
 
 >[!NOTE]
 >
->Los parámetros de encabezado no deben estar vacíos. La dirección del remitente es obligatoria para permitir el envío de un correo electrónico (estándar RFC). Adobe Campaign comprueba la sintaxis de las direcciones de correo electrónico introducidas.
+>Los parámetros de encabezado no deben estar vacíos. La dirección del remitente es obligatoria para permitir que se envíe un mensaje de correo electrónico (estándar RFC). Adobe Campaign comprueba la sintaxis de las direcciones de correo electrónico introducidas.
 
 ## Personalización de direcciones URL{#personalizing-urls}
 
@@ -55,17 +55,17 @@ Adobe Campaign permite personalizar una o varias direcciones URL en el mensaje a
 >
 >Las direcciones URL de personalización no se pueden aplicar al nombre de dominio ni a la extensión URL. Se mostrará un mensaje de error durante el análisis de mensajes si la personalización es incorrecta. Al seleccionar un bloque de contenido, no se le permite seleccionar elementos como **Vínculo a página** de reflejo. Este tipo de bloques está prohibido dentro de un vínculo.
 
-## Inserción de un campo de personalización{#inserting-a-personalization-field}
+## Inserción de un campo personalizado{#inserting-a-personalization-field}
 
 Adobe Campaign permite insertar un campo de la base de datos en la página, como el nombre del perfil.
 
 >[!NOTE]
 >
->Las siguientes imágenes muestran cómo insertar un campo de personalización mediante el Diseñador de [correo electrónico](../../designing/using/overview.md) para un correo electrónico.
+>Las siguientes imágenes muestran cómo insertar un campo de personalización mediante el Diseñador de [correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md) para un correo electrónico.
 
 Para agregar un campo de personalización al contenido:
 
-1. Haga clic dentro de un bloque de texto, haga clic en el **[!UICONTROL Personalize]** icono de la barra de herramientas contextual y seleccione **[!UICONTROL Insert personalization field]**. Para obtener más información sobre la interfaz de Email Designer, consulte [esta sección](../../designing/using/overview.md#email-designer-interface).
+1. Haga clic dentro de un bloque de texto, haga clic en el **[!UICONTROL Personalize]** icono de la barra de herramientas contextual y seleccione **[!UICONTROL Insert personalization field]**. Para obtener más información sobre la interfaz de Email Designer, consulte [esta sección](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
 
    ![](assets/email_perso_field_1.png)
 
@@ -91,11 +91,11 @@ Adobe Campaign ofrece una lista de bloques de contenido preconfigurados. Estos b
 
 >[!NOTE]
 >
->Las siguientes imágenes muestran cómo insertar un bloque de contenido mediante el Diseñador de [correo electrónico](../../designing/using/overview.md) para un correo electrónico.
+>Las siguientes imágenes muestran cómo insertar un bloque de contenido mediante el Diseñador de [correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md) para un correo electrónico.
 
 Para agregar un bloque de contenido:
 
-1. Haga clic dentro de un bloque de texto, haga clic en el **[!UICONTROL Personalize]** icono de la barra de herramientas contextual y seleccione **[!UICONTROL Insert content block]**. Para obtener más información sobre la interfaz de Email Designer, consulte [esta sección](../../designing/using/overview.md#email-designer-interface).
+1. Haga clic dentro de un bloque de texto, haga clic en el **[!UICONTROL Personalize]** icono de la barra de herramientas contextual y seleccione **[!UICONTROL Insert content block]**. Para obtener más información sobre la interfaz de Email Designer, consulte [esta sección](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
 
    ![](assets/email_content_block_1.png)
 
@@ -176,7 +176,7 @@ Para obtener más información sobre esto, consulte [Segmentación de dimensione
 
 **Temas relacionados:**
 
-* [Inserción de un campo de personalización](#inserting-a-personalization-field)
+* [Inserción de un campo personalizado](#inserting-a-personalization-field)
 * [Adición de un bloque de contenido](#adding-a-content-block)
 * [Definición de contenido dinámico en un correo electrónico](#defining-dynamic-content-in-an-email)
 
@@ -216,7 +216,7 @@ Esta opción solo está disponible para los siguientes elementos: DIRECCIÓN, BL
 
 El editor de expresiones se presenta en la sección de edición [de expresiones](../../automating/using/editing-queries.md#about-query-editor) avanzadas.
 
-Estas condiciones adoptan la sintaxis de expresión XTK (por ejemplo, **context.profile.email !=''** o **context.profile.status='0'**). De forma predeterminada, todos los campos están visibles.
+Estas condiciones adoptan la sintaxis de expresión XTK (por ejemplo, **context.profile.email !=''** o **context.profile.status='0'**). De forma predeterminada, todos los campos son visibles.
 
 >[!NOTE]
 >
