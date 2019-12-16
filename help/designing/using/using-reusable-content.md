@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0d5b19ad272c406f1081ed364193c7fb793de07
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -28,7 +28,7 @@ Aprenda a dominar la edición de contenido de correo electrónico. Con Email Des
 
 ### Plantillas de contenido {#content-templates}
 
-Puede administrar el contenido HTML que se ofrecerá en la **[!UICONTROL Templates]** ficha de la página de inicio de [Email Designer](../../designing/using/overview.md) . Las distintas plantillas presentan varias combinaciones de varios tipos de elementos. Por ejemplo, las plantillas 'Calado' tienen márgenes, mientras que las plantillas 'Astro' no tienen uno. Para obtener más información sobre esto, consulte Plantillas [de contenido](#content-templates).
+Puede administrar el contenido HTML que se ofrecerá en la **[!UICONTROL Templates]** ficha de la página de inicio de [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) . Las distintas plantillas presentan varias combinaciones de varios tipos de elementos. Por ejemplo, las plantillas 'Calado' tienen márgenes, mientras que las plantillas 'Astro' no tienen uno. Para obtener más información sobre esto, consulte Plantillas [de contenido](#content-templates).
 
 ![](assets/template_content.png)
 
@@ -52,7 +52,7 @@ El siguiente ejemplo muestra cómo crear una plantilla de contenido de correo el
 
    ![](assets/email_designer_create-template_thumbnail.png)
 
-   Esta miniatura se mostrará en la **[!UICONTROL Templates]** ficha de la página de inicio de [Email Designer](../../designing/using/overview.md#about-the-email-designer) .
+   Esta miniatura se mostrará en la **[!UICONTROL Templates]** ficha de la página de inicio de [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) .
 
 1. Cierre la **[!UICONTROL Properties]** ficha para volver al espacio de trabajo principal.
 1. Agregue componentes de estructura y componentes de contenido que puede personalizar según sea necesario.
@@ -61,7 +61,7 @@ El siguiente ejemplo muestra cómo crear una plantilla de contenido de correo el
    > No puede insertar campos de personalización ni contenido condicional dentro de una plantilla de contenido.
 1. Una vez editada, guarde la plantilla.
 
-Esta plantilla ahora se puede utilizar en cualquier correo electrónico generado con el Diseñador de correo electrónico. Selecciónelo en la **[!UICONTROL Templates]** ficha de la página de inicio de [Email Designer](../../designing/using/overview.md#about-the-email-designer) .
+Esta plantilla ahora se puede utilizar en cualquier correo electrónico generado con el Diseñador de correo electrónico. Selecciónelo en la **[!UICONTROL Templates]** ficha de la página de inicio de [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) .
 
 ![](assets/content_template_new.png)
 
@@ -83,7 +83,7 @@ Al editar un correo electrónico con el Diseñador de correo electrónico, puede
 
 1. Para buscar la plantilla que acaba de crear, vaya a **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]**.
 
-1. Para utilizar la nueva plantilla, selecciónela en la **[!UICONTROL Templates]** ficha de la página de inicio de [Email Designer](../../designing/using/overview.md#about-the-email-designer) .
+1. Para utilizar la nueva plantilla, selecciónela en la **[!UICONTROL Templates]** ficha de la página de inicio de [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) .
 
    ![](assets/content_template_new.png)
 
@@ -170,7 +170,7 @@ Para definir el contenido del correo electrónico, puede añadir elementos de co
 1. Repita este procedimiento para todos los elementos que necesite agregar al correo electrónico.
 1. Guarde su correo electrónico.
 
-Ahora que la estructura de correo electrónico está llena, puede editar el estilo de cada elemento de contenido. Consulte [Edición de un elemento](../../designing/using/styles.md#editing-an-element).
+Ahora que la estructura de correo electrónico está llena, puede editar el estilo de cada elemento de contenido. Consulte [Edición de un elemento](../../designing/using/styles.md).
 
 >[!NOTE]
 >
@@ -271,7 +271,7 @@ To save as a fragment some email content that you created, follow the steps belo
 
 Mediante el Diseñador de correo electrónico, cree un fragmento para cada sección reutilizable. En este ejemplo, creará dos fragmentos: una para el encabezado y otra para el pie de página. A continuación, puede copiar las partes relevantes del contenido existente en estos fragmentos.
 
-Para ello, siga los pasos a continuación:
+Para realizar esto, siga los pasos a continuación:
 
 1. En Adobe Campaign, vaya a **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]** y cree un fragmento para el encabezado. Para obtener más información sobre esto, consulte [Creación de un fragmento](#creating-a-content-fragment)de contenido.
 1. Agregue al fragmento tantos componentes de estructura como necesite.
