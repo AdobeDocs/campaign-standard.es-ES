@@ -1,18 +1,18 @@
 ---
 title: Creación de un correo electrónico
 description: Siga estos pasos para crear un correo electrónico de un solo envío en Adobe Campaign.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 74c7ef35-82c0-4bc4-b1f6-8e74fdcaea3c
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: canales
-content-type: referencia
-topic-tags: mensajes de correo electrónico
+audience: channels
+content-type: reference
+topic-tags: email-messages
 discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -47,7 +47,7 @@ Puede crear un correo electrónico a partir de una [campaña](../../start/using/
 
    ![](assets/email_creation_3.png)
 
-1. Defina y personalice el contenido del mensaje, el nombre del remitente y el asunto mediante el Diseñador de [correo electrónico](../../designing/using/overview.md). Para obtener más información sobre esto, consulte [Acerca del diseño](../../designing/using/overview.md)del contenido del correo electrónico.
+1. Defina y personalice el contenido del mensaje, el nombre del remitente y el asunto mediante el Diseñador de [correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md). Para obtener más información sobre esto, consulte [Acerca del diseño](../../designing/using/designing-content-in-adobe-campaign.md)del contenido del correo electrónico.
 
    ![](assets/email_creation_4.png)
 
