@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 219f0ffeb11f1fda0d4c1c3b6f5dc7b67f9b0df0
+source-git-commit: f8b763ab70514563ab48b0233300e9dda0fba18c
 
 ---
 
@@ -33,8 +33,8 @@ También puede crear un correo electrónico [con contenido](#with-existing-conte
 
 | Sin contenido | Con contenido |
 |---|---|
-| Creación de un correo electrónico desde cero | Conversión de un contenido HTML existente |
-| Creación de contenido a partir de una plantilla lista para usar | Importación de un HTML existente |
+| [Creación de un correo electrónico desde cero](#from-scratch-email) | [Conversión de un contenido HTML existente](#converting-an-html-content) |
+| [Creación de contenido a partir de una plantilla lista para usar](#building-content-from-an-out-of-the-box-template) | [Importación de un HTML existente](#compatibility-mode) |
 
 ## Diseño de correos electrónicos con el editor {#without-existing-content}
 
@@ -90,7 +90,7 @@ Puede agregar varios componentes de contenido al correo electrónico, como imág
 1. En Componentes **** de contenido, arrastre y suelte HTML en uno de los componentes de estructura.
 1. Haga clic en **Mostrar el código** fuente.
 1. Escriba el contenido HTML.
-1. Haga clic en **Guardar**.
+1. Haga clic en **Save**.
 
 ![](assets/html-component-source-code.png)
 
@@ -106,7 +106,7 @@ Puede ajustar el estilo del correo electrónico, por ejemplo, cambiando el relle
 1. A la derecha, en la paleta, vaya a **Relleno**.
 1. Haga clic en el icono de bloqueo para romper la sincronización entre los parámetros superior e inferior o derecho e izquierdo.
 1. Ajuste el **relleno** según sea necesario.
-1. Haga clic en **Guardar**.
+1. Haga clic en **Save**.
 
 ![](assets/padding-quick-start.png)
 
