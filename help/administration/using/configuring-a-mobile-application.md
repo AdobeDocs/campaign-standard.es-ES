@@ -1,25 +1,25 @@
 ---
 title: Configuración de una aplicación móvil
-description: Descubra cómo configurar Adobe Campaign para que envíe notificaciones push o mensajes en la aplicación mediante SDK V4 o el SDK de la plataforma de experiencia.
-page-status-flag: nunca activado
+description: Descubra cómo configurar Adobe Campaign para que envíe notificaciones push o mensajes en la aplicación mediante el SDK V4 o el SDK de la plataforma de experiencia.
+page-status-flag: never-activated
 uuid: 63e1476a-7875-4f48-ba9e-97f1a0007e42
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: administración
-content-type: referencia
-topic-tags: configurar-canales
+audience: administration
+content-type: reference
+topic-tags: configuring-channels
 discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: bdec2b6937be17841be6254c6907556dddf1df40
 
 ---
 
 
 # Configuración de una aplicación móvil{#configuring-a-mobile-application}
 
-Las notificaciones push o los mensajes en la aplicación se reciben en aplicaciones móviles que primero deben configurarse en Adobe Mobile Services según el canal que desee utilizar.
+Las notificaciones push o los mensajes en la aplicación se reciben en aplicaciones móviles que primero deben configurarse en Adobe Campaign Standard en función del canal que desee utilizar.
 
 * Para enviar mensajes en la aplicación y notificaciones push, las aplicaciones móviles deben configurarse en Adobe Campaign aprovechando los SDK de la plataforma Adobe Experience. Consulte [Uso del SDK](#using-adobe-experience-platform-sdk)de la plataforma Adobe Experience.
 
@@ -54,7 +54,7 @@ Siga los pasos a continuación para iniciar la configuración:
 
 1. Configure las reglas para la aplicación en Adobe Launch; consulte [Configuración de la aplicación en Launch](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements)
 1. Configure la aplicación Adobe Launch en Adobe Campaign Standard; consulte [Configuración de la aplicación Adobe Launch en Adobe Campaign](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#SettingupyourAdobeLaunchapplicationinAdobeCampaign).
-1. Agregue una configuración específica de canal a la configuración de aplicaciones móviles; consulte Configuración de aplicaciones específicas de [canal en Adobe Campaign](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
+1. Agregue la configuración específica del canal a la configuración de la aplicación móvil; consulte Configuración de la aplicación específica del [canal en Adobe Campaign](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
 
    ![](assets/launch_2.png)
 
@@ -66,7 +66,7 @@ Un administrador de la interfaz de Adobe Campaign debe configurar las aplicacion
 
 Para poder enviar notificaciones push, debe:
 
-1. Asegúrese de tener acceso al canal en Adobe Campaign **[!UICONTROL Mobile app]** .
+1. Asegúrese de que puede acceder al canal en Adobe Campaign **[!UICONTROL Mobile app]** .
 1. Configure la aplicación móvil en:
 
    * [Espacio de trabajo de Adobe Campaign](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html#SettingupamobileapplicationinAdobeCampaign).
