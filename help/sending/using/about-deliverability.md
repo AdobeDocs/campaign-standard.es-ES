@@ -13,12 +13,12 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44049443f8028ed26089ee0d49944ebac6a62111
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
 
-# Acerca de la capacidad de entrega{#about-deliverability}
+# Acerca de la capacidad del envío{#about-deliverability}
 
 Capacidad de entrega o cómo medir el éxito de las campañas que llegan a la bandeja de entrada de los destinatarios sin rebotar o marcadas como correo no deseado.
 
@@ -38,7 +38,7 @@ La tasa de entregabilidad depende de numerosos factores, en particular:
 
 Para optimizar la entrega de los correos electrónicos de Adobe Campaign, recomendamos que utilice las optimizaciones que se enumeran a continuación. Los problemas de entrega generalmente están vinculados a medidas de protección contra spam implementadas por proveedores de servicios de Internet y administradores de servidores de correo.
 
-La capacidad de entrega de correo electrónico se refiere al conjunto de características que determinan la capacidad de un mensaje para llegar a su destino, a través de una dirección de correo electrónico personal, en un plazo breve y con la calidad esperada en cuanto a contenido y formato. Estas características se dividen en cuatro categorías principales: calidad de datos, mensajes y contenido, enviar infraestructura y reputación. Juntos, forman la base de un exitoso programa de envío de correo electrónico.
+La capacidad de envío de correo electrónico hace referencia al conjunto de características que determinan la capacidad de un mensaje para llegar a su destino a través de una dirección de correo electrónico personal, en poco tiempo y con la calidad esperada en términos de contenido y formato. Estas características se dividen en cuatro categorías principales: calidad de datos, mensaje y contenido, infraestructura de envío y reputación. Juntas forman la base del éxito de un programa de envío de correo electrónico.
 
 La tasa de entrega es el número de correos electrónicos enviados correctamente a sus destinatarios.
 A continuación se muestra una lista de los puntos clave que se deben comprobar para garantizar una buena entrega.
@@ -46,7 +46,7 @@ A continuación se muestra una lista de los puntos clave que se deben comprobar 
 ## Herramientas de distribución {#deliverability-tools}
 
 En primer lugar, comience consultando la documentación sobre las herramientas de entregabilidad proporcionadas con Campaign Standard:
-* [Prácticas recomendadas de entrega](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+* [Prácticas recomendadas relacionadas con los envíos](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 * [Personalización del nombre del remitente](../../designing/using/personalization.md#personalizing-the-sender)
 * [Prueba de la línea de asunto de un correo electrónico](../../sending/using/testing-subject-line-email.md)
 * [Optimización del tiempo de envío](../../sending/using/optimizing-the-sending-time.md)
@@ -56,7 +56,7 @@ En primer lugar, comience consultando la documentación sobre las herramientas d
 * [Recibir alertas cuando se produzcan errores](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Comprensión de los errores de envío](../../sending/using/understanding-delivery-failures.md)
 * [Compresión de la gestión de la cuarentena](../../sending/using/understanding-quarantine-management.md)
-* [Cuarentena vs. lista negra](../../sending/using/understanding-quarantine-management.md#quarantine-vs-blacklisting)
+* [Cuarentena o lista negra](../../sending/using/understanding-quarantine-management.md#quarantine-vs-blacklisting)
 * [Informes dinámicos](../../reporting/using/about-dynamic-reports.md)
 
 ## Comprobación de la configuración de red {#network-configuration}
@@ -73,7 +73,7 @@ Los proveedores de servicios de Internet generalmente tienen un medio prominente
 
 ## Envío a direcciones de honeypot {#honeypot-addresses}
 
-Los ISP y otras organizaciones (consulte http://www.projecthoneypot.org/) utilizan buzones de correo que no corresponden a personas físicas pero que se crean simplemente para engañar a los remitentes de spam. Estas llamadas "ollas de miel" se publican en la web para ser recogidas por los spambots y así atrapar a remitentes ilegítimos. El uso de un mecanismo de doble inclusión impide que este tipo de dirección se agregue a una lista. Al utilizar una lista de terceros, debe estar seguro de los métodos empleados por su mantenedor.
+Los ISP y otras organizaciones (consulte https://www.projecthoneypot.org/) utilizan buzones de correo que no corresponden a personas físicas pero que se crean simplemente para engañar a los remitentes de spam. Estas llamadas "ollas de miel" se publican en la web para ser recogidas por los spambots y así atrapar a remitentes ilegítimos. El uso de un mecanismo de doble inclusión impide que este tipo de dirección se agregue a una lista. Al utilizar una lista de terceros, debe estar seguro de los métodos empleados por su mantenedor.
 
 ## Adaptación del contenido de los mensajes {#adapt-message-content}
 
