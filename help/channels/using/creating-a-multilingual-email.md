@@ -1,18 +1,18 @@
 ---
 title: Creación de un correo electrónico multilingüe
 description: Siga estos pasos para crear destinatarios de correo electrónico multilingües con distintos idiomas preferidos.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: e90f4ec8-14e3-4304-b5fc-bce0ba08a4ef
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: canales
-content-type: referencia
-topic-tags: mensajes de correo electrónico
+audience: channels
+content-type: reference
+topic-tags: email-messages
 discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -37,7 +37,7 @@ La audiencia se basa en perfiles con información de idioma preferido completada
    Si es necesario, agregue variantes con el **[!UICONTROL Add an element]** botón. **[!UICONTROL Default]** no debe eliminarse la variante. Cuando se establece en **[!UICONTROL default]**, se utiliza [el idioma](../../audiences/using/creating-profiles.md) preferido del perfil para elegir la variante. También puede establecer la **[!UICONTROL Default]** variante en cualquier otro idioma.
 
 1. Confirmar creación de correo electrónico: se mostrará el tablero de correo electrónico.
-1. Defina el contenido del correo electrónico de cada variante. En función de la plantilla que haya elegido, puede definir varios temas, varios nombres de remitente o varios contenidos diferentes. Utilice el menú desplegable para desplazarse entre las distintas variantes del elemento. Para obtener más información, consulte la sección del editor [de](../../designing/using/overview.md) contenido.
+1. Defina el contenido del correo electrónico de cada variante. En función de la plantilla que haya elegido, puede definir varios temas, varios nombres de remitente o varios contenidos diferentes. Utilice el menú desplegable para desplazarse entre las distintas variantes del elemento. Para obtener más información, consulte la sección del editor [de](../../designing/using/designing-content-in-adobe-campaign.md) contenido.
 
    ![](assets/multi_selectcontent.png)
 
