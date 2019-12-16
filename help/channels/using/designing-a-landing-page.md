@@ -13,7 +13,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -30,7 +30,7 @@ El contenido de las páginas de aterrizaje se diseña mediante el editor de cont
 
 >[!NOTE]
 >
->Si la instancia se instaló antes de la versión 19.0 de Adobe Campaign Standard, aún tendrá acceso al editor de contenido de correo electrónico heredado. La interfaz, los principios de uso y la configuración son mayormente los mismos que se describen a continuación para las páginas de aterrizaje. Sin embargo, es posible que todas las funciones no estén disponibles ni se mantengan en el editor de contenido de correo electrónico heredado, que ya no se utiliza en la versión 19.0. Para editar rápidamente el contenido del correo electrónico mediante una interfaz de arrastrar y soltar con funciones extendidas, utilice el Diseñador de [correo electrónico](../../designing/using/overview.md).
+>Si la instancia se instaló antes de la versión 19.0 de Adobe Campaign Standard, aún tendrá acceso al editor de contenido de correo electrónico heredado. La interfaz, los principios de uso y la configuración son mayormente los mismos que se describen a continuación para las páginas de aterrizaje. Sin embargo, es posible que todas las funciones no estén disponibles ni se mantengan en el editor de contenido de correo electrónico heredado, que ya no se utiliza en la versión 19.0. Para editar rápidamente el contenido del correo electrónico mediante una interfaz de arrastrar y soltar con funciones extendidas, utilice el Diseñador de [correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md).
 
 Esta página describe las características específicas del editor de contenido de la página de aterrizaje. Para obtener más información sobre las acciones comunes a una o varias actividades de marketing, consulte estas secciones en la guía **Diseño de contenido** de correo electrónico:
 
@@ -38,7 +38,7 @@ Esta página describe las características específicas del editor de contenido 
 * [Adición de un bloque](../../designing/using/personalization.md#adding-a-content-block)de contenido.
 * [Inserción de un enlace](../../designing/using/links.md#inserting-a-link).
 * [Inserción de imágenes](../../designing/using/images.md).
-* [Prácticas recomendadas generales para el diseño](../../designing/using/overview.md#content-design-best-practices)de contenido.
+* [Prácticas recomendadas generales para el diseño](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)de contenido.
 
 >[!NOTE]
 >Si tiene una página de aterrizaje que ya está predefinida en formato HTML, puede importarla directamente con el **[!UICONTROL Change content]** botón.
