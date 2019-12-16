@@ -1,18 +1,18 @@
 ---
 title: Vista previa de mensajes
 description: Obtenga información sobre cómo obtener una vista previa de un mensaje en el editor de contenido o en el Diseñador de correo electrónico.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 8dffca95-59fe-4e9b-93cb-73b33ffde020
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: enviar
-content-type: referencia
-topic-tags: preparar y probar mensajes
+audience: sending
+content-type: reference
+topic-tags: preparing-and-testing-messages
 discoiquuid: 8428f8ac-8ef5-46cd-9d93-10ec0ecd3ded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 Después de agregar perfiles de prueba en la **[!UICONTROL Audience]** ventana, puede obtener una vista previa del mensaje para comprobar su personalización y cómo verán la entrega los destinatarios.
 
-1. En el Diseñador de [correo electrónico](../../designing/using/overview.md), haga clic en el **[!UICONTROL Preview]** botón .
+1. En el Diseñador de [correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md), haga clic en el **[!UICONTROL Preview]** botón .
 
    ![](assets/sending_preview.png)
 
