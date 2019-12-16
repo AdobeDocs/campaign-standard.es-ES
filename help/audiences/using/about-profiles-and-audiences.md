@@ -12,7 +12,7 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -39,7 +39,7 @@ Identifique a los clientes de forma más eficaz en todos sus canales mediante pe
 
 >[!CAUTION]
 >
->Siempre debe respetar la directiva [de uso aceptable de](http://www.adobe.com/legal/terms/aup.html)Adobe Campaign.
+>Siempre debe respetar la directiva [de uso aceptable de](https://www.adobe.com/legal/terms/aup.html)Adobe Campaign.
 
 El Reglamento General de Protección de Datos (GDPR) es la nueva normativa sobre privacidad de la Unión Europea que unifica y moderniza los requisitos de protección de datos. El RGPD se aplica a los clientes de Adobe Campaign que albergan datos de sujetos de datos que residan en la UE. Además de las funciones de privacidad ya disponibles en Adobe Campaign (incluida la administración de consentimiento, la configuración de retención de datos y las funciones de usuario), aprovechamos esta oportunidad en nuestra función de procesador de datos para incluir funciones adicionales, a fin de facilitar su preparación como controlador de datos para determinadas solicitudes de RGPD.
 
