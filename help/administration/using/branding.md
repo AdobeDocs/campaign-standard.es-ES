@@ -1,19 +1,19 @@
 ---
 title: Marcas
 description: Descubra todas las herramientas disponibles para administrar las identidades de marca.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: d66ac5a2-2ae1-4870-b48e-7f276744ffdd
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: administración
-content-type: referencia
+audience: administration
+content-type: reference
 topic-tags: application-settings
 discoiquuid: cbb1dcec-3bc6-4013-87fa-27d0e5d32bf8
-context-tags: marca,descripción general;marca,principal
+context-tags: branding,overview;branding,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 ---
 
@@ -28,17 +28,17 @@ Los administradores técnicos pueden definir una o varias marcas para introducir
 
 ## Configuración y uso de marcas {#configuring-and-using-brands}
 
-El principio principal de configuración y uso de marcas es:
+El principio principal de la configuración y el uso de marcas es:
 
 1. Cree y configure la marca: esta operación requiere permisos específicos y la realiza el administrador técnico de Adobe Campaign.
-1. Cree una o varias plantillas de página de envío y de aterrizaje para esta marca. Consulte la sección [Creación de una plantilla](../../start/using/about-templates.md) .
+1. Cree una o varias plantillas de página de envío y de aterrizaje para esta marca. Consulte la sección [Creación de una plantilla](../../start/using/marketing-activity-templates.md) .
 1. Cree mensajes y páginas de aterrizaje según esta plantilla. Consulte las secciones [Creación de un correo electrónico](../../channels/using/creating-an-email.md) y [Creación de una página](../../channels/using/designing-a-landing-page.md) de aterrizaje.
 
 >[!CAUTION]
 >
 >Los usuarios finales no pueden crear ni modificar marcas: estas operaciones deben ser realizadas por el administrador técnico de Adobe Campaign. Para cualquier solicitud, póngase en contacto con el servicio de atención al cliente de Adobe. No se puede utilizar la marca múltiple en el contexto de la mensajería transaccional. Para obtener más información sobre esto, consulte Mensajes [transaccionales y marca](../../channels/using/about-transactional-messaging.md#permissions-and-branding).
 
-Las marcas se encuentran en el **[!UICONTROL Administration > Instance settings > Brand configuration]** menú.
+Las marcas se encuentran en el **[!UICONTROL Administration > Instance settings > Brand configuration]**menú.
 
 De forma predeterminada, una marca recién creada solo es visible para los usuarios asignados con los derechos correspondientes por el administrador.
 
@@ -53,7 +53,7 @@ Una **marca** se define con las siguientes características:
    * **Dirección URL** del sitio web y etiqueta **del** sitio web de la marca
    * **Logotipo de marca**
 
-* **[!UICONTROL Header parameters of sent emails]** que personaliza lo que verán los destinatarios de las campañas. Esta sección contiene los campos siguientes:
+* **[!UICONTROL Header parameters of sent emails]**que personaliza lo que verán los destinatarios de las campañas. Esta sección contiene los campos siguientes:
 
    ![](assets/branding_04_header.png)
 
@@ -64,7 +64,7 @@ Una **marca** se define con las siguientes características:
    * **Error (dirección de correo electrónico)** con la dirección de correo electrónico que se utilizará en caso de error.
    >[!CAUTION]
    >
-   >Después de actualizar los parámetros de encabezado de los correos electrónicos, si el nombre y la dirección de correo electrónico del remitente no han cambiado en el correo electrónico creado a partir de la plantilla, compruebe la configuración avanzada de la plantilla.
+   >Después de haber actualizado los parámetros de encabezado de los correos electrónicos, si el nombre y la dirección de correo electrónico del remitente no han cambiado en el correo electrónico creado a partir de la plantilla, compruebe la configuración avanzada de la plantilla.
 
 * **Los servidores expuestos en Internet** definen los servidores utilizados para el seguimiento pero también para el acceso a la página de aterrizaje. Esta sección contiene los campos siguientes:
 
@@ -88,11 +88,11 @@ Para utilizar los parámetros definidos para una marca, debe estar vinculado a u
 
 >[!NOTE]
 >
->Para obtener más información sobre la creación de una plantilla, consulte la sección [Creación de una plantilla](../../start/using/about-templates.md) .
+>Para obtener más información sobre la creación de una plantilla, consulte la sección [Creación de una plantilla](../../start/using/marketing-activity-templates.md) .
 
 Una vez creada la plantilla, puede vincularla a una marca. Para ello:
 
-1. Haga clic en el **[!UICONTROL Edit properties]** botón para acceder a las propiedades de la plantilla.
+1. Haga clic en el **[!UICONTROL Edit properties]**botón para acceder a las propiedades de la plantilla.
 
    ![](assets/branding_04.png)
 
@@ -100,11 +100,11 @@ Una vez creada la plantilla, puede vincularla a una marca. Para ello:
 
    >[!NOTE]
    >
-   >De forma predeterminada, **[!UICONTROL Default brand (branding)]** se selecciona la opción.
+   >De forma predeterminada, **[!UICONTROL Default brand (branding)]**se selecciona la opción.
 
    ![](assets/branding_05.png)
 
-   Para ver cómo está configurada la marca seleccionada, haga clic en el icono **[!UICONTROL Navigate to the detail of the element selected]** .
+   Para ver cómo está configurada la marca seleccionada, haga clic en el icono **[!UICONTROL Navigate to the detail of the element selected]**.
 
    ![](assets/branding_06.png)
 
@@ -122,7 +122,7 @@ En este ejemplo, vamos a crear una nueva marca relacionada con el turismo y util
 >
 >La configuración de marca solo la administra Adobe, ya que requiere permisos específicos y configuración técnica.
 
-1. El administrador de Adobe Campaign crea la marca en **[!UICONTROL Administration > Instance settings > Brand configuration]**. Agrega el elemento **Vacaciones en los trópicos** del menú avanzado y configura el **[!UICONTROL ID]** y el **[!UICONTROL Header parameters of sent emails]** de la marca.
+1. El administrador de Adobe Campaign crea la marca en **[!UICONTROL Administration > Instance settings > Brand configuration]**. Agrega el elemento** Vacaciones en los trópicos **desde el menú avanzado y configura el**[!UICONTROL ID]** y el **[!UICONTROL Header parameters of sent emails]**de la marca.
 
    ![](assets/branding_07.png)
 
@@ -157,11 +157,11 @@ Como administrador de envíos, usted se encarga de crear las plantillas de entre
 
 Para crear un correo electrónico vinculado a una marca, siga los pasos a continuación:
 
-1. Haga clic en el **[!UICONTROL Create]** botón en el **[!UICONTROL Marketing activities]** menú.
+1. Haga clic en el **[!UICONTROL Create]**botón en el**[!UICONTROL Marketing activities]** menú.
 
    ![](assets/branding_14.png)
 
-1. Seleccione la **[!UICONTROL Email]** actividad y, a continuación, elija la plantilla vinculada a la nueva marca.
+1. Seleccione la **[!UICONTROL Email]**actividad y, a continuación, elija la plantilla vinculada a la nueva marca.
 
    ![](assets/branding_15.png)
 
