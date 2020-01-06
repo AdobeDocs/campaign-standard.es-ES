@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: db2495f66535ad5d1a64143f91e5db9cca54aca6
 
 ---
 
@@ -111,7 +111,7 @@ Se ha agregado un nuevo artículo de ayuda, con información relacionada con la 
 
 Se ha actualizado la sección que describe los fragmentos y las plantillas de contenido. [Más información](../../designing/using/using-reusable-content.md#content-templates)
 
-Se ha añadido una nueva sección sobre cómo guardar contenido de correo electrónico como plantilla en el Diseñador de correo electrónico. [Más información](../../start/using/about-templates.md#saving-content-as-template)
+Se ha añadido una nueva sección sobre cómo guardar contenido de correo electrónico como plantilla en el Diseñador de correo electrónico. [Más información](../../designing/using/using-reusable-content.md#saving-content-as-template)
 
 ## Versión 19.3: julio de 2019 {#release-19-3---july-2019}
 
@@ -359,13 +359,13 @@ Se ha añadido una nueva nota técnica sobre el protocolo y la configuración de
 
 Se ha actualizado la documentación de la integración de Experience Manager con Adobe Campaign. [Más información](../../reporting/using/creating-a-custom-profile-dimension.md)
 
-La guía "Diseño de contenido" se ha reorganizado completamente, especialmente para presentar los dos editores que le permiten diseñar contenido para correos electrónicos. [Más información](../../designing/using/designing-content-in-adobe-campaign.md)
+La guía &quot;Diseño de contenido&quot; se ha reorganizado completamente, especialmente para presentar los dos editores que le permiten diseñar contenido para correos electrónicos. [Más información](../../designing/using/designing-content-in-adobe-campaign.md)
 
 Aprenda a hacer que el contenido externo se pueda editar completamente con el SDK creativo creando fragmentos a partir de los correos electrónicos existentes. [Más información](../../designing/using/designing-from-scratch.md)
 
 La lista de atributos HTML para la compatibilidad total con Creative Designer ya está disponible en esta [sección](../../designing/using/using-existing-content.md#editing-existing-contents-with-the-email-designer).
 
-Se ha añadido información sobre el idioma predeterminado de la plantilla multilingüe. [Más información](../../start/using/creating-a-multilingual-template.md)
+Se ha añadido información sobre el idioma predeterminado de la plantilla multilingüe. [Más información](../../channels/using/multilingual-messages-template.md)
 
 La guía Usuarios y seguridad se ha actualizado para reflejar la depreciación de la capacidad de unidad geográfica de las nuevas instancias de Campaign Standard, así como las instancias existentes sin crear unidades geográficas, a partir de la versión 18.7. [Más información](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
@@ -415,7 +415,7 @@ Se agregó información sobre los tipos de registro de seguimiento. [Más inform
 
 La sección de actividad de consulta se ha actualizado con ejemplos de consultas. [Más información](../../automating/using/query.md#query-samples)
 
-La sección dedicada a la lista negra se ha cambiado a "Explicación de los procesos de inclusión y exclusión". Se ha actualizado con información sobre cómo administrar la inclusión en canales específicos y cómo configurar las páginas de aterrizaje para administrar la inclusión y la exclusión. [Más información](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+La sección dedicada a la lista negra se ha cambiado a &quot;Explicación de los procesos de inclusión y exclusión&quot;. Se ha actualizado con información sobre cómo administrar la inclusión en canales específicos y cómo configurar las páginas de aterrizaje para administrar la inclusión y la exclusión. [Más información](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Conozca las prácticas recomendadas para utilizar los servidores SFTP alojados por Adobe. [Más información](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -473,15 +473,15 @@ Se ha añadido información sobre cómo preparar un mensaje en una entrega [Más
 
 Las notas de la versión se han reorganizado en dos páginas para obtener una vista más global de las distintas versiones: Notas de la versión [más recientes](../../rn/using/release-notes.md) y notas de la versión [anterior](../../rn/using/release-notes-2015-2016.md)
 
-La sección **[!UICONTROL Working with typologies]** se ha actualizado para mejorar la visibilidad. [Más información](../../administration/using/about-typology-rules.md)
+La sección **[!UICONTROL Working with typologies]**se ha actualizado para mejorar la visibilidad.[Más información](../../administration/using/about-typology-rules.md)
 
-Ya está disponible una nueva opción que permite obtener rendimiento al definir muchos datos adicionales en un **[!UICONTROL Query]** archivo. [Más información](../../automating/using/query.md)
+Ya está disponible una nueva opción que permite obtener rendimiento al definir muchos datos adicionales en un **[!UICONTROL Query]**archivo.[Más información](../../automating/using/query.md)
 
 El ejemplo de importación de perfiles se ha actualizado con algunas sugerencias para que los perfiles estén listos para recibir correos directos. [Más información](../../automating/using/importing-data.md)
 
-Hay una nueva actividad disponible en los flujos de trabajo: la **[!UICONTROL Enrichment]** actividad. [Más información](../../automating/using/enrichment.md)
+Hay una nueva actividad disponible en los flujos de trabajo: la **[!UICONTROL Enrichment]**actividad.[Más información](../../automating/using/enrichment.md)
 
-La **[!UICONTROL Subscription Services]** actividad se ha actualizado para admitir más casos de uso, incluido el uso de un solo archivo para actualizar las suscripciones a varios servicios. [Más información](../../automating/using/subscription-services.md)
+La **[!UICONTROL Subscription Services]**actividad se ha actualizado para admitir más casos de uso, incluido el uso de un solo archivo para actualizar las suscripciones a varios servicios.[Más información](../../automating/using/subscription-services.md)
 
 Se ha añadido un caso de uso paso a paso sobre cómo preparar una entrega. [Más información](../../sending/using/preparing-the-send.md)
 
@@ -491,7 +491,7 @@ Se ha añadido un caso de uso paso a paso sobre cómo usar la respuesta automát
 
 Se ha añadido información sobre cómo enviar una entrega en función de los husos horarios de los usuarios en un flujo de trabajo recurrente. [Más información](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow)
 
-Se ha reorganizado la sección **[!UICONTROL Customizing a push notification]** con casos de uso paso a paso. [Más información](../../channels/using/customizing-a-push-notification.md)
+Se ha reorganizado la sección **[!UICONTROL Customizing a push notification]**con casos de uso paso a paso.[Más información](../../channels/using/customizing-a-push-notification.md)
 
 Nueva sección dedicada a la administración de listas negras. [Más información](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
@@ -539,7 +539,7 @@ Creación de contenido: Importar desde una dirección URL: [Más información](.
 
 Se ha actualizado la muestra de prueba A/B. [Más información](../../channels/using/designing-an-a-b-test-email.md)
 
-Nueva nota técnica sobre cómo crear o actualizar datos de perfil cuando una aplicación móvil envía datos de "Recopilación de PII". [Más información](https://helpx.adobe.com/campaign/kb/acs-updating-profile-based-on-subscription.html)
+Nueva nota técnica sobre cómo crear o actualizar datos de perfil cuando una aplicación móvil envía datos de &quot;Recopilación de PII&quot;. [Más información](https://helpx.adobe.com/campaign/kb/acs-updating-profile-based-on-subscription.html)
 
 Se ha añadido una sección sobre las nuevas funciones de seguimiento de exportación. [Más información](../../administration/using/auditing-export-logs.md)
 
@@ -551,7 +551,7 @@ Se han actualizado varias capturas de pantalla para reflejar los cambios en las 
 
 Se ha movido y reorganizado la sección [Envío de alertas](../../sending/using/receiving-alerts-when-failures-happen.md) .
 
-La sección "Recursos personalizados" se ha aclarado con un procedimiento más detallado sobre cómo [definir filtros](../../developing/using/configuring-filter-definition.md).
+La sección &quot;Recursos personalizados&quot; se ha aclarado con un procedimiento más detallado sobre cómo [definir filtros](../../developing/using/configuring-filter-definition.md).
 
 Se ha actualizado y aclarado la [nota técnica](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) sobre cómo integrar el SDK de Adobe Marketing Cloud Mobile con una aplicación móvil para recibir notificaciones push de Adobe Campaign Standard.
 
@@ -605,7 +605,7 @@ Nuevas funciones de cifrado y hash agregadas con ejemplos. [Más información](.
 
 Se ha actualizado la sección sobre la actividad del flujo de trabajo de archivos de transferencia. [Más información](../../automating/using/transfer-file.md)
 
-Se agregó información sobre la opción "Solicitar confirmación antes de enviar mensajes" en la actividad del flujo de trabajo de envío de correo electrónico. [Más información](../../automating/using/email-delivery.md)
+Se agregó información sobre la opción &quot;Solicitar confirmación antes de enviar mensajes&quot; en la actividad del flujo de trabajo de envío de correo electrónico. [Más información](../../automating/using/email-delivery.md)
 
 ## Versión 17.7: julio de 2017 {#release-17-7---july-2017}
 
@@ -649,11 +649,11 @@ Email BCC - [Más información](../../administration/using/configuring-email-cha
 
 ### Otras actualizaciones de la documentación incluidas en la versión {#other-documentation-updates-coming-with-the-release-13}
 
-La guía "Entregas" se ha reorganizado y se ha cambiado el nombre de "Canales". [Más información](../../channels/using/discovering-communication-channels.md)
+La guía &quot;Entregas&quot; se ha reorganizado y se ha cambiado el nombre de &quot;Canales&quot;. [Más información](../../channels/using/discovering-communication-channels.md)
 
 Se han actualizado numerosas capturas de pantalla para reflejar los cambios en la interfaz.
 
-Ahora hay disponible una nueva nota técnica: "Integración del SDK de Adobe Mobile con su aplicación móvil". [Más información](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
+Ahora hay disponible una nueva nota técnica: &quot;Integración del SDK de Adobe Mobile con su aplicación móvil&quot;. [Más información](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
 
 Se han actualizado las instrucciones para configurar el servicio principal Personas o la integración de Audience Manager con Adobe Campaign. [Más información](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
