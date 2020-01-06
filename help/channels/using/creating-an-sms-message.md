@@ -1,19 +1,19 @@
 ---
 title: Creación de un mensaje SMS
 description: Siga estos pasos para crear un mensaje SMS de un solo envío en Adobe Campaign.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 591ae97e-2d19-4f93-be4b-d8d20f1d2d12
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: canales
-content-type: referencia
+audience: channels
+content-type: reference
 topic-tags: sms-messages
 discoiquuid: b27381a9-19e5-4b65-b194-c72f475ba54d
-delivercontext-tags: deliveryCreation,Wizard
+delivercontext-tags: deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 ---
 
@@ -26,7 +26,7 @@ Los parámetros avanzados de SMS se detallan en la sección de configuración [d
 
 Para crear y enviar mensajes SMS a un teléfono móvil, necesita:
 
-* Cuenta **[!UICONTROL Routing]** externa configurada en el **[!UICONTROL Mobile (SMS)]** canal con el **[!UICONTROL Bulk delivery]** modo. For more on this, refer to the [Routing](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) section.
+* Cuenta **[!UICONTROL Routing]**externa configurada en el**[!UICONTROL Mobile (SMS)]** canal con el **[!UICONTROL Bulk delivery]**modo. For more on this, refer to the[Routing](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)section.
 * Una plantilla de entrega que está correctamente vinculada a esta cuenta externa.
 
 1. Crear un envío de SMS. Puede hacerlo desde la página [de](../../start/using/interface-description.md#home-page)inicio de Adobe Campaign, en una [campaña](../../start/using/marketing-activities.md#creating-a-marketing-activity) o en la lista [de actividades de](../../start/using/programs-and-campaigns.md#creating-a-campaign)marketing.
@@ -51,7 +51,7 @@ Para crear y enviar mensajes SMS a un teléfono móvil, necesita:
 
    ![](assets/sms_creation_3.png)
 
-1. Agrega contenido a tu SMS. También puede definir el contenido haciendo clic en la sección **[!UICONTROL Content]** del panel de envío, una vez que se haya finalizado la creación de SMS. Consulte [Acerca del diseño](../../channels/using/about-sms-and-push-content-design.md)de contenido SMS.
+1. Agrega contenido a tu SMS. También puede definir el contenido haciendo clic en la sección **[!UICONTROL Content]**del panel de envío, una vez que se haya finalizado la creación de SMS. Consulte[Acerca del diseño](../../channels/using/about-sms-and-push-content-design.md)de contenido SMS.
 
    Si ha insertado campos de personalización o texto condicional en el contenido de su mensaje SMS, la longitud del mensaje puede variar de un destinatario a otro. de hecho, estos factores pueden introducir caracteres que no se tienen en cuenta en la codificación GSM. Por este motivo, la longitud del mensaje debe evaluarse una vez realizada la personalización. See [Personalizing SMS messages](../../channels/using/personalizing-sms-messages.md).
 
@@ -67,8 +67,8 @@ Para crear y enviar mensajes SMS a un teléfono móvil, necesita:
    >
    >Puede establecer reglas de fatiga globales entre canales que excluyan automáticamente perfiles superpuestos de las campañas. Consulte Reglas [de fatiga](../../administration/using/fatigue-rules.md).
 
-1. Envíe pruebas para comprobar y validar el mensaje y supervisar el procesamiento de la bandeja de entrada. Consulte la sección [Enviar prueba](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs) .
-1. Confirme el envío del mensaje. El envío comenzará según la programación que haya definido.
+1. Envíe pruebas para comprobar y validar el mensaje y supervisar el procesamiento de la bandeja de entrada. Consulte la sección [Prueba](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs) de envío.
+1. Confirme el envío del mensaje. El envío empezará según la programación que haya definido.
 
    ![](assets/sms_creation_7.png)
 
@@ -79,6 +79,6 @@ Una vez finalizado el envío, puede empezar a medir el impacto del mensaje con i
 **Temas relacionados:**
 
 * [Acerca de SMS y push content edition](../../channels/using/about-sms-and-push-content-design.md)
-* [Administración de plantillas](../../start/using/about-templates.md)
+* [Administración de plantillas](../../start/using/marketing-activity-templates.md)
 * [Creación de un vídeo de envío](https://helpx.adobe.com/campaign/kt/acs/using/acs-creating-a-sms-delivery-feature-video-use.html) SMS
 
