@@ -13,7 +13,7 @@ context-tags: service,wizard;service,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 ---
 
@@ -24,15 +24,15 @@ Para poder administrar las suscripciones, primero debe crear un servicio y confi
 
 Para configurar un servicio:
 
-1. En el menú avanzado **[!UICONTROL Profiles & audiences]** &gt; **[!UICONTROL Services]** a través del logotipo de Adobe Campaign, agregue un nuevo servicio o seleccione uno existente. Si crea un nuevo servicio, simplemente siga los pasos que se muestran en la pantalla.
+1. En el menú avanzado **[!UICONTROL Profiles & audiences]**>**[!UICONTROL Services]** a través del logotipo de Adobe Campaign, agregue un nuevo servicio o seleccione uno existente. Si crea un nuevo servicio, simplemente siga los pasos que se muestran en la pantalla.
 
-   Hay disponible una plantilla de servicio predeterminada. Esta plantilla está preconfigurada con páginas de aterrizaje y correos electrónicos de confirmación predeterminados. Puede crear otras plantillas para definir configuraciones específicas. For more on this, refer to the [Managing templates](../../start/using/about-templates.md) section.
+   Hay disponible una plantilla de servicio predeterminada. Esta plantilla está preconfigurada con páginas de aterrizaje y correos electrónicos de confirmación predeterminados. Puede crear otras plantillas para definir configuraciones específicas. For more on this, refer to the [Managing templates](../../start/using/marketing-activity-templates.md) section.
 
-1. En la **[!UICONTROL Service properties]** sección, a la que se accede a través del ![](assets/edit_darkgrey-24px.png) botón del panel de servicios, configure los mensajes de confirmación de suscripciones y cancelaciones.
+1. En la **[!UICONTROL Service properties]**sección, a la que se accede a través del![](assets/edit_darkgrey-24px.png)botón del panel de servicios, configure los mensajes de confirmación de suscripciones y cancelaciones.
 
    ![](assets/lp_service_parameters.png)
 
-1. Fill in the **[!UICONTROL Service label]** field. La etiqueta de servicio es obligatoria cuando se utiliza un mensaje de confirmación personalizado.
+1. Fill in the **[!UICONTROL Service label]**field. La etiqueta de servicio es obligatoria cuando se utiliza un mensaje de confirmación personalizado.
 
 1. Seleccione una plantilla de mensaje de confirmación para suscripciones y suscripciones. Hay tres modos disponibles:
 
@@ -41,9 +41,9 @@ Para configurar un servicio:
 
       >[!NOTE]
       >
-      >Para modificar un mensaje predeterminado, haga clic en su etiqueta en la sección **[!UICONTROL Service properties]** o selecciónelo en la lista de mensajes transaccionales de Adobe Campaign, después de marcar la **[!UICONTROL Show internal transactional messages]** casilla.
+      >Para modificar un mensaje predeterminado, haga clic en su etiqueta en la sección **[!UICONTROL Service properties]**o selecciónelo en la lista de mensajes transaccionales de Adobe Campaign, después de marcar la**[!UICONTROL Show internal transactional messages]** casilla.
 
-   * **[!UICONTROL Custom message]**:: este modo le permite gestionar mensajes de confirmación personalizados, específicos para cada servicio. A continuación, seleccione el **[!UICONTROL Custom subscription event configuration]** que está asociado a una plantilla de mensaje [](../../channels/using/about-transactional-messaging.md) transaccional específica. Para obtener más información sobre esto, consulte [Confirmación de la suscripción a un servicio](../../audiences/using/confirming-subscription-to-a-service.md).
+   * **[!UICONTROL Custom message]**:: este modo le permite gestionar mensajes de confirmación personalizados, específicos para cada servicio. A continuación, seleccione el**[!UICONTROL Custom subscription event configuration]** que está asociado a una plantilla de mensaje [](../../channels/using/about-transactional-messaging.md) transaccional específica. Para obtener más información sobre esto, consulte [Confirmación de la suscripción a un servicio](../../audiences/using/confirming-subscription-to-a-service.md).
 
 1. Guarde el servicio. Ahora está listo para ser utilizado.
 
