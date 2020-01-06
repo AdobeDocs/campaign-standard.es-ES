@@ -12,7 +12,7 @@ discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: cb5cc55c431cbe6050699a35ef2fff270f869dee
 
 ---
 
@@ -21,20 +21,20 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 Puede enviar un correo electrónico multilingüe a perfiles con diferentes idiomas preferidos: cada perfil recibirá una variante del correo electrónico en su idioma preferido.
 
-Para ello, compruebe que dispone de una plantilla de correo electrónico multilingüe. Si no es así, aprenda a crear uno en [esta sección](../../start/using/creating-a-multilingual-template.md).
+Para ello, compruebe que dispone de una plantilla de correo electrónico multilingüe. Si no es así, aprenda a crear uno en [esta sección](../../channels/using/multilingual-messages-template.md).
 
 La audiencia se basa en perfiles con información de idioma preferido completada.
 
-1. Cree un nuevo correo electrónico basado en una plantilla [](../../start/using/creating-a-multilingual-template.md)multilingüe.
+1. Cree un nuevo correo electrónico basado en una plantilla [](../../channels/using/multilingual-messages-template.md)multilingüe.
 
    ![](assets/multi_create1.png)
 
 1. Defina las propiedades generales y la audiencia de destino del correo electrónico, al igual que para un correo electrónico estándar. Consulte la sección [Creación de audiencias](../../audiences/using/creating-audiences.md) .
-1. En el cuarto paso del asistente de creación, defina las opciones de variante. Si la plantilla [](../../start/using/creating-a-multilingual-template.md) multilingüe ya contiene todos los parámetros correctos, puede hacer clic directamente en el **[!UICONTROL Create]** botón.
+1. En el cuarto paso del asistente de creación, defina las opciones de variante. Si la plantilla [](../../channels/using/multilingual-messages-template.md) multilingüe ya contiene todos los parámetros correctos, puede hacer clic directamente en el **[!UICONTROL Create]**botón.
 
    ![](assets/multi_create4.png)
 
-   Si es necesario, agregue variantes con el **[!UICONTROL Add an element]** botón. **[!UICONTROL Default]** no debe eliminarse la variante. Cuando se establece en **[!UICONTROL default]**, se utiliza [el idioma](../../audiences/using/creating-profiles.md) preferido del perfil para elegir la variante. También puede establecer la **[!UICONTROL Default]** variante en cualquier otro idioma.
+   Si es necesario, agregue variantes con el **[!UICONTROL Add an element]**botón.**[!UICONTROL Default]** no debe eliminarse la variante. Cuando se establece en **[!UICONTROL default]**, se utiliza[el idioma](../../audiences/using/creating-profiles.md)preferido del perfil para elegir la variante. También puede establecer la**[!UICONTROL Default]** variante en cualquier otro idioma.
 
 1. Confirmar creación de correo electrónico: se mostrará el tablero de correo electrónico.
 1. Defina el contenido del correo electrónico de cada variante. En función de la plantilla que haya elegido, puede definir varios temas, varios nombres de remitente o varios contenidos diferentes. Utilice el menú desplegable para desplazarse entre las distintas variantes del elemento. Para obtener más información, consulte la sección del editor [de](../../designing/using/designing-content-in-adobe-campaign.md) contenido.
