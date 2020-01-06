@@ -1,19 +1,19 @@
 ---
 title: Creación de un flujo de trabajo
 description: Esta sección detalla los principios fundamentales y las prácticas recomendadas para crear un nuevo flujo de trabajo.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 11374f64-8d34-40da-937b-09f419250f4c
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: automatizar
-content-type: referencia
+audience: automating
+content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: c26fcb0e-19d5-4bd5-b7d6-2d22ce92ad90
-context-tags: flujo de trabajo,asistente;flujo de trabajo,principal
+context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 ---
 
@@ -38,7 +38,7 @@ La creación de una actividad de marketing se detalla en la sección [Creación 
 
    >[!NOTE]
    >
-   >Cada actividad de marketing ofrece varios tipos de forma predeterminada. Esto le permite preconfigurar ciertos parámetros según sus necesidades. For more information, refer to the [Managing templates](../../start/using/about-templates.md) section.
+   >Cada actividad de marketing ofrece varios tipos de forma predeterminada. Esto le permite preconfigurar ciertos parámetros según sus necesidades. For more information, refer to the [Managing templates](../../start/using/marketing-activity-templates.md) section.
 
 1. Introduzca las propiedades generales del flujo de trabajo.
 
@@ -77,7 +77,7 @@ Las actividades se agrupan por categorías dentro de las diferentes secciones de
 
 Creación del diagrama:
 
-1. Agregue una actividad arrastrándola desde la paleta y colocándola en el diagrama.
+1. Para agregar una actividad, arrástrela desde la paleta y colóquela en el diagrama.
 
    Por ejemplo, agregue una actividad de **inicio** y, a continuación, una actividad de envío por **correo electrónico** en el diagrama.
 
@@ -91,17 +91,17 @@ Creación del diagrama:
 
    >[!NOTE]
    >
-   >También puede duplicar las actividades existentes copiándolas y pegándolas. De este modo, se conservan los valores definidos originalmente. For more on this, refer to [Duplicating workflow activities](../../automating/using/workflow-interface.md#duplicating-workflow-activities).
+   >También puede duplicar las actividades existentes copiándolas y pegándolas. De este modo, se conservan los ajustes que se definieron originalmente. For more on this, refer to [Duplicating workflow activities](../../automating/using/workflow-interface.md#duplicating-workflow-activities).
 
 Una vez que las actividades de flujo de trabajo estén vinculadas, puede personalizar las transiciones entre ellas con la **etiqueta** que desee. Para ello, haga doble clic en la transición para acceder a sus propiedades.
 
-Además, **[!UICONTROL Targeting]** y **[!UICONTROL Data management (ETL)]** las actividades le permiten definir códigos **de** segmentos para sus transiciones de salida. A continuación, puede crear informes basados en estos códigos de segmento para medir la eficacia de las campañas de marketing. Para obtener más información, consulte [esta sección](../../reporting/using/creating-a-report-workflow-segment.md).
+Además, **[!UICONTROL Targeting]**y**[!UICONTROL Data management (ETL)]** las actividades le permiten definir códigos **de** segmentos para sus transiciones de salida. A continuación, puede crear informes basados en estos códigos de segmento para medir la eficacia de las campañas de marketing. Para obtener más información, consulte [esta sección](../../reporting/using/creating-a-report-workflow-segment.md).
 
 **Casos de uso del flujo de trabajo:**
 
 * [Caso de uso: Crear un envío de correo electrónico una vez a la semana](../../automating/using/workflow-weekly-offer.md)
 * [Caso de uso: Creación de una entrega segmentada en una ubicación](../../automating/using/workflow-segmentation-location.md)
-* [Caso de uso:Creación de entregas con un complemento](../../automating/using/workflow-created-query-with-complement.md)
+* [Caso de uso: Creación de entregas con un complemento](../../automating/using/workflow-created-query-with-complement.md)
 * [Caso de uso: Flujo de trabajo de redireccionamiento que envía una nueva entrega a no abridores](../../automating/using/workflow-cross-channel-retargeting.md)
 
 ## Configuración de actividades {#configuring-activities}
