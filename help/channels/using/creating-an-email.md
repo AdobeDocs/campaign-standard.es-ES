@@ -12,7 +12,7 @@ discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: c458acd74eae4be614336afcc2f1d2619563670a
 
 ---
 
@@ -23,13 +23,13 @@ Puede crear un correo electrónico a partir de una [campaña](../../start/using/
 
 1. Una vez que haya empezado a crear una actividad de marketing por correo electrónico, seleccione la plantilla que desee utilizar.
 
-   De forma predeterminada, puede elegir entre varias plantillas para cada actividad de marketing. Esto le permite preconfigurar ciertos parámetros según sus necesidades y también asignar una marca a la entrega. Para obtener más información sobre esto, consulte [Administración de plantillas](../../start/using/about-templates.md).
+   De forma predeterminada, puede elegir entre varias plantillas para cada actividad de marketing. Esto le permite preconfigurar ciertos parámetros según sus necesidades y también asignar una marca a la entrega. Para obtener más información sobre esto, consulte [Administración de plantillas](../../start/using/marketing-activity-templates.md).
 
    ![](assets/email_creation_1.png)
 
    >[!NOTE]
    >
-   >Las plantillas de prueba A/B y de seguimiento están ocultas de forma predeterminada. Marque las casillas del lado izquierdo (panel **[!UICONTROL Filter]** lateral) si desea mostrarlas.
+   >Las plantillas de prueba A/B y de seguimiento están ocultas de forma predeterminada. Marque las casillas del lado izquierdo (panel **[!UICONTROL Filter]**lateral) si desea mostrarlas.
 
 1. Introduzca las propiedades generales del correo electrónico. Puede introducir un nombre en el campo **Etiqueta** y editar el ID. Tanto el nombre de la actividad como su ID aparecen en la interfaz, pero no son visibles para los destinatarios del mensaje.
 
@@ -58,11 +58,11 @@ Puede crear un correo electrónico a partir de una [campaña](../../start/using/
 
    >[!NOTE]
    >
-   >Para poder guardar el correo electrónico, primero debe realizar algunas modificaciones en el contenido. Si hace clic **[!UICONTROL Cancel]** en este punto, no completará el asistente y su correo electrónico no se creará.
+   >Para poder guardar el correo electrónico, primero debe realizar algunas modificaciones en el contenido. Si hace clic **[!UICONTROL Cancel]**en este punto, no completará el asistente y su correo electrónico no se creará.
 
    A continuación, se muestra el tablero de correo electrónico. Le permite comprobar su mensaje y [preparar el envío](../../sending/using/preparing-the-send.md).
 
-   El **[!UICONTROL Edit properties]** botón situado en la esquina superior derecha permite editar las propiedades del correo electrónico. Por ejemplo, puede configurar el correo electrónico para que su etiqueta se calcule en el momento de la preparación de la entrega.  Available parameters are listed in [this section](../../administration/using/configuring-email-channel.md#list-of-email-properties).
+   El **[!UICONTROL Edit properties]**botón situado en la esquina superior derecha permite editar las propiedades del correo electrónico. Por ejemplo, puede configurar el correo electrónico para que su etiqueta se calcule en el momento de la preparación de la entrega.  Available parameters are listed in[this section](../../administration/using/configuring-email-channel.md#list-of-email-properties).
 
    ![](assets/delivery_dashboard_2.png)
 
