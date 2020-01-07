@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Documentación del producto de Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
+source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 * **[Creador de correo electrónico](designing/using/designing-content-in-adobe-campaign.md)**<br/>Consulte la documentación reorganizada del creador de correos electrónicos.
 
-* **[Páginas de aterrizaje](channels/using/getting-started-with-landing-pages.md)**<br/>Obtenga más información sobre cómo configurar una página de aterrizaje.
+* **[Guía](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>móvil de Campaign Standard Obtenga más información sobre las directrices generales para envíos móviles.
 
 [Haga clic aquí para obtener más actualizaciones](rn/using/documentation-updates.md)
 
