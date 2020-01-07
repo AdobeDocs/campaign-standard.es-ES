@@ -1,19 +1,19 @@
 ---
 title: Acerca de las notificaciones push
 description: Descubra las principales características del canal de notificaciones push en Adobe Campaign.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 961aaeb5-6948-4fd2-b8d7-de4510c10566
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: canales
-content-type: referencia
+audience: channels
+content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
-context-tags: mobileApp,información general
+context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 
 ---
 
@@ -28,17 +28,17 @@ Adobe Campaign permite enviar notificaciones push personalizadas y segmentadas a
 
 Estos mensajes se reciben en aplicaciones móviles que se configuran en Adobe Campaign mediante el uso del SDK V4 de Experience Cloud Mobile o del SDK de la plataforma de experiencia. Para obtener más información sobre esto, consulte [Configuración de una aplicación móvil mediante SDK V4](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) y [Configuración de una aplicación móvil mediante SDK](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)de la plataforma Adobe Experience.
 
-In Adobe Campaign, mobile profile attributes data sent from mobile device are stored in **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource which allows you to define the data that you want to collect from your applications' subscribers.
+In Adobe Campaign, mobile profile attributes data sent from mobile device are stored in **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**resource which allows you to define the data that you want to collect from your applications&#39; subscribers.
 
 Este recurso debe ampliarse para recopilar los datos que se van a enviar desde el dispositivo móvil a Adobe Campaign. Para ello, consulte esta [página](../../developing/using/extending-the-subscriptions-to-an-application-resource.md) para conocer los pasos detallados.
 
 Adobe Campaign dispone de dos tipos de notificaciones push:
 
-* **[!UICONTROL Alert/Message/Badge]** las notificaciones de tipo le permiten enviar mensajes estándar basados en texto con contenido adicional (sonido, distintivo, vínculo profundo, etc.) que puede definir en la **[!UICONTROL Advanced options]** sección.
+* **[!UICONTROL Alert/Message/Badge]**las notificaciones de tipo le permiten enviar mensajes estándar basados en texto con contenido adicional (sonido, distintivo, vínculo profundo, etc.) que puede definir en la**[!UICONTROL Advanced options]** sección.
 
-   Estos tipos de notificación le permiten agregar un título y un mensaje en los que puede utilizar campos de personalización. Para poder personalizar el mensaje, asegúrese de seleccionar la **[!UICONTROL Send push on profiles]** plantilla.
+   Estos tipos de notificación le permiten agregar un título y un mensaje en los que puede utilizar campos de personalización. Para poder personalizar el mensaje, asegúrese de seleccionar la **[!UICONTROL Send push on profiles]**plantilla.
 
-* **[!UICONTROL Silent push]** las notificaciones de tipo se utilizan para notificar la aplicación de forma silenciosa sin ningún mensaje ni contenido para el usuario final. Un caso de uso típico para este tipo de mensaje sería hacer que la aplicación sepa que hay contenido disponible en el servidor que se va a descargar.
+* **[!UICONTROL Silent push]**las notificaciones de tipo se utilizan para notificar la aplicación de forma silenciosa sin ningún mensaje ni contenido para el usuario final. Un caso de uso típico para este tipo de mensaje sería hacer que la aplicación sepa que hay contenido disponible en el servidor que se va a descargar.
 
 Se pueden configurar algunas configuraciones específicas para definir el comportamiento de las notificaciones. Para obtener más información, consulte [esta sección](../../channels/using/customizing-a-push-notification.md).
 
@@ -53,7 +53,7 @@ Como usuario experto, para definir estas configuraciones específicas, consulte 
 * [Preparación y envío de una notificación push](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [Creación de una notificación push multilingüe](../../channels/using/creating-a-multilingual-push-notification.md)
 * [Informe de notificaciones push](../../reporting/using/push-notification-report.md)
-* [Preguntas más frecuentes sobre push y en la aplicación](https://helpx.adobe.com/campaign/kb/push_inapp_faq.html)
+* [Guía móvil de Campaign Standard](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
 
 ## Requisitos previos {#prerequisites}
 
@@ -65,11 +65,11 @@ En primer lugar, para poder empezar a enviar notificaciones push, debe configura
 
 Antes de enviar las notificaciones push, debe:
 
-1. Asegúrese de tener acceso al canal en Adobe Campaign **[!UICONTROL Mobile app]** .
+1. Asegúrese de que puede acceder al canal en Adobe Campaign **[!UICONTROL Mobile app]**.
 1. Configure la aplicación móvil en:
 
    * Espacio de trabajo de Adobe Campaign
-   * Interfaz de Adobe Mobile Services
+   * La interfaz de Adobe Mobile Services
 
 1. Realice la configuración específica de la aplicación móvil:
 
