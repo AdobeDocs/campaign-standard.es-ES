@@ -1,23 +1,23 @@
 ---
-title: Administración de imágenes en correos electrónicos
+title: Uso de imágenes
 description: Descubra cómo administrar imágenes en correos electrónicos con el Diseñador de correo electrónico.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: diseñar
-content-type: referencia
+audience: designing
+content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 7e300de836a74372e411b5b1d584851fac77aafe
 
 ---
 
 
-# Imágenes {#images}
+# Uso de imágenes {#images}
 
 ## Inserción de imágenes{#inserting-images}
 
@@ -33,16 +33,16 @@ Si está activada, puede modificar imágenes con el SDK de Adobe Creative. Consu
 
 >[!CAUTION]
 >
->Si decide agregar una imagen directamente editando la versión HTML del correo electrónico, no debe llamar a los archivos **externos en una etiqueta** &lt;script&gt; de la página HTML. Estos archivos no se importan en el servidor de Adobe Campaign.
+>Si decide agregar una imagen directamente editando la versión HTML del correo electrónico, no debe llamar a los archivos **externos en una etiqueta** &lt;script> de la página HTML. Estos archivos no se importan en el servidor de Adobe Campaign.
 
 ### Inserción de imágenes en un correo electrónico {#inserting-images-in-an-email}
 
 1. Agregue un componente de estructura. Para obtener más información sobre esto, consulte [Edición de la estructura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)de correo electrónico.
-1. Dentro de este componente de estructura, agregue un componente **[!UICONTROL Image]** de contenido.
+1. Dentro de este componente de estructura, agregue un componente **[!UICONTROL Image]**de contenido.
 
    ![](assets/des_insert_images_1.png)
 
-1. Click **[!UICONTROL Browse]**. Arrastre y suelte una imagen o haga clic para seleccionar un archivo del equipo.
+1. Haga clic **[!UICONTROL Browse]**. Arrastre y suelte una imagen o haga clic para seleccionar un archivo del equipo.
 
    ![](assets/des_insert_images_2.png)
 
@@ -61,7 +61,7 @@ Al seleccionar un bloque que contiene una imagen, se ofrecen las siguientes prop
 * Al editar un correo electrónico, **Estilo** permite especificar el tamaño, el fondo y el borde de la imagen.
 * Al editar una página de aterrizaje, **Dimensiones** permite especificar el tamaño de la imagen en píxeles.
 
-El editor le permite trabajar con **todos los tipos** de imágenes cuyos formatos son compatibles con los navegadores. Para ser compatible con el editor, las animaciones **de tipo** "Flash" deben insertarse en una página HTML de la siguiente manera:
+El editor le permite trabajar con **todos los tipos** de imágenes cuyos formatos son compatibles con los navegadores. Para ser compatible con el editor, las animaciones **de tipo** &quot;Flash&quot; deben insertarse en una página HTML de la siguiente manera:
 
 ```
 <object type="application/x-shockwave-flash" data="http://www.mydomain.com/flash/your_animation.swf" width="200" height="400">
@@ -74,7 +74,7 @@ El editor le permite trabajar con **todos los tipos** de imágenes cuyos formato
 
 ## Modificación de imágenes con el SDK de Adobe Creative{#modifying-images-with-the-adobe-creative-sdk}
 
-Puede editar imágenes y utilizar un conjunto completo de funciones con tecnología Adobe Creative SDK para mejorar las imágenes directamente en el editor de contenido al editar correos electrónicos o páginas de aterrizaje.
+Puede editar imágenes y utilizar un conjunto completo de funciones con tecnología del SDK de Adobe Creative para mejorar las imágenes directamente en el editor de contenido al editar correos electrónicos o páginas de aterrizaje.
 
 El editor de imágenes ofrece un potente componente de interfaz de usuario de edición de imágenes con todas las funciones que le permite editar imágenes y aplicar efectos y marcos, etiquetas adhesivas originales de alta calidad, superposiciones hermosas, divertidas funciones como cambio de inclinación y bienvenida de color, ajustes de nivel profesional y mucho más.
 
@@ -85,11 +85,11 @@ Para modificar una imagen con el SDK de Adobe Creative:
 
    ![](assets/des_creative_sdk_icon.png)
 
-1. Seleccione la herramienta que desee utilizar mediante los iconos de la parte superior de la ventana para modificar la imagen.
+1. Seleccione la herramienta que desee utilizar a través de los iconos de la parte superior de la ventana para modificar la imagen.
 
    ![](assets/email_designer_ccsdktoolbar.png)
 
-1. Haga clic **[!UICONTROL Save]** cuando se hayan realizado las modificaciones. La imagen actualizada se guarda en el servidor de Adobe Campaign y está lista para utilizarse.
+1. Haga clic **[!UICONTROL Save]**cuando se hayan realizado las modificaciones. La imagen actualizada se guarda en el servidor de Adobe Campaign y está lista para utilizarse.
 
 >[!NOTE]
 Las herramientas ofrecidas en el editor de imágenes no se pueden personalizar.
