@@ -12,11 +12,11 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f8b763ab70514563ab48b0233300e9dda0fba18c
+source-git-commit: cc42e1ac6ed7570817163e2782e42258fa617a22
 
 ---
 
-# Introducción al diseñador de correos electrónicos {#quick-start}
+# Introducción al Diseñador de correo electrónico {#quick-start}
 
 El Diseñador de correo electrónico proporciona cuatro formas de crear correos electrónicos.
 
@@ -38,17 +38,22 @@ También puede crear un correo electrónico [con contenido](#with-existing-conte
 
 ## Diseño de correos electrónicos con el editor {#without-existing-content}
 
+>[!NOTE]
+>
+>En ambas estrategias de creación, es fundamental completar la línea de asunto antes de enviar el correo electrónico. Aprenda a [añadir una línea](#add-a-subject-line)de asunto.
+
 ### Creación de un correo electrónico desde cero {#from-scratch-email}
 
 Puede crear un correo electrónico fácilmente, agregar componentes y personalizar su contenido para enviar una entrega rápidamente. Si es necesario, puede adaptar las opciones de estilo al contenido. Para obtener más información sobre la administración de ajustes de estilo y atributos integrados, consulte [Edición de estilos](../../designing/using/styles.md)de correo electrónico.
+
+1. Cree un correo electrónico.
+1. Cierre la página principal.
 
 ### Adición de una línea de asunto {#add-a-subject-line}
 
 Las líneas de asunto son obligatorias al enviar un correo electrónico. Para obtener más información, consulte [Definición de la línea de asunto de un correo electrónico](../../designing/using/subject-line.md).
 
-1. Cree un correo electrónico.
-1. Cierre la página principal.
-1. Vaya a la **[!UICONTROL Properties]** ficha de la página de inicio de Email Designer (accesible mediante el icono de inicio) y rellene la **[!UICONTROL Subject]** sección.
+1. Vaya a la **[!UICONTROL Properties]**ficha de la página de inicio de Email Designer (accesible mediante el icono de inicio) y rellene la**[!UICONTROL Subject]** sección.
 
 ![](assets/subject-line-quick-start.png)
 
@@ -94,7 +99,7 @@ Puede agregar varios componentes de contenido al correo electrónico, como imág
 
 ![](assets/html-component-source-code.png)
 
-Si está familiarizado con HTML, puede copiar y pegar el código HTML del pie de página original mediante el componente de **[!UICONTROL Html]** contenido. Para obtener más información sobre esto, consulte [Acerca de los componentes](../../designing/using/designing-from-scratch.md#about-content-components)de contenido.
+Si está familiarizado con HTML, puede copiar y pegar el código HTML del pie de página original mediante el componente de **[!UICONTROL Html]**contenido. Para obtener más información sobre esto, consulte[Acerca de los componentes](../../designing/using/designing-from-scratch.md#about-content-components)de contenido.
 
 ![](assets/des_loading_compatible_fragment_9.png)
 
@@ -117,12 +122,12 @@ Ahora puede guardar y enviar su correo electrónico.
 Puede crear un correo electrónico a partir de plantillas integradas, como mensajes de bienvenida de clientes, newsletters y correos electrónicos de recontratación, y personalizarlos.
 
 1. Cree un correo electrónico y abra su contenido. Para obtener más información sobre esto, consulte [Creación de un correo electrónico](../../channels/using/creating-an-email.md).
-1. Haga clic en el icono de inicio para acceder a la página **[!UICONTROL Email Designer]** principal.
-1.  Haga clic en la **[!UICONTROL Templates]** ficha.
+1. Haga clic en el icono de inicio para acceder a la página **[!UICONTROL Email Designer]**principal.
+1.  Haga clic en la **[!UICONTROL Templates]**ficha.
 1. Elija una plantilla HTML lista para usar.
-Las distintas plantillas presentan varias combinaciones de varios tipos de elementos. Por ejemplo, las plantillas 'Calado' tienen márgenes, mientras que las plantillas 'Astro' no tienen uno. Para obtener más información sobre esto, consulte Plantillas [de contenido](../../designing/using/using-reusable-content.md#content-templates).
-1. Vaya a la **[!UICONTROL Properties]** ficha de la página de inicio de Email Designer (accesible mediante el icono de inicio) y rellene la **[!UICONTROL Subject]** sección.
-1. Puede combinar estos elementos para crear una serie de variantes de correo electrónico. Por ejemplo, puede duplicar una sección de correo electrónico seleccionando un componente de estructura y haciendo clic en **[!UICONTROL Duplicate]** en la barra de herramientas contextual.
+Las distintas plantillas presentan varias combinaciones de varios tipos de elementos. Por ejemplo, las plantillas &#39;Calado&#39; tienen márgenes, mientras que las plantillas &#39;Astro&#39; no tienen uno. Para obtener más información sobre esto, consulte Plantillas [de contenido](../../designing/using/using-reusable-content.md#content-templates).
+1. Vaya a la **[!UICONTROL Properties]**ficha de la página de inicio de Email Designer (accesible mediante el icono de inicio) y rellene la**[!UICONTROL Subject]** sección.
+1. Puede combinar estos elementos para crear una serie de variantes de correo electrónico. Por ejemplo, puede duplicar una sección de correo electrónico seleccionando un componente de estructura y haciendo clic en **[!UICONTROL Duplicate]**en la barra de herramientas contextual.
 1. Puede mover los elementos mediante la flecha azul a la izquierda para arrastrar un componente de estructura por debajo o por encima de otro. Para obtener más información sobre esto, consulte [Edición de la estructura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)de correo electrónico.
 1. También puede mover componentes para cambiar la organización de cada elemento de estructura. Para obtener más información sobre esto, consulte [Adición de fragmentos y componentes](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Modifique el contenido de cada elemento según sus necesidades: imágenes, texto, vínculos.
@@ -210,7 +215,7 @@ Una vez identificados todos los bloques, en el Diseñador de correo electrónico
 
 Al cargar un contenido, debe contener etiquetas específicas para que sea totalmente compatible y editable con el editor WYSIWYG del Diseñador de correo electrónico.
 
-Si todo o parte del HTML cargado no es compatible con el etiquetado esperado, el contenido se carga en 'modo de compatibilidad', lo que limita las posibilidades de edición a través de la interfaz de usuario.
+Si todo o parte del HTML cargado no es compatible con el etiquetado esperado, el contenido se carga en &#39;modo de compatibilidad&#39;, lo que limita las posibilidades de edición a través de la interfaz de usuario.
 
 Cuando se carga un contenido en modo de compatibilidad, aún puede realizar las siguientes modificaciones a través de la interfaz (las acciones no disponibles están ocultas):
 
