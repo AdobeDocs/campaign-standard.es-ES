@@ -1,18 +1,18 @@
 ---
 title: Acerca del envío de mensajes con Campaign
 description: Descubrir los diferentes pasos para probar y enviar un mensaje.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 58666444-6e7c-4049-b2d2-8b26eabf5a82
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: enviar
-content-type: referencia
-topic-tags: about-send-messages-with-campaign
+audience: sending
+content-type: reference
+topic-tags: about-sending-messages-with-campaign
 discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 8bd32e1ca93473c384a3e079362bb9afe978699d
 
 ---
 
@@ -29,8 +29,8 @@ Una vez definido el objetivo y creado el contenido de un mensaje, debe probarlo 
    >
    >Puede establecer reglas de fatiga globales entre canales que excluyan automáticamente perfiles superpuestos de las campañas. Consulte Reglas [de fatiga](../../administration/using/fatigue-rules.md).
 
-* Compruebe el envío: este paso le permite aprobar el mensaje enviando pruebas.
-* Compruebe el procesamiento de entrega: asegúrese de que el mensaje se muestre de forma óptima en una variedad de clientes web, correos electrónicos web y dispositivos (muy recomendable).
+* Compruebe el envío: este paso le permite aprobar el mensaje mediante el envío de pruebas.
+* Compruebe el procesamiento de la entrega: asegúrese de que el mensaje se muestre de forma óptima en una variedad de clientes web, correos electrónicos web y dispositivos (muy recomendable).
 * Enviar el mensaje: una vez que el mensaje esté listo, puede iniciar el envío. Los registros de acceso y los informes están disponibles para supervisar la entrega de mensajes y medir el éxito de la campaña. Adobe Campaign también ofrece un sistema de alertas por correo electrónico para realizar un seguimiento de los éxitos o errores de entrega.
 
 **Temas relacionados**:
@@ -40,5 +40,4 @@ Una vez definido el objetivo y creado el contenido de un mensaje, debe probarlo 
 * [Administración de perfiles de prueba y envío de pruebas](../../sending/using/managing-test-profiles-and-sending-proofs.md)
 * [Procesamiento de correo electrónico](../../sending/using/email-rendering.md)
 * [Recibir alertas cuando se produzcan errores](../../sending/using/receiving-alerts-when-failures-happen.md)
-* [Optimización de la capacidad de entrega](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_Deliverability.html)
-
+* [Optimización de la capacidad de entrega](../../sending/using/about-deliverability.md)
