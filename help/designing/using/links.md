@@ -1,5 +1,5 @@
 ---
-title: Administración de vínculos
+title: Adición de vínculos
 description: Descubra cómo administrar vínculos con el Diseñador de correo electrónico.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
@@ -12,12 +12,12 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 7642ae3d027351abe1c44e173d3db50b9568bfcd
 
 ---
 
 
-# Vínculos {#links}
+# Adición de vínculos {#links}
 
 ## Inserción de un enlace {#inserting-a-link}
 
@@ -29,7 +29,7 @@ Puede insertar un enlace en cualquier elemento de página: imagen, palabra, grup
 >
 >Las siguientes imágenes muestran cómo insertar un vínculo mediante el Diseñador de [correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md) en un mensaje de correo electrónico.
 
-1. Seleccione un elemento y haga clic en **[!UICONTROL Insert link]** en la barra de herramientas contextual.
+1. Seleccione un elemento y haga clic en **[!UICONTROL Insert link]**en la barra de herramientas contextual.
 
    ![](assets/des_insert_link.png)
 
@@ -79,7 +79,7 @@ Al editar un correo electrónico con el Diseñador [de](../../designing/using/de
 
 Adobe Campaign permite rastrear el comportamiento de los destinatarios cuando hacen clic en una dirección URL incluida en un mensaje de correo electrónico. Para obtener más información sobre el seguimiento, consulte [esta sección](../../sending/using/tracking-messages.md#about-tracking).
 
-El **[!UICONTROL Links]** icono de la barra de acciones muestra automáticamente la lista de todas las direcciones URL del contenido que se rastreará.
+El **[!UICONTROL Links]**icono de la barra de acciones muestra automáticamente la lista de todas las direcciones URL del contenido que se rastreará.
 
 ![](assets/des_links.png)
 
@@ -106,11 +106,11 @@ También puede desactivar o activar el seguimiento de cada URL.
 >
 >De forma predeterminada, en Adobe Campaign, se realiza un seguimiento de todas las direcciones URL de contenido, excepto la URL **de la página** de reflejo y el vínculo de **cancelación de suscripciones** .
 
-Puede reagrupar las direcciones URL editando el **[!UICONTROL Category]** campo, según las direcciones URL utilizadas en el mensaje. Estas categorías pueden mostrarse en informes, como en [direcciones URL y flujos](../../reporting/using/urls-and-click-streams.md)de clics.
+Puede reagrupar las direcciones URL editando el **[!UICONTROL Category]**campo, según las direcciones URL utilizadas en el mensaje. Estas categorías pueden mostrarse en informes, como en[direcciones URL y flujos](../../reporting/using/urls-and-click-streams.md)de clics.
 
 ![](assets/des_link_tracking_category.png)
 
-Al crear un informe, desde la **[!UICONTROL Components]** ficha, seleccione **[!UICONTROL Dimension]** y desplácese hacia abajo en la lista para acceder a los componentes de seguimiento. Por ejemplo, arrastre y suelte **[!UICONTROL Tracking URL Category]** en el espacio de trabajo para mostrar los resultados según la categoría de seguimiento de cada URL en la que se hizo clic.
+Al crear un informe, desde la **[!UICONTROL Components]**ficha, seleccione**[!UICONTROL Dimension]** y desplácese hacia abajo en la lista para acceder a los componentes de seguimiento. Por ejemplo, arrastre y suelte **[!UICONTROL Tracking URL Category]**en el espacio de trabajo para mostrar los resultados según la categoría de seguimiento de cada URL en la que se hizo clic.
 
 ![](assets/des_link_tracking_report.png)
 
