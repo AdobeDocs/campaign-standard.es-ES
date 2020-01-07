@@ -12,24 +12,24 @@ discoiquuid: d7088c18-7daf-4c30-b633-2f19496b1143
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f0580e1ab75d4250bfb1cb801ff08b31b91cdc5a
+source-git-commit: 667496c4a1bfeb78ff51762ffd6983df77cdd9c9
 
 ---
 
 
 # Guías paso a paso{#step-by-step-guides}
 
-Comience con Adobe Campaign consultando nuestras guías paso a paso intuitivas.
+Comience a utilizar Adobe Campaign consultando las instrucciones paso a paso.
 
 * [Creación de un correo electrónico](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)personalizado: cree y envíe correos electrónicos personalizados a una audiencia de destino.
 * [Exportación e importación de un paquete de recursos](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_ImportExport.html)personalizados: exporte e importe un paquete de recursos personalizados desde un entorno de desarrollo a un entorno de producción.
-* [Creación de un flujo de trabajo](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_WorkflowSegmentation.html)de mensajes entre canales: cree un flujo de trabajo segmentando una población para enviar un envío de correo electrónico y un envío por SMS.
+* [Creación de un flujo de trabajo](../../automating/using/workflow-cross-channel-delivery.md)de mensajes entre canales: cree un flujo de trabajo segmentando una población para enviar un envío de correo electrónico y un envío por SMS.
 * [Creación de un correo electrónico con Experience Manager y Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html): cree un contenido de correo electrónico en Adobe Experience Manager y úselo en un mensaje de correo electrónico en Adobe Campaign Standard.
 * [Entrega con Adobe Campaign](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html): descubra algunas de las prácticas recomendadas que se pueden utilizar para ofrecer con Adobe Campaign, desde la creación y el establecimiento de objetivos hasta el envío y la supervisión.
 * [Optimización de la capacidad de entrega](../../sending/using/about-deliverability.md): conozca los conceptos clave y las optimizaciones relacionadas con la capacidad de entrega, así como las herramientas ofrecidas por Adobe Campaign para optimizar los envíos.
 * [Reglamento](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)general de protección de datos: descubra las herramientas y funcionalidades que ofrece Adobe Campaign, así como las prácticas recomendadas, para ayudarle a cumplir con el RGPD.
 
-Obtenga más información sobre Adobe Campaign comprobando los siguientes casos de uso y ejemplos:
+Obtenga más información sobre Adobe Campaign consultando los siguientes ejemplos y casos de uso:
 
 * [Importar plantilla](../../automating/using/importing-data.md#example--import-workflow-template)de flujo de trabajo: configure una plantilla de flujo de trabajo para importar periódicamente nuevos perfiles de cliente desde una CRM y actualizar la base de datos de Campaign.
 * [Pasos clave para enviar un mensaje](../../channels/using/key-steps-to-send-a-message.md): conozca cómo crear y enviar mensajes paso a paso.
