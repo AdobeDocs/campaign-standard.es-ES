@@ -12,7 +12,7 @@ discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bdec2b6937be17841be6254c6907556dddf1df40
+source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 
 ---
 
@@ -25,13 +25,15 @@ Las notificaciones push o los mensajes en la aplicación se reciben en aplicacio
 
 * Para enviar solo notificaciones Push, puede configurar la integración entre Adobe Campaign y Adobe Mobile Service con SDK V4. Consulte [Uso del SDK V4](#using-sdk-v4).
 
-Una vez que las aplicaciones móviles se hayan configurado en Adobe Campaign aprovechando el SDK V4 de Experience Cloud Mobile o el SDK de la plataforma de experiencia, un administrador deberá configurarlas en el menú [!UICONTROL Administration] &gt; [!UICONTROL Channels] &gt; [!UICONTROL Mobile app] .
+Una vez que las aplicaciones móviles se hayan configurado en Adobe Campaign aprovechando el SDK V4 de Experience Cloud Mobile o el SDK de la plataforma de experiencia, un administrador deberá configurarlas en el menú [!UICONTROL Administration] > [!UICONTROL Channels] > [!UICONTROL Mobile app] .
 
 >[!CAUTION]
 >
 >Los usuarios expertos deben realizar las implementaciones de notificaciones push y en la aplicación. Si necesita asistencia, póngase en contacto con su administrador de cuentas de Adobe o con su socio de servicios profesionales.
 
 Una vez configurada una aplicación móvil, puede recuperar los datos PII recopilados para crear o actualizar perfiles de la base de datos. Para obtener más información sobre esto, consulte esta sección: [Creación y actualización de información de perfil basada en datos](../../channels/using/updating-profile-with-mobile-app-data.md)de aplicaciones móviles.
+
+Para obtener instrucciones generales sobre envíos con dispositivos móviles en Adobe Campaign Standard, consulte esta [página](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
 
 ## Uso del SDK de Adobe Experience Platform {#using-adobe-experience-platform-sdk}
 
@@ -43,12 +45,12 @@ Para enviar notificaciones push y mensajes In-App con la aplicación del SDK de 
 
 Siga los pasos a continuación para iniciar la configuración:
 
-1. Asegúrese de tener acceso a los **[!UICONTROL Mobile]** canales: Notificación push y mensaje en la aplicación en Adobe Campaign. Si no es así, póngase en contacto con el equipo de su cuenta.
+1. Asegúrese de tener acceso a los **[!UICONTROL Mobile]**canales: Notificación push y mensaje en la aplicación en Adobe Campaign. Si no es así, póngase en contacto con el equipo de su cuenta.
 
    ![](assets/launch_1.png)
 
 1. Cree la aplicación móvil en Inicio de plataforma de experiencia creando una propiedad de tipo Móvil. Para obtener más información, consulte la documentación de [Inicio](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#create-a-new-mobile-property) de plataforma de experiencia.
-1. Instale la extensión de la **[!UICONTROL Adobe Campaign Standard]** aplicación móvil en Inicio de plataforma de experiencia:
+1. Instale la extensión de la **[!UICONTROL Adobe Campaign Standard]**aplicación móvil en Inicio de plataforma de experiencia:
 
    Para obtener más información sobre las extensiones, consulte la documentación de [lanzamiento](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) de la plataforma de experiencias.
 
@@ -66,7 +68,7 @@ Un administrador de la interfaz de Adobe Campaign debe configurar las aplicacion
 
 Para poder enviar notificaciones push, debe:
 
-1. Asegúrese de que puede acceder al canal en Adobe Campaign **[!UICONTROL Mobile app]** .
+1. Asegúrese de que puede acceder al canal en Adobe Campaign **[!UICONTROL Mobile app]**.
 1. Configure la aplicación móvil en:
 
    * [Espacio de trabajo de Adobe Campaign](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html#SettingupamobileapplicationinAdobeCampaign).
@@ -82,11 +84,11 @@ Para poder enviar notificaciones push, debe:
    Para obtener más información, consulte [esta página](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html#Collectingsubscribersdatafromamobileapplication).
 
 1. Asegúrese de que la configuración se ha completado correctamente iniciando la aplicación móvil en el dispositivo e iniciando sesión. Asegúrese de seleccionar recibir notificaciones.
-1. A continuación, en el menú avanzado de Adobe Campaign, seleccione **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Mobile app]**.
+1. A continuación, en el menú avanzado de Adobe Campaign, seleccione **[!UICONTROL Administration]**>**[!UICONTROL Channels]** > **[!UICONTROL Mobile app]**.
 1. Seleccione la aplicación móvil en la lista para mostrar sus propiedades. La información de suscripción se muestra en la lista de suscriptores.
 
    ![](assets/push_notif_mobile_app.png)
 
-1. Para comprobar las aplicaciones móviles a las que se ha suscrito un perfil, en el **[!UICONTROL Profiles & Audiences > Profiles]** menú, seleccione un perfil y haga clic en el **[!UICONTROL Edit profile properties]** botón de la derecha. Las aplicaciones móviles se muestran en la **[!UICONTROL Mobile App Subscriptions]** ficha.
+1. Para comprobar las aplicaciones móviles a las que se ha suscrito un perfil, en el **[!UICONTROL Profiles & Audiences > Profiles]**menú, seleccione un perfil y haga clic en el**[!UICONTROL Edit profile properties]** botón de la derecha. Las aplicaciones móviles se muestran en la **[!UICONTROL Mobile App Subscriptions]**ficha.
 
    ![](assets/push_notif_subscriptions.png)
