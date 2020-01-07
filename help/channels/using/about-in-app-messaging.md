@@ -1,19 +1,19 @@
 ---
 title: Acerca de la mensajería en la aplicación
 description: Mostrar mensaje o alerta dentro de la aplicación móvil con mensajería en la aplicación.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 6784cdfc-6db9-41dd-9fbb-2e756a5bcb5f
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: canales
-content-type: referencia
-topic-tags: mensajería en la aplicación
+audience: channels
+content-type: reference
+topic-tags: in-app-messaging
 discoiquuid: a4168cfb-22bf-4ab3-b9d8-6e76e1bdc055
-context-tags: entrega,activadores,devolución
+context-tags: delivery,triggers,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 
 ---
 
@@ -28,7 +28,7 @@ Este canal requiere que las aplicaciones móviles se integren con el SDK de la p
 
 Para empezar a enviar mensajes en la aplicación en aplicaciones móviles que utilicen el SDK de la plataforma de experiencia, debe cumplir los siguientes requisitos previos:
 
-1. En Adobe Campaign, asegúrese de tener acceso al **[!UICONTROL In-App]** canal. Si no puede acceder a estos canales, póngase en contacto con el equipo de cuentas.
+1. En Adobe Campaign, asegúrese de tener acceso al **[!UICONTROL In-App]**canal. Si no puede acceder a estos canales, póngase en contacto con el equipo de cuentas.
 
 1. Para aprovechar los casos de uso móvil en Adobe Campaign Standard con una aplicación de SDK de Experience Cloud, se debe crear una aplicación móvil en Adobe Experience Platform Launch y configurarla en Adobe Campaign Standard. Para obtener la guía paso a paso, consulte esta [página](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
@@ -43,3 +43,4 @@ Para empezar a enviar mensajes en la aplicación en aplicaciones móviles que ut
 * [Informe en la aplicación](../../reporting/using/in-app-report.md)
 * [Preguntas más frecuentes sobre push y en la aplicación](https://helpx.adobe.com/campaign/kb/push_inapp_faq.html)
 * [Casos de uso móvil admitidos en Adobe Campaign Standard](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html)
+* [Guía móvil de Campaign Standard](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
