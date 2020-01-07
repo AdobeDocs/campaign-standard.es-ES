@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 6881d3e0f22f3766d6a26af90ce3bcbd5e2293da
 
 ---
 
@@ -66,13 +66,13 @@ Adobe Campaign ofrece varias opciones de creación de correo electrónico. En el
   <tr> 
    <td> <strong>Escribir HTML</strong><br /> </td> 
    <td> Admitido<br /> </td> 
-   <td>  No admitido<br /> </td> 
+   <td> No admitido<br /> </td> 
    <td> Admitido<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Actualizar HTML</strong><br /> </td> 
    <td> Solo dentro de un componente HTML<br /> </td> 
-   <td>  No admitido<br /> </td> 
+   <td> No admitido<br /> </td> 
    <td> Admitido<br /> </td> 
   </tr> 
   <tr> 
@@ -84,8 +84,8 @@ Adobe Campaign ofrece varias opciones de creación de correo electrónico. En el
   <tr> 
    <td> <strong>Personalización avanzada</strong><br /> </td> 
    <td> Admitido<br /> </td> 
-   <td>  No admitido<br /> </td> 
-   <td>  No admitido<br /> </td> 
+   <td> No admitido<br /> </td> 
+   <td> No admitido<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Prueba/Vista previa</strong><br /> </td> 
@@ -96,8 +96,8 @@ Adobe Campaign ofrece varias opciones de creación de correo electrónico. En el
   <tr> 
    <td> <strong>Listas de productos</strong><br /> </td> 
    <td> Admitido en mensajes transaccionales de correo electrónico<br /> </td> 
-   <td>  No admitido<br /> </td> 
-   <td>  No admitido<br /> </td> 
+   <td> No admitido<br /> </td> 
+   <td> No admitido<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Beneficios</strong><br /> </td> 
