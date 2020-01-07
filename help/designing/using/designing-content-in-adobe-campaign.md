@@ -12,7 +12,7 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 6881d3e0f22f3766d6a26af90ce3bcbd5e2293da
 
 ---
 
@@ -36,7 +36,7 @@ Para empezar a usar el Diseñador de correo electrónico, vea este [conjunto de 
 * Para obtener más información sobre la creación de contenido:
    * Desde cero, consulte [Diseño de correos electrónicos desde cero](../../designing/using/designing-from-scratch.md).
    * Con el contenido existente, consulte [Diseño con contenido](../../designing/using/using-existing-content.md)existente.
-   * Mediante integraciones, consulte Diseño [](../../designing/using/using-integrations.md)de correo electrónico con varias soluciones.
+   * Con las integraciones de Creative Cloud, consulte Diseño [](../../designing/using/using-integrations.md)de correo electrónico con varias soluciones.
 * Para obtener más información sobre Personalización, consulte [Personalización](../../designing/using/personalization.md).
 
 Al crear un correo electrónico, puede elegir utilizar una plantilla predefinida o cargar un contenido existente de otra fuente. Consulte [Selección de un contenido](../../designing/using/using-existing-content.md#selecting-an-existing-content)existente.
@@ -69,33 +69,33 @@ La barra de **herramientas** contextual de la interfaz del editor ofrece diversa
 
 ### Página de inicio de Email Designer {#email-designer-home-page}
 
-Al [crear un mensaje de correo electrónico](../../channels/using/creating-an-email.md), la página **[!UICONTROL Email Designer]** principal se muestra automáticamente al seleccionar el contenido del mensaje.
+Al [crear un mensaje de correo electrónico](../../channels/using/creating-an-email.md), la página **[!UICONTROL Email Designer]**principal se muestra automáticamente al seleccionar el contenido del mensaje.
 
 ![](assets/email_designer_home_page.png)
 
-La **[!UICONTROL Properties]** ficha permite editar los detalles del correo electrónico, como la etiqueta, la dirección y el nombre del remitente o el asunto del correo electrónico. También puede acceder a esta ficha haciendo clic en la etiqueta de correo electrónico en la parte superior de la pantalla.
+La **[!UICONTROL Properties]**ficha permite editar los detalles del correo electrónico, como la etiqueta, la dirección y el nombre del remitente o el asunto del correo electrónico. También puede acceder a esta ficha haciendo clic en la etiqueta de correo electrónico en la parte superior de la pantalla.
 
 ![](assets/email_designer_home_properties.png)
 
-La **[!UICONTROL Templates]** ficha le permite elegir entre el contenido HTML predeterminado o las plantillas que ya ha creado para empezar a diseñar el correo electrónico rápidamente. Consulte Plantillas [de contenido](../../designing/using/using-reusable-content.md#content-templates).
+La **[!UICONTROL Templates]**ficha le permite elegir entre el contenido HTML predeterminado o las plantillas que ya ha creado para empezar a diseñar el correo electrónico rápidamente. Consulte Plantillas[de contenido](../../designing/using/using-reusable-content.md#content-templates).
 
 ![](assets/email_designer_home_templates.png)
 
-La ficha **[!UICONTROL Learn & support]** le permite acceder fácilmente a la documentación y los tutoriales relacionados.
+La ficha **[!UICONTROL Learn & support]**le permite acceder fácilmente a la documentación y los tutoriales relacionados.
 
 ![](assets/email_designer_home_support.png)
 
 Si no selecciona una plantilla, la página de inicio de Email Designer también le permite elegir cómo desea empezar a diseñar el contenido:
 
-* Haga clic en el **[!UICONTROL Create]** botón para iniciar un nuevo contenido desde cero. Consulte [Diseño de contenido de correo electrónico desde cero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
-* Haga clic en el **[!UICONTROL Upload]** botón para cargar un archivo desde el equipo. Consulte [Importación de contenido desde un archivo](../../designing/using/using-existing-content.md#importing-content-from-a-file).
-* Haga clic en el **[!UICONTROL Import from URL]** botón para recuperar el contenido existente de una URL. Consulte [Importación de contenido desde una dirección URL](../../designing/using/using-existing-content.md#importing-content-from-a-url).
+* Haga clic en el **[!UICONTROL Create]**botón para iniciar un nuevo contenido desde cero. Consulte[Diseño de contenido de correo electrónico desde cero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+* Haga clic en el **[!UICONTROL Upload]**botón para cargar un archivo desde el equipo. Consulte[Importación de contenido desde un archivo](../../designing/using/using-existing-content.md#importing-content-from-a-file).
+* Haga clic en el **[!UICONTROL Import from URL]**botón para recuperar el contenido existente de una URL. Consulte[Importación de contenido desde una dirección URL](../../designing/using/using-existing-content.md#importing-content-from-a-url).
 
 ## Terminología {#terminology}
 
 **Plantillas**: Las plantillas son estructuras de correo electrónico que se pueden crear y reutilizar para varias entregas.
 
-**Fragmentos**: Un fragmento es un componente reutilizable al que se puede hacer referencia en uno o varios correos electrónicos.
+**Fragmentos**:Un fragmento es un componente reutilizable al que se puede hacer referencia en uno o varios correos electrónicos.
 
 **Componentes** de estructura: Elementos estructurales que definen el diseño del correo electrónico.
 
@@ -105,7 +105,7 @@ Si no selecciona una plantilla, la página de inicio de Email Designer también 
 
 Para utilizar correctamente el Diseñador de correo electrónico y crear los mejores correos electrónicos de la manera más sencilla posible, se recomienda aplicar los siguientes principios:
 
-* Utilice estilos en línea en lugar de CSS y CSS independientes en la sección &lt;head&gt; del HTML. Al utilizar el estilo en línea, puede optimizar el almacenamiento y la reutilización de fragmentos de contenido.
+* Utilice estilos en línea en lugar de CSS y CSS independientes en la sección &lt;head> del HTML. Al utilizar el estilo en línea, puede optimizar el almacenamiento y la reutilización de fragmentos de contenido.
 
    Consulte [Adición de atributos](../../designing/using/styles.md#adding-inline-styling-attributes)de estilo en línea.
 
@@ -127,7 +127,7 @@ El Diseñador de correo electrónico está en constante mejora. Si ha creado un 
 
 ![](assets/email_designer_fragment_patch_message.png)
 
-Adobe recomienda actualizar el contenido a la versión más reciente para evitar problemas como problemas de colisión con CSS. Click **[!UICONTROL Update now]**.
+Adobe recomienda actualizar el contenido a la versión más reciente para evitar problemas como problemas de colisión con CSS. Haga clic **[!UICONTROL Update now]**.
 
 Si se produce un error durante la actualización de contenido, compruebe el HTML y corríjalo antes de volver a ejecutar esta actualización.
 
