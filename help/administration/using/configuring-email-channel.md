@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: a3f760385da20a3aa39f96d955cfc2d77b708de2
 
 ---
 
@@ -240,7 +240,13 @@ La **[!UICONTROL Tracking]**sección contiene los siguientes parámetros:
 
 La **[!UICONTROL Advanced parameters]**sección contiene varios parámetros.
 
-Los dos primeros campos permiten introducir la información necesaria para elaborar los encabezados de los mensajes de correo electrónico (dirección de respuesta y texto de la dirección de respuesta). Dicha información puede personalizarse. Para ello, haga clic en el botón situado a la derecha del campo que se va a cambiar y, a continuación, agregue los campos de personalización. La inserción y el uso de los campos de personalización se detallan en la sección [Inserción de un campo](../../designing/using/personalization.md#inserting-a-personalization-field) de personalización.
+Los primeros campos permiten introducir la información necesaria para elaborar los encabezados de los mensajes de correo electrónico. Aquí puede administrar la dirección de respuesta y el texto, así como la dirección del remitente (que rellena el campo &quot;De:&quot;). Dicha información puede personalizarse.
+
+Haga clic en el botón a la derecha del campo que se va a cambiar y, a continuación, agregue el campo de personalización, el bloque de contenido o el texto dinámico.
+
+![](assets/advancedparameters.png)
+
+La inserción y el uso del contenido de personalización se detallan en la documentación [Personalización del contenido](../../designing/using/personalization.md) de correo electrónico.
 
 #### Contexto de Target {#target-context}
 
@@ -326,4 +332,3 @@ Email BCC se activa en la plantilla [de](../../start/using/marketing-activity-te
 >[!NOTE]
 >
 >If the emails sent to the BCC address are opened and clicked through, this will be taken into account in the **[!UICONTROL Total opens]**and**[!UICONTROL Clicks]** from the send analysis, which could cause some miscalculations.
-
