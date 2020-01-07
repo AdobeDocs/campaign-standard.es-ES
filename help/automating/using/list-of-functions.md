@@ -1,18 +1,18 @@
 ---
 title: Lista de funciones
 description: La herramienta de edición de consultas le permite utilizar funciones avanzadas para realizar filtros complejos.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: fd50fc99-1e7a-479b-beb7-1f246b419d46
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: automatizar
-content-type: referencia
-topic-tags: filter-data
-discoiquuid: 3cdbe962-1c59-4cd8-b29e-36aa2562face6
+audience: automating
+content-type: reference
+topic-tags: filtering-data
+discoiquuid: 3cdbe962-1c59-4cd8-b29e-36aa2562fac6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## Acerca de las funciones {#about-functions}
 
-La herramienta de edición de consultas le permite utilizar funciones avanzadas para realizar filtros complejos. Para ello, la paleta de herramientas contiene el **[!UICONTROL Expression]** elemento que puede utilizar en el espacio de trabajo. Encontrará más información sobre este elemento en una sección [](../../automating/using/advanced-expression-editing.md)específica.
+La herramienta de edición de consultas le permite utilizar funciones avanzadas para realizar filtros complejos. Para ello, la paleta de herramientas contiene el **[!UICONTROL Expression]**elemento que puede utilizar en el espacio de trabajo. Encontrará más información sobre este elemento en una sección[](../../automating/using/advanced-expression-editing.md)específica.
 
 Este elemento permite introducir las condiciones manualmente. Aquí puede utilizar las funciones definidas en las siguientes secciones.
 
@@ -44,7 +44,7 @@ Las funciones de fecha se utilizan para manipular los valores de fecha y hora.
   <tr> 
    <td> <strong>Nombre</strong><br /> </td> 
    <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Sintaxis</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>AddDays</strong><br /> </td> 
@@ -82,17 +82,17 @@ Las funciones de fecha se utilizan para manipular los valores de fecha y hora.
    <td> DateOnly(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Día</strong><br /> </td> 
+   <td> <strong>Day</strong><br /> </td> 
    <td> Devuelve el número que representa el día de la fecha.<br /> </td> 
    <td> Day(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Día del año</strong><br /> </td> 
+   <td> <strong>DayOfYear</strong><br /> </td> 
    <td> Returns a number representing the day in the year of the date<br /> </td> 
    <td> DayOfYear(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Días anteriores</strong><br /> </td> 
+   <td> <strong>DaysAgo</strong><br /> </td> 
    <td> Devuelve la fecha actual menos n días<br /> </td> 
    <td> DaysAgo(&lt;number&gt;)<br /> </td> 
   </tr> 
@@ -102,7 +102,7 @@ Las funciones de fecha se utilizan para manipular los valores de fecha y hora.
    <td> DaysAgoInt(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>DifDías</strong><br /> </td> 
+   <td> <strong>DaysDiff</strong><br /> </td> 
    <td> Número de días entre dos fechas<br /> </td> 
    <td> DaysDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td> 
   </tr> 
@@ -132,27 +132,27 @@ Las funciones de fecha se utilizan para manipular los valores de fecha y hora.
    <td> LocalToUTC(&lt;fecha&gt;, &lt;Huso horario&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Minuto</strong><br /> </td> 
+   <td> <strong>Minute</strong><br /> </td> 
    <td> Devuelve los minutos de la fecha<br /> </td> 
    <td> Minute(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>MinutosDif</strong><br /> </td> 
+   <td> <strong>MinutesDiff</strong><br /> </td> 
    <td> Devuelve el número de minutos entre dos fechas<br /> </td> 
    <td> MinutesDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Mes</strong><br /> </td> 
+   <td> <strong>Month</strong><br /> </td> 
    <td> Devuelve el número que representa el mes de la fecha<br /> </td> 
    <td> Month(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Meses anteriores</strong><br /> </td> 
+   <td> <strong>MonthsAgo</strong><br /> </td> 
    <td> Devuelve la fecha correspondiente a la fecha actual menos n meses<br /> </td> 
    <td> MonthsAgo(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>MesesDif</strong><br /> </td> 
+   <td> <strong>MonthsDiff</strong><br /> </td> 
    <td> Devuelve el número de meses entre dos fechas<br /> </td> 
    <td> MonthsDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td> 
   </tr> 
@@ -162,7 +162,7 @@ Las funciones de fecha se utilizan para manipular los valores de fecha y hora.
    <td> MonthsOld(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Segundo</strong><br /> </td> 
+   <td> <strong>Second</strong><br /> </td> 
    <td> Devuelve los segundos de la fecha<br /> </td> 
    <td> Second(&lt;date&gt;)<br /> </td> 
   </tr> 
@@ -187,22 +187,22 @@ Las funciones de fecha se utilizan para manipular los valores de fecha y hora.
    <td> SubHours(&lt;date&gt;, &lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Subminutos</strong><br /> </td> 
+   <td> <strong>SubMinutos</strong><br /> </td> 
    <td> Resta un número de minutos desde una fecha<br /> </td> 
    <td> SubMinutes(&lt;date&gt;, &lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Submeses</strong><br /> </td> 
+   <td> <strong>SubMeses</strong><br /> </td> 
    <td> Resta un número de meses desde una fecha<br /> </td> 
    <td> SubMonths(&lt;date&gt;, &lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>SubSeconds</strong><br /> </td> 
+   <td> <strong>SubSegundos</strong><br /> </td> 
    <td> Resta un número de segundos desde una fecha<br /> </td> 
    <td> SubSeconds(&lt;date&gt;, &lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>SubYears</strong><br /> </td> 
+   <td> <strong>SubAños</strong><br /> </td> 
    <td> Resta un número de años a partir de una fecha<br /> </td> 
    <td> SubYears(&lt;date&gt;, &lt;number&gt;)<br /> </td> 
   </tr> 
@@ -232,7 +232,7 @@ Las funciones de fecha se utilizan para manipular los valores de fecha y hora.
    <td> TruncDateTZ(&lt;date&gt;, &lt;number of seconds&gt;, &lt;time zone&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Trimestre</strong><br /> </td> 
+   <td> <strong>TruncQuarter</strong><br /> </td> 
    <td> Redondea una fecha al trimestre<br /> </td> 
    <td> TruncQuarter(&lt;date&gt;)<br /> </td> 
   </tr> 
@@ -257,7 +257,7 @@ Las funciones de fecha se utilizan para manipular los valores de fecha y hora.
    <td> WeekDay(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Año</strong><br /> </td> 
+   <td> <strong>Year</strong><br /> </td> 
    <td> Devuelve el número que representa el año de la fecha<br /> </td> 
    <td> Year(&lt;date&gt;)<br /> </td> 
   </tr> 
@@ -288,10 +288,10 @@ Las funciones de geomarketing se utilizan para manipular los valores geográfico
   <tr> 
    <td> <strong>Nombre</strong><br /> </td> 
    <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Sintaxis</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Distancia</strong><br /> </td> 
+   <td> <strong>Distance</strong><br /> </td> 
    <td> Returns the distance in kilometers between two points defined by their longitude and latitude (expressed in degrees)<br /> </td> 
    <td> Distance(&lt;Longitude A&gt;, &lt;Latitude A&gt;, &lt;Longitude B&gt;, &lt;Latitude B&gt;)<br /> </td> 
   </tr> 
@@ -300,14 +300,14 @@ Las funciones de geomarketing se utilizan para manipular los valores geográfico
 
 ## Numérico {#numerical}
 
-Las funciones de valor numérico se utilizan para convertir texto en números.
+Las funciones de valores numéricos se utilizan para convertir texto en números.
 
 <table> 
  <tbody> 
   <tr> 
    <td> <strong>Nombre</strong><br /> </td> 
    <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Sintaxis</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Abs</strong><br /> </td> 
@@ -320,17 +320,17 @@ Las funciones de valor numérico se utilizan para convertir texto en números.
    <td> Ceil(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Piso</strong><br /> </td> 
-   <td> Devuelve el mayor entero que sea mayor o igual que un número<br /> </td> 
+   <td> <strong>Floor</strong><br /> </td> 
+   <td> Returns the greatest integer lower than or equal to a number<br /> </td> 
    <td> Floor(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Más grande</strong><br /> </td> 
+   <td> <strong>Greatest</strong><br /> </td> 
    <td> Devuelve el número mayor de dos números<br /> </td> 
    <td> Greatest(&lt;number 1&gt;, &lt;number 2&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Mínimo</strong><br /> </td> 
+   <td> <strong>Least</strong><br /> </td> 
    <td> Devuelve el número menor de dos números<br /> </td> 
    <td> Least(&lt;number 1&gt;, &lt;number 2&gt;)<br /> </td> 
   </tr> 
@@ -340,7 +340,7 @@ Las funciones de valor numérico se utilizan para convertir texto en números.
    <td> Mod(&lt;número 1&gt;, &lt;número 2&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Porcentaje</strong><br /> </td> 
+   <td> <strong>Percent</strong><br /> </td> 
    <td> Devuelve la proporción de dos números expresado como un porcentaje<br /> </td> 
    <td> Percent(&lt;number 1&gt;, &lt;number 2&gt;)<br /> </td> 
   </tr> 
@@ -355,7 +355,7 @@ Las funciones de valor numérico se utilizan para convertir texto en números.
    <td> Redondeo(&lt;number&gt;, &lt;number of decimals&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Firmar</strong><br /> </td> 
+   <td> <strong>Sign</strong><br /> </td> 
    <td> Devuelve el signo del número<br /> </td> 
    <td> Sign(&lt;number&gt;)<br /> </td> 
   </tr> 
@@ -391,10 +391,10 @@ Esta tabla contiene las funciones restantes disponibles.
   <tr> 
    <td> <strong>Nombre</strong><br /> </td> 
    <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Sintaxis</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Caso</strong><br /> </td> 
+   <td> <strong>Case</strong><br /> </td> 
    <td> Devuelve el valor 1 si se comprueba la condición. De lo contrario, devuelve el valor 2<br /> </td> 
    <td> Case(When(&lt;condition&gt;, &lt;value 1&gt;), Else(&lt;value 2&gt;))<br /> </td> 
   </tr> 
@@ -404,7 +404,7 @@ Esta tabla contiene las funciones restantes disponibles.
    <td> ClearBit(&lt;identifier&gt;, &lt;flag&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Combinar</strong><br /> </td> 
+   <td> <strong>Coalesce</strong><br /> </td> 
    <td> Devuelve el valor 2 si el valor 1 es cero o nulo, de lo contrario devuelve el valor 1<br /> </td> 
    <td> Coalesce(&lt;value 1&gt;, &lt;value 2&gt;)<br /> </td> 
   </tr> 
@@ -485,7 +485,7 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
   <tr> 
    <td> <strong>Nombre</strong><br /> </td> 
    <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Sintaxis</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>AllNonNull2</strong><br /> </td> 
@@ -548,12 +548,12 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
    <td> LPad(&lt;string&gt;, &lt;number&gt;, &lt;character&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Izquierda</strong><br /> </td> 
+   <td> <strong>Left</strong><br /> </td> 
    <td> Devuelve los primeros “n” caracteres de la cadena<br /> </td> 
    <td> Left(&lt;string&gt;, &lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Longitud</strong><br /> </td> 
+   <td> <strong>Length</strong><br /> </td> 
    <td> Devuelve la longitud de la cadena<br /> </td> 
    <td> Length(&lt;string&gt;)<br /> </td> 
   </tr> 
@@ -588,7 +588,7 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
    <td> Replace(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Derecha</strong><br /> </td> 
+   <td> <strong>Right</strong><br /> </td> 
    <td> Devuelve los últimos “n” caracteres de la cadena<br /> </td> 
    <td> Right(&lt;string&gt;)<br /> </td> 
   </tr> 
@@ -613,12 +613,12 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
    <td> Sha512Digest(&lt;Cadena&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Inteligente</strong><br /> </td> 
+   <td> <strong>Smart</strong><br /> </td> 
    <td> Devuelve la cadena con la primera letra de cada palabra en mayúscula<br /> </td> 
    <td> Smart(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Subcadena</strong><br /> </td> 
+   <td> <strong>Substring</strong><br /> </td> 
    <td> Extracts the sub-string starting at character n1 of the string and with a length of n2<br /> </td> 
    <td> Substring(&lt;string&gt;, &lt;offset&gt;, &lt;length&gt;)<br /> </td> 
   </tr> 
@@ -633,7 +633,7 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
    <td> ToString(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Superior</strong><br /> </td> 
+   <td> <strong>Upper</strong><br /> </td> 
    <td> Devuelve la cadena en mayúsculas<br /> </td> 
    <td> Upper(&lt;string&gt;)<br /> </td> 
   </tr> 
@@ -662,7 +662,7 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
 
 ## Acumulados {#aggregates}
 
-Las funciones de agregación solo están disponibles cuando se [agregan datos](../../automating/using/query.md#enriching-data) adicionales de la **[!UICONTROL Query]** actividad de un flujo de trabajo.
+Las funciones de agregación solo están disponibles cuando se [agregan datos](../../automating/using/query.md#enriching-data) adicionales de la **[!UICONTROL Query]**actividad de un flujo de trabajo.
 
 Las funciones de agregado se utilizan para realizar cálculos en un conjunto de valores.
 
@@ -671,7 +671,7 @@ Las funciones de agregado se utilizan para realizar cálculos en un conjunto de 
   <tr> 
    <td> <strong>Nombre</strong><br /> </td> 
    <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Sintaxis</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Promedio</strong>, Promedio<br /> </td> 
@@ -720,7 +720,7 @@ Las funciones de representación se utilizan para ordenar valores.
   <tr> 
    <td> <strong>Nombre</strong><br /> </td> 
    <td> <strong>Descripción</strong><br /> </td> 
-   <td> <strong>Sintaxis</strong><br /> </td> 
+   <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 
