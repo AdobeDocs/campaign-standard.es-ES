@@ -12,12 +12,16 @@ discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3033e2f15065685f3c0e7c1759e184738cb67d9c
+source-git-commit: 6291862737c71b63d8107b03245d5207b6151e96
 
 ---
 
 
 # Cálculo de indicador{#indicator-calculation}
+
+>[!NOTE]
+>
+>Para procesar y administrar mejor los grandes volúmenes y los análisis en tiempo real, los informes dinámicos utilizan agregaciones aproximadas para las estimaciones de recuento diferenciadas. Las agregaciones aproximadas ofrecen un uso limitado de la memoria y suelen ser más rápidas que los cálculos exactos.
 
 Las tablas siguientes proporcionan la lista de indicadores utilizados en los distintos informes y su fórmula de cálculo según el tipo de envío.
 
@@ -152,13 +156,7 @@ Las tablas siguientes proporcionan la lista de indicadores utilizados en los dis
    <td> @rateQuarantine<br /> </td> 
    <td> @quarantine/@sent<br /> </td> 
    <td> El denominador para el cálculo del tipo se basa en el recuento de envíos (entregado + devoluciones).<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Rechazado<br /> </td> 
-   <td> @refused<br /> </td> 
-   <td> count(@failReason=20)<br /> </td> 
-   <td> </td> 
-  </tr> 
+  </tr>
   <tr> 
    <td> Rechazado<br /> </td> 
    <td> @rejected<br /> </td> 
