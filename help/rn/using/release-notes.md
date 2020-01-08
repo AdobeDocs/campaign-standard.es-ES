@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
+source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ---
 
@@ -26,7 +26,7 @@ Recursos adicionales:
 * [Planificación de versiones de campaña](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 * [Últimas actualizaciones de documentación](../../rn/using/documentation-updates.md)
 * [Funciones obsoletas y eliminadas](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
-* [Panel de control](https://helpx.adobe.com/campaign/kb/control-panel.html)
+* [Notas de la versión del Panel de control](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
 * Notas de la versión anteriores: [2018](../../rn/using/release-notes-2018.md), [2017](../../rn/using/release-notes-2017.md), [2015-2016](../../rn/using/release-notes-2015-2016.md)
 
 ## Versión 19.4: diciembre de 2019 {#release-19-4---october-2019}
@@ -317,7 +317,7 @@ Se ha introducido una serie de mejoras y correcciones para optimizar los fragmen
  <tbody> 
   <tr> 
    <td> Panel de control<br /> </td> 
-   <td> <p>Para ayudar a aumentar la eficacia de su trabajo como usuario administrador, puede supervisar fácilmente la capacidad y administrar la configuración de sus instancias (empezando con la administración de servidores SFTP).</p><p>Para obtener más información, consulte la <a href="https://helpx.adobe.com/campaign/kb/control-panel.html">documentación detallada</a> y el <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-control-panel-video-use.html">videotutorial</a>.</p></td> 
+   <td> <p>Para ayudar a aumentar la eficacia de su trabajo como usuario administrador, puede supervisar fácilmente la capacidad y administrar la configuración de sus instancias (empezando con la administración de servidores SFTP).</p><p>Para obtener más información, consulte la <a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html">documentación detallada</a> y el <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-control-panel-video-use.html">videotutorial</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Notificaciones locales<br /> </td> 
