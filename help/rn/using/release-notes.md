@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
+source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 
 ---
 
@@ -31,7 +31,7 @@ Recursos adicionales:
 
 ## Versión 19.4: diciembre de 2019 {#release-19-4---october-2019}
 
-### What's new? {#what-s-new-5}
+### What&#39;s new? {#what-s-new-5}
 
 <table> 
  <thead> 
@@ -67,7 +67,7 @@ Recursos adicionales:
 
 * La ventana emergente de consentimiento para los informes dinámicos se ha actualizado para incluir la integración de Adobe Campaign Standard y Microsoft Dynamics 365. Al aceptar los términos, los datos de perfil se incluirán al utilizar la integración de Adobe Campaign Standard/Microsoft Dynamics 365 y los informes dinámicos. [Más](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) información (CAMP-29766)
 * Se ha corregido un problema que mostraba fechas de contacto incorrectas al recibir alertas de entrega.
-* Cuando se envía un evento de mensaje transaccional con un parámetro de contexto desconocido, ahora Campaign devuelve un mensaje de error "400" en lugar de "500". (CAMP-28632)
+* Cuando se envía un evento de mensaje transaccional con un parámetro de contexto desconocido, ahora Campaign devuelve un mensaje de error &quot;400&quot; en lugar de &quot;500&quot;. (CAMP-28632)
 * Se ha agregado un nuevo segmento de prueba **de** exclusión en los informes dinámicos. Este segmento ahora está seleccionado de forma predeterminada para filtrar los informes. [Más información](../../reporting/using/list-of-components-.md#segments)
 * La opción de caducidad **del** mensaje se ha agregado a la notificación push. Permite especificar una fecha de caducidad en la que Apple (APNS) o Android (FCM) dejarán de enviar el mensaje. [Más información](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
 * Se han realizado mejoras en la actividad de archivos **de** carga: los registros de flujo de trabajo se han aclarado y detallado sobre el error que se produce cuando un archivo no se carga. La transición de salida generada al activar la opción **Mantener los rechazados en un archivo** ha pasado a denominarse **Rechazados**. [Más información](../../automating/using/load-file.md)
@@ -83,14 +83,14 @@ Recursos adicionales:
 
 * Se ha corregido un problema que impedía rastrear los vínculos de la página de aterrizaje, suscripción y cancelación de suscripción al insertarlos en un mensaje de correo electrónico. (CAMP-37809)
 * Se ha corregido un problema que podía provocar errores al crear un nuevo correo electrónico y seleccionar una plantilla. (CAMP-38000)
-* Al editar un vínculo con el diseñador de correo electrónico, ahora puede utilizar la opción **Subrayar vínculo** . Además, se ha agregado una propiedad **Target** con el valor predeterminado **Ninguno**. [Más información](../../designing/using/styles.md#about-styling-links)
+* Al editar un vínculo con el Diseñador de correo electrónico, ahora puede utilizar la opción **Subrayar vínculo** . Además, se ha agregado una propiedad **Target** con el valor predeterminado **Ninguno**. [Más información](../../designing/using/styles.md#about-styling-links)
 * Se ha corregido un problema de color en los vínculos de los componentes de texto en el cuerpo de un correo electrónico. (CAMP-37330)
 * Se ha corregido un problema que impedía que los vínculos asociados se eliminaran al eliminar una imagen. (CAMP-37234)
 * Se ha corregido un problema que impedía guardar las modificaciones en la configuración de **pedido** de contenido dinámico en una condición. (CAMP-36883)
 * Se corrigió un problema al buscar páginas de aterrizaje. La búsqueda se ha ampliado de los 50 primeros creados a toda la base de datos. (CAMP-36839)
 * Se ha corregido un problema al guardar las modificaciones en el remitente de correo electrónico en el **formulario Desde: Campo de nombre** . (CAMP-36606)
 * La advertencia de compatibilidad de componentes de carrusel se ha modificado para reflejar los clientes de correo electrónico admitidos.
-* Se ha corregido un problema de visualización en dispositivos móviles. El atributo height ahora siempre se establece en "height: auto" al agregar o cargar una imagen nueva en un correo electrónico. (CAMP-35497)
+* Se ha corregido un problema de visualización en dispositivos móviles. El atributo height ahora siempre se establece en &quot;height: auto&quot; al agregar o cargar una imagen nueva en un correo electrónico. (CAMP-35497)
 * Se ha corregido un problema que dejaba etiquetas meta y estilo en el HTML al eliminar un fragmento de un componente de estructura. (CAMP-35390)
 * Se ha corregido un problema con los fragmentos al actualizar contenido reutilizable. (CAMP-35186)
 * Se ha corregido un problema al mostrar contenido condicional solo móvil en correos electrónicos. (CAMP-35155)
@@ -116,10 +116,10 @@ Recursos adicionales:
 * Se ha mejorado el rendimiento de la base de datos en recursos de gran tamaño.
 * Se han aclarado las descripciones de algunos errores que se producen al enviar mensajes SMS. (CAMP-36558)
 * Ahora aparece un mensaje de error al ejecutar una actividad de **Programador** de un flujo de trabajo que está conectada a sí mismo, ya sea directamente o a través de varias actividades, ya que esto podría provocar que el servidor de flujo de trabajo de la instancia se quedara atascado.
-* Se han realizado mejoras para ayudar a solucionar los problemas de los mensajes transaccionales: el vínculo "Datos" ha pasado a llamarse "Últimos eventos transaccionales" en la pantalla de configuración de eventos, ahora enumera los eventos recibidos ordenados en orden descendente. Además, se ha creado un nuevo estado de evento de transacción: "targetingFailed". Cuando el módulo de mensajería transaccional no puede enriquecer un vínculo que se utiliza para la segmentación de mensajes, el evento transaccional estará ahora en este nuevo estado (en lugar del estado "RoutingFailed").
+* Se han realizado mejoras para ayudar a solucionar los problemas de los mensajes transaccionales: el vínculo &quot;Datos&quot; ha pasado a llamarse &quot;Últimos eventos transaccionales&quot; en la pantalla de configuración de eventos, ahora enumera los eventos recibidos ordenados en orden descendente. Además, se ha creado un nuevo estado de evento de transacción: &quot;targetingFailed&quot;. Cuando el módulo de mensajería transaccional no puede enriquecer un vínculo que se utiliza para la segmentación de mensajes, el evento transaccional estará ahora en este nuevo estado (en lugar del estado &quot;RoutingFailed&quot;).
 * Se han realizado mejoras en la interfaz al restringir el acceso de la página de aterrizaje a unidades geográficas o organizativas específicas. El propósito es advertir que la página de aterrizaje puede estar sujeta a condiciones de visibilidad: ahora es obligatoria la selección de una unidad geográfica y organizativa al crear una página de aterrizaje. Ahora se muestra una pancarta con información relacionada una vez seleccionada una unidad. Se ha aclarado el mensaje de error que se muestra al probar la página de aterrizaje.
 * En las API de Campaign Standard, las claves personalizadas no se pueden modificar con una operación de PARCH si el valor clave es diferente de la clave de origen o si está utilizando su propia clave comercial como URI en lugar de la proporcionada por Adobe.
-* El idioma "Albanés - Macedonia" ha sido agregado a la lista desplegable de idiomas preferidos. (CAMP-35396)
+* El idioma &quot;Albanés - Macedonia&quot; ha sido agregado a la lista desplegable de idiomas preferidos. (CAMP-35396)
 
 ### Parches {#patches-4}
 
@@ -145,12 +145,12 @@ Recursos adicionales:
 * Se ha corregido un problema que impedía importar recursos personalizados en un nuevo entorno. (CAMP-36506)
 * Se ha corregido un problema en los informes de clics interactivos que podía hacer que los porcentajes se ocultaran en las imágenes (CAMP-36407)
 * Se ha corregido un problema que se producía al intentar exportar un campo de descripción de entrega. (CAMP-35467)
-* Se ha corregido un problema que podía dejar el estado de un envío como "Iniciar pendiente" aunque el envío hubiera finalizado. (CAMP-35355)
+* Se ha corregido un problema que podía dejar el estado de un envío como &quot;Iniciar pendiente&quot; aunque el envío hubiera finalizado. (CAMP-35355)
 * Se ha corregido un problema que impedía que se mostraran los registros de flujo de trabajo después de habilitarlos y, a continuación, se desactivaran los registros SQL.
 
 ## Actualización del Panel de control - Agosto de 2019 {#controlpanel-update---august-2019}
 
-### What's new? {#what-s-new-4}
+### What&#39;s new? {#what-s-new-4}
 
 Hemos añadido nuevas funcionalidades para que los administradores reciban notificaciones antes de que expiren los certificados SSL para sus dominios. Para obtener más información, consulte la [documentación detallada](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html).
 
@@ -160,7 +160,7 @@ Tenga en cuenta que el Panel de control solo está disponible para clientes aloj
 
 ## Versión 19.3: julio de 2019 {#release-19-3---july-2019}
 
-### What's new? {#what-s-new-3}
+### What&#39;s new? {#what-s-new-3}
 
 <table> 
  <thead> 
@@ -221,7 +221,7 @@ Tenga en cuenta que el Panel de control solo está disponible para clientes aloj
 * Al crear entregas recurrentes sin período de agregación, el panel de envío le permite solicitar confirmación antes de enviar la entrega. For more on this, refer to the [detailed documentation](../../sending/using/confirming-the-send.md).
 * Ahora puede personalizar una etiqueta de entrega con variables de evento que se han declarado en la actividad de señal externa del flujo de trabajo. For more on this, refer to the [detailed documentation](../../automating/using/calling-a-workflow-with-external-parameters.md).
 * Se ha mejorado la consulta de eliminación del RGPD para mejorar el rendimiento. (CAMP-33504)
-* La opción "ftp" se ha eliminado de la interfaz de configuración de cuenta externa. (CAMP-34472)
+* La opción &quot;ftp&quot; se ha eliminado de la interfaz de configuración de cuenta externa. (CAMP-34472)
 * Ahora puede activar y desactivar la opción de modo de prueba SMTP para cada mensaje de correo electrónico. For more on this, refer to the [detailed documentation](../../administration/using/configuring-email-channel.md#smtp-test-mode). (CAMP-34602)
 
 ### Otros cambios {#other-changes-2}
@@ -232,7 +232,7 @@ Tenga en cuenta que el Panel de control solo está disponible para clientes aloj
 * Ahora aparece una advertencia en los registros de flujos de trabajo cuando una actividad se ha estado ejecutando durante más de 6 horas. Esto no se aplica a las actividades de notificación push, envío, señal, inicio, fin, tenedor y unión, programación y espera.
 * Ahora aparece una advertencia en los registros de flujos de trabajo cuando se alcanza el número máximo de flujos de trabajo que se ejecutan simultáneamente.
 * Los flujos de trabajo que han estado en pausa o en estado de error durante más de 7 días ahora se detienen para consumir menos espacio en disco. La tarea de limpieza se muestra en los registros del flujo de trabajo.
-* Al utilizar una actividad de "Transferir archivo", ahora se registra un error si el tamaño del archivo supera el espacio disponible en el disco.
+* Al utilizar una actividad de &quot;Transferir archivo&quot;, ahora se registra un error si el tamaño del archivo supera el espacio disponible en el disco.
 * La acción Redirigir a la URL de destino ya no se puede seleccionar para el botón secundario en los mensajes en la aplicación.
 
 ### Parches {#patches-3}
@@ -250,15 +250,15 @@ Tenga en cuenta que el Panel de control solo está disponible para clientes aloj
 * Se ha corregido un problema en los flujos de trabajo que se producía al combinar actividades de exclusión y de tenedor para crear audiencias. (CAMP-33401)
 * Se ha corregido un problema que podía impedir que se mostrara el contenido de la página de reflejo y que se enviaran mensajes de prueba para envíos recurrentes. (CAMP-33413)
 * Se ha corregido un problema que provocaba un error al usar una actividad de Unión entre perfiles y audiencias. Este problema se debía a una incompatibilidad de las claves de identificación en las transiciones de entrada. (CAMP-33713)
-* Se ha corregido un problema en las actividades de prueba que impedía que la expresión "recCount" utilizara la sintaxis correcta al hacer doble clic en ella. (CAMP-33756)
+* Se ha corregido un problema en las actividades de prueba que impedía que la expresión &quot;recCount&quot; utilizara la sintaxis correcta al hacer doble clic en ella. (CAMP-33756)
 * Se ha corregido un problema que podía generar un mensaje de error al abrir los registros del flujo de trabajo técnico de facturación. (CAMP-34313)
 * Se ha corregido un problema en las páginas de aterrizaje que se producía al configurar campos de casilla de verificación con suscripciones. (CAMP-34369)
-* Se ha corregido un problema que se producía al configurar una lista y agregarle el campo "icono". (CAMP-34585)
-* Se ha corregido un problema que impedía usar los símbolos "|" y "%" como separadores de fecha y hora en Cargar actividades de flujo de trabajo de archivos. (CAMP-34706)
+* Se ha corregido un problema que se producía al configurar una lista y agregarle el campo &quot;icono&quot;. (CAMP-34585)
+* Se ha corregido un problema que impedía usar los símbolos &quot;|&quot; y &quot;%&quot; como separadores de fecha y hora en Cargar actividades de flujo de trabajo de archivos. (CAMP-34706)
 * Se ha corregido un problema que se producía al usar condiciones de visibilidad con casillas de verificación en páginas de aterrizaje. (CAMP-34802)
-* Se ha corregido un problema en la actividad Enriquecimiento que impedía que se mostraran campos en la ficha "Datos adicionales" si la dimensión de filtrado estaba configurada en registros de seguimiento y la dimensión de destino en el perfil.
-* Se ha corregido un problema que provocaba un mensaje de error al exportar un recurso "workflowTemplate".
-* Se corrigió un problema al crear un nuevo perfil, que impedía que el campo "Código de país o región" se guardara si se seleccionaba en el cuadro de diálogo.
+* Se ha corregido un problema en la actividad Enriquecimiento que impedía que se mostraran campos en la ficha &quot;Datos adicionales&quot; si la dimensión de filtrado estaba configurada en registros de seguimiento y la dimensión de destino en el perfil.
+* Se ha corregido un problema que provocaba un mensaje de error al exportar un recurso &quot;workflowTemplate&quot;.
+* Se corrigió un problema al crear un nuevo perfil, que impedía que el campo &quot;Código de país o región&quot; se guardara si se seleccionaba en el cuadro de diálogo.
 * Se han corregido varios problemas que se producían al utilizar la plantilla de importación de correo directo (updateQuarantinesDeliveryLogsDirectMail).
 * Se ha corregido un problema relacionado con la integración de Recursos On Demand.
 * Se ha corregido un problema que se producía al acercar la vista Línea de tiempo. (CAMP-33628)
@@ -276,7 +276,7 @@ Tenga en cuenta que el Panel de control solo está disponible para clientes aloj
 * Se ha mejorado la consulta de eliminación del RGPD para mejorar el rendimiento.
 * Se ha corregido un problema que podía provocar bloqueos web tras la actualización a la versión 19.2. (CAMP-34862)
 * Se ha corregido un problema que podía impedir que los usuarios que no eran administradores guardaran o programaran informes. (CAMP-31133)
-* Se ha corregido un problema al usar "|" como separador de fechas en la actividad de flujo de trabajo de cargar archivo. (CAMP-34706)
+* Se ha corregido un problema al usar &quot;|&quot; como separador de fechas en la actividad de flujo de trabajo de cargar archivo. (CAMP-34706)
 
 ## Versión 19.2.4: junio de 2019 {#release-19-2-4---june-2019}
 
@@ -298,14 +298,14 @@ Se ha introducido una serie de mejoras y correcciones para optimizar los fragmen
 * Se ha corregido un problema que podía impedir que el envío de SMS se reanudara después de desconectar el conector de SMS.
 * Se ha corregido un problema que podía cerrar las conexiones SMPP cuando TLS estaba habilitado.
 * Se ha corregido un problema que podía cerrar las conexiones SMPP cuando TLS estaba habilitado.
-* La opción "Launch_URL_Campaign" se ha agregado a Campaign para administrar las propiedades de las aplicaciones móviles creadas con el SDK de Adobe Experience Platform Mobile.
+* La opción &quot;Launch_URL_Campaign&quot; se ha agregado a Campaign para administrar las propiedades de las aplicaciones móviles creadas con el SDK de Adobe Experience Platform Mobile.
 * Se ha corregido un error que provocaba que la opción de entorno de Simulador para pruebas se desactivara tras cargar el certificado de una propiedad móvil recién creada y salir de la página de propiedades de la aplicación móvil.
 * Se ha corregido un problema que impedía enriquecer el contenido de un mensaje transaccional con información del recurso de servicio. (CAMP-33707)
 * Se ha corregido un problema en las páginas de aterrizaje de lista negra que se producía al intentar cancelar la suscripción de perfiles de un servicio.
 
 ## Versión 19.2: mayo de 2019 {#release-19-2---may-2019}
 
-### What's new? {#what-s-new-}
+### What&#39;s new? {#what-s-new-}
 
 <table> 
  <thead> 
@@ -375,7 +375,7 @@ Se han añadido varias mejoras al canal de mensajería Transactional para optimi
 * Se ha agregado una nueva opción a la cuenta externa de SMS. Permite limitar el número máximo de procesos MTA que envían SMS para controlar mejor el número de conexiones paralelas. Para obtener más información, consulte la nota técnica de protocolo y configuración [del conector](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) SMS.
 * Al publicar un recurso con extensión API, si la API ya se ha publicado, ahora se actualiza automáticamente cada vez que se vuelve a publicar. Anteriormente, esta acción era manual y si no se actualizaba la API se podía romper el perfil o el recurso de servicio de esta API. For more on this, refer to the [detailed documentation](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension).
 * La dimensión de código postal se ha eliminado de los informes dinámicos. En su lugar, se recomienda usar dimensiones de ciudad, país y estado.
-* Se ha eliminado el activador del evento de ciclo de vida de "primer inicio" para los mensajes en la aplicación.
+* Se ha eliminado el activador del evento de ciclo de vida de &quot;primer inicio&quot; para los mensajes en la aplicación.
 * Al exportar un paquete con grupos de seguridad, ahora contiene las funciones asignadas a cada grupo. (CAMP-32960)
 * En la actividad Cargar archivo, una nueva opción le permite comprobar que las columnas del archivo que está cargando coinciden con la definición de la columna. Para obtener más información, consulte la [documentación detallada](../../automating/using/load-file.md). (CAMP-32229)
 * Ahora, los flujos de trabajo se pueden iniciar con una carga útil, lo que le permite utilizar y compartir parámetros externos entre actividades dentro del flujo de trabajo. Para obtener más información, consulte la [documentación detallada](../../automating/using/calling-a-workflow-with-external-parameters.md). (CAMP-29412 y CAMP-29413)
@@ -397,13 +397,13 @@ Se han añadido varias mejoras al canal de mensajería Transactional para optimi
 * Se ha corregido un error que impedía que los campos de personalización funcionaran al usar **Target todos los usuarios de una plantilla de aplicación** móvil.
 * Se aprovisionaron las nuevas instancias de Campaign Standard. (CAMP-32635 y CAMP-32344)
 * Se ha corregido un error que impedía la personalización de la fórmula de fecha en un flujo de trabajo. (CAMP-30336)
-* Se ha corregido un problema al definir una fórmula de fecha personalizada que podía impedir que los campos "Datos adicionales" y "Código de segmento" estuvieran disponibles en la lista desplegable. (CAMP-32383)
-* Se ha corregido un problema que podía impedir que las actividades "Transferir archivo" y "Extraer archivo" encontraran los archivos rechazados si estaban cifrados. (CAMP-32377)
+* Se ha corregido un problema al definir una fórmula de fecha personalizada que podía impedir que los campos &quot;Datos adicionales&quot; y &quot;Código de segmento&quot; estuvieran disponibles en la lista desplegable. (CAMP-32383)
+* Se ha corregido un problema que podía impedir que las actividades &quot;Transferir archivo&quot; y &quot;Extraer archivo&quot; encontraran los archivos rechazados si estaban cifrados. (CAMP-32377)
 * Se ha corregido un problema en las API que podía impedir que el filtro lineCount procesara el recuento total exacto. (CAMP-31424)
 * Se ha corregido un problema en las páginas de aterrizaje que impedía que los campos de entrada mostraran el valor actualizado una vez modificado. (CAMP-31401)
 * Se ha corregido un problema que podía provocar que una actividad de señal se activara inesperadamente.
 * Se ha corregido un problema que podía impedir que se mostrara la vista previa de correo electrónico cuando la audiencia estaba vacía.
-* Se ha corregido un problema en la actividad "Extraer archivo" que podía generar un archivo mientras se activaba la opción "No generar un archivo si la transición de entrada está vacía".
+* Se ha corregido un problema en la actividad &quot;Extraer archivo&quot; que podía generar un archivo mientras se activaba la opción &quot;No generar un archivo si la transición de entrada está vacía&quot;.
 * Se ha corregido un problema que provocaba que el flujo de trabajo de entregabilidad se desactivara si no finalizaba correctamente.
 * Se ha corregido un problema que podía impedir que los usuarios guardaran o programaran informes. (CAMP-31133)
 
@@ -423,7 +423,7 @@ Se han añadido varias mejoras al canal de mensajería Transactional para optimi
 
 ## Versión 19.1: febrero de 2019 {#release-19-1---february-2019}
 
-### What's new? {#what-s-new--1}
+### What&#39;s new? {#what-s-new--1}
 
 <table> 
  <thead> 
@@ -493,7 +493,7 @@ Se han añadido varias mejoras al canal de mensajería Transactional para optimi
 * Adobe Campaign ahora es totalmente compatible con FCM para las aplicaciones SDK V4 y AEP.
 * Adobe Campaign admite notificaciones push en Wear OS por Android, así como watchOS por Apple.
 * Los mensajes de advertencia y error que se pueden mostrar al navegar en la interfaz se han aclarado y facilitado la comprensión.
-* Ahora puede agregar a las columnas de la lista de perfiles relacionadas con los campos de inclusión y exclusión ("Ya no hay contacto...").
+* Ahora puede agregar a las columnas de la lista de perfiles relacionadas con los campos de inclusión y exclusión (&quot;Ya no hay contacto...&quot;).
 * La lista desplegable Huso horario de la pantalla de creación de perfiles se ha movido de la sección Dirección a la sección superior de la interfaz.
 * Ahora puede agregar separadores al configurar pantallas de recursos personalizadas, lo que le permite organizar los campos en categorías.
 
@@ -512,14 +512,14 @@ Se han añadido varias mejoras al canal de mensajería Transactional para optimi
 * Se ha corregido un problema que se producía con la frecuencia de ejecución de la actividad Programador y la hora de inicio. (CAMP-30745)
 * Se ha corregido un problema que se podía producir con la generación de PKEY al usar recursos de perfil extendidos. (CAMP-30285)
 * Se ha corregido un problema que podía ocurrir con las reglas de fatiga basadas en días de calendario. (CAMP-30136)
-* Se ha corregido un problema que se podía producir al intentar obtener acceso a los recursos personalizados con nombres que terminaran por "Base". (CAMP-30109)
+* Se ha corregido un problema que se podía producir al intentar obtener acceso a los recursos personalizados con nombres que terminaran por &quot;Base&quot;. (CAMP-30109)
 * Se ha corregido un problema que impedía utilizar una llamada PATCH para suscribir un perfil a un servicio. (CAMP-29728)
 * Se ha corregido un problema que podía dañar un flujo de trabajo al importar un archivo XML a través de la actividad Cargar archivo. (CAMP-29208 y CAMP-28205)
 * Se ha corregido un problema al vincular recursos personalizados que podía impedir que se generaran vínculos de cardinalidad inversa. (CAMP-30476)
 * Se ha corregido un problema que impedía ampliar los registros de entrega al usar solo el código de segmento.
 * Se ha corregido un problema que podía duplicar filas al usar la actividad de transferencia de archivos en flujos de trabajo.
 * Se ha corregido un problema que impedía que los informes programados se enviaran a la hora elegida.
-* Se ha corregido un problema que provocaba discrepancias entre los KPI "Para entregar" y "Enviado" para una entrega en la aplicación en un flujo de trabajo.
+* Se ha corregido un problema que provocaba discrepancias entre los KPI &quot;Para entregar&quot; y &quot;Enviado&quot; para una entrega en la aplicación en un flujo de trabajo.
 * Se ha corregido un problema que impedía que el seguimiento funcionara para un mensaje en la aplicación creado con un HTML personalizado.
 * Se ha corregido un problema que impedía que el contenido de entrega en la aplicación se guardara cuando se utilizaba en un flujo de trabajo.
 * Se ha corregido un problema que impedía que las aplicaciones móviles se mostraran para los administradores.
@@ -529,7 +529,7 @@ Se han añadido varias mejoras al canal de mensajería Transactional para optimi
 
 ## Versión 19.0: enero de 2019 {#release-19-0---january-2019}
 
-### What's new? {#what-s-new--2}
+### What&#39;s new? {#what-s-new--2}
 
 <table> 
  <colgroup><col style="width: 30%"><col style="width: 70%"></colgroup>
@@ -575,7 +575,7 @@ Se han añadido varias mejoras al canal de mensajería Transactional para optimi
 
 * Una nueva opción en la actividad Cargar datos ahora permite aplicar una etapa posterior al procesamiento al archivo que contiene los registros rechazados (por ejemplo, Compresión en formato zip). (CAMP-24521)
 * Una nueva opción en la actividad Actualizar datos ahora permite configurar el tamaño máximo del lote para que se carguen los datos. (CAMP-28400)
-* Se ha mejorado la selección del estado de dirección de los perfiles. Al seleccionar un país, la lista desplegable "Estado" ahora se actualiza automáticamente con los valores de estados relevantes. (CAMP-28874)
+* Se ha mejorado la selección del estado de dirección de los perfiles. Al seleccionar un país, la lista desplegable &quot;Estado&quot; ahora se actualiza automáticamente con los valores de estados relevantes. (CAMP-28874)
 * Ahora, una nueva opción en la actividad de archivo de extracción impide que se genere un archivo si la transición de entrada está vacía. Esto evita la creación y carga de archivos vacíos en servidores SFTP.
 * Se ha mejorado el informe de resumen de envío.
 * Se ha enriquecido la lista de países disponibles al definir la dirección de un perfil. (CAMP-26707)
@@ -601,13 +601,13 @@ Se han añadido varias mejoras al canal de mensajería Transactional para optimi
 
 * Se ha corregido un problema que mostraba registros de entrega incorrectos en los informes dinámicos. (CAMP-23446)
 * Se ha corregido un problema que podía afectar a los números del informe Resumen de devoluciones (CAMP-28703)
-* Se ha corregido un problema con la integración del servicio principal de campañas y recursos que podía impedir que se mostraran recursos al seleccionarlos **[!UICONTROL Image shared from Adobe Experience Cloud]** en un mensaje de correo electrónico (CAMP-28732).
+* Se ha corregido un problema con la integración del servicio principal de campañas y recursos que podía impedir que se mostraran recursos al seleccionarlos **[!UICONTROL Image shared from Adobe Experience Cloud]**en un mensaje de correo electrónico (CAMP-28732).
 * Se ha corregido un problema que impedía que los mensajes SMS que contenían el carácter ‘uno’ se enviaran aunque la transliteración estuviera autorizada en la cuenta externa de SMPP. (CAMP-29041)
 * Se ha corregido un problema que podía mostrar registros duplicados al usar una actividad de segmentación en flujos de trabajo. (CAMP-28743)
 * Se ha corregido un problema que impedía eliminar una de las asignaciones de valores en una columna de una actividad de flujo de trabajo. (CAMP-28708)
-* Se ha corregido un problema en la actividad de transferencia de archivos al usar caracteres comodín con la opción "Probar para ver si el archivo existe". (CAMP-28977)
+* Se ha corregido un problema en la actividad de transferencia de archivos al usar caracteres comodín con la opción &quot;Probar para ver si el archivo existe&quot;. (CAMP-28977)
 * Se ha corregido un problema en la actividad de transferencia de archivos que se podía producir al actualizar la configuración de cuenta externa. (CAMP-28894)
-* Se ha corregido un problema con los filtros personalizados en el editor de consultas al usar la condición "Correo electrónico no está vacío". (CAMP-28741)
+* Se ha corregido un problema con los filtros personalizados en el editor de consultas al usar la condición &quot;Correo electrónico no está vacío&quot;. (CAMP-28741)
 * Se ha corregido un problema que se podía producir al exportar tablas de recursos personalizados con más de 100.000 registros. (CAMP-28150)
 * Se ha corregido un problema que impedía eliminar mensajes transaccionales vinculados a activadores. (CAMP-28385)
 * Se han eliminado contraseñas que se mostraban en algunos registros SMS.
@@ -615,7 +615,7 @@ Se han añadido varias mejoras al canal de mensajería Transactional para optimi
 * Se ha corregido un problema que impedía enviar campañas cuando las conexiones SMS eran inestables.
 * Se ha corregido un problema que mostraba entregas eliminadas en los informes dinámicos.
 * Se ha corregido un problema que impedía recuperar datos adicionales de los registros de entrega, los registros de seguimiento y las tablas de registros de exclusión al usar una actividad de enriquecimiento en un flujo de trabajo.
-* Se ha corregido un problema con las solicitudes de eliminación del RGPD que se producía al utilizar un tipo de vínculo "N de recopilación de cardinalidad" y la opción "Eliminar el registro de destino implica eliminar las referencias de registros por el vínculo".
+* Se ha corregido un problema con las solicitudes de eliminación del RGPD que se producía al utilizar un tipo de vínculo &quot;N de recopilación de cardinalidad&quot; y la opción &quot;Eliminar el registro de destino implica eliminar las referencias de registros por el vínculo&quot;.
 * Se ha corregido un problema con el uso compartido de informes.
 * Se ha corregido un problema que podía provocar problemas de rendimiento al enviar una notificación push.
 * Se ha corregido un problema que hacía que faltaran campos en los archivos de salida de correo directo.
@@ -623,12 +623,12 @@ Se han añadido varias mejoras al canal de mensajería Transactional para optimi
 * Se ha corregido un problema que se producía al crear una campaña basada en una plantilla de campaña, incluido un flujo de trabajo con una actividad de extracción configurada. (CAMP-29198)
 * Se ha corregido un problema con la actividad de extracción de archivos que impedía usar la misma expresión para varios elementos. (CAMP-29182)
 * Se corrigió un problema en el editor de consultas con la condición de unión entre el registro de banda ancha y el registro de seguimiento para rtEvent. (CAMP-28780)
-* Se ha corregido un problema que impedía que se guardaran las modificaciones de la opción de página de aterrizaje "Acción específica". (CAMP-29422)
+* Se ha corregido un problema que impedía que se guardaran las modificaciones de la opción de página de aterrizaje &quot;Acción específica&quot;. (CAMP-29422)
 * Se ha corregido un problema que impedía exportar la carga útil de un evento en un flujo de trabajo. (CAMP-29029)
 * Se ha corregido un problema que impedía que los números SMS bloqueados se excluyeran en un mensaje SMS. (CAMP-28898)
 * Se ha corregido un problema que podía impedir que se notificara a los proveedores de SMPP en caso de error al procesar los mensajes entrantes. (CAMP-29804)
 * Se ha corregido un problema que permitía eliminar cuentas externas con entregas asociadas. (CAMP-29738)
 * Se ha mejorado y estabilizado el rendimiento de envío de mensajes SMS.
-* Se ha corregido un problema que impedía que el carácter "~" se usara en un mensaje SMS. (CAMP-29172)
+* Se ha corregido un problema que impedía que el carácter &quot;~&quot; se usara en un mensaje SMS. (CAMP-29172)
 * Se ha corregido un problema en los envíos con la opción de optimización de tiempo de envío. (CAMP-29231)
 
