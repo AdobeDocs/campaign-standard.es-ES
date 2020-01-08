@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6a13d0f642538b20d62b812b866e5a0f896a1ef9
+source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 
 ---
 
@@ -109,7 +109,7 @@ Se ha añadido una nueva sección sobre cómo utilizar las trampas. [Más inform
 
 Se ha añadido una nota sobre la opción **Launch_URL_Campaign** en la página sobre cómo configurar una aplicación móvil mediante los SDK de la plataforma de experiencia de Adobe. [Más información](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
-Se ha reorganizado la guía del diseñador del correo electrónico. [Más información](../../designing/using/designing-content-in-adobe-campaign.md)
+Se ha reorganizado la guía de Email Designer. [Más información](../../designing/using/designing-content-in-adobe-campaign.md)
 
 ## Actualizaciones de documentación - Agosto de 2019 {#doc-updates-august-2019}
 
