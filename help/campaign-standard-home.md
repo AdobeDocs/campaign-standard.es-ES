@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Documentación del producto de Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
+source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 
 * **[Recomendaciones de entrega](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>Obtenga más información sobre las recomendaciones relacionadas con la creación y el envío de entregas.
 
-* **[Creador de correo electrónico](designing/using/designing-content-in-adobe-campaign.md)**<br/>Consulte la documentación reorganizada del creador de correos electrónicos.
+* **[Diseñador](designing/using/designing-content-in-adobe-campaign.md)**<br/>de correo electrónico Consulte la documentación reorganizada del Diseñador de correo electrónico.
 
 * **[Guía](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>móvil de Campaign Standard Obtenga más información sobre las directrices generales para envíos móviles.
 
@@ -46,8 +46,7 @@ source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
     <div>
     <a href="designing/using/designing-content-in-adobe-campaign.md"><strong>Cree un correo electrónico</strong></a>
     </div>
-    <em>Aprenda a utilizar el creador de correo electrónico para crear correos interactivos y personalizados</em>
-    <br>
+    <em>Aprenda a utilizar el Diseñador de correo electrónico para crear correos</em>interactivos y personalizados <br>
   </td>
   <td valign="top">
        <img alt="Desarrolladores" src="start/using/assets/dev.png" />
