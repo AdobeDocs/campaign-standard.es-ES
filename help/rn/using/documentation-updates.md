@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
+source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ---
 
@@ -117,7 +117,7 @@ Se ha añadido una nueva sección con casos de uso en flujos de trabajo centrado
 
 Se agregó un procedimiento en la sección de solución de problemas del flujo de trabajo para mostrar las consultas SQL en la ficha Registro. [Más información](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
-Se ha agregado un nuevo artículo de ayuda, con información relacionada con la administración de subdominios y certificados dentro del Panel de control. [Más información](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)
+Se ha agregado un nuevo artículo de ayuda, con información relacionada con la administración de subdominios y certificados dentro del Panel de control. [Más información](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
 
 Se ha actualizado la sección que describe los fragmentos y las plantillas de contenido. [Más información](../../designing/using/using-reusable-content.md#content-templates)
 
@@ -179,7 +179,7 @@ Se ha añadido una advertencia en la documentación de recursos personalizada. S
 
 ### Nuevas funciones incluidas en la versión {#new-capabilities-included-in-the-release}
 
-Panel de control - [Más información](https://helpx.adobe.com/campaign/kb/control-panel.html)
+Panel de control - [Más información](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 
 Notificaciones locales - [Más información](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
