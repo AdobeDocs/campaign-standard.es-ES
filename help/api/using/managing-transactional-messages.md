@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+source-git-commit: 45334e2d64c31ee22f11030e19f313b3c1b49936
 
 ---
 
@@ -25,9 +25,9 @@ Una vez creado un evento, deberá integrar la activación de este evento en su s
 
 >[!NOTE]
 >
->La creación y publicación de un evento se presenta en <a href="https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html">la documentación</a>de la campaña.
+>La creación y publicación de un evento se presenta en [esta sección](../../administration/using/configuring-transactional-messaging.md).
 
-Por ejemplo: desea que se active un evento de "abandono del carro de compras" cada vez que uno de sus clientes abandone el sitio Web antes de comprar los productos en el carro de compras. Para ello, el desarrollador web debe utilizar la API de mensajes transaccionales REST.
+Por ejemplo: desea que se active un evento de &quot;abandono del carro de compras&quot; cada vez que uno de sus clientes abandone el sitio Web antes de comprar los productos en el carro de compras. Para ello, el desarrollador web debe utilizar la API de mensajes transaccionales REST.
 
 1. El programador envía una solicitud según el método POST, que activa el [envío del evento](#sending-a-transactional-event)transaccional.
 1. La respuesta a la solicitud POST contiene una clave principal, que permite al programador enviar una o varias solicitudes a través de una solicitud GET. De esta manera, puede obtener el estado [del](#transactional-event-status)evento.
@@ -40,21 +40,21 @@ El evento transaccional se envía a través de una solicitud POST con la siguien
 POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 ```
 
-* **&lt;ORGANIZACIÓN&gt;**: su ID de organización personal. Consulte [esta sección](../../api/using/must-read.md).
+* **&lt;ORGANIZACIÓN>**: su ID de organización personal. Consulte [esta sección](../../api/using/must-read.md).
 
-* **&lt;transactionAPI&gt;**: los extremos de la API de Mensajes transaccionales.
+* **&lt;transactionAPI>**: los extremos de la API de Mensajes transaccionales.
 
-   El nombre del extremo de la API de mensajes transaccionales depende de la configuración de la instancia. Corresponde al valor "mc" seguido de su ID de organización personal. Veamos el ejemplo de la empresa Geometrixx, con "geometrixx" como ID de organización. En ese caso, la solicitud POST sería la siguiente:
+   El nombre del extremo de la API de mensajes transaccionales depende de la configuración de la instancia. Corresponde al valor &quot;mc&quot; seguido de su ID de organización personal. Veamos el ejemplo de la empresa Geometrixx, con &quot;geometrixx&quot; como ID de organización. En ese caso, la solicitud POST sería la siguiente:
 
    `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
 
    (Tenga en cuenta que el extremo de la API de mensajes transaccionales también está visible durante la vista previa de la API)
 
-* **&lt;eventID&gt;**: el tipo de evento que desea enviar. Este ID se genera al crear la definición del evento. Consulte la documentación [de](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html)Campaña.
+* **&lt;eventID>**: el tipo de evento que desea enviar. Este ID se genera al crear la definición del evento. Consulte la documentación [de](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html)Campaña.
 
 ### Encabezado de solicitud POST
 
-La solicitud debe contener un "Content-Type: application/json".
+La solicitud debe contener un &quot;Content-Type: application/json&quot;.
 
 Debe agregar un charset, por ejemplo **utf-8**. Tenga en cuenta que este valor depende de la aplicación REST que utilice.
 
@@ -78,7 +78,7 @@ Se pueden agregar los siguientes parámetros opcionales al contenido del evento 
 
 >[!NOTE]
 >
->Los valores de los parámetros "expiration" y "schedule" siguen el formato ISO 8601. ISO 8601 especifica el uso de la letra mayúscula "T" para separar la fecha y la hora. Sin embargo, se puede eliminar de la entrada o salida para mejorar la legibilidad.
+>Los valores de los parámetros &quot;expiration&quot; y &quot;schedule&quot; siguen el formato ISO 8601. ISO 8601 especifica el uso de la letra mayúscula &quot;T&quot; para separar la fecha y la hora. Sin embargo, se puede eliminar de la entrada o salida para mejorar la legibilidad.
 
 ### Respuesta a la solicitud POST
 
@@ -88,7 +88,7 @@ La respuesta POST devuelve el estado del evento transaccional en el momento en q
 
 <br/>
 
-***Solicitud de muestra***
+***Solicitud de muestra ***
 
 Solicitud POST para enviar el evento.
 
@@ -136,7 +136,7 @@ Respuesta a la solicitud POST.
 
 ### Estado del evento transaccional {#transactional-event-status}
 
-En la respuesta, el campo "status" le permite saber si el evento se ha procesado o no:
+En la respuesta, el campo &quot;status&quot; le permite saber si el evento se ha procesado o no:
 
 * **pendiente**: el evento está pendiente; el evento toma este estado cuando se acaba de activar.
 * **procesando**: el evento está pendiente de entrega; se está transformando en un mensaje y se está enviando el mensaje.
