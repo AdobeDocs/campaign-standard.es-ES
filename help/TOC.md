@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 646bd62d84c9c9b0bf8a6b3edfeafb435cb1d593
+source-git-commit: d54f036c394db7abdba805ea2c21436c0ef5212c
 
 ---
 
@@ -367,6 +367,7 @@ source-git-commit: 646bd62d84c9c9b0bf8a6b3edfeafb435cb1d593
          + [Recuento](api/using/counting.md)
          + [Paginación](api/using/pagination.md)
       + [Recursos personalizados](api/using/custom-resources.md)
+   + [Interactuar con recursos personalizados](api/using/interacting-with-custom-resources.md)
    + Administración de perfiles {#managing-profiles}
       + [Recuperación de perfiles](api/using/retrieving-profiles.md)
       + [Actualización de perfiles](api/using/updating-profiles.md)
@@ -376,7 +377,6 @@ source-git-commit: 646bd62d84c9c9b0bf8a6b3edfeafb435cb1d593
       + [Recuperación de suscripciones](api/using/retrieving-subscriptions.md)
       + [Realizar suscripciones](api/using/perform-subscriptions.md)
       + [Eliminación de suscripciones](api/using/deleting-subscriptions.md)
-   + [Interactuar con recursos personalizados](api/using/interacting-with-custom-resources.md)
    + [Interactuar con el historial de marketing](api/using/interacting-with-marketing-history.md)
    + Administración de la privacidad {#privacy-management}
       + [Creación de una solicitud de privacidad](api/using/creating-a-privacy-request.md)
