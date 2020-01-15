@@ -12,14 +12,14 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 538739417c4ed28ff2991186dac5fb69d1af3afd
 
 ---
 
 
 # Recursos personalizados {#custom-resources}
 
-Adobe Campaign incluye un modelo de datos predefinido, en el que los datos se definen mediante distintos recursos. Puede enriquecer el modelo de datos que se proporciona ampliando los recursos para agregar sus propios campos personalizados, como tablas de productos o de compras.
+Adobe Campaign incluye un modelo de datos predefinido, en el que los datos se definen mediante distintos recursos. Puede enriquecer el modelo de datos que se proporciona ampliando los recursos para agregar sus propios campos personalizados o tablas personalizadas, como tablas de productos o de compras.
 
 Se puede acceder a los recursos personalizados a través de las API mediante el extremo **/profileAndServicesExt** y el nombre del recurso personalizado.
 
@@ -27,7 +27,7 @@ Se puede acceder a los recursos personalizados a través de las API mediante el 
 
 >[!NOTE]
 >
->Para los recursos que no están listos para usar, utilice siempre el prefijo <b>"cus"</b> antes del nombre del recurso.
+>Para los recursos que no están listos para usar, utilice siempre el prefijo <b>&quot;cus&quot;</b> antes del nombre del recurso.
 
 Puede realizar cualquier operación con recursos personalizados, siempre que estén vinculados a la tabla Perfil. Por ejemplo, consideremos la estructura de tablas siguiente:
 
@@ -37,7 +37,7 @@ En ese caso, todos los recursos de las tablas **Transaction**, **TransactionDeta
 
 <br/>
 
-***Solicitud de muestra***
+***Solicitud de muestra ***
 
 Muestra de una solicitud GET para acceder al recurso profileAndServicesExt extendido.
 
