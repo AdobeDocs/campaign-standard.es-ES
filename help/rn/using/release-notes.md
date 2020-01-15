@@ -12,14 +12,14 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 117577dbc1e36502c66eee6d901bdfbe0b698c06
+source-git-commit: a7dcfd1d3cd6996c6f4b435342eaaace42c706a8
 
 ---
 
 
 # Última versión{#latest-release}
 
-[Planificación](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) de versiones| [Versiones[del](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) Panel de control| Actualizaciones [de documentación](../../rn/using/documentation-updates.md) | Notas de revisión [anteriores](../../rn/using/release-notes-2018.md) | Características [obsoletas](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+[Planificación](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) de versiones| [Versiones](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) del Panel de control| Actualizaciones [de documentación](../../rn/using/documentation-updates.md) | Notas de revisión [anteriores](../../rn/using/release-notes-2018.md) | Características [obsoletas](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
 ## Versión 19.4: diciembre de 2019 {#release-19-4---october-2019}
 
