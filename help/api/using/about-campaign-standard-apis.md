@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ca1ffbd9910765aff87ec6025897bfb4411fd025
+source-git-commit: 27ca2116c49f9c23a56c178a3e3f7baf2f755c45
 
 ---
 
@@ -23,10 +23,48 @@ Las API de Campaign Standard están destinadas a permitirle **crear integracione
 
 Con las API de Adobe Campaign Standard, puede acceder a las siguientes funcionalidades:
 
-* Administrar perfiles
-* Administrar suscripciones a Servicios
-* Enviar mensajes transaccionales
-* Recuperar datos del modelo de datos personalizado
+<table>
+<tr>
+    <td valign="top">
+        <a href="../../api/using/retrieving-profiles.md"><img width="60px" alt="condiciones" src="assets/icon_profile.svg"/></a>
+    </td>
+    <td valign="top">
+        <a href="../../api/using/creating-a-service.md"><img width="60px" alt="condiciones" src="assets/icon_services.svg"/></a>
+    </td>
+    <td valign="top">
+        <a href="../../api/using/interacting-with-custom-resources.md"><img width="60px" alt="condiciones" src="assets/icon_customresources.svg"/></a>
+    </td>
+    <td valign="top">
+        <a href="../../api/using/interacting-with-marketing-history.md"><img width="60px" alt="condiciones" src="assets/icon_marketinghistory.svg"/></a>
+    </td>
+</tr>
+<tr>
+<td>Perfiles</td>
+<td>Servicios y suscripciones</td>
+<td>Recursos personalizados</td>
+<td>Historial de mercadotecnia</td>
+</tr>
+<tr>
+    <td valign="top">
+        <a href="../../api/using/creating-a-privacy-request.md"><img width="60px" alt="condiciones" src="assets/icon_privacy.svg"/></a>
+    </td>
+    <td valign="top">
+        <a href="../../api/using/managing-transactional-messages.md"><img width="60px" alt="condiciones" src="assets/icon_transactionalmessage.svg"/></a>
+    </td>
+    <td valign="top">
+        <a href="../../api/using/controlling-a-workflow.md"><img width="60px" alt="condiciones" src="assets/icon_workflows.svg"/></a>
+    </td>
+    <td valign="top">
+        <a href="../../api/using/retrieving-an-organizational-unit.md"><img width="60px" alt="condiciones" src="assets/icon_units.svg"/></a>
+    </td>
+</tr>
+<tr>
+<td>Administración de la privacidad</td>
+<td>Mensajes transaccionales</td>
+<td>Flujos de trabajo</td>
+<td>Unidades organizativas</td>
+</td>
+</table>
 
 >[!NOTE]
 >
