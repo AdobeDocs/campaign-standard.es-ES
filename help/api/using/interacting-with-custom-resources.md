@@ -12,25 +12,25 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
+source-git-commit: 538739417c4ed28ff2991186dac5fb69d1af3afd
 
 ---
 
 
 # Interactuar con recursos personalizados {#interacting-with-custom-resources}
 
-El extremo **/customResources** permite exponer las entidades personalizadas ACS en REST. En función de esta API, hay disponible una integración entre entidades personalizadas y extremos externos.
+El extremo **/customResources** permite exponer los recursos personalizados de ACS en REST. En función de esta API, hay disponible una integración entre entidades personalizadas y extremos externos.
 
-El /customResources tiene exactamente el mismo comportamiento que el extremo /profileAndServices.
+El extremo /customResources tiene exactamente el mismo comportamiento que el extremo /profileAndServices.
 
-Las entidades personalizadas que se exponen en esta API son:
+Los recursos personalizados que se exponen en esta API son:
 
 * todas las entidades vinculadas a la entidad de perfil
 * todas las entidades vinculadas a los elementos secundarios de la entidad de perfil
 * todas las entidades que no están vinculadas a perfiles y, para estas entidades, sus hijos y nietos.
 
 >[!NOTE]
->Las entidades personalizadas disponibles en /profileAndServicesExt no están expuestas en la API /customResources.
+>Los recursos personalizados disponibles en /profileAndServicesExt no están expuestos en la API /customResources.
 
 A continuación se muestra un ejemplo para recuperar los metadatos de un recurso personalizado:
 
