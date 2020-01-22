@@ -13,7 +13,7 @@ context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -43,7 +43,7 @@ En el contexto específico de una prueba A/B:
 
    >[!NOTE]
    >
-   >Las plantillas de prueba A/B y de seguimiento están ocultas de forma predeterminada. Compruebe la casilla de verificación A/B en el lado izquierdo (panel **[!UICONTROL Filter]** lateral) para mostrarlos.
+   >Las plantillas de prueba A/B y de seguimiento están ocultas de forma predeterminada. Compruebe la casilla de verificación A/B en el lado izquierdo (panel **[!UICONTROL Filter]**lateral) para mostrarlos.
 
 1. Defina las propiedades generales y la audiencia de destino del correo electrónico, al igual que para un correo electrónico estándar. Consulte la sección [Creación de audiencias](../../audiences/using/creating-audiences.md) .
 1. En el cuarto paso del asistente de creación, defina los parámetros de prueba A/B:
@@ -63,7 +63,7 @@ En el contexto específico de una prueba A/B:
 
 1. Confirme la creación del correo electrónico. Luego se mostrará el tablero de correo electrónico.
 1. Programe el envío. La fecha definida indica el inicio de la prueba A/B.
-1. Compruebe los parámetros de prueba A/B que se muestran en el **[!UICONTROL A/B test parameters]** bloque. Puede modificarlas hasta que confirme el envío de la prueba (paso 9) seleccionando el bloque.
+1. Compruebe los parámetros de prueba A/B que se muestran en el **[!UICONTROL A/B test parameters]**bloque. Puede modificarlas hasta que confirme el envío de la prueba (paso 9) seleccionando el bloque.
 
    ![](assets/create_ab_testing3.png)
 
@@ -71,13 +71,13 @@ En el contexto específico de una prueba A/B:
 1. Antes de enviar la prueba A/B, compruebe su correo electrónico enviando pruebas.
 1. Una vez finalizada la preparación, confirme el envío de la prueba. Una vez confirmados, los parámetros de prueba A/B no pueden modificarse.
 
-   La prueba A/B comienza en la fecha definida en la **[!UICONTROL Schedule]**.Puede rastrear su progreso usando los **[!UICONTROL A/B test]** bloques y **[!UICONTROL Deployment]** .
+   La prueba A/B comienza en la fecha definida en la **[!UICONTROL Schedule]**.Puede rastrear su progreso usando los**[!UICONTROL A/B test]** bloques y **[!UICONTROL Deployment]**.
 
    Puede seleccionar manualmente la variante ganadora en cualquier momento si desea reducir la duración de la prueba.
 
-   Una vez finalizada la prueba, se muestra una tabla de resumen en el **[!UICONTROL A/B Test]** bloque y esto le permite ver los distintos indicadores de las distintas variantes que se probaron.
+   Una vez finalizada la prueba, se muestra una tabla de resumen en el **[!UICONTROL A/B Test]**bloque y esto le permite ver los distintos indicadores de las distintas variantes que se probaron.
 
-1. Si ha seleccionado **[!UICONTROL Send after confirmation]** como método de envío, debe seleccionar manualmente la variante ganadora para empezar a enviarla a la población restante. Si ha seleccionado **[!UICONTROL Automatic]**, la variante ganadora se envía automáticamente a la población restante en cuanto el sistema la haya determinado.
+1. Si ha seleccionado **[!UICONTROL Send after confirmation]**como método de envío, debe seleccionar manualmente la variante ganadora para empezar a enviarla a la población restante. Si ha seleccionado**[!UICONTROL Automatic]**, la variante ganadora se envía automáticamente a la población restante en cuanto el sistema la haya determinado.
 
    >[!NOTE]
    >
@@ -87,10 +87,10 @@ El correo electrónico se ha definido y enviado. Puede acceder a sus registros e
 
 **Tema** relacionado:
 
-[Creación de un vídeo de correo electrónico](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html)
+[Creación de un vídeo de correo electrónico](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html)
 
 ## Acerca de los indicadores de prueba A/B {#about-a-b-test-indicators}
 
 En el tablero de correo electrónico, hay varios indicadores disponibles para ayudarle a medir la prueba A/B: cantidad de clics, aperturas, devoluciones, etc.
 
-Tenga en cuenta que el **[!UICONTROL Estimated recipient reactivity]** indicador es una tasa que compara el número de destinatarios que hicieron clic con el número de destinatarios que abrieron el correo electrónico. Por ejemplo, si 10 destinatarios abrieron el correo electrónico y 5 hicieron clic en él. La tasa de reactividad es del 50%.
+Tenga en cuenta que el **[!UICONTROL Estimated recipient reactivity]**indicador es una tasa que compara el número de destinatarios que hicieron clic con el número de destinatarios que abrieron el correo electrónico. Por ejemplo, si 10 destinatarios abrieron el correo electrónico y 5 hicieron clic en él. La tasa de reactividad es del 50%.
