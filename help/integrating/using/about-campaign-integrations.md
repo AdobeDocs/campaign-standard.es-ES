@@ -12,7 +12,7 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -94,7 +94,7 @@ Si desea integrar flujos de datos de otros sistemas con Adobe Campaign, consulte
    <td> Dreamweaver<br /> </td> 
    <td> Permite editar un contenido de correo electrónico desde Dreamweaver y sincronizarlo con Adobe Campaign.<br /> </td> 
    <td> 
-    <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">Crear correos electrónicos personalizados con el vídeo de Dreamweaver</a> <br/>, <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">usar la extensión de campaña para Dreamweaver</a> 
+    <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">Crear correos electrónicos personalizados con el vídeo de Dreamweaver</a> <br/>, <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">usar la extensión de campaña para Dreamweaver</a> 
   </td> 
   </tr> 
   <tr> 
