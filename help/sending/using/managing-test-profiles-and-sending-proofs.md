@@ -1,19 +1,19 @@
 ---
 title: Administración de perfiles de prueba y envío de pruebas
 description: Aprenda a administrar perfiles y pruebas de prueba.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: eb4d893b-3724-4b15-9312-1ec74784368d
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: enviar
-content-type: referencia
-topic-tags: preparar y probar mensajes
+audience: sending
+content-type: reference
+topic-tags: preparing-and-testing-messages
 discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
-context-tags: startingMember,información general
+context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -42,11 +42,11 @@ Un perfil de prueba contiene información ficticia de contacto, o información d
 
 ### Creación de perfiles de prueba {#creating-test-profiles}
 
-1. En el menú avanzado, a través del logotipo de Adobe Campaign, seleccione **Perfiles y audiencias &gt; Probar perfiles** para acceder a la lista de perfiles de prueba.
+1. En el menú avanzado, a través del logotipo de Adobe Campaign, seleccione **Perfiles y audiencias > Probar perfiles** para acceder a la lista de perfiles de prueba.
 
    ![](assets/test_profile_creation_1.png)
 
-1. En el **[!UICONTROL Test profiles]** tablero, haga clic en **Crear**.
+1. En el **[!UICONTROL Test profiles]**tablero, haga clic en** Crear **.
 
    ![](assets/test_profile_creation_2.png)
 
@@ -62,16 +62,16 @@ Un perfil de prueba contiene información ficticia de contacto, o información d
 
    >[!NOTE]
    >
-   >Puede definir un formato de correo electrónico preferido: **[!UICONTROL Text]** o **[!UICONTROL HTML]**.
+   >Puede definir un formato de correo electrónico preferido: **[!UICONTROL Text]**o**[!UICONTROL HTML]**.
 
 1. Especifique un tipo de evento y los datos de este evento si desea utilizar este perfil de prueba para probar la personalización de un mensaje transaccional.
-1. Haga clic en **[!UICONTROL Create]** para guardar el perfil de prueba.
+1. Haga clic en **[!UICONTROL Create]**para guardar el perfil de prueba.
 
 El perfil de prueba se agregará a continuación a la lista de perfiles.
 
 **Tema relacionado:**
 
-[Creación de un vídeo de perfil](https://helpx.adobe.com/campaign/kt/acs/using/acs-test-profiles-feature-video-use.html) de prueba
+[Creación de un vídeo de perfil](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/test-profiles.html) de prueba
 
 ### Edición de perfiles de prueba {#editing-test-profiles}
 
@@ -82,7 +82,7 @@ Para editar un perfil de prueba y consultar los datos vinculados a él, o para m
 
    ![](assets/test_profile_edit.png)
 
-1. Haga clic **[!UICONTROL Save]** si ha introducido los cambios o seleccione el nombre del perfil de prueba y, a continuación, **[!UICONTROL Test profiles]** en la sección de la parte superior de la pantalla para volver al tablero de perfiles de prueba.
+1. Haga clic **[!UICONTROL Save]**si ha introducido los cambios o seleccione el nombre del perfil de prueba y, a continuación,**[!UICONTROL Test profiles]** en la sección de la parte superior de la pantalla para volver al tablero de perfiles de prueba.
 
 ## Envío de pruebas {#sending-proofs}
 
@@ -94,13 +94,13 @@ Para enviar una prueba, los perfiles de prueba deben incluirse en la audiencia d
 
 En un mensaje:
 
-1. Click the **[!UICONTROL Send a test]** button.
+1. Haga clic en el botón **[!UICONTROL Send a test]**.
 
    ![](assets/bat_select.png)
 
 1. Seleccione el tipo de prueba que desee utilizar:
 
-   * **[!UICONTROL Email rendering]**:: seleccione esta opción para probar la forma en que se recibe el mensaje según las bandejas de entrada objetivo. Para obtener más información, consulte Representación [por](../../sending/using/email-rendering.md)correo electrónico.
+   * **[!UICONTROL Email rendering]**:: seleccione esta opción para probar la forma en que se recibe el mensaje según las bandejas de entrada objetivo. Para obtener más información, consulte Representación[por](../../sending/using/email-rendering.md)correo electrónico.
    * **[!UICONTROL Proof]**:: seleccione esta opción para probar el mensaje antes de enviarlo al destino principal. Los destinatarios de la prueba se encargan de aprobar la entrega comprobando tanto su contenido como su formato.
    * **[!UICONTROL Proof + Email rendering]**:: esta opción combina las dos opciones anteriores.
    ![](assets/bat_select1.png)
@@ -111,21 +111,21 @@ En un mensaje:
 
    ![](assets/bat_select2.png)
 
-1. Puede ver las pruebas mediante la lista **[!UICONTROL Proofs]** desplegable.
+1. Puede ver las pruebas mediante la lista **[!UICONTROL Proofs]**desplegable.
 
    ![](assets/bat_view.png)
 
-1. Seleccione una prueba para acceder a su resumen. En un mensaje de correo electrónico, si ha seleccionado la opción Representación **por** correo electrónico como tipo de prueba, el **[!UICONTROL Access email rendering]** icono se muestra a la derecha de la etiqueta de prueba. Consulte Representación [por correo electrónico](../../sending/using/email-rendering.md).
+1. Seleccione una prueba para acceder a su resumen. En un mensaje de correo electrónico, si ha seleccionado la opción Representación **por** correo electrónico como tipo de prueba, el **[!UICONTROL Access email rendering]**icono se muestra a la derecha de la etiqueta de prueba. Consulte Representación[por correo electrónico](../../sending/using/email-rendering.md).
 
    ![](assets/bat_view2.png)
 
-Según los comentarios de las personas que reciban la prueba, se le puede solicitar que modifique el contenido de la entrega. Una vez realizadas las modificaciones, debe reiniciar la preparación del correo electrónico y volver a enviar una prueba. Se puede acceder a cada nueva prueba mediante el **[!UICONTROL Show proofs]** botón .
+Según los comentarios de las personas que reciban la prueba, se le puede solicitar que modifique el contenido de la entrega. Una vez realizadas las modificaciones, debe reiniciar la preparación del correo electrónico y volver a enviar una prueba. Se puede acceder a cada nueva prueba mediante el **[!UICONTROL Show proofs]**botón .
 
 Debe enviar tantas pruebas como sea necesario hasta que haya finalizado el contenido de la entrega. Una vez finalizado, puede enviar el envío al objetivo principal y cerrar el ciclo de aprobación.
 
 **Tema relacionado:**
 
-[Envío de una prueba, preparación y envío de un vídeo por correo electrónico](https://helpx.adobe.com/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html)
+[Envío de una prueba, preparación y envío de un vídeo por correo electrónico](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/sending-test-preparing-sending-email.html)
 
 ## Uso de trampas {#using-traps}
 
@@ -152,16 +152,16 @@ Para usar un perfil de prueba como reventado, debe incluirse en la audiencia del
 
 Al definir la audiencia de un mensaje:
 
-1. En la **[!UICONTROL Test profiles]** ficha, seleccione un perfil de prueba. Asegúrese de que tiene **[!UICONTROL Trap]** el uso previsto.
+1. En la **[!UICONTROL Test profiles]**ficha, seleccione un perfil de prueba. Asegúrese de que tiene**[!UICONTROL Trap]** el uso previsto.
 
    ![](assets/trap_select.png)
 
-1. Una vez que el contenido del mensaje esté listo, haga clic en el **[!UICONTROL Prepare]** botón. See [Preparing the send](../../sending/using/preparing-the-send.md).
+1. Una vez que el contenido del mensaje esté listo, haga clic en el **[!UICONTROL Prepare]**botón. See[Preparing the send](../../sending/using/preparing-the-send.md).
    >[!NOTE]
    >
    >Asegúrese de seleccionar un objetivo principal. De lo contrario, no se puede enviar el mensaje.
 
-1. Click the **[!UICONTROL Confirm]** button. See [Confirming the send](../../sending/using/confirming-the-send.md).
+1. Haga clic en el botón **[!UICONTROL Confirm]**. See[Confirming the send](../../sending/using/confirming-the-send.md).
 
    ![](assets/trap_confirm.png)
 
@@ -169,4 +169,4 @@ El mensaje se envía al destino principal y al perfil de prueba.
 
 >[!NOTE]
 >
->Cuando se utiliza un perfil de prueba como reventado, para cualquier campo enriquecido de un mensaje, los datos adicionales correspondientes se seleccionan aleatoriamente de un perfil objetivo real y se asignan al perfil de prueba de reventado. Para obtener más información sobre enriquecimiento, consulte [este ejemplo](../../automating/using/enrichment.md#example--enriching-profile-data-with-data-contained-in-a-file).
+>Cuando se utiliza un perfil de prueba como reventado, para cualquier campo enriquecido de un mensaje, los datos adicionales correspondientes se seleccionan aleatoriamente de un perfil objetivo real y se asignan al perfil de prueba de reventado. Para obtener más información sobre el enriquecimiento, consulte [este ejemplo](../../automating/using/enrichment.md#example--enriching-profile-data-with-data-contained-in-a-file).
