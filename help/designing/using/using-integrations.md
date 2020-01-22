@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6881d3e0f22f3766d6a26af90ce3bcbd5e2293da
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -37,7 +37,7 @@ La integración de Adobe Campaign Standard con Dreamweaver le permite editar el 
 
    Para el desarrollador de correo electrónico ya no es necesario agregar texto como `[[FIRSTNAME_PLACEHOLDER]]` ni buscar la sintaxis de las tablas del modelo de datos. La barra de herramientas Campaña de Dreamweaver se conecta directamente al modelo de datos de la instancia de Campaign. Esto significa que puede extraer los datos que desee para la personalización, de algo como Nombre a Dirección. Si ha creado bloques de contenido dentro de Campaign, también puede extraerlos directamente en Dreamweaver.
 
-Esta capacidad se detalla en la documentación de Dreamweaver, a la que se puede acceder [aquí](https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html). También hay disponible un [vídeo](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html) de demostración.
+Esta capacidad se detalla en la documentación de Dreamweaver, a la que se puede acceder [aquí](https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html). También hay disponible un [vídeo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html) de demostración.
 
 ## Edición de contenido en Experience Manager {#editing-content-in-experience-manager}
 
@@ -139,7 +139,7 @@ Adobe Campaign ofrece varias opciones de creación de correo electrónico. En el
    <td> <strong>Para obtener más información</strong><br /> </td> 
    <td> Consulte <a href="../../designing/using/designing-content-in-adobe-campaign.md">Acerca del Diseñador</a>de correo electrónico.<br /> </td> 
    <td> See <a href="../../integrating/using/integrating-with-experience-manager.md">Integrating with Experience Manager</a>.<br /> </td> 
-   <td> Consulte <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver y Campaign</a> y vea este <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">vídeo</a>.<br /> </td> 
+   <td> Consulte <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver y Campaign</a> y vea este <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">vídeo</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
