@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7dcfd1d3cd6996c6f4b435342eaaace42c706a8
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -306,7 +306,7 @@ Se ha introducido una serie de mejoras y correcciones para optimizar los fragmen
  <tbody> 
   <tr> 
    <td> Panel de control<br /> </td> 
-   <td> <p>Para ayudar a aumentar la eficacia de su trabajo como usuario administrador, puede supervisar fácilmente la capacidad y administrar la configuración de sus instancias (empezando con la administración de servidores SFTP).</p><p>Para obtener más información, consulte la <a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html">documentación detallada</a> y el <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-control-panel-video-use.html">videotutorial</a>.</p></td> 
+   <td> <p>Para ayudar a aumentar la eficacia de su trabajo como usuario administrador, puede supervisar fácilmente la capacidad y administrar la configuración de sus instancias (empezando con la administración de servidores SFTP).</p><p>Para obtener más información, consulte la <a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/control-panel-overview.html">videotutorial</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Notificaciones locales<br /> </td> 
@@ -314,7 +314,7 @@ Se ha introducido una serie de mejoras y correcciones para optimizar los fragmen
   </tr> 
   <tr> 
    <td> Mejora del flujo de trabajo: agregue una carga útil a la actividad de señal externa<br /> </td> 
-   <td> <p>Inicie un flujo de trabajo con una carga útil cuando las condiciones definidas se cumplan correctamente desde otro flujo de trabajo o una llamada de API REST para integrarse con sus sistemas externos. Esto también incluye una nueva actividad de <strong>prueba</strong> en la que puede ejecutar pruebas con esta funcionalidad.</p><p>Para obtener más información, consulte la <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">documentación detallada</a> y el <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-external-signal-activity-feature-video-use.html">videotutorial</a>.</p></td> 
+   <td> <p>Inicie un flujo de trabajo con una carga útil cuando las condiciones definidas se cumplan correctamente desde otro flujo de trabajo o una llamada de API REST para integrarse con sus sistemas externos. Esto también incluye una nueva actividad de <strong>prueba</strong> en la que puede ejecutar pruebas con esta funcionalidad.</p><p>Para obtener más información, consulte la <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html">videotutorial</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Mejora de las páginas de aterrizaje - Google reCAPTCHA<br /> </td> 
@@ -432,7 +432,7 @@ Se han añadido varias mejoras al canal de mensajería Transactional para optimi
   </tr> 
   <tr> 
    <td> Mensajería en la aplicación móvil<br /> </td> 
-   <td> <p>Esta versión contiene la versión de GA del canal en la aplicación en Campaign. Desde un punto de vista funcional, las adiciones más notables a la versión beta son los informes dinámicos para el canal en la aplicación y el protocolo de enlace seguro entre el SDK móvil y MCIAS (servicio de mensajería en la aplicación de Marketing Cloud que sirve las reglas en la aplicación al SDK). El protocolo de enlace seguro garantiza que los datos de PII de los usuarios no caigan en manos malintencionadas, así como permite mantener la privacidad de los usuarios en un dispositivo compartido al eliminar la caché de mensajes cada vez que el usuario cierra la sesión.</p><p>For more information, refer to the <a href="../../channels/using/about-in-app-messaging.md">detailed documentation</a> and the dedicated <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-in-app-message-tutorial.html">In-App tutorial</a>.</p> </td> 
+   <td> <p>Esta versión contiene la versión de GA del canal en la aplicación en Campaign. Desde un punto de vista funcional, las adiciones más notables a la versión beta son los informes dinámicos para el canal en la aplicación y el protocolo de enlace seguro entre el SDK móvil y MCIAS (servicio de mensajería en la aplicación de Marketing Cloud que sirve las reglas en la aplicación al SDK). El protocolo de enlace seguro garantiza que los datos de PII de los usuarios no caigan en manos malintencionadas, así como permite mantener la privacidad de los usuarios en un dispositivo compartido al eliminar la caché de mensajes cada vez que el usuario cierra la sesión.</p><p>For more information, refer to the <a href="../../channels/using/about-in-app-messaging.md">detailed documentation</a> and the dedicated <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html">In-App tutorial</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Mejoras en el flujo de trabajo<br /> </td> 
@@ -537,11 +537,11 @@ Se han añadido varias mejoras al canal de mensajería Transactional para optimi
      <li> Capacidad para <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">recuperar contenido de una URL automáticamente en tiempo de preparación</a> </li> 
      <li> Plantillas de contenido totalmente <a href="../../designing/using/using-reusable-content.md#content-templates">listas para usar y totalmente compatibles</a>. </li> 
     </ul> 
-    <p>Para obtener más información, consulte la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentación detallada</a> y el <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">videotutorial</a>. A continuación se enumeran las mejoras y correcciones.</p><p>Como consecuencia, el editor de contenido de correo electrónico heredado ya no se utiliza. Para obtener más información, consulte esta <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">página</a>.</p> </td> 
+    <p>Para obtener más información, consulte la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">videotutorial</a>. A continuación se enumeran las mejoras y correcciones.</p><p>Como consecuencia, el editor de contenido de correo electrónico heredado ya no se utiliza. Para obtener más información, consulte esta <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">página</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Listados de productos en correos electrónicos transaccionales<br /> </td> 
-   <td> <p>Ahora puede hacer referencia a una o varias colecciones de productos en un mensaje de correo electrónico transaccional. Por ejemplo, puede enviar automáticamente un correo electrónico de abandono del carro de compras con una lista de todos los productos que estaban en el carro de compras del usuario con una imagen, un precio y un vínculo a cada producto.</p><p>Para obtener más información, consulte la <a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">documentación detallada</a> y el <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-product-listings-in-transactional-emails-feature-video-setup.html">videotutorial</a>.</p> </td> 
+   <td> <p>Ahora puede hacer referencia a una o varias colecciones de productos en un mensaje de correo electrónico transaccional. Por ejemplo, puede enviar automáticamente un correo electrónico de abandono del carro de compras con una lista de todos los productos que estaban en el carro de compras del usuario con una imagen, un precio y un vínculo a cada producto.</p><p>Para obtener más información, consulte la <a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">videotutorial</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Vista móvil en el Diseñador de correo electrónico<br /> </td> 
