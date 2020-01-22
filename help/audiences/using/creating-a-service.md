@@ -13,7 +13,7 @@ context-tags: service,wizard;service,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -51,7 +51,7 @@ Una vez creado un servicio, puede empezar a promocionarlo.
 
 **Temas relacionados:**
 
-* [Administración de un servicio y un vídeo de suscripciones](https://helpx.adobe.com/campaign/kt/acs/using/acs-services-and-subscriptions-feature-video-use.html)
+* [Administración de un servicio y un vídeo de suscripciones](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/services-and-subscriptions.html)
 * [Promoción de un servicio](../../audiences/using/promoting-a-service.md)
 * [Creación de una audiencia formada por suscriptores](../../audiences/using/creating-audiences.md#creating-list-audiences)
 * [Vinculación de una página de aterrizaje a un servicio](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)
