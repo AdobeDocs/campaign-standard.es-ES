@@ -12,7 +12,7 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
+source-git-commit: a3efdc4bbd594e0dc39c94a47fd7491617cb6a2f
 
 ---
 
@@ -34,13 +34,13 @@ Gracias a su menú de arrastrar y soltar y a las visualizaciones personalizables
 
 * [Lista de informes](../../reporting/using/defining-the-report-period.md)
 * [Unidades organizativas](../../administration/using/organizational-units.md)
-* [Vídeo de informes](https://helpx.adobe.com/campaign/kt/acs/using/acs-creating-a-dynamic-report-feature-video-use.html) dinámicos
+* [Vídeo de informes](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/creating-a-dynamic-report.html) dinámicos
 
 ## Acceso a informes dinámicos {#accessing-dynamic-reports}
 
 Se puede acceder a los informes:
 
-* En la página principal, seleccione la **[!UICONTROL Reports]** ficha en la barra superior o la **[!UICONTROL Reports]** tarjeta para acceder a los informes de todas las entregas.
+* En la página principal, seleccione la **[!UICONTROL Reports]**ficha en la barra superior o la**[!UICONTROL Reports]** tarjeta para acceder a los informes de todas las entregas.
 
    ![](assets/campaign_reports_access.png)
 
@@ -52,7 +52,7 @@ Ciertos informes no pueden estar disponibles inmediatamente después de un enví
 
 Los informes dinámicos se dividen en dos categorías:
 
-* **Plantillas**, que se pueden modificar copiándolas mediante la opción **Guardar como** (**Proyecto &gt; Guardar como...)**) en la plantilla.
+* **Plantillas**, que se pueden modificar copiándolas mediante la opción **Guardar como** (**Proyecto > Guardar como...)**) en la plantilla.
 * **Los informes** personalizados (identificados en azul), que se pueden crear directamente haciendo clic en el botón **Crear nuevo proyecto** en la página principal de **Informes** .
 
 >[!NOTE]
@@ -67,7 +67,7 @@ El propósito del acuerdo de uso de informes dinámicos es funcionar como un con
 
 Hay tres opciones disponibles:
 
-* **[!UICONTROL Ask me later]**:: Al hacer clic en **Preguntarme más tarde**, la ventana dejará de mostrarse durante 24 horas. Hasta que no acepte o rechace el acuerdo, las dimensiones del perfil no aparecerán en los informes y la información de identificación personal de sus clientes no se recopilará ni se enviará.
+* **[!UICONTROL Ask me later]**:: Al hacer clic en** Preguntarme más tarde **, la ventana dejará de mostrarse durante 24 horas. Hasta que no acepte o rechace el acuerdo, las dimensiones del perfil no aparecerán en los informes y la información de identificación personal de sus clientes no se recopilará ni se enviará.
 * **[!UICONTROL Accept]**:: Al aceptar este acuerdo, autoriza a Adobe Campaign a recopilar la información de identificación personal de sus clientes y a transferirla al centro de datos o informes.
 * **[!UICONTROL Decline]**:: Al rechazar el acuerdo, las dimensiones del perfil no aparecerán en los informes y la información de identificación personal de los clientes no se recopilará ni se enviará. Tenga en cuenta que en este caso, externalID se recopilará y se utilizará para identificar a los usuarios finales.
 
@@ -85,8 +85,8 @@ La siguiente tabla muestra lo que sucede después de rechazar este acuerdo en fu
 | América y APAC (Asia Pacífico) | **Función disponible**. <br> No se insertó información de perfiles personalizados ni lista para usar en el centro de informes de EE. UU., excepto ExternalID. | **Función disponible**. <br>No se han enviado al centro de datos de EE. UU. campos de perfil predeterminados o personalizados, a excepción del ID externo y el ID del destinatario. <br>Todos los campos de eventos de Adobe Campaign Standard procesados en el centro de datos de EE. UU., a excepción del ID de página reflejado. <br>Para obtener más información sobre la integración de Microsoft Dynamics 365, consulte esta [página](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html). |
 | EMEA (Europa, Oriente Medio y África) | **Función disponible**. <br>No se insertó información de perfiles personalizados ni lista para usar en el centro de informes de EMEA, con excepción de ExternalID. | **Función disponible.** <br>No se han enviado al centro de datos de EMEA campos de perfil predeterminados o personalizados con excepción de ID externa e ID de destinatario. <br>Todos los campos de eventos de Adobe Campaign Standard procesados en el centro de datos de EMEA, a excepción del ID de página reflejado.  <br>**[!UICONTROL Control data]** que contiene los datos de registro de E/S de Adobe y los ID de eventos de usuario final del cliente enviados y almacenados en el centro de datos de EE. UU.<br>Para obtener más información sobre la integración de Microsoft Dynamics 365, consulte esta [página](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html). |
 
-Esta opción no es definitiva, siempre puede cambiarla seleccionando **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** en **[!UICONTROL Administration]** &gt; **[!UICONTROL Application Settings]** &gt; **[!UICONTROL Options]**.
+Esta opción no es definitiva, siempre puede cambiarla seleccionando **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]**en**[!UICONTROL Administration]** > **[!UICONTROL Application Settings]**>**[!UICONTROL Options]**.
 
-El valor se puede cambiar en cualquier momento. El valor 1 corresponde a **[!UICONTROL Ask me later]**, 2 **[!UICONTROL Decline]** y 3 **[!UICONTROL Accept]**.
+El valor se puede cambiar en cualquier momento. El valor 1 corresponde a **[!UICONTROL Ask me later]**, 2**[!UICONTROL Decline]** y 3 **[!UICONTROL Accept]**.
 
 ![](assets/pii_window_2.png)
