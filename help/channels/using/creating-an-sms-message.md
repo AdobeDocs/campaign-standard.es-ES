@@ -13,7 +13,7 @@ delivercontext-tags: deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -80,5 +80,5 @@ Una vez finalizado el envío, puede empezar a medir el impacto del mensaje con i
 
 * [Acerca de SMS y push content edition](../../channels/using/about-sms-and-push-content-design.md)
 * [Administración de plantillas](../../start/using/marketing-activity-templates.md)
-* [Creación de un vídeo de envío](https://helpx.adobe.com/campaign/kt/acs/using/acs-creating-a-sms-delivery-feature-video-use.html) SMS
+* [Creación de un vídeo de envío](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/sms/sms-delivery.html) SMS
 
