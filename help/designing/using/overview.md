@@ -1,53 +1,53 @@
 ---
-title: Uso del diseñador de correo electrónico
-description: Descubra el diseñador de correo electrónico y cómo habilita el contenido del diseño de correo electrónico.
-page-status-flag: nunca activado
+title: Uso del Diseñador de correo electrónico
+description: Descubra el Diseñador de correo electrónico y cómo habilita el contenido del diseño de correo electrónico.
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: diseñar
-content-type: referencia
+audience: designing
+content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
 
-# Uso del diseñador de correo electrónico {#email-designer}
+# Uso del Diseñador de correo electrónico {#email-designer}
 
 ## Introducción a Email Designer {#about-the-email-designer}
 
 El Diseñador de correo electrónico permite crear plantillas de contenido de correo electrónico y contenido de correo electrónico. Es compatible con correos electrónicos simples, correos electrónicos transaccionales, correos electrónicos de prueba A/B, correos electrónicos multilingües y correos electrónicos recurrentes.
 
-Para empezar a usar el Diseñador de correo electrónico, vea este [conjunto de vídeos](https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html#GettingStarted) que explican la funcionalidad general del Diseñador de correo electrónico y cómo diseñar un correo electrónico desde cero o mediante plantillas.
+Para empezar a usar el Diseñador de correo electrónico, vea este [conjunto de vídeos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) que explican la funcionalidad general del Diseñador de correo electrónico y cómo diseñar un correo electrónico desde cero o mediante plantillas.
 
 ### Página de inicio de Email Designer {#email-designer-home-page}
 
-Al [crear un mensaje de correo electrónico](../../channels/using/creating-an-email.md), la página **[!UICONTROL Email Designer]** principal se muestra automáticamente al seleccionar el contenido del mensaje.
+Al [crear un mensaje de correo electrónico](../../channels/using/creating-an-email.md), la página **[!UICONTROL Email Designer]**principal se muestra automáticamente al seleccionar el contenido del mensaje.
 
 ![](assets/email_designer_home_page.png)
 
-La **[!UICONTROL Properties]** ficha permite editar los detalles del correo electrónico, como la etiqueta, la dirección y el nombre del remitente o el asunto del correo electrónico. También puede acceder a esta ficha haciendo clic en la etiqueta de correo electrónico en la parte superior de la pantalla.
+La **[!UICONTROL Properties]**ficha permite editar los detalles del correo electrónico, como la etiqueta, la dirección y el nombre del remitente o el asunto del correo electrónico. También puede acceder a esta ficha haciendo clic en la etiqueta de correo electrónico en la parte superior de la pantalla.
 
 ![](assets/email_designer_home_properties.png)
 
-La **[!UICONTROL Templates]** ficha le permite elegir entre el contenido HTML predeterminado o las plantillas que ya ha creado para empezar a diseñar el correo electrónico rápidamente. Consulte Plantillas [de contenido](../../designing/using/using-reusable-content.md#content-templates).
+La **[!UICONTROL Templates]**ficha le permite elegir entre el contenido HTML predeterminado o las plantillas que ya ha creado para empezar a diseñar el correo electrónico rápidamente. Consulte Plantillas[de contenido](../../designing/using/using-reusable-content.md#content-templates).
 
 ![](assets/email_designer_home_templates.png)
 
-La ficha **[!UICONTROL Learn & support]** le permite acceder fácilmente a la documentación y los tutoriales relacionados.
+La ficha **[!UICONTROL Learn & support]**le permite acceder fácilmente a la documentación y los tutoriales relacionados.
 
 ![](assets/email_designer_home_support.png)
 
 Si no selecciona una plantilla, la página de inicio de Email Designer también le permite elegir cómo desea empezar a diseñar el contenido:
 
-* Haga clic en el **[!UICONTROL Create]** botón para iniciar un nuevo contenido desde cero. Consulte [Diseño de contenido de correo electrónico desde cero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
-* Haga clic en el **[!UICONTROL Upload]** botón para cargar un archivo del equipo. Consulte [Importación de contenido desde un archivo](../../designing/using/using-existing-content.md#importing-content-from-a-file).
-* Haga clic en el **[!UICONTROL Import from URL]** botón para recuperar el contenido existente de una URL. Consulte [Importación de contenido desde una dirección URL](../../designing/using/using-existing-content.md#importing-content-from-a-url).
+* Haga clic en el **[!UICONTROL Create]**botón para iniciar un nuevo contenido desde cero. Consulte[Diseño de contenido de correo electrónico desde cero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+* Haga clic en el **[!UICONTROL Upload]**botón para cargar un archivo desde el equipo. Consulte[Importación de contenido desde un archivo](../../designing/using/using-existing-content.md#importing-content-from-a-file).
+* Haga clic en el **[!UICONTROL Import from URL]**botón para recuperar el contenido existente de una URL. Consulte[Importación de contenido desde una dirección URL](../../designing/using/using-existing-content.md#importing-content-from-a-url).
 
 ### Interfaz de Email Designer {#email-designer-interface}
 
@@ -73,7 +73,7 @@ La barra de **herramientas** contextual de la interfaz del editor ofrece diversa
 
 **Plantillas**: Las plantillas son estructuras de correo electrónico que se pueden crear y reutilizar para varias entregas.
 
-**Fragmentos**: Un fragmento es un componente reutilizable al que se puede hacer referencia en uno o varios correos electrónicos.
+**Fragmentos**:Un fragmento es un componente reutilizable al que se puede hacer referencia en uno o varios correos electrónicos.
 
 **Componentes** de estructura: Elementos estructurales que definen el diseño del correo electrónico
 
@@ -83,7 +83,7 @@ La barra de **herramientas** contextual de la interfaz del editor ofrece diversa
 
 Para utilizar correctamente el Diseñador de correo electrónico y crear los mejores correos electrónicos de la manera más sencilla posible, se recomienda aplicar los siguientes principios:
 
-* Utilice estilos en línea en lugar de CSS y CSS independientes en la sección &lt;head&gt; del HTML. Al utilizar el estilo en línea, puede optimizar el almacenamiento y la reutilización de fragmentos de contenido.
+* Utilice estilos en línea en lugar de CSS y CSS independientes en la sección &lt;head> del HTML. Al utilizar el estilo en línea, puede optimizar el almacenamiento y la reutilización de fragmentos de contenido.
 
    Consulte [Adición de atributos](../../designing/using/styles.md#adding-inline-styling-attributes)de estilo en línea.
 
@@ -95,9 +95,9 @@ Para utilizar correctamente el Diseñador de correo electrónico y crear los mej
 
 * Al editar el contenido **del** correo electrónico:
 
-   Previsualice los mensajes antes de enviarlos. Adobe Campaign ofrece una forma de probar el procesamiento por correo electrónico con Litmus. Para obtener más información sobre este tema, consulte Representación [](../../sending/using/email-rendering.md)por correo electrónico.
+   Previsualice los mensajes antes de enviarlos. Adobe Campaign ofrece una forma de probar el procesamiento por correo electrónico con Litmus. Para obtener más información sobre esto, consulte Representación [por correo](../../sending/using/email-rendering.md)electrónico.
 
-En la siguiente guía paso a paso de Adobe Campaign se ofrecen más prácticas recomendadas generales y de diseño sobre los mensajes: Prácticas recomendadas [de entrega con Adobe Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html).
+En la siguiente guía paso a paso de Adobe Campaign encontrará más información sobre el diseño y las prácticas recomendadas generales relativas a los mensajes: Prácticas recomendadas [de entrega con Adobe Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html).
 
 ### Limitaciones de Email Designer {#email-designer-limitations}
 
@@ -112,7 +112,7 @@ El Diseñador de correo electrónico está en constante mejora. Si ha creado un 
 
 ![](assets/email_designer_fragment_patch_message.png)
 
-Adobe recomienda actualizar el contenido a la versión más reciente para evitar problemas como problemas de colisión con CSS. Click **[!UICONTROL Update now]**.
+Adobe recomienda actualizar el contenido a la versión más reciente para evitar problemas como problemas de colisión con CSS. Haga clic **[!UICONTROL Update now]**.
 
 Si se produce un error durante la actualización de contenido, compruebe el HTML y corríjalo antes de volver a ejecutar esta actualización.
 
