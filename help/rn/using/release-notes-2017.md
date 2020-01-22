@@ -12,7 +12,7 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d1ec5dddcf4c1aa3fe6338d35b381986ba32a28d
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -330,7 +330,7 @@ _Notificaciones push_
   </tr> 
   <tr> 
    <td> Integración de Dreamweaver en directo<br /> </td> 
-   <td> La integración entre Adobe Campaign y Dreamweaver ya está activa. Ahora funciona con la última versión oficial de Dreamweaver (17.0.2).<br /> Esto requiere la instalación de la extensión de integración de Adobe Campaign desde aquí: <a href="http://adobe.ly/acdw_addon">https://adobe.ly/acdw_addon</a><br /> Para obtener más información, consulte este <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">vídeo</a>.<br /> </td> 
+   <td> La integración entre Adobe Campaign y Dreamweaver ya está activa. Ahora funciona con la última versión oficial de Dreamweaver (17.0.2).<br /> Esto requiere la instalación de la extensión de integración de Adobe Campaign desde aquí: <a href="http://adobe.ly/acdw_addon">https://adobe.ly/acdw_addon</a><br /> Para obtener más información, consulte este <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">vídeo</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -403,7 +403,7 @@ _Notificaciones push_
   </tr> 
   <tr> 
    <td> Integración de Dreamweaver (Labs)<br /> </td> 
-   <td> Con la integración de Adobe Campaign y Dreamweaver, ahora dispone de un proceso integrado para crear campañas de correo electrónico con las soluciones de Adobe.<br /> Puede editar los correos electrónicos de Adobe Campaign en Dreamweaver y hacer que el contenido se sincronice perfectamente entre ambas soluciones.<br /> Para la versión inicial, la integración está disponible como función "Labs" y solo funciona con Dreamweaver Pre Release Beta. Si desea activarlo, póngase en contacto con AC-DW-integration@adobe.com.<br /> Para obtener más información, consulte este <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">vídeo</a>.<br /> </td> 
+   <td> Con la integración de Adobe Campaign y Dreamweaver, ahora dispone de un proceso integrado para crear campañas de correo electrónico con las soluciones de Adobe.<br /> Puede editar los correos electrónicos de Adobe Campaign en Dreamweaver y hacer que el contenido se sincronice perfectamente entre ambas soluciones.<br /> Para la versión inicial, la integración está disponible como función "Labs" y solo funciona con Dreamweaver Pre Release Beta. Si desea activarlo, póngase en contacto con AC-DW-integration@adobe.com.<br /> Para obtener más información, consulte este <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">vídeo</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Optimización del tiempo de envío manual<br /> </td> 
