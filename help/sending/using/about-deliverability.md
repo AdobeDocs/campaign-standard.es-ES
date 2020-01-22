@@ -13,16 +13,14 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: 02b8d847d4506eca96abfa27db1e2efadc2a68d2
 
 ---
 
 
 # Acerca de la capacidad del envío{#about-deliverability}
 
-Capacidad de entrega o cómo medir el éxito de las campañas que llegan a la bandeja de entrada de los destinatarios sin rebotar o marcadas como correo no deseado.
-
-La entrega de Adobe Campaign es un servicio de pago que está disponible en diferentes ofertas. Póngase en contacto con la posibilidad de entrega o con el servicio comercial.
+La capacidad de entrega permite medir el éxito de las campañas que llegan a la bandeja de entrada de los destinatarios sin rebotar o marcadas como correo no deseado.
 
 La tasa de entregabilidad depende de numerosos factores, en particular:
 
@@ -73,7 +71,7 @@ Los proveedores de servicios de Internet generalmente tienen un medio prominente
 
 ## Envío a direcciones de honeypot {#honeypot-addresses}
 
-Los ISP y otras organizaciones (consulte https://www.projecthoneypot.org/) utilizan buzones de correo que no corresponden a personas físicas pero que se crean simplemente para engañar a los remitentes de spam. Estas llamadas "ollas de miel" se publican en la web para ser recogidas por los spambots y así atrapar a remitentes ilegítimos. El uso de un mecanismo de doble inclusión impide que este tipo de dirección se agregue a una lista. Al utilizar una lista de terceros, debe estar seguro de los métodos empleados por su mantenedor.
+Los ISP y otras organizaciones (consulte https://www.projecthoneypot.org/) utilizan buzones de correo que no corresponden a personas físicas pero que se crean simplemente para engañar a los remitentes de spam. Estas llamadas &quot;ollas de miel&quot; se publican en la web para ser recogidas por los spambots y así atrapar a remitentes ilegítimos. El uso de un mecanismo de doble inclusión impide que este tipo de dirección se agregue a una lista. Al utilizar una lista de terceros, debe estar seguro de los métodos empleados por su mantenedor.
 
 ## Adaptación del contenido de los mensajes {#adapt-message-content}
 
