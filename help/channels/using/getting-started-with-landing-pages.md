@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -34,7 +34,7 @@ En esta página encontrará información sobre cada uno de estos pasos, así com
 
 **Temas relacionados:**
 
-* [Creación de un vídeo](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html) de tutorial de página de aterrizaje
+* [Creación de un vídeo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/landing-pages/landing-page-create-and-edit.html) de tutorial de página de aterrizaje
 * [Creación de un servicio](../../audiences/using/creating-a-service.md)
 * [Configuración de un proceso de inclusión doble](setting-up-a-double-opt-in-process.md)
 
@@ -44,12 +44,12 @@ La sección siguiente enumera las limitaciones que debe tener en cuenta antes de
 
 **Escritura y actualización de datos**
 
-* Las páginas de aterrizaje están limitadas a **[!UICONTROL Profile]** y solo a **[!UICONTROL Subscription]** recursos. El registro se puede guardar y actualizar desde **[!UICONTROL Profile]** y una suscripción o cancelación de suscripción a un **[!UICONTROL Service]**.
+* Las páginas de aterrizaje están limitadas a **[!UICONTROL Profile]**y solo a**[!UICONTROL Subscription]** recursos. El registro se puede guardar y actualizar desde **[!UICONTROL Profile]**y una suscripción o cancelación de suscripción a un**[!UICONTROL Service]**.
 Para obtener más información sobre la configuración de recursos, consulte [Configuración de la estructura](../../developing/using/configuring-the-resource-s-data-structure.md)de datos del recurso.
 
 >[!CAUTION]
 >
->Una página de aterrizaje no puede mostrar ni actualizar datos de ningún otro recurso que no sea **[!UICONTROL Profile]** y **[!UICONTROL Subscription]**.
+>Una página de aterrizaje no puede mostrar ni actualizar datos de ningún otro recurso que no sea **[!UICONTROL Profile]**y**[!UICONTROL Subscription]**.
 
 **Precarga**
 
@@ -59,7 +59,7 @@ Para obtener más información sobre la configuración de recursos, consulte [Co
 
 **Reconciliación**
 
-* El comportamiento de reconciliación es el siguiente: tan pronto como se encuentra una coincidencia, el proceso de reconciliación se detiene. Esto significa que la reconciliación sólo se puede realizar en un registro de perfil y no en varios registros cuando hay duplicados.
+* El comportamiento de reconciliación es el siguiente: tan pronto como se encuentra una coincidencia, el proceso de reconciliación se detiene. Esto significa que la reconciliación solo se puede realizar en un registro de perfil y no en varios registros cuando hay duplicados.
 
 Por ejemplo, si desea enviar la siguiente página de inicio de adquisición a sus perfiles para actualizar la base de datos de Campaign con los números móviles de sus perfiles.
 
@@ -79,7 +79,7 @@ Aquí solo se actualizó el primer perfil porque era la entrada más antigua.
 
 Antes de configurar una página de aterrizaje, el primer paso es configurar una plantilla de página de aterrizaje que se ajuste a sus necesidades. Una vez preparada la plantilla, todas las páginas de aterrizaje basadas en ella se preconfigurarán con los parámetros deseados.
 
-1. En el menú avanzado, a través del logotipo de Adobe Campaign, seleccione **[!UICONTROL Resources]** / **[!UICONTROL Templates]** / **[!UICONTROL Landing page templates]** y, a continuación, duplique la plantilla que desee utilizar.
+1. En el menú avanzado, a través del logotipo de Adobe Campaign, seleccione **[!UICONTROL Resources]**/**[!UICONTROL Templates]** / **[!UICONTROL Landing page templates]**y, a continuación, duplique la plantilla que desee utilizar.
 1. En las propiedades de la plantilla, especifique todos los parámetros que las páginas de aterrizaje deben tener en común. Por ejemplo: la dimensión de objetivo, los parámetros de acceso a la página para visitantes identificados o no identificados, las acciones específicas para la validación del formulario por parte de un visitante, la marca o logotipo que se va a utilizar en el contenido, etc. Para obtener más información sobre las propiedades de las páginas de aterrizaje, consulte [esta sección](../../channels/using/configuring-landing-page.md)
 1. Guarde las modificaciones.
 
@@ -130,7 +130,7 @@ Para obtener más información sobre cómo probar una página de aterrizaje, con
 
 ## Paso Publicar la página de aterrizaje {#publish-the-landing-page}
 
-Una vez que las pruebas se hayan realizado correctamente, puede publicar la página de aterrizaje con el **[!UICONTROL Publish]** botón de la barra de acciones del tablero. Un bloque de monitoreo muestra la progresión y el estado de la publicación.
+Una vez que las pruebas se hayan realizado correctamente, puede publicar la página de aterrizaje con el **[!UICONTROL Publish]**botón de la barra de acciones del tablero. Un bloque de monitoreo muestra la progresión y el estado de la publicación.
 
 Al publicar la página de aterrizaje, se puede acceder a ella en línea. Una vez publicada, siempre puede actualizarla: para ello, debe volver a publicarla después de cada modificación. También puede cancelar la publicación de una página de aterrizaje en cualquier momento para que ya no esté disponible.
 
