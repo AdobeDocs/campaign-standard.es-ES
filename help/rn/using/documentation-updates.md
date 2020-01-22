@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 663047d8d06218442b7530a0f290e3943123ebbc
+source-git-commit: 957290fc6524d4eb7c69c914f9817414655a25fd
 
 ---
 
@@ -27,7 +27,9 @@ También puede consultar las Notas de la [versión](../../rn/using/release-notes
 
 ## Actualizaciones de documentación - Enero de 2020 {#doc-updates-january-2020}
 
-La guía de introducción a &#39;Creación de un flujo de trabajo de entrega multicanal&#39; se ha actualizado y se ha incluido en la documentación principal. [Más información](../../automating/using/workflow-cross-channel-delivery.md)
+La documentación sobre la entrega se ha actualizado con una nueva sección sobre la certificación de IP. [Más información](../../sending/using/ip-certification.md)
+
+Hay disponible una nueva sección que describe cómo crear un flujo de trabajo de entrega multicanal. [Más información](../../automating/using/workflow-cross-channel-delivery.md)
 
 Se ha actualizado la sección Cálculo de indicadores para los informes dinámicos. [Más información](../../reporting/using/indicator-calculation.md)
 
@@ -197,7 +199,7 @@ Se ha publicado un nuevo artículo de Planificación de versiones para compartir
 
 Se han actualizado los vínculos de ayuda contextuales disponibles directamente desde Adobe Campaign.
 
-La siguiente [página](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html) se convierte en la página oficial de vídeos de Adobe Campaign Standard.
+La siguiente [página](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) se convierte en la página oficial de vídeos de Adobe Campaign Standard.
 
 Se ha agregado una sección sobre retención de datos que incluye los valores de retención predeterminados para las tablas estándar. [Más información](../../administration/using/data-retention.md)
 
@@ -337,7 +339,7 @@ La sección Configuración de una aplicación móvil mediante SDK V4 se ha movid
 
 La sección Configuración de una aplicación móvil mediante los SDK de la plataforma Adobe Experience se ha movido [aquí](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
-Los vídeos se han actualizado y movido [aquí](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html).
+Los vídeos se han actualizado y movido [aquí](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html).
 
 Se ha actualizado la sección Tipo de usuarios. [Más información](../../administration/using/users-management.md)
 
@@ -685,7 +687,7 @@ Notificaciones push recurrentes: [Más información](../../automating/using/push
 
 Conector Amazon Simple Storage Service (S3): [Más información](../../administration/using/external-accounts.md)
 
-Integración de Dreamweaver en directo: [Más información](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html)
+Integración de Dreamweaver en directo: [Más información](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 ### Otras actualizaciones de la documentación incluidas en la versión {#other-documentation-updates-coming-with-the-release-14}
 
@@ -709,7 +711,7 @@ Se ha actualizado la integración con Adobe Analytics para móviles (punto de in
 
 Informes dinámicos: [Más información](../../reporting/using/about-dynamic-reports.md)
 
-Integración de Dreamweaver (Labs): [Más información](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html)
+Integración de Dreamweaver (Labs): [Más información](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 Optimización del tiempo de envío manual: [Más información](../../sending/using/optimizing-the-sending-time.md)
 
