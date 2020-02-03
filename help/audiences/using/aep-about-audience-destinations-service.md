@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1059b840d9a2d0c89a6cbd1808b645862747a76c
+source-git-commit: e9d4239182a7ebdec61e85fece6ec49dca8f665a
 
 ---
 
@@ -24,15 +24,15 @@ source-git-commit: 1059b840d9a2d0c89a6cbd1808b645862747a76c
 >
 >El servicio Destinos de audiencia está actualmente en fase beta, que puede estar sujeto a frecuentes actualizaciones sin previo aviso. Se requiere que los clientes estén alojados en Azure (actualmente en versión beta solo para Norteamérica) para acceder a estas capacidades. Póngase en contacto con el Servicio de atención al cliente de Adobe si desea obtener acceso.
 
-El servicio **Destinos de** audiencia le permite crear audiencias con un objetivo muy preciso basadas en conjuntos de datos grandes y complejos y compartir estos segmentos casi en tiempo real con otras soluciones de Adobe Experience Cloud.
+Potencie las experiencias de sus clientes aprovechando la plataforma [de experiencias de](https://www.adobe.io/apis/experienceplatform/home.html) Adobe (AEP) para crear audiencias con un público objetivo muy preciso basadas en conjuntos de datos grandes y complejos. Adobe Experience Platform consolida los datos de perfil, comportamiento y multientidad en fuentes en línea y sin conexión, incluido Adobe Analytics, para ayudarle a crear una vista de 360 de sus clientes, lo que le permite administrar eficazmente sus experiencias con los clientes.
 
-La plataforma [de experiencias de](https://www.adobe.io/apis/experienceplatform/home.html) Adobe consolida los datos de perfil, comportamiento y multientidad para ayudarle a crear una vista de 360 de su cliente, lo que le permite administrar de forma eficaz las experiencias de sus clientes.
+A continuación, Adobe Campaign Standard utilizará el servicio **Destinos** de audiencia para recuperar una colección de perfiles, conocidos como **Audiencias**, de AEP para programas de campaña de varios pasos o canales.
 
-Campaign Standard le permite trabajar con Adobe Experience Platform para identificar colecciones de perfiles, conocidas como **Audiencias**. Se crean creando **segmentos**, que son reglas que incluyen atributos de perfil y datos de eventos que se originan en Adobe Experience Platform. En [estos documentos](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html)dedicados se puede hacer referencia a los conceptos globales de los servicios de perfil y segmentación unificados.
+**Las audiencias** se crean creando primero **segmentos**, que son esencialmente un conjunto de reglas basadas en prácticamente cualquier variable (por ejemplo, perfil, evento, datos de varias entidades) dentro de un perfil de cliente de AEP para crear un objetivo multidimensional. En [estos documentos](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html)dedicados se puede hacer referencia a los conceptos globales de los servicios de perfil y segmentación unificados.
 
-Una vez creada una audiencia, puede activarla para una entrega en flujos de trabajo [de](../../automating/using/aep-targeting-audiences.md)Campaign Standard. Además, puede utilizar datos contextuales de la plataforma Adobe Experience para [personalizar](../../automating/using/aep-personalizing-campaigns.md) y agregar contenido dinámico a sus campañas, si lo desea.
+Una vez creado un segmento, puede activarse como audiencia para una entrega en flujos de trabajo [de](../../automating/using/aep-targeting-audiences.md)Campaign Standard. Además, puede utilizar datos contextuales de la plataforma Adobe Experience para [personalizar](../../automating/using/aep-personalizing-campaigns.md) y agregar contenido dinámico a sus campañas, si lo desea.
 
-Los vídeos de demostración también están disponibles en [esta página](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/leveraging-aep-audiences-overview.html)
+Los vídeos de demostración también están disponibles en [esta sección](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html).
 
 Términos utilizados en estas secciones:
 
