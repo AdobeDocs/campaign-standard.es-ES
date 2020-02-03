@@ -1,18 +1,18 @@
 ---
 title: Prácticas recomendadas de flujos de trabajo
 description: Aprenda a aplicar las prácticas recomendadas a los flujos de trabajo.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: automatizar
-content-type: referencia
+audience: automating
+content-type: reference
 topic-tags: workflow-general-operation
-context-tags: flujo de trabajo,descripción general;flujo de trabajo,principal
+context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: accc382ca1543d648e60d53cab338537fd9ea3ef
 
 ---
 
@@ -28,7 +28,7 @@ Con Adobe Campaign, puede configurar todos los tipos de flujo de trabajo para re
 ## Asignación de nombres{#naming}
 
 Para facilitar la solución de problemas del flujo de trabajo, Adobe recomienda nombrar y etiquetar los flujos de trabajo de forma explícita. Rellene el campo de descripción del flujo de trabajo para resumir el proceso que se va a realizar de modo que el operador pueda comprenderlo fácilmente.
-Si el flujo de trabajo forma parte de un proceso que implica varios flujos de trabajo, puede utilizar números al introducir una etiqueta para ordenarlos con claridad.
+Si el flujo de trabajo forma parte de un proceso que implica varios flujos de trabajo, puede utilizar los números al introducir una etiqueta para ordenarlos con claridad.
 
 Por ejemplo:
 
@@ -40,7 +40,7 @@ Por ejemplo:
 
 ## Duplicar flujos de trabajo{#duplicating-workflows}
 
-Puede duplicar flujos de trabajo. En la página **[!UICONTROL Marketing Activities]**, pase el ratón sobre el flujo de trabajo y haga clic en **[!UICONTROL Duplicate element]**. Una vez duplicadas, las modificaciones del flujo de trabajo no se transfieren a la copia del flujo de trabajo. Se puede editar la copia del flujo de trabajo.
+Puede duplicar flujos de trabajo. En la página **[!UICONTROL Marketing Activities]**, pase el ratón sobre el flujo de trabajo y haga clic en**[!UICONTROL Duplicate element]**. Una vez duplicadas, las modificaciones del flujo de trabajo no se transfieren a la copia del flujo de trabajo. Se puede editar la copia del flujo de trabajo.
 
 ![](assets/duplicating_workflow.png)
 
@@ -66,13 +66,18 @@ Se puede seguir ejecutando un flujo de trabajo que contenga transiciones sin ter
 
 Para obtener más información, consulte [Ejecución de flujos de trabajo](../../automating/using//executing-a-workflow.md).
 
+### Zona horaria
+
+Las propiedades del flujo de trabajo le permiten definir un huso horario específico que se utilizará de forma predeterminada en todas sus actividades. De forma predeterminada, la zona horaria del flujo de trabajo es la definida para el operador de campaña actual.
+
+
 ## Activity{#activity}
 
 ### Diseño de flujo de trabajo
 
 Para asegurarse de que el flujo de trabajo termina correctamente, utilice un **[!UICONTROL End activity]**. Evite dejar la última transición de un flujo de trabajo por su cuenta.
 
-Para acceder a la vista de detalles de las transiciones, marque la **[!UICONTROL Keep interim results]** opción en la sección Ejecución de las propiedades del flujo de trabajo.
+Para acceder a la vista de detalles de las transiciones, marque la **[!UICONTROL Keep interim results]**opción en la sección Ejecución de las propiedades del flujo de trabajo.
 
 >[!CAUTION]
 >
@@ -87,11 +92,11 @@ Al desarrollar el flujo de trabajo, se genera un nombre para cada actividad, com
 
 ### Duplicar actividades{#activity-duplicating}
 
-Para duplicar actividades existentes, puede utilizar copiar y pegar. De este modo, se conservan los valores definidos originalmente. Para obtener más información, consulte [Duplicar actividades](../../automating/using/workflow-interface.md)de flujo de trabajo.
+Para duplicar actividades existentes, puede utilizar copiar y pegar. De este modo, se conservan los ajustes que se definieron originalmente. Para obtener más información, consulte [Duplicar actividades](../../automating/using/workflow-interface.md)de flujo de trabajo.
 
-### Actividad del programador{#acheduler-activity}
+###  Actividad del programador{#acheduler-activity}
 
-When building your workflow, only use one **[!UICONTROL Scheduler activity]** per branch. Si la misma rama de un flujo de trabajo tiene varios planificadores (vinculados entre sí), el número de tareas que se van a ejecutar se multiplica exponencialmente, lo cual sobrecarga considerablemente la base de datos.
+Cuando cree el flujo de trabajo, utilice solo uno **[!UICONTROL Scheduler activity]**por rama. Si la misma rama de un flujo de trabajo tiene varios planificadores (vinculados entre sí), el número de tareas que se van a ejecutar se multiplica exponencialmente, lo cual sobrecarga considerablemente la base de datos.
 
 Puede obtener una vista previa de las diez ejecuciones siguientes de los flujos de trabajo haciendo clic en **[!UICONTROL Preview next executions]**.
 
@@ -114,8 +119,8 @@ Para obtener más información, consulte [Administración de paquetes](../../aut
 
 ## Exportación de listas{#exporting-lists}
 
-La opción de lista de exportación permite exportar un máximo de 100.000 líneas de forma predeterminada y definidas por la opción **** Nms_ExportListLimit. Esta opción la puede administrar el administrador funcional, en **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Options]**.
-Para obtener más información, consulte [Exportación de listas](../../automating/using/exporting-lists.md).
+La opción de lista de exportación permite exportar un máximo de 100.000 líneas de forma predeterminada y definidas por la opción **** Nms_ExportListLimit. Esta opción la puede administrar el administrador funcional, en **[!UICONTROL Administration]**>**[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
+Para obtener más información, consulte[Exportación de listas](../../automating/using/exporting-lists.md).
 
 ## Resolución de problemas{#workflow-troubleshooting}
 
@@ -132,14 +137,14 @@ Para obtener más información, consulte [Supervisión de la ejecución](../../a
 Las consultas SQL se pueden analizar en la ficha Registro.
 
 1. En el espacio de trabajo del flujo de trabajo, haga clic en **[!UICONTROL Edit properties]**.
-1. En **[!UICONTROL General]** &gt; **[!UICONTROL Execution]**, marque las opciones **[!UICONTROL Save SQL queries in the log]** y **[!UICONTROL Execute in the engine]** y haga clic en **[!UICONTROL Confirm]**.
+1. En **[!UICONTROL General]**>**[!UICONTROL Execution]**, marque las opciones **[!UICONTROL Save SQL queries in the log]**y**[!UICONTROL Execute in the engine]** y haga clic en **[!UICONTROL Confirm]**.
 
 **Para ver las consultas SQL en el Registro:**
-1. Click **[!UICONTROL Log and Tasks]**.
-1. En la **[!UICONTROL Logs]** ficha, abra el **[!UICONTROL Search]** panel.
+1. Haga clic **[!UICONTROL Log and Tasks]**.
+1. En la **[!UICONTROL Logs]**ficha, abra el**[!UICONTROL Search]** panel.
 1. Marque **[!UICONTROL Display SQL logs only]**.
 
-La consulta se muestra en la columna **[!UICONTROL Message]** de los registros.
+La consulta se muestra en la columna **[!UICONTROL Message]**de los registros.
 
 ### Uso de registros de entrega{#using-delivery-logs}
 
