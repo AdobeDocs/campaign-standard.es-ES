@@ -1,5 +1,5 @@
 ---
-title: Interactuar con el historial de mercadotecnia
+title: Interacción con el historial de marketing
 description: Descubra cómo interactuar con el historial de marketing de los perfiles.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -12,12 +12,12 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+source-git-commit: e60ec7790da46d234b66baf4c3db23815056b9fb
 
 ---
 
 
-# Interactuar con el historial de mercadotecnia {#interacting-with-marketing-history}
+# Interacción con el historial de marketing {#interacting-with-marketing-history}
 
 El punto final del **historial** le permite interactuar con el historial de mercadotecnia de un perfil.
 De este modo, puede, por ejemplo, recuperar fácilmente la página reflejada para una entrega que se envió a un perfil. Para realizar esto, siga los pasos a continuación:
@@ -28,19 +28,19 @@ De este modo, puede, por ejemplo, recuperar fácilmente la página reflejada par
 
 <br/>
 
-***Solicitud de muestra***
+***Solicitud de muestra ***
 
 Recupere el historial de marketing del perfil con una solicitud GET.
 
 ```
--X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/History/"<PKEY>" \
+-X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/history/"<PKEY>" \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
 -H 'Cache-Control: no-cache' \
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-El nodo "events" devuelve la dirección URL que le permite acceder a los eventos del perfil.
+El nodo &quot;events&quot; devuelve la dirección URL que le permite acceder a los eventos del perfil.
 
 ```
 {
@@ -65,7 +65,7 @@ Realice una solicitud GET en los eventos href devueltos.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Devuelve la lista de eventos del perfil con vínculos a páginas reflejadas en el nodo "mirrorPage".
+Devuelve la lista de eventos del perfil con vínculos a páginas reflejadas en el nodo &quot;mirrorPage&quot;.
 
 ```
     {
