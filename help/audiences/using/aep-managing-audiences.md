@@ -1,5 +1,5 @@
 ---
-title: Administración de audiencias
+title: Administración de audiencias de Adobe Experience Platform
 description: Obtenga información sobre cómo administrar Adobe Experience Platform en Campaign Standard.
 page-status-flag: never-activated
 uuid: b3996642-96ec-489e-b146-c8c2cb52aa32
@@ -13,32 +13,34 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 19b22fa0780a0bf7c4b7a559270d7c8b32d89e38
+source-git-commit: 4b18f3b93394101eb569799bcfe362b4daf8f250
 
 ---
 
 
-# Administración de audiencias {#about-audiences}
+# Administración de audiencias de Adobe Experience Platform {#about-audiences}
 
 >[!IMPORTANT]
 >
 >Audience Destinations Service se encuentra actualmente en fase beta, que puede estar sujeto a frecuentes actualizaciones sin previo aviso. Se requiere que los clientes estén alojados en Azure (actualmente en versión beta solo para Norteamérica) para acceder a estas capacidades. Póngase en contacto con el Servicio de atención al cliente de Adobe si desea obtener acceso.
 
-## Acceso a audiencias
+## Acceso a las audiencias de Adobe Experience Platform
 
-Para acceder a las audiencias de Adobe Experience Platform, seleccione la **[!UICONTROL Audiences]**tarjeta en la página de inicio de Campaign Standard o el**[!UICONTROL Audiences]** vínculo y, a continuación, seleccione **[!UICONTROL Adobe Experience Platform]**.
+Para acceder al generador de segmentos de Adobe Experience Platform, vaya a la **[!UICONTROL Audiences]**tarjeta de la página de inicio de Campaign Standard (o al**[!UICONTROL Audiences]** vínculo del encabezado) y, a continuación, seleccione la **[!UICONTROL Adobe Experience Platform]**opción.
 
 ![](assets/aep_audiences_access.png)
 
-Se muestran todas las audiencias creadas en Adobe Experience Platform. Hay una barra de búsqueda y filtros disponibles para ayudarle a encontrar la audiencia deseada.
+En primer lugar, se le dirigirá a la página de lista de segmentos de Adobe Experience Platform, donde se puede acceder a los segmentos existentes de Adobe Experience Platform para editarlos más adelante, si lo desea.
+
+Hay una barra de búsqueda y un filtro disponibles para ayudarle a encontrar el segmento deseado de la plataforma de experiencia de Adobe.
 
 ![](assets/aep_audiences_list.png)
 
-## Creación de audiencias
+## Creación de audiencias de Adobe Experience Platform
 
-Las audiencias se crean directamente a partir de la lista de audiencias de Adobe Experience Platform. Para ello, siga estos pasos:
+Para crear una audiencia de Adobe Experience Platform directamente en Campaign Standard, siga estos pasos:
 
-1. Vaya a la lista de audiencias y, a continuación, haga clic en el **[!UICONTROL New audience]**botón .
+1. En la página de lista de segmentos de Adobe Experience Platform, haga clic en el **[!UICONTROL New audience]**botón situado en la esquina derecha.
 
    ![](assets/aep_audiences_creation_create.png)
 
