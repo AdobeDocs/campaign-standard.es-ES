@@ -12,7 +12,7 @@ discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1059b840d9a2d0c89a6cbd1808b645862747a76c
+source-git-commit: 4b18f3b93394101eb569799bcfe362b4daf8f250
 
 ---
 
@@ -60,6 +60,8 @@ Ahora puede configurar el flujo de trabajo con otras actividades. Puede, por eje
 >[!NOTE]
 >
 >Campaign Standard le permite dirigirse a las audiencias de la plataforma de experiencias de Adobe en todos los canales de entrega: Correos electrónicos, mensajes SMS, mensajes de correo directo, notificaciones push y mensajes en la aplicación.
+>
+>*Nota: Para todos los mensajes push y en la aplicación, Campaign Standard solo admite entregas para perfiles conocidos.
 
 Para obtener más información sobre cómo utilizar flujos de trabajo y envíos, consulte estas secciones:
 
