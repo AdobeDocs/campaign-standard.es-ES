@@ -13,7 +13,7 @@ context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 41ba6fa44807541dd749f4effca44ae2b4d147ae
 
 ---
 
@@ -55,6 +55,10 @@ La creación de una actividad de marketing se detalla en la sección [Creación 
    Para facilitarle la búsqueda y la resolución de problemas si no funcionan de la forma esperada, Adobe recomienda dar nombres propios a los flujos de trabajo y a las etiquetas: rellene el campo de descripción del flujo de trabajo para resumir el proceso a realizar de modo que el operador pueda entenderlo fácilmente.
 
 1. Confirme la creación de la actividad y se mostrará el tablero de dicha actividad. For more on this, refer to the [Workflow interface](../../automating/using/workflow-interface.md) section.
+
+1. Una vez que el flujo de trabajo esté listo para configurarse, puede acceder a opciones adicionales haciendo clic en el **[!UICONTROL Edit properties]**botón. Por ejemplo, puede definir un huso horario específico para utilizarlo de forma predeterminada en todas las actividades del flujo de trabajo. De forma predeterminada, la zona horaria del flujo de trabajo es la definida para el operador de campaña actual.
+
+   ![](assets/workflow_properties.png)
 
 **Tema relacionado:**
 
