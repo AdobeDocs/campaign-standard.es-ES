@@ -13,7 +13,7 @@ context-tags: deliveryThroughputReport,main;campaignThroughputReport,main;progra
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44049443f8028ed26089ee0d49944ebac6a62111
+source-git-commit: 3c45cbbb261f18252689d0fc4f332b9f45137c85
 
 ---
 
@@ -23,6 +23,12 @@ source-git-commit: 44049443f8028ed26089ee0d49944ebac6a62111
 Este informe contiene datos relacionados con el rendimiento de envío de un envío o de varios envíos. Proporciona:
 
 * Número de mensajes procesados por hora
-* La **[!UICONTROL Top 5 deliveries]** tabla y los números de resumen complementarios que muestran las cinco entregas con la mejor ganancia en reintentos.
+* La **[!UICONTROL Top 5 deliveries]**tabla y los números de resumen complementarios que muestran las cinco entregas con la mejor ganancia en reintentos.
 
 ![](assets/delivery_reports_1.png)
+
+>[!IMPORTANT]
+>
+>Una vez actualizado a la MTA mejorada, la página ya no muestra el rendimiento para los destinatarios de correo electrónico. **[!UICONTROL Delivery throughput]**Muestra la velocidad de transferencia para el reenvío de los mensajes desde Campaign hasta el MTA mejorado.
+>
+>Para obtener más información sobre el MTA mejorado de Adobe Campaign, consulte este [documento](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
