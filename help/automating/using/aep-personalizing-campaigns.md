@@ -12,7 +12,7 @@ discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2086bbb6fa87106692b3f3744c40ecf40e66caf3
+source-git-commit: 4b18f3b93394101eb569799bcfe362b4daf8f250
 
 ---
 
@@ -31,11 +31,13 @@ Para ello, debe agregar estos atributos a la **[!UICONTROL Read audience]**activ
 
 1. Open the **[!UICONTROL Read audience]**activity. En la**[!UICONTROL Additional data]** ficha, haga clic en el **[!UICONTROL Create element]**botón.
 
-   >[!NOTE]
-   >
-   >La ficha **[!UICONTROL Additional data]**solo está disponible después de seleccionar una audiencia de Adobe Experience Platform.
+   Tenga en cuenta que la **[!UICONTROL Additional data]**ficha solo está disponible después de seleccionar una audiencia de Adobe Experience Platform.
 
    ![](assets/aep_wkf_readaudience_attributes.png)
+
+   >[!NOTE]
+   >
+   >Esta función no admite los tipos de datos de matriz y asignación. Además, solo se mostrarán en el selector los datos del esquema de unión.
 
 1. Seleccione el campo XDM deseado de la lista y haga clic en **[!UICONTROL Confirm]**.
 
