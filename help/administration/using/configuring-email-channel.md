@@ -1,6 +1,6 @@
 ---
-title: Configuración de canales de correo electrónico
-description: Obtenga información sobre cómo configurar el canal de correo electrónico.
+title: Configuración del canal de correo electrónico en Adobe Campaign Standard
+description: Obtenga información sobre cómo configurar el canal de correo electrónico en Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: 9fddb655-b445-41f3-9b02-5d356fc88aa1
 contentOwner: sauviat
@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a3f760385da20a3aa39f96d955cfc2d77b708de2
+source-git-commit: 28d92b0024576c78fc8d71e3f1b59ac4508f9c34
 
 ---
 
@@ -70,34 +70,52 @@ El tipo de cuenta siempre debe estar establecido en **[!UICONTROL Routing]**, el
 
 ## Reglas de procesamiento de correo electrónico {#email-processing-rules}
 
+Los administradores **[!UICONTROL Email processing rules]**pueden acceder a la página a través del**[!UICONTROL Administration > Channels > Email]** menú.
+
 Estas reglas contienen la lista de cadenas de caracteres que pueden devolver los servidores remotos y que le permiten clasificar el error (**Grave**, **leve** o **ignorado**).
 
 Las reglas predeterminadas son las siguientes:
 
-**Mensajes de devolución**
+### Mensajes de devolución {#bounce-mails}
 
 Cuando falla un mensaje de correo electrónico, el servidor de mensajes remoto devuelve un mensaje de error de devolución a la dirección especificada en la configuración de la aplicación. Adobe Campaign compara el contenido de cada mensaje de rechazo con las cadenas de la lista de reglas y, a continuación, lo asigna a uno de los tres tipos de error.
 
 El usuario puede crear sus propias reglas.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >When importing a package and when updating data via the **Update for deliverability** workflow, the user-created rules are overwritten.
 
-**Administración de dominios de correo electrónico**
+>[!IMPORTANT]
+>
+>Una vez actualizado a la MTA mejorada, ya no se utilizan las cualificaciones de devolución de la tabla Campaña **[!UICONTROL Message qualification]**. Para los mensajes de error de error de entrega sincrónica, el MTA mejorado determina el tipo de devolución y la calificación, y envía esa información a Campaign. Las devoluciones asincrónicas siguen siendo calificadas por el proceso enMail.
+>
+>Para obtener más información sobre el MTA mejorado de Adobe Campaign, consulte este [documento](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
-Las reglas de administración de dominios se utilizan para regular el flujo de correos electrónicos salientes para un dominio específico. Realizan muestras de los mensajes de rechazo y bloquean el envío a donde corresponda. El servidor de mensajería de Adobe Campaign aplica reglas específicas a los dominios y, a continuación, las reglas para el caso general representado por un asterisco en la lista de reglas. Las reglas para los dominios de Hotmail y MSN están disponibles de forma predeterminada en Adobe Campaign.
+### Administración de dominios de correo electrónico {#managing-email-domains}
+
+Las reglas de administración de dominios se utilizan para regular el flujo de correos electrónicos salientes para un dominio específico. Realizan muestras de los mensajes de rechazo y bloquean el envío a donde corresponda. El servidor de mensajería de Adobe Campaign aplica reglas específicas a los dominios y, a continuación, las reglas para el caso general representado por un asterisco en la lista de reglas.
 
 Para configurar las reglas de administración de dominios, simplemente configure un umbral y seleccione ciertos parámetros SMTP. Un **umbral** es un límite calculado como un porcentaje de error por encima del cual se bloquean todos los mensajes dirigidos a un dominio específico.
-
-Por ejemplo, en el caso general, para un mínimo de 300 mensajes, el envío de correos electrónicos se bloquea durante tres horas si la tasa de error alcanza el 90 %.
 
 Los **parámetros SMTP** actúan como filtros aplicados a una regla de bloqueo.
 
 * Se puede elegir si activar o no determinadas normas de identificación y claves de cifrado para comprobar el nombre del dominio como, por ejemplo, **ID de remitente**, **DomainKeys**, **DKIM** y **S/MIME**.
 * **SMTP relay**: permite configurar la dirección IP y el puerto de un servidor de transmisión para un dominio determinado.
 
-**Administración MX**
+>[!IMPORTANT]
+>
+>Una vez actualizado a MTA mejorado, la autenticación por correo electrónico de DKIM (DomainKeys Identified Mail) se realiza mediante el MTA mejorado. La firma de DKIM por parte del MTA de campaña nativo se desactivará dentro de la **[!UICONTROL Domain management]**tabla como parte de la actualización de MTA mejorada.
+>
+>Para obtener más información sobre el MTA mejorado de Adobe Campaign, consulte este [documento](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+
+### Administración MX {#mx-management}
+
+>[!IMPORTANT]
+>
+>Una vez actualizado a MTA mejorado, ya no se utilizan las reglas de rendimiento de entrega de administración **de Adobe Campaign** MX. El MTA mejorado utiliza sus propias reglas MX que le permiten personalizar el rendimiento por dominio en función de su propia reputación histórica de correo electrónico y de los comentarios en tiempo real procedentes de los dominios a los que envía correos electrónicos.
+>
+>Para obtener más información sobre el MTA mejorado de Adobe Campaign, consulte este [documento](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 Cada regla define una máscara de dirección para el MX. Cualquier MX cuyo nombre coincida con esta máscara es elegible. La máscara puede contener &quot;*&quot; y &quot;?&quot; caracteres genéricos.
 
@@ -127,7 +145,7 @@ Los siguientes parámetros están disponibles para cada regla:
 * **Número máximo de mensajes**: número máximo de mensajes que se pueden enviar mediante una conexión. Después de esta cantidad, la conexión se cierra y se vuelve a abrir una nueva.
 * **[!UICONTROL Messages per hour]**:: número máximo de mensajes que se pueden enviar en una hora para un MX a través de una dirección determinada.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >* El servidor de envío (MTA) debe reiniciarse si los parámetros se han modificado.
 >* La modificación o creación de reglas de administración solo es para usuarios expertos.
@@ -153,7 +171,7 @@ En la parte superior de la pantalla del parámetro de correo electrónico, ident
 
 ![](assets/delivery_options_2.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >El ID debe ser único.
 
@@ -182,7 +200,7 @@ Puede configurar el formato de los mensajes de correo electrónico que se van a 
 * **Usar preferencias** de destinatario (modo predeterminado): el formato del mensaje se define según los datos almacenados en el perfil del destinatario y se almacena de forma predeterminada en el campo Formato **de** correo electrónico (@emailFormat). Si un destinatario desea recibir mensajes en un formato determinado, este es el formato enviado. Si el campo no se ha completado, se envía un mensaje alternativo de varias partes (véase más adelante).
 * **Permita que el cliente de correo del destinatario elija el formato más adecuado (multipart-alternativa)**: el mensaje contiene ambos formatos: texto y HTML. El formato que se muestra tras la recepción depende de la configuración del software de correo del destinatario (multipart-alternativa).
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Esta opción incluye ambas versiones del mensaje. Por lo tanto, afecta al rendimiento de la entrega, ya que el tamaño del mensaje es mayor.
 
@@ -199,7 +217,7 @@ Esta opción está disponible para correos electrónicos y plantillas de correo 
 
 Si activa la opción de modo de prueba SMTP para una plantilla de correo electrónico, todos los mensajes de correo electrónico creados a partir de esta plantilla tendrán esta opción activada.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Cuando esta opción está habilitada para un correo electrónico, no se enviará ningún mensaje hasta que no esté activada.
 >Se mostrará una advertencia en el tablero de plantillas de correo electrónico o correo electrónico.
@@ -208,14 +226,24 @@ Para obtener más información sobre la configuración de SMTP, consulte la secc
 
 ### Parámetros del período de validez {#validity-period-parameters}
 
-La **[!UICONTROL Validity]**sección contiene los siguientes parámetros:
+La **[!UICONTROL Validity period]**sección contiene los siguientes parámetros:
+
+![](assets/delivery-validity-period.png)
 
 * **[!UICONTROL Explicitly set validity dates]**:: cuando esta casilla está desactivada, debe introducir una duración en los campos**[!UICONTROL Delivery duration]** y **[!UICONTROL Resource validity limit]**. Marque esta casilla si desea definir fechas y horas específicas.
+
+   ![](assets/delivery-set-explicit-dates.png)
+
 * **[!UICONTROL Delivery duration]**::Adobe Campaign envía los mensajes a partir de la fecha de inicio. Este campo permite especificar la duración durante la cual se pueden enviar los mensajes.
+
+   >[!IMPORTANT]
+   >
+   >Una vez actualizado a la MTA mejorada, el parámetro **[!UICONTROL Delivery duration] ** de las entregas de la campaña se utiliza solamente si se establece en 3,5 días o menos. Si define un valor superior a 3,5 días, no se tendrá en cuenta. Todos los impactos se detallan en el documento MTA [mejorado de](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) Adobe Campaign.
+
 * **[!UICONTROL Resource validity duration]**:: este campo se utiliza para los recursos cargados, principalmente para la página reflejada y las imágenes. Los recursos de esta página son válidos durante un tiempo limitado (para ahorrar espacio en el disco).
 * **[!UICONTROL Mirror page management]**:: la página reflejada es una página HTML a la que se puede acceder en línea a través de un navegador web. Su contenido es idéntico al del correo electrónico. De forma predeterminada, la página reflejada se genera si el vínculo se inserta en el contenido del correo. Este campo permite modificar la forma en que se genera esta página:
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Se debe haber definido un contenido HTML para el correo electrónico de la página reflejada que se va a crear.
 
@@ -226,7 +254,7 @@ La **[!UICONTROL Validity]**sección contiene los siguientes parámetros:
 
 >[!NOTE]
 >
->Los parámetros **[!UICONTROL Explicitly set validity dates]**y**[!UICONTROL Delivery duration]** no se aplican a los mensajes transaccionales. Para obtener más información sobre la mensajería transaccional, consulte [esta sección](../../channels/using/about-transactional-messaging.md).
+>El **[!UICONTROL Delivery duration]**parámetro no se aplica a los mensajes transaccionales. Para obtener más información sobre la mensajería transaccional, consulte[esta sección](../../channels/using/about-transactional-messaging.md).
 
 ### Parámetros de seguimiento {#tracking-parameters}
 
@@ -284,7 +312,7 @@ La **[!UICONTROL SMTP]**sección contiene los siguientes parámetros:
 * **[!UICONTROL Bounce mails]**:: de forma predeterminada, los mensajes de devolución se reciben en la bandeja de entrada de errores de la plataforma (definida en la pantalla**[!UICONTROL Administration]** > **[!UICONTROL Channels]**>**[!UICONTROL Email]** > **[!UICONTROL Configuration]**). Para definir una dirección de error específica para un correo electrónico, introduzca la dirección en el**[!UICONTROL Error address]** campo.
 * **[!UICONTROL Additional SMTP headers]**:: esta opción permite agregar encabezados SMTP adicionales a los mensajes. La secuencia de comandos introducida en el**[!UICONTROL Headers]** campo debe hacer referencia a un encabezado por línea, en forma de **nombre:valor**. Los valores se codifican automáticamente si es necesario.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >La adición de secuencias de comandos para insertar encabezados SMTP se reserva para usuarios avanzados. La sintaxis de esta secuencia de comandos debe cumplir con los requisitos de este tipo de contenido: no dejar espacios sin utilizar, ninguna línea vacía, etc.
 
