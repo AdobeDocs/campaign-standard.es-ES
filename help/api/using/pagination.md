@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+source-git-commit: 60b6e0302b87e078fc7623d4613251abde3b1c50
 
 ---
 
@@ -23,17 +23,15 @@ De forma predeterminada, se cargan 25 recursos en una lista.
 
 El parámetro **_lineCount** permite limitar el número de recursos enumerados en la respuesta.  A continuación, puede utilizar el nodo **siguiente** para mostrar los resultados siguientes.
 
->[!NOTE]&gt;
+>[!NOTE]>
 >
 >Utilice siempre el valor de URL devuelto en el **siguiente** nodo para realizar una solicitud de paginación.
 >
 >La solicitud **_lineStart** se calcula y siempre debe usarse dentro de la dirección URL devuelta en el nodo **siguiente** .
 
-<!-- serverside pagination. quand table très longue (au delà de 100.000), on peut plus faire de next. doit utiliser à la place les trucs type lineStart etc. si false: voudra dirre que ça a atteint la limite-->
-
 <br/>
 
-***Solicitud de muestra***
+***Solicitud de muestra ***
 
 Ejemplo de solicitud GET para mostrar 1 registro del recurso de perfil.
 
@@ -45,9 +43,7 @@ Ejemplo de solicitud GET para mostrar 1 registro del recurso de perfil.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-<!-- dans l'exemple, avoir le node "next"-->
-
-Respuesta a la solicitud.
+Respuesta a la solicitud, con el **siguiente** nodo para realizar la paginación.
 
 ```
 {
@@ -60,6 +56,24 @@ Respuesta a la solicitud.
             ...
         }
     ],
+    "next": {
+        "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_lineCount=10&_
+        lineStart=@Qy2MRJCS67PFf8soTf4BzF7BXsq1Gbkp_e5lLj1TbE7HJKqc"
+    }
     ...
 }
 ```
+
+De forma predeterminada, el **siguiente** nodo no está disponible al interactuar con tablas con una gran cantidad de datos. Para poder realizar la paginación, debe agregar el parámetro **_forcePagination=true** a la dirección URL de la llamada.
+
+```
+-X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer <ACCESS_TOKEN>' \
+-H 'Cache-Control: no-cache' \
+-H 'X-Api-Key: <API_KEY>'
+```
+
+>[!NOTE]
+>
+>El número de registros por encima de los cuales una tabla se considera grande se define en la opción **XtkBigTableThreshold** de Campaign Standard. El valor predeterminado es 100.000 registros.
