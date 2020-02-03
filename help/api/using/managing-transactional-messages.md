@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d54f036c394db7abdba805ea2c21436c0ef5212c
+source-git-commit: cd559678dfadc575db42f3101e53bae2b971a049
 
 ---
 
@@ -25,7 +25,7 @@ Una vez creado un evento, deberá integrar la activación de este evento en su s
 
 >[!NOTE]
 >
->La creación y publicación de un evento se presenta en <a href="https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html">la documentación</a>de la campaña.
+>La creación y publicación de un evento se presenta en [la documentación](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html)de la campaña.
 
 Por ejemplo: desea que se active un evento de &quot;abandono del carro de compras&quot; cada vez que uno de sus clientes abandone el sitio Web antes de comprar los productos en el carro de compras. Para ello, el desarrollador web debe utilizar la API de mensajes transaccionales REST.
 
