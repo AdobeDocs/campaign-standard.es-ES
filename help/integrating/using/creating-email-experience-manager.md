@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1d89c8afad835810292689f4b77b0c4d6ba6a86c
+source-git-commit: 5c1a540475b7d93c18c957243ee2a403b8154aa3
 
 ---
 
@@ -55,7 +55,7 @@ Para crear contenido de correo electrónico en Adobe Experience Manager:
 1. Edite el contenido insertando texto, imágenes, personalización, etc.
 1. Valide el contenido.
 
-Para obtener más información, consulte la [documentación detallada](https://docs.adobe.com/docs/en/aem/6-2/author/personalization/adobe-campaign/campaign.html).
+Para obtener más información, consulte la [documentación detallada](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/aem-adobe-campaign/campaign.html).
 
 ![](assets/aem_content.png)
 
