@@ -13,7 +13,7 @@ context-tags: service,wizard;service,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: de16bef6cfd0afa3f664c98fe77484044aac6610
 
 ---
 
@@ -31,6 +31,12 @@ Para configurar un servicio:
 1. En la **[!UICONTROL Service properties]**sección, a la que se accede a través del![](assets/edit_darkgrey-24px.png)botón del panel de servicios, configure los mensajes de confirmación de suscripciones y cancelaciones.
 
    ![](assets/lp_service_parameters.png)
+
+1. Seleccione la **[!UICONTROL Subscriptions with an expiration date]**opción para establecer una duración de validez para la suscripción.
+
+   ![](assets/lp_service_expiration.png)
+
+Puede usar la fecha de caducidad en una actividad de segmentación para segmentar perfiles suscritos a un servicio que no haya caducado.
 
 1. Fill in the **[!UICONTROL Service label]**field. La etiqueta de servicio es obligatoria cuando se utiliza un mensaje de confirmación personalizado.
 
