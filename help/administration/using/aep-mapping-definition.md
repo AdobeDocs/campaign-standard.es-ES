@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 74e2e1e6cc9c045203f4cfbe37cab673b6761b89
+source-git-commit: 67223cf8eed46e2431c03674bd837262e37c7473
 
 ---
 
@@ -25,13 +25,10 @@ source-git-commit: 74e2e1e6cc9c045203f4cfbe37cab673b6761b89
 
 En esta sección, descubrirá cómo asignar un campo de Campaign Standard con un campo de modelo de datos de experiencia (XDM).
 
->[!NOTE]
->
->Para realizar esta tarea, los requisitos previos son:
->
-> * una definición de esquema XDM mediante la interfaz o mediante la API REST asociada a XDM
-> * una creación de conjunto de datos basada en la definición de esquema XDM
+Para realizar esta tarea, los requisitos previos son:
 
+* una definición de esquema XDM mediante la interfaz o mediante la API REST asociada a XDM
+* una creación de conjunto de datos basada en la definición de esquema XDM
 
 1. Vaya a **[!UICONTROL Administration]**>**[!UICONTROL Development]** > **[!UICONTROL Platform]**y elija la**[!UICONTROL Data mappings]** entrada.
 
@@ -78,8 +75,8 @@ Si el valor XDM se define como una enumeración en el esquema XDM, puede utiliza
 
 Para editar una asignación XDM, ábrala, modifique la información deseada y guárdela.
 
+![](assets/aep_editmapping.png)
+
 >[!IMPORTANT]
 >
 >Por ahora, si edita un valor en la sección y luego hace clic fuera del campo, el cambio no se muestra en la interfaz hasta que hace clic en el **[!UICONTROL Field mappings]****[!UICONTROL Save]** botón. Este comportamiento se produce una sola vez, cuando la edición de **[!UICONTROL Field Mappings]**es la primera edición de la página.
-
-![](assets/aep_editmapping.png)
