@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5f3bf4c2d0bba095182194ac28b3107eae2c54a6
+source-git-commit: 67223cf8eed46e2431c03674bd837262e37c7473
 
 ---
 
@@ -25,9 +25,7 @@ source-git-commit: 5f3bf4c2d0bba095182194ac28b3107eae2c54a6
 
 Adobe Campaign Standard permite activar la ingestión inmediata de asignaciones de datos mediante API y recuperar el estado de las solicitudes de inserción.
 
->[!NOTE]
->
->Esta página describe cómo activar y recuperar el estado de inserción de las asignaciones de datos. Para obtener información global sobre las API de Campaign Standard, consulte [esta sección](../../api/using/about-campaign-standard-apis.md).
+Esta página describe cómo activar y recuperar el estado de inserción de las asignaciones de datos. Para obtener información global sobre las API de Campaign Standard, consulte [esta sección](../../api/using/about-campaign-standard-apis.md).
 
 ## Requisitos previos {#prerequisites}
 
@@ -38,7 +36,7 @@ Antes de utilizar las API, la asignación de datos debe haberse configurado y pu
 
 Una vez creada la asignación de datos, debe evitar que se ejecute para poder activarla desde las API cuando lo desee. Para ello, siga estos pasos:
 
-1. En Campaign Standard, vaya al menú **[!UICONTROL Administration]**>**[!UICONTROL Development]** > **[!UICONTROL Platform]**>**!UICONTROL Status of data export to platform]**.
+1. En Campaign Standard, vaya al menú **[!UICONTROL Administration]**>**[!UICONTROL Development]** > **[!UICONTROL Platform]**>**[!UICONTROL Status of data export to platform]** .
 
 1. Haga doble clic en la asignación de datos para abrirla y, a continuación, haga clic en el **[!UICONTROL Stop]**botón .
 
