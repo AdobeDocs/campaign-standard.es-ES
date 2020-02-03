@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e896206c371d6593d37201fddd24f59dad964ca7
+source-git-commit: d1af5ca520c56d593d1cffdca1e69f49d0c26c5d
 
 ---
 
@@ -34,9 +34,8 @@ source-git-commit: e896206c371d6593d37201fddd24f59dad964ca7
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>
-   El conector de datos de la plataforma Adobe Experience está ahora integrado con Adobe Campaign Standard. Puede hacer que los datos de campaña estén disponibles en la plataforma de Adobe Experience Platform asignando datos XTK (datos ingestados en Campaign) al Modelo de datos de la plataforma de experiencia de Adobe (XDM). </p>
-    <p>Para obtener más información sobre esta capacidad y las condiciones para activarla, consulte la documentación <a href="../../administration/using/aep-about-data-connector.md"></a>detallada.</p>
+   <td> <p>El conector de datos de la plataforma Adobe Experience está ahora integrado con Adobe Campaign Standard. Puede hacer que los datos de campaña estén disponibles en la plataforma de Adobe Experience Platform asignando datos XTK (datos ingestados en Campaign) al Modelo de datos de la plataforma de experiencia de Adobe (XDM). </p>
+    <p>Tenga en cuenta que esta capacidad solo está disponible para los clientes alojados en Azure. Para obtener más información sobre esta capacidad y las condiciones para activarla, consulte la documentación <a href="../../administration/using/aep-about-data-connector.md"></a>detallada.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -45,28 +44,13 @@ source-git-commit: e896206c371d6593d37201fddd24f59dad964ca7
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Integración con el servicio Destino de audiencia (beta) </strong><br /> </th> 
+   <th> <strong>Destinos de audiencia (beta) </strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>El servicio Destinos de audiencia ahora está integrado con Adobe Campaign Standard. Puede crear audiencias con un objetivo muy preciso basadas en conjuntos de datos grandes y complejos y compartir estos segmentos casi en tiempo real con otras soluciones de Adobe Experience Cloud.</p>
-    <p>Para obtener más información sobre esta capacidad y las condiciones para activarla, consulte la documentación <a href="../../audiences/using/aep-about-audience-destinations-service.md"></a>detallada.</p>
-   </td> 
-  </tr> 
- </tbody> 
-</table>
-
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>MTA mejorado de campaña para mensajería transaccional</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>Los mensajes transaccionales ahora los envía el MTA mejorado de Adobe Campaign, que proporciona una infraestructura de envío mejorada que permite mejorar la entrega, el rendimiento y la gestión de devoluciones.</p>
-    <p>Para obtener más información, consulte la <a href="https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html">documentación detallada</a>.</p>
+   <td> <p>Los destinos de audiencia le permiten compartir segmentos de Adobe Experience Platform con Adobe Campaign.</p>
+    <p>Tenga en cuenta que esta capacidad solo está disponible para los clientes alojados en Azure. Para obtener más información sobre esta capacidad y las condiciones para activarla, consulte la documentación <a href="../../audiences/using/aep-about-audience-destinations-service.md"></a>detallada.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -74,11 +58,13 @@ source-git-commit: e896206c371d6593d37201fddd24f59dad964ca7
 
 **Mejoras**
 
+* Disponibilidad global del MTA mejorado: los mensajes (incluidos los mensajes transaccionales) ahora son enviados por el MTA mejorado de Adobe Campaign, que proporciona una infraestructura de envío mejorada que permite mejorar la entrega, el rendimiento y la gestión de devoluciones. [Más información](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
+
 * Se ha mejorado la administración de zonas horarias. Ahora puede definir una zona horaria [](../../automating/using/building-a-workflow.md) específica para todo un flujo de trabajo. La zona horaria seleccionada se aplicará a todas las actividades del flujo de trabajo. La información sobre la zona horaria configurada para el operador o el servidor ahora se muestra en la interfaz (en registros y después de seleccionar una zona horaria). (CAMP-37672)
 
-* Ahora, las API de Campaign Standard permiten realizar paginación al usar tablas grandes, agregando el `_forcePagination=true parameter` a la dirección URL de la llamada. [Más información](../../api/using/pagination.md)
+* Las API de Campaign Standard ahora permiten realizar paginación al usar tablas grandes, agregando el `_forcePagination=true` parámetro a la dirección URL de la llamada. [Más información](../../api/using/pagination.md)
 
-* El ID de registro de envío (que es un identificador único para cada registro) ya está disponible en los recursos de registros de envío y seguimiento para todas las dimensiones de objetivo. Esto permite identificar los registros de envío o seguimiento al exportar, por ejemplo.
+* El ID de registro de envío (que es un identificador único para cada registro) ya está disponible en los recursos de registros de envío y seguimiento para todas las dimensiones de objetivo. Esto permite identificar los registros de envío o seguimiento al exportar, por ejemplo. [Más información](../../automating/using/exporting-logs.md)
 
 **Mejoras en el Diseñador de correo electrónico**
 
