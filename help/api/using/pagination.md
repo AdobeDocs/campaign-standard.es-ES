@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 60b6e0302b87e078fc7623d4613251abde3b1c50
+source-git-commit: 59405df2bbb51d7cd944a0630b2b82db864f3920
 
 ---
 
@@ -23,7 +23,7 @@ De forma predeterminada, se cargan 25 recursos en una lista.
 
 El parámetro **_lineCount** permite limitar el número de recursos enumerados en la respuesta.  A continuación, puede utilizar el nodo **siguiente** para mostrar los resultados siguientes.
 
->[!NOTE]>
+>[!NOTE]
 >
 >Utilice siempre el valor de URL devuelto en el **siguiente** nodo para realizar una solicitud de paginación.
 >
