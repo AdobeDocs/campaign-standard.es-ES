@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 28d92b0024576c78fc8d71e3f1b59ac4508f9c34
+source-git-commit: 8ee995d10620c41b61de25132fae7ee975e4330e
 
 ---
 
@@ -78,13 +78,9 @@ Las reglas predeterminadas son las siguientes:
 
 ### Mensajes de devolución {#bounce-mails}
 
-Cuando falla un mensaje de correo electrónico, el servidor de mensajes remoto devuelve un mensaje de error de devolución a la dirección especificada en la configuración de la aplicación. Adobe Campaign compara el contenido de cada mensaje de rechazo con las cadenas de la lista de reglas y, a continuación, lo asigna a uno de los tres tipos de error.
+Cuando falla un mensaje de correo electrónico, el servidor de mensajes remoto devuelve un mensaje de error de devolución a la dirección especificada en la configuración de la aplicación.
 
-El usuario puede crear sus propias reglas.
-
->[!IMPORTANT]
->
->When importing a package and when updating data via the **Update for deliverability** workflow, the user-created rules are overwritten.
+Adobe Campaign compara el contenido de cada mensaje de rechazo con las cadenas de la lista de reglas y, a continuación, lo asigna a uno de los tres tipos de error.
 
 >[!IMPORTANT]
 >
@@ -92,9 +88,23 @@ El usuario puede crear sus propias reglas.
 >
 >Para obtener más información sobre el MTA mejorado de Adobe Campaign, consulte este [documento](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
+El usuario puede crear sus propias reglas.
+
+>[!IMPORTANT]
+>
+>When importing a package and when updating data via the **Update for deliverability** workflow, the user-created rules are overwritten.
+
 ### Administración de dominios de correo electrónico {#managing-email-domains}
 
-Las reglas de administración de dominios se utilizan para regular el flujo de correos electrónicos salientes para un dominio específico. Realizan muestras de los mensajes de rechazo y bloquean el envío a donde corresponda. El servidor de mensajería de Adobe Campaign aplica reglas específicas a los dominios y, a continuación, las reglas para el caso general representado por un asterisco en la lista de reglas.
+Las reglas de administración de dominios se utilizan para regular el flujo de correos electrónicos salientes para un dominio específico. Realizan muestras de los mensajes de rechazo y bloquean el envío a donde corresponda.
+
+El servidor de mensajería de Adobe Campaign aplica reglas específicas a los dominios y, a continuación, las reglas para el caso general representado por un asterisco en la lista de reglas.
+
+>[!IMPORTANT]
+>
+>Una vez actualizado a MTA mejorado, la autenticación por correo electrónico de DKIM (DomainKeys Identified Mail) se realiza mediante el MTA mejorado. La firma de DKIM por parte del MTA de campaña nativo se desactivará dentro de la **[!UICONTROL Domain management]**tabla como parte de la actualización de MTA mejorada.
+>
+>Para obtener más información sobre el MTA mejorado de Adobe Campaign, consulte este [documento](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 Para configurar las reglas de administración de dominios, simplemente configure un umbral y seleccione ciertos parámetros SMTP. Un **umbral** es un límite calculado como un porcentaje de error por encima del cual se bloquean todos los mensajes dirigidos a un dominio específico.
 
@@ -103,19 +113,7 @@ Los **parámetros SMTP** actúan como filtros aplicados a una regla de bloqueo.
 * Se puede elegir si activar o no determinadas normas de identificación y claves de cifrado para comprobar el nombre del dominio como, por ejemplo, **ID de remitente**, **DomainKeys**, **DKIM** y **S/MIME**.
 * **SMTP relay**: permite configurar la dirección IP y el puerto de un servidor de transmisión para un dominio determinado.
 
->[!IMPORTANT]
->
->Una vez actualizado a MTA mejorado, la autenticación por correo electrónico de DKIM (DomainKeys Identified Mail) se realiza mediante el MTA mejorado. La firma de DKIM por parte del MTA de campaña nativo se desactivará dentro de la **[!UICONTROL Domain management]**tabla como parte de la actualización de MTA mejorada.
->
->Para obtener más información sobre el MTA mejorado de Adobe Campaign, consulte este [documento](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
-
 ### Administración MX {#mx-management}
-
->[!IMPORTANT]
->
->Una vez actualizado a MTA mejorado, ya no se utilizan las reglas de rendimiento de entrega de administración **de Adobe Campaign** MX. El MTA mejorado utiliza sus propias reglas MX que le permiten personalizar el rendimiento por dominio en función de su propia reputación histórica de correo electrónico y de los comentarios en tiempo real procedentes de los dominios a los que envía correos electrónicos.
->
->Para obtener más información sobre el MTA mejorado de Adobe Campaign, consulte este [documento](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 Cada regla define una máscara de dirección para el MX. Cualquier MX cuyo nombre coincida con esta máscara es elegible. La máscara puede contener &quot;*&quot; y &quot;?&quot; caracteres genéricos.
 
@@ -131,6 +129,12 @@ son compatibles con las siguientes máscaras:
 * ?.mx.yahoo.com
 
 Estas reglas se aplican de forma secuencial: se aplica la primera regla cuya máscara MX es compatible con el MX de destino.
+
+>[!IMPORTANT]
+>
+>Una vez actualizado a MTA mejorado, ya no se utilizan las reglas de rendimiento de entrega de administración **de Adobe Campaign** MX. El MTA mejorado utiliza sus propias reglas MX que le permiten personalizar el rendimiento por dominio en función de su propia reputación histórica de correo electrónico y de los comentarios en tiempo real procedentes de los dominios a los que envía correos electrónicos.
+>
+>Para obtener más información sobre el MTA mejorado de Adobe Campaign, consulte este [documento](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 Los siguientes parámetros están disponibles para cada regla:
 
@@ -238,7 +242,7 @@ La **[!UICONTROL Validity period]**sección contiene los siguientes parámetros:
 
    >[!IMPORTANT]
    >
-   >Una vez actualizado a la MTA mejorada, el parámetro **[!UICONTROL Delivery duration] ** de las entregas de la campaña se utiliza solamente si se establece en 3,5 días o menos. Si define un valor superior a 3,5 días, no se tendrá en cuenta. Todos los impactos se detallan en el documento MTA [mejorado de](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) Adobe Campaign.
+   >Una vez actualizado a la MTA mejorada, el **[!UICONTROL Delivery duration]**parámetro de las entregas de la campaña se utiliza solamente si se establece en 3,5 días o menos. Si define un valor superior a 3,5 días, no se tendrá en cuenta. Todos los impactos se detallan en el documento MTA[mejorado de](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)Adobe Campaign.
 
 * **[!UICONTROL Resource validity duration]**:: este campo se utiliza para los recursos cargados, principalmente para la página reflejada y las imágenes. Los recursos de esta página son válidos durante un tiempo limitado (para ahorrar espacio en el disco).
 * **[!UICONTROL Mirror page management]**:: la página reflejada es una página HTML a la que se puede acceder en línea a través de un navegador web. Su contenido es idéntico al del correo electrónico. De forma predeterminada, la página reflejada se genera si el vínculo se inserta en el contenido del correo. Este campo permite modificar la forma en que se genera esta página:
