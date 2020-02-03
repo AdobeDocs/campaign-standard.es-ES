@@ -12,7 +12,7 @@ discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
+source-git-commit: aa1539a1fc5fd08e7cf4e081ae2517e39ddde121
 
 ---
 
@@ -21,9 +21,7 @@ source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 
 Las notificaciones push o los mensajes en la aplicación se reciben en aplicaciones móviles que primero deben configurarse en Adobe Campaign Standard en función del canal que desee utilizar.
 
-* Para enviar mensajes en la aplicación y notificaciones push, las aplicaciones móviles deben configurarse en Adobe Campaign aprovechando los SDK de la plataforma Adobe Experience. Consulte [Uso del SDK](#using-adobe-experience-platform-sdk)de la plataforma Adobe Experience.
-
-* Para enviar solo notificaciones Push, puede configurar la integración entre Adobe Campaign y Adobe Mobile Service con SDK V4. Consulte [Uso del SDK V4](#using-sdk-v4).
+Para enviar mensajes en la aplicación y notificaciones push, las aplicaciones móviles deben configurarse en Adobe Campaign aprovechando los SDK de la plataforma Adobe Experience. Consulte [Uso del SDK](#using-adobe-experience-platform-sdk)de la plataforma Adobe Experience.
 
 Una vez que las aplicaciones móviles se hayan configurado en Adobe Campaign aprovechando el SDK V4 de Experience Cloud Mobile o el SDK de la plataforma de experiencia, un administrador deberá configurarlas en el menú [!UICONTROL Administration] > [!UICONTROL Channels] > [!UICONTROL Mobile app] .
 
@@ -59,36 +57,3 @@ Siga los pasos a continuación para iniciar la configuración:
 1. Agregue la configuración específica del canal a la configuración de la aplicación móvil; consulte Configuración de la aplicación específica del [canal en Adobe Campaign](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
 
    ![](assets/launch_2.png)
-
-## Uso del SDK V4 {#using-sdk-v4}
-
-Los SDK V4 y los SDK de la plataforma Adobe Experience son compatibles con la notificación push, a diferencia de In-App. Para ver los pasos detallados para utilizar las notificaciones push con la aplicación móvil, consulte esta [página](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html).
-
-Un administrador de la interfaz de Adobe Campaign debe configurar las aplicaciones móviles que reciben notificaciones push. Al configurar tanto Adobe Campaign como Adobe Mobile Services, podrá utilizar los datos de su aplicación móvil para sus campañas.
-
-Para poder enviar notificaciones push, debe:
-
-1. Asegúrese de que puede acceder al canal en Adobe Campaign **[!UICONTROL Mobile app]**.
-1. Configure la aplicación móvil en:
-
-   * [Espacio de trabajo de Adobe Campaign](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html#SettingupamobileapplicationinAdobeCampaign).
-   * [Adobe Mobile Services](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html#ConfiguringamobileapplicationinAdobeMobileServices).
-
-1. Realice la configuración específica de la aplicación móvil:
-
-   * Empaquete el archivo de configuración descargado de la interfaz de Adobe Mobile Services con la aplicación móvil.
-   * Integre el SDK de Experience Cloud Mobile en la aplicación móvil.
-
-1. Defina los datos que desea recopilar de los suscriptores de la aplicación. Los suscriptores de la aplicación móvil que tienen un perfil en la base de datos de Adobe Campaign se concilian según los criterios definidos.
-
-   Para obtener más información, consulte [esta página](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html#Collectingsubscribersdatafromamobileapplication).
-
-1. Asegúrese de que la configuración se ha completado correctamente iniciando la aplicación móvil en el dispositivo e iniciando sesión. Asegúrese de seleccionar recibir notificaciones.
-1. A continuación, en el menú avanzado de Adobe Campaign, seleccione **[!UICONTROL Administration]**>**[!UICONTROL Channels]** > **[!UICONTROL Mobile app]**.
-1. Seleccione la aplicación móvil en la lista para mostrar sus propiedades. La información de suscripción se muestra en la lista de suscriptores.
-
-   ![](assets/push_notif_mobile_app.png)
-
-1. Para comprobar las aplicaciones móviles a las que se ha suscrito un perfil, en el **[!UICONTROL Profiles & Audiences > Profiles]**menú, seleccione un perfil y haga clic en el**[!UICONTROL Edit profile properties]** botón de la derecha. Las aplicaciones móviles se muestran en la **[!UICONTROL Mobile App Subscriptions]**ficha.
-
-   ![](assets/push_notif_subscriptions.png)
