@@ -13,7 +13,7 @@ context-tags: branding,overview;branding,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: 795f9b1d2d37f5e77af820318b6c980d702f54ad
 
 ---
 
@@ -34,7 +34,7 @@ El principio principal de la configuración y el uso de marcas es:
 1. Cree una o varias plantillas de página de envío y de aterrizaje para esta marca. Consulte la sección [Creación de una plantilla](../../start/using/marketing-activity-templates.md) .
 1. Cree mensajes y páginas de aterrizaje según esta plantilla. Consulte las secciones [Creación de un correo electrónico](../../channels/using/creating-an-email.md) y [Creación de una página](../../channels/using/designing-a-landing-page.md) de aterrizaje.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Los usuarios finales no pueden crear ni modificar marcas: estas operaciones deben ser realizadas por el administrador técnico de Adobe Campaign. Para cualquier solicitud, póngase en contacto con el servicio de atención al cliente de Adobe. No se puede utilizar la marca múltiple en el contexto de la mensajería transaccional. Para obtener más información sobre esto, consulte Mensajes [transaccionales y marca](../../channels/using/about-transactional-messaging.md#permissions-and-branding).
 
@@ -62,7 +62,7 @@ Una **marca** se define con las siguientes características:
    * **Responder a (dirección de correo electrónico)** con la dirección de correo electrónico a la que el cliente puede responder.
    * **Responda a (nombre)** con el nombre de la marca.
    * **Error (dirección de correo electrónico)** con la dirección de correo electrónico que se utilizará en caso de error.
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Después de haber actualizado los parámetros de encabezado de los correos electrónicos, si el nombre y la dirección de correo electrónico del remitente no han cambiado en el correo electrónico creado a partir de la plantilla, compruebe la configuración avanzada de la plantilla.
 
@@ -73,6 +73,9 @@ Una **marca** se define con las siguientes características:
    * **Dirección URL externa del servidor** de aplicaciones utilizado para alojar y acceder a las distintas páginas de aterrizaje que cree.
    * **Dirección URL externa del servidor** de seguimiento utilizada como dirección URL rastreada durante los envíos.
    * **Dirección URL externa del servidor** de páginas reflejadas que se utiliza como página de reflejo predeterminada en los envíos.
+   >[!NOTE]
+   >
+   >Si las direcciones URL del servidor de aplicaciones y del servidor de páginas espejo no son seguras (es decir, si no comienzan con https://), la vista previa de la página de aterrizaje y el procesamiento de la página reflejada no se pueden mostrar desde la interfaz de usuario de Campaign.
 
 * **[!UICONTROL Tracking URL configuration (Web Analytics)]**, que define la configuración del seguimiento de direcciones URL de su marca.
 
@@ -118,7 +121,7 @@ En este ejemplo, vamos a crear una nueva marca relacionada con el turismo y util
 
 #### Configurar una nueva marca {#configure-a-new-brand}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >La configuración de marca solo la administra Adobe, ya que requiere permisos específicos y configuración técnica.
 
