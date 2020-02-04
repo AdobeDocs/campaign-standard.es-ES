@@ -1,19 +1,19 @@
 ---
 title: Lista de funciones
 description: Descubra la lista de funciones que puede asignar a los usuarios.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 128aaf9b-9b7d-49f3-9e1f-72e79a29baa0
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: administración
-content-type: referencia
-topic-tags: usuarios y seguridad
+audience: administration
+content-type: reference
+topic-tags: users-and-security
 discoiquuid: ceaa3c94-9e1a-4271-b443-b00b4068929f
-context-tags: función,descripción general;función,principal
+context-tags: role,overview;role,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c321545b2f5fdc3ed43b9b943601008ff31fba6a
+source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ---
 
@@ -24,21 +24,21 @@ De forma predeterminada, Adobe Campaign ofrece un conjunto de funciones que le p
 
 ![](assets/user_management_3.png)
 
-Las funciones se pueden administrar desde el **[!UICONTROL Administration > Users & Security > Roles]** menú.
+Las funciones se pueden administrar desde el **[!UICONTROL Administration > Users & Security > Roles]**menú.
 
 Los derechos predeterminados son:
 
 * **[!UICONTROL Administration]**:: Derechos de administración genéricos.
 * **[!UICONTROL Datamodel]**:: Derecho a ejecutar publicaciones y crear recursos personalizados.
 * **[!UICONTROL Export]**: derecho para exportar datos.
-* **[!UICONTROL Generic import]**:: Derecho a ejecutar una importación genérica de datos. Para que esto funcione, debe vincular la **[!UICONTROL Generic import]** función a la **[!UICONTROL Workflow]** función.
+* **[!UICONTROL Generic import]**:: Derecho a ejecutar una importación genérica de datos. Para que esto funcione, debe vincular la**[!UICONTROL Generic import]** función a la **[!UICONTROL Workflow]**función.
 * **[!UICONTROL Prepare deliveries]**:: Derecho a crear, modificar, preparar y eliminar entregas. Los usuarios con esta función pueden preparar la entrega pero no enviarla.
 * **[!UICONTROL Start deliveries]**:: Derecho a crear, modificar, preparar, enviar y eliminar entregas.
 * **[!UICONTROL Workflow]**:: Derecho a crear, modificar, iniciar y eliminar flujos de trabajo. Los usuarios con esta función no pueden enviar una entrega ni siquiera en un flujo de trabajo.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
->Las funciones **[!UICONTROL Deliverability]**, **[!UICONTROL Command execution]**, **[!UICONTROL Export]**, **[!UICONTROL File access]** y **[!UICONTROL Message Center push]** son solo para uso interno de los administradores de Adobe. No deben concederse a un usuario.
+>Las funciones **[!UICONTROL Deliverability]**,**[!UICONTROL Command execution]**, **[!UICONTROL Export]**,**[!UICONTROL File access]** y **[!UICONTROL Message Center push]**son solo para uso interno de los administradores de Adobe. No deben concederse a un usuario.
 
 **Temas relacionados:**
 
