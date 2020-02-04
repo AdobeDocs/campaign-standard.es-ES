@@ -12,7 +12,7 @@ discoiquuid: 524ff9a2-fdaa-46bd-bfe6-f03a50461247
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 33d4704d664a809073790e47ab6bb84e9c2b07d5
 
 ---
 
@@ -38,4 +38,4 @@ Descubra las funciones clave observando los vídeos [de procedimientos de](https
 * [Configuración de una lista](https://video.tv.adobe.com/v/25288?captions=spa): configure una lista en Adobe Campaign.
 * [Creación de un informe](https://video.tv.adobe.com/v/25264?captions=spa): cree su propio informe dinámico.
 
-Además de estos vídeos cortos y detallados, también puede encontrar [cursos de formación](https://training.adobe.com/training/courses.html) y [vídeos de presentación](http://www.adobe.com/training/video.html) en nuestro sitio web.
+Además de estos vídeos cortos y detallados, también puede encontrar [cursos de formación](https://training.adobe.com/training/courses.html) y [vídeos de presentación](https://www.adobe.com/training/video.html) en nuestro sitio web.
