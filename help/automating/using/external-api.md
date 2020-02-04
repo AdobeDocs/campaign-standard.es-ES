@@ -3,14 +3,14 @@ title: API externa
 description: null
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: automatizar
-content-type: referencia
-topic-tags: segmentación-actividades
+audience: automating
+content-type: reference
+topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ![](assets/wf_externalAPI.png)
 
-La **[!UICONTROL External API]** actividad aporta datos al flujo de trabajo desde un sistema **** externo mediante una llamada a la API **de** REST.
+La **[!UICONTROL External API]**actividad aporta datos al flujo de trabajo desde un sistema****externo mediante una llamada a la API** de **REST.
 
 Los extremos REST pueden ser un sistema de administración de clientes, una instancia de [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html) o extremos de Experience Cloud REST (plataforma de datos, Target, Analytics, Campaign, etc.).
 
@@ -29,9 +29,9 @@ Los extremos REST pueden ser un sistema de administración de clientes, una inst
 >
 >Por motivos de seguridad, el uso de JSSP no se admite en Campaign Standard. Si necesita ejecutar código, puede llamar a una instancia de Adobe I/O Runtime a través de la actividad de API externa.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
->Esta capacidad está actualmente en versión beta pública. Debe aceptar el contrato de uso antes de empezar a usar la actividad de API externa. Tenga en cuenta que, como Adobe aún no ha lanzado esta funcionalidad beta pública, Adobe Client Care no la admite, puede contener errores y no funcionar como así también otras funciones lanzadas.
+>Esta capacidad está actualmente en fase beta. Debe aceptar el contrato de uso antes de empezar a usar la actividad de API externa. Tenga en cuenta que, puesto que Adobe aún no ha lanzado esta funcionalidad beta en el mercado, Adobe Client Care no la admite, puede contener errores y no funcionar como así también otras funciones lanzadas.
 
 Las principales características de esta actividad son:
 
@@ -45,7 +45,7 @@ Se han establecido las siguientes barreras para esta actividad:
 * El tiempo de espera de la solicitud es de 60 segundos
 * No se permiten redirecciones HTTP
 * Se rechazan las direcciones URL que no son HTTPS
-* "Aceptar: application/json" y "Content-Type: el encabezado de respuesta "application/json" está permitido
+* &quot;Aceptar: application/json&quot; y &quot;Content-Type: el encabezado de respuesta &quot;application/json&quot; está permitido
 
 >[!CAUTION]
 >
@@ -53,12 +53,12 @@ Se han establecido las siguientes barreras para esta actividad:
 
 ## Configuración {#configuration}
 
-Arrastre y suelte una **[!UICONTROL External API]** actividad en el flujo de trabajo y abra la actividad para iniciar la configuración.
+Arrastre y suelte una **[!UICONTROL External API]**actividad en el flujo de trabajo y abra la actividad para iniciar la configuración.
 
 ### Asignación de entrada
 
 La asignación entrante es una tabla temporal generada por una actividad entrante anterior que se mostrará y enviará como JSON en la interfaz de usuario.
-En función de esta tabla temporal, el usuario puede modificar los datos de entrada.
+En función de esta tabla temporal, el usuario puede realizar modificaciones en los datos de entrada.
 
 ![](assets/externalAPI-inbound.png)
 
@@ -68,11 +68,11 @@ La casilla **Agregar parámetro** de recuento mostrará un valor de recuento par
 
 La sección Columnas **de** entrada permite al usuario agregar cualquier campo de la tabla de transición de entrada. Las columnas seleccionadas serán las claves del objeto de datos. El objeto de datos del JSON será una lista de matrices que contenga datos para las columnas seleccionadas de cada fila de la tabla de transición de entrada.
 
-El cuadro de texto **personalizar parámetro** permite agregar un JSON válido con los datos adicionales que necesita la API externa. Estos datos adicionales se agregarán al objeto params en el JSON generado.
+El cuadro de texto **personalizar parámetro** le permite agregar un JSON válido con los datos adicionales que necesita la API externa. Estos datos adicionales se agregarán al objeto params en el JSON generado.
 
 ### Asignación de salida
 
-Esta ficha permite definir la estructura **de** JSON de muestra devuelta por la llamada de API.
+Esta ficha le permite definir la estructura **de** JSON de muestra devuelta por la llamada de API.
 
 ![](assets/externalAPI-outbound.png)
 
@@ -80,13 +80,13 @@ El patrón de estructura JSON es: `{“data”:[{“key”:“value”}, {“key
 
 La definición JSON de muestra debe tener las **siguientes características**:
 
-* **data** es un nombre de propiedad obligatorio en JSON, el contenido de "data" es una matriz JSON.
+* **data** es un nombre de propiedad obligatorio en JSON, el contenido de &quot;data&quot; es una matriz JSON.
 * **Los elementos** de matriz deben contener propiedades de primer nivel (no se admiten niveles más profundos).
    **Los nombres** de propiedad terminarían convirtiéndose en nombres de columna para el esquema de salida de la tabla temporal de salida.
-* **La definición del nombre** de columna se basa en el primer elemento de la matriz de "datos".
+* **La definición del nombre** de columna se basa en el primer elemento de la matriz de &quot;datos&quot;.
 La definición de columnas (agregar/quitar) y el valor de tipo de la propiedad se pueden editar en la ficha Definición **de** columna.
 
-Si el **análisis está validado** , aparece un mensaje que le invita a personalizar la asignación de datos en la ficha "Definición de columna". En otros casos, se muestra un mensaje de error.
+Si el **análisis está validado** , aparece un mensaje que le invita a personalizar la asignación de datos en la ficha &quot;Definición de columna&quot;. En otros casos, se muestra un mensaje de error.
 
 ### Ejecución
 
@@ -95,7 +95,7 @@ Esta ficha permite definir el extremo **** HTTPS que enviará datos a ACS. Si es
 
 ### Propiedades
 
-Esta ficha permite controlar las propiedades **** generales de la actividad de API externa, como la etiqueta mostrada en la interfaz de usuario. El ID interno no se puede personalizar.
+Esta ficha permite controlar las propiedades **** generales de la actividad de la API externa, como la etiqueta mostrada en la interfaz de usuario. El ID interno no se puede personalizar.
 
 ![](assets/externalAPI-properties.png)
 
@@ -143,10 +143,10 @@ Estos mensajes de registro se utilizan para registrar información sobre puntos 
  <tbody> 
   <tr> 
    <td> Invocando dirección URL de API '%s'.</td> 
-   <td> <p>Invocación de la URL de API 'https://example.com/api/v1/web-coupon?count=2'.</p></td> 
+   <td> <p>Invocando la dirección URL de la API 'https://example.com/api/v1/web-coupon?count=2'.</p></td> 
   </tr> 
   <tr> 
-   <td> Reintentando la dirección URL de API '%s', error en el intento anterior ('%s').</td> 
+   <td> Reintentando la dirección URL de la API '%s', error en el intento anterior ('%s').</td> 
    <td> <p>Reintentando la URL de la API 'https://example.com/api/v1/web-coupon?count=2', error en el intento anterior ('HTTP - 401').</p></td>
   </tr> 
   <tr> 
@@ -158,7 +158,7 @@ Estos mensajes de registro se utilizan para registrar información sobre puntos 
 
 ### Errores
 
-Estos mensajes de registro se utilizan para registrar información sobre las condiciones de error inesperadas, lo que puede provocar que la actividad del flujo de trabajo falle.
+Estos mensajes de registro se utilizan para registrar información sobre las condiciones de error inesperadas, lo que puede ocasionar que la actividad de flujo de trabajo falle.
 
 <table> 
  <thead> 
@@ -174,11 +174,11 @@ Estos mensajes de registro se utilizan para registrar información sobre las con
   </tr> 
   <tr> 
    <td> WKF-560239: respuesta de API superada límite (límite: '%d').</td> 
-   <td> <p>Respuesta de API excedida límite (límite: 5242880').</p></td> 
+   <td> <p>Se ha superado el límite de respuesta de API (límite: 5242880').</p></td> 
   </tr> 
   <tr> 
    <td> WKF-560245 - No se pudo analizar la dirección URL de la API (error: '%d').</td> 
-   <td> <p>No se pudo analizar la dirección URL de API (error: '-2010').</p>
+   <td> <p>No se pudo analizar la dirección URL de la API (error: '-2010').</p>
    <p> Nota: Este error se registra cuando la dirección URL de la API falla en las reglas de validación.</p></td>
   </tr> 
   <tr>
