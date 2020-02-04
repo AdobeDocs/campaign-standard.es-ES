@@ -1,5 +1,5 @@
 ---
-title: Creación de una plantilla multilingüe
+title: Plantillas de mensajes multilingües
 description: Obtenga información sobre cómo definir y ejecutar entregas multilingües por correo electrónico/SMS a través de una única entrega basada en el idioma preferido de los clientes segmentados automáticamente. Informar sobre el rendimiento de cada entrega en función del idioma y de los niveles individuales.
 page-status-flag: never-activated
 uuid: 7a2cd5f7-c0fc-4825-a770-a62816c66b3f
@@ -12,7 +12,7 @@ discoiquuid: 064c5c4a-f579-4bab-adf3-51c92eb4518f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cb5cc55c431cbe6050699a35ef2fff270f869dee
+source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
 
 ---
 
