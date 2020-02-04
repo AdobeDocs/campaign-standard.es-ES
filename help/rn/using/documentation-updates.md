@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2b25b51d53f53adad6e6e327661b641c844be719
+source-git-commit: 370e8e1221198e09089669ee28cf9847ffb4bd63
 
 ---
 
@@ -47,7 +47,7 @@ Se ha añadido información en la guía Trabajo con API sobre el parámetro new 
 
 Hay disponible una nueva sección que describe las advertencias que se pueden mostrar en un tablero de mensajes. [Más información](../../channels/using/message-dashboard.md#warnings)
 
-Ya está disponible la documentación de MTA mejorada de Adobe Campaign. [Más información](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
+Ya está disponible la documentación de MTA mejorada de Adobe Campaign, que describe la infraestructura de envío actualizada, lo que permite mejorar la capacidad de entrega, el rendimiento y la gestión de devoluciones. [Más información](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
 
 Se han agregado notas para indicar que las direcciones URL del servidor de aplicaciones y del servidor de páginas espejo deben ser seguras para que la página de aterrizaje y las vistas previas de páginas reflejadas se muestren desde la interfaz de usuario de Campaign. [Más información](../../administration/using/branding.md#configuring-and-using-brands)
 
