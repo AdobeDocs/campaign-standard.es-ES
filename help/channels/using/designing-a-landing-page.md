@@ -13,7 +13,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: d762c73e6816011340a85a3cf2aaa35f05ee0541
 
 ---
 
@@ -41,13 +41,13 @@ Esta página describe las características específicas del editor de contenido 
 * [Prácticas recomendadas generales para el diseño](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)de contenido.
 
 >[!NOTE]
->Si tiene una página de aterrizaje que ya está predefinida en formato HTML, puede importarla directamente con el **[!UICONTROL Change content]** botón.
+>Si tiene una página de aterrizaje que ya está predefinida en formato HTML, puede importarla directamente con el **[!UICONTROL Change content]**botón.
 >
 >Antes de importar una página HTML en Adobe Campaign, asegúrese de que se abre y se muestra correctamente en los distintos navegadores. Si la página HTML contiene secuencias de comandos JavaScript, deben ejecutarse sin errores fuera del editor. En general, evite utilizar secuencias de comandos en el contenido del mensaje para asegurarse de que los clientes de correo electrónico lo procesan correctamente.
 
 ## Interfaz del editor de contenido de la página de aterrizaje{#landing-page-content-editor-interface}
 
-El editor de contenido de la página de aterrizaje permite definir, modificar y personalizar fácilmente el contenido en Adobe Campaign. Para acceder a él, haga clic en el **[!UICONTROL Content]** bloque de un tablero de página de aterrizaje.
+El editor de contenido de la página de aterrizaje permite definir, modificar y personalizar fácilmente el contenido en Adobe Campaign. Para acceder a él, haga clic en el **[!UICONTROL Content]**bloque de un tablero de página de aterrizaje.
 
 El editor de contenido está organizado en tres secciones diferentes. Estas secciones le permiten ver y editar el contenido.
 
@@ -135,13 +135,13 @@ La **barra de herramientas** es un elemento contextual de la interfaz del editor
    <td> Permite el acceso a una página de aterrizaje de Adobe Campaign. Los detalles de cómo configurar un vínculo se presentan en la sección <a href="../../designing/using/links.md#inserting-a-link">Inserción de un vínculo</a> .<br /> </td> 
   </tr> 
   <tr> 
-   <td> <img height="21px" src="assets/link_subscribe_darkgrey-24px.png" /> <br /> </td> 
+   <td> <img height="21px" src="assets/link_Subscribe_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Vínculo</span> de suscripción <br /> </td> 
    <td> Cualquier elemento<br /> </td> 
    <td> Permite insertar un vínculo de suscripción al servicio. Los detalles de cómo configurar un vínculo se presentan en la sección <a href="../../designing/using/links.md#inserting-a-link">Inserción de un vínculo</a> .<br /> </td> 
   </tr> 
   <tr> 
-   <td> <img height="21px" src="assets/link_unsubscribe_darkgrey-24px.png" /> <br /> </td> 
+   <td> <img height="21px" src="assets/link_unSubscribe_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Vínculo</span> de cancelación de suscripción <br /> </td> 
    <td> Cualquier elemento<br /> </td> 
    <td> Le permite insertar un vínculo de cancelación de suscripción a un servicio. Los detalles de cómo configurar un vínculo se presentan en la sección <a href="../../designing/using/links.md#inserting-a-link">Inserción de un vínculo</a> .<br /> </td> 
@@ -243,7 +243,7 @@ La **barra de herramientas** es un elemento contextual de la interfaz del editor
 
 ### Administración de bloques en el editor de contenido {#managing-blocks-in-the-content-editor}
 
-Los diferentes elementos de contenido HTML se muestran en la página de aterrizaje como bloques, correspondientes a la etiqueta **&lt;div&gt;** **&lt;/div&gt;** . Seleccione un bloque para interactuar con él. Luego estará rodeada por una caja azul.
+Los diferentes elementos de contenido HTML se muestran en la página de aterrizaje como bloques, correspondientes a la etiqueta **&lt;div>** **&lt;/div>** . Seleccione un bloque para interactuar con él. Luego estará rodeada por una caja azul.
 
 ![](assets/des_lp_content_1.png)
 
@@ -281,20 +281,20 @@ Para cambiar la alineación del texto, seleccione uno de los tres iconos siguien
 
 ![](assets/des_lp_content_7.png)
 
-* **Alinear a la izquierda**: alinea el texto a la izquierda del bloque seleccionado (agrega style="text-align: left;").
-* **Centro**: centra el texto en el bloque seleccionado (agrega style="text-align: center;").
-* **Alinear a la derecha**: alinea el texto a la derecha del bloque seleccionado (agrega style="text-align: right;").
+* **Alinear a la izquierda**: alinea el texto a la izquierda del bloque seleccionado (agrega style=&quot;text-align: left;&quot;).
+* **Centro**: centra el texto en el bloque seleccionado (agrega style=&quot;text-align: center;&quot;).
+* **Alinear a la derecha**: alinea el texto a la derecha del bloque seleccionado (agrega style=&quot;text-align: right;&quot;).
 
 También puede utilizar la barra de herramientas para cambiar los atributos de fuente: adaptar el tamaño de fuente, poner el texto en negrita o en cursiva, subrayar o cambiar el color del texto. Consulte [esta sección](../../channels/using/designing-a-landing-page.md#landing-page-content-editor-interface).
 
 ### Inserción de imágenes en una página de aterrizaje {#inserting-images-in-a-landing-page}
 
 1. En el contenido de una página de aterrizaje, seleccione un bloque que contenga una imagen.
-1. Seleccione el **[!UICONTROL Insert]** botón.
+1. Seleccione el **[!UICONTROL Insert]**botón.
 
    ![](assets/des_insert_images_lp_1.png)
 
-1. Elija **[!UICONTROL Local image]** en la barra de herramientas contextual.
+1. Elija **[!UICONTROL Local image]**en la barra de herramientas contextual.
 
    ![](assets/des_insert_images_lp_2.png)
 
@@ -336,7 +336,7 @@ Puede desplazarse entre los distintos contenidos dinámicos de un bloque. Para e
 
    ![](assets/dynamic_content_lp_3.png)
 
-1. Para eliminar todas las condiciones aplicadas a un bloque, selecciónelo y haga clic en el **[!UICONTROL Disable dynamic content]** icono .
+1. Para eliminar todas las condiciones aplicadas a un bloque, selecciónelo y haga clic en el **[!UICONTROL Disable dynamic content]**icono .
 1. Seleccione el contenido dinámico que desea conservar.
 
    ![](assets/dynamic_content_lp_5.png)
