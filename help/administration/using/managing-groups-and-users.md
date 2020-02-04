@@ -13,7 +13,7 @@ context-tags: user,overview;user,main;security,overview;security,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cc439572afc1a6ab90d4c95576e250af315fd14c
+source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ---
 
@@ -46,7 +46,7 @@ Para restringir el acceso de un usuario, no agregue el usuario al grupo de usuar
 
 ## Creación de un grupo de seguridad y asignación de usuarios {#creating-a-security-group-and-assigning-users}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Tenga en cuenta que en la Consola de administración, los grupos de seguridad se denominan perfiles.
 
@@ -139,7 +139,7 @@ El usuario administrador debe crear el conjunto de grupos de seguridad que se ut
 
 Los usuarios ahora están asignados a un grupo de seguridad y pueden conectarse a Adobe Campaign.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Si los usuarios se eliminan de un grupo de seguridad en la consola de administración, seguirán formando parte del grupo de seguridad de Adobe Campaign y ya no podrán iniciar sesión en Adobe Campaign. En este caso, elimine las direcciones de correo electrónico de los usuarios en la consola de administración para evitar que reciban información confidencial.
 
