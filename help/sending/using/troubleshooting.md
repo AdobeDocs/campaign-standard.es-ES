@@ -13,7 +13,7 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: 33d4704d664a809073790e47ab6bb84e9c2b07d5
 
 ---
 
@@ -33,9 +33,9 @@ Si el problema persiste, póngase en contacto con los servicios comerciales o de
 
 **¿Cuál es la diferencia entre una dirección de correo electrónico bloqueada y una dirección de correo electrónico en cuarentena?**
 
-El estado **[!UICONTROL Blacklisted]** es el resultado de un bucle de retroalimentación (cuando una persona informa un mensaje como correo no deseado).
+El estado **[!UICONTROL Blacklisted]**es el resultado de un bucle de retroalimentación (cuando una persona informa un mensaje como correo no deseado).
 
-El estado **[!UICONTROL Quarantined]** es el resultado de un rebote suave o fuerte.
+El estado **[!UICONTROL Quarantined]**es el resultado de un rebote suave o fuerte.
 
 **¿Qué significan las diferentes razones de error de cuarentena?**
 
@@ -46,7 +46,7 @@ Para obtener más información sobre esto, consulte [Explicación de la administ
 **Uno de mis destinatarios fue bloqueado por error. ¿Cómo puedo desbloquearlos para poder volver a enviarles mensajes?**
 
 * Vaya a **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
-* En los detalles del registro correspondiente, establezca el valor del **[!UICONTROL Status]** campo en **[!UICONTROL Valid]**.
+* En los detalles del registro correspondiente, establezca el valor del **[!UICONTROL Status]**campo en**[!UICONTROL Valid]**.
 * Guarde el registro.
 
 **¿Cómo puedo saber si una de mis IP está bloqueada? ¿Cómo desbloqueo mis IP?**
@@ -54,7 +54,7 @@ Para obtener más información sobre esto, consulte [Explicación de la administ
 Para comprobar si su dirección IP está bloqueada, puede utilizar varios sitios Web para verificarla:
 * https://mxtoolbox.com/
 * https://whatismyipaddress.com/blacklist-check
-* http://www.blacklistalert.org/
+* https://www.blacklistalert.org/
 
 Generalmente, el resultado de la comprobación de la dirección IP devolverá una lista que contiene detalles de la lista negra y también el nombre del sitio Web que puso en la lista negra la dirección IP.
 
