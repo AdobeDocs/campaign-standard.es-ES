@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e9d4239182a7ebdec61e85fece6ec49dca8f665a
+source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
 
 ---
 
@@ -48,7 +48,7 @@ El Generador de segmentos unificado debería mostrarse ahora en su espacio de tr
 
 1. Asegúrese de que la directiva de combinación deseada está seleccionada en el panel de configuración.
 
-   Para obtener más información sobre las directivas de combinación, consulte la sección dedicada de la guía del usuario del Generador [de segmentos](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)
+   Para obtener más información sobre las directivas de combinación, consulte la sección dedicada en la guía del usuario del Generador [de segmentos](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -66,7 +66,7 @@ El Generador de segmentos unificado debería mostrarse ahora en su espacio de tr
 
 El panel izquierdo muestra todos los atributos, eventos y audiencias disponibles para su uso en la creación de reglas.
 
-Los campos mostrados son atributos capturados por su empresa y se pueden poner a disposición a través del sistema [del Modelo de datos de](https://www.adobe.io/apis/experienceplatform/home/xdm.html)experiencia (XDM).
+Los campos mostrados son atributos capturados por su empresa y se han puesto a disposición a través del sistema [del Modelo de datos de](https://www.adobe.io/apis/experienceplatform/home/xdm.html)experiencia (XDM).
 
 Los campos están organizados en fichas:
 
@@ -138,7 +138,7 @@ Para ello, siga estos pasos:
 
    ![](assets/aep_audiences_comparing_2.png)
 
-1. Configure el operador entre los dos campos como desee. En este ejemplo, nuestro segmento requiere que el código postal de la dirección de inicio no sea igual a la dirección de trabajo uno.
+1. Configure el operador entre los dos campos como desee. En este ejemplo, queremos que nuestro segmento tenga como objetivo perfiles con una dirección de inicio diferente a la dirección de trabajo.
 
    ![](assets/aep_audiences_comparing_3.png)
 
