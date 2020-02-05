@@ -51,7 +51,7 @@ Para volver a redactar y eliminar un recurso publicado:
 
    A continuación, el recurso pasa al modo **Borrador** y su estado de activación es **[!UICONTROL Inactive]**.
 
-1. En **[!UICONTROL List]**modo, compruebe el recurso que desea eliminar y, a continuación, haga clic en el![](assets/delete_darkgrey-24px.png)icono**[!UICONTROL Delete element]** .
+1. En **[!UICONTROL List]** modo, compruebe el recurso que desea eliminar y, a continuación, haga clic en el![](assets/delete_darkgrey-24px.png)icono **[!UICONTROL Delete element]** .
 
    ![](assets/schema_extension_uc28.png)
 
