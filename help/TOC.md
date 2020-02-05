@@ -292,7 +292,7 @@ source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
       + [Redirección de receptores que no abran el correo](automating/using/workflow-cross-channel-retargeting.md)
       + [Creación de un grupo de control](automating/using/workflow-control-group.md)
       + [Creación de una entrega multicanal](automating/using/workflow-cross-channel-delivery.md)
-   + Uso de audiencias de Adobe Experience Platform {uso de aep-audiences}
+   + Uso de audiencias de Adobe Experience Platform {working-with-aep-audiences}
       + [Segmentación de audiencias de Adobe Experience Platform](automating/using/aep-targeting-audiences.md)
       + [Personalización de campañas con atributos de Adobe Experience Platform](automating/using/aep-personalizing-campaigns.md)
 + Desarrollo de {#developing}
