@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1059b840d9a2d0c89a6cbd1808b645862747a76c
+source-git-commit: 8ea3340e9ffb8b438c781aeff1a8554c9160474f
 
 ---
 
@@ -30,6 +30,8 @@ Tenga en cuenta que el conector es **unidireccional** y envía los datos de Adob
 El conector de datos de la plataforma de experiencia de Adobe está dirigido a ingenieros **de** datos que entienden los recursos personalizados de Adobe Campaign Standard y que entienden cómo debe estar el esquema de datos general del cliente dentro de la plataforma de Adobe Experience.
 
 Las siguientes secciones describen los pasos clave para realizar una asignación de datos entre Campaign Standard y Adobe Experience Platform. Esto comienza con la creación de un esquema XDM y un conjunto de datos.
+
+Los vídeos de procedimientos también están disponibles en [esta página](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html).
 
 >[!NOTE]
 >Una vez configurado el conector de datos de la plataforma de experiencia de Adobe y que los datos se transfieran correctamente a la plataforma de Adobe Experience, debe habilitar el conjunto de datos para que los datos se incluyan en el perfil del cliente en tiempo real.
