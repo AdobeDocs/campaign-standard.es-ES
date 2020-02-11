@@ -12,7 +12,7 @@ discoiquuid: f7d4bb71-f957-4f86-97c7-8ac0a0030026
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa92475c1f8b37f995ebdc74c4a1f43692a53c21
+source-git-commit: 54612511de07edc3e6f3eea34ef095c26b35f4af
 
 ---
 
@@ -27,7 +27,7 @@ Antes de publicar una página de aterrizaje, debe realizar pruebas: valide la ej
 
 Dado que la página de aterrizaje afectará a la plataforma y a los datos, debe probar cuidadosamente su ejecución. Para ello:
 
-1. Haga clic en el **[!UICONTROL Test]**botón de la barra de acciones de la página de aterrizaje.
+1. Haga clic en el **[!UICONTROL Test]** botón de la barra de acciones de la página de aterrizaje.
 1. En la pantalla de prueba, seleccione un perfil de prueba y un servicio de prueba para administrar las suscripciones en la página de aterrizaje.
 
    ![](assets/lp_test_2.png)
@@ -45,7 +45,7 @@ Dado que la página de aterrizaje afectará a la plataforma y a los datos, debe 
 
 >[!NOTE]
 >
->Si la dirección URL del servidor de aplicaciones no es segura (es decir, si no comienza con https://), la vista previa de la página de aterrizaje no se puede mostrar desde la interfaz de usuario de Campaign. Este servidor se define al [configurar marcas](../../administration/using/branding.md#configuring-and-using-brands).
+>Para mostrar la vista previa de la página de aterrizaje en la interfaz de usuario de Campaign, la dirección URL del servidor de aplicaciones debe ser segura. En ese caso, utilice https:// en lugar de http:// para configurar esta URL al [configurar su marca](../../administration/using/branding.md#configuring-and-using-brands).
 
 ## Configuración de parámetros de validez {#setting-up-validity-parameters}
 
@@ -55,7 +55,7 @@ Antes de publicar, por motivos de seguridad y de rendimiento de la plataforma, l
 
    ![](assets/lp_edit_properties_button.png)
 
-1. Configure la fecha y hora de caducidad en la **[!UICONTROL Publication]**sección: la página de aterrizaje se cancelará automáticamente en la fecha especificada y, por lo tanto, ya no estará disponible.
+1. Configure la fecha y hora de caducidad en la **[!UICONTROL Publication]** sección: la página de aterrizaje se cancelará automáticamente en la fecha especificada y, por lo tanto, ya no estará disponible.
 
    Puede seleccionar el huso horario que se tendrá en cuenta para esta fecha y hora.
 
@@ -71,4 +71,4 @@ Antes de publicar, por motivos de seguridad y de rendimiento de la plataforma, l
 
 Al publicar una página de aterrizaje, esta se activa y los visitantes pueden acceder a ella.
 
-Puede cancelar la publicación o actualizar y volver a publicar la página de aterrizaje en cualquier momento, mediante el **[!UICONTROL Publish]**botón. Sin embargo, si la republicación falla y aún no ha cancelado la publicación de la página de aterrizaje, la primera versión permanecerá en línea.
+Puede cancelar la publicación o actualizar y volver a publicar la página de aterrizaje en cualquier momento, mediante el **[!UICONTROL Publish]** botón. Sin embargo, si la republicación falla y aún no ha cancelado la publicación de la página de aterrizaje, la primera versión permanecerá en línea.
