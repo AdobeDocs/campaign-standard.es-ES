@@ -1,19 +1,19 @@
 ---
 title: Clics activos
 description: Con los clics directos en el informe listo para usar, descubra dónde hizo clic el cliente en la entrega.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 7ed49dd3-d7ee-466a-9a7b-d2aa16961667
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: informes
-content-type: referencia
-topic-tags: lista de informes
+audience: reporting
+content-type: reference
+topic-tags: list-of-reports
 discoiquuid: ecbc1ade-63d9-4ac2-9828-380a1aa95094
-context-tags: deliveryHotClicksReport,principal
+context-tags: deliveryHotClicksReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -24,7 +24,7 @@ Se puede acceder a este informe desde el **[!UICONTROL Reports]** botón de cada
 
 ![](assets/delivery_reports_hot-clicks_4.png)
 
-Presenta el contenido del mensaje (HTML o texto) con el porcentaje de clics en cada vínculo.
+Presenta el contenido del mensaje (HTML y/o texto) con el porcentaje de clics en cada vínculo.
 
 ![](assets/delivery_reports_10.png)
 
@@ -35,7 +35,7 @@ Por ejemplo, imagine que ha creado una entrega con las siguientes condiciones:
 * El vínculo de la imagen principal es diferente si el destinatario es un hombre o una mujer.
 * También ha agregado un vínculo a una oferta especial que solo es visible para los destinatarios mayores de 25 años.
 
-Una vez enviado el mensaje, seleccione **[!UICONTROL Reports]** &gt; **[!UICONTROL Hot clicks]** en el panel de envío.
+Una vez enviado el mensaje, seleccione **[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]** en el tablero de envío.
 
 De forma predeterminada, no hay ningún perfil seleccionado. Solo se muestran los clics para los destinatarios cuyo sexo es desconocido y para los destinatarios menores de 25 años o cuya edad se desconoce.
 
@@ -47,7 +47,7 @@ Para mostrar clics para mujeres, haga clic en el **[!UICONTROL Change profile]**
 
 Para mostrar los clics de los destinatarios mayores de 25 años, haga clic en el **[!UICONTROL Change profile]** botón y seleccione un perfil de prueba cuya fecha de nacimiento coincida con esta condición.
 
-Para obtener más información sobre los perfiles de prueba, consulte [Acerca de los perfiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#about-test-profiles)de prueba.
+Para obtener más información sobre los perfiles de prueba, consulte [Acerca de los perfiles](../../audiences/using/managing-test-profiles.md)de prueba.
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Una entrega de ejecución es un mensaje técnico no procesable y no funcional qu
 >
 >Dado que los ID de las direcciones URL rastreadas son diferentes para cada ejecución, los datos de clics interactivos no se pueden agregar para todas las entregas de ejecución de un mensaje determinado. Solo se puede mostrar para una entrega de ejecución a la vez.
 
-Una vez enviado el mensaje, seleccione **[!UICONTROL Reports]** &gt; **[!UICONTROL Hot clicks]** en el panel de envío.
+Una vez enviado el mensaje, seleccione **[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]** en el tablero de envío.
 
 De forma predeterminada, se selecciona la última entrega de ejecución. Haga clic en el **[!UICONTROL Change execution delivery]** botón para seleccionar otro.
 
