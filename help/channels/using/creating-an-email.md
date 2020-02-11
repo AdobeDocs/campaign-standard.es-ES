@@ -12,7 +12,7 @@ discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -29,7 +29,7 @@ Puede crear un correo electrónico a partir de una [campaña](../../start/using/
 
    >[!NOTE]
    >
-   >Las plantillas de prueba A/B y de seguimiento están ocultas de forma predeterminada. Marque las casillas del lado izquierdo (panel **[!UICONTROL Filter]**lateral) si desea mostrarlas.
+   >Las plantillas de prueba A/B y de seguimiento están ocultas de forma predeterminada. Marque las casillas del lado izquierdo (panel **[!UICONTROL Filter]** lateral) si desea mostrarlas.
 
 1. Introduzca las propiedades generales del correo electrónico. Puede introducir un nombre en el campo **Etiqueta** y editar el ID. Tanto el nombre de la actividad como su ID aparecen en la interfaz, pero no son visibles para los destinatarios del mensaje.
 
@@ -43,7 +43,7 @@ Puede crear un correo electrónico a partir de una [campaña](../../start/using/
 
 1. Defina el objetivo del mensaje en función de los criterios comerciales. Consulte [Administración de perfiles](../../audiences/using/about-profiles.md).
 
-   También puede definir los perfiles de prueba que validarán el mensaje. Consulte [Administración de perfiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles)de prueba.
+   También puede definir los perfiles de prueba que validarán el mensaje. Consulte [Administración de perfiles](../../audiences/using/managing-test-profiles.md)de prueba.
 
    ![](assets/email_creation_3.png)
 
@@ -58,11 +58,11 @@ Puede crear un correo electrónico a partir de una [campaña](../../start/using/
 
    >[!NOTE]
    >
-   >Para poder guardar el correo electrónico, primero debe realizar algunas modificaciones en el contenido. Si hace clic **[!UICONTROL Cancel]**en este punto, no completará el asistente y su correo electrónico no se creará.
+   >Para poder guardar el correo electrónico, primero debe realizar algunas modificaciones en el contenido. Si hace clic **[!UICONTROL Cancel]** en este punto, no completará el asistente y su correo electrónico no se creará.
 
    A continuación, se muestra el tablero de correo electrónico. Le permite comprobar su mensaje y [preparar el envío](../../sending/using/preparing-the-send.md).
 
-   El **[!UICONTROL Edit properties]**botón situado en la esquina superior derecha permite editar las propiedades del correo electrónico. Por ejemplo, puede configurar el correo electrónico para que su etiqueta se calcule en el momento de la preparación de la entrega.  Available parameters are listed in[this section](../../administration/using/configuring-email-channel.md#list-of-email-properties).
+   El **[!UICONTROL Edit properties]** botón situado en la esquina superior derecha permite editar las propiedades del correo electrónico. Por ejemplo, puede configurar el correo electrónico para que su etiqueta se calcule en el momento de la preparación de la entrega.  Available parameters are listed in [this section](../../administration/using/configuring-email-channel.md#list-of-email-properties).
 
    ![](assets/delivery_dashboard_2.png)
 
@@ -78,7 +78,7 @@ Puede crear un correo electrónico a partir de una [campaña](../../start/using/
    >
    >Puede establecer reglas de fatiga globales entre canales que excluyan automáticamente perfiles superpuestos de las campañas. Para obtener más información sobre esto, consulte [Reglas](../../administration/using/fatigue-rules.md)de fatiga.
 
-1. Envíe pruebas para comprobar y validar el mensaje y supervisar el procesamiento de la bandeja de entrada. Consulte [Envío de la prueba](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs).
+1. Envíe pruebas para comprobar y validar el mensaje y supervisar el procesamiento de la bandeja de entrada. Consulte [Envío de la prueba](../../sending/using/sending-proofs.md).
 
    ![](assets/bat_select.png)
 
