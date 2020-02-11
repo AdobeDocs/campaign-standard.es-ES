@@ -1,18 +1,18 @@
 ---
 title: Reglas de fatiga
 description: Cree reglas de fatiga para administrar la sobrecomunicación con perfiles.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: fa5e3ded-36c2-4f16-b97a-119b85adf679
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: administración
-content-type: referencia
-topic-tags: reglas de trabajo con tipología
+audience: administration
+content-type: reference
+topic-tags: working-with-typology-rules
 discoiquuid: 4337a80b-0fb9-4a37-bce3-fe2121a66586
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 5f4a7f249a47def6776d8787b066e3d8256c3528
 
 ---
 
@@ -40,7 +40,7 @@ Temas relacionados:
 
 To create and configure a **[!UICONTROL Fatigue]** typology rule, apply the following steps:
 
-1. Haga clic en el logotipo de Adobe Campaign, en la esquina superior izquierda de la interfaz, y luego seleccione **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Typologies]** &gt; **[!UICONTROL Typology rules]**.
+1. Haga clic en el logotipo de Adobe Campaign, en la esquina superior izquierda de la interfaz, y luego seleccione **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** > **[!UICONTROL Typology rules]**.
 
    ![](assets/fatigue4.png)
 
@@ -56,7 +56,7 @@ To create and configure a **[!UICONTROL Fatigue]** typology rule, apply the foll
 
    ![](assets/fatigue5.png)
 
-1. En la **[!UICONTROL General]** ficha, defina el método para calcular el número máximo de mensajes por perfil. Puede elegir un umbral constante o una variable. También puede reducir el umbral en perfiles y envíos. Para obtener más información sobre esto, consulte [Definición del umbral](#defining-the-threshold).
+1. En la **[!UICONTROL General]** ficha, defina el método para calcular el número máximo de mensajes por perfil. Puede elegir un umbral constante o una variable. También puede reducir el umbral en perfiles y envíos. For more on this, refer to [Defining the threshold](#defining-the-threshold).
 
    ![](assets/fatigue2.png)
 
@@ -78,11 +78,11 @@ To create and configure a **[!UICONTROL Fatigue]** typology rule, apply the foll
    >
    >La tipología se puede definir en la plantilla de envío para que se aplique automáticamente a todos los envíos creados con esta plantilla.
 
-Durante la preparación de la entrega, los perfiles se excluyen de la entrega, si procede, según el número de entregas ya enviadas. Puede ver los resultados de la ejecución de reglas de fatiga en los registros de entrega. Consulte [Visualización de los resultados](#viewing-the-fatigue-results)de fatiga.
+Durante la preparación de la entrega, los perfiles se excluyen de la entrega, si procede, en función del número de entregas ya enviadas. Puede ver los resultados de la ejecución de reglas de fatiga en los registros de entrega. Consulte [Visualización de los resultados](#viewing-the-fatigue-results)de fatiga.
 
 ![](assets/fatigue16.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Para que funcionen las reglas de fatiga, debe definir una fecha de contacto para la entrega. Si decide enviar mensajes inmediatamente, no se aplicará la regla de fatiga.
 
@@ -100,11 +100,11 @@ Están disponibles los siguientes canales:
 * Móvil
                             (SMS)
 * Correo postal
-* Aplicación móvil: este canal le permite enviar notificaciones push a perfiles o suscriptores de la aplicación. Si decide enviar notificaciones a los perfiles, serán compatibles con las reglas de fatiga multicanal.
+* Aplicación móvil: este canal le permite enviar notificaciones push a perfiles o a suscriptores de la aplicación. Si decide enviar notificaciones a los perfiles, serán compatibles con las reglas de fatiga multicanal.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
-   >Las reglas de fatiga no son compatibles con las notificaciones push enviadas a los suscriptores de la aplicación. Si envía mensajes a los suscriptores de la aplicación, no se aplicarán las reglas de fatiga.
+   >Las reglas de fatiga no son compatibles con las notificaciones push enviadas a los suscriptores de la aplicación. Si va a enviar mensajes a los suscriptores de la aplicación, no se aplicarán las reglas de fatiga.
 
 * Todos los canales: esta opción le permite aplicar la regla a todos los canales. Por ejemplo, puede decidir enviar un máximo de 3 mensajes al mes en cualquier canal. Si la semana pasada enviaste dos correos electrónicos a un perfil e intentas enviar una notificación push hoy, se excluirá el mismo perfil.
 
@@ -112,7 +112,7 @@ Están disponibles los siguientes canales:
 
 Las reglas de fatiga son compatibles con todos los tipos de envío: entregas únicas, entregas recurrentes, entregas de flujo de trabajo y mensajes transaccionales.
 
-**Los mensajes** transaccionales pueden utilizarse para enviar mensajes de servicio dirigidos a un evento (rtEvent), así como mensajes de marketing (perfiles de objetivo), por ejemplo un mensaje de remarketing. Las reglas de fatiga solo son compatibles con los mensajes de marketing (perfiles de objetivo). Los mensajes transaccionales de eventos no contienen información de perfil, por lo tanto no son compatibles con las reglas de fatiga (incluso en el caso de un enriquecimiento con perfiles). Con la compatibilidad de los mensajes de marketing en los mensajes transaccionales, puede **aplicar una regla de fatiga a todos los canales, incluidos los mensajes** transaccionales de marketing.
+**Los mensajes** transaccionales se pueden utilizar para enviar mensajes de servicio dirigidos a un evento (rtEvent), así como mensajes de marketing (perfiles de objetivo), por ejemplo un mensaje de remarketing. Las reglas de fatiga solo son compatibles con los mensajes de marketing (perfiles de objetivo). Los mensajes transaccionales de eventos no contienen información de perfil, por lo tanto no son compatibles con las reglas de fatiga (incluso en el caso de un enriquecimiento con perfiles). Con la compatibilidad de los mensajes de marketing en los mensajes transaccionales, puede **aplicar una regla de fatiga a todos los canales, incluidos los mensajes** transaccionales de marketing.
 
 ## Definición del umbral {#defining-the-threshold}
 
@@ -136,11 +136,11 @@ Para definir un umbral de variable, seleccione el **[!UICONTROL Depends on the r
 
 A continuación, tiene dos opciones:
 
-* seleccione un campo de perfil: el umbral variará para cada perfil según el campo seleccionado. Por ejemplo, si ha ampliado el recurso de perfiles con un campo 'Frecuencia de comunicación', haga clic en el botón de la derecha del **[!UICONTROL Threshold computation formula]** campo y seleccione el campo. Para cada perfil, el umbral tomará el valor del campo 'Frecuencia de comunicación'.
+* seleccione un campo de perfil: el umbral variará para cada perfil según el campo seleccionado. Por ejemplo, si ha ampliado el recurso de perfiles con un campo &#39;Frecuencia de comunicación&#39;, haga clic en el botón de la derecha del **[!UICONTROL Threshold computation formula]** campo y seleccione el campo. Para cada perfil, el umbral tomará el valor del campo &#39;Frecuencia de comunicación&#39;.
 
    ![](assets/fatigue21.png)
 
-* definir una fórmula: haga clic en el segundo botón de la derecha del **[!UICONTROL Threshold computation formula]** campo para definir una fórmula de cálculo de umbral avanzada. Por ejemplo, puede indexar el número de mensajes autorizados según el segmento al que pertenece el perfil. Esto significa que un perfil que pertenece al segmento 'Web' puede recibir más mensajes que otros perfiles. Una fórmula de **[!UICONTROL Iif (@origin='Web', 5, 3)]** tipo autoriza el envío de 5 mensajes a perfiles del segmento Web y 3 para otros segmentos.
+* definir una fórmula: haga clic en el segundo botón de la derecha del **[!UICONTROL Threshold computation formula]** campo para definir una fórmula de cálculo de umbral avanzada. Por ejemplo, puede indexar el número de mensajes autorizados según el segmento al que pertenece el perfil. Esto significa que un perfil que pertenece al segmento &#39;Web&#39; puede recibir más mensajes que otros perfiles. Una fórmula de **[!UICONTROL Iif (@origin='Web', 5, 3)]** tipo autoriza el envío de 5 mensajes a perfiles del segmento Web y 3 para otros segmentos.
 
    ![](assets/fatigue14.png)
 
@@ -154,8 +154,8 @@ En el siguiente ejemplo, solo se cuentan los perfiles masculinos y solo se cuent
 
 Refinar el umbral en las entregas es diferente a restringir la aplicabilidad de toda la regla ( **[!UICONTROL Application criteria]** ficha):
 
-* **[!UICONTROL Application criteria]**:: se decide ejecutar la regla o no según criterios específicos. Por ejemplo, si la condición de la aplicación es 'La etiqueta comienza con la newsletter', la regla solo se aplicará a los envíos que respeten esta condición. Si la etiqueta de la entrega empieza por 'Promoción', la regla no se ejecutará en absoluto.
-* **[!UICONTROL Refine threshold on profiles and deliveries > Deliveries to count]**:: todas las entregas que utilicen esta regla de tipología ejecutarán la regla, pero usted decide, entre las entregas anteriores y programadas, cuáles desea contar. Por ejemplo, si la restricción es 'La etiqueta comienza con la newsletter', la regla se ejecutará aunque la etiqueta de entrega comience por 'Promo'. Durante el período deslizante seleccionado, se contará el número de entregas cuya etiqueta comienza con 'Newsletter'.
+* **[!UICONTROL Application criteria]**:: se decide ejecutar la regla o no según criterios específicos. Por ejemplo, si la condición de la aplicación es &#39;La etiqueta comienza con la newsletter&#39;, la regla solo se aplicará a los envíos que respeten esta condición. Si la etiqueta de la entrega empieza por &#39;Promoción&#39;, la regla no se ejecutará en absoluto.
+* **[!UICONTROL Refine threshold on profiles and deliveries > Deliveries to count]**:: todas las entregas que utilicen esta regla de tipología ejecutarán la regla, pero usted decide, entre las entregas anteriores y programadas, cuáles desea contar. Por ejemplo, si la restricción es &#39;La etiqueta comienza con la newsletter&#39;, la regla se ejecutará aunque la etiqueta de entrega comience por &#39;Promo&#39;. Durante el período deslizante seleccionado, se contará el número de entregas cuya etiqueta comienza con &#39;Newsletter&#39;.
 
 ## Configuración del período deslizante {#setting-the-sliding-period}
 
@@ -171,7 +171,7 @@ Para restringir los envíos en cuenta a un período de 2 semanas, ingrese **Día
 
 ## Ver los resultados de fatiga {#viewing-the-fatigue-results}
 
-Durante la preparación de la entrega, los perfiles se excluyen de la entrega, si procede, según el número de entregas ya enviadas. Para ver los resultados de ejecución de regla de fatiga, haga clic en el botón en la esquina inferior derecha del **[!UICONTROL Deployment]** bloque.
+Durante la preparación de la entrega, los perfiles se excluyen de la entrega, si procede, en función del número de entregas ya enviadas. Para ver los resultados de ejecución de regla de fatiga, haga clic en el botón en la esquina inferior derecha del **[!UICONTROL Deployment]** bloque.
 
 ![](assets/fatigue22.png)
 
@@ -216,7 +216,7 @@ La tabla inferior muestra todos los envíos dentro del período seleccionado. Pa
 
 >[!NOTE]
 >
->Los datos mostrados no son contextuales para el programa, mensaje o campaña desde el que se accede al informe. Este informe muestra todas las reglas de fatiga y entregas de todas las unidades organizativas. Esto le permite obtener una vista global de todos los envíos a fin de comprender cómo otras personas influyen en sus campañas.
+>Los datos mostrados no son contextuales para el programa, el mensaje o la campaña desde la que se accede al informe. Este informe muestra todas las reglas de fatiga y los envíos de todas las unidades organizativas. Esto le permite obtener una vista global de todos los envíos a fin de comprender cómo otras personas influyen en sus campañas.
 
 ## Ejemplos {#examples}
 
@@ -232,7 +232,7 @@ Existen muchas posibilidades en cuanto a la implementación de la gestión de fa
 
 * Cree una regla de fatiga usando un umbral **de** variable basado en un campo **de** perfil:
 
-   Ha ampliado el recurso de perfiles con un campo 'Límite de comunicación' para definir un umbral diferente para cada perfil. En la regla de fatiga, defina un umbral de variable basado en este campo y seleccione un período deslizante de 2 días. Veamos dos ejemplos de perfiles: John tiene un límite de comunicación de 1 y David tiene un umbral de 2. Ambos ya recibieron un correo electrónico con newsletter ayer. Usted decide enviarles otro correo electrónico hoy. Sólo David lo recibirá, porque John ha sido excluido del objetivo.
+   Ha ampliado el recurso de perfiles con un campo &#39;Límite de comunicación&#39; para definir un umbral diferente para cada perfil. En la regla de fatiga, defina un umbral de variable basado en este campo y seleccione un período deslizante de 2 días. Veamos dos ejemplos de perfiles: John tiene un límite de comunicación de 1 y David tiene un umbral de 2. Ambos ya recibieron un correo electrónico con newsletter ayer. Usted decide enviarles otro correo electrónico hoy. Sólo David lo recibirá, porque John ha sido excluido del objetivo.
 
    ![](assets/fatigue24.png)
 
@@ -248,7 +248,7 @@ Existen muchas posibilidades en cuanto a la implementación de la gestión de fa
 
 * Cree una regla de fatiga que **ajuste el umbral** en perfiles y entregas:
 
-   Ha ampliado el recurso de perfiles con un campo 'Puntuación' y también ha ampliado el recurso de entregas con un campo 'Tipo'. Desea definir un umbral constante de 3, pero desea excluir del recuento todas las entregas del tipo 'Alerta' o 'Viernes negro' y todos los perfiles con una puntuación mayor que 10. Cuando la regla se ejecute, contará, entre las entregas anteriores y programadas, todas las entregas que no sean del tipo 'Alerta' o 'Viernes Negro' enviadas a perfiles cuya puntuación sea menor que 10.
+   Ha ampliado el recurso de perfiles con un campo &#39;Puntuación&#39; y también ha ampliado el recurso de entregas con un campo &#39;Tipo&#39;. Desea definir un umbral constante de 3, pero desea excluir del recuento todas las entregas del tipo &#39;Alerta&#39; o &#39;Viernes negro&#39; y todos los perfiles con una puntuación mayor que 10. Cuando la regla se ejecute, contará, entre las entregas anteriores y programadas, todas las entregas que no sean del tipo &#39;Alerta&#39; o &#39;Viernes Negro&#39; enviadas a perfiles cuya puntuación sea menor que 10.
 
    ![](assets/fatigue26.png)
 
@@ -279,7 +279,7 @@ Para crear la regla, siga los siguientes pasos:
 
    Esta fórmula permite asignar el valor 2 si el estado es igual a 0 y el valor 4 para todos los demás estados.
 
-1. Click **[!UICONTROL Confirm]** to approve the formula.
+1. Haga clic en **[!UICONTROL Confirm]** para aprobar la fórmula.
 1. Indique la **[!UICONTROL Sliding period]** forma en que se aplicará la regla: 7 días en este caso, para limitar las entregas a un período de 2 semanas.
 
    ![](assets/fatigue11.png)
