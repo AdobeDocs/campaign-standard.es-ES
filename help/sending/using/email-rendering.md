@@ -1,18 +1,18 @@
 ---
 title: Procesamiento de correo electrónico
 description: Descubrir la función de procesamiento de correo electrónico.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: c423e237-ad39-4797-ac3a-4320894a8f99
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: enviar
-content-type: referencia
-topic-tags: preparar y probar mensajes
+audience: sending
+content-type: reference
+topic-tags: preparing-and-testing-messages
 discoiquuid: 2b5b13c8-2e51-4985-a161-c1d7f0fc32b4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -33,7 +33,7 @@ Una vez que haya creado su envío de correo electrónico y definido su contenido
 
    ![](assets/email_rendering_05.png)
 
-1. Utilice el editor de consultas para definir los perfiles de prueba que desea utilizar, incluidos los perfiles de prueba que se utilizan para el procesamiento **por correo** electrónico. Consulte [Acerca de los perfiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#about-test-profiles)de prueba.
+1. Utilice el editor de consultas para definir los perfiles de prueba que desea utilizar, incluidos los perfiles de prueba que se utilizan para el procesamiento **por correo** electrónico. Consulte [Acerca de los perfiles](../../audiences/using/managing-test-profiles.md)de prueba.
 
    ![](assets/email_rendering_06.png)
 
@@ -48,7 +48,7 @@ Una vez que haya creado su envío de correo electrónico y definido su contenido
 
    >[!NOTE]
    >
-   >La **[!UICONTROL Proof + Email rendering]** opción le permite enviar una prueba y utilizar simultáneamente la función de procesamiento por correo electrónico. Puede solicitar la aprobación del mensaje por parte de los destinatarios de la prueba y, al mismo tiempo, puede probar la forma en que se recibirá el mensaje según las bandejas de entrada objetivo. En este caso, también debe seleccionar Perfiles de prueba. Consulte [Acerca de los perfiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#about-test-profiles)de prueba.
+   >La **[!UICONTROL Proof + Email rendering]** opción le permite enviar una prueba y utilizar simultáneamente la función de procesamiento por correo electrónico. Puede solicitar la aprobación del mensaje por parte de los destinatarios de la prueba y, al mismo tiempo, puede probar la forma en que se recibirá el mensaje en función de las bandejas de entrada objetivo. En este caso, también debe seleccionar Perfiles de prueba. Consulte [Acerca de los perfiles](../../audiences/using/managing-test-profiles.md)de prueba.
 
    Se envía la entrega de la prueba.
 
@@ -65,7 +65,7 @@ Se muestra el informe de procesamiento de correo electrónico dedicado. Consulte
 **Temas relacionados**:
 
 * [Creación de un correo electrónico](../../channels/using/creating-an-email.md)
-* [Administración de perfiles de prueba y envío de pruebas](../../sending/using/managing-test-profiles-and-sending-proofs.md)
+* [Envío de pruebas](../../sending/using/sending-proofs.md)
 * [Editor de consultas](../../automating/using/editing-queries.md#about-query-editor)
 
 ## Descripción del informe de procesamiento por correo electrónico {#email-rendering-report-description}
