@@ -13,7 +13,7 @@ context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 32bcfd57dfe881fa07c8d8e5700d0ae3996a78ec
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -36,9 +36,9 @@ Para cada perfil de destino se agrega una nueva línea en el archivo de extracci
 
 ## Adición de perfiles de prueba y captura {#adding-test-and-trap-profiles}
 
-Agregue perfiles de prueba para probar el archivo con un pequeño número de perfiles. Permite crear rápidamente un ejemplo de archivo para probar y validar la estructura antes de preparar el archivo real. See [Managing test profiles and sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md).
+Agregue perfiles de prueba para probar el archivo con un pequeño número de perfiles. Permite crear rápidamente un ejemplo de archivo para probar y validar la estructura antes de preparar el archivo real. Consulte [Administración de perfiles](../../audiences/using/managing-test-profiles.md)de prueba.
 
-El uso de trampas es esencial para dirigir las entregas por correo. Le permiten verificar que su proveedor de correo directo está enviando realmente la comunicación y que no está enviando su lista de clientes a otro proveedor. Consulte [Uso de trampas](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps).
+El uso de trampas es esencial para dirigir las entregas por correo. Le permiten verificar que su proveedor de correo directo está enviando realmente la comunicación y que no está enviando su lista de clientes a otro proveedor. Consulte [Uso de trampas](../../sending/using/using-traps.md).
 
 Para las entregas por correo directo, las trampas se agregan durante la extracción y se mezclan en el documento de salida. De forma predeterminada, se insertan en el orden de clasificación del archivo de salida, pero puede optar por insertarlo al final o al principio del archivo. Al definir la audiencia, seleccione la opción que desee en la **[!UICONTROL Trap insertion mode]** ficha.
 
