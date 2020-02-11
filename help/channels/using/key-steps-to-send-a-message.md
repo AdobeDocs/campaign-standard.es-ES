@@ -12,7 +12,7 @@ discoiquuid: a51351ee-e3b6-4996-9e68-b7d5157b8207
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -32,7 +32,7 @@ Los pasos para crear y enviar mensajes son los siguientes:
    >
    >Puede establecer reglas de fatiga globales entre canales que excluyan automáticamente perfiles superpuestos de las campañas. Consulte Reglas [de fatiga](../../administration/using/fatigue-rules.md).
 
-1. Enviar pruebas. Consulte [Envío de pruebas](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs).
+1. Enviar pruebas. Consulte [Envío de pruebas](../../sending/using/sending-proofs.md).
 1. Envíe el mensaje y compruebe su entrega. Consulte [Envío de mensajes](../../sending/using/confirming-the-send.md).
 1. Compruebe los informes de envío dedicados. Consulte [Acceso a informes](../../reporting/using/about-dynamic-reports.md).
 
