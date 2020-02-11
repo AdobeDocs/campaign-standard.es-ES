@@ -13,7 +13,7 @@ context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 Los pasos para crear una notificación push con Adobe Campaign son:
 
-1. En la **[!UICONTROL Marketing activities]** ventana,[cree una nueva actividad](../../start/using/marketing-activities.md#creating-a-marketing-activity)de marketing.
+1. En la **[!UICONTROL Marketing activities]** ventana, [cree una nueva actividad](../../start/using/marketing-activities.md#creating-a-marketing-activity)de marketing.
 
    Tenga en cuenta que también se puede crear una sola notificación push desde una [campaña](../../start/using/marketing-activities.md#creating-a-marketing-activity) o desde la página de [inicio](../../start/using/interface-description.md#home-page)de Adobe Campaign.
 
@@ -37,7 +37,7 @@ Los pasos para crear una notificación push con Adobe Campaign son:
 
    De forma predeterminada, puede seleccionar una de las dos plantillas siguientes:
 
-   * **[!UICONTROL Send push to Campaign profiles]**:: utilice esta plantilla para dirigirse a los perfiles de CRM de Adobe Campaign que se han suscrito a su aplicación móvil y han elegido recibir notificaciones push. Puede insertar campos de[personalización](../../designing/using/personalization.md#inserting-a-personalization-field)en la notificación push, como el nombre del destinatario.
+   * **[!UICONTROL Send push to Campaign profiles]**:: utilice esta plantilla para dirigirse a los perfiles de CRM de Adobe Campaign que se han suscrito a su aplicación móvil y han elegido recibir notificaciones push. Puede insertar campos de [personalización](../../designing/using/personalization.md#inserting-a-personalization-field) en la notificación push, como el nombre del destinatario.
    * **[!UICONTROL Send push to app subscribers]**:: utilice esta plantilla para enviar una notificación push a todos los usuarios de aplicaciones móviles conocidos y anónimos que hayan elegido recibir notificaciones desde la aplicación. Puede personalizar estos mensajes con los datos recopilados de la aplicación móvil.
    También puede seleccionar plantillas multilingües. Para obtener más información, consulte [Creación de una notificación](../../channels/using/creating-a-multilingual-push-notification.md)push multilingüe.
 
@@ -71,7 +71,7 @@ Los pasos para crear una notificación push con Adobe Campaign son:
 
 1. Antes de enviar la notificación, puede probarla con perfiles de prueba y luego ver exactamente lo que verán los destinatarios antes de enviar la entrega. Seleccione **[!UICONTROL Audiences]** el resumen de envío y haga clic en la **[!UICONTROL Test profiles]** ficha.
 
-   Para obtener más información sobre el envío de pruebas, consulte Perfiles [de prueba](../../sending/using/managing-test-profiles-and-sending-proofs.md).
+   Para obtener más información sobre el envío de pruebas, consulte Perfiles [de prueba](../../sending/using/sending-proofs.md).
 
 1. Seleccione los perfiles de prueba y haga clic en **[!UICONTROL Preview]** para mostrar la notificación: el contenido se personaliza con los datos del perfil de prueba.
 1. Compruebe el diseño de la notificación push en distintos dispositivos: seleccione iPhone, teléfono Android, iPad o tablet Android para obtener una vista previa del procesamiento.
@@ -92,7 +92,7 @@ Las notificaciones push se pueden enviar a una audiencia seleccionada en Adobe C
 
    ![](assets/push_send_1.png)
 
-1. Once the preparation has finished successfully, the **[!UICONTROL Deployment]** window presents the following KPIs:**[!UICONTROL Target]** and **[!UICONTROL To deliver]**. Note that the **[!UICONTROL To deliver]** count is lower than the **[!UICONTROL Targeted]** one due to exclusions which can be viewed by clicking![](assets/lp_link_properties.png)button at the bottom of the **[!UICONTROL Deployment]** window.
+1. Once the preparation has finished successfully, the **[!UICONTROL Deployment]** window presents the following KPIs: **[!UICONTROL Target]** and **[!UICONTROL To deliver]**. Tenga en cuenta que el recuento **[!UICONTROL To deliver]** es menor que el de **[!UICONTROL Targeted]**, debido a exclusiones que se pueden ver haciendo clic en el botón ![](assets/lp_link_properties.png) de la parte inferior de la ventana **[!UICONTROL Deployment]**.
 
    ![](assets/push_send_2.png)
 
