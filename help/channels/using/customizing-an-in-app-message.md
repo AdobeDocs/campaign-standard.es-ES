@@ -1,19 +1,19 @@
 ---
 title: Personalización de un mensaje en la aplicación
 description: Aprenda a personalizar los mensajes en la aplicación con diversas opciones.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 1d9c08ed-4de5-440d-bf51-4a437eec67d5
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: canales
-content-type: referencia
-topic-tags: mensajería en la aplicación
+audience: channels
+content-type: reference
+topic-tags: in-app-messaging
 discoiquuid: c9c3e033-e319-447b-8d87-ff7dd4941876
-context-tags: entrega,inAppContent,retroceso
+context-tags: delivery,inAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -55,7 +55,7 @@ La **[!UICONTROL Layout]** lista desplegable le ofrece cuatro opciones diferente
 
 * **[!UICONTROL Alert]**:: Este tipo de diseño aparece como un mensaje de alerta de SO nativo.
 
-   Solo admite componentes de texto y botón.
+   Solo admite componentes de texto y de botón.
 
 * **[!UICONTROL Local notification]**:: Este tipo de diseño aparece como un mensaje de pancarta.
 
@@ -70,7 +70,7 @@ Cada tipo de maquetaciones se puede previsualizar en diferentes dispositivos, co
 La **[!UICONTROL Media]** lista desplegable le permite agregar medios al mensaje en la aplicación para crear una experiencia atractiva para el usuario final.
 
 1. Seleccione el **[!UICONTROL Media Type]** entre imagen y vídeo.
-1. Para el tipo de **[!UICONTROL Image]** medio, introduzca la dirección URL en el **[!UICONTROL Media URL]** campo según los formatos admitidos.
+1. Para el tipo de **[!UICONTROL Image]** medio, introduzca la dirección URL en el **[!UICONTROL Media URL]** campo en función de los formatos admitidos.
 
    Si es necesario, también puede introducir la ruta a una **[!UICONTROL Bundled image]** que se puede utilizar si el dispositivo está sin conexión.
 
@@ -129,7 +129,7 @@ Puede agregar hasta dos botones al mensaje en la aplicación.
 
 ### Configuración {#settings}
 
-1. En la **[!UICONTROL Settings]** categoría, seleccione el color de fondo entre luz y oscuridad.
+1. En la **[!UICONTROL Settings]** categoría, seleccione el color de fondo entre la luz y la oscuridad.
 1. Elija mostrar o no un botón de cierre con la **[!UICONTROL Show close button]** opción de proporcionar a los usuarios una forma de descartar el mensaje en la aplicación.
 1. Seleccione si la alineación del botón será horizontal o vertical con la **[!UICONTROL Button alignment]** opción.
 1. Seleccione si el mensaje en la aplicación se puede descartar automáticamente o no después de unos segundos.
@@ -190,11 +190,11 @@ Una vez importado el HTML, puede encontrar una vista previa del archivo en difer
 
 Antes de enviar un mensaje en la aplicación, puede realizar pruebas con sus perfiles de prueba para comprobar qué verá la audiencia objetivo cuando reciba la entrega.
 
-1. Click the **[!UICONTROL Preview]** button.
+1. Haga clic en el botón **[!UICONTROL Preview]**.
 
    ![](assets/inapp_sending_2.png)
 
-1. Haga clic en el **[!UICONTROL Select a test profile]** botón y seleccione uno de los perfiles de prueba para empezar a previsualizar la entrega. For more information on test profiles, refer to this [section](../../sending/using/managing-test-profiles-and-sending-proofs.md).
+1. Haga clic en el **[!UICONTROL Select a test profile]** botón y seleccione uno de los perfiles de prueba para empezar a previsualizar la entrega. For more information on test profiles, refer to this [section](../../audiences/using/managing-test-profiles.md).
 1. Compruebe el mensaje en distintos dispositivos, como Android, iPhone o incluso tablets. También puede comprobar si los campos de personalización están recuperando los datos correctos.
 
    ![](assets/inapp_sending_3.png)
