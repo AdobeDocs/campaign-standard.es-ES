@@ -12,7 +12,7 @@ discoiquuid: 1e0f8945-fc3c-46a9-a8e5-b181a1f5ffcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -40,17 +40,17 @@ Temas relacionados:
 
 * [Acerca de los recursos personalizados](../../developing/using/data-model-concepts.md)
 * [Administración de perfiles](../../audiences/using/about-profiles.md)
-* [Administración de perfiles de prueba](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles)
+* [Administración de perfiles de prueba](../../audiences/using/managing-test-profiles.md)
 
 ## Paso 1: Ampliar el recurso de perfil {#step-1--extend-the-profile-resource}
 
 Para crear el nuevo campo **Interés** para nuestros perfiles, primero debe ampliar el recurso listo para usar **[!UICONTROL Profiles (profile)]** .
 
-1. En el menú avanzado, a través del logotipo de Adobe Campaign, seleccione **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** y, a continuación, **[!UICONTROL Custom resources]**.
+1. En el menú avanzado, a través del logotipo de Adobe Campaign, seleccione **[!UICONTROL Administration]** > **[!UICONTROL Development]** y, a continuación, **[!UICONTROL Custom resources]**.
 1. Si aún no ha ampliado el **[!UICONTROL Profiles]** recurso, haga clic en **[!UICONTROL Create]**.
 1. Elija la **[!UICONTROL Extend an existing resource]** opción.
 1. Seleccione el **[!UICONTROL Profile (profile)]** recurso.
-1. Click **[!UICONTROL Create]**.
+1. Haga clic **[!UICONTROL Create]**.
 
    ![](assets/schema_extension_uc5.png)
 
@@ -100,11 +100,11 @@ El campo ya está configurado. Ahora tenemos que ampliarlo al perfil de prueba.
 
 Para comprobar si el nuevo campo creado está correctamente configurado, puede probarlo enviando la entrega a sus perfiles de prueba. En primer lugar, el nuevo campo también debe llevarse a cabo en los perfiles de ensayo.
 
-1. En el menú avanzado, a través del logotipo de Adobe Campaign, seleccione **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** y, a continuación, **[!UICONTROL Custom resources]**.
+1. En el menú avanzado, a través del logotipo de Adobe Campaign, seleccione **[!UICONTROL Administration]** > **[!UICONTROL Development]** y, a continuación, **[!UICONTROL Custom resources]**.
 1. Si aún no ha ampliado el **[!UICONTROL Profiles]** recurso, haga clic en **[!UICONTROL Create]**.
 1. Elija la **[!UICONTROL Extend an existing resource]** opción.
 1. Seleccione el **[!UICONTROL Test profile (seedMember)]** recurso.
-1. Click **[!UICONTROL Create]**.
+1. Haga clic **[!UICONTROL Create]**.
 
    ![](assets/schema_extension_uc13.png)
 
@@ -117,7 +117,7 @@ Para comprobar si el nuevo campo creado está correctamente configurado, puede p
    ![](assets/schema_extension_uc16.png)
 
 1. Lleve a cabo los mismos pasos del paso 11 al 13 que el tutorial de perfil de extensión de arriba para agregar este campo a la **[!UICONTROL Test profile]** pantalla.
-1. Click **[!UICONTROL Save]**.
+1. Haga clic **[!UICONTROL Save]**.
 
 Tanto los perfiles como los perfiles de prueba tendrán ahora su nuevo campo disponible. Para que esté correctamente configurado, debe publicar el recurso personalizado.
 
@@ -125,7 +125,7 @@ Tanto los perfiles como los perfiles de prueba tendrán ahora su nuevo campo dis
 
 Para aplicar los cambios realizados en los recursos y poder utilizarlos, debe realizar una actualización de la base de datos.
 
-1. En el menú avanzado, seleccione **Administración** &gt; **Desarrollo** y, a continuación, **Publicación**.
+1. En el menú avanzado, seleccione **Administración** > **Desarrollo** y, a continuación, **Publicación**.
 1. De forma predeterminada, la opción **[!UICONTROL Determine modifications since the last publication]** está marcada, lo que significa que solo se aplicarán los cambios realizados desde la última actualización.
 
    ![](assets/schema_extension_uc14.png)
@@ -155,7 +155,7 @@ Primero, debemos crear una página de aterrizaje que actualice los campos **Inte
 
 1. En el **[!UICONTROL Marketing activities]**, haga clic en **[!UICONTROL Create]** y seleccione **[!UICONTROL Landing page]**.
 1. Seleccione un tipo de página de aterrizaje. Aquí, ya que queremos actualizar nuestros perfiles, seleccione **[!UICONTROL Profile acquisition]**.
-1. Click **[!UICONTROL Create]**.
+1. Haga clic **[!UICONTROL Create]**.
 1. Haga clic en el **[!UICONTROL Content]** bloque para empezar a editar el contenido de la página de aterrizaje.
 
    ![](assets/schema_extension_uc21.png)
@@ -186,7 +186,7 @@ La página de aterrizaje ya está lista. Para actualizar los perfiles, puede cre
 
    ![](assets/schema_extension_uc24.png)
 
-1. Click **[!UICONTROL Save]**. El correo electrónico ya está listo, puede volver al flujo de trabajo.
+1. Haga clic **[!UICONTROL Save]**. El correo electrónico ya está listo, puede volver al flujo de trabajo.
 1. Agregue una **[!UICONTROL Wait]** actividad para que los perfiles tengan tiempo de rellenar la página de aterrizaje.
 1. Agregue una **[!UICONTROL Segmentation]** actividad para dividir la transición de salida según sus **intereses**.
 1. Cree un segmento de salida para cada **interés**.
