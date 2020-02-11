@@ -12,7 +12,7 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8bd32e1ca93473c384a3e079362bb9afe978699d
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -37,7 +37,7 @@ Una vez definido el objetivo y creado el contenido de un mensaje, debe probarlo 
 
 * [Acerca de la programación de mensajes](../../sending/using/about-scheduling-messages.md)
 * [Preparación del envío](../../sending/using/preparing-the-send.md)
-* [Administración de perfiles de prueba y envío de pruebas](../../sending/using/managing-test-profiles-and-sending-proofs.md)
+* [Envío de pruebas](../../sending/using/sending-proofs.md)
 * [Procesamiento de correo electrónico](../../sending/using/email-rendering.md)
 * [Recibir alertas cuando se produzcan errores](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Optimización de la capacidad de entrega](../../sending/using/about-deliverability.md)
