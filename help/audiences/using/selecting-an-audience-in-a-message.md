@@ -1,19 +1,19 @@
 ---
 title: Selección de una audiencia en un mensaje
 description: '"Procedimiento paso a paso para elegir las audiencias de un correo electrónico: población objetivo principal y perfiles de prueba".'
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 7d8f8446-f2e0-49c1-83f6-9667b29bc228
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: referencia
-topic-tags: administrar-audiencias
+content-type: reference
+topic-tags: managing-audiences
 discoiquuid: 158da6ff-8899-4e7b-b925-8a42c3de46a1
-context-tags: deliveryCreation,asistente;delivery,audience,back
+context-tags: deliveryCreation,wizard;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -26,7 +26,7 @@ Las audiencias se pueden definir al crear el mensaje mediante el asistente de cr
 
 >[!NOTE]
 >
->Si la audiencia se ha creado en un flujo de trabajo y se ha enriquecido con datos adicionales, no podrá utilizar estos datos para personalizar una entrega independiente. Solo se pueden usar desde una entrega ejecutada en un flujo de trabajo.
+>Si la audiencia se ha creado dentro de un flujo de trabajo y se ha enriquecido con datos adicionales, no podrá utilizar estos datos para personalizar una entrega independiente. Solo se pueden usar desde una entrega ejecutada en un flujo de trabajo.
 
 1. Desde el tablero, vaya al bloque de audiencia para comenzar.
 
@@ -38,7 +38,7 @@ Las audiencias se pueden definir al crear el mensaje mediante el asistente de cr
    * Perfiles de prueba
    ![](assets/delivery_audience_definition_2.png)
 
-1. Defina el principal **[!UICONTROL Target]** del correo electrónico. Ésta es la audiencia objetivo habitual del correo electrónico.
+1. Defina el principal **[!UICONTROL Target]** del correo electrónico. Ésta es la audiencia de destino habitual del correo electrónico.
 
    El destino se define en la **[!UICONTROL Target]** ficha y está formado por perfiles identificados de la base de datos.
 
@@ -50,7 +50,7 @@ Las audiencias se pueden definir al crear el mensaje mediante el asistente de cr
 
 1. Defina el **[!UICONTROL Test profiles]** que desee utilizar para el correo electrónico. Los perfiles de prueba recibirán las pruebas que puede enviar antes para probar el correo electrónico antes de enviarlo al destino principal.
 
-   Para obtener más información sobre la configuración de perfiles de prueba, consulte la sección Perfiles [de prueba](../../sending/using/managing-test-profiles-and-sending-proofs.md) .
+   Para obtener más información sobre la configuración de perfiles de prueba, consulte la sección Perfiles [de prueba](../../audiences/using/managing-test-profiles.md) .
 
 El bloque de audiencias se actualiza y muestra que se ha seleccionado un objetivo y perfiles de prueba para el correo electrónico en cuestión.
 
