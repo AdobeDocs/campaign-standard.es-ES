@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e119ee1dc605b4f0ca48cd79fcdf2ad38d6b1440
+source-git-commit: 8b02b81ef27c8415bc5bcce41178dfbfc90670cf
 
 ---
 
@@ -20,6 +20,12 @@ source-git-commit: e119ee1dc605b4f0ca48cd79fcdf2ad38d6b1440
 # Última versión{#latest-release}
 
 [Planificación](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) de versiones| [Versiones](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) del Panel de control| Actualizaciones [de documentación](../../rn/using/documentation-updates.md) | Notas de revisión [anteriores](../../rn/using/release-notes-2019.md) | Características [obsoletas](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+
+## Versión 20.1.2: febrero de 2020 {#release-20-1-2---february-2020}
+
+**Mejoras en el Diseñador de correo electrónico**
+
+Se corrigió un problema que agregaba un elemento de etiqueta HTML en un fragmento obsoleto al realizar un parche y, a continuación, guardar el contenido. (CAMP-40685)Se ha corregido un problema que añadía un espacio al usar contenido dinámico. (CAMP-40605)Se ha corregido un problema al configurar una plantilla de correo electrónico transaccional. (CAMP-40604)
 
 ## Versión 20.1: febrero de 2020 {#release-20-1---february-2020}
 
@@ -90,9 +96,9 @@ source-git-commit: e119ee1dc605b4f0ca48cd79fcdf2ad38d6b1440
 * Se ha corregido un problema al realizar una solicitud de eliminación de privacidad que impedía que los datos de usuario se eliminaran en los registros de exclusión. (CAMP-39003)
 * Se ha corregido un problema que provocaba problemas de accesibilidad al cambiar el tamaño del texto en un elemento contenedor.
 * Se ha corregido un problema que impedía a los usuarios descartar la ventana emergente Calendario que aparece al pasar el ratón por encima en las actividades de marketing.
-* Se corrigió un problema en la **[!UICONTROL External API]**actividad que mostraba el**[!UICONTROL Confirm]** botón aunque no se modificaran los datos.
-* Se ha corregido un problema al usar una **[!UICONTROL Union]**actividad en consultas con diferentes dimensiones de objetivo. Los datos de transición solo mostraban registros de la dimensión de objetivo del conjunto principal. (CAMP-36831)
-* Se ha corregido un problema que podía dar lugar a un error al usar una **[!UICONTROL Reconciliation]**actividad en contextos específicos, por ejemplo, con dos actividades entrantes, una de las cuales era una actividad de exclusión. (CAMP-37490)
+* Se corrigió un problema en la **[!UICONTROL External API]** actividad que mostraba el **[!UICONTROL Confirm]** botón aunque no se modificaran los datos.
+* Se ha corregido un problema al usar una **[!UICONTROL Union]** actividad en consultas con diferentes dimensiones de objetivo. Los datos de transición solo mostraban registros de la dimensión de objetivo del conjunto principal. (CAMP-36831)
+* Se ha corregido un problema que podía dar lugar a un error al usar una **[!UICONTROL Reconciliation]** actividad en contextos específicos, por ejemplo, con dos actividades entrantes, una de las cuales era una actividad de exclusión. (CAMP-37490)
 * Se han corregido problemas de rendimiento que podían producirse al seleccionar y actualizar perfiles de prueba. (CAMP-37976)
 * Se ha corregido un problema que podía mostrar páginas de error al suscribirse o cancelar la suscripción a través de páginas de aterrizaje. (CAMP-37771)
 * Se ha corregido un problema que se producía al cargar contenido en formato zip, con archivos PNG referenciados en HTML con su extensión en mayúsculas. (CAMP-37913)
