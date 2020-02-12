@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8b02b81ef27c8415bc5bcce41178dfbfc90670cf
+source-git-commit: 51408477f18725e95d3c2bd48394e776fbbe3d1d
 
 ---
 
@@ -25,7 +25,9 @@ source-git-commit: 8b02b81ef27c8415bc5bcce41178dfbfc90670cf
 
 **Mejoras en el Diseñador de correo electrónico**
 
-Se corrigió un problema que agregaba un elemento de etiqueta HTML en un fragmento obsoleto al realizar un parche y, a continuación, guardar el contenido. (CAMP-40685)Se ha corregido un problema que añadía un espacio al usar contenido dinámico. (CAMP-40605)Se ha corregido un problema al configurar una plantilla de correo electrónico transaccional. (CAMP-40604)
+* Se corrigió un problema que agregaba un elemento de etiqueta HTML en un fragmento obsoleto al realizar un parche y, a continuación, guardar el contenido. (CAMP-40685)
+* Se ha corregido un problema que agregaba un espacio al usar contenido dinámico. (CAMP-40605)
+* Se ha corregido un problema al configurar una plantilla de correo electrónico transaccional. (CAMP-40604)
 
 ## Versión 20.1: febrero de 2020 {#release-20-1---february-2020}
 
