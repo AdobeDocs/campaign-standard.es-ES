@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51408477f18725e95d3c2bd48394e776fbbe3d1d
+source-git-commit: 9e6648af4f0918904fc232e407a1cb6f237efcbc
 
 ---
 
@@ -20,6 +20,10 @@ source-git-commit: 51408477f18725e95d3c2bd48394e776fbbe3d1d
 # Última versión{#latest-release}
 
 [Planificación](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) de versiones| [Versiones](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) del Panel de control| Actualizaciones [de documentación](../../rn/using/documentation-updates.md) | Notas de revisión [anteriores](../../rn/using/release-notes-2019.md) | Características [obsoletas](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+
+## Versión 20.1.3: febrero de 2020 {#release-20-1-3---february-2020}
+
+* Se ha corregido un problema de regresión introducido en 20.1 por CAMP-39273 para los clientes que utilizan la laguna. Se revirtió el CAMP-39273.
 
 ## Versión 20.1.2: febrero de 2020 {#release-20-1-2---february-2020}
 
@@ -116,3 +120,4 @@ source-git-commit: 51408477f18725e95d3c2bd48394e776fbbe3d1d
 * Se ha corregido un problema que provocaba discrepancias en los recuentos de cancelación de suscripciones en los informes dinámicos. (CAMP-39949)
 * Se ha corregido un problema que impedía que las direcciones se mostraran en la pantalla de registro de envío al enviar mensajes en la aplicación.
 * Se ha corregido un problema que impedía que los registros de envío de SMS se actualizaran con el número correcto de devoluciones. (CAMP-38395)
+* Se corrigió un error que permitía que las llamadas posteriores a la suscripción de la aplicación actualizaran los tokens de notificación push. (CAMP-39273)
