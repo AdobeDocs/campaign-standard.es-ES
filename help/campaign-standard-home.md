@@ -3,27 +3,25 @@ keywords: Campaign Standard;home;popular topics
 solution: Campaign Standard
 title: Documentación del producto de Adobe Campaign Standard
 topic: Premium
-translation-type: ht
-source-git-commit: 859fa22e39233eb5d87475de3a2bf03492f1fe4b
+translation-type: tm+mt
+source-git-commit: 3fa3fac1ae34c5e53195ad1605be5d4e25f11318
 
 ---
 
 
 # Centro de ayuda {#campaign-standard-documentation}
 
-![](start/using/assets/banner_acs_doc.jpg)
+![](start/using/assets/do-not-localize/banner_acs_doc.jpg)
 
 ## Novedades
 
-* **[Administración de privacidad](https://helpx.adobe.com/es/campaign/kb/campaign-privacy.html)**<br/> Obtenga información sobre las herramientas proporcionadas por Adobe Campaign para ayudarle a cumplir con la privacidad.
+* **[Administración de privacidad](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>Obtenga información sobre las herramientas proporcionadas por Adobe Campaign para ayudarle a cumplir con la privacidad.
 
-* **[Recomendaciones de entrega](https://helpx.adobe.com/es/campaign/kb/delivery-best-practices.html)**<br/>
-Obtenga más información sobre las recomendaciones relacionadas con la creación y el envío de entregas.
+* **[Recomendaciones de entrega](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>Obtenga más información sobre las recomendaciones relacionadas con la creación y el envío de entregas.
 
 * **[Diseñador de correos electrónicos](designing/using/designing-content-in-adobe-campaign.md)**<br/>Consulte la documentación reorganizada del Diseñador de correos electrónicos.
 
-* **[Guía móvil de Campaign Standard](https://helpx.adobe.com/es/campaign/kb/acs-mobile.html)**<br/>
-Obtenga más información sobre las directrices generales para envíos móviles.
+* **[Guía móvil de Campaign Standard](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>Obtenga más información sobre las directrices generales para envíos móviles.
 
 [Haga clic aquí para obtener más actualizaciones](rn/using/documentation-updates.md)
 
@@ -68,14 +66,14 @@ Obtenga más información sobre las directrices generales para envíos móviles.
 
 * [Notas de la versión](rn/using/release-notes.md)
 
-* [Panel de control](https://docs.adobe.com/content/help/es-ES/control-panel/using/control-panel-home.html)
+* [Panel de control](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 
 * [Vídeos tutoriales](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
 
-* [Guía de planificación de versiones](https://helpx.adobe.com/es/campaign/kb/acs-release-planning.html)
+* [Guía de planificación de versiones](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 
-* [Funciones obsoletas y eliminadas](https://helpx.adobe.com/es/campaign/kb/acs-deprecated-and-removed-features.html)
+* [Funciones obsoletas y eliminadas](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
-* [Notas técnicas](https://helpx.adobe.com/es/campaign/kb/acs-article-list.html)
+* [Notas técnicas](https://helpx.adobe.com/campaign/kb/acs-article-list.html)
 
-* [Guía de implementación de Adobe Campaign Standard](https://helpx.adobe.com/es/campaign/kb/campaign-standard-implementation-guide.html)
+* [Guía de implementación de Adobe Campaign Standard](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
