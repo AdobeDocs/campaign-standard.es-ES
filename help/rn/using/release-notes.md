@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9e6648af4f0918904fc232e407a1cb6f237efcbc
+source-git-commit: 4a3a6930609ab27949d77ccc8a73d9a3a62edb98
 
 ---
 
@@ -89,6 +89,8 @@ source-git-commit: 9e6648af4f0918904fc232e407a1cb6f237efcbc
 * Se ha corregido un problema que impedía copiar y pegar texto desde un editor de texto. (CAMP-39028)
 * Se ha corregido un problema que impedía que se mostraran las sugerencias de palabra. (CAMP-38970)
 * Se ha corregido un problema que impedía a los usuarios guardar fragmentos. (ATU-2447)
+* Se ha corregido un problema que impedía que las estructuras dinámicas se duplicaran. (CAMP-38367)
+* Se ha corregido un problema que impedía que el contenido dinámico conservara las condiciones cuando se duplicaba. (CAMP-39051)
 
 **Otros cambios**
 
