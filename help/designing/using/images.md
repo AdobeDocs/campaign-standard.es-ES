@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7e300de836a74372e411b5b1d584851fac77aafe
+source-git-commit: 881c89272884c6340e170ab13e84612a5af19acd
 
 ---
 
@@ -29,8 +29,6 @@ Los siguientes tipos de imágenes están disponibles según la configuración:
 * Imágenes compartidas desde Adobe Experience Cloud: consulte [Uso de Campaign y los recursos del servicio](../../integrating/using/working-with-campaign-and-assets-core-service.md) principal / Recursos On Demand
 * Imágenes dinámicas de Adobe Target: consulte [Uso de Campaign y Target](../../integrating/using/about-campaign-target-integration.md)
 
-Si está activada, puede modificar imágenes con el SDK de Adobe Creative. Consulte [Modificación de imágenes con el SDK](#modifying-images-with-the-adobe-creative-sdk)de Adobe Creative.
-
 >[!CAUTION]
 >
 >Si decide agregar una imagen directamente editando la versión HTML del correo electrónico, no debe llamar a los archivos **externos en una etiqueta** &lt;script> de la página HTML. Estos archivos no se importan en el servidor de Adobe Campaign.
@@ -38,7 +36,7 @@ Si está activada, puede modificar imágenes con el SDK de Adobe Creative. Consu
 ### Inserción de imágenes en un correo electrónico {#inserting-images-in-an-email}
 
 1. Agregue un componente de estructura. Para obtener más información sobre esto, consulte [Edición de la estructura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)de correo electrónico.
-1. Dentro de este componente de estructura, agregue un componente **[!UICONTROL Image]**de contenido.
+1. Dentro de este componente de estructura, agregue un componente **[!UICONTROL Image]** de contenido.
 
    ![](assets/des_insert_images_1.png)
 
@@ -72,24 +70,27 @@ El editor le permite trabajar con **todos los tipos** de imágenes cuyos formato
 </object>
 ```
 
-## Modificación de imágenes con el SDK de Adobe Creative{#modifying-images-with-the-adobe-creative-sdk}
+<!--
+## Modifying images with the Adobe Creative SDK{#modifying-images-with-the-adobe-creative-sdk}
 
-Puede editar imágenes y utilizar un conjunto completo de funciones con tecnología del SDK de Adobe Creative para mejorar las imágenes directamente en el editor de contenido al editar correos electrónicos o páginas de aterrizaje.
+You can edit images and use a complete set of features powered by the Adobe Creative SDK to enhance your images directly in the content editor when editing emails or landing pages.
 
-El editor de imágenes ofrece un potente componente de interfaz de usuario de edición de imágenes con todas las funciones que le permite editar imágenes y aplicar efectos y marcos, etiquetas adhesivas originales de alta calidad, superposiciones hermosas, divertidas funciones como cambio de inclinación y bienvenida de color, ajustes de nivel profesional y mucho más.
+The image editor offers a powerful, full-featured image editing UI component that allows you to edit images and apply effects and frames, original high-quality stickers, beautiful overlays, fun features like tilt shift and color splash, pro-level adjustments and more.
 
-Para modificar una imagen con el SDK de Adobe Creative:
+To modify an image with the Adobe Creative SDK:
 
-1. Seleccione la imagen.
-1. En la barra de herramientas, haga clic en el icono de Creative Cloud.
+1. Select the image.
+1. In the toolbar, click the Creative Cloud icon.
 
    ![](assets/des_creative_sdk_icon.png)
 
-1. Seleccione la herramienta que desee utilizar a través de los iconos de la parte superior de la ventana para modificar la imagen.
+1. Select the tool you want to use through the icons on the top of the window to modify the image.
 
    ![](assets/email_designer_ccsdktoolbar.png)
 
-1. Haga clic **[!UICONTROL Save]**cuando se hayan realizado las modificaciones. La imagen actualizada se guarda en el servidor de Adobe Campaign y está lista para utilizarse.
+1. Click **[!UICONTROL Save]** when modifications are done. The updated image is saved on Adobe Campaign server and ready to be used.
 
 >[!NOTE]
-Las herramientas ofrecidas en el editor de imágenes no se pueden personalizar.
+>
+>Tools offered in the image editor cannot be customized.
+-->
