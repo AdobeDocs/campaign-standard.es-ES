@@ -1,0 +1,87 @@
+---
+title: Planificación de la versión de Campaign Standard
+description: Esta página enumera las próximas versiones de Adobe Campaign Standard.
+page-status-flag: never-activated
+uuid: null
+contentOwner: sauviat
+products: SG_CAMPAIGN/STANDARD
+audience: rn
+content-type: reference
+topic-tags: campaign-standard-release-planning
+discoiquuid: null
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 6ffbf03a7eb4fc1b5bfbd523c0c5342d41cfd211
+
+---
+
+
+# Planificación de la versión de Campaign Standard {#release-planning}
+
+Adobe mejora continuamente sus soluciones añadiendo nuevas funciones, mejoras y correcciones.
+
+Todas las instancias de Adobe Campaign Standard se actualizan con cada nueva versión. No se requiere ninguna acción para la actualización.
+
+Las actualizaciones se implementan en dos fases. En primer lugar, las instancias de Stage se actualizan para permitir a nuestros clientes probar nuevas capacidades y adaptar su configuración si es necesario. Las instancias de producción se actualizan posteriormente.
+
+Todas las fechas de lanzamiento están sujetas a cambios: le recomendamos que visite esta página con regularidad para buscar actualizaciones.
+
+Suscríbase para [recibir notificaciones](https://www.adobe.com/subscription/priority-product-update.html) de la versión y obtener detalles sobre las últimas versiones de Adobe Experience Cloud directamente en su bandeja de entrada.
+
+## Versión 20.1.3: actualización de la versión de febrero {#release-20-1-3---february-release-update}
+
+Las actualizaciones del entorno se producen en oleadas, durante los intervalos de tiempo indicados a continuación. Encontrará información detallada sobre esta versión en las [Notas](../../rn/using/release-notes.md)de la versión. Si tiene alguna duda, póngase en contacto con [Adobe Client Care](https://support.neolane.net/webApp/extranetLogin).
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Entorno<br /> </th> 
+   <th> Fechas<br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> Fase<br /> </td> 
+   <td> 17 a 18 de febrero de 2020<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Producción<br /> </td> 
+   <td> 20 de febrero a 5 de marzo de 2020<br /> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+## Preguntas y respuestas {#questions-and-answers}
+
+**P: ¿Cuál es el impacto?**
+
+A: Los cambios se enumeran en las [Notas](../../rn/using/release-notes.md)de la versión, incluidos los vínculos a la documentación relacionada. Adobe también recomienda consultar la página [Funciones](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)obsoletas y eliminadas. Estas páginas están disponibles para la nueva versión en la fecha de actualización del entorno de la fase.
+
+**P: ¿Cuál es el proceso de validación?**
+
+A: A medida que se actualiza la instancia de ensayo, Adobe recomienda validar los procesos y casos de uso que funcionan correctamente con esta nueva versión e informar de cualquier problema a [Adobe Client Care](https://support.neolane.net/webApp/extranetLogin).
+
+**P: ¿Habrá acceso a la instancia durante el proceso de actualización?**
+
+A:No. Durante la actualización de la instancia, es posible que la base de datos no esté accesible durante unos minutos. Todos los procesos se reinician automáticamente.
+
+**P: ¿Seguirán enviándose los mensajes?**
+
+A:No. Los mensajes no se enviarán durante unos minutos. Tan pronto como se complete la actualización, los procesos se reinician automáticamente.
+
+**P: ¿Los flujos de trabajo seguirán ejecutándose y enviarán los envíos?**
+
+A:No. Durante la actualización de la compilación, tanto el servidor de flujo de trabajo como MTA se detienen. Esto significa que los flujos de trabajo no se ejecutarán y los envíos no se enviarán durante unos minutos. No se requiere ninguna acción: los flujos de trabajo se iniciarán de nuevo en cuanto se actualice la instancia.
+
+**P: ¿Seguirá funcionando el seguimiento de vínculos en los mensajes durante la actualización?**
+
+A: Sí, funcionarán. No se pueden enviar nuevos correos electrónicos durante la actualización, pero los vínculos de seguimiento incluidos en los mensajes de correo electrónico ya enviados estarán operativos.
+
+**P: ¿Cómo sé que se completó la actualización?**
+
+A: Al iniciar sesión en Campaign, se mostrará una ventana emergente de notificación de lanzamiento con la versión más reciente.
+
+Para cualquier otra pregunta, póngase en contacto con [Adobe Client Care](https://support.neolane.net/webApp/extranetLogin).
