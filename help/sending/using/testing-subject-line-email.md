@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0bc487606fe3715b20452f3cf8eae52900539a32
+source-git-commit: 7e61796376a14c279d38107905275172be0dd12d
 
 ---
 
@@ -22,7 +22,7 @@ Para probar la línea de asunto, siga los pasos a continuación:
 
 1. Cree o abra su correo electrónico.
 1. Abra el contenido e introduzca el asunto del correo electrónico en el campo de entrada correspondiente.
-1. Haga clic en el **[!UICONTROL Test subject]**botón para acceder a la**[!UICONTROL Test your subject line]** ventana. Aún puede editar el asunto desde esta ventana.
+1. Haga clic en el **[!UICONTROL Test subject]** botón para acceder a la **[!UICONTROL Test your subject line]** ventana. Aún puede editar el asunto desde esta ventana.
 1. Seleccione el modelo correcto que se debe tener en cuenta para la predicción de velocidad abierta. Existen varios modelos disponibles, cada uno de ellos correspondiente a una industria específica.
 1. Haga clic **[!UICONTROL Test]**.
 
@@ -52,7 +52,7 @@ De forma predeterminada, no hay ningún modelo en ejecución en el servidor de A
 * Puede formar un modelo local a partir de los datos de los mensajes de correo electrónico anteriores:
 
    * Si ya está utilizando Adobe Campaign, el modelo local recibirá automáticamente formación sobre los mensajes que ya ha enviado.
-   * Si es nuevo en Adobe Campaign, puede extraer un archivo CSV del sistema o ESP anterior que contenga 4 columnas: fecha, asunto, abre, enviado. Para ello, vaya a **[!UICONTROL Administration]**>**[!UICONTROL Channels]** > **[!UICONTROL Email]**>**[!UICONTROL Subject Line Import]** y siga las instrucciones que aparecen en las pantallas sucesivas. Una vez completada la carga del asunto, importe un modelo local como se describe a continuación. El modelo local se capacita automáticamente con los datos cargados.
+   * Si es nuevo en Adobe Campaign, puede extraer un archivo CSV del sistema o ESP anterior que contenga 4 columnas: fecha, asunto, abre, enviado. Para ello, vaya a **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email]** > **[!UICONTROL Subject Line Import]** y siga las instrucciones que aparecen en las pantallas sucesivas. Una vez completada la carga del asunto, importe un modelo local como se describe a continuación. El modelo local se capacita automáticamente con los datos cargados.
    * Si es nuevo en Adobe Campaign y no puede obtener un archivo CSV como se describe anteriormente, puede utilizar un modelo preentrenado o esperar hasta que tenga suficientes datos de entrega en el sistema para entrenar un modelo local. El sistema determinará automáticamente si el conjunto de datos actual contiene datos suficientes para reconocer patrones y para entrenar el modelo.
 
       >[!NOTE]
@@ -60,13 +60,13 @@ De forma predeterminada, no hay ningún modelo en ejecución en el servidor de A
       >No hay un número definido de líneas de asunto necesarias para entrenar su propio modelo. Para poder capacitarlo, las líneas de asunto deben ser variadas y no tener duplicados. Si no hay suficientes datos para procesar, el sistema no podrá entrenar al modelo. Sólo puede tener un modelo entrenado en su instancia.
    Para formar un modelo local, descargue subjectLineTraining.xml desde [aquí](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) y utilice la función de importación [de](../../automating/using/managing-packages.md) paquetes para cargarlo en la instancia de Adobe Campaign. Un flujo de trabajo técnico hará automáticamente la formación.
 
-   La primera vez que desee formar un modelo, un administrador puede forzar el **[!UICONTROL SubjectLine Training workflow]**inicio desde el menú**[!UICONTROL Administration]** > **[!UICONTROL Application settings]**>**[!UICONTROL Workflows]** .
+   La primera vez que desee formar un modelo, un administrador puede forzar el **[!UICONTROL SubjectLine Training workflow]** inicio desde el menú **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Workflows]** .
 
    Una vez cargado y entrenado un modelo, la función se activa automáticamente y aparece una nueva opción junto al campo de línea de asunto de los mensajes.
 
    A continuación, el flujo de trabajo técnico seguirá formando automáticamente a su modelo cada semana.
 
-* Puede importar modelos preformados específicos de determinadas industrias (médicas, etc.) mediante la función de importación [de](../../automating/using/managing-packages.md) paquetes. Estos modelos están disponibles [aquí](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) y no se pueden capacitar.
+* Puede importar modelos preformados específicos de determinadas industrias (médicas, etc.) mediante la función de importación [de](../../automating/using/managing-packages.md) paquetes. Para acceder a estos modelos, haga clic [aquí](https://support.neolane.net/webApp/extranetLogin) y vaya al Centro de **[descarga]**. Estos modelos no se pueden formar.
 
    Una vez cargado un modelo, la función se activa automáticamente y aparece una nueva opción junto al campo de línea de asunto de los mensajes.
 
