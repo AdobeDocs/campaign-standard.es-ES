@@ -12,57 +12,66 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5c1a540475b7d93c18c957243ee2a403b8154aa3
+source-git-commit: 9efce905cd767013a22afb2a4d642e42b6616ef1
 
 ---
 
 
-# Creación de contenido de correo electrónico en Adobe Experience Manager {#creating-email-aem}
+# Importación de contenido de Adobe Experience Manager en un correo electrónico de Adobe Campaign {#creating-email-aem}
 
-Esta integración entre Adobe Campaign Standard y Adobe Experience Manager le permite utilizar contenido creado en Adobe Experience Manager en los correos electrónicos de Adobe Campaign.
+Con este documento, aprenderá a crear y administrar el contenido del correo electrónico en Adobe Experience Manager y, a continuación, a usarlo para sus campañas de marketing importándolo en sus correos electrónicos a Adobe Campaign Standard.
 
-Este caso de uso le mostrará cómo crear contenido de correo electrónico en Adobe Experience Manager.
+Los requisitos previos son:
 
-## Requisitos previos {#prerequisites}
+* Acceso a una instancia de AEM configurada para la integración.
+* Acceso a una instancia de Adobe Campaign configurada para la integración.
+* Plantilla de correo electrónico de Adobe Campaign configurada para recibir contenido de AEM.
 
-Asegúrese de que tiene los siguientes elementos de antemano:
+## Acceso a correos electrónicos en Adobe Experience Manager {#email-content-aem}
 
-* Una instancia **creación** de Adobe Experience Manager
-* Una instancia **publicación** de Adobe Experience Manager
-* Una instancia de Adobe Campaign
+Inicie sesión en la instancia de creación de Adobe Experience Manager y navegue por el sitio para acceder a la carpeta que contiene el contenido del correo electrónico.
 
-## Configuración {#configuration}
+>[!VIDEO](https://video.tv.adobe.com/v/29996)
 
-Para utilizar estas dos soluciones juntas, debe configurarlas para que se conecten entre sí.
+## Creating new email content in Adobe Experience Manager {#creating-email-content-aem}
 
-1. Configuración de Adobe Campaign. Para ello:
+Hay disponibles varias plantillas específicas de Adobe Campaign. Debe utilizar una de estas plantillas, ya que contienen componentes predefinidos admitidos por Adobe Campaign.
 
-   * Configure una cuenta externa de tipo Adobe Experience Manager.
-   * Configure la **[!UICONTROL AEMResourceTypeFilter]**opción, que reconoce los tipos de contenido creados en Adobe Experience Manager para Adobe Campaign.
-   * Cree una plantilla de correo electrónico que especifique que es contenido de Adobe Experience Manager y vincule la cuenta externa creada anteriormente a esta plantilla.
+De forma predeterminada, dos plantillas predefinidas le permiten crear contenido de correo electrónico para Adobe Campaign.
 
-1. Configure Adobe Experience Manager. Para ello:
+* **[!UICONTROL Adobe Campaign Email]**:: esta plantilla contiene un contenido estándar que puede personalizar. Puede elegir entre Correo electrónico de Adobe Campaign (AC6.1) y Correo electrónico de Adobe Campaign (ACS).
+* **[!UICONTROL Importer Page]**:: esta plantilla le permite importar un archivo ZIP que contenga un archivo HTML con contenido que podrá personalizar.
 
-   * Configure la replicación entre las instancias de creación y publicación de Adobe Experience Manager.
-   * Para conectar Adobe Experience Manager a Adobe Campaign, configure un **[!UICONTROL Cloud Service]**específico.
+1. En Adobe Experience Manager, cree un nuevo **[!UICONTROL Page]**.
 
-## Creación de contenido de correo electrónico en Adobe Experience Manager {#use-case}
+1. Seleccione la **[!UICONTROL Adobe Campaign Email]** plantilla. Consulte el siguiente vídeo para ver los pasos detallados.
+   >[!VIDEO](https://video.tv.adobe.com/v/29997)
+
+1. Abra el nuevo contenido del correo electrónico.
+
+1. En el **[!UICONTROL Page properties]**, establezca **[!UICONTROL Adobe Campaign]** como **[!UICONTROL Cloud Service Configuration]**. Esto permite la comunicación entre el contenido y la instancia de Adobe Campaign.
+
+   Para obtener más información, vea el siguiente vídeo:
+
+   >[!VIDEO](https://video.tv.adobe.com/v/29999)
+
+## Edición y envío de un correo electrónico {#editing-email-aem}
+
+Puede editar el contenido del correo electrónico agregando componentes y recursos. Los campos de personalización se pueden utilizar para enviar un mensaje más relevante en función de los datos de los destinatarios en Adobe Campaign.
 
 Para crear contenido de correo electrónico en Adobe Experience Manager:
 
-1. Cree contenido de correo electrónico con una plantilla creada específicamente para Adobe Campaign.
-1. En las propiedades de contenido, seleccione la **[!UICONTROL Cloud Service]**correspondiente a la instancia de Adobe Campaign.
-1. Edite el contenido insertando texto, imágenes, personalización, etc.
-1. Valide el contenido.
+1. Edite el asunto y la **[!UICONTROL Plain text]** versión del correo electrónico accediendo a la ficha **[!UICONTROL Page properties]** > **[!UICONTROL Email]** de la barra de tareas.
 
-Para obtener más información, consulte la [documentación detallada](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/aem-adobe-campaign/campaign.html).
+1. Agregue **[!UICONTROL Personalization fields]** a través del **[!UICONTROL Text & Personalization]** componente. Cada componente corresponde a un uso específico: insertar imágenes, agregar personalización, etc.
 
-![](assets/aem_content.png)
+   Para obtener más información, vea el siguiente vídeo:
+   >[!VIDEO](https://video.tv.adobe.com/v/29998)
 
-Para recuperar el contenido en Adobe Campaign:
+1. En la **[!UICONTROL Workflow]** ficha, seleccione el flujo de trabajo de **[!UICONTROL Approve for Adobe Campaign]** validación. No podrá enviar un correo electrónico en Adobe Campaign si utiliza contenido que no se ha aprobado.
 
-1. Cree un correo electrónico basado en una plantilla de contenido de tipo Adobe Experience Manager.
-1. Vincule un contenido creado con Adobe Experience Manager mediante la pantalla de definición de contenido de correo electrónico de Adobe Campaign.
+1. Una vez definidos el contenido y los parámetros de envío, puede proceder a la aprobación, preparación y envío del correo electrónico en Adobe Campaign Standard.
 
-![](assets/aem_linked_content.png)
+   Para obtener más información, vea el siguiente vídeo:
 
+   >[!VIDEO](https://video.tv.adobe.com/v/23721)
