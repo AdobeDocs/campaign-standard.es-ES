@@ -21,6 +21,10 @@ source-git-commit: 14f764b92fef81c06551fb0f13b11b41e94095f0
 
 [Planificación](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) de versiones| [Versiones](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) del Panel de control| Actualizaciones [de documentación](../../rn/using/documentation-updates.md) | Notas de revisión [anteriores](../../rn/using/release-notes-2019.md) | Características [obsoletas](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
+## Versión 20.1.4: febrero de 2020 {#release-20-1-4---february-2020}
+
+* Se ha corregido un problema que se producía al abrir una actividad **Leer audiencia** en flujos de trabajo existentes. (CAMP-41002)
+
 ## Versión 20.1.3: febrero de 2020 {#release-20-1-3---february-2020}
 
 * Se ha corregido un problema de regresión introducido en 20.1 por CAMP-39273 para los clientes que utilizan la laguna. Se revirtió el CAMP-39273.
