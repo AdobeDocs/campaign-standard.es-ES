@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 1eef92e12050a9d08f897cf737a967532cd85ff9
+source-git-commit: 941ecc3acf1478dfea25f0e85059a3421888ae29
 
 ---
 
@@ -94,6 +94,7 @@ source-git-commit: 1eef92e12050a9d08f897cf737a967532cd85ff9
       + [Preparación y envío de una notificación push](channels/using/preparing-and-sending-a-push-notification.md)
       + [Personalización de una notificación push](channels/using/customizing-a-push-notification.md)
       + [Creación de una notificación push multilingüe](channels/using/creating-a-multilingual-push-notification.md)
+      + [Generación de un archivo CSV para notificaciones push multilingües](channels/using/generating-csv-multilingual-push.md)
       + [Creación y actualización de información de perfil basada en datos de aplicaciones móviles](channels/using/updating-profile-with-mobile-app-data.md)
    + Mensajería en la aplicación {#in-app-messaging}
       + [Acerca de la mensajería en la aplicación](channels/using/about-in-app-messaging.md)
@@ -199,6 +200,7 @@ source-git-commit: 1eef92e12050a9d08f897cf737a967532cd85ff9
    + [Acerca de las integraciones de Campaign](integrating/using/about-campaign-integrations.md)
    + Uso de Campaign y Experience Manager {#working-with-campaign-and-experience-manager}
       + [Acerca de la integración de Experience Manager en Campaign](integrating/using/integrating-with-experience-manager.md)
+      + [Configuración de la integración de Campaign-Experience Manager](integrating/using/configure-experience-manager.md)
       + [Creación de contenido de correo electrónico en Adobe Experience Manager](integrating/using/creating-email-experience-manager.md)
       + [Creación de un formulario de Campaign en Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
    + Uso de Campaign y Target {#working-with-campaign-and-target}
@@ -214,7 +216,7 @@ source-git-commit: 1eef92e12050a9d08f897cf737a967532cd85ff9
       + [Aprovisionamiento y configuración de la integración con Audience Manager o el servicio principal People](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
       + [Resolución de problemas](integrating/using/troubleshooting.md)
       + [Uso compartido de audiencias con Audience Manager o el servicio principal People](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
-   + [Uso de Campaign y del servicio principal Assets](integrating/using/working-with-campaign-and-assets-core-service.md)
+      + [Uso de Campaign y del servicio principal Assets](integrating/using/working-with-campaign-and-assets-core-service.md)
    + Uso de Campaign y Analytics para dispositivos móviles {#working-with-campaign-and-analytics-for-mobile}
       + [Acerca de la integración de Campaign con datos de Puntos de interés](integrating/using/about-campaign-points-of-interest-data-integration.md)
       + [Configuración de la integración de Campaign con datos de Puntos de interés](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
@@ -304,6 +306,7 @@ source-git-commit: 1eef92e12050a9d08f897cf737a967532cd85ff9
       + [Conceptos del modelo de datos](developing/using/data-model-concepts.md)
       + [Estados de recursos](developing/using/resource-statuses.md)
       + [Control de cambios en el modelo de datos](developing/using/monitoring-data-model-changes.md)
+      + [Prácticas recomendadas del modelo de datos](developing/using/data-model-best-practices.md)
    + Adición o ampliación de un recurso {#adding-or-extending-a-resource}
       + [Pasos clave para agregar un recurso](developing/using/key-steps-to-add-a-resource.md)
       + [Creación o ampliación del recurso](developing/using/creating-or-extending-the-resource.md)
