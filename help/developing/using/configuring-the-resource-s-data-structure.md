@@ -1,19 +1,19 @@
 ---
 title: Configuración de la estructura de datos del recurso
 description: Obtenga información sobre cómo configurar la estructura de datos.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 60fe80c0-9df6-4808-a432-60a1977216ea
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: desarrollo
-content-type: referencia
-topic-tags: agregar o ampliar un recurso
+audience: developing
+content-type: reference
+topic-tags: adding-or-extending-a-resource
 discoiquuid: 4f22ee35-1d5f-4c75-95b4-3e38b85de26e
 context-tags: cusResource,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: bd83bb520a9822ffa9669076f90e6dc3397c6480
 
 ---
 
@@ -41,8 +41,7 @@ Puede agregar nuevos campos a un recurso para almacenar datos que no forman part
 
    >[!NOTE]
    >
-   >Si deja el **[!UICONTROL Label]** campo vacío, se completará automáticamente a partir del ID.
-   >Se recomienda utilizar un máximo de 30 caracteres.
+   >Utilice un máximo de 30 caracteres.
 
    ![](assets/schema_extension_4.png)
 
@@ -63,10 +62,14 @@ Puede agregar nuevos campos a un recurso para almacenar datos que no forman part
 
    Estos campos aparecen en los datos y metadatos que se pueden mostrar una vez que se ha realizado la actualización de la base de datos. Para obtener más información sobre esto, consulte la sección [Actualización de la estructura](../../developing/using/updating-the-database-structure.md) de la base de datos.
 
-1. Marque el **[!UICONTROL Add automatic ID]** campo para generar automáticamente un ID. Tenga en cuenta que las entidades existentes permanecerán vacías.
-1. Para modificar la forma en que el nombre de los elementos de recursos aparecerá en las listas y en los pasos de creación, marque la **[!UICONTROL Personalize the resource title]** casilla. Seleccione un campo entre los que ha creado para este recurso.
+1. Marque el **[!UICONTROL Add automatic ID]** campo para generar automáticamente un ID. Tenga en cuenta que las entidades existentes permanecerán vacías. Para obtener más información sobre esto, consulte [Generación de un ID único para perfiles y recursos](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)personalizados.
+1. Para modificar la forma en que el nombre de los elementos de recursos aparecerá en las listas y en los pasos de creación, marque la **[!UICONTROL Customize the title of the resource elements]** casilla. Seleccione un campo entre los que ha creado para este recurso.
 
    ![](assets/schema_extension_18.png)
+
+   >[!NOTE]
+   >
+   >Si no activa esta opción, se utilizará la clave principal automática (que se crea automáticamente cada vez que se agrega una entidad a la tabla) cuando se enumeren todas las entidades de esta tabla.
 
 Los campos del recurso ahora están definidos.
 
@@ -84,7 +87,7 @@ Cada recurso debe tener al menos una clave única. Por ejemplo, puede especifica
 
    >[!NOTE]
    >
-   >Se recomienda utilizar un máximo de 30 caracteres.
+   >Utilice un máximo de 30 caracteres.
 
 1. Para definir los elementos que componen esta clave, haga clic en **[!UICONTROL Create element]** y seleccione los campos que ha creado para este recurso.
 
@@ -93,6 +96,10 @@ Cada recurso debe tener al menos una clave única. Por ejemplo, puede especifica
    Las claves creadas se muestran en la **[!UICONTROL Custom keys]** sección .
 
 Se han creado las claves de identificación del recurso.
+
+>[!NOTE]
+>
+>Para conocer las prácticas recomendadas al crear claves de identificación, consulte esta [sección](../../developing/using/data-model-best-practices.md#keys).
 
 ## Definición de índices {#defining-indexes}
 
@@ -108,26 +115,30 @@ Se recomienda definir índices, pero no es obligatorio.
 
    >[!NOTE]
    >
-   >Se recomienda utilizar un máximo de 30 caracteres.
+   >Utilice un máximo de 30 caracteres.
 
 1. Para definir los elementos que componen este índice, seleccione los campos de los que ha creado para este recurso.
 
    ![](assets/schema_extension_27.png)
 
-1. Click **[!UICONTROL Confirm]**.
+1. Haga clic **[!UICONTROL Confirm]**.
 
 Los índices que se crearon aparecen en la lista de la **[!UICONTROL Index]** sección.
+
+>[!NOTE]
+>
+>Para conocer las prácticas recomendadas al crear índices, consulte esta [sección](../../developing/using/data-model-best-practices.md#indexes).
 
 ## Definición de vínculos con otros recursos {#defining-links-with-other-resources}
 
 Un vínculo detalla la asociación que una tabla tiene con otras tablas.
 
 1. Utilice el **[!UICONTROL Create element]** botón para crear un vínculo a un recurso de destino.
-1. Click **[!UICONTROL Select a target resource]**.
+1. Haga clic **[!UICONTROL Select a target resource]**.
 
    ![](assets/schema_extension_28.png)
 
-1. Los recursos se muestran en orden alfabético y se pueden filtrar por nombre. Su nombre técnico aparece entre paréntesis.
+1. Los recursos se muestran en orden alfabético y se pueden filtrar por nombre. Su nombre técnico se muestra entre corchetes.
 
    Seleccione un elemento de la lista y haga clic en **[!UICONTROL Confirm]**.
 
@@ -146,7 +157,7 @@ Un vínculo detalla la asociación que una tabla tiene con otras tablas.
 
    >[!NOTE]
    >
-   >Se recomienda utilizar un máximo de 30 caracteres.
+   >Utilice un máximo de 30 caracteres.
 
    >[!CAUTION]
    >
@@ -168,7 +179,11 @@ Un vínculo detalla la asociación que una tabla tiene con otras tablas.
 
 Los vínculos creados se muestran en la lista de la **[!UICONTROL Links]** sección.
 
-**Ejemplo: Vincular un recurso creado con el recurso 'Perfiles'**
+>[!NOTE]
+>
+>Para conocer las prácticas recomendadas al crear índices, consulte esta [sección](../../developing/using/data-model-best-practices.md#links).
+
+**Ejemplo: Vincular un recurso creado con el recurso &#39;Perfiles&#39;**
 
 En este ejemplo, queremos vincular una nueva **compra** de recursos con el recurso personalizado **Perfiles** :
 
@@ -187,10 +202,10 @@ En este ejemplo, queremos vincular una nueva **compra** de recursos con el recur
 
    Despliegue la **[!UICONTROL Detail screen configuration]** sección y marque la casilla de verificación **[!UICONTROL Define a detail screen]** para configurar la pantalla que corresponde a cada elemento del recurso. Si no marca esta casilla, no se podrá acceder a la vista de detalles de los elementos de este recurso.
 
-1. Click **[!UICONTROL Create element]**.
+1. Haga clic **[!UICONTROL Create element]**.
 1. Seleccione el recurso vinculado y haga clic en **[!UICONTROL Add]**.
 
-   El nuevo recurso estará disponible en el menú avanzado seleccionando **[!UICONTROL Client data]** &gt; **[!UICONTROL Purchase]**.
+   El nuevo recurso estará disponible en el menú avanzado seleccionando **[!UICONTROL Client data]** > **[!UICONTROL Purchase]**.
 
    ![](assets/custom_resource_link_to_profile_4.png)
 
@@ -198,15 +213,15 @@ En este ejemplo, queremos vincular una nueva **compra** de recursos con el recur
 
    Ahora puede publicar su nuevo recurso.
 
-Al agregar este vínculo, se agrega una ficha **Compra** a la pantalla de detalles del perfil en el menú **[!UICONTROL Profiles & audiences]** &gt; **[!UICONTROL Profiles]** . Tenga en cuenta que esto es específico del **[!UICONTROL Profile]** recurso.
+Al agregar este vínculo, se agrega una ficha **Compra** a la pantalla de detalles del perfil en el menú **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Profiles]** . Tenga en cuenta que esto es específico del **[!UICONTROL Profile]** recurso.
 
 ![](assets/custom_resource_link_to_profile.png)
 
 ## Definición de la extensión de registros de envío {#defining-sending-logs-extension}
 
-La extensión de registro de envío permite:
+La extensión de registro de envío le permite:
 
-* ampliar las capacidades de los informes dinámicos **agregando campos personalizados de perfil**
+* para ampliar las capacidades de los informes dinámicos **agregando campos personalizados de perfil**
 * para ampliar los datos de registro de envío con el código de **segmento y los datos de perfil**
 
 **Ampliar con un código de segmento**
@@ -257,7 +272,7 @@ En la pantalla de recursos personalizados, el **[!UICONTROL Summary]** panel ind
 
    >[!NOTE]
    >
-   >Se recomienda utilizar un máximo de 30 caracteres.
+   >Utilice un máximo de 30 caracteres.
 
 1. Si necesita restringir el acceso a este recurso a ciertas unidades organizativas, especifíquelas aquí. Solo los usuarios de unidades autorizadas podrán trabajar con este recurso en la aplicación.
 1. Guarde las modificaciones.
@@ -275,7 +290,14 @@ Solo se puede habilitar para perfiles y recursos personalizados.
 
 1. Cree una extensión al recurso de perfiles o cree un nuevo recurso.
 1. En la definición de la estructura de datos, marque la **[!UICONTROL Add automatic ID field]** opción, en la **[!UICONTROL Fields]** sección .
-1. Guarde y publique la modificación realizada en el recurso. Si desea que este mecanismo se aplique a elementos creados mediante la API, marque la opción para ampliar la API.
+
+   ![](assets/option_id_field.png)
+
+   >[!NOTE]
+   >
+   >Sólo los registros nuevos tendrán un ID de ACS. El campo **[!UICONTROL ACS ID]** permanecerá vacío para perfiles o elementos creados antes de activar esta opción.
+
+1. Guarde y publique la modificación realizada en el recurso. Si desea que este mecanismo se aplique a los elementos creados mediante la API, marque la opción para ampliar la API.
 
 El **[!UICONTROL ACS ID]** campo ahora está disponible y se rellena automáticamente cuando se crean nuevos elementos manualmente, desde la API o se insertan desde un flujo de trabajo de importación. El campo ACS ID es un campo UUID y está indizado.
 
@@ -287,5 +309,6 @@ Al volver a importar datos que se han procesado o actualizado en otra aplicació
 
 >[!NOTE]
 >
->El **[!UICONTROL ACS ID]** campo no se actualiza para perfiles o elementos creados antes de activar la opción. Sólo los registros nuevos tendrán un ID de ACS. Este campo está en modo de solo lectura. No se puede modificar.
-
+>El **[!UICONTROL ACS ID]** campo no se actualiza para perfiles o elementos creados antes de activar la opción. Sólo los registros nuevos tendrán un ID de ACS.
+>
+>Este campo está en modo de solo lectura. No se puede modificar.
