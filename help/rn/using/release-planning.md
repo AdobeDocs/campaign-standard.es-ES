@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 184a878f7be573a6b45a3a2853c07029432392f0
+source-git-commit: 8e614bb3e3e559a02ee5e94d9dc21e85d1b4dbd2
 
 ---
 
@@ -29,7 +29,7 @@ Todas las fechas de lanzamiento están sujetas a cambios: le recomendamos que vi
 
 Suscríbase para [recibir notificaciones](https://www.adobe.com/subscription/priority-product-update.html) de la versión y obtener detalles sobre las últimas versiones de Adobe Experience Cloud directamente en su bandeja de entrada.
 
-## Versión 20.1.4: actualización de la versión de febrero {#release-20-1-4---february-release-update}
+## Versión 20.2.1: versión de abril {#release-20-2-april-release}
 
 Las actualizaciones del entorno se producen en oleadas, durante los intervalos de tiempo indicados a continuación. Encontrará información detallada sobre esta versión en las [Notas](../../rn/using/release-notes.md)de la versión. Si tiene alguna duda, póngase en contacto con [Adobe Client Care](https://support.neolane.net/webApp/extranetLogin).
 
@@ -43,11 +43,11 @@ Las actualizaciones del entorno se producen en oleadas, durante los intervalos d
  <tbody> 
   <tr> 
    <td> Fase<br /> </td> 
-   <td> 17 a 18 de febrero de 2020<br /> </td> 
+   <td> 23 - 24 de marzo de 2020<br /> </td> 
   </tr> 
   <tr> 
    <td> Producción<br /> </td> 
-   <td> 20 de febrero a 5 de marzo de 2020<br /> </td> 
+   <td> 31 de marzo a 6 de abril de 2020<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,15 +66,15 @@ A: A medida que se actualiza la instancia de ensayo, Adobe recomienda validar lo
 
 **P: ¿Habrá acceso a la instancia durante el proceso de actualización?**
 
-A:No. Durante la actualización de la instancia, es posible que la base de datos no esté accesible durante unos minutos. Todos los procesos se reinician automáticamente.
+A: No. Durante la actualización de la instancia, es posible que la base de datos no esté accesible durante unos minutos. Todos los procesos se reinician automáticamente.
 
 **P: ¿Seguirán enviándose los mensajes?**
 
-A:No. Los mensajes no se enviarán durante unos minutos. Tan pronto como se complete la actualización, los procesos se reinician automáticamente.
+A: No. Los mensajes no se enviarán durante unos minutos. Tan pronto como se complete la actualización, los procesos se reinician automáticamente.
 
 **P: ¿Los flujos de trabajo seguirán ejecutándose y enviarán los envíos?**
 
-A:No. Durante la actualización de la compilación, tanto el servidor de flujo de trabajo como MTA se detienen. Esto significa que los flujos de trabajo no se ejecutarán y los envíos no se enviarán durante unos minutos. No se requiere ninguna acción: los flujos de trabajo se iniciarán de nuevo en cuanto se actualice la instancia.
+A: No. Durante la actualización de la compilación, tanto el servidor de flujo de trabajo como MTA se detienen. Esto significa que los flujos de trabajo no se ejecutarán y los envíos no se enviarán durante unos minutos. No se requiere ninguna acción: los flujos de trabajo se iniciarán de nuevo en cuanto se actualice la instancia.
 
 **P: ¿Seguirá funcionando el seguimiento de vínculos en los mensajes durante la actualización?**
 
