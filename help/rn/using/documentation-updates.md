@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 09a41719e7c857c87607a29a08bc819752d88fd2
+source-git-commit: f49668c8ad878764b2a15c53efdcab797dd91724
 
 ---
 
@@ -27,6 +27,10 @@ También puede consultar las Notas de la [versión](../../rn/using/release-notes
 
 ## Actualizaciones de la documentación - Marzo de 2020 {#doc-updates-march-2020}
 
+Se ha añadido información más detallada sobre el MTA mejorado a la documentación principal, en particular sobre las reglas de procesamiento de correo electrónico y la calificación de correo de devolución [Leer más](../../administration/using/configuring-email-channel.md#email-processing-rules)
+
+Se ha movido y actualizado la sección dedicada al archivado con Email BCC. [Más información](../../sending/using/archiving.md)
+
 La documentación de Configuración de una aplicación móvil y las páginas relacionadas se han actualizado para reflejar la depreciación del SDK V4. [Más información](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq)
 
 Se ha actualizado y mejorado la documentación de integración de Adobe Campaign Standard/Adobe Experience Manager. [Más información](../../integrating/using/configure-experience-manager.md)
@@ -36,6 +40,8 @@ La documentación de Campaign Email Designer y las páginas relacionadas se han 
 Ya está disponible una nueva sección dedicada a las optimizaciones del modelo de datos de Campaign Standard. [Más información](../../developing/using/data-model-best-practices.md)
 
 Se ha añadido información sobre la derecha **[!UICONTROL Workflow]** lista para usar. [Más información](../../administration/using/list-of-roles.md)
+
+Se ha añadido información sobre las **[!UICONTROL History in days field]** propiedades disponibles en los flujos de trabajo. [Más información](../../automating/using/executing-a-workflow.md)
 
 ## Versión 20.1: febrero de 2019 {#release-20-1---february-2020}
 
@@ -331,13 +337,13 @@ Actualización de los vínculos de ayuda contextuales disponibles directamente d
 
 Se agregó una nota sobre la adición de una marca de hora en el nombre del archivo que contiene los rechazos. [Más información](../../automating/using/load-file.md#configuration)
 
-Se agregó información al importar campos formados por columnas de longitud fija. [Más información](../../automating/using/load-file.md#configuration)
+Se agregó información al importar campos compuestos por columnas de longitud fija. [Más información](../../automating/using/load-file.md#configuration)
 
 Se ha añadido información sobre la opción que permite mantener los rechazados en un archivo. Esta opción ahora le permite aplicar una etapa posterior al procesamiento al archivo que contiene los rechazos. [Más información](../../automating/using/load-file.md#configuration)
 
 Se ha añadido una nueva sección sobre cómo duplicar actividades de flujo de trabajo mediante operaciones de copiar y pegar. [Más información](../../automating/using/workflow-interface.md#duplicating-workflow-activities)
 
-Se ha añadido información sobre la nueva opción en las actividades Consulta ( [Leer más](../../automating/using/query.md)) y Segmentación ( [Leer más](../../automating/using/segmentation.md)), que permite agregar una transición de salida después de la actividad si no recupera ningún dato.
+Se ha añadido información sobre la nueva opción en las actividades Consulta ( [Más](../../automating/using/query.md)información) y Segmentación ( [Más](../../automating/using/segmentation.md)información), que permite agregar una transición de salida después de la actividad si no recupera ningún dato.
 
 Se ha añadido información en la sección Actualizar actividad de datos del nuevo campo Tamaño de lote que permite definir el tamaño máximo de lote de los datos que se van a cargar. [Más información](../../automating/using/update-data.md#configuration)
 
@@ -655,7 +661,7 @@ La documentación de los mensajes de seguimiento se ha actualizado con un caso d
 
 Documentación agregada en el ID de ACS. [Más información](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)
 
-Nuevas funciones de cifrado y hash agregadas con ejemplos. [Más información](../../automating/using/list-of-functions.md)
+Se han añadido nuevas funciones de cifrado y hash con ejemplos. [Más información](../../automating/using/list-of-functions.md)
 
 Se ha actualizado la sección sobre la actividad del flujo de trabajo de archivos de transferencia. [Más información](../../automating/using/transfer-file.md)
 
