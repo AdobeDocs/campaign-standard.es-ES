@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e8302a8d3ba914781bd332bc318b65d88afc6d94
+source-git-commit: b71d19672efe24040d676bbcff3f90177b3fbcae
 
 ---
 
@@ -209,9 +209,9 @@ Las opciones posibles son:
 
 * **[!UICONTROL Save SQL queries in the log]**:: permite guardar las consultas SQL del flujo de trabajo en los registros.
 
-* ***[!UICONTROL Keep interim results]**: marque esta opción si desea ver el detalle de las transiciones. Advertencia: esta opción puede ralentizar considerablemente la ejecución del flujo de trabajo.
+* **[!UICONTROL Keep interim results]**:: marque esta opción si desea ver el detalle de las transiciones. Advertencia: esta opción puede ralentizar considerablemente la ejecución del flujo de trabajo.
 
-* **[!UICONTROL Execute in the engine (do not use in production)]**:: le permite ejecutar el flujo de trabajo de forma local, con fines de prueba del entorno de desarrollo.
+* **[!UICONTROL Execute in the engine (do not use in production)]**:: le permite ejecutar el flujo de trabajo de forma local, para fines de prueba de entorno de desarrollo.
 
 * **[!UICONTROL Severity]**:: permite especificar un nivel de prioridad para ejecutar flujos de trabajo en la instancia de Adobe Campaign. Los flujos de trabajo críticos se ejecutarán primero.
 
