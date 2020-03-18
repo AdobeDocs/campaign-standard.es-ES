@@ -13,7 +13,7 @@ context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 41ba6fa44807541dd749f4effca44ae2b4d147ae
+source-git-commit: e04b70012188b455382406df167328f963d577da
 
 ---
 
@@ -56,13 +56,14 @@ La creación de una actividad de marketing se detalla en la sección [Creación 
 
 1. Confirme la creación de la actividad y se mostrará el tablero de dicha actividad. For more on this, refer to the [Workflow interface](../../automating/using/workflow-interface.md) section.
 
-1. Una vez que el flujo de trabajo esté listo para configurarse, puede acceder a opciones adicionales haciendo clic en el **[!UICONTROL Edit properties]**botón. Por ejemplo, puede definir un huso horario específico para utilizarlo de forma predeterminada en todas las actividades del flujo de trabajo. De forma predeterminada, la zona horaria del flujo de trabajo es la definida para el operador de campaña actual.
+1. Una vez que el flujo de trabajo esté listo para configurarse, puede acceder a opciones adicionales haciendo clic en el **[!UICONTROL Edit properties]** botón. Por ejemplo, puede definir un huso horario específico para utilizarlo de forma predeterminada en todas las actividades del flujo de trabajo. De forma predeterminada, la zona horaria del flujo de trabajo es la definida para el operador de campaña actual.
 
    ![](assets/workflow_properties.png)
 
 **Tema relacionado:**
 
-[Creación de un vídeo de flujo de trabajo](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/building-a-workflow.html)
+* [Creación de un vídeo de flujo de trabajo](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/building-a-workflow.html)
+* [Propiedades del flujo de trabajo](../../automating/using/executing-a-workflow.md#workflow-properties)
 
 ## Adición y vinculación de actividades {#adding-and-linking-activities}
 
@@ -74,16 +75,16 @@ A continuación debe definir las distintas actividades y vincularlas todas en el
 
 Las actividades se agrupan por categorías dentro de las diferentes secciones de la paleta.
 
-* La primera sección contiene actividades de segmentación.
-* La segunda sección contiene las actividades de ejecución, que se utilizan principalmente para coordinar otras actividades.
-* La tercera sección contiene actividades que se pueden utilizar para enviar mensajes por distintos canales. Las actividades de esta sección pueden variar en función de los canales habilitados en la instancia.
-* La cuarta sección contiene actividades de administración de datos y manipulación de archivos.
+* La primera sección contiene actividades [de segmentación](../../automating/using/about-targeting-activities.md)
+* The second section contains the [execution activities](../../automating/using/about-execution-activities.md), which are mainly used for coordinating other activities.
+* La tercera sección contiene actividades que se pueden utilizar para enviar mensajes en diferentes [canales](../../automating/using/about-channel-activities.md). Las actividades de esta sección pueden variar en función de los canales habilitados en la instancia.
+* La cuarta sección contiene actividades [de administración de datos y manipulación de](../../automating/using/about-data-management-activities.md)archivos.
 
 Creación del diagrama:
 
 1. Para agregar una actividad, arrástrela desde la paleta y colóquela en el diagrama.
 
-   Por ejemplo, agregue una actividad de **inicio** y, a continuación, una actividad de envío por **correo electrónico** en el diagrama.
+   Por ejemplo, agregue una actividad de **[inicio](../../automating/using/start-and-end.md)**y, a continuación, una actividad de envío por**[ correo electrónico](../../automating/using/email-delivery.md)** en el diagrama.
 
 1. Link the activities together by dragging the **Start** activity transition and dropping it on to the **Email delivery** activity.
 
@@ -99,7 +100,7 @@ Creación del diagrama:
 
 Una vez que las actividades de flujo de trabajo estén vinculadas, puede personalizar las transiciones entre ellas con la **etiqueta** que desee. Para ello, haga doble clic en la transición para acceder a sus propiedades.
 
-Además, **[!UICONTROL Targeting]**y**[!UICONTROL Data management (ETL)]** las actividades le permiten definir códigos **de** segmentos para sus transiciones de salida. A continuación, puede crear informes basados en estos códigos de segmento para medir la eficacia de las campañas de marketing. Para obtener más información, consulte [esta sección](../../reporting/using/creating-a-report-workflow-segment.md).
+Además, **[!UICONTROL Targeting]** y **[!UICONTROL Data management (ETL)]** las actividades le permiten definir códigos **de** segmentos para sus transiciones de salida. A continuación, puede crear informes basados en estos códigos de segmento para medir la eficacia de las campañas de marketing. Para obtener más información, consulte [esta sección](../../reporting/using/creating-a-report-workflow-segment.md).
 
 **Casos de uso del flujo de trabajo:**
 
