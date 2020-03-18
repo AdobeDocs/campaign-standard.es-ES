@@ -1,18 +1,18 @@
 ---
 title: Compresión de la gestión de la cuarentena
 description: Aprenda a optimizar la capacidad de entrega con la administración de cuarentena.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 3c287865-1ada-4351-b205-51807ff9f7ed
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: enviar
-content-type: referencia
-topic-tags: monitoreo-mensajes
+audience: sending
+content-type: reference
+topic-tags: monitoring-messages
 discoiquuid: de3a50b6-ea8f-4521-996b-c49cc1f3c946
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: f7e361d10d039718c421a3684c518347af2be951
 
 ---
 
@@ -73,7 +73,7 @@ Los administradores pueden enumerar las direcciones en cuarentena de toda la pla
 
 >[!NOTE]
 >
->El aumento del número de cuarentenas es un efecto normal, relacionado con el "desgaste" de la base de datos. Por ejemplo, si se considera que la duración de una dirección de correo electrónico es de tres años y la tabla del destinatario aumenta un 50 % cada año, el aumento de cuarentena se puede calcular de la siguiente manera: Fin de año 1: (1*0.33)/(1+0.5)=22%. Fin de año 2: ((1.22*0.33)+0.33)/(1.5+0.75)=32,5%.
+>El aumento del número de cuarentenas es un efecto normal, relacionado con el &quot;desgaste&quot; de la base de datos. Por ejemplo, si se considera que la duración de una dirección de correo electrónico es de tres años y la tabla del destinatario aumenta un 50 % cada año, el aumento de cuarentena se puede calcular de la siguiente manera: Fin de año 1: (1*0.33)/(1+0.5)=22%. Fin de año 2: ((1.22*0.33)+0.33)/(1.5+0.75)=32,5%.
 
 ## Condiciones para enviar una dirección a cuarentena {#conditions-for-sending-an-address-to-quarantine}
 
@@ -81,11 +81,11 @@ Adobe Campaign administra la cuarentena según el tipo de error de entrega y el 
 
 * **Error ignorado**: los errores ignorados no envían una dirección a la cuarentena.
 * **Error grave:** la dirección de correo electrónico correspondiente se envía inmediatamente a la cuarentena.
-* **Error leve**: los errores leves no envían inmediatamente una dirección a la cuarentena, sino que se suman a un contador de errores. Cuando el contador de errores alcanza el umbral de límite, la dirección se pone en cuarentena. En la configuración predeterminada, el umbral se establece en cinco errores, de los cuales dos errores son importantes si se producen al menos con una diferencia de 24 horas. La dirección se envía a cuarentena en el sexto error. El umbral del contador de errores puede modificarse. Para obtener más información, consulte [esta página](../../administration/using/configuring-email-channel.md#email-channel-parameters).
+* **Error leve**: los errores leves no envían inmediatamente una dirección a la cuarentena, sino que se suman a un contador de errores. Cuando el contador de errores alcanza el umbral de límite, la dirección se pone en cuarentena. En la configuración predeterminada, el umbral se establece en cinco errores, de los cuales dos errores son importantes si se producen al menos con una diferencia de 24 horas. La dirección se coloca en cuarentena en el quinto error. El umbral del contador de errores puede modificarse. Para obtener más información, consulte [esta página](../../administration/using/configuring-email-channel.md#email-channel-parameters).
 
    Cuando un envío se realiza correctamente tras un reintento, el contador de errores de la dirección se reinicia al estado anterior a la cuarentena. The address status changes to **[!UICONTROL Valid]** and it is deleted from the list of quarantines after two days by the **[!UICONTROL Database cleanup]** workflow.
 
-If a user qualifies an email as a spam (**Feedback loop**), the message is automatically redirected towards a technical mailbox managed by Campaign. La dirección de correo electrónico del usuario se envía automáticamente a la cuarentena con el **[!UICONTROL Blacklisted]** estado. Este estado hace referencia únicamente a la dirección, el perfil no está bloqueado, por lo que el usuario sigue recibiendo mensajes SMS y notificaciones push.
+If a user qualifies an email as a spam (**Feedback loop**), the message is automatically redirected towards a technical mailbox managed by Campaign. The user&#39;s email address is then automatically sent to quarantine with the **[!UICONTROL Blacklisted]** status. Este estado hace referencia únicamente a la dirección, el perfil no está bloqueado, por lo que el usuario sigue recibiendo mensajes SMS y notificaciones push.
 
 >[!NOTE]
 La cuarentena en Adobe Campaign distingue entre mayúsculas y minúsculas. Asegúrese de importar las direcciones de correo electrónico en minúsculas para que no se redireccionen más adelante.
