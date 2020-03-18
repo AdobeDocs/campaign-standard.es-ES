@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f49668c8ad878764b2a15c53efdcab797dd91724
+source-git-commit: ffe6b34ec8d7a31ffcce1e725364a6ecf00f70a8
 
 ---
 
@@ -27,7 +27,7 @@ También puede consultar las Notas de la [versión](../../rn/using/release-notes
 
 ## Actualizaciones de la documentación - Marzo de 2020 {#doc-updates-march-2020}
 
-Se ha añadido información más detallada sobre el MTA mejorado a la documentación principal, en particular sobre las reglas de procesamiento de correo electrónico y la calificación de correo de devolución [Leer más](../../administration/using/configuring-email-channel.md#email-processing-rules)
+Se ha añadido información más detallada sobre el MTA mejorado a la documentación principal, en particular sobre las reglas de procesamiento de correo electrónico y la calificación de correo de devolución. [Más información](../../administration/using/configuring-email-channel.md#email-processing-rules)
 
 Se ha movido y actualizado la sección dedicada al archivado con Email BCC. [Más información](../../sending/using/archiving.md)
 
