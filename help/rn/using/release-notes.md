@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 14f764b92fef81c06551fb0f13b11b41e94095f0
+source-git-commit: b22d6ae9e7ccd305d437d5d4390e1d95393e6344
 
 ---
 
@@ -21,37 +21,20 @@ source-git-commit: 14f764b92fef81c06551fb0f13b11b41e94095f0
 
 [Planificación](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) de versiones| [Versiones](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) del Panel de control| Actualizaciones [de documentación](../../rn/using/documentation-updates.md) | Notas de revisión [anteriores](../../rn/using/release-notes-2019.md) | Características [obsoletas](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
-## Versión 20.1.4: febrero de 2020 {#release-20-1-4---february-2020}
+## Versión 20.2 - Marzo de 2020 {#release-20-2---march-2020}
 
-* Se ha corregido un problema que se producía al abrir una actividad **Leer audiencia** en flujos de trabajo existentes. (CAMP-41002)
-
-## Versión 20.1.3: febrero de 2020 {#release-20-1-3---february-2020}
-
-* Se ha corregido un problema de regresión introducido en 20.1 por CAMP-39273 para los clientes que utilizan la laguna. Se revirtió el CAMP-39273.
-
-## Versión 20.1.2: febrero de 2020 {#release-20-1-2---february-2020}
-
-**Mejoras en el Diseñador de correo electrónico**
-
-* Se corrigió un problema que agregaba un elemento de etiqueta HTML en un fragmento obsoleto al realizar un parche y, a continuación, guardar el contenido. (CAMP-40685)
-* Se ha corregido un problema que agregaba un espacio al usar contenido dinámico. (CAMP-40605)
-* Se ha corregido un problema al configurar una plantilla de correo electrónico transaccional. (CAMP-40604)
-
-## Versión 20.1: febrero de 2020 {#release-20-1---february-2020}
-
-**Novedades**
-
+**Novedades?**
 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Conector de datos de la plataforma de Adobe Experience (beta)</strong><br /> </th> 
+   <th> <strong>Integración de blob de Azure</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>El conector de datos de la plataforma Adobe Experience está ahora integrado con Adobe Campaign Standard. Puede hacer que los datos de campaña estén disponibles en la plataforma de Adobe Experience Platform asignando datos XTK (datos ingestados en Campaign) al Modelo de datos de la plataforma de experiencia de Adobe (XDM). </p>
-    <p>Tenga en cuenta que esta capacidad solo está disponible para los clientes alojados en Azure. Para obtener más información sobre esta capacidad y condiciones para activarla, consulte la documentación <a href="../../administration/using/aep-about-data-connector.md"></a> detallada y el vídeo <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">de</a>procedimientos.</p>
+   <td> <p>El conector de almacenamiento de blob de Azure ahora se puede usar para importar o exportar datos a Adobe Campaign mediante una actividad de flujo de trabajo de archivos <strong>de</strong> transferencia. </p>
+    <p>Para obtener más información, consulte la <a href="../../administration/using/external-accounts.md#microsoft-azure-external-account">documentación detallada</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -60,72 +43,79 @@ source-git-commit: 14f764b92fef81c06551fb0f13b11b41e94095f0
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Destinos de audiencia (beta) </strong><br /> </th> 
+   <th> <strong>Dominio e interfaz de Experience Cloud unificada</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Los destinos de audiencia le permiten compartir segmentos de Adobe Experience Platform con Adobe Campaign.</p>
-    <p>Tenga en cuenta que esta capacidad solo está disponible para los clientes alojados en Azure. Para obtener más información sobre esta capacidad y condiciones para activarla, consulte la documentación <a href="../../audiences/using/aep-about-audience-destinations-service.md"></a> detallada y el vídeo <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">de</a>procedimientos. </p>
+   <td> <p>La barra superior de la interfaz se ha mejorado para mejorar la experiencia en todas las aplicaciones de Experience Cloud. El acceso a las soluciones se ha unificado con la siguiente dirección URL: experience.adobe.com/&lt;nombre de la aplicación&gt;. El encabezado ahora le permite cambiar más fácilmente entre las soluciones y muestra ayuda y notificaciones mejoradas.</p>
+    <p>Para obtener más información, consulte la <a href="../../start/using/interface-description.md#top-bar">documentación detallada</a>. </p>
    </td> 
   </tr> 
  </tbody> 
 </table>
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>Pruebas de correo electrónico con perfiles de objetivo</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>Además de probar los perfiles, ahora puede probar los correos electrónicos en perfiles reales con objetivo. Esto le permite obtener una representación exacta del mensaje que recibirá el perfil: campos personalizados, información dinámica y personalizada, incluidos datos adicionales de flujos de trabajo, etc. </p>
+    <p>For more information, refer to the <a href="../../sending/using/testing-messages-using-target.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">tutorial video</a>. </p>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+>[!NOTE]
+>
+>En abril se lanzarán nuevas funciones en el Panel de control de campañas, incluida la administración de registros TXT de Google, la supervisión de espacio en la base de datos y las alertas por correo electrónico. Para obtener más información sobre estas funciones, consulte la Nota [de revisión del panel de](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)control.
 
 **Mejoras**
 
-* Disponibilidad global del MTA mejorado: los mensajes (incluidos los mensajes transaccionales) ahora son enviados por el MTA mejorado de Adobe Campaign, que proporciona una infraestructura de envío mejorada que permite mejorar la entrega, el rendimiento y la gestión de devoluciones. [Más información](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
-
-* Se ha mejorado la administración de zonas horarias. Ahora puede definir una zona horaria [](../../automating/using/building-a-workflow.md) específica para todo un flujo de trabajo. La zona horaria seleccionada se aplicará a todas las actividades del flujo de trabajo. La información sobre la zona horaria configurada para el operador o el servidor ahora se muestra en la interfaz (en registros y después de seleccionar una zona horaria). (CAMP-37672)
-
-* Las API de Campaign Standard ahora permiten realizar paginación al usar tablas grandes, agregando el `_forcePagination=true` parámetro a la dirección URL de la llamada. [Más información](../../api/using/pagination.md)
-
-* El ID de registro de envío (que es un identificador único para cada registro) ya está disponible en los recursos de registros de envío y seguimiento para todas las dimensiones de objetivo. Esto permite identificar los registros de envío o seguimiento al exportar, por ejemplo. [Más información](../../automating/using/exporting-logs.md)
+* Se ha mejorado la experiencia de usuario de mensajería transaccional y se ha mejorado la coherencia de la interfaz. [Más información](../../channels/using/about-transactional-messaging.md)
+* Campaign Standard ahora le permite enviar pruebas a perfiles de prueba con datos adicionales de flujos de trabajo.
+* Se han actualizado los resguardos de la actividad de API externa. [Más información](../../automating/using/external-api.md)
 
 **Mejoras en el Diseñador de correo electrónico**
 
-* Se agregaron instrucciones de texto obligatorias que faltaban al crear una audiencia.
-* Se ha corregido un problema al hacer clic en el botón **Cambiar contenido** en el asistente del editor de correo electrónico preexistente.
-* Se ha corregido un problema que impedía que los encabezados se alinearan con el contenido del informe Resumen de servicios. (CAMP-38103)
-* Se ha corregido un problema que impedía que las variantes de contenido dinámico se eliminaran sin afectar al resto de la línea de asunto. (CAMP-40096)
-* Se corrigió un problema con la prueba A/B al usar la variante B en la línea de asunto. (CAMP-40327)
-* Se ha corregido un problema que impedía arrastrar y soltar archivos al utilizar la función de importación de HTML de carga. (CAMP-39326)
-* Se ha corregido un problema que impedía copiar y pegar texto desde un editor de texto. (CAMP-39028)
-* Se ha corregido un problema que impedía que se mostraran las sugerencias de palabra. (CAMP-38970)
-* Se ha corregido un problema que impedía a los usuarios guardar fragmentos. (ATU-2447)
-* Se ha corregido un problema que impedía que las estructuras dinámicas se duplicaran. (CAMP-38367)
-* Se ha corregido un problema que impedía que el contenido dinámico conservara las condiciones cuando se duplicaba. (CAMP-39051)
+* Se ha corregido un problema que afectaba al escape al hacer clic varias veces en una imagen personalizada.
+* Se ha corregido un problema que se producía al duplicar componentes de texto dinámico y que podía provocar la duplicación de líneas erróneas. (CAMP-41249)
+* Se ha corregido un problema con el relleno en Outlook al definir el relleno en el nivel de tabla en lugar del nivel de div.
+* Se ha corregido un problema que provocaba que se modificara la anchura de una imagen al cambiar al modo HTML. (CAMP-41116)
+* Se ha corregido un problema que impedía que el componente de medios sociales fuera accesible al proporcionar texto alternativo a los iconos. (CAMP-41345)
+* Se ha corregido un problema que provocaba que se mostraran `<br>` etiquetas visibles al usar copiar y pegar en el Diseñador de correo electrónico.
+* Se ha corregido un problema que provocaba que las etiquetas HTML se mostraran en el correo electrónico después de cambiar del contenido HTML al texto sin formato. (CAMP-41138)
+* Se ha corregido un problema que impedía procesar botones con un solo borde definido.
+* Se ha corregido un problema en la sangría HTML que provocaba que el pie de página de los correos electrónicos se moviera hacia la izquierda en Microsoft Outlook. (CAMP-40987)
+* Se ha corregido un problema que provocaba que los campos de personalización destinados a un atributo de colección definido en HTML se copiaran en el contenido de texto sin formato al cambiar al modo de texto sin formato. (CAMP-40365)
+* Se ha corregido un problema que impedía que los vínculos se insertaran en un segmento de texto seleccionado. (CAMP-41406)
+* Se corrigió un problema que ocasionaba que la fecha se alterara al seleccionar una zona horaria en el editor de consultas. (CAMP-38277)
 
 **Otros cambios**
 
-* El filtro &quot;Entregas con error de preparación&quot; ahora tiene en cuenta la fecha de creación de las entregas en lugar de la fecha de la última modificación.
-* La unidad organizativa del grupo de seguridad Administradores ya no se puede cambiar.
-* Al crear un perfil, ahora se debe rellenar el campo Unidad organizativa.
-* Ahora, un activador de Experience Cloud solo se puede eliminar si se eliminan tanto el evento como la plantilla de transacción vinculados a él.
-* Adobe Creative SDK se ha retirado del mercado. Ahora está en desuso en Campaign Standard. Consulte la página Funciones [](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)obsoletas y eliminadas.
+* El flujo de trabajo **integrado Reconciliación de KPI con Adobe Analytics** ahora se ejecuta hasta la fecha actual en lugar de ejecutarse para un solo día.
+* El MCPNS no admite la adición de APNS y APNS-SANDBOX como plataformas en una aplicación. Después de agregar correctamente el certificado en Adobe Campaign Standard, ya no podrá volver a cambiar la configuración, ya que solo se puede agregar una plataforma APNS (producción o simulación de pruebas) a la aplicación MCPNS.
 
+**Integraciones de la plataforma de experiencias**
+
+>[!NOTE]
+>
+>Las funciones de la plataforma de experiencia de Adobe en Campaign Standard se encuentran actualmente en versión beta, lo que puede estar sujeto a actualizaciones frecuentes sin previo aviso. Consulte la documentación detallada: Conector [de datos de la plataforma de](../../administration/using/aep-about-data-connector.md)experiencia, destinos [de audiencia](../../audiences/using/aep-about-audience-destinations-service.md)
+
+* En los registros de flujo de trabajo, cada 10 minutos, Campaign muestra ahora el número de registros que el trabajo que se está ejecutando ya ha procesado.
+* Se ha corregido un problema que se podía producir al importar un perfil de Adobe Experience Platform que se había eliminado de la base de datos.
+* Se ha corregido un problema en los registros de flujo de trabajo que podía mostrar un resultado incorrecto para el número total de registros importados.
 
 **Parches**
 
-* Se ha corregido un problema al realizar una solicitud de eliminación de privacidad que impedía que los datos de usuario se eliminaran en los registros de exclusión. (CAMP-39003)
-* Se ha corregido un problema que provocaba problemas de accesibilidad al cambiar el tamaño del texto en un elemento contenedor.
-* Se ha corregido un problema que impedía a los usuarios descartar la ventana emergente Calendario que aparece al pasar el ratón por encima en las actividades de marketing.
-* Se corrigió un problema en la **[!UICONTROL External API]** actividad que mostraba el **[!UICONTROL Confirm]** botón aunque no se modificaran los datos.
-* Se ha corregido un problema al usar una **[!UICONTROL Union]** actividad en consultas con diferentes dimensiones de objetivo. Los datos de transición solo mostraban registros de la dimensión de objetivo del conjunto principal. (CAMP-36831)
-* Se ha corregido un problema que podía dar lugar a un error al usar una **[!UICONTROL Reconciliation]** actividad en contextos específicos, por ejemplo, con dos actividades entrantes, una de las cuales era una actividad de exclusión. (CAMP-37490)
-* Se han corregido problemas de rendimiento que podían producirse al seleccionar y actualizar perfiles de prueba. (CAMP-37976)
-* Se ha corregido un problema que podía mostrar páginas de error al suscribirse o cancelar la suscripción a través de páginas de aterrizaje. (CAMP-37771)
-* Se ha corregido un problema que se producía al cargar contenido en formato zip, con archivos PNG referenciados en HTML con su extensión en mayúsculas. (CAMP-37913)
-* Se ha corregido un problema que impedía que se enviaran mensajes en la aplicación al agregar un perfil de prueba a la entrega.
-* Se corrigió un error con la actividad de flujo de trabajo de API externa que fallaba al vincularse a actividades de enriquecimiento.
-* Se ha corregido un problema que podía hacer que el estado de los mensajes SMS se mostrara incorrectamente.
-* Se ha corregido un problema con los recursos personalizados que hacía que aparecieran entradas duplicadas en diferentes extremos de API.
-* Se ha corregido un problema que impedía que las páginas de aterrizaje estuvieran disponibles después de la publicación. (CAMP-38695)
-* Se ha corregido un error que se producía al mostrar datos de una transición de intersección procedentes de dos recursos diferentes. (CAMP-38974)
-* Se ha corregido un problema que provocaba que el valor de enumeración de una plantilla de entrega se configurara incorrectamente. (CAMP-38388)
-* Se corrigió un error con las entregas masivas por correo electrónico que mostraba el estado de las entregas como Pendiente y el estado Enviado como Finalizado. (CAMP-35355)
-* Se ha corregido un error que mostraba el dominio del remitente de forma incorrecta en los informes dinámicos. (CAMP-33123)
-* Se ha corregido un problema que provocaba discrepancias en los recuentos de cancelación de suscripciones en los informes dinámicos. (CAMP-39949)
-* Se ha corregido un problema que impedía que las direcciones se mostraran en la pantalla de registro de envío al enviar mensajes en la aplicación.
-* Se ha corregido un problema que impedía que los registros de envío de SMS se actualizaran con el número correcto de devoluciones. (CAMP-38395)
-* Se corrigió un error que permitía que las llamadas posteriores a la suscripción de la aplicación actualizaran los tokens de notificación push. (CAMP-39273)
+* Se ha corregido un problema con la actividad de flujo de trabajo **Enriquecimiento** que se podía producir al agregar espacios en el campo **Alias** , el cual a continuación creaba un nuevo elemento de fila. (CAMP-39229)
+* Se corrigió un problema en el cual cada perfil de prueba se podía dirigir al enviar un mensaje de prueba.
+* Se ha corregido un problema que se producía tras cancelar la publicación y eliminar una configuración de evento. [Más información](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
+* Se corrigió un problema en el cual el botón **Guardar** desaparecía al realizar cambios en los flujos de trabajo.
+* Se ha corregido un problema que se producía al eliminar una solicitud de privacidad manualmente en Campaign después de que se procesara, lo que impedía que los datos asociados a la solicitud se eliminaran incluso después de la limpieza.
+* Se ha corregido un problema que se podía producir al obtener una vista previa o enviar mensajes que incluían caracteres especiales de Adobe Experience Manager.
+* Se ha corregido un problema que podía producirse en los flujos de trabajo al ejecutar una actividad con varias transiciones de entrada.
