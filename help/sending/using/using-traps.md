@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff9d0c3ca42606f097a34b1835d285541061e57b
+source-git-commit: a7c2d444b7d971124b676fa2392b51aab40e5629
 
 ---
 
@@ -59,6 +59,8 @@ Al definir la audiencia de un mensaje:
    ![](assets/trap_confirm.png)
 
 El mensaje se envía al destino principal y al perfil de prueba.
+
+Puede utilizar trampas al enviar mensajes transaccionales. En este caso, el perfil de prueba recibirá un mensaje por configuración de evento. Para obtener más información sobre la mensajería transaccional, consulte esta [sección](../../channels/using/about-transactional-messaging.md).
 
 >[!NOTE]
 >
