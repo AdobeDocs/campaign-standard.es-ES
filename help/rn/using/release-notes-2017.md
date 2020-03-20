@@ -12,7 +12,7 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 33d4704d664a809073790e47ab6bb84e9c2b07d5
+source-git-commit: 6a34cc1a8848b21ea01b9a20b9deb9be5b5e3895
 
 ---
 
@@ -84,11 +84,11 @@ _Informes_
 
 _Flujos de trabajo_
 
-* Se ha corregido un problema en la **[!UICONTROL Load file]**actividad que podía provocar errores después de agregar y quitar columnas manualmente en la actividad.
-* El flujo de trabajo **[!UICONTROL deliverabilityUpdate]**técnico está programado para ejecutarse a las 2 de la mañana, hora del servidor.
+* Se ha corregido un problema en la **[!UICONTROL Load file]** actividad que podía provocar errores después de agregar y quitar columnas manualmente en la actividad.
+* El flujo de trabajo **[!UICONTROL deliverabilityUpdate]** técnico está programado para ejecutarse a las 2 de la mañana, hora del servidor.
 * Se ha corregido un problema de seguridad que permitía realizar una exportación de lista sin la función de exportación.
-* Se ha corregido un problema con la **[!UICONTROL Reconciliation]**actividad.
-* Se ha corregido un problema con el uso de caracteres comodín en la **[!UICONTROL File Transfer]**actividad.
+* Se ha corregido un problema con la **[!UICONTROL Reconciliation]** actividad.
+* Se ha corregido un problema con el uso de caracteres comodín en la **[!UICONTROL File Transfer]** actividad.
 
 _Perfiles y audiencias_
 
@@ -219,7 +219,7 @@ _Perfiles y audiencias_
 
 _General_
 
-* Se ha corregido un problema que permitía a cualquier usuario exportar listas. Ahora solo los usuarios con la **[!UICONTROL Export]**función pueden hacerlo.
+* Se ha corregido un problema que permitía a cualquier usuario exportar listas. Ahora solo los usuarios con la **[!UICONTROL Export]** función pueden hacerlo.
 
 _Correos electrónicos, mensajes SMS y correo directo_
 
@@ -229,7 +229,7 @@ _Correos electrónicos, mensajes SMS y correo directo_
 * Se ha corregido un problema que provocaba un error de JavaScript al seleccionar la zona horaria predeterminada en la pantalla de definición de programación de una entrega.
 * Se ha corregido un problema que impedía que las trampas aparecieran en los registros de envío.
 * En la pantalla de selección de plantillas del asistente para la creación de envíos, las plantillas de prueba A/B y de seguimiento ahora están ocultas de forma predeterminada. For more information, refer to the [detailed documention](../../channels/using/creating-an-email.md).
-* Se ha corregido un problema que permitía a cualquier usuario enviar envíos. Ahora solo los usuarios con la **[!UICONTROL Start deliveries]**función pueden hacerlo. For more information, refer to the[detailed documention](../../sending/using/confirming-the-send.md).
+* Se ha corregido un problema que permitía a cualquier usuario enviar envíos. Ahora solo los usuarios con la **[!UICONTROL Start deliveries]** función pueden hacerlo. For more information, refer to the [detailed documention](../../sending/using/confirming-the-send.md).
 
 _Notificaciones push_
 
@@ -270,7 +270,7 @@ _Flujos de trabajo_
   </tr> 
   <tr> 
    <td> Email BCC<br /> </td> 
-   <td> Email BCC permite guardar mensajes de correo electrónico únicos enviados a destinatarios individuales, lo que permite a la marca archivar esos mensajes. Al agregar una dirección de correo electrónico CCO a todos los correos electrónicos, los clientes de Adobe Campaign Standard pueden conservar una copia exacta de cada correo electrónico con esta función. Se trata de un requisito jurídico común para el sector de los servicios financieros y ayuda a los centros de atención al cliente a resolver conflictos en tiempo real.<br /><a href="../../administration/using/configuring-email-channel.md#archiving-emails"> Para obtener más información, consulte la documentación detallada</a>.<br /> </td> 
+   <td> Email BCC permite guardar mensajes de correo electrónico únicos enviados a destinatarios individuales, lo que permite a la marca archivar esos mensajes. Al agregar una dirección de correo electrónico CCO a todos los correos electrónicos, los clientes de Adobe Campaign Standard pueden conservar una copia exacta de cada correo electrónico con esta función. Se trata de un requisito jurídico común para el sector de los servicios financieros y ayuda a los centros de atención al cliente a resolver conflictos en tiempo real.<br /><a href="../../sending/using/archiving.md"> Para obtener más información, consulte la documentación detallada</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -279,20 +279,20 @@ _Flujos de trabajo_
 
 _Actualizaciones de interfaz_
 
-* En la barra superior, el **[!UICONTROL Timeline]**vínculo se ha eliminado y reemplazado por un vínculo a**[!UICONTROL Programs & Campaigns]** .
+* En la barra superior, el **[!UICONTROL Timeline]** vínculo se ha eliminado y reemplazado por un vínculo a **[!UICONTROL Programs & Campaigns]** .
 
 _Correos electrónicos y mensajes SMS_
 
-* Se ha corregido un problema que mostraba un color incorrecto para el estado de la **[!UICONTROL Retry in progress]**entrega. El color era gris en lugar de azul.
+* Se ha corregido un problema que mostraba un color incorrecto para el estado de la **[!UICONTROL Retry in progress]** entrega. El color era gris en lugar de azul.
 
 _Flujos de trabajo_
 
-* Se ha corregido un problema que se producía al cambiar la acción para que se realizara en una **[!UICONTROL Transfer file]**actividad.
+* Se ha corregido un problema que se producía al cambiar la acción para que se realizara en una **[!UICONTROL Transfer file]** actividad.
 
 _Informes_
 
-* Se han cambiado los cálculos **[!UICONTROL Spam]**y los**[!UICONTROL Spam rate]** indicadores.
-* Las **[!UICONTROL Bounce]**métricas se han mejorado para obtener un resultado más preciso.
+* Se han cambiado los cálculos **[!UICONTROL Spam]** y los **[!UICONTROL Spam rate]** indicadores.
+* Las **[!UICONTROL Bounce]** métricas se han mejorado para obtener un resultado más preciso.
 
 _Notificaciones push_
 
@@ -356,14 +356,14 @@ _Mensajes transaccionales_
 
 _Páginas de aterrizaje_
 
-* Hemos optimizado el **[!UICONTROL by email]**filtro utilizado en las páginas de aterrizaje para reconciliar nuevos suscriptores con perfiles de base de datos.
+* Hemos optimizado el **[!UICONTROL by email]** filtro utilizado en las páginas de aterrizaje para reconciliar nuevos suscriptores con perfiles de base de datos.
 * Se ha corregido un problema que mostraba entradas de texto libre en lugar de casillas de verificación al utilizar campos booleanos en una configuración de formulario.
 * Se ha corregido un problema que impedía que se generaran miniaturas de página de aterrizaje.
 
 _Flujos de trabajo_
 
-* Se corrigió un error de visualización al editar una actividad **[!UICONTROL End]**o**[!UICONTROL External Signal]** (solo en Safari).
-* Se mejoró el mensaje de error que se mostraba al editar una **[!UICONTROL Read Audience]**actividad que contenía una audiencia errónea.
+* Se corrigió un error de visualización al editar una actividad **[!UICONTROL End]** o **[!UICONTROL External Signal]** (solo en Safari).
+* Se mejoró el mensaje de error que se mostraba al editar una **[!UICONTROL Read Audience]** actividad que contenía una audiencia errónea.
 * Se ha corregido un problema que podía provocar un error SQL al ejecutar una actividad de suscripción.
 
 _Integraciones_
@@ -455,7 +455,7 @@ _General_
 
 _Correos electrónicos y mensajes SMS_
 
-* Se ha corregido un problema que provocaba que la **[!UICONTROL Request confirmation before sending messages]**opción permaneciera seleccionada incluso después de desmarcarla y guardar la entrega.
+* Se ha corregido un problema que provocaba que la **[!UICONTROL Request confirmation before sending messages]** opción permaneciera seleccionada incluso después de desmarcarla y guardar la entrega.
 * Se ha corregido un problema que podía impedir la cancelación de la publicación de correos electrónicos transaccionales.
 * Se corrigió un problema en el cual el contenido no se podía sincronizar correctamente con los cambios más recientes antes de previsualizar una entrega.
 
@@ -465,8 +465,8 @@ _Páginas de aterrizaje_
 
 _Flujos de trabajo_
 
-* Se ha corregido un problema que podía evitar leer el contenido de la transición de rechazo de una **[!UICONTROL Load file]**actividad.
-* Se ha corregido un problema que impedía que las columnas intercambiadas se tuvieran debidamente en cuenta al configurar una **[!UICONTROL Load file]**actividad.
+* Se ha corregido un problema que podía evitar leer el contenido de la transición de rechazo de una **[!UICONTROL Load file]** actividad.
+* Se ha corregido un problema que impedía que las columnas intercambiadas se tuvieran debidamente en cuenta al configurar una **[!UICONTROL Load file]** actividad.
 
 ## Versión 17.1: enero de 2017 {#release-17-1---january-2017}
 
@@ -482,7 +482,7 @@ _Flujos de trabajo_
  <tbody> 
   <tr> 
    <td> Exportación de registros para informes externos<br /> </td> 
-   <td> Exporte registros como los registros de entrega y seguimiento para procesarlos en sus herramientas de informes o de BI preferidas. Puede utilizar flujos de trabajo sencillos con consultas incrementales para automatizar las exportaciones regulares de nuevos registros.<br /> Además de la disponibilidad de los recursos de registro del selector de recursos, se realizaron mejoras en las actividades de consulta <a href="../../automating/using/incremental-query.md"></a> incremental y del archivo <a href="../../automating/using/extract-file.md">Extract</a> :<br /> 
+   <td> Exporte registros como los registros de entrega y seguimiento para procesarlos en sus herramientas de informes o de BI preferidas. Puede utilizar flujos de trabajo simples con consultas incrementales para automatizar las exportaciones regulares de nuevos registros.<br /> Además de la disponibilidad de los recursos de registro del selector de recursos, se realizaron mejoras en las actividades de consulta <a href="../../automating/using/incremental-query.md"></a> incremental y del archivo <a href="../../automating/using/extract-file.md">Extract</a> :<br /> 
     <ul> 
      <li> <span class="uicontrol">La consulta</span> incremental ahora le permite utilizar un campo de fecha para recuperar datos nuevos o actualizados. Anteriormente, todos los resultados de ejecuciones anteriores se excluían automáticamente, incluso si se actualizaban desde la última ejecución. </li> 
      <li> <span class="uicontrol">El archivo</span> de extracción ahora puede exportar etiquetas para valores de enumeración en lugar de ID. </li> 
@@ -514,7 +514,7 @@ _Flujos de trabajo_
 
 _General_
 
-* Las **[!UICONTROL Access authorization]**opciones han vuelto a las propiedades de la página de aterrizaje.
+* Las **[!UICONTROL Access authorization]** opciones han vuelto a las propiedades de la página de aterrizaje.
 * Se ha corregido un problema que podía haber provocado que se procesara una imagen antigua en lugar de la imagen correcta. Esto ocurría si la imagen de origen se había actualizado en la definición de contenido de una página de envío o de aterrizaje.
 * Se ha corregido un problema que impedía a los usuarios editar determinados campos en una cuenta externa de SFTP existente.
 * Se han corregido varios problemas de la interfaz de usuario. Por ejemplo, ahora los usuarios pueden editar atributos de perfil y guardar las modificaciones sin tener problemas con la interfaz de usuario.
@@ -526,21 +526,21 @@ _Correos electrónicos y mensajes SMS_
 _Notificaciones push_
 
 * Se ha corregido un problema que podía haber impedido el postback de una aplicación al servidor de Adobe Campaign.
-* Se ha corregido un problema que podía haber impedido **[!UICONTROL Play a sound]**y**[!UICONTROL Custom fields]** que se tuviera en cuenta en Android.
+* Se ha corregido un problema que podía haber impedido **[!UICONTROL Play a sound]** y **[!UICONTROL Custom fields]** que se tuviera en cuenta en Android.
 * Se ha corregido un problema que podía haber provocado que se agregara un carácter de escape adicional a los caracteres Unicode utilizados para los emoticones.
 * Cuando se bloquea el autentificador de registro de un suscriptor, el estado correspondiente se actualiza inmediatamente en la lista de suscriptores de la aplicación en Adobe Campaign.
 
 _Flujos de trabajo_
 
 * Se ha corregido un problema que podía haber impedido la vista previa de consultas en recursos de eventos (por ejemplo, rtEvent).
-* El archivo de rechazo generado por una **[!UICONTROL Load file]**actividad ahora se puede recuperar en su transición de salida y procesar en la siguiente actividad. Por ejemplo, cargue el archivo de rechazo a través de un servidor SFTP mediante**[!UICONTROL Transfer file]** .
-* Se ha corregido un problema que podía haber impedido que un usuario limitara la población de un segmento si **[!UICONTROL Temporary resource]**se seleccionaba en la**[!UICONTROL General]** ficha de **[!UICONTROL Segmentation]**.
-* **[!UICONTROL Scheduler]**las actividades ya no se pueden configurar para activar un flujo de trabajo más de una vez cada 10 minutos.
-* Se ha corregido un problema que podía haber impedido que **[!UICONTROL Use common columns]**funcionara correctamente en una**[!UICONTROL Union]** actividad.
+* El archivo de rechazo generado por una **[!UICONTROL Load file]** actividad ahora se puede recuperar en su transición de salida y procesar en la siguiente actividad. Por ejemplo, cargue el archivo de rechazo a través de un servidor SFTP mediante **[!UICONTROL Transfer file]** .
+* Se ha corregido un problema que podía haber impedido que un usuario limitara la población de un segmento si **[!UICONTROL Temporary resource]** se seleccionaba en la **[!UICONTROL General]** ficha de **[!UICONTROL Segmentation]** .
+* **[!UICONTROL Scheduler]** las actividades ya no se pueden configurar para activar un flujo de trabajo más de una vez cada 10 minutos.
+* Se ha corregido un problema que podía haber impedido que **[!UICONTROL Use common columns]** funcionara correctamente en una **[!UICONTROL Union]** actividad.
 
 _Integraciones_
 
 * Se ha corregido un problema que podía haber provocado un error al implementar un activador de evento en Adobe Campaign. Este error se producía cuando se habían agregado los metadatos &quot;Probabilidad de retorno en 30 días&quot; al activador Abandono en Adobe Marketing Cloud.
 * Se ha corregido un problema que podía haber provocado que el flujo de trabajo técnico borrara el campo Dimensión de destino al importar audiencias desde el servicio principal Personas. Las consultas posteriores no pudieron recuperar las audiencias importadas.
-* Se ha corregido un problema que podía haber provocado que la actividad de un flujo de trabajo fallara al **[!UICONTROL Save audience]**marcar la opción**[!UICONTROL Share in Adobe Marketing Cloud]** .
+* Se ha corregido un problema que podía haber provocado que la actividad **[!UICONTROL Save audience]** de un flujo de trabajo fallara al marcar la opción **[!UICONTROL Share in Adobe Marketing Cloud]** .
 
