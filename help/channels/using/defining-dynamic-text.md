@@ -12,7 +12,7 @@ discoiquuid: 6bb6cee3-5674-4113-8073-5a9572b3e830
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 5ed46987a3778dfa100639de8be9b6d5ac5348b4
 
 ---
 
@@ -28,7 +28,7 @@ El texto dinámico se define del mismo modo que el contenido dinámico. Consulte
 El ejemplo siguiente muestra cómo definir texto dinámico en un mensaje SMS.
 
 1. Seleccione texto en el cuerpo del mensaje o en la página de aterrizaje.
-1. Click **[!UICONTROL Enable dynamic text]**.
+1. Haga clic **[!UICONTROL Enable dynamic text]**.
 
    ![](assets/dynamic_text_sms_1.png)
 
