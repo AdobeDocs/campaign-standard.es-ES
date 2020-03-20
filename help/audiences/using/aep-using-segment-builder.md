@@ -1,5 +1,5 @@
 ---
-title: Uso del Generador de segmentos unificado
+title: Uso del Generador de segmentos unificados
 description: Aprenda a utilizar el Generador de segmentos unificado para crear audiencias.
 page-status-flag: never-activated
 uuid: b3996642-96ec-489e-b146-c8c2cb52aa32
@@ -13,12 +13,12 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
+source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
 
 ---
 
 
-# Uso del Generador de segmentos unificado {#using-the-unified-segment-builder}
+# Uso del Generador de segmentos unificados {#using-the-unified-segment-builder}
 
 >[!IMPORTANT]
 >
@@ -84,7 +84,7 @@ Los campos están organizados en fichas:
 >
 >For more on this, refer to the [dedicated documentation](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/tutorials/segmentation/multi_entity_segmentation.md).
 
-De forma predeterminada, el creador de segmentos unificados muestra los campos en los que los datos ya están presentes. Para mostrar el esquema completo, incluidos los campos para los que no hay datos, habilite la **[!UICONTROL Show full XDM schema]**opción desde la configuración.
+De forma predeterminada, el creador de segmentos unificados muestra los campos en los que los datos ya están presentes. Para mostrar el esquema completo, incluidos los campos para los que no hay datos, habilite la **[!UICONTROL Show full XDM schema]** opción desde la configuración.
 
 ![](assets/aep_audiences_populatedfields.png)
 
@@ -108,9 +108,9 @@ Para crear una regla, siga estos pasos:
 
    ![](assets/aep_audiences_malegender.png)
 
-   La población estimada correspondiente al segmento se vuelve a calcular automáticamente en la **[!UICONTROL Segment Properties]**sección.
+   La población estimada correspondiente al segmento se vuelve a calcular automáticamente en la **[!UICONTROL Segment Properties]** sección.
 
-1. El **[!UICONTROL View Profiles]**botón le proporciona una vista previa de los 20 primeros registros correspondientes a la regla, lo que le permite validar rápidamente el segmento.
+1. El **[!UICONTROL View Profiles]** botón le proporciona una vista previa de los 20 primeros registros correspondientes a la regla, lo que le permite validar rápidamente el segmento.
 
    ![](assets/aep_audiences_samplepreview.png)
 
@@ -134,7 +134,7 @@ Para ello, siga estos pasos:
 
 1. Seleccione el segundo campo (por ejemplo, el código postal de la dirección de trabajo) que se comparará con el primer campo.
 
-   Arrástrelo al espacio de trabajo central, en el mismo contenedor que el primer campo, en el **[!UICONTROL Drop here to compare operands]**cuadro.
+   Arrástrelo al espacio de trabajo central, en el mismo contenedor que el primer campo, en el **[!UICONTROL Drop here to compare operands]** cuadro.
 
    ![](assets/aep_audiences_comparing_2.png)
 
