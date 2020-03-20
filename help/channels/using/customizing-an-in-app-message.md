@@ -13,7 +13,7 @@ context-tags: delivery,inAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 1269ee2041e0857b077424ba7f50fbfa9519ae7b
 
 ---
 
@@ -28,6 +28,10 @@ El editor de contenido en la aplicación permite elegir entre dos modos de mensa
 * [Mensaje](#customizing-with-a-custom-html-message)personalizado: esta plantilla permite importar HTML personalizado.
 
 ![](assets/inapp_customize_1.png)
+
+>[!NOTE]
+>
+> La representación de mensajes en la aplicación solo es compatible con la API de Android 19 y versiones posteriores.
 
 **Temas relacionados:**
 
@@ -65,14 +69,14 @@ Cada tipo de maquetaciones se puede previsualizar en diferentes dispositivos, co
 
 ![](assets/inapp_customize_4.png)
 
-### Medios {#media}
+### Media {#media}
 
 La **[!UICONTROL Media]** lista desplegable le permite agregar medios al mensaje en la aplicación para crear una experiencia atractiva para el usuario final.
 
 1. Seleccione el **[!UICONTROL Media Type]** entre imagen y vídeo.
 1. Para el tipo de **[!UICONTROL Image]** medio, introduzca la dirección URL en el **[!UICONTROL Media URL]** campo en función de los formatos admitidos.
 
-   Si es necesario, también puede introducir la ruta a una **[!UICONTROL Bundled image]** que se puede utilizar si el dispositivo está sin conexión.
+   Si es necesario, también puede introducir la ruta de acceso a una **[!UICONTROL Bundled image]** que se puede utilizar si el dispositivo está sin conexión.
 
    ![](assets/inapp_customize_5.png)
 
