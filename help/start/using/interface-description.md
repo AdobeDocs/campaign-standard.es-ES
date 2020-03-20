@@ -12,7 +12,7 @@ discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: e1e9f1f69a23a2510bf91b101a74434f759fdb95
 
 ---
 
@@ -60,12 +60,25 @@ Los principios de navegación son:
 * El **[!UICONTROL Home]** vínculo le permite mostrar la página principal de Adobe Campaign.
 * Los vínculos **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]****[!UICONTROL Audiences]** y **[!UICONTROL Reports]** permiten acceder a las vistas vinculadas a estas funcionalidades.
 * El **[!UICONTROL Help]** botón permite acceder a la documentación del producto y a la ayuda contextual, a las notas de la versión, a los números de versión y a los avisos legales, así como a los vínculos a la comunidad de Adobe Experience Cloud y al servicio de atención al cliente.
-
-   ![](assets/ux_help.png)
-
-* El icono **Seleccionar solución** le permite cambiar a otra solución de Adobe Experience Cloud, así como a la configuración de perfil.
+* El botón de organización
+* El icono del conmutador **de** soluciones le permite cambiar a otra solución de Adobe Experience Cloud, así como a la configuración del perfil.
 * El icono **Notificaciones** muestra la información o las alertas más recientes.
 * El icono **Usuario** le permite mostrar información vinculada a su perfil. Permite acceder al **[!UICONTROL Sign out]** botón.
+
+### Ayuda {#help}
+
+* **[!UICONTROL Search]** le permite recuperar documentación, artículos y vídeos y filtrar el contenido por solución
+
+* **[!UICONTROL Help]** ficha
+   * Los vínculos le permiten acceder rápidamente a los artículos, la documentación y los vídeos relacionados con la página que está explorando
+   * **[!UICONTROL Learning]** este vínculo le permite acceder a Experience League.
+   * **[!UICONTROL Community]** este enlace le permite acceder al foro dedicado a sus preguntas en ACS.
+
+* **[!UICONTROL Support]** le permite crear un ticket de soporte y ponerse en contacto con nosotros por teléfono o Twitter.
+
+* **[!UICONTROL Feedback ]** permite compartir problemas e ideas sobre la solución.
+
+   ![](assets/ux_help.png)
 
 ## Menú avanzado {#advanced-menu}
 
@@ -142,4 +155,3 @@ Esta barra no sólo contiene acciones comunes como la búsqueda y el filtrado, s
 * Para ver las acciones relacionadas con las pantallas de tipo de **espacio de trabajo** , consulte la sección Barra [de](../../automating/using/workflow-interface.md#action-bar) acción de los flujos de trabajo.
 * Para obtener más información sobre las acciones relacionadas con las pantallas de **tablero** , consulte la sección del tablero [de](../../channels/using/message-dashboard.md) mensajes.
 * Para ver las acciones relacionadas con las pantallas de tipo de **lista** , consulte la sección [Personalización de listas](../../start/using/customizing-lists.md) a continuación.
-
