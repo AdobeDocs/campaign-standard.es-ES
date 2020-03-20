@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 04709dd9a754ea616f3e695ada072137b9ecce6a
+source-git-commit: 130eaa44dc89a3b013038660d8e3790f05299136
 
 ---
 
@@ -309,6 +309,10 @@ La preparación de los mensajes se detalla en la sección [Aprobación de mensaj
    También es posible personalizar la etiqueta de entrega con variables de eventos que se han declarado en la actividad de señal externa del flujo de trabajo. Para obtener más información, consulte [esta sección](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
 * **[!UICONTROL Save SQL queries in the log]**:: esta opción le permite agregar registros de consultas SQL en el diario durante la fase de preparación.
+
+#### Configuración de prueba {#proof-settings}
+
+Esta sección le permite configurar el prefijo predeterminado para utilizarlo en la línea de asunto de la prueba. For more in this, refer to [this section](../../sending/using/sending-proofs.md).
 
 ### Lista de parámetros SMTP de correo electrónico {#list-of-email-smtp-parameters}
 
