@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff9d0c3ca42606f097a34b1835d285541061e57b
+source-git-commit: 767d4233236019213003961aae1abb317198e581
 
 ---
 
@@ -28,13 +28,13 @@ Puede administrar los perfiles de prueba desde el menú avanzado **[!UICONTROL P
 
 Un perfil de prueba contiene información ficticia de contacto, o información de contacto controlada por el remitente, que se puede utilizar en un mensaje en los siguientes contextos:
 
-* Para enviar **pruebas**: la prueba es un mensaje específico que se utiliza para comprobar el mensaje antes de enviar la entrega finalizada a los destinatarios. Un perfil de prueba se encarga de comprobar la entrega, en relación con su contenido y formato. Consulte [Envío de pruebas](../../sending/using/sending-proofs.md).
-* Para el procesamiento **de** correo electrónico: el perfil de prueba de procesamiento de correo electrónico se utiliza para comprobar la forma en que se muestra un mensaje según la bandeja de entrada del mensaje que lo recibe. Por ejemplo: webmail, servicio de mensajes, móvil, etc. Consulte Representación [por correo electrónico](../../sending/using/email-rendering.md).
+* Para enviar **pruebas**: La prueba es un mensaje específico que se utiliza para comprobar el mensaje antes de enviar la entrega finalizada a los destinatarios. Un perfil de prueba se encarga de comprobar la entrega, en relación con su contenido y formato. Consulte [Envío de pruebas](../../sending/using/sending-proofs.md).
+* Para el procesamiento **de** correo electrónico: El perfil de prueba de procesamiento de correo electrónico se utiliza para comprobar la forma en que se muestra un mensaje según la bandeja de entrada del mensaje que lo recibe. Por ejemplo: webmail, servicio de mensajes, móvil, etc. Consulte Representación [por correo electrónico](../../sending/using/email-rendering.md).
 
    El uso de procesamiento **de** correo electrónico es de sólo lectura. Los perfiles de prueba con este uso solo están disponibles de forma predeterminada en Adobe Campaign.
 
-* Como **trampa**: el mensaje se envía al perfil de prueba tal como se envía al destino principal. Consulte [Uso de trampas](../../sending/using/using-traps.md).
-* Para **previsualizar** mensajes: se puede seleccionar un perfil de prueba al obtener una vista previa de un mensaje para probar los elementos de personalización. Consulte [Vista previa de mensajes](/help/sending/using/previewing-messages.md).
+* Como **trampa**: El mensaje se envía al perfil de prueba tal como se envía al destino principal. Consulte [Uso de trampas](../../sending/using/using-traps.md).
+* Para **previsualizar** mensajes: Se puede seleccionar un perfil de prueba al obtener una vista previa de un mensaje para probar los elementos de personalización. Consulte [Vista previa de mensajes](/help/sending/using/previewing-messages.md).
 
 ![](assets/test_profile.png)
 
