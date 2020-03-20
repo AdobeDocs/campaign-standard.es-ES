@@ -13,7 +13,7 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
+source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
 ---
 
@@ -32,7 +32,7 @@ La forma en que se extraerán los datos se define al configurar la actividad. El
 
 >[!CAUTION]
 >
->Sólo se tienen en cuenta los archivos de estructura "planos", como los archivos .txt, .csv, etc., por ejemplo.
+>Sólo se tienen en cuenta los archivos de estructura &quot;planos&quot;, como .txt, .csv, etc., por ejemplo los archivos.
 
 Se puede:
 
@@ -95,7 +95,7 @@ La configuración de la actividad incluye dos pasos. En primer lugar, debe defin
       ![](assets/wkf_file_loading1.png)
 
 1. Si el archivo desde el que desea cargar los datos está comprimido en un archivo GZIP (.gz), seleccione la **[!UICONTROL Decompression]** opción en el **[!UICONTROL Add a pre-processing step]** campo. Esto le permite descomprimir el archivo antes de cargar los datos. Esta opción solo está disponible si el archivo procede de la transición de entrada de la actividad.
-1. La **[!UICONTROL Keep the rejects in a file]** opción le permite descargar un archivo que contenga errores producidos durante la importación y aplicarle una etapa posterior al procesamiento. Cuando se activa la opción, se cambia el nombre de la transición de salida a "Rechaza".
+1. La **[!UICONTROL Keep the rejects in a file]** opción le permite descargar un archivo que contenga errores producidos durante la importación y aplicarle una etapa posterior al procesamiento. Cuando se activa la opción, se cambia el nombre de la transición de salida a &quot;Rechaza&quot;.
 
    >[!NOTE]
    >
@@ -105,7 +105,7 @@ La configuración de la actividad incluye dos pasos. En primer lugar, debe defin
 
 1. Confirme la configuración de la actividad y guarde el flujo de trabajo.
 
-Si se produce algún error con la actividad después de ejecutar el flujo de trabajo, consulte los registros para obtener más detalles sobre los valores incorrectos en el archivo. For more on workflows logs, refer to [this section](../../automating/using/executing-a-workflow.md#monitoring)
+Si se produce algún error con la actividad después de ejecutar el flujo de trabajo, consulte los registros para obtener más detalles sobre los valores incorrectos en el archivo. For more on workflows logs, refer to [this section](../../automating/using/executing-a-workflow.md#monitoring).
 
 ## Formato de columna {#column-format}
 
@@ -143,7 +143,7 @@ El formato de columna permite definir el valor de procesamiento de cada columna:
    * **[!UICONTROL Reject the line when there is no remapping value]**:: la línea completa no se procesa a menos que se haya definido una asignación para el valor erróneo (consulte la **[!UICONTROL Remapping of values]** opción anterior).
    >[!NOTE]
    >
-   >**[!UICONTROL Error processing]** se refieren a errores relacionados con los valores del archivo importado. Por ejemplo, se encontró un tipo de datos defectuoso ("cuatro" en letras para una columna "Entero"), una cadena que contiene más caracteres que el número máximo autorizado, una fecha con separadores defectuosos, etc. Sin embargo, esta opción no afecta a los errores generados por la administración de valores vacía.
+   >**[!UICONTROL Error processing]** se refieren a errores relacionados con los valores del archivo importado. Por ejemplo, se encontró un tipo de datos defectuoso (&quot;cuatro&quot; en letras para una columna &quot;Entero&quot;), una cadena que contiene más caracteres que el número máximo autorizado, una fecha con separadores defectuosos, etc. Sin embargo, esta opción no afecta a los errores generados por la administración de valores vacía.
 
 * **[!UICONTROL Default value]**:: especifica el valor predeterminado según el procesamiento de errores elegido.
 * **[!UICONTROL Empty value management]**:: especifica cómo administrar valores vacíos durante la carga de datos.
