@@ -12,7 +12,7 @@ discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
 ---
 
@@ -95,9 +95,9 @@ Las actividades que se pueden personalizar con variables de eventos se detallan 
 
 ### Uso de variables de eventos {#using-events-variables}
 
-Las variables events se utilizan dentro de una expresión que debe respetar la sintaxis **[](../../automating/using/advanced-expression-editing.md#standard-syntax)** estándar.
+Las variables de eventos se utilizan dentro de una expresión que debe respetar la sintaxis **[](../../automating/using/advanced-expression-editing.md#standard-syntax)**estándar.
 
-La sintaxis para utilizar variables de eventos debe seguir el formato siguiente y utilizar el nombre del parámetro que se ha definido en la **[!UICONTROL External signal]** actividad (consulte [Declaración de parámetros en la actividad](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity)de señal externa):
+La sintaxis para utilizar variables de eventos debe seguir el formato siguiente y utilizar el nombre del parámetro que se ha definido en la **[!UICONTROL External signal]** actividad (consulte [Declaración de los parámetros en la actividad](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity)de señal externa):
 
 ```
 $(vars/@parameterName)
@@ -114,7 +114,7 @@ Cuando se utiliza una variable en una actividad, la interfaz proporciona ayuda p
 
 ![](assets/extsignal_callparameter.png)
 
-* ![](assets/extsignal_picker.png):: seleccione la variable events entre todas las variables disponibles en el flujo de trabajo (consulte ).
+* ![](assets/extsignal_picker.png):: seleccione la variable events entre todas las variables disponibles en el flujo de trabajo.
 
    ![](assets/wkf_test_activity_variables.png)
 
@@ -162,7 +162,7 @@ For more on how to use the activity, refer to the [dedicated section](../../auto
 >
 >Los valores de los parámetros de entrega se recuperan cada vez que se prepara la entrega.
 >
->La preparación de entregas recurrentes se basa en el período **de** agregación de envíos. Por ejemplo, si el período de agregación es "por día", la entrega se volverá a preparar sólo una vez al día. Si el valor de un parámetro de entrega se modifica durante el día, no se actualizará en la entrega, ya que ya se ha preparado una vez.
+>La preparación de entregas recurrentes se basa en el período **de** agregación de envíos. Por ejemplo, si el período de agregación es &quot;por día&quot;, la entrega se volverá a preparar sólo una vez al día. Si el valor de un parámetro de entrega se modifica durante el día, no se actualizará en la entrega, ya que ya se ha preparado una vez.
 >
 >Si planea llamar al flujo de trabajo varias veces al día, utilice la [!UICONTROL No aggregation] opción para que los parámetros de envío se actualicen cada vez. Para obtener más información sobre la configuración de envíos recurrentes, consulte [esta sección](/help/automating/using/email-delivery.md#configuration).
 
@@ -173,7 +173,7 @@ Para personalizar una entrega según las variables de eventos, primero debe decl
 
    ![](assets/extsignal_activities_delivery.png)
 
-1. Haga clic en el botón **.[!UICONTROL Confirm]**
+1. Haga clic en el botón **[!UICONTROL Confirm]**.
 
 Las variables de eventos declarados ya están disponibles en la lista de campos de personalización. Puede utilizarlos en la entrega para realizar las acciones siguientes:
 
@@ -311,7 +311,7 @@ Siga los pasos a continuación para configurar el flujo de trabajo:
 1. Seleccione la **[!UICONTROL External signal]** ficha y, a continuación, especifique el flujo de trabajo que se activará y su actividad de señal asociada.
 1. Defina los parámetros que desee utilizar en Workflow 2 y sus valores asociados.
 
-   En nuestro caso, queremos pasar los parámetros definidos originalmente en la llamada de API (**fileToTarget** y **descuentosDesc**), y un parámetro **segmentCode** adicional con un valor constante ("20% de descuento").
+   En nuestro caso, queremos pasar los parámetros definidos originalmente en la llamada de API (**fileToTarget** y **descuentosDesc**), y un parámetro **segmentCode** adicional con un valor constante (&quot;20% de descuento&quot;).
 
    ![](assets/extsignal_uc7.png)
 
