@@ -12,7 +12,7 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3be170b5e1560e0b48db02de4eeb5ea96b794b04
+source-git-commit: bee7ea0f1728da2a96c1f225b91b13a7903be660
 
 ---
 
@@ -56,7 +56,7 @@ Los posibles motivos de un error de envío son:
 
 * **[!UICONTROL User unknown]** (Tipo duro): la dirección no existe. No se intenta realizar envíos adicionales para este perfil.
 * **[!UICONTROL Quarantined address]** (Tipo duro): la dirección se puso en cuarentena.
-* **[!UICONTROL Unreachable]** (Tipo suave/duro): se ha producido un error en la cadena de entrega de mensajes (incidente en el relé SMTP, dominio temporalmente inaccesible, etc.). Según el error devuelto por el proveedor, la dirección se enviará directamente a cuarentena o la entrega se volverá a intentar hasta que Campaign reciba un error que justifique el estado de cuarentena o hasta que el número de errores alcance el 5.
+* **[!UICONTROL Unreachable]** (Tipo suave/duro): se ha producido un error en la cadena de entrega de mensajes (por ejemplo, no se puede acceder temporalmente al dominio). Según el error devuelto por el proveedor, la dirección se enviará directamente a cuarentena o la entrega se volverá a intentar hasta que Campaign reciba un error que justifique el estado de cuarentena o hasta que el número de errores alcance el 5.
 * **[!UICONTROL Address empty]** (Tipo duro): la dirección no está definida.
 * **[!UICONTROL Mailbox full]** (Tipo suave): el buzón de este usuario está lleno y no puede aceptar más mensajes. Esta dirección se puede eliminar de la lista de cuarentena para realizar otro intento. Se elimina automáticamente al cabo de 30 días.
 
