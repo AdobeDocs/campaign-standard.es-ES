@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 6f89b420f0f98c13da1bfff8f9b1b29e015aef89
 
 ---
 
@@ -24,7 +24,7 @@ El contenido y la visualización de los mensajes suministrados por Adobe Campaig
 * Insertar campos personalizados dinámicos. See [Inserting a personalization field](#inserting-a-personalization-field).
 * Insertar bloques de personalización predefinidos. Consulte [Adición de un bloque](#adding-a-content-block)de contenido.
 * Personalice el remitente de un correo electrónico. Consulte [Personalización del remitente](#personalizing-the-sender).
-* Personalice el asunto de un correo electrónico. See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
+* Personalice el asunto de un correo electrónico. See [Personalizing the subject line of an email](../../designing/using/subject-line.md#subject-line).
 * Cree contenido condicional. Consulte [Definición de contenido dinámico en un mensaje de correo electrónico](#defining-dynamic-content-in-an-email).
 
 ## Personalización del remitente {#personalizing-the-sender}
@@ -292,9 +292,9 @@ En el editor de expresiones, cuando se define un contenido dinámico, el orden d
 
 1. Puede definir dos contenidos dinámicos diferentes con **dos condiciones** diferentes, por ejemplo:
 
-   **** Condición 1: el sexo del perfil es masculino,
+   **Condición 1:** el sexo del perfil es masculino,
 
-   **** Condición 2: el perfil tiene entre 20 y 30 años.
+   **Condición 2:** el perfil tiene entre 20 y 30 años.
 
    ![](assets/delivery_content_61.png)
 
@@ -338,7 +338,7 @@ En este ejemplo, el contenido dinámico aplicado a las imágenes se configura de
 
    ![](assets/delivery_content_49.png)
 
-1. Seleccione el operador **Mayor o igual que** y, a continuación, escriba **18** para crear la expresión **anterior a 18** .
+1. Seleccione el operador **Bueno o igual** y, a continuación, escriba **18** para crear la expresión **anterior a 18** .
 
    ![](assets/delivery_content_50.png)
 
@@ -354,7 +354,7 @@ En este ejemplo, el contenido dinámico aplicado a las imágenes se configura de
 
 1. Seleccione el contenido dinámico de la paleta y edítelo.
 1. Edite la etiqueta y seleccione el **[!UICONTROL Age]** campo del **[!UICONTROL Profile]** nodo.
-1. Agregue el operador **Mayor que** seguido de 27 en el campo de valor para crear la expresión **anterior a 27** .
+1. Agregue el operador **Bueno que** seguido de 27 en el campo de valor para crear la expresión **anterior a 27** .
 
    ![](assets/delivery_content_52.png)
 
