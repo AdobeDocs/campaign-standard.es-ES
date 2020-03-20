@@ -12,14 +12,20 @@ discoiquuid: 8428f8ac-8ef5-46cd-9d93-10ec0ecd3ded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 92f6a176a5c0e712170c7d7ef5a993af18d77295
 
 ---
 
 
-# Vista previa de mensajes{#previewing-messages}
+# Vista previa de mensajes {#previewing-messages}
 
-Después de agregar perfiles de prueba en la **[!UICONTROL Audience]** ventana, puede obtener una vista previa del mensaje para comprobar su personalización y cómo verán la entrega los destinatarios.
+Campaign Standard le permite obtener una vista previa de los mensajes antes de enviarlos, con el fin de comprobar su personalización y cómo los verán los destinatarios.
+
+La vista previa de los mensajes se realiza con perfiles **de** prueba que se agregan al destino del mensaje.
+
+En el caso de los mensajes de **correo electrónico** , Campaign Standard permite obtener una vista previa de los mensajes con perfiles de objetivo en lugar de perfiles de prueba. Esto le permite obtener una representación exacta del mensaje que recibirá un perfil específico. Para obtener más información sobre esto, consulte [Prueba de mensajes de correo electrónico con perfiles](../../sending/using/testing-messages-using-target.md)de objetivo.
+
+Para obtener una vista previa de un mensaje con perfiles de prueba, siga estos pasos:
 
 1. En el Diseñador de [correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md), haga clic en el **[!UICONTROL Preview]** botón .
 
@@ -39,3 +45,8 @@ Después de agregar perfiles de prueba en la **[!UICONTROL Audience]** ventana, 
 
    ![](assets/sending_preview_edit.png)
 
+**Temas relacionados**
+
+* [Administración de perfiles de prueba](../../audiences/using/managing-test-profiles.md)
+* [Prueba de mensajes de correo electrónico con perfiles de objetivo](../../sending/using/testing-messages-using-target.md)
+* [Envío de pruebas](../../sending/using/sending-proofs.md)
