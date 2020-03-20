@@ -1,18 +1,18 @@
 ---
 title: Supervisión de suscripciones
 description: Obtenga información sobre cómo rastrear a los suscriptores y medir el éxito de los servicios mediante tableros e informes.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: b0d8eb80-fa51-4518-a5e6-56de4046f6ff
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: referencia
-topic-tags: administrar suscripciones
+content-type: reference
+topic-tags: managing-subscriptions
 discoiquuid: 36750524-eb54-47e8-aa1b-ae0b94f58cb1
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 80f6a384e99a7cebbe5c570f3273eceb393fd9b0
 
 ---
 
@@ -24,15 +24,15 @@ Utilice la interfaz de Adobe Campaign para realizar un seguimiento de los suscri
 Dispone de varias opciones para supervisar las suscripciones y las cancelaciones:
 
 * Vea la lista de personas suscritas actualmente a su servicio desde el panel de servicios. Consulte [Servicio de tablero](#service-dashboard).
-* consulte el historial de suscripciones y suscripciones desde la ficha Historial **de** suscripciones del panel de servicios. Consulte Historial [de suscripciones](#subscription-history).
-* muestre un informe que detalle la evolución de las suscripciones y las suscripciones en los **informes** de servicio. Consulte Informes [de servicio](#service-reports).
-* buscar la lista de servicios que una persona se ha suscrito desde su **perfil**. Consulte [Historial de eventos vinculados a un perfil](#history-of-events-linked-to-a-profile).
+* Consulte el historial de suscripciones y suscripciones desde la ficha Historial **de** suscripciones del panel de servicios. Consulte Historial [de suscripciones](#subscription-history).
+* Muestre un informe que detalle la evolución de las suscripciones y las suscripciones en los **informes** de servicio. Consulte Informes [de servicio](#service-reports).
+* Encuentre la lista de servicios que una persona se ha suscrito desde su **perfil**. Consulte [Historial de eventos vinculados a un perfil](#history-of-events-linked-to-a-profile).
 
 ## Panel de servicios {#service-dashboard}
 
 Para ver la lista de personas suscritas a un servicio:
 
-1. Vaya a la lista de servicios a través del menú avanzado **Perfiles y audiencias** &gt; **Servicios**, al que se puede acceder desde el logotipo de Adobe Campaign.
+1. Vaya a la lista de servicios a través del menú avanzado **Perfiles y audiencias** > **Servicios**, al que se puede acceder desde el logotipo de Adobe Campaign.
 1. Seleccione el servicio que desee para mostrar el tablero correspondiente.
 1. La lista de personas suscritas al servicio se encuentra en la ficha **Suscripciones** .
 
@@ -42,7 +42,7 @@ Para ver la lista de personas suscritas a un servicio:
 
 Para consultar el historial de suscripción y cancelación de suscripción:
 
-1. Vaya a la lista de servicios a través del menú avanzado **Perfiles y audiencias** &gt; **Servicios**, al que se puede acceder desde el logotipo de Adobe Campaign.
+1. Vaya a la lista de servicios a través del menú avanzado **Perfiles y audiencias** > **Servicios**, al que se puede acceder desde el logotipo de Adobe Campaign.
 1. Seleccione el servicio que desee para mostrar el tablero correspondiente.
 1. Seleccione la ficha Historial **de** suscripción para mostrar las fechas en las que cada persona se suscribió y canceló la suscripción.
 
@@ -52,7 +52,7 @@ Para consultar el historial de suscripción y cancelación de suscripción:
 
 Para mostrar un informe que detalle la evolución de las suscripciones y las suscripciones:
 
-1. Vaya a la lista de servicios a través del menú avanzado **Perfiles y audiencias** &gt; **Servicios**, al que se puede acceder desde el logotipo de Adobe Campaign.
+1. Vaya a la lista de servicios a través del menú avanzado **Perfiles y audiencias** > **Servicios**, al que se puede acceder desde el logotipo de Adobe Campaign.
 1. Seleccione el servicio que desee para mostrar el tablero correspondiente.
 1. Haga clic en el botón **Informes** en la barra de acciones y, a continuación, en la supervisión **de** suscripción en la pantalla de selección.
 
