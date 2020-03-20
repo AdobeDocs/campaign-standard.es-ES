@@ -12,7 +12,7 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b71d19672efe24040d676bbcff3f90177b3fbcae
+source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
 ---
 
@@ -206,7 +206,7 @@ Este ejemplo muestra cómo se puede predefinir un flujo de trabajo para reutiliz
 
       >[!NOTE]
       >
-      >Si planea enviar correos directos a estos perfiles, asegúrese de incluir una dirección postal, ya que esta información es esencial para el proveedor de correo directo. Asegúrese también de que la **[!UICONTROL Address specified]** casilla de la información de los perfiles está marcada. Para actualizar esta opción desde un flujo de trabajo, simplemente agregue un elemento a los campos para actualizar, especifique **1** como **[!UICONTROL Source]** y seleccione el campo **postalAddress/@addrDefined** como **[!UICONTROL Destination]**. Para obtener más información sobre el correo directo y el uso de la **[!UICONTROL Address specified]** opción, consulte [este documento](../../channels/using/about-direct-mail.md#recommendations).
+      >Si planea enviar correos directos a estos perfiles, asegúrese de incluir una dirección postal, ya que esta información es esencial para el proveedor de correo directo. Asegúrese también de que la **[!UICONTROL Address specified]** casilla de la información de los perfiles está marcada. Para actualizar esta opción desde un flujo de trabajo, simplemente agregue un elemento a los campos para actualizar, especifique **1** como **[!UICONTROL Source]** y seleccione el `postalAddress/@addrDefined` campo como **[!UICONTROL Destination]**. Para obtener más información sobre el correo directo y el uso de la **[!UICONTROL Address specified]** opción, consulte [este documento](../../channels/using/about-direct-mail.md#recommendations).
 
 1. Configure the **[!UICONTROL Deduplication]** activity located after the transition containing unreconciled profiles:
 
