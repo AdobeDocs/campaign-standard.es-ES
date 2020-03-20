@@ -13,7 +13,7 @@ context-tags: recipient,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
 
 ---
 
@@ -31,4 +31,3 @@ Adobe Campaign permite administrar los contactos durante todo el ciclo de vida: 
 Al crear campañas, puede definir el objetivo de los envíos seleccionando perfiles según criterios simples o avanzados. Técnicamente, un perfil es una entrada en la base de datos que contiene toda la información necesaria para dirigir, calificar y rastrear comportamientos.
 
 Un perfil puede ser: un cliente, un posible cliente, un individuo suscrito a un boletín, un destinatario, un usuario o cualquier otra denominación según la organización. Para definir varios tipos de perfiles, utilice dimensiones [de](../../automating/using/query.md#targeting-dimensions-and-resources)objetivo.
-
