@@ -10,7 +10,7 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
+source-git-commit: 8f3c8f9a167f11ba5ded2be34a50b52edeeb6412
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
 
 ![](assets/wf_externalAPI.png)
 
-La **[!UICONTROL External API]**actividad aporta datos al flujo de trabajo desde un sistema****externo mediante una llamada a la API** de **REST.
+La **[!UICONTROL External API]** actividad aporta datos al flujo de trabajo desde un sistema **** externo mediante una llamada a la API **de** REST.
 
 Los extremos REST pueden ser un sistema de administración de clientes, una instancia de [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html) o extremos de Experience Cloud REST (plataforma de datos, Target, Analytics, Campaign, etc.).
 
@@ -31,7 +31,7 @@ Los extremos REST pueden ser un sistema de administración de clientes, una inst
 
 >[!IMPORTANT]
 >
->Esta capacidad está actualmente en fase beta. Debe aceptar el contrato de uso antes de empezar a usar la actividad de API externa. Tenga en cuenta que, puesto que Adobe aún no ha lanzado esta funcionalidad beta en el mercado, Adobe Client Care no la admite, puede contener errores y no funcionar como así también otras funciones lanzadas.
+>Esta capacidad está actualmente en fase beta. Debe aceptar el contrato de uso antes de empezar a usar la actividad de API externa. Tenga en cuenta que, dado que Adobe aún no ha lanzado esta funcionalidad beta comercialmente, Adobe Client Care no la admite, puede contener errores y no funcionar como así también otras funciones lanzadas.
 
 Las principales características de esta actividad son:
 
@@ -41,8 +41,8 @@ Las principales características de esta actividad son:
 
 Se han establecido las siguientes barreras para esta actividad:
 
-* Límite de tamaño de datos de respuesta http de 5 MB
-* El tiempo de espera de la solicitud es de 60 segundos
+* Límite de tamaño de datos de respuesta http de 50 MB
+* El tiempo de espera de la solicitud es de 10 minutos
 * No se permiten redirecciones HTTP
 * Se rechazan las direcciones URL que no son HTTPS
 * &quot;Aceptar: application/json&quot; y &quot;Content-Type: el encabezado de respuesta &quot;application/json&quot; está permitido
@@ -53,7 +53,7 @@ Se han establecido las siguientes barreras para esta actividad:
 
 ## Configuración {#configuration}
 
-Arrastre y suelte una **[!UICONTROL External API]**actividad en el flujo de trabajo y abra la actividad para iniciar la configuración.
+Arrastre y suelte una **[!UICONTROL External API]** actividad en el flujo de trabajo y abra la actividad para iniciar la configuración.
 
 ### Asignación de entrada
 
