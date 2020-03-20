@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ffe6b34ec8d7a31ffcce1e725364a6ecf00f70a8
+source-git-commit: 73fd120c79130c3a4eff43bb080bde8dabe58032
 
 ---
 
@@ -24,6 +24,34 @@ Obtenga información sobre las últimas actualizaciones de la documentación de 
 Esta página enumera todas las nuevas funciones y actualizaciones de documentación de cada versión de Adobe Campaign Standard.
 
 También puede consultar las Notas de la [versión](../../rn/using/release-notes.md)de Adobe Campaign.
+
+## Versión 20.2 - Marzo de 2020 {#release-20-2---march-2020}
+
+**Nuevas funciones incluidas en la versión**
+
+Integración de blob de Azure: [Más información](../../administration/using/external-accounts.md#microsoft-azure-external-account)
+
+Dominio e interfaz de Experience Cloud unificada: [Más información](../../start/using/interface-description.md#top-bar)
+
+Pruebas de correo electrónico con perfiles de objetivo: [Más información](../../sending/using/testing-messages-using-target.md)
+
+**Otras actualizaciones de la documentación incluidas en la versión**
+
+Se ha añadido la limitación al procesamiento de mensajes en la aplicación. [Más información](../../channels/using/customizing-an-in-app-message.md)
+
+Se ha añadido información sobre cómo utilizar los agregados en una **[!UICONTROL Query]** actividad. [Más información](../../automating/using/query.md#adding-an-aggregate)
+
+Se ha agregado limitación con MCPNS al configurar una aplicación móvil. [Más información](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
+
+Se ha agregado una nueva sección de directrices de configuración a la guía Administración. La sección sobre exploradores y sistemas operativos compatibles se ha trasladado de la guía Introducción a esta sección. La nota técnica sobre los extremos de red de Campaign Standard también se ha agregado a esta sección. [Más información](../../administration/using/about-configuration-guidelines.md)
+
+Ya está disponible una nueva sección que describe cómo eliminar una configuración de evento. [Más información](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
+
+Se ha actualizado y mejorado la página que describe cómo probar la línea de asunto de un correo electrónico para predecir su velocidad de apertura, incluida una nueva sección de [solución de problemas](../../sending/using/testing-subject-line-email.md#troubleshooting) . [Más información](../../sending/using/testing-subject-line-email.md#troubleshooting)
+
+Las secciones de mensajes transaccionales se han actualizado para reflejar las ligeras actualizaciones y mejoras de la interfaz de usuario múltiple. [Más información](../../channels/using/about-transactional-messaging.md)
+
+Se ha actualizado la información relacionada con las protecciones de actividad de API externa. [Más información](../../automating/using/external-api.md)
 
 ## Actualizaciones de la documentación - Marzo de 2020 {#doc-updates-march-2020}
 
@@ -43,7 +71,7 @@ Se ha añadido información sobre la derecha **[!UICONTROL Workflow]** lista par
 
 Se ha añadido información sobre las **[!UICONTROL History in days field]** propiedades disponibles en los flujos de trabajo. [Más información](../../automating/using/executing-a-workflow.md)
 
-## Versión 20.1: febrero de 2019 {#release-20-1---february-2020}
+## Versión 20.1: febrero de 2020 {#release-20-1---february-2020}
 
 **Nuevas funciones incluidas en la versión**
 
@@ -281,7 +309,7 @@ Se ha agregado una nueva sección para describir el proceso de reintento de mens
 
 La sección Publicación de un recurso con extensión API se ha aclarado y actualizado con los últimos cambios en la interfaz de usuario. [Más información](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)
 
-Se ha cambiado el nombre de la sección de correos electrónicos de archivado y se ha reorganizado. [Más información](../../administration/using/configuring-email-channel.md#archiving-emails)
+Se ha cambiado el nombre de la sección de correos electrónicos de archivado y se ha reorganizado. [Más información](../../sending/using/archiving.md)
 
 La sección Creación de un correo electrónico se ha actualizado para reflejar los cambios más recientes en la interfaz. [Más información](../../channels/using/creating-an-email.md)
 
@@ -315,7 +343,7 @@ Se ha añadido una nueva sección en la que se comparan las distintas opciones d
 
 La sección Creación de bloques de contenido personalizado se ha mejorado con detalles sobre las dimensiones de objetivo. [Más información](../../designing/using/personalization.md#creating-custom-content-blocks)
 
-Se ha agregado una advertencia que indica que el Diseñador de correo electrónico no admite Internet Explorer 11. [Más información](../../start/using/compatible-browsers.md)
+Se ha agregado una advertencia que indica que el Diseñador de correo electrónico no admite Internet Explorer 11. [Más información](../../administration/using/compatible-browsers.md)
 
 Las advertencias sobre el impacto de la nueva redacción se han agregado a la sección Eliminar un recurso. [Más información](../../developing/using/deleting-a-resource.md)
 
@@ -377,7 +405,7 @@ Se ha añadido información sobre el nuevo campo en la actividad de actualizaci�
 
 Se ha actualizado la documentación de [importación de contenido desde una URL](../../designing/using/using-existing-content.md#importing-content-from-a-url) con información relacionada con el diseñador de correo electrónico.
 
-Microsoft Edge (versión más reciente) se agregó a la lista de exploradores compatibles para equipos. [Más información](../../start/using/compatible-browsers.md)
+Microsoft Edge (versión más reciente) se agregó a la lista de exploradores compatibles para equipos. [Más información](../../administration/using/compatible-browsers.md)
 
 Se ha añadido información sobre la nueva opción en la actividad de archivo de extracción que impide generar un archivo si la transición de entrada está vacía. [Más información](../../automating/using/extract-file.md)
 
