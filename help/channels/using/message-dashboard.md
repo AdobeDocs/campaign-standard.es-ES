@@ -13,7 +13,7 @@ context-tags: delivery,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 80f6a384e99a7cebbe5c570f3273eceb393fd9b0
 
 ---
 
@@ -96,7 +96,7 @@ A continuación se muestra una lista de los mensajes que se pueden mostrar:
 
    Si ve este mensaje, hay un problema en el nivel de definición de afinidad IP o en el nivel de proceso de envío. Póngase en contacto con el administrador de Adobe.
 
-* *&quot;Este mensaje transaccional es una plantilla de mensaje transaccional lista para usar. Si desea modificarla, debe duplicarla y trabajar con su copia&quot;.*
+* *&quot;Se trata de una plantilla de mensaje transaccional lista para usar. Si desea modificarla, debe duplicarla y trabajar con su copia&quot;.*
 
    Algunas de estas plantillas de mensajes transaccionales integradas son plantillas de página de aterrizaje integradas. For more on this, see [this section](../../channels/using/landing-page-templates.md).
 
