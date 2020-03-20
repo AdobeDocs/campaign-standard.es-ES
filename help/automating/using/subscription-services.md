@@ -1,19 +1,19 @@
 ---
 title: Servicios de suscripción
 description: La actividad Servicios de suscripción le permite tomar perfiles en masa y suscribirlos a un servicio o cancelarlos de un servicio.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 56637024-15ab-4145-9c48-3fbd27ab8af8
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: automatizar
-content-type: referencia
-topic-tags: gestión de datos-actividades
+audience: automating
+content-type: reference
+topic-tags: data-management-activities
 discoiquuid: 74a6df0e-fd85-4404-a42c-9a7406512717
 context-tags: setOfService,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
 ---
 
@@ -57,14 +57,14 @@ Si se especifica en un archivo a través de columnas dedicadas, esta actividad t
 
       En esta columna, la operación debe especificarse como booleana o como entero. Utilice **0** para cancelar la suscripción de un registro y **1** para suscribirse.
 
-      Si los valores contenidos en un archivo importado no coinciden con los requisitos anteriores, puede seguir utilizando la opción [Reasignación de valores](../../automating/using/load-file.md#column-format) disponible en la **[!UICONTROL Load file]** actividad
+      Si los valores contenidos en un archivo importado no coinciden con los requisitos anteriores, puede seguir utilizando la opción [Reasignación de valores](../../automating/using/load-file.md#column-format) disponible en la **[!UICONTROL Load file]** actividad.
 
-1. Si los datos de entrada contienen una columna correspondiente a la fecha de suscripción del perfil para el servicio, selecciónelo. Puede dejarlo vacío, pero no se establece ninguna fecha de suscripción al ejecutar el flujo de trabajo.
-1. Defina el origen de la suscripción. Puede definirlo en uno de los campos de los datos de entrada o en un valor constante de su elección marcando la **[!UICONTROL Set a constant as origin]** opción. Puede dejarlo vacío pero no se establece ningún origen al ejecutar el flujo de trabajo.
-1. Si es necesario, puede generar una transición de salida. Esta transición contiene exactamente los mismos datos que en la actividad entrante.
+1. Si los datos de entrada contienen una columna correspondiente a la fecha de suscripción del perfil para el servicio, selecciónela. Puede dejarlo vacío, pero no se establece ninguna fecha de suscripción al ejecutar el flujo de trabajo.
+1. Defina el origen de la suscripción. Puede definirlo en uno de los campos de los datos de entrada o en un valor constante de su elección marcando la **[!UICONTROL Set a constant as origin]** opción. Puede dejarlo vacío, pero no se establece ningún origen al ejecutar el flujo de trabajo.
+1. Si es necesario, puede generar una transición de salida. Esta transición contiene exactamente los mismos datos que en la actividad de entrada.
 1. Confirme la configuración de la actividad y guarde el flujo de trabajo.
 
-   Ahora está listo para ser ejecutado. Una vez ejecutados, puede ver los perfiles que se han suscrito o cancelado la suscripción al servicio en detalle.
+   Ahora está listo para ser ejecutado. Una vez ejecutados, puede ver los perfiles a los que se ha suscrito o cancelado la suscripción desde el servicio en detalle.
 
 ## Ejemplo: Suscripción de perfiles a un servicio específico después de importar un archivo {#example--subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
@@ -132,17 +132,17 @@ El flujo de trabajo se presenta de la siguiente manera:
 
    ![](assets/subscription_example_load_file.png)
 
-   Como puede haber notado, la operación se especifica en el archivo como "sub" o "unsub". El sistema espera que un valor **booleano** o **entero** reconozca la operación que se va a realizar: "0" para cancelar la suscripción y "1" para suscribirse. Para que coincida con este requisito, se realiza una reasignación de valores en los detalles de la columna "operación".
+   Como puede haber notado, la operación se especifica en el archivo como &quot;sub&quot; o &quot;unsub&quot;. El sistema espera que un valor **booleano** o **entero** reconozca la operación que se va a realizar: &quot;0&quot; para cancelar la suscripción y &quot;1&quot; para suscribirse. Para que coincida con este requisito, se realiza una reasignación de valores en los detalles de la columna &quot;operación&quot;.
 
    ![](assets/subscription_example_remapping.png)
 
-   Si el archivo ya utiliza "0" y "1" para identificar la operación, no es necesario volver a asignar esos valores. Solo asegúrese de que la columna se procesa como **booleano** o **entero** en la **[!UICONTROL Column definition]** ficha.
+   Si el archivo ya utiliza &quot;0&quot; y &quot;1&quot; para identificar la operación, no es necesario volver a asignar esos valores. Solo asegúrese de que la columna se procesa como **booleano** o **entero** en la **[!UICONTROL Column definition]** ficha.
 
 * Una **[!UICONTROL Reconciliation]** actividad identifica los datos del archivo como pertenecientes a la dimensión de perfil de la base de datos de Adobe Campaign. A través de la **[!UICONTROL Identification]** ficha, el campo de **correo electrónico** del archivo coincide con el campo de **correo electrónico** del recurso de perfil.
 
    ![](assets/subscription_activity_example3.png)
 
-   En la **[!UICONTROL Relations]** ficha, se crea un vínculo con el recurso de servicio para permitir que se reconozca el campo de **servicio** del archivo. En este ejemplo, los valores coinciden con el campo **name** del recurso de servicio.
+   En la **[!UICONTROL Relations]** ficha, se crea un vínculo con el recurso de servicio para permitir que se reconozca el campo de **servicio** del archivo. En este ejemplo, los valores coinciden con el campo de **nombre** del recurso de servicio.
 
    ![](assets/subscription_example_service_relation.png)
 
