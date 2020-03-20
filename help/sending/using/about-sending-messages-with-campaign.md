@@ -12,14 +12,14 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 6e605f1046ddcbad9b4e6f369ea5ecf7202f3def
 
 ---
 
 
 # Acerca del envío de mensajes con Campaign{#about-sending-messages-with-campaign}
 
-Una vez definido el objetivo y creado el contenido de un mensaje, debe probarlo y aprobarlo antes de enviarlo al destino principal. Para ello:
+Una vez definido el objetivo y creado el contenido de un mensaje, debe probarlo y aprobarlo antes de enviar el mensaje al destino principal. Para ello:
 
 * Obtenga una vista previa de la entrega mediante un perfil de prueba.
 * Programar el envío: definir cuándo enviar el mensaje.
