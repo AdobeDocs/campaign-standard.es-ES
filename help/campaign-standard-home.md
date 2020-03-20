@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Documentación del producto de Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 3fa3fac1ae34c5e53195ad1605be5d4e25f11318
+source-git-commit: 14f3ce8641785e88fc2b566c62089833713aa82e
 
 ---
 
@@ -15,11 +15,9 @@ source-git-commit: 3fa3fac1ae34c5e53195ad1605be5d4e25f11318
 
 ## Novedades
 
+* **[Prueba de correo electrónico con perfiles](sending/using/testing-messages-using-target.md)**de objetivo Obtenga información sobre cómo probar los mensajes de correo electrónico con perfiles de objetivo reales.
+
 * **[Administración de privacidad](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>Obtenga información sobre las herramientas proporcionadas por Adobe Campaign para ayudarle a cumplir con la privacidad.
-
-* **[Recomendaciones de entrega](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>Obtenga más información sobre las recomendaciones relacionadas con la creación y el envío de entregas.
-
-* **[Diseñador de correos electrónicos](designing/using/designing-content-in-adobe-campaign.md)**<br/>Consulte la documentación reorganizada del Diseñador de correos electrónicos.
 
 * **[Guía móvil de Campaign Standard](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>Obtenga más información sobre las directrices generales para envíos móviles.
 
