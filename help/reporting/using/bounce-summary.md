@@ -1,19 +1,19 @@
 ---
 title: Resumen de devoluciones
 description: Con el informe listo para usar del resumen de devoluciones, conozca el estado de las campañas enviadas y los errores que puedan haber encontrado.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 90087311-4236-4df9-ae7d-4a15c00c70ab
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: informes
-content-type: referencia
-topic-tags: lista de informes
+audience: reporting
+content-type: reference
+topic-tags: list-of-reports
 discoiquuid: 5ae561b4-03cf-4541-87ff-47f1027d53b8
-context-tags: bounceReport,principal;campaignCirculationReport,principal;programCirculationReport,principal
+context-tags: bounceReport,main;campaignCirculationReport,main;programCirculationReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: bee7ea0f1728da2a96c1f225b91b13a7903be660
 
 ---
 
@@ -32,7 +32,7 @@ La tabla **de motivos** de devolución contiene los datos disponibles para los t
 
 * **[!UICONTROL User unknown]**:: Tipo de error generado cuando se envía una entrega a una dirección de correo electrónico no válida.
 * **[!UICONTROL Invalid domain]**:: Tipo de error generado cuando se envía una entrega a una dirección de correo electrónico cuyo dominio es incorrecto o ya no existe.
-* **[!UICONTROL Unreachable]**:: Tipo de error encontrado en la cadena de envío del mensaje. Por ejemplo: incidente de retransmisión SMTP, dominio temporalmente inaccesible, etc.
+* **[!UICONTROL Unreachable]**:: El tipo de error encontrado en la cadena de envío del mensaje, como dominio temporalmente inaccesible.
 * **[!UICONTROL Account disabled]**:: Tipo de error generado cuando se envía una entrega a una dirección de correo electrónico que ya no existe.
 * **[!UICONTROL Mailbox full]**:: Tipo de error generado cuando la bandeja de entrada del destinatario está llena. Hay cinco intentos de enviar el mensaje antes de que se genere este error.
 * **[!UICONTROL Not connected]**:: Tipo de error generado cuando el teléfono móvil del destinatario está apagado o no está conectado a una red en el momento en que se envía el mensaje.
