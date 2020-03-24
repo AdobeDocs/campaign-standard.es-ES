@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Documentación del producto de Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 14f3ce8641785e88fc2b566c62089833713aa82e
+source-git-commit: a6e81927aad7bf06eca6d0dc7436c4dc2a1c21c5
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 14f3ce8641785e88fc2b566c62089833713aa82e
 
 ## Novedades
 
-* **[Prueba de correo electrónico con perfiles](sending/using/testing-messages-using-target.md)**de objetivo Obtenga información sobre cómo probar los mensajes de correo electrónico con perfiles de objetivo reales.
+* **[Prueba de correo electrónico con perfiles](sending/using/testing-messages-using-target.md)**<br/>de objetivo Obtenga información sobre cómo probar los mensajes de correo electrónico con perfiles de objetivo reales.
 
 * **[Administración de privacidad](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>Obtenga información sobre las herramientas proporcionadas por Adobe Campaign para ayudarle a cumplir con la privacidad.
 
