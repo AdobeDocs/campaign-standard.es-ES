@@ -170,8 +170,8 @@ Puede acceder al mensaje transaccional que se creó directamente desde el víncu
 También debe integrar este evento de activación en el sitio web. Consulte [Integración del activador del evento en un sitio web](#integrating-the-triggering-of-the-event-in-a-website).
 
 <!-->>[!NOTE]
->Para consultar las publicaciones anteriores, en su caso, haga clic en el **[!UICONTROL Latest transactional events]** vínculo situado debajo de la **[!UICONTROL History]** sección en el área izquierda.—>
->
+>Para consultar las publicaciones anteriores, en su caso, haga clic en el **[!UICONTROL Latest transactional events]** vínculo situado debajo de la **[!UICONTROL History]** sección en el área izquierda.-->
+
 ### Cancelación de la publicación de un evento {#unpublishing-an-event}
 
 El **[!UICONTROL Unpublish]** botón permite cancelar la publicación del evento, lo que elimina de la API de REST el recurso correspondiente al evento que creó anteriormente. Ahora, incluso si el evento se activa a través de su sitio web, los mensajes correspondientes ya no se envían y no se almacenan en la base de datos.
