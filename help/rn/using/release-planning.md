@@ -43,7 +43,7 @@ Las actualizaciones de Entorno se producen en olas, durante los intervalos de ti
  <tbody> 
   <tr> 
    <td> Fase<br /> </td> 
-   <td> 1 a 2 de abril de 2020<br /> </td> 
+   <td> 31 de marzo - 1 de abril de 2020<br /> </td> 
   </tr> 
   <tr> 
    <td> Producción<br /> </td> 
