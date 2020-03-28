@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 73fd120c79130c3a4eff43bb080bde8dabe58032
+source-git-commit: c4500832b87e986cdbbbf72b9b8c0591f64f7da8
 
 ---
 
@@ -21,17 +21,15 @@ source-git-commit: 73fd120c79130c3a4eff43bb080bde8dabe58032
 
 Obtenga información sobre las últimas actualizaciones de la documentación de Adobe Campaign Standard.
 
-Esta página enumera todas las nuevas funciones y actualizaciones de documentación de cada versión de Adobe Campaign Standard.
+Esta página lista todas las nuevas funciones y actualizaciones de documentación de cada versión de Adobe Campaign Standard.
 
-También puede consultar las Notas de la [versión](../../rn/using/release-notes.md)de Adobe Campaign.
+También puede consultar las [Notas](../../rn/using/release-notes.md)de la versión de Adobe Campaign.
 
 ## Versión 20.2 - Marzo de 2020 {#release-20-2---march-2020}
 
 **Nuevas funciones incluidas en la versión**
 
 Integración de blob de Azure: [Más información](../../administration/using/external-accounts.md#microsoft-azure-external-account)
-
-Dominio e interfaz de Experience Cloud unificada: [Más información](../../start/using/interface-description.md#top-bar)
 
 Pruebas de correo electrónico con perfiles de objetivo: [Más información](../../sending/using/testing-messages-using-target.md)
 
@@ -51,7 +49,7 @@ Se ha actualizado y mejorado la página que describe cómo probar la línea de a
 
 Las secciones de mensajes transaccionales se han actualizado para reflejar las ligeras actualizaciones y mejoras de la interfaz de usuario múltiple. [Más información](../../channels/using/about-transactional-messaging.md)
 
-Se ha actualizado la información relacionada con las protecciones de actividad de API externa. [Más información](../../automating/using/external-api.md)
+Se ha actualizado la información relacionada con las barreras de actividad de API externas. [Más información](../../automating/using/external-api.md)
 
 ## Actualizaciones de la documentación - Marzo de 2020 {#doc-updates-march-2020}
 
@@ -61,15 +59,15 @@ Se ha movido y actualizado la sección dedicada al archivado con Email BCC. [Má
 
 La documentación de Configuración de una aplicación móvil y las páginas relacionadas se han actualizado para reflejar la depreciación del SDK V4. [Más información](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq)
 
-Se ha actualizado y mejorado la documentación de integración de Adobe Campaign Standard/Adobe Experience Manager. [Más información](../../integrating/using/configure-experience-manager.md)
+Se ha actualizado y mejorado la documentación sobre la integración de Adobe Campaign Standard/Adobe Experience Manager. [Más información](../../integrating/using/configure-experience-manager.md)
 
-La documentación de Campaign Email Designer y las páginas relacionadas se han actualizado para reflejar la depreciación de Adobe Creative SDK. [Más información](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+La documentación del Diseñador de correo electrónico de Campaña y las páginas relacionadas se han actualizado para reflejar la depreciación del SDK creativo de Adobe. [Más información](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
 Ya está disponible una nueva sección dedicada a las optimizaciones del modelo de datos de Campaign Standard. [Más información](../../developing/using/data-model-best-practices.md)
 
 Se ha añadido información sobre la derecha **[!UICONTROL Workflow]** lista para usar. [Más información](../../administration/using/list-of-roles.md)
 
-Se ha añadido información sobre las **[!UICONTROL History in days field]** propiedades disponibles en los flujos de trabajo. [Más información](../../automating/using/executing-a-workflow.md)
+Se ha añadido información sobre las **[!UICONTROL History in days field]** propiedades de los flujos de trabajo disponibles. [Más información](../../automating/using/executing-a-workflow.md)
 
 ## Versión 20.1: febrero de 2020 {#release-20-1---february-2020}
 
@@ -77,7 +75,7 @@ Se ha añadido información sobre las **[!UICONTROL History in days field]** pro
 
 Conector de datos de la plataforma Adobe Experience (beta): [Más información](../../administration/using/aep-about-data-connector.md)
 
-Destinos de audiencia (beta): [Más información](../../audiences/using/aep-about-audience-destinations-service.md)
+Destinos de Audiencia (beta): [Más información](../../audiences/using/aep-about-audience-destinations-service.md)
 
 **Otras actualizaciones de la documentación incluidas en la versión**
 
@@ -91,31 +89,31 @@ Se ha añadido información sobre cómo definir un huso horario específico para
 
 Se ha añadido información en la guía Trabajo con API sobre el parámetro new **_forcePagination=true** , que le permite realizar paginación en tablas grandes. [Más información](../../api/using/pagination.md)
 
-Hay disponible una nueva sección que describe las advertencias que se pueden mostrar en un tablero de mensajes. [Más información](../../channels/using/message-dashboard.md#warnings)
+Hay disponible una nueva sección que describe las advertencias que se pueden mostrar en un panel de mensajes. [Más información](../../channels/using/message-dashboard.md#warnings)
 
-Ya está disponible la documentación de MTA mejorada de Adobe Campaign, que describe la infraestructura de envío actualizada, lo que permite mejorar la capacidad de entrega, el rendimiento y la gestión de devoluciones. [Más información](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
+Ya está disponible la documentación de MTA mejorada de Adobe Campaign, que describe la infraestructura de envío mejorada, lo que permite mejorar la capacidad de entrega, el rendimiento y la gestión de devoluciones. [Más información](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
 
-Se han agregado notas para indicar que las direcciones URL del servidor de aplicaciones y del servidor de páginas espejo deben ser seguras para que la página de aterrizaje y las vistas previas de páginas reflejadas se muestren desde la interfaz de usuario de Campaign. [Más información](../../administration/using/branding.md#configuring-and-using-brands)
+Se han agregado notas para indicar que las direcciones URL del servidor de aplicaciones y del servidor de página espejo deben ser seguras para que las previsualizaciones de página de aterrizaje y página espejo se muestren desde la interfaz de usuario de la Campaña. [Más información](../../administration/using/branding.md#configuring-and-using-brands)
 
-La sección de registros de exportación se ha actualizado para reflejar la disponibilidad del ID del registro de envío en los recursos de registros de envío y seguimiento, lo que permite exportar un identificador único para cada registro. [Más información](../../automating/using/exporting-logs.md)
+La sección Exportar registros se ha actualizado para reflejar la disponibilidad del ID de registro de Envíos en los recursos de Registros de envío y Registros de seguimiento, lo que permite exportar un identificador único para cada registro. [Más información](../../automating/using/exporting-logs.md)
 
 ## Actualizaciones de documentación - Enero de 2020 {#doc-updates-january-2020}
 
 La documentación sobre la entrega se ha actualizado con una nueva sección sobre la certificación de IP. [Más información](../../sending/using/ip-certification.md)
 
-Hay disponible una nueva sección que describe cómo crear un flujo de trabajo de entrega multicanal. [Más información](../../automating/using/workflow-cross-channel-delivery.md)
+Hay disponible una nueva sección que describe cómo crear un flujo de trabajo de envío entre canales. [Más información](../../automating/using/workflow-cross-channel-delivery.md)
 
 Se ha actualizado la sección Cálculo de indicadores para los informes dinámicos. [Más información](../../reporting/using/indicator-calculation.md)
 
-Se ha añadido una nueva página sobre las directrices generales para los envíos con dispositivos móviles en Adobe Campaign Standard. [Más información](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
+Se ha añadido una nueva página sobre las directrices generales para envíos móviles en Adobe Campaign Standard. [Más información](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
 
-La documentación de Trabajar con Campaign y Experience Manager se ha actualizado con una nueva sección **Sugerencias sobre cómo utilizar la integración** de Campaign-Experience Manager. [Más información](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
+La documentación de Trabajo con Campaña y Experience Manager se ha actualizado con una nueva sección **Sugerencias sobre cómo utilizar la integración** de Campaña y Experience Manager. [Más información](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
 
 La página de inicio de la documentación de las API se ha mejorado con redirecciones a los diferentes temas. [Más información](../../api/using/about-campaign-standard-apis.md)
 
 ## Actualizaciones de documentación - diciembre de 2019 {#doc-updates-december-2019}
 
-Se ha actualizado la documentación de Configuración de cuentas externas S3. [Más información](../../administration/using/external-accounts.md#amazon-s3-external-account)
+Se ha actualizado la documentación sobre la configuración de la cuenta externa S3. [Más información](../../administration/using/external-accounts.md#amazon-s3-external-account)
 
 Se ha reorganizado la sección Diseño del contenido del correo electrónico. [Más información](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -133,13 +131,13 @@ La documentación del Panel de control se ha integrado en el nuevo conjunto de d
 
 Se ha actualizado la tabla de cálculo **de** indicadores. [Más información](../../reporting/using/indicator-calculation.md)
 
-El conjunto de documentación de las API se ha integrado en la documentación de Campaign Standard.[Más información](../../api/using/about-campaign-standard-apis.md)
+El conjunto de documentación de las API se ha integrado en la documentación del Campaign Standard.[Más información](../../api/using/about-campaign-standard-apis.md)
 
 La guía de introducción a la creación de un correo electrónico personalizado se ha movido y actualizado. [Más información](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
 
-Se ha actualizado la guía de introducción a las optimizaciones de entrega. [Más información](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+Se ha actualizado la guía de introducción a las optimizaciones de Envío. [Más información](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
-El modelo de datos se ha integrado en la documentación de Campaign Standard. [Más información](../../developing/using/datamodel-audience.md)
+El modelo de datos se ha integrado en la documentación del Campaign Standard. [Más información](../../developing/using/datamodel-audience.md)
 
 El nuevo extremo **o customResources** de la API se ha agregado a la documentación de la API.[Más información](../../api/using/interacting-with-custom-resources.md)
 
@@ -159,9 +157,9 @@ La guía de introducción al RGPD se ha mejorado y enriquecido. Ahora es una doc
 
 Se ha añadido un nuevo gráfico que presenta el proceso de publicación de mensajes transaccionales. [Más información](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
 
-La guía de introducción a las optimizaciones de entrega se ha movido y actualizado. [Más información](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+La guía de introducción a las optimizaciones de Envío se ha movido y actualizado. [Más información](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
-Se ha añadido una nueva sección. Proporciona información general sobre los diferentes métodos que permiten enriquecer la base de datos de Campaign Standard. [Más información](../../start/using/enriching-campaign-database.md)
+Se ha añadido una nueva sección. Proporciona una visión general de los diferentes métodos que permiten enriquecer la base de datos Campaign Standard. [Más información](../../start/using/enriching-campaign-database.md)
 
 Se ha añadido una nueva sección en la que se describe cómo aplicar estilo a los vínculos con el Diseñador de correo electrónico. [Más información](../../designing/using/styles.md#about-styling-links)
 
@@ -175,17 +173,17 @@ Se ha añadido una nueva sección que describe cómo enviar un correo electróni
 
 La sección Mensajería transaccional se ha modificado con las últimas actualizaciones de la interfaz de usuario, incluida la edición de contenido con el Diseñador de correo electrónico. [Más información](../../channels/using/event-transactional-messages.md)
 
-El capítulo de las páginas de aterrizaje se ha reorganizado. También se ha enriquecido con una nueva sección que detalla los pasos para configurar una página de aterrizaje. [Más información](../../channels/using/getting-started-with-landing-pages.md)
+Se ha reorganizado el capítulo páginas de aterrizaje. También se ha enriquecido con una nueva sección en la que se detallan los pasos para establecer una página de aterrizaje. [Más información](../../channels/using/getting-started-with-landing-pages.md)
 
 ## Actualizaciones de documentación - septiembre de 2019 {#doc-updates-september-2019}
 
-Se ha añadido una nueva sección en la sección Notificaciones push sobre cómo crear y actualizar la información de perfil en función de los datos de suscripción de la aplicación móvil. [Más información](../../channels/using/updating-profile-with-mobile-app-data.md)
+Se ha añadido una nueva sección en la sección Notificaciones push sobre cómo crear y actualizar información de perfil basada en datos de suscripción de aplicaciones móviles. [Más información](../../channels/using/updating-profile-with-mobile-app-data.md)
 
 Se ha añadido un nuevo ejemplo que muestra cómo enviar un correo electrónico que contiene datos adicionales recuperados de una actividad de archivo de carga. [Más información](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
 
 Se ha añadido una nueva sección sobre cómo utilizar las trampas. [Más información](../../sending/using/using-traps.md).
 
-Se ha añadido una nota sobre la opción **Launch_URL_Campaign** en la página sobre cómo configurar una aplicación móvil mediante los SDK de la plataforma de experiencia de Adobe. [Más información](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
+Se ha añadido una nota sobre la opción **Launch_URL_Campaña** en la página sobre cómo configurar una aplicación móvil con los SDK de la plataforma de experiencia de Adobe. [Más información](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
 Se ha reorganizado la guía de Email Designer. [Más información](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -193,7 +191,7 @@ Se ha reorganizado la guía de Email Designer. [Más información](../../designi
 
 Se ha añadido una nueva sección con casos de uso en flujos de trabajo centrados en consultas. [Más información](../../automating/using/workflow-created-query-with-complement.md)
 
-Se agregó un procedimiento en la sección de solución de problemas del flujo de trabajo para mostrar las consultas SQL en la ficha Registro. [Más información](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
+Se ha agregado un procedimiento en la sección de solución de problemas del flujo de trabajo sobre cómo mostrar consultas SQL en la ficha Registro. [Más información](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
 Se ha agregado un nuevo artículo de ayuda, con información relacionada con la administración de subdominios y certificados dentro del Panel de control. [Más información](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
 
@@ -215,15 +213,15 @@ La Guía de implementación de Campaign Standard ya está activa.[Más informaci
 
 Se ha creado un conjunto de nuevos artículos de ayuda sobre la implementación y el uso del conector de Microsoft Dynamics 365. Tenga en cuenta que esta función se encuentra actualmente en Disponibilidad limitada.[Más información](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
 
-Se ha añadido una nota en la sección [Llamar a un flujo de trabajo con parámetros](../../automating/using/calling-a-workflow-with-external-parameters.md) sobre la preparación de la entrega y su período de agregación.
+Se ha añadido una nota en la sección [Llamar a un flujo de trabajo con parámetros](../../automating/using/calling-a-workflow-with-external-parameters.md) sobre la preparación de envíos y su período de agregación.
 
-Se agregó información sobre cómo personalizar la etiqueta de una entrega con variables de evento que se han declarado en la actividad de señal externa del flujo de trabajo. [Más información](../../automating/using/external-signal.md)
+Se ha añadido información sobre cómo personalizar la etiqueta de un envío con variables de evento que se han declarado en la actividad de señal externa del flujo de trabajo. [Más información](../../automating/using/external-signal.md)
 
 Se ha añadido una nueva sección que detalla cómo crear un usuario en Adobe Campaign Standard. [Más información](../../administration/using/users-management.md)
 
-Ahora hay disponible un nuevo artículo con sugerencias para simplificar las campañas de marketing, incluidos vínculos a documentación del producto y vídeos de tutoriales.[Más información](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html)
+Ahora hay disponible un nuevo artículo con sugerencias para simplificar las campañas de marketing, incluidos vínculos a la documentación del producto y vídeos de tutoriales.[Más información](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html)
 
-Se ha añadido una solución de problemas para los informes dinámicos. [Más información](../../reporting/using/troubleshooting.md)
+Se ha añadido una solución de problemas para el Sistema de informes dinámico. [Más información](../../reporting/using/troubleshooting.md)
 
 Se ha añadido un diagrama que explica cómo gestionan la información personal las distintas plantillas en la aplicación. [Más información](../../channels/using/preparing-and-sending-an-in-app-message.md)
 
@@ -239,19 +237,19 @@ Se ha añadido una nueva sección sobre las prácticas recomendadas del flujo de
 
 Se ha actualizado la lista de mensajes de error para Campaign Standard y Classic. [Más información](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
-Se ha añadido una advertencia en la documentación de recursos personalizada. Se recomienda usar un máximo de 30 caracteres para los ID de recursos personalizados. Esto también se aplica a campos de recursos personalizados, claves, índices y vínculos. [Más información](../../developing/using/creating-or-extending-the-resource.md)
+Se Añadió una advertencia en la documentación de recursos personalizada. Se recomienda usar un máximo de 30 caracteres para los ID de recursos personalizados. Esto también se aplica a campos de recursos personalizados, claves, índices y vínculos. [Más información](../../developing/using/creating-or-extending-the-resource.md)
 
 ## Actualizaciones de documentación - julio de 2019 {#doc-updates-2019}
 
-Se ha agregado una nueva página en las limitaciones de la página de aterrizaje. [Más información](../../channels/using/getting-started-with-landing-pages.md#landing-page-limitations)
+Añadió una nueva página sobre limitaciones de Página de aterrizaje. [Más información](../../channels/using/getting-started-with-landing-pages.md#landing-page-limitations)
 
 Se agregó un caso de uso sobre cómo llamar a un perfil mediante una clave de identificación compuesta. [Más información](../../developing/using/uc-calling-resource-id-key.md)
 
-Se ha agregado una recomendación con respecto al uso de entregas recurrentes sin período de agregación al llamar a un flujo de trabajo con parámetros. [Más información](../../automating/using/calling-a-workflow-with-external-parameters.md)
+Se ha agregado una recomendación con respecto al uso de envíos recurrentes sin período de agregación al llamar a un flujo de trabajo con parámetros. [Más información](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
 Se ha actualizado la lista de mensajes de error para Campaign Standard y Classic. [Más información](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
-Se ha añadido una advertencia en la documentación de recursos personalizada. Se recomienda usar un máximo de 30 caracteres para los ID de recursos personalizados. Esto también se aplica a campos de recursos personalizados, claves, índices y vínculos. [Más información](../../developing/using/creating-or-extending-the-resource.md)
+Se Añadió una advertencia en la documentación de recursos personalizada. Se recomienda usar un máximo de 30 caracteres para los ID de recursos personalizados. Esto también se aplica a campos de recursos personalizados, claves, índices y vínculos. [Más información](../../developing/using/creating-or-extending-the-resource.md)
 
 ## Versión 19.2: mayo de 2019 {#release-19-2---may-2019}
 
@@ -261,9 +259,9 @@ Panel de control - [Más información](https://docs.adobe.com/content/help/en/co
 
 Notificaciones locales - [Más información](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
-Mejora del flujo de trabajo: agregue una carga útil a la actividad de señal externa. [Más información](../../automating/using/calling-a-workflow-with-external-parameters.md)
+Mejora del flujo de trabajo: Añada una carga útil a la actividad de señal externa. [Más información](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
-Mejora de las páginas de aterrizaje - Google reCAPTCHA - [Más información](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)
+Mejora de Páginas de aterrizaje - Google reCAPTCHA - [Más información](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)
 
 **Otras actualizaciones de la documentación incluidas en la versión**
 
@@ -273,31 +271,31 @@ Se ha publicado un nuevo artículo de Planificación de versiones para compartir
 
 Se han actualizado los vínculos de ayuda contextuales disponibles directamente desde Adobe Campaign.
 
-La siguiente [página](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) se convierte en la página oficial de vídeos de Adobe Campaign Standard.
+La siguiente [página](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) se convierte en la página oficial de videos de Adobe Campaign Standard.
 
-Se ha agregado una sección sobre retención de datos que incluye los valores de retención predeterminados para las tablas estándar. [Más información](../../administration/using/data-retention.md)
+Se Añadió una sección sobre retención de datos que incluye los valores de retención predeterminados para las tablas estándar. [Más información](../../administration/using/data-retention.md)
 
-Se ha agregado una sección sobre actualizaciones y operaciones de mantenimiento. [Más información](../../administration/using/updates-and-maintenance-operations.md)
+Se Añadió una sección sobre actualizaciones y operaciones de mantenimiento. [Más información](../../administration/using/updates-and-maintenance-operations.md)
 
-Se agregó información sobre la nueva opción de ordenación en la actividad de archivos **de** transferencia. [Más información](../../automating/using/transfer-file.md)
+Se agregó información sobre la nueva opción de ordenación en la actividad de archivos **** Transferir. [Más información](../../automating/using/transfer-file.md)
 
 Se ha actualizado la documentación [de las API de](../../api/using/about-campaign-standard-apis.md) REST:
 
-* Se ha añadido una nueva sección con información genérica sobre por qué utilizar las API de REST de Campaign Standard.
+* Se agregó una nueva sección con información genérica sobre por qué utilizar las API de Campaign Standard REST.
 * Se ha puesto a disposición una colección de solicitudes de API prediseñadas que representan casos de uso comunes.
 * Se agregó una nueva sección sobre cómo administrar las unidades organizativas.
 * Se agregó información sobre cómo crear un servicio.
 * Se agregó información sobre cómo llamar a un flujo de trabajo con parámetros.
 
-Se agregó información sobre la nueva actividad de **prueba** . [Más información](../../automating/using/test.md)
+Se agregó información sobre la nueva actividad **de pruebas** . [Más información](../../automating/using/test.md)
 
-La guía de automatización se ha actualizado con vínculos a actividades relacionadas con el flujo de trabajo. [Más información](../../automating/using/workflow-interface.md#palette)
+La guía Automatización se ha actualizado con vínculos a actividades de flujo de trabajo relacionadas. [Más información](../../automating/using/workflow-interface.md#palette)
 
 Se ha actualizado la sección Cálculo de indicadores para los informes dinámicos. [Más información](../../reporting/using/indicator-calculation.md)
 
-Se ha agregado una tabla de compatibilidad de informes dinámicos para comprender mejor la compatibilidad entre dimensiones y métricas. [Más información](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)
+Se ha agregado una tabla de compatibilidad dinámica de sistemas de informes para comprender mejor la compatibilidad entre dimensiones y métricas. [Más información](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)
 
-Se ha actualizado la lista de funciones para flujos de trabajo. [Más información](../../automating/using/list-of-functions.md)
+Se ha actualizado la lista de las funciones de los flujos de trabajo. [Más información](../../automating/using/list-of-functions.md)
 
 El capítulo Diseño de contenido se ha reorganizado y mejorado con una nueva sección que describe claramente los diferentes métodos para diseñar un correo electrónico con el Diseñador de correo electrónico utilizando el contenido existente. [Más información](../../designing/using/using-existing-content.md)
 
@@ -305,7 +303,7 @@ Se ha añadido una nueva sección sobre cómo guardar el contenido del correo el
 
 La sección Administración de vínculos se ha actualizado con información adicional sobre cómo administrar las direcciones URL rastreadas en el Diseñador de correo electrónico. [Más información](../../designing/using/links.md#inserting-a-link)
 
-Se ha agregado una nueva sección para describir el proceso de reintento de mensajes transaccionales específico. [Más información](../../channels/using/event-transactional-messages.md#transactional-message-retry-process)
+Se ha agregado una nueva sección para describir el proceso de reintento de mensaje transaccional específico. [Más información](../../channels/using/event-transactional-messages.md#transactional-message-retry-process)
 
 La sección Publicación de un recurso con extensión API se ha aclarado y actualizado con los últimos cambios en la interfaz de usuario. [Más información](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)
 
@@ -313,7 +311,7 @@ Se ha cambiado el nombre de la sección de correos electrónicos de archivado y 
 
 La sección Creación de un correo electrónico se ha actualizado para reflejar los cambios más recientes en la interfaz. [Más información](../../channels/using/creating-an-email.md)
 
-El artículo del protocolo de conector [SMS y la configuración](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) de la Base de conocimiento se han actualizado con la nueva opción agregada a la cuenta externa de SMS para limitar el número de instancias de MTA permitidas para conectarse al proveedor de SMPP.
+El artículo del protocolo de conector [SMS y la configuración](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) de la Base de conocimiento se han actualizado con la nueva opción agregada a la cuenta externa SMS para limitar el número de instancias de MTA permitidas para conectarse al proveedor de SMPP.
 
 La Guía de introducción se ha enriquecido y reorganizado. [Más información](../../start/using/campaign-orchestration.md)
 
@@ -325,7 +323,7 @@ Se ha actualizado y mejorado la sección de integración de Dreamweaver. [Más i
 
 **Nuevas funciones incluidas en la versión**
 
-Mejoras en los informes de canal push: [Más información](../../reporting/using/push-notification-report.md)
+Mejoras en el Sistema de informes del Canal push: [Más información](../../reporting/using/push-notification-report.md)
 
 Iniciar la integración para aplicaciones móviles: [Más información](../../administration/using/configuring-a-mobile-application.md#using-adobe-experience-platform-sdk)
 
@@ -339,9 +337,9 @@ La nueva experiencia de integración para crear contenido de correo electrónico
 
 Se ha añadido una nueva sección sobre las limitaciones de mensajería transaccionales. [Más información](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
 
-Se ha añadido una nueva sección en la que se comparan las distintas opciones de creación de correo electrónico en Adobe Campaign. [Más información](../../designing/using/using-integrations.md#email-design-options-comparison)
+Se ha añadido una nueva sección que compara las diferentes opciones de creación de correo electrónico en Adobe Campaign. [Más información](../../designing/using/using-integrations.md#email-design-options-comparison)
 
-La sección Creación de bloques de contenido personalizado se ha mejorado con detalles sobre las dimensiones de objetivo. [Más información](../../designing/using/personalization.md#creating-custom-content-blocks)
+La sección Creación de bloques de contenido personalizado se ha mejorado con detalles sobre dimensiones de segmentación. [Más información](../../designing/using/personalization.md#creating-custom-content-blocks)
 
 Se ha agregado una advertencia que indica que el Diseñador de correo electrónico no admite Internet Explorer 11. [Más información](../../administration/using/compatible-browsers.md)
 
@@ -349,9 +347,9 @@ Las advertencias sobre el impacto de la nueva redacción se han agregado a la se
 
 Se ha actualizado el capítulo sobre cómo agregar o ampliar un recurso. [Más información](../../developing/using/creating-or-extending-the-resource.md)
 
-Se agregó un caso de uso sobre cómo ampliar el recurso personalizado de perfiles. [Más información](../../developing/using/extending-the-profile-resource-with-a-new-field.md)
+Se agregó un caso de uso sobre cómo extender el recurso personalizado de perfiles. [Más información](../../developing/using/extending-the-profile-resource-with-a-new-field.md)
 
-Se agregó información sobre cómo vincular recursos personalizados. [Más información](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources)
+Se Añadió información sobre cómo vincular recursos personalizados. [Más información](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources)
 
 Se ha añadido una nueva nota técnica sobre cómo mostrar una imagen desde una notificación push de Adobe Campaign Standard. [Más información](https://helpx.adobe.com/content/help/en/campaign/kb/display-image-push.html)
 
@@ -359,23 +357,23 @@ Se ha agregado una nueva nota técnica sobre la implementación del seguimiento 
 
 Se ha actualizado la lista de mensajes de error para Campaign Standard y Classic. [Más información](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
-Se ha actualizado la documentación de integración de Triggers - Campaign. [Más información](../../integrating/using/about-adobe-experience-cloud-triggers.md)
+Se ha actualizado la documentación sobre la integración de activadores y Campañas. [Más información](../../integrating/using/about-adobe-experience-cloud-triggers.md)
 
-Actualización de los vínculos de ayuda contextuales disponibles directamente desde Adobe Campaign.
+Actualización de los vínculos contextuales de ayuda disponibles directamente desde Adobe Campaign.
 
-Se agregó una nota sobre la adición de una marca de hora en el nombre del archivo que contiene los rechazos. [Más información](../../automating/using/load-file.md#configuration)
+Añadió una nota sobre la adición de una marca de hora en el nombre del archivo que contiene los rechazos. [Más información](../../automating/using/load-file.md#configuration)
 
-Se agregó información al importar campos compuestos por columnas de longitud fija. [Más información](../../automating/using/load-file.md#configuration)
+Información Añadida al importar campos formados por columnas de longitud fija. [Más información](../../automating/using/load-file.md#configuration)
 
-Se ha añadido información sobre la opción que permite mantener los rechazados en un archivo. Esta opción ahora le permite aplicar una etapa posterior al procesamiento al archivo que contiene los rechazos. [Más información](../../automating/using/load-file.md#configuration)
+Se Añadió información sobre la opción que permite mantener los rechazos en un archivo. Esta opción ahora le permite aplicar una etapa posterior al procesamiento al archivo que contiene los rechazos. [Más información](../../automating/using/load-file.md#configuration)
 
-Se ha añadido una nueva sección sobre cómo duplicar actividades de flujo de trabajo mediante operaciones de copiar y pegar. [Más información](../../automating/using/workflow-interface.md#duplicating-workflow-activities)
+Se ha Añadido una nueva sección sobre cómo realizar duplicados de actividades de flujo de trabajo mediante operaciones de copiar y pegar. [Más información](../../automating/using/workflow-interface.md#duplicating-workflow-activities)
 
-Se ha añadido información sobre la nueva opción en las actividades Consulta ( [Más](../../automating/using/query.md)información) y Segmentación ( [Más](../../automating/using/segmentation.md)información), que permite agregar una transición de salida después de la actividad si no recupera ningún dato.
+Se ha Añadido información sobre la nueva opción de las actividades Consulta ( [Leer más](../../automating/using/query.md)) y Segmentación ( [Leer más](../../automating/using/segmentation.md)), que permite agregar una transición saliente después de la actividad si no recupera ningún dato.
 
-Se ha añadido información en la sección Actualizar actividad de datos del nuevo campo Tamaño de lote que permite definir el tamaño máximo de lote de los datos que se van a cargar. [Más información](../../automating/using/update-data.md#configuration)
+Se Añadió información en la sección Actualizar actividad de datos del nuevo campo Tamaño de lote que permite definir el tamaño máximo de lote para los datos que se van a cargar. [Más información](../../automating/using/update-data.md#configuration)
 
-Se ha añadido información en la sección de actividad de archivos de extracción sobre la nueva opción que permite desactivar el proceso de generación de archivos si la transición saliente está vacía. [Más información](../../automating/using/extract-file.md#configuration)
+Se Añadió información en la sección actividad de archivos de Extract sobre la nueva opción que permite desactivar el proceso de generación de archivos si la transición saliente está vacía. [Más información](../../automating/using/extract-file.md#configuration)
 
 ## Versión 19.0: enero de 2019 {#release-19-0---january-2019}
 
@@ -385,7 +383,7 @@ Disponibilidad general de Email Designer: [Más información](../../designing/us
 
 Listados de productos en correos electrónicos transaccionales: [Más información](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
-Vista móvil en el Diseñador de correo electrónico: [Más información](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)
+Vista móvil en el diseñador de correos electrónicos: [Más información](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)
 
 Mejoras en la versión beta de la mensajería en la aplicación: [Más información](../../channels/using/about-in-app-messaging.md)
 
@@ -395,19 +393,19 @@ La guía de diseño de contenido se ha actualizado para reflejar la disponibilid
 
 Se ha actualizado la documentación [de notificaciones](../../channels/using/about-in-app-messaging.md) en la aplicación y [push](../../channels/using/about-push-notifications.md) .
 
-Se ha añadido más información sobre los distintos tipos de audiencias en Adobe Campaign. [Más información](../../audiences/using/about-audiences.md)
+Añadió más información sobre los diferentes tipos de audiencias en el Adobe Campaign. [Más información](../../audiences/using/about-audiences.md)
 
 Se ha actualizado el capítulo Usuarios y seguridad para reflejar la depreciación de las unidades geográficas. [Más información](../../administration/using/organizational-units.md)
 
-Se ha añadido información sobre la nueva opción de la actividad Cargar datos que permite aplicar una etapa posterior al procesamiento al archivo que contiene los registros rechazados (por ejemplo, Compresión en formato zip). [Más información](../../automating/using/load-file.md)
+Se ha Añadido información sobre la nueva opción de la actividad Cargar datos que permite aplicar una etapa posterior al procesamiento al archivo que contiene los registros rechazados (por ejemplo, Compresión en formato zip). [Más información](../../automating/using/load-file.md)
 
-Se ha añadido información sobre el nuevo campo en la actividad de actualización de datos que permite configurar el tamaño máximo de lote de los datos que se van a cargar. [Más información](../../automating/using/update-data.md)
+Se Añadió información sobre el nuevo campo en la actividad de datos Actualizar que permite configurar el tamaño máximo de lote de los datos que se van a cargar. [Más información](../../automating/using/update-data.md)
 
 Se ha actualizado la documentación de [importación de contenido desde una URL](../../designing/using/using-existing-content.md#importing-content-from-a-url) con información relacionada con el diseñador de correo electrónico.
 
-Microsoft Edge (versión más reciente) se agregó a la lista de exploradores compatibles para equipos. [Más información](../../administration/using/compatible-browsers.md)
+Microsoft Edge (versión más reciente) se agregó a la lista de navegadores compatibles para equipos. [Más información](../../administration/using/compatible-browsers.md)
 
-Se ha añadido información sobre la nueva opción en la actividad de archivo de extracción que impide generar un archivo si la transición de entrada está vacía. [Más información](../../automating/using/extract-file.md)
+Se Añadió información sobre la nueva opción de la actividad Extraer archivo que impide generar un archivo si la transición de entrada está vacía. [Más información](../../automating/using/extract-file.md)
 
 La sección Configuración de una aplicación móvil mediante SDK V4 se ha movido [aquí](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html).
 
@@ -429,7 +427,7 @@ Integración de Adobe Launch para aplicaciones móviles (beta): [Más informaci�
 
 Se ha actualizado la guía de notificaciones Push con cambios en la interfaz. [Más información](../../channels/using/about-push-notifications.md)
 
-Se ha añadido información sobre cómo eliminar una audiencia. [Más información](../../audiences/using/creating-audiences.md#deleting-audiences)
+Información Añadida sobre cómo eliminar una audiencia. [Más información](../../audiences/using/creating-audiences.md#deleting-audiences)
 
 Se ha actualizado la sección de informes predeterminados de notificaciones Push. [Más información](../../reporting/using/push-notification-report.md)
 
@@ -443,39 +441,39 @@ Importación automática de contenido desde una dirección URL en tiempo de prep
 
 **Otras actualizaciones de la documentación incluidas en la versión**
 
-Se ha añadido una nueva nota técnica sobre el protocolo y la configuración del conector SMS. [Más información](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)
+Añadió una nueva nota técnica sobre el protocolo y la configuración del conector SMS. [Más información](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)
 
-Se ha actualizado la documentación de la integración de Experience Manager con Adobe Campaign. [Más información](../../reporting/using/creating-a-custom-profile-dimension.md)
+Se ha actualizado la integración de Experience Manager con la documentación de Adobe Campaign. [Más información](../../reporting/using/creating-a-custom-profile-dimension.md)
 
 La guía &quot;Diseño de contenido&quot; se ha reorganizado completamente, especialmente para presentar los dos editores que le permiten diseñar contenido para correos electrónicos. [Más información](../../designing/using/designing-content-in-adobe-campaign.md)
 
 Aprenda a hacer que el contenido externo se pueda editar completamente con el SDK creativo creando fragmentos a partir de los correos electrónicos existentes. [Más información](../../designing/using/designing-from-scratch.md)
 
-La lista de atributos HTML para la compatibilidad total con Creative Designer ya está disponible en esta [sección](../../designing/using/using-existing-content.md#editing-existing-contents-with-the-email-designer).
+La lista de los atributos HTML para la compatibilidad total con Creative Designer ya está disponible en esta [sección](../../designing/using/using-existing-content.md#editing-existing-contents-with-the-email-designer).
 
-Se ha añadido información sobre el idioma predeterminado de la plantilla multilingüe. [Más información](../../channels/using/multilingual-messages-template.md)
+Información Añadida sobre el idioma predeterminado de la plantilla multilingüe. [Más información](../../channels/using/multilingual-messages-template.md)
 
-La guía Usuarios y seguridad se ha actualizado para reflejar la depreciación de la capacidad de unidad geográfica de las nuevas instancias de Campaign Standard, así como las instancias existentes sin crear unidades geográficas, a partir de la versión 18.7. [Más información](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+La guía Usuarios y seguridad se ha actualizado para reflejar la depreciación de la capacidad de la unidad geográfica en las nuevas instancias de Campaign Standard, así como en las instancias existentes sin crear unidades geográficas, a partir de la versión 18.7. [Más información](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
 ## Versión 18.6: junio de 2018 {#release-18-6---june-2018}
 
 **Nuevas funciones incluidas en la versión**
 
-La documentación de la API se actualizó con información sobre la API de **historial** . Se agregó un caso de uso sobre cómo recuperar la página de reflejo para una entrega enviada a un perfil. [Más información](../../api/using/interacting-with-marketing-history.md)
+La documentación de la API se actualizó con información sobre la API de **historial** . Se agregó un caso de uso sobre cómo recuperar la página espejo de un envío enviado a un perfil. [Más información](../../api/using/interacting-with-marketing-history.md)
 
 **Otras actualizaciones de la documentación incluidas en la versión**
 
-Se ha actualizado y reorganizado la documentación de integración de Triggers - Campaign. [Más información](../../integrating/using/about-adobe-experience-cloud-triggers.md)
+Se ha actualizado y reorganizado la documentación sobre la integración de activadores y Campañas. [Más información](../../integrating/using/about-adobe-experience-cloud-triggers.md)
 
-Se ha añadido un caso de uso paso a paso sobre cómo crear una dimensión de perfil personalizada. [Más información](../../reporting/using/creating-a-custom-profile-dimension.md)
+Se Añadió un caso de uso paso a paso sobre cómo crear una dimensión de perfil personalizada. [Más información](../../reporting/using/creating-a-custom-profile-dimension.md)
 
-Se ha reorganizado la documentación del servicio principal Trabajar con Campaign y Audience Manager o Personas. [Más información](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
+Se ha reorganizado la documentación de trabajo con el administrador de Campañas y Audiencias o con el servicio principal Personas. [Más información](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
-Se ha actualizado la definición de la función Preparar entregas. [Más información](../../administration/using/list-of-roles.md)
+Se ha actualizado la definición de la función Preparar envíos. [Más información](../../administration/using/list-of-roles.md)
 
-Se ha agregado un ejemplo en la sección de actividad de consulta sobre cómo dirigirse a los perfiles que hicieron clic en un vínculo específico en una entrega. [Más información](../../automating/using/query.md#targeting-profiles-who-clicked-a-specific-link-)
+Se Añadió un ejemplo en la sección actividad de consultas sobre cómo destinatario de perfiles que hicieron clic en un vínculo específico de un envío. [Más información](../../automating/using/query.md#targeting-profiles-who-clicked-a-specific-link-)
 
-Se ha añadido una sección en la documentación de la API relacionada con los filtros **** personalizados. [Más información](../../api/using/filtering.md)
+Se Añadió una sección de la documentación de API relacionada con filtros **** personalizados. [Más información](../../api/using/filtering.md)
 
 ## Versión 18.5: mayo de 2018 {#release-18-5---may-2018}
 
@@ -483,33 +481,33 @@ Se ha añadido una sección en la documentación de la API relacionada con los f
 
 RGPD: Integración de servicios principales: [Más información](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
 
-Mejoras de inserción: comentarios de entrega detallados: [Más información](../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification)
+Mejoras de inserción: comentarios detallados sobre el envío. [Más información](../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification)
 
-Extensión de registros de envío: [Más información](../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension)
+Extensión de Registros de envío: [Más información](../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension)
 
-Informes dinámicos con datos de perfil personalizados - [Más información](../../channels/using/creating-a-multilingual-push-notification.md)
+sistema de informes dinámico con datos de perfil personalizados: [Más información](../../channels/using/creating-a-multilingual-push-notification.md)
 
 **Otras actualizaciones de la documentación incluidas en la versión**
 
-Se ha añadido la lista de métricas de campaña que se encuentra en Analytics. [Más información](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
+Añadió la lista de las métricas de Campaña que se encuentran en Analytics. [Más información](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 
-Se agregó información sobre la opción Licencias en el menú Administración. [Más información](../../administration/using/licenses.md)
+Se Añadió información sobre la opción Licencias en el menú Administración. [Más información](../../administration/using/licenses.md)
 
-Se ha añadido información sobre cómo usar campos personalizados en una notificación push. [Más información](../../channels/using/customizing-a-push-notification.md#add-custom-fields)
+Información Añadida sobre cómo utilizar campos personalizados en una notificación push. [Más información](../../channels/using/customizing-a-push-notification.md#add-custom-fields)
 
-Se ha actualizado la guía paso a paso de prácticas recomendadas de entrega. [Más información](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html)
+Se ha actualizado la guía paso a paso de prácticas recomendadas de envío. [Más información](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html)
 
-Se agregó información sobre los tipos de registro de seguimiento. [Más información](../../sending/using/tracking-messages.md#tracking-logs)
+Información Añadida sobre los tipos de registro de seguimiento. [Más información](../../sending/using/tracking-messages.md#tracking-logs)
 
-La sección de actividad de consulta se ha actualizado con ejemplos de consultas. [Más información](../../automating/using/query.md#query-samples)
+La sección actividad de consulta se ha actualizado con ejemplos de consulta. [Más información](../../automating/using/query.md#query-samples)
 
-La sección dedicada a la lista negra se ha cambiado a &quot;Explicación de los procesos de inclusión y exclusión&quot;. Se ha actualizado con información sobre cómo administrar la inclusión en canales específicos y cómo configurar las páginas de aterrizaje para administrar la inclusión y la exclusión. [Más información](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+La sección dedicada a la lista negra se ha cambiado a &quot;Explicación de los procesos de inclusión y exclusión&quot;. Se ha actualizado con información sobre cómo administrar la inclusión en canales específicos y cómo configurar páginas de aterrizaje para administrar la inclusión y la exclusión. [Más información](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Conozca las prácticas recomendadas para utilizar los servidores SFTP alojados por Adobe. [Más información](../../administration/using/external-accounts.md#sftp-external-account)
 
-Se ha actualizado la lista de SKU de Analytics compatibles para la integración con Triggers. [Más información](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-solutions-and-services)
+Se ha actualizado la lista de SKU de Analytics compatibles para la integración con activadores. [Más información](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-solutions-and-services)
 
-Algunas páginas de la documentación del editor de contenido se han combinado para ofrecer una vista más completa de las diferentes acciones disponibles. [Más información](../../designing/using/designing-content-in-adobe-campaign.md)
+Algunas páginas de la documentación del editor de contenido se han fusionado para oferta de una vista más completa de las diferentes acciones disponibles. [Más información](../../designing/using/designing-content-in-adobe-campaign.md)
 
 ## Versión 18.3: marzo de 2018 {#release-18-3---march-2018}
 
@@ -519,7 +517,7 @@ Reglamento general de protección de datos de la UE (RGPD) - [Más información]
 
 Creative Designer para correo electrónico: [Más información](../../designing/using/designing-content-in-adobe-campaign.md)
 
-Entregas push multilingües: [Más información](../../channels/using/creating-a-multilingual-push-notification.md)
+Envíos push multilingües - [Leer más](../../channels/using/creating-a-multilingual-push-notification.md)
 
 Uso de recursos personalizados en la mensajería transaccional - [Más información](../../administration/using/configuring-transactional-messaging.md)
 
@@ -527,21 +525,21 @@ Uso de recursos personalizados en la mensajería transaccional - [Más informaci
 
 La API de GDPR reagrupa funciones que permiten el procesamiento automático de solicitudes de GDPR. [Más información](../../api/using/creating-a-privacy-request.md)
 
-Se agregó información sobre cómo configurar las páginas de aterrizaje para que los destinatarios puedan quedar bloqueados. [Más información](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+Información Añadida sobre cómo configurar páginas de aterrizaje para que sus destinatarios puedan ser en la lista negra. [Más información](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 Se ha reorganizado la sección [Configuración de mensajes](../../administration/using/configuring-transactional-messaging.md) transaccionales y se ha agregado un caso [de uso](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) paso a paso.
 
-Se ha agregado una nota técnica para aprender a generar un archivo CSV multilingüe para utilizarlo en las notificaciones push. [Más información](https://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html).
+Se ha Añadido una nota técnica para aprender a generar un archivo CSV multilingüe para utilizarlo en las notificaciones push. [Más información](https://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html).
 
-Se ha añadido información sobre la plantilla de importación de **Actualizar cuarentena de correo directo y registros** de entrega. [Más información](../../automating/using/defining-import-templates.md)
+Información Añadida sobre la plantilla de importación **Actualizar cuarentenas de Correo postal y registros de envío** . [Más información](../../automating/using/defining-import-templates.md)
 
-Se ha actualizado la lista técnica de flujo de trabajo. [Más información](../../administration/using/technical-workflows.md)
+Se ha actualizado la lista técnica del flujo de trabajo. [Más información](../../administration/using/technical-workflows.md)
 
-Se ha actualizado la sección de actividad del programador. [Más información](../../automating/using/scheduler.md)
+Se ha actualizado la sección actividad del Planificador. [Más información](../../automating/using/scheduler.md)
 
-Se ha actualizado la lista de materiales de ayuda sobre Campaign y la integración de soluciones de Adobe. [Más información](../../integrating/using/about-campaign-integrations.md).
+Se ha actualizado la lista de materiales de ayuda sobre la Campaña y la integración de soluciones de Adobe. [Más información](../../integrating/using/about-campaign-integrations.md).
 
-Se ha actualizado la ayuda contextual de Campaign Standard en el producto.
+Se ha actualizado la ayuda contextual del Campaign Standard en el producto.
 
 ## Versión 18.2: febrero de 2018 {#release-18-2---february-2018}
 
@@ -549,71 +547,71 @@ Se ha actualizado la ayuda contextual de Campaign Standard en el producto.
 
 Suscripción - suscripción o cancelación de la suscripción de una lista de perfiles a varios servicios - [Más información](../../automating/using/subscription-services.md)
 
-Actividad de enriquecimiento: enriquecer datos basados en transiciones anteriores. [Más información](../../automating/using/enrichment.md)
+actividad de Enriquecimiento: enriquecer datos basados en transiciones anteriores. [Más información](../../automating/using/enrichment.md)
 
 **Otras actualizaciones de la documentación incluidas en la versión**
 
-¡La mayoría de las direcciones URL para las integraciones de soluciones de Adobe y Campaign han cambiado! ¡Revisa tus marcadores! [Más información](../../integrating/using/about-campaign-integrations.md)
+¡La mayoría de las direcciones URL para integraciones de soluciones de Adobe y Campaña han cambiado! ¡Revisa tus marcadores! [Más información](../../integrating/using/about-campaign-integrations.md)
 
 El modelo de datos v1 ya está disponible con la estructura SQL para los recursos predeterminados. [Más información](https://docs.campaign.adobe.com/doc/standard/en/datamodel/datamodel.html)
 
-Se ha añadido información sobre cómo preparar un mensaje en una entrega [Más información](../../sending/using/preparing-the-send.md)
+Información Añadida sobre cómo preparar un mensaje en un envío [Más información](../../sending/using/preparing-the-send.md)
 
-Las notas de la versión se han reorganizado en varias páginas para obtener una vista más global de las distintas versiones.
+Las notas de la versión se han reorganizado en varias páginas para obtener una vista más global de las diferentes versiones.
 
 La sección **[!UICONTROL Working with typologies]** se ha actualizado para mejorar la visibilidad. [Más información](../../administration/using/about-typology-rules.md)
 
 Ya está disponible una nueva opción que permite obtener rendimiento al definir muchos datos adicionales en un **[!UICONTROL Query]** archivo. [Más información](../../automating/using/query.md)
 
-El ejemplo de importación de perfiles se ha actualizado con algunas sugerencias para que los perfiles estén listos para recibir correos directos. [Más información](../../automating/using/importing-data.md)
+El ejemplo de importación de perfil se ha actualizado con algunas sugerencias para que sus perfiles estén listos para recibir correos directos. [Más información](../../automating/using/importing-data.md)
 
-Hay una nueva actividad disponible en los flujos de trabajo: la **[!UICONTROL Enrichment]** actividad. [Más información](../../automating/using/enrichment.md)
+Hay una nueva actividad disponible en flujos de trabajo: la **[!UICONTROL Enrichment]** actividad. [Más información](../../automating/using/enrichment.md)
 
-La **[!UICONTROL Subscription Services]** actividad se ha actualizado para admitir más casos de uso, incluido el uso de un solo archivo para actualizar las suscripciones a varios servicios. [Más información](../../automating/using/subscription-services.md)
+La **[!UICONTROL Subscription Services]** actividad se ha actualizado para admitir más casos de uso, incluido el uso de un solo archivo para actualizar suscripciones a varios servicios. [Más información](../../automating/using/subscription-services.md)
 
-Se ha añadido un caso de uso paso a paso sobre cómo preparar una entrega. [Más información](../../sending/using/preparing-the-send.md)
+Se Añadió un caso de uso paso a paso sobre cómo preparar un envío. [Más información](../../sending/using/preparing-the-send.md)
 
 Se ha eliminado la sección que incluye la lista de autorizaciones. [Más](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf) información (PDF).
 
-Se ha añadido un caso de uso paso a paso sobre cómo usar la respuesta automática de SMS. [Más información](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
+Se Añadió un caso de uso paso a paso sobre cómo usar la respuesta automática de SMS. [Más información](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
-Se ha añadido información sobre cómo enviar una entrega en función de los husos horarios de los usuarios en un flujo de trabajo recurrente. [Más información](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow)
+Se Añadió información sobre cómo enviar un envío en función de los husos horarios de los usuarios en un flujo de trabajo recurrente. [Más información](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow)
 
 Se ha reorganizado la sección **[!UICONTROL Customizing a push notification]** con casos de uso paso a paso. [Más información](../../channels/using/customizing-a-push-notification.md)
 
 Nueva sección dedicada a la administración de listas negras. [Más información](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
-Se ha actualizado la información sobre fallos de entrega y cuarentena. [Más información](../../sending/using/monitoring-a-delivery.md)
+Se ha actualizado la información sobre errores y cuarentenas de envío. [Más información](../../sending/using/monitoring-a-delivery.md)
 
-Nuevas secciones dedicadas a asignaciones [de](../../administration/using/target-mappings-in-campaign.md) destino y dimensiones y recursos [de](../../automating/using/query.md#targeting-dimensions-and-resources)objetivo.
+Nuevas secciones dedicadas a [asignaciones de destino](../../administration/using/target-mappings-in-campaign.md) , [dimensiones de segmentación y recursos](../../automating/using/query.md#targeting-dimensions-and-resources).
 
 ## Versión 18.1: enero de 2018 {#release-18-1---january-2018}
 
 **Nuevas funciones incluidas en la versión**
 
-Informes para la gestión de fatiga - [Más información](../../administration/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report)
+Sistema de informes para la gestión de la fatiga - [Leer más](../../administration/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report)
 
 Uso compartido de informes: [Más información](../../reporting/using/reporting-interface.md#share-tab)
 
 Mejoras de inserción: lea más [aquí](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification) y [aquí](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios)
 
-Entregas optimizadas para zonas horarias: [Más información](../../automating/using/scheduler.md)
+envíos optimizados para zonas horarias: [Más información](../../automating/using/scheduler.md)
 
-Activación de la actividad de señal de API: [Más información](../../api/using/triggering-a-signal-activity.md)
+Activación de actividad de señal de API: [Más información](../../api/using/triggering-a-signal-activity.md)
 
 **Otras actualizaciones de la documentación incluidas en la versión**
 
 Se ha actualizado la sección de creación de servicios. [Más información](../../audiences/using/creating-a-service.md)
 
-Se agregaron casos de uso para comprender mejor los grupos y las unidades de seguridad. [Más información](../../administration/using/organizational-units.md)
+Casos de uso Añadidos para una mejor comprensión de los grupos y unidades de seguridad. [Más información](../../administration/using/organizational-units.md)
 
 Se han mejorado las definiciones y cálculos de dimensiones, métricas y segmentos en los informes dinámicos. [Más información](../../reporting/using/list-of-components-.md)
 
-Se agregó información sobre la recuperación de mensajes SMS entrantes con un flujo de trabajo. [Más información](../../administration/using/configuring-sms-channel.md)
+Información Añadida sobre la recuperación de mensajes SMS entrantes con un flujo de trabajo. [Más información](../../administration/using/configuring-sms-channel.md)
 
-Se ha añadido información sobre la configuración de Historias de la actividad del archivo de transferencia. [Más información](../../automating/using/transfer-file.md)
+Se Añadió información sobre la configuración de Historias de la actividad de archivos de transferencia. [Más información](../../automating/using/transfer-file.md)
 
-Se han actualizado las instrucciones para configurar la integración con Audience Manager o el servicio principal Personas. [Más información](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+Se han actualizado las instrucciones para configurar la integración con el Administrador de Audiencias o el servicio principal Personas. [Más información](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 ## Versión 17.10: octubre de 2017 {#release-17-10---october-2017}
 
@@ -631,19 +629,19 @@ Nueva nota técnica sobre cómo crear o actualizar datos de perfil cuando una ap
 
 Se ha añadido una sección sobre las nuevas funciones de seguimiento de exportación. [Más información](../../administration/using/auditing-export-logs.md)
 
-Se han añadido precisiones sobre la exportación de paquetes lista para usar. [Más información](../../automating/using/managing-packages.md)
+Precisiones Añadidas sobre la exportación de paquetes lista para usar. [Más información](../../automating/using/managing-packages.md)
 
-Se han actualizado la definición y los ejemplos de cuentas externas. [Más información](../../administration/using/external-accounts.md)
+Se han actualizado la definición y los ejemplos de cuenta externa. [Más información](../../administration/using/external-accounts.md)
 
 Se han actualizado varias capturas de pantalla para reflejar los cambios en las categorías del editor de consultas.
 
-Se ha movido y reorganizado la sección [Envío de alertas](../../sending/using/receiving-alerts-when-failures-happen.md) .
+La sección de alertas [de](../../sending/using/receiving-alerts-when-failures-happen.md) Envío se ha movido y reorganizado.
 
 La sección &quot;Recursos personalizados&quot; se ha aclarado con un procedimiento más detallado sobre cómo [definir filtros](../../developing/using/configuring-filter-definition.md).
 
 Se ha actualizado y aclarado la [nota técnica](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) sobre cómo integrar el SDK de Adobe Marketing Cloud Mobile con una aplicación móvil para recibir notificaciones push de Adobe Campaign Standard.
 
-Se ha añadido una nota técnica que explica la estructura de la carga útil recibida en una aplicación móvil. [Más información.](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)
+Se ha Añadido una nota técnica que explica la estructura de la carga útil recibida en una aplicación móvil. [Más información.](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)
 
 La [sección](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) de configuración de canal push se ha actualizado con nuevos datos de carga útil en la versión del SO para añadirlos al definir postbacks en la interfaz de Adobe Mobile Services.
 
@@ -661,29 +659,29 @@ Se ha añadido información sobre los filtros simples y múltiples en la API. [M
 
 Biblioteca de plantillas de correo electrónico: [Más información](../../designing/using/using-reusable-content.md#content-templates)
 
-Informes dinámicos con datos de perfil: [Más información](../../reporting/using/about-dynamic-reports.md)
+sistema de informes dinámico con datos de perfil: [Más información](../../reporting/using/about-dynamic-reports.md)
 
 Mejora de la suscripción masiva: [Más información](../../automating/using/subscription-services.md)
 
 **Otras actualizaciones de la documentación incluidas en la versión**
 
-Lista detallada de todos los componentes disponibles en Informes dinámicos y algunos cambios en las fórmulas. [Más información](../../reporting/using/list-of-components-.md)
+lista detallada de todos los componentes disponibles en Informes dinámicos y algunos cambios en las fórmulas. [Más información](../../reporting/using/list-of-components-.md)
 
-Lista detallada de KPI compartidos con Adobe Analytics. [Más información](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
+lista detallada de KPI compartidos con Adobe Analytics. [Más información](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 
 Nuevo vídeo de informe dinámico. [Más información](../../start/using/how-to-videos.md)
 
-Se agregaron recomendaciones de cuenta S3. [Más información](../../administration/using/external-accounts.md#amazon-s3-account-recommendations)
+Recomendaciones de cuenta S3 Añadidas. [Más información](../../administration/using/external-accounts.md#amazon-s3-account-recommendations)
 
 Se ha actualizado la sección sobre los distintos tipos de usuarios. [Más información](../../administration/using/users-management.md)
 
 Se ha actualizado la sección sobre personalización del origen de imagen. [Más información](../../designing/using/personalization.md#personalizing-an-image-source)
 
-Se agregó documentación en el informe de perfiles activos. [Más información](../../audiences/using/active-profiles.md)
+Se agregó documentación al informe de perfiles activos. [Más información](../../audiences/using/active-profiles.md)
 
-La documentación de alertas [de](../../sending/using/receiving-alerts-when-failures-happen.md#delivery-alerting-reasons) envío se ha actualizado con una sección de solución de problemas que presenta algunas sugerencias sobre las acciones que puede realizar al recibir alertas.
+La documentación de alertas [de](../../sending/using/receiving-alerts-when-failures-happen.md#delivery-alerting-reasons) Envío se ha actualizado con una sección de solución de problemas que presenta algunas sugerencias sobre las acciones que puede realizar al recibir alertas.
 
-Hay disponible una nueva guía de introducción: presenta algunas de las prácticas recomendadas que se pueden utilizar para ofrecer Adobe Campaign, desde la creación y el establecimiento de objetivos hasta el envío y la supervisión. [Más información](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html)
+Hay disponible una nueva guía de introducción: presenta algunas de las prácticas recomendadas que se pueden utilizar para ofrecer Adobes Campaign, desde la creación y el establecimiento de objetivos hasta el envío y la supervisión. [Más información](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html)
 
 La documentación de los mensajes de seguimiento se ha actualizado con un caso de uso mejorado. [Más información](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)
 
@@ -693,23 +691,23 @@ Se han añadido nuevas funciones de cifrado y hash con ejemplos. [Más informaci
 
 Se ha actualizado la sección sobre la actividad del flujo de trabajo de archivos de transferencia. [Más información](../../automating/using/transfer-file.md)
 
-Se agregó información sobre la opción &quot;Solicitar confirmación antes de enviar mensajes&quot; en la actividad del flujo de trabajo de envío de correo electrónico. [Más información](../../automating/using/email-delivery.md)
+Se ha añadido información sobre la opción &quot;Solicitar confirmación antes de enviar mensajes&quot; en la actividad del flujo de trabajo de Envío de correo electrónico. [Más información](../../automating/using/email-delivery.md)
 
 ## Versión 17.7: julio de 2017 {#release-17-7---july-2017}
 
 **Nuevas funciones incluidas en la versión**
 
-Entregas multilingües (correo electrónico y SMS) - [Más información](../../channels/using/creating-a-multilingual-email.md)
+Envíos multilingües (correo electrónico y SMS) - [Leer más](../../channels/using/creating-a-multilingual-email.md)
 
 Notificaciones de Adobe Campaign: [Más información](../../administration/using/sending-internal-notifications.md)
 
-Aviso de envío: [Más información](../../sending/using/receiving-alerts-when-failures-happen.md)
+Alerta de Envío: [Más información](../../sending/using/receiving-alerts-when-failures-happen.md)
 
 Id. declarado cifrado en orígenes de datos: [más información](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
-Uso compartido de KPI de Campaign a Analytics: [Más información](../../integrating/using/about-campaign-analytics-integration.md)
+Uso compartido de KPI de Campaña a Analytics: [Más información](../../integrating/using/about-campaign-analytics-integration.md)
 
-Canal de correo directo: volver al remitente, [leer más](../../channels/using/return-to-sender.md)
+Canal de Correo postal - Volver al remitente, [Leer más](../../channels/using/return-to-sender.md)
 
 **Otras actualizaciones de la documentación incluidas en la versión**
 
@@ -719,11 +717,11 @@ Se ha actualizado la documentación de procesamiento de correo electrónico. [M�
 
 Se ha actualizado la tabla de cálculo del indicador del informe. [Más información](../../reporting/using/indicator-calculation.md)
 
-La documentación de informes se ha actualizado con cuatro métricas nuevas. [Más información](../../reporting/using/list-of-components-.md)
+La documentación de sistema de informes se ha actualizado con cuatro métricas nuevas. [Más información](../../reporting/using/list-of-components-.md)
 
 Se agregó documentación sobre la generación de ID únicos para perfiles. [Más información](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)
 
-El mecanismo de doble inclusión ahora se documenta mediante un procedimiento paso a paso. [Más información](../../channels/using/setting-up-a-double-opt-in-process.md)
+El mecanismo de inclusión de Dobles ahora se documenta paso a paso. [Más información](../../channels/using/setting-up-a-double-opt-in-process.md)
 
 Se ha actualizado la sección Lista de funciones. [Más información](../../administration/using/list-of-roles.md)
 
@@ -731,23 +729,23 @@ Se ha actualizado la sección Lista de funciones. [Más información](../../admi
 
 **Nuevas funciones incluidas en la versión**
 
-Correo directo: [Más información](../../channels/using/about-direct-mail.md)
+Correo postal: [Más información](../../channels/using/about-direct-mail.md)
 
 Email BCC - [Más información](../../administration/using/configuring-email-channel.md#archiving-emails)
 
 **Otras actualizaciones de la documentación incluidas en la versión**
 
-La guía &quot;Entregas&quot; se ha reorganizado y se ha cambiado el nombre de &quot;Canales&quot;. [Más información](../../channels/using/discovering-communication-channels.md)
+La guía &quot;Envíos&quot; se ha reorganizado y se ha cambiado el nombre de &quot;Canales&quot;. [Más información](../../channels/using/discovering-communication-channels.md)
 
 Se han actualizado numerosas capturas de pantalla para reflejar los cambios en la interfaz.
 
 Ahora hay disponible una nueva nota técnica: &quot;Integración del SDK de Adobe Mobile con su aplicación móvil&quot;. [Más información](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
 
-Se han actualizado las instrucciones para configurar el servicio principal Personas o la integración de Audience Manager con Adobe Campaign. [Más información](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+Se han actualizado las instrucciones para configurar el servicio principal Personas o la integración del Administrador de Audiencias con Adobe Campaign. [Más información](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 Se ha revisado la tabla de autorizaciones para que la función de ciertos roles sea más clara. [Más información](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
-Actualización de los vínculos de ayuda contextuales disponibles directamente desde Adobe Campaign.
+Actualización de los vínculos contextuales de ayuda disponibles directamente desde Adobe Campaign.
 
 ## Versión 17.4: abril de 2017 {#release-17-4---april-2017}
 
@@ -759,7 +757,7 @@ Notificaciones push transaccionales: [Más información](../../channels/using/tr
 
 Notificaciones push recurrentes: [Más información](../../automating/using/push-notification-delivery.md)
 
-Conector Amazon Simple Storage Service (S3): [Más información](../../administration/using/external-accounts.md)
+Conector Amazon Simple Almacenamiento Service (S3) - [Más información](../../administration/using/external-accounts.md)
 
 Integración de Dreamweaver en directo: [Más información](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
@@ -767,7 +765,7 @@ Integración de Dreamweaver en directo: [Más información](https://docs.adobe.c
 
 Se ha añadido una sección sobre los distintos tipos de usuarios de Adobe Campaign. [Más información](../../administration/using/users-management.md)
 
-La guía Flujo de trabajo se ha reorganizado y ampliado. Encuentre fácilmente cómo [crear](../../automating/using/building-a-workflow.md) y [ejecutar](../../automating/using/executing-a-workflow.md) un flujo de trabajo, cómo [dirigir](../../automating/using/targeting-data.md) y [administrar](../../automating/using/targeting-data.md#enriching-data) sus datos, cómo [importar](../../automating/using/importing-data.md) [](../../automating/using/using-workflow-data.md) datos y cómo utilizar los datos del flujo de trabajo, actualizar la base de datos o enviar envíos.
+La guía Flujo de trabajo se ha reorganizado y ampliado. Encuentre fácilmente cómo [crear](../../automating/using/building-a-workflow.md) y [ejecutar](../../automating/using/executing-a-workflow.md) un flujo de trabajo, cómo [destinatario](../../automating/using/targeting-data.md) y [administrar](../../automating/using/targeting-data.md#enriching-data) sus datos, cómo [importar](../../automating/using/importing-data.md) [](../../automating/using/using-workflow-data.md) datos y cómo utilizar los datos del flujo de trabajo para actualizar la base de datos o para enviar envíos.
 
 El cálculo del indicador de informes ya está disponible para los informes dinámicos, incluida la descripción completa y la fórmula de cálculo. [Más información](../../reporting/using/indicator-calculation.md)
 
@@ -775,7 +773,7 @@ Nueva sección dedicada sobre la configuración de Adobe Mobile Services para ut
 
 Se han actualizado las secciones de configuración e implementación de aplicaciones móviles, incluidos los pasos más detallados para configurar y enviar notificaciones push. [Más información](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 
-Se ha actualizado la sección sobre cómo trabajar con imágenes en Campaign. [Más información](../../designing/using/images.md#setting-up-image-properties)
+Se ha actualizado la sección sobre cómo trabajar con imágenes en la Campaña. [Más información](../../designing/using/images.md#setting-up-image-properties)
 
 Se ha actualizado la integración con Adobe Analytics para móviles (punto de interés), incluidos los pasos de configuración y el caso de uso. [Más información](../../integrating/using/about-campaign-points-of-interest-data-integration.md)
 
@@ -783,7 +781,7 @@ Se ha actualizado la integración con Adobe Analytics para móviles (punto de in
 
 **Nuevas funciones incluidas en la versión**
 
-Informes dinámicos: [Más información](../../reporting/using/about-dynamic-reports.md)
+sistema de informes dinámico: [Más información](../../reporting/using/about-dynamic-reports.md)
 
 Integración de Dreamweaver (Labs): [Más información](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
@@ -791,7 +789,7 @@ Optimización del tiempo de envío manual: [Más información](../../sending/usi
 
 Notificaciones push: mejoras: [Más información](../../channels/using/about-push-notifications.md)
 
-Flujos de trabajo: nueva actividad Señal: [Más información](../../automating/using/external-signal.md)
+Flujos de trabajo: nueva actividad de señal: [Más información](../../automating/using/external-signal.md)
 
 Flujos de trabajo: nueva actividad Leer audiencia: [Más información](../../automating/using/read-audience.md)
 
@@ -811,21 +809,21 @@ Descubra ejemplos de las nuevas actividades de flujo de trabajo de audiencia [de
 
 **Nuevas funciones incluidas en la versión**
 
-Exportación de registros para informes externos: [Más información](../../automating/using/exporting-logs.md)
+Exportación de registros para sistema de informes externo: [Más información](../../automating/using/exporting-logs.md)
 
 API de mensajería transaccional: [Más información](../../api/using/about-campaign-standard-apis.md)
 
-Capacidades de mercadotecnia para mensajes transaccionales: [leer más](../../channels/using/profile-transactional-messages.md)
+Funciones de marketing para mensajes transaccionales: [más información](../../channels/using/profile-transactional-messages.md)
 
 **Otras actualizaciones de la documentación incluidas en la versión**
 
-Actividad del flujo de trabajo de consulta incremental: nuevo modo incremental: [Más información](../../automating/using/incremental-query.md)
+actividad del flujo de trabajo de Consulta incremental: nuevo modo incremental: [Más información](../../automating/using/incremental-query.md)
 
-Actualización de la actividad del flujo de trabajo del programador: [Más información](../../automating/using/scheduler.md)
+Actualización de actividad de flujo de trabajo de Planificador: [Más información](../../automating/using/scheduler.md)
 
 Cambio de dirección URL: Servicio principal de recursos: [Más información](../../integrating/using/working-with-campaign-and-assets-core-service.md)
 
 Cambio de dirección URL: Servicio principal Personas: [Más información](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
-Se ha reorganizado la guía de perfiles y audiencias. [Más información](../../audiences/using/about-profiles-and-audiences.md)
+Se ha reorganizado la guía de Perfiles y audiencias. [Más información](../../audiences/using/about-profiles-and-audiences.md)
 
