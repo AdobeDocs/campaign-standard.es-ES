@@ -12,7 +12,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ce55c5193e7944c65e0d9e6cc791ed2bc13b3509
+source-git-commit: 34f4bbf7b7913cfb1833379c963b590961f7de73
 
 ---
 
@@ -119,7 +119,7 @@ Para obtener más información sobre la creación y publicación de recursos, co
 
    ![](assets/message-center_enrichment-join-fields.png)
 
-   También puede enriquecer el contenido de mensaje transaccional con el **[!UICONTROL Service]** recurso. Para obtener más información sobre los servicios, consulte esta [sección](../../audiences/using/creating-a-service.md).
+   También puede enriquecer el contenido de mensaje transaccional con el **[!UICONTROL Service]** recurso. For more on services, see this [section](../../audiences/using/creating-a-service.md).
 
 1. Si va a crear o editar un evento basado en perfiles, en la **[!UICONTROL Targeting enrichment]** sección , seleccione el enriquecimiento que se utilizará como destinatario de mensajes durante la ejecución de envío.
 
@@ -156,24 +156,25 @@ Antes de poder usar el evento, debe previsualización y publicarlo.
 
    ![](assets/message-center_logs.png)
 
+   >[!IMPORTANT]
+   >
+   >Cada vez que modifique el evento, debe hacer clic de **[!UICONTROL Publish]** nuevo para generar la API de REST actualizada que utilizará el desarrollador del sitio web.
 
->[!NOTE]
->
->Cada vez que modifique el evento, debe hacer clic de **[!UICONTROL Publish]** nuevo para generar la API de REST actualizada que utilizará el desarrollador del sitio web.
+   Una vez publicado el evento, se crea automáticamente un mensaje transaccional vinculado al nuevo evento.
 
-Una vez publicado el evento, se crea automáticamente un mensaje transaccional vinculado al nuevo evento. Para que este evento active el envío de un mensaje transaccional, debe modificar y publicar el mensaje que se acaba de crear. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
+1. Puede acceder directamente a este mensaje transaccional a través del vínculo situado en el área izquierda.
 
-Puede acceder al mensaje transaccional que se creó directamente desde el vínculo en el área del lado izquierdo.
+   ![](assets/message-center_messagegeneration.png)
 
-![](assets/message-center_messagegeneration.png)
+Para que el evento active el envío de un mensaje transaccional, debe modificar y publicar el mensaje que se acaba de crear. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
 También debe integrar este evento de activación en su sitio web. Consulte [Integración del activador del evento en un sitio web](#integrating-the-triggering-of-the-event-in-a-website).
 
-<!--
->[!NOTE]
->
->To consult the previous publications if any, click the **[!UICONTROL Latest transactional events]** link under the **[!UICONTROL History]** section in the left-hand side area.
--->
+Una vez que los inicios de Adobe Campaign reciben eventos relacionados con esta configuración de evento, el **[!UICONTROL Latest transactional events]** vínculo de la sección **[!UICONTROL History]** le permite acceder a los últimos eventos enviados por su servicio de terceros y procesados por Adobe Campaign.
+
+![](assets/message-center_latest-events.png)
+
+Los eventos (en formato JSON) se muestran de los más recientes a los más antiguos. Esta lista le permite comprobar datos como el contenido o el estado de un evento para fines de control y depuración.
 
 ### Cancelación de la publicación de un evento {#unpublishing-an-event}
 
@@ -345,7 +346,7 @@ Para obtener más información sobre la creación y publicación de recursos, co
 
    ![](assets/message-center_usecase2.png)
 
-1. Cree una condición de combinación entre el campo &quot;Identificador de producto&quot; que se agregó anteriormente al mensaje y el campo correspondiente del **[!UICONTROL Purchase]** recurso
+1. Cree una condición de combinación entre el campo &quot;Identificador de producto&quot; que se agregó anteriormente al mensaje y el campo correspondiente del **[!UICONTROL Purchase]** recurso.
 
    ![](assets/message-center_usecase3.png)
 
