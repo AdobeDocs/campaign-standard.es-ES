@@ -13,64 +13,54 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 7d31d92197a6bf26b7530b8e8ff42c0dc7f25359
+source-git-commit: 5b53f210bc8fc211b1f48f5b6ff8694bcaf41622
 
 ---
 
 
 # Cuentas externas{#external-accounts}
 
-Una cuenta externa es una configuración que permite
-            configurar y probar el acceso a un servidor que sea externo a Adobe Campaign.
+Una cuenta externa es una configuración que permite configurar y probar el acceso a un servidor que sea externo a Adobe Campaign.
 
-Estas 
-            cuentas externas se pueden utilizar en flujos de trabajo de Campaign para acceder y administrar datos.
+Estas cuentas externas se pueden utilizar en flujos de trabajo de Campaign para acceder y administrar datos.
 
-Puede configurar los siguientes tipos de cuentas
-            externas:
+Puede configurar los siguientes tipos de cuentas externas:
 
 * SFTP. Para obtener más información, consulte [esta sección](#sftp-external-account).
-* Amazon Storage Service (S3). Para obtener más información, consulte [esta sección](#amazon-s3-external-account).
+* Amazon Almacenamiento Service (S3). Para obtener más información, consulte [esta sección](#amazon-s3-external-account).
 * Adobe Experience Manager. Para obtener más información, consulte [esta sección](#adobe-experience-manager-external-account).
 * Adobe Analytics. Para obtener más información, consulte [esta sección](../../integrating/using/configure-campaign-analytics-integration.md).
 * Google reCAPTCHA. Para obtener más información, consulte [esta sección](#google-recaptcha-external-account).
-* Almacenamiento de blob de Microsoft Azure. Para obtener más información, consulte [esta sección](#microsoft-azure-external-account).
+* almacenamiento Blob de Microsoft Azure. Para obtener más información, consulte [esta sección](#microsoft-azure-external-account).
 
 >[!NOTE]
 >
->Adobe utiliza otros tipos de cuentas externas durante el proceso de aprovisionamiento del producto. A partir de la versión 17.9 de Campaign Standard, las cuentas externas de FTP se pueden definir pero ya no se pueden utilizar en las nuevas actividades de flujo de trabajo. Si ya tiene una conexión configurada, aún está habilitada.
+>Adobe utiliza otros tipos de cuentas externas durante el proceso de aprovisionamiento de productos. A partir de la versión 17.9 de Campaign Standard, las cuentas externas de FTP todavía se pueden definir, pero ya no se pueden utilizar en nuevas actividades de flujo de trabajo. Si ya tiene una conexión configurada, aún está habilitada.
 
-Los administradores pueden configurar las cuentas externas en el **[!UICONTROL Administration > Application settings > External accounts]** menú.
+Los administradores pueden configurar Cuentas externas en el **[!UICONTROL Administration > Application settings > External accounts]** menú.
 
 ## Creación de una cuenta externa {#creating-an-external-account}
 
-Adobe Campaign viene con un conjunto de cuentas externas 
-                   predefinidas. Para configurar conexiones con sistemas externos como servidores FTP 
-                 utilizados para transferencias de archivos, puede crear cuentas externas propias.
+Adobe Campaign viene con un conjunto de cuentas externas predefinidas. Para configurar conexiones con sistemas externos como servidores FTP utilizados para transferencias de archivos, puede crear cuentas externas propias.
 
-Los procesos técnicos utilizan las cuentas externas 
-                 como flujos de trabajo técnicos o flujos de trabajo de campaña. Al configurar una transferencia de archivos 
-                 en un flujo de trabajo o un intercambio de datos con cualquier otra aplicación (Adobe Target, Experience
-                 Manager, etc.), debe seleccionar una cuenta externa.
+Los procesos técnicos utilizan las cuentas externas como flujos de trabajo técnicos o flujos de trabajo de campaña. Al configurar una transferencia de archivos en un flujo de trabajo o un intercambio de datos con cualquier otra aplicación (Adobe Target, Experience Manager, etc.), debe seleccionar una cuenta externa.
 
 1. Haga clic en el botón **[!UICONTROL Create]**.
-1. Introduzca una etiqueta. La etiqueta y el ID se utilizarán al seleccionar cuentas externas en flujos de trabajo.
+1. Introduzca una etiqueta. La etiqueta y la ID se utilizarán al seleccionar cuentas externas en flujos de trabajo.
 1. Seleccione el tipo de cuenta que desee crear.
 1. Configure el acceso a la cuenta especificando las credenciales, la dirección del servidor, el número de puerto y o las claves cuando corresponda.
 
-   La información necesaria suele ser proporcionada por 
-                       el proveedor del servidor al que está conectándose.
+   La información necesaria suele ser proporcionada por el proveedor del servidor al que está conectándose.
 
 1. Guarde su cuenta.
 
-La cuenta externa se crea y se agrega a la lista de cuentas. Ahora está disponible para las transferencias de datos y archivos o las configuraciones
-                de enrutamiento en las actividades de flujo de trabajo y propiedades de entrega.
+La cuenta externa se crea y se agrega a la lista de la cuenta. Ahora está disponible para las transferencias de datos y archivos o las configuraciones de enrutamiento en las actividades de flujo de trabajo y propiedades de entrega.
 
 ## Cuenta externa SFTP {#sftp-external-account}
 
-Los distintos tipos de cuentas externas requieren que se especifique información diferente.
+Los distintos tipos de cuenta externa requieren que se especifique información diferente.
 
-Para una cuenta externa de SFTP, proporcione los siguientes detalles:
+Para una cuenta externa SFTP, proporcione los siguientes detalles:
 
 * Dirección del servidor. Por ejemplo, **ftp.domain.com**.
 * Número de puerto. For example, **22**.
@@ -85,7 +75,7 @@ Cuando no se utiliza o monitorea correctamente, este espacio puede llenar rápid
 Para evitar estos problemas, Adobe recomienda seguir las prácticas recomendadas a continuación:
 
 * Mantenga los datos mínimos posibles.
-* Utilice la autenticación basada en claves para evitar la caducidad de la contraseña. Los formatos admitidos son **OpenSSH** y **SSH2** únicamente. Deberá proporcionar la clave pública al equipo de asistencia de Adobe para que se cargue en el servidor de campañas.
+* Utilice la autenticación basada en claves para evitar la caducidad de la contraseña. Los formatos admitidos son **OpenSSH** y **SSH2** únicamente. Deberá proporcionar la clave pública al equipo de asistencia de Adobe para que se cargue en el servidor de Campaña.
 * Mantenga los datos sólo durante el tiempo que sea necesario. 15 días es el plazo máximo.
 * Utilice flujos de trabajo para eliminar correctamente los datos (administrar la retención de flujos de trabajo que consuman datos).
 * Utilice lotes en sus cargas por SFTP y sus flujos de trabajo.
@@ -93,7 +83,7 @@ Para evitar estos problemas, Adobe recomienda seguir las prácticas recomendadas
 * Inicie sesión ocasionalmente en el SFTP para comprobar directamente lo que sucede allí.
 * Recuerde que la gestión de discos SFTP es responsabilidad principalmente suya.
 
-Además, tenga en cuenta que las IP públicas desde las que intenta iniciar la conexión SFTP deben incluirse en la lista de direcciones permitidas en la instancia de Campaign. La lista blanca de direcciones IP se puede solicitar a través de un ticket [de](https://support.neolane.net)soporte, junto con la clave pública que se utilizará para la autenticación.
+Además, tenga en cuenta que las direcciones IP públicas desde las que intenta iniciar la conexión SFTP deben incluirse en la lista de direcciones permitidas en la instancia de Campaña. La lista blanca de direcciones IP se puede solicitar a través de un ticket [de](https://support.neolane.net)soporte, junto con la clave pública que se utilizará para la autenticación.
 
 Los servidores SFTP se pueden administrar desde el Panel de control. For more information, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/about-sftp-management.html).
 
@@ -102,7 +92,7 @@ Los servidores SFTP se pueden administrar desde el Panel de control. For more in
 >El Panel de control solo está disponible para los usuarios administradores de clientes alojados en AWS.
 Compruebe si la instancia está alojada en AWS [aquí](https://docs.adobe.com/content/help/en/control-panel/using/faq.html#ims-org-id).
 
-## Cuenta externa de Amazon S3 {#amazon-s3-external-account}
+## cuenta externa Amazon S3 {#amazon-s3-external-account}
 
 El campo del servidor de Amazon S3 debe rellenarse de la siguiente manera:
 
@@ -114,8 +104,7 @@ Para almacenar el archivo en modo codificado S3, marque la **[!UICONTROL Keep fi
 
 ![](assets/external_accounts_2.png)
 
-La información necesaria suele ser proporcionada por 
-                       el proveedor del servidor al que está conectándose.
+La información necesaria suele ser proporcionada por el proveedor del servidor al que está conectándose.
 
 Especifique el **[!UICONTROL AWS Region]** punto final asociado. Puede consultar las regiones compatibles y las versiones de firma en la documentación [oficial de](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region)Amazon S3.
 
@@ -133,17 +122,16 @@ Para ayudarle a configurar su cuenta de Amazon S3, le recomendamos que siga esta
 
 ## Cuenta externa de Adobe Experience Manager {#adobe-experience-manager-external-account}
 
-Las cuentas externas de Adobe Experience Manager se utilizan al integrar Campaign con Experience Manager.
+Las cuentas externas de Adobe Experience Manager se utilizan al integrar Campañas con Experience Manager.
 
 El proceso y los requisitos relacionados con esta integración están disponibles en [este documento](../../integrating/using/about-campaign-integrations.md).
 
-Al configurar esta nueva cuenta externa, 
-                debe proporcionar los siguientes detalles:
+Al configurar esta nueva cuenta externa, debe proporcionar los siguientes detalles:
 
 * Servidor: introduzca la dirección URL del servidor de Adobe Experience Manager. Por ejemplo, **http://aem.domain.com:4502**.
 * Credenciales de cuenta de AEM: utilice la cuenta que accederá a la instancia de Adobe Experience Manager. Debe formar parte de la cuenta del grupo remoto de campañas en Experience Manager.
 
-## Cuenta externa de Google reCAPTCHA {#google-recaptcha-external-account}
+## cuenta externa de Google reCAPTCHA {#google-recaptcha-external-account}
 
 >[!NOTE]
 >
@@ -151,7 +139,7 @@ Al configurar esta nueva cuenta externa,
 
 El mecanismo reCAPTCHA de Google le permite proteger su página de aterrizaje del spam y los abusos causados por los bots. Esto no es intrusivo para los clientes, ya que no requiere ninguna interacción por parte de ellos y se basa en las interacciones con el sitio. Para registrar su sitio, consulte esta [página](https://www.google.com/recaptcha/admin/create). Debe elegir el tipo de reCAPTCHA V3.
 
-Para agregar Google reCAPTCHA V3 a su página de aterrizaje, primero debe configurarla en su cuenta externa. Para obtener más información sobre cómo agregarla a la página de aterrizaje, consulte esta [sección](../../channels/using/configuring-landing-page.md#setting-google-recaptcha).
+Para agregar Google reCAPTCHA V3 a su página de aterrizaje, primero debe configurarlo en su cuenta externa. Para obtener más información sobre cómo agregarla a su página de aterrizaje, consulte esta [sección](../../channels/using/configuring-landing-page.md#setting-google-recaptcha).
 
 Para una cuenta externa de Google reCAPTCHA V3, proporcione los siguientes detalles:
 
@@ -164,19 +152,21 @@ Para una cuenta externa de Google reCAPTCHA V3, proporcione los siguientes detal
 
 ![](assets/external_accounts_3.png)
 
-## Cuenta externa de almacenamiento de blob de Microsoft Azure {#microsoft-azure-external-account}
+## cuenta externa del almacenamiento Blob de Microsoft Azure {#microsoft-azure-external-account}
 
 >[!NOTE]
 >
->La información necesaria para configurar su cuenta externa en Adobe Campaign Standard se encuentra en el Portal de Azure seleccionando **[!UICONTROL Settings]** > **[!UICONTROL Access keys]**.
+>La información necesaria para configurar su cuenta externa en Adobe Campaign Standard se encuentra en Azure Portal seleccionando **[!UICONTROL Settings]** > **[!UICONTROL Access keys]**.
+
+El conector de almacenamiento de blob de Azure puede utilizarse para importar o exportar datos a Adobe Campaign mediante una actividad de flujo de trabajo de archivo **[!UICONTROLTde]** transferencia. Para obtener más información, consulte [esta sección](../../automating/using/transfer-file.md#azure-blob-configuration-wf).
 
 Para una cuenta externa de almacenamiento de blob de Microsoft Azure, proporcione los siguientes detalles:
 
 * A **[!UICONTROL Label]** y **[!UICONTROL ID]** de su cuenta externa
-* **[!UICONTROL Type]**:: Almacenamiento de blob de Microsoft Azure
+* **[!UICONTROL Type]**:: almacenamiento de blob de Microsoft Azure
 * Tu **[!UICONTROL Account name]** y **[!UICONTROL Account key]**. To know where to find your account name and key, refer to this [page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
 * Tu **[!UICONTROL Endpoint suffix]**. Se encuentra dentro **[!UICONTROL Connection string]** del menú **[!UICONTROL Access keys]** en el Portal de Azure. Para obtener más información, consulte [esta página](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
-* Tu **[!UICONTROL Container]** nombre. Si planea utilizar más de un contenedor, debe crear tantas cuentas externas como contenedores.
+* Tu **[!UICONTROL Container]** nombre. Si planea usar más de un contenedor, debe crear tantas cuentas externas como contenedores.
 * La **[!UICONTROL Concurrency]** opción le permite ajustar la velocidad de las transferencias de archivos.
 
 ![](assets/external_accounts_4.png)
@@ -191,7 +181,7 @@ Adobe Campaign utiliza una conexión segura (HTTPS) para acceder a su cuenta de 
 
 **Clave de cuenta**
 
-Al configurar su cuenta externa, debe utilizar uno de los **[!UICONTROL Account key]** disponibles en el Portal de Azure. Para obtener más información sobre dónde encontrar las claves de cuenta, consulte esta [página](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage#view-access-keys-and-connection-string).
+Al configurar la cuenta externa, debe utilizar uno de los **[!UICONTROL Account key]** disponibles en Azure Portal. For more information on where to find your account keys, refer to this [page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage#view-access-keys-and-connection-string).
 
 **Optimización de la velocidad de transferencia de archivos**
 
@@ -202,7 +192,7 @@ Una vez finalizada la transferencia de archivos, puede encontrar métricas de re
 
 **Reintentos**
 
-De forma predeterminada, la transferencia de archivos para Azure Blob tendrá hasta cuatro reintentos.  Si el servicio de almacenamiento de Azure devuelve un código de error como 503 (servidor ocupado) o 500 (tiempo de espera de la operación), esto puede indicar que se está acercando o excediendo la escalabilidad de su cuenta de almacenamiento. Esto puede suceder cuando se utiliza una cuenta nueva o se realizan pruebas.
+De forma predeterminada, la transferencia de archivos para Azure Blob tendrá hasta cuatro reintentos.  Si el servicio de Almacenamiento de Azure devuelve un código de error como 503 (servidor ocupado) o 500 (tiempo de espera de operación), esto puede indicar que se está acercando o excediendo la escalabilidad de la cuenta de almacenamiento. Esto puede suceder cuando se utiliza una cuenta nueva o se realizan pruebas.
 
 Si el error persiste, puede aumentar el número de reintentos creando una opción en el menú avanzado **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**.
 
