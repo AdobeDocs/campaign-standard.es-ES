@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: ddccab05af415fe3ddab7b75db7118fa94552565
+source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
 
 ---
 
@@ -141,7 +141,7 @@ source-git-commit: ddccab05af415fe3ddab7b75db7118fa94552565
       + [Vista previa de mensajes](sending/using/previewing-messages.md)
       + [Preparación del envío](sending/using/preparing-the-send.md)
       + [Envío de pruebas](sending/using/sending-proofs.md)
-      + [Prueba de mensajes de correo electrónico con perfiles de objetivo](sending/using/testing-messages-using-target.md)
+      + [Prueba de mensajes de correo electrónico con perfiles objetivo](sending/using/testing-messages-using-target.md)
       + [Prueba de la línea de asunto de un correo electrónico](sending/using/testing-subject-line-email.md)
       + [Procesamiento de correo electrónico](sending/using/email-rendering.md)
       + [Uso de trampas](sending/using/using-traps.md)
@@ -198,37 +198,47 @@ source-git-commit: ddccab05af415fe3ddab7b75db7118fa94552565
       + [Adición de componentes](reporting/using/adding-components.md)
       + [Creación de una dimensión de perfil personalizada](reporting/using/creating-a-custom-profile-dimension.md)
       + [Creación de un informe basado en segmentos de flujo de trabajo](reporting/using/creating-a-report-workflow-segment.md)
-+ Integración con Adobe Cloud {#integrating-with-adobe-cloud}
++ Integración con otras soluciones {#integrating-with-adobe-cloud}
    + [Acerca de las integraciones de Campaign](integrating/using/about-campaign-integrations.md)
-   + Uso de Campaign y Experience Manager {#working-with-campaign-and-experience-manager}
+   + Campaña y Experience Manager {#working-with-campaign-and-experience-manager}
       + [Acerca de la integración de Experience Manager en Campaign](integrating/using/integrating-with-experience-manager.md)
-      + [Configuración de la integración de Campaign-Experience Manager](integrating/using/configure-experience-manager.md)
+      + [Configuración de la integración Campaña-Experience Manager](integrating/using/configure-experience-manager.md)
       + [Creación de contenido de correo electrónico en Adobe Experience Manager](integrating/using/creating-email-experience-manager.md)
       + [Creación de un formulario de Campaign en Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
-   + Uso de Campaign y Target {#working-with-campaign-and-target}
+   + Campaña y Destinatario {#working-with-campaign-and-target}
       + [Acerca de la integración de Campaign-Target](integrating/using/about-campaign-target-integration.md)
       + [Configuración de la integración de Campaign-Target](integrating/using/configuring-the-campaign-target-integration.md)
       + [Adición de contenido dinámico de Target](integrating/using/adding-target-dynamic-content.md)
-   + Uso de Campaign y Analytics {#working-with-campaign-and-analytics}
+   + Campaña y análisis {#working-with-campaign-and-analytics}
       + [Acerca de la integración de Campaign-Analytics](integrating/using/about-campaign-analytics-integration.md)
       + [Configuración de la integración de Campaign-Analytics](integrating/using/configure-campaign-analytics-integration.md)
       + [Dimensiones y métricas de Campaign en Analytics](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
-   + Uso de Campaign y Audience Manager o del servicio principal People {#working-with-campaign-and-audience-manager-or-people-core-service}
+   + Campaign and Audience Manager or People core service {#working-with-campaign-and-audience-manager-or-people-core-service}
       + [Acerca de la integración de Campaign con Audience Manager o el servicio principal People](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
       + [Aprovisionamiento y configuración de la integración con Audience Manager o el servicio principal People](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
       + [Resolución de problemas](integrating/using/troubleshooting.md)
       + [Uso compartido de audiencias con Audience Manager o el servicio principal People](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
       + [Uso de Campaign y del servicio principal Assets](integrating/using/working-with-campaign-and-assets-core-service.md)
-   + Uso de Campaign y Analytics para dispositivos móviles {#working-with-campaign-and-analytics-for-mobile}
+   + Campaña y análisis para dispositivos móviles {#working-with-campaign-and-analytics-for-mobile}
       + [Acerca de la integración de Campaign con datos de Puntos de interés](integrating/using/about-campaign-points-of-interest-data-integration.md)
       + [Configuración de la integración de Campaign con datos de Puntos de interés](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
       + [Personalización de mensajes de Campaign con datos de Puntos de interés](integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md)
-   + Uso de Campaign y de los activadores {#working-with-campaign-and-triggers}
+   + Campaña y activadores {#working-with-campaign-and-triggers}
       + [Acerca de los activadores de Adobe Experience Cloud](integrating/using/about-adobe-experience-cloud-triggers.md)
       + [Configuración de activadores en Experience Cloud](integrating/using/configuring-triggers-in-experience-cloud.md)
       + [Uso de activadores en Campaign](integrating/using/using-triggers-in-campaign.md)
       + [Prueba de los activadores](integrating/using/testing-your-triggers.md)
       + [Ejemplos prácticos de activadores de abandono](integrating/using/abandonment-triggers-use-cases.md)
+   + Campaña y Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
+      + [Configuración de la integración de E/S de Adobe para Microsoft Dynamics 365](integrating/using/configure-adobe-io-for-ms-dynamic.md)
+      + [Trabajo con Campaign Standard y Microsoft Dynamics 365]{#configuring-acs-ms-dynamics}
+         + [Trabajo con Campaign Standard y Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+         + [Avisos y recomendaciones](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
+         + [Solicitud y configuración de Microsoft Dynamics 365 con integración de Campaign Standard](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
+         + [Uso de Microsoft Dynamics 365 con la integración de Campaign Standard](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
+      + [Configuración de Microsoft Dynamics 365 para la integración de Campañas](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
+      + [Configurar la integración de Unifi para Microsoft Dynamics 365](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
+      + [Asignar recursos personalizados de Campaña y entidades personalizadas de Dynamics 365](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
 + Administración de procesos y datos {#managing-processes-and-data}
    + Acerca de los flujos de trabajo y la administración de datos {#about-workflows-and-data-management}
       + [Procesos y datos de flujo de trabajo](automating/using/workflow-data-and-processes.md)
@@ -346,7 +356,7 @@ source-git-commit: ddccab05af415fe3ddab7b75db7118fa94552565
    + Directrices de configuración {#configuration-guidelines}
       + [Acerca de las directrices de configuración](administration/using/about-configuration-guidelines.md)
       + [Exploradores compatibles](administration/using/compatible-browsers.md)
-      + [Extremos de red de Campaign Standard](administration/using/campaign-standard-network-endpoints.md)
+      + [Puntos finales de red de Campaign Standard](administration/using/campaign-standard-network-endpoints.md)
    + Usuarios y seguridad {#users-and-security}
       + [Acerca de la administración de acceso](administration/using/about-access-management.md)
       + [Administración de usuarios](administration/using/users-management.md)
