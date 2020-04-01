@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ## Selección de un contenido existente{#selecting-an-existing-content}
 
-Adobe Campaign incluye un conjunto de contenidos predefinidos que le ayudarán a iniciarse. Puede usar uno de estos o, si el contenido del mensaje que necesita enviar se está preparando fuera de Adobe Campaign, puede importarlo desde su equipo o desde una dirección URL.
+Adobe Campaign viene con un conjunto de contenidos predefinidos para ayudarle a empezar. Puede usar uno de estos o, si el contenido del mensaje que necesita enviar se está preparando fuera del Adobe Campaign, puede importarlo desde su equipo o desde una dirección URL.
 
 Al crear un correo electrónico o una página de aterrizaje, puede elegir cargar un contenido existente de otra fuente.
 
@@ -29,16 +29,16 @@ Al crear un correo electrónico o una página de aterrizaje, puede elegir cargar
 >Las siguientes imágenes muestran cómo cargar un contenido existente mediante el Diseñador de [correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md).
 
 1. Después de crear el correo electrónico o la página de aterrizaje, abra su contenido.
-1. Haga clic en el icono de inicio para acceder a la página **[!UICONTROL Email Designer]**principal.
+1. Haga clic en el icono de inicio para acceder a la **[!UICONTROL Email Designer]** página de inicio.
 
    ![](assets/des_loading_1.png)
 
 1. Seleccione el origen del contenido que desea cargar:
 
-   * [Plantillas](../../designing/using/using-reusable-content.md#content-templates)de contenido: haga clic en la **[!UICONTROL Templates]**ficha.
-   * [Contenido desde cero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch), para empezar de cero: haga clic en el **[!UICONTROL Create]**botón.
-   * [Contenido del equipo como archivo](#importing-content-from-a-file)ZIP o HTML: haga clic en el **[!UICONTROL Upload]**botón.
-   * [Contenido de una dirección URL](#importing-content-from-a-url) existente (solo para correos electrónicos): haga clic en el **[!UICONTROL Import from URL]**botón.
+   * [Plantillas](../../designing/using/using-reusable-content.md#content-templates)de contenido: haga clic en la **[!UICONTROL Templates]** ficha.
+   * [Contenido desde cero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)hasta inicio fresco: haga clic en el **[!UICONTROL Create]** botón.
+   * [Contenido del equipo como archivo](#importing-content-from-a-file)ZIP o HTML: haga clic en el **[!UICONTROL Upload]** botón.
+   * [Contenido de una dirección URL](#importing-content-from-a-url) existente (solo para correos electrónicos): haga clic en el **[!UICONTROL Import from URL]** botón.
    ![](assets/des_loading_2.png)
 
 1. Cargue el contenido. El contenido seleccionado reemplaza al contenido actual.
@@ -47,7 +47,7 @@ Al crear un correo electrónico o una página de aterrizaje, puede elegir cargar
 
    >[!NOTE]
    >
-   >El Diseñador [de correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md) utiliza etiquetado específico. El contenido HTML estándar cargado en Campaign debe coincidir con el etiquetado esperado para ser totalmente compatible y editable desde el Diseñador de correo electrónico. Si no coincide, el contenido se carga en modo [de](#compatibility-mode)compatibilidad. Para hacer compatible el contenido existente, consulte [esta sección](#editing-existing-contents-with-the-email-designer).
+   >El Diseñador [de correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md) utiliza etiquetado específico. El contenido HTML estándar cargado en la Campaña debe coincidir con el etiquetado esperado para ser totalmente compatible y editable desde el Diseñador de correo electrónico. Si no coincide, el contenido se carga en modo [de](#compatibility-mode)compatibilidad. Para hacer compatible el contenido existente, consulte [esta sección](#editing-existing-contents-with-the-email-designer).
 
 **Temas relacionados:**
 
@@ -66,7 +66,7 @@ Para que un contenido externo existente sea completamente editable en el Diseña
 
 ### Importación de contenido de un archivo {#importing-content-from-a-file}
 
-En la página de inicio de Email Designer, haga clic en el **[!UICONTROL Upload]**botón para cargar un archivo desde el equipo y confirme.
+En la página de inicio de Email Designer, haga clic en el **[!UICONTROL Upload]** botón para cargar un archivo desde el equipo y, a continuación, confirme.
 
 No hay restricciones en la estructura de archivos zip. Sin embargo, la referencia a archivos HTML debe ser relativa y respetar la estructura de árbol de la carpeta zip.
 
@@ -84,8 +84,8 @@ Se admiten los siguientes formatos para la importación:
 Antes de importar contenido desde una dirección URL, asegúrese de que cumple los requisitos siguientes:
 
 * El contenido debe estar disponible públicamente a través de esta URL.
-* Por motivos de seguridad, solo se permiten las direcciones URL que comienzan con **[!UICONTROL https]**.
-* Asegúrese de que todos los recursos (imágenes, CSS) están configurados en vínculos absolutos y en HTTPS. De lo contrario, después de enviar el correo electrónico, la página reflejada se mostraría sin sus recursos. A continuación se muestra un ejemplo de una definición de vínculo absoluto:
+* Por motivos de seguridad, solo se permiten las direcciones URL que comienzan con **[!UICONTROL https]** .
+* Asegúrese de que todos los recursos (imágenes, CSS) están configurados en vínculos absolutos y en HTTPS. De lo contrario, después de enviar el correo electrónico, la página espejo se mostraría sin sus recursos. A continuación se muestra un ejemplo de una definición de vínculo absoluto:
 
    ```
    <a href="https://www.mywebsite.com/images/myimage.png">
@@ -97,14 +97,14 @@ Antes de importar contenido desde una dirección URL, asegúrese de que cumple l
 
 Para recuperar contenido existente de una dirección URL, siga los pasos a continuación:
 
-1. En la página de inicio de Email Designer, seleccione el **[!UICONTROL Import from URL]**botón.
+1. En la página de inicio de Email Designer, seleccione el **[!UICONTROL Import from URL]** botón.
 
    ![](assets/email_designer_importfromurl.png)
 
 1. Defina la dirección URL desde la que se recuperará el contenido.
 1. Haga clic **[!UICONTROL Confirm]**.
 
-**Tema relacionado:**
+**Temas relacionados:**
 
 [Importación de contenido desde un vídeo de URL](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#Workingwithexistingcontent)
 
@@ -114,7 +114,7 @@ La importación de contenido desde una URL durante la preparación de mensajes l
 
 Para recuperar contenido en tiempo de preparación, siga los pasos a continuación:
 
-1. Seleccione la **[!UICONTROL Content imported during preparation]**opción.
+1. Seleccione la **[!UICONTROL Content imported during preparation]** opción.
 
    ![](assets/email_designer_importfromurl2.png)
 
@@ -124,22 +124,22 @@ Para recuperar contenido en tiempo de preparación, siga los pasos a continuaci�
    >
    >En este paso, no se debe tener en cuenta la visualización HTML en el editor de contenido. Se recuperará en la fase de preparación.
 
-1. Para obtener una vista previa del contenido de la URL que se ha recuperado, abra el mensaje una vez creado y haga clic en el **[!UICONTROL Preview]**botón .
+1. Para previsualización del contenido de la URL que se ha recuperado, abra el mensaje una vez creado y haga clic en el **[!UICONTROL Preview]** botón .
 
 Es posible personalizar la dirección URL remota desde la que se recuperará el contenido. Para realizar esto, siga los pasos a continuación:
 
-1. Haga clic en la etiqueta de correo electrónico en la parte superior de la pantalla para acceder a la ficha Diseñador de correo electrónico **[!UICONTROL Properties]**.
-1. Busque el **[!UICONTROL Remote URL]**campo.
+1. Haga clic en la etiqueta de correo electrónico en la parte superior de la pantalla para acceder a la ficha Diseñador de correo electrónico **[!UICONTROL Properties]** .
+1. Busque el **[!UICONTROL Remote URL]** campo.
 
    ![](assets/email_designer_importfromurl4.png)
 
 1. Inserte el campo de personalización, el bloque de contenido o el texto dinámico que desee.
 
-   El bloque **[!UICONTROL Current date - YYYYMMDD]**de contenido, por ejemplo, permite insertar la fecha del día.
+   El bloque **[!UICONTROL Current date - YYYYMMDD]** de contenido, por ejemplo, permite insertar la fecha del día.
 
    >[!NOTE]
    >
-   >Los campos de personalización disponibles solo están vinculados a atributos de **envío** (fecha de creación de correo electrónico, estado, etiqueta de campaña...).
+   >Los campos de personalización disponibles solo están vinculados a atributos de **Envío** (fecha de creación de correo electrónico, estado, etiqueta de campaña...).
 
 ### Modo de compatibilidad {#compatibility-mode}
 
@@ -160,7 +160,7 @@ Otras modificaciones, como la adición de nuevas secciones al correo electrónic
 
 Para obtener más información sobre la conversión de un correo electrónico existente en un correo electrónico compatible con el Diseñador de correo electrónico, consulte [esta sección](../../designing/using/using-existing-content.md).
 
-**Tema** relacionado:
+**Temas relacionados**:
 
 * [Creación de un correo electrónico](../../channels/using/creating-an-email.md)
 * [Vídeo de introducción al Diseñador de correo electrónico](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=spa)
@@ -170,7 +170,7 @@ Para obtener más información sobre la conversión de un correo electrónico ex
 
 Si desea crear un marco de plantillas modulares y fragmentos que se puedan combinar para reutilizarlos en varios correos electrónicos, debe considerar la posibilidad de convertir el HTML de correo electrónico en una plantilla de diseñador de correo electrónico.
 
-Este caso de uso ofrece una forma rápida de convertir un correo electrónico HTML en componentes de Email Designer.
+Este caso de uso oferta una forma rápida de convertir el correo electrónico HTML en componentes de Email Designer.
 
 >[!CAUTION]
 >
@@ -208,12 +208,12 @@ Una vez identificados todos los bloques, en el Diseñador de correo electrónico
 
 1. Abra el Diseñador de correo electrónico para crear un contenido de correo electrónico vacío.
 1. Defina los atributos de nivel de cuerpo: colores de fondo, anchura, etc. Para obtener más información sobre esto, consulte [Edición de estilos](../../designing/using/styles.md)de correo electrónico.
-1. Agregue un componente de estructura. Para obtener más información sobre esto, consulte [Edición de la estructura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)de correo electrónico.
-1. Agregue un componente HTML. Para obtener más información sobre esto, consulte [Adición de fragmentos y componentes](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Añada un componente de estructura. Para obtener más información sobre esto, consulte [Edición de la estructura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)de correo electrónico.
+1. Añada un componente HTML. Para obtener más información sobre esto, consulte [Añadir fragmentos y componentes](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Copie y pegue el HTML en ese componente.
-1. Cambie a la vista móvil. For more on this, see [this section](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
+1. Cambie a vista móvil. Para obtener más información, consulte [esta sección](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
-   La vista interactiva está dañada, ya que falta la CSS.
+   La vista interactiva está dañada, ya que falta el CSS.
 
 1. Para solucionarlo, cambie al modo de código fuente y copie y pegue la sección de estilo en una nueva sección de estilo. Por ejemplo:
 
@@ -239,4 +239,4 @@ Una vez identificados todos los bloques, en el Diseñador de correo electrónico
    >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
 
 
-1. Vuelva a la vista de dispositivos móviles para comprobar que el contenido se muestra correctamente y guardar los cambios.
+1. Vuelva a la vista móvil para comprobar que el contenido se muestra correctamente y guarde los cambios.
