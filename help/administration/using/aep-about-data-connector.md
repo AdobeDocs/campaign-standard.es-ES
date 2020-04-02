@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d4140982ee772eda9eecb01a55748c1d439150e
+source-git-commit: 327d0e4f862b39c60fb3943d1128f4f42828bc0d
 
 ---
 
@@ -38,15 +38,15 @@ Los vídeos de procedimientos también están disponibles en [esta página](http
 >
 >Esto se puede realizar a través de las API o de la interfaz de Adobe Experience Platform. Para obtener más información, consulte las documentaciones dedicadas:
 >
->* [Habilitar un conjunto de datos para el Perfil del cliente en tiempo real](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/data_ingestion_tutorial/data_ingestion_tutorial.md)
->* [Configurar un conjunto de datos para el Perfil de clientes en tiempo real y el servicio de identidad mediante API](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/unified_profile_dataset_tutorial/unified_profile_dataset_api_tutorial.md)
+>* [Habilitar un conjunto de datos para el Perfil del cliente en tiempo real](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/datasets/dataset.html)
+>* [Configurar un conjunto de datos para el Perfil de clientes en tiempo real y el servicio de identidad mediante API](https://docs.adobe.com/content/help/en/experience-platform/catalog/api/getting-started.html)
 
 
 ## Conceptos clave {#key-concepts}
 
 * La asignación de fuera de la caja solo está disponible para los campos que se proporcionan en Campaign Standard de forma predeterminada. Para ingerir todos los campos y recursos personalizados, cada cliente debe definir su propia asignación.
 
-* El conector de datos de la plataforma Adobe Experience Platform insertará datos de perfil a través de la plataforma a intervalos regulares. &#x200B; La duración del intervalo es de 15 mn. Este valor se puede modificar con las API de [Adobe Experience Platform](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md).
+* El conector de datos de la plataforma Adobe Experience Platform insertará datos de perfil a través de la plataforma a intervalos regulares. &#x200B; La duración del intervalo es de 15 mn. Este valor se puede modificar con las API de [Adobe Experience Platform](https://docs.adobe.com/content/help/en/experience-platform/ingestion/home.html).
 
 * El ingeniero de datos puede publicar, modificar y pausar la asignación de Campaña a Adobe Experience Platform.
 
