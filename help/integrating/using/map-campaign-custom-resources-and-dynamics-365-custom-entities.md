@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
 
 ---
 
@@ -60,21 +60,21 @@ El cliente tiene un vehículo de entidad personalizado predefinido en Dynamics 3
 
 Las entidades personalizadas de este cliente en Dynamics 365 se pueden ver en el Panel de ventas haciendo clic en la lista desplegable situada junto a Dynamics 365.  Las entidades personalizadas de este cliente se agrupan en **[!UICONTROL Extensions]**.
 
-(../assets/SalesDashboard.png)
+![](assets/SalesDashboard.png)
 
 Para ver los datos del vehículo, haga clic en la entidad **[!UICONTROL vehicle]** personalizada.  Véase la lista de los vehículos a continuación.
 
-(../assets/VehicleCustomEntity.png)
+![](assets/VehicleCustomEntity.png)
 
 La relación de la **[!UICONTROL vehicle]** entidad con la **[!UICONTROL Contact]** entidad puede verse a continuación. **[!UICONTROL Parental]** ha sido elegido para el **[!UICONTROL Type of Behavior]**.
 
-(../assets/ContactToVehicle.png)
+![](assets/ContactToVehicle.png)
 
 ### Configuración en Campaign Standard
 
 En Campaña, los recursos personalizados del cliente se pueden ver haciendo clic **[!UICONTROL Adobe Campaign]** en la esquina superior izquierda y luego seleccionando **[!UICONTROL Client data]**.
 
-(../assets/ClientDataMenu.png)
+![](assets/ClientDataMenu.png)
 
 ### Asignación de recursos personalizados y entidades personalizadas
 
@@ -82,14 +82,14 @@ El cliente debería haber predefinido previamente el recurso personalizado y deb
 
 Haga clic en **[!UICONTROL Adobe Campaign]** en la esquina superior izquierda y luego haga clic en **[!UICONTROL Administration > Development > Custom Resources]**.
 
-(../assets/CustomRes.png)
+![](assets/CustomRes.png)
 
 1. Haga clic en **[!UICONTROL Custom Resources]**.
 1. Haga clic en el botón **[!UICONTROL Create]**.  Se abrirá una ventana emergente.
 1. Seleccione **[!UICONTROL Create a new resource]** e introduzca **[!UICONTROL Vehicle]** como etiqueta e ID.
 1. Haga clic **[!UICONTROL Create]**.
 
-(../assets/CreateAcusRes.png)
+![](assets/CreateAcusRes.png)
 
 La Campaña mostrará las estructuras de datos y la página de vínculos.  Se pueden ver varios campos agregados.
 
@@ -97,23 +97,23 @@ La Campaña mostrará las estructuras de datos y la página de vínculos.  Se pu
 * Perfil asociado es la identificación del perfil al que está vinculado el registro del vehículo; cuando se vincule, se vinculará al **[!UICONTROL externalId]** campo de la tabla de Perfil.
 * VIN y el nombre del vehículo son campos para capturar información sobre el vehículo.
 
-(../assets/CusResConfig.png)
+![](assets/CusResConfig.png)
 
 >[!CAUTION]
 >
 >Cada recurso personalizado debe tener un campo único con una ID de externalId (exactamente).  Este campo se asignará al campo de ID del recurso personalizado en Dynamics 365 (véase más adelante).
 
-(../assets/FieldsInDynamics.png)
+![](assets/FieldsInDynamics.png)
 
 ### Definir las claves de identificación
 
 El siguiente paso es definir las claves de identificación.  Primero, cree las claves de identificación, como se muestra a continuación.
 
-(../assets/IDkeys.png)
+![](assets/IDkeys.png)
 
 En la pantalla Definición de clave, asegúrese de seleccionar el **[!UICONTROL externalId]** campo.
 
-(../assets/KeyDefinition.png)
+![](assets/KeyDefinition.png)
 
 >[!CAUTION]
 >
@@ -127,11 +127,11 @@ En **[!UICONTROL Filter Definition]**, haga clic en **[!UICONTROL Add an element
 Asigne un nombre a la etiqueta y a la ID **[!UICONTROL ExternalId]**.
 Haga clic **[!UICONTROL Add]**.
 
-(../assets/FilterDefinition.png)
+![](assets/FilterDefinition.png)
 
 Ahora, haga clic en editar en el elemento de filtro recién agregado y configure el filtro según la imagen de abajo.  Si introduce **[!UICONTROL externalId]** en el **[!UICONTROL Parameters]** campo y hace clic en el signo más, **[!UICONTROL externalId_parameter]** aparecerá.  Seleccione este parámetro.
 
-(../assets/EditArule.png)
+![](assets/EditArule.png)
 
 ### Definir el vínculo
 
@@ -143,13 +143,13 @@ A continuación, especificaremos la vinculación del recurso personalizado.  En 
 1. En **[!UICONTROL Join Definitions]**, seleccione **[!UICONTROL Define specific join conditions]**.
 1. A continuación, haga clic en **[!UICONTROL Add an element]**.
 
-(../assets/LinkConfiguration.png)
+![](assets/LinkConfiguration.png)
 
 Para la definición de combinación, escribimos los valores siguientes.
 
 Tenga en cuenta que la **[!UICONTROL @externalId]** entrada es el campo externalId de la tabla de perfiles y que la **[!UICONTROL ProfileExternalId]** entrada es la ID del campo correspondiente en el recurso personalizado de vehículos.  Cuando se introduce el valor externoId de un registro de perfil en el **[!UICONTROL ProfileExternalId]** campo de un registro de vehículo, los dos registros se vincularán.
 
-(../assets/JoinDefinition.png)
+![](assets/JoinDefinition.png)
 
 Confirme los cambios y guarde la entidad personalizada.
 
@@ -161,21 +161,21 @@ El paso final es publicar el recurso personalizado.
 1. Mantener la opción predeterminada: **[!UICONTROL Determine modifications since the last publication]**.
 1. Haga clic **[!UICONTROL Prepare Publication]** y espere a que se complete.
 
-(../assets/PublishModifications.png)
+![](assets/PublishModifications.png)
 
 A continuación, haga clic **[!UICONTROL Publish]** y espere a que se complete.
 
-(../assets/Publish.png)
+![](assets/Publish.png)
 
 ### Programación de ingreso de Unifi
 
 Suponiendo que el cliente ya ha rellenado la entidad personalizada del vehículo en Dynamics 365 y que Unifi ha configurado los trabajos y programas de la entidad personalizada del vehículo, el cliente debe poder iniciar el programa de ingreso de la entidad del vehículo.
 
-(../assets/Schedule.png)
+![](assets/Schedule.png)
 
 Una vez finalizado el trabajo de ingreso, los datos del vehículo ahora se pueden ver en Campaña en el nuevo recurso personalizado **[!UICONTROL Vehicle]** rellenado.
 
-(../assets/ACSUpdate.png)
+![](assets/ACSUpdate.png)
 
 **Temas relacionados**
 
