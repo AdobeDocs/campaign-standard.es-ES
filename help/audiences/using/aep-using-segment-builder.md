@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e1fa546313e8d543685ef30a072ae2d97c5bf236
+source-git-commit: 573131986d52bb4415cca59600048fd7dc5ba0db
 
 ---
 
@@ -66,7 +66,7 @@ El Generador de segmentos unificado debería mostrarse ahora en su espacio de tr
 
 El panel izquierdo lista todos los atributos, eventos y audiencias disponibles para su uso en la creación de reglas.
 
-Los campos enumerados son atributos capturados por la compañía y se han puesto a disposición a través del sistema [del Modelo de datos de](https://www.adobe.io/apis/experienceplatform/home/xdm.html)experiencia (XDM).
+Los campos enumerados son atributos capturados por la compañía y se han puesto a disposición a través del sistema [del Modelo de datos de](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html)experiencia (XDM).
 
 Los campos están organizados en fichas:
 
