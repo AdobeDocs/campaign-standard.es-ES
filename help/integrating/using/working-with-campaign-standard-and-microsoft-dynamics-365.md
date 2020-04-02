@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 74cc176a1b93a7983629ccccb1fea00628241952
+source-git-commit: 03009c47a66aa1a62c05f632e2a60141a98639d8
 
 ---
 
@@ -60,4 +60,3 @@ Con los datos de contacto sincronizados con el Adobe Campaign, las comunicacione
 >[!CAUTION]
 >
 >Para la sincronización de Contactos, esta integración considera a Dynamics 365 como la fuente de la verdad.  Cualquier cambio en los atributos de contacto sincronizados debe realizarse en Dynamics 365, no en Campaña.  Si los cambios se realizan en Campaña, se pueden sobrescribir durante la sincronización.
-
