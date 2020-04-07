@@ -1,6 +1,6 @@
 ---
 title: Segmentación y direccionamiento
-description: '"Obtenga información sobre perfiles, segmentación y creación de audiencias en Campaign: cree audiencias, importe contactos para compartir audiencias con soluciones de Experience Cloud y evite la fatiga del marketing".'
+description: '"Obtenga información sobre perfiles, segmentación y creación de audiencias en Campaña: cree audiencias, importe contactos que compartan audiencias con las soluciones de Experience Cloud y evite la fatiga del marketing".'
 page-status-flag: never-activated
 uuid: 71f53808-0309-49f6-a4ee-3446eac9758a
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 13430243e8f2840ca85e557798168f6380a7b0fa
+source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
 
 ---
 
@@ -21,50 +21,50 @@ source-git-commit: 13430243e8f2840ca85e557798168f6380a7b0fa
 
 ## Profiles {#profiles}
 
-Utilice el modelo de datos flexible de Adobe Campaign para enriquecer los datos de perfil del cliente y agregar atributos o tablas nuevos. A continuación, utilice estos perfiles de cliente para una segmentación, personalización e informes más precisos.
+Use Adobe Campaign’s flexible data model to enrich your customer profile data and add new attributes or tables. A continuación, utilice estos perfiles de cliente para una segmentación, personalización y sistema de informes más precisos.
 
-Los perfiles de Adobe Campaign representan todos los contactos almacenados en la base de datos. Cada perfil corresponde a una entrada de la base de datos que contiene la información necesaria para que ese perfil sea segmentado, cualificado y rastreado individualmente. Esto significa que un perfil puede ser: un cliente, un posible cliente, un individuo suscrito a un boletín, un destinatario, un usuario o cualquier otra denominación según la organización.
+Los perfiles de Adobe Campaign representan todos los contactos almacenados en la base de datos. Cada perfil corresponde a una entrada de la base de datos que contiene la información necesaria para que ese perfil sea dirigido, calificado y rastreado individualmente. This means that a profile can be: a client, a prospect, an individual subscribed to a newsletter, a recipient, a user, or any other denomination depending on the organization.
 
-La función de perfiles de cliente integra todos los datos de cliente en un solo lugar:
+La función perfiles del cliente integra todos los datos del cliente en un solo lugar:
 
 ![](assets/mkt_hist_view.png)
 
-Adobe Campaign propone varios mecanismos para la adquisición de perfiles: recopilar datos en línea a través de páginas [de](../../channels/using/getting-started-with-landing-pages.md)aterrizaje, mecanismos [de importación manuales o](../../automating/using/about-data-import-and-export.md)automatizados, entrada [](../../audiences/using/creating-profiles.md) directa en la interfaz de Adobe Campaign, creación masiva a través de las API [de](../../api/using/about-campaign-standard-apis.md)Campaign.
+El Adobe Campaign propone diversos mecanismos para la adquisición de perfiles: recopilar datos en línea mediante [páginas de aterrizaje](../../channels/using/getting-started-with-landing-pages.md), mecanismos [de importación manuales o](../../automating/using/about-data-import-and-export.md)automatizados, entrada [](../../audiences/using/creating-profiles.md) directa en la interfaz de Adobe Campaign, creación masiva a través de API [de](../../api/using/about-campaign-standard-apis.md)Campaña.
 
 **Temas relacionados:**
 
 * Obtenga información sobre los distintos tipos de perfiles en la sección [Perfiles](../../audiences/using/about-profiles.md) .
-* Acceda al número de perfiles **activos** de su organización en [esta sección](../../audiences/using/active-profiles.md).
-* Obtenga información sobre cómo personalizar los datos, administrar tareas complejas de administración de datos, como cálculos, agregados, deduplicación y combinaciones, mediante funciones de objetivo de [flujo de trabajo](../../automating/using/about-targeting-activities.md)
+* Access the number of **Active Profiles** in your organization in [this section](../../audiences/using/active-profiles.md).
+* Obtenga información sobre cómo personalizar los datos, gestionar tareas de gestión de datos complejas, como cálculos, agregados, deduplicaciones y combinaciones, mediante las funciones de objetivo de [flujo de trabajo](../../automating/using/about-targeting-activities.md)
 
-## Audiences {#audiences}
+## Audiencias {#audiences}
 
-Para permitirle entregar mensajes relevantes y eficaces y captar a sus clientes de manera eficaz, Adobe Campaign integra funcionalidades de análisis y objetivos avanzados. Gracias a los flujos de trabajo y al editor de consultas, puede crear audiencias que serán segmentadas por sus diferentes campañas, en función de la información que tenga sobre ellos, sus actividades, su idioma, sus preferencias o su historial de marketing. Esto le permite filtrar perfiles suscritos, por ejemplo, o crear audiencias de destino según un número ilimitado de criterios.
+Para permitirle entregar mensajes relevantes y eficaces y captar a sus clientes de manera eficaz, Adobe Campaign integra funcionalidades avanzadas de análisis y objetivo. Thanks to the workflows and the query editor, you can build audiences that will be targeted by your different campaigns, depending on the information that you have on them, their activities, their language, their preferences or their marketing history. This allows you to filter subscribed profiles for example, or create target audiences on an unlimited number of criteria.
 
-Las audiencias se presentan [en esta página](../../audiences/using/about-audiences.md) y se detallan en la sección [Audiencias](../../audiences/using/creating-audiences.md) .
-
-**Temas relacionados:**
-
-* Obtenga información sobre cómo llegar a audiencias multilingües en varias regiones mediante el envío de notificaciones [push](../../channels/using/creating-a-multilingual-push-notification.md) multilingües o correos electrónicos [multilingües](../../channels/using/creating-a-multilingual-email.md)
-* Aprenda a [crear consultas](../../audiences/using/creating-audiences.md#creating-query-audiences) para crear audiencias
-* Aprenda a [crear audiencias](../../audiences/using/creating-audiences.md#creating-list-audiences) de lista en un flujo de trabajo
-* Obtenga información sobre cómo [importar una audiencia desde un archivo](../../audiences/using/creating-audiences.md#creating-file-audiences) en un flujo de trabajo
-* Descubra cómo [compartir audiencias](../../audiences/using/creating-audiences.md#creating-experience-cloud-audiences) con soluciones de Experience Cloud
-
-## General Data Protection Regulation {#general-data-protection-regulation}
-
-El Reglamento General de Protección de Datos (GDPR) es la nueva normativa sobre privacidad de la Unión Europea que unifica y moderniza los requisitos de protección de datos. El RGPD se aplica a los clientes de Adobe Campaign que albergan datos de sujetos de datos que residan en la UE. Además de las funciones de privacidad ya disponibles en Adobe Campaign (incluida la administración de consentimiento, la configuración de retención de datos y las funciones de usuario), aprovechamos esta oportunidad en nuestra función de procesador de datos para incluir funciones adicionales, a fin de facilitar su preparación como controlador de datos para determinadas solicitudes de RGPD.
-
-Consulte esta [guía](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html) para obtener más información sobre las herramientas y funcionalidades que proporciona Adobe Campaign para ayudarle a cumplir con el RGPD.
-
-## Gestión de la fatiga {#fatigue-management}
-
-Las reglas de fatiga permiten a los especialistas en mercadotecnia establecer reglas comerciales globales entre canales que excluyen automáticamente los perfiles solicitados en exceso de las campañas.
-
-Para implementar reglas de fatiga, debe definir un número máximo de mensajes por perfil y seleccionar un período en el que se aplicará la regla. Durante la preparación de la entrega, los perfiles se excluyen de la entrega, si procede, en función del número de mensajes que ya se les hayan enviado.
+Audiences are presented [in this page](../../audiences/using/about-audiences.md) and detailed in the [Audiences](../../audiences/using/creating-audiences.md) section.
 
 **Temas relacionados:**
 
-* Aprenda a [diseñar reglas](../../administration/using/fatigue-rules.md#examples) de fatiga mediante un conjunto de muestras
-* Aprenda a crear reglas [de tipología](../../administration/using/about-typology-rules.md)
-* Usar reglas [de](../../administration/using/filtering-rules.md) filtro para reducir la audiencia de los mensajes
+* Learn how to reach multilingual audiences across multiple regions by sending [multilingual push notifications](../../channels/using/creating-a-multilingual-push-notification.md) or [multilingual emails](../../channels/using/creating-a-multilingual-email.md)
+* Learn how to [create queries](../../audiences/using/creating-audiences.md#creating-query-audiences) to build audiences
+* Learn how to [create list audiences](../../audiences/using/creating-audiences.md#creating-list-audiences) in a workflow
+* Learn how to [import an audience from a file](../../audiences/using/creating-audiences.md#creating-file-audiences) in a workflow
+* Descubra cómo [compartir audiencias](../../audiences/using/creating-audiences.md#creating-experience-cloud-audiences) con las soluciones de Experience Cloud
+
+## Reglamento general de protección de datos {#general-data-protection-regulation}
+
+El Reglamento General de Protección de Datos (GDPR) es la nueva normativa sobre privacidad de la Unión Europea que unifica y moderniza los requisitos de protección de datos. El RGPD se aplica a los clientes de Adobe Campaign que albergan datos de sujetos de datos que residan en la UE. Además de las capacidades de privacidad ya disponibles en Adobe Campaign (incluida la administración de consentimiento, la configuración de retención de datos y las funciones de usuario), aprovechamos esta oportunidad en nuestra función de procesador de datos para incluir funciones adicionales, a fin de ayudarle a prepararse como controlador de datos para determinadas solicitudes de RGPD.
+
+Refer to this [guide](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html) to learn more about the tools and functionalities that Adobe Campaign provides to help you become GDPR compliant.
+
+## Fatigue management {#fatigue-management}
+
+Las reglas de fatiga permiten a los especialistas en mercadotecnia establecer reglas comerciales globales de canal cruzado que excluyen automáticamente los perfiles sobre los que se solicitan campañas.
+
+Para implementar reglas de fatiga, debe definir un número máximo de mensajes por perfil y seleccionar un período en el que se aplicará la regla. Durante la preparación del envío, los perfiles se excluyen del envío, si procede, en función del número de mensajes que ya se les hayan enviado.
+
+**Temas relacionados:**
+
+* Learn how to [design fatigue rules](../../sending/using/fatigue-rules.md#examples) through a set of samples
+* Learn how to create [typology rules](../../sending/using/about-typology-rules.md)
+* Use [filter rules](../../sending/using/filtering-rules.md) to refine the audience of your messages
