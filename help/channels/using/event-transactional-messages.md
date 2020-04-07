@@ -1,6 +1,6 @@
 ---
 title: Mensajes transaccionales de eventos
-description: Obtenga información sobre cómo crear y publicar un mensaje transaccional de eventos.
+description: Obtenga información sobre cómo crear y publicar un mensaje transaccional de evento.
 page-status-flag: never-activated
 uuid: d747feb5-58fb-4e12-a176-404f0eca5391
 contentOwner: sauviat
@@ -13,30 +13,30 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: be6751f2f966f99d2b986aeba0b3720d2e8c4599
 
 ---
 
 
 # Mensajes transaccionales de eventos{#event-transactional-messages}
 
-Puede enviar mensajes transaccionales de eventos dirigidos a un evento. Este tipo de mensajes transaccionales no contiene información de perfil: el objetivo de entrega está definido por los datos contenidos en el propio evento.
+Puede enviar mensajes transaccionales de evento dirigidos a un evento. Este tipo de mensajes transaccionales no contiene información de perfil: el destinatario de envío se define por los datos contenidos en el propio evento.
 
-Una vez creado y publicado un evento (el abandono del carro de compras tal como se explica en [esta sección](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle)), el mensaje transaccional correspondiente se crea automáticamente.
+Una vez que haya creado y publicado un evento (el abandono del carro de compras como se explica en [esta sección](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle)), el mensaje transaccional correspondiente se crea automáticamente.
 
-Los pasos de configuración se presentan en la sección [Configuración de un evento para enviar un mensaje](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) transaccional.
+Los pasos de configuración se presentan en la sección [Configuración de un evento para enviar un mensaje transaccional](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) .
 
 Para que el evento active el envío de un mensaje transaccional, debe personalizar el mensaje, probarlo y publicarlo.
 
 >[!NOTE]
 >
->Para acceder a los mensajes transaccionales, debe formar parte del grupo de **[!UICONTROL Administrators (all units)]** seguridad.
+>Para acceder a mensajes transaccionales, debe formar parte del grupo de **[!UICONTROL Administrators (all units)]** seguridad.
 >
->Los mensajes transaccionales de eventos no contienen información de perfil, por lo tanto no son compatibles con las reglas de fatiga (incluso en el caso de un enriquecimiento con perfiles). Consulte Reglas [de fatiga](../../administration/using/fatigue-rules.md#choosing-the-channel).
+>Los mensajes transaccionales de Evento no contienen información sobre perfiles, por lo que no son compatibles con las normas de fatiga (incluso en el caso de un enriquecimiento con perfiles). Consulte Reglas [de fatiga](../../sending/using/fatigue-rules.md#choosing-the-channel).
 
 ## Definición de un perfil de prueba en un mensaje transaccional {#defining-a-test-profile-in-a-transactional-message}
 
-Defina un perfil de prueba adaptado, que le permitirá previsualizar el mensaje y enviar una prueba para comprobarlo.
+Defina un perfil de prueba adaptado, que le permitirá previsualización de su mensaje y enviar una prueba para comprobarlo.
 
 ### Creación de un perfil de prueba dentro del mensaje transaccional {#creating-a-test-profile-within-the-transactional-----------message}
 
@@ -44,7 +44,7 @@ Defina un perfil de prueba adaptado, que le permitirá previsualizar el mensaje 
 
    ![](assets/message-center_4.png)
 
-1. Cree un perfil de prueba que esté vinculado al evento.
+1. Cree un perfil de prueba que esté vinculado a su evento.
 
    ![](assets/message-center_test-profile.png)
 
@@ -54,9 +54,9 @@ Defina un perfil de prueba adaptado, que le permitirá previsualizar el mensaje 
 
    >[!NOTE]
    >
-   >También puede introducir la información relacionada con la tabla de perfil. Consulte [Enriquecimiento del contenido](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)de mensajes transaccionales.
+   >También puede introducir la información relativa a la tabla de perfiles. Consulte [Enriquecimiento del contenido](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)de mensaje transaccional.
 
-1. Una vez creado, el perfil de prueba se especificará previamente en el mensaje transaccional. Haga clic en el **[!UICONTROL Test profiles]** bloque del mensaje para comprobar el objetivo de la prueba.
+1. Una vez creado, el perfil de prueba se especificará previamente en el mensaje transaccional. Haga clic en el **[!UICONTROL Test profiles]** bloque del mensaje para comprobar el destinatario de la prueba.
 
    ![](assets/message-center_5.png)
 
@@ -87,7 +87,7 @@ Para configurar la personalización en un mensaje transaccional, siga los pasos 
 
    ![](assets/message-center_6.png)
 
-1. Agregue un asunto y edite el contenido del mensaje para adaptarlo a sus necesidades.
+1. Añada un asunto y edite el contenido del mensaje para adaptarlo a sus necesidades.
 
    >[NOTA]
    >
@@ -107,19 +107,19 @@ Para configurar la personalización en un mensaje transaccional, siga los pasos 
 
    ![](assets/message-center_8.png)
 
-1. Para obtener una vista previa del mensaje, seleccione el perfil que definió para este evento.
+1. Para Previsualización el mensaje, seleccione el perfil que definió para este evento.
 
    Los pasos para obtener una vista previa de un mensaje se detallan en la sección [Vista previa de mensajes](../../sending/using/previewing-messages.md) .
 
    ![](assets/message-center_9.png)
 
-   Puede comprobar que los campos de personalización coinciden con la información introducida en el perfil de prueba. Para obtener más información sobre esto, consulte [Definición de un perfil de prueba en un mensaje](#defining-a-test-profile-in-a-transactional-message)transaccional.
+   Puede comprobar que los campos de personalización coinciden con la información introducida en el perfil de prueba. Para obtener más información sobre esto, consulte [Definición de un perfil de prueba en un mensaje transaccional](#defining-a-test-profile-in-a-transactional-message).
 
-## Uso de listados de productos en un mensaje transaccional {#using-product-listings-in-a-transactional-message}
+## Uso de listas de productos en un mensaje transaccional {#using-product-listings-in-a-transactional-message}
 
 Puede crear listas de productos que hagan referencia a una o varias colecciones de datos en el contenido de un correo electrónico transaccional. Por ejemplo: en un correo electrónico de abandono del carro de compras puede incluir una lista de todos los productos que estaban en el carro de compras de los usuarios cuando salieron del sitio web, con una imagen, el precio y un vínculo a cada producto.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Los listados de productos solo están disponibles cuando se editan mensajes de correo electrónico transaccionales a través de la interfaz de [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) .
 
@@ -133,12 +133,12 @@ También puede ver un conjunto de vídeos en los que se explican los pasos neces
 
 ### Definición de una lista de productos {#defining-a-product-listing}
 
-Antes de poder utilizar una lista de productos en un mensaje transaccional, debe definir en el nivel de evento la lista de productos y los campos de cada producto de la lista que desee mostrar. Para obtener más información sobre esto, consulte [Definición de colecciones](../../administration/using/configuring-transactional-messaging.md#defining-data-collections)de datos.
+Antes de poder usar una lista de productos en un mensaje transaccional, debe definir a nivel de evento la lista de productos y los campos de cada producto de la lista que desee mostrar. Para obtener más información sobre esto, consulte [Definición de colecciones](../../administration/using/configuring-transactional-messaging.md#defining-data-collections)de datos.
 
 1. En el mensaje transaccional, haga clic en el **[!UICONTROL Content]** bloque para modificar el contenido del correo electrónico.
 1. Arrastre y suelte un componente de estructura en el espacio de trabajo. Para obtener más información sobre esto, consulte [Edición de la estructura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)de correo electrónico.
 
-   Por ejemplo, seleccione un componente de estructura de una columna y agregue un componente de texto, un componente de imagen y un componente de botón. Para obtener más información sobre esto, consulte [Adición de fragmentos y componentes](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+   Por ejemplo, seleccione un componente de estructura de una columna y agregue un componente de texto, un componente de imagen y un componente de botón. Para obtener más información sobre esto, consulte [Añadir fragmentos y componentes](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 1. Seleccione el componente de estructura que acaba de crear y haga clic en el icono **[!UICONTROL Enable product listing]** de la barra de herramientas contextual.
 
@@ -162,9 +162,9 @@ Antes de poder utilizar una lista de productos en un mensaje transaccional, debe
 
    Para obtener más información sobre la configuración del evento, consulte [Definición de colecciones](../../administration/using/configuring-transactional-messaging.md#defining-data-collections)de datos.
 
-1. Utilice la lista desplegable **[!UICONTROL First item]** para seleccionar qué elemento iniciará la lista que se muestra en el correo electrónico.
+1. Utilice la lista desplegable **[!UICONTROL First item]** para seleccionar qué elemento generará el inicio de la lista mostrada en el correo electrónico.
 
-   Por ejemplo, si selecciona 2, el primer elemento de la colección no se mostrará en el mensaje de correo electrónico. La lista de productos comenzará en el segundo artículo.
+   Por ejemplo, si selecciona 2, el primer elemento de la colección no se mostrará en el mensaje de correo electrónico. El listado de productos tendrá inicios en el segundo artículo.
 
 1. Seleccione el número máximo de elementos que se mostrarán en la lista.
 
@@ -209,7 +209,7 @@ Para obtener más información sobre la creación de una colección y los campos
 
    En el nodo **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** , abra el nodo correspondiente a la colección que ha creado (aquí **[!UICONTROL Product list]** ) y seleccione el campo URL que ha creado (aquí **[!UICONTROL Product URL]** ). Haga clic **[!UICONTROL Save]**.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Por motivos de seguridad, asegúrese de insertar el campo de personalización dentro de un vínculo que comience por un nombre de dominio estático adecuado.
 
@@ -225,10 +225,10 @@ Para obtener más información sobre la creación de una colección y los campos
 
    ![](assets/message-center_loop_fallback.png)
 
-   El contenido de reserva se mostrará si la colección está vacía cuando se activa el evento, por ejemplo, si un cliente no tiene nada en el carro de compras.
+   El contenido de reserva se mostrará si la colección está vacía cuando se activa el evento, por ejemplo si un cliente no tiene nada en el carro de compras.
 
 1. En el panel Configuración, edite los estilos de la lista de productos. Para obtener más información sobre esto, consulte [Edición de estilos](../../designing/using/styles.md)de correo electrónico.
-1. Obtenga una vista previa del correo electrónico mediante un perfil de prueba vinculado al evento transaccional relevante y para el que definió los datos de recopilación. Por ejemplo, agregue la siguiente información en la sección **[!UICONTROL Event data]** del perfil de prueba que desee utilizar:
+1. Previsualización del correo electrónico mediante un perfil de prueba vinculado al evento transaccional relevante y para el que se han definido datos de recopilación. Por ejemplo, agregue la siguiente información en la sección **[!UICONTROL Event data]** del perfil de prueba que desee utilizar:
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
@@ -248,17 +248,17 @@ Una vez que haya comprobado el mensaje transaccional, puede publicarlo.
 
 ![](assets/message-center_12.png)
 
-Ahora, tan pronto como se activa el evento de &quot;abandono del carro de compras&quot;, se muestra automáticamente un mensaje que contiene el título y los apellidos del destinatario, la dirección URL del carro de compras, el último producto consultado o una lista de productos si se ha definido un listado de productos y la cantidad total que se va a enviar.
+Ahora, tan pronto como se activa el evento &quot;Abandono del carro de compras&quot;, se muestra automáticamente un mensaje que contiene el título y los apellidos del destinatario, la dirección URL del carro de compras, el último producto consultado o una lista de productos si se ha definido una lista de productos y la cantidad total que se va a enviar.
 
 Para acceder a los informes relacionados con su mensaje transaccional, utilice el **[!UICONTROL Reports]** botón . Consulte [Informes](../../reporting/using/about-dynamic-reports.md).
 
 ![](assets/message-center_13.png)
 
-## Suspensión de una publicación de mensajes transaccionales {#suspending-a-transactional-message-publication}
+## Suspensión de una publicación de mensaje transaccional {#suspending-a-transactional-message-publication}
 
-Puede suspender la publicación del mensaje de transacción utilizando el **[!UICONTROL Pause]** botón, por ejemplo, para modificar los datos contenidos en el mensaje. Por lo tanto, los eventos ya no se procesan, sino que se mantienen en una cola en la base de datos de Adobe Campaign.
+Puede suspender la publicación del mensaje transaccional utilizando el **[!UICONTROL Pause]** botón, por ejemplo, para modificar los datos contenidos en el mensaje. Por lo tanto, los eventos ya no se procesan, sino que se mantienen en una cola en la base de datos de Adobe Campaign.
 
-Los eventos en cola se guardan durante un período de tiempo definido en la API de REST (consulte la documentación [de la API de](../../api/using/about-campaign-standard-apis.md)REST) o en el evento desencadenador si utiliza el servicio principal de activadores (consulte [Uso de Campaign y Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
+Los eventos en cola se mantienen durante un período de tiempo definido en la API de REST (consulte la documentación [de la API de](../../api/using/about-campaign-standard-apis.md)REST) o en el evento de activación si utiliza el servicio principal de Triggers (consulte [Uso de Campaña y Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
 
 ![](assets/message-center_pause.png)
 
@@ -266,71 +266,79 @@ Al hacer clic en **[!UICONTROL Resume]**, se procesan todos los eventos en cola 
 
 ## Cancelación de la publicación de un mensaje transaccional {#unpublishing-a-transactional-message}
 
-Al hacer clic en **[!UICONTROL Unpublish]** se puede cancelar la publicación de mensajes transaccionales, pero también la publicación del evento correspondiente, que elimina de la API de REST el recurso correspondiente al evento que creó anteriormente. Ahora, incluso si el evento se activa a través de su sitio web, los mensajes correspondientes ya no se envían y no se almacenan en la base de datos.
+Al hacer clic en **[!UICONTROL Unpublish]** se puede cancelar la publicación de mensaje transaccional, pero también la publicación del evento correspondiente, que elimina de la API de REST el recurso correspondiente al evento que creó anteriormente.
 
 ![](assets/message-center_unpublish-template.png)
 
+Ahora, incluso si el evento se activa a través de su sitio web, los mensajes correspondientes ya no se envían y no se almacenan en la base de datos.
+
 >[!NOTE]
 >
->Para volver a publicar el mensaje, debe volver a la configuración del evento correspondiente, publicarlo y, a continuación, publicar el mensaje. Para obtener más información sobre esto, consulte [Publicación de un mensaje](#publishing-a-transactional-message)transaccional.
+>Para volver a publicar el mensaje, debe volver a la configuración de evento correspondiente, publicarlo y publicarlo. Para obtener más información sobre esto, consulte [Publicación de un mensaje transaccional](#publishing-a-transactional-message).
 
-Si cancela la publicación de un mensaje transaccional pausado, es posible que tenga que esperar hasta 24 horas para poder volver a publicarlo. Esto permite que el flujo de trabajo **[!UICONTROL Database cleanup]** limpie todos los eventos que se han enviado a la cola. Los pasos para pausar un mensaje se detallan en la sección [Suspender una publicación](#suspending-a-transactional-message-publication) de mensajes transaccionales.
+Si cancela la publicación de un mensaje transaccional en pausa, es posible que tenga que esperar hasta 24 horas para poder volver a publicarlo. Esto permite que el flujo de trabajo **[!UICONTROL Database cleanup]** limpie todos los eventos enviados a la cola.
+
+Los pasos para pausar un mensaje se detallan en la sección [Suspender una publicación](#suspending-a-transactional-message-publication) mensaje transaccional.
 
 Se puede acceder al **[!UICONTROL Database cleanup]** flujo de trabajo, que se ejecuta todos los días a las 4 de la mañana, a través de **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Workflows]**.
 
 ## Eliminación de un mensaje transaccional {#deleting-a-transactional-message}
 
+Una vez que se ha cancelado la publicación de un mensaje transaccional o si todavía no se ha publicado un mensaje transaccional, puede eliminarlo de la lista de mensaje transaccional. Para ello:
+
+1. Haga clic en el **[!UICONTROL Adobe Campaign]** logotipo, en la esquina superior izquierda, luego seleccione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
+1. Pase el ratón sobre el mensaje que desee.
+1. Haga clic en el botón **[!UICONTROL Delete element]**.
+
 ![](assets/message-center_delete-template.png)
 
-Si selecciona un mensaje transaccional, puede eliminarlo con el **[!UICONTROL Delete element]** botón incluso si ya se ha publicado. Sin embargo, la eliminación de un mensaje transaccional solo se puede realizar bajo ciertas condiciones:
+Sin embargo, la eliminación de un mensaje transaccional solo se puede realizar bajo determinadas condiciones:
 
-* **Mensajes** transaccionales: Para eliminar un mensaje transaccional, se debe cancelar la publicación del mensaje y no ponerlo en pausa.
+* Asegúrese de que el mensaje transaccional tiene el **[!UICONTROL Draft]** estado, de lo contrario no podrá eliminarlo. El **[!UICONTROL Draft]** estado se aplica a un mensaje que aún no se ha publicado o que se ha [cancelado la publicación](#unpublishing-a-transactional-message) (y no se ha [pausado](#suspending-a-transactional-message-publication)).
 
-   Si se deja de publicar el mensaje transaccional, también es necesario cancelar la publicación de la configuración del evento para eliminar correctamente el mensaje transaccional, a menos que otro mensaje transaccional esté vinculado al evento correspondiente. For more information on how to unpublish a transactional message, refer to this [section](#unpublishing-a-transactional-message).
+* **Mensajes transaccionales**: A menos que se vincule otro mensaje transaccional al evento correspondiente, si se deja de publicar el mensaje transaccional, la configuración de evento también debe cancelarse para eliminar correctamente el mensaje transaccional. Para obtener más información sobre esto, consulte [Cancelación de la publicación de un evento](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event).
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
-   >Al eliminar un mensaje transaccional que ya ha enviado notificaciones, también se eliminarán los registros de envío y seguimiento.
+   >Al eliminar un mensaje transaccional que ya ha enviado notificaciones, también se eliminarán sus registros de seguimiento y envíos.
 
-* **Mensajes transaccionales de una plantilla de evento lista para usar (mensajes transaccionales internos)**: Para eliminar un mensaje transaccional interno, se debe cancelar la publicación del mensaje y no ponerlo en pausa.
+* **Mensajes transaccionales de una plantilla de evento lista para usar (mensajes transaccionales internos)**: Si un mensaje transaccional interno es el único asociado al evento interno correspondiente, no se puede eliminar. Primero debe crear otro mensaje transaccional duplicándolo o a través del menú **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Transactional message templates]** .
 
-   Tampoco debería ser el único mensaje transaccional en el evento, otros mensajes deben estar vinculados al evento correspondiente.
+## Proceso de reintento de Mensaje transaccional {#transactional-message-retry-process}
 
-## Proceso de reintento de mensaje transaccional {#transactional-message-retry-process}
-
-Un mensaje transaccional no entregado temporalmente está sujeto a reintentos automáticos que se realizan hasta que caduca la entrega. Para obtener más información sobre la duración de la entrega, consulte Parámetros [del período de](../../administration/using/configuring-email-channel.md#validity-period-parameters)validez.
+Un mensaje transaccional no entregado temporalmente está sujeto a reintentos automáticos que se realizan hasta que caduca el envío. Para obtener más información sobre la duración del envío, consulte Parámetros [del período de](../../administration/using/configuring-email-channel.md#validity-period-parameters)validez.
 
 Cuando no se puede enviar un mensaje transaccional, hay dos sistemas de reintentos:
 
-* En el nivel de mensajería transaccional, un mensaje transaccional puede fallar antes de que el evento se asigne a una entrega de ejecución, lo que significa entre la recepción del evento y la preparación de la entrega. Consulte Proceso [de reintento](#event-processing-retry-process)de procesamiento de eventos.
-* A nivel de proceso de envío, una vez que el evento se ha asignado a una entrega de ejecución, el mensaje transaccional puede fallar debido a un error temporal. Consulte [Proceso](#message-sending-retry-process)de reintento de envío de mensajes.
+* En el nivel de mensajería transaccional, un mensaje transaccional puede fallar antes de que el evento se asigne a un envío de ejecución, lo que significa entre la recepción del evento y la preparación del envío. Consulte Proceso de reintentos de procesamiento [Evento](#event-processing-retry-process).
+* A nivel de proceso de envío, una vez que el evento se ha asignado a un envío de ejecución, el mensaje transaccional puede fallar debido a un error temporal. Consulte [Proceso](#message-sending-retry-process)de reintento de envío de mensajes.
 
-### Proceso de reintentos de procesamiento de eventos {#event-processing-retry-process}
+### Proceso de reintento de procesamiento de Evento {#event-processing-retry-process}
 
-Si no se puede asignar el evento a una entrega de ejecución, se pospone el procesamiento del evento. Los reintentos se realizan hasta que se asignan a una nueva entrega de ejecución.
+Si el evento no se puede asignar a un envío de ejecución, se pospone el procesamiento del evento. Los Reintentos se realizan hasta que se asignan a un nuevo envío de ejecución.
 
 >[!NOTE]
 >
->Un evento pospuesto no aparece en los registros de envío de mensajes transaccionales, porque todavía no está asignado a una entrega de ejecución.
+>Un evento pospuesto no aparece en los registros de envío del mensaje transaccional, ya que todavía no está asignado a un envío de ejecución.
 
-Por ejemplo, no se pudo asignar el evento a una entrega de ejecución porque su contenido no era correcto, había un problema con los derechos de acceso o la marca, se detectó un error al aplicar reglas de tipología, etc. En este caso, puede pausar el mensaje, editarlo para solucionar el problema y publicarlo de nuevo. El sistema de reintentos lo asignará a una nueva entrega de ejecución.
+Por ejemplo, el evento no se pudo asignar a un envío de ejecución porque su contenido no era correcto, había un problema con los derechos de acceso o la marca, se detectó un error al aplicar reglas de tipología, etc. En este caso, puede pausar el mensaje, editarlo para solucionar el problema y publicarlo de nuevo. El sistema de reintentos lo asignará a un nuevo envío de ejecución.
 
 ### Proceso de reintento de envío de mensajes {#message-sending-retry-process}
 
-Una vez asignado el evento a una entrega de ejecución, el mensaje transaccional puede fallar debido a un error temporal, si el buzón del destinatario está lleno, por ejemplo. Para obtener más información sobre esto, consulte [Reintentos después de un error](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)temporal de entrega.
+Una vez asignado el evento a un envío de ejecución, el mensaje transaccional puede fallar debido a un error temporal, si el buzón del destinatario está lleno, por ejemplo. For more on this, see [Retries after a delivery temporary failure](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
 >[!NOTE]
 >
->Cuando se asigna un evento a una entrega de ejecución, aparece en los registros de envío de esta entrega de ejecución y solo en este momento. Los envíos fallidos se muestran en la **[!UICONTROL Execution list]** ficha del mensaje transaccional.
+>Cuando se asigna un evento a un envío de ejecución, aparece en los registros de envío de este envío de ejecución y solo en este momento. Los envíos fallidos se muestran en la **[!UICONTROL Execution list]** ficha del mensaje transaccional.
 
 ### Limitaciones {#limitations}
 
 **Envío de la actualización de registros**
 
-En el proceso de reintento, los registros de envío de la nueva entrega de ejecución no se actualizan inmediatamente (la actualización se realiza mediante un flujo de trabajo programado). Significa que el mensaje podría estar en **[!UICONTROL Pending]** estado aunque el evento transaccional se haya procesado mediante la nueva entrega de ejecución.
+En el proceso de reintento, los registros de envío del nuevo envío de ejecución no se actualizan inmediatamente (la actualización se realiza mediante un flujo de trabajo programado). Significa que el mensaje podría estar en **[!UICONTROL Pending]** estado aunque el nuevo envío de ejecución haya procesado el evento transaccional.
 
-**Error al ejecutar la entrega**
+**envío de ejecución fallido**
 
-No se puede detener una entrega de ejecución. Sin embargo, si se produce un error en la entrega de ejecución actual, se crea una nueva en cuanto se recibe un nuevo evento y todos los eventos nuevos se procesan mediante esta nueva entrega de ejecución. No se procesan nuevos eventos debido a la entrega fallida de la ejecución.
+No se puede detener un envío de ejecución. Sin embargo, si falla el envío de ejecución actual, se crea uno nuevo en cuanto se recibe un nuevo evento y todos los eventos nuevos se procesan con este nuevo envío de ejecución. El envío de ejecución fallido no procesa eventos nuevos.
 
-Si se han pospuesto algunos eventos ya asignados a una entrega de ejecución y se produce un error en dicha entrega, el sistema de reintentos no asigna los eventos pospuestos a la nueva entrega de ejecución, lo que significa que estos eventos se pierden.
+Si algunos eventos ya asignados a un envío de ejecución se han pospuesto y si ese envío de ejecución falla, el sistema de reintentos no asigna los eventos pospuestos al nuevo envío de ejecución, lo que significa que estos eventos se pierden.
