@@ -12,32 +12,38 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6e605f1046ddcbad9b4e6f369ea5ecf7202f3def
+source-git-commit: e6c43770755e59bf2a2d49540a052ac0bd2a2438
 
 ---
 
 
 # Acerca del envío de mensajes con Campaign{#about-sending-messages-with-campaign}
 
-Una vez definido el objetivo y creado el contenido de un mensaje, debe probarlo y aprobarlo antes de enviar el mensaje al destino principal. Para ello:
+Una vez definido el destinatario y creado el contenido de un mensaje, debe probar y aprobar el contenido, la personalización, la representación y la configuración, y asegurarse de que todo es correcto antes de enviar el mensaje al destinatario principal.
 
-* Obtenga una vista previa de la entrega mediante un perfil de prueba.
-* Programar el envío: definir cuándo enviar el mensaje.
-* Preparar el envío: este paso le permite pasar al análisis y la preparación de mensajes para enviarlos. La preparación del mensaje analiza el destino, la personalización y la validez del mensaje. Los errores detectados durante este paso deben corregirse antes de poder continuar. Puede iniciar la preparación del mensaje tantas veces como sea necesario.
+Para ello, las prácticas recomendadas son:
+
+* Preparar el envío: este paso le permite pasar al análisis y la preparación de mensajes para enviarlos. La preparación del mensaje analiza el destinatario, la personalización y la validez del mensaje. Los errores detectados durante este paso deben corregirse antes de poder continuar. Puede iniciar la preparación del mensaje tantas veces como sea necesario. For more on message preparation, refer to [this section](../../sending/using/preparing-the-send.md).
 
    >[!NOTE]
    >
-   >Puede establecer reglas de fatiga globales entre canales que excluyan automáticamente perfiles superpuestos de las campañas. Consulte Reglas [de fatiga](../../administration/using/fatigue-rules.md).
+   >Puede establecer reglas globales de fatiga entre canales que excluyan automáticamente los perfiles superpuestos de las campañas. Consulte Reglas [de fatiga](../../sending/using/fatigue-rules.md).
 
-* Compruebe el envío: este paso le permite aprobar el mensaje mediante el envío de pruebas.
-* Compruebe el procesamiento de la entrega: asegúrese de que el mensaje se muestre de forma óptima en una variedad de clientes web, correos electrónicos web y dispositivos (muy recomendable).
-* Enviar el mensaje: una vez que el mensaje esté listo, puede iniciar el envío. Los registros de acceso y los informes están disponibles para supervisar la entrega de mensajes y medir el éxito de la campaña. Adobe Campaign también ofrece un sistema de alertas por correo electrónico para realizar un seguimiento de los éxitos o errores de entrega.
+* Previsualización de mensajes mediante un perfil de prueba. For more on previewing messages, refer to [this section](../../sending/using/previewing-messages.md).
+* Enviar pruebas a los mensajes de prueba. For more on proofs, refer to [this  section](../../sending/using/sending-proofs.md).
+* Compruebe la representación del mensaje: asegúrese de que el mensaje se muestre de forma óptima en una variedad de clientes web, correos electrónicos web y dispositivos. Obtenga más información sobre el procesamiento por correo electrónico en [esta sección](../../sending/using/email-rendering.md).
 
-**Temas relacionados**:
+A continuación, puede:
 
-* [Acerca de la programación de mensajes](../../sending/using/about-scheduling-messages.md)
-* [Preparación del envío](../../sending/using/preparing-the-send.md)
-* [Envío de pruebas](../../sending/using/sending-proofs.md)
-* [Procesamiento de correo electrónico](../../sending/using/email-rendering.md)
-* [Recibir alertas cuando se produzcan errores](../../sending/using/receiving-alerts-when-failures-happen.md)
-* [Optimización de la capacidad de entrega](../../sending/using/about-deliverability.md)
+* Programar el envío: puede definir cuándo se enviarán los mensajes. Por ejemplo, puede adaptar el envío en la zona horaria del destinatario, optimizar la hora de envío o calcular la fecha de envío. Obtenga más información en [esta sección](../../sending/using/about-scheduling-messages.md).
+* Enviar el mensaje: una vez que el mensaje esté listo, puede enviar el inicio. Los registros de acceso y los informes están disponibles para supervisar el envío del mensaje y medir el éxito de la campaña. Adobe Campaign también proporciona un sistema de alertas por correo electrónico para realizar un seguimiento de los éxitos o errores de los envíos. Learn more in [this page](../../sending/using/confirming-the-send.md).
+
+## Temas relacionados
+
+| Páginas útiles | Recursos adicionales |
+|---|---|
+| [Optimización de la capacidad de entrega](../../sending/using/about-deliverability.md) | [Gestión de la fatiga](../../sending/using/fatigue-rules.md) |
+| [Seguimiento de una entrega](../../audiences/using/creating-profiles.md) | [Diseño de correos electrónicos de prueba A/B](../../channels/using/designing-an-a-b-test-email.md) |
+| [Recibir una notificación cuando se produce un error](../../sending/using/receiving-alerts-when-failures-happen.md) | [Seguimiento de una entrega](../../sending/using/monitoring-a-delivery.md) |
+| [Creación de un grupo de control](../../automating/using/workflow-control-group.md) | [Recibir una notificación cuando se produce un error](../../sending/using/receiving-alerts-when-failures-happen.md) |
+| [Control del rendimiento del Envío](../../reporting/using/delivery-throughput.md) | [Seguimiento de una entrega](../../sending/using/monitoring-a-delivery.md) |
