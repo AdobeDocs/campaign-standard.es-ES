@@ -1,6 +1,6 @@
 ---
 title: Acerca de los perfiles y audiencias
-description: '"Obtenga información sobre la administración de perfiles y audiencias en Adobe Campaign: definir poblaciones objetivo, seleccionar audiencias, filtrar destinatarios, recopilar datos y actualizar perfiles".'
+description: '"Obtenga información sobre la administración de perfiles y audiencias dentro del Adobe Campaign: definir poblaciones objetivo, seleccionar audiencias, filtrar destinatarios, recopilar datos y actualizar perfiles".'
 page-status-flag: never-activated
 uuid: f4cb6c38-c8d1-44ec-93f0-d0f5f30a3d9a
 contentOwner: sauviat
@@ -12,43 +12,51 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
+source-git-commit: 546c79b4b9a2b1fdeeee69aee2ed85fa00279609
 
 ---
 
 
 # Acerca de los perfiles y audiencias{#about-profiles-and-audiences}
 
-Al crear campañas o mensajes, puede especificar el objetivo de los envíos seleccionando entre los contactos de la base de datos de Campaign, utilizando criterios simples o avanzados o seleccionando audiencias.
+## Segmentación y segmentación
 
-Adobe Campaign crea perfiles de cliente enriquecidos en tiempo real, permitiéndole ofrecer ofertas más relevantes y personalizadas a medida que cambian las preferencias de los clientes. Además, Adobe Campaign integra funciones avanzadas de análisis, administración de datos y segmentación para crear audiencias.
+Al crear campañas o mensajes, puede especificar el destinatario de los envíos seleccionando entre los contactos de la base de datos de Campañas, utilizando criterios simples o avanzados o seleccionando audiencias.
 
-* Los perfiles son contactos individuales almacenados en la base de datos.
+Identifique a los clientes de manera más eficaz en todos sus canales mediante perfiles integrados de clientes y segmentos personalizados. Cuando conoce a sus clientes, intereses, factores demográficos y preferencias de canal, es más fácil crear experiencias personalizadas que se noten.
 
-   Cada perfil corresponde a una entrada de la base de datos que contiene la información necesaria para que ese perfil sea segmentado, cualificado y rastreado individualmente: Adobe Campaign puede realizar un seguimiento de cada interacción desde canales en línea y sin conexión y combinarla en un único perfil.
+![](assets/do-not-localize/audiences.png)
 
-* Las audiencias son listas de perfiles creados con criterios específicos o conjuntos de criterios.
+Adobe Campaign crea perfiles de cliente enriquecidos en tiempo real, permitiéndole ofrecer ofertas más relevantes y personalizadas a medida que cambian las preferencias de los clientes. Además, Adobe Campaign integra funciones avanzadas de análisis, gestión de datos y determinación de objetivos para crear audiencias.
 
-   Mediante los flujos de trabajo y el editor de consultas, puede crear audiencias que serán el objetivo de sus campañas de marketing, en función de la información que tenga sobre ellas, sus actividades y su historial de marketing. Esto le permite filtrar perfiles suscritos, tomar muestras o crear audiencias de destino según un número ilimitado de criterios.
+* Los Perfiles son contactos individuales almacenados en la base de datos.
 
-Antes de empezar a enviar mensajes a un contacto, debe asegurarse de obtener su permiso. Si no es así, los mensajes de correo electrónico pueden marcarse como correo no deseado y esto afectará la capacidad de entrega de la plataforma. Para asegurarse de crear una base de datos de perfil sólida, asegúrese de que este permiso es el primer paso. Con Campaign, le recomendamos que utilice fácilmente los mecanismos de inclusión y exclusión a través de [servicios](../../audiences/using/creating-a-service.md)y páginas [de](../../channels/using/getting-started-with-landing-pages.md) aterrizaje para actualizar su información de contacto y ampliar su base de datos.
+   Cada perfil corresponde a una entrada de la base de datos que contiene la información necesaria para que ese perfil sea dirigido, calificado y rastreado individualmente: Adobe Campaign puede rastrear cada interacción desde canales en línea y sin conexión y combinarla en un único perfil.
 
-Al proporcionar vínculos de anulación de suscripción en los mensajes, se permitirá que los perfiles queden bloqueados cuando sea necesario y, por tanto, se mejorará la capacidad de entrega de la plataforma. Para obtener más información sobre la lista negra, consulte [Acerca de la inclusión y la exclusión en Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+* Las Audiencias son listas de perfiles construidas sobre criterios específicos o conjuntos de criterios.
 
-Identifique a los clientes de forma más eficaz en todos sus canales mediante perfiles de cliente integrados y segmentos personalizados. Cuando conoce a sus clientes, intereses, demográficos y preferencias de canal, es más fácil crear experiencias personalizadas que se noten.
+   Con el uso de flujos de trabajo y el editor de consultas, puede crear audiencias que serán el objetivo de sus campañas de marketing, según la información que tenga sobre ellos, sus actividades y su historial de marketing. Esto le permite filtrar perfiles suscritos, tomar muestras o crear audiencias de destinatario según un número ilimitado de criterios.
+
+## Permiso y consentimiento
+
+Antes de empezar a enviar mensajes a un contacto, debe asegurarse de obtener su permiso. Si no es así, los mensajes de correo electrónico pueden marcarse como correo no deseado y esto afectará la capacidad de entrega de la plataforma. Para asegurarse de crear una base de datos de perfil saludable, asegúrese de que este permiso sea el primer paso. Con la Campaña, le recomendamos que utilice los sencillos mecanismos de inclusión y exclusión a través de [servicios](../../audiences/using/creating-a-service.md)y [páginas de aterrizaje](../../channels/using/getting-started-with-landing-pages.md) para actualizar su información de contacto y ampliar su base de datos.
+
+El suministro de vínculos bajas en los mensajes permitirá que los Perfiles sean en la lista negra, cuando sea necesario, y por lo tanto, mejorará la capacidad de entrega de la plataforma. Para obtener más información sobre las listas negras, consulte [Acerca de la inclusión y la exclusión en la Campaña](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!CAUTION]
 >
->Siempre debe respetar la directiva [de uso aceptable de](https://www.adobe.com/legal/terms/aup.html)Adobe Campaign.
+>Debe respetar la política [de uso aceptable del](https://www.adobe.com/legal/terms/aup.html)Adobe Campaign.
 
-El Reglamento General de Protección de Datos (GDPR) es la nueva normativa sobre privacidad de la Unión Europea que unifica y moderniza los requisitos de protección de datos. El RGPD se aplica a los clientes de Adobe Campaign que albergan datos de sujetos de datos que residan en la UE. Además de las funciones de privacidad ya disponibles en Adobe Campaign (incluida la administración de consentimiento, la configuración de retención de datos y las funciones de usuario), aprovechamos esta oportunidad en nuestra función de procesador de datos para incluir funciones adicionales, a fin de facilitar su preparación como controlador de datos para determinadas solicitudes de RGPD.
+## Cumplimiento de la privacidad
 
-Consulte esta [guía](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html) para obtener más información sobre las herramientas y funcionalidades que proporciona Adobe Campaign para ayudarle a cumplir con el RGPD.
+Adobe Campaign oferta un conjunto de herramientas para ayudarlo con su conformidad con la privacidad para el RGPD, la CCPA y otras leyes de privacidad. Obtenga más información en este [artículo](https://helpx.adobe.com/es/campaign/kb/campaign-privacy.html) sobre Administración de privacidad y las funciones que ofrecemos para administrar el derecho al acceso, el derecho al olvido, el consentimiento, la retención de datos y las funciones de usuario. También encontrará optimizaciones para ayudarle con su conformidad con la privacidad al utilizar nuestro servicio.
 
-**Temas relacionados:**
+## Temas relacionados
 
-* [Creación de audiencias](../../audiences/using/creating-audiences.md)
-* [Creación de perfiles](../../audiences/using/creating-profiles.md)
-* [Perfil de cliente integrado](../../audiences/using/integrated-customer-profile.md)
-* [Acerca de la inclusión y la exclusión en Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-
+| Páginas útiles | Recursos adicionales |
+|---|---|
+| [Creación de audiencias](../../audiences/using/creating-audiences.md) | [Uso del servicio Destinos de Audiencia](../../audiences/using/aep-about-audience-destinations-service.md) |
+| [Creación de perfiles](../../audiences/using/creating-profiles.md) | [Uso de Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md) |
+| [Perfil de cliente integrado](../../audiences/using/integrated-customer-profile.md) | [Audiencias compartidas de Adobe](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md) |
+| [Acerca de la inclusión y la exclusión en Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md) | [Uso de flujos de trabajo para importar perfiles](../../automating/using/importing-data.md) |
+| [Administración de la privacidad (RGPD, CCPA)](https://helpx.adobe.com/es/campaign/kb/campaign-privacy.html) | [Creación de perfiles y audiencias (vídeo)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html) |
