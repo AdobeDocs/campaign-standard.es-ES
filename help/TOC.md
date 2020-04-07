@@ -2,9 +2,9 @@
 product: adobe campaign
 sub-product: adobe campaign standard
 audience: end-user
-user-guide-title: Adobe Campaign Standard Help
+user-guide-title: Ayuda de Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 8561d57629b359e2bf0cd1f190b45c6be1ae0185
+source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
 
 ---
 
@@ -168,6 +168,13 @@ source-git-commit: 8561d57629b359e2bf0cd1f190b45c6be1ae0185
       + [Recomendaciones técnicas](sending/using/technical-recommendations.md)
       + [Supervisión de la capacidad de entrega](sending/using/monitor-deliverability.md)
       + [Resolución de problemas](sending/using/troubleshooting.md)
+   + Trabajo con reglas de tipología {#working-with-typology-rules}
+      + [Acerca de las tipologías y reglas de tipología](sending/using/about-typology-rules.md)
+      + [Administración de tipologías](sending/using/managing-typologies.md)
+      + [Administración de reglas de tipología](sending/using/managing-typology-rules.md)
+      + [Reglas de filtrado](sending/using/filtering-rules.md)
+      + [Reglas de fatiga](sending/using/fatigue-rules.md)
+      + [Reglas de control](sending/using/control-rules.md)
 + Informes {#reporting}
    + Acerca de los informes {#about-reporting}
       + [Acerca de los informes dinámicos](reporting/using/about-dynamic-reports.md)
@@ -230,12 +237,12 @@ source-git-commit: 8561d57629b359e2bf0cd1f190b45c6be1ae0185
       + [Prueba de los activadores](integrating/using/testing-your-triggers.md)
       + [Ejemplos prácticos de activadores de abandono](integrating/using/abandonment-triggers-use-cases.md)
    + Campaña y Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [Configuración de la integración de E/S de Adobe para Microsoft Dynamics 365](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + Trabajo con Campaign Standard y Microsoft Dynamics 365 {#working-with-campaign-standard-and-ms-dynamics}
          + [Trabajo con Campaign Standard y Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
          + [Avisos y recomendaciones](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
          + [Solicitud y configuración de Microsoft Dynamics 365 con integración de Campaign Standard](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
          + [Uso de Microsoft Dynamics 365 con la integración de Campaign Standard](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
+      + [Configuración de la integración de E/S de Adobe para Microsoft Dynamics 365](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + [Configuración de Microsoft Dynamics 365 para la integración de Campañas](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
       + [Configurar la integración de Unifi para Microsoft Dynamics 365](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
       + [Asignar recursos personalizados de Campaña y entidades personalizadas de Dynamics 365](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
@@ -371,11 +378,6 @@ source-git-commit: 8561d57629b359e2bf0cd1f190b45c6be1ae0185
       + [Configuración de canales de SMS](administration/using/configuring-sms-channel.md)
       + [Configuración de una aplicación móvil](administration/using/configuring-a-mobile-application.md)
       + [Configuración de la mensajería transaccional](administration/using/configuring-transactional-messaging.md)
-   + Trabajo con reglas de tipología {#working-with-typology-rules}
-      + [Acerca de las reglas de tipología](administration/using/about-typology-rules.md)
-      + [Reglas de filtrado](administration/using/filtering-rules.md)
-      + [Reglas de fatiga](administration/using/fatigue-rules.md)
-      + [Reglas de control](administration/using/control-rules.md)
    + Ajustes de la aplicación {#application-settings}
       + [Acerca de la configuración de Campaign Standard](administration/using/about-campaign-standard-settings.md)
       + [Cuentas externas](administration/using/external-accounts.md)
