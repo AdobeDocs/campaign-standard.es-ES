@@ -12,7 +12,7 @@ discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ec0af8c06e36f51ddaf6e3d4190fa6acd56d2da6
+source-git-commit: 396084934a41d103eecd6fe141c700c118000f75
 
 ---
 
@@ -26,7 +26,7 @@ Las reglas de filtrado permiten excluir una parte del destinatario de mensajes s
 La tabla siguiente proporciona información sobre las reglas de filtrado integradas, así como sus canales relacionados.
 
 | Etiqueta | Canal | Descripción |
----------|----------|---------|---------
+---------|----------|---------
 | **[!UICONTROL Address not specified]** | Todos | Excluye la población de destinatarios sin dirección especificada (correo electrónico, dirección postal, etc.) según el canal seleccionado). |
 | **[!UICONTROL Blacklisted address]** | Todos | Excluye direcciones en la lista negra. |
 | **[!UICONTROL Duplicate]** | Todos | Excluye duplicados en función del campo de población de destinatarios **[!UICONTROL Address]** . |
