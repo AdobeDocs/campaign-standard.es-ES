@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 240e8738fab8f0eaa8398de1b74e22d292536908
+source-git-commit: 876f12d5256ef991741c35b17eff666dedc99d73
 
 ---
 
@@ -31,13 +31,13 @@ La documentación de la integración de Microsoft Dynamics 365 con Adobe Campaig
 
 Se han añadido recursos adicionales a la página de inicio de documentación. [Más información](../../campaign-standard-home.md)
 
-Se ha añadido información sobre el servicio Experience Cloud ID (ECID) a la documentación del conector de datos de la plataforma de Adobe Experience Platform. [Más información](../../administration/using/aep-about-data-connector.md#key-concepts)
+Se ha añadido información sobre el servicio Experience Cloud ID (ECID) a la documentación del conector de datos de la plataforma de Adobe Experience Cloud. [Más información](../../administration/using/aep-about-data-connector.md#key-concepts)
 
 La sección Configuración de mensajes transaccionales se ha mejorado con información sobre cómo acceder a los últimos eventos transaccionales y capturas de pantalla actualizadas. [Más información](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
 
 La sección relativa a las tipologías y reglas de tipología se ha mejorado y actualizado con información adicional sobre las reglas de tipología integradas. [Más información](../../sending/using/about-typology-rules.md)
 
-Se ha añadido información sobre la acción de la **[!UICONTROL Transfer file]** actividad **!UICONTROL File listing]** . [Más información](../../automating/using/transfer-file.md)
+Se ha añadido información sobre la acción de la **[!UICONTROL Transfer file]** actividad **[!UICONTROL File listing]** . [Más información](../../automating/using/transfer-file.md)
 
 La documentación sobre reintentos después de un error temporal de envío se ha actualizado con más detalles sobre cómo se administran los reintentos una vez actualizados al MTA mejorado. [Más información](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
 
