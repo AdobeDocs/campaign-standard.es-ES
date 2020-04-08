@@ -12,20 +12,20 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: f5c91f886335e43940caac4d3b18924c020a2d2b
 
 ---
 
 
 # Activación de una actividad de señal {#triggering-a-signal-activity}
 
-En un flujo de trabajo de Adobe Campaign Standard, puede haber una o varias actividades de señal **** externa. Estas actividades son "oyentes" que esperan activarse.
+En un flujo de trabajo de Adobe Campaign Standard, puede haber una o más actividades de señal **** externa. Estas actividades son &quot;oyentes&quot; que esperan activarse.
 
-Las API de Campaign Standard permiten activar una actividad de señal **** externa para llamar a un flujo de trabajo. La llamada de API puede incluir parámetros que se van a ingerir en las variables de eventos del flujo de trabajo (un nombre de audiencia para el destino, un nombre de archivo para importar, una parte del contenido del mensaje, etc.). De este modo, puede integrar fácilmente las automatizaciones de su campaña con su sistema externo.
+Las API de Campaign Standard permiten activar una actividad de señal **** externa para llamar a un flujo de trabajo. La llamada de API puede incluir parámetros que se ingerirán en las variables de eventos del flujo de trabajo (un nombre de audiencia a destinatario, un nombre de archivo para importar, una parte del contenido del mensaje, etc.). De este modo, puede integrar fácilmente sus automatizaciones de Campaña con su sistema externo.
 
 >[!NOTE]
 >
->Las actividades de señal externa no se pueden activar con más frecuencia que cada 10 minutos y el flujo de trabajo de destino debe estar ya en ejecución.
+>Las actividades de señales externas no se pueden activar con más frecuencia que cada 10 minutos y el flujo de trabajo de destino debe estar ya en ejecución.
 
 Para activar un flujo de trabajo, siga los pasos a continuación:
 
@@ -33,9 +33,9 @@ Para activar un flujo de trabajo, siga los pasos a continuación:
 
    `GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>`
 
-1. Realice una solicitud **POST** en la dirección URL devuelta para activar la actividad de señal, con el parámetro **"source"** en la carga útil. Este atributo es obligatorio, le permite indicar el origen de la solicitud de activación.
+1. Realice una solicitud **POST** en la dirección URL devuelta para activar la actividad de señal, con el parámetro **&quot;source&quot;** en la carga útil. Este atributo es obligatorio, le permite indicar el origen de la solicitud de activación.
 
-Si desea llamar al flujo de trabajo con parámetros, agréguelos a la carga útil con el atributo **"parameters"** . La sintaxis consiste en el nombre del parámetro seguido de su valor (se admiten los siguientes tipos: **cadena**, **número**, **booleano** y **fecha/hora**).
+Si desea llamar al flujo de trabajo con parámetros, agréguelos a la carga útil con el atributo **&quot;parameters&quot;** . La sintaxis consiste en el nombre del parámetro seguido de su valor (se admiten los siguientes tipos: **cadena**, **número**, **booleano** y **fecha/hora**).
 
 ```
   -X POST <TRIGGER_URL>
@@ -93,7 +93,7 @@ Devuelve la actividad de señal de flujo de trabajo y la dirección URL de activ
 }
 ```
 
-Para desencadenar una actividad de señal, realice una solicitud POST en la dirección URL de activación con el "origen". Agregue los atributos "parameters" si desea llamar al flujo de trabajo con parámetros.
+Para activar una actividad de señal, realice una solicitud POST en la dirección URL del activador con el &quot;origen&quot;. Añada los atributos &quot;parameters&quot; si desea llamar al flujo de trabajo con parámetros.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<PKEY>/activities/activity/<PKEY>/trigger \
