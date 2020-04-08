@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
+source-git-commit: f5c91f886335e43940caac4d3b18924c020a2d2b
 
 ---
 
@@ -479,7 +479,7 @@ Pueden producirse algunos problemas al utilizar vínculos de ayuda contextuales 
   </tr> 
   <tr> 
    <td> Activación de actividad de señal de API<br /> </td> 
-   <td> Ahora es posible activar una actividad de señal para sus flujos de trabajo directamente desde la API de Adobe Campaign Standard.<br /> Para obtener más información, consulte la <a class="anchorLink" href="../../api/using/triggering-a-signal-activity.md">documentación detallada</a> .<br /> </td> 
+   <td> Ahora es posible activar una actividad de señal para sus flujos de trabajo directamente desde la API de Adobe Campaign Standard.<br /> Para obtener más información, consulte la <a href="/help/api/using/triggering-a-signal-activity.md">documentación detallada</a> .<br /> </td> 
   </tr> 
  </tbody> 
 </table>
