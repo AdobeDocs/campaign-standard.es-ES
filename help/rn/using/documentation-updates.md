@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 876f12d5256ef991741c35b17eff666dedc99d73
+source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
 
 ---
 
@@ -43,7 +43,7 @@ La documentación sobre reintentos después de un error temporal de envío se ha
 
 Se ha mejorado y aclarado la sección Eliminación de un mensaje transaccional. [Más información](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
 
-## Versión 20.2 - Marzo de 2020 {#release-20-2---march-2020}
+## Versión 20.2: abril de 2020 {#release-20-2---april-2020}
 
 **Nuevas funciones incluidas en la versión**
 
