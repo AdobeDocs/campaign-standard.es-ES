@@ -12,18 +12,18 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ce0ddc11c239dd72f14ace56ad008717ebaa47de
+source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
 
 ---
 
 
 # Última versión{#latest-release}
 
-[Planificación](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) de versiones| [Versiones](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) del Panel de control| Actualizaciones [de documentación](../../rn/using/documentation-updates.md) | Notas de revisión [anteriores](../../rn/using/release-notes-2019.md) | Características [obsoletas](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+[Planificación](https://helpx.adobe.com/es/campaign/kb/acs-release-planning.html) de versiones| [Versiones](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html) del Panel de control| Actualizaciones [de documentación](../../rn/using/documentation-updates.md) | Notas de revisión [anteriores](../../rn/using/release-notes-2019.md) | Características [obsoletas](https://helpx.adobe.com/es/campaign/kb/acs-deprecated-and-removed-features.html)
 
 [Haga clic aquí](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) para suscribirse a las notificaciones de la versión y obtener detalles sobre las últimas versiones de Adobe Experience Cloud directamente en la bandeja de entrada.
 
-## Versión 20.2 - Marzo de 2020 {#release-20-2---march-2020}
+## Versión 20.2: abril de 2020 {#release-20-2---april-2020}
 
 **Novedades**
 
@@ -59,7 +59,7 @@ source-git-commit: ce0ddc11c239dd72f14ace56ad008717ebaa47de
 
 >[!NOTE]
 >
->En abril se lanzarán nuevas funciones en el Panel de control de Campañas, incluida la administración de registros TXT de Google, la supervisión de espacio en la base de datos y las alertas por correo electrónico. Para obtener más información sobre estas funciones, consulte la Nota [de revisión del panel de](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)control.
+>En abril se lanzarán nuevas funciones en el Panel de control de Campañas, incluida la administración de registros TXT de Google, la supervisión de espacio en la base de datos y las alertas por correo electrónico. Para obtener más información sobre estas funciones, consulte la Nota [de revisión del panel de](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html)control.
 
 **Mejoras**
 
