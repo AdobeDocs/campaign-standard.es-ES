@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
+source-git-commit: 66e480e957d12275d2ce5575c99b0808462588f9
 
 ---
 
@@ -106,3 +106,4 @@ source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
 * Se ha corregido un problema que se producía al eliminar una solicitud de privacidad manualmente en Campaña después de procesarla, lo que impedía que los datos asociados a la solicitud se eliminaran incluso después de la limpieza.
 * Se ha corregido un problema que se podía producir al obtener una vista previa o enviar mensajes que incluían caracteres especiales de Adobe Experience Manager.
 * Se ha corregido un problema que se podía producir en flujos de trabajo al ejecutar una actividad con varias transiciones de entrada.
+* Se ha corregido un problema que impedía que los usuarios estándar usaran las &#39;Suscripciones a una aplicación&#39; como dimensión de destinatario en una consulta de flujo de trabajo o un envío. (CAMP-37618)
