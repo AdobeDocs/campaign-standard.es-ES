@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 451c7d15bfe206912fd1f8db8bf8c3d7ec83616d
+source-git-commit: a71af00e606d78c4ff8b39da1b9f032c0dcf0fc6
 
 ---
 
@@ -27,9 +27,9 @@ Las actualizaciones se implementan en dos fases. En primer lugar, las instancias
 
 Todas las fechas de lanzamiento están sujetas a cambios: le recomendamos que visite esta página con regularidad para buscar actualizaciones.
 
-Suscríbase para [recibir notificaciones](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) de la versión y obtener detalles sobre las últimas versiones de Adobe Experience Cloud directamente en su bandeja de entrada.
+**¡NUEVO!** Suscríbase a las notificaciones [de la versión de](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) Campaign Standard para obtener detalles sobre próximas versiones directamente en la bandeja de entrada.
 
-## Versión 20.2.1: versión de abril {#release-20-2-april-release}
+## Versión 20.3.1: Versión de mayo {#release-20-3-may-release}
 
 Las actualizaciones de Entorno se producen en olas, durante los intervalos de tiempo indicados a continuación. Encontrará información detallada sobre esta versión en las [Notas](../../rn/using/release-notes.md)de la versión. Si tiene alguna duda, póngase en contacto con [Adobe Client Care](https://support.neolane.net/webApp/extranetLogin).
 
@@ -43,11 +43,11 @@ Las actualizaciones de Entorno se producen en olas, durante los intervalos de ti
  <tbody> 
   <tr> 
    <td> Fase<br /> </td> 
-   <td> 31 de marzo - 1 de abril de 2020<br /> </td> 
+   <td> 27 - 28 de abril de 2020<br /> </td> 
   </tr> 
   <tr> 
    <td> Producción<br /> </td> 
-   <td> 6 a 9 de abril de 2020<br /> </td> 
+   <td> 4 a 11 de mayo de 2020<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,7 +58,7 @@ Las actualizaciones de Entorno se producen en olas, durante los intervalos de ti
 
 **P: ¿Cuál es el impacto?**
 
-A: Los cambios se enumeran en las [Notas](../../rn/using/release-notes.md)de la versión, incluidos los vínculos a la documentación relacionada. Adobe también recomienda consultar la página [Funciones](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)obsoletas y eliminadas. Estas páginas están disponibles para la nueva versión en la fecha de actualización de Stage entorno.
+A: Los cambios se enumeran en las [Notas](../../rn/using/release-notes.md)de la versión, incluidos los vínculos a la documentación relacionada. Adobe también recomienda consultar la página [Funciones](https://helpx.adobe.com/es/campaign/kb/acs-deprecated-and-removed-features.html)obsoletas y eliminadas. Estas páginas están disponibles para la nueva versión en la fecha de actualización de Stage entorno.
 
 **P: ¿Cuál es el proceso de validación?**
 
