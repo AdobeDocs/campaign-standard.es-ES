@@ -1,5 +1,5 @@
 ---
-title: Activación de asignación
+title: Activación de la asignación
 description: Obtenga información sobre cómo activar la asignación de datos
 page-status-flag: never-activated
 uuid: 867b1c4b-4c79-4c52-9d0a-ef71993e50a2
@@ -12,18 +12,18 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5f3bf4c2d0bba095182194ac28b3107eae2c54a6
+source-git-commit: 57b87896281efa7dd1e6a612926f59061a0fdcb8
 
 ---
 
 
-# Activación de asignación {#mapping-activation}
+# Activación de la asignación {#mapping-activation}
 
 >[!IMPORTANT]
 >
->El servicio de datos de Campaign Standard está actualmente en fase beta, que puede estar sujeto a actualizaciones frecuentes sin previo aviso. Se requiere que los clientes estén alojados en Azure (actualmente en versión beta solo para Norteamérica) para acceder a estas capacidades. Póngase en contacto con el Servicio de atención al cliente de Adobe si desea obtener acceso.
+>El conector de datos de la plataforma de Adobe Experience está actualmente en fase beta, que puede estar sujeto a actualizaciones frecuentes sin previo aviso. Se requiere que los clientes estén alojados en Azure (actualmente en versión beta solo para Norteamérica) para acceder a estas capacidades. Póngase en contacto con el Servicio de atención al cliente de Adobe si desea obtener acceso.
 
-Una vez completada la definición de la asignación, puede publicarla. Después del paso de implementación, la replicación de datos entre Campaign Standard y Adobe Experience Platform se inicia automáticamente. En cualquier momento, puede detener la replicación haciendo clic en el **[!UICONTROL Stop]**botón.
+Una vez completada la definición de la asignación, puede publicarla. Después del paso de implementación, la replicación de datos entre Campaign Standard y Adobe Experience Platform se inicia automáticamente. En cualquier momento, puede detener la replicación haciendo clic en el **[!UICONTROL Stop]** botón.
 
 Según las modificaciones de asignación, puede optar por reenviar todos los registros a Adobe Experience Platform.
 
@@ -33,11 +33,11 @@ Desde el mosaico de implementación, puede acceder al registro de publicación y
 
 ![](assets/aep_publog.png)
 
-En la **[!UICONTROL Export jobs]**ficha, puede supervisar el trabajo de exportación de la asignación publicada.
+En la **[!UICONTROL Export jobs]** ficha, puede supervisar el trabajo de exportación de la asignación publicada.
 
 ![](assets/aep_jobstatus.png)
 
-Si desea controlar todos los trabajos de exportación de datos, vaya al menú **[!UICONTROL Administration]**>**[!UICONTROL Development]** > **[!UICONTROL Platform]**>**[!UICONTROL Status of data export to platform]** .
+Si desea controlar todos los trabajos de exportación de datos, vaya al menú **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** .
 
 ![](assets/aep_statusmapping.png)
 
