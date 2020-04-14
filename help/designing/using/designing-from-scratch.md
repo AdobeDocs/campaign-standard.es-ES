@@ -1,18 +1,18 @@
 ---
 title: 'Diseño de correos electrónicos desde cero '
 description: Descubra cómo diseñar correos electrónicos desde cero en el Diseñador de correo electrónico.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: diseñar
-content-type: referencia
+audience: designing
+content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 023159c1c2d3334fd79e9ed9bf628758d84111eb
 
 ---
 
@@ -26,13 +26,13 @@ Aprenda a dominar la edición de contenido de correo electrónico. Con Email Des
 A continuación se indican los pasos principales para crear y diseñar contenido de correo electrónico desde cero con el Diseñador de correo electrónico:
 
 1. Cree un correo electrónico y abra su contenido.
-1. Agregue componentes de estructura para dar forma al correo electrónico. Consulte [Edición de la estructura](#defining-the-email-structure)de correo electrónico.
-1. Inserte componentes y fragmentos de contenido en los componentes de estructura. Consulte [Adición de fragmentos y componentes](#defining-the-email-structure)de contenido.
-1. Agregue imágenes y edite el texto del correo electrónico. Consulte [Inserción de imágenes](../../designing/using/images.md#inserting-images).
+1. Añada componentes de estructura para dar forma al correo electrónico. Consulte [Edición de la estructura](#defining-the-email-structure)de correo electrónico.
+1. Inserte componentes y fragmentos de contenido en los componentes de estructura. Consulte [Añadir fragmentos y componentes](#defining-the-email-structure)de contenido.
+1. Añada imágenes y edite el texto del correo electrónico. Consulte [Inserción de imágenes](../../designing/using/images.md#inserting-images).
 1. Personalice su correo electrónico agregando campos de personalización, vínculos, etc. Consulte [Inserción de un campo](../../designing/using/personalization.md#inserting-a-personalization-field)de personalización, [Inserción de un vínculo](../../designing/using/links.md#inserting-a-link) y [Definición de contenido dinámico en un correo electrónico](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 1. Defina la línea de asunto de su correo electrónico. See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
-1. Previsualice el correo electrónico.
-1. Guarde el contenido y continúe con el mensaje después de asegurarse de haber definido una audiencia y de haber programado correctamente el envío.
+1. Previsualización tu correo electrónico.
+1. Guarde el contenido y continúe con el mensaje después de asegurarse de haber definido una audiencia y programado correctamente el envío.
 
 También puede ver este vídeo [de introducción](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=spa).
 
@@ -69,13 +69,13 @@ Para editar la estructura de un correo electrónico:
 
    >[!NOTE]
    >
-   >Cada tamaño de columna no puede ser inferior al 10 % del ancho total del componente de estructura. No puede eliminar una columna que no esté vacía.
+   >Cada tamaño de columna no puede ser inferior al 10 % del ancho total del componente de estructura. No se puede quitar una columna que no esté vacía.
 
 Una vez definida la estructura, podrá añadir fragmentos de contenido y componentes al correo electrónico.
 
 ### Uso de componentes de contenido {#about-content-components}
 
- Los componentes de contenido son componentes sin procesar y vacíos que se pueden editar una vez colocados en un mensaje de correo electrónico.
+Los componentes de contenido son componentes sin procesar y vacíos que se pueden editar una vez colocados en un mensaje de correo electrónico.
 
 Puede agregar tantos componentes de contenido como desee en un componente de estructura. También puede moverlos dentro del componente de estructura o a otro componente de estructura.
 
@@ -83,11 +83,11 @@ Esta es la lista de los componentes disponibles en el Diseñador de correo elect
 
 - **[!UICONTROL Button]**
 
-   Si necesita utilizar varios botones, en lugar de editarlos desde cero, puede duplicar el **[!UICONTROL Button]** componente mediante la barra de herramientas contextual.
+   Si necesita utilizar varios botones, en lugar de editarlos desde cero, puede crear un duplicado del **[!UICONTROL Button]** componente mediante la barra de herramientas contextual.
 
    También puede guardar botones en fragmentos que se puedan reutilizar. Para obtener más información sobre esto, consulte [Creación de un fragmento](../../designing/using/using-reusable-content.md#creating-a-content-fragment) de contenido y [Guardado de contenido como un fragmento](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
 
-1. Seleccione **[!UICONTROL Fallback view]** para mostrar la imagen de reserva en el Diseñador de correo electrónico.
+Seleccione **[!UICONTROL Fallback view]** para mostrar la imagen de reserva en el Diseñador de correo electrónico.
 
 - **[!UICONTROL Text]**
 
@@ -143,7 +143,7 @@ Esta es la lista de los componentes disponibles en el Diseñador de correo elect
    1. Busque para seleccionar imágenes del equipo.
    ![](assets/des_carousel_browse.png)
 
-   1. En el **[!UICONTROL Settings]** panel, establezca el número de miniaturas que desee en el carrusel.
+   1. En el **[!UICONTROL Settings]** panel, establezca el número de miniaturas que desee incluir en el carrusel.
    1. Seleccione una imagen de reserva del equipo.
    ![](assets/des_carousel_fallback.png)
 
