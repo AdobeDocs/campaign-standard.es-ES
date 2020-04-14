@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
+source-git-commit: a09d82ae6fa77bb94550e533aa8fb63b463cd28c
 
 ---
 
@@ -42,6 +42,8 @@ Se ha añadido información sobre la acción de la **[!UICONTROL Transfer file]*
 La documentación sobre reintentos después de un error temporal de envío se ha actualizado con más detalles sobre cómo se administran los reintentos una vez actualizados al MTA mejorado. [Más información](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
 
 Se ha mejorado y aclarado la sección Eliminación de un mensaje transaccional. [Más información](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
+
+La sección **Vista previa de envíos** se ha actualizado con ejemplos de envíos móviles.[Más información](../../sending/using/previewing-messages.md)
 
 ## Versión 20.2: abril de 2020 {#release-20-2---april-2020}
 
