@@ -1,5 +1,5 @@
 ---
-title: Activación de la ingestión de datos mediante API
+title: Activación de la ingesta de datos mediante API
 description: Obtenga información sobre cómo activar la ingesta de datos mediante API.
 page-status-flag: never-activated
 uuid: 867b1c4b-4c79-4c52-9d0a-ef71993e50a2
@@ -12,18 +12,18 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 67223cf8eed46e2431c03674bd837262e37c7473
+source-git-commit: 57b87896281efa7dd1e6a612926f59061a0fdcb8
 
 ---
 
 
-# Activación de la ingestión de datos mediante API {#triggering-data-ingestion-apis}
+# Activación de la ingesta de datos mediante API {#triggering-data-ingestion-apis}
 
 >[!IMPORTANT]
 >
->El servicio de datos de Campaign Standard está actualmente en fase beta, que puede estar sujeto a actualizaciones frecuentes sin previo aviso. Se requiere que los clientes estén alojados en Azure (actualmente en versión beta solo para Norteamérica) para acceder a estas capacidades. Póngase en contacto con el Servicio de atención al cliente de Adobe si desea obtener acceso.
+>El conector de datos de la plataforma de Adobe Experience está actualmente en fase beta, que puede estar sujeto a actualizaciones frecuentes sin previo aviso. Se requiere que los clientes estén alojados en Azure (actualmente en versión beta solo para Norteamérica) para acceder a estas capacidades. Póngase en contacto con el Servicio de atención al cliente de Adobe si desea obtener acceso.
 
-Adobe Campaign Standard permite activar la ingestión inmediata de asignaciones de datos mediante API y recuperar el estado de las solicitudes de inserción.
+Adobe Campaign Standard le permite activar la ingestión inmediata de asignaciones de datos mediante API y recuperar el estado de las solicitudes de inserción.
 
 Esta página describe cómo activar y recuperar el estado de inserción de las asignaciones de datos. Para obtener información global sobre las API de Campaign Standard, consulte [esta sección](../../api/using/about-campaign-standard-apis.md).
 
@@ -31,14 +31,14 @@ Esta página describe cómo activar y recuperar el estado de inserción de las a
 
 Antes de utilizar las API, la asignación de datos debe haberse configurado y publicado primero en la interfaz de Campaign Standard. Para obtener más información, consulte estas secciones:
 
-* [Definición de asignación](../../administration/using/aep-mapping-definition.md)
-* [Activación de asignación](../../administration/using/aep-mapping-activation.md)
+* [Definición de la asignación](../../administration/using/aep-mapping-definition.md)
+* [Activación de la asignación](../../administration/using/aep-mapping-activation.md)
 
 Una vez creada la asignación de datos, debe evitar que se ejecute para poder activarla desde las API cuando lo desee. Para ello, siga estos pasos:
 
-1. En Campaign Standard, vaya al menú **[!UICONTROL Administration]**>**[!UICONTROL Development]** > **[!UICONTROL Platform]**>**[!UICONTROL Status of data export to platform]** .
+1. En Campaign Standard, vaya al menú **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** .
 
-1. Haga doble clic en la asignación de datos para abrirla y, a continuación, haga clic en el **[!UICONTROL Stop]**botón .
+1. Haga clic con el botón Doble en la asignación de datos para abrirla y, a continuación, haga clic en el **[!UICONTROL Stop]** botón.
 
    ![](assets/aep_datamapping_stop.png)
 
@@ -54,7 +54,7 @@ La ingestión inmediata de una asignación XDM en Adobe Experience Platform se a
 
 >[!NOTE]
 >
->Para ejecutar una llamada de API POST de ingesta, el usuario debe tener una función de ejecución **de función** SQL, que puede proporcionar un administrador de Campaign Standard ejecutando debajo de JS Script:
+>Para ejecutar una llamada de API POST de ingesta, el usuario debe tener una función de ejecución **de función** SQL, que puede proporcionar un administrador Campaign Standard mediante la ejecución de la siguiente secuencia de comandos de JS:
 >
 >`var sqlRoleObj = REST.head.roleBase.sql.get();
 REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);`
@@ -104,7 +104,7 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 ```
 
 >[!NOTE]
-Encontrará información detallada sobre el estado de la solicitud de asignación XDM y sus trabajos relacionados en la interfaz de Campaign Standard, en el menú **!UICONTROL [Estado de la exportación de datos a la plataforma]** (consulte Activación [de](../../administration/using/aep-mapping-activation.md)asignación).
+Encontrará información detallada sobre el estado de la solicitud de asignación XDM y sus trabajos relacionados en la interfaz de Campaign Standard, en el menú **!UICONTROL [Estado de la exportación de datos a la plataforma ]**(consulte activación[de](../../administration/using/aep-mapping-activation.md)asignación).
 
 La operación GET devuelve la siguiente información:
 
