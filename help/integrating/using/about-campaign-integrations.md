@@ -12,7 +12,7 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 03009c47a66aa1a62c05f632e2a60141a98639d8
+source-git-commit: 640286c66da3f216cac6264ab6c61652bba209ce
 
 ---
 
@@ -29,7 +29,7 @@ Las diferentes integraciones presentadas a continuación le permiten combinar la
 
 Según el entorno, otras soluciones también se pueden vincular a Adobe Experience Cloud. Están vinculados como Organizaciones (también llamados Inquilinos).
 
-Una organización es la entidad que permite a un administrador configurar grupos y usuarios y controlar el inicio de sesión único en Experience Cloud. La organización funciona como una empresa de inicio de sesión que abarca todos los productos y soluciones de Experience Cloud. Generalmente, la organización es el nombre de la empresa. Sin embargo, una empresa puede tener muchas organizaciones. La administración de usuarios y organizaciones se detalla en el portal [de ayuda de](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)Adobe Experience Cloud.
+Una organización es la entidad que permite a un administrador configurar grupos y usuarios y controlar el inicio de sesión único en Experience Cloud. La organización funciona como una empresa de inicio de sesión que abarca todos los productos y soluciones de Experience Cloud. Generalmente, la organización es el nombre de la empresa. Sin embargo, una empresa puede tener muchas organizaciones. La administración de usuarios y organizaciones se detalla en el portal [de ayuda de](https://marketing.adobe.com/resources/help/es_ES/mcloud/organizations.html)Adobe Experience Cloud.
 
 Si desea integrar flujos de datos de otros sistemas con Adobe Campaign, consulte nuestra documentación [de](../../api/using/about-campaign-standard-apis.md)API.
 
@@ -48,7 +48,7 @@ Si desea integrar flujos de datos de otros sistemas con Adobe Campaign, consulte
  </thead> 
  <tbody> 
   <tr> 
-   <td> Experience Manager<br /> 6.1, 6.2, 6.3, 6.4<br /> </td> 
+   <td> Experience Manager<br /> 6.1, 6.2, 6.3, 6.4, 6.5<br /> </td> 
    <td> Permite crear contenido de correo electrónico o formularios asignados a la base de datos de Adobe Campaign directamente en Adobe Experience Manager.<br /> </td> 
    <td> 
      <a href="../../integrating/using/integrating-with-experience-manager.md">Trabajar con Campaña y Experience Manager</a><br/>, <a href="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignstandard.html">integrar Experience Manager y Campaign Standard</a> <br/>, <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">crear un correo electrónico con Experience Manager y Campaña</a> 
@@ -58,7 +58,7 @@ Si desea integrar flujos de datos de otros sistemas con Adobe Campaign, consulte
    <td> Destinatario<br /> Classic, Standard<br /> </td> 
    <td> Allows you to insert images that are dynamically computed by Adobe Target when an email created and sent by Adobe Campaign is opened.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">Trabaje con Campaña y Destinatario</a> <br/>, <a href="https://marketing.adobe.com/resources/help/en_US/target/a4t/c_campaign_and_target.html">integre Campaña y Destinatario</a><br/>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">personalice imágenes de correo electrónico en vídeo en tiempo</a> real (paso 3)
+    <a href="../../integrating/using/about-campaign-target-integration.md">Trabaje con Campaña y Destinatario</a> <br/>, <a href="https://marketing.adobe.com/resources/help/es_ES/target/a4t/c_campaign_and_target.html">integre Campaña y Destinatario</a><br/>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">personalice imágenes de correo electrónico en vídeo en tiempo</a> real (paso 3)
     </td> 
   </tr> 
   <tr> 
