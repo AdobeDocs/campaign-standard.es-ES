@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f0df05a08cc07b7c2a5b8e175177006360e7e7d
+source-git-commit: 4a8fa27d816dade8a7eb26bb5b66e3ebfbec4b51
 
 ---
 
@@ -125,11 +125,11 @@ Para importar perfiles que se utilizarán para realizar pruebas desde una audien
 
 1. Haga clic en el botón **[!UICONTROL Import]**. Los perfiles de la audiencia correspondientes al destinatario del mensaje se agregan a la **[!UICONTROL Profile substitution]** ficha, así como las direcciones de sustitución y los prefijos asociados.
 
->[!NOTE]
->
->Si vuelve a importar la misma audiencia, con distintas direcciones de sustitución y/o prefijos, los perfiles se agregarán a la lista además de los de la importación anterior.
+   ![](assets/substitution_audience_added.png)
 
-![](assets/substitution_audience_added.png)
+   >[!NOTE]
+   >
+   >Si vuelve a importar la misma audiencia, con distintas direcciones de sustitución y/o prefijos, los perfiles se agregarán a la lista además de los de la importación anterior.
 
 ## Vista previa del mensaje con perfiles de destino
 
