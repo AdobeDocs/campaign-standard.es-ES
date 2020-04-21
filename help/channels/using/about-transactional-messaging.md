@@ -12,7 +12,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
+source-git-commit: 72366d56e21933bcd79e907e5f8d5a9ad5281725
 
 ---
 
@@ -48,7 +48,7 @@ La mensajería transaccional también está disponible en la API de Adobe Campai
 
 >[!IMPORTANT]
 >
->Una vez actualizado al MTA [](https://helpx.adobe.com/es/campaign/kb/campaign-enhanced-mta.html)mejorado, todos los mensajes transaccionales se envían con el MTA mejorado de Adobe Campaign para mejorar la entrega, el rendimiento y la gestión de devoluciones. Todos los impactos son los mismos que para los mensajes de marketing estándar y se detallan en el documento [MTA mejorado de Adobe Campaign](https://helpx.adobe.com/es/campaign/kb/campaign-enhanced-mta.html).
+>Todos los mensajes transaccionales ahora se envían con el MTA mejorado de Adobe Campaign para mejorar la capacidad de entrega, el rendimiento y la gestión de devoluciones. Todos los impactos son los mismos que para los mensajes de marketing estándar.
 
 ## Principio operativo de mensajería transaccional {#transactional-messaging-operating-principle}
 
@@ -80,7 +80,7 @@ Para obtener más información sobre los pasos de configuración de evento, cons
 
 ### Diseño y publicación {#design-and-publication}
 
-Al diseñar y publicar mensajes transaccionales, algunos de los pasos que necesita realizar no se pueden revertir. Debe tener en cuenta las siguientes limitaciones:
+Mientras diseña y publica mensajes transaccionales, algunos de los pasos que necesita realizar no se pueden revertir. Debe tener en cuenta las siguientes limitaciones:
 
 * Sólo se puede utilizar un canal para cada configuración de evento. Consulte [Creación de un evento](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
 * Una vez creado el evento, no se puede cambiar el canal. Por lo tanto, si un mensaje no se envía correctamente, debe diseñar el mecanismo que permita enviarlo desde otro canal mediante un flujo de trabajo. See [Workflow data and processes](../../automating/using/workflow-data-and-processes.md).
