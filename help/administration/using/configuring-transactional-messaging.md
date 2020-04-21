@@ -12,7 +12,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 34f4bbf7b7913cfb1833379c963b590961f7de73
+source-git-commit: b47399a6867e636910e862f9cdcae638d6f9b4eb
 
 ---
 
@@ -30,6 +30,10 @@ Una vez publicado el evento, el mensaje transaccional correspondiente se crea au
 ## Creación de un evento {#creating-an-event}
 
 Inicio creando el evento correspondiente a sus necesidades.
+
+>[!NOTE]
+>
+>El número de eventos creados en tiempo real puede tener un impacto en la plataforma. Para garantizar un rendimiento óptimo, asegúrese de eliminar eventos en tiempo real que ya no necesite. Consulte [Eliminación de un evento](../../administration/using/configuring-transactional-messaging.md#deleting-an-event).
 
 1. Haga clic en el **[!UICONTROL Adobe Campaign]** logotipo, en la esquina superior izquierda, luego seleccione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. Haga clic en el botón **[!UICONTROL Create]**.
@@ -95,7 +99,7 @@ Esta es la previsualización de API para este ejemplo:
 
 El enriquecimiento del contenido de mensaje transaccional con información de la base de datos de Adobe Campaign le permite personalizar sus mensajes. Por ejemplo, desde el apellido o el ID de CRM de cada uno de sus destinatarios, puede recuperar datos como su dirección o fecha de nacimiento o cualquier otro campo personalizado agregado en la tabla de Perfiles, para personalizar la información que se les envía.
 
-Es posible enriquecer el contenido de mensaje transaccional con información de recursos extendidos **[!UICONTROL Profile]** o **[!UICONTROL Service]** .
+Es posible enriquecer el contenido del mensaje transaccional con información de la extensión **[!UICONTROL Profile and services Ext API]**. Para obtener más información, consulte [Ampliación de la API: Publicación de la extensión](../../developing/using/step-2--publish-the-extension.md)
 
 Esta información también se puede almacenar en nuevos recursos. En ese caso, el recurso debe estar vinculado al **[!UICONTROL Profile]** **[!UICONTROL Service]** o a los recursos directamente o a través de otra tabla. Por ejemplo, en la configuración siguiente, es posible enriquecer el contenido de mensaje transaccional con información del **[!UICONTROL Product]** recurso como la categoría del producto o la ID, si el **[!UICONTROL Product]** recurso está vinculado al **[!UICONTROL Profile]** recurso.
 
