@@ -1,6 +1,6 @@
 ---
-title: Rendimiento de envío
-description: Con el informe listo para usar el rendimiento de envío, conozca el éxito de su entrega.
+title: Rendimiento de entrega
+description: Con el informe listo para usar el rendimiento del Envío, conozca el éxito de su envío.
 page-status-flag: never-activated
 uuid: 51888b63-f507-43ea-8faf-5b3c00eb1800
 contentOwner: sauviat
@@ -13,22 +13,20 @@ context-tags: deliveryThroughputReport,main;campaignThroughputReport,main;progra
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3c45cbbb261f18252689d0fc4f332b9f45137c85
+source-git-commit: 32cb3c8039e813143d45276958001b79e54c173c
 
 ---
 
 
-# Rendimiento de envío{#delivery-throughput}
+# Rendimiento de entrega{#delivery-throughput}
 
 Este informe contiene datos relacionados con el rendimiento de envío de un envío o de varios envíos. Proporciona:
 
 * Número de mensajes procesados por hora
-* La **[!UICONTROL Top 5 deliveries]**tabla y los números de resumen complementarios que muestran las cinco entregas con la mejor ganancia en reintentos.
+* La **[!UICONTROL Top 5 deliveries]** tabla y los números de resumen complementarios que muestran los cinco envíos con la mejor ganancia en reintentos.
 
 ![](assets/delivery_reports_1.png)
 
->[!IMPORTANT]
+>[!NOTE]
 >
->Una vez actualizado a la MTA mejorada, la página ya no muestra el rendimiento para los destinatarios de correo electrónico. **[!UICONTROL Delivery throughput]**Muestra la velocidad de transferencia para el reenvío de los mensajes desde Campaign hasta el MTA mejorado.
->
->Para obtener más información sobre el MTA mejorado de Adobe Campaign, consulte este [documento](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+>The **[!UICONTROL Delivery throughput]** page displays the throughput speed for the relay of your messages from Campaign over to the Adobe Campaign Enhanced MTA.
