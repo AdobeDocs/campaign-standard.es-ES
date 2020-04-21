@@ -12,7 +12,7 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f1db8c886e560fe3f57d589b7fc2f2c2c1656f76
+source-git-commit: c1287a360cdd1750996b47a27b85a11e90b29df0
 
 ---
 
@@ -25,7 +25,9 @@ Cuando no se puede enviar un envío a un perfil, el servidor remoto envía autom
 
 >[!NOTE]
 >
->**Los mensajes de error de correo electrónico** (o &quot;devoluciones&quot;) están calificados por el MTA mejorado (devoluciones sincrónicas) o por el proceso de inMail (devoluciones asincrónicas). **Los mensajes de error de SMS (o “SR”, de “informe de estado”) se clasifican mediante el proceso MTA.**
+>**Los mensajes de error de correo electrónico** (o &quot;devoluciones&quot;) están calificados por el MTA mejorado (devoluciones sincrónicas) o por el proceso de inMail (devoluciones asincrónicas).
+>
+>**Los mensajes de error de SMS (o “SR”, de “informe de estado”) se clasifican mediante el proceso MTA.**
 
 Los mensajes también se pueden excluir durante la preparación de la entrega si una dirección está en cuarentena o si un perfil está en la lista negra. Los mensajes excluidos se enumeran en la **[!UICONTROL Exclusion logs]** ficha del panel de envío (consulte [esta sección](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
 
@@ -80,13 +82,13 @@ Los posibles motivos de un error de entrega son:
 
 Si un mensaje falla debido a un error temporal del tipo **Ignorado** , se realizarán reintentos durante el envío. Para obtener más información sobre los tipos de errores, consulte Tipos y motivos [de errores de](#delivery-failure-types-and-reasons)Envío.
 
-Una vez que se ha actualizado a la MTA [mejorada de](https://helpx.adobe.com/es/campaign/kb/campaign-enhanced-mta.html)Adobe Campaign, se ignora la configuración de **Reintentos** en Campaña. El número de reintentos (cuántos reintentos se deben realizar el día siguiente al inicio del envío) y el retraso mínimo entre reintentos son administrados por el MTA mejorado, en función del rendimiento histórico y actual de una IP en un dominio determinado.
+El número de reintentos (cuántos reintentos se deben realizar el día siguiente al inicio del envío) y el retraso mínimo entre reintentos ahora son administrados por el MTA mejorado de Adobe Campaign, en función del rendimiento histórico y actual de una IP en un dominio determinado. La configuración de **Reintentos** en la Campaña se ignora.
 
 Para modificar la duración de un envío, vaya a los parámetros avanzados del envío o la Plantilla de envíos y edite el **[!UICONTROL Delivery duration]** campo de la sección Período [de](../../administration/using/configuring-email-channel.md#validity-period-parameters) validez.
 
 >[!IMPORTANT]
 >
->Una vez actualizado a [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/es/campaign/kb/campaign-enhanced-mta.html), el **[!UICONTROL Delivery duration]** parámetro de los envíos de Campaña se utiliza únicamente si se establece en 3,5 días o menos. Si define un valor superior a 3,5 días, no se tendrá en cuenta.
+>**El **[!UICONTROL Delivery duration]**parámetro de los envíos de Campaña ahora solo se utiliza si se establece en 3,5 días o menos.** Si define un valor superior a 3,5 días, no se tendrá en cuenta, ya que ahora está administrado por el MTA mejorado de Adobe Campaign.
 
 Por ejemplo, si desea que los reintentos de un envío se detengan después de un día, puede establecer la duración del envío en **1d** y el MTA mejorado respetará esa configuración eliminando los mensajes de la cola de reintentos pasados un día.
 
@@ -105,19 +107,13 @@ Un envío puede fallar inmediatamente (error sincrónico), o más tarde, despué
 
 ## Clasificación del correo rechazado {#bounce-mail-qualification}
 
-<!--Delivery failure error messages (or "SMTP bounce responses") are picked up by the Adobe Campaign platform and then processed and qualified as **Hard**, **Soft**, or **Ignored** using the **[!UICONTROL Delivery log qualification]** database.
-
-//Delivery failure error messages (or "bounces") are picked up by the Adobe Campaign platform and qualified by the inMail process to enrich the list of email management rules.(applies to asynchronous (out-of-band) bounces)
-
-This list is available to administrators only and contains all the rules used by Adobe Campaign to qualify delivery failures.-->
-
->[!IMPORTANT]
->
->Una vez actualizado a la MTA mejorada, ya no se utilizan las cualificaciones de devolución de la tabla de Campaña **[!UICONTROL Message qualification]** .
-
-En el caso de los mensajes de error de error de envío sincrónico, el MTA mejorado determina el tipo de devolución y la calificación, y devuelve esa información a la Campaña. Para obtener más información sobre el MTA mejorado de Adobe Campaign, consulte este [documento](https://helpx.adobe.com/es/campaign/kb/campaign-enhanced-mta.html).
+En el caso de los mensajes de error de error de envío sincrónico, el MTA mejorado determina el tipo de devolución y la calificación, y devuelve esa información a la Campaña.
 
 Las devoluciones asincrónicas siguen siendo calificadas por el proceso enMail a través de las **[!UICONTROL Inbound email]** reglas. Para acceder a estas reglas, haga clic en el **[!UICONTROL Adobe Campaign]** logotipo, en la parte superior izquierda, seleccione **[!UICONTROL Administration > Channels > Email > Email processing rules]** y seleccione **[!UICONTROL Bounce mails]**. For more on this rule, refer to this [section](../../administration/using/configuring-email-channel.md#email-processing-rules).
+
+>[!NOTE]
+>
+>La certificación de correo de devolución ahora la administra el MTA mejorado de Adobe Campaign. Ya no se utilizan las cualificaciones de devolución de la tabla de Campaña **[!UICONTROL Message qualification]** .
 
 <!--Bounces can have the following qualification statuses:
 
