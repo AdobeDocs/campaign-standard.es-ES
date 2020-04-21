@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a09d82ae6fa77bb94550e533aa8fb63b463cd28c
+source-git-commit: 09c7f365969fe415f1bcdcc57e7cfbb9ed99b521
 
 ---
 
@@ -44,6 +44,10 @@ La documentación sobre reintentos después de un error temporal de envío se ha
 Se ha mejorado y aclarado la sección Eliminación de un mensaje transaccional. [Más información](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
 
 La sección **Vista previa de envíos** se ha actualizado con ejemplos de envíos móviles.[Más información](../../sending/using/previewing-messages.md)
+
+Se ha añadido una práctica recomendada con respecto a la mensajería transaccional y la eliminación de eventos en tiempo real no utilizados. [Más información](../../administration/using/configuring-transactional-messaging.md#creating-an-event)
+
+La sección Configuración del canal de correo electrónico se ha actualizado con una aclaración sobre todas las configuraciones de correo electrónico que ahora administra el MTA mejorado de Adobe Campaign. [Más información](../../administration/using/configuring-email-channel.md)
 
 ## Versión 20.2: abril de 2020 {#release-20-2---april-2020}
 
