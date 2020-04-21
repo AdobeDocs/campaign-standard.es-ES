@@ -12,22 +12,22 @@ discoiquuid: 6fa50f0d-3dcf-4a9e-bccc-1ecda2bfb449
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
+source-git-commit: 72366d56e21933bcd79e907e5f8d5a9ad5281725
 
 ---
 
 
 # Archivado con Email BCC{#archiving-emails}
 
-Puede configurar Adobe Campaign para que conserve una copia de los correos electrónicos enviados desde su plataforma a través de Email BCC.
+Puede configurar Adobe Campaign para guardar una copia de los correos electrónicos enviados desde la plataforma a través de Email BCC.
 
-En particular, si su organización necesita archivar todos los mensajes de correo electrónico salientes para cumplir con la normativa, puede habilitar esta capacidad. Le permite enviar una copia oculta exacta de los mensajes enviados correspondientes a una dirección de correo electrónico CCO (invisible para los destinatarios de la entrega) que debe especificar.
+En particular, si su organización necesita archivar todos los mensajes de correo electrónico salientes para cumplir con la normativa, puede habilitar esta capacidad. Le permite enviar una copia oculta exacta de los mensajes enviados correspondientes a una dirección de correo electrónico CCO (invisible para los destinatarios de envío) que debe especificar.
 
-Una vez habilitada, debe activar Email BCC desde la **[!UICONTROL Archive emails]** opción de la plantilla de envío de correo electrónico.
+Una vez habilitada, debe activar Email BCC desde la **[!UICONTROL Archive emails]** opción de la Plantilla de envíos de correo electrónico.
 
 >[!NOTE]
 >
->La propia Adobe Campaign no administra los archivos archivados. Le permite enviar los mensajes de su elección a una dirección dedicada, desde donde se pueden procesar y archivar usando un sistema externo.
+>Adobe Campaign no gestiona los archivos archivados. Le permite enviar los mensajes de su elección a una dirección dedicada, desde donde se pueden procesar y archivar usando un sistema externo.
 
 ## Recomendaciones y limitaciones {#recommendations-and-limitations}
 
@@ -36,18 +36,18 @@ Una vez habilitada, debe activar Email BCC desde la **[!UICONTROL Archive emails
 * Solo puede usar una dirección de correo electrónico CCO.
 * Solo se tienen en cuenta los correos electrónicos enviados correctamente. Las devoluciones no lo son.
 * Por razones de privacidad, los correos electrónicos CCO deben ser procesados por un sistema de archiving capaz de almacenar información personal (PII) de manera segura.
-* Al crear una nueva plantilla de entrega, Email BCC no está habilitado de forma predeterminada, aunque la opción se haya adquirido. Debe habilitarlo manualmente en cada plantilla de envío donde desee utilizarla.
+* Al crear una nueva Plantilla de envíos, Email BCC no está habilitado de forma predeterminada, aunque la opción se haya adquirido. Debe activarlo manualmente en cada Plantilla de envíos donde desee utilizarla.
 
 >[!NOTE]
 >
->Actualmente, los mensajes de correo electrónico archivados no se pueden enviar con el MTA [mejorado de](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)Adobe Campaign, aunque ya se haya actualizado al MTA mejorado.
+>Actualmente, los mensajes de correo electrónico archivados no se pueden enviar con el MTA mejorado de Adobe Campaign, incluso si ya se ha actualizado al MTA mejorado.
 
 ## Activación del archivado de correo electrónico {#activating-email-archiving}
 
 Una vez activado, Email BCC se activa en la plantilla [de](../../start/using/marketing-activity-templates.md)correo electrónico mediante una opción dedicada:
 
-1. Go to **Resources** > **Templates** > **Delivery templates**.
-1. Duplique la plantilla lista para usar **[!UICONTROL Send via email]** .
+1. Vaya a **Resources**, **Templates**, **Delivery templates**.
+1. Duplicado la plantilla lista para usar **[!UICONTROL Send via email]** .
 1. Seleccione la plantilla duplicada.
 1. Haga clic en el **[!UICONTROL Edit properties]** botón para editar las propiedades de la plantilla.
 1. Expanda la **[!UICONTROL Send]** sección.
@@ -57,4 +57,4 @@ Una vez activado, Email BCC se activa en la plantilla [de](../../start/using/mar
 
 >[!NOTE]
 >
->If the emails sent to the BCC address are opened and clicked through, this will be taken into account in the **[!UICONTROL Total opens]** and **[!UICONTROL Clicks]** from the send analysis, which could cause some miscalculations.
+>Si se abren y se hace clic en los correos electrónicos enviados a la dirección de CCO, esto se tiene en cuenta en el cálculo de **[!UICONTROL Total opens]** y **[!UICONTROL Clicks]** en el análisis de envío, lo cual podría provocar algunos cálculos erróneos.
