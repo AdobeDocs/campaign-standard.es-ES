@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Documentación del producto de Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 7d359430748eea1210b04c151b4a89b6e99f0c11
+source-git-commit: 5b6eff73d0abd9601b7ac1ca4d63bd8e78d8493b
 
 ---
 
@@ -49,12 +49,11 @@ Obtenga más información sobre las directrices generales para envíos móviles.
     <br>
   </td>
   <td valign="top">
-       <img alt="Desarrolladores" src="start/using/assets/dev.png" />
-    <div>
-    <strong>Recursos para desarrolladores</strong>
+       <img alt="Asistencia técnica" src="start/using/assets/do-not-localize/help.jpeg" />
+    <div><a href="https://helpx.adobe.com/campaign/kb/ac-support.html">
+    <strong>Obtener asistencia</strong></a>
     </div>
-    <p><em><a href="api/using/about-campaign-standard-apis.md">API de Adobe Campaign</a></em></p>
-    <p><em><a href="integrating/using/about-adobe-experience-cloud-triggers.md">Activadores de Adobe Experience Cloud</a></em></p>
+    <p><em>Acceda a preguntas más frecuentes, prácticas recomendadas, recursos de ayuda y póngase en contacto con los expertos en Campaña.</em></p>
     <br>
   </td>
 </tr>
@@ -64,9 +63,9 @@ Obtenga más información sobre las directrices generales para envíos móviles.
 
 | Páginas útiles | Recursos para desarrolladores |
 |---|---|
-| [Notas de la versión](rn/using/release-notes.md) | [Guía de implementación](https://helpx.adobe.com/es/campaign/kb/campaign-standard-implementation-guide.html) |
+| [Notas de la versión](rn/using/release-notes.md) | [Activadores de Experience Cloud](integrating/using/about-adobe-experience-cloud-triggers.md) |
 | [Documentación del Panel de control](https://docs.adobe.com/content/help/es-ES/control-panel/using/control-panel-home.html) | [API de Campaña](api/using/about-campaign-standard-apis.md) |
-| [Videotutoriales](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) | [Lista de mensajes de error](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
+| [Guía de implementación](https://helpx.adobe.com/es/campaign/kb/campaign-standard-implementation-guide.html) | [Lista de mensajes de error](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Planificación de versiones](rn/using/release-planning.md) | [Modelo de datos de Campaña](developing/using/datamodel-introduction.md) |
 | [Funciones obsoletas y eliminadas](https://helpx.adobe.com/es/campaign/kb/acs-deprecated-and-removed-features.html) | [Guía de varias soluciones](integrating/using/about-campaign-integrations.md) |
 | [Introducción a Campaign Standard](start/using/campaign-orchestration.md) | [Notas técnicas](https://helpx.adobe.com/es/campaign/kb/acs-article-list.html) |
