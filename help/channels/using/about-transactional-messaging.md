@@ -12,7 +12,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 72366d56e21933bcd79e907e5f8d5a9ad5281725
+source-git-commit: f0f7441f06b51f9bd2d5a1b3c26f031d4eb1e4c1
 
 ---
 
@@ -46,9 +46,9 @@ El tipo de mensaje se define al configurar el evento que se transformará en un 
 
 La mensajería transaccional también está disponible en la API de Adobe Campaign Standard. For more on this, refer to the [dedicated documentation](../../api/using/managing-transactional-messages.md).
 
->[!IMPORTANT]
+>[!NOTE]
 >
->Todos los mensajes transaccionales ahora se envían con el MTA mejorado de Adobe Campaign para mejorar la capacidad de entrega, el rendimiento y la gestión de devoluciones. Todos los impactos son los mismos que para los mensajes de marketing estándar.
+>Todos los mensajes transaccionales ahora se envían con el MTA mejorado de Adobe Campaign para mejorar la capacidad de entrega, el rendimiento y la gestión de devoluciones. Todos los impactos son los mismos que para los mensajes de marketing estándar. For more on this, see this [section](../../administration/using/configuring-email-channel.md).
 
 ## Principio operativo de mensajería transaccional {#transactional-messaging-operating-principle}
 
@@ -58,7 +58,7 @@ Adobe Campaign le permite enviar un correo electrónico de notificación a los u
 
 Los pasos para ponerlo en práctica son:
 
-1. Configure un evento con el nombre &quot;Abandono del carro de compras&quot; y publique esta configuración de evento, que crea automáticamente un mensaje transaccional. La creación y publicación de un evento se presenta en la sección [Configuración de un evento para enviar un mensaje transaccional](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) de evento.
+1. Configure un evento con el nombre &quot;Abandono del carro&quot; y publique esta configuración de evento, que crea automáticamente un mensaje transaccional. La creación y publicación de un evento se presenta en la sección [Configuración de un evento para enviar un mensaje transaccional](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) de evento.
 1. El mensaje transaccional debe personalizarse, probarse y luego publicarse. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 1. Además, para que el evento se active cuando un cliente abandone el carro, este evento debe enviarse desde el sitio web de la compañía utilizando la API REST de Adobe Campaign Standard. Consulte Integración [del](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)sitio.
 
