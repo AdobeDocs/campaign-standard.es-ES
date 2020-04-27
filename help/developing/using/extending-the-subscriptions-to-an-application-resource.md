@@ -1,29 +1,29 @@
 ---
 title: Ampliación de las suscripciones a un recurso de aplicación
 description: null
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 8879b427-b31b-4311-bf54-258a91b1fb78
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: desarrollo
-content-type: referencia
-topic-tags: use-cases—extension-resources
+audience: developing
+content-type: reference
+topic-tags: use-cases--extending-resources
 discoiquuid: 59faa74e-86fc-42d3-90da-f48580b5ec13
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
 
 # Ampliación de las suscripciones a un recurso de aplicación{#extending-the-subscriptions-to-an-application-resource}
 
-In Adobe Campaign, mobile profile attributes data sent from mobile device are stored in **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource which allows you to define the data that you want to collect from your applications' subscribers. For more information on custom resources, refer to this [page](../../developing/using/key-steps-to-add-a-resource.md).
+In Adobe Campaign, mobile profile attributes data sent from mobile device are stored in **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource which allows you to define the data that you want to collect from your applications&#39; subscribers. For more information on custom resources, refer to [this page](../../developing/using/key-steps-to-add-a-resource.md).
 
-Este recurso se puede ampliar para recopilar datos que se van a enviar desde el dispositivo móvil a Adobe Campaign.
+Este recurso se puede ampliar para recopilar datos que se van a enviar desde el dispositivo móvil al Adobe Campaign.
 
-1. En el menú avanzado, a través del logotipo de Adobe Campaign, seleccione **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** y, a continuación, **[!UICONTROL Custom resources]**.
+1. En el menú avanzado, a través del logotipo del Adobe Campaign, seleccione **[!UICONTROL Administration]** > **[!UICONTROL Development]** y, a continuación, **[!UICONTROL Custom resources]**.
 1. Haga clic **[!UICONTROL Create]** y elija la **[!UICONTROL Extend an existing resource]** opción.
 1. Seleccione el **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** recurso y haga clic en **[!UICONTROL Create]**.
 
@@ -37,7 +37,7 @@ Este recurso se puede ampliar para recopilar datos que se van a enviar desde el 
 
    ![](assets/in_app_personal_data.png)
 
-1. Agregue un **[!UICONTROL Label]** y un **[!UICONTROL ID]** al nuevo campo. Seleccione el campo **[!UICONTROL Type]**.
+1. Añada un **[!UICONTROL Label]** y un **[!UICONTROL ID]** en el nuevo campo. Seleccione el campo **[!UICONTROL Type]**.
 
    ![](assets/schema_extension_uc9.png)
 
