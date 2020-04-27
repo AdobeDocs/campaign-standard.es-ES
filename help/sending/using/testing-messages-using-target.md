@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d5476cc6a93aac9805a3b471923bfffa8043a876
+source-git-commit: b44e4e7e6b48ebc5c618b014eacfc9909bc2661e
 
 ---
 
@@ -69,6 +69,10 @@ Para utilizar perfiles de objetivo para pruebas, primero debe seleccionarlos y l
 
    Si desea agregar un prefijo específico a la línea de asunto de la prueba, rellene el **[!UICONTROL Subject line prefix]** campo.
 
+   >[!NOTE]
+   >
+   >El prefijo de línea de asunto puede contener hasta 500 caracteres.
+
    ![](assets/substitution_address.png)
 
    El prefijo se mostrará de la siguiente manera:
@@ -116,6 +120,10 @@ Para importar perfiles que se utilizarán para realizar pruebas desde una audien
    ![](assets/substitution_audience_import.png)
 
 1. Seleccione la audiencia que se va a utilizar y, a continuación, introduzca la dirección de sustitución y el prefijo que se va a utilizar para las pruebas enviadas a la audiencia.
+
+   >[!NOTE]
+   >
+   >El prefijo de línea de asunto puede contener hasta 500 caracteres.
 
    ![](assets/substitution_audience_define.png)
 
