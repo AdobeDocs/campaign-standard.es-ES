@@ -1,19 +1,19 @@
 ---
 title: Configuración de la definición de pantalla
-description: Obtenga información sobre cómo definir nuevas pantallas de Adobe Campaign en función de la estructura de datos de los recursos.
-page-status-flag: nunca activado
+description: Obtenga información sobre cómo definir nuevas pantallas de Adobe Campaign en función de la estructura de datos de recursos.
+page-status-flag: never-activated
 uuid: 40848197-b1a0-4018-bfc3-7df64fb83307
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: desarrollo
-content-type: referencia
-topic-tags: agregar o ampliar un recurso
+audience: developing
+content-type: reference
+topic-tags: adding-or-extending-a-resource
 discoiquuid: 9dabb328-ac0c-49fd-8996-8d56341ee7ac
 context-tags: cusResource,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
@@ -22,12 +22,12 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 Al crear un recurso o al agregar campos nuevos a un recurso existente, puede definir cómo desea que aparezcan en la interfaz.
 
-Este paso no es obligatorio, ya que podrá rellenar el recurso y acceder a sus datos a través de flujos de trabajo, audiencias y la API de REST.
+Este paso no es obligatorio, ya que aún podrá rellenar el recurso y acceder a sus datos a través de flujos de trabajo, audiencias y REST API.
 
 En la **[!UICONTROL Screen definition]** ficha, puede:
 
-* Agregar acceso al recurso personalizado en el panel de navegación
-* Personalice la forma en que se presenta la lista de elementos que componen el recurso
+* Añadir el acceso al recurso personalizado en el panel de navegación
+* Personalice la forma en que se presenta la lista de elementos que conforman el recurso
 * Definir la forma en que se muestra la vista de detalles de cada elemento del recurso
 
 ## Habilitación del acceso desde el menú de navegación {#enabling-access-from-the-navigation-menu}
@@ -53,11 +53,11 @@ La **[!UICONTROL List configuration]** sección de la definición de pantalla pe
 
 1. En la **[!UICONTROL Simple search]** sección, marque la casilla **[!UICONTROL Specify the fields to be taken into account in the search]** para definir qué campos se incluirán en la búsqueda.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Esta configuración reemplaza los campos utilizados en la búsqueda predeterminada.
 
-1. En la **[!UICONTROL Advanced filtering]** sección, marque la **[!UICONTROL Add search fields]** casilla para agregar campos adicionales más allá del campo de búsqueda simple. Por ejemplo: si selecciona el campo "fecha" de los campos que ha creado, el usuario podrá realizar una búsqueda que solo haga referencia a la fecha.
+1. En la **[!UICONTROL Advanced filtering]** sección, marque la **[!UICONTROL Add search fields]** casilla para agregar campos adicionales más allá del campo de búsqueda simple. Por ejemplo, si selecciona el campo &quot;fecha&quot; de los campos que ha creado, el usuario podrá realizar una búsqueda que solo haga referencia a la fecha.
 1. Puede modificar el orden de los campos para los dos tipos de búsqueda.
 1. Para una búsqueda avanzada, puede agregar campos que se vinculen a un recurso vinculado. Estos filtros aparecen en el **[!UICONTROL Search]** menú de la pantalla generada.
 
@@ -67,7 +67,7 @@ La pantalla de información general del recurso ya está definida.
 
 La **[!UICONTROL Detail screen configuration]** sección de la definición de pantalla permite definir las columnas y la información que se mostrarán en la pantalla de detalles de cada elemento del recurso.
 
-1. Despliegue la **[!UICONTROL Detail screen configuration]** sección y marque la casilla de verificación **[!UICONTROL Define a detail screen]** para configurar la pantalla que corresponde a cada elemento del recurso. Si no marca esta casilla, no se podrá acceder a la vista de detalles de los elementos de este recurso.
+1. Despliegue la **[!UICONTROL Detail screen configuration]** sección y marque la casilla de verificación **[!UICONTROL Define a detail screen]** para configurar la pantalla que corresponde a cada elemento del recurso. Si no marca esta casilla, no se podrá acceder a la vista detallada de los elementos de este recurso.
 1. Puede agregar todos los campos del recurso personalizado con un solo clic. Para ello, haga clic en el ![](assets/addallfieldsicon.png) icono o utilice el **[!UICONTROL Add an element]** botón .
 1. Seleccione un elemento de los creados para este recurso y especifique un tipo de campo:
 
@@ -81,7 +81,7 @@ La **[!UICONTROL Detail screen configuration]** sección de la definición de pa
 
    ![](assets/schema_extension_22.png)
 
-1. Agregue tantos **[!UICONTROL Separator]** como sea necesario para dividir los elementos en diferentes categorías.
+1. Añada tantos **[!UICONTROL Separator]** como sea necesario para dividir los elementos en distintas categorías.
 
    Esto le permite mostrar el separador para organizar mejor las ventanas.
 
@@ -91,7 +91,7 @@ La pantalla de detalles del recurso ya está configurada.
 
 ## Acciones en la sección de datos {#actions-on-data-section}
 
-Esta configuración permite mostrar una barra de control en la pantalla de recursos personalizada. Hay tres opciones disponibles:
+Esta configuración le permite mostrar una barra de control en la pantalla de recursos personalizada. Hay tres opciones disponibles:
 
 ![](assets/schema_extension_actions.png)
 
@@ -103,4 +103,3 @@ Esta configuración permite mostrar una barra de control en la pantalla de recur
 
 * **[!UICONTROL Authorize duplicating]**:: esta opción le permite activar registros duplicados vinculados al recurso personalizado.
 * **[!UICONTROL Authorize deleting]**:: esta opción le permite activar la eliminación de registros vinculados al recurso personalizado.
-
