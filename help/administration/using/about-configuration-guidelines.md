@@ -12,15 +12,15 @@ discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d5a77a681a20d5e7bea73b52c994137d4a61f78d
+source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
 ---
 
 
 # Acerca de las directrices de configuración{#about-configuration-guidelines}
 
-Esta sección reagrupa las distintas directrices de configuración de Adobe Campaign Standard.
+Esta sección reagrupa las distintas directrices de configuración para Adobe Campaign Standard.
 
-Descubra qué exploradores son compatibles con Campaign Standard, así como los distintos sistemas operativos compatibles con tablets.
+Averiguar qué exploradores son compatibles con Campaign Standard, así como los diferentes sistemas operativos compatibles con tabletas. Para obtener más información, consulte [esta sección](../../administration/using/compatible-browsers.md).
 
-También obtenga información sobre los diferentes extremos utilizados en Campaign Standard.
+Además, conozca los distintos puntos finales utilizados en Campaign Standard. Para obtener más información, consulte [esta sección](../../administration/using/campaign-standard-network-endpoints.md).
