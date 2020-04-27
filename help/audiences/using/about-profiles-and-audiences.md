@@ -12,7 +12,7 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 546c79b4b9a2b1fdeeee69aee2ed85fa00279609
+source-git-commit: 50991e9b376be5e706d2e8d8dcfa8c3677651281
 
 ---
 
@@ -49,7 +49,7 @@ El suministro de vínculos bajas en los mensajes permitirá que los Perfiles sea
 
 ## Cumplimiento de la privacidad
 
-Adobe Campaign oferta un conjunto de herramientas para ayudarlo con su conformidad con la privacidad para el RGPD, la CCPA y otras leyes de privacidad. Obtenga más información en este [artículo](https://helpx.adobe.com/es/campaign/kb/campaign-privacy.html) sobre Administración de privacidad y las funciones que ofrecemos para administrar el derecho al acceso, el derecho al olvido, el consentimiento, la retención de datos y las funciones de usuario. También encontrará optimizaciones para ayudarle con su conformidad con la privacidad al utilizar nuestro servicio.
+Adobe Campaign oferta un conjunto de herramientas para ayudarlo con su conformidad con la privacidad para el RGPD, la CCPA y otras leyes de privacidad. Obtenga más información en este [artículo](https://helpx.adobe.com/es/campaign/kb/campaign-privacy.html) sobre Administración de privacidad y las funciones que ofrecemos para administrar el derecho al acceso, el derecho al olvido, el consentimiento, la retención de datos y las funciones de usuario. También encontrará las prácticas recomendadas para ayudarlo con su conformidad con la privacidad al utilizar nuestro servicio.
 
 ## Temas relacionados
 
