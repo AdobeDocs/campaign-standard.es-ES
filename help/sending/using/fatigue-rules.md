@@ -12,7 +12,7 @@ discoiquuid: 4337a80b-0fb9-4a37-bce3-fe2121a66586
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
+source-git-commit: bebe6df66c9a87db882d03b36c72ebdae3085245
 
 ---
 
@@ -32,8 +32,8 @@ Para implementar reglas de fatiga, debe definir un número máximo de mensajes p
 Temas relacionados:
 
 * [Preparación](../../administration/using/configuring-email-channel.md#preparation)
-* [Administración de tipologías](../../sending/using/about-typology-rules.md#managing-typologies)
-* [Reglas de tipología](../../sending/using/about-typology-rules.md#typology-rules)
+* [Administración de tipologías](../../sending/using/managing-typologies.md)
+* [Reglas de tipología](../../sending/using/managing-typology-rules.md)
 * [Optimización de la frecuencia de comunicación para prevenir la fatiga de contacto](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
 
 ## Creating a fatigue rule {#creating-a-fatigue-rule}
