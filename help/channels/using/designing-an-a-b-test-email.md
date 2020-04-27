@@ -13,14 +13,14 @@ context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
 
 ---
 
 
 # Diseño de un correo electrónico de prueba A/B{#designing-an-a-b-test-email}
 
-La funcionalidad de prueba A/B de Adobe Campaign permite definir entre dos y tres variantes de correo electrónico. Cada variante se envía a las muestras de población para determinar cuál tiene el mejor resultado. Una vez determinada, la variante ganadora se envía a la población restante.
+La funcionalidad de prueba A/B en Adobe Campaign le permite definir entre dos y tres variantes de correo electrónico. Cada variante se envía a las muestras de población para determinar cuál tiene el mejor resultado. Una vez determinada, la variante ganadora se envía a la población restante.
 
 Puede elegir entre variar el contenido, el asunto o el remitente del correo electrónico.
 
@@ -43,14 +43,14 @@ En el contexto específico de una prueba A/B:
 
    >[!NOTE]
    >
-   >Las plantillas de prueba A/B y de seguimiento están ocultas de forma predeterminada. Compruebe la casilla de verificación A/B en el lado izquierdo (panel **[!UICONTROL Filter]**lateral) para mostrarlos.
+   >Las plantillas de prueba A/B y de seguimiento están ocultas de forma predeterminada. Compruebe la casilla de verificación A/B en el lado izquierdo (**[!UICONTROL Filter]** panel lateral) para mostrarlos.
 
-1. Defina las propiedades generales y la audiencia de destino del correo electrónico, al igual que para un correo electrónico estándar. Consulte la sección [Creación de audiencias](../../audiences/using/creating-audiences.md) .
+1. Defina las propiedades generales y la audiencia de destinatario del mensaje de correo electrónico, al igual que para un correo electrónico estándar. Consulte la sección [Creación de audiencias](../../audiences/using/creating-audiences.md) .
 1. En el cuarto paso del asistente de creación, defina los parámetros de prueba A/B:
 
    * **[!UICONTROL Number of variants]**:: Puede elegir utilizar dos o tres variantes. Si elige tres variantes, esta opción no se puede modificar una vez confirmado este paso en el asistente.
    * **[!UICONTROL Winning strategy]**:: Seleccione el criterio que se utilizará para determinar la variante ganadora.
-   * **[!UICONTROL Target breakdown]**:: Elija qué porcentaje del objetivo recibirá cada variante. El porcentaje restante recibirá la variante ganadora una vez que se haya determinado. Los perfiles de destino se seleccionan de forma aleatoria.
+   * **[!UICONTROL Target breakdown]**:: Elija qué porcentaje del destinatario recibirá cada variante. El porcentaje restante recibirá la variante ganadora una vez que se haya determinado. Los perfiles de destino se seleccionan de forma aleatoria.
    * **[!UICONTROL Winner sending method]**:: Elija si desea que la variante ganadora se envíe automáticamente una vez determinada o si desea confirmar manualmente el envío a la población restante.
    * **[!UICONTROL Test duration]**:: Especifique la duración de la prueba. La variante ganadora se determina automáticamente después de esta duración. Puede elegir manualmente la variante ganadora antes del final de la prueba en el panel de correo electrónico.
 
@@ -61,36 +61,36 @@ En el contexto específico de una prueba A/B:
 
    ![](assets/create_ab_testing2.png)
 
-1. Confirme la creación del correo electrónico. Luego se mostrará el tablero de correo electrónico.
+1. Confirme la creación del correo electrónico. A continuación, se mostrará el panel de correo electrónico.
 1. Programe el envío. La fecha definida indica el inicio de la prueba A/B.
-1. Compruebe los parámetros de prueba A/B que se muestran en el **[!UICONTROL A/B test parameters]**bloque. Puede modificarlas hasta que confirme el envío de la prueba (paso 9) seleccionando el bloque.
+1. Compruebe los parámetros de prueba A/B que se muestran en el **[!UICONTROL A/B test parameters]** bloque. Puede modificarlas hasta que confirme el envío de la prueba (paso 9) seleccionando el bloque.
 
    ![](assets/create_ab_testing3.png)
 
-1. Prepare el envío de correo electrónico para analizar el destino y el número de mensajes que se van a enviar. Consulte la sección [Preparación del envío](../../sending/using/preparing-the-send.md) .
+1. Prepare el envío de correo electrónico para analizar el destinatario y el número de mensajes que se van a enviar. Consulte la sección [Preparación del envío](../../sending/using/preparing-the-send.md) .
 1. Antes de enviar la prueba A/B, compruebe su correo electrónico enviando pruebas.
 1. Una vez finalizada la preparación, confirme el envío de la prueba. Una vez confirmados, los parámetros de prueba A/B no pueden modificarse.
 
-   La prueba A/B comienza en la fecha definida en la **[!UICONTROL Schedule]**.Puede rastrear su progreso usando los**[!UICONTROL A/B test]** bloques y **[!UICONTROL Deployment]**.
+   La prueba A/B inicio en la fecha definida en la **[!UICONTROL Schedule]**. Puede realizar un seguimiento del progreso mediante los **[!UICONTROL A/B test]** bloques y **[!UICONTROL Deployment]** .
 
    Puede seleccionar manualmente la variante ganadora en cualquier momento si desea reducir la duración de la prueba.
 
-   Una vez finalizada la prueba, se muestra una tabla de resumen en el **[!UICONTROL A/B Test]**bloque y esto le permite ver los distintos indicadores de las distintas variantes que se probaron.
+   Una vez finalizada la prueba, se muestra una tabla de resumen en el **[!UICONTROL A/B Test]** bloque y esto le permite realizar la vista de los distintos indicadores de las distintas variantes que se probaron.
 
-1. Si ha seleccionado **[!UICONTROL Send after confirmation]**como método de envío, debe seleccionar manualmente la variante ganadora para empezar a enviarla a la población restante. Si ha seleccionado**[!UICONTROL Automatic]**, la variante ganadora se envía automáticamente a la población restante en cuanto el sistema la haya determinado.
+1. Si ha seleccionado **[!UICONTROL Send after confirmation]** como método de envío, debe seleccionar manualmente la variante ganadora para que el inicio la envíe a la población restante. Si ha seleccionado **[!UICONTROL Automatic]**, la variante ganadora se envía automáticamente a la población restante en cuanto el sistema la haya determinado.
 
    >[!NOTE]
    >
-   >Si hay un empate, la variante ganadora debe seleccionarse manualmente. Puede notificar al creador de correo electrónico y a los modificadores que se ha elegido una variante o que es necesario seleccionarla. Consulte Notificaciones [de](../../administration/using/sending-internal-notifications.md)Adobe Campaign.
+   >Si hay un empate, la variante ganadora debe seleccionarse manualmente. Puede notificar al creador de correo electrónico y a los modificadores que se ha elegido una variante o que es necesario seleccionarla. Consulte Notificaciones [de Adobe Campaign](../../administration/using/sending-internal-notifications.md).
 
 El correo electrónico se ha definido y enviado. Puede acceder a sus registros e informes para medir el éxito de la campaña.
 
-**Tema** relacionado:
+**Temas relacionados**:
 
 [Creación de un vídeo de correo electrónico](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html)
 
 ## Acerca de los indicadores de prueba A/B {#about-a-b-test-indicators}
 
-En el tablero de correo electrónico, hay varios indicadores disponibles para ayudarle a medir la prueba A/B: cantidad de clics, aperturas, devoluciones, etc.
+En el panel de correo electrónico, hay varios indicadores disponibles para ayudarle a medir la prueba A/B: cantidad de clics, aperturas, devoluciones, etc.
 
-Tenga en cuenta que el **[!UICONTROL Estimated recipient reactivity]**indicador es una tasa que compara el número de destinatarios que hicieron clic con el número de destinatarios que abrieron el correo electrónico. Por ejemplo, si 10 destinatarios abrieron el correo electrónico y 5 hicieron clic en él. La tasa de reactividad es del 50%.
+Tenga en cuenta que el **[!UICONTROL Estimated recipient reactivity]** indicador es una tasa que compara el número de destinatarios que hicieron clic con el número de destinatarios que abrieron el correo electrónico. Por ejemplo: si 10 destinatarios abrieron el correo electrónico y 5 destinatarios hicieron clic en él. La tasa de reactividad es del 50%.
