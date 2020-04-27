@@ -11,19 +11,29 @@ context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51a3faaf839a678aeb99c533f0f67f103c7913d6
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
 
-# Introducción al modelo de datos{#data-model-introduction}
+# Descripción del modelo de datos{#data-model-introduction}
 
-Adobe Campaign incluye un modelo de datos predefinido.
+Adobe Campaign viene con un modelo de datos predefinido.
 
-El modelo de datos de Adobe Campaign Standard muestra la estructura SQL lista para usar para un conjunto de recursos relacionados con el marketing.
+El modelo de datos de Adobe Campaign Standard muestra la estructura SQL integrada para un conjunto de recursos relacionados con el marketing.
 
-Este contenido está dirigido a consultores o desarrolladores.
+Esta sección está dirigida a expertos o desarrolladores de Campaña.
 
-Para cada recurso, una tabla enumera los campos SQL con características disponibles como nombre interno, tipo y detalles de enumeración. Una segunda parte presenta filtros integrados asociados al recurso. Cada filtro viene con su lista de parámetros.
+Para cada recurso, encontrará en las páginas secundarias una tabla que lista los campos SQL con características disponibles, como: nombre interno, tipo y detalles de lista desglosada. También se muestran los filtros integrados asociados al recurso. Cada filtro viene con su lista de parámetros.
 
-Este modelo de datos puede ser modificado por [administradores](../../administration/using/users-management.md#functional-administrators) que pueden agregar nuevos recursos o extensiones a los recursos existentes.
+>[!NOTE]
+>Solo [los administradores](../../administration/using/users-management.md#functional-administrators) pueden modificar el modelo de datos de Campaña.
+
+## Temas relacionados{#data-model-related}
+
+| Páginas útiles | Recursos adicionales |
+|---|---|
+| [Introducción al modelo de datos](data-model-concepts.md) | [Ampliar el recurso de perfil](extending-the-profile-resource-with-a-new-field.md) |
+| [Prácticas recomendadas del modelo de datos](data-model-best-practices.md) | [Ampliar el recurso de suscripción](extending-the-subscriptions-to-an-application-resource.md) |
+| [Añadir un nuevo recurso](key-steps-to-add-a-resource.md) | [Ampliación de la API de Perfil](about-extending-the-api.md) |
+| [Crear o ampliar un recurso](creating-or-extending-the-resource.md) | [Llamar a un recurso con una clave compuesta](uc-calling-resource-id-key.md) |
