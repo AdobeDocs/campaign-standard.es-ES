@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 86302762a46a814ecc9b14a5fe1bfe1a4a4e0437
+source-git-commit: b4cbc56973a57cde8af6cefa9ff89c7d29ab7b79
 
 ---
 
@@ -70,6 +70,9 @@ source-git-commit: 86302762a46a814ecc9b14a5fe1bfe1a4a4e0437
 
 * El número de caracteres que se puede utilizar en el campo **Prefijo** para [probar mensajes con perfiles](../../sending/using/testing-messages-using-target.md) de destino se ha aumentado de 32 a 500 caracteres.
 * El número máximo de eventos en tiempo real que se pueden publicar en una instancia se ha incrementado de 350 a 2000. (CAMP-41608)
+* La sincronización entre Adobe Launch y Campaign Standard se ha mejorado mediante el flujo de trabajo técnico syncWithLaunch. Este flujo de trabajo permite la importación automática de todas las propiedades móviles de Adobe Launch en Adobe Campaign Standard. Para obtener más información, consulte [esta página](../../administration/using/technical-workflows.md).
+
+   Deberá enviar un ticket al Servicio de atención al cliente de Adobe (directamente o a través de su contacto de Adobe) para que el flujo de trabajo técnico de syncWithLaunch esté habilitado en la instancia de Campaña. (CAMP-40082)
 
 **Mejoras en el Diseñador de correo electrónico**
 
