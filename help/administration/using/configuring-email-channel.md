@@ -13,14 +13,14 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9b632bdd9d2546b40fd00cc4ef8800dd88fa55de
+source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
 ---
 
 
 # Configuración de canales de correo electrónico{#configuring-email-channel}
 
-Como [administrador](../../administration/using/about-administrating-adobe-campaign.md)de Campañas, puede configurar los canales de correo electrónico. Estas opciones avanzadas incluyen parámetros generales de canal de correo electrónico, cuentas de enrutamiento de correo electrónico, reglas de procesamiento de correo electrónico y propiedades de correo electrónico. En esta página, aprenderá a editar los valores predeterminados del correo electrónico general y a enviar parámetros.
+Como [administrador](../../administration/using/users-management.md#functional-administrators)de Campañas, puede configurar los canales de correo electrónico. Estas opciones avanzadas incluyen parámetros generales de canal de correo electrónico, cuentas de enrutamiento de correo electrónico, reglas de procesamiento de correo electrónico y propiedades de correo electrónico. En esta página, aprenderá a editar los valores predeterminados del correo electrónico general y a enviar parámetros.
 
 Tenga en cuenta que algunos ajustes de correo electrónico ahora son administrados por el MTA mejorado de Adobe Campaign. Por lo tanto:
 * Algunas configuraciones de la interfaz de usuario de la Campaña ya no se aplican:
@@ -273,7 +273,7 @@ La preparación de los mensajes se detalla en la sección [Aprobación de mensaj
 
    >[!NOTE]
    >
-   >Las tipologías, a las que se puede acceder a través del **[!UICONTROL Administration]** menú > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** , se presentan en la sección [Tipologías](../../sending/using/about-typology-rules.md) .
+   >Las tipologías, a las que se puede acceder a través del **[!UICONTROL Administration]** menú > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** , se presentan en [esta sección](../../sending/using/about-typology-rules.md).
 
 * **[!UICONTROL Compute the label during delivery preparation]**:: permite calcular el valor de la etiqueta del correo electrónico durante la fase de preparación del mensaje mediante campos de personalización, bloques de contenido y texto dinámico.
 
