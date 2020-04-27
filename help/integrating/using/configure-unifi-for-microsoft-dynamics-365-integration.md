@@ -12,7 +12,7 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
 
 ---
 
@@ -139,7 +139,7 @@ Se recomienda la siguiente frecuencia para diversos casos de uso:
 >
 >De forma predeterminada, los eventos de marketing ENVIAR se filtran fuera del trabajo de salida.  Si desea ver eventos de marketing SEND en Dynamics 365, debe modificar el filtro (paso 5) del trabajo de salida en Unifi.
 
-Hay dos funciones distintas en Unifi, un usuario propietario y un usuario analista de sólo lectura. Un usuario propietario tiene la capacidad de modificar trabajos y programaciones, mientras que el analista de solo lectura no.  Sólo puede haber un usuario propietario para una instancia de cliente determinada.  Si el cliente necesita cambiar la persona asignada como usuario propietario, puede enviar un correo electrónico a [adobe-support@unifisoftware.com](mailto: adobe-support@unifisoftware.com) con el cambio solicitado.
+Hay dos funciones distintas en Unifi, un usuario propietario y un usuario analista de sólo lectura. Un usuario propietario tiene la capacidad de modificar trabajos y programaciones, mientras que el analista de solo lectura no.  Sólo puede haber un usuario propietario para una instancia de cliente determinada.  Si el cliente necesita cambiar la persona asignada como usuario propietario, puede enviar un correo electrónico a [adobe-support@unifisoftware.com](mailto:adobe-support@unifisoftware.com) con el cambio solicitado.
 
 La configuración, los detalles del trabajo, la configuración y el monitoreo de Unifi se presentan en los siguientes videos.
 
