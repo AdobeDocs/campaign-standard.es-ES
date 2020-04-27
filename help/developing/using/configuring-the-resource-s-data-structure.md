@@ -13,7 +13,7 @@ context-tags: cusResource,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bd83bb520a9822ffa9669076f90e6dc3397c6480
+source-git-commit: 6cf00f9b9bafdd54d8424a353b33dc689c0f59aa
 
 ---
 
@@ -30,7 +30,7 @@ Al editar el recurso, en la **[!UICONTROL Data structure]** ficha, puede agregar
 * [Vínculos](#defining-links-with-other-resources)
 * [Envío de registros](#defining-sending-logs-extension)
 
-## Adición de campos a un recurso {#adding-fields-to-a-resource}
+## Añadir campos a un recurso {#adding-fields-to-a-resource}
 
 Puede agregar nuevos campos a un recurso para almacenar datos que no forman parte del modelo de datos predeterminado.
 
@@ -53,9 +53,9 @@ Puede agregar nuevos campos a un recurso para almacenar datos que no forman part
 
    ![](assets/schema_extension_5.png)
 
-1. Seleccione la **[!UICONTROL Specify a list of authorized values]** opción si necesita definir los valores que se ofrecerán al usuario (valores de enumeración).
+1. Seleccione la **[!UICONTROL Specify a list of authorized values]** opción si necesita definir los valores que se ofrecerán al usuario (valores de lista desglosada).
 
-   A continuación, haga clic en **[!UICONTROL Create element]** y especifique un **[!UICONTROL Label]** y **[!UICONTROL Value]**. Agregue tantos valores como sea necesario.
+   A continuación, haga clic en **[!UICONTROL Create element]** y especifique un **[!UICONTROL Label]** y **[!UICONTROL Value]**. Añada tantos valores como sea necesario.
 
 1. Una vez agregados los campos, marque la **[!UICONTROL Add audit fields]** casilla para incluir campos que detallen la fecha de creación, el usuario que creó el recurso, la fecha y el autor de la última modificación.
 1. Marque la **[!UICONTROL Add access authorization management fields]** casilla para incluir los campos que indican quién tiene derechos de acceso a ese recurso en particular.
@@ -63,13 +63,13 @@ Puede agregar nuevos campos a un recurso para almacenar datos que no forman part
    Estos campos aparecen en los datos y metadatos que se pueden mostrar una vez que se ha realizado la actualización de la base de datos. Para obtener más información sobre esto, consulte la sección [Actualización de la estructura](../../developing/using/updating-the-database-structure.md) de la base de datos.
 
 1. Marque el **[!UICONTROL Add automatic ID]** campo para generar automáticamente un ID. Tenga en cuenta que las entidades existentes permanecerán vacías. Para obtener más información sobre esto, consulte [Generación de un ID único para perfiles y recursos](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)personalizados.
-1. Para modificar la forma en que el nombre de los elementos de recursos aparecerá en las listas y en los pasos de creación, marque la **[!UICONTROL Customize the title of the resource elements]** casilla. Seleccione un campo entre los que ha creado para este recurso.
+1. Para modificar la forma en que aparecerá el nombre de los elementos de recurso en los pasos de listas y creación, marque la **[!UICONTROL Customize the title of the resource elements]** casilla. Seleccione un campo entre los que ha creado para este recurso.
 
    ![](assets/schema_extension_18.png)
 
    >[!NOTE]
    >
-   >Si no activa esta opción, se utilizará la clave principal automática (que se crea automáticamente cada vez que se agrega una entidad a la tabla) cuando se enumeren todas las entidades de esta tabla.
+   >Si no marca esta opción, se utilizará la clave principal automática (que se crea automáticamente cada vez que se agrega una entidad a la tabla) cuando se lista todas las entidades de esta tabla.
 
 Los campos del recurso ahora están definidos.
 
@@ -133,7 +133,7 @@ Los índices que se crearon aparecen en la lista de la **[!UICONTROL Index]** se
 
 Un vínculo detalla la asociación que una tabla tiene con otras tablas.
 
-1. Utilice el **[!UICONTROL Create element]** botón para crear un vínculo a un recurso de destino.
+1. Utilice el **[!UICONTROL Create element]** botón para crear un vínculo a un recurso de destinatario.
 1. Haga clic **[!UICONTROL Select a target resource]**.
 
    ![](assets/schema_extension_28.png)
@@ -148,9 +148,9 @@ Un vínculo detalla la asociación que una tabla tiene con otras tablas.
 
    Los distintos tipos de vínculos son los siguientes:
 
-   * **[!UICONTROL 1 cardinality simple link]**:: una incidencia de la tabla de origen puede tener como máximo una incidencia correspondiente de la tabla de destino.
-   * **[!UICONTROL N cardinality collection link]**:: una incidencia de la tabla de origen puede tener varias incidencias correspondientes de la tabla de destino, pero una incidencia de la tabla de destino puede tener como máximo una incidencia correspondiente de la tabla de origen.
-   * **[!UICONTROL 0 or 1 cardinality simple link]**:: una incidencia de la tabla de origen puede tener como máximo una incidencia correspondiente de la tabla de destino o ninguna. Tenga en cuenta que este tipo de **[!UICONTROL Link type]** problema puede provocar problemas de rendimiento.
+   * **[!UICONTROL 1 cardinality simple link]**:: una incidencia de la tabla de origen puede tener como máximo una incidencia correspondiente de la tabla de destinatario.
+   * **[!UICONTROL N cardinality collection link]**:: una incidencia de la tabla de origen puede tener varias incidencias correspondientes de la tabla de destinatario, pero una incidencia de la tabla de destinatario puede tener como máximo una incidencia correspondiente de la tabla de origen.
+   * **[!UICONTROL 0 or 1 cardinality simple link]**:: una incidencia de la tabla de origen puede tener como máximo una incidencia correspondiente de la tabla de destinatario o ninguna. Tenga en cuenta que este tipo de **[!UICONTROL Link type]** problema puede provocar problemas de rendimiento.
    ![](assets/schema_extension_29.png)
 
 1. En la **[!UICONTROL New link]** pantalla, los campos **[!UICONTROL Label]** y **[!UICONTROL ID]** se completan de forma predeterminada, pero puede editarlos.
@@ -159,15 +159,15 @@ Un vínculo detalla la asociación que una tabla tiene con otras tablas.
    >
    >Utilice un máximo de 30 caracteres.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >No es posible cambiar el nombre de un vínculo después de crearlo. Para cambiar el nombre de un vínculo, debe eliminarlo y crearlo de nuevo.
 
-1. La **[!UICONTROL Category for the audience and targeting]** lista permite asignar este vínculo a una categoría para que sea más visible en la herramienta de edición de consultas.
+1. La **[!UICONTROL Category for the audience and targeting]** lista le permite asignar este vínculo a una categoría para que sea más visible en la herramienta de edición de consultas.
 1. Si es necesario, la **[!UICONTROL Reverse link definition]** sección le permite mostrar la etiqueta y la ID del recurso en el recurso de destino.
 1. Defina el comportamiento de los registros a los que hace referencia el vínculo en la **[!UICONTROL Behavior if deleted/duplicated]** sección.
 
-   De forma predeterminada, el registro de destino se eliminará una vez que el vínculo ya no haga referencia a él.
+   De forma predeterminada, el registro de destinatario se eliminará una vez que el vínculo ya no haga referencia a él.
 
    ![](assets/schema_extension_16.png)
 
@@ -185,11 +185,11 @@ Los vínculos creados se muestran en la lista de la **[!UICONTROL Links]** secci
 
 **Ejemplo: Vincular un recurso creado con el recurso &#39;Perfiles&#39;**
 
-En este ejemplo, queremos vincular una nueva **compra** de recursos con el recurso personalizado **Perfiles** :
+En este ejemplo, queremos vincular una nueva **compra** de recursos con el recurso personalizado de **Perfiles** :
 
 1. Cree el nuevo recurso **de compra** .
-1. Para vincularlo con el recurso personalizado **Perfiles** , despliegue la **[!UICONTROL Links]** sección en la **[!UICONTROL Data structure]** ficha y haga clic en **[!UICONTROL Create element]**.
-1. Seleccione el recurso de destino aquí **[!UICONTROL Profiles (profile)]**.
+1. Para vincularlo con el recurso personalizado de **Perfiles** , despliegue la **[!UICONTROL Links]** sección en la **[!UICONTROL Data structure]** ficha y haga clic en **[!UICONTROL Create element]**.
+1. Seleccione el recurso de destinatario, aquí **[!UICONTROL Profiles (profile)]**.
 1. En este ejemplo, mantenga seleccionado el tipo de **[!UICONTROL 1 cardinality simple link]** vínculo predeterminado.
 
    ![](assets/custom_resource_link_to_profile_2.png)
@@ -200,7 +200,7 @@ En este ejemplo, queremos vincular una nueva **compra** de recursos con el recur
 
 1. Si es necesario, puede definir una pantalla de detalles para poder editar la **compra** y vincularla a un perfil.
 
-   Despliegue la **[!UICONTROL Detail screen configuration]** sección y marque la casilla de verificación **[!UICONTROL Define a detail screen]** para configurar la pantalla que corresponde a cada elemento del recurso. Si no marca esta casilla, no se podrá acceder a la vista de detalles de los elementos de este recurso.
+   Despliegue la **[!UICONTROL Detail screen configuration]** sección y marque la casilla de verificación **[!UICONTROL Define a detail screen]** para configurar la pantalla que corresponde a cada elemento del recurso. Si no marca esta casilla, no se podrá acceder a la vista detallada de los elementos de este recurso.
 
 1. Haga clic **[!UICONTROL Create element]**.
 1. Seleccione el recurso vinculado y haga clic en **[!UICONTROL Add]**.
@@ -213,7 +213,7 @@ En este ejemplo, queremos vincular una nueva **compra** de recursos con el recur
 
    Ahora puede publicar su nuevo recurso.
 
-Al agregar este vínculo, se agrega una ficha **Compra** a la pantalla de detalles del perfil en el menú **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Profiles]** . Tenga en cuenta que esto es específico del **[!UICONTROL Profile]** recurso.
+Al agregar este vínculo, se agrega una ficha **Compra** a la pantalla de detalles de perfiles del menú **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Profiles]** . Tenga en cuenta que esto es específico del **[!UICONTROL Profile]** recurso.
 
 ![](assets/custom_resource_link_to_profile.png)
 
@@ -221,12 +221,12 @@ Al agregar este vínculo, se agrega una ficha **Compra** a la pantalla de detall
 
 La extensión de registro de envío le permite:
 
-* para ampliar las capacidades de los informes dinámicos **agregando campos personalizados de perfil**
-* para ampliar los datos de registro de envío con el código de **segmento y los datos de perfil**
+* ampliar las capacidades de los informes dinámicos **agregando campos personalizados de perfil**
+* para ampliar los datos de registros de envío con datos de **código de segmento y perfil**
 
 **Ampliar con un código de segmento**
 
-El usuario puede ampliar los registros con el código de segmento proveniente del motor de flujo de trabajo.
+El usuario puede ampliar los registros con el código de segmento procedente del motor de flujos de trabajo.
 
 El código de segmento debe definirse en el flujo de trabajo.
 
@@ -234,29 +234,29 @@ Para activar esta extensión, marque la opción **[!UICONTROL Add segment code]*
 
 ![](assets/sendinglogsextension_1.png)
 
-Para obtener más información sobre el código de segmento, consulte la sección [Segmentación](../../automating/using/segmentation.md) .
+Para obtener más información sobre código de segmento, consulte la sección [Segmentación](../../automating/using/segmentation.md) .
 
 **Ampliar con un campo de perfil**
 
 >[!NOTE]
 >
->El administrador debería haber ampliado el recurso Perfil con un campo personalizado.
+>El administrador debería haber ampliado el recurso de Perfil con un campo personalizado.
 
 ![](assets/sendinglogsextension_2.png)
 
 Haga clic **[!UICONTROL Add field]** y seleccione cualquier campo personalizado del recurso de perfil.
 
-Para generar una nueva subdimensión vinculada a la dimensión Perfil, marque la **[!UICONTROL Add this field in Dynamic reporting as a new dimension]** opción.
+Para generar una nueva subdimensión vinculada a la dimensión de Perfil, marque la **[!UICONTROL Add this field in Dynamic reporting as a new dimension]** opción.
 
 ![](assets/sendinglogsextension_3.png)
 
-En Informes dinámicos, puede arrastrar y soltar la dimensión de campo personalizado en una tabla improvisada.
+Desde Sistema de informes dinámico, puede arrastrar y soltar la dimensión de campo personalizado en una tabla improvisada.
 
-Para obtener más información sobre los informes dinámicos, consulte la [Lista de componentes](../../reporting/using/list-of-components-.md).
+Para obtener más información sobre el Sistema de informes dinámico, consulte la [Lista de componentes](../../reporting/using/list-of-components-.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
->El número de campos enviados a Informes dinámicos está limitado a 20.
+>El número de campos enviados a Sistema de informes dinámico está limitado a 20.
 
 ## Edición de propiedades de recursos {#editing-resource-properties}
 
@@ -279,7 +279,7 @@ En la pantalla de recursos personalizados, el **[!UICONTROL Summary]** panel ind
 
 Se guardarán las modificaciones. Debe volver a publicar el recurso para aplicarlo.
 
-## Generación de un ID único para perfiles y recursos personalizados {#generating-a-unique-id-for-profiles-and-custom-resources}
+## Generación de una ID única para perfiles y recursos personalizados {#generating-a-unique-id-for-profiles-and-custom-resources}
 
 De forma predeterminada, los perfiles y los recursos personalizados no tienen un ID de negocio cuando se crean. Puede activar una opción que genere automáticamente un ID único cuando se crean los elementos. Esta ID se puede utilizar para:
 
@@ -309,6 +309,6 @@ Al volver a importar datos que se han procesado o actualizado en otra aplicació
 
 >[!NOTE]
 >
->El **[!UICONTROL ACS ID]** campo no se actualiza para perfiles o elementos creados antes de activar la opción. Sólo los registros nuevos tendrán un ID de ACS.
+>El campo **[!UICONTROL ACS ID]** no se actualiza para perfiles o elementos creados antes de activar la opción. Sólo los registros nuevos tendrán un ID de ACS.
 >
 >Este campo está en modo de solo lectura. No se puede modificar.
