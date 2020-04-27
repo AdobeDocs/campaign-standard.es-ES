@@ -1,27 +1,27 @@
 ---
 title: Resolución de problemas
-description: Encuentre aquí preguntas comunes relacionadas con los informes dinámicos.
-page-status-flag: nunca activado
+description: Encuentre aquí preguntas comunes relacionadas con el sistema de informes dinámico.
+page-status-flag: never-activated
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
-contentOwner: benat
+contentOwner: beneat
 products: SG_CAMPAIGN/STANDARD
-audience: informes
-content-type: referencia
-topic-tags: resolución
+audience: reporting
+content-type: reference
+topic-tags: troubleshooting
 discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 001fc2df11e32bdcc31dfe917884460b4d3de541
 
 ---
 
 
 # Resolución de problemas{#troubleshooting}
 
-En esta sección encontrará preguntas comunes relacionadas con los informes dinámicos.
+En esta sección encontrará preguntas comunes relacionadas con el sistema de informes dinámico.
 
-## Para las aperturas únicas y los clics únicos, el recuento de la fila agregada no coincide con los de filas individuales {#unique-open-clicks-no-match}
+## Para las aperturas únicas y los clics únicos, el recuento de la fila acumulada no coincide con los de filas individuales {#unique-open-clicks-no-match}
 
 Este es un comportamiento esperado.
 Podemos tomar el siguiente ejemplo para explicar este comportamiento.
@@ -36,7 +36,7 @@ Esta es una representación visual de la interacción de los perfiles con el cor
 <table> 
  <thead> 
   <tr> 
-   <th align="center"> <strong>Día</strong><br /> </th> 
+   <th align="center"> <strong>Day</strong> <br /> </th> 
    <th align="center"> <strong>Aperturas</strong> <br /> </th> 
    <th align="center"> <strong>Aperturas</strong> únicas <br /> </th> 
   </tr> 
@@ -64,7 +64,7 @@ Esto dará como resultado la siguiente tabla:
 <table> 
  <thead> 
   <tr> 
-   <th align="center"> <strong>Día</strong><br /> </th> 
+   <th align="center"> <strong>Day</strong> <br /> </th> 
    <th align="center"> <strong>Aperturas</strong> <br /> </th> 
    <th align="center"> <strong>Aperturas</strong> únicas <br /> </th> 
   </tr> 
@@ -89,121 +89,21 @@ Esto dará como resultado la siguiente tabla:
 
 ## Los recuentos abiertos no coinciden con el recuento de la base de datos {#open-counts-no-match-database}
 
-Esto puede deberse al hecho de que la heurística se utiliza en los informes dinámicos para rastrear las aperturas incluso cuando no podemos rastrear la **[!UICONTROL Open]** acción.
+Esto puede deberse al hecho de que la heurística se utiliza en el sistema de informes dinámico para rastrear aperturas incluso cuando no podemos rastrear la **[!UICONTROL Open]** acción.
 
 Por ejemplo: si un usuario ha desactivado las imágenes de su cliente y hace clic en un vínculo del correo electrónico, es posible que la base de datos no **[!UICONTROL Open]** las rastree, pero la **[!UICONTROL Click]** voluntad.
 
-Por lo tanto, es posible que los recuentos de registros de seguimiento no tengan el mismo recuento en la base de datos. **[!UICONTROL Open]**
+Por lo tanto, es posible que los recuentos de **[!UICONTROL Open]** registros de seguimiento no tengan el mismo recuento en la base de datos.
 
-Estas ocurrencias se agregan como **"un clic de correo electrónico implica abrir un correo electrónico"**.
+Estas ocurrencias se agregan como **&quot;un clic de correo electrónico implica abrir un correo electrónico&quot;**.
 
 >[!NOTE]
 >
 >Dado que los recuentos únicos se basan en un boceto basado en HLL, se pueden experimentar incoherencias menores entre los recuentos.
 
-## ¿Cómo se calculan los recuentos de entregas recurrentes/transaccionales?
-
-Al trabajar con entregas recurrentes y transaccionales, los recuentos se atribuirán tanto a las entregas principales como a las secundarias.
-
-Podemos tomar el ejemplo de un envío recurrente llamado **R1** configurado para ejecutarse todos los días en el día 1 (RC1), día 2 (RC2) y día 3 (RC3).
-
-Supongamos que sólo una persona abrió todas las entregas de niños varias veces. En este caso, las entregas infantiles recurrentes individuales mostrarán el **[!UICONTROL Open]** recuento como 1 para cada una.
-
-Sin embargo, como la misma persona hizo clic en todas las entregas, la entrega recurrente principal también tendrá **[!UICONTROL Unique open]** el valor 1.
-
-Después de la versión de Adobe Campaign Standard 19.2.1, la definición de recuentos **** únicos se cambia de **Número de personas únicas que interactúan con la entrega** a **Número de mensajes únicos interactuados**.
-
-Antes de la versión 19.2.1 de Adobe Campaign, los informes tenían el siguiente aspecto:
-
-<table> 
- <thead> 
-  <tr> 
-   <th align="center"> <strong>Entrega</strong><br /> </th> 
-   <th align="center"> <strong>Enviado</strong><br /> </th> 
-   <th align="center"> <strong>Enviado</strong><br /> </th>
-   <th align="center"> <strong>Aperturas</strong> <br /> </th> 
-   <th align="center"> <strong>Aperturas</strong> únicas <br /> </th>
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td align="center"> <strong>R1<br/> </td> 
-   <td align="center"> <strong>100<br/> </td> 
-   <td align="center"> <strong>90<br/> </td> 
-   <td align="center"> <strong>10<br/> </td> 
-   <td align="center"> <strong>1<br/> </td> 
-  </tr> 
-  <tr> 
-   <td align="center"> RC1<br/> </td> 
-   <td align="center"> 20<br /> </td> 
-   <td align="center"> 20<br /> </td> 
-   <td align="center"> 6<br /> </td> 
-   <td align="center"> 1<br /> </td> 
-  </tr>
-    <tr> 
-   <td align="center"> RC2<br /> </td> 
-   <td align="center"> 40<br /> </td> 
-   <td align="center"> 30<br /> </td> 
-   <td align="center"> 2<br /> </td> 
-   <td align="center"> 1<br /> </td> 
-  </tr> 
-    <tr> 
-   <td align="center"> RC3<br /> </td> 
-   <td align="center"> 40<br /> </td> 
-   <td align="center"> 40<br /> </td> 
-   <td align="center"> 2<br /> </td> 
-   <td align="center"> 1<br /> </td> 
-  </tr>
- </tbody> 
-</table>
-
-Tras la versión 19.2.1 de Adobe Campaign Standard, los informes tienen el siguiente aspecto:
-
-<table> 
- <thead> 
-  <tr> 
-   <th align="center"> <strong>Entrega</strong><br /> </th> 
-   <th align="center"> <strong>Enviado</strong><br /> </th> 
-   <th align="center"> <strong>Enviado</strong><br /> </th>
-   <th align="center"> <strong>Aperturas</strong> <br /> </th> 
-   <th align="center"> <strong>Aperturas</strong> únicas <br /> </th>
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td align="center"> <strong>R1<br/> </td> 
-   <td align="center"> <strong>100<br/> </td> 
-   <td align="center"> <strong>90<br/> </td> 
-   <td align="center"> <strong>10<br/> </td> 
-   <td align="center"> <strong>3<br/> </td> 
-  </tr> 
-  <tr> 
-   <td align="center"> RC1<br/> </td> 
-   <td align="center"> 20<br /> </td> 
-   <td align="center"> 20<br /> </td> 
-   <td align="center"> 6<br /> </td> 
-   <td align="center"> 1<br /> </td> 
-  </tr>
-    <tr> 
-   <td align="center"> RC2<br /> </td> 
-   <td align="center"> 40<br /> </td> 
-   <td align="center"> 30<br /> </td> 
-   <td align="center"> 2<br /> </td> 
-   <td align="center"> 1<br /> </td> 
-  </tr> 
-    <tr> 
-   <td align="center"> RC3<br /> </td> 
-   <td align="center"> 40<br /> </td> 
-   <td align="center"> 40<br /> </td> 
-   <td align="center"> 2<br /> </td> 
-   <td align="center"> 1<br /> </td> 
-  </tr> 
- </tbody> 
-</table>
-
 ## ¿Cuál es la significación de los colores en la tabla de los informes? {#reports-color-signification}
 
-Los colores mostrados en los informes son aleatorios y no se pueden personalizar. Representan una barra de progreso y se muestran para ayudarle a resaltar mejor el valor máximo alcanzado en los informes.
+Los colores que se muestran en los informes son aleatorios y no se pueden personalizar. Representan una barra de progreso y se muestran para ayudarle a resaltar mejor el valor máximo alcanzado en los informes.
 
 En el ejemplo siguiente, la celda tiene el mismo color, ya que su valor es 100%.
 
@@ -211,7 +111,7 @@ En el ejemplo siguiente, la celda tiene el mismo color, ya que su valor es 100%.
 
 Si cambia el **[!UICONTROL Conditional formatting]** a personalizado, cuando el valor alcance el límite superior, la celda se volverá más verde. Mientras que, si alcanza el límite inferior, se enrojecerá.
 
-Por ejemplo: aquí, configuramos el **[!UICONTROL Upper limit]** en 500 y el **[!UICONTROL Lower limit**] en 0.
+Por ejemplo: aquí, establecemos el **[!UICONTROL Upper limit]** valor en 500 y **[!UICONTROL Lower limit]** en 0.
 
 ![](assets/troubleshooting_2.png)
 
@@ -222,5 +122,5 @@ Por ejemplo: aquí, configuramos el **[!UICONTROL Upper limit]** en 500 y el **[
 El valor **N/D** puede aparecer a veces en los informes dinámicos. Esto se puede mostrar por dos motivos:
 
 * El envío se ha eliminado y se muestra aquí como **N/D** para no causar discrepancias en los resultados.
-* Al arrastrar y soltar la **[!UICONTROL Transactional Delivery]** dimensión en los informes, el valor **N/D** podría aparecer como resultado. Esto sucede porque los informes dinámicos recuperan cada entrega aunque no sean transaccionales.
-Esto también puede suceder cuando arrastra y suelta la **[!UICONTROL Delivery]** dimensión en el informe, pero en este caso, el valor **N/D** representará entregas transaccionales.
+* Al arrastrar y soltar la **[!UICONTROL Transactional Delivery]** dimensión en los informes, el valor **N/D** podría aparecer como resultado. Esto sucede porque los informes dinámicos recuperan todos los envíos aunque no sean transaccionales.
+Esto también puede suceder cuando arrastra y suelta la **[!UICONTROL Delivery]** dimensión en el informe, pero en este caso, el valor **N/D** representará envíos transaccionales.
