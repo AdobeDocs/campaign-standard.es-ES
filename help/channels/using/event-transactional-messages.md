@@ -13,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: be6751f2f966f99d2b986aeba0b3720d2e8c4599
+source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
 
 ---
 
@@ -225,7 +225,7 @@ Para obtener más información sobre la creación de una colección y los campos
 
    ![](assets/message-center_loop_fallback.png)
 
-   El contenido de reserva se mostrará si la colección está vacía cuando se activa el evento, por ejemplo si un cliente no tiene nada en el carro de compras.
+   El contenido de reserva se mostrará si la colección está vacía cuando se activa el evento, por ejemplo, si un cliente no tiene nada en el carro de compras.
 
 1. En el panel Configuración, edite los estilos de la lista de productos. Para obtener más información sobre esto, consulte [Edición de estilos](../../designing/using/styles.md)de correo electrónico.
 1. Previsualización del correo electrónico mediante un perfil de prueba vinculado al evento transaccional relevante y para el que se han definido datos de recopilación. Por ejemplo, agregue la siguiente información en la sección **[!UICONTROL Event data]** del perfil de prueba que desee utilizar:
