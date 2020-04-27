@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Documentación del producto de Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 5b6eff73d0abd9601b7ac1ca4d63bd8e78d8493b
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
@@ -15,12 +15,12 @@ source-git-commit: 5b6eff73d0abd9601b7ac1ca4d63bd8e78d8493b
 
 ## Novedades
 
-* **[Pruebas de correo electrónico con perfiles](sending/using/testing-messages-using-target.md)**<br/>de objetivo Descubra cómo probar los mensajes de correo electrónico en perfiles de objetivo reales.
+* **[Pruebas de correo electrónico con perfiles](sending/using/testing-messages-using-target.md)**<br/>de objetivo Descubra cómo probar los mensajes de correo electrónico en perfiles de objetivo reales
 
-* **[Administración de privacidad](https://helpx.adobe.com/es/campaign/kb/campaign-privacy.html)**<br/> Obtenga información sobre las herramientas proporcionadas por Adobe Campaign para ayudarle a cumplir con la privacidad.
+* **[Administración de privacidad](https://helpx.adobe.com/es/campaign/kb/campaign-privacy.html)**<br/> Obtenga información sobre las herramientas proporcionadas por Adobe Campaign para ayudarle a cumplir con la privacidad
 
 * **[Guía móvil de Campaign Standard](https://helpx.adobe.com/es/campaign/kb/acs-mobile.html)**<br/>
-Obtenga más información sobre las directrices generales para envíos móviles.
+Obtenga más información sobre las directrices generales para envíos móviles
 
 [Haga clic aquí para obtener más actualizaciones](rn/using/documentation-updates.md)
 
@@ -35,7 +35,7 @@ Obtenga más información sobre las directrices generales para envíos móviles.
     <div>
     <a href="administration/using/about-access-management.md"><strong>Funciones y grupos de seguridad</strong></a>
     </div>
-    <em>Obtenga información sobre cómo definir permisos y asignar funciones a usuarios de Campaign.</em>
+    <em>Obtenga información sobre cómo definir permisos y asignar funciones a usuarios de Campaign</em>
     <br>
   </td>
   <td valign="top">
@@ -53,7 +53,7 @@ Obtenga más información sobre las directrices generales para envíos móviles.
     <div><a href="https://helpx.adobe.com/campaign/kb/ac-support.html">
     <strong>Obtener asistencia</strong></a>
     </div>
-    <p><em>Acceda a preguntas más frecuentes, prácticas recomendadas, recursos de ayuda y póngase en contacto con los expertos en Campaña.</em></p>
+    <p><em>Acceda a preguntas más frecuentes, prácticas recomendadas, ayude a los recursos y conéctese con los expertos</em></p>
     <br>
   </td>
 </tr>
