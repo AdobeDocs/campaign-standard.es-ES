@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f5c91f886335e43940caac4d3b18924c020a2d2b
+source-git-commit: ffdbeb7031697c7b00edc658096f55df815b0f63
 
 ---
 
@@ -108,7 +108,7 @@ Vista de las últimas actualizaciones [de](../../rn/using/documentation-updates.
   </tr> 
   <tr> 
    <td> Filtro de tipología para suscriptores de aplicaciones móviles<br /> </td> 
-   <td> suscripciones de compatibilidad en el filtro de tipología: al especificar los criterios de filtrado para una reglas de tipología, se pueden seleccionar suscripciones de aplicación como filtro y dimensiones de segmentación, lo que permite filtrar los atributos para usuarios con o sin perfil. <br /> Para obtener más información, consulte la <a href="../../sending/using/about-typology-rules.md#typology-rules">documentación detallada</a>.<br /> </td> 
+   <td> suscripciones de compatibilidad en el filtro de tipología: al especificar los criterios de filtrado para una reglas de tipología, se pueden seleccionar suscripciones de aplicación como filtro y dimensiones de segmentación, lo que permite filtrar los atributos para usuarios con o sin perfil. <br /> Para obtener más información, consulte la <a href="../../sending/using/about-typology-rules.md">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Importación automática de contenido desde una dirección URL durante la preparación de mensajes<br /> </td> 
