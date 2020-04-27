@@ -12,20 +12,20 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 6bf67d05ec8f5b4024df29c7ee7df7fc15e95e0a
 
 ---
 
 
 # Acerca de los informes dinámicos{#about-dynamic-reports}
 
+El Sistema de informes dinámico proporciona informes totalmente personalizables y en tiempo real. Agrega acceso a los datos de perfil, permitiendo la análisis demográfica por dimensiones de perfil como sexo, ciudad y edad, además de datos funcionales de campaña de correo electrónico como aperturas y clics. Con la interfaz de arrastrar y soltar, puede explorar datos, determinar el rendimiento de sus campañas de correo electrónico en relación con los segmentos de clientes más importantes y medir su impacto en los destinatarios.
+
 >[!NOTE]
 >
 >Solo los usuarios con derechos de administración o con unidades organizativas establecidas en **Todo** pueden crear o guardar un nuevo informe. Para obtener más información, consulte [esta sección](../../administration/using/users-management.md).
 
 ![](assets/dynamic_report_intro.png)
-
-El Sistema de informes dinámico proporciona informes totalmente personalizables y en tiempo real. Agrega acceso a los datos de perfil, permitiendo la análisis demográfica por dimensiones de perfil como sexo, ciudad y edad, además de datos funcionales de campaña de correo electrónico como aperturas y clics. Con la interfaz de arrastrar y soltar, puede explorar datos, determinar el rendimiento de sus campañas de correo electrónico en relación con los segmentos de clientes más importantes y medir su impacto en los destinatarios.
 
 Gracias a su menú de arrastrar y soltar y a las visualizaciones personalizables, la función de informes dinámicos le permite combinar dimensiones, métricas e intervalo de tiempo en cualquier combinación, con desgloses y comparaciones ilimitados.
 
