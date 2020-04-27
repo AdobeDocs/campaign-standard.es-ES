@@ -13,7 +13,7 @@ context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ec0af8c06e36f51ddaf6e3d4190fa6acd56d2da6
+source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
 
 ---
 
@@ -44,7 +44,7 @@ Para crear una nueva tipología, siga estos pasos:
 
 1. Se muestra la lista de tipologías. Haga clic en el botón **[!UICONTROL Create]**.
 
-   ![](assets/typologies-list.png)
+   ![](assets/typologies-create.png)
 
 1. Defina la tipología **[!UICONTROL Label]**, luego haga clic en el **[!UICONTROL Add an element]** botón para seleccionar las reglas de tipología que desee incluir en ella. For more on typology rules, refer to [this section](../../sending/using/managing-typology-rules.md).
 
