@@ -12,7 +12,7 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
+source-git-commit: 4e05dafb087c43a13c60d6bb2f54d0e44455ea8d
 
 ---
 
@@ -136,7 +136,7 @@ Ejemplo:  Campaign Standard - su campaña-identificador de organización - Admin
 
 Haga clic en **[!UICONTROL Create Integration]**.
 
-![](assets/MSdynACSIntegration-4B.png)
+![](assets/do-not-localize/MSdynACSIntegration-4B.png)
 
 ### Configurar detalles de integración
 
@@ -144,13 +144,13 @@ Haga clic en **[!UICONTROL Create Integration]**.
 
 Revise los detalles de la integración.  Tendrá que volver a consultarlas cuando ejecute los pasos posteriores al aprovisionamiento de Unifi.
 
-![](assets/MSdynACSIntegration-5.png)
+![](assets/do-not-localize/MSdynACSIntegration-5.png)
 
 1. Haga clic en la **[!UICONTROL Services]** ficha y agregue **[!UICONTROL I/O Events]** y **[!UICONTROL I/O Management API]** servicios.  Para agregar el servicio, haga clic en el botón de opción y luego **[!UICONTROL Add service]**.  Lo hará por cada servicio por separado.
 
 Cuando haya terminado, sus servicios deben aparecer arriba como en la imagen de abajo. No necesitará completar la sección en curso que genera un JWT y un token de acceso.
 
-![](assets/MSdynACSIntegration-6.png)
+![](assets/do-not-localize/MSdynACSIntegration-6.png)
 
 El aprovisionamiento posterior en Campaña ya se ha completado.  Continúe con los pasos [posteriores al aprovisionamiento de Microsoft Dynamics 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md).
 
