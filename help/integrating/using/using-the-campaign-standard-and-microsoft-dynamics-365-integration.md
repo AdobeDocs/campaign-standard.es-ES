@@ -1,5 +1,5 @@
 ---
-title: Uso de Microsoft Dynamics 365 con la integración de Campaign Standard
+title: Usar la integración de Microsoft Dynamics 365
 description: Obtenga información sobre cómo utilizar Microsoft Dynamics 365 con la integración de Campaign Standard
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
@@ -12,12 +12,12 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bff3b8f8f58c491e4010d24132b0fa3e93c3a7ab
+source-git-commit: de048c06ea2af0c988e97a37ebf945906069935e
 
 ---
 
 
-# Uso de Microsoft Dynamics 365 con la integración de Campaign Standard
+# Usar la integración de Microsoft Dynamics 365
 
 Esta integración realiza varios trabajos:
 
@@ -90,23 +90,23 @@ Para realizar la vista de la cronología de un contacto, vaya a la lista de cont
 
 Debajo puede ver una instantánea de la pantalla Contacto para &quot;Usuario de Dynamics&quot;.  En la vista Línea de tiempo, verá que se ha enviado un correo electrónico al usuario de Dynamics asociado con el nombre de Campaña &quot;2019LoyaltyCamp&quot; y el nombre de Envío &quot;DM190&quot;.  El usuario de Dynamics abrió el correo electrónico y también hizo clic en una dirección URL del mismo; ambas acciones crearon eventos que también se muestran a continuación.  Si mira hacia la esquina derecha, verá la tarjeta del Asistente de relaciones (RA); actualmente, contiene una tarea para realizar un seguimiento de la dirección URL donde se hizo clic.
 
-![](assets/MSdynamicsACS-usage4.png)
+![](assets/do-not-localize/MSdynamicsACS-usage4.png)
 
 Consulte a continuación para ver un resumen de la vista de línea de tiempo para el usuario de Dynamics.
 
-![](assets/MSdynamicsACS-usage5.png)
+![](assets/do-not-localize/MSdynamicsACS-usage5.png)
 
 A continuación se muestra un primer plano de la tarjeta del Asistente de Relaciones (RA).  La aplicación AppSource contiene un flujo de trabajo que busca un evento de clics en URL de correo electrónico de Adobe.  Cuando se produce este evento, se crea una tarea y se establece una fecha de vencimiento.  Esto permite que la tarea aparezca en la tarjeta RA, lo que le proporciona una visibilidad adicional.  Existe un flujo de trabajo similar para los eventos de devolución de correo electrónico de Adobe, que agrega una tarea para reconciliar la dirección de correo electrónico no válida.  Estos flujos de trabajo pueden desactivarse en la solución.
 
-![](assets/MSdynamicsACS-usage6.png)
+![](assets/do-not-localize/MSdynamicsACS-usage6.png)
 
 Si hace clic en el asunto del evento de envío, verá un formulario similar al siguiente.  Los formularios para los eventos de apertura y devolución son similares.
 
-![](assets/mirror_page_url_send.png)
+![](assets/do-not-localize/mirror_page_url_send.png)
 
 El formulario para los eventos de clics en direcciones URL de correo electrónico agrega un atributo adicional para la dirección URL en la que se hizo clic:
 
-![](assets/mirror_page_url_click.png)
+![](assets/do-not-localize/mirror_page_url_click.png)
 
 A continuación se muestra una lista de los atributos y una descripción:
 
