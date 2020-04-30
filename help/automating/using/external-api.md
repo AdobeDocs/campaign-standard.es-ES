@@ -10,7 +10,7 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e545e0ffba80f6165242f6974adf0e4c4abafff4
+source-git-commit: c59faa935663bf803ed97f30e45f9b4276b448b8
 
 ---
 
@@ -39,7 +39,9 @@ Las principales características de esta actividad son:
 
 Con la versión Campaign Standard 20.3, la capacidad de API externa ha pasado de la versión beta a la versión general de disponibilidad (GA).
 
-Como consecuencia, si estuviera utilizando actividades de API externas beta, debe reemplazarlas con actividades de API externas de GA en todos los flujos de trabajo.  Los Flujos de trabajo que utilizan la versión beta de la API externa dejarán de funcionar a partir de la versión 20.3.
+>[!CAUTION]
+>
+>Como consecuencia, si estuviera utilizando actividades de API externas beta, debe reemplazarlas con actividades de API externas de GA en todos los flujos de trabajo.  Los Flujos de trabajo que utilizan la versión beta de la API externa dejarán de funcionar a partir de la versión 20.3.
 
 Al reemplazar actividades de API externas, agregue la nueva actividad de API externa al flujo de trabajo, copie manualmente los detalles de configuración y, a continuación, elimine la actividad antigua.
 
