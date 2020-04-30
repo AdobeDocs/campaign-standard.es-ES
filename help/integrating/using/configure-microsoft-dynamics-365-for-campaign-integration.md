@@ -12,7 +12,7 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
+source-git-commit: 4e05dafb087c43a13c60d6bb2f54d0e44455ea8d
 
 ---
 
@@ -57,7 +57,7 @@ Para generar el token de acceso OAuth, siga los pasos que se describen a continu
 
 1. Haga clic **[!UICONTROL New registration]** en en la parte superior de la pantalla.
 
-   ![](assets/MSdynACSIntegration-7.png)
+   ![](assets/do-not-localize/MSdynACSIntegration-7.png)
 
 1. Complete la pantalla de registro de la aplicación:
 
@@ -74,7 +74,7 @@ For more information about creating a new application, refer to [this section](h
 
 1. En la pantalla de información general de la aplicación, en el submenú de la izquierda, haga clic en **[!UICONTROL Certificates and Secrets > New client secret]**
 
-   ![](assets/MSdynACSIntegration-8.png)
+   ![](assets/do-not-localize/MSdynACSIntegration-8.png)
 
 1. Introduzca una descripción, defina la duración y haga clic en **[!UICONTROL OK]**.
 
@@ -90,11 +90,11 @@ Para obtener más información sobre la generación de un secreto de cliente, co
 
 1. En esta pantalla o en la pantalla de información general de la aplicación, haga clic en **[!UICONTROL API permissions]** en el submenú de la izquierda.  Después de hacer clic **[!UICONTROL Add a permission]**, debe seleccionar **[!UICONTROL Dynamics CRM]** en el menú.
 
-   ![](assets/MSdynACSIntegration-9.png)
+   ![](assets/do-not-localize/MSdynACSIntegration-9.png)
 
 1. A continuación, marque la casilla de verificación **[!UICONTROL user_impersonation]** y haga clic en el **[!UICONTROL Add permissions]** botón.
 
-   ![](assets/MSdynACSIntegration-10.png)
+   ![](assets/do-not-localize/MSdynACSIntegration-10.png)
 
 Para obtener más información sobre la configuración de permisos, consulte [esta sección](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-configure-app-access-web-apis#add-permissions-to-access-web-apis).
 
@@ -138,7 +138,7 @@ Siga las instrucciones del siguiente vínculo para encontrar su ID de inquilino.
 Para integrar la aplicación Dynamics 365 en el entorno de Campaign Standard, siga los pasos a continuación:
 
 1. Vaya al siguiente vínculo: [https://appsource.microsoft.com/en-us/marketplace/apps](https://appsource.microsoft.com/en-us/marketplace/apps) y busque _Adobe Campaign para Dynamics 365_ en la barra de búsqueda.
-También puede navegar a este [vínculo](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&tab=Overview).
+También puede navegar a este [vínculo](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&amp;tab=Overview).
 1. Siga las instrucciones para instalar la aplicación para su instancia de Dynamics 365.
 1. Una vez instalada, vaya a la instancia de Dynamics 365 e inicie sesión como administrador.
 1. Haga clic en el icono de engranaje en la esquina superior derecha y haga clic en **[!UICONTROL Advanced Settings]**. En la pancarta superior, haga clic en la lista desplegable al lado de **[!UICONTROL Settings]**, haga clic en **[!UICONTROL Processes]** debajo de **[!UICONTROL Process Center]**.
