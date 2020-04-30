@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 327d0e4f862b39c60fb3943d1128f4f42828bc0d
+source-git-commit: 9388df151eabbc6f63461e854d0276c14d9ef93d
 
 ---
 
@@ -70,7 +70,7 @@ Los vídeos de procedimientos también están disponibles en [esta página](http
 
 * No se admite la transferencia predeterminada de eventos de suscripción. Para transferir eventos de suscripción, puede crear el XDM y el conjunto de datos correspondientes en Adobe Experience Platform y, a continuación, configurar una asignación de datos personalizada para estos datos.
 
-* En cuanto a las solicitudes de privacidad, los clientes deben realizar solicitudes independientes para el servicio de privacidad principal de Campaña y Adobe Experience Platform tanto para las acciones de acceso como para las de eliminación.
+* En cuanto a las solicitudes de privacidad (acciones de acceso y eliminación), los clientes deben realizar solicitudes independientes: una para la Campaña mediante la integración de Privacy Core Service (consulte [esta sección](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess)) y otra para Adobe Experience Platform a través de [Privacy Service](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ccpa). Para obtener más información sobre las solicitudes de acceso y eliminación, consulte [esta página](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess).
 
 * Para cada campo XDM, el etiquetado DULE debe realizarse en Adobe Experience Platform. Es responsabilidad del cliente aplicar etiquetas DULE.
 
