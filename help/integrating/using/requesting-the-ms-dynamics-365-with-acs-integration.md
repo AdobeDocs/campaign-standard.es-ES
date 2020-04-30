@@ -1,5 +1,5 @@
 ---
-title: Solicitud y configuración de Microsoft Dynamics 365 con integración de Campaign Standard
+title: Solicitar y configurar la integración de Microsoft Dynamics 365
 description: Obtenga información sobre cómo solicitar y configurar Microsoft Dynamics 365 con la integración de Campaign Standard
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
@@ -12,16 +12,16 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
+source-git-commit: 277663c4cf0e810f691eeebfade17bf8dd73698e
 
 ---
 
 
-# Solicitud de Microsoft Dynamics 365 con integración de Campaign Standard
+# Solicitar y configurar la integración de Microsoft Dynamics 365
 
 Para aprovisionar esta integración, deberá seguir los pasos a continuación.
 
-Tenga en cuenta que esta integración utiliza un proveedor de terceros, Unifi.  En relación con sus solicitudes de asistencia, es posible que Adobe deba compartir la información de su instancia de Adobe Campaign con Unifi.
+Please note that this integration uses a third-party provider, Unifi.  En relación con sus solicitudes de asistencia, es posible que Adobe deba compartir la información de su instancia de Adobe Campaign con Unifi.
 
 Para solicitar y configurar la integración, siga los detalles de diagrama de flujo y diagrama de flujo que se indican a continuación.
 
