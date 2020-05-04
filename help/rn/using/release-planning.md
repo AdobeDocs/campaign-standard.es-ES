@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a71af00e606d78c4ff8b39da1b9f032c0dcf0fc6
+source-git-commit: 0c9f465ac3df39fd5df1266c2f993c0b08d3d4fd
 
 ---
 
@@ -33,23 +33,23 @@ Todas las fechas de lanzamiento están sujetas a cambios: le recomendamos que vi
 
 Las actualizaciones de Entorno se producen en olas, durante los intervalos de tiempo indicados a continuación. Encontrará información detallada sobre esta versión en las [Notas](../../rn/using/release-notes.md)de la versión. Si tiene alguna duda, póngase en contacto con [Adobe Client Care](https://support.neolane.net/webApp/extranetLogin).
 
-<table> 
- <thead> 
-  <tr> 
-   <th> Entorno<br /> </th> 
-   <th> Fechas<br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> Fase<br /> </td> 
-   <td> 27 - 28 de abril de 2020<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Producción<br /> </td> 
-   <td> 4 a 11 de mayo de 2020<br /> </td> 
-  </tr> 
- </tbody> 
+<table>
+ <thead>
+  <tr>
+   <th> Entorno<br /> </th>
+   <th> Fechas<br /> </th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>Fase<br /> </td>
+   <td><s>27 y 28 de abril de 2020</s> retrasados<br /> </td>
+  </tr>
+  <tr>
+   <td> Producción<br /> </td>
+   <td><s>4 a 11 de mayo de 2020</s> retrasado<br /> </td>
+  </tr>
+ </tbody>
 </table>
 
 
