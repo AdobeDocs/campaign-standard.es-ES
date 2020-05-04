@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 57b87896281efa7dd1e6a612926f59061a0fdcb8
+source-git-commit: adfeb1c83d9ef4ce9f483c134a0fd230fbc6636c
 
 ---
 
@@ -125,7 +125,7 @@ Las respuestas posibles a la operación GET son:
    "requestId": 3520,
    "status": "Success"
    }
-   ````
+   ```
 
 * Error en la solicitud de entrada con el registro 0 ingerido:
 
@@ -141,7 +141,7 @@ Las respuestas posibles a la operación GET son:
 
 * Error en la solicitud de ingesta, con algún registro cargado en un lote:
 
-   ````
+   ```
    {
    "batchId": "<value>",
    "info": "Mapping Id: <value>. ACP-880096 Sync Job failed to upload. Please check the error in the Platform UI.",
@@ -150,7 +150,7 @@ Las respuestas posibles a la operación GET son:
    "status": "Failed"
    }
    ```
-   
+
 * Se anuló la solicitud de ingesta después de ingerir algunos registros (esto puede ocurrir en casos de bloqueo):
 
    ```
