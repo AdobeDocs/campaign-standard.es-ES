@@ -12,7 +12,7 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -31,7 +31,7 @@ Según el entorno, otras soluciones también se pueden vincular a Adobe Experien
 
 Una organización es la entidad que permite a un administrador configurar grupos y usuarios y controlar el inicio de sesión único en Experience Cloud. La organización funciona como una empresa de inicio de sesión que abarca todos los productos y soluciones de Experience Cloud. Generalmente, la organización es el nombre de la empresa. Sin embargo, una empresa puede tener muchas organizaciones. La administración de usuarios y organizaciones se detalla en el portal [de ayuda de](https://marketing.adobe.com/resources/help/es_ES/mcloud/organizations.html)Adobe Experience Cloud.
 
-Si desea integrar flujos de datos de otros sistemas con Adobe Campaign, consulte nuestra documentación [de](../../api/using/about-campaign-standard-apis.md)API.
+Si desea integrar flujos de datos de otros sistemas con Adobe Campaign, consulte nuestra documentación [de](../../api/using/get-started-apis.md)API.
 
 >[!NOTE]
 >
