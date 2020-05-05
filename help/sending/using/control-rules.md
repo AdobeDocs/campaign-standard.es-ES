@@ -12,7 +12,7 @@ discoiquuid: 305cadde-6424-4c6f-b11b-1e8bdbad6ef1
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 40de67f4c918b26de6d306ce6af5cb8832741d6f
+source-git-commit: f5054272683ed846b5e0a4e64ed20c49309f8d58
 
 ---
 
@@ -44,7 +44,7 @@ Un conjunto de reglas predeterminadas garantiza los controles estándar. En la t
 | **[!UICONTROL Check URL labels]** | Correo electrónico | At the start of personalization | Comprueba que cada URL de seguimiento tiene una etiqueta. |
 | **[!UICONTROL Check URLs]** | Correo electrónico | At the start of personalization | Comprueba las direcciones URL de seguimiento (presencia del carácter &quot;&amp;&quot;). |
 
-## Fases de ejecución de reglas de control (control-rules-execute-sequence)
+## Fases de ejecución de reglas de control {#control-rules-execution-phases}
 
 Las reglas de control se pueden aplicar en diferentes fases del ciclo de vida del envío:
 
