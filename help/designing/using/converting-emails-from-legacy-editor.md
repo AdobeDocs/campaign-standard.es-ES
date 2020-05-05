@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1de0f5362f3c77fec4b66e330a2d2723f4a0f212
+source-git-commit: caab111b583534cc2e52aa9e45d9fd37c770783c
 
 ---
 
@@ -21,11 +21,11 @@ source-git-commit: 1de0f5362f3c77fec4b66e330a2d2723f4a0f212
 
 Inicio que trabaja con el Diseñador de correo electrónico y genera plantillas y fragmentos reutilizables a partir del HTML de correo electrónico creado en el Editor preexistente.
 
-Este caso de uso permite crear una plantilla de diseñador de correo electrónico mediante un correo electrónico HTML y dividirla en componentes HTML en el Diseñador de correo electrónico.
-
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Esta sección está dirigida a usuarios avanzados familiarizados con el código HTML.
+
+Este caso de uso permite crear una plantilla de diseñador de correo electrónico mediante un correo electrónico HTML y dividirla en componentes HTML en el Diseñador de correo electrónico.
 
 >[!NOTE]
 >
@@ -76,53 +76,53 @@ Este caso de uso permite crear una plantilla de diseñador de correo electrónic
    >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
 
 
-1. Go back to the mobile view to check that your content is correctly displayed and save your changes.
+1. Vuelva a la vista móvil para comprobar que el contenido se muestra correctamente y guarde los cambios.
 
 ## Caso de uso
 
 Intentemos convertir este correo electrónico, creado en el editor heredado, en una **[!UICONTROL Email Designer]** plantilla.
 
-## Identify the section of your email
+## Identifique la sección de su correo electrónico
 
-We can identify 11 sections in this email.
+Podemos identificar 11 secciones en este correo electrónico.
 
 ![](assets/html-dce-view-mail.png)
 
-To identify which element is which section of the HTML, you can select it.
+Para identificar qué elemento es qué sección del HTML, puede seleccionarlo.
 
 ![](assets/breadcrumbs.png)
 
-To see the HTML version of the email, click **[!UICONTROL Show source]**.
+Para ver la versión HTML del correo electrónico, haga clic en **[!UICONTROL Show source]**.
 
-### Create the email template and its structure
+### Crear la plantilla de correo electrónico y su estructura
 
-1. Drag and drop **[!UICONTROL Structure Components]**  reflecting the layout of our email.
+1. Arrastre y suelte **[!UICONTROL Structure components]** según el diseño de nuestro correo electrónico.
 
-We need to create 11 structure components.
+1. Repita tantas veces como sea necesario. Necesitamos crear 11 componentes de estructura.
 
-![](assets/structure-components-migration.png)
+   ![](assets/structure-components-migration.png)
 
 ### Inserción de componentes de contenido HTML
 
-1. Insert an **[!UICONTROL HTML component]**  in each **[!UICONTROL structure component]** .
+1. Inserte un **[!UICONTROL HTML component]** en cada **[!UICONTROL Structure component]** .
 
-![](assets/html-components.png)
+   ![](assets/html-components.png)
 
-1. For each section, click **[!UICONTROL Show source code]** .
+1. Para cada sección, haga clic en **[!UICONTROL Show source code]** .
 
-![](assets/show-source-code.png)
+   ![](assets/show-source-code.png)
 
 1. Inserte la sección HTML.
 
 1. Haga clic **[!UICONTROL Save]**.
 
-You can now check the rendering of your email.
+Ahora puede comprobar la representación del correo electrónico.
 
 ![](assets/migrated-email-result.png)
 
 ### Administración de estilos para adaptarse a la vista móvil
 
-Inserte elementos CSS para garantizar que el correo electrónico sea adecuado para la vista móvil.
+1. Inserte elementos CSS para garantizar que el correo electrónico sea adecuado para la vista móvil.
 
 1. Cambie al código fuente y copie y pegue la sección de estilo en una nueva sección de estilo.
 
