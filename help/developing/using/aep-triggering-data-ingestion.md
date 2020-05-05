@@ -1,0 +1,176 @@
+---
+title: Activación de la ingesta de datos mediante API
+description: Obtenga información sobre cómo activar la ingesta de datos mediante API.
+page-status-flag: never-activated
+uuid: 867b1c4b-4c79-4c52-9d0a-ef71993e50a2
+contentOwner: sauviat
+products: SG_CAMPAIGN/STANDARD
+audience: administration
+content-type: reference
+topic-tags: configuring-channels
+discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: dd7e50abbb73bf89ea39f6488083180bcee5163d
+
+---
+
+
+# Activación de la ingesta de datos mediante API {#triggering-data-ingestion-apis}
+
+>[!IMPORTANT]
+>
+>El conector de datos de la plataforma de Adobe Experience está actualmente en fase beta, que puede estar sujeto a actualizaciones frecuentes sin previo aviso. Se requiere que los clientes estén alojados en Azure (actualmente en versión beta solo para Norteamérica) para acceder a estas capacidades. Póngase en contacto con el Servicio de atención al cliente de Adobe si desea obtener acceso.
+
+Adobe Campaign Standard le permite activar la ingestión inmediata de asignaciones de datos mediante API y recuperar el estado de las solicitudes de inserción.
+
+Esta página describe cómo activar y recuperar el estado de inserción de las asignaciones de datos. Para obtener información global sobre las API de Campaign Standard, consulte [esta sección](../../api/using/about-campaign-standard-apis.md).
+
+## Requisitos previos {#prerequisites}
+
+Antes de utilizar las API, la asignación de datos debe haberse configurado y publicado primero en la interfaz de Campaign Standard. Para obtener más información, consulte estas secciones:
+
+* [Definición de la asignación](../../developing/using/aep-mapping-definition.md)
+* [Activación de la asignación](../../developing/using/aep-mapping-activation.md)
+
+Una vez creada la asignación de datos, debe evitar que se ejecute para poder activarla desde las API cuando lo desee. Para ello, siga estos pasos:
+
+1. En Campaign Standard, vaya al menú **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** .
+
+1. Haga clic con el botón Doble en la asignación de datos para abrirla y, a continuación, haga clic en el **[!UICONTROL Stop]** botón.
+
+   ![](assets/aep_datamapping_stop.png)
+
+1. Guarde los cambios
+
+La ejecución de la asignación de datos se ha detenido. Puede utilizar las API de Campaign Standard para activarlas manualmente.
+
+## Inicio de la ingestión inmediata de la asignación de datos {#starting-immediate-ingestion}
+
+La ingestión inmediata de una asignación XDM en Adobe Experience Platform se activa con una operación POST:
+
+`POST https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest`
+
+>[!NOTE]
+>
+>Para ejecutar una llamada de API POST de ingesta, el usuario debe tener una función de ejecución **de función** SQL, que puede proporcionar un administrador Campaign Standard mediante la ejecución de la siguiente secuencia de comandos de JS:
+>
+>`var sqlRoleObj = REST.head.roleBase.sql.get();
+REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);`
+
+La operación POST devuelve información sobre el estado de la solicitud creada:
+
+* La solicitud se envió correctamente para la asignación XDM:
+
+```
+{
+"requestId": <value>,
+"info": "Ingestion request submitted successfully for the Mapping ID: <value>",
+"status":"Success"
+}
+```
+
+* Solicitud ya en curso para la asignación XDM:
+
+```
+{
+"requestId": <value>,
+"info": "Ingestion request already in progress for the Mapping ID: <value>",
+"status":"In Progress"
+}
+```
+
+* Error en la solicitud porque la asignación XDM no está publicada o se ha detenido:
+
+```
+{
+"info": "Unable to submit data ingestion request, XDM Mapping ID: <value> is not stopped",
+"status": "Failed"
+}
+{
+"info": "Unable to submit data ingestion request, XDM Mapping ID: <value> is not published",
+"status": "Failed"
+}
+```
+
+## Recuperación del estado de una solicitud de inserción {#retrieving-status}
+
+El estado de una solicitud de inserción se puede recuperar con una operación GET y el ID de solicitud deseado en los parámetros:
+
+```
+GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest
+{"requestId"="<value>"}
+```
+
+>[!NOTE]
+Encontrará información detallada sobre el estado de la solicitud de asignación XDM y sus trabajos relacionados en la interfaz de Campaign Standard, en el menú **!UICONTROL [Estado de la exportación de datos a la plataforma ]**(consulte activación[de](../../developing/using/aep-mapping-activation.md)asignación).
+
+La operación GET devuelve la siguiente información:
+
+* **batchId**: este campo solo se rellena si se ha producido un error tras la preparación y carga del lote,
+* **información**: el ID de asignación XDM,
+* **numRecords**: el número de registros que se han ingestado (solo en el estado de éxito),
+* **estado**: estado de la solicitud de ingesta (correcto/fallido/en curso)
+
+Las respuestas posibles a la operación GET son:
+
+* Solicitud de entrada correcta:
+
+   ```
+   {
+   "batchId": "",
+   "info": "Mapping Id: <value>. ",
+   "numRecords": 15,
+   "requestId": 3520,
+   "status": "Success"
+   }
+   ```
+
+* Error en la solicitud de entrada con el registro 0 ingerido:
+
+   ```
+   {
+   "batchId": "",
+   "info": "Mapping Id: <value>. ACP-880056 Failed to fetch the record from the database.",
+   "numRecords": 0,
+   "requestId": 3520,
+   "status": "Failed"
+   }
+   ```
+
+* Error en la solicitud de ingesta, con algún registro cargado en un lote:
+
+   ```
+   {
+   "batchId": "<value>",
+   "info": "Mapping Id: <value>. ACP-880096 Sync Job failed to upload. Please check the error in the Platform UI.",
+   "numRecords": 0,
+   "requestId": <value>,
+   "status": "Failed"
+   }
+   ```
+
+* Se anuló la solicitud de ingesta después de ingerir algunos registros (esto puede ocurrir en casos de bloqueo):
+
+   ```
+   {
+   "batchId": "",
+   "info": "Mapping Id: <value>. Ingestion request aborted due to some issue with data ingestion service. Please submit a new request",
+   "numRecords": 0,
+   "requestId": <value>,
+   "status": "Aborted"
+   }
+   ```
+
+* Solicitud de ingesta en curso (cuando la solicitud carga los datos en un lote o cuando el lote se está preparando para la solicitud):
+
+   ```
+   {
+   "batchId": "",
+   "info": "Mapping Id: <value>.",
+   "numRecords": 0,
+   "requestId": <value>,
+   "status": "In Progress"
+   }
+   ```
