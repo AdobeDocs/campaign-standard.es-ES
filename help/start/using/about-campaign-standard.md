@@ -12,7 +12,7 @@ discoiquuid: aee81724-b425-47b4-af92-e55eff97836f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 40bb454d13de14658bfc30a6454a1a896bf3ad70
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -78,7 +78,7 @@ Aproveche la función de alerta de envío para realizar un seguimiento de los é
 
 **Amplíe el modelo** de datos de Campaign Standard con sus propios campos y recursos, y supervise todos los cambios del modelo de datos en una sola vista. [Introducción al modelo de datos de Campaign Standard](../../developing/using/get-started-data-model.md)
 
-**Aproveche las API** de REST para realizar diversas operaciones e integrar Campaign Standard con su propio ecosistema. [Introducción a las API de Campaign Standard REST](../../api/using/about-campaign-standard-apis.md)
+**Aproveche las API** de REST para realizar diversas operaciones e integrar Campaign Standard con su propio ecosistema. [Introducción a las API de Campaign Standard REST](../../api/using/get-started-apis.md)
 
 **Administrar Campaña** desde una sola vista: supervisar la instancia, administrar los permisos de los usuarios. Configure servidores externos para conectarse a la instancia y parámetros para sus canales de comunicación. [Introducción a la administración de Campaign Standard](../../administration/using/get-started-campaign-administration.md)
 
