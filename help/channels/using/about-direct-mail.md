@@ -13,7 +13,7 @@ context-tags: delivery,directMailContent,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -28,7 +28,7 @@ El correo postal es un canal sin conexión que le permite personalizar y generar
 
 Los canales en línea permiten crear los mensajes (correo electrónico, SMS, envío por aplicaciones móviles, etc.) y enviarlos a su público directamente desde Adobe Campaign. Con los canales sin conexión esto es diferente. Al preparar una entrega de correo postal, Adobe Campaign genera un archivo con todos los perfiles de destino y la información de contacto elegida (por ejemplo, una dirección postal). Después, puede enviar este archivo al proveedor de correo postal que se encarga de la entrega real.
 
-En la siguiente sección se explica cómo crear y generar un envío de correo directo de una sola toma. También puede incluir una actividad de correo directo en un flujo de trabajo para orquestar campañas que combinen canales en línea y sin conexión. For more on this, refer to the [Workflows](../../automating/using/workflow-data-and-processes.md) guide.
+En la siguiente sección se explica cómo crear y generar un envío de correo directo de una sola toma. También puede incluir una actividad de correo directo en un flujo de trabajo para orquestar campañas que combinen canales en línea y sin conexión. For more on this, refer to the [Workflows](../../automating/using/get-started-workflows.md) guide.
 
 El proceso de usuario en Adobe Campaign es el siguiente:
 
