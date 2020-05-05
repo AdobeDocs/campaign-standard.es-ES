@@ -12,7 +12,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f0f7441f06b51f9bd2d5a1b3c26f031d4eb1e4c1
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -58,7 +58,7 @@ Adobe Campaign le permite enviar un correo electrónico de notificación a los u
 
 Los pasos para ponerlo en práctica son:
 
-1. Configure un evento con el nombre &quot;Abandono del carro&quot; y publique esta configuración de evento, que crea automáticamente un mensaje transaccional. La creación y publicación de un evento se presenta en la sección [Configuración de un evento para enviar un mensaje transaccional](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) de evento.
+1. Configure un evento con el nombre &quot;Abandono del carro de compras&quot; y publique esta configuración de evento, que crea automáticamente un mensaje transaccional. La creación y publicación de un evento se presenta en la sección [Configuración de un evento para enviar un mensaje transaccional](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) de evento.
 1. El mensaje transaccional debe personalizarse, probarse y luego publicarse. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 1. Además, para que el evento se active cuando un cliente abandone el carro, este evento debe enviarse desde el sitio web de la compañía utilizando la API REST de Adobe Campaign Standard. Consulte Integración [del](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)sitio.
 
@@ -80,10 +80,10 @@ Para obtener más información sobre los pasos de configuración de evento, cons
 
 ### Diseño y publicación {#design-and-publication}
 
-Mientras diseña y publica mensajes transaccionales, algunos de los pasos que necesita realizar no se pueden revertir. Debe tener en cuenta las siguientes limitaciones:
+Al diseñar y publicar mensajes transaccionales, algunos de los pasos que necesita realizar no se pueden revertir. Debe tener en cuenta las siguientes limitaciones:
 
 * Sólo se puede utilizar un canal para cada configuración de evento. Consulte [Creación de un evento](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
-* Una vez creado el evento, no se puede cambiar el canal. Por lo tanto, si un mensaje no se envía correctamente, debe diseñar el mecanismo que permita enviarlo desde otro canal mediante un flujo de trabajo. See [Workflow data and processes](../../automating/using/workflow-data-and-processes.md).
+* Una vez creado el evento, no se puede cambiar el canal. Por lo tanto, si un mensaje no se envía correctamente, debe diseñar el mecanismo que permita enviarlo desde otro canal mediante un flujo de trabajo. See [Workflow data and processes](../../automating/using/get-started-workflows.md).
 * No se puede cambiar la dimensión de segmentación ( **[!UICONTROL Real-time event]** o **[!UICONTROL Profile]** ) después de crear el evento. Consulte [Creación de un evento](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
 * No es posible revertir una publicación, pero puede cancelar la publicación de un evento: esta operación hace que el evento y el mensaje transaccional asociado no sean accesibles. Consulte [Cancelación de la publicación de un evento](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event).
 * El único mensaje transaccional que se puede asociar con un evento es el mensaje que se crea automáticamente al publicar ese evento. Consulte [Vista previa y publicación del evento](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event).
