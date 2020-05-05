@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 62b1f9bb452c229b879f735830b330d0fda5ea3c
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -157,7 +157,7 @@ Se ha añadido una nueva página sobre las directrices generales para envíos m�
 
 La documentación de Trabajo con Campaña y Experience Manager se ha actualizado con una nueva sección **Sugerencias sobre cómo utilizar la integración** de Campaña y Experience Manager. [Más información](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
 
-La página de inicio de la documentación de las API se ha mejorado con redirecciones a los diferentes temas. [Más información](../../api/using/about-campaign-standard-apis.md)
+La página de inicio de la documentación de las API se ha mejorado con redirecciones a los diferentes temas. [Más información](../../api/using/get-started-apis.md)
 
 ## Actualizaciones de documentación - diciembre de 2019 {#doc-updates-december-2019}
 
@@ -179,7 +179,7 @@ La documentación del Panel de control se ha integrado en el nuevo conjunto de d
 
 Se ha actualizado la tabla de cálculo **de** indicadores. [Más información](../../reporting/using/indicator-calculation.md)
 
-El conjunto de documentación de las API se ha integrado en la documentación del Campaign Standard.[Más información](../../api/using/about-campaign-standard-apis.md)
+El conjunto de documentación de las API se ha integrado en la documentación del Campaign Standard.[Más información](../../api/using/get-started-apis.md)
 
 La guía de introducción a la creación de un correo electrónico personalizado se ha movido y actualizado. [Más información](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
 
@@ -327,7 +327,7 @@ Se Añadió una sección sobre actualizaciones y operaciones de mantenimiento. [
 
 Se agregó información sobre la nueva opción de ordenación en la actividad de archivos **** Transferir. [Más información](../../automating/using/transfer-file.md)
 
-Se ha actualizado la documentación [de las API de](../../api/using/about-campaign-standard-apis.md) REST:
+Se ha actualizado la documentación [de las API de](../../api/using/get-started-apis.md) REST:
 
 * Se agregó una nueva sección con información genérica sobre por qué utilizar las API de Campaign Standard REST.
 * Se ha puesto a disposición una colección de solicitudes de API prediseñadas que representan casos de uso comunes.
@@ -697,7 +697,7 @@ La documentación de SMS se ha actualizado con algunas aclaraciones agregadas a 
 
 Nueva sección dedicada a la administración de flujos de trabajo mediante la API. [Más información](../../api/using/controlling-a-workflow.md)
 
-Nueva sección dedicada a las claves principales y al uso de un ID comercial como clave en la API. [Más información](../../api/using/about-campaign-standard-apis.md)
+Nueva sección dedicada a las claves principales y al uso de un ID comercial como clave en la API. [Más información](../../api/using/get-started-apis.md)
 
 Se ha añadido información sobre los filtros simples y múltiples en la API. [Más información](../../api/using/filtering.md)
 
@@ -849,7 +849,7 @@ Recursos vinculados en las API de REST: [Más información](../../developing/usi
 
 Desencadena la integración: se han agregado dos casos de uso. [Más información](../../integrating/using/abandonment-triggers-use-cases.md)
 
-Hemos rediseñado la documentación de la API de desarrollador con nuevos fragmentos de código e información para mejorar la experiencia del usuario. [Más información](../../api/using/about-campaign-standard-apis.md)
+Hemos rediseñado la documentación de la API de desarrollador con nuevos fragmentos de código e información para mejorar la experiencia del usuario. [Más información](../../api/using/get-started-apis.md)
 
 Descubra ejemplos de las nuevas actividades de flujo de trabajo de audiencia [de](../../automating/using/read-audience.md) lectura y señal [](../../automating/using/external-signal.md) externa.
 
@@ -859,7 +859,7 @@ Descubra ejemplos de las nuevas actividades de flujo de trabajo de audiencia [de
 
 Exportación de registros para sistema de informes externo: [Más información](../../automating/using/exporting-logs.md)
 
-API de mensajería transaccional: [Más información](../../api/using/about-campaign-standard-apis.md)
+API de mensajería transaccional: [Más información](../../api/using/get-started-apis.md)
 
 Funciones de marketing para mensajes transaccionales: [más información](../../channels/using/profile-transactional-messages.md)
 
