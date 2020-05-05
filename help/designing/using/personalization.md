@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e904118852b06263b1320d65867539feb6360053
+source-git-commit: 96a1812ce8775f4bfb3db64a824a9fdc8185ac6b
 
 ---
 
@@ -108,8 +108,6 @@ Para agregar un bloque de contenido:
 El nombre del bloque de contenido aparece en el editor y se resalta en amarillo. Se adaptará automáticamente al perfil cuando se genere la personalización.
 
 ![](assets/email_content_block_3.png)
-
-Los bloques de contenido predeterminados son:
 
 Los bloques de contenido predeterminados son:
 
