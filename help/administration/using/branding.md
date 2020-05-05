@@ -13,7 +13,7 @@ context-tags: branding,overview;branding,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 54612511de07edc3e6f3eea34ef095c26b35f4af
+source-git-commit: e18407ab4bf70caa417b16bbc645fd2c6ba1818b
 
 ---
 
@@ -22,21 +22,23 @@ source-git-commit: 54612511de07edc3e6f3eea34ef095c26b35f4af
 
 ## Acerca de la identidad de marca {#about-brand-identity}
 
-Cada empresa tiene directrices técnicas y visuales de marca. Con Adobe Campaign, puede definir un conjunto de especificaciones para presentar una marca coherente a sus clientes, desde logotipos hasta aspectos técnicos, como remitente de correo electrónico, dirección URL o dominios.
+Cada compañía tiene directrices técnicas y visuales de marca. Con Adobe Campaign, puede definir un conjunto de especificaciones para presentar una marca coherente a sus clientes, desde logotipos hasta aspectos técnicos, como remitente de correo electrónico, dirección URL o dominios.
 
-Los administradores técnicos pueden definir una o varias marcas para introducir de forma centralizada los parámetros que afectan a la identidad de una marca. Esto incluye el logotipo de la marca, el dominio de la dirección URL de acceso de las páginas de aterrizaje o la configuración del seguimiento de mensajes. Con Adobe Campaign, puede crear estas marcas y vincularlas a mensajes o páginas de aterrizaje. Esta configuración se administra en plantillas.
+Los administradores técnicos pueden definir una o varias marcas para introducir de forma centralizada los parámetros que afectan a la identidad de una marca. Esto incluye el logotipo de la marca, el dominio de la URL de acceso de la página de aterrizaje o la configuración del seguimiento de mensajes. Con Adobe Campaign, puede crear estas marcas y vincularlas a mensajes o páginas de aterrizaje. Esta configuración se administra en plantillas.
 
 ## Configuración y uso de marcas {#configuring-and-using-brands}
 
 El principio principal de la configuración y el uso de marcas es:
 
-1. Cree y configure la marca: esta operación requiere permisos específicos y la realiza el administrador técnico de Adobe Campaign.
-1. Cree una o varias plantillas de página de envío y de aterrizaje para esta marca. Consulte la sección [Creación de una plantilla](../../start/using/marketing-activity-templates.md) .
-1. Cree mensajes y páginas de aterrizaje según esta plantilla. Consulte las secciones [Creación de un correo electrónico](../../channels/using/creating-an-email.md) y [Creación de una página](../../channels/using/designing-a-landing-page.md) de aterrizaje.
+1. Crear y configurar la marca: esta operación requiere permisos específicos y la realiza el administrador técnico de Adobe Campaign.
+1. Cree una o varias plantillas de envío y página de aterrizaje para esta marca. Consulte la sección [Creación de una plantilla](../../start/using/marketing-activity-templates.md) .
+1. Cree mensajes y páginas de aterrizaje basados en esta plantilla. Consulte las secciones [Creación de un correo electrónico](../../channels/using/creating-an-email.md) y [Creación de una página de aterrizaje](../../channels/using/designing-a-landing-page.md) .
 
 >[!IMPORTANT]
 >
->Los usuarios finales no pueden crear ni modificar marcas: estas operaciones deben ser realizadas por el administrador técnico de Adobe Campaign. Para cualquier solicitud, póngase en contacto con el servicio de atención al cliente de Adobe. No se puede utilizar la marca múltiple en el contexto de la mensajería transaccional. Para obtener más información sobre esto, consulte Mensajes [transaccionales y marca](../../channels/using/about-transactional-messaging.md#permissions-and-branding).
+>Los usuarios finales no pueden crear ni modificar marcas: estas operaciones deben ser realizadas por el administrador técnico de Adobe Campaign. Para cualquier solicitud, póngase en contacto con el servicio de atención al cliente de Adobe.
+>
+>No se puede utilizar la marca múltiple en el contexto de la mensajería transaccional. Para obtener más información sobre esto, consulte [Mensajes transaccionales y marca](../../channels/using/about-transactional-messaging.md#permissions-and-branding).
 
 Las marcas se encuentran en el **[!UICONTROL Administration > Instance settings > Brand configuration]** menú.
 
@@ -53,7 +55,7 @@ Una **marca** se define con las siguientes características:
    * **Dirección URL** del sitio web y etiqueta **del** sitio web de la marca
    * **Logotipo de marca**
 
-* **[!UICONTROL Header parameters of sent emails]** que personaliza lo que verán los destinatarios de las campañas. Esta sección contiene los campos siguientes:
+* **[!UICONTROL Header parameters of sent emails]** que personaliza lo que verán los destinatarios de sus campañas. Esta sección contiene los campos siguientes:
 
    ![](assets/branding_04_header.png)
 
@@ -66,16 +68,16 @@ Una **marca** se define con las siguientes características:
    >
    >Después de haber actualizado los parámetros de encabezado de los correos electrónicos, si el nombre y la dirección de correo electrónico del remitente no han cambiado en el correo electrónico creado a partir de la plantilla, compruebe la configuración avanzada de la plantilla.
 
-* **Los servidores expuestos en Internet** definen los servidores utilizados para el seguimiento pero también para el acceso a la página de aterrizaje. Esta sección contiene los campos siguientes:
+* **Los servidores expuestos en Internet** definen los servidores utilizados para el seguimiento, pero también para el acceso de página de aterrizaje. Esta sección contiene los campos siguientes:
 
    ![](assets/configure_branding_04.png)
 
    * **Dirección URL externa del servidor** de aplicaciones utilizado para alojar y acceder a las distintas páginas de aterrizaje que cree.
    * **Dirección URL externa del servidor** de seguimiento utilizada como dirección URL rastreada durante los envíos.
-   * **Dirección URL externa del servidor** de páginas reflejadas que se utiliza como página de reflejo predeterminada en los envíos.
+   * **Dirección URL externa del servidor** de página espejo que se utiliza como página espejo predeterminada en los envíos.
    >[!NOTE]
    >
-   >Para mostrar la vista previa de la página de aterrizaje y el procesamiento de la página reflejada en la interfaz de usuario de Campaign, el servidor de aplicaciones y las direcciones URL del servidor de páginas reflejadas deben ser seguras. En ese caso, utilice https:// en lugar de http:// al configurar estas direcciones URL.
+   >Para mostrar la previsualización de página de aterrizaje y el procesamiento de páginas espejo en la interfaz de usuario de la Campaña, las URL del servidor de aplicaciones y del servidor de página espejo deben ser seguras. En ese caso, utilice https:// en lugar de http:// al configurar estas direcciones URL.
 
 * **[!UICONTROL Tracking URL configuration (Web Analytics)]**, que define la configuración del seguimiento de direcciones URL de su marca.
 
@@ -87,7 +89,7 @@ Una **marca** se define con las siguientes características:
 
 ### Vinculación de una marca a una plantilla {#linking-a-brand-to-a-template}
 
-Para utilizar los parámetros definidos para una marca, debe estar vinculado a una plantilla de entrega o a una plantilla de página de aterrizaje. Para ello, debe crear o editar una plantilla.
+Para utilizar los parámetros definidos para una marca, debe estar vinculada a una plantilla de Plantilla de envíos o página de aterrizaje. Para ello, debe crear o editar una plantilla.
 
 >[!NOTE]
 >
@@ -103,11 +105,11 @@ Una vez creada la plantilla, puede vincularla a una marca. Para ello:
 
    >[!NOTE]
    >
-   >De forma predeterminada, **[!UICONTROL Default brand (branding)]** se selecciona la opción.
+   >By default, the **[!UICONTROL Default brand (branding)]** is selected.
 
    ![](assets/branding_05.png)
 
-   Para ver cómo está configurada la marca seleccionada, haga clic en el icono **[!UICONTROL Navigate to the detail of the element selected]** .
+   Para vista de la configuración de la marca seleccionada, haga clic en el **[!UICONTROL Navigate to the detail of the element selected]** icono .
 
    ![](assets/branding_06.png)
 
@@ -139,9 +141,9 @@ La marca se crea y configura correctamente. Ahora puede ser utilizado por los eq
 
 #### Implementar una nueva marca {#implement-a-new-brand}
 
-Como administrador de envíos, usted se encarga de crear las plantillas de entrega para utilizar la nueva marca. Para lograrlo, siga los pasos a continuación:
+Como administrador de envíos, usted se encarga de crear las Plantillas de envíos para utilizar la nueva marca. Para lograrlo, siga los pasos a continuación:
 
-1. En el menú avanzado **[!UICONTROL Resources > Templates > Delivery templates]**, duplique una plantilla integrada para configurar una nueva plantilla de entrega.
+1. En el menú avanzado **[!UICONTROL Resources > Templates > Delivery templates]**, duplicado una plantilla integrada para configurar una nueva Plantilla de envíos.
 
    ![](assets/branding_08.png)
 
@@ -154,9 +156,9 @@ Como administrador de envíos, usted se encarga de crear las plantillas de entre
 
    ![](assets/branding_10.png)
 
-   La plantilla de envío ahora se puede utilizar para crear correos electrónicos que se enviarán a una audiencia.
+   La Plantilla de envíos ahora se puede utilizar para crear correos electrónicos que se enviarán a una audiencia.
 
-#### Usar la nueva marca en una entrega {#use-the-new-brand-in-a-delivery}
+#### Usar la nueva marca en un envío {#use-the-new-brand-in-a-delivery}
 
 Para crear un correo electrónico vinculado a una marca, siga los pasos a continuación:
 
