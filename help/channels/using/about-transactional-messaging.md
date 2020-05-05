@@ -80,7 +80,7 @@ Para obtener más información sobre los pasos de configuración de evento, cons
 
 ### Diseño y publicación {#design-and-publication}
 
-Al diseñar y publicar mensajes transaccionales, algunos de los pasos que necesita realizar no se pueden revertir. Debe tener en cuenta las siguientes limitaciones:
+Mientras diseña y publica mensajes transaccionales, algunos de los pasos que necesita realizar no se pueden revertir. Debe tener en cuenta las siguientes limitaciones:
 
 * Sólo se puede utilizar un canal para cada configuración de evento. Consulte [Creación de un evento](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
 * Una vez creado el evento, no se puede cambiar el canal. Por lo tanto, si un mensaje no se envía correctamente, debe diseñar el mecanismo que permita enviarlo desde otro canal mediante un flujo de trabajo. See [Workflow data and processes](../../automating/using/get-started-workflows.md).
