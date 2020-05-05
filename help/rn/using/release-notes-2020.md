@@ -12,14 +12,14 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0dde3a445c7047d97c3612b284b9bad36f71539
+source-git-commit: f4c6b74d9b80d80befed65d853cf82b32084c49d
 
 ---
 
 
 # Notas de la versión 2020{#release-notes-2020}
 
-[Planificación](https://helpx.adobe.com/es/campaign/kb/acs-release-planning.html) de versiones| [Versiones](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html) del Panel de control| Actualizaciones [de documentación](../../rn/using/documentation-updates.md) | Notas de revisión [anteriores](../../rn/using/release-notes-2019.md) | Características [obsoletas](https://helpx.adobe.com/es/campaign/kb/acs-deprecated-and-removed-features.html)
+[Planificación de versiones](https://helpx.adobe.com/es/campaign/kb/acs-release-planning.html) | Versiones [del Panel de control](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html) | Actualizaciones [de documentación](../../rn/using/documentation-updates.md) | Notas de la versión [anteriores](../../rn/using/release-notes-2019.md) | Características [obsoletas](https://helpx.adobe.com/es/campaign/kb/acs-deprecated-and-removed-features.html)
 
 ## Versión 20.2: abril de 2020 {#release-20-2---april-2020}
 
@@ -89,7 +89,7 @@ source-git-commit: d0dde3a445c7047d97c3612b284b9bad36f71539
 
 >[!NOTE]
 >
->Las funciones de la plataforma de Adobe Experience Platform en Campaign Standard se encuentran actualmente en fase beta, lo que puede estar sujeto a actualizaciones frecuentes sin previo aviso. Consulte la documentación detallada: Conector [de datos de la plataforma de](../../administration/using/aep-about-data-connector.md)experiencia, destinos de [Audiencia](../../audiences/using/aep-about-audience-destinations-service.md)
+>Las funciones de la plataforma de Adobe Experience Platform en Campaign Standard se encuentran actualmente en fase beta, lo que puede estar sujeto a actualizaciones frecuentes sin previo aviso. Consulte la documentación detallada: [Conector](../../developing/using/aep-about-data-connector.md)de datos de la plataforma de experiencia, destinos de [Audiencia](../../audiences/using/aep-about-audience-destinations-service.md)
 
 * En los registros de flujo de trabajo, cada 10 minutos, la Campaña ahora muestra el número de registros que ya ha procesado el trabajo que se está ejecutando.
 * Se ha corregido un problema que se podía producir al importar un perfil de Adobe Experience Platform que se hubiera eliminado de la base de datos.
@@ -136,7 +136,7 @@ source-git-commit: d0dde3a445c7047d97c3612b284b9bad36f71539
  <tbody> 
   <tr> 
    <td> <p>El conector de datos de la plataforma Adobe Experience está ahora integrado con Adobe Campaign Standard. Puede hacer que los datos de Campaña estén disponibles en Adobe Experience Platform asignando datos XTK (datos ingestados en Campaña) al Modelo de datos de la plataforma de experiencia de Adobe (XDM). </p>
-    <p>Tenga en cuenta que esta capacidad solo está disponible para los clientes alojados en Azure. Para obtener más información sobre esta capacidad y condiciones para activarla, consulte la documentación <a href="../../administration/using/aep-about-data-connector.md"></a> detallada y el vídeo <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">de</a>procedimientos.</p>
+    <p>Tenga en cuenta que esta capacidad solo está disponible para los clientes alojados en Azure. Para obtener más información sobre esta capacidad y condiciones para activarla, consulte la documentación <a href="../../developing/using/aep-about-data-connector.md"></a> detallada y el vídeo <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">de</a>procedimientos.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -194,7 +194,7 @@ source-git-commit: d0dde3a445c7047d97c3612b284b9bad36f71539
 
 * Se ha corregido un problema al realizar una solicitud de eliminación de privacidad que impedía que los datos de usuario se eliminaran en los registros de exclusión. (CAMP-39003)
 * Se ha corregido un problema que provocaba problemas de accesibilidad al cambiar el tamaño del texto en un elemento de contenedor.
-* Se ha corregido un problema que impedía que los usuarios descartaran la ventana emergente Calendario que aparece al pasar el ratón por las actividades de marketing.
+* Se ha corregido un problema que impedía a los usuarios descartar la ventana emergente Calendario que aparece al pasar el ratón por las actividades de marketing.
 * Se corrigió un problema en la **[!UICONTROL External API]** actividad que mostraba el **[!UICONTROL Confirm]** botón aunque no se modificaran los datos.
 * Se ha corregido un problema al usar una **[!UICONTROL Union]** actividad en consultas con diferentes dimensiones de destinatario. Los datos de transición solo mostraban registros de la dimensión de segmentación del conjunto principal. (CAMP-36831)
 * Se ha corregido un problema que podía provocar un error al usar una **[!UICONTROL Reconciliation]** actividad en contextos específicos, por ejemplo, con dos actividades entrantes, una de las cuales era una actividad de exclusión. (CAMP-37490)
