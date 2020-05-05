@@ -12,7 +12,7 @@ discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -25,7 +25,7 @@ Para crear o actualizar un perfil en Campaña, puede:
 
 * Importación de una lista de perfil desde un archivo mediante un [flujo de trabajo](../../automating/using/importing-data.md#example--import-workflow-template)
 * Recopilar datos en línea, mediante [páginas de aterrizaje](../../channels/using/getting-started-with-landing-pages.md)
-* Creación masiva mediante la API de [REST](../../api/using/about-campaign-standard-apis.md)
+* Creación masiva mediante la API de [REST](../../api/using/get-started-apis.md)
 * Sincronizar perfiles de [Microsoft Dynamics](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 * Introduzca datos mediante las pantallas de interfaz gráfica, tal como se explica a continuación
 
@@ -35,7 +35,7 @@ Por ejemplo, para crear un nuevo perfil directamente en la interfaz de usuario, 
 
    ![](assets/profile_creation_1.png)
 
-1. A continuación, haga clic en **[!UICONTROL Create]**.
+1. Then click **[!UICONTROL Create]**.
 
    ![](assets/profile_creation.png)
 
