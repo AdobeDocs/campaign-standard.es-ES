@@ -63,7 +63,7 @@ Puede crear una consulta en uno o varios elementos.
 
 Utilice el **[!UICONTROL Count]** botón para ver una estimación del número de perfiles objetivo por la consulta.
 
-Los pasos detallados para crear una actividad de Consulta se presentan en la sección de [Consulta](../../automating/using/query.md) .
+Los pasos detallados para crear una actividad de Consulta se presentan en la sección [Consulta](../../automating/using/query.md) .
 
 ## Creación de una actividad de segmentación {#creating-segmentation-activity}
 
