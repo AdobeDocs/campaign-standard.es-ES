@@ -12,7 +12,7 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aeaddca2188e2bdeda71bd35299ccd14398f3c52
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -61,7 +61,7 @@ Más información:
 
 <img src="assets/do-not-localize/icon_api.svg" width="60px">
 
-Con las API de Campaign Standard, cree integraciones para Adobe Campaign Standard y cree su propio ecosistema interconectando la Campaña con el panel de tecnologías que utilice. [Introducción a las API de Campaign Standard REST](../../api/using/about-campaign-standard-apis.md)
+Con las API de Campaign Standard, cree integraciones para Adobe Campaign Standard y cree su propio ecosistema interconectando la Campaña con el panel de tecnologías que utilice. [Introducción a las API de Campaign Standard REST](../../api/using/get-started-apis.md)
 
 ## Recursos adicionales
 
