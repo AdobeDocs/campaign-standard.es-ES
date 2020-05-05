@@ -76,7 +76,7 @@ source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 * Se corrigió un problema que se producía al eliminar la información de un perfil en cuarentena mediante una solicitud de privacidad, el cual eliminaba todos los datos excepto la dirección de correo electrónico de la lista de cuarentena.
 * Se ha mejorado la seguridad para la protección contra inyecciones en los encabezados de correo electrónico.
-* Se ha mejorado la seguridad para la protección contra ataques SSRF donde se pueden utilizar expresiones xtk (correo electrónico HTML, contenido de texto y asunto, SMS y contenido de notificaciones push).
+* Se ha mejorado la seguridad para la protección contra ataques SSRF donde se pueden usar expresiones xtk (correo electrónico HTML, contenido de texto y asunto, SMS y contenido de notificaciones push).
 
 **Mejoras en el Diseñador de correo electrónico**
 
