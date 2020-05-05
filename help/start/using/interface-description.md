@@ -12,7 +12,7 @@ discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 260312a461d02c32683e1eb8a90bbaa282800668
+source-git-commit: 40bb454d13de14658bfc30a6454a1a896bf3ad70
 
 ---
 
@@ -44,8 +44,8 @@ La página de inicio está formada por un conjunto de tarjetas que le permiten a
 * La **[!UICONTROL Marketing activities]** tarjeta le lleva a la lista completa de todas las actividades, programas y campañas, particularmente correos electrónicos, SMS, flujos de trabajo y páginas de aterrizaje. Desde aquí puede filtrar los elementos buscando por nombre, fecha, estado o tipo de actividad. Para obtener más información sobre esto, consulte la sección lista [de actividad de](../../start/using/marketing-activities.md#about-marketing-activities) marketing.
 * La **[!UICONTROL Programs & campaigns]** tarjeta le lleva a la lista de programas en los que puede crear y administrar sus campañas. Consulte lista [de](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns)Programa.
 * La **[!UICONTROL Timeline]** tarjeta le lleva directamente a una línea de tiempo interactiva de sus actividades de marketing, en la que puede consultar los programas en curso y su contenido. Consulte [Línea de tiempo](../../start/using/timeline.md).
-* La **[!UICONTROL Customer profiles]** tarjeta le lleva directamente a la lista de perfiles. Desde aquí puede consultar los eventos relativos a cada uno de los perfiles de su lista. Consulte [Administración de perfiles](../../audiences/using/about-profiles.md).
-* La **[!UICONTROL Audiences]** tarjeta le lleva directamente a la lista de audiencias. Desde aquí puede acceder a audiencias existentes y crear otras nuevas. Consulte [Administración de audiencias](../../audiences/using/about-audiences.md).
+* La **[!UICONTROL Customer profiles]** tarjeta le lleva directamente a la lista de perfiles. Desde aquí puede consultar los eventos relativos a cada uno de los perfiles de su lista. Refer to [Managing profiles](../../audiences/using/about-profiles.md).
+* La **[!UICONTROL Audiences]** tarjeta le lleva directamente a la lista de audiencias. Desde aquí puede acceder a audiencias existentes y crear otras nuevas. Refer to [Managing audiences](../../audiences/using/about-audiences.md).
 
 ## Barra superior {#top-bar}
 
@@ -101,7 +101,7 @@ El **[!UICONTROL Resources]** icono le permite acceder a las siguientes funcione
 
 ### Administración {#administration}
 
-El **[!UICONTROL Administration]** icono le permite acceder a las funciones avanzadas que sólo puede realizar un administrador funcional. For more on this, refer to the [Administration](../../administration/using/about-administrating-adobe-campaign.md) section.
+El **[!UICONTROL Administration]** icono le permite acceder a las funciones avanzadas que sólo puede realizar un administrador funcional. For more on this, refer to the [Administration](../../administration/using/get-started-campaign-administration.md) section.
 
 ## Zona central {#central-zone}
 
