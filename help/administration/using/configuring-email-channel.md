@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7af424d2b2ce29811dc0deb015113de2de0124c0
+source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
 
 ---
 
@@ -44,7 +44,7 @@ La pantalla de configuración de correo electrónico permite definir los paráme
    * Adobe configura las direcciones de remitente y de error. Estos campos no pueden estar vacíos.
    * No puede editar esos campos. Para actualizar una dirección, póngase en contacto con el equipo de atención al cliente de Adobe.
    * Para agregar otra dirección, puede utilizar el Panel [de control](https://docs.adobe.com/content/help/es-ES/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) para configurar un nuevo subdominio o ponerse en contacto con el equipo de atención al cliente de Adobe. Tenga en cuenta que si se utilizan varias máscaras, se separarán con comas.
-   * Se recomienda configurar las direcciones con una estrella como **@yourdomain.com*: le permite utilizar cualquier dirección que termine con su nombre de subdominio.
+   * Se recomienda configurar las direcciones con una estrella como *@yourdomain.com: le permite utilizar cualquier dirección que termine con su nombre de subdominio.
 
 * **Capacidad de entrega**
 
