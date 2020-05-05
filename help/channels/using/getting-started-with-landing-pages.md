@@ -13,18 +13,12 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
+source-git-commit: 0dd69cbad3e05a5a7eb36da80264e6eb6aae0e34
 
 ---
 
 
 # Introducción a las páginas de aterrizaje {#getting-started-with-landing-pages}
-
-## Acerca de las páginas de aterrizaje {#about-landing-pages}
-
-Campaña viene con páginas de aterrizaje que son formularios Web que pueden utilizarse para capturar información sobre sus audiencias, oferta de suscripciones a un servicio, visualización de datos y ampliación de la base de datos. También se pueden utilizar Páginas de aterrizaje para adquirir o actualizar perfiles existentes.
-
-También se pueden utilizar Páginas de aterrizaje para configurar un mecanismo de selección de dobles, lo que le permite proteger la plataforma de direcciones de correo electrónico erróneas o no válidas, o de spambots. For more on this, refer to the [dedicated use case](../../channels/using/setting-up-a-double-opt-in-process.md).
 
 Los pasos principales para configurar páginas de aterrizaje son los siguientes:
 
