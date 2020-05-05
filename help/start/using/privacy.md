@@ -1,6 +1,6 @@
 ---
-title: Acerca de la privacidad y las recomendaciones en Adobe Campaign Standard
-description: Esta sección trata sobre la administración de la privacidad en Adobe Campaign Standard.
+title: Privacidad y consentimiento en Adobe Campaign Standard
+description: Esta sección proporciona una visión general de la privacidad, los datos personales y la gestión de consentimiento en Adobe Campaign Standard, así como las herramientas disponibles para administrarlos.
 page-status-flag: never-activated
 uuid: ed9e631c-5ad1-49f1-be1e-b710bc64dc91
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0d7dc73afb2e3b69f461d0e389451c9deabc1f23
+source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
 
 ---
 
@@ -55,7 +55,7 @@ Adobe Campaign forma parte de las soluciones de Adobe Experience Cloud. La forma
 
 * **Cómo se usa Adobe Experience Cloud para recopilar información**
 
-   * Las soluciones de Adobe Experience Cloud utilizan cookies y tecnologías similares, como señalizaciones web (también conocidas como etiquetas o píxeles), para permitirle recopilar información. For more on cookies and tracking capabilities with Adobe Campaign, see [this section](#tracking-capabilities).
+   * Las soluciones de Adobe Experience Cloud utilizan cookies y tecnologías similares, como señalizaciones web (también conocidas como etiquetas o píxeles), para permitirle recopilar información. Para obtener más información sobre las cookies y las capacidades de seguimiento con Adobe Campaign, consulte [esta sección](#tracking-capabilities).
    * También puede utilizar las tecnologías de Adobe Experience Cloud en sus aplicaciones móviles. Para obtener más información sobre el envío de envíos móviles con Campaña, consulte [esta página](https://helpx.adobe.com/es/campaign/kb/acs-mobile.html).
 
 * **Las opciones de privacidad de los usuarios sobre el uso de Adobe Experience Cloud**
@@ -77,7 +77,7 @@ Al administrar la privacidad, es importante definir qué datos deben manejarse c
 * **Los Datos** Personales Sensibles son información relacionada con la raza, vistas políticas, creencias religiosas, antecedentes penales, información genética, datos de salud, preferencias sexuales, información biométrica, así como afiliación a la unión comercial.
 
 Las [principales legislaciones](#privacy-regulations) se refieren a las diferentes entidades que administran los datos de la siguiente manera:
-* A **Data Controller** is the authority that determines the means and purpose of collecting, using, and sharing personal data.
+* Un controlador **de datos** es la autoridad que determina los medios y el propósito de recopilar, utilizar y compartir datos personales.
 * Un procesador **de** datos es cualquier persona o parte que recopila, utiliza o comparte datos personales según lo indicado por el controlador de datos.
 * Se entiende por sujeto **de** datos toda persona viva cuyos datos personales se recopilen, utilicen o compartan y que pueda identificarse, directa o indirectamente, por referencia a dichos datos personales.
 
@@ -112,7 +112,7 @@ Originalmente, Adobe Campaign oferta características importantes que son esenci
 
 * **Gestión** de consentimiento: A través del proceso de administración de suscripciones, puede administrar las preferencias de sus destinatarios y rastrear qué destinatarios han elegido qué tipo de suscripciones. Para obtener más información sobre esto, consulte [Suscripciones](../../audiences/using/about-subscriptions.md) y [Páginas de aterrizaje](../../channels/using/getting-started-with-landing-pages.md).
 * **Retención** de datos: Todas las tablas de registro estándar incorporadas tienen períodos de retención preestablecidos, lo que generalmente limita su almacenamiento de datos a 6 meses o menos. Se pueden configurar períodos de retención adicionales con flujos de trabajo. Para obtener más información, póngase en contacto con los consultores o administradores técnicos de Adobe.
-* **Administración** de derechos: Adobe Campaign le permite administrar los derechos asignados a los distintos operadores de Campaña mediante diferentes funciones personalizadas o prediseñadas. Esto le permite administrar quién dentro de su compañía puede acceder, modificar o exportar diferentes tipos de datos. Para obtener más información sobre esto, consulte [Acerca de la administración](../../administration/using/about-access-management.md)de acceso.
+* **Administración** de derechos: Adobe Campaign le permite administrar los derechos asignados a los distintos operadores de Campaña mediante diferentes funciones personalizadas o prediseñadas. Esto le permite administrar quién dentro de su compañía puede acceder, modificar o exportar diferentes tipos de datos. For more on this, see [About access management](../../administration/using/about-access-management.md).
 
 Para obtener más información sobre estas funciones y cómo administrarlas en Adobe Campaign, consulte [esta página](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#consent).
 
@@ -134,14 +134,14 @@ Adobe Campaign proporciona funciones adicionales que le ayudan a facilitar su pr
 
 * **Thailand's PDPA** (Personal Data Protection Act) is the new privacy law that harmonizes and modernizes data protection requirements for Thailand. This regulation applies to Adobe Campaign customers who hold data for Data Subjects residing in this country.-->
 
-Las solicitudes **de acceso** y **eliminación** se presentan en [esta página](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess). The implementation steps to create these requests are detailed on [this page](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests). Tutorials are also available [here](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/privacy/privacy-overview.html).
+Las solicitudes **de acceso** y **eliminación** se presentan en [esta página](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess). Los pasos de implementación para crear estas solicitudes se detallan en [esta página](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests). Los tutoriales también están disponibles [aquí](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/privacy/privacy-overview.html).
 
-## Tracking capabilities {#tracking-capabilities}
+## Capacidades de seguimiento {#tracking-capabilities}
 
-Thanks to its tracking functionalities, Adobe Campaign enables you to track the behavior of your delivery recipients using session cookies and permanent cookies. For more on tracking, see [this page](../../sending/using/tracking-messages.md).
+Gracias a sus funciones de seguimiento, Adobe Campaign le permite rastrear el comportamiento de sus destinatarios de envío mediante cookies de sesión y cookies permanentes. Para obtener más información sobre el seguimiento, consulte [esta página](../../sending/using/tracking-messages.md).
 
 >[!NOTE]
 >
->Las regulaciones como el Reglamento General de Protección de Datos (RGPD) establecen que las compañías requieren el acuerdo de los usuarios del sitio web antes de instalar las cookies. You must inform users that your sites are equipped with web tracking tools via an authorization request.
+>Las regulaciones como el Reglamento General de Protección de Datos (RGPD) establecen que las compañías requieren el acuerdo de los usuarios del sitio web antes de instalar las cookies. Debe informar a los usuarios de que los sitios están equipados con herramientas de seguimiento Web mediante una solicitud de autorización.
 
-You can also add [tracked links](../../designing/using/links.md#about-tracked-urls) in your messages in order to measure the impact of your delivery and recipient behavior in the [Tracking indicators](../../reporting/using/tracking-indicators.md) built-in report, or create your own [dedicated reports](../../reporting/using/about-dynamic-reports.md).
+También puede agregar vínculos [](../../designing/using/links.md#about-tracked-urls) rastreados en los mensajes para medir el impacto del comportamiento de envíos y destinatarios en el informe integrado de indicadores [de](../../reporting/using/tracking-indicators.md) seguimiento o crear sus propios informes [](../../reporting/using/about-dynamic-reports.md)dedicados.
