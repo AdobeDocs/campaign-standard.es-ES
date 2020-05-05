@@ -203,7 +203,7 @@ Si activa la opción de modo de prueba SMTP para una plantilla de correo electr�
 >Cuando esta opción está habilitada para un correo electrónico, no se enviará ningún mensaje hasta que no esté activada.
 >Se mostrará una advertencia en el panel de plantilla de correo electrónico o correo electrónico.
 
-Para obtener más información sobre la configuración de SMTP, consulte la sección [Lista de parámetros](#list-of-email-smtp-parameters) SMTP de correo electrónico.
+Para obtener más información sobre la configuración de SMTP, consulte la sección [Lista de los parámetros](#list-of-email-smtp-parameters) SMTP de correo electrónico.
 
 ### Parámetros del período de validez {#validity-period-parameters}
 
