@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Ayuda de Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 381803b39527e175efc9a0d0ef8f4a427697db2d
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -389,7 +389,7 @@ source-git-commit: 381803b39527e175efc9a0d0ef8f4a427697db2d
       + [Retención de datos](administration/using/data-retention.md)
       + [Actualizaciones y operaciones de mantenimiento](administration/using/updates-and-maintenance-operations.md)
 + Uso de API {#working-with-apis}
-   + [Introducción a las API de Campaign Standard](api/using/about-campaign-standard-apis.md)
+   + [Introducción a las API de Campaign Standard](api/using/get-started-apis.md)
    + Acerca de las API de Campaign Standard {#about-campaign-standard-apis}
       + [Razones para utilizar las API de Campaign Standard](api/using/why-using-campaign-standard-apis.md)
       + [Configuración del acceso a API](api/using/setting-up-api-access.md)
