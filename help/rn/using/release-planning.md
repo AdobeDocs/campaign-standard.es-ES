@@ -12,7 +12,10 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 412fc89b8d0a075da8b0c458e2265abc5a4d4fbc
+source-git-commit: 90e99ab01ad118753a772feebe8647ac2ed54d09
+workflow-type: tm+mt
+source-wordcount: '455'
+ht-degree: 4%
 
 ---
 
@@ -43,11 +46,11 @@ Las actualizaciones de Entorno se producen en olas, durante los intervalos de ti
  <tbody>
   <tr>
    <td>Fase<br /> </td>
-   <td>Retrasado<br /> </td>
+   <td>12 - 13 de mayo de 2020<br /> </td>
   </tr>
   <tr>
    <td> Producción<br /> </td>
-   <td>Retrasado<br /> </td>
+   <td>18 de mayo a 1 de junio de 2020<br /> </td>
   </tr>
  </tbody>
 </table>
