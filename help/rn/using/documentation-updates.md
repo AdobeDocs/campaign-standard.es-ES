@@ -12,7 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 0c91c22bf181607ae35297532562e20b63771e4a
+workflow-type: tm+mt
+source-wordcount: '5775'
+ht-degree: 19%
 
 ---
 
@@ -717,7 +720,7 @@ lista detallada de todos los componentes disponibles en Informes dinámicos y al
 
 lista detallada de KPI compartidos con Adobe Analytics. [Más información](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 
-Nuevo vídeo de informe dinámico. [Más información](../../start/using/how-to-videos.md)
+Nuevo vídeo de informe dinámico.
 
 Recomendaciones de cuenta S3 Añadidas. [Más información](../../administration/using/external-accounts.md#amazon-s3-account-recommendations)
 
@@ -759,7 +762,7 @@ Canal de Correo postal - Volver al remitente, [Leer más](../../channels/using/r
 
 **Otras actualizaciones de la documentación incluidas en la versión**
 
-Las guías [de](../../start/using/step-by-step-guides.md) introducción y los vídeos [de](../../start/using/how-to-videos.md) procedimientos se han reagrupado en una sección dedicada.
+Las guías de introducción y los vídeos explicativos se han reagrupado en una sección dedicada.
 
 Se ha actualizado la documentación de procesamiento de correo electrónico. [Más información](../../sending/using/email-rendering.md)
 
