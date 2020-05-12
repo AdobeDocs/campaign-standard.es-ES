@@ -53,7 +53,7 @@ Obtenga más información sobre las directrices generales para envíos móviles
   </td>
   <td valign="top">
        <img alt="Asistencia técnica" src="start/using/assets/do-not-localize/help.jpeg" />
-    <div><a href="https://helpx.adobe.com/campaign/kb/ac-support.html">
+    <div><a href="https://helpx.adobe.com/es/campaign/kb/ac-support.html">
     <strong>Obtener asistencia</strong></a>
     </div>
     <p><em>Acceda a preguntas frecuentes, prácticas recomendadas, recursos de ayuda y conecte con los expertos</em></p>
