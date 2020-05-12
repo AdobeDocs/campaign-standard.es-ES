@@ -13,7 +13,10 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
+source-git-commit: e2303055b3370efab204adbdb1b9f567a555a23f
+workflow-type: tm+mt
+source-wordcount: '2331'
+ht-degree: 9%
 
 ---
 
@@ -40,7 +43,7 @@ La pantalla de configuración de correo electrónico permite definir los paráme
 
 * **Campos de máscaras autorizadas**
 
-   La **[!UICONTROL Header parameters of sent emails]** lista las direcciones de correo electrónico autorizadas que puede utilizar para enviar correos electrónicos a sus destinatarios (dirección del remitente) y para notificarles de cualquier error (dirección de error).  Adobe Campaign comprueba que las direcciones especificadas son válidas durante la etapa de preparación del mensaje. Este modo operativo garantiza que no se utilicen direcciones que puedan desencadenar problemas de entrega.
+   La **[!UICONTROL Header parameters of sent emails]** sección lista las direcciones de correo electrónico autorizadas que puede utilizar para enviar correos electrónicos a sus destinatarios (dirección del remitente) y para permitirles enviar respuestas automatizadas como devoluciones asincrónicas, respuestas fuera de la oficina, etc. (dirección de error).  Adobe Campaign comprueba que las direcciones especificadas son válidas durante la etapa de preparación del mensaje. Este modo operativo garantiza que no se utilicen direcciones que puedan desencadenar problemas de entrega.
    * Adobe configura las direcciones de remitente y de error. Estos campos no pueden estar vacíos.
    * No puede editar esos campos. Para actualizar una dirección, póngase en contacto con el equipo de atención al cliente de Adobe.
    * Para agregar otra dirección, puede utilizar el Panel [de control](https://docs.adobe.com/content/help/es-ES/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) para configurar un nuevo subdominio o ponerse en contacto con el equipo de atención al cliente de Adobe. Tenga en cuenta que si se utilizan varias máscaras, se separarán con comas.
@@ -53,7 +56,7 @@ La pantalla de configuración de correo electrónico permite definir los paráme
 
 * **Parámetros de Envío**
 
-   Adobe Campaign envía los mensajes a partir de la fecha de inicio. El **[!UICONTROL Message delivery duration]** campo permite especificar la duración durante la cual se pueden enviar los mensajes.
+   Adobe Campaign envía los mensajes a partir de la fecha de inicio. El **[!UICONTROL Message delivery duration]** campo permite especificar el período de tiempo en el que se volverá a intentar cualquier mensaje del envío que detecte un error temporal o una devolución suave.
 
    >[!IMPORTANT]
    >
@@ -73,7 +76,7 @@ La pantalla de configuración de correo electrónico permite definir los paráme
 
 * **Parámetros de cuarentena de correo electrónico**
 
-   En el **[!UICONTROL Time between two significant errors]** campo, introduzca un valor para definir el tiempo que la aplicación espera antes de incrementar el contador de errores en caso de error. El valor predeterminado es **&quot;1d&quot;**, para 1 día.
+   En el **[!UICONTROL Time between two significant errors]** campo, introduzca un valor para definir el tiempo que la aplicación espera antes de incrementar el contador de errores en caso de que se produzca un error de devolución suave. El valor predeterminado es **&quot;1d&quot;**, para 1 día.
 
    Cuando se alcanza el **[!UICONTROL Maximum number of errors before quarantine]** valor, la dirección de correo electrónico se pone en cuarentena. El valor predeterminado es **&quot;5&quot;**: la dirección se pondrá en cuarentena en el quinto error. Esto significa que el contacto se excluirá automáticamente de los envíos posteriores.
    <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
@@ -102,9 +105,9 @@ Tenga en cuenta que los dominios de correo electrónico y las reglas MX ahora so
 
 ### Mensajes de devolución {#bounce-mails}
 
-Asynchronous bounces are still qualified by the Campaign inMail process through the **[!UICONTROL Bounce mails]** rule.
+Asynchronous bounces are still qualified by the Campaign inMail process through the **[!UICONTROL Bounce mails]** rules.
 
-This rule contains the list of character strings which can be returned by remote servers and which let you qualify the error (**Hard**, **Soft** or **Ignored**).
+Estas reglas contienen la lista de cadenas de caracteres que pueden devolver los servidores remotos y que le permiten clasificar el error (**Grave**, **leve** o **ignorado**).
 
 >[!NOTE]
 >
@@ -203,7 +206,7 @@ Si activa la opción de modo de prueba SMTP para una plantilla de correo electr�
 >Cuando esta opción está habilitada para un correo electrónico, no se enviará ningún mensaje hasta que no esté activada.
 >Se mostrará una advertencia en el panel de plantilla de correo electrónico o correo electrónico.
 
-Para obtener más información sobre la configuración de SMTP, consulte la sección [Lista de los parámetros](#list-of-email-smtp-parameters) SMTP de correo electrónico.
+Para obtener más información sobre la configuración de SMTP, consulte la sección [Lista de parámetros](#list-of-email-smtp-parameters) SMTP de correo electrónico.
 
 ### Parámetros del período de validez {#validity-period-parameters}
 
