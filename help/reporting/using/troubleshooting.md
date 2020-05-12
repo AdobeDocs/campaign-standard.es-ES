@@ -12,7 +12,10 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 001fc2df11e32bdcc31dfe917884460b4d3de541
+source-git-commit: a894e72bb02fbecb86d43c6d2a13adf7ab10f73e
+workflow-type: tm+mt
+source-wordcount: '665'
+ht-degree: 5%
 
 ---
 
@@ -38,7 +41,7 @@ Esta es una representación visual de la interacción de los perfiles con el cor
   <tr> 
    <th align="center"> <strong>Day</strong> <br /> </th> 
    <th align="center"> <strong>Aperturas</strong> <br /> </th> 
-   <th align="center"> <strong>Aperturas</strong> únicas <br /> </th> 
+   <th align="center"> <strong>Aperturas únicas</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -66,7 +69,7 @@ Esto dará como resultado la siguiente tabla:
   <tr> 
    <th align="center"> <strong>Day</strong> <br /> </th> 
    <th align="center"> <strong>Aperturas</strong> <br /> </th> 
-   <th align="center"> <strong>Aperturas</strong> únicas <br /> </th> 
+   <th align="center"> <strong>Aperturas únicas</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -100,6 +103,57 @@ Estas ocurrencias se agregan como **&quot;un clic de correo electrónico implica
 >[!NOTE]
 >
 >Dado que los recuentos únicos se basan en un boceto basado en HLL, se pueden experimentar incoherencias menores entre los recuentos.
+
+## ¿Cómo se calculan los recuentos de envíos recurrentes y transaccionales? {#counts-recurring-deliveries}
+
+Al trabajar con envíos recurrentes y transaccionales, los recuentos se atribuirán tanto al envío principal como al secundario.
+Podemos tomar el ejemplo de un envío recurrente llamado **R1** configurado para ejecutarse todos los días el día 1 (RC1), el día 2 (RC2) y el día 3 (RC3).
+Supongamos que sólo una persona abrió todos los envíos infantiles varias veces. En este caso, los envíos secundarios recurrentes individuales mostrarán el **[!UICONTROL Open]** recuento como 1 para cada uno.
+Sin embargo, como la misma persona hizo clic en todos los envíos, el envío recurrente principal también tendrá **[!UICONTROL Unique open]** el valor 1.
+
+Los informes deben tener el siguiente aspecto:
+
+<table> 
+ <thead> 
+  <tr> 
+   <th align="center"> <strong>Entrega</strong> <br /> </th> 
+   <th align="center"> <strong>Enviado</strong> <br /> </th> 
+   <th align="center"> <strong>Entrega</strong> <br /> </th>
+   <th align="center"> <strong>Aperturas</strong> <br /> </th> 
+   <th align="center"> <strong>Aperturas únicas</strong> <br /> </th>
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td align="center"> <strong>R1<br/> </td> 
+   <td align="center"> <strong>100<br/> </td> 
+   <td align="center"> <strong>90<br/> </td> 
+   <td align="center"> <strong>10<br/> </td> 
+   <td align="center"> <strong>3<br/> </td> 
+  </tr> 
+  <tr> 
+   <td align="center"> RC1<br/> </td> 
+   <td align="center"> 20<br /> </td> 
+   <td align="center"> 20<br /> </td> 
+   <td align="center"> 6<br /> </td> 
+   <td align="center"> 1<br /> </td> 
+  </tr>
+    <tr> 
+   <td align="center"> RC2<br /> </td> 
+   <td align="center"> 40<br /> </td> 
+   <td align="center"> 30<br /> </td> 
+   <td align="center"> 2<br /> </td> 
+   <td align="center"> 1<br /> </td> 
+  </tr> 
+    <tr> 
+   <td align="center"> RC3<br /> </td> 
+   <td align="center"> 40<br /> </td> 
+   <td align="center"> 40<br /> </td> 
+   <td align="center"> 2<br /> </td> 
+   <td align="center"> 1<br /> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 ## ¿Cuál es la significación de los colores en la tabla de los informes? {#reports-color-signification}
 
