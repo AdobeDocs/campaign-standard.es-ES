@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0c91c22bf181607ae35297532562e20b63771e4a
+source-git-commit: 72d27b33d6e69af47b34cc6bfeae7b34911e8d10
 workflow-type: tm+mt
-source-wordcount: '5775'
+source-wordcount: '5807'
 ht-degree: 19%
 
 ---
@@ -29,6 +29,8 @@ Además de las Notas [de la](../../rn/using/release-notes.md)versión de Adobe C
 La página de información general sobre el Campaign Standard se ha enriquecido y reorganizado en temas temáticos. [Más información](../../start/using/about-campaign-standard.md)
 
 La sección Parámetros de canal de correo electrónico se ha aclarado con más información sobre los campos de máscaras autorizadas y el ID de informes de envío. [Más información](../../administration/using/configuring-email-channel.md)
+
+La configuración de una aplicación móvil mediante los SDK de la plataforma Adobe Experience está ahora disponible en la documentación principal con más información sobre el flujo de trabajo técnico de la aplicación móvil Sync AEPSDK desde Launch. [Más información](../../administration/using/configuring-a-mobile-application.md)
 
 ## Versión 20.3: mayo de 2020 {#release-20-3---may-2020}
 
