@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-sub-product: adobe campaign standard
+sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Ayuda de Adobe Campaign Standard
 translation-type: tm+mt
