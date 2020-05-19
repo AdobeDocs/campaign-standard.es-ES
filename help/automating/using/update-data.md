@@ -1,19 +1,22 @@
 ---
 title: Actualización de datos
-description: La actividad de actualización de datos permite realizar una actualización masiva de los campos de la base de datos.
-page-status-flag: nunca activado
+description: La actividad Actualizar datos permite realizar una actualización masiva de los campos de la base de datos.
+page-status-flag: never-activated
 uuid: 1dc55db5-affd-4688-b673-adfb8c1338b5
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: automatizar
-content-type: referencia
-topic-tags: gestión de datos-actividades
+audience: automating
+content-type: reference
+topic-tags: data-management-activities
 discoiquuid: 4db83c95-4b75-4a16-8dbf-bd8940431fa9
-context-tags: escritor,principal
+context-tags: writer,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '517'
+ht-degree: 1%
 
 ---
 
@@ -24,11 +27,11 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ![](assets/data_update.png)
 
-La **[!UICONTROL Update data]** actividad permite realizar una actualización masiva de los campos de la base de datos.
+La **[!UICONTROL Update data]** actividad le permite realizar una actualización masiva de los campos de la base de datos.
 
 ## Contexto de uso {#context-of-use}
 
-La actividad de **actualización de datos** se puede utilizar después de importar un archivo para insertar los datos recuperados en la base de datos de Adobe Campaign. Varias opciones permiten personalizar la actualización de los datos.
+La actividad **Actualizar datos** se puede utilizar después de importar un archivo para insertar los datos recuperados en la base de datos de Adobe Campaign. Varias opciones permiten personalizar la actualización de los datos.
 
 ## Configuración {#configuration}
 
@@ -49,11 +52,11 @@ La actividad de **actualización de datos** se puede utilizar después de import
 
 1. En la **[!UICONTROL Identification]** ficha, especifique cómo identificar los registros de la base de datos:
 
-   * **[!UICONTROL Using the targeting dimension]**:: seleccione el **[!UICONTROL Dimension to update]** y luego especifique el **[!UICONTROL Keys for finding records]**. Para obtener más información, consulte [Segmentación de dimensiones y recursos](../../automating/using/query.md#targeting-dimensions-and-resources).
-   * Si los datos especificados coinciden con una dimensión de objetivo existente, seleccione la **[!UICONTROL Using one or more links]** opción. A continuación, seleccione el **[!UICONTROL Dimension to update]**.
+   * **[!UICONTROL Using the targeting dimension]**:: seleccione el **[!UICONTROL Dimension to update]** y luego especifique el **[!UICONTROL Keys for finding records]**. Para obtener más información, consulte [Dimensiones de segmentación y recursos](../../automating/using/query.md#targeting-dimensions-and-resources).
+   * Si los datos especificados coinciden con una dimensión de segmentación existente, seleccione la **[!UICONTROL Using one or more links]** opción. A continuación, seleccione el **[!UICONTROL Dimension to update]**.
    Si el tipo de operación seleccionado requiere una actualización, debe utilizar claves de reconciliación.
 
-1. En la **[!UICONTROL Fields to update]** ficha, especifique los campos en los que se aplicará la actualización y, si es necesario, agregue condiciones para que se realice la actualización. Para ello, utilice la **[!UICONTROL Taken into account if]** columna. Las condiciones se aplican una tras otra en orden de lista. Utilice las flechas de la derecha para cambiar el orden de las actualizaciones. Puede utilizar el mismo campo de destino varias veces.
+1. En la **[!UICONTROL Fields to update]** ficha, especifique los campos en los que se aplicará la actualización y, si es necesario, agregue condiciones para que se realice la actualización. To do this, use the **[!UICONTROL Taken into account if]** column. Las condiciones se aplican una tras otra en orden de lista. Utilice las flechas de la derecha para cambiar el orden de las actualizaciones. Puede utilizar el mismo campo de destino varias veces.
 
    Los campos se pueden vincular automáticamente con el ![](assets/wkf_magic_wand-24px.png) botón. La vinculación automática detecta los campos con el mismo nombre.
 
@@ -61,9 +64,9 @@ La actividad de **actualización de datos** se puede utilizar después de import
 
    >[!NOTE]
    >
-   >**Administración de actualizaciones** Los campos **[!UICONTROL lastModified]**, **[!UICONTROL modifiedBy]** y **[!UICONTROL created]****[!UICONTROL createdBy]** se actualizan automáticamente cuando se ejecuta una actividad de actualización de datos, a menos que su configuración se lleve a cabo explícitamente en la tabla de actualización de campo. La actualización solo se realiza en los registros en los que se ha detectado al menos una diferencia. Si los valores son los mismos, no se realiza ninguna actualización.
+   >**Administración de actualizaciones** Los campos **[!UICONTROL lastModified]**, **[!UICONTROL modifiedBy]** y **[!UICONTROL created]****[!UICONTROL createdBy]** se actualizan automáticamente cuando se ejecuta una actividad de datos de actualización, a menos que su configuración se realice explícitamente en la tabla de actualización de campo. La actualización solo se realiza en los registros en los que se ha detectado al menos una diferencia. Si los valores son los mismos, no se realiza ninguna actualización.
 
-1. Si es necesario, administre las [transiciones](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) de la actividad para acceder a las opciones avanzadas de la población saliente.
+1. Si es necesario, administre las [Transiciones](../../automating/using/activity-properties.md) de la actividad para acceder a las opciones avanzadas de la población saliente.
 
    Si ha seleccionado **[!UICONTROL Insert only]** y los datos importados pueden contener registros que ya están presentes en la base de datos, marque la **[!UICONTROL Generate an outbound transition for the rejects]** casilla para evitar posibles errores.
 
