@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 72d27b33d6e69af47b34cc6bfeae7b34911e8d10
+source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
 workflow-type: tm+mt
 source-wordcount: '5807'
 ht-degree: 19%
@@ -42,7 +42,7 @@ Actividad de API externa (GA): [Más información](../../automating/using/extern
 
 **Otras actualizaciones de la documentación incluidas en la versión**
 
-Se ha añadido información sobre el **[!UICONTROL History in days]** campo de las propiedades de los flujos de trabajo que ahora incluye los archivos descargados por la **[!UICONTROL Transfer file]** actividad. [Más información](../../automating/using/executing-a-workflow.md)
+Se ha añadido información sobre el **[!UICONTROL History in days]** campo de las propiedades de los flujos de trabajo que ahora incluye los archivos descargados por la **[!UICONTROL Transfer file]** actividad. [Más información](../../automating/using/managing-execution-options.md)
 
 Se ha añadido información en la sección de sustitución de perfiles sobre el límite de 500 caracteres del prefijo de línea de asunto. [Más información](../../sending/using/testing-messages-using-target.md)
 
@@ -120,7 +120,7 @@ Ya está disponible una nueva sección dedicada a las optimizaciones del modelo 
 
 Se ha añadido información sobre la derecha **[!UICONTROL Workflow]** integrada. [Más información](../../administration/using/list-of-roles.md)
 
-Se ha añadido información sobre las **[!UICONTROL History in days field]** propiedades de los flujos de trabajo disponibles. [Más información](../../automating/using/executing-a-workflow.md)
+Se ha añadido información sobre las **[!UICONTROL History in days field]** propiedades de los flujos de trabajo disponibles. [Más información](../../automating/using/about-workflow-execution.md)
 
 ## Versión 20.1: febrero de 2020 {#release-20-1---february-2020}
 
@@ -818,7 +818,7 @@ Integración de Dreamweaver en directo: [Más información](https://docs.adobe.c
 
 Se ha añadido una sección sobre los distintos tipos de usuarios de Adobe Campaign. [Más información](../../administration/using/users-management.md)
 
-La guía Flujo de trabajo se ha reorganizado y ampliado. Encuentre fácilmente cómo [construir](../../automating/using/building-a-workflow.md) y [ejecutar](../../automating/using/executing-a-workflow.md) un flujo de trabajo, cómo [dirigir](../../automating/using/targeting-data.md) y [gestionar](../../automating/using/targeting-data.md#enriching-data) sus datos, cómo [importar](../../automating/using/importing-data.md)[](../../automating/using/using-workflow-data.md), y cómo usar los datos de flujo de trabajo para actualizar la base de datos o para enviar entregas.
+La guía Flujo de trabajo se ha reorganizado y ampliado. Encuentre fácilmente cómo [construir](../../automating/using/building-a-workflow.md) y [ejecutar](../../automating/using/about-workflow-execution.md) un flujo de trabajo, cómo [dirigir](../../automating/using/targeting-data.md) y [gestionar](../../automating/using/targeting-data.md#enriching-data) sus datos, cómo [importar](../../automating/using/importing-data.md)[](../../automating/using/using-workflow-data.md), y cómo usar los datos de flujo de trabajo para actualizar la base de datos o para enviar entregas.
 
 El cálculo del indicador de informes ya está disponible para los informes dinámicos, incluida la descripción completa y la fórmula de cálculo. [Más información](../../reporting/using/indicator-calculation.md)
 
