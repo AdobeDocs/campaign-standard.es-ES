@@ -1,6 +1,6 @@
 ---
 title: Notas de la versión 2017
-description: This page lists all 2017 releases of Adobe Campaign Standard.
+description: Esta página lista todas las versiones de 2017 de Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: d73f8186-e309-441b-969d-71d0a1c33cf4
 contentOwner: sauviat
@@ -12,7 +12,10 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c21a6fb4916430deb76d5d01b379453e398f6f25
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '4623'
+ht-degree: 6%
 
 ---
 
@@ -43,7 +46,7 @@ Vista de las últimas actualizaciones [de](../../rn/using/documentation-updates.
   </tr> 
   <tr> 
    <td> Creación de contenido: Importar desde una dirección URL<br /> </td> 
-   <td> Importar desde una URL permite recuperar rápidamente el contenido creativo de un sitio web para crear correos electrónicos para cualquier envío. Además, puede optimizar el proceso creativo permitiendo a terceros compartir contenido directamente a través de una URL. Imported content can be flexibly used as part of a single delivery or at the template level ensuring brand consistency for all related campaigns whether they be workflow-based or transactional messages, and include A/B or multivariate testing. Import from a URL automatically converts and tracks all links to monitor email performance through Dynamic Reporting.<br /> Para obtener más información, consulte la <a href="../../designing/using/using-existing-content.md#importing-content-from-a-url">documentación detallada</a>.<br /> </td> 
+   <td> Importar desde una URL permite recuperar rápidamente el contenido creativo de un sitio web para crear correos electrónicos para cualquier envío. Además, puede optimizar el proceso creativo permitiendo a terceros compartir contenido directamente a través de una URL. El contenido importado se puede utilizar de forma flexible como parte de un único envío o a nivel de plantilla para garantizar la coherencia de la marca en todas las campañas relacionadas, ya sean basadas en flujos de trabajo o mensajes transaccionales, e incluir pruebas A/B o multivariadas. Importar desde una URL convierte y rastrea automáticamente todos los vínculos para supervisar el rendimiento del correo electrónico a través de Sistema de informes dinámico.<br /> Para obtener más información, consulte la <a href="../../designing/using/using-existing-content.md#importing-content-from-a-url">documentación detallada</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,9 +55,9 @@ Vista de las últimas actualizaciones [de](../../rn/using/documentation-updates.
 
 _Plataforma_
 
-* Fixed an issue that could prevent large zipped files from being correctly unzipped.
-* Security in brand management has been improved. Modifying a brand&#39;s name and sender address is now reserved for Adobe technical administrators.
-* To improve security, user generated content (images, mirror pages, landing pages, etc.) el dominio adobe.com ya no puede servir. Ahora es obligatorio usar su propio dominio para manejar estos recursos, mediante el uso de la marca.
+* Se ha corregido un problema que podía impedir que los archivos comprimidos de gran tamaño se descomprimieran correctamente.
+* Se ha mejorado la seguridad en la gestión de marca. La modificación del nombre y la dirección del remitente de una marca ahora está reservada para los administradores técnicos de Adobe.
+* Para mejorar la seguridad, el contenido generado por el usuario (imágenes, páginas espejo, páginas de aterrizaje, etc.) el dominio adobe.com ya no puede servir. Ahora es obligatorio usar su propio dominio para manejar estos recursos, mediante el uso de la marca.
 * Se ha corregido un problema de la interfaz al mostrar y filtrar actividades de marketing.
 * Se ha corregido un problema que impedía que los campos de fecha de suscripción se actualizaran con una llamada de API POST Rest.
 
@@ -76,9 +79,9 @@ _Notificaciones push_
 
 _Informes_
 
-* Fixed an issue that prevented the hot click percentages from being displayed in the email content.
+* Se ha corregido un problema que impedía que los porcentajes de clics interactivos se mostraran en el contenido del correo electrónico.
 * Se ha corregido un problema con la métrica de lista negra que se contaba como una devolución forzada en lugar de una devolución.
-* Fixed an issue that led to negative counts being displayed in summary data.
+* Se ha corregido un problema que provocaba que se mostraran recuentos negativos en los datos de resumen.
 * Se ha corregido un problema que hacía que se contabilizaran perfiles en el segmento de edad incorrecto.
 * Las fórmulas de cálculo de devoluciones en bruto y en bruto han cambiado.
 
@@ -97,7 +100,7 @@ _Perfiles y audiencias_
 
 _Integraciones_
 
-* Fixed an issue that could prevent some Data Sources created for Triggers from correctly showing up and being selected.
+* Se ha corregido un problema que podía impedir que algunas fuentes de datos creadas para los activadores se mostraran y se seleccionaran correctamente.
 
 _Recursos personalizados_
 
@@ -121,12 +124,12 @@ _Recursos personalizados_
    <td> Presentamos dieciocho plantillas nuevas y adaptables diseñadas en dos hermosas temáticas: Astro y Feather. Estas plantillas personalizables son agnósticas para la industria y están listas para utilizarse de inmediato. Las plantillas incluyen contenido para una variedad de casos de uso a fin de lograr que sus campañas de marketing por correo electrónico se diseñen y entreguen de manera más rápida, eficiente y maravillosamente que nunca.<br /> Para obtener más información, consulte la <a href="../../designing/using/using-reusable-content.md#content-templates">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Dynamic Reporting with Profile Data<br /> </td> 
-   <td> El Sistema de informes dinámico proporciona informes empresariales totalmente personalizables y en tiempo real. Con esta versión, una potente mejora del Sistema de informes dinámico añade acceso a los datos de perfil, lo que permite la análisis demográfica por dimensiones de perfil como sexo, ciudad, código postal y edad, además de datos funcionales de campaña de correo electrónico como aperturas y clics. With the same easy-to-use drag-and-drop interface, determining how your email campaign performed against your most important customer segments is easier than ever.<br /> Para obtener más información, consulte la <a href="../../reporting/using/about-dynamic-reports.md">documentación detallada</a>.<br /> </td> 
+   <td> Sistema de informes dinámico con datos de Perfil<br /> </td> 
+   <td> El Sistema de informes dinámico proporciona informes empresariales totalmente personalizables y en tiempo real. Con esta versión, una potente mejora del Sistema de informes dinámico añade acceso a los datos de perfil, lo que permite la análisis demográfica por dimensiones de perfil como sexo, ciudad, código postal y edad, además de datos funcionales de campaña de correo electrónico como aperturas y clics. Con la misma sencilla función de arrastrar y soltar, determinar el rendimiento de la campaña de correo electrónico en relación con los segmentos de clientes más importantes es más fácil que nunca.<br /> Para obtener más información, consulte la <a href="../../reporting/using/about-dynamic-reports.md">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Suscripción masiva con Origen y fecha<br /> </td> 
-   <td> With this Mass Subscription enhancement, you are now able to store subscription information (origin and date) directly in the Adobe Campaign Standard database through the Subscription Services activity in a workflow.<br /> Para obtener más información, consulte la <a href="../../automating/using/subscription-services.md">documentación detallada</a>.<br /> </td> 
+   <td> Con esta mejora de Suscripción masiva, ahora puede almacenar información de suscripción (origen y fecha) directamente en la base de datos de Adobe Campaign Standard a través de la actividad de Servicios de suscripción en un flujo de trabajo.<br /> Para obtener más información, consulte la <a href="../../automating/using/subscription-services.md">documentación detallada</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -164,12 +167,12 @@ _Informes_
 
 _Flujos de trabajo_
 
-* Fixed an issue that could prevent the imported file retention from working.
+* Se ha corregido un problema que podía impedir que funcionara la retención del archivo importado.
 
 _Integraciones_
 
 * Las eVars y eventos ahora son compatibles con la integración de Analytics y Campaña.
-* When sending an email with the content of the abandoned cart, the payload parameter for elements removed from cart is now optional.
+* Al enviar un correo electrónico con el contenido del carro de compras abandonado, el parámetro de carga útil para elementos eliminados del carro de compras ahora es opcional.
 
 _Perfiles y audiencias_
 
@@ -190,22 +193,22 @@ _Perfiles y audiencias_
  <tbody> 
   <tr> 
    <td> envíos multilingües de correo electrónico y SMS<br /> </td> 
-   <td> Defina y ejecute envíos multilingües de correo electrónico y SMS a través de un único envío basado en el idioma preferido de los clientes segmentados automáticamente. Informar sobre el rendimiento de cada envío en función del idioma y los niveles individuales.<br /> More and more companies are faced with the challenge of delivering content in multiple languages as they grow at home and abroad. Como tal, la racionalización del envío de mensajes localizados es una parte fundamental de una estrategia eficaz de comunicación con los clientes para las compañías multinacionales; compañías en países con múltiples idiomas; y compañías que deseen personalizar aún más su contenido a nivel lingüístico independientemente de dónde residan los clientes. Para obtener más información, consulte la <a href="../../channels/using/creating-a-multilingual-email.md">documentación detallada</a>.<br /> </td> 
+   <td> Defina y ejecute envíos multilingües de correo electrónico y SMS a través de un único envío basado en el idioma preferido de los clientes segmentados automáticamente. Informar sobre el rendimiento de cada envío en función del idioma y los niveles individuales.<br /> Cada vez más compañías se enfrentan al desafío de entregar contenido en múltiples idiomas a medida que crecen dentro y fuera del país. Como tal, la racionalización del envío de mensajes localizados es una parte fundamental de una estrategia eficaz de comunicación con los clientes para las compañías multinacionales; compañías en países con múltiples idiomas; y compañías que deseen personalizar aún más su contenido a nivel lingüístico independientemente de dónde residan los clientes. Para obtener más información, consulte la <a href="../../channels/using/creating-a-multilingual-email.md">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Notificaciones de Adobe Campaign<br /> </td> 
-   <td> Reciba notificaciones sobre actividades importantes del sistema directamente en Adobe Campaign Standard. Se le notificará, por ejemplo, sobre el progreso de sus envíos en curso o cuando haya un error en un flujo de trabajo.<br /> Real-time notifications keep relevant stakeholders informed and provide users with the ability to immediately and directly act on activity notifications from within the application. El resultado para los equipos es agilidad avanzada, eficiencia y una ejecución más fluida de las campañas. Para obtener más información, consulte la <a href="../../administration/using/sending-internal-notifications.md">documentación detallada</a>.<br /> </td> 
+   <td> Reciba notificaciones sobre actividades importantes del sistema directamente en Adobe Campaign Standard. Se le notificará, por ejemplo, sobre el progreso de sus envíos en curso o cuando haya un error en un flujo de trabajo.<br /> Las notificaciones en tiempo real mantienen informados a los interesados pertinentes y proporcionan a los usuarios la capacidad de actuar de forma inmediata y directa en las notificaciones de actividad desde la aplicación. El resultado para los equipos es agilidad avanzada, eficiencia y una ejecución más fluida de las campañas. Para obtener más información, consulte la <a href="../../administration/using/sending-internal-notifications.md">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivery Alerting<br /> </td> 
-   <td> In addition to viewing notifications directly in Adobe Campaign Standard, Adobe Campaign now also provides an email alerting system to trigger email alerts to users or external stakeholders of important system activities. Cree, administre y reciba alertas y paneles personalizables para realizar un seguimiento de los éxitos o errores del envío.<br /> La alerta de Envíos de Adobe Campaign aumenta la eficacia al mantener a todos los usuarios de Adobe Campaign involucrados en una compañía informados automáticamente sobre el estado de ejecución de envío, a través del correo electrónico y el panel. Para obtener más información, consulte la <a href="../../sending/using/receiving-alerts-when-failures-happen.md">documentación detallada</a>.<br /> </td> 
+   <td> Alerta de Envío<br /> </td> 
+   <td> Además de ver las notificaciones directamente en Adobe Campaign Standard, Adobe Campaign ahora también proporciona un sistema de alerta por correo electrónico para activar alertas por correo electrónico a usuarios o partes interesadas externas de actividades importantes del sistema. Cree, administre y reciba alertas y paneles personalizables para realizar un seguimiento de los éxitos o errores del envío.<br /> La alerta de Envíos de Adobe Campaign aumenta la eficacia al mantener a todos los usuarios de Adobe Campaign involucrados en una compañía informados automáticamente sobre el estado de ejecución de envío, a través del correo electrónico y el panel. Para obtener más información, consulte la <a href="../../sending/using/receiving-alerts-when-failures-happen.md">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Id. declarado cifrado en orígenes de datos<br /> </td> 
-   <td> Enviar desencadenantes de correo electrónico y SMS sin necesidad de un perfil existente en Campaña mediante el uso de información de contacto cifrada (dirección de correo electrónico o número de teléfono) como ID declarado. Dado que los ID declarados cifrados pueden ser descodificados por Adobe Campaign Standard, la Campaña ahora puede crear nuevos perfiles comercializables al recibir audiencias de otras soluciones de Experience Cloud que contengan contactos anteriormente desconocidos.<br /> Target customers and unknown prospects in real-time through both email &amp; SMS to improve loyalty in your existing customer base and acquire new customers respectively. Saque el máximo partido a los datos de cookies de origen (desde Adobe Audiencia Manager*) una vez que los clientes potenciales se autentiquen y aprovechen esas perspectivas en Adobe Campaign. <br /> *Se requiere Adobe Audiencia Manager. Para obtener más información, consulte la <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">documentación detallada</a>.<br /> </td> 
+   <td> Enviar desencadenantes de correo electrónico y SMS sin necesidad de un perfil existente en Campaña mediante el uso de información de contacto cifrada (dirección de correo electrónico o número de teléfono) como ID declarado. Dado que los ID declarados cifrados pueden ser descodificados por Adobe Campaign Standard, la Campaña ahora puede crear nuevos perfiles comercializables al recibir audiencias de otras soluciones de Experience Cloud que contengan contactos anteriormente desconocidos.<br /> Destinatario clientes y clientes potenciales desconocidos en tiempo real a través de correo electrónico y SMS para mejorar la lealtad en su base de clientes existente y adquirir nuevos clientes respectivamente. Saque el máximo partido a los datos de cookies de origen (desde Adobe Audiencia Manager*) una vez que los clientes potenciales se autentiquen y aprovechen esas perspectivas en Adobe Campaign. <br /> *Se requiere Adobe Audiencia Manager. Para obtener más información, consulte la <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> KPI sharing from Campaign to Analytics<br /> </td> 
+   <td> Uso compartido de KPI de Campaña a Analytics<br /> </td> 
    <td> Comparta datos de campaña con Adobe Analytics para medir las métricas de marketing por correo electrónico a partir de la Campaña junto con otros esfuerzos de marketing y publicidad a través de la conversión, unificando el comportamiento previo y posterior al clic.<br /> Rastree el rendimiento general directamente y descubra las sinergias con programas externos en Analytics. Aplique el aprendizaje de esta vista consolidada a sus campañas; en última instancia, mejora las tasas de conversión, pulsaciones y aperturas, lo que aumenta los ingresos y el rendimiento general de la campaña. <br /> Se requiere Adobe Analytics. Para obtener más información, consulte la <a href="../../integrating/using/about-campaign-analytics-integration.md">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
@@ -247,7 +250,7 @@ _Informes_
 
 _Flujos de trabajo_
 
-* Ahora puede filtrar los registros de flujo de trabajo (período de tiempo y búsqueda de texto). For more information, refer to the [detailed documention](../../automating/using/executing-a-workflow.md#monitoring).
+* Ahora puede filtrar los registros de flujo de trabajo (período de tiempo y búsqueda de texto). For more information, refer to the [detailed documention](../../automating/using/monitoring-workflow-execution.md).
 * Ahora hay una opción disponible en los envíos de flujo de trabajo para desactivar la confirmación antes del envío.
 * Se ha corregido un problema que impedía establecer una transición de salida en el asistente de creación de envíos recurrentes.
 * Se ha corregido un problema que se producía al usar una actividad de consulta de flujo de trabajo basada en un campo de recurso personalizado con una lista desglosada que tenía muchos valores
@@ -361,15 +364,15 @@ _Páginas de aterrizaje_
 
 _Flujos de trabajo_
 
-* Fixed a display error when editing an **[!UICONTROL End]** or **[!UICONTROL External Signal]** activity (on Safari only).
+* Se corrigió un error de visualización al editar una **[!UICONTROL End]** o **[!UICONTROL External Signal]** actividad (solo en Safari).
 * Se mejoró el mensaje de error que se mostraba al editar una **[!UICONTROL Read Audience]** actividad que contenía una audiencia errónea.
 * Se ha corregido un problema que podía provocar un error SQL al ejecutar una actividad de suscripción.
 
 _Integraciones_
 
-* Points of Interest data: fixed an error that occurred when counting location subscribers.
+* Datos de puntos de interés: se ha corregido un error que se producía al contar los suscriptores de ubicación.
 
-_Audiences and queries_
+_Audiencias y consultas_
 
 * Se ha corregido un problema que impedía que los agregados sum y average se usaran en una colección en el editor de consultas.
 * Se ha corregido un problema que podía impedir que el editor de consultas se recargara después de cambiar el recurso del filtro.
@@ -402,11 +405,11 @@ _Notificaciones push_
   </tr> 
   <tr> 
    <td> Integración de Dreamweaver (Labs)<br /> </td> 
-   <td> With the Adobe Campaign and Dreamweaver integration, you now have an integrated process for creating email campaigns with Adobe solutions.<br /> Puede editar correos electrónicos de Adobe Campaign en Dreamweaver y hacer que el contenido se sincronice perfectamente entre ambas soluciones.<br /> Para la versión inicial, la integración está disponible como función "Labs" y solo funciona con Dreamweaver Pre Release Beta. Si desea activarlo, póngase en contacto con AC-DW-integration@adobe.com.<br /> Para obtener más información, consulte este <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">vídeo</a>.<br /> </td> 
+   <td> Con la integración de Adobe Campaign y Dreamweaver, ahora dispone de un proceso integrado para crear campañas de correo electrónico con las soluciones de Adobe.<br /> Puede editar correos electrónicos de Adobe Campaign en Dreamweaver y hacer que el contenido se sincronice perfectamente entre ambas soluciones.<br /> Para la versión inicial, la integración está disponible como función "Labs" y solo funciona con Dreamweaver Pre Release Beta. Si desea activarlo, póngase en contacto con AC-DW-integration@adobe.com.<br /> Para obtener más información, consulte este <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">vídeo</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Optimización del tiempo de envío manual<br /> </td> 
-   <td> You can now manually define a custom sending time per recipient - at the delivery level or using a workflow. <br /> Hay dos opciones nuevas disponibles: <br /> 
+   <td> Ahora puede definir manualmente un tiempo de envío personalizado por destinatario, a nivel de envío o mediante un flujo de trabajo. <br /> Hay dos opciones nuevas disponibles: <br /> 
     <ul> 
      <li> Todos los destinatarios reciben el mensaje teniendo en cuenta su huso horario. </li> 
      <li> Cada destinatario recibe el mensaje en una fecha y hora calculadas definidas por una fórmula. </li> 
@@ -418,14 +421,14 @@ _Notificaciones push_
     <ul> 
      <li> Nueva interfaz de creación </li> 
      <li> Notificaciones silenciosas </li> 
-     <li> Interactive push </li> 
+     <li> Push interactivo </li> 
      <li> Compatibilidad con contenido enriquecido </li> 
      <li> Calculadora de tamaño de carga útil </li> 
     </ul> Para obtener más información, consulte la <a href="../../channels/using/about-push-notifications.md">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Workflows: new Signal activity<br /> </td> 
-   <td> Active un flujo de trabajo desde otro flujo de trabajo mediante la nueva actividad <span class="uicontrol">Señal</span> .<br /> With the ability to start one workflow from another, you can now support more complex customer journeys. Puede supervisar mejor los viajes de los clientes y reaccionar en caso de que se produzcan problemas.<br /> Several workflow activities have been updated:<br /> 
+   <td> Flujos de trabajo: nueva actividad de señal<br /> </td> 
+   <td> Active un flujo de trabajo desde otro flujo de trabajo mediante la nueva actividad <span class="uicontrol">Señal</span> .<br /> Con la capacidad de inicio de un flujo de trabajo desde otro, ahora puede admitir viajes de clientes más complejos. Puede supervisar mejor los viajes de los clientes y reaccionar en caso de que se produzcan problemas.<br /> Se han actualizado varias actividades de flujo de trabajo:<br /> 
     <ul> 
      <li> <span class="uicontrol">actividad final</span> : una nueva ficha permite especificar un flujo de trabajo que se activará después de que se haya ejecutado esta actividad. </li> 
      <li> <span class="uicontrol">Actualizar actividad de datos</span> : utilice la nueva transición saliente vacía para agregar una actividad <strong>final</strong> que active otro flujo de trabajo. Las transiciones salientes vacías no transmiten ningún dato y no consumen espacio innecesario en el sistema </li> 
@@ -480,16 +483,16 @@ _Flujos de trabajo_
  </thead> 
  <tbody> 
   <tr> 
-   <td> Log export for external reporting<br /> </td> 
+   <td> Exportación de registros para sistema de informes externo<br /> </td> 
    <td> Exporte registros como envíos y registros de seguimiento para procesarlos en sus herramientas preferidas de sistema de informes o BI. Puede utilizar flujos de trabajo simples con consultas incrementales para automatizar las exportaciones regulares de nuevos registros.<br /> Además de la disponibilidad de recursos de registro del selector de recursos, se han realizado mejoras en las actividades de archivos <a href="../../automating/using/incremental-query.md">de</a> Consulta incremental <a href="../../automating/using/extract-file.md">y</a> extracción:<br /> 
     <ul> 
-     <li> <span class="uicontrol">Incremental query</span> now allows you to use a date field to retrieve new or updated data. Anteriormente, todos los resultados de ejecuciones anteriores se excluían automáticamente, incluso si se actualizaban desde la última ejecución. </li> 
+     <li> <span class="uicontrol">Ahora, la Consulta incremental</span> permite utilizar un campo de fecha para recuperar datos nuevos o actualizados. Anteriormente, todos los resultados de ejecuciones anteriores se excluían automáticamente, incluso si se actualizaban desde la última ejecución. </li> 
      <li> <span class="uicontrol">El archivo</span> de extracción ahora puede exportar etiquetas para valores de lista desglosada en lugar de ID. </li> 
-    </ul> Estas actividades están disponibles para los administradores con acceso a todas las unidades geográficas y de organización.<br /> For more information on exporting logs, refer to the <a href="../../automating/using/exporting-logs.md">detailed documentation</a>.<br /> </td> 
+    </ul> Estas actividades están disponibles para los administradores con acceso a todas las unidades geográficas y de organización.<br /> Para obtener más información sobre la exportación de registros, consulte la documentación <a href="../../automating/using/exporting-logs.md"></a>detallada.<br /> </td> 
   </tr> 
   <tr> 
    <td> Funciones de marketing para mensajes transaccionales<br /> </td> 
-   <td> Marketers can now send transactional messages based on customer marketing profiles. Esto les permite:<br /> 
+   <td> Los especialistas en marketing ahora pueden enviar mensajes transaccionales en función de los perfiles de marketing del cliente. Esto les permite:<br /> 
     <ul> 
      <li> Aplique reglas de tipología de marketing como, por ejemplo, dirección <span class="uicontrol"></span> En la lista negra. </li> 
      <li> Incluya el vínculo baja dentro de los mensajes. </li> 
@@ -515,8 +518,8 @@ _General_
 
 * Las **[!UICONTROL Access authorization]** opciones han vuelto a las propiedades de página de aterrizaje.
 * Se ha corregido un problema que podía haber provocado que se procesara una imagen antigua en lugar de la imagen correcta. Esto ocurría si la imagen de origen se había actualizado en la definición de contenido de un envío o página de aterrizaje.
-* Fixed an issue that prevented users from editing certain fields in an existing SFTP external account.
-* Fixed several UI issues. Por ejemplo, ahora los usuarios pueden editar atributos de perfil y guardar las modificaciones sin tener problemas con la interfaz de usuario.
+* Se ha corregido un problema que impedía a los usuarios editar determinados campos en una cuenta externa SFTP existente.
+* Se han corregido varios problemas de la interfaz de usuario. Por ejemplo, ahora los usuarios pueden editar atributos de perfil y guardar las modificaciones sin tener problemas con la interfaz de usuario.
 
 _Correos electrónicos y mensajes SMS_
 
@@ -524,22 +527,22 @@ _Correos electrónicos y mensajes SMS_
 
 _Notificaciones push_
 
-* Fixed an issue that may have prevented postback from an application to the Adobe Campaign server.
+* Se ha corregido un problema que podía haber impedido el postback de una aplicación al servidor de Adobe Campaign.
 * Se ha corregido un problema que podía haber impedido **[!UICONTROL Play a sound]** y **[!UICONTROL Custom fields]** que se tuviera en cuenta en Android.
 * Se ha corregido un problema que podía haber provocado que se agregara un carácter de escape adicional a los caracteres Unicode utilizados para los emoticones.
 * Cuando el token de registro de un suscriptor se en la lista negra, el estado correspondiente se actualiza inmediatamente en la lista de la aplicación de suscriptores en Adobe Campaign.
 
 _Flujos de trabajo_
 
-* Fixed an issue that may have prevented previews of queries on event resources (e.g. rtEvent).
+* Se ha corregido un problema que podía haber impedido previsualizaciones de consultas en recursos de evento (por ejemplo, rtEvent).
 * El archivo de rechazo generado por una **[!UICONTROL Load file]** actividad ahora se puede recuperar en su transición de salida y procesar en la siguiente actividad. Por ejemplo, cargue el archivo de rechazo a través de un servidor SFTP mediante **[!UICONTROL Transfer file]** .
 * Se ha corregido un problema que podía haber impedido que un usuario limitara la población de un segmento si **[!UICONTROL Temporary resource]** se seleccionaba en la **[!UICONTROL General]** ficha de **[!UICONTROL Segmentation]** .
-* **[!UICONTROL Scheduler]** activities can no longer be set to trigger a workflow more than once every 10 minutes.
+* **[!UICONTROL Scheduler]** Ya no se pueden establecer actividades para activar un flujo de trabajo más de una vez cada 10 minutos.
 * Se ha corregido un problema que podía haber impedido que **[!UICONTROL Use common columns]** funcionara correctamente en una **[!UICONTROL Union]** actividad.
 
 _Integraciones_
 
-* Fixed an issue that may have caused an error when deploying an event trigger in Adobe Campaign. This error occurred when the &quot;Likelihood to Return in 30 Days&quot; metadata had been added to the Abandonment trigger in Adobe Marketing Cloud.
-* Fixed an issue that may have caused the technical workflow to clear the Target Dimension field when importing audiences from People core service. Subsequent queries could not retrieve the imported audiences.
-* Fixed an issue that may have caused the **[!UICONTROL Save audience]** activity of a workflow to fail when the option **[!UICONTROL Share in Adobe Marketing Cloud]** was checked.
+* Se ha corregido un problema que podía haber provocado un error al implementar un activador de evento en Adobe Campaign. Este error se producía cuando se habían agregado los metadatos &quot;Probabilidad de retorno en 30 días&quot; al activador Abandono en Adobe Marketing Cloud.
+* Se ha corregido un problema que podía haber provocado que el flujo de trabajo técnico borrara el campo Dimensión de Destinatario al importar audiencias del servicio principal Personas. Las consultas posteriores no pudieron recuperar las audiencias importadas.
+* Se ha corregido un problema que podía haber provocado que la **[!UICONTROL Save audience]** actividad de un flujo de trabajo fallara al marcar la opción **[!UICONTROL Share in Adobe Marketing Cloud]** .
 
