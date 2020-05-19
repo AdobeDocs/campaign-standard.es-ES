@@ -12,7 +12,10 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c35468d7c9a3177d755dad2a9ab2e09510d680fa
+source-git-commit: f8c8dd5ec3dcff557d17e92591748cb1b6694122
+workflow-type: tm+mt
+source-wordcount: '591'
+ht-degree: 26%
 
 ---
 
@@ -38,7 +41,7 @@ Esta sección lista las funciones y funciones que se han marcado como obsoletas 
 
 Por lo general, las funciones que se planea eliminar en una versión futura se definen en primer lugar como obsoletas, y se proporciona una función alternativa a ellas. Estas funciones y funcionalidades ya no están disponibles para los nuevos clientes Campaign Standard o no deben usarse para ninguna implementación nueva. También se eliminan de la documentación del producto.
 
-Se aconseja a los clientes que comprueben si utilizan la función o la capacidad en su implementación actual y que cambien su implementación para utilizar la alternativa proporcionada. Consulte la fecha de eliminación objetivo para planificar el entorno y las actualizaciones del proyecto según corresponda.
+Se aconseja a los clientes que comprueben si utilizan la función o la capacidad en su implementación actual y que cambien su implementación para utilizar la alternativa proporcionada. Consulte la versión de eliminación de destinatarios para planificar las actualizaciones de entornos y proyectos según corresponda.
 
 <table> 
  <thead> 
@@ -67,7 +70,7 @@ Se aconseja a los clientes que comprueben si utilizan la función o la capacidad
    <td> <p>A partir de la versión 19.4 de la Campaña, el uso de la API y la interfaz de Campaña para solicitudes de acceso y eliminación está obsoleto. La eliminación del perfil de 2 pasos no estará disponible. Utilice <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a>.</p></br>
    <p>Consulte también Administración <a href="https://helpx.adobe.com/campaign/kb/acs-privacy.html">de privacidad en Campaign Standard</a>.</p>
   <p> 
-  <em>Fecha de eliminación del Destinatario: Julio de 2020: versión 20.5 de la Campaña </em></p>
+  <em>Versión de eliminación de Destinatario: Versión de Campaña 20.4</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -82,9 +85,9 @@ Se aconseja a los clientes que comprueben si utilizan la función o la capacidad
  <tbody> 
   <tr> 
    <td> <p>A partir de la versión 19.0 de la Campaña, el editor de correo electrónico heredado queda obsoleto. Utilice <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">el nuevo diseñador</a> de correo electrónico para crear y personalizar el contenido del correo electrónico. </p></br>
-   <p>Lea <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">esta sección</a> para aprender a adaptar las plantillas de correo electrónico al nuevo editor.</p></br>
+   <p>Lea <a href="https://docs.adobe.com/content/help/es-ES/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">esta sección</a> para aprender a adaptar las plantillas de correo electrónico al nuevo editor.</p></br>
   <p> 
-  <em>Fecha de eliminación del Destinatario: Octubre de 2020: versión 20.6 de la Campaña </em></p>
+  <em>Versión de eliminación de Destinatario: Versión de Campaña 20.4</em></p>
    </td> 
   </tr> 
  </tbody> 
