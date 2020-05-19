@@ -10,7 +10,10 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c59faa935663bf803ed97f30e45f9b4276b448b8
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '1703'
+ht-degree: 0%
 
 ---
 
@@ -158,7 +161,7 @@ Esta ficha le permite activar la transición **** saliente y su etiqueta. Esta t
 
 ### Opciones de ejecución
 
-Esta ficha está disponible en la mayoría de las actividades de flujo de trabajo. Para obtener más información, consulte la sección Propiedades [de la](../../automating/using/executing-a-workflow.md#activity-properties) Actividad.
+Esta ficha está disponible en la mayoría de las actividades de flujo de trabajo. Para obtener más información, consulte la sección Propiedades [de la](../../automating/using/activity-properties.md) Actividad.
 
 ![](assets/externalAPI-options.png)
 
