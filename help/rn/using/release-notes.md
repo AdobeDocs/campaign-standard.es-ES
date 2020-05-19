@@ -12,14 +12,17 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b4cbc56973a57cde8af6cefa9ff89c7d29ab7b79
+source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
+workflow-type: tm+mt
+source-wordcount: '1007'
+ht-degree: 4%
 
 ---
 
 
 # Última versión{#latest-release}
 
-[Planificación](../../rn/using/release-planning.md) de versiones| [Versiones](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html) del Panel de control| Actualizaciones [de documentación](../../rn/using/documentation-updates.md) | Notas de revisión [anteriores](../../rn/using/release-notes-2020.md) | Características [obsoletas](../../rn/using/deprecated-features.md)
+[Planificación de versiones](../../rn/using/release-planning.md) | Versiones [del Panel de control](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html) | Actualizaciones [de documentación](../../rn/using/documentation-updates.md) | Notas de la versión [anteriores](../../rn/using/release-notes-2020.md) | Características [obsoletas](../../rn/using/deprecated-features.md)
 
 ## Versión 20.3: mayo de 2020 {#release-20-3---may-2020}
 
@@ -91,7 +94,7 @@ source-git-commit: b4cbc56973a57cde8af6cefa9ff89c7d29ab7b79
 * Ahora las casillas de verificación pueden ser obligatorias en una página de aterrizaje.
 * Al descargar el archivo CSV de un informe dinámico, se ha eliminado el límite de 200 filas. Ahora puede incluir cada fila del informe. (CAMP-40810)
 * Lenguaje ES-US Añadido en la lista de idiomas predeterminados para correos electrónicos multilingües. (CAMP-42279)
-* Los archivos descargados con una actividad Transferir archivo ahora se eliminarán después de X días, donde X se determina mediante el campo **Historial en días** del menú **Ejecución** de las propiedades Flujo de trabajo. [Más información](../../automating/using/executing-a-workflow.md#workflow-properties)
+* Los archivos descargados con una actividad Transferir archivo ahora se eliminarán después de X días, donde X se determina mediante el campo **Historial en días** del menú **Ejecución** de las propiedades Flujo de trabajo. [Más información](../../automating/using/managing-execution-options.md)
 
 **Integraciones de la plataforma de experiencias**
 
