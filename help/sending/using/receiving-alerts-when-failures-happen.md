@@ -12,7 +12,10 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '2026'
+ht-degree: 2%
 
 ---
 
@@ -237,7 +240,7 @@ A continuación se indican algunos motivos posibles para recibir las notificacio
    * Tiempo de espera de conexión entre el servidor de envío de Adobe Campaign y el servidor receptor
    * Un problema de entrega
    * Un flujo de trabajo erróneo
-   Si el envío se activa con un flujo de trabajo, compruebe si el flujo de trabajo se inició correctamente. Para obtener más información sobre esto, consulte [Ejecución de un flujo de trabajo](../../automating/using/executing-a-workflow.md). De lo contrario, póngase en contacto con el administrador de Adobe Campaign para resolver el problema.
+   Si el envío se activa con un flujo de trabajo, compruebe si el flujo de trabajo se inició correctamente. Para obtener más información sobre esto, consulte [Ejecución de un flujo de trabajo](../../automating/using/about-workflow-execution.md). De lo contrario, póngase en contacto con el administrador de Adobe Campaign para resolver el problema.
 
 * **[!UICONTROL Deliveries with preparation failed]**:: Puede producirse un error durante la preparación del envío en los siguientes casos:
 
