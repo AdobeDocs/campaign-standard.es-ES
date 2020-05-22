@@ -12,10 +12,10 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
+source-git-commit: e59562bd4f258c4259b8e8e5d9648397d5718792
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 4%
+source-wordcount: '1039'
+ht-degree: 5%
 
 ---
 
@@ -69,10 +69,14 @@ ht-degree: 4%
 </tbody> 
 </table>
 
+>[!NOTE]
+>
+>La renovación de certificados para subdominios CNAME se libera en el Panel de control de Campaña en mayo. Para obtener más información sobre esto, consulte la Nota [de revisión del Panel de](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html)control.
+
 **Mejoras**
 
 * El número de caracteres que se puede utilizar en el campo **Prefijo** para [probar mensajes con perfiles](../../sending/using/testing-messages-using-target.md) de destino se ha aumentado de 32 a 500 caracteres.
-* El número máximo de eventos en tiempo real que se pueden publicar en una instancia se ha incrementado de 350 a 2000. (CAMP-41608)
+* El número máximo de eventos en tiempo real que se pueden publicar en una instancia ha aumentado de 350 a 2000. (CAMP-41608)
 * La sincronización entre Adobe Launch y Campaign Standard se ha mejorado mediante el flujo de trabajo técnico syncWithLaunch. Este flujo de trabajo permite la importación automática de todas las propiedades móviles de Adobe Launch en Adobe Campaign Standard. Para obtener más información, consulte [esta página](../../administration/using/technical-workflows.md).
 
    Deberá enviar un ticket al Servicio de atención al cliente de Adobe (directamente o a través de su contacto de Adobe) para que el flujo de trabajo técnico de syncWithLaunch esté habilitado en la instancia de Campaña. (CAMP-40082)
