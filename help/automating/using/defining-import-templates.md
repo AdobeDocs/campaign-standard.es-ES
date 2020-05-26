@@ -12,7 +12,10 @@ discoiquuid: 85d13147-fb31-446a-8476-f112c841fb82
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+workflow-type: tm+mt
+source-wordcount: '787'
+ht-degree: 1%
 
 ---
 
@@ -53,7 +56,7 @@ Estas plantillas predeterminadas son de solo lectura y no son visibles para los 
 
 1. Go to the **[!UICONTROL Workflow]** tab. Desde aquí puede enriquecer el flujo de trabajo ofrecido de forma predeterminada agregando nuevas actividades según sus necesidades.
 
-   Para obtener más información sobre cómo configurar las actividades del flujo de trabajo, consulte el caso de uso descrito en esta sección: [Ejemplo: Importar plantilla](../../automating/using/importing-data.md#example--import-workflow-template)de flujo de trabajo. Este caso de uso le ayudará a configurar un flujo de trabajo que se puede reutilizar para importar perfiles procedentes de una CRM en la base de datos de Adobe Campaign.
+   Para obtener más información sobre cómo configurar las actividades del flujo de trabajo, consulte el caso de uso descrito en esta sección: [Ejemplo: Importar plantilla](../../automating/using/creating-import-workflow-templates.md)de flujo de trabajo. Este caso de uso le ayudará a configurar un flujo de trabajo que se puede reutilizar para importar perfiles procedentes de una CRM en la base de datos de Adobe Campaign.
 
 1. Guarde la plantilla para que la configuración del flujo de trabajo se tenga en cuenta correctamente.
 1. Cargue un archivo de muestra desde la **[!UICONTROL Properties]** ficha. El archivo cargado solo puede tener columnas necesarias para futuras importaciones o datos de muestra. Los datos del archivo de muestra le permiten probar la importación simplificada una vez definido el flujo de trabajo.
@@ -84,6 +87,6 @@ La plantilla de importación ya está disponible para los usuarios y se puede ut
 **Temas relacionados:**
 
 * [Flujos de trabajo](../../automating/using/get-started-workflows.md)
-* [Importación de datos](../../automating/using/importing-data.md)
-* [Ejemplo: Importar plantilla de flujo de trabajo](../../automating/using/importing-data.md#example--import-workflow-template)
+* [Importación y exportación de datos.](../../automating/using/about-data-import-and-export.md)
+* [Ejemplo: Importar plantilla de flujo de trabajo](../../automating/using/creating-import-workflow-templates.md)
 
