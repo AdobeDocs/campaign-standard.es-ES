@@ -12,7 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 96a1812ce8775f4bfb3db64a824a9fdc8185ac6b
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+workflow-type: tm+mt
+source-wordcount: '2536'
+ht-degree: 4%
 
 ---
 
@@ -83,7 +86,7 @@ Una vez generada la personalización (por ejemplo, al obtener una vista previa y
 
 >[!NOTE]
 >
->Si el correo electrónico se crea a partir de un flujo de trabajo, los datos adicionales calculados en el flujo de trabajo también estarán disponibles en los campos de personalización. Para obtener más información sobre cómo agregar datos adicionales desde un flujo de trabajo, consulte la sección [Enriquecimiento de datos](../../automating/using/targeting-data.md#enriching-data) .
+>Si el correo electrónico se crea a partir de un flujo de trabajo, los datos adicionales calculados en el flujo de trabajo también estarán disponibles en los campos de personalización. Para obtener más información sobre cómo agregar datos adicionales desde un flujo de trabajo, consulte la sección [Enriquecimiento de datos](../../automating/using/about-targeting-activities.md#enriching-data) .
 
 ## Añadir un bloque de contenido{#adding-a-content-block}
 
