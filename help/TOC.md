@@ -4,10 +4,10 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Ayuda de Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 4e5bb76be743fb44a464ebedb466927b87e21584
+source-git-commit: a9a6fc70fe8fe4ffa3560c725b7753b001d8e928
 workflow-type: tm+mt
-source-wordcount: '1451'
-ht-degree: 92%
+source-wordcount: '1453'
+ht-degree: 91%
 
 ---
 
@@ -253,9 +253,6 @@ ht-degree: 92%
    + Funcionamiento general del flujo de trabajo {#workflow-general-operation}
       + [Interfaz de flujo de trabajo](automating/using/workflow-interface.md)
       + [Creación de un flujo de trabajo](automating/using/building-a-workflow.md)
-      + [Datos de objetivos](automating/using/targeting-data.md)
-      + [Importación de datos](automating/using/importing-data.md)
-      + [Uso de datos de flujo de trabajo](automating/using/using-workflow-data.md)
       + [Prácticas recomendadas del flujo de trabajo](automating/using/best-practices-workflows.md)
    + Ejecución de un flujo de trabajo {#executing-a-workflow}
       + [Acerca de la ejecución del flujo de trabajo](automating/using/about-workflow-execution.md)
@@ -308,8 +305,10 @@ ht-degree: 92%
       + [Lista de funciones](automating/using/list-of-functions.md)
    + Importación y exportación de datos.{#importing-and-exporting-data}
       + [Acerca de la importación y exportación de datos](automating/using/about-data-import-and-export.md)
+      + [Prácticas recomendadas de importación](automating/using/import-best-practices.md)
       + [Importación de datos con plantillas de importación](automating/using/importing-data-with-import-templates.md)
-      + [Definición de plantillas de importación](automating/using/defining-import-templates.md)
+      + [Creación de plantillas de flujo de trabajo para importar datos](automating/using/creating-import-workflow-templates.md)
+      + [Administración de datos cifrados](automating/using/managing-encrypted-data.md)
       + [Exportación de registros](automating/using/exporting-logs.md)
       + [Administración de paquetes](automating/using/managing-packages.md)
       + [Exportación de listas](automating/using/exporting-lists.md)
