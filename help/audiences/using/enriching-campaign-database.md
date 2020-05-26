@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 2%
@@ -28,7 +28,7 @@ Campaign Standard oferta varias herramientas para ayudarle a ampliar su base de 
 
 Los Flujos de trabajo permiten recopilar datos e importarlos a la base de datos de Campañas mediante el uso de [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) actividades.
 
-En [esta sección](../../automating/using/importing-data.md)se presenta información genérica y optimizaciones para importar datos mediante flujos de trabajo.
+En [esta sección](../../automating/using/about-data-import-and-export.md)se presenta información genérica y optimizaciones para importar datos mediante flujos de trabajo.
 
 Además, puede configurar plantillas para importar datos. El uso de plantillas de importación es una práctica recomendada si necesita importar archivos con la misma estructura de forma regular.
 
@@ -36,7 +36,7 @@ Puede configurar dos tipos de plantillas:
 
 * **Plantillas** de flujo de trabajo: son flujos de trabajo preconfigurados que puede configurar una vez según sus necesidades y volver a utilizar cada vez que desee importar datos y actualizar la base de datos.
 
-   En [esta sección](../../automating/using/importing-data.md#example--import-workflow-template)se detalla un ejemplo de plantilla de flujo de trabajo para importar datos.
+   En [esta sección](../../automating/using/creating-import-workflow-templates.md)se detalla un ejemplo de plantilla de flujo de trabajo para importar datos.
 
 * **Importar plantillas** de datos: al igual que las plantillas de flujo de trabajo, se trata de plantillas basadas en flujos de trabajo que se configuran para cargar archivos para actualizar la base de datos. Una vez configurados, se ponen a disposición de los usuarios con una vista simplificada en el menú **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** .
 
