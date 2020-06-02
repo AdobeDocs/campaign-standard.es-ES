@@ -2,7 +2,7 @@
 title: Invocación de un recurso mediante una clave de identificación compuesta
 description: Obtenga información sobre cómo llamar a un recurso mediante una clave de identificación compuesta
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 1e1e1f5f9dd239e45d83330aed74a951a7b332d4
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 6%
@@ -99,7 +99,7 @@ GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<val
 ```
 
 >[!NOTE]
->Para llamar a un filtro de cliente, utilice el prefijo &quot;by&quot; seguido del nombre del filtro definido al configurar la definición del filtro en el [paso 2](../../developing/using/uc-calling-resource-id-key.md#step-2-configure-the-filter-definition).
+>Para llamar a un filtro personalizado, utilice el prefijo &quot;by&quot; seguido del nombre del filtro definido al configurar la definición del filtro en el [paso 2](../../developing/using/uc-calling-resource-id-key.md#step-2-configure-the-filter-definition).
 
 En nuestro caso, la sintaxis para recuperar un perfil de la categoría &quot;primavera&quot; con el ID de CRM &quot;123456&quot; sería:
 
