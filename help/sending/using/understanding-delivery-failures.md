@@ -12,7 +12,10 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1287a360cdd1750996b47a27b85a11e90b29df0
+source-git-commit: d05d2692607117e056c360e81d85b7d64c4077a3
+workflow-type: tm+mt
+source-wordcount: '1279'
+ht-degree: 28%
 
 ---
 
@@ -56,27 +59,23 @@ Existen tres tipos de errores cuando falla un envío:
 
 Los posibles motivos de un error de entrega son:
 
-* **[!UICONTROL User unknown]** (Tipo duro): la dirección no existe. No se intenta realizar entregas adicionales para este perfil.
-* **[!UICONTROL Quarantined address]** (Tipo duro): la dirección se colocó en cuarentena.
-* **[!UICONTROL Unreachable]** (Tipo suave/duro): se ha producido un error en la cadena de envío de mensajes (como un dominio temporalmente inaccesible). Según el error devuelto por el proveedor, la dirección se enviará directamente a la cuarentena o el envío se volverá a intentar hasta que la Campaña reciba un error que justifique el estado de la Cuarentena o hasta que el número de errores alcance el 5.
-* **[!UICONTROL Address empty]** (Tipo duro): la dirección no está definida.
-* **[!UICONTROL Mailbox full]** (Tipo suave): el buzón de este usuario está lleno y no puede aceptar más mensajes. Esta dirección se puede eliminar de la lista de cuarentena para realizar otro intento. Se elimina automáticamente al cabo de 30 días.
-
-   Para que la dirección se elimine de forma automática de la lista de direcciones en cuarentena, debe iniciarse el flujo de trabajo técnico **[!UICONTROL Database cleanup]**.
-
-* **[!UICONTROL Refused]** (Tipo suave/duro): la dirección se ha colocado en cuarentena debido a los comentarios de seguridad como un informe de spam. Según el error devuelto por el proveedor, la dirección se enviará directamente a la cuarentena o el envío se volverá a intentar hasta que la Campaña reciba un error que justifique el estado de la Cuarentena o hasta que el número de errores alcance el 5.
-* **[!UICONTROL Duplicate]**:: la dirección ya se ha detectado en la segmentación.
-* **[!UICONTROL Not defined]** (Tipo suave): la dirección está cualificada porque aún no se han incrementado los errores.
-
-   Este tipo de error se produce cuando el servidor envía un nuevo mensaje de error: puede tratarse de un error aislado; sin embargo, si vuelve a producirse, el contador de errores aumenta, lo que advierte a los equipos técnicos.
-
-* **[!UICONTROL Error ignored]**:: la dirección está en la lista blanca y se le enviará un correo electrónico en cualquier caso.
-* **[!UICONTROL Blacklisted address]**:: la dirección estaba en la lista negra en el momento del envío.
-* **[!UICONTROL Account disabled]** (Tipo suave/duro): cuando el proveedor de acceso a Internet (IAP) detecta un largo período de inactividad, puede cerrar la cuenta del usuario: Los envíos a la dirección del usuario serán imposibles. El tipo Suave o Duro depende del tipo de error recibido: si la cuenta se desactiva temporalmente debido a seis meses de inactividad y aún puede activarse, el estado **[!UICONTROL Erroneous]** se asignará y el envío se volverá a intentar. Si el error recibido indica que la cuenta está desactivada de forma permanente, se enviará directamente a la Cuarentena.
-* **[!UICONTROL Not connected]**:: el teléfono móvil del perfil está apagado o no conectado a la red cuando se envía el mensaje.
-* **[!UICONTROL Invalid domain]** (Tipo suave): el dominio de la dirección de correo electrónico es incorrecto o ya no existe. Este perfil se vuelve a seleccionar hasta que el recuento de errores llegue a 5. Después de esto, el registro se pone en estado de cuarentena y no se realiza ningún reintento.
-* **[!UICONTROL Text too long]**:: el número de caracteres del mensaje SMS supera el límite. Para obtener más información sobre esto, consulte Codificación, longitud y transliteración [SMS](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
-* **[!UICONTROL Character not supported by encoding]**:: el mensaje SMS contiene uno o varios caracteres que no son compatibles con la codificación. &amp;Para obtener más información sobre esto, consulte [Tabla de caracteres - Estándar](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard)GSM.
+| Etiqueta de error | Tipo de error | Descripción |
+---------|----------|---------
+| **[!UICONTROL User unknown]** | Grave | La dirección no existe. No se intenta realizar entregas adicionales para este perfil. |
+| **[!UICONTROL Quarantined address]** | Grave | La dirección se envió a cuarentena. |
+| **[!UICONTROL Unreachable]** | Leve/Grave | Se ha producido un error en la cadena de envío de mensajes (como un dominio temporalmente inaccesible). Según el error devuelto por el proveedor, la dirección se enviará directamente a la cuarentena o el envío se volverá a intentar hasta que la Campaña reciba un error que justifique el estado de la Cuarentena o hasta que el número de errores alcance el 5. |
+| **[!UICONTROL Address empty]** | Grave | La dirección no está definida. |
+| **[!UICONTROL Mailbox full]** | Leve | El buzón de este usuario está lleno y no puede aceptar más mensajes. Esta dirección se puede eliminar de la lista de cuarentena para realizar otro intento. Se elimina automáticamente al cabo de 30 días. Para que la dirección se elimine de forma automática de la lista de direcciones en cuarentena, debe iniciarse el flujo de trabajo técnico **[!UICONTROL Database cleanup]**. |
+| **[!UICONTROL Refused]** | Leve/Grave | La dirección se ha enviado a cuarentena debido a un comentario de seguridad que informa de correo no deseado. Según el error devuelto por el proveedor, la dirección se enviará directamente a la cuarentena o el envío se volverá a intentar hasta que la Campaña reciba un error que justifique el estado de la Cuarentena o hasta que el número de errores alcance el 5. |
+| **[!UICONTROL Duplicate]** | Ignorado | La dirección ya se ha detectado en la segmentación. |
+| **[!UICONTROL Not defined]** | Leve | la dirección está cualificada porque aún no se han incrementado los errores. Este tipo de error se produce cuando el servidor envía un nuevo mensaje de error: puede tratarse de un error aislado; sin embargo, si vuelve a producirse, el contador de errores aumenta, lo que advierte a los equipos técnicos. |
+| **[!UICONTROL Error ignored]** | Ignorado | La dirección está en la lista blanca y se le enviará un correo electrónico en cualquier caso. |
+| **[!UICONTROL Blacklisted address]** | Grave | la dirección estaba en la lista negra en el momento del envío. |
+| **[!UICONTROL Account disabled]** | Leve/Grave | Cuando el proveedor de acceso a Internet (IAP) detecta un largo período de inactividad, puede cerrar la cuenta del usuario: Los envíos a la dirección del usuario serán imposibles. El tipo Suave o Duro depende del tipo de error recibido: si la cuenta se desactiva temporalmente debido a seis meses de inactividad y aún puede activarse, el estado **[!UICONTROL Erroneous]** se asignará y el envío se volverá a intentar. Si el error recibido indica que la cuenta está desactivada de forma permanente, se enviará directamente a la Cuarentena. |
+| **[!UICONTROL Not connected]** | Ignorado | El teléfono móvil del perfil está apagado o no conectado a la red cuando se envía el mensaje. |
+| **[!UICONTROL Invalid domain]** | Leve | El dominio de la dirección del correo electrónico es incorrecto o ya no existe. Este perfil se vuelve a seleccionar hasta que el recuento de errores llegue a 5. Después de esto, el registro se pone en estado de cuarentena y no se realiza ningún reintento. |
+| **[!UICONTROL Text too long]** | Ignorado | El número de caracteres del mensaje SMS supera el límite. Para obtener más información sobre esto, consulte Codificación, longitud y transliteración [SMS](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration). |
+| **[!UICONTROL Character not supported by encoding]** | Ignorado | El mensaje SMS contiene uno o varios caracteres que no son compatibles con la codificación. &amp;Para obtener más información sobre esto, consulte [Tabla de caracteres - Estándar](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard)GSM. |
 
 ## Reintentos tras un fallo temporal de entrega {#retries-after-a-delivery-temporary-failure}
 
