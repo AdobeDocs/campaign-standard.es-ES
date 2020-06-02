@@ -12,7 +12,10 @@ discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
+source-git-commit: 26760a118f87676afe3d359c8db3513c1a190d35
+workflow-type: tm+mt
+source-wordcount: '1479'
+ht-degree: 2%
 
 ---
 
@@ -79,11 +82,11 @@ Al administrar la privacidad, es importante definir qué datos deben manejarse c
 Las [principales legislaciones](#privacy-regulations) se refieren a las diferentes entidades que administran los datos de la siguiente manera:
 * Un controlador **de datos** es la autoridad que determina los medios y el propósito de recopilar, utilizar y compartir datos personales.
 * Un procesador **de** datos es cualquier persona o parte que recopila, utiliza o comparte datos personales según lo indicado por el controlador de datos.
-* Se entiende por sujeto **de** datos toda persona viva cuyos datos personales se recopilen, utilicen o compartan y que pueda identificarse, directa o indirectamente, por referencia a dichos datos personales.
+* El sujeto **** de datos es toda persona viva cuyos datos personales se recopilan, utilizan o comparten y que puede identificarse, directa o indirectamente, por referencia a esos datos personales.
 
 Por lo tanto, como compañía que recopila y comparte datos personales, usted es el controlador de datos, sus clientes son los sujetos de datos y el Adobe Campaign actúa como un procesador de datos al tratar sus datos personales como usted lo indica. Tenga en cuenta que, como controlador de datos, es su responsabilidad gestionar la relación con los temas de datos, como al administrar solicitudes [de](#privacy-requests)privacidad.
 
-Al integrar la Campaña con otras soluciones de Experience Cloud en las que se pueden transferir audiencias de un sistema a otro, como el servicio [Destinos de](../../audiences/using/aep-about-audience-destinations-service.md)Audiencia, el servicio [principal](../../integrating/using/about-campaign-analytics-integration.md)Adobe Analytics [, el administrador de](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)Audiencias o Personas, o con otras soluciones como [Microsoft Dynamics 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md), debe prestar especial atención a la protección de datos personales.
+Al integrar la Campaña con otras soluciones de Experience Cloud en las que se pueden transferir audiencias de un sistema a otro, como el servicio [Destinos de](../../audiences/using/aep-about-audience-destinations-service.md)Audiencia, el servicio [principal](../../integrating/using/about-campaign-analytics-integration.md)Adobe Analytics [, el administrador de](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)Audiencias o Personas, o con otras soluciones como [Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md), debe prestar especial atención a la protección de datos personales.
 
 ## Adquisición de datos {#data-acquisition}
 
