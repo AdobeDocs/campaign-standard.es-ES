@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e89218b584f0d621ca700d4ee2a4866555d00679
+source-git-commit: 15570e42a345e0b8df2fe59d5ce06877e2ac7cf3
 workflow-type: tm+mt
 source-wordcount: '5842'
 ht-degree: 19%
@@ -26,7 +26,7 @@ Además de las Notas [de la](../../rn/using/release-notes.md)versión de Adobe C
 
 ## Actualizaciones de la documentación - Junio de 2020 {#doc-updates-june-2020}
 
-Campaign Standard: la integración de Microsoft Dynamics 365 no está disponible en este momento. Se está desarrollando un nuevo conector que estará disponible en el futuro. Para obtener más información, póngase en contacto con su representante de ventas de Adobe.
+Campaign Standard: la integración de Microsoft Dynamics 365 no está disponible en este momento. Se está desarrollando un nuevo conector que estará disponible en el futuro. Se han eliminado las páginas de ayuda relacionadas. [Más información](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 ## Actualizaciones de la documentación - Mayo de 2020 {#doc-updates-may-2020}
 
