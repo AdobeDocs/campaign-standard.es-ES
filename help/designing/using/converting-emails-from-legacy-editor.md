@@ -12,7 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: caab111b583534cc2e52aa9e45d9fd37c770783c
+source-git-commit: bb83fb3b24af0102dc3745517e8604fdac82ee19
+workflow-type: tm+mt
+source-wordcount: '438'
+ht-degree: 2%
 
 ---
 
@@ -21,15 +24,15 @@ source-git-commit: caab111b583534cc2e52aa9e45d9fd37c770783c
 
 Inicio que trabaja con el Diseñador de correo electrónico y genera plantillas y fragmentos reutilizables a partir del HTML de correo electrónico creado en el Editor preexistente.
 
->[!IMPORTANT]
->
->Esta sección está dirigida a usuarios avanzados familiarizados con el código HTML.
-
 Este caso de uso permite crear una plantilla de diseñador de correo electrónico mediante un correo electrónico HTML y dividirla en componentes HTML en el Diseñador de correo electrónico.
 
 >[!NOTE]
 >
 >Al igual que el modo de compatibilidad, un componente HTML es editable con opciones limitadas: solo puede realizar una edición in-situ.
+
+>[!IMPORTANT]
+>
+>Esta sección está dirigida a usuarios avanzados familiarizados con el código HTML.
 
 ## Preparación del contenido del correo electrónico
 
