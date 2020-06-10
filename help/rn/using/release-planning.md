@@ -12,10 +12,10 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fb865ae08a4b0db42b71e58895976a973a2ed6b7
+source-git-commit: c7ed307e982e3fe41b2e3a7d0de7de356338bc08
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 4%
+source-wordcount: '458'
+ht-degree: 5%
 
 ---
 
@@ -32,9 +32,9 @@ Todas las fechas de lanzamiento están sujetas a cambios: le recomendamos que vi
 
 **¡NUEVO!** Suscríbase a las notificaciones [de la versión de](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) Campaign Standard para obtener detalles sobre próximas versiones directamente en la bandeja de entrada.
 
-## Versión 20.3.1: Versión de mayo {#release-20-3-may-release}
+## Versión 20.4: versión de octubre {#release-20-4-oct-release}
 
-Las actualizaciones de Entorno se producen en olas, durante los intervalos de tiempo indicados a continuación. Encontrará información detallada sobre esta versión en las [Notas](../../rn/using/release-notes.md)de la versión. Si tiene alguna duda, póngase en contacto con [Adobe Client Care](https://support.neolane.net/webApp/extranetLogin).
+Las actualizaciones de Entorno se producen en olas, durante los intervalos de tiempo indicados a continuación. Encontrará información detallada sobre esta versión en las [Notas](../../rn/using/release-notes.md)de la versión. Si tiene alguna duda, póngase en contacto con [Adobe Client Care](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html).
 
 <table>
  <thead>
@@ -46,11 +46,11 @@ Las actualizaciones de Entorno se producen en olas, durante los intervalos de ti
  <tbody>
   <tr>
    <td>Fase<br /> </td>
-   <td>26 y 27 de mayo de 2020<br /> </td>
+   <td>21 y 22 de septiembre de 2020<br /> </td>
   </tr>
   <tr>
    <td> Producción<br /> </td>
-   <td>28 de mayo a 1 de junio de 2020<br /> </td>
+   <td>28 de septiembre a 5 de octubre de 2020<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -65,7 +65,7 @@ A: Los cambios se enumeran en las [Notas](../../rn/using/release-notes.md)de la 
 
 **P: ¿Cuál es el proceso de validación?**
 
-A: A medida que se actualiza la instancia de ensayo, Adobe recomienda validar los procesos y casos de uso que funcionan correctamente con esta nueva versión e informar de cualquier problema a [Adobe Client Care](https://support.neolane.net/webApp/extranetLogin).
+A: A medida que se actualiza la instancia de ensayo, Adobe recomienda validar los procesos y casos de uso que funcionan correctamente con esta nueva versión e informar de cualquier problema a [Adobe Client Care](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html).
 
 **P: ¿Habrá acceso a la instancia durante el proceso de actualización?**
 
@@ -87,4 +87,4 @@ A: Sí, funcionarán. No se pueden enviar nuevos correos electrónicos durante l
 
 A: Al iniciar sesión en la Campaña, se mostrará una ventana emergente de notificación de lanzamiento con la versión más reciente.
 
-Para cualquier otra pregunta, póngase en contacto con [Adobe Client Care](https://support.neolane.net/webApp/extranetLogin).
+Para cualquier otra pregunta, póngase en contacto con [Adobe Client Care](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html).
