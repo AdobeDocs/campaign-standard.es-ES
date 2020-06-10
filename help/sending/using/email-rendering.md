@@ -12,7 +12,10 @@ discoiquuid: 2b5b13c8-2e51-4985-a161-c1d7f0fc32b4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: b43e6be265ff2d8ce357ef44672a755028e2e5af
+workflow-type: tm+mt
+source-wordcount: '435'
+ht-degree: 15%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 Before hitting the **[!UICONTROL Send]** button, make sure that your message will be displayed in an optimal way on a variety of web clients, web mails and devices.
 
-Para permitir esto, Adobe Campaign captura el procesamiento y lo pone a disposición en un informe dedicado. Esto le permite obtener una vista previa del mensaje enviado en los diferentes contextos en los que se puede recibir.
+Para permitirlo, Adobe Campaign captura el procesamiento y lo pone a disposición en un informe dedicado. Esto le permite previsualización del mensaje enviado en los diferentes contextos en los que se puede recibir.
 
 The mobile, messaging and webmail clients available for **Email rendering** in Adobe Campaign are listed on the Litmus [website](https://litmus.com/email-testing) (click **View all email clients**).
 
@@ -33,11 +36,11 @@ Una vez que haya creado su envío de correo electrónico y definido su contenido
 
    ![](assets/email_rendering_05.png)
 
-1. Utilice el editor de consultas para definir los perfiles de prueba que desea utilizar, incluidos los perfiles de prueba que se utilizan para el procesamiento **por correo** electrónico. Consulte [Acerca de los perfiles](../../audiences/using/managing-test-profiles.md)de prueba.
+1. Utilice el editor de consultas para definir los perfiles de prueba que desea utilizar, incluidos los perfiles de prueba que se utilizan para el procesamiento **por** correo electrónico. Consulte [Acerca de los perfiles](../../audiences/using/managing-test-profiles.md)de prueba.
 
    ![](assets/email_rendering_06.png)
 
-1. Compruebe y confirme la consulta, luego guarde los cambios.
+1. Compruebe y confirme la consulta y, a continuación, guarde los cambios.
 1. Haga clic en el **[!UICONTROL Test]** botón de la barra de acciones.
 
    ![](assets/email_rendering_07.png)
@@ -48,9 +51,9 @@ Una vez que haya creado su envío de correo electrónico y definido su contenido
 
    >[!NOTE]
    >
-   >La **[!UICONTROL Proof + Email rendering]** opción le permite enviar una prueba y utilizar simultáneamente la función de procesamiento por correo electrónico. Puede solicitar la aprobación del mensaje por parte de los destinatarios de la prueba y, al mismo tiempo, puede probar la forma en que se recibirá el mensaje en función de las bandejas de entrada objetivo. En este caso, también debe seleccionar Perfiles de prueba. Consulte [Acerca de los perfiles](../../audiences/using/managing-test-profiles.md)de prueba.
+   >La **[!UICONTROL Proof + Email rendering]** opción le permite enviar una prueba y utilizar simultáneamente la función de procesamiento de correo electrónico. Puede solicitar la aprobación del mensaje por parte de los destinatarios de prueba y, al mismo tiempo, puede probar la forma en que se recibirá el mensaje en función de las bandejas de entrada objetivo. En este caso, también debe seleccionar perfiles de prueba de Prueba. Consulte [Acerca de los perfiles](../../audiences/using/managing-test-profiles.md)de prueba.
 
-   Se envía la entrega de la prueba.
+   Se envía el envío de prueba.
 
 1. Las miniaturas de procesamiento están disponibles unos minutos después de enviar los mensajes. Para acceder a ellos, seleccione **[!UICONTROL Proofs]** en la lista **[!UICONTROL Summary]** desplegable.
 
@@ -66,15 +69,15 @@ Se muestra el informe de procesamiento de correo electrónico dedicado. Consulte
 
 * [Creación de un correo electrónico](../../channels/using/creating-an-email.md)
 * [Envío de pruebas](../../sending/using/sending-proofs.md)
-* [Editor de consultas](../../automating/using/editing-queries.md#about-query-editor)
+* [Editor de Consultas](../../automating/using/editing-queries.md#about-query-editor)
 
 ## Descripción del informe de procesamiento por correo electrónico {#email-rendering-report-description}
 
-Este informe presenta las representaciones de correo electrónico tal como aparecen en el destinatario. Las representaciones de correo electrónico pueden variar en función de cómo el destinatario abre la entrega de correo electrónico: en un navegador, en un dispositivo móvil o mediante una aplicación de correo electrónico.
+Este informe presenta las representaciones por correo electrónico tal como aparecen en el destinatario. Las representaciones de correo electrónico pueden diferir en función de cómo el destinatario abre el envío de correo electrónico: en un navegador, en un dispositivo móvil o mediante una aplicación de correo electrónico.
 
 >[!NOTE]
 >
->El número de representaciones disponibles aparece en el contrato de licencia. Cada entrega con procesamiento **por correo** electrónico habilitado disminuye las representaciones disponibles (conocidas como tokens) en uno. Si es cliente de Litmus, puede utilizar su propia cuenta de Litmus para aprovisionar y utilizar el procesamiento por correo electrónico en Adobe Campaign. Para obtener más información, póngase en contacto con el administrador de cuentas de Adobe.
+>El número de representaciones disponibles aparece en el contrato de licencia. Cada envío con el procesamiento **** por correo electrónico habilitado disminuye las representaciones disponibles (conocidas como tokens) en uno.
 
 El resumen del informe muestra el número de mensajes recibidos, no deseados (spam), no recibidos o pendientes de recepción.
 
