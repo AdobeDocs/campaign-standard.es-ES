@@ -12,7 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6f89b420f0f98c13da1bfff8f9b1b29e015aef89
+source-git-commit: 343ea01229779a32919bd68fd15e0c7ff6863353
+workflow-type: tm+mt
+source-wordcount: '1095'
+ht-degree: 1%
 
 ---
 
@@ -52,17 +55,17 @@ Se calculan varios indicadores y se muestra un conjunto de herramientas para ayu
 * **Tasa** abierta prevista: Este gráfico le ofrece una idea de la velocidad de apertura que puede esperar para el correo electrónico con su asunto actual.
 * **Duración** del asunto: Este indicador permite ver si la longitud actual del asunto es correcta o si debería ser más larga o más corta.
 * **Palabras** de color: Al probar el tema, las palabras resaltadas en verde son las que contribuyen en mayor medida a aumentar la predicción de la tasa abierta. Las palabras resaltadas en rojo son las que menos contribuyen a aumentar la predicción de tasa abierta. Si agrega o elimina palabras en el asunto, las palabras resaltadas cambiarán.
-* **Categorías y sugerencias** de palabras: Hacia la parte inferior de la ventana, se muestran varias categorías relevantes para el modelo seleccionado. Estas categorías se ordenan por orden de importancia y permiten ver si el asunto contiene palabras que están asociadas con él a través de un símbolo de verificación. Cada categoría contiene un conjunto de palabras sugeridas que se pueden usar en el asunto para hacerlo más relevante y aumentar la tasa abierta. Estas palabras son las palabras que se utilizan con más frecuencia en una categoría determinada.
+* **Categorías y sugerencias** de palabra: Hacia la parte inferior de la ventana se muestran varias categorías relevantes para el modelo seleccionado. Estas categorías se ordenan por orden de importancia y permiten ver si el asunto contiene palabras que están asociadas con él mediante un símbolo de verificación. Cada categoría contiene un conjunto de palabras sugeridas que podrían utilizarse en el tema para hacerlo más relevante y aumentar la tasa de apertura. Estas palabras son las palabras que se utilizan con más frecuencia en una categoría determinada.
 
 >[!NOTE]
 >
->Los campos de personalización y los signos de puntuación se eliminan del análisis de temas. En el caso del texto dinámico/condicional, todas las variantes se consideran una sola línea de asunto.
+>Los Campos de personalización y signos de puntuación se eliminan de la análisis del sujeto. En el caso del texto dinámico/condicional, todas las variantes se consideran una sola línea de asunto.
 
 ![](assets/predictive_subject_line_example.png)
 
 ## Importación de modelos {#importing-models}
 
-De forma predeterminada, no hay ningún modelo en ejecución en el servidor de Adobe Campaign. Existen dos formas de obtener un modelo y activar la función:
+De forma predeterminada, no hay ningún modelo en ejecución en el servidor Adobe Campaign. Existen dos formas de obtener un modelo y activar la función:
 
 * Puede formar un modelo local a partir de los datos de los mensajes de correo electrónico anteriores.
 * Puede importar modelos preformados específicos de determinadas industrias (médicas, etc.) mediante la función de importación [de](../../automating/using/managing-packages.md) paquetes.
@@ -71,7 +74,7 @@ De forma predeterminada, no hay ningún modelo en ejecución en el servidor de A
 
 * Si ya está utilizando Adobe Campaign, el modelo local recibirá automáticamente formación sobre los mensajes que ya ha enviado.
 * Si es nuevo en Adobe Campaign, puede extraer un archivo CSV del sistema o ESP anterior que contenga 4 columnas: fecha, asunto, abre, enviado. Para ello, vaya a **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email]** > **[!UICONTROL Subject Line Import]** y siga las instrucciones que aparecen en las pantallas sucesivas. Una vez completada la carga del asunto, importe un modelo local como se describe a continuación. El modelo local se capacita automáticamente con los datos cargados.
-* Si es nuevo en Adobe Campaign y no puede obtener un archivo CSV como se describe anteriormente, puede utilizar un modelo [](#pre-trained-models) preentrenado o esperar a que tenga suficientes datos de entrega en el sistema para formar un modelo local. El sistema determinará automáticamente si el conjunto de datos actual contiene datos suficientes para reconocer patrones y para entrenar el modelo.
+* Si es nuevo en Adobe Campaign y no puede obtener un archivo CSV como se ha descrito anteriormente, puede utilizar un modelo [](#pre-trained-models) preentrenado o esperar hasta que tenga suficientes datos de envío en el sistema para formar un modelo local. El sistema determinará automáticamente si el conjunto de datos actual contiene datos suficientes para reconocer patrones y para entrenar el modelo.
 
 >[!NOTE]
 >
@@ -80,14 +83,14 @@ De forma predeterminada, no hay ningún modelo en ejecución en el servidor de A
 >Sólo puede tener un modelo entrenado en su instancia.
 
 Para entrenar un modelo local:
-1. Descargue subjectLineTraining.xml desde [aquí](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) y utilice la función de importación [de](../../automating/using/managing-packages.md) paquetes para cargarla en la instancia de Adobe Campaign. Un flujo de trabajo técnico hará automáticamente la formación.
-1. La primera vez que desee formar un modelo, un administrador puede forzar el **[!UICONTROL SubjectLine Training workflow]** inicio desde el menú **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Workflows]** .
+1. Descargue subjectLineTraining.xml desde [aquí](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) y utilice la función de importación [de](../../automating/using/managing-packages.md) paquetes para cargarla en la instancia de Adobe Campaign. Un flujo de trabajo técnico hará automáticamente la formación.
+1. La primera vez que desee formar un modelo, un administrador puede forzar el inicio **[!UICONTROL SubjectLine Training workflow]** a en el menú **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Workflows]** .
 1. Una vez cargado y entrenado un modelo, la función se activa automáticamente y aparece una nueva opción junto al campo de línea de asunto de los mensajes.
 1. A continuación, el flujo de trabajo técnico seguirá formando automáticamente a su modelo cada semana.
 
 ### Importación de modelos preentrenados {#pre-trained-models}
 
-Para acceder a estos modelos, haga clic [aquí](https://support.neolane.net/webApp/extranetLogin) y vaya a **[!UICONTROL Download Center]**. Utilice la función de importación [de](../../automating/using/managing-packages.md) paquetes para cargar un modelo en la instancia de Adobe Campaign.
+Para acceder a estos modelos, haga clic [aquí](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). Utilice la función de importación [de](../../automating/using/managing-packages.md) paquetes para cargar un modelo en la instancia de Adobe Campaign.
 
 Los modelos disponibles para su uso son:
 
@@ -108,7 +111,7 @@ Una vez cargado un modelo, la función se activa automáticamente y aparece una 
 
 La línea de asunto predictiva es un proceso de aprendizaje automático que tiene en cuenta todas las líneas de asunto que ha cargado con sus tarifas abiertas. Esto permite al sistema predecir la velocidad de apertura de un correo electrónico cuando se envía una nueva línea de asunto.
 
-Para poder formar tu propio modelo, las líneas de asunto deben ser variadas y no deben tener duplicados, independientemente del número de líneas de asunto que se utilicen para entrenar tu modelo.
+Para poder entrenar a tu propio modelo, las líneas de asunto deben ser variadas y no deben tener duplicados, sin importar el número de líneas de asunto que se utilicen para entrenar a tu modelo.
 
 La calidad de las líneas temáticas es esencial. Si no hay suficientes datos de calidad para procesar, o si todas las líneas de asunto anteriores son demasiado similares, el sistema no podrá entrenar el modelo y puede que reciba un mensaje de error. Significa que su conjunto de registros existente no permite ofrecer una sugerencia predictiva confiable.
 
