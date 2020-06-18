@@ -12,7 +12,10 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '386'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
 
 Puede enviar mensajes transaccionales en función de los perfiles de mercadotecnia del cliente, lo que le permite:
 
-* Aplicar reglas de tipología de marketing como **[!UICONTROL Blacklisted address]** o reglas de [fatiga](../../sending/using/fatigue-rules.md).
+* Aplicar reglas de tipología de marketing como **[!UICONTROL Address on block list]** o reglas de [fatiga](../../sending/using/fatigue-rules.md).
 * Incluya el vínculo baja dentro de los mensajes.
 * Añadir los mensajes transaccionales al sistema de informes de envío global.
 * Aproveche los mensajes transaccionales en el viaje del cliente.
@@ -71,11 +74,11 @@ Una vez que se publique el mensaje y se haya completado la integración del siti
 
    ![](assets/message-center_marketing_sending_logs.png)
 
-1. Seleccione la **[!UICONTROL Exclusions logs]** ficha para vista de destinatarios que se han excluido del destinatario de mensajes, como direcciones en la lista negra.
+1. Seleccione la **[!UICONTROL Exclusions logs]** ficha para vista de destinatarios que se han excluido del destinatario de mensajes, como las direcciones de la lista de bloques.
 
    ![](assets/message-center_marketing_exclusion_logs.png)
 
-Para cualquier perfil que haya exclusión, la **[!UICONTROL Blacklisted address]** reglas de tipología excluyó el destinatario correspondiente.
+Para cualquier perfil que haya exclusión, la **[!UICONTROL Address on block list]** reglas de tipología excluyó el destinatario correspondiente.
 
 Esta regla forma parte de una tipología específica que se aplica a todos los mensajes transaccionales basados en la **[!UICONTROL Profile]** tabla.
 
