@@ -12,7 +12,10 @@ discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6291862737c71b63d8107b03245d5207b6151e96
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '674'
+ht-degree: 8%
 
 ---
 
@@ -21,16 +24,16 @@ source-git-commit: 6291862737c71b63d8107b03245d5207b6151e96
 
 >[!NOTE]
 >
->Para procesar y administrar mejor los grandes volúmenes y los análisis en tiempo real, los informes dinámicos utilizan agregaciones aproximadas para las estimaciones de recuento diferenciadas. Las agregaciones aproximadas ofrecen un uso limitado de la memoria y suelen ser más rápidas que los cálculos exactos.
+>Para procesar y administrar mejor volúmenes altos y análisis en tiempo real, el sistema de informes dinámico utiliza agregaciones aproximadas para estimaciones de recuento diferenciadas. Las agregaciones aproximadas oferta el uso de la memoria delimitada y suelen ser más rápidas que los cálculos exactos.
 
-Las tablas siguientes proporcionan la lista de indicadores utilizados en los distintos informes y su fórmula de cálculo según el tipo de envío.
+Las tablas siguientes proporcionan la lista de los indicadores utilizados en los distintos informes y su fórmula de cálculo según el tipo de envío.
 
 ## Envío de correo electrónico {#email-delivery}
 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Etiqueta</strong><br /> </th> 
+   <th> <strong>Etiqueta</strong> <br /> </th> 
    <th> <strong>Nombre del campo</strong> <br /> </th> 
    <th> <strong>Fórmula de cálculo del indicador</strong> <br /> </th> 
    <th> <strong>Comentarios</strong><br /> </th> 
@@ -45,14 +48,14 @@ Las tablas siguientes proporcionan la lista de indicadores utilizados en los dis
   </tr> 
   <tr> 
    <td> Bloqueado<br /> </td> 
-   <td> @blacklist<br /> </td> 
+   <td> @locked<br /> </td> 
    <td> count(@failReason=8, @failType=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> Tarifa bloqueada<br /> </td> 
-   <td> @rateBlacklists<br /> </td> 
-   <td> @blacklisted/@sent<br /> </td> 
+   <td> @rateBlocklists<br /> </td> 
+   <td> @block/@sent<br /> </td> 
    <td> El denominador para el cálculo del tipo se basa en el recuento de envíos (entregado + devoluciones).<br /> </td> 
   </tr> 
   <tr> 
@@ -80,7 +83,7 @@ Las tablas siguientes proporcionan la lista de indicadores utilizados en los dis
    <td> El denominador para el cálculo del tipo de interés se basa en Entregado solamente.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Enviado<br /> </td> 
+   <td> Entrega<br /> </td> 
    <td> @delivered<br /> </td> 
    <td> count(@status=1)<br /> </td> 
    <td> </td> 
@@ -116,13 +119,13 @@ Las tablas siguientes proporcionan la lista de indicadores utilizados en los dis
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Página de reflejo<br /> </td> 
+   <td> Página espejo<br /> </td> 
    <td> @mirrorPage<br /> </td> 
    <td> count(@trackingUrlType=6)<br /> </td> 
    <td> El denominador para el cálculo del tipo de interés se basa en Entregado solamente.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Reflejar tasa de página<br /> </td> 
+   <td> Tasa de Página espejo<br /> </td> 
    <td> @rateMirrorPage<br /> </td> 
    <td> @mirrorPage/@did<br /> </td> 
    <td> </td> 
@@ -146,15 +149,15 @@ Las tablas siguientes proporcionan la lista de indicadores utilizados en los dis
    <td> El denominador para el cálculo del tipo de interés se basa en Entregado solamente.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Cuarentena<br /> </td> 
+   <td> Quarantine<br /> </td> 
    <td> @quarantine<br /> </td> 
    <td> isQuarantine=true<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Tasa de cuarentena<br /> </td> 
+   <td> Tasa de Cuarentena<br /> </td> 
    <td> @rateQuarantine<br /> </td> 
-   <td> @quarantine/@sent<br /> </td> 
+   <td> @cuarentena/@sent<br /> </td> 
    <td> El denominador para el cálculo del tipo se basa en el recuento de envíos (entregado + devoluciones).<br /> </td> 
   </tr>
   <tr> 
@@ -164,7 +167,7 @@ Las tablas siguientes proporcionan la lista de indicadores utilizados en los dis
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Tasa rechazada<br /> </td> 
+   <td> Tipo Rechazado<br /> </td> 
    <td> @rateReject<br /> </td> 
    <td> @rechazado/@sent<br /> </td> 
    <td> El denominador para el cálculo del tipo se basa en el recuento de envíos (entregado + devoluciones).<br /> </td> 
@@ -231,7 +234,7 @@ Las tablas siguientes proporcionan la lista de indicadores utilizados en los dis
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Etiqueta</strong><br /> </th> 
+   <th> <strong>Etiqueta</strong> <br /> </th> 
    <th> <strong>Nombre del campo</strong> <br /> </th> 
    <th> <strong>Fórmula de cálculo del indicador</strong> <br /> </th> 
   </tr> 
@@ -243,7 +246,7 @@ Las tablas siguientes proporcionan la lista de indicadores utilizados en los dis
    <td> @count(status=sent)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Enviado<br /> </td> 
+   <td> Entrega<br /> </td> 
    <td> @delivered<br /> </td> 
    <td> @count(status=delivery)<br /> </td> 
   </tr> 
@@ -280,7 +283,7 @@ Las tablas siguientes proporcionan la lista de indicadores utilizados en los dis
   <tr> 
    <td> Impresiones únicas<br /> </td> 
    <td> @uniqueimpressions<br /> </td> 
-   <td> @unique(@count(status=view))<br /> </td> 
+   <td> @unique(@count(status=vista))<br /> </td> 
   </tr> 
   <tr> 
    <td> Haga clic<br /> </td> 
@@ -305,7 +308,7 @@ Las tablas siguientes proporcionan la lista de indicadores utilizados en los dis
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Etiqueta</strong><br /> </th> 
+   <th> <strong>Etiqueta</strong> <br /> </th> 
    <th> <strong>Nombre del campo</strong> <br /> </th> 
    <th> <strong>Fórmula de cálculo del indicador</strong> <br /> </th> 
    <th> <strong>Comentarios</strong><br /> </th> 
@@ -319,7 +322,7 @@ Las tablas siguientes proporcionan la lista de indicadores utilizados en los dis
    <td> sent=received<br /> </td> 
   </tr> 
   <tr> 
-   <td> Enviado<br /> </td> 
+   <td> Entrega<br /> </td> 
    <td> @delivered<br /> </td> 
    <td> @count(status=delivery)<br /> </td> 
    <td> entregado=enviado<br /> </td> 
@@ -327,14 +330,14 @@ Las tablas siguientes proporcionan la lista de indicadores utilizados en los dis
   <tr> 
    <td> Impresiones<br /> </td> 
    <td> @impresiones<br /> </td> 
-   <td> @count(status=view) o @count(status=button 1 clic + botón 2 clic + despidos)<br /> </td> 
+   <td> @count(status=vista) o @count(status=botón 1 clic + botón 2 clic + despidos)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> Impresiones únicas<br /> </td> 
    <td> @uniqueimpressions<br /> </td> 
-   <td> @unique(@count(status=view))<br /> </td> 
-   <td> Para los usuarios de <span class="uicontrol">Target según su plantilla de perfil de campaña (en AppProfile)</span> , usuario = ID del destinatario.<br /> Para <span class="uicontrol">Target, todos los usuarios de una aplicación móvil (en AppBroadcast)</span> y los usuarios de <span class="uicontrol">Target según sus plantillas de perfil móvil (en la aplicación)</span> , usuario = ID de MC o equivalente que representa una combinación única de usuario, aplicación móvil y dispositivo.<br /> </td> 
+   <td> @unique(@count(status=vista))<br /> </td> 
+   <td> Para los usuarios de <span class="uicontrol">Destinatario en función de su plantilla de perfil de Campaña (en AppProfile)</span> , usuario = ID de Destinatario.<br /> Para <span class="uicontrol">Destinatario de todos los usuarios de una aplicación móvil (en AppBroadcast)</span> y usuarios de <span class="uicontrol">Destinatario según sus plantillas de perfil móvil (en la aplicación)</span> , usuario = ID de MC o equivalente que representa una combinación única de usuario, aplicación móvil y dispositivo.<br /> </td> 
   </tr> 
   <tr> 
    <td> Clics en la aplicación <br /> </td> 
@@ -346,7 +349,7 @@ Las tablas siguientes proporcionan la lista de indicadores utilizados en los dis
    <td> Clics únicos en la aplicación<br /> </td> 
    <td> @uniqueinapp<br /> </td> 
    <td> @unique(@count (status=clicks))<br /> </td> 
-   <td> Para los usuarios de <span class="uicontrol">Target según su plantilla de perfil de campaña (en AppProfile)</span> , usuario = ID del destinatario.<br /> Para <span class="uicontrol">Target, todos los usuarios de una aplicación móvil (en AppBroadcast)</span> y los usuarios de <span class="uicontrol">Target según sus plantillas de perfil móvil (en la aplicación)</span> , usuario = ID de MC o equivalente que representa una combinación única de usuario, aplicación móvil y dispositivo.<br /> </td> 
+   <td> Para los usuarios de <span class="uicontrol">Destinatario en función de su plantilla de perfil de Campaña (en AppProfile)</span> , usuario = ID de Destinatario.<br /> Para <span class="uicontrol">Destinatario de todos los usuarios de una aplicación móvil (en AppBroadcast)</span> y usuarios de <span class="uicontrol">Destinatario según sus plantillas de perfil móvil (en la aplicación)</span> , usuario = ID de MC o equivalente que representa una combinación única de usuario, aplicación móvil y dispositivo.<br /> </td> 
   </tr> 
   <tr> 
    <td> Tasa de pulsaciones en la aplicación<br /> </td> 
@@ -364,7 +367,7 @@ Las tablas siguientes proporcionan la lista de indicadores utilizados en los dis
    <td> Despedidos únicos en la aplicación<br /> </td> 
    <td> @uniquedismisal<br /> </td> 
    <td> @unique(@count (status=close))<br /> </td> 
-   <td> Para los usuarios de <span class="uicontrol">Target según su plantilla de perfil de campaña (en AppProfile)</span> , usuario = ID del destinatario.<br /> Para <span class="uicontrol">Target, todos los usuarios de una aplicación móvil (en AppBroadcast)</span> y los usuarios de <span class="uicontrol">Target según sus plantillas de perfil móvil (en la aplicación)</span> , usuario = ID de MC o equivalente que representa una combinación única de usuario, aplicación móvil y dispositivo.<br /> </td> 
+   <td> Para los usuarios de <span class="uicontrol">Destinatario en función de su plantilla de perfil de Campaña (en AppProfile)</span> , usuario = ID de Destinatario.<br /> Para <span class="uicontrol">Destinatario de todos los usuarios de una aplicación móvil (en AppBroadcast)</span> y usuarios de <span class="uicontrol">Destinatario según sus plantillas de perfil móvil (en la aplicación)</span> , usuario = ID de MC o equivalente que representa una combinación única de usuario, aplicación móvil y dispositivo.<br /> </td> 
   </tr> 
   <tr> 
    <td> Tasa de despido en la aplicación<br /> </td> 
