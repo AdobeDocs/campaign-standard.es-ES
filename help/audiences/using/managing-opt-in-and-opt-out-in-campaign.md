@@ -1,6 +1,6 @@
 ---
 title: Administración de la inclusión y la exclusión en Campaign
-description: Comprenda cómo se administran las opciones de inclusión y exclusión en Adobe Campaign.
+description: Comprender cómo se administran en Adobe Campaign las opciones de inclusión y exclusión.
 page-status-flag: never-activated
 uuid: aa1801ec-562b-420e-8d79-c07d066b7b1a
 contentOwner: sauviat
@@ -12,50 +12,53 @@ discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '309'
+ht-degree: 8%
 
 ---
 
 
 # Administración de la inclusión y la exclusión en Campaign{#managing-opt-in-and-opt-out-in-campaign}
 
-## Administración de la inclusión y la exclusión de un perfil {#managing-opt-in-and-opt-out-from-a-profile}
+## Administración de la inclusión y la exclusión desde un perfil {#managing-opt-in-and-opt-out-from-a-profile}
 
-Los usuarios pueden ser seleccionados por un operador directamente desde la ficha de perfil **[!UICONTROL General]** .
+Un operador puede adhesión o excluir usuarios directamente desde la ficha perfil **[!UICONTROL General]** .
 
-En la **[!UICONTROL No longer contact (blacklist)]** sección, las casillas de verificación seleccionadas corresponden a los canales de los que el usuario eligió desactivar la opción. Seleccione los canales según las necesidades del usuario.
+En la **[!UICONTROL No longer contact (on block list)]** sección, las casillas de verificación seleccionadas corresponden a los canales desde los que el usuario eligió exclusión. Seleccione los canales según las necesidades del usuario.
 
 ![](assets/optin_landingpage_3.png)
 
-## Configuración de las páginas de aterrizaje de inclusión y exclusión {#setting-up-opt-in-and-opt-out-landing-pages}
+## Configuración de páginas de aterrizaje de inclusión y exclusión {#setting-up-opt-in-and-opt-out-landing-pages}
 
-Para que los usuarios puedan optar por la activación o la desactivación, debe crear y publicar una página **[!UICONTROL Profile acquisition]** de aterrizaje. Luego podrán seleccionar los canales según sus necesidades. Para realizar esto, siga los pasos a continuación.
+Para que los usuarios puedan adhesión o exclusión, debe crear y publicar una **[!UICONTROL Profile acquisition]** página de aterrizaje. Entonces podrán seleccionar los canales según sus necesidades. Para realizar esto, siga los pasos a continuación.
 
-También puede configurar una **[!UICONTROL BlackList]** página de aterrizaje que permita a los usuarios desactivar todas las entregas. Para obtener más información sobre esto, consulte [Configuración de una página de aterrizaje para desactivar todas las entregas](#setting-up-a-landing-page-to-opt-out-from-all-deliveries).
+También puede configurar una **[!UICONTROL Block List]** página de aterrizaje que permita a los usuarios exclusión desde todos los envíos. Para obtener más información sobre esto, consulte [Configuración de una página de aterrizaje para exclusión de todos los envíos](#setting-up-a-landing-page-to-opt-out-from-all-deliveries).
 
 >[!NOTE]
 >
->Las páginas de aterrizaje también se pueden utilizar para habilitar la suscripción a servicios. Para obtener más información, consulte [esta página](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service).
+>También se pueden utilizar Páginas de aterrizaje para habilitar la suscripción de servicios. Para obtener más información, consulte [esta página](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service).
 
 1. Cree una **[!UICONTROL Profile acquisition]** página de aterrizaje (consulte [esta sección](../../channels/using/getting-started-with-landing-pages.md)).
-1. Agregue una casilla de verificación en el contenido de la página de aterrizaje para cada canal deseado y, a continuación, vincúlelo al campo correspondiente de la base de datos de Campaign.
+1. Añada una casilla de verificación en el contenido de la página de aterrizaje para cada canal deseado y, a continuación, vincúlelo al campo correspondiente de la base de datos de Campañas.
 
    ![](assets/optin_landingpage_1.png)
 
 1. Guarde la página de aterrizaje y publíquela.
-1. En la página de aterrizaje, las casillas de verificación ya están seleccionadas según la ficha de perfil **[!UICONTROL General]** . El usuario puede seleccionar o anular la selección de los canales según sus necesidades y enviar el formulario.
+1. En la página de aterrizaje, las casillas de verificación ya están seleccionadas según la ficha perfil **[!UICONTROL General]** . El usuario puede seleccionar o anular la selección de los canales según sus necesidades y enviar el formulario.
 
    ![](assets/optin_landingpage_2.png)
 
-1. Una vez enviado el formulario, la ficha de perfil **[!UICONTROL General]** se actualiza según la selección del usuario.
+1. Una vez enviado el formulario, la ficha perfil **[!UICONTROL General]** se actualiza según la selección del usuario.
 
    ![](assets/optin_landingpage_3.png)
 
-### Configuración de una página de aterrizaje para desactivar todas las entregas {#setting-up-a-landing-page-to-opt-out-from-all-deliveries}
+### Configuración de una página de aterrizaje para exclusión de todos los envíos {#setting-up-a-landing-page-to-opt-out-from-all-deliveries}
 
-Para que los usuarios puedan desactivar todas las entregas, debe crear y publicar una página **[!UICONTROL BlackList]** de aterrizaje. For more on landing pages creation, refer to [this page](../../channels/using/getting-started-with-landing-pages.md).
+Para que los usuarios puedan exclusión desde todos los envíos, debe crear y publicar una **[!UICONTROL Block list]** página de aterrizaje. For more on landing pages creation, refer to [this page](../../channels/using/getting-started-with-landing-pages.md).
 
-Una vez que un usuario hace clic en el vínculo de la página de aterrizaje, la **[!UICONTROL No longer contact (by any channel)]** opción del perfil se selecciona automáticamente.
+Una vez que un usuario hace clic en el vínculo de página de aterrizaje, la **[!UICONTROL No longer contact (by any channel)]** opción del perfil se selecciona automáticamente.
 
-![](assets/blacklisting_allchannels.png)
+![](assets/blocklisting_allchannels.png)
 
