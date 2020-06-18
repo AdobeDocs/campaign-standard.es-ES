@@ -1,6 +1,6 @@
 ---
 title: Notas de la versión 2018
-description: Esta página lista todas las versiones de 2018 de Adobe Campaign Standard.
+description: Esta página lista todas las versiones de Adobe Campaign Standard de 2018.
 page-status-flag: never-activated
 uuid: 99f92a54-4b3d-48b9-b08d-e98b24e75f62
 contentOwner: sauviat
@@ -12,7 +12,10 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ffdbeb7031697c7b00edc658096f55df815b0f63
+source-git-commit: 50c3188e1bc0eb92fd52637988834ce8538335a3
+workflow-type: tm+mt
+source-wordcount: '5399'
+ht-degree: 8%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: ffdbeb7031697c7b00edc658096f55df815b0f63
 
 Cada versión incorpora nuevas funciones y parches. Haga clic en una versión para vista de su contenido.
 
-Vista de las últimas actualizaciones [de](../../rn/using/documentation-updates.md) documentación de Adobe Campaign Standard. Si está buscando una versión más reciente, consulte esta [página](../../rn/using/release-notes.md).
+Vista de las últimas actualizaciones [de](../../rn/using/documentation-updates.md) documentación para Adobe Campaign Standard. Si está buscando una versión más reciente, consulte esta [página](../../rn/using/release-notes.md).
 
 ## Versión 18.9: septiembre de 2018 {#release-18-9---september-2018}
 
@@ -50,7 +53,7 @@ Vista de las últimas actualizaciones [de](../../rn/using/documentation-updates.
 
 **Mejoras**
 
-* Adobe Campaign Standard ahora es compatible con la versión 4 de la API de Amazon S3.
+* Adobe Campaign Standard ahora admite la versión 4 de la API de Amazon S3.
 
 **Otros cambios**
 
@@ -78,7 +81,7 @@ Vista de las últimas actualizaciones [de](../../rn/using/documentation-updates.
 * Se ha corregido un problema que impedía que las fechas de suscripción del servicio se actualizaran al importarlas mediante una importación de archivos.
 * Se ha corregido un error con la actividad del archivo de carga que impedía que los flujos de trabajo importaran archivos (CAMP-27068).
 * Se ha corregido un problema que mostraba el número incorrecto de suscripciones en los informes de resumen de servicio (CAMP-25587).
-* Se ha corregido un problema de discrepancia de datos entre Adobe Analytics y los informes de Adobe Campaign. (CAMP-25393)
+* Se ha corregido un problema de discrepancia de datos entre los informes de Adobe Analytics y Adobe Campaign. (CAMP-25393)
 * Se ha corregido un problema que podía impedir que un usuario de acceso limitado iniciara sesión. (CAMP-27381)
 * Se ha corregido un problema que podía impedir que se mostrara la lista del contenido de Adobe Experience Manager al editar un correo electrónico con Creative Designer. (CAMP-27181)
 * Se ha corregido un problema que podía impedir que se abriera el Diseñador creativo y provocar un error. (CAMP-27304)
@@ -86,7 +89,7 @@ Vista de las últimas actualizaciones [de](../../rn/using/documentation-updates.
 * Se ha corregido un problema que provocaba que las imágenes cargadas desde una cámara y grabadas en modo vertical se mostraran en una posición rotada no deseada.
 * Se ha corregido un problema que mostraba información de selección poco clara al utilizar la interfaz del editor de consultas en Creative Designer.
 * Se ha corregido un problema que impedía duplicar correctamente un elemento al usar la interfaz del editor de consultas en Creative Designer.
-* Se ha corregido un problema que hacía que se siguieran enviando mensajes SMS a destinatarios en la lista negra aunque se hubieran cancelado las suscripciones mediante una respuesta automática. (CAMP-27128)
+* Se ha corregido un problema que hacía que se siguieran enviando mensajes SMS a destinatarios de la lista de bloqueos, aunque se hubieran cancelado las suscripciones mediante una respuesta automática. (CAMP-27128)
 * Se ha corregido un problema que impedía mostrar los errores que provocaban que fallara el flujo de trabajo de limpieza de **bases de datos** . (CAMP-26876)
 * Se ha corregido un problema que podía impedir la eliminación de campos personalizados en una definición de notificación push. (CAMP-25588)
 
@@ -127,7 +130,7 @@ Vista de las últimas actualizaciones [de](../../rn/using/documentation-updates.
 
 **Mejoras**
 
-* La integración de Adobe Campaign y Adobe Destinatario ahora le permite aprovechar la función [Permisos](https://marketing.adobe.com/resources/help/es_ES/target/target/properties-overview.html) de Destinatario. Al incluir una imagen dinámica de Adobe Destinatario en un mensaje de correo electrónico, ahora puede especificar una propiedad de Destinatario (código at_property).
+* La integración de Adobe Campaign y Adobe Target ahora le permite aprovechar la función [Permisos](https://marketing.adobe.com/resources/help/es_ES/target/target/properties-overview.html) de Destinatario. Al incluir una imagen dinámica de Adobe Target en un mensaje de correo electrónico, ahora puede especificar una propiedad de Destinatario (código at_property).
 * Las solicitudes de acceso o eliminación de privacidad del RGPD tienen ahora en cuenta los recursos personalizados que tienen un vínculo de descarga al recurso de perfiles. Para los vínculos simples de cardinalidad 1 y los vínculos de recopilación de cardinalidad N, debe seleccionar &quot;Eliminar/duplicar el registro de destinatario implica eliminar/duplicar los registros a los que hace referencia el vínculo&quot; en el recurso personalizado. Para los vínculos simples de cardinalidad 0 o 1, seleccione &quot;Eliminar o duplicar el registro implica eliminar o duplicar el registro de destinatario al que hace referencia el vínculo&quot;.
 
 **Otros cambios**
@@ -168,18 +171,18 @@ Vista de las últimas actualizaciones [de](../../rn/using/documentation-updates.
 * Se ha optimizado el SQL generado al administrar las condiciones de restricción de acceso a la unidad.
 * La **[!UICONTROL Update]** actividad ahora le permite agregar, actualizar o eliminar datos relacionados con suscripciones (tabla nms:appSubscriptionRcp).
 * El flujo de trabajo **[!UICONTROL Update delivery execution]** técnico se ha dividido en dos flujos de trabajo para optimizar el rendimiento: - **[!UICONTROL Update delivery execution]**: actualiza el seguimiento del envío. Se inicia cada 10 minutos de forma predeterminada. **[!UICONTROL Update delivery indicators]**:: actualiza los KPI del envío, se inicia cada hora de forma predeterminada. For more on technical workflows, refer to this [section](../../administration/using/technical-workflows.md#list-of-technical-workflows).
-* Cuando un envío envía mensajes, el estado de la sección **[!UICONTROL Deployment]** ahora puede tener dos valores: **[!UICONTROL Sending]**: los mensajes se están enviando. **[!UICONTROL Sending (retry)]**:: se está procesando una pasada de reintento.
+* Cuando un envío envía mensajes, el estado de la sección **[!UICONTROL Deployment]** ahora puede tener dos valores: **[!UICONTROL Sending]**:: los mensajes se están enviando. **[!UICONTROL Sending (retry)]**:: se está procesando una pasada de reintento.
 * Los usuarios con la **[!UICONTROL Delivery preparation]** función ahora pueden enviar pruebas. (CAMP-24313)
 * La opción **Habilitar TLS sobre SMPP** se ha agregado al enrutamiento de **SMS a través de la cuenta externa SMPP** . Consulte esta [sección](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) para obtener más información.
 
 **Parches**
 
-* Se ha corregido un problema que podía impedir que se enviaran correos electrónicos al incluir una imagen dinámica de Adobe Destinatario (CAMP-24848).
+* Se ha corregido un problema que podía impedir que se enviaran correos electrónicos al incluir una imagen dinámica de Adobe Target (CAMP-24848).
 * Se ha corregido un problema con los **[!UICONTROL Privacy Access/Delete Request]** flujos de trabajo técnicos, que no se completaban si se producía un error en alguna de las solicitudes.
 * Se ha corregido un problema que impedía que el servicio de Privacy Core recibiera actualizaciones del estado de la solicitud desde la Campaña.
 * Se ha corregido un problema que impedía que el flujo de trabajo técnico **[!UICONTROL Import shared audience]** funcionara correctamente (CAMP -25465).
-* Se ha corregido un problema que impedía que las solicitudes de privacidad de Campaña se marcaran como finalizadas en Core Privacy Service.
-* Se ha corregido un problema que podía impedir que ciertos usuarios iniciaran sesión en el Campaign Standard mediante la autenticación IMS cuando el ID de Adobe era demasiado largo. (CAMP-24095)
+* Se ha corregido un problema que impedía que las solicitudes de privacidad de Campaña se marcaran como finalizadas en el Privacy Service principal.
+* Se ha corregido un problema que podía impedir que ciertos usuarios iniciaran sesión en el Campaign Standard mediante la autenticación IMS cuando el Adobe ID era demasiado largo. (CAMP-24095)
 * Se ha corregido un problema en Creative Designer que podía producirse al eliminar módulos de contenido. (CAMP-25242)
 * Se ha corregido un problema que se producía al usar reglas de fatiga de notificaciones push para suscriptores sin perfiles en la base de datos. (CAMP-25344)
 * Se ha corregido un problema que podía mostrar un mensaje de error al acceder a los registros de exclusión de envíos. (CAMP-24724)
@@ -205,7 +208,7 @@ Vista de las últimas actualizaciones [de](../../rn/using/documentation-updates.
  <tbody> 
   <tr> 
    <td> RGPD: Integración de servicios principales<br /> </td> 
-   <td> Privacy Core Service Integration le permite automatizar sus solicitudes GDPR en un contexto de varias soluciones a través de una sola llamada de API JSON. <br /> Las solicitudes de RGPD insertadas desde el servicio principal de privacidad a todas las soluciones de Experience Cloud ahora se gestionan automáticamente mediante Campaña. <br /> Para obtener más información, consulte la <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">documentación detallada</a>.<br /> </td> 
+   <td> Privacy Core Service Integration le permite automatizar sus solicitudes GDPR en un contexto de varias soluciones a través de una sola llamada de API JSON. <br /> Las solicitudes de RGPD insertadas desde el servicio principal de privacidad a todas las soluciones de Experience Cloud ahora se gestionan automáticamente mediante la Campaña. <br /> Para obtener más información, consulte la <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Mejoras de inserción: comentarios detallados sobre el envío<br /> </td> 
@@ -233,7 +236,7 @@ Vista de las últimas actualizaciones [de](../../rn/using/documentation-updates.
 **Otros cambios**
 
 * La actividad de flujo de trabajo Leer Audiencia ahora puede leer audiencias de Experience Cloud. Anteriormente, esta actividad solo podía leer audiencias de Consulta y Lista. Consulte la documentación [detallada](../../automating/using/read-audience.md). (CAMP-23623)
-* El identificador de la fuente de datos compartida predeterminada está ahora en modo de solo lectura y ya no se puede cambiar. Cambiar este identificador podría provocar algunos problemas al compartir audiencias con Experience Cloud.
+* El identificador de la fuente de datos compartida predeterminada está ahora en modo de solo lectura y ya no se puede cambiar. Cambiar este identificador podría provocar algunos problemas al compartir audiencias con el Experience Cloud.
 * La importación de audiencias desde el Gestor de colaboradores ahora funciona con archivos divididos. Anteriormente, el último archivo del segmento se importó mediante el flujo de trabajo técnico Importar audiencia compartida.
 * Las cuentas externas AWS S3 ahora admiten regiones y el mecanismo de autenticación de la versión 4. Consulte la documentación [detallada](../../administration/using/external-accounts.md).
 * La ventana de selección de recursos ahora debe cargarse más rápido y permitir seleccionar un recurso y salir de la ventana sin ningún problema.
@@ -267,7 +270,7 @@ Vista de las últimas actualizaciones [de](../../rn/using/documentation-updates.
 
 **Parches**
 
-_Plataforma_
+_Platform_
 
 * Se ha corregido un error que podía impedir el procesamiento correcto de solicitudes de acceso o eliminación de RGPD. Este comportamiento se ha observado en algunos casos excepcionales en los que los datos extraídos contenían uno de los siguientes caracteres: &amp; &lt; > &quot; &#39;.
 
@@ -336,7 +339,7 @@ _Recursos personalizados_
 
 **Parches**
 
-_Plataforma_
+_Platform_
 
 * Se ha corregido un problema que impedía exportar más de 5000 registros de una lista.
 * Se corrigió un problema al exportar datos a archivos con nombres con campos de personalización.
@@ -369,7 +372,7 @@ _Flujos de trabajo_
 _Integraciones_
 
 * Se ha corregido un problema que impedía que los caracteres internacionales se enviaran correctamente a Adobe Analytics.
-* Los recursos ahora deben cargarse más rápido al intentar insertar una imagen de la biblioteca de recursos de Experience Cloud en un mensaje.
+* Ahora, los recursos deben cargarse más rápido al intentar insertar una imagen de la biblioteca de recursos de Experience Cloud en un mensaje.
 * Se ha corregido un problema que podía impedir que la ventana de selección de recursos se cerrara en algunos casos.
 * Desde un detalle de fuente de datos, ahora puede acceder directamente a su flujo de trabajo relacionado para comprobar el estado del flujo de trabajo.
 * Ahora puede actualizar el esquema Desencadenadores directamente al definir o editar un evento desencadenador. Con este cambio, ya no tendrá que cancelar la publicación del activador y crear otro.
@@ -404,16 +407,16 @@ _Mensajes transaccionales_
 
 **Parches**
 
-_Plataforma_
+_Platform_
 
-* La barra superior de la interfaz de Adobe Campaign se ha actualizado con el nuevo menú de Experience Cloud.
+* La barra superior de la interfaz de Adobe Campaign se ha actualizado con el nuevo menú Experience Cloud.
 * Se ha corregido un problema que impedía que el vínculo a se mostrara **[!UICONTROL Offers]** en la lista desplegable de la solución.
 
 _Correos electrónicos, mensajes SMS y correo directo_
 
 * Se ha mejorado la fase de preparación del envío para mejorar el rendimiento.
 * Se han corregido varios problemas que podían provocar que los registros de seguimiento se corrompieran en algunas situaciones específicas.
-* Se corrigió un problema con la actualización de la fecha de contacto que se producía cuando se cambiaba la fecha de contacto entre la preparación del envío y la confirmación. Ahora, cuando cambie la fecha de contacto después de la preparación, deberá volver a preparar el envío antes de poder confirmar el envío. Consulte la documentación [detallada](../../sending/using/preparing-the-send.md).
+* Se corrigió un problema con la actualización de la fecha de contacto que se producía cuando se cambiaba la fecha de contacto entre la preparación del envío y la confirmación. Ahora, cuando cambie la fecha de contacto después de la preparación, deberá volver a preparar el envío antes de poder confirmar el envío. See the [detailed documentation](../../sending/using/preparing-the-send.md).
 
 _Notificaciones push_
 
@@ -486,7 +489,7 @@ Pueden producirse algunos problemas al utilizar vínculos de ayuda contextuales 
 
 **Parches**
 
-_Plataforma_
+_Platform_
 
 * La búsqueda de perfiles se ha optimizado para mejorar el rendimiento.
 * El identificador interno de los grupos de seguridad predeterminados está ahora en modo de solo lectura para los usuarios estándar.
