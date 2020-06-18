@@ -12,9 +12,9 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
 workflow-type: tm+mt
-source-wordcount: '2026'
+source-wordcount: '2031'
 ht-degree: 2%
 
 ---
@@ -240,7 +240,7 @@ A continuación se indican algunos motivos posibles para recibir las notificacio
    * Tiempo de espera de conexión entre el servidor de envío de Adobe Campaign y el servidor receptor
    * Un problema de entrega
    * Un flujo de trabajo erróneo
-   Si el envío se activa con un flujo de trabajo, compruebe si el flujo de trabajo se inició correctamente. Para obtener más información sobre esto, consulte [Ejecución de un flujo de trabajo](../../automating/using/about-workflow-execution.md). De lo contrario, póngase en contacto con el administrador de Adobe Campaign para resolver el problema.
+   Si el envío se activa con un flujo de trabajo, compruebe si el flujo de trabajo se inició correctamente. For more on this, see [Executing a workflow](../../automating/using/about-workflow-execution.md). De lo contrario, póngase en contacto con el administrador de Adobe Campaign para resolver el problema.
 
 * **[!UICONTROL Deliveries with preparation failed]**:: Puede producirse un error durante la preparación del envío en los siguientes casos:
 
@@ -258,7 +258,7 @@ A continuación se indican algunos motivos posibles para recibir las notificacio
 
    Las posibles causas de una **[!UICONTROL Delivery with bad error ratio for hard bounces]** alerta pueden ser:
 
-   * El destinatario es en la lista negra, lo que significa que ya no quieren ser contactados.
+   * El destinatario está en la lista de bloques, lo que significa que ya no desea que se les contacte.
    * La dirección de correo electrónico del destinatario no existe.
    * El dominio del destinatario no existe.
    * El servidor del destinatario está bloqueando el envío.
@@ -280,5 +280,5 @@ A continuación se indican algunos motivos posibles para recibir las notificacio
 
 * [Comprensión de los errores de entrega](../../sending/using/understanding-delivery-failures.md)
 * [Compresión de la gestión de la cuarentena](../../sending/using/understanding-quarantine-management.md)
-* [Administración de listas negras en Campaña](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [Acerca de la inclusión y la exclusión en Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
