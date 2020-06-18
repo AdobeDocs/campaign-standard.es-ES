@@ -12,9 +12,9 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '609'
 ht-degree: 9%
 
 ---
@@ -66,7 +66,7 @@ Antes de empezar a enviar mensajes a un contacto, debe asegurarse de obtener su 
 
 Con la Campaña, le recomendamos que utilice **fácilmente los mecanismos** de inclusión y exclusión a través de [servicios](../../audiences/using/creating-a-service.md)y [páginas de aterrizaje](../../channels/using/getting-started-with-landing-pages.md) para actualizar su información de contacto y ampliar su base de datos.
 
-El suministro de vínculos **** bajas en los mensajes permitirá que los Perfiles se vean en la lista negra cuando sea necesario y, por tanto, mejorará la capacidad de entrega de la plataforma. Para obtener más información sobre las listas negras, consulte [Acerca de la inclusión y la exclusión en la Campaña](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+El suministro de vínculos **** bajas en los mensajes permitirá que los Perfiles se agreguen a la lista de bloques cuando sea necesario y, por lo tanto, mejorará la capacidad de entrega de la plataforma. Para obtener más información sobre la administración de listas de bloques, consulte [Acerca de la inclusión y la exclusión en la Campaña](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!IMPORTANT]
 >
