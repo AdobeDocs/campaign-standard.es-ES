@@ -10,7 +10,10 @@ discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 25ef93bcc48d58bfdfc13223c2c40b664d5159f0
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '1248'
+ht-degree: 6%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: 25ef93bcc48d58bfdfc13223c2c40b664d5159f0
                   <th>Name</th>
                   <th>Etiqueta</th>
                   <th>Tipo (longitud)</th>
-                  <th>Valores de enumeración</th>
+                  <th>Valores de Lista desglosada</th>
                </tr>
                <tr>
                   <td>PKey</td>
@@ -51,43 +54,43 @@ source-git-commit: 25ef93bcc48d58bfdfc13223c2c40b664d5159f0
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackList</td>
+                  <td>blockList</td>
                   <td>Ya no se puede contactar (por ningún canal)</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListEmail</td>
+                  <td>blockListEmail</td>
                   <td>Ya no se puede contactar por correo electrónico</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListFax</td>
+                  <td>blockListFax</td>
                   <td>Ya no hay contacto por fax</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListMobile</td>
+                  <td>blockListMobile</td>
                   <td>Ya no se puede contactar por SMS</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListPhone</td>
+                  <td>blockListPhone</td>
                   <td>Ya no hay contacto por teléfono</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListPostalMail</td>
+                  <td>blockListPostalMail</td>
                   <td>Ya no hay contacto por correo directo</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListPushnotification</td>
+                  <td>blockListPushnotification</td>
                   <td>Ya no hay contacto por notificación push</td>
                   <td>booleano </td>
                   <td> </td>
@@ -148,8 +151,8 @@ source-git-commit: 25ef93bcc48d58bfdfc13223c2c40b664d5159f0
                </tr>
                <tr>
                   <td>emailFormat</td>
-                  <td>Formato de correo electrónico</td>
-                  <td>enumeración (byte) </td>
+                  <td>Formato del correo electrónico</td>
+                  <td>lista desglosada (byte) </td>
                   <td>
                      <ul>
                         <li>Texto - texto - 1</li>
@@ -192,7 +195,7 @@ source-git-commit: 25ef93bcc48d58bfdfc13223c2c40b664d5159f0
                <tr>
                   <td>gender</td>
                   <td>Sexo</td>
-                  <td>enumeración (byte) </td>
+                  <td>lista desglosada (byte) </td>
                   <td>
                      <ul>
                         <li>No especificado - desconocido - 0</li>
@@ -217,7 +220,7 @@ source-git-commit: 25ef93bcc48d58bfdfc13223c2c40b664d5159f0
                <tr>
                   <td>lastName</td>
                   <td>Apellido</td>
-                  <td>string (50)</td>
+                  <td>string (30)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -282,7 +285,7 @@ source-git-commit: 25ef93bcc48d58bfdfc13223c2c40b664d5159f0
                </tr>
                <tr>
                   <td>subHisto</td>
-                  <td>Historial de suscripciones</td>
+                  <td>Historial de Suscripciones</td>
                   <td>colección </td>
                   <td> </td>
                </tr>
@@ -301,7 +304,7 @@ source-git-commit: 25ef93bcc48d58bfdfc13223c2c40b664d5159f0
                <tr>
                   <td>timeZone</td>
                   <td>Zona horaria</td>
-                  <td>enumeración (cadena) (64)</td>
+                  <td>lista desglosada (cadena) (64)</td>
                   <td>
                      <ul>
                         <li>(GMT-02:00) Atlántico Central - Atlántico_Sur_Georgia - Atlántico/Sur_Georgia</li>
@@ -465,7 +468,7 @@ Cumpleaños (cumpleaños)
 </tr>
 <tr>
 <td>precisión</td>
-<td>enumeración</td>
+<td>lista desglosada</td>
 </tr>
 <tr>
 <td>relativeValue</td>
@@ -477,7 +480,7 @@ Cumpleaños (cumpleaños)
 </tr>
 <tr>
 <td>operador</td>
-<td>enumeración</td>
+<td>lista desglosada</td>
 </tr>
 <tr>
 <td>includeEnd</td>
@@ -489,7 +492,7 @@ Cumpleaños (cumpleaños)
 </tr>
 <tr>
 <td>type</td>
-<td>enumeración</td>
+<td>lista desglosada</td>
 </tr>
 <tr>
 <td>día</td>
@@ -544,7 +547,7 @@ Por audiencia estática (byStaticAudience)
 <th>Tipo</th>
 </tr>
 <tr>
-<td>destinatarios</td>
+<td>audiencia</td>
 <td>link</td>
 </tr>
 </table>
@@ -557,7 +560,7 @@ Clic (hasClicksDelivery)
 <th>Tipo</th>
 </tr>
 <tr>
-<td>entrega</td>
+<td>envío</td>
 <td>link</td>
 </tr>
 </table>
@@ -570,7 +573,7 @@ Opened (hasOpenedDelivery)
 <th>Tipo</th>
 </tr>
 <tr>
-<td>entrega</td>
+<td>envío</td>
 <td>link</td>
 </tr>
 </table>
@@ -583,7 +586,7 @@ Perfil (perfil)
 <th>Tipo</th>
 </tr>
 <tr>
-<td>profile</td>
+<td>perfil</td>
 <td>link</td>
 </tr>
 </table>
@@ -596,7 +599,7 @@ Recibido (hasReceivedDelivery)
 <th>Tipo</th>
 </tr>
 <tr>
-<td>entrega</td>
+<td>envío</td>
 <td>link</td>
 </tr>
 </table>
