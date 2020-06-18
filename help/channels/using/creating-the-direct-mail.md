@@ -13,7 +13,10 @@ context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '598'
+ht-degree: 1%
 
 ---
 
@@ -99,4 +102,4 @@ Ya está listo para enviar el archivo de extracción a su proveedor de correo di
 * Enviarlo por correo electrónico regular, con el archivo adjunto
 * Enviarlo por Campaña: realice el correo directo dentro de un [flujo de trabajo](../../automating/using/direct-mail-delivery.md) de campaña y agregue un **[!UICONTROL Transfer file]** para enviar el archivo por FTP, por ejemplo. Consulte [Transferir archivo](../../automating/using/transfer-file.md).
 
-El proveedor recupera la lista de direcciones erróneas y envía esta información al Adobe Campaign, que automáticamente pone en negro las direcciones erróneas. See [Return to sender](../../channels/using/return-to-sender.md).
+El proveedor recupera la lista de direcciones erróneas y envía esta información al Adobe Campaign, que automáticamente agrega a la lista de bloques las direcciones erróneas. See [Return to sender](../../channels/using/return-to-sender.md).
