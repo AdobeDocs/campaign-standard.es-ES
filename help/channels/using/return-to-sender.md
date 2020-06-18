@@ -12,9 +12,9 @@ discoiquuid: 5f20ff3f-8242-4735-8c60-c57610edff52
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '220'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 Se admiten los intercambios de archivos planos con proveedores de Correo postal que incorporan la información de retorno al remitente. Esto permite excluir las direcciones postales correspondientes de futuras comunicaciones. Esto también le permite ser notificado de una dirección incorrecta y ponerse en contacto con el cliente a través de otros canales o alentarlo a actualizar su dirección postal.
 
-Por ejemplo, un contacto se ha trasladado a un nuevo lugar y no le ha proporcionado su nueva dirección postal. El proveedor recupera la lista de direcciones erróneas y envía esta información al Adobe Campaign, que automáticamente pone en negro las direcciones erróneas.
+Por ejemplo, un contacto se ha trasladado a un nuevo lugar y no le ha proporcionado su nueva dirección postal. El proveedor recupera la lista de direcciones erróneas y envía esta información al Adobe Campaign, que automáticamente agrega a la lista de bloques las direcciones erróneas.
 
 Para que esta funcionalidad funcione, la Plantilla de envíos predeterminada de correo directo incluye, en el contenido, el ID de registro de envío. Por lo tanto, Adobe Campaign podrá sincronizar los datos de perfil y envío con la información devuelta por el proveedor.
 
@@ -36,7 +36,7 @@ En la sección **[!UICONTROL Adobe Campaign > Resources > Templates > Import tem
 
 Cuando la importación ha finalizado, Adobe Campaign realiza automáticamente las siguientes acciones:
 
-* Las direcciones incorrectas están en la lista negra en el nivel de perfil
+* Se agregan direcciones incorrectas a la lista de bloques a nivel de perfil
 * Se actualizan los indicadores principales de envío (KPI)
 * Se actualizan los registros de envío
 
