@@ -12,10 +12,10 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d05d2692607117e056c360e81d85b7d64c4077a3
+source-git-commit: ecb57ccc4cafa609f7ddccb5f934aa3ab2368dde
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 28%
+source-wordcount: '1289'
+ht-degree: 26%
 
 ---
 
@@ -32,14 +32,14 @@ Cuando no se puede enviar un envío a un perfil, el servidor remoto envía autom
 >
 >**Los mensajes de error de SMS (o “SR”, de “informe de estado”) se clasifican mediante el proceso MTA.**
 
-Los mensajes también se pueden excluir durante la preparación de la entrega si una dirección está en cuarentena o si un perfil está en la lista negra. Los mensajes excluidos se enumeran en la **[!UICONTROL Exclusion logs]** ficha del panel de envío (consulte [esta sección](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
+Los mensajes también se pueden excluir durante la preparación del envío si se pone en cuarentena una dirección o si hay un perfil en la lista de bloques. Los mensajes excluidos se enumeran en la **[!UICONTROL Exclusion logs]** ficha del panel de envío (consulte [esta sección](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
 
 ![](assets/exclusion_logs.png)
 
 **Temas relacionados:**
 
 * [Compresión de la gestión de la cuarentena](../../sending/using/understanding-quarantine-management.md)
-* [Administración de listas negras en Campaña](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [Acerca de la inclusión y la exclusión en Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 ## Identificación de errores de envío para un mensaje {#identifying-delivery-failures-for-a-message}
 
@@ -69,8 +69,8 @@ Los posibles motivos de un error de entrega son:
 | **[!UICONTROL Refused]** | Leve/Grave | La dirección se ha enviado a cuarentena debido a un comentario de seguridad que informa de correo no deseado. Según el error devuelto por el proveedor, la dirección se enviará directamente a la cuarentena o el envío se volverá a intentar hasta que la Campaña reciba un error que justifique el estado de la Cuarentena o hasta que el número de errores alcance el 5. |
 | **[!UICONTROL Duplicate]** | Ignorado | La dirección ya se ha detectado en la segmentación. |
 | **[!UICONTROL Not defined]** | Leve | la dirección está cualificada porque aún no se han incrementado los errores. Este tipo de error se produce cuando el servidor envía un nuevo mensaje de error: puede tratarse de un error aislado; sin embargo, si vuelve a producirse, el contador de errores aumenta, lo que advierte a los equipos técnicos. |
-| **[!UICONTROL Error ignored]** | Ignorado | La dirección está en la lista blanca y se le enviará un correo electrónico en cualquier caso. |
-| **[!UICONTROL Blacklisted address]** | Grave | la dirección estaba en la lista negra en el momento del envío. |
+| **[!UICONTROL Error ignored]** | Ignorado | La dirección está en la lista de permitidos y se le enviará un correo electrónico en cualquier caso. |
+| **[!UICONTROL Address on block list]** | Grave | La dirección se agregó a la lista de bloques en el momento del envío. |
 | **[!UICONTROL Account disabled]** | Leve/Grave | Cuando el proveedor de acceso a Internet (IAP) detecta un largo período de inactividad, puede cerrar la cuenta del usuario: Los envíos a la dirección del usuario serán imposibles. El tipo Suave o Duro depende del tipo de error recibido: si la cuenta se desactiva temporalmente debido a seis meses de inactividad y aún puede activarse, el estado **[!UICONTROL Erroneous]** se asignará y el envío se volverá a intentar. Si el error recibido indica que la cuenta está desactivada de forma permanente, se enviará directamente a la Cuarentena. |
 | **[!UICONTROL Not connected]** | Ignorado | El teléfono móvil del perfil está apagado o no conectado a la red cuando se envía el mensaje. |
 | **[!UICONTROL Invalid domain]** | Leve | El dominio de la dirección del correo electrónico es incorrecto o ya no existe. Este perfil se vuelve a seleccionar hasta que el recuento de errores llegue a 5. Después de esto, el registro se pone en estado de cuarentena y no se realiza ningún reintento. |
