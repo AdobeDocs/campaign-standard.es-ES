@@ -12,19 +12,21 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: babbf78d91d3cab9569eab3b15da50f64a91a560
+source-git-commit: 017e1e80657a3145a97c6ab62a577a9a2164cc99
 workflow-type: tm+mt
-source-wordcount: '5876'
-ht-degree: 19%
+source-wordcount: '5923'
+ht-degree: 18%
 
 ---
 
 
 # Actualizaciones de documentación{#documentation-updates}
 
-Además de las Notas [de la](../../rn/using/release-notes.md)versión de Adobe Campaign, esta página lista todas las nuevas actualizaciones de la documentación de Adobe Campaign Standard.
+Además de las Notas [de la](../../rn/using/release-notes.md)versión de Adobe Campaign, esta página lista todas las nuevas actualizaciones en la documentación de Adobe Campaign Standard.
 
 ## Actualizaciones de la documentación - Junio de 2020 {#doc-updates-june-2020}
+
+Tanto los términos &quot;lista blanca&quot; como &quot;lista negra&quot; se han eliminado de la documentación de Adobe Campaign. Algunas incidencias de estos términos pueden seguir existiendo en la interfaz de usuario del producto, nombres de opciones y código interno, pero se reemplazarán en próximas versiones de Campaña con &quot;bloqueo&quot; y &quot;lista de permitidos&quot;.
 
 Las referencias al sitio web de asistencia heredado se han sustituido por la nueva dirección URL. [Más información](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
 
@@ -38,7 +40,7 @@ La página de información general sobre el Campaign Standard se ha enriquecido 
 
 La sección Parámetros de canal de correo electrónico se ha aclarado con más información sobre los campos de máscaras autorizadas y el ID de informes de envío. [Más información](../../administration/using/configuring-email-channel.md)
 
-La configuración de una aplicación móvil mediante los SDK de la plataforma Adobe Experience está ahora disponible en la documentación principal con más información sobre el flujo de trabajo técnico de la aplicación móvil Sync AEPSDK desde Launch. [Más información](../../administration/using/configuring-a-mobile-application.md)
+La configuración de una aplicación móvil mediante SDK de Adobe Experience Platform ahora está disponible en la documentación principal con más información sobre el flujo de trabajo técnico de la aplicación móvil de sincronización AEPSDK desde Launch. [Más información](../../administration/using/configuring-a-mobile-application.md)
 
 ## Versión 20.3: mayo de 2020 {#release-20-3---may-2020}
 
@@ -62,11 +64,11 @@ Se ha añadido una sección de preguntas más frecuentes sobre el Diseñador de 
 
 ## Actualizaciones de documentación - Abril de 2020 {#doc-updates-april-2020}
 
-La documentación de la integración de Microsoft Dynamics 365 con Adobe Campaign Standard ya está disponible en la documentación principal. [Más información](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+La integración de Microsoft Dynamics 365 con la documentación de Adobe Campaign Standard ya está disponible en la documentación principal. [Más información](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 Se han añadido recursos adicionales a la página de inicio de documentación. [Más información](../../campaign-standard-home.md)
 
-Se ha añadido información sobre el servicio Experience Cloud ID (ECID) a la documentación del conector de datos de la plataforma de Adobe Experience Cloud. [Más información](../../developing/using/aep-about-data-connector.md#key-concepts)
+Se ha añadido información sobre el servicio de ID de Experience Cloud (ECID) a la documentación del conector de datos de Adobe Experience Platform. [Más información](../../developing/using/aep-about-data-connector.md#key-concepts)
 
 La sección Configuración de mensajes transaccionales se ha mejorado con información sobre cómo acceder a los últimos eventos transaccionales y capturas de pantalla actualizadas. [Más información](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
 
@@ -120,7 +122,7 @@ Se ha movido y actualizado la sección dedicada al archivado con Email BCC. [Má
 
 La documentación de Configuración de una aplicación móvil y las páginas relacionadas se han actualizado para reflejar la depreciación del SDK V4. [Más información](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq)
 
-Se ha actualizado y mejorado la documentación sobre la integración de Adobe Campaign Standard/Adobe Experience Manager. [Más información](../../integrating/using/configure-experience-manager.md)
+Se ha actualizado y mejorado la documentación sobre la integración de Adobe Campaign Standard y Adobe Experience Manager. [Más información](../../integrating/using/configure-experience-manager.md)
 
 La documentación del Diseñador de correo electrónico de Campaña y las páginas relacionadas se han actualizado para reflejar la depreciación del SDK creativo de Adobe. [Más información](https://helpx.adobe.com/es/campaign/kb/acs-deprecated-and-removed-features.html)
 
@@ -134,7 +136,7 @@ Se ha añadido información sobre las **[!UICONTROL History in days field]** pro
 
 **Nuevas funciones incluidas en la versión**
 
-Conector de datos de la plataforma Adobe Experience (beta): [Más información](../../developing/using/aep-about-data-connector.md)
+Conector de datos de Adobe Experience Platform (beta): [Más información](../../developing/using/aep-about-data-connector.md)
 
 Destinos de Audiencia (beta): [Más información](../../audiences/using/aep-about-audience-destinations-service.md)
 
@@ -168,7 +170,7 @@ Se ha actualizado la sección Cálculo de indicadores para los informes dinámic
 
 Se ha añadido una nueva página sobre las directrices generales para envíos móviles en Adobe Campaign Standard. [Más información](https://helpx.adobe.com/es/campaign/kb/acs-mobile.html)
 
-La documentación de Trabajo con Campaña y Experience Manager se ha actualizado con una nueva sección **Sugerencias sobre cómo utilizar la integración** de Campaña y Experience Manager. [Más información](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
+La documentación de Trabajo con Campaña y Experience Manager se ha actualizado con una nueva sección **Sugerencias sobre cómo utilizar la integración** Campaña-Experience Manager. [Más información](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
 
 La página de inicio de la documentación de las API se ha mejorado con redirecciones a los diferentes temas. [Más información](../../api/using/get-started-apis.md)
 
@@ -244,7 +246,7 @@ Se ha añadido un nuevo ejemplo que muestra cómo enviar un correo electrónico 
 
 Se ha añadido una nueva sección sobre cómo utilizar las trampas. [Más información](../../sending/using/using-traps.md).
 
-Se ha añadido una nota sobre la opción **Launch_URL_Campaña** en la página sobre cómo configurar una aplicación móvil con los SDK de la plataforma de experiencia de Adobe. [Más información](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
+Se ha añadido una nota sobre la opción **Launch_URL_Campaña** en la página sobre cómo configurar una aplicación móvil mediante SDK de Adobe Experience Platform. [Más información](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
 Se ha reorganizado la guía de Email Designer. [Más información](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -470,7 +472,7 @@ Se Añadió información sobre la nueva opción de la actividad Extraer archivo 
 
 La sección Configuración de una aplicación móvil mediante SDK V4 se ha movido [aquí](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html).
 
-La sección Configuración de una aplicación móvil mediante los SDK de la plataforma Adobe Experience se ha movido [aquí](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+La sección Configuración de una aplicación móvil mediante SDK de Adobe Experience Platform se ha movido [aquí](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
 Los vídeos se han actualizado y movido [aquí](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html).
 
@@ -528,7 +530,7 @@ Se ha actualizado y reorganizado la documentación sobre la integración de acti
 
 Se Añadió un caso de uso paso a paso sobre cómo crear una dimensión de perfil personalizada. [Más información](../../reporting/using/creating-a-custom-profile-dimension.md)
 
-Se ha reorganizado la documentación de trabajo con el administrador de Campañas y Audiencias o con el servicio principal Personas. [Más información](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
+Se ha reorganizado la documentación del servicio principal Trabajar con Campaña y Audience Manager o Personas. [Más información](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
 Se ha actualizado la definición de la función Preparar envíos. [Más información](../../administration/using/list-of-roles.md)
 
@@ -562,7 +564,7 @@ Información Añadida sobre los tipos de registro de seguimiento. [Más informac
 
 La sección actividad de consulta se ha actualizado con ejemplos de consulta. [Más información](../../automating/using/query.md#query-samples)
 
-La sección dedicada a la lista negra se ha cambiado a &quot;Explicación de los procesos de inclusión y exclusión&quot;. Se ha actualizado con información sobre cómo administrar la inclusión en canales específicos y cómo configurar páginas de aterrizaje para administrar la inclusión y la exclusión. [Más información](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+La sección dedicada a las listas de bloques se ha cambiado a &quot;Explicación de los procesos de inclusión y exclusión&quot;. Se ha actualizado con información sobre cómo administrar la inclusión en canales específicos y cómo configurar páginas de aterrizaje para administrar la inclusión y la exclusión. [Más información](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Conozca las prácticas recomendadas para utilizar los servidores SFTP alojados por Adobe. [Más información](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -586,7 +588,7 @@ Uso de recursos personalizados en la mensajería transaccional - [Más informaci
 
 La API de GDPR reagrupa funciones que permiten el procesamiento automático de solicitudes de GDPR. [Más información](../../api/using/creating-a-privacy-request.md)
 
-Información Añadida sobre cómo configurar páginas de aterrizaje para que sus destinatarios puedan ser en la lista negra. [Más información](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+Información Añadida sobre cómo configurar páginas de aterrizaje para que sus destinatarios puedan agregarse a la lista de bloques. [Más información](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 Se ha reorganizado la sección [Configuración de mensajes](../../administration/using/configuring-transactional-messaging.md) transaccionales y se ha agregado un caso [de uso](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) paso a paso.
 
@@ -640,7 +642,7 @@ Se Añadió información sobre cómo enviar un envío en función de los husos h
 
 Se ha reorganizado la sección **[!UICONTROL Customizing a push notification]** con casos de uso paso a paso. [Más información](../../channels/using/customizing-a-push-notification.md)
 
-Nueva sección dedicada a la administración de listas negras. [Más información](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+Nueva sección dedicada a la administración de listas de bloques. [Más información](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Se ha actualizado la información sobre errores y cuarentenas de envío. [Más información](../../sending/using/monitoring-a-delivery.md)
 
@@ -672,7 +674,7 @@ Información Añadida sobre la recuperación de mensajes SMS entrantes con un fl
 
 Se Añadió información sobre la configuración de Historias de la actividad de archivos de transferencia. [Más información](../../automating/using/transfer-file.md)
 
-Se han actualizado las instrucciones para configurar la integración con el Administrador de Audiencias o el servicio principal Personas. [Más información](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+Se han actualizado las instrucciones para configurar la integración con el servicio principal Audience Manager o Personas. [Más información](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 ## Versión 17.10: octubre de 2017 {#release-17-10---october-2017}
 
@@ -802,7 +804,7 @@ Se han actualizado numerosas capturas de pantalla para reflejar los cambios en l
 
 Ahora hay disponible una nueva nota técnica: &quot;Integración del SDK de Adobe Mobile con su aplicación móvil&quot;. [Más información](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
 
-Instrucciones para configurar el servicio principal Personas o la integración del Administrador de Audiencias con Adobe Campaign havget-started-Communication-canales.mdegrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+Instrucciones para configurar el servicio principal Personas o la integración de Audience Manager con Adobe Campaign havget-started-Communication-canales.mdegrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 Se ha revisado la tabla de autorizaciones para que la función de ciertos roles sea más clara. [Más información](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
