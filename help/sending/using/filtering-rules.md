@@ -12,7 +12,10 @@ discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
+source-git-commit: 7f5bc442b1dae467a6b6de3e048531940f75031f
+workflow-type: tm+mt
+source-wordcount: '656'
+ht-degree: 13%
 
 ---
 
@@ -28,7 +31,7 @@ La tabla siguiente proporciona información sobre las reglas de filtrado integra
 | Etiqueta | Canal | Descripción |
 ---------|----------|---------
 | **[!UICONTROL Address not specified]** | Todos | Excluye la población de destinatarios sin dirección especificada (correo electrónico, dirección postal, etc.) según el canal seleccionado). |
-| **[!UICONTROL Blacklisted address]** | Todos | Excluye direcciones en la lista negra. |
+| **[!UICONTROL Blocklisted address]** | Todos | Excluye las direcciones que están en la lista de bloques. |
 | **[!UICONTROL Duplicate]** | Todos | Excluye duplicados en función del campo de población de destinatarios **[!UICONTROL Address]** . |
 | **[!UICONTROL Exclude mobile applications]** | Aplicación móvil | Excluye las suscripciones de la aplicación que no coinciden con la aplicación móvil definida en el mensaje. |
 | **[!UICONTROL Exclude mobile applications for In-App]** | En la aplicación | Excluye las suscripciones de la aplicación que no coinciden con la aplicación móvil definida en el mensaje (plantilla en la aplicación). |
@@ -44,7 +47,7 @@ Además de estas reglas de filtrado predeterminadas, hay dos reglas de exclusió
 
 Durante el análisis del correo electrónico, estas reglas comparan las direcciones de correo de los destinatarios con las direcciones o nombres de dominio prohibidos incluidos en una lista de supresión global encriptada que se administra en la instancia de envío. Si se encuentra una coincidencia, el mensaje no se envía a ese destinatario.
 
-El objetivo de esto es evitar que se añada el servicio a una lista negra de actividad maliciosa, especialmente a través de Spamtrap. Por ejemplo, si se utiliza un Spamtrap para suscribirse a través de uno de sus formularios Web, se envía un mensaje de correo electrónico de confirmación automáticamente a ese Spamtrap y esto hace que añada su dirección automáticamente a la lista negra.
+Esto es para evitar ser agregado a la lista de bloques debido a actividades maliciosas, especialmente el uso de Spamtrampa. Por ejemplo, si se utiliza un Spamtrampa para suscribirse a través de uno de sus formularios web, se enviará automáticamente un correo electrónico de confirmación a dicho Spamtrampa, lo que hará que su dirección se añada automáticamente a la lista de bloques.
 
 >[!NOTE]
 >
