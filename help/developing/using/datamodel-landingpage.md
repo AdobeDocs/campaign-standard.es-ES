@@ -13,7 +13,10 @@ context-tags: delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '1727'
+ht-degree: 2%
 
 ---
 
@@ -27,7 +30,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
          <th>Name</th>
          <th>Etiqueta</th>
          <th>Tipo (longitud)</th>
-         <th>Valores de enumeración</th>
+         <th>Valores de Lista desglosada</th>
       </tr>
       <tr>
          <td>PKey</td>
@@ -49,14 +52,14 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       </tr>
       <tr>
          <td>allowNonIdentifiedTarget</td>
-         <td>Autorizar a visitantes no identificados</td>
+         <td>Autorizar visitantes no identificados</td>
          <td>booleano </td>
          <td> </td>
       </tr>
       <tr>
          <td>marca (brandingBase)</td>
          <td>Marca</td>
-         <td> link </td>
+         <td>link </td>
          <td> </td>
       </tr>
       <tr>
@@ -72,9 +75,9 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
          <td> </td>
       </tr>
       <tr>
-         <td>campaign (campaignBase)</td>
+         <td>campaña (campaignBase)</td>
          <td>Campaña</td>
-         <td> link </td>
+         <td>link </td>
          <td> </td>
       </tr>
       <tr>
@@ -98,7 +101,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       <tr>
          <td>createdBy (userBase)</td>
          <td>Creado por</td>
-         <td> link </td>
+         <td>link </td>
          <td> </td>
       </tr>
       <tr>
@@ -110,7 +113,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       <tr>
          <td>defaultLanguage</td>
          <td>Idioma predeterminado</td>
-         <td>enumeración (cadena) (255)</td>
+         <td>lista desglosada (cadena) (255)</td>
          <td>
             <ul>
                <li>Griego - el - el</li>
@@ -162,9 +165,9 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
          </td>
       </tr>
       <tr>
-         <td>defaultOrigin (entrega)</td>
+         <td>defaultOrigin (envío)</td>
          <td>Fuente de tráfico</td>
-         <td> link </td>
+         <td>link </td>
          <td> </td>
       </tr>
       <tr>
@@ -176,7 +179,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       <tr>
          <td>designLanguage</td>
          <td>Lenguaje de diseño</td>
-         <td>enumeración (cadena) (255)</td>
+         <td>lista desglosada (cadena) (255)</td>
          <td>
             <ul>
                <li>Griego - el - el</li>
@@ -254,7 +257,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       <tr>
          <td>geoUnit (geoUnitBase)</td>
          <td>Unidad geográfica</td>
-         <td> link </td>
+         <td>link </td>
          <td> </td>
       </tr>
       <tr>
@@ -283,7 +286,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       </tr>
       <tr>
          <td>isTemplate</td>
-         <td>Plantilla</td>
+         <td>Template</td>
          <td>booleano </td>
          <td> </td>
       </tr>
@@ -314,7 +317,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       <tr>
          <td>loadingFilter (queryFilterBase)</td>
          <td>Cargando clave</td>
-         <td> link </td>
+         <td>link </td>
          <td> </td>
       </tr>
       <tr>
@@ -326,7 +329,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       <tr>
          <td>logicalStatus</td>
          <td>Estado de ejecución</td>
-         <td>enumeración (cadena) (255)</td>
+         <td>lista desglosada (cadena) (255)</td>
          <td>
             <ul>
                <li>En curso - iniciado - iniciado</li>
@@ -340,20 +343,20 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       </tr>
       <tr>
          <td>messageAction</td>
-         <td>Empezar a enviar mensaje</td>
+         <td>Inicio enviando mensaje</td>
          <td>booleano </td>
          <td> </td>
       </tr>
       <tr>
          <td>messageActionDelivery (deliveryMCTemplateBase)</td>
          <td>Mensaje transaccional</td>
-         <td> link </td>
+         <td>link </td>
          <td> </td>
       </tr>
       <tr>
          <td>modifiedBy (userBase)</td>
          <td>Modificado por</td>
-         <td> link </td>
+         <td>link </td>
          <td> </td>
       </tr>
       <tr>
@@ -365,19 +368,19 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       <tr>
          <td>orgUnit (orgUnitBase)</td>
          <td>Unidad organizativa</td>
-         <td> link </td>
+         <td>link </td>
          <td> </td>
       </tr>
       <tr>
          <td>prefill</td>
-         <td>Carga previa de datos de visitantes</td>
+         <td>Carga previa de datos de visitante</td>
          <td>booleano </td>
          <td> </td>
       </tr>
       <tr>
          <td>programa (programBase)</td>
          <td>Programa</td>
-         <td> link </td>
+         <td>link </td>
          <td> </td>
       </tr>
       <tr>
@@ -395,19 +398,19 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       <tr>
          <td>completionFilter (queryFilterBase)</td>
          <td>Clave de reconciliación</td>
-         <td> link </td>
+         <td>link </td>
          <td> </td>
       </tr>
       <tr>
          <td>completionFilterMapping</td>
-         <td>Parámetros de clave de reconciliación</td>
+         <td>Parámetros de Clave de reconciliación</td>
          <td>colección </td>
          <td> </td>
       </tr>
       <tr>
          <td>completionUpdateStrategy</td>
          <td>Actualizar estrategia</td>
-         <td>enumeración (byte) </td>
+         <td>lista desglosada (byte) </td>
          <td>
             <ul>
                <li>Actualización - updateTarget - 1</li>
@@ -419,25 +422,25 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       <tr>
          <td>service (serviceBase)</td>
          <td>Servicio de suscripción</td>
-         <td> link </td>
+         <td>link </td>
          <td> </td>
       </tr>
       <tr>
          <td>specificAction</td>
          <td>Acción específica</td>
-         <td>enumeración (byte) </td>
+         <td>lista desglosada (byte) </td>
          <td>
             <ul>
-               <li>Lista negra - blackList - 3</li>
+               <li>Lista de bloqueos - blockList - 3</li>
                <li>Sin acción específica - ninguno - 0</li>
-               <li>Cancelación de la suscripción - Cancelación de la suscripción - 2</li>
+               <li>Baja - baja - 2</li>
                <li>VALOR NO VÁLIDO - __Invalid_value_ - __Invalid_value__</li>
                <li>Suscripción - suscripción - 1</li>
             </ul>
          </td>
       </tr>
       <tr>
-         <td>start</td>
+         <td>inicio</td>
          <td>Fecha de implementación</td>
          <td>date </td>
          <td> </td>
@@ -445,7 +448,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       <tr>
          <td>state</td>
          <td>Estado</td>
-         <td>enumeración (byte) </td>
+         <td>lista desglosada (byte) </td>
          <td>
             <ul>
                <li>Edición - editar - 0</li>
@@ -458,14 +461,14 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       </tr>
       <tr>
          <td>targetResource</td>
-         <td>Dimensiones de objetivo</td>
+         <td>Dimensión de segmentación</td>
          <td>string (255)</td>
          <td> </td>
       </tr>
       <tr>
          <td>template (landingPage)</td>
-         <td>Plantilla de página de aterrizaje</td>
-         <td> link </td>
+         <td>Plantilla de Página de aterrizaje</td>
+         <td>link </td>
          <td> </td>
       </tr>
       <tr>
@@ -483,7 +486,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       <tr>
          <td>timezone</td>
          <td>Zona horaria</td>
-         <td>enumeración (cadena) (64)</td>
+         <td>lista desglosada (cadena) (64)</td>
          <td>
             <ul>
                <li>(GMT-02:00) Atlántico Central - Atlántico_Sur_Georgia - Atlántico/Sur_Georgia</li>
@@ -628,12 +631,12 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       <tr>
          <td>type</td>
          <td>Tipo</td>
-         <td>enumeración (byte) </td>
+         <td>lista desglosada (byte) </td>
          <td>
             <ul>
                <li>Genérico - genérico - 0</li>
-               <li>Cancelación de la suscripción a un servicio - cancelación de la suscripción - 3</li>
-               <li>Lista negra - blackList - 4</li>
+               <li>Baja de un servicio - baja - 3</li>
+               <li>Lista de bloqueos - blockList - 4</li>
                <li>VALOR NO VÁLIDO - __Invalid_value_ - __Invalid_value__</li>
                <li>Adquisición - adquisición - 1</li>
                <li>Suscripción a un servicio - suscripción - 2</li>
@@ -665,7 +668,7 @@ Por estado lógico (byLogicalStatus)
     </tr>
     <tr>
     <td>state</td>
-    <td>enumeración</td>
+    <td>lista desglosada</td>
     </tr>
 </table>
 
@@ -691,7 +694,7 @@ Por estado (byState)
     </tr>
     <tr>
     <td>state</td>
-    <td>enumeración</td>
+    <td>lista desglosada</td>
     </tr>
 </table>
 
@@ -721,7 +724,7 @@ Incluir páginas de aterrizaje avanzadas (conAvanzado)
     </tr>
 </table>
 
-Incluir entregas continuas de una lista heterogénea (conContinuo)
+Incluir envíos continuos de una lista heterogénea (conContinuo)
 
 <table>
         <tr>
