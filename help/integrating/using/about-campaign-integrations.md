@@ -12,10 +12,10 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e89218b584f0d621ca700d4ee2a4866555d00679
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 23%
+source-wordcount: '592'
+ht-degree: 19%
 
 ---
 
@@ -32,7 +32,7 @@ Las diferentes integraciones presentadas a continuación le permiten combinar la
 
 Según el entorno, otras soluciones también se pueden vincular a Adobe Experience Cloud. Están vinculados como Organizaciones (también llamados Inquilinos).
 
-Una organización es la entidad que permite a un administrador configurar grupos y usuarios y controlar el inicio de sesión único en Experience Cloud. La organización funciona como una empresa de inicio de sesión que abarca todos los productos y soluciones de Experience Cloud. Generalmente, la organización es el nombre de la empresa. Sin embargo, una empresa puede tener muchas organizaciones. La administración de usuarios y organizaciones se detalla en el portal [de ayuda de](https://marketing.adobe.com/resources/help/es_ES/mcloud/organizations.html)Adobe Experience Cloud.
+Una organización es la entidad que permite a un administrador configurar grupos y usuarios y controlar el inicio de sesión único en Experience Cloud. La organización funciona como una empresa de inicio de sesión que abarca todos los productos y soluciones de Experience Cloud. Generalmente, la organización es el nombre de la empresa. Sin embargo, una empresa puede tener muchas organizaciones. La administración de usuarios y organizaciones se detalla en el portal [de ayuda de](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html)Adobe Experience Cloud.
 
 Si desea integrar flujos de datos de otros sistemas con Adobe Campaign, consulte nuestra documentación [de](../../api/using/get-started-apis.md)API.
 
@@ -49,25 +49,25 @@ Si desea integrar flujos de datos de otros sistemas con Adobe Campaign, consulte
    <td> Experience Manager<br /> 6.1, 6.2, 6.3, 6.4, 6.5<br /> </td> 
    <td> Permite crear contenido de correo electrónico o formularios asignados a la base de datos de Adobe Campaign directamente en Adobe Experience Manager.<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">Trabajar con Campaña y Experience Manager</a><br/>, <a href="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignstandard.html">integrar Experience Manager y Campaign Standard</a> <br/>, <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">crear un correo electrónico con Experience Manager y Campaña</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">Trabajar con Campaña y Experience Manager</a><br/>, <a href="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignstandard.html">Integrar Experience Manager y Campaign Standard</a> <br/>, <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">crear un correo electrónico con Experience Manager y Campaña</a> 
     </td> 
   </tr> 
   <tr> 
    <td> Destinatario<br /> Classic, Standard<br /> </td> 
    <td> Allows you to insert images that are dynamically computed by Adobe Target when an email created and sent by Adobe Campaign is opened.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">Trabaje con Campaña y Destinatario</a> <br/>, <a href="https://marketing.adobe.com/resources/help/es_ES/target/a4t/c_campaign_and_target.html">integre Campaña y Destinatario</a><br/>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">personalice imágenes de correo electrónico en vídeo en tiempo</a> real (paso 3)
+    <a href="../../integrating/using/about-campaign-target-integration.md">Trabaje con Campaña y Destinatario</a> <br/>, <a href="https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html">integre Campaña y Destinatario</a><br/>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">personalice imágenes de correo electrónico en vídeo en tiempo</a> real (paso 3)
     </td> 
   </tr> 
   <tr> 
    <td> Analytics<br /> Standard, Premium <br /> </td> 
    <td> Le permite realizar un seguimiento del éxito de sus envíos de correo electrónico directamente en Adobe Analytics.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-analytics-integration.md">Compartir datos de Campaña con Analytics</a><br/>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Compartir KPI para vídeo de sistema de informes</a> de Campaña integrado (paso 1)
+    <a href="../../integrating/using/about-campaign-analytics-integration.md">Compartir datos de Campaña con Analytics</a><br/>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Compartir KPI para vídeo integrado de sistema de informes</a> de Campañas (paso 1)
     </td> 
   </tr> 
   <tr> 
-   <td> Adobe Audiencia Manager y el servicio principal Personas (Perfiles y Audiencias)<br /> </td> 
+   <td> Adobe Audience Manager y servicio principal Personas (Perfiles y Audiencias)<br /> </td> 
    <td> Le permite intercambiar audiencias con las distintas aplicaciones de Adobe Experience Cloud que utilice.<br /> </td> 
    <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">Servicio principal de personas (Perfiles y Audiencias)</a><br /> </td> 
   </tr> 
@@ -77,15 +77,15 @@ Si desea integrar flujos de datos de otros sistemas con Adobe Campaign, consulte
    <td> <a href="../../integrating/using/working-with-campaign-and-assets-core-service.md">Servicio</a> principal de recursos o Recursos On Demand<br /> </td> 
   </tr> 
   <tr> 
-   <td> Puntos de interés (Analytics para móviles)<br /> </td> 
+   <td> Puntos de interés (Analytics para dispositivos móviles)<br /> </td> 
    <td> Permite recopilar datos de puntos de interés de los suscriptores de la aplicación móvil para enviar mensajes de marketing personalizados con Adobe Campaign.<br /> </td> 
-   <td> <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">Envío de mensajes de marketing basados en la ubicación con datos</a> de Campaña y puntos de interés (Analytics para móviles)<br /> </td> 
+   <td> <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">Envío de mensajes de marketing basados en la ubicación con datos</a> de Campaña y puntos de interés (Analytics para dispositivos móviles)<br /> </td> 
   </tr> 
   <tr> 
    <td> Activadores de Experience Cloud<br /> </td> 
    <td> Le permite enviar correos electrónicos personalizados a sus clientes en Adobe Campaign como reacción a comportamientos específicos que Adobe Analytics rastrea en su sitio web.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">Utilice Experience Cloud Triggers en casos</a><br/>de uso de Campaign Standard <a href="../../integrating/using/abandonment-triggers-use-cases.md">,</a><br/>Abandonos y Campañas, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Activador de mensajes de remercadotecnia basados en el vídeo de Actividad</a> del sitio (paso 2)
+    <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">Utilizar activadores de Experience Cloud en casos</a><br/>de uso de Campaign Standard <a href="../../integrating/using/abandonment-triggers-use-cases.md">, activadores de</a><br/>abandono, casos <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">de uso de Campañas y mensajes de remercadotecnia de</a> activadores basados en vídeo de Actividaddel sitio (paso 2)
     </td> 
   </tr> 
   <tr> 
@@ -96,9 +96,9 @@ Si desea integrar flujos de datos de otros sistemas con Adobe Campaign, consulte
   </td> 
   </tr> 
   <tr> 
-   <td> SDK de la plataforma de experiencia<br /> </td> 
-   <td> Permite la automatización del proceso de activación de propiedades de la aplicación móvil en Adobe Campaign mediante los SDK de la plataforma de experiencia.<br /> </td> 
-   <td> <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">Configuración de una aplicación móvil mediante los SDK de la plataforma de experiencia</a><br /> </td> 
+   <td> SDK de Experience Platform<br /> </td> 
+   <td> Permite la automatización del proceso de activación de la propiedad de la aplicación móvil en Adobe Campaign mediante los SDK de Experience Platform.<br /> </td> 
+   <td> <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">Configuración de una aplicación móvil mediante SDK de Experience Platform</a><br /> </td> 
   </tr> 
  </tbody> 
 </table>
