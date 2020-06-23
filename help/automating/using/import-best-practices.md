@@ -12,10 +12,10 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: b4d0aa1a9f116f022890d5eccd87730a7a513103
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 78%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +34,7 @@ En muchos proyectos, las importaciones se crean sin actividad de **[!UICONTROL D
 
 No dé por hecho que los datos entrantes son coherentes y correctos, o que el departamento de TI o el iniciador de Adobe Campaign se pueden encargar de ello. Durante el proyecto, tenga en cuenta la limpieza de los datos. Deduplique, reconcilie y mantenga la coherencia al importar datos.
 
-En el [ejemplo encontrará un ejemplo de una plantilla de flujo de trabajo genérica diseñada para importar datos: Importar la sección de plantillas](#example--import-workflow-template) de flujo de trabajo.
+En el [ejemplo encontrará un ejemplo de una plantilla de flujo de trabajo genérica diseñada para importar datos: Importar la sección de plantillas](../../automating/using/creating-import-workflow-templates.md) de flujo de trabajo.
 
 >[!NOTE]
 >
