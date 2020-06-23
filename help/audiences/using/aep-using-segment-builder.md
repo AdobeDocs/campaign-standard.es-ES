@@ -1,6 +1,6 @@
 ---
-title: Uso del Generador de segmentos unificados
-description: Aprenda a utilizar el Generador de segmentos unificado para crear audiencias.
+title: Uso del Generador de segmentos
+description: Aprenda a utilizar el Generador de segmentos para crear audiencias.
 page-status-flag: never-activated
 uuid: b3996642-96ec-489e-b146-c8c2cb52aa32
 contentOwner: sauviat
@@ -13,22 +13,25 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 573131986d52bb4415cca59600048fd7dc5ba0db
+source-git-commit: be7ab90583e9c6472fd2c86082e832432d0a32b9
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Uso del Generador de segmentos unificados {#using-the-unified-segment-builder}
+# Using the Segment Builder {#using-the-segment-builder}
 
 >[!IMPORTANT]
 >
 >El servicio Destinos de Audiencia está actualmente en fase beta, que puede estar sujeto a frecuentes actualizaciones sin previo aviso. Se requiere que los clientes estén alojados en Azure (actualmente en versión beta solo para Norteamérica) para acceder a estas capacidades. Póngase en contacto con el Servicio de atención al cliente de Adobe si desea obtener acceso.
 
-El Generador de segmentos unificado le permite generar audiencias mediante la definición de reglas basadas en datos provenientes del servicio [de Perfil](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)unificado.
+El Generador de segmentos le permite generar audiencias mediante la definición de reglas basadas en datos procedentes del Perfil [del cliente en tiempo](https://docs.adobe.com/content/help/es-ES/experience-platform/profile/home.html)real.
 
-Esta sección presenta conceptos globales al crear un segmento. Para obtener información detallada sobre el propio Generador de segmentos unificado, consulte la guía [de usuario del Generador de](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)segmentos.
+Esta sección presenta conceptos globales al crear un segmento. Para obtener información detallada sobre el propio Generador de segmentos, consulte la guía [de usuario del Generador de](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)segmentos.
 
-La interfaz del Generador de segmentos unificado se compone de la siguiente manera:
+La interfaz del Generador de segmentos se compone de la siguiente manera:
 
 * El panel izquierdo proporciona todos los atributos, eventos y audiencias disponibles para generar el segmento arrastrando y soltando los campos deseados en el espacio de trabajo del generador de segmentos.
 * El área central proporciona un espacio de trabajo para generar el segmento mediante la definición y combinación de reglas de los campos disponibles.
@@ -40,7 +43,7 @@ La interfaz del Generador de segmentos unificado se compone de la siguiente mane
 
 Para crear un segmento, siga estos pasos:
 
-El Generador de segmentos unificado debería mostrarse ahora en su espacio de trabajo. Le permite crear un segmento con datos de la plataforma Adobe Experience que se utilizarán finalmente para crear su audiencia.
+El Generador de segmentos ahora debe mostrarse en su espacio de trabajo. Le permite crear un segmento usando datos de Adobe Experience Platform que eventualmente se utilizarán para crear su audiencia.
 
 1. Asigne un nombre al segmento y, a continuación, introduzca una descripción (opcional).
 
@@ -66,15 +69,15 @@ El Generador de segmentos unificado debería mostrarse ahora en su espacio de tr
 
 El panel izquierdo lista todos los atributos, eventos y audiencias disponibles para su uso en la creación de reglas.
 
-Los campos enumerados son atributos capturados por la compañía y se han puesto a disposición a través del sistema [del Modelo de datos de](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html)experiencia (XDM).
+Los campos enumerados son atributos capturados por la compañía y se han puesto a disposición a través del sistema [del Modelo de datos de](https://docs.adobe.com/content/help/es-ES/experience-platform/xdm/home.html)experiencia (XDM).
 
 Los campos están organizados en fichas:
 
-* **[!UICONTROL Attributes]**:: Atributos de perfil existentes que pueden originarse en la base de datos de Adobe Campaign o en la plataforma de Adobe Experience. Se refieren a la información estática adjunta a un perfil (por ejemplo, dirección de correo electrónico, país de residencia, estado de programa de lealtad, etc.).
+* **[!UICONTROL Attributes]**:: Atributos de perfiles existentes que pueden originarse en la base de datos de Adobe Campaign o en el Adobe Experience Platform. Se refieren a la información estática adjunta a un perfil (por ejemplo, dirección de correo electrónico, país de residencia, estado de programa de lealtad, etc.).
 
    ![](assets/aep_audiences_attributestab.png)
 
-* **[!UICONTROL Events]**:: Actividades que identifican a los consumidores que han interactuado con los puntos de contacto del cliente de su compañía, como &quot;cualquiera que haya pedido dos veces en dos semanas&quot;. Esto se puede transmitir desde Adobe Analytics o ingerir directamente en Adobe Experience Platform mediante herramientas de ETL de terceros.
+* **[!UICONTROL Events]**:: Actividades que identifican a los consumidores que han interactuado con los puntos de contacto del cliente de su compañía, como &quot;cualquiera que haya pedido dos veces en dos semanas&quot;. Esto se puede transmitir desde Adobe Analytics o ingerir directamente en el Adobe Experience Platform mediante herramientas de ETL de terceros.
 
    ![](assets/aep_audiences_eventstab.png)
 
@@ -84,7 +87,7 @@ Los campos están organizados en fichas:
 >
 >For more on this, refer to the [dedicated documentation](https://docs.adobe.com/content/help/en/experience-platform/segmentation/multi-entity-segmentation.html).
 
-De forma predeterminada, el creador de segmentos unificados muestra los campos en los que los datos ya están presentes. Para mostrar el esquema completo, incluidos los campos para los que no hay datos, active la **[!UICONTROL Show full XDM schema]** opción desde la configuración.
+De forma predeterminada, el Generador de segmentos muestra los campos en los que los datos ya están presentes. Para mostrar el esquema completo, incluidos los campos para los que no hay datos, active la **[!UICONTROL Show full XDM schema]** opción desde la configuración.
 
 ![](assets/aep_audiences_populatedfields.png)
 
@@ -124,7 +127,7 @@ Una vez vinculadas, las dos reglas forman un contenedor.
 
 ## Comparación de campos
 
-El Generador de segmentos unificado permite comparar dos campos para definir una regla. Por ejemplo, las mujeres cuya dirección principal está en un código postal diferente de su dirección de trabajo.
+El Generador de segmentos permite comparar dos campos para definir una regla. Por ejemplo, las mujeres cuya dirección principal está en un código postal diferente de su dirección de trabajo.
 
 Para ello, siga estos pasos:
 
