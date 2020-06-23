@@ -1,6 +1,6 @@
 ---
 title: Administración de audiencias de Adobe Experience Platform
-description: Obtenga información sobre cómo administrar Adobe Experience Platform en Campaign Standard.
+description: Aprenda a administrar el Adobe Experience Platform dentro de Campaign Standard.
 page-status-flag: never-activated
 uuid: b3996642-96ec-489e-b146-c8c2cb52aa32
 contentOwner: sauviat
@@ -13,7 +13,10 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e1fa546313e8d543685ef30a072ae2d97c5bf236
+source-git-commit: d487600fc4f3004804e93347b83edfe4e01cceeb
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,15 +27,15 @@ source-git-commit: e1fa546313e8d543685ef30a072ae2d97c5bf236
 >
 >El Servicio de Destinos de Audiencia está actualmente en fase beta, que puede estar sujeto a frecuentes actualizaciones sin previo aviso. Se requiere que los clientes estén alojados en Azure (actualmente en versión beta solo para Norteamérica) para acceder a estas capacidades. Póngase en contacto con el Servicio de atención al cliente de Adobe si desea obtener acceso.
 
-## Acceso a las audiencias de Adobe Experience Platform
+## Acceso a audiencias de Adobe Experience Platform
 
 Para acceder al generador de segmentos de Adobe Experience Platform, vaya a la **[!UICONTROL Audiences]** tarjeta en la página de inicio del Campaign Standard (o al **[!UICONTROL Audiences]** vínculo en el encabezado) y, a continuación, seleccione el **[!UICONTROL Adobe Experience Platform]** entorno.
 
 ![](assets/aep_audiences_access.png)
 
-En primer lugar, se le dirigirá a la página de lista de segmentos de Adobe Experience Platform, donde se puede acceder a los segmentos existentes de Adobe Experience Platform para editarlos más adelante.
+Primero se le dirigirá a la página de lista de segmentos de Adobe Experience Platform, donde se puede acceder a los segmentos de Adobe Experience Platform existentes para editarlos más adelante.
 
-Hay una barra de búsqueda y un filtro disponibles para ayudarle a encontrar el segmento deseado de la plataforma de experiencia de Adobe.
+Hay una barra de búsqueda y un filtro disponibles para ayudarle a encontrar el segmento de Adobe Experience Platform deseado.
 
 ![](assets/aep_audiences_list.png)
 
@@ -40,11 +43,11 @@ Hay una barra de búsqueda y un filtro disponibles para ayudarle a encontrar el 
 
 Para crear una audiencia de Adobe Experience Platform directamente en Campaign Standard, siga estos pasos:
 
-1. En la página de lista de segmentos de Adobe Experience Platform, haga clic en el **[!UICONTROL New audience]** botón situado en la esquina derecha.
+1. En la página lista de segmentos de Adobe Experience Platform, haga clic en el botón situado en la esquina derecha del **[!UICONTROL New audience]** botón.
 
    ![](assets/aep_audiences_creation_create.png)
 
-1. El Generador de segmentos unificado debería mostrarse ahora en su espacio de trabajo. Le permite crear un segmento con datos de la plataforma Adobe Experience que se utilizarán finalmente para crear su audiencia.
+1. El Generador de segmentos ahora debe mostrarse en su espacio de trabajo. Le permite crear un segmento usando datos de Adobe Experience Platform que eventualmente se utilizarán para crear su audiencia.
 
 1. Asigne un nombre al segmento en el panel derecho e introduzca una descripción (opcional).
 
@@ -52,21 +55,21 @@ Para crear una audiencia de Adobe Experience Platform directamente en Campaign S
 
 1. Para crear correctamente un segmento, debe seleccionar una directiva **de** combinación que coincida con el propósito de marketing de este segmento.
 
-   En el panel de configuración, se selecciona una directiva de combinación predeterminada de plataforma. Para obtener más información sobre las directivas de combinación, consulte la sección dedicada en la guía del usuario del Generador [de segmentos](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
+   En el panel de configuración, se selecciona una directiva de combinación predeterminada de Platform. Para obtener más información sobre las directivas de combinación, consulte la sección dedicada en la guía del usuario del Generador [de segmentos](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
 1. Defina las reglas que identificarán los perfiles que se recuperarán en la audiencia.
 
-   Para ello, arrastre los atributos y/o eventos deseados desde el panel izquierdo al espacio de trabajo, defina las reglas correspondientes y haga clic en el **[!UICONTROL Create segment]** botón para guardar el segmento (consulte [Uso del Generador](../../audiences/using/aep-using-segment-builder.md)de segmentos unificado).
+   Para ello, arrastre los atributos y/o eventos deseados desde el panel izquierdo al espacio de trabajo, defina las reglas correspondientes y haga clic en el **[!UICONTROL Create segment]** botón para guardar el segmento (consulte [Uso del Generador](../../audiences/using/aep-using-segment-builder.md)de segmentos).
 
    ![](assets/aep_audiences_creation_query.png)
 
-La audiencia ya está lista para activarse, puede utilizarla como destinatario para sus campañas (consulte [Targeting Adobe Experience Platform audiencias](../../automating/using/aep-targeting-audiences.md)).
+La audiencia ya está lista para activarse, puede utilizarla como destinatario para sus campañas (consulte audiencias [de Adobe Experience Platform de](../../automating/using/aep-targeting-audiences.md)objetivos).
 
 ## Edición de audiencias
 
-Para editar una audiencia, ábrala y modifique las reglas según sea necesario en la interfaz del Generador de segmentos unificado (consulte [Uso del Generador](../../audiences/using/aep-using-segment-builder.md)de segmentos unificado).
+Para editar una audiencia, ábrala y modifique las reglas según sea necesario en la interfaz del Generador de segmentos (consulte [Uso del Generador](../../audiences/using/aep-using-segment-builder.md)de segmentos).
 
 Una vez completados los cambios, haga clic en el **[!UICONTROL Save segment]** botón para actualizar la audiencia.
 
