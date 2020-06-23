@@ -12,10 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
 workflow-type: tm+mt
-source-wordcount: '2536'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -201,7 +201,7 @@ Adobe Campaign le permite personalizar una o varias imágenes del mensaje según
 
    >[!NOTE]
    >
-   >El nombre de dominio (http://mydomain.com) no se puede personalizar, debe introducirse manualmente. El resto de la dirección URL se puede personalizar. Por ejemplo: http://mydomain.com/`[Gender]`.jpg
+   >El nombre de dominio (http://mydomain.com) no se puede personalizar, debe introducirse manualmente. El resto de la dirección URL se puede personalizar. Por ejemplo: http://mydomain.com/ `[Gender]` .jpg
 
 1. Confirme los cambios.
 
