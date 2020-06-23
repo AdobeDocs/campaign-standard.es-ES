@@ -12,10 +12,10 @@ discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -193,7 +193,7 @@ Las tablas siguientes proporcionan la lista de los indicadores utilizados en los
   <tr> 
    <td> Clics únicos<br /> </td> 
    <td> @exclueclicks<br /> </td> 
-   <td> Los clics únicos se calculan mediante conceptos de ThetaSketch.<br /> </td> 
+   <td> Los clics únicos se calculan mediante conceptos de ThetaSketch. For more on this, refer to this <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -273,7 +273,7 @@ Las tablas siguientes proporcionan la lista de los indicadores utilizados en los
   <tr> 
    <td> Aperturas únicas<br /> </td> 
    <td> @uniqueopen<br /> </td> 
-   <td> Las aperturas únicas se calculan utilizando los conceptos de ThetaSketch de RecipientIds únicos.<br /> </td> 
+   <td> Las aperturas únicas se calculan utilizando los conceptos de ThetaSketch de RecipientIds únicos. For more on this, refer to this <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Impresiones<br /> </td> 
@@ -293,7 +293,7 @@ Las tablas siguientes proporcionan la lista de los indicadores utilizados en los
   <tr> 
    <td> Clics únicos<br /> </td> 
    <td> @exclueclicks<br /> </td> 
-   <td> Los clics únicos se calculan mediante conceptos de ThetaSketch.<br /> </td> 
+   <td> Los clics únicos se calculan mediante conceptos de ThetaSketch. For more on this, refer to this <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Tasa de pulsaciones<br /> </td> 
