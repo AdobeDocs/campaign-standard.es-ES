@@ -13,10 +13,10 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3ed78fd610b0d134cd1e60f34c93161cb1e5c50f
+source-git-commit: b4d0aa1a9f116f022890d5eccd87730a7a513103
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -45,7 +45,7 @@ Una vez iniciado, un flujo de trabajo también puede tener otros dos estados:
 
 * **Erróneo** (rojo)
 
-   Error al ejecutar un flujo de trabajo. El flujo de trabajo se detuvo y el usuario debe realizar una acción. Para obtener más información sobre este error, utilice el ![](assets/printpreview_darkgrey-24px.png) botón para acceder al registro del flujo de trabajo (consulte [Supervisión](#monitoring)).
+   Error al ejecutar un flujo de trabajo. El flujo de trabajo se detuvo y el usuario debe realizar una acción. Para obtener más información sobre este error, utilice el ![](assets/printpreview_darkgrey-24px.png) botón para acceder al registro del flujo de trabajo (consulte [Supervisión](../../automating/using/monitoring-workflow-execution.md)).
 
 La lista de actividades de marketing permite mostrar todos los flujos de trabajo, así como sus estados. Para obtener más información sobre esto, consulte [Administración de actividades](../../start/using/marketing-activities.md#about-marketing-activities)de mercadotecnia.
 
