@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Las opciones posibles son:
 
 * **[!UICONTROL History in days]**:: especifica el número de días después de los cuales se debe purgar el historial. El historial contiene elementos relacionados con el flujo de trabajo: registros, tareas, eventos (objetos técnicos vinculados a la operación de flujo de trabajo), así como archivos descargados por la **[!UICONTROL Transfer file]** actividad. El valor predeterminado es de 30 días para las plantillas de flujo de trabajo integradas.
 
-   La depuración del historial la realiza el flujo de trabajo técnico de limpieza de la base de datos, que se ejecuta de forma predeterminada todos los días (consulte [Lista de flujos de trabajo técnicos](../../administration/using/technical-workflows.md)).
+   La depuración del historial se realiza mediante el flujo de trabajo técnico de limpieza de la base de datos, que se ejecuta de forma predeterminada todos los días (consulte [Lista de flujos de trabajo técnicos](../../administration/using/technical-workflows.md)).
 
    >[!IMPORTANT]
    >
@@ -47,4 +47,4 @@ Las opciones posibles son:
 
 * **[!UICONTROL Severity]**:: permite especificar un nivel de prioridad para la ejecución de flujos de trabajo en la instancia de Adobe Campaign. Los flujos de trabajo críticos se ejecutarán primero.
 
-La **[!UICONTROL Error management]** sección proporciona opciones adicionales que le permiten administrar el comportamiento de los flujos de trabajo en caso de errores. Estas opciones se detallan en la sección Administración de [errores](#error-management) .
+La **[!UICONTROL Error management]** sección proporciona opciones adicionales que le permiten administrar el comportamiento de los flujos de trabajo en caso de errores. Estas opciones se detallan en la sección Administración de [errores](../../automating/using/monitoring-workflow-execution.md#error-management) .
