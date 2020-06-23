@@ -1,6 +1,6 @@
 ---
 title: Personalización de listas
-description: '"Aprenda a personalizar la visualización y a actuar en las pantallas de lista en Adobe Campaign Standard:clasificación, filtrado, eliminación o duplicación de elementos. Las pantallas de Listas muestran elementos de uno o varios recursos determinados."'
+description: '"Aprenda a personalizar la visualización y a actuar en pantallas de lista en Adobe Campaign Standard:ordenar, filtrar, eliminar o duplicar elementos. Las pantallas de Listas muestran elementos de uno o varios recursos determinados."'
 page-status-flag: never-activated
 uuid: 3350583c-91ca-4ea5-ac14-6b6f11c4a64a
 contentOwner: sauviat
@@ -12,7 +12,10 @@ discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 49d76d7a1c0e12369ab1c533adca9f3da19946a8
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+workflow-type: tm+mt
+source-wordcount: '586'
+ht-degree: 5%
 
 ---
 
@@ -79,7 +82,7 @@ Los mensajes personalizados son clave para enviar contenido relevante, oferta de
 * Inserte campos de personalización [](../../designing/using/personalization.md#inserting-a-personalization-field) dinámicos en los mensajes
 * Insert [predefined personalization blocks](../../designing/using/personalization.md#adding-a-content-block)
 * [Personalización del remitente](../../designing/using/subject-line.md) de un correo electrónico o un SMS
-* [Personalice la línea](../../designing/using/subject-line.md) de asunto de un correo electrónico o utilice las funciones de línea [de asunto](../../designing/using/subject-line.md#predictive-subject-line) predictiva para optimizarlo
+* [Personalice la línea](../../designing/using/subject-line.md) de asunto de un correo electrónico o utilice las funciones de línea [de asunto](../../designing/using/subject-line.md#subject-line) predictiva para optimizarlo
 * Crear contenido [condicional en un correo electrónico](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) o [en una página de aterrizaje](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
 * Insertar texto [](../../channels/using/defining-dynamic-text.md) dinámico en un mensaje SMS o una notificación Push
 
