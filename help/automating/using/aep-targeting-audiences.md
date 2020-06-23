@@ -1,6 +1,6 @@
 ---
 title: Segmentación de las audiencias de Adobe Experience Platform
-description: Obtenga información sobre el destinatario de audiencias de Adobe Experience PLatform en flujos de trabajo.
+description: Aprenda a destinatario de audiencias de Adobe Experience Platform dentro de flujos de trabajo.
 page-status-flag: never-activated
 uuid: 528d9472-e447-47af-a6b2-3181aa5fb5ad
 contentOwner: sauviat
@@ -12,7 +12,10 @@ discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: be7ab90583e9c6472fd2c86082e832432d0a32b9
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 >
 >El servicio Destinos de Audiencia está actualmente en fase beta, que puede estar sujeto a frecuentes actualizaciones sin previo aviso. Se requiere que los clientes estén alojados en Azure (actualmente en versión beta solo para Norteamérica) para acceder a estas capacidades. Póngase en contacto con el Servicio de atención al cliente de Adobe si desea obtener acceso.
 
-Una vez que haya creado una audiencia [de](../../audiences/using/aep-about-audience-destinations-service.md) Adobe Experience Platform con el generador de segmentos de Perfil unificado, puede utilizarla del mismo modo que lo haría con una audiencia de Campaña dentro de flujos de trabajo para personalizar y enviar mensajes.
+Una vez que haya creado una audiencia [de](../../audiences/using/aep-about-audience-destinations-service.md) Adobe Experience Platform con el Generador de segmentos, puede utilizarla del mismo modo que lo haría con una audiencia de Campaña dentro de flujos de trabajo para personalizar y enviar mensajes.
 
 Para activar una audiencia de Adobe Experience Platform en sus flujos de trabajo, siga estos pasos:
 
@@ -35,9 +38,9 @@ Para activar una audiencia de Adobe Experience Platform en sus flujos de trabajo
 
 1. (Opcional) Una vez seleccionada la audiencia, puede hacer clic en el botón del ojo para revisar o editar la definición del segmento (asegúrese de guardar los cambios de nuevo).
 
-   Al hacer clic en el botón del ojo simplemente se le dirigirá al Generador de segmentos unificado (en otra ficha) asociado con la audiencia seleccionada dentro de la Campaña.
+   Al hacer clic en el botón del ojo simplemente se le dirigirá al Generador de segmentos (en otra ficha) asociado con la audiencia seleccionada dentro de la Campaña.
 
-1. Seleccione un **[!UICONTROL Platform data mapping]** elemento para especificar la dimensión de segmentación deseada para la audiencia seleccionada de Adobe Experience Platform.
+1. Seleccione un **[!UICONTROL Platform data mapping]** elemento para especificar la dimensión de segmentación deseada para la audiencia de Adobe Experience Platform seleccionada.
 
    De forma predeterminada, la clave principal (por ejemplo, la tabla iRecipientID para Perfil, la tabla iAppSubscriptionID para AppSubscription) utilizada para la reconciliación estará disponible automáticamente en la lista desplegable. Para realizar destinatarios fuera de la clave principal, debe crear una **Área de nombres** personalizada.
 
@@ -47,7 +50,7 @@ Para activar una audiencia de Adobe Experience Platform en sus flujos de trabajo
 
    ![](assets/aep_wkf_readaudience_namespace.png)
 
-   Esta lista contiene todas las asignaciones del Modelo de datos de experiencia (XDM) que se han configurado en la instancia. Para obtener más información sobre el conector de datos de la plataforma Adobe Experience, consulte [este documento](../../developing/using/aep-about-data-connector.md)dedicado.
+   Esta lista contiene todas las asignaciones del Modelo de datos de experiencia (XDM) que se han configurado en la instancia. Para obtener más información sobre el conector de datos de Adobe Experience Platform, consulte [este documento](../../developing/using/aep-about-data-connector.md)dedicado.
 
    ![](assets/aep_wkf_readaudience_namespace2.png)
 
@@ -59,7 +62,7 @@ Ahora puede configurar el flujo de trabajo con otras actividades. Por ejemplo, p
 
 >[!NOTE]
 >
->Campaign Standard permite el destinatario de audiencias de la plataforma de experiencia de Adobe en todos los canales de envío: Correos electrónicos, mensajes SMS, mensajes de Correo postal, notificaciones push y mensajes en la aplicación.
+>Campaign Standard le permite destinatario de audiencias de Adobe Experience Platform dentro de todos los canales de envío: Correos electrónicos, mensajes SMS, mensajes de Correo postal, notificaciones push y mensajes en la aplicación.
 >
 >*Nota: Para todos los mensajes push y en la aplicación, el Campaign Standard solo admite envíos para perfiles conocidos.
 
