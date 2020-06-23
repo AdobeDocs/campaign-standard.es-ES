@@ -13,9 +13,9 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: 2a8cb9aa0d018fec9d5b256beba079c5ec3afaf0
 workflow-type: tm+mt
-source-wordcount: '1771'
+source-wordcount: '1799'
 ht-degree: 5%
 
 ---
@@ -98,6 +98,9 @@ La configuración de actividad incluye dos pasos. En primer lugar, debe definir 
       ![](assets/wkf_file_loading1.png)
 
 1. Si el archivo desde el que desea cargar los datos está comprimido en un archivo GZIP (.gz), seleccione la **[!UICONTROL Decompression]** opción en el **[!UICONTROL Add a pre-processing step]** campo. Esto le permite descomprimir el archivo antes de cargar los datos. Esta opción solo está disponible si el archivo procede de la transición de entrada de la actividad.
+
+   El **[!UICONTROL Add a pre-processing step]** campo también permite descifrar un archivo antes de importarlo a la base de datos. Para obtener más información sobre cómo trabajar con archivos cifrados, consulte [esta sección](../../automating/using/managing-encrypted-data.md)
+
 1. La **[!UICONTROL Keep the rejects in a file]** opción le permite descargar un archivo que contenga errores producidos durante la importación y aplicarle una etapa posterior al procesamiento. Cuando se activa la opción, se cambia el nombre de la transición saliente por &quot;Rechaza&quot;.
 
    >[!NOTE]
@@ -205,13 +208,13 @@ El ejemplo siguiente muestra cómo enviar un correo electrónico con datos adici
 
    <!--![](assets/load_file_enrichment_additional_data.png)-->
 
-   Para obtener más información sobre esto, consulte la sección [Enriquecimiento](../../automating/using/enrichment.md) .
+   For more on this, see the [Enrichment](../../automating/using/enrichment.md) section.
 
 1. Arrastre y suelte una **[!UICONTROL Segmentation]** actividad en el flujo de trabajo y ábrala para refinar el destinatario principal.
 
    ![](assets/load_file_segmentation.png)
 
-   Para obtener más información sobre esto, consulte la sección [Segmentación](../../automating/using/segmentation.md) .
+   For more on this, see the [Segmentation](../../automating/using/segmentation.md) section.
 
 1. Arrastre y suelte una **[!UICONTROL Email delivery]** actividad en el flujo de trabajo y ábrala.
 
