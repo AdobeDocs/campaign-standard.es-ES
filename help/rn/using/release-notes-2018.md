@@ -12,9 +12,9 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 50c3188e1bc0eb92fd52637988834ce8538335a3
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
 workflow-type: tm+mt
-source-wordcount: '5399'
+source-wordcount: '5401'
 ht-degree: 8%
 
 ---
@@ -130,7 +130,7 @@ Vista de las últimas actualizaciones [de](../../rn/using/documentation-updates.
 
 **Mejoras**
 
-* La integración de Adobe Campaign y Adobe Target ahora le permite aprovechar la función [Permisos](https://marketing.adobe.com/resources/help/es_ES/target/target/properties-overview.html) de Destinatario. Al incluir una imagen dinámica de Adobe Target en un mensaje de correo electrónico, ahora puede especificar una propiedad de Destinatario (código at_property).
+* La integración de Adobe Campaign y Adobe Target ahora le permite aprovechar la función [Permisos](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/properties-overview.html) de Destinatario. Al incluir una imagen dinámica de Adobe Target en un mensaje de correo electrónico, ahora puede especificar una propiedad de Destinatario (código at_property).
 * Las solicitudes de acceso o eliminación de privacidad del RGPD tienen ahora en cuenta los recursos personalizados que tienen un vínculo de descarga al recurso de perfiles. Para los vínculos simples de cardinalidad 1 y los vínculos de recopilación de cardinalidad N, debe seleccionar &quot;Eliminar/duplicar el registro de destinatario implica eliminar/duplicar los registros a los que hace referencia el vínculo&quot; en el recurso personalizado. Para los vínculos simples de cardinalidad 0 o 1, seleccione &quot;Eliminar o duplicar el registro implica eliminar o duplicar el registro de destinatario al que hace referencia el vínculo&quot;.
 
 **Otros cambios**
