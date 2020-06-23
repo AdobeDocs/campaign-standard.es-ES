@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3ed78fd610b0d134cd1e60f34c93161cb1e5c50f
+source-git-commit: 4cda0d3a3e65959091cd24bec8af434ab07519f6
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 2%
@@ -27,7 +27,7 @@ ht-degree: 2%
 
 El ![](assets/printpreview_darkgrey-24px.png) icono abre el registro del flujo de trabajo y el menú de tarea.
 
-El historial de flujo de trabajo se guarda durante el tiempo especificado en las opciones de ejecución de flujo de trabajo (consulte las propiedades [de](#workflow-properties)flujo de trabajo). Durante este período, todos los mensajes se guardan, incluso después de un reinicio. Si no desea guardar los mensajes de una ejecución anterior, debe depurar el historial haciendo clic en el ![](assets/delete_darkgrey-24px.png) botón.
+El historial de flujo de trabajo se guarda durante el tiempo especificado en las opciones de ejecución de flujo de trabajo (consulte las propiedades [de](../../automating/using/managing-execution-options.md)flujo de trabajo). Durante este período, todos los mensajes se guardan, incluso después de un reinicio. Si no desea guardar los mensajes de una ejecución anterior, debe depurar el historial haciendo clic en el ![](assets/delete_darkgrey-24px.png) botón.
 
 La **[!UICONTROL Log]** ficha contiene el historial de ejecución de todas las actividades o actividades seleccionadas. Indice las operaciones realizadas y los errores de ejecución por orden cronológico.
 
@@ -55,9 +55,9 @@ En este caso, se anula la tarea errónea. Este modo es especialmente adecuado pa
 
 >[!NOTE]
 >
->Puede aplicar esta configuración individualmente para cada actividad. Para ello, seleccione una actividad y ábrala con la acción rápida ![](assets/edit_darkgrey-24px.png). A continuación, seleccione el modo de administración de errores en la ficha Opciones **de** ejecución. Consulte Opciones [de ejecución de](#activity-execution-options)Actividad.
+>Puede aplicar esta configuración individualmente para cada actividad. Para ello, seleccione una actividad y ábrala con la acción rápida ![](assets/edit_darkgrey-24px.png). A continuación, seleccione el modo de administración de errores en la ficha Opciones **de** ejecución. Consulte Opciones [de ejecución de](../../automating/using/activity-properties.md)Actividad.
 
-En las propiedades [del](#workflow-properties)flujo de trabajo, hay disponibles opciones adicionales relacionadas con la administración de errores.
+En las propiedades [del](../../automating/using/managing-execution-options.md)flujo de trabajo, hay disponibles opciones adicionales relacionadas con la administración de errores.
 
 ![](assets/wkf_execution_error.png)
 
