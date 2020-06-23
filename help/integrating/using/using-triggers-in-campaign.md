@@ -12,9 +12,9 @@ discoiquuid: a524c700-bad6-4fcf-857a-c31bfae4d30c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3aa987c423181180a5c20bcca04cde04a2bf6086
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '656'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 ## Creación de un activador asignado en la Campaña {#creating-a-mapped-trigger-in-campaign}
 
-Debe asegurarse de definir los comportamientos que desea supervisar de antemano en Adobe Experience Cloud ( **[!UICONTROL Triggers]** servicio principal). Para obtener más información sobre esto, consulte la documentación [de](https://marketing.adobe.com/resources/help/en_US/mcloud/triggers.html)Adobe Experience Cloud. Tenga en cuenta que cuando define el activador, debe activar los alias. Para cada comportamiento (navegación/abandono de formulario, adición/eliminación de productos, sesión caducada, etc.), se debe agregar un nuevo activador en Adobe Experience Cloud.
+Debe asegurarse de definir los comportamientos que desea supervisar de antemano en Adobe Experience Cloud ( **[!UICONTROL Triggers]** servicio principal). Para obtener más información sobre esto, consulte la documentación [de](https://docs.adobe.com/content/help/en/core-services/interface/activation/triggers.html)Adobe Experience Cloud. Tenga en cuenta que cuando define el activador, debe activar los alias. Para cada comportamiento (navegación/abandono de formulario, adición/eliminación de productos, sesión caducada, etc.), se debe agregar un nuevo activador en Adobe Experience Cloud.
 
 Ahora tiene que crear un evento desencadenador en Adobe Campaign basado en un activador de Adobe Experience Cloud existente.
 
@@ -46,7 +46,7 @@ Los pasos para ponerlo en práctica son:
 
    ![](assets/remarketing_3.png)
 
-1. En el **[!UICONTROL Transactional message validity duration]** campo, defina la duración durante la cual el mensaje seguirá siendo válido después de que Analytics envíe el evento. Si se define una duración de 2 días, el mensaje dejará de enviarse después de que haya pasado esa duración. Si pone varios mensajes en espera, esto garantiza que esos mensajes no se enviarán si los reanuda después de un período de tiempo determinado.
+1. En el **[!UICONTROL Transactional message validity duration]** campo, defina la duración durante la cual el mensaje permanecerá válido después de que Analytics envíe el evento. Si se define una duración de 2 días, el mensaje dejará de enviarse después de que haya pasado esa duración. Si pone varios mensajes en espera, esto garantiza que esos mensajes no se enviarán si los reanuda después de un período de tiempo determinado.
 
    ![](assets/remarketing_4.png)
 
@@ -81,7 +81,7 @@ Para vista del informe de desencadenador dedicado en Adobe Campaign, abra el eve
 
 ![](assets/remarketing_9.png)
 
-El informe muestra el número de eventos procesados en comparación con el número de eventos enviados por Analytics. También muestra una lista de todos los activadores recientes.
+El informe muestra la cantidad de eventos procesados en comparación con la cantidad de eventos enviados por Analytics. También muestra una lista de todos los activadores recientes.
 
 ![](assets/trigger_uc_browse_14.png)
 
