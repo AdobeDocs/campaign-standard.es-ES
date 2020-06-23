@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017e1e80657a3145a97c6ab62a577a9a2164cc99
+source-git-commit: 58c69b6f6efdac8be5d05fe723bbf9ff54d186ee
 workflow-type: tm+mt
-source-wordcount: '5923'
+source-wordcount: '5941'
 ht-degree: 18%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 18%
 Además de las Notas [de la](../../rn/using/release-notes.md)versión de Adobe Campaign, esta página lista todas las nuevas actualizaciones en la documentación de Adobe Campaign Standard.
 
 ## Actualizaciones de la documentación - Junio de 2020 {#doc-updates-june-2020}
+
+Se han agregado casos de uso sobre cómo [cifrar](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) y [descifrar](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) datos mediante el Panel de control y Flujos de trabajo de la campaña.
 
 Tanto los términos &quot;lista blanca&quot; como &quot;lista negra&quot; se han eliminado de la documentación de Adobe Campaign. Algunas incidencias de estos términos pueden seguir existiendo en la interfaz de usuario del producto, nombres de opciones y código interno, pero se reemplazarán en próximas versiones de Campaña con &quot;bloqueo&quot; y &quot;lista de permitidos&quot;.
 
@@ -484,7 +486,7 @@ Se ha actualizado la sección Tipo de usuarios. [Más información](../../admini
 
 Mensajería en la aplicación (beta): [Más información](../../channels/using/about-in-app-messaging.md)
 
-Integración de Adobe Launch para aplicaciones móviles (beta): [Más información](../../sending/using/about-typology-rules.md#typology-rules)
+Integración de Adobe Launch para aplicaciones móviles (beta): [Más información](../../sending/using/managing-typologies.md)
 
 **Otras actualizaciones de la documentación incluidas en la versión**
 
@@ -498,7 +500,7 @@ Se ha actualizado la sección de informes integrados de notificaciones Push. [M�
 
 **Nuevas funciones incluidas en la versión**
 
-[Indicador](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) de alta prioridad y filtro [de](../../sending/using/about-typology-rules.md#typology-rules) tipología para suscriptores de aplicaciones móviles.
+[Indicador](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) de alta prioridad y filtro [de](../../sending/using/managing-typologies.md) tipología para suscriptores de aplicaciones móviles.
 
 Importación automática de contenido desde una dirección URL en tiempo de preparación. [Más información](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
@@ -794,7 +796,7 @@ Se ha actualizado la sección Lista de funciones. [Más información](../../admi
 
 Correo postal: [Más información](../../channels/using/about-direct-mail.md)
 
-Email BCC - [Más información](../../administration/using/configuring-email-channel.md#archiving-emails)
+Email BCC - [Más información](../../sending/using/archiving.md)
 
 **Otras actualizaciones de la documentación incluidas en la versión**
 
