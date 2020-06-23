@@ -12,7 +12,10 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1b7d2210647a87693d93e325a4c888cb23e5f3a
+source-git-commit: 2df909256b910e5e26e0fdac7e150edd0603c8ab
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +43,7 @@ La preparación **de** mensajes de Campaign Standard analiza el destinatario, la
 
 **Realice Previsualizaciones y pruebas** de los mensajes con diversas funciones: enviar pruebas para probar perfiles o perfiles con objetivos, probar la línea de asunto de los mensajes de correo electrónico y comprobar la presentación de los mensajes para asegurarse de que se muestre de manera óptima en una variedad de clientes web, correos electrónicos y dispositivos.
 
-Aproveche las capacidades de programación de Campañas$$ para definir cuándo se enviarán los mensajes. Por ejemplo, puede adaptar el envío en la zona horaria del destinatario, optimizar la hora de envío o calcular la fecha de envío.
+Aproveche las capacidades de programación de Campañas para definir cuándo se enviarán los mensajes. Por ejemplo, puede adaptar el envío en la zona horaria del destinatario, optimizar la hora de envío o calcular la fecha de envío.
 
 Use **tipologías** para comprobar durante la preparación si su mensaje es válido y cumple con sus criterios de calidad mediante reglas de fatiga, control y segmentación. Por ejemplo, para comprobar que los correos electrónicos siempre contienen una línea de asunto o para excluir a los suscriptores de los destinatarios de mensaje.
 
