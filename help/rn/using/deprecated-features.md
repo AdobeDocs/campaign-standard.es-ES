@@ -1,6 +1,6 @@
 ---
 title: Funciones obsoletas y eliminadas de Campaign Standard
-description: Esta página lista funciones obsoletas y eliminadas de Adobe Campaign Standard.
+description: Esta página lista funciones de Adobe Campaign Standard obsoletas y eliminadas.
 page-status-flag: never-activated
 uuid: null
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f8c8dd5ec3dcff557d17e92591748cb1b6694122
+source-git-commit: 7622018bff9c8b8573dae139372bea697815849f
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 26%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,14 +32,14 @@ Para comunicar la inminente eliminación/sustitución de las capacidades del Cam
 Este proceso proporciona a los clientes al menos un ciclo de versiones para actualizar su implementación a una nueva versión o a la versión sucesora de la función obsoleta antes de su eliminación real.
 
 >[!NOTE]
->Las versiones de Adobe Campaign Standard y las nuevas funciones se enumeran en las Notas [de la versión](../../rn/using/release-notes.md).
+>Adobe Campaign Standard releases and new capabilities are listed in the [Release Notes](../../rn/using/release-notes.md).
 
 
 ## Funciones obsoletas {#deprecated-features}
 
 Esta sección lista las funciones y funciones que se han marcado como obsoletas en las últimas versiones de Campaign Standard.
 
-Por lo general, las funciones que se planea eliminar en una versión futura se definen en primer lugar como obsoletas, y se proporciona una función alternativa a ellas. Estas funciones y funcionalidades ya no están disponibles para los nuevos clientes Campaign Standard o no deben usarse para ninguna implementación nueva. También se eliminan de la documentación del producto.
+Por lo general, las funciones que se planea eliminar en una versión futura se definen en primer lugar como obsoletas, y se proporciona una función alternativa a ellas. Estas funciones y funcionalidades ya no están disponibles para los nuevos usuarios de Campaign Standard, o no deben usarse para ninguna implementación nueva. También se eliminan de la documentación del producto.
 
 Se aconseja a los clientes que comprueben si utilizan la función o la capacidad en su implementación actual y que cambien su implementación para utilizar la alternativa proporcionada. Consulte la versión de eliminación de destinatarios para planificar las actualizaciones de entornos y proyectos según corresponda.
 
@@ -87,7 +87,7 @@ Se aconseja a los clientes que comprueben si utilizan la función o la capacidad
    <td> <p>A partir de la versión 19.0 de la Campaña, el editor de correo electrónico heredado queda obsoleto. Utilice <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">el nuevo diseñador</a> de correo electrónico para crear y personalizar el contenido del correo electrónico. </p></br>
    <p>Lea <a href="https://docs.adobe.com/content/help/es-ES/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">esta sección</a> para aprender a adaptar las plantillas de correo electrónico al nuevo editor.</p></br>
   <p> 
-  <em>Versión de eliminación de Destinatario: Versión de Campaña 20.4</em></p>
+  <em>Versión de eliminación de Destinatario: 2021</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -107,9 +107,9 @@ Se aconseja a los clientes que comprueben si utilizan la función o la capacidad
  </tbody> 
 </table>
 
-## Funciones eliminadas {#removed-features}
+## Removed Features {#removed-features}
 
-Esta sección lista las funciones y funciones que se han eliminado del Campaign Standard.
+Esta sección enumera las funciones y capacidades que se han eliminado de Campaign Standard.
 
 <table> 
  <thead> 
@@ -135,7 +135,7 @@ Esta sección lista las funciones y funciones que se han eliminado del Campaign 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Campaign y Adobe Experience Cloud han dejado de ofrecer compatibilidad con Microsoft Internet Explorer 11 a partir de la primavera de 2019 y la versión 19.2 de Campaña. Cambie a Microsoft Edge u otro explorador compatible. <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/getting-started/discovering-the-interface/compatible-browsers.html">Más información</a>.</p>
+   <td> <p>Adobe Campaign y Adobe Experience Cloud han dejado de ofrecer compatibilidad con Microsoft Internet Explorer 11 a partir de la primavera de 2019 y la versión 19.2 de Campaña. Cambie a Microsoft Edge u otro explorador compatible. <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/about-configuration-guidelines.html#compatible-browsers">Más información</a>.</p>
    </td> 
   </tr> 
  </tbody> 
