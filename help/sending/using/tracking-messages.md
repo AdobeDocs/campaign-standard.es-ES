@@ -12,7 +12,10 @@ discoiquuid: 6fa50f0d-3dcf-4a9e-bccc-1ecda2bfb449
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b8c3569fc3965f463a06ae8375a623553037e248
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+workflow-type: tm+mt
+source-wordcount: '468'
+ht-degree: 20%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: b8c3569fc3965f463a06ae8375a623553037e248
 
 ## Acerca del seguimiento {#about-tracking}
 
-Thanks to its tracking functionalities, Adobe Campaign enables you to track the behavior of your delivery recipients. Para ello, Adobe Campaign utiliza cookies de sesión y cookies permanentes.
+Gracias a sus funciones de seguimiento, Adobe Campaign le permite rastrear el comportamiento de sus destinatarios de envío. Para ello, Adobe Campaign utiliza cookies de sesión y cookies permanentes.
 
 Puede informar a los usuarios de que sus sitios están equipados con herramientas de seguimiento Web a través de una solicitud de autorización (que aparece sobre la página, por ejemplo) con una casilla de verificación para autorizar el uso de cookies, o agregar una pancarta en la parte superior de la primera página en la que aterrizan, etc. Las ventanas emergentes deben evitarse, ya que los navegadores suelen bloquearlas.
 
@@ -30,9 +33,9 @@ La información de seguimiento está disponible para cada contacto de la base de
 Adobe Campaign utiliza dos tipos de cookies:
 
 * Una cookie de sesión (nlid). Contiene el identificador del correo electrónico enviado al contacto (widelogId) y el identificador de la plantilla de mensaje (deliveryId). Se añade cuando el contacto hace clic en una dirección URL incluida en un correo electrónico enviado por Adobe Campaign y le permite hacer un seguimiento de su comportamiento en la web. Esta cookie de sesión se borra automáticamente cuando se cierra el explorador. El contacto puede configurar el explorador para que rechace las cookies.
-* Una cookie compartida entre las soluciones de Adobe Experience Cloud. Esto le permite identificar a los usuarios que interactúan con las soluciones de Experience Cloud cuando visitan un sitio web. La descripción de esta cookie está disponible [aquí](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html).
+* Una cookie compartida entre las soluciones de Adobe Experience Cloud. Esto le permite identificar a los usuarios que interactúan con las soluciones de Experience Cloud cuando visitan un sitio web. La descripción de esta cookie está disponible [aquí](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-mc.html).
 
-El seguimiento con Adobe Campaign Standard le permite acceder a las siguientes funcionalidades:
+El rastreo con el Adobe Campaign Standard le permite acceder a las siguientes funcionalidades:
 
 <table>
 <tr>
