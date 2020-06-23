@@ -12,10 +12,10 @@ discoiquuid: aee81724-b425-47b4-af92-e55eff97836f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: d7846c33f0bc3730fc63a8659c8afc1c868064e0
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -56,7 +56,7 @@ Planificar, coordinar y orquestar campañas entre canales.
 
 Diseñe y envíe mensajes en canales de comunicación en línea y sin conexión, incluida la optimización del envío de correo electrónico para varios dispositivos mediante pruebas y estrategias de diseño adaptables.
 
-**Aproveche los canales** de comunicación de Campaña para ofrecer sus campañas de marketing en el lugar adecuado: correo electrónico, SMS, notificación push, mensaje en la aplicación, correo directo, páginas de aterrizaje. Obtenga tiempo y coherencia en su estrategia de mensajería mediante la creación de plantillas para todos los tipos de mensajes (mensajes transaccionales, recurrentes y multilingües). Realice pruebas A/B y capte el interés de su audiencia mediante la personalización y las funcionalidades de contenido dinámico. [Introducción a los canales de comunicación](../../channels/using/get-started-communication-channels.md)
+**Aproveche los canales** de comunicación de Campaña para ofrecer sus campañas de marketing en el lugar adecuado: correo electrónico, SMS, notificación push, mensaje en la aplicación, correo directo, páginas de aterrizaje. Obtenga tiempo y coherencia en su estrategia de mensajería mediante la creación de plantillas para todos los tipos de mensajes (mensajes transaccionales, recurrentes y multilingües). Realice pruebas A/B y capture el interés de su audiencia mediante la personalización y las funcionalidades de contenido dinámico. [Introducción a los canales de comunicación](../../channels/using/get-started-communication-channels.md)
 
 **Utilice Campaña Email Designer** para crear mensajes de correo electrónico cautivadores y personalizados de forma individual. Inicio desde cero o aproveche los fragmentos o plantillas de contenido integrados para diseñar sus correos electrónicos con formato HTML optimizado para un diseño interactivo. [Introducción al diseño de contenido de correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md)
 
