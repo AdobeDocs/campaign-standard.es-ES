@@ -12,9 +12,9 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c70d7172af12c2ccad0468f0afdba87bcf4ac839
+source-git-commit: 04bc32a9abb2939823f18165e1fe46d9f2315cce
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1054'
 ht-degree: 6%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 6%
 
 [Planificación de versiones](../../rn/using/release-planning.md) | Versiones [del Panel de control](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html) | Actualizaciones [de documentación](../../rn/using/documentation-updates.md) | Notas de la versión [anteriores](../../rn/using/release-notes-2020.md) | Características [obsoletas](../../rn/using/deprecated-features.md)
 
-![](assets/do-not-localize/cp-icon.png) **Nueva versión** de junio del Panel de control con supervisión de perfiles activos, auditoría de entregas de subdominios y administración de claves GPG. See [Control Panel Release Notes](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Nueva versión** de junio del Panel de control con supervisión de perfiles activos, auditoría de entregas de subdominios y administración de claves GPG. [Más información](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html).
 
 ## Versión 20.3: mayo de 2020 {#release-20-3---may-2020}
 
@@ -71,12 +71,12 @@ ht-degree: 6%
 </tbody> 
 </table>
 
-![](assets/do-not-localize/cp-icon.png) **El nuevo Panel de control puede lanzarse** con la renovación de certificados para subdominios CNAME. See [Control Panel Release Notes](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **El nuevo Panel de control puede lanzarse** con la renovación de certificados para subdominios CNAME. [Más información](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html).
 
 **Mejoras**
 
 * El número de caracteres que se puede utilizar en el campo **Prefijo** para [probar mensajes con perfiles](../../sending/using/testing-messages-using-target.md) de destino se ha aumentado de 32 a 500 caracteres.
-* El número máximo de eventos en tiempo real que se pueden publicar en una instancia se ha incrementado de 350 a 2000. (CAMP-41608)
+* El número máximo de eventos en tiempo real que se pueden publicar en una instancia ha aumentado de 350 a 2000. (CAMP-41608)
 * La sincronización entre Adobe Launch y Campaign Standard se ha mejorado mediante el flujo de trabajo técnico syncWithLaunch. Este flujo de trabajo permite la importación automática de todas las propiedades móviles de Adobe Launch en Adobe Campaign Standard. Para obtener más información, consulte [esta página](../../administration/using/technical-workflows.md).
 
    Deberá enviar un ticket al Servicio de atención al cliente de Adobe (directamente o a través de su contacto de Adobe) para que el flujo de trabajo técnico de syncWithLaunch esté habilitado en la instancia de Campaña. (CAMP-40082)
