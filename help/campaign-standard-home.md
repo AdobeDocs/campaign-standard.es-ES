@@ -4,10 +4,10 @@ solution: Campaign Standard
 title: Documentación del producto de Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 01fed9b50964ae15a2127a1a2f9a3ebca944d6b1
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 100%
+source-wordcount: '196'
+ht-degree: 93%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## Novedades
 
-* **[Pruebas de correo electrónico con perfiles de destino](sending/using/testing-messages-using-target.md)**<br/>Descubra cómo probar los mensajes de correo electrónico en perfiles de destino reales
+* Tanto los términos &quot;lista blanca&quot; como &quot;lista negra&quot; se han eliminado de la documentación de Adobe Campaign. [Más información](rn/using/documentation-updates.md)
 
 * **[Administración de privacidad](https://helpx.adobe.com/es/campaign/kb/campaign-privacy.html)**<br/> Obtenga información sobre las herramientas proporcionadas por Adobe Campaign para ayudarle a cumplir con la privacidad
 
