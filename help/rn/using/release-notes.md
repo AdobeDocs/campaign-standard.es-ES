@@ -12,10 +12,10 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e59562bd4f258c4259b8e8e5d9648397d5718792
+source-git-commit: c70d7172af12c2ccad0468f0afdba87bcf4ac839
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 5%
+source-wordcount: '1060'
+ht-degree: 6%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 5%
 # Última versión{#latest-release}
 
 [Planificación de versiones](../../rn/using/release-planning.md) | Versiones [del Panel de control](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html) | Actualizaciones [de documentación](../../rn/using/documentation-updates.md) | Notas de la versión [anteriores](../../rn/using/release-notes-2020.md) | Características [obsoletas](../../rn/using/deprecated-features.md)
+
+![](assets/do-not-localize/cp-icon.png) **Nueva versión** de junio del Panel de control con supervisión de perfiles activos, auditoría de entregas de subdominios y administración de claves GPG. See [Control Panel Release Notes](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html).
 
 ## Versión 20.3: mayo de 2020 {#release-20-3---may-2020}
 
@@ -69,14 +71,12 @@ ht-degree: 5%
 </tbody> 
 </table>
 
->[!NOTE]
->
->La renovación de certificados para subdominios CNAME se libera en el Panel de control de Campaña en mayo. Para obtener más información sobre esto, consulte la Nota [de revisión del Panel de](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html)control.
+![](assets/do-not-localize/cp-icon.png) **El nuevo Panel de control puede lanzarse** con la renovación de certificados para subdominios CNAME. See [Control Panel Release Notes](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html).
 
 **Mejoras**
 
 * El número de caracteres que se puede utilizar en el campo **Prefijo** para [probar mensajes con perfiles](../../sending/using/testing-messages-using-target.md) de destino se ha aumentado de 32 a 500 caracteres.
-* El número máximo de eventos en tiempo real que se pueden publicar en una instancia ha aumentado de 350 a 2000. (CAMP-41608)
+* El número máximo de eventos en tiempo real que se pueden publicar en una instancia se ha incrementado de 350 a 2000. (CAMP-41608)
 * La sincronización entre Adobe Launch y Campaign Standard se ha mejorado mediante el flujo de trabajo técnico syncWithLaunch. Este flujo de trabajo permite la importación automática de todas las propiedades móviles de Adobe Launch en Adobe Campaign Standard. Para obtener más información, consulte [esta página](../../administration/using/technical-workflows.md).
 
    Deberá enviar un ticket al Servicio de atención al cliente de Adobe (directamente o a través de su contacto de Adobe) para que el flujo de trabajo técnico de syncWithLaunch esté habilitado en la instancia de Campaña. (CAMP-40082)
@@ -100,9 +100,9 @@ ht-degree: 5%
 * Lenguaje ES-US Añadido en la lista de idiomas predeterminados para correos electrónicos multilingües. (CAMP-42279)
 * Los archivos descargados con una actividad Transferir archivo ahora se eliminarán después de X días, donde X se determina mediante el campo **Historial en días** del menú **Ejecución** de las propiedades Flujo de trabajo. [Más información](../../automating/using/managing-execution-options.md)
 
-**Integraciones de la plataforma de experiencias**
+**Integraciones de Experience Platform**
 
-* Se ha mejorado la Activación de las Audiencias [de la plataforma de](../../automating/using/aep-targeting-audiences.md) experiencias de Adobe desde la actividad de audiencia **de** lectura para proporcionar un mejor rendimiento y estabilidad. Además, los registros de flujo de trabajo se han aclarado y detallado con respecto a los trabajos de activación, lo que facilita la supervisión y la resolución de problemas al leer audiencias de Adobe Experience Platform.
+* Se ha mejorado la Activación de Audiencias [de Adobe](../../automating/using/aep-targeting-audiences.md) Experience Platform desde la actividad **Leer audiencia** para proporcionar un mejor rendimiento y estabilidad. Además, los registros de flujo de trabajo se han aclarado y detallado con respecto a los trabajos de activación, lo que facilita la supervisión y la resolución de problemas al leer audiencias de Adobe Experience Platform.
 
 **Parches**
 
