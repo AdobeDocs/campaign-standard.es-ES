@@ -13,9 +13,9 @@ context-tags: writer,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '472'
 ht-degree: 1%
 
 ---
@@ -32,6 +32,11 @@ La **[!UICONTROL Update data]** actividad le permite realizar una actualización
 ## Contexto de uso {#context-of-use}
 
 La actividad **Actualizar datos** se puede utilizar después de importar un archivo para insertar los datos recuperados en la base de datos de Adobe Campaign. Varias opciones permiten personalizar la actualización de los datos.
+
+**Temas relacionados:**
+
+* [Caso de uso: Actualización de datos basados en un archivo](../../automating/using/update-database-file.md)
+* [Actualización de datos en función de una descarga automática de archivos](../../automating/using/update-data-automatic-download.md)
 
 ## Configuración {#configuration}
 
@@ -71,29 +76,3 @@ La actividad **Actualizar datos** se puede utilizar después de importar un arch
    Si ha seleccionado **[!UICONTROL Insert only]** y los datos importados pueden contener registros que ya están presentes en la base de datos, marque la **[!UICONTROL Generate an outbound transition for the rejects]** casilla para evitar posibles errores.
 
 1. Confirme la configuración de la actividad y guarde el flujo de trabajo.
-
-## Ejemplo {#example}
-
-La siguiente actividad muestra la configuración de una **[!UICONTROL Update data]** actividad después de una **[!UICONTROL Load file]** actividad. El objetivo de este flujo de trabajo es agregar o actualizar perfiles a la base de datos de Adobe Campaign con los datos recuperados del archivo. La clave de reconciliación utilizada es la dirección de correo electrónico.
-
-El archivo cargado es un archivo de formato **.txt** que contiene los siguientes datos de ejemplo:
-
-```
-lastname;firstname;email;birthdate
-jackman;megan;megan.jackman@testmail.com;07/08/1975
-phillips;edward;phillips@testmail.com;09/03/1986
-weaver;justin;justin_w@testmail.com;11/15/1990
-martin;babeth;babeth_martin@testmail.net;11/25/1964
-reese;richard;rreese@testmail.com;02/08/1987
-cage;nathalie;cage.nathalie227@testmail.com;07/03/1989
-xiuxiu;andrea;andrea.xiuxiu@testmail.com;09/12/1992
-grimes;daryl;daryl_890@testmail.com;12/06/1979
-tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
-```
-
-La **[!UICONTROL Update data]** actividad se configura de la siguiente manera:
-
-![](assets/deduplication_example2_writer1.png)
-
-![](assets/deduplication_example2_writer2.png)
-
