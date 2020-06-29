@@ -13,12 +13,15 @@ context-tags: setOfService,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
+source-git-commit: 68e689e6bc362f4e948593c3b251f3825aab20ac
+workflow-type: tm+mt
+source-wordcount: '1110'
+ht-degree: 0%
 
 ---
 
 
-# Servicios de suscripción{#subscription-services}
+# Servicios de suscripción {#subscription-services}
 
 ## Descripción {#description}
 
@@ -38,10 +41,15 @@ Puede utilizar esta actividad después de haber realizado la segmentación o de 
 
 Si se especifica en un archivo a través de columnas dedicadas, esta actividad también le permite elegir la acción (suscripción o cancelación de suscripción) y el servicio en el que realizar la acción.
 
+**Temas relacionados:**
+
+* [Caso de uso: Actualización de varios estados de suscripción de un archivo](../../automating/using/updating-subscriptions-from-file.md)
+* [Caso de uso: Suscripción de perfiles de un archivo a un servicio específico](../../automating/using/subscribing-profiles-from-file.md)
+
 ## Configuración {#configuration}
 
 1. Arrastre y suelte una **[!UICONTROL Subscription Services]** actividad en el flujo de trabajo.
-1. Conéctelo después de realizar otras actividades de segmentación, como una consulta o una reconciliación tras una importación.
+1. Conéctelo después de otras actividades de objetivos, como una consulta o una reconciliación, tras una importación.
 1. Seleccione la actividad y, a continuación, ábrala con el ![](assets/edit_darkgrey-24px.png) botón de las acciones rápidas que aparecen.
 1. Seleccione el **[!UICONTROL Service]** para el que desea administrar las suscripciones mediante una de las siguientes opciones:
 
@@ -59,22 +67,22 @@ Si se especifica en un archivo a través de columnas dedicadas, esta actividad t
 
       Si los valores contenidos en un archivo importado no coinciden con los requisitos anteriores, puede seguir utilizando la opción [Reasignación de valores](../../automating/using/load-file.md#column-format) disponible en la **[!UICONTROL Load file]** actividad.
 
-1. Si los datos de entrada contienen una columna correspondiente a la fecha de suscripción del perfil para el servicio, selecciónela. Puede dejarlo vacío, pero no se establece ninguna fecha de suscripción al ejecutar el flujo de trabajo.
-1. Defina el origen de la suscripción. Puede definirlo en uno de los campos de los datos de entrada o en un valor constante de su elección marcando la **[!UICONTROL Set a constant as origin]** opción. Puede dejarlo vacío, pero no se establece ningún origen al ejecutar el flujo de trabajo.
-1. Si es necesario, puede generar una transición de salida. Esta transición contiene exactamente los mismos datos que en la actividad de entrada.
+1. Si los datos de entrada contienen una columna correspondiente a la fecha de suscripción del perfil al servicio, selecciónelo. Puede dejarlo vacío, pero no se establece ninguna fecha de suscripción al ejecutar el flujo de trabajo.
+1. Defina el origen de la suscripción. Puede definirlo en uno de los campos de los datos de entrada o en un valor constante de su elección marcando la **[!UICONTROL Set a constant as origin]** opción. Puede dejarlo vacío, pero no hay ningún origen definido al ejecutar el flujo de trabajo.
+1. Si es necesario, puede generar una transición saliente. Esta transición contiene exactamente los mismos datos que en la actividad de entrada.
 1. Confirme la configuración de la actividad y guarde el flujo de trabajo.
 
-   Ahora está listo para ser ejecutado. Una vez ejecutados, puede ver los perfiles a los que se ha suscrito o cancelado la suscripción desde el servicio en detalle.
+   Ahora está listo para ser ejecutado. Una vez ejecutado, puede realizar la vista de los perfiles que se han suscrito o cancelado la suscripción al servicio en los detalles del mismo.
 
 ## Ejemplo: Suscripción de perfiles a un servicio específico después de importar un archivo {#example--subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
-Este ejemplo ilustra cómo importar un archivo que contiene perfiles y suscribirlos a un servicio existente. Después de importar el archivo, es necesario llevar a cabo una reconciliación para que los datos importados puedan identificarse como perfiles. Para garantizar que el archivo no contenga duplicados, se ejecutará una actividad de desduplicación en los datos.
+Este ejemplo ilustra cómo importar un archivo que contiene perfiles y suscribirlos a un servicio existente. Después de importar el archivo, es necesario llevar a cabo una reconciliación para que los datos importados puedan identificarse como perfiles. Para asegurarse de que el archivo no contenga duplicados, se ejecutará una actividad de deduplicación en los datos.
 
 El flujo de trabajo se presenta de la siguiente manera:
 
 ![](assets/subscription_activity_example1.png)
 
-* Una **[!UICONTROL Load file]** actividad carga el archivo de perfil y define la estructura de las columnas importadas.
+* Una **[!UICONTROL Load file]** actividad carga el archivo perfil y define la estructura de las columnas importadas.
 
    Para este ejemplo, el archivo cargado tiene el formato .csv y contiene los datos siguientes:
 
@@ -97,7 +105,7 @@ El flujo de trabajo se presenta de la siguiente manera:
 
    ![](assets/subscription_activity_example3.png)
 
-* Un campo **[!UICONTROL Deduplication]** basado en el campo de **correo electrónico** del recurso temporal (resultante de la reconciliación) identifica los duplicados. Si los datos importados del archivo contienen duplicados, la suscripción a un servicio generará un error en todos los datos.
+* Un **[!UICONTROL Deduplication]** valor basado en el campo de **correo electrónico** del recurso temporal (resultante de la reconciliación) identifica cualquier duplicado. Si los datos importados del archivo contienen duplicados, la suscripción a un servicio generará un error en todos los datos.
 
    ![](assets/subscription_activity_example5.png)
 
@@ -105,15 +113,15 @@ El flujo de trabajo se presenta de la siguiente manera:
 
    ![](assets/subscription_activity_example4.png)
 
-## Ejemplo: Actualización de varios estados de suscripción desde un archivo {#example--updating-multiple-subscription-statuses-from-a-file}
+## Ejemplo: Actualización de varios estados de suscripción de un archivo {#example--updating-multiple-subscription-statuses-from-a-file}
 
-Este ejemplo ilustra cómo importar un archivo que contiene perfiles y actualizar su suscripción a varios servicios especificados en el archivo. Después de importar el archivo, es necesario llevar a cabo una conciliación para que los datos importados puedan identificarse como perfiles con un vínculo a servicios. Para garantizar que el archivo no contenga duplicados, se ejecutará una actividad de desduplicación en los datos.
+Este ejemplo ilustra cómo importar un archivo que contiene perfiles y actualizar su suscripción a varios servicios especificados en el archivo. Después de importar el archivo, es necesario llevar a cabo una conciliación para que los datos importados puedan identificarse como perfiles con un vínculo a los servicios. Para asegurarse de que el archivo no contenga duplicados, se ejecutará una actividad de deduplicación en los datos.
 
 El flujo de trabajo se presenta de la siguiente manera:
 
 ![](assets/subscription_activity_example1.png)
 
-* Una **[!UICONTROL Load file]** actividad carga el archivo de perfil y define la estructura de las columnas importadas.
+* Una **[!UICONTROL Load file]** actividad carga el archivo perfil y define la estructura de las columnas importadas.
 
    Para este ejemplo, el archivo cargado tiene el formato .csv y contiene los datos siguientes:
 
@@ -146,13 +154,13 @@ El flujo de trabajo se presenta de la siguiente manera:
 
    ![](assets/subscription_example_service_relation.png)
 
-* Un campo **[!UICONTROL Deduplication]** basado en el campo de **correo electrónico** del recurso temporal (resultante de la reconciliación) identifica los duplicados. Es importante eliminar los duplicados, ya que la suscripción a un servicio fallará en todos los datos en caso de duplicados.
+* Un **[!UICONTROL Deduplication]** valor basado en el campo de **correo electrónico** del recurso temporal (resultante de la reconciliación) identifica duplicados. Es importante eliminar duplicados, ya que la suscripción a un servicio fallará en todos los datos en caso de duplicados.
 
    ![](assets/subscription_activity_example5.png)
 
 * A **[!UICONTROL Subscription Services]** identifica los servicios que se van a actualizar como procedentes de la transición, a través del vínculo creado en la **[!UICONTROL Reconciliation]** actividad.
 
-   El **[!UICONTROL Operation type]** se identifica como proveniente del campo de **operación** del archivo. Aquí solo se pueden seleccionar los campos booleano o entero. Si la columna del archivo que contiene la operación que se va a realizar no aparece en la lista, asegúrese de que ha configurado correctamente el formato de columna en la **[!UICONTROL Load file]** actividad, como se explicó anteriormente en este ejemplo.
+   El **[!UICONTROL Operation type]** se identifica como proveniente del campo de **operación** del archivo. Aquí solo se pueden seleccionar los campos booleano o entero. Si la columna del archivo que contiene la operación que se va a realizar no aparece en la lista, asegúrese de que ha configurado correctamente el formato de columna en la **[!UICONTROL Load file]** actividad, como se ha explicado anteriormente en este ejemplo.
 
    ![](assets/subscription_activity_example_from_file.png)
 
