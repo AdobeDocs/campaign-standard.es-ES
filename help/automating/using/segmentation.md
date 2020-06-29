@@ -13,9 +13,9 @@ context-tags: segmentation,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 740de9fe4666bf12fc97cfa434414668d9394504
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '860'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,18 @@ La **[!UICONTROL Segmentation]** actividad le permite crear uno o varios segment
 >
 >De forma predeterminada, un miembro de la población entrante solo puede pertenecer a un solo segmento. Los filtros se aplican según el orden de los segmentos en la actividad.
 
+**Temas relacionados:**
+* [Caso de uso: Segmentación en la ubicación](../../automating/using/workflow-segmentation-location.md)
+* [Caso de uso: Creación de un grupo de control](../../automating/using/workflow-control-group.md)
+* [Caso de uso: Segmentación según grupos de edad](../../automating/using/segmentation-age-groups.md)
+
 ## Contexto de uso {#context-of-use}
 
 La **[!UICONTROL Segmentation]** actividad generalmente se coloca después de actividades de objetivo (consulta, intersección, unión, exclusión, etc.) para definir la población estándar basada en la forma de los segmentos.
+
+**Temas relacionados**
+
+* [Caso de uso: Segmentación de perfiles según los grupos](../../automating/using/segmentation-age-groups.md)de edad.
 
 ## Configuración {#configuration}
 
@@ -91,31 +100,6 @@ La **[!UICONTROL Segmentation]** actividad generalmente se coloca después de ac
 
    * Seleccione la **[!UICONTROL Enable overlapping of outbound populations]** opción si desea que un miembro de la población entrante pertenezca a varios segmentos al mismo tiempo. La población saliente de la actividad puede superar la población entrante.
    * Marque la **[!UICONTROL Concatenate the code of each segment]** opción si la población entrante ya ha recibido un código de segmento que desee conservar. El código de segmento especificado en la actividad se agregará al código de segmento inicial.
-   * Check the **[!UICONTROL Generate complement]** option if you would like to exploit the remaining population.
+   * Check the **[!UICONTROL Generate complement]** option if you would like to exploit the remaining population. Consulte Caso [de uso: Creación de envíos con un complemento](../../automating/using/workflow-created-query-with-complement.md).
 
 1. Confirme la configuración de la actividad y guarde el flujo de trabajo.
-
-## Ejemplo {#example}
-
-El siguiente ejemplo muestra una segmentación de los perfiles de base de datos según su grupo de edad. El objetivo del flujo de trabajo es enviar un correo electrónico específico para cada grupo de edad. Teniendo en cuenta que este flujo de trabajo es parte de una campaña de prueba, cada segmento sólo puede contener un máximo de 100 perfiles seleccionados al azar para utilizar audiencias limitadas y representativas al mismo tiempo.
-
-![](assets/wkf_segment_example_4.png)
-
-El flujo de trabajo se compone de los siguientes elementos:
-
-* Una **[!UICONTROL Scheduler]** actividad para especificar la fecha de ejecución del flujo de trabajo. Refer to the [Scheduler](../../automating/using/scheduler.md) section.
-* Una **[!UICONTROL Query]** actividad a perfiles de destinatarios de personas cuyo cumpleaños y dirección de correo electrónico se han introducido. Refer to the [Query](../../automating/using/query.md) section.
-* Una **[!UICONTROL Segmentation]** actividad para crear 3 segmentos divididos en diferentes transiciones de salida: 18 a 25 años, 26 a 32 años y perfiles mayores de 32 años. Los segmentos se definen según los siguientes parámetros:
-
-   ![](assets/wkf_segment_example_3.png)
-
-   * Un filtro en la edad para definir el grupo de edad del segmento
-
-      ![](assets/wkf_segment_new_segment.png)
-
-   * Límite de **[!UICONTROL Random sampling]** tipo vinculado a un **[!UICONTROL Maximum size]** límite de 100
-
-      ![](assets/wkf_segment_example_1.png)
-
-* Una **[!UICONTROL Email delivery]** actividad por segmento. Refer to the [Email delivery](../../automating/using/email-delivery.md) section.
-
