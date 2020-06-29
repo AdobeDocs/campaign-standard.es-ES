@@ -12,10 +12,10 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2df909256b910e5e26e0fdac7e150edd0603c8ab
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '582'
+ht-degree: 10%
 
 ---
 
@@ -98,3 +98,4 @@ Más información:
 * [Revisar un envío de correo electrónico e informes (vídeo)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/reviewing-personalized-email-delivery-and-reports.html)
 * [Introducción a los correos electrónicos](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
 * [Prácticas recomendadas relacionadas con las entregas](https://helpx.adobe.com/es/campaign/kb/delivery-best-practices.html)
+* [Caso de uso: Creación de un grupo de control](../../automating/using/workflow-control-group.md)
