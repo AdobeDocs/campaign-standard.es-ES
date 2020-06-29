@@ -13,10 +13,10 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2a8cb9aa0d018fec9d5b256beba079c5ec3afaf0
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '1799'
-ht-degree: 5%
+source-wordcount: '1341'
+ht-degree: 11%
 
 ---
 
@@ -41,6 +41,13 @@ Se puede:
 
 * Utilice la estructura de archivos para aplicarla a los datos de otro archivo (recuperados mediante la **[!UICONTROL Transfer file]** actividad) o
 * Utilice la estructura y los datos del archivo para importarlos a Adobe Campaign.
+
+**Temas relacionados:**
+
+* [Caso de uso: Actualización de la base de datos con datos externos](../../automating/using/update-database-file.md)
+* [Caso de uso: Actualización de datos en función de una descarga automática de archivos](../../automating/using/update-data-automatic-download.md)
+* [Caso de uso: Envío de un correo electrónico con campos enriquecidos](../../automating/using/sending-email-enriched-fields.md)
+* [Caso de uso: Reconciliación de una audiencia de archivo con la base de datos](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## Configuración {#configuration}
 
@@ -125,7 +132,7 @@ A continuación, puede modificar el formato de cada columna.
 
 El formato de columna permite definir el valor de procesamiento de cada columna:
 
-* **[!UICONTROL Ignore column]**:: no procesa esta columna durante la carga de datos.
+* **[!UICONTROL Ignore column]**: no se procesa esta columna durante la carga de datos.
 * **[!UICONTROL Data type]**: especifica el tipo de datos esperados para cada columna.
 * **[!UICONTROL Format and separators]**, **Propiedades**: especifique las propiedades de un texto, el formato de hora, fecha y valor numérico, así como el separador especificado por el contexto de columna.
 
@@ -140,11 +147,11 @@ El formato de columna permite definir el valor de procesamiento de cada columna:
    * **[!UICONTROL Separator]**:: define el separador especificado por el contexto de columna (separador de miles o separador decimal para valores numéricos, separador de fechas y hora) para **datos de fecha**, **hora**, **fecha y hora**, **entero** y número **** flotante.
 
 * **[!UICONTROL Remapping of values]**:: este campo solo está disponible en la configuración de detalles de la columna. Permite transformar determinados valores al importarlos. Por ejemplo, se puede transformar “tres” en “3”.
-* **[!UICONTROL Error processing]**:: define el comportamiento si se encuentra un error.
+* **[!UICONTROL Error processing]**: define el comportamiento si se produce un error.
 
-   * **[!UICONTROL Ignore the value]**:: se omite el valor. Se genera una advertencia en el registro de ejecución del flujo de trabajo.
-   * **[!UICONTROL Reject the line]**:: la línea completa no se procesa.
-   * **[!UICONTROL Use a default value]**:: reemplaza el valor que causa el error por un valor predeterminado, definido en el **[!UICONTROL Default value]** campo.
+   * **[!UICONTROL Ignore the value]**: se ignora el valor. Se genera una advertencia en el registro de ejecución del flujo de trabajo.
+   * **[!UICONTROL Reject the line]**: no se procesa la línea completa.
+   * **[!UICONTROL Use a default value]**: reemplaza el valor que provoca el error con un valor predeterminado definido en el campo **[!UICONTROL Default value]**.
    * **[!UICONTROL Use a default value in case the value is not remapped]**:: reemplaza el valor que causa el error por un valor predeterminado, definido en el **[!UICONTROL Default value]** campo, a menos que se haya definido una asignación para el valor erróneo (consulte la **[!UICONTROL Remapping of values]** opción anterior).
    * **[!UICONTROL Reject the line when there is no remapping value]**:: la línea completa no se procesa a menos que se haya definido una asignación para el valor erróneo (consulte la **[!UICONTROL Remapping of values]** opción anterior).
    >[!NOTE]
@@ -155,77 +162,5 @@ El formato de columna permite definir el valor de procesamiento de cada columna:
 * **[!UICONTROL Empty value management]**:: especifica cómo administrar valores vacíos durante la carga de datos.
 
    * **[!UICONTROL Generate an error for numerical fields]**: genera un error solo para los campos numéricos; en caso contrario, inserta un valor NULL.
-   * **[!UICONTROL Insert NULL in the corresponding field]**:: autoriza valores vacíos. Por lo tanto, se inserta el valor NULL.
-   * **[!UICONTROL Generate an error]**:: genera un error si un valor está vacío.
-
-## Ejemplo 1: Actualización de la base de datos {#example-1-update-the-database}
-
-La actividad del archivo de carga estructura principalmente los datos de una actividad de archivo de transferencia para integrarlos en los datos existentes.
-
-El siguiente ejemplo muestra el resultado de una actividad de archivos de carga descargada automáticamente mediante una actividad de archivos de transferencia, seguida de una actividad de datos de actualización. Este flujo de trabajo pretende enriquecer la base de datos de Adobe Campaign con nuevos perfiles o actualizar los perfiles existentes utilizando los datos recuperados del archivo importado.
-
-![](assets/load_file_workflow_ex1.png)
-
-1. Arrastre y suelte una **[!UICONTROL Transfer file]** actividad en el flujo de trabajo y configúrela de forma que recupere el archivo que desee.
-1. Arrastre y suelte una **[!UICONTROL Load file]** actividad en el flujo de trabajo y colóquela después de la **[!UICONTROL Transfer file]** actividad.
-1. Seleccione la actividad y, a continuación, ábrala con el ![](assets/edit_darkgrey-24px.png) botón de las acciones rápidas que aparecen.
-1. En la **[!UICONTROL File to load]** sección de la **[!UICONTROL Execution]** ficha, marque la **[!UICONTROL Use the file specified in the inbound transition]** opción.
-
-   ![](assets/wkf_file_loading8.png)
-
-1. Configure la actividad como se especificó anteriormente.
-1. Arrastre y suelte una **[!UICONTROL Update data]** actividad en el flujo de trabajo, colóquela después de la **[!UICONTROL Load file]** actividad y, a continuación, configúrela. Refer to [Update data](../../automating/using/update-data.md).
-
-Una vez iniciado el flujo de trabajo, los datos del archivo cargado se extraen y se utilizan para enriquecer la base de datos de Adobe Campaign.
-
-## Ejemplo 2: Envío de un correo electrónico con campos enriquecidos {#example-2-email-with-enriched-fields}
-
-<!--A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](example-2-email-with-enriched-fields)-->
-
-La actividad del archivo de carga también permite enviar un correo electrónico enriquecido con datos adicionales de un archivo externo en el mismo flujo de trabajo.
-
-El ejemplo siguiente muestra cómo enviar un correo electrónico con datos adicionales recuperados de un archivo externo a través de la actividad de cargar archivo. En este ejemplo, el archivo externo contiene una lista de perfiles con su número de cuenta asociado. Desea importar estos datos para enviar un correo electrónico a cada perfil con su número de cuenta.
-
-![](assets/load_file_workflow_ex2.png)
-
-1. Arrastre y suelte una **[!UICONTROL Query]** actividad en el flujo de trabajo y ábrala para definir el destinatario principal.
-
-   <!--The Query activity is presented in the [Query](../../automating/using/query.md) section.-->
-
-1. Arrastre y suelte una **[!UICONTROL Load file]** actividad para asignar algunos datos a un perfil. En este ejemplo, cargue un archivo que contenga los números de cuenta correspondientes a algunos perfiles de la base de datos.
-
-   ![](assets/load_file_activity.png)
-
-1. Arrastre y suelte una **[!UICONTROL Enrichment]** actividad en el flujo de trabajo y vincule el archivo de carga y las actividades de consulta.
-
-1. En la **[!UICONTROL Advanced relations]** ficha de la actividad enriquecimiento, seleccione los campos **[!UICONTROL 0 or 1 cardinality simple link]** y defina los campos que se utilizarán para la reconciliación. Aquí utilizamos el apellido para reconciliar los datos con los perfiles de la base de datos.
-
-   ![](assets/load_file_enrichment_relation.png)
-
-1. En la **[!UICONTROL Additional data]** ficha, seleccione los elementos que desee utilizar en el correo electrónico. Aquí seleccione Número de cuenta (columna del archivo que recuperó a través de la actividad del archivo de carga).
-
-   ![](assets/load_file_enrichment_select_element.png)
-
-   <!--![](assets/load_file_enrichment_additional_data.png)-->
-
-   For more on this, see the [Enrichment](../../automating/using/enrichment.md) section.
-
-1. Arrastre y suelte una **[!UICONTROL Segmentation]** actividad en el flujo de trabajo y ábrala para refinar el destinatario principal.
-
-   ![](assets/load_file_segmentation.png)
-
-   For more on this, see the [Segmentation](../../automating/using/segmentation.md) section.
-
-1. Arrastre y suelte una **[!UICONTROL Email delivery]** actividad en el flujo de trabajo y ábrala.
-
-   <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
-
-1. Añada un campo de personalización y seleccione los datos adicionales definidos en la actividad de enriquecimiento (aquí Número de cuenta) del **[!UICONTROL Additional data (targetData)]** nodo. Esto permite recuperar dinámicamente el número de cuenta de cada perfil del contenido del correo electrónico.
-
-   ![](assets/load_file_perso_field.png)
-
-1. Guarde el correo electrónico y el inicio del flujo de trabajo.
-
-El correo electrónico se envía al destinatario. Cada perfil recibe el correo electrónico con su correspondiente número de cuenta.
-
-![](assets/load_file_email.png)
+   * **[!UICONTROL Insert NULL in the corresponding field]**: autoriza los valores vacíos. Por lo tanto, se inserta el valor NULL.
+   * **[!UICONTROL Generate an error]**: genera un error si un valor está vacío.
