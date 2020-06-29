@@ -12,21 +12,30 @@ discoiquuid: 27de5a13-7b7c-4c91-bf26-3dfd324beb8f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
+workflow-type: tm+mt
+source-wordcount: '146'
+ht-degree: 4%
 
 ---
 
 
 # Acerca de las suscripciones{#about-subscriptions}
 
-Adobe Campaign permite crear y administrar boletines informativos y comunicaciones entre canales mediante un conjunto de **servicios**: solo se pueden enviar mensajes a perfiles suscritos al servicio (opción de inclusión). Estos perfiles se identifican mediante un filtro dedicado al crear un mensaje.
+Adobe Campaign le permite crear y administrar boletines informativos y comunicaciones entre canales mediante un conjunto de **servicios**: solo se pueden enviar mensajes a perfiles suscritos al servicio (opción de inclusión). Estos perfiles se identifican mediante un filtro específico al crear un mensaje.
 
-Se pueden configurar mecanismos de suscripción para ofrecer a sus clientes la oportunidad de suscribirse a estos servicios, especialmente a través de **correos electrónicos** y páginas **de** aterrizaje.
+Se pueden configurar mecanismos de Suscripción para oferta a sus clientes de la posibilidad de suscribirse a estos servicios, especialmente a través de **correos electrónicos** y **páginas de aterrizaje**.
 
 Cada servicio incluye:
 
-* **Mecanismos de suscripción** (inclusión) y **[!UICONTROL Unsubscription]** (exclusión).
-* Mecanismos **de** confirmación de suscripción y/o cancelación de suscripción.
-* Un **historial** de suscripción.
+* **Suscripción** (inclusión) y **[!UICONTROL Unsubscription]** (exclusión).
+* Suscripción y/o mecanismos **de confirmación bajas**.
+* Una **historia** de suscripción.
 
-Las suscripciones también se pueden administrar mediante la API de Adobe Campaign Standard. For more on this, refer to the [dedicated documentation](../../api/using/creating-a-service.md) .
+Las Suscripciones también se pueden administrar mediante la API de Adobe Campaign Standard. For more on this, refer to the [dedicated documentation](../../api/using/creating-a-service.md) .
+
+**Temas relacionados**
+
+* [Caso de uso: Consulta incremental sobre los suscriptores de un servicio](../../automating/using/incremental-query-on-subscribers.md)
+* [Caso de uso: Actualización de varios estados de suscripción de un archivo](../../automating/using/updating-subscriptions-from-file.md)
+* [Suscripción de perfiles a un servicio específico después de importar un archivo](../../automating/using/subscribing-profiles-from-file.md)
