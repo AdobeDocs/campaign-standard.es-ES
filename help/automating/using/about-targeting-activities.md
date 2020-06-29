@@ -12,9 +12,9 @@ discoiquuid: 5f7607a1-5f71-4d66-9688-3e5a1774f1b4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '434'
 ht-degree: 11%
 
 ---
@@ -70,9 +70,6 @@ La **[!UICONTROL Additional data]** ficha de las actividades **[!UICONTROL Query
 * Acumulados
 * Colecciones
 
-**Temas relacionados**
+**Temas relacionados:**
 
-* [Caso de uso: Crear un envío de correo electrónico una vez a la semana](../../automating/using/workflow-weekly-offer.md)
-* [Caso de uso: Creación de un envío segmentado en una ubicación](../../automating/using/workflow-segmentation-location.md)
-* [Caso de uso: Creación de envíos con un complemento](../../automating/using/workflow-created-query-with-complement.md)
-* [Caso de uso: Flujo de trabajo de redireccionamiento que envía un nuevo envío a los no abridores](../../automating/using/workflow-cross-channel-retargeting.md)
+* [Caso de uso: Personalización de un correo electrónico con datos adicionales](../../automating/using/personalizing-email-with-additional-data.md)
