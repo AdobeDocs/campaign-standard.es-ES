@@ -13,10 +13,10 @@ context-tags: delivery,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6e87dc8f299f0c9fbb33e5e56c0a76cfef0aa9a6
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 1%
+source-wordcount: '857'
+ht-degree: 0%
 
 ---
 
@@ -44,6 +44,14 @@ Cuando se vincula a un Planificador, puede definir correos electrónicos recurre
 Los destinatarios de correo electrónico se definen antes de la actividad en el mismo flujo de trabajo, mediante actividades de objetivo como consultas, intersecciones, etc.
 
 La preparación del mensaje se activa según los parámetros de ejecución del flujo de trabajo. En el panel de mensajes, puede seleccionar si desea solicitar o no una confirmación manual para enviar el mensaje (requerido de forma predeterminada). Puede realizar el inicio del flujo de trabajo manualmente o colocar una actividad de Planificador en el flujo de trabajo para automatizar la ejecución.
+
+**Temas relacionados:**
+
+* [Caso de uso: Crear un envío de correo electrónico una vez a la semana](../../automating/using/workflow-weekly-offer.md)
+* [Caso de uso: Creación de un envío segmentado en una ubicación](../../automating/using/workflow-segmentation-location.md)
+* [Caso de uso: Creación de envíos con un complemento](../../automating/using/workflow-created-query-with-complement.md)
+* [Caso de uso: Flujo de trabajo de redireccionamiento que envía un nuevo envío a los no abridores](../../automating/using/workflow-cross-channel-retargeting.md)
+* [Caso de uso: envío de cumpleaños](../../automating/using/birthday-delivery.md)
 
 ## Configuración {#configuration}
 
@@ -91,28 +99,3 @@ Sin embargo, las ejecuciones de envíos recurrentes se enmascaran de forma prede
 En los envíos principales, a los que se puede acceder desde la lista de actividad de marketing o directamente a través de las ejecuciones recurrentes asociadas, se puede vista el número total de envíos que se han procesado (según el período de agregación especificado cuando se configuró la **[!UICONTROL Email delivery]** actividad). Para ello, abra la vista de detalles del bloque del envío principal **[!UICONTROL Deployment]** seleccionando ![](assets/wkf_dlv_detail_button.png).
 
 ![](assets/wkf_display_recurrent_executions_3.png)
-
-## Ejemplo {#example}
-
-![](assets/wkf_delivery_example_1.png)
-
-Este ejemplo es un flujo de trabajo de cumpleaños. Cada día se envía un correo electrónico a los perfiles cuyo cumpleaños es ese día. Para ello:
-
-* La **[!UICONTROL Scheduler]** le permite realizar inicios del flujo de trabajo todos los días a las 8:00 h.
-
-   ![](assets/wkf_delivery_example_2.png)
-
-* La **[!UICONTROL Query]** actividad le permite calcular los perfiles que han proporcionado un correo electrónico y de quién es el cumpleaños en el día actual, cada vez que se ejecuta el flujo de trabajo. El cálculo de cumpleaños se realiza con un filtro predefinido disponible en la paleta de la herramienta de edición de consultas.
-
-   ![](assets/wkf_delivery_example_3.png)
-
-* El **[!UICONTROL Email]** problema es recurrente. Los envíos se agregan por mes. Por lo tanto, todos los correos electrónicos enviados en un mes se agregan en una sola vista. En un año se ejecutan 365 envíos, pero se reagrupan en 12 vistas (también llamadas ejecuciones **** recurrentes) en la interfaz de Adobe Campaign. Los detalles del historial y del informe se muestran cada mes y no para cada envío.
-
-   ![](assets/wkf_delivery_example_4.png)
-
-**Temas relacionados**
-
-* [Caso de uso: Crear un envío de correo electrónico una vez a la semana](../../automating/using/workflow-weekly-offer.md)
-* [Caso de uso: Creación de un envío segmentado en una ubicación](../../automating/using/workflow-segmentation-location.md)
-* [Caso de uso: Creación de envíos con un complemento](../../automating/using/workflow-created-query-with-complement.md)
-* [Caso de uso: Flujo de trabajo de redireccionamiento que envía un nuevo envío a los no abridores](../../automating/using/workflow-cross-channel-retargeting.md)
