@@ -1,24 +1,27 @@
 ---
-title: '"Caso de uso del flujo de trabajo: Segmentación en la ubicación"'
-description: '"Caso de uso del flujo de trabajo: Segmentación en la ubicación"'
-page-status-flag: nunca activado
+title: Segmentación en la ubicación"
+description: Este caso de uso muestra cómo realizar la segmentación en la ubicación.
+page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: automatizar
-content-type: referencia
-topic-tags: execute-activity
+audience: automating
+content-type: reference
+topic-tags: execution-activities
 discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
-context-tags: 'flujo de trabajo,caso de uso,consulta,segmentación,entrega '
+context-tags: workflow,use-case,query,segmentation,delivery
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+workflow-type: tm+mt
+source-wordcount: '268'
+ht-degree: 3%
 
 ---
 
 
-# Caso de uso del flujo de trabajo: Segmentación en la ubicación {#segmentation-on-location}
+# Segmentación en la ubicación {#segmentation-on-location}
 
 Puede enviar un correo electrónico de objetivo a los clientes con ofertas en sus tiendas locales.
 
@@ -26,10 +29,10 @@ Puede enviar un correo electrónico de objetivo a los clientes con ofertas en su
 1. Seleccione **[!UICONTROL New Workflow]** como tipo de flujo de trabajo y haga clic en **[!UICONTROL Next]**.
 1. Introduzca las propiedades del flujo de trabajo y haga clic en **[!UICONTROL Create]**.
 
-## Selección de los destinatarios a los que se puede contactar por correo electrónico{#selecting-recipients-contactable-via-email}
+## Selección de destinatarios contactables por correo electrónico{#selecting-recipients-contactable-via-email}
 
-1. En **[!UICONTROL Activities]** &gt; **[!UICONTROL Targeting]**, arrastre y suelte un **[!UICONTROL Query activity]** objeto ![](assets/query.png).
-1. Haga doble clic en la actividad.
+1. En **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, arrastre y suelte una actividad de [Consulta](../../automating/using/query.md) ![](assets/query.png).
+1. Haga clic con el Doble en la actividad.
 1. En **[!UICONTROL Shortcuts]**, arrastre y suelte **[!UICONTROL Profiles]** y seleccione el campo **[!UICONTROL email]** con el operador **[!UICONTROL is not empty]**.
 1. En **[!UICONTROL Shortcuts]**, arrastre y suelte **[!UICONTROL Profiles]** y seleccione el campo **[!UICONTROL no longer contact by email]** con el valor **[!UICONTROL no]**.
 1. Haga clic **[!UICONTROL Confirm]** dos veces.
@@ -38,20 +41,20 @@ Puede enviar un correo electrónico de objetivo a los clientes con ofertas en su
 
 ## Creación de una actividad de segmentación{#creating-a-segmentation-activity}
 
-1. Arrastre y suelte una **[!UICONTROL Segmentation]** actividad y haga doble clic en ella.
-1. Haga clic en el segmento y luego abra la transición para dirigirse a personas de la primera ciudad. Aquí Boston.
+1. Arrastre y suelte una actividad [de segmentación](../../automating/using/segmentation.md) y haga clic en ella con el doble.
+1. Haga clic en el segmento y luego abra la transición para destinatario de personas en la primera ciudad. Aquí Boston.
 1. Arrastre y suelte **[!UICONTROL Location]** y seleccione **[!UICONTROL City]** con el operador **[!UICONTROL equals to]** y el valor **[!UICONTROL Boston]**.
 Nota: Para llegar a todas las personas que entraron en Boston, sin tener en cuenta el caso, desactive la opción que distingue mayúsculas de minúsculas.
-1. Click **[!UICONTROL Confirm]**.
+1. Haga clic **[!UICONTROL Confirm]**.
 1. En **[!UICONTROL List of outbound segments]**, haga clic **[!UICONTROL Add an element]** y haga clic en ![](assets/edit_darkgrey-24px.png) para crear un segmento dirigido a personas de la segunda ciudad. Aquí Chicago.
 1. Arrastre y suelte **[!UICONTROL Location]** y seleccione **[!UICONTROL City]** con el operador **[!UICONTROL equals to]** e introduzca **[!UICONTROL Chicago]** el valor.
 1. Para llegar a todas las personas que ingresaron a Chicago, sin importar el caso, desmarque la opción que distingue mayúsculas de minúsculas.
-1. Click **[!UICONTROL Confirm]**.
+1. Haga clic **[!UICONTROL Confirm]**.
 
-## Creación de un envío de correo electrónico{#creating-an-email-delivery}
+## Creación de una entrega de correo electrónico{#creating-an-email-delivery}
 
-1. En **[!UICONTROL Activities]** &gt; **[!UICONTROL Channels]**, arrastre y suelte una **[!UICONTROL Email Delivery]** vez finalizado cada segmento.
-1. Haga clic en la actividad y seleccione ![](assets/edit_darkgrey-24px.png) editar.
+1. En **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, arrastre y suelte una actividad de envío [de](../../automating/using/email-delivery.md) correo electrónico después de cada segmento.
+1. Haga clic en la actividad y seleccione ![](assets/edit_darkgrey-24px.png) para editarla.
 1. Seleccione **[!UICONTROL Simple email]** y haga clic en **[!UICONTROL Next]**.
 1. Seleccione una plantilla de correo electrónico y haga clic en **[!UICONTROL Next]**.
 1. Introduzca las propiedades de correo electrónico y haga clic en **[!UICONTROL Next]**.
@@ -59,15 +62,10 @@ Nota: Para llegar a todas las personas que entraron en Boston, sin tener en cuen
 1. Inserte elementos o seleccione una plantilla existente.
 1. Personalice su correo electrónico con ofertas específicas para cada ubicación.
 
-Para obtener más información, consulte [Diseño de un correo electrónico](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+   Para obtener más información, consulte [Diseño de un correo electrónico](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 
 1. Haga clic **[!UICONTROL Preview]** para comprobar el diseño.
-1. Click **[!UICONTROL Save]**.
+1. Haga clic **[!UICONTROL Save]**.
 
 ![](assets/wf-segmentation-location.png)
 
-**Temas relacionados:**
-
-* [Actividad de consulta](../../automating/using/query.md)
-* [Actividad de segmentación](../../automating/using/segmentation.md)
-* [Envío de correo electrónico](../../automating/using/email-delivery.md)
