@@ -13,10 +13,10 @@ context-tags: role,overview;role,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c65cce2168219b3cd8cbd6704bdd0b6f3f55e3e6
+source-git-commit: 395791e69d0c4c8a888829539338e338387294de
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '203'
+ht-degree: 7%
 
 ---
 
@@ -29,7 +29,7 @@ Combinadas con las unidades organizativas, las funciones proporcionan a los usua
 
 Para obtener más información sobre esto, consulte la tabla [](/help/administration/using/assets/acs_rights.pdf)Funciones y permisos, que detalla las funciones disponibles en la interfaz en función de las autorizaciones seleccionadas.
 
-[![image](assets/user_management_3.png](https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/users-and-security/assets/acs_rights.pdf)
+[![imagen](assets/user_management_3.png)](https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/users-and-security/assets/acs_rights.pdf)
 
 Las funciones se pueden administrar desde el **[!UICONTROL Administration > Users & Security > Roles]** menú.
 
