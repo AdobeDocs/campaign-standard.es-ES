@@ -1,36 +1,39 @@
 ---
 title: Configuración de la definición del filtro
 description: Descubrir la función de filtro para administrar grandes conjuntos de datos.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: c9db95fe-e9aa-40f8-9c0a-e74bb21ac14b
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: desarrollo
-content-type: referencia
-topic-tags: agregar o ampliar un recurso
+audience: developing
+content-type: reference
+topic-tags: adding-or-extending-a-resource
 discoiquuid: 993ab2bd-e05f-468e-9ef8-a603761247f8
 context-tags: cusResource,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: cabe064632c9c2e3de93bc1cff6fa217b4fdf3e6
+workflow-type: tm+mt
+source-wordcount: '541'
+ht-degree: 1%
 
 ---
 
 
 # Configuración de la definición del filtro{#configuring-filter-definition}
 
-En la **[!UICONTROL Filter definition]** ficha, puede crear filtros avanzados a los que los usuarios pueden acceder directamente al crear consultas complejas, como al definir una audiencia.
+En la **[!UICONTROL Filter definition]** ficha, puede crear filtros avanzados a los que los usuarios pueden acceder directamente al crear consultas complejas, como cuando se define una audiencia.
 
-Este paso no es obligatorio, ya que podrá rellenar el recurso y acceder a sus datos a través de flujos de trabajo, audiencias y la API de REST.
+Este paso no es obligatorio, ya que aún podrá rellenar el recurso y acceder a sus datos a través de flujos de trabajo, audiencias y REST API.
 
 ![](assets/custom_resource_filter-definition.png)
 
 Estos filtros se utilizan en el editor de consultas en forma de reglas preconfiguradas. Permiten limitar el número de pasos necesarios para obtener la configuración deseada, lo que puede resultar especialmente beneficioso para las segmentaciones repetitivas.
 
-Por ejemplo, puede crear un filtro que permita seleccionar todas las transacciones mayores que una determinada cantidad en los últimos tres meses.
+Por ejemplo, puede crear un filtro que permita seleccionar todas las transacciones buenas que no sean una determinada cantidad en los últimos tres meses.
 
-Para ello, debe ampliar el recurso y definir un filtro que vincule a una tabla de transacciones (que ha creado anteriormente) con una regla que indique que el precio de transacción debe ser mayor o igual que un parámetro determinado y que la fecha de transacción debe estar dentro de un rango correspondiente a los últimos tres meses. **[!UICONTROL Profiles]**
+Para ello, debe ampliar el recurso y definir un filtro que vincule a una tabla de transacciones (que ha creado anteriormente) con una regla que indique que el precio de transacción debe ser bueno o igual a un parámetro determinado y que la fecha de transacción debe estar dentro de un rango correspondiente a los últimos tres meses. **[!UICONTROL Profiles]**
 
 1. Asegúrese de crear y publicar una tabla de transacciones. See [Creating or extending the resource](../../developing/using/creating-or-extending-the-resource.md).
 
@@ -53,7 +56,7 @@ Para ello, debe ampliar el recurso y definir un filtro que vincule a una tabla d
 
    ![](assets/custom_resource_filter-definition_example-parameter.png)
 
-1. Confirme los cambios. Esta definición corresponde a un campo configurable que el usuario debe rellenar más adelante para ejecutar la consulta.
+1. Confirme los cambios. Esta definición corresponde a un campo configurable que el usuario debe rellenar más tarde para ejecutar la consulta.
 
    ![](assets/custom_resource_filter-definition_ex_edit-rule.png)
 
@@ -83,3 +86,8 @@ En lugar de configurarlo ellos mismos, simplemente tienen que introducir la cant
 
 ![](assets/custom_resource_filter-definition_email-audience_filter.png)
 
+Una vez configurado el filtro, puede utilizarlo desde las API de Campaign Standard mediante esta sintaxis:
+
+`GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/by<customFilterName>?<customFilterparam>=<customFilterValue>`
+
+Para obtener más información sobre esto, consulte la documentación [de las API de](../../api/using/filtering.md#custom-filters)Campaign Standard.
