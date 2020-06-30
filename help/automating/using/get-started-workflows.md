@@ -12,9 +12,9 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: a9fbf0479019dfbe2964c517a0370f015d0f380a
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '522'
 ht-degree: 7%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 7%
 <td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#import-export-data">Importar/exportar datos</a></p></td></tr>
 </table>
 
-Adobe Campaign oferta un entorno gráfico completo que le permite diseñar procesos complejos, incluyendo segmentación, ejecución de campañas, procesamiento de archivos, aprobaciones, etc. Por ejemplo, puede utilizar un flujo de trabajo para descargar un archivo de un servidor, descomprimirlo e importar sus registros en la base de datos de Adobe Campaign.
+Adobe Campaign oferta un entorno gráfico completo que le permite diseñar procesos complejos, incluyendo segmentación, ejecución de campañas, procesamiento de archivos, etc. Por ejemplo, puede utilizar un flujo de trabajo para descargar un archivo de un servidor, descomprimirlo e importar sus registros en la base de datos de Adobe Campaign.
 
 Un flujo de trabajo también puede involucrar a los usuarios asignándoles tareas o haciéndoles aprobar tareas realizadas. Esto significa que puede asignar una tarea a uno o varios usuarios para trabajar en contenido o especificar destinatarios, y aprobar pruebas antes de enviar el mensaje.
 
@@ -89,7 +89,7 @@ Por último, [Exportar listas](../../automating/using/exporting-lists.md) permit
 
 Más información:
 
-* [Importación y exportación de datos.](../../automating/using/about-data-import-and-export.md)
+* [Importación y exportación de datos](../../automating/using/about-data-import-and-export.md)
 * [Caso de uso: Exportación e importación de recursos personalizados](../../automating/using/exporting-importing-custom-resources.md)
 
 ## Recursos adicionales
