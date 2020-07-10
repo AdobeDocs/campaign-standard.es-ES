@@ -12,9 +12,9 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 26f8f7855a30fe90dbfee4bb2b5ee55c7bf4e02b
+source-git-commit: e58ac301d82a360d7065be7c1e3490a2a1821344
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '938'
 ht-degree: 2%
 
 ---
@@ -50,12 +50,15 @@ Una vez procesada la solicitud, los comandos de cifrado/descifrado estarán disp
 
 En este caso de uso, crearemos un flujo de trabajo para importar datos cifrados en un sistema externo, utilizando una clave generada en el Panel de control.
 
+En [esta sección](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/decrypting-data.html)también hay disponible un vídeo de tutorial que muestra cómo utilizar una clave GPG para descifrar datos.
+
 Los pasos para realizar este caso de uso son los siguientes:
 
 1. Utilice el Panel de control para generar un par de claves (pública/privada). Encontrará pasos detallados en la documentación [del Panel](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)de control.
 
    * La clave pública se compartirá con el sistema externo, que la utilizará para cifrar los datos que se enviarán a la Campaña.
    * La clave privada será utilizada por Campaña para descifrar los datos cifrados entrantes.
+
    ![](assets/gpg_generate.png)
 
 1. En el sistema externo, utilice la clave pública descargada del Panel de control para cifrar los datos que se van a importar al Campaign Standard.
@@ -92,6 +95,8 @@ Los pasos para realizar este caso de uso son los siguientes:
 ## Caso de uso: Codificación y exportación de datos mediante una clave instalada en el Panel de control {#use-case-gpg-encrypt}
 
 En este caso de uso, crearemos un flujo de trabajo para cifrar y exportar datos mediante una clave instalada en el Panel de control.
+
+En [esta sección](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/using-a-gpg-key-to-encrypt-data.html)también hay disponible un vídeo de tutorial que muestra cómo utilizar una clave GPG para cifrar datos.
 
 Los pasos para realizar este caso de uso son los siguientes:
 
