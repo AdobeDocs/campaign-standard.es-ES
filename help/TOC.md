@@ -4,9 +4,9 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Ayuda de Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 49fdf317bdb73c83c9ddc9e0948ab91e1f60bd18
+source-git-commit: 4bf004b035c10ccbdb1ff9dc3fb51ddfdef54777
 workflow-type: tm+mt
-source-wordcount: '1528'
+source-wordcount: '1530'
 ht-degree: 84%
 
 ---
@@ -143,6 +143,7 @@ ht-degree: 84%
       + [Envío de pruebas](sending/using/sending-proofs.md)
       + [Prueba de mensajes de correo electrónico con perfiles de destino](sending/using/testing-messages-using-target.md)
       + [Prueba de la línea de asunto de un correo electrónico](sending/using/testing-subject-line-email.md)
+      + [Correos electrónicos con tecnología AI](sending/using/predictive.md)
       + [Procesamiento de correo electrónico](sending/using/email-rendering.md)
       + [Uso de trampas](sending/using/using-traps.md)
    + Programación de mensajes {#scheduling-messages}
@@ -305,7 +306,7 @@ ht-degree: 84%
       + [Exportación de listas](automating/using/exporting-lists.md)
       + [Caso de uso: Exportación e importación de recursos personalizados](automating/using/exporting-importing-custom-resources.md)
    + Ejemplos de uso {#workflow-use-case}
-      + [Acerca de los casos de uso del flujo de trabajo](automating/using/about-workflow-use-cases.md)
+      + [Acerca de los casos de uso de flujos de trabajo](automating/using/about-workflow-use-cases.md)
       + Entregas {#deliveries}
          + [Creación de entregas con un complemento](automating/using/workflow-created-query-with-complement.md)
          + [Creación de envíos en la fecha de creación de perfiles](automating/using/workflow-creation-date-query.md)
