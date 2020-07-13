@@ -12,10 +12,10 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 04bc32a9abb2939823f18165e1fe46d9f2315cce
+source-git-commit: f45985c030c3d5059bfef444287c10b842298f49
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 6%
+source-wordcount: '1160'
+ht-degree: 9%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 6%
 
 [Planificación de versiones](../../rn/using/release-planning.md) | Versiones [del Panel de control](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html) | Actualizaciones [de documentación](../../rn/using/documentation-updates.md) | Notas de la versión [anteriores](../../rn/using/release-notes-2020.md) | Características [obsoletas](../../rn/using/deprecated-features.md)
 
-![](assets/do-not-localize/cp-icon.png) **Nueva versión** de junio del Panel de control con supervisión de perfiles activos, auditoría de entregas de subdominios y administración de claves GPG. [Más información](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Nuevo lanzamiento del Panel de control de Campaign en junio** con monitorización de perfiles activos, auditoría de entregas de subdominios y administración de claves GPG. [Más información](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html).
 
 ## Versión 20.3: mayo de 2020 {#release-20-3---may-2020}
 
@@ -41,7 +41,7 @@ ht-degree: 6%
 <td> <p>La Ley de Protección de Datos Personales de Tailandia (PDPA, por sus siglas en inglés) es la nueva ley de privacidad que armoniza y moderniza los requerimientos de protección de datos para Tailandia. Esta regulación se aplica a los clientes de Adobe Campaign que tienen datos para sujetos de datos residentes en este país.</p>
 <p>Además de las funciones de privacidad ya disponibles en Adobe Campaign (incluida la administración de consentimiento, la configuración de retención de datos y las funciones de usuario), aprovechamos esta oportunidad para incluir funciones adicionales que le ayudarán a prepararse para el PDPA:</p>
 <ul>
-<li>Derecho de acceso y derecho de eliminación: estamos aprovechando las capacidades que se agregaron para el RGPD y la CCPA. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">Más información</a> </li>
+<li>Derecho de acceso y derecho de eliminación: estamos aprovechando las capacidades añadidas para el RGPD y la CCPA. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">Más información</a> </li>
 <li><p>Al crear una solicitud de privacidad, se ha agregado el tipo de regulación PDPA en el servicio principal de privacidad. Este método es el que debe utilizar para todas las solicitudes de acceso y eliminación. El uso de la API de Campaña y la interfaz para acceder y eliminar solicitudes está en desuso.  Consulte el artículo <a href="../../rn/using/deprecated-features.md">Funciones</a>obsoletas y eliminadas.</p></li>
 </ul>
 <p>Consulte el vídeo de <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">procedimientos</a>.</p>
@@ -71,12 +71,15 @@ ht-degree: 6%
 </tbody> 
 </table>
 
-![](assets/do-not-localize/cp-icon.png) **El nuevo Panel de control puede lanzarse** con la renovación de certificados para subdominios CNAME. [Más información](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html).
+**Funciones** adicionales (a partir del 13 de julio)
+
+* **Optimización de tiempo de envío con tecnología AI y puntuación** de perfiles: ahora puede optimizar el diseño y el envío de los viajes de los clientes para predecir las preferencias de participación de cada individuo. Con Journey AI, el Adobe Campaign puede analizar y predecir las tasas abiertas, los tiempos de envío óptimos y la probable reproducción basada en métricas de participación históricas. [Más información](../../sending/using/predictive.md)
+* **Nueva normativa** de privacidad de Brasil: Además de las funciones de privacidad ya disponibles en Campaña, Adobe le ayuda a facilitar su preparación para el Lei Geral de Proteçao de Datos (LGPD) de Brasil. Al crear una solicitud de privacidad, se ha agregado la normativa LGPD a Adobe Privacy Core Service. [Más información](https://helpx.adobe.com/es/campaign/kb/campaign-privacy-overview.html)
 
 **Mejoras**
 
 * El número de caracteres que se puede utilizar en el campo **Prefijo** para [probar mensajes con perfiles](../../sending/using/testing-messages-using-target.md) de destino se ha aumentado de 32 a 500 caracteres.
-* El número máximo de eventos en tiempo real que se pueden publicar en una instancia ha aumentado de 350 a 2000. (CAMP-41608)
+* El número máximo de eventos en tiempo real que se pueden publicar en una instancia se ha incrementado de 350 a 2000. (CAMP-41608)
 * La sincronización entre Adobe Launch y Campaign Standard se ha mejorado mediante el flujo de trabajo técnico syncWithLaunch. Este flujo de trabajo permite la importación automática de todas las propiedades móviles de Adobe Launch en Adobe Campaign Standard. Para obtener más información, consulte [esta página](../../administration/using/technical-workflows.md).
 
    Deberá enviar un ticket al Servicio de atención al cliente de Adobe (directamente o a través de su contacto de Adobe) para que el flujo de trabajo técnico de syncWithLaunch esté habilitado en la instancia de Campaña. (CAMP-40082)
@@ -123,3 +126,6 @@ ht-degree: 6%
 * Se ha corregido un problema que provocaba discrepancias en los datos al utilizar la personalización en correos electrónicos transaccionales. (CAMP-41842)
 * Se han corregido problemas que se producían al eliminar campos personalizados en envíos de notificaciones push. (CAMP-37586)
 * Se corrigió un error que impedía a los usuarios realizar cambios en los informes. (CAMP-42505)
+
+
+![](assets/do-not-localize/cp-icon.png) **El nuevo Panel de control puede lanzarse** con la renovación de certificados para subdominios CNAME. [Más información](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html).
