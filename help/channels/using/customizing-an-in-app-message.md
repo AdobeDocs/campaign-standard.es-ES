@@ -13,7 +13,10 @@ context-tags: delivery,inAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1269ee2041e0857b077424ba7f50fbfa9519ae7b
+source-git-commit: 4efc42fd6b656c7723ed52f704c801113f9b3817
+workflow-type: tm+mt
+source-wordcount: '1080'
+ht-degree: 1%
 
 ---
 
@@ -36,8 +39,8 @@ El editor de contenido en la aplicación permite elegir entre dos modos de mensa
 **Temas relacionados:**
 
 * [Envío de un mensaje en la aplicación](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message)
-* [Informes en la aplicación](../../reporting/using/in-app-report.md)
-* [Implementación del seguimiento de notificaciones locales](https://helpx.adobe.com/campaign/kb/local-notification-tracking.html)
+* [sistema de informes en la aplicación](../../reporting/using/in-app-report.md)
+* [Implementación del seguimiento de notificaciones locales](../../administration/using/local-tracking.md)
 
 ## Personalización con una plantilla de mensaje {#customizing-with-a-message-template}
 
@@ -94,18 +97,18 @@ Si es necesario, también puede añadir un título y contenido de mensaje al men
 
    ![](assets/inapp_customize_9.png)
 
-1. Agregue el contenido en el **[!UICONTROL Message content]** campo.
+1. Añada el contenido en el **[!UICONTROL Message content]** campo.
 1. Para personalizar aún más el texto, haga clic en el ![](assets/edit_darkgrey-24px.png) icono para agregar campos de personalización.
 
    ![](assets/inapp_customize_8.png)
 
-1. Escriba el contenido del mensaje y agregue los campos de personalización si es necesario.
+1. Escriba el contenido del mensaje y agregue sus campos de personalización si es necesario.
 
    For more information on personalization field, refer to this [section](../../designing/using/personalization.md#inserting-a-personalization-field).
 
    ![](assets/inapp_customize_10.png)
 
-1. Compruebe el contenido del mensaje en la ventana de vista previa.
+1. Compruebe el contenido del mensaje en la ventana previsualización.
 
    ![](assets/inapp_customize_11.png)
 
@@ -125,7 +128,7 @@ Puede agregar hasta dos botones al mensaje en la aplicación.
    ![](assets/inapp_customize_13.png)
 
 1. Introduzca la URL web o el vínculo profundo en el **[!UICONTROL Destination URL]** campo, si elige la **[!UICONTROL Redirect]** acción,
-1. Compruebe el contenido del mensaje en la ventana de vista previa o haga clic en el botón Vista previa.
+1. Compruebe el contenido del mensaje en la ventana previsualización o haga clic en el botón Previsualización.
 
    Consulte la página [Vista previa del mensaje](#previewing-the-in-app-message) en la aplicación.
 
@@ -143,7 +146,7 @@ Puede agregar hasta dos botones al mensaje en la aplicación.
 ## Personalización de un tipo de mensaje de notificación local {#customizing-a-local-notification-message-type}
 
 Las notificaciones locales solo se pueden activar mediante una aplicación en un momento determinado y en función de un evento. Alertarán a los usuarios de que algo está pasando en su aplicación incluso sin tener acceso a Internet.
-Para obtener información sobre cómo rastrear las notificaciones locales, consulte esta [página](https://helpx.adobe.com/campaign/kb/local-notification-tracking.html).
+Para obtener información sobre cómo rastrear las notificaciones locales, consulte esta [página](../../administration/using/local-tracking.md).
 
 Para personalizar una notificación local:
 
@@ -151,11 +154,11 @@ Para personalizar una notificación local:
 
    ![](assets/inapp_customize_17.png)
 
-1. En la **[!UICONTROL Text]** categoría, escriba **[!UICONTROL Message title]** y **[!UICONTROL Message content]**.
+1. Bajo la **[!UICONTROL Text]** categoría, escriba **[!UICONTROL Message title]** y **[!UICONTROL Message content]**.
 
    ![](assets/inapp_customize_18.png)
 
-1. En la **[!UICONTROL Advanced option]** categoría, en el **[!UICONTROL Wait to display]** campo, elija cuánto tiempo en segundos se mostrará la notificación local en la pantalla una vez que se active el evento.
+1. Bajo la **[!UICONTROL Advanced option]** categoría, en el **[!UICONTROL Wait to display]** campo, elija cuánto tiempo en segundos se mostrará la notificación local en la pantalla una vez que se active el evento.
 1. En el **[!UICONTROL Sound]** campo, introduzca el nombre de archivo del archivo de sonido, con la extensión, que reproducirá el dispositivo móvil cuando se reciba la notificación local.
 
    El archivo de sonido se reproduce al enviar la notificación si el archivo está definido en el paquete de la aplicación móvil. De lo contrario, se reproduce el sonido predeterminado del dispositivo.
@@ -184,24 +187,24 @@ El archivo debe tener un diseño específico que se pueda encontrar haciendo cli
 
 ![](assets/inapp_customize_16.png)
 
-También puede encontrar una lista de requisitos HTML personalizados para una importación correcta en Adobe Campaign.
+También puede encontrar una lista de los requisitos HTML personalizados para una importación correcta en Adobe Campaign.
 
 ![](assets/inapp_customize_3.png)
 
-Una vez importado el HTML, puede encontrar una vista previa del archivo en diferentes dispositivos en la ventana de vista previa.
+Una vez importado el HTML, puede encontrar una previsualización del archivo en diferentes dispositivos en la ventana previsualización.
 
-## Vista previa del mensaje en la aplicación {#previewing-the-in-app-message}
+## Previewing the In-App message {#previewing-the-in-app-message}
 
-Antes de enviar un mensaje en la aplicación, puede realizar pruebas con sus perfiles de prueba para comprobar qué verá la audiencia objetivo cuando reciba la entrega.
+Antes de enviar el mensaje en la aplicación, puede realizar pruebas con los perfiles de prueba para comprobar qué verá la audiencia de destino cuando reciban el envío.
 
 1. Haga clic en el botón **[!UICONTROL Preview]**.
 
    ![](assets/inapp_sending_2.png)
 
-1. Haga clic en el **[!UICONTROL Select a test profile]** botón y seleccione uno de los perfiles de prueba para empezar a previsualizar la entrega. For more information on test profiles, refer to this [section](../../audiences/using/managing-test-profiles.md).
+1. Haga clic en el **[!UICONTROL Select a test profile]** botón y seleccione uno de los perfiles de prueba para obtener una vista previa del inicio del envío. For more information on test profiles, refer to this [section](../../audiences/using/managing-test-profiles.md).
 1. Compruebe el mensaje en distintos dispositivos, como Android, iPhone o incluso tablets. También puede comprobar si los campos de personalización están recuperando los datos correctos.
 
    ![](assets/inapp_sending_3.png)
 
-1. Ahora puede enviar el mensaje y medir su impacto con los informes de envío. For more on reporting, refer to [this section](../../reporting/using/in-app-report.md).
+1. Ahora puede enviar su mensaje y medir su impacto con informes de envío. For more on reporting, refer to [this section](../../reporting/using/in-app-report.md).
 
