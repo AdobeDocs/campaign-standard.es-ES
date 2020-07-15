@@ -10,9 +10,9 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: cad3a63d3e0dd94e4e308110996ed15c75beb904
 workflow-type: tm+mt
-source-wordcount: '1703'
+source-wordcount: '1699'
 ht-degree: 0%
 
 ---
@@ -56,10 +56,10 @@ A continuación, vuelva a configurar otras actividades en el flujo de trabajo qu
 
 ### Limitaciones y barandillas {#guardrails}
 
-Para esta actividad se han establecido las siguientes barreras:
+Esta actividad se rige por las siguientes medidas de protección:
 
-* Límite de tamaño de datos de respuesta http de 50 MB
-* El tiempo de espera de la solicitud es de 10 minutos
+* Límite de tamaño de datos de respuesta http de 5 MB
+* El tiempo de espera de la solicitud es de 1 minuto
 * No se permiten redirecciones HTTP
 * Se rechazan las direcciones URL que no son HTTPS
 * &quot;Aceptar: application/json&quot; y &quot;Content-Type: el encabezado de respuesta &quot;application/json&quot; está permitido
