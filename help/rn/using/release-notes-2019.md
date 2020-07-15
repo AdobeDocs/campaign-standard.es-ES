@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
+source-git-commit: b7775e1d95e6a7e08b38fc65b44a061eda7ff079
 workflow-type: tm+mt
 source-wordcount: '7626'
 ht-degree: 5%
@@ -22,7 +22,7 @@ ht-degree: 5%
 
 # Notas de la versión 2019{#release-notes-2019}
 
-[Planificación de versiones](https://helpx.adobe.com/es/campaign/kb/acs-release-planning.html) | Versiones [del Panel de control](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html) | Actualizaciones [de documentación](../../rn/using/documentation-updates.md) | [Últimas notas de la versión](../../rn/using/release-notes.md) | Características [obsoletas](https://helpx.adobe.com/es/campaign/kb/acs-deprecated-and-removed-features.html)
+[Planificación de versiones](https://helpx.adobe.com/es/campaign/kb/acs-release-planning.html) | Versiones de [Panel de control de Campaign](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html) | Actualizaciones [de documentación](../../rn/using/documentation-updates.md) | [Últimas notas de la versión](../../rn/using/release-notes.md) | Características [obsoletas](https://helpx.adobe.com/es/campaign/kb/acs-deprecated-and-removed-features.html)
 
 ## Versión 19.4: diciembre de 2019 {#release-19-4---october-2019}
 
@@ -237,7 +237,7 @@ ht-degree: 5%
 * Se ha corregido un error que impedía que las direcciones de correo electrónico de devoluciones en bruto se pusieran en cuarentena. (CAMP-24587)
 * Se corrigió un problema que se producía al agregar una reglas de tipología y luego eliminarla antes de guardar la tipología. (CAMP-32789)
 * Se ha corregido un problema que podía impedir que se mostrara contenido de página de aterrizaje al desactivar el contenido dinámico. (CAMP-32924)
-* Se ha corregido un problema con los envíos recurrentes que se producía al usar la personalización en los atributos de un envío maestro. (CAMP-32983)
+* Se ha corregido un problema con los envíos recurrentes que se producía al usar la personalización en los atributos de un envío principal. (CAMP-32983)
 * Se ha corregido un problema en flujos de trabajo que impedía leer los resultados de una transición que contenía datos de mensajes SMS entrantes. (CAMP-33134)
 * Se ha corregido un problema en flujos de trabajo que se producía al combinar actividades de exclusión y de bifurcación para crear audiencias. (CAMP-33401)
 * Se ha corregido un problema que podía impedir que se mostrara contenido de página espejo y que se enviaran mensajes de prueba para envíos recurrentes. (CAMP-33413)
@@ -293,7 +293,7 @@ Se ha introducido una serie de mejoras y correcciones para optimizar los fragmen
 * La opción &quot;Launch_URL_Campaña&quot; se ha agregado en Campaña para administrar las propiedades de las aplicaciones móviles creadas con el SDK de Adobe Experience Platform Mobile.
 * Se ha corregido un error que provocaba que la opción entorno de Simulador para pruebas se desactivara tras cargar el certificado de una propiedad móvil recién creada y salir de la página de propiedades de la aplicación móvil.
 * Se ha corregido un problema que impedía enriquecer el contenido de un mensaje transaccional con información del recurso de servicio. (CAMP-33707)
-* Se ha corregido un problema en las páginas de aterrizaje de lista de bloques que se producía al intentar cancelar la suscripción de perfiles de un servicio.
+* Se ha corregido un problema en las páginas de aterrizaje de lista de bloqueados que se producía al intentar cancelar la suscripción de perfiles de un servicio.
 
 ## Versión 19.2: mayo de 2019 {#release-19-2---may-2019}
 
@@ -617,7 +617,7 @@ Se han añadido varias mejoras al canal de mensajería transaccional para optimi
 * Se ha corregido un problema en el editor de consultas con la condición de unión entre el registro de banda ancha y el registro de seguimiento para rtEvent. (CAMP-28780)
 * Se ha corregido un problema que impedía guardar las modificaciones de la opción de página de aterrizaje &quot;Acción específica&quot;. (CAMP-29422)
 * Se ha corregido un problema que impedía exportar la carga útil de un evento en un flujo de trabajo. (CAMP-29029)
-* Se ha corregido un problema que impedía que los números SMS de la lista de bloques se excluyeran en un mensaje SMS. (CAMP-28898)
+* Se ha corregido un problema que impedía que los números SMS de la lista de bloqueados se excluyeran en un mensaje SMS. (CAMP-28898)
 * Se ha corregido un problema que podía impedir que se notificara a los proveedores de SMPP en caso de error al procesar los mensajes entrantes. (CAMP-29804)
 * Se ha corregido un problema que permitía eliminar cuentas externas con envíos asociados. (CAMP-29738)
 * Se ha mejorado y estabilizado el rendimiento de envío de mensajes SMS.
