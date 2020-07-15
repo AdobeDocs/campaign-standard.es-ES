@@ -12,7 +12,7 @@ discoiquuid: f67e69f2-09fb-4f33-b2c3-c67a060743e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: bd74905985734412b4fb11ad11d70faf9fcc9ca6
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 1%
@@ -39,7 +39,7 @@ Siga los pasos descritos en [Creación de un activador asignado en Campaña](../
 Si se crea el activador, continúe con el paso siguiente. Si no es así, significa que la conexión del punto final del activador ha fallado. Compruebe si Triggers está aprovisionado en Experience Cloud (servicios de Activación). Si no es así, póngase en contacto con el ejecutivo o el socio de servicios profesionales de su cuenta de Adobe. Se requiere la siguiente información:
 
 * Nombre de Compañía de Marketing Cloud
-* ID DE ORIGEN DE IMS
+* ID de organización de IMS
 * Compañía de inicio de sesión de Analytics (puede ser la misma que el nombre de Compañía de Marketing Cloud)
 
 **Intente publicar el activador**
@@ -77,7 +77,7 @@ Si es así, siga estas líneas de guía:
 Si no es así, continúe con el paso siguiente. Si es así, siga estas líneas de guía:
 
 * Compruebe que la plantilla de transacción está publicada.
-* Compruebe que el perfil no está en la lista de bloques.
+* Compruebe que el perfil no está en lista de bloqueados.
 * Compruebe la aplicación de reglas de tipología.
 * Compruebe los registros del mensaje transaccional.
 
