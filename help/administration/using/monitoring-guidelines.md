@@ -1,0 +1,84 @@
+---
+title: Directrices de monitorización
+description: Esta sección presenta las directrices generales para la monitorización del Campaign Standard.
+page-status-flag: never-activated
+uuid: cf0d782d-47bf-40ae-ab6f-d1d47fa15792
+contentOwner: sauviat
+products: SG_CAMPAIGN/CLASSIC
+audience: production
+content-type: reference
+topic-tags: introduction
+discoiquuid: 8b33e6af-15c3-4b30-8ad6-d76a1f33be21
+index: y
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: b4bac585ec25340d1f1d047f9a1f8dcd8e243821
+workflow-type: tm+mt
+source-wordcount: '496'
+ht-degree: 9%
+
+---
+
+
+# Directrices de monitorización {#monitoring-guidelines}
+
+<table>
+<tr><td><img src="assets/do-not-localize/icon_system.svg" width="60px"><p><a href="#monitoring-system">Monitoreo del sistema</a></p></td>
+<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#moniroting-workflows">Monitorización de flujos de trabajo</a></p></td>
+<td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#monitoring-deliveries">Seguimiento de entregas</a></p></td></tr>
+</table>
+
+Campaign Standard proporciona varias formas de monitorear las instancias para asegurarse de que el sistema está en buen estado y, finalmente, solucionar los problemas que pueden producirse al configurar flujos de trabajo, enviar envíos, etc.
+
+## Monitoreo del sistema {#monitoring-system}
+
+<img src="assets/do-not-localize/icon_system.svg" width="60px">
+
+**La interfaz de Campaign Standard de notificaciones** del sistema proporciona un panel de notificaciones que le permite estar informado de lo que sucede en el sistema: estados de eventos, actualizaciones del sistema, acción requerida, etc. [Más información](../../start/using/interface-description.md#top-bar)
+
+
+**Los** Flujos de trabajo técnicos de Flujos de trabajo técnicos son operaciones o trabajos programados para ejecutarse de forma regular en el servidor. Para asegurarse de que la instancia está sana y funciona correctamente, debe asegurarse de que siempre está funcionando. [Más información](../../administration/using/technical-workflows.md)
+
+**Panel de control de Campaign** El Panel de control de Campaign le permite administrar varias configuraciones de la instancia: Permisos de URL, compruebe los detalles de la instancia como las versiones de compilación de los servidores, supervise el uso de perfiles activos, etc. También permite supervisar el espacio disponible en los servidores SFTP conectados a la instancia. [Más información](https://docs.adobe.com/content/help/es-ES/control-panel/using/control-panel-home.html).
+
+>[!NOTE]
+>
+>Tenga en cuenta que el Panel de control de Campaign solo está disponible para los usuarios administradores y para todos los clientes que utilicen Adobes Managed Services.
+
+**Objetos** técnicos El **[!UICONTROL Diagnosis]** menú es una herramienta clave para monitorear y analizar los diferentes objetos técnicos generados por la aplicación: esquemas de datos, páginas web, trabajos por lotes, etc. [Más información](../../developing/using/monitoring-data-model-changes.md)
+
+**Las auditorías**de exportación permiten supervisar las exportaciones realizadas en las instancias: archivos cargados desde flujos de trabajo, exportaciones de listas y archivos descargados desde mensajes de correo directo.
+[Más información](../../administration/using/auditing-export-logs.md)
+
+**Licencias** Con el **[!UICONTROL Licenses]** menú, supervise la información sobre sus instancias: licencias instaladas, versiones de compilación y aceptaciones de acuerdos de términos.
+[Más información](../../administration/using/licenses.md)
+
+## Monitorización de flujos de trabajo {#monitoring-workflows}
+
+<img src="assets/do-not-localize/icon_workflows.svg" width="60px">
+
+**Prácticas recomendadas y solución de problemas**Las siguientes optimizaciones y directrices de solución de problemas al utilizar flujos de trabajo pueden ayudar a mejorar el rendimiento.
+[Más información](../../automating/using/best-practices-workflows.md)
+
+**Registros y tareas**La supervisión de registros de flujo de trabajo es un paso clave para analizar los flujos de trabajo y asegurarse de que se ejecutan correctamente.
+[Más información](../../automating/using/monitoring-workflow-execution.md#workflow-log-and-tasks)
+
+**El**Campaign Standard de notificaciones le permite enviar notificaciones a los supervisores para supervisar la ejecución de sus flujos de trabajo y ver si hay algún error que requiera su atención.
+[Más información](../../automating/using/monitoring-workflow-execution.md#error-management)
+
+## Seguimiento de entregas {#monitoring-deliveries}
+
+<img src="assets/do-not-localize/icon_send.svg" width="60px">
+
+**El Campaign Standard de entregabilidad**proporciona varias herramientas de entrega para ayudarle a mejorar el número de mensajes entregados correctamente: informes de perspectiva de envío, envío de optimización de tiempo, previsualización de mensajes, procesamiento de correo electrónico, administración de cuarentenas, etc.
+[Más información](../../sending/using/about-deliverability.md)
+
+**Envíos**Una vez enviados los mensajes, los registros detallados le permiten supervisar los envíos y medir el éxito de la campaña, así como también rastrear el comportamiento de los destinatarios de mensajes.
+[Más información](../../sending/using/monitoring-a-delivery.md)
+
+**Alerta**de Envío Con la función de alerta de Envío, puede configurar alertas que se enviarán automáticamente a un grupo de usuarios en relación con la ejecución de envíos: error de envío o preparación, tasa de devoluciones incorrecta, rendimiento bajo, etc.
+[Más información](../../sending/using/receiving-alerts-when-failures-happen.md)
+
+**sistema de informes**dinámico El sistema de informes dinámico proporciona varios informes que le ayudan a mantenerse informado del rendimiento de sus envíos: devoluciones, entregas más visualizadas por destinatarios, rendimiento de envíos, etc.
+[Más información](../../reporting/using/about-dynamic-reports.md)
