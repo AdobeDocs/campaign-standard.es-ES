@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4bf004b035c10ccbdb1ff9dc3fb51ddfdef54777
+source-git-commit: 06dde80beee2d13956f26a9f6ab8eae130fa83ff
 workflow-type: tm+mt
-source-wordcount: '5969'
-ht-degree: 20%
+source-wordcount: '6084'
+ht-degree: 19%
 
 ---
 
@@ -23,6 +23,16 @@ ht-degree: 20%
 # Actualizaciones de documentación{#documentation-updates}
 
 Además de las Notas [de la](../../rn/using/release-notes.md)versión de Adobe Campaign, esta página lista todas las nuevas actualizaciones en la documentación de Adobe Campaign Standard.
+
+## Actualizaciones de la documentación - Julio de 2020 {#doc-updates--july-2020}
+
+Se ha añadido una nueva sección con directrices relacionadas con la supervisión de Campaign Standard. [Más información](../../administration/using/monitoring-guidelines.md)
+
+Se ha actualizado la página Información general sobre administración de privacidad para incluir información sobre la Ley de Protección de Datos Personales de Tailandia (PDPA) y el Lei Geral de Proteção de Dados (LGPD) de Brasil. [Más información](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+
+La guía de canal móvil se ha reorganizado y mejorado. Se ha añadido una nueva guía Configuración de canales móviles con documentación técnica sobre la configuración móvil. [Más información](../../administration/using/push-tracking.md)
+
+Se ha actualizado la página Administración de privacidad en Campaign Standard, incluida una aclaración sobre cómo administrar las solicitudes de privacidad mediante la integración de Privacy Core Service. [Más información](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
 
 ## Actualizaciones de la documentación - Julio de 2020 {#doc-updates-july-2020}
 
@@ -34,7 +44,7 @@ Los casos de uso del flujo de trabajo se han actualizado y reorganizado en secci
 
 Se han agregado casos de uso sobre cómo [cifrar](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) y [descifrar](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) datos mediante el Panel de control de Campaign y los Flujos de trabajo de la campaña.
 
-Tanto los términos &quot;lista blanca&quot; como &quot;lista negra&quot; se han eliminado de la documentación de Adobe Campaign. Algunas incidencias de estos términos pueden seguir existiendo en la interfaz de usuario del producto, los nombres de las opciones y el código interno, pero se reemplazarán en próximas versiones de Campaign con &quot;lista de bloqueados&quot; y &quot;lista de permitidos&quot;.
+Tanto los términos &quot;lista blanca&quot; como &quot;lista negra&quot; se han eliminado de la documentación de Adobe Campaign. Podría seguir habiendo algunos casos en los que aparezcan estos términos en la interfaz de usuario del producto, los nombres de opciones y el código interno, pero se reemplazarán en próximas versiones de Campaign con &quot;lista de bloqueados&quot; y &quot;lista de permitidos&quot;.
 
 Las referencias al sitio web de asistencia heredado se han sustituido por la nueva dirección URL. [Más información](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
 
@@ -264,7 +274,7 @@ Se ha añadido una nueva sección con casos de uso en flujos de trabajo centrado
 
 Se ha agregado un procedimiento en la sección de solución de problemas del flujo de trabajo sobre cómo mostrar consultas SQL en la ficha Registro. [Más información](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
-Se ha agregado un nuevo artículo de ayuda, con información relacionada con la administración de subdominios y certificados dentro del Panel de control. [Más información](https://docs.adobe.com/content/help/es-ES/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
+Se ha agregado un nuevo artículo de ayuda con información relacionada con la administración de subdominios y certificados dentro del Panel de control de Campaign. [Más información](https://docs.adobe.com/content/help/es-ES/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
 
 Se ha actualizado la sección que describe los fragmentos y las plantillas de contenido. [Más información](../../designing/using/using-reusable-content.md#content-templates)
 
@@ -812,7 +822,7 @@ Se han actualizado numerosas capturas de pantalla para reflejar los cambios en l
 
 Ahora hay disponible una nueva nota técnica: &quot;Integración del SDK de Adobe Mobile con su aplicación móvil&quot;. [Más información](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
 
-Instrucciones para configurar el servicio principal Personas o la integración de Audience Manager con Adobe Campaign havget-started-Communication-canales.mdegrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+Se han añadido instrucciones para configurar el servicio principal Personas o la integración de Audience Manager con Adobe Campaign. [Más información](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 Se ha revisado la tabla de autorizaciones para que la función de ciertos roles sea más clara. [Más información](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
