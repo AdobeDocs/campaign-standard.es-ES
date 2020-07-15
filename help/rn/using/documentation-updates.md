@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c4cfd36d54044b5988ec2160ba695921fc9d9920
+source-git-commit: 979ddba984bd564bf60b42973c857f2b896eeaf6
 workflow-type: tm+mt
-source-wordcount: '6092'
+source-wordcount: '6089'
 ht-degree: 19%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 19%
 
 Además de las Notas [de la](../../rn/using/release-notes.md)versión de Adobe Campaign, esta página lista todas las nuevas actualizaciones en la documentación de Adobe Campaign Standard.
 
-## Actualizaciones de la documentación - Julio de 2020 {#doc-updates--july-2020}
+## Actualizaciones de la documentación - Julio de 2020 {#doc-updates-july-2020}
 
 Se ha añadido una nueva sección con directrices relacionadas con la supervisión de Campaign Standard. [Más información](../../administration/using/monitoring-guidelines.md)
 
-Se han actualizado las protecciones de API externas.[Más información](../../automating/using/external-api.md)
+Se han actualizado las protecciones de API externas. [Más información](../../automating/using/external-api.md)
 
 Se ha actualizado la página Información general sobre administración de privacidad para incluir información sobre la Ley de Protección de Datos Personales de Tailandia (PDPA) y el Lei Geral de Proteção de Dados (LGPD) de Brasil. [Más información](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
@@ -36,9 +36,7 @@ La guía de canal móvil se ha reorganizado y mejorado. Se ha añadido una nueva
 
 Se ha actualizado la página Administración de privacidad en Campaign Standard, incluida una aclaración sobre cómo administrar las solicitudes de privacidad mediante la integración de Privacy Core Service. [Más información](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
 
-## Actualizaciones de la documentación - Julio de 2020 {#doc-updates-july-2020}
-
-Nuevas funciones de correo electrónico con AI: optimización del tiempo de envío y puntuación de perfiles [Leer más](../../sending/using/predictive.md)
+Nuevas funciones de correo electrónico con AI: envíe la optimización del tiempo y la puntuación del perfil. [Más información](../../sending/using/predictive.md)
 
 ## Actualizaciones de la documentación - Junio de 2020 {#doc-updates-june-2020}
 
