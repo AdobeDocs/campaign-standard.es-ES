@@ -12,7 +12,7 @@ discoiquuid: 4163dc0c-8103-4425-b8bf-7aa45c4d3a06
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: bd74905985734412b4fb11ad11d70faf9fcc9ca6
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 2%
@@ -29,7 +29,7 @@ Adobe debe activar la funcionalidad en Adobe Campaign. Póngase en contacto con 
 El equipo de Adobe necesitará la siguiente información para activar activadores:
 
 * Nombre de Compañía de Marketing Cloud
-* ID DE ORIGEN DE IMS
+* ID de organización de IMS
 * Compañía de inicio de sesión de Analytics (puede ser la misma que el nombre de Compañía de Marketing Cloud)
 
 ## Configuración de soluciones y servicios {#configuring-solutions-and-services}
@@ -106,7 +106,7 @@ Consulte la documentación [de](https://docs.adobe.com/content/help/en/core-serv
 
 Esta es una lista de las prácticas recomendadas y las limitaciones para el uso de la Campaña: Desencadena la integración:
 
-* Si tiene varias instancias de Campaign Standard, todos los casos pueden recibir activadores siempre que estén en el mismo ID de organización de IMS. Analytics también debe estar en el mismo ID de organización de IMS.
+* Si tiene varias instancias de Campaign Standard, todas las instancias pueden recibir activadores siempre que estén en el mismo ID de organización de IMS. Analytics también debe estar en el mismo ID de organización de IMS.
 * No se puede crear un activador en el servicio principal de activación con eventos de dos grupos de informes diferentes.
 * Los activadores se basan en mensajes transaccionales. Los Mensajes transaccionales se utilizan siempre que se tiene que enviar un mensaje muy rápido. No se pueden poner en cola mensajes transaccionales y, a continuación, reproducirlos por lotes.
 * Los activadores no son de naturaleza determinística. Cuando se genera un activador, envía todos los alias asociados con la cookie, de modo que en el caso de exploradores compartidos como en quioscos de venta minorista, bibliotecas, cibercafés o dispositivos compartidos en casa (marido y mujer que inician sesión desde el mismo dispositivo), no es posible asignar el ID correcto. Todos los ID utilizados para iniciar sesión con el navegador se envían a Campaña, que envía un mensaje en función de la primera reconciliación. Si hay varios &quot;ID de correo electrónico&quot; que pueden conciliarse, la Campaña no envía un mensaje de correo electrónico. No hay forma de que la Campaña sepa cuál es el ID de correo electrónico correcto a menos que Analytics lo capture y envíe.
