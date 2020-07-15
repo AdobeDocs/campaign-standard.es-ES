@@ -13,7 +13,7 @@ context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: b7775e1d95e6a7e08b38fc65b44a061eda7ff079
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 0%
@@ -56,11 +56,11 @@ El modelo de datos predeterminado de Adobe Campaign se presenta en esta [secció
 
 <!--### What is a customer? {#customer-definition}
 
-If you have customer data in more than one system, you need to determine which solution will allow you to identify records as one person. This work might require rules, eventually a match and merge processes to determine the master record. This master record should be the one sent to Adobe Campaign.
+If you have customer data in more than one system, you need to determine which solution will allow you to identify records as one person. This work might require rules, eventually a match and merge processes to determine the primary record. This primary record should be the one sent to Adobe Campaign.
 
 While some of this data cleansing might be performed in Adobe Campaign, the recommendation is to run these processes outside and only import clean data in Adobe Campaign. You should keep Campaign as a marketing solution more than a data cleansing tool.
 
-Be able to provide a master customer record which will be sent to Adobe Campaign.-->
+Be able to provide a primary customer record which will be sent to Adobe Campaign.-->
 
 ### Datos para Adobe Campaign {#data-for-campaign}
 
@@ -68,7 +68,7 @@ Be able to provide a master customer record which will be sent to Adobe Campaign
 
 >[!NOTE]
 >
->Adobe Campaign no es un almacén de datos. Por lo tanto, no intente importar en Adobe Campaign todos los clientes posibles y su información asociada.
+>El Adobe Campaign no es una data warehouse. Por lo tanto, no intente importar en Adobe Campaign todos los clientes posibles y su información asociada.
 
 Para tomar la decisión de si un atributo sería necesario o no en Adobe Campaign, determine si se incluiría en una de estas categorías:
 * Atributo utilizado para la **segmentación**
