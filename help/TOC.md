@@ -4,10 +4,10 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Ayuda de Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 4bf004b035c10ccbdb1ff9dc3fb51ddfdef54777
+source-git-commit: 06dde80beee2d13956f26a9f6ab8eae130fa83ff
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 84%
+source-wordcount: '1557'
+ht-degree: 83%
 
 ---
 
@@ -92,9 +92,6 @@ ht-degree: 84%
       + [Creación de una notificación push multilingüe](channels/using/creating-a-multilingual-push-notification.md)
       + [Generación de un archivo CSV para notificaciones push multilingües](channels/using/generating-csv-multilingual-push.md)
       + [Creación y actualización de información de perfil basada en datos de aplicaciones móviles](channels/using/updating-profile-with-mobile-app-data.md)
-      + [Implementación del seguimiento push](channels/using/push-tracking.md)
-      + [Mostrar una imagen desde una notificación push de Adobe Campaign Standard](channels/using/image-push-notification.md)
-      + [Explicación de la estructura de carga útil de las notificaciones push de Campaign Standard](channels/using/push-payload.md)
    + Mensajería en la aplicación {#in-app-messaging}
       + [Acerca de la mensajería en la aplicación](channels/using/about-in-app-messaging.md)
       + [Preparación y envío de un mensaje en la aplicación](channels/using/preparing-and-sending-an-in-app-message.md)
@@ -317,6 +314,7 @@ ht-degree: 84%
          + [Enlace de envíos de correo electrónico y correo directo](automating/using/coupling-email-direct-mail.md)
          + [Envío de un correo electrónico con campos enriquecidos](automating/using/sending-email-enriched-fields.md)
          + [Personalización de un correo electrónico con datos adicionales](automating/using/personalizing-email-with-additional-data.md)
+         + [Envío de una notificación push recurrente](automating/using/recurring-push-notifications.md)
       + Segmentación y direccionamiento {#segmentation-targeting}
          + [Ejemplos de consultas](automating/using/query-samples.md)
          + [Unión en dos audiencias refinadas](automating/using/union-on-two-refined-audiences.md)
@@ -388,6 +386,7 @@ ht-degree: 84%
       + [Activación de la ingesta de datos mediante API](developing/using/aep-triggering-data-ingestion.md)
 + Administración {#administrating}
    + [Introducción a la administración de Campaign Standard](administration/using/get-started-campaign-administration.md)
+   + [Directrices de monitorización](administration/using/monitoring-guidelines.md)
    + [Directrices de configuración](administration/using/about-configuration-guidelines.md)
    + Usuarios y seguridad {#users-and-security}
       + [Acerca de la administración de acceso](administration/using/about-access-management.md)
@@ -403,6 +402,13 @@ ht-degree: 84%
       + [Configuración de canales de SMS](administration/using/configuring-sms-channel.md)
       + [Configuración de una aplicación móvil](administration/using/configuring-a-mobile-application.md)
       + [Configuración de la mensajería transaccional](administration/using/configuring-transactional-messaging.md)
+   + Configuración de canales móviles {#configuring-mobile}
+      + [Implementación del seguimiento push](administration/using/push-tracking.md)
+      + [Mostrar una imagen desde una notificación push de Adobe Campaign Standard](administration/using/image-push-notification.md)
+      + [Explicación de la estructura de carga útil de las notificaciones push de Campaign Standard](administration/using/push-payload.md)
+      + [Implementación del seguimiento de notificaciones locales](administration/using/local-tracking.md)
+      + [Preguntas más frecuentes sobre el flujo de trabajo técnico de SyncWithLaunch](administration/using/syncwithlaunch-faq.md)
+      + [Preguntas más frecuentes sobre la integración de Adobe Experience Platform SDK y Adobe Campaign](administration/using/aep-faq.md)
    + Ajustes de la aplicación {#application-settings}
       + [Acerca de la configuración de Campaign Standard](administration/using/about-campaign-standard-settings.md)
       + [Cuentas externas](administration/using/external-accounts.md)
