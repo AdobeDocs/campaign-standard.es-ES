@@ -10,9 +10,9 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cad3a63d3e0dd94e4e308110996ed15c75beb904
+source-git-commit: bb023ce5f716ffca0f94922de86cda5a8878d470
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1748'
 ht-degree: 0%
 
 ---
@@ -58,16 +58,15 @@ A continuación, vuelva a configurar otras actividades en el flujo de trabajo qu
 
 Esta actividad se rige por las siguientes medidas de protección:
 
-* Límite de tamaño de datos de respuesta http de 5 MB
-* El tiempo de espera de la solicitud es de 1 minuto
+* Límite de tamaño de datos de respuesta http de 50 MB (se recomiendan 5 MB)
+* El tiempo de espera de la solicitud es de 10 minutos
 * No se permiten redirecciones HTTP
 * Se rechazan las direcciones URL que no son HTTPS
 * &quot;Aceptar: application/json&quot; y &quot;Content-Type: el encabezado de respuesta &quot;application/json&quot; está permitido
 
->[!CAUTION]
+>[!NOTE]
 >
->Tenga en cuenta que la actividad está diseñada para obtener datos de toda la campaña (último conjunto de ofertas, puntuaciones más recientes, etc.), no para recuperar información específica para cada perfil, ya que esto puede resultar en la transferencia de grandes cantidades de datos. Si el caso de uso lo requiere, se recomienda utilizar la actividad [Transferir archivo](../../automating/using/transfer-file.md) .
-
+>A partir de la versión 20.4 de la Campaña, el límite de tamaño de los datos de respuesta http y las protecciones se reducirán a 5 MB y 1 minuto.  Aunque este cambio solo afectará a las nuevas actividades de API externas, se recomienda que las implementaciones actuales de la actividad de API externa se alineen con estas nuevas protecciones para seguir las optimizaciones.
 
 Se han establecido medidas de protección específicas para el JSON:
 
@@ -75,12 +74,14 @@ Se han establecido medidas de protección específicas para el JSON:
 * **Longitud** máxima de clave JSON: limitar la longitud máxima de la clave interna generada a 255. Esta clave está asociada con el ID de columna.
 * **Se permiten** las claves de Duplicado máximas de JSON:  limitar el número total máximo de nombres de propiedades JSON de duplicado, que se utilizan como ID de columna, a 150.
 
-
 La actividad no es compatible con la estructura JSON como:
 
 * Combinación de objetos de matriz con otros elementos que no son de matriz
 * El objeto de matriz JSON está anidado en uno o varios objetos de matriz intermedios.
 
+>[!CAUTION]
+>
+>La actividad de API externa está pensada para obtener datos de toda la campaña (último conjunto de ofertas, puntuaciones más recientes, etc.), no para recuperar información específica para cada perfil, ya que esto puede resultar en la transferencia de grandes cantidades de datos. Si el caso de uso lo requiere, se recomienda utilizar la actividad [Transferir archivo](../../automating/using/transfer-file.md) .
 
 ## Configuración {#configuration}
 
