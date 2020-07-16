@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 979ddba984bd564bf60b42973c857f2b896eeaf6
+source-git-commit: a1f15808bd892305282b838bebbc8fa1ce58283e
 workflow-type: tm+mt
-source-wordcount: '6089'
+source-wordcount: '6092'
 ht-degree: 19%
 
 ---
@@ -28,7 +28,7 @@ Además de las Notas [de la](../../rn/using/release-notes.md)versión de Adobe C
 
 Se ha añadido una nueva sección con directrices relacionadas con la supervisión de Campaign Standard. [Más información](../../administration/using/monitoring-guidelines.md)
 
-Se han actualizado las protecciones de API externas. [Más información](../../automating/using/external-api.md)
+Se ha actualizado la sección de limitaciones y protecciones de API externas.[Más información](../../automating/using/external-api.md#guardrails)
 
 Se ha actualizado la página Información general sobre administración de privacidad para incluir información sobre la Ley de Protección de Datos Personales de Tailandia (PDPA) y el Lei Geral de Proteção de Dados (LGPD) de Brasil. [Más información](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
