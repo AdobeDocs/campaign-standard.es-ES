@@ -4,10 +4,10 @@ solution: Campaign Standard
 title: Documentación del producto de Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 7ceca9dbdd33d3186f476be8ecb5871e5c1d9c9c
+source-git-commit: ddf585def583acefbb25e7a48318966cd2af49a7
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 91%
+source-wordcount: '212'
+ht-degree: 80%
 
 ---
 
@@ -18,12 +18,13 @@ ht-degree: 91%
 
 ## Novedades
 
+* **[Correos electrónicos](sending/using/predictive.md)**<br/>con tecnología AI Optimice el diseño y el envío con correos electrónicos con tecnología AI
+
 * **[Administración de privacidad](https://helpx.adobe.com/es/campaign/kb/campaign-privacy.html)**<br/> Obtenga información sobre las herramientas proporcionadas por Adobe Campaign para ayudarle a cumplir con la privacidad
 
 * **[API](automating/using/external-api.md)**<br/>externa Utilice la actividad de API externa para introducir datos en el flujo de trabajo desde un sistema externo
 
-* **[Guía móvil de Campaign Standard](https://helpx.adobe.com/es/campaign/kb/acs-mobile.html)**<br/>
-Obtenga más información sobre las directrices generales para envíos móviles
+* **[Introducción a los envíos](https://helpx.adobe.com/es/campaign/kb/acs-mobile.html)**<br/> móviles Obtenga más información sobre las directrices generales para envíos móviles (SMS, push, en la aplicación)
 
 [Haga clic aquí para obtener más actualizaciones](rn/using/documentation-updates.md)
 
