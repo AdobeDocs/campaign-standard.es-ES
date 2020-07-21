@@ -13,7 +13,7 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
+source-git-commit: f00c5cd2f6642048ebd056dcaf5a156f8cf7ca18
 workflow-type: tm+mt
 source-wordcount: '1559'
 ht-degree: 25%
@@ -86,13 +86,13 @@ Para evitar estos problemas, Adobe recomienda seguir las prácticas recomendadas
 * Inicie sesión ocasionalmente en el SFTP para comprobar directamente lo que sucede allí.
 * Recuerde que la gestión de discos SFTP es responsabilidad principalmente suya.
 
-Además, tenga en cuenta que las direcciones IP públicas desde las que intenta iniciar la conexión SFTP deben agregarse a la lista de permitidas en la instancia de Campaña. Añadir direcciones IP a la lista de permitidos se puede solicitar mediante un ticket [de](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html)soporte, junto con proporcionar la clave pública que se usará para la autenticación.
+Además, tenga en cuenta que las direcciones IP públicas desde las que intenta iniciar la conexión SFTP deben agregarse a la lista de permitidos en la instancia de Campaña. Se puede solicitar la Añade de direcciones IP a la lista de permitidos mediante un ticket [de](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html)asistencia, junto con la provisión de la clave pública que se usará para la autenticación.
 
-Los servidores SFTP se pueden administrar desde el Panel de control. For more information, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/es-ES/control-panel/using/sftp-management/about-sftp-management.html).
+Los servidores SFTP se pueden administrar desde el Panel de control de Campaign. For more information, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/es-ES/control-panel/using/sftp-management/about-sftp-management.html).
 
 >[!NOTE]
 >
->El Panel de control solo está disponible para los usuarios administradores de clientes alojados en AWS.
+>Panel de control de Campaign solo está disponible para los usuarios administradores de clientes alojados en AWS.
 Compruebe si la instancia está alojada en AWS [aquí](https://docs.adobe.com/content/help/es-ES/control-panel/using/faq.html#ims-org-id).
 
 ## cuenta externa Amazon S3 {#amazon-s3-external-account}
@@ -133,7 +133,9 @@ Al configurar esta nueva cuenta externa, debe proporcionar los siguientes detall
 
 * Servidor: introduzca la dirección URL del servidor de Adobe Experience Manager. Por ejemplo:
 
-   ``` http://aem.domain.com:4502 ```
+   ```
+   http://aem.domain.com:4502
+   ```
 
 * Credenciales de cuenta de AEM: utilice la cuenta que accederá a la instancia de Adobe Experience Manager. Debe ser parte de la cuenta del grupo remoto de campañas en Experience Manager.
 
