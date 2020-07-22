@@ -1,6 +1,6 @@
 ---
-title: Acerca de la administración de acceso
-description: Administre los operadores de Adobe Campaign mediante funciones, grupos y unidades organizativas.
+title: Preguntas más frecuentes sobre el flujo de trabajo técnico de sincronización con Launch
+description: Preguntas frecuentes sobre el flujo de trabajo técnico de Launch.
 page-status-flag: never-activated
 uuid: 4f538452-cc67-4e03-9e2f-2d9eecc081c7
 contentOwner: sauviat
@@ -12,19 +12,19 @@ discoiquuid: 54028f63-c9ca-4397-a079-e27e0cfdebf6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0a0c59763af8babc9701206cc39fe41b98e0cd4
+source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 2%
+source-wordcount: '513'
+ht-degree: 1%
 
 ---
 
 
-# Preguntas más frecuentes sobre el flujo de trabajo técnico de SyncWithLaunch {#syncwithlaunch-faq}
+# Preguntas más frecuentes sobre el flujo de trabajo técnico de sincronización con Launch {#syncwithlaunch-faq}
 
-El flujo de trabajo permite la importación automática en Adobe Campaign Standard de todas las propiedades móviles de Adobe Launch **[!UICONTROL Sync with Launch]** .
+Puede importar las propiedades móviles de Adobe Launch en Adobe Campaign Standard mediante el flujo de trabajo técnico **[!UICONTROL Sync with Launch]** dedicado. Para obtener más información, consulte esta [página](../../administration/using/technical-workflows.md)
 
-Para obtener más información, consulte esta [página](../../administration/using/technical-workflows.md).
+La sección siguiente lista preguntas comunes sobre esta sincronización.
 
 >[!NOTE]
 >
