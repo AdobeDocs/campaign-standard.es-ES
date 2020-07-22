@@ -12,15 +12,32 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0a0c59763af8babc9701206cc39fe41b98e0cd4
+source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
 
 
-# Preguntas más frecuentes sobre la integración de Adobe Experience Platform SDK y Adobe Campaign {#aep-faq}
+# Introducción al SDK y Campaign Standard de Adobe Experience Platform {#aep-faq}
+
+Para enviar notificaciones push y mensajes en la aplicación con la aplicación SDK de Experience Platform, se debe configurar una aplicación móvil en el SDK de Adobe Experience Platform y en Adobe Campaign.
+
+La sección siguiente lista preguntas comunes sobre esta sincronización.
+
+Para obtener más información sobre la inserción o la aplicación, consulte las siguientes preguntas frecuentes:
+
+* [Preguntas más frecuentes sobre notificaciones Push](../../channels/using/about-push-notifications.md#push-faq)
+* [Preguntas más frecuentes en la aplicación](../../channels/using/about-push-notifications.md#in-app-faq)
+* [Preguntas más frecuentes sobre el flujo de trabajo técnico de sincronización con Launch](../../administration/using/syncwithlaunch-faq.md)
+
+## Recursos útiles antes de comenzar {#resource-mobile-property}
+
+Consulte los siguientes recursos para obtener más información sobre el SDK de Adobe Experience Platform y la integración de Campaign Standard:
+
+* Vídeo de [información general de inicio y dispositivos móviles](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video)
+* Guía de [sugerencias y trucos de inicio y dispositivos móviles](https://www.adobe.com/content/dam/www/us/en/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
 
 ## ¿Está disponible la integración del SDK de Adobe Experience Platform tanto para Adobe Campaign Standard como para Adobe Campaign Classic? {#aep-validity}
 
@@ -81,13 +98,6 @@ La frecuencia y el diseño de las llamadas CollectPII deben estar dictados por n
 ### Cuando intento acceder a las aplicaciones de Adobe Experience Platform en Campaña o en Launch, a veces aparece un error de propiedad no disponible. {#aep-error}
 
 Se trata de un problema conocido que se produce debido a la caducidad del token. Debe intentar iniciar sesión y cerrar sesión.
-
-## ¿Cuáles serían algunas recomendaciones de recursos útiles para obtener más información sobre la configuración de propiedades móviles en Inicio de Adobe Experience Platform? {#resource-mobile-property}
-
-Consulte los siguientes recursos:
-
-* Vídeo de [información general de inicio y dispositivos móviles](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video)
-* Guía de [sugerencias y trucos de inicio y dispositivos móviles](https://www.adobe.com/content/dam/www/us/en/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
 
 ## ¿Cuáles serían algunas recomendaciones útiles de recursos para obtener más información sobre el SDK de Adobe Experience Platform (anteriormente conocido como SDK V5)?{#resource-aep}
 
