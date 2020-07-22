@@ -10,9 +10,9 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bb023ce5f716ffca0f94922de86cda5a8878d470
+source-git-commit: 3bd2fdb56fc94cef4e9c21466a33cdad7ac825d2
 workflow-type: tm+mt
-source-wordcount: '1748'
+source-wordcount: '1754'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Esta actividad se rige por las siguientes medidas de protección:
 
 >[!NOTE]
 >
->A partir de la versión 20.4 de la Campaña, el límite de tamaño de los datos de respuesta http y las protecciones se reducirán a 5 MB y 1 minuto.  Aunque este cambio solo afectará a las nuevas actividades de API externas, se recomienda que las implementaciones actuales de la actividad de API externa se alineen con estas nuevas protecciones para seguir las optimizaciones.
+>A partir de la versión 20.4 de Campaña, el límite de tamaño de datos de respuesta http y las protecciones de tiempo de espera de respuesta se reducirán a 5 MB y 1 minuto, respectivamente.  Aunque este cambio solo afectará a las nuevas actividades de API externas, se recomienda enfáticamente que las implementaciones actuales de la actividad de API externa se alineen con estas nuevas protecciones para seguir las optimizaciones.
 
 Se han establecido medidas de protección específicas para el JSON:
 
