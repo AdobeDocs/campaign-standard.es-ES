@@ -13,9 +13,9 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
+source-git-commit: cf43edcacbab9f1f33ce29e23c0957d8bfa64e7d
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '428'
 ht-degree: 8%
 
 ---
@@ -37,7 +37,7 @@ Un administrador de la interfaz de Adobe Campaign debe configurar las aplicacion
 
 Al configurar Adobe Campaign y Adobe Mobile Services, podrá utilizar los datos de su aplicación móvil para sus campañas. Para obtener más información, consulte [esta página](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
-Para enviar notificaciones push con una aplicación Experience Cloud SDK, se debe configurar una aplicación móvil en Inicio de Adobe Experience Platform y en Adobe Campaign. Para obtener más información, consulte [esta página](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
+Para enviar notificaciones push con una aplicación de SDK de Experience Cloud, una aplicación móvil debe configurarse en Adobe Experience Platform Launch y en Adobe Campaign. Para obtener más información, consulte [esta página](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
 
 ## Paso 2: Personalice la notificación push en Adobe Campaign {#customize-push}
 
@@ -64,9 +64,9 @@ Después de personalizar la notificación push en Adobe Campaign, debe configura
 
 Si la aplicación se encuentra en [!DNL Swift], siga los pasos a continuación:
 
-1. Abra el proyecto [DNL Xcode] .
+1. Abra el [!DNL Xcode] proyecto.
 
-1. En su proyecto [DNL Xcode] , seleccione **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**.
+1. En el [!DNL Xcode] proyecto, seleccione **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**.
 
 1. Seleccione **[!UICONTROL Notification Service Extension]**.
 
