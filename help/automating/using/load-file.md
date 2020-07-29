@@ -13,9 +13,9 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
+source-git-commit: 9a4c2219d5f8b312deb476d852cf5db9cd19afcb
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1364'
 ht-degree: 11%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 11%
 # Cargar archivo {#load-file}
 
 ## Descripción {#description}
+
+>[!CAUTION]
+>
+>Tenga en cuenta los límites de almacenamiento SFTP, Almacenamiento de base de datos y perfil activo según el contrato de AdobeCampaign mientras utiliza esta funcionalidad.
 
 ![](assets/data_loading.png)
 
@@ -154,6 +158,7 @@ El formato de columna permite definir el valor de procesamiento de cada columna:
    * **[!UICONTROL Use a default value]**: reemplaza el valor que provoca el error con un valor predeterminado definido en el campo **[!UICONTROL Default value]**.
    * **[!UICONTROL Use a default value in case the value is not remapped]**:: reemplaza el valor que causa el error por un valor predeterminado, definido en el **[!UICONTROL Default value]** campo, a menos que se haya definido una asignación para el valor erróneo (consulte la **[!UICONTROL Remapping of values]** opción anterior).
    * **[!UICONTROL Reject the line when there is no remapping value]**:: la línea completa no se procesa a menos que se haya definido una asignación para el valor erróneo (consulte la **[!UICONTROL Remapping of values]** opción anterior).
+
    >[!NOTE]
    >
    >**[!UICONTROL Error processing]** se refieren a errores relacionados con los valores del archivo importado. Por ejemplo, se encontró un tipo de datos defectuoso (&quot;cuatro&quot; en letras para una columna &quot;Entero&quot;), una cadena que contiene más caracteres que el número máximo autorizado, una fecha con separadores defectuosos, etc. Sin embargo, esta opción no afecta a los errores generados por la administración de valores vacía.
