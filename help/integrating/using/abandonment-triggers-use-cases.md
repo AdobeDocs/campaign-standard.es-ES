@@ -1,62 +1,65 @@
 ---
 title: Ejemplos prácticos de activadores de abandono
-description: Descubra cómo utilizar la integración de Experience Cloud Triggers con estos distintos casos de uso.
-page-status-flag: nunca activado
+description: Aprenda a utilizar la integración de activadores de Experience Cloud con estos casos de uso.
+page-status-flag: never-activated
 uuid: 9e236165-afd5-4155-9151-c1941dc0af99
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: integrar
-content-type: referencia
-topic-tags: trabajar con campaña y activadores
+audience: integrating
+content-type: reference
+topic-tags: working-with-campaign-and-triggers
 discoiquuid: 1b9aeec5-70bb-4d72-a3e9-12342abf08f7
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+workflow-type: ht
+source-wordcount: '993'
+ht-degree: 100%
 
 ---
 
 
 # Ejemplos prácticos de activadores de abandono{#abandonment-triggers-use-cases}
 
-Esta sección presenta diferentes casos de uso que se pueden implementar mediante la integración entre Adobe Campaign y Experience Cloud Triggers. Encontrará dos ejemplos de casos de uso:
+Esta sección presenta diferentes casos de uso que se pueden implementar mediante la integración entre Adobe Campaign y los activadores de Experience Cloud. A continuación, tiene dos ejemplos de casos de uso:
 
-* [Desencadenador](#browse-abandonment-trigger)de abandono de exploración: enviar una comunicación a los clientes que abandonaron la visita en el sitio web.
-* [Activador](#search-abandonment-trigger)de abandono de búsqueda: vuelva a interactuar con los visitantes que realizaron una búsqueda en el sitio web, pero no realizaron una compra.
+* [Activador de abandono de exploración](#browse-abandonment-trigger): envíe una comunicación a los clientes que abandonaron la visita en el sitio web.
+* [Activador de abandono de búsqueda](#search-abandonment-trigger): vuelva a interactuar con visitantes que hayan realizado una búsqueda en su sitio web, pero que no hayan realizado una compra.
 
 >[!NOTE]
 >
->Los casos de uso descritos en esta sección se basan en el ID de visitante de Experience Cloud. También es posible implementarlos con el ID declarado de Experience Cloud. También se admiten los ID declarados con hash y cifrados. Puede enviar correos electrónicos/SMS a un perfil que no exista en Campaign descifrando directamente la dirección de correo electrónico o el número de móvil cifrados. Pero en este caso, no se puede utilizar la personalización mediante datos de perfil.
+>Los casos de uso descritos en esta sección se basan en el ID de visitante de Experience Cloud. También es posible implementarlos con el ID declarado de Experience Cloud. También se admiten los ID declarados con hash y cifrados. Puede enviar correos electrónicos o mensajes SMS a un perfil que no existe en Campaign descifrando directamente la dirección de correo electrónico o el número de teléfono móvil cifrados. Pero en este caso, no se puede utilizar la personalización mediante datos de perfil.
 
 ## Requisitos previos {#pre-requisites}
 
-Para que estos casos de uso se implementen, debe tener acceso a las siguientes soluciones/servicios principales:
+Para que estos casos de uso se implementen, debe tener acceso a las siguientes soluciones o servicios principales:
 
-* Espacio de trabajo de Adobe Campaign
+* Adobe Campaign
 * Adobe Analytics Ultimate, Premium, Foundation, OD, Select, Prime, Mobile Apps, Select o Standard.
-* Servicio principal de Experience Cloud Triggers
+* Servicio principal de los activadores de Experience Cloud
 * Servicio principal de DTM de Experience Cloud
-* ID de visitante de Experience Cloud y servicio principal Personas de Experience Cloud
+* El ID de visitante de Experience Cloud y el servicio principal People de Experience Cloud
 
 También necesita tener un sitio web de trabajo.
 
 Para obtener más información, consulte [Configuración de soluciones y servicios](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-solutions-and-services).
 
-## Explorar activador de abandono {#browse-abandonment-trigger}
+## Activador de abandono de exploración {#browse-abandonment-trigger}
 
-En este caso de uso, vamos a crear un activador simple que se activará cada vez que un cliente abandone una visita en el sitio web. En este ejemplo se asume que ya dispone de la DTM para recopilar y enviar datos a Adobe Analytics y que todos los eventos se han creado.
+En este caso de uso, vamos a crear un activador simple que se activa cada vez que un cliente abandone una visita en el sitio web. En este ejemplo se supone que ya dispone de la DTM para recopilar y enviar datos a Adobe Analytics y que tiene todos los eventos creados.
 
 ### Creación de un activador de Experience Cloud {#creating-an-experience-cloud-trigger}
 
-1. Seleccione **[!UICONTROL Manage Triggers]** en el menú Servicio principal de activación de Experience Cloud.
+1. Seleccione **[!UICONTROL Manage Triggers]** en el menú del servicio principal de activación de Experience Cloud.
 
    ![](assets/trigger_uc_browse_1.png)
 
-1. Elija un tipo de activador ( **[!UICONTROL Abandonment]** en nuestro caso de uso).
+1. Elija un tipo de activador (**[!UICONTROL Abandonment]** en nuestro caso de uso).
 
    ![](assets/trigger_uc_browse_2.png)
 
-1. Para este caso de uso, necesitamos un simple activador de abandono. El objetivo comercial es identificar a los visitantes que navegan por nuestro sitio web de reservación de viajes, que ven la página "Ofertas" pero no reservan ningún viaje. Una vez que identifiquemos a esta audiencia, queremos volver a contactarla en un corto período de tiempo. En este ejemplo, elegimos enviar el activador después de un período de 10 minutos.
+1. Para este caso de uso, necesitamos un activador de abandono simple. El objetivo comercial es identificar a los visitantes que navegan por nuestro sitio web de reservas de viajes, ven la página “Ofertas”, pero no reservan ningún viaje. Una vez que identificamos esta audiencia, queremos volver a contactarlos en un corto periodo de tiempo. En este ejemplo, elegimos enviar el activador después de un periodo de 10 minutos.
 
    ![](assets/trigger_uc_browse_3.png)
 
@@ -66,24 +69,24 @@ Ahora que hemos creado un activador de Experience Cloud, vamos a utilizarlo en A
 
 En Adobe Campaign, debe crear un activador vinculado al que ha creado en Experience Cloud.
 
-1. Para crear el activador en Adobe Campaign, haga clic en el **[!UICONTROL Adobe Campaign]** logotipo, en la esquina superior izquierda y, a continuación, seleccione **[!UICONTROL Marketing plans]** &gt; **[!UICONTROL Transactional messages]** &gt; **[!UICONTROL Experience Cloud triggers]**.
+1. Para crear el activador en Adobe Campaign, haga clic en el logotipo de **[!UICONTROL Adobe Campaign]**, en la esquina superior izquierda y, a continuación, seleccione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
 
    ![](assets/remarketing_1.png)
 
-1. Click **[!UICONTROL Create]**.
+1. Haga clic en **[!UICONTROL Create]**.
 1. Seleccione el activador que ha creado anteriormente y haga clic en **[!UICONTROL Next]**.
 
    ![](assets/trigger_uc_browse_5.png)
 
-1. Seleccione el **[!UICONTROL Email]** canal y la dimensión de **[!UICONTROL Real-time event]** objetivo y haga clic en **[!UICONTROL Create]**.
+1. Seleccione el canal **[!UICONTROL Email]** y la dimensión de segmentación **[!UICONTROL Real-time event]** y haga clic en **[!UICONTROL Create]**.
 
    ![](assets/trigger_uc_browse_6bis.png)
 
-1. Publicar el activador en Adobe Campaign. Este proceso creará automáticamente una plantilla de mensaje transaccional.
+1. Publique el activador en Adobe Campaign. Este proceso crea automáticamente una plantilla de mensaje transaccional.
 
    ![](assets/trigger_uc_browse_6.png)
 
-1. Para mostrar la plantilla de mensaje, haga clic en el **[!UICONTROL More]** botón, en la parte superior derecha, y luego haga clic en **[!UICONTROL Trigger Transactional Template]**.
+1. Para mostrar la plantilla de mensaje, haga clic en el botón **[!UICONTROL More]**, en la parte superior derecha, y luego haga clic en **[!UICONTROL Trigger Transactional Template]**.
 
 1. Personalice el contenido y los detalles del remitente.
 
@@ -95,7 +98,7 @@ En Adobe Campaign, debe crear un activador vinculado al que ha creado en Experie
 
 ### Ejecución del escenario {#running-the-scenario}
 
-1. Este caso de uso comienza con un mensaje de correo electrónico inicial enviado a la audiencia con Adobe Campaign.
+1. Este caso de uso comienza con un correo electrónico que se ha enviado a la audiencia correspondiente con Adobe Campaign.
 
    ![](assets/trigger_uc_browse_9.png)
 
@@ -103,42 +106,42 @@ En Adobe Campaign, debe crear un activador vinculado al que ha creado en Experie
 
    ![](assets/trigger_uc_browse_10.png)
 
-1. Él hace clic en un enlace que lo lleva a su sitio web. En este ejemplo, la pancarta lleva al destinatario a la página principal del sitio web de reservación de viajes.
+1. Este hace clic en un enlace que lo lleva a su sitio web. En este ejemplo, el banner lleva el destinatario a la página de inicio del sitio web de reservas de viajes.
 
    ![](assets/trigger_uc_browse_11.png)
 
-1. El destinatario va a la página "Ofertas" pero de repente detiene su visita. Tras un período de 10 minutos, Adobe Campaign desencadena el envío del mensaje transaccional.
+1. El destinatario va a la página “Ofertas”, pero de repente detiene su visita. Después de un periodo de 10 minutos, Adobe Campaign inicia el envío del mensaje transaccional.
 
    ![](assets/trigger_uc_browse_12.png)
 
-1. En cualquier momento, puede comprobar los registros de Experience Cloud para ver cuántas veces se activó el activador.
+1. En cualquier momento, puede comprobar los registros de Experience Cloud para ver cuántas veces se ha activado el activador.
 
    ![](assets/trigger_uc_browse_13.png)
 
-1. También puede mostrar el informe de activación de Adobe Campaign.
+1. También puede consultar el informe del activador en Adobe Campaign.
 
    ![](assets/trigger_uc_browse_14.png)
 
 ## Activador de abandono de búsqueda {#search-abandonment-trigger}
 
-En este caso de uso, vamos a crear un activador para volver a interactuar con los visitantes que fueron a nuestro sitio web de reservación de viajes, buscaron un destino, no encontraron resultados exitosos y no reservaron nada después de eso. El proceso general es el mismo que en el caso de uso anterior (consulte Activador de abandono de [exploración](#browse-abandonment-trigger)). Nos centraremos aquí en cómo personalizar el mensaje de correo electrónico de remercadotecnia.
+En este caso de uso, vamos a crear un activador para volver a conectar con visitantes que fueron a nuestro sitio web de reservas de viajes, buscaron un destino, no encontraron resultados y no reservaron nada después. El proceso general es el mismo que en el caso de uso anterior (consulte [Activador de abandono de exploración](#browse-abandonment-trigger)). Nos centraremos aquí en cómo personalizar el mensaje de correo electrónico de marketing.
 
 ### Creación de un activador de Experience Cloud {#creating-an-experience-cloud-trigger-1}
 
-Siga los pasos descritos en el caso de uso anterior para crear Experience Cloud Trigger. Consulte [Creación de un activador](#creating-an-experience-cloud-trigger)de Experience Cloud. La diferencia principal es la definición del activador.
+Siga los pasos descritos en el caso de uso anterior para crear un activador de Experience Cloud. Consulte [Creación de un activador de Experience Cloud](#creating-an-experience-cloud-trigger). La diferencia principal es la definición del activador.
 
 ![](assets/trigger_uc_search_1.png)
 
-La **[!UICONTROL Include Meta Data]** sección le permite pasar cualquier dato recopilado de Analytics a la carga útil Activador. En este ejemplo, creamos una eVar personalizada (por ejemplo, eVar 3) para recopilar el término de búsqueda que introduce el visitante. Este término se utilizará en el mensaje de correo electrónico transaccional enviado al mismo visitante.
+La sección **[!UICONTROL Include Meta Data]** le permite pasar cualquier dato recopilado de Analytics a la carga del activador. En este ejemplo, creamos una eVar personalizada (por ejemplo, eVar 3) para recopilar el término de búsqueda que introduce el visitante. Este término se utiliza en el mensaje de correo electrónico transaccional enviado al mismo visitante.
 
 ### Uso del activador en Adobe Campaign {#using-the-trigger-in-adobe-campaign-1}
 
-1. Siga los pasos descritos en el caso de uso anterior para crear el activador en Adobe Campaign. Consulte [Uso del activador en Adobe Campaign](#using-the-trigger-in-adobe-campaign). La diferencia principal es cómo accedemos a los metadatos insertados en la carga útil Activador y los utilizamos en Adobe Campaign.
-1. En el activador de abandono de búsqueda que creó en Adobe Campaign, haga clic en el icono **[!UICONTROL Event content and enrichment]** para ver la carga útil que se ha insertado en Adobe Campaign.
+1. Siga los pasos descritos en el caso de uso anterior para crear el activador en Adobe Campaign. Consulte [Uso del activador en Adobe Campaign](#using-the-trigger-in-adobe-campaign). La principal diferencia es cómo accedemos y utilizamos, en Adobe Campaign, los metadatos insertados en la carga del activador.
+1. En el activador de abandono de búsqueda que ha creado en Adobe Campaign, haga clic en el icono **[!UICONTROL Event content and enrichment]** para ver la carga insertada en Adobe Campaign.
 
    ![](assets/trigger_uc_search_2.png)
 
-1. Como puede ver, la eVar personalizada se pasa en la carga útil Activador y se asigna a la tabla Contexto **de** evento (ctx). Ahora podemos acceder a él para personalizar el mensaje transaccional.
+1. Como puede ver, la eVar personalizada se pasa en la carga del activador y se asigna a la tabla **Contexto de evento** (ctx). Ahora podemos acceder para personalizar el mensaje transaccional.
 
    ![](assets/trigger_uc_search_3.png)
 
@@ -146,21 +149,21 @@ La **[!UICONTROL Include Meta Data]** sección le permite pasar cualquier dato r
 
    ![](assets/trigger_uc_search_4.png)
 
-1. Al seleccionar un campo personalizado, busque los metadatos de carga útil en la tabla **Evento** transaccional (rtEvent) y, a continuación, en la subtabla de contexto **de** evento (ctx).
+1. Al seleccionar un campo personalizado, busque los metadatos de carga en la tabla **Evento transaccional** (rtEvent) y, a continuación, en la tabla secundaria **Contexto de evento** (ctx).
 
    ![](assets/trigger_uc_search_5.png)
 
 ### Ejecución del escenario {#running-the-scenario-1}
 
-1. El visitante va al sitio web de reservación de viajes y busca un destino. En este ejemplo, el visitante busca un viaje a Japón pero no encuentra ningún resultado. Esta es una oportunidad para que podamos contactar con este visitante y recomendar un plan de viaje alternativo.
+1. El visitante va al sitio web de reservas de viajes y busca un destino. En este ejemplo, el visitante está buscando un viaje a Japón pero no encuentra ningún resultado. Esta es una oportunidad para que volvamos a este visitante y le recomendemos un plan de viaje alternativo.
 
    ![](assets/trigger_uc_search_6.png)
 
    >[!NOTE]
    >
-   >En este caso de uso, suponemos que el visitante/destinatario ya se ha abierto y ha hecho clic en un correo electrónico que se origina en el mismo sitio web. Esto nos permite usar y recopilar VisitorID y asignarlo al destinatario. Solo necesitamos hacer esto una vez.
+   >En este caso de uso, suponemos que el visitante/destinatario ya ha abierto y ha hecho clic en un mensaje de correo electrónico procedente del mismo sitio web. Esto nos permite usar y recopilar el VisitorID (ID de visitante) y asignarlo al destinatario. Solo tenemos que hacerlo una vez.
 
-1. Pocos minutos después, el mismo visitante/destinatario recibe un mensaje de remercadotecnia. El mensaje incluye el destino de búsqueda reciente.
+1. Unos momentos después, el mismo visitante/destinatario recibe un mensaje de marketing. El mensaje incluye el destino de búsqueda reciente.
 
    ![](assets/trigger_uc_search_7.png)
 
