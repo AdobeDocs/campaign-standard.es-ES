@@ -12,25 +12,28 @@ discoiquuid: 4e0468da-3052-4ce5-8174-45aba1f5c4ed
 context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
+workflow-type: ht
+source-wordcount: '207'
+ht-degree: 100%
 
 ---
 
 
 # Conceptos del modelo de datos{#data-model-concepts}
 
-Adobe Campaign viene con un modelo de datos predefinido. Este modelo de datos puede ser modificado por [administradores](../../administration/using/users-management.md#functional-administrators) que pueden agregar nuevos recursos o extensiones a los recursos existentes.
+Adobe Campaign viene con un modelo de datos predefinido. Este modelo de datos lo pueden modificar los [administradores](../../administration/using/users-management.md#functional-administrators), que pueden añadir nuevos recursos o extensiones a los recursos existentes.
 
 >[!CAUTION]
 >
 >La creación y modificación de recursos son operaciones sensibles que deben realizar únicamente los usuarios expertos.
 
-El menú **[!UICONTROL Administration]** > **[!UICONTROL Development]** , al que se accede mediante el logotipo de Adobe Campaign, le permite administrar los recursos **** personalizados, **publicarlos** y **acceder a las herramientas** de diagnóstico.
+El menú **[!UICONTROL Administration]** > **[!UICONTROL Development]** , al que se accede mediante el logotipo de Adobe Campaign, le permite administrar los **recursos personalizados**, **publicarlos** y **acceder a las herramientas de diagnóstico**.
 
-Los datos utilizados por Adobe Campaign se definen a través de diferentes recursos. Puede **enriquecer la plantilla** de datos que se proporciona creando sus propios recursos personalizados, como tablas de productos o de compras.
+Los datos que usa Adobe Campaign se definen a través de diferentes recursos. Puede **enriquecer la plantilla de datos** proporcionada creando sus propios recursos personalizados, como tablas de productos o de compras.
 
-Los recursos integrados (como campañas, correos electrónicos o audiencias) no se pueden modificar. Sin embargo, los recursos personalizados se pueden ampliar para agregar nuevos campos.
+Los recursos integrados (como campañas, correos electrónicos o audiencias) no se pueden modificar. Sin embargo, los recursos personalizados se pueden ampliar para añadir nuevos campos.
 
 Los campos de extensión se generan con un prefijo para que nunca entren en conflicto con los campos integrados.
 
@@ -40,4 +43,4 @@ Los campos de extensión se generan con un prefijo para que nunca entren en conf
 
 También puede [configurar la navegación](configuring-the-screen-definition.md) en las pantallas correspondientes al recurso creado.
 
-Es posible **exportar e importar** recursos personalizados, por ejemplo de un desarrollo a un entorno de producción. Para obtener más información sobre esto, consulte este caso [de uso](../../automating/using/exporting-importing-custom-resources.md)paso a paso.
+Es posible **exportar e importar** recursos personalizados, por ejemplo, del desarrollo al entorno de producción. Para obtener más información al respecto consulte este [caso de uso paso a paso](../../automating/using/exporting-importing-custom-resources.md).
