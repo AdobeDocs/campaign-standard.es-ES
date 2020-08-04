@@ -1,6 +1,6 @@
 ---
 title: Administración de perfiles de prueba
-description: Obtenga información sobre cómo administrar los perfiles de prueba.
+description: Aprenda a administrar los perfiles de prueba.
 page-status-flag: never-activated
 uuid: eb4d893b-3724-4b15-9312-1ec74784368d
 contentOwner: sauviat
@@ -12,8 +12,11 @@ discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 767d4233236019213003961aae1abb317198e581
+workflow-type: ht
+source-wordcount: '433'
+ht-degree: 100%
 
 ---
 
@@ -22,33 +25,33 @@ source-git-commit: 767d4233236019213003961aae1abb317198e581
 
 ## Acerca de los perfiles de prueba {#about-test-profiles}
 
-Los perfiles de prueba le permiten dirigirse a destinatarios adicionales que no coincidan con los criterios de objetivo definidos. Se agregan a la audiencia de un mensaje para detectar cualquier uso fraudulento de la base de datos de destinatarios o para garantizar que los correos electrónicos llegan a las bandejas de entrada.
+Los perfiles de prueba permiten encontrar destinatarios adicionales que no coinciden con los criterios de objetivo definidos. Se añaden a la audiencia de un mensaje para detectar cualquier uso fraudulento de la base de datos de destinatario o para garantizar que los correos electrónicos llegan a las bandejas de entrada.
 
 Puede administrar los perfiles de prueba desde el menú avanzado **[!UICONTROL Profiles & audiences > Test profiles]**.
 
-Un perfil de prueba contiene información ficticia de contacto, o información de contacto controlada por el remitente, que se puede utilizar en un mensaje en los siguientes contextos:
+Un perfil de prueba contiene información ficticia de contacto, o información de contacto controlada por el remitente, que puede utilizarse posteriormente en un mensaje en los siguientes contextos:
 
-* Para enviar **pruebas**: La prueba es un mensaje específico que se utiliza para comprobar el mensaje antes de enviar la entrega finalizada a los destinatarios. Un perfil de prueba se encarga de comprobar la entrega, en relación con su contenido y formato. Consulte [Envío de pruebas](../../sending/using/sending-proofs.md).
-* Para el procesamiento **de** correo electrónico: El perfil de prueba de procesamiento de correo electrónico se utiliza para comprobar la forma en que se muestra un mensaje según la bandeja de entrada del mensaje que lo recibe. Por ejemplo: webmail, servicio de mensajes, móvil, etc. Consulte Representación [por correo electrónico](../../sending/using/email-rendering.md).
+* Para enviar **pruebas**: una prueba es un mensaje específico que se utiliza para comprobar el mensaje antes de realizar el envío final a los destinatarios. Un perfil de prueba de una prueba se encarga de comprobar el envío en lo que respecta a su contenido y formato. Consulte [Envío de pruebas](../../sending/using/sending-proofs.md).
+* Para el **procesamiento de correo electrónico**: un perfil de prueba de procesamiento de correo electrónico se utiliza para comprobar la forma en que se muestra un mensaje según la bandeja de entrada que lo recibe. Por ejemplo: webmail, servicio de mensajes, móvil, etc. Consulte [Procesamiento de correo electrónico](../../sending/using/email-rendering.md).
 
-   El uso de procesamiento **de** correo electrónico es de sólo lectura. Los perfiles de prueba con este uso solo están disponibles de forma predeterminada en Adobe Campaign.
+   El uso de **procesamiento de correo electrónico** es de solo lectura. Los perfiles de prueba con este uso solo están disponibles de forma predeterminada en Adobe Campaign.
 
-* Como **trampa**: El mensaje se envía al perfil de prueba tal como se envía al destino principal. Consulte [Uso de trampas](../../sending/using/using-traps.md).
-* Para **previsualizar** mensajes: Se puede seleccionar un perfil de prueba al obtener una vista previa de un mensaje para probar los elementos de personalización. Consulte [Vista previa de mensajes](/help/sending/using/previewing-messages.md).
+* Como una **trampa**: el mensaje se envía al perfil de prueba tal como se envía al destinatario principal. Consulte [Uso de trampas](../../sending/using/using-traps.md).
+* Para **obtener una vista previa** de los mensajes: se puede seleccionar un perfil de prueba al obtener una vista previa de un mensaje para probar los elementos de personalización. Consulte [Vista previa de mensajes](/help/sending/using/previewing-messages.md).
 
 ![](assets/test_profile.png)
 
 ## Creación de perfiles de prueba {#creating-test-profiles}
 
-1. En el menú avanzado, a través del logotipo de Adobe Campaign, seleccione **Perfiles y audiencias > Probar perfiles** para acceder a la lista de perfiles de prueba.
+1. En el menú avanzado, en el logotipo de Adobe Campaign, seleccione **Perfiles y audiencias > Perfiles de prueba** para acceder a la lista.
 
    ![](assets/test_profile_creation_1.png)
 
-1. En el **[!UICONTROL Test profiles]** tablero, haga clic en **Crear**.
+1. En el panel **[!UICONTROL Test profiles]**, haga clic en **Crear**.
 
    ![](assets/test_profile_creation_2.png)
 
-1. Introduzca los datos de este perfil.
+1. Introduzca los datos del perfil.
 
    ![](assets/test_profile_creation_3.png)
 
@@ -62,22 +65,22 @@ Un perfil de prueba contiene información ficticia de contacto, o información d
    >
    >Puede definir un formato de correo electrónico preferido: **[!UICONTROL Text]** o **[!UICONTROL HTML]**.
 
-1. Especifique un tipo de evento y los datos de este evento si desea utilizar este perfil de prueba para probar la personalización de un mensaje transaccional.
+1. Especifique un tipo de evento y los datos de este si desea utilizar el perfil de prueba para probar la personalización de un mensaje transaccional.
 1. Haga clic en **[!UICONTROL Create]** para guardar el perfil de prueba.
 
-El perfil de prueba se agregará a continuación a la lista de perfiles.
+A continuación, el perfil de prueba se añade a la lista de perfiles.
 
-**Tema relacionado:**
+**Temas relacionados:**
 
-[Creación de un vídeo de perfil](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/test-profiles.html) de prueba
+Vídeo de la [Creación de un perfil de prueba](https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/profiles-and-audiences/test-profiles.translate.html)
 
 ## Edición de perfiles de prueba {#editing-test-profiles}
 
-Para editar un perfil de prueba y consultar los datos vinculados a él, o para modificarlo:
+Para editar un perfil de prueba y consultar los datos vinculados a él o modificarlo:
 
-1. Seleccione el perfil de prueba que desee editar haciendo clic en su imagen.
+1. Seleccione el perfil de prueba que desea editar haciendo clic en su imagen.
 1. Consulte o modifique los campos.
 
    ![](assets/test_profile_edit.png)
 
-1. Haga clic **[!UICONTROL Save]** si ha introducido los cambios o seleccione el nombre del perfil de prueba y, a continuación, **[!UICONTROL Test profiles]** en la sección de la parte superior de la pantalla para volver al tablero de perfiles de prueba.
+1. Haga clic en **[!UICONTROL Save]** si ha introducido los cambios o seleccione el nombre del perfil de prueba y, a continuación, en **[!UICONTROL Test profiles]** en la sección de la parte superior de la pantalla para volver al panel de perfiles de prueba.
