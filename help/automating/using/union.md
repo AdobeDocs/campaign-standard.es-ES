@@ -1,6 +1,6 @@
 ---
 title: Unión
-description: La actividad de Unión permite agrupar el resultado de varias actividades en un solo destinatario.
+description: La actividad Unión le permite agrupar el resultado de varias actividades en un solo destino.
 page-status-flag: never-activated
 uuid: fafc3ce9-2212-4403-8754-cfbb28ba6e26
 contentOwner: sauviat
@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
 source-wordcount: '377'
-ht-degree: 1%
+ht-degree: 98%
 
 ---
 
@@ -27,15 +27,15 @@ ht-degree: 1%
 
 ![](assets/union.png)
 
-La **[!UICONTROL Union]** actividad le permite agrupar el resultado de varias actividades en un único destinatario.
+La actividad **[!UICONTROL Union]** le permite agrupar el resultado de varias actividades en un solo destino.
 
 >[!NOTE]
 >
->Los conjuntos no necesariamente tienen que ser homogéneos.
+>Los conjuntos no tienen por qué ser necesariamente homogéneos.
 
 ## Contexto de uso {#context-of-use}
 
-La **[!UICONTROL Union]** actividad se utiliza para combinar las poblaciones de transiciones entrantes al realizar una segmentación, definir una audiencia o, por ejemplo, al preparar el destinatario de mensajes.
+La actividad **[!UICONTROL Union]** se utiliza para combinar las poblaciones de transiciones entrantes al realizar una segmentación, al definir una audiencia o, por ejemplo, al preparar el destinatario de mensajes.
 
 **Temas relacionados:**
 
@@ -43,22 +43,22 @@ La **[!UICONTROL Union]** actividad se utiliza para combinar las poblaciones de 
 
 ## Configuración {#configuration}
 
-1. Arrastre y suelte una **[!UICONTROL Union]** actividad en el flujo de trabajo.
-1. Conéctelo a las demás actividades que le precedan, como consultas.
-1. Seleccione la actividad y, a continuación, ábrala con el ![](assets/edit_darkgrey-24px.png) botón de las acciones rápidas que aparecen.
+1. Arrastre y suelte una actividad **[!UICONTROL Union]** en su flujo de trabajo.
+1. Conéctela a las demás actividades que la precedan, como consultas.
+1. Seleccione la actividad y, a continuación, ábrala con el botón ![](assets/edit_darkgrey-24px.png), en las acciones rápidas que aparecerán.
 1. Seleccione el **[!UICONTROL Reconciliation type]** para definir cómo se manejan los duplicados de la confrontación entre poblaciones entrantes:
 
-   * **[!UICONTROL Keys only]**:: este es el modo predeterminado. La actividad solo mantiene un elemento cuando los elementos de las distintas transiciones entrantes tienen la misma clave. Esta opción solo se puede utilizar si las poblaciones entrantes son homogéneas.
-   * **[!UICONTROL All shared columns]**:: Los datos se concilian sobre la base de todas las columnas comunes con las transiciones entrantes. Por lo tanto, debe seleccionar el conjunto principal que se mantendrá en caso de duplicado. Esta opción se puede utilizar si las dimensiones de segmentación de población entrante son diferentes.
-   * **[!UICONTROL A selection of columns]**:: seleccione esta opción para definir la lista de columnas en las que se aplicará la reconciliación de datos. Primero debe seleccionar el conjunto principal (el que contiene los datos de origen) y luego las columnas que se utilizarán para la combinación.
+   * **[!UICONTROL Keys only]**: este es el modo predeterminado. La actividad solo mantiene un elemento cuando los elementos de las distintas transiciones de entrada tienen la misma clave. Puede usar esta opción solo si las poblaciones entrantes son homogéneas.
+   * **[!UICONTROL All shared columns]**: los datos se concilian sobre la base de todas las columnas comunes con transiciones entrantes. Por lo tanto, debe seleccionar el conjunto principal que se mantendrá en caso de duplicado. Esta opción se puede utilizar si las dimensiones de segmentación de población de entrada son diferentes.
+   * **[!UICONTROL A selection of columns]**: seleccione esta opción para definir la lista de columnas a las que desea aplicar la reconciliación de datos. Primero debe seleccionar el conjunto principal (el que contiene los datos de origen) y luego las columnas que se utilizarán para la unión.
 
-1. Marque la **[!UICONTROL Use common additional data only]** casilla si desea mantener sólo los datos adicionales que están en todas las transiciones de entrada.
-1. If you would like to limit the size of the final population, check the **[!UICONTROL Limit size of generated population]** box. El tamaño se puede especificar en el **[!UICONTROL Maximum number of records]** campo.
+1. Marque la casilla **[!UICONTROL Use common additional data only]** si desea mantener solo los datos adicionales que están en todas las transiciones de entrada.
+1. Si desea limitar el tamaño de la población final, marque la casilla **[!UICONTROL Limit size of generated population]**. El tamaño se puede especificar en el campo **[!UICONTROL Maximum number of records]**.
 1. Si es necesario, administre las [Transiciones](../../automating/using/activity-properties.md) de la actividad para acceder a las opciones avanzadas de la población calculada.
 1. Confirme la configuración de la actividad y guarde el flujo de trabajo.
 
 ## Ejemplo {#example}
 
-El siguiente ejemplo muestra el resultado de dos actividades de consulta que tienen como objetivo agrupar perfiles de la base de datos de Adobes Campaign que tienen entre 18 y 27 años y que tienen entre 34 y 40 años. El resultado contiene todos los perfiles de las dos consultas o el número máximo de registros, si corresponde, según se especificó durante la configuración.
+El siguiente ejemplo muestra el resultado de dos actividades de consulta que tienen como objetivo agrupar perfiles de la base de datos de Adobe Campaign que tienen entre 18 y 27 años y entre 34 y 40 años. El resultado contiene todos los perfiles de las dos consultas o el número máximo de registros, si corresponde, según lo especificado en la configuración.
 
 ![](assets/wkf_union_example.png)
