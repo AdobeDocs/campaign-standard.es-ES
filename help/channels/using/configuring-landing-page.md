@@ -1,6 +1,6 @@
 ---
 title: Configuración de una página de aterrizaje
-description: Obtenga información sobre cómo configurar las propiedades de una página de aterrizaje.
+description: Aprenda a configurar las propiedades de una página de aterrizaje.
 page-status-flag: never-activated
 uuid: 5b222ea2-6628-457f-a618-bfc0e5eb93dd
 contentOwner: lemaitre
@@ -12,8 +12,11 @@ discoiquuid: 899c7152-f415-4df9-b4b4-5ff3470a4e32
 context-tags: landingPage,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+workflow-type: ht
+source-wordcount: '687'
+ht-degree: 100%
 
 ---
 
@@ -24,98 +27,98 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 Cuando un visitante envía una página de aterrizaje, puede configurar las acciones activadas. Para ello:
 
-1. Edite las propiedades de la página de aterrizaje a las que se accede mediante el icono ![](assets/edit_darkgrey-24px.png) del tablero de la página de aterrizaje y muestre los **[!UICONTROL Job]** parámetros.
+1. Edite las propiedades de página de aterrizaje a las que se accede mediante el icono ![](assets/edit_darkgrey-24px.png) del panel de página de aterrizaje y muestre los parámetros de **[!UICONTROL Job]**.
 
    ![](assets/lp_edit_properties_button.png)
 
-1. En la **[!UICONTROL Specific actions]** sección , seleccione **[!UICONTROL Start sending message]** para determinar el envío de un mensaje automático, por ejemplo para confirmar la suscripción a un servicio. A continuación, debe seleccionar una plantilla de envío de correo electrónico.
+1. En la sección **[!UICONTROL Specific actions]**, seleccione **[!UICONTROL Start sending message]** para determinar el envío de un mensaje automático, por ejemplo, para confirmar la suscripción a un servicio. Debe seleccionar una plantilla de envíos de correo electrónico.
 
    Tenga en cuenta que si un mensaje de confirmación ya está configurado en el nivel de servicio, no debe seleccionar uno en esta pantalla para evitar enviar varios mensajes de confirmación. Consulte [Configuración de un servicio](../../audiences/using/creating-a-service.md).
 
-1. Crear **[!UICONTROL Additional data]** para habilitar el almacenamiento de datos adicionales cuando se envía la página de aterrizaje. Estos datos no son visibles para las personas que visitan la página. Solo se tienen en cuenta los valores constantes.
+1. Cree **[!UICONTROL Additional data]** para permitir almacenar datos adicionales cuando se envía la página de aterrizaje. Estos datos no son visibles para las personas que visitan la página. Solo se tienen en cuenta los valores constantes.
 
    ![](assets/lp_parameters_6.png)
 
 ## Vinculación de una página de aterrizaje a un servicio {#linking-a-landing-page-to-a-service}
 
-Puede vincular un formulario a un servicio para que los perfiles se puedan suscribir a un servicio específico al validar las páginas de aterrizaje.
+Puede vincular un formulario a un servicio para que los perfiles puedan suscribirse a un servicio específico al validar las páginas de aterrizaje.
 
-Los parámetros para vincular una página de aterrizaje permiten especificar el tipo de acción realizado y si la página de aterrizaje está vinculada específicamente a un único servicio o si es genérica.
+Los parámetros para vincular una página de aterrizaje permiten especificar el tipo de acción realizada y si la página de aterrizaje está vinculada específicamente a un único servicio o si es genérica.
 
-Para seleccionar el servicio que desea vincular, debe:
+Para seleccionar el servicio que desea vincular, siga estos pasos:
 
-1. Edite las propiedades de la página de aterrizaje a las que se accede mediante el icono ![](assets/edit_darkgrey-24px.png) del tablero de la página de aterrizaje y muestre los **[!UICONTROL Job]** parámetros.
+1. Edite las propiedades de página de aterrizaje a las que se accede mediante el icono ![](assets/edit_darkgrey-24px.png) del panel de página de aterrizaje y muestre los parámetros de **[!UICONTROL Job]**.
 
    ![](assets/lp_edit_properties_button.png)
 
-1. Elija **[!UICONTROL Subscription]** en la lista **[!UICONTROL Specific actions]** desplegable.
+1. Elija **[!UICONTROL Subscription]** en la lista desplegable **[!UICONTROL Specific actions]**.
 
    ![](assets/lp_parameters_5.png)
 
 1. Seleccione **[!UICONTROL Specific service]** para vincular la página de aterrizaje a un solo servicio. No seleccione esta opción si desea utilizar varios servicios con la página de aterrizaje.
 
-   Utilice la **[!UICONTROL Specified service in the URL]** opción para permitir que la página de aterrizaje se utilice en varios servicios. Por lo tanto, debe hacer referencia a la página de aterrizaje al configurar el servicio.
+   Utilice la opción **[!UICONTROL Specified service in the URL]** para permitir que la página de aterrizaje se utilice en varios servicios. Por lo tanto, debe hacer referencia a la página de aterrizaje al configurar el servicio.
 
-## Configuración de permisos y precarga de datos {#setting-permissions-and-pre-loading-data}
+## Configuración de permisos y datos de precarga {#setting-permissions-and-pre-loading-data}
 
-El acceso a una página de aterrizaje puede restringirse a los visitantes identificados, que provienen de un vínculo en un mensaje enviado por Campaña, por ejemplo, o a una unidad organizativa específica.
-En el caso de los visitantes identificados, puede cargar previamente sus datos en la página de aterrizaje. Para ello:
+El acceso a una página de aterrizaje se puede restringir a visitantes identificados, que proceden de un vínculo de un mensaje enviado por Campaign, por ejemplo, o a una unidad organizativa específica.
+En el caso de visitantes identificados, puede cargar previamente sus datos en la página de aterrizaje. Para ello:
 
-1. Edite las propiedades de la página de aterrizaje a las que se accede mediante el icono ![](assets/edit_darkgrey-24px.png) del tablero de la página de aterrizaje y muestre los **[!UICONTROL Access & loading]** parámetros.
+1. Edite las propiedades de página de aterrizaje a las que se accede mediante el icono ![](assets/edit_darkgrey-24px.png) del panel de página de aterrizaje y muestre los parámetros de **[!UICONTROL Access & loading]**.
 
    ![](assets/lp_edit_properties_button.png)
 
-1. Select **[!UICONTROL Preload visitor data]**.
+1. Seleccione **[!UICONTROL Preload visitor data]**.
 
-   Si un visitante de la página corresponde a un perfil de la base de datos, sus datos se muestran en los campos del formulario asignados a los datos de la base de datos y se tienen en cuenta los elementos de personalización de la página de aterrizaje.
+   Si un visitante a la página corresponde a un perfil de la base de datos, sus datos se muestran en los campos del formulario asignados a los datos de la base de datos y se tienen en cuenta los elementos de personalización de la página de aterrizaje.
 
    ![](assets/lp_parameters_3.png)
 
-También puede:
+También puede realizar lo siguiente:
 
-* Utilice los parámetros de URL para identificar a los visitantes mediante la **[!UICONTROL Authorize visitor identification via URL parameters]** opción: a continuación, debe elegir la clave de carga y asignar los parámetros del filtro con los parámetros de la URL correspondiente.
-* Autorice a cualquier visitante a acceder a la página de aterrizaje mediante la **[!UICONTROL Authorize unidentified visitors]** opción .
+* Utilice los parámetros de URL para identificar los visitantes mediante la opción **[!UICONTROL Authorize visitor identification via URL parameters]**: a continuación, debe elegir la clave de carga y asignar los parámetros del filtro con los parámetros de la URL correspondiente.
+* Autorice a cualquier visitante para acceder a la página de aterrizaje mediante la opción **[!UICONTROL Authorize unidentified visitors]**.
 
-Las páginas de aterrizaje también se pueden vincular a una unidad organizativa. Esto definirá el acceso de los usuarios a las diferentes páginas de aterrizaje. Para asignar una unidad organizativa:
+Las páginas de aterrizaje también pueden vincularse a una unidad organizativa. Esto define el acceso de los usuarios a las diferentes páginas de aterrizaje. Para asignar una unidad organizativa:
 
-1. Acceda a las propiedades de la página de aterrizaje mediante el **[!UICONTROL Edit properties]** icono .
+1. Acceda a las propiedades de la página de aterrizaje mediante el icono **[!UICONTROL Edit properties]**.
 
    ![](assets/lp_parameters_google3.png)
 
-1. Despliegue el **[!UICONTROL Access authorization]**.
+1. Despliegue **[!UICONTROL Access authorization]**.
 
-1. Haga clic en el menú desplegable y seleccione la unidad organizativa. For more information on how to create organization unit, refer to this [page](../../administration/using/organizational-units.md).
+1. Haga clic en el menú desplegable y seleccione la unidad organizativa. Para obtener más información sobre cómo crear una unidad organizativa, consulte esta [página](../../administration/using/organizational-units.md).
 
    ![](assets/lp_org_unit_2.png)
 
-1. Los campos **[!UICONTROL Created by]**, **[!UICONTROL Created]****[!UICONTROL Access authorization]** y **[!UICONTROL Last modified]** se completan automáticamente.
+1. Los campos **[!UICONTROL Created by]**, **[!UICONTROL Created]**, **[!UICONTROL Access authorization]** y **[!UICONTROL Last modified]** se completan automáticamente.
 
-1. Haga clic en **[!UICONTROL Confirm]** luego **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Confirm]** y luego en **[!UICONTROL Save]**.
 
-Ahora solo los usuarios de la unidad organizativa seleccionada pueden acceder a la página de aterrizaje y administrarla.
+Ahora, solo se puede administrar y acceder a la página de aterrizaje si se es un usuario dentro de la unidad organizativa elegida.
 
 ![](assets/lp_org_unit_3.png)
 
 ## Configuración de Google reCAPTCHA {#setting-google-recaptcha}
 
-Puede configurar Google reCAPTCHA V3 con su página de aterrizaje para protegerla del spam y los abusos causados por los bots. Para poder utilizarlo con la página de aterrizaje, primero debe crear una cuenta externa. Para obtener más información sobre cómo configurarla, consulte esta [sección](../../administration/using/external-accounts.md#google-recaptcha-external-account).
+Puede configurar Google reCAPTCHA V3 con la página de aterrizaje para protegerlo del spam y los abusos causados por los bots. Para poder usarlo con la página de aterrizaje, primero debe crear una cuenta externa. Para obtener más información sobre cómo configurarla, consulte esta [sección](../../administration/using/external-accounts.md#google-recaptcha-external-account).
 
-Una vez configurada la cuenta externa de Google reCAPTCHA V3, puede agregarla a la página de aterrizaje:
+Una vez configurada la cuenta externa de Google reCAPTCHA V3, puede añadirla a la página de aterrizaje:
 
-1. Antes de publicar la página de aterrizaje, acceda a las propiedades de página a las que se accede mediante el icono del tablero de la página de aterrizaje. ![](assets/edit_darkgrey-24px.png)
+1. Antes de publicar la página de aterrizaje, acceda a las propiedades de la página mediante el icono ![](assets/edit_darkgrey-24px.png) en el panel de página de aterrizaje.
 
    ![](assets/lp_parameters_google3.png)
 
-1. Despliegue el **[!UICONTROL Access & loading]** menú.
-1. Marque la **[!UICONTROL Use reCAPTCHA to protect your site from spam and abuse]** opción.
-1. Seleccione la cuenta externa de Google reCAPTCHA creada anteriormente.
+1. Despliegue el menú **[!UICONTROL Access & loading]**.
+1. Marque la opción **[!UICONTROL Use reCAPTCHA to protect your site from spam and abuse]**.
+1. Seleccione la cuenta externa reCAPTCHA de Google creada anteriormente.
 
    ![](assets/lp_parameters_google.png)
 
-1. Click **[!UICONTROL Confirm]**.
+1. Haga clic en **[!UICONTROL Confirm]**.
 
 La página de aterrizaje ahora está configurada con Google reCAPTCHA, que se puede ver en la parte inferior de la página.
 
 ![](assets/lp_parameters_google2.png)
 
-Google reCAPTCHA devolverá una puntuación basada en las interacciones de los usuarios con su página. Para comprobar su puntuación, conéctese a su consola [de administración de](https://g.co/recaptcha/admin)Google.
+Google reCAPTCHA devuelve una puntuación basada en las interacciones de los usuarios con la página. Para comprobar su puntuación, conéctese a la [consola de administración de Google](https://g.co/recaptcha/admin).
