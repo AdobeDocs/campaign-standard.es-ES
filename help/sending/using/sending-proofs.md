@@ -12,8 +12,11 @@ discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7f90991ed4c7323e3a2f8ac7d38da9ff165ef76
+workflow-type: ht
+source-wordcount: '592'
+ht-degree: 100%
 
 ---
 
@@ -22,19 +25,19 @@ source-git-commit: f7f90991ed4c7323e3a2f8ac7d38da9ff165ef76
 
 ## Acerca de las pruebas {#about-proofs}
 
-Una prueba es un mensaje específico que le permite probar un mensaje antes de enviarlo al destino principal. Los destinatarios de la prueba se encargan de aprobar el mensaje (su contenido y forma).
+Una prueba es un mensaje específico que permite probar un mensaje antes de enviarlo al destino principal. Los destinatarios de la prueba se encargan de aprobar el mensaje (su contenido y forma).
 
 Existen dos tipos de destinatarios de prueba:
 
-* **Los perfiles** de prueba le permiten dirigirse a destinatarios adicionales que no coincidan con los criterios de objetivo definidos.
+* **Los perfiles de prueba** permiten llegar a destinatarios adicionales que no coinciden con los criterios de objetivo definidos.
 
-   Se pueden agregar a la audiencia de un mensaje para detectar cualquier uso fraudulento de la base de datos de destinatarios o para asegurarse de que los correos electrónicos llegan a las bandejas de entrada. Para obtener más información sobre esto, consulte [Administración de perfiles](../../audiences/using/managing-test-profiles.md)de prueba.
+   Se pueden añadir a la audiencia de un mensaje para detectar cualquier uso fraudulento de la base de datos de destinatario o para asegurarse de que los correos electrónicos llegan a las bandejas de entrada. Para obtener más información, consulte [Administración de perfiles de prueba](../../audiences/using/managing-test-profiles.md).
 
    >[!NOTE]
    >
    >Para enviar una prueba, los perfiles de prueba deben incluirse en la audiencia del mensaje.
 
-* **Los perfiles** de sustitución le permiten colocarse en la posición de uno de los perfiles objetivo y obtener una representación exacta del mensaje que recibirá el perfil. Para obtener más información sobre esto, consulte [Prueba de mensajes de correo electrónico con perfiles](../../sending/using/testing-messages-using-target.md)de objetivo.
+* **Los perfiles de sustitución** le permiten colocarse en la posición de uno de los perfiles objetivo y obtener una representación exacta del mensaje que va a recibir el perfil. Para obtener más información, consulte [Prueba de mensajes de correo electrónico con perfiles de destino](../../sending/using/testing-messages-using-target.md).
 
    >[!NOTE]
    >
@@ -45,8 +48,8 @@ Existen dos tipos de destinatarios de prueba:
 Para enviar pruebas, siga estos pasos:
 
 1. Asegúrese de que los destinatarios de las pruebas estén configurados:
-   * **Los perfiles** de prueba deben incluirse en la audiencia del mensaje.
-   * **Los perfiles** de sustitución deben agregarse una vez que la preparación del mensaje se haya realizado correctamente (consulte [esta sección](../../sending/using/testing-messages-using-target.md)).
+   * **Los perfiles de prueba** deben incluirse en la audiencia del mensaje.
+   * **Los perfiles de sustitución** deben añadirse una vez que la preparación del mensaje se haya realizado correctamente (consulte [esta sección](../../sending/using/testing-messages-using-target.md)).
 
 1. Haga clic en el botón **[!UICONTROL Send a test]**.
 
@@ -54,58 +57,58 @@ Para enviar pruebas, siga estos pasos:
 
 1. Seleccione el tipo de prueba que desee utilizar:
 
-   * **[!UICONTROL Email rendering]**:: seleccione esta opción para probar la forma en que se recibe el mensaje según las bandejas de entrada objetivo. Para obtener más información, consulte Representación [por](../../sending/using/email-rendering.md)correo electrónico.
-   * **[!UICONTROL Proof]**:: seleccione esta opción para probar el mensaje antes de enviarlo al destino principal. Los destinatarios de la prueba se encargan de aprobar la entrega comprobando tanto su contenido como su formato.
-   * **[!UICONTROL Proof + Email rendering]**:: esta opción combina las dos opciones anteriores.
+   * **[!UICONTROL Email rendering]**: seleccione esta opción para probar la forma en que se recibe el mensaje según las bandejas de entrada objetivo. Para obtener más información, consulte [Procesamiento de correo electrónico](../../sending/using/email-rendering.md).
+   * **[!UICONTROL Proof]**: seleccione esta opción para probar el mensaje antes de enviarlo al destinatario principal. Los destinatarios de prueba se encargan de aprobar el envío, comprobando tanto su contenido como su formato.
+   * **[!UICONTROL Proof + Email rendering]**: esta opción combina las dos opciones anteriores.
    ![](assets/bat_select1.png)
 
    >[!NOTE]
    >
-   >El procesamiento por correo electrónico solo está disponible con perfiles de prueba. Si no se han agregado perfiles de prueba al mensaje, solo la **[!UICONTROL Proof]** opción estará disponible para selección.
+   >El procesamiento por correo electrónico solo está disponible con perfiles de prueba. Si no se han añadido perfiles de prueba al mensaje, solo está disponible la opción **[!UICONTROL Proof]**.
 
-1. Confirme su elección.
+1. Confirme la elección.
 
    Las pruebas se envían a los destinatarios configurados.
 
    ![](assets/bat_select2.png)
 
-1. Puede ver las pruebas mediante la lista **[!UICONTROL Proofs]** desplegable.
+1. Puede comprobar las pruebas en la lista desplegable **[!UICONTROL Proofs]**.
 
    ![](assets/bat_view.png)
 
-1. Seleccione una prueba para acceder a su resumen. En un mensaje de correo electrónico, si ha seleccionado la opción Representación **por** correo electrónico como tipo de prueba, el **[!UICONTROL Access email rendering]** icono se muestra a la derecha de la etiqueta de prueba. Consulte Representación [por correo electrónico](../../sending/using/email-rendering.md).
+1. Seleccione una prueba para acceder al resumen. En el caso de un correo electrónico, si ha seleccionado la opción de **Procesamiento de correo electrónico** como tipo de prueba, el icono **[!UICONTROL Access email rendering]** se muestra a la derecha de la etiqueta de prueba. Consulte [Procesamiento de correo electrónico](../../sending/using/email-rendering.md).
 
    ![](assets/bat_view2.png)
 
-Según los comentarios de las personas que reciban la prueba, se le puede solicitar que modifique el contenido de la entrega. Una vez realizadas las modificaciones, debe reiniciar la preparación del correo electrónico y volver a enviar una prueba. Se puede acceder a cada nueva prueba mediante el **[!UICONTROL Show proofs]** botón .
+Según los comentarios de las personas que reciban la prueba, se le puede pedir que modifique el contenido del envío. Una vez realizadas las modificaciones, debe reiniciar la preparación del correo electrónico y volver a enviar una prueba. Se puede acceder a cada prueba nueva con el botón **[!UICONTROL Show proofs]**.
 
-Debe enviar tantas pruebas como sea necesario hasta que haya finalizado el contenido de la entrega. Una vez finalizado, puede enviar el envío al objetivo principal y cerrar el ciclo de aprobación.
+Debe enviar tantas pruebas como sea necesario hasta que haya finalizado el contenido de su envío. Una vez hecho esto, puede realizar el envío al destinatario principal y cerrar el ciclo de aprobación.
 
-## Configuración de la línea de asunto de las pruebas {#configuring-proofs-subject-line}
+## Configuración de la línea de asunto de pruebas {#configuring-proofs-subject-line}
 
-Cuando se envía una prueba, su línea de asunto se configura de forma predeterminada con el prefijo **&quot;Prueba&quot;** , así como un contador que indica el número de la prueba.
+Cuando se envía una prueba, su línea de asunto se configura de forma predeterminada con el prefijo **“Prueba”** , así como con un contador que indica el número de la prueba.
 
 ![](assets/proof-prefix.png)
 
 Para cambiar la línea de asunto predeterminada y utilizarla, siga estos pasos:
 
-1. En el tablero de mensajes, haga clic en el **[!UICONTROL Open properties]** botón .
-1. En la **[!UICONTROL Advanced parameters]** sección, defina el prefijo que desee utilizar de forma predeterminada en la línea de asunto.
+1. En el panel del mensaje, haga clic en el botón **[!UICONTROL Open properties]**.
+1. En la sección **[!UICONTROL Advanced parameters]**, defina el prefijo que desee utilizar de forma predeterminada en la línea de asunto.
 
-Para ocultar el número de la prueba en la línea de asunto, active la **[!UICONTROL Hide proof prefix counter]** opción.
+Para ocultar el número de la prueba en la línea de asunto, active la opción **[!UICONTROL Hide proof prefix counter]**.
 
 >[!NOTE]
 >
->Si desea ocultar el prefijo de prueba completo, deje el **[!UICONTROL Subject line prefix]** campo en blanco.
+>Si desea ocultar todo el prefijo de prueba, deje el campo **[!UICONTROL Subject line prefix]** en blanco.
 
 ![](assets/proof-prefix-configuration.png)
 
-1. Haga clic **[!UICONTROL Confirm]**. La configuración se aplicará de forma predeterminada a todas las pruebas enviadas para el mensaje seleccionado.
+1. Haga clic en **[!UICONTROL Confirm]**. La configuración se aplica de forma predeterminada a todas las pruebas enviadas para el mensaje seleccionado.
 
-**Tema relacionado:**
+**Temas relacionados:**
 
 * [Envío de una prueba, preparación y envío de un vídeo por correo electrónico](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/sending-test-preparing-sending-email.html)
-* [Prueba de mensajes de correo electrónico con perfiles](../../sending/using/testing-messages-using-target.md)de objetivo.
-* [Administración de perfiles](../../audiences/using/managing-test-profiles.md)de prueba.
+* [Prueba de mensajes de correo electrónico con perfiles de destino](../../sending/using/testing-messages-using-target.md).
+* [Administración de perfiles de prueba](../../audiences/using/managing-test-profiles.md).
 * [Vista previa de mensajes](../../sending/using/previewing-messages.md)
 * [Configuración de canales de correo electrónico](../../administration/using/configuring-email-channel.md)
