@@ -16,31 +16,31 @@ translation-type: tm+mt
 source-git-commit: 395791e69d0c4c8a888829539338e338387294de
 workflow-type: tm+mt
 source-wordcount: '203'
-ht-degree: 7%
+ht-degree: 94%
 
 ---
 
 
 # Lista de funciones{#list-of-roles}
 
-De forma predeterminada, Adobe Campaign oferta un conjunto de funciones que le permiten definir autorizaciones unitarias asignadas a usuarios y grupos de usuarios.
+De forma predeterminada, Adobe Campaign ofrece un conjunto de funciones que le permiten definir autorizaciones unitarias asignadas a usuarios y grupos de usuarios.
 
 Combinadas con las unidades organizativas, las funciones proporcionan a los usuarios una vista filtrada de la interfaz y definen su acceso a las diferentes funciones.
 
-Para obtener más información sobre esto, consulte la tabla [](/help/administration/using/assets/acs_rights.pdf)Funciones y permisos, que detalla las funciones disponibles en la interfaz en función de las autorizaciones seleccionadas.
+Para obtener más información, consulte la [tabla de funciones y permisos](/help/administration/using/assets/acs_rights.pdf) que detalla las funciones disponibles en la interfaz según las autorizaciones seleccionadas.
 
 [![imagen](assets/user_management_3.png)](https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/users-and-security/assets/acs_rights.pdf)
 
-Las funciones se pueden administrar desde el **[!UICONTROL Administration > Users & Security > Roles]** menú.
+Las funciones se pueden administrar desde el menú **[!UICONTROL Administration > Users & Security > Roles]**.
 
 Los derechos predeterminados son:
 
-* **[!UICONTROL Administration]**:: Derechos de administración genéricos.
-* **[!UICONTROL Datamodel]**:: Derecho a ejecutar publicaciones y crear recursos personalizados.
-* **[!UICONTROL Generic import]**:: Derecho a ejecutar una importación genérica de datos. Para que esto funcione, debe vincular la **[!UICONTROL Generic import]** función a la **[!UICONTROL Workflow]** función.
-* **[!UICONTROL Prepare deliveries]**:: Derecho a crear, modificar, preparar y eliminar envíos. Los usuarios con esta función pueden preparar el envío pero no enviarlo.
-* **[!UICONTROL Start deliveries]**:: Derecho a crear, modificar, preparar, enviar y eliminar envíos.
-* **[!UICONTROL Workflow]**:: Derecho a gestionar la ejecución de flujos de trabajo (inicio, parada, pausa, etc.). Los usuarios con esta función no pueden enviar un envío ni siquiera en un flujo de trabajo.
+* **[!UICONTROL Administration]**: Derecho de administración genérico.
+* **[!UICONTROL Datamodel]**: Derecho para ejecutar publicaciones y crear recursos personalizados.
+* **[!UICONTROL Generic import]**: Derecho para ejecutar una importación genérica de datos. Para que esto funcione, debe vincular la función **[!UICONTROL Generic import]** a la función **[!UICONTROL Workflow]**.
+* **[!UICONTROL Prepare deliveries]**: Derecho a crear, modificar, preparar y eliminar entregas. Los usuarios con esta función pueden preparar la entrega pero no enviarla.
+* **[!UICONTROL Start deliveries]**: Derecho para crear, modificar, preparar, enviar y eliminar entregas.
+* **[!UICONTROL Workflow]**: Derecho para gestionar la ejecución de flujos de trabajo (inicio, parada, pausa, etc.). Los usuarios con esta función no pueden enviar una entrega ni siquiera en un flujo de trabajo.
 
 **Temas relacionados:**
 
