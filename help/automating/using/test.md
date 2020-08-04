@@ -1,19 +1,22 @@
 ---
 title: Prueba
-description: La actividad de prueba activa una transición basada en un resultado de prueba.
-page-status-flag: nunca activado
+description: La actividad Prueba permite una transición basada en un resultado de prueba.
+page-status-flag: never-activated
 uuid: 1562ec7a-253a-4f4f-b66a-c2948b57775a
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: automatizar
-content-type: referencia
-topic-tags: execute-activity
-discoiquuid: 2650bf1f-0bce-4049-a226-2369f666b95
-context-tags: jstest,principal
+audience: automating
+content-type: reference
+topic-tags: execution-activities
+discoiquuid: 2650bf1f-0bce-4049-a226-2369f6666b95
+context-tags: jstest,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+workflow-type: ht
+source-wordcount: '176'
+ht-degree: 100%
 
 ---
 
@@ -24,17 +27,17 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ![](assets/test.png)
 
-The **[!UICONTROL Test]** activity enables a transition based on a test result.
+La actividad **[!UICONTROL Test]** permite una transición basada en un resultado de prueba.
 
 ## Contexto de uso {#context-of-use}
 
-A **Test** activity activates the first transition that satisfies the condition associated to it.
+Una actividad **Prueba** activa la primera transición que cumple la condición asociada a esta.
 
-If no condition is satisfied and if the **Use default transition** option is activated, a default transition will be activated.
+Si no se cumple ninguna condición y si la opción **Use default transition** está activada, se activa la transición predeterminada.
 
 ![](assets/wkf_test_activity_example.png)
 
-Las condiciones se pueden basar en **funciones** o en **variables**, por ejemplo variables de eventos que se han declarado en la **[!UICONTROL External signal]** actividad del flujo de trabajo.
+Las condiciones se pueden basar en **funciones** o en **variables** como, por ejemplo, variables de eventos que se han declarado en la actividad **[!UICONTROL External signal]** del flujo de trabajo.
 
 **Temas relacionados:**
 
@@ -43,17 +46,17 @@ Las condiciones se pueden basar en **funciones** o en **variables**, por ejemplo
 
 ## Configuración {#configuration}
 
-1. Arrastre y suelte una **[!UICONTROL Test]** actividad en el flujo de trabajo.
-1. Seleccione la actividad y, a continuación, ábrala con el ![](assets/edit_darkgrey-24px.png) botón de las acciones rápidas que aparecen.
+1. Arrastre y suelte una actividad **[!UICONTROL Test]** en el flujo de trabajo.
+1. Seleccione la actividad y, a continuación, ábrala con el botón ![](assets/edit_darkgrey-24px.png), en las acciones rápidas que aparecerán.
 1. Defina los atributos de cada condición:
 
-   Al editar el **[!UICONTROL Condition]** campo, dos botones proporcionan ayuda para llamar a variables de eventos y editar expresiones que combinan variables y funciones:
+   Al editar el campo **[!UICONTROL Condition]**, dos botones proporcionan ayuda para llamar a variables de eventos y editar expresiones que combinan variables y funciones:
 
-   * ![](assets/extsignal_picker.png):: seleccione la variable events entre todas las variables disponibles en el flujo de trabajo (consulte [Personalización de un flujo de trabajo con parámetros](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-a-workflow-with-external-parameters)externos)
+   * ![](assets/extsignal_picker.png): seleccione la variable de eventos de entre todas las variables disponibles en el flujo de trabajo (consulte [Personalización de un flujo de trabajo con parámetros externos](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-a-workflow-with-external-parameters)).
 
       ![](assets/wkf_test_activity_variables.png)
 
-   * ![](assets/extsignal_expression_editor.png):: editar expresiones combinando variables y funciones. For more on the Expression editor, refer to [this section](../../automating/using/advanced-expression-editing.md).
+   * ![](assets/extsignal_expression_editor.png): edite expresiones que combinan variables y funciones. Para obtener más información sobre el editor de expresiones, consulte [esta sección](../../automating/using/advanced-expression-editing.md).
 
       ![](assets/wkf_test_activity_variables_expression.png)
 
