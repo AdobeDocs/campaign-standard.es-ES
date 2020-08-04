@@ -16,40 +16,40 @@ translation-type: tm+mt
 source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
 workflow-type: tm+mt
 source-wordcount: '268'
-ht-degree: 3%
+ht-degree: 83%
 
 ---
 
 
 # Segmentación en la ubicación {#segmentation-on-location}
 
-Puede enviar un correo electrónico de objetivo a los clientes con ofertas en sus tiendas locales.
+Puede enviar un correo electrónico de segmentación a los clientes con ofertas en sus tiendas locales.
 
-1. En **[!UICONTROL Marketing Activities]**, haga clic **[!UICONTROL Create]** y seleccione **[!UICONTROL Workflow]**.
+1. En **[!UICONTROL Marketing Activities]**, haga clic en **[!UICONTROL Create]** y seleccione **[!UICONTROL Workflow]**.
 1. Seleccione **[!UICONTROL New Workflow]** como tipo de flujo de trabajo y haga clic en **[!UICONTROL Next]**.
 1. Introduzca las propiedades del flujo de trabajo y haga clic en **[!UICONTROL Create]**.
 
-## Selección de destinatarios contactables por correo electrónico{#selecting-recipients-contactable-via-email}
+## Selección de destinatarios con los que se puede contactar por correo electrónico{#selecting-recipients-contactable-via-email}
 
 1. En **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, arrastre y suelte una actividad de [Consulta](../../automating/using/query.md) ![](assets/query.png).
-1. Haga clic con el Doble en la actividad.
+1. Haga doble clic en la actividad.
 1. En **[!UICONTROL Shortcuts]**, arrastre y suelte **[!UICONTROL Profiles]** y seleccione el campo **[!UICONTROL email]** con el operador **[!UICONTROL is not empty]**.
 1. En **[!UICONTROL Shortcuts]**, arrastre y suelte **[!UICONTROL Profiles]** y seleccione el campo **[!UICONTROL no longer contact by email]** con el valor **[!UICONTROL no]**.
-1. Haga clic **[!UICONTROL Confirm]** dos veces.
+1. Haga clic en **[!UICONTROL Confirm]** dos veces.
 
 ![](assets/wf-complement-query.png)
 
 ## Creación de una actividad de segmentación{#creating-a-segmentation-activity}
 
-1. Arrastre y suelte una actividad [de segmentación](../../automating/using/segmentation.md) y haga clic en ella con el doble.
-1. Haga clic en el segmento y luego abra la transición para destinatario de personas en la primera ciudad. Aquí Boston.
+1. Drag and drop a [Segmentation](../../automating/using/segmentation.md) activity and double-click it.
+1. Haga clic en el segmento y luego abra la transición para dirigirse a las personas en la primera ciudad. Aquí Boston.
 1. Arrastre y suelte **[!UICONTROL Location]** y seleccione **[!UICONTROL City]** con el operador **[!UICONTROL equals to]** y el valor **[!UICONTROL Boston]**.
-Nota: Para llegar a todas las personas que entraron en Boston, sin tener en cuenta el caso, desactive la opción que distingue mayúsculas de minúsculas.
-1. Haga clic **[!UICONTROL Confirm]**.
-1. En **[!UICONTROL List of outbound segments]**, haga clic **[!UICONTROL Add an element]** y haga clic en ![](assets/edit_darkgrey-24px.png) para crear un segmento dirigido a personas de la segunda ciudad. Aquí Chicago.
-1. Arrastre y suelte **[!UICONTROL Location]** y seleccione **[!UICONTROL City]** con el operador **[!UICONTROL equals to]** e introduzca **[!UICONTROL Chicago]** el valor.
-1. Para llegar a todas las personas que ingresaron a Chicago, sin importar el caso, desmarque la opción que distingue mayúsculas de minúsculas.
-1. Haga clic **[!UICONTROL Confirm]**.
+Nota: Para llegar a todas las personas introducidas en Boston, sin tener en cuenta las mayúsculas o minúsculas, desactive la opción que distingue mayúsculas de minúsculas.
+1. Haga clic en **[!UICONTROL Confirm]**.
+1. En **[!UICONTROL List of outbound segments]**, haga clic en **[!UICONTROL Add an element]** y haga clic en ![](assets/edit_darkgrey-24px.png) para crear un segmento dirigido a personas de la segunda ciudad. Aquí Chicago.
+1. Arrastre y suelte **[!UICONTROL Location]** y seleccione **[!UICONTROL City]** con el operador **[!UICONTROL equals to]** e introduzca **[!UICONTROL Chicago]** en el valor.
+1. Para llegar a todas las personas introducidas en Chicago, sin tener en cuenta el caso, desactive la opción que distingue mayúsculas de minúsculas.
+1. Haga clic en **[!UICONTROL Confirm]**.
 
 ## Creación de una entrega de correo electrónico{#creating-an-email-delivery}
 
@@ -62,10 +62,10 @@ Nota: Para llegar a todas las personas que entraron en Boston, sin tener en cuen
 1. Inserte elementos o seleccione una plantilla existente.
 1. Personalice su correo electrónico con ofertas específicas para cada ubicación.
 
-   Para obtener más información, consulte [Diseño de un correo electrónico](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+   Para obtener más información, consulte [diseño de un correo electrónico](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 
-1. Haga clic **[!UICONTROL Preview]** para comprobar el diseño.
-1. Haga clic **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Preview]** para comprobar el diseño.
+1. Haga clic en **[!UICONTROL Save]**.
 
 ![](assets/wf-segmentation-location.png)
 
