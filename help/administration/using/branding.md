@@ -12,8 +12,11 @@ discoiquuid: cbb1dcec-3bc6-4013-87fa-27d0e5d32bf8
 context-tags: branding,overview;branding,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e18407ab4bf70caa417b16bbc645fd2c6ba1818b
+workflow-type: ht
+source-wordcount: '983'
+ht-degree: 100%
 
 ---
 
@@ -22,62 +25,62 @@ source-git-commit: e18407ab4bf70caa417b16bbc645fd2c6ba1818b
 
 ## Acerca de la identidad de marca {#about-brand-identity}
 
-Cada compañía tiene directrices técnicas y visuales de marca. Con Adobe Campaign, puede definir un conjunto de especificaciones para presentar una marca coherente a sus clientes, desde logotipos hasta aspectos técnicos, como remitente de correo electrónico, dirección URL o dominios.
+Cada compañía tiene directrices técnicas y visuales de marca. Con Adobe Campaign, puede definir un conjunto de especificaciones para presentar una marca coherente a sus clientes, desde logotipos hasta aspectos técnicos, como el remitente de correos electrónicos, la dirección URL o los dominios.
 
 Los administradores técnicos pueden definir una o varias marcas para introducir de forma centralizada los parámetros que afectan a la identidad de una marca. Esto incluye el logotipo de la marca, el dominio de la URL de acceso de la página de aterrizaje o la configuración del seguimiento de mensajes. Con Adobe Campaign, puede crear estas marcas y vincularlas a mensajes o páginas de aterrizaje. Esta configuración se administra en plantillas.
 
 ## Configuración y uso de marcas {#configuring-and-using-brands}
 
-El principio principal de la configuración y el uso de marcas es:
+El principio primordial de la configuración y el uso de marcas es:
 
 1. Crear y configurar la marca: esta operación requiere permisos específicos y la realiza el administrador técnico de Adobe Campaign.
-1. Cree una o varias plantillas de envío y página de aterrizaje para esta marca. Consulte la sección [Creación de una plantilla](../../start/using/marketing-activity-templates.md) .
-1. Cree mensajes y páginas de aterrizaje basados en esta plantilla. Consulte las secciones [Creación de un correo electrónico](../../channels/using/creating-an-email.md) y [Creación de una página de aterrizaje](../../channels/using/designing-a-landing-page.md) .
+1. Cree una o varias plantillas de envío y página de aterrizaje para esta marca. Consulte la sección [Creación de una plantilla](../../start/using/marketing-activity-templates.md).
+1. Cree mensajes y páginas de aterrizaje basados en esta plantilla. Consulte las secciones [Creación de un correo electrónico](../../channels/using/creating-an-email.md) y [Creación de una página de aterrizaje](../../channels/using/designing-a-landing-page.md).
 
 >[!IMPORTANT]
 >
->Los usuarios finales no pueden crear ni modificar marcas: estas operaciones deben ser realizadas por el administrador técnico de Adobe Campaign. Para cualquier solicitud, póngase en contacto con el servicio de atención al cliente de Adobe.
+>Los usuarios finales no pueden crear ni modificar marcas: estas operaciones deben ser realizadas por el administrador técnico de Adobe Campaign. Para cualquier pregunta, póngase en contacto con el servicio de atención al cliente de Adobe.
 >
->No se puede utilizar la marca múltiple en el contexto de la mensajería transaccional. Para obtener más información sobre esto, consulte [Mensajes transaccionales y marca](../../channels/using/about-transactional-messaging.md#permissions-and-branding).
+>No se puede utilizar el concepto de multimarca en el contexto de la mensajería transaccional. Para obtener más información, consulte [Mensajes transaccionales y marca](../../channels/using/about-transactional-messaging.md#permissions-and-branding).
 
-Las marcas se encuentran en el **[!UICONTROL Administration > Instance settings > Brand configuration]** menú.
+Las marcas se encuentran en el menú **[!UICONTROL Administration > Instance settings > Brand configuration]**.
 
 De forma predeterminada, una marca recién creada solo es visible para los usuarios asignados con los derechos correspondientes por el administrador.
 
 Una **marca** se define con las siguientes características:
 
-* Una **identidad** que define y personaliza su marca. Esta sección contiene los campos siguientes:
+* Una **identidad**, que define y personaliza su marca. Esta sección contiene los campos siguientes:
 
    ![](assets/branding_01.png)
 
-   * **Etiqueta** visible en la interfaz
-   * **Marca**
-   * **Dirección URL** del sitio web y etiqueta **del** sitio web de la marca
-   * **Logotipo de marca**
+   * **Etiqueta** visible en la interfaz.
+   * **Nombre de la marca**.
+   * **Dirección URL** y **etiqueta del sitio web** de la marca.
+   * **Logotipo de marca**.
 
-* **[!UICONTROL Header parameters of sent emails]** que personaliza lo que verán los destinatarios de sus campañas. Esta sección contiene los campos siguientes:
+* **[!UICONTROL Header parameters of sent emails]**, que personaliza lo que ven los destinatarios de sus campañas. Esta sección contiene los campos siguientes:
 
    ![](assets/branding_04_header.png)
 
    * **Remitente (dirección de correo electrónico)** con la dirección de correo electrónico de la marca.
    * **Remitente (nombre)** con el nombre de la marca.
    * **Responder a (dirección de correo electrónico)** con la dirección de correo electrónico a la que el cliente puede responder.
-   * **Responda a (nombre)** con el nombre de la marca.
-   * **Error (dirección de correo electrónico)** con la dirección de correo electrónico que se utilizará en caso de error.
+   * **Responder a (nombre)** con el nombre de la marca.
+   * **Error (dirección de correo electrónico)** con la dirección de correo electrónico que se utiliza en caso de error.
    >[!IMPORTANT]
    >
-   >Después de haber actualizado los parámetros de encabezado de los correos electrónicos, si el nombre y la dirección de correo electrónico del remitente no han cambiado en el correo electrónico creado a partir de la plantilla, compruebe la configuración avanzada de la plantilla.
+   >Después de haber actualizado los parámetros de encabezado de los correos electrónicos, si el nombre y la dirección de correo electrónico del remitente no han cambiado en el correo electrónico creado a partir de la plantilla, compruebe la configuración avanzada de esta.
 
 * **Los servidores expuestos en Internet** definen los servidores utilizados para el seguimiento, pero también para el acceso de página de aterrizaje. Esta sección contiene los campos siguientes:
 
    ![](assets/configure_branding_04.png)
 
-   * **Dirección URL externa del servidor** de aplicaciones utilizado para alojar y acceder a las distintas páginas de aterrizaje que cree.
-   * **Dirección URL externa del servidor** de seguimiento utilizada como dirección URL rastreada durante los envíos.
-   * **Dirección URL externa del servidor** de página espejo que se utiliza como página espejo predeterminada en los envíos.
+   * **Dirección URL externa del servidor de aplicaciones**, que se utiliza para alojar y acceder a las distintas páginas de aterrizaje que cree.
+   * **Dirección URL externa del servidor de seguimiento**, que se utiliza como dirección URL rastreada durante los envíos.
+   * **Dirección URL externa del servidor de página espejo**, que se utiliza como página espejo predeterminada en los envíos.
    >[!NOTE]
    >
-   >Para mostrar la previsualización de página de aterrizaje y el procesamiento de páginas espejo en la interfaz de usuario de la Campaña, las URL del servidor de aplicaciones y del servidor de página espejo deben ser seguras. En ese caso, utilice https:// en lugar de http:// al configurar estas direcciones URL.
+   >Para mostrar la vista previa de la página de aterrizaje y el procesamiento de páginas espejo en la interfaz de usuario de Campaign, las URL del servidor de aplicaciones y del servidor de página espejo deben ser seguras. En ese caso, utilice https:// en lugar de http:// al configurar estas direcciones URL.
 
 * **[!UICONTROL Tracking URL configuration (Web Analytics)]**, que define la configuración del seguimiento de direcciones URL de su marca.
 
@@ -89,15 +92,15 @@ Una **marca** se define con las siguientes características:
 
 ### Vinculación de una marca a una plantilla {#linking-a-brand-to-a-template}
 
-Para utilizar los parámetros definidos para una marca, debe estar vinculada a una plantilla de Plantilla de envíos o página de aterrizaje. Para ello, debe crear o editar una plantilla.
+Para utilizar los parámetros definidos para una marca, debe estar vinculada a una plantilla de envío o de página de aterrizaje. Para ello, debe crear o editar una plantilla.
 
 >[!NOTE]
 >
->Para obtener más información sobre la creación de una plantilla, consulte la sección [Creación de una plantilla](../../start/using/marketing-activity-templates.md) .
+>Para obtener más información sobre la creación de una plantilla, consulte la sección [Creación de una plantilla](../../start/using/marketing-activity-templates.md).
 
 Una vez creada la plantilla, puede vincularla a una marca. Para ello:
 
-1. Haga clic en el **[!UICONTROL Edit properties]** botón para acceder a las propiedades de la plantilla.
+1. Haga clic en el botón **[!UICONTROL Edit properties]** para acceder a las propiedades de la plantilla.
 
    ![](assets/branding_04.png)
 
@@ -105,19 +108,19 @@ Una vez creada la plantilla, puede vincularla a una marca. Para ello:
 
    >[!NOTE]
    >
-   >By default, the **[!UICONTROL Default brand (branding)]** is selected.
+   >La **[!UICONTROL Default brand (branding)]** está seleccionada de forma predeterminada.
 
    ![](assets/branding_05.png)
 
-   Para vista de la configuración de la marca seleccionada, haga clic en el **[!UICONTROL Navigate to the detail of the element selected]** icono .
+   Para ver la configuración de la marca seleccionada, haga clic en el icono **[!UICONTROL Navigate to the detail of the element selected]**.
 
    ![](assets/branding_06.png)
 
-1. Confirme la selección y guarde la plantilla.
+1. Confirme la selección y guarde el flujo de trabajo.
 
-La plantilla está vinculada a la marca. En el editor de correo electrónico, los elementos como la dirección de **correo electrónico del remitente** predeterminado, el nombre **del remitente** predeterminado o el **logotipo** utilizarán los datos de marca configurados.
+La plantilla está vinculada a la marca. En el editor de correo electrónico, los elementos como la **dirección de correo electrónico del remitente predeterminado**, el **nombre del remitente predeterminado** o el **logotipo** utilizan los datos de marca configurados.
 
-### Caso de uso de marca {#branding-use-case}
+### Caso de uso de la marca {#branding-use-case}
 
 En este ejemplo, vamos a crear una nueva marca relacionada con el turismo y utilizarla en un mensaje de correo electrónico.
 
@@ -125,29 +128,29 @@ En este ejemplo, vamos a crear una nueva marca relacionada con el turismo y util
 
 >[!IMPORTANT]
 >
->La configuración de marca solo la administra Adobe, ya que requiere permisos específicos y configuración técnica.
+>La configuración de una marca solo la administra Adobe, ya que requiere permisos específicos y configuración técnica.
 
-1. El administrador de Adobe Campaign crea la marca en **[!UICONTROL Administration > Instance settings > Brand configuration]**. Agrega el elemento **Vacaciones en los trópicos** desde el menú avanzado y configura el **[!UICONTROL ID]** y el **[!UICONTROL Header parameters of sent emails]** de la marca.
+1. El administrador de Adobe Campaign crea la marca en **[!UICONTROL Administration > Instance settings > Brand configuration]**. Añade el elemento **Vacaciones en los trópicos** desde el menú avanzado y configura el **[!UICONTROL ID]** y el **[!UICONTROL Header parameters of sent emails]** de la marca.
 
    ![](assets/branding_07.png)
 
 1. A continuación, el administrador configura la dirección URL de los **servidores expuestos en Internet** para que se puedan utilizar las páginas de aterrizaje y, a continuación, las direcciones URL de seguimiento.
 
-   En este ejemplo, la herramienta **Web Analytics** utilizada es **Google Analytics**. El administrador configura la URL de seguimiento de la siguiente manera:
+   En este ejemplo, la herramienta **de análisis web** utilizada es **Google Analytics**. El administrador configura la URL de seguimiento de la siguiente manera:
 
    ![](assets/branding_12.png)
 
-La marca se crea y configura correctamente. Ahora puede ser utilizado por los equipos de mercadotecnia.
+La marca se crea y configura correctamente. Ahora puede usarse en los equipos de marketing.
 
 #### Implementar una nueva marca {#implement-a-new-brand}
 
-Como administrador de envíos, usted se encarga de crear las Plantillas de envíos para utilizar la nueva marca. Para lograrlo, siga los pasos a continuación:
+Como administrador de envíos, usted se encarga de crear las plantillas de envío para utilizar la nueva marca. Para conseguir esto, siga los pasos a continuación:
 
-1. En el menú avanzado **[!UICONTROL Resources > Templates > Delivery templates]**, duplicado una plantilla integrada para configurar una nueva Plantilla de envíos.
+1. En el menú avanzado **[!UICONTROL Resources > Templates > Delivery templates]**, duplique una plantilla integrada para configurar una nueva plantilla de envío.
 
    ![](assets/branding_08.png)
 
-1. Para vincular esta plantilla a las **Vacaciones de la marca Tropics** , edite las propiedades de la plantilla y seleccione la marca en la lista desplegable.
+1. Para vincular esta plantilla a la marca **Vacaciones en los trópicos**, edite las propiedades de la plantilla y seleccione la marca en la lista desplegable.
 
    ![](assets/branding_09.png)
 
@@ -156,21 +159,21 @@ Como administrador de envíos, usted se encarga de crear las Plantillas de enví
 
    ![](assets/branding_10.png)
 
-   La Plantilla de envíos ahora se puede utilizar para crear correos electrónicos que se enviarán a una audiencia.
+   La plantilla de envío ahora se puede utilizar para crear correos electrónicos que se pueden enviar a una audiencia.
 
 #### Usar la nueva marca en un envío {#use-the-new-brand-in-a-delivery}
 
 Para crear un correo electrónico vinculado a una marca, siga los pasos a continuación:
 
-1. Haga clic en el **[!UICONTROL Create]** botón en el **[!UICONTROL Marketing activities]** menú.
+1. Haga clic en el botón **[!UICONTROL Create]** en el menú **[!UICONTROL Marketing activities]**.
 
    ![](assets/branding_14.png)
 
-1. Seleccione la **[!UICONTROL Email]** actividad y, a continuación, elija la plantilla vinculada a la nueva marca.
+1. Seleccione la actividad **[!UICONTROL Email]** y, a continuación, elija la plantilla vinculada a la nueva marca.
 
    ![](assets/branding_15.png)
 
-1. Su correo electrónico ya está configurado. Puede comprobar la información antes de probarla con los perfiles de prueba y luego enviarla a su audiencia.
+1. Su correo electrónico ya está configurado. Puede comprobar la información antes de probarla con los perfiles de prueba y luego enviarla a la audiencia.
 
    ![](assets/branding_16.png)
 
