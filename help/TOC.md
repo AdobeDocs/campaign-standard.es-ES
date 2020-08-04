@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 91cb524e104fbaa7f3334578d82b3878cc15fc9b
 workflow-type: tm+mt
 source-wordcount: '1550'
-ht-degree: 82%
+ht-degree: 89%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 82%
    + [Planificación de versiones](rn/using/release-planning.md)
    + [Funciones obsoletas](rn/using/deprecated-features.md)
 + Introducción {#getting-started}
-   + [Acerca de Adobe Campaign Standard](start/using/about-campaign-standard.md)
-   + [Privacidad y consentimiento](start/using/privacy.md)
+   + [Acerca de Adobe Campaign Classic](start/using/about-campaign-standard.md)
+   + [Privacidad y consentimiento ](start/using/privacy.md)
    + Descubrimiento de la interfaz {#discovering-the-interface}
       + [Acerca de la interfaz](start/using/about-the-interface.md)
       + [Descripción de la interfaz](start/using/interface-description.md)
@@ -100,7 +100,7 @@ ht-degree: 82%
       + [Acerca del correo postal](channels/using/about-direct-mail.md)
       + [Devolver al remitente](channels/using/return-to-sender.md)
       + [Creación del correo postal](channels/using/creating-the-direct-mail.md)
-      + [Definición del audiencia de correo postal](channels/using/defining-the-direct-mail-audience.md)
+      + [Definición de la audiencia de correo postal](channels/using/defining-the-direct-mail-audience.md)
       + [Definición del contenido de correo postal](channels/using/defining-the-direct-mail-content.md)
    + Mensajería transaccional {#transactional-messaging}
       + [Acerca de la mensajería transaccional](channels/using/about-transactional-messaging.md)
@@ -131,9 +131,9 @@ ht-degree: 82%
    + [Administración de estilos de correo electrónico](designing/using/styles.md)
    + [Administración de vínculos](designing/using/links.md)
    + [Administración de imágenes](designing/using/images.md)
-   + [Preguntas más frecuentes](designing/using/faq-email-designer.md)
+   + [Preguntas frecuentes](designing/using/faq-email-designer.md)
 + Prueba y envío {#testing-and-sending}
-   + [Comenzar a realizar pruebas y enviar](sending/using/get-started-sending-messages.md)
+   + [Introducción a las pruebas y envíos](sending/using/get-started-sending-messages.md)
    + Preparación y prueba de mensajes {#preparing-and-testing-messages}
       + [Vista previa de entregas](sending/using/previewing-messages.md)
       + [Preparación del envío](sending/using/preparing-the-send.md)
@@ -153,10 +153,10 @@ ht-degree: 82%
       + [Seguimiento de mensajes](sending/using/tracking-messages.md)
       + [Archivado con Email BCC](sending/using/archiving.md)
    + Supervisión de mensajes {#monitoring-messages}
-      + [Seguimiento de un envío](sending/using/monitoring-a-delivery.md)
+      + [Seguimiento de una entrega](sending/using/monitoring-a-delivery.md)
       + [Recibir alertas cuando se produzcan errores](sending/using/receiving-alerts-when-failures-happen.md)
-      + [Comprensión de los errores de envío](sending/using/understanding-delivery-failures.md)
-      + [Compresión de la gestión de la cuarentena](sending/using/understanding-quarantine-management.md)
+      + [Comprensión de los errores de entrega](sending/using/understanding-delivery-failures.md)
+      + [Comprensión de la gestión de la cuarentena](sending/using/understanding-quarantine-management.md)
    + Administración de envíos {#managing-deliverability}
       + [Acerca de la capacidad del envío](sending/using/about-deliverability.md)
       + [Inicio de una nueva plataforma](sending/using/starting-new-platform.md)
@@ -205,7 +205,7 @@ ht-degree: 82%
       + [Creación de una dimensión de perfil personalizada](reporting/using/creating-a-custom-profile-dimension.md)
       + [Creación de un informe basado en segmentos de flujo de trabajo](reporting/using/creating-a-report-workflow-segment.md)
 + Integración con otras soluciones {#integrating-with-adobe-cloud}
-   + [Introducción a las integraciones de Campañas](integrating/using/get-started-campaign-integrations.md)
+   + [Integraciones de Campaign Standard](integrating/using/get-started-campaign-integrations.md)
    + Campaign y Experience Manager {#working-with-campaign-and-experience-manager}
       + [Acerca de la integración de Experience Manager en Campaign](integrating/using/integrating-with-experience-manager.md)
       + [Configuración de la integración Campaign Experience Manager](integrating/using/configure-experience-manager.md)
@@ -236,7 +236,7 @@ ht-degree: 82%
       + [Prueba de los activadores](integrating/using/testing-your-triggers.md)
       + [Ejemplos prácticos de activadores de abandono](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign y Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [Introducción a la integración de Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+      + [Introducción a la integración con Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 + Administración de procesos y datos {#managing-processes-and-data}
    + [Introducción a la administración de procesos y datos](automating/using/get-started-workflows.md)
    + Funcionamiento general del flujo de trabajo {#workflow-general-operation}
@@ -265,8 +265,8 @@ ht-degree: 82%
       + [Enriquecimiento](automating/using/enrichment.md)
    + Actividades de ejecución {#execution-activities}
       + [Acerca de las actividades de ejecución](automating/using/about-execution-activities.md)
-      + [Inicio y final](automating/using/start-and-end.md)
-      + [Fork](automating/using/fork.md)
+      + [Inicio y final (Start y End)](automating/using/start-and-end.md)
+      + [Bifurcación (Fork)](automating/using/fork.md)
       + [AND-join](automating/using/and-join.md)
       + [Planificador](automating/using/scheduler.md)
       + [Espera](automating/using/wait.md)
@@ -277,7 +277,7 @@ ht-degree: 82%
       + [Envío de correo electrónico](automating/using/email-delivery.md)
       + [Envío de SMS](automating/using/sms-delivery.md)
       + [Envío de notificaciones push](automating/using/push-notification-delivery.md)
-      + [Envío directo por correo](automating/using/direct-mail-delivery.md)
+      + [Envío por correo postal](automating/using/direct-mail-delivery.md)
       + [Entrega en la aplicación](automating/using/in-app-delivery.md)
    + Actividades de gestión de datos {#data-management-activities}
       + [Acerca de las actividades de administración de datos](automating/using/about-data-management-activities.md)
