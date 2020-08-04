@@ -1,6 +1,6 @@
 ---
 title: Reconciliación
-description: La actividad Reconciliación permite vincular datos no identificados a recursos existentes.
+description: La actividad Reconciliación le permite vincular datos no identificados a recursos existentes.
 page-status-flag: never-activated
 uuid: 7884db8c-1717-4724-be15-3b0b32ccc071
 contentOwner: sauviat
@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 1%
+ht-degree: 95%
 
 ---
 
@@ -27,15 +27,15 @@ ht-degree: 1%
 
 ![](assets/reconciliation.png)
 
-La **[!UICONTROL Reconciliation]** actividad le permite vincular datos no identificados a recursos existentes.
+La actividad **[!UICONTROL Reconciliation]** le permite vincular datos no identificados a recursos existentes.
 
 ## Contexto de uso {#context-of-use}
 
-La **[!UICONTROL Reconciliation]** actividad se utiliza esencialmente con fines de Gestión de datos e implica dos casos de uso diferentes:
+La actividad **[!UICONTROL Reconciliation]** se utiliza esencialmente con fines de gestión de datos e implica dos casos de uso diferentes:
 
-* Añadir relaciones: una **[!UICONTROL Links]** ficha permite agregar vínculos entre los datos de entrada y otras dimensiones de la base de datos de Adobe Campaign.
+* Añadir relaciones: una pestaña **[!UICONTROL Links]** permite agregar vínculos entre los datos de entrada y otras dimensiones de la base de datos de Adobe Campaign.
 
-   Por ejemplo, un archivo que contenga datos de compra también puede contener información para identificar tanto los productos comprados como el comprador. Dos dimensiones adicionales (además de la de **Compras**) están preocupadas por los datos del archivo: las dimensiones **Productos** y **Perfiles** . Luego deben crearse relaciones entre éstas y la dimensión **Compras** (consulte el siguiente ejemplo).
+   Por ejemplo, un archivo que contenga datos de compra también puede tener información para identificar tanto a los productos comprados como al comprador. Dos dimensiones adicionales (además de la de **Purchases**) están preocupadas por los datos del archivo: las dimensiones **Products** y **Profiles**. Luego deben crearse relaciones entre estas y la dimensión **Purchases** (consulte el siguiente ejemplo).
 
    Al definir una relación, se agrega una columna a los datos de entrada para hacer referencia a la clave externa de la dimensión vinculada.
 
@@ -43,11 +43,11 @@ La **[!UICONTROL Reconciliation]** actividad se utiliza esencialmente con fines 
    >
    >Esta operación implica que los datos de las dimensiones vinculadas ya están en la base de datos. Por ejemplo, si importa un archivo de compras que muestre qué producto se compró, a qué hora, por qué cliente, etc., el producto y el cliente ya deben existir en la base de datos.
 
-* Identificación de datos: una **[!UICONTROL Identification]** ficha permite simplemente vincular datos de entrada a columnas de una dimensión existente en la base de datos de Adobe Campaign. Después de la actividad, los datos se identifican como pertenecientes a la dimensión definida.
+* Identificación de datos: una pestaña **[!UICONTROL Identification]** permite simplemente vincular datos de entrada a columnas de una dimensión existente en la base de datos de Adobe Campaign. Después de la actividad, los datos se identifican como pertenecientes a la dimensión definida.
 
-   Por ejemplo, puede realizar una audiencia de almacenamiento, una actualización de la base de datos, etc.
+   Por ejemplo, puede guardar una audiencia, actualizar la base de datos, etc.
 
-Por ejemplo, la **[!UICONTROL Reconciliation]** actividad se puede colocar después de una actividad de datos de carga con el fin de importar datos no estándar en la base de datos.
+Por ejemplo, la actividad **[!UICONTROL Reconciliation]** se puede colocar después de una actividad de datos de carga con el fin de importar datos no estándar en la base de datos.
 
 **Temas relacionados:**
 
@@ -57,21 +57,21 @@ Por ejemplo, la **[!UICONTROL Reconciliation]** actividad se puede colocar despu
 
 ## Configuración {#configuration}
 
-1. Arrastre y suelte una **[!UICONTROL Reconciliation]** actividad en el flujo de trabajo, siguiendo una transición que contenga una población cuya dimensión de segmentación no proviene directamente del Adobe Campaign. Para obtener más información sobre esto, consulte [Dimensiones de segmentación y recursos](../../automating/using/query.md#targeting-dimensions-and-resources).
-1. Seleccione la actividad y, a continuación, ábrala con el ![](assets/edit_darkgrey-24px.png) botón de las acciones rápidas que aparecen.
-1. Si desea definir vínculos entre los datos de entrada y otras dimensiones de base de datos, vaya a la **[!UICONTROL Links]** ficha .
+1. Arrastre y suelte una actividad **[!UICONTROL Reconciliation]** en el flujo de trabajo siguiendo una transición que contenga una población cuya dimensión de segmentación no provenga directamente de Adobe Campaign. Para obtener más información sobre esto, consulte [Dimensiones de segmentación y recursos](../../automating/using/query.md#targeting-dimensions-and-resources).
+1. Seleccione la actividad y, a continuación, ábrala con el botón ![](assets/edit_darkgrey-24px.png), en las acciones rápidas que aparecerán.
+1. Si desea definir vínculos entre los datos de entrada y otras dimensiones de base de datos, vaya a la pestaña **[!UICONTROL Links]**.
 
-   Añada tantas relaciones como sea necesario. Para cada relación, primero seleccione la dimensión vinculada y luego, en el detalle del vínculo, especifique los campos correspondientes.
+   Añada tantas relaciones como sea necesario. Para cada relación, primero seleccione la dimensión vinculada y, luego, en el detalle del vínculo, especifique los campos correspondientes.
 
-1. Si desea simplemente identificar los datos de entrada, vaya a la **[!UICONTROL Identification]** ficha y marque la **[!UICONTROL Identify the document from the working data]** casilla.
+1. Si desea simplemente identificar los datos de entrada, vaya a la pestaña **[!UICONTROL Identification]** y marque la casilla **[!UICONTROL Identify the document from the working data]**.
 
    Seleccione la dimensión de segmentación a la que desea reconciliar los datos de entrada.
 
    Añada criterios de reconciliación para vincular un registro de transición entrante a un registro de dimensión de segmentación seleccionado. Si se especifican varios criterios, todos deben verificarse para que funcione el vínculo entre todos sus datos.
 
-   Elija el **[!UICONTROL Processing unidentified source lines]** modo:
+   Elija el modo **[!UICONTROL Processing unidentified source lines]**:
 
-   * **[!UICONTROL Ignore them]**:: sólo los datos identificables se conservan en la transición saliente de la actividad.
-   * **[!UICONTROL Keep in the outbound population]**:: todos los datos de la transición entrante se guardan en la transición saliente de la actividad.
+   * **[!UICONTROL Ignore them]**: solo los datos identificables se conservan en la transición saliente de la actividad.
+   * **[!UICONTROL Keep in the outbound population]**: todos los datos de la transición entrante se guardan en la transición saliente de la actividad.
 
 1. Confirme la configuración de la actividad y guarde el flujo de trabajo.
