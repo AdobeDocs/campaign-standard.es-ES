@@ -1,46 +1,49 @@
 ---
-title: Fork
-description: La actividad Fork le permite crear transiciones de salida para iniciar varias actividades al mismo tiempo.
-page-status-flag: nunca activado
+title: Bifurcación (Fork)
+description: La actividad Bifurcación permite crear transiciones de salida para el inicio de varias actividades al mismo tiempo.
+page-status-flag: never-activated
 uuid: e4eaf69b-84ee-4f79-8b80-99284697cd2c
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: automatizar
-content-type: referencia
-topic-tags: execute-activity
+audience: automating
+content-type: reference
+topic-tags: execution-activities
 discoiquuid: f8ffe7af-e18c-4599-8fd0-fcd192565323
-context-tags: horquilla,principal
+context-tags: fork,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+workflow-type: ht
+source-wordcount: '210'
+ht-degree: 100%
 
 ---
 
 
-# Fork{#fork}
+# Bifurcación (Fork) {#fork}
 
 ## Descripción {#description}
 
 ![](assets/fork.png)
 
-La **[!UICONTROL Fork]** actividad permite crear transiciones de salida para iniciar varias actividades al mismo tiempo.
+La actividad **[!UICONTROL Fork]** permite crear transiciones salientes para el inicio de varias actividades al mismo tiempo.
 
 ## Contexto de uso {#context-of-use}
 
-La **[!UICONTROL Fork]** actividad le permite llevar a cabo varias actividades diferentes de forma independiente dentro del mismo flujo de trabajo.
+La actividad **[!UICONTROL Fork]** le permite llevar a cabo varias actividades diferentes de forma independiente dentro del mismo flujo de trabajo.
 
 ## Configuración {#configuration}
 
-1. Arrastre y suelte una **[!UICONTROL Fork]** actividad en el flujo de trabajo.
-1. Conéctelo a las demás actividades anteriores, como consultas.
-1. Seleccione la actividad y, a continuación, ábrala con el ![](assets/edit_darkgrey-24px.png) botón de las acciones rápidas que aparecen.
+1. Arrastre y suelte una actividad de **[!UICONTROL Fork]** en el flujo de trabajo.
+1. Conéctelo a las demás actividades que le precedan, como consultas.
+1. Seleccione la actividad y, a continuación, ábrala con el botón ![](assets/edit_darkgrey-24px.png), en las acciones rápidas que aparecerán.
 1. Especifique el número de transiciones de salida creándolas, eliminándolas o duplicándolas. También puede atribuirles un nombre y una etiqueta.
 1. Confirme la configuración de la actividad y guarde el flujo de trabajo.
 
 ## Ejemplo {#example}
 
-El siguiente ejemplo muestra una intersección de dos actividades de consulta que segmentan perfiles de la base de datos de Adobe Campaign. En este caso, las mujeres que viven en París. Por lo tanto, la actividad de la horquilla le permite utilizar varias actividades al mismo tiempo: una que guarda a la audiencia para que recuerde la población calculada y otra que segmenta la población para que envíe dos correos electrónicos diferentes con un contenido de objetivo para cada segmento. El primer correo electrónico se envía a mujeres parisinas de entre 18 y 40 años y a otras mujeres parisinas de más de 40 años.
+En el siguiente ejemplo se muestra una intersección de dos actividades de consulta que identifica perfiles de la base de datos de Adobe Campaign, en este caso mujeres que viven en París. La actividad Bifurcación permite utilizar varias actividades al mismo tiempo: una que guarda la audiencia para recordar la población calculada y otra que segmenta la población para enviar dos correos electrónicos diferentes con un contenido de objetivo para cada segmento. El primer correo electrónico se envía a mujeres parisinas de entre 18 y 40 años y otro, a mujeres parisinas de más de 40 años.
 
 ![](assets/wkf_fork_example.png)
 
