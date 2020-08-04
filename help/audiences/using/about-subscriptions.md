@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
 source-wordcount: '146'
-ht-degree: 4%
+ht-degree: 80%
 
 ---
 
@@ -24,15 +24,15 @@ ht-degree: 4%
 
 Adobe Campaign le permite crear y administrar boletines informativos y comunicaciones entre canales mediante un conjunto de **servicios**: solo se pueden enviar mensajes a perfiles suscritos al servicio (opción de inclusión). Estos perfiles se identifican mediante un filtro específico al crear un mensaje.
 
-Se pueden configurar mecanismos de Suscripción para oferta a sus clientes de la posibilidad de suscribirse a estos servicios, especialmente a través de **correos electrónicos** y **páginas de aterrizaje**.
+Se pueden configurar mecanismos de suscripción para ofrecer a sus clientes la posibilidad de suscribirse a estos servicios, especialmente a través de **correos electrónicos** y **páginas de aterrizaje**.
 
 Cada servicio incluye:
 
-* **Suscripción** (inclusión) y **[!UICONTROL Unsubscription]** (exclusión).
-* Suscripción y/o mecanismos **de confirmación bajas**.
-* Una **historia** de suscripción.
+* Mecanismos de **suscripción** (inclusión) y **[!UICONTROL Unsubscription]** (exclusión).
+* **Mecanismos de confirmación** de la suscripción o la cancelación de la suscripción.
+* Un **historial** de suscripciones.
 
-Las Suscripciones también se pueden administrar mediante la API de Adobe Campaign Standard. For more on this, refer to the [dedicated documentation](../../api/using/creating-a-service.md) .
+Las suscripciones también se pueden administrar mediante la API de Adobe Campaign Standard. Para obtener más información, consulte la [documentación específica](../../api/using/creating-a-service.md).
 
 **Temas relacionados**
 
