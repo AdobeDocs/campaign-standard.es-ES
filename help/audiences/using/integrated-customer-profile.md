@@ -1,6 +1,6 @@
 ---
 title: Perfil de cliente integrado
-description: '"Rastree la interacción de cada cliente en una sola vista: El perfil de cliente integrado de Adobe Campaign se actualiza durante todo el ciclo de vida del cliente".'
+description: '“Rastree la interacción de cada cliente en una sola vista: el perfil de cliente integrado de Adobe Campaign se actualiza durante todo el ciclo de vida del cliente”.'
 page-status-flag: never-activated
 uuid: da2eb13a-2268-4a99-939c-c6388f5d34f3
 contentOwner: sauviat
@@ -12,24 +12,27 @@ discoiquuid: d44656e8-e652-45fc-a05c-0d5ffe456ecb
 context-tags: marketingHistory,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fcd14668fc862b0ef4e2b294acd544739508471d
+workflow-type: ht
+source-wordcount: '180'
+ht-degree: 100%
 
 ---
 
 
 # Perfil de cliente integrado{#integrated-customer-profile}
 
-Hay disponible un perfil de cliente integrado para cada contacto de la base de datos. Este historial de mercadotecnia combina toda la información de mercadotecnia relevante relativa al contacto con un cliente en una sola vista. A continuación, puede acceder a todos los comportamientos digitales, transacciones en línea y sin conexión en una ubicación central: información de contacto, correos electrónicos recibidos, registros de seguimiento, suscripciones y cancelaciones de suscripciones, etc.
+Hay disponible un perfil de cliente integrado para cada contacto de la base de datos. Este historial de marketing combina toda la información de comercialización relevante relativa al contacto con un cliente en una sola vista. A continuación, puede acceder a todos los comportamientos digitales, transacciones en línea y sin conexión en una ubicación central: información de contacto, correos electrónicos recibidos, registros de seguimiento, suscripciones y cancelaciones de suscripciones, etc.
 
-Para acceder al perfil de cliente integrado, siga estos pasos:
+Para acceder al perfil integrado del cliente, siga estos pasos:
 
-1. En la página de inicio de Adobe Campaign, haga clic en la **[!UICONTROL Customer profiles]** tarjeta o en la ficha **Perfiles** .
+1. En la página de inicio de Adobe Campaign, haga clic en la tarjeta **[!UICONTROL Customer profiles]** o en la pestaña **Perfiles**.
 1. Seleccione un contacto.
 
    ![](assets/mkt_hist_access.png)
 
-A continuación, puede acceder al historial **de** marketing de este contacto.
+Luego puede acceder al **historial de marketing** de este contacto.
 
 ![](assets/mkt_hist_view.png)
 
@@ -39,4 +42,4 @@ Haga clic en un evento de la lista para abrirlo: puede acceder al mensaje que se
 
 >[!NOTE]
 >
->También se puede acceder al historial de marketing mediante la API de Adobe Campaign Standard. For more on this, refer to the [dedicated documentation](../../api/using/interacting-with-marketing-history.md) .
+>También se puede acceder a historial de marketing mediante la API de Adobe Campaign Standard. Para obtener más información, consulte la [documentación específica](../../api/using/interacting-with-marketing-history.md).
