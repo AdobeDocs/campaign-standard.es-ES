@@ -1,6 +1,6 @@
 ---
 title: Uso compartido de una página de aterrizaje
-description: Obtenga información sobre cómo probar y publicar una página de aterrizaje en Adobe Campaign.
+description: Aprenda a probar y publicar una página de aterrizaje en Adobe Campaign.
 page-status-flag: never-activated
 uuid: fb7b087a-3292-496c-bc41-2e3012bacf59
 contentOwner: sauviat
@@ -11,28 +11,31 @@ topic-tags: landing-pages
 discoiquuid: f7d4bb71-f957-4f86-97c7-8ac0a0030026
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54612511de07edc3e6f3eea34ef095c26b35f4af
+workflow-type: ht
+source-wordcount: '383'
+ht-degree: 100%
 
 ---
 
 
 # Prueba y publicación de una página de aterrizaje{#testing-publishing--landing-page}
 
-## Acerca de la publicación de la página de aterrizaje {#about-landing-page-publication}
+## Acerca de la publicación de páginas de aterrizaje {#about-landing-page-publication}
 
-Antes de publicar una página de aterrizaje, debe realizar pruebas: valide la ejecución, configure el acceso y configure el final de la vida útil de la página de aterrizaje. Estos pasos son requisitos previos y deben ejecutarse con precaución.
+Antes de publicar una página de aterrizaje, debe hacer pruebas: valide la ejecución, configure el acceso y configure la caducidad de la página de aterrizaje. Estos pasos son requisitos previos y deben ejecutarse con precaución.
 
 ## Prueba de la página de aterrizaje {#testing-the-landing-page-}
 
-Dado que la página de aterrizaje afectará a la plataforma y a los datos, debe probar cuidadosamente su ejecución. Para ello:
+Dado que la página de aterrizaje afectará a la plataforma y a los datos, debe probar su ejecución detenidamente. Para ello:
 
-1. Haga clic en el **[!UICONTROL Test]** botón de la barra de acciones de la página de aterrizaje.
-1. En la pantalla de prueba, seleccione un perfil de prueba y un servicio de prueba para administrar las suscripciones en la página de aterrizaje.
+1. Haga clic en el botón **[!UICONTROL Test]** en la barra de acciones de la página de aterrizaje.
+1. En la pantalla de prueba, seleccione un perfil de prueba y un servicio de prueba si la página de aterrizaje es para administrar suscripciones.
 
    ![](assets/lp_test_2.png)
 
-1. Introduzca datos en los campos y seleccione opciones.
+1. Introduzca datos en los campos y seleccione las opciones relevantes.
 1. Envíe la página de aterrizaje y compruebe las actualizaciones en la base de datos.
 
    >[!IMPORTANT]
@@ -45,21 +48,21 @@ Dado que la página de aterrizaje afectará a la plataforma y a los datos, debe 
 
 >[!NOTE]
 >
->Para mostrar la vista previa de la página de aterrizaje en la interfaz de usuario de Campaign, la dirección URL del servidor de aplicaciones debe ser segura. En ese caso, utilice https:// en lugar de http:// para configurar esta URL al [configurar su marca](../../administration/using/branding.md#configuring-and-using-brands).
+>Para ver la página de aterrizaje en la interfaz de usuario de la Campaign, la URL del servidor de aplicaciones debe ser segura. En ese caso, utilice https:// en lugar de http:// para configurar esta URL al [configurar su marca](../../administration/using/branding.md#configuring-and-using-brands).
 
 ## Configuración de parámetros de validez {#setting-up-validity-parameters}
 
-Antes de publicar, por motivos de seguridad y de rendimiento de la plataforma, le recomendamos encarecidamente que establezca una fecha de caducidad en las propiedades de la página de aterrizaje. En la fecha seleccionada, la página de aterrizaje se cancelará automáticamente la publicación. Para ello:
+Antes de publicar, por motivos de seguridad y de rendimiento de la plataforma, le recomendamos encarecidamente que defina una fecha de vencimiento en las propiedades de la página de aterrizaje. En la fecha seleccionada, la página de aterrizaje se cancelará de forma automática. Para ello:
 
-1. Edite las propiedades de la página de aterrizaje a las que se accede mediante el ![](assets/edit_darkgrey-24px.png) botón del tablero de la página de aterrizaje.
+1. Edite las propiedades de la página de aterrizaje a través del botón ![](assets/edit_darkgrey-24px.png) del panel de la página de aterrizaje.
 
    ![](assets/lp_edit_properties_button.png)
 
-1. Configure la fecha y hora de caducidad en la **[!UICONTROL Publication]** sección: la página de aterrizaje se cancelará automáticamente en la fecha especificada y, por lo tanto, ya no estará disponible.
+1. Configure la fecha y hora de caducidad en la sección **[!UICONTROL Publication]**: la página de aterrizaje se cancelará automáticamente en la fecha especificada y, por tanto, ya no estará disponible.
 
    Puede seleccionar el huso horario que se tendrá en cuenta para esta fecha y hora.
 
-1. Defina una dirección URL de redirección para redireccionar a los visitantes al intentar acceder a una página de aterrizaje no activa.
+1. Defina una URL de redirección para redireccionar los visitantes al intentar acceder a una página de aterrizaje no activa.
 
    ![](assets/lp_settings_general.png)
 
@@ -69,6 +72,6 @@ Antes de publicar, por motivos de seguridad y de rendimiento de la plataforma, l
 
 ## Publicación de una página de aterrizaje {#publishing-a-landing-page}
 
-Al publicar una página de aterrizaje, esta se activa y los visitantes pueden acceder a ella.
+Al publicar una página de aterrizaje, esta se activa y sus visitantes pueden acceder a ella.
 
-Puede cancelar la publicación o actualizar y volver a publicar la página de aterrizaje en cualquier momento, mediante el **[!UICONTROL Publish]** botón. Sin embargo, si la republicación falla y aún no ha cancelado la publicación de la página de aterrizaje, la primera versión permanecerá en línea.
+Puede cancelar la publicación o las actualizaciones, y volver a publicar la página de aterrizaje en cualquier momento haciendo clic en el botón **[!UICONTROL Publish]**. Sin embargo, si la republicación falla y aún no ha cancelado la publicación de la página de aterrizaje, la primera versión permanecerá en línea.
