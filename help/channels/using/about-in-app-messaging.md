@@ -16,35 +16,35 @@ translation-type: tm+mt
 source-git-commit: 4efc42fd6b656c7723ed52f704c801113f9b3817
 workflow-type: tm+mt
 source-wordcount: '930'
-ht-degree: 2%
+ht-degree: 29%
 
 ---
 
 
 # Acerca de la mensajería en la aplicación{#about-in-app-messaging}
 
-La mensajería en la aplicación es un canal de mensajería que le permite mostrar un mensaje cuando el usuario está activo en la aplicación móvil. Este tipo de mensaje es gratuito para las notificaciones push que se envían al centro de notificaciones del teléfono de los usuarios. For more information on the push notification channel, refer to this [section](../../channels/using/about-push-notifications.md).
+La mensajería en la aplicación es un canal de mensajería que le permite mostrar un mensaje cuando el usuario está activo en la aplicación móvil. Este tipo de mensaje es gratuito para las notificaciones push que se envían al centro de notificaciones del teléfono de los usuarios. Para obtener más información sobre el canal de notificaciones push, consulte esta [sección](../../channels/using/about-push-notifications.md).
 
-Este canal requiere que las aplicaciones móviles se integren con el SDK de Adobe Experience Platform. Estas aplicaciones deben activarse en Inicio de Adobe Experience Platform antes de estar disponibles en Adobe Campaign para envíos en la aplicación.
+Este canal requiere que las aplicaciones móviles se integren con el SDK de Adobe Experience Platform. Estas aplicaciones deben activarse en Adobe Experience Platform Launch antes de estar disponibles en Adobe Campaign para entregas en la aplicación.
 
 ![](assets/launch_campaign.png)
 
-Para inicio de enviar mensajes en la aplicación en aplicaciones móviles que aprovechan el SDK de Experience Platform, debe cumplir los siguientes requisitos previos:
+Para empezar a enviar mensajes en la aplicación en aplicaciones móviles que utilicen el SDK de Experience Platform, debe cumplir los siguientes requisitos previos:
 
-1. En Adobe Campaign, asegúrese de tener acceso al **[!UICONTROL In-App]** canal. Si no puede acceder a estos canales, póngase en contacto con el equipo de su cuenta.
+1. En Adobe Campaign, asegúrese de que puede acceder al canal **[!UICONTROL In-App]**. Si no puede acceder a estos canales, póngase en contacto con el equipo de su cuenta.
 
-1. Para aprovechar los casos de uso móvil en Adobe Campaign Standard con una aplicación Experience Cloud SDK, se debe crear una aplicación móvil en Adobe Experience Platform Launch y configurarla en Adobe Campaign Standard. Para obtener la guía paso a paso, consulte esta [página](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+1. Para aprovechar los casos de uso móvil en Adobe Campaign Standard con una aplicación de SDK de Experience Cloud, se debe crear una aplicación móvil en Adobe Experience Platform Launch y configurarla en Adobe Campaign Standard. Para obtener la guía paso a paso, consulte esta [página](https://helpx.adobe.com/es/campaign/kb/configuring-app-sdk.html).
 
-1. Una vez configurado, ahora puede preparar el mensaje en la aplicación. Para obtener más información, consulte [esta página](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message).
+1. Una vez configurada, ahora puede preparar su mensaje en la aplicación. Para obtener más información, consulte [esta página](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message).
 
-1. A continuación, puede decidir enviar un mensaje [](../../channels/using/customizing-an-in-app-message.md) en la aplicación o [personalizar un tipo](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)de mensaje de notificación local.
+1. Entonces, puede decidir enviar un [mensaje en la aplicación](../../channels/using/customizing-an-in-app-message.md) o [personalizar un tipo de mensaje de notificación local](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type).
 
-1. Su envío ya está listo para ser enviado. To learn more, refer to this [page](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message).
+1. Su envío está ahora listo para ejecutarse. Para obtener más información, consulte esta [página](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message).
 
 **Contenido relacionado:**
 
 * [Informe en la aplicación](../../reporting/using/in-app-report.md)
-* [Casos de uso móvil admitidos en Adobe Campaign Standard](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html)
+* [Casos de uso móvil admitidos en Adobe Campaign Standard](https://helpx.adobe.com/es/campaign/kb/configure-launch-rules-acs-use-cases.html)
 * [Guía de Campaign Standard Mobile](https://helpx.adobe.com/es/campaign/kb/acs-mobile.html)
 
 ## Preguntas más frecuentes en la aplicación {#in-app-faq}
@@ -53,7 +53,7 @@ Para inicio de enviar mensajes en la aplicación en aplicaciones móviles que ap
 
 Consulte los siguientes recursos:
 
-* [Tutoriales de vídeo](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html)
+* [Tutorials de vídeo](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html)
 * [Entrada de blog](https://theblog.adobe.com/get-more-out-of-the-new-in-app-message-channel-from-adobe-campaign/)
 * [Página de comunidad](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
