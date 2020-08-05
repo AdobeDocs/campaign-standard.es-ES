@@ -13,10 +13,10 @@ context-tags: trigger,overview;trigger,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: 1e790f550f6eb84954f199caeda88a8fd90dfd85
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 98%
+source-wordcount: '475'
+ht-degree: 96%
 
 ---
 
@@ -28,6 +28,10 @@ La integración entre el servicio principal de activación de Experience Cloud *
 En Adobe Experience Cloud, define los distintos activadores; es decir, los comportamientos de cliente que desea monitorizar, como todos los clientes que abandonaron su visita en el sitio web; aquellos que realizaron una búsqueda en el sitio web, pero no realizaron una compra; o incluso los clientes cuya sesión expiró. Al crear un activador, se define la condición del activador y los datos que se enviarán en el evento (carga) a Adobe Campaign.
 
 En Adobe Campaign, se selecciona el activador creado anteriormente, se enriquecen los datos de evento con datos datamart y se define una plantilla de mensaje transaccional vinculada a dicho activador. Por ejemplo, cuando un cliente abandona su visita a su sitio web, se envía un evento a Adobe Campaign que puede aprovechar este evento mediante un correo electrónico de remarketing que se envía al cliente en un plazo de 15 minutos.
+
+El diagrama siguiente detalla cómo funciona esta integración.
+
+![](assets/triggers_diagram.png)
 
 **Temas relacionados:**
 
