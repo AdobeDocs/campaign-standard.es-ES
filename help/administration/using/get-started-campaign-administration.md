@@ -12,12 +12,15 @@ discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 40bb454d13de14658bfc30a6454a1a896bf3ad70
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+workflow-type: tm+mt
+source-wordcount: '658'
+ht-degree: 14%
 
 ---
 
 
-# Get started with Campaign Standard administration {#about-administrating-adobe-campaign}
+# Introducción a la administración de Campaign Standard {#about-administrating-adobe-campaign}
 
 <table>
 <tr><td><img src="assets/do-not-localize/icon_menu.svg" width="60px"><p><a href="#administration-menu">Menú Administración</a></p></td>
@@ -53,7 +56,7 @@ Los diferentes menús disponibles son:
 
 <img src="assets/do-not-localize/icon_users.svg"  width="60px">
 
-Invite a los usuarios a acceder a la aplicación y administrar grupos **de** seguridad, que son conjuntos de usuarios que comparten las mismas funciones y derechos dentro de la organización. De forma predeterminada, Adobe Campaign oferta un conjunto de **funciones** que le permiten definir autorizaciones unitarias asignadas a usuarios y grupos de usuarios. Combinadas con unidades **** organizativas, las funciones proporcionan a los usuarios una vista filtrada de la interfaz y definen su acceso a las diferentes funciones.
+Invite a los usuarios a acceder a la aplicación y administrar grupos **de** seguridad, que son conjuntos de usuarios que comparten las mismas funciones y derechos dentro de la organización. By default, Adobe Campaign offers a set of **roles** which allows you to define unitary authorizations assigned to users and user groups. Combined with **organizational units**, roles give users a filtered view of the interface and define their access to the different features.
 
 El estándar de Campaña también le permite supervisar la información relacionada con la seguridad. Puede recuperar información sobre las exportaciones de datos realizadas por los usuarios a través de la **[!UICONTROL Export audits]** pantalla y aprovechar la pantalla para **[!UICONTROL Licenses]** supervisar todas las licencias de Campaña instaladas dentro de la organización, así como información diferente como el número de compilación, la versión de lanzamiento y los términos de acuerdo.
 
@@ -70,11 +73,11 @@ Más información:
 
 <img src="assets/do-not-localize/icon_channels.svg" width="60px">
 
-Todos los canales de comunicación en Adobe Campaign deben estar correctamente configurados para poder enviar mensajes de forma efectiva., **[!UICONTROL Channel]** El menú le permite administrar los parámetros técnicos vinculados a los diferentes canales.
+Todos los canales de comunicación de Adobe Campaign deben estar correctamente configurados para poder enviar mensajes de forma eficaz., **[!UICONTROL Channel]** El menú le permite administrar los parámetros técnicos vinculados a los diferentes canales.
 
 Configure varios parámetros **de correo electrónico** : reglas de procesamiento para devoluciones, cuarentenas, propiedades de correo electrónico y parámetros de enrutamiento, reglas de tipo. Defina las configuraciones y propiedades de enrutamiento para el canal **SMS** , así como la codificación y los formatos SMS.
 
-Configure aplicaciones **** móviles para poder enviar mensajes en la aplicación y notificaciones push mediante los SDK de la plataforma Adobe Experience y para configurar la mensajería **** transaccional mediante la creación y configuración de eventos.
+Configure aplicaciones **** móviles para poder enviar mensajes en la aplicación y notificaciones push mediante SDK de Adobe Experience Platform, y configure la mensajería **** transaccional creando y configurando eventos.
 
 Más información:
 
