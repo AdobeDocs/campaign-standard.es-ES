@@ -12,7 +12,7 @@ discoiquuid: 4d51229a-745a-4f24-b1c2-22fa203b499c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 2%
@@ -32,6 +32,6 @@ Puede configurar las notificaciones para los siguientes objetos:
 
    ![](assets/pulse_2.png)
 
-* **[!UICONTROL Workflows]**:: cada miembro del grupo de seguridad seleccionado recibe una notificación (por correo electrónico y en la aplicación) cuando se produce un error en un flujo de trabajo. Al hacer clic en la notificación o en el vínculo de correo electrónico se muestra el flujo de trabajo correspondiente. Las notificaciones se desactivan de forma predeterminada en la plantilla de flujo de trabajo lista para usar. Si desea activarlos, edite las propiedades de la plantilla de flujo de trabajo o flujo de trabajo y agregue un grupo de seguridad en **General > Ejecución > Administración de errores > Supervisores**. Para obtener más información sobre los grupos de seguridad, consulte [Administración de grupos y usuarios](../../administration/using/managing-groups-and-users.md). Para obtener más información sobre las propiedades del flujo de trabajo, consulte Propiedades [del flujo de trabajo](../../automating/using/managing-execution-options.md).
+* **[!UICONTROL Workflows]**:: cada miembro del grupo de seguridad seleccionado recibe una notificación (correo electrónico y notificación en la aplicación) siempre que se produzca un error en un flujo de trabajo. Al hacer clic en la notificación o en el vínculo de correo electrónico se muestra el flujo de trabajo correspondiente. Las notificaciones se desactivan de forma predeterminada en la plantilla de flujo de trabajo lista para usar. Si desea activarlos, edite las propiedades de la plantilla de flujo de trabajo o flujo de trabajo y agregue un grupo de seguridad en **General > Ejecución > Administración de errores > Supervisores**. Para obtener más información sobre los grupos de seguridad, consulte [Administración de grupos y usuarios](../../administration/using/managing-groups-and-users.md). Para obtener más información sobre las propiedades del flujo de trabajo, consulte Propiedades [del flujo de trabajo](../../automating/using/managing-execution-options.md).
 
    ![](assets/pulse_1.png)
