@@ -11,11 +11,11 @@ topic-tags: campaign-standard-releases
 discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f4c6b74d9b80d80befed65d853cf82b32084c49d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+workflow-type: tm+mt
 source-wordcount: '1825'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -204,7 +204,7 @@ ht-degree: 100%
 * Se han corregido problemas de rendimiento que podían producirse al seleccionar y actualizar perfiles de prueba. (CAMP-37976)
 * Se ha corregido un problema que podía mostrar páginas de error al suscribirse o cancelar la suscripción mediante páginas de aterrizaje. (CAMP-37771)
 * Se ha corregido un problema que se producía al cargar contenido en formato zip, con archivos PNG referenciados en HTML con su extensión en mayúsculas. (CAMP-37913)
-* Se ha corregido un problema que impedía que se enviaran mensajes en la aplicación al añadir un perfil de prueba al envío.
+* Se ha corregido un problema que impedía que se enviaran mensajes en la aplicación al agregar un perfil de prueba al envío.
 * Se ha corregido un error con la actividad flujo de trabajo de API externa que fallaba al vincularse a actividades de enriquecimiento.
 * Se ha corregido un problema que podía hacer que el estado de los mensajes SMS se mostrara incorrectamente.
 * Se ha corregido un problema con los recursos personalizados que provocaba que las entradas duplicadas aparecieran en diferentes extremos de API.
