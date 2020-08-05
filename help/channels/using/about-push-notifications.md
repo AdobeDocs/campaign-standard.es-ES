@@ -156,7 +156,7 @@ Encontrará instrucciones más detalladas en esta [página](../../administration
 
 ### ¿Qué informes están disponibles para el canal push? {#push-report-available}
 
-Hay disponible un informe listo para usar en Adobe Campaign para el canal push. Refer to this [documentation](../../reporting/using/push-notification-report.md).
+En Adobe Campaign para el canal push hay disponible un informe listo para usar. Refer to this [documentation](../../reporting/using/push-notification-report.md).
 
 Consulte esta [página](../../reporting/using/indicator-calculation.md#push-notification-delivery) para comprender cómo se calculan las métricas push.
 
@@ -165,4 +165,4 @@ Consulte esta [página](../../reporting/using/indicator-calculation.md#push-noti
 Sí, los vínculos profundos son compatibles con los mensajes push. Los vínculos profundos deben incluir:
 
 * idioma que indica que el seguimiento de envíos debe deshabilitarse para que funcionen los vínculos profundos.
-* Appsflyer con Branch como socios que pueden realizar el seguimiento de vínculos profundos. Para obtener más información sobre la integración de ramas y Adobes Campaign Standard, consulte esta [página](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
+* Appsflyer con Branch como socios que pueden realizar el seguimiento de vínculos profundos. Para obtener más información sobre la integración de Branch y Adobe Campaign Standard, consulte esta [página](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
