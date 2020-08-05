@@ -73,7 +73,7 @@ ht-degree: 90%
 
 **Funciones** adicionales (a partir del 13 de julio)
 
-* **Optimización de tiempo de envío con tecnología AI y puntuación** de perfiles: ahora puede optimizar el diseño y el envío de los viajes de los clientes para predecir las preferencias de participación de cada individuo. Con Journey AI, el Adobe Campaign puede analizar y predecir las tasas abiertas, los tiempos de envío óptimos y la probable reproducción basada en métricas de participación históricas. [Más información](../../sending/using/predictive.md)
+* **Optimización de tiempo de envío con tecnología AI y puntuación** de perfiles: ahora puede optimizar el diseño y el envío de los viajes de los clientes para predecir las preferencias de participación de cada individuo. Con la tecnología de Journey AI, Adobe Campaign puede analizar y predecir las tasas abiertas, los tiempos de envío óptimos y la probable reproducción basada en métricas de participación históricas. [Más información](../../sending/using/predictive.md)
 * **La nueva regulación** de privacidad de Brasil - Además de las capacidades de privacidad ya disponibles en Campaña, Adobe le ayuda a facilitar su preparación para el Lei Geral de Proteçao de Datos (LGPD) de Brasil. Al crear una solicitud de privacidad, se ha agregado la normativa LGPD al servicio principal de privacidad de Adobe. [Más información](https://helpx.adobe.com/es/campaign/kb/campaign-privacy-overview.html)
 
 **Mejoras**
