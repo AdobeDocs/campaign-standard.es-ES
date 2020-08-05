@@ -12,20 +12,23 @@ discoiquuid: 59faa74e-86fc-42d3-90da-f48580b5ec13
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+workflow-type: tm+mt
+source-wordcount: '222'
+ht-degree: 25%
 
 ---
 
 
 # Ampliación de las suscripciones a un recurso de aplicación{#extending-the-subscriptions-to-an-application-resource}
 
-In Adobe Campaign, mobile profile attributes data sent from mobile device are stored in **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource which allows you to define the data that you want to collect from your applications&#39; subscribers. For more information on custom resources, refer to [this page](../../developing/using/key-steps-to-add-a-resource.md).
+En Adobe Campaign, los datos de atributos de perfil móviles enviados desde dispositivos móviles se almacenan en el recurso **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**, que le permite definir los datos que desea recopilar de los suscriptores de las aplicaciones. For more information on custom resources, refer to [this page](../../developing/using/key-steps-to-add-a-resource.md).
 
-Este recurso se puede ampliar para recopilar datos que se van a enviar desde el dispositivo móvil al Adobe Campaign.
+Este recurso se puede ampliar para recopilar datos que se van a enviar desde el dispositivo móvil a Adobe Campaign.
 
-1. En el menú avanzado, a través del logotipo del Adobe Campaign, seleccione **[!UICONTROL Administration]** > **[!UICONTROL Development]** y, a continuación, **[!UICONTROL Custom resources]**.
+1. En el menú avanzado, en el logotipo de Adobe Campaign, seleccione **[!UICONTROL Administration]** > **[!UICONTROL Development]** y, a continuación, **[!UICONTROL Custom resources]**.
 1. Haga clic **[!UICONTROL Create]** y elija la **[!UICONTROL Extend an existing resource]** opción.
-1. Seleccione el **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** recurso y haga clic en **[!UICONTROL Create]**.
+1. Select the **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource and click **[!UICONTROL Create]**.
 
    ![](assets/in_app_personal_data_4.png)
 
