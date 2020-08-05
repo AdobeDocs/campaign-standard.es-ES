@@ -1,6 +1,6 @@
 ---
 title: Personalización de las campañas con atributos de Adobe Experience Platform
-description: Descubra cómo personalizar sus campañas con los atributos de Adobe Experience Platform.
+description: Aprenda a personalizar sus campañas mediante los atributos de la plataforma de experiencias de Adobe.
 page-status-flag: never-activated
 uuid: 528d9472-e447-47af-a6b2-3181aa5fb5ad
 contentOwner: sauviat
@@ -12,7 +12,10 @@ discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+workflow-type: tm+mt
+source-wordcount: '271'
+ht-degree: 8%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 >[!IMPORTANT]
 >
->El servicio Destinos de Audiencia está actualmente en fase beta, que puede estar sujeto a frecuentes actualizaciones sin previo aviso. Se requiere que los clientes estén alojados en Azure (actualmente en versión beta solo para Norteamérica) para acceder a estas capacidades. Póngase en contacto con el Servicio de atención al cliente de Adobe si desea obtener acceso.
+>El servicio Destinos de Audiencia está actualmente en fase beta, que puede estar sujeto a frecuentes actualizaciones sin previo aviso. Se requiere que los clientes estén alojados en Azure (actualmente en versión beta solo para Norteamérica) para acceder a estas capacidades. Si desea obtener acceso, póngase en contacto con el Servicio de atención al cliente de Adobe.
 >
 >**Los canales push** y **en la aplicación** aún no están disponibles para la personalización mediante datos contextuales de Adobe Experience Platform.
 
@@ -29,9 +32,9 @@ Una vez configurado el flujo de trabajo con una audiencia [de](../../audiences/u
 
 Para ello, debe agregar estos atributos a la **[!UICONTROL Read audience]** actividad:
 
-1. Open the **[!UICONTROL Read audience]** activity. En la **[!UICONTROL Additional data]** ficha, haga clic en el **[!UICONTROL Create element]** botón.
+1. Open the **[!UICONTROL Read audience]** activity. In the **[!UICONTROL Additional data]** tab, click the **[!UICONTROL Create element]** button.
 
-   Tenga en cuenta que la ficha **[!UICONTROL Additional data]** solo está disponible después de seleccionar una audiencia de Adobe Experience Platform.
+   Tenga en cuenta que la **[!UICONTROL Additional data]** ficha solo está disponible después de seleccionar una audiencia de Adobe Experience Platform.
 
    ![](assets/aep_wkf_readaudience_attributes.png)
 
