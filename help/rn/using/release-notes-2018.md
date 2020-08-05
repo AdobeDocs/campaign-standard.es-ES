@@ -1,6 +1,6 @@
 ---
 title: Notas de la versión 2018
-description: Esta página lista todas las versiones de Adobe Campaign Standard de 2018.
+description: Esta página enumera todas las versiones de 2018 de Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: 99f92a54-4b3d-48b9-b08d-e98b24e75f62
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
 workflow-type: tm+mt
 source-wordcount: '5401'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -45,8 +45,8 @@ Vista de las últimas actualizaciones [de](../../rn/using/documentation-updates.
    <td> La mensajería en la aplicación le permite interactuar con mayor eficacia con los usuarios de aplicaciones móviles al proporcionar una interacción contextual y permitirle comunicarse con los usuarios que hayan exclusión las notificaciones push. Utilice la mensajería en la aplicación junto con las notificaciones push para crear una experiencia muy personalizada y relevante. Esto lleva a una mejor conversión y retención de los usuarios de la aplicación.<br /> Para obtener más información, consulte la <a href="../../channels/using/about-in-app-messaging.md">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Integración de Adobe Launch para aplicaciones móviles (beta)<br /> </td> 
-   <td> La integración de Adobe Launch con Adobe Campaign ahora simplifica y automatiza el proceso de activación de propiedades de aplicaciones móviles en Campaña mediante el SDK V5 de Mobile.<br /> Para obtener más información, consulte la <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">documentación detallada</a>.<br /> </td> 
+   <td> Adobe Launch integration for mobile apps (beta)<br /> </td> 
+   <td> La integración de Adobe Launch con Adobe Campaign ahora simplifica y automatiza el proceso de activación de propiedades de aplicaciones móviles en Campaña mediante el SDK V5 de Mobile.<br /> Para obtener más información, consulte la <a href="https://helpx.adobe.com/es/campaign/kb/configuring-app-sdk.html">documentación detallada</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,7 +60,7 @@ Vista de las últimas actualizaciones [de](../../rn/using/documentation-updates.
 * En los registros generales hay ahora una distinción entre el número máximo de conexiones y el número máximo de mensajes por hora. Cuando se alcanzan los límites, es posible saber por qué el rendimiento está limitado. Anteriormente, el mismo mensaje (“cuota alcanzada”) se aplica a ambos casos.
 * Al configurar una aplicación móvil en Campaña, el usuario puede saber si el certificado de iOS y la clave del servidor de Android se han cargado correctamente y su fecha de caducidad.
 
-   Para obtener más información sobre esto, consulte la documentación detallada sobre cómo configurar una aplicación móvil mediante [SDK V4](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) y [SDK V5](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+   Para obtener más información sobre esto, consulte la documentación detallada sobre cómo configurar una aplicación móvil mediante [SDK V4](https://helpx.adobe.com/es/campaign/kb/configuring-app-sdkv4.html) y [SDK V5](https://helpx.adobe.com/es/campaign/kb/configuring-app-sdk.html).
 
 * Para Destinatario de usuarios en una aplicación móvil específica, seleccione una aplicación móvil al definir las propiedades de la Campaña. Esta función es para los canales de mensajería push y en la aplicación.
 
@@ -72,7 +72,7 @@ Vista de las últimas actualizaciones [de](../../rn/using/documentation-updates.
 
 **Parches**
 
-* Se ha corregido un problema que mostraba una discrepancia en el recuento de registros entre el panel de correo electrónico y el informe de resumen de correo electrónico para los mensajes de correo electrónico transaccionales. (CAMP-28237)
+* Se ha corregido un problema que mostraba una discrepancia en el recuento de registros entre el panel de correo electrónico y el informe de resumen de correo electrónico para los mensajes de correo electrónico transaccionales. (CAMP-28237
 * Se ha corregido un problema en flujos de trabajo que podía mostrar un mensaje de error al importar un archivo a través de una actividad de transferencia de archivos. (CAMP-27435)
 * Se ha corregido un problema con páginas de aterrizaje que contenían más de 25 servicios, que hacía que los servicios se anularan al azar en el formulario. (CAMP-26572)
 * Se ha corregido un problema en flujos de trabajo que impedía configurar cuentas externas con una URL SFTP al usar la actividad de transferencia de archivos. (CAMP-26475)
@@ -89,7 +89,7 @@ Vista de las últimas actualizaciones [de](../../rn/using/documentation-updates.
 * Se ha corregido un problema que provocaba que las imágenes cargadas desde una cámara y grabadas en modo vertical se mostraran en una posición rotada no deseada.
 * Se ha corregido un problema que mostraba información de selección poco clara al utilizar la interfaz del editor de consultas en Creative Designer.
 * Se ha corregido un problema que impedía duplicar correctamente un elemento al usar la interfaz del editor de consultas en Creative Designer.
-* Se ha corregido un problema que hacía que se siguieran enviando mensajes SMS a destinatarios de la lista de bloqueos, aunque se hubieran cancelado las suscripciones mediante una respuesta automática. (CAMP-27128)
+* Se ha corregido un problema que hacía que se siguieran enviando mensajes SMS a destinatarios de la lista de bloqueados, aunque se hubieran cancelado las suscripciones mediante una respuesta automática. (CAMP-27128)
 * Se ha corregido un problema que impedía mostrar los errores que provocaban que fallara el flujo de trabajo de limpieza de **bases de datos** . (CAMP-26876)
 * Se ha corregido un problema que podía impedir la eliminación de campos personalizados en una definición de notificación push. (CAMP-25588)
 
@@ -123,7 +123,7 @@ Vista de las últimas actualizaciones [de](../../rn/using/documentation-updates.
   </tr> 
   <tr> 
    <td> Administración de usuarios<br /> </td> 
-   <td> La capacidad de la unidad geográfica ahora no está disponible para las nuevas instancias de Campaign Standard, ni para las instancias existentes sin crear unidades geográficas, a partir de la versión 18.7.<br /> Para obtener más información, consulte esta <a href="https://helpx.adobe.com/es/campaign/kb/acs-deprecated-and-removed-features.html">página</a>.<br /> </td> 
+   <td> La capacidad de la unidad geográfica ahora no está disponible para las nuevas instancias de Campaign Standard, ni para las instancias existentes sin crear unidades geográficas, a partir de la versión 18.7.<br /><a href="https://helpx.adobe.com/es/campaign/kb/acs-deprecated-and-removed-features.html"> Para obtener más información, consulte esta página</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -212,7 +212,7 @@ Vista de las últimas actualizaciones [de](../../rn/using/documentation-updates.
   </tr> 
   <tr> 
    <td> Mejoras de inserción: comentarios detallados sobre el envío<br /> </td> 
-   <td> Adobe Campaign ahora permite recibir comentarios detallados (enviar registros y registros de exclusión) sobre los mensajes push de los proveedores (APNS/GCM) a través de MCPNS.<br /> Para obtener más información, consulte la <a href="../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification">documentación detallada</a>.<br /> </td> 
+   <td> Adobe Campaign ahora ofrece la posibilidad de recibir información detallada (envío de registros y registros de exclusión) sobre los mensajes push de los proveedores (APNS/GCM) a través de MCPNS.<br /> Para obtener más información, consulte la <a href="../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Extensión de Registros de envío<br /> </td> 
@@ -223,7 +223,7 @@ Vista de las últimas actualizaciones [de](../../rn/using/documentation-updates.
     </ul> Para obtener más información, consulte la <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> sistema de informes dinámico con datos de perfil personalizados<br /> </td> 
+   <td> Dynamic reporting with Custom profile data<br /> </td> 
    <td> Esta función le permite crear y administrar informes basados en datos de perfil personalizados creados durante la extensión de recursos de perfil. Puede desglosar los informes por atributos de perfil, como programa de lealtad, canal preferido, etc.<br /> Para obtener más información, consulte la <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">documentación detallada</a>.<br /> </td> 
   </tr> 
  </tbody> 
@@ -270,7 +270,7 @@ Vista de las últimas actualizaciones [de](../../rn/using/documentation-updates.
 
 **Parches**
 
-_Platform_
+_Plataforma_
 
 * Se ha corregido un error que podía impedir el procesamiento correcto de solicitudes de acceso o eliminación de RGPD. Este comportamiento se ha observado en algunos casos excepcionales en los que los datos extraídos contenían uno de los siguientes caracteres: &amp; &lt; > &quot; &#39;.
 
@@ -314,7 +314,7 @@ _Recursos personalizados_
   </tr> 
   <tr> 
    <td> Creative Designer para correo electrónico (Beta)<br /> </td> 
-   <td> El nuevo diseñador creativo de Adobe Campaign oferta una experiencia de creación totalmente integrada en Campaña, lo que permite crear de forma rápida y sencilla correos electrónicos cautivadores personalizados e individuales sin necesidad de escribir una sola línea de código. Gracias a su potente interfaz de arrastrar y soltar, Creative Designer ayuda a escalar la creación de correo electrónico, tanto si los usuarios inicios desde una pizarra en blanco, como si aprovecha los fragmentos de contenido o las plantillas existentes. <br /> Las funciones clave incluyen:<br /> 
+   <td> El nuevo diseño creativo de Adobe Campaign oferta una experiencia de creación totalmente integrada en Campaña, lo que permite crear de forma rápida y sencilla correos electrónicos cautivadores personalizados e individuales sin necesidad de escribir una sola línea de código. Gracias a su potente interfaz de arrastrar y soltar, Creative Designer ayuda a escalar la creación de correo electrónico, tanto si los usuarios inicios desde una pizarra en blanco, como si aprovecha los fragmentos de contenido o las plantillas existentes. <br /> Las funciones clave incluyen:<br /> 
     <ul> 
      <li> Diseñe y cree mensajes de correo electrónico totalmente personalizados y adaptables mediante una interfaz de arrastrar y soltar, aumentada por integraciones nativas de Creative Cloud </li> 
      <li> Crear y guardar una plantilla de contenido de correo electrónico y aprovechar las plantillas guardadas para ayudar a escalar la creación de correo electrónico </li> 
@@ -327,7 +327,7 @@ _Recursos personalizados_
    <td> La misma interfaz multilingüe simple, que ya existe en los canales Correo electrónico y SMS, se ha agregado al canal Push para ayudarle a captar clientes sin importar su idioma preferido.<br /> Esta capacidad oferta una solución escalable y automática para los clientes que administran campañas push en varias regiones y desean destinatario de los usuarios en su idioma preferido. Le permite cargar todas las variantes lingüísticas a través de una hoja de cálculo con plantilla en un solo envío push, con un solo clic. A continuación, Adobe Campaign realiza una segmentación automática basada en las preferencias de idioma de los usuarios, lo que ayuda a reducir las redundancias mediante la simplificación de los flujos de trabajo y el sistema de informes.<br /> Para obtener más información, consulte la <a href="../../channels/using/creating-a-multilingual-push-notification.md">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Uso de recursos personalizados en la mensajería transaccional<br /> </td> 
+   <td> Use of Custom Resources in Transactional Messaging<br /> </td> 
    <td> Además de los campos predeterminados, la mensajería transaccional ahora permite utilizar recursos personalizados para enriquecer el contenido de los mensajes.<br /> Por ejemplo:<br /> 
     <ul> 
      <li> Aproveche los campos personalizados como criterios de reconciliación para que coincidan con un mensaje transaccional en un perfil </li> 
@@ -339,7 +339,7 @@ _Recursos personalizados_
 
 **Parches**
 
-_Platform_
+_Plataforma_
 
 * Se ha corregido un problema que impedía exportar más de 5000 registros de una lista.
 * Se corrigió un problema al exportar datos a archivos con nombres con campos de personalización.
@@ -347,7 +347,7 @@ _Platform_
 _Correos electrónicos, mensajes SMS y correo directo_
 
 * Se ha corregido un problema que provocaba que el SMS de varias partes se truncara porque el tamaño de las partes se calculaba en caracteres en lugar de en bytes.
-* Se Añadió una opción que permite actualizar los KPI **[!UICONTROL Delivered]** o **[!UICONTROL Bounces + Errors]** KPI en tiempo real después de enviar el envío. Se vuelven a calcular directamente desde el SR (Informe de estado) recibido del proveedor.
+* Added an option which allows the **[!UICONTROL Delivered]** or **[!UICONTROL Bounces + Errors]** KPIs to be updated in real time after sending your delivery. Se vuelven a calcular directamente desde el SR (Informe de estado) recibido del proveedor.
 * Se ha corregido un problema con la utilidad de calendario en el Planificador de envío.
 * Se corrigió un problema de visualización al abrir un destinatario por segunda vez en un envío enviado.
 * Se ha corregido un problema que provocaba un mensaje de error que solicitaba una fecha de inicio al crear una plantilla de correo electrónico con una fecha de envío retrasada.
@@ -395,11 +395,11 @@ _Mensajes transaccionales_
  </thead> 
  <tbody> 
   <tr> 
-   <td> Suscripción: suscripción o cancelación de la suscripción de una lista de perfiles a varios servicios<br /> </td> 
+   <td> Subscription - subscribe or unsubscribe a list of profiles to multiple services<br /> </td> 
    <td> La actividad de flujo de trabajo de <strong>Servicios de suscripción</strong> ahora le permite suscribirse o cancelar la suscripción de una lista de perfiles a varios servicios. En el flujo de trabajo, importe un archivo que contenga los perfiles y, para cada perfil, el tipo de operación y el servicio. La actividad de <strong>Servicios de suscripción</strong> podrá utilizar esta información y gestionar dinámicamente todas las suscripciones y cancelaciones de perfiles a la vez.<br /> Para obtener más información, consulte la <a href="../../automating/using/subscription-services.md">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> actividad de Enriquecimiento: enriquecer datos basados en transiciones anteriores<br /> </td> 
+   <td> Enrichment activity - enrich data based on previous transitions<br /> </td> 
    <td> La nueva actividad de flujo de trabajo de <span class="uicontrol">Enriquecimiento</span> le permite aprovechar las transiciones de entrada y completar la transición de salida con datos adicionales. Si destinatario perfiles, la actividad enriquecimiento le permite enriquecer la información de perfiles con datos adicionales que no se almacenan en la base de datos (por ejemplo, procedentes de un archivo importado).<br /> Para obtener más información, consulte la <a href="../../automating/using/enrichment.md">documentación detallada</a>.<br /> </td> 
   </tr> 
  </tbody> 
@@ -407,7 +407,7 @@ _Mensajes transaccionales_
 
 **Parches**
 
-_Platform_
+_Plataforma_
 
 * La barra superior de la interfaz de Adobe Campaign se ha actualizado con el nuevo menú Experience Cloud.
 * Se ha corregido un problema que impedía que el vínculo a se mostrara **[!UICONTROL Offers]** en la lista desplegable de la solución.
@@ -474,7 +474,7 @@ Pueden producirse algunos problemas al utilizar vínculos de ayuda contextuales 
      <li> descargar imágenes u otros archivos multimedia y agregarlos como datos adjuntos a una notificación </li> 
      <li> cambiar el texto del cuerpo o del título de una notificación </li> 
      <li> agregar un identificador de subproceso a una notificación </li> 
-    </ul> Para obtener más información sobre el contenido disponible y el contenido mutable, consulte la documentación <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios"></a>detallada.<br /> <strong>Advertencia:</strong> estas actualizaciones de las notificaciones push requieren que los clientes actualicen sus aplicaciones móviles. Refer to <a href="https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html">this technote</a> for more information.<br /> </td> 
+    </ul> Para obtener más información sobre el contenido disponible y el contenido mutable, consulte la documentación <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios"></a>detallada.<br /> <strong>Advertencia:</strong> estas actualizaciones de las notificaciones push requieren que los clientes actualicen sus aplicaciones móviles. Refer to <a href="https://docs.adobe.com/content/help/es-ES/campaign-standard/using/communication-channels/push-notifications/push-payload.translate.html">this technote</a> for more information.<br /> </td> 
   </tr> 
   <tr> 
    <td> envíos optimizados para zonas horarias<br /> </td> 
@@ -489,7 +489,7 @@ Pueden producirse algunos problemas al utilizar vínculos de ayuda contextuales 
 
 **Parches**
 
-_Platform_
+_Plataforma_
 
 * La búsqueda de perfiles se ha optimizado para mejorar el rendimiento.
 * El identificador interno de los grupos de seguridad predeterminados está ahora en modo de solo lectura para los usuarios estándar.
