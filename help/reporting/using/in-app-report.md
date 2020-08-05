@@ -1,18 +1,21 @@
 ---
 title: Informe en la aplicación
 description: Con el informe integrado en la aplicación, conozca el éxito de los mensajes en la aplicación.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 802dc606-a314-46dd-b361-b746b0772303
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: informes
-content-type: referencia
-topic-tags: lista de informes
+audience: reporting
+content-type: reference
+topic-tags: list-of-reports
 discoiquuid: 3f17c2ad-8ba3-4795-93ed-288b2bcee872
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+workflow-type: tm+mt
+source-wordcount: '242'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 >[!CAUTION]
 >
->Tenga en cuenta que debe arrastrar y soltar las **[!UICONTROL Message type]** métricas en las tablas para dividir los datos según los tipos de envío, en este caso los envíos en la aplicación.
+>Tenga en cuenta que debe arrastrar y soltar las **[!UICONTROL Message type]** métricas en las tablas para dividir los datos según los tipos de envío, en este caso envíos en la aplicación.
 
 El informe **En la aplicación** proporciona detalles relacionados con los envíos en la aplicación.
 
@@ -29,21 +32,21 @@ Cada tabla está representada por números de resumen y gráficos. Puede cambiar
 
 ![](assets/inapp_report.png)
 
-La primera tabla Resumen **de participación** en la aplicación se divide en tres categorías: por día, por aplicación móvil y por entrega. Contiene los datos disponibles para la reactividad del destinatario a la entrega:
+La primera tabla Resumen **de participación** en la aplicación se divide en tres categorías: por día, por aplicación móvil y por envío. Contiene los datos disponibles para la reactividad del destinatario al envío:
 
-* **[!UICONTROL Processed/sent]**:: Número total de envíos para la entrega en la aplicación.
+* **[!UICONTROL Processed/sent]**:: Número total de envíos para el envío en la aplicación.
 * **[!UICONTROL Delivered]**:: Número de mensajes en la aplicación enviados correctamente, en relación con el número total de mensajes enviados.
-* **[!UICONTROL Impressions]**::Total de mensajes en la aplicación que ven los destinatarios en función de si se cumple el criterio de activación.
-* **[!UICONTROL Unique impressions]**::Número de impresiones por destinatario.
-* **[!UICONTROL In-App click through rate]**::Porcentaje de usuarios que hicieron clic en el Botón 1 o en el Botón 2 en comparación con los usuarios que vieron el mensaje.
-* **[!UICONTROL In-App dismissal rate]**::Porcentaje de mensajes en la aplicación que los destinatarios descartaron.
+* **[!UICONTROL Impressions]**:: Total de mensajes en la aplicación que ven los destinatarios en función de si se cumple el criterio de activación.
+* **[!UICONTROL Unique impressions]**:: Número de impresiones por destinatario.
+* **[!UICONTROL In-App click through rate]**:: Porcentaje de usuarios que hicieron clic en el Botón 1 o en el Botón 2 en comparación con los usuarios que vieron el mensaje.
+* **[!UICONTROL In-App dismissal rate]**:: Porcentaje de mensajes en la aplicación que destinatarios descartaron.
 
 ![](assets/inapp_report_1.png)
 
-La segunda tabla Clics y despidos **en la aplicación se divide** en tres categorías: por día, por aplicación móvil y por entrega. Contiene los datos disponibles para el comportamiento del destinatario por entrega:
+La segunda tabla Clics y despidos **en la aplicación se divide** en tres categorías: por día, por aplicación móvil y por envío. Contiene los datos disponibles para el comportamiento de destinatario por envío:
 
-* **[!UICONTROL In-App clicks]**::Número total de destinatarios que hicieron clic en el botón 1 o en el botón 2.
-* **[!UICONTROL Unique In-App clicks]**::Número de veces que los destinatarios hicieron clic en el botón 1 o en el botón 2.
-* **[!UICONTROL In-App dismissal]**::Número total de mensajes que los destinatarios descartaron haciendo clic en el botón Cerrar o en la opción de descartar automáticamente.
-* **[!UICONTROL Unique In-App dismissal]**::Número de veces que los destinatarios descartaron un mensaje en la aplicación.
+* **[!UICONTROL In-App clicks]**:: Número total de destinatarios que hicieron clic en el Botón 1 o en el Botón 2.
+* **[!UICONTROL Unique In-App clicks]**:: Número de veces que los destinatarios hicieron clic en el botón 1 o en el botón 2.
+* **[!UICONTROL In-App dismissal]**:: Número total de mensajes que los destinatarios descartaron haciendo clic en el botón de cierre o en la eliminación automática.
+* **[!UICONTROL Unique In-App dismissal]**:: Número de destinatarios de tiempo que descartaron un mensaje en la aplicación.
 
