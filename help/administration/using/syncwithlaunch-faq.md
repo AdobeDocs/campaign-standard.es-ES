@@ -12,23 +12,23 @@ discoiquuid: 54028f63-c9ca-4397-a079-e27e0cfdebf6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
+source-git-commit: 95a7397092f6e07c84967d90908469f630f7a170
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '511'
 ht-degree: 1%
 
 ---
 
 
-# Preguntas más frecuentes sobre el flujo de trabajo técnico de sincronización con Launch {#syncwithlaunch-faq}
+# Preguntas más frecuentes sobre la sincronización de inicio de Adobe {#syncwithlaunch-faq}
 
-Puede importar las propiedades móviles de Adobe Launch en Adobe Campaign Standard mediante el flujo de trabajo técnico **[!UICONTROL Sync with Launch]** dedicado. Para obtener más información, consulte esta [página](../../administration/using/technical-workflows.md)
+Puede importar propiedades móviles de Adobe Launch a Adobe Campaign Standard mediante el flujo de trabajo técnico dedicado **[!UICONTROL Sync with Launch]** . Para obtener más información, consulte esta [página](../../administration/using/technical-workflows.md)
 
 La sección siguiente lista preguntas comunes sobre esta sincronización.
 
 >[!NOTE]
 >
->Deberá enviar un ticket al Servicio de atención al cliente de Adobe (directamente o a través de su contacto de Adobe) para que el flujo de trabajo **[!UICONTROL syncWithLaunch]** técnico esté habilitado en la instancia de Campaña.
+>You will need to submit a ticket to Adobe Customer Care (either directly or through your Adobe contact) to have the **[!UICONTROL syncWithLaunch]** technical workflow enabled in your Campaign instance.
 
 ## Creé una propiedad en [!DNL Launch] (no administrador de la unidad de organización ALL). Mi aplicación está en estado Listo para configurar en Adobe Campaign, pero no puedo abrirla/configurarla. {#configuring-property}
 
@@ -40,7 +40,7 @@ Compruebe la unidad organizativa de la aplicación móvil en la **[!UICONTROL Ac
 
 For more information on organizational unit, refer to this [page](../../administration/using/organizational-units.md).
 
-## Soy administrador con TODAS las unidades de organización en Adobe Campaign Standard, pero no puedo configurar aplicaciones móviles. {#org-unit-mobile}
+## Soy administrador de la unidad de organización ALL en Adobe Campaign Standard, pero no puedo configurar la aplicación móvil. {#org-unit-mobile}
 
 Un administrador con la unidad de organización establecida en ALL debe tener derechos sobre todas las propiedades móviles en [!DNL Launch] para configurar la aplicación móvil.
 
@@ -68,15 +68,15 @@ For more information on organizational unit, refer to this [page](../../administ
 
 ## Restablece la clave para una aplicación móvil configurada en Launch. ¿Cómo volver a configurar la clave en Launch? {#configuring-pkey}
 
-1. Abra la propiedad mobile en Adobe Launch.
+1. Abra la propiedad mobile en Inicio de Adobe.
 
-1. Configure una nueva dirección URL en la extensión de Adobe Campaign Standard para la que se restableció el valor PKey.
+1. Configure una nueva URL en la extensión de Adobe Campaign Standard para la que se restableció el PKey.
 
 1. Guárdela y permita que el flujo de trabajo se sincronice entre Adobe Campaign y [!DNL Launch].
 
 1. Una vez finalizada la sincronización, abra la propiedad mobile en [!DNL Launch].
 
-1. Establezca la dirección URL correcta en la extensión de Adobe Campaign Standard para la que se restableció PKey.
+1. Configure la dirección URL correcta en la extensión de Adobe Campaign Standard para la que se restableció PKey.
 
 1. Guárdela y vuelva a ejecutar la sincronización del flujo de trabajo.
 
@@ -90,4 +90,4 @@ Puede realizar la ejecución inmediata del flujo de trabajo:
 
 1. Abra el **[!UICONTROL syncWithLaunch]** flujo de trabajo.
 
-1. Haga clic en la **[!UICONTROL Scheduler]** actividad y seleccione **[!UICONTROL Immediate execution]**.
+1. Click on the **[!UICONTROL Scheduler]** activity and select **[!UICONTROL Immediate execution]**.
