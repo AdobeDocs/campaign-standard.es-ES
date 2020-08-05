@@ -4,10 +4,10 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Ayuda de Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 91cb524e104fbaa7f3334578d82b3878cc15fc9b
+source-git-commit: 95a7397092f6e07c84967d90908469f630f7a170
 workflow-type: tm+mt
-source-wordcount: '1550'
-ht-degree: 89%
+source-wordcount: '1564'
+ht-degree: 88%
 
 ---
 
@@ -407,8 +407,10 @@ ht-degree: 89%
       + [Añadir imágenes y vídeos en iOS](administration/using/image-push-notification.md)
       + [Descripción de la estructura de carga útil de las notificaciones push](administration/using/push-payload.md)
       + [Implementación del seguimiento de notificaciones locales](administration/using/local-tracking.md)
-      + [Preguntas más frecuentes sobre el flujo de trabajo técnico de SyncWithLaunch](administration/using/syncwithlaunch-faq.md)
-      + [Introducción al SDK y la Campaña de Adobe Experience Platform](administration/using/aep-faq.md)
+      + [Preguntas más frecuentes sobre la sincronización de inicio de Adobe](administration/using/syncwithlaunch-faq.md)
+      + [Preguntas más frecuentes sobre la integración del SDK de Experience Platform](administration/using/aep-faq.md)
+      + [Configuración de reglas de lanzamiento para admitir casos de uso de Adobe Campaign Standard](administration/using/configuring-rules-launch.md)
+      + [Casos de uso móvil admitidos en Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
    + Ajustes de la aplicación {#application-settings}
       + [Acerca de la configuración de Campaign Standard](administration/using/about-campaign-standard-settings.md)
       + [Cuentas externas](administration/using/external-accounts.md)
@@ -421,7 +423,7 @@ ht-degree: 89%
 + Uso de API {#working-with-apis}
    + [Introducción a las API de Campaign Standard](api/using/get-started-apis.md)
    + Acerca de las API de Campaign Standard {#about-campaign-standard-apis}
-      + [Razones para utilizar las API de Campaign Standard](api/using/why-using-campaign-standard-apis.md)
+      + [¿Por qué utilizar las API de Campaign Standard?](api/using/why-using-campaign-standard-apis.md)
       + [Configuración del acceso a API](api/using/setting-up-api-access.md)
    + Conceptos globales {#global-concepts}
       + [Lectura obligatoria](api/using/must-read.md)
