@@ -76,7 +76,7 @@ Para implementar el seguimiento de notificaciones locales, consulte esta [págin
 
 ### ¿Qué informes están disponibles para el canal en la aplicación? {#report-inapp}
 
-Hay disponible un informe listo para usar en Adobe Campaign para el canal en la aplicación. Refer to this [documentation](../../reporting/using/in-app-report.md).
+En Adobe Campaign para el canal en la aplicación hay disponible un informe predeterminado. Refer to this [documentation](../../reporting/using/in-app-report.md).
 
 Consulte esta [página](../../reporting/using/indicator-calculation.md#in-app-delivery) para comprender cómo se calculan las métricas en la aplicación.
 
@@ -105,7 +105,7 @@ Para el sonido personalizado en iOS, debe proporcionar un nombre de archivo con 
 Sí, los vínculos profundos son compatibles con los mensajes en la aplicación. Los vínculos profundos deben incluir:
 
 * idioma que indica que el seguimiento de envíos debe deshabilitarse para que funcionen los vínculos profundos.
-* Appsflyer con Branch como socios que pueden realizar el seguimiento de vínculos profundos. Para obtener más información sobre la integración de ramas y Adobes Campaign Standard, consulte esta [página](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
+* Appsflyer con Branch como socios que pueden realizar el seguimiento de vínculos profundos. Para obtener más información sobre la integración de Branch y Adobe Campaign Standard, consulte esta [página](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
 
 ### ¿Se puede activar un mensaje en la aplicación cuando el usuario inicia la aplicación desde una notificación Push? {#inapp-push-trigger}
 
