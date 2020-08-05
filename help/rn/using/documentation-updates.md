@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1f15808bd892305282b838bebbc8fa1ce58283e
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
 workflow-type: tm+mt
 source-wordcount: '6092'
 ht-degree: 95%
@@ -26,7 +26,7 @@ Además de las [Notas de la versión](../../rn/using/release-notes.md) de Adobe 
 
 ## Actualizaciones de documentación: julio de 2020 {#doc-updates-july-2020}
 
-Se ha añadido una nueva sección con directrices relacionadas con la supervisión de Campaign Standard. [Más información](../../administration/using/monitoring-guidelines.md)
+Se ha añadido una nueva sección con directrices relacionadas con la supervisión de Campaign Standards. [Más información](../../administration/using/monitoring-guidelines.md)
 
 Se ha actualizado la sección de limitaciones y protecciones de API externas.[Más información](../../automating/using/external-api.md#guardrails)
 
@@ -472,7 +472,7 @@ Mejoras en la versión beta de la mensajería en la aplicación: [Más informaci
 
 La guía de Diseño de contenido se ha actualizado para reflejar la disponibilidad general del Diseñador de correo electrónico y la obsolescencia del editor de contenido de correo electrónico heredado. [Más información](../../designing/using/designing-content-in-adobe-campaign.md)
 
-Se ha actualizado la documentación de [notificaciones push](../../channels/using/about-push-notifications.md) y [en la aplicación](../../channels/using/about-in-app-messaging.md).
+Updated the [In-App](../../channels/using/about-in-app-messaging.md) and [Push notification](../../channels/using/about-push-notifications.md) documentation.
 
 Se ha añadido más información sobre los diferentes tipos de audiencias en Adobe Campaign. [Más información](../../audiences/using/about-audiences.md)
 
