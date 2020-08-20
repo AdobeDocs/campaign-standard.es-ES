@@ -1,5 +1,5 @@
 ---
-title: envío entre canales
+title: Envío entre canales
 description: Este caso de uso muestra cómo crear un envío entre canales
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
@@ -13,10 +13,10 @@ context-tags: workflow,use-case,query,wait,delivery
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e689e6bc362f4e948593c3b251f3825aab20ac
+source-git-commit: 73a91344ada17d6eb0da0335e08ea27a1019b4fb
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 86%
+source-wordcount: '856'
+ht-degree: 85%
 
 ---
 
@@ -138,7 +138,7 @@ Para crear un envío de correo electrónico:
 1. Introduzca las propiedades de correo electrónico y haga clic en **[!UICONTROL Next]**.
 1. Para crear el diseño del correo electrónico, seleccione **[!UICONTROL Use the Email Designer]**.
 1. Edite y guarde el contenido.
-1. En la sección **[!UICONTROL Schedule]** del panel de mensajes, anule la selección de la opción **[!UICONTROL Request confirmation before sending messages}**.
+1. In the **[!UICONTROL Schedule]** section of the message dashboard, unselect the **[!UICONTROL Request confirmation before sending messages]** option.
 
 Para crear un envío de SMS:
 
