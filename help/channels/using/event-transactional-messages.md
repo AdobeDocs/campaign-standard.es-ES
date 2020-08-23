@@ -12,10 +12,10 @@ discoiquuid: 4f6317a1-9dfe-4714-bc1c-393629d855cd
 context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
-workflow-type: ht
-source-wordcount: '2479'
+translation-type: tm+mt
+source-git-commit: 762700893c913d9aea884d00438c84b39a800188
+workflow-type: tm+mt
+source-wordcount: '2478'
 ht-degree: 100%
 
 ---
@@ -92,7 +92,7 @@ Para configurar la personalización en un mensaje transaccional, siga los pasos 
 
 1. Añada un asunto y edite el contenido del mensaje para adaptarlo a sus necesidades.
 
-   >[NOTA]
+   >[!NOTE]
    >
    >El vínculo al carro de compras abandonado es un vínculo a una dirección URL externa que redirecciona a la persona al carro de compras. Este parámetro no se administra en Adobe Campaign.
 
@@ -155,6 +155,7 @@ Antes de poder usar una lista de productos en un mensaje transaccional, debe def
 
    * **[!UICONTROL Row]**: horizontalmente; es decir, cada elemento de una fila debajo de la otra.
    * **[!UICONTROL Column]**: verticalmente; es decir, cada elemento está junto al otro en la misma fila.
+
    >[!NOTE]
    >
    >La opción **[!UICONTROL Column]** solo está disponible cuando se utiliza un componente de estructura de varias columnas (**[!UICONTROL 2:2 column]**, **[!UICONTROL 3:3 column]** y **[!UICONTROL 4:4 column]**). Al editar la lista de productos, rellene solo la primera columna: las demás columnas no se tendrán en cuenta. Para obtener más información sobre la selección de componentes de estructura, consulte [Edición de la estructura de correo electrónico](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
