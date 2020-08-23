@@ -12,9 +12,9 @@ discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: 762700893c913d9aea884d00438c84b39a800188
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1143'
 ht-degree: 100%
 
 ---
@@ -139,7 +139,7 @@ A continuación, puede comprobar si el usuario se ha sincronizado correctamente 
 
 1. Compruebe el grupo de seguridad del usuario. Aquí puede ver que al usuario se le ha asignado el grupo de seguridad **[!UICONTROL Administrators]**.
 
-   >[!NNota]
+   >[!NOTE]
    >
    >Los grupos de seguridad solo se pueden eliminar o agregar a un usuario en Admin Console.
 
