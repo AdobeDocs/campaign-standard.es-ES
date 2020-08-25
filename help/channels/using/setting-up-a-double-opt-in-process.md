@@ -12,7 +12,7 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 89%
@@ -80,7 +80,7 @@ A continuación se describen los pasos para crear estos elementos. Debe seguirlo
 
 ### Creación del evento {#create-the-event}
 
-El correo electrónico de confirmación es un [mensaje transaccional](../../channels/using/about-transactional-messaging.md), ya que reacciona ante un evento: la validación del formulario. Primero debe crear el evento y luego crear la plantilla del mensaje transaccional.
+El correo electrónico de confirmación es un [mensaje transaccional](../../channels/using/getting-started-with-transactional-msg.md), ya que reacciona ante un evento: la validación del formulario. Primero debe crear el evento y luego crear la plantilla del mensaje transaccional.
 
 1. En el logotipo de Adobe Campaign, acceda al menú **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** para crear un evento e introduzca la etiqueta “**CONFIRM**”.
 1. Seleccione la dimensión de segmentación **[!UICONTROL Profile]** y haga clic en **[!UICONTROL Create]**.
