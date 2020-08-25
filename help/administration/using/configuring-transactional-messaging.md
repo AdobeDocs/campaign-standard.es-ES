@@ -12,7 +12,10 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
+source-wordcount: '3059'
+ht-degree: 7%
 
 ---
 
@@ -21,23 +24,27 @@ source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
 Para enviar un mensaje transaccional con Adobe Campaign, primero debe describir la estructura de los datos de evento.
 
-La configuración de Evento debe realizarla un [administrador](../../administration/using/users-management.md#functional-administrators) siguiendo los pasos a continuación.
+La configuración de evento debe realizarla un [administrador](../../administration/using/users-management.md#functional-administrators) siguiendo los pasos a continuación.
 
 >[!NOTE]
 >
 >La configuración puede variar según el tipo de mensaje transaccional que desee enviar. Para obtener más información sobre esto, consulte Configuraciones [específicas de evento](#transactional-event-specific-configurations)transaccional.
 
-Una vez publicado el evento, el mensaje transaccional correspondiente se crea automáticamente. For more on transactional messaging, refer to [this page](../../channels/using/about-transactional-messaging.md).
+Una vez publicado el evento:
+
+* Se implementa la API que utilizará el desarrollador de su sitio web y ahora se pueden enviar los eventos transaccionales. Consulte [Integración del activador del evento en un sitio web](#integrating-the-triggering-of-the-event-in-a-website).
+
+* El mensaje transaccional correspondiente se crea automáticamente. Consulte [Introducción a los mensajes](../../channels/using/getting-started-with-transactional-msg.md)transaccionales.
 
 ## Creación de un evento {#creating-an-event}
 
 Para empezar, cree el evento correspondiente a sus necesidades.
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >Solo los usuarios que tienen la **[!UICONTROL Administration]** función y forman parte de la unidad **[!UICONTROL All]** [](../../administration/using/organizational-units.md) organizativa tienen los derechos adecuados para crear una configuración de evento.
 
-1. Haga clic en el **[!UICONTROL Adobe Campaign]** logotipo, en la esquina superior izquierda, luego seleccione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
+1. Haga clic en el logotipo de **[!UICONTROL Adobe Campaign]**, en la esquina superior izquierda, y luego seleccione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. Haga clic en el botón **[!UICONTROL Create]**.
 1. Dale una **[!UICONTROL Label]** y una **[!UICONTROL ID]** al evento. El **[!UICONTROL ID]** campo es obligatorio y debe comenzar con el prefijo &quot;EVT&quot;. Si no utiliza este prefijo, se agrega automáticamente una vez que haga clic en **[!UICONTROL Create]**.
 
@@ -51,15 +58,15 @@ Para empezar, cree el evento correspondiente a sus necesidades.
 
    >[!NOTE]
    >
-   >Sólo se puede utilizar un canal para cada configuración de evento. Una vez creado el evento, no se puede cambiar el canal.
+   >Solo se puede utilizar un canal para cada configuración de evento. Una vez creado el evento, no se puede cambiar el canal.
 
 1. Seleccione la dimensión de segmentación correspondiente a la configuración de evento deseada y haga clic en **[!UICONTROL Create]**.
 
-   Los datos de destinatario de mensajes transaccionales basados en Eventos contenidos en el propio evento, mientras que los datos de destinatario de mensajes transaccionales basados en perfiles contenidos en la base de datos de Adobe Campaign. Para obtener más información sobre esto, consulte Configuraciones [específicas de evento](#transactional-event-specific-configurations)transaccional.
+   Los datos de destinatario de mensajes transaccionales basados en eventos contenidos en el propio evento, mientras que los datos de destinatario de mensajes transaccionales basados en perfiles contenidos en la base de datos de Adobe Campaign. Para obtener más información sobre esto, consulte Configuraciones [específicas de evento](#transactional-event-specific-configurations)transaccional.
 
 >[!NOTE]
 >
->El número de eventos creados en tiempo real puede tener un impacto en la plataforma. Para garantizar un rendimiento óptimo, asegúrese de eliminar eventos en tiempo real que ya no necesite. Consulte [Eliminación de un evento](#deleting-an-event).
+>El número de eventos creados en tiempo real puede tener un impacto en la plataforma. Para garantizar un rendimiento óptimo, asegúrese de eliminar eventos en tiempo real que ya no necesite. See [Deleting an event](#deleting-an-event).
 
 ## Definición de atributos de evento {#defining-the-event-attributes}
 
@@ -79,7 +86,7 @@ Puede agregar al contenido del evento una colección de elementos, cada elemento
 
 Esta colección se puede utilizar en un correo electrónico transaccional para agregar listados [de](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message) productos al contenido del mensaje, por ejemplo, una lista de productos con el precio, el número de referencia, la cantidad, etc. para cada producto de la lista.
 
-1. En la **[!UICONTROL Collections]** sección, haga clic en el **[!UICONTROL Create element]** botón .
+1. In the **[!UICONTROL Collections]** section, click the **[!UICONTROL Create element]** button.
 
    ![](assets/message-center_collection_create.png)
 
@@ -119,7 +126,7 @@ Esta información también se puede almacenar en nuevos recursos. En ese caso, e
 
 Para obtener más información sobre la creación y publicación de recursos, consulte [esta página](../../developing/using/key-steps-to-add-a-resource.md).
 
-1. En la **[!UICONTROL Enrichment]** sección, haga clic en el **[!UICONTROL Create element]** botón .
+1. In the **[!UICONTROL Enrichment]** section, click the **[!UICONTROL Create element]** button.
 
    ![](assets/message-center_addenrichment.png)
 
@@ -152,7 +159,7 @@ Una vez que se publiquen el evento y el mensaje, este vínculo le permitirá enr
 * [Vista previa y publicación del evento](#previewing-and-publishing-the-event).
 * [Personalización de un mensaje transaccional](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message).
 
-## Vista previa y publicación del evento {#previewing-and-publishing-the-event}
+## Previewing and publishing the event {#previewing-and-publishing-the-event}
 
 Antes de poder usar el evento, debe previsualización y publicarlo.
 
@@ -168,6 +175,8 @@ Antes de poder usar el evento, debe previsualización y publicarlo.
 
    ![](assets/message-center_pub.png)
 
+   Se implementa la API que utilizará el desarrollador de su sitio web y ahora se pueden enviar los eventos transaccionales.
+
 1. Puede vista de los registros de publicación en la ficha correspondiente.
 
    ![](assets/message-center_logs.png)
@@ -182,7 +191,7 @@ Antes de poder usar el evento, debe previsualización y publicarlo.
 
    ![](assets/message-center_messagegeneration.png)
 
-Para que el evento active el envío de un mensaje transaccional, debe modificar y publicar el mensaje que se acaba de crear. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
+Para que el evento active el envío de un mensaje transaccional, debe modificar y publicar el mensaje que se acaba de crear. Consulte [Mensajes transaccionales de eventos](../../channels/using/event-transactional-messages.md).
 
 También debe integrar este evento de activación en su sitio web. Consulte [Integración del activador del evento en un sitio web](#integrating-the-triggering-of-the-event-in-a-website).
 
@@ -192,6 +201,12 @@ Una vez que los inicios de Adobe Campaign reciben eventos relacionados con esta 
 
 Los eventos (en formato JSON) se muestran de los más recientes a los más antiguos. Esta lista le permite comprobar datos como el contenido o el estado de un evento para fines de control y depuración.
 
+### Proceso de publicación de mensajes transaccionales {#transactional-messaging-pub-process}
+
+El gráfico siguiente ilustra el proceso de publicación de mensajes transaccionales.
+
+![](assets/message-center_pub-process.png)
+
 ### Cancelación de la publicación de un evento {#unpublishing-an-event}
 
 El **[!UICONTROL Unpublish]** botón permite cancelar la publicación del evento, lo que elimina de la API de REST el recurso correspondiente al evento que creó anteriormente. Ahora, incluso si el evento se activa a través de su sitio web, los mensajes correspondientes ya no se envían y no se almacenan en la base de datos.
@@ -200,7 +215,7 @@ El **[!UICONTROL Unpublish]** botón permite cancelar la publicación del evento
 
 >[!NOTE]
 >
->Si ya ha publicado el mensaje transaccional correspondiente, la publicación de mensaje transaccional también se cancela. Consulte [Cancelación de la publicación de un mensaje transaccional](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message).
+>Si ya ha publicado el mensaje transaccional correspondiente, la publicación de mensaje transaccional también se cancela. See [Unpublishing a transactional message](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message).
 
 Haga clic en el **[!UICONTROL Publish]** botón para generar una nueva API de REST.
 
@@ -208,14 +223,14 @@ Haga clic en el **[!UICONTROL Publish]** botón para generar una nueva API de RE
 
 Una vez cancelada la publicación de un evento o si aún no se ha publicado un evento, puede eliminarlo de la lista de configuración de evento. Para ello:
 
-1. Haga clic en el **[!UICONTROL Adobe Campaign]** logotipo, en la esquina superior izquierda, luego seleccione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
+1. Haga clic en el logotipo de **[!UICONTROL Adobe Campaign]**, en la esquina superior izquierda, y luego seleccione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. Pase el ratón sobre la configuración de evento que desee y seleccione el **[!UICONTROL Delete element]** botón.
 
    ![](assets/message-center_delete-button.png)
 
    >[!NOTE]
    >
-   >Asegúrese de que la configuración de evento tiene el **[!UICONTROL Draft]** estado, de lo contrario no podrá eliminarla. El **[!UICONTROL Draft]** estado se aplica a un evento que no se ha publicado aún o que se ha [cancelado la publicación](#unpublishing-an-event).
+   >Make sure the event configuration has the **[!UICONTROL Draft]** status, otherwise you will not be able to delete it. The **[!UICONTROL Draft]** status applies to an event that has not been published yet or that has been [unpublished](#unpublishing-an-event).
 
 1. Haga clic en el botón **[!UICONTROL Confirm]**.
 
@@ -229,7 +244,7 @@ Una vez cancelada la publicación de un evento o si aún no se ha publicado un e
 
 Una vez que haya creado un evento, deberá integrar el activador de este evento en su sitio web.
 
-En el ejemplo que se describe en la sección de principios [operativos de mensajería](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) transaccional, se desea activar un evento de &quot;abandono del carro de compras&quot; cada vez que uno de los clientes abandone el sitio web antes de comprar los productos en el carro de compras. Para ello, el desarrollador web de su sitio web debe utilizar la API de REST de Adobe Campaign Standard.
+En el ejemplo que se describe en la sección de principios [operativos de mensajería](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) transaccional, se desea activar un evento de &quot;abandono del carro de compras&quot; cada vez que uno de los clientes abandone el sitio web antes de comprar los productos en el carro de compras. Para ello, el desarrollador web de su sitio web debe utilizar la API de Adobe Campaign Standard REST.
 
 Consulte la documentación de la API de [REST](../../api/using/managing-transactional-messages.md) .
 
@@ -239,10 +254,10 @@ La configuración del evento transaccional puede variar según el tipo de mensaj
 
 Las siguientes secciones detallan qué configuración específica debe configurarse según el mensaje transaccional deseado. Para obtener más información sobre los pasos generales para configurar un evento, consulte [Creación de un evento](#creating-an-event).
 
-### mensajes transaccionales basados en Eventos {#event-based-transactional-messages}
+### Event-based transactional messages {#event-based-transactional-messages}
 
 Para enviar un mensaje transaccional basado en eventos, primero debe crear y configurar un evento que dirija los datos contenidos en el propio evento.
-Para obtener más información, consulte [Uso de mensajes](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Managedatatofuelengagingexperiences)transaccionales.
+Para obtener más información, consulte [Uso de mensajes](https://helpx.adobe.com/es/campaign/kb/simplify-campaign-management.html#Managedatatofuelengagingexperiences)transaccionales.
 
 1. Al crear la configuración de evento, seleccione la **[!UICONTROL Real-time event]** dimensión de segmentación (consulte [Creación de un evento](#creating-an-event)).
 1. Añada los campos al evento para poder personalizar el mensaje transaccional (consulte [Definición de atributos](#defining-the-event-attributes)de evento).
@@ -250,7 +265,7 @@ Para obtener más información, consulte [Uso de mensajes](https://helpx.adobe.c
 
    >[!NOTE]
    >
-   >Se supone que la mensajería transaccional basada en Evento utiliza solamente los datos que se encuentran en el evento enviado para definir el destinatario y la personalización del contenido del mensaje. Sin embargo, puede enriquecer el contenido de su mensaje transaccional con información de la base de datos de Adobe Campaign.
+   >Se supone que la mensajería transaccional basada en eventos utiliza solamente los datos que se encuentran en el evento enviado para definir el destinatario y la personalización del contenido del mensaje. Sin embargo, puede enriquecer el contenido de su mensaje transaccional con información de la base de datos de Adobe Campaign.
 
 1. Previsualización y publicación del evento (consulte [Vista previa y publicación del evento](#previewing-and-publishing-the-event)).
 
@@ -260,7 +275,7 @@ Para obtener más información, consulte [Uso de mensajes](https://helpx.adobe.c
 
 1. Integrar el evento en el sitio web (consulte [Integración del activador del evento en un sitio web](#integrating-the-triggering-of-the-event-in-a-website)).
 
-### mensajes transaccionales basados en Perfiles {#profile-based-transactional-messages}
+### Mensajes transaccionales basados en perfil {#profile-based-transactional-messages}
 
 Para enviar un mensaje transaccional basado en perfil, primero debe crear y configurar los datos de objetivo de evento contenidos en la base de datos de Adobe Campaign.
 
@@ -271,20 +286,20 @@ Para enviar un mensaje transaccional basado en perfil, primero debe crear y conf
 
    Al obtener una vista previa del evento, la API de REST no contiene ningún atributo que especifique la dirección de correo electrónico o el teléfono móvil, ya que se recuperará del **[!UICONTROL Profile]** recurso.
 
-   Una vez publicado el evento, se crea automáticamente un mensaje transaccional vinculado al nuevo evento. Para que el evento active el envío de un mensaje transaccional, debe modificar y publicar el mensaje que se acaba de crear, consulte [Envío de un mensaje transaccional](../../channels/using/profile-transactional-messages.md#sending-a-profile-transactional-message)de perfil.
+    Para que el evento active el envío de un mensaje transaccional, debe modificar y publicar el mensaje que se acaba de crear, consulte [Envío de un mensaje transaccional](../../channels/using/profile-transactional-messages.md#sending-a-profile-transactional-message)de perfil.
 
 1. Integrar el evento en el sitio web (consulte [Integración del activador del evento en un sitio web](#integrating-the-triggering-of-the-event-in-a-website)).
 
-### Notificaciones push transaccionales basadas en Eventos {#event-based-transactional-push-notifications}
+### Notificaciones push transaccionales basadas en eventos {#event-based-transactional-push-notifications}
 
-Para poder enviar notificaciones push transaccionales, debe configurar el Adobe Campaign en consecuencia. Consulte Configuración [push](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html).
+Para poder enviar notificaciones push transaccionales, debe configurar Adobe Campaign en consecuencia. Consulte Configuración [push](https://helpx.adobe.com/es/campaign/kb/configuring-app-sdkv4.html).
 
 Para enviar una notificación push de transacción anónima a todos los usuarios que hayan adhesión para recibir notificaciones desde la aplicación móvil, primero debe crear y configurar un evento que dirija los datos contenidos en el propio evento. A continuación se presentan los pasos correspondientes.
 
 El evento debe contener los tres elementos siguientes:
 
-* Distintivo **de** registro, que es el ID de usuario de una aplicación móvil y un dispositivo. No puede corresponder a ningún perfil de la base de datos de Adobe Campaign.
-* Un nombre **de aplicación** móvil (uno para todos los dispositivos: Android e iOS). ID de la aplicación móvil configurada en Adobe Campaign que se utilizará para recibir notificaciones push en los dispositivos de los usuarios. Para obtener más información, consulte [esta página](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
+* Distintivo **de** registro, que es el ID de usuario de una aplicación móvil y un dispositivo. Puede que no corresponda a ningún perfil de la base de datos de Adobe Campaign.
+* Un nombre **de aplicación** móvil (uno para todos los dispositivos: Android e iOS). ID de la aplicación móvil configurada en Adobe Campaign que se utilizará para recibir notificaciones push en los dispositivos de los usuarios. Para obtener más información, consulte [esta página](https://helpx.adobe.com/es/campaign/kb/configuring-app-sdkv4.html)
 * Una plataforma **** push (&quot;gcm&quot; para Android o &quot;apns&quot; para iOS).
 
 1. Al crear la configuración de evento, seleccione el **[!UICONTROL Mobile application]** canal y la **[!UICONTROL Real-time event]** dimensión de segmentación (consulte [Creación de un evento](#creating-an-event)).
@@ -293,7 +308,7 @@ El evento debe contener los tres elementos siguientes:
 
    >[!NOTE]
    >
-   >Se supone que la mensajería transaccional basada en Evento utiliza solamente los datos que se encuentran en el evento enviado para definir el destinatario y la personalización del contenido del mensaje. Sin embargo, puede enriquecer el contenido de su mensaje transaccional con información de la base de datos de Adobe Campaign.
+   >Se supone que la mensajería transaccional basada en eventos utiliza solamente los datos que se encuentran en el evento enviado para definir el destinatario y la personalización del contenido del mensaje. Sin embargo, puede enriquecer el contenido de su mensaje transaccional con información de la base de datos de Adobe Campaign.
 
 1. Previsualización y publicación del evento (consulte [Vista previa y publicación del evento](#previewing-and-publishing-the-event)).
 
@@ -305,7 +320,7 @@ El evento debe contener los tres elementos siguientes:
 
 1. Integrar el evento en el sitio web (consulte [Integración del activador del evento en un sitio web](#integrating-the-triggering-of-the-event-in-a-website)).
 
-### Notificaciones push transaccionales basadas en Perfiles {#profile-based-transactional-push-notifications}
+### Notificaciones push transaccionales basadas en perfiles {#profile-based-transactional-push-notifications}
 
 Para enviar una notificación push de transacción a los perfiles de Adobe Campaign que se han suscrito a la aplicación móvil, primero debe crear y configurar un evento que segmente la base de datos de Adobe Campaign.
 
@@ -332,9 +347,9 @@ Para enviar una notificación push de transacción a los perfiles de Adobe Campa
 
 ### Configuración de un evento para enviar un mensaje de seguimiento {#configuring-an-event-to-send-a-follow-up-message}
 
-Un mensaje de seguimiento es una Plantilla de envíos de marketing predefinida que se puede utilizar en un flujo de trabajo para enviar mensajes a los destinatarios de un mensaje transaccional específico. Para obtener más información sobre esto, consulte [Mensajes](../../channels/using/follow-up-messages.md)de seguimiento.
+Un mensaje de seguimiento es una Plantilla de envíos de marketing predefinida que se puede utilizar en un flujo de trabajo para enviar mensajes a los destinatarios de un mensaje transaccional específico. For more on this, see [Follow-up messages](../../channels/using/follow-up-messages.md).
 
-1. Utilice la misma configuración de evento que creó para enviar un mensaje transaccional de evento. Consulte mensajes transaccionales [basados en](#event-based-transactional-messages)Eventos.
+1. Utilice la misma configuración de evento que creó para enviar un mensaje transaccional de evento. See [Event-based transactional messages](#event-based-transactional-messages).
 1. Al configurar el evento, marque la **[!UICONTROL Create follow-up delivery template for this event]** casilla antes de publicar el evento.
 
    ![](assets/message-center_follow-up-checkbox.png)
