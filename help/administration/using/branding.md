@@ -12,9 +12,9 @@ discoiquuid: cbb1dcec-3bc6-4013-87fa-27d0e5d32bf8
 context-tags: branding,overview;branding,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e18407ab4bf70caa417b16bbc645fd2c6ba1818b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ El principio primordial de la configuración y el uso de marcas es:
 >
 >Los usuarios finales no pueden crear ni modificar marcas: estas operaciones deben ser realizadas por el administrador técnico de Adobe Campaign. Para cualquier pregunta, póngase en contacto con el servicio de atención al cliente de Adobe.
 >
->No se puede utilizar el concepto de multimarca en el contexto de la mensajería transaccional. Para obtener más información, consulte [Mensajes transaccionales y marca](../../channels/using/about-transactional-messaging.md#permissions-and-branding).
+>No se puede utilizar el concepto de multimarca en el contexto de la mensajería transaccional. Para obtener más información, consulte [Mensajes transaccionales y marca](../../channels/using/transactional-messaging-limitations.md#permissions-and-branding).
 
 Las marcas se encuentran en el menú **[!UICONTROL Administration > Instance settings > Brand configuration]**.
 
@@ -67,6 +67,7 @@ Una **marca** se define con las siguientes características:
    * **Responder a (dirección de correo electrónico)** con la dirección de correo electrónico a la que el cliente puede responder.
    * **Responder a (nombre)** con el nombre de la marca.
    * **Error (dirección de correo electrónico)** con la dirección de correo electrónico que se utiliza en caso de error.
+
    >[!IMPORTANT]
    >
    >Después de haber actualizado los parámetros de encabezado de los correos electrónicos, si el nombre y la dirección de correo electrónico del remitente no han cambiado en el correo electrónico creado a partir de la plantilla, compruebe la configuración avanzada de esta.
@@ -78,6 +79,7 @@ Una **marca** se define con las siguientes características:
    * **Dirección URL externa del servidor de aplicaciones**, que se utiliza para alojar y acceder a las distintas páginas de aterrizaje que cree.
    * **Dirección URL externa del servidor de seguimiento**, que se utiliza como dirección URL rastreada durante los envíos.
    * **Dirección URL externa del servidor de página espejo**, que se utiliza como página espejo predeterminada en los envíos.
+
    >[!NOTE]
    >
    >Para mostrar la vista previa de la página de aterrizaje y el procesamiento de páginas espejo en la interfaz de usuario de Campaign, las URL del servidor de aplicaciones y del servidor de página espejo deben ser seguras. En ese caso, utilice https:// en lugar de http:// al configurar estas direcciones URL.
