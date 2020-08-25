@@ -1,6 +1,6 @@
 ---
 title: Generación de un archivo CSV para notificaciones push multilingües con Campaign Standard
-description: La carga de un archivo CSV para generar contenido para su envío es una función utilizada para admitir las notificaciones Push multilingües.
+description: La carga de un archivo CSV para generar contenido para envío es una función que se utiliza para admitir las notificaciones Push multilingües.
 page-status-flag: never-activated
 uuid: e90f4ec8-14e3-4304-b5fc-bce0ba08a4ef
 contentOwner: sauviat
@@ -12,14 +12,17 @@ discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c6df07dd78de6b15971937d574429d3ba5dc1a15
+source-git-commit: 772393c135b96374cb510a3d96e3c781274e857e
+workflow-type: tm+mt
+source-wordcount: '1127'
+ht-degree: 0%
 
 ---
 
 
 # Generación de un archivo CSV para notificaciones push multilingües{#generating-csv-multilingual-push}
 
-La carga de un archivo CSV para generar contenido para su envío es una función utilizada para admitir las notificaciones Push multilingües. El formato del archivo CSV debe atenerse a determinadas directrices para que la carga del archivo se realice correctamente y, en consecuencia, pueda crear una entrega. Las siguientes secciones describen el formato de archivo y sus consideraciones.
+La carga de un archivo CSV para generar contenido para envío es una función que se utiliza para admitir las notificaciones Push multilingües. El formato del archivo CSV debe atenerse a determinadas directrices para que la carga del archivo sea correcta y, por lo tanto, pueda crear un envío. Las siguientes secciones describen el formato de archivo y sus consideraciones.
 
 ## Formato de archivo {#file-format}
 
@@ -30,26 +33,26 @@ La inserción multilingüe requiere 14 columnas en el archivo CSV:
 * sonido
 * distintivo
 * deeplinkURI
-* category
+* categoría
 * iosMediaAttachmentURL
 * androidMediaAttachmentURL
 * isContentAvailable
 * isMutableContent
 * customFields
 * locale
-* idioma
+* language
 * silentPush
 
 ![](assets/multilingual_push_1.png)
 
 Compruebe el ejemplo de CSV haciendo clic en el **[!UICONTROL Download a sample file]** en la **[!UICONTROL Manage Content Variants]** ventana. For more on this, refer to the this [section](../../channels/using/creating-a-multilingual-push-notification.md).
 
-* **title, messageBody, sound, badge, deeplinkURI, category, iosMediaAttachmentURL, androidMediaAttachmentURL**: contenido de carga útil push regular. Debe proporcionar esta información de una manera similar a cuando se crean envíos push.
-* **Campos** personalizados:  utilice el formato JSON para los campos personalizados, por ejemplo:&quot;{&quot;&quot;key1&quot;&quot;:&quot;&quot;value1&quot;&quot;&quot;,&quot;&quot;key2&quot;&quot;:&quot;&quot;value2&quot;&quot;}&quot;. Consulte el archivo de ejemplo anterior para ver un ejemplo de campos personalizados.
+* **title, messageBody, sound, badge, deeplinkURI, categoría, iosMediaAttachmentURL, androidMediaAttachmentURL**: contenido de carga útil push regular. Debe proporcionar esta información de una manera similar a cuando se crean envíos push.
+* **Campos** personalizados:  utilice el formato JSON para los campos personalizados, p. ej. `{"key1":"value1","key2":"value2"}`. Consulte el archivo de ejemplo anterior para ver un ejemplo de campos personalizados.
 * **isContentAvailable**: marca para la comprobación de contenido disponible, el valor 1 implica verdadero, el valor 0 implica falso. El valor predeterminado es 0. Si deja esta columna en blanco, el valor se considerará 0.
 * **isMutableContent**: para Contenido mutable, el valor 1 implica verdadero, el valor 0 implica falso. El valor predeterminado es 0. Si deja esta columna en blanco, el valor se considerará 0.
 * **configuración regional**: locale es el campo para las variantes de idioma, por ejemplo: &quot;es_es&quot; para EE.UU.-inglés y &quot;fr_fr&quot; para Francia-francés.
-* **idioma**: nombre del idioma asociado a la configuración regional. Por ejemplo, si la configuración regional es &quot;en_us&quot;, el nombre del idioma debe ser &quot;Inglés-Estados Unidos&quot;.
+* **idioma**: nombre del idioma asociado con la configuración regional. Por ejemplo, si la configuración regional es &quot;en_us&quot;, el nombre del idioma debe ser &quot;Inglés-Estados Unidos&quot;.
 * **silentPush**: para el tipo de notificación push. Si es una notificación push regular, el valor debe ser 0. Si es una notificación push silenciosa, el valor debe ser 1. El valor predeterminado es 0. Si deja esta columna en blanco, el valor se considerará 0.
 
 ## Restricciones y directrices para la creación del archivo csv {#constraints-guideline-csv}
@@ -68,7 +71,7 @@ Un valor en blanco para esta columna provocará un error en la carga del archivo
 
 **Si genera el archivo por texto sin formato, separe cada columna por &quot;,&quot;.**
 
-**Diferencia de variante.** Si utiliza bloques de contenido y audiencias de destino con idiomas específicos, debe enumerar todos los idiomas de destino en el archivo CSV o se producirá un error al enviar la entrega.
+**Diferencia de variante.** Si utiliza audiencias de bloque de contenido y destinatario con idiomas específicos, deberá realizar la lista de todos los idiomas objetivo en el archivo CSV o se producirá un error al enviar el envío.
 
 ## Inserción del campo de personalización en el archivo csv {#personalization-field-csv}
 
@@ -102,7 +105,7 @@ En el lapso hay dos atributos obligatorios:
 
 Se admiten los siguientes idiomas:
 
-| locale | idioma |
+| locale | language |
 |:-:|:-:|
 | af_za | Afrikaans - Sudáfrica |
 | sq_al | Albanés - Albania |
@@ -150,8 +153,8 @@ Se admiten los siguientes idiomas:
 | en_us | Inglés - Estados Unidos |
 | en_zw | Inglés - Zimbabwe |
 | et_ee | Estonio - Estonia |
-| fi_fi | Finlandés - Finlandia |
-| fr_be | Francés - Bélgica |
+| Franfi_fi | Finlandés - Finlandia |
+| fr_be | Sudáfrica |
 | fr_ca | Francés - Canadá |
 | fr_fr | Francés - Francia |
 | fr_lu | Francés - Luxemburgo |
@@ -164,7 +167,7 @@ Se admiten los siguientes idiomas:
 | el_gr | Griego - Grecia |
 | gu_in | Gujarati (India) |
 | he_il | Hebreo - Israel |
-| hi_in | Hindi - India |
+| HH_in | Hindi - India |
 | hu_hu | Húngaro - Hungría |
 | is_is | Islandés - Islandia |
 | id_id | Indonesio - Indonesia |
@@ -181,11 +184,11 @@ Se admiten los siguientes idiomas:
 | mr_in | Marathi - India |
 | no_no | Noruego - Noruega |
 | pl_pl | Polaco - Polonia |
-| pt_br | Portugués - Brasil |
-| pt_pt | Portugués - Portugal |
-| pa_in | Punjabi - India |
+| pt_br | ro. portugués (Brasil) |
+| se | Portugués - Portugal |
+| _pa_in | Punjabi - India |
 | ro_md | Rumano - Moldavia |
-| ro_ro | Rumano - Rumania |
+| v_ro | Rumano - Rumania |
 | ru_kz | Ruso - Kazajistán |
 | ru_ru | Ruso - Rusia |
 | ru_ua | Ruso - Ucrania |
@@ -206,22 +209,22 @@ Se admiten los siguientes idiomas:
 | es_hn | Español (Honduras) |
 | es_mx | Español (México) |
 | es_ni | Español (Nicaragua) |
-| es_pa | Español (Panamá) |
+| es_pa | th |
 | es_py | Español (Paraguay) |
-| es_pe | Español (Perú) |
-| es_pr | Español - Puerto Rico |
-| es_es | Español (España) |
-| es_uy | Español (Uruguay) |
-| es_ve | Español (Venezuela) |
+| es_pe | saudita - Perú |
+| es_pr | es español - Puerto Rico |
+| Español | Español (España) |
+| es_uy | Portugués (Uruguay) |
+| Español | Sueco - Venezuela |
 | sw_ke | Swahili - Kenia |
 | sv_fi | Sueco - Finlandia |
-| sv_se | Sueco - Suecia |
+| sv_se | es sueco - Suecia |
 | ta_in | Tamil - India |
 | tt_ru | Tatar - Ruso |
-| te_in | Telugu - India |
-| th_th | Thai - Tailandia |
+| tr_in | Telugu - India |
+| Bosnia | Thai - Tailandia |
 | tr_cy | Turco - Chipre |
-| tr_tr | Turco - Turquía |
+| Serr_tr | Turco - Turquía |
 | uk_ua | Ucraniano - Ucraniano |
 | ur_in | Urdu - India |
 | ur_pk | Urdu - Pakistán |
