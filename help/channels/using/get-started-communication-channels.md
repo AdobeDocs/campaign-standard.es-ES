@@ -12,10 +12,10 @@ discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d994d85f126951215f1227301599c554c1f12c8
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 14%
+source-wordcount: '526'
+ht-degree: 17%
 
 ---
 
@@ -73,11 +73,12 @@ Más información:
 
 **Envíe mensajes** individuales y únicos a sus clientes en tiempo real: mensajes de bienvenida, confirmaciones de envío de pedidos, modificación de contraseña, etc.
 
-Hay Mensajes transaccionales disponibles para los canales de correo electrónico, SMS y notificaciones push, según las opciones. Existen dos tipos de mensajes: **eventos de objetivo de mensajes transaccionales** de evento sin información de perfil y perfiles de objetivo de mensajes transaccionales **de** perfil de la base de datos.
+Hay mensajes transaccionales disponibles para los canales de correo electrónico, SMS y notificaciones push, según las opciones. Existen dos tipos de mensajes: **eventos de objetivo de mensajes transaccionales** de evento sin información de perfil y perfiles de objetivo de mensajes transaccionales **de** perfil de la base de datos.
 
 Más información:
 
-* [Acerca de la mensajería transaccional](../../channels/using/about-transactional-messaging.md)
+* [Acerca de la mensajería transaccional](../../channels/using/getting-started-with-transactional-msg.md)
+* [Introducción a la mensajería transaccional](../../channels/using/getting-started-with-transactional-msg.md)
 * [Mensajes transaccionales de eventos](../../channels/using/event-transactional-messages.md)
 * [Mensajes transaccionales de perfil](../../channels/using/profile-transactional-messages.md)
 * [Notificaciones push transaccionales](../../channels/using/transactional-push-notifications.md)
@@ -89,12 +90,12 @@ Más información:
 
 Campaña viene con páginas de aterrizaje que son formularios Web que pueden utilizarse para **capturar información sobre sus audiencias**, oferta de suscripciones a un servicio, visualización de datos y ampliación de la base de datos.
 
-También se pueden utilizar Páginas de aterrizaje para **adquirir o actualizar perfiles** existentes y para configurar un mecanismo de selección de dobles, lo que le permite proteger la plataforma de direcciones de correo electrónico erróneas o no válidas, o spambots.
+También se pueden utilizar páginas de aterrizaje para **adquirir o actualizar perfiles** existentes y para configurar un mecanismo de selección de dobles, lo que le permite proteger la plataforma de direcciones de correo electrónico erróneas o no válidas, o spambots.
 
 Más información:
 
 * [Introducción a las páginas de aterrizaje](../../channels/using/getting-started-with-landing-pages.md)
-* [Plantillas de Página de aterrizaje](../../channels/using/landing-page-templates.md)
+* [Plantillas de página de aterrizaje](../../channels/using/landing-page-templates.md)
 * [Administración de datos de formulario de una página de aterrizaje](../../channels/using/managing-landing-page-form-data.md)
 * [Configuración de un proceso de inclusión doble](../../channels/using/setting-up-a-double-opt-in-process.md)
 
@@ -103,7 +104,7 @@ Más información:
 * [Optimización de la capacidad de entrega](../../sending/using/about-deliverability.md)
 * [Prácticas recomendadas relacionadas con las entregas](https://helpx.adobe.com/es/campaign/kb/delivery-best-practices.html)
 * [Diseño de contenido de correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md)
-* [Importación de contenido de AEM](../../integrating/using/creating-email-experience-manager.md)
+* [Importación de contenido AEM](../../integrating/using/creating-email-experience-manager.md)
 * [Envío de mensajes con flujos de trabajo](../../automating/using/about-channel-activities.md)
 * [Tutoriales de canales de comunicación](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html)
 * [Caso de uso: Creación de un envío entre canales](../../automating/using/workflow-cross-channel-delivery.md)
