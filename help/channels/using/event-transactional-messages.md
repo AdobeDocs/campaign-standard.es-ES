@@ -13,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 762700893c913d9aea884d00438c84b39a800188
+source-git-commit: fe9b2156a80f973045a2a7860dac4ac3a1d899e7
 workflow-type: tm+mt
 source-wordcount: '2478'
 ht-degree: 100%
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 Puede enviar mensajes transaccionales de eventos dirigidos a un evento. Este tipo de mensajes transaccionales no contiene información de perfil: el destinatario se define por los datos contenidos en el propio evento.
 
-Una vez que haya creado y publicado un evento (el abandono del carro de compras como se explica en [esta sección](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle)), el mensaje transaccional correspondiente se crea automáticamente.
+Una vez que haya creado y publicado un evento (el abandono del carro de compras como se explica en [esta sección](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)), el mensaje transaccional correspondiente se crea automáticamente.
 
 Los pasos de configuración se presentan en la sección [Configuración de un evento para enviar un mensaje transaccional](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
 
