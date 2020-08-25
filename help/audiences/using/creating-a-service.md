@@ -12,9 +12,9 @@ discoiquuid: 6b7788fe-fa6c-472a-97db-765595ce1589
 context-tags: service,wizard;service,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: a8ee3b864b6916871711c6bd2e2d3b794bc706f8
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ Para configurar un servicio:
       >
       >Para modificar un mensaje predeterminado, haga clic en su etiqueta en la sección **[!UICONTROL Service properties]** o marque la casilla **[!UICONTROL Show internal transactional messages]** para seleccionarlo después en la lista de mensajes transaccionales de Adobe Campaign.
 
-   * **[!UICONTROL Custom message]**: este modo le permite gestionar mensajes de confirmación personalizados, específicos para cada servicio. A continuación, seleccione la **[!UICONTROL Custom subscription event configuration]** que está asociada a una plantilla del [mensaje transaccional](../../channels/using/about-transactional-messaging.md) específica. Para obtener más información sobre esto, consulte [Confirmación de la suscripción a un servicio](../../audiences/using/confirming-subscription-to-a-service.md).
+   * **[!UICONTROL Custom message]**: este modo le permite gestionar mensajes de confirmación personalizados, específicos para cada servicio. A continuación, seleccione la **[!UICONTROL Custom subscription event configuration]** que está asociada a una plantilla del [mensaje transaccional](../../channels/using/getting-started-with-transactional-msg.md) específica. Para obtener más información sobre esto, consulte [Confirmación de la suscripción a un servicio](../../audiences/using/confirming-subscription-to-a-service.md).
 
 1. Guarde el servicio. Ahora está listo para usarlo.
 
