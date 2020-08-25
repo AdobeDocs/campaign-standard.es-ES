@@ -12,7 +12,7 @@ discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: a373eb6546cb3c726e8b6807f6b47b14b3e520e6
 workflow-type: tm+mt
 source-wordcount: '1277'
 ht-degree: 2%
@@ -26,7 +26,7 @@ Para obtener más información sobre la compatibilidad entre dimensiones y métr
 
 ![](assets/dynamic_report_compatibility.png)
 
-## Dimensiones {#dimensions}
+## Dimension {#dimensions}
 
 La tabla siguiente le proporciona la lista de las dimensiones utilizadas en los informes y sus definiciones.
 
@@ -68,7 +68,7 @@ La tabla siguiente le proporciona la lista de las dimensiones utilizadas en los 
   </tr> 
   <tr> 
    <td> Sexo<br /> </td> 
-   <td> Sexo del Destinatario, como hombre o mujer. Si el campo de sexo está vacío en el perfil del destinatario, el valor será none.<br /> </td> 
+   <td> Sexo del destinatario, como hombre o mujer. Si el campo de sexo está vacío en el perfil del destinatario, el valor será none.<br /> </td> 
   </tr> 
   <tr> 
    <td> Acciones de mensajes en la aplicación<br /> </td> 
@@ -84,18 +84,18 @@ La tabla siguiente le proporciona la lista de las dimensiones utilizadas en los 
   </tr> 
   <tr> 
    <td> Platform<br /> </td> 
-   <td> Platform del dispositivo desde el que se abrió/visualizó/hizo clic en el mensaje.<br /> </td> 
+   <td> Plataforma del dispositivo desde el que se abrió/visualizó/hizo clic en el mensaje.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Profiles<br /> </td> 
+   <td> Perfil<br /> </td> 
    <td> Reagrupa los campos de perfil predeterminados y personalizados creados durante la extensión de recursos de perfil. Para obtener más información, consulte esta <a href="../../developing/using/key-steps-to-add-a-resource.md">página</a> o este <a href="../../reporting/using/creating-a-custom-profile-dimension.md">ejemplo</a>.<br /> Tenga en cuenta que los datos de esta dimensión se recuperan en cuanto se publica el recurso personalizado vinculado al campo perfil.<br /> </td> 
   </tr> 
   <tr> 
    <td> Plataforma push<br /> </td> 
-   <td> Platform del dispositivo desde el que se abrió la notificación push, como iOS o Android.<br /> </td> 
+   <td> Plataforma del dispositivo desde el que se abrió la notificación push, como iOS o Android.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Dominio de Destinatario<br /> </td> 
+   <td> Dominio de destinatario<br /> </td> 
    <td> Dominio utilizado para abrir el correo electrónico.<br /> </td> 
   </tr> 
   <tr> 
@@ -119,7 +119,7 @@ La tabla siguiente le proporciona la lista de las dimensiones utilizadas en los 
    <td> Dirección URL en la que el usuario hizo clic desde el mensaje.<br /> </td> 
   </tr> 
   <tr> 
-   <td> categoría de URL de seguimiento<br /> </td> 
+   <td> Categoría de URL de seguimiento<br /> </td> 
    <td> Categoría asignada a la URL de seguimiento.<br /> </td> 
   </tr> 
   <tr> 
@@ -127,7 +127,7 @@ La tabla siguiente le proporciona la lista de las dimensiones utilizadas en los 
    <td> Etiqueta dada a la dirección URL, como página espejo, contacto con nosotros o abrir.<br /> </td> 
   </tr> 
   <tr> 
-   <td> envío transaccional<br /> </td> 
+   <td> Envío transaccional<br /> </td> 
    <td> Etiqueta e ID del envío transaccional.<br /> </td> 
   </tr> 
   <tr> 
@@ -152,12 +152,12 @@ Las siguientes tablas proporcionan la lista de las métricas utilizadas en los i
  </thead> 
  <tbody> 
   <tr> 
-   <td> En la lista de bloques<br /> </td> 
+   <td> En lista de bloqueados<br /> </td> 
    <td> Número de destinatarios que declararon un correo electrónico como correo no deseado o no deseado.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Índice de lista de bloques<br /> </td> 
-   <td> Porcentaje de envíos marcados en la lista de bloques.<br /> </td> 
+   <td> Tasa de lista de bloqueados<br /> </td> 
+   <td> Porcentaje de envíos marcados en la lista de bloqueados.<br /> </td> 
   </tr> 
   <tr> 
    <td> Devoluciones + Errores<br /> </td> 
@@ -196,15 +196,15 @@ Las siguientes tablas proporcionan la lista de las métricas utilizadas en los i
    <td> Número de destinatarios que hicieron clic en el vínculo de página espejo.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Tasa de Página espejo<br /> </td> 
+   <td> Tasa de página espejo<br /> </td> 
    <td> Porcentaje de clics en el vínculo de página espejo comparado con el total de mensajes de envío.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Clics en Oferta<br /> </td> 
+   <td> Clics en oferta<br /> </td> 
    <td> Número de veces que se hizo clic en una oferta en un envío.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Frecuencia de clics en Oferta<br /> </td> 
+   <td> Frecuencia de clics en oferta<br /> </td> 
    <td> Porcentaje de clics en una oferta.<br /> </td> 
   </tr> 
   <tr> 
@@ -224,7 +224,7 @@ Las siguientes tablas proporcionan la lista de las métricas utilizadas en los i
    <td> Número de mensajes que se rebotaron y resultaron en la cuarentena de la dirección.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Tasa de Cuarentena<br /> </td> 
+   <td> Tasa de cuarentena<br /> </td> 
    <td> Porcentaje de cuarentenas en comparación con los mensajes enviados.<br /> </td> 
   </tr> 
   <tr> 
@@ -232,7 +232,7 @@ Las siguientes tablas proporcionan la lista de las métricas utilizadas en los i
    <td> Número de mensajes clasificados como correo no deseado por los servidores SMTP.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Tipo Rechazado<br /> </td> 
+   <td> Tipo rechazado<br /> </td> 
    <td> Porcentaje de mensajes marcados como rechazados.<br /> </td> 
   </tr> 
   <tr> 
@@ -313,7 +313,7 @@ Las siguientes tablas proporcionan la lista de las métricas utilizadas en los i
    <td> Porcentaje de notificaciones push abiertas.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Clic único<br /> </td> 
+   <td> Clics únicos<br /> </td> 
    <td> Número de veces que un usuario único interactúa con la notificación push, por ejemplo, haciendo clic en la notificación o en el botón.<br /> </td> 
   </tr> 
   <tr> 
