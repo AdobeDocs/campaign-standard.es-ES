@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: b588366b0697d9cf7aea77b7c9c8ec876b9e0579
 workflow-type: tm+mt
-source-wordcount: '6092'
+source-wordcount: '6119'
 ht-degree: 95%
 
 ---
@@ -23,6 +23,12 @@ ht-degree: 95%
 # Actualizaciones de documentación{#documentation-updates}
 
 Además de las [Notas de la versión](../../rn/using/release-notes.md) de Adobe Campaign, esta página enumera todas las nuevas actualizaciones de la documentación de Adobe Campaign Standard.
+
+## Actualizaciones de documentación: agosto de 2020 {#doc-updates-august-2020}
+
+Hay disponible una nueva sección actualizada sobre cómo empezar a utilizar la mensajería transaccional. [Más información](../../channels/using/getting-started-with-transactional-msg.md)
+
+Se ha movido la sección Limitaciones de mensajes transaccionales. [Más información](../../channels/using/transactional-messaging-limitations.md)
 
 ## Actualizaciones de documentación: julio de 2020 {#doc-updates-july-2020}
 
@@ -128,7 +134,7 @@ Ya está disponible una nueva sección que describe cómo eliminar una configura
 
 Se ha actualizado y mejorado la página que describe cómo probar la línea de asunto de un correo electrónico para predecir su velocidad de apertura, incluida una nueva sección de [resolución de problemas](../../sending/using/testing-subject-line-email.md#troubleshooting). [Más información](../../sending/using/testing-subject-line-email.md)
 
-Las secciones de mensajería transaccional se han actualizado para reflejar las pequeñas actualizaciones y mejoras de la interfaz de usuario múltiple. [Más información](../../channels/using/about-transactional-messaging.md)
+Las secciones de mensajería transaccional se han actualizado para reflejar las pequeñas actualizaciones y mejoras de la interfaz de usuario múltiple. [Más información](../../channels/using/getting-started-with-transactional-msg.md)
 
 Se ha actualizado la información relacionada con los límites de actividad de API externas. [Más información](../../automating/using/external-api.md)
 
@@ -236,7 +242,7 @@ Se ha actualizado la lista de mensajes de error para Campaign Standard y Campaig
 
 La guía de introducción al RGPD se ha mejorado y enriquecido. Ahora es una documentación de administración de la privacidad que incluye el RGPD y la CCPA. [Más información](https://helpx.adobe.com/content/help/es/campaign/kb/campaign-privacy.html)
 
-Se ha añadido un nuevo gráfico que presenta el proceso de publicación de mensajería transaccional. [Más información](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
+Se ha añadido un nuevo gráfico que presenta el proceso de publicación de mensajería transaccional. [Más información](../../administration/using/configuring-transactional-messaging.md#transactional-messaging-pub-process)
 
 La guía de introducción a las prácticas recomendadas de entrega se ha movido y actualizado. [Más información](https://helpx.adobe.com/es/campaign/kb/delivery-best-practices.html)
 
@@ -416,7 +422,7 @@ Mejoras en el flujo de trabajo: Más información [aquí](../../automating/using
 
 Se han añadido la nueva experiencia de integración para crear contenido de correo electrónico y otras mejoras en el Diseñador de correo electrónico al capítulo Edición de contenido de correo electrónico. [Más información](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)
 
-Se ha añadido una nueva sección sobre las limitaciones de mensajería transaccional. [Más información](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
+Se ha añadido una nueva sección sobre las limitaciones de mensajería transaccional. [Más información](../../channels/using/transactional-messaging-limitations.md)
 
 Se ha añadido una nueva sección que compara las diferentes opciones de creación de correo electrónico en Adobe Campaign. [Más información](../../designing/using/using-integrations.md#email-design-options-comparison)
 
@@ -606,7 +612,7 @@ Uso de recursos personalizados en la mensajería transaccional - [Más informaci
 
 La API del RGPD reagrupa funciones que permiten el procesamiento automático de solicitudes de RGPD. [Más información](../../api/using/creating-a-privacy-request.md)
 
-Información Añadida sobre cómo configurar páginas de aterrizaje para que sus destinatarios puedan agregarse a la lista de bloqueados. [Más información](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+Información añadida sobre cómo configurar páginas de aterrizaje para que sus destinatarios puedan agregarse a la lista de bloqueados. [Más información](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 Se ha reorganizado la sección [Configuración de mensaje transaccional](../../administration/using/configuring-transactional-messaging.md) y se ha añadido un [caso de uso paso a paso](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
 
