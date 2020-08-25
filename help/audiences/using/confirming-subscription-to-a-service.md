@@ -11,9 +11,9 @@ topic-tags: managing-subscriptions
 discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
 source-wordcount: '1322'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ Al configurarlo desde el servicio, el mensaje transaccional de confirmación se 
 
 ### Paso 1: crear el correo electrónico de confirmación {#step-1--create-the-confirmation-email-1}
 
-Se envía automáticamente un correo electrónico de confirmación a cada perfil que se suscriba a la newsletter (a través de una página de aterrizaje o por cualquier otro medio). La suscripción se considera un evento y el correo electrónico es un [mensaje transaccional](../../channels/using/about-transactional-messaging.md) que se envía a cada perfil que se suscribe al servicio.
+Se envía automáticamente un correo electrónico de confirmación a cada perfil que se suscriba a la newsletter (a través de una página de aterrizaje o por cualquier otro medio). La suscripción se considera un evento y el correo electrónico es un [mensaje transaccional](../../channels/using/getting-started-with-transactional-msg.md) que se envía a cada perfil que se suscribe al servicio.
 
 A continuación se describen los pasos para crear el correo electrónico de confirmación. Como se hace referencia al mensaje transaccional en el servicio, primero debe crearlo.
 
@@ -135,13 +135,13 @@ Al hacer referencia al mensaje de confirmación de la página de aterrizaje, se 
 
 ### Paso 1: crear el correo electrónico de confirmación {#step-1--create-the-confirmation-email-2}
 
-Se envía automáticamente un correo electrónico de confirmación a cada perfil que se suscribe a la newsletter mediante una página de aterrizaje. La suscripción se considera un evento y el correo electrónico es un [mensaje transaccional](../../channels/using/about-transactional-messaging.md) que se envía a cada perfil que se suscribe al servicio.
+Se envía automáticamente un correo electrónico de confirmación a cada perfil que se suscribe a la newsletter mediante una página de aterrizaje. La suscripción se considera un evento y el correo electrónico es un [mensaje transaccional](../../channels/using/getting-started-with-transactional-msg.md) que se envía a cada perfil que se suscribe al servicio.
 
 A continuación se describen los pasos para crear estos elementos. Como en la página de aterrizaje se hace referencia al mensaje transaccional, primero debe crearlo.
 
 #### Creación del evento {#create-the-event-2}
 
-El correo electrónico de confirmación es un [mensaje transaccional](../../channels/using/about-transactional-messaging.md), ya que reacciona ante un evento: la suscripción a un servicio. Este mensaje se envía para confirmar la suscripción a la newsletter.
+El correo electrónico de confirmación es un [mensaje transaccional](../../channels/using/getting-started-with-transactional-msg.md), ya que reacciona ante un evento: la suscripción a un servicio. Este mensaje se envía para confirmar la suscripción a la newsletter.
 
 1. Cree un evento en el menú **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**, accesible desde el logotipo de Adobe Campaign.
 1. Introduzca una etiqueta, seleccione una dimensión de segmentación y haga clic en **[!UICONTROL Create]**.
