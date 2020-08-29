@@ -51,7 +51,7 @@ Los pasos principales para crear una regla de tipología son los siguientes:
 
    ![](assets/typology-rule-label.png)
 
-1. Especifique la regla de tipología **[!UICONTROL Type]**, luego configúrela según sus necesidades. Tenga en cuenta que la configuración de reglas de tipología varía según el tipo. Para obtener más información, consulte las secciones **[Reglas de filtrado](../../sending/using/filtering-rules.md)**y**[ Reglas de fatiga](../../sending/using/fatigue-rules.md)**.
+1. Especifique la regla de tipología **[!UICONTROL Type]**, luego configúrela según sus necesidades. Tenga en cuenta que la configuración de reglas de tipología varía según el tipo. Para obtener más información, consulte las secciones **[Reglas de filtrado](../../sending/using/filtering-rules.md)** y **[Reglas de fatiga](../../sending/using/fatigue-rules.md)**.
 
 1. Seleccione las tipologías en las que desea incluir la nueva regla. Para ello, seleccione la pestaña **[!UICONTROL Typologies]** y, a continuación, haga clic en el botón **[!UICONTROL Create element]**.
 
