@@ -51,7 +51,7 @@ La preparación del mensaje se activa según los parámetros de ejecución del f
 * [Caso de uso: Creación de una entrega segmentada en una ubicación](../../automating/using/workflow-segmentation-location.md)
 * [Caso de uso: Creación de entregas con un complemento](../../automating/using/workflow-created-query-with-complement.md)
 * [Caso de uso: Flujo de trabajo de redireccionamiento que envía una nueva entrega a receptores que no abran el correo](../../automating/using/workflow-cross-channel-retargeting.md)
-* [Caso de uso: envío de cumpleaños](../../automating/using/birthday-delivery.md)
+* [Caso de uso: Envío de cumpleaños](../../automating/using/birthday-delivery.md)
 
 ## Configuración {#configuration}
 
