@@ -59,7 +59,7 @@ Si desea utilizar el protocolo SMPP, también puede crear una nueva cuenta exter
 
 1. Defina los parámetros **[!UICONTROL Throughput and timeouts]**.
 
-   Puede especificar el rendimiento máximo de los mensajes salientes (“MT”, móvil finalizado) en MT por segundo. Si introduce “0” en el campo correspondiente, el rendimiento es ilimitado.
+   Puede especificar el rendimiento máximo de los mensajes salientes (“MT”, móvil finalizado) en MT por segundo. Si introduce &quot;0&quot; en el campo correspondiente, el rendimiento es ilimitado.
 
    Los valores de todos los campos correspondientes a las duraciones deben rellenarse en segundos.
 
