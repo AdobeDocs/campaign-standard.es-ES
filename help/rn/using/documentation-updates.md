@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b588366b0697d9cf7aea77b7c9c8ec876b9e0579
+source-git-commit: cbc9114b1179fe6fc0f87a9b9b55397ef60d3cb9
 workflow-type: tm+mt
-source-wordcount: '6119'
+source-wordcount: '6144'
 ht-degree: 95%
 
 ---
@@ -24,11 +24,17 @@ ht-degree: 95%
 
 Además de las [Notas de la versión](../../rn/using/release-notes.md) de Adobe Campaign, esta página enumera todas las nuevas actualizaciones de la documentación de Adobe Campaign Standard.
 
+## Actualizaciones de documentación: septiembre de 2020 {#doc-updates-september-2020}
+
+Se ha reorganizado y aclarado la sección de mensajes transaccionales de Evento. [Más información](../../channels/using/event-transactional-messages.md)
+
 ## Actualizaciones de documentación: agosto de 2020 {#doc-updates-august-2020}
 
 Hay disponible una nueva sección actualizada sobre cómo empezar a utilizar la mensajería transaccional. [Más información](../../channels/using/getting-started-with-transactional-msg.md)
 
 Se ha movido la sección Limitaciones de mensajes transaccionales. [Más información](../../channels/using/transactional-messaging-limitations.md)
+
+Se ha movido la sección Preparación del envío. [Más información](../../sending/using/preparing-the-send.md)
 
 ## Actualizaciones de documentación: julio de 2020 {#doc-updates-july-2020}
 
