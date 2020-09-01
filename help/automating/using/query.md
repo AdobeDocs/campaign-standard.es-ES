@@ -13,10 +13,10 @@ context-tags: query,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
+source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
 workflow-type: tm+mt
-source-wordcount: '1725'
-ht-degree: 98%
+source-wordcount: '1720'
+ht-degree: 97%
 
 ---
 
@@ -63,7 +63,7 @@ La actividad **[!UICONTROL Query]** se puede utilizar para varios tipos de usos:
 
 1. En la pestaña **[!UICONTROL Transition]**, la opción **[!UICONTROL Enable an outbound transition]** le permite agregar una transición saliente después de la actividad de consulta, aunque no recupere datos.
 
-   El código de segmento de la transición saliente se puede personalizar mediante una expresión estándar y variables de eventos (consulte [Personalización de actividades con variables de eventos](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables)).
+   The outbound transition&#39;s segment code can be personalized using a standard expression and events variables (see [](../../automating/using/customizing-workflow-external-parameters.md)).
 
 1. Confirme la configuración de la actividad y guarde el flujo de trabajo.
 
