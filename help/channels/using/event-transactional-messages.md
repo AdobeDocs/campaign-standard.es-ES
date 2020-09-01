@@ -13,10 +13,10 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fe9b2156a80f973045a2a7860dac4ac3a1d899e7
+source-git-commit: e8f8755acdc0b778b74e2bfcd4dc898ceff82b90
 workflow-type: tm+mt
-source-wordcount: '2478'
-ht-degree: 100%
+source-wordcount: '2492'
+ht-degree: 93%
 
 ---
 
@@ -29,58 +29,26 @@ Una vez que haya creado y publicado un evento (el abandono del carro de compras 
 
 Los pasos de configuración se presentan en la sección [Configuración de un evento para enviar un mensaje transaccional](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
 
-Para que el evento active el envío de un mensaje transaccional, debe personalizar el mensaje, probarlo y publicarlo.
-
 >[!NOTE]
->
->Para acceder a mensajes transaccionales, debe formar parte del grupo de seguridad **[!UICONTROL Administrators (all units)]**.
 >
 >Los mensajes transaccionales de evento no contienen información sobre perfiles, por lo que no son compatibles con las normas de fatiga (incluso en el caso de un enriquecimiento con perfiles). Consulte [Reglas de fatiga](../../sending/using/fatigue-rules.md#choosing-the-channel).
 
-## Definición de un perfil de prueba en un mensaje transaccional {#defining-a-test-profile-in-a-transactional-message}
+Para que el evento active el envío de un mensaje transaccional, debe personalizar el mensaje, probarlo y publicarlo.
 
-Defina un perfil de prueba adaptado, que le permite obtener una vista previa del mensaje y enviar una prueba para comprobar que todo esté bien.
+## Acceso a mensajes transaccionales {#accessing-transactional-messages}
 
-### Creación de un perfil de prueba dentro del mensaje transaccional {#creating-a-test-profile-within-the-transactional-----------message}
+Para acceder al mensaje transaccional que ha creado:
 
-1. Para acceder al mensaje que ha creado, haga clic en el logotipo de **[!UICONTROL Adobe Campaign]**, en la esquina superior izquierda, y seleccione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
+1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner.
+1. Seleccione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
 
    ![](assets/message-center_4.png)
 
-1. Cree un perfil de prueba que esté vinculado a su evento.
+1. Haga clic en el mensaje que desee para editarlo.
 
-   ![](assets/message-center_test-profile.png)
-
-1. Especifique la información que desea enviar en formato JSON en la sección **[!UICONTROL Event data used for personalization]**. Este es el contenido que se utiliza al obtener una vista previa del mensaje y cuando el perfil de prueba reciba la prueba.
-
-   ![](assets/message-center_event-data.png)
-
-   >[!NOTE]
-   >
-   >También puede introducir la información relativa a la tabla de perfiles. Consulte [Enriquecimiento del contenido de mensajes transaccionales](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content).
-
-1. Una vez creado, el perfil de prueba se especifica previamente en el mensaje transaccional. Haga clic en el bloque **[!UICONTROL Test profiles]** del mensaje para comprobar el destinatario de la prueba.
-
-   ![](assets/message-center_5.png)
-
-### Creación de un perfil de prueba fuera del mensaje transaccional {#creating-a-test-profile-outside-the-transactional-----------message}
-
-También puede crear un nuevo perfil de prueba o utilizar uno que ya exista en el menú **[!UICONTROL Test profiles]**.
-
-1. Haga clic en el logotipo de **[!UICONTROL Adobe Campaign]**, en la esquina superior izquierda, y luego seleccione **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
-1. En la sección **[!UICONTROL Event]** de la página del perfil de prueba que ha elegido, seleccione el evento que acaba de crear. En este ejemplo, seleccione “Abandono del carro de compras (EVTcartAbandonment)”.
-1. Especifique la información que desea enviar en formato JSON en el cuadro de texto **[!UICONTROL Event data]**.
-
-   ![](assets/message-center_3.png)
-
-1. Guarde los cambios.
-
-Ahora puede acceder al mensaje que ha creado y seleccionar el perfil de prueba actualizado.
-
-**Temas relacionados:**
-
-* [Administración de perfiles de prueba](../../audiences/using/managing-test-profiles.md)
-* [Definición de audiencias](../../audiences/using/creating-audiences.md)
+>[!IMPORTANT]
+>
+>Para acceder a mensajes transaccionales, debe formar parte del grupo de seguridad **[!UICONTROL Administrators (all units)]**.
 
 ## Personalización de un mensaje transaccional {#personalizing-a-transactional-message}
 
@@ -240,7 +208,47 @@ Para obtener más información sobre la creación de una recopilación y los cam
 
 ## Prueba de un mensaje transaccional {#testing-a-transactional-message}
 
-Una vez guardado el mensaje transaccional, ahora puede enviar una prueba para probarlo.
+Primero debe crear un perfil de prueba específico que le permita comprobar correctamente el mensaje transaccional.
+
+### Definición de un perfil de prueba específico {#defining-specific-test-profile}
+
+Defina un perfil de prueba que se vinculará a su evento, lo que le permitirá previsualización de su mensaje y enviar una prueba relevante.
+
+1. From the transactional message dashboard, click the **[!UICONTROL Create test profile]** button.
+
+   ![](assets/message-center_test-profile.png)
+
+1. Especifique la información que desea enviar en formato JSON en la sección **[!UICONTROL Event data used for personalization]**. Este es el contenido que se utiliza al obtener una vista previa del mensaje y cuando el perfil de prueba reciba la prueba.
+
+   ![](assets/message-center_event-data.png)
+
+   >[!NOTE]
+   >
+   >También puede introducir la información relativa a la tabla de perfiles. Consulte [Enriquecimiento del contenido de mensajes transaccionales](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content).
+
+1. Una vez creado, el perfil de prueba se especificará previamente en el mensaje transaccional. Haga clic en el bloque **[!UICONTROL Test profiles]** del mensaje para comprobar el destinatario de la prueba.
+
+   ![](assets/message-center_5.png)
+
+También puede crear un nuevo perfil de prueba o utilizar uno que ya exista en el menú **[!UICONTROL Test profiles]**. Para ello:
+
+1. Haga clic en el logotipo de **[!UICONTROL Adobe Campaign]**, en la esquina superior izquierda, y luego seleccione **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
+1. En la **[!UICONTROL Event]** sección, seleccione el evento que acaba de crear. En este ejemplo, seleccione “Abandono del carro de compras (EVTcartAbandonment)”.
+1. Especifique la información que desea enviar en formato JSON en el cuadro de texto **[!UICONTROL Event data]**.
+
+   ![](assets/message-center_3.png)
+
+1. Guarde los cambios.
+1. Acceda al mensaje que ha creado y seleccione el perfil de prueba actualizado.
+
+**Temas relacionados:**
+
+* [Administración de perfiles de prueba](../../audiences/using/managing-test-profiles.md)
+* [Definición de audiencias](../../audiences/using/creating-audiences.md)
+
+### Envío de una prueba {#sending-proof}
+
+Una vez que haya creado uno o varios perfiles de prueba específicos y guardado el mensaje transaccional, puede enviar una prueba para probarlo.
 
 ![](assets/message-center_10.png)
 
@@ -258,7 +266,7 @@ Para acceder a los informes relacionados con su mensaje transaccional, utilice e
 
 ![](assets/message-center_13.png)
 
-## Suspender la publicación de un mensaje transaccional {#suspending-a-transactional-message-publication}
+### Suspender la publicación de un mensaje transaccional {#suspending-a-transactional-message-publication}
 
 Puede suspender la publicación del mensaje transaccional utilizando el botón **[!UICONTROL Pause]**, por ejemplo, para modificar los datos contenidos en el mensaje. Por lo tanto, los eventos ya no se procesan, sino que se mantienen en cola en la base de datos de Adobe Campaign.
 
@@ -268,7 +276,7 @@ Los eventos en cola se mantienen durante un periodo de tiempo definido en la API
 
 Al hacer clic en **[!UICONTROL Resume]**, se procesan todos los eventos en cola (siempre que no hayan caducado). Ahora contienen todas las modificaciones realizadas durante la suspensión de la publicación de la plantilla.
 
-## Cancelación de la publicación de un mensaje transaccional {#unpublishing-a-transactional-message}
+### Cancelación de la publicación de un mensaje transaccional {#unpublishing-a-transactional-message}
 
 Al hacer clic en **[!UICONTROL Unpublish]** se puede cancelar la publicación del mensaje transaccional, pero también la publicación del evento correspondiente, que elimina de la API de REST el recurso correspondiente al evento que ha creado anteriormente.
 
@@ -286,7 +294,7 @@ Los pasos para pausar un mensaje se detallan en la sección [Suspender la public
 
 Se puede acceder al flujo de trabajo **[!UICONTROL Database cleanup]**, que se ejecuta todos los días a las 4 de la mañana, seleccionando **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Workflows]**.
 
-## Eliminación de un mensaje transaccional {#deleting-a-transactional-message}
+### Eliminación de un mensaje transaccional {#deleting-a-transactional-message}
 
 Una vez que se ha cancelado la publicación de un mensaje transaccional, o si todavía no se ha publicado, puede eliminarlo de la lista de mensajes transaccionales. Para ello:
 
@@ -333,9 +341,9 @@ Una vez asignado el evento a un envío de ejecución, el mensaje transaccional p
 
 >[!NOTE]
 >
->Cuando se asigna un evento a un envío de ejecución, aparece en los registros de este envío de ejecución y solo en este momento. Los envíos fallidos se muestran en la pestaña **[!UICONTROL Execution list]** del mensaje transaccional.
+>Cuando se asigna un evento a un envío de ejecución, aparece en los registros de este envío de ejecución y solo en este momento. The failed deliveries are displayed in the **[!UICONTROL Execution list]** tab of the transactional message sending logs.
 
-### Limitaciones {#limitations}
+### Limitaciones del proceso de reintento {#limitations}
 
 **Envío de la actualización de registros**
 
