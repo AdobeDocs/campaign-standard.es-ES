@@ -13,9 +13,9 @@ context-tags: deliveryHotClicksReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 694fd5802578001ba80b35f0983a068a0a630dd0
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Un envío de ejecución es un mensaje técnico no procesable y no funcional que 
 
 * De forma predeterminada, una vez al mes para mensajes transaccionales y cada vez que se edita y publica un mensaje transaccional de nuevo.
 
-   Para obtener más información sobre mensajes transaccionales, consulte [Acerca de los mensajes](../../channels/using/getting-started-with-transactional-msg.md)transaccionales.
+   Para obtener más información sobre mensajes transaccionales, consulte [Introducción a los mensajes](../../channels/using/getting-started-with-transactional-msg.md)transaccionales.
 
 >[!NOTE]
 >
