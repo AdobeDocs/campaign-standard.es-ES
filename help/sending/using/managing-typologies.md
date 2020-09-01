@@ -12,9 +12,9 @@ discoiquuid: 2590d94c-51ef-4c0f-b1ec-c2837e94da40
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 4c5fbb5e879bad114c4ca421cd2970f2ba5a3d50
+workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 100%
 
@@ -71,7 +71,7 @@ Para vincular una tipología a un mensaje, siga estos pasos:
 
 1. Acceda a las propiedades del mensaje. Tenga en cuenta que se puede acceder a las plantillas de mensaje desde el menú de navegación **[!UICONTROL Resources]** > **[!UICONTROL Templates]**.
 
-1. En la sección **[!UICONTROL Advanced parameters]** > **[!UICONTROL Prearation]**, seleccione la tipología para vincular al mensaje.
+1. En la sección **[!UICONTROL Advanced parameters]** > **[!UICONTROL Preparation]**, seleccione la tipología para vincular al mensaje.
 
    ![](assets/typology_message.png)
 
