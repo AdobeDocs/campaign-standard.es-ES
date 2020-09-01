@@ -13,10 +13,10 @@ context-tags: segmentation,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
+source-git-commit: eed3474c133645a3b9fe8001c21360bba4a363e4
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 94%
+source-wordcount: '855'
+ht-degree: 92%
 
 ---
 
@@ -67,7 +67,7 @@ La actividad **[!UICONTROL Segmentation]** se suele colocar después de activida
    * **[!UICONTROL Limit segment population]**: le permite limitar el tamaño del segmento.
    * **[!UICONTROL Filter and limit segment population]**: le permite filtrar la población del segmento y limitar su tamaño.
    * **[!UICONTROL Label]**: etiqueta de segmento.
-   * **[!UICONTROL Segment code]**: código asignado a la población del segmento. El código de segmento se puede personalizar mediante una expresión estándar y variables de eventos (consulte [Personalización de actividades con variables de eventos](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables)).
+   * **[!UICONTROL Segment code]**:: código asignado a la población de segmentos.El código de segmento se puede personalizar mediante una expresión estándar y variables de eventos (consulte [](../../automating/using/customizing-workflow-external-parameters.md)).
    * **[!UICONTROL Exclude segment from population]**: le permite excluir el segmento especificado de la población saliente de la actividad. Esta opción solo se puede utilizar si se selecciona la opción **[!UICONTROL Generate all segments in the same transition]**.
 
    ![](assets/wkf_segment_new_segment.png)
