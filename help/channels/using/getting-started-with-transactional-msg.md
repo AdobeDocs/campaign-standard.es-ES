@@ -13,10 +13,10 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 434be1d237e1ce5bd47552d371d2df4670e82f44
+source-git-commit: 429142610b969f3bd1460a8ba401c7e83acb7dea
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 31%
+source-wordcount: '753'
+ht-degree: 30%
 
 ---
 
@@ -81,7 +81,7 @@ En Adobe Campaign, hay disponibles dos tipos de mensajes transaccionales:
 <td><p><ul><li>No contienen información de perfil.</li><li>No son compatibles con las reglas <a href="../../sending/using/fatigue-rules.md">de</a> fatiga (incluso en el caso de un enriquecimiento con perfiles).</li><li>El destinatario de envío se define por los datos contenidos en el propio evento.</li></ul></p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><a href="../../channels/using/profile-transactional-messages.md"><p>Los mensajes transaccionales de perfil</a><br><b> están dirigidos a perfiles de la base de datos de marketing de Adobe Campaign</b></p></td>
+<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><p>Los <a href="../../channels/using/profile-transactional-messages.md">mensajes transaccionales de perfil</a><br><b> están dirigidos a perfiles de la base de datos de marketing de Adobe Campaign</b></p></td>
 <td><p>Los mensajes transaccionales de perfil permiten:<ul><li>Aplicar reglas de tipología de marketing como <b>Dirección en las reglas de lista de bloqueados</b> o <a href="../../sending/using/fatigue-rules.md">fatiga</a>.</li><li>Incluir vínculos de baja en los mensajes.</li><li>Añadir mensajes transaccionales al sistema de informes de envío global.</li><li>Aprovechar mensajes transaccionales en el recorrido del cliente.</li></ul></p></td>
 </tr>
 </table>
@@ -106,39 +106,67 @@ Los pasos para poner esto en práctica son los siguientes.
 
 ### Paso 1: Creación y publicación de la configuración de evento {#create-event-configuration}
 
-<img src="assets/do-not-localize/icon_config.svg" width="60px">
+<!--<img src="assets/do-not-localize/icon_config.svg" width="60px">
 
-Configure un evento con el nombre &quot;Abandono del carro de compras&quot; y publique esta configuración de evento.
+Configure an event that will be named "Cart abandonment" and publish this event configuration.
 
-Se implementa la API que utilizará el desarrollador de su sitio web y se crea automáticamente un mensaje transaccional.
+The API that will be used by your website developer is deployed and a transactional message is automatically created.-->
+
+<table>
+<tr>
+<td align="center"><img src="assets/do-not-localize/icon_config.svg" width="60px"><br><p>Configure un evento con el nombre "Abandono del carro de compras" y publique esta configuración de evento.</p></td>
+<td>Se implementa la API que utilizará el desarrollador de su sitio web y se crea automáticamente un mensaje transaccional.</td>
+</tr>
+</table>
 
 La creación y publicación de un evento se presenta en la sección [Configuración de un evento para enviar un mensaje transaccional de evento](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
 
 ### Paso 2: Editar y publicar el mensaje transaccional {#create-transactional-message}
 
-<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
+<!--<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-Edite y personalice el mensaje transaccional, pruébelo y, a continuación, publíquelo.
+Edit and personalize the transactional message, test it, and then publish it.-->
+
+<table>
+<tr>
+<td align="center"><img src="assets/do-not-localize/icon_notification.svg" width="45px"><br><p>Edite y personalice el mensaje transaccional, pruébelo y, a continuación, publíquelo.</p></td>
+<td>El mensaje transaccional estará listo para ser enviado.</td>
+</tr>
+</table>
 
 For more on editing and publishing a transactional message, see [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
 ### Paso 3: Integración del activador de eventos {#integrate-event-trigger}
 
-<img src="assets/do-not-localize/icon_api.svg" width="60px">
+<!--<img src="assets/do-not-localize/icon_api.svg" width="60px">
 
-Utilice la API de Mensajes transaccionales REST para integrar el evento en su sitio web.
+Use the REST Transactional Messages API to integrate the event into your website.
 
-El evento se activará cuando un cliente abandone el carro de compras.
+The event will be triggered when a client abandons their cart.-->
+
+<table>
+<tr>
+<td align="center"><img src="assets/do-not-localize/icon_api.svg" width="60px"><br><p>Utilice la API de Mensajes transaccionales REST para integrar el evento en su sitio web.</p></td>
+<td>El evento se activará cuando un cliente abandone el carro de compras.</td>
+</tr>
+</table>
 
 Para obtener más información sobre la integración del evento en el sitio web, consulte Integración [del sitio](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website).
 
 ### Paso 4 - envío de mensajes {#message-delivery}
 
-<!--Once all of these steps have been carried out, the message can be delivered:-->
+<!--Once all of these steps have been carried out, the message can be delivered:
 
 <img src="assets/do-not-localize/icon_notification.svg" width="40px">
 
-Tan pronto como un usuario abandona el sitio sin ordenar los productos en el carro, automáticamente recibe un mensaje de correo electrónico de notificación.
+As soon as a user leaves the site without ordering the products in their cart, they automatically receive a notification email.-->
+
+<table>
+<tr>
+<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"><br><p>Una vez que se hayan realizado todos estos pasos, el mensaje se podrá entregar.</p></td>
+<td>Tan pronto como un usuario abandona el sitio sin ordenar los productos en el carro, automáticamente recibe un mensaje de correo electrónico de notificación.</td>
+</tr>
+</table>
 
 ## Pasos clave {#key-steps}
 
