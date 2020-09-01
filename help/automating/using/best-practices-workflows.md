@@ -11,11 +11,11 @@ topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
-workflow-type: ht
-source-wordcount: '1046'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+workflow-type: tm+mt
+source-wordcount: '1039'
+ht-degree: 98%
 
 ---
 
@@ -109,7 +109,7 @@ Para obtener más información, consulte [Actividad del planificador](../../auto
 
 ## Invocación del flujo de trabajo con parámetros{#workflow-with-parameters}
 
-Asegúrese de que el nombre y el número de parámetros son idénticos a los definidos al invocar el flujo de trabajo (consulte [Definición de los parámetros al invocar el flujo de trabajo](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow)). Los tipos de parámetros también deben ser consistentes con los valores esperados.
+Asegúrese de que el nombre y el número de parámetros son idénticos a los definidos al llamar al flujo de trabajo (consulte [](../../automating/using/defining-parameters-calling-workflow.md). Los tipos de parámetros también deben ser consistentes con los valores esperados.
 
 Asegúrese de que todos los parámetros se han declarado en la **[!UICONTROL External signal activity]**. De lo contrario, se producirá un error al ejecutar la actividad.
 
