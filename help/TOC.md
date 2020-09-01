@@ -4,10 +4,10 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Ayuda de Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 7a647878a711777dffd83a8f8dccacf9d9238ba6
+source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
 workflow-type: tm+mt
-source-wordcount: '1569'
-ht-degree: 88%
+source-wordcount: '1596'
+ht-degree: 86%
 
 ---
 
@@ -251,7 +251,12 @@ ht-degree: 88%
       + [Control de la ejecución del flujo de trabajo](automating/using/monitoring-workflow-execution.md)
       + [Administración de opciones de ejecución](automating/using/managing-execution-options.md)
       + [Administración de propiedades de actividades](automating/using/activity-properties.md)
-   + [Invocación de un flujo de trabajo con parámetros externos](automating/using/calling-a-workflow-with-external-parameters.md)
+   + Invocación de un flujo de trabajo con parámetros externos {#calling-workflow-external-parameters}
+      + [Declaración de los parámetros en la actividad Señal externa](automating/using/declaring-parameters-external-signal.md)
+      + [Definición de los parámetros al llamar al flujo de trabajo](automating/using/defining-parameters-calling-workflow.md)
+      + [Monitoreo de las variables de eventos](automating/using/monitoring-events-variables.md)
+      + [Personalización del flujo de trabajo con parámetros externos](automating/using/customizing-workflow-external-parameters.md)
+      + [Ejemplo de uso](automating/using/use-case-calling-workflow.md)
    + Actividades de segmentación {#targeting-activities}
       + [Acerca de las actividades de segmentación](automating/using/about-targeting-activities.md)
       + [Consulta](automating/using/query.md)
