@@ -12,9 +12,9 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '5401'
+source-wordcount: '5398'
 ht-degree: 10%
 
 ---
@@ -62,7 +62,7 @@ Vista de las últimas actualizaciones [de](../../rn/using/documentation-updates.
 
    Para obtener más información sobre esto, consulte la documentación detallada sobre cómo configurar una aplicación móvil mediante [SDK V4](https://helpx.adobe.com/es/campaign/kb/configuring-app-sdkv4.html) y [SDK V5](https://helpx.adobe.com/es/campaign/kb/configuring-app-sdk.html).
 
-* Para Destinatario de usuarios en una aplicación móvil específica, seleccione una aplicación móvil al definir las propiedades de la Campaña. Esta función es para los canales de mensajería push y en la aplicación.
+* Para destinatario de usuarios en una aplicación móvil específica, seleccione una aplicación móvil al definir las propiedades de la Campaña. Esta función es para los canales de mensajería push y en la aplicación.
 
    Para obtener más información, consulte la [documentación detallada](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification).
 
@@ -89,7 +89,7 @@ Vista de las últimas actualizaciones [de](../../rn/using/documentation-updates.
 * Se ha corregido un problema que provocaba que las imágenes cargadas desde una cámara y grabadas en modo vertical se mostraran en una posición rotada no deseada.
 * Se ha corregido un problema que mostraba información de selección poco clara al utilizar la interfaz del editor de consultas en Creative Designer.
 * Se ha corregido un problema que impedía duplicar correctamente un elemento al usar la interfaz del editor de consultas en Creative Designer.
-* Se ha corregido un problema que hacía que se siguieran enviando mensajes SMS a destinatarios de la lista de bloqueados, aunque se hubieran cancelado las suscripciones mediante una respuesta automática. (CAMP-27128)
+* Se ha corregido un problema que hacía que los mensajes SMS se siguieran enviando a destinatarios que no estaban en la lista, aunque se hubieran cancelado las suscripciones mediante una respuesta automática. (CAMP-27128)
 * Se ha corregido un problema que impedía mostrar los errores que provocaban que fallara el flujo de trabajo de limpieza de **bases de datos** . (CAMP-26876)
 * Se ha corregido un problema que podía impedir la eliminación de campos personalizados en una definición de notificación push. (CAMP-25588)
 
@@ -111,14 +111,14 @@ Vista de las últimas actualizaciones [de](../../rn/using/documentation-updates.
   </tr> 
   <tr> 
    <td> Filtro de tipología para suscriptores de aplicaciones móviles<br /> </td> 
-   <td> suscripciones de compatibilidad en el filtro de tipología: al especificar los criterios de filtrado para una reglas de tipología, se pueden seleccionar suscripciones de aplicación como filtro y dimensiones de segmentación, lo que permite filtrar los atributos para usuarios con o sin perfil. <br /> Para obtener más información, consulte la <a href="../../sending/using/about-typology-rules.md">documentación detallada</a>.<br /> </td> 
+   <td> Suscripciones de compatibilidad en el filtro de tipología: al especificar los criterios de filtrado para una reglas de tipología, se pueden seleccionar suscripciones de aplicación como filtro y dimensiones de segmentación, lo que permite filtrar los atributos para usuarios con o sin perfil. <br /> Para obtener más información, consulte la <a href="../../sending/using/about-typology-rules.md">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Importación automática de contenido desde una dirección URL durante la preparación de mensajes<br /> </td> 
    <td> Ahora es posible importar contenido de correo electrónico desde una dirección URL durante la fase de preparación. En el caso de envíos recurrentes por correo electrónico, el contenido HTML más reciente se recupera cada vez que se prepara el mensaje, lo que garantiza que el contenido esté siempre actualizado en el momento en que se envía el correo electrónico. Esta función también le permite crear una entrega programada con contenido de una dirección URL aunque el contenido aún no esté listo.<br /> Para obtener más información, consulte la <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Mensaje de notificación de liberación de Campaña<br /> </td> 
+   <td> Mensaje de notificación de liberación de campaña<br /> </td> 
    <td> Ahora aparece un mensaje emergente cuando un usuario inicia sesión después de actualizar la instancia a una nueva versión. El mensaje indica el número de versión e incluye un vínculo a las notas de la versión. Puede elegir ocultar el mensaje hasta la próxima versión. <br /> </td> 
   </tr> 
   <tr> 
@@ -137,7 +137,7 @@ Vista de las últimas actualizaciones [de](../../rn/using/documentation-updates.
 
 * El tiempo de espera de uso compartido de informes se ha aumentado de uno a cuatro minutos para evitar cualquier error de tiempo de espera.
 * Al editar el contenido de un correo electrónico, se abre el nuevo Diseñador creativo de forma predeterminada. Si lo desea, puede volver al editor de contenido predeterminado en cualquier momento después de guardar los cambios. For more on this, refer to the [detailed documentation](../../designing/using/designing-content-in-adobe-campaign.md).
-* En Creative Designer, ahora se puede añadir un nuevo componente de contenido en un mensaje de correo electrónico: el carrusel. For more on this, refer to the [detailed documentation](../../designing/using/designing-from-scratch.md#about-content-components).
+* En Creative Designer, ahora se puede añadir un nuevo componente de contenido a un correo electrónico: el carrusel. For more on this, refer to the [detailed documentation](../../designing/using/designing-from-scratch.md#about-content-components).
 * En un informe de mensajes transaccionales con clic rápido, al hacer clic en el botón **Cambiar perfil** , ahora solo se muestran los perfiles de prueba vinculados al evento definido para el mensaje transaccional.
 
 **Parches**
@@ -215,8 +215,8 @@ Vista de las últimas actualizaciones [de](../../rn/using/documentation-updates.
    <td> Adobe Campaign ahora ofrece la posibilidad de recibir información detallada (envío de registros y registros de exclusión) sobre los mensajes push de los proveedores (APNS/GCM) a través de MCPNS.<br /> Para obtener más información, consulte la <a href="../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Extensión de Registros de envío<br /> </td> 
-   <td> La extensión de Registros de envío permite extender el envío de registros con datos de perfil y códigos de segmento procedentes de flujos de trabajo. Esta información se puede utilizar en informes dinámicos y permite mantener una instantánea de cierta información en el momento de envío de un envío.<br /> Hay dos casos de uso más:<br /> 
+   <td> Extensión de registros de envío<br /> </td> 
+   <td> La extensión de registros de envío permite extender el envío de registros con datos de perfil y códigos de segmento procedentes de flujos de trabajo. Esta información se puede utilizar en informes dinámicos y permite mantener una instantánea de cierta información en el momento de envío de un envío.<br /> Hay dos casos de uso más:<br /> 
     <ul> 
      <li> Exporte los diarios ampliados con datos "congelados": Como especialista en mercadotecnia, me gustaría exportar todos los perfiles en los que el código de segmento es igual a "A" (procedente del motor de flujos de trabajo). </li> 
      <li> Segmentación de datos "congelados": Como especialista en mercadotecnia, me gustaría <strong>redirigirse</strong> a todos los perfiles que han ganado 1000 puntos de lealtad desde el último envío o donde el código de segmento fue igual a "A". </li> 
@@ -330,7 +330,7 @@ _Recursos personalizados_
    <td> Use of Custom Resources in Transactional Messaging<br /> </td> 
    <td> Además de los campos predeterminados, la mensajería transaccional ahora permite utilizar recursos personalizados para enriquecer el contenido de los mensajes.<br /> Por ejemplo:<br /> 
     <ul> 
-     <li> Aproveche los campos personalizados como criterios de reconciliación para que coincidan con un mensaje transaccional en un perfil </li> 
+     <li> Aproveche los campos personalizados como criterios de reconciliación para que un mensaje transaccional coincida con un perfil </li> 
      <li> Aproveche todos los perfiles, servicios y datos vinculados para personalizar aún más los mensajes transaccionales </li> 
     </ul> Para obtener más información, consulte la <a href="../../administration/using/configuring-transactional-messaging.md">documentación detallada</a>.<br /> </td> 
   </tr> 
@@ -477,8 +477,8 @@ Pueden producirse algunos problemas al utilizar vínculos de ayuda contextuales 
     </ul> Para obtener más información sobre el contenido disponible y el contenido mutable, consulte la documentación <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios"></a>detallada.<br /> <strong>Advertencia:</strong> estas actualizaciones de las notificaciones push requieren que los clientes actualicen sus aplicaciones móviles. Refer to <a href="https://docs.adobe.com/content/help/es-ES/campaign-standard/using/communication-channels/push-notifications/push-payload.translate.html">this technote</a> for more information.<br /> </td> 
   </tr> 
   <tr> 
-   <td> envíos optimizados para zonas horarias<br /> </td> 
-   <td> Programe las notificaciones recurrentes por correo electrónico, SMS y push para que se envíen en un día y hora específicos en el huso horario de cada destinatario, lo que garantiza que los mensajes se entreguen en el momento adecuado sin necesidad de configurar varios envíos. <br /> Para obtener más información, consulte la <a href="../../automating/using/scheduler.md">documentación detallada</a>.<br /> </td> 
+   <td> Envíos optimizados para zonas horarias<br /> </td> 
+   <td> Programe las notificaciones recurrentes por correo electrónico, SMS y push para que se envíen en un día y hora específicos en el huso horario de cada destinatario, lo que garantiza que los mensajes se envíen en el momento adecuado sin necesidad de configurar varios envíos. <br /> Para obtener más información, consulte la <a href="../../automating/using/scheduler.md">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Activación de actividad de señal de API<br /> </td> 
@@ -506,8 +506,8 @@ _Correos electrónicos, mensajes SMS y correo directo_
 _Notificaciones push_
 
 * Se ha corregido un error que impedía que se detuvieran los envíos de notificaciones push.
-* Se ha Añadido una opción en las opciones avanzadas de notificación push para activar la aplicación con una notificación push.
-* Se Añadió un botón de pausa para el vídeo de previsualización de notificaciones push.
+* Se ha añadido una opción en las opciones avanzadas de notificación push para activar la aplicación con una notificación push.
+* Se añadió un botón de pausa para el vídeo de previsualización de notificaciones push.
 * La previsualización de notificaciones push ya está disponible para distintos dispositivos como iPhone, Android y tablets.
 
 _Informes_
@@ -525,7 +525,7 @@ _Perfiles y audiencias_
 
 * Se corrigió un error que se producía al agregar varios filtros en la consulta de una audiencia.
 * Se ha corregido un problema de visualización que se producía al cambiar la imagen de un perfil.
-* Se Añadió una información de objeto que muestra el número de resultado exacto después de contar la población de una consulta.
+* Se añadió una información de objeto que muestra el número de resultado exacto después de contar la población de una consulta.
 * Se ha corregido un problema que podía impedir que un usuario seleccionara una audiencia o cerrara la ventana del selector de audiencias.
 * Se ha actualizado la lista de las funciones disponibles en el editor de expresiones. Se han eliminado **las funciones FormatCurrency** y **ConvertCurrency** .
 
