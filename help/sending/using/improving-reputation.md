@@ -1,6 +1,6 @@
 ---
-title: Mejorar su reputación con Adobe Campaign Standard
-description: Aprenda a mejorar su reputación con Adobe Campaign Standard administrando direcciones de correo electrónico y cuarentenas de duplicado.
+title: Mejora de su reputación con Adobe Campaign Standard
+description: Conozca cómo mejorar su reputación con Adobe Campaign Standard administrando direcciones de correo electrónico y cuarentenas de duplicado.
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -13,17 +13,17 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 121ec37cef6193d3a7085b6d0296b6a2e7cafa06
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 65%
+source-wordcount: '455'
+ht-degree: 66%
 
 ---
 
 
 # Mejora de la reputación{#improving-reputation}
 
-Para evitar que los destinatarios se agoten, elimine del destinatario las direcciones de correo electrónico duplicadas. Este paso protege su reputación de envío y garantiza una buena gestión de cuarentena. Adobe Campaign oferta las herramientas necesarias para implementar estas recomendaciones y evitar el riesgo de ser agregadas a una lista de bloqueo por los ISP.
+Para evitar que los destinatarios se agoten, elimine del destinatario las direcciones de correo electrónico duplicadas. Este paso protege su reputación de envío y garantiza una buena gestión de cuarentena. Adobe Campaign oferta las herramientas necesarias para implementar estas recomendaciones y evitar el riesgo de ser incluida en la lista de bloqueados por los ISP.
 
 A continuación se encuentran detalles sobre la administración de duplicados y cuarentena.
 
@@ -33,13 +33,13 @@ Contar con direcciones de correo electrónico duplicadas puede tener varias cons
 * El mismo mensaje se envía más de una vez. Incluso si Campaign realiza un procedimiento de deduplicación de forma predeterminada antes de la entrega, no hay nada que detenga el mismo mensaje enviado por acciones diferentes que tengan el mismo contenido cuando se divide un destinatario.
 * Solicitudes de cancelación de suscripción no aceptadas. Si un destinatario cancela la suscripción después de recibir un mensaje, su perfil duplicado sigue siendo apto para mensajes posteriores.
 
-Además de este paso secundario de los procedimientos de inclusión, esta situación probablemente llevará a los usuarios a considerar los mensajes como spam y a activar un procedimiento de lista de bloqueos en el ISP.
+Además de este paso secundario de los procedimientos de inclusión, esta situación probablemente llevará a los usuarios a considerar los mensajes como spam y a activar un procedimiento de  de lista de bloqueados en el ISP.
 
 Debe tener especial cuidado al realizar operaciones en la base de datos. Para evitar la mayor cantidad posible de duplicados, deben llevarse a cabo las siguientes acciones:
 * **Las importaciones deben configurarse meticulosamente.** Esto es particularmente importante a la hora de elegir la clave de reconciliación.
 * **Tenga cuidado al modificar direcciones de correo electrónico.** Las direcciones de correo electrónico cambiadas también pueden ser una fuente de duplicados. En particular, dos direcciones con dominios diferentes pueden redirigirse al mismo buzón, por ejemplo, en el caso de una empresa que ha cambiado el nombre y que ha mantenido el dominio anterior durante un periodo determinado: joe.doe@amce-co.com y joe.doe@acme-rebranded.com.
 * **Preste atención durante las importaciones automáticas.** Tanto si se trata de listas como de otras bases de datos, son elementos que deben tenerse en cuenta al administrar perfiles. ¿Qué sucede cuando elimina o mueve un perfil en otra partición? Se puede volver a crear en la partición inicial mediante una importación automática, por ejemplo, cuando se realiza una orden de compra.
-* **Los Perfiles deben ordenarse en diferentes carpetas.**
+* **Los perfiles deben ordenarse en diferentes carpetas.**
 
 De todas maneras, hay casos en los que los duplicados entre las diferentes particiones son normales. Por ejemplo, cuando se envían para terceros o entidades de empresa diferentes, es lógico que la misma persona sea receptora por diferentes motivos. Sin embargo, rara vez se pueden encontrar duplicados dentro de la misma partición.
 
