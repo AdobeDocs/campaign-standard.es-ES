@@ -12,10 +12,10 @@ discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7f5bc442b1dae467a6b6de3e048531940f75031f
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 13%
+source-wordcount: '650'
+ht-degree: 14%
 
 ---
 
@@ -24,21 +24,21 @@ ht-degree: 13%
 
 Las reglas de filtrado permiten excluir una parte del destinatario de mensajes según los criterios definidos en una consulta, como perfiles en cuarentena o perfiles que ya se han enviado un determinado número de correos electrónicos.
 
-## reglas de tipología de filtrado predeterminadas {#default-filtering-typology-rules}
+## Reglas de tipología de filtrado predeterminadas {#default-filtering-typology-rules}
 
 La tabla siguiente proporciona información sobre las reglas de filtrado integradas, así como sus canales relacionados.
 
 | Etiqueta | Canal | Descripción |
 ---------|----------|---------
-| **[!UICONTROL Address not specified]** | Todos | Excluye la población de destinatarios sin dirección especificada (correo electrónico, dirección postal, etc.) según el canal seleccionado). |
-| **[!UICONTROL Blocklisted address]** | Todos | Excluye las direcciones que están en la lista de bloques. |
-| **[!UICONTROL Duplicate]** | Todos | Excluye duplicados en función del campo de población de destinatarios **[!UICONTROL Address]** . |
+| **[!UICONTROL Address not specified]** | Todo | Excluye la población de destinatarios sin dirección especificada (correo electrónico, dirección postal, etc.) según el canal seleccionado). |
+| **[!UICONTROL Denylisted address]** | Todo | Excluye las direcciones que se encuentran en la lista de bloqueados. |
+| **[!UICONTROL Duplicate]** | Todo | Excluye duplicados en función del campo de población de destinatarios **[!UICONTROL Address]** . |
 | **[!UICONTROL Exclude mobile applications]** | Aplicación móvil | Excluye las suscripciones de la aplicación que no coinciden con la aplicación móvil definida en el mensaje. |
 | **[!UICONTROL Exclude mobile applications for In-App]** | En la aplicación | Excluye las suscripciones de la aplicación que no coinciden con la aplicación móvil definida en el mensaje (plantilla en la aplicación). |
 | **[!UICONTROL Exclude mobile applications for In-App broadcast]** | En la aplicación | Excluye las suscripciones de la aplicación que no coinciden con la aplicación móvil definida en el mensaje (plantilla de retransmisión en la aplicación) |
 | **[!UICONTROL Exclude mobile applications for Push]** | Aplicación móvil | Excluye las suscripciones de la aplicación que no coinciden con la aplicación móvil definida en el mensaje (para push) |
-| **[!UICONTROL Quarantined address]** | Todos | Excluye direcciones en cuarentena. |
-| **[!UICONTROL Target limited in size]** | Todos | Comprueba si se ha alcanzado el tamaño máximo de envío para el destinatario. Se aplica a envíos de correo directo con la opción &quot;límite de envíos&quot; activada. |
+| **[!UICONTROL Quarantined address]** | Todo | Excluye direcciones en cuarentena. |
+| **[!UICONTROL Target limited in size]** | Todo | Comprueba si se ha alcanzado el tamaño máximo de envío para el destinatario. Se aplica a envíos de correo directo con la opción &quot;límite de envíos&quot; activada. |
 
 Además de estas reglas de filtrado predeterminadas, hay dos reglas de exclusión disponibles:
 
@@ -47,7 +47,7 @@ Además de estas reglas de filtrado predeterminadas, hay dos reglas de exclusió
 
 Durante el análisis del correo electrónico, estas reglas comparan las direcciones de correo de los destinatarios con las direcciones o nombres de dominio prohibidos incluidos en una lista de supresión global encriptada que se administra en la instancia de envío. Si se encuentra una coincidencia, el mensaje no se envía a ese destinatario.
 
-Esto es para evitar ser agregado a la lista de bloques debido a actividades maliciosas, especialmente el uso de Spamtrampa. Por ejemplo, si se utiliza un Spamtrampa para suscribirse a través de uno de sus formularios web, se enviará automáticamente un correo electrónico de confirmación a dicho Spamtrampa, lo que hará que su dirección se añada automáticamente a la lista de bloques.
+Esto es para evitar ser incluida en la lista de bloqueados debido a la actividad maliciosa, especialmente el uso de Spamtrampa. Por ejemplo, si se utiliza un Spamtrampa para suscribirse a través de uno de sus formularios web, se enviará automáticamente un correo electrónico de confirmación a dicho Spamtrampa, lo que hará que su dirección se añada automáticamente a la  de lista de bloqueados.
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ Puede crear sus propias reglas de filtrado según sus necesidades. Por ejemplo, 
 
 Para crear una reglas de tipología de filtrado, siga estos pasos:
 
-1. Cree una nueva reglas de tipología. Los pasos principales para crear reglas de tipología se detallan en [esta sección](../../sending/using/managing-typology-rules.md).
+1. Cree una nueva reglas de tipología. The main steps to create typology rules are detailed in [this section](../../sending/using/managing-typology-rules.md).
 
 1. Seleccione el tipo de **[!UICONTROL Filtering]** regla y luego especifique el canal que desee.
 
@@ -91,11 +91,11 @@ Campaign Standard le permite configurar las dimensiones **Segmentación** y **Fi
 
 Para ello, abra las propiedades de la reglas de tipología y, a continuación, acceda a la **[!UICONTROL Advanced information]** sección.
 
-De forma predeterminada, el filtrado se realiza en el **[!UICONTROL Profiles]**. Por ejemplo, si la regla está dirigida a una aplicación móvil, **[!UICONTROL Filtering dimension]** se puede cambiar a **[!UICONTROL Subscriptions to an application]**.
+By default, filtering is carried out on the **[!UICONTROL Profiles]**. Por ejemplo, si la regla está dirigida a una aplicación móvil, **[!UICONTROL Filtering dimension]** se puede cambiar a **[!UICONTROL Subscriptions to an application]**.
 
 ![](assets/typology_rule-order_2.png)
 
-## Restricción de la aplicabilidad de una regla de filtrado {#restricting-the-applicability-of-a-filtering-rule}
+## Restricting the applicability of a filtering rule {#restricting-the-applicability-of-a-filtering-rule}
 
 Puede restringir la aplicabilidad de una regla de filtrado según el mensaje que se va a enviar.
 
