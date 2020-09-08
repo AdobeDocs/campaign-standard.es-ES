@@ -10,7 +10,7 @@ discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
 source-wordcount: '1204'
 ht-degree: 6%
@@ -18,7 +18,7 @@ ht-degree: 6%
 ---
 
 
-# Historial de marketing (nms:history)
+# historial de marketing (nms:history)
 
 ## Descripción del objeto
 
@@ -27,7 +27,7 @@ ht-degree: 6%
                   <th>Name</th>
                   <th>Etiqueta</th>
                   <th>Tipo (longitud)</th>
-                  <th>Valores de Lista desglosada</th>
+                  <th>Valores de lista desglosada</th>
                </tr>
                <tr>
                   <td>PKey</td>
@@ -48,43 +48,43 @@ ht-degree: 6%
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockList</td>
+                  <td>blackList</td>
                   <td>Ya no se puede contactar (por ningún canal)</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListEmail</td>
+                  <td>blackListEmail</td>
                   <td>Ya no se puede contactar por correo electrónico</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListFax</td>
+                  <td>blackListFax</td>
                   <td>Ya no hay contacto por fax</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListMobile</td>
+                  <td>blackListMobile</td>
                   <td>Ya no se puede contactar por SMS</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListPhone</td>
+                  <td>blackListPhone</td>
                   <td>Ya no hay contacto por teléfono</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListPostalMail</td>
+                  <td>blackListPostalMail</td>
                   <td>Ya no hay contacto por correo directo</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListPushnotification</td>
+                  <td>blackListPushnotification</td>
                   <td>Ya no hay contacto por notificación push</td>
                   <td>booleano </td>
                   <td> </td>
@@ -201,7 +201,7 @@ ht-degree: 6%
                <tr>
                   <td>lastName</td>
                   <td>Apellido</td>
-                  <td>string (30)</td>
+                  <td>string (50)</td>
                   <td> </td>
                </tr>
                <tr>
