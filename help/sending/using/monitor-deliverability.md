@@ -1,6 +1,6 @@
 ---
 title: Monitoreo de la capacidad de entrega en Adobe Campaign Standard
-description: Utilice las herramientas ofrecidas por Adobe Campaign Standard para supervisar la capacidad de entrega de la plataforma.
+description: Utilice las herramientas ofrecidas por Adobe Campaign Standard para supervisar la capacidad de entrega de su plataforma.
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -13,24 +13,24 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 50%
+source-wordcount: '422'
+ht-degree: 57%
 
 ---
 
 
 # Supervisión de la capacidad de entrega{#monitor-deliverability}
 
-A continuación encontrará detalles sobre el **[!UICONTROL Delivery throughput]** informe, así como las diferentes herramientas de supervisión que ofrece Adobe Campaign. Estas son algunas directrices adicionales sobre la monitorización de la capacidad de envío:
+A continuación encontrará detalles sobre el **[!UICONTROL Delivery throughput]** informe, así como las distintas herramientas de monitoreo que ofrece Adobe Campaign. Estas son algunas directrices adicionales sobre la monitorización de la capacidad de envío:
 * Compruebe regularmente el rendimiento del envío de toda la plataforma para comprobar si es coherente con la configuración original.
 * Compruebe que los reintentos estén correctamente configurados (30 minutos para el periodo de reintento y más de 20 reintentos) en plantillas de envíos.
 * Compruebe periódicamente si puede acceder al buzón de rechazados y que la cuenta no esté a punto de caducar.
 * Compruebe el rendimiento de cada envío para asegurarse de que es coherente con la validez del contenido del envío (p. ej. las “ventas flash” deben entregarse en minutos, no en días).
 * Cuando utilice olas, compruebe que cada ola tenga tiempo suficiente para finalizar antes de que se active la siguiente.
 * Compruebe que las cantidades de errores y nuevas cuarentenas sean coherentes con otros envíos.
-* Consulte detenidamente a los registros de envío en detalle para comprobar el tipo de errores que se resaltan (listas de bloques, problemas de DNS, reglas antispam, etc.).
+* Consulte detenidamente a los registros de envío en detalle para comprobar el tipo de errores que se resaltan (lista de bloqueados, problemas de DNS, reglas antispam, etc.).
 
 ## Rendimiento de entrega {#delivery-throughput}
 
@@ -54,7 +54,7 @@ Para obtener más información sobre esto, consulte [Monitorización de un enví
 
 ## Recibir alertas {#receiving-alerts}
 
-La **[!UICONTROL Delivery alerting]** función es un sistema de gestión de alertas que permite a un grupo de usuarios recibir automáticamente notificaciones que contengan información sobre la ejecución de sus envíos.
+The **[!UICONTROL Delivery alerting]** feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries.
 
 Para obtener más información sobre esto, consulte [Recepción de alertas cuando se producen](../../sending/using/receiving-alerts-when-failures-happen.md)errores.
 
@@ -68,6 +68,6 @@ Signal Spam también proporciona quejas directas de que los usuarios finales reg
 
 ## 250ok {#solution-250ok}
 
-250ok es una solución de monitoreo que proporciona listas de IP y bloques de dominio, así como indicadores de reputación.
+250ok es una solución de monitoreo que proporciona  de IP y de dominio, así como indicadores de reputación.
 
-La información se proporciona en tiempo real, lo que permite una asistencia proactiva. 250ok es una solución complementaria a las herramientas internas de entrega de Adobe.
+La información se proporciona en tiempo real, lo que permite una asistencia proactiva. 250ok una solución complementaria a las herramientas internas de entrega de Adobe.
