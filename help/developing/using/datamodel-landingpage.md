@@ -13,7 +13,7 @@ context-tags: delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
 source-wordcount: '1727'
 ht-degree: 2%
@@ -30,7 +30,7 @@ ht-degree: 2%
          <th>Name</th>
          <th>Etiqueta</th>
          <th>Tipo (longitud)</th>
-         <th>Valores de Lista desglosada</th>
+         <th>Valores de lista desglosada</th>
       </tr>
       <tr>
          <td>PKey</td>
@@ -403,7 +403,7 @@ ht-degree: 2%
       </tr>
       <tr>
          <td>completionFilterMapping</td>
-         <td>Parámetros de Clave de reconciliación</td>
+         <td>Parámetros de clave de reconciliación</td>
          <td>colección </td>
          <td> </td>
       </tr>
@@ -431,7 +431,7 @@ ht-degree: 2%
          <td>lista desglosada (byte) </td>
          <td>
             <ul>
-               <li>Lista de bloqueos - blockList - 3</li>
+               <li>Lista negra - blackList - 3</li>
                <li>Sin acción específica - ninguno - 0</li>
                <li>Baja - baja - 2</li>
                <li>VALOR NO VÁLIDO - __Invalid_value_ - __Invalid_value__</li>
@@ -467,7 +467,7 @@ ht-degree: 2%
       </tr>
       <tr>
          <td>template (landingPage)</td>
-         <td>Plantilla de Página de aterrizaje</td>
+         <td>Plantilla de página de aterrizaje</td>
          <td>link </td>
          <td> </td>
       </tr>
@@ -612,7 +612,7 @@ ht-degree: 2%
       </tr>
       <tr>
          <td>título</td>
-         <td>Página de aterrizaje</td>
+         <td>página de aterrizaje</td>
          <td>string (255)</td>
          <td> </td>
       </tr>
@@ -636,7 +636,7 @@ ht-degree: 2%
             <ul>
                <li>Genérico - genérico - 0</li>
                <li>Baja de un servicio - baja - 3</li>
-               <li>Lista de bloqueos - blockList - 4</li>
+               <li>Lista negra - blackList - 4</li>
                <li>VALOR NO VÁLIDO - __Invalid_value_ - __Invalid_value__</li>
                <li>Adquisición - adquisición - 1</li>
                <li>Suscripción a un servicio - suscripción - 2</li>
