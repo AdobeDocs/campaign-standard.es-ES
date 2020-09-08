@@ -13,17 +13,17 @@ context-tags: deliveryDomainBreakdownReport,main;campaignDomainBreakdownReport,m
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 2%
+source-wordcount: '233'
+ht-degree: 3%
 
 ---
 
 
 # Desglose por dominios{#breakdown-by-domains}
 
-Este informe contiene los datos de rendimiento de cada dominio representado en la audiencia de un envío de correo electrónico. Si se trata de un informe de campaña o programa, los datos de rendimiento están disponibles para varias audiencias. Estos datos le permiten analizar el comportamiento de cada dominio en respuesta a eventos específicos. Por ejemplo: visualización de vínculos, URL en lista de bloques, etc.
+Este informe contiene los datos de rendimiento de cada dominio representado en la audiencia de un envío de correo electrónico. Si se trata de un informe de campaña o programa, los datos de rendimiento están disponibles para varias audiencias. Estos datos le permiten analizar el comportamiento de cada dominio en respuesta a eventos específicos. Por ejemplo: visualización de vínculos, URL incluida en la lista de bloqueados, etc.
 
 ![](assets/delivery_reports_6.png)
 
@@ -41,6 +41,6 @@ La segunda tabla, **Estadísticas** de seguimiento, contiene los datos disponibl
 * **Abrir**: Número de veces que se abrió un mensaje en un envío.
 * **Haga clic**: Número de veces que se hizo clic en el contenido en un envío.
 * **Cancelada** la suscripción: Número de clics en el vínculo de suscripción.
-* **Página espejo**: Número de clics en el vínculo de página espejo.
-* **Bloqueado**: El número de destinatarios que han declarado un correo electrónico como correo no deseado o no deseado (consulte Administración de listas de [bloqueos en Campaña](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
+* **página espejo**: Número de clics en el vínculo de página espejo.
+* **incluido en la lista de bloqueados**: El número de destinatarios que han declarado un correo electrónico como correo no deseado o no deseado. [Más información](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
