@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cbc9114b1179fe6fc0f87a9b9b55397ef60d3cb9
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '6144'
+source-wordcount: '6097'
 ht-degree: 95%
 
 ---
@@ -55,8 +55,6 @@ Nuevas funciones de correo electrónico con AI: envíe la optimización del tiem
 Los casos de uso del flujo de trabajo se han actualizado y reorganizado en secciones temáticas. [Más información](../../automating/using/about-workflow-use-cases.md)
 
 Se han agregado casos de uso sobre cómo [cifrar](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) y [descifrar](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) datos mediante el Panel de control de Campaign y los Flujos de trabajo de la campaña.
-
-Tanto los términos &quot;lista blanca&quot; como &quot;lista negra&quot; se han eliminado de la documentación de Adobe Campaign. Podría seguir habiendo algunos casos en los que aparezcan estos términos en la interfaz de usuario del producto, los nombres de opciones y el código interno, pero se reemplazarán en próximas versiones de Campaign con &quot;lista de bloqueados&quot; y &quot;lista de permitidos&quot;.
 
 Las referencias al sitio web de asistencia heredado se han sustituido por la nueva dirección URL. [Más información](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
 
@@ -594,7 +592,7 @@ Se ha añadido información sobre los tipos de registro de seguimiento. [Más in
 
 La sección de actividad de consulta se ha actualizado con ejemplos de consultas. [Más información](../../automating/using/query.md#query-samples)
 
-La sección dedicada a las listas de bloqueados ha pasado a llamarse &quot;Explicación de los procesos de inclusión y exclusión&quot;. Se ha actualizado con información sobre cómo administrar la inclusión en canales específicos y cómo configurar páginas de aterrizaje para administrar la inclusión y la exclusión. [Más información](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+La sección dedicada a las  de lista de bloqueados ha pasado a llamarse &quot;Explicación de los procesos de inclusión y exclusión&quot;. Se ha actualizado con información sobre cómo administrar la inclusión en canales específicos y cómo configurar páginas de aterrizaje para administrar la inclusión y la exclusión. [Más información](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Conozca las prácticas recomendadas para utilizar los servidores SFTP alojados por Adobe. [Más información](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -618,7 +616,7 @@ Uso de recursos personalizados en la mensajería transaccional - [Más informaci
 
 La API del RGPD reagrupa funciones que permiten el procesamiento automático de solicitudes de RGPD. [Más información](../../api/using/creating-a-privacy-request.md)
 
-Información añadida sobre cómo configurar páginas de aterrizaje para que sus destinatarios puedan agregarse a la lista de bloqueados. [Más información](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+Se añadió información sobre cómo configurar páginas de aterrizaje para que sus destinatarios puedan ser incluida en la lista de bloqueados. [Más información](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 Se ha reorganizado la sección [Configuración de mensaje transaccional](../../administration/using/configuring-transactional-messaging.md) y se ha añadido un [caso de uso paso a paso](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
 
@@ -672,7 +670,7 @@ Se ha añadido información sobre cómo enviar una entrega en función de los hu
 
 Se ha reorganizado la sección **[!UICONTROL Customizing a push notification]** con casos de uso paso a paso. [Más información](../../channels/using/customizing-a-push-notification.md)
 
-Nueva sección dedicada a la administración de listas de bloqueados. [Más información](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+Nueva sección dedicada a lista de bloqueados administración de . [Más información](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Se ha actualizado la información sobre errores y cuarentenas de entregas. [Más información](../../sending/using/monitoring-a-delivery.md)
 
