@@ -12,9 +12,9 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '2031'
+source-wordcount: '2028'
 ht-degree: 2%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 2%
 
 ## Acerca de las alertas de envío {#about-delivery-alerting}
 
-La función de alerta **de** Envío es un sistema de gestión de alertas que permite a un grupo de usuarios recibir automáticamente notificaciones que contengan información sobre la ejecución de sus envíos.
+The **Delivery alerting** feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries.
 
 Las notificaciones enviadas contienen un informe basado de forma predeterminada en los siguientes criterios:
 
-* envíos fallidos
+* Envíos fallidos
 * Envíos con error de preparación
 * Envíos con una relación de error de devolución en blanco incorrecta
 * Envíos con una tasa de error de devolución de disco duro incorrecta
@@ -36,7 +36,7 @@ Las notificaciones enviadas contienen un informe basado de forma predeterminada 
 * Envíos con bajo rendimiento
 * Envíos en curso
 
-Los destinatarios de las alertas pueden supervisar los envíos que procesa el Adobe Campaign y realizar las acciones oportunas cuando hay problemas en su ejecución.
+Los destinatarios de las alertas pueden supervisar los envíos que está procesando Adobe Campaign y realizar las acciones oportunas cuando hay problemas en su ejecución.
 
 Estas notificaciones de alerta se pueden personalizar en función de criterios de alerta específicos definidos mediante un panel en la interfaz de Adobe Campaign.
 
@@ -51,7 +51,7 @@ Las notificaciones enviadas contienen:
 
 ![](assets/delivery-alerting_notification.png)
 
-## paneles de alerta de Envío {#delivery-alerting-dashboards}
+## Paneles de alerta de envío {#delivery-alerting-dashboards}
 
 ### Acerca de los paneles de alertas de envío {#about-delivery-alerting-dashboards}
 
@@ -59,7 +59,7 @@ Para administrar los destinatarios de las notificaciones, definir los criterios 
 
 >[!NOTE]
 >
->Para acceder y configurar los paneles y los criterios de alerta, debe tener derechos de administración o aparecer en el grupo de seguridad de supervisores **de** Envío. Los usuarios estándar no pueden acceder a los paneles en la interfaz de Adobe Campaign. Solo pueden recibir las notificaciones de alerta. Para obtener más información sobre los usuarios y la seguridad en el Adobe Campaign, consulte [Tipos de usuarios](../../administration/using/users-management.md) y [Acerca de los grupos](../../administration/using/managing-groups-and-users.md#about-security-groups)de seguridad.
+>Para acceder y configurar los paneles y los criterios de alerta, debe tener derechos de administración o aparecer en el grupo de seguridad de supervisores **de** Envío. Los usuarios estándar no pueden acceder a los paneles en la interfaz de Adobe Campaign. Solo pueden recibir las notificaciones de alerta. Para obtener más información sobre usuarios y seguridad en Adobe Campaign, consulte [Tipos de usuarios](../../administration/using/users-management.md) y [Acerca de los grupos](../../administration/using/managing-groups-and-users.md#about-security-groups)de seguridad.
 
 Desde la interfaz de Adobe Campaign, puede:
 
@@ -90,12 +90,12 @@ Si desea enviar notificaciones basadas en criterios específicos a distintos gru
 
 1. Seleccione el grupo de destinatarios que desea notificar desde la lista **[!UICONTROL Alert group]** desplegable. Para modificar o crear un grupo, consulte [Creación de un grupo de seguridad y asignación de usuarios](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users).
 1. En la **[!UICONTROL Delivery alerting criteria]** sección, haga clic en **[!UICONTROL Create element]** para agregar criterios. Consulte [Acerca de los criterios](#about-alerting-criteria)de alerta.
-1. Seleccione el **[!UICONTROL Edit properties]** botón. En la **[!UICONTROL Criteria parameters]** ficha, defina cómo se aplicarán los criterios. Consulte Parámetros [de criterios](#criteria-parameters).
-1. Haga clic en **[!UICONTROL Create]** para guardar el panel.
+1. Seleccione el botón **[!UICONTROL Edit properties]**. En la **[!UICONTROL Criteria parameters]** ficha, defina cómo se aplicarán los criterios. Consulte Parámetros [de criterios](#criteria-parameters).
+1. Click **[!UICONTROL Create]** to save the dashboard.
 
 Ahora, cada vez que un envío cumpla los criterios definidos en este panel, se enviará una notificación de alerta al grupo de usuarios especificado.
 
-## Criterios de alerta de Envío {#delivery-alerting-criteria}
+## Criterios de alerta de envío {#delivery-alerting-criteria}
 
 ### Acerca de los criterios de alerta {#about-alerting-criteria}
 
@@ -137,7 +137,7 @@ Para cada criterio, puede definir la siguiente configuración:
 
 **Temas relacionados:**
 
-* [Envío de registros](../../sending/using/monitoring-a-delivery.md#sending-logs)
+* [Registros de envío](../../sending/using/monitoring-a-delivery.md#sending-logs)
 * [Frecuencia de alerta](#alerting-frequency)
 * [Iconos y estados de la actividad de marketing](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
 
@@ -166,7 +166,7 @@ Para ello, primero debe ampliar el recurso de **Envío** y agregar un nuevo filt
 
    Para obtener más información sobre la creación y edición de filtros personalizados, consulte [Definición de filtros](../../developing/using/configuring-filter-definition.md).
 
-1. Guarde los cambios y publique los recursos. Para obtener más información sobre esto, consulte [Publicación de un recurso](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)personalizado.
+1. Guarde los cambios y publique los recursos. For more on this, see [Publishing a custom resource](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 
    El filtro se crea y ahora se puede seleccionar en un nuevo criterio de alerta de envío.
 
@@ -185,7 +185,7 @@ Una vez creados, estos criterios se pueden agregar a un panel de alertas de env�
 
 [Adición o ampliación de un recurso](../../developing/using/key-steps-to-add-a-resource.md)
 
-## Parámetros de alerta de Envío {#delivery-alerting-parameters}
+## Parámetros de alerta de envío {#delivery-alerting-parameters}
 
 ### Parámetros de criterios {#criteria-parameters}
 
@@ -222,7 +222,7 @@ Puede cambiar esta configuración a través del menú **[!UICONTROL Administrati
 >
 >Esta opción se aplica a todos los paneles definidos en Adobe Campaign. No se puede establecer una frecuencia específica para cada panel.
 
-## Motivos de alerta de Envío {#delivery-alerting-reasons}
+## Motivos de alerta de envío {#delivery-alerting-reasons}
 
 La función de alerta **de** Envío mantiene informados automáticamente a todos los usuarios de Adobe Campaign implicados sobre el estado de ejecución de envío, por correo electrónico y panel.
 
@@ -230,17 +230,18 @@ Ahora, cuando recibe una notificación de alerta de envío, aquí tiene algunos 
 
 En primer lugar, marque la ficha **Registro** del envío para vista de toda la información relacionada con el envío y las pruebas. Los iconos rojo y amarillo le permiten identificar errores o advertencias. El icono rojo indica un error crítico que impide que se inicie el envío.
 
-Para vista del historial de cada incidencia de un envío, seleccione la **[!UICONTROL Sending logs]** ficha. Contiene la lista de los mensajes enviados y sus estados. Allí puede comprobar el estado del envío de cada destinatario ( **[!UICONTROL Sent]**, **[!UICONTROL Pending]**, **[!UICONTROL Failed]**, etc.). Para obtener más información sobre esto, consulte [Envío de registros](../../sending/using/monitoring-a-delivery.md#sending-logs).
+Para vista del historial de cada incidencia de un envío, seleccione la **[!UICONTROL Sending logs]** ficha. Contiene la lista de los mensajes enviados y sus estados. Allí puede comprobar el estado del envío de cada destinatario ( **[!UICONTROL Sent]**, **[!UICONTROL Pending]**, **[!UICONTROL Failed]**, etc.). For more on this, see [Sending logs](../../sending/using/monitoring-a-delivery.md#sending-logs).
 
 A continuación se indican algunos motivos posibles para recibir las notificaciones de alerta según los criterios que se cumplen en un envío.
 
 * **[!UICONTROL Deliveries failed]**:: Este criterio le informa de todos los envíos con un estado erróneo. Puede deberse a:
 
    * Un problema con el servidor de envío (MTA, Agente de transferencia de mensajes)
-   * Tiempo de espera de conexión entre el servidor de envío de Adobe Campaign y el servidor receptor
+   * Tiempo de espera de conexión entre el servidor de Adobe Campaign envío y el servidor receptor
    * Un problema de entrega
    * Un flujo de trabajo erróneo
-   Si el envío se activa con un flujo de trabajo, compruebe si el flujo de trabajo se inició correctamente. For more on this, see [Executing a workflow](../../automating/using/about-workflow-execution.md). De lo contrario, póngase en contacto con el administrador de Adobe Campaign para resolver el problema.
+
+   Si el envío se activa con un flujo de trabajo, compruebe si el flujo de trabajo se inició correctamente. Para obtener más información sobre esto, consulte [Ejecución de un flujo de trabajo](../../automating/using/about-workflow-execution.md). De lo contrario, póngase en contacto con el administrador de Adobe Campaign para resolver el problema.
 
 * **[!UICONTROL Deliveries with preparation failed]**:: Puede producirse un error durante la preparación del envío en los siguientes casos:
 
@@ -248,25 +249,28 @@ A continuación se indican algunos motivos posibles para recibir las notificacio
    * Hay una sintaxis incorrecta en los campos de personalización.
    * Falta el destinatario.
    * El envío supera el límite de tamaño.
+
    Para obtener más información sobre esto, consulte [Preparación del envío](../../sending/using/preparing-the-send.md). Sin embargo, estos errores generalmente se detectan durante la análisis del mensaje. Consulte Reglas [de control](../../sending/using/control-rules.md).
 
 * Las posibles causas de una **[!UICONTROL Delivery with bad error ratio for soft bounces]** alerta pueden ser:
 
    * El servidor del destinatario no funciona.
    * El buzón del destinatario está lleno.
+
    Para obtener más información, consulte las fichas **[!UICONTROL Exclusion logs]** y **[!UICONTROL Exclusion causes]** los registros de envío. Consulte Registros [de](../../sending/using/monitoring-a-delivery.md#exclusion-logs)exclusión.
 
    Las posibles causas de una **[!UICONTROL Delivery with bad error ratio for hard bounces]** alerta pueden ser:
 
-   * El destinatario está en la lista de bloques, lo que significa que ya no desea que se les contacte.
+   * El destinatario está incluida en la lista de bloqueados, lo que significa que ya no quieren que se les contacte.
    * La dirección de correo electrónico del destinatario no existe.
    * El dominio del destinatario no existe.
    * El servidor del destinatario está bloqueando el envío.
+
    Para evitar errores de devolución en blanco y en bruto, siga las optimizaciones a continuación:
 
    * Cree reglas de tipología de filtrado para excluir una parte del destinatario de mensajes durante la análisis de envío, como destinatarios en cuarentena. See [Creating a filtering rule](../../sending/using/filtering-rules.md).
    * Actualice regularmente la base de datos de clientes para mantener los procesos de gestión de cuarentenas correctos. Consulte [Acerca de las cuarentenas](../../sending/using/understanding-quarantine-management.md#about-quarantines).
-   * En términos generales, mejore la capacidad de entrega lo mejor posible. Consulte la documentación detallada de [Entregabilidad](../../sending/using/about-deliverability.md) de Adobe Campaign y póngase en contacto con el administrador de Adobe Campaign para obtener ayuda.
+   * En términos generales, mejore la capacidad de entrega lo mejor posible. Consulte la documentación detallada de Adobe Campaign [Delivery](../../sending/using/about-deliverability.md) y póngase en contacto con el administrador de Adobe Campaign para obtener ayuda.
 
 
 
@@ -279,6 +283,6 @@ A continuación se indican algunos motivos posibles para recibir las notificacio
 **Temas relacionados:**
 
 * [Comprensión de los errores de entrega](../../sending/using/understanding-delivery-failures.md)
-* [Compresión de la gestión de la cuarentena](../../sending/using/understanding-quarantine-management.md)
+* [Comprensión de la gestión de la cuarentena](../../sending/using/understanding-quarantine-management.md)
 * [Acerca de la inclusión y la exclusión en Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
