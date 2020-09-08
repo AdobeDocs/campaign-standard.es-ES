@@ -12,10 +12,10 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 89%
+source-wordcount: '1146'
+ht-degree: 90%
 
 ---
 
@@ -32,7 +32,7 @@ El principio es enviar un correo electrónico para confirmar el acuerdo del visi
 
 Para configurarlo, debe:
 
-1. Crear y publicar una página de aterrizaje para que los visitantes puedan registrarse y suscribirse. Esta página de aterrizaje debe estar disponible en un sitio web. Visitors who fill in and submit this landing page will be stored in the database but added to the block list, in order not to receive any communication before the final validation (see [Block list management in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
+1. Crear y publicar una página de aterrizaje para que los visitantes puedan registrarse y suscribirse. Esta página de aterrizaje debe estar disponible en un sitio web. Visitors who fill in and submit this landing page will be stored in the database but added to the denylist, in order not to receive any communication before the final validation (see [Denylist management in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
 1. Cree y envíe automáticamente el correo electrónico de inclusión, con un vínculo de confirmación. Este correo electrónico se envía a quienes hayan enviado la página de aterrizaje. Se basa en una plantilla de correo electrónico que permite dirigirse a perfiles de “exclusión”.
 1. Redirija a una página de aterrizaje de confirmación. Esta página de aterrizaje final incluye un botón de confirmación: los visitantes tienen que hacer clic en él. Puede diseñar un mensaje de correo electrónico de bienvenida para que se envíe cuando la confirmación esté completa y, por ejemplo, añadir una oferta especial en el mensaje para nuevos destinatarios.
 
@@ -54,13 +54,13 @@ Para crear y configurar esta página de aterrizaje, debe:
 
 1. En la sección **[!UICONTROL Job]** > **[!UICONTROL Additional data]**, haga clic en **[!UICONTROL Add an element]** e introduzca la siguiente ruta de contexto:
 
-   /context/perfil/lista de bloqueados
+   /context/profile/blackList
 
    Establezca el valor en **false** y haga clic en **[!UICONTROL Add]**.
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   Este contexto elimina el campo &#39;En lista de bloqueados&#39; para poder enviar correos electrónicos. Más adelante, veremos que la primera página de aterrizaje era establecer este campo en **true** antes de la confirmación, para evitar enviar correos electrónicos a perfiles no confirmados. Para obtener más información, consulte el [paso 3: crear la página de aterrizaje de adquisición](#step-3--create-the-acquisition-landing-page).
+   Este contexto elimina el campo &quot;Incluida en la lista de bloqueados&quot; para poder enviar correos electrónicos. Más adelante, veremos que la primera página de aterrizaje era establecer este campo en **true** antes de la confirmación, para evitar enviar correos electrónicos a perfiles no confirmados. Para obtener más información, consulte el [paso 3: crear la página de aterrizaje de adquisición](#step-3--create-the-acquisition-landing-page).
 
 1. Personalice el contenido de la página de aterrizaje: puede mostrar datos personalizados y cambiar la etiqueta del botón de confirmación a “Haga clic aquí para confirmar la suscripción”, por ejemplo.
 
@@ -101,12 +101,12 @@ El evento está listo. Ahora puede diseñar la plantilla de correo electrónico.
 
 ### Creación de la tipología {#create-the-typology-rule}
 
-Debe crear una [tipología](../../sending/using/about-typology-rules.md) específica duplicando una predeterminada. La tipología permitirá enviar mensajes a los perfiles que aún no han confirmado su acuerdo y siguen en lista de bloqueados. De forma predeterminada, las tipologías excluyen los perfiles de exclusión (es decir, en la lista de bloqueados). Para crear esta tipología, siga estos pasos:
+Debe crear una [tipología](../../sending/using/about-typology-rules.md) específica duplicando una predeterminada. La tipología permitirá enviar mensajes a los perfiles que aún no han confirmado su acuerdo y siguen incluida en la lista de bloqueados. De forma predeterminada, las tipologías excluyen los perfiles de exclusión (es decir, incluida en la lista de bloqueados). Para crear esta tipología, siga estos pasos:
 
 1. En el logotipo de Adobe Campaign, seleccione **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** y haga clic en **[!UICONTROL Typologies]**.
 1. Duplique la tipología **[!UICONTROL Transactional message on profile (mcTypologyProfile)]** predeterminada.
 1. Una vez confirmada la duplicación, edite la nueva tipología e introduzca la etiqueta **TYPOLOGY_PROFILE**.
-1. Elimine la regla **Dirección en la lista de bloqueados** .
+1. Remove the **Denylisted address** rule.
 1. Haga clic en **[!UICONTROL Save]**.
 
 Esta tipología ahora se puede asociar al correo electrónico de confirmación.
@@ -133,11 +133,11 @@ Para crear y configurar esta página de aterrizaje, debe:
 1. Diseñe una [nueva página de aterrizaje](../../channels/using/getting-started-with-landing-pages.md) basada en la plantilla **[!UICONTROL Profile acquisition (acquisition)]**. Escriba la etiqueta “**ACQUISITION**”.
 1. Edite las propiedades de la página de aterrizaje: en la sección **[!UICONTROL Job]** > **[!UICONTROL Additional data]**, haga clic en **[!UICONTROL Add an element]** e introduzca la siguiente ruta de contexto:
 
-   /context/perfil/lista de bloqueados
+   /context/profile/blackList
 
    y establezca el valor en **true**.
 
-   Esto es obligatorio para forzar la adición a la lista de bloqueados y evitar el envío de mensajes a los visitantes que no confirmaron su acuerdo. La validación de la página de aterrizaje de CONFIRMACIÓN establece este campo en **false** tras la confirmación. Para obtener más información, consulte el [paso 1: crear la página de aterrizaje de confirmación](#step-1--create-the-confirmation-landing-page).
+   Esto es obligatorio para forzar la adición a la  de lista de bloqueados y evitar el envío de mensajes a los visitantes que no confirmaron su acuerdo. La validación de la página de aterrizaje de CONFIRMACIÓN establece este campo en **false** tras la confirmación. Para obtener más información, consulte el [paso 1: crear la página de aterrizaje de confirmación](#step-1--create-the-confirmation-landing-page).
 
 1. En la sección **[!UICONTROL Job]** > **[!UICONTROL Specific actions]**, seleccione la opción **[!UICONTROL Start sending messages]**.
 1. En la lista desplegable asociada, elija la plantilla de mensaje transaccional **CONFIRM** que ha creado.
