@@ -13,9 +13,9 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 121ec37cef6193d3a7085b6d0296b6a2e7cafa06
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '662'
 ht-degree: 82%
 
 ---
@@ -53,11 +53,11 @@ En primer lugar, el inicio consultando la documentación sobre las herramientas 
 * [Optimización del tiempo de envío](../../sending/using/optimizing-the-sending-time.md)
 * [Vista previa de mensajes](../../sending/using/previewing-messages.md)
 * [Procesamiento de correo electrónico](../../sending/using/email-rendering.md)
-* [Seguimiento de un envío](../../sending/using/monitoring-a-delivery.md)
+* [Seguimiento de una entrega](../../sending/using/monitoring-a-delivery.md)
 * [Recibir alertas cuando se produzcan errores](../../sending/using/receiving-alerts-when-failures-happen.md)
-* [Comprensión de los errores de envío](../../sending/using/understanding-delivery-failures.md)
-* [Compresión de la gestión de la cuarentena](../../sending/using/understanding-quarantine-management.md)
-* [Cuarentena vs. lista de bloques](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list)
+* [Comprensión de los errores de entrega](../../sending/using/understanding-delivery-failures.md)
+* [Comprensión de la gestión de la cuarentena](../../sending/using/understanding-quarantine-management.md)
+* [Cuarentena vs. lista de bloqueados](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list)
 * [Informes dinámicos](../../reporting/using/about-dynamic-reports.md)
 
 ## Comprobación de la configuración de red {#network-configuration}
