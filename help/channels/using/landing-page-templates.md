@@ -13,10 +13,10 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 93%
+source-wordcount: '232'
+ht-degree: 94%
 
 ---
 
@@ -28,7 +28,7 @@ Campaign incluye un conjunto de plantillas de página de aterrizaje integradas:
 * **[!UICONTROL Acquisition]**: esta es la plantilla predeterminada para páginas de aterrizaje, que permite capturar y actualizar datos en la base de datos de Campaign.
 * **[!UICONTROL Subscription]**: esta plantilla debe utilizarse para ofrecer suscripciones a un servicio.
 * **[!UICONTROL Unsubscription]**: esta plantilla se puede vincular desde un correo electrónico enviado a los suscriptores de un servicio para permitirles cancelar su suscripción.
-* **[!UICONTROL Block list]**: esta plantilla debe utilizarse cuando un perfil ya no quiere que Campaign le siga contactando. For more about block list management, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+* **[!UICONTROL Denylist]**: esta plantilla debe utilizarse cuando un perfil ya no quiere que Campaign le siga contactando. For more about denylist management, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 Estas plantillas se proponen de forma predeterminada al crear una nueva página de aterrizaje.
 
