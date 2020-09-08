@@ -12,10 +12,10 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 94%
+source-wordcount: '384'
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 94%
 
 Puede enviar mensajes transaccionales en función de los perfiles de marketing del cliente, lo que le permite lo siguiente:
 
-* Aplicar reglas de tipología de marketing como **[!UICONTROL Address on block list]** o [reglas de fatiga](../../sending/using/fatigue-rules.md).
+* Aplicar reglas de tipología de marketing como **[!UICONTROL Denylisted address]** o [reglas de fatiga](../../sending/using/fatigue-rules.md).
 * Incluir vínculos de baja en los mensajes.
 * Añadir mensajes transaccionales al sistema de informes de envío global.
 * Aprovechar mensajes transaccionales en el recorrido del cliente.
@@ -74,11 +74,11 @@ Una vez que se publique el mensaje y se haya completado la integración del siti
 
    ![](assets/message-center_marketing_sending_logs.png)
 
-1. Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as addresses on block list.
+1. Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as denylisted addresses.
 
    ![](assets/message-center_marketing_exclusion_logs.png)
 
-En el caso de cualquier perfil que se haya excluido, la regla de tipología **[!UICONTROL Address on block list]** excluyó el destinatario correspondiente.
+En el caso de cualquier perfil que se haya excluido, la regla de tipología **[!UICONTROL Denylisted address]** excluyó el destinatario correspondiente.
 
 Esta regla forma parte de una tipología específica que se aplica a todos los mensajes transaccionales basados en la tabla **[!UICONTROL Profile]**.
 
