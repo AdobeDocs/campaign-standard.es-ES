@@ -1,6 +1,6 @@
 ---
-title: Permitir listas en Adobe Campaign Standard
-description: Aprenda a optimizar las listas de permitidos con Adobe Campaign Standard.
+title: Listas de permitidos en Adobe Campaign Standard
+description: Obtenga información sobre cómo optimizar listas de permitidos con Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -13,10 +13,10 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 67%
+source-wordcount: '322'
+ht-degree: 68%
 
 ---
 
@@ -27,7 +27,7 @@ La certificación de IP es un programa de envío de optimizaciones que ayuda a g
 
 Actualmente dos proveedores ofrecen certificación IP: Return Path y Certified Senders Alliance.
 
-Los remitentes certificados se agregan a las listas de correo electrónico permitidas que utilizan los proveedores de buzones de correo globales y las compañías de seguridad de correo electrónico. Estas listas de permisos comerciales se basan en un sistema que permite al remitente eludir por completo los filtros antispam o se le asignan puntos incrementales a medida que ingresan al sistema.
+Los remitentes certificados son incluidos en la lista de permitidos que utilizan los proveedores de buzones de correo globales y las compañías de seguridad de correo electrónico. Estas listas de permitidos comerciales se basan en un sistema que permite al remitente evitar por completo los filtros antispam o se le asignan puntos incrementales a medida que ingresa al sistema.
 
 El programa [Return Path Certification](https://www.validity.com/products/returnpath/certification/) ofrece una serie de ventajas, entre las que se incluyen las siguientes:
 * Un aumento mensurable en la ubicación de las bandejas de entrada en los principales proveedores de buzones de correo como Microsoft, AOL, Yahoo, Gmail, Comcast, Orange, Mail.ru y más.
