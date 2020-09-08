@@ -1,6 +1,6 @@
 ---
 title: Administración de la inclusión y la exclusión en Campaign
-description: Comprender cómo se administran en Adobe Campaign las opciones de inclusión y exclusión.
+description: Comprenda cómo se administran las opciones de inclusión y exclusión en Adobe Campaign.
 page-status-flag: never-activated
 uuid: aa1801ec-562b-420e-8d79-c07d066b7b1a
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 8%
@@ -26,7 +26,7 @@ ht-degree: 8%
 
 Un operador puede adhesión o excluir usuarios directamente desde la ficha perfil **[!UICONTROL General]** .
 
-En la **[!UICONTROL No longer contact (on block list)]** sección, las casillas de verificación seleccionadas corresponden a los canales desde los que el usuario eligió exclusión. Seleccione los canales según las necesidades del usuario.
+En la **[!UICONTROL No longer contact (denylisted)]** sección, las casillas de verificación seleccionadas corresponden a los canales desde los que el usuario eligió exclusión. Seleccione los canales según las necesidades del usuario.
 
 ![](assets/optin_landingpage_3.png)
 
@@ -34,11 +34,11 @@ En la **[!UICONTROL No longer contact (on block list)]** sección, las casillas 
 
 Para que los usuarios puedan adhesión o exclusión, debe crear y publicar una **[!UICONTROL Profile acquisition]** página de aterrizaje. Entonces podrán seleccionar los canales según sus necesidades. Para realizar esto, siga los pasos a continuación.
 
-También puede configurar una **[!UICONTROL Block List]** página de aterrizaje que permita a los usuarios exclusión desde todos los envíos. Para obtener más información sobre esto, consulte [Configuración de una página de aterrizaje para exclusión de todos los envíos](#setting-up-a-landing-page-to-opt-out-from-all-deliveries).
+También puede configurar una **[!UICONTROL Denylist]** página de aterrizaje que permita a los usuarios exclusión desde todos los envíos. Para obtener más información sobre esto, consulte [Configuración de una página de aterrizaje para exclusión de todos los envíos](#setting-up-a-landing-page-to-opt-out-from-all-deliveries).
 
 >[!NOTE]
 >
->También se pueden utilizar Páginas de aterrizaje para habilitar la suscripción de servicios. Para obtener más información, consulte [esta página](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service).
+>También se pueden utilizar páginas de aterrizaje para habilitar la suscripción de servicios. Para obtener más información, consulte [esta página](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service).
 
 1. Cree una **[!UICONTROL Profile acquisition]** página de aterrizaje (consulte [esta sección](../../channels/using/getting-started-with-landing-pages.md)).
 1. Añada una casilla de verificación en el contenido de la página de aterrizaje para cada canal deseado y, a continuación, vincúlelo al campo correspondiente de la base de datos de Campañas.
@@ -56,7 +56,7 @@ También puede configurar una **[!UICONTROL Block List]** página de aterrizaje 
 
 ### Configuración de una página de aterrizaje para exclusión de todos los envíos {#setting-up-a-landing-page-to-opt-out-from-all-deliveries}
 
-Para que los usuarios puedan exclusión desde todos los envíos, debe crear y publicar una **[!UICONTROL Block list]** página de aterrizaje. For more on landing pages creation, refer to [this page](../../channels/using/getting-started-with-landing-pages.md).
+Para que los usuarios puedan exclusión desde todos los envíos, debe crear y publicar una **[!UICONTROL Denylist]** página de aterrizaje. For more on landing pages creation, refer to [this page](../../channels/using/getting-started-with-landing-pages.md).
 
 Una vez que un usuario hace clic en el vínculo de página de aterrizaje, la **[!UICONTROL No longer contact (by any channel)]** opción del perfil se selecciona automáticamente.
 
