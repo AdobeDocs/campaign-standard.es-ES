@@ -12,7 +12,7 @@ discoiquuid: 2ea51543-fe4d-462b-b47e-9ccaa1d68dfa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: da4be48018128a766c749e30301c3c86e9fcf9e9
+source-git-commit: 3534fb2cf9f77168eb3ca0021f4121a44a57916d
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 6%
@@ -38,5 +38,5 @@ También hay disponible una integración entre los **activadores** del servicio 
 **Temas relacionados:**
 
 * [Descripción general del Campaign Standard a la integración de Analytics](https://docs.adobe.com/content/help/en/analytics/integration/adobe-campaign.html)
-* [Configuración de la integración] de Campaign Standard (https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
+* [Configuración de la integración de Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
 * [Dimensiones y métricas de Campaign en Analytics](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
