@@ -1,6 +1,6 @@
 ---
 title: Introducción a perfiles y audiencias
-description: '"Obtenga información sobre la administración de perfiles y audiencias dentro del Adobe Campaign: definir poblaciones objetivo, seleccionar audiencias, filtrar destinatarios, recopilar datos y actualizar perfiles".'
+description: '"Obtenga información sobre la administración de perfiles y audiencias en Adobe Campaign: definir poblaciones objetivo, seleccionar audiencias, filtrar destinatarios, recopilar datos y actualizar perfiles".'
 page-status-flag: never-activated
 uuid: f4cb6c38-c8d1-44ec-93f0-d0f5f30a3d9a
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 9%
+source-wordcount: '607'
+ht-degree: 11%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 9%
 <td><img src="assets/do-not-localize/icon_privacy.svg" width="60px"><p><a href="#privacy">Cumplimiento de la privacidad</a></p></td></tr>
 </table>
 
-Los perfiles de cliente integrados de Campaña le permiten realizar un seguimiento de cada interacción con los clientes en todos los canales dentro de una sola vista, lo que le permite enviar mensajes relevantes y personalizados a sus clientes.
+Los perfiles de cliente integrados de campaña le permiten realizar un seguimiento de cada interacción con los clientes en todos los canales dentro de una sola vista, lo que le permite enviar mensajes relevantes y personalizados a sus clientes.
 
 Segmente la base de datos en audiencias para optimizar el destinatario de las campañas de mercadotecnia.
 
@@ -43,11 +43,11 @@ Al crear campañas o mensajes, puede especificar el destinatario de los envíos 
 
 Identifique a los clientes de manera más eficaz en todos sus canales mediante perfiles **de clientes** integrados y segmentos **** personalizados. Cuando conoce a sus clientes, intereses, factores demográficos y preferencias de canal, es más fácil crear experiencias personalizadas que se noten.
 
-Adobe Campaign crea perfiles de cliente enriquecidos en tiempo real, permitiéndole ofrecer ofertas más relevantes y personalizadas a medida que cambian las preferencias de los clientes. Además, Adobe Campaign integra funciones avanzadas de análisis, gestión de datos y determinación de objetivos para crear audiencias.
+Adobe Campaign crea perfiles de cliente enriquecidos en tiempo real, permitiéndole ofrecer ofertas más relevantes y personalizadas a medida que cambian las preferencias de sus clientes. Además, Adobe Campaign integra funciones avanzadas de análisis, gestión de datos y determinación de objetivos para crear audiencias.
 
-**Los Perfiles** son contactos individuales almacenados en la base de datos. Cada perfil corresponde a una entrada de la base de datos que contiene la información necesaria para que ese perfil sea dirigido, calificado y rastreado individualmente: Adobe Campaign puede rastrear cada interacción desde canales en línea y sin conexión y combinarla en un único perfil.
+**Los perfiles** son contactos individuales almacenados en la base de datos. Cada perfil corresponde a una entrada de la base de datos que contiene la información necesaria para que ese perfil sea dirigido, calificado y rastreado individualmente: Adobe Campaign puede realizar un seguimiento de cada interacción desde canales en línea y sin conexión y combinarla en un único perfil.
 
-**Las Audiencias** son listas de perfiles construidas sobre criterios específicos o conjuntos de criterios. Con el uso de flujos de trabajo y el editor de consultas, puede crear audiencias que serán el objetivo de sus campañas de marketing, según la información que tenga sobre ellos, sus actividades y su historial de marketing. Esto le permite filtrar perfiles suscritos, tomar muestras o crear audiencias de destinatario según un número ilimitado de criterios.
+**Las audiencias** son listas de perfiles construidas sobre criterios específicos o conjuntos de criterios. Con el uso de flujos de trabajo y el editor de consultas, puede crear audiencias que serán el objetivo de sus campañas de marketing, según la información que tenga sobre ellos, sus actividades y su historial de marketing. Esto le permite filtrar perfiles suscritos, tomar muestras o crear audiencias de destinatario según un número ilimitado de criterios.
 
 Más información:
 
@@ -66,11 +66,11 @@ Antes de empezar a enviar mensajes a un contacto, debe asegurarse de obtener su 
 
 Con la Campaña, le recomendamos que utilice **fácilmente los mecanismos** de inclusión y exclusión a través de [servicios](../../audiences/using/creating-a-service.md)y [páginas de aterrizaje](../../channels/using/getting-started-with-landing-pages.md) para actualizar su información de contacto y ampliar su base de datos.
 
-El suministro de vínculos **** bajas en los mensajes permitirá que los Perfiles se agreguen a la lista de bloques cuando sea necesario y, por lo tanto, mejorará la capacidad de entrega de la plataforma. Para obtener más información sobre la administración de listas de bloques, consulte [Acerca de la inclusión y la exclusión en la Campaña](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+El suministro de vínculos **** bajas en los mensajes permitirá agregar Perfiles a la  de lista de bloqueados, cuando sea necesario, y por lo tanto, mejorar la capacidad de entrega de la plataforma. For more on denylist management, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!IMPORTANT]
 >
->Debe respetar la política [de uso aceptable del](https://www.adobe.com/legal/terms/aup.html)Adobe Campaign.
+>Debe respetar la política [de uso aceptable de](https://www.adobe.com/legal/terms/aup.html)Adobe Campaign.
 
 Más información:
 
@@ -95,4 +95,4 @@ Entérese también de las mejores prácticas recomendadas para ayudarle con el c
 * [Uso de Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 * [Audiencias compartidas de Adobe](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [Uso de flujos de trabajo para importar perfiles](../../automating/using/creating-import-workflow-templates.md)
-* [Vídeos de Perfiles y audiencias](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
+* [Vídeos de perfiles y audiencias](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
