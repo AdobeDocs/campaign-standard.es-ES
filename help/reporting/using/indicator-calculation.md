@@ -12,10 +12,10 @@ discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '731'
+ht-degree: 8%
 
 ---
 
@@ -47,15 +47,15 @@ Las tablas siguientes proporcionan la lista de los indicadores utilizados en los
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Bloqueado<br /> </td> 
-   <td> @locked<br /> </td> 
+   <td> incluida en la lista de bloqueados<br /> </td> 
+   <td> @en la lista negra<br /> </td> 
    <td> count(@failReason=8, @failType=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Tarifa bloqueada<br /> </td> 
-   <td> @rateBlocklists<br /> </td> 
-   <td> @block/@sent<br /> </td> 
+   <td> lista de bloqueados tasa de<br /> </td> 
+   <td> @rateBlacklists<br /> </td> 
+   <td> @en la lista negra/@sent<br /> </td> 
    <td> El denominador para el cálculo del tipo se basa en el recuento de envíos (entregado + devoluciones).<br /> </td> 
   </tr> 
   <tr> 
@@ -125,7 +125,7 @@ Las tablas siguientes proporcionan la lista de los indicadores utilizados en los
    <td> El denominador para el cálculo del tipo de interés se basa en Entregado solamente.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Tasa de Página espejo<br /> </td> 
+   <td> Tasa de página espejo<br /> </td> 
    <td> @rateMirrorPage<br /> </td> 
    <td> @mirrorPage/@did<br /> </td> 
    <td> </td> 
@@ -155,7 +155,7 @@ Las tablas siguientes proporcionan la lista de los indicadores utilizados en los
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Tasa de Cuarentena<br /> </td> 
+   <td> Tasa de cuarentena<br /> </td> 
    <td> @rateQuarantine<br /> </td> 
    <td> @cuarentena/@sent<br /> </td> 
    <td> El denominador para el cálculo del tipo se basa en el recuento de envíos (entregado + devoluciones).<br /> </td> 
@@ -167,7 +167,7 @@ Las tablas siguientes proporcionan la lista de los indicadores utilizados en los
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Tipo Rechazado<br /> </td> 
+   <td> Tipo rechazado<br /> </td> 
    <td> @rateReject<br /> </td> 
    <td> @rechazado/@sent<br /> </td> 
    <td> El denominador para el cálculo del tipo se basa en el recuento de envíos (entregado + devoluciones).<br /> </td> 
