@@ -12,11 +12,11 @@ discoiquuid: 4e0468da-3052-4ce5-8174-45aba1f5c4ed
 context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
-workflow-type: ht
-source-wordcount: '207'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3895755aa2eeceb837f78f591bb6504d3eadec1f
+workflow-type: tm+mt
+source-wordcount: '244'
+ht-degree: 84%
 
 ---
 
@@ -44,3 +44,7 @@ Los campos de extensión se generan con un prefijo para que nunca entren en conf
 También puede [configurar la navegación](configuring-the-screen-definition.md) en las pantallas correspondientes al recurso creado.
 
 Es posible **exportar e importar** recursos personalizados, por ejemplo, del desarrollo al entorno de producción. Para obtener más información al respecto consulte este [caso de uso paso a paso](../../automating/using/exporting-importing-custom-resources.md).
+
+>[!CAUTION]
+>
+>Solo [los administradores](../../administration/using/users-management.md#functional-administrators)funcionales, con **[!UICONTROL Administration]** función y acceso a **todas** las unidades, pueden acceder al envío de registros, registros de mensajes, registros de seguimiento, registros de exclusión o de suscripción. Un usuario no administrador puede destinatario estos registros, pero puede comenzar en una tabla vinculada (perfiles, envío).
