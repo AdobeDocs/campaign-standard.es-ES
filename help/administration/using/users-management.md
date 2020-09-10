@@ -12,10 +12,10 @@ discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 762700893c913d9aea884d00438c84b39a800188
+source-git-commit: 99edde2738ebf9d2a742aa467b049d6ec7761cc1
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 100%
+source-wordcount: '1183'
+ht-degree: 96%
 
 ---
 
@@ -61,6 +61,10 @@ Preferiremos centrarnos en cómo las diferentes tareas de Adobe Campaign están 
 ### Administradores funcionales {#functional-administrators}
 
 Los administradores funcionales son usuarios que pueden acceder a las partes más técnicas de la interfaz. Ellos tienen la función **[!UICONTROL Administration]** y se aseguran de que la plataforma esté configurada para que los especialistas en marketing solo tengan que centrarse en ofrecer sus campañas.
+
+>[!CAUTION]
+>
+>Solo los administradores funcionales, con **[!UICONTROL Administration]** función y acceso a **todas** las unidades, pueden acceder al envío de registros, registros de mensajes, registros de seguimiento, registros de exclusión, registros de proposiciones y registros de suscripciones. Un usuario no administrador puede destinatario estos registros, pero puede comenzar en una tabla vinculada (perfiles, envío).
 
 Los administradores funcionales son los únicos usuarios que pueden acceder al menú **[!UICONTROL Administration]** en la interfaz de Adobe Campaign. Dado que estos usuarios necesitan acceder a los recursos técnicos, se les deben asignar funciones más avanzadas, como las funciones **[!UICONTROL Administration]** y **[!UICONTROL Datamodel]** integradas. Estas funciones se combinan en el grupo de seguridad **[!UICONTROL Administrators]** integrado. Para obtener más información, consulte [esta sección](../../administration/using/list-of-roles.md).
 
