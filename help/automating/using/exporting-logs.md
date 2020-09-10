@@ -12,7 +12,10 @@ discoiquuid: ca8a95d8-523f-4085-a2fc-e1d8262cfbae
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: 3895755aa2eeceb837f78f591bb6504d3eadec1f
+workflow-type: tm+mt
+source-wordcount: '597'
+ht-degree: 14%
 
 ---
 
@@ -20,6 +23,10 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 # Exportación de registros{#exporting-logs}
 
 Los datos de registro, tanto si están relacionados con envíos como con suscripciones, se pueden exportar mediante un flujo de trabajo sencillo. Le permite analizar los resultados de sus campañas en su propia herramienta de sistema de informes o BI.
+
+>[!CAUTION]
+>
+>Solo [los administradores](../../administration/using/users-management.md#functional-administrators)funcionales, con **[!UICONTROL Administration]** función y acceso a **todas** las unidades, pueden acceder al envío de registros, registros de mensajes, registros de seguimiento, registros de exclusión o de suscripción. Un usuario no administrador puede destinatario estos registros, pero puede comenzar en una tabla vinculada (perfiles, envío).
 
 Mediante un **[!UICONTROL Incremental query]** método que solo recupera nuevos registros cada vez que se ejecuta el flujo de trabajo y una **[!UICONTROL Extract file]** actividad sencilla para definir las columnas de salida, puede obtener un archivo con el formato y todos los datos que necesita. A continuación, utilice una **[!UICONTROL Transfer file]** actividad para recuperar el archivo final. Cada ejecución del flujo de trabajo está planificada por un **[!UICONTROL Scheduler]**.
 
@@ -44,7 +51,7 @@ Los usuarios estándar pueden realizar la operación de registros de exportació
 
       ![](assets/export_logs_query_processeddata.png)
 
-      Después de la primera ejecución del flujo de trabajo, puede ver en esta ficha la última fecha de ejecución que se utilizará para la siguiente ejecución. Se actualiza automáticamente cada vez que se ejecuta el flujo de trabajo. Todavía tiene la posibilidad de anular este valor introduciendo manualmente uno nuevo para que se ajuste a sus necesidades.
+      Después de la primera ejecución del flujo de trabajo, puede ver en esta pestaña la última fecha de ejecución que se utiliza en la siguiente ejecución. Se actualiza automáticamente cada vez que se ejecuta el flujo de trabajo. Todavía tiene la posibilidad de anular este valor introduciendo manualmente uno nuevo para que se ajuste a sus necesidades.
 
 1. Añada una **[!UICONTROL Extract file]** actividad que exportará los datos consultados en un archivo:
 
@@ -62,9 +69,9 @@ Los usuarios estándar pueden realizar la operación de registros de exportació
 
    * En la **[!UICONTROL File structure]** ficha, defina el formato del archivo de salida para que coincida con sus necesidades.
 
-      Marque la **[!UICONTROL Export labels instead of internal values of enumerations]** opción en caso de exportar valores de lista desglosada. Esta opción permite recuperar etiquetas más cortas que son fáciles de entender en lugar de identificadores.
+      Marque la opción **[!UICONTROL Export labels instead of internal values of enumerations]** en caso de exportar valores de enumeración. Esta opción permite recuperar etiquetas más cortas, que son fáciles de entender, en lugar de identificadores.
 
-1. Añada una **[!UICONTROL Transfer file]** actividad y configúrela para transferir el archivo recién creado del servidor de Adobe Campaign a otra ubicación a la que pueda acceder, como un servidor SFTP.
+1. Añada una **[!UICONTROL Transfer file]** actividad y configúrela para transferir el archivo recién creado del servidor Adobe Campaign a otra ubicación a la que pueda acceder, como un servidor SFTP.
 
    * En la **[!UICONTROL General]** ficha, seleccione **[!UICONTROL File upload]** como objetivo enviar el archivo de Adobe Campaign a otro servidor.
    * En la **[!UICONTROL Protocol]** ficha, especifique los parámetros de transferencia y seleccione la [cuenta externa](../../administration/using/external-accounts.md#creating-an-external-account) que desee utilizar.
