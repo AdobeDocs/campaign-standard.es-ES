@@ -12,18 +12,21 @@ discoiquuid: eb9fa216-4568-423a-9396-8f7b82181ae9
 context-tags: delivery,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 54612511de07edc3e6f3eea34ef095c26b35f4af
-workflow-type: ht
-source-wordcount: '412'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3895755aa2eeceb837f78f591bb6504d3eadec1f
+workflow-type: tm+mt
+source-wordcount: '461'
+ht-degree: 89%
 
 ---
 
 
 # Seguimiento de una entrega{#monitoring-a-delivery}
 
-Existen varias formas de supervisar un envío y medir su impacto:
+Existen varias formas de supervisar un envío y medir su impacto. Como administrador funcional, puede acceder a los registros y registros de envío de mensajes.
+>[!CAUTION]
+>
+>Solo [los administradores](../../administration/using/users-management.md#functional-administrators)funcionales, con **[!UICONTROL Administration]** función y acceso a **todas** las unidades, pueden acceder al envío de registros, registros de mensajes, registros de seguimiento, registros de exclusión o de suscripción. Un usuario no administrador puede destinatario estos registros, pero puede comenzar en una tabla vinculada (perfiles, envío).
 
 * **Registros de mensajes**: se puede acceder a estos registros directamente desde el panel de mensajes. Muestran los detalles del envío, qué destinatario se ha excluido y por qué, así como la información de seguimiento como aperturas y clics.
 
