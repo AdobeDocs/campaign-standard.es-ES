@@ -12,9 +12,9 @@ discoiquuid: 609355f6-9003-41b9-9981-ea787419fbf5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ddf585def583acefbb25e7a48318966cd2af49a7
+source-git-commit: acaa07b3e40d0bcbf7c44f866ede141b992015a1
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## Introducción a los correos electrónicos con tecnología AI{#journey-ai-ovv}
 
-Mediante la Campaña, puede optimizar el diseño y el envío de los viajes de los clientes para predecir las preferencias de participación de cada individuo. Con Journey AI, el Adobe Campaign puede analizar y predecir las tasas abiertas, los tiempos de envío óptimos y la probable reproducción basada en métricas de participación históricas.
+Mediante la Campaña, puede optimizar el diseño y el envío de los viajes de los clientes para predecir las preferencias de participación de cada individuo. Con la tecnología de Journey AI, Adobe Campaign puede analizar y predecir las tasas abiertas, los tiempos de envío óptimos y la probable reproducción basada en métricas de participación históricas.
 
 **Modelos de aprendizaje automático**
 
@@ -35,7 +35,7 @@ Adobe Campaign Standard oferta dos nuevos modelos de aprendizaje automático: **
 * **Puntuación** de participación predictiva: La puntuación de participación predictiva predice la probabilidad de que un destinatario se involucre con un mensaje, así como la probabilidad de exclusión (cancelar la suscripción) en los próximos 7 días después del siguiente envío de correo electrónico. Las probabilidades se dividen además en bloques según el riesgo específico de separación, medio o bajo. Además, el modelo también proporciona la clasificación del percentil de riesgo para que los clientes entiendan dónde está la clasificación de un determinado cliente en relación con otros.
 
 >[!CAUTION]
->Esta capacidad no está disponible de forma predeterminada como parte del producto. La implementación requiere la participación de Adobe Consulting. Póngase en contacto con su representante de Adobe para obtener más información.
+>Esta capacidad no está disponible de forma predeterminada como parte del producto. La implementación requiere la participación de Adobe Consulting. Póngase en contacto con el representante de su Adobe para obtener más información.
 >
 >Por separado, la función requería el uso de un almacenamiento de Azure que el cliente debía proporcionar.
 
@@ -56,8 +56,8 @@ Dentro del modelo de optimización del tiempo de envío predictivo, hay dos subm
 
 Detalles de salida
 
-* Calcular la mejor hora del día para enviar un correo electrónico durante los próximos 7 días con intervalos de 1 hora (por ejemplo: 9:00 am, 10:00 am, 11:00 am)
-* El modelo indicará el mejor momento en los próximos 7 días para enviar el correo electrónico
+* Calcular la mejor hora del día para enviar un correo electrónico durante los 7 días de la semana con intervalos de 1 hora (por ejemplo: 9:00 am, 10:00 am, 11:00 am)
+* El modelo indicará el mejor día de la semana y la mejor hora de ese día
 * Cada tiempo óptimo se calcula dos veces: una vez para maximizar la tasa de apertura y una vez para maximizar la tasa de clics
 * Se dan 16 campos (14 para los días de la semana y 2 para toda la semana):
    * mejor momento para enviar un correo electrónico para optimizar los clics para el lunes: valores entre 0 y 23
@@ -126,7 +126,7 @@ La puntuación de participación predictiva le permite:
 Este modelo utiliza varias puntuaciones para indicar:
 
 * **Abra Puntuación de participación / Haga clic en Puntuación** de participación: este valor coincide con la probabilidad de que un suscriptor interactúe con un mensaje específico (abrir o hacer clic). Los valores van de 0,0 a 1,0.
-* **Probabilidad** Baja: este valor coincide con la probabilidad de que el destinatario cancele la suscripción del canal de correo electrónico a partir de un correo electrónico abierto. Los valores van de 0,0 a 1,0.
+* **Probabilidad** baja: este valor coincide con la probabilidad de que el destinatario cancele la suscripción del canal de correo electrónico a partir de un correo electrónico abierto. Los valores van de 0,0 a 1,0.
 * **Nivel** de retención:  este valor clasifica a los usuarios en tres niveles: baja, media y alta. Es muy probable que el alto permanezca con la marca y el bajo valor que probablemente se cancele la suscripción.
 * **Rango percentil de retención**: Clasificación de perfiles en términos de probabilidad baja. Los valores van de 0,0 a 1,0. Por ejemplo: si la clasificación de porcentaje de retención es 0,953, es más probable que este destinatario permanezca con la marca y tenga menos probabilidades de cancelar la suscripción que el 95,3% de todos los destinatarios.
 
