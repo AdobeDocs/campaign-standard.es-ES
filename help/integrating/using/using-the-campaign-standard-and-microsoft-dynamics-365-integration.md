@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ca6b418351cfbe539da9f1f4a542c2d7014dfc24
+source-git-commit: cd1cbf907eb160b6bbc1a2a2d3dd1c601ac13635
 workflow-type: tm+mt
 source-wordcount: '1186'
 ht-degree: 1%
@@ -105,7 +105,8 @@ A continuación se muestra una lista de los atributos y una descripción:
 >El período de caducidad de la página espejo de correo electrónico se puede modificar en la pantalla de configuración de la actividad de canal de correo electrónico de la Campaña correspondiente (consulte Parámetros [de período de](../../administration/using/configuring-email-channel.md#validity-period-parameters)validez).
 
 >[!NOTE]
-Para la exclusión, cuando se modifica un atributo de exclusión en Dynamics 365, se reflejará en la Campaña si ha seleccionado la configuración de la exclusión bidireccional o de Dynamics 365 to-Campaña y si tiene ese atributo concreto asignado correctamente.
+>
+>Para la exclusión, cuando se modifica un atributo de exclusión en Dynamics 365, se reflejará en la Campaña si ha seleccionado la configuración de la exclusión bidireccional o de Dynamics 365 to-Campaña y si tiene ese atributo concreto asignado correctamente.
 
 ## Flujos de datos {#data-flows}
 
@@ -124,7 +125,8 @@ Según el volumen de registros, es posible que el almacenamiento SFTP de la Camp
 El atributo externalId de la tabla de perfiles de Campaña debe rellenarse con el valor contactId del atributo de contacto de Dynamics 365 para que funcione la llamada de contacto. Las entidades personalizadas de campaña también deben rellenarse con un atributo de ID único de Dynamics 365; sin embargo, este atributo se puede almacenar en cualquier atributo de entidad personalizado de Campaña (es decir, no tiene que ser externalId).
 
 >[!NOTE]
-Para el ingreso de entidades personalizadas, el seguimiento de cambios debe habilitarse en Dynamics 365 para las entidades personalizadas sincronizadas.
+>
+>Para el ingreso de entidades personalizadas, el seguimiento de cambios debe habilitarse en Dynamics 365 para las entidades personalizadas sincronizadas.
 
 ### Flujo de Evento de mercadotecnia de correo electrónico
 
