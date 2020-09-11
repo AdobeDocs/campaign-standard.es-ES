@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e90f878814e65a9a61ee4013d94fd0bf3b1f7875
+source-git-commit: 0ce73bf7e250c5e88bbb525854e81ef27662ab06
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 3%
@@ -61,12 +61,12 @@ Los tickets de asistencia técnica pueden registrarse con Adobe Custom Care, com
 
 Para cualquier problema con los flujos de datos de integración, asegúrese de incluir el grupo de informes como parte de la descripción del problema, así como la siguiente información:
 
-* Propietario del proceso: Arquitectos de ingeniería
+* **Propietario** del proceso: Arquitectos de ingeniería
 
-* ID de proceso ES: [Proporcionado durante el proceso de integración]
+* **ID** de proceso ES: Proporcionado durante el proceso de integración
 
-* Título del proceso: Integración de Dynamics 365/Adobe Campaign Standard
+* **Título** del proceso: Integración de Dynamics 365/Adobe Campaign Standard
 
-* Descripción del problema: [Descripción del problema]
+* **Descripción** del problema: Descripción del problema
 
 La cobertura de soporte de integración es actualmente de 24x5 (disponible de lunes a viernes, excluyendo feriados de Adobe y períodos de interrupción).
