@@ -12,9 +12,9 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 621c29ae08770b50629ba3d27116f93f8b5c3f62
+source-git-commit: 2ef169d9bf76856bb687af88358e0452953313a0
 workflow-type: tm+mt
-source-wordcount: '1439'
+source-wordcount: '1448'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,8 @@ Obtenga información sobre cómo asignar recursos de Campaña y entidades de Dyn
 
 Debido a las diferencias en los atributos de exclusión entre Dynamics 365 y la Campaña, y a las diferencias en los requisitos comerciales de cada cliente, la asignación de exclusión se ha dejado como un ejercicio para que el cliente lo complete.  Es importante asegurarse de que las opciones de exclusión se asignan correctamente entre sistemas para que las preferencias de exclusión de los usuarios finales se mantengan y no reciban una comunicación a través de un canal del que hayan exclusión.
 
-Tenga en cuenta que en las asignaciones de exclusión solo se pueden usar atributos de Campaña con el prefijo &quot;lista de bloqueados&quot; (por ejemplo, blockListEmail) o el atributo específico para la exclusión de CCPA.  En Dynamics 365, la mayoría de los campos de exclusión tienen el prefijo &quot;donot&quot;; sin embargo, también puede utilizar otros atributos para fines de exclusión si los tipos de datos son compatibles.
+Tenga en cuenta que en las asignaciones de exclusión solo se pueden usar atributos de Campaña con el prefijo &#39;Ya no contacto por&#39; (por ejemplo, ya no contacto por correo electrónico) o el atributo específico para la exclusión de CCPA. [Más información](../../developing/using/datamodel-profile.md).
+En Dynamics 365, la mayoría de los campos de exclusión tienen el prefijo &quot;donot&quot;; sin embargo, también puede utilizar otros atributos para fines de exclusión si los tipos de datos son compatibles.
 
 Al aprovisionar la integración, tendrá la oportunidad de especificar la configuración de exclusión que necesita para su negocio:
 
