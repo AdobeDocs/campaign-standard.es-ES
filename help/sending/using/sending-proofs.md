@@ -12,9 +12,9 @@ discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f7f90991ed4c7323e3a2f8ac7d38da9ff165ef76
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a07ccaf864c3aef881cb02042b5e00a43c48f0a9
+workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 100%
 
@@ -60,6 +60,7 @@ Para enviar pruebas, siga estos pasos:
    * **[!UICONTROL Email rendering]**: seleccione esta opción para probar la forma en que se recibe el mensaje según las bandejas de entrada objetivo. Para obtener más información, consulte [Procesamiento de correo electrónico](../../sending/using/email-rendering.md).
    * **[!UICONTROL Proof]**: seleccione esta opción para probar el mensaje antes de enviarlo al destinatario principal. Los destinatarios de prueba se encargan de aprobar el envío, comprobando tanto su contenido como su formato.
    * **[!UICONTROL Proof + Email rendering]**: esta opción combina las dos opciones anteriores.
+
    ![](assets/bat_select1.png)
 
    >[!NOTE]
@@ -108,7 +109,7 @@ Para ocultar el número de la prueba en la línea de asunto, active la opción *
 **Temas relacionados:**
 
 * [Envío de una prueba, preparación y envío de un vídeo por correo electrónico](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/sending-test-preparing-sending-email.html)
-* [Prueba de mensajes de correo electrónico con perfiles de destino](../../sending/using/testing-messages-using-target.md).
-* [Administración de perfiles de prueba](../../audiences/using/managing-test-profiles.md).
+* [Prueba de mensajes de correo electrónico con perfiles de destino](../../sending/using/testing-messages-using-target.md)
+* [Administración de perfiles de prueba](../../audiences/using/managing-test-profiles.md)
 * [Vista previa de mensajes](../../sending/using/previewing-messages.md)
 * [Configuración de canales de correo electrónico](../../administration/using/configuring-email-channel.md)
