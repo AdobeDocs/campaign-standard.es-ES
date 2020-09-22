@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 23e3b1c3105fd99ec0cd67cb4a3ca5e565604449
+source-git-commit: 5eab422b797e1d486fded57cb64f94fb709d6681
 workflow-type: tm+mt
-source-wordcount: '6228'
-ht-degree: 93%
+source-wordcount: '6215'
+ht-degree: 92%
 
 ---
 
@@ -39,6 +39,8 @@ Integración de Journey AI: [Más información](../../sending/using/predictive.m
 La sección sobre cómo llamar a un flujo de trabajo con parámetros externos se ha enriquecido con las nuevas funciones disponibles en el Editor de Expresiones. [Más información](../../automating/using/customizing-workflow-external-parameters.md)
 
 Se ha agregado una recomendación a las optimizaciones de flujos de trabajo sobre el número de actividades que se deben utilizar por flujo de trabajo. [Más información](../../automating/using/best-practices-workflows.md#number-activities)
+
+Se ha añadido una nueva sección sobre las prácticas recomendadas de Envío. [Más información](../../sending/using/delivery-best-practices.md)
 
 ## Actualizaciones de documentación: septiembre de 2020 {#doc-updates-september-2020}
 
@@ -176,7 +178,7 @@ La documentación de Configuración de una aplicación móvil y las páginas rel
 
 Se ha actualizado y mejorado la documentación sobre la integración de Adobe Campaign Standard y Adobe Experience Manager. [Más información](../../integrating/using/configure-experience-manager.md)
 
-La documentación del Diseñador de correos electrónicos de Campaign y las páginas relacionadas se han actualizado para indicar que el SDK de Adobe Creative ha quedado obsoleto. [Más información](https://helpx.adobe.com/es/campaign/kb/acs-deprecated-and-removed-features.html)
+The Campaign Email Designer documentation and related pages have been updated to reflect [!DNL Adobe Creative SDK] depreciation. [Más información](https://helpx.adobe.com/es/campaign/kb/acs-deprecated-and-removed-features.html)
 
 Ya está disponible una nueva sección dedicada a las prácticas recomendadas del modelo de datos de Campaign Standard. [Más información](../../developing/using/data-model-best-practices.md)
 
@@ -248,9 +250,9 @@ Se ha actualizado la tabla de **cálculo de indicador**. [Más información](../
 
 El conjunto de documentación de las API se ha integrado en la documentación de Campaign Standard.[Más información](../../api/using/get-started-apis.md)
 
-La guía de introducción a la creación de un correo electrónico personalizado se ha movido y actualizado. [Más información](https://helpx.adobe.com/es/campaign/kb/acs-get-started-with-emails.html)
+Se ha movido y actualizado la sección Creación de un correo electrónico personalizado para empezar. [Más información](https://helpx.adobe.com/es/campaign/kb/acs-get-started-with-emails.html)
 
-Se ha actualizado la guía de introducción a las prácticas recomendadas de entrega. [Más información](https://helpx.adobe.com/es/campaign/kb/delivery-best-practices.html)
+Se ha actualizado la guía de introducción a las prácticas recomendadas de entrega. [Más información](../../sending/using/delivery-best-practices.md)
 
 El modelo de datos se ha integrado en la documentación de Campaign Standard. [Más información](../../developing/using/datamodel-audience.md)
 
@@ -266,13 +268,13 @@ Integración de Microsoft Dynamics 365 (GA): [Más información](../../integrati
 
 **Otras actualizaciones de la documentación incluidas en la versión**
 
-Se ha actualizado la lista de mensajes de error para Campaign Standard y Campaign Classic. [Más información](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Se ha actualizado la lista de mensajes de error para Adobe Campaign. [Más información](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
 La guía de introducción al RGPD se ha mejorado y enriquecido. Ahora es una documentación de administración de la privacidad que incluye el RGPD y la CCPA. [Más información](https://helpx.adobe.com/content/help/es/campaign/kb/campaign-privacy.html)
 
 Se ha añadido un nuevo gráfico que presenta el proceso de publicación de mensajería transaccional. [Más información](../../administration/using/configuring-transactional-messaging.md#transactional-messaging-pub-process)
 
-La guía de introducción a las prácticas recomendadas de entrega se ha movido y actualizado. [Más información](https://helpx.adobe.com/es/campaign/kb/delivery-best-practices.html)
+La guía de introducción a las prácticas recomendadas de entrega se ha movido y actualizado. [Más información](../../sending/using/delivery-best-practices.md)
 
 Se ha añadido una nueva sección. Proporciona una descripción general de los diferentes métodos que le permiten enriquecer la base de datos de Campaign Standard. [Más información](../../audiences/using/enriching-campaign-database.md)
 
@@ -610,7 +612,7 @@ Se ha añadido información sobre la opción Licencias en el menú Administraci�
 
 Se ha añadido información sobre cómo utilizar campos personalizados en una notificación push. [Más información](../../channels/using/customizing-a-push-notification.md#add-custom-fields)
 
-Se ha actualizado la guía paso a paso de prácticas recomendadas de entrega. [Más información](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html)
+Se ha actualizado la guía paso a paso de prácticas recomendadas de entrega. [Más información](../../sending/using/delivery-best-practices.md)
 
 Se ha añadido información sobre los tipos de registro de seguimiento. [Más información](../../sending/using/tracking-messages.md#tracking-logs)
 
