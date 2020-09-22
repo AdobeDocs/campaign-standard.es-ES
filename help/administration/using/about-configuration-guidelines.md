@@ -12,7 +12,10 @@ discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c2ed4b3c85ceef3b604a8f68d924c7e5d9fad900
+source-git-commit: cd2d38ec65ecc0ee5d6d60ce2ae46eb21da6cd45
+workflow-type: tm+mt
+source-wordcount: '117'
+ht-degree: 11%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: c2ed4b3c85ceef3b604a8f68d924c7e5d9fad900
 
 Adobe Campaign Standard es compatible con la mayoría de los navegadores para equipos, así como con los sistemas operativos principales para tablets.
 
-Adobe Campaign Standard solo admite el modo de visualización horizontal en tabletas.
+Adobe Campaign Standard solo admite el horizontal como modo de visualización en tabletas.
 
 Esta es la lista de los exploradores compatibles con Adobe Campaign Standard:
 
@@ -41,16 +44,15 @@ Esta es la lista de los exploradores compatibles con Adobe Campaign Standard:
 
 ## Puntos finales de red de Campaign Standard {#campaign-standard-network-endpoints}
 
-Estos son los diferentes extremos utilizados en Campaign Standard.
+Estos son los distintos puntos finales utilizados en Campaign Standard.
 
 | Contexto | URL |
 |--- |--- |
-| Instancias de Campaña | `https://*.experiencecloud.adobe.com` (ID de inquilino * + dominio de cliente)<br>`https://*.campaign.adobe.com` (inquilino de instancia de Campaña) |
+| Instancias de campaña | `https://*.experiencecloud.adobe.com` (ID de inquilino * + dominio de cliente)<br>`https://*.campaign.adobe.com` (inquilino de instancia de Campaña) |
 | IMS | `https://adobeid-na1.services.adobe.com`<br>`https://*.adobelogin.com` |
 | Experience Cloud | `https://experiencecloud.adobe.com` |
 | Seguimiento | `https://*.adobedtm.com`<br>`https://*.demdex.net`<br>`https://*.omtrdc.net` |
-| Creative SDK para editor de imágenes | `https://dme0ih8comzn4.cloudfront.net`<br>`https://d42hh4005hpu.cloudfront.net/`<br>`https://cdn-creativesdk.adobe.io/`<br>`https://api-ag.aviary.com/`<br>`https://feather-client-files-aviary-prod-us-east-1.s3.amazonaws.com/` |
 | Integración de recursos | `https://*.marketing-assets.adobe.com` |
-| Servicios internos de Adobe | `https://*.adobe.io` |
+| Servicios de Adobe interno | `https://*.adobe.io` |
 | Encuestas | `https://adobe.allegiancetech.com` |
 | Dirección URL de marca predeterminada (antes de la configuración del cliente) | `https://*.adobe-campaign.com` |
