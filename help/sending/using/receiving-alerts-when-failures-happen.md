@@ -12,10 +12,10 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '2028'
-ht-degree: 2%
+source-wordcount: '2031'
+ht-degree: 3%
 
 ---
 
@@ -261,7 +261,7 @@ A continuación se indican algunos motivos posibles para recibir las notificacio
 
    Las posibles causas de una **[!UICONTROL Delivery with bad error ratio for hard bounces]** alerta pueden ser:
 
-   * El destinatario está incluida en la lista de bloqueados, lo que significa que ya no quieren que se les contacte.
+   * El destinatario se agrega a la  de lista de bloqueados, lo que significa que ya no desea que se contacte con ellos.
    * La dirección de correo electrónico del destinatario no existe.
    * El dominio del destinatario no existe.
    * El servidor del destinatario está bloqueando el envío.
@@ -274,7 +274,7 @@ A continuación se indican algunos motivos posibles para recibir las notificacio
 
 
 
-* **[!UICONTROL Deliveries with long start pending]**:: Generalmente esto significa que hay un problema en el nivel de MTA (Agente de transferencia de mensajes). El proceso de ejecución está esperando la disponibilidad de algunos recursos. Es posible que el MTA no se haya iniciado.
+* **[!UICONTROL Deliveries with long start pending]**:: Generalmente esto significa que hay un problema en el nivel de MTA (Agente de transferencia de mensajes). El proceso de ejecución está esperando a que estén disponibles algunos recursos. Es posible que el MTA no se haya iniciado.
 
    **[!UICONTROL Deliveries with low throughput]**:: Nuevamente, este es un problema de entrega, lo que significa que el MTA es demasiado lento.
 
