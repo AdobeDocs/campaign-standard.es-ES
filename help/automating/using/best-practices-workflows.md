@@ -12,10 +12,10 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+source-git-commit: c4373c444ed51e03c16be05363e9e4128a6f4a58
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 98%
+source-wordcount: '1069'
+ht-degree: 93%
 
 ---
 
@@ -73,12 +73,15 @@ Para obtener más información, consulte [Ejecución de flujos de trabajo](../..
 
 Las propiedades del flujo de trabajo le permiten definir un huso horario específico que se utilizará de forma predeterminada en todas sus actividades. De forma predeterminada, el uso horario del flujo de trabajo es la definida para el operador de Campaign actual.
 
-
 ## Actividad{#activity}
+
+### Número de actividades por flujo de trabajo {#number-activities}
+
+Se recomienda usar hasta 100 actividades en un único flujo de trabajo. Más de 100 actividades, es posible que encuentre algunos problemas de rendimiento al diseñar y configurar el flujo de trabajo.
 
 ### Diseño del flujo de trabajo
 
-Para asegurarse de que el flujo de trabajo termina correctamente, utilice una **[!UICONTROL End activity]**. Evite dejar la última transición de un flujo de trabajo por su cuenta.
+Para asegurarse de que el flujo de trabajo termina correctamente, evite dejar la última transición de un flujo de trabajo por su cuenta usando un **[!UICONTROL End activity]**.
 
 Para acceder a la vista de detalles de las transiciones, marque la opción **[!UICONTROL Keep interim results]** en la sección Ejecución de las propiedades del flujo de trabajo.
 
