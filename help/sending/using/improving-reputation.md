@@ -13,9 +13,9 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '458'
 ht-degree: 66%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 66%
 
 # Mejora de la reputación{#improving-reputation}
 
-Para evitar que los destinatarios se agoten, elimine del destinatario las direcciones de correo electrónico duplicadas. Este paso protege su reputación de envío y garantiza una buena gestión de cuarentena. Adobe Campaign oferta las herramientas necesarias para implementar estas recomendaciones y evitar el riesgo de ser incluida en la lista de bloqueados por los ISP.
+Para evitar que los destinatarios se agoten, elimine del destinatario las direcciones de correo electrónico duplicadas. Este paso protege su reputación de envío y garantiza una buena gestión de cuarentena. Adobe Campaign oferta las herramientas necesarias para implementar estas recomendaciones y evitar el riesgo de ser agregadas a la  de lista de bloqueados por los ISP.
 
 A continuación se encuentran detalles sobre la administración de duplicados y cuarentena.
 
