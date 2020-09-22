@@ -12,10 +12,10 @@ discoiquuid: aee81724-b425-47b4-af92-e55eff97836f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d7846c33f0bc3730fc63a8659c8afc1c868064e0
+source-git-commit: e4ba42c5bf0dd952690178b7d5070100c7ddf13d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '793'
+ht-degree: 4%
 
 ---
 
@@ -30,7 +30,7 @@ Controle todo el proceso de creación, ejecución y seguimiento de campañas ent
 
 <img width="60px" alt="condiciones" src="assets/icon_segment.svg"/>
 
-**Los perfiles** de cliente integrados de Campaña le permiten realizar un seguimiento de cada interacción con los clientes en todos los canales dentro de una sola vista, lo que le permite enviar mensajes relevantes y personalizados a sus clientes.
+**Los perfiles** de cliente integrados de campaña le permiten realizar un seguimiento de cada interacción con los clientes en todos los canales dentro de una sola vista, lo que le permite enviar mensajes relevantes y personalizados a sus clientes.
 
 **Segmente la base de datos en audiencias** para optimizar el destinatario de las campañas de mercadotecnia.
 
@@ -46,7 +46,7 @@ Controle todo el proceso de creación, ejecución y seguimiento de campañas ent
 
 Planificar, coordinar y orquestar campañas entre canales.
 
-**Optimice la organización** de sus planes de marketing creando programas y campañas. Analizar el impacto de las campañas de marketing a través de los informes. Orqueste sus campañas mediante varias actividades de marketing accesibles desde una sola interfaz y configure plantillas de actividades de marketing para ahorrar tiempo. [Introducción a Planes de marketing y actividades](../../start/using/programs-and-campaigns.md)
+**Optimice la organización** de sus planes de marketing creando programas y campañas. Analizar el impacto de las campañas de marketing a través de los informes. Orqueste sus campañas con varias actividades de marketing accesibles desde una sola interfaz y configure plantillas de actividades de marketing para ahorrar tiempo. [Introducción a Planes de marketing y actividades](../../start/using/programs-and-campaigns.md)
 
 **Aproveche los flujos de trabajo** para orquestar y automatizar sus campañas. [Introducción a los procesos y la gestión de datos](../../automating/using/get-started-workflows.md)
 
@@ -71,7 +71,7 @@ Una vez que se han ejecutado las campañas de marketing y se han enviado los dis
 **Monitoree los envíos** una vez que se envíen. Consulte y exporte registros detallados sobre sus envíos. Recupere información sobre su estado para cada destinatario, los mensajes excluidos del destinatario y muchas más métricas.
 Aproveche la función de alerta de envío para realizar un seguimiento de los éxitos o errores de envío mediante las notificaciones por correo electrónico. ¿Quieres saber más? [Introducción a la supervisión de mensajes](../../sending/using/monitoring-a-delivery.md)
 
-**Rastree el comportamiento de sus destinatarios** de envío. Aproveche las cookies permanentes y de sesión para recuperar la información de seguimiento de cada uno de los contactos de la base de datos. Monitoree la información de seguimiento de envíos (direcciones URL en las que se hizo clic, páginas de error, mensajes abiertos...) a través de registros e informes dedicados. [Introducción al seguimiento de mensajes](../../sending/using/tracking-messages.md)
+**Rastree el comportamiento de sus destinatarios** de envío. Aproveche las cookies permanentes y de sesión para recuperar la información de seguimiento de cada uno de los contactos de la base de datos. Monitoree la información de seguimiento de envíos (direcciones URL en las que se hizo clic, páginas espejo, mensajes abiertos...) a través de registros e informes dedicados. [Introducción al seguimiento de mensajes](../../sending/using/tracking-messages.md)
 
 **Aproveche los informes** dinámicos para delinear métricas específicas relacionadas con su mensaje o campaña. El sistema de informes dinámico proporciona informes totalmente personalizables y en tiempo real que agregan acceso a los datos de perfil, lo que permite la análisis demográfica por dimensiones de perfil como sexo, ciudad y edad, además de datos funcionales de campaña de correo electrónico como aperturas y clics. Con la interfaz de arrastrar y soltar, puede explorar datos, determinar el rendimiento de sus campañas de correo electrónico en relación con los segmentos de clientes más importantes y medir su impacto en los destinatarios. [Introducción a sistema de informes dinámico](../../reporting/using/about-dynamic-reports.md)
 
@@ -85,6 +85,6 @@ Aproveche la función de alerta de envío para realizar un seguimiento de los é
 
 **Administrar Campaña** desde una sola vista: supervisar la instancia, administrar los permisos de los usuarios. Configure servidores externos para conectarse a la instancia y parámetros para sus canales de comunicación. [Introducción a la administración de Campaign Standard](../../administration/using/get-started-campaign-administration.md)
 
-**Importe y exporte datos** fácilmente mediante las funciones de gestión de datos de Campaign Standard. [Introducción a los procesos y la gestión de datos](../../automating/using/get-started-workflows.md)
+**Importe y exporte datos** fácilmente mediante las funciones de gestión de datos de Campaign Standards. [Introducción a los procesos y la gestión de datos](../../automating/using/get-started-workflows.md)
 
-**Combine las capacidades de Campaña con otras soluciones** para ayudarle a crear campañas de mercadotecnia óptimas. [Introducción a las integraciones de Campaign Standard](../../integrating/using/get-started-campaign-integrations.md)
+**Combine las capacidades de Campaña con otras soluciones** para ayudarle a crear campañas de mercadotecnia óptimas. [Introducción a las integraciones de Campaign Standards](../../integrating/using/get-started-campaign-integrations.md)
