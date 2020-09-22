@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: c1147c4512b1485ae5d927a32970adcd41b540e7
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 2%
@@ -26,7 +26,7 @@ Campaign Standard oferta varias herramientas para ayudarle a ampliar su base de 
 
 ## Importación de datos mediante flujos de trabajo {#importing-data-through-workflows}
 
-Los Flujos de trabajo permiten recopilar datos e importarlos a la base de datos de Campañas mediante el uso de [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) actividades.
+Los flujos de trabajo permiten recopilar datos e importarlos a la base de datos de Campañas mediante el uso de [[!UICONTROL Data management]](../../automating/using/about-data-management-activities.md) actividades.
 
 En [esta sección](../../automating/using/about-data-import-and-export.md)se presenta información genérica y optimizaciones para importar datos mediante flujos de trabajo.
 
@@ -44,7 +44,7 @@ Puede configurar dos tipos de plantillas:
 
 ## Recopilación de datos de páginas de aterrizaje {#collecting-data-from-landing-pages}
 
-Las Páginas de aterrizaje son formularios web que se pueden utilizar para recopilar datos y crear o actualizar la información existente en la base de datos.
+Las páginas de aterrizaje son formularios web que se pueden utilizar para recopilar datos y crear o actualizar la información existente en la base de datos.
 
 El principio es el siguiente:
 
@@ -52,7 +52,7 @@ El principio es el siguiente:
 * Asigne cada campo de entrada con el campo correspondiente de la base de datos.
 * Haga que la página de aterrizaje esté disponible en línea a través de un sitio web o a través de un vínculo directo en un mensaje.
 
-Para obtener más información sobre páginas de aterrizaje, consulte la documentación [](../../channels/using/getting-started-with-landing-pages.md)dedicada.
+For more on landing pages, refer to the [dedicated documentation](../../channels/using/getting-started-with-landing-pages.md).
 
 ## Sincronización de perfiles de Microsoft Dynamics 365
 
@@ -71,6 +71,6 @@ Las API de Campaign Standard permiten realizar operaciones para actualizar la ba
 
 For more on how to use the APIs, refer to the [dedicated documentation](../../api/using/get-started-apis.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Antes de realizar la creación masiva de perfiles o la actualización mediante llamadas de API, compruebe las limitaciones de escala correspondientes a su contrato de licencia. Para obtener más información, consulte [esta página](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
