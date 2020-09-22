@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d5d9d50474142306457a8c76a24388c3c574791d
+source-git-commit: b80197491b45cff46273e1a41e3dfb7a939f96c5
 workflow-type: tm+mt
 source-wordcount: '400'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
@@ -53,7 +53,7 @@ Obtenga más información [en esta sección](../../sending/using/email-rendering
 
 El envío de pruebas le permite comprobar el vínculo de no participación, la página espejo y cualquier otro vínculo, validar el mensaje, comprobar que se muestran las imágenes, detectar posibles errores, etc. También es posible que desee comprobar el diseño y el procesamiento en distintos dispositivos.
 
-Learn more [[in this section](../../sending/using/sending-proofs.md).
+Obtenga más información [en esta sección](../../sending/using/sending-proofs.md).
 
 ## Configuración de envíos de pruebas A/B {#a-b-testing-deliveries}
 
