@@ -13,10 +13,10 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 9ba56ca09a1ae948b6d4b1945085f59db1ade973
 workflow-type: tm+mt
-source-wordcount: '1557'
-ht-degree: 96%
+source-wordcount: '1774'
+ht-degree: 85%
 
 ---
 
@@ -35,6 +35,7 @@ Puede configurar los siguientes tipos de cuentas externas:
 * Adobe Analytics. Para obtener más información, consulte [esta sección](../../integrating/using/configure-campaign-analytics-integration.md).
 * Google reCAPTCHA. Para obtener más información, consulte [esta sección](#google-recaptcha-external-account).
 * Almacenamiento de blob de Microsoft Azure. Para obtener más información, consulte [esta sección](#microsoft-azure-external-account).
+* OAuth 2.0. For more on this, refer to [this section](#oauth-account).
 
 >[!NOTE]
 >
@@ -94,6 +95,23 @@ Los servidores SFTP se pueden administrar desde el panel de control. Para obtene
 >
 >El panel de control solo está disponible para los usuarios administradores de clientes alojados en AWS.
 Compruebe si su instancia está alojada en AWS [aquí](https://docs.adobe.com/content/help/es-ES/control-panel/using/faq.html#ims-org-id).
+
+## Cuenta de OAuth 2.0 {#oauth-account}
+
+Para una cuenta externa de OAuth 2.0, proporcione los siguientes detalles:
+
+* Tipo **de** concesión: solo se admiten las credenciales **de cliente** .
+* Una URL **de API** segura: introduzca el extremo de autorización.
+* **Credenciales** sensibles a OAuth 2.0: Esta sección está pensada para las credenciales de naturaleza sensible. Los valores de credenciales se enmascararán en la pantalla después de agregarlos; en ese momento, no serán legibles ni editables. Si el extremo de autorización requiere que se inserte una credencial concreta en el encabezado de autorización HTTP en lugar del parámetro de cuerpo del POST, puede seleccionar la opción Incluir en el encabezado de esa credencial.
+* **Credenciales** no confidenciales de OAuth 2.0: Esta sección está pensada para las credenciales de naturaleza no sensible. Los valores de credenciales estarán visibles en la pantalla después de agregarlos; también serán editables.  Si el extremo de autorización requiere que se inserte una credencial concreta en el encabezado de autorización HTTP en lugar del parámetro de cuerpo del POST, puede seleccionar la opción Incluir en el encabezado de esa credencial.
+
+Cuando finalice la configuración, haga clic en el conector **** Prueba para comprobar que la cuenta externa está correctamente configurada.
+
+![](assets/external_accounts_OAuth.png)
+
+>[!NOTE]
+>
+>Las credenciales &quot;Content-Type: application/x-www-form-urlencoded&quot; y &quot;Grant_type=client_dentials&quot; se añadirán automáticamente a la llamada de API; por lo tanto, no es necesario agregarlos en la sección de credenciales.
 
 ## Cuenta externa de Amazon S3 {#amazon-s3-external-account}
 
