@@ -12,9 +12,9 @@ discoiquuid: 5f20ff3f-8242-4735-8c60-c57610edff52
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '214'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ En la sección **[!UICONTROL Adobe Campaign > Resources > Templates > Import tem
 
 Cuando la importación ha finalizado, Adobe Campaign realiza automáticamente las siguientes acciones:
 
-* Las direcciones incorrectas se incluida en la lista de bloqueados en el nivel de perfil
+* Se agregan direcciones incorrectas a lista de bloqueados a nivel de perfil
 * Se actualizan los indicadores principales de envío (KPI)
 * Se actualizan los registros de envío
 
