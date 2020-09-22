@@ -13,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e8f8755acdc0b778b74e2bfcd4dc898ceff82b90
+source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
 workflow-type: tm+mt
 source-wordcount: '2492'
 ht-degree: 93%
@@ -84,7 +84,7 @@ Para configurar la personalización en un mensaje transaccional, siga los pasos 
 
    ![](assets/message-center_9.png)
 
-   Puede comprobar que los campos de personalización coinciden con la información introducida en el perfil de prueba. Para obtener más información, consulte [Definición de un perfil de prueba en un mensaje transaccional](#defining-a-test-profile-in-a-transactional-message).
+   Puede comprobar que los campos de personalización coinciden con la información introducida en el perfil de prueba. Para obtener más información, consulte [Definición de un perfil de prueba en un mensaje transaccional](../../channels/using/event-transactional-messages.md#defining-specific-test-profile).
 
 ## Uso de listas de productos en un mensaje transaccional {#using-product-listings-in-a-transactional-message}
 
@@ -204,7 +204,7 @@ Para obtener más información sobre la creación de una recopilación y los cam
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
-   Para obtener más información sobre la definición de un perfil de prueba en un mensaje transaccional, consulte [esta sección](#defining-a-test-profile-in-a-transactional-message).
+   Para obtener más información sobre la definición de un perfil de prueba en un mensaje transaccional, consulte [esta sección](../../channels/using/event-transactional-messages.md#defining-specific-test-profile).
 
 ## Prueba de un mensaje transaccional {#testing-a-transactional-message}
 
