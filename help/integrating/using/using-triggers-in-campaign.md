@@ -12,10 +12,10 @@ discoiquuid: a524c700-bad6-4fcf-857a-c31bfae4d30c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: dddd147d01f935ec6f1513c5f92bddf6e789abb1
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 98%
+source-wordcount: '725'
+ht-degree: 86%
 
 ---
 
@@ -50,14 +50,31 @@ Los pasos para ponerlo en práctica son:
 
    ![](assets/remarketing_4.png)
 
-1. Haga clic en el botón **[!UICONTROL Publish]** para ejecutar la publicación del evento de activación.
+1. Ahora puede publicar sus activadores. Para obtener más información sobre esto, consulte [Publicación de un activador en Campaña](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign).
+
+## Publicación de un activador en la Campaña {#publishing-trigger-in-campaign}
+
+Después de crear un evento desencadenador en Adobe Campaign basado en un activador de Adobe Experience Cloud existente, ahora debe publicarlo.
+
+1. Desde el activador creado anteriormente, haga clic en el **[!UICONTROL Publish]** botón para inicio de publicar el evento desencadenador.
+
+   ![](assets/trigger_publish_1.png)
+
+1. Puede comprobar el progreso de la publicación desencadenadora en **[!UICONTROL Publication]**.
+
+   ![](assets/trigger_publish_2.png)
+
+1. Al finalizar la publicación, aparecerá el siguiente mensaje en **[!UICONTROL Publication]**.
+
+   ![](assets/trigger_publish_3.png)
+
 1. Si necesita realizar un cambio en el esquema de activación incluso después de publicar el evento, haga clic en el botón **[!UICONTROL Update schema]** para recuperar los cambios más recientes.
 
    Tenga en cuenta que esta acción cancela la publicación del activador y del mensaje transaccional, y que se le solicitará que vuelva a publicarlos posteriormente.
 
-   ![](assets/remarketing_11.png)
+   ![](assets/trigger_publish_4.png)
 
-El botón **[!UICONTROL Show Trigger in Experience Cloud]** le permite ver la definición del activador en Adobe Experience Cloud.
+1. Click **[!UICONTROL Show Trigger in Experience Cloud]** button allows you to view the trigger definition in Adobe Experience Cloud.
 
 Una vez publicado el evento, se crea automáticamente una plantilla transaccional vinculada al nuevo evento. Después debe modificar y publicar la plantilla que acaba de crear. Para obtener más información, consulte la sección [Modificación de la plantilla](../../start/using/marketing-activity-templates.md).
 
