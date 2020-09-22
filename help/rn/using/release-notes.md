@@ -1,9 +1,9 @@
 ---
 title: Última versión
-description: Esta página muestra todas las versiones recientes de Adobe Campaign Standard.
+description: Esta página detalla el contenido de la última versión del Campaign Standard
 page-status-flag: never-activated
 uuid: 1cf2e40c-beca-43db-8261-a1820ee86ad3
-contentOwner: sauviat
+contentOwner: vignes
 products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
@@ -12,10 +12,10 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f45985c030c3d5059bfef444287c10b842298f49
+source-git-commit: 893cd3a07063f8349dfeeae0f3274a6f54bf04f7
 workflow-type: tm+mt
-source-wordcount: '1160'
-ht-degree: 90%
+source-wordcount: '2441'
+ht-degree: 4%
 
 ---
 
@@ -24,27 +24,22 @@ ht-degree: 90%
 
 [Planificación de versiones](../../rn/using/release-planning.md) | [Versiones del Panel de control](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html) | [Actualizaciones de documentación](../../rn/using/documentation-updates.md) | [Notas de la versión anteriores](../../rn/using/release-notes-2020.md) | [Funciones obsoletas](../../rn/using/deprecated-features.md)
 
-![](assets/do-not-localize/cp-icon.png) **Nuevo lanzamiento del Panel de control de Campaign en junio** con monitorización de perfiles activos, auditoría de entregas de subdominios y administración de claves GPG. [Más información](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html).
-
-## Versión 20.3: mayo de 2020 {#release-20-3---may-2020}
+## Versión 20.4: octubre de 2020 {#release-20-4---october-2020}
 
 **Novedades**
 
 <table> 
 <thead> 
 <tr> 
-<th> <strong>Ley de Protección de Datos Personales de Tailandia (PDPA)</strong><br /> </th> 
+<th> <strong>grupos de control</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>La Ley de Protección de Datos Personales de Tailandia (PDPA, por sus siglas en inglés) es la nueva ley de privacidad que armoniza y actualiza los requisitos de protección de datos para Tailandia. Esta ley se aplica a los clientes de Adobe Campaign que mantienen datos de sujetos de datos que residen en la UE.</p>
-<p>Además de las funciones de privacidad ya disponibles en Adobe Campaign (incluida la administración de consentimientos, la configuración de retención de datos y los roles de usuario), aprovechamos esta oportunidad para incluir funciones adicionales que le ayudarán a prepararse para la PDPA:</p>
-<ul>
-<li>Derecho al acceso y derecho a la eliminación: aprovechamos las funciones añadidas para el RGPD y la CCPA. <a href="https://helpx.adobe.com/content/help/es/campaign/kb/acs-privacy.html#righttoaccess">Más información</a> </li>
-<li><p>Al crear una solicitud de privacidad, se ha agregado el tipo de regulación PDPA en el servicio principal de privacidad. Este método es el que debe utilizar para todas las solicitudes de acceso y eliminación. El uso de la API y la interfaz de Campaign para las solicitudes de acceso y eliminación quedará obsoleto.  Consulte el artículo <a href="../../rn/using/deprecated-features.md">Funciones obsoletas y eliminadas</a>.</p></li>
-</ul>
-<p>Consulte el vídeo de <a href="https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/privacy/privacy-overview.translate.html">procedimiento</a>.</p>
+  <td> <p>Ahora puede utilizar <strong>Grupos de control</strong> para medir el impacto de sus campañas excluyendo una parte de su audiencia. A continuación, podrá comparar el comportamiento de la población de destinatarios que recibió el mensaje con el comportamiento de los contactos que no estaban segmentados. En función de los registros de envío, también puede realizar el destinatario de un grupo de control en campañas futuras.
+</p>
+<p>For more information refer to the <a href="../../sending/using/control-group.md">detailed documentation</a> and <a href="https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html">how-to video</a>.
+</p>
 </td> 
 </tr> 
 </tbody> 
@@ -53,79 +48,144 @@ ht-degree: 90%
 <table> 
 <thead> 
 <tr> 
-<th> <strong>Actividad de API externa (GA)</strong><br /> </th> 
+<th> <strong>API externa: compatibilidad con OAuth</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>La actividad de <strong>API externa</strong> está pasando de beta a GA. Esta versión ofrece más flexibilidad al analizador de cuerpos de respuesta JSON. Ahora puede hacer lo siguiente:</p>
-<ul>
-<li>Analizar un JSON anidado con una profundidad máxima de 10 niveles. </li>
-<li>Analizar las propiedades seleccionadas como nodos de hoja de un JSON y acoplarlas en una sola fila de tabla.</li>
-<li>Seleccionar y utilizar un objeto de matriz de un JSON sin tener que nombrar al objeto "data" ni tenerlo en el nivel superior.</li>
-</ul>
-<p><strong>Precaución:</strong> Los clientes deberán <strong>reemplazar todas las actividades de API externas beta</strong> con actividades de API externas de GA en sus flujos de trabajo.  Los flujos de trabajo que utilizan la versión beta de la API externa dejarán de funcionar en la versión 20.3.</p>
-<p>Para obtener más información, consulte la <a href="../../automating/using/external-api.md">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/managing-processes-and-data/data-management-activities/external-api-activity.translate.html">videotutorial</a>.</p>
+  <td> <p>Adobe Campaign ahora admite OAuth para la autenticación en la actividad de flujo de trabajo de API <strong></strong> externa. Esta nueva capacidad permite que esta actividad se comunique con sistemas que requieren soporte para OAuth.
+</p>
+<p>For more information refer to the <a href="../../automating/using/external-api.md">detailed documentation</a>.
+</p>
 </td> 
 </tr> 
 </tbody> 
 </table>
 
-**Funciones** adicionales (a partir del 13 de julio)
-
-* **Optimización de tiempo de envío con tecnología AI y puntuación** de perfiles: ahora puede optimizar el diseño y el envío de los viajes de los clientes para predecir las preferencias de participación de cada individuo. Con la tecnología de Journey AI, Adobe Campaign puede analizar y predecir las tasas abiertas, los tiempos de envío óptimos y la probable reproducción basada en métricas de participación históricas. [Más información](../../sending/using/predictive.md)
-* **La nueva regulación** de privacidad de Brasil - Además de las capacidades de privacidad ya disponibles en Campaña, Adobe le ayuda a facilitar su preparación para el Lei Geral de Proteçao de Datos (LGPD) de Brasil. Al crear una solicitud de privacidad, se ha agregado la normativa LGPD al servicio principal de privacidad de Adobe. [Más información](https://helpx.adobe.com/es/campaign/kb/campaign-privacy-overview.html)
+<table> 
+<thead> 
+<tr> 
+<th> <strong>Integración de AI en Journey</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+  <td> <p>Nos complace anunciar Journey AI para todos los clientes de Adobe Campaign Standard.</p>
+  <p>Journey AI utiliza aprendizaje automático avanzado (ML) para permitir compañías que optimizan el diseño y el envío de los viajes de los clientes, mediante la predicción de las preferencias de participación de cada individuo.</p>
+  <P>Journey AI consta de dos características de ML:</p>
+<ul> 
+     <li> <strong>Puntuación</strong> de participación predictiva: identifica de forma inteligente el nivel de compromiso preferido de los clientes para mejorar el destinatario y personalizar los mensajes a fin de aumentar las conversiones y la retención. Vea el <a href="https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">vídeo</a>explicativo.</li> 
+     <li> <strong>Optimización</strong> del tiempo de envío predictiva: Predice el mejor momento para enviar correos electrónicos a cada individuo en una campaña a fin de maximizar las tasas de participación y mejorar el ROI de la campaña de correo electrónico. Vea el <a href="https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html">vídeo</a>explicativo.</li>
+    </ul>
+  <p>Si desea obtener información sobre cómo empezar a utilizar Journey AI, consulte la documentación <a href="../../sending/using/predictive.md"></a> detallada y póngase en contacto con su ejecutivo de cuentas. Tenga en cuenta que mientras que Journey AI está disponible de forma gratuita para los clientes de Campaña existentes, existe un costo de implementación de aproximadamente 50 horas.</p>
+    </td> 
+</tr> 
+</tbody> 
+</table>
 
 **Mejoras**
 
-* El número de caracteres que se puede utilizar en el campo **Prefijo** para [probar mensajes con perfiles de destino](../../sending/using/testing-messages-using-target.md) se ha aumentado de 32 a 500 caracteres.
-* La cantidad máxima de eventos en tiempo real que se puede publicar en una instancia ha aumentado de 350 a 2000. (CAMP-41608)
-* La sincronización entre Adobe Launch y Campaign Standard se ha mejorado mediante el flujo de trabajo técnico syncWithLaunch. Este flujo de trabajo permite la importación automática de todas las propiedades móviles de Adobe Launch a Adobe Campaign Standard. Para obtener más información, consulte [esta página](../../administration/using/technical-workflows.md).
-
-   Deberá enviar un ticket al Servicio de atención al cliente de Adobe (directamente o a través de su contacto de Adobe) para que el flujo de trabajo técnico de syncWithLaunch esté habilitado en la instancia de Campaign. (CAMP-40082)
+* **Administración** de privacidad: el campo de exclusión **de** CCPA, que estaba disponible a través de la interfaz de Campaña y la API, ahora también se admite a través de Privacy Core Service. Este campo permite a los usuarios de Adobe Campaign rastrear si un consumidor ha optado por la venta de información personal. [Más información](https://helpx.adobe.com/es/content/help/en/campaign/kb/acs-privacy.html#ccpa)
+* **Mejoras** en la ejecución del flujo de trabajo (beta): en el contexto de una iniciativa mundial en torno a los flujos de trabajo, se han desarrollado algunas mejoras importantes para estabilizar la gestión de la memoria, reducir la latencia y optimizar la memoria consumida por los flujos de trabajo durante la ejecución. Estas mejoras están actualmente en fase beta y solo están disponibles para un conjunto de clientes. Está previsto que a principios de 2021 se disponga de datos generales.
+* Para mejorar la seguridad, Campaña ahora utiliza un mecanismo **de** firma para rastrear vínculos en correos electrónicos.
+* La configuración de la aplicación móvil se ha mejorado con mensajes **de error** más claros al cargar certificados de iOS o claves de Android.
+* Ahora hay disponible una **nueva asignación** de envíos (mapRtEventAppSubRcp) para los mensajes push transaccionales dirigidos a perfiles. El envío, la exclusión y los registros de seguimiento de estos envíos estarán ahora disponibles en las tablas wideLogAppSubRcp, excludeLogAppSubRcp y trackingLogAppSubRcp. Esto soluciona un problema que ocasionaba que fallara la análisis de envíos al enviar un mensaje push transaccional usando la dimensión de destinatario de **Perfil** .
+* **Se ha mejorado la administración** de errores de SMS para evitar que se agreguen demasiados perfiles a la lista de cuarentena. De forma predeterminada, los errores de SMS ahora se configuran como errores suaves en lugar de errores duros. Consulte [esta página](https://helpx.adobe.com/es/campaign/kb/sms-connector-protocol-and-settings.html).
 
 **Mejoras en el diseñador de correo electrónico**
 
-* El diseñador de correo electrónico ahora puede gestionar un formato HTML más flexible que W3C estricto. (CAMP-42529)
-* Se ha corregido un problema con las [imágenes en las que se puede hacer clic](../../designing/using/links.md#inserting-a-link) para evitar que se muestren vínculos junto a la imagen en bloques de contenido. (CAMP-41586)
-* Se ha corregido un problema que impedía la redirección a una página de aterrizaje cuando la dirección [URL rastreada](../../designing/using/links.md#about-tracked-urls) tenía una categoría añadida en la plantilla. (CAMP-41537)
-* Se ha corregido un problema con el relleno de botones en Outlook.
-* Se ha corregido un problema que provocaba que las etiquetas HTML aparecieran en texto sin formato.
-* La búsqueda de bloques de contenido ahora muestra resultados de búsqueda del servidor, así como resultados precargados. (CAMP-41870)
+* Hemos mejorado la experiencia del usuario en el Diseñador de correo electrónico con la **nueva ayuda** contextual dinámica que conecta completamente la interfaz del usuario y la documentación, lo que facilita el acceso al contenido de ayuda más reciente.
+* Se ha corregido un problema que eliminaba saltos de línea en un mensaje al editar su versión de texto. (CAMP-44483)
+* Se ha corregido un problema que impedía que la versión de texto sin formato de una plantilla HTML se generara y sincronizara automáticamente. (CAMP-44195)
+* Se ha corregido un problema que se podía producir al cambiar el tamaño de las imágenes. Una vez enviados los mensajes, las imágenes no se mostraban correctamente en Microsoft Outlook. (CAMP-44656)
+* Se ha corregido un problema que se producía al insertar un botón y establecer su anchura en &quot;auto&quot;. Una vez enviado el mensaje, el contenido del botón no se mostraba completamente. (CAMP-44560)
+* Se ha corregido un problema que se producía al cargar contenido desde un archivo HTML adjunto. Una vez que el mensaje se envió a una dirección de Gmail, el CSS no se aplicó, lo que provocó un problema de procesamiento. (CAMP-44085)
+* Se ha corregido un problema que impedía que los fragmentos de contenido utilizados anteriormente en un mensaje se actualizaran cuando se modificaban directamente en la plantilla de contenido. (CAMP-43973)
+* Se ha corregido un problema con la barra de búsqueda **Fragments** . Al buscar un fragmento existente, la barra de búsqueda no mostraba ningún resultado. (CAMP-44223)
+* Se ha corregido un problema con las barras de búsqueda Bloques **de** contenido y **Fragmentos** . Al utilizar una de las barras de búsqueda, los resultados solo se mostraban si hacía clic en **Mostrar más resultados...**. (CAMP-44205)
+* Se ha corregido un problema que impedía que el relleno entre texto e imágenes se aplicara en Microsoft Outlook. (CAMP-45370)
+* Se corrigió un problema al duplicar un fragmento. Después de duplicar el fragmento, faltaban líneas HTML en el fragmento original. (CAMP-45207)
+* Se corrigió un error que causaba problemas de procesamiento en Microsoft Outlook. (CAMP-44749)
+* Se corrigió un error que se producía al modificar el relleno del componente **de** estructura en una Plantilla de envíos. Las etiquetas CSS no transfirieron los cambios realizados en el relleno que ocasionaban un problema de procesamiento. (CAMP-45381)
+* Se ha corregido un problema al cargar una imagen. La altura de la imagen se estableció automáticamente en 0, lo que provocó un problema de procesamiento. (CAMP-45366)
 
 **Otros cambios**
 
-* La interfaz de publicación de recursos personalizada se ha mejorado con mensajes de error más claros.
-* Las asignaciones de envío no utilizadas se han eliminado de la interfaz.
-* Se han eliminado funciones de administrador innecesarias de la interfaz.
-* Ahora las casillas de verificación pueden ser obligatorias en una página de aterrizaje.
-* Al descargar el archivo CSV de un informe dinámico, se ha eliminado el límite de 200 filas. Ahora puede incluir cada fila del informe. (CAMP-40810)
-* Se ha añadido el lenguaje ES-US a la lista de idiomas predeterminados para correos electrónicos multilingües. (CAMP-42279)
-* Los archivos descargados con una actividad Transferir archivo ahora se eliminarán después de X días, donde X se determina con el campo **Historial en días** en el menú **Ejecución** de las propiedades Flujo de trabajo. [Más información](../../automating/using/managing-execution-options.md)
-
-**Integraciones de Experience Platform**
-
-* Se ha mejorado la activación de audiencias de [Experience Platform](../../automating/using/aep-targeting-audiences.md) de Adobe desde la actividad **Leer audiencia** para proporcionar un mejor rendimiento y estabilidad. Además, los registros de flujo de trabajo se han simplificado para añadir claridad y detallado con respecto a los trabajos de activación, lo que facilita la monitorización y la resolución de problemas al leer audiencias de Adobe Experience Platform.
+* Se han agregado mecanismos de reintento en caso de error al intentar importar una audiencia de Experience Platform mediante una actividad de audiencia **de** lectura. (CAMP-43947, CAMP-43366)
+* Las unidades organizativas ahora se configuran automáticamente para que coincidan con la unidad organizativa del usuario que crea el perfil o la entidad. Las unidades organizativas ya no se pueden eliminar y dejar vacías.
+* Al publicar un recurso personalizado, ahora se muestra una ventana emergente de confirmación después de la preparación.
+* El mensaje emergente que aparece cuando falla un recurso personalizado se ha mejorado para una mejor claridad.
+* Se ha mejorado el editor de expresiones en flujos de trabajo para evitar errores de ejecución. [Hay nuevas funciones](../../automating/using/customizing-workflow-external-parameters.md) disponibles: se pueden utilizar en todas las actividades que permiten utilizar variables de evento después de llamar a un flujo de trabajo con parámetros externos. Además, ahora se muestra una información de objeto en el editor de expresiones con la descripción de la función.
+* Se han agregado nuevos filtros a la lista de eventos transaccionales. Permiten filtrar las configuraciones de evento según su estado, así como la última vez que se recibió un evento.
+* Los registros que se muestran al exportar paquetes se han hecho más específicos y detallados sobre los errores encontrados en caso de error.
+* Después de enviar un mensaje, ahora puede buscar, filtrar y exportar la lista de direcciones URL [rastreadas](../../sending/using/tracking-messages.md).
+* La [sincronización automática entre Launch y Campaña](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) ahora es GA y está activada de forma predeterminada.
+* Los mensajes transaccionales se pueden enviar con una alta prioridad, incluso en caso de que se produzca una carga de trabajo de envío masiva significativa.
+* El tamaño de los paquetes de exportación de flujo de trabajo se ha optimizado eliminando la exportación de prueba de envío.
+* Se ha agregado un nuevo mensaje para mostrar el tamaño del archivo descargado en la actividad de transferencia **de** archivos.
+* Se han mejorado los mensajes de error para tokens de sesión no válidos.
+* Un nuevo mecanismo ahora evita que el seguimiento de eventos se agregue a los registros de seguimiento y sistemas de informes.
+* Se ha agregado un nuevo mensaje de advertencia para ayudar a depurar actividades de gestión de datos conectadas a una actividad de envío.
+* Se han mejorado las etiquetas del espacio de trabajo de sistema de informes.
+* Se ha añadido un nuevo paso de validación para evitar la eliminación de objetos técnicos en mensajes transaccionales.
+* Se ha agregado un nuevo filtro sobre el estado de envío en la ficha lista **de** ejecución de un mensaje transaccional para mejorar la resolución de problemas.
+* Para mejorar el rendimiento y optimizar el tiempo de ejecución, se han eliminado los índices no utilizados, según las estadísticas de uso de las tablas identificadas en análisis preliminar para más de 350 clientes. Las tablas afectadas son: nmsaddressStatus, nmscampaign, nmsdelivery, nmslandingpage, nmsprogram, nmsreceived, nmsseedmiembro, nmsservice, nmssubhistory cp, nmsaudience, xtkworkflow
 
 **Parches**
 
-* Se ha corregido un error que hacía que se creara un recurso fantasma durante el trabajo de publicación de un recurso personalizado.
-* Se ha corregido un problema que podía impedir que se mostrara el Historial de marketing de los perfiles si el recurso Perfil se ampliaba con un recurso personalizado. (CAMP-41009)
-* Se ha corregido un problema con las plantillas de la página de aterrizaje integradas que mostraban su contenido en francés al abrir el editor. (CAMP-41639)
-* Se ha corregido un problema en las notificaciones push con contenido dinámico que podía impedir que se mostraran emojis. (CAMP-40715)
-* Se ha corregido un problema con la actividad **Deduplicación** que podía hacer que se asignara un código de segmento incorrecto a una de las transiciones de complemento salientes. (CAMP-41400)
-* Se ha corregido un error que impedía que se eliminaran informes programados. (CAMP-41302)
-* Se ha corregido un problema que provocaba discrepancias entre el panel de envíos y el informe **Resumen de envíos**. (CAMP-41145)
-* Se ha corregido un problema que provocaba un problema de visualización de superposición de caracteres en informes descargados.
-* Se ha corregido un problema que impedía que la previsualización de un envío funcionara para la sustitución de pruebas.
-* Se ha corregido un error al eliminar campos personalizados de una notificación local en la aplicación.
-* Se ha corregido un problema que impedía que la función charIndex funcionara con una actividad **Fin** o **Transferir archivo** en un flujo de trabajo.
-* Se ha corregido un problema con flujos de trabajo que se podía producir al usar una actividad de **Enriquecimiento** con dos actividades de entrada, incluidos los recursos de destinatario que tenían un vínculo entre ellos. (CAMP-42133)
-* Se ha corregido un problema que podía impedir que se ejecutara un flujo de trabajo al usar funciones desconocidas. (CAMP-41873)
-* Se ha corregido un problema con flujos de trabajo que se podía producir al crear audiencias con varias actividades **Guardar audiencia** con transiciones salientes complementarias. (CAMP-39992)
-* Se ha corregido un problema que provocaba discrepancias en los datos al utilizar la personalización en correos electrónicos transaccionales. (CAMP-41842)
-* Se han corregido problemas que se producían al eliminar campos personalizados en envíos de notificaciones push. (CAMP-37586)
-* Se ha corregido un error que impedía a los usuarios realizar cambios en los informes. (CAMP-42505)
+* Se ha corregido un problema que impedía usar un vínculo de destino para notificaciones push o mensajería en la aplicación cuando el seguimiento estaba habilitado.
+* Se ha corregido un problema que podía impedir que asignara marcas a un correo electrónico transaccional. Durante el paso de publicación se pueden mostrar varios mensajes de error. (CAMP-44988)
+* Se ha corregido un problema en la interfaz de usuario del flujo de trabajo que impedía guardar información en campos que solicitaban valores numéricos. (CAMP-44025)
+* Se ha corregido un problema que podía mostrar un mensaje de error al usar una actividad de **prueba** en un flujo de trabajo de plantilla de importación. (CAMP-42910)
+* Se ha corregido un problema que se producía al usar una actividad de audiencia **de** lectura que contenía un campo de tipo de lista desglosada y se conectaba a actividades de **Unión** o **Enriquecimiento** . (CAMP-42795)
+* Se corrigió un problema en los informes dinámicos al usar los segmentos predeterminados para filtrar datos en los informes. (CAMP-42627)
+* Se ha corregido un problema que impedía establecer una actividad de **Planificador** en 12 AM. (CAMP-42674)
+* Se ha corregido un problema que podía interrumpir el envío de mensajes SMS cuando la conexión SMPP era inestable. (CAMP-42789)
+* Se ha corregido un problema que impedía que se mostrara el botón **Detener preparación** después de actualizar la página. (CAMP-42721)
+* Se ha corregido un problema que impedía que se mostraran los porcentajes de los informes de clics interactivos al importar contenido desde una dirección URL. (CAMP-44468)
+* Se ha corregido un problema que podía mostrar un error de tiempo de espera al seleccionar un perfil para utilizarlo en el contexto de la sustitución de perfiles. (CAMP-44746)
+* Se ha corregido un problema que podía impedir que las instancias funcionaran después de implementar recursos personalizados que contenían definiciones de vínculos incorrectas. (CAMP-44406)
+* Se ha corregido un problema que creaba entidades vinculadas vacías (tipologías, marcas, etc.) después de copiar y pegar un envío en una plantilla de campaña. (CAMP-44765)
+* Se ha corregido un problema que impedía que se enviaran pruebas debido a un manejo incorrecto de las tablas de preparación de envíos en caso de que se bloqueara la base de datos o se reiniciara la base de datos en Azure.
+* Se ha corregido un problema que podía impedir la eliminación de vínculos con contenido Experience Manager en un envío configurado con contenido multilingüe. (CAMP-44029)
+* Se ha corregido un problema en los informes dinámicos que podía mostrar un mensaje de error al intentar filtrar dimensiones.  (CAMP-43097)
+* Se ha corregido un problema que podía mostrar una pantalla en blanco al intentar acceder a perfiles en una instancia configurada con recursos personalizados que contenía definiciones de vínculos específicas. (CAMP-41009)
+* Se ha corregido un problema en flujos de trabajo que se podía producir al usar una actividad de **Enriquecimiento** con dos actividades de entrada con ambos recursos de destinatario vinculados entre sí. (CAMP-42133)
+* Se ha corregido un problema que provocaba que los flujos de trabajo de importación se reprodujeran al usar una actividad de transferencia **de** archivos. (CAMP-43754)
+* Se ha corregido un problema que provocaba que no se tuvieran en cuenta los duplicados al crear un perfil con registros exportados. (CAMP-45031)
+* Se ha corregido un problema que provocaba discrepancias de datos entre los informes de Adobe Campaign y los informes exportados en archivos PDF. (CAMP-43010)
+* Se corrigió un error que ocasionaba que fallara el flujo de trabajo del envío de correo directo al usar campos de datos existentes en funciones. (CAMP-42737)
+* Se ha corregido un problema al importar paquetes, incluidos eventos transaccionales y plantillas de mensajes. El proceso de importación se detuvo al 5 %. (CAMP-42544)
+* Se ha corregido un problema que provocaba un error (TypeError no capturado) tras modificar la actividad de **Enriquecimiento** y agregar datos adicionales en un flujo de trabajo. (CAMP-41877)
+* Se ha corregido un error que impedía la eliminación del flujo de trabajo. Los registros tuvieron que purgarse para eliminar el flujo de trabajo. (CAMP-44144)
+* Se corrigió un error al crear una página de aterrizaje con código HTML. Las casillas de verificación obligatorias no se reconocían en la Campaña y no estaban disponibles en la página de aterrizaje publicada. (CAMP-44181)
+* Se ha corregido un problema que provocaba que los flujos de trabajo se reprodujeran al usar la actividad **Esperar** . (CAMP-43981)
+* Se ha corregido un problema al enviar mensajes transaccionales que hacía que varias direcciones de correo electrónico se dirigieran varias veces en un mismo envío. (CAMP-44202)
+* Se corrigió un error al usar la sustitución de perfiles con la personalización targetData. (CAMP-44996)
+* Se corrigió un problema que ocasionaba que la previsualización de envío fallara al exportar una Plantilla de envíos en un paquete. (CAMP-44084)
+* Se ha corregido un problema que impedía que se enviaran pruebas a perfiles de prueba al usar asignaciones de destino personalizadas. (CAMP-43701)
+* Se ha corregido un error que se producía en flujos de trabajo al usar la actividad **Leer Audiencia** y establecer como objetivo una audiencia configurada con una dimensión de segmentación distinta de **Perfil**.  (CAMP-41885)
+* Se ha corregido un problema que provocaba errores cuando el flujo de trabajo técnico **updateEventsStatus** tardaba demasiado en recuperar el historial de eventos (cuando se detuvo el flujo de trabajo). El campo acumulado &quot;sumQueueTime&quot; no utilizado se ha eliminado del flujo de trabajo para resolver el problema. (CAMP-43920)
+* Se ha corregido un problema de memoria al implementar recursos personalizados. (CAMP-42909)
+* Se corrigió un problema en los mensajes transaccionales cuando faltaban atributos en las colecciones. Ahora todos los atributos que faltan se definen con un valor predeterminado e incluyen en la carga útil. (CAMP-42882)
+* Se ha corregido un problema que podía afectar al rendimiento al consultar registros de envío de evento en tiempo real. (CAMP-42759)
+* Se ha corregido un error que se producía al usar extensiones de archivo en mayúsculas con recursos compartidos. (CAMP-44159)
+* Se ha corregido un problema que mostraba un mensaje de error al probar la conexión con una cuenta externa antes de crearla. El botón **Probar conexión** ahora solo se muestra una vez creada la cuenta externa.
+* Se corrigió un problema que dejaba los mensajes como pendientes después de reiniciar el MTA mejorado en instancias configuradas con el uso compartido.
+* Se ha corregido un problema que podía hacer que el recuento de perfiles activos no coincidiera con el número efectivo de envíos enviados.
+* Se ha corregido un problema que podía provocar latencia al buscar recursos en el editor de consultas de un flujo de trabajo.
+* Se corrigió un problema al seleccionar **Especificar los campos que se deben tener en cuenta en la opción de búsqueda** de texto en un recurso personalizado. Si la lista del campo se ha dejado vacía, se produce un error en la publicación del recurso personalizado.
+* Se ha corregido un problema de rendimiento al mostrar la información general de los recursos personalizados con un gran volumen de datos.
+* Se ha corregido un problema que impedía importar un envío mediante sustituciones de perfil.
+* Se ha corregido un problema al usar la sustitución de perfiles que impedía que las pruebas se enviaran inmediatamente si el envío estaba programado.
+* Se ha corregido un problema que se producía al cargar una clave de Android para una aplicación móvil. El mensaje que se mostraba después de cargar correctamente la clave mostraba el valor de la clave anterior.
+* Se ha corregido un problema que impedía crear perfiles de prueba a partir de mensajes transaccionales después de crear una configuración de evento con una colección que no contenía ningún atributo.
+* Se ha corregido un problema que podía impedir la publicación de recursos personalizados después de crear un nuevo filtro con un acumulado.
+* Se ha corregido un problema que provocaba una tasa de apertura de seguimiento incorrecta para los destinatarios de Gmail debido al proxy de imagen de Gmail.
+* Se ha corregido un problema que provocaba errores de Memoria insuficiente al importar un paquete.
+* Se corrigió un problema que ocasionaba que la acción de desvinculación del Experience Manager fallara cuando el contenido del Experience Manager incluía una ruta con el carácter &quot;%20&quot;.
+* Se corrigió un error en las etiquetas al duplicar actividades de flujo de trabajo.
+* Se ha corregido un problema con el selector de mensajes transaccionales en una página de aterrizaje cuando se seleccionaba la opción de mensaje **de envío de** Inicio.
+* Se ha corregido un problema con mensajes transaccionales o envíos recurrentes que impedía que el estado del envío se inicializara con el valor predeterminado correcto. También se han mejorado los registros de errores.
+* Se ha corregido un problema al ampliar la **Suscripción a un esquema de aplicación** (appSubscriptionRcp) con un vínculo de perfil mediante un campo personalizado. El índice no se creó automáticamente, lo que podría afectar al tiempo de envío push. (CAMP-41120)
 
-
-![](assets/do-not-localize/cp-icon.png) **El nuevo Panel de control de Campaign puede lanzarse** con la renovación de certificados para subdominios CNAME. [Más información](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html).
