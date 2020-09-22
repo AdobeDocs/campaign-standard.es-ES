@@ -1,6 +1,6 @@
 ---
 title: Definición de texto dinámico
-description: Obtenga información sobre cómo mostrar distintos textos de forma dinámica al usuario según las condiciones definidas en Adobe Campaign.
+description: Descubra cómo mostrar distintos textos de forma dinámica al usuario según las condiciones definidas en Adobe Campaign.
 page-status-flag: never-activated
 uuid: bbcd200c-4fb4-467b-ba39-09b8bee9bcaa
 contentOwner: sauviat
@@ -12,7 +12,10 @@ discoiquuid: 6bb6cee3-5674-4113-8073-5a9572b3e830
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5ed46987a3778dfa100639de8be9b6d5ac5348b4
+source-git-commit: 564613ecc2879be87d1f85f9f15e675697690139
+workflow-type: tm+mt
+source-wordcount: '213'
+ht-degree: 3%
 
 ---
 
@@ -23,11 +26,15 @@ El texto dinámico se define del mismo modo que el contenido dinámico. Consulte
 
 >[!NOTE]
 >
->Para SMS y push, solo puede definir texto dinámico. Puede definir tanto el contenido dinámico como el texto en una página de aterrizaje. Si desea definir texto dinámico con el Diseñador [de](../../designing/using/designing-content-in-adobe-campaign.md)correo electrónico, consulte [Definición de contenido dinámico en un mensaje de correo electrónico](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+>Para SMS y push, solo puede definir texto dinámico. Puede definir contenido dinámico y texto en una página de aterrizaje. Si desea definir texto dinámico con el Diseñador [de](../../designing/using/designing-content-in-adobe-campaign.md)correo electrónico, consulte [Definición de contenido dinámico en un mensaje de correo electrónico](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+
+Tenga en cuenta que los pares sustitutos, los caracteres no incluidos en el plano multilingüe básico del conjunto de caracteres Unicode, no se pueden almacenar en 2 bytes (16 bits) y deben codificarse en 2 caracteres UTF-16. Estos caracteres incluyen algunos ideogramas CJK, la mayoría de los emojis y algunos idiomas.
+<br>Estos caracteres pueden provocar algunos problemas de incompatibilidad en el texto dinámico. Debe realizar pruebas sólidas antes de enviar los mensajes.
+
 
 El ejemplo siguiente muestra cómo definir texto dinámico en un mensaje SMS.
 
-1. Seleccione texto en el cuerpo del mensaje o en la página de aterrizaje.
+1. Seleccione texto en el cuerpo del mensaje o la página de aterrizaje.
 1. Haga clic **[!UICONTROL Enable dynamic text]**.
 
    ![](assets/dynamic_text_sms_1.png)
