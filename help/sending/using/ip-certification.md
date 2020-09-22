@@ -13,9 +13,9 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '323'
 ht-degree: 68%
 
 ---
@@ -27,7 +27,7 @@ La certificación de IP es un programa de envío de optimizaciones que ayuda a g
 
 Actualmente dos proveedores ofrecen certificación IP: Return Path y Certified Senders Alliance.
 
-Los remitentes certificados son incluidos en la lista de permitidos que utilizan los proveedores de buzones de correo globales y las compañías de seguridad de correo electrónico. Estas listas de permitidos comerciales se basan en un sistema que permite al remitente evitar por completo los filtros antispam o se le asignan puntos incrementales a medida que ingresa al sistema.
+Los remitentes certificados están en lista de permitidos y son utilizados por proveedores de buzones de correo globales y compañías de seguridad de correo electrónico. Estas listas de permitidos comerciales se basan en un sistema que permite al remitente evitar por completo los filtros antispam o se le asignan puntos incrementales a medida que ingresa al sistema.
 
 El programa [Return Path Certification](https://www.validity.com/products/returnpath/certification/) ofrece una serie de ventajas, entre las que se incluyen las siguientes:
 * Un aumento mensurable en la ubicación de las bandejas de entrada en los principales proveedores de buzones de correo como Microsoft, AOL, Yahoo, Gmail, Comcast, Orange, Mail.ru y más.
