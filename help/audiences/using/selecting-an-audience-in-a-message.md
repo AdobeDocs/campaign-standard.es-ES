@@ -12,11 +12,11 @@ discoiquuid: 158da6ff-8899-4e7b-b925-8a42c3de46a1
 context-tags: deliveryCreation,wizard;delivery,audience,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
-workflow-type: ht
-source-wordcount: '294'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e725ef966bcd6df84ed0c82e17fad65f289fd013
+workflow-type: tm+mt
+source-wordcount: '364'
+ht-degree: 83%
 
 ---
 
@@ -39,6 +39,7 @@ Se pueden definir audiencias al crear el mensaje mediante el asistente de creaci
 
    * Destinatario
    * Perfiles de prueba
+
    ![](assets/delivery_audience_definition_2.png)
 
 1. Defina el **[!UICONTROL Target]** principal del correo electrónico. Esta es la audiencia de destinatario normal del correo electrónico.
@@ -54,6 +55,10 @@ Se pueden definir audiencias al crear el mensaje mediante el asistente de creaci
 1. Defina el **[!UICONTROL Test profiles]** que desee utilizar para el correo electrónico. Los perfiles de prueba recibirán las pruebas que puede enviar para probar el correo electrónico antes de enviarlo al destinatario principal.
 
    Para obtener más información sobre la configuración de perfiles de prueba, consulte la sección [Perfiles de prueba](../../audiences/using/managing-test-profiles.md).
+
+1. Si es necesario, puede definir un grupo de control mediante la ficha correspondiente. Esto le permitirá retirar algunos perfiles de su destinatario para que no reciban el mensaje. For more on this, see [Adding a control group](../../sending/using/control-group.md).
+
+1. También puede utilizar direcciones de sustitución para obtener una representación exacta del mensaje que recibirá el perfil.  Para obtener más información, consulte [Prueba de mensajes de correo electrónico con perfiles de destino](../../sending/using/testing-messages-using-target.md).
 
 El bloque de audiencias se actualiza y muestra los destinatarios y perfiles de prueba que se han seleccionado para el correo electrónico en cuestión.
 
