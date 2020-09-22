@@ -12,9 +12,9 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '7622'
+source-wordcount: '7624'
 ht-degree: 9%
 
 ---
@@ -617,7 +617,7 @@ Se han añadido varias mejoras al canal de mensajería transaccional para optimi
 * Se ha corregido un problema en el editor de consultas con la condición de unión entre el registro de banda ancha y el registro de seguimiento para rtEvent. (CAMP-28780)
 * Se ha corregido un problema que impedía guardar las modificaciones de la opción de página de aterrizaje &quot;Acción específica&quot;. (CAMP-29422)
 * Se ha corregido un problema que impedía exportar la carga útil de un evento en un flujo de trabajo. (CAMP-29029)
-* Se ha corregido un problema que impedía que los números SMS incluida en la lista de bloqueados se excluyeran de un mensaje SMS. (CAMP-28898)
+* Se ha corregido un problema que impedía que los números SMS de la  de lista de bloqueados se excluyeran en un mensaje SMS. (CAMP-28898)
 * Se ha corregido un problema que podía impedir que se notificara a los proveedores de SMPP en caso de error al procesar los mensajes entrantes. (CAMP-29804)
 * Se ha corregido un problema que permitía eliminar cuentas externas con envíos asociados. (CAMP-29738)
 * Se ha mejorado y estabilizado el rendimiento de envío de mensajes SMS.
