@@ -12,9 +12,9 @@ discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: 3161226c9ab28f8d519f55a408022284919954f6
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1283'
 ht-degree: 8%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 8%
 
 # Configuración de una aplicación móvil{#configuring-a-mobile-application}
 
-## Configuración de una aplicación móvil mediante SDK de Adobe Experience Platform {#using-adobe-experience-platform-sdk}
+## Configuring a mobile application using Adobe Experience Platform SDKs {#using-adobe-experience-platform-sdk}
 
 >[!IMPORTANT]
 >
@@ -71,10 +71,6 @@ Para obtener más información, consulte [Eliminación de la aplicación](../../
 
 ## Sincronizar el AEPSDK de la aplicación móvil desde el flujo de trabajo técnico de Launch {#aepsdk-workflow}
 
->[!IMPORTANT]
->
->Esta función es una función beta en Adobe Campaign a partir de la versión 20.3. Deberá enviar un ticket al Servicio de atención al cliente de Adobe (directamente o a través de su contacto con el Adobe) para que el flujo de trabajo **[!UICONTROL sync Mobile app AEPSDK from Launch]** técnico esté habilitado en su instancia de Adobe Campaign.
-
 Después de crear y configurar la propiedad móvil en Experience Platform Launch, el flujo de trabajo técnico sincronizará las propiedades móviles de Adobe Launch importadas en Adobe Campaign Standard. **[!UICONTROL Sync Mobile app AEPSDK from Launch]**
 
 De forma predeterminada, el flujo de trabajo técnico se inicio cada 15 minutos. Si es necesario, se puede reiniciar manualmente:
@@ -96,9 +92,9 @@ El flujo de trabajo se reiniciará y sincronizará con las propiedades móviles 
 
 Para utilizar una propiedad móvil de Experience Platform Launch en Campaña, también debe configurarla en Adobe Campaign. En Adobe Campaign, asegúrese de que el usuario de IMS forme parte de los Perfiles de usuario y administrador estándar del producto.
 
-Para los usuarios con el indicador de la función Sincronizar AEPSDK de la aplicación móvil desde Iniciar flujo de trabajo técnico activado, deberá esperar a que el flujo de trabajo técnico se ejecute y sincronice la propiedad Iniciar móvil con Adobe Campaign. A continuación, puede configurarlo en Adobe Campaign.
+Tendrá que esperar a que el flujo de trabajo técnico se ejecute y sincronice la propiedad Launch mobile con Adobe Campaign. A continuación, puede configurarlo en Adobe Campaign.
 
-Para obtener más información sobre el indicador de la función Sincronizar AEPSDK de la aplicación móvil desde Iniciar flujo de trabajo técnico, consulte esta [sección](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow).
+Para obtener más información sobre el SDK de la aplicación móvil de sincronización desde el flujo de trabajo técnico de Launch, consulte esta [sección](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow).
 
 >[!NOTE]
 >
@@ -136,7 +132,7 @@ En algunos casos, el extremo de Campaña de una aplicación móvil puede ser dif
 
    Para obtener más información, consulte Configuración [de](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-configuration)publicación.
 
-## Configuración de aplicaciones específicas del Canal en Adobe Campaign {#channel-specific-config}
+## Configuración de aplicaciones específicas del canal en Adobe Campaign {#channel-specific-config}
 
 La aplicación móvil ya está lista para utilizarse en Campaña para notificaciones push o envíos en la aplicación. Ahora puede configurarlo aún más si es necesario para crear eventos que activen los mensajes en la aplicación o carguen certificados push.
 
