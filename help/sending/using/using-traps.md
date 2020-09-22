@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 2%
@@ -67,4 +67,4 @@ Puede utilizar las trampas al enviar mensajes transaccionales. En este caso, el 
 
 >[!NOTE]
 >
->Cuando se utiliza un perfil de prueba como reventado, para cualquier campo enriquecido de un mensaje, los datos adicionales correspondientes se seleccionan aleatoriamente de un perfil objetivo real y se asignan al perfil de prueba de reventado. Para obtener más información sobre enriquecimiento, consulte [este ejemplo](../../automating/using/enrichment.md#example--enriching-profile-data-with-data-contained-in-a-file).
+>Cuando se utiliza un perfil de prueba como reventado, para cualquier campo enriquecido de un mensaje, los datos adicionales correspondientes se seleccionan aleatoriamente de un perfil objetivo real y se asignan al perfil de prueba de reventado. Para obtener más información sobre enriquecimiento, consulte [este ejemplo](../../automating/using/enriching-profile-data-file.md).
