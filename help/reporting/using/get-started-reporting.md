@@ -12,7 +12,10 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: 787d1cb906acfba5887e6090f1d6b854bd096b0c
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 12%
 
 ---
 
@@ -34,7 +37,7 @@ El Sistema de informes dinámico proporciona informes totalmente personalizables
 
 Con la interfaz **de** arrastrar y soltar de sistema de informes dinámico, puede explorar datos, determinar el rendimiento de sus campañas de correo electrónico en relación con los segmentos de clientes más importantes y medir su impacto en los destinatarios desde un solo lugar.
 
-**Administre sus informes** dinámicos gracias a las diversas funcionalidades: actualice los datos en tiempo real, imprima los informes o exporte los mismos como archivos CSV. También puede compartir sus informes con usuarios Campaign Standard a través de correos electrónicos recurrentes o de una sola toma.
+**Administre sus informes** dinámicos gracias a las diversas funcionalidades: actualice los datos en tiempo real, imprima los informes o exporte los mismos como archivos CSV. También puede compartir sus informes con usuarios Campaign Standards a través de correos electrónicos recurrentes o de una sola toma.
 
 Más información:
 
