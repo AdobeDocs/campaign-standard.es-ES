@@ -1,6 +1,6 @@
 ---
 title: 'Creación y uso de contenido reutilizable '
-description: Empiece a crear contenido de correo electrónico reutilizable con el Diseñador de correo electrónico.
+description: Creación de inicios con contenido de correo electrónico reutilizable con el Diseñador de correo electrónico.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -12,7 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
+workflow-type: tm+mt
+source-wordcount: '1803'
+ht-degree: 1%
 
 ---
 
@@ -28,17 +31,17 @@ Aprenda a dominar la edición de contenido de correo electrónico. Con Email Des
 
 ### Acerca de las plantillas de contenido {#content-templates}
 
-Puede administrar el contenido HTML que se ofrece en la **[!UICONTROL Templates]**ficha de la página de inicio de[Email Designer](../../designing/using/designing-content-in-adobe-campaign.md).
+Puede administrar el contenido HTML que se ofrece en la **[!UICONTROL Templates]** ficha de la página de inicio de [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) .
 
 Las plantillas de contenido de correo electrónico integradas incluyen dieciocho diseños optimizados para dispositivos móviles y cuatro plantillas adaptables de primera categoría diseñadas por artistas de Behance. Corresponden a los usos más actuales, como mensajes de bienvenida al cliente, boletines informativos y correos electrónicos de recontratación, entre otros. Pueden personalizarse fácilmente con el contenido de sus marcas para facilitar el proceso de diseño de correos electrónicos desde cero.
 
 ![](assets/template_content.png)
 
-Se puede acceder a las plantillas de contenido HTML desde la pantalla **[!UICONTROL Resources]**>**[!UICONTROL Content templates & fragments]** del menú [](../../start/using/interface-description.md#advanced-menu)Avanzado. Desde allí, puede administrar plantillas de contenido de página de aterrizaje, plantillas de contenido de correo electrónico y también fragmentos.
+Se puede acceder a las plantillas de contenido HTML desde la pantalla **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** del menú [](../../start/using/interface-description.md#advanced-menu)Avanzado. Desde allí, puede administrar plantillas de contenido de página de aterrizaje, plantillas de contenido de correo electrónico y también fragmentos.
 
 ![](assets/content_templates_list.png)
 
-Las plantillas de contenido integradas son de solo lectura. Para editar uno de ellos, primero debe duplicar la plantilla deseada.
+Las plantillas de contenido integradas son de solo lectura. Para editar una de ellas, primero debe duplicado la plantilla deseada.
 
 Puede crear nuevas plantillas o fragmentos y definir su propio contenido. Para obtener más información sobre esto, consulte [Creación de una plantilla](#creating-a-content-template) de contenido y [Creación de un fragmento](#creating-a-content-fragment)de contenido.
 
@@ -55,28 +58,29 @@ Puede crear sus propias plantillas de contenido para utilizarlas tantas veces co
 
 El siguiente ejemplo muestra cómo crear una plantilla de contenido de correo electrónico.
 
-1. Vaya a **[!UICONTROL Resources]**>**[!UICONTROL Content templates & fragments]** y haga clic en **[!UICONTROL Create]**.
-1. Haga clic en la etiqueta de correo electrónico para acceder a la **[!UICONTROL Properties]**ficha del Diseñador de correo electrónico.
+1. Go to **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** and click **[!UICONTROL Create]**.
+1. Haga clic en la etiqueta de correo electrónico para acceder a la **[!UICONTROL Properties]** ficha del Diseñador de correo electrónico.
 1. Especifique una etiqueta reconocible y seleccione los siguientes parámetros para poder utilizar esta plantilla en los correos electrónicos:
 
-   * Seleccione **[!UICONTROL Shared]**o**[!UICONTROL Delivery]** en la lista **[!UICONTROL Content type]**desplegable.
-   * Seleccione **[!UICONTROL Template]**en la lista**[!UICONTROL HTML type]** desplegable.
+   * Seleccione **[!UICONTROL Shared]** o **[!UICONTROL Delivery]** en la lista **[!UICONTROL Content type]** desplegable.
+   * Seleccione **[!UICONTROL Template]** en la lista **[!UICONTROL HTML type]** desplegable.
+
    ![](assets/email_designer_create-template.png)
 
-1. Si es necesario, puede establecer una imagen que se utilizará como miniatura para la plantilla. Selecciónelo en la **[!UICONTROL Thumbnail]**ficha de las propiedades de la plantilla.
+1. Si es necesario, puede establecer una imagen que se utilizará como miniatura para la plantilla. Selecciónelo en la **[!UICONTROL Thumbnail]** ficha de las propiedades de la plantilla.
 
    ![](assets/email_designer_create-template_thumbnail.png)
 
-   Esta miniatura se mostrará en la **[!UICONTROL Templates]**ficha de la página de inicio de[Email Designer](../../designing/using/designing-content-in-adobe-campaign.md).
+   Esta miniatura se mostrará en la **[!UICONTROL Templates]** ficha de la página de inicio de [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) .
 
-1. Cierre la **[!UICONTROL Properties]**ficha para volver al espacio de trabajo principal.
-1. Agregue componentes de estructura y componentes de contenido que puede personalizar según sea necesario.
+1. Cierre la **[!UICONTROL Properties]** ficha para volver al espacio de trabajo principal.
+1. Añada componentes de estructura y componentes de contenido que puede personalizar según sea necesario.
    >[!NOTE]
    >
    > No puede insertar campos de personalización ni contenido condicional dentro de una plantilla de contenido.
 1. Una vez editada, guarde la plantilla.
 
-Esta plantilla ahora se puede utilizar en cualquier correo electrónico generado con el Diseñador de correo electrónico. Selecciónelo en la **[!UICONTROL Templates]**ficha de la página de inicio de[Email Designer](../../designing/using/designing-content-in-adobe-campaign.md).
+Esta plantilla ahora se puede utilizar en cualquier correo electrónico generado con el Diseñador de correo electrónico. Selecciónelo en la **[!UICONTROL Templates]** ficha de la página de inicio Diseñador [de](../../designing/using/designing-content-in-adobe-campaign.md) correo electrónico.
 
 ![](assets/content_template_new.png)
 
@@ -88,17 +92,17 @@ Al editar un correo electrónico con el Diseñador de correo electrónico, puede
 >
 >You cannot save as template a structure containing personalization fields or dynamic content.-->
 
-1. Seleccione **[!UICONTROL Save as template]**en la barra de herramientas principal de Email Designer.
+1. Seleccione **[!UICONTROL Save as template]** en la barra de herramientas principal de Email Designer.
 
    ![](assets/email_designer_save-as-template.png)
 
-1. Agregue una etiqueta y una descripción si es necesario y haga clic en **[!UICONTROL Save]**.
+1. Añada una etiqueta y una descripción si es necesario y haga clic en **[!UICONTROL Save]**.
 
    ![](assets/email_designer_save-as-template_creation.png)
 
-1. Para buscar la plantilla que acaba de crear, vaya a **[!UICONTROL Resources]**>**[!UICONTROL Content templates & fragments]**.
+1. Para buscar la plantilla que acaba de crear, vaya a **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]**.
 
-1. Para utilizar la nueva plantilla, selecciónela en la **[!UICONTROL Templates]**ficha de la página de inicio de[Email Designer](../../designing/using/designing-content-in-adobe-campaign.md).
+1. Para utilizar la nueva plantilla, selecciónela en la **[!UICONTROL Templates]** ficha de la página de inicio de [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) .
 
    ![](assets/content_template_new.png)
 
@@ -112,11 +116,11 @@ Ahora puede crear una plantilla de correo electrónico con el Diseñador de corr
 
    ![](assets/des_loading_compatible_fragment_5.png)
 
-   Si está familiarizado con el código HTML, Adobe recomienda aprovechar **[!UICONTROL Html]**los componentes en los que puede copiar y pegar los elementos más complejos del correo electrónico original. Utilice otros componentes como**[!UICONTROL Button]**, **[!UICONTROL Image]**o**[!UICONTROL Text]** para el resto del contenido. Para obtener más información sobre esto, consulte [Acerca de los componentes](../../designing/using/designing-from-scratch.md#about-content-components)de contenido.
+   Si está familiarizado con el código HTML, Adobe recomienda aprovechar **[!UICONTROL Html]** los componentes en los que puede copiar y pegar los elementos más complejos del correo electrónico original. Utilice otros componentes como **[!UICONTROL Button]**, **[!UICONTROL Image]** o **[!UICONTROL Text]** para el resto del contenido. For more on this, see [About content components](../../designing/using/designing-from-scratch.md#about-content-components).
 
    >[!NOTE]
    >
-   >El uso del **[!UICONTROL Html]**componente permite crear componentes que se pueden editar con opciones limitadas. Antes de seleccionar este componente, asegúrese de que sabe cómo gestionar el código HTML.
+   >El uso del **[!UICONTROL Html]** componente permite crear componentes que se pueden editar con opciones limitadas. Antes de seleccionar este componente, asegúrese de que sabe cómo gestionar el código HTML.
 
 1. Ajuste los componentes de contenido para que coincidan con el correo electrónico original tanto como pueda.
 
@@ -130,17 +134,22 @@ Ahora puede crear una plantilla de correo electrónico con el Diseñador de corr
 
 1. Guarde la plantilla.
 
-Ahora puede administrar completamente esta plantilla en el Diseñador de correo electrónico para crear y actualizar la newsletter que enviará todos los meses a los destinatarios.
+Ahora puede administrar completamente esta plantilla en el Diseñador de correo electrónico para crear y actualizar la newsletter que enviará todos los meses a sus destinatarios.
 
 Para utilizarlo, cree un correo electrónico y seleccione la plantilla de contenido que acaba de crear.
 
-**Tema** relacionado:
+**Temas relacionados**:
 
 * [Creación de un correo electrónico](../../channels/using/creating-an-email.md)
 * [Vídeo de introducción al Diseñador de correo electrónico](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=spa)
 * [Diseño de contenido de correo electrónico desde cero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
 ## Acerca de los fragmentos {#about-fragments}
+
+>[!CONTEXTUALHELP]
+>id="ac_fragments"
+>title="Acerca de los fragmentos"
+>abstract="Un fragmento es un componente reutilizable al que se puede hacer referencia en uno o varios correos electrónicos."
 
 Un fragmento es un componente reutilizable al que se puede hacer referencia en uno o varios correos electrónicos.
 Se pueden encontrar en la interfaz en **Recursos** > Fragmentos y plantillas **de contenido**.
@@ -189,28 +198,29 @@ Ahora que la estructura de correo electrónico está llena, puede editar el esti
 
 >[!NOTE]
 >
->Si se modifica un fragmento, los cambios se propagan automáticamente en los mensajes de correo electrónico donde se utiliza. Para obtener más información sobre esto, consulte [Acerca de los fragmentos](#about-fragments).
+>Si se modifica un fragmento, los cambios se propagan automáticamente en los mensajes de correo electrónico donde se utiliza. For more on this, see [About fragments](#about-fragments).
 
-### Creación de un fragmento de contenido {#creating-a-content-fragment}
+### Creating a content fragment {#creating-a-content-fragment}
 
 Puede crear sus propios fragmentos de contenido para utilizarlos según sea necesario en uno o varios correos electrónicos.
 
-1. Vaya a **[!UICONTROL Resources]**>**[!UICONTROL Content templates & fragments]** y haga clic en **[!UICONTROL Create]**.
-1. Haga clic en la etiqueta de correo electrónico para acceder a la **[!UICONTROL Properties]**ficha del Diseñador de correo electrónico.
+1. Go to **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** and click **[!UICONTROL Create]**.
+1. Haga clic en la etiqueta de correo electrónico para acceder a la **[!UICONTROL Properties]** ficha del Diseñador de correo electrónico.
 1. Especifique una etiqueta reconocible y seleccione los parámetros siguientes para buscar el fragmento al editar el contenido del correo electrónico:
 
-   * Debido a que los fragmentos solo son compatibles con los correos electrónicos, seleccione **[!UICONTROL Delivery]**en la lista**[!UICONTROL Content type]** desplegable.
-   * Seleccione **[!UICONTROL Fragment]**en la lista**[!UICONTROL HTML type]** desplegable para poder utilizar este contenido como un fragmento.
+   * Debido a que los fragmentos solo son compatibles con los correos electrónicos, seleccione **[!UICONTROL Delivery]** en la lista **[!UICONTROL Content type]** desplegable.
+   * Seleccione **[!UICONTROL Fragment]** en la **[!UICONTROL HTML type]** lista desplegable para poder utilizar este contenido como un fragmento.
+
    ![](assets/email_designer_createfragment.png)
 
-1. Si es necesario, puede establecer una imagen que se utilizará como miniatura para el fragmento. Selecciónelo en la **[!UICONTROL Thumbnail]**ficha de las propiedades de la plantilla.
+1. Si es necesario, puede establecer una imagen que se utilizará como miniatura para el fragmento. Selecciónelo en la **[!UICONTROL Thumbnail]** ficha de las propiedades de la plantilla.
 
    ![](assets/email_designer_createfragment_thumbnail.png)
 
    Esta miniatura se mostrará junto a la etiqueta del fragmento al editar un correo electrónico.
 
-1. Cierre la **[!UICONTROL Properties]**ficha para volver al espacio de trabajo principal.
-1. Agregue componentes de estructura y componentes de contenido que puede personalizar según sea necesario.
+1. Cierre la **[!UICONTROL Properties]** ficha para volver al espacio de trabajo principal.
+1. Añada componentes de estructura y componentes de contenido que puede personalizar según sea necesario.
 
    >[!CAUTION]
    >
@@ -222,11 +232,11 @@ Puede crear sus propios fragmentos de contenido para utilizarlos según sea nece
 
 1. Una vez editado, guarde el fragmento.
 
-Este fragmento ahora se puede utilizar en cualquier correo electrónico generado con el Diseñador de correo electrónico. Aparece en la sección de la **[!UICONTROL Fragments]**paleta.
+Este fragmento ahora se puede utilizar en cualquier correo electrónico generado con el Diseñador de correo electrónico. Aparece en la sección de la **[!UICONTROL Fragments]** paleta.
 
 >[!NOTE]
 >
->No se pueden insertar campos de personalización dentro de un fragmento a menos que se utilicen en un correo electrónico y se desbloqueen. Consulte [Acerca de los fragmentos](#about-fragments).
+>No puede insertar campos de personalización dentro de un fragmento a menos que se utilice en un mensaje de correo electrónico y se desbloquee. Consulte [Acerca de los fragmentos](#about-fragments).
 
 ### Guardar contenido como fragmento {#saving-content-as-a-fragment}
 
@@ -236,7 +246,7 @@ Al editar un correo electrónico con el Diseñador de correo electrónico, puede
 * Solo puede seleccionar estructuras adyacentes entre sí.
 <!-- - You cannot select an empty structure.-->
 
-1. Al editar un correo electrónico en el Diseñador de correo electrónico, seleccione **[!UICONTROL Save as fragment]**en la barra de herramientas principal.
+1. Al editar un correo electrónico en el Diseñador de correo electrónico, seleccione **[!UICONTROL Save as fragment]** en la barra de herramientas principal.
 
    ![](assets/email_designer_save-as-fragment.png)
 
@@ -251,15 +261,15 @@ Al editar un correo electrónico con el Diseñador de correo electrónico, puede
 
 1. Haga clic **[!UICONTROL Create]**.
 
-1. Agregue una etiqueta y una descripción si es necesario y haga clic en **[!UICONTROL Save]**.
+1. Añada una etiqueta y una descripción si es necesario y haga clic en **[!UICONTROL Save]**.
 
    ![](assets/email_designer_save-as-fragment_popup.png)
 
-1. Para buscar el fragmento que acaba de crear, vaya a **[!UICONTROL Resources]**>**[!UICONTROL Content templates & fragments]**.
+1. Para buscar el fragmento que acaba de crear, vaya a **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]**.
 
    ![](assets/email_designer_save-as-fragment_list.png)
 
-1. Para utilizar el nuevo fragmento, abra cualquier contenido de correo electrónico y selecciónelo en la lista de fragmentos.
+1. Para utilizar el nuevo fragmento, abra cualquier contenido de correo electrónico y selecciónelo en la lista de fragmento.
 
 ![](assets/email_designer_save-as-fragment_in-new-email.png)
 
@@ -288,22 +298,22 @@ Mediante el Diseñador de correo electrónico, cree un fragmento para cada secci
 
 Para realizar esto, siga los pasos a continuación:
 
-1. En Adobe Campaign, vaya a **[!UICONTROL Resources]**>**[!UICONTROL Content templates & fragments]** y cree un fragmento para el encabezado. Para obtener más información sobre esto, consulte [Creación de un fragmento](#creating-a-content-fragment)de contenido.
-1. Agregue al fragmento tantos componentes de estructura como necesite.
+1. En Adobe Campaign, vaya a **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** y cree un fragmento para el encabezado. Para obtener más información sobre esto, consulte [Creación de un fragmento](#creating-a-content-fragment)de contenido.
+1. Añada tantos componentes de estructura como necesite en el fragmento.
 
-![](assets/des_loading_compatible_fragment_1.png)
+   ![](assets/des_loading_compatible_fragment_1.png)
 
 1. Inserte componentes de imagen y texto en la estructura.
 
-![](assets/des_loading_compatible_fragment_2.png)
+   ![](assets/des_loading_compatible_fragment_2.png)
 
 1. Cargue la imagen correspondiente, introduzca el texto y ajuste la configuración.
 
-![](assets/des_loading_compatible_fragment_3.png)
+   ![](assets/des_loading_compatible_fragment_3.png)
 
 1. Guarde el fragmento.
 1. Proceda de forma similar para crear el pie de página y guardarlo.
 
-![](assets/des_loading_compatible_fragment_4.png)
+   ![](assets/des_loading_compatible_fragment_4.png)
 
 Los fragmentos ya están listos para utilizarse en una plantilla.
