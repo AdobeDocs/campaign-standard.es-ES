@@ -13,10 +13,10 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 56%
+source-wordcount: '442'
+ht-degree: 55%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 56%
 
 Es esencial mantener la reputación de su dominio y dirección IP. Aquí hay algunos consejos para configurar una nueva plataforma.
 
-Comenzar a enviar correos electrónicos en una nueva plataforma es un paso importante porque la plataforma no tiene historial de uso ni reputación (cuando las direcciones IP de envío nunca se han utilizado para este fin). Los ISP sospechan naturalmente de las direcciones IP que nunca se han utilizado para enviar correos electrónicos y que de repente comienzan a enviar grandes volúmenes de tráfico de correo electrónico. De hecho, los remitentes de spam generalmente utilizan direcciones IP &quot;desconocidas&quot; (direcciones que nunca se han incluida en la lista de bloqueados) para enviar el mayor número posible de mensajes antes de la detección.
+Comenzar a enviar correos electrónicos en una nueva plataforma es un paso importante porque la plataforma no tiene historial de uso ni reputación (cuando las direcciones IP de envío nunca se han utilizado para este fin). Los ISP sospechan naturalmente de las direcciones IP que nunca se han utilizado para enviar correos electrónicos y que de repente comienzan a enviar grandes volúmenes de tráfico de correo electrónico. De hecho, los remitentes de spam generalmente utilizan direcciones IP &quot;desconocidas&quot; (direcciones que nunca se han agregado a la  de lista de bloqueados) para enviar el mayor número posible de mensajes antes de la detección.
 
 No se puede esperar alcanzar la velocidad operativa en términos de salida al inicio de la fase de producción. Además, no debería intentar enviar mensajes a este ritmo, ya que podría llevar a los ISP a bloquear las direcciones de envío y comprometer seriamente el resto de la fase de inicio.
 
