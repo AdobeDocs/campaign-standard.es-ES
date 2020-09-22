@@ -13,7 +13,7 @@ context-tags: deliveryComplaintsReport,main;campaignComplaintsReport,main;progra
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 17%
@@ -29,4 +29,4 @@ El informe **[!UICONTROL Complaints]** identifica los envíos que reciben la may
 
 La tabla **Flop** , ordenada por dominio de destinatario, muestra el número de destinatarios que han declarado un correo electrónico o correo no deseado. Los resultados de la tabla también están disponibles en un gráfico y en los números de resumen.
 
-La tabla de tasas **** entregadas vs. Incluida en la lista de bloqueados lista el número de destinatarios que han declarado un correo electrónico como correo no deseado o no deseado. La tabla se ordena por envíos.
+La tabla **Entregado vs. En Lista de bloqueados lista**  el número de destinatarios que han declarado un correo electrónico como correo no deseado o correo no deseado. La tabla se ordena por envíos.
