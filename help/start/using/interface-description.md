@@ -12,10 +12,10 @@ discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 9f33ca4e8b6326fce5fd301587b15ce706750c6e
 workflow-type: tm+mt
 source-wordcount: '1144'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -43,7 +43,7 @@ La página de inicio está formada por un conjunto de tarjetas que le permiten a
 * La tarjeta **[!UICONTROL Create an SMS]** lleva al asistente de creación de SMS. Este asistente le permite elegir un tipo de SMS, seleccionar los destinatarios de los mensajes y definir el contenido. Consulte la sección [Creación de un SMS](../../channels/using/creating-an-sms-message.md).
 * La tarjeta **[!UICONTROL Create a Direct mail]** lleva al asistente de creación de correo postal. Consulte la sección [Creación de un correo postal](../../channels/using/creating-the-direct-mail.md).
 * La tarjeta **[!UICONTROL Create a push notification]** lleva al asistente de creación de notificaciones. Este asistente le permite elegir un tipo de notificación push, seleccionar los destinatarios de los mensajes y definir el contenido. Consulte la sección [Creación de una notificación push](../../channels/using/preparing-and-sending-a-push-notification.md).
-* La tarjeta **[!UICONTROL Create an InApp message]** lleva al asistente de creación de aplicación. Este asistente le permite seleccionar el tipo de mensaje de aplicación que desea crear, definir sus propiedades, audiencia y contenido. Consulte la sección [Creación de un mensaje de aplicación](../../channels/using/about-in-app-messaging.md).
+* The **[!UICONTROL Create an In-App message]** card takes you to the In-App creation assistant. Este asistente le permite seleccionar el tipo de mensaje en la aplicación que desea crear, definir sus propiedades, audiencia y contenido. Refer to the [Creating an In-App message](../../channels/using/about-in-app-messaging.md) section.
 * La tarjeta **[!UICONTROL Marketing activities]** lleva a la lista completa de todas las actividades, programas y campañas, particularmente correos electrónicos, SMS, flujos de trabajo y páginas de aterrizaje. Desde aquí puede filtrar los elementos buscando por nombre, fecha, estado o tipo de actividad. Para obtener más información, consulte la sección [Lista de actividades de marketing](../../start/using/marketing-activities.md#about-marketing-activities).
 * La tarjeta **[!UICONTROL Programs & campaigns]** lleva a la lista de programas en los que puede crear y administrar sus campañas. Consulte [Lista de programas](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns).
 * La tarjeta **[!UICONTROL Timeline]** lleva directamente a una cronología interactiva de las actividades de marketing, en la que puede consultar los programas en curso y su contenido. Consulte [Cronología](../../start/using/timeline.md).
