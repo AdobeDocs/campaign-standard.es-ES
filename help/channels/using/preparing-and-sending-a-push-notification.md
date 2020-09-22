@@ -13,9 +13,9 @@ context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: c300f50ce83d67be7c8a16f857eb46fb1ce89166
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '854'
 ht-degree: 7%
 
 ---
@@ -49,7 +49,7 @@ Los pasos para crear una notificación push con Adobe Campaign son:
 
 1. Enter your push notification properties and select your mobile app in the **[!UICONTROL Associate a Mobile App to a delivery]** field.
 
-   Tenga en cuenta que el menú desplegable mostrará tanto las aplicaciones SDK V4 como las aplicaciones SDK Experience Platform.
+   Tenga en cuenta que la lista desplegable mostrará las aplicaciones SDK V4 y SDK Experience Platform.
 
    ![](assets/push_notif_properties.png)
 
@@ -102,7 +102,7 @@ Las notificaciones push se pueden enviar a una audiencia seleccionada en Adobe C
 
 1. En la **[!UICONTROL Exclusion logs]** ficha, puede encontrar la lista de todos los mensajes excluidos del destinatario enviado y el motivo de esta exclusión.
 
-   Aquí podemos ver que uno de nuestros suscriptores de aplicaciones móviles fue excluido porque la dirección fue incluida en la lista de bloqueados y los otros suscriptores porque el perfil era un duplicado.
+   Aquí podemos ver que uno de nuestros suscriptores de aplicaciones móviles fue excluido porque la dirección estaba en la  de lista de bloqueados y los demás suscriptores porque el perfil era un duplicado.
 
    ![](assets/push_send_5.png)
 
@@ -117,7 +117,7 @@ Las notificaciones push se pueden enviar a una audiencia seleccionada en Adobe C
 
    ![](assets/push_send_4.png)
 
-1. En la **[!UICONTROL Deployment]** ventana, haga clic en la **[!UICONTROL Sending logs]** ficha para acceder a la lista de las notificaciones push enviadas y sus estados. Para este envío, se envió correctamente una notificación push, mientras que la otra falló debido a un autentificador de dispositivo incorrecto. Este suscriptor será luego agregado al negatista desde otros envíos.
+1. En la **[!UICONTROL Deployment]** ventana, haga clic en la **[!UICONTROL Sending logs]** ficha para acceder a la lista de las notificaciones push enviadas y sus estados. Para este envío, se envió correctamente una notificación push, mientras que la otra falló debido a un autentificador de dispositivo incorrecto. Este suscriptor se agregará a la  de lista de bloqueados desde otros envíos.
 
    >[!NOTE]
    >
