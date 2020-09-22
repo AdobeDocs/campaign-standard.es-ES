@@ -10,10 +10,10 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3bd2fdb56fc94cef4e9c21466a33cdad7ac825d2
+source-git-commit: 9a8e3087ef6a0cf2f1d68cb145a67af3c05d27ec
 workflow-type: tm+mt
-source-wordcount: '1754'
-ht-degree: 94%
+source-wordcount: '2269'
+ht-degree: 64%
 
 ---
 
@@ -38,19 +38,19 @@ Las principales características de esta actividad son:
 * Capacidad para recibir una respuesta JSON, asignarla a tablas de salida y pasar a otras actividades de flujo de trabajo.
 * Administración de errores con una transición específica de salida.
 
-### Transición de beta a GA {#from-beta-to-ga}
+### Avisos de compatibilidad con versiones anteriores {#from-beta-to-ga}
 
-Con la versión Campaign Standard 20.3, la funcionalidad de API externa ha pasado de la versión beta a la versión general de disponibilidad (GA).
+Con la versión Campaign Standard 20.4, se han reducido los márgenes de límite de tamaño de datos de respuesta http y de tiempo de espera de respuesta para ajustarse a las prácticas recomendadas (consulte la sección &quot;Limitaciones y protecciones&quot;). Estas modificaciones de la protección no tendrán efecto en las actividades de API externas existentes; por lo tanto, se recomienda reemplazar las actividades de API externas existentes con nuevas versiones en todos los flujos de trabajo.
 
->[!CAUTION]
->
->Como consecuencia, si estuviera utilizando actividades de API externas beta, debe reemplazarlas con actividades de API externas de GA en todos los flujos de trabajo.  Los flujos de trabajo que utilizan la versión beta de la API externa dejarán de funcionar a partir de la versión 20.3.
+Si está actualizando desde Campaign Standard 20.2 (o anterior), tenga en cuenta que la capacidad de API externa se ha trasladado de Beta a Disponibilidad general en la versión Campaign Standard 20.3.
+
+Como consecuencia, si estuviera utilizando actividades de API externas beta, debe reemplazarlas con actividades de API externas de GA en todos los flujos de trabajo.  Los flujos de trabajo que utilizan la versión beta de la API externa no funcionarán a partir de la versión Campaign Standard 20.3.
 
 Al reemplazar actividades de API externas, añada la nueva actividad de API externa al flujo de trabajo, copie manualmente los detalles de configuración y, a continuación, elimine la actividad antigua.
 
 >[!NOTE]
 >
->No podrá copiar sobre los valores del encabezado, ya que están enmascarados dentro de la actividad.
+>No podrá copiar sobre los valores de encabezado específicos de la actividad, ya que están enmascarados dentro de la actividad.
 
 A continuación, vuelva a configurar otras actividades en el flujo de trabajo que apunten a la actividad de la API externa beta o utilicen datos de ella para que apunten a la nueva actividad de la API externa o los utilicen en su lugar. Ejemplos de actividades: envío de correo electrónico (campos de personalización), actividad de enriquecimiento, etc.
 
@@ -58,26 +58,17 @@ A continuación, vuelva a configurar otras actividades en el flujo de trabajo qu
 
 Esta actividad se rige por las siguientes medidas de protección:
 
-* Límite de tamaño de datos de respuesta http de 50 MB (se recomiendan 5 MB)
-* El tiempo de espera de la solicitud es de 10 minutos.
+* Límite de tamaño de datos de respuesta http de 5 MB (nota: esto supone un cambio con respecto al límite de 50 MB de la versión anterior)
+* El tiempo de espera de la solicitud es de 1 minuto (nota: esto supone un cambio con respecto al tiempo de espera de 10 minutos de la versión anterior)
 * No se permiten redirecciones HTTP.
 * Se rechazan las direcciones URL que no son HTTPS.
 * Están permitidos el encabezado de solicitud “Accept: application/json” y el encabezado de respuesta “Content-Type: application/json”.
 
->[!NOTE]
->
->A partir de la versión 20.4 de Campaña, el límite de tamaño de datos de respuesta http y las protecciones de tiempo de espera de respuesta se reducirán a 5 MB y 1 minuto, respectivamente.  Aunque este cambio solo afectará a las nuevas actividades de API externas, se recomienda enfáticamente que las implementaciones actuales de la actividad de API externa se alineen con estas nuevas protecciones para seguir las optimizaciones.
-
-Se han establecido medidas de protección específicas para archivos JSON:
+Se han establecido medidas de protección específicas:
 
 * **Profundidad máxima de JSON**: limitar la profundidad máxima de un archivo JSON personalizado anidado que se puede procesar a 10 niveles.
 * **Longitud máxima de clave JSON**: limitar la longitud máxima de la clave interna generada a 255. Esta clave está asociada al ID de columna.
 * **Se permiten las claves de duplicado máximas de JSON**: limitar el número total máximo de nombres de propiedades JSON de duplicado, que se utilizan como ID de columna, a 150.
-
-La actividad no es compatible con la estructura JSON como:
-
-* Combinación de objetos de matriz con otros elementos que no son de matriz.
-* El objeto de matriz JSON está anidado en uno o varios objetos de matriz intermedios.
 
 >[!CAUTION]
 >
@@ -131,7 +122,14 @@ Si se **valida el análisis**, aparece un mensaje que le invita a personalizar l
 
 ### Ejecución
 
-Esta pestaña permite definir el **extremo HTTPS** que envía datos a ACS. Si es necesario, puede introducir la información de autenticación en los campos siguientes.
+Esta ficha permite definir el punto final de conexión. El **[!UICONTROL URL]** campo permite definir el extremo **** HTTPS que enviará datos a ACS.
+
+Si lo necesita el punto final, hay dos tipos de método de autenticación disponibles:
+
+* Autenticación básica: introduzca la información de nombre de usuario y contraseña en el **[!UICONTROL Request Header(s)]** campo.
+
+* Autenticación de OAuth: Al hacer clic en el botón **[!UICONTROL Use connection parameters defined in an external account]**, puede seleccionar una cuenta externa donde se define la autenticación OAuth. For more information, refer to the [External accounts](../../administration/using/external-accounts.md) section.
+
 ![](assets/externalAPI-execution.png)
 
 ### Propiedades
@@ -172,8 +170,7 @@ Se han añadido dos tipos de mensajes de registro a esta nueva actividad de fluj
 
 ### Información
 
-Estos mensajes de registro se utilizan para registrar información sobre puntos de comprobación útiles durante la ejecución de la actividad del flujo de trabajo. Específicamente, los siguientes mensajes de registro se utilizan para registrar el primer intento, así como un intento de reintento (y el motivo del error en el primer intento) para acceder a la API.
-
+Estos mensajes de registro se utilizan para registrar información sobre puntos de comprobación útiles durante la ejecución de la actividad del flujo de trabajo.
 <table> 
  <thead> 
   <tr> 
@@ -187,12 +184,32 @@ Estos mensajes de registro se utilizan para registrar información sobre puntos 
    <td> <p>Invocando la dirección URL de la API “https://example.com/api/v1/web-coupon?count=2”.</p></td> 
   </tr> 
   <tr> 
-   <td> Reintentando la dirección URL de la API “%s”, error en el intento anterior (“%s”).</td> 
-   <td> <p>Reintentando la URL de la API “https://example.com/api/v1/web-coupon?count=2”, error en el intento anterior (“HTTP - 401”).</p></td>
+   <td> Reintentando la dirección URL de API '%s' debido a %s en %d ms, intento %d.</td> 
+   <td> <p>Reintentando la URL de la API 'https://example.com/api/v1/web-coupon?count=0' debido a HTTP - 401 en 2364 ms, intento 2.</p></td>
   </tr> 
   <tr> 
    <td> Transfiriendo contenido de “%s” (%s / %s).</td> 
    <td> <p>Transferencia de contenido desde “https://example.com/api/v1/web-coupon?count=2” (1234 / 1234).</p></td> 
+  </tr>
+  <tr> 
+   <td> Usando token de acceso en caché para el identificador de proveedor '%s'.</td> 
+   <td> <p>Uso del token de acceso en caché para el ID de proveedor 'EXT25'. Nota:  EXT25 es el ID (o nombre) de la cuenta externa. </p></td> 
+  </tr>
+  <tr> 
+   <td> Se obtuvo el token de acceso del servidor para el identificador de proveedor '%s'.</td> 
+   <td> <p>Se obtuvo el token de acceso del servidor para el ID de proveedor 'EXT25'. Nota: EXT25 es el ID (o nombre) de la cuenta externa.</p></td> 
+  </tr>
+  <tr> 
+   <td> Actualización del token de acceso de OAuth debido a un error (HTTP: '%d').</td> 
+   <td> <p>Actualización del token de acceso de OAuth debido a un error (HTTP: '401').</p></td> 
+  </tr>
+  <tr> 
+   <td> Error al actualizar el token de acceso de OAuth (error: '%d'). </td> 
+   <td> <p>Error al actualizar el token de acceso de OAuth (error: 404).</p></td> 
+  </tr>
+  <tr> 
+   <td> No se pudo recuperar el token de acceso de OAuth usando la cuenta externa especificada en el intento %d, reintentando en %d ms.</td> 
+   <td> <p>No se pudo recuperar el token de acceso OAuth usando la cuenta externa especificada en el intento 1, reintentando en 1387 ms.</p></td> 
   </tr>
  </tbody> 
 </table>
@@ -247,7 +264,7 @@ Estos mensajes de registro se utilizan para registrar información sobre las con
    <td> <p>No se permite la clave de encabezado HTTP (clave de encabezado: “Accept”).</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247: el valor del encabezado AHTTP no es correcto (valor del encabezado: “%s”).</td> 
+   <td> WKF-560247 - Un valor de encabezado HTTP es incorrecto (valor de encabezado: '%s').</td> 
    <td> <p>El valor del encabezado HTTP no es correcto (valor del encabezado: “%s”). </p>
     <p>Nota: Este error se registra cuando el valor del encabezado personalizado falla en la validación según <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a>.</p></td> 
   </tr> 
@@ -265,6 +282,39 @@ Estos mensajes de registro se utilizan para registrar información sobre las con
    <td> <p>Cuando falla la actividad debido a la respuesta de error HTTP 401: error de actividad (motivo: “HTTP - 401”)</p>
         <p>Cuando falla la actividad debido a una llamada interna fallida: error de actividad (motivo: “iRc - -Nn”).</p>
         <p>Cuando falla la actividad debido a un encabezado de Content-Type no válido: error de actividad (motivo: “Content-Type - application/html”).</p></td> 
+  </tr>
+  <tr> 
+   <td> WKF-560278 - "Error al inicializar el asistente de OAuth (error: '%d')".</td> 
+   <td> <p>Este error indica que la actividad no pudo inicializar la función de ayuda OAuth2.0 interna, debido a un error al usar los atributos configurados en la cuenta externa para inicializar el asistente.</p></td>
+  </tr>
+  <tr> 
+   <td> WKF-560279 - "No se permite la clave de encabezado HTTP (clave de encabezado: '%s')."</td> 
+   <td> <p>Este mensaje de advertencia (no de error) indica que la cuenta externa OAuth 2.0 se ha configurado para agregar una credencial como encabezado HTTP, pero la clave de encabezado utilizada no está permitida porque es una clave de encabezado reservada.</p></td>
+  </tr>
+  <tr> 
+   <td> WKF-560280: no se encuentra la Cuenta externa del identificador '%s'.</td> 
+   <td> <p>No se encuentra la cuenta externa del ID 'EXT25'.  Nota: Este error indica que la actividad está configurada para utilizar una cuenta externa, que ya no se puede encontrar. Es muy probable que esto ocurra cuando la cuenta se haya eliminado de la base de datos y, como tal, no sea probable que ocurra en circunstancias normales de funcionamiento.</p></td>
+  </tr>
+  <tr> 
+   <td> WKF-560281: la Cuenta externa del identificador '%s' está deshabilitada.</td> 
+   <td> <p>La cuenta externa del ID 'EXT25' está deshabilitada. Nota: Este error indica que la actividad está configurada para usar una cuenta externa, pero que esa cuenta se ha deshabilitado (o marcado como inactiva).</p></td>
+  </tr>
+  <tr> 
+   <td> WKF-560282 - No se admite el protocolo.</td> 
+   <td> <p>Este error indica que la cuenta externa asociada con la actividad no es una cuenta externa OAuth2.0. Como tal, es improbable que este error ocurra a menos que haya algún daño o cambios manuales en la configuración de la actividad.</p></td>
+  </tr>
+  <tr> 
+   <td> WKF-560283 - Error al recuperar el token de acceso OAuth.</td> 
+   <td> <p>La causa más común de este error es la configuración incorrecta de la cuenta externa (por ejemplo, uso de la cuenta externa sin comprobar que la conexión se ha realizado correctamente). Es posible que se cambien las direcciones URL/credenciales de la cuenta externa.</p></td>
+  </tr>
+  <tr> 
+   <td> CRL-290199 - No se puede llegar a la página en: %s.</td> 
+   <td> <p>Este mensaje de error se muestra en la pantalla de la interfaz de usuario de cuentas externas al configurarlo para OAuth. Significa que la dirección URL del servidor de autorización externo es incorrecta/modificada/la respuesta del servidor es Página no encontrada.</p></td>
+  </tr>
+  <tr> 
+   <td> CRL-290200: credenciales incompletas o incorrectas.</td> 
+   <td> <p>Este mensaje de error se muestra en la pantalla de la interfaz de usuario de cuentas externas al configurarlo para OAuth. Esto significa que las credenciales son incorrectas o que faltan otras credenciales necesarias para conectarse al servidor de autenticación.
+</p></td>
   </tr>
  </tbody> 
 </table>
