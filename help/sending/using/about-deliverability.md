@@ -13,7 +13,7 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 82%
@@ -57,7 +57,7 @@ En primer lugar, el inicio consultando la documentación sobre las herramientas 
 * [Recibir alertas cuando se produzcan errores](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Comprensión de los errores de entrega](../../sending/using/understanding-delivery-failures.md)
 * [Comprensión de la gestión de la cuarentena](../../sending/using/understanding-quarantine-management.md)
-* [Cuarentena vs. lista de bloqueados](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list)
+* [Cuarentena vs. lista de bloqueados](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
 * [Informes dinámicos](../../reporting/using/about-dynamic-reports.md)
 
 ## Comprobación de la configuración de red {#network-configuration}
