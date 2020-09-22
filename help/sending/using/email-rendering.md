@@ -12,10 +12,10 @@ discoiquuid: 2b5b13c8-2e51-4985-a161-c1d7f0fc32b4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b43e6be265ff2d8ce357ef44672a755028e2e5af
+source-git-commit: 3af649cfaae195ae5e75406ca3a0743b9b1f65d2
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 100%
+source-wordcount: '511'
+ht-degree: 91%
 
 ---
 
@@ -78,6 +78,13 @@ Este informe presenta los procesamientos de correo electrónico tal y como apare
 >[!NOTE]
 >
 >El número de procesamientos disponibles aparece en el contrato de licencia. Cada entrega con el **procesamiento de correo electrónico** habilitado disminuye los procesamientos disponibles (conocidos como tokens) uno por uno.
+>
+>Los tokens representan cada representación individual y no todo el informe de procesamiento de correo electrónico, lo que significa que:
+>
+>**Cada vez que se genera el informe de renderización de la Bandeja de entrada, se resta un token por cada cliente de mensajería: uno para la renderización de Outlook 2000, uno para la renderización de Outlook , uno para la renderización de Apple Mail , etc.**
+>
+>**En el mismo envío**, si vuelve a generar el procesamiento por correo electrónico, el número de tokens disponibles se reduce de nuevo en el número de representaciones generadas.
+
 
 El resumen del informe muestra el número de mensajes recibidos, no deseados (spam), no recibidos o pendientes de recepción.
 
