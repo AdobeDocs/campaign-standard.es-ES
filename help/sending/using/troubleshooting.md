@@ -13,10 +13,10 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 331769e7f1c1c30e3b7ff340252052c5aaa2eac9
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 55%
+source-wordcount: '459'
+ht-degree: 54%
 
 ---
 
@@ -38,30 +38,30 @@ Si el problema persiste, póngase en contacto con los servicios comerciales o de
 
 ## lista de bloqueados frente a cuarentena {#denylist-versus-quarantine}
 
-* **¿Cuál es la diferencia entre una dirección de correo electrónico incluida en la lista de bloqueados y una dirección de correo electrónico en cuarentena?**
+* **¿Cuál es la diferencia entre una dirección de correo electrónico en lista de bloqueados y una dirección de correo electrónico en cuarentena?**
 
-   * El estado **[!UICONTROL Denylisted]** es el resultado de un bucle de retroalimentación (cuando una persona informa un mensaje como correo no deseado).
+   * El estado **[!UICONTROL On denylist]** es el resultado de un bucle de retroalimentación (cuando una persona informa un mensaje como correo no deseado).
 
    * El estado **[!UICONTROL Quarantined]** es el resultado de un rechazo suave o fuerte.
-   Para obtener más información, consulte esta [sección](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list).
+   Para obtener más información, consulte esta [sección](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist).
 
 * **¿Qué significan las diferentes razones de error de cuarentena?**
 
-   Estas son 10 razones posibles: no definido, usuario desconocido, dominio inválido, dirección incluida en la lista de bloqueados, rechazado, error omitido, inaccesible, cuenta deshabilitada, buzón lleno, no conectado.
+   Estas son 10 razones posibles: no definido, usuario desconocido, dominio inválido, dirección en lista de bloqueados, rechazado, error omitido, inaccesible, cuenta deshabilitada, buzón lleno, no conectado.
 
    Para obtener más información, consulte [Comprensión de la administración de cuarentena](../../sending/using/understanding-quarantine-management.md).
 
 ## Quitar de lista de bloqueados {#removing-from-denylist}
 
-* **Uno de mis destinatarios fue incluida en la lista de bloqueados por error. How do I remove them from the denylist so that I can start sending them messages again?**
+* **Uno de mis destinatarios fue agregado a la  de lista de bloqueados por error. How do I remove them from the denylist so that I can start sending them messages again?**
 
    * Vaya a **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
    * En los detalles del registro correspondiente, establezca el valor del campo **[!UICONTROL Status]** en **[!UICONTROL Valid]**.
    * Guarde el registro.
 
-* **¿Cómo puedo saber si una de mis IP está incluida en la lista de bloqueados? ¿Cómo elimino mis IP de una  de lista de bloqueados?**
+* **¿Cómo puedo saber si una de mis IP está en  lista de bloqueados? ¿Cómo elimino mis IP de una  de lista de bloqueados?**
 
-   Para comprobar si su dirección IP está incluida en la lista de bloqueados, puede utilizar varios sitios Web para verificarla, como:
+   Para comprobar si su dirección IP está en lista de bloqueados, puede utilizar varios sitios Web para verificarla, como:
    * [Cuadro de herramientas MX](https://mxtoolbox.com/)
    * [¿Cuál es mi dirección IP?](https://whatismyipaddress.com)
 
