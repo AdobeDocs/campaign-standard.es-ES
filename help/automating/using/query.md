@@ -13,10 +13,10 @@ context-tags: query,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
 workflow-type: tm+mt
-source-wordcount: '1720'
-ht-degree: 97%
+source-wordcount: '1708'
+ht-degree: 96%
 
 ---
 
@@ -71,9 +71,7 @@ La actividad **[!UICONTROL Query]** se puede utilizar para varios tipos de usos:
 
 Los recursos y dimensiones de segmentación le permiten definir en qué elementos se basará una consulta para determinar el destinatario de un envío.
 
-Las dimensiones de segmentación se definen en asignaciones de destino. Para obtener más información, consulte [esta sección](../../administration/using/target-mappings-in-campaign.md).
-
-Los recursos y dimensiones de segmentación se definen al crear un flujo de trabajo, en la pestaña **[!UICONTROL Properties]** de una actividad Consulta.
+Se configuran en [asignaciones de destino](../../administration/using/target-mappings-in-campaign.md)y se definen al crear un flujo de trabajo en la **[!UICONTROL Properties]** ficha de una actividad de Consulta.
 
 >[!NOTE]
 >
