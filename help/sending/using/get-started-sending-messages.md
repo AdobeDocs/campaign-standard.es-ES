@@ -1,5 +1,5 @@
 ---
-title: Comenzar a realizar pruebas y enviar
+title: Introducción a las pruebas y envíos
 description: Descubrir los diferentes pasos para probar y enviar un mensaje.
 page-status-flag: never-activated
 uuid: 58666444-6e7c-4049-b2d2-8b26eabf5a82
@@ -12,15 +12,15 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
+source-git-commit: d90de8255f7b08da2187bb8d1b16624d0d94bd80
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 10%
+source-wordcount: '580'
+ht-degree: 13%
 
 ---
 
 
-# Comenzar a realizar pruebas y enviar {#about-sending-messages-with-campaign}
+# Introducción a las pruebas y envíos {#about-sending-messages-with-campaign}
 
 <table>
 <tr>
@@ -41,7 +41,7 @@ Por último, aproveche las directrices y herramientas de entrega disponibles en 
 
 La preparación **de** mensajes de Campaign Standard analiza el destinatario, la personalización y la validez del mensaje. Los errores detectados durante este paso deben corregirse antes de poder continuar.
 
-**Realice Previsualizaciones y pruebas** de los mensajes con diversas funciones: enviar pruebas para probar perfiles o perfiles con objetivos, probar la línea de asunto de los mensajes de correo electrónico y comprobar la presentación de los mensajes para asegurarse de que se muestre de manera óptima en una variedad de clientes web, correos electrónicos y dispositivos.
+**Realice previsualizaciones y pruebas** de los mensajes con diversas funciones: enviar pruebas para probar perfiles o perfiles con objetivos, probar la línea de asunto de los mensajes de correo electrónico y comprobar la presentación de los mensajes para asegurarse de que se muestre de manera óptima en una variedad de clientes web, correos electrónicos y dispositivos.
 
 Aproveche las capacidades de programación de Campañas para definir cuándo se enviarán los mensajes. Por ejemplo, puede adaptar el envío en la zona horaria del destinatario, optimizar la hora de envío o calcular la fecha de envío.
 
@@ -60,7 +60,7 @@ Más información:
 
 <img src="assets/do-not-localize/icon_send.svg"  width="60px">
 
-Una vez que el mensaje esté listo, puede confirmar los registros y los informes de envío y acceso para **monitorear el envío** y medir el éxito de la campaña. Adobe Campaign también proporciona un sistema de alertas por correo electrónico para realizar un seguimiento de los éxitos o errores de los envíos, así como de las funciones de administración de cuarentenas.
+Una vez que el mensaje esté listo, puede confirmar los registros y los informes de envío y acceso para **monitorear el envío** y medir el éxito de la campaña. Adobe Campaign también ofrece un sistema de alertas por correo electrónico para realizar un seguimiento de los éxitos o errores de los envíos, así como de las funciones de administración de cuarentenas.
 
 **Rastree el comportamiento** de los destinatarios de mensajes utilizando cookies permanentes y de sesión para recuperar información de seguimiento (direcciones URL en las que se hizo clic, páginas espejo, mensajes abiertos...).
 
@@ -73,7 +73,7 @@ Más información:
 * [Archivado con Email BCC](../../sending/using/archiving.md)
 * [Seguimiento de una entrega](../../sending/using/monitoring-a-delivery.md)
 * [Comprensión de los errores de entrega](../../sending/using/understanding-delivery-failures.md)
-* [Compresión de la gestión de la cuarentena](../../sending/using/understanding-quarantine-management.md)
+* [Comprensión de la gestión de la cuarentena](../../sending/using/understanding-quarantine-management.md)
 
 ## Directrices de capacidad de entrega {#improve-deliverability}
 
@@ -96,6 +96,6 @@ Más información:
 * [Diseño de correos electrónicos de prueba A/B](../../channels/using/designing-an-a-b-test-email.md)
 * [Envío de una prueba, preparación y envío de un correo electrónico (vídeo)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/sending-test-preparing-sending-email.html)
 * [Revisar un envío de correo electrónico e informes (vídeo)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/reviewing-personalized-email-delivery-and-reports.html)
-* [Introducción a los correos electrónicos](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
+* [Introducción a los correos electrónicos](https://helpx.adobe.com/es/campaign/kb/acs-get-started-with-emails.html)
 * [Prácticas recomendadas relacionadas con las entregas](https://helpx.adobe.com/es/campaign/kb/delivery-best-practices.html)
-* [Caso de uso: Creación de un grupo de control](../../automating/using/workflow-control-group.md)
+* [Adición de un grupo de control](../../sending/using/control-group.md)
