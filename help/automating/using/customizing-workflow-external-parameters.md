@@ -12,10 +12,10 @@ discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+source-git-commit: ed920a9b08eb664c2825ba785c75092eb0f2be1e
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 5%
+source-wordcount: '797'
+ht-degree: 1%
 
 ---
 
@@ -51,41 +51,45 @@ Cuando se utiliza una variable en una actividad, la interfaz proporciona ayuda p
 
    ![](assets/wkf_test_activity_variables.png)
 
-* ![](assets/extsignal_expression_editor.png): edite expresiones que combinan variables y funciones. Para obtener más información sobre el editor de expresiones, consulte [esta sección](../../automating/using/advanced-expression-editing.md).
+* ![](assets/extsignal_expression_editor.png):: edite expresiones combinando variables y funciones (consulte [](../../automating/using/advanced-expression-editing.md)).
 
    ![](assets/wkf_test_activity_variables_expression.png)
 
-**Temas relacionados:**
+   Esta lista proporciona funciones que le permiten realizar filtros complejos. Estas funciones se detallan en [esta sección](../../automating/using/list-of-functions.md).
 
-* [Edición de una expresión](../../automating/using/advanced-expression-editing.md#edit-an-expression)
-* [Sintaxis estándar](../../automating/using/advanced-expression-editing.md#standard-syntax)
-* [Lista de funciones](../../automating/using/list-of-functions.md)
+   Además, puede utilizar las funciones siguientes, que están disponibles en todas las actividades que le permiten utilizar variables de eventos después de llamar a un flujo de trabajo con parámetros externos (consulte [](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)):
+
+   | Name | Descripción | Syntax |
+   ---------|----------|---------
+   | EndWith | Indica si una cadena (primer parámetro) termina con una cadena específica (segundo parámetro). | EndWith(&lt;String>,&lt;String>) |
+   | startWith | Indica si una cadena (primer parámetro) inicio con una cadena específica (segundo parámetro). | startWith(&lt;String>,&lt;String>) |
+   | Extraer | Devuelve los primeros caracteres de una cadena que utiliza un separador. | Extract(&lt;String>,&lt;Separator>) |
+   | ExtractRight | Devuelve los últimos caracteres de una cadena que utiliza un separador. | ExtractRight(&lt;String>,&lt;Separator>) |
+   | DateFormat | Da formato a una fecha con el formato especificado en el segundo parámetro (ejemplo:  &#39;%4Y%2M%2D&#39;) | DateFormat(&lt;Fecha>,&lt;Formato>) |
+   | NombreDeArchivo | Devuelve el nombre de una ruta de archivo. | FileName(&lt;String>) |
+   | FileExt | Devuelve la extensión de una ruta de archivo. | FileExt(&lt;String>) |
+   | IsNull | Indica si una cadena o una fecha es nula. | IsNull(&lt;String/date>) |
+   | UrlUtf8Encode | Codifica una URL en UTF8. | UrlUtf8Encode(&lt;String>) |
 
 ## Personalización de actividades con variables de eventos {#customizing-activities-with-events-variables}
 
 Las variables de eventos se pueden utilizar para personalizar varias actividades, enumeradas en la sección siguiente. Para obtener más información sobre cómo llamar a una variable desde una actividad, consulte [esta sección](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables).
 
-**[!UICONTROL Read audience]** actividad: definir la audiencia a destinatario en función de las variables de eventos.
-
-For more on how to use the activity, refer to the [dedicated section](../../automating/using/read-audience.md).
+**[!UICONTROL Read audience]** actividad: definir la audiencia a destinatario en función de las variables de eventos. For more on how to use the activity, refer to [this section](../../automating/using/read-audience.md).
 
 ![](assets/extsignal_activities_audience.png)
 
-**[!UICONTROL Test]** actividad: crear condiciones basadas en variables de eventos.
-
-For more on how to use the activity, refer to the [dedicated section](../../automating/using/test.md).
+**[!UICONTROL Test]** actividad: crear condiciones basadas en variables de eventos. For more on how to use the activity, refer to [this section](../../automating/using/test.md).
 
 ![](assets/extsignal_activities_test.png)
 
-**[!UICONTROL Transfer file]** actividad: personalice el archivo que se va a transferir en función de las variables de evento.
-
-For more on how to use the activity, refer to the [dedicated section](../../automating/using/transfer-file.md).
+**[!UICONTROL Transfer file]** actividad: personalice el archivo que se va a transferir en función de las variables de evento. For more on how to use the activity, refer to [this section](../../automating/using/transfer-file.md).
 
 ![](assets/extsignal_activities_transfer.png)
 
 **[!UICONTROL Query]** actividad: se puede hacer referencia a los parámetros en una consulta, mediante expresiones que combinan variables y funciones de eventos. Para ello, agregue una regla y haga clic en el **[!UICONTROL Advanced mode]** vínculo para acceder a la ventana de edición de expresiones (consulte Edición [de expresiones](../../automating/using/advanced-expression-editing.md)avanzada).
 
-For more on how to use the activity, refer to the [dedicated section](../../automating/using/query.md).
+For more on how to use the activity, refer to [this section](../../automating/using/query.md).
 
 ![](assets/extsignal_activities_query.png)
 
