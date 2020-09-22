@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 762700893c913d9aea884d00438c84b39a800188
+source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
 workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 2%
@@ -29,7 +29,7 @@ La sección siguiente lista preguntas comunes sobre esta sincronización.
 Para obtener más información sobre la inserción o en la aplicación, consulte las siguientes preguntas más frecuentes:
 
 * [Preguntas más frecuentes sobre notificaciones Push](../../channels/using/about-push-notifications.md#push-faq)
-* [Preguntas más frecuentes en la aplicación](../../channels/using/about-push-notifications.md#in-app-faq)
+* [Preguntas más frecuentes en la aplicación](../../channels/using/about-in-app-messaging.md#in-app-faq)
 * [Preguntas más frecuentes sobre el flujo de trabajo técnico de sincronización con Launch](../../administration/using/syncwithlaunch-faq.md)
 
 ## Recursos útiles antes de comenzar {#resource-mobile-property}
