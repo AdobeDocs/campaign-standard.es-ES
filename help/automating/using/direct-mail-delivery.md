@@ -13,7 +13,7 @@ context-tags: directMail,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 99%
@@ -29,11 +29,10 @@ ht-degree: 99%
 
 ![](assets/recurrentpaper.png)
 
-La actividad **[!UICONTROL Direct mail delivery]** le permite configurar y preparar un archivo que contenga datos de perfil que desee utilizar para una campaña de correo postal. Puede ser un correo postal que se utiliza una sola vez o uno **recurrente**.
+La actividad **[!UICONTROL Direct mail delivery]** le permite configurar y preparar un archivo que contenga datos de perfil que desee utilizar para una campaña de correo postal. Puede ser un correo postal que se utiliza una sola vez o uno recurrente.
 
-Los mensajes de correo postal estándar se envían una vez.
-
-Los mensajes recurrentes le permiten enviar el mismo correo postal varias veces a diferentes destinatarios durante un periodo definido. Puede acumular los envíos por periodo para obtener informes que se correspondan con sus necesidades.
+* **Los mensajes de correo postal estándar se envían una vez.**
+* **Los mensajes recurrentes le permiten enviar el mismo correo postal varias veces a diferentes destinatarios durante un periodo definido.** Puede acumular los envíos por periodo para obtener informes que se correspondan con sus necesidades.
 
 ## Contexto de uso {#context-of-use}
 
