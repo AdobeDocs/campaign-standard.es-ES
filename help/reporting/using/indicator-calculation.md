@@ -12,9 +12,9 @@ discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '732'
 ht-degree: 8%
 
 ---
@@ -47,7 +47,7 @@ Las tablas siguientes proporcionan la lista de los indicadores utilizados en los
    <td> </td> 
   </tr> 
   <tr> 
-   <td> incluida en la lista de bloqueados<br /> </td> 
+   <td> En lista de bloqueados<br /> </td> 
    <td> @en la lista negra<br /> </td> 
    <td> count(@failReason=8, @failType=2)<br /> </td> 
    <td> </td> 
