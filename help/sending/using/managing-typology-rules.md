@@ -13,10 +13,10 @@ context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 97%
+source-wordcount: '552'
+ht-degree: 96%
 
 ---
 
@@ -72,7 +72,7 @@ En el modo de operación estándar, las reglas se aplican en la siguiente secuen
 1. Reglas de control, si se aplican al principio del objetivo.
 1. Reglas de filtrado:
 
-   * Reglas de aplicación nativas para la calificación de direcciones: dirección definida / dirección no verificada / dirección incluida en la lista de bloqueados / dirección en cuarentena / calidad de dirección.
+   * Reglas de aplicación nativas para la calificación de direcciones: dirección definida / dirección no verificada / dirección en lista de bloqueados/dirección en cuarentena / calidad de dirección.
    * Reglas de filtrado definidas por el usuario.
 
 1. Reglas de control, si se aplican al final del objetivo.
