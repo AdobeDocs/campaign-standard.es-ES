@@ -1,6 +1,6 @@
 ---
 title: Funciones obsoletas y eliminadas de Campaign Standard
-description: Esta página lista funciones de Adobe Campaign Standard obsoletas y eliminadas.
+description: Esta página lista las funciones de Adobe Campaign Standard que ya no se utilizan y que se han eliminado.
 page-status-flag: never-activated
 uuid: null
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d4b1ba38a7aa33d1fff3415d71080e370cb80f4
+source-git-commit: 5203f3b3c520f38d91627df2159a90ab5912e6b6
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 38%
+source-wordcount: '662'
+ht-degree: 35%
 
 ---
 
@@ -52,9 +52,9 @@ Se aconseja a los clientes que comprueben si utilizan la función o la capacidad
  <tbody> 
   <tr> 
    <td> <p> A partir de la versión 20.1, el SDK v4 ya no se utiliza. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Más información</a>.</p><br/>
-   <p>El SDK <a href="https://aep-sdks.gitbook.io/docs/">de</a> Adobe Experience Platform Mobile (anteriormente conocido como v5) solo admitirá las funciones y funciones de Adobe Experience Cloud que se avecinan próximamente.</p></br>
+   <p>El SDK <a href="https://aep-sdks.gitbook.io/docs/">de</a> Adobe Experience Platform Mobile (anteriormente denominado v5) admitirá exclusivamente las funciones y funciones de Adobe Experience Cloud que se avecinan.</p></br>
      <p>
-     <em>Fecha de eliminación del Destinatario: 30 de septiembre de 2020</em></p>
+     <em>Fecha de eliminación del destinatario: 30 de septiembre de 2020</em></p>
      </td> 
   </tr> 
  </tbody> 
@@ -67,7 +67,7 @@ Se aconseja a los clientes que comprueben si utilizan la función o la capacidad
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>A partir de la versión 19.4 de la Campaña, el uso de la API y la interfaz de Campaña para solicitudes de acceso y eliminación está obsoleto. La eliminación del perfil de 2 pasos no estará disponible. Utilice <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a>.</p></br>
+   <td> <p>A partir de la versión 19.4 de la Campaña, el uso de la API de Campaña y la interfaz para acceder y eliminar solicitudes está obsoleto. La eliminación del perfil de 2 pasos no estará disponible. Utilice <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a>.</p></br>
    <p>Consulte también Administración <a href="https://helpx.adobe.com/campaign/kb/acs-privacy.html">de privacidad en Campaign Standard</a>.</p>
   <p> 
   <em>Fecha de eliminación objetivo: 2021</em></p>
@@ -84,7 +84,7 @@ Se aconseja a los clientes que comprueben si utilizan la función o la capacidad
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>A partir de la versión 19.0 de la Campaña, el editor de correo electrónico heredado está en desuso. Utilice <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">el nuevo diseñador</a> de correo electrónico para crear y personalizar el contenido del correo electrónico. </p></br>
+   <td> <p>A partir de la versión 19.0 de la Campaña, el editor de correo electrónico heredado queda obsoleto. Utilice <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">el nuevo diseñador</a> de correo electrónico para crear y personalizar el contenido del correo electrónico. </p></br>
    <p>Lea <a href="https://docs.adobe.com/content/help/es-ES/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">esta sección</a> para aprender a adaptar las plantillas de correo electrónico al nuevo editor.</p></br>
   <p> 
   <em>Fecha de eliminación objetivo: 2021</em></p>
@@ -114,12 +114,27 @@ Esta sección enumera las funciones y capacidades que se han eliminado de Campai
 <table> 
  <thead> 
   <tr> 
+   <th> <strong>Puntuación de tendencia con activadores de Experience Cloud</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>La Puntuación <b>de tendencia</b> se ha eliminado de Adobe Experience Cloud Triggers. Como consecuencia, esta opción se ha eliminado de Adobe Campaign Standard. Para evitar valores obsoletos de la puntuación de tendencia en los esquemas de Enriquecimiento, recomendamos actualizar esquemas para recuperar los cambios más recientes y volver a publicar los activadores existentes. Para obtener más información, consulte <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html#publishing-trigger-in-campaign"> Publicación de un activador en Campaña </a>.
+</p></br>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+<table> 
+ <thead> 
+  <tr> 
    <th> <strong>Creative SDK para Campaign Standard</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Creative SDK se ha retirado del mercado. Como consecuencia, la edición de imágenes con tecnología Creative SDK en correos electrónicos de Campaign Standard ya no está disponible a partir de la versión 20.2 de la Campaña.</p></br>
+   <td> <p>El SDK de Adobe Creative se ha retirado del mercado. Como consecuencia, la edición de imágenes con tecnología Creative SDK en correos electrónicos de Campaign Standard ya no está disponible a partir de la versión 20.2 de la Campaña.</p></br>
    </td> 
   </tr> 
  </tbody> 
@@ -135,7 +150,7 @@ Esta sección enumera las funciones y capacidades que se han eliminado de Campai
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Campaign y Adobe Experience Cloud han dejado de ofrecer compatibilidad con Microsoft Internet Explorer 11 a partir de la primavera de 2019 y la versión 19.2 de Campaña. Cambie a Microsoft Edge u otro explorador compatible. <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/about-configuration-guidelines.html#compatible-browsers">Más información</a>.</p>
+   <td> <p>Adobe Campaign y Adobe Experience Cloud han dejado de ofrecer compatibilidad con Microsoft Internet Explorer 11 a partir de la primavera de 2019 y con la versión 19.2 de Campaña. Cambie a Microsoft Edge u otro explorador compatible. <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/about-configuration-guidelines.html#compatible-browsers">Más información</a>.</p>
    </td> 
   </tr> 
  </tbody> 
