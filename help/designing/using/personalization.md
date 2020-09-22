@@ -12,10 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+source-git-commit: 8e4f25a1d9ad2aa8fb74a6ddd096bda696f502da
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2570'
+ht-degree: 5%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 0%
 
 El contenido y la visualización de los mensajes enviados por Adobe Campaign se pueden personalizar de varias formas. Estas formas se pueden combinar según criterios en función de los perfiles. En general, Adobe Campaign le permite:
 
-* Insertar campos personalizados dinámicos. See [Inserting a personalization field](#inserting-a-personalization-field).
-* Insertar bloques de personalización predefinidos. Consulte [Añadir un bloque](#adding-a-content-block)de contenido.
+* Insertar campos personalizados dinámicos. Consulte [Inserción de un campo de personalización](#inserting-a-personalization-field).
+* Insertar bloques de personalización predefinidos. Consulte [Adición de un bloque de contenido](#adding-a-content-block).
 * Personalice el remitente de un correo electrónico. Consulte [Personalización del remitente](#personalizing-the-sender).
 * Personalice el asunto de un correo electrónico. See [Personalizing the subject line of an email](../../designing/using/subject-line.md#subject-line).
 * Cree contenido condicional. Consulte [Definición de contenido dinámico en un mensaje de correo electrónico](#defining-dynamic-content-in-an-email).
@@ -44,7 +44,7 @@ Este campo se puede personalizar. Para ello, puede añadir campos de personaliza
 
 ## Personalización de direcciones URL{#personalizing-urls}
 
-Adobe Campaign le permite personalizar una o varias direcciones URL en el mensaje agregándoles campos de personalización, bloques de contenido o contenido dinámico. Para ello:
+Adobe Campaign permite personalizar una o varias direcciones URL en el mensaje agregándoles campos de personalización, bloques de contenido o contenido dinámico. Para ello:
 
 1. Inserte una URL externa y especifique sus parámetros. See [Inserting a link](../../designing/using/links.md#inserting-a-link).
 1. Si no se muestra, haga clic en el lápiz situado junto a la URL seleccionada en el panel Configuración para acceder a las opciones de personalización.
@@ -147,9 +147,10 @@ Para crear un bloque de contenido, siga estos pasos:
    * **[!UICONTROL Shared]**:: El bloque de contenido se puede utilizar en un envío o una página de aterrizaje.
    * **[!UICONTROL Delivery]**:: El bloque de contenido solo se puede usar en un envío.
    * **[!UICONTROL Landing page]**:: El bloque de contenido solo se puede usar en una página de aterrizaje.
+
    ![](assets/content_bloc_02.png)
 
-1. Puede seleccionar un **[!UICONTROL Targeting dimension]**. Para obtener más información sobre esto, consulte [Acerca de la dimensión de segmentación](#about-targeting-dimension).
+1. Puede seleccionar un **[!UICONTROL Targeting dimension]**. For more on this, see [About targeting dimension](#about-targeting-dimension).
 
    ![](assets/content_bloc_04.png)
 
@@ -179,7 +180,7 @@ Para obtener más información sobre esto, consulte [Dimensiones de segmentació
 
 **Temas relacionados:**
 
-* [Inserción de un campo personalizado](#inserting-a-personalization-field)
+* [Inserción de un campo de personalización](#inserting-a-personalization-field).
 * [Añadir un bloque de contenido](#adding-a-content-block)
 * [Definición de contenido dinámico en un correo electrónico](#defining-dynamic-content-in-an-email)
 
@@ -226,6 +227,11 @@ Estas condiciones adoptan la sintaxis de expresión XTK (por ejemplo, **context.
 >No se puede definir una condición para un bloque que ya contiene un subelemento con contenido dinámico o un bloque que ya constituye un contenido dinámico. Los bloques dinámicos no visibles, como las listas desplegables, no se pueden editar.
 
 ### Definición de contenido dinámico en un correo electrónico{#defining-dynamic-content-in-an-email}
+
+>[!CONTEXTUALHELP]
+>id="ac_dynamic_content"
+>title="Definición de contenido dinámico"
+>abstract="Defina distintos contenidos para los destinatarios según las reglas definidas mediante el editor de expresiones."
 
 En un mensaje de correo electrónico, puede definir diferentes contenidos que se mostrarán dinámicamente a los destinatarios según las condiciones definidas mediante el editor de expresiones. Por ejemplo, desde el mismo mensaje de correo electrónico, puede asegurarse de que cada perfil recibe un mensaje diferente según el intervalo de edad.
 
@@ -321,13 +327,18 @@ El correo electrónico se crea de la siguiente manera:
 
    Añadir y configurar contenido dinámico se detalla en la sección [Definición de contenido dinámico en un mensaje de correo electrónico](#defining-dynamic-content-in-an-email) .
 
-* Se aplican Campos de personalización y contenido dinámico al texto. Según el rango de edad del perfil, el correo electrónico inicio con el nombre del perfil o el título y los apellidos del perfil.
+* Se aplican campos de personalización y contenido dinámico al texto. Según el rango de edad del perfil, el correo electrónico inicio con el nombre del perfil o el título y los apellidos del perfil.
 
    ![](assets/delivery_content_44.png)
 
    Añadir y configurar los campos de personalización se detalla en la sección [Inserción de un campo](#inserting-a-personalization-field) de personalización.
 
 ### Configuración de imágenes {#configuring-images}
+
+>[!CONTEXTUALHELP]
+>id="ac_dynamic_image"
+>title="Administración de imágenes dinámicas"
+>abstract="Personalice el correo electrónico con imágenes dinámicas según las reglas definidas mediante el editor de expresiones."
 
 En este ejemplo, el contenido dinámico aplicado a las imágenes se configura de la siguiente manera:
 
