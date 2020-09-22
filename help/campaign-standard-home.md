@@ -4,10 +4,10 @@ solution: Campaign Standard
 title: Documentación del producto de Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: ddf585def583acefbb25e7a48318966cd2af49a7
+source-git-commit: 351b8be616b1e293bd2899c2d4dbb489b1318578
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 80%
+source-wordcount: '227'
+ht-degree: 74%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 80%
 ![](start/using/assets/do-not-localize/banner_acs_doc.jpg)
 
 ## Novedades
+
+* **[Grupos de control](sending/using/control-group.md)**<br/>Medir el impacto de sus campañas excluyendo una porción de su audiencia
 
 * **[Correos electrónicos](sending/using/predictive.md)**<br/>con tecnología AI Optimice el diseño y el envío con correos electrónicos con tecnología AI
 
