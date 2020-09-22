@@ -12,7 +12,10 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb7758c6d2b19bb7a302649626acead97497da9a
+source-git-commit: 67fbf66d8ad358ae5d2caaec5b90beb6304047e6
+workflow-type: tm+mt
+source-wordcount: '1147'
+ht-degree: 4%
 
 ---
 
@@ -36,14 +39,14 @@ Para empezar a usar el Diseñador de correo electrónico, vea este [conjunto de 
 * Para obtener más información sobre la creación de contenido:
    * Desde cero, consulte [Diseño de correos electrónicos desde cero](../../designing/using/designing-from-scratch.md).
    * Con el contenido existente, consulte [Diseño con contenido](../../designing/using/using-existing-content.md)existente.
-   * Con las integraciones de Creative Cloud, consulte Diseño [](../../designing/using/using-integrations.md)de correo electrónico con varias soluciones.
+   * Con integraciones de Creative Cloud, consulte Diseño [](../../designing/using/using-integrations.md)de correo electrónico con varias soluciones.
 * Para obtener más información sobre Personalización, consulte [Personalización](../../designing/using/personalization.md).
 
 Al crear un correo electrónico, puede elegir utilizar una plantilla predefinida o cargar un contenido existente de otra fuente. Consulte [Selección de un contenido](../../designing/using/using-existing-content.md#selecting-an-existing-content)existente.
 
 Para aumentar la eficacia de sus campañas de marketing, personalice su contenido. Consulte [Inserción de un campo](../../designing/using/personalization.md#inserting-a-personalization-field) de personalización y [Añadir un bloque](../../designing/using/personalization.md#adding-a-content-block)de contenido.
 
-También puede definir contenido dinámico que varía en función de cada perfil. Consulte [Definición de contenido dinámico en un mensaje de correo electrónico](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) y [Definición de contenido dinámico en una página de aterrizaje](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page).
+También puede definir contenido dinámico que varía según cada perfil. Consulte [Definición de contenido dinámico en un mensaje de correo electrónico](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) y [Definición de contenido dinámico en una página de aterrizaje](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page).
 
 Mejore sus mensajes y páginas de aterrizaje con vínculos e imágenes. Consulte [Inserción de un vínculo](../../designing/using/links.md#inserting-a-link) e [Inserción de imágenes](../../designing/using/images.md#inserting-images).
 
@@ -65,9 +68,9 @@ Acceda a opciones y configuraciones más generales desde la **barra de herramien
 
 ![](assets/email_designer_toolbar.png)
 
-La barra de herramientas **** contextual de la interfaz del editor oferta varias funcionalidades en función de la zona seleccionada. Contiene botones de acción y botones que le permiten cambiar el estilo del texto. Las modificaciones realizadas se aplican siempre a la zona seleccionada.
+La barra de herramientas **** contextual de la interfaz del editor oferta varias funcionalidades en función de la zona seleccionada. Contiene botones de acción y botones que permiten cambiar el estilo del texto. Las modificaciones realizadas se aplican siempre a la zona seleccionada.
 
-### página de inicio de Email Designer {#email-designer-home-page}
+### Página de inicio de Email Designer {#email-designer-home-page}
 
 Al [crear un correo electrónico](../../channels/using/creating-an-email.md), la **[!UICONTROL Email Designer]** página de inicio se muestra automáticamente al seleccionar el contenido del correo electrónico.
 
@@ -117,9 +120,9 @@ Para utilizar correctamente el Diseñador de correo electrónico y crear los mej
 
 * Al editar el contenido **del** correo electrónico:
 
-   Previsualización tus mensajes antes de enviarlos. Adobe Campaign oferta una forma de probar el procesamiento por correo electrónico con Litmus. Para obtener más información sobre esto, consulte Representación [por correo](../../sending/using/email-rendering.md)electrónico.
+   Previsualización tus mensajes antes de enviarlos. Adobe Campaign oferta una forma de probar el procesamiento por correo electrónico con Litmus. For more on this, see [Email rendering](../../sending/using/email-rendering.md).
 
-En la siguiente guía paso a paso de Adobe Campaign se describen más las prácticas recomendadas generales y el diseño en relación con los mensajes: Prácticas recomendadas de [Envío con Adobe Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html).
+En la siguiente sección se describen más las prácticas recomendadas generales y de diseño en relación con los mensajes: [Prácticas recomendadas](../../sending/using/delivery-best-practices.md)de envío.
 
 ### Actualización de fragmentos {#email-designer-updates}
 
