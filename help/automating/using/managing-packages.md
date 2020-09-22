@@ -12,9 +12,9 @@ discoiquuid: c3015cdc-8432-4e57-8ac0-43ae7827e3b0
 context-tags: packageDef,overview;packageInstall,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
+workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 100%
 
@@ -43,9 +43,11 @@ Para mostrar y modificar el contenido de un elemento, haga clic en su etiqueta. 
 
 ![](assets/packages_14.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
->La exportación de paquetes no está autorizada si los recursos exportados tienen ID predeterminados. Por lo tanto, los ID de los recursos exportables deben cambiarse con un nombre que sea diferente al de las plantillas que ofrece Adobe Campaign Standard como estándar. Por ejemplo, para exportar perfiles de prueba, no debe utilizarse ningún ID que contenga el valor &quot;SDM&quot; o &quot;sdm&quot;. Al intentar exportar paquetes que contienen ID predeterminados, puede ver errores como: &quot;El tipo de entidad &#39;Marcas (marca)&#39; utiliza un ID predeterminado (&#39;BRD1&#39;) que puede provocar un conflicto al importar el paquete. Cambie este nombre y repita la operación&quot;.
+>La exportación de paquetes no está autorizada si los recursos exportados tienen ID predeterminados. Por lo tanto, los ID de los recursos exportables deben cambiarse con un nombre que sea diferente al de las plantillas que ofrece Adobe Campaign Standard como estándar. Por ejemplo, para exportar perfiles de prueba, no debe utilizarse ningún ID que contenga el valor &quot;SDM&quot; o &quot;sdm&quot;.
+>
+>Al intentar exportar paquetes que contienen ID predeterminados, puede ver errores como: &quot;El tipo de entidad &#39;Marcas (marca)&#39; utiliza un ID predeterminado (&#39;BRD1&#39;) que puede provocar un conflicto al importar el paquete. Cambie este nombre y repita la operación&quot;.
 
 Los pasos de exportación del paquete se describen en la sección [Exportación de un paquete](#exporting-a-package) .
 
