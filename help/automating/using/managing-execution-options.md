@@ -13,10 +13,10 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8ebded956ef52bb742160d62ebbd8095c390d51c
+source-git-commit: 813f74458bef5e80e24cc0125ddd8d7de6252196
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 2%
+source-wordcount: '264'
+ht-degree: 13%
 
 ---
 
@@ -41,7 +41,11 @@ Las opciones posibles son:
 
 * **[!UICONTROL Save SQL queries in the log]**:: permite guardar las consultas SQL del flujo de trabajo en los registros.
 
-* **[!UICONTROL Keep interim results]**:: marque esta opción si desea poder realizar una vista del detalle de las transiciones. Advertencia: esta opción puede ralentizar considerablemente la ejecución del flujo de trabajo.
+* **[!UICONTROL Keep interim results]**:: marque esta opción si desea poder realizar una vista del detalle de las transiciones.
+
+   >[!CAUTION]
+   >
+   >Esta opción consume mucho espacio en el disco y está diseñada para ayudarle a crear un flujo de trabajo y garantizar una configuración y un comportamiento adecuados. Deje sin marcar las instancias de producción.
 
 * **[!UICONTROL Execute in the engine (do not use in production)]**:: le permite ejecutar el flujo de trabajo de forma local, con fines de prueba de entorno de desarrollo.
 
