@@ -12,9 +12,9 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1150'
 ht-degree: 90%
 
 ---
@@ -60,7 +60,7 @@ Para crear y configurar esta página de aterrizaje, debe:
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   Este contexto elimina el campo &quot;Incluida en la lista de bloqueados&quot; para poder enviar correos electrónicos. Más adelante, veremos que la primera página de aterrizaje era establecer este campo en **true** antes de la confirmación, para evitar enviar correos electrónicos a perfiles no confirmados. Para obtener más información, consulte el [paso 3: crear la página de aterrizaje de adquisición](#step-3--create-the-acquisition-landing-page).
+   Este contexto elimina el campo &quot;En lista de bloqueados de&quot; para poder enviar correos electrónicos. Más adelante, veremos que la primera página de aterrizaje era establecer este campo en **true** antes de la confirmación, para evitar enviar correos electrónicos a perfiles no confirmados. Para obtener más información, consulte el [paso 3: crear la página de aterrizaje de adquisición](#step-3--create-the-acquisition-landing-page).
 
 1. Personalice el contenido de la página de aterrizaje: puede mostrar datos personalizados y cambiar la etiqueta del botón de confirmación a “Haga clic aquí para confirmar la suscripción”, por ejemplo.
 
@@ -101,12 +101,12 @@ El evento está listo. Ahora puede diseñar la plantilla de correo electrónico.
 
 ### Creación de la tipología {#create-the-typology-rule}
 
-Debe crear una [tipología](../../sending/using/about-typology-rules.md) específica duplicando una predeterminada. La tipología permitirá enviar mensajes a los perfiles que aún no han confirmado su acuerdo y siguen incluida en la lista de bloqueados. De forma predeterminada, las tipologías excluyen los perfiles de exclusión (es decir, incluida en la lista de bloqueados). Para crear esta tipología, siga estos pasos:
+Debe crear una [tipología](../../sending/using/about-typology-rules.md) específica duplicando una predeterminada. La tipología permitirá enviar mensajes a los perfiles que aún no han confirmado su acuerdo y siguen en lista de bloqueados. De forma predeterminada, las tipologías excluyen los perfiles de exclusión (es decir, en lista de bloqueados). Para crear esta tipología, siga estos pasos:
 
 1. En el logotipo de Adobe Campaign, seleccione **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** y haga clic en **[!UICONTROL Typologies]**.
 1. Duplique la tipología **[!UICONTROL Transactional message on profile (mcTypologyProfile)]** predeterminada.
 1. Una vez confirmada la duplicación, edite la nueva tipología e introduzca la etiqueta **TYPOLOGY_PROFILE**.
-1. Remove the **Denylisted address** rule.
+1. Elimine la **dirección de lista de bloqueados regla de** .
 1. Haga clic en **[!UICONTROL Save]**.
 
 Esta tipología ahora se puede asociar al correo electrónico de confirmación.
