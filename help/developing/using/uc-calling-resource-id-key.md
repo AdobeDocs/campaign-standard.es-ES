@@ -2,10 +2,10 @@
 title: Invocación de un recurso mediante una clave de identificación compuesta
 description: Obtenga información sobre cómo llamar a un recurso mediante una clave de identificación compuesta
 translation-type: tm+mt
-source-git-commit: 1e1e1f5f9dd239e45d83330aed74a951a7b332d4
+source-git-commit: 81612f8158a19853e4b3ca05866fa335af493f67
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 6%
+source-wordcount: '588'
+ht-degree: 7%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 6%
 
 En algunos casos, es posible que necesite definir para un recurso una clave de identificación compuesta por dos campos. Una vez configurada la clave de identificación, debe configurar una definición de filtro para poder llamar al recurso con esta clave de identificación, ya sea desde la interfaz de Campaign Standard o las API.
 
-En este caso de uso, el recurso de **Perfil** se ha ampliado con los campos **&quot;ID de CRM&quot;** y **&quot;categoría&quot;** personalizados. Crearemos una clave de identificación para el recurso de Perfil, que se compondrá de estos dos campos. A continuación, configuraremos una definición de filtro para que podamos acceder al recurso de Perfil mediante la clave de identificación.
+En este caso de uso, el recurso de **Perfil** se ha ampliado con los campos personalizados **&quot;ID de CRM&quot;** y **&quot;categoría&quot;** . Crearemos una clave de identificación para el recurso de Perfil, que se compondrá de estos dos campos. A continuación, configuraremos una definición de filtro para que podamos acceder al recurso de Perfil mediante la clave de identificación.
 
 Los pasos principales para este caso de uso son:
 
@@ -39,7 +39,7 @@ Temas relacionados:
 
    ![](assets/uc_idkey1.png)
 
-1. En la **[!UICONTROL Identification keys]** sección, haga clic en el **[!UICONTROL Create element]** botón .
+1. In the **[!UICONTROL Identification keys]** section, click the **[!UICONTROL Create element]** button.
 
    ![](assets/uc_idkey2.png)
 
@@ -76,7 +76,7 @@ Temas relacionados:
    ![](assets/uc_idkey7.png)
 
    >[!NOTE]
-   > Una vez que haya hecho clic en el botón más, el nombre del parámetro se genera automáticamente. Tenga en cuenta esta información, ya que necesitará que utilice el filtro de las API.
+   > Una vez que haya hecho clic en el botón **+** , el nombre del parámetro se genera automáticamente. Tenga en cuenta esta información, ya que necesitará que utilice el filtro de las API.
 
 1. Repita los pasos anteriores con todos los campos que componen la clave de identificación (&quot;categoría&quot;) y guarde los cambios.
 
