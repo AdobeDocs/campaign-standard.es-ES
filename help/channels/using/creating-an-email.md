@@ -12,18 +12,21 @@ discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
+source-git-commit: e1e092249a447039c0d845f143be532f845ca1dc
+workflow-type: tm+mt
+source-wordcount: '549'
+ht-degree: 19%
 
 ---
 
 
 # Creación de un correo electrónico{#creating-an-email}
 
-Puede crear un correo electrónico desde una [campaña](../../start/using/marketing-activities.md#creating-a-marketing-activity), desde la [página de inicio](../../start/using/interface-description.md#home-page)de Adobe Campaign o en la lista [de actividad de](../../start/using/marketing-activities.md#about-marketing-activities)marketing. También puede crear correos electrónicos recurrentes y de un solo envío a partir de un flujo de trabajo.
+Puede crear un correo electrónico desde una [campaña](../../start/using/marketing-activities.md#creating-a-marketing-activity), desde la [página de inicio](../../start/using/interface-description.md#home-page)de Adobe Campaign o desde la lista [de actividad de](../../start/using/marketing-activities.md#about-marketing-activities)marketing. También puede crear correos electrónicos recurrentes y de un solo envío a partir de un flujo de trabajo.
 
 1. Una vez que haya empezado a crear una actividad de marketing por correo electrónico, seleccione la plantilla que desee utilizar.
 
-   De forma predeterminada, puede elegir entre varias plantillas para cada actividad de mercadotecnia. Esto le permite preconfigurar ciertos parámetros según sus necesidades y también asignar una marca al envío. Para obtener más información sobre esto, consulte [Administración de plantillas](../../start/using/marketing-activity-templates.md).
+   De forma predeterminada, puede elegir entre varias plantillas para cada actividad de mercadotecnia. Esto le permite preconfigurar ciertos parámetros según sus necesidades y también asignar una marca al envío. For more on this, see [Managing templates](../../start/using/marketing-activity-templates.md).
 
    ![](assets/email_creation_1.png)
 
@@ -31,9 +34,9 @@ Puede crear un correo electrónico desde una [campaña](../../start/using/market
    >
    >Las plantillas de prueba A/B y de seguimiento están ocultas de forma predeterminada. Marque las casillas del lado izquierdo (panel **[!UICONTROL Filter]** lateral) si desea mostrarlas.
 
-1. Introduzca las propiedades generales del correo electrónico. Puede introducir un nombre en el campo **Etiqueta** y editar el ID. Tanto el nombre de la actividad como su ID aparecen en la interfaz, pero no son visibles para los destinatarios de mensajes.
+1. Introduzca las propiedades generales del correo electrónico. You can enter a name in the **Label** field and edit the ID. Tanto el nombre de la actividad como su ID aparecen en la interfaz, pero no son visibles para los destinatarios de mensajes.
 
-   Puede agregar una descripción que el usuario pueda ver en el contenido de la campaña.
+   Puede añadir una descripción que el usuario pueda ver en el contenido de la campaña.
 
    ![](assets/email_creation_2.png)
 
@@ -41,9 +44,9 @@ Puede crear un correo electrónico desde una [campaña](../../start/using/market
    >
    >Puede crear el correo electrónico dentro de una campaña principal desde la página de inicio o la lista de actividades de marketing. Selecciónelo entre las campañas que ya se han creado.
 
-1. Defina el destinatario del mensaje en función de los criterios comerciales. Consulte [Administración de perfiles](../../audiences/using/about-profiles.md).
+1. Defina el destinatario del mensaje en función de los criterios comerciales. See [About profiles](../../audiences/using/about-profiles.md).
 
-   También puede definir los perfiles de prueba que validarán el mensaje. Consulte [Administración de perfiles](../../audiences/using/managing-test-profiles.md)de prueba.
+   También puede definir los perfiles de prueba que validarán el mensaje. Consulte [Administración de perfiles de prueba](../../audiences/using/managing-test-profiles.md).
 
    ![](assets/email_creation_3.png)
 
@@ -54,7 +57,7 @@ Puede crear un correo electrónico desde una [campaña](../../start/using/market
    Puede diseñar el mensaje directamente con una plantilla de contenido predefinida o con Dreamweaver o Adobe Experience Manager. Si no se siente como un diseñador, también puede cargar un contenido preparado para usted o importar un contenido existente desde una dirección URL. Consulte [Selección de un contenido](../../designing/using/using-existing-content.md)existente.
 
 1. Previsualice el mensaje. Consulte [Vista previa de mensajes](../../sending/using/previewing-messages.md).
-1. Confirme la creación del correo electrónico.
+1. Confirme el correo electrónico que ha creado.
 
    >[!NOTE]
    >
@@ -76,9 +79,9 @@ Puede crear un correo electrónico desde una [campaña](../../start/using/market
 
    >[!NOTE]
    >
-   >Puede establecer reglas globales de fatiga entre canales que excluyan automáticamente los perfiles superpuestos de las campañas. Para obtener más información sobre esto, consulte [Reglas](../../sending/using/fatigue-rules.md)de fatiga.
+   >Puede establecer reglas globales de fatiga entre canales que excluyan automáticamente los perfiles superpuestos de las campañas. For more on this, see [Fatigue rules](../../sending/using/fatigue-rules.md).
 
-1. Envíe pruebas para comprobar y validar el mensaje y supervisar el procesamiento de su bandeja de entrada. Consulte [Envío de prueba](../../sending/using/sending-proofs.md).
+1. Envíe pruebas para comprobar y validar el mensaje y supervisar el procesamiento de la bandeja de entrada. Consulte [Envío de prueba](../../sending/using/sending-proofs.md).
 
    ![](assets/bat_select.png)
 
@@ -90,7 +93,7 @@ Puede crear un correo electrónico desde una [campaña](../../start/using/market
 
 **Temas relacionados**:
 
-* [Creación de un vídeo de correo electrónico](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html)
-* [Creación de una guía paso a paso de correo electrónico](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html) personalizada
-* [Vídeo de integración](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html) de Adobe Campaign y Dreamweaver
+* Vídeo de la [Creación de un correo electrónico](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html)
+* [Creación de una guía paso a paso de correo electrónico](https://helpx.adobe.com/es/campaign/kb/acs-get-started-with-emails.html) personalizada
+* [Vídeo de integración](https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html) de Adobe Campaign y Dreamweaver
 * [Integración con Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
