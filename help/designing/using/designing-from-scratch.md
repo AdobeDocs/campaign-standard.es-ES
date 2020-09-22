@@ -12,7 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 023159c1c2d3334fd79e9ed9bf628758d84111eb
+source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
+workflow-type: tm+mt
+source-wordcount: '1185'
+ht-degree: 2%
 
 ---
 
@@ -20,8 +23,6 @@ source-git-commit: 023159c1c2d3334fd79e9ed9bf628758d84111eb
 # Diseño de correos electrónicos desde cero {#designing-an-email-content-from-scratch}
 
 Aprenda a dominar la edición de contenido de correo electrónico. Con Email Designer, puede crear correos electrónicos y plantillas empezando o sin su propio contenido predefinido.
-
-## Pasos clave para crear el correo electrónico {#key-steps-to-create-your-email}
 
 A continuación se indican los pasos principales para crear y diseñar contenido de correo electrónico desde cero con el Diseñador de correo electrónico:
 
@@ -40,7 +41,17 @@ También puede ver este vídeo [de introducción](https://video.tv.adobe.com/v/2
 >
 >Para evitar el diseño del contenido del correo electrónico desde cero, puede utilizar plantillas de contenido integradas. Para obtener más información sobre esto, consulte Plantillas [de contenido](../../designing/using/using-reusable-content.md#content-templates).
 
-### Definición de la estructura de correo electrónico {#defining-the-email-structure}
+## Definición de la estructura de correo electrónico {#defining-the-email-structure}
+
+>[!CONTEXTUALHELP]
+>id="ac_structure_components"
+>title="Acerca de los componentes de estructura"
+>abstract="Elementos estructurales que definen el diseño del correo electrónico."
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_columns"
+>title="Definición de columnas de correo electrónico"
+>abstract="El Diseñador de correo electrónico permite definir fácilmente la estructura de columnas del correo electrónico."
 
 El Diseñador de correo electrónico permite definir fácilmente la estructura del correo electrónico. Al agregar y mover elementos estructurales con simples acciones de arrastrar y soltar, puede diseñar la forma del correo electrónico en cuestión de segundos.
 
@@ -59,6 +70,8 @@ Para editar la estructura de un correo electrónico:
 
    >[!NOTE]
    >
+   >Tenga en cuenta que la pila de columnas no es compatible con todos los programas de correo electrónico. Cuando no se admiten, las columnas no se apilarán.
+   >
    >Una vez colocados en el correo electrónico, no podrá mover ni eliminar los componentes a menos que ya haya un componente de contenido o un fragmento dentro del mismo.
 
 1. Hay disponibles varios componentes de estructura compuestos por una o más columnas.
@@ -73,7 +86,32 @@ Para editar la estructura de un correo electrónico:
 
 Una vez definida la estructura, podrá añadir fragmentos de contenido y componentes al correo electrónico.
 
-### Uso de componentes de contenido {#about-content-components}
+## Uso de un preencabezado {#preheader}
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_preheader"
+>title="Uso de un preencabezado"
+>abstract="El encabezado previo le permite configurar un texto de resumen corto que ofrece una tasa de apertura más alta para el correo electrónico."
+
+El encabezado previo es un breve texto de resumen que sigue la línea del asunto al ver un correo electrónico desde la bandeja de entrada. El preencabezado ofrece una velocidad de apertura más alta.
+
+Seleccione el cuadro de **[!UICONTROL Preheader]** edición y complete el contenido.
+
+![](assets/email_designer_preheader.png)
+
+Puede agregar un **[!UICONTROL Content block]**, un **[!UICONTROL Dynamic content]** o un **[!UICONTROL Personalization fields]** en el contenido del encabezado previo.
+
+>[!NOTE]
+>
+>Tenga en cuenta que preheader no es compatible con todos los programas de correo electrónico. Cuando no se admite, no se mostrará el encabezado previo.
+
+
+## Uso de componentes de contenido {#about-content-components}
+
+>[!CONTEXTUALHELP]
+>id="ac_content_components"
+>title="Acerca de los componentes de contenido"
+>abstract="Los componentes de contenido son componentes sin procesar y vacíos que se pueden editar una vez colocados en un mensaje de correo electrónico."
 
 Los componentes de contenido son componentes sin procesar y vacíos que se pueden editar una vez colocados en un mensaje de correo electrónico.
 
@@ -81,77 +119,91 @@ Puede agregar tantos componentes de contenido como desee en un componente de est
 
 Esta es la lista de los componentes disponibles en el Diseñador de correo electrónico:
 
-- **[!UICONTROL Button]**
+### **[!UICONTROL Button]**
 
-   Si necesita utilizar varios botones, en lugar de editarlos desde cero, puede crear un duplicado del **[!UICONTROL Button]** componente mediante la barra de herramientas contextual.
+Si necesita utilizar varios botones, en lugar de editarlos desde cero, puede crear un duplicado del **[!UICONTROL Button]** componente mediante la barra de herramientas contextual.
 
-   También puede guardar botones en fragmentos que se puedan reutilizar. Para obtener más información sobre esto, consulte [Creación de un fragmento](../../designing/using/using-reusable-content.md#creating-a-content-fragment) de contenido y [Guardado de contenido como un fragmento](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
+También puede guardar botones en fragmentos que se puedan reutilizar. Para obtener más información sobre esto, consulte [Creación de un fragmento](../../designing/using/using-reusable-content.md#creating-a-content-fragment) de contenido y [Guardado de contenido como un fragmento](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
 
 Seleccione **[!UICONTROL Fallback view]** para mostrar la imagen de reserva en el Diseñador de correo electrónico.
 
-- **[!UICONTROL Text]**
+### **[!UICONTROL Text]**
 
-   Utilice este componente para insertar texto en el correo electrónico. Puede ajustar el color, el estilo y el tamaño del texto en **[!UICONTROL Component Settings]**.
+    Utilice este componente para insertar texto en el correo electrónico. Puede ajustar el color, el estilo y el tamaño del texto en **[!UICONTROL Component Settings]**.
 
-- **[!UICONTROL Divider]**
+### **[!UICONTROL Divider]**
 
-   Utilice este componente para insertar una línea divisoria en el correo electrónico. Puede seleccionar el color, el estilo y el tamaño de la línea de salto en **[!UICONTROL Component Settings]**.
+    Utilice este componente para insertar una línea divisoria en el correo electrónico. Puede seleccionar el color, el estilo y el tamaño de la línea de salto en **[!UICONTROL Component Settings]**.
 
-- **[!UICONTROL Html]**
+### **[!UICONTROL Html]**
 
-   Utilice este componente para copiar y pegar las diferentes partes del HTML existente. Esto le permite crear componentes HTML modulares gratuitos.
+Utilice este componente para copiar y pegar las diferentes partes del HTML existente. Esto le permite crear componentes HTML modulares gratuitos.
 
-   >[!NOTE]
-   >
-   >Un componente HTML gratuito se puede editar con opciones limitadas. Si no se han alineado todos los estilos, asegúrese de agregar la CSS adecuada en la sección **head** del código HTML; de lo contrario, el correo electrónico no responderá. Utilice el **[!UICONTROL Preview]** botón para probar la capacidad de respuesta del contenido (consulte [Vista previa de mensajes](../../sending/using/previewing-messages.md)).
+>[!NOTE]
+>
+>Un componente HTML gratuito se puede editar con opciones limitadas. Si no se han alineado todos los estilos, asegúrese de agregar la CSS adecuada en la sección **head** del código HTML; de lo contrario, el correo electrónico no responderá. Utilice el **[!UICONTROL Preview]** botón para probar la capacidad de respuesta del contenido (consulte [Vista previa de mensajes](../../sending/using/previewing-messages.md)).
 
-   Para que un contenido externo sea compatible con el Diseñador de correo electrónico, Adobe recomienda crear un mensaje desde cero y copiar el contenido del correo electrónico existente en fragmentos y componentes.
+Para que un contenido externo sea compatible con el Diseñador de correo electrónico, Adobe recomienda crear un mensaje desde cero y copiar el contenido del correo electrónico existente en fragmentos y componentes.
 
-   Si tiene contenido que no se puede volver a crear, puede copiar y pegar el código HTML del correo electrónico original mediante el componente de contenido **[!UICONTROL Html]** . Asegúrese de que está familiarizado con HTML antes de continuar.
+Si tiene contenido que no se puede volver a crear, puede copiar y pegar el código HTML del correo electrónico original mediante el componente de contenido **[!UICONTROL Html]** . Asegúrese de que está familiarizado con HTML antes de continuar.
 
-   <!-- A full example is presented below. -->
+<!-- A full example is presented below. -->
 
-   >[!NOTE]
-   >
-   >El nuevo contenido no será la copia exacta de su correo electrónico original, pero los pasos a continuación le guiarán a través de la creación de un mensaje que será lo más cercano posible.
+>[!NOTE]
+>
+>El nuevo contenido no será la copia exacta de su correo electrónico original, pero los pasos a continuación le guiarán a través de la creación de un mensaje que será lo más cercano posible.
 
-   **Antes de copiar el contenido**
+    **Antes de copiar el contenido**
+    
+    1. En el correo electrónico original, identifique las secciones reutilizables de las secciones que serán exclusivas de cada correo electrónico que envíe.
+    1. Guarde todas las imágenes y recursos que desee utilizar.
+    1. Si está familiarizado con HTML, divida el contenido HTML original en diferentes partes.
 
-   1. En el correo electrónico original, identifique las secciones reutilizables de las secciones que serán únicas para cada correo electrónico que envíe.
-   1. Guarde todas las imágenes y recursos que desee utilizar.
-   1. Si está familiarizado con HTML, divida el contenido HTML original en diferentes partes.
+### Vídeo {#video-settings}
 
-- **[!UICONTROL Video]**
+>[!CONTEXTUALHELP]
+>id="ac_edition_video"
+>title="Configuración de vídeo"
+>abstract="Utilice este componente para insertar un vídeo en el correo electrónico."
 
-   Utilice este componente para insertar un vídeo en el correo electrónico.
+Inserte el componente de vídeo en un componente de estructura del correo electrónico e introduzca el vínculo de vídeo en el **[!UICONTROL Component Settings]**.
 
-   Inserte el componente de vídeo en un componente de estructura del correo electrónico e introduzca el vínculo de vídeo en el **[!UICONTROL Component Settings]**.
+>[!NOTE]
+>
+>Tenga en cuenta que el vídeo no es compatible con todos los programas de correo electrónico. Cuando no se admite, se mostrará la opción de reserva.
 
-- **[!UICONTROL Image]**
+### Imagen
 
-   Utilice este componente para insertar una imagen en el correo electrónico.
+Utilice este componente para insertar una imagen en el correo electrónico.
 
-   Inserte el componente de imagen en un componente de estructura y haga clic en Examinar para cargar un archivo de imagen desde el equipo.
+Inserte el componente de imagen en un componente de estructura y haga clic en Examinar para cargar un archivo de imagen desde el equipo.
 
-- **[!UICONTROL Social]**
+### **[!UICONTROL Social]**
 
-   Utilice este componente para insertar vínculos a páginas de medios sociales en el correo electrónico. Puede seleccionar los vínculos que desea mostrar y el tamaño del icono en **[!UICONTROL Component Settings]**.
+Utilice este componente para insertar vínculos a páginas de medios sociales en el correo electrónico. Puede seleccionar los vínculos que desea mostrar y el tamaño del icono en **[!UICONTROL Component Settings]**.
 
-- **[!UICONTROL Carousel]**
+### Carrusel {#carousel-settings}
 
-   1. Arrastre y suelte el **[!UICONTROL Carousel]** componente dentro de un componente de estructura.
-   1. Busque para seleccionar imágenes del equipo.
+>[!CONTEXTUALHELP]
+>id="ac_edition_carousel"
+>title="Configuración de carrusel"
+>abstract="Aprenda a insertar y configurar un carrusel en el contenido."
+
+1. Arrastre y suelte el **[!UICONTROL Carousel]** componente dentro de un componente de estructura.
+1. Busque para seleccionar imágenes del equipo.
+
    ![](assets/des_carousel_browse.png)
 
-   1. En el **[!UICONTROL Settings]** panel, establezca el número de miniaturas que desee incluir en el carrusel.
-   1. Seleccione una imagen de reserva del equipo.
+1. En el **[!UICONTROL Settings]** panel, establezca el número de miniaturas que desee incluir en el carrusel.
+1. Seleccione una imagen de reserva del equipo.
+
    ![](assets/des_carousel_fallback.png)
 
-   El componente carrusel no es compatible con todos los programas de correo electrónico. Cargue una alternativa para mostrar una imagen en su lugar cuando el carrusel no sea compatible con el correo electrónico.
+El componente carrusel no es compatible con todos los programas de correo electrónico. Cargue una alternativa para mostrar una imagen en su lugar cuando el carrusel no sea compatible con el correo electrónico.
 
-   >[!NOTE]
-   >
-   >El componente carrusel es compatible con las siguientes plataformas de correo electrónico: Apple Mail 7, Apple Mail 8, Outlook 2011 para Mac, Outlook 2016 para Mac, Mozilla Thunderbird, iPad y iPad mini iOS, iPhone iOS, Android, AOL (Chrome, Firefox y Safari).
+>[!NOTE]
+>
+>El componente carrusel es compatible con las siguientes plataformas de correo electrónico: Apple Mail 7, Apple Mail 8, Outlook 2011 para Mac, Outlook 2016 para Mac, Mozilla Thunderbird, iPad y iPad mini iOS, iPhone iOS, Android, AOL (Chrome, Firefox y Safari).
 
 **Temas relacionados**:
 
