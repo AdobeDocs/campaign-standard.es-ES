@@ -12,10 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bb83fb3b24af0102dc3745517e8604fdac82ee19
+source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
@@ -43,12 +43,12 @@ Este caso de uso permite crear una plantilla de diseñador de correo electrónic
 ## Crear la estructura de correo electrónico
 
 1. Abra el **[!UICONTROL Email Designer]** para crear un contenido de correo electrónico vacío.
-1. Defina los atributos de nivel de cuerpo: colores de fondo, anchura, etc. Para obtener más información sobre esto, consulte [Edición de estilos](../../designing/using/styles.md)de correo electrónico.
-1. Añada tantos componentes de estructura como secciones. Para obtener más información sobre esto, consulte [Edición de la estructura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)de correo electrónico.
+1. Defina los atributos de nivel de cuerpo: colores de fondo, anchura, etc. Para obtener más información, consulte [Edición de estilos de correo electrónico](../../designing/using/styles.md).
+1. Añada tantos componentes de estructura como secciones. Para obtener más información, consulte [Edición de la estructura de correo electrónico](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 ## Añadir contenido HTML
 
-1. Añada un componente HTML a cada componente de estructura. Para obtener más información sobre esto, consulte [Añadir fragmentos y componentes](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Añada un componente HTML a cada componente de estructura. Para obtener más información, consulte [Añadir fragmentos y componentes](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Copie y pegue el HTML en todos los componentes.
 
 ## Administrar el estilo del correo electrónico {#manage-the-style-of-your-email}
@@ -85,7 +85,7 @@ Este caso de uso permite crear una plantilla de diseñador de correo electrónic
 
 Intentemos convertir este correo electrónico, creado en el editor heredado, en una **[!UICONTROL Email Designer]** plantilla.
 
-## Identifique la sección de su correo electrónico
+### Identifique la sección de su correo electrónico
 
 Podemos identificar 11 secciones en este correo electrónico.
 
