@@ -12,9 +12,9 @@ discoiquuid: 4f22ee35-1d5f-4c75-95b4-3e38b85de26e
 context-tags: cusResource,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6cf00f9b9bafdd54d8424a353b33dc689c0f59aa
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 81612f8158a19853e4b3ca05866fa335af493f67
+workflow-type: tm+mt
 source-wordcount: '1657'
 ht-degree: 100%
 
@@ -154,6 +154,7 @@ Un vínculo detalla la asociación que una tabla tiene con otras tablas.
    * **[!UICONTROL 1 cardinality simple link]**: una incidencia de la tabla de origen puede tener como máximo una incidencia correspondiente de la tabla de destino.
    * **[!UICONTROL N cardinality collection link]**: una incidencia de la tabla de origen puede tener varias incidencias correspondientes de la tabla de destino, pero una incidencia de la tabla de destino puede tener como máximo una incidencia correspondiente de la tabla de origen.
    * **[!UICONTROL 0 or 1 cardinality simple link]**: una incidencia de la tabla de origen puede tener como máximo una incidencia correspondiente de la tabla de destino o ninguna. Tenga en cuenta que este tipo de **[!UICONTROL Link type]** puede provocar problemas de rendimiento.
+
    ![](assets/schema_extension_29.png)
 
 1. En la pantalla **[!UICONTROL New link]**, los campos **[!UICONTROL Label]** y **[!UICONTROL ID]** se completan de forma predeterminada, pero puede editarlos.
@@ -161,8 +162,6 @@ Un vínculo detalla la asociación que una tabla tiene con otras tablas.
    >[!NOTE]
    >
    >Utilice un máximo de 30 caracteres.
-
-   >[!IMPORTANT]
    >
    >No es posible cambiar el nombre de un vínculo después de crearlo. Para cambiar el nombre de un vínculo, debe eliminarlo y crearlo de nuevo.
 
@@ -178,6 +177,7 @@ Un vínculo detalla la asociación que una tabla tiene con otras tablas.
 
    * **[!UICONTROL Use the primary key to make the join]**: esta definición de combinación le permite utilizar la clave primaria de perfiles para cuadrarse con la clave primaria de las compras.
    * **[!UICONTROL Define specific join conditions]**: esta definición de combinación le permite seleccionar manualmente los campos que se unen a ambos recursos. Tenga en cuenta que si los datos no están correctamente configurados, el registro de **compra** no estará visible.
+
    ![](assets/schema_extension_17.png)
 
 Los vínculos creados se muestran en la lista de la sección **[!UICONTROL Links]**.
