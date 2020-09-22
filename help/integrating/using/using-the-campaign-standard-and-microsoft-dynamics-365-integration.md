@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cd1cbf907eb160b6bbc1a2a2d3dd1c601ac13635
+source-git-commit: 6078a16c679d368dd85cecbb8b715e2de3da805a
 workflow-type: tm+mt
 source-wordcount: '1186'
 ht-degree: 1%
@@ -32,7 +32,7 @@ Esta integración realiza varios trabajos:
 
 * **Egress**: Incorporar eventos de marketing por correo electrónico de ACS a D365 (envío por correo electrónico, apertura, clic, devolución)
 
-* **Exclusión**: Estado de exclusión de sincronización bidireccional (por ejemplo, lista de bloqueados)
+* **Exclusión**: Estado de exclusión de sincronización bidireccional (p. ej., lista de bloqueados)
 
 Puede encontrar más detalles sobre los flujos de datos [en esta sección](#data-flows).
 
@@ -157,13 +157,13 @@ Los valores de exclusión (por ejemplo, lista de bloqueados) se sincronizan entr
 Como alternativa, si tiene un proceso independiente para administrar la sincronización de la exclusión entre los sistemas, el flujo de datos de exclusión de la integración puede deshabilitarse.
 
 El cliente debe especificar la asignación de flujo de exclusión, ya que los requisitos comerciales pueden diferir entre compañías.  En el lado de la Campaña, solo se pueden usar los atributos de exclusión de OOTB para la asignación de exclusión:
-* blockList
-* blockListEmail
-* blockListFax
-* blockListMobile
-* blockListPhone
-* blockListPostalMail
-* blockListPushnotification
+* lista de bloqueados
+* boldListEmail
+* boldListFax
+* boldListMobile
+* boldListPhone
+* boldListPostalMail
+* boldListPushnotification
 * ccpaOptOut
 
 En Dynamics 365, la mayoría de los campos de exclusión tienen el prefijo &quot;donot&quot;; sin embargo, también puede utilizar otros atributos para fines de exclusión si los tipos de datos son compatibles.
