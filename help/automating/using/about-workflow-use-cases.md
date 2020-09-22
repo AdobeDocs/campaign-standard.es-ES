@@ -12,10 +12,10 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1043f69841a5a4ddaecc37289c9cfb1c1b5f7f34
+source-git-commit: 72d8c46bab80e572a55488eeb5b6a924c0a9e900
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 41%
+source-wordcount: '234'
+ht-degree: 40%
 
 ---
 
@@ -52,7 +52,6 @@ Le ayudarán a descubrir los diferentes contextos en los que se pueden utilizar 
 * [Consulta incremental sobre los suscriptores de un servicio](../../automating/using/incremental-query-on-subscribers.md)
 * [Segmentación según grupos de edad](../../automating/using/segmentation-age-groups.md)
 * [Uso de recursos diferentes de dimensiones de segmentación](../../automating/using/using-resources-different-from-targeting-dimensions.md)
-* [Creación de un grupo de control](../../automating/using/workflow-control-group.md)
 
 ## Gestión de datos {#management}
 
