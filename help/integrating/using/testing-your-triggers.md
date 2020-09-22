@@ -12,9 +12,9 @@ discoiquuid: f67e69f2-09fb-4f33-b2c3-c67a060743e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 6078a16c679d368dd85cecbb8b715e2de3da805a
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '443'
 ht-degree: 2%
 
 ---
@@ -64,7 +64,7 @@ En caso contrario, compruebe si el activador se recibe de la canalización.
 
 Si no es así, póngase en contacto con Adobe para comprobar la configuración de los puntos finales de la tubería.
 
-Si es así, siga estas líneas de guía:
+En caso afirmativo, siga estas directrices:
 
 * Compruebe el tipo de ID de reconciliación en el origen de datos de la Campaña.
 * El origen de datos CustomerId se crea mediante Atributos del cliente.
@@ -74,10 +74,10 @@ Si es así, siga estas líneas de guía:
 
 **¿El activador está en estado pendiente?**
 
-Si no es así, continúe con el paso siguiente. Si es así, siga estas líneas de guía:
+Si no es así, continúe con el paso siguiente. En caso afirmativo, siga estas directrices:
 
 * Compruebe que la plantilla de transacción está publicada.
-* Compruebe que el perfil no está incluida en la lista de bloqueados.
+* Compruebe que el perfil no está en lista de bloqueados.
 * Compruebe la aplicación de reglas de tipología.
 * Compruebe los registros del mensaje transaccional.
 
