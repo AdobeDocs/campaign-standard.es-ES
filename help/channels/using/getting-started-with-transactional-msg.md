@@ -13,9 +13,9 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a5c5c11a3f29e83f7ec3b36087f9455c58a819e1
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '814'
 ht-degree: 28%
 
 ---
@@ -80,7 +80,7 @@ En Adobe Campaign, hay disponibles dos tipos de mensajes transaccionales:
 </tr>
 <tr>
 <td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><p>Los <a href="../../channels/using/profile-transactional-messages.md">mensajes transaccionales de perfil</a><br><b> están dirigidos a perfiles de la base de datos de marketing de Adobe Campaign</b></p></td>
-<td><p>Los mensajes transaccionales de perfil permiten:<ul><li>Apply marketing typology rules such as <b>denylisted address</b> or <a href="../../sending/using/fatigue-rules.md">fatigue rules</a>.</li><li>Incluir vínculos de baja en los mensajes.</li><li>Añadir mensajes transaccionales al sistema de informes de envío global.</li><li>Aprovechar mensajes transaccionales en el recorrido del cliente.</li></ul></p></td>
+<td><p>Los mensajes transaccionales de perfil permiten:<ul><li>Apply marketing <a href="../../sending/using/managing-typology-rules.md">typology rules</a> or <a href="../../sending/using/fatigue-rules.md">fatigue rules</a>.</li><li>Incluir vínculos de baja en los mensajes.</li><li>Añadir mensajes transaccionales al sistema de informes de envío global.</li><li>Aprovechar mensajes transaccionales en el recorrido del cliente.</li></ul></p></td>
 </tr>
 </table>
 
