@@ -12,10 +12,10 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5203f3b3c520f38d91627df2159a90ab5912e6b6
+source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 35%
+source-wordcount: '664'
+ht-degree: 34%
 
 ---
 
@@ -134,7 +134,7 @@ Esta sección enumera las funciones y capacidades que se han eliminado de Campai
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>El SDK de Adobe Creative se ha retirado del mercado. Como consecuencia, la edición de imágenes con tecnología Creative SDK en correos electrónicos de Campaign Standard ya no está disponible a partir de la versión 20.2 de la Campaña.</p></br>
+   <td> <p>[!DNL Adobe Creative SDK] se ha retirado del mercado. Como consecuencia, la edición de imágenes con tecnología [!DNL Creative SDK] en correos electrónicos de Campaign Standard ya no está disponible a partir de la versión 20.2 de la Campaña.</p></br>
    </td> 
   </tr> 
  </tbody> 
