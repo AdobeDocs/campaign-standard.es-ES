@@ -12,10 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 796490350855213578808651cd18df24b1d3f2d1
+source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 2%
+source-wordcount: '1052'
+ht-degree: 1%
 
 ---
 
@@ -107,7 +107,8 @@ Para ambos **[!UICONTROL Padding]** y **[!UICONTROL Margin]**, haga clic en el i
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="Ajustes de fondo"
->abstract="El Diseñador de correo electrónico permite personalizar el color de fondo o la imagen de fondo del contenido."
+>abstract="El Diseñador de correo electrónico permite personalizar el color de fondo o la imagen de fondo del contenido.Tenga en cuenta que los clientes de correo electrónico no admiten la imagen de fondo."
+>additional-url="https://docs.google.com/spreadsheets/d/1TLo62YKm3tThUWDOIliCQFWs3dpNjpDfw6DdTr1oGOw/edit#gid=0" text="Información adicional"
 
 En cuanto a la configuración de fondos con el Diseñador de correo electrónico, Adobe recomienda lo siguiente:
 
