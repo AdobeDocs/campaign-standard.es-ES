@@ -12,9 +12,9 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
+source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1241'
 ht-degree: 2%
 
 ---
@@ -46,12 +46,12 @@ También puede ver este vídeo [de introducción](https://video.tv.adobe.com/v/2
 >[!CONTEXTUALHELP]
 >id="ac_structure_components"
 >title="Acerca de los componentes de estructura"
->abstract="Elementos estructurales que definen el diseño del correo electrónico."
+>abstract="Los componentes de estructura definen el diseño del correo electrónico."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns"
 >title="Definición de columnas de correo electrónico"
->abstract="El Diseñador de correo electrónico permite definir fácilmente la estructura de columnas del correo electrónico."
+>abstract="El Diseñador de correo electrónico permite definir fácilmente el diseño del correo electrónico definiendo la estructura de columnas."
 
 El Diseñador de correo electrónico permite definir fácilmente la estructura del correo electrónico. Al agregar y mover elementos estructurales con simples acciones de arrastrar y soltar, puede diseñar la forma del correo electrónico en cuestión de segundos.
 
@@ -111,7 +111,7 @@ Puede agregar un **[!UICONTROL Content block]**, un **[!UICONTROL Dynamic conten
 >[!CONTEXTUALHELP]
 >id="ac_content_components"
 >title="Acerca de los componentes de contenido"
->abstract="Los componentes de contenido son componentes sin procesar y vacíos que se pueden editar una vez colocados en un mensaje de correo electrónico."
+>abstract="Los componentes de contenido son marcadores de posición de contenido vacíos que se pueden editar para crear un correo electrónico."
 
 Los componentes de contenido son componentes sin procesar y vacíos que se pueden editar una vez colocados en un mensaje de correo electrónico.
 
@@ -164,7 +164,9 @@ Si tiene contenido que no se puede volver a crear, puede copiar y pegar el códi
 >[!CONTEXTUALHELP]
 >id="ac_edition_video"
 >title="Configuración de vídeo"
->abstract="Utilice este componente para insertar un vídeo en el correo electrónico."
+>abstract="Utilice este componente para insertar un vídeo en el correo electrónico. Tenga en cuenta que los vídeos no funcionan en todos los clientes de correo electrónico. Se recomienda configurar una imagen de reserva."
+>additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Información adicional"
+
 
 Inserte el componente de vídeo en un componente de estructura del correo electrónico e introduzca el vínculo de vídeo en el **[!UICONTROL Component Settings]**.
 
@@ -187,7 +189,7 @@ Utilice este componente para insertar vínculos a páginas de medios sociales en
 >[!CONTEXTUALHELP]
 >id="ac_edition_carousel"
 >title="Configuración de carrusel"
->abstract="Aprenda a insertar y configurar un carrusel en el contenido."
+>abstract="Obtenga información sobre cómo insertar y configurar un carrusel en el contenido.Tenga en cuenta que el carrusel no funciona en todos los clientes de correo electrónico y que se mostrará la imagen de reserva en caso de que no sea compatible."
 
 1. Arrastre y suelte el **[!UICONTROL Carousel]** componente dentro de un componente de estructura.
 1. Busque para seleccionar imágenes del equipo.
