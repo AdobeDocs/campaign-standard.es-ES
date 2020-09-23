@@ -12,9 +12,9 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8e4f25a1d9ad2aa8fb74a6ddd096bda696f502da
+source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '709'
 ht-degree: 7%
 
 ---
@@ -51,7 +51,7 @@ El contenido del correo electrónico se puede editar en el Experience Manager y 
 >[!CONTEXTUALHELP]
 >id="ac_product_listing"
 >title="Uso de listados de productos"
->abstract="Las listas de productos le permiten hacer referencia a una o varias colecciones de datos en el contenido del correo electrónico."
+>abstract="Las listas de productos le permiten hacer referencia a una colección de datos y mostrarla en el contenido del correo electrónico."
 
 Las listas de productos le permiten hacer referencia a una o varias colecciones de datos en el contenido del correo electrónico. Estos listados están disponibles para correos electrónicos transaccionales. Una sección dedicada a esta función está disponible [aquí](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message).
 
