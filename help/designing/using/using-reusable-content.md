@@ -12,9 +12,9 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
+source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1804'
 ht-degree: 1%
 
 ---
@@ -149,7 +149,7 @@ Para utilizarlo, cree un correo electrónico y seleccione la plantilla de conten
 >[!CONTEXTUALHELP]
 >id="ac_fragments"
 >title="Acerca de los fragmentos"
->abstract="Un fragmento es un componente reutilizable al que se puede hacer referencia en uno o varios correos electrónicos."
+>abstract="Un fragmento es un bloque de contenido reutilizable al que se puede hacer referencia en uno o varios correos electrónicos."
 
 Un fragmento es un componente reutilizable al que se puede hacer referencia en uno o varios correos electrónicos.
 Se pueden encontrar en la interfaz en **Recursos** > Fragmentos y plantillas **de contenido**.
