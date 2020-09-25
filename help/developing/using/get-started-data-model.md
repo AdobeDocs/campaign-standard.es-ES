@@ -1,6 +1,6 @@
 ---
 title: Introducción al modelo de datos de Campaign Standard
-description: Amplíe el modelo de datos de Campaign Standard con sus propios campos y recursos, y supervise todos los cambios del modelo de datos en una sola vista.
+description: Acceda a la descripción del modelo de datos integrado, extienda el modelo de datos de Campaign Standard con campos y recursos personalizados y supervise todos los cambios del modelo de datos en una sola vista.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 11%
+source-wordcount: '357'
+ht-degree: 15%
 
 ---
 
