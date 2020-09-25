@@ -1,6 +1,6 @@
 ---
 title: Introducción a las API de Campaign Standard
-description: Obtenga más información sobre las API de Campaign Standard.
+description: Las API de Campaign Standard están destinadas a permitirle crear integraciones y construir su propio ecosistema al interconectar la Campaña con el panel de tecnologías que utilice.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -12,17 +12,17 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '244'
+ht-degree: 20%
 
 ---
 
 
-# Get started with Campaign Standard APIs {#get-started-apis}
+# Introducción a las API de Campaign Standard {#get-started-apis}
 
-Las API de Campaign Standard están destinadas a permitirle **crear integraciones** para Adobe Campaign Standard y **construir su propio ecosistema** mediante la interfaz del Adobe Campaign Standard con el panel de tecnologías que utiliza.
+Las API de Campaign Standard están destinadas a permitirle **crear integraciones** para Adobe Campaign Standard y **construir su propio ecosistema** al interconectar Adobe Campaign Standard con el panel de tecnologías que utiliza.
 
 Con las API de Adobe Campaign Standard, puede acceder a las siguientes funcionalidades:
 
@@ -43,7 +43,7 @@ Con las API de Adobe Campaign Standard, puede acceder a las siguientes funcional
 >
 >Antes de realizar llamadas de API, compruebe las limitaciones de escala correspondientes a su contrato de licencia. Para obtener más información, consulte [esta página](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
 
-Para utilizar la API de Campaign Standard, necesita una cuenta de Adobe I/O. Este es un primer paso obligatorio para avanzar y descubrir las características de la API.
+Para utilizar la API de Campaign Standard, necesita una cuenta de E/S de Adobe. Este es un primer paso obligatorio para avanzar y descubrir las características de la API.
 Para obtener más información, consulte [esta sección](../../api/using/setting-up-api-access.md).
 
 Las API que proporcionamos utilizan conceptos **** estándar con una interfaz REST y cargas de JSON.
