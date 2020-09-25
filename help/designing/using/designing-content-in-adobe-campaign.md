@@ -1,6 +1,6 @@
 ---
 title: Diseño de contenido en Adobe Campaign
-description: Obtenga información sobre todos los elementos que puede definir en su contenido con Adobe Campaign.
+description: Utilice el Diseñador de correo electrónico de Campaña para crear correos electrónicos cautivadores personalizados mediante una interfaz de arrastrar y soltar. A partir de una pizarra en blanco, o aprovechando los fragmentos de contenido o las plantillas existentes, diseñe y perfeccione todo el contenido de cada correo electrónico
 page-status-flag: never-activated
 uuid: 8f73407f-ab90-46bc-aeb6-bd87fcb0404c
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 67fbf66d8ad358ae5d2caaec5b90beb6304047e6
+source-git-commit: 3859c91e4aa083d897c02769495113f62e071f3c
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1162'
 ht-degree: 4%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 4%
 
 Una vez creado un correo electrónico en Adobe Campaign, debe definir su contenido.
 
-El Diseñador de correo electrónico le permite crear cautivadores correos electrónicos personalizados mediante una interfaz de arrastrar y soltar aumentada por integraciones nativas de Creative Cloud. Ya sea desde una pizarra en blanco o aprovechando los fragmentos de contenido o las plantillas existentes, diseñe y perfeccione todo el contenido de cada correo electrónico, ya sea promocional o transaccional.
+El Diseñador de correo electrónico le permite crear cautivadores correos electrónicos personalizados mediante una interfaz de arrastrar y soltar. Ya sea desde una pizarra en blanco o aprovechando los fragmentos de contenido o las plantillas existentes, diseñe y perfeccione todo el contenido de cada correo electrónico, ya sea promocional o transaccional.
 
 Diseñado para ofrecer HTML optimizado para un diseño interactivo, el Diseñador de correo electrónico le permite definir y aplicar fácilmente condiciones de visibilidad y contenido dinámico a un correo electrónico, plantilla o fragmento directamente a través de la interfaz de usuario. Puede alternar sin problemas entre la interfaz de arrastrar y soltar y el código HTML haciendo clic en un botón.
 
