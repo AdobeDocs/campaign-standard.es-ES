@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5eab422b797e1d486fded57cb64f94fb709d6681
+source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
 workflow-type: tm+mt
-source-wordcount: '6215'
+source-wordcount: '6247'
 ht-degree: 92%
 
 ---
@@ -41,6 +41,8 @@ La sección sobre cómo llamar a un flujo de trabajo con parámetros externos se
 Se ha agregado una recomendación a las optimizaciones de flujos de trabajo sobre el número de actividades que se deben utilizar por flujo de trabajo. [Más información](../../automating/using/best-practices-workflows.md#number-activities)
 
 Se ha añadido una nueva sección sobre las prácticas recomendadas de Envío. [Más información](../../sending/using/delivery-best-practices.md)
+
+Se ha agregado una sección para describir los nuevos filtros que permiten buscar las configuraciones de evento según su estado y hasta la última vez que se recibió un evento. [Más información](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events)
 
 ## Actualizaciones de documentación: septiembre de 2020 {#doc-updates-september-2020}
 
