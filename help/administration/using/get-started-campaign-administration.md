@@ -1,6 +1,6 @@
 ---
 title: Introducción a la administración de Campaign Standard
-description: Adobe Campaign le proporciona un conjunto completo de herramientas de administración. Obtenga información sobre cómo administrar los usuarios y configurar sus canales.
+description: Descubra cómo administrar usuarios, definir funciones y otorgar permisos; aprenda las directrices de supervisión, las configuraciones específicas del canal y la configuración de aplicaciones como asignaciones de destino, flujos de trabajo técnicos, marca, retención de datos, etc.
 page-status-flag: never-activated
 uuid: 64c34729-5c98-4db0-9131-af6dd0e78fb4
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: 12674de42a9c6f4439a485b67a9aa0fecd32ba25
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '666'
 ht-degree: 14%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 14%
 <table>
 <tr><td><img src="assets/do-not-localize/icon_menu.svg" width="60px"><p><a href="#administration-menu">Menú Administración</a></p></td>
 <td><img src="assets/do-not-localize/icon_users.svg" width="60px"><p><a href="#users-security">Usuarios y seguridad</a></p></td>
-<td><img src="assets/do-not-localize/icon_channels.svg" width="60px"><p><a href="#channels-configuration">Configuración de Canales</a></p></td>
+<td><img src="assets/do-not-localize/icon_channels.svg" width="60px"><p><a href="#channels-configuration">Configuración de canales</a></p></td>
 <td><img src="assets/do-not-localize/icon_settings.svg" width="60px"><p><a href="#application-settings">Ajustes de la aplicación</a></p></td></tr>
 </table>
 
@@ -44,7 +44,7 @@ Las diferentes operaciones de administración de Adobe Campaign se realizan a tr
 Los diferentes menús disponibles son:
 
 * [Usuarios y seguridad](../../administration/using/about-access-management.md): Este menú le permite administrar el acceso a la plataforma (usuarios, funciones, grupos de seguridad, unidades).
-* [Canales](../../administration/using/about-channel-configuration.md): Este menú reagrupa los parámetros técnicos vinculados a los diferentes canales de la plataforma (correo electrónico, SMS), así como la administración de la tipología y la cuarentena.
+* [Canales](../../administration/using/about-channel-configuration.md): Este menú reagrupa los parámetros técnicos vinculados a los diferentes canales de plataforma (Correo electrónico, móvil), así como la administración de la tipología y la cuarentena.
 * [Ajustes](../../administration/using/external-accounts.md)de la aplicación: Este menú le permite configurar diferentes elementos de la aplicación (cuentas externas, opciones, flujos de trabajo técnicos).
 * [Desarrollo](../../developing/using/data-model-concepts.md): Este menú le permite administrar sus recursos personalizados y acceder a las herramientas de diagnóstico.
 * [Configuración](../../administration/using/branding.md)de instancia: En este menú se definen las distintas marcas y se configuran las opciones (logotipo, gestión del seguimiento, dominio de URL para acceder a las páginas de aterrizaje, etc.).
@@ -58,7 +58,7 @@ Los diferentes menús disponibles son:
 
 Invite a los usuarios a acceder a la aplicación y administrar grupos **de** seguridad, que son conjuntos de usuarios que comparten las mismas funciones y derechos dentro de la organización. By default, Adobe Campaign offers a set of **roles** which allows you to define unitary authorizations assigned to users and user groups. Combined with **organizational units**, roles give users a filtered view of the interface and define their access to the different features.
 
-El estándar de Campaña también le permite supervisar la información relacionada con la seguridad. Puede recuperar información sobre las exportaciones de datos realizadas por los usuarios a través de la **[!UICONTROL Export audits]** pantalla y aprovechar la pantalla para **[!UICONTROL Licenses]** supervisar todas las licencias de Campaña instaladas dentro de la organización, así como información diferente como el número de compilación, la versión de lanzamiento y los términos de acuerdo.
+El estándar de campaña también le permite supervisar la información relacionada con la seguridad. Puede recuperar información sobre las exportaciones de datos realizadas por los usuarios a través de la **[!UICONTROL Export audits]** pantalla y aprovechar la pantalla para **[!UICONTROL Licenses]** supervisar todas las licencias de Campaña instaladas dentro de la organización, así como información diferente como el número de compilación, la versión de lanzamiento y los términos de acuerdo.
 
 Más información:
 
@@ -69,7 +69,7 @@ Más información:
 * [Auditoría de registros de exportación](../../administration/using/auditing-export-logs.md)
 * [Licencias](../../administration/using/licenses.md)
 
-## Configuración de Canales {#channels-configuration}
+## Configuración de canales {#channels-configuration}
 
 <img src="assets/do-not-localize/icon_channels.svg" width="60px">
 
