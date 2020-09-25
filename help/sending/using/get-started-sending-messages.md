@@ -1,6 +1,6 @@
 ---
 title: Introducción a las pruebas y envíos
-description: Descubrir los diferentes pasos para probar y enviar un mensaje.
+description: Conozca cómo preparar y probar sus mensajes, programarlos, enviarlos y monitorearlos, comprender la administración de fallas y cuarentenas y optimizar la capacidad de entrega.
 page-status-flag: never-activated
 uuid: 58666444-6e7c-4049-b2d2-8b26eabf5a82
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
+source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 13%
+source-wordcount: '586'
+ht-degree: 12%
 
 ---
 
