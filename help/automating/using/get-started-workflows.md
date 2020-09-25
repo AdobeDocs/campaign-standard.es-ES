@@ -1,6 +1,6 @@
 ---
 title: Introducción a los procesos y la gestión de datos
-description: Adobe Campaign oferta un entorno gráfico completo que le permite diseñar y automatizar procesos.
+description: Aproveche las capacidades del flujo de trabajo de Adobe Campaign para automatizar los procesos mediante un potente entorno gráfico integral. Obtenga información sobre cómo cargar datos, administrar audiencias, enviar mensajes, implementar ciclos de gestión de datos, automatizar procesos técnicos y mucho más.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a9fbf0479019dfbe2964c517a0370f015d0f380a
+source-git-commit: 1a7e6bf967cb1745ea357ad7ee054dc42397f6e2
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 7%
+source-wordcount: '539'
+ht-degree: 8%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 7%
 
 <table>
 <tr>
-<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#workflow-activities">actividades de flujo de trabajo</a></p></td><td><img src="assets/do-not-localize/icon_activities.svg" width="60px"><p><a href="../../automating/using/workflow-created-query-with-complement.md">Ejemplos de uso</a></p></td><td><img src="assets/do-not-localize/icon_filter.svg" width="60px"><p><a href="#filter-data">Filtrar datos</a></p></td>
+<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#workflow-activities">Actividades de flujo de trabajo</a></p></td><td><img src="assets/do-not-localize/icon_activities.svg" width="60px"><p><a href="../../automating/using/workflow-created-query-with-complement.md">Ejemplos de uso</a></p></td><td><img src="assets/do-not-localize/icon_filter.svg" width="60px"><p><a href="#filter-data">Filtrar datos</a></p></td>
 <td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#import-export-data">Importar/exportar datos</a></p></td></tr>
 </table>
 
@@ -32,14 +32,14 @@ Adobe Campaign oferta un entorno gráfico completo que le permite diseñar proce
 
 Un flujo de trabajo también puede involucrar a los usuarios asignándoles tareas o haciéndoles aprobar tareas realizadas. Esto significa que puede asignar una tarea a uno o varios usuarios para trabajar en contenido o especificar destinatarios, y aprobar pruebas antes de enviar el mensaje.
 
-Se pueden utilizar Flujos de trabajo en diferentes contextos, como por ejemplo:
+Se pueden utilizar flujos de trabajo en diferentes contextos, como por ejemplo:
 
 * Establecimiento de objetivos para administrar audiencias o enviar mensajes.
 * Gestión de datos (ETL) para manipular datos.
 * Importación de datos en la base de datos de Campaña.
 * Procesos técnicos como limpieza de bases de datos, recuperación de información de seguimiento, etc.
 
-## actividades de flujo de trabajo {#workflow-activities}
+## Actividades de flujo de trabajo {#workflow-activities}
 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
@@ -77,7 +77,7 @@ Más información:
 
 Campaign Standard viene con varias funciones **de** gestión de datos para importar y exportar datos.
 
-[Las actividades](../../automating/using/about-data-management-activities.md) de gestión de datos de Flujos de trabajo permiten importar datos, realizar actualizaciones masivas en los campos, recibir o enviar archivos o vincular datos no identificados a recursos existentes.
+[Las actividades](../../automating/using/about-data-management-activities.md) de gestión de datos de flujos de trabajo permiten importar datos, realizar actualizaciones masivas en los campos, recibir o enviar archivos o vincular datos no identificados a recursos existentes.
 
 Con [Plantillas de importación](../../automating/using/importing-data-with-import-templates.md), gestione determinados tipos de importación definidos por los administradores mediante funciones de importación simplificadas.
 
@@ -85,7 +85,7 @@ Con [Plantillas de importación](../../automating/using/importing-data-with-impo
 
 Aproveche [los paquetes](../../automating/using/managing-packages.md) para intercambiar recursos entre distintas instancias de campaña, por ejemplo, para replicar la configuración de una instancia o para transferir datos de un servidor a otro, incluidos los recursos personalizados.
 
-Por último, [Exportar listas](../../automating/using/exporting-lists.md) permite exportar cualquier lista de Campaign Standard como, por ejemplo, la lista de perfiles de prueba, la lista de direcciones de correo electrónico de cuarentenas, etc.
+Por último, [Exportar listas](../../automating/using/exporting-lists.md) permite exportar cualquier lista de Campaign Standards como, por ejemplo, la lista de perfiles de prueba, la lista de direcciones de correo electrónico de cuarentenas, etc.
 
 Más información:
 
