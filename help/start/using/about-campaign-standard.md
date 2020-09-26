@@ -1,6 +1,6 @@
 ---
 title: Introducción a Campaign Standard
-description: Adobe Campaign es una potente herramienta de gestión de la campaña entre canales que le ayuda a alinear sus estrategias en línea y sin conexión para crear experiencias personalizadas con los clientes.
+description: Descubra las funciones clave, la interfaz de usuario y las directrices globales.
 page-status-flag: never-activated
 uuid: 027f6787-d2ef-44ae-a40a-8facdfe2ae77
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: aee81724-b425-47b4-af92-e55eff97836f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e4ba42c5bf0dd952690178b7d5070100c7ddf13d
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '777'
 ht-degree: 4%
 
 ---
