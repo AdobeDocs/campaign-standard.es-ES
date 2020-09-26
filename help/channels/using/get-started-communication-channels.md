@@ -1,6 +1,6 @@
 ---
 title: Introducción a los canales de comunicación
-description: Aprenda a crear mensajes personalizados en varios canales (correo electrónico, notificaciones push, en la aplicación, SMS y correo directo). Descubra cómo utilizar las plantillas, crear páginas de aterrizaje y comprobar las prácticas recomendadas de envío.
+description: Cree mensajes personalizados en varios canales, utilice plantillas, cree páginas de aterrizaje y compruebe las prácticas recomendadas de envío.
 page-status-flag: never-activated
 uuid: 5d61d8df-8256-4f28-8dd3-e791891e312f
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1a7e6bf967cb1745ea357ad7ee054dc42397f6e2
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '518'
 ht-degree: 16%
 
 ---
