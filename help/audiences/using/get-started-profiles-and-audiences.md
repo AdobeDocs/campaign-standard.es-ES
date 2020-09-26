@@ -1,6 +1,6 @@
 ---
 title: Introducción a perfiles y audiencias
-description: Obtenga información sobre la administración de perfiles y audiencias en Adobe Campaign. Defina poblaciones objetivo, seleccione audiencias, filtre destinatarios, recopile datos y actualice perfiles.
+description: Defina poblaciones objetivo, seleccione audiencias, filtre destinatarios, recopile datos y actualice perfiles.
 page-status-flag: never-activated
 uuid: f4cb6c38-c8d1-44ec-93f0-d0f5f30a3d9a
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1a7e6bf967cb1745ea357ad7ee054dc42397f6e2
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '604'
 ht-degree: 11%
 
 ---
