@@ -1,6 +1,6 @@
 ---
 title: Diseño de contenido en Adobe Campaign
-description: Utilice el Diseñador de correo electrónico de Campaña para crear correos electrónicos cautivadores personalizados mediante una interfaz de arrastrar y soltar. A partir de una pizarra en blanco, o aprovechando los fragmentos de contenido o las plantillas existentes, diseñe y perfeccione todo el contenido de cada correo electrónico
+description: Con el Diseñador de correo electrónico de Campaña, cree contenido de correo electrónico a partir de una pizarra en blanco o aprovechando las plantillas o fragmentos de contenido existentes.
 page-status-flag: never-activated
 uuid: 8f73407f-ab90-46bc-aeb6-bd87fcb0404c
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3859c91e4aa083d897c02769495113f62e071f3c
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1145'
 ht-degree: 4%
 
 ---
