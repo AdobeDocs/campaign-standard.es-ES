@@ -12,10 +12,10 @@ discoiquuid: 27de5a13-7b7c-4c91-bf26-3dfd324beb8f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 80%
+source-wordcount: '222'
+ht-degree: 53%
 
 ---
 
@@ -34,8 +34,18 @@ Cada servicio incluye:
 
 Las suscripciones también se pueden administrar mediante la API de Adobe Campaign Standard. Para obtener más información, consulte la [documentación específica](../../api/using/creating-a-service.md).
 
-**Temas relacionados**
+## Pasos clave para configurar y administrar suscripciones
+
+Siga los pasos a continuación para crear un mecanismo de suscripción:
+
+1. **Crear un servicio** : siga los pasos descritos [en esta sección](../../audiences/using/creating-a-service.md) para crear un servicio de suscripción
+1. **Compartir el vínculo** : descubra cómo promocionar y compartir su servicio [en esta página](../../audiences/using/promoting-a-service.md)
+1. **Monitorear suscripciones** : descubra varias formas de monitorear suscripciones a su servicio [en esta sección](../../audiences/using/monitoring-subscriptions.md)
+1. **Confirmar suscripciones** : siga [este tutorial](../../audiences/using/confirming-subscription-to-a-service.md) para enviar un mensaje de confirmación de suscripción
+
+## Recursos adicionales
 
 * [Caso de uso: Consulta incremental sobre los suscriptores de un servicio](../../automating/using/incremental-query-on-subscribers.md)
 * [Caso de uso: Actualización de varios estados de suscripción de un archivo](../../automating/using/updating-subscriptions-from-file.md)
 * [Suscripción de perfiles a un servicio específico después de importar un archivo](../../automating/using/subscribing-profiles-from-file.md)
+* [Inclusión y exclusión en la Campaña](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
