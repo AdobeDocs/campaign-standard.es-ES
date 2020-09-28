@@ -12,7 +12,7 @@ discoiquuid: e645d4b9-001f-47d9-8a0f-b4696c75c5d3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 13%
@@ -72,6 +72,7 @@ La compañía enviará una notificación push transaccional por usuario (identif
    Para obtener más información sobre la edición de contenido de una notificación push, consulte [Creación de una notificación](../../channels/using/preparing-and-sending-a-push-notification.md)push.
 
 1. Guarde los cambios y publique el mensaje. Consulte [Publicación de un mensaje transaccional](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
+
 1. Mediante la API de Adobe Campaign Standard REST, envíe un evento a un token de registro (ABCDEF123456789), mediante una aplicación móvil (WeFlight), en Android (gcm), que contenga los datos de embarque.
 
    ```
@@ -114,13 +115,9 @@ Por ejemplo, una compañía de aerolíneas desea enviar una última llamada para
 
 1. Vaya al mensaje transaccional que se creó para editarlo. Consulte [Mensajes transaccionales de eventos](../../channels/using/event-transactional-messages.md).
 
-   <!--![](assets/message-center_push_message_profile.png)-->
-
 1. Click the **[!UICONTROL Content]** block to modify your message&#39;s title and body.
 
    A diferencia de las configuraciones basadas en eventos en tiempo real, usted tiene acceso directo a toda la información de perfil para personalizar su mensaje. Consulte [Inserción de un campo de personalización](../../designing/using/personalization.md#inserting-a-personalization-field).
-
-   <!--![](assets/message-center_push_content_profile.png)-->
 
    Para obtener más información sobre la edición de contenido de notificaciones push. Consulte [Creación de una notificación](../../channels/using/preparing-and-sending-a-push-notification.md)push.
 
@@ -142,4 +139,3 @@ Por ejemplo, una compañía de aerolíneas desea enviar una última llamada para
    >[!NOTE]
    >
    >No hay campos de token de registro, aplicación y plataforma push. En este ejemplo, la reconciliación se realiza con el campo de correo electrónico.
-
