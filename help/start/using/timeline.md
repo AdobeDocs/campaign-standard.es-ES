@@ -12,11 +12,11 @@ discoiquuid: 53e3db10-5fed-4fc3-b41e-5226f1e05246
 context-tags: campaignCalendar,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
-source-wordcount: '380'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
+workflow-type: tm+mt
+source-wordcount: '372'
+ht-degree: 91%
 
 ---
 
@@ -35,7 +35,10 @@ Cada programa está representado por un cuadro que contiene la miniatura y la et
 
 La línea vertical azul es un marcador cronológico para resaltar la fecha actual. De forma predeterminada, se encuentra en medio de la pantalla. Puede desplazarse hacia la derecha o izquierda dentro de la pantalla para modificar el periodo mostrado.
 
-Los botones ![](assets/timeline_zoom_in.png) y ![](assets/timeline_zoom_out.png) permiten aumentar o reducir el perímetro. El botón ![](assets/timeline_zoom_in.png) también aumenta el nivel de detalle durante un periodo más limitado, hasta que se muestran los días, y el botón ![](assets/timeline_zoom_out.png) permite mostrar un periodo mayor.
+Utilice los iconos para:
+
+* ![](assets/timeline_zoom_in.png) reducir el perímetro o aumentar el nivel de detalle durante un período más limitado, hasta que se muestren los días
+* ![](assets/timeline_zoom_out.png) aumentar el perímetro o mostrar un intervalo de tiempo mayor
 
 Haga clic en la flecha a la derecha del nombre de cada programa para mostrar el contenido correspondiente. Un programa puede contener programas secundarios, campañas y páginas de aterrizaje. Una campaña se implementa del mismo modo que un programa y puede contener correos electrónicos, SMS y páginas de aterrizaje.
 
@@ -49,12 +52,12 @@ Cuando se muestra el contenido de un programa o una campaña, el cuadro correspo
 
 Cada elemento tiene un icono que corresponde a su tipo:
 
-* ![](assets/timeline_program_icon.png): programa
-* ![](assets/timeline_campaign_icon.png): campaña
-* ![](assets/timeline_lp_icon.png) : página de aterrizaje
-* ![](assets/timeline_email_icon.png): correo electrónico
-* ![](assets/timeline_sms_icon.png): SMS
-* ![](assets/timeline_push_icon.png): notificación push
+* ![](assets/timeline_program_icon.png) Programa
+* ![](assets/timeline_campaign_icon.png) Campaign
+* ![](assets/timeline_lp_icon.png) página de aterrizaje
+* ![](assets/timeline_email_icon.png) Correo electrónico
+* ![](assets/timeline_sms_icon.png) SMS
+* ![](assets/timeline_push_icon.png) Notificación push
 
 La línea de color del borde izquierdo de cada cuadro indica el estado del elemento en cuestión.
 
