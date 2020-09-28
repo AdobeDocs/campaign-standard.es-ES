@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa77208174960a67c67af8a6de7edbbff47355a0
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
 source-wordcount: '908'
 ht-degree: 81%
@@ -142,4 +142,4 @@ Para que sean accesibles desde el exterior, las imágenes utilizadas en los mens
 
 Adobe recomienda previsualizar el mensaje para comprobar su personalización y cómo verán su envío sus destinatarios.
 
-* In the Email designer, the **[!UICONTROL Preview]** button lets you view the rendering of each content for a recipient. Los campos personalizados y los elementos condicionales del contenido se sustituyen por la información correspondiente del perfil seleccionado. [Más información](../../sending/using/previewing-messages.md)
+In the Email designer, the **[!UICONTROL Preview]** button lets you view the rendering of each content for a recipient. Los campos personalizados y los elementos condicionales del contenido se sustituyen por la información correspondiente del perfil seleccionado. [Más información](../../sending/using/previewing-messages.md)
