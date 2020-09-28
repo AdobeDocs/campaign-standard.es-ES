@@ -13,10 +13,10 @@ context-tags: activity,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e4ba42c5bf0dd952690178b7d5070100c7ddf13d
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 99%
+source-wordcount: '487'
+ht-degree: 83%
 
 ---
 
@@ -47,14 +47,14 @@ El botón **[!UICONTROL Create]** se puede utilizar para crear una nueva activid
 
 En la zona principal, cada tipo de actividad de la lista tiene un icono:
 
-* ![](assets/marketing_program_icon.png): programa
-* ![](assets/marketing_campaign_icon.png): campaña
-* ![](assets/marketing_email_icon.png): correo electrónico
-* ![](assets/marketing_sms_icon.png): SMS
-* ![](assets/marketing_push_icon.png): notificación push
-* ![](assets/marketing_lp_icon.png): mensaje en la aplicación
-* ![](assets/marketing_lp_icon.png): página de aterrizaje
-* ![](assets/marketing_workflow_icon.png): flujo de trabajo
+* ![](assets/marketing_program_icon.png) Programa
+* ![](assets/marketing_campaign_icon.png) Campaign
+* ![](assets/marketing_email_icon.png) Correo electrónico
+* ![](assets/marketing_sms_icon.png) SMS
+* ![](assets/marketing_push_icon.png) Notificación push
+* ![](assets/marketing_lp_icon.png) Mensaje en la aplicación
+* ![](assets/marketing_lp_icon.png) página de aterrizaje
+* ![](assets/marketing_workflow_icon.png) Flujo de trabajo
 
 Según el periodo de validez y el estado, el color asociado a este icono indica el estado de ejecución de la actividad correspondiente.
 
@@ -86,16 +86,16 @@ Los programas y campañas se presentan en la sección [Programas y campañas](..
 
 Según el contexto, estas son las posibilidades:
 
-* [Creación de un correo electrónico](../../channels/using/creating-an-email.md)
-* [Creación de un SMS](../../channels/using/creating-an-sms-message.md)
-* [Creación de una notificación push](../../channels/using/preparing-and-sending-a-push-notification.md)
-* [Creación de un mensaje en la aplicación](../../channels/using/about-in-app-messaging.md)
-* [Creación de un flujo de trabajo](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* [Creación de una página de aterrizaje](../../channels/using/getting-started-with-landing-pages.md)
-* [Creación de una campaña](../../start/using/programs-and-campaigns.md#creating-a-campaign)
-* [Creación de un programa](../../start/using/programs-and-campaigns.md#creating-a-program)
+* Crear un correo electrónico: [Más información](../../channels/using/creating-an-email.md)
+* Crear un SMS - [Más información](../../channels/using/creating-an-sms-message.md)
+* Crear una notificación push: [Más información](../../channels/using/preparing-and-sending-a-push-notification.md)
+* Crear un mensaje en la aplicación: [Más información](../../channels/using/about-in-app-messaging.md)
+* Crear un flujo de trabajo: [Más información](../../automating/using/building-a-workflow.md#creating-a-workflow)
+* Crear una página de aterrizaje: [Más información](../../channels/using/getting-started-with-landing-pages.md)
+* Crear una campaña: [Más información](../../start/using/programs-and-campaigns.md#creating-a-campaign)
+* Crear un programa: [Más información](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]
 >
->También puede crear una actividad de marketing a partir de la lista de actividades de marketing. En este caso, puede crear cualquier tipo de actividad. Puede elegir vincular la actividad de marketing a una campaña principal (o a un programa principal si lo crea) mediante las propiedades de la actividad.
+>También puede crear una actividad de marketing a partir de la lista de actividades de marketing. En este caso, puede crear cualquier tipo de actividad y elegir vincular la actividad de marketing a una campaña principal (o a un programa principal si crea un programa) mediante las propiedades de la actividad.
 
