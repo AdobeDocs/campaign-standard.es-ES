@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 67fbf66d8ad358ae5d2caaec5b90beb6304047e6
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 91%
+source-wordcount: '86'
+ht-degree: 44%
 
 ---
 
@@ -25,92 +25,31 @@ ht-degree: 91%
 
 Conozca las prácticas recomendadas relacionadas con el diseño de entregas y envíos con Adobe Campaign. Utilice los vínculos siguientes para consultar los diferentes temas y encontrar instrucciones.
 
-<table>
-<tr>
-  <td>
-    <a href="optimize-delivery.md">
-      <img alt="Optimización" src="assets/do-not-localize/optimize.svg" width="60px"/>
-    </a>
-    <div>
-      <a href="optimize-delivery.md">
-    <strong>Optimización del envío</strong>
-    </a>
-    </div>
-    <p>
-    <em>Aseguramiento y optimización del proceso de entrega</em>
-    <p>
-  </td>
-   <td>
-    <a href="use-templates.md">
-      <img alt="Plantillas" src="assets/do-not-localize/design.svg" width="60px"/>
-    </a>
-    <div>
-      <a href="use-templates.md">
-    <strong>Uso de plantillas</strong>
-    </a>
-    </div>
-    <p>
-    <em>Facilitación e implementación de nuevas entregas</em>
-    <p>
-  </td>
-  <td>
-    <a href="design-and-personalize.md">
-      <img alt="Diseño" src="assets/do-not-localize/custom.svg" width="60px"/>
-    </a>
-    <div>
-      <a href="design-and-personalize.md">
-    <strong>Personalización del contenido</strong>
-    </a>
-    </div>
-    <p>
-    <em>Aplicación de la configuración correcta</em>
-    <p>
-  </td>
-</tr>
-<tr>
-  <td>
-    <a href="define-the-right-audience.md">
-      <img alt="Destinatario" src="assets/do-not-localize/profiles.svg" width="60px"/>
-    </a>
-    <div>
-      <a href="define-the-right-audience.md">
-    <strong>Definición de la audiencia correcta</strong>
-    </a>
-    </div>
-    <p>
-    <em>La población de destino es clave</em>
-    <p>
-  </td>
-   <td>
-    <a href="check-before-sending.md">
-      <img alt="Marque" src="assets/do-not-localize/start.svg" width="60px"/>
-    </a>
-    <div>
-      <a href="check-before-sending.md">
-    <strong>Comprobación antes de enviar</strong>
-    </a>
-    </div>
-    <p>
-    <em>Prevención de errores comunes</em>
-    <p>
-  </td>
-  <td>
-    <a href="track-and-monitor.md">
-      <img alt="Optimización" src="assets/do-not-localize/troubleshoot.svg" width="60px"/>
-    </a>
-    <div>
-      <a href="track-and-monitor.md">
-    <strong>Seguimiento y monitorización</strong>
-    </a>
-    </div>
-    <p>
-    <em>Control de entregas y resolución de problemas</em>
-    <p>
-  </td>
-</tr>
-</table>
+<img src="assets/do-not-localize/optimize.svg"  width="60px">
 
-Asimismo, consulte lo siguiente:
+**[Optimizar el envío](optimize-delivery.md)** : Proteger y optimizar el proceso de envío
+
+<img src="assets/do-not-localize/design.svg"  width="60px">
+
+**[Usar plantillas](use-templates.md)** : facilitar y acelerar nuevos envíos
+
+<img src="assets/do-not-localize/custom.svg"  width="60px">
+
+**[Personalizar contenido](optimize-delivery.md)** : aplicar la configuración correcta
+
+<img src="assets/do-not-localize/profiles.svg"  width="60px">
+
+**[Definir la audiencia](define-the-right-audience.md)** correcta: aplicar la configuración correcta
+
+<img src="assets/do-not-localize/start.svg"  width="60px">
+
+**[Comprobar antes de enviar](check-before-sending.md)** : Evitar errores comunes
+
+<img src="assets/do-not-localize/troubleshoot.svg"  width="60px">
+
+**[Rastrear y supervisar](track-and-monitor.md)** : controlar el envío y la resolución de problemas
+
+## Contenido relacionado
 
 * [Comenzar a ofrecer](../../sending/using/about-deliverability.md)
 
