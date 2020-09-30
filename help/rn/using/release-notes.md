@@ -12,10 +12,10 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
+source-git-commit: 97760e8b5fe0eb4905dcae69e8bbbefa837a461f
 workflow-type: tm+mt
-source-wordcount: '2441'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -120,7 +120,6 @@ ht-degree: 4%
 * Los registros que se muestran al exportar paquetes se han hecho más específicos y detallados sobre los errores encontrados en caso de error.
 * Después de enviar un mensaje, ahora puede buscar, filtrar y exportar la lista de direcciones URL [rastreadas](../../sending/using/tracking-messages.md).
 * La [sincronización automática entre Launch y Campaña](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) ahora es GA y está activada de forma predeterminada.
-* Los mensajes transaccionales se pueden enviar con una alta prioridad, incluso en caso de que se produzca una carga de trabajo de envío masiva significativa.
 * El tamaño de los paquetes de exportación de flujo de trabajo se ha optimizado eliminando la exportación de prueba de envío.
 * Se ha agregado un nuevo mensaje para mostrar el tamaño del archivo descargado en la actividad de transferencia **de** archivos.
 * Se han mejorado los mensajes de error para tokens de sesión no válidos.
@@ -134,6 +133,7 @@ ht-degree: 4%
 **Parches**
 
 * Se ha corregido un problema que impedía usar un vínculo de destino para notificaciones push o mensajería en la aplicación cuando el seguimiento estaba habilitado.
+* Se corrigió un problema en el cual no se respetaba la alta prioridad en mensajes transaccionales en caso de envío masivo significativo.
 * Se ha corregido un problema que podía impedir que asignara marcas a un correo electrónico transaccional. Durante el paso de publicación se pueden mostrar varios mensajes de error. (CAMP-44988)
 * Se ha corregido un problema en la interfaz de usuario del flujo de trabajo que impedía guardar información en campos que solicitaban valores numéricos. (CAMP-44025)
 * Se ha corregido un problema que podía mostrar un mensaje de error al usar una actividad de **prueba** en un flujo de trabajo de plantilla de importación. (CAMP-42910)
