@@ -12,9 +12,9 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5636b2ab5a673b0a52158b1a5411e090e4b45ca7
+source-git-commit: 97760e8b5fe0eb4905dcae69e8bbbefa837a461f
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1208'
 ht-degree: 4%
 
 ---
@@ -154,6 +154,8 @@ Cuando se trata de fragmentos, tenga en cuenta lo siguiente:
 
 * Al editar estilos, solo están disponibles las fuentes web oficialmente admitidas por la mayoría de los clientes de correo electrónico.
 * Los estilos no se pueden guardar como un tema para su reutilización futura. Sin embargo, el estilo CSS se puede guardar en una plantilla de contenido o en un correo electrónico. For more on styles, see [this section](../../designing/using/styles.md).
+* El diseñador de correo electrónico no admite la etiqueta meta de remitente del reenvío.
+* Los pares sustitutos, caracteres no incluidos en el plano multilingüe básico del conjunto de caracteres Unicode, no se pueden almacenar en 2 bytes (16 bits) y deben codificarse en 2 caracteres UTF-16. Estos caracteres incluyen algunos ideogramas CJK, la mayoría de los emojis y algunos idiomas.<br>Estos caracteres pueden provocar algunos problemas de incompatibilidad en el texto dinámico. Debe realizar pruebas sólidas antes de enviar los mensajes.
 
 **Temas relacionados**
 
