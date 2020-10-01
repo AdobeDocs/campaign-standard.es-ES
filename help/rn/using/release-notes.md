@@ -12,10 +12,10 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 97760e8b5fe0eb4905dcae69e8bbbefa837a461f
+source-git-commit: 7168162baa26c960475d8c9c613989d0338f95c2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2387'
+ht-degree: 4%
 
 ---
 
@@ -89,7 +89,6 @@ ht-degree: 0%
 * **Mejoras** en la ejecución del flujo de trabajo (beta): en el contexto de una iniciativa mundial en torno a los flujos de trabajo, se han desarrollado algunas mejoras importantes para estabilizar la gestión de la memoria, reducir la latencia y optimizar la memoria consumida por los flujos de trabajo durante la ejecución. Estas mejoras están actualmente en fase beta y solo están disponibles para un conjunto de clientes. Está previsto que a principios de 2021 se disponga de datos generales.
 * Para mejorar la seguridad, Campaña ahora utiliza un mecanismo **de** firma para rastrear vínculos en correos electrónicos.
 * La configuración de la aplicación móvil se ha mejorado con mensajes **de error** más claros al cargar certificados de iOS o claves de Android.
-* Ahora hay disponible una **nueva asignación** de envíos (mapRtEventAppSubRcp) para los mensajes push transaccionales dirigidos a perfiles. El envío, la exclusión y los registros de seguimiento de estos envíos estarán ahora disponibles en las tablas wideLogAppSubRcp, excludeLogAppSubRcp y trackingLogAppSubRcp. Esto soluciona un problema que ocasionaba que fallara la análisis de envíos al enviar un mensaje push transaccional usando la dimensión de destinatario de **Perfil** .
 * **Se ha mejorado la administración** de errores de SMS para evitar que se agreguen demasiados perfiles a la lista de cuarentena. De forma predeterminada, los errores de SMS ahora se configuran como errores suaves en lugar de errores duros. Consulte [esta página](https://helpx.adobe.com/es/campaign/kb/sms-connector-protocol-and-settings.html).
 
 **Mejoras en el diseñador de correo electrónico**
