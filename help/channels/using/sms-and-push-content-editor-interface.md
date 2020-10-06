@@ -12,9 +12,9 @@ discoiquuid: 4e214eb9-d299-4095-b786-8d1de9b1c8a2
 context-tags: delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 100%
 
@@ -96,4 +96,3 @@ El editor de contenido push y SMS ofrece las siguientes funcionalidades:
 * Añada un bloque de contenido. Para obtener más información al respecto, consulte [Adición de un bloque de contenido](../../designing/using/personalization.md#adding-a-content-block).
 * Añada texto dinámico. Para obtener más información al respecto, consulte [Definición de texto dinámico](../../channels/using/defining-dynamic-text.md).
 * Personalice el nombre del remitente del SMS (solo SMS). Para obtener más información al respecto, consulte [Configuración de SMS](../../administration/using/configuring-sms-channel.md#configuring-sms-properties).
-
