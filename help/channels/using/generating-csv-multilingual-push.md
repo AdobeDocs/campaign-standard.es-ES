@@ -12,7 +12,7 @@ discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 772393c135b96374cb510a3d96e3c781274e857e
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 0%
@@ -28,22 +28,20 @@ La carga de un archivo CSV para generar contenido para envío es una función qu
 
 La inserción multilingüe requiere 14 columnas en el archivo CSV:
 
-* título
-* messageBody
-* sonido
-* distintivo
-* deeplinkURI
-* categoría
-* iosMediaAttachmentURL
-* androidMediaAttachmentURL
-* isContentAvailable
-* isMutableContent
-* customFields
-* locale
-* language
-* silentPush
-
-![](assets/multilingual_push_1.png)
+1. título
+1. messageBody
+1. sonido
+1. adge
+1. deeplinkURI
+1. categoría
+1. iosMediaAttachmentURL
+1. androidMediaAttachmentURL
+1. isContentAvailable
+1. isMutableContent
+1. customFields
+1. locale
+1. language
+1. silentPush
 
 Compruebe el ejemplo de CSV haciendo clic en el **[!UICONTROL Download a sample file]** en la **[!UICONTROL Manage Content Variants]** ventana. For more on this, refer to the this [section](../../channels/using/creating-a-multilingual-push-notification.md).
 
@@ -153,8 +151,8 @@ Se admiten los siguientes idiomas:
 | en_us | Inglés - Estados Unidos |
 | en_zw | Inglés - Zimbabwe |
 | et_ee | Estonio - Estonia |
-| Franfi_fi | Finlandés - Finlandia |
-| fr_be | Sudáfrica |
+| fi_fi | Finlandés - Finlandia |
+| fr_be | Francés - Bélgica |
 | fr_ca | Francés - Canadá |
 | fr_fr | Francés - Francia |
 | fr_lu | Francés - Luxemburgo |
@@ -167,7 +165,7 @@ Se admiten los siguientes idiomas:
 | el_gr | Griego - Grecia |
 | gu_in | Gujarati (India) |
 | he_il | Hebreo - Israel |
-| HH_in | Hindi - India |
+| hi_in | Hindi - India |
 | hu_hu | Húngaro - Hungría |
 | is_is | Islandés - Islandia |
 | id_id | Indonesio - Indonesia |
@@ -179,20 +177,20 @@ Se admiten los siguientes idiomas:
 | ko_kr | Coreano - Corea del Sur |
 | lv_lv | Letón - Letonia |
 | lt_lt | Lituano - Lituania |
-| mk_mk | Macedonio - Macedonia |
+| t_mk | Macedonio - Macedonia |
 | ms_my | Malayo - Malasia |
 | mr_in | Marathi - India |
 | no_no | Noruego - Noruega |
-| pl_pl | Polaco - Polonia |
-| pt_br | ro. portugués (Brasil) |
-| se | Portugués - Portugal |
-| _pa_in | Punjabi - India |
+| pl_pl | a) Polonia |
+| pt_br | Portugués - Brasil |
+| pt_pt | Portugués - Portugal |
+| pa_in | Punjabi - India |
 | ro_md | Rumano - Moldavia |
-| v_ro | Rumano - Rumania |
-| ru_kz | Ruso - Kazajistán |
+| ro_ro | Rumano - Rumania |
+| ru_kz | Eslovaco - Kazajistán |
 | ru_ru | Ruso - Rusia |
 | ru_ua | Ruso - Ucrania |
-| a_in | Sanskrit - India |
+| Portugués | Sanskrit - India |
 | sr_ba | Serbio - Bosnia |
 | sr_rs | Serbio - Serbia |
 | sk_sk | Eslovaco - Eslovaquia |
@@ -209,22 +207,22 @@ Se admiten los siguientes idiomas:
 | es_hn | Español (Honduras) |
 | es_mx | Español (México) |
 | es_ni | Español (Nicaragua) |
-| es_pa | th |
+| es_pa | Español (Panamá) |
 | es_py | Español (Paraguay) |
-| es_pe | saudita - Perú |
-| es_pr | es español - Puerto Rico |
-| Español | Español (España) |
-| es_uy | Portugués (Uruguay) |
-| Español | Sueco - Venezuela |
+| es_pe | Español (Perú) |
+| es_pr | Español - Puerto Rico |
+| es_es | Español (España) |
+| es_uy | Español (Uruguay) |
+| es_ve | Español (Venezuela) |
 | sw_ke | Swahili - Kenia |
 | sv_fi | Sueco - Finlandia |
-| sv_se | es sueco - Suecia |
+| sv_se | Sueco - Suecia |
 | ta_in | Tamil - India |
 | tt_ru | Tatar - Ruso |
-| tr_in | Telugu - India |
-| Bosnia | Thai - Tailandia |
+| te_in | Telugu - India |
+| th_th | Thai - Tailandia |
 | tr_cy | Turco - Chipre |
-| Serr_tr | Turco - Turquía |
+| tr_tr | Turco - Turquía |
 | uk_ua | Ucraniano - Ucraniano |
 | ur_in | Urdu - India |
 | ur_pk | Urdu - Pakistán |
