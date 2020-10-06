@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
 source-wordcount: '1652'
-ht-degree: 85%
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 85%
    + [Funciones obsoletas](rn/using/deprecated-features.md)
 + Introducción {#getting-started}
    + [Acerca de Adobe Campaign Classic](start/using/about-campaign-standard.md)
-   + [Privacidad y consentimiento ](start/using/privacy.md)
+   + [Privacidad y consentimiento](start/using/privacy.md)
    + Descubrimiento de la interfaz {#discovering-the-interface}
       + [Acerca de la interfaz](start/using/about-the-interface.md)
       + [Descripción de la interfaz](start/using/interface-description.md)
@@ -44,7 +44,7 @@ ht-degree: 85%
       + [Acerca de los perfiles](audiences/using/about-profiles.md)
       + [Creación de perfiles](audiences/using/creating-profiles.md)
       + [Edición de perfiles](audiences/using/editing-profiles.md)
-      + [Perfil de cliente integrado](audiences/using/integrated-customer-profile.md)
+      + [Integrated Customer Profile](audiences/using/integrated-customer-profile.md)
       + [Perfiles activos](audiences/using/active-profiles.md)
       + [Administración de perfiles de prueba](audiences/using/managing-test-profiles.md)
       + [Enriquecimiento de la base de datos de Campaign](audiences/using/enriching-campaign-database.md)
@@ -149,7 +149,7 @@ ht-degree: 85%
       + [Envío de pruebas](sending/using/sending-proofs.md)
       + [Prueba de mensajes de correo electrónico con perfiles de destino](sending/using/testing-messages-using-target.md)
       + [Prueba de la línea de asunto de un correo electrónico](sending/using/testing-subject-line-email.md)
-      + [Correos electrónicos con tecnología AI](sending/using/predictive.md)
+      + [Correos electrónicos con tecnología IA](sending/using/predictive.md)
       + [Procesamiento de correo electrónico](sending/using/email-rendering.md)
       + [Adición de un grupo de control](sending/using/control-group.md)
       + [Uso de trampas](sending/using/using-traps.md)
@@ -248,13 +248,13 @@ ht-degree: 85%
       + [Ejemplos prácticos de activadores de abandono](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign y Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
       + [Introducción a la integración con Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-      + [Administrar datos entre Campaña y Dynamics 365](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
-      + [Solicitar la integración](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
-      + [Configurar E/S de Adobe](integrating/using/configure-adobe-io-for-ms-dynamic.md)
+      + [Administración de datos entre Campaign y Dynamics 365](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
+      + [Solicitud de la integración](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
+      + [Configuración de Adobe I/O](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + [Configuración de Dynamics 365 para integración con Campaign](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
-      + [Asignar recursos personalizados de Campaña y entidades personalizadas de Dynamics 365](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
+      + [Asignación de recursos personalizados de Campaign y entidades personalizadas de Dynamics 365](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
       + [Usar la integración con Dynamics 365](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
-      + [Guardias de integración](integrating/using/ms-dynamics-365-integration-guardrails.md)
+      + [Protecciones de integración](integrating/using/ms-dynamics-365-integration-guardrails.md)
 + Administración de procesos y datos {#managing-processes-and-data}
    + [Introducción a la administración de procesos y datos](automating/using/get-started-workflows.md)
    + Funcionamiento general del flujo de trabajo {#workflow-general-operation}
@@ -271,8 +271,8 @@ ht-degree: 85%
    + Invocación de un flujo de trabajo con parámetros externos {#calling-workflow-external-parameters}
       + [Información general](automating/using/calling-a-workflow-with-external-parameters.md)
       + [Declaración de los parámetros en la actividad Señal externa](automating/using/declaring-parameters-external-signal.md)
-      + [Definición de los parámetros al llamar al flujo de trabajo](automating/using/defining-parameters-calling-workflow.md)
-      + [Monitoreo de las variables de eventos](automating/using/monitoring-events-variables.md)
+      + [Definición de los parámetros al invocar al flujo de trabajo](automating/using/defining-parameters-calling-workflow.md)
+      + [Monitorización de las variables de eventos](automating/using/monitoring-events-variables.md)
       + [Personalización del flujo de trabajo con parámetros externos](automating/using/customizing-workflow-external-parameters.md)
       + [Ejemplo de uso](automating/using/use-case-calling-workflow.md)
    + Actividades de segmentación {#targeting-activities}
@@ -330,26 +330,26 @@ ht-degree: 85%
       + [Acerca de los casos de uso de flujos de trabajo](automating/using/about-workflow-use-cases.md)
       + Entregas {#deliveries}
          + [Creación de entregas con un complemento](automating/using/workflow-created-query-with-complement.md)
-         + [Creación de envíos en la fecha de creación de perfiles](automating/using/workflow-creation-date-query.md)
+         + [Creación de envíos en la fecha de creación de los perfiles](automating/using/workflow-creation-date-query.md)
          + [Creación de un envío semanal](automating/using/workflow-weekly-offer.md)
          + [Creación de una entrega multicanal](automating/using/workflow-cross-channel-delivery.md)
          + [Identificación de duplicados antes de un envío](automating/using/identifying-duplicated-before-delivery.md)
          + [Envío de cumpleaños](automating/using/birthday-delivery.md)
-         + [Enlace de envíos de correo electrónico y correo directo](automating/using/coupling-email-direct-mail.md)
+         + [Emparejamiento de envíos de correo electrónico y correo directo](automating/using/coupling-email-direct-mail.md)
          + [Envío de un correo electrónico con campos enriquecidos](automating/using/sending-email-enriched-fields.md)
          + [Personalización de un correo electrónico con datos adicionales](automating/using/personalizing-email-with-additional-data.md)
          + [Envío de una notificación push recurrente](automating/using/recurring-push-notifications.md)
       + Segmentación y direccionamiento {#segmentation-targeting}
          + [Ejemplos de consultas](automating/using/query-samples.md)
-         + [Unión en dos audiencias refinadas](automating/using/union-on-two-refined-audiences.md)
+         + [Unión de dos audiencias refinadas](automating/using/union-on-two-refined-audiences.md)
          + [Creación de una segmentación en una ubicación](automating/using/workflow-segmentation-location.md)
          + [Redirección de receptores que no abran el correo](automating/using/workflow-cross-channel-retargeting.md)
-         + [Consulta incremental sobre los suscriptores de un servicio](automating/using/incremental-query-on-subscribers.md)
+         + [Consulta incremental de los suscriptores a un servicio](automating/using/incremental-query-on-subscribers.md)
          + [Segmentación según grupos de edad](automating/using/segmentation-age-groups.md)
          + [Uso de recursos diferentes de dimensiones de segmentación](automating/using/using-resources-different-from-targeting-dimensions.md)
       + Gestión de datos {#data-management}
          + [Reconciliación de una audiencia de archivo con la base de datos](automating/using/reconcile-file-audience-with-database.md)
-         + [Desduplicación de datos de un archivo importado](automating/using/deduplicating-data-imported-file.md)
+         + [Deduplicación de datos de un archivo importado](automating/using/deduplicating-data-imported-file.md)
          + [Enriquecimiento de datos de perfil con datos contenidos en un archivo](automating/using/enriching-profile-data-file.md)
          + [Actividad de señales externas e importación de datos](automating/using/external-signal-data-import.md)
          + [Actualización de la base de datos con datos externos](automating/using/update-database-file.md)
@@ -428,11 +428,11 @@ ht-degree: 85%
    + Configuración de canales móviles {#configuring-mobile}
       + [Implementación del seguimiento push](administration/using/push-tracking.md)
       + [Añadir imágenes y vídeos en iOS](administration/using/image-push-notification.md)
-      + [Descripción de la estructura de carga útil de las notificaciones push](administration/using/push-payload.md)
+      + [Explicación de la estructura de carga de las notificaciones push](administration/using/push-payload.md)
       + [Implementación del seguimiento de notificaciones locales](administration/using/local-tracking.md)
-      + [Preguntas más frecuentes sobre la sincronización de inicio de Adobe](administration/using/syncwithlaunch-faq.md)
+      + [Preguntas más frecuentes sobre la sincronización de Adobe Experience Platform Launch](administration/using/syncwithlaunch-faq.md)
       + [Preguntas más frecuentes sobre la integración del SDK de Experience Platform](administration/using/aep-faq.md)
-      + [Configuración de reglas de lanzamiento para admitir casos de uso de Adobe Campaign Standard](administration/using/configuring-rules-launch.md)
+      + [Configuración de reglas de Experience Platform Launch para admitir casos de uso de Adobe Campaign Standard](administration/using/configuring-rules-launch.md)
       + [Casos de uso móvil admitidos en Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
    + Ajustes de la aplicación {#application-settings}
       + [Acerca de la configuración de Campaign Standard](administration/using/about-campaign-standard-settings.md)
@@ -446,7 +446,7 @@ ht-degree: 85%
 + Uso de API {#working-with-apis}
    + [Introducción a las API de Campaign Standard](api/using/get-started-apis.md)
    + Acerca de las API de Campaign Standard {#about-campaign-standard-apis}
-      + [¿Por qué utilizar las API de Campaign Standard?](api/using/why-using-campaign-standard-apis.md)
+      + [Razones para utilizar las API de Campaign Standard](api/using/why-using-campaign-standard-apis.md)
       + [Configuración del acceso a API](api/using/setting-up-api-access.md)
    + Conceptos globales {#global-concepts}
       + [Lectura obligatoria](api/using/must-read.md)
