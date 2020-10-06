@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
 source-wordcount: '2948'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -71,10 +71,10 @@ ht-degree: 95%
 </tbody> 
 </table>
 
-**Funciones** adicionales (a partir del 13 de julio)
+**Funciones adicionales** (a partir del 13 de julio)
 
-* **Optimización de tiempo de envío con tecnología AI y puntuación** de perfiles: ahora puede optimizar el diseño y el envío de los viajes de los clientes para predecir las preferencias de participación de cada individuo. Con la tecnología de Journey AI, Adobe Campaign puede analizar y predecir las tasas abiertas, los tiempos de envío óptimos y la probable reproducción basada en métricas de participación históricas. [Más información](../../sending/using/predictive.md)
-* **La nueva regulación** de privacidad de Brasil - Además de las capacidades de privacidad ya disponibles en Campaña, Adobe le ayuda a facilitar su preparación para el Lei Geral de Proteçao de Datos (LGPD) de Brasil. Al crear una solicitud de privacidad, se ha agregado la normativa LGPD al servicio principal de privacidad de Adobe. [Más información](https://helpx.adobe.com/es/campaign/kb/campaign-privacy-overview.html)
+* **Optimización de tiempo de envío con tecnología de IA y puntuación de perfiles**: ahora puede optimizar el diseño y el envío de los recorridos de los clientes para predecir las preferencias de participación de cada individuo. Con la tecnología de Journey AI, Adobe Campaign puede analizar y predecir las tasas abiertas, los tiempos de envío óptimos y la probable reproducción basada en las métricas de participación históricas. [Más información](../../sending/using/predictive.md)
+* **Nueva regulación de privacidad de Brasil**: además de las funcionalidades de privacidad disponibles en Campaign, Adobe le ayuda a facilitar su preparación para la Lei Geral de Proteçao de Datos (LGPD) de Brasil. Al crear una solicitud de privacidad, se ha agregado la regulación LGPD en el servicio principal de privacidad de Adobe. [Más información](https://helpx.adobe.com/es/campaign/kb/campaign-privacy-overview.html)
 
 **Mejoras**
 
@@ -128,7 +128,7 @@ ht-degree: 95%
 * Se ha corregido un error que impedía a los usuarios realizar cambios en los informes. (CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **El nuevo Panel de control de Campaign puede lanzarse** con la renovación de certificados para subdominios CNAME. [Más información](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **El nuevo Panel de control de Campaign puede lanzarse** con la renovación de los certificados para los subdominios CNAME. [Más información](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html).
 
 ## Versión 20.2: abril de 2020 {#release-20-2---april-2020}
 
@@ -172,7 +172,7 @@ ht-degree: 95%
 
 * Se ha mejorado la experiencia de usuario de mensajería transaccional y se ha mejorado la coherencia de la interfaz. [Más información](../../channels/using/getting-started-with-transactional-msg.md)
 * Ahora, Campaign Standard le permite enviar pruebas a perfiles de prueba con datos adicionales de flujos de trabajo.
-* Se han actualizado los protecciones de la actividad API externa. [Más información](../../automating/using/external-api.md)
+* Se han actualizado las protecciones de la actividad API externa. [Más información](../../automating/using/external-api.md)
 
 **Mejoras en el Diseñador de correo electrónico**
 
@@ -245,7 +245,7 @@ ht-degree: 95%
  <tbody> 
   <tr> 
    <td> <p>Ahora, Adobe Experience Platform Data Connector está integrado con Adobe Campaign Standard. Puede hacer que los datos de Campaign estén disponibles en Adobe Experience Platform asignando datos XTK (datos incorporados en Campaign) al modelo de datos de Adobe Experience Platform (XDM). </p>
-    <p>Tenga en cuenta que esta funcionalidad solo está disponible para los clientes alojados en Azure. Para obtener más información sobre esta funcionalidad y las condiciones para activarla, consulte la <a href="../../developing/using/aep-about-data-connector.md">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">videotutorial</a>.</p>
+    <p>Tenga en cuenta que esta funcionalidad solo está disponible para los clientes alojados en Azure. Para obtener más información sobre esta funcionalidad y las condiciones para activarla, consulte la <a href="../../developing/using/aep-about-data-connector.md">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">videotutorial</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -310,7 +310,7 @@ ht-degree: 95%
 * Se han corregido problemas de rendimiento que podían producirse al seleccionar y actualizar perfiles de prueba. (CAMP-37976)
 * Se ha corregido un problema que podía mostrar páginas de error al suscribirse o cancelar la suscripción mediante páginas de aterrizaje. (CAMP-37771)
 * Se ha corregido un problema que se producía al cargar contenido en formato zip, con archivos PNG referenciados en HTML con su extensión en mayúsculas. (CAMP-37913)
-* Se ha corregido un problema que impedía que se enviaran mensajes en la aplicación al agregar un perfil de prueba al envío.
+* Se ha corregido un problema que impedía que se enviaran mensajes en la aplicación al añadir un perfil de prueba al envío.
 * Se ha corregido un error con la actividad flujo de trabajo de API externa que fallaba al vincularse a actividades de enriquecimiento.
 * Se ha corregido un problema que podía hacer que el estado de los mensajes SMS se mostrara incorrectamente.
 * Se ha corregido un problema con los recursos personalizados que provocaba que las entradas duplicadas aparecieran en diferentes extremos de API.
