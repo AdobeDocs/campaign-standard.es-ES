@@ -1,19 +1,22 @@
 ---
 title: Acceso a mensajes
-description: '"Conozca cómo acceder a los mensajes y sus funcionalidades avanzadas: creación, segmentación, personalización, ejecución e informes."'
-page-status-flag: nunca activado
+description: '"Obtenga información sobre cómo acceder a los mensajes y sus funciones avanzadas: creación, segmentación, personalización, ejecución y sistema de informes".'
+page-status-flag: never-activated
 uuid: 77e57ed3-bcd5-46b3-aee1-3d03f0df6c11
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: canales
-content-type: referencia
-topic-tags: about-Communication-channels
+audience: channels
+content-type: reference
+topic-tags: about-communication-channels
 discoiquuid: 72a7bd19-4ac7-460e-b3ef-e570d8a802e1
-context-tags: actividad,información general
+context-tags: activity,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 1%
 
 ---
 
@@ -25,17 +28,17 @@ Puede acceder a un conjunto de funcionalidades avanzadas, desde la segmentación
 Se puede acceder a los mensajes:
 
 * dentro de una campaña
-* desde la página de inicio de Adobe Campaign
-* de la lista de actividades de marketing
+* de la página de inicio Adobe Campaign
+* de la lista de actividades de comercialización
 
 ## Acceso a mensajes en campañas {#accessing-messages-in-campaigns}
 
-Para acceder a la lista de actividades de marketing de una campaña:
+Para acceder a la lista de las actividades de marketing de una campaña:
 
 1. Vaya a **[!UICONTROL Marketing activities]** desde la barra de navegación superior.
-1. Select **[!UICONTROL Marketing activities > Marketing plans > Programs & Campaigns]**.
+1. Seleccione **[!UICONTROL Marketing activities > Marketing plans > Programs & Campaigns]**.
 
-   También puede hacer clic directamente en la **[!UICONTROL Programs & Campaigns]** tarjeta desde la página principal. Para obtener más información sobre las campañas, consulte la sección [Programas y campañas](../../start/using/programs-and-campaigns.md) .
+   También puede hacer clic directamente en la **[!UICONTROL Programs & Campaigns]** tarjeta desde la página de inicio. Para obtener más información sobre campañas, consulte la sección [Programas y campañas](../../start/using/programs-and-campaigns.md) .
 
 1. Seleccione un programa y, a continuación, una campaña.
 
@@ -52,7 +55,7 @@ Para acceder a la lista completa de actividades de marketing de todas las campa�
 
 1. Seleccione **[!UICONTROL Marketing activities]** en la barra de navegación superior.
 
-   También puede acceder a ella desde la **[!UICONTROL Marketing activities]** tarjeta de la página principal. Para obtener más información sobre la lista de actividades de marketing, consulte la sección [Administración de actividades](../../start/using/marketing-activities.md#creating-a-marketing-activity) de marketing.
+   También puede acceder a ella desde la **[!UICONTROL Marketing activities]** tarjeta de la página de inicio. Para obtener más información sobre la lista de las actividades de mercadotecnia, consulte la sección [Administración de actividades](../../start/using/marketing-activities.md#creating-a-marketing-activity) de mercadotecnia.
 
 1. Para filtrar las actividades de marketing (por nombre, fecha, estado o tipo de actividad), utilice los **[!UICONTROL Search]** campos a la izquierda de la lista de actividades de marketing.
 
@@ -70,4 +73,3 @@ El estado de un mensaje se representa con un color específico en las listas. Lo
    >[!NOTE]
    >
    >Cuando se requiere una acción, puede aparecer una pancarta de notificación amarilla encima de la tarjeta, por ejemplo, cuando se tiene que confirmar el envío de un mensaje.
-
