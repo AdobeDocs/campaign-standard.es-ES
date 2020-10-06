@@ -12,11 +12,11 @@ discoiquuid: e526b205-2d01-4a8b-9685-ba1d9a1f459f
 context-tags: trigger,overview;trigger,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1e790f550f6eb84954f199caeda88a8fd90dfd85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '475'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ El diagrama siguiente detalla cómo funciona esta integración.
 
 **Temas relacionados:**
 
-* Obtenga información sobre los distintos tipos de activadores: [Documentación de Adobe Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/activation/triggers.html).
+* Obtenga información sobre los distintos tipos de activadores: [Documentación de Adobe Experience Cloud](https://docs.adobe.com/content/help/es-ES/core-services/interface/activation/triggers.html).
 * Vea los [mensajes de remarketing de activador basados en el vídeo de Actividad del sitio](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
 * Descubra nuestros dos [ejemplos prácticos de activadores de abandono](../../integrating/using/abandonment-triggers-use-cases.md).
 
