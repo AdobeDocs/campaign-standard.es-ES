@@ -13,10 +13,10 @@ context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
 source-wordcount: '1494'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -116,11 +116,7 @@ Configurar una fecha de vencimiento en la notificación push le permite establec
 
 Para añadir una fecha de vencimiento a la notificación push:
 
-1. Marque la opción **[!UICONTROL Expire message]**.
-
-   >[!NOTE]
-   >
-   >Al seleccionar la opción **[!UICONTROL Expire message]**, la duración se establece automáticamente en 0. Si no cambia el valor, APNS y FCM intentan enviar el mensaje inmediatamente. Si ocurre un error, el mensaje no se vuelve a enviar.
+1. Check the **[!UICONTROL Expire message]** option: by selecting the **[!UICONTROL Expire message]** option, the duration is automatically set to 0. Si no cambia el valor, APNS y FCM intentan enviar el mensaje inmediatamente. Si ocurre un error, el mensaje no se vuelve a enviar.
 
 1. En el campo **[!UICONTROL Duration]**, seleccione la validez de la notificación push.
 
@@ -191,4 +187,3 @@ Para Android, puede introducir la dirección URL del archivo en el campo **URL d
 La casilla de verificación **[!UICONTROL High priority]** permite configurar una prioridad alta o normal para las notificaciones push. Para obtener más información sobre la prioridad de los mensajes, consulte la [documentación para desarrolladores de Google](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message).
 
 ![](assets/push_notif_advanced_11.png)
-
