@@ -13,7 +13,7 @@ context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 96%
@@ -25,11 +25,11 @@ ht-degree: 96%
 
 Crear un envío de correo postal es muy similar a crear un correo electrónico normal. Los pasos siguientes describen la configuración específica de este canal. Consulte [Creación de un correo electrónico](../../channels/using/creating-an-email.md) para obtener más información sobre otras opciones.
 
-1. Cree un nuevo envío de correo postal. Puede crear un desde la [página de inicio](../../start/using/interface-description.md#home-page) de Adobe Campaign, en una [campaña](../../start/using/marketing-activities.md#creating-a-marketing-activity) o en una [lista de actividades de marketing](../../start/using/programs-and-campaigns.md#creating-a-campaign).
+>[!NOTE]
+>
+>También puede añadir una actividad de correo postal en un flujo de trabajo. Para obtener más información, consulte la guía [Flujos de trabajo](../../automating/using/direct-mail-delivery.md).
 
-   >[!NOTE]
-   >
-   >También puede añadir una actividad de correo postal en un flujo de trabajo. Para obtener más información, consulte la guía [Flujos de trabajo](../../automating/using/direct-mail-delivery.md).
+1. Cree un nuevo envío de correo postal. Puede crear un desde la [página de inicio](../../start/using/interface-description.md#home-page) de Adobe Campaign, en una [campaña](../../start/using/marketing-activities.md#creating-a-marketing-activity) o en una [lista de actividades de marketing](../../start/using/programs-and-campaigns.md#creating-a-campaign).
 
    ![](assets/direct_mail_1.png)
 
