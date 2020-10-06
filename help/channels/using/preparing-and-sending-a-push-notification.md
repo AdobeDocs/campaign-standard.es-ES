@@ -1,5 +1,5 @@
 ---
-title: Preparación y envío de una notificación push
+title: Crear y enviar una notificación push
 description: Siga estos pasos para crear una notificación push de un solo envío en Adobe Campaign.
 page-status-flag: never-activated
 uuid: 01997725-ca0a-420c-9e81-5ea801652f87
@@ -13,9 +13,9 @@ context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c300f50ce83d67be7c8a16f857eb46fb1ce89166
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '856'
 ht-degree: 7%
 
 ---
@@ -69,7 +69,7 @@ Los pasos para crear una notificación push con Adobe Campaign son:
 
    El contenido y las opciones de la notificación push configuradas aquí se pasan a la aplicación móvil en forma de carga útil. La estructura detallada de la carga útil se describe en la nota técnica [Explicación de la estructura](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/communication-channels/push-notifications/push-payload.translate.html) de carga útil de las notificaciones push de ACS.
 
-1. Haga clic **[!UICONTROL Create]**.
+1. Haga clic en **[!UICONTROL Create]**.
 
    ![](assets/push_notif_content_2.png)
 
@@ -86,7 +86,9 @@ Los pasos para crear una notificación push con Adobe Campaign son:
 
    >[!CAUTION]
    >
-   >Si el tamaño de la carga útil supera el límite de 4 KB, el mensaje no se enviará. Los datos de personalización afectan al tamaño del mensaje.
+   >Si el tamaño de la carga útil supera el límite de 4 KB, el mensaje no se enviará.
+
+Tenga en cuenta que los datos de personalización afectan al tamaño del mensaje.
 
 ## Envío de la notificación {#sending-the-notification}
 
@@ -131,4 +133,3 @@ Ahora puede medir el impacto del envío de las notificaciones push con los infor
 
 * [Informe de notificaciones push](../../reporting/using/push-notification-report.md)
 * [Envío de una notificación push dentro de un flujo de trabajo](../../automating/using/push-notification-delivery.md)
-
