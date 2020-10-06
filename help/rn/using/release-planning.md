@@ -11,11 +11,11 @@ topic-tags: campaign-standard-release-planning
 discoiquuid: null
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b0c98e54893f1de5f378c74cec5182b1132ca995
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '458'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Las actualizaciones de entorno se producen en olas, durante los intervalos de ti
   </tr>
   <tr>
    <td> Producción<br /> </td>
-   <td>28 de septiembre a 5 de octubre de 2020<br /> </td>
+   <td>Del 28 de septiembre al 5 de octubre de 2020<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -61,7 +61,7 @@ Las actualizaciones de entorno se producen en olas, durante los intervalos de ti
 
 **P: ¿Cuál es el impacto?**
 
-R: Los cambios se enumeran en las [notas de la versión](../../rn/using/release-notes.md), incluidos los vínculos a la documentación relacionada. Adobe también recomienda consultar la página [Funciones obsoletas y eliminadas](https://helpx.adobe.com/es/campaign/kb/acs-deprecated-and-removed-features.html). Estas páginas están disponibles para la nueva versión en la fecha para el entorno de prueba de la actualización.
+R: Los cambios se enumeran en las [notas de la versión](../../rn/using/release-notes.md), incluidos los vínculos a la documentación relacionada. Adobe también recomienda consultar la página [Funciones obsoletas y eliminadas](https://helpx.adobe.com/es/campaign/kb/acs-deprecated-and-removed-features.html). Estas páginas están disponibles para la nueva versión en la fecha para el entorno de ensayo de la actualización.
 
 **P: ¿Cuál es el proceso de validación?**
 
@@ -85,6 +85,6 @@ R: Sí, funcionará. No se pueden enviar nuevos correos electrónicos durante la
 
 **P: ¿Cómo sé que se completó la actualización?**
 
-R: Al iniciar sesión en Campaign, aparecerá una ventana emergente de notificación indicando la versión más reciente.
+R: Al iniciar sesión en Campaign, aparecerá una ventana emergente de notificación que indica la versión más reciente.
 
 Para cualquier otra pregunta, póngase en contacto con [el equipo de Atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html).
