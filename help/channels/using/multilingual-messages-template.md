@@ -11,9 +11,9 @@ topic-tags: managing-templates
 discoiquuid: 064c5c4a-f579-4bab-adf3-51c92eb4518f
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 100%
 
@@ -41,6 +41,7 @@ Para crear plantillas de correo electrónico o SMS, siga estos pasos:
    >También puede modificar una plantilla estándar existente y convertirla en una plantilla multilingüe haciendo clic en el botón **[!UICONTROL Initialize content variant]** de las propiedades de la plantilla.
 
 1. Modifique las propiedades para personalizar la etiqueta, el seguimiento, etc.
+
 1. Modifique la cantidad de variantes deseadas haciendo clic en el mosaico de variantes. Se muestra la ventana de variantes. 
 
    ![](assets/multi_template_variants.png)
@@ -54,6 +55,7 @@ Para crear plantillas de correo electrónico o SMS, siga estos pasos:
    >No elimine la variante predeterminada, ya que es la variante que se envía a perfiles sin parámetro de idioma preferido definido.
 
 1. Personalice la variante de etiqueta si es necesario y haga clic en **[!UICONTROL Confirm]**.
+
 1. También puede añadir directamente el contenido para cada variante.
 
 Ahora, ya puede crear un mensaje de correo electrónico o SMS basado en esta plantilla multilingüe.
