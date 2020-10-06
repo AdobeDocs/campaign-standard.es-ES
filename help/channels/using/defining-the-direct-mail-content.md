@@ -12,9 +12,9 @@ discoiquuid: 9e73d6b5-41b4-474b-a880-a0cd5999c2d1
 context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 100%
 
@@ -72,4 +72,3 @@ Por ejemplo, es posible que desee incluir, para el proveedor de correo postal, l
 La dirección del remitente se define en la sección **[!UICONTROL Send]** de las propiedades de correo postal o en el nivel de plantilla.
 
 ![](assets/direct_mail_24.png)
-
