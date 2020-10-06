@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c300f50ce83d67be7c8a16f857eb46fb1ce89166
+source-git-commit: 32f3b8ac0108bbce10e443c39f1f766ddf97db84
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 99%
@@ -95,9 +95,9 @@ Por motivos de seguridad y el rendimiento de la plataforma, le recomendamos enca
 
    ![](assets/lp-steps3.png)
 
-   >[!NOTE]
-   >
-   >Las modificaciones solo son efectivas para la página de aterrizaje que se está editando. Si desea aplicar estas modificaciones a otras páginas de aterrizaje, puede llevarlas a cabo en una plantilla específica y, a continuación, crear otras páginas de aterrizaje a partir de esa plantilla.
+>[!NOTE]
+>
+>Las modificaciones solo son efectivas para la página de aterrizaje que se está editando. Si desea aplicar estas modificaciones a otras páginas de aterrizaje, puede llevarlas a cabo en una plantilla específica y, a continuación, crear otras páginas de aterrizaje a partir de esa plantilla.
 
 ## Paso 3: Diseño de la página de aterrizaje {#design-the-landing-page}
 
