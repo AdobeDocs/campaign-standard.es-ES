@@ -12,7 +12,7 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 95%
@@ -88,4 +88,3 @@ Esta regla forma parte de una tipología específica que se aplica a todos los m
 
 * [Integración del sitio](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)
 * [Tipologías](../../sending/using/about-typology-rules.md)
-
