@@ -13,10 +13,10 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
-source-wordcount: '2492'
-ht-degree: 93%
+source-wordcount: '2480'
+ht-degree: 89%
 
 ---
 
@@ -52,7 +52,9 @@ Para acceder al mensaje transaccional que ha creado:
 
 ## Personalización de un mensaje transaccional {#personalizing-a-transactional-message}
 
-Para configurar la personalización en un mensaje transaccional, siga los pasos a continuación:
+En este ejemplo, aprenderá a personalizar un mensaje transaccional agregando tres campos que definió al [crear el evento](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message): nombre, último producto consultado, cantidad total del carro de compras.
+
+To do this, you will [insert a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field) in the message content.
 
 1. Haga clic en el bloque **[!UICONTROL Content]** para modificar el asunto y el contenido del mensaje. Para este ejemplo, seleccione cualquier plantilla que contenga imágenes y texto. Para obtener más información sobre las plantillas de contenido de correo electrónico, consulte [Diseño con plantillas](../../designing/using/using-reusable-content.md#designing-templates).
 
@@ -64,9 +66,7 @@ Para configurar la personalización en un mensaje transaccional, siga los pasos 
    >
    >El vínculo al carro de compras abandonado es un vínculo a una dirección URL externa que redirecciona a la persona al carro de compras. Este parámetro no se administra en Adobe Campaign.
 
-1. En este ejemplo, desea añadir tres campos que definió al [crear el evento](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message): nombre, último producto consultado, cantidad total del carro de compras. Para ello, [inserte un campo de personalización](../../designing/using/personalization.md#inserting-a-personalization-field) en el contenido del mensaje.
-
-1. Vaya a esos campos seleccionando **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
+1. Navegue por **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** para obtener los campos de personalización: nombre, último producto consultado, cantidad total del carro de compras.
 
    ![](assets/message-center_7.png)
 
@@ -90,19 +90,17 @@ Para configurar la personalización en un mensaje transaccional, siga los pasos 
 
 Puede crear listas de productos que hagan referencia a una o varias recopilaciones de datos en el contenido de un correo electrónico transaccional. Por ejemplo: en un correo electrónico de abandono del carro de compras puede incluir una lista de todos los productos que estaban en el carro de compras de los usuarios cuando salieron del sitio web, con una imagen, el precio y un vínculo a cada producto.
 
+Learn more in [this video](https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.translate.html).
+
 >[!IMPORTANT]
 >
 >Las listas de productos solo están disponibles cuando se editan mensajes de correo electrónico transaccionales a través de la interfaz del [Diseñador de correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
-
-Para añadir una lista de productos abandonados en un mensaje transaccional, siga los pasos a continuación.
-
-También puede ver un conjunto de vídeos en los que se explican los pasos necesarios para configurar las listas de productos en un mensaje de correo electrónico transaccional. Para obtener más información, consulte [esta página](https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.translate.html).
-
->[!NOTE]
 >
 >Adobe Campaign no admite listas de productos anidadas, lo que significa que no puede incluir una lista de productos dentro de otra.
 
-### Definición de una lista de productos {#defining-a-product-listing}
+En el ejemplo siguiente, aprenderá los pasos para agregar una lista de productos abandonados en un mensaje transaccional.
+
+### Paso 1: Definir una lista de productos {#defining-a-product-listing}
 
 Antes de poder usar una lista de productos en un mensaje transaccional, debe definir a nivel de evento la lista de productos y los campos de cada producto de la lista que desee mostrar. Para obtener más información, consulte [Definición de colecciones de datos](../../administration/using/configuring-transactional-messaging.md#defining-data-collections).
 
@@ -144,7 +142,7 @@ Antes de poder usar una lista de productos en un mensaje transaccional, debe def
    >
    >Si desea que los elementos de la lista se muestren verticalmente (**[!UICONTROL Column]**), el número máximo de elementos queda limitado según el componente de estructura seleccionado (2, 3 o 4 columnas). Para obtener más información sobre la selección de componentes de estructura, consulte [Edición de la estructura de correo electrónico](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-### Rellenar el listado de productos {#populating-the-product-listing}
+### Paso 2: Rellene el listado de productos {#populating-the-product-listing}
 
 Para mostrar una lista de productos procedentes del evento vinculado al correo electrónico de transacción, siga los pasos a continuación.
 
