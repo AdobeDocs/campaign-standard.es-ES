@@ -12,7 +12,7 @@ discoiquuid: 9615e369-754f-4f6a-a1b1-14462f946666
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 5%
@@ -129,4 +129,3 @@ Una vez iniciado el flujo de trabajo, todos los clientes que hayan recibido la n
 >[!NOTE]
 >
 >Si seleccionó la **[!UICONTROL Profile]** dimensión de segmentación al crear la configuración de evento, el mensaje de seguimiento también aprovechará la base de datos de marketing de Adobe Campaign. Consulte [Mensajes transaccionales de perfil ](../../channels/using/profile-transactional-messages.md).
-
