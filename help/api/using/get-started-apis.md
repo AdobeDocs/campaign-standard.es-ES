@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
 source-wordcount: '233'
-ht-degree: 21%
+ht-degree: 93%
 
 ---
 
@@ -41,17 +41,17 @@ Con las API de Adobe Campaign Standard, puede acceder a las siguientes funcional
 
 >[!NOTE]
 >
->Antes de realizar llamadas de API, compruebe las limitaciones de escala correspondientes a su contrato de licencia. Para obtener más información, consulte [esta página](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
+>Antes de realizar llamadas API, compruebe las limitaciones de escala correspondientes a su contrato de licencia. Para obtener más información, consulte [esta página](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
 
-Para utilizar la API de Campaign Standard, necesita una cuenta de E/S de Adobe. Este es un primer paso obligatorio para avanzar y descubrir las características de la API.
+Para utilizar la API de Campaign Standard, necesita una cuenta de Adobe I/O. Este es un primer paso obligatorio para avanzar y descubrir las características de la API.
 Para obtener más información, consulte [esta sección](../../api/using/setting-up-api-access.md).
 
-Las API que proporcionamos utilizan conceptos **** estándar con una interfaz REST y cargas de JSON.
+Las API que proporcionamos utilizan **conceptos estándar** con una interfaz REST y cargas JSON.
 
 >[!NOTE]
 >
->Todos los ejemplos funcionan con Postman pero no dude en usar su cliente REST favorito.
+>Todos los ejemplos funcionan con Postman, pero no dude en usar su cliente REST favorito.
 
-Todos los extremos se describen detalladamente en esta documentación con las nociones generales que debe conocer para manipular la API, la referencia completa de la API, ejemplos de código y guías de inicio rápido.
+En esta documentación se describen detalladamente todos los extremos con las nociones generales que debe conocer para manipular la API, la referencia completa de la API, los ejemplos de código y las guías de inicio rápido.
 
-Si falta algo o parece incorrecto, pregunte a la [comunidad](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community).
+Si algo falta o le parece incorrecto, pregunte a la [comunidad](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community).
