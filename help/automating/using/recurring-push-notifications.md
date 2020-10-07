@@ -9,13 +9,11 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 discoiquuid: e61bdaee-4b48-4845-a2a5-574b577ea796
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 7ffa48365875883a98904d6b344ac005afe26e18
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '475'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -30,11 +28,12 @@ Para generar el flujo de trabajo, siga estos pasos:
 
 1. La actividad de [Planificador](../../automating/using/scheduler.md) le permite realizar el inicio de los días del flujo de trabajo antes del inicio del envío para poder enviar la notificación a todos los suscriptores a las 20:00 en cualquier huso horario determinado:
 
-   * En el **[!UICONTROL Execution frequency]** campo, seleccione Mensual.
+   * In the **[!UICONTROL Execution frequency]** field, select Monthly.
    * Seleccione las 20:00 en el **[!UICONTROL Time]** campo.
    * Elija el día en que se enviará el envío todos los meses.
    * Seleccione una fecha de inicio para el flujo de trabajo, al menos un día antes del inicio del envío. De lo contrario, algunos destinatarios podrían recibir el mensaje un día después si la hora seleccionada ya ha pasado en sus husos horarios.
    * En la **[!UICONTROL Execution options]** ficha, seleccione la zona horaria en la que inicio el flujo de trabajo en el **[!UICONTROL Time zone]** campo. Aquí, por ejemplo, el flujo de trabajo tendrá un inicio a las 8 p.m. hora del Pacífico, una semana antes del primer día del mes para permitir que se creen envíos para todos los husos horarios aplicables.
+
    >[!NOTE]
    >
    >De forma predeterminada, el huso horario seleccionado es el definido en las propiedades del flujo de trabajo (consulte [Creación de un flujo de trabajo](../../automating/using/building-a-workflow.md)).
@@ -54,9 +53,9 @@ Para generar el flujo de trabajo, siga estos pasos:
 1. La actividad de envío [de notificaciones](../../automating/using/push-notification-delivery.md) Push le permite introducir el contenido del mensaje y seleccionar los campos de personalización que desea utilizar:
 
    * Seleccione la opción **[!UICONTROL Recurring notification]**.
-   * Defina el contenido de la notificación push. Para obtener más información sobre el contenido de las notificaciones push, consulte esta [sección](../../channels/using/preparing-and-sending-a-push-notification.md).
+   * Defina el contenido de la notificación push. For more information on push notification content, refer to this [section](../../channels/using/preparing-and-sending-a-push-notification.md).
    * In the **[!UICONTROL Schedule]** block, select **[!UICONTROL Messages to be sent automatically on the time zone specified below]**. Aquí elegimos el **[!UICONTROL Time zone of the contact date]** Pacífico como en el flujo de trabajo **[!UICONTROL Scheduler]**.
-   * In the **[!UICONTROL Optimize the sending time per recipient]** field, select **[!UICONTROL Send at the recipient's time zone]**.
+   * En el campo **[!UICONTROL Optimize the sending time per recipient]**, seleccione **[!UICONTROL Send at the recipient's time zone]**.
 
       ![](assets/wkf_push_example_4.png)
 
