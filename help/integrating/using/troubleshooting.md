@@ -1,38 +1,39 @@
 ---
 title: Resolución de problemas
 description: Obtenga información sobre cómo solucionar problemas al compartir recursos.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 1c764dd8-e09f-4e8e-9ccd-88ab3d714284
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: integrar
-content-type: referencia
-topic-tags: servicio de trabajo con campaña y audiencia-administrador-o-personas-núcleo
+audience: integrating
+content-type: reference
+topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: c28e1d90-8074-4127-a6fc-ed39d69cdb19
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '345'
+ht-degree: 18%
 
 ---
 
 
 # Resolución de problemas{#troubleshooting}
 
-Pueden producirse errores al utilizar la integración con Audience Manager o el servicio principal Personas.
+Pueden producirse errores al utilizar la integración con el servicio principal Audience Manager o Personas.
 
 En este caso, asegúrese de que los siguientes elementos están correctamente configurados:
 
 * **Cuentas externas**
 
-   En **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL External accounts]**, asegúrese de que las siguientes cuentas de S3 externas están correctamente configuradas. Los servidores S3 mencionados deberían haberse configurado durante el aprovisionamiento.
+   In **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL External accounts]**, make sure that the following external S3 accounts are correctly configured. Los servidores S3 mencionados deberían haberse configurado durante el aprovisionamiento.
 
    * **[!UICONTROL importSharedAudience]**:: Cuenta S3 dedicada a la importación de audiencias.
    * **[!UICONTROL exportSharedAudience]**:: Cuenta S3 dedicada a la exportación de audiencias.
 
 * **Fuentes de datos compartidas**
 
-   En **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Shared Data Sources]**, compruebe que el origen de datos compartido está configurado correctamente.
+   In **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**, check that the shared data source is set properly.
 
    **[!UICONTROL Priority]** se utiliza cuando tiene varias fuentes de datos definidas. Priority decide qué fuente de datos se utilizará para coincidir con el alias recibido en el orden definido. **[!UICONTROL Priority]** solo se necesita para la implementación de Triggers.
 
@@ -46,7 +47,8 @@ En este caso, asegúrese de que los siguientes elementos están correctamente co
 
    * **Clave** de cifrado para AES
    * **Cifrado IV** (vector de inicialización) para AES
-   * **Canal** (Correo electrónico/SMS/Otro): Este campo permite descifrar directamente direcciones de correo electrónico y números SMS. Asegúrese de que la clave de reconciliación coincide con la configuración del campo **Canal** . Si selecciona "Otro", este descifrado específico no se producirá y la clave de reconciliación se utilizará para reconciliar los datos.
-   Es posible que las audiencias de Experience Cloud no se compartan porque el flujo de trabajo técnico se ha detenido o pausado. Para acceder al flujo de trabajo, haga clic directamente en la **[!UICONTROL Import shared audience]** **[!UICONTROL Show ImportShared Audience workflow]** opción del origen de datos.
+   * **Canal** (Correo electrónico/SMS/Otros): Este campo permite descifrar directamente direcciones de correo electrónico y números SMS. Asegúrese de que la clave de reconciliación coincide con la configuración del campo de **Canal** . Si selecciona &quot;Otro&quot;, este descifrado específico no se producirá y la clave de reconciliación se utilizará para reconciliar los datos.
+
+   Es posible que no se compartan audiencias de Experience Cloud porque el flujo de trabajo técnico se ha detenido o pausado. Para acceder al flujo de trabajo, haga clic directamente en la **[!UICONTROL Import shared audience]** **[!UICONTROL Show ImportShared Audience workflow]** opción del origen de datos.
 
 Al importar una audiencia o compartirla mediante el servicio principal Personas, puede que falten algunos datos. Solo se transfieren los registros cuya ID (“ID de visitante” o “ID declarada”) se haya podido conciliar con la dimensión del perfil. Las ID de los segmentos del servicio principal Personas que no reconozca Adobe Campaign no se importan.
