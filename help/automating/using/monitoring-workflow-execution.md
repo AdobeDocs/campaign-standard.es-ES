@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
 context-tags: workflow,overview;workflow,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4cda0d3a3e65959091cd24bec8af434ab07519f6
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '577'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -29,11 +27,11 @@ El ![](assets/printpreview_darkgrey-24px.png) icono abre el registro del flujo d
 
 El historial de flujo de trabajo se guarda durante el tiempo especificado en las opciones de ejecución de flujo de trabajo (consulte las propiedades [de](../../automating/using/managing-execution-options.md)flujo de trabajo). Durante este período, todos los mensajes se guardan, incluso después de un reinicio. Si no desea guardar los mensajes de una ejecución anterior, debe depurar el historial haciendo clic en el ![](assets/delete_darkgrey-24px.png) botón.
 
-La **[!UICONTROL Log]** ficha contiene el historial de ejecución de todas las actividades o actividades seleccionadas. Indice las operaciones realizadas y los errores de ejecución por orden cronológico.
+La **[!UICONTROL Log]** ficha contiene el historial de ejecución de todas las actividades o actividades seleccionadas. Indexa las operaciones realizadas y los errores de ejecución por orden cronológico.
 
 ![](assets/wkf_execution_4.png)
 
-La **[!UICONTROL Tasks]** ficha detalla la secuencia de ejecución de las actividades. Haga clic en una tarea para obtener más información.
+The **[!UICONTROL Tasks]** tab details the execution sequencing of the activities. Haga clic en una tarea para obtener más información.
 
 ![](assets/wkf_execution_5.png)
 
@@ -74,4 +72,4 @@ Las opciones posibles son:
 
    * Si el número especificado es **[!UICONTROL 0]** o si no se alcanza el número especificado, se omiten las actividades que encuentran errores. Las otras ramas del flujo de trabajo se ejecutan normalmente.
 
-   * Si se alcanza el número especificado, todo el flujo de trabajo se suspende y se convierte en **[!UICONTROL Erroneous]**. Si se han definido supervisores, se les notifica automáticamente por correo electrónico. Consulte Notificaciones [de Adobe Campaign](../../administration/using/sending-internal-notifications.md).
+   * Si se alcanza el número especificado, todo el flujo de trabajo se suspende y se convierte en **[!UICONTROL Erroneous]**. Si se han definido supervisores, se les notifica automáticamente por correo electrónico. Consulte [Notificaciones de Adobe Campaign](../../administration/using/sending-internal-notifications.md).
