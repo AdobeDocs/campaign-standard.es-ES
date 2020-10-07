@@ -9,17 +9,18 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '83'
+ht-degree: 4%
 
 ---
 
 
 # Recuperación de perfiles {#retrieving-profiles}
 
-La recuperación de perfiles se realiza con una solicitud **GET** .
+La recuperación de perfiles se realiza con una solicitud de **GET** .
 
 Luego puede restringir la búsqueda mediante filtros, pedidos y paginación. For more on this, refer to the [Additional operations](../../api/using/sorting.md) section.
 
@@ -27,7 +28,7 @@ Luego puede restringir la búsqueda mediante filtros, pedidos y paginación. For
 
 ***Solicitudes de muestra***
 
-* Ejemplo de solicitud GET para recuperar todos los perfiles.
+* Muestra de una solicitud de GET para recuperar todos los perfiles.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -53,7 +54,7 @@ Luego puede restringir la búsqueda mediante filtros, pedidos y paginación. For
    }
    ```
 
-* Ejemplo de solicitud GET para recuperar los primeros 10 valores de correo electrónico.
+* Muestra de una solicitud de GET para recuperar los primeros 10 valores de correo electrónico.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_lineCount=10 \
@@ -63,7 +64,7 @@ Luego puede restringir la búsqueda mediante filtros, pedidos y paginación. For
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   Respuesta a la solicitud. El nodo "siguiente" devuelve la dirección URL que le proporciona acceso a los 10 siguientes valores de correo electrónico.
+   Respuesta a la solicitud. El nodo &quot;siguiente&quot; devuelve la dirección URL que le proporciona acceso a los 10 siguientes valores de correo electrónico.
 
    ```
    {
