@@ -1,5 +1,5 @@
 ---
-title: Actualización de atributos de unidad geográfica
+title: Actualización de los atributos de la unidad geográfica
 description: Obtenga información sobre cómo actualizar atributos de unidades geográficas con API
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -9,24 +9,25 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '86'
+ht-degree: 11%
 
 ---
 
 
-# Actualización de atributos de unidad geográfica {#managing-geographical-units}
+# Actualización de los atributos de la unidad geográfica {#managing-geographical-units}
 
-1. Realice una solicitud GET en el recurso **geoUnitBase** para recuperar la unidad geográfica PKey.
-1. Realice una solicitud PATCH en la unidad geográfica, con los atributos que se actualizarán en la carga útil.
+1. Realice una solicitud de GET en el recurso **geoUnitBase** para recuperar la unidad geográfica PKey.
+1. Realice una solicitud de PATCH en la unidad Geográfica, con los atributos que desea actualizar en la carga útil.
 
 <br/>
 
 ***Solicitud de muestra***
 
-Recupere la lista de unidades geográficas.
+Recuperar la lista de unidades geográficas.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/geoUnitBase/ \
@@ -52,7 +53,7 @@ Devuelve todas las unidades geográficas. Recupere el PKey de la unidad deseada.
 },
 ```
 
-Realice una solicitud PATCH en la unidad geográfica, con los atributos que se actualizarán en la carga útil.
+Realice una solicitud de PATCH en la unidad Geográfica, con los atributos que desea actualizar en la carga útil.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \
