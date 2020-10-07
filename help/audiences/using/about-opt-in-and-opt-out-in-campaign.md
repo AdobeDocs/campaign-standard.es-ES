@@ -9,10 +9,8 @@ audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
 discoiquuid: 2f26ec22-0809-4541-b2a1-e84ff868ba6e
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 9%
@@ -26,7 +24,7 @@ La exclusión da como resultado que un perfil ya no sea objetivo de ningún env�
 
 Para dar a los perfiles la capacidad de adhesión o exclusión, debe crear una página de aterrizaje dedicada. Para obtener más información sobre esto, consulte [Configuración de páginas de aterrizaje](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#setting-up-opt-in-and-opt-out-landing-pages)de inclusión y exclusión.
 
-Un operador también puede adhesión o excluir Perfiles manualmente. Para obtener más información sobre este tema, consulte [Administración de la opción de inclusión y exclusión de un perfil](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile).
+Un operador también puede adhesión o excluir perfiles manualmente. Para obtener más información sobre este tema, consulte [Administración de la opción de inclusión y exclusión de un perfil](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile).
 
 Los perfiles de exclusión se excluyen automáticamente durante la análisis del envío para acelerar los envíos (la tasa de error tiene un efecto significativo en la velocidad del envío).
 
