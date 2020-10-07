@@ -1,5 +1,5 @@
 ---
-title: Unión en dos audiencias refinadas
+title: Unión de dos audiencias refinadas
 description: Este caso de uso muestra la unión de dos actividades de audiencia de lectura.
 page-status-flag: never-activated
 uuid: 58c54e71-f4a7-4ae9-80a3-33c379ab1db9
@@ -10,26 +10,24 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 674684e5-8830-4d2f-ba97-59ed4ba7422f
 context-tags: readAudience,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 7ffa48365875883a98904d6b344ac005afe26e18
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '150'
-ht-degree: 0%
+ht-degree: 58%
 
 ---
 
 
-# Unión en dos audiencias refinadas {#example--union-on-two-refined-audiences}
+# Unión de dos audiencias refinadas {#example--union-on-two-refined-audiences}
 
-El flujo de trabajo definido en este ejemplo muestra la unión de dos **[!UICONTROL Read audience]** actividades. El objetivo de este flujo de trabajo es enviar un correo electrónico a los socios Gold o Silver que tengan entre 18 y 30 años. Ya se han creado audiencias específicas en el sistema para realizar un seguimiento de los miembros Gold y Silver.
+El flujo de trabajo definido en este ejemplo muestra la unión de dos actividades de **[!UICONTROL Read audience]**. El objetivo de este flujo de trabajo es enviar un correo electrónico a los socios oro o plata que tengan entre 18 y 30 años. Ya se han creado audiencias específicas en el sistema para realizar un seguimiento de los miembros oro y plata.
 
 El flujo de trabajo está diseñado de la siguiente manera:
 
 ![](assets/readaudience_activity_example1.png)
 
-* Una primera actividad de audiencia [de](../../automating/using/read-audience.md) lectura que recupera la audiencia de miembros Gold y la perfecciona seleccionando solo perfiles con edades comprendidas entre 18 y 30 años.
-* Una segunda **[!UICONTROL Read audience]** actividad que recupera la audiencia de miembros Silver y la perfecciona seleccionando sólo perfiles de entre 18 y 30 años de edad.
-* Una actividad de [Unión](../../automating/using/union.md) que une poblaciones de ambas **[!UICONTROL Read audiences]** actividades en una población final.
-* actividad de envío [de](../../automating/using/email-delivery.md) correo electrónico que envía el correo electrónico a la población que proviene de la **[!UICONTROL Union]** actividad.
+* A first [Read audience](../../automating/using/read-audience.md) activity that retrieves the Gold members audience and refines it by selecting only profiles that are between 18 and 30 years old.
+* Una segunda actividad de **[!UICONTROL Read audience]** que recupera la audiencia de miembros plata y la perfecciona seleccionando solo perfiles de entre 18 y 30 años de edad.
+* A [Union](../../automating/using/union.md) activity that unites populations from both **[!UICONTROL Read audiences]** activities into one final population.
+* An [Email delivery](../../automating/using/email-delivery.md) activity that sends the email to the population coming from the **[!UICONTROL Union]** activity.
