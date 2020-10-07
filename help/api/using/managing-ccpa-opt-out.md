@@ -9,17 +9,18 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '153'
+ht-degree: 3%
 
 ---
 
 
 # Administración de la exclusión de CCPA {#managing-ccpa-optout}
 
-El estado de exclusión de CCPA de un perfil se puede supervisar y administrar usando el atributo de perfil **ccpaOptOut** y los valores "true" o "false":
+El estado de exclusión de CCPA de un perfil se puede supervisar y administrar usando el atributo de perfil **ccpaOptOut** y los valores &quot;true&quot; o &quot;false&quot;:
 
 `"ccpaOptOut": <value>`
 
@@ -28,7 +29,7 @@ El estado de exclusión de CCPA de un perfil se puede supervisar y administrar u
 
 >[!CAUTION]
 >
->El atributo de exclusión de CCPA solo está disponible a partir de la versión 19.4. Para los entornos 19.3, debe ampliar el recurso Perfiles y agregar un campo booleano. Este campo se agregará a la API con la etiqueta seleccionada. Le sugerimos que utilice "Opción de exclusión para CCPA".
+>El atributo de exclusión de CCPA solo está disponible a partir de la versión 19.4. Para los entornos 19.3, debe ampliar el recurso Perfiles y agregar un campo booleano. Este campo se agregará a la API con la etiqueta seleccionada. Le sugerimos que utilice &quot;Opción de exclusión para CCPA&quot;.
 >
 >For more on this, refer to the [Privacy management documentation](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ccpa).
 
@@ -36,7 +37,7 @@ El estado de exclusión de CCPA de un perfil se puede supervisar y administrar u
 
 ***Solicitudes de muestra***
 
-* Ejemplo de solicitud GET para recuperar el estado de exclusión de CCPA de un perfil.
+* Muestra de una solicitud de GET para recuperar el estado de exclusión de CCPA de un perfil.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
@@ -46,7 +47,7 @@ El estado de exclusión de CCPA de un perfil se puede supervisar y administrar u
    -H 'Content-Type: application/json;charset=utf-8'
    ```
 
-   Respuesta a la solicitud GET.
+   Respuesta a la solicitud de GET.
 
    ```
    {
@@ -58,7 +59,7 @@ El estado de exclusión de CCPA de un perfil se puede supervisar y administrar u
    }
    ```
 
-* Ejemplo de solicitud POST para marcar un perfil para la exclusión de CCPA.
+* Muestra de una solicitud de POST para marcar un perfil para la exclusión de CCPA.
 
    ```
    -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/ \
@@ -75,7 +76,7 @@ El estado de exclusión de CCPA de un perfil se puede supervisar y administrar u
    -d }'
    ```
 
-   Respuesta a la solicitud GET.
+   Respuesta a la solicitud de GET.
 
    ```
    {
@@ -88,7 +89,7 @@ El estado de exclusión de CCPA de un perfil se puede supervisar y administrar u
    }
    ```
 
-* Ejemplo de solicitud de PARCH para actualizar un perfil para la exclusión de CCPA.
+* Muestra de una solicitud de PATCH para actualizar un perfil para la exclusión de CCPA.
 
    ```
    -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
@@ -102,7 +103,7 @@ El estado de exclusión de CCPA de un perfil se puede supervisar y administrar u
    -d }'
    ```
 
-   Respuesta a la solicitud GET.
+   Respuesta a la solicitud de GET.
 
    ```
    {
