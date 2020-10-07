@@ -1,5 +1,5 @@
 ---
-title: Asignar recursos personalizados de Campaña y entidades personalizadas de Dynamics 365
+title: Asignación de recursos personalizados de Campaign y entidades personalizadas de Dynamics 365
 description: Obtenga información sobre cómo asignar recursos y entidades en el contexto de la integración entre Adobe Campaign Standard y Microsoft Dynamics 365.
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
@@ -9,13 +9,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
 discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e11de4d4482400e62be2db076c88da5ae30d60cc
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '457'
-ht-degree: 1%
+ht-degree: 10%
 
 ---
 
