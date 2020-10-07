@@ -1,18 +1,19 @@
 ---
 title: Personalización de listas
-description: '"Obtenga información sobre cómo personalizar la visualización y actuar en pantallas de lista en Adobe Campaign Standard:clasificación, filtrado, eliminación o duplicación de elementos. Enumera las pantallas que muestran elementos de uno o varios recursos determinados."'
-page-status-flag: nunca activado
+description: '"Aprenda a personalizar la visualización y a actuar en pantallas de lista en Adobe Campaign Standard:ordenar, filtrar, eliminar o duplicar elementos. Las pantallas de listas muestran elementos de uno o varios recursos determinados."'
+page-status-flag: never-activated
 uuid: 3350583c-91ca-4ea5-ac14-6b6f11c4a64a
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: referencia
-topic-tags: descubrimiento de la interfaz
+content-type: reference
+topic-tags: discovering-the-interface
 discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '393'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +24,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 Adobe Campaign tiene dos tipos de listas:
 
-* Una lista **homogénea** , que es cuando contiene un solo tipo de recurso. Por ejemplo, la lista de perfiles solo contiene perfiles.
+* Una lista **homogénea** , que es cuando contiene un solo tipo de recurso. Por ejemplo, la lista perfil solo contiene perfiles.
 * Una lista **heterogénea** , que es cuando contiene varios tipos de recursos. Por ejemplo: la lista de actividades de marketing contiene páginas de aterrizaje, flujos de trabajo, correos electrónicos, SMS, etc.
 
 Las listas se muestran en columnas. Cada columna se puede ordenar en orden ascendente o descendente de una en una.
@@ -34,9 +35,9 @@ Al pasar el ratón por encima de un elemento de la lista, se realizan acciones *
 
 ![](assets/overview_list_quickactions.png)
 
-También puede configurar si las columnas de una lista se mostrarán o no. Para agregar o quitar columnas:
+También puede configurar si las columnas de una lista se van a mostrar o no. Para agregar o quitar columnas:
 
-1. Asegúrese de que la pantalla está en modo **Lista** .
+1. Asegúrese de que la pantalla está en modo de **Lista** .
 
    ![](assets/export_list_mode_switch.png)
 
@@ -44,7 +45,7 @@ También puede configurar si las columnas de una lista se mostrarán o no. Para 
 
    ![](assets/list_configuration1.png)
 
-1. Agregue las columnas que desee incluir en la lista. Para ello, seleccione una columna del lado izquierdo de la ventana y, a continuación, utilice el ![](assets/arrowright.png) botón de la barra de acciones para agregar una columna.
+1. Añada las columnas que desee incluir en la lista. Para ello, seleccione una columna del lado izquierdo de la ventana y, a continuación, utilice el ![](assets/arrowright.png) botón de la barra de acciones para agregar una columna.
 
    Las columnas seleccionables corresponden al recurso de lista.
 
@@ -55,7 +56,7 @@ También puede configurar si las columnas de una lista se mostrarán o no. Para 
    * **[!UICONTROL DESC]**:: Aplica un orden descendente (descendente) en la columna.
 
 1. Elimine las columnas que no desee mostrar marcando las casillas correspondientes a las columnas que desea eliminar. A continuación, utilice el ![](assets/delete.png) botón de la barra de acciones para confirmar la eliminación.
-1. Una vez que la lista contenga las columnas correctas, puede cambiar el orden en que se muestran en la lista marcando las columnas que desee mover. A continuación, utilice las ![](assets/arrowdown.png) flechas y ![](assets/arrowup.png) .
+1. Una vez que la lista contenga las columnas correctas, puede cambiar el orden en el que se muestran en la lista si comprueba las columnas que desea mover. A continuación, utilice las ![](assets/arrowdown.png) flechas y ![](assets/arrowup.png) .
 1. Confirme la configuración de la lista seleccionando **[!UICONTROL OK]**.
 
-La lista se muestra ahora cuando la ha configurado.
+La lista ahora se muestra cuando la ha configurado.
