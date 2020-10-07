@@ -1,6 +1,6 @@
 ---
 title: Recomendaciones técnicas de entrega para Adobe Campaign Standard
-description: Obtenga más información sobre algunas recomendaciones técnicas para mejorar la entrega con Adobe Campaign Standard.
+description: Obtenga más información sobre algunas recomendaciones técnicas para mejorar la capacidad de entrega con Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -10,10 +10,11 @@ content-type: reference
 topic-tags: sheduling-messages
 discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 41502fb6574879d3e69440f49a20fbc1c76ff26c
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '465'
+ht-degree: 43%
 
 ---
 
@@ -30,7 +31,7 @@ A continuación se enumeran varias técnicas, configuraciones y herramientas que
 
 **SPF** (Marco de directivas de remitentes) es un estándar de autenticación de correo electrónico que permite al propietario de un dominio especificar qué servidores de correo electrónico pueden enviar correos electrónicos en nombre de ese dominio. Este estándar utiliza el dominio en el encabezado “Return-Path” del correo electrónico (también denominado la dirección “Envelope From”).
 
-**La autenticación DKIM** (correo identificado con claves de dominio) es un sucesor de SPF y utiliza criptografía de clave pública que permite al servidor de correo electrónico receptor verificar que el mensaje fue enviado por la persona o entidad por la que afirma que fue enviado, y si el contenido del mensaje se alteró entre el momento en que se envió originalmente (y DKIM &quot;firmado&quot;) y la hora en que fue recibido. Este estándar suele utilizar el dominio en el encabezado “De” o “Remitente”. 
+**La autenticación DKIM** (correo identificado con claves de dominio) es un sucesor de SPF y utiliza criptografía de clave pública que permite al servidor de correo electrónico receptor verificar que un mensaje fue enviado por la persona o entidad por la que afirma que fue enviado, y si el contenido del mensaje se alteró entre el momento en que se envió originalmente (y DKIM &quot;firmado&quot;) y la hora en que fue recibido. Este estándar suele utilizar el dominio en el encabezado “De” o “Remitente”. 
 
 **DMARC** (Autenticación de mensajes basada en dominio, Sistema de informes y conformidad) es la forma más reciente de autenticación por correo electrónico y se basa en la autenticación SPF y DKIM para determinar si un correo electrónico pasa o falla. DMARC es única y útil de dos maneras muy importantes:
 * Conformidad: permite al remitente indicar a los ISP qué hacer con cualquier mensaje que no se autentique (por ejemplo: no aceptarlo).
