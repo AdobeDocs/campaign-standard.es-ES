@@ -9,10 +9,8 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3161226c9ab28f8d519f55a408022284919954f6
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1283'
 ht-degree: 8%
@@ -110,7 +108,8 @@ Debe **[!UICONTROL Property Status]** ser **[!UICONTROL Ready to configure]**.
    >[!NOTE]
    >
    >De forma predeterminada, para recuperar la lista de las aplicaciones móviles creadas en Inicio de Adobe, Campaign Standard utiliza el valor definido en la opción NmsServer_URL para buscar propiedades coincidentes.
-En algunos casos, el extremo de Campaña de una aplicación móvil puede ser diferente del definido en NmsServer_URL. En ese caso, defina el punto final en la opción Launch_URL_Campaña. Campaña utilizará el valor de esta opción para buscar propiedades coincidentes en Inicio de Adobe.
+   >
+   >En algunos casos, el extremo de Campaña de una aplicación móvil puede ser diferente del definido en NmsServer_URL. En ese caso, defina el punto final en la opción Launch_URL_Campaña. Campaña utilizará el valor de esta opción para buscar propiedades coincidentes en Inicio de Adobe.
 
    ![](assets/launch_4.png)
 
@@ -150,7 +149,7 @@ La aplicación móvil ya está lista para utilizarse en Campaña para notificaci
 
    ![](assets/launch_7.png)
 
-1. Haga clic **[!UICONTROL Add]**.
+1. Haga clic en **[!UICONTROL Add]**.
 
    El evento ya está disponible en la ficha Activadores al crear un mensaje en la aplicación. Para obtener más información, consulte [Preparación y envío de un mensaje](../../channels/using/preparing-and-sending-an-in-app-message.md)en la aplicación.
 
