@@ -1,34 +1,35 @@
 ---
 title: Acerca de las actividades de ejecución
 description: Las actividades de ejecución están disponibles en la parte izquierda de la pantalla.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: af2d19d7-a819-4064-806f-46e946387799
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: automatizar
-content-type: referencia
-topic-tags: execute-activity
+audience: automating
+content-type: reference
+topic-tags: execution-activities
 discoiquuid: b1c53b8f-4e8d-4a10-8b01-4997a558e144
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '65'
+ht-degree: 67%
 
 ---
 
 
 # Acerca de las actividades de ejecución{#about-execution-activities}
 
-Desde la paleta, en el lado izquierdo de la pantalla, despliegue la **[!UICONTROL Execution]** sección.
+En la paleta, en el lado izquierdo de la pantalla, despliegue la sección **[!UICONTROL Execution]**.
 
-Las siguientes actividades son específicas para organizar y ejecutar flujos de trabajo. Su tarea principal es coordinar las demás actividades.
+Las siguientes actividades son específicas de la organización y ejecución de flujos de trabajo. Su tarea principal es coordinar las demás actividades.
 
 ![](assets/wkf_execution_activities.png)
 
-La **[!UICONTROL Execution]** sección proporciona las siguientes actividades:
+La sección **[!UICONTROL Execution]** ofrece las siguientes actividades:
 
-* [Inicio y final](../../automating/using/start-and-end.md)
-* [Fork](../../automating/using/fork.md)
+* [Inicio y final (Start y End)](../../automating/using/start-and-end.md)
+* [Bifurcación (Fork)](../../automating/using/fork.md)
 * [AND-join](../../automating/using/and-join.md)
 * [Planificador](../../automating/using/scheduler.md)
 * [Espera](../../automating/using/wait.md)
