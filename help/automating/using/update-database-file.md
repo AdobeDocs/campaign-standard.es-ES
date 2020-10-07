@@ -10,20 +10,18 @@ content-type: reference
 topic-tags: data-management-activities
 discoiquuid: 4db83c95-4b75-4a16-8dbf-bd8940431fa9
 context-tags: writer,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 7ffa48365875883a98904d6b344ac005afe26e18
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '106'
-ht-degree: 0%
+ht-degree: 33%
 
 ---
 
 
 # Actualización de la base de datos con datos externos {#update-database-file}
 
-El siguiente ejemplo muestra la configuración de una **[!UICONTROL Update data]** actividad después de una **[!UICONTROL Load file]** actividad. El objetivo de este flujo de trabajo es agregar o actualizar perfiles a la base de datos de Adobe Campaign con los datos recuperados del archivo.
+The following example shows the configuration of an **[!UICONTROL Update data]** activity following a **[!UICONTROL Load file]** activity. El objetivo de este flujo de trabajo es añadir o actualizar perfiles a la base de datos de Adobe Campaign con los datos recuperados del archivo.
 
 En este ejemplo, la clave de reconciliación utilizada es la dirección **de** correo electrónico. El archivo cargado en la actividad [Cargar archivo](../../automating/using/load-file.md) es un archivo de formato **.txt** que contiene los siguientes datos de ejemplo:
 
@@ -40,7 +38,7 @@ grimes;daryl;daryl_890@testmail.com;12/06/1979
 tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
 ```
 
-La actividad [Actualizar datos](../../automating/using/update-data.md) se configura de la siguiente manera:
+The [Update data](../../automating/using/update-data.md) activity is configured as follows:
 
 ![](assets/deduplication_example2_writer1.png)
 
