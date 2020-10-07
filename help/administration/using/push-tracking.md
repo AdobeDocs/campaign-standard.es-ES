@@ -10,10 +10,8 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '819'
 ht-degree: 2%
@@ -154,7 +152,7 @@ Deberá enviar &quot;1&quot; y &quot;2&quot;, ya que el usuario debe hacer clic 
 
 Para rastrear la apertura, debe crear Calidad. Los objetos de intención permiten que el sistema operativo Android llame al método cuando se realicen determinadas acciones. En este caso, haga clic en la notificación para abrir la aplicación.
 
-Este código se basa en la implementación del seguimiento de impresión de clics. Con **[!UICONTROL Intent]** el conjunto, ahora necesita enviar la información de seguimiento de vuelta a Adobe Campaign Standard. En este caso, debe configurar el **[!UICONTROL Open Intent]** para que se abra en una determinada vista de la aplicación, lo que llamará al método onResume con los datos de notificación en la **[!UICONTROL Intent Object]**.
+Este código se basa en la implementación del seguimiento de impresión de clics. Con **[!UICONTROL Intent]** el conjunto, ahora necesita enviar información de seguimiento a Adobe Campaign Standard. En este caso, debe configurar el **[!UICONTROL Open Intent]** para que se abra en una determinada vista de la aplicación, lo que llamará al método onResume con los datos de notificación en la **[!UICONTROL Intent Object]**.
 
 ```
 @Override
