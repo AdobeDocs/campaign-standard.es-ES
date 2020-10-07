@@ -10,10 +10,8 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
 context-tags: workflow,overview;workflow,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3ed78fd610b0d134cd1e60f34c93161cb1e5c50f
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '675'
 ht-degree: 0%
@@ -39,14 +37,14 @@ De forma predeterminada, determinadas actividades no tienen una transición de s
 
 Según las actividades, puede agregar varios tipos de transiciones salientes:
 
-* **transición** estándar: población calculada por la actividad
+* **Transición** estándar: población calculada por la actividad
 * **Transición sin población**: este tipo de transición saliente se puede agregar para continuar con el flujo de trabajo y no contiene ninguna población para no consumir ningún espacio innecesario en el sistema.
 * **Rechaza**: población rechazada. Por ejemplo, si los datos de entrada de la actividad no se pudieron procesar porque eran incorrectos o estaban incompletos.
 * **Complemento**: población restante después de ejecutar la actividad. Por ejemplo, si una actividad de segmentación está configurada para guardar solo un porcentaje de la población entrante.
 
 Si corresponde, especifique un **[!UICONTROL Segment code]** valor para la transición saliente de la actividad. Este código de segmento le permitirá identificar de dónde provienen los subconjuntos de la población de destinatarios y, posteriormente, podrá servir para fines de personalización de mensajes.
 
-## Opciones de ejecución de Actividad {#activity-execution-options}
+## Opciones de ejecución de actividad {#activity-execution-options}
 
 En la pantalla de propiedades de la actividad, hay una **[!UICONTROL Advanced options]** ficha que permite definir el modo y el comportamiento de ejecución de la actividad en caso de que se produzcan errores.
 
@@ -57,7 +55,7 @@ Para acceder a estas opciones, seleccione una actividad en un flujo de trabajo y
 The **[!UICONTROL Execution]** field allows you to define the action to be carried out when the task is started. Existen tres opciones para esto:
 
 * **Normal**: la actividad se ejecuta normalmente.
-* **Habilitar pero no ejecutar**: la actividad está pausada, y como consecuencia lo están los procesos futuros que le siguen. Esto puede resultar útil si desea estar presente cuando se inicie la tarea.
+* **Habilitar pero no ejecutar**: la actividad está en pausa, y como consecuencia lo están los procesos futuros que le siguen. Esto puede resultar útil si desea estar presente cuando se inicie la tarea.
 * **No habilitar**: la actividad no se ejecuta y, en consecuencia, tampoco todas las actividades siguientes (en la misma rama).
 
 El **[!UICONTROL In case of error]** campo permite especificar la acción que se realizará en caso de que la actividad encuentre un error. Hay dos opciones disponibles para esto:
@@ -67,7 +65,7 @@ El **[!UICONTROL In case of error]** campo permite especificar la acción que se
 
 El **[!UICONTROL Behavior]** campo permite definir el procedimiento que se debe seguir si se utilizan tareas asincrónicas. Hay dos opciones disponibles para esto:
 
-* **tareas múltiples autorizadas**: se pueden ejecutar varias tareas al mismo tiempo, aunque la primera no haya finalizado.
+* **Tareas múltiples autorizadas**: se pueden ejecutar varias tareas al mismo tiempo, aunque la primera no haya finalizado.
 * **La tarea actual tiene prioridad**: una vez que se está llevando a cabo una tarea, ésta tiene prioridad. Mientras una tarea siga en curso, no se ejecutará ninguna otra tarea.
 
 El **[!UICONTROL Max. execution duration]** campo permite especificar una duración como &quot;30&quot; o &quot;1 h&quot;. Si la actividad no finaliza después de que haya transcurrido el tiempo especificado, se activa una alerta. Esto no afecta al funcionamiento del flujo de trabajo.
