@@ -10,10 +10,8 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d0a0c59763af8babc9701206cc39fe41b98e0cd4
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 1%
@@ -35,9 +33,9 @@ El seguimiento de notificaciones locales se puede dividir en tres tipos:
 
 * **Apertura** local: cuando se envía una notificación local al dispositivo y el usuario hace clic en la notificación que hace que la aplicación se abra. Esto es similar al clic local, excepto que no se activará una apertura local si se descartó la notificación.
 
-Para implementar el seguimiento de Adobe Campaign Standard, la aplicación móvil debe incluir SDK móvil en la aplicación. Estos SDK están disponibles en [!DNL Adobe Mobile Services].
+Para implementar el seguimiento para Adobe Campaign Standard, la aplicación móvil debe incluir SDK móvil en la aplicación. Estos SDK están disponibles en [!DNL Adobe Mobile Services].
 
-Para enviar la información de seguimiento, hay tres variables que deben enviarse: dos son parte de los datos recibidos de Adobe Campaign y la otra es una variable de acción que determina si es una impresión, un clic o una apertura.
+Para enviar la información de seguimiento, hay tres variables que deben enviarse: dos son parte de los datos recibidos de Adobe Campaign y la otra es una variable de acción que dicta si es una impresión, un clic o una apertura.
 
 | Variable  | Valor |
 | :-: | :-: |
@@ -153,7 +151,7 @@ Debe enviar &quot;1&quot; y &quot;2&quot;, ya que el usuario debe hacer clic en 
 
 Para rastrear la apertura, necesitamos crear intención. Los objetos de intención permiten que el sistema operativo Android llame al método cuando se hayan realizado determinadas acciones; en este caso, haga clic en la notificación para abrir la aplicación.
 
-Este código se basa en la implementación del seguimiento de impresión de clics. Con la intención establecida, ahora debe enviar la información de seguimiento de vuelta a Adobe Campaign. En este caso, la Vista([!DNL Activity]) de Android que activó la notificación se abrirá o pondrá en primer plano como resultado del clic por usuario. El objeto de intención de [!DNL Activity] contiene los datos de notificación que pueden utilizarse para rastrear la apertura.
+Este código se basa en la implementación del seguimiento de impresión de clics. Con la intención establecida, ahora debe enviar la información de seguimiento a Adobe Campaign. En este caso, la Vista([!DNL Activity]) de Android que activó la notificación se abrirá o pondrá en primer plano como resultado del clic por usuario. El objeto de intención de [!DNL Activity] contiene los datos de notificación que pueden utilizarse para rastrear la apertura.
 
 MainActivity.java (extiende [!DNL Activity])
 
