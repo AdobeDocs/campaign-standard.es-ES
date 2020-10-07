@@ -9,20 +9,18 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '96'
+ht-degree: 9%
 
 ---
 
 
 # Control de un flujo de trabajo {#controlling-a-workflow}
 
-Puede controlar un flujo de trabajo directamente desde la API de REST, mediante una solicitud POST que contenga el ID de flujo de trabajo y el comando de ejecución requerido:
+Puede controlar un flujo de trabajo directamente desde la API de REST, mediante una solicitud de POST que contenga el ID de flujo de trabajo y el comando de ejecución requerido:
 
 `POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands`
 
