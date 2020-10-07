@@ -9,10 +9,8 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 discoiquuid: 4d51229a-745a-4f24-b1c2-22fa203b499c
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 2%
@@ -28,7 +26,7 @@ Adobe Campaign le ofrece la posibilidad de recibir notificaciones sobre activida
 
 Puede configurar las notificaciones para los siguientes objetos:
 
-* **[!UICONTROL A/B Test emails]**:: se notifica al creador y a los modificadores de correo electrónico que se ha elegido una variante (modo automático) o que es necesario elegir una variante (modo manual). Al hacer clic en la notificación se muestra el correo electrónico correspondiente. Las notificaciones se activan de forma predeterminada en la plantilla de prueba A/B lista para usar. Si desea desactivarlos, edite las propiedades del correo electrónico o la plantilla de correo electrónico y desmarque la casilla ubicada en **General > Notificaciones**. Para obtener más información sobre los correos electrónicos de la prueba A/B, consulte [Creación de una prueba](../../channels/using/designing-an-a-b-test-email.md)A/B. Para obtener más información sobre las propiedades de correo electrónico, consulte [Lista de las propiedades](../../administration/using/configuring-email-channel.md#list-of-email-properties)de correo electrónico.
+* **[!UICONTROL A/B Test emails]**:: se notifica al creador y a los modificadores de correo electrónico que se ha elegido una variante (modo automático) o que es necesario elegir una variante (modo manual). Al hacer clic en la notificación se muestra el correo electrónico correspondiente. Las notificaciones se activan de forma predeterminada en la plantilla de prueba A/B lista para usar. Si desea desactivarlos, edite las propiedades del correo electrónico o de la plantilla de correo electrónico y desmarque la casilla ubicada en **General > Notificaciones**. Para obtener más información sobre los correos electrónicos de la prueba A/B, consulte [Creación de una prueba](../../channels/using/designing-an-a-b-test-email.md)A/B. Para obtener más información sobre las propiedades de correo electrónico, consulte [Lista de las propiedades](../../administration/using/configuring-email-channel.md#list-of-email-properties)de correo electrónico.
 
    ![](assets/pulse_2.png)
 
