@@ -9,17 +9,18 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 538739417c4ed28ff2991186dac5fb69d1af3afd
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '204'
+ht-degree: 5%
 
 ---
 
 
 # Recursos personalizados {#custom-resources}
 
-Adobe Campaign incluye un modelo de datos predefinido, en el que los datos se definen mediante distintos recursos. Puede enriquecer el modelo de datos que se proporciona ampliando los recursos para agregar sus propios campos personalizados o tablas personalizadas, como tablas de productos o de compras.
+Adobe Campaign viene con un modelo de datos predefinido, donde los datos se definen a través de diferentes recursos. Puede enriquecer el modelo de datos que se proporciona ampliando los recursos para agregar sus propios campos personalizados o tablas personalizadas, como tablas de productos o de compras.
 
 Se puede acceder a los recursos personalizados a través de las API mediante el extremo **/profileAndServicesExt** y el nombre del recurso personalizado.
 
@@ -29,17 +30,17 @@ Se puede acceder a los recursos personalizados a través de las API mediante el 
 >
 >Para los recursos que no están listos para usar, utilice siempre el prefijo <b>&quot;cus&quot;</b> antes del nombre del recurso.
 
-Puede realizar cualquier operación con recursos personalizados, siempre que estén vinculados a la tabla Perfil. Por ejemplo, consideremos la estructura de tablas siguiente:
+Puede realizar cualquier operación con recursos personalizados, siempre que estén vinculados a la tabla de Perfil. Por ejemplo, consideremos la estructura de tablas siguiente:
 
 ![texto alt](assets/cusresources.png)
 
-En ese caso, todos los recursos de las tablas **Transaction**, **TransactionDetails** y **Product** están disponibles siempre que estén vinculados a la tabla **Profile** .
+En ese caso, todos los recursos de las tablas **Transaction**, **TransactionDetails** y **Product** están disponibles siempre que estén vinculados a la tabla de **Perfiles** .
 
 <br/>
 
-***Solicitud de muestra ***
+***Solicitud de muestra***
 
-Muestra de una solicitud GET para acceder al recurso profileAndServicesExt extendido.
+Muestra de una solicitud de GET para acceder al recurso profileAndServicesExt extendido.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/\
@@ -49,7 +50,7 @@ Muestra de una solicitud GET para acceder al recurso profileAndServicesExt exten
 -H 'X-Api-Key: <API_KEY>' \
 ```
 
-Devuelve la lista de todos los recursos personalizados vinculados. A continuación, puede utilizar las URL de los recursos para realizar cualquier tarea de API descrita en esta documentación.
+Devuelve la lista de todos los recursos personalizados vinculados. A continuación, puede utilizar las URL de los recursos para realizar cualquier tarea de API que se describa en esta documentación.
 
 ```
 {
@@ -74,7 +75,7 @@ Devuelve la lista de todos los recursos personalizados vinculados. A continuaci�
 }
 ```
 
-Para obtener más información sobre la extensión del modelo de datos, consulte la documentación de Campaign:
+Para obtener más información sobre la extensión del modelo de datos, consulte la documentación de Campaña:
 
 * [Conceptos del modelo de datos](../../developing/using/data-model-concepts.md)
 * [Ampliación de la API](../../developing/using/about-extending-the-api.md)
