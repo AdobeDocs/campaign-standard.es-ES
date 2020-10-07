@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: deliveries-best-practices
 discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d5d9d50474142306457a8c76a24388c3c574791d
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '504'
-ht-degree: 69%
+ht-degree: 77%
 
 ---
 
@@ -58,7 +56,7 @@ Asegúrese de seleccionar los destinatarios de prueba adecuados, ya que validan 
 
 Learn more about test profiles [in this section](../../audiences/using/managing-test-profiles.md).
 
-Puede utilizar [Grupos de control](../../sending/using/control-group.md) para medir el impacto de sus campañas excluyendo una parte de su audiencia. A continuación, podrá comparar el comportamiento de la población de destinatarios que recibió el mensaje con el comportamiento de los contactos que no estaban segmentados. En función de los registros de envío, también puede realizar el destinatario de un grupo de control en campañas futuras.
+You can use [Control groups](../../sending/using/control-group.md) to measure the impact of your campaigns by excluding a portion of their audience. A continuación, podrá comparar el comportamiento de la población de destinatarios que recibió el mensaje con el comportamiento de los contactos a los que no estaban destinados. En función de los registros de envío, también puede destinar un grupo de control en campañas futuras.
 
 ## Deduplicación de direcciones {#deduplicate-addresses}
 
