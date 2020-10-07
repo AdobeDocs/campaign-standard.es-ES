@@ -1,6 +1,6 @@
 ---
 title: Prácticas recomendadas del modelo de datos en Adobe Campaign Standard
-description: Obtenga información sobre las prácticas recomendadas al diseñar el modelo de datos de Adobe Campaign Standard.
+description: Obtenga información sobre las prácticas recomendadas al diseñar su modelo de datos de Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: cacd563f-6936-4b3e-83e3-5d4ae31d44e8
 contentOwner: sauviat
@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: about-custom-resources
 discoiquuid: 4e0468da-3052-4ce5-8174-45aba1f5c4ed
 context-tags: cusResource,overview;eventCusResource,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b7775e1d95e6a7e08b38fc65b44a061eda7ff079
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1556'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -34,9 +32,9 @@ Este documento describe las recomendaciones clave al diseñar el modelo de datos
 
 ## Información general {#overview}
 
-El sistema de Adobe Campaign es extremadamente flexible y puede ampliarse más allá de la implementación inicial. Sin embargo, aunque las posibilidades son infinitas, es fundamental tomar decisiones acertadas y construir bases sólidas para el inicio del diseño del modelo de datos.
+El sistema Adobe Campaign es extremadamente flexible y puede ampliarse más allá de la implementación inicial. Sin embargo, aunque las posibilidades son infinitas, es fundamental tomar decisiones acertadas y construir bases sólidas para el inicio del diseño del modelo de datos.
 
-Este documento proporciona casos de uso comunes y optimizaciones para aprender a diseñar correctamente la herramienta de Adobe Campaign.
+Este documento proporciona casos de uso comunes y optimizaciones para aprender a diseñar correctamente su herramienta Adobe Campaign.
 
 ## Arquitectura del modelo de datos {#data-model-architecture}
 
@@ -44,7 +42,7 @@ Adobe Campaign Standard es un potente sistema de gestión de la campaña entre c
 
 ### Enfoque centrado en el cliente {#customer-centric-approach}
 
-Aunque la mayoría de los proveedores de servicio de correo electrónico se comunican a los clientes mediante un enfoque centrado en la lista, el Adobe Campaign depende de una base de datos relacional para aprovechar una vista más amplia de los clientes y sus atributos.
+Aunque la mayoría de los proveedores de servicio de correo electrónico se comunican a los clientes mediante un enfoque centrado en la lista, Adobe Campaign depende de una base de datos relacional para aprovechar una vista más amplia de los clientes y sus atributos.
 
 Este enfoque centrado en el cliente se muestra en el gráfico siguiente. El recurso de **Perfil** en gris representa la tabla principal del cliente en torno a la cual se está creando todo:
 
@@ -68,7 +66,7 @@ Be able to provide a primary customer record which will be sent to Adobe Campaig
 
 >[!NOTE]
 >
->El Adobe Campaign no es una data warehouse. Por lo tanto, no intente importar en Adobe Campaign todos los clientes posibles y su información asociada.
+>Adobe Campaign no es un almacén de datos. Por lo tanto, no intente importar todos los clientes posibles y su información asociada a Adobe Campaign.
 
 Para tomar la decisión de si un atributo sería necesario o no en Adobe Campaign, determine si se incluiría en una de estas categorías:
 * Atributo utilizado para la **segmentación**
@@ -80,9 +78,9 @@ Si no cae en ninguno de estos, lo más probable es que no necesite este atributo
 
 ### Tipos de datos {#data-types}
 
-Para garantizar una buena arquitectura y un buen rendimiento de su sistema, siga las optimizaciones a continuación para configurar los datos en Adobe Campaign:
+Para garantizar una buena arquitectura y rendimiento de su sistema, siga las optimizaciones que se describen a continuación para configurar los datos en Adobe Campaign:
 * La longitud de un campo de cadena siempre debe definirse con la columna. De forma predeterminada, la longitud máxima en Adobe Campaign es de 255 caracteres, pero Adobe recomienda mantener el campo más corto si ya sabe que el tamaño no superará una longitud más corta.
-* Es aceptable tener un campo de Adobe Campaign más corto que en el sistema de origen si está seguro de que el tamaño del sistema de origen se sobreestimó y no se alcanzaría. Esto podría significar una cadena más corta o un número entero más pequeño en Adobe Campaign.
+* Es aceptable tener un campo más corto en Adobe Campaign que en el sistema de origen si está seguro de que el tamaño del sistema de origen se sobreestimó y no se alcanzaría. Esto podría significar una cadena más corta o un número entero menor en Adobe Campaign.
 
 ## Configuración de la estructura de datos {#configuring-data-structure}
 
@@ -100,14 +98,14 @@ En la tabla siguiente se describen estos identificadores y su finalidad.
 
 | Nombre para mostrar | Nombre técnico | Descripción | Prácticas recomendadas |
 |--- |--- |--- |--- |
-|  | PKey | <ul><li>El PKey es la clave principal física de una tabla de Adobes Campaign.</li><li>Este identificador suele ser único para una instancia de Adobe Campaign específica.</li><li>En Adobe Campaign Standard, este valor no es visible para el usuario final (excepto en las direcciones URL).</li></ul> | <ul><li>A través del sistema [](../../api/using/get-started-apis.md)API, es posible recuperar un valor PKey (que es un valor generado/hash, no la clave física).</li><li>No se recomienda utilizarlo para nada más que recuperar, actualizar o eliminar registros mediante API.</li></ul> |
-| ID | name o internalName | <ul><li>Esta información es un identificador único de un registro de una tabla. Este valor se puede actualizar manualmente.</li><li>Este identificador mantiene su valor cuando se implementa en una instancia de Adobe Campaign diferente. Debe tener un nombre diferente al valor generado para poder exportarse a través de un paquete.</li><li>Esta no es la clave principal real de la tabla.</li></ul> | <ul><li>No utilice caracteres especiales como espacio &quot;&quot;, semicolumna &quot;:&quot; o guión &quot;-&quot;.</li><li>Todos estos caracteres se reemplazarían por un guión bajo &quot;_&quot; (carácter permitido). Por ejemplo, &quot;abc-def&quot; y &quot;abc:def&quot; se almacenarían como &quot;abc_def&quot; y se sobrescribirían entre sí.</li></ul> |
+|  | PKey | <ul><li>El PKey es la clave principal física de una tabla de Adobe Campaign.</li><li>Este identificador suele ser único para una instancia de Adobe Campaign específica.</li><li>En Adobe Campaign Standard, este valor no es visible para el usuario final (excepto en las direcciones URL).</li></ul> | <ul><li>A través del sistema [](../../api/using/get-started-apis.md)API, es posible recuperar un valor PKey (que es un valor generado/hash, no la clave física).</li><li>No se recomienda utilizarlo para nada más que recuperar, actualizar o eliminar registros mediante API.</li></ul> |
+| ID | name o internalName | <ul><li>Esta información es un identificador único de un registro de una tabla. Este valor se puede actualizar manualmente.</li><li>Este identificador mantiene su valor cuando se implementa en una instancia diferente de Adobe Campaign. Debe tener un nombre diferente al valor generado para poder exportarse a través de un paquete.</li><li>Esta no es la clave principal real de la tabla.</li></ul> | <ul><li>No utilice caracteres especiales como espacio &quot;&quot;, semicolumna &quot;:&quot; o guión &quot;-&quot;.</li><li>Todos estos caracteres se reemplazarían por un guión bajo &quot;_&quot; (carácter permitido). Por ejemplo, &quot;abc-def&quot; y &quot;abc:def&quot; se almacenarían como &quot;abc_def&quot; y se sobrescribirían entre sí.</li></ul> |
 | Etiqueta | label | <ul><li>La etiqueta es el identificador comercial de un objeto o registro en Adobe Campaign.</li><li>Este objeto permite espacios y caracteres especiales.</li><li>No garantiza la singularidad de un registro.</li></ul> | <ul><li>Se recomienda determinar una estructura para las etiquetas de los objetos.</li><li>Esta es la solución más fácil de usar para identificar un registro u objeto para un usuario de Adobe Campaign.</li></ul> |
-| ID de ACS | acsId | <ul><li>Se puede generar un identificador adicional: el ID [de ACS](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).</li><li>Dado que el PKey no se puede utilizar en la interfaz de usuario de Adobe Campaign, se trata de una solución para obtener un valor único generado durante la inserción de un registro de perfil.</li><li>El valor solo se puede generar automáticamente si la opción está habilitada en el recurso antes de que se inserte un registro en el Adobe Campaign.</li></ul> | <ul><li>Este UUID se puede usar como clave de reconciliación.</li><li>Un ID ACS generado automáticamente no puede utilizarse como referencia en un flujo de trabajo o en una definición de paquete.</li><li>Este valor es específico de una instancia de Adobe Campaign.</li></ul> |
+| ID de ACS | acsId | <ul><li>Se puede generar un identificador adicional: el ID [de ACS](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).</li><li>Dado que el PKey no se puede usar en la interfaz de usuario de Adobe Campaign, se trata de una solución para obtener un valor único generado durante la inserción de un registro de perfil.</li><li>El valor solo se puede generar automáticamente si la opción está habilitada en el recurso antes de que se inserte un registro en Adobe Campaign.</li></ul> | <ul><li>Este UUID se puede usar como clave de reconciliación.</li><li>Un ID ACS generado automáticamente no se puede usar como referencia en un flujo de trabajo o en una definición de paquete.</li><li>Este valor es específico de una instancia de Adobe Campaign.</li></ul> |
 
 ### Claves de identificación {#keys}
 
-Cada recurso creado en Adobe Campaign debe tener al menos una clave [de identificación única](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
+Cada recurso creado en Adobe Campaign debe tener al menos una clave [de](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)identificación única.
 
 <!--Most organizations are importing records from external systems. While the physical key of a resource lies behind the PKey attribute, it is possible to determine a custom key in addition.
 
