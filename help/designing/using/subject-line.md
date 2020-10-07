@@ -9,10 +9,11 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 6f89b420f0f98c13da1bfff8f9b1b29e015aef89
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '372'
+ht-degree: 11%
 
 ---
 
@@ -27,9 +28,9 @@ El asunto del mensaje es obligatorio para preparar y enviar el mensaje.
 >
 >Si la línea de asunto está vacía, se muestra una advertencia en el panel de mensajes y en el Diseñador de correo electrónico.
 
-1. Cree un correo electrónico.
-1. Vaya a la **[!UICONTROL Properties]** ficha de la página de inicio de Email Designer (accesible mediante el icono de inicio).
-1. Complete la **[!UICONTROL Subject]** sección.
+1. Creación de un correo electrónico.
+1. Vaya a la **[!UICONTROL Properties]** ficha de la página de inicio de Email Designer (a la que se puede acceder desde el icono de inicio).
+1. Fill in the **[!UICONTROL Subject]** section.
 
    ![](assets/email_designer_subject.png)
 
@@ -38,7 +39,7 @@ El asunto del mensaje es obligatorio para preparar y enviar el mensaje.
 
 ## Definición del remitente de correo electrónico de un mensaje de correo electrónico {#email-sender}
 
-Para definir el nombre del remitente que aparecerá en el encabezado de los mensajes enviados, vaya a la **[!UICONTROL Properties]** ficha de la página de inicio de Email Designer (accesible a través del icono de inicio).
+Para definir el nombre del remitente que aparecerá en el encabezado de los mensajes enviados, vaya a la **[!UICONTROL Properties]** ficha de la página de inicio del Diseñador de correo electrónico (accesible mediante el icono de inicio).
 
 ![](assets/delivery_content_edition16.png)
 
@@ -46,9 +47,9 @@ Para definir el nombre del remitente que aparecerá en el encabezado de los mens
 
    Puede cambiar el nombre del remitente haciendo clic en el bloque de nombre **del** remitente. A continuación, el campo se puede editar y puede introducir el nombre que desee utilizar.
 
-   Este campo se puede personalizar. Para ello, puede agregar campos de personalización, bloques de contenido y contenido dinámico haciendo clic en los iconos situados debajo del nombre del remitente. For more on this, see [Personalization](../../designing/using/personalization.md).
+   Este campo se puede personalizar. Para ello, puede añadir campos de personalización, bloques de contenido y contenido dinámico haciendo clic en los iconos situados debajo del nombre del remitente. For more on this, see [Personalization](../../designing/using/personalization.md).
 
-* El **[!UICONTROL From: email address]** campo no se puede editar desde esta sección. Puede cambiarlo editando las propiedades del correo electrónico desde su tablero. Para obtener más información, consulte [Lista de parámetros](../../administration/using/configuring-email-channel.md#advanced-parameters)avanzados de correo electrónico.
+* El **[!UICONTROL From: email address]** campo no se puede editar desde esta sección. Puede cambiarlo editando las propiedades del correo electrónico desde su panel. Para obtener más información, consulte [Lista de parámetros](../../administration/using/configuring-email-channel.md#advanced-parameters)avanzados de correo electrónico.
 
 >[!NOTE]
 >
@@ -56,6 +57,6 @@ Para definir el nombre del remitente que aparecerá en el encabezado de los mens
 
 **Temas relacionados:**
 
-* [Inserción de un campo personalizado](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [Adición de un bloque de contenido](../../designing/using/personalization.md#adding-a-content-block)
+* [Inserción de un campo de personalización](../../designing/using/personalization.md#inserting-a-personalization-field).
+* [Añadir un bloque de contenido](../../designing/using/personalization.md#adding-a-content-block)
 * [Definición de contenido dinámico en un correo electrónico](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
