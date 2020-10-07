@@ -9,13 +9,11 @@ audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
 discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 11%
+ht-degree: 21%
 
 ---
 
@@ -29,11 +27,11 @@ ht-degree: 11%
 <td><img src="assets/do-not-localize/icon_privacy.svg" width="60px"><p><a href="#privacy">Cumplimiento de la privacidad</a></p></td></tr>
 </table>
 
-Los perfiles de cliente integrados de campaña le permiten realizar un seguimiento de cada interacción con los clientes en todos los canales dentro de una sola vista, lo que le permite enviar mensajes relevantes y personalizados a sus clientes.
+Los perfiles de cliente integrados de Campaign le permiten realizar un seguimiento de cada interacción con los clientes en canales múltiples dentro de una sola vista, lo que le permite enviar mensajes relevantes y personalizados a sus clientes.
 
-Segmente la base de datos en audiencias para optimizar el destinatario de las campañas de mercadotecnia.
+Segmente la base de datos en audiencias para optimizar el destinatario de las campañas de marketing.
 
-Administre el permiso y el consentimiento de los clientes mediante servicios y páginas de aterrizaje para configurar mecanismos de inclusión y exclusión fáciles.
+Administre el permiso y el consentimiento de los clientes con servicios y páginas de aterrizaje para configurar mecanismos de inclusión y exclusión sencillos.
 
 ## Segmentación y segmentación {#segmenting-targeting}
 
