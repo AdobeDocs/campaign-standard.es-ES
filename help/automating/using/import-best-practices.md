@@ -9,13 +9,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9a4c2219d5f8b312deb476d852cf5db9cd19afcb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '569'
-ht-degree: 74%
+ht-degree: 75%
 
 ---
 
@@ -24,7 +22,7 @@ ht-degree: 74%
 
 >[!CAUTION]
 >
->Tenga en cuenta los límites de almacenamiento SFTP, Almacenamiento de base de datos y perfil activo según el contrato de AdobeCampaign mientras utiliza esta funcionalidad.
+>Tenga en cuenta los límites de almacenamiento SFTP, Almacenamiento de base de datos y perfil activo según su contrato de Adobe Campaign mientras utiliza esta funcionalidad.
 
 Tenga cuidado y siga las sencillas reglas detalladas debajo, ya que le pueden ayudar a garantizar la coherencia de los datos en la base de datos y a evitar errores comunes durante la actualización o las exportaciones de datos.
 
@@ -47,9 +45,9 @@ En el [ejemplo encontrará un ejemplo de una plantilla de flujo de trabajo gené
 **Temas relacionados:**
 
 * [Cargar actividad de archivo](../../automating/using/load-file.md)
-* [actividad de reconciliación](../../automating/using/reconciliation.md)
-* [actividad de segmentación](../../automating/using/segmentation.md)
-* [actividad de Deduplicación](../../automating/using/deduplication.md)
+* [Actividad de reconciliación](../../automating/using/reconciliation.md)
+* [Actividad de segmentación](../../automating/using/segmentation.md)
+* [Actividad de deduplicación](../../automating/using/deduplication.md)
 * [Actualizar actividad de datos](../../automating/using/update-data.md)
 
 ## Uso de formatos de archivo plano {#using-flat-file-formats}
@@ -93,7 +91,7 @@ Las importaciones completas deben utilizarse únicamente para la carga inicial.
 Para mantener la coherencia de los datos en la base de datos de Adobe Campaign, siga los principios siguientes:
 
 * Si los datos importados coinciden con una tabla de referencia de Adobe Campaign, se deben reconciliar con esa tabla en el flujo de trabajo. Los registros que no coinciden deben ser rechazados.
-* Asegúrese de que los datos importados siempre estén **“normalizados”** (correo electrónico, número de teléfono, dirección de correo postal) y que esta normalización sea fiable y no cambie con los años. Si no es así, es probable que algunos duplicados aparezcan en la base de datos y, como Adobe Campaign no proporciona herramientas para establecer correspondencias “difusas”, resulta muy difícil administrarlos y eliminarlos.
+* Asegúrese de que los datos importados siempre estén **&quot;normalizados&quot;** (correo electrónico, número de teléfono, dirección de correo postal) y que esta normalización sea fiable y no cambie con los años. Si no es así, es probable que algunos duplicados aparezcan en la base de datos y, como Adobe Campaign no proporciona herramientas para establecer correspondencias &quot;difusas&quot;, resulta muy difícil administrarlos y eliminarlos.
 * Los datos de transacciones deben tener una clave de reconciliación y se deben reconciliar con los datos existentes para evitar la creación de duplicados.
 * **Importación de archivos relacionados en orden**. Si la importación está compuesta por varios archivos que dependen unos de otros, el flujo de trabajo debe asegurar que los archivos se importen en el orden correcto. Si un archivo falla, los demás archivos no se importan.
 * **Deduplique**, reconcilie y mantenga la coherencia al importar datos.
