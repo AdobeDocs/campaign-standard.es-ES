@@ -1,5 +1,5 @@
 ---
-title: Actualización de atributos de unidad organizativa
+title: Actualización de los atributos de una unidad organizativa
 description: Obtenga información sobre cómo actualizar los atributos de una unidad organizativa
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -9,24 +9,25 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 2a3b77c75931086f59ddb8717a1bfcfaf49d45d5
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '84'
+ht-degree: 11%
 
 ---
 
 
-# Actualización de atributos de unidad organizativa {#updating-organizational-unit-attributes}
+# Actualización de los atributos de una unidad organizativa {#updating-organizational-unit-attributes}
 
-1. Realice una solicitud GET en el recurso **orgUnitBase** para recuperar la unidad organizativa PKey.
-1. Realice una solicitud PATCH en la unidad organizativa, con los atributos que desea actualizar en la carga útil.
+1. Realice una solicitud de GET en el recurso **orgUnitBase** para recuperar la unidad organizativa PKey.
+1. Realice una solicitud de PATCH en la unidad organizativa, con los atributos que desea actualizar en la carga útil.
 
 <br/>
 
 ***Solicitud de muestra***
 
-Recupere la lista de unidades organizativas.
+Recuperar la lista de unidades organizativas.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/ \
@@ -52,7 +53,7 @@ Devuelve todas las unidades organizativas. Recupere el PKey de la unidad deseada
 },
 ```
 
-Realice una solicitud PATCH en la unidad organizativa, con los atributos que desea actualizar en la carga útil.
+Realice una solicitud de PATCH en la unidad organizativa, con los atributos que desea actualizar en la carga útil.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \
