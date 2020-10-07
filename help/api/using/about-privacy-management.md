@@ -9,17 +9,18 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '112'
+ht-degree: 4%
 
 ---
 
 
 # Acerca de la administración de la privacidad {#about-privacy-management}
 
-Las API de Campaign Standard ofrecen funciones que permiten el proceso automático de solicitudes relacionadas con regulaciones de privacidad como GDPR y CCPA.
+Las API de Campaign Standard proporcionan funciones que permiten el proceso automático de solicitudes relacionadas con las normativas de privacidad, como el RGPD y la CCPA.
 
 Las acciones que puede realizar son las siguientes:
 
@@ -32,4 +33,4 @@ El extremo de la API de privacidad es **/privacy/privacyTool**. La descripción 
 
 La exclusión de CCPA se administra mediante el atributo de perfil **ccpaOptOut** .
 
-Para obtener más información sobre Adobe Campaign Standard y la conformidad con la privacidad, consulte la documentación [](https://helpx.adobe.com/campaign/kb/acs-privacy.html)dedicada.
+Para obtener más información sobre Adobe Campaign Standard y el cumplimiento de la privacidad, consulte la documentación [](https://helpx.adobe.com/es/campaign/kb/acs-privacy.html)dedicada.
