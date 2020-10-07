@@ -9,10 +9,8 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 0%
@@ -177,20 +175,20 @@ Se admiten los siguientes idiomas:
 | ko_kr | Coreano - Corea del Sur |
 | lv_lv | Letón - Letonia |
 | lt_lt | Lituano - Lituania |
-| t_mk | Macedonio - Macedonia |
+| mk_mk | Macedonio - Macedonia |
 | ms_my | Malayo - Malasia |
 | mr_in | Marathi - India |
 | no_no | Noruego - Noruega |
-| pl_pl | a) Polonia |
+| pl_pl | Polaco - Polonia |
 | pt_br | Portugués - Brasil |
 | pt_pt | Portugués - Portugal |
 | pa_in | Punjabi - India |
 | ro_md | Rumano - Moldavia |
 | ro_ro | Rumano - Rumania |
-| ru_kz | Eslovaco - Kazajistán |
+| ru_kz | Ruso - Kazajistán |
 | ru_ru | Ruso - Rusia |
 | ru_ua | Ruso - Ucrania |
-| Portugués | Sanskrit - India |
+| a_in | Sanskrit - India |
 | sr_ba | Serbio - Bosnia |
 | sr_rs | Serbio - Serbia |
 | sk_sk | Eslovaco - Eslovaquia |
