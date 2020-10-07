@@ -9,10 +9,8 @@ audience: reporting
 content-type: reference
 topic-tags: customizing-reports
 discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 2%
@@ -37,7 +35,7 @@ Para destinatario de estos segmentos en los informes:
 
 Antes de realizar el sistema de informes en el código de segmento, debe actualizar el recurso **[!UICONTROL Profiles]** personalizado para que los códigos de segmento se almacenen.
 
-1. En el menú avanzado, a través del logotipo de Adobe Campaign, seleccione **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]** y, a continuación, seleccione el **[!UICONTROL Profile (profile)]** recurso.
+1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]**, then select the **[!UICONTROL Profile (profile)]** resource.
 1. En el **[!UICONTROL Sending logs extension]** menú de la **[!UICONTROL Data structure]** ficha, marque **[!UICONTROL Add segment code]** para permitir que el almacenamiento de los códigos de segmento se dirija a flujos de trabajo y enviarlo al sistema de informes dinámico.
 
    El **[!UICONTROL Segment code]** estará disponible en la sección de **[!UICONTROL Profile]** dimensiones del informe.
@@ -66,9 +64,9 @@ En primer lugar, debe crear un flujo de trabajo con una población objetivo dife
 
 1. Cree su flujo de trabajo. For more details on how to create your workflow, refer to this [page](../../automating/using/building-a-workflow.md).
 
-1. Añada una **[!UICONTROL Query]** actividad arrastrándola desde la paleta y colocándola en el espacio de trabajo.
+1. Add a **[!UICONTROL Query]** activity by dragging it from the palette and dropping it in the workspace.
 
-1. perfiles de Destinatario de 20 a 40 años para luego segmentarlos en poblaciones más específicas.
+1. Perfiles de destinatario de 20 a 40 años para luego segmentarlos en poblaciones más específicas.
 
    ![](assets/report_segment_1.png)
 
@@ -78,7 +76,7 @@ En primer lugar, debe crear un flujo de trabajo con una población objetivo dife
 
    ![](assets/report_segment_7.png)
 
-1. perfiles de Consulta entre los 20 y los 30 años y haga clic **[!UICONTROL Confirm]** cuando termine.
+1. Perfiles de consulta entre los 20 y los 30 años y haga clic **[!UICONTROL Confirm]** cuando termine.
 
    ![](assets/report_segment_8.png)
 
