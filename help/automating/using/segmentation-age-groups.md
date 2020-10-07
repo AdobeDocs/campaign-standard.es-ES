@@ -1,6 +1,6 @@
 ---
 title: Segmentación según grupos de edad
-description: Esta página presenta una segmentación de los perfiles de la base de datos según su grupo de edad. El objetivo del flujo de trabajo es enviar un correo electrónico específico para cada grupo de edad.
+description: Esta página presenta una segmentación de los perfiles de la base de datos según su grupo de edad. El objetivo del flujo de trabajo es enviar un correo electrónico específico a cada grupo de edad.
 page-status-flag: never-activated
 uuid: 77796f18-cad5-4e7a-9d7b-4ed0dd8943bf
 contentOwner: sauviat
@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 0ccd9d02-772e-406b-874a-5381dd0c8709
 context-tags: segmentation,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 7ffa48365875883a98904d6b344ac005afe26e18
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 0%
+ht-degree: 66%
 
 ---
 
@@ -25,23 +23,23 @@ ht-degree: 0%
 
 El siguiente ejemplo muestra una segmentación de los perfiles de base de datos según su grupo de edad.
 
-El objetivo del flujo de trabajo es enviar un correo electrónico específico para cada grupo de edad. Teniendo en cuenta que este flujo de trabajo es parte de una campaña de prueba, cada segmento sólo puede contener un máximo de 100 perfiles seleccionados al azar para utilizar audiencias limitadas y representativas al mismo tiempo.
+El objetivo del flujo de trabajo es enviar un correo electrónico específico a cada grupo de edad. Teniendo en cuenta que este flujo de trabajo forma parte de una campaña de prueba, cada segmento solo puede contener un máximo de 100 perfiles seleccionados al azar para utilizar audiencias limitadas y representativas a la vez.
 
 ![](assets/wkf_segment_example_4.png)
 
 El flujo de trabajo se compone de los siguientes elementos:
 
-* Una actividad [de](../../automating/using/segmentation.md) Planificador para especificar la fecha de ejecución del flujo de trabajo.
-* actividad de [Consulta](../../automating/using/query.md) a perfiles de destinatarios de personas cuyos cumpleaños y direcciones de correo electrónico se han introducido.
-* Una actividad [de segmentación](../../automating/using/segmentation.md) para crear 3 segmentos divididos en diferentes transiciones de salida: 18 a 25 años, 26 a 32 años y perfiles mayores de 32 años. Los segmentos se definen según los siguientes parámetros:
+* A [Scheduler activity](../../automating/using/segmentation.md) to specify the workflow&#39;s execution date.
+* A [Query](../../automating/using/query.md) activity to target profiles of people whose birthday and email address have been entered.
+* A [Segmentation](../../automating/using/segmentation.md) activity to create 3 segments divided into different outbound transitions: 18-25-year old, 26-32-year old and profiles that are over 32 years old. Los segmentos se definen según los siguientes parámetros:
 
    ![](assets/wkf_segment_example_3.png)
 
-   * Un filtro en la edad para definir el grupo de edad del segmento
+   * Un filtro de edad para definir el grupo de edad del segmento.
 
       ![](assets/wkf_segment_new_segment.png)
 
-   * Límite de **[!UICONTROL Random sampling]** tipo vinculado a un **[!UICONTROL Maximum size]** límite de 100
+   * Un límite de tipo **[!UICONTROL Random sampling]** vinculado a un límite **[!UICONTROL Maximum size]** de 100.
 
       ![](assets/wkf_segment_example_1.png)
 
