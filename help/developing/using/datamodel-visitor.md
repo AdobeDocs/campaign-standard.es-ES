@@ -7,15 +7,16 @@ products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 6263623a5a8999c475255709a7d0150437e68c0b
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '144'
+ht-degree: 13%
 
 ---
 
 
-# Visitante (nms:visitor)
+# Visitante (nms:visitante)
 
 ## Descripción del objeto
 
@@ -24,7 +25,7 @@ source-git-commit: 6263623a5a8999c475255709a7d0150437e68c0b
         <th>Name</th>
         <th>Etiqueta</th>
         <th>Tipo (longitud)</th>
-        <th>Valores de enumeración</th>
+        <th>Valores de lista desglosada</th>
     </tr>
     <tr>
         <td>PKey</td>
@@ -34,7 +35,7 @@ source-git-commit: 6263623a5a8999c475255709a7d0150437e68c0b
     </tr>
     <tr>
         <td>comment</td>
-        <td>Comentario Referente</td>
+        <td>Comentario de remitente del reenvío</td>
         <td>string (255)</td>
         <td> </td>
     </tr>
@@ -51,14 +52,14 @@ source-git-commit: 6263623a5a8999c475255709a7d0150437e68c0b
         <td> </td>
     </tr>
     <tr>
-        <td>entrega (entrega)</td>
-        <td>Envío</td>
+        <td>envío (envío)</td>
+        <td>Entrega</td>
         <td>link </td>
         <td> </td>
     </tr>
     <tr>
         <td>deliveryId</td>
-        <td>ID de la última entrega</td>
+        <td>ID del último envío</td>
         <td>integer </td>
         <td> </td>
     </tr>
@@ -125,7 +126,7 @@ source-git-commit: 6263623a5a8999c475255709a7d0150437e68c0b
     <tr>
         <td>origen</td>
         <td>Origen</td>
-        <td>enumeración (byte) </td>
+        <td>lista desglosada (byte) </td>
         <td>
             <ul>
             <li>Sin definir - sin definir - 0</li>
@@ -147,31 +148,31 @@ source-git-commit: 6263623a5a8999c475255709a7d0150437e68c0b
     </tr>
     <tr>
         <td>referrerEmail</td>
-        <td>Correo electrónico del referente</td>
+        <td>Correo electrónico del remitente del reenvío</td>
         <td>string (128)</td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerFirstName</td>
-        <td>Nombre del referente</td>
+        <td>Nombre del remitente del reenvío</td>
         <td>string (30)</td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerId</td>
-        <td>ID de referente</td>
+        <td>ID de remitente del reenvío</td>
         <td>integer </td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerLastName</td>
-        <td>Apellido del referente</td>
+        <td>Apellido del remitente del reenvío</td>
         <td>string (50)</td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerRcp (destinatario)</td>
-        <td>Referente</td>
+        <td>Remitente del reenvío</td>
         <td>link </td>
         <td> </td>
     </tr>
