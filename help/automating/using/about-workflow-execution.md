@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
 context-tags: workflow,overview;workflow,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3ed78fd610b0d134cd1e60f34c93161cb1e5c50f
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '374'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
@@ -27,7 +25,7 @@ Un flujo de trabajo siempre se inicia manualmente. Sin embargo, una vez iniciada
 
 >[!CAUTION]
 >
-> Adobe recomienda a los clientes priorizar las ejecuciones de flujos de trabajo y ejecutar hasta veinte ejecuciones de flujos de trabajo concurrentes para lograr de forma consistente el máximo rendimiento en toda la instancia. Se pueden planificar más de veinte ejecuciones de flujo de trabajo simultáneas que se ejecutarán secuencialmente de forma predeterminada. Puede ajustar la configuración predeterminada para el número máximo de ejecuciones de flujo de trabajo simultáneas enviando un ticket al Servicio de atención al cliente.
+> Adobe recomienda que los clientes den prioridad a las ejecuciones de flujos de trabajo y ejecuten hasta veinte ejecuciones de flujos de trabajo concurrentes para lograr de forma consistente el máximo rendimiento en toda la instancia. Se pueden planificar más de veinte ejecuciones de flujo de trabajo simultáneas que se ejecutarán secuencialmente de forma predeterminada. Puede ajustar la configuración predeterminada para el número máximo de ejecuciones de flujo de trabajo simultáneas enviando un ticket al Servicio de atención al cliente.
 
 Acciones relacionadas con la ejecución (inicio, parada, pausa, etc.) son procesos **asincrónicos** : el comando se guarda y se hará efectivo cuando el servidor esté disponible para aplicarlo.
 
