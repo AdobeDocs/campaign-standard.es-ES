@@ -10,10 +10,8 @@ content-type: reference
 topic-tags: data-management-activities
 discoiquuid: a06509f9-4731-4187-b43d-3bfa361284d3
 context-tags: fileExport,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 91%
@@ -56,7 +54,7 @@ La forma en que se extraerán los datos se define al configurar la actividad.
 
 1. Si lo desea, puede comprimir el archivo de salida seleccionando **[!UICONTROL Compression]** en el campo **[!UICONTROL Add a pre-processing step]**. El archivo de salida se comprimirá en un archivo GZIP (.gz).
 
-   El **[!UICONTROL Add a pre-processing step]** campo también permite cifrar un archivo antes de extraerlo. Para obtener más información sobre cómo trabajar con archivos cifrados, consulte [esta sección](../../automating/using/managing-encrypted-data.md)
+   El **[!UICONTROL Add a pre-processing step]** campo también permite cifrar un archivo antes de extraerlo. For more on how to work with encrypted files, refer to [this section](../../automating/using/managing-encrypted-data.md)
 
 1. Haga clic en el botón ![](assets/add_darkgrey-24px.png) o **[!UICONTROL Add an element]** para añadir una columna de salida.
 
