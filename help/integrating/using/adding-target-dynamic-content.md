@@ -9,24 +9,22 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
 discoiquuid: 45ddf7b7-98f7-4fdd-bb4a-49ec8490e877
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 27%
+ht-degree: 29%
 
 ---
 
 
 # Adición de contenido dinámico de Target{#adding-target-dynamic-content}
 
-Con la integración de Adobe Target, las imágenes dinámicas se pueden añadir a un envío para personalizar el contenido en función de las experiencias.
+Con la integración con Adobe Target, las imágenes dinámicas se pueden añadir a un envío para personalizar el contenido en función de las experiencias.
 
-Durante la edición de un correo electrónico, puede insertar una imagen dinámica desde el Adobe Target que cambiará en función de los destinatarios.
+Al editar un correo electrónico, puede insertar una imagen dinámica de Adobe Target que cambiará según los destinatarios.
 
-Antes de acceder a la imagen en Adobe Campaign, primero se deben realizar las siguientes tareas en Adobe Target:
+Antes de acceder a la imagen en Adobe Campaign, las siguientes tareas deben realizarse primero en Adobe Target:
 
 * Create one or several [redirect offers](https://docs.adobe.com/content/help/en/target/using/experiences/offers/offer-redirect.html), in which you must specify the URL of the image you will be using.
 * Cree una o varias [audiencias](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html) para definir el público objetivo de la actividad.
@@ -50,13 +48,13 @@ Antes de acceder a la imagen en Adobe Campaign, primero se deben realizar las si
 
    ![](assets/tar_additional_decisionning_parameters.png)
 
-1. Previsualización el correo electrónico para ver si, al seleccionar diferentes perfiles, la imagen insertada cambia según los parámetros especificados en la actividad de Adobe Target y en el Adobe Campaign.
+1. Previsualización el correo electrónico para ver si, al seleccionar diferentes perfiles, la imagen insertada cambia según los parámetros especificados en la actividad de Adobe Target y en Adobe Campaign.
 
 Ahora se puede enviar el envío que contiene la imagen dinámica. Sus resultados se pueden encontrar en Adobe Target.
 
 **Temas relacionados:**
 
-* [Adobe Target Portal](https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html)
+* [Adobe Target Portal](https://docs.adobe.com/content/help/es-ES/target/using/integrate/campaign-and-target.html)
 * [Acerca del diseño de contenido de correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md)
-* [Personalización de imágenes de correo electrónico en vídeo en tiempo](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html) real
+* [Personalización de imágenes de correo electrónico en vídeo en tiempo](https://helpx.adobe.com/es/marketing-cloud/how-to/email-marketing.html) real
 
