@@ -9,10 +9,11 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 discoiquuid: 8ff74630-860c-4f1c-9aa7-21c3326e47da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 44049443f8028ed26089ee0d49944ebac6a62111
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '204'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +22,7 @@ source-git-commit: 44049443f8028ed26089ee0d49944ebac6a62111
 
 Antes de iniciar o acceder a un informe, debe aplicar un período de tiempo. Se puede acceder al período determinado en la parte superior derecha del informe.
 
-De forma predeterminada, para una campaña o programa, el período de filtro se establece en la fecha de inicio y finalización del programa o la campaña. Para una entrega, la fecha de inicio corresponde a la fecha de envío y la fecha de finalización a la fecha de envío más 7 días.
+De forma predeterminada, para una campaña o programa, el período de filtro se establece en el inicio y la fecha de finalización del programa o la campaña. Para un envío, la fecha de inicio corresponde a la fecha de envío y la fecha de finalización a la fecha de envío más 7 días.
 
 Para modificar el filtro, seleccione una fecha de inicio y un período o utilice el período de tiempo preestablecido, como la semana pasada, hace dos meses, etc.
 
