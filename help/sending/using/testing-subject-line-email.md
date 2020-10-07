@@ -9,13 +9,11 @@ audience: sending
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 343ea01229779a32919bd68fd15e0c7ff6863353
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1095'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -40,9 +38,9 @@ Para probar la línea de asunto, siga los pasos a continuación:
 
 1. Cree o abra su correo electrónico.
 1. Abra el contenido e introduzca el asunto del correo electrónico en el campo de entrada correspondiente.
-1. Haga clic en el **[!UICONTROL Test subject]** botón para acceder a la **[!UICONTROL Test your subject line]** ventana. Aún puede editar el asunto desde esta ventana.
+1. Click the **[!UICONTROL Test subject]** button to access the **[!UICONTROL Test your subject line]** window. Aún puede editar el asunto desde esta ventana.
 1. Seleccione el modelo correcto que se debe tener en cuenta para la predicción de velocidad abierta. Existen varios modelos disponibles, cada uno de ellos correspondiente a una industria específica. Para obtener más información sobre el uso de modelos, consulte esta [sección](#importing-models).
-1. Haga clic **[!UICONTROL Test]**.
+1. Haga clic en **[!UICONTROL Test]**.
 
 A continuación, se analiza el asunto.
 
@@ -59,7 +57,7 @@ Se calculan varios indicadores y se muestra un conjunto de herramientas para ayu
 
 >[!NOTE]
 >
->Los Campos de personalización y signos de puntuación se eliminan de la análisis del sujeto. En el caso del texto dinámico/condicional, todas las variantes se consideran una sola línea de asunto.
+>Los campos de personalización y signos de puntuación se eliminan de la análisis del sujeto. En el caso del texto dinámico/condicional, todas las variantes se consideran una sola línea de asunto.
 
 ![](assets/predictive_subject_line_example.png)
 
@@ -74,7 +72,7 @@ De forma predeterminada, no hay ningún modelo en ejecución en el servidor Adob
 
 * Si ya está utilizando Adobe Campaign, el modelo local recibirá automáticamente formación sobre los mensajes que ya ha enviado.
 * Si es nuevo en Adobe Campaign, puede extraer un archivo CSV del sistema o ESP anterior que contenga 4 columnas: fecha, asunto, abre, enviado. Para ello, vaya a **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email]** > **[!UICONTROL Subject Line Import]** y siga las instrucciones que aparecen en las pantallas sucesivas. Una vez completada la carga del asunto, importe un modelo local como se describe a continuación. El modelo local se capacita automáticamente con los datos cargados.
-* Si es nuevo en Adobe Campaign y no puede obtener un archivo CSV como se ha descrito anteriormente, puede utilizar un modelo [](#pre-trained-models) preentrenado o esperar hasta que tenga suficientes datos de envío en el sistema para formar un modelo local. El sistema determinará automáticamente si el conjunto de datos actual contiene datos suficientes para reconocer patrones y para entrenar el modelo.
+* Si es nuevo en Adobe Campaign y no puede obtener un archivo CSV como se ha descrito anteriormente, puede utilizar un modelo [](#pre-trained-models) preentrenado o esperar a que tenga suficientes datos de envío en el sistema para formar un modelo local. El sistema determinará automáticamente si el conjunto de datos actual contiene datos suficientes para reconocer patrones y para entrenar el modelo.
 
 >[!NOTE]
 >
@@ -83,14 +81,14 @@ De forma predeterminada, no hay ningún modelo en ejecución en el servidor Adob
 >Sólo puede tener un modelo entrenado en su instancia.
 
 Para entrenar un modelo local:
-1. Descargue subjectLineTraining.xml desde [aquí](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) y utilice la función de importación [de](../../automating/using/managing-packages.md) paquetes para cargarla en la instancia de Adobe Campaign. Un flujo de trabajo técnico hará automáticamente la formación.
+1. Descargue subjectLineTraining.xml desde [aquí](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html) y utilice la función de importación [de](../../automating/using/managing-packages.md) paquetes para cargarla en su instancia de Adobe Campaign. Un flujo de trabajo técnico hará automáticamente la formación.
 1. La primera vez que desee formar un modelo, un administrador puede forzar el inicio **[!UICONTROL SubjectLine Training workflow]** a en el menú **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Workflows]** .
 1. Una vez cargado y entrenado un modelo, la función se activa automáticamente y aparece una nueva opción junto al campo de línea de asunto de los mensajes.
 1. A continuación, el flujo de trabajo técnico seguirá formando automáticamente a su modelo cada semana.
 
 ### Importación de modelos preentrenados {#pre-trained-models}
 
-Para acceder a estos modelos, haga clic [aquí](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). Utilice la función de importación [de](../../automating/using/managing-packages.md) paquetes para cargar un modelo en la instancia de Adobe Campaign.
+Para acceder a estos modelos, haga clic [aquí](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html). Utilice la función de importación [de](../../automating/using/managing-packages.md) paquetes para cargar un modelo en la instancia de Adobe Campaign.
 
 Los modelos disponibles para su uso son:
 
