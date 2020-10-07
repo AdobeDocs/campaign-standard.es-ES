@@ -10,20 +10,18 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 674684e5-8830-4d2f-ba97-59ed4ba7422f
 context-tags: readAudience,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 7ffa48365875883a98904d6b344ac005afe26e18
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 0%
+ht-degree: 87%
 
 ---
 
 
 # Reconciliación de una audiencia de archivo con la base de datos {#example--reconcile-a-file-audience-with-the-database}
 
-Este ejemplo muestra cómo utilizar la **[!UICONTROL Read audience]** actividad para reconciliar una audiencia creada directamente a partir de una importación de archivos.
+Este ejemplo muestra cómo utilizar la actividad **[!UICONTROL Read audience]** para reconciliar una audiencia creada directamente a partir de una importación de archivos.
 
 Al importar un archivo, puede guardar directamente su contenido en una audiencia. Esta audiencia es una audiencia de archivo y sus datos no están vinculados a ningún recurso de base de datos.
 
@@ -31,7 +29,7 @@ El flujo de trabajo de importación está diseñado de la siguiente manera:
 
 ![](assets/readaudience_activity_example3.png)
 
-* Una actividad de [carga de archivos](../../automating/using/load-file.md) carga un archivo que contiene datos de perfiles extraídos de una herramienta externa.
+* Una actividad de [Cargar archivos](../../automating/using/load-file.md) carga un archivo que contiene datos de perfiles extraídos de una herramienta externa.
 
    Por ejemplo:
 
@@ -49,12 +47,12 @@ El flujo de trabajo de importación está diseñado de la siguiente manera:
    Ross;Timothy;04/07/1986;timross@example.com;157643
    ```
 
-* Una actividad [Guardar audiencia](../../automating/using/save-audience.md) guarda los datos entrantes como una audiencia. Como los datos aún no se han conciliado, la audiencia es una audiencia de archivo y sus datos no se reconocen como datos de perfil.
+* Una actividad de [Guardar audiencia](../../automating/using/save-audience.md) guarda los datos de entrada como una audiencia. Como los datos aún no están cuadrados, la audiencia es una audiencia de archivo y sus datos no se reconocen como datos de perfil.
 
 El flujo de trabajo de reconciliación está diseñado de la siguiente manera:
 
 ![](assets/readaudience_activity_example2.png)
 
-* Una actividad de audiencia [de](../../automating/using/read-audience.md) lectura carga la audiencia de archivo creada en el flujo de trabajo de importación. Los datos de audiencia aún no se han conciliado con la base de datos de Adobe Campaign.
-* Una actividad [de reconciliación](../../automating/using/reconciliation.md) identifica los datos entrantes como perfiles a través de su **[!UICONTROL Identification]** ficha. Por ejemplo, utilizando el campo de **correo electrónico** como criterios de reconciliación.
-* Una actividad de [actualización de datos](../../automating/using/update-data.md) inserta y actualiza el recurso de perfiles de la base de datos con los datos entrantes. Como los datos ya están identificados como perfiles, puede seleccionar la **[!UICONTROL Directly using the targeting dimension]** opción y seleccionarla **[!UICONTROL Profiles]** en la **[!UICONTROL Identification]** ficha de la actividad. A continuación, simplemente tiene que agregar la lista de campos que deben actualizarse en la ficha de acuerdo.
+* A [Read audience](../../automating/using/read-audience.md) activity uploads the File audience created in the import workflow. Los datos de audiencia aún no están cuadrados con la base de datos de Adobe Campaign.
+* Una actividad de [reconciliación](../../automating/using/reconciliation.md) identifica los datos de entrada como perfiles en la pestaña **[!UICONTROL Identification]**. Por ejemplo, utilizando el campo de **correo electrónico** como criterios de reconciliación.
+* Una actividad de [actualización de datos](../../automating/using/update-data.md) inserta y actualiza el recurso de perfiles de la base de datos con los datos de entrada. Como los datos ya están identificados como perfiles, puede seleccionar la opción **[!UICONTROL Directly using the targeting dimension]** y seleccionar **[!UICONTROL Profiles]** en la pestaña **[!UICONTROL Identification]** de la actividad. A continuación, simplemente tiene que añadir la lista de campos que deben actualizarse en la pestaña adecuada.
