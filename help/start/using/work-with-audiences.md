@@ -1,6 +1,6 @@
 ---
 title: Personalización de listas
-description: '"Aprenda a personalizar la visualización y a actuar en pantallas de lista en Adobe Campaign Standard:ordenar, filtrar, eliminar o duplicar elementos. Las pantallas de Listas muestran elementos de uno o varios recursos determinados."'
+description: '"Aprenda a personalizar la visualización y a actuar en pantallas de lista en Adobe Campaign Standard:ordenar, filtrar, eliminar o duplicar elementos. Las pantallas de listas muestran elementos de uno o varios recursos determinados."'
 page-status-flag: never-activated
 uuid: 3350583c-91ca-4ea5-ac14-6b6f11c4a64a
 contentOwner: sauviat
@@ -9,13 +9,11 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '788'
+ht-degree: 11%
 
 ---
 
@@ -38,14 +36,14 @@ ht-degree: 0%
     </td>
 </tr>
 <tr>
-<td>perfiles del cliente</td>
+<td>Perfiles del cliente</td>
 <td>Enriquecimiento de la base de datos</td>
 <td>Organizar sus audiencias</td>
 <td>Administración de la privacidad</td>
 </tr>
 </table>
 
-## perfiles del cliente {#customer-profiles}
+## Perfiles del cliente {#customer-profiles}
 
 <img width="60px" alt="condiciones" src="assets/icon_profile.svg"/>
 
@@ -64,7 +62,7 @@ Campaign Standard oferta varias herramientas para ayudarle a ampliar su base de 
 
 ### Importación de datos mediante flujos de trabajo {#importing-data-through-workflows}
 
-Los Flujos de trabajo permiten recopilar datos e importarlos a la base de datos de Campañas mediante el uso de [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) actividades. En [esta sección](../../automating/using/about-data-import-and-export.md)se presenta información genérica y optimizaciones para importar datos mediante flujos de trabajo.
+Los flujos de trabajo permiten recopilar datos e importarlos a la base de datos de Campañas mediante el uso de [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) actividades. En [esta sección](../../automating/using/about-data-import-and-export.md)se presenta información genérica y optimizaciones para importar datos mediante flujos de trabajo.
 
 Además, puede configurar plantillas para importar datos. El uso de plantillas de importación es una práctica recomendada si necesita importar archivos con la misma estructura de forma regular. Puede configurar dos tipos de plantillas:
 
@@ -74,13 +72,13 @@ Además, puede configurar plantillas para importar datos. El uso de plantillas d
 
 ### Recopilación de datos de páginas de aterrizaje {#collecting-data-from-landing-pages}
 
-Las Páginas de aterrizaje son formularios web que se pueden utilizar para recopilar datos y crear o actualizar la información existente en la base de datos. El principio es el siguiente:
+Las páginas de aterrizaje son formularios web que se pueden utilizar para recopilar datos y crear o actualizar la información existente en la base de datos. El principio es el siguiente:
 
 * Cree y diseñe su página de aterrizaje agregando campos de entrada para recopilar datos (nombre, apellidos, correo electrónico, etc.).
 * Asigne cada campo de entrada con el campo correspondiente de la base de datos.
 * Haga que la página de aterrizaje esté disponible en línea a través de un sitio web o a través de un vínculo directo en un mensaje.
 
-Para obtener más información sobre páginas de aterrizaje, consulte la documentación [](../../channels/using/getting-started-with-landing-pages.md)dedicada.
+For more on landing pages, refer to the [dedicated documentation](../../channels/using/getting-started-with-landing-pages.md).
 
 **Más información**
 
@@ -118,7 +116,7 @@ Las API de Campaign Standard permiten realizar operaciones para actualizar la ba
 
 <img width="60px" alt="condiciones" src="assets/icon_audience.svg"/>
 
-Para permitirle entregar mensajes relevantes y eficaces y captar a sus clientes de manera eficaz, Adobe Campaign integra funcionalidades avanzadas de análisis y objetivo.
+Para permitirle entregar mensajes relevantes y eficaces y captar a sus clientes de manera eficaz, Adobe Campaign integra funcionalidades avanzadas de análisis y determinación de objetivos.
 
 Gracias a los flujos de trabajo y al editor de consultas, puedes crear audiencias que serán blanco de tus diferentes campañas, dependiendo de la información que tengas sobre ellos, sus actividades, su idioma, sus preferencias o su historial de marketing. Esto le permite filtrar los perfiles suscritos, por ejemplo, o crear audiencias de destinatario según un número ilimitado de criterios.
 
@@ -131,9 +129,9 @@ Gracias a los flujos de trabajo y al editor de consultas, puedes crear audiencia
 
 <img width="60px" alt="condiciones" src="assets/icon_privacy.svg"/>
 
-El Reglamento General de Protección de Datos (GDPR) es la nueva normativa sobre privacidad de la Unión Europea que unifica y moderniza los requisitos de protección de datos. El RGPD se aplica a los clientes de Adobe Campaign que albergan datos de sujetos de datos que residan en la UE. Además de las capacidades de privacidad ya disponibles en Adobe Campaign (incluida la administración de consentimiento, la configuración de retención de datos y las funciones de usuario), aprovechamos esta oportunidad en nuestra función de procesador de datos para incluir funciones adicionales, a fin de ayudarle a prepararse como controlador de datos para determinadas solicitudes de RGPD.
+El Reglamento General de Protección de Datos (GDPR) es la nueva normativa sobre privacidad de la Unión Europea que unifica y moderniza los requisitos de protección de datos. El RGPD se aplica a los clientes de Adobe Campaign que albergan datos de sujetos de datos que residan en la UE. Además de las capacidades de privacidad ya disponibles en Adobe Campaign (incluida la administración de consentimiento, la configuración de retención de datos y las funciones de usuario), aprovechamos esta oportunidad en nuestra función de procesador de datos para incluir capacidades adicionales, a fin de facilitar su preparación como controlador de datos para determinadas solicitudes de RGPD.
 
-Consulte esta [guía](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html) para obtener más información sobre las herramientas y funcionalidades que ofrece Adobe Campaign para ayudarle a cumplir con el RGPD.
+Consulte esta [guía](https://helpx.adobe.com/es/campaign/kb/campaign-privacy.html) para obtener más información sobre las herramientas y funcionalidades que proporciona Adobe Campaign para ayudarle a cumplir con el RGPD.
 
 **Más información**
 
