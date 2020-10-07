@@ -10,18 +10,16 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 91cb524e104fbaa7f3334578d82b3878cc15fc9b
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
 
-# Understanding push notifications payload structure {#push-payload}
+# Explicación de la estructura de carga de las notificaciones push {#push-payload}
 
 Adobe Campaign le permite enviar notificaciones push personalizadas y segmentadas en dispositivos móviles iOS y Android a aplicaciones móviles (aplicación móvil).
 
@@ -43,7 +41,7 @@ Los atributos de carga útil y sus valores variarán según las configuraciones 
 
 ### Para la aplicación móvil de iOS {#payload-structure-ios}
 
-**Carga útil de muestra enviada desde Adobe Campaign a la aplicación de iOS:**
+**Carga útil de muestra enviada desde Adobe Campaign a la aplicación iOS:**
 
 ```
 {
@@ -117,7 +115,7 @@ En los documentos para desarrolladores de Apple encontrará información detalla
 
 ### Para la aplicación Android {#payload-structure-android}
 
-**Ejemplo de envío de carga útil desde Adobe Campaign a una aplicación de Android**
+**Ejemplo de carga útil enviada desde Adobe Campaign a una aplicación de Android**
 
 ```
 {
@@ -209,12 +207,12 @@ Para comprender los aspectos de una carga útil androide, consulte Conceptos y o
 
 ### Asignación entre configuraciones de Campaign Standard y atributos de carga útil {#mapping-payload}
 
-| Configuración de Campaña | Atributo afectado en iOS | Atributo afectado en Android | Descripción |
+| Configuración de campaña | Atributo afectado en iOS | Atributo afectado en Android | Descripción |
 |:-:|:-:|:-:|:-:|
 | Título del mensaje <br>Cuerpo del mensaje | alerta → descripción de título <br> → cuerpo | title <br>body | Estos datos contienen datos específicos del mensaje de alerta.<br>El título y las claves de cuerpo proporcionan el contenido de la alerta. |
 | Reproducir un sonido | sonido | sonido | Un sonido personalizado para reproducir con la alerta. |
 | Valor del distintivo | distintivo | distintivo | Un valor entero que se usará para marcar el icono de la aplicación. |
-| Añadir un vínculo profundo | uri | NA | Un vínculo profundo le permite llevar a los usuarios directamente al contenido ubicado dentro de la aplicación (en lugar de abrir una página del explorador Web). |
+| Añadir un vínculo profundo | uri | NA | Un vínculo profundo le permite llevar a los usuarios directamente al contenido ubicado dentro de la aplicación (en lugar de abrir una página del explorador web). |
 | Categoría | categoría | categoría | Para mostrar acciones personalizadas con una notificación remota. <br>La tecla de categoría ayuda al sistema a mostrar las acciones de esa categoría como botones en la interfaz de alerta. |
 | Campos personalizados | custom_field1, custom_field2 ... | custom_field1, custom_field2 ... | Cualquier dato personalizado que desee enviar a la aplicación. |
 | URL de contenido de medios enriquecidos (archivos de imagen, gif, audio y vídeo)<br>(solo aplicable a iOS 10 o posterior) | media-attachment-url | NA | URL de los archivos multimedia para agregar contenido enriquecido a la notificación. <br>Al proporcionar un valor para esta URL, el indicador de contenido mutable se envía automáticamente a la carga útil. <br> (Solo aplicable para iOS 10 o superior) |
