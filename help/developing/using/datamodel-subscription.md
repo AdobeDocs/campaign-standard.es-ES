@@ -7,10 +7,11 @@ products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '77'
+ht-degree: 12%
 
 ---
 
@@ -24,7 +25,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
         <th>Name</th>
         <th>Etiqueta</th>
         <th>Tipo (longitud)</th>
-        <th>Valores de enumeración</th>
+        <th>Valores de lista desglosada</th>
     </tr>
     <tr>
         <td>PKey</td>
@@ -34,7 +35,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
     </tr>
     <tr>
         <td>ctx</td>
-        <td>Contexto del evento</td>
+        <td>Contexto de evento</td>
         <td>item </td>
         <td> </td>
     </tr>
@@ -46,8 +47,8 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
     </tr>
     <tr>
         <td>emailFormat</td>
-        <td>Formato de correo electrónico</td>
-        <td>enumeración (byte) </td>
+        <td>Formato del correo electrónico</td>
+        <td>lista desglosada (byte) </td>
         <td>
             <ul>
             <li>Texto - texto - 1</li>
@@ -59,7 +60,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
     </tr>
     <tr>
         <td>eventHistoId</td>
-        <td>ID del evento archivado</td>
+        <td>ID de evento archivado</td>
         <td>integer </td>
         <td> </td>
     </tr>
@@ -101,7 +102,7 @@ Por estado o tipo (byStatusOrType)
         </tr>
         <tr>
         <td>status</td>
-        <td>enumeración</td>
+        <td>lista desglosada</td>
         </tr>
         <tr>
         <td>type</td>
