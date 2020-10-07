@@ -9,17 +9,18 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 discoiquuid: 6fa50f0d-3dcf-4a9e-bccc-1ecda2bfb449
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 72366d56e21933bcd79e907e5f8d5a9ad5281725
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '367'
+ht-degree: 15%
 
 ---
 
 
 # Archivado con Email BCC{#archiving-emails}
 
-Puede configurar Adobe Campaign para guardar una copia de los correos electrónicos enviados desde la plataforma a través de Email BCC.
+Puede configurar Adobe Campaign para que mantenga una copia de los correos electrónicos enviados desde su plataforma a través de Email BCC.
 
 En particular, si su organización necesita archivar todos los mensajes de correo electrónico salientes para cumplir con la normativa, puede habilitar esta capacidad. Le permite enviar una copia oculta exacta de los mensajes enviados correspondientes a una dirección de correo electrónico CCO (invisible para los destinatarios de envío) que debe especificar.
 
@@ -27,9 +28,9 @@ Una vez habilitada, debe activar Email BCC desde la **[!UICONTROL Archive emails
 
 >[!NOTE]
 >
->Adobe Campaign no gestiona los archivos archivados. Le permite enviar los mensajes de su elección a una dirección dedicada, desde donde se pueden procesar y archivar usando un sistema externo.
+>Adobe Campaign no administra los archivos archivados. Le permite enviar los mensajes de su elección a una dirección dedicada, desde donde se pueden procesar y archivar usando un sistema externo.
 
-## Recomendaciones y limitaciones {#recommendations-and-limitations}
+## Recommendations y limitaciones {#recommendations-and-limitations}
 
 * Esta función es opcional. Compruebe el acuerdo de licencia y póngase en contacto con el administrador de cuentas para activarlo.
 * La dirección de CCO que elija debe proporcionarse al equipo de Adobe que la configurará por usted.
@@ -49,7 +50,7 @@ Una vez activado, Email BCC se activa en la plantilla [de](../../start/using/mar
 1. Vaya a **Resources**, **Templates**, **Delivery templates**.
 1. Duplicado la plantilla lista para usar **[!UICONTROL Send via email]** .
 1. Seleccione la plantilla duplicada.
-1. Haga clic en el **[!UICONTROL Edit properties]** botón para editar las propiedades de la plantilla.
+1. Click the **[!UICONTROL Edit properties]** button to edit the template&#39;s properties.
 1. Expanda la **[!UICONTROL Send]** sección.
 1. Marque la **[!UICONTROL Archive emails]** casilla para guardar una copia de todos los mensajes enviados para cada envío en función de esta plantilla.
 
