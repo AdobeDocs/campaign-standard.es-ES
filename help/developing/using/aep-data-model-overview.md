@@ -9,10 +9,11 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c2ed4b3c85ceef3b604a8f68d924c7e5d9fad900
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '249'
+ht-degree: 7%
 
 ---
 
@@ -21,7 +22,7 @@ source-git-commit: c2ed4b3c85ceef3b604a8f68d924c7e5d9fad900
 
 >[!IMPORTANT]
 >
->El conector de datos de la plataforma de Adobe Experience está actualmente en fase beta, que puede estar sujeto a actualizaciones frecuentes sin previo aviso. Se requiere que los clientes estén alojados en Azure (actualmente en versión beta solo para Norteamérica) para acceder a estas capacidades. Póngase en contacto con el Servicio de atención al cliente de Adobe si desea obtener acceso.
+>El conector de datos de Adobe Experience Platform se encuentra actualmente en fase beta, que puede estar sujeto a actualizaciones frecuentes sin previo aviso. Se requiere que los clientes estén alojados en Azure (actualmente en versión beta solo para Norteamérica) para acceder a estas capacidades. Si desea obtener acceso, póngase en contacto con el Servicio de atención al cliente de Adobe.
 
 El modelo de datos de experiencia (XDM) es un conjunto estándar de esquemas de datos en el que se pueden ingerir datos para su uso con soluciones y productos de Adobe Experience Platform.
 
@@ -33,7 +34,7 @@ XDM Workspace permite la vista, creación y ampliación de esquemas de datos.
 
 Para acceder a la interfaz de usuario XDM, abra Adobe Experience Platform. Acceda a la ventana Modelo de datos para crear o ampliar un esquema XDM.
 
-Consulte la documentación [completa de](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html)XDM Workspace.
+Consulte la documentación [completa de](https://docs.adobe.com/content/help/es-ES/experience-platform/xdm/api/getting-started.html)XDM Workspace.
 
 ![](assets/aep_xdmworkspace.png)
 
@@ -45,7 +46,7 @@ Puede realizar las siguientes acciones mediante la API de Esquema XDM:
 * Vista de un esquema específico Ampliar un esquema existente
 * Añadir campos a una extensión
 * Crear y actualizar un nuevo esquema
-* Descriptores de esquemas de Vista
+* Descriptores de esquemas de vista
 * Crear, actualizar y eliminar descriptores de esquema
 
-Todos los detalles para manipular las llamadas de API están disponibles en la Guía [del](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html)desarrollador.
+Todos los detalles para manipular las llamadas de API están disponibles en la Guía [del](https://docs.adobe.com/content/help/es-ES/experience-platform/xdm/api/getting-started.html)desarrollador.
