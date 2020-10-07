@@ -1,6 +1,6 @@
 ---
 title: Supervisión de suscripciones
-description: Obtenga información sobre cómo rastrear a los suscriptores y medir el éxito de los servicios mediante tableros e informes.
+description: Conozca cómo rastrear a sus suscriptores y medir el éxito de sus servicios mediante paneles e informes.
 page-status-flag: never-activated
 uuid: b0d8eb80-fa51-4518-a5e6-56de4046f6ff
 contentOwner: sauviat
@@ -9,62 +9,63 @@ audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
 discoiquuid: 36750524-eb54-47e8-aa1b-ae0b94f58cb1
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 80f6a384e99a7cebbe5c570f3273eceb393fd9b0
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 1%
 
 ---
 
 
 # Supervisión de suscripciones{#monitoring-subscriptions}
 
-Utilice la interfaz de Adobe Campaign para realizar un seguimiento de los suscriptores y medir el éxito de los servicios.
+Utilice la interfaz de Adobe Campaign para realizar el seguimiento de sus suscriptores y medir el éxito de sus servicios.
 
-Dispone de varias opciones para supervisar las suscripciones y las cancelaciones:
+Dispone de varias opciones para supervisar las suscripciones a y las cancelaciones de suscripciones:
 
-* Vea la lista de personas suscritas actualmente a su servicio desde el panel de servicios. Consulte [Servicio de tablero](#service-dashboard).
-* Consulte el historial de suscripciones y suscripciones desde la ficha Historial **de** suscripciones del panel de servicios. Consulte Historial [de suscripciones](#subscription-history).
-* Muestre un informe que detalle la evolución de las suscripciones y las suscripciones en los **informes** de servicio. Consulte Informes [de servicio](#service-reports).
-* Encuentre la lista de servicios que una persona se ha suscrito desde su **perfil**. Consulte [Historial de eventos vinculados a un perfil](#history-of-events-linked-to-a-profile).
+* Vista la lista de las personas que actualmente están suscritas a su servicio desde el panel de servicios. Consulte panel [de servicio](#service-dashboard).
+* Consulte el historial de suscripciones y cancelaciones de suscripciones en la ficha Historial **de** Suscripciones del panel de servicios. Consulte el historial [de Suscripciones](#subscription-history).
+* Muestre un informe que detalle la evolución de las suscripciones y las cancelaciones en los **informes** de servicio. Consulte Informes [de servicio](#service-reports).
+* Buscar la lista de servicios que una persona ha suscrito desde su **Perfil**. Consulte [Historial de eventos vinculados a un perfil](#history-of-events-linked-to-a-profile).
 
-## Panel de servicios {#service-dashboard}
+## Panel de servicio {#service-dashboard}
 
-Para ver la lista de personas suscritas a un servicio:
+Para vista de la lista de las personas suscritas a un servicio:
 
 1. Vaya a la lista de servicios a través del menú avanzado **Perfiles y audiencias** > **Servicios**, al que se puede acceder desde el logotipo de Adobe Campaign.
-1. Seleccione el servicio que desee para mostrar el tablero correspondiente.
-1. La lista de personas suscritas al servicio se encuentra en la ficha **Suscripciones** .
+1. Seleccione el servicio que desee para mostrar el panel correspondiente.
+1. La lista de las personas suscritas al servicio se encuentra en la ficha **Suscripciones** .
 
 ![](assets/lp_monitoring_subscriptions_1.png)
 
 ## Historial de suscripciones {#subscription-history}
 
-Para consultar el historial de suscripción y cancelación de suscripción:
+Para consultar la suscripción y la historia baja:
 
 1. Vaya a la lista de servicios a través del menú avanzado **Perfiles y audiencias** > **Servicios**, al que se puede acceder desde el logotipo de Adobe Campaign.
-1. Seleccione el servicio que desee para mostrar el tablero correspondiente.
-1. Seleccione la ficha Historial **de** suscripción para mostrar las fechas en las que cada persona se suscribió y canceló la suscripción.
+1. Seleccione el servicio que desee para mostrar el panel correspondiente.
+1. Seleccione la ficha Historial **de** Suscripciones para mostrar las fechas en las que cada persona se suscribió y canceló la suscripción.
 
 ![](assets/lp_monitoring_subscriptions_2.png)
 
 ## Informes de servicio {#service-reports}
 
-Para mostrar un informe que detalle la evolución de las suscripciones y las suscripciones:
+Para mostrar un informe que detalle la evolución de las suscripciones y las cancelaciones de suscripciones:
 
 1. Vaya a la lista de servicios a través del menú avanzado **Perfiles y audiencias** > **Servicios**, al que se puede acceder desde el logotipo de Adobe Campaign.
-1. Seleccione el servicio que desee para mostrar el tablero correspondiente.
-1. Haga clic en el botón **Informes** en la barra de acciones y, a continuación, en la supervisión **de** suscripción en la pantalla de selección.
+1. Seleccione el servicio que desee para mostrar el panel correspondiente.
+1. Haga clic en el botón **Informes** de la barra de acciones y, a continuación, en la pantalla de selección, en la supervisión **de** Suscripciones.
 
    ![](assets/lp_monitoring_subscriptions_3.png)
 
-1. El informe de resumen **del** servicio presenta el número de suscripciones, la evolución general de las suscripciones y una curva que muestra el progreso a lo largo del tiempo.
+1. El informe **de resumen** del servicio presenta el número de suscripciones, la evolución general de las suscripciones y una curva que muestra el progreso a lo largo del tiempo.
 
 ![](assets/lp_monitoring_subscriptions_4.png)
 
 ## Historial de eventos vinculados a un perfil {#history-of-events-linked-to-a-profile}
 
-Para consultar la lista de servicios a los que se ha suscrito un contacto, puede consultar su historial de marketing. Para obtener más información sobre esto, consulte la sección Perfil [del cliente](../../audiences/using/integrated-customer-profile.md) integrado.
+Para consultar la lista de servicios a los que se ha suscrito un contacto, puede consultar a su historial de marketing. Para obtener más información sobre esto, consulte la sección Perfil [del cliente](../../audiences/using/integrated-customer-profile.md) integrado.
 
 ![](assets/lp_monitoring_subscriptions_5.png)
 
