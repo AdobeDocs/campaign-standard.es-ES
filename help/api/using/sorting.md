@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '89'
+ht-degree: 11%
 
 ---
 
@@ -21,13 +22,13 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
 
 La ordenación está disponible en orden ascendente o descendente. Para ello, utilice el parámetro **%20desc** o **%20asc** en la solicitud.
 
-Para saber si se puede ordenar un campo, compruebe el parámetro "ordenable" en los metadatos del recurso. Para obtener más información, consulte [esta sección](../../api/using/metadata-mechanism.md).
+Para saber si se puede ordenar un campo, compruebe el parámetro &quot;ordenable&quot; en los metadatos del recurso. Para obtener más información, consulte [esta sección](../../api/using/metadata-mechanism.md).
 
 <br/>
 
 ***Solicitudes de muestra***
 
-* Ejemplo de solicitud GET para recuperar correos electrónicos en la base de datos ordenados alfabéticamente.
+* Muestra de una solicitud de GET para recuperar correos electrónicos en la base de datos ordenados alfabéticamente.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email/email?_order=email \
@@ -52,7 +53,7 @@ Para saber si se puede ordenar un campo, compruebe el parámetro "ordenable" en 
    }
    ```
 
-* Ejemplo de solicitud GET para recuperar el correo electrónico en la base de datos en un orden alfa descendente.
+* Muestra de una solicitud de GET para recuperar el correo electrónico en la base de datos en un orden alfa descendente.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email%20desc \
