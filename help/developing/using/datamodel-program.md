@@ -7,15 +7,16 @@ products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '222'
+ht-degree: 13%
 
 ---
 
 
-# Programa (nms:program)
+# Programa (nms:programa)
 
 ## Descripción del objeto
 
@@ -24,7 +25,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <th>Name</th>
                   <th>Etiqueta</th>
                   <th>Tipo (longitud)</th>
-                  <th>Valores de enumeración</th>
+                  <th>Valores de lista desglosada</th>
                </tr>
                <tr>
                   <td>PKey</td>
@@ -53,7 +54,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>createdBy (userBase)</td>
                   <td>Creado por</td>
-                  <td> link </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -71,7 +72,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
                   <td>Unidad geográfica</td>
-                  <td> link </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -82,7 +83,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                </tr>
                <tr>
                   <td>isTemplate</td>
-                  <td>Plantilla</td>
+                  <td>Template</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
@@ -101,7 +102,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>logicalStatus</td>
                   <td>Estado de ejecución</td>
-                  <td>enumeración (cadena) (255)</td>
+                  <td>lista desglosada (cadena) (255)</td>
                   <td>
                      <ul>
                         <li>En curso - iniciado - iniciado</li>
@@ -116,7 +117,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>modifiedBy (userBase)</td>
                   <td>Modificado por</td>
-                  <td> link </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -128,13 +129,13 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
                   <td>Unidad organizativa</td>
-                  <td> link </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>parent (programBase)</td>
                   <td>Programa principal</td>
-                  <td> link </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -144,7 +145,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <td> </td>
                </tr>
                <tr>
-                  <td>start</td>
+                  <td>inicio</td>
                   <td>Fecha de inicio</td>
                   <td>date </td>
                   <td> </td>
@@ -152,7 +153,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>status</td>
                   <td>Estado</td>
-                  <td>enumeración (byte) </td>
+                  <td>lista desglosada (byte) </td>
                   <td>
                      <ul>
                         <li>Comenzado - Comenzado - 1</li>
@@ -165,7 +166,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>plantilla (programa)</td>
                   <td>Plantilla de programa</td>
-                  <td> link </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -193,7 +194,7 @@ Por estado lógico (byLogicalStatus)
     </tr>
     <tr>
     <td>state</td>
-    <td>enumeración</td>
+    <td>lista desglosada</td>
     </tr>
 </table>
 
@@ -227,7 +228,7 @@ Por período (por período)
     </tr>
 </table>
 
-Incluir entregas continuas de una lista heterogénea (conContinuo)
+Incluir envíos continuos de una lista heterogénea (conContinuo)
 
 <table>
     <tr>
@@ -262,7 +263,7 @@ Incluir subprogramas (conParent)
     </tr>
     <tr>
     <td>programa</td>
-    <td> link</td>
+    <td>link</td>
     </tr>
 </table>
 
