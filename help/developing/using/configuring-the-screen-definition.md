@@ -10,11 +10,9 @@ content-type: reference
 topic-tags: adding-or-extending-a-resource
 discoiquuid: 9dabb328-ac0c-49fd-8996-8d56341ee7ac
 context-tags: cusResource,main
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 100%
 
@@ -78,6 +76,7 @@ La sección **[!UICONTROL Detail screen configuration]** de la definición de pa
    * **[!UICONTROL Value]**: es un campo de solo lectura.
    * **[!UICONTROL List]**: es una tabla.
    * **[!UICONTROL Separator]**: divide los elementos en categorías.
+
    ![](assets/schema_extension_23.png)
 
 1. El elemento añadido se muestra en la lista. Puede editar la etiqueta.
