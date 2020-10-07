@@ -9,10 +9,8 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1804'
 ht-degree: 1%
@@ -259,7 +257,7 @@ Al editar un correo electrónico con el Diseñador de correo electrónico, puede
    >Asegúrese de seleccionar estructuras adyacentes entre sí y que no incluyan campos de personalización, contenido dinámico u otro fragmento.
    <!--You cannot select an empty structure.-->
 
-1. Haga clic **[!UICONTROL Create]**.
+1. Haga clic en **[!UICONTROL Create]**.
 
 1. Añada una etiqueta y una descripción si es necesario y haga clic en **[!UICONTROL Save]**.
 
