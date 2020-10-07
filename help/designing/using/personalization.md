@@ -9,10 +9,8 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '2573'
 ht-degree: 5%
@@ -76,7 +74,7 @@ Para agregar un campo de personalización al contenido:
 
    ![](assets/email_perso_field_2.png)
 
-1. Haga clic **[!UICONTROL Confirm]**.
+1. Haga clic en **[!UICONTROL Confirm]**.
 
 El nombre del campo aparece en el editor y se resalta.
 
@@ -106,7 +104,7 @@ Para agregar un bloque de contenido:
 
    ![](assets/email_content_block_2.png)
 
-1. Haga clic **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Save]**.
 
 El nombre del bloque de contenido aparece en el editor y se resalta en amarillo. Se adaptará automáticamente al perfil cuando se genere la personalización.
 
