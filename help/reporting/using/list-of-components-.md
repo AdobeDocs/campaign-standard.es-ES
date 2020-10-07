@@ -9,10 +9,8 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1274'
 ht-degree: 2%
@@ -168,7 +166,7 @@ Las siguientes tablas proporcionan la lista de las métricas utilizadas en los i
    <td> Porcentaje de correos electrónicos devueltos en comparación con los enviados.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Haga clic<br /> </td> 
+   <td> Haga clic en<br /> </td> 
    <td> Número de veces que se hizo clic en un contenido en un envío.<br /> </td> 
   </tr> 
   <tr> 
@@ -281,7 +279,7 @@ Las siguientes tablas proporcionan la lista de las métricas utilizadas en los i
    <td> Porcentaje de notificaciones push que rebotaron en comparación con las notificaciones push enviadas.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Haga clic<br /> </td> 
+   <td> Haga clic en<br /> </td> 
    <td> Número de veces que el usuario ha enviado una notificación push al dispositivo y ha hecho clic en ella. El usuario deseaba realizar la vista de la notificación, que luego se moverá al seguimiento Push Open o la descartará.<br /> </td> 
   </tr> 
   <tr> 
