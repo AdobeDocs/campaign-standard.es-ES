@@ -9,10 +9,8 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 discoiquuid: a425cd59-edfd-42c5-a6bd-38773c353ff0
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 02fa55789449efe03af75779892303941b8a2871
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 1%
@@ -26,7 +24,7 @@ ht-degree: 1%
 >
 >Tenga en cuenta que debe arrastrar y soltar las **[!UICONTROL Message type]** métricas en las tablas para dividir los datos en función de los tipos de envíos, en este caso envíos de notificaciones push.
 
-El informe de notificaciones **** push proporciona detalles sobre el rendimiento de marketing de las notificaciones push en Adobe Campaign. Este informe predeterminado le ayudará a comprender cómo interactúan los usuarios con las notificaciones push, las aplicaciones móviles y los envíos.
+El informe de notificaciones **** push proporciona detalles del rendimiento de marketing de las notificaciones push en Adobe Campaign. Este informe predeterminado le ayudará a comprender cómo interactúan los usuarios con las notificaciones push, las aplicaciones móviles y los envíos.
 
 Se requiere cierta configuración en la aplicación móvil para implementar el seguimiento push, consulte esta [página](../../administration/using/push-tracking.md) para ver los pasos detallados.
 
