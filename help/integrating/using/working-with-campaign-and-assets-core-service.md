@@ -9,10 +9,8 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-assets-core-service
 discoiquuid: e6fefe10-afd5-4628-8d9b-69eeb38070eb
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 17%
@@ -22,9 +20,9 @@ ht-degree: 17%
 
 # Uso de Campaign y del servicio principal Assets{#working-with-campaign-and-assets-core-service}
 
-La integración del servicio principal de Recursos o de Recursos On Demand (según la configuración de su entorno de Adobe Experience Cloud) con Adobe Campaign le permite utilizar cualquier recurso compartido dentro de Adobe Experience Cloud en sus correos electrónicos y páginas de aterrizaje de Adobe Campaign.
+La integración del servicio principal de Recursos o Recursos On Demand (según la configuración de su entorno de Adobe Experience Cloud) con Adobe Campaign le permite utilizar cualquier recurso que se comparte en Adobe Experience Cloud en sus correos electrónicos y páginas de aterrizaje de Adobe Campaign.
 
-Los recursos compartidos de Adobe Experience Cloud se pueden usar en sus correos electrónicos y páginas de aterrizaje.
+Los recursos compartidos desde Adobe Experience Cloud se pueden utilizar en sus correos electrónicos y páginas de aterrizaje.
 
 1. Al editar el contenido de un correo electrónico o una página de aterrizaje, vaya a un bloque de imagen y, a continuación, seleccione **[!UICONTROL Image shared from Adobe Experience Cloud]** mediante el menú contextual.
 
