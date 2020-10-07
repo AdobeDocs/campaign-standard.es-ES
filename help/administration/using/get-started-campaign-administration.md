@@ -9,10 +9,8 @@ audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
 discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 14%
@@ -50,7 +48,7 @@ Los diferentes menús disponibles son:
 * [Configuración](../../administration/using/branding.md)de instancia: En este menú se definen las distintas marcas y se configuran las opciones (logotipo, gestión del seguimiento, dominio de URL para acceder a las páginas de aterrizaje, etc.).
 * [Implementación](../../automating/using/managing-packages.md): Este menú reagrupa las opciones de importación y exportación de paquetes.
 * [Métricas](../../audiences/using/active-profiles.md)del cliente: Adobe Campaign proporciona un informe que muestra el número de perfiles activos. Este informe es solo informativo, no tiene un impacto directo en la facturación.
-* [Herramientas](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)de privacidad: Este menú le permite crear solicitudes de acceso y eliminación de RGPD y rastrear su evolución.
+* [Herramientas](https://helpx.adobe.com/es/campaign/kb/campaign-privacy.html)de privacidad: Este menú le permite crear solicitudes de acceso y eliminación de RGPD y rastrear su evolución.
 
 ## Usuarios y seguridad {#users-security}
 
