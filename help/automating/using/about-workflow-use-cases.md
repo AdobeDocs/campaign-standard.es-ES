@@ -9,13 +9,11 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 72d8c46bab80e572a55488eeb5b6a924c0a9e900
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '234'
-ht-degree: 40%
+ht-degree: 94%
 
 ---
 
@@ -31,12 +29,12 @@ Le ayudarán a descubrir los diferentes contextos en los que se pueden utilizar 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
 * [Creación de entregas con un complemento](../../automating/using/workflow-created-query-with-complement.md)
-* [Creación de envíos en la fecha de creación de perfiles](../../automating/using/workflow-creation-date-query.md)
+* [Creación de envíos en la fecha de creación de los perfiles](../../automating/using/workflow-creation-date-query.md)
 * [Creación de un envío semanal](../../automating/using/workflow-weekly-offer.md)
 * [Creación de una entrega multicanal](../../automating/using/workflow-cross-channel-delivery.md)
 * [Identificación de duplicados antes de un envío](../../automating/using/identifying-duplicated-before-delivery.md)
 * [Envío de cumpleaños](../../automating/using/birthday-delivery.md)
-* [Enlace de envíos de correo electrónico y correo directo](../../automating/using/coupling-email-direct-mail.md)
+* [Emparejamiento de envíos de correo electrónico y correo directo](../../automating/using/coupling-email-direct-mail.md)
 * [Envío de un correo electrónico con campos enriquecidos](../../automating/using/sending-email-enriched-fields.md)
 * [Personalización de un correo electrónico con datos adicionales](../../automating/using/personalizing-email-with-additional-data.md)
 * [Envío de una notificación push recurrente](../../automating/using/recurring-push-notifications.md)
@@ -46,10 +44,10 @@ Le ayudarán a descubrir los diferentes contextos en los que se pueden utilizar 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
 * [Ejemplos de consultas](../../automating/using/query-samples.md)
-* [Unión en dos audiencias refinadas](../../automating/using/union-on-two-refined-audiences.md)
+* [Unión de dos audiencias refinadas](../../automating/using/union-on-two-refined-audiences.md)
 * [Creación de una segmentación en una ubicación](../../automating/using/workflow-segmentation-location.md)
 * [Redirección de receptores que no abran el correo](../../automating/using/workflow-cross-channel-retargeting.md)
-* [Consulta incremental sobre los suscriptores de un servicio](../../automating/using/incremental-query-on-subscribers.md)
+* [Consulta incremental de los suscriptores a un servicio](../../automating/using/incremental-query-on-subscribers.md)
 * [Segmentación según grupos de edad](../../automating/using/segmentation-age-groups.md)
 * [Uso de recursos diferentes de dimensiones de segmentación](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
@@ -58,7 +56,7 @@ Le ayudarán a descubrir los diferentes contextos en los que se pueden utilizar 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
 * [Reconciliación de una audiencia de archivo con la base de datos](../../automating/using/reconcile-file-audience-with-database.md)
-* [Desduplicación de datos de un archivo importado](../../automating/using/deduplicating-data-imported-file.md)
+* [Deduplicación de datos de un archivo importado](../../automating/using/deduplicating-data-imported-file.md)
 * [Enriquecimiento de datos de perfil con datos contenidos en un archivo](../../automating/using/enriching-profile-data-file.md)
 * [Actividad de señales externas e importación de datos](../../automating/using/external-signal-data-import.md)
 * [Actualización de la base de datos con datos externos](../../automating/using/update-database-file.md)
