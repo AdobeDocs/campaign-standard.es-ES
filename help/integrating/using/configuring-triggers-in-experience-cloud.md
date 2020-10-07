@@ -1,6 +1,6 @@
 ---
 title: Configuración de activadores en Experience Cloud
-description: 'Obtenga información sobre cómo configurar la integración de Adobe Experience Cloud Triggers para que inicio envíe envíos personalizados a sus clientes en función de sus comportamientos anteriores. '
+description: 'Obtenga información sobre cómo configurar la integración de Adobe Experience Cloud Triggers en inicio para enviar envíos personalizados a sus clientes en función de sus comportamientos anteriores. '
 page-status-flag: never-activated
 uuid: 8fd7b804-9528-46a5-a060-bf16b8dc555d
 contentOwner: sauviat
@@ -9,13 +9,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 discoiquuid: 4163dc0c-8103-4425-b8bf-7aa45c4d3a06
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: bd74905985734412b4fb11ad11d70faf9fcc9ca6
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '860'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
@@ -26,10 +24,10 @@ ht-degree: 2%
 
 Adobe debe activar la funcionalidad en Adobe Campaign. Póngase en contacto con el ejecutivo o el socio de servicios profesionales de su cuenta de Adobe.
 
-El equipo de Adobe necesitará la siguiente información para activar activadores:
+El equipo de Adobe necesitará la siguiente información para activar los activadores:
 
 * Nombre de Compañía de Marketing Cloud
-* ID de organización de IMS
+* ID de la organización IMS
 * Compañía de inicio de sesión de Analytics (puede ser la misma que el nombre de Compañía de Marketing Cloud)
 
 ## Configuración de soluciones y servicios {#configuring-solutions-and-services}
@@ -38,15 +36,15 @@ Para utilizar esta función, debe tener acceso a las siguientes soluciones y ser
 
 * Adobe Campaign
 * Adobe Analytics Ultimate, Premium, Foundation, OD, Select, Prime, Mobile Apps, Select o Standard.
-* Experience Cloud activa el servicio principal
+* Servicio principal de los activadores de Experience Cloud
 
    ![](assets/trigger_uc_prereq_1.png)
 
-* Experience Cloud DTM Core Service
+* Servicio principal de DTM de Experience Cloud
 
    ![](assets/trigger_uc_prereq_2.png)
 
-* ID de Visitante de Experience Cloud y servicio principal de personas Experience Cloud
+* El ID de visitante de Experience Cloud y el servicio principal People de Experience Cloud
 
    ![](assets/trigger_uc_prereq_3.png)
 
@@ -56,13 +54,13 @@ También necesita tener un sitio web de trabajo.
 
 >[!CAUTION]
 >
->La delegación de subdominios es un elemento clave de entregabilidad. Asegúrese de que los mensajes de correo electrónico de Adobe Campaign se envían desde el mismo dominio que el utilizado por el sitio web.
+>La delegación de subdominios es un elemento clave de entregabilidad. Asegúrese de que los correos electrónicos de Adobe Campaign se envían desde el mismo dominio que el utilizado por el sitio web.
 
 Debe configurar el servicio [principal](#configuring-experience-cloud-dtm-core-service)Experience Cloud DTM, el servicio [principal Personas](#configuring-experience-cloud-people-core-service) Experience Cloud y la [Campaña](#configuring-triggers-and-aliases-in-campaign) para ejecutar estos casos de uso.
 
-### Configuración del servicio principal de Experience Cloud DTM {#configuring-experience-cloud-dtm-core-service}
+### Configuring Experience Cloud DTM Core Service {#configuring-experience-cloud-dtm-core-service}
 
-1. En el servicio principal de Experience Cloud DTM (administración dinámica de etiquetas), active el ID de Experience Cloud y Adobe Analytics para las páginas del sitio web.
+1. En el servicio principal de la DTM de Experience Cloud (administración dinámica de etiquetas), active el ID de Experience Cloud y Adobe Analytics para las páginas del sitio web.
 
    ![](assets/trigger_uc_conf_1.png)
 
@@ -78,7 +76,7 @@ El alias al que se hace referencia anteriormente en la DTM debe crearse en el se
 
 >[!NOTE]
 >
->Vamos a usar este atributo de cliente en la fuente de datos en Adobe Campaign (paso siguiente).
+>Vamos a usar este atributo de cliente en la fuente de datos de Adobe Campaign (paso siguiente).
 
 ### Configuración de activadores y alias en la Campaña {#configuring-triggers-and-aliases-in-campaign}
 
@@ -86,7 +84,7 @@ El alias al que se hace referencia anteriormente en la DTM debe crearse en el se
 
    ![](assets/remarketing_1.png)
 
-1. Los alias permiten que un contacto en Analytics se concilie con un perfil en Campaña. Debe coincidir los alias definidos en el servicio de ID de Experience Cloud con una fuente de datos compartida en la Campaña. Debe configurar la resolución de alias en Adobe Campaign mediante una fuente de datos ( **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Shared Data Sources]** ). Asegúrese de elegir la fuente de datos correcta en el menú desplegable, que se asigna con la misma fuente de datos de Atributos del cliente creada en el paso anterior. **[!UICONTROL Data Source/Alias]**
+1. Los alias permiten reconciliar un contacto en Analytics con un perfil en Campaña. Debe coincidir los alias definidos en el servicio de ID de Experience Cloud con una fuente de datos compartida en la Campaña. Debe configurar la resolución de alias en Adobe Campaign mediante una fuente de datos ( **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Shared Data Sources]** ). Asegúrese de elegir la fuente de datos correcta en el menú desplegable, que se asigna con la misma fuente de datos de Atributos del cliente creada en el paso anterior. **[!UICONTROL Data Source/Alias]**
 
    ![](assets/trigger_uc_conf_5.png)
 
@@ -98,9 +96,9 @@ El alias al que se hace referencia anteriormente en la DTM debe crearse en el se
 
 Es necesario crear un activador de Adobe Experience Cloud para poder utilizarlo en la Campaña.
 
-Cree un nuevo activador en Experience Cloud y asegúrese de seleccionar el grupo de informes utilizado en el sitio web. Asegúrese de elegir la dimensión correcta para que el activador se active.
+Cree un nuevo activador en Experience Cloud y asegúrese de seleccionar el grupo de informes utilizado en el sitio web. Asegúrese de elegir la dimensión adecuada para que el activador se active.
 
-Consulte la documentación [de](https://docs.adobe.com/content/help/en/core-services/interface/activation/triggers.html) Adobe Experience Cloud y vea este [vídeo](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
+Consulte la documentación [de](https://docs.adobe.com/content/help/es-ES/core-services/interface/activation/triggers.html) Adobe Experience Cloud y vea este [vídeo](https://helpx.adobe.com/es/marketing-cloud/how-to/email-marketing.html#step-two).
 
 ## Desencadena las prácticas recomendadas y las limitaciones {#triggers-best-practices-and-limitations}
 
@@ -108,7 +106,7 @@ Esta es una lista de las prácticas recomendadas y las limitaciones para el uso 
 
 * Si tiene varias instancias de Campaign Standard, todas las instancias pueden recibir activadores siempre que estén en el mismo ID de organización de IMS. Analytics también debe estar en el mismo ID de organización de IMS.
 * No se puede crear un activador en el servicio principal de activación con eventos de dos grupos de informes diferentes.
-* Los activadores se basan en mensajes transaccionales. Los Mensajes transaccionales se utilizan siempre que se tiene que enviar un mensaje muy rápido. No se pueden poner en cola mensajes transaccionales y, a continuación, reproducirlos por lotes.
+* Los activadores se basan en mensajes transaccionales. Los mensajes transaccionales se utilizan siempre que se tiene que enviar un mensaje muy rápido. No se pueden poner en cola mensajes transaccionales y, a continuación, reproducirlos por lotes.
 * Los activadores no son de naturaleza determinística. Cuando se genera un activador, envía todos los alias asociados con la cookie, de modo que en el caso de exploradores compartidos como en quioscos de venta minorista, bibliotecas, cibercafés o dispositivos compartidos en casa (marido y mujer que inician sesión desde el mismo dispositivo), no es posible asignar el ID correcto. Todos los ID utilizados para iniciar sesión con el navegador se envían a Campaña, que envía un mensaje en función de la primera reconciliación. Si hay varios &quot;ID de correo electrónico&quot; que pueden conciliarse, la Campaña no envía un mensaje de correo electrónico. No hay forma de que la Campaña sepa cuál es el ID de correo electrónico correcto a menos que Analytics lo capture y envíe.
 * No se puede almacenar el contenido de la carga útil en la Campaña. Los activadores no se pueden usar para actualizar los datos de un perfil.
 * Los atributos del cliente no son compatibles con los activadores (es decir, solo se pueden usar datos de grupos de informes para definir las reglas comerciales de activadores).
