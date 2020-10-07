@@ -7,10 +7,11 @@ products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '171'
+ht-degree: 18%
 
 ---
 
@@ -24,7 +25,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <th>Name</th>
                   <th>Etiqueta</th>
                   <th>Tipo (longitud)</th>
-                  <th>Valores de enumeración</th>
+                  <th>Valores de lista desglosada</th>
                </tr>
                <tr>
                   <td>PKey</td>
@@ -35,7 +36,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>país (países)</td>
                   <td>País</td>
-                  <td> link </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -47,7 +48,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>createdBy (userBase)</td>
                   <td>Creado por</td>
-                  <td> link </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -77,7 +78,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
                   <td>Unidad geográfica</td>
-                  <td> link </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -100,7 +101,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                </tr>
                <tr>
                   <td>marketingCloudId</td>
-                  <td>Marketing Cloud ID</td>
+                  <td>ID de Marketing Cloud</td>
                   <td>string (256)</td>
                   <td> </td>
                </tr>
@@ -119,7 +120,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>modifiedBy (userBase)</td>
                   <td>Modificado por</td>
-                  <td> link </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -129,7 +130,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <td> </td>
                </tr>
                <tr>
-                  <td>nms_destination</td>
+                  <td>nms_destinatario</td>
                   <td>Perfil</td>
                   <td>item </td>
                   <td> </td>
@@ -143,7 +144,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
                   <td>Unidad organizativa</td>
-                  <td> link </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -185,7 +186,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>stateLink (estado)</td>
                   <td>Estado</td>
-                  <td> link </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -272,6 +273,6 @@ Perfil de prueba (perfil)
     </tr>
     <tr>
     <td>startingMember</td>
-    <td> link</td>
+    <td>link</td>
     </tr>
 </table>
