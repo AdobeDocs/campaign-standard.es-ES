@@ -1,5 +1,5 @@
 ---
-title: Introducción a sistema de informes dinámico
+title: Introducción al sistema de informes dinámicos
 description: Analice el éxito de sus campañas en informes dinámicos integrados o personalizados.
 page-status-flag: never-activated
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
@@ -9,18 +9,16 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 12%
+ht-degree: 15%
 
 ---
 
 
-# Get started with dynamic reporting {#get-started-reporting}
+# Introducción al sistema de informes dinámicos {#get-started-reporting}
 
 <table>
 <tr>
@@ -35,7 +33,7 @@ El Sistema de informes dinámico proporciona informes totalmente personalizables
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-Con la interfaz **de** arrastrar y soltar de sistema de informes dinámico, puede explorar datos, determinar el rendimiento de sus campañas de correo electrónico en relación con los segmentos de clientes más importantes y medir su impacto en los destinatarios desde un solo lugar.
+With Dynamic reporting **drag-and-drop interface**, you can explore data, determine how your email campaigns performed against your most important customer segments and measure their impact on recipients from one single place.
 
 **Administre sus informes** dinámicos gracias a las diversas funcionalidades: actualice los datos en tiempo real, imprima los informes o exporte los mismos como archivos CSV. También puede compartir sus informes con usuarios Campaign Standards a través de correos electrónicos recurrentes o de una sola toma.
 
