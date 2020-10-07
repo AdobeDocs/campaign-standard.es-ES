@@ -9,17 +9,18 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f5c91f886335e43940caac4d3b18924c020a2d2b
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '322'
+ht-degree: 2%
 
 ---
 
 
 # Activación de una actividad de señal {#triggering-a-signal-activity}
 
-En un flujo de trabajo de Adobe Campaign Standard, puede haber una o más actividades de señal **** externa. Estas actividades son &quot;oyentes&quot; que esperan activarse.
+En un flujo de trabajo de Adobe Campaign Standard, puede haber una o varias actividades de señal **** externa. Estas actividades son &quot;oyentes&quot; que esperan activarse.
 
 Las API de Campaign Standard permiten activar una actividad de señal **** externa para llamar a un flujo de trabajo. La llamada de API puede incluir parámetros que se ingerirán en las variables de eventos del flujo de trabajo (un nombre de audiencia a destinatario, un nombre de archivo para importar, una parte del contenido del mensaje, etc.). De este modo, puede integrar fácilmente sus automatizaciones de Campaña con su sistema externo.
 
@@ -29,11 +30,11 @@ Las API de Campaign Standard permiten activar una actividad de señal **** exter
 
 Para activar un flujo de trabajo, siga los pasos a continuación:
 
-1. Realice una solicitud **GET** en el flujo de trabajo para recuperar la dirección URL del activador de actividad de señal externa.
+1. Realice una solicitud de **GET** en el flujo de trabajo para recuperar la dirección URL del activador de actividad de señal externa.
 
    `GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>`
 
-1. Realice una solicitud **POST** en la dirección URL devuelta para activar la actividad de señal, con el parámetro **&quot;source&quot;** en la carga útil. Este atributo es obligatorio, le permite indicar el origen de la solicitud de activación.
+1. Realice una solicitud de **POST** en la dirección URL devuelta para activar la actividad de señal, con el parámetro **&quot;source&quot;** en la carga útil. Este atributo es obligatorio, le permite indicar el origen de la solicitud de activación.
 
 Si desea llamar al flujo de trabajo con parámetros, agréguelos a la carga útil con el atributo **&quot;parameters&quot;** . La sintaxis consiste en el nombre del parámetro seguido de su valor (se admiten los siguientes tipos: **cadena**, **número**, **booleano** y **fecha/hora**).
 
@@ -64,7 +65,7 @@ Si desea llamar al flujo de trabajo con parámetros, agréguelos a la carga úti
 
 ***Solicitud de muestra***
 
-Realice una solicitud GET en el flujo de trabajo.
+Realice una solicitud de GET en el flujo de trabajo.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID> \
@@ -93,7 +94,7 @@ Devuelve la actividad de señal de flujo de trabajo y la dirección URL de activ
 }
 ```
 
-Para activar una actividad de señal, realice una solicitud POST en la dirección URL del activador con el &quot;origen&quot;. Añada los atributos &quot;parameters&quot; si desea llamar al flujo de trabajo con parámetros.
+Para activar una actividad de señal, realice una solicitud de POST en la dirección URL del activador con el &quot;origen&quot;. Añada los atributos &quot;parameters&quot; si desea llamar al flujo de trabajo con parámetros.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<PKEY>/activities/activity/<PKEY>/trigger \
@@ -117,7 +118,7 @@ Para activar una actividad de señal, realice una solicitud POST en la direcció
 
 <!-- + réponse -->
 
-Si uno de los parámetros no está declarado en la actividad de señal externa, la solicitud POST devuelve el error siguiente, indicando qué parámetro falta.
+Si uno de los parámetros no está declarado en la actividad de señal externa, la solicitud del POST devuelve el error siguiente, indicando qué parámetro falta.
 
 ```
 RST-360011 An error has occurred - please contact your administrator.
