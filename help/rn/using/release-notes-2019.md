@@ -9,10 +9,8 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '7624'
 ht-degree: 9%
@@ -41,7 +39,7 @@ ht-degree: 9%
    <ul>
     <li>Derecho de acceso y derecho de eliminación: estamos aprovechando las capacidades agregadas para el RGPD. <a href="https://helpx.adobe.com/content/help/es/campaign/kb/acs-privacy.html#righttoaccess">Más información</a> </li>
     <li><p>Al crear una solicitud de privacidad, se ha agregado el tipo de regulación (GDPR o CCPA) en el servicio principal de privacidad. Este método es el que debe utilizar para todas las solicitudes de acceso y eliminación. El uso de la API y la interfaz de Campaign para las solicitudes de acceso y eliminación quedará obsoleto.  Consulte el artículo <a href="https://helpx.adobe.com/es/campaign/kb/acs-deprecated-and-removed-features.html">Funciones obsoletas y eliminadas</a>.</p></li>
-    <li>Se ha agregado un campo de exclusión <strong>de</strong> CCPA al recurso de Perfiles para permitir a los usuarios de Adobe Campaign rastrear si un consumidor ha optado por la venta de información personal. <a href="https://helpx.adobe.com/es/content/help/en/campaign/kb/acs-privacy.html#ccpa">Más información</a>.</li>
+    <li>Se ha agregado un campo de exclusión <strong>de</strong> CCPA al recurso de Perfiles para permitir a los usuarios de Adobe Campaign rastrear si un consumidor ha optado por la venta de información personal. <a href="https://helpx.adobe.com/es/content/help/es-ES/campaign/kb/acs-privacy.html#ccpa">Más información</a>.</li>
   </ul>
     <p>Consulte el vídeo de <a href="https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/privacy/privacy-overview.translate.html">procedimiento</a>.</p>
 </td> 
@@ -540,7 +538,7 @@ Se han añadido varias mejoras al canal de mensajería transaccional para optimi
      <li> Capacidad para <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">recuperar contenido de una URL automáticamente en tiempo de preparación</a> </li> 
      <li> Plantillas de contenido totalmente <a href="../../designing/using/using-reusable-content.md#content-templates">listas para usar y totalmente compatibles</a>. </li> 
     </ul> 
-    <p>Para obtener más información, consulte la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">videotutorial</a>. A continuación se enumeran las mejoras y correcciones.</p><p>Como consecuencia, el editor de contenido de correo electrónico heredado ya no se utiliza. Para obtener más información, consulte esta <a href="https://helpx.adobe.com/es/campaign/kb/acs-deprecated-and-removed-features.html">página</a>.</p> </td> 
+    <p>Para obtener más información, consulte la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/designing-content/email-designer/email-designer-overview.html">videotutorial</a>. A continuación se enumeran las mejoras y correcciones.</p><p>Como consecuencia, el editor de contenido de correo electrónico heredado ya no se utiliza. Para obtener más información, consulte esta <a href="https://helpx.adobe.com/es/campaign/kb/acs-deprecated-and-removed-features.html">página</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Product Listings in Transactional Emails<br /> </td> 
