@@ -10,18 +10,16 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 2112f93fba368435850957e6e90b7c7c88ddf248
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '914'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Configuración de reglas de lanzamiento para admitir casos de uso de Adobe Campaign Standard {#configuring-rules-launch}
+# Configuración de reglas de Experience Platform Launch para admitir casos de uso de Adobe Campaign Standard {#configuring-rules-launch}
 
 En [!DNL Adobe Experience Platform Launch], debe crear elementos de datos y reglas para enviar PII y otros datos desde aplicaciones móviles a [!DNL Adobe Campaign Standard].
 
@@ -94,7 +92,7 @@ Para enviar datos PII a [!DNL Adobe Campaign Standard], cree una regla en [!DNL 
 
 1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. Then, **[!UICONTROL Collect PII]** in the **[!UICONTROL Event type]** drop-down.
 
-1. Haga clic **[!UICONTROL Keep changes]**.
+1. Haga clic en **[!UICONTROL Keep changes]**.
 
 1. In the **[!UICONTROL Actions]** section, click **[!UICONTROL Add]**.
 
@@ -159,7 +157,7 @@ Para enviar datos de seguimiento a [!DNL Adobe Campaign Standard] para obtener s
 
 1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Adobe Campaign Standard]**. Then, **[!UICONTROL In-App click tracking]** in the **[!UICONTROL Event type]** drop-down.
 
-1. Haga clic **[!UICONTROL Keep changes]**.
+1. Haga clic en **[!UICONTROL Keep changes]**.
 
 1. In the **[!UICONTROL Actions]** section, click **[!UICONTROL Add]**.
 
