@@ -9,18 +9,19 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '1210'
+ht-degree: 5%
 
 ---
 
 # Designing using existing content {#designing-using-existing-content}
 
-## Selección de un contenido existente{#selecting-an-existing-content}
+## Selecting an existing content{#selecting-an-existing-content}
 
-Adobe Campaign viene con un conjunto de contenidos predefinidos para ayudarle a empezar. Puede usar uno de estos o, si el contenido del mensaje que necesita enviar se está preparando fuera del Adobe Campaign, puede importarlo desde su equipo o desde una dirección URL.
+Adobe Campaign incluye un conjunto de contenidos predefinidos que le ayudarán a iniciarse. Puede usar uno de estos o, si el contenido del mensaje que necesita enviar se está preparando fuera de Adobe Campaign, puede importarlo desde su equipo o desde una dirección URL.
 
 Al crear un correo electrónico o una página de aterrizaje, puede elegir cargar un contenido existente de otra fuente.
 
@@ -39,6 +40,7 @@ Al crear un correo electrónico o una página de aterrizaje, puede elegir cargar
    * [Contenido desde cero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)hasta inicio fresco: haga clic en el **[!UICONTROL Create]** botón.
    * [Contenido del equipo como archivo](#importing-content-from-a-file)ZIP o HTML: haga clic en el **[!UICONTROL Upload]** botón.
    * [Contenido de una dirección URL](#importing-content-from-a-url) existente (solo para correos electrónicos): haga clic en el **[!UICONTROL Import from URL]** botón.
+
    ![](assets/des_loading_2.png)
 
 1. Cargue el contenido. El contenido seleccionado reemplaza al contenido actual.
@@ -64,7 +66,7 @@ Para que un contenido externo existente sea completamente editable en el Diseña
 
 ## Importación de contenido de correo electrónico existente {#importing}
 
-### Importación de contenido de un archivo {#importing-content-from-a-file}
+### Importing content from a file {#importing-content-from-a-file}
 
 En la página de inicio de Email Designer, haga clic en el **[!UICONTROL Upload]** botón para cargar un archivo desde el equipo y, a continuación, confirme.
 
@@ -79,7 +81,7 @@ Se admiten los siguientes formatos para la importación:
 >
 >Para el contenido del correo electrónico, se recomienda importar archivos HTML únicos con una hoja de estilo incorporada.
 
-#### Importación de contenido desde una dirección URL {#importing-content-from-a-url}
+#### Importing content from a URL {#importing-content-from-a-url}
 
 Antes de importar contenido desde una dirección URL, asegúrese de que cumple los requisitos siguientes:
 
@@ -102,7 +104,7 @@ Para recuperar contenido existente de una dirección URL, siga los pasos a conti
    ![](assets/email_designer_importfromurl.png)
 
 1. Defina la dirección URL desde la que se recuperará el contenido.
-1. Haga clic **[!UICONTROL Confirm]**.
+1. Haga clic en **[!UICONTROL Confirm]**.
 
 **Temas relacionados:**
 
@@ -114,7 +116,7 @@ La importación de contenido desde una URL durante la preparación de mensajes l
 
 Para recuperar contenido en tiempo de preparación, siga los pasos a continuación:
 
-1. Seleccione la **[!UICONTROL Content imported during preparation]** opción.
+1. Seleccione la opción **[!UICONTROL Content imported during preparation]**.
 
    ![](assets/email_designer_importfromurl2.png)
 
@@ -207,9 +209,9 @@ Si este no es el caso, elimine los diferentes bloques del HTML. Por ejemplo:
 Una vez identificados todos los bloques, en el Diseñador de correo electrónico, repita el siguiente procedimiento para cada sección del correo electrónico existente:
 
 1. Abra el Diseñador de correo electrónico para crear un contenido de correo electrónico vacío.
-1. Defina los atributos de nivel de cuerpo: colores de fondo, anchura, etc. Para obtener más información sobre esto, consulte [Edición de estilos](../../designing/using/styles.md)de correo electrónico.
-1. Añada un componente de estructura. Para obtener más información sobre esto, consulte [Edición de la estructura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)de correo electrónico.
-1. Añada un componente HTML. Para obtener más información sobre esto, consulte [Añadir fragmentos y componentes](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Defina los atributos de nivel de cuerpo: colores de fondo, anchura, etc. Para obtener más información, consulte [Edición de estilos de correo electrónico](../../designing/using/styles.md).
+1. Añada un componente de estructura. Para obtener más información, consulte [Edición de la estructura de correo electrónico](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Añada un componente HTML. Para obtener más información, consulte [Añadir fragmentos y componentes](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Copie y pegue el HTML en ese componente.
 1. Cambie a vista móvil. Para obtener más información, consulte [esta sección](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
