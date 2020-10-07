@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '196'
+ht-degree: 2%
 
 ---
 
@@ -23,18 +24,18 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 Se trata de un procedimiento de dos pasos.
 
-1. Recupere la URL de suscripciones del servicio deseado.
-1. Realice una solicitud GET en la URL de suscripciones. Devuelve la lista de suscripciones para el servicio, con cada perfil asociado.
+1. Recupere la dirección URL de suscripciones para el servicio deseado.
+1. Realice una solicitud de GET en la URL de suscripciones. Devuelve la lista de suscripciones para el servicio, con cada perfil asociado.
 
 >[!CAUTION]
 >
->La API de REST devuelve la propiedad "href", que contiene la dirección URL que se va a usar. <b>Utilice siempre la dirección URL incluida en la respuesta para realizar la solicitud</b>de API posterior.
+>La API de REST devuelve la propiedad &quot;href&quot;, que contiene la dirección URL que se va a usar. <b>Utilice siempre la dirección URL incluida en la respuesta para realizar la solicitud</b>de API posterior.
 
 <br/>
 
 ***Solicitud de muestra***
 
-Realice una solicitud GET para recuperar el servicio.
+Realice una solicitud de GET para recuperar el servicio.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -58,7 +59,7 @@ Devuelve la URL de suscripciones del servicio.
   },
 ```
 
-Realice una solicitud GET en la URL de suscripciones.
+Realice una solicitud de GET en la URL de suscripciones.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
@@ -89,14 +90,14 @@ Se muestra la lista de suscripciones para el servicio, con cada perfil asociado.
 
 Se trata de un procedimiento de dos pasos.
 
-1. Recupere la URL de suscripciones de un perfil determinado.
-1. Realice una solicitud GET en la dirección URL. Devuelve la lista de suscripciones para el perfil, con cada servicio asociado.
+1. Recupere la dirección URL de suscripciones de un perfil determinado.
+1. Realice una solicitud de GET en la dirección URL. Devuelve la lista de suscripciones para el perfil, con cada servicio asociado.
 
 <br/>
 
 ***Solicitud de muestra***
 
-Realice una solicitud GET para recuperar el perfil.
+Realice una solicitud de GET para recuperar el perfil.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -120,7 +121,7 @@ Devuelve la URL de suscripciones del perfil.
   }
 ```
 
-Realice una solicitud GET en la URL de suscripciones.
+Realice una solicitud de GET en la URL de suscripciones.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -130,7 +131,7 @@ Realice una solicitud GET en la URL de suscripciones.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Devuelve la lista de servicios a los que se suscribió el perfil.
+Devuelve la lista de los servicios a los que se suscribió el perfil.
 
 ```
   {
