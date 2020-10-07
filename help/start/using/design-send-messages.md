@@ -1,6 +1,6 @@
 ---
 title: Personalización de listas
-description: '"Aprenda a personalizar la visualización y a actuar en pantallas de lista en Adobe Campaign Standard:ordenar, filtrar, eliminar o duplicar elementos. Las pantallas de Listas muestran elementos de uno o varios recursos determinados."'
+description: '"Aprenda a personalizar la visualización y a actuar en pantallas de lista en Adobe Campaign Standard:ordenar, filtrar, eliminar o duplicar elementos. Las pantallas de listas muestran elementos de uno o varios recursos determinados."'
 page-status-flag: never-activated
 uuid: 3350583c-91ca-4ea5-ac14-6b6f11c4a64a
 contentOwner: sauviat
@@ -9,10 +9,8 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 5%
@@ -77,7 +75,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lugar de vestibulo maur
 
 Preste atención a los clientes y mejore la tasa de respuesta mediante el uso de contenido y encabezados personalizados según sus perfiles, preferencias y actividad. Toda la información de sus clientes está centralizada en Adobe Campaign y puede oferta de mensajes con contenido adaptado, a través de diferentes canales.
 
-Los mensajes personalizados son clave para enviar contenido relevante, oferta de experiencias personalizadas y aumentar la apertura y las tasas de conversión. Los mensajes de canal cruzado entregados por Adobe Campaign se pueden personalizar de varias formas. Estas formas pueden combinarse con criterios en función de los perfiles. Se puede:
+Los mensajes personalizados son clave para enviar contenido relevante, oferta de experiencias personalizadas y aumentar la apertura y las tasas de conversión. Los mensajes de canal cruzado enviados por Adobe Campaign se pueden personalizar de varias formas. Estas formas pueden combinarse con criterios en función de los perfiles. Puede:
 
 * Inserte campos de personalización [](../../designing/using/personalization.md#inserting-a-personalization-field) dinámicos en los mensajes
 * Insert [predefined personalization blocks](../../designing/using/personalization.md#adding-a-content-block)
@@ -98,7 +96,7 @@ Los mensajes personalizados son clave para enviar contenido relevante, oferta de
 
 <img width="60px" alt="condiciones" src="assets/icon_profile.svg"/>
 
-Además de las potentes plantillas de sistema de informes listas para usar, Adobe Campaign le permite crear informes personalizados en un nivel de envío, campaña, usuario o segmento. Rastree sus mensajes y comprenda el comportamiento de sus clientes enriqueciendo progresivamente sus datos de perfil. Las herramientas de Sistema de informes y análisis le permiten capitalizar cada nueva campaña, mejorar el destinatario de sus acciones de mercadotecnia y optimizar su impacto y retorno en la inversión.
+Además de las potentes plantillas de sistema de informes listas para usar, Adobe Campaign le permite crear informes personalizados en un nivel de envío, campaña, usuario o segmento. Rastree sus mensajes y comprenda el comportamiento de sus clientes enriqueciendo progresivamente sus datos de perfil. Las herramientas de sistema de informes y análisis le permiten capitalizar cada nueva campaña, mejorar el destinatario de sus acciones de mercadotecnia y optimizar su impacto y retorno en la inversión.
 
 La interfaz gráfica proporciona un acceso rápido y fácil a los principales indicadores y estadísticas de envío.
 
