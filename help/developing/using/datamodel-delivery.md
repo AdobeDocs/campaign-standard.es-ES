@@ -7,15 +7,16 @@ products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '687'
+ht-degree: 10%
 
 ---
 
 
-# Entrega (nms:entrega)
+# Envío (nms:envío)
 
 ## Descripción del objeto
 
@@ -24,7 +25,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                   <th>Name</th>
                   <th>Etiqueta</th>
                   <th>Tipo (longitud)</th>
-                  <th>Valores de enumeración</th>
+                  <th>Valores de lista desglosada</th>
                </tr>
                <tr>
                   <td>FCP</td>
@@ -46,7 +47,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>avanzado</td>
-                  <td>Entrega avanzada</td>
+                  <td>Envío avanzado</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
@@ -83,12 +84,12 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                <tr>
                   <td>marca (brandingBase)</td>
                   <td>Marca</td>
-                  <td> link </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>wideLogs</td>
-                  <td>Registros de envío</td>
+                  <td>Registros de entregas</td>
                   <td>colección </td>
                   <td> </td>
                </tr>
@@ -99,15 +100,15 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                   <td> </td>
                </tr>
                <tr>
-                  <td>campaign (campaignBase)</td>
+                  <td>campaña (campaignBase)</td>
                   <td>Campaña</td>
-                  <td> link </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>cmsAccount (extAccountAEMBase)</td>
                   <td>Cuenta de Adobe Experience Manager</td>
-                  <td> link </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -125,7 +126,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                <tr>
                   <td>contentSource</td>
                   <td>Fuente de contenido</td>
-                  <td>enumeración (byte) </td>
+                  <td>lista desglosada (byte) </td>
                   <td>
                      <ul>
                         <li>Adobe Experience Manager - aem - 1</li>
@@ -149,17 +150,17 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                <tr>
                   <td>createdBy (userBase)</td>
                   <td>Creado por</td>
-                  <td> link </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>deliveryMode</td>
-                  <td>Modo de envío</td>
-                  <td>enumeración (byte) </td>
+                  <td>Modo envío</td>
+                  <td>lista desglosada (byte) </td>
                   <td>
                      <ul>
-                        <li>Entrega masiva - masiva - 1</li>
-                        <li>Intercambio de fuentes - midSourcing - 4</li>
+                        <li>Envío masivo - masivo - 1</li>
+                        <li>Intermediaria - midSourcing - 4</li>
                         <li>Descripción - descriptiva - 2</li>
                         <li>VALOR NO VÁLIDO - __Invalid_value_ - __Invalid_value__</li>
                         <li>Externo - externo - 0</li>
@@ -169,7 +170,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                <tr>
                   <td>deliveryProvider (extAccountBase)</td>
                   <td>Enrutamiento</td>
-                  <td> link </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -180,7 +181,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>emailPreview</td>
-                  <td>Vista previa del correo electrónico</td>
+                  <td>Previsualización de correo electrónico</td>
                   <td>item </td>
                   <td> </td>
                </tr>
@@ -205,7 +206,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                <tr>
                   <td>executeType</td>
                   <td>Tipo de ejecución</td>
-                  <td>enumeración (byte) </td>
+                  <td>lista desglosada (byte) </td>
                   <td>
                      <ul>
                         <li>Único - una vez - 0</li>
@@ -224,26 +225,26 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
                   <td>Unidad geográfica</td>
-                  <td> link </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>hasAttachments</td>
-                  <td>Agregar archivos adjuntos</td>
+                  <td>Añadir archivos adjuntos</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>icono</td>
                   <td>Icono</td>
-                  <td>enumeración (byte) </td>
+                  <td>lista desglosada (byte) </td>
                   <td>
                      <ul>
                         <li>Correo electrónico transaccional - emailLightning - 60</li>
                         <li>Fax: 4</li>
                         <li>Móvil (SMS) - sms - 1</li>
                         <li>Correo electrónico recurrente - emailRefresh - 30</li>
-                        <li>Correo directo - papel - 3</li>
+                        <li>Correo postal - papel - 3</li>
                         <li>Teléfono - Teléfono - 2</li>
                         <li>Otros - otros - 120</li>
                         <li>SMS recurrentes - smsRefresh - 31</li>
@@ -268,7 +269,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>isTemplate</td>
-                  <td>Plantilla</td>
+                  <td>Template</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
@@ -311,7 +312,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                <tr>
                   <td>logicalStatus</td>
                   <td>Estado de ejecución</td>
-                  <td>enumeración (cadena) (255)</td>
+                  <td>lista desglosada (cadena) (255)</td>
                   <td>
                      <ul>
                         <li>En curso - iniciado - iniciado</li>
@@ -337,14 +338,14 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>asignación (deliveryMapping)</td>
-                  <td>Asignación de objetivos</td>
-                  <td> link </td>
+                  <td>Asignación de destino</td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>master (deliveryBase)</td>
                   <td>Instancia maestra</td>
-                  <td> link </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -356,14 +357,14 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                <tr>
                   <td>messageType</td>
                   <td>Canal</td>
-                  <td>enumeración (byte) </td>
+                  <td>lista desglosada (byte) </td>
                   <td>
                      <ul>
                         <li>Fax: 4</li>
                         <li>Móvil (SMS) - sms - 1</li>
                         <li>Correo electrónico - correo electrónico - 0</li>
                         <li>Teléfono - Teléfono - 2</li>
-                        <li>Correo directo - papel - 3</li>
+                        <li>Correo postal - papel - 3</li>
                         <li>Aplicación móvil - pushNotification - 40</li>
                         <li>Otros - otros - 120</li>
                         <li>VALOR NO VÁLIDO - __Invalid_value_ - __Invalid_value__</li>
@@ -373,7 +374,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                <tr>
                   <td>modifiedBy (userBase)</td>
                   <td>Modificado por</td>
-                  <td> link </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -391,19 +392,19 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
                   <td>Unidad organizativa</td>
-                  <td> link </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>parent (deliveryBase)</td>
-                  <td>Entrega principal</td>
-                  <td> link </td>
+                  <td>Envío principal</td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>prioridad</td>
-                  <td>Prioridad de entrega</td>
-                  <td>enumeración (byte) </td>
+                  <td>Prioridad de envío</td>
+                  <td>lista desglosada (byte) </td>
                   <td>
                      <ul>
                         <li>Alta - alta - 20</li>
@@ -415,7 +416,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                <tr>
                   <td>programa (programBase)</td>
                   <td>Programa</td>
-                  <td> link </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -426,7 +427,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>pushNotificationPreview</td>
-                  <td>Vista previa de notificaciones push</td>
+                  <td>Previsualización de notificaciones push</td>
                   <td>item </td>
                   <td> </td>
                </tr>
@@ -456,7 +457,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>escenario</td>
-                  <td>Parámetros de plantilla de envío</td>
+                  <td>Parámetros de Plantilla de envíos</td>
                   <td>item </td>
                   <td> </td>
                </tr>
@@ -474,17 +475,17 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>smsPreview</td>
-                  <td>Vista previa de SMS</td>
+                  <td>PREVISUALIZACIÓN SMS</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>state</td>
                   <td>Estado</td>
-                  <td>enumeración (byte) </td>
+                  <td>lista desglosada (byte) </td>
                   <td>
                      <ul>
-                        <li>Iniciar pendiente - startPendiente - 51</li>
+                        <li>Inicio pendiente - startPendiente - 51</li>
                         <li>Listo para ser entregado - listo - 45</li>
                         <li>Reintentar pendiente - reintentar pendiente - 61</li>
                         <li>Reintentar en curso - reintentarEnCurso - 62</li>
@@ -500,22 +501,22 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                         <li>Error de personalización o recuento - error de preparación - 37</li>
                         <li>Detenido - cancelado - 85</li>
                         <li>Personalización en curso - messagePreparation - 22</li>
-                        <li>Target ready - targetReady - 15</li>
+                        <li>Destinatario listo - targetReady - 15</li>
                         <li>VALOR NO VÁLIDO - __Invalid_value_ - __Invalid_value__</li>
                         <li>Arbitraje en curso - targetArbitration - 13</li>
                      </ul>
                   </td>
                </tr>
                <tr>
-                  <td>objetivos</td>
-                  <td>Población objetivo de envío</td>
+                  <td>destinatarios</td>
+                  <td>Población de destinatario de envío</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>template (deliveryTemplateSummary)</td>
-                  <td>Plantilla de envío</td>
-                  <td> link </td>
+                  <td>Plantilla de envíos</td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -526,7 +527,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>título</td>
-                  <td>Envío</td>
+                  <td>Entrega</td>
                   <td>string (255)</td>
                   <td> </td>
                </tr>
@@ -538,7 +539,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>trackingLogs</td>
-                  <td>“Logs” de seguimiento</td>
+                  <td>Registros de seguimiento</td>
                   <td>colección </td>
                   <td> </td>
                </tr>
@@ -557,19 +558,19 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                <tr>
                   <td>tipología (typologyBase)</td>
                   <td>Tipología</td>
-                  <td> link </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>workflow (workflowBase)</td>
                   <td>Flujo de trabajo de objetivos</td>
-                  <td> link </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>workflowStatus</td>
                   <td>Estado del flujo de trabajo</td>
-                  <td>enumeración (cadena) (255)</td>
+                  <td>lista desglosada (cadena) (255)</td>
                   <td>
                      <ul>
                         <li>En curso - iniciado - iniciado</li>
@@ -593,8 +594,8 @@ Por tipo de canal (byChannel)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>channel</td>
-    <td>enumeración</td>
+    <td>canal</td>
+    <td>lista desglosada</td>
     </tr>
 </table>
 
@@ -607,7 +608,7 @@ Por tipo de ejecución (byExecutionType)
     </tr>
     <tr>
     <td>executeType</td>
-    <td>enumeración</td>
+    <td>lista desglosada</td>
     </tr>
 </table>
 
@@ -620,7 +621,7 @@ Por estado lógico (byLogicalStatus)
     </tr>
     <tr>
     <td>state</td>
-    <td>enumeración</td>
+    <td>lista desglosada</td>
     </tr>
 </table>
 
@@ -680,7 +681,7 @@ Por estado de publicación (porPublicationStatus)
     </tr>
     <tr>
     <td>pStatus</td>
-    <td>enumeración</td>
+    <td>lista desglosada</td>
     </tr>
 </table>
 
@@ -693,7 +694,7 @@ Por estado (byState)
     </tr>
     <tr>
     <td>state</td>
-    <td>enumeración</td>
+    <td>lista desglosada</td>
     </tr>
 </table>
 
@@ -710,7 +711,7 @@ Mensajes de seguimiento (showFollowup)
     </tr>
 </table>
 
-Incluir entregas avanzadas (conAdvanced)
+Incluir envíos avanzados (conAvanzado)
 
 <table>
     <tr>
@@ -723,7 +724,7 @@ Incluir entregas avanzadas (conAdvanced)
     </tr>
 </table>
 
-Incluir entregas continuas de una lista heterogénea (conContinuo)
+Incluir envíos continuos de una lista heterogénea (conContinuo)
 
 <table>
     <tr>
