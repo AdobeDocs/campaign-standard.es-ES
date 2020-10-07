@@ -9,19 +9,20 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '54'
+ht-degree: 25%
 
 ---
 
 
 # Supervisión de una solicitud de privacidad {#monitoring-a-privacy-request}
 
-Puede supervisar la información sobre una solicitud de privacidad creada mediante una solicitud **GET** .
+Puede supervisar la información sobre una solicitud de privacidad creada mediante una solicitud de **GET** .
 
-La descripción de la lista de estado está disponible en la documentación [de administración de](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)privacidad.
+La descripción de la lista de estado está disponible en la documentación [de administración de](https://helpx.adobe.com/es/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)privacidad.
 
 <br/>
 
@@ -35,7 +36,7 @@ La descripción de la lista de estado está disponible en la documentación [de 
 -H 'Content-Type: application/json;charset=utf-8'
 ```
 
-Respuesta a la solicitud GET.
+Respuesta a la solicitud de GET.
 
 ```
 {
