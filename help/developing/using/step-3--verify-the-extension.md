@@ -1,25 +1,26 @@
 ---
 title: '"Paso 3: Verificar la extensión"'
 description: Obtenga información sobre cómo acceder al campo extendido con la API de descanso.
-page-status-flag: nunca activado
+page-status-flag: never-activated
 uuid: 35ba89a5-a354-466f-91a0-50de111a2e00
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: desarrollo
-content-type: referencia
-topic-tags: use-case—extension-the-api
+audience: developing
+content-type: reference
+topic-tags: use-case--extending-the-api
 discoiquuid: 21bad242-5921-445c-8df9-3d57dbe35197
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '59'
+ht-degree: 13%
 
 ---
 
 
 # Paso 3: Verificar la extensión{#step-verify-the-extension}
 
-1. Realice una operación GET en los metadatos de Profiles &amp; Services Extension API para comprobar si el campo agregado en el recurso personalizado Perfiles ya está disponible.
+1. Realice una operación de GET en los metadatos de la API de extensión de Perfiles y servicios para comprobar si el campo agregado en el recurso personalizado de Perfiles ya está disponible.
 
    ```
    GET profileAndServicesExt/resourceType/profile
