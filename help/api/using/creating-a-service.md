@@ -9,17 +9,18 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '73'
+ht-degree: 8%
 
 ---
 
 
 # Creación de un servicio {#creating-a-service}
 
-La creación de servicios se realiza con una solicitud **POST** en el recurso de servicio.
+La creación de servicios se realiza con una solicitud de **POST** en el recurso de servicio.
 
 Si desea crear el servicio con atributos específicos, agréguelos a la carga útil. De lo contrario, el nuevo servicio se creará con los predeterminados.
 
@@ -27,7 +28,7 @@ Si desea crear el servicio con atributos específicos, agréguelos a la carga ú
 
 ***Solicitud de muestra***
 
-Muestra de una solicitud POST para crear un servicio con atributos específicos.
+Muestra de una solicitud de POST para crear un servicio con atributos específicos.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/ \
