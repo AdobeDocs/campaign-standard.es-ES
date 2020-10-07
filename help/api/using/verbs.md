@@ -1,5 +1,5 @@
 ---
-title: VERSOS OBTENER/POST/PARCHE/ELIMINAR
+title: GET/POST/PATCH/verbos de DELETE
 description: Obtenga más información sobre los verbos utilizados en las API de Campaign Standard.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -9,15 +9,16 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '129'
+ht-degree: 0%
 
 ---
 
 
-# VERSOS OBTENER/POST/PARCHE/ELIMINAR {#verbs}
+# GET/POST/PATCH/verbos de DELETE {#verbs}
 
 Los verbos disponibles para realizar operaciones con los recursos son:
 
@@ -32,7 +33,7 @@ Los verbos disponibles para realizar operaciones con los recursos son:
 
 ***Solicitudes de muestra***
 
-* Ejemplo de solicitud GET en la colección de perfiles.
+* Muestra de una solicitud de GET en la colección de perfiles.
 
 
    ```
@@ -68,7 +69,7 @@ Los verbos disponibles para realizar operaciones con los recursos son:
    }
    ```
 
-* Ejemplo de solicitud GET en un perfil específico.
+* Muestra de una solicitud de GET en un perfil específico.
 
 
    ```
@@ -94,7 +95,7 @@ Los verbos disponibles para realizar operaciones con los recursos son:
    }
    ```
 
-* Muestra de una solicitud POST para crear un perfil.
+* Muestra de una solicitud de POST para crear un perfil.
 
 
    ```
@@ -118,7 +119,7 @@ Los verbos disponibles para realizar operaciones con los recursos son:
    }
    ```
 
-* Ejemplo de solicitud de PARCH para actualizar un perfil.
+* Muestra de una solicitud de PATCH para actualizar un perfil.
 
    ```
    -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -138,7 +139,7 @@ Los verbos disponibles para realizar operaciones con los recursos son:
    }
    ```
 
-* Ejemplo de solicitud ELIMINAR para eliminar un perfil.
+* Muestra de una solicitud de DELETE para eliminar un perfil.
 
    ```
    -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
