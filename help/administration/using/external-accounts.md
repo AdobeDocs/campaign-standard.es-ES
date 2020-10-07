@@ -9,11 +9,9 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 discoiquuid: d5c6a3d4-f767-46c1-a8c0-3b9dc52dcea8
-internal: n
-snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 9ba56ca09a1ae948b6d4b1945085f59db1ade973
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1774'
 ht-degree: 85%
@@ -94,7 +92,8 @@ Los servidores SFTP se pueden administrar desde el panel de control. Para obtene
 >[!NOTE]
 >
 >El panel de control solo está disponible para los usuarios administradores de clientes alojados en AWS.
-Compruebe si su instancia está alojada en AWS [aquí](https://docs.adobe.com/content/help/es-ES/control-panel/using/faq.html#ims-org-id).
+>
+>Compruebe si su instancia está alojada en AWS [aquí](https://docs.adobe.com/content/help/es-ES/control-panel/using/faq.html#ims-org-id).
 
 ## Cuenta de OAuth 2.0 {#oauth-account}
 
