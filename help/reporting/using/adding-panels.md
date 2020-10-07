@@ -9,19 +9,20 @@ audience: reporting
 content-type: reference
 topic-tags: customizing-reports
 discoiquuid: f4e1e676-5ca2-4a58-96d7-d378ff803710
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '372'
+ht-degree: 1%
 
 ---
 
 
 # Adición de paneles{#adding-panels}
 
-## Adición de un panel en blanco {#adding-a-blank-panel}
+## Añadir un panel en blanco {#adding-a-blank-panel}
 
-Para iniciar el informe, puede agregar un conjunto de paneles a un informe predeterminado o personalizado. Cada panel contiene diferentes conjuntos de datos y está compuesto de tablas y visualizaciones improvisadas.
+Para inicio del informe, puede agregar un conjunto de paneles a un informe predeterminado o personalizado. Cada panel contiene diferentes conjuntos de datos y está compuesto de tablas y visualizaciones improvisadas.
 
 Este panel le permite generar los informes según sea necesario. Puede agregar tantos paneles como desee en los informes para filtrar los datos con diferentes períodos de tiempo.
 
@@ -29,13 +30,13 @@ Este panel le permite generar los informes según sea necesario. Puede agregar t
 
    ![](assets/dynamic_report_panel_1.png)
 
-1. Arrastre y suelte el panel **en blanco** en el tablero.
+1. Arrastre y suelte el panel **en blanco** en el panel.
 
    ![](assets/dynamic_report_panel.png)
 
-Ahora puede agregar una tabla improvisada al panel para empezar a dirigir los datos.
+Ahora puede agregar una tabla improvisada al panel a los datos de objetivo de inicio.
 
-## Adición de una tabla improvisada {#adding-a-freeform-table}
+## Añadir una tabla improvisada {#adding-a-freeform-table}
 
 Las tablas improvisadas permiten crear una tabla para analizar los datos con las distintas métricas y dimensiones disponibles en la tabla **Componente** .
 
@@ -45,9 +46,9 @@ Se puede cambiar el tamaño de cada tabla y visualización y moverlas para perso
 
    ![](assets/dynamic_report_panel_1.png)
 
-1. Arrastre y suelte el elemento **improvisado** en el tablero.
+1. Arrastre y suelte el elemento **improvisado** en el panel.
 
-   También puede agregar una tabla haciendo clic en la ficha **Insertar** y seleccionando **Nueva forma libre** o haciendo clic en **Agregar una tabla** improvisada en un panel vacío.
+   También puede agregar una tabla haciendo clic en la ficha **Insertar** y seleccionando **Nueva forma libre** o haciendo clic en **Añadir una tabla** improvisada en un panel vacío.
 
    ![](assets/dynamic_report_panel_2.png)
 
