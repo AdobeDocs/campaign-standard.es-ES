@@ -9,21 +9,22 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '320'
+ht-degree: 0%
 
 ---
 
 
-# Lectura imprescindible {#must-read}
+# Must-Read {#must-read}
 
 ## Requisitos técnicos
 
 * Las API de Adobe Campaign deben usarse solo de servidor a servidor.
-* Consulte siempre con su contacto técnico de Adobe si el caso de uso que desea implementar está alineado con la escala permitida por las API de Adobe Campaign.
-* La configuración de un acceso de AdobeIO requiere permisos específicos; para cualquier problema, póngase en contacto con el servicio de asistencia técnica de Adobe.
+* Consulte siempre con el contacto técnico de su Adobe si el caso de uso que desea implementar está alineado con la escala permitida por las API de Adobe Campaign.
+* La configuración de un acceso de AdobeIO requiere permisos específicos, póngase en contacto con la asistencia técnica de Adobe para cualquier problema.
 
 ## Representación de recursos
 
@@ -61,15 +62,15 @@ Si el recurso de perfil se ha ampliado con un campo de clave personalizada, pued
 
 `GET /.../profileAndServicesExt/profile/<customKey>`
 
-Las claves personalizadas no se pueden modificar con una operación PATCH si el valor clave es diferente de la clave de origen o si está utilizando su propia clave comercial como URI en lugar de la proporcionada por Adobe.
+Las claves personalizadas no se pueden modificar con una operación de PATCH si el valor clave es diferente de la clave de origen o si está utilizando su propia clave comercial como URI en lugar de la proporcionada por Adobe.
 
-Utilice una clave personalizada solo para los recursos **de perfil de nivel** superior. Las direcciones URL son devueltas por la API y no deben ser creadas por usted mismo.
+Utilice una clave personalizada solo para los recursos **de perfil de nivel** superior. Las direcciones URL son devueltas por la API y nunca las debe crear usted mismo.
 
 <br/>
 
 ***Solicitud de muestra***
 
-Para recuperar las suscripciones de un perfil mediante una clave personalizada, realice una operación GET en la clave personalizada.
+Para recuperar las suscripciones de un perfil mediante una clave personalizada, realice una operación de GET en la clave personalizada.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<customKey> \
@@ -79,7 +80,7 @@ Para recuperar las suscripciones de un perfil mediante una clave personalizada, 
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Realice una solicitud GET en la URL de suscripciones devuelta.
+Realice una solicitud de GET en la URL de suscripciones devuelta.
 
 ```
 -X GET <SUBSCRIPTION_URL> \
@@ -89,7 +90,7 @@ Realice una solicitud GET en la URL de suscripciones devuelta.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Devuelve la lista de suscripciones del perfil.
+Devuelve la lista de suscripciones para el perfil.
 
 ```
 "service": {
