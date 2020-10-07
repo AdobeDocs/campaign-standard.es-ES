@@ -10,11 +10,9 @@ content-type: reference
 topic-tags: execution-activities
 discoiquuid: f8ffe7af-e18c-4599-8fd0-fcd192565323
 context-tags: fork,main
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 100%
 
@@ -35,8 +33,8 @@ La actividad **[!UICONTROL Fork]** le permite llevar a cabo varias actividades d
 
 ## Configuración {#configuration}
 
-1. Arrastre y suelte una actividad de **[!UICONTROL Fork]** en el flujo de trabajo.
-1. Conéctelo a las demás actividades que le precedan, como consultas.
+1. Arrastre y suelte una actividad **[!UICONTROL Fork]** en su flujo de trabajo.
+1. Conéctela a las demás actividades que la precedan, como consultas.
 1. Seleccione la actividad y, a continuación, ábrala con el botón ![](assets/edit_darkgrey-24px.png), en las acciones rápidas que aparecerán.
 1. Especifique el número de transiciones de salida creándolas, eliminándolas o duplicándolas. También puede atribuirles un nombre y una etiqueta.
 1. Confirme la configuración de la actividad y guarde el flujo de trabajo.
