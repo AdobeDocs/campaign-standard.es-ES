@@ -7,15 +7,16 @@ products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '207'
+ht-degree: 14%
 
 ---
 
 
-# Audiencia (nms:audience)
+# Audiencia (nms:audiencia)
 
 ## Descripción del objeto
 
@@ -24,7 +25,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                   <th>Name</th>
                   <th>Etiqueta</th>
                   <th>Tipo (longitud)</th>
-                  <th>Valores de enumeración</th>
+                  <th>Valores de lista desglosada</th>
                </tr>
                <tr>
                   <td>PKey</td>
@@ -41,12 +42,12 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                <tr>
                   <td>amcDataSource (amcDataSourceBase)</td>
                   <td>Fuente de datos AMC</td>
-                  <td> link </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>audienceData</td>
-                  <td>Vista previa de la población seleccionada</td>
+                  <td>Población seleccionada de previsualización</td>
                   <td>colección </td>
                   <td> </td>
                </tr>
@@ -95,7 +96,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                <tr>
                   <td>createdBy (userBase)</td>
                   <td>Creado por</td>
-                  <td> link </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -125,7 +126,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
                   <td>Unidad geográfica</td>
-                  <td> link </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -136,7 +137,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                </tr>
                <tr>
                   <td>isAMC</td>
-                  <td>Audiencia de Adobe Marketing Cloud</td>
+                  <td>audiencia Adobe Marketing Cloud</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
@@ -167,7 +168,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                <tr>
                   <td>modifiedBy (userBase)</td>
                   <td>Modificado por</td>
-                  <td> link </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -179,7 +180,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
                   <td>Unidad organizativa</td>
-                  <td> link </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -208,14 +209,14 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                </tr>
                <tr>
                   <td>título</td>
-                  <td>Destinatarios</td>
+                  <td>Audiencia</td>
                   <td>string (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>type</td>
                   <td>Tipo</td>
-                  <td>enumeración (cadena) (100)</td>
+                  <td>lista desglosada (cadena) (100)</td>
                   <td>
                      <ul>
                         <li>Consulta - consulta - consulta</li>
@@ -234,7 +235,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                <tr>
                   <td>flujo de trabajo (flujo de trabajo)</td>
                   <td>Flujo de trabajo</td>
-                  <td> link </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
             </table>
@@ -276,7 +277,7 @@ Por tipo (byType)
     </tr>
     <tr>
     <td>type</td>
-    <td>enumeración</td>
+    <td>lista desglosada</td>
     </tr>
     <tr>
     <td>isAMC</td>
