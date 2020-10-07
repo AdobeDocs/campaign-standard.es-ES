@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: cf43edcacbab9f1f33ce29e23c0957d8bfa64e7d
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '428'
-ht-degree: 8%
+ht-degree: 20%
 
 ---
 
@@ -27,7 +25,7 @@ ht-degree: 8%
 >
 >Este documento solo se aplica a dispositivos iOS.
 
-En este documento, aprenda a mostrar una imagen desde una notificación push de iOS Adobe Campaign Standard.
+En este documento, aprenda a mostrar una imagen desde una notificación push de Adobe Campaign Standard iOS.
 
 ## Paso 1: Configurar notificación push {#set-up-push}
 
@@ -35,15 +33,15 @@ Los SDK de Experience Platform admiten la notificación push.
 
 Un administrador de la interfaz de Adobe Campaign debe configurar las aplicaciones móviles que reciben notificaciones push.
 
-Al configurar Adobe Campaign y Adobe Mobile Services, podrá utilizar los datos de su aplicación móvil para sus campañas. Para obtener más información, consulte [esta página](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+Al configurar Adobe Campaign y Adobe Mobile Services, podrá utilizar los datos de su aplicación móvil para sus campañas. Para obtener más información, consulte [esta página](https://helpx.adobe.com/es/campaign/kb/configuring-app-sdk.html).
 
-Para enviar notificaciones push con una aplicación de SDK de Experience Cloud, una aplicación móvil debe configurarse en Adobe Experience Platform Launch y en Adobe Campaign. Para obtener más información, consulte [esta página](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
+Para enviar notificaciones push con una aplicación Experience Cloud SDK, se debe configurar una aplicación móvil en Adobe Experience Platform Launch y en Adobe Campaign. Para obtener más información, consulte [esta página](https://helpx.adobe.com/es/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
 
 ## Paso 2: Personalice la notificación push en Adobe Campaign {#customize-push}
 
-Para ajustar la notificación push, Adobe Campaign le permite acceder a un conjunto de opciones avanzadas mientras diseña una notificación push.
+Para modificar una notificación push, Adobe Campaign le permite acceder a un conjunto de opciones avanzadas mientras diseña una notificación push.
 
-1. Cree una notificación push. Para obtener más información, consulte [esta página](../../channels/using/preparing-and-sending-a-push-notification.md).
+1. Creación de una notificación push. Para obtener más información, consulte [esta página](../../channels/using/preparing-and-sending-a-push-notification.md).
 
 1. En la página de contenido de notificaciones push, acceda a la **[!UICONTROL Advanced options]** sección.
 
