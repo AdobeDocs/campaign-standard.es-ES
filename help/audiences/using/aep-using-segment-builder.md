@@ -10,22 +10,20 @@ content-type: reference
 topic-tags: managing-audiences
 discoiquuid: 750ecd8d-67a5-4180-bfec-2a8e3098c812
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: be7ab90583e9c6472fd2c86082e832432d0a32b9
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '878'
+ht-degree: 4%
 
 ---
 
 
-# Using the Segment Builder {#using-the-segment-builder}
+# Uso del Generador de segmentos {#using-the-segment-builder}
 
 >[!IMPORTANT]
 >
->El servicio Destinos de Audiencia está actualmente en fase beta, que puede estar sujeto a frecuentes actualizaciones sin previo aviso. Se requiere que los clientes estén alojados en Azure (actualmente en versión beta solo para Norteamérica) para acceder a estas capacidades. Póngase en contacto con el Servicio de atención al cliente de Adobe si desea obtener acceso.
+>El servicio Destinos de audiencia está actualmente en fase beta, que puede estar sujeto a frecuentes actualizaciones sin previo aviso. Se requiere que los clientes estén alojados en Azure (actualmente en versión beta solo para Norteamérica) para acceder a estas capacidades. Si desea obtener acceso, póngase en contacto con el Servicio de atención al cliente de Adobe.
 
 El Generador de segmentos le permite generar audiencias mediante la definición de reglas basadas en datos procedentes del Perfil [del cliente en tiempo](https://docs.adobe.com/content/help/es-ES/experience-platform/profile/home.html)real.
 
@@ -73,11 +71,11 @@ Los campos enumerados son atributos capturados por la compañía y se han puesto
 
 Los campos están organizados en fichas:
 
-* **[!UICONTROL Attributes]**:: Atributos de perfiles existentes que pueden originarse en la base de datos de Adobe Campaign o en el Adobe Experience Platform. Se refieren a la información estática adjunta a un perfil (por ejemplo, dirección de correo electrónico, país de residencia, estado de programa de lealtad, etc.).
+* **[!UICONTROL Attributes]**:: Atributos de perfiles existentes que pueden originarse en la base de datos de Adobe Campaign o Adobe Experience Platform. Se refieren a la información estática adjunta a un perfil (por ejemplo, dirección de correo electrónico, país de residencia, estado de programa de lealtad, etc.).
 
    ![](assets/aep_audiences_attributestab.png)
 
-* **[!UICONTROL Events]**:: Actividades que identifican a los consumidores que han interactuado con los puntos de contacto del cliente de su compañía, como &quot;cualquiera que haya pedido dos veces en dos semanas&quot;. Esto se puede transmitir desde Adobe Analytics o ingerir directamente en el Adobe Experience Platform mediante herramientas de ETL de terceros.
+* **[!UICONTROL Events]**:: Actividades que identifican a los consumidores que han interactuado con los puntos de contacto del cliente de su compañía, como &quot;cualquiera que haya pedido dos veces en dos semanas&quot;. Esto se puede transmitir desde Adobe Analytics o ingerir directamente en Adobe Experience Platform mediante herramientas ETL de terceros.
 
    ![](assets/aep_audiences_eventstab.png)
 
@@ -85,7 +83,7 @@ Los campos están organizados en fichas:
 >
 >**La segmentación** de varias entidades permite ampliar los datos de Perfil con datos adicionales basados en productos, almacenes u otras clases que no sean de perfil. Una vez conectados, los datos de clases adicionales estarán disponibles como si fueran nativos del esquema de Perfil.
 >
->For more on this, refer to the [dedicated documentation](https://docs.adobe.com/content/help/en/experience-platform/segmentation/multi-entity-segmentation.html).
+>Para obtener más información, consulte la [documentación dedicada](https://docs.adobe.com/content/help/en/experience-platform/segmentation/multi-entity-segmentation.html).
 
 De forma predeterminada, el Generador de segmentos muestra los campos en los que los datos ya están presentes. Para mostrar el esquema completo, incluidos los campos para los que no hay datos, active la **[!UICONTROL Show full XDM schema]** opción desde la configuración.
 
