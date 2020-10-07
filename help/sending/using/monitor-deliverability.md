@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: sheduling-messages
 discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '422'
-ht-degree: 57%
+ht-degree: 58%
 
 ---
 
@@ -36,7 +34,7 @@ A continuación encontrará detalles sobre el **[!UICONTROL Delivery throughput]
 
 Este informe contiene información sobre el rendimiento del envío de toda la plataforma durante un período determinado para medir la velocidad a la que se entregan los mensajes.
 
-Para obtener más información sobre esto, consulte Rendimiento [de Envío](../../reporting/using/delivery-throughput.md).
+Para obtener más información sobre esto, consulte [Rendimiento de los envíos](../../reporting/using/delivery-throughput.md).
 
 ![](assets/delivery_reports_1.png)
 
@@ -44,7 +42,7 @@ Puede configurar los valores visualizados cambiando la escala temporal.
 
 Hay otros informes disponibles, como **[!UICONTROL Delivery summary]** o **[!UICONTROL Non-deliverables and bounces]**. Para obtener más información sobre esto, consulte Informes [](../../reporting/using/about-dynamic-reports.md)dinámicos.
 
-## Seguimiento de entregas {#monitoring-deliveries}
+## Seguimiento de envíos {#monitoring-deliveries}
 
 El panel de mensajes le permite acceder a los registros de envío: **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]**, **[!UICONTROL Tracking logs]** y **[!UICONTROL Tracked URLs]**. Muestran los detalles del envío, qué destinatario se ha excluido y por qué, así como la información de seguimiento como aperturas y clics.
 
