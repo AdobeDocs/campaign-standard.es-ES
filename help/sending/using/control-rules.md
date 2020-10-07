@@ -9,10 +9,11 @@ audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
 discoiquuid: 305cadde-6424-4c6f-b11b-1e8bdbad6ef1
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f5054272683ed846b5e0a4e64ed20c49309f8d58
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '440'
+ht-degree: 17%
 
 ---
 
@@ -32,12 +33,12 @@ Un conjunto de reglas predeterminadas garantiza los controles estándar. En la t
 | Etiqueta | Canal | Fase de ejecución | Descripción |
 ---------|----------|---------|---------
 | **[!UICONTROL A/B Test]** | Correo electrónico | At the start of personalization | Extrae la población de prueba de un envío con una prueba A/B. |
-| **[!UICONTROL Check delivery size]** | Todos | After targeting | Comprueba el tamaño de los mensajes. |
+| **[!UICONTROL Check delivery size]** | Todo | After targeting | Comprueba el tamaño de los mensajes. |
 | **[!UICONTROL Check email content is not empty]** | Correo electrónico | After targeting | Genera un error si el contenido del mensaje está vacío. |
 | **[!UICONTROL Check In-App content for broadcast template]** | En la aplicación | Personalización de inicio | Comprueba que el contenido en la aplicación o los activadores no están vacíos para la plantilla de difusión. |
 | **[!UICONTROL Check In-App content for profile template]** | En la aplicación | At the start of personalization | Comprueba que el contenido en la aplicación o los activadores no están vacíos para la plantilla de perfil. |
 | **[!UICONTROL Check In-App content for subscriber template]** | En la aplicación | At the start of personalization | Comprueba que el contenido en la aplicación o los activadores no están vacíos para la plantilla de suscriptor. |
-| **[!UICONTROL Check proof size]** | Todos | After targeting | Genera un mensaje de error si la población de destinatarios de prueba supera los 100 destinatarios. |
+| **[!UICONTROL Check proof size]** | Todo | After targeting | Genera un mensaje de error si la población de destinatarios de prueba supera los 100 destinatarios. |
 | **[!UICONTROL Check social network sharing link]** | Correo electrónico | At the start of personalization | Comprueba la presencia de un vínculo a una página espejo al incluir un vínculo de uso compartido de redes sociales (ViralLinks) en el contenido. |
 | **[!UICONTROL Check subject]** | Correo electrónico | At the start of personalization | Comprueba que el asunto y la dirección del remitente no contienen caracteres especiales que puedan causar problemas en determinados agentes de transferencia de correo y comprueba que el asunto del mensaje se ha completado. |
 | **[!UICONTROL Check unsubscription link]** | Correo electrónico | At the start of personalization | Comprueba la presencia de al menos una URL baja (de exclusión) en cada contenido (HTML y texto). |
