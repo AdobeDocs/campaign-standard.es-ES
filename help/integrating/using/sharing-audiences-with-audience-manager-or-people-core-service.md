@@ -1,6 +1,6 @@
 ---
 title: Uso compartido de audiencias con Audience Manager o el servicio principal People
-description: Obtenga información sobre cómo importar o exportar su audiencia en las distintas soluciones de Adobe Experience Cloud.
+description: Descubra cómo importar o exportar su audiencia dentro de las distintas soluciones de Adobe Experience Cloud.
 page-status-flag: never-activated
 uuid: a3701e72-5846-4241-afee-d713b499a27a
 contentOwner: sauviat
@@ -9,10 +9,8 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: 77af0772-52b5-46bc-a964-675b45965524
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 26%
@@ -24,7 +22,7 @@ ht-degree: 26%
 
 ## Importación de una audiencia {#importing-an-audience}
 
-La integración de servicios principales Personas permite importar directamente una audiencia en Adobe Campaign mediante un flujo de trabajo técnico para enriquecer la base de datos. For more information on audience sharing in People core service, refer to this [documentation](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html).
+La integración de servicios principales Personas permite importar directamente una audiencia a Adobe Campaign mediante un flujo de trabajo técnico para enriquecer la base de datos. For more information on audience sharing in People core service, refer to this [documentation](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html).
 
 La importación de audiencias/segmentos desde el servicio principal Personas en Adobe Campaign solo puede realizarse desde el **[!UICONTROL Audiences]** menú por usuarios conectados mediante IMS (autenticación mediante Adobe ID).
 
@@ -54,7 +52,7 @@ La audiencia ahora se importa en la base de datos de Adobe Campaign. El proceso 
 
 ## Exportación de un público {#exporting-an-audience}
 
-Una audiencia se puede exportar de Adobe Campaign a Audience Manager o a servicio principal Personas mediante un flujo de trabajo y la **[!UICONTROL Save audience]** actividad.
+Se puede exportar una audiencia de Adobe Campaign al servicio principal Audience Manager o Personas mediante un flujo de trabajo y la **[!UICONTROL Save audience]** actividad.
 
 Se puede llevar a cabo en un nuevo flujo de trabajo y solo por usuarios conectados mediante IMS (autenticación mediante Adobe ID).
 
@@ -69,6 +67,7 @@ Se puede llevar a cabo en un nuevo flujo de trabajo y solo por usuarios conectad
 
    * Si selecciona una audiencia existente, solo se añaden los registros nuevos a la audiencia.
    * To export your profile list into a new audience, complete the **[!UICONTROL Segment name]** field then click **[!UICONTROL Create]** before selecting the newly created audience.
+
    ![](assets/aam_save_audience_segment_picker.png)
 
    Para que se puedan conciliar e intercambiar, los registros deben tener un Adobe Experience Cloud ID (&#39;ID de Visitante&#39; o &#39;ID declarado&#39;). Los registros no conciliados se omiten al importar y exportar audiencias.
