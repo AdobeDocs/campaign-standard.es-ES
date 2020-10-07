@@ -9,10 +9,8 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '5400'
 ht-degree: 10%
@@ -208,7 +206,7 @@ Vista de las últimas actualizaciones [de](../../rn/using/documentation-updates.
  <tbody> 
   <tr> 
    <td> RGPD: Integración de servicios principales<br /> </td> 
-   <td> Privacy Core Service Integration le permite automatizar sus solicitudes GDPR en un contexto de varias soluciones a través de una sola llamada de API JSON. <br /> Las solicitudes de RGPD insertadas desde el servicio principal de privacidad a todas las soluciones de Experience Cloud ahora se gestionan automáticamente mediante la Campaña. <br /> Para obtener más información, consulte la <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">documentación detallada</a>.<br /> </td> 
+   <td> Privacy Core Service Integration le permite automatizar sus solicitudes GDPR en un contexto de varias soluciones a través de una sola llamada de API JSON. <br /> Las solicitudes de RGPD insertadas desde el servicio principal de privacidad a todas las soluciones de Experience Cloud ahora se gestionan automáticamente mediante la Campaña. <br /> Para obtener más información, consulte la <a href="https://helpx.adobe.com/es/campaign/kb/campaign-privacy.html">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Mejoras de inserción: comentarios detallados sobre el envío<br /> </td> 
@@ -310,7 +308,7 @@ _Recursos personalizados_
     <ul> 
      <li> Derecho de acceso: permite que el sujeto de datos reciba una copia de sus datos personales recopilados por los controladores de datos, incluso los datos almacenados en Adobe Campaign. </li> 
      <li> Derecho a borrado: autoriza al sujeto de datos a que sus datos personales recopilados por los controladores de datos se borren, lo que incluye datos almacenados en Adobe Campaign. </li> 
-    </ul> Para obtener más información, consulte la <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">documentación detallada</a>.<br /> </td> 
+    </ul> Para obtener más información, consulte la <a href="https://helpx.adobe.com/es/campaign/kb/campaign-privacy.html">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer para correo electrónico (Beta)<br /> </td> 
