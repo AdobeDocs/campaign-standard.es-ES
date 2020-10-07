@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: execution-activities
 discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query,wait,delivery
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 73a91344ada17d6eb0da0335e08ea27a1019b4fb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '856'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
@@ -54,7 +52,7 @@ Una vez creado el flujo de trabajo, puede acceder a su interfaz.
 
 Inserte una actividad de consulta en el flujo de trabajo para identificar los perfiles que van a recibir los envíos.
 
-1. En **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, arrastre y suelte una actividad de [Consulta](../../automating/using/query.md) .
+1. En **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, arrastre y suelte una actividad de [Consulta](../../automating/using/query.md).
 1. Haga doble clic en la actividad.
 1. En la pestaña **[!UICONTROL Target]**, examine los accesos directos y seleccione una de las [audiencias](../../audiences/using/about-audiences.md).
 1. Arrastre y suelte el acceso directo en la zona de edición. Según el tipo de acceso directo seleccionado, aparece una ventana.
