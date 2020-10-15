@@ -1,6 +1,6 @@
 ---
 title: Introducción a la administración de datos y procesos
-description: Automatice los procesos con flujos de trabajo, administre datos y audiencias, envíe mensajes y mucho más.
+description: Automatice los procesos con flujos de trabajo, administre datos y audiencias, envíe mensajes, y mucho más.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '519'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
