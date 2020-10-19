@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
 workflow-type: tm+mt
 source-wordcount: '726'
-ht-degree: 41%
+ht-degree: 40%
 
 ---
 
@@ -127,7 +127,7 @@ Para crear la fuente de **[!UICONTROL Declared ID]** datos:
 
 Para la configuración de la integración con el servicio principal Personas o Audience Manager, también es necesario configurar el servidor de seguimiento de campañas.
 
-Aquí, debe asegurarse de que el servidor de seguimiento de Campaña está registrado en el dominio (CNAME). Se puede encontrar más información sobre la delegación de nombres de dominio en [este artículo](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/Technotes/AdobeCampaign_Deliverability_Sub_Domain_Delegation.pdf).
+Aquí, debe asegurarse de que el servidor de seguimiento de Campaña está registrado en el dominio (CNAME). You can find more information about domain name configuration in [this article](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/Technotes/AdobeCampaign_Deliverability_Sub_Domain_Delegation.pdf).
 
 ### Paso 4: Configuración del servicio de ID de visitante {#step-4--configure-the-visitor-id-service}
 
