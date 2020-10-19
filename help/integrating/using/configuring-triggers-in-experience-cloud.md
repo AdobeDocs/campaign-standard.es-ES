@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: working-with-campaign-and-triggers
 discoiquuid: 4163dc0c-8103-4425-b8bf-7aa45c4d3a06
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 8%
@@ -54,7 +54,7 @@ También necesita tener un sitio web de trabajo.
 
 >[!CAUTION]
 >
->La delegación de subdominios es un elemento clave de entregabilidad. Asegúrese de que los correos electrónicos de Adobe Campaign se envían desde el mismo dominio que el utilizado por el sitio web.
+>La configuración de subdominio es un elemento clave de entregabilidad. Asegúrese de que los correos electrónicos de Adobe Campaign se envían desde el mismo dominio que el utilizado por el sitio web.
 
 Debe configurar el servicio [principal](#configuring-experience-cloud-dtm-core-service)Experience Cloud DTM, el servicio [principal Personas](#configuring-experience-cloud-people-core-service) Experience Cloud y la [Campaña](#configuring-triggers-and-aliases-in-campaign) para ejecutar estos casos de uso.
 
@@ -96,7 +96,7 @@ El alias al que se hace referencia anteriormente en la DTM debe crearse en el se
 
 Es necesario crear un activador de Adobe Experience Cloud para poder utilizarlo en la Campaña.
 
-Cree un nuevo activador en Experience Cloud y asegúrese de seleccionar el grupo de informes utilizado en el sitio web. Asegúrese de elegir la dimensión adecuada para que el activador se active.
+Cree un nuevo activador en Experience Cloud y asegúrese de seleccionar el grupo de informes utilizado en el sitio web. Asegúrese de elegir la dimensión correcta para que el activador se active.
 
 Consulte la documentación [de](https://docs.adobe.com/content/help/es-ES/core-services/interface/activation/triggers.html) Adobe Experience Cloud y vea este [vídeo](https://helpx.adobe.com/es/marketing-cloud/how-to/email-marketing.html#step-two).
 
