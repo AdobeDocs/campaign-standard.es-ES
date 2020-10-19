@@ -11,9 +11,9 @@ topic-tags: sheduling-messages
 discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '444'
 ht-degree: 55%
 
 ---
@@ -32,7 +32,7 @@ El inicio de una plataforma suele ocurrir cuando se utiliza una lista de direcci
 * Si, al mismo tiempo, desea recalificar las direcciones no válidas, es preferible hacerlo una vez que se establezca la reputación de la plataforma y poco a poco para &quot;diluir&quot; el uso de direcciones incorrectas con el tiempo.
 
 Resumir los principios que deben seguirse al iniciar:
-* **Delegar un subdominio** dedicado a Adobe específico para campañas de correo electrónico enviadas desde Adobe.
+* **Configure un subdominio** dedicado para que funcione con una Campaña específica para las campañas de correo electrónico enviadas desde Adobe.
 * **Importe direcciones no válidas o inactivas en la tabla** de cuarentena (si tiene esta información).
 * **Limitar la velocidad de rendimiento** del envío (configuración técnica: limitar el número de equipos).
 * **Aumente progresivamente los volúmenes enviados**: no destinatario toda la base de datos desde el mismo inicio, sino que agrega una fracción adicional de la lista cada vez que envía. Esto debería permitirle aumentar el volumen en cada paso y reducir al mismo tiempo la tasa global de direcciones no válidas.
