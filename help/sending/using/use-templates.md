@@ -11,9 +11,9 @@ topic-tags: deliveries-best-practices
 discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '802'
 ht-degree: 58%
 
 ---
@@ -49,7 +49,7 @@ En la **[!UICONTROL Advanced parameters]** sección de las propiedades de una pl
 
 ![](assets/template-parameters.png)
 
-El dominio de dirección debe ser el mismo que el subdominio que delegó en Adobe.
+El dominio de dirección debe ser el mismo que el subdominio configurado.
 
 Los **[!UICONTROL Reply to]** campos corresponden a la dirección de correo electrónico y el nombre utilizados para las respuestas.
 
