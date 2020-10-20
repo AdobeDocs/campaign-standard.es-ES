@@ -77,7 +77,7 @@ ht-degree: 100%
       + [Conozca las prácticas recomendadas](sending/using/delivery-best-practices.md)
       + [Optimización del envío](sending/using/optimize-delivery.md)
       + [Uso de plantillas](sending/using/use-templates.md)
-      + [Compilación de contenido personalizado](sending/using/design-and-personalize.md)
+      + [Creación de contenido personalizado](sending/using/design-and-personalize.md)
       + [Definición de la audiencia correcta](sending/using/define-the-right-audience.md)
       + [Comprobación antes de enviar](sending/using/check-before-sending.md)
       + [Seguimiento y monitorización](sending/using/track-and-monitor.md)
@@ -316,7 +316,7 @@ ht-degree: 100%
       + [Edición de consultas](automating/using/editing-queries.md)
       + [Edición avanzada de expresiones](automating/using/advanced-expression-editing.md)
       + [Lista de funciones](automating/using/list-of-functions.md)
-   + Importación y exportación de datos.{#importing-and-exporting-data}
+   + Importación y exportación de datos {#importing-and-exporting-data}
       + [Acerca de la importación y exportación de datos](automating/using/about-data-import-and-export.md)
       + [Prácticas recomendadas de importación](automating/using/import-best-practices.md)
       + [Importación de datos con plantillas de importación](automating/using/importing-data-with-import-templates.md)
