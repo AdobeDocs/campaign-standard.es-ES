@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 8eaece864ca0f3795cd36ea0cc7a01737822d9e8
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 4%
+source-wordcount: '914'
+ht-degree: 3%
 
 ---
 
@@ -105,3 +105,11 @@ Consulte los siguientes recursos:
 * Introducción a la [documentación de Launch &amp; Experience Platform SDK](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)
 * Actualización a la [documentación del SDK Experience Platform](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep)
 * [Documentación de Github Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)
+
+## Se ha producido el error &quot;No tiene acceso de escritura en envío&quot; al crear un envío de notificación push. {#write-access-error}
+
+Debe comprobar lo siguiente:
+
+* La aplicación móvil debe asignarse a la unidad organizativa del usuario que necesita crear y enviar envíos push. El usuario de una unidad organizativa secundaria no puede crear un envío push mediante una aplicación asignada a la unidad organizativa principal.
+
+* La campaña o el programa dentro del cual se crea el envío push deben asignarse a la unidad organizativa del usuario que necesita crear y enviar envíos push. El usuario de la unidad organizativa secundaria no puede crear un envío push en una campaña o programa asignado a la unidad organizativa principal.
