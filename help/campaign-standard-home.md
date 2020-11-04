@@ -5,10 +5,10 @@ title: Documentación del producto de Adobe Campaign Standard
 description: Examinar la documentación del producto Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
+source-git-commit: 932e703ccb20ea3eefe82d7a695513076d4f4d19
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 73%
+source-wordcount: '224'
+ht-degree: 91%
 
 ---
 
@@ -19,15 +19,19 @@ ht-degree: 73%
 
 ## Novedades
 
-* **[Grupos de control](sending/using/control-group.md)**<br/>Medir el impacto de sus campañas excluyendo una porción de su audiencia
+* **[Se han añadido las fechas de lanzamiento previstas para el próximo mes de enero a la planificación](rn/using/release-planning.md)**<br/>de versiones
 
-* **[Correos electrónicos](sending/using/predictive.md)**<br/>con tecnología AI Optimice el diseño y el envío con correos electrónicos con tecnología AI
+* **[Grupos de control](sending/using/control-group.md)**<br/>
+Miden el impacto de sus campañas al excluir una parte de su audiencia.
 
-* **[Administración de privacidad](https://helpx.adobe.com/es/campaign/kb/campaign-privacy.html)**<br/> Obtenga información sobre las herramientas proporcionadas por Adobe Campaign para ayudarle a cumplir con la privacidad
+* **[Correos electrónicos con tecnología IA](sending/using/predictive.md)**<br/>
+Optimizan el diseño y el envío con correos electrónicos con tecnología de IA.
 
-* **[API](automating/using/external-api.md)**<br/>externa Utilice la actividad de API externa para introducir datos en el flujo de trabajo desde un sistema externo
+* **[API externa](automating/using/external-api.md)**<br/>
+Utilizan la actividad de API externa para introducir datos en el flujo de trabajo desde un sistema externo.
 
-* **[Introducción a los envíos](https://helpx.adobe.com/es/campaign/kb/acs-mobile.html)**<br/> móviles Obtenga más información sobre las directrices generales para envíos móviles (SMS, push, en la aplicación)
+* **[Introducción a los envíos móviles](https://helpx.adobe.com/es/campaign/kb/acs-mobile.html)**<br/>
+Obtenga más información sobre las directrices generales para envíos móviles (SMS, push, en la aplicación).
 
 [Haga clic aquí para obtener más actualizaciones](rn/using/documentation-updates.md)
 
