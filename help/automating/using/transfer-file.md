@@ -11,7 +11,7 @@ topic-tags: data-management-activities
 discoiquuid: 752f2aed-f897-485e-b329-f3cc1756ee8e
 context-tags: fileTransfer,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 99%
@@ -136,7 +136,7 @@ El protocolo de **[!UICONTROL File(s) present on the Adobe Campaign server]** co
 Se pueden usar metacaracteres o caracteres comodín (por ejemplo, * o ?) para filtrar archivos.
 
 Elija si desea **[!UICONTROL Define a file path]** o **[!UICONTROL Use a dynamic file path]**
-La opción **[!UICONTROL Use a dynamic file path]** permite utilizar una expresión estándar y variables de eventos para personalizar el nombre del archivo que desea transferir. Para obtener más información, consulte esta sección: [](../../automating/using/customizing-workflow-external-parameters.md).
+La opción **[!UICONTROL Use a dynamic file path]** permite utilizar una expresión estándar y variables de eventos para personalizar el nombre del archivo que desea transferir. Para obtener más información, consulte [esta página](../../automating/using/customizing-workflow-external-parameters.md).
 
 Tenga en cuenta que la ruta debe estar relacionada con el directorio de espacio de almacenamiento del servidor de Adobe Campaign. Los archivos se encuentran en el directorio **sftp&lt;yourinstancename>/** . Tampoco puede examinar los directorios situados encima del espacio de almacenamiento. Por ejemplo:
 
