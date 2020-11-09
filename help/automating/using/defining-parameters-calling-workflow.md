@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 12%
+source-wordcount: '188'
+ht-degree: 13%
 
 ---
 
@@ -24,7 +24,7 @@ En esta sección se explica cómo definir parámetros al llamar a un flujo de tr
 
 Antes de definir los parámetros, asegúrese de que:
 
-* Los parámetros se han declarado en la **[!UICONTROL External Signal]** actividad. Consulte [](../../automating/using/declaring-parameters-external-signal.md).
+* Los parámetros se han declarado en la **[!UICONTROL External Signal]** actividad. Consulte [esta página](../../automating/using/declaring-parameters-external-signal.md).
 * Se está ejecutando el flujo de trabajo que contiene la actividad de señal.
 
 Para configurar la **[!UICONTROL End]** actividad, siga los pasos a continuación:
@@ -33,7 +33,7 @@ Para configurar la **[!UICONTROL End]** actividad, siga los pasos a continuació
 1. Seleccione el flujo de trabajo y la actividad de señal externa que desea llamar.
 1. Haga clic en el **[!UICONTROL Create element]** botón para agregar un parámetro y luego complete su nombre y valor.
 
-   * **[!UICONTROL Name]**:: el nombre que se ha declarado en la **[!UICONTROL External signal]** actividad (véase [](../../automating/using/declaring-parameters-external-signal.md)).
+   * **[!UICONTROL Name]**:: el nombre que se declaró en la **[!UICONTROL External signal]** actividad (consulte [esta página](../../automating/using/declaring-parameters-external-signal.md)).
    * **[!UICONTROL Value]**:: el valor que desea asignar al parámetro. El valor debe seguir la sintaxis **** estándar descrita en [esta sección](../../automating/using/advanced-expression-editing.md#standard-syntax).
 
    ![](assets/extsignal_definingparameters_2.png)
