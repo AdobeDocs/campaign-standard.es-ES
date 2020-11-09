@@ -11,7 +11,7 @@ topic-tags: execution-activities
 discoiquuid: 911c71b5-da8b-4916-b645-13bba6d21715
 context-tags: signal,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 96%
@@ -54,7 +54,7 @@ Al configurar una señal externa, es importante configurar primero la actividad 
 1. Seleccione la actividad y, a continuación, ábrala con el botón ![](assets/edit_darkgrey-24px.png), en las acciones rápidas que aparecerán.
 1. Edite la etiqueta de la actividad. Se necesita esta etiqueta para configurar el flujo de trabajo de origen que activa la **[!UICONTROL External signal]**.
 
-   Si desea llamar al flujo de trabajo con parámetros, utilice el área **[!UICONTROL Parameters]** para declararlos. Para obtener más información, consulte esta sección: [](../../automating/using/declaring-parameters-external-signal.md).
+   Si desea llamar al flujo de trabajo con parámetros, utilice el área **[!UICONTROL Parameters]** para declararlos. Para obtener más información, consulte [esta página](../../automating/using/declaring-parameters-external-signal.md).
 
    ![](assets/external_signal_configuration.png)
 
@@ -76,7 +76,7 @@ Al configurar una señal externa, es importante configurar primero la actividad 
 
    Cuando se establece una actividad de **[!UICONTROL End]** para activar otro flujo de trabajo, este se actualiza con un símbolo de señal adicional.
 
-   Si desea llamar al flujo de trabajo con parámetros, utilice el área **[!UICONTROL Parameters and values]**. Para obtener más información, consulte esta sección: [](../../automating/using/defining-parameters-calling-workflow.md).
+   Si desea llamar al flujo de trabajo con parámetros, utilice el área **[!UICONTROL Parameters and values]**. Para obtener más información, consulte [esta página](../../automating/using/defining-parameters-calling-workflow.md).
 
    ![](assets/external_signal_end.png)
 
