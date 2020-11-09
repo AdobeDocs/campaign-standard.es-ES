@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 2%
+source-wordcount: '186'
+ht-degree: 4%
 
 ---
 
@@ -27,7 +27,7 @@ Veamos el siguiente ejemplo, donde queremos enviar correos electrónicos directa
 El proceso para llamar a un flujo de trabajo con parámetros es el siguiente:
 
 1. Declare los parámetros en la **[!UICONTROL External signal]** actividad. See [Declaring the parameters in the External signal activity](../../automating/using/declaring-parameters-external-signal.md).
-1. Configure la **[!UICONTROL End]** actividad o la llamada de API para definir los parámetros y activar la **[!UICONTROL External signal]** actividad de flujo de trabajo. Consulte [](../../automating/using/defining-parameters-calling-workflow.md)
-1. Una vez activado el flujo de trabajo, los parámetros se ingieren en las variables de eventos del flujo de trabajo y se pueden utilizar dentro del mismo. Consulte [](../../automating/using/customizing-workflow-external-parameters.md).
+1. Configure la **[!UICONTROL End]** actividad o la llamada de API para definir los parámetros y activar la **[!UICONTROL External signal]** actividad de flujo de trabajo. Consulte [esta página](../../automating/using/defining-parameters-calling-workflow.md)
+1. Una vez activado el flujo de trabajo, los parámetros se ingieren en las variables de eventos del flujo de trabajo y se pueden utilizar dentro del mismo. Consulte [esta página](../../automating/using/customizing-workflow-external-parameters.md).
 
 ![](assets/extsignal_process.png)
