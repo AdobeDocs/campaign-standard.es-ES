@@ -11,9 +11,9 @@ topic-tags: targeting-activities
 discoiquuid: 0ccd9d02-772e-406b-874a-5381dd0c8709
 context-tags: segmentation,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '851'
 ht-degree: 92%
 
 ---
@@ -64,7 +64,7 @@ La actividad **[!UICONTROL Segmentation]** se suele colocar después de activida
    * **[!UICONTROL Limit segment population]**: le permite limitar el tamaño del segmento.
    * **[!UICONTROL Filter and limit segment population]**: le permite filtrar la población del segmento y limitar su tamaño.
    * **[!UICONTROL Label]**: etiqueta de segmento.
-   * **[!UICONTROL Segment code]**:: código asignado a la población de segmentos.El código de segmento se puede personalizar mediante una expresión estándar y variables de eventos (consulte [](../../automating/using/customizing-workflow-external-parameters.md)).
+   * **[!UICONTROL Segment code]**:: código asignado a la población de segmentos.El código de segmento se puede personalizar mediante una expresión estándar y variables de eventos (consulte [esta página](../../automating/using/customizing-workflow-external-parameters.md)).
    * **[!UICONTROL Exclude segment from population]**: le permite excluir el segmento especificado de la población saliente de la actividad. Esta opción solo se puede utilizar si se selecciona la opción **[!UICONTROL Generate all segments in the same transition]**.
 
    ![](assets/wkf_segment_new_segment.png)
@@ -91,7 +91,6 @@ La actividad **[!UICONTROL Segmentation]** se suele colocar después de activida
       >[!NOTE]
       >
       >Se pueden usar distintas limitaciones para cada valor. Por ejemplo, puede especificar una agrupación para el campo **[!UICONTROL Gender]**, y limitar la población con miembros **[!UICONTROL Male]** a 10 personas y la población con miembros **[!UICONTROL Female]** a 30 personas. Si utiliza varios campos de agrupación de datos, todas las agrupaciones deben tener el mismo tamaño.
-
    ![](assets/wkf_segment_limit_by_grouping.png)
 
 1. Confirme la configuración de su segmento.
