@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Centro de ayuda de Adobe Campaign Standard
 breadcrumb-title: Guía del Campaign Standard
 translation-type: tm+mt
-source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
+source-git-commit: 424123972ae189d15a2282b6065190dac4a89d5d
 workflow-type: tm+mt
-source-wordcount: '1655'
+source-wordcount: '1658'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,9 @@ ht-degree: 100%
    + [Funciones obsoletas](rn/using/deprecated-features.md)
 + Introducción {#getting-started}
    + [Acerca de Adobe Campaign Classic](start/using/about-campaign-standard.md)
-   + [Privacidad y consentimiento](start/using/privacy.md)
+   + Privacidad {#privacy}
+      + [Privacidad y consentimiento](start/using/privacy.md)
+      + [Administración de la privacidad](start/using/privacy-management.md)
    + Descubrimiento de la interfaz {#discovering-the-interface}
       + [Acerca de la interfaz](start/using/about-the-interface.md)
       + [Descripción de la interfaz](start/using/interface-description.md)
