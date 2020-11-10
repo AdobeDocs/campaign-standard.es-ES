@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 7f0af4deeaf641e2aded9278b97eb498edd85d08
 workflow-type: tm+mt
-source-wordcount: '1479'
-ht-degree: 78%
+source-wordcount: '1456'
+ht-degree: 75%
 
 ---
 
@@ -40,7 +40,7 @@ Para gestionar correctamente la privacidad y administrar los datos personales, s
 
 >[!NOTE]
 >
->For more on how GDPR, CCPA, and PDPA apply to Adobe Campaign, see [this page](https://helpx.adobe.com/es/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
+>For more on how GDPR, CCPA, and PDPA apply to Adobe Campaign, see [this section](../../start/using/privacy-management.md#privacy-management-regulations).
 
 ### Privacidad de Adobe Experience Cloud {#experience-cloud-privacy}
 
@@ -78,7 +78,7 @@ Al administrar la privacidad, es importante definir qué datos deben manejarse c
 * Los **datos personales** son información que puede identificar directa o indirectamente a un individuo.
 * Los **datos personales confidenciales** son información relacionada con la raza, las opiniones políticas, las creencias religiosas, los antecedentes penales, la información genética, los datos de salud, las preferencias sexuales, la información biométrica, y la afiliación a sindicatos.
 
-La [legislación principal](#privacy-regulations) se refiere a las diferentes entidades que administran los datos de la siguiente manera:
+The [main regulations](#privacy-regulations) refer to the different entities that manage data as follows:
 * Un **controlador de datos** es una autoridad que determina los medios y el propósito de recopilar, utilizar y compartir datos personales.
 * Un **procesador de datos** es cualquier persona o parte que recopila, utiliza o comparte datos personales según lo indicado por el controlador de datos.
 * Se entiende por **sujeto de datos** toda persona viva cuyos datos personales se recopilen, utilicen o compartan y que pueda identificarse, directa o indirectamente, por referencia a dichos datos personales.
@@ -98,12 +98,12 @@ Adobe Campaign le permite recopilar datos, incluida la información personal y c
 
 ## Administración de la privacidad {#privacy-management}
 
-La administración de la privacidad se refiere a todos los procesos y herramientas que pueden ayudarle a cumplir con las regulaciones de privacidad (RGPD, CCPA, etc.). Obtenga información general sobre qué es la administración de la privacidad en [esta página](https://helpx.adobe.com/es/campaign/kb/campaign-privacy-overview.html).
+La administración de la privacidad se refiere a todos los procesos y herramientas que pueden ayudarle a cumplir con las regulaciones de privacidad (RGPD, CCPA, etc.). Get an overview of what Privacy management is on [this page](../../start/using/privacy-management.md).
 
 Adobe Campaign le ofrece varios conjuntos de funciones dedicadas a la administración de la privacidad:
 * administración de consentimiento, retención de datos y funciones de usuario. Consulte [esta sección](#consent).
 * Solicitudes de privacidad (derecho de acceso y derecho a ser olvidado). Consulte [esta sección](#privacy-requests).
-* Exclusión para la venta de información personal (específica de la CCPA). Consulte [esta sección](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ccpa).
+* Exclusión para la venta de información personal (específica de la CCPA). Consulte [esta sección](https://helpx.adobe.com/es/campaign/kb/acs-privacy.html#ccpa).
 
 Las principales funcionalidades de privacidad en Campaign y un ejemplo de las personas implicadas se presentan en [esta sección](https://helpx.adobe.com/es/campaign/kb/campaign-privacy-more.html#gdprpersonasandflow).
 
@@ -116,7 +116,7 @@ En principio, Adobe Campaign ofrece funcionalidades importantes que son esencial
 * **Retención de datos**: Todas las tablas de registro estándar incorporadas tienen períodos de retención preestablecidos, lo que generalmente limita su almacenamiento de datos a 6 meses o menos. Se pueden configurar períodos de retención adicionales con flujos de trabajo. Para obtener más información, póngase en contacto con los consultores o administradores técnicos de Adobe.
 * **Administración de derechos**: Adobe Campaign permite administrar los derechos asignados a los distintos operadores de campaña a través de diferentes funciones generadas previamente o personalizadas. Esto le permite administrar qué persona de su compañía puede acceder, modificar o exportar diferentes tipos de datos. Para obtener más información sobre esto, consulte [Acerca de la administración de acceso](../../administration/using/about-access-management.md).
 
-Para obtener más información sobre estas funciones y cómo administrarlas en Adobe Campaign, consulte [esta página](https://helpx.adobe.com/es/campaign/kb/campaign-privacy-overview.html#consent).
+For more on these features and how to manage them in Adobe Campaign, see [this section](../../start/using/privacy-management.md#consent-retention-roles).
 
 ### Solicitudes de privacidad {#privacy-requests}
 
@@ -128,7 +128,7 @@ Adobe Campaign proporciona funciones adicionales que le ayudan a facilitar su pr
 
 >[!NOTE]
 >
->Este conjunto de herramientas está disponible para ayudarle con la conformidad de privacidad de GDPR, CCPA y PDPA. Para obtener más información sobre estas diferentes regulaciones, consulte [esta página](https://helpx.adobe.com/es/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
+>Este conjunto de herramientas está disponible para ayudarle con la conformidad de privacidad de GDPR, CCPA y PDPA. For more on these different regulations, see [this section](../../start/using/privacy-management.md#privacy-management-regulations).
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 
@@ -140,7 +140,7 @@ Las solicitudes de **acceso** y **eliminación** se presentan en [esta página](
 
 ## Capacidades de seguimiento {#tracking-capabilities}
 
-Gracias a sus funciones de seguimiento, Adobe Campaign le permite rastrear el comportamiento de sus destinatarios de envío mediante cookies de sesión y cookies permanentes. For more on tracking, see [this page](../../sending/using/tracking-messages.md).
+Gracias a sus funciones de seguimiento, Adobe Campaign le permite rastrear el comportamiento de sus destinatarios de envío mediante cookies de sesión y cookies permanentes. For more on tracking, see [this section](../../sending/using/tracking-messages.md).
 
 >[!NOTE]
 >
