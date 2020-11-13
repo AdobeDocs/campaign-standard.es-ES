@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 66417375168a9e4cbecdba71b1dcd94e844589c2
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 5%
@@ -57,8 +57,11 @@ La ingestión inmediata de una asignación XDM en Adobe Experience Platform se a
 >
 >Para ejecutar una llamada de API de POST de ingesta, el usuario debe tener una función de ejecución **de función** SQL, que puede proporcionar un administrador Campaign Standard mediante la ejecución de la siguiente secuencia de comandos de JS:
 >
->`var sqlRoleObj = REST.head.roleBase.sql.get();
-REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);`
+>
+```
+>var sqlRoleObj = REST.head.roleBase.sql.get();
+>REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
+>```
 
 La operación POST devuelve información sobre el estado de la solicitud creada:
 
@@ -105,7 +108,8 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 ```
 
 >[!NOTE]
-La información detallada sobre el estado de la solicitud de asignación XDM y sus trabajos relacionados está disponible en la interfaz de Campaign Standard, en el **[!UICONTROL Status of data export to platform]** menú (consulte activación [de](../../developing/using/aep-mapping-activation.md)asignación).
+>
+>La información detallada sobre el estado de la solicitud de asignación XDM y sus trabajos relacionados está disponible en la interfaz de Campaign Standard, en el **[!UICONTROL Status of data export to platform]** menú (consulte activación [de](../../developing/using/aep-mapping-activation.md)asignación).
 
 La operación de GET devuelve la información siguiente:
 
