@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 translation-type: tm+mt
-source-git-commit: 7f0af4deeaf641e2aded9278b97eb498edd85d08
+source-git-commit: 2dc4ac62e3b10753f7b8681d86cfe7f3b3a30a20
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 39%
+source-wordcount: '928'
+ht-degree: 38%
 
 ---
 
@@ -49,7 +49,7 @@ Para ayudarle a facilitar su preparación para la privacidad, Adobe Campaign le 
 
 * Also known as Data Erasure, the **Right to be Forgotten** (delete request) entitles the Data Subject to have the Data Controller erase his/her personal data, cease further dissemination of the data, and potentially have third parties halt processing of the data.
 
-Para obtener información sobre cómo crear solicitudes **de acceso** y **eliminación** y cómo procesarlas, consulte los pasos [de](https://helpx.adobe.com/es/campaign/kb/acs-privacy.html)implementación.
+Para obtener información sobre cómo crear solicitudes **de acceso** y **eliminación** y cómo procesarlas, consulte los pasos [de](../../start/using/privacy-requests.md#about-privacy-requests)implementación.
 
 Tutorials on Privacy management in Campaign Standard are also available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=en#privacy).
 
@@ -71,7 +71,7 @@ Las funciones que ayudan a administrar algunos aspectos del consentimiento han s
 
 Para obtener más información sobre la administración de consentimientos, consulte [Acerca de las suscripciones](../../audiences/using/about-subscriptions.md) y [Introducción a las páginas de aterrizaje](../../channels/using/getting-started-with-landing-pages.md).
 
-Además de las herramientas de Gestión de Consentimiento proporcionadas por Adobe Campaign, usted tiene la posibilidad de rastrear si un consumidor ha optado por la venta de Información Personal. Consulte [esta sección](https://helpx.adobe.com/es/campaign/kb/acs-privacy.html#ccpa).
+Además de las herramientas de Gestión de Consentimiento proporcionadas por Adobe Campaign, usted tiene la posibilidad de rastrear si un consumidor ha optado por la venta de Información Personal. Consulte [esta sección](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
 
 ### Retención de datos {#data-retention}
 
