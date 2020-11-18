@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 9240686a36146b45de6dfd07fc50a71fab663001
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 3%
+source-wordcount: '148'
+ht-degree: 4%
 
 ---
 
@@ -31,7 +31,7 @@ El estado de exclusión de CCPA de un perfil se puede supervisar y administrar u
 >
 >El atributo de exclusión de CCPA solo está disponible a partir de la versión 19.4. Para los entornos 19.3, debe ampliar el recurso Perfiles y agregar un campo booleano. Este campo se agregará a la API con la etiqueta seleccionada. Le sugerimos que utilice &quot;Opción de exclusión para CCPA&quot;.
 >
->For more on this, refer to the [Privacy management documentation](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ccpa).
+>Para obtener más información sobre esto, consulte la documentación [de](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa)Administración de solicitudes de privacidad.
 
 <br/>
 
