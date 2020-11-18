@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Centro de ayuda de Adobe Campaign Standard
 breadcrumb-title: Guía del Campaign Standard
 translation-type: tm+mt
-source-git-commit: 424123972ae189d15a2282b6065190dac4a89d5d
+source-git-commit: fe3e9e17993846f8f8c5b4afbab6ad8e348c33ed
 workflow-type: tm+mt
-source-wordcount: '1658'
+source-wordcount: '1660'
 ht-degree: 100%
 
 ---
@@ -31,6 +31,7 @@ ht-degree: 100%
    + Privacidad {#privacy}
       + [Privacidad y consentimiento](start/using/privacy.md)
       + [Administración de la privacidad](start/using/privacy-management.md)
+      + [Solicitudes de privacidad](start/using/privacy-requests.md)
    + Descubrimiento de la interfaz {#discovering-the-interface}
       + [Acerca de la interfaz](start/using/about-the-interface.md)
       + [Descripción de la interfaz](start/using/interface-description.md)
