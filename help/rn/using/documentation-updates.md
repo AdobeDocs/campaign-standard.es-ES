@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 translation-type: tm+mt
-source-git-commit: 5667b18dfc9bceb52765d98d3c842d9aad1bc004
+source-git-commit: 18cd7a2956a16972b41a797e580cc68ac76abdc8
 workflow-type: tm+mt
-source-wordcount: '6235'
+source-wordcount: '6239'
 ht-degree: 98%
 
 ---
@@ -24,7 +24,7 @@ Además de las [Notas de la versión](../../rn/using/release-notes.md) de Adobe 
 
 ## Noviembre de 2020 {#doc-updates-november-2020}
 
-La sección Privacidad se ha movido y enriquecido con una nueva página: [Administración](../../start/using/privacy-management.md)de privacidad.
+La sección Privacidad se ha movido y enriquecido con dos páginas nuevas: [Administración](../../start/using/privacy-management.md) de privacidad y [Administración de solicitudes](../../start/using/privacy-requests.md)de privacidad.
 
 ## Versión 20.4: octubre de 2020 {#release-20-4---october-2020}
 
