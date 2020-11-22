@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Personalización de un correo electrónico con datos adicionales
 description: Este caso de uso muestra cómo agregar diferentes tipos de datos adicionales a una consulta y utilizarlos como campo de personalización en un mensaje de correo electrónico.
-page-status-flag: never-activated
-uuid: b3c629fa-370e-481c-b347-fcf9f5a5e847
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 8d46ce28-0101-4f13-865a-2208ed6d6139
 context-tags: query,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 86%
