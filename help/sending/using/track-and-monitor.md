@@ -1,20 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Mensajes de seguimiento y monitorización
-seo-title: Mensajes de seguimiento y monitorización
-page-status-flag: never-activated
-uuid: a540efc7-105d-4c7f-a2ee-ade4d22b3445
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: a7300666587362048431d0bafacc317170b317aa
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 44%
+source-wordcount: '410'
+ht-degree: 43%
 
 ---
 
@@ -23,7 +19,7 @@ ht-degree: 44%
 
 ¿Ha hecho clic en el botón Enviar? Veamos qué pasa. Una vez entregado el envío, Adobe Campaign le permite realizar un seguimiento de los mensajes enviados y descubrir cómo reaccionan sus destinatarios al envío. Esto le ayudará a mejorar los envíos futuros y a optimizar sus próximas campañas.
 
-## Seguimiento de envíos {#monitoring-deliveries}
+## Seguimiento de entregas {#monitoring-deliveries}
 
 Para controlar sus campañas, debe asegurarse de que el mensaje se haya enviado a sus destinatarios.
 
