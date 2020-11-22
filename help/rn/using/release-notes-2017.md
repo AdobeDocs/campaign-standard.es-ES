@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Notas de la versión 2017
 description: Esta página enumera todas las versiones de 2017 de Adobe Campaign Standard.
-page-status-flag: never-activated
-uuid: d73f8186-e309-441b-969d-71d0a1c33cf4
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '4627'
 ht-degree: 8%
@@ -270,7 +267,7 @@ _Flujos de trabajo_
    <td> Rompa la barrera digital y conéctese al mundo físico con el primer canal sin conexión de Adobe Campaign Standard, el Correo postal. Esta función le permite personalizar y generar el archivo requerido por los proveedores de correo directo como parte de sus campañas entre canales. Aproveche el Correo postal para volver a atraer clientes o para mejorar la experiencia del cliente con un atractivo punto de contacto táctil que conduce a los clientes a su aplicación, sitio web o tienda.<br /> Para obtener más información, consulte la <a href="../../channels/using/about-direct-mail.md">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Email BCC<br /> </td> 
+   <td> Correo electrónico CCO<br /> </td> 
    <td> Email BCC permite guardar mensajes de correo electrónico únicos enviados a destinatarios individuales, permitiendo así que la marca archive esos mensajes. Al agregar una dirección de correo electrónico CCO a todos los correos electrónicos, los clientes de Adobe Campaign Standard pueden mantener una copia exacta de cada correo electrónico con esta función. Se trata de un requisito jurídico común para el sector de los servicios financieros y ayuda a los centros de atención al cliente a resolver conflictos en tiempo real.<br /> Para obtener más información, consulte la <a href="../../sending/using/archiving.md">documentación detallada</a>.<br /> </td> 
   </tr> 
  </tbody> 
