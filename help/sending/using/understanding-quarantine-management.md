@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Comprensión de la gestión de la cuarentena
 description: Aprenda a optimizar la capacidad de entrega con la gestión de la cuarentena.
-page-status-flag: never-activated
-uuid: 3c287865-1ada-4351-b205-51807ff9f7ed
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-discoiquuid: de3a50b6-ea8f-4521-996b-c49cc1f3c946
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 82%
+ht-degree: 84%
 
 ---
 
@@ -30,13 +27,13 @@ En cualquier caso, el procedimiento de cuarentena satisface las reglas específi
 
 Los perfiles cuyas direcciones de correo electrónico o número de teléfono están en cuarentena se excluyen automáticamente durante la preparación del mensaje (consulte [Identificación de direcciones en cuarentena para una entrega](#identifying-quarantined-addresses-for-a-delivery)). Esto acelera las entregas, ya que la tasa de error afecta significativamente a la velocidad de entrega.
 
-Algunos proveedores de acceso a Internet consideran automáticamente los correos electrónicos como no deseados si la tasa de direcciones no válidas es demasiado alta. Por lo tanto, la cuarentena le permite evitar que estos proveedores le agreguen a lista de bloqueados.
+Algunos proveedores de acceso a Internet consideran automáticamente los correos electrónicos como no deseados si la tasa de direcciones no válidas es demasiado alta. Por lo tanto, la cuarentena le permite evitar ser incluido en la lista de bloqueados de bloqueados por estos proveedores.
 
 Además, la cuarentena reduce el coste de entrega de los SMS mediante la exclusión en las entregas de los números de teléfono incorrectos.
 
 Para obtener más información sobre las prácticas recomendadas para proteger y optimizar las entregas, consulte [esta página](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html).
 
-### Cuarentena vs. Lista de bloqueados {#quarantine-vs-denylist}
+### Quarantine vs Denylist {#quarantine-vs-denylist}
 
 La **cuarentena** solo se aplica a una dirección, no al propio perfil. Esto significa que, si dos perfiles tienen la misma dirección de correo electrónico, ambos se ven afectados si la dirección está en cuarentena.
 
