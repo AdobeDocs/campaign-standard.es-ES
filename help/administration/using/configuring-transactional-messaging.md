@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Configuración de la mensajería transaccional
 description: Obtenga información sobre cómo configurar los mensajes transaccionales.
-page-status-flag: never-activated
-uuid: 4caeadbe-f4a7-43ce-986d-e99fa9ca0d0d
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '3169'
 ht-degree: 7%
@@ -84,7 +81,7 @@ Puede agregar al contenido del evento una colección de elementos, cada elemento
 
 Esta colección se puede utilizar en un correo electrónico transaccional para agregar listados [de](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message) productos al contenido del mensaje, por ejemplo, una lista de productos con el precio, el número de referencia, la cantidad, etc. para cada producto de la lista.
 
-1. In the **[!UICONTROL Collections]** section, click the **[!UICONTROL Create element]** button.
+1. En la **[!UICONTROL Collections]** sección, haga clic en el **[!UICONTROL Create element]** botón .
 
    ![](assets/message-center_collection_create.png)
 
@@ -124,7 +121,7 @@ Esta información también se puede almacenar en nuevos recursos. En ese caso, e
 
 Para obtener más información sobre la creación y publicación de recursos, consulte [esta página](../../developing/using/key-steps-to-add-a-resource.md).
 
-1. In the **[!UICONTROL Enrichment]** section, click the **[!UICONTROL Create element]** button.
+1. En la **[!UICONTROL Enrichment]** sección, haga clic en el **[!UICONTROL Create element]** botón .
 
    ![](assets/message-center_addenrichment.png)
 
