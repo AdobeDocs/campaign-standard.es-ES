@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Acerca de la capacidad de entrega en Adobe Campaign Standard
 description: Conozca los conceptos y las prácticas recomendadas relacionados con la capacidad de entrega, así como las herramientas ofrecidas por Adobe Campaign Standard para optimizar el envío de envíos.
-page-status-flag: never-activated
-uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 82%
@@ -55,7 +52,7 @@ En primer lugar, el inicio consultando la documentación sobre las herramientas 
 * [Recibir alertas cuando se produzcan errores](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Comprensión de los errores de entrega](../../sending/using/understanding-delivery-failures.md)
 * [Comprensión de la gestión de la cuarentena](../../sending/using/understanding-quarantine-management.md)
-* [Cuarentena vs. lista de bloqueados](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
+* [Cuarentena frente a lista de bloqueados](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
 * [Informes dinámicos](../../reporting/using/about-dynamic-reports.md)
 
 ## Comprobación de la configuración de red {#network-configuration}
