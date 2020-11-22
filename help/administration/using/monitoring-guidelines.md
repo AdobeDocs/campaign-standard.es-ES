@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Directrices de monitorización
 description: Esta sección presenta las directrices generales para la monitorización del Campaign Standard.
-page-status-flag: never-activated
-uuid: cf0d782d-47bf-40ae-ab6f-d1d47fa15792
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: introduction
-discoiquuid: 8b33e6af-15c3-4b30-8ad6-d76a1f33be21
 index: y
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 9%
@@ -65,7 +62,7 @@ Campaign Standard proporciona varias formas de monitorear las instancias para as
 **El**Campaign Standard de notificaciones le permite enviar notificaciones a los supervisores para supervisar la ejecución de sus flujos de trabajo y ver si hay algún error que requiera su atención.
 [Más información](../../automating/using/monitoring-workflow-execution.md#error-management)
 
-## Seguimiento de envíos {#monitoring-deliveries}
+## Seguimiento de entregas {#monitoring-deliveries}
 
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
