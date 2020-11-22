@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Configuración de reglas de Adobe Experience Platform Launch para admitir casos de uso de Adobe Campaign Standard
 description: Configuración de reglas de Adobe Experience Platform Launch para admitir casos de uso de Adobe Campaign Standard
-page-status-flag: never-activated
-uuid: 961aaeb5-6948-4fd2-b8d7-de4510c10566
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: push-notifications
-discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '914'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -51,7 +48,7 @@ Para crear estos elementos de datos:
 
 1. En el **[!UICONTROL Name]** campo, por ejemplo, escriba **mcid**.
 
-1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. A continuación, **[!UICONTROL Experience Cloud ID]** en la lista desplegable **[!UICONTROL Data element]** de tipos.
+1. Del desplegable **[!UICONTROL Extension]**, seleccione **[!UICONTROL Mobile Core]**. A continuación, **[!UICONTROL Experience Cloud ID]** en la lista desplegable **[!UICONTROL Data element]** de tipos.
 
    ![](assets/do-not-localize/rules_1.png)
 
@@ -59,13 +56,13 @@ Para crear estos elementos de datos:
 
 1. En el **[!UICONTROL Name]** campo, por ejemplo, escriba **pkey**.
 
-1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Adobe Campaign Standard]**. A continuación, **[!UICONTROL pkey]** en la lista desplegable **[!UICONTROL Data element]** de tipos.
+1. Del desplegable **[!UICONTROL Extension]**, seleccione **[!UICONTROL Adobe Campaign Standard]**. A continuación, **[!UICONTROL pkey]** en la lista desplegable **[!UICONTROL Data element]** de tipos.
 
 1. Para crear el elemento de datos del servidor de Campaña, haga clic en **[!UICONTROL Add data element]**.
 
 1. En el **[!UICONTROL Name]** campo, escriba un nombre, por ejemplo, **camp-server**.
 
-1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Adobe Campaign Standard]**. A continuación, **[!UICONTROL Campaign Server]** en la lista desplegable **[!UICONTROL Data element]** de tipos.
+1. Del desplegable **[!UICONTROL Extension]**, seleccione **[!UICONTROL Adobe Campaign Standard]**. A continuación, **[!UICONTROL Campaign Server]** en la lista desplegable **[!UICONTROL Data element]** de tipos.
 
 ## Creación de reglas {#creating-rules}
 
@@ -90,13 +87,13 @@ Para enviar datos PII a [!DNL Adobe Campaign Standard], cree una regla en [!DNL 
 
 1. In the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
 
-1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. Then, **[!UICONTROL Collect PII]** in the **[!UICONTROL Event type]** drop-down.
+1. Del desplegable **[!UICONTROL Extension]**, seleccione **[!UICONTROL Mobile Core]**. Then, **[!UICONTROL Collect PII]** in the **[!UICONTROL Event type]** drop-down.
 
 1. Haga clic en **[!UICONTROL Keep changes]**.
 
 1. In the **[!UICONTROL Actions]** section, click **[!UICONTROL Add]**.
 
-1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. Then, **[!UICONTROL Send PII]** in the **[!UICONTROL Action type]** drop-down.
+1. Del desplegable **[!UICONTROL Extension]**, seleccione **[!UICONTROL Mobile Core]**. Then, **[!UICONTROL Send PII]** in the **[!UICONTROL Action type]** drop-down.
 
 1. En **[!UICONTROL URL]**, introduzca la siguiente URL:
 
@@ -155,13 +152,13 @@ Para enviar datos de seguimiento a [!DNL Adobe Campaign Standard] para obtener s
 
 1. In the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
 
-1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Adobe Campaign Standard]**. Then, **[!UICONTROL In-App click tracking]** in the **[!UICONTROL Event type]** drop-down.
+1. Del desplegable **[!UICONTROL Extension]**, seleccione **[!UICONTROL Adobe Campaign Standard]**. Then, **[!UICONTROL In-App click tracking]** in the **[!UICONTROL Event type]** drop-down.
 
 1. Haga clic en **[!UICONTROL Keep changes]**.
 
 1. In the **[!UICONTROL Actions]** section, click **[!UICONTROL Add]**.
 
-1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. Then, **[!UICONTROL Send postback]** in the **[!UICONTROL Event type]** drop-down.
+1. Del desplegable **[!UICONTROL Extension]**, seleccione **[!UICONTROL Mobile Core]**. Then, **[!UICONTROL Send postback]** in the **[!UICONTROL Event type]** drop-down.
 
 1. En **[!UICONTROL URL]**, escriba la siguiente dirección URL:
 
@@ -193,13 +190,13 @@ Para realizar el seguimiento de las acciones de la aplicación, utilice la API t
 
 1. In the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
 
-1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. Then, **[!UICONTROL Track Action]** in the **[!UICONTROL Event type]** drop-down.
+1. Del desplegable **[!UICONTROL Extension]**, seleccione **[!UICONTROL Mobile Core]**. Then, **[!UICONTROL Track Action]** in the **[!UICONTROL Event type]** drop-down.
 
 1. En la **[!UICONTROL Action]** lista desplegable, seleccione **[!UICONTROL Action]**, seleccione **[!UICONTROL equals]** y escriba **seguimiento**.
 
 1. Haga clic en **[!UICONTROL Keep changes]**. Then, in the **[!UICONTROL Actions]** section, click **[!UICONTROL Add]**.
 
-1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. Then, **[!UICONTROL Send postback]** in the **[!UICONTROL Action type]** drop-down.
+1. Del desplegable **[!UICONTROL Extension]**, seleccione **[!UICONTROL Mobile Core]**. Then, **[!UICONTROL Send postback]** in the **[!UICONTROL Action type]** drop-down.
 
 1. En **[!UICONTROL URL]**, introduzca la siguiente URL:
 
@@ -229,7 +226,7 @@ Para realizar el seguimiento de las acciones de la aplicación, utilice la API t
 
 1. In the **[!UICONTROL Actions]** section, click **[!UICONTROL Add]**.
 
-1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. A continuación, **[!UICONTROL Send postback]** en la **[!UICONTROL Action type]** lista desplegable.
+1. Del desplegable **[!UICONTROL Extension]**, seleccione **[!UICONTROL Mobile Core]**. A continuación, **[!UICONTROL Send postback]** en la **[!UICONTROL Action type]** lista desplegable.
 
 1. Escriba un nombre, por ejemplo **Mobile Core - Enviar postback** de ubicación.
 
