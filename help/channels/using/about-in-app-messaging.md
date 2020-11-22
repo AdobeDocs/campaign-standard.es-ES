@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Acerca de la mensajería en la aplicación
 description: Mostrar mensaje o alerta dentro de la aplicación móvil con mensajería en la aplicación.
-page-status-flag: never-activated
-uuid: 6784cdfc-6db9-41dd-9fbb-2e756a5bcb5f
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: in-app-messaging
-discoiquuid: a4168cfb-22bf-4ab3-b9d8-6e76e1bdc055
 context-tags: delivery,triggers,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 29%
@@ -51,7 +48,7 @@ Para empezar a enviar mensajes en la aplicación en aplicaciones móviles que ut
 
 Consulte los siguientes recursos:
 
-* [Tutorials de vídeo](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html)
+* [Tutoriales en vídeo](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html)
 * [Entrada de blog](https://theblog.adobe.com/get-more-out-of-the-new-in-app-message-channel-from-adobe-campaign/)
 * [Página de comunidad](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
