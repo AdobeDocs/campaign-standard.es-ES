@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Solución de problemas de capacidad de entrega en Adobe Campaign Standard
 description: Aprenda qué hacer cuando experimente problemas de entrega con Adobe Campaign Standard.
-page-status-flag: never-activated
-uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '459'
-ht-degree: 54%
+ht-degree: 64%
 
 ---
 
@@ -34,7 +31,7 @@ Si siempre recibe el mismo mensaje de error para un ISP, es posible que el ISP h
 
 Si el problema persiste, póngase en contacto con los servicios comerciales o de entrega o con el servicio de asistencia de Adobe Campaign.
 
-## lista de bloqueados frente a cuarentena {#denylist-versus-quarantine}
+## Lista de bloqueados frente a cuarentena {#denylist-versus-quarantine}
 
 * **¿Cuál es la diferencia entre una dirección de correo electrónico en lista de bloqueados y una dirección de correo electrónico en cuarentena?**
 
@@ -49,7 +46,7 @@ Si el problema persiste, póngase en contacto con los servicios comerciales o de
 
    Para obtener más información, consulte [Comprensión de la administración de cuarentena](../../sending/using/understanding-quarantine-management.md).
 
-## Quitar de lista de bloqueados {#removing-from-denylist}
+## Eliminación de la lista de bloqueados {#removing-from-denylist}
 
 * **Uno de mis destinatarios fue agregado a la  de lista de bloqueados por error. How do I remove them from the denylist so that I can start sending them messages again?**
 
@@ -57,17 +54,17 @@ Si el problema persiste, póngase en contacto con los servicios comerciales o de
    * En los detalles del registro correspondiente, establezca el valor del campo **[!UICONTROL Status]** en **[!UICONTROL Valid]**.
    * Guarde el registro.
 
-* **¿Cómo puedo saber si una de mis IP está en  lista de bloqueados? ¿Cómo elimino mis IP de una  de lista de bloqueados?**
+* **¿Cómo puedo saber si una de mis IP está en  lista de bloqueados? ¿Cómo elimino mis IP de una lista de bloqueados?**
 
    Para comprobar si su dirección IP está en lista de bloqueados, puede utilizar varios sitios Web para verificarla, como:
-   * [Cuadro de herramientas MX](https://mxtoolbox.com/)
+   * [MX Toolbox](https://mxtoolbox.com/)
    * [¿Cuál es mi dirección IP?](https://whatismyipaddress.com)
 
    Generalmente, el resultado de la comprobación de la dirección IP devolverá una lista que contiene detalles de la  de lista de bloqueados y también el nombre del sitio web que bloqueó la dirección IP.
 
    Al hacer clic en el enlace correspondiente, puede acceder a los detalles del sitio web.
 
-   A continuación, puede solicitar que el sitio web se elimine del sitio web que agregó la dirección IP a su  de lista de bloqueados.
+   Puede solicitar que su sitio web se elimine de la lista del sitio web que añadió la dirección IP a su lista de bloqueados.
 
    >[!NOTE]
    >
