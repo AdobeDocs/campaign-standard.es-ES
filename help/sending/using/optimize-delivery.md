@@ -1,20 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Optimización del envío de mensajes
-seo-title: Optimización del envío de mensajes
-page-status-flag: never-activated
-uuid: a540efc7-105d-4c7f-a2ee-ade4d22b3445
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: a7300666587362048431d0bafacc317170b317aa
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 82%
+source-wordcount: '732'
+ht-degree: 87%
 
 ---
 
@@ -63,7 +59,7 @@ Para llegar a la bandeja de entrada de sus destinatarios sin rebotar ni ser marc
 
 Le conviene mantener buenos procesos de gestión de cuarentenas.
 
-Al comenzar a enviar correos electrónicos en una nueva plataforma, puede utilizar una lista de direcciones que no esté totalmente confirmada. Si realiza envíos a direcciones no válidas o a direcciones honeypot (bandejas de entrada creadas únicamente para engañar a remitentes de correo electrónico no deseado), la reputación de su plataforma comenzará a reducirse. Los buenos procesos de administración de cuarentenas ayudan a: mantenga la calidad de la dirección, evite la lista de bloqueados por parte de los proveedores de acceso a Internet y reduzca la tasa de errores, acelerando los envíos y el rendimiento.
+Al comenzar a enviar correos electrónicos en una nueva plataforma, puede utilizar una lista de direcciones que no esté totalmente confirmada. Si realiza envíos a direcciones no válidas o a direcciones honeypot (bandejas de entrada creadas únicamente para engañar a remitentes de correo electrónico no deseado), la reputación de su plataforma comenzará a reducirse. Unos procesos de administración de cuarentena adecuados ayudan a mantener la calidad de la dirección, evitar la lista de bloqueados de los proveedores de acceso a internet, y reducir la tasa de errores para acelerar los envíos y el rendimiento.
 
 **Sugerencias**
 
@@ -71,7 +67,7 @@ Al comenzar a enviar correos electrónicos en una nueva plataforma, puede utiliz
 
 * Adobe Campaign administra las direcciones erróneas según el tipo de error devuelto. Para obtener más información, consulte [esta sección](../../sending/using/understanding-quarantine-management.md).
 
-* Algunos proveedores de acceso a Internet consideran automáticamente los correos electrónicos como no deseados si la tasa de direcciones no válidas es demasiado alta. Por lo tanto, la cuarentena le permite evitar que estos proveedores le agreguen a lista de bloqueados.
+* Algunos proveedores de acceso a Internet consideran automáticamente los correos electrónicos como no deseados si la tasa de direcciones no válidas es demasiado alta. Por lo tanto, la cuarentena le permite evitar ser incluido en la lista de bloqueados de bloqueados por estos proveedores.
 
 * Además, la gestión de cuarentenas ayuda a reducir el coste de envío de SMS mediante la exclusión en los envíos de los números de teléfono incorrectos.
 
