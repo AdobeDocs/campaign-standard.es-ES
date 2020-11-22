@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Notas de la versión 2018
 description: Esta página enumera todas las versiones de 2018 de Adobe Campaign Standard.
-page-status-flag: never-activated
-uuid: 99f92a54-4b3d-48b9-b08d-e98b24e75f62
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '5400'
 ht-degree: 10%
@@ -128,7 +125,7 @@ Vista de las últimas actualizaciones [de](../../rn/using/documentation-updates.
 
 **Mejoras**
 
-* La integración de Adobe Campaign y Adobe Target ahora le permite aprovechar la función [Permisos](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/properties-overview.html) de Destinatario. Al incluir una imagen dinámica de Adobe Target en un mensaje de correo electrónico, ahora puede especificar una propiedad de Destinatario (código at_property).
+* La integración de Adobe Campaign y Adobe Target ahora le permite aprovechar la función [Permisos](https://docs.adobe.com/content/help/es-ES/target/using/administer/manage-users/enterprise/properties-overview.html) de Destinatario. Al incluir una imagen dinámica de Adobe Target en un mensaje de correo electrónico, ahora puede especificar una propiedad de Destinatario (código at_property).
 * Las solicitudes de acceso o eliminación de privacidad del RGPD tienen ahora en cuenta los recursos personalizados que tienen un vínculo de descarga al recurso de perfiles. Para los vínculos simples de cardinalidad 1 y los vínculos de recopilación de cardinalidad N, debe seleccionar &quot;Eliminar/duplicar el registro de destinatario implica eliminar/duplicar los registros a los que hace referencia el vínculo&quot; en el recurso personalizado. Para los vínculos simples de cardinalidad 0 o 1, seleccione &quot;Eliminar o duplicar el registro implica eliminar o duplicar el registro de destinatario al que hace referencia el vínculo&quot;.
 
 **Otros cambios**
@@ -233,10 +230,10 @@ Vista de las últimas actualizaciones [de](../../rn/using/documentation-updates.
 
 **Otros cambios**
 
-* La actividad de flujo de trabajo Leer Audiencia ahora puede leer audiencias de Experience Cloud. Anteriormente, esta actividad solo podía leer audiencias de Consulta y Lista. Consulte la documentación [detallada](../../automating/using/read-audience.md). (CAMP-23623)
+* La actividad de flujo de trabajo Leer Audiencia ahora puede leer audiencias de Experience Cloud. Anteriormente, esta actividad solo podía leer audiencias de Consulta y Lista. Refer to the [detailed documentation](../../automating/using/read-audience.md). (CAMP-23623)
 * El identificador de la fuente de datos compartida predeterminada está ahora en modo de solo lectura y ya no se puede cambiar. Cambiar este identificador podría provocar algunos problemas al compartir audiencias con el Experience Cloud.
 * La importación de audiencias desde el Gestor de colaboradores ahora funciona con archivos divididos. Anteriormente, el último archivo del segmento se importó mediante el flujo de trabajo técnico Importar audiencia compartida.
-* Las cuentas externas AWS S3 ahora admiten regiones y el mecanismo de autenticación de la versión 4. Consulte la documentación [detallada](../../administration/using/external-accounts.md).
+* Las cuentas externas AWS S3 ahora admiten regiones y el mecanismo de autenticación de la versión 4. Refer to the [detailed documentation](../../administration/using/external-accounts.md).
 * La ventana de selección de recursos ahora debe cargarse más rápido y permitir seleccionar un recurso y salir de la ventana sin ningún problema.
 * Las propiedades y la estructura de los flujos de trabajo técnicos ahora pueden ser modificadas por usuarios con derechos de administración y pertenecientes a las unidades organizativas y geográficas &quot;Todos&quot;.
 * Se han realizado mejoras en la interfaz de actividad de segmentación al crear nuevos segmentos: La ficha Limitación ahora aparece directamente después de agregar una limitación. Los nombres de los nuevos segmentos ahora se incrementan (&quot;Segmento 1&quot;, &quot;Segmento 2&quot;, etc.).
@@ -328,7 +325,7 @@ _Recursos personalizados_
    <td> Use of Custom Resources in Transactional Messaging<br /> </td> 
    <td> Además de los campos predeterminados, la mensajería transaccional ahora permite utilizar recursos personalizados para enriquecer el contenido de los mensajes.<br /> Por ejemplo:<br /> 
     <ul> 
-     <li> Aproveche los campos personalizados como criterios de reconciliación para que coincidan con un mensaje transaccional en un perfil </li> 
+     <li> Aproveche los campos personalizados como criterios de reconciliación para que un mensaje transaccional coincida con un perfil </li> 
      <li> Aproveche todos los perfiles, servicios y datos vinculados para personalizar aún más los mensajes transaccionales </li> 
     </ul> Para obtener más información, consulte la <a href="../../administration/using/configuring-transactional-messaging.md">documentación detallada</a>.<br /> </td> 
   </tr> 
