@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Guardar audiencia
 description: La actividad Guardar audiencia le permite actualizar una audiencia existente o crear una nueva a partir de la población calculada en sentido ascendente en un flujo de trabajo.
-page-status-flag: never-activated
-uuid: 8babb173-fa59-44a7-a2a5-49f45ba6bf99
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 1f6bb048-7abd-499b-a4b0-187f9492dc47
 context-tags: saveAudience,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 100%
@@ -67,7 +64,6 @@ La actividad **[!UICONTROL Save audience]** se utiliza esencialmente para manten
       >[!NOTE]
       >
       >Esta opción solo está disponible si el administrador ha configurado la funcionalidad de audiencias compartidas con Adobe Experience Cloud. Para obtener más información, consulte [Trabajar con Campaign y el servicio principal People](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
-
    El tipo de audiencias guardadas o disponibles durante una actualización depende de las actividades que se coloquen en el flujo de trabajo.
 
    Si la dimensión de segmentación de la audiencia es desconocida cuando se guarda (por ejemplo, si procede de un archivo importado), la audiencia se crea o se actualiza como una audiencia de tipo **[!UICONTROL File]**.
