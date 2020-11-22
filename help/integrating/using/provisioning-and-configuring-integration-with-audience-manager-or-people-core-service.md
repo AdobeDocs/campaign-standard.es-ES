@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Aprovisionamiento y configuración de la integración con Audience Manager o el servicio principal People
 description: 'Obtenga información sobre cómo configurar la integración de servicios principales Audience Manager/Personas para audiencias o segmentos de uso compartido de inicios con las distintas soluciones de Adobe Experience Cloud. '
-page-status-flag: never-activated
-uuid: e7329644-0033-4729-b4a7-61bef137f4b5
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 translation-type: tm+mt
-source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '726'
-ht-degree: 40%
+ht-degree: 42%
 
 ---
 
@@ -83,7 +80,7 @@ Para ello:
    ![](assets/integration_aam_1.png)
 
 1. Intro **[!UICONTROL Receiver server]** en el siguiente formato
-1. Introduzca **[!UICONTROL AWS Access Key ID]**, **[!UICONTROL Secret Access Key]** y **[!UICONTROL AWS Region]**.
+1. Enter the **[!UICONTROL AWS Access Key ID]**, **[!UICONTROL Secret Access Key]** and **[!UICONTROL AWS Region]**.
 
 Sus cuentas externas ahora están configuradas para esta integración.
 
@@ -96,21 +93,21 @@ Las dos fuentes de datos siguientes se crean dentro del administrador de Audienc
 
 Tenga en cuenta que en el caso de varios sitios web con diferentes dominios, Adobe Campaign no admite la reconciliación basada en ECID.
 
-To configure the **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]** data source:
+Para configurar la fuente de datos **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**:
 
 1. In **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**, select **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**.
 
    ![](assets/integration_aam_2.png)
 
 1. Choose **[!UICONTROL Adobe Campaign]** in the **[!UICONTROL Data Source/ Alias]** drop-down.
-1. Introduzca el valor **[!UICONTROL AAM Destination ID]** proporcionado por el Adobe.
+1. Enter the **[!UICONTROL AAM Destination ID]** provided by Adobe.
 
    ![](assets/integration_aam_3.png)
 
 1. En la **[!UICONTROL Reconciliation process]** categoría, le aconsejamos que no cambie los criterios de reconciliación y que siempre utilice el **[!UICONTROL Visitor ID]**.
 1. Haga clic en **[!UICONTROL Save]**.
 
-Para crear la fuente de **[!UICONTROL Declared ID]** datos:
+To create the **[!UICONTROL Declared ID]** data source:
 
 1. En **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**, haga clic en el **[!UICONTROL Create]** botón.
 1. Edite el **[!UICONTROL Label]** origen de datos.
@@ -131,6 +128,6 @@ Aquí, debe asegurarse de que el servidor de seguimiento de Campaña está regis
 
 ### Paso 4: Configuración del servicio de ID de visitante {#step-4--configure-the-visitor-id-service}
 
-En caso de que el servicio de ID de visitante no se haya configurado en las propiedades web o sitios web, consulte el siguiente [documento](https://docs.adobe.com/content/help/en/id-service/using/implementation/setup-aam-analytics.html) o el siguiente [vídeo](https://helpx.adobe.com/es/marketing-cloud/how-to/email-marketing.html#step-two) para aprender a configurar el servicio.
+En caso de que el servicio de ID de visitante no se haya configurado en las propiedades web o sitios web, consulte el siguiente [documento](https://docs.adobe.com/content/help/es-ES/id-service/using/implementation/setup-aam-analytics.html) o el siguiente [vídeo](https://helpx.adobe.com/es/marketing-cloud/how-to/email-marketing.html#step-two) para aprender a configurar el servicio.
 
 La configuración y el suministro han finalizado, la integración ya puede utilizarse para importar y exportar audiencias o segmentos.
