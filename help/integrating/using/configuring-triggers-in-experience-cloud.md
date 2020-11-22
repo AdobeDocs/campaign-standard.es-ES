@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Configuración de activadores en Experience Cloud
 description: 'Obtenga información sobre cómo configurar la integración de Adobe Experience Cloud Triggers en inicio para enviar envíos personalizados a sus clientes en función de sus comportamientos anteriores. '
-page-status-flag: never-activated
-uuid: 8fd7b804-9528-46a5-a060-bf16b8dc555d
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-discoiquuid: 4163dc0c-8103-4425-b8bf-7aa45c4d3a06
 translation-type: tm+mt
-source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 8%
@@ -96,7 +93,7 @@ El alias al que se hace referencia anteriormente en la DTM debe crearse en el se
 
 Es necesario crear un activador de Adobe Experience Cloud para poder utilizarlo en la Campaña.
 
-Cree un nuevo activador en Experience Cloud y asegúrese de seleccionar el grupo de informes utilizado en el sitio web. Asegúrese de elegir la dimensión correcta para que el activador se active.
+Cree un nuevo activador en Experience Cloud y asegúrese de seleccionar el grupo de informes utilizado en el sitio web. Asegúrese de elegir la dimensión adecuada para que el activador se active.
 
 Consulte la documentación [de](https://docs.adobe.com/content/help/es-ES/core-services/interface/activation/triggers.html) Adobe Experience Cloud y vea este [vídeo](https://helpx.adobe.com/es/marketing-cloud/how-to/email-marketing.html#step-two).
 
