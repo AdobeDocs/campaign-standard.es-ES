@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Configuración del canal de correo electrónico en Adobe Campaign Standard
 description: Obtenga información sobre cómo configurar el canal de correo electrónico en Adobe Campaign Standard.
-page-status-flag: never-activated
-uuid: 9fddb655-b445-41f3-9b02-5d356fc88aa1
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-discoiquuid: 3752d41f-8c59-4fad-b30f-e98e09cd74a8
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '2331'
 ht-degree: 100%
@@ -35,7 +32,7 @@ Tenga en cuenta que algunas configuraciones de correo electrónico ahora son adm
 
 ## Parámetros de canal de correo electrónico {#email-channel-parameters}
 
-La pantalla de configuración de correo electrónico le permite definir los parámetros del canal de correo electrónico. Los administradores pueden acceder a estas configuraciones en el menú **[!UICONTROL Administration]>[!UICONTROL Channels]>[!UICONTROL Email]>[!UICONTROL Configuration]**.
+La pantalla de configuración de correo electrónico le permite definir los parámetros del canal de correo electrónico. Los administradores pueden acceder a estas configuraciones en el menú **[!UICONTROL Administration]> [!UICONTROL Channels] > [!UICONTROL Email] >[!UICONTROL Configuration]**.
 
 ![](assets/channels_1.png)
 
