@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Administración de mensajes transaccionales
 description: Obtenga información sobre cómo administrar mensajes transaccionales con API.
-page-status-flag: never-activated
-uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 1%
@@ -51,7 +48,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
    (Tenga en cuenta que el extremo de la API de mensajes transaccionales también está visible durante la previsualización de la API)
 
-* **&lt;eventID>**: el tipo de evento que desea enviar. Este ID se genera al crear la definición de evento. Consulte la documentación [de la](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html)Campaña.
+* **&lt;eventID>**: el tipo de evento que desea enviar. Este ID se genera al crear la definición de evento. Refer to the [Campaign documentation](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
 
 ### Encabezado de solicitud de POST
 
@@ -70,7 +67,7 @@ Debe agregar un charset, por ejemplo **utf-8**. Tenga en cuenta que este valor d
 
 ### Cuerpo de solicitud de POST
 
-Los datos de evento están contenidos dentro del cuerpo del POST JSON. La estructura del evento depende de su definición. El botón previsualización de API de la pantalla de definición de recursos proporciona un ejemplo de solicitud. Consulte la documentación [de la](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html)Campaña.
+Los datos de evento están contenidos dentro del cuerpo del POST JSON. La estructura del evento depende de su definición. El botón previsualización de API de la pantalla de definición de recursos proporciona un ejemplo de solicitud. Refer to the [Campaign documentation](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
 
 Se pueden añadir los siguientes parámetros opcionales al contenido de evento para gestionar el envío de mensajes transaccionales vinculados al evento:
 
