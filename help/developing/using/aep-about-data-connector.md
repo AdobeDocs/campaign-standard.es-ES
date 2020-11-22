@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Acerca de Adobe Experience Platform Data Connector
 description: Administre esquemas XDM para que los datos del Campaign Standard estén disponibles en Adobe Experience Platform.
-page-status-flag: never-activated
-uuid: 867b1c4b-4c79-4c52-9d0a-ef71993e50a2
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '760'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -61,7 +58,7 @@ Los vídeos de procedimientos también están disponibles en [esta página](http
 
 * El servicio de ID de Experience Cloud (ECID) es un identificador de dispositivo que se envía de forma predeterminada con Eventos de experiencia.
 
-   Es un ID único y persistente asignado a un visitante, que puede utilizar el servicio de identidad de plataforma para identificar el mismo visitante y sus datos en distintas soluciones de Experience Cloud. Para obtener más información sobre esto, consulte la Ayuda [del servicio de identidad de](https://docs.adobe.com/content/help/en/id-service/using/home.html)Experience Cloud.
+   Es un ID único y persistente asignado a un visitante, que puede utilizar el servicio de identidad de plataforma para identificar el mismo visitante y sus datos en distintas soluciones de Experience Cloud. Para obtener más información sobre esto, consulte la Ayuda [del servicio de identidad de](https://docs.adobe.com/content/help/es-ES/id-service/using/home.html)Experience Cloud.
 
    >[!NOTE]
    >
