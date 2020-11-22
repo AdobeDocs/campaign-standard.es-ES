@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Interfaz de flujo de trabajo
 description: Conozca la interfaz y las opciones para crear, editar y ejecutar un flujo de trabajo.
-page-status-flag: never-activated
-uuid: aafe33ed-fa07-4dd9-825e-242099334f1a
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-discoiquuid: 147fbb0d-17d2-444b-a215-9ad14179c549
 context-tags: workflow,main;workflow,overview
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 4%
@@ -122,7 +119,7 @@ Cuando se selecciona una actividad, aparecen botones de acción rápida alrededo
 
 <img height="21px" src="assets/checkdisable.png" /> **[!UICONTROL No execution]**<br/>Deshabilita la actividad.
 
-<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Immediate execution]**<br/>Fuerza el procesamiento inmediato de la selección. Este botón solo está disponible para las actividades<span class="uicontrol">Planificador</span>y<span class="uicontrol">Espera</span>.
+<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Immediate execution]**<br/>Fuerza el procesamiento inmediato de la selección. Este botón solo está disponible para las actividades <span class="uicontrol">Planificador</span> y <span class="uicontrol">Espera</span> .
 
 <img height="21px" src="assets/delete_darkgrey-24px_table.png" /> **[!UICONTROL Delete selection]**<br/>Elimina las actividades seleccionadas.
 
