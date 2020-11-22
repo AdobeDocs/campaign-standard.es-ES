@@ -1,27 +1,24 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Listas de permitidos en Adobe Campaign Standard
 description: Obtenga información sobre cómo optimizar listas de permitidos con Adobe Campaign Standard.
-page-status-flag: never-activated
-uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '323'
-ht-degree: 68%
+ht-degree: 82%
 
 ---
 
 
 # Certificación de IP {#ip-certification}
 
-La certificación de IP es un programa de envío de optimizaciones que ayuda a garantizar que los mensajes de correo electrónico se reciban sin ser bloqueados por filtros antispam u otros sistemas de bloqueo de correo electrónico.
+La certificación de IP es un programa de prácticas de envío que garantiza que los correos electrónicos se reciban sin ser bloqueados por los filtros antispam u otros sistemas de bloqueo de correo electrónico.
 
 Actualmente dos proveedores ofrecen certificación IP: Return Path y Certified Senders Alliance.
 
