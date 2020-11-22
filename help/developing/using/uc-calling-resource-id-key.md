@@ -1,8 +1,10 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Invocación de un recurso mediante una clave de identificación compuesta
 description: Obtenga información sobre cómo llamar a un recurso mediante una clave de identificación compuesta
 translation-type: tm+mt
-source-git-commit: 81612f8158a19853e4b3ca05866fa335af493f67
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 7%
@@ -39,7 +41,7 @@ Temas relacionados:
 
    ![](assets/uc_idkey1.png)
 
-1. In the **[!UICONTROL Identification keys]** section, click the **[!UICONTROL Create element]** button.
+1. En la **[!UICONTROL Identification keys]** sección, haga clic en el **[!UICONTROL Create element]** botón .
 
    ![](assets/uc_idkey2.png)
 
