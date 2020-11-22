@@ -1,26 +1,23 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Creación de un correo electrónico
 description: Siga estos pasos para crear un correo electrónico de un solo envío en Adobe Campaign.
-page-status-flag: never-activated
-uuid: 74c7ef35-82c0-4bc4-b1f6-8e74fdcaea3c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: email-messages
-discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 20%
+ht-degree: 22%
 
 ---
 
 
 # Creación de un correo electrónico{#creating-an-email}
 
-Puede crear un correo electrónico desde una [campaña](../../start/using/marketing-activities.md#creating-a-marketing-activity), desde la [página de inicio](../../start/using/interface-description.md#home-page)de Adobe Campaign o desde la lista [de actividad de](../../start/using/marketing-activities.md#about-marketing-activities)marketing. También puede crear correos electrónicos recurrentes y de un solo envío a partir de un flujo de trabajo.
+You can create an email from a [campaign](../../start/using/marketing-activities.md#creating-a-marketing-activity), from the Adobe Campaign [home page](../../start/using/interface-description.md#home-page), or in the [marketing activity list](../../start/using/marketing-activities.md#about-marketing-activities). También puede crear correos electrónicos recurrentes y de un solo envío a partir de un flujo de trabajo.
 
 1. Una vez que haya empezado a crear una actividad de marketing por correo electrónico, seleccione la plantilla que desee utilizar.
 
