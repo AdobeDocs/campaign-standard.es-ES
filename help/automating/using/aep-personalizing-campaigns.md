@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Personalización de las campañas con atributos de Adobe Experience Platform
 description: Aprenda a personalizar sus campañas mediante los atributos de la plataforma de experiencias de Adobe.
-page-status-flag: never-activated
-uuid: 528d9472-e447-47af-a6b2-3181aa5fb5ad
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: channel-activities
-discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '271'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -30,7 +27,7 @@ Una vez configurado el flujo de trabajo con una audiencia [de](../../audiences/u
 
 Para ello, debe agregar estos atributos a la **[!UICONTROL Read audience]** actividad:
 
-1. Open the **[!UICONTROL Read audience]** activity. In the **[!UICONTROL Additional data]** tab, click the **[!UICONTROL Create element]** button.
+1. Abra la actividad **[!UICONTROL Read audience]**. En la **[!UICONTROL Additional data]** ficha, haga clic en el **[!UICONTROL Create element]** botón.
 
    Tenga en cuenta que la **[!UICONTROL Additional data]** ficha solo está disponible después de seleccionar una audiencia de Adobe Experience Platform.
 
