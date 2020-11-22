@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Configuración de la integración de Campaign con datos de Puntos de interés
 description: Obtenga información sobre cómo configurar la función de datos Puntos de interés en Adobe Campaign para enviar mensajes personalizados en función de la ubicación de los suscriptores.
-page-status-flag: never-activated
-uuid: 0689a06c-cc1a-442f-95b8-a07fcec85d79
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
-discoiquuid: a967c6cc-c53b-41b4-866b-90860d78f463
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1340'
 ht-degree: 3%
@@ -65,7 +62,7 @@ Para poder recopilar datos de puntos de interés con Adobe Campaign, debe config
 
 1. Haga clic en el logotipo de **[!UICONTROL Adobe Campaign]**, en la esquina superior izquierda, y luego seleccione **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app]**.
 1. Haga clic en **[!UICONTROL Create]** para configurar una aplicación.
-1. Escriba un nombre en el **[!UICONTROL Application name]** campo y haga clic en **[!UICONTROL Create]**.
+1. Enter a name in the **[!UICONTROL Application name]** field and click **[!UICONTROL Create]**.
 
    No rellene la **[!UICONTROL Device-specific settings]** sección. Esto solo se aplica a la configuración de aplicaciones que reciben notificaciones push.
 
@@ -210,7 +207,7 @@ En la **[!UICONTROL Mobile application subscribers]** ficha también se muestra 
 Una vez finalizada la configuración, los datos recopilados de Puntos de interés se muestran en la **[!UICONTROL Places]** ficha de cada perfil. Para acceder a la lista:
 
 1. Seleccione un perfil.
-1. Haga clic en el **[!UICONTROL Edit profile properties]** botón de la derecha.
+1. Click the **[!UICONTROL Edit profile properties]** button on the right.
 1. Seleccione la pestaña **[!UICONTROL Places]** .
 
    ![](assets/poi_profile_places.png)
