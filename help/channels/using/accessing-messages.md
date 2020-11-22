@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Acceso a mensajes
 description: '"Obtenga información sobre cómo acceder a los mensajes y sus funciones avanzadas: creación, segmentación, personalización, ejecución y sistema de informes".'
-page-status-flag: never-activated
-uuid: 77e57ed3-bcd5-46b3-aee1-3d03f0df6c11
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-discoiquuid: 72a7bd19-4ac7-460e-b3ef-e570d8a802e1
 context-tags: activity,overview
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 1%
@@ -42,7 +39,7 @@ Para acceder a la lista de las actividades de marketing de una campaña:
 
    ![](assets/delivery_list_1.png)
 
-1. Haga clic en la lista **[!UICONTROL Summary]** desplegable.
+1. Click the **[!UICONTROL Summary]** drop-down list.
 1. Haga clic en **[!UICONTROL Search]** para filtrar la forma en que se muestran los mensajes (por nombre, fecha o estado).
 
    Para filtrar mensajes recurrentes, puede marcar la casilla correspondiente.
