@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Monitoreo de la capacidad de entrega en Adobe Campaign Standard
 description: Utilice las herramientas ofrecidas por Adobe Campaign Standard para supervisar la capacidad de entrega de su plataforma.
-page-status-flag: never-activated
-uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '422'
-ht-degree: 58%
+ht-degree: 63%
 
 ---
 
@@ -28,7 +25,7 @@ A continuación encontrará detalles sobre el **[!UICONTROL Delivery throughput]
 * Compruebe el rendimiento de cada envío para asegurarse de que es coherente con la validez del contenido del envío (p. ej. las “ventas flash” deben entregarse en minutos, no en días).
 * Cuando utilice olas, compruebe que cada ola tenga tiempo suficiente para finalizar antes de que se active la siguiente.
 * Compruebe que las cantidades de errores y nuevas cuarentenas sean coherentes con otros envíos.
-* Consulte detenidamente a los registros de envío en detalle para comprobar el tipo de errores que se resaltan (lista de bloqueados, problemas de DNS, reglas antispam, etc.).
+* Consulte cuidadosamente los registros de envío en detalle para comprobar el tipo de errores resaltados (lista de bloqueados, problemas de DNS, reglas de correo no deseado, etc…).
 
 ## Rendimiento de entrega {#delivery-throughput}
 
@@ -42,7 +39,7 @@ Puede configurar los valores visualizados cambiando la escala temporal.
 
 Hay otros informes disponibles, como **[!UICONTROL Delivery summary]** o **[!UICONTROL Non-deliverables and bounces]**. Para obtener más información sobre esto, consulte Informes [](../../reporting/using/about-dynamic-reports.md)dinámicos.
 
-## Seguimiento de envíos {#monitoring-deliveries}
+## Seguimiento de entregas {#monitoring-deliveries}
 
 El panel de mensajes le permite acceder a los registros de envío: **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]**, **[!UICONTROL Tracking logs]** y **[!UICONTROL Tracked URLs]**. Muestran los detalles del envío, qué destinatario se ha excluido y por qué, así como la información de seguimiento como aperturas y clics.
 
