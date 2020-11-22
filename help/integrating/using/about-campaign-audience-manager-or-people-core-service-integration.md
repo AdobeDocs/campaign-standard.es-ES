@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Acerca de la integración de Campaign con Audience Manager o el servicio principal People
 description: Con la integración de servicios principales Audience Manager/Personas, puede compartir audiencias o segmentos dentro de las distintas soluciones de Adobe Experience Cloud.
-page-status-flag: never-activated
-uuid: 39e3c78e-cccd-4823-afe9-abc7f8aef034
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-discoiquuid: bf718329-f181-46f7-80a2-b525a8dee46d
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 10%
@@ -24,10 +21,10 @@ ht-degree: 10%
 >
 >Según los datos intercambiados, la importación de audiencias en Adobe Campaign puede estar sujeta a restricciones legales.
 
-Adobe Campaign le permite intercambiar y compartir audiencias/segmentos con las distintas aplicaciones de Adobe Experience Cloud. La integración de **Adobe Campaign** con el servicio **principal** Personas (también conocido como servicio **principal de** Perfiles y Audiencias) o Adobe Audience Manager le permite:
+Adobe Campaign le permite intercambiar y compartir audiencias/segmentos con las distintas aplicaciones de Adobe Experience Cloud. Integrating **Adobe Campaign** with **People core service** (also known as **Profiles &amp; Audiences core service**) or Adobe Audience Manager allows you to:
 
 * Importe audiencias/segmentos de diferentes soluciones de Adobe Experience Cloud en Adobe Campaign. Las audiencias se pueden importar desde el **[!UICONTROL Audiences]** menú en Adobe Campaign.
-* Exportar audiencias como audiencias o segmentos compartidos. Estas audiencias pueden utilizarse con las diferentes soluciones de Adobe Experience Cloud que utiliza. Las audiencias se pueden exportar después de segmentar actividades en un flujo de trabajo mediante la **[!UICONTROL Save audience]** actividad.
+* Exportar audiencias como audiencias o segmentos compartidos. Estas audiencias pueden utilizarse con las diferentes soluciones de Adobe Experience Cloud que utiliza. Audiences can be exported after targeting activities in a workflow, using the **[!UICONTROL Save audience]** activity.
 
 La integración admite dos tipos de Adobe Experience Cloud ID:
 
