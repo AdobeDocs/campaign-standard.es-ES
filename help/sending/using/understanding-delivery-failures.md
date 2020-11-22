@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Comprensión de los errores de entrega
 description: Aprenda a administrar los errores de envío con Campaign.
-page-status-flag: never-activated
-uuid: 2735aa05-7b6f-47c9-98c4-a15cc33be39d
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1285'
-ht-degree: 87%
+ht-degree: 88%
 
 ---
 
@@ -68,7 +65,7 @@ Los posibles motivos de un error de entrega son:
 | **[!UICONTROL Duplicate]** | Ignorado | La dirección ya se ha detectado en la segmentación. |
 | **[!UICONTROL Not defined]** | Leve | la dirección está cualificada porque aún no se han incrementado los errores. Este tipo de error se produce cuando el servidor envía un nuevo mensaje de error: puede tratarse de un error aislado; sin embargo, si vuelve a producirse, el contador de errores aumenta, lo que advierte a los equipos técnicos. |
 | **[!UICONTROL Error ignored]** | Ignorado | La dirección está en lista de permitidos y se le enviará un correo electrónico en cualquier caso. |
-| **[!UICONTROL Address on denylist]** | Grave | La dirección se agregó a la  de lista de bloqueados en el momento del envío. |
+| **[!UICONTROL Address on denylist]** | Grave | La dirección se agregó a la lista de bloqueados al momento del envío. |
 | **[!UICONTROL Account disabled]** | Leve/Grave | Cuando el proveedor de acceso a Internet (IAP) detecta un largo período de inactividad, puede cerrar la cuenta del usuario: Los envíos a la dirección del usuario serán imposibles. El tipo leve o grave depende del tipo de error recibido: si la cuenta se desactiva temporalmente debido a seis meses de inactividad y aún puede activarse, el estado **[!UICONTROL Erroneous]** se asignará y el envío se volverá a intentar. Si el error recibido indica que la cuenta está desactivada de forma permanente, se envía directamente a Cuarentena. |
 | **[!UICONTROL Not connected]** | Ignorado | El teléfono móvil del perfil está apagado o no conectado a la red cuando se envía el mensaje. |
 | **[!UICONTROL Invalid domain]** | Leve | El dominio de la dirección del correo electrónico es incorrecto o ya no existe. Este perfil se vuelve a seleccionar hasta que el recuento de errores llegue a 5. Después de esto, el registro se pone en estado de cuarentena y no se realiza ningún reintento. |
