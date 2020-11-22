@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Adición de contenido dinámico de Target
 description: Aprenda a añadir contenido dinámico de Adobe Target en uno de sus envíos de Adobe Campaign.
-page-status-flag: never-activated
-uuid: b3cc045f-7924-480e-8c61-8246510f3adb
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
-discoiquuid: 45ddf7b7-98f7-4fdd-bb4a-49ec8490e877
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 29%
+ht-degree: 31%
 
 ---
 
@@ -41,7 +38,7 @@ Antes de acceder a la imagen en Adobe Campaign, las siguientes tareas deben real
    La integración solo admite imágenes estáticas. El resto del contenido no se puede personalizar.
 
 1. Introduzca el nombre del “rawbox” especificado en Adobe Target.
-1. Si utiliza permisos de empresa en la configuración de Adobe Target, añada la propiedad correspondiente en este campo. Obtenga más información sobre los permisos de empresa de Target en [esta página](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/properties-overview.html). Este campo es opcional y no es necesario si no se utilizan permisos de empresa en Target.
+1. Si utiliza permisos de empresa en la configuración de Adobe Target, añada la propiedad correspondiente en este campo. Obtenga más información sobre los permisos de empresa de Target en [esta página](https://docs.adobe.com/content/help/es-ES/target/using/administer/manage-users/enterprise/properties-overview.html). Este campo es opcional y no es necesario si no se utilizan permisos de empresa en Target.
 1. In **[!UICONTROL Additional decision parameters]**, specify the mapping between the fields defined in the Adobe Target segments and the Adobe Campaign fields.
 
    Los campos de Adobe Campaign utilizados deben haberse especificado en el “rawbox”. Aquí definiremos diferentes experiencias según el sexo del destinatario.
