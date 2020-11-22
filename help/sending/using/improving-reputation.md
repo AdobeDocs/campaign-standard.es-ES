@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Mejora de su reputación con Adobe Campaign Standard
 description: Conozca cómo mejorar su reputación con Adobe Campaign Standard administrando direcciones de correo electrónico y cuarentenas de duplicado.
-page-status-flag: never-activated
-uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '458'
-ht-degree: 66%
+ht-degree: 72%
 
 ---
 
@@ -31,7 +28,7 @@ Contar con direcciones de correo electrónico duplicadas puede tener varias cons
 * El mismo mensaje se envía más de una vez. Incluso si Campaign realiza un procedimiento de deduplicación de forma predeterminada antes de la entrega, no hay nada que detenga el mismo mensaje enviado por acciones diferentes que tengan el mismo contenido cuando se divide un destinatario.
 * Solicitudes de cancelación de suscripción no aceptadas. Si un destinatario cancela la suscripción después de recibir un mensaje, su perfil duplicado sigue siendo apto para mensajes posteriores.
 
-Además de este paso secundario de los procedimientos de inclusión, esta situación probablemente llevará a los usuarios a considerar los mensajes como spam y a activar un procedimiento de  de lista de bloqueados en el ISP.
+Además de este paso secundario de los procedimientos de inclusión, esta situación probablemente lleve a los usuarios a considerar los mensajes como no deseados y a activar un procedimiento de inclusión en la lista de bloqueados en el ISP.
 
 Debe tener especial cuidado al realizar operaciones en la base de datos. Para evitar la mayor cantidad posible de duplicados, deben llevarse a cabo las siguientes acciones:
 * **Las importaciones deben configurarse meticulosamente.** Esto es particularmente importante a la hora de elegir la clave de reconciliación.
