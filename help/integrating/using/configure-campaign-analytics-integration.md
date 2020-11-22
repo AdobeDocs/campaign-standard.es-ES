@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Configuración de la integración de Campaign-Analytics
 description: Obtenga información sobre cómo configurar la integración de Adobe Analytics en inicio para medir el éxito de sus envíos de correo electrónico.
-page-status-flag: never-activated
-uuid: bdaa00b0-7445-469c-8268-9d06c53ce2b0
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
-discoiquuid: 92b9004c-cba0-41fd-a035-32bee1d6a42c
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 11%
