@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Reglas de filtrado
 description: Utilice las reglas de filtrado para reducir la audiencia de los mensajes.
-page-status-flag: never-activated
-uuid: ed3eea62-3a47-4318-ae22-d82aa857448f
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 14%
+ht-degree: 22%
 
 ---
 
@@ -45,7 +42,7 @@ Además de estas reglas de filtrado predeterminadas, hay dos reglas de exclusió
 
 Durante el análisis del correo electrónico, estas reglas comparan las direcciones de correo de los destinatarios con las direcciones o nombres de dominio prohibidos incluidos en una lista de supresión global encriptada que se administra en la instancia de envío. Si se encuentra una coincidencia, el mensaje no se envía a ese destinatario.
 
-Esto es para evitar ser agregado a la  de lista de bloqueados debido a actividad maliciosa, especialmente el uso de Spamtrampa. Por ejemplo, si se utiliza un Spamtrampa para suscribirse a través de uno de sus formularios web, se enviará automáticamente un correo electrónico de confirmación a dicho Spamtrampa, lo que hará que su dirección se añada automáticamente a la  de lista de bloqueados.
+El objetivo de esto es evitar que se incluya el servicio en una lista de bloqueados de actividad maliciosa, especialmente a través de Spamtrap. Por ejemplo, si se utiliza un Spamtrap para suscribirse a través de uno de sus formularios web, se envía un mensaje de correo electrónico de confirmación automáticamente a ese Spamtrap y esto hace que incluya su dirección lista de bloqueados automáticamente.
 
 >[!NOTE]
 >
