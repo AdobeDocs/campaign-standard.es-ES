@@ -106,7 +106,8 @@ Las expresiones de JavaScript están formadas por una o varias condiciones y uti
    * **&lt;value2>** es un campo, una función o un valor introducido manualmente.
 
    >[!NOTE]
-   Los datos de tipo **&lt;context>** y **&lt;value2>** deben ser idénticos. Por ejemplo, si **&lt;context>** es una fecha, entonces **&lt;value2>** también debe ser una fecha.
+   >
+   >Los datos de tipo **&lt;context>** y **&lt;value2>** deben ser idénticos. Por ejemplo, si **&lt;context>** es una fecha, entonces **&lt;value2>** también debe ser una fecha.
 
 * Si desea usar varias condiciones, se pueden combinar con operadores lógicos.
 
