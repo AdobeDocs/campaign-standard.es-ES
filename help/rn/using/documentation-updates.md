@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: abf2bb68ca0a2bbad6347184f2c091726021af89
 workflow-type: tm+mt
-source-wordcount: '6239'
-ht-degree: 98%
+source-wordcount: '6311'
+ht-degree: 97%
 
 ---
 
@@ -22,6 +22,12 @@ Además de las [Notas de la versión](../../rn/using/release-notes.md) de Adobe 
 ## Noviembre de 2020 {#doc-updates-november-2020}
 
 La sección Privacidad se ha movido y enriquecido con dos páginas nuevas: [Administración](../../start/using/privacy-management.md) de privacidad y [Administración de solicitudes](../../start/using/privacy-requests.md)de privacidad.
+
+Se ha añadido información en la sección Conector de datos de Adobe Experience Platform sobre el error de validación de asignación de datos relacionado con la administración de privacidad y cómo solucionarlo. [Más información](../../developing/using/aep-mapping-activation.md)
+
+La sección Datos personales y Personas se ha actualizado con un escenario de caso de uso para ilustrar cómo interactúan las distintas personas en lo que respecta a la privacidad. [Más información](../../start/using/privacy.md#use-case-scenario)
+
+Se ha añadido una nueva sección que enumera las preguntas más frecuentes sobre privacidad. [Más información](../../start/using/privacy-faq.md)
 
 ## Versión 20.4: octubre de 2020 {#release-20-4---october-2020}
 
