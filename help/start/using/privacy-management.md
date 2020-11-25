@@ -7,9 +7,9 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: a9afa91302684ddd37a94a9999d90bf8c8e7abee
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '964'
 ht-degree: 38%
 
 ---
@@ -17,17 +17,39 @@ ht-degree: 38%
 
 # Administración de la privacidad {#privacy-management}
 
-Adobe Campaign ofrece un conjunto de herramientas para ayudarle a cumplir con las normas de privacidad (incluye el RGPD, la CCPA, la PDPA y la LGPD).
+Adobe Campaign offers a set of tools to help you comply with [Privacy regulations](#privacy-management-regulations) (including GDPR, CCPA, PDPA, LGPD).
 
-* This section presents general information on what Privacy management is and the features provided by Adobe Campaign to manage the [Right to Access and Right to be Forgotten](#right-access-forgotten).
+Estas son las cinco funciones principales ofrecidas por Adobe Campaign para garantizar la preparación para RGPD y otras regulaciones de privacidad:
 
-* También contiene información sobre las características importantes para administrar la privacidad ([consentimiento, retención de datos y funciones](#consent-retention-roles)de usuario), así como prácticas recomendadas para ayudarlo a cumplir con la privacidad al utilizar Adobe Campaign.
+![](assets/privacy-gdpr-use-cases.png)
 
-## Regulaciones sobre administración de la privacidad {#privacy-management-regulations}
+* **Derecho de acceso**
+
+* **Derecho a eliminar**
+
+Para más información sobre esto, vea [Derecho al acceso y Derecho al olvido](#right-access-forgotten).
+
+* **Gestión de consentimiento**
+
+* **Retención de datos**
+
+* **Gestión de derechos**
+
+Para obtener más información sobre esto, consulte [Consentimiento, Retención y Funciones](#consent-retention-roles).
+
+<!--This section presents general information on what Privacy management is and the features provided by Adobe Campaign to manage the [Right to Access and Right to be Forgotten](#right-access-forgotten).
+
+It also contains information on important features to manage Privacy ([consent, data retention and user roles](#consent-retention-roles)), as well as best practices to help you with your Privacy compliance when using Adobe Campaign.-->
+
+## Normas sobre la gestión de la privacidad {#privacy-management-regulations}
 
 Las funciones de Adobe Campaign le ayudan a cumplir con las siguientes regulaciones:
 
-* **El RGPD (** reglamento general de protección de datos[](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)) es la ley de privacidad de la Unión Europea (UE) que armoniza y moderniza los requisitos de protección de datos de los países de la UE.
+* **El RGPD (** reglamento general de protección de datos[](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)) es la ley de privacidad de la Unión Europea (UE) que armoniza y moderniza los requisitos de protección de datos de los países de la UE. Siga los enlaces a continuación para encontrar información general sobre el RGPD:
+
+   * https://www.adobe.com/es/privacy/general-data-protection-regulation.html
+   * https://www.adobe.com/es/marketing-cloud/campaign/general-data-protection-regulation.html
+
 * **La CCPA** ([Ley de Privacidad del Consumidor de California](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=)) proporciona a los residentes de California nuevos derechos respecto a su información personal e impone responsabilidades de protección de datos para las entidades que operen en California.
 * **PDPA** (Ley[de Protección de Datos](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/)Personales) es la nueva ley de privacidad que armoniza y moderniza los requisitos de protección de datos para Tailandia.
 * **La LGPD** ([ley general de protección de datos](https://iapp.org/media/pdf/resource_center/Brazilian_General_Data_Protection_Law.pdf)) entrará en vigor a principios de 2021 para todas las compañías que recopilen o procesen datos personales en Brasil.
@@ -49,6 +71,10 @@ Para ayudarle a facilitar su preparación para la privacidad, Adobe Campaign le 
 Para obtener información sobre cómo crear solicitudes **de acceso** y **eliminación** y cómo procesarlas, consulte los pasos [de](../../start/using/privacy-requests.md#about-privacy-requests)implementación.
 
 Tutorials on Privacy management in Campaign Standard are also available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=en#privacy).
+
+>[!NOTE]
+>
+>Para obtener más información sobre los datos personales y las distintas entidades que administran los datos (controlador de datos, procesador de datos y sujeto de datos), consulte [Datos personales y personas](../../start/using/privacy.md#personal-data).
 
 ## Consentimiento, retención y funciones {#consent-retention-roles}
 
