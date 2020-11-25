@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 79e0b945e2c34bc396b7852851df848a76d62979
 workflow-type: tm+mt
-source-wordcount: '2269'
-ht-degree: 100%
+source-wordcount: '2156'
+ht-degree: 98%
 
 ---
 
@@ -38,19 +38,13 @@ Las principales características de esta actividad son:
 
 ### Avisos de compatibilidad con versiones anteriores {#from-beta-to-ga}
 
-Con la versión Campaign Standard 20.4, se han reducido los márgenes de límite de tamaño de datos de respuesta http y de tiempo de espera de respuesta para ajustarse a las prácticas recomendadas (consulte la sección “Limitaciones y protecciones”). Estas modificaciones de la limitación no tendrán efecto en las actividades de API externas existentes; por lo tanto, se recomienda reemplazar las actividades de API externas existentes con nuevas versiones en todos los flujos de trabajo.
-
-Si actualiza desde Campaign Standard 20.2 (o anterior), tenga en cuenta que la capacidad de API externa se ha trasladado de Beta a Disponibilidad general en la versión 20.3. de Campaign Standard.
-
-Como consecuencia, si estuviera utilizando actividades de API externas beta, debe reemplazarlas con actividades de API externas de GA en todos los flujos de trabajo.  Los flujos de trabajo que utilizan la versión beta de la API externa no funcionarán a partir de la versión 20.3. de Campaign Standard.
+With the Campaign Standard 20.4 release, the http response data size limit and response timeout guardrails have been lowered to align with best practices - see [Limitations and guardrails](#guardrails). Estas modificaciones de la limitación no tendrán efecto en las actividades de API externas existentes; por lo tanto, se recomienda reemplazar las actividades de API externas existentes con nuevas versiones en todos los flujos de trabajo.
 
 Al reemplazar actividades de API externas, añada la nueva actividad de API externa al flujo de trabajo, copie manualmente los detalles de configuración y, a continuación, elimine la actividad antigua.
 
 >[!NOTE]
 >
 >No podrá copiar sobre los valores del encabezado específicos de la actividad, ya que están enmascarados dentro de la actividad.
-
-A continuación, vuelva a configurar otras actividades en el flujo de trabajo que apunten a la actividad de la API externa beta o utilicen datos de ella para que apunten a la nueva actividad de la API externa o los utilicen en su lugar. Ejemplos de actividades: envío de correo electrónico (campos de personalización), actividad de enriquecimiento, etc.
 
 ### Limitaciones y barreras {#guardrails}
 
