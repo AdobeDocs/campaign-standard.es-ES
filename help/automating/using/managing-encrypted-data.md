@@ -7,10 +7,10 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 3523a067e4fc4b1d22159fc93171fd1e0b32f05c
 workflow-type: tm+mt
 source-wordcount: '938'
-ht-degree: 55%
+ht-degree: 52%
 
 ---
 
@@ -45,7 +45,7 @@ Una vez procesada la solicitud, los comandos de cifrado/descifrado estarán disp
 
 En este caso de uso, crearemos un flujo de trabajo para importar datos cifrados en un sistema externo utilizando una clave generada en el Panel de control de Campaign.
 
-En [esta sección](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/decrypting-data.html) también hay disponible un vídeo de tutorial que muestra cómo utilizar una clave GPG para desencriptar datos.
+En [esta sección](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/decrypting-data.html?lang=en#instance-settings) también hay disponible un vídeo de tutorial que muestra cómo utilizar una clave GPG para desencriptar datos.
 
 Los pasos para realizar este caso de uso son los siguientes:
 
@@ -89,7 +89,7 @@ Los pasos para realizar este caso de uso son los siguientes:
 
 En este caso de uso, crearemos un flujo de trabajo para codificar y exportar los datos con una clave instalada en el Panel de control de Campaign.
 
-En [esta sección](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/using-a-gpg-key-to-encrypt-data.html) también hay disponible un vídeo de tutorial que muestra cómo utilizar una clave GPG para cifrar datos.
+A tutorial video showing how to use a GPG key to encrypt data is also available in [this section](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings)).
 
 Los pasos para realizar este caso de uso son los siguientes:
 
