@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: de8afa7e942b7ee831837b1f9506488f7ca835f0
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 98%
@@ -41,7 +41,7 @@ Las actualizaciones de entorno se producen en olas, durante los intervalos de ti
  <tbody>
   <tr>
    <td>Prueba<br /> </td>
-   <td>25 - 26 de enero de 2021<br /> </td>
+   <td>25 - 27 de enero de 2021<br /> </td>
   </tr>
   <tr>
    <td> Producción<br /> </td>
