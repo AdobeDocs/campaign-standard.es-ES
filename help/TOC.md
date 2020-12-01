@@ -6,9 +6,9 @@ user-guide-title: Campaign Standard
 breadcrumb-title: Campaign Standard
 title: Guía del Campaign Standard
 translation-type: tm+mt
-source-git-commit: abf2bb68ca0a2bbad6347184f2c091726021af89
+source-git-commit: 817eebd4fe9ed33bdb2820912556cfda25ef66a5
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1664'
 ht-degree: 99%
 
 ---
@@ -29,20 +29,21 @@ ht-degree: 99%
    + [Funciones obsoletas](rn/using/deprecated-features.md)
 + Introducción {#getting-started}
    + [Acerca de Adobe Campaign Classic](start/using/about-campaign-standard.md)
-   + Privacidad {#privacy}
-      + [Privacidad y consentimiento](start/using/privacy.md)
-      + [Administración de la privacidad](start/using/privacy-management.md)
-      + [Solicitudes de privacidad](start/using/privacy-requests.md)
-      + [Preguntas más frecuentes sobre privacidad](start/using/privacy-faq.md)
    + Descubrimiento de la interfaz {#discovering-the-interface}
       + [Acerca de la interfaz](start/using/about-the-interface.md)
       + [Descripción de la interfaz](start/using/interface-description.md)
       + [Personalización de listas](start/using/customizing-lists.md)
+      + [Accesibilidad](start/using/accessibility.md)
    + Uso de actividades de marketing {#marketing-plans}
       + [Programas y campañas](start/using/programs-and-campaigns.md)
       + [Actividades de marketing](start/using/marketing-activities.md)
       + [Plantillas de actividades de marketing](start/using/marketing-activity-templates.md)
       + [Cronología](start/using/timeline.md)
+   + Privacidad {#privacy}
+      + [Privacidad y consentimiento](start/using/privacy.md)
+      + [Administración de la privacidad](start/using/privacy-management.md)
+      + [Solicitudes de privacidad](start/using/privacy-requests.md)
+      + [Preguntas más frecuentes sobre privacidad](start/using/privacy-faq.md)
 + Perfiles y audiencias {#profiles-and-audiences}
    + [Introducción a perfiles y audiencias](audiences/using/get-started-profiles-and-audiences.md)
    + Administración de perfiles {#managing-profiles}
