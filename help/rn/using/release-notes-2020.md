@@ -291,7 +291,7 @@ ht-degree: 99%
 * La unidad organizativa del grupo de seguridad de los administradores ya no se puede cambiar.
 * Al crear un perfil, ahora se debe rellenar el campo Unidad organizativa.
 * Ahora, un activador de Experience Cloud solo se puede eliminar si se eliminan el evento y la plantilla transaccional vinculados a él.
-* [!DNL Adobe Creative SDK] ha sido desmantelado. Ahora está en desuso en Campaign Standard. Consulte la página [Funciones obsoletas y eliminadas](../../rn/using/deprecated-features.md).
+* [!DNL Adobe Creative SDK] se ha retirado del mercado. Ahora está en desuso en Campaign Standard. Consulte la página [Funciones obsoletas y eliminadas](../../rn/using/deprecated-features.md).
 
 
 **Parches**
