@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: email-messages
 context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '817'
 ht-degree: 100%
 
 ---
@@ -83,10 +83,6 @@ En el contexto específico de una prueba A/B:
    >Si hay un empate, la variante ganadora debe seleccionarse manualmente. Puede notificar al creador de correo electrónico y a los modificadores que se ha elegido una variante o que es necesario seleccionarla. Consulte [Notificaciones de Adobe Campaign](../../administration/using/sending-internal-notifications.md).
 
 El correo electrónico se ha definido y enviado. Puede acceder a sus registros e informes para calcular el éxito de la campaña.
-
-**Temas relacionados**:
-
-Vídeo de la [Creación de un correo electrónico](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html)
 
 ## Acerca de los indicadores de prueba A/B {#about-a-b-test-indicators}
 
