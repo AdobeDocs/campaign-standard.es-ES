@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: deliveryCreation,wizard
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 100%
+source-wordcount: '538'
+ht-degree: 96%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 100%
 Crear un envío SMS es muy similar a crear un correo electrónico normal. Los pasos siguientes describen la configuración específica de este canal. Consulte [Creación de un correo electrónico](../../channels/using/creating-an-email.md) para obtener más información sobre otras opciones.
 
 Los parámetros avanzados de SMS se detallan en la sección de [configuración de SMS](../../administration/using/configuring-sms-channel.md).
+
+![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
 
 Para crear y enviar mensajes SMS a un teléfono móvil, necesita:
 
@@ -78,4 +80,11 @@ Una vez finalizado el envío, puede empezar a medir el impacto del mensaje con i
 
 * [Acerca de la modificación del contenido push y SMS](../../channels/using/about-sms-and-push-content-design.md)
 * [Administración de plantillas](../../start/using/marketing-activity-templates.md)
-* Vídeo de la [Creación de un envío SMS](https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/communication-channels/mobile/sms/sms-delivery.translate.html)
+
+## Tutorial video {#video}
+
+Este vídeo muestra cómo crear un envío SMS.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25265/?quality=12)
+
+Hay disponibles más vídeos de procedimientos para Campaign Standards [aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
