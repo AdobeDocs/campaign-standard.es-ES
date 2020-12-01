@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: managing-subscriptions
 context-tags: service,wizard;service,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 100%
+source-wordcount: '440'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 100%
 # Creación de un servicio{#creating-a-service}
 
 Para poder administrar suscripciones, primero debe crear un servicio y configurarlo. La configuración de un nuevo servicio le permite especificar las confirmaciones de correo electrónico que los perfiles van a recibir cuando se suscriban o cancelen su suscripción al servicio. También debe definir las páginas de aterrizaje de suscripción y de cancelación de suscripción vinculadas al servicio. Por ejemplo, un vínculo de suscripción de servicio insertado en un correo electrónico dirige automáticamente el perfil a la página de aterrizaje de suscripción especificada en el servicio.
+
+![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
 
 Para configurar un servicio:
 
@@ -55,7 +57,14 @@ Una vez creado un servicio, puede empezar a promoverlo.
 
 **Temas relacionados:**
 
-* Vídeo sobre la [Administración de un servicio y sus suscripciones](https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/profiles-and-audiences/services-and-subscriptions.translate.html)
 * [Promoción de un servicio](../../audiences/using/promoting-a-service.md)
 * [Creación de una audiencia de suscriptores](../../audiences/using/creating-audiences.md#creating-list-audiences)
 * [Vinculación de una página de aterrizaje a un servicio](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)
+
+## Tutorial video {#video}
+
+Este vídeo muestra cómo crear un servicio y administrar sus suscripciones.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24673?quality=12)
+
+Hay disponibles más vídeos de procedimientos para Campaign Standards [aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
