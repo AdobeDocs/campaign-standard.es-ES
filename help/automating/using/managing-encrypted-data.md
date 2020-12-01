@@ -7,10 +7,10 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 translation-type: tm+mt
-source-git-commit: 3523a067e4fc4b1d22159fc93171fd1e0b32f05c
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '938'
-ht-degree: 52%
+source-wordcount: '930'
+ht-degree: 53%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 52%
 
 En algunos casos, es posible que los datos que desea importar los servidores de Campaña deban cifrarse, por ejemplo, si contienen datos PII.
 
-Para poder cifrar datos salientes o descifrar datos entrantes, debe administrar las claves GPG mediante el [Panel de control de Campaign](https://docs.adobe.com/content/help/es-ES/control-panel/using/instances-settings/gpg-keys-management.html).
+Para poder cifrar datos salientes o descifrar datos entrantes, debe administrar claves GPG mediante el [Panel de control de Campaign](https://docs.adobe.com/content/help/es-ES/control-panel/using/instances-settings/gpg-keys-management.html).
 
 >[!NOTE]
 >
@@ -30,9 +30,9 @@ Para poder cifrar datos salientes o descifrar datos entrantes, debe administrar 
 Si no cumple los requisitos para utilizar Panel de control de Campaign, debe ponerse en contacto con el Servicio de atención al cliente de Adobe para que le proporcionen los comandos de cifrado y descifrado necesarios. Para ello, envíe una solicitud que indique:
 
 * La **etiqueta** que se mostrará en la interfaz de Campaña para utilizar el comando. Por ejemplo, &quot;Cifrar archivo&quot;.
-* El **comando** que se va a instalar en la instancia.
+* El comando **** que se va a instalar en la instancia.
 
-Una vez procesada la solicitud, los comandos de cifrado/descifrado estarán disponibles en el **[!UICONTROL Pre-processing stage]** campo desde las **[!UICONTROL Load file]** actividades y **[!UICONTROL Extract file]** . Puede utilizarlos para descifrar o cifrar los archivos que desea importar o exportar.
+Una vez procesada la solicitud, los comandos de cifrado y descifrado estarán disponibles en el campo **[!UICONTROL Pre-processing stage]** de las actividades **[!UICONTROL Load file]** y **[!UICONTROL Extract file]**. Puede utilizarlos para descifrar o cifrar los archivos que desea importar o exportar.
 
 ![](assets/preprocessing-encryption.png)
 
@@ -45,7 +45,7 @@ Una vez procesada la solicitud, los comandos de cifrado/descifrado estarán disp
 
 En este caso de uso, crearemos un flujo de trabajo para importar datos cifrados en un sistema externo utilizando una clave generada en el Panel de control de Campaign.
 
-En [esta sección](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/decrypting-data.html?lang=en#instance-settings) también hay disponible un vídeo de tutorial que muestra cómo utilizar una clave GPG para desencriptar datos.
+![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
 
 Los pasos para realizar este caso de uso son los siguientes:
 
@@ -67,13 +67,13 @@ Los pasos para realizar este caso de uso son los siguientes:
 
 1. Abra la actividad **[!UICONTROL Transfer file]** y configúrela según sus necesidades. Los conceptos globales sobre cómo configurar la actividad están disponibles en [esta sección](../../automating/using/load-file.md).
 
-   En la **[!UICONTROL Protocol]** ficha, especifique los detalles sobre el servidor sftp y el archivo .gpg cifrado que desea transferir.
+   En la ficha **[!UICONTROL Protocol]**, especifique los detalles sobre el servidor sftp y el archivo .gpg cifrado que desea transferir.
 
    ![](assets/gpg_transfer.png)
 
 1. Abra la actividad **[!UICONTROL Load file]** y configúrela según sus necesidades. Los conceptos globales sobre cómo configurar la actividad están disponibles en [esta sección](../../automating/using/load-file.md).
 
-   Añada una fase de preprocesamiento a la actividad para descifrar los datos entrantes. Para ello, seleccione la **[!UICONTROL Decryption GPG]** opción de la lista.
+   Añada una fase de preprocesamiento a la actividad para descifrar los datos entrantes. Para ello, seleccione la opción **[!UICONTROL Decryption GPG]** en la lista.
 
    >[!NOTE]
    >
@@ -89,7 +89,7 @@ Los pasos para realizar este caso de uso son los siguientes:
 
 En este caso de uso, crearemos un flujo de trabajo para codificar y exportar los datos con una clave instalada en el Panel de control de Campaign.
 
-A tutorial video showing how to use a GPG key to encrypt data is also available in [this section](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings)).
+![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
 
 Los pasos para realizar este caso de uso son los siguientes:
 
@@ -107,7 +107,7 @@ Los pasos para realizar este caso de uso son los siguientes:
 
 1. Configure la actividad **[!UICONTROL Query]** para destinatario de los datos deseados de la base de datos. Para obtener más información, consulte [esta sección](../../automating/using/query.md).
 
-1. Abra la **[!UICONTROL Extract file]** actividad y configúrela según sus necesidades (archivo de salida, columnas, formato, etc.). Los conceptos globales sobre cómo configurar la actividad están disponibles en [esta sección](../../automating/using/extract-file.md).
+1. Abra la actividad **[!UICONTROL Extract file]** y configúrela según sus necesidades (archivo de salida, columnas, formato, etc.). Los conceptos globales sobre cómo configurar la actividad están disponibles en [esta sección](../../automating/using/extract-file.md).
 
    Añada una etapa de preprocesamiento a la actividad para cifrar los datos que se van a extraer. Para ello, seleccione la clave de GPG de cifrado que desee utilizar para cifrar los datos.
 
@@ -122,3 +122,15 @@ Los pasos para realizar este caso de uso son los siguientes:
    ![](assets/gpg-transfer-encrypt.png)
 
 1. Ahora puede ejecutar el flujo de trabajo. Una vez ejecutado, el destinatario de datos de la consulta se exportará al servidor SFTP en un archivo .gpg cifrado.
+
+## Videotutoriales {#video}
+
+Este vídeo muestra cómo utilizar una clave GPG para descifrar datos.
+
+>[!VIDEO](https://video.tv.adobe.com/v/35753?quality=12)
+
+Este vídeo muestra cómo utilizar una clave GPG para cifrar datos.
+
+>[!VIDEO](https://video.tv.adobe.com/v/36380?quality=12)
+
+Hay disponibles más vídeos de procedimientos para Campaign Standards [aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
