@@ -7,10 +7,10 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 16%
+source-wordcount: '210'
+ht-degree: 14%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 16%
 
 >[!CAUTION]
 >
->The [Privacy Core Service](https://adobe.io/apis/cloudplatform/gdpr.html) Integration is the method you should use for all access and delete requests. A partir de la versión 19.4, el uso de la API y la interfaz de Campaign para las solicitudes de acceso y eliminación quedarán obsoletas. Para obtener más información sobre las funciones eliminadas y obsoletas del Campaign Standard, consulte [esta página](https://helpx.adobe.com/es/campaign/kb/acs-deprecated-and-removed-features.html).
+>La integración de [Privacy Core Service](https://adobe.io/apis/cloudplatform/gdpr.html) es el método que debe utilizar para todas las solicitudes de acceso y eliminación. A partir de la versión 19.4, el uso de la API y la interfaz de Campaign para las solicitudes de acceso y eliminación quedarán obsoletas. Para obtener más información sobre las funciones eliminadas y obsoletas del Campaign Standard, consulte [esta página](../../rn/using/deprecated-features.md).
 
-Las solicitudes de privacidad se crean mediante una solicitud de **POST** .
+Las solicitudes de privacidad se crean mediante una solicitud **POST**.
 
-Antes de crear solicitudes, debe definir la Área de nombres que utilizará. Para obtener más información sobre esto, consulte la documentación [de administración de](https://helpx.adobe.com/es/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)privacidad.
+Antes de crear solicitudes, debe definir la Área de nombres que utilizará. Para obtener más información sobre esto, consulte la [documentación de administración de privacidad](https://helpx.adobe.com/es/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
 
 La carga útil debe contener los siguientes parámetros:
 
