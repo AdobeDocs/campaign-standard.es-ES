@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 99%
+source-wordcount: '1027'
+ht-degree: 97%
 
 ---
 
@@ -24,9 +24,10 @@ Los pasos principales para configurar páginas de aterrizaje son los siguientes:
 
 En esta página encontrará información sobre cada uno de estos pasos, así como referencias a la documentación relevante para obtener más detalles.
 
+![](assets/do-not-localize/how-to-video.png) [Descubra cómo crear páginas de aterrizaje en vídeo](#video)
+
 **Temas relacionados:**
 
-* [Vídeo sobre la creación de un tutorial de página de aterrizaje](https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/communication-channels/landing-pages/landing-page-create-and-edit.translate.html)
 * [Creación de un servicio](../../audiences/using/creating-a-service.md)
 * [Configuración de un proceso de inclusión doble](setting-up-a-double-opt-in-process.md)
 
@@ -131,3 +132,11 @@ La publicación de la página de aterrizaje la hace accesible en línea. Una vez
 Una vez publicada, la página de aterrizaje estará lista para utilizarse. A continuación, puede establecer diferentes mecanismos que le permitan acceder a ellos para adquirir nuevos perfiles en la base de datos o para obtener información adicional sobre perfiles existentes.
 
 Para obtener más información sobre la publicación de la página de aterrizaje, consulte [esta sección](../../channels/using/testing-publishing-landing-page.md#publishing-a-landing-page).
+
+## Tutorial video {#video}
+
+Este vídeo muestra cómo crear y editar una página de aterrizaje.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
+
+Hay disponibles más vídeos de procedimientos para Campaign Standards [aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
