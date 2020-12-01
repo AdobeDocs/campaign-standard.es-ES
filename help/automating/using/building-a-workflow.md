@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,wizard;workflow,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '958'
-ht-degree: 100%
+source-wordcount: '983'
+ht-degree: 96%
 
 ---
 
@@ -36,10 +36,11 @@ Puede abrir transiciones para comprobar que los datos enviados son correctos dur
 
 ![](assets/workflow_overview.png)
 
-
 ## Creación de un flujo de trabajo {#creating-a-workflow}
 
 Puede crear un flujo de trabajo desde un programa, una campaña o la lista de actividad de marketing.
+
+![](assets/do-not-localize/how-to-video.png) [Descubra cómo crear un flujo de trabajo en vídeo](#video)
 
 La creación de una actividad de marketing se detalla en la sección [Creación de actividades de marketing](../../start/using/marketing-activities.md#creating-a-marketing-activity).
 
@@ -67,14 +68,13 @@ La creación de una actividad de marketing se detalla en la sección [Creación 
 
 1. Confirme la creación de la actividad y, entonces, se mostrará el panel de dicha actividad. Para obtener más información, consulte la sección [Interfaz de flujo de trabajo](../../automating/using/workflow-interface.md).
 
-1. Una vez que el flujo de trabajo esté listo para configurarse, puede acceder a opciones adicionales haciendo clic en el botón **[!UICONTROL Edit properties]**. Por ejemplo, puede definir un huso horario específico para utilizarlo de forma predeterminada en todas las actividades del flujo de trabajo. De forma predeterminada, el uso horario del flujo de trabajo es la definida para el operador de Campaign actual.
+1. Una vez que el flujo de trabajo esté listo para configurarse, puede acceder a opciones adicionales haciendo clic en el botón **[!UICONTROL Edit properties]**.
+
+   Por ejemplo, puede definir un huso horario específico para utilizarlo de forma predeterminada en todas las actividades del flujo de trabajo. De forma predeterminada, el uso horario del flujo de trabajo es la definida para el operador de Campaign actual.
+
+   Para obtener más información sobre las propiedades de los flujos de trabajo, consulte [esta página](../../automating/using/managing-execution-options.md).
 
    ![](assets/workflow_properties.png)
-
-**Temas relacionados:**
-
-* Vídeo de [creación de un flujo de trabajo](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/managing-processes-and-data/workflow-general-operation/building-a-workflow.html)
-* [Propiedades del flujo de trabajo](../../automating/using/managing-execution-options.md)
 
 ## Adición y vinculación de actividades {#adding-and-linking-activities}
 
@@ -130,3 +130,11 @@ De forma predeterminada, las actividades no están configuradas y no procesarán
 1. Defina todas las opciones diferentes que necesite para procesar los datos. Consulte la sección específica de la actividad de esta documentación para conocer las posibles opciones para cada actividad.
 1. Guarde la actividad y repita estas operaciones para cada actividad del flujo de trabajo.
 1. Guarde el flujo de trabajo.
+
+## Tutorial video {#video}
+
+Este vídeo muestra cómo crear un flujo de trabajo.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
+
+Hay disponibles más vídeos de procedimientos para Campaign Standards [aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
