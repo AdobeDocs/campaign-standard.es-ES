@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 100%
+source-wordcount: '449'
+ht-degree: 95%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 100%
 ## Acerca de los perfiles de prueba {#about-test-profiles}
 
 Los perfiles de prueba permiten encontrar destinatarios adicionales que no coinciden con los criterios de objetivo definidos. Se añaden a la audiencia de un mensaje para detectar cualquier uso fraudulento de la base de datos de destinatario o para garantizar que los correos electrónicos llegan a las bandejas de entrada.
+
+![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
 
 Puede administrar los perfiles de prueba desde el menú avanzado **[!UICONTROL Profiles & audiences > Test profiles]**.
 
@@ -65,10 +67,6 @@ Un perfil de prueba contiene información ficticia de contacto, o información d
 
 A continuación, el perfil de prueba se añade a la lista de perfiles.
 
-**Temas relacionados:**
-
-Vídeo de la [Creación de un perfil de prueba](https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/profiles-and-audiences/test-profiles.translate.html)
-
 ## Edición de perfiles de prueba {#editing-test-profiles}
 
 Para editar un perfil de prueba y consultar los datos vinculados a él o modificarlo:
@@ -79,3 +77,11 @@ Para editar un perfil de prueba y consultar los datos vinculados a él o modific
    ![](assets/test_profile_edit.png)
 
 1. Haga clic en **[!UICONTROL Save]** si ha introducido los cambios o seleccione el nombre del perfil de prueba y, a continuación, en **[!UICONTROL Test profiles]** en la sección de la parte superior de la pantalla para volver al panel de perfiles de prueba.
+
+## Tutorial video {#video}
+
+Este vídeo muestra cómo crear un perfil de prueba.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24094?quality=12)
+
+Hay disponibles más vídeos de procedimientos para Campaign Standards [aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
