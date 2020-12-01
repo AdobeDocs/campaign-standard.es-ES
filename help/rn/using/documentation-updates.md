@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 0690765f26398391b4604136b203541a109e203b
 workflow-type: tm+mt
 source-wordcount: '6305'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ La sección Datos personales y Personas se ha actualizado con un escenario de ca
 
 Se ha añadido una nueva sección que enumera las preguntas más frecuentes sobre privacidad. [Más información](../../start/using/privacy-faq.md)
 
-La sección Privacidad se ha movido y enriquecido con dos páginas nuevas: [Administración de privacidad](../../start/using/privacy-management.md) y [Administración de solicitudes de privacidad](../../start/using/privacy-requests.md).
+La sección Privacidad se ha movido y enriquecido con dos páginas nuevas: [Administración de privacidad](../../start/using/privacy-management.md) y [Administración de solicitudes](../../start/using/privacy-requests.md)de privacidad.
 
 Se ha añadido información en la sección Conector de datos de Adobe Experience Platform sobre el error de validación de asignación de datos relacionado con la administración de privacidad y cómo solucionarlo. [Más información](../../developing/using/aep-mapping-activation.md)
 
@@ -49,7 +49,7 @@ Se ha enriquecido la sección sobre cómo invocar a un flujo de trabajo con par�
 
 Se ha agregado una recomendación a las optimizaciones de flujos de trabajo sobre el número de actividades que se deben utilizar por flujo de trabajo. [Más información](../../automating/using/best-practices-workflows.md#number-activities)
 
-Se ha añadido una nueva sección sobre las prácticas recomendadas de Envío. [Más información](../../sending/using/delivery-best-practices.md)
+Se ha añadido una nueva sección sobre las prácticas recomendadas de entregas. [Más información](../../sending/using/delivery-best-practices.md)
 
 Se ha agregado una sección para describir los nuevos filtros que permiten buscar las configuraciones de evento según su estado y hasta la última vez que se recibió un evento. [Más información](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events)
 
@@ -189,7 +189,7 @@ La documentación de Configuración de una aplicación móvil y las páginas rel
 
 Se ha actualizado y mejorado la documentación sobre la integración de Adobe Campaign Standard y Adobe Experience Manager. [Más información](../../integrating/using/configure-experience-manager.md)
 
-La documentación del Diseñador de correo electrónico de Campaña y las páginas relacionadas se han actualizado para reflejar la depreciación de [!DNL Adobe Creative SDK]. [Más información](../../rn/using/deprecated-features.md)
+La documentación del Diseñador de correos electrónicos de Campaign y las páginas relacionadas se han actualizado para indicar que [!DNL Adobe Creative SDK] ha quedado obsoleto. [Más información](../../rn/using/deprecated-features.md)
 
 Ya está disponible una nueva sección dedicada a las prácticas recomendadas del modelo de datos de Campaign Standard. [Más información](../../developing/using/data-model-best-practices.md)
 
@@ -239,7 +239,7 @@ La documentación de Uso de Campaign y Experience Manager se ha actualizado con 
 
 La página de inicio de la documentación de las API se ha mejorado con el redireccionamiento a los diferentes temas. [Más información](../../api/using/get-started-apis.md)
 
-## Nov. - Dic. 2019 {#doc-updates-december-2019}
+## De noviembre a diciembre de 2019 {#doc-updates-december-2019}
 
 Se ha actualizado la documentación de Configuración de la cuenta externa S3. [Más información](../../administration/using/external-accounts.md#amazon-s3-external-account)
 
@@ -259,7 +259,7 @@ Se ha actualizado la tabla de **cálculo de indicador**. [Más información](../
 
 El conjunto de documentación de las API se ha integrado en la documentación de Campaign Standard.[Más información](../../api/using/get-started-apis.md)
 
-Se ha movido y actualizado la sección Creación de un correo electrónico personalizado para empezar. [Más información](https://helpx.adobe.com/es/campaign/kb/acs-get-started-with-emails.html)
+La sección de introducción a la creación de un correo electrónico personalizado se ha movido y actualizado. [Más información](https://helpx.adobe.com/es/campaign/kb/acs-get-started-with-emails.html)
 
 Se ha actualizado la guía de introducción a las prácticas recomendadas de entrega. [Más información](../../sending/using/delivery-best-practices.md)
 
@@ -291,7 +291,7 @@ Se ha añadido una nueva sección en la que se describe cómo aplicar estilo a l
 
 Se ha añadido información relacionada con la privacidad a la documentación de las API [Haga clic aquí](../../api/using/creating-a-privacy-request.md)
 
-## Sept. - Oct. 2019 {#doc-updates-october-2019}
+## Septiembre a octubre de 2019 {#doc-updates-october-2019}
 
 Se ha añadido una nueva sección relacionada con la configuración de Campaign Standard. [Más información](../../administration/using/about-campaign-standard-settings.md)
 
@@ -363,7 +363,7 @@ Se ha actualizado la lista de mensajes de error para Standard y Campaign Classic
 
 Se ha añadido una advertencia en la documentación de recursos personalizada. Se recomienda usar un máximo de 30 caracteres para los ID de recursos personalizados. Esto también se aplica a los campos de recursos personalizados, las claves, los índices y los enlaces. [Más información](../../developing/using/creating-or-extending-the-resource.md)
 
-## Junio - Julio de 2019 {#doc-updates-2019}
+## De junio a julio de 2019 {#doc-updates-2019}
 
 Se ha añadido una nueva página sobre las limitaciones de las páginas de aterrizaje. [Más información](../../channels/using/getting-started-with-landing-pages.md#landing-page-limitations)
 
