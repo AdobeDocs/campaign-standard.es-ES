@@ -7,28 +7,30 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 5%
+source-wordcount: '444'
+ht-degree: 6%
 
 ---
 
 
 # Exportación de listas{#exporting-lists}
 
-Adobe Campaign le permite exportar sus listas directamente en un archivo para su uso futuro. Exportar una lista en un archivo genera una entrada de registro en el **[!UICONTROL Export audits]** menú. Para obtener más información sobre las auditorías de exportación, consulte la sección [Auditoría de exportaciones](../../administration/using/auditing-export-logs.md).
+Adobe Campaign le permite exportar sus listas directamente en un archivo para su uso futuro. Exportar una lista en un archivo genera una entrada de registro en el menú **[!UICONTROL Export audits]**. Para obtener más información sobre las auditorías de exportación, consulte la sección [Auditoría de exportaciones](../../administration/using/auditing-export-logs.md).
 
-The export list option allows you to export a maximum of 100,000 lines by default and defined by the **Nms_ExportListLimit** option. This option can be managed by the functional administrator, under the **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** menu.
+![](assets/do-not-localize/how-to-video.png) [Descubra cómo configurar una lista en vídeo](#video)
 
-La lista de exportación está disponible en todas las pantallas que tienen una vista de modo de **Lista** para los usuarios con la **[!UICONTROL EXPORT (export)]** función.
+La opción de lista de exportación permite exportar un máximo de 100.000 líneas de forma predeterminada y definidas por la opción **Nms_ExportListLimit**. Esta opción la puede administrar el administrador funcional, en el menú **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
 
-1. Vaya a la pantalla de **Lista** seleccionada. Por ejemplo, la pantalla de información general del perfil de prueba ( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** ).
-1. Compruebe que la pantalla está en modo de **Lista** .
+La lista de exportación está disponible en todas las pantallas que tienen una vista de modo **Lista** para los usuarios con la función **[!UICONTROL EXPORT (export)]**.
+
+1. Vaya a la pantalla **Lista** seleccionada. Por ejemplo, la pantalla de información general del perfil de prueba ( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** ).
+1. Compruebe que la pantalla está en modo **Lista**.
 
    ![](assets/export_list_mode_switch.png)
 
-1. Organice las columnas de la lista en el orden en que desee exportarlas con el **[!UICONTROL Configure list]** botón situado en la esquina superior derecha. Además de las columnas configuradas, también se exportará la clave principal del recurso.
+1. Organice las columnas de la lista en el orden en que desee exportarlas mediante el botón **[!UICONTROL Configure list]**, en la esquina superior derecha. Además de las columnas configuradas, también se exportará la clave principal del recurso.
 1. Si lo desea, puede aplicar un filtro. Para ello, haga clic en el botón de la esquina superior izquierda para mostrar el panel de búsqueda.
 
    Si realiza una exportación desde una lista que contiene distintos recursos, debe aplicar sus filtros para que solo se muestre un tipo de recurso en la lista.
@@ -42,7 +44,7 @@ El archivo se genera en formato CSV con la extensión .TXT. Su nombre depende de
 
 Los valores numéricos y las fechas tienen en cuenta la hora local (configuración regional) del usuario que realiza la exportación. Por ejemplo: DD-MM-AAAA o MM-DD-AAAA.
 
-Para llevar a cabo una exportación que sea mayor que ésta, debe crear un flujo de trabajo dedicado. Refer to the [Extract file](../../automating/using/extract-file.md) section.
+Para llevar a cabo una exportación que sea mayor que ésta, debe crear un flujo de trabajo dedicado. Consulte la sección [Extraer archivo](../../automating/using/extract-file.md).
 
 **Ejemplo**
 
@@ -73,4 +75,11 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 
 * [Funciones](../../administration/using/list-of-roles.md)
 * [Personalización de listas](../../start/using/customizing-lists.md)
-* [Configuración del vídeo de lista](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/configure-a-list.html)
+
+## Tutorial video {#video}
+
+Este vídeo muestra cómo configurar listas.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25288/?quality=12)
+
+Hay disponibles más vídeos de procedimientos para Campaign Standards [aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
