@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '2412'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 99%
 <tr> 
   <td> <p>Ahora puede utilizar <strong>Grupos de control</strong> para medir el impacto de sus campañas al excluir una parte de su audiencia. A continuación, podrá comparar el comportamiento de la población de destinatarios que recibió el mensaje con el comportamiento de los contactos a los que no estaban destinados. En función de los registros de envío, también puede destinar un grupo de control en campañas futuras.
 </p>
-<p>Para obtener más información, consulte la <a href="../../sending/using/control-group.md">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html">videotutorial</a>.
+<p>Para obtener más información, consulte la <a href="../../sending/using/control-group.md">documentación detallada</a> y el <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html?lang=es#communication-channels">videotutorial</a>.
 </p>
 </td> 
 </tr> 
@@ -129,7 +129,7 @@ ht-degree: 99%
 **Parches**
 
 * Se ha corregido un problema que impedía usar un vínculo de destino para notificaciones push o mensajería en la aplicación cuando el seguimiento estaba habilitado.
-* Se corrigió un problema en el cual no se respetaba la alta prioridad en mensajes transaccionales en caso de envío masivo significativo.
+* Se ha corregido un problema en el cual no se respetaba la alta prioridad en mensajes transaccionales en caso de envío masivo significativo.
 * Se ha corregido un problema que podía impedir que asignara marcas a un correo electrónico transaccional. Durante el paso de publicación se muestran varios mensajes de error. (CAMP-44988)
 * Se ha corregido un problema en la interfaz de usuario del flujo de trabajo que impedía guardar información en campos que solicitaban valores numéricos. (CAMP-44025)
 * Se ha corregido un problema que podía mostrar un mensaje de error al usar una **actividad de prueba** en un flujo de trabajo de plantilla de importación. (CAMP-42910)
