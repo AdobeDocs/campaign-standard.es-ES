@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 7%
@@ -24,16 +24,16 @@ ht-degree: 7%
 
 Potencie las experiencias de sus clientes aprovechando [Adobe Experience Platform](https://docs.adobe.com/content/help/en/experience-platform/landing/home.html) para crear audiencias con objetivos muy precisos basadas en conjuntos de datos grandes y complejos. Adobe Experience Platform consolida los datos de perfil, comportamiento y multientidad en fuentes en línea y sin conexión, incluido Adobe Analytics, para ayudarle a crear una vista de 360 grados de su cliente, permitiéndole administrar eficazmente sus experiencias con el cliente.
 
-Adobe Campaign Standard utilizará entonces el servicio **Audiencia Destinos** para recuperar una colección de perfiles, conocidos como **Audiencias**, de Adobe Experience Platform para programas de campaña de varios pasos y/o canales cruzados.
+Adobe Campaign Standard utilizará el servicio **Destinos de Audiencia** para recuperar una colección de perfiles, conocidos como **Audiencias**, de Adobe Experience Platform para programas de campaña de varios pasos y/o canales cruzados.
 
-**Las audiencias** se crean por primera vez mediante la creación de **segmentos**, que son esencialmente un conjunto de reglas basadas en prácticamente cualquier variable (por ejemplo, perfil, evento, datos de varias entidades) dentro de un perfil de clientes de Adobe Experience Platform para crear un destinatario multidimensional. En estos documentos específicos se hace referencia a los conceptos globales sobre los servicios de Perfil y segmentación de clientes en tiempo real:
+**Las** audiencias se crean creando primero  **segmentos**, que son esencialmente un conjunto de reglas basadas en prácticamente cualquier variable (por ejemplo, perfil, evento, datos de varias entidades) dentro de un perfil de cliente de Adobe Experience Platform para crear un destinatario multidimensional. En estos documentos específicos se hace referencia a los conceptos globales sobre los servicios de Perfil y segmentación de clientes en tiempo real:
 
 * [Información general sobre el Perfil del cliente en tiempo real](https://docs.adobe.com/content/help/es-ES/experience-platform/profile/home.html)
 * [Descripción general del servicio de segmentación](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html)
 
-Una vez creado un segmento, puede activarlo como audiencia para un envío en flujos de trabajo [de](../../automating/using/aep-targeting-audiences.md)Campaign Standard. Además, puede utilizar datos contextuales de Adobe Experience Platform para [personalizar](../../automating/using/aep-personalizing-campaigns.md) y agregar contenido dinámico a sus campañas.
+Una vez creado un segmento, puede activarlo como una audiencia para un envío en [flujos de trabajo de Campaign Standard](../../automating/using/aep-targeting-audiences.md). Además, puede utilizar datos contextuales de Adobe Experience Platform para [personalizar](../../automating/using/aep-personalizing-campaigns.md) y agregar contenido dinámico a sus campañas.
 
-Los vídeos de procedimientos también están disponibles en [esta sección](https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.translate.html).
+![](assets/do-not-localize/how-to-video.png) Los vídeos de procedimientos también están disponibles en  [esta sección](https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.translate.html).
 
 Términos utilizados en estas secciones:
 
