@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: e20485978deba54f45010a41921b948f049222f2
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '583'
 ht-degree: 100%
 
 ---
@@ -103,7 +103,7 @@ Para ocultar el número de la prueba en la línea de asunto, active la opción *
 
 **Temas relacionados:**
 
-* [Envío de una prueba, preparación y envío de un vídeo por correo electrónico](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/sending-test-preparing-sending-email.html)
+* [Envío de una prueba, preparación y envío de un vídeo por correo electrónico](../../sending/using/get-started-sending-messages.md#video)
 * [Prueba de mensajes de correo electrónico con perfiles de destino](../../sending/using/testing-messages-using-target.md)
 * [Administración de perfiles de prueba](../../audiences/using/managing-test-profiles.md)
 * [Vista previa de mensajes](../../sending/using/previewing-messages.md)
