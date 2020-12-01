@@ -7,9 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '226'
 ht-degree: 100%
 
 ---
@@ -22,11 +22,11 @@ Adobe Campaign le permite definir y administrar los permisos asignados a distint
 * **Unidades organizativas**: le permiten definir una jerarquía de permisos en los distintos objetos de la plataforma (correos electrónicos, flujos de trabajo, plantillas, usuarios, perfiles, etc.). Consulte la sección [Unidades organizativas](../../administration/using/organizational-units.md).
 * **Funciones**: conjunto de derechos unitarios que le permiten definir las autorizaciones asignadas a usuarios y grupos de usuarios. Consulte la sección [Lista de funciones](../../administration/using/list-of-roles.md) .
 
-   Combinadas con las unidades organizativas, las funciones proporcionan a los usuarios una vista filtrada de la interfaz y definen su acceso a las diferentes funciones. Para obtener más información, consulte la [Tabla de autorizaciones](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
+   Combinadas con las unidades organizativas, las funciones proporcionan a los usuarios una vista filtrada de la interfaz y definen su acceso a las diferentes funciones. Para obtener más información, consulte la [Tabla de autorizaciones](../../administration/using/list-of-roles.md).
 
 >[!IMPORTANT]
 >
->Tenga en cuenta que la capacidad de la unidad geográfica ha quedado obsoleta. Para obtener más información, consulte [esta página](https://helpx.adobe.com/es/campaign/kb/acs-deprecated-and-removed-features.html).
+>Tenga en cuenta que la capacidad de la unidad geográfica ha quedado obsoleta. Para obtener más información, consulte [esta página](../../rn/using/deprecated-features.md).
 
 El administrador funcional de la plataforma puede administrar los roles, grupos y unidades organizativas en el menú **[!UICONTROL Administration > Users & Security]**.
 
