@@ -6,10 +6,10 @@ title: Documentación del producto de Adobe Campaign Standard
 description: Examinar la documentación del producto Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: a7300666587362048431d0bafacc317170b317aa
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 90%
+source-wordcount: '216'
+ht-degree: 91%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 90%
 
 ## Novedades
 
-* **[Se han añadido las fechas de la próxima versión de febrero de 2021 a la planificación de la versión](rn/using/release-planning.md)**<br/>
+* **[Se han añadido las fechas de ](rn/using/release-planning.md)**<br/> la próxima versión de febrero de 2021 a la planificación de la versión
 
 * **[Grupos de control](sending/using/control-group.md)**<br/>
 Miden el impacto de sus campañas al excluir una parte de su audiencia.
@@ -79,5 +79,5 @@ Obtenga más información sobre las directrices generales para envíos móviles 
 | [Documentación del Panel de control](https://docs.adobe.com/content/help/es-ES/control-panel/using/control-panel-home.html) | [API de Campaign](api/using/get-started-apis.md) |
 | [Guía de implementación](https://helpx.adobe.com/es/campaign/kb/campaign-standard-implementation-guide.html) | [Lista de mensajes de error](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Planificación de versiones](rn/using/release-planning.md) | [Modelo de datos de Campaign](developing/using/datamodel-introduction.md) |
-| [Funciones obsoletas y eliminadas](https://helpx.adobe.com/es/campaign/kb/acs-deprecated-and-removed-features.html) | [Guía de varias soluciones](integrating/using/get-started-campaign-integrations.md) |
+| [Funciones obsoletas y eliminadas](rn/using/deprecated-features.md)) | [Guía de varias soluciones](integrating/using/get-started-campaign-integrations.md) |
 | [Introducción a Campaign Standard](start/using/about-campaign-standard.md) | [Notas técnicas](https://helpx.adobe.com/es/campaign/kb/acs-article-list.html) |
