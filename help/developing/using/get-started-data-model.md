@@ -7,10 +7,10 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 29%
+source-wordcount: '336'
+ht-degree: 30%
 
 ---
 
@@ -29,9 +29,9 @@ Amplíe el modelo de datos de Campaign Standard con sus propios campos y recurso
 
 <img src="assets/do-not-localize/icon_datamodel.svg" width="60px">
 
-Los datos utilizados por la Campaña se definen mediante diferentes recursos definidos en un modelo **de datos** predefinido. El modelo de datos muestra una estructura SQL lista para usar para un conjunto de recursos relacionados con el marketing: envío, audiencia, páginas de aterrizaje, perfil, etc. Cada recurso viene con filtros asociados, lo que le permite navegar por los recursos.
+Los datos utilizados por la Campaña se definen a través de diferentes recursos definidos en un **modelo de datos predefinido**. El modelo de datos muestra una estructura SQL lista para usar para un conjunto de recursos relacionados con el marketing: envío, audiencia, páginas de aterrizaje, perfil, etc. Cada recurso viene con filtros asociados, lo que le permite navegar por los recursos.
 
-El menú **Diagnóstico** le permite realizar listas de los objetos técnicos generados por el Campaign Standard: esquemas de datos, páginas web, filtros, etc., que le permiten monitorear el modelo de datos y cualquier cambio realizado en él.
+El menú **Diagnóstico** le permite lista de los objetos técnicos generados por el Campaign Standard: esquemas de datos, páginas web, filtros, etc., que le permiten monitorear el modelo de datos y cualquier cambio realizado en él.
 
 Más información:
 
@@ -44,9 +44,9 @@ Más información:
 
 <img src="assets/do-not-localize/icon_custom.svg" width="60px">
 
-Campaign Standard permite **enriquecer el modelo** de datos predefinido para crear sus propios recursos (por ejemplo, para agregar tablas de compra o producto) o para ampliar los recursos existentes con nuevos campos. También puede configurar pantallas de Campaña para optimizar la navegación a través de los nuevos recursos y campos que se han creado.
+Campaign Standard le permite **Enriquecer el modelo de datos predefinido** para crear sus propios recursos (por ejemplo, para agregar tablas de compra o producto) o para ampliar los recursos existentes con nuevos campos. También puede configurar pantallas de Campaña para optimizar la navegación a través de los nuevos recursos y campos que se han creado.
 
-Además, puede **ampliar las API** REST de Campaign Standard para que se muestren en los campos extendidos de las API para los Perfiles de recursos personalizados. Esto le permite, por ejemplo, actualizar el perfil de un cliente con un código promocional generado a partir de un sistema de facturación.
+Además, puede **ampliar las API de REST de Campaign Standard** para que se muestren en los campos extendidos de las API para los Perfiles de recursos personalizados. Esto le permite, por ejemplo, actualizar el perfil de un cliente con un código promocional generado a partir de un sistema de facturación.
 
 Más información:
 
@@ -55,7 +55,7 @@ Más información:
 * [Caso de uso: Ampliación del recurso de perfil con un nuevo campo](../../developing/using/extending-the-profile-resource-with-a-new-field.md)
 * [Caso de uso: Ampliación de las suscripciones a un recurso de aplicación](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)
 
-## Trabajo con API {#apis}
+## Trabajar con API {#apis}
 
 <img src="assets/do-not-localize/icon_api.svg" width="60px">
 
@@ -64,5 +64,4 @@ Con las API de Campaign Standard, cree integraciones para Adobe Campaign Standar
 ## Recursos adicionales
 
 * [Acerca de Adobe Experience Platform Data Connector](../../developing/using/aep-about-data-connector.md)
-* [Creación de recursos personalizados (vídeo)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/developing/custom-resources-develop/creating-custom-resources.html)
 * [Exportación e importación de recursos personalizados](https://helpx.adobe.com/campaign/kb/acs-get-started-with-cusres.html)
