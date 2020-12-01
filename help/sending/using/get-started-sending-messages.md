@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: e20485978deba54f45010a41921b948f049222f2
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 14%
+source-wordcount: '589'
+ht-degree: 15%
 
 ---
 
@@ -30,17 +30,19 @@ Una vez que se hayan ejecutado las campañas de mercadotecnia y se hayan enviado
 
 Por último, aproveche las directrices y herramientas de entrega disponibles en Campaign Standard para mejorar el número de mensajes entregados y garantizar campañas de marketing exitosas.
 
-## Preparación y prueba {#prepare-test-send}
+![](assets/do-not-localize/how-to-video.png) [Descubra cómo enviar un correo electrónico de prueba, preparar y enviar un envío de correo electrónico en vídeo](#video)
+
+## Preparar y probar {#prepare-test-send}
 
 <img src="assets/do-not-localize/icon_prepare.svg" width="60px">
 
-La preparación **de** mensajes de Campaign Standard analiza el destinatario, la personalización y la validez del mensaje. Los errores detectados durante este paso deben corregirse antes de poder continuar.
+El Campaign Standard **de preparación de mensajes** analiza el destinatario, la personalización y la validez del mensaje. Los errores detectados durante este paso deben corregirse antes de poder continuar.
 
-**Realice previsualizaciones y pruebas** de los mensajes con diversas funciones: enviar pruebas para probar perfiles o perfiles con objetivos, probar la línea de asunto de los mensajes de correo electrónico y comprobar la presentación de los mensajes para asegurarse de que se muestre de manera óptima en una variedad de clientes web, correos electrónicos y dispositivos.
+**Previsualización y** prueba de sus mensajes con diversas funciones: enviar pruebas para probar perfiles o perfiles con objetivos, probar la línea de asunto de los mensajes de correo electrónico y comprobar la presentación de los mensajes para asegurarse de que se muestre de manera óptima en una variedad de clientes web, correos electrónicos y dispositivos.
 
 Aproveche las capacidades de programación de Campañas para definir cuándo se enviarán los mensajes. Por ejemplo, puede adaptar el envío en la zona horaria del destinatario, optimizar la hora de envío o calcular la fecha de envío.
 
-Use **tipologías** para comprobar durante la preparación si su mensaje es válido y cumple con sus criterios de calidad mediante reglas de fatiga, control y segmentación. Por ejemplo, para comprobar que los correos electrónicos siempre contienen una línea de asunto o para excluir a los suscriptores de los destinatarios de mensaje.
+Use **tipologías** para comprobar durante la preparación si el mensaje es válido y cumple los criterios de calidad mediante reglas de fatiga, control y objetivo. Por ejemplo, para comprobar que los correos electrónicos siempre contienen una línea de asunto o para excluir a los suscriptores de los destinatarios de mensaje.
 
 Más información:
 
@@ -51,13 +53,13 @@ Más información:
 * [Programación de mensajes](../../sending/using/about-scheduling-messages.md)
 * [Información sobre las tipologías y reglas de tipología](../../sending/using/about-typology-rules.md)
 
-## Envío, supervisión y seguimiento {#send-track-messages}
+## Enviar, supervisar y rastrear {#send-track-messages}
 
 <img src="assets/do-not-localize/icon_send.svg"  width="60px">
 
-Una vez que el mensaje esté listo, puede confirmar los registros y los informes de envío y acceso para **monitorear el envío** y medir el éxito de la campaña. Adobe Campaign también ofrece un sistema de alertas por correo electrónico para realizar un seguimiento de los éxitos o errores de los envíos, así como de las funciones de administración de cuarentenas.
+Una vez que el mensaje esté listo, puede confirmar el envío y el acceso de registros e informes para **monitorear el envío** y medir el éxito de la campaña. Adobe Campaign también ofrece un sistema de alertas por correo electrónico para realizar un seguimiento de los éxitos o errores de los envíos, así como de las funciones de administración de cuarentenas.
 
-**Rastree el comportamiento** de los destinatarios de mensajes utilizando cookies permanentes y de sesión para recuperar información de seguimiento (direcciones URL en las que se hizo clic, páginas espejo, mensajes abiertos...).
+**Rastree el** comportamiento de los destinatarios de mensajes mediante cookies permanentes y de sesión para recuperar información de seguimiento (direcciones URL en las que se hizo clic, páginas espejo, mensajes abiertos...).
 
 Finalmente, puede configurar Adobe Campaign para **guardar una copia de los correos electrónicos** enviados desde su plataforma a través de Email BCC. En particular, si su organización necesita archivar todos los mensajes de correo electrónico salientes para cumplir con la normativa, puede habilitar esta capacidad.
 
@@ -70,13 +72,13 @@ Más información:
 * [Comprensión de los errores de entrega](../../sending/using/understanding-delivery-failures.md)
 * [Comprensión de la gestión de la cuarentena](../../sending/using/understanding-quarantine-management.md)
 
-## Directrices de capacidad de entrega {#improve-deliverability}
+## Directrices de entregabilidad {#improve-deliverability}
 
 <img src="assets/do-not-localize/icon_deliverability.svg"  width="60px">
 
 La posibilidad de entrega permite medir el éxito de sus campañas alcanzando la bandeja de entrada de sus destinatarios sin rebotar, o bien se marca como correo no deseado.
 
-Campaign Standard proporciona varias herramientas **de** entrega para ayudarle a mejorar el número de mensajes enviados correctamente: informes de perspectiva de envío, envío de optimización de tiempo, previsualización de mensajes, procesamiento de correo electrónico, administración de cuarentenas, etc.
+Campaign Standard proporciona varias **herramientas de entregabilidad** para ayudarle a mejorar el número de mensajes entregados correctamente: informes de perspectiva de envío, envío de optimización de tiempo, previsualización de mensajes, procesamiento de correo electrónico, administración de cuarentenas, etc.
 
 Más información:
 
@@ -89,8 +91,14 @@ Más información:
 ## Recursos adicionales
 
 * [Diseño de correos electrónicos de prueba A/B](../../channels/using/designing-an-a-b-test-email.md)
-* [Envío de una prueba, preparación y envío de un correo electrónico (vídeo)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/sending-test-preparing-sending-email.html)
-* [Revisar un envío de correo electrónico e informes (vídeo)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/reviewing-personalized-email-delivery-and-reports.html)
 * [Introducción a los correos electrónicos](https://helpx.adobe.com/es/campaign/kb/acs-get-started-with-emails.html)
 * [Prácticas recomendadas relacionadas con las entregas](../../sending/using/delivery-best-practices.md)
 * [Adición de un grupo de control](../../sending/using/control-group.md)
+
+## Tutorial video {#video}
+
+Este vídeo muestra cómo enviar un correo electrónico de prueba, preparar y enviar un envío de correo electrónico en Campaign Standard.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24013/)
+
+Hay disponibles más vídeos de procedimientos para Campaign Standards [aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
