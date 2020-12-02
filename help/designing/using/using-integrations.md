@@ -7,7 +7,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 6%
@@ -50,7 +50,7 @@ El contenido del correo electrónico se puede editar en el Experience Manager y 
 >title="Uso de listados de productos"
 >abstract="Las listas de productos le permiten hacer referencia a una colección de datos y mostrarla en el contenido del correo electrónico."
 
-Las listas de productos le permiten hacer referencia a una o varias colecciones de datos en el contenido del correo electrónico. Estos listados están disponibles para correos electrónicos transaccionales. Una sección dedicada para esta función está disponible [aquí](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message).
+Las listas de productos le permiten hacer referencia a una o varias colecciones de datos en el contenido del correo electrónico. Estos listados están disponibles para correos electrónicos transaccionales. Una sección dedicada para esta función está disponible [aquí](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message).
 
 ## Comparación de opciones de diseño de correo electrónico {#email-design-options-comparison}
 
@@ -81,7 +81,7 @@ Adobe Campaign oferta varias opciones de creación de correo electrónico. En el
   <tr> 
    <td> <strong>Actualizar HTML</strong><br /> </td> 
    <td> Solo dentro de un componente HTML<br /> </td> 
-   <td> Not supported<br /> </td> 
+   <td> No admitido<br /> </td> 
    <td> Compatible<br /> </td> 
   </tr> 
   <tr> 
@@ -93,8 +93,8 @@ Adobe Campaign oferta varias opciones de creación de correo electrónico. En el
   <tr> 
    <td> <strong>Personalización avanzada</strong><br /> </td> 
    <td> Compatible<br /> </td> 
-   <td> Not supported<br /> </td> 
-   <td> Not supported<br /> </td> 
+   <td> No admitido<br /> </td> 
+   <td> No admitido<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Prueba/Previsualización</strong><br /> </td> 
@@ -148,7 +148,7 @@ Adobe Campaign oferta varias opciones de creación de correo electrónico. En el
    <td> <strong>Para obtener más información</strong><br /> </td> 
    <td> Consulte <a href="../../designing/using/designing-content-in-adobe-campaign.md">Acerca del Diseñador de correo electrónico</a>.<br /> </td> 
    <td> Consulte <a href="../../integrating/using/integrating-with-experience-manager.md">Integración con Experience Manager</a>.<br /> </td> 
-   <td> Consulte <a href="https://helpx.adobe.com/es/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver y Campaña</a> y vea este <a href="#video">vídeo</a>.<br /> </td> 
+   <td> Consulte <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver y Campaña</a> y vea este <a href="#video">vídeo</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
