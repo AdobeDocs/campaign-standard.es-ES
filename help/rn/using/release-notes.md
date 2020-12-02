@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
 workflow-type: tm+mt
 source-wordcount: '2412'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 [Planificación de versiones](../../rn/using/release-planning.md) | [Versiones del Panel de control](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html) | [Actualizaciones de documentación](../../rn/using/documentation-updates.md) | [Notas de la versión anteriores](../../rn/using/release-notes-2020.md) | [Funciones obsoletas](../../rn/using/deprecated-features.md)
 
-![](assets/do-not-localize/cp-icon.png) **la nueva versión de Panel de control de Campaign de octubre** con configuración de dominio mediante CNAME y nuevas funciones de supervisión de bases de datos. [Más información](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **la nueva versión de Panel de control de Campaign de octubre** con configuración de dominio mediante CNAME y nuevas funciones de supervisión de bases de datos. [Más información](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
 ## Versión 20.4: octubre de 2020 {#release-20-4---october-2020}
 
@@ -112,7 +112,7 @@ ht-degree: 100%
 * Al publicar un recurso personalizado, ahora se muestra una ventana emergente de confirmación después de la preparación.
 * Se ha mejorado el mensaje emergente que aparece cuando falla un recurso personalizado para una mejor claridad.
 * Se ha mejorado el editor de expresiones en flujos de trabajo para evitar errores de ejecución. Hay [nuevas funciones](../../automating/using/customizing-workflow-external-parameters.md) disponibles: se pueden utilizar en todas las actividades que permiten utilizar variables de evento después de invocar a un flujo de trabajo con parámetros externos. Además, ahora se muestra la información de objeto en el editor de expresiones con la descripción de la función.
-* [Se han agregado nuevos filtros a la lista de eventos transaccionales. ](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events) Permiten filtrar las configuraciones de evento según su estado, así como la última vez que se recibió un evento.
+* [Se han agregado nuevos filtros a la lista de eventos transaccionales. ](../../channels/using/configuring-transactional-event.md#searching-transactional-events) Permiten filtrar las configuraciones de evento según su estado, así como la última vez que se recibió un evento.
 * Los registros que se muestran al exportar los paquetes son más específicos y detallados sobre los errores encontrados en caso de error.
 * Después de enviar un mensaje, ahora puede buscar, filtrar y exportar la lista de [direcciones URL rastreadas](../../sending/using/tracking-messages.md).
 * La [sincronización automática entre Experience Platform Launch y Campaign](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) ahora es GA y está activada de forma predeterminada.
