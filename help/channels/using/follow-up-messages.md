@@ -7,38 +7,31 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 translation-type: tm+mt
-source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 4%
+source-wordcount: '722'
+ht-degree: 5%
 
 ---
 
 
-# Mensajes de seguimiento {#follow-up-messages}
+# Mensajes de seguimiento{#follow-up-messages}
 
-Un mensaje de seguimiento es una Plantilla de envíos de marketing predefinida que puede utilizarse en un flujo de trabajo para enviar otra comunicación a los destinatarios de un mensaje transaccional específico.
+Puede enviar un mensaje de seguimiento a los clientes que hayan recibido un mensaje transaccional específico. Para ello, debe configurar un flujo de trabajo dirigido al evento correspondiente.
 
 Vamos a reutilizar el ejemplo descrito en la sección [Principios operativos de mensajería transaccional](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle): se envía un correo electrónico de abandono del carro de compras a los usuarios del sitio web que han agregado productos al carro de compras, pero que han abandonado el sitio sin pasar por sus compras.
 
-Desea enviar un recordatorio práctico a todos los clientes que recibieron la notificación de abandono del carro de compras pero que no la abrieron después de tres días. Recibirán un mensaje de seguimiento basado en los mismos datos que se usaron en el primer mensaje de correo electrónico enviado.
+Desea enviar un recordatorio práctico a todos los clientes que recibieron la notificación de abandono del carro de compras pero que no la abrieron después de tres días.
 
-## Configuración de un evento para enviar un mensaje de seguimiento {#configuring-an-event-to-send-a-follow-up-message}
-
-Para enviar un mensaje de seguimiento, primero debe configurar en consecuencia el evento correspondiente al mensaje transaccional que ya se recibió.
-
-1. Utilice la misma configuración de evento que creó para enviar un mensaje transaccional de evento. Consulte [Configuración de un evento transaccional](../../channels/using/configuring-transactional-event.md).
-1. Al configurar el evento, marque la casilla **[!UICONTROL Create follow-up delivery template for this event]** antes de publicar el evento.
-
-   ![](assets/message-center_follow-up-checkbox.png)
-
-1. [Previsualización y publicación del evento](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
-
-Una vez publicado el evento, se crea automáticamente un mensaje transaccional y una Plantilla de envíos de seguimiento vinculada al nuevo evento. Los pasos para enviar el mensaje de seguimiento se detallan en [esta sección](#sending-a-follow-up-message).
+A continuación, cada cliente interesado recibirá un mensaje de seguimiento basado en los mismos datos que se usaron en el primer correo electrónico enviado.
 
 ## Acceso a los mensajes de seguimiento {#accessing-the-follow-up-messages}
 
-Para gestionar un evento en un flujo de trabajo, se requiere una Plantilla de envíos. Sin embargo, al publicar el evento, el [mensaje transaccional](../../channels/using/editing-transactional-message.md) que se crea no se puede usar como plantilla. Por lo tanto, debe crear una Plantilla de envíos de seguimiento específica diseñada para admitir este tipo de evento y para utilizarse como plantilla en un flujo de trabajo.
+Una vez creado y publicado un evento (el abandono del carro de compras según el [ejemplo](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) anterior), el mensaje transaccional y el mensaje de seguimiento correspondientes se crean automáticamente.
+
+Los pasos de configuración se presentan en la sección [Configuración de un evento para enviar un mensaje de seguimiento](../../administration/using/configuring-transactional-messaging.md#configuring-an-event-to-send-a-follow-up-message).
+
+Para gestionar un evento en un flujo de trabajo, se requiere una Plantilla de envíos. Sin embargo, al publicar el evento, el [mensaje transaccional](../../channels/using/event-transactional-messages.md) que se crea no se puede usar como plantilla. Por lo tanto, debe crear una Plantilla de envíos de seguimiento específica diseñada para admitir este tipo de evento y para utilizarse como plantilla en un flujo de trabajo.
 
 Para acceder a esta plantilla:
 
@@ -58,11 +51,9 @@ Solo se muestran los mensajes de seguimiento.
 
 Una vez creada la Plantilla de envíos de seguimiento, puede utilizarla en un flujo de trabajo para enviar un mensaje de seguimiento.
 
-(Debe configurar un flujo de trabajo dirigido al evento correspondiente al mensaje transaccional que ya se ha recibido).
-
 1. Acceda a la lista de actividad de marketing y cree un nuevo flujo de trabajo.
 
-   Consulte [Generación de un flujo de trabajo](../../automating/using/building-a-workflow.md#creating-a-workflow).
+   Consulte [Creación de un flujo de trabajo](../../automating/using/building-a-workflow.md#creating-a-workflow).
 
 1. Arrastre y suelte una actividad **[!UICONTROL Scheduler]** en el flujo de trabajo y ábrala. Establezca la frecuencia de ejecución en una vez al día.
 
@@ -88,7 +79,7 @@ Una vez creada la Plantilla de envíos de seguimiento, puede utilizarla en un fl
 
    ![](assets/message-center_follow-up-delivery-logs.png)
 
-   Seleccione **[!UICONTROL Exists]** para destinatario de todos los clientes que recibieron el correo electrónico.
+   Seleccione **[!UICONTROL Exists]** para destinatario a todos los clientes que recibieron el correo electrónico.
 
    ![](assets/message-center_follow-up-delivery-logs-exists.png)
 
@@ -110,7 +101,7 @@ Una vez creada la Plantilla de envíos de seguimiento, puede utilizarla en un fl
 
    ![](assets/message-center_follow-up-workflow.png)
 
-   También puede utilizar una actividad [envío SMS](../../automating/using/sms-delivery.md) o [envío de notificaciones push](../../automating/using/push-notification-delivery.md). En este caso, asegúrese de seleccionar el canal **[!UICONTROL Mobile (SMS)]** o **[!UICONTROL Mobile application]** al crear la configuración de evento. Consulte [Creación de un evento](../../channels/using/configuring-transactional-event.md#creating-an-event).
+   También puede utilizar una actividad [SMS envío](../../automating/using/sms-delivery.md) o [envío de aplicaciones móviles](../../automating/using/push-notification-delivery.md). En este caso, asegúrese de seleccionar el canal **[!UICONTROL Mobile (SMS)]** o **[!UICONTROL Mobile application]** al crear la configuración de evento. Consulte [Creación de un evento](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
 
 1. Abra la actividad **envío de correo electrónico**. En el asistente de creación, marque la casilla **[!UICONTROL Follow-up messages]** y seleccione la Plantilla de envíos de seguimiento que se creó después de publicar el evento.
 
@@ -120,7 +111,7 @@ Una vez creada la Plantilla de envíos de seguimiento, puede utilizarla en un fl
 
    ![](assets/message-center_follow-up-content.png)
 
-1. Busque los campos que definió al crear el evento seleccionando **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**. Consulte [Personalización de un mensaje transaccional](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
+1. Busque los campos que definió al crear el evento seleccionando **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**. Consulte [Personalización de un mensaje transaccional](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message).
 
    ![](assets/message-center_follow-up-personalization.png)
 
@@ -132,4 +123,4 @@ Una vez iniciado el flujo de trabajo, todos los clientes que hayan recibido la n
 
 >[!NOTE]
 >
->Si seleccionó la dimensión de segmentación **[!UICONTROL Profile]** al crear la configuración de evento, el mensaje de seguimiento también aprovechará la base de datos de mercadotecnia de Adobe Campaign. Consulte [Mensajes transaccionales de perfil ](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities).
+>Si seleccionó la dimensión de segmentación **[!UICONTROL Profile]** al crear la configuración de evento, el mensaje de seguimiento también aprovechará la base de datos de mercadotecnia de Adobe Campaign. Consulte [Mensajes transaccionales de perfil ](../../channels/using/profile-transactional-messages.md).
