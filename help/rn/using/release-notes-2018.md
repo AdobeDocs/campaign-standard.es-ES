@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
 source-wordcount: '5402'
 ht-degree: 10%
@@ -325,9 +325,9 @@ _Recursos personalizados_
    <td> Uso de recursos personalizados en la mensajería transaccional<br /> </td> 
    <td> Además de los campos predeterminados, la mensajería transaccional ahora permite utilizar recursos personalizados para enriquecer el contenido de los mensajes.<br /> Por ejemplo:<br /> 
     <ul> 
-     <li> Aproveche los campos personalizados como criterios de reconciliación para que coincidan con un mensaje transaccional en un perfil </li> 
+     <li> Aproveche los campos personalizados como criterios de reconciliación para que un mensaje transaccional coincida con un perfil </li> 
      <li> Aproveche todos los perfiles, servicios y datos vinculados para personalizar aún más los mensajes transaccionales </li> 
-    </ul> Para obtener más información, consulte la <a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">documentación detallada</a>.<br /> </td> 
+    </ul> Para obtener más información, consulte la <a href="../../administration/using/configuring-transactional-messaging.md">documentación detallada</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
