@@ -7,9 +7,9 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '242'
 ht-degree: 14%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 14%
 
 # Eliminación de un recurso{#deleting-a-resource}
 
-Para eliminar un recurso, el recurso en cuestión debe ser un **[!UICONTROL Draft]**. El recurso está en **[!UICONTROL Draft]** estado si:
+Para eliminar un recurso, el recurso en cuestión debe ser **[!UICONTROL Draft]**. El recurso está en estado **[!UICONTROL Draft]** si:
 
 * Se acaba de crear y todavía no se ha publicado.
 * Si ya se ha publicado, el recurso tiene que volver a redactarse.
@@ -43,13 +43,13 @@ Para volver a redactar y eliminar un recurso publicado:
 
    >[!NOTE]
    >
-   >Si vuelve a redactar una extensión del recurso de **Perfiles (perfil)** lista para usar, también debe volver a redactar cualquier extensión de perfil **de prueba (miembroDeSemilla)** que haya definido. For more on extending the profile resource, see [this section](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
+   >Si vuelve a redactar una extensión del recurso **Perfiles (perfil)** listo para usar, también debe volver a redactar cualquier extensión **perfil de prueba (miembroDeSemilla)** que haya definido. Para obtener más información sobre cómo ampliar el recurso de perfil, consulte [esta sección](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
 
-1. Publique el recurso. Para obtener pasos más detallados, consulte [Publicación de un recurso](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)personalizado.
+1. Publique el recurso. Para obtener más detalles, consulte [Publicación de un recurso personalizado](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 
-   A continuación, el recurso pasa al modo **Borrador** y su estado de activación es **[!UICONTROL Inactive]**.
+   A continuación, el recurso pasa al modo **Draft** y su estado de activación es **[!UICONTROL Inactive]**.
 
-1. En **[!UICONTROL List]** modo, compruebe el recurso que desea eliminar y, a continuación, haga clic en el ![](assets/delete_darkgrey-24px.png) icono **[!UICONTROL Delete element]** .
+1. En el modo **[!UICONTROL List]**, compruebe el recurso que desea eliminar y haga clic en el icono ![](assets/delete_darkgrey-24px.png) **[!UICONTROL Delete element]**.
 
    ![](assets/schema_extension_uc28.png)
 
@@ -57,5 +57,4 @@ El recurso se elimina del modelo de datos.
 
 >[!NOTE]
 >
->Si se modifica o elimina un campo de un recurso personalizado utilizado en un evento, se cancela la publicación del evento correspondiente de manera automática. See [Configuring transactional messaging](../../administration/using/configuring-transactional-messaging.md).
-
+>Si se modifica o elimina un campo de un recurso personalizado utilizado en un evento, se cancela la publicación del evento correspondiente de manera automática. Consulte [Cancelación de la publicación de un evento transaccional](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
