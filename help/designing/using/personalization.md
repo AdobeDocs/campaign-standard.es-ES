@@ -7,7 +7,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
 source-wordcount: '2573'
 ht-degree: 5%
@@ -167,7 +167,7 @@ La dimensión de segmentación le permite definir en qué tipo de mensaje puede 
 
 De hecho, al editar un mensaje, solo puede seleccionar bloques de contenido con una dimensión de segmentación compatible con la dimensión de segmentación de dicho mensaje.
 
-Por ejemplo, la dimensión de segmentación del bloque **[!UICONTROL Unsubscription link]** es **[!UICONTROL Profiles]** porque contiene campos de personalización específicos del recurso **[!UICONTROL Profiles]**. Por lo tanto, no puede utilizar un bloque **[!UICONTROL Unsubscription link]** en un mensaje transaccional [evento](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types), porque la dimensión de segmentación de ese tipo de mensaje es **[!UICONTROL Real-time events]**. Sin embargo, puede utilizar el bloque **vínculo Baja** en un mensaje transaccional [perfil](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types), porque la dimensión de segmentación de ese tipo de mensaje es **Perfiles**. Por último, el bloque **[!UICONTROL Link to mirror page]** no tiene una dimensión de segmentación, por lo que puede utilizarla en cualquier mensaje.
+Por ejemplo, la dimensión de segmentación del bloque **[!UICONTROL Unsubscription link]** es **[!UICONTROL Profiles]** porque contiene campos de personalización específicos del recurso **[!UICONTROL Profiles]**. Por lo tanto, no puede utilizar un bloque **[!UICONTROL Unsubscription link]** en un mensaje transaccional [evento](../../channels/using/event-transactional-messages.md), porque la dimensión de segmentación de ese tipo de mensaje es **[!UICONTROL Real-time events]**. Sin embargo, puede utilizar el bloque **vínculo Baja** en un mensaje transaccional [perfil](../../channels/using/profile-transactional-messages.md), porque la dimensión de segmentación de ese tipo de mensaje es **Perfiles**. Por último, el bloque **[!UICONTROL Link to mirror page]** no tiene una dimensión de segmentación, por lo que puede utilizarla en cualquier mensaje.
 
 Si deja este campo vacío, el bloque de contenido será compatible con todos los mensajes, sin importar la dimensión de segmentación. Si establece una dimensión de segmentación, ese bloque solo será compatible con los mensajes que tengan la misma dimensión de segmentación.
 
