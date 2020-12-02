@@ -7,9 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
 translation-type: tm+mt
-source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '657'
 ht-degree: 14%
 
 ---
@@ -74,7 +74,7 @@ Todos los canales de comunicación de Adobe Campaign deben estar correctamente c
 
 Configure varios parámetros **email**: reglas de procesamiento para devoluciones, cuarentenas, propiedades de correo electrónico y parámetros de enrutamiento, reglas de tipo. Defina las configuraciones y propiedades de enrutamiento para el canal **SMS**, así como la codificación y los formatos SMS.
 
-Configure **aplicaciones móviles** para poder enviar mensajes en la aplicación y notificaciones push mediante SDK de Adobe Experience Platform.
+Configure **aplicaciones móviles** para poder enviar mensajes en la aplicación y notificaciones push mediante SDK de Adobe Experience Platform, y configure **mensajes transaccionales** creando y configurando eventos.
 
 Más información:
 
@@ -82,6 +82,7 @@ Más información:
 * [Configuración de canales de correo electrónico](../../administration/using/configuring-email-channel.md)
 * [Configuración de canales de SMS](../../administration/using/configuring-sms-channel.md)
 * [Configuración de una aplicación móvil](../../administration/using/configuring-a-mobile-application.md)
+* [Configuración de la mensajería transaccional](../../administration/using/configuring-transactional-messaging.md)
 
 ## Ajustes de la aplicación {#application-settings}
 
