@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
 workflow-type: tm+mt
 source-wordcount: '5402'
 ht-degree: 10%
@@ -41,7 +41,7 @@ Vista las [actualizaciones de documentación más recientes](../../rn/using/docu
   </tr> 
   <tr> 
    <td> Integración de Adobe Launch para aplicaciones móviles (beta)<br /> </td> 
-   <td> La integración de Adobe Launch con Adobe Campaign ahora simplifica y automatiza el proceso de activación de propiedades de aplicaciones móviles en Campaña mediante el SDK V5 de Mobile.<br /> Para obtener más información, consulte la <a href="https://helpx.adobe.com/es/campaign/kb/configuring-app-sdk.html">documentación detallada</a>.<br /> </td> 
+   <td> La integración de Adobe Launch con Adobe Campaign ahora simplifica y automatiza el proceso de activación de propiedades de aplicaciones móviles en Campaña mediante el SDK V5 de Mobile.<br /> Para obtener más información, consulte la <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">documentación detallada</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -131,7 +131,7 @@ Vista las [actualizaciones de documentación más recientes](../../rn/using/docu
 **Otros cambios**
 
 * El tiempo de espera de uso compartido de informes se ha aumentado de uno a cuatro minutos para evitar cualquier error de tiempo de espera.
-* Al editar el contenido de un correo electrónico, se abre el nuevo Diseñador creativo de forma predeterminada. Si lo desea, puede volver al editor de contenido predeterminado en cualquier momento después de guardar los cambios. For more on this, refer to the [detailed documentation](../../designing/using/designing-content-in-adobe-campaign.md).
+* Al editar el contenido de un correo electrónico, se abre el nuevo Diseñador creativo de forma predeterminada. Si lo desea, puede volver al editor de contenido predeterminado en cualquier momento después de guardar los cambios. Para obtener más información sobre esto, consulte la [documentación detallada](../../designing/using/designing-content-in-adobe-campaign.md).
 * En Creative Designer, ahora se puede añadir un nuevo componente de contenido a un correo electrónico: el carrusel. Para obtener más información sobre esto, consulte la [documentación detallada](../../designing/using/designing-from-scratch.md#about-content-components).
 * En un informe de mensajes transaccionales con clic rápido, cuando hace clic en el botón **Cambiar perfil**, ahora solo se muestran los perfiles de prueba vinculados al evento que definió para el mensaje transaccional.
 
@@ -305,7 +305,7 @@ _Recursos personalizados_
     <ul> 
      <li> Derecho de acceso: permite que el sujeto de datos reciba una copia de sus datos personales recopilados por los controladores de datos, incluso los datos almacenados en Adobe Campaign. </li> 
      <li> Derecho a borrado: autoriza al sujeto de datos a que sus datos personales recopilados por los controladores de datos se borren, lo que incluye datos almacenados en Adobe Campaign. </li> 
-    </ul> Para obtener más información, consulte la <a href="https://helpx.adobe.com/es/campaign/kb/campaign-privacy.html">documentación detallada</a>.<br /> </td> 
+    </ul> Para obtener más información, consulte la <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer para correo electrónico (Beta)<br /> </td> 
@@ -327,7 +327,7 @@ _Recursos personalizados_
     <ul> 
      <li> Aproveche los campos personalizados como criterios de reconciliación para que coincidan con un mensaje transaccional en un perfil </li> 
      <li> Aproveche todos los perfiles, servicios y datos vinculados para personalizar aún más los mensajes transaccionales </li> 
-    </ul> Para obtener más información, consulte la <a href="../../administration/using/configuring-transactional-messaging.md">documentación detallada</a>.<br /> </td> 
+    </ul> Para obtener más información, consulte la <a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">documentación detallada</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
