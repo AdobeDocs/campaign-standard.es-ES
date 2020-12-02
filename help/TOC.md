@@ -6,10 +6,10 @@ user-guide-title: Campaign Standard
 breadcrumb-title: Campaign Standard
 title: Guía del Campaign Standard
 translation-type: tm+mt
-source-git-commit: 817eebd4fe9ed33bdb2820912556cfda25ef66a5
+source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
 workflow-type: tm+mt
-source-wordcount: '1664'
-ht-degree: 99%
+source-wordcount: '1681'
+ht-degree: 98%
 
 ---
 
@@ -119,11 +119,16 @@ ht-degree: 99%
       + [Definición del contenido de correo postal](channels/using/defining-the-direct-mail-content.md)
    + Mensajería transaccional {#transactional-messaging}
       + [Introducción a la mensajería transaccional](channels/using/getting-started-with-transactional-msg.md)
-      + [Limitaciones de mensajería transaccional](channels/using/transactional-messaging-limitations.md)
-      + [Mensajes transaccionales de eventos](channels/using/event-transactional-messages.md)
-      + [Mensajes transaccionales de perfil](channels/using/profile-transactional-messages.md)
+      + [Prácticas recomendadas de mensajería transaccional](channels/using/transactional-messaging-limitations.md)
+      + Configuración de evento {#event-configuration}
+         + [Configuración de un evento transaccional](channels/using/configuring-transactional-event.md)
+         + [Publicación de un evento transaccional](channels/using/publishing-transactional-event.md)
+      + Edición de mensaje transaccional {#transactional-message-edition}
+         + [Edición de un mensaje transaccional](channels/using/editing-transactional-message.md)
+         + [Publicación de un mensaje transaccional](channels/using/publishing-transactional-message.md)
       + [Notificaciones push transaccionales](channels/using/transactional-push-notifications.md)
       + [Mensajes de seguimiento](channels/using/follow-up-messages.md)
+      + [Caso de uso de mensajería transaccional](channels/using/transactional-messaging-use-case.md)
    + Páginas de aterrizaje {#landing-pages}
       + [Introducción a las páginas de aterrizaje](channels/using/getting-started-with-landing-pages.md)
       + [Acerca de las plantillas de página de aterrizaje](channels/using/landing-page-templates.md)
@@ -430,7 +435,6 @@ ht-degree: 99%
       + [Configuración de canales de correo electrónico](administration/using/configuring-email-channel.md)
       + [Configuración de canales de SMS](administration/using/configuring-sms-channel.md)
       + [Configuración de una aplicación móvil](administration/using/configuring-a-mobile-application.md)
-      + [Configuración de la mensajería transaccional](administration/using/configuring-transactional-messaging.md)
    + Configuración de canales móviles {#configuring-mobile}
       + [Implementación del seguimiento push](administration/using/push-tracking.md)
       + [Añadir imágenes y vídeos en iOS](administration/using/image-push-notification.md)
