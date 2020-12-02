@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
-source-wordcount: '6303'
+source-wordcount: '6305'
 ht-degree: 98%
 
 ---
@@ -51,11 +51,11 @@ Se ha agregado una recomendación a las optimizaciones de flujos de trabajo sobr
 
 Se ha añadido una nueva sección sobre las prácticas recomendadas de entregas. [Más información](../../sending/using/delivery-best-practices.md)
 
-Se ha agregado una sección para describir los nuevos filtros que permiten buscar las configuraciones de evento según su estado y hasta la última vez que se recibió un evento. [Más información](../../channels/using/configuring-transactional-event.md#searching-transactional-events)
+Se ha agregado una sección para describir los nuevos filtros que permiten buscar las configuraciones de evento según su estado y hasta la última vez que se recibió un evento. [Más información](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events)
 
 ## Septiembre de 2020 {#doc-updates-september-2020}
 
-Se ha reorganizado y aclarado la sección de mensajes transaccionales de Evento. [Más información](../../channels/using/editing-transactional-message.md)
+Se ha reorganizado y aclarado la sección de mensajes transaccionales de Evento. [Más información](../../channels/using/event-transactional-messages.md)
 
 Se ha agregado una nota de precaución para advertir a los usuarios sobre la limitación de permisos relacionada con el acceso al registro. [Más información](../../administration/using/users-management.md)
 
@@ -135,7 +135,7 @@ Se han añadido recursos adicionales a la página de inicio de documentación. [
 
 Se ha añadido información sobre el servicio de Experience Cloud ID (ECID) a la documentación de Adobe Experience Platform Data Connector. [Más información](../../developing/using/aep-about-data-connector.md#key-concepts)
 
-La sección de mensajes transaccionales se ha mejorado con información sobre cómo acceder a los últimos eventos transaccionales y capturas de pantalla actualizadas. [Más información](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
+La sección Configuración de mensajería transaccional se ha mejorado con información sobre cómo acceder a los últimos eventos transaccionales y capturas de pantalla actualizadas. [Más información](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
 
 Se ha mejorado y actualizado la documentación sobre tipologías y reglas de tipología con información adicional sobre reglas de tipología integradas. [Más información](../../sending/using/about-typology-rules.md)
 
@@ -143,15 +143,15 @@ Se ha añadido información sobre la acción **[!UICONTROL File listing]** de la
 
 La documentación sobre reintentos después de un error temporal de entrega se ha actualizado con más detalles sobre cómo se administran los reintentos una vez actualizados al MTA mejorado. [Más información](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
 
-Se ha mejorado y aclarado la sección Eliminación de un mensaje transaccional. [Más información](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message)
+Se ha mejorado y aclarado la sección Eliminación de un mensaje transaccional. [Más información](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
 
-La sección **Vista previa de entregas** se ha actualizado con ejemplos de entregas móviles. [Más información](../../sending/using/previewing-messages.md)
+La sección **Vista previa de entregas** se ha actualizado con ejemplos de entregas móviles.[Más información](../../sending/using/previewing-messages.md)
 
-Se ha añadido una práctica recomendada con respecto a la mensajería transaccional y la eliminación de eventos en tiempo real no utilizados. [Más información](../../channels/using/configuring-transactional-event.md#creating-an-event)
+Se ha añadido una práctica recomendada con respecto a la mensajería transaccional y la eliminación de eventos en tiempo real no utilizados. [Más información](../../administration/using/configuring-transactional-messaging.md#creating-an-event)
 
 La sección Configuración de canales de correo electrónico se ha actualizado con una aclaración sobre todas las configuraciones de correo electrónico que ahora administra el MTA mejorado de Adobe Campaign. [Más información](../../administration/using/configuring-email-channel.md)
 
-La sección Mensajería transaccional se ha actualizado con más información sobre los derechos necesarios para editar configuraciones de evento y sobre cómo enriquecer colecciones en mensajes transaccionales. [Más información](../../channels/using/configuring-transactional-event.md).
+La sección Configuración de mensajes transaccionales se ha actualizado con más información sobre los derechos necesarios para editar configuraciones de evento y sobre cómo enriquecer colecciones en mensajes transaccionales. [Más información](../../administration/using/configuring-transactional-messaging.md).
 
 ## Versión 20.2: abril de 2020 {#release-20-2---april-2020}
 
@@ -171,7 +171,7 @@ Se ha agregado limitación con MCPNS al configurar una aplicación móvil. [Más
 
 Se ha agregado una nueva sección de directrices de configuración a la guía Administración. La sección sobre exploradores y sistemas operativos compatibles se ha trasladado de la guía de introducción a esta sección. La nota técnica sobre los extremos de red de Campaign Standard también se ha agregado a esta sección. [Más información](../../administration/using/about-configuration-guidelines.md)
 
-Ya está disponible una nueva sección que describe cómo eliminar una configuración de evento. [Más información](../../channels/using/publishing-transactional-event.md#deleting-an-event)
+Ya está disponible una nueva sección que describe cómo eliminar una configuración de evento. [Más información](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
 
 Se ha actualizado y mejorado la página que describe cómo probar la línea de asunto de un correo electrónico para predecir su velocidad de apertura, incluida una nueva sección de [resolución de problemas](../../sending/using/testing-subject-line-email.md#troubleshooting). [Más información](../../sending/using/testing-subject-line-email.md)
 
@@ -281,7 +281,7 @@ Se ha actualizado la lista de mensajes de error para Adobe Campaign. [Más infor
 
 La guía de introducción al RGPD se ha mejorado y enriquecido. Ahora es una documentación de administración de la privacidad que incluye el RGPD y la CCPA. [Más información](https://helpx.adobe.com/content/help/es/campaign/kb/campaign-privacy.html)
 
-Se ha añadido un nuevo gráfico que presenta el proceso de publicación de mensajería transaccional. [Más información](../../channels/using/publishing-transactional-message.md#transactional-messaging-pub-process)
+Se ha añadido un nuevo gráfico que presenta el proceso de publicación de mensajería transaccional. [Más información](../../administration/using/configuring-transactional-messaging.md#transactional-messaging-pub-process)
 
 La guía de introducción a las prácticas recomendadas de entrega se ha movido y actualizado. [Más información](../../sending/using/delivery-best-practices.md)
 
@@ -297,7 +297,7 @@ Se ha añadido una nueva sección relacionada con la configuración de Campaign 
 
 Se ha añadido una nueva sección que describe cómo enviar un correo electrónico de confirmación personalizado y automático a los perfiles que se suscriben a un servicio específico. [Más información](../../audiences/using/confirming-subscription-to-a-service.md)
 
-La sección Mensajería transaccional se ha modificado con las últimas actualizaciones de la interfaz de usuario, incluida la edición de contenido con el Diseñador de correo electrónico. [Más información](../../channels/using/editing-transactional-message.md)
+La sección Mensajería transaccional se ha modificado con las últimas actualizaciones de la interfaz de usuario, incluida la edición de contenido con el Diseñador de correo electrónico. [Más información](../../channels/using/event-transactional-messages.md)
 
 Se ha reorganizado el capítulo páginas de aterrizaje. También se ha enriquecido con una nueva sección en la que se detallan los pasos para establecer una página de aterrizaje. [Más información](../../channels/using/getting-started-with-landing-pages.md)
 
@@ -427,7 +427,7 @@ Se ha añadido una nueva sección sobre cómo guardar el contenido del correo el
 
 La sección Administración de enlaces se ha actualizado con información adicional sobre cómo administrar las URL rastreadas en el Diseñador de correo electrónico. [Más información](../../designing/using/links.md#inserting-a-link)
 
-Se ha añadido una nueva sección para describir el proceso de reintento de mensaje transaccional específico. [Más información](../../channels/using/publishing-transactional-message.md#transactional-message-retry-process)
+Se ha añadido una nueva sección para describir el proceso de reintento de mensaje transaccional específico. [Más información](../../channels/using/event-transactional-messages.md#transactional-message-retry-process)
 
 La sección Publicación de un recurso con extensión API se ha aclarado y actualizado con los últimos cambios en la interfaz de usuario. [Más información](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)
 
@@ -505,7 +505,7 @@ Se ha añadido información en la sección de actividad de extracción de archiv
 
 Disponibilidad general del Diseñador de correo electrónico: [Más información](../../designing/using/designing-content-in-adobe-campaign.md)
 
-Listas de productos en correos electrónicos transaccionales: [Más información](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)
+Listas de productos en correos electrónicos transaccionales: [Más información](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
 Vista móvil en el Diseñador de correo electrónico: [Más información](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)
 
@@ -643,7 +643,7 @@ Creative Designer para correo electrónico: [Más información](../../designing/
 
 Entregas push multilingües: [Más información](../../channels/using/creating-a-multilingual-push-notification.md)
 
-Uso de recursos personalizados en la mensajería transaccional - [Más información](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)
+Uso de recursos personalizados en la mensajería transaccional - [Más información](../../administration/using/configuring-transactional-messaging.md)
 
 **Otras actualizaciones de la documentación incluidas en la versión**
 
@@ -651,7 +651,7 @@ La API del RGPD reagrupa funciones que permiten el procesamiento automático de 
 
 Se añadió información sobre cómo configurar páginas de aterrizaje para que se puedan incluir a los destinatarios en la lista de bloqueados. [Más información](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
-Se ha reorganizado la sección [Configuración de mensaje transaccional](../../channels/using/configuring-transactional-event.md) y se ha añadido un [caso de uso paso a paso](../../channels/using/transactional-messaging-use-case.md).
+Se ha reorganizado la sección [Configuración de mensaje transaccional](../../administration/using/configuring-transactional-messaging.md) y se ha añadido un [caso de uso paso a paso](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
 
 Se ha añadido una nota técnica para aprender a generar un archivo CSV multilingüe para utilizarlo en las notificaciones push. [Más información](https://helpx.adobe.com/es/campaign/kb/acs-generate-csv-multilingual-push.html).
 
@@ -937,7 +937,7 @@ Exportación de registros para la creación de informes externa: [Más informaci
 
 API de mensajería transaccional: [Más información](../../api/using/get-started-apis.md)
 
-Capacidades de marketing para mensajes transaccionales: [Más información](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)
+Funciones de marketing para mensajes transaccionales: [más información](../../channels/using/profile-transactional-messages.md)
 
 **Otras actualizaciones de la documentación incluidas en la versión**
 
