@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
 source-wordcount: '2945'
 ht-degree: 99%
@@ -203,7 +203,7 @@ ht-degree: 99%
 
 * Se ha corregido un problema con la actividad flujo de trabajo de **Enriquecimiento** que se podía producir al añadir espacios en el campo **Alias**, el cual a continuación creaba un nuevo elemento de fila. (CAMP-39229)
 * Se ha corregido un problema en el cual cada perfil de prueba se podía dirigir al enviar un mensaje de prueba.
-* Se ha corregido un problema que se producía tras cancelar la publicación y eliminar una configuración de evento. [Más información](../../channels/using/publishing-transactional-event.md#deleting-an-event)
+* Se ha corregido un problema que se producía tras cancelar la publicación y eliminar una configuración de evento. [Más información](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
 * Se ha corregido un problema por el cual el botón **Guardar** desaparecía al realizar cambios en flujos de trabajo.
 * Se ha corregido un problema que se producía al eliminar una solicitud de privacidad manualmente en Campaign después de procesarla, lo que impedía que los datos asociados a la solicitud se eliminaran incluso después de la limpieza.
 * Se ha corregido un problema que se podía producir al obtener una vista previa o enviar mensajes que incluían caracteres especiales de Adobe Experience Manager.
