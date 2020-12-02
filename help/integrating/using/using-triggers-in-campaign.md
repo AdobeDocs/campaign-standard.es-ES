@@ -7,10 +7,10 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 87%
+source-wordcount: '727'
+ht-degree: 85%
 
 ---
 
@@ -51,7 +51,7 @@ Los pasos para ponerlo en práctica son:
 
 Después de crear un evento desencadenador en Adobe Campaign basado en un activador de Adobe Experience Cloud existente, ahora debe publicarlo.
 
-1. Desde el activador creado anteriormente, haga clic en el **[!UICONTROL Publish]** botón para inicio de publicar el evento desencadenador.
+1. Desde el activador creado anteriormente, haga clic en el botón **[!UICONTROL Publish]** para inicio de publicar el evento desencadenador.
 
    ![](assets/trigger_publish_1.png)
 
@@ -59,7 +59,7 @@ Después de crear un evento desencadenador en Adobe Campaign basado en un activa
 
    ![](assets/trigger_publish_2.png)
 
-1. Al finalizar la publicación, aparecerá el siguiente mensaje en **[!UICONTROL Publication]**.
+1. Cuando se haya realizado la publicación, el siguiente mensaje aparecerá en **[!UICONTROL Publication]**.
 
    ![](assets/trigger_publish_3.png)
 
@@ -69,7 +69,7 @@ Después de crear un evento desencadenador en Adobe Campaign basado en un activa
 
    ![](assets/trigger_publish_4.png)
 
-1. Click **[!UICONTROL Show Trigger in Experience Cloud]** button allows you to view the trigger definition in Adobe Experience Cloud.
+1. Haga clic en el botón **[!UICONTROL Show Trigger in Experience Cloud]** para poder vista de la definición del activador en Adobe Experience Cloud.
 
 Una vez publicado el evento, se crea automáticamente una plantilla transaccional vinculada al nuevo evento. Después debe modificar y publicar la plantilla que acaba de crear. Para obtener más información, consulte la sección [Modificación de la plantilla](../../start/using/marketing-activity-templates.md).
 
@@ -77,7 +77,7 @@ Una vez publicado el evento, se crea automáticamente una plantilla transacciona
 
 Una vez creado y publicado el evento de activación, la plantilla transaccional correspondiente se crea automáticamente. Para obtener más información, consulte [Creación de un activador asignado en Campaign](#creating-a-mapped-trigger-in-campaign).
 
-Para que el evento active el envío de un mensaje transaccional, debe personalizar la plantilla, probarla y publicarla. Estos pasos son los mismos que para un mensaje transaccional estándar. Para obtener más información, consulte la sección [Plantilla transaccional](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message).
+Para que el evento active el envío de un mensaje transaccional, debe personalizar la plantilla, probarla y publicarla. Estos pasos son los mismos que para un mensaje transaccional estándar. Para obtener más información sobre esto, consulte la sección [Edición de un mensaje transaccional](../../channels/using/editing-transactional-message.md).
 
 >[!NOTE]
 >
