@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
 workflow-type: tm+mt
 source-wordcount: '7623'
 ht-degree: 9%
@@ -202,10 +202,10 @@ ht-degree: 9%
 **Otras mejoras**
 
 * Gracias a la integración con Adobe Experience Platform Location Services, Adobe Campaign ahora es compatible para enviar mensajes de marketing basados en la ubicación a los suscriptores de la aplicación móvil mediante el SDK de Experience Platform. Para obtener más información, consulte la [documentación detallada](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md).
-* La función de sistema de informes se ha mejorado para una mejor experiencia. Para utilizar esta función, debe aceptar el Acuerdo de uso dinámico del Sistema de informes. For more on this, refer to the [detailed documentation](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
-* En flujos de trabajo, se ha añadido una nueva opción a la previsualización de las diez ejecuciones siguientes de un flujo de trabajo. For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
+* La función de sistema de informes se ha mejorado para una mejor experiencia. Para utilizar esta función, debe aceptar el Acuerdo de uso dinámico del Sistema de informes. Para obtener más información sobre esto, consulte la [documentación detallada](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
+* En flujos de trabajo, se ha añadido una nueva opción a la previsualización de las diez ejecuciones siguientes de un flujo de trabajo. Para obtener más información sobre esto, consulte la [documentación detallada](../../automating/using/scheduler.md).
 * En la actividad Planificador, una nueva opción le permite seleccionar un día específico de una semana específica para envíos mensuales. Para obtener más información sobre esto, consulte la [documentación detallada](../../automating/using/scheduler.md).
-* Al crear envíos recurrentes sin período de agregación, el panel de envío ahora le permite solicitar confirmación antes de enviar el envío. For more on this, refer to the [detailed documentation](../../sending/using/confirming-the-send.md).
+* Al crear envíos recurrentes sin período de agregación, el panel de envío ahora le permite solicitar confirmación antes de enviar el envío. Para obtener más información sobre esto, consulte la [documentación detallada](../../sending/using/confirming-the-send.md).
 * Ahora puede personalizar una etiqueta de envío con variables de evento que se han declarado en la actividad de señal externa del flujo de trabajo. Para obtener más información sobre esto, consulte la [documentación detallada](../../automating/using/calling-a-workflow-with-external-parameters.md).
 * Se ha mejorado la consulta de eliminación del RGPD para mejorar el rendimiento. (CAMP-33504)
 * La opción &quot;ftp&quot; se ha eliminado de la interfaz de configuración de cuenta externa. (CAMP-34472)
@@ -354,7 +354,7 @@ Se han añadido varias mejoras al canal de mensajería transaccional para optimi
 * El proceso de mensajería transaccional se ha optimizado para poder realizar inicios en paralelo de varias análisis del mismo mensaje.
 * Se ha corregido un problema que podía provocar un rendimiento y latencia incoherentes en las notificaciones push transaccionales.
 * Se ha corregido un problema que mostraba una audiencia de destinatario incorrecta para envíos de ejecución de mensaje transaccional.
-* Se ha corregido un problema que se producía al importar un paquete con una configuración de evento y el mensaje transaccional asociado. For more on this, refer to the [detailed documentation](../../channels/using/getting-started-with-transactional-msg.md#exporting-and-importing-transactional-messages).
+* Se ha corregido un problema que se producía al importar un paquete con una configuración de evento y el mensaje transaccional asociado. Para obtener más información sobre esto, consulte la [documentación detallada](../../channels/using/getting-started-with-transactional-msg.md#exporting-and-importing-transactional-messages).
 * Se ha corregido un problema que eliminaba los datos de recopilación de los perfiles de prueba creados para un mensaje transaccional que contenía listados de productos.
 
 **Otros cambios**
@@ -539,7 +539,7 @@ Se han añadido varias mejoras al canal de mensajería transaccional para optimi
   </tr> 
   <tr> 
    <td> Listados de productos en correos electrónicos transaccionales<br /> </td> 
-   <td> <p>Ahora puede hacer referencia a una o varias colecciones de productos en un mensaje de correo electrónico transaccional. Por ejemplo, puede enviar automáticamente un correo electrónico de abandono del carro de compras con una lista de todos los productos que estaban en el carro de compras del usuario con una imagen, un precio y un vínculo a cada producto.</p><p>Para obtener más información, consulte la <a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.translate.html">videotutorial</a>.</p> </td> 
+   <td> <p>Ahora puede hacer referencia a una o varias colecciones de productos en un mensaje de correo electrónico transaccional. Por ejemplo, puede enviar automáticamente un correo electrónico de abandono del carro de compras con una lista de todos los productos que estaban en el carro de compras del usuario con una imagen, un precio y un vínculo a cada producto.</p><p>Para obtener más información, consulte la <a href="../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.translate.html">videotutorial</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Vista móvil en el Diseñador de correo electrónico<br /> </td> 
