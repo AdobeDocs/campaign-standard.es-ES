@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
 source-wordcount: '4627'
 ht-degree: 8%
@@ -493,7 +493,7 @@ _Flujos de trabajo_
      <li> Incluir vínculos de baja en los mensajes. </li> 
      <li> Añadir mensajes transaccionales al sistema de informes de envío global. </li> 
      <li> Aprovechar mensajes transaccionales en el recorrido del cliente. </li> 
-    </ul> Para obtener más información, consulte la <a href="../../channels/using/profile-transactional-messages.md">documentación detallada</a>.<br /> </td> 
+    </ul> Para obtener más información, consulte la <a href="../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> API de mensajería transaccional<br /> </td> 
