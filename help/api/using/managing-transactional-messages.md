@@ -7,10 +7,10 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 1%
+source-wordcount: '678'
+ht-degree: 3%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 1%
 
 ## Acerca de la mensajería transaccional
 
-Una vez que haya creado un evento, deberá integrar el activador de este evento en su sitio web.
+Una vez creado y publicado un evento transaccional, debe integrar el activador de este evento en su sitio web.
 
 >[!NOTE]
 >
->La creación y publicación de un evento se presenta en [la documentación de la Campaña](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
+>La configuración de un evento se presenta en [esta sección](../../channels/using/configuring-transactional-event.md).
 
 Por ejemplo: desea que se active un evento de &quot;abandono del carro de compras&quot; cada vez que uno de sus clientes abandone el sitio web antes de comprar los productos en el carro de compras. Para ello, el desarrollador web debe utilizar la API de Mensajes transaccionales REST.
 
@@ -48,7 +48,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
    (Tenga en cuenta que el extremo de la API de mensajes transaccionales también está visible durante la previsualización de la API)
 
-* **&lt;eventid>**:: el tipo de evento que desea enviar. Este ID se genera al crear la definición de evento. Consulte la [documentación de Campaña](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
+* **&lt;eventid>**:: el tipo de evento que desea enviar. Este ID se genera al crear la configuración de evento (consulte [esta sección](../../channels/using/configuring-transactional-event.md#creating-an-event)).
 
 ### Encabezado de solicitud de POST
 
@@ -67,7 +67,7 @@ Debe agregar un charset, por ejemplo **utf-8**. Tenga en cuenta que este valor d
 
 ### Cuerpo de solicitud de POST
 
-Los datos de evento están contenidos dentro del cuerpo del POST JSON. La estructura del evento depende de su definición. El botón previsualización de API de la pantalla de definición de recursos proporciona un ejemplo de solicitud. Consulte la [documentación de Campaña](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
+Los datos de evento están contenidos dentro del cuerpo del POST JSON. La estructura del evento depende de su definición. El botón previsualización de API de la pantalla de definición de recursos proporciona un ejemplo de solicitud. Consulte [esta sección](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
 
 Se pueden añadir los siguientes parámetros opcionales al contenido de evento para gestionar el envío de mensajes transaccionales vinculados al evento:
 
@@ -138,7 +138,7 @@ En la respuesta, el campo &quot;estado&quot; permite saber si el evento se ha pr
 
 * **pendiente**: el evento está pendiente - el evento toma este estado cuando se acaba de activar.
 * **procesando**: el evento está pendiente de envío - se está transformando en un mensaje y el mensaje se está enviando.
-* **pausado**: el proceso de evento se está pausando. Ya no se procesa, sino que se mantiene en cola en la base de datos de Adobe Campaign. Para obtener más información sobre esto, consulte la [documentación de Campaña](https://helpx.adobe.com/campaign/standard/channels/using/event-transactional-messages.html#unpublishing-a-transactional-message).
+* **pausado**: el proceso de evento se está pausando. Ya no se procesa, sino que se mantiene en cola en la base de datos de Adobe Campaign. Para obtener más información, consulte [esta sección](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication).
 * **procesado**: el evento se procesó y el mensaje se envió correctamente.
 * **ignorado**: el envío ignoró el evento, normalmente cuando una dirección está en cuarentena.
 * **deliveryFailed**: se produjo un error de envío mientras se procesaba el evento.
