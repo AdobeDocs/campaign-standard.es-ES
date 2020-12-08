@@ -7,10 +7,10 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: 83cf4dc73540725d1b642b68091f704806f3eb63
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 87%
+source-wordcount: '751'
+ht-degree: 84%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 87%
 # Uso de activadores en Campaign{#using-triggers-in-campaign}
 
 ## Creación de un activador asignado en Campaign {#creating-a-mapped-trigger-in-campaign}
+
+>[!NOTE]
+>
+>Para crear activadores, necesitará la función **[!UICONTROL Administration]** o estar en el grupo de seguridad **[!UICONTROL Administrators]**. Para obtener más información, consulte esta [página](../../administration/using/list-of-roles.md).
 
 Debe asegurarse de definir los comportamientos que desea supervisar de antemano en Adobe Experience Cloud (servicio principal de **[!UICONTROL Triggers]**). Para obtener más información, consulte la [documentación de Adobe Experience Cloud](https://docs.adobe.com/content/help/es-ES/core-services/interface/activation/triggers.html). Tenga en cuenta que cuando define el activador, debe activar los alias. Para cada comportamiento (navegación/abandono de formulario, adición/eliminación de productos, sesión caducada, etc.), se debe añadir un nuevo activador en Adobe Experience Cloud.
 
@@ -77,7 +81,7 @@ Una vez publicado el evento, se crea automáticamente una plantilla transacciona
 
 Una vez creado y publicado el evento de activación, la plantilla transaccional correspondiente se crea automáticamente. Para obtener más información, consulte [Creación de un activador asignado en Campaign](#creating-a-mapped-trigger-in-campaign).
 
-Para que el evento active el envío de un mensaje transaccional, debe personalizar la plantilla, probarla y publicarla. Estos pasos son los mismos que para un mensaje transaccional estándar. Para obtener más información, consulte la sección [Plantilla transaccional](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message).
+Para que el evento active el envío de un mensaje transaccional, debe personalizar la plantilla, probarla y publicarla. Estos pasos son los mismos que para un mensaje transaccional estándar. Para obtener más información sobre esto, consulte la sección [Edición de un mensaje transaccional](../../channels/using/editing-transactional-message.md).
 
 >[!NOTE]
 >
