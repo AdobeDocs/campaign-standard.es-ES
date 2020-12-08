@@ -7,9 +7,9 @@ audience: designing
 content-type: reference
 topic-tags: accessibility
 translation-type: tm+mt
-source-git-commit: c10633d1371cd6475a573a8c851c5f7e364baf62
+source-git-commit: 6632216ce4697892ea08b32641c9c026482ca713
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -66,10 +66,6 @@ Adobe Campaign Standard le permite diseñar y probar correos electrónicos y not
 ![](assets/accessibility_6.png)
 
 ## Ayuda contextual {#contextual-help}
-
->[!NOTE]
->
-> La ayuda contextual solo está disponible cuando se utiliza el diseñador de correo electrónico.
 
 La ayuda contextual puede ayudarle a comprender mejor los distintos campos y características solicitados disponibles. También le guiará a través de la documentación del producto para obtener más información sobre la función seleccionada.
 
