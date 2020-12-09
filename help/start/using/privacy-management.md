@@ -6,28 +6,28 @@ description: Obtenga más información sobre las funciones de Adobe Campaign Sta
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a9afa91302684ddd37a94a9999d90bf8c8e7abee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '964'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 
 # Administración de la privacidad {#privacy-management}
 
-Adobe Campaign oferta un conjunto de herramientas para ayudarle a cumplir con [las normas de privacidad](#privacy-management-regulations) (incluyendo GDPR, CCPA, PDPA, LGPD).
+Adobe Campaign ofrece un conjunto de herramientas para que cumpla con las [normas de privacidad](#privacy-management-regulations) (incluye el RGPD, la CCPA, la PDPA y la LGPD).
 
-Estas son las cinco funciones principales ofrecidas por Adobe Campaign para garantizar la preparación para RGPD y otras regulaciones de privacidad:
+Estas son las cinco funciones principales que ofrece Adobe Campaign para garantizar la preparación del RGPD y otras normas de privacidad:
 
 ![](assets/privacy-gdpr-use-cases.png)
 
-* **Derecho de acceso**
+* **Derecho al acceso**
 
 * **Derecho a eliminar**
 
-Para obtener más información sobre esto, consulte [Derecho de acceso y derecho a ser olvidado](#right-access-forgotten).
+Para más información, vea [Derecho al acceso y Derecho a ser olvidado](#right-access-forgotten).
 
 * **Gestión de consentimiento**
 
@@ -35,7 +35,7 @@ Para obtener más información sobre esto, consulte [Derecho de acceso y derecho
 
 * **Gestión de derechos**
 
-Para obtener más información sobre esto, consulte [Consentimiento, retención y funciones](#consent-retention-roles).
+Para obtener más información, consulte [Consentimiento, retención y funciones](#consent-retention-roles).
 
 <!--This section presents general information on what Privacy management is and the features provided by Adobe Campaign to manage the [Right to Access and Right to be Forgotten](#right-access-forgotten).
 
@@ -45,7 +45,7 @@ It also contains information on important features to manage Privacy ([consent, 
 
 Las capacidades de Adobe Campaign le ayudan a cumplir con las siguientes regulaciones:
 
-* **El RGPD (** reglamento general de protección de datos[](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)) es la ley de privacidad de la Unión Europea (UE) que armoniza y moderniza los requisitos de protección de datos de los países de la UE. Siga los enlaces a continuación para encontrar información general sobre el RGPD:
+* **El RGPD (** Reglamento General de Protección de Datos[](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)) es la ley de privacidad de la Unión Europea (UE) que armoniza y moderniza los requisitos de protección de datos de los países de la UE. Siga los vínculos a continuación para información general sobre el RGPD:
 
    * https://www.adobe.com/es/privacy/general-data-protection-regulation.html
    * https://www.adobe.com/es/marketing-cloud/campaign/general-data-protection-regulation.html
