@@ -33,7 +33,7 @@ Las secciones Datos personales y Personas se han actualizado con un escenario de
 
 Se ha añadido una nueva sección que enumera las preguntas más frecuentes sobre Privacidad. [Más información](../../start/using/privacy-faq.md)
 
-La sección Privacidad se ha movido y enriquecido con dos páginas nuevas: [Administración de privacidad](../../start/using/privacy-management.md) y [Administración de solicitudes](../../start/using/privacy-requests.md)de privacidad.
+La sección Privacidad se ha movido y enriquecido con dos páginas nuevas: [Administración de privacidad](../../start/using/privacy-management.md) y [Administración de solicitudes](../../start/using/privacy-requests.md) de privacidad.
 
 Se ha añadido información en la sección Conector de datos de Adobe Experience Platform sobre el error de validación de asignación de datos relacionado con la administración de privacidad y cómo solucionarlo. [Más información](../../developing/using/aep-mapping-activation.md)
 
