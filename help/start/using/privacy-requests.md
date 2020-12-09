@@ -6,9 +6,9 @@ description: Obtenga información sobre cómo administrar las solicitudes de pri
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1711'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ La opción de exclusión de la Venta de información personal, que es específic
 
 >[!IMPORTANT]
 >
->A partir de la versión 19.4, el uso de la API y la interfaz de Campaign para las solicitudes de Acceso y Eliminación quedarán obsoletas. Para cualquier solicitud de acceso y eliminación de GDPR, CCPA, PDPA o LGPD, debe utilizar el método de integración de [Privacy Core Service](#create-privacy-request).
+>A partir de la versión 19.4, el uso de la API y la interfaz de Campaign para las solicitudes de Acceso y Eliminación quedarán obsoletas. Para cualquier solicitud de acceso y eliminación de RGPD, CCPA, PDPA o LGPD, debe utilizar el método de integración de [Privacy Core Service](#create-privacy-request).
 
 ## Acerca de las solicitudes de privacidad {#about-privacy-requests}
 
