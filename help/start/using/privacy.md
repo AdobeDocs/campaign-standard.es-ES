@@ -2,15 +2,15 @@
 solution: Campaign Standard
 product: campaign
 title: Privacidad y consentimiento
-description: Obtenga información sobre la privacidad, los datos personales y la gestión de consentimiento en Adobe Campaign Standard
+description: Obtenga información sobre la privacidad, los datos personales y la administración de consentimientos en Adobe Campaign Standard
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c76f4b6e3bc0feb50e5776836552fdceaff61ea7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1657'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Campaign es una potente herramienta para recopilar y procesar cantidades e
 ### Normas de privacidad {#privacy-regulations}
 
 Para gestionar correctamente la privacidad y administrar los datos personales, siga la legislación aplicable a la región o regiones en las que opera. Estas normas incluyen lo siguiente:
-* [RGPD](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en) (Reglamento general de protección de datos de Europa)
+* [RGPD](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en) (Reglamento General de Protección de Datos de Europa)
 * [DPA](https://www.gov.uk/data-protection) (aplicación del RGPD en el Reino Unido)
 * [Directiva europea sobre privacidad y comunicaciones electrónicas](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02002L0058-20091219)
 * [CAN-SPAM Act](https://www.ftc.gov/tips-advice/business-center/guidance/can-spam-act-compliance-guide-business) (ley estadounidense que establece las reglas y requisitos de los correos electrónicos comerciales)
@@ -37,7 +37,7 @@ Para gestionar correctamente la privacidad y administrar los datos personales, s
 
 >[!NOTE]
 >
->Para obtener más información sobre cómo se aplican el RGPD, la CCPA, el PDPA y la LGPD a Adobe Campaign, consulte [esta sección](../../start/using/privacy-management.md#privacy-management-regulations).
+>Para obtener más información sobre cómo se aplican el RGPD, la CCPA, la PDPA y la LGPD a Adobe Campaign, consulte [esta sección](../../start/using/privacy-management.md#privacy-management-regulations).
 
 ### Privacidad de Adobe Experience Cloud {#experience-cloud-privacy}
 
@@ -84,31 +84,31 @@ La [legislación principal](#privacy-regulations) hace referencia a las diferent
 
 Por lo tanto, como compañía que recopila y comparte datos personales, usted es el controlador de datos, sus clientes son los sujetos de datos y Adobe Campaign actúa como un procesador de datos al tratar sus datos personales como usted lo indica. Tenga en cuenta que, como controlador de datos, es su responsabilidad gestionar la relación con los temas de datos, como al administrar [solicitudes de privacidad](#privacy-requests).
 
-### Caso de uso {#use-case-scenario}
+### Ejemplo de uso {#use-case-scenario}
 
-Para ilustrar cómo interactúan las distintas personas, aquí se muestra un ejemplo de un caso de uso de la experiencia del cliente de RGPD de alto nivel.
+Para ilustrar cómo interactúan las distintas personas, se muestra un ejemplo de uso de la experiencia del cliente de RGPD de alto nivel.
 
-En este ejemplo, una compañía aérea es el cliente de Adobe Campaign. Esta compañía es el **Controlador de datos** y todos los clientes de la compañía de aerolíneas son **Sujetos de datos**. Laura en este caso particular es cliente de la compañía aérea.
+En este ejemplo, una compañía aérea es el cliente de Adobe Campaign. Esta compañía es el **Controlador de datos** y todos los clientes de la compañía son los **Sujetos de datos**. Laura en este caso particular es cliente de la compañía aérea.
 
 Estas son las distintas personalidades utilizadas en este ejemplo:
 
-* **** Laurais el asunto **** de los datos. Ella es la destinatario que recibe mensajes de la compañía aérea. Laura puede ser una viajera frecuente, pero puede decidir en algún momento que no quiere publicidad personalizada o mensajes de marketing de la compañía aérea. Ella pedirá a la compañía aérea (según su proceso) que borre su número de viajero frecuente.
+* **Laura** es el **Sujeto de datos**. Es el destinatario que recibe los mensajes de la compañía aérea. Laura es una viajera frecuente, pero puede decidir en algún momento que no quiere publicidad personalizada o mensajes de marketing de la compañía aérea. En ese caso le pide a la compañía aérea (según su proceso) que borre su número de viajero frecuente.
 
-* **** Anneis el  **controlador de** datos en la compañía de aerolíneas. Recibe la solicitud de Laura, recupera los ID útiles solicitados para identificar al sujeto de datos y envía la solicitud en Adobe Campaign.
+* **Anne** es el **Controlador de datos** en la compañía de aerolíneas. Recibe la solicitud de Laura, recupera los ID útiles solicitados para identificar al sujeto de datos y envía la solicitud por Adobe Campaign.
 
-* **Adobe** Campaignes el procesador  **de datos**.
+* **Adobe Campaign** es el **procesador de datos**.
 
 ![](assets/privacy-gdpr-flow.png)
 
-Este es el flujo general para este caso de uso:
+Este es el flujo general para este ejemplo de uso:
 
-1. El **Asunto de datos** (Laura) envía una solicitud de RGPD al **Controlador de datos** por correo electrónico, atención al cliente o un portal Web.
+1. El **sujeto de datos** (Laura) envía una solicitud de RGPD al **Controlador de datos** por correo electrónico, atención al cliente o un portal web.
 
-1. El **Data Controller** (Anne) envía la solicitud GDPR a la Campaña a través de la interfaz o mediante una API.
+1. El **controlador de datos** (Anne) envía la solicitud de RGPD a Campaign a través de la interfaz o mediante una API.
 
-1. Una vez que el **Procesador de datos** (Adobe Campaign) recibe la información, toma medidas en la solicitud del RGPD y envía una respuesta o confirmación al **Controlador de datos** (Anne).
+1. Una vez que el **procesador de datos** (Adobe Campaign) recibe la información, toma medidas para la solicitud del RGPD y envía una respuesta o confirmación al **controlador de datos** (Anne).
 
-1. A continuación, el **Data Controller** (Anne) revisa la información y la envía de vuelta a **Data Subject** (Laura).
+1. A continuación, el **controlador de datos** (Anne) revisa la información y la envía de vuelta al **sujeto de datos** (Laura).
 
 ## Adquisición de datos {#data-acquisition}
 
@@ -128,7 +128,7 @@ Adobe Campaign le ofrece varios conjuntos de funciones dedicadas a la administra
 * Solicitudes de privacidad (derecho de acceso y derecho a ser olvidado). Consulte [esta sección](#privacy-requests).
 * Exclusión para la venta de información personal (específica de la CCPA). Consulte [esta sección](https://helpx.adobe.com/es/campaign/kb/acs-privacy.html#ccpa).
 
-Las principales funcionalidades de privacidad en Campaign y un ejemplo de las personas implicadas se presentan en [esta sección](https://helpx.adobe.com/es/campaign/kb/campaign-privacy-more.html#gdprpersonasandflow).
+Las principales funcionalidades de privacidad en Campaign y un ejemplo de las personas implicadas se presentan en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-faq.html?lang=es#getting-started).
 
 
 ### Consentimiento, retención y funciones {#consent}
@@ -149,7 +149,7 @@ Adobe Campaign proporciona funciones adicionales que le ayudan a facilitar su pr
 
 * El **derecho al olvido** (solicitud de eliminación) autoriza al sujeto de datos a hacer que el controlador de datos borre sus datos personales.
 
-Las solicitudes **Access** y **Delete** se presentan en [esta sección](../../start/using/privacy-management.md#right-access-forgotten).
+Las solicitudes de **acceso** y **eliminación** se presentan en [esta sección](../../start/using/privacy-management.md#right-access-forgotten).
 
 Los pasos de implementación para crear estas solicitudes se detallan en [esta sección](../../start/using/privacy-requests.md). También hay Tutoriales disponibles [aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=es#privacy).
 
@@ -159,6 +159,6 @@ Gracias a sus funcionalidades de seguimiento, Adobe Campaign le permite supervis
 
 >[!NOTE]
 >
->Las regulaciones como el reglamento general de protección de datos (RGPD) establecen que las compañías requieren el acuerdo de los usuarios del sitio web antes de instalar las cookies. Debe informar a los usuarios de que los sitios están equipados con herramientas de seguimiento Web mediante una solicitud de autorización.
+>Las regulaciones como el Reglamento General de Protección de Datos (RGPD) establecen que las compañías requieren el acuerdo de los usuarios del sitio web antes de instalar las cookies. Debe informar a los usuarios de que los sitios están equipados con herramientas de seguimiento Web mediante una solicitud de autorización.
 
 También puede agregar vínculos [](../../designing/using/links.md#about-tracked-urls) rastreados en los mensajes para medir el impacto del comportamiento de envíos y destinatarios en el informe integrado de indicadores [de](../../reporting/using/tracking-indicators.md) seguimiento o crear sus propios informes [](../../reporting/using/about-dynamic-reports.md)dedicados.
