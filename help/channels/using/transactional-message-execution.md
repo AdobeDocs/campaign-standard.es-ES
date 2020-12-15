@@ -1,17 +1,17 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Mensajes transaccionales de eventos
-description: Aprenda a crear y publicar un mensaje transaccional de evento.
+title: Ejecución y supervisión de la mensajería transaccional
+description: Obtenga información sobre la ejecución de mensajes transaccionales y descubra cómo supervisar mensajes transaccionales.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: c276c468627208b584a0342414cdbe382e349f50
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 65%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
