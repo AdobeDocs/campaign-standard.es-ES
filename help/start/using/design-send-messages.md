@@ -7,10 +7,10 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 1e7359db2de1a9c420af33ac85c0597c098ae3f8
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -74,18 +74,18 @@ Preste atención a los clientes y mejore la tasa de respuesta mediante el uso de
 
 Los mensajes personalizados son clave para enviar contenido relevante, oferta de experiencias personalizadas y aumentar la apertura y las tasas de conversión. Los mensajes de canal cruzado enviados por Adobe Campaign se pueden personalizar de varias formas. Estas formas pueden combinarse con criterios en función de los perfiles. Puede:
 
-* Inserte campos de personalización [](../../designing/using/personalization.md#inserting-a-personalization-field) dinámicos en los mensajes
-* Insert [predefined personalization blocks](../../designing/using/personalization.md#adding-a-content-block)
-* [Personalización del remitente](../../designing/using/subject-line.md) de un correo electrónico o un SMS
-* [Personalice la línea](../../designing/using/subject-line.md) de asunto de un correo electrónico o utilice las funciones de línea [de asunto](../../designing/using/subject-line.md#subject-line) predictiva para optimizarlo
-* Crear contenido [condicional en un correo electrónico](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) o [en una página de aterrizaje](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
-* Insertar texto [](../../channels/using/defining-dynamic-text.md) dinámico en un mensaje SMS o una notificación Push
+* Inserte [campos de personalización dinámicos](../../designing/using/personalization.md#inserting-a-personalization-field) en los mensajes
+* Insertar [bloques de personalización predefinidos](../../designing/using/personalization.md#adding-a-content-block)
+* [Personalice el ](../../designing/using/subject-line.md) remitente de un correo electrónico o un SMS
+* [Personalización de la ](../../designing/using/subject-line.md) línea de asunto de un correo electrónico
+* Cree [contenido condicional en un correo electrónico](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) o [en una página de aterrizaje](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
+* Insertar [texto dinámico](../../channels/using/defining-dynamic-text.md) en un mensaje SMS o una notificación Push
 
 ![](assets/delivery_content_43.png)
 
 **Más información**
 
-* Descubre la personalización del correo electrónico a través de un ejemplo [integral](../../designing/using/personalization.md#example-email-personalization)
+* Personalización del correo electrónico de Discover mediante una [muestra completa](../../designing/using/personalization.md#example-email-personalization)
 * [Personalización de direcciones URL](../../designing/using/personalization.md#personalizing-urls)
 * [Configuración de la personalización de una imagen](../../designing/using/personalization.md#personalizing-an-image-source)
 
