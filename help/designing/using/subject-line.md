@@ -7,17 +7,17 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 1e7359db2de1a9c420af33ac85c0597c098ae3f8
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 11%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Definición de la línea de asunto y del remitente de un correo electrónico{#defining-the-subject-line-of-an-email}
+# Definición de la línea de asunto y del remitente de un mensaje de correo electrónico{#defining-the-subject-line-of-an-email}
 
-## Defining the subject line of an email {#subject-line}
+## Definición de la línea de asunto de un mensaje de correo electrónico {#subject-line}
 
 El asunto del mensaje es obligatorio para preparar y enviar el mensaje.
 
@@ -26,27 +26,26 @@ El asunto del mensaje es obligatorio para preparar y enviar el mensaje.
 >Si la línea de asunto está vacía, se muestra una advertencia en el panel de mensajes y en el Diseñador de correo electrónico.
 
 1. Creación de un correo electrónico.
-1. Vaya a la **[!UICONTROL Properties]** ficha de la página de inicio de Email Designer (a la que se puede acceder desde el icono de inicio).
-1. Fill in the **[!UICONTROL Subject]** section.
+1. Vaya a la ficha **[!UICONTROL Properties]** de la página de inicio de Email Designer (a la que se puede acceder desde el icono de inicio).
+1. Complete la sección **[!UICONTROL Subject]**.
 
    ![](assets/email_designer_subject.png)
 
-1. También puede agregar campos de personalización, bloques de contenido y contenido dinámico a la línea de asunto haciendo clic en los iconos correspondientes. For more on this, see [Personalization](../../designing/using/personalization.md).
-1. Puede probar distintas líneas de asunto para obtener una estimación de la tasa de apertura de correo electrónico antes de enviarla. Para obtener más información sobre esto, consulte [Prueba de la línea de asunto de un correo electrónico](../../sending/using/testing-subject-line-email.md).
+1. También puede agregar campos de personalización, bloques de contenido y contenido dinámico a la línea de asunto haciendo clic en los iconos correspondientes. Para obtener más información sobre esto, consulte [Personalización](../../designing/using/personalization.md).
 
 ## Definición del remitente de correo electrónico de un mensaje de correo electrónico {#email-sender}
 
-Para definir el nombre del remitente que aparecerá en el encabezado de los mensajes enviados, vaya a la **[!UICONTROL Properties]** ficha de la página de inicio del Diseñador de correo electrónico (accesible mediante el icono de inicio).
+Para definir el nombre del remitente que aparecerá en el encabezado de los mensajes enviados, vaya a la ficha **[!UICONTROL Properties]** de la página de inicio de Email Designer (a la que se puede acceder a través del icono de inicio).
 
 ![](assets/delivery_content_edition16.png)
 
-* El **[!UICONTROL From: name]** campo permite introducir el nombre del remitente. De forma predeterminada, el bloque de nombre **del** remitente predeterminado se introduce automáticamente en el campo. La dirección de correo electrónico y el nombre del remitente predeterminados se definen en **[!UICONTROL Brands]** accesible mediante el logotipo de Adobe Campaign en el menú avanzado **[!UICONTROL Administration > Instance settings > Brand configuration]** .
+* El campo **[!UICONTROL From: name]** permite introducir el nombre del remitente. De forma predeterminada, el bloque predeterminado **Nombre del remitente** se introduce automáticamente en el campo. La dirección de correo electrónico del remitente y el nombre del remitente predeterminados se definen en **[!UICONTROL Brands]** accesibles mediante el logotipo de Adobe Campaign en el menú avanzado **[!UICONTROL Administration > Instance settings > Brand configuration]** .
 
-   Puede cambiar el nombre del remitente haciendo clic en el bloque de nombre **del** remitente. A continuación, el campo se puede editar y puede introducir el nombre que desee utilizar.
+   Puede cambiar el nombre del remitente haciendo clic en el bloque **Nombre del remitente**. A continuación, el campo se puede editar y puede introducir el nombre que desee utilizar.
 
-   Este campo se puede personalizar. Para ello, puede añadir campos de personalización, bloques de contenido y contenido dinámico haciendo clic en los iconos situados debajo del nombre del remitente. For more on this, see [Personalization](../../designing/using/personalization.md).
+   Este campo se puede personalizar. Para ello, puede añadir campos de personalización, bloques de contenido y contenido dinámico haciendo clic en los iconos situados debajo del nombre del remitente. Para obtener más información sobre esto, consulte [Personalización](../../designing/using/personalization.md).
 
-* El **[!UICONTROL From: email address]** campo no se puede editar desde esta sección. Puede cambiarlo editando las propiedades del correo electrónico desde su panel. Para obtener más información, consulte [Lista de parámetros](../../administration/using/configuring-email-channel.md#advanced-parameters)avanzados de correo electrónico.
+* El campo **[!UICONTROL From: email address]** no se puede editar desde esta sección. Puede cambiarlo editando las propiedades del correo electrónico desde su panel. Para obtener más información, consulte [Lista de parámetros avanzados de correo electrónico](../../administration/using/configuring-email-channel.md#advanced-parameters).
 
 >[!NOTE]
 >
