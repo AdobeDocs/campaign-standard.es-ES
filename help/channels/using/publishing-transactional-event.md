@@ -1,17 +1,17 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Configuración de la mensajería transaccional
-description: Obtenga información sobre cómo configurar los mensajes transaccionales.
+title: Publicación de un evento transaccional
+description: Obtenga información sobre cómo previsualización, publicación, cancelación de publicación y eliminación de una configuración de evento transaccional.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 7%
+source-wordcount: '607'
+ht-degree: 6%
 
 ---
 
