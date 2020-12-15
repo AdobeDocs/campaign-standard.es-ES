@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: 7b1d74760a3c33e4c1c74fe5b4512392b550379b
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 90%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -40,6 +40,18 @@ Se aconseja a los clientes que comprueben si utilizan la función o la capacidad
 
 <table> 
  <thead> 
+ <tr> 
+   <th> <strong>Línea de asunto predictivo</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> A partir del 15 de diciembre de 2020, la capacidad de la línea de asunto predictivo está obsoleta.</p><br/>
+   <p>Le sugerimos que aproveche las capacidades de correo electrónico con tecnología AI para analizar y predecir las tasas abiertas, los tiempos de envío óptimos y la probable reproducción basada en métricas de participación históricas. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">Más información</a></p></br>
+     <p>
+     <em>Eliminación del destinatario: Abril de 2021</em></p>
+     </td> 
+  </tr> 
   <tr> 
    <th> <strong>Notificaciones push con SDK v4</strong><br /> </th> 
   </tr> 
@@ -65,7 +77,7 @@ Se aconseja a los clientes que comprueben si utilizan la función o la capacidad
    <td> <p>A partir de Campaign versión 19.4, el uso de la API y la interfaz de Campaign para las solicitudes de acceso y eliminación quedarán obsoletas. La eliminación del perfil de 2 pasos no estará disponible. Utilice <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a>.</p></br>
    <p>Consulte también <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">Administración de solicitudes</a>de privacidad.</p>
   <p> 
-  <em>Fecha de eliminación objetivo: 2021</em></p>
+  <em>Fecha de eliminación objetivo: abril de 2021</em></p>
    </td> 
   </tr> 
  </tbody> 
