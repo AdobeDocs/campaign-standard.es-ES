@@ -2,15 +2,15 @@
 solution: Campaign Standard
 product: campaign
 title: Mensajes de seguimiento
-description: Obtenga información sobre cómo crear y publicar un mensaje de seguimiento.
+description: Obtenga información sobre cómo crear, administrar y enviar un mensaje de seguimiento.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 translation-type: tm+mt
-source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
