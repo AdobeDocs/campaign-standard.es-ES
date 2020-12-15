@@ -1,17 +1,17 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Mensajes transaccionales de eventos
-description: Aprenda a crear y publicar un mensaje transaccional de evento.
+title: Ciclo de vida del mensaje transaccional
+description: Obtenga información sobre cómo publicar, pausar, cancelar la publicación y eliminar un mensaje transaccional.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: 951f358eb7139be8924aadf8461944d4318f03f1
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 76%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
