@@ -9,8 +9,8 @@ topic-tags: accessibility
 translation-type: tm+mt
 source-git-commit: 6ea28c457b1024dab315b60281adaee56eb80cd0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '607'
+ht-degree: 45%
 
 ---
 
