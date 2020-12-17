@@ -3,14 +3,14 @@ solution: Campaign Standard
 product: campaign
 audience: end-user
 user-guide-title: Campaign Standard
-user-guide-description: 'Centro de ayuda para las principales funciones, tareas, configuraciones y otros recursos necesarios para utilizar Campaign Standard. '
+user-guide-description: 'Centro de ayuda para las principales características, tareas, configuraciones y otros recursos necesarios para utilizar Campaign Standard. '
 breadcrumb-title: Campaign Standard
 title: Guía del Campaign Standard
 translation-type: tm+mt
 source-git-commit: 642b916369433d9a7a23d818e94f5e189a1c8596
 workflow-type: tm+mt
 source-wordcount: '1696'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -121,17 +121,17 @@ ht-degree: 97%
    + Mensajería transaccional {#transactional-messaging}
       + [Introducción a la mensajería transaccional](channels/using/getting-started-with-transactional-msg.md)
       + [Prácticas recomendadas y limitaciones](channels/using/transactional-messaging-limitations.md)
-      + Configuración de evento {#event-configuration}
+      + Configuración de evento{#event-configuration}
          + [Configuración de un evento transaccional](channels/using/configuring-transactional-event.md)
          + [Publicación de un evento transaccional](channels/using/publishing-transactional-event.md)
-      + Edición de mensaje transaccional {#transactional-message-edition}
+      + Edición de un mensaje transaccional {#transactional-message-edition}
          + [Edición de un mensaje transaccional](channels/using/editing-transactional-message.md)
          + [Prueba de un mensaje transaccional](channels/using/testing-transactional-message.md)
-         + [Ciclo de vida del mensaje transaccional](channels/using/publishing-transactional-message.md)
-         + [Ejecución y supervisión](channels/using/transactional-message-execution.md)
+         + [Ciclo de un mensaje transaccional](channels/using/publishing-transactional-message.md)
+         + [Ejecución y monitorización](channels/using/transactional-message-execution.md)
       + [Notificaciones push transaccionales](channels/using/transactional-push-notifications.md)
       + [Mensajes de seguimiento](channels/using/follow-up-messages.md)
-      + [Caso de uso de mensajería transaccional](channels/using/transactional-messaging-use-case.md)
+      + [Ejemplo de uso de la mensajería transaccional](channels/using/transactional-messaging-use-case.md)
    + Páginas de aterrizaje {#landing-pages}
       + [Introducción a las páginas de aterrizaje](channels/using/getting-started-with-landing-pages.md)
       + [Acerca de las plantillas de página de aterrizaje](channels/using/landing-page-templates.md)
