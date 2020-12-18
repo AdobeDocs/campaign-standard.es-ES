@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 3d271b7125a382f7864857df4541a6be28894992
 workflow-type: tm+mt
 source-wordcount: '6357'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -25,7 +25,7 @@ La sección de mensajería transaccional se ha reorganizado y mejorado, con una 
 
 Se ha movido la sección Privacidad. [Más información](../../start/using/privacy.md)
 
-Se ha añadido una nueva página sobre accesibilidad para obtener más información sobre la compatibilidad con accesibilidad en el espacio de trabajo de Adobe Campaign Standard. [Más información](../../start/using/accessibility.md)
+Se ha añadido una nueva página sobre accesibilidad para obtener más información de la compatibilidad con la accesibilidad en el espacio de trabajo de Adobe Campaign Standard. [Más información](../../start/using/accessibility.md)
 
 Se ha añadido una nueva limitación a la sección de mensajería Transactional, que indica que, para un rendimiento óptimo, el número de mensajes transaccionales publicados debe permanecer por debajo de 100. [Más información](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
 
@@ -141,7 +141,7 @@ Se han añadido recursos adicionales a la página de inicio de documentación. [
 
 Se ha añadido información sobre el servicio de Experience Cloud ID (ECID) a la documentación de Adobe Experience Platform Data Connector. [Más información](../../developing/using/aep-about-data-connector.md#key-concepts)
 
-La sección de mensajes transaccionales se ha mejorado con información sobre cómo acceder a los últimos eventos transaccionales y capturas de pantalla actualizadas. [Más información](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
+La sección mensajería transaccional se ha mejorado con información sobre cómo acceder a los últimos eventos transaccionales y capturas de pantalla actualizadas. [Más información](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
 Se ha mejorado y actualizado la documentación sobre tipologías y reglas de tipología con información adicional sobre reglas de tipología integradas. [Más información](../../sending/using/about-typology-rules.md)
 
@@ -157,7 +157,7 @@ Se ha añadido una práctica recomendada con respecto a la mensajería transacci
 
 La sección Configuración de canales de correo electrónico se ha actualizado con una aclaración sobre todas las configuraciones de correo electrónico que ahora administra el MTA mejorado de Adobe Campaign. [Más información](../../administration/using/configuring-email-channel.md)
 
-La sección Mensajería transaccional se ha actualizado con más información sobre los derechos necesarios para editar configuraciones de evento y sobre cómo enriquecer colecciones en mensajes transaccionales. [Más información](../../channels/using/configuring-transactional-event.md).
+La sección de mensajería transaccional se ha actualizado con más información sobre los derechos necesarios para editar configuraciones de eventos y sobre cómo enriquecer las colecciones de los mensajes transaccionales. [Más información](../../channels/using/configuring-transactional-event.md).
 
 ## Versión 20.2: abril de 2020 {#release-20-2---april-2020}
 
@@ -941,7 +941,7 @@ Exportación de registros para la creación de informes externa: [Más informaci
 
 API de mensajería transaccional: [Más información](../../api/using/get-started-apis.md)
 
-Capacidades de marketing para mensajes transaccionales: [Más información](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)
+Funciones de marketing para los mensajes transaccionales: [más información](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)
 
 **Otras actualizaciones de la documentación incluidas en la versión**
 
