@@ -53,9 +53,9 @@ También necesita tener un sitio web de trabajo.
 >
 >La configuración de subdominio es un elemento clave de entregabilidad. Asegúrese de que los correos electrónicos de Adobe Campaign se envían desde el mismo dominio que el utilizado por el sitio web.
 
-Debe configurar el servicio [principal](#configuring-experience-cloud-dtm-core-service)Experience Cloud DTM, el servicio [principal Personas](#configuring-experience-cloud-people-core-service) Experience Cloud y la [Campaña](#configuring-triggers-and-aliases-in-campaign) para ejecutar estos casos de uso.
+Debe configurar [servicio principal de la DTM de Experience Cloud](#configuring-experience-cloud-dtm-core-service), [servicio principal de personas Experience Cloud](#configuring-experience-cloud-people-core-service) y [Campaña](#configuring-triggers-and-aliases-in-campaign) para ejecutar estos casos de uso.
 
-### Configuring Experience Cloud DTM Core Service {#configuring-experience-cloud-dtm-core-service}
+### Configuración del servicio principal de la DTM de Experience Cloud {#configuring-experience-cloud-dtm-core-service}
 
 1. En el servicio principal de la DTM de Experience Cloud (administración dinámica de etiquetas), active el ID de Experience Cloud y Adobe Analytics para las páginas del sitio web.
 
@@ -65,7 +65,7 @@ Debe configurar el servicio [principal](#configuring-experience-cloud-dtm-core-s
 
    ![](assets/trigger_uc_conf_2.png)
 
-### Configuración del servicio principal Personas Experience Cloud {#configuring-experience-cloud-people-core-service}
+### Configuración del servicio principal de personas Experience Cloud {#configuring-experience-cloud-people-core-service}
 
 El alias al que se hace referencia anteriormente en la DTM debe crearse en el servicio principal Personas Experience Cloud a través de un atributo de cliente. Asegúrese de crear uno nuevo y de hacer referencia al mismo alias de la DTM en el código de integración (por ejemplo, &quot;visitorid&quot;).
 
@@ -77,17 +77,17 @@ El alias al que se hace referencia anteriormente en la DTM debe crearse en el se
 
 ### Configuración de activadores y alias en la Campaña {#configuring-triggers-and-aliases-in-campaign}
 
-1. Asegúrese de que está **[!UICONTROL Experience Cloud triggers]** visible en la instancia de Adobe Campaign Standard. Si no lo hace, póngase en contacto con los administradores de Adobe Campaign.
+1. Asegúrese de que tiene **[!UICONTROL Experience Cloud triggers]** visible en la instancia de Adobe Campaign Standard. Si no lo hace, póngase en contacto con los administradores de Adobe Campaign.
 
    ![](assets/remarketing_1.png)
 
-1. Los alias permiten reconciliar un contacto en Analytics con un perfil en Campaña. Debe coincidir los alias definidos en el servicio de ID de Experience Cloud con una fuente de datos compartida en la Campaña. Debe configurar la resolución de alias en Adobe Campaign mediante una fuente de datos ( **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Shared Data Sources]** ). Asegúrese de elegir la fuente de datos correcta en el menú desplegable, que se asigna con la misma fuente de datos de Atributos del cliente creada en el paso anterior. **[!UICONTROL Data Source/Alias]**
+1. Los alias permiten reconciliar un contacto en Analytics con un perfil en Campaña. Debe coincidir los alias definidos en el servicio de ID de Experience Cloud con una fuente de datos compartida en la Campaña. Debe configurar la resolución de alias en Adobe Campaign mediante una fuente de datos ( **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Shared Data Sources]** ). Asegúrese de elegir el origen de datos correcto en el menú desplegable **[!UICONTROL Data Source/Alias]**, que se asigna con el mismo origen de datos de Atributos del cliente creado en el paso anterior.
 
    ![](assets/trigger_uc_conf_5.png)
 
    >[!NOTE]
    >
-   >Puede reconciliar los activadores tanto para los usuarios anónimos como para los usuarios que iniciaron sesión. Para los usuarios anónimos, el perfil debe existir en Adobe Campaign y antes se ha enviado un correo electrónico al usuario. Para ello, la configuración del ID de Visitante es suficiente. Sin embargo, si desea reconciliar los activadores para los usuarios que iniciaron sesión, debe configurar la fuente de datos de ID declarados. For more on this, refer to [Data Source configuration](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
+   >Puede reconciliar los activadores tanto para los usuarios anónimos como para los usuarios que iniciaron sesión. Para los usuarios anónimos, el perfil debe existir en Adobe Campaign y antes se ha enviado un correo electrónico al usuario. Para ello, la configuración del ID de Visitante es suficiente. Sin embargo, si desea reconciliar los activadores para los usuarios que iniciaron sesión, debe configurar la fuente de datos de ID declarados. Para obtener más información sobre esto, consulte [Configuración de fuentes de datos](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
 
 ## Creación de un activador en la interfaz de Experience Cloud {#creating-a-trigger-in-the-experience-cloud-interface}
 
@@ -95,9 +95,9 @@ Es necesario crear un activador de Adobe Experience Cloud para poder utilizarlo 
 
 Cree un nuevo activador en Experience Cloud y asegúrese de seleccionar el grupo de informes utilizado en el sitio web. Asegúrese de elegir la dimensión adecuada para que el activador se active.
 
-Consulte la documentación [de](https://docs.adobe.com/content/help/es-ES/core-services/interface/activation/triggers.html) Adobe Experience Cloud y vea este [vídeo](https://helpx.adobe.com/es/marketing-cloud/how-to/email-marketing.html#step-two).
+Consulte la [documentación de Adobe Experience Cloud](https://docs.adobe.com/content/help/es-ES/core-services/interface/activation/triggers.html) y vea este [vídeo](https://helpx.adobe.com/es/marketing-cloud/how-to/email-marketing.html#step-two).
 
-## Desencadena las prácticas recomendadas y las limitaciones {#triggers-best-practices-and-limitations}
+## Desencadena las mejores prácticas y limitaciones {#triggers-best-practices-and-limitations}
 
 Esta es una lista de las prácticas recomendadas y las limitaciones para el uso de la Campaña: Desencadena la integración:
 
