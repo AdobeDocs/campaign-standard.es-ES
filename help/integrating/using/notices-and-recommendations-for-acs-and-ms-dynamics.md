@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1448'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ Si lo desea, la integración se puede configurar para que emita llamadas de elim
 
 Sin embargo, la eliminación de un perfil es distinta de la eliminación de privacidad. Una eliminación de privacidad en la Campaña eliminará el registro de perfil de Campaña y las entradas de registro asociadas; mientras que una eliminación regular de perfiles sólo eliminará el registro de perfiles ACS, dejando remanentes en los registros de Campañas.
 
-Si la función de eliminación de perfil está habilitada en la integración, deberán seguirse pasos adicionales para procesar correctamente las solicitudes de privacidad del sujeto de datos. Consulte los pasos de la [sección siguiente](#manage-privacy-requests).
+Si la función de eliminación de perfil está habilitada en la integración, deberán seguirse pasos adicionales para procesar correctamente las solicitudes de privacidad del sujeto de datos. Consulte los pasos de la sección [a continuación](#manage-privacy-requests).
 
 ## Privacidad
 
@@ -39,7 +39,7 @@ La integración no emite ninguna privacidad del sujeto de datos (por ejemplo, RG
 
 Si ha configurado la integración para que emita llamadas de eliminación de perfil regulares a la Campaña cuando se elimine un contacto en Dynamics 365, deben seguirse los pasos a continuación. Asegúrese de que no se haya realizado ninguna actualización en el registro en cuestión durante este proceso.
 
-1. Enviar solicitud de eliminación de privacidad a [Adobe Experience Platform Privacy Service](https://www.adobe.io/apis/experiencecloud/gdpr.html)
+1. Emitir la solicitud de eliminación de privacidad a [Adobe Experience Platform Privacy Service](https://www.adobe.io/apis/experiencecloud/gdpr.html)
 
 1. Supervisar la solicitud hasta que se haya completado correctamente
 
@@ -99,7 +99,7 @@ El almacenamiento SFTP de su Campaña deberá ser utilizado por la integración 
 
 Esta integración sincronizará los contactos y las entidades personalizadas de Dynamics 365 a Campaña. Los registros de campaña creados fuera de la integración (es decir, no creados por el trabajo de sincronización) no se modificarán mediante la integración, incluidos los registros de Campaña existentes en el momento de la configuración de la integración.
 
-Debido a que esta integración utiliza el **[!UICONTROL externalId]** campo de la Campaña para sincronizar registros de perfiles de Campaña con registros de contacto de Dynamics 365, este campo de Campaña (**[!UICONTROL externalId]** ) debe rellenarse con Dynamics 365 **[!UICONTROL contactId]** para los registros que desea sincronizar desde Dynamics 365.  Las entidades personalizadas también se sincronizan con un ID exclusivo de Dynamics 365. La entidad personalizada de Campaña deberá incluir este atributo de ID como columna de tabla. La columna externalId puede utilizarse para almacenar este valor de atributo, pero no es necesaria para las entidades personalizadas de Campaña.
+Debido a que esta integración utiliza el campo **[!UICONTROL externalId]** en la Campaña para sincronizar registros de perfiles de Campaña con registros de contacto de Dynamics 365, este campo de Campaña (**[!UICONTROL externalId]** ) debe rellenarse con Dynamics 365 **[!UICONTROL contactId]** para los registros que desee sincronizar desde Dynamics 365.  Las entidades personalizadas también se sincronizan con un ID exclusivo de Dynamics 365. La entidad personalizada de Campaña deberá incluir este atributo de ID como columna de tabla. La columna externalId puede utilizarse para almacenar este valor de atributo, pero no es necesaria para las entidades personalizadas de Campaña.
 
 Tenga en cuenta que Dynamics 365 sigue siendo la fuente de la verdad y que los datos del perfil de Campaña se pueden sobrescribir a medida que la integración detecta actualizaciones en Dynamics 365.  También es posible que se requieran otros pasos para habilitar la integración, según la implementación existente; por lo tanto, se recomienda que trabaje estrechamente con el contacto técnico de su Adobe.
 
