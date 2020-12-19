@@ -42,6 +42,6 @@ De todas maneras, hay casos en los que los duplicados entre las diferentes parti
 
 Adobe Campaign administra una lista de direcciones en cuarentena. Los destinatarios cuyas direcciones están en cuarentena se excluyen de forma predeterminada durante el análisis de envío: no están segmentados.
 
-Quarantine management is detailed in [this section](../../sending/using/understanding-quarantine-management.md).
+La administración de cuarentenas se detalla en [esta sección](../../sending/using/understanding-quarantine-management.md).
 
 Una dirección de correo electrónico se puede poner en cuarentena, por ejemplo, cuando el buzón está lleno o si la dirección no existe. En todos los casos, la cuarentena corresponde a las reglas específicas presentadas en [esta sección](../../sending/using/understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine).
