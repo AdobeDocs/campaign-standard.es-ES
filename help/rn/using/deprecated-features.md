@@ -9,8 +9,8 @@ topic-tags: campaign-standard-deprecated-features
 translation-type: tm+mt
 source-git-commit: 7b1d74760a3c33e4c1c74fe5b4512392b550379b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '707'
+ht-degree: 85%
 
 ---
 
