@@ -188,7 +188,7 @@ Por apellido, nombre o correo electrónico (porTexto)</p>
 
 <table>
         <tr>
-        <th>Name</th>
+        <th>Nombre</th>
         <th>Tipo</th>
         </tr>
         <tr>
