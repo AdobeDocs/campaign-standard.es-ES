@@ -17,18 +17,18 @@ ht-degree: 3%
 
 # Configuración del acceso a API {#setting-up-api-access}
 
-El acceso a la API de Adobe Campaign Standard se configura a través de los pasos a continuación. Cada uno de estos pasos se detalla en la documentación [de E/S de](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)Adobe.
+El acceso a la API de Adobe Campaign Standard se configura a través de los pasos a continuación. Cada uno de estos pasos se detalla en la [documentación de E/S de Adobe](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
 
 >[!IMPORTANT]
 >
->Para administrar certificados en E/S de Adobe, asegúrese de que tiene derechos de administrador <b></b> del sistema en la organización o una cuenta [de](https://helpx.adobe.com/enterprise/using/manage-developers.html)</a> desarrollador en la consola de administración.
+>Para administrar certificados en E/S de Adobe, asegúrese de que tiene <b>derechos de administrador del sistema</b> en la organización o una [cuenta de desarrollador](https://helpx.adobe.com/enterprise/using/manage-developers.html)</a> en la consola de administración.
 
 1. **Compruebe que dispone de un certificado** digital o cree uno si es necesario. Las claves pública y privada que se proporcionan con el certificado son necesarias en los pasos siguientes.
-1. **Cree una nueva integración con el servicio** Adobe Campaign en E/S de Adobe y configúrela. Se generarán las credenciales (clave de API, secreto de cliente...).
+1. **Cree una nueva integración con Adobe Campaign** Services en E/S de Adobe y configúrela. Se generarán las credenciales (clave de API, secreto de cliente...).
 1. **Cree un token web JSON (JWT)** a partir de las credenciales generadas anteriormente y fírmelo con su clave privada. JWT codifica toda la información de identidad y seguridad que Adobe necesita para comprobar su identidad y permitirle acceder a la API.
-1. **Intercambiar el JWT por un Token de acceso** a través de una solicitud de POST. Este Token de acceso deberá utilizarse en cada encabezado de las solicitudes de API.
+1. **Intercambie el JWT por un** Tokenmediante una solicitud de POST. Este Token de acceso deberá utilizarse en cada encabezado de las solicitudes de API.
 
-Para establecer una sesión segura de API de E/S de Adobe de servicio a servicio, cada solicitud a un servicio de Adobe debe incluir en el encabezado de Autorización la información siguiente.
+Para establecer una sesión segura de API de servicio a servicio de Adobe I/O, cada solicitud a un servicio de Adobe debe incluir en el encabezado Autorización la información siguiente.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -38,16 +38,16 @@ Para establecer una sesión segura de API de E/S de Adobe de servicio a servicio
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-* **&lt;ORGANIZACIÓN>**: Este es su ID de organización personal, el Adobe proporciona un ID de organización para cada una de sus instancias:
+* **&lt;organization>**:: Este es su ID de organización personal, el Adobe proporciona un ID de organización para cada una de sus instancias:
 
-   * &lt;ORGANIZACIÓN> : la instancia de producción,
-   * &lt;ORGANIZATION-mkt-stage>: la instancia de escenario.
+   * &lt;organization> :: la instancia de producción,
+   * &lt;organization-mkt-stage>:: la instancia de escenario.
 
-   Para obtener el valor de ID de la organización, consulte con el administrador o con el contacto técnico de Adobe. También puede recuperarla en la E/S de Adobe al crear una nueva integración, en la lista de licencias (consulte la documentación <a href="https://www.adobe.io/authentication.html">de E/S de</a>Adobe).
+   Para obtener el valor de ID de la organización, consulte con el administrador o con el contacto técnico de Adobe. También puede recuperarla en Adobe I/O al crear una nueva integración, en la lista de licencias (consulte la <a href="https://www.adobe.io/authentication.html">documentación de E/S de Adobe</a>).
 
-* **&lt;ACCESS_TOKEN>**: Su token de acceso personal, que se recuperó al intercambiar el autentificador web JSON mediante una solicitud de POST.
+* **&lt;access_token>**:: Su token de acceso personal, que se recuperó al intercambiar el autentificador web JSON mediante una solicitud de POST.
 
-* **&lt;API_KEY>**: su clave de API personal. Se proporciona en E/S de Adobe después de crear una nueva integración en Adobe Campaign Service.
+* **&lt;api_key>**:: su clave de API personal. Se proporciona en Adobe I/O después de crear una nueva integración en Adobe Campaign Service.
 
    ![texto alt](assets/tenant.png)
 
