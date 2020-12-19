@@ -21,7 +21,7 @@ Este caso de uso detalla la exposición de campos extendidos para los Perfiles d
 
 >[!NOTE]
 >
->Para publicar la API, asegúrese de tener la **[!UICONTROL Datamodel]** función.
+>Para publicar la API, asegúrese de que tiene la función **[!UICONTROL Datamodel]**.
 
 Los pasos para exponer los campos extendidos en la API pública son los siguientes:
 
