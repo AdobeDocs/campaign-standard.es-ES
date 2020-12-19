@@ -21,7 +21,7 @@ Las siguientes sugerencias para la solución de problemas le ayudarán a resolve
 
 **¿Está activada la funcionalidad?**
 
-Para comprobar si la integración Desencadenadores - Campaña está activada, haga clic en el logotipo de Adobe Campaign, en la esquina superior izquierda, y seleccione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**. Deberías ver el **[!UICONTROL Experience Cloud Triggers]** elemento.
+Para comprobar si la integración Desencadenadores - Campaña está activada, haga clic en el logotipo de Adobe Campaign, en la esquina superior izquierda, luego seleccione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**. Debería ver el elemento **[!UICONTROL Experience Cloud Triggers]**.
 
 Si lo ve, continúe con el siguiente paso.
 
