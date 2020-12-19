@@ -95,7 +95,7 @@ Más información:
 * [Prácticas recomendadas relacionadas con las entregas](../../sending/using/delivery-best-practices.md)
 * [Adición de un grupo de control](../../sending/using/control-group.md)
 
-## Tutorial video {#video}
+## Videotutorial {#video}
 
 Este vídeo muestra cómo enviar un correo electrónico de prueba, preparar y enviar un envío de correo electrónico en Campaign Standard.
 
