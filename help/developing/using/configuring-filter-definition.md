@@ -85,4 +85,4 @@ Una vez configurado el filtro, puede utilizarlo desde las API de Campaign Standa
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/by<customFilterName>?<customFilterparam>=<customFilterValue>`
 
-Para obtener más información sobre esto, consulte la documentación [de las API de](../../api/using/filtering.md#custom-filters)Campaign Standard.
+Para obtener más información sobre esto, consulte la [documentación de API de Campaign Standard](../../api/using/filtering.md#custom-filters).
