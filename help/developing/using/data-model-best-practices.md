@@ -23,7 +23,7 @@ Este documento describe las recomendaciones clave al diseñar el modelo de datos
 
 >[!NOTE]
 >
->Para crear y modificar recursos con el fin de ampliar el modelo de datos predefinido de Adobe Campaign, consulte [esta sección](../../developing/using/key-steps-to-add-a-resource.md).
+>Para crear y modificar recursos a fin de ampliar el modelo de datos predefinido de Adobe Campaign, consulte [esta sección](../../developing/using/key-steps-to-add-a-resource.md).
 >
 >Puede encontrar una representación del modelo de datos de los recursos integrados en [esta página](../../developing/using/datamodel-introduction.md).
 
@@ -41,7 +41,7 @@ Adobe Campaign Standard es un potente sistema de gestión de la campaña entre c
 
 Aunque la mayoría de los proveedores de servicio de correo electrónico se comunican a los clientes mediante un enfoque centrado en la lista, Adobe Campaign depende de una base de datos relacional para aprovechar una vista más amplia de los clientes y sus atributos.
 
-Este enfoque centrado en el cliente se muestra en el gráfico siguiente. El recurso de **Perfil** en gris representa la tabla principal del cliente en torno a la cual se está creando todo:
+Este enfoque centrado en el cliente se muestra en el gráfico siguiente. El recurso **Perfil** en gris representa la tabla del cliente principal en torno a la cual se está generando todo:
 
 ![](assets/customer-centric-data-model.png)
 
@@ -67,9 +67,9 @@ Be able to provide a primary customer record which will be sent to Adobe Campaig
 
 Para tomar la decisión de si un atributo sería necesario o no en Adobe Campaign, determine si se incluiría en una de estas categorías:
 * Atributo utilizado para la **segmentación**
-* Atributo utilizado para procesos **de** gestión de datos (por ejemplo, cálculo acumulado)
-* Atributo utilizado para la **personalización**
-* Atributo utilizado para el **sistema de informes** (los informes se pueden crear en función de los datos de perfil personalizados)
+* Atributo utilizado para **procesos de gestión de datos** (cálculo acumulado, por ejemplo)
+* Atributo utilizado para **personalización**
+* Atributo utilizado para **sistema de informes** (los informes se pueden crear en función de los datos de perfil personalizados)
 
 Si no cae en ninguno de estos, lo más probable es que no necesite este atributo en Adobe Campaign.
 
@@ -81,7 +81,7 @@ Para garantizar una buena arquitectura y rendimiento de su sistema, siga las opt
 
 ## Configuración de la estructura de datos {#configuring-data-structure}
 
-Esta sección describe las prácticas recomendadas al [configurar la estructura](../../developing/using/configuring-the-resource-s-data-structure.md)de datos de un recurso.
+En esta sección se describen las prácticas recomendadas al [configurar la estructura de datos de un recurso](../../developing/using/configuring-the-resource-s-data-structure.md).
 
 ### Identificadores {#identifiers}
 
@@ -95,14 +95,14 @@ En la tabla siguiente se describen estos identificadores y su finalidad.
 
 | Nombre para mostrar | Nombre técnico | Descripción | Prácticas recomendadas |
 |--- |--- |--- |--- |
-|  | PKey | <ul><li>El PKey es la clave principal física de una tabla de Adobe Campaign.</li><li>Este identificador suele ser único para una instancia de Adobe Campaign específica.</li><li>En Adobe Campaign Standard, este valor no es visible para el usuario final (excepto en las direcciones URL).</li></ul> | <ul><li>A través del sistema [](../../api/using/get-started-apis.md)API, es posible recuperar un valor PKey (que es un valor generado/hash, no la clave física).</li><li>No se recomienda utilizarlo para nada más que recuperar, actualizar o eliminar registros mediante API.</li></ul> |
+|  | PKey | <ul><li>El PKey es la clave principal física de una tabla de Adobe Campaign.</li><li>Este identificador suele ser único para una instancia de Adobe Campaign específica.</li><li>En Adobe Campaign Standard, este valor no es visible para el usuario final (excepto en las direcciones URL).</li></ul> | <ul><li>Mediante el [sistema API](../../api/using/get-started-apis.md), es posible recuperar un valor PKey (que es un valor generado/hash, no la clave física).</li><li>No se recomienda utilizarlo para nada más que recuperar, actualizar o eliminar registros mediante API.</li></ul> |
 | ID | name o internalName | <ul><li>Esta información es un identificador único de un registro de una tabla. Este valor se puede actualizar manualmente.</li><li>Este identificador mantiene su valor cuando se implementa en una instancia diferente de Adobe Campaign. Debe tener un nombre diferente al valor generado para poder exportarse a través de un paquete.</li><li>Esta no es la clave principal real de la tabla.</li></ul> | <ul><li>No utilice caracteres especiales como espacio &quot;&quot;, semicolumna &quot;:&quot; o guión &quot;-&quot;.</li><li>Todos estos caracteres se reemplazarían por un guión bajo &quot;_&quot; (carácter permitido). Por ejemplo, &quot;abc-def&quot; y &quot;abc:def&quot; se almacenarían como &quot;abc_def&quot; y se sobrescribirían entre sí.</li></ul> |
 | Etiqueta | label | <ul><li>La etiqueta es el identificador comercial de un objeto o registro en Adobe Campaign.</li><li>Este objeto permite espacios y caracteres especiales.</li><li>No garantiza la singularidad de un registro.</li></ul> | <ul><li>Se recomienda determinar una estructura para las etiquetas de los objetos.</li><li>Esta es la solución más fácil de usar para identificar un registro u objeto para un usuario de Adobe Campaign.</li></ul> |
-| ID de ACS | acsId | <ul><li>Se puede generar un identificador adicional: el ID [de ACS](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).</li><li>Dado que el PKey no se puede usar en la interfaz de usuario de Adobe Campaign, se trata de una solución para obtener un valor único generado durante la inserción de un registro de perfil.</li><li>El valor solo se puede generar automáticamente si la opción está habilitada en el recurso antes de que se inserte un registro en Adobe Campaign.</li></ul> | <ul><li>Este UUID se puede usar como clave de reconciliación.</li><li>Un ID ACS generado automáticamente no se puede usar como referencia en un flujo de trabajo o en una definición de paquete.</li><li>Este valor es específico de una instancia de Adobe Campaign.</li></ul> |
+| ID de ACS | acsId | <ul><li>Se puede generar un identificador adicional: el [ID de ACS](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).</li><li>Dado que el PKey no se puede usar en la interfaz de usuario de Adobe Campaign, se trata de una solución para obtener un valor único generado durante la inserción de un registro de perfil.</li><li>El valor solo se puede generar automáticamente si la opción está habilitada en el recurso antes de que se inserte un registro en Adobe Campaign.</li></ul> | <ul><li>Este UUID se puede usar como clave de reconciliación.</li><li>Un ID ACS generado automáticamente no se puede usar como referencia en un flujo de trabajo o en una definición de paquete.</li><li>Este valor es específico de una instancia de Adobe Campaign.</li></ul> |
 
 ### Claves de identificación {#keys}
 
-Cada recurso creado en Adobe Campaign debe tener al menos una clave [de](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)identificación única.
+Cada recurso creado en Adobe Campaign debe tener al menos una [clave de identificación única](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
 
 <!--Most organizations are importing records from external systems. While the physical key of a resource lies behind the PKey attribute, it is possible to determine a custom key in addition.
 
