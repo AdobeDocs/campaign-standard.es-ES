@@ -35,7 +35,7 @@ La campaña **[!UICONTROL dimensions]** encontrada en Analytics se muestra a con
   </tr> 
   <tr> 
    <td> Etiqueta de campaña<br /> </td> 
-   <td> Etiqueta de la campaña como se ve en la Campaña<br /> </td> 
+   <td> Etiqueta de campaña como se ve en Campaña<br /> </td> 
   </tr> 
   <tr> 
    <td> ID de envío<br /> </td> 
@@ -43,7 +43,7 @@ La campaña **[!UICONTROL dimensions]** encontrada en Analytics se muestra a con
   </tr> 
   <tr> 
    <td> Etiqueta de envío<br /> </td> 
-   <td> Etiqueta del envío como se ve en la Campaña<br /> </td> 
+   <td> Etiqueta del envío como se ve en Campaña<br /> </td> 
   </tr> 
   <tr> 
    <td> ID de envío ejecutado<br /> </td> 
@@ -51,7 +51,7 @@ La campaña **[!UICONTROL dimensions]** encontrada en Analytics se muestra a con
   </tr> 
   <tr> 
    <td> Etiqueta de envío ejecutada<br /> </td> 
-   <td> Etiqueta del envío como se ve en la Campaña. Esto sólo se refiere al envío en ejecución en Campaña.<br /> </td> 
+   <td> Etiqueta del envío como se ve en la Campaña. Esto solo se refiere al envío en ejecución en la Campaña.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -67,7 +67,7 @@ La campaña **[!UICONTROL metrics]** encontrada en Analytics se muestra a contin
  </thead> 
  <tbody> 
   <tr> 
-   <td> Clic<br /> </td> 
+   <td> Haga clic<br /> </td> 
    <td> Número de veces que se hizo clic en un contenido en un envío.<br /> </td> 
   </tr> 
   <tr> 
@@ -87,7 +87,7 @@ La campaña **[!UICONTROL metrics]** encontrada en Analytics se muestra a contin
    <td> Total de errores acumulados durante el envío y el procesamiento de devolución automático en relación con el número total de mensajes enviados.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Apertura única<br /> </td> 
+   <td> Abrir único<br /> </td> 
    <td> Número de destinatarios que abrieron el envío.<br /> </td> 
   </tr> 
   <tr> 
@@ -95,7 +95,7 @@ La campaña **[!UICONTROL metrics]** encontrada en Analytics se muestra a contin
    <td> Número de destinatarios que hicieron clic en un contenido de un envío.<br /> </td> 
   </tr> 
   <tr> 
-   <td> No suscrito<br /> </td> 
+   <td> Cancelada la suscripción<br /> </td> 
    <td> Número de clics en el vínculo de baja de suscripción.<br /> </td> 
   </tr> 
  </tbody> 
