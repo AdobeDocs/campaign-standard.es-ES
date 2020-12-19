@@ -18,7 +18,7 @@ ht-degree: 90%
 
 # Ejemplos de consultas {#query-samples}
 
-Esta sección presenta el caso de uso al utilizar una **[!UICONTROL Query]** actividad. For more on how to use a **[!UICONTROL Query]** activity, refer to [this section](../../automating/using/query.md).
+Esta sección presenta un caso de uso al utilizar una actividad **[!UICONTROL Query]**. Para obtener más información sobre cómo utilizar una actividad **[!UICONTROL Query]**, consulte [esta sección](../../automating/using/query.md).
 
 ## Segmentación en atributos de perfil simples {#targeting-on-simple-profile-attributes}
 
