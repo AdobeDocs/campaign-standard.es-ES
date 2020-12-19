@@ -140,7 +140,7 @@ Para utilizarlo, cree un correo electrónico y seleccione la plantilla de conten
 * [Vídeo de introducción al Diseñador de correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md#video)
 * [Diseño de contenido de correo electrónico desde cero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
-### Tutorial video {#video}
+### Videotutorial {#video}
 
 Este vídeo muestra cómo crear su propia plantilla.
 
