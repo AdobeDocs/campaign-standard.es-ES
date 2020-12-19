@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: a7300666587362048431d0bafacc317170b317aa
 workflow-type: tm+mt
 source-wordcount: '410'
-ht-degree: 43%
+ht-degree: 44%
 
 ---
 
@@ -31,7 +31,7 @@ Para controlar sus campañas, debe asegurarse de que el mensaje se haya enviado 
 
 * Desde el panel de mensajes, puede acceder a varios informes para este mensaje específico.
 
-For more this, see [Monitoring a delivery](../../sending/using/monitoring-a-delivery.md).
+Para obtener más información, consulte [Monitoreo de un envío](../../sending/using/monitoring-a-delivery.md).
 
 ## Seguimiento {#tracking-deliveries}
 
@@ -39,7 +39,7 @@ Para conocer mejor el comportamiento de los perfiles objetivo, puede rastrear c�
 
 **Sugerencia**: El seguimiento de mensajes está activado de forma predeterminada. Para configurar direcciones URL, seleccione la opción Mostrar direcciones URL en la sección inferior del asistente de envíos. Por cada dirección URL del mensaje, puede elegir si desea activar el seguimiento.
 
-For more on this, refer to the [Tracking messages](../../sending/using/tracking-messages.md) section and the [Tracking indicators](../../reporting/using/tracking-indicators.md) description.
+Para obtener más información sobre esto, consulte la sección [Mensajes de seguimiento](../../sending/using/tracking-messages.md) y la descripción [Indicadores de seguimiento](../../reporting/using/tracking-indicators.md).
 
 ## Informes dinámicos {#dyn-reports}
 
@@ -47,13 +47,13 @@ Los informes dinámicos le permiten crear informes totalmente personalizables y 
 
 **Sugerencia** : Los informes integrados están disponibles para que usted pueda monitorear sus campañas, pero estos informes también se pueden personalizar arrastrando y soltando cualquier métrica o dimensión en el informe.
 
-For more on this, refer to the [Reporting guide](../../reporting/using/about-dynamic-reports.md).
+Para obtener más información sobre esto, consulte la [guía de Sistema de informes](../../reporting/using/about-dynamic-reports.md).
 
 ## Clics activos
 
 El informe de clics interactivos presenta el contenido del mensaje (HTML o texto) con el porcentaje de clics en cada vínculo. Al mostrar el porcentaje de clics en cada contenido dinámico, puede medir el contenido que más atrae a los destinatarios.
 
-Para obtener más información sobre esto, consulte el informe [de clic](../../reporting/using/hot-clicks.md)urgente.
+Para obtener más información sobre esto, consulte el [informe de clics en caliente](../../reporting/using/hot-clicks.md).
 
 ## Sugerencias de rendimiento de envío {#performance-tips}
 
