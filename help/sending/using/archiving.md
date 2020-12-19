@@ -21,7 +21,7 @@ Puede configurar Adobe Campaign para que mantenga una copia de los correos elect
 
 En particular, si su organización necesita archivar todos los mensajes de correo electrónico salientes para cumplir con la normativa, puede habilitar esta capacidad. Le permite enviar una copia oculta exacta de los mensajes enviados correspondientes a una dirección de correo electrónico CCO (invisible para los destinatarios de envío) que debe especificar.
 
-Una vez habilitada, debe activar Email BCC desde la **[!UICONTROL Archive emails]** opción de la Plantilla de envíos de correo electrónico.
+Una vez habilitada, debe activar Email BCC desde la opción **[!UICONTROL Archive emails]** en la Plantilla de envíos de correo electrónico.
 
 >[!NOTE]
 >
@@ -42,14 +42,14 @@ Una vez habilitada, debe activar Email BCC desde la **[!UICONTROL Archive emails
 
 ## Activación del archivado de correo electrónico {#activating-email-archiving}
 
-Una vez activado, Email BCC se activa en la plantilla [de](../../start/using/marketing-activity-templates.md)correo electrónico mediante una opción dedicada:
+Una vez habilitada, Email BCC se activa en la [plantilla de correo electrónico](../../start/using/marketing-activity-templates.md) mediante una opción dedicada:
 
 1. Vaya a **Resources**, **Templates**, **Delivery templates**.
-1. Duplicado la plantilla lista para usar **[!UICONTROL Send via email]** .
+1. Duplicado la plantilla lista para usar **[!UICONTROL Send via email]**.
 1. Seleccione la plantilla duplicada.
-1. Click the **[!UICONTROL Edit properties]** button to edit the template&#39;s properties.
-1. Expanda la **[!UICONTROL Send]** sección.
-1. Marque la **[!UICONTROL Archive emails]** casilla para guardar una copia de todos los mensajes enviados para cada envío en función de esta plantilla.
+1. Haga clic en el botón **[!UICONTROL Edit properties]** para editar las propiedades de la plantilla.
+1. Expanda la sección **[!UICONTROL Send]**.
+1. Marque la casilla **[!UICONTROL Archive emails]** para guardar una copia de todos los mensajes enviados para cada envío según esta plantilla.
 
    ![](assets/email_archiving.png)
 
