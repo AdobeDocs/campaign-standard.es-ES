@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Ciclo de vida del mensaje transaccional
+title: Ciclo de un mensaje transaccional
 description: Obtenga información sobre cómo publicar, pausar, cancelar la publicación y eliminar un mensaje transaccional.
 audience: channels
 content-type: reference
@@ -10,13 +10,13 @@ context-tags: null
 translation-type: tm+mt
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '651'
+ht-degree: 76%
 
 ---
 
 
-# Ciclo de vida del mensaje transaccional {#publishing-transactional-message}
+# Ciclo de un mensaje transaccional {#publishing-transactional-message}
 
 Cuando el [mensaje transaccional](../../channels/using/editing-transactional-message.md) está listo para ser enviado, se puede publicar.
 
