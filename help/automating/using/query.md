@@ -58,7 +58,7 @@ La actividad **[!UICONTROL Query]** se puede utilizar para varios tipos de usos:
 
 1. En la pestaña **[!UICONTROL Transition]**, la opción **[!UICONTROL Enable an outbound transition]** le permite agregar una transición saliente después de la actividad de consulta, aunque no recupere datos.
 
-   The outbound transition&#39;s segment code can be personalized using a standard expression and events variables (see [this page](../../automating/using/customizing-workflow-external-parameters.md)).
+   El código de segmento de la transición saliente se puede personalizar mediante una expresión estándar y variables de eventos (consulte [esta página](../../automating/using/customizing-workflow-external-parameters.md)).
 
 1. Confirme la configuración de la actividad y guarde el flujo de trabajo.
 
@@ -66,7 +66,7 @@ La actividad **[!UICONTROL Query]** se puede utilizar para varios tipos de usos:
 
 Los recursos y dimensiones de segmentación le permiten definir en qué elementos se basará una consulta para determinar el destinatario de un envío.
 
-Se configuran en [asignaciones de destino](../../administration/using/target-mappings-in-campaign.md)y se definen al crear un flujo de trabajo en la **[!UICONTROL Properties]** ficha de una actividad de Consulta.
+Se configuran en [asignaciones de destino](../../administration/using/target-mappings-in-campaign.md) y se definen al crear un flujo de trabajo en la ficha **[!UICONTROL Properties]** de una actividad de Consulta.
 
 >[!NOTE]
 >
@@ -118,7 +118,7 @@ Después de agregar datos adicionales, puede aplicar un nivel de filtro adiciona
 >
 >De forma predeterminada, la opción **[!UICONTROL Remove duplicate rows (DISTINCT)]** está marcada en **[!UICONTROL Advanced options]** de la pestaña **[!UICONTROL Additional data]** de la consulta. Si la actividad **[!UICONTROL Query]** contiene muchos datos adicionales definidos (de 100), se recomienda desactivar esta opción por motivos de rendimiento. Tenga en cuenta que desmarcar esta opción puede resultar en duplicados, según los datos consultados.
 
-En [esta sección](../../automating/using/personalizing-email-with-additional-data.md)se presenta un caso de uso sobre cómo personalizar un correo electrónico con datos adicionales.
+En [esta sección](../../automating/using/personalizing-email-with-additional-data.md) se presenta un caso de uso sobre cómo personalizar un correo electrónico con datos adicionales.
 
 ### Adición de un campo simple {#adding-a-simple-field}
 
