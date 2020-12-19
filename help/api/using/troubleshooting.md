@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Resolución de problemas {#troubleshooting}
 
-* **Al ir a la consola Adobe.io, aparece el siguiente error: &quot;La consola de E/S de Adobe solo está disponible para seleccionar miembros de cuentas de empresa. Si cree que debe tener acceso, póngase en contacto con el administrador del sistema.&quot;**
+* **Al ir a la consola Adobe.io, aparece el siguiente error: &quot;La consola de Adobe I/O solo está disponible para seleccionar miembros de cuentas de empresa. Si cree que debe tener acceso, póngase en contacto con el administrador del sistema.&quot;**
 
 Solo puede crear claves de API para las organizaciones de IMS que administra. Si se muestra este mensaje y desea crear claves de API, y desea preguntar a un administrador de la organización de IMS.
 
