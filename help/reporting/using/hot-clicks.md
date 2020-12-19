@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # Clics activos{#hot-clicks}
 
-Se puede acceder a este informe desde el **[!UICONTROL Reports]** botón de cada envío o mensaje transaccional.
+Se puede acceder a este informe desde el botón **[!UICONTROL Reports]** de cada envío o mensaje transaccional.
 
 ![](assets/delivery_reports_hot-clicks_4.png)
 
@@ -26,7 +26,7 @@ Presenta el contenido del mensaje (HTML y/o texto) con el porcentaje de clics en
 
 ![](assets/delivery_reports_10.png)
 
-Si ha creado contenido dinámico para el envío, puede realizar la vista de los porcentajes de cada condición que haya definido. Para obtener más información sobre la inserción de contenido condicional en un envío, consulte [Definición de contenido](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)dinámico.
+Si ha creado contenido dinámico para el envío, puede realizar la vista de los porcentajes de cada condición que haya definido. Para obtener más información sobre la inserción de contenido condicional en un envío, consulte [Definición de contenido dinámico](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
 Por ejemplo, imagine que ha creado un envío con las siguientes condiciones:
 
@@ -39,13 +39,13 @@ De forma predeterminada, no hay ningún perfil seleccionado. Solo se muestran lo
 
 ![](assets/delivery_reports_hot-clicks_1.png)
 
-Para mostrar clics para mujeres, haga clic en el **[!UICONTROL Change profile]** botón y seleccione un perfil de prueba femenino. Para mostrar clics para hombres, proceda de manera similar y seleccione un perfil de prueba masculino.
+Para mostrar clics para mujeres, haga clic en el botón **[!UICONTROL Change profile]** y seleccione un perfil de prueba femenino. Para mostrar clics para hombres, proceda de manera similar y seleccione un perfil de prueba masculino.
 
 ![](assets/delivery_reports_hot-clicks_2.png)
 
-Para mostrar los clics de destinatarios mayores de 25 años, haga clic en el **[!UICONTROL Change profile]** botón y seleccione un perfil de prueba cuya fecha de nacimiento coincida con esta condición.
+Para mostrar los clics de destinatarios mayores de 25 años, haga clic en el botón **[!UICONTROL Change profile]** y seleccione un perfil de prueba cuya fecha de nacimiento coincida con esta condición.
 
-Para obtener más información sobre los perfiles de prueba, consulte [Acerca de los perfiles](../../audiences/using/managing-test-profiles.md)de prueba.
+Para obtener más información sobre los perfiles de prueba, consulte [perfiles de prueba](../../audiences/using/managing-test-profiles.md).
 
 >[!NOTE]
 >
@@ -59,11 +59,11 @@ Un envío de ejecución es un mensaje técnico no procesable y no funcional que 
 
    Por ejemplo, si el flujo de trabajo que administra este envío se ejecuta una vez al mes, habrá un envío de ejecución por mes. Además, cada vez que se actualiza el contenido del envío, se crea un envío de ejecución adicional.
 
-   Para obtener más información sobre envíos recurrentes de correo electrónico, consulte envío [de correo electrónico](../../automating/using/email-delivery.md).
+   Para obtener más información sobre envíos recurrentes por correo electrónico, consulte [envío de correo electrónico](../../automating/using/email-delivery.md).
 
 * De forma predeterminada, una vez al mes para mensajes transaccionales y cada vez que se edita y publica un mensaje transaccional de nuevo.
 
-   Para obtener más información sobre mensajes transaccionales, consulte [Introducción a los mensajes](../../channels/using/getting-started-with-transactional-msg.md)transaccionales.
+   Para obtener más información sobre mensajes transaccionales, consulte [Introducción a la mensajería transaccional](../../channels/using/getting-started-with-transactional-msg.md).
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Un envío de ejecución es un mensaje técnico no procesable y no funcional que 
 
 Una vez enviado el mensaje, seleccione **[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]** en el panel de envío.
 
-De forma predeterminada, se selecciona el último envío de ejecución. Haga clic en el **[!UICONTROL Change execution delivery]** botón para seleccionar otro.
+De forma predeterminada, se selecciona el último envío de ejecución. Haga clic en el botón **[!UICONTROL Change execution delivery]** para seleccionar otro.
 
 ![](assets/delivery_reports_hot-clicks_3.png)
 
