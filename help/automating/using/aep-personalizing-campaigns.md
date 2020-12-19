@@ -21,15 +21,15 @@ ht-degree: 9%
 >
 >El servicio Destinos de audiencia está actualmente en fase beta, que puede estar sujeto a frecuentes actualizaciones sin previo aviso. Se requiere que los clientes estén alojados en Azure (actualmente en versión beta solo para Norteamérica) para acceder a estas capacidades. Si desea obtener acceso, póngase en contacto con el Servicio de atención al cliente de Adobe.
 >
->**Los canales push** y **en la aplicación** aún no están disponibles para la personalización mediante datos contextuales de Adobe Experience Platform.
+>**** Pushand  **In-** Appchannels aún no están disponibles para su personalización mediante datos contextuales de Adobe Experience Platform.
 
-Una vez configurado el flujo de trabajo con una audiencia [de](../../audiences/using/aep-about-audience-destinations-service.md)Adobe Experience Platform, puede personalizar los mensajes con atributos de perfil que existan exclusivamente en el modelo de datos de experiencia (XDM).
+Una vez configurado el flujo de trabajo con una [audiencia de Adobe Experience Platform](../../audiences/using/aep-about-audience-destinations-service.md), puede personalizar los mensajes con atributos de perfil que existan exclusivamente en el Modelo de datos de experiencia (XDM).
 
-Para ello, debe agregar estos atributos a la **[!UICONTROL Read audience]** actividad:
+Para ello, debe agregar estos atributos a la actividad **[!UICONTROL Read audience]**:
 
-1. Abra la actividad **[!UICONTROL Read audience]**. En la **[!UICONTROL Additional data]** ficha, haga clic en el **[!UICONTROL Create element]** botón.
+1. Abra la actividad **[!UICONTROL Read audience]**. En la ficha **[!UICONTROL Additional data]**, haga clic en el botón **[!UICONTROL Create element]**.
 
-   Tenga en cuenta que la **[!UICONTROL Additional data]** ficha solo está disponible después de seleccionar una audiencia de Adobe Experience Platform.
+   Tenga en cuenta que la ficha **[!UICONTROL Additional data]** solo está disponible después de seleccionar una audiencia de Adobe Experience Platform.
 
    ![](assets/aep_wkf_readaudience_attributes.png)
 
@@ -37,11 +37,11 @@ Para ello, debe agregar estos atributos a la **[!UICONTROL Read audience]** acti
    >
    >Esta función no admite los tipos de datos de matriz y asignación. Además, solo se mostrarán en el selector los datos del esquema de unión.
 
-1. Seleccione el campo XDM deseado de la lista y haga clic en **[!UICONTROL Confirm]**.
+1. Seleccione el campo XDM deseado en la lista y haga clic en **[!UICONTROL Confirm]**.
 
    ![](assets/aep_wkf_readaudience_perso1.png)
 
-1. Haga clic en el **[!UICONTROL Add]** botón para agregarlo a la lista de datos adicionales.
+1. Haga clic en el botón **[!UICONTROL Add]** para agregarlo a la lista de datos adicionales.
 
    ![](assets/aep_wkf_readaudience_perso3.png)
 
@@ -49,9 +49,9 @@ Para ello, debe agregar estos atributos a la **[!UICONTROL Read audience]** acti
 
    >[!NOTE]
    >
-   >Puede agregar un máximo de 20 campos XDM en una **[!UICONTROL Read audience]** actividad.
+   >Puede agregar un máximo de 20 campos XDM en una actividad **[!UICONTROL Read audience]**.
 
-1. Una vez agregados todos los campos, haga clic en el **[!UICONTROL Confirm]** botón para guardar los cambios. Ahora estarán disponibles para personalizar sus envíos.
+1. Una vez agregados todos los campos, haga clic en el botón **[!UICONTROL Confirm]** para guardar los cambios. Ahora estarán disponibles para personalizar sus envíos.
 
 Para obtener más información sobre cómo crear y personalizar envíos, consulte la documentación del Campaign Standard:
 
