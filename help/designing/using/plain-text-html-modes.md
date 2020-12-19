@@ -21,7 +21,7 @@ El Diseñador de correo electrónico permite editar varias representaciones de l
 
 ## Generación de una versión de texto del correo electrónico {#generating-a-text-version-of-the-email}
 
-De forma predeterminada, la versión del **[!UICONTROL Plain text]** correo electrónico se genera automáticamente y se sincroniza con la **[!UICONTROL Edit]** versión.
+De forma predeterminada, la versión **[!UICONTROL Plain text]** del correo electrónico se genera automáticamente y se sincroniza con la versión **[!UICONTROL Edit]**.
 
 Los campos de personalización y los bloques de contenido añadidos a la versión HTML también se sincronizan con la versión de texto sin formato.
 
@@ -29,7 +29,7 @@ Los campos de personalización y los bloques de contenido añadidos a la versió
 >
 >Para utilizar bloques de contenido en versión de texto sin formato, asegúrese de que no contienen código HTML.
 
-Para que una versión de texto sin formato sea distinta de la versión HTML, puede desactivar esta sincronización haciendo clic en el **[!UICONTROL Sync with HTML]** conmutador de la **[!UICONTROL Plain text]** vista del correo electrónico.
+Para que una versión de texto sin formato sea diferente de la versión HTML, puede desactivar esta sincronización haciendo clic en el conmutador **[!UICONTROL Sync with HTML]** desde la vista **[!UICONTROL Plain text]** de su correo electrónico.
 
 ![](assets/email_designer_textversion.png)
 
@@ -37,7 +37,7 @@ A continuación, puede editar la versión de texto sin formato según lo desee.
 
 >[!NOTE]
 >
->Si edita la **[!UICONTROL Plain text]** versión mientras la sincronización está deshabilitada, la próxima vez que active la **[!UICONTROL Sync with HTML]** opción, todos los cambios realizados en la versión de texto sin formato se reemplazarán con la versión HTML. Los cambios realizados en la **[!UICONTROL Plain text]** vista no pueden reflejarse en la **[!UICONTROL HTML]** vista.
+>Si edita la versión **[!UICONTROL Plain text]** mientras la sincronización está deshabilitada, la próxima vez que habilite la opción **[!UICONTROL Sync with HTML]**, todos los cambios realizados en la versión de texto sin formato se reemplazarán con la versión HTML. Los cambios realizados en la vista **[!UICONTROL Plain text]** no pueden reflejarse en la vista **[!UICONTROL HTML]**.
 
 ## Edición de una fuente de contenido de correo electrónico en HTML {#editing-an-email-content-source-in-html}
 
@@ -49,13 +49,13 @@ Tiene dos formas de editar la versión HTML del correo electrónico:
 
    ![](assets/email_designer_html1.png)
 
-* En la interfaz WYSIWYG, seleccione un elemento y haga clic en el **[!UICONTROL Source code]** icono .
+* En la interfaz WYSIWYG, seleccione un elemento y haga clic en el icono **[!UICONTROL Source code]**.
 
-   Solo se muestra el origen del elemento seleccionado. Puede editar el código fuente si el elemento seleccionado es un componente de **[!UICONTROL HTML]** contenido. Otros componentes están en modo de solo lectura, pero se pueden editar en la versión HTML completa del correo electrónico.
+   Solo se muestra el origen del elemento seleccionado. Puede editar el código fuente si el elemento seleccionado es un componente de contenido **[!UICONTROL HTML]**. Otros componentes están en modo de solo lectura, pero se pueden editar en la versión HTML completa del correo electrónico.
 
    ![](assets/email_designer_html2.png)
 
-Si modifica el código HTML, podría romperse la respuesta del correo electrónico. Asegúrese de probarlo con el **[!UICONTROL Preview]** botón. Consulte [Vista previa de mensajes](../../sending/using/previewing-messages.md).
+Si modifica el código HTML, podría romperse la respuesta del correo electrónico. Asegúrese de probarlo con el botón **[!UICONTROL Preview]**. Consulte [Vista previa de mensajes](../../sending/using/previewing-messages.md).
 
 ## Diseño de correos electrónicos para representación móvil {#switching-to-mobile-view}
 
@@ -64,7 +64,7 @@ Puede ajustar el diseño interactivo de un correo electrónico editando por sepa
 Todas las opciones de estilo están disponibles en la vista móvil. La configuración de estilo de Email Designer se presenta anteriormente en esta página.
 
 1. Cree un correo electrónico y un inicio para editar el contenido. Para obtener más información sobre esto, consulte [Diseño de contenido de correo electrónico desde cero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
-1. Para acceder a la vista móvil dedicada, seleccione el **[!UICONTROL Switch to mobile view]** botón.
+1. Para acceder a la vista móvil dedicada, seleccione el botón **[!UICONTROL Switch to mobile view]**.
 
    ![](assets/email_designer_mobile_view_switch.png)
 
@@ -80,7 +80,7 @@ Todas las opciones de estilo están disponibles en la vista móvil. La configura
 
    ![](assets/email_designer_mobile_view_change.png)
 
-1. Puede ocultar un componente cuando se muestra en un dispositivo móvil. Para ello, seleccione **[!UICONTROL Show only on desktop devices]** una de las opciones **[!UICONTROL Display options]**.
+1. Puede ocultar un componente cuando se muestra en un dispositivo móvil. Para ello, seleccione **[!UICONTROL Show only on desktop devices]** en el **[!UICONTROL Display options]**.
 
    También puede ocultar este componente en dispositivos de escritorio, lo que significa que solo se mostrará en dispositivos móviles. Para ello, seleccione **[!UICONTROL Show only on mobile devices]**.
 
@@ -90,13 +90,13 @@ Todas las opciones de estilo están disponibles en la vista móvil. La configura
 
    ![](assets/email_designer_mobile_hide.png)
 
-1. Vuelva a hacer clic en el **[!UICONTROL Switch to mobile view]** botón para volver a la vista de escritorio estándar. Los cambios de estilo que acaba de realizar no se reflejan.
+1. Vuelva a hacer clic en el botón **[!UICONTROL Switch to mobile view]** para volver a la vista de escritorio estándar. Los cambios de estilo que acaba de realizar no se reflejan.
 
    ![](assets/email_designer_mobile_view_desktop_no-change.png)
 
    >[!NOTE]
    >
-   >La única excepción son los **[!UICONTROL Style inline]** ajustes. Cualquier cambio de configuración en línea de estilo también se aplica a la vista de escritorio estándar.
+   >La única excepción es la configuración **[!UICONTROL Style inline]**. Cualquier cambio de configuración en línea de estilo también se aplica a la vista de escritorio estándar.
 
 1. Cualquier otro cambio en la estructura o el contenido del correo electrónico, como ediciones de texto, carga de una nueva imagen, adición de un nuevo componente, etc. también se aplica a la vista estándar.
 
@@ -104,7 +104,7 @@ Todas las opciones de estilo están disponibles en la vista móvil. La configura
 
    ![](assets/email_designer_mobile_view_change_content.png)
 
-1. Vuelva a hacer clic en el **[!UICONTROL Switch to mobile view]** botón para volver a la vista de escritorio estándar. Los cambios se reflejan.
+1. Vuelva a hacer clic en el botón **[!UICONTROL Switch to mobile view]** para volver a la vista de escritorio estándar. Los cambios se reflejan.
 
    ![](assets/email_designer_mobile_view_desktop_content-change.png)
 
@@ -118,13 +118,13 @@ Todas las opciones de estilo están disponibles en la vista móvil. La configura
 
    ![](assets/email_designer_mobile_view_background_desktop.png)
 
-1. Vuelva a cambiar a la vista móvil y ahora deshabilite la **[!UICONTROL Background color]** configuración.
+1. Vuelva a cambiar a la vista móvil y ahora deshabilite la configuración **[!UICONTROL Background color]**.
 
    ![](assets/email_designer_mobile_view_background_mobile_disabled.png)
 
    Ahora se aplica el color de fondo definido en la vista de escritorio: se vuelve gris (no en blanco).
 
-   La única excepción es la **[!UICONTROL Border color]** configuración. Cuando está desactivado en la vista móvil, ya no se aplica ningún borde, incluso si se define un color de borde en la vista de escritorio.
+   La única excepción es la configuración **[!UICONTROL Border color]**. Cuando está desactivado en la vista móvil, ya no se aplica ningún borde, incluso si se define un color de borde en la vista de escritorio.
 
 >[!NOTE]
 >
