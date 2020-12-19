@@ -69,11 +69,11 @@ byEmail
 
 <table>
     <tr>
-    <th>Name</th>
+    <th>Nombre</th>
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>email</td>
+    <td>correo electrónico</td>
     <td>string</td>
     </tr>
 </table>
@@ -82,7 +82,7 @@ byStatusOrType
 
 <table>
         <tr>
-        <th>Name</th>
+        <th>Nombre</th>
         <th>Tipo</th>
         </tr>
         <tr>
