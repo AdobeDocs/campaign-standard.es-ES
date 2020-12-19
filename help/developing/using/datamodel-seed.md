@@ -219,7 +219,7 @@ Por tipo de evento (byEventType)
 
 <table>
         <tr>
-        <th>Name</th>
+        <th>Nombre</th>
         <th>Tipo</th>
         </tr>
         <tr>
@@ -232,7 +232,7 @@ Por nombre o etiqueta (byText)
 
 <table>
         <tr>
-        <th>Name</th>
+        <th>Nombre</th>
         <th>Tipo</th>
         </tr>
         <tr>
@@ -245,7 +245,7 @@ Por uso (byUsage)
 
 <table>
         <tr>
-        <th>Name</th>
+        <th>Nombre</th>
         <th>Tipo</th>
         </tr>
         <tr>
@@ -266,7 +266,7 @@ Perfil de prueba (perfil)
 
 <table>
     <tr>
-    <th>Name</th>
+    <th>Nombre</th>
     <th>Tipo</th>
     </tr>
     <tr>
