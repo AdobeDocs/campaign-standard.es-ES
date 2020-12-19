@@ -77,7 +77,7 @@ Se recomienda usar hasta 100 actividades en un único flujo de trabajo. Más de 
 
 ### Diseño del flujo de trabajo
 
-Para asegurarse de que el flujo de trabajo termina correctamente, evite dejar la última transición de un flujo de trabajo por su cuenta usando un **[!UICONTROL End activity]**.
+Para asegurarse de que el flujo de trabajo termina correctamente, evite dejar la última transición de un flujo de trabajo por su cuenta utilizando un **[!UICONTROL End activity]**.
 
 Para acceder a la vista de detalles de las transiciones, marque la opción **[!UICONTROL Keep interim results]** en la sección Ejecución de las propiedades del flujo de trabajo.
 
@@ -108,7 +108,7 @@ Para obtener más información, consulte [Actividad del planificador](../../auto
 
 ## Invocación del flujo de trabajo con parámetros{#workflow-with-parameters}
 
-Asegúrese de que el nombre y el número de parámetros son idénticos a los definidos al llamar al flujo de trabajo (consulte [esta página](../../automating/using/defining-parameters-calling-workflow.md). Los tipos de parámetros también deben ser consistentes con los valores esperados.
+Asegúrese de que el nombre y el número de parámetros sean idénticos a los definidos al llamar al flujo de trabajo (consulte [esta página](../../automating/using/defining-parameters-calling-workflow.md). Los tipos de parámetros también deben ser consistentes con los valores esperados.
 
 Asegúrese de que todos los parámetros se han declarado en la **[!UICONTROL External signal activity]**. De lo contrario, se producirá un error al ejecutar la actividad.
 
