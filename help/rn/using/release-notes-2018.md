@@ -118,7 +118,7 @@ Vista las [actualizaciones de documentación más recientes](../../rn/using/docu
   </tr> 
   <tr> 
    <td> Administración de usuarios<br /> </td> 
-   <td> La capacidad de la unidad geográfica ahora no está disponible para las nuevas instancias de Campaign Standard, ni para las instancias existentes sin crear unidades geográficas, a partir de la versión 18.7.<br /><a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html"> Para obtener más información, consulte esta página</a>.<br /> </td> 
+   <td> La capacidad de la unidad geográfica ahora no está disponible para las nuevas instancias de Campaign Standard, ni para las instancias existentes sin crear unidades geográficas, a partir de la versión 18.7.<br /><a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=es#release-notes"> Para obtener más información, consulte esta página</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
