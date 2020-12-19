@@ -31,7 +31,7 @@ La integración de Adobe Campaign y Microsoft Dynamics 365 permite la sincroniza
 
 Por el contrario, a medida que los perfiles de Adobe Campaign interactúan con los mensajes, dichos datos (por ejemplo: envía, abre, hace clic y realiza devoluciones) automáticamente en Microsoft Dynamics 365 para mantener los registros de contacto completos con la actividad de marketing.
 
-La integración también admite entidades personalizadas, lo que permite sincronizar las entidades [](../../integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md) personalizadas de Dynamics 365 con las entidades personalizadas correspondientes en la Campaña.
+La integración también admite entidades personalizadas, lo que permite sincronizar [entidades personalizadas](../../integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md) en Dynamics 365 con las entidades personalizadas correspondientes en la Campaña.
 
 Esta integración está diseñada para admitir cuatro casos de uso principales:
 
