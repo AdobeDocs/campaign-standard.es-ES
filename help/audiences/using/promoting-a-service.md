@@ -27,6 +27,6 @@ Puede utilizar la Campaña para promocionar un servicio mediante:
 
    >[!NOTE]
    >
-   >También es importante dar a los suscriptores la posibilidad de cancelar la suscripción. Para ello, inserte un vínculo <b></b> Baja de servicio en el correo electrónico de confirmación (definido en las propiedades del servicio) enviado automáticamente a los nuevos suscriptores, así como en futuros correos electrónicos de la newsletter.
+   >También es importante dar a los suscriptores la posibilidad de cancelar la suscripción. Para ello, inserte un servicio <b>vínculo Baja</b> en el correo electrónico de confirmación (definido en las propiedades del servicio) enviado automáticamente a los nuevos suscriptores, así como en futuros correos electrónicos de newsletter.
 
 * Publicación de una suscripción o página de aterrizaje baja en un sitio web. Las direcciones URL que le proporcionan acceso a la página de aterrizaje deben especificar parámetros como el servicio asociado, así como el ID de perfil que accede a ella. Este ID se puede definir en los parámetros de página de aterrizaje (consulte [Configuración de una página de aterrizaje](../../channels/using/configuring-landing-page.md)).
