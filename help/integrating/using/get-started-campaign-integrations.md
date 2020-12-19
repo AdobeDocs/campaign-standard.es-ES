@@ -63,7 +63,7 @@ Si desea integrar flujos de datos de otros sistemas con Adobe Campaign, consulte
    <td> Analytics<br /> Standard, Premium <br /> </td> 
    <td> Le permite realizar un seguimiento del éxito de sus envíos de correo electrónico directamente en Adobe Analytics.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-analytics-integration.md">Compartir datos de Campaign con Analytics</a>, vídeo <a href="https://helpx.adobe.com/es/marketing-cloud/how-to/email-marketing.html">Compartir KPI para el sistema de informes de Campaign integrado</a> (paso 1)
+    <a href="../../integrating/using/about-campaign-analytics-integration.md">Compartir datos de Campaign con Analytics</a>, vídeo <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Compartir KPI para el sistema de informes de Campaign integrado</a> (paso 1)
     </td> 
   </tr> 
   <tr> 
@@ -85,7 +85,7 @@ Si desea integrar flujos de datos de otros sistemas con Adobe Campaign, consulte
    <td> Activadores de Experience Cloud<br /> </td> 
    <td> Le permite enviar correos electrónicos personalizados a sus clientes en Adobe Campaign como reacción a los comportamientos específicos que Adobe Analytics rastrea en su sitio web.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">Utilización de los activadores de Experience Cloud en Campaign Standard</a>, <a href="../../integrating/using/abandonment-triggers-use-cases.md">Ejemplos de uso de los activadores de abandono</a>, y vídeo de <a href="https://helpx.adobe.com/es/marketing-cloud/how-to/email-marketing.html">mensajes de remarketing del activador basados en la Actividad del sitio</a> (paso 2)
+    <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">Utilización de los activadores de Experience Cloud en Campaign Standard</a>, <a href="../../integrating/using/abandonment-triggers-use-cases.md">Ejemplos de uso de los activadores de abandono</a>, y vídeo de <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">mensajes de remarketing del activador basados en la Actividad del sitio</a> (paso 2)
     </td> 
   </tr> 
   <tr> 
