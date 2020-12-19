@@ -31,7 +31,7 @@ Se necesitan los siguientes elementos para este procedimiento:
 1. Para configurar las opciones de servidor e inquilino para Adobe Target, rellene los campos siguientes en consecuencia:
 
    * **[!UICONTROL TNT_TenantName]**:: nombre del inquilino de Adobe Target. Este valor corresponde al nombre de **[!UICONTROL Client]** de Adobe Target.
-   * **[!UICONTROL TNT_EdgeServer]**:: Servidor Adobe Target utilizado para la integración. Esta opción ya se proporciona de forma predeterminada. This value corresponds to the Adobe Target **[!UICONTROL Server Domain]**, followed by the **/m2** value. Por ejemplo: **tt.omtrdc.net/m2**.
+   * **[!UICONTROL TNT_EdgeServer]**:: Servidor Adobe Target utilizado para la integración. Esta opción ya se proporciona de forma predeterminada. Este valor corresponde al valor de Adobe Target **[!UICONTROL Server Domain]**, seguido del valor **/m2**. Por ejemplo: **tt.omtrdc.net/m2**.
 
    ![](assets/tar_options.png)
 
