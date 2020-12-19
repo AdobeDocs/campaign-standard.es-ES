@@ -23,9 +23,9 @@ Al editar un correo electrónico, puede insertar una imagen dinámica de Adobe T
 
 Antes de acceder a la imagen en Adobe Campaign, las siguientes tareas deben realizarse primero en Adobe Target:
 
-* Create one or several [redirect offers](https://docs.adobe.com/content/help/en/target/using/experiences/offers/offer-redirect.html), in which you must specify the URL of the image you will be using.
+* Cree una o varias [ofertas de redireccionamiento](https://docs.adobe.com/content/help/en/target/using/experiences/offers/offer-redirect.html), en las que debe especificar la dirección URL de la imagen que utilizará.
 * Cree una o varias [audiencias](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html) para definir el público objetivo de la actividad.
-* Create a [Form-based experience composer](https://docs.adobe.com/content/help/en/target/using/experiences/form-experience-composer.html) activity, in which you have to select a rawbox and specify several experiences, depending on the number of redirect offers created. Para cada experiencia, debe seleccionar una de las ofertas de redireccionamiento creadas.
+* Cree una actividad [Compositor de experiencias basadas en formularios](https://docs.adobe.com/content/help/en/target/using/experiences/form-experience-composer.html), en la que deberá seleccionar un rawbox y especificar varias experiencias, según el número de ofertas de redireccionamiento creadas. Para cada experiencia, debe seleccionar una de las ofertas de redireccionamiento creadas.
 * Cree segmentos con información de Adobe Campaign para especificar experiencias. Para utilizar datos de Adobe Campaign en las reglas de selección de la oferta, debe especificar los datos en el “rawbox” en Adobe Target.
 
 1. Creación de una entrega de correo electrónico.
@@ -39,7 +39,7 @@ Antes de acceder a la imagen en Adobe Campaign, las siguientes tareas deben real
 
 1. Introduzca el nombre del “rawbox” especificado en Adobe Target.
 1. Si utiliza permisos de empresa en la configuración de Adobe Target, añada la propiedad correspondiente en este campo. Obtenga más información sobre los permisos de empresa de Target en [esta página](https://docs.adobe.com/content/help/es-ES/target/using/administer/manage-users/enterprise/properties-overview.html). Este campo es opcional y no es necesario si no se utilizan permisos de empresa en Target.
-1. In **[!UICONTROL Additional decision parameters]**, specify the mapping between the fields defined in the Adobe Target segments and the Adobe Campaign fields.
+1. En **[!UICONTROL Additional decision parameters]**, especifique la asignación entre los campos definidos en los segmentos de Adobe Target y los campos de Adobe Campaign.
 
    Los campos de Adobe Campaign utilizados deben haberse especificado en el “rawbox”. Aquí definiremos diferentes experiencias según el sexo del destinatario.
 
@@ -51,7 +51,7 @@ Ahora se puede enviar el envío que contiene la imagen dinámica. Sus resultados
 
 **Temas relacionados:**
 
-* [Adobe Target Portal](https://docs.adobe.com/content/help/es-ES/target/using/integrate/campaign-and-target.html)
+* [Adobe Target Portal](https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html)
 * [Acerca del diseño de contenido de correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md)
-* [Personalización de imágenes de correo electrónico en vídeo en tiempo](https://helpx.adobe.com/es/marketing-cloud/how-to/email-marketing.html) real
+* [Personalización de imágenes de correo electrónico en ](https://helpx.adobe.com/es/marketing-cloud/how-to/email-marketing.html) tiempo real
 
