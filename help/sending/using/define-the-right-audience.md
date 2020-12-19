@@ -29,7 +29,7 @@ Para que su envío se realice correctamente, envíe el contenido personalizado m
 
 ## Asignaciones de destino {#target-mappings}
 
-By default, delivery templates target **Profiles**. Adobe Campaign ofrece otras asignaciones de destino para los envíos, que puede cambiar según sus necesidades.
+De forma predeterminada, destinatario de Plantillas de envíos **Perfiles**. Adobe Campaign ofrece otras asignaciones de destino para los envíos, que puede cambiar según sus necesidades.
 
 Estas asignaciones se presentan [en esta sección](../../automating/using/query.md#targeting-dimensions-and-resources).
 
@@ -37,22 +37,22 @@ También puede crear y utilizar una asignación de destino personalizada. Para o
 
 ## Datos externos {#external-data}
 
-Puede enviar a destinatarios que estén almacenados en un archivo externo en lugar de guardarlos en la base de datos. Para ello, el diseño de un flujo de trabajo cargará datos en la base de datos desde un archivo y creará una audiencia asociada.  Obtenga más información [en este caso de uso](../../automating/using/use-case-calling-workflow.md). Consulte también [Llamada a un flujo de trabajo con parámetros](../../automating/using/calling-a-workflow-with-external-parameters.md).
+Puede enviar a destinatarios que estén almacenados en un archivo externo en lugar de guardarlos en la base de datos. Para ello, el diseño de un flujo de trabajo cargará datos en la base de datos desde un archivo y creará una audiencia asociada.  Obtenga más información [en este caso de uso](../../automating/using/use-case-calling-workflow.md). Consulte también [Llamar a un flujo de trabajo con parámetros](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
 ## Envíos a suscriptores {#send-to-subscribers}
 
 Para enviar mensajes a los suscriptores de una newsletter, puede enviar directamente a los destinatarios de los suscriptores al servicio informativo correspondiente. Obtenga más información [en esta sección](../../audiences/using/about-subscriptions.md).
 
-**Sugerencia** : Puede crear una audiencia de Lista que destinatario a los suscriptores a la newsletter mediante un flujo de trabajo. A continuación, puede seleccionar esta audiencia en un envío. Para obtener más información sobre esto, consulte [Creación de audiencias](../../audiences/using/creating-audiences.md#creating-list-audiences)de lista.
+**Sugerencia** : Puede crear una audiencia de Lista que destinatario a los suscriptores a la newsletter mediante un flujo de trabajo. A continuación, puede seleccionar esta audiencia en un envío. Para obtener más información sobre esto, consulte [Creación de audiencias de lista](../../audiences/using/creating-audiences.md#creating-list-audiences).
 
-## Pruebas, perfiles de ensayo y grupos de control {#proofs-test-control-groups}
+## Pruebas, perfiles de prueba y grupos de control {#proofs-test-control-groups}
 
 Para probar el envío, utilice pruebas antes de enviar al destinatario principal.
 Asegúrese de seleccionar los destinatarios de prueba adecuados, ya que validan el formulario y el contenido del mensaje. Los pasos para enviar pruebas se presentan [en esta sección](../../sending/using/sending-proofs.md).
 
-Learn more about test profiles [in this section](../../audiences/using/managing-test-profiles.md).
+Obtenga más información sobre los perfiles de prueba [en esta sección](../../audiences/using/managing-test-profiles.md).
 
-You can use [Control groups](../../sending/using/control-group.md) to measure the impact of your campaigns by excluding a portion of their audience. A continuación, podrá comparar el comportamiento de la población de destinatarios que recibió el mensaje con el comportamiento de los contactos a los que no estaban destinados. En función de los registros de envío, también puede destinar un grupo de control en campañas futuras.
+Puede utilizar [Grupos de control](../../sending/using/control-group.md) para medir el impacto de sus campañas excluyendo una porción de su audiencia. A continuación, podrá comparar el comportamiento de la población de destinatarios que recibió el mensaje con el comportamiento de los contactos a los que no estaban destinados. En función de los registros de envío, también puede destinar un grupo de control en campañas futuras.
 
 ## Deduplicación de direcciones {#deduplicate-addresses}
 
