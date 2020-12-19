@@ -18,11 +18,11 @@ ht-degree: 5%
 
 # Rechazos y no entregables{#non-deliverables-and-bounces}
 
-El **[!UICONTROL Non-deliverables and bounces]** informe proporciona detalles sobre todos los errores encontrados durante un envío.
+El informe **[!UICONTROL Non-deliverables and bounces]** proporciona detalles sobre todos los errores encontrados durante un envío.
 
 ![](assets/delivery_reports_7.png)
 
-La **[!UICONTROL Overview]** tabla contiene los datos disponibles sobre los posibles errores encontrados en cada envío, como:
+La tabla **[!UICONTROL Overview]** contiene los datos disponibles sobre los posibles errores que se pueden encontrar en cada envío, como:
 
 * **Procesado/enviado**: Número de correos electrónicos enviados.
 * **Enviado**: Número de correos electrónicos enviados.
@@ -30,4 +30,4 @@ La **[!UICONTROL Overview]** tabla contiene los datos disponibles sobre los posi
 * **Rebotes** duros: Número total de errores permanentes, como una dirección de correo electrónico incorrecta.
 * **Devoluciones + Errores**: Número de mensajes que no se pudieron entregar.
 
-La tabla **Desglosar por dominio** lista las devoluciones por dominios de destinatarios.
+La tabla **Desglose por dominio** lista las devoluciones por dominios de destinatarios.
