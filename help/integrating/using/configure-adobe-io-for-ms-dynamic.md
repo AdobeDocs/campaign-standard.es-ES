@@ -37,9 +37,9 @@ Deberá crear un nuevo proyecto de E/S de Adobe y configurarlo para la integraci
 
 Para lograrlo, siga el procedimiento siguiente:
 
-1. Vaya a la consola [de E/S de](https://console.adobe.io/home#) Adobe y seleccione el ID de organización de IMS de Adobe en el menú desplegable situado en la parte superior derecha de la pantalla.
+1. Vaya a [Consola de E/S de Adobe](https://console.adobe.io/home#) y seleccione el identificador de organización de IMS de Adobe en el menú desplegable en la parte superior derecha de la pantalla.
 
-1. A continuación, haga clic en **[!UICONTROL Create new project]** debajo de **[!UICONTROL Quick Start]**.
+1. A continuación, haga clic en **[!UICONTROL Create new project]** en **[!UICONTROL Quick Start]**.
 
    ![](assets/adobeIO1.png)
 
@@ -51,7 +51,7 @@ Para lograrlo, siga el procedimiento siguiente:
 
    ![](assets/adobeIO3.png)
 
-1. En la siguiente pantalla tendrá la opción de cargar su propia clave pública o permitir que Adobe IO genere el par de claves por usted. Estas instrucciones seguirán esta última opción. Si decide permitir que Adobe IO genere el par de claves, haga clic en la opción 1; a continuación, haga clic en el **[!UICONTROL Generate keypair]** botón.
+1. En la siguiente pantalla tendrá la opción de cargar su propia clave pública o permitir que Adobe IO genere el par de claves por usted. Estas instrucciones seguirán esta última opción. Si decide permitir que Adobe IO genere el par de claves, haga clic en la opción 1; a continuación, haga clic en el botón **[!UICONTROL Generate keypair]**.
 
    ![](assets/adobeIO4.png)
 
@@ -63,7 +63,9 @@ Una vez descargado, puede descomprimir el archivo para revelar las claves públi
 
    ![](assets/adobeIO5.png)
 
-1. En la siguiente pantalla, seleccionará los perfiles de producto para asociarlos a este proyecto. Seleccione el perfil del producto que contiene en la solución: Campaña Standard product: campaignTitle: El ID de inquilino de la instancia de Campaña: [!UICONTROL Administrators]
+1. En la siguiente pantalla, seleccionará los perfiles de producto para asociarlos a este proyecto. Seleccione el perfil del producto que contiene en la solución: Campaign Standard
+product: campaña
+title: El ID de inquilino de la instancia de Campaña: [!UICONTROL Administrators]
 
    Ejemplo: Campaign Standard - su-campaña-inquilinoID - Administradores
 
@@ -71,21 +73,21 @@ Una vez descargado, puede descomprimir el archivo para revelar las claves públi
 
    ![](assets/adobeIO6.png)
 
-1. En la siguiente pantalla verá los detalles del nuevo proyecto de E/S de Adobe. Haga clic en **[!UICONTROL Add to Project]** en la parte superior izquierda de la pantalla y seleccione **API** en la lista desplegable.
+1. En la siguiente pantalla verá los detalles del nuevo proyecto de E/S de Adobe. Haga clic **[!UICONTROL Add to Project]** en la parte superior izquierda de la pantalla y seleccione **API** en la lista desplegable.
 
    ![](assets/adobeIO7.png)
 
-1. En la siguiente pantalla tendrá que seleccionar la API de Eventos de E/S y, a continuación, hacer clic en **[!UICONTROL Next]**.
+1. En la siguiente pantalla tendrá que seleccionar la API de Eventos de E/S y luego hacer clic en **[!UICONTROL Next]**.
 
 1. En la pantalla siguiente, haga clic en **[!UICONTROL Save the configured API]**.  Volverá a la pantalla de detalles del proyecto.
 
-1. Haga clic **[!UICONTROL Add to Project]** en la parte superior izquierda de la pantalla y seleccione **API** en la lista desplegable, como lo hizo anteriormente.
+1. Ahora haga clic **[!UICONTROL Add to Project]** en la parte superior izquierda de la pantalla y seleccione **API** en la lista desplegable, como lo hizo anteriormente.
 
-1. En la siguiente pantalla, deberá seleccionar la API de administración de E/S y hacer clic en **[!UICONTROL Next]**.
+1. En la siguiente pantalla tendrá que seleccionar la API de administración de E/S y hacer clic en **[!UICONTROL Next]**.
 
 1. En la pantalla siguiente, haga clic en **[!UICONTROL Save the configured API]**.
 
-Ya se ha completado la configuración previa a la integración en Campaña.  Continúe con la configuración [previa a la integración de Microsoft Dynamics 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md).
+Ya se ha completado la configuración previa a la integración en Campaña.  Continúe con la configuración [previa a la integración para Microsoft Dynamics 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md).
 
 **Temas relacionados**
 
