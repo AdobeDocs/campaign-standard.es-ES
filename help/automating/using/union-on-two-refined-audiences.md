@@ -24,7 +24,7 @@ El flujo de trabajo está diseñado de la siguiente manera:
 
 ![](assets/readaudience_activity_example1.png)
 
-* A first [Read audience](../../automating/using/read-audience.md) activity that retrieves the Gold members audience and refines it by selecting only profiles that are between 18 and 30 years old.
+* Una primera actividad [Leer audiencia](../../automating/using/read-audience.md) que recupera la audiencia de miembros Gold y la perfecciona seleccionando sólo perfiles con edades comprendidas entre 18 y 30 años.
 * Una segunda actividad de **[!UICONTROL Read audience]** que recupera la audiencia de miembros plata y la perfecciona seleccionando solo perfiles de entre 18 y 30 años de edad.
-* A [Union](../../automating/using/union.md) activity that unites populations from both **[!UICONTROL Read audiences]** activities into one final population.
-* An [Email delivery](../../automating/using/email-delivery.md) activity that sends the email to the population coming from the **[!UICONTROL Union]** activity.
+* Una actividad [de Unión](../../automating/using/union.md) que une poblaciones de ambas actividades **[!UICONTROL Read audiences]** en una población final.
+* Una actividad [envío de correo electrónico](../../automating/using/email-delivery.md) que envía el correo electrónico a la población que proviene de la actividad **[!UICONTROL Union]**.
