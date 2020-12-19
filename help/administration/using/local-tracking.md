@@ -16,7 +16,7 @@ ht-degree: 1%
 ---
 
 
-# Implementación de seguimiento local {#local-tracking}
+# Implementación del seguimiento local {#local-tracking}
 
 ## Acerca del seguimiento local {#about-local-tracking}
 
@@ -24,11 +24,11 @@ En esta página, aprenda a asegurarse de que el seguimiento de notificaciones lo
 
 El seguimiento de notificaciones locales se puede dividir en tres tipos:
 
-* **Impresiones** locales: cuando se ha enviado una notificación local al dispositivo y se encuentra en el centro de notificaciones, pero no se ha tocado en absoluto. En la mayoría de los casos, el número de impresiones debe ser similar si no es el mismo que el número entregado. Garantiza que el dispositivo obtuvo el mensaje y retransmite esa información al servidor.
+* **Impresiones**  locales: cuando se ha enviado una notificación local al dispositivo y se encuentra en el centro de notificaciones, pero no se ha tocado en absoluto. En la mayoría de los casos, el número de impresiones debe ser similar si no es el mismo que el número entregado. Garantiza que el dispositivo obtuvo el mensaje y retransmite esa información al servidor.
 
-* **Clic** local: cuando se ha enviado una notificación local al dispositivo y el usuario ha hecho clic en él. El usuario deseaba realizar la vista (que a su vez pasará al seguimiento abierto local) o descartar la notificación.
+* **Clic**  local: cuando se ha enviado una notificación local al dispositivo y el usuario ha hecho clic en él. El usuario deseaba realizar la vista (que a su vez pasará al seguimiento abierto local) o descartar la notificación.
 
-* **Apertura** local: cuando se envía una notificación local al dispositivo y el usuario hace clic en la notificación que hace que la aplicación se abra. Esto es similar al clic local, excepto que no se activará una apertura local si se descartó la notificación.
+* **Apertura**  local: cuando se envía una notificación local al dispositivo y el usuario hace clic en la notificación que hace que la aplicación se abra. Esto es similar al clic local, excepto que no se activará una apertura local si se descartó la notificación.
 
 Para implementar el seguimiento para Adobe Campaign Standard, la aplicación móvil debe incluir SDK móvil en la aplicación. Estos SDK están disponibles en [!DNL Adobe Mobile Services].
 
@@ -148,7 +148,7 @@ Debe enviar &quot;1&quot; y &quot;2&quot;, ya que el usuario debe hacer clic en 
 
 Para rastrear la apertura, necesitamos crear intención. Los objetos de intención permiten que el sistema operativo Android llame al método cuando se hayan realizado determinadas acciones; en este caso, haga clic en la notificación para abrir la aplicación.
 
-Este código se basa en la implementación del seguimiento de impresión de clics. Con la intención establecida, ahora debe enviar la información de seguimiento a Adobe Campaign. En este caso, la Vista([!DNL Activity]) de Android que activó la notificación se abrirá o pondrá en primer plano como resultado del clic por usuario. El objeto de intención de [!DNL Activity] contiene los datos de notificación que pueden utilizarse para rastrear la apertura.
+Este código se basa en la implementación del seguimiento de impresión de clics. Con la intención establecida, ahora debe enviar la información de seguimiento a Adobe Campaign. En este caso, la Vista de Android ([!DNL Activity]) que activó la notificación se abrirá o pondrá en primer plano como resultado del clic por usuario. El objeto de intención de [!DNL Activity] contiene los datos de notificación que pueden utilizarse para rastrear la apertura.
 
 MainActivity.java (extiende [!DNL Activity])
 
