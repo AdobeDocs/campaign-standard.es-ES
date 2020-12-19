@@ -33,10 +33,10 @@ Las suscripciones también se pueden administrar mediante la API de Adobe Campai
 
 Siga los pasos a continuación para crear un mecanismo de suscripción:
 
-1. **Crear un servicio** : siga los pasos descritos [en esta sección](../../audiences/using/creating-a-service.md) para crear un servicio de suscripción
-1. **Compartir el vínculo** : descubra cómo promocionar y compartir su servicio [en esta página](../../audiences/using/promoting-a-service.md)
-1. **Monitorear suscripciones** : descubra varias formas de monitorear suscripciones a su servicio [en esta sección](../../audiences/using/monitoring-subscriptions.md)
-1. **Confirmar suscripciones** : siga [este tutorial](../../audiences/using/confirming-subscription-to-a-service.md) para enviar un mensaje de confirmación de suscripción
+1. **Crear un servicio** : siga los pasos descritos  [en esta ](../../audiences/using/creating-a-service.md) sección para crear un servicio de suscripción
+1. **Compartir el vínculo** : descubra cómo promocionar y compartir su servicio  [en esta página](../../audiences/using/promoting-a-service.md)
+1. **Monitorear suscripciones** : descubra varias formas de monitorear suscripciones a su servicio  [en esta sección](../../audiences/using/monitoring-subscriptions.md)
+1. **Confirmar suscripciones** : siga  [este ](../../audiences/using/confirming-subscription-to-a-service.md) tutorial para enviar un mensaje de confirmación de suscripción
 
 ## Recursos adicionales
 
