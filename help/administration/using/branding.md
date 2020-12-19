@@ -85,13 +85,13 @@ Una **marca** se define con las siguientes características:
 
    ![](assets/branding_05.png)
 
-## Creating a new brand {#creating-a-brand}
+## Creación de una nueva marca {#creating-a-brand}
 
 Puede agregar nuevas entidades de su organización en Campaña o crear un nuevo tipo de correo electrónico que necesite enviar en un subdominio diferente. Para realizar esto, siga los pasos a continuación:
 
-1. **Configurar un nuevo subdominio** : para que cualquier subdominio nuevo lo utilice Adobe, el primer paso será configurarlo. Puede realizar esto a través del Panel de control de Campaign [de](https://docs.adobe.com/content/help/es-ES/control-panel/using/subdomains-and-certificates/subdomains-branding.html) Campaña o ponerse en contacto con el contacto técnico de Adobe. Learn more about subdomain configuration [in this article](https://helpx.adobe.com/es/campaign/kb/domain-name-delegation.html).
+1. **Configurar un nuevo subdominio** : para cualquier subdominio nuevo que utilice Adobe, el primer paso será configurarlo. Puede hacerlo a través del [Panel de control de Campaign de Campaña](https://docs.adobe.com/content/help/es-ES/control-panel/using/subdomains-and-certificates/subdomains-branding.html) o ponerse en contacto con el contacto técnico de Adobe. Obtenga más información sobre la configuración de subdominio [en este artículo](https://helpx.adobe.com/es/campaign/kb/domain-name-delegation.html).
 
-1. **Crear un ticket** : Una vez configurado el subdominio, Adobe deberá configurarlo en el entorno de producción. Para solicitar esto, [cree un ticket para Client Care](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) con la siguiente información:
+1. **Crear un ticket** : Una vez configurado el subdominio, Adobe deberá configurarlo en el entorno de producción. Para solicitar esto, [cree un ticket para ClientCare](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) con la siguiente información:
 
    * Asunto: ACS Nueva marca configurada
 
@@ -103,7 +103,7 @@ Puede agregar nuevas entidades de su organización en Campaña o crear un nuevo 
 
 1. **Crear una Plantilla de envíos** : una vez que la nueva marca esté disponible, se recomienda crear al menos una nueva Plantilla de envíos en blanco que haga referencia a esta nueva marca. [Más información](#linking-a-brand-to-a-template).
 
-1. **Comprobar las directrices** de entregabilidad: antes de empezar a usar el nuevo dominio, la estrategia debe analizarse con el equipo de entregabilidad de Adobe. Ayudarán a definir las prácticas recomendadas, si se debe crear una nueva afinidad para dividir las IP entre dominios, por ejemplo, y/o si se debe definir un plan de ampliación. Obtenga más información sobre las optimizaciones [de la entrega en esta sección](../../sending/using/about-deliverability.md).
+1. **Comprobar las directrices**  de entregabilidad: antes de empezar a usar el nuevo dominio, la estrategia debe discutirse con el equipo de entrega de Adobe. Ayudarán a definir las prácticas recomendadas, si se debe crear una nueva afinidad para dividir las IP entre dominios, por ejemplo, y/o si se debe definir un plan de ampliación. Obtenga más información sobre las optimizaciones para la entrega [en esta sección](../../sending/using/about-deliverability.md).
 
 ## Asignación de una marca a un correo electrónico {#assigning-a-brand-to-an-email}
 
