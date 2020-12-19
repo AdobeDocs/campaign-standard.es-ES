@@ -17,12 +17,12 @@ ht-degree: 10%
 
 # Interacción con el historial de marketing {#interacting-with-marketing-history}
 
-El punto final del **historial** le permite interactuar con el historial de marketing de un perfil.
+El extremo **historial** permite interactuar con el historial de marketing de un perfil.
 De este modo, puede, por ejemplo, recuperar fácilmente la página espejo de un envío que se envió a un perfil. Para realizar esto, siga los pasos a continuación:
 
-1. Realice una GET con el punto final del **historial** y la clave principal del perfil.
+1. Realice una GET con el extremo **historial** y la clave principal del perfil.
 1. Realice una solicitud de GET en los **eventos** href devueltos.
-1. Devuelve la lista de eventos para el perfil con vínculos a páginas espejo en el nodo **mirrorPage** .
+1. Devuelve la lista de eventos para el perfil con vínculos a páginas espejo en el nodo **mirrorPage**.
 
 <br/>
 
