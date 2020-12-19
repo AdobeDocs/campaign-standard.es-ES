@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
 source-wordcount: '789'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -58,7 +58,7 @@ Las secciones siguientes describen los pasos clave para realizar una asignación
 
 * El servicio de ID de Experience Cloud (ECID) es un identificador de dispositivo que se envía de forma predeterminada con Eventos de experiencia.
 
-   Es un ID único y persistente asignado a un visitante, que puede utilizar el servicio de identidad de plataforma para identificar el mismo visitante y sus datos en distintas soluciones de Experience Cloud. Para obtener más información sobre esto, consulte la [Ayuda del servicio de identidad de Experience Cloud](https://docs.adobe.com/content/help/es-ES/id-service/using/home.html).
+   Es un ID único y persistente asignado a un visitante, que puede utilizar el servicio de identidad de plataforma para identificar el mismo visitante y sus datos en distintas soluciones de Experience Cloud. Para obtener más información sobre esto, consulte la [Ayuda del servicio de identidad de Experience Cloud](https://docs.adobe.com/content/help/en/id-service/using/home.html).
 
    >[!NOTE]
    >
@@ -68,7 +68,7 @@ Las secciones siguientes describen los pasos clave para realizar una asignación
 
 * No se admite la transferencia predeterminada de eventos de suscripción. Para transferir eventos de suscripción, puede crear el XDM y el conjunto de datos correspondientes en Adobe Experience Platform y, a continuación, configurar una asignación de datos personalizada para estos datos.
 
-* En cuanto a las solicitudes de privacidad (acciones de acceso y eliminación), los clientes deben realizar solicitudes independientes a través de [Privacy Core Service](https://docs.adobe.com/content/help/en/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests): una para Campaña y otra para Adobe Experience Platform. Para obtener más información sobre esto, consulte [Acerca de las solicitudes de privacidad](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess) y [Administración de solicitudes de privacidad](https://helpx.adobe.com/es/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) en Campaña.
+* En cuanto a las solicitudes de privacidad (acciones de acceso y eliminación), los clientes deben realizar solicitudes independientes a través de [Privacy Core Service](https://docs.adobe.com/content/help/en/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests): una para Campaña y otra para Adobe Experience Platform. Para obtener más información sobre esto, consulte [Acerca de las solicitudes de privacidad](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=es#getting-started) y [Administración de solicitudes de privacidad](https://helpx.adobe.com/es/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) en Campaña.
 
 * Para cada campo XDM, el etiquetado DULE debe realizarse en Adobe Experience Platform. Es responsabilidad del cliente aplicar etiquetas DULE.
 
@@ -76,7 +76,7 @@ Las secciones siguientes describen los pasos clave para realizar una asignación
 
 * Cada 15 minutos, el trabajo por lotes se ejecuta e identifica los registros que han cambiado desde el último lote. Si todos los registros cambian con la misma marca de tiempo, podría aparecer un cuello de botella de rendimiento para administrar la ingestión de todos los perfiles
 
-## Tutorial video {#video}
+## Videotutorial {#video}
 
 Este vídeo proporciona información general sobre el conector de datos de Adobe Experience Platform.
 
