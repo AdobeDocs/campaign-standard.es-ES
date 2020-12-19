@@ -19,7 +19,7 @@ ht-degree: 1%
 
 ## Recuperación de metadatos de filtros
 
-Hay filtros disponibles para cada recurso. Para identificar los filtros asociados a un recurso, debe realizar una solicitud de GET en los metadatos del recurso. Esta solicitud devuelve la dirección URL donde se definen todos los filtros para un recurso determinado. For more on metadata, refer to [this section](../../api/using/metadata-mechanism.md).
+Hay filtros disponibles para cada recurso. Para identificar los filtros asociados a un recurso, debe realizar una solicitud de GET en los metadatos del recurso. Esta solicitud devuelve la dirección URL donde se definen todos los filtros para un recurso determinado. Para obtener más información sobre los metadatos, consulte [esta sección](../../api/using/metadata-mechanism.md).
 
 Para identificar los metadatos de un filtro y determinar cómo utilizarlo, debe realizar una solicitud de GET en la URL devuelta anteriormente.
 
@@ -67,9 +67,9 @@ Realice una solicitud de GET en la dirección URL. Devuelve la lista de filtros 
 La misma estructura de metadatos está disponible para cada filtro:
 
 * Los campos **@formType** y **@webPage** son campos técnicos.
-* El campo **de datos** proporciona una muestra de cómo utilizar el filtro.
-* El nodo **de metadatos** describe los parámetros del filtro.
-* El nodo de **condición** describe el objetivo del filtro. Los parámetros de filtro descritos en el nodo de metadatos se utilizan para crear condiciones de filtro. Para cada condición de filtro, si **enabledIf** es true, se aplicará la **expresión** .
+* El campo **data** proporciona una muestra de cómo utilizar el filtro.
+* El nodo **metadata** describe los parámetros del filtro.
+* El nodo **condición** describe el objetivo del filtro. Los parámetros de filtro descritos en el nodo de metadatos se utilizan para crear condiciones de filtro. Para cada condición de filtro, si **enabledSi** es verdadero, se aplicará la **expresión**.
 
 <br/>
 
@@ -133,7 +133,8 @@ Es posible combinar varios filtros en una sola solicitud:
    }
    ```
 
-* Muestra de una solicitud de GET para recuperar los recursos &quot;perfil&quot; que contienen &quot;Hacer&quot; en los campos de correo electrónico o apellidos (el filtro porTexto busca en los campos de correo electrónico y apellido).
+* Ejemplo de solicitud de GET para recuperar los recursos &quot;perfil&quot; que contienen &quot;Doe&quot; en
+los campos Correo electrónico o Apellido (el filtro porTexto busca en los campos Correo electrónico y Apellido).
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
@@ -202,7 +203,7 @@ Si desea utilizar un filtro personalizado, debe crearlo y personalizarlo en la i
 Para obtener más información sobre esto, consulte la documentación del Campaign Standard:
 
 * [Configuración de la definición del filtro](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
-* [Caso de uso: Llamar a un recurso mediante una clave](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html)de identificación compuesta.
+* [Caso de uso: Llamar a un recurso mediante una clave](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html) de identificación compuesta.
 
 <br/>
 
