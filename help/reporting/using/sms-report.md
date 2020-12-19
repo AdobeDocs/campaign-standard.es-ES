@@ -17,11 +17,11 @@ ht-degree: 5%
 
 # Informe SMS{#sms-report}
 
-El informe **SMS** proporciona detalles sobre los envíos SMS, como los que se entregan y las tasas de devoluciones.
+El informe **SMS** proporciona detalles sobre los envíos SMS, como las tasas de devoluciones y de entrega.
 
 ![](assets/dynamic_report_sms.png)
 
-La tabla de resumen **** SMS, los gráficos y los números de resumen contienen los datos disponibles para los envíos SMS que se han enviado.
+La tabla **Resumen de SMS**, los gráficos y los números de resumen contienen los datos disponibles para los envíos de SMS que se han enviado.
 
 * **Procesado/enviado**: El número de SMS enviados.
 * **Enviado**: El número de mensajes de texto enviados.
