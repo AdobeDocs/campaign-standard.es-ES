@@ -22,7 +22,7 @@ Este informe contiene los datos de rendimiento de cada dominio representado en l
 
 ![](assets/delivery_reports_6.png)
 
-La tabla **Estadísticas** de retransmisión contiene los datos disponibles para los posibles errores encontrados con cada dominio, como:
+La tabla **Estadísticas de difusión** contiene los datos disponibles para los posibles errores encontrados con cada dominio, como:
 
 * **Procesado/enviado**: Número de correos electrónicos enviados.
 * **Enviado**: Número de correos electrónicos enviados.
@@ -30,7 +30,7 @@ La tabla **Estadísticas** de retransmisión contiene los datos disponibles para
 * **Rebotes** duros: Número total de errores permanentes, como una dirección de correo electrónico incorrecta.
 * **Devolución** suave: Número total de errores temporales, como una bandeja de entrada completa.
 
-La segunda tabla, **Estadísticas** de seguimiento, contiene los datos disponibles para la reactividad del destinatario al envío, como:
+La segunda tabla, **Estadísticas de seguimiento**, contiene los datos disponibles para la reactividad del destinatario al envío, como:
 
 * **Enviado**: Número de correos electrónicos enviados
 * **Abrir**: Número de veces que se abrió un mensaje en un envío.
