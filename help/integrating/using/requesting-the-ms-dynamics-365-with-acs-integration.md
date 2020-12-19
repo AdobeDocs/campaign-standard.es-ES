@@ -27,11 +27,11 @@ Detalles del diagrama de flujo (se asigna a los pasos anteriores):
 
 * **Paso 1** : se supone que ya dispone de una licencia para Microsoft Dynamics 365 para ventas y para Adobe Campaign Standard, o que está en proceso de adquirirla.
 
-* **Paso 2** : la oferta de integración estándar es gratuita para todos los clientes; sin embargo, puede que se apliquen costos adicionales en función de sus necesidades (consulte [Barreras y límites](../../integrating/using/ms-dynamics-365-integration-guardrails.md)de integración. Será necesario firmar un nuevo pedido de ventas para aprovechar la integración.
+* **Paso 2** : la oferta de integración estándar es gratuita para todos los clientes; sin embargo, puede que se apliquen costos adicionales en función de sus necesidades (consulte  [Barreras y límites](../../integrating/using/ms-dynamics-365-integration-guardrails.md) de integración. Será necesario firmar un nuevo pedido de ventas para aprovechar la integración.
 
 * **Paso 3** : Complete los pasos previos a la integración para Dynamics 365 y la Campaña. Consulte [Configurar esta integración](#configure-this-integration).
 
-* **Pasos 4-7** : El equipo de Adobe que se incorpora trabajará con usted a través del proceso de integración.
+* **Pasos 4-7** - El equipo de Adobe de embarque trabajará con usted a través del proceso de integración.
 
 ## Configurar esta integración {#configure-this-integration}
 
