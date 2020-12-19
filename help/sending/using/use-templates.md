@@ -27,7 +27,7 @@ Una [plantilla de envíos](../../start/using/marketing-activity-templates.md#cre
 
 Cuando se gestionan varias marcas en Adobe Campaign, Adobe recomienda tener un subdominio por marca. Por ejemplo, un banco puede tener varios subdominios correspondientes a cada una de sus agencias regionales. Si un banco posee el dominio bluebank.com, sus subdominios pueden ser @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com, etc. Tener una plantilla de envíos para cada subdominio le permite utilizar los parámetros preconfigurados adecuados para cada una de sus marcas, lo que evita errores y le ahorra tiempo.
 
-**Sugerencia**:  Para evitar errores de configuración en la Campaña, le recomendamos que duplicado una plantilla nativa y modifique sus propiedades en lugar de crear una nueva plantilla.
+**Sugerencia**: Para evitar errores de configuración en la Campaña, le recomendamos que duplicado una plantilla nativa y modifique sus propiedades en lugar de crear una nueva plantilla.
 
 ## Configuración de direcciones
 
@@ -41,17 +41,17 @@ Cuando se gestionan varias marcas en Adobe Campaign, Adobe recomienda tener un s
 
 * Adobe recomienda crear cuentas de correo electrónico que se correspondan con las direcciones especificadas para envíos y respuestas. Consulte con el administrador del sistema de mensajería.
 
-En la **[!UICONTROL Advanced parameters]** sección de las propiedades de una plantilla de correo electrónico, el **[!UICONTROL From (email address)]** campo corresponde a la dirección del remitente.
+En la sección **[!UICONTROL Advanced parameters]** de las propiedades de una plantilla de correo electrónico, el campo **[!UICONTROL From (email address)]** corresponde a la dirección del remitente.
 
 ![](assets/template-parameters.png)
 
 El dominio de dirección debe ser el mismo que el subdominio configurado.
 
-Los **[!UICONTROL Reply to]** campos corresponden a la dirección de correo electrónico y el nombre utilizados para las respuestas.
+Los campos **[!UICONTROL Reply to]** corresponden a la dirección de correo electrónico y al nombre utilizados para las respuestas.
 
 **Sugerencia** : Adobe recomienda utilizar una dirección real existente como el servicio de atención al cliente de su marca. En este caso, si un destinatario envía una respuesta, el servicio de atención al cliente podrá atenderla.
 
-Para cambiar el nombre del remitente que aparecerá en el encabezado de los mensajes enviados, vaya a la **[!UICONTROL Properties]** ficha de la página de inicio del Diseñador de correo electrónico (a la que se puede acceder a través del icono de inicio) y haga clic en el **[!UICONTROL Default sender name]** bloque.
+Para cambiar el nombre del remitente que aparecerá en el encabezado de los mensajes enviados, vaya a la ficha **[!UICONTROL Properties]** de la página de inicio de Email Designer (a la que se puede acceder a través del icono de inicio) y haga clic en el bloque **[!UICONTROL Default sender name]**.
 
 ![](assets/template-content.png)
 
@@ -59,15 +59,15 @@ Para aumentar la tasa de apertura de los envíos, Adobe recomienda utilizar un n
 
 **Sugerencia** : Para mejorar aún más la experiencia del destinatario, puede agregar el nombre de una persona, por ejemplo &quot;Emma de Megastore&quot;.
 
-Para obtener más información sobre la personalización del nombre del remitente, consulte [Envío del remitente](../../designing/using/subject-line.md#email-sender)por correo electrónico.
+Para obtener más información sobre la personalización del nombre del remitente, consulte [Enviar correo electrónico](../../designing/using/subject-line.md#email-sender).
 
 ## Personalización del nombre del remitente SMS
 
-En la sección Parámetros **** avanzados de las propiedades de una plantilla SMS, la opción **Desde** permite personalizar el nombre del remitente del mensaje SMS mediante una cadena de caracteres. Este es el nombre que aparecerá como el nombre del remitente del mensaje SMS en el teléfono móvil del destinatario.
+En la sección **Parámetros avanzados** de las propiedades de una plantilla SMS, la opción **Desde** permite personalizar el nombre del remitente del mensaje SMS mediante una cadena de caracteres. Este es el nombre que aparecerá como el nombre del remitente del mensaje SMS en el teléfono móvil del destinatario.
 
 Si este campo está vacío, será el número de origen proporcionado en la cuenta externa que se utilizará. Si no se proporciona ningún número de origen, será el código corto que se utilizará. Para obtener más información al respecto, consulte [Configuración de SMS](../../administration/using/configuring-sms-channel.md).
 
-**Sugerencia** : Compruebe la legislación de su país sobre la modificación de la dirección del remitente. También debe consultar a su proveedor de servicio de SMS para ver si ofrece esta funcionalidad.
+**Sugerencia** : Compruebe la legislación de su país relativa a la modificación de la dirección del remitente. También debe consultar a su proveedor de servicio de SMS para ver si ofrece esta funcionalidad.
 
 ## Configuración de un grupo de control
 
@@ -77,7 +77,7 @@ Una vez entregado el envío, puede comparar el comportamiento de los destinatari
 
 Una tipología contiene reglas de comprobación que se aplican durante la fase de análisis antes de enviar un mensaje.
 
-In the **[!UICONTROL Advanced parameters]** > **[!UICONTROL Preparation]** section of the template&#39;s properties, change the default typology according to your needs.
+En la sección **[!UICONTROL Advanced parameters]** > **[!UICONTROL Preparation]** de las propiedades de la plantilla, cambie la tipología predeterminada según sus necesidades.
 
 Por ejemplo, para controlar mejor el tráfico saliente, puede definir qué direcciones IP se pueden utilizar definiendo una afinidad por subdominio y creando una tipología por afinidad. Las afinidades se definen en el archivo de configuración de la instancia. Póngase en contacto con el administrador de Adobe Campaign.
 
