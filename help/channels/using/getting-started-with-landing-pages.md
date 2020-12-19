@@ -133,7 +133,7 @@ Una vez publicada, la página de aterrizaje estará lista para utilizarse. A con
 
 Para obtener más información sobre la publicación de la página de aterrizaje, consulte [esta sección](../../channels/using/testing-publishing-landing-page.md#publishing-a-landing-page).
 
-## Tutorial video {#video}
+## Videotutorial {#video}
 
 Este vídeo muestra cómo crear y editar una página de aterrizaje.
 
