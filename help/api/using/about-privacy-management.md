@@ -26,8 +26,8 @@ Las acciones que puede realizar son las siguientes:
 * Recuperar un archivo de datos de privacidad,
 * Administre el estado de exclusión de CCPA de un perfil.
 
-El extremo de la API de privacidad es **/privacy/privacyTool**. La descripción del recurso PrivacyTool y los filtros asociados están disponibles en los metadatos del recurso. Consulte Mecanismo [de metadatos](../../api/using/metadata-mechanism.md).
+El extremo de la API de privacidad es **/privacy/privacyTool**. La descripción del recurso PrivacyTool y los filtros asociados están disponibles en los metadatos del recurso. Consulte [Mecanismo de metadatos](../../api/using/metadata-mechanism.md).
 
-La exclusión de CCPA se administra mediante el atributo de perfil **ccpaOptOut** .
+La exclusión de CCPA se administra mediante el atributo de perfil **cpaOptOut**.
 
-Para obtener más información sobre Adobe Campaign Standard y el cumplimiento de la privacidad, consulte la documentación [](https://helpx.adobe.com/es/campaign/kb/acs-privacy.html)dedicada.
+Para obtener más información sobre el cumplimiento de normas de privacidad y Adobe Campaign Standard, consulte la [documentación dedicada](https://helpx.adobe.com/es/campaign/kb/acs-privacy.html).
