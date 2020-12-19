@@ -31,7 +31,7 @@ Puede realizar cualquier operación con recursos personalizados, siempre que est
 
 ![texto alt](assets/cusresources.png)
 
-En ese caso, todos los recursos de las tablas **Transaction**, **TransactionDetails** y **Product** están disponibles siempre que estén vinculados a la tabla de **Perfiles** .
+En ese caso, todos los recursos de las tablas **Transaction**, **TransactionDetails** y **Product** están disponibles siempre que estén vinculadas a la tabla **Perfil**.
 
 <br/>
 
