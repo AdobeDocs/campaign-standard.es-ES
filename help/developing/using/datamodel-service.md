@@ -249,7 +249,7 @@ Disponible durante el período determinado (porPlanning)
 
 <table>
     <tr>
-    <th>Name</th>
+    <th>Nombre</th>
     <th>Tipo</th>
     </tr>
     <tr>
@@ -266,7 +266,7 @@ Por tipo de canal (byChannel)
 
 <table>
 <tr>
-<th>Name</th>
+<th>Nombre</th>
 <th>Tipo</th>
 </tr>
 <tr>
@@ -279,7 +279,7 @@ Por nombre o etiqueta (byText)
 
 <table>
 <tr>
-<th>Name</th>
+<th>Nombre</th>
 <th>Tipo</th>
 </tr>
 <tr>
@@ -292,7 +292,7 @@ Mediante el recurso de segmentación (byTargetResource)
 
 <table>
 <tr>
-<th>Name</th>
+<th>Nombre</th>
 <th>Tipo</th>
 </tr>
 <tr>
