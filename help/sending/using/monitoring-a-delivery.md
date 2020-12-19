@@ -21,7 +21,7 @@ ht-degree: 89%
 Existen varias formas de supervisar un envío y medir su impacto. Como administrador funcional, puede acceder a los registros y registros de envío de mensajes.
 >[!CAUTION]
 >
->Solo [los administradores](../../administration/using/users-management.md#functional-administrators)funcionales, con **[!UICONTROL Administration]** función y acceso a **todas** las unidades, pueden acceder al envío de registros, registros de mensajes, registros de seguimiento, registros de exclusión o de suscripción. Un usuario no administrador puede destinatario estos registros, pero puede comenzar en una tabla vinculada (perfiles, envío).
+>Sólo los [administradores funcionales](../../administration/using/users-management.md#functional-administrators), con **[!UICONTROL Administration]** rol y acceso a **Todas** unidades pueden acceder al envío de registros, registros de mensajes, registros de seguimiento, registros de exclusión o de suscripciones. Un usuario no administrador puede destinatario estos registros, pero puede comenzar en una tabla vinculada (perfiles, envío).
 
 * **Registros de mensajes**: se puede acceder a estos registros directamente desde el panel de mensajes. Muestran los detalles del envío, qué destinatario se ha excluido y por qué, así como la información de seguimiento como aperturas y clics.
 
