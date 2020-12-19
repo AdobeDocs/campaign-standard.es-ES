@@ -24,14 +24,14 @@ Este ejemplo es un flujo de trabajo de cumpleaños. Cada día se envía un corre
 
 Para generar el flujo de trabajo, siga estos pasos:
 
-* The [Scheduler](../../automating/using/scheduler.md) allows you to start the workflow every day at 8am.
+* El [Planificador](../../automating/using/scheduler.md) le permite realizar inicios en el flujo de trabajo todos los días a las 8 de la mañana.
 
    ![](assets/wkf_delivery_example_2.png)
 
-* The [Query](../../automating/using/query.md) activity allows you to calculate the profiles who have provided an email and whose birthday it is on the current day, every time the workflow is executed. El cálculo del cumpleaños se realiza mediante un filtro predefinido disponible en la paleta de la herramienta de edición de consultas.
+* La actividad [Consulta](../../automating/using/query.md) permite calcular los perfiles que han proporcionado un correo electrónico y cuya fecha de nacimiento es el día actual, cada vez que se ejecuta el flujo de trabajo. El cálculo del cumpleaños se realiza mediante un filtro predefinido disponible en la paleta de la herramienta de edición de consultas.
 
    ![](assets/wkf_delivery_example_3.png)
 
-* El envío [de](../../automating/using/email-delivery.md) correo electrónico se repite. Los envíos se acumulan por mes. Así que todos los correos electrónicos enviados en un mes se acumulan en una sola vista. En un año se ejecutan 365 envíos, pero se reagrupan en 12 vistas (también llamadas **ejecuciones recurrentes**) en la interfaz de Adobe Campaign. Los detalles del historial y del informe se muestran cada mes y no para cada envío.
+* El [envío de correo electrónico](../../automating/using/email-delivery.md) es recurrente. Los envíos se acumulan por mes. Así que todos los correos electrónicos enviados en un mes se acumulan en una sola vista. En un año se ejecutan 365 envíos, pero se reagrupan en 12 vistas (también llamadas **ejecuciones recurrentes**) en la interfaz de Adobe Campaign. Los detalles del historial y del informe se muestran cada mes y no para cada envío.
 
    ![](assets/wkf_delivery_example_4.png)
