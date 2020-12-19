@@ -17,25 +17,25 @@ ht-degree: 5%
 
 # Preparación del envío{#preparing-the-send}
 
-La preparación corresponde al paso de calcular la población de destinatarios y generar el contenido del mensaje para cada perfil incluido en el destinatario. Una vez finalizada la preparación, los mensajes están listos para ser enviados, ya sea inmediatamente o en [la fecha y hora](../../sending/using/about-scheduling-messages.md)programadas.
+La preparación corresponde al paso de calcular la población de destinatarios y generar el contenido del mensaje para cada perfil incluido en el destinatario. Una vez finalizada la preparación, los mensajes están listos para enviarse, ya sea inmediatamente o a [la fecha y hora programadas](../../sending/using/about-scheduling-messages.md).
 
-1. Para obtener inicios sobre la preparación del envío, haga clic en el botón **Preparar** situado en la barra de acciones.
+1. Para obtener inicios al preparar el envío, haga clic en el botón **Preparar** ubicado en la barra de acciones.
 
    ![](assets/preparing_delivery_2.png)
 
-1. El **[!UICONTROL Deployment]** bloque muestra el progreso de la preparación y luego las estadísticas de preparación: número de mensajes dirigidos, número de mensajes que enviar, etc.
+1. El bloque **[!UICONTROL Deployment]** muestra el progreso de preparación y, a continuación, las estadísticas de preparación: número de mensajes dirigidos, número de mensajes que enviar, etc.
 
    En función del tamaño de la población objetivo, esta operación puede tardar algún tiempo.
 
    ![](assets/preparing_delivery.png)
 
-1. Detenga la preparación en cualquier momento con el botón **Detener** , ubicado en la barra de acciones.
+1. Detenga la preparación en cualquier momento con el botón **Detener**, ubicado en la barra de acciones.
 
    Durante la fase de preparación, no se envían mensajes. Por lo tanto, puede inicio o parar esto sin riesgo de impactar en nada.
 
    ![](assets/preparing_delivery_6.png)
 
-1. El mensaje se guarda automáticamente durante la etapa de preparación para el envío. Si necesita realizar cambios en la programación del mensaje después del paso de preparación, deberá asegurarse de volver a hacer clic en el **[!UICONTROL Prepare]** botón para que se tengan en cuenta dichos cambios. For more information on how to schedule a message, refer to this [page](../../sending/using/about-scheduling-messages.md).
+1. El mensaje se guarda automáticamente durante la etapa de preparación para el envío. Si necesita realizar cambios en la programación del mensaje después del paso de preparación, deberá asegurarse de volver a hacer clic en el botón **[!UICONTROL Prepare]** para que se tengan en cuenta esos cambios. Para obtener más información sobre cómo programar un mensaje, consulte esta [página](../../sending/using/about-scheduling-messages.md).
 
    ![](assets/preparing_delivery_5.png)
 
@@ -43,7 +43,7 @@ La preparación corresponde al paso de calcular la población de destinatarios y
 
    ![](assets/preparing_delivery_4.png)
 
-1. Se abre la **[!UICONTROL Deployment]** ventana, corrija los errores y, a continuación, reinicie la preparación.
+1. Se abre la ventana **[!UICONTROL Deployment]**, corrija los errores y reinicie la preparación.
 
    El último mensaje de “log” muestra los mensajes de error y el número de errores. Un icono específico muestra el tipo de error encontrado: El icono amarillo indica un error de procesamiento no crítico; el icono rojo indica un error crítico que impide que se inicie el envío.
 
@@ -61,4 +61,4 @@ Adobe Campaign incluye un conjunto de reglas de tipología integradas que se apl
 
 Si ha insertado campos de personalización o texto condicional en el contenido de su mensaje SMS, estos factores pueden introducir caracteres que no se tienen en cuenta en la codificación GSM. Cuando se ejecuta la preparación, se supervisa la longitud del mensaje y se muestra un mensaje de advertencia si supera el límite.
 
-Para obtener más información sobre esto, consulte las secciones de codificación, longitud y transliteración [de](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) SMS y [Personalización de mensajes](../../channels/using/personalizing-sms-messages.md) SMS.
+Para obtener más información sobre esto, consulte las secciones [codificación, longitud y transliteración de SMS](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) y [Personalización de mensajes SMS](../../channels/using/personalizing-sms-messages.md).
