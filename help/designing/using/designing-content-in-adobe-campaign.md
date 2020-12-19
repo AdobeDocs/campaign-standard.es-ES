@@ -160,7 +160,7 @@ Cuando se trata de fragmentos, tenga en cuenta lo siguiente:
 * [Creación de un mensaje SMS](../../channels/using/creating-an-sms-message.md)
 * [Creación y envío de una notificación push](../../channels/using/preparing-and-sending-a-push-notification.md)
 
-## Tutorial video {#video}
+## Videotutorial {#video}
 
 Este vídeo proporciona información general sobre el Diseñador de correo electrónico.
 
