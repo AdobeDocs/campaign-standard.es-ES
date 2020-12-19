@@ -24,9 +24,9 @@ Este informe detalla los errores generales, tanto los errores graves como los le
 
 Cada tabla está representada por números de resumen y gráficos. Puede cambiar la forma en que se muestran los detalles en sus respectivas configuraciones de visualización.
 
-**La repartición** Flop 5 lista los cinco envíos con el mayor número de cuarentenas:
+**La** repartición de Flop 5 enumera los cinco envíos con el mayor número de cuarentenas:
 
-La tabla de motivos **de** devolución contiene los datos disponibles para los tipos de errores que causaron devoluciones para cada envío:
+La tabla **Motivos de devolución** contiene los datos disponibles para los tipos de errores que causaron devoluciones para cada envío:
 
 * **[!UICONTROL User unknown]**:: Tipo de error generado cuando se envía un envío a una dirección de correo electrónico no válida.
 * **[!UICONTROL Invalid domain]**:: Tipo de error generado cuando se envía un envío a una dirección de correo electrónico cuyo dominio es incorrecto o ya no existe.
@@ -41,4 +41,4 @@ La tabla de motivos **de** devolución contiene los datos disponibles para los t
 
 * **[!UICONTROL Refused]**:: Tipo de error generado cuando el proveedor de servicio de Internet (ISP) rechaza una dirección. Por ejemplo, cuando un software antispam ha aplicado una regla de seguridad.
 
-La tabla **de partición** de dominio muestra los problemas generales que se han encontrado durante los envíos según el dominio de destinatario.
+La tabla **Repartición de dominio** muestra los problemas generales encontrados durante los envíos según el dominio de destinatario.
