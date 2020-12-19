@@ -48,7 +48,7 @@ Si el problema persiste, póngase en contacto con los servicios comerciales o de
 
 ## Eliminación de la lista de bloqueados {#removing-from-denylist}
 
-* **Uno de mis destinatarios fue agregado a la  de lista de bloqueados por error. How do I remove them from the denylist so that I can start sending them messages again?**
+* **Uno de mis destinatarios fue agregado a la  de lista de bloqueados por error. ¿Cómo puedo eliminarlos de la  de lista de bloqueados para que pueda enviar mensajes de nuevo con inicio?**
 
    * Vaya a **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
    * En los detalles del registro correspondiente, establezca el valor del campo **[!UICONTROL Status]** en **[!UICONTROL Valid]**.
