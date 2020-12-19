@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e20485978deba54f45010a41921b948f049222f2
 workflow-type: tm+mt
 source-wordcount: '1514'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -215,7 +215,7 @@ Los pasos principales para este caso de uso son los siguientes:
 
    ![](assets/substitution_uc5.png)
 
-1. Select the **[!UICONTROL Profile substitutions]** tab, then click **[!UICONTROL Import from an audience]**.
+1. Seleccione la ficha **[!UICONTROL Profile substitutions]** y haga clic en **[!UICONTROL Import from an audience]**.
 
    ![](assets/substitution_uc6.png)
 
@@ -267,7 +267,7 @@ Los pasos principales para este caso de uso son los siguientes:
 
    ![](assets/substitution_uc_proofs.png)
 
-## Tutorial video {#video}
+## Videotutorial {#video}
 
 Este vídeo muestra cómo puede probar los mensajes de correo electrónico mediante la sustitución de Perfiles.
 
