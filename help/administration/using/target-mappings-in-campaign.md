@@ -19,6 +19,6 @@ ht-degree: 16%
 
 Las asignaciones de destino son objetos técnicos utilizados por la Campaña para enviar mensajes. Contienen toda la configuración técnica necesaria para enviar envíos (direcciones, números de teléfono, indicadores de selección, identificadores adicionales...).
 
-Los administradores pueden acceder a asignaciones de destino en el **[!UICONTROL Administration > Application settings > Target mappings]** menú.
+Los administradores pueden acceder a asignaciones de destino en el menú **[!UICONTROL Administration > Application settings > Target mappings]**.
 
-La creación o modificación de asignaciones de destino es posible para cubrir necesidades específicas. En cualquier caso, su dimensión de segmentación debe corresponder siempre a perfiles ( **[!UICONTROL nms:recipient]** cuadro). Para obtener más información sobre las dimensiones de segmentación, consulte [esta página](../../automating/using/query.md#targeting-dimensions-and-resources).
+La creación o modificación de asignaciones de destino es posible para cubrir necesidades específicas. En cualquier caso, su dimensión de segmentación siempre debe corresponder a perfiles ( **[!UICONTROL nms:recipient]** tabla). Para obtener más información sobre las dimensiones de segmentación, consulte [esta página](../../automating/using/query.md#targeting-dimensions-and-resources).
