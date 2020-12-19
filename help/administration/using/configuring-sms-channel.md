@@ -328,7 +328,7 @@ Los parámetros específicos para enviar mensajes SMS se incluyen en las seccion
 
 ![](assets/sms_options.png)
 
-From the **[!UICONTROL Advanced parameters]** section:
+En la sección **[!UICONTROL Advanced parameters]**:
 
 * La opción **[!UICONTROL From]** le permite personalizar el nombre del remitente del mensaje SMS con una cadena de caracteres. Este es el nombre que aparecerá como el nombre del remitente del mensaje SMS en el teléfono móvil del destinatario.
 
@@ -340,7 +340,7 @@ From the **[!UICONTROL Advanced parameters]** section:
    >
    >Verifique la legislación de su país con respecto a la modificación de la dirección del remitente. También debe consultar a su proveedor de servicio de SMS para ver si ofrece esta funcionalidad.
 
-Desde la **[!UICONTROL Send]** sección de una plantilla de SMS:
+Desde la sección **[!UICONTROL Send]** de una plantilla SMS:
 
 * La opción **[!UICONTROL Maximum number of SMS per message]** le permite definir el número de mensajes SMS que se utilizarán para enviar un mensaje. Si se supera este número, no se enviará el mensaje.
 
