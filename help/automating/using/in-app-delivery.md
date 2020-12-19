@@ -21,11 +21,11 @@ ht-degree: 43%
 
 ![](assets/wkf_in_app_1.png)
 
-La actividad de envío **** en la aplicación permite configurar el envío de un mensaje en la aplicación dentro de un flujo de trabajo. La mensajería en la aplicación le permite mostrar un mensaje cuando el usuario está activo en la aplicación. Para obtener más información sobre el envío en la aplicación, consulte esta [sección](../../channels/using/about-in-app-messaging.md).
+La actividad **envío en la aplicación** permite configurar el envío de un mensaje en la aplicación dentro de un flujo de trabajo. La mensajería en la aplicación le permite mostrar un mensaje cuando el usuario está activo en la aplicación. Para obtener más información sobre el envío en la aplicación, consulte esta [sección](../../channels/using/about-in-app-messaging.md).
 
 ## Contexto de uso {#context-of-use}
 
-The **[!UICONTROL In-App delivery]** activity is generally used to automate sending an In-App message to a target audience calculated in the same workflow.
+La actividad **[!UICONTROL In-App delivery]** generalmente se utiliza para automatizar el envío de un mensaje en la aplicación a una audiencia de destinatario calculada en el mismo flujo de trabajo.
 
 Los destinatarios se definen antes de la actividad en el mismo flujo de trabajo, mediante actividades de objetivo como consultas, intersecciones, etc.
 
@@ -33,11 +33,11 @@ La preparación del mensaje se activa según los parámetros de ejecución del f
 
 ## Configuración {#configuration}
 
-1. Drag and drop a **[!UICONTROL Query]** activity to your workflow. Tenga en cuenta que la dimensión de segmentación de **[!UICONTROL Query]** actividad de la **[!UICONTROL Properties]** ficha debe actualizarse según la plantilla elegida en el paso 4:
+1. Arrastre y suelte una actividad **[!UICONTROL Query]** en el flujo de trabajo. Tenga en cuenta que la dimensión de segmentación de actividad **[!UICONTROL Query]** de la ficha **[!UICONTROL Properties]** debe actualizarse según la plantilla elegida en el paso 4:
 
-   * La dimensión de segmentación debe establecerse en **[!UICONTROL mobileApp (mobileAppV5)]** para la **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]** plantilla.
-   * La dimensión de segmentación debe establecerse en **[!UICONTROL profile (profile)]** para la **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]** plantilla.
-   * La dimensión de segmentación debe establecerse en **[!UICONTROL subscriptions to an application (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** para la **[!UICONTROL Target users based on their Mobile profile (inApp)]** plantilla.
+   * La dimensión de segmentación debe establecerse en **[!UICONTROL mobileApp (mobileAppV5)]** para la plantilla **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**.
+   * La dimensión de segmentación debe establecerse en **[!UICONTROL profile (profile)]** para la plantilla **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**.
+   * La dimensión de segmentación debe establecerse en **[!UICONTROL subscriptions to an application (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** para la plantilla **[!UICONTROL Target users based on their Mobile profile (inApp)]**.
 
 1. Arrastre y suelte una actividad de **[!UICONTROL In-App delivery]** en el flujo de trabajo.
 1. Seleccione la actividad y, a continuación, ábrala con el botón ![](assets/edit_darkgrey-24px.png), en las acciones rápidas que aparecerán.
@@ -48,7 +48,7 @@ La preparación del mensaje se activa según los parámetros de ejecución del f
 
    ![](assets/wkf_in_app_3.png)
 
-1. Seleccione el tipo de mensaje en la aplicación. Esto dependerá de los datos dirigidos en su **[!UICONTROL Query]** actividad.
+1. Seleccione el tipo de mensaje en la aplicación. Esto dependerá de los datos dirigidos en su actividad **[!UICONTROL Query]**.
 
    * **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**:: Este tipo de mensaje le permite destinatario a perfiles de Adobe Campaign que se han suscrito a su aplicación móvil y personalizar los mensajes en la aplicación con atributos de perfil disponibles en la Campaña.
    * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**:: Este tipo de mensaje le permite enviar un mensaje a todos los usuarios de la aplicación móvil aunque no tengan un perfil existente en la Campaña.
@@ -56,9 +56,9 @@ La preparación del mensaje se activa según los parámetros de ejecución del f
 
    ![](assets/wkf_in_app_4.png)
 
-1. Enter your In-App message properties and select your mobile app in the **[!UICONTROL Associate a Mobile App to a delivery]** field.
+1. Introduzca las propiedades de los mensajes en la aplicación y seleccione la aplicación móvil en el campo **[!UICONTROL Associate a Mobile App to a delivery]**.
 1. En la pestaña **[!UICONTROL Triggers]**, arrastre y suelte el evento que activará el mensaje. Hay tres categorías de eventos disponibles:
-1. Defina el contenido en la aplicación. Consulte la sección sobre personalización [en la aplicación](../../channels/using/customizing-an-in-app-message.md).
+1. Defina el contenido en la aplicación. Consulte la sección sobre [Personalización en la aplicación](../../channels/using/customizing-an-in-app-message.md).
 1. De forma predeterminada, la actividad **[!UICONTROL In-App delivery]** no incluye ninguna transición de salida. Si desea añadir una transición de salida a la actividad **[!UICONTROL In-App delivery]**, vaya a la pestaña **[!UICONTROL General]** de las opciones de actividad avanzadas (botón ![](assets/dlv_activity_params-24px.png) en las acciones rápidas de la actividad) y, a continuación, marque una de las siguientes opciones:
 
    * **[!UICONTROL Add outbound transition without the population]**: esto le permite generar una transición de salida que contiene exactamente la misma población que la transición de entrada.
@@ -76,4 +76,4 @@ De forma predeterminada, iniciar un flujo de trabajo de envío solo activa la pr
 
 Se puede acceder a los envíos creados dentro de un flujo de trabajo en la lista de actividad de marketing de la aplicación. Puede vista del estado de ejecución del flujo de trabajo mediante el panel. Los vínculos del panel de resumen de notificaciones push le permiten acceder directamente a los elementos vinculados (flujo de trabajo, campaña, etc.).
 
-In the parent deliveries, which can be accessed from the marketing activity list, you can view the total number of sends that have been processed (according to the aggregation period specified when the **[!UICONTROL In-App delivery]** activity was configured). Para ello, abra la vista de detalles del bloque del envío principal **[!UICONTROL Deployment]** seleccionando ![](assets/wkf_dlv_detail_button.png).
+En los envíos principales, a los que se puede acceder desde la lista de actividad de marketing, se puede vista el número total de envíos que se han procesado (según el período de agregación especificado cuando se configuró la actividad **[!UICONTROL In-App delivery]**). Para ello, abra la vista de detalles del bloque del envío principal **[!UICONTROL Deployment]** seleccionando ![](assets/wkf_dlv_detail_button.png).
