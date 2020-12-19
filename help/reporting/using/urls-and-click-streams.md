@@ -18,14 +18,14 @@ ht-degree: 6%
 
 # URL y flujos de clics{#urls-and-click-streams}
 
-Las **direcciones URL y los flujos** de clics muestran las direcciones URL en las que se hizo más clic durante un envío o varios envíos si están vinculados a una campaña o programa.
+Las **direcciones URL y flujos de clic** muestran las direcciones URL en las que se hizo más clic durante un envío o varios envíos si están vinculados a una campaña o programa.
 
 ![](assets/delivery_reports_8.png)
 
 Cada tabla está representada por números de resumen y gráficos. Puede cambiar la forma en que se muestran los detalles en sus respectivas configuraciones de visualización.
 
-La tabla Vínculos **** más visitados contiene los datos disponibles sobre el comportamiento de los destinatarios por envío, como:
+La tabla **Vínculos más visitados** contiene los datos disponibles para el comportamiento de destinatario por envío, como:
 
 * **Haga clic**: Número de veces que se hizo clic en el contenido en un envío.
-* **Clics**&#x200B;únicos: El número de destinatarios que hicieron clic en el contenido de un envío.
+* **Clics** únicos: El número de destinatarios que hicieron clic en el contenido de un envío.
 
