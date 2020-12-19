@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
 source-wordcount: '138'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >Como resultado, las nuevas instancias de Campaign Standard, así como las instancias existentes sin crear unidades geográficas, no pueden tener implementada esta capacidad a partir de la versión 18.7.
 >
->Para obtener más información sobre esto, consulte la página <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">Funciones obsoletas</a>.
+>Para obtener más información sobre esto, consulte la página <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=es#release-notes">Funciones obsoletas</a>.
 
 El extremo **geoUnitBase** permite interactuar con unidades geográficas, lo que le permite, por ejemplo, actualizar sus atributos o actualizar la unidad de un perfil.
 
