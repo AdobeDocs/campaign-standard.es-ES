@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
 source-wordcount: '444'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -76,7 +76,7 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 * [Funciones](../../administration/using/list-of-roles.md)
 * [Personalización de listas](../../start/using/customizing-lists.md)
 
-## Tutorial video {#video}
+## Videotutorial {#video}
 
 Este vídeo muestra cómo configurar listas.
 
