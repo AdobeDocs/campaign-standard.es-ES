@@ -19,17 +19,17 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->Tenga en cuenta que debe arrastrar y soltar las **[!UICONTROL Message type]** métricas en las tablas para dividir los datos en función de los tipos de envíos, en este caso envíos de notificaciones push.
+>Tenga en cuenta que debe arrastrar y soltar las métricas **[!UICONTROL Message type]** en las tablas para dividir los datos en función de los tipos de envíos, en este caso envíos de notificaciones push.
 
-El informe de notificaciones **** push proporciona detalles del rendimiento de marketing de las notificaciones push en Adobe Campaign. Este informe predeterminado le ayudará a comprender cómo interactúan los usuarios con las notificaciones push, las aplicaciones móviles y los envíos.
+El informe **Push notification** proporciona detalles del rendimiento de mercadotecnia de las notificaciones push en Adobe Campaign. Este informe predeterminado le ayudará a comprender cómo interactúan los usuarios con las notificaciones push, las aplicaciones móviles y los envíos.
 
-Se requiere cierta configuración en la aplicación móvil para implementar el seguimiento push, consulte esta [página](../../administration/using/push-tracking.md) para ver los pasos detallados.
+Se requiere cierta configuración en la aplicación móvil para implementar el seguimiento push, consulte esta [página](../../administration/using/push-tracking.md) para conocer los pasos detallados.
 
 ![](assets/dynamic_report_push.png)
 
 Cada tabla está representada por números de resumen y gráficos. Puede cambiar la forma en que se muestran los detalles en sus respectivas configuraciones de visualización.
 
-La primera tabla Resumen **de participación de notificaciones** push se divide en tres categorías: por día, por aplicación móvil y por envío. Contiene los datos disponibles para la reactividad del destinatario al envío:
+La primera tabla **Resumen de compromiso de notificación push** se divide en tres categorías: por día, por aplicación móvil y por envío. Contiene los datos disponibles para la reactividad del destinatario al envío:
 
 * **[!UICONTROL Processed/sent]**:: Número total de notificaciones push enviadas.
 * **[!UICONTROL Delivered]**:: Número de notificaciones push enviadas correctamente, en relación con el número total de notificaciones push enviadas.
@@ -40,7 +40,7 @@ La primera tabla Resumen **de participación de notificaciones** push se divide 
 
 ![](assets/dynamic_report_push_2.png)
 
-La segunda tabla Clics y aperturas de notificaciones **Push se divide** en tres categorías: por día, por aplicación móvil y por envío. Contiene los datos disponibles para el comportamiento de destinatario por envío:
+La segunda tabla **Clics y aperturas de notificaciones push** se divide en tres categorías: por día, por aplicación móvil y por envío. Contiene los datos disponibles para el comportamiento de destinatario por envío:
 
 * **[!UICONTROL Impressions]**:: Total de notificaciones push vistas por destinatarios.
 * **[!UICONTROL Unique impressions]**:: Número de impresiones por destinatario.
