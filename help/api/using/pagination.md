@@ -19,13 +19,13 @@ ht-degree: 1%
 
 De forma predeterminada, se cargan 25 recursos en una lista.
 
-El parámetro **_lineCount** permite limitar el número de recursos enumerados en la respuesta.  A continuación, puede utilizar el nodo **siguiente** para mostrar los resultados siguientes.
+El parámetro **_lineCount** permite limitar el número de recursos enumerados en la respuesta.  Luego puede utilizar el nodo **next** para mostrar los siguientes resultados.
 
 >[!NOTE]
 >
->Utilice siempre el valor de URL devuelto en el **siguiente** nodo para realizar una solicitud de paginación.
+>Utilice siempre el valor de URL devuelto en el nodo **next** para realizar una solicitud de paginación.
 >
->La solicitud **_lineStart** se calcula y siempre debe usarse dentro de la dirección URL devuelta en el nodo **siguiente** .
+>La solicitud **_lineStart** se calcula y siempre debe usarse dentro de la dirección URL devuelta en el nodo **next**.
 
 <br/>
 
@@ -41,7 +41,7 @@ Muestra de una solicitud de GET para mostrar 1 registro del recurso de perfil.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Respuesta a la solicitud, con el **siguiente** nodo para realizar la paginación.
+Respuesta a la solicitud, con el nodo **siguiente** para realizar la paginación.
 
 ```
 {
@@ -62,7 +62,7 @@ Respuesta a la solicitud, con el **siguiente** nodo para realizar la paginación
 }
 ```
 
-De forma predeterminada, el **siguiente** nodo no está disponible al interactuar con tablas con una gran cantidad de datos. Para poder realizar la paginación, debe agregar el parámetro **_forcePagination=true** a la dirección URL de la llamada.
+De forma predeterminada, el nodo **next** no está disponible cuando interactúa con tablas con una gran cantidad de datos. Para poder realizar la paginación, debe agregar el parámetro **_forcePagination=true** a la dirección URL de la llamada.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \
@@ -74,4 +74,4 @@ De forma predeterminada, el **siguiente** nodo no está disponible al interactua
 
 >[!NOTE]
 >
->El número de registros por encima del cual una tabla se considera grande se define en la opción **XtkBigTableThreshold** Campaign Standard. El valor predeterminado es 100.000 registros.
+>El número de registros por encima de los cuales una tabla se considera grande se define en la opción Campaign Standard **XtkBigTableThreshold**. El valor predeterminado es 100.000 registros.
