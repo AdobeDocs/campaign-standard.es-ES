@@ -18,7 +18,7 @@ ht-degree: 86%
 
 # Personalización de un correo electrónico con datos adicionales {#example--personalizing-an-email-with-additional-data}
 
-El siguiente ejemplo ilustra la adición de diferentes tipos de datos adicionales a una consulta y su uso como campo de personalización en un mensaje de correo electrónico. Para obtener más información sobre cómo enriquecer los datos dirigidos por una **[!UICONTROL Query]** actividad, consulte [esta sección](../../automating/using/query.md#enriching-data).
+El siguiente ejemplo ilustra la adición de diferentes tipos de datos adicionales a una consulta y su uso como campo de personalización en un mensaje de correo electrónico. Para obtener más información sobre cómo enriquecer los datos dirigidos por una actividad **[!UICONTROL Query]**, consulte [esta sección](../../automating/using/query.md#enriching-data).
 
 Para este ejemplo, se utilizan [recursos personalizados](../../developing/using/data-model-concepts.md):
 
@@ -32,7 +32,7 @@ El flujo de trabajo se presenta de la siguiente manera:
 
 ![](assets/enrichment_example1.png)
 
-1. Add a [Query](../../automating/using/query.md) activity, which allows you to target the profiles that have carried out at least one transaction.
+1. Añada una actividad [Consulta](../../automating/using/query.md), que le permite realizar el destinatario de los perfiles que han realizado al menos una transacción.
 
    ![](assets/enrichment_example2.png)
 
@@ -53,7 +53,7 @@ El flujo de trabajo se presenta de la siguiente manera:
 
    ![](assets/enrichment_example5.png)
 
-1. Añada una actividad [de envío](../../automating/using/email-delivery.md) de correo electrónico. En el contenido del correo electrónico, inserte los campos de personalización correspondientes a los datos calculados en la consulta. Puede encontrarlo a través del vínculo **[!UICONTROL Additional data (targetData)]** del explorador de campos de personalización.
+1. Añada una actividad [envío de correo electrónico](../../automating/using/email-delivery.md). En el contenido del correo electrónico, inserte los campos de personalización correspondientes a los datos calculados en la consulta. Puede encontrarlo a través del vínculo **[!UICONTROL Additional data (targetData)]** del explorador de campos de personalización.
 
    ![](assets/enrichment_example3.png)
 
