@@ -398,7 +398,7 @@ Cumpleaños (cumpleaños)
 
 <table>
 <tr>
-<th>Name</th>
+<th>Nombre</th>
 <th>Tipo</th>
 </tr>
 <tr>
@@ -455,11 +455,11 @@ Por correo electrónico (por correo electrónico)
 
 <table>
 <tr>
-<th>Name</th>
+<th>Nombre</th>
 <th>Tipo</th>
 </tr>
 <tr>
-<td>email</td>
+<td>correo electrónico</td>
 <td>string</td>
 </tr>
 </table>
@@ -468,11 +468,11 @@ Por claves (byKeysProfile)
 
 <table>
 <tr>
-<th>Name</th>
+<th>Nombre</th>
 <th>Tipo</th>
 </tr>
 <tr>
-<td>email</td>
+<td>correo electrónico</td>
 <td>string</td>
 </tr>
 </table>
@@ -481,7 +481,7 @@ Por nombre o correo electrónico (byText)
 
 <table>
 <tr>
-<th>Name</th>
+<th>Nombre</th>
 <th>Tipo</th>
 </tr>
 <tr>
@@ -494,7 +494,7 @@ Por audiencia estática (byStaticAudience)
 
 <table>
 <tr>
-<th>Name</th>
+<th>Nombre</th>
 <th>Tipo</th>
 </tr>
 <tr>
@@ -507,7 +507,7 @@ Clic (hasClicksDelivery)
 
 <table>
 <tr>
-<th>Name</th>
+<th>Nombre</th>
 <th>Tipo</th>
 </tr>
 <tr>
@@ -520,7 +520,7 @@ Opened (hasOpenedDelivery)
 
 <table>
 <tr>
-<th>Name</th>
+<th>Nombre</th>
 <th>Tipo</th>
 </tr>
 <tr>
@@ -533,7 +533,7 @@ Perfil (perfil)
 
 <table>
 <tr>
-<th>Name</th>
+<th>Nombre</th>
 <th>Tipo</th>
 </tr>
 <tr>
@@ -546,7 +546,7 @@ Recibido (hasReceivedDelivery)
 
 <table>
 <tr>
-<th>Name</th>
+<th>Nombre</th>
 <th>Tipo</th>
 </tr>
 <tr>
@@ -559,7 +559,7 @@ Suscriptores (suscriptores)
 
 <table>
 <tr>
-<th>Name</th>
+<th>Nombre</th>
 <th>Tipo</th>
 </tr>
 <tr>
