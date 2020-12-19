@@ -21,19 +21,19 @@ Esta integración entre Adobe Campaign Standard y Adobe Experience Manager le pe
 
 Por lo tanto, puede aprovechar al máximo las funciones de edición de contenido de Adobe Experience Manager, así como las funciones de envío y gestión de datos de Adobe Campaign. Tenga en cuenta que no puede realizar pruebas A/B para el contenido importado de Adobe Experience Manager.
 
-Adobe Campaign Standard es compatible con Adobe Experience Manager 6.1, 6.2, 6.3, 6.4 y 6.5. Las siguientes secciones presentan una descripción general de las acciones que puede ejecutar. Para obtener más información, consulte las secciones dedicadas a la [configuración](https://docs.adobe.com/content/help/en/experience-manager-65/administering/integration/campaignstandard.html) y el [uso](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/aem-adobe-campaign/campaign.html) de la integración.
+Adobe Campaign Standard es compatible con Adobe Experience Manager 6.1, 6.2, 6.3, 6.4 y 6.5. Las siguientes secciones presentan una descripción general de las acciones que puede ejecutar. Para obtener más información, consulte las secciones dedicadas a [configuración](https://docs.adobe.com/content/help/en/experience-manager-65/administering/integration/campaignstandard.html) y al [uso](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/aem-adobe-campaign/campaign.html) de la integración.
 
 >[!NOTE]
 >
 > Las plantillas de Adobe Campaign Standard ya no están disponibles con Adobe Experience Manager 6.5.
 
-## Sugerencias sobre cómo utilizar la integración Campaña-Experience Manager {#tips-aem}
+## Sugerencias sobre cómo utilizar la integración de Experience Manager de Campaña {#tips-aem}
 
 * **Saber qué plantilla utilizar con la integración**
 
    Dado que las plantillas de correo electrónico se pueden editar en Adobe Experience Manager, puede que sea más fácil editar cualquier plantilla en Adobe Experience Manager. Sin embargo, algunas plantillas no son fáciles de acomodar. No se recomiendan plantillas personalizadas específicas de un cliente para esta integración y deben editarse directamente en Adobe Campaign Standard.
 
-   For more information on templates, refer to this [page](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/templates.html).
+   Para obtener más información sobre las plantillas, consulte esta [página](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/templates.html).
 
 * **Asegúrese de que Externalizer se configuró durante la implementación**
 
@@ -45,7 +45,7 @@ Adobe Campaign Standard es compatible con Adobe Experience Manager 6.1, 6.2, 6.3
 
    Mantener las plantillas organizadas garantiza que las plantillas adecuadas se encuentren en las carpetas adecuadas y que no se elijan por error las que están equivocadas. Durante la implementación, se deben crear rutas para guardar las plantillas en los lugares adecuados.
 
-   For more information on templates, refer to this [page](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/templates.html#template-availability).
+   Para obtener más información sobre las plantillas, consulte esta [página](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/templates.html#template-availability).
 
 * **Empiece rápidamente con los componentes integrados.**
 
