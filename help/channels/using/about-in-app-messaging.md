@@ -61,17 +61,17 @@ Dado que el SDK extrae los mensajes en la aplicación de la Campaña, queremos p
 * Los mensajes creados con la plantilla de Perfil solo se pueden mostrar cuando el usuario ha iniciado sesión en la aplicación.
 * Para facilitar este protocolo de enlace seguro, los desarrolladores de aplicaciones móviles deben pasar detalles de autenticación adicionales mediante la API setLinkageField. Tenga en cuenta que el campo de vinculación son los que se identifican como vínculo entre Mobile Perfil y Perfil CRM mientras se amplía la tabla appSubscriberRcp.
 * Deben vaciar los mensajes en la aplicación almacenados en el dispositivo y resetLinkagefields cuando el usuario cierre la sesión de la aplicación mediante resetLinkageField. Esto garantiza que si un usuario diferente inicia sesión en la aplicación, no verá los mensajes destinados al usuario anterior.
-* Consulte las API [de SDK](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference) Mobile para implementar este mecanismo de seguridad en el cliente.
+* Consulte [API de SDK móvil](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference) para implementar este mecanismo de seguridad en el cliente.
 
 ### ¿Qué tengo que hacer para habilitar el sistema de informes en la aplicación en la Campaña? {#enable-inapp-reporting}
 
-Debe configurar el postback de seguimiento en la aplicación. Instructions can be found [here](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#InApptrackingpostback).
+Debe configurar el postback de seguimiento en la aplicación. Las instrucciones se pueden encontrar [aquí](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#InApptrackingpostback).
 
 Para implementar el seguimiento de notificaciones locales, consulte esta [página](../../administration/using/local-tracking.md).
 
 ### ¿Qué informes están disponibles para el canal en la aplicación? {#report-inapp}
 
-En Adobe Campaign para el canal en la aplicación hay disponible un informe predeterminado. Refer to this [documentation](../../reporting/using/in-app-report.md).
+En Adobe Campaign para el canal en la aplicación hay disponible un informe predeterminado. Consulte esta [documentación](../../reporting/using/in-app-report.md).
 
 Consulte esta [página](../../reporting/using/indicator-calculation.md#in-app-delivery) para comprender cómo se calculan las métricas en la aplicación.
 
