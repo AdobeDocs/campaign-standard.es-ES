@@ -24,18 +24,18 @@ El flujo de trabajo se compone de los siguientes elementos:
 
 ![](assets/incremental_query_example1.png)
 
-* A [Scheduler](../../automating/using/scheduler.md) activity, to execute the workflow every Monday at 6 am.
+* Una actividad [Planificador](../../automating/using/scheduler.md) para ejecutar el flujo de trabajo todos los lunes a las 6 de la mañana.
 
    ![](assets/incremental_query_example2.png)
 
-* An [Incremental query](../../automating/using/incremental-query.md) activity, which targets all of the current subscribers during the first execution, then only the new subscribers of that week during the following executions.
+* Una actividad [Consulta incremental](../../automating/using/incremental-query.md), que destinatario a todos los suscriptores actuales durante la primera ejecución, y luego sólo a los nuevos suscriptores de esa semana durante las siguientes ejecuciones.
 
    ![](assets/incremental_query_example3.png)
 
-* Una actividad [de envío](../../automating/using/email-delivery.md) de correo electrónico. El flujo de trabajo se ejecuta una vez por semana, pero puede acumular los correos electrónicos enviados y los resultados por mes, por ejemplo para generar informes a lo largo de un periodo de un mes entero y no solo una semana.
+* Una actividad [envío de correo electrónico](../../automating/using/email-delivery.md). El flujo de trabajo se ejecuta una vez por semana, pero puede acumular los correos electrónicos enviados y los resultados por mes, por ejemplo para generar informes a lo largo de un periodo de un mes entero y no solo una semana.
 
    Para ello, elija crear un **[!UICONTROL Recurring email]** aquí que reagrupe los correos electrónicos y los resultados **[!UICONTROL By month]**.
 
-   Defina el contenido del correo electrónico e inserte el código de promoción de bienvenida. Para obtener más información sobre esto, consulte [Definición de secciones de contenido](../../designing/using/personalization.md) de correo electrónico.
+   Defina el contenido del correo electrónico e inserte el código de promoción de bienvenida. Para obtener más información sobre esto, consulte [Definición de contenido de correo electrónico](../../designing/using/personalization.md) secciones.
 
 A continuación, ejecute el flujo de trabajo. Cada semana los nuevos suscriptores reciben el correo electrónico de bienvenida con el código de promoción.
