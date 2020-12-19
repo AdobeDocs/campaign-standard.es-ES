@@ -94,7 +94,7 @@ Puede crear un mensaje de correo electrónico a partir de una [campaña](../../s
 * [Integración con Adobe Campaign y Dreamweaver](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 * [Integración con Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
 
-## Tutorial video {#video}
+## Videotutorial {#video}
 
 Este vídeo muestra cómo crear un correo electrónico.
 
