@@ -244,7 +244,7 @@ Por dimensión de filtrado (byFilteringResource)
 
 <table>
     <tr>
-    <th>Name</th>
+    <th>Nombre</th>
     <th>Tipo</th>
     </tr>
     <tr>
@@ -257,7 +257,7 @@ Por nombre o etiqueta (byText)
 
 <table>
     <tr>
-    <th>Name</th>
+    <th>Nombre</th>
     <th>Tipo</th>
     </tr>
     <tr>
@@ -270,7 +270,7 @@ Por tipo (byType)
 
 <table>
     <tr>
-    <th>Name</th>
+    <th>Nombre</th>
     <th>Tipo</th>
     </tr>
     <tr>
