@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 44%
+ht-degree: 64%
 
 ---
 
@@ -27,7 +27,7 @@ Los siguientes son los valores de retención predeterminados para las tablas est
 * **Eventos**: 1 mes
 * **Estadísticas del procesamiento de eventos**: 6 meses
 * **Eventos archivados**: 6 meses
-* **Entidades** temporales: 7 días
+* **Entidades temporales**: 7 días
 * **Eventos de mapa ignorados**: 1 mes
 * **Alertas de envío**: 1 mes
 * **Registro de exportaciones:** 6 meses
