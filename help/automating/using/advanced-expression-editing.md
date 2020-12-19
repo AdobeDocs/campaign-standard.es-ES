@@ -106,8 +106,7 @@ Las expresiones de JavaScript están formadas por una o varias condiciones y uti
    * **&lt;value2>** es un campo, una función o un valor introducido manualmente.
 
    >[!NOTE]
-   >
-   >Los datos de tipo **&lt;context>** y **&lt;value2>** deben ser idénticos. Por ejemplo, si **&lt;context>** es una fecha, entonces **&lt;value2>** también debe ser una fecha.
+   Los datos de tipo **&lt;context>** y **&lt;value2>** deben ser idénticos. Por ejemplo, si **&lt;context>** es una fecha, entonces **&lt;value2>** también debe ser una fecha.
 
 * Si desea usar varias condiciones, se pueden combinar con operadores lógicos.
 
@@ -156,7 +155,7 @@ Las condiciones deben vincularse a los valores mediante uno de los siguientes op
   <tr> 
    <td> <span class="uicontrol">Less than</span> <br /> </td> 
    <td> &lt;<br /> </td> 
-   <td> &lt;<br /> </td> 
+   <td> &lt;&gt;<br /> </td> 
    <td> El primer valor debe ser categóricamente menor que el segundo valor.<br /> </td> 
    <td> <strong>@created &lt; DaysAgo(100)</strong> recupera todos los perfiles creados en la base de datos hace menos de 100 días.<br /> </td> 
   </tr> 
@@ -170,7 +169,7 @@ Las condiciones deben vincularse a los valores mediante uno de los siguientes op
   <tr> 
    <td> <span class="uicontrol">Less than or equal to</span> <br /> </td> 
    <td> &lt;=<br /> </td> 
-   <td> &lt;=<br /> </td> 
+   <td> &lt;&gt;<br /> </td> 
    <td> El primer valor debe ser menor o igual que el segundo valor.<br /> </td> 
    <td> <strong>@age &lt;= 60</strong> recupera perfiles de 60 años o menos.<br /> </td> 
   </tr> 
