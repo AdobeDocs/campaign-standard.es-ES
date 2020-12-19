@@ -21,7 +21,7 @@ Conozca las prácticas recomendadas relacionadas con el diseño de entregas y en
 
 <img src="assets/do-not-localize/optimize.svg"  width="60px">
 
-**[Optimizar el envío](optimize-delivery.md)** : Proteger y optimizar el proceso de envío
+**[Optimice el envío](optimize-delivery.md)** : proteja y optimice el proceso de envío
 
 <img src="assets/do-not-localize/design.svg"  width="60px">
 
@@ -33,11 +33,11 @@ Conozca las prácticas recomendadas relacionadas con el diseño de entregas y en
 
 <img src="assets/do-not-localize/profiles.svg"  width="60px">
 
-**[Definir la audiencia](define-the-right-audience.md)** correcta: aplicar la configuración correcta
+**[Definir la audiencia](define-the-right-audience.md)**  correcta: aplicar la configuración correcta
 
 <img src="assets/do-not-localize/start.svg"  width="60px">
 
-**[Comprobar antes de enviar](check-before-sending.md)** : Evitar errores comunes
+**[Verificar antes de enviar](check-before-sending.md)** - Evitar errores comunes
 
 <img src="assets/do-not-localize/troubleshoot.svg"  width="60px">
 
