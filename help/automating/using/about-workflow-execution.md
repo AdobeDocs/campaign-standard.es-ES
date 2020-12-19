@@ -18,13 +18,13 @@ ht-degree: 9%
 
 # Acerca de la ejecución del flujo de trabajo {#about-workflow-execution}
 
-Un flujo de trabajo siempre se inicia manualmente. Sin embargo, una vez iniciada, puede permanecer inactiva, según la información especificada en una actividad de [Planificador](../../automating/using/scheduler.md) .
+Un flujo de trabajo siempre se inicia manualmente. Sin embargo, una vez iniciada, puede permanecer inactiva, según la información especificada en una actividad [Planificador](../../automating/using/scheduler.md).
 
 >[!CAUTION]
 >
 > Adobe recomienda que los clientes den prioridad a las ejecuciones de flujos de trabajo y ejecuten hasta veinte ejecuciones de flujos de trabajo concurrentes para lograr de forma consistente el máximo rendimiento en toda la instancia. Se pueden planificar más de veinte ejecuciones de flujo de trabajo simultáneas que se ejecutarán secuencialmente de forma predeterminada. Puede ajustar la configuración predeterminada para el número máximo de ejecuciones de flujo de trabajo simultáneas enviando un ticket al Servicio de atención al cliente.
 
-Acciones relacionadas con la ejecución (inicio, parada, pausa, etc.) son procesos **asincrónicos** : el comando se guarda y se hará efectivo cuando el servidor esté disponible para aplicarlo.
+Acciones relacionadas con la ejecución (inicio, parada, pausa, etc.) son **procesos asincrónicos**: el comando se guarda y se hará efectivo cuando el servidor esté disponible para aplicarlo.
 
 En un flujo de trabajo, el resultado de cada actividad generalmente se envía a la siguiente actividad mediante una transición, representada por una flecha.
 
@@ -42,12 +42,12 @@ Una vez ejecutada una actividad, el número de registros enviados en la transici
 
 Puede abrir transiciones para comprobar que los datos enviados son correctos durante o después de ejecutar el flujo de trabajo. Puede vista de los datos y la estructura de datos.
 
-De forma predeterminada, solo se puede acceder a los detalles de la última transición del flujo de trabajo. Para poder acceder a los resultados de las actividades anteriores, debe comprobar la **[!UICONTROL Keep interim results]** opción de la **[!UICONTROL Execution]** sección de las propiedades del flujo de trabajo antes de iniciar el flujo de trabajo.
+De forma predeterminada, solo se puede acceder a los detalles de la última transición del flujo de trabajo. Para poder acceder a los resultados de las actividades anteriores, debe comprobar la opción **[!UICONTROL Keep interim results]** en la sección **[!UICONTROL Execution]** de las propiedades del flujo de trabajo antes de iniciar el flujo de trabajo.
 
 >[!NOTE]
 >
 >Esta opción consume mucha memoria y está diseñada para ayudar a construir un flujo de trabajo y garantizar que esté correctamente configurado y se comporte. Deje sin marcar las instancias de producción.
 
-Cuando una transición está abierta, puede editarla **[!UICONTROL Label]** o vincularla **[!UICONTROL Segment code]** . Para ello, edite los campos correspondientes y confirme las modificaciones.
+Cuando una transición está abierta, puede editar su **[!UICONTROL Label]** o vincular un **[!UICONTROL Segment code]** a ella. Para ello, edite los campos correspondientes y confirme las modificaciones.
 
-Mediante las API de Campaign Standard REST, puede **realizar inicios**, **pausar**, **reanudar** y **detener** un flujo de trabajo. Puede encontrar más detalles y ejemplos de llamadas REST en la documentación de la [API.](../../api/using/controlling-a-workflow.md)
+Mediante las API de Campaign Standard REST, puede **inicio**, **pausar**, **reanudar** y **detener** un flujo de trabajo. Puede encontrar más detalles y ejemplos de llamadas REST en la documentación de la [API.](../../api/using/controlling-a-workflow.md)
