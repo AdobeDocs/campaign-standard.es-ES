@@ -17,7 +17,7 @@ ht-degree: 93%
 
 # Pasos clave para enviar un mensaje{#key-steps-to-send-a-message}
 
-To learn the delivery best practices, consult the [Delivery best practices](../../sending/using/delivery-best-practices.md) section.
+Para conocer las prácticas recomendadas de envío, consulte la sección [prácticas recomendadas de Envío](../../sending/using/delivery-best-practices.md).
 
 Los pasos para crear y enviar mensajes son los siguientes:
 
