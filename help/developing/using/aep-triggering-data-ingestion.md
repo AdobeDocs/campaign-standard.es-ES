@@ -34,9 +34,9 @@ Antes de utilizar las API, la asignación de datos debe haberse configurado y pu
 
 Una vez creada la asignación de datos, debe evitar que se ejecute para poder activarla desde las API cuando lo desee. Para ello, siga estos pasos:
 
-1. En Campaign Standard, vaya al menú **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** .
+1. En Campaign Standard, vaya al menú **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]**.
 
-1. Haga clic con el botón doble en la asignación de datos para abrirla y, a continuación, haga clic en el **[!UICONTROL Stop]** botón.
+1. Haga clic con el botón doble en la asignación de datos para abrirla y, a continuación, haga clic en el botón **[!UICONTROL Stop]**.
 
    ![](assets/aep_datamapping_stop.png)
 
@@ -52,9 +52,10 @@ La ingestión inmediata de una asignación XDM en Adobe Experience Platform se a
 
 >[!NOTE]
 >
->Para ejecutar una llamada de API de POST de ingesta, el usuario debe tener una función de ejecución **de función** SQL, que puede proporcionar un administrador Campaign Standard mediante la ejecución de la siguiente secuencia de comandos de JS:
+>Para ejecutar la llamada de API de POST de ingesta, el usuario debe tener una función **de ejecución de la función SQL**, que puede proporcionar un administrador Campaign Standard mediante la ejecución de JS Script:
 >
->```
+>
+```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
 >REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
 >```
@@ -94,7 +95,7 @@ La operación POST devuelve información sobre el estado de la solicitud creada:
 }
 ```
 
-## Recuperación del estado de una solicitud de inserción {#retrieving-status}
+## Recuperando el estado de una solicitud de ingestión {#retrieving-status}
 
 El estado de una solicitud de inserción se puede recuperar con una operación de GET y el ID de solicitud deseado en los parámetros:
 
@@ -105,7 +106,7 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 
 >[!NOTE]
 >
->La información detallada sobre el estado de la solicitud de asignación XDM y sus trabajos relacionados está disponible en la interfaz de Campaign Standard, en el **[!UICONTROL Status of data export to platform]** menú (consulte activación [de](../../developing/using/aep-mapping-activation.md)asignación).
+>Encontrará información detallada sobre el estado de la solicitud de asignación XDM y sus trabajos relacionados en la interfaz de Campaign Standard, en el menú **[!UICONTROL Status of data export to platform]** (consulte [activación de asignación](../../developing/using/aep-mapping-activation.md)).
 
 La operación de GET devuelve la información siguiente:
 
