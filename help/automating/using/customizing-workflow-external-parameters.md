@@ -15,23 +15,23 @@ ht-degree: 1%
 ---
 
 
-# Customizing a workflow with external parameters {#customizing-a-workflow-with-external-parameters}
+# Personalización de un flujo de trabajo con parámetros externos {#customizing-a-workflow-with-external-parameters}
 
 Una vez activado el flujo de trabajo, los parámetros se ingieren en las variables de eventos y se pueden utilizar para personalizar las actividades del flujo de trabajo.
 
-Pueden, por ejemplo, utilizarse para definir qué audiencia leer en la **[!UICONTROL Read audience]** actividad, el nombre del archivo que se va a transferir en la **[!UICONTROL Transfer file]** actividad, etc. (see [this page](../../automating/using/customizing-workflow-external-parameters.md)).
+Pueden, por ejemplo, utilizarse para definir qué audiencia leer en la actividad **[!UICONTROL Read audience]**, el nombre del archivo que se va a transferir en la actividad **[!UICONTROL Transfer file]**, etc. (consulte [esta página](../../automating/using/customizing-workflow-external-parameters.md)).
 
-## Uso de variables de eventos {#using-events-variables}
+## Uso de variables de evento {#using-events-variables}
 
-Las variables eventos se utilizan dentro de una expresión que debe respetar la sintaxis [](../../automating/using/advanced-expression-editing.md#standard-syntax)estándar.
+Las variables eventos se utilizan dentro de una expresión que debe respetar la sintaxis [Estándar](../../automating/using/advanced-expression-editing.md#standard-syntax).
 
-La sintaxis para utilizar variables eventos debe seguir el formato siguiente y utilizar el nombre del parámetro que se ha definido en la **[!UICONTROL External signal]** actividad (consulte [Declaración de los parámetros en la actividad](../../automating/using/declaring-parameters-external-signal.md)de señal externa):
+La sintaxis para utilizar variables eventos debe seguir el formato siguiente y utilizar el nombre del parámetro que se ha definido en la actividad **[!UICONTROL External signal]** (consulte [Declaración de los parámetros en la actividad de señal externa](../../automating/using/declaring-parameters-external-signal.md)):
 
 ```
 $(vars/@parameterName)
 ```
 
-En esta sintaxis, la función **$** devuelve el tipo de datos de **cadena** . Si desea especificar otro tipo de datos, utilice las siguientes funciones:
+En esta sintaxis, la función **$** devuelve el tipo de datos **string**. Si desea especificar otro tipo de datos, utilice las siguientes funciones:
 
 * **$long**: número entero.
 * **$float**: número decimal.
@@ -46,7 +46,7 @@ Cuando se utiliza una variable en una actividad, la interfaz proporciona ayuda p
 
    ![](assets/wkf_test_activity_variables.png)
 
-* ![](assets/extsignal_expression_editor.png):: edite expresiones combinando variables y funciones (consulte [esta página](../../automating/using/advanced-expression-editing.md)).
+* ![](assets/extsignal_expression_editor.png):: edite expresiones combinando variables y funciones (consulte  [esta página](../../automating/using/advanced-expression-editing.md)).
 
    ![](assets/wkf_test_activity_variables_expression.png)
 
@@ -70,21 +70,21 @@ Cuando se utiliza una variable en una actividad, la interfaz proporciona ayuda p
 
 Las variables de eventos se pueden utilizar para personalizar varias actividades, enumeradas en la sección siguiente. Para obtener más información sobre cómo llamar a una variable desde una actividad, consulte [esta sección](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables).
 
-**[!UICONTROL Read audience]** actividad: definir la audiencia a destinatario en función de las variables de eventos. For more on how to use the activity, refer to [this section](../../automating/using/read-audience.md).
+**[!UICONTROL Read audience]** actividad: definir la audiencia a destinatario en función de las variables de eventos. Para obtener más información sobre cómo utilizar la actividad, consulte [esta sección](../../automating/using/read-audience.md).
 
 ![](assets/extsignal_activities_audience.png)
 
-**[!UICONTROL Test]** actividad: crear condiciones basadas en variables de eventos. For more on how to use the activity, refer to [this section](../../automating/using/test.md).
+**[!UICONTROL Test]** actividad: crear condiciones basadas en variables de eventos. Para obtener más información sobre cómo utilizar la actividad, consulte [esta sección](../../automating/using/test.md).
 
 ![](assets/extsignal_activities_test.png)
 
-**[!UICONTROL Transfer file]** actividad: personalice el archivo que se va a transferir en función de las variables de evento. For more on how to use the activity, refer to [this section](../../automating/using/transfer-file.md).
+**[!UICONTROL Transfer file]** actividad: personalice el archivo que se va a transferir en función de las variables de evento. Para obtener más información sobre cómo utilizar la actividad, consulte [esta sección](../../automating/using/transfer-file.md).
 
 ![](assets/extsignal_activities_transfer.png)
 
-**[!UICONTROL Query]** actividad: se puede hacer referencia a los parámetros en una consulta, mediante expresiones que combinan variables y funciones de eventos. Para ello, agregue una regla y haga clic en el **[!UICONTROL Advanced mode]** vínculo para acceder a la ventana de edición de expresiones (consulte Edición [de expresiones](../../automating/using/advanced-expression-editing.md)avanzada).
+**[!UICONTROL Query]** actividad: se puede hacer referencia a los parámetros en una consulta, mediante expresiones que combinan variables y funciones de eventos. Para ello, agregue una regla y haga clic en el vínculo **[!UICONTROL Advanced mode]** para acceder a la ventana de edición de expresiones (consulte [Edición avanzada de expresiones](../../automating/using/advanced-expression-editing.md)).
 
-For more on how to use the activity, refer to [this section](../../automating/using/query.md).
+Para obtener más información sobre cómo utilizar la actividad, consulte [esta sección](../../automating/using/query.md).
 
 ![](assets/extsignal_activities_query.png)
 
@@ -94,14 +94,14 @@ For more on how to use the activity, refer to [this section](../../automating/us
 >
 >Los valores de los parámetros de envío se recuperan cada vez que se prepara el envío.
 >
->La preparación de envíos recurrentes se basa en el período **de** agregación de envíos. Por ejemplo, si el período de agregación es &quot;por día&quot;, el envío se volverá a preparar sólo una vez al día. Si el valor de un parámetro de envío se modifica durante el día, no se actualizará en el envío, ya que ya se ha preparado una vez.
+>La preparación de envíos recurrentes se basa en el envío **período de agregación**. Por ejemplo, si el período de agregación es &quot;por día&quot;, el envío se volverá a preparar sólo una vez al día. Si el valor de un parámetro de envío se modifica durante el día, no se actualizará en el envío, ya que ya se ha preparado una vez.
 >
->Si planea llamar al flujo de trabajo varias veces al día, utilice la [!UICONTROL No aggregation] opción para que los parámetros de envío se actualicen cada vez. Para obtener más información sobre la configuración de envíos recurrentes, consulte [esta sección](/help/automating/using/email-delivery.md#configuration).
+>Si planea llamar al flujo de trabajo varias veces al día, utilice la opción [!UICONTROL No aggregation] para que los parámetros de envío se actualicen cada vez. Para obtener más información sobre la configuración de envíos recurrentes, consulte [esta sección](/help/automating/using/email-delivery.md#configuration).
 
 Para personalizar un envío basado en variables de eventos, primero debe declarar en la actividad de envío las variables que desee utilizar:
 
-1. Seleccione la actividad y, a continuación, haga clic en el ![](assets/dlv_activity_params-24px.png) botón para acceder a la configuración.
-1. Seleccione la **[!UICONTROL General]** ficha y, a continuación, agregue las variables de eventos que estarán disponibles como campos de personalización en el envío.
+1. Seleccione la actividad y haga clic en el botón ![](assets/dlv_activity_params-24px.png) para acceder a la configuración.
+1. Seleccione la ficha **[!UICONTROL General]** y, a continuación, agregue las variables de eventos que estarán disponibles como campos de personalización en el envío.
 
    ![](assets/extsignal_activities_delivery.png)
 
@@ -113,13 +113,13 @@ Las variables de eventos declarados ahora están disponibles desde la lista de c
 
    >[!NOTE]
    >
-   >Esta acción solo está disponible para envíos **recurrentes** .
+   >Esta acción solo está disponible para envíos **recurrentes**.
 
    ![](assets/extsignal_activities_template.png)
 
-* Personalice el envío: al seleccionar un campo de personalización para configurar un envío, las variables de eventos están disponibles en el **[!UICONTROL Workflow parameters]** elemento . Puede utilizarlos como cualquier campo de personalización, por ejemplo para definir el asunto del envío, el remitente, etc.
+* Personalice el envío: al seleccionar un campo de personalización para configurar un envío, las variables de eventos están disponibles en el elemento **[!UICONTROL Workflow parameters]**. Puede utilizarlos como cualquier campo de personalización, por ejemplo para definir el asunto del envío, el remitente, etc.
 
-   Delivery personalization is detailed in [this section](../../designing/using/personalization.md).
+   La personalización de envío se detalla en [esta sección](../../designing/using/personalization.md).
 
    ![](assets/extsignal_activities_perso.png)
 
@@ -127,7 +127,7 @@ Las variables de eventos declarados ahora están disponibles desde la lista de c
 
 >[!NOTE]
 >
->Esta acción se puede realizar desde cualquier actividad que le permita definir un código de segmento como, por ejemplo, **[!UICONTROL Query]** o **[!UICONTROL Segmentation]** actividades.
+>Esta acción se puede realizar desde cualquier actividad que le permita definir un código de segmento como, por ejemplo, actividades **[!UICONTROL Query]** o **[!UICONTROL Segmentation]**.
 
 ![](assets/extsignal_activities_segment.png)
 
