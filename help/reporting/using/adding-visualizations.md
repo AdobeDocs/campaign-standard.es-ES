@@ -19,16 +19,16 @@ ht-degree: 1%
 
 La ficha **Visualizaciones** permite arrastrar y soltar elementos de visualización, como área, anillo y gráfico. Las visualizaciones le proporcionan representaciones gráficas de sus datos.
 
-1. En la **[!UICONTROL Visualizations]** ficha, arrastre y suelte un elemento de visualización en un panel.
+1. En la ficha **[!UICONTROL Visualizations]**, arrastre y suelte un elemento de visualización en un panel.
 
    ![](assets/dynamic_report_visualization_1.png)
 
 1. Después de agregar una visualización al panel, los informes dinámicos detectan automáticamente los datos de la tabla improvisada. Seleccione la configuración de la visualización.
-1. Si tiene más de una tabla improvisada, elija el origen de datos disponible para agregar en el gráfico en la ventana Configuración **de fuente de** datos. Esta ventana también está disponible haciendo clic en el punto de color al lado del título de visualización.
+1. Si tiene más de una tabla improvisada, elija el origen de datos disponible para agregar el gráfico en la ventana **Configuración de fuente de datos**. Esta ventana también está disponible haciendo clic en el punto de color al lado del título de visualización.
 
    ![](assets/dynamic_report_visualization_2.png)
 
-1. Haga clic en el botón **[!UICONTROL Visualization]** de configuración para cambiar directamente el tipo de gráfico o lo que se muestra en él, como:
+1. Haga clic en el botón de configuración **[!UICONTROL Visualization]** para cambiar directamente el tipo de gráfico o lo que se muestra en él, como:
 
    * **Porcentajes**: Muestra los valores en porcentaje.
    * **Eje Y delimitador en cero**: Fuerza el eje y a cero incluso si los valores están por encima de cero.
