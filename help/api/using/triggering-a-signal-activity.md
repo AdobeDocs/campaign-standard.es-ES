@@ -17,9 +17,9 @@ ht-degree: 2%
 
 # Activación de una actividad de señal {#triggering-a-signal-activity}
 
-En un flujo de trabajo de Adobe Campaign Standard, puede haber una o varias actividades de señal **** externa. Estas actividades son &quot;oyentes&quot; que esperan activarse.
+En un flujo de trabajo de Adobe Campaign Standard, puede haber una o varias actividades de **señal externa**. Estas actividades son &quot;oyentes&quot; que esperan activarse.
 
-Las API de Campaign Standard permiten activar una actividad de señal **** externa para llamar a un flujo de trabajo. La llamada de API puede incluir parámetros que se ingerirán en las variables de eventos del flujo de trabajo (un nombre de audiencia a destinatario, un nombre de archivo para importar, una parte del contenido del mensaje, etc.). De este modo, puede integrar fácilmente sus automatizaciones de Campaña con su sistema externo.
+Las API de Campaign Standard permiten activar una actividad **de señal externa** para llamar a un flujo de trabajo. La llamada de API puede incluir parámetros que se ingerirán en las variables de eventos del flujo de trabajo (un nombre de audiencia a destinatario, un nombre de archivo para importar, una parte del contenido del mensaje, etc.). De este modo, puede integrar fácilmente sus automatizaciones de Campaña con su sistema externo.
 
 >[!NOTE]
 >
@@ -27,13 +27,13 @@ Las API de Campaign Standard permiten activar una actividad de señal **** exter
 
 Para activar un flujo de trabajo, siga los pasos a continuación:
 
-1. Realice una solicitud de **GET** en el flujo de trabajo para recuperar la dirección URL del activador de actividad de señal externa.
+1. Realice una solicitud **GET** en el flujo de trabajo para recuperar la dirección URL del activador de actividad de señal externa.
 
    `GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>`
 
-1. Realice una solicitud de **POST** en la dirección URL devuelta para activar la actividad de señal, con el parámetro **&quot;source&quot;** en la carga útil. Este atributo es obligatorio, le permite indicar el origen de la solicitud de activación.
+1. Realice una solicitud **POST** en la dirección URL devuelta para activar la actividad de señal, con el parámetro **&quot;source&quot;** en la carga útil. Este atributo es obligatorio, le permite indicar el origen de la solicitud de activación.
 
-Si desea llamar al flujo de trabajo con parámetros, agréguelos a la carga útil con el atributo **&quot;parameters&quot;** . La sintaxis consiste en el nombre del parámetro seguido de su valor (se admiten los siguientes tipos: **cadena**, **número**, **booleano** y **fecha/hora**).
+Si desea llamar al flujo de trabajo con parámetros, agréguelos a la carga útil con el atributo **&quot;parameters&quot;**. La sintaxis consiste en el nombre del parámetro seguido de su valor (se admiten los siguientes tipos: **cadena**, **número**, **booleano** y **fecha/hora**).
 
 ```
   -X POST <TRIGGER_URL>
@@ -56,7 +56,7 @@ Si desea llamar al flujo de trabajo con parámetros, agréguelos a la carga úti
 
 >[!NOTE]
 >
->Al agregar un parámetro a la carga útil, asegúrese de que sus valores de **nombre** y **tipo** sean coherentes con la información declarada en la actividad de señal externa. Además, el tamaño de la carga útil no debe superar los 64 Ko.
+>Al agregar un parámetro a la carga útil, asegúrese de que sus valores **name** y **type** sean coherentes con la información declarada en la actividad de señal externa. Además, el tamaño de la carga útil no debe superar los 64 Ko.
 
 <br/>
 
