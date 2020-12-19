@@ -19,7 +19,7 @@ ht-degree: 5%
 
 En **[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!UICONTROL Export audits]**, los administradores pueden realizar una lista de las siguientes exportaciones, incluida su fecha y el usuario que realizó la exportación:
 
-* Carga de archivos desde una **[!UICONTROL Transfer file]** actividad en un flujo de trabajo.
+* Carga de archivos desde una actividad **[!UICONTROL Transfer file]** en un flujo de trabajo.
 * Exportación de listas desde una lista o sublista.
 * Archivo descargado del panel de envío de un mensaje de Correo postal.
 
@@ -29,4 +29,4 @@ En **[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!UIC
 
 Desde el panel izquierdo, puede filtrar las exportaciones que desee mostrar en función de sus necesidades.
 
-Puede exportar la lista como un archivo independiente, tal como se describe en la sección [Exportación de listas](../../automating/using/exporting-lists.md) .
+Puede exportar la lista como un archivo independiente, tal como se describe en la sección [Exportación de listas](../../automating/using/exporting-lists.md).
