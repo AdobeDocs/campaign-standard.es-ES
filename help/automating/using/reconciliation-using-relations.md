@@ -28,7 +28,7 @@ El flujo de trabajo se compone de las siguientes actividades:
 
 ![](assets/reconciliation_example1.png)
 
-* A [Load file](../../automating/using/load-file.md) activity, which loads and detects the data of the file to import. El archivo importado contiene los siguientes datos:
+* Una actividad [Cargar archivo](../../automating/using/load-file.md), que carga y detecta los datos del archivo que se va a importar. El archivo importado contiene los siguientes datos:
 
    * Fecha de transacción
    * Dirección de correo electrónico del cliente
@@ -47,7 +47,7 @@ El flujo de trabajo se compone de las siguientes actividades:
    2015-05-19 09:06:00;mail9@email.com;ZZ6
    ```
 
-* A [Reconciliation](../../automating/using/reconciliation.md) activity to bind purchasing data to database profiles as well as products. Por lo tanto, es necesario definir una relación entre los datos del archivo y la tabla de perfiles, así como la tabla de productos. Esta configuración se realiza en la pestaña **[!UICONTROL Relations]** de la actividad:
+* Una [actividad de reconciliación](../../automating/using/reconciliation.md) para enlazar los datos de compras con perfiles de base de datos y productos. Por lo tanto, es necesario definir una relación entre los datos del archivo y la tabla de perfiles, así como la tabla de productos. Esta configuración se realiza en la pestaña **[!UICONTROL Relations]** de la actividad:
 
    * Relación con **Profiles**: la columna **cliente** del archivo está vinculada al campo de **correo electrónico** de la dimensión **Profiles** .
    * Relación con **Products**: la columna de **producto** del archivo está vinculada al campo **productCode** de la dimensión **Profiles** .
@@ -56,7 +56,7 @@ El flujo de trabajo se compone de las siguientes actividades:
 
    ![](assets/reconciliation_example3.png)
 
-* An [Update data](../../automating/using/update-data.md) activity allows you to define the database fields to update using the imported data. Como los datos ya se identificaron como pertenecientes a la dimensión **Transactions** en la actividad anterior, aquí puede utilizar la opción de identificación **[!UICONTROL Directly using the targeting dimension]**.
+* Una actividad [Actualizar datos](../../automating/using/update-data.md) permite definir los campos de la base de datos que se actualizarán con los datos importados. Como los datos ya se identificaron como pertenecientes a la dimensión **Transactions** en la actividad anterior, aquí puede utilizar la opción de identificación **[!UICONTROL Directly using the targeting dimension]**.
 
    Mediante la opción que detecta automáticamente los campos que se van a actualizar, los vínculos configurados en la actividad anterior (a perfiles y productos) se agregan a la lista de **[!UICONTROL Fields to update]**. También debe asegurarse de que el campo que corresponde a la fecha de transacción se agrega correctamente a esta lista.
 
