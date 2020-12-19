@@ -23,24 +23,24 @@ Para ello, compruebe que dispone de una plantilla de correo electrónico multili
 
 La audiencia se basa en perfiles con una información lingüística preferida completa.
 
-1. Cree un nuevo correo electrónico basado en una plantilla [](../../channels/using/multilingual-messages-template.md)multilingüe.
+1. Cree un nuevo correo electrónico basado en una [plantilla multilingüe](../../channels/using/multilingual-messages-template.md).
 
    ![](assets/multi_create1.png)
 
 1. Defina las propiedades generales y la audiencia de destino del mensaje de correo electrónico, igual que para un correo electrónico estándar. Consulte la sección [Creación de audiencias](../../audiences/using/creating-audiences.md).
-1. En el cuarto paso del asistente de creación, defina las opciones de variante. Si la plantilla [](../../channels/using/multilingual-messages-template.md) multilingüe ya contiene todos los parámetros correctos, puede hacer clic directamente en el **[!UICONTROL Create]** botón.
+1. En el cuarto paso del asistente de creación, defina las opciones de variante. Si la [plantilla multilingüe](../../channels/using/multilingual-messages-template.md) ya contiene todos los parámetros correctos, puede hacer clic directamente en el botón **[!UICONTROL Create]**.
 
    ![](assets/multi_create4.png)
 
-   Si es necesario, agregue variantes con el **[!UICONTROL Add an element]** botón. **[!UICONTROL Default]** no debe eliminarse la variante. Cuando se establece en **[!UICONTROL default]**, se utiliza [el idioma](../../audiences/using/creating-profiles.md) preferido del perfil para elegir la variante. También puede establecer la **[!UICONTROL Default]** variante en cualquier otro idioma.
+   Si es necesario, agregue variantes mediante el botón **[!UICONTROL Add an element]**. **[!UICONTROL Default]** no debe eliminarse la variante. Cuando se establece en **[!UICONTROL default]**, [se utiliza el idioma preferido del perfil](../../audiences/using/creating-profiles.md) para elegir la variante. También puede establecer la variante **[!UICONTROL Default]** en cualquier otro idioma.
 
 1. Confirmar creación de correo electrónico: se mostrará el panel de correo electrónico.
 1. Defina el contenido del correo electrónico de cada variante. En función de la plantilla que haya elegido, puede definir varios asuntos, varios nombres de remitente o varios contenidos diferentes. Utilice el menú desplegable para desplazarse entre las distintas variantes del elemento. Para obtener más información, consulte la sección del [editor de contenido](../../designing/using/designing-content-in-adobe-campaign.md).
 
    ![](assets/multi_selectcontent.png)
 
-1. Pruebe y valide el mensaje. Consulte la sección [Enviar prueba](../../sending/using/sending-proofs.md) .
-1. Programe el envío con el **[!UICONTROL Send after confirmation option]**.
+1. Pruebe y valide el mensaje. Consulte la sección [Envío de prueba](../../sending/using/sending-proofs.md).
+1. Programe el envío con **[!UICONTROL Send after confirmation option]**.
 1. Una vez enviado el correo electrónico, puede acceder a sus registros e informes para medir el éxito de la campaña. Para obtener más información sobre la creación de informes, consulte [esta sección](../../reporting/using/about-dynamic-reports.md).
 
 **Temas relacionados:**
