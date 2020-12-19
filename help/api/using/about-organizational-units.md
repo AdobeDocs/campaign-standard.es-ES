@@ -10,13 +10,13 @@ translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '104'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 
 # Acerca de las unidades organizativas {#about-organizational-units}
 
-El punto final **orgUnitBase** le permite interactuar con unidades organizativas, por ejemplo, para actualizar sus atributos o la unidad organizativa de un perfil. Para obtener más información sobre las unidades organizativas en Campaña, consulte la documentación [de la](https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html)Campaña.
+El extremo **orgUnitBase** le permite interactuar con unidades organizativas, por ejemplo, para actualizar sus atributos o la unidad organizativa de un perfil. Para obtener más información sobre las unidades organizativas en Campaña, consulte la [documentación de Campaña](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html?lang=es#administrating).
 
-El campo Unidad **** organizativa se agrega a un perfil al ampliar el recurso de perfil. Como resultado, recuerde utilizar siempre el punto final **profileAndServicesExt** para interactuar con las unidades geográficas. Para obtener más información sobre la extensión de recursos del perfil, consulte la documentación [de la](https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles)Campaña.
+El campo **Unidad organizativa** se agrega a un perfil al ampliar el recurso de perfil. Como resultado, recuerde utilizar siempre el extremo **profileAndServicesExt** para interactuar con las unidades geográficas. Para obtener más información sobre la extensión de recursos del perfil, consulte la [documentación de Campaña](https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles).
