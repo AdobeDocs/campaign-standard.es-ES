@@ -24,7 +24,7 @@ El flujo de trabajo consta de:
 
 ![](assets/deduplication_example2_workflow.png)
 
-* A file that contains a list of profiles is imported using a [Load file](../../automating/using/load-file.md) activity. En este ejemplo, el archivo importado está en formato .csv y contiene 10 perfiles:
+* Un archivo que contiene una lista de perfiles se importa mediante una actividad [Cargar archivo](../../automating/using/load-file.md). En este ejemplo, el archivo importado está en formato .csv y contiene 10 perfiles:
 
    ```
    lastname;firstname;dateofbirth;email
@@ -44,13 +44,13 @@ El flujo de trabajo consta de:
 
    ![](assets/deduplication_example2_fileloading.png)
 
-* Una actividad [Deduplicación](../../automating/using/deduplication.md) . La deduplicación se realiza directamente después de importar el archivo y antes de insertar los datos en la base de datos. Por lo tanto, debe basarse en el **[!UICONTROL Temporary resource]** de la actividad de **[!UICONTROL Load file]**.
+* Una actividad [Deduplicación](../../automating/using/deduplication.md). La deduplicación se realiza directamente después de importar el archivo y antes de insertar los datos en la base de datos. Por lo tanto, debe basarse en el **[!UICONTROL Temporary resource]** de la actividad de **[!UICONTROL Load file]**.
 
    Para este ejemplo, queremos mantener una sola entrada por dirección de correo electrónico única contenida en el archivo. Por lo tanto, la identificación del duplicado se lleva a cabo en la columna de **correo electrónico** del recurso temporal. Sin embargo, aparecen dos veces en el archivo dos direcciones de correo electrónico. Por consiguiente, las dos líneas se considerarán duplicados.
 
    ![](assets/deduplication_example2_dedup.png)
 
-* An [Update data](../../automating/using/update-data.md) activity allows you to insert the data kept from the deduplication process into the database. Solo cuando se actualizan los datos, se identifican los datos importados como pertenecientes a la dimensión de perfil.
+* Una actividad [Update data](../../automating/using/update-data.md) permite insertar los datos guardados desde el proceso de deduplicación en la base de datos. Solo cuando se actualizan los datos, se identifican los datos importados como pertenecientes a la dimensión de perfil.
 
    En este caso, nos gustaría **[!UICONTROL Insert only]** los perfiles que no existen en la base de datos. Vamos a hacerlo utilizando la columna de correo electrónico del archivo y el campo de correo electrónico de la dimensión de **Perfil** como clave de reconciliación.
 
