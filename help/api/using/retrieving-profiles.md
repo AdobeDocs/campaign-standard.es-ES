@@ -17,9 +17,9 @@ ht-degree: 4%
 
 # Recuperación de perfiles {#retrieving-profiles}
 
-La recuperación de perfiles se realiza con una solicitud de **GET** .
+La recuperación de perfiles se realiza con una solicitud **GET**.
 
-Luego puede restringir la búsqueda mediante filtros, pedidos y paginación. For more on this, refer to the [Additional operations](../../api/using/sorting.md) section.
+Luego puede restringir la búsqueda mediante filtros, pedidos y paginación. Para obtener más información sobre esto, consulte la sección [Operaciones adicionales](../../api/using/sorting.md).
 
 <br/>
 
