@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 89%
+ht-degree: 90%
 
 ---
 
@@ -62,7 +62,7 @@ El perfil aparece ahora en la lista.
 >[!NOTE]
 >El campo de idioma preferido se utiliza para seleccionar el idioma al enviar mensajes multilingües. Para obtener más información sobre los mensajes multilingües, [consulte esta página](../../channels/using/creating-a-multilingual-email.md).
 
-## Tutorial video {#video}
+## Videotutorial {#video}
 
 Este vídeo muestra cómo importar perfiles con un flujo de trabajo.
 
