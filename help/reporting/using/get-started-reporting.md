@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e20485978deba54f45010a41921b948f049222f2
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 19%
+ht-degree: 20%
 
 ---
 
@@ -78,7 +78,7 @@ Más información:
 * [Exportación de registros](../../automating/using/exporting-logs.md)
 * [Acerca de la integración de Campaign-Analytics](../../integrating/using/about-campaign-analytics-integration.md)
 
-## Tutorial video {#video}
+## Videotutorial {#video}
 
 Este vídeo proporciona información general sobre las funciones de sistema de informes de Adobe Campaign Standard.
 
