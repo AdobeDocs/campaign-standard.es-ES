@@ -97,7 +97,7 @@ A continuación se muestra una lista de los atributos y una descripción:
 
 >[!NOTE]
 >
->El período de caducidad de la página espejo de correo electrónico se puede modificar en la pantalla de configuración de la actividad de canal de correo electrónico de la Campaña correspondiente (consulte Parámetros [de período de](../../administration/using/configuring-email-channel.md#validity-period-parameters)validez).
+>El período de caducidad de la página espejo de correo electrónico se puede modificar en la pantalla de configuración de la actividad de canal de correo electrónico de la Campaña correspondiente (consulte [Parámetros del período de validez](../../administration/using/configuring-email-channel.md#validity-period-parameters)).
 
 >[!NOTE]
 >
