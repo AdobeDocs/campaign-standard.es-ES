@@ -28,7 +28,7 @@ Adobe Campaign Standard utilizará el servicio **Destinos de Audiencia** para re
 
 **Las** audiencias se crean creando primero  **segmentos**, que son esencialmente un conjunto de reglas basadas en prácticamente cualquier variable (por ejemplo, perfil, evento, datos de varias entidades) dentro de un perfil de cliente de Adobe Experience Platform para crear un destinatario multidimensional. En estos documentos específicos se hace referencia a los conceptos globales sobre los servicios de Perfil y segmentación de clientes en tiempo real:
 
-* [Información general sobre el Perfil del cliente en tiempo real](https://docs.adobe.com/content/help/es-ES/experience-platform/profile/home.html)
+* [Información general sobre el Perfil del cliente en tiempo real](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
 * [Descripción general del servicio de segmentación](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html)
 
 Una vez creado un segmento, puede activarlo como una audiencia para un envío en [flujos de trabajo de Campaign Standard](../../automating/using/aep-targeting-audiences.md). Además, puede utilizar datos contextuales de Adobe Experience Platform para [personalizar](../../automating/using/aep-personalizing-campaigns.md) y agregar contenido dinámico a sus campañas.
