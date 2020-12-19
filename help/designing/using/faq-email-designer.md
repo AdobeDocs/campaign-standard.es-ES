@@ -41,7 +41,7 @@ Ahora puede agregar un relleno a este elemento.
 
 Puede cargar su propio contenido HTML en el Diseñador de correo electrónico. Si no se ha creado mediante el Diseñador de correo electrónico, se cargará en modo de compatibilidad, diseñado para mantener el HTML original pero que limita determinadas funciones de edición a través de la interfaz de usuario.
 
-Para obtener más información, consulte Modo [de compatibilidad](../../designing/using/using-existing-content.md#compatibility-mode)
+Para obtener más información, consulte [Modo de compatibilidad](../../designing/using/using-existing-content.md#compatibility-mode)
 
 ## ¿Cómo creo mi primer contenido de correo electrónico?
 
