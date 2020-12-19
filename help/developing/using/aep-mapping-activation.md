@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >El conector de datos de Adobe Experience Platform se encuentra actualmente en fase beta, que puede estar sujeto a actualizaciones frecuentes sin previo aviso. Se requiere que los clientes estén alojados en Azure (actualmente en versión beta solo para Norteamérica) para acceder a estas capacidades. Si desea obtener acceso, póngase en contacto con el Servicio de atención al cliente de Adobe.
 
-Una vez completada la definición de la asignación, puede publicarla. Después del paso de implementación, la replicación de datos entre Campaign Standard y Adobe Experience Platform se inicia automáticamente. En cualquier momento, puede detener la replicación haciendo clic en el **[!UICONTROL Stop]** botón.
+Una vez completada la definición de la asignación, puede publicarla. Después del paso de implementación, la replicación de datos entre Campaign Standard y Adobe Experience Platform se inicia automáticamente. En cualquier momento, puede detener la replicación haciendo clic en el botón **[!UICONTROL Stop]**.
 
 Según las modificaciones de asignación, puede elegir reenviar todos los registros a Adobe Experience Platform.
 
@@ -31,11 +31,11 @@ Desde el mosaico de implementación, puede acceder al registro de publicación y
 
 ![](assets/aep_publog.png)
 
-En la **[!UICONTROL Export jobs]** ficha, puede supervisar el trabajo de exportación de la asignación publicada.
+En la ficha **[!UICONTROL Export jobs]**, puede supervisar el trabajo de exportación de la asignación publicada.
 
 ![](assets/aep_jobstatus.png)
 
-Si desea controlar todos los trabajos de exportación de datos, vaya al menú **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** .
+Si desea supervisar todos los trabajos de exportación de datos, vaya al menú **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]**.
 
 ![](assets/aep_statusmapping.png)
 
