@@ -54,17 +54,17 @@ Los pasos a continuación describen un caso de uso paso a paso para importar y u
 
 1. Descargue la colección JSON haciendo clic [aquí](https://helpx.adobe.com/content/dam/help/en/campaign/kb/working-with-acs-api/_jcr_content/main-pars/download_section/download-1/KB_postman_collection.json.zip).
 
-1. Abra Postman y seleccione el menú **Archivo** / **Importar** .
+1. Abra Postman y seleccione el menú **Archivo** / **Importar**.
 
 1. Arrastre y suelte el archivo descargado en la ventana. Se muestran las solicitudes de API prediseñadas, listas para utilizarse.
 
    ![texto alt](assets/postman_collection.png)
 
-1. Seleccione la **Creación de una solicitud de perfil** y, a continuación, actualice la solicitud de POST y la ficha **Encabezados** con su propia información (&lt;ORGANIZACIÓN>, &lt;API_KEY>, &lt;ACCESS_TOKEN>). Para obtener más información, consulte [esta sección](../../api/using/setting-up-api-access.md).
+1. Seleccione la solicitud **Creación de un perfil** y, a continuación, actualice la solicitud del POST y la ficha **Encabezados** con su propia información (&lt;ORGANIZACIÓN>, &lt;API_KEY>, &lt;ACCESS_TOKEN>). Para obtener más información, consulte [esta sección](../../api/using/setting-up-api-access.md).
 
    ![texto alt](assets/postman_uc1.png)
 
-1. Rellene la ficha **Cuerpo** con la información que desee agregar al nuevo perfil y, a continuación, haga clic en el botón **Enviar** para ejecutar la solicitud.
+1. Rellene la ficha **Cuerpo** con la información que desee agregar al nuevo perfil, luego haga clic en el botón **Enviar** para ejecutar la solicitud.
 
    ![texto alt](assets/postman_uc2.png)
 
