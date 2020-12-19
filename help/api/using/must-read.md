@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# Must-Read {#must-read}
+# Lectura obligatoria {#must-read}
 
 ## Requisitos técnicos
 
@@ -31,7 +31,7 @@ Todos los recursos de API están disponibles en **JSON** con una extensión URL 
 
 >[!NOTE]
 >
->Sin extensión en la URL, el formato **json es el formato predeterminado** para el tipo de contenido.
+>Sin extensión en la dirección URL, el formato **json es el predeterminado** para el tipo de contenido.
 
 <br/>
 
@@ -61,7 +61,7 @@ Si el recurso de perfil se ha ampliado con un campo de clave personalizada, pued
 
 Las claves personalizadas no se pueden modificar con una operación de PATCH si el valor clave es diferente de la clave de origen o si está utilizando su propia clave comercial como URI en lugar de la proporcionada por Adobe.
 
-Utilice una clave personalizada solo para los recursos **de perfil de nivel** superior. Las direcciones URL son devueltas por la API y nunca las debe crear usted mismo.
+Utilice una clave personalizada solo para **recursos de perfil de nivel superior**. Las direcciones URL son devueltas por la API y nunca las debe crear usted mismo.
 
 <br/>
 
