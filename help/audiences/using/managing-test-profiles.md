@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -78,7 +78,7 @@ Para editar un perfil de prueba y consultar los datos vinculados a él o modific
 
 1. Haga clic en **[!UICONTROL Save]** si ha introducido los cambios o seleccione el nombre del perfil de prueba y, a continuación, en **[!UICONTROL Test profiles]** en la sección de la parte superior de la pantalla para volver al panel de perfiles de prueba.
 
-## Tutorial video {#video}
+## Videotutorial {#video}
 
 Este vídeo muestra cómo crear un perfil de prueba.
 
