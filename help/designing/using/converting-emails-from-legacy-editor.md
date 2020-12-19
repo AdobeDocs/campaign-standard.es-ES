@@ -15,7 +15,7 @@ ht-degree: 8%
 ---
 
 
-# Conversión del contenido de correo electrónico del editor heredado {#converting-an-html-content}
+# Conversión del contenido del correo electrónico del editor heredado {#converting-an-html-content}
 
 Inicio que trabaja con el Diseñador de correo electrónico y genera plantillas y fragmentos reutilizables a partir del HTML de correo electrónico creado en el Editor preexistente.
 
@@ -37,7 +37,7 @@ Este caso de uso permite crear una plantilla de diseñador de correo electrónic
 
 ## Crear la estructura de correo electrónico
 
-1. Abra el **[!UICONTROL Email Designer]** para crear un contenido de correo electrónico vacío.
+1. Abra **[!UICONTROL Email Designer]** para crear un contenido de correo electrónico vacío.
 1. Defina los atributos de nivel de cuerpo: colores de fondo, anchura, etc. Para obtener más información, consulte [Edición de estilos de correo electrónico](../../designing/using/styles.md).
 1. Añada tantos componentes de estructura como secciones. Para obtener más información, consulte [Edición de la estructura de correo electrónico](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
@@ -46,7 +46,7 @@ Este caso de uso permite crear una plantilla de diseñador de correo electrónic
 1. Añada un componente HTML a cada componente de estructura. Para obtener más información, consulte [Añadir fragmentos y componentes](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Copie y pegue el HTML en todos los componentes.
 
-## Administrar el estilo del correo electrónico {#manage-the-style-of-your-email}
+## Administre el estilo de su correo electrónico {#manage-the-style-of-your-email}
 
 1. Cambie a **[!UICONTROL Mobile view]**. Para obtener más información, consulte [esta sección](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
@@ -78,7 +78,7 @@ Este caso de uso permite crear una plantilla de diseñador de correo electrónic
 
 ## Ejemplo de uso
 
-Intentemos convertir este correo electrónico, creado en el editor heredado, en una **[!UICONTROL Email Designer]** plantilla.
+Intentemos convertir este correo electrónico, creado en el editor heredado, en una plantilla **[!UICONTROL Email Designer]**.
 
 ### Identifique la sección de su correo electrónico
 
@@ -94,7 +94,7 @@ Para ver la versión HTML del correo electrónico, haga clic en **[!UICONTROL Sh
 
 ### Crear la plantilla de correo electrónico y su estructura
 
-1. Arrastre y suelte **[!UICONTROL Structure components]** según el diseño de nuestro correo electrónico.
+1. Arrastre y suelte **[!UICONTROL Structure components]** reflejando el diseño de nuestro correo electrónico.
 
 1. Repita tantas veces como sea necesario. Necesitamos crear 11 componentes de estructura.
 
@@ -102,7 +102,7 @@ Para ver la versión HTML del correo electrónico, haga clic en **[!UICONTROL Sh
 
 ### Inserción de componentes de contenido HTML
 
-1. Inserte un **[!UICONTROL HTML component]** en cada **[!UICONTROL Structure component]** .
+1. Inserte un **[!UICONTROL HTML component]** en cada **[!UICONTROL Structure component]**.
 
    ![](assets/html-components.png)
 
