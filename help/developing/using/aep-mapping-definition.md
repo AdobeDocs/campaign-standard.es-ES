@@ -28,7 +28,7 @@ Para realizar esta tarea, los requisitos previos son:
 * una definición de Esquema XDM mediante la interfaz o mediante la API REST asociada a XDM
 * una creación de conjunto de datos basada en la definición de esquema XDM
 
-1. Vaya a **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** y elija la **[!UICONTROL Data mappings]** entrada.
+1. Vaya a **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** y elija la entrada **[!UICONTROL Data mappings]**.
 
 1. Haga clic en **[!UICONTROL Create]** para inicio de una nueva asignación XDM.
 
@@ -36,20 +36,20 @@ Para realizar esta tarea, los requisitos previos son:
 
 1. Complete los campos obligatorios y seleccione:
 
-   * una **dimensión de segmentación**: este es el esquema del Campaign Standard para asignar
-   * un **conjunto de datos**: este es el paquete de datos asociado a un esquema XDM en Adobe Experience Platform.
+   * a **dimensión de segmentación**: este es el esquema del Campaign Standard para asignar
+   * a **dataset**: este es el paquete de datos asociado a un esquema XDM en Adobe Experience Platform.
 
 >[!NOTE]
 >
->Para que un lote se ingrese en Perfil del cliente en tiempo real o servicio de identidad, el conjunto de datos debe estar [habilitado para el Perfil](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/intro/get-started.html)del cliente en tiempo real.
+>Para que un lote se ingrese en Perfil del cliente en tiempo real o servicio de identidad, el conjunto de datos debe estar [habilitado para el Perfil del cliente en tiempo real](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/intro/get-started.html).
 >
 >Si el conjunto de datos seleccionado ya se está utilizando en una asignación de datos existente, aparecerá una advertencia para informarle de que los datos se pueden sobrescribir en Adobe Experience Platform. Esto puede suceder cuando hay algunos destinatarios comunes en las asignaciones de datos que usan un mismo conjunto de datos.
 
-La siguiente pantalla presenta la sección en la que se puede crear una nueva asignación para cada campo del esquema de Campaign Standard. **[!UICONTROL Field mappings]**
+La siguiente pantalla presenta la sección **[!UICONTROL Field mappings]** donde puede crear una nueva asignación para cada campo del esquema de Campaign Standard.
 
 ![](assets/aep_fieldmappings.png)
 
-El **[!UICONTROL Create new field mapping]** botón permite seleccionar el campo Campaign Standard y la expresión de ruta de campo correspondiente en el esquema XDM.
+El botón **[!UICONTROL Create new field mapping]** permite seleccionar el campo Campaign Standard y la expresión de ruta de campo correspondiente en el esquema XDM.
 
 Si no puede encontrar un campo Campaign Standard, puede utilizar el campo de búsqueda para buscar el campo. Actualmente, la búsqueda solo funciona para los campos que están abiertos en la jerarquía.
 
@@ -61,13 +61,13 @@ Los recursos extendidos definidos en Campaign Standard se asignan como todos los
 
 Puede personalizar la extensión XDM mediante la API y definir su propia extensión, lo que le permitirá un mejor control de la asignación.
 
-Consulte el tutorial [de la API del Registro de](https://docs.adobe.com/content/help/es-ES/experience-platform/xdm/api/getting-started.html) Esquema para obtener más información sobre la API de XDM.
+Consulte [Tutorial de la API del Registro de Esquema](https://docs.adobe.com/content/help/es-ES/experience-platform/xdm/api/getting-started.html) para obtener más información sobre la API XDM.
 
 Para asignar un campo de lista desglosada, debe utilizar el editor de expresiones para definir cada valor de lista desglosada correspondiente al valor XDM. Por ejemplo, postalAdressfield debe definirse como:
 
 ![](assets/aep_enummapping.png)
 
-Si el valor XDM está definido como una lista desglosada en el Esquema XDM, puede utilizar la función EXDM nativa que reemplazará automáticamente la sintaxis **lif** .
+Si el valor XDM está definido como una lista desglosada en el Esquema XDM, puede utilizar la función EXDM nativa que reemplazará automáticamente la sintaxis **lif**.
 
 ![](assets/aep_enummappingexdm.png)
 
@@ -77,4 +77,4 @@ Para editar una asignación XDM, ábrala, modifique la información deseada y gu
 
 >[!IMPORTANT]
 >
->Por ahora, si edita un valor en la sección y luego hace clic fuera del campo, el cambio no se muestra en la interfaz hasta que hace clic en el **[!UICONTROL Field mappings]** **[!UICONTROL Save]** botón. Este comportamiento se produce una sola vez, cuando la edición de **[!UICONTROL Field Mappings]** es la primera edición de la página.
+>Por ahora, si edita un valor en la sección **[!UICONTROL Field mappings]** y luego hace clic fuera del campo, el cambio no se muestra en la interfaz hasta que hace clic en el botón **[!UICONTROL Save]**. Este comportamiento se produce sólo una vez, cuando la edición de **[!UICONTROL Field Mappings]** es la primera edición de la página.
