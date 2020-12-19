@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # Indicadores de seguimiento{#tracking-indicators}
 
-El **[!UICONTROL Tracking indicators]** informe contiene los indicadores clave para rastrear el comportamiento después de recibir mensajes de correo electrónico.
+El informe **[!UICONTROL Tracking indicators]** contiene los indicadores clave para rastrear el comportamiento después de recibir mensajes de correo electrónico.
 
 >[!NOTE]
 >
@@ -26,12 +26,12 @@ El **[!UICONTROL Tracking indicators]** informe contiene los indicadores clave p
 
 ![](assets/delivery_reports_2.png)
 
-La **[!UICONTROL Tracking indicators]** tabla y el gráfico **Principales 5 envíos** contienen los datos disponibles para el seguimiento del correo electrónico, como por ejemplo:
+La tabla **[!UICONTROL Tracking indicators]** y el gráfico **Principales 5 envíos** contienen los datos disponibles para el seguimiento del correo electrónico, como:
 
 * **[!UICONTROL Delivered]**:: Número de mensajes enviados correctamente. Se tienen en cuenta los errores generados (devoluciones). sin embargo, no se tienen en cuenta las quejas (declaraciones de spam) ni los mensajes de &quot;fuera de la oficina&quot;.
 * **Abrir**: Número de veces que se abrió un mensaje en un envío.
 * **Haga clic**: Número de veces que se hizo clic en el contenido en un envío.
 * **Cancelada** la suscripción: Número de clics en el vínculo de suscripción.
-* **Correo no deseado:** El número de destinatarios que han declarado un correo electrónico como correo no deseado.
+* **Correo no deseado:** el número de destinatarios que han declarado un correo electrónico como correo no deseado.
 * **página espejo**: Número de clics en el vínculo de página espejo.
 
