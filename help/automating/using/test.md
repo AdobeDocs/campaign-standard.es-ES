@@ -47,7 +47,7 @@ Las condiciones se pueden basar en **funciones** o en **variables** como, por ej
 
    Al editar el campo **[!UICONTROL Condition]**, dos botones proporcionan ayuda para llamar a variables de eventos y editar expresiones que combinan variables y funciones:
 
-   * ![](assets/extsignal_picker.png):: seleccione la variable eventos entre todas las variables disponibles en el flujo de trabajo (consulte [esta página](../../automating/using/customizing-workflow-external-parameters.md))
+   * ![](assets/extsignal_picker.png):: seleccione la variable eventos entre todas las variables disponibles en el flujo de trabajo (consulte  [esta página](../../automating/using/customizing-workflow-external-parameters.md))
 
       ![](assets/wkf_test_activity_variables.png)
 
