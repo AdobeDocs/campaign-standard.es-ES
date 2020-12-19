@@ -17,9 +17,9 @@ ht-degree: 25%
 
 # Supervisión de una solicitud de privacidad {#monitoring-a-privacy-request}
 
-Puede supervisar la información sobre una solicitud de privacidad creada mediante una solicitud de **GET** .
+Puede supervisar la información sobre una solicitud de privacidad creada mediante una solicitud **GET**.
 
-La descripción de la lista de estado está disponible en la documentación [de administración de](https://helpx.adobe.com/es/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)privacidad.
+La descripción de la lista de estado está disponible en la [documentación de administración de privacidad](https://helpx.adobe.com/es/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
 
 <br/>
 
