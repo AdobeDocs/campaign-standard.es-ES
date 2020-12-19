@@ -23,7 +23,7 @@ Puede recuperar los metadatos de recursos mediante **resourceType** en una solic
 
 La respuesta devuelve los metadatos principales del recurso (todos los demás campos son descriptivos o internos):
 
-* El nodo **Contenido** devuelve los campos del recurso. Para cada campo del nodo de **contenido** , se pueden encontrar los campos siguientes:
+* El nodo **Content** devuelve los campos del recurso. Para cada campo del nodo **content**, se pueden encontrar los campos siguientes:
 
    * &quot;apiName&quot;: nombre del atributo utilizado en las API.
    * &quot;type&quot;: es la definición de tipo de alto nivel (cadena, número, vínculo, colección, lista desglosada...).
@@ -32,9 +32,9 @@ La respuesta devuelve los metadatos principales del recurso (todos los demás ca
    * &quot;resType&quot;: este es el tipo técnico.
 
       Si &quot;type&quot; se completa con el valor &quot;link&quot; o &quot;collection&quot;, el valor de resTarget es el nombre del recurso dirigido por el vínculo.
-Si &quot;type&quot; se completa con el valor &quot;lista desglosada&quot;, se agrega un campo &quot;valores&quot; y cada valor de lista desglosada se detalla en el nodo **valores** .
+Si &quot;type&quot; se completa con el valor &quot;lista desglosada&quot;, se agrega un campo &quot;valores&quot; y cada valor de lista desglosada se detalla en el nodo **valores**.
 
-* El nodo **Filtros** devuelve la dirección URL para recuperar los filtros asociados. For more on filters, refer to [this section](../../api/using/filtering.md) section.
+* El nodo **Filtros** devuelve la dirección URL para recuperar los filtros asociados. Para obtener más información sobre filtros, consulte la sección [esta sección](../../api/using/filtering.md).
 
 <!-- créer une section au même niveau sur les liens -->
 <!-- dans l'exemple: birthdate, email +  mettre 2 liens : un de type 1-1 , 1-N
