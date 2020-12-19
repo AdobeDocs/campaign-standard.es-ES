@@ -588,7 +588,7 @@ Por tipo de canal (byChannel)
 
 <table>
     <tr>
-    <th>Name</th>
+    <th>Nombre</th>
     <th>Tipo</th>
     </tr>
     <tr>
@@ -601,7 +601,7 @@ Por tipo de ejecución (byExecutionType)
 
 <table>
     <tr>
-    <th>Name</th>
+    <th>Nombre</th>
     <th>Tipo</th>
     </tr>
     <tr>
@@ -614,7 +614,7 @@ Por estado lógico (byLogicalStatus)
 
 <table>
     <tr>
-    <th>Name</th>
+    <th>Nombre</th>
     <th>Tipo</th>
     </tr>
     <tr>
@@ -627,7 +627,7 @@ Por nombre o etiqueta (byText)
 
 <table>
     <tr>
-    <th>Name</th>
+    <th>Nombre</th>
     <th>Tipo</th>
     </tr>
     <tr>
@@ -644,7 +644,7 @@ Por período (por período)
 
 <table>
     <tr>
-    <th>Name</th>
+    <th>Nombre</th>
     <th>Tipo</th>
     </tr>
     <tr>
@@ -657,7 +657,7 @@ Por punto (byStartPeriod)
 
 <table>
     <tr>
-    <th>Name</th>
+    <th>Nombre</th>
     <th>Tipo</th>
     </tr>
     <tr>
@@ -674,7 +674,7 @@ Por estado de publicación (porPublicationStatus)
 
 <table>
     <tr>
-    <th>Name</th>
+    <th>Nombre</th>
     <th>Tipo</th>
     </tr>
     <tr>
@@ -687,7 +687,7 @@ Por estado (byState)
 
 <table>
     <tr>
-    <th>Name</th>
+    <th>Nombre</th>
     <th>Tipo</th>
     </tr>
     <tr>
@@ -700,7 +700,7 @@ Mensajes de seguimiento (showFollowup)
 
 <table>
     <tr>
-    <th>Name</th>
+    <th>Nombre</th>
     <th>Tipo</th>
     </tr>
     <tr>
@@ -713,7 +713,7 @@ Incluir envíos avanzados (conAvanzado)
 
 <table>
     <tr>
-    <th>Name</th>
+    <th>Nombre</th>
     <th>Tipo</th>
     </tr>
     <tr>
@@ -726,7 +726,7 @@ Incluir envíos continuos de una lista heterogénea (conContinuo)
 
 <table>
     <tr>
-    <th>Name</th>
+    <th>Nombre</th>
     <th>Tipo</th>
     </tr>
     <tr>
@@ -739,7 +739,7 @@ Incluir pruebas (con FCP)
 
 <table>
     <tr>
-    <th>Name</th>
+    <th>Nombre</th>
     <th>Tipo</th>
     </tr>
     <tr>
@@ -752,7 +752,7 @@ Planificado durante el período determinado (porPlanning)
 
 <table>
     <tr>
-    <th>Name</th>
+    <th>Nombre</th>
     <th>Tipo</th>
     </tr>
     <tr>
@@ -769,7 +769,7 @@ Presente durante un período determinado (porCalendario)
 
 <table>
     <tr>
-    <th>Name</th>
+    <th>Nombre</th>
     <th>Tipo</th>
     </tr>
     <tr>
@@ -786,7 +786,7 @@ Mostrar lista para usar (showOob)
 
 <table>
     <tr>
-    <th>Name</th>
+    <th>Nombre</th>
     <th>Tipo</th>
     </tr>
     <tr>
