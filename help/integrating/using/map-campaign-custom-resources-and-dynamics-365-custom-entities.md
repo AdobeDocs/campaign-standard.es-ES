@@ -25,7 +25,7 @@ Obtenga información sobre cómo asignar recursos personalizados y entidades per
 
 ## Requisitos previos
 
-La integración [de](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md) Microsoft Dynamics 365-Adobe Campaign Standard admite entidades personalizadas, lo que permite sincronizar las entidades personalizadas de Dynamics 365 con los recursos personalizados correspondientes en Campaña.
+La [integración de Microsoft Dynamics 365-Adobe Campaign Standard](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md) admite entidades personalizadas, lo que permite sincronizar las entidades personalizadas de Dynamics 365 con los recursos personalizados correspondientes en Campaña.
 
 Los nuevos datos de los recursos personalizados se pueden utilizar para varios fines, como la segmentación y la personalización.
 
@@ -43,10 +43,10 @@ Al configurar los flujos de datos de entidad personalizados, es importante tener
 * Para los flujos de datos de entidad personalizados, el seguimiento de cambios debe habilitarse en Dynamics 365 para las entidades personalizadas sincronizadas.
 * Si un registro principal y un registro secundario vinculado se crean casi al mismo tiempo en Dynamics 365, debido al procesamiento paralelo de la integración, existe una pequeña posibilidad de que se pueda escribir un nuevo registro secundario en la Campaña antes de su registro principal.
 
-* Si el principal y el secundario están vinculados en la Campaña mediante la opción de vínculo **sencillo de cardinalidad** 1, el registro secundario permanecerá oculto e inaccesible (mediante la interfaz de usuario o la API) hasta que el registro principal llegue a la Campaña.
+* Si el principal y el secundario están vinculados en el lado de la Campaña mediante la opción **1 vínculo simple de cardinalidad**, el registro secundario permanecerá oculto e inaccesible (a través de la interfaz de usuario o la API) hasta que el registro principal llegue a la Campaña.
 
-* (Suponiendo **1 vínculo** sencillo de cardinalidad en Campaña) Si el registro secundario se actualiza o elimina en Dynamics 365 y ese cambio se escribe en Campaña antes de que el registro principal aparezca en la Campaña (no es probable, pero sí una posibilidad remota), esa actualización o eliminación no se procesará en la Campaña y se generará un error. En el caso de la actualización, el registro en cuestión deberá actualizarse de nuevo en Dynamics 365 para sincronizar el registro actualizado. En el caso de la eliminación, el registro en cuestión tendrá que encargarse por separado en la parte de la Campaña, ya que en Dynamics 365 ya no hay ningún registro que eliminar o actualizar.
+* (Suponiendo **1 vínculo simple de cardinalidad** en la Campaña) Si el registro secundario se actualiza o elimina en Dynamics 365 y ese cambio se escribe en la Campaña antes de que el registro principal se muestre en la Campaña (no es probable, pero es una posibilidad remota), esa actualización o eliminación no se procesará en la Campaña y se generará un error. En el caso de la actualización, el registro en cuestión deberá actualizarse de nuevo en Dynamics 365 para sincronizar el registro actualizado. En el caso de la eliminación, el registro en cuestión tendrá que encargarse por separado en la parte de la Campaña, ya que en Dynamics 365 ya no hay ningún registro que eliminar o actualizar.
 
-* Si se encuentra en una situación en la que cree que tiene registros secundarios ocultos y no hay forma de acceder a ellos, puede cambiar temporalmente el tipo de vínculo de cardinalidad a **0 o 1 vínculo** sencillo de cardinalidad para acceder a esos registros.
+* Si se encuentra en una situación en la que cree que tiene registros secundarios ocultos y no hay manera de acceder a ellos, puede cambiar temporalmente el tipo de vínculo de cardinalidad a **0 o 1 vínculo simple de cardinalidad** para acceder a esos registros.
 
-En esta sección [](../../developing/using/key-steps-to-add-a-resource.md)encontrará una descripción general más completa de los recursos personalizados de Campaña.
+En esta sección [encontrará una descripción general más completa de los recursos personalizados de Campaña.](../../developing/using/key-steps-to-add-a-resource.md)
