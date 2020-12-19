@@ -22,9 +22,9 @@ ht-degree: 4%
 >
 >El servicio Destinos de audiencia está actualmente en fase beta, que puede estar sujeto a frecuentes actualizaciones sin previo aviso. Se requiere que los clientes estén alojados en Azure (actualmente en versión beta solo para Norteamérica) para acceder a estas capacidades. Si desea obtener acceso, póngase en contacto con el Servicio de atención al cliente de Adobe.
 
-El Generador de segmentos le permite generar audiencias mediante la definición de reglas basadas en datos procedentes del Perfil [del cliente en tiempo](https://docs.adobe.com/content/help/es-ES/experience-platform/profile/home.html)real.
+El Generador de segmentos le permite generar audiencias mediante la definición de reglas basadas en datos provenientes del [Perfil del cliente en tiempo real](https://docs.adobe.com/content/help/es-ES/experience-platform/profile/home.html).
 
-Esta sección presenta conceptos globales al crear un segmento. Para obtener información detallada sobre el propio Generador de segmentos, consulte la guía [de usuario del Generador de](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)segmentos.
+Esta sección presenta conceptos globales al crear un segmento. Para obtener información detallada sobre el propio Generador de segmentos, consulte la [guía del usuario del Generador de segmentos](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
 
 La interfaz del Generador de segmentos se compone de la siguiente manera:
 
@@ -46,7 +46,7 @@ El Generador de segmentos ahora debe mostrarse en su espacio de trabajo. Le perm
 
 1. Asegúrese de que la directiva de combinación deseada está seleccionada en el panel de configuración.
 
-   Para obtener más información sobre las directivas de combinación, consulte la sección dedicada en la guía del usuario del Generador [de segmentos](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
+   Para obtener más información sobre las directivas de combinación, consulte la sección dedicada de la [Guía del usuario del Generador de segmentos](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -64,7 +64,7 @@ El Generador de segmentos ahora debe mostrarse en su espacio de trabajo. Le perm
 
 El panel izquierdo lista todos los atributos, eventos y audiencias disponibles para su uso en la creación de reglas.
 
-Los campos enumerados son atributos capturados por la compañía y se han puesto a disposición a través del sistema [del Modelo de datos de](https://docs.adobe.com/content/help/es-ES/experience-platform/xdm/home.html)experiencia (XDM).
+Los campos enumerados son atributos capturados por la compañía y se han puesto a disposición a través del sistema [Modelo de datos de experiencia (XDM)](https://docs.adobe.com/content/help/es-ES/experience-platform/xdm/home.html).
 
 Los campos están organizados en fichas:
 
@@ -78,11 +78,11 @@ Los campos están organizados en fichas:
 
 >[!NOTE]
 >
->**La segmentación** de varias entidades permite ampliar los datos de Perfil con datos adicionales basados en productos, almacenes u otras clases que no sean de perfil. Una vez conectados, los datos de clases adicionales estarán disponibles como si fueran nativos del esquema de Perfil.
+>**La** segmentación de varias entidades permite ampliar los datos de Perfil con datos adicionales basados en productos, almacenes u otras clases que no sean de perfil. Una vez conectados, los datos de clases adicionales estarán disponibles como si fueran nativos del esquema de Perfil.
 >
 >Para obtener más información, consulte la [documentación dedicada](https://docs.adobe.com/content/help/en/experience-platform/segmentation/multi-entity-segmentation.html).
 
-De forma predeterminada, el Generador de segmentos muestra los campos en los que los datos ya están presentes. Para mostrar el esquema completo, incluidos los campos para los que no hay datos, active la **[!UICONTROL Show full XDM schema]** opción desde la configuración.
+De forma predeterminada, el Generador de segmentos muestra los campos en los que los datos ya están presentes. Para mostrar el esquema completo, incluidos los campos para los que no hay datos, habilite la opción **[!UICONTROL Show full XDM schema]** de la configuración.
 
 ![](assets/aep_audiences_populatedfields.png)
 
@@ -94,7 +94,7 @@ El símbolo al final de cada campo proporciona información adicional sobre el a
 
 >[!NOTE]
 >
->La sección siguiente proporciona información global sobre la definición de reglas. Para obtener más información sobre esto, consulte la guía [de usuario del Generador de](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)segmentos.
+>La sección siguiente proporciona información global sobre la definición de reglas. Para obtener más información sobre esto, consulte la [guía del usuario del Generador de segmentos](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
 
 Para crear una regla, siga estos pasos:
 
@@ -106,9 +106,9 @@ Para crear una regla, siga estos pasos:
 
    ![](assets/aep_audiences_malegender.png)
 
-   La población estimada correspondiente al segmento se vuelve a calcular automáticamente en la **[!UICONTROL Segment Properties]** sección.
+   La población estimada correspondiente al segmento se vuelve a calcular automáticamente en la sección **[!UICONTROL Segment Properties]**.
 
-1. El **[!UICONTROL View Profiles]** botón le proporciona una previsualización de los 20 primeros registros correspondientes a la regla, lo que le permite validar rápidamente el segmento.
+1. El botón **[!UICONTROL View Profiles]** le proporciona una previsualización de los primeros 20 registros correspondientes a la regla, lo que le permite validar rápidamente el segmento.
 
    ![](assets/aep_audiences_samplepreview.png)
 
@@ -132,7 +132,7 @@ Para ello, siga estos pasos:
 
 1. Seleccione el segundo campo (por ejemplo, el código postal de la dirección de trabajo) que se comparará con el primer campo.
 
-   Arrástrelo al espacio de trabajo central, en el mismo contenedor que el primer campo, en el **[!UICONTROL Drop here to compare operands]** cuadro.
+   Arrástrelo al espacio de trabajo central, en el mismo contenedor que el primer campo, en el cuadro **[!UICONTROL Drop here to compare operands]**.
 
    ![](assets/aep_audiences_comparing_2.png)
 
