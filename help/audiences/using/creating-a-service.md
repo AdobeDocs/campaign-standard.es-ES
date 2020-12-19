@@ -61,7 +61,7 @@ Una vez creado un servicio, puede empezar a promoverlo.
 * [Creación de una audiencia de suscriptores](../../audiences/using/creating-audiences.md#creating-list-audiences)
 * [Vinculación de una página de aterrizaje a un servicio](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)
 
-## Tutorial video {#video}
+## Videotutorial {#video}
 
 Este vídeo muestra cómo crear un servicio y administrar sus suscripciones.
 
