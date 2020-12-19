@@ -117,7 +117,7 @@ Esta es la lista de los componentes disponibles en el Diseñador de correo elect
 
 Si necesita utilizar varios botones, en lugar de editarlos desde cero, puede crear un duplicado del componente **[!UICONTROL Button]** mediante la barra de herramientas contextual.
 
-También puede guardar botones en fragmentos que se puedan reutilizar. Para obtener más información sobre esto, consulte [Creación de un fragmento de contenido](../../designing/using/using-reusable-content.md#creating-a-content-fragment) y [Almacenamiento de contenido como fragmento](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
+También puede guardar los botones en fragmentos que se pueden reutilizar. Para obtener más información sobre esto, consulte [Creación de un fragmento de contenido](../../designing/using/using-reusable-content.md#creating-a-content-fragment) y [Almacenamiento de contenido como fragmento](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
 
 Seleccione **[!UICONTROL Fallback view]** para mostrar la imagen de reserva en el Diseñador de correo electrónico.
 
