@@ -38,17 +38,17 @@ La inserción multilingüe requiere 14 columnas en el archivo CSV:
 1. language
 1. silentPush
 
-Compruebe el ejemplo de CSV haciendo clic en el **[!UICONTROL Download a sample file]** en la **[!UICONTROL Manage Content Variants]** ventana. For more on this, refer to the this [section](../../channels/using/creating-a-multilingual-push-notification.md).
+Compruebe el ejemplo de CSV haciendo clic en **[!UICONTROL Download a sample file]** en la ventana **[!UICONTROL Manage Content Variants]**. Para obtener más información sobre esto, consulte la [sección](../../channels/using/creating-a-multilingual-push-notification.md).
 
 * **title, messageBody, sound, badge, deeplinkURI, categoría, iosMediaAttachmentURL, androidMediaAttachmentURL**: contenido de carga útil push regular. Debe proporcionar esta información de una manera similar a cuando se crean envíos push.
-* **Campos** personalizados:  utilice el formato JSON para los campos personalizados, p. ej. `{"key1":"value1","key2":"value2"}`. Consulte el archivo de ejemplo anterior para ver un ejemplo de campos personalizados.
+* **Campos** personalizados: utilice el formato JSON para los campos personalizados, p. ej.  `{"key1":"value1","key2":"value2"}`. Consulte el archivo de ejemplo anterior para ver un ejemplo de campos personalizados.
 * **isContentAvailable**: marca para la comprobación de contenido disponible, el valor 1 implica verdadero, el valor 0 implica falso. El valor predeterminado es 0. Si deja esta columna en blanco, el valor se considerará 0.
 * **isMutableContent**: para Contenido mutable, el valor 1 implica verdadero, el valor 0 implica falso. El valor predeterminado es 0. Si deja esta columna en blanco, el valor se considerará 0.
 * **configuración regional**: locale es el campo para las variantes de idioma, por ejemplo: &quot;es_es&quot; para EE.UU.-inglés y &quot;fr_fr&quot; para Francia-francés.
 * **idioma**: nombre del idioma asociado con la configuración regional. Por ejemplo, si la configuración regional es &quot;en_us&quot;, el nombre del idioma debe ser &quot;Inglés-Estados Unidos&quot;.
 * **silentPush**: para el tipo de notificación push. Si es una notificación push regular, el valor debe ser 0. Si es una notificación push silenciosa, el valor debe ser 1. El valor predeterminado es 0. Si deja esta columna en blanco, el valor se considerará 0.
 
-## Restricciones y directrices para la creación del archivo csv {#constraints-guideline-csv}
+## Restricciones y pautas para la creación del archivo csv {#constraints-guideline-csv}
 
 **El nombre de cada columna es fijo**.
 Debe incluir el nombre de cada columna en el archivo CSV, si no utiliza ninguna columna para el contenido, déjela en blanco.
@@ -68,7 +68,7 @@ Un valor en blanco para esta columna provocará un error en la carga del archivo
 
 ## Inserción del campo de personalización en el archivo csv {#personalization-field-csv}
 
-Si desea utilizar campos de personalización, debe incluir <span> etiquetas en el archivo.
+Si desea utilizar campos de personalización, debe incluir la etiqueta <span> en el archivo.
 
 Para insertar el campo de personalización &quot;firstName&quot; en messageBody, el mensaje debe ser:
 
@@ -86,7 +86,7 @@ En el lapso hay dos atributos obligatorios:
 
 * Una es la clase que es estática. Independientemente del campo de personalización que planee utilizar, siempre será class=&quot;nl-dce-field nl-dce-done&quot;.
 
-* Otra es data-nl-expr, que es la ruta del campo de personalización. Por ejemplo, si inserta el campo de personalización &quot;firstName&quot; desde la interfaz de usuario, la ruta de navegación será **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]** (como se muestra en la imagen siguiente). En este caso, la ruta será
+* Otra es data-nl-expr, que es la ruta del campo de personalización. Por ejemplo, si inserta el campo de personalización &quot;firstName&quot; desde la interfaz de usuario, la ruta de navegación será **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]** (como se muestra en la siguiente imagen). En este caso, la ruta será
 
    ```
    /context/profile/firstName. data-nl-expr="/context/profile/firstName".
@@ -94,11 +94,11 @@ En el lapso hay dos atributos obligatorios:
 
 ![](assets/multilingual_push_2.png)
 
-## Configuración regional y nombres de idioma {#locale-language-names}
+## Nombres de configuración regional e idioma {#locale-language-names}
 
 Se admiten los siguientes idiomas:
 
-| locale | language |
+| locale | idioma |
 |:-:|:-:|
 | af_za | Afrikaans - Sudáfrica |
 | sq_al | Albanés - Albania |
