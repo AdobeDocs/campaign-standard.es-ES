@@ -658,7 +658,7 @@ Por estado lógico (byLogicalStatus)
 
 <table>
     <tr>
-    <th>Name</th>
+    <th>Nombre</th>
     <th>Tipo</th>
     </tr>
     <tr>
@@ -671,7 +671,7 @@ Por nombre o etiqueta (byText)
 
 <table>
     <tr>
-    <th>Name</th>
+    <th>Nombre</th>
     <th>Tipo</th>
     </tr>
     <tr>
@@ -684,7 +684,7 @@ Por estado (byState)
 
 <table>
     <tr>
-    <th>Name</th>
+    <th>Nombre</th>
     <th>Tipo</th>
     </tr>
     <tr>
@@ -697,7 +697,7 @@ Mediante el recurso de segmentación (byTargetResource)
 
 <table>
 <tr>
-<th>Name</th>
+<th>Nombre</th>
 <th>Tipo</th>
 </tr>
 <tr>
@@ -710,7 +710,7 @@ Incluir páginas de aterrizaje avanzadas (conAvanzado)
 
 <table>
     <tr>
-    <th>Name</th>
+    <th>Nombre</th>
     <th>Tipo</th>
     </tr>
     <tr>
@@ -723,7 +723,7 @@ Incluir envíos continuos de una lista heterogénea (conContinuo)
 
 <table>
         <tr>
-        <th>Name</th>
+        <th>Nombre</th>
         <th>Tipo</th>
         </tr>
         <tr>
@@ -736,7 +736,7 @@ Presente durante un período determinado (porCalendario)
 
 <table>
         <tr>
-        <th>Name</th>
+        <th>Nombre</th>
         <th>Tipo</th>
         </tr>
         <tr>
@@ -753,7 +753,7 @@ Publicado durante un período determinado (porPlanning)
 
 <table>
     <tr>
-    <th>Name</th>
+    <th>Nombre</th>
     <th>Tipo</th>
     </tr>
     <tr>
