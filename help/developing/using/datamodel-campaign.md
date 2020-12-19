@@ -193,7 +193,7 @@ Por estado lógico (byLogicalStatus)
 
 <table>
     <tr>
-    <th>Name</th>
+    <th>Nombre</th>
     <th>Tipo</th>
     </tr>
     <tr>
@@ -206,7 +206,7 @@ Por nombre o etiqueta (byText)
 
 <table>
     <tr>
-    <th>Name</th>
+    <th>Nombre</th>
     <th>Tipo</th>
     </tr>
     <tr>
@@ -219,7 +219,7 @@ Por período (por período)
 
 <table>
     <tr>
-    <th>Name</th>
+    <th>Nombre</th>
     <th>Tipo</th>
     </tr>
     <tr>
@@ -236,7 +236,7 @@ Por estado (byState)
 
 <table>
     <tr>
-    <th>Name</th>
+    <th>Nombre</th>
     <th>Tipo</th>
     </tr>
     <tr>
@@ -249,7 +249,7 @@ Incluir envíos continuos de una lista heterogénea (conContinuo)
 
 <table>
     <tr>
-    <th>Name</th>
+    <th>Nombre</th>
     <th>Tipo</th>
     </tr>
     <tr>
@@ -262,7 +262,7 @@ Planificado para el período determinado (porPlanning)
 
 <table>
     <tr>
-    <th>Name</th>
+    <th>Nombre</th>
     <th>Tipo</th>
     </tr>
     <tr>
@@ -279,7 +279,7 @@ Presente durante un período determinado (porCalendario)
 
 <table>
     <tr>
-    <th>Name</th>
+    <th>Nombre</th>
     <th>Tipo</th>
     </tr>
     <tr>
