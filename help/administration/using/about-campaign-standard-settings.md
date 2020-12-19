@@ -24,9 +24,9 @@ ht-degree: 9%
 * Configure asignaciones de destino para administrar la configuración técnica necesaria para enviar envíos,
 * Configure las notificaciones internas dentro de la aplicación, etc.
 
-Esta configuración está disponible en el menú **[!UICONTROL Administration]** / **[!UICONTROL Application settings]** .
+Esta configuración está disponible en el menú **[!UICONTROL Administration]** / **[!UICONTROL Application settings]**.
 
-Además, hay opciones técnicas disponibles en el **[!UICONTROL Options]** menú, lo que le permite configurar la aplicación de forma más específica. Algunos de ellos están integrados al instalar Campaña y otros se pueden agregar manualmente cuando sea necesario (las opciones disponibles varían según los paquetes instalados con la instancia).
+Además, las opciones técnicas están disponibles en el menú **[!UICONTROL Options]**, lo que le permite configurar la aplicación de forma más específica. Algunos de ellos están integrados al instalar Campaña y otros se pueden agregar manualmente cuando sea necesario (las opciones disponibles varían según los paquetes instalados con la instancia).
 
 >[!IMPORTANT]
 >
