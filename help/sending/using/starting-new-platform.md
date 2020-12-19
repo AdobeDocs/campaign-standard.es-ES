@@ -25,13 +25,13 @@ Comenzar a enviar correos electrónicos en una nueva plataforma es un paso impor
 No se puede esperar alcanzar la velocidad operativa en términos de salida al inicio de la fase de producción. Además, no debería intentar enviar mensajes a este ritmo, ya que podría llevar a los ISP a bloquear las direcciones de envío y comprometer seriamente el resto de la fase de inicio.
 
 El inicio de una plataforma suele ocurrir cuando se utiliza una lista de direcciones por primera vez y puede que no esté completamente cualificada. Si envía a direcciones no válidas o a direcciones de honeypot, esto contribuye a disminuir la reputación de la plataforma.
-* If you have a list of invalid addresses, it is in your best interests to import it into the quarantine table (**[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Quarantines]** > **[!UICONTROL Addresses]**) before sending for the first times. Para obtener más información, consulte esta [sección](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform).
+* Si tiene una lista de direcciones no válidas, lo más conveniente es importarlas a la tabla de cuarentenas (**[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Quarantines]** > **[!UICONTROL Addresses]**) antes de enviarlas por primera vez. Para obtener más información, consulte esta [sección](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform).
 * Si, al mismo tiempo, desea recalificar las direcciones no válidas, es preferible hacerlo una vez que se establezca la reputación de la plataforma y poco a poco para &quot;diluir&quot; el uso de direcciones incorrectas con el tiempo.
 
 Resumir los principios que deben seguirse al iniciar:
-* **Configure un subdominio** dedicado para que funcione con una Campaña específica para las campañas de correo electrónico enviadas desde Adobe.
-* **Importe direcciones no válidas o inactivas en la tabla** de cuarentena (si tiene esta información).
-* **Limitar la velocidad de rendimiento** del envío (configuración técnica: limitar el número de equipos).
+* **Configure un** subdominio dedicado para que funcione con Campaña específica de las campañas de correo electrónico enviadas desde Adobe.
+* **Importe direcciones no válidas o inactivas en la tabla**  de cuarentena (si tiene esta información).
+* **Limitar la** velocidad de envío (configuración técnica: limitar el número de equipos).
 * **Aumente progresivamente los volúmenes enviados**: no destinatario toda la base de datos desde el mismo inicio, sino que agrega una fracción adicional de la lista cada vez que envía. Esto debería permitirle aumentar el volumen en cada paso y reducir al mismo tiempo la tasa global de direcciones no válidas.
 * **Enviar mensajes regularmente**: hasta cierto punto es mejor enviar pequeñas tomas con regularidad en lugar de grandes campañas esporádicamente.
 * **Monitorear de cerca los informes de envío**: los indicadores de error altos pueden significar que una configuración técnica está mal configurada.
