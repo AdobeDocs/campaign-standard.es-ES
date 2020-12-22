@@ -8,17 +8,17 @@ content-type: reference
 topic-tags: list-of-reports
 context-tags: bounceReport,main;campaignCirculationReport,main;programCirculationReport,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2bc5eae996dfa3ecdde3540f3a4f759c668e93ec
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 8%
+source-wordcount: '277'
+ht-degree: 1%
 
 ---
 
 
 # Resumen de devoluciones{#bounce-summary}
 
-Este informe detalla los errores generales, tanto los errores graves como los leves que se han encontrado durante las entregas, así como el procesamiento automático de las devoluciones.
+Este informe detalla los errores generales de hardware y software que se encontraron durante los envíos, así como el procesamiento automático de devoluciones (consulte [Explicación de los errores de envío](../../sending/using/understanding-delivery-failures.md)).
 
 ![](assets/campaign_reports_bounces.png)
 
