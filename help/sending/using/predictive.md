@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 127964c5360344c83dc5ad6a0e2e8523d8995739
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 100%
+source-wordcount: '1064'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Campaign Standard ofrece dos nuevos modelos de aprendizaje automático: **
 >[!CAUTION]
 >Esta capacidad no está disponible de forma predeterminada como parte del producto. La implementación requiere la participación de Adobe Consulting. Póngase en contacto con el representante de su Adobe para obtener más información.
 >
->La función requiere el uso de un almacenamiento de Azure que debe proporcionar el cliente.
+>La función requiere el uso de un almacenamiento de Azure o Amazon S3 que debe proporcionar el cliente.
 
 ## Optimización del tiempo de envío predictivo{#predictive-send-time}
 
