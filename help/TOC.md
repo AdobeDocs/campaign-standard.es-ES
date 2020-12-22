@@ -7,10 +7,10 @@ user-guide-description: 'Centro de ayuda para las principales características, 
 breadcrumb-title: Campaign Standard
 title: Guía del Campaign Standard
 translation-type: tm+mt
-source-git-commit: 642b916369433d9a7a23d818e94f5e189a1c8596
+source-git-commit: b5f982ee320cb98174153a53fe8f28b4b6c31790
 workflow-type: tm+mt
-source-wordcount: '1696'
-ht-degree: 100%
+source-wordcount: '1710'
+ht-degree: 99%
 
 ---
 
@@ -152,6 +152,7 @@ ht-degree: 100%
       + [Edición de correos electrónicos de texto sin formato, HTML y móviles](designing/using/plain-text-html-modes.md)
       + [Conversión de correos electrónicos del Editor heredado al Diseñador de correo electrónico](designing/using/converting-emails-from-legacy-editor.md)
    + [Personalización del contenido del correo electrónico](designing/using/personalization.md)
+   + [Uso de listados de productos](designing/using/using-product-listings.md)
    + [Administración de estilos de correo electrónico](designing/using/styles.md)
    + [Administración de vínculos](designing/using/links.md)
    + [Administración de imágenes](designing/using/images.md)
@@ -435,7 +436,6 @@ ht-degree: 100%
    + Configuración de canales {#configuring-channels}
       + [Acerca de la configuración de canales](administration/using/about-channel-configuration.md)
       + [Configuración de canales de correo electrónico](administration/using/configuring-email-channel.md)
-      + [Configuración de canales de SMS](administration/using/configuring-sms-channel.md)
       + [Configuración de una aplicación móvil](administration/using/configuring-a-mobile-application.md)
    + Configuración de canales móviles {#configuring-mobile}
       + [Implementación del seguimiento push](administration/using/push-tracking.md)
@@ -446,6 +446,10 @@ ht-degree: 100%
       + [Preguntas más frecuentes sobre la integración del SDK de Experience Platform](administration/using/aep-faq.md)
       + [Configuración de reglas de Experience Platform Launch para admitir casos de uso de Adobe Campaign Standard](administration/using/configuring-rules-launch.md)
       + [Casos de uso móvil admitidos en Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
+   + Configuración de canales de SMS {#configuring-sms}
+      + [Implementación del canal SMS](administration/using/configuring-sms-channel.md)
+      + [Configuración y protocolo del conector SMS](administration/using/sms-protocol.md)
+      + [Solución de problemas de SMS](administration/using/troubleshooting-sms.md)
    + Ajustes de la aplicación {#application-settings}
       + [Acerca de la configuración de Campaign Standard](administration/using/about-campaign-standard-settings.md)
       + [Cuentas externas](administration/using/external-accounts.md)
