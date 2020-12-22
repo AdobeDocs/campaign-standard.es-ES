@@ -7,7 +7,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
+source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 6%
@@ -50,7 +50,7 @@ El contenido del correo electrónico se puede editar en el Experience Manager y 
 >title="Uso de listados de productos"
 >abstract="Las listas de productos le permiten hacer referencia a una colección de datos y mostrarla en el contenido del correo electrónico."
 
-Las listas de productos le permiten hacer referencia a una o varias colecciones de datos en el contenido del correo electrónico. Estos listados están disponibles para correos electrónicos transaccionales. Una sección dedicada para esta función está disponible [aquí](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message).
+Las listas de productos le permiten hacer referencia a una o varias colecciones de datos en el contenido del correo electrónico. Estos listados están disponibles para correos electrónicos transaccionales. Una sección dedicada para esta función está disponible [aquí](../../designing/using/using-product-listings.md).
 
 ## Comparación de opciones de diseño de correo electrónico {#email-design-options-comparison}
 
