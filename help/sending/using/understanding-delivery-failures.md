@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 46bcdeec3731a7da12997cb195195fecfa2f84e5
 workflow-type: tm+mt
-source-wordcount: '1285'
-ht-degree: 88%
+source-wordcount: '1299'
+ht-degree: 87%
 
 ---
 
@@ -77,6 +77,7 @@ Los posibles motivos de un error de entrega son:
 Si un mensaje falla debido a un error temporal del tipo **Ignorado** , se realizarán reintentos durante la entrega. Para obtener más información sobre los tipos de errores, consulte [Tipos y motivos de errores de entrega](#delivery-failure-types-and-reasons).
 
 El número de reintentos (cuántos reintentos se deben realizar el día siguiente después de iniciar la entrega) y el retraso mínimo entre reintentos ahora son administrados por el MTA mejorado de Adobe Campaign, en función del rendimiento histórico y actual de una IP en un dominio determinado. La configuración de **Reintentos** en Campaign se ignora.
+Tenga en cuenta que MTA mejorado de Adobe Campaign no está disponible para el canal push.
 
 Para modificar la duración de una entrega, vaya a los parámetros avanzados de la entrega o la plantilla de entrega y edite el campo **[!UICONTROL Delivery duration]** de la sección [Periodo de validez](../../administration/using/configuring-email-channel.md#validity-period-parameters).
 
