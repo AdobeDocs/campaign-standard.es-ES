@@ -7,7 +7,7 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 6ac2a2d5b2a0924847e54068145d6def22f8023f
+source-git-commit: 458517259c6668e08a25f8c3cd3f193f27e536fb
 workflow-type: tm+mt
 source-wordcount: '8382'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Al enviar SMS masivos a través de un proveedor de SMS, te encontrarás con tres
 
 Debe distinguir entre reconocimientos (RESP PDU, parte del protocolo SMPP) y SR: SR es un tipo de SMS que se envía a través de la red de extremo a extremo, mientras que un reconocimiento es sólo una confirmación de que una transferencia ha sido exitosa.
 
-Tanto las confirmaciones como SR pueden desencadenar errores, si se distinguen entre ambas, se ayudará a solucionar problemas.
+Tanto los reconocimientos como SR pueden déclencheur errores, si se distinguen entre los dos se ayudará a solucionar los problemas.
 
 ### Información transmitida por un SMS {#information-sms}
 
@@ -104,11 +104,11 @@ En el modo separado **Transmisor+receptor**, la conexión utilizada depende del 
 
 Por ejemplo, al enviar un mensaje MT, se utiliza la conexión del transmisor y el `RESP` que reconoce el mensaje MT también se envía a través del canal del transmisor. Cuando recibe un MO (o un SR), la conexión del receptor se utiliza para recibir el MO y para enviar el `RESP` que reconoce el MO.
 
-![](assets/sms_protocol_1.png)
+![](assets/do-not-localize/sms_protocol_1.png)
 
 En Adobe Campaign Standard, la reconciliación MT y SR es nativa del MTA, por lo que no hay ningún proceso SMS dedicado.
 
-Un `SUBMIT_SM_RESP PDU` correcto desencadena el estado del mensaje &quot;enviado&quot; en el registro de envío mientras que un `DELIVER_SM (SR) PDU` correcto desencadena el estado del mensaje &quot;recibido&quot;.
+Un `SUBMIT_SM_RESP PDU` déclencheur correctamente el estado del mensaje &quot;enviado&quot; en el registro de envío, mientras que un `DELIVER_SM (SR) PDU` déclencheur correctamente el estado del mensaje &quot;recibido&quot;.
 
 ### Aspectos de seguridad {#security-aspects}
 
@@ -500,7 +500,7 @@ La ventana es el número de `SUBMIT_SM PDU`s que se puede enviar sin esperar a q
 
 Ejemplo de una caja de cambios con una ventana máxima de 4:
 
-![](assets/sms_protocol_2.png)
+![](assets/do-not-localize/sms_protocol_2.png)
 
 La ventana ayuda a aumentar el rendimiento cuando el vínculo de red tiene una latencia alta.  El valor de la ventana debe ser al menos el número de SMS/s multiplicado por la latencia del vínculo en segundos, de modo que el conector nunca está esperando un `SUBMIT_SM_RESP` antes de enviar el siguiente mensaje.
 Si la ventana es demasiado grande, puede enviar más mensajes de duplicado en caso de problemas de conexión. Además, la mayoría de los proveedores tienen un límite muy estricto para la ventana y rechazan los mensajes que sobrepasan el límite.
@@ -636,7 +636,7 @@ De forma predeterminada, captura hasta 10 caracteres alfanuméricos después de 
 
 El regex debe tener exactamente un grupo de captura con una parte incluida entre paréntesis. Los paréntesis deben rodear la parte de ID. El formato regex es PCRE.
 
-Al ajustar esta configuración, asegúrese de incluir el mayor contexto posible para evitar falsos activadores. Si hay prefijos específicos, como `id:` en el estándar, inclúyalos en el regex. Utilice también delimitadores de palabras (\b) tanto como sea posible para evitar capturar texto en medio de una palabra.
+Al ajustar esta configuración, asegúrese de incluir el mayor contexto posible para evitar déclencheur falsos. Si hay prefijos específicos, como `id:` en el estándar, inclúyalos en el regex. Utilice también delimitadores de palabras (\b) tanto como sea posible para evitar capturar texto en medio de una palabra.
 
 No incluir suficiente contexto en el regex puede introducir un pequeño defecto de seguridad: el contenido real del mensaje puede incluirse en el SR. Si solo coincide con un formato de ID específico sin contexto, por ejemplo, un UUID, es posible que esté analizando el contenido de texto real, por ejemplo, un UUID incrustado en el campo de texto, en lugar del ID.
 
@@ -702,7 +702,7 @@ Esta configuración solo permite agregar una opción TLV por mensaje.
 
 Esta función permite responder texto rápidamente a MO y controlar el envío de código por corto a la lista de bloqueados.
 
-Las columnas **Palabra clave** y **Código corto** definen condiciones para activar la respuesta automática. Si coinciden ambos campos, se envía el objeto MO y se activa la acción adicional. Para especificar un comodín, debe dejar el campo vacío. La palabra clave coincide con la primera palabra alfanumérica del texto MO, omitiendo la puntuación y los espacios iniciales. Significa que el campo **Palabra clave** no puede contener espacios y debe ser una sola palabra.
+Las columnas **Palabra clave** y **Código corto** definen condiciones para el déclencheur de la respuesta automática. Si coinciden ambos campos, se envía el objeto MO y se activa la acción adicional. Para especificar un comodín, debe dejar el campo vacío. La palabra clave coincide con la primera palabra alfanumérica del texto MO, omitiendo la puntuación y los espacios iniciales. Significa que el campo **Palabra clave** no puede contener espacios y debe ser una sola palabra.
 
 La configuración **palabra clave** es un prefijo. Por ejemplo, si especifica &quot;AD&quot;, coincidirá con &quot;AD&quot;, &quot;ADAPT&quot; y &quot;ADOBE&quot;. Si tiene varias palabras clave con un prefijo común, debe prestar atención al pedido, ya que las palabras clave se procesan de arriba abajo.
 
@@ -758,7 +758,7 @@ El período de validez se transmite en el campo `validity_period` del `SUBMIT_SM
 
 ## Conector SMPP {#ACS-SMPP-connector}
 
-![](assets/sms_protocol_3.png)
+![](assets/do-not-localize/sms_protocol_3.png)
 
 Las flechas representan el flujo de datos.
 
