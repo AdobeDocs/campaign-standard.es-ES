@@ -5,11 +5,11 @@ product: campaign
 title: Documentación del producto de Adobe Campaign Standard
 description: Documentación del producto de Adobe Campaign Standard
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 74645dbd3ae24be49475be7ec50d0d3464823ec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '234'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 86%
 
 ## Novedades
 
-* **[Actualización de devoluciones ](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> incorrectasObtenga información sobre cómo actualizar devoluciones incorrectas tras la interrupción de Gmail
+* **[Actualización de devoluciones incorrectas](https://helpx.adobe.com/es/campaign/kb/update-bounce-qualification.html)**<br/> Obtenga información sobre cómo actualizar devoluciones incorrectas tras la interrupción de Gmail
 
-* **[Planificación ](rn/using/release-planning.md)**<br/> de la versiónLas próximas fechas de la versión de febrero de 2021 se han añadido a la planificación de la versión
+* **[Plan de lanzamiento](rn/using/release-planning.md)**<br/> Las fechas de la próxima versión de febrero de 2021 se han añadido al plan de lanzamiento
 
 * **[Grupos de control](sending/using/control-group.md)**<br/>
 Miden el impacto de sus campañas al excluir una parte de su audiencia.
@@ -33,7 +33,7 @@ Optimizan el diseño y el envío con correos electrónicos con tecnología de IA
 * **[API externa](automating/using/external-api.md)**<br/>
 Utilizan la actividad de API externa para introducir datos en el flujo de trabajo desde un sistema externo.
 
-* **[Introducción a los envíos móviles](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>
+* **[Introducción a los envíos móviles](https://helpx.adobe.com/es/campaign/kb/acs-mobile.html)**<br/>
 Obtenga más información sobre las directrices generales para envíos móviles (SMS, push, en la aplicación).
 
 [Más actualizaciones](rn/using/documentation-updates.md)
@@ -82,4 +82,4 @@ Obtenga más información sobre las directrices generales para envíos móviles 
 | [Guía de implementación](https://helpx.adobe.com/es/campaign/kb/campaign-standard-implementation-guide.html) | [Lista de mensajes de error](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Planificación de versiones](rn/using/release-planning.md) | [Modelo de datos de Campaign](developing/using/datamodel-introduction.md) |
 | [Funciones obsoletas y eliminadas](rn/using/deprecated-features.md) | [Guía de varias soluciones](integrating/using/get-started-campaign-integrations.md) |
-| [Introducción a Campaign Standard](start/using/about-campaign-standard.md) | [Notas técnicas](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |
+| [Introducción a Campaign Standard](start/using/about-campaign-standard.md) | [Notas técnicas](https://helpx.adobe.com/es/campaign/kb/acs-article-list.html) |
