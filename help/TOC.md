@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Centro de ayuda para las principales características, tareas, configuraciones y otros recursos necesarios para utilizar Campaign Standard. '
 breadcrumb-title: Campaign Standard
 title: Guía del Campaign Standard
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b5f982ee320cb98174153a53fe8f28b4b6c31790
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1710'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 99%
       + [Plantillas de mensajes multilingües](channels/using/multilingual-messages-template.md)
    + Prácticas recomendadas relacionadas con las entregas {#delivery-bestpractices}
       + [Conozca las prácticas recomendadas](sending/using/delivery-best-practices.md)
-      + [Optimización del envío](sending/using/optimize-delivery.md)
+      + [Optimización de las entregas](sending/using/optimize-delivery.md)
       + [Uso de plantillas](sending/using/use-templates.md)
       + [Creación de contenido personalizado](sending/using/design-and-personalize.md)
       + [Definición de la audiencia correcta](sending/using/define-the-right-audience.md)
@@ -446,7 +446,7 @@ ht-degree: 99%
       + [Preguntas más frecuentes sobre la integración del SDK de Experience Platform](administration/using/aep-faq.md)
       + [Configuración de reglas de Experience Platform Launch para admitir casos de uso de Adobe Campaign Standard](administration/using/configuring-rules-launch.md)
       + [Casos de uso móvil admitidos en Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
-   + Configuración de canales de SMS {#configuring-sms}
+   + Configuración del canal SMS {#configuring-sms}
       + [Implementación del canal SMS](administration/using/configuring-sms-channel.md)
       + [Configuración y protocolo del conector SMS](administration/using/sms-protocol.md)
       + [Solución de problemas de SMS](administration/using/troubleshooting-sms.md)
