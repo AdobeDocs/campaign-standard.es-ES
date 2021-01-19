@@ -18,7 +18,7 @@ ht-degree: 98%
 
 # Acerca del correo postal{#about-direct-mail}
 
-El correo postal es un canal sin conexión que le permite personalizar y generar el archivo requerido por los proveedores de correo postal. Esto le ofrece la posibilidad de mezclar canales en línea y sin conexión para los viajes de los clientes.
+El correo postal es un canal sin conexión que le permite personalizar y generar el archivo requerido por los proveedores de correo postal. Esto le ofrece la posibilidad de mezclar canales en línea y sin conexión para los recorridos de los clientes.
 
 >[!NOTE]
 >
