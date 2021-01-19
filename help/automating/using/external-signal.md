@@ -26,7 +26,7 @@ La actividad **[!UICONTROL External signal]** desencadena un flujo de trabajo cu
 
 ## Contexto de uso {#context-of-use}
 
-La actividad **[!UICONTROL External signal]** se utiliza para organizar y orquestar diferentes procesos que forman parte del mismo viaje del cliente a diferentes flujos de trabajo. Permite el inicio de un flujo de trabajo desde otro, lo que permite soportar viajes de clientes más complejos, mientras que se puede supervisar y reaccionar mejor en caso de problemas.
+La actividad **[!UICONTROL External signal]** se utiliza para organizar y orquestar diferentes procesos que forman parte del mismo recorrido del cliente a diferentes flujos de trabajo. Permite el inicio de un flujo de trabajo desde otro, lo que permite recorridos de clientes más complejos, mientras que se puede supervisar y reaccionar mejor en caso de problemas.
 
 La actividad **[!UICONTROL External signal]** está diseñada para colocarse como la primera actividad de un flujo de trabajo. Se puede activar a partir de la actividad **[!UICONTROL End]** de otro flujo de trabajo o de una llamada de API de REST (para obtener más información, consulte la [documentación de la API](../../api/using/triggering-a-signal-activity.md)).
 
