@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
+source-git-commit: 16f937fc34783f22a0c118bb5e2e3f39abb85615
 workflow-type: tm+mt
-source-wordcount: '7623'
+source-wordcount: '7607'
 ht-degree: 9%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 9%
   <tr> 
    <td> 
     <p>Ya está disponible la integración entre Adobe Campaign Standard y Microsoft Dynamics 365. Podrá transferir los registros de contacto y de entidad personalizada de Dynamics 365 a Campaña y recuperar los datos de evento de correo electrónico de Campaña a Dynamics 365 para mejorar la alineación de ventas y marketing.</p>
-    <p>Consulte la <a href="../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md">documentación detallada</a> para configurar esta integración y la vista del <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/campaign-and-microsoft-dynamics-365/working-with-campaign-standard-and-microsoft-dynamics-365.html">vídeo de procedimientos</a>.</p>
+    <p>Consulte la <a href="../../integrating/using/d365-acs-get-started.md">documentación detallada</a> para configurar esta integración.</p>
   </td>
   </tr> 
  </tbody> 
@@ -121,7 +121,7 @@ ht-degree: 9%
 **Parches**
 
 * Se ha corregido un problema que impedía que los informes programados se ordenaran o buscaran.
-* Se ha corregido un problema con las reglas de activadores que hacía que las reglas Y y O se mezclaran.
+* Se ha corregido un problema con las reglas de Déclencheur que provocaba que las reglas Y y O se mezclaran.
 * Se ha corregido un problema que mostraba la propiedad Móvil como Eliminado en Inicio. (CAMP-35382)
 * Se ha corregido un problema que impedía que las propiedades móviles de Inicio de Adobe se sincronizaran en Adobe Campaign. (CAMP-35411, CAMP-35089, CAMP-35014, CAMP-35487)
 * Se corrigió un problema en el cual los mensajes push transaccionales fallaban cuando los eventos se enriquecieron con datos de perfil. (CAMP-34385)
@@ -225,7 +225,7 @@ ht-degree: 9%
 **Parches**
 
 * Se ha corregido un problema que podía provocar errores en las solicitudes de acceso de RGPD.
-* Se ha corregido un problema que podía hacer que se descartaran los activadores cuando se recibían varios activadores para un perfil único.
+* Se ha corregido un problema que podía provocar que se descartaran déclencheur cuando se recibían varios déclencheur para un perfil único.
 * Se ha corregido un problema que podía generar un mensaje de error de publicación de recursos personalizados erróneo después del inicio de sesión.
 * Se ha corregido un problema que mostraba una página en blanco al crear o ampliar un recurso personalizado.
 * Se ha corregido un problema que impedía que una audiencia con appSubscriptionrcp como dimensión de segmentación estuviera disponible para la segmentación en un envío móvil.
@@ -362,7 +362,7 @@ Se han añadido varias mejoras al canal de mensajería transaccional para optimi
 * Se ha agregado una nueva opción a la cuenta externa SMS. Permite limitar el número máximo de procesos MTA que envían SMS para controlar mejor el número de conexiones paralelas. Para obtener más información, consulte la nota técnica [Configuración y protocolo del conector SMS](https://helpx.adobe.com/es/campaign/kb/sms-connector-protocol-and-settings.html).
 * Al publicar un recurso con extensión API, si la API ya se ha publicado, ahora se actualiza automáticamente cada vez que se vuelve a publicar. Anteriormente, esta acción era manual y si no se actualizaba la API se podía dañar el perfil o el recurso de servicio de esta API. Para obtener más información sobre esto, consulte la [documentación detallada](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension).
 * La dimensión de código postal se ha eliminado del Sistema de informes dinámico. En su lugar, se recomienda usar dimensiones de ciudad, país y estado.
-* Se ha eliminado el activador del evento del ciclo vital de &quot;primer inicio&quot; para los mensajes en la aplicación.
+* Se ha eliminado el déclencheur de evento del ciclo vital de &quot;primer inicio&quot; para los mensajes en la aplicación.
 * Al exportar un paquete con grupos de seguridad, ahora contiene las funciones asignadas a cada grupo. (CAMP-32960)
 * En la actividad Cargar archivo, una nueva opción le permite comprobar que las columnas del archivo que está cargando coinciden con la definición de la columna. Para obtener más información, consulte la [documentación detallada](../../automating/using/load-file.md). (CAMP-32229)
 * Ahora, los flujos de trabajo se pueden iniciar con una carga útil, lo que le permite utilizar y compartir parámetros externos entre actividades dentro del flujo de trabajo. Para obtener más información, consulte la [documentación detallada](../../automating/using/calling-a-workflow-with-external-parameters.md). (CAMP-29412 y CAMP-29413)
@@ -550,7 +550,7 @@ Se han añadido varias mejoras al canal de mensajería transaccional para optimi
    <td> <p>La función Beta de mensajería en la aplicación se ha mejorado con las siguientes capacidades:</p> 
     <ul> 
      <li> El canal beta en la aplicación es compatible con GDPR </li> 
-     <li> Integración con las API de Analytics para rellenar los menús desplegables Desencadenadores </li> 
+     <li> Integración con las API de Analytics para rellenar listas desplegables de Déclencheur </li> 
      <li> Aspecto intuitivo y descripción de Plantillas de envíos </li> 
      <li> Mejoras en la interfaz de creación desde el punto de vista de la facilidad de uso </li> 
     </ul> <p>Para obtener más información, consulte la <a href="../../channels/using/about-in-app-messaging.md">documentación detallada</a>.</p> </td> 
@@ -596,7 +596,7 @@ Se han añadido varias mejoras al canal de mensajería transaccional para optimi
 * Se ha corregido un problema en la actividad de transferencia de archivos que se podía producir al actualizar la configuración de cuenta externa. (CAMP-28894)
 * Se ha corregido un problema con los filtros personalizados en el editor de consultas al usar la condición &quot;Correo electrónico no está vacío&quot;. (CAMP-28741)
 * Se ha corregido un problema que se podía producir al exportar tablas de recursos personalizados con más de 100.000 registros. (CAMP-28150)
-* Se ha corregido un problema que impedía eliminar mensajes transaccionales vinculados a activadores. (CAMP-28385)
+* Se ha corregido un problema que impedía eliminar mensajes transaccionales vinculados a déclencheur. (CAMP-28385)
 * Se han eliminado contraseñas que se mostraban en algunos registros SMS.
 * Se ha corregido un problema que provocaba que las conexiones al simulador SMPP fallaran debido a una contraseña vacía enviada por Adobe Campaign.
 * Se ha corregido un problema que impedía enviar campañas cuando las conexiones SMS eran inestables.
