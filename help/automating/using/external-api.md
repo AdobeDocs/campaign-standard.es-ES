@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 translation-type: tm+mt
-source-git-commit: 79e0b945e2c34bc396b7852851df848a76d62979
+source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
 workflow-type: tm+mt
 source-wordcount: '2156'
 ht-degree: 98%
@@ -114,7 +114,7 @@ Si se **valida el análisis**, aparece un mensaje que le invita a personalizar l
 
 ### Ejecución
 
-Esta pestaña permite definir el extremo de la conexión. El campo **[!UICONTROL URL]** permite definir el **extremo HTTPS** que enviará datos a ACS.
+Esta pestaña permite definir el extremo de la conexión. El campo **[!UICONTROL URL]** permite definir el **extremo HTTPS** que enviará los datos a la Campaña.
 
 Si lo necesita el extremo, hay dos tipos de método de autenticación disponibles.
 
