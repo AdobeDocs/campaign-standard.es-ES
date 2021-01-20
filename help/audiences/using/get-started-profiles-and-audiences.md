@@ -7,7 +7,7 @@ audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 23%
@@ -86,7 +86,7 @@ La privacidad y el consentimiento en Campaña y cómo administrarlos se presenta
 ## Recursos adicionales
 
 * [Uso del servicio Destinos de Audiencia](../../audiences/using/aep-about-audience-destinations-service.md)
-* [Uso de Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+* [Uso de Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
 * [Audiencias compartidas de Adobe](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [Uso de flujos de trabajo para importar perfiles](../../automating/using/creating-import-workflow-templates.md)
 * [Vídeos de perfiles y audiencias](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
