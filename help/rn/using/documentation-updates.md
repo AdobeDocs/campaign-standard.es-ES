@@ -6,9 +6,9 @@ description: Obtenga información sobre las últimas actualizaciones de la docum
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-translation-type: ht
-source-git-commit: 77abbdf824be705b0a3409442e45d28dc0abaa2f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 16f937fc34783f22a0c118bb5e2e3f39abb85615
+workflow-type: tm+mt
 source-wordcount: '6372'
 ht-degree: 100%
 
@@ -73,7 +73,7 @@ Se ha agregado una nota de precaución para advertir a los usuarios sobre la lim
 
 Se ha añadido una nueva sección para detallar el proceso de creación de una nueva marca. [Más información](../../administration/using/branding.md#creating-a-brand)
 
-Ya está disponible la nueva integración de Campaign Standard con Microsoft Dynamics 365. [Más información](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+Ya está disponible la nueva integración de Campaign Standard con Microsoft Dynamics 365. [Más información](../../integrating/using/d365-acs-get-started.md)
 
 Se ha agregado información sobre las fuentes anónimas en el informe Perfiles activos. [Más información](../../audiences/using/active-profiles.md)
 
@@ -109,7 +109,7 @@ Las referencias al sitio web de asistencia heredado se han sustituido por la nue
 
 La configuración de la cuenta Litmus personalizada se ha eliminado de la capacidad de procesamiento de la Bandeja de entrada. [Más información](../../sending/using/email-rendering.md)
 
-La integración de Campaign Standard con Microsoft Dynamics 365 no está disponible actualmente. Se está desarrollando un nuevo conector que estará disponible en el futuro. Se han eliminado las páginas de ayuda relacionadas. [Más información](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+La integración de Campaign Standard con Microsoft Dynamics 365 no está disponible actualmente. Se está desarrollando un nuevo conector que estará disponible en el futuro. Se han eliminado las páginas de ayuda relacionadas. [Más información](../../integrating/using/d365-acs-get-started.md)
 
 ## Mayo 2020 {#doc-updates-may-2020}
 
@@ -141,7 +141,7 @@ Se ha añadido una sección de preguntas frecuentes sobre el Diseñador de corre
 
 ## de abril de 2020 {#doc-updates-april-2020}
 
-La integración de Microsoft Dynamics 365 con la documentación de Adobe Campaign Standard ya está disponible en la documentación principal. [Más información](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+La integración de Microsoft Dynamics 365 con la documentación de Adobe Campaign Standard ya está disponible en la documentación principal. [Más información](../../integrating/using/d365-acs-get-started.md)
 
 Se han añadido recursos adicionales a la página de inicio de documentación. [Más información](../../campaign-standard-home.md)
 
@@ -217,7 +217,7 @@ Audience Destinations (versión beta): [Más información](../../audiences/using
 
 **Otras actualizaciones de la documentación incluidas en la versión**
 
-La documentación de administración de la privacidad se ha actualizado con información sobre cómo crear el campo de exclusión de CCPA para los recursos de perfil personalizados. [Más información](https://helpx.adobe.com/content/help/es/campaign/kb/acs-privacy.html)
+La documentación de administración de la privacidad se ha actualizado con información sobre cómo crear el campo de exclusión de CCPA para los recursos de perfil personalizados. [Más información](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html)
 
 Las Notas de la versión se han reorganizado y mejorado. [Más información](../../rn/using/release-notes.md)
 
@@ -283,7 +283,7 @@ El nuevo extremo **/customResources** de la API se ha agregado a la documentaci�
 
 California Consumer Privacy Act (CCPA): [Más información](https://helpx.adobe.com/es/content/help/es-ES/campaign/kb/acs-privacy.html#ccpa)
 
-Integración de Microsoft Dynamics 365 (GA): [Más información](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+Integración de Microsoft Dynamics 365 (GA): [Más información](../../integrating/using/d365-acs-get-started.md)
 
 **Otras actualizaciones de la documentación incluidas en la versión**
 
@@ -317,7 +317,7 @@ Se ha añadido un nuevo ejemplo que muestra cómo enviar un correo electrónico 
 
 Se ha añadido una nueva sección sobre cómo utilizar trampas. [Más información](../../sending/using/using-traps.md).
 
-Se ha añadido una nota sobre la opción **Launch_URL_Campaign** en la página sobre cómo configurar una aplicación móvil con los SDK de Adobe Experience Platform. [Más información](https://helpx.adobe.com/es/campaign/kb/configuring-app-sdk.html)
+Se ha añadido una nota sobre la opción **Launch_URL_Campaign** en la página sobre cómo configurar una aplicación móvil con los SDK de Adobe Experience Platform. [Más información](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
 Se ha reorganizado la guía del Diseñador de correo electrónico. [Más información](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -345,7 +345,7 @@ Informe sobre el segmento de flujo de trabajo: [Más información](../../reporti
 
 La Guía de implementación de Campaign Standard ya está activa.[Más información](https://helpx.adobe.com/es/campaign/kb/campaign-standard-implementation-guide.html)
 
-Se ha creado un conjunto de nuevos artículos de ayuda sobre la implementación y el uso del conector de Microsoft Dynamics 365. Tenga en cuenta que esta función se encuentra actualmente en disponibilidad limitada.[Más información](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+Se ha creado un conjunto de nuevos artículos de ayuda sobre la implementación y el uso del conector de Microsoft Dynamics 365. Tenga en cuenta que esta función se encuentra actualmente en disponibilidad limitada.[Más información](../../integrating/using/d365-acs-get-started.md)
 
 Se ha añadido una nota en la sección [Invocación de un flujo de trabajo con parámetros](../../automating/using/calling-a-workflow-with-external-parameters.md) sobre la preparación de entregas y su periodo de agregación.
 
@@ -389,7 +389,7 @@ Se ha añadido una advertencia en la documentación de recursos personalizada. S
 
 **Nuevas funciones incluidas en la versión**
 
-Panel de control: [Más información](https://docs.adobe.com/content/help/es-ES/control-panel/using/control-panel-home.html)
+Panel de control: [Más información](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 
 Notificaciones locales: [Más información](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
@@ -543,9 +543,9 @@ Se ha añadido información sobre la nueva opción de la actividad de extracció
 
 La sección Configuración de una aplicación móvil mediante el SDK V4 se ha movido [aquí](https://helpx.adobe.com/es/campaign/kb/configuring-app-sdkv4.html).
 
-La sección Configuración de una aplicación móvil mediante el SDK de Adobe Experience Platform se ha movido [aquí](https://helpx.adobe.com/es/campaign/kb/configuring-app-sdk.html).
+La sección Configuración de una aplicación móvil mediante el SDK de Adobe Experience Platform se ha movido [aquí](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
-Los vídeos se han actualizado y movido [aquí](https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/overview.translate.html).
+Los vídeos se han actualizado y movido [aquí](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html).
 
 Se ha actualizado la sección Tipo de usuarios. [Más información](../../administration/using/users-management.md)
 
@@ -575,7 +575,7 @@ Importación automática de contenido desde una URL en tiempo de preparación. [
 
 **Otras actualizaciones de la documentación incluidas en la versión**
 
-Se ha añadido una nueva nota técnica sobre el protocolo y la configuración del conector SMS. [Más información](https://helpx.adobe.com/es/campaign/kb/sms-connector-protocol-and-settings.html)
+Se ha añadido una nueva nota técnica sobre el protocolo y la configuración del conector SMS. [Más información](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)
 
 Se ha actualizado la documentación de integración de Experience Manager con Adobe Campaign. [Más información](../../reporting/using/creating-a-custom-profile-dimension.md)
 
@@ -647,7 +647,7 @@ Algunas páginas de la documentación del editor de contenido se han fusionado p
 
 **Nuevas funciones incluidas en la versión**
 
-Reglamento General de Protección de Datos (RGPD) de la UE: [Más información](https://helpx.adobe.com/es/campaign/kb/campaign-privacy.html)
+Reglamento General de Protección de Datos (RGPD) de la UE: [Más información](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
 
 Creative Designer para correo electrónico: [Más información](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -777,7 +777,7 @@ Se ha actualizado y aclarado la [nota técnica](https://helpx.adobe.com/es/campa
 
 Se ha añadido una nota técnica que explica la estructura de la carga recibida en una aplicación móvil. [Más información.](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/communication-channels/push-notifications/push-payload.translate.html)
 
-La [sección](https://helpx.adobe.com/es/campaign/kb/configuring-app-sdkv4.html) de configuración de canal push se ha actualizado con nuevos datos de carga en la versión del sistema operativo para añadirlos al definir devoluciones en la interfaz de Adobe Mobile Services.
+La [sección](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) de configuración de canal push se ha actualizado con nuevos datos de carga en la versión del sistema operativo para añadirlos al definir devoluciones en la interfaz de Adobe Mobile Services.
 
 La documentación de SMS se ha actualizado con algunas aclaraciones agregadas a la sección de [respuestas automáticas de SMS](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 
@@ -873,7 +873,7 @@ La guía “Entregas” se ha reorganizado y se ha cambiado el nombre a “Canal
 
 Se han actualizado numerosas capturas de pantalla para reflejar los cambios en la interfaz.
 
-Ahora hay disponible una nueva nota técnica: “Integración del SDK móvil de Adobe con su aplicación móvil”. [Más información](https://helpx.adobe.com/es/campaign/kb/integrate-mobile-sdk.html)
+Ahora hay disponible una nueva nota técnica: “Integración del SDK móvil de Adobe con su aplicación móvil”. [Más información](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
 
 Se añadieron instrucciones para configurar el servicio principal People o la integración de Audience Manager con Adobe Campaign. [Más información](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
@@ -903,9 +903,9 @@ La guía de Flujo de trabajo se ha reorganizado y ampliado. Encuentre fácilment
 
 El cálculo del indicador de informes ya está disponible para los informes dinámicos, incluida la descripción completa y la fórmula de cálculo. [Más información](../../reporting/using/indicator-calculation.md)
 
-Nueva sección sobre la configuración de Adobe Mobile Services para utilizar las notificaciones push y los datos del punto de interés en Adobe Campaign. [Más información](https://helpx.adobe.com/es/campaign/kb/configuring-app-sdkv4.html)
+Nueva sección sobre la configuración de Adobe Mobile Services para utilizar las notificaciones push y los datos del punto de interés en Adobe Campaign. [Más información](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 
-Se han actualizado las secciones de configuración e implementación de aplicaciones móviles, incluidos los pasos más detallados para configurar y enviar notificaciones push. [Más información](https://helpx.adobe.com/es/campaign/kb/configuring-app-sdkv4.html)
+Se han actualizado las secciones de configuración e implementación de aplicaciones móviles, incluidos los pasos más detallados para configurar y enviar notificaciones push. [Más información](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 
 Se ha actualizado la sección sobre cómo trabajar con imágenes en Campaign. [Más información](../../designing/using/images.md#setting-up-image-properties)
 
@@ -917,7 +917,7 @@ Se ha actualizado la integración con Adobe Analytics para móviles (punto de in
 
 Creación de informes dinámicos: [Más información](../../reporting/using/about-dynamic-reports.md)
 
-Integración de Dreamweaver (Labs): [Más información](https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html)
+Integración de Dreamweaver (Labs): [Más información](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 Optimización del tiempo de envío manual: [Más información](../../sending/using/optimizing-the-sending-time.md)
 
