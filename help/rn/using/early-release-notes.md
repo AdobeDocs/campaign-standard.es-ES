@@ -9,10 +9,10 @@ topic-tags: campaign-standard-releases
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: a1a670f32201ba6b8fa4488a5ab3dd881aece097
+source-git-commit: 26b401e18629f794ab3c1a836a28369d2f8f9605
 workflow-type: tm+mt
-source-wordcount: '2618'
-ht-degree: 4%
+source-wordcount: '2599'
+ht-degree: 3%
 
 ---
 
@@ -41,12 +41,13 @@ En esta página se describen las nuevas funciones, mejoras y correcciones inclui
 <tbody> 
 <tr> 
 <td>
-<p>El servicio de comentarios de correo electrónico (EFS) es un servicio escalable que captura los comentarios del MTA mejorado directamente, lo que mejora la precisión del sistema de informes. Esta capacidad se presenta como una versión beta privada y estará disponible de forma progresiva para todos los clientes en futuras versiones.</p>
+<p>El servicio de comentarios de correo electrónico (EFS) es un servicio escalable que mejora la precisión del sistema de informes al capturar los comentarios de correo electrónico directamente desde el MTA mejorado.</p>
 <ul>
-<li>Se capturan todas las categorías de eventos: Retrasos, Entregados, Enviados, Cancelación De Suscripción (Vínculo, Lista), Comentarios (Denuncias De Correo No Deseado, eventos Async).</li>
+<li>Se capturan todas las categorías de eventos: Retrasos, Entregados, Para Enviar, Cancelar la suscripción (Vínculo, Lista), Comentarios (quejas de correo no deseado, eventos asincrónicos).</li>
 <li>El cálculo de los indicadores enviados/entregados ahora se basa en los comentarios en tiempo real del MTA mejorado para mejorar la precisión y la reactividad.</li>
 <li>EFS soluciona el problema de los retrasos en el sistema de informes de devoluciones sincrónicas y quita el 80 % de la carga del proceso en Mail.</li>
 </ul>
+<p>Esta capacidad se presenta como una <strong>versión beta privada</strong> y estará disponible progresivamente para todos los clientes en futuras versiones.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -61,7 +62,8 @@ En esta página se describen las nuevas funciones, mejoras y correcciones inclui
 <tbody> 
 <tr> 
 <td>
-<p>Se ha mejorado la integración con Adobe Experience Manager: ahora puede importar contenido multilingüe más fácilmente desde Adobe Experience Manager. Adobe Campaign Standard ahora detecta automáticamente las variantes de idioma del contenido de Adobe Experience Manager y permite la importación y creación de variantes masivas, lo que simplifica considerablemente el número de pasos que debe seguir un profesional para crear una campaña multilingüe basada en el contenido de Adobe Experience Manager.
+<p>Se ha mejorado la integración de campañas con Adobe Experience Manager: ahora puede importar contenido multilingüe más fácilmente desde Adobe Experience Manager. <p>
+<p>Adobe Campaign Standard ahora detecta automáticamente las variantes de idioma del contenido de Adobe Experience Manager y permite la importación y creación de variantes masivas, lo que simplifica considerablemente el número de pasos que debe seguir un profesional para crear una campaña multilingüe basada en el contenido de Adobe Experience Manager.</p>
 </p>
 </td> 
 </tr> 
@@ -90,27 +92,21 @@ En esta página se describen las nuevas funciones, mejoras y correcciones inclui
 
 **Mejoras**
 
-* La integración de Microsoft Dynamics 365 se ha mejorado con una aplicación de integración de autoservicio dedicada y un proceso de implementación mejorado. [Más información](../../integrating/using/d365-acs-get-started.md)
+* **La** integración de Microsoft Dynamics 3655 se ha mejorado con una aplicación de integración de autoservicio dedicada y un proceso de implementación mejorado. [Más información](../../integrating/using/d365-acs-get-started.md)
 
-* Se ha corregido un problema que provocaba que los envíos se ejecutaran muy lentamente debido a ciertos procesos. Esto se debe a unidades incorrectas definidas para varios parámetros (milisegundos en lugar de segundos, por ejemplo).
+* Se ha realizado una mejora para facilitar la solución de problemas al encontrar problemas con el **proceso de mensajería transaccional**. Los administradores técnicos de Adobe ahora pueden utilizar el seguimiento en cualquier proceso sin reiniciarlo.
 
-* Se ha corregido un problema que se producía cuando el SDK de Mobile enviaba una solicitud de seguimiento abierta basada en la condición de que deliveryId/MessageID no fuera nulo. Esto resultaría en errores 404 para envíos con seguimiento deshabilitado. Una variable adicional (acsDeliveryTracking) con información sobre el estado de seguimiento del envío ahora se envía en la carga útil. Esta variable puede tener dos valores activados o desactivados según el estado de seguimiento establecido.
+* La lista **Perfiles** ahora le permite buscar registros basados en uno de estos campos: correo electrónico, nombre, apellidos o campos personalizados que se han agregado en el filtrado avanzado al ampliar el recurso de perfil. Esta función también está disponible en las API de Campaign Standard mediante el parámetro filterType.
 
-* Se ha realizado una mejora para facilitar la resolución de problemas al encontrar problemas con el proceso de mensajería transaccional. Los administradores técnicos de Adobe ahora pueden utilizar el seguimiento en cualquier proceso sin reiniciarlo.
+* Se ha ajustado un parámetro al número de contenedores que ejecutan el proceso de agrupación de bases de datos **Transactional messaging**. Esto permite que la carga se distribuya uniformemente en todos los contenedores utilizados y alcance un rendimiento óptimo.
 
-* La lista Perfiles ahora permite buscar registros en función de uno de estos campos: correo electrónico, nombre, apellidos o campos personalizados que se han agregado en el filtrado avanzado al ampliar el recurso de perfil. Esta función también está disponible en las API de Campaign Standard mediante el parámetro filterType.
+* Ahora hay una nueva función **GetOption** disponible en actividades que utilizan variables de evento después de llamar a un flujo de trabajo con parámetros externos. Permite devolver el valor de una función especificada.
 
-* Se ha ajustado un parámetro al número de contenedores que ejecutan el proceso de agrupación de bases de datos de mensajería transaccionales. Esto permite que la carga se distribuya uniformemente en todos los contenedores utilizados y alcance un rendimiento óptimo.
-
-* Ahora hay una nueva función (GetOption) disponible en actividades que utilizan variables de evento después de llamar a un flujo de trabajo con parámetros externos. Permite devolver el valor de una función especificada.
-
-* Se ha agregado una nueva opción técnica. Permite al Campaign Standard comprobar si hay suficiente memoria física disponible en el sistema antes de iniciar un flujo de trabajo. Si la cantidad de memoria es demasiado baja, la ejecución del flujo de trabajo se retrasará hasta que la memoria del sistema alcance este umbral. Esto se hace para evitar una mayor degradación del rendimiento y mitigar el riesgo de una interrupción del servicio. Intente volver a programar este flujo de trabajo en un momento de menor actividad e inténtelo de nuevo. El flujo de trabajo se reanudará automáticamente una vez que se haya relajado el estrés del servidor. Tenga en cuenta que esta opción es de solo lectura y no se puede modificar.
+* Una nueva opción permite al Campaign Standard **comprobar la disponibilidad de la memoria física** en el sistema antes de iniciar un flujo de trabajo. Si la cantidad de memoria es demasiado baja, la ejecución del flujo de trabajo se retrasará hasta que la memoria del sistema alcance este umbral. Esto evita una mayor degradación del rendimiento y mitiga el riesgo de una interrupción del servicio. El flujo de trabajo se reanudará automáticamente una vez que se haya relajado el estrés del servidor.  Si la ejecución del flujo de trabajo se retrasa, intente volver a programar este flujo de trabajo en un momento de menor actividad e inténtelo de nuevo. Tenga en cuenta que esta opción es de solo lectura y no se puede modificar.
 
 **Otros cambios**
 
 * Se ha cambiado un error a una advertencia durante la preparación del mensaje, cuando se alcanza el límite de 100 descargas de contenido por hora móvil. Ahora se muestra una advertencia cuando se alcanza el límite, que permite continuar con el envío.
-
-* Ahora hay disponible una nueva asignación de envíos (mapRtEventAppSubRcp) para los mensajes push transaccionales dirigidos a perfiles. El envío, la exclusión y los registros de seguimiento de estos envíos estarán ahora disponibles en las tablas broadLogAppSubRcp, excludeLogAppSubRcp y trackingLogAppSubRcp. Esto soluciona un problema que ocasionaba que la falla del análisis de envíos al enviar un mensaje push transaccional usando la dimensión de destinatario de Perfil.
 
 * Al enriquecer el contenido de un mensaje transaccional, los vínculos ya no se recuperan al recuperar datos de la tabla de Perfil, lo que reduce la latencia durante la preparación del mensaje y evita los datos de perfil vacíos debido a una relación incorrecta definida con la tabla de perfil.
 
@@ -120,15 +116,13 @@ En esta página se describen las nuevas funciones, mejoras y correcciones inclui
 
 * La actividad **Transferir archivo** ahora genera una variable adicional (filesCount) que contiene el número de archivos cargados o descargados. (CAMP-45842)
 
-* El conector SMS ahora puede enviar varios parámetros opcionales con cada mensaje.
+* El **conector SMS** ahora puede enviar varios parámetros opcionales con cada mensaje.
 
-* Se ha corregido un problema que impedía que los usuarios con la función MODELO DE DATOS publicaran extensiones de registro de envío. Esta operación estará ahora disponible para la función MODELO DE DATOS. (CAMP-46604)
-
-* Se ha corregido un problema en flujos de trabajo que se podía producir al copiar y pegar una actividad **de Deduplicación** que se había ejecutado una vez y que aprovechaba un recurso temporal. Una vez duplicado, el recurso de la actividad se definía automáticamente en vacío, lo que producía problemas en otras actividades del flujo de trabajo. Una vez pegado, el recurso de la actividad seguirá siendo el mismo para que el error se active lo antes posible en lugar de más tarde en el flujo de trabajo. (CAMP-46903)
+* Los usuarios con la función DATAMODEL ahora pueden publicar extensiones de registro de envío. (CAMP-46604)
 
 * Se ha aclarado el mensaje de error que se mostraba al intentar publicar un recurso con un recurso personalizado que ya no existe. (CAMP-46893)
 
-* Se han agregado los siguientes idiomas a la lista de idioma preferido: Indonesio - Indonesia (in-id), Inglés - Suecia (en-se), Inglés - Asia Pacífico (en-ap), Inglés - Japón (en-jp), Español - América Latina (es-la). (CAMP-46351)
+* Se han agregado los siguientes idiomas a la lista **Idioma preferido**: Indonesio - Indonesia (in-id), Inglés - Suecia (en-se), Inglés - Asia Pacífico (en-ap), Inglés - Japón (en-jp), Español - América Latina (es-la). (CAMP-46351)
 
 * El selector de selección de perfiles al probar una página de aterrizaje utilizará ahora el recurso profilBase en lugar de perfil para evitar el tiempo de espera.
 
@@ -138,19 +132,23 @@ En esta página se describen las nuevas funciones, mejoras y correcciones inclui
 
 * Se han mejorado los mensajes de advertencia o error en los registros de preparación de envío.
 
-* Se mejoraron los registros de errores al intentar conectarse a IMS.
+* Se mejoraron los registros de errores al intentar conectarse al servicio Identity Management de Adobe (IMS).
 
-* Ahora puede filtrar aún más las dimensiones de Envío y Campaña mediante la barra de búsqueda de sistema de informes dinámico.
+* Ahora puede filtrar aún más las dimensiones de Envío y Campaña mediante la barra de búsqueda de **sistema de informes dinámico**.
 
-* La fecha de validez del mensaje SMS transaccional ahora se puede definir mediante el valor establecido para el parámetro de caducidad en la API de Mensajes transaccionales. (CAMP-36600)
+* La fecha de validez del mensaje SMS transaccional ahora se puede definir mediante el valor establecido para el parámetro de caducidad en la **API de Mensajes transaccionales**. (CAMP-36600)
 
 * En el sistema de informes dinámico, el **informe integrado de resumen de Envío** mostraba datos incorrectos para la métrica de tasa sin suscribir. Se ha agregado una nueva métrica con el nombre **baja único** para corregir esto. (CAMP-46445)
 
 **Parches**
 
+* Se ha corregido un problema que provocaba que los envíos se ejecutaran muy lentamente debido a ciertos procesos. Esto se debe a unidades incorrectas definidas para varios parámetros (milisegundos en lugar de segundos, por ejemplo).
+* Se ha corregido un problema en flujos de trabajo que se podía producir al copiar y pegar una actividad **de Deduplicación** que se había ejecutado una vez y que aprovechaba un recurso temporal. Una vez duplicado, el recurso de la actividad se definía automáticamente en vacío, lo que producía problemas en otras actividades del flujo de trabajo. Una vez pegado, el recurso de la actividad seguirá siendo el mismo para que el error se active lo antes posible en lugar de más tarde en el flujo de trabajo. (CAMP-46903)
+* Se corrigió un problema cuando el SDK de Mobile enviaba una solicitud de seguimiento abierta basada en la condición de que deliveryID/MessageID no fuera nulo. Esto resultaría en errores 404 para envíos con seguimiento deshabilitado. Una variable adicional (acsDeliveryTracking) con información sobre el estado de seguimiento del envío ahora se envía en la carga útil. Esta variable puede tener dos valores activados o desactivados según el estado de seguimiento establecido.
 * Se ha corregido un problema que impedía que los informes de envío se ejecutaran cuando se mostraban 5000 filas.
 * Se ha corregido un problema con la prueba A/B que impedía que el contenido de la variante B se actualizara después de que se hubiera modificado la Plantilla de envíos. (CAMP-45235)
 * Se ha corregido un problema que provocaba que el proceso de mensajería Transactional se quedara atascado, evitando que se enviaran mensajes.
+* Se corrigió un problema que ocasionaba que fallara la análisis de envío al enviar un mensaje push transaccional usando la dimensión de destinatario de Perfil. Ahora hay disponible una nueva asignación de envíos (mapRtEventAppSubRcp) para los mensajes push transaccionales dirigidos a perfiles. El envío, la exclusión y los registros de seguimiento de estos envíos estarán ahora disponibles en las tablas broadLogAppSubRcp, excludeLogAppSubRcp y trackingLogAppSubRcp.
 * Se ha corregido un problema que podía provocar problemas de navegación al hacer clic en un vínculo interno (por ejemplo, al acceder al envío principal desde una pantalla de resumen de prueba).
 * Se ha corregido un problema que impedía que se mostraran todas las plantillas de contenido de Experience Manager disponibles al crear un envío. (CAMP-45990)
 * Se ha corregido un problema en flujos de trabajo que podía impedir que se mostraran mensajes de error en los registros de envío después de agregar la columna **Motivo** a la ficha de datos adicional. (CAMP-45139)
