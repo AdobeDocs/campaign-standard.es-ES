@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: campaign-standard-releases
 hide: true
 translation-type: tm+mt
-source-git-commit: d2c35a1d5a7739fbb3b0db779cdc204809facf36
+source-git-commit: 16e353005e58ee2a997c05bdfe0f951e36a6ab06
 workflow-type: tm+mt
 source-wordcount: '2618'
 ht-degree: 4%
@@ -16,7 +16,7 @@ ht-degree: 4%
 ---
 
 
-# Última versión{#latest-release}
+# Nueva versión {#new-release}
 
 [Planificación](../../rn/using/release-planning.md)  de la versión| Versiones [ de ](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html) Panel de control de Campaign| Actualizaciones [ ](../../rn/using/documentation-updates.md) de documentación| Notas [ de la versión ](../../rn/using/release-notes.md) más recientes| Funciones  [obsoletas](../../rn/using/deprecated-features.md)
 
