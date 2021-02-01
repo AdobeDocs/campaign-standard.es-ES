@@ -4,7 +4,7 @@ product: campaign
 title: Invocación de un recurso mediante una clave de identificación compuesta
 description: Obtenga información sobre cómo llamar a un recurso mediante una clave de identificación compuesta
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 7%
@@ -37,7 +37,7 @@ Temas relacionados:
 
 1. Antes de configurar la clave de identificación, asegúrese de que el recurso se ha ampliado con los campos deseados y de que se ha publicado. Para obtener más información, consulte [esta sección](../../developing/using/creating-or-extending-the-resource.md).
 
-1. Vaya al menú **[!UICONTROL Administration]** / **[!UICONTROL Developement]** / **[!UICONTROL Custom resources]** y luego abra el recurso **[!UICONTROL Profile]**.
+1. Vaya al menú **[!UICONTROL Administration]** / **[!UICONTROL Development]** / **[!UICONTROL Custom resources]** y luego abra el recurso **[!UICONTROL Profile]**.
 
    ![](assets/uc_idkey1.png)
 
