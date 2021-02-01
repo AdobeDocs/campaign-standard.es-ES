@@ -6,7 +6,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: 6be7a20cde8fcaee73972b8919765ea631f2f1ee
+source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
 workflow-type: tm+mt
 source-wordcount: '1795'
 ht-degree: 0%
@@ -19,14 +19,14 @@ ht-degree: 0%
 Puede sincronizar tablas de Microsoft Dynamics 365 con métricas de marketing de Campaña y Campaña con Microsoft Dynamics 365. La sincronización se ejecuta mediante tres flujos de trabajo técnicos dedicados: **[!UICONTROL Microsoft Dynamics 365 to Campaign]**, **[!UICONTROL Campaign to Microsoft Dynamics 365]**, **[!UICONTROL Opt-In/Out]**. Consulte esta sección para [obtener más información](../../integrating/using/d365-acs-self-service-app-workflows.md).
 
 >[!IMPORTANT]
->Debe detener/inicio el flujo de trabajo **[!UICONTROL Microsoft Dynamics 365 to Campaign]** para tener en cuenta los cambios. [Más información](../../integrating/using/d365-acs-self-service-app-workflows.md)
+>Debe detener/inicio el flujo de trabajo **[!UICONTROL Microsoft Dynamics 365 to Campaign]** para tener en cuenta los cambios. [Obtenga más información](../../integrating/using/d365-acs-self-service-app-workflows.md)
 
 
 ## Asignar tablas de Microsoft Dynamics 365 a Campaña
 
 La página **[!UICONTROL Microsoft Dynamics 365 to Campaign]** muestra una lista de entidades en Microsoft Dynamics 365 y los recursos personalizados en Adobe Campaign con los que se sincronizarán. Puede agregar asignaciones nuevas, editar o eliminar asignaciones existentes.
 
-![](assets/d365-to-acs-ui-page-ingress-top.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-top.png)
 
 Esta es una descripción de cada una de las columnas de esta tabla:
 
@@ -67,14 +67,14 @@ Para crear una nueva asignación, siga los pasos a continuación:
 1. Utilice las listas desplegables para seleccionar las tablas de Campaña y Microsoft Dynamics 365 que se van a asignar.
 La mayoría de las demás entradas de la página dependerán de las tablas que elija.
 
-   ![](assets/d365-to-acs-ui-page-ingress-choose-tables.png)
+   ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-choose-tables.png)
 
    >[!NOTE]
    >No puede asignar cada tabla más de una vez. Por lo tanto, observará que las selecciones desplegables no incluirán tablas que ya se hayan asignado.
 
 1. Haga clic **[!UICONTROL OK]** para confirmar: la aplicación necesitará un breve momento para leer la información de campo asociada con las tablas seleccionadas.
 
-A continuación, puede continuar con la configuración de asignación. [Más información](#new-mapping-settings)
+A continuación, puede continuar con la configuración de asignación. [Obtenga más información](#new-mapping-settings)
 
 >[!IMPORTANT]
 >
@@ -84,7 +84,7 @@ A continuación, puede continuar con la configuración de asignación. [Más inf
 
 Si edita una asignación existente, verá que las selecciones de tabla no son editables.
 
-![](assets/d365-to-acs-ui-page-ingress-table-read-only.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-table-read-only.png)
 
 Esto se hace por diseño porque las entradas más abajo en la página se basan en los campos asociados con estas tablas. Si se cambiaran las tablas, todos los campos asociados con estas tablas quedarían invalidados.  Si desea cambiar la tabla a la que desea asignar, deberá volver a la página anterior, eliminar la asignación que desee cambiar y agregar una nueva asignación.
 
@@ -106,7 +106,7 @@ Puede definir la siguiente configuración:
 
 Al agregar un nuevo Microsoft Dynamics 365 a la asignación de tabla de Campaña, debe identificar el campo de ID.
 
-![](assets/d365-to-acs-ui-page-ingress-mappings-first-key.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-mappings-first-key.png)
 
 La clave principal de Microsoft Dynamics 365 es de solo lectura porque la aplicación la detectará.
 
@@ -118,7 +118,7 @@ Para la Campaña, debe seleccionar qué campo será la clave única. Debe config
 
 Las claves principales siempre serán los primeros nombres de campo enumerados en la sección **[!UICONTROL Field Mappings]**. Como recordatorio, el siguiente icono aparece a la derecha para recordarle que estas son las claves principales.
 
-![](assets/d365-to-acs-icon-primary-key.png)
+![](assets/do-not-localize/d365-to-acs-icon-primary-key.png)
 
 #### Añadir otras asignaciones de campos
 
@@ -126,14 +126,14 @@ La sección **[!UICONTROL Field Mappings]** le permite agregar asignaciones de c
 
 Seleccione Microsoft Dynamics 365 y campos de Campaña en las listas:
 
-![](assets/d365-to-acs-ui-page-ingress-new-field-mapping.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-new-field-mapping.png)
 
 Estas listas contienen los nombres de campo asociados con las tablas de Campaña y Microsoft Dynamics 365 que ha seleccionado en la parte superior de la página.
 
 El conmutador **[!UICONTROL Apply updates]** permite controlar si las actualizaciones de este campo se propagarán de Microsoft Dynamics 365 a Campaña:
-* Si se activa ![](assets/d365-to-acs-icon-switch-on.png), las actualizaciones de los valores de Microsoft Dynamics 365 se propagarán a Adobe Campaign a medida que se produzcan las actualizaciones.
+* Si se activa ![](assets/do-not-localize/d365-to-acs-icon-switch-on.png), las actualizaciones de los valores de Microsoft Dynamics 365 se propagarán a Adobe Campaign a medida que se produzcan las actualizaciones.
 
-* Si desactiva ![](assets/d365-to-acs-icon-switch-off.png), el valor se propagará cuando los datos se carguen inicialmente (o se vuelvan a reproducir), pero las actualizaciones incrementales en el campo de Microsoft Dynamics 365 no se propagarán.
+* Si desactiva ![](assets/do-not-localize/d365-to-acs-icon-switch-off.png), el valor se propagará cuando los datos se carguen inicialmente (o se vuelvan a reproducir), pero las actualizaciones incrementales en el campo de Microsoft Dynamics 365 no se propagarán.
 
 >[!NOTE]
 >
@@ -142,7 +142,7 @@ El conmutador **[!UICONTROL Apply updates]** permite controlar si las actualizac
 
 Al seleccionar valores de campo, verá que el tipo de datos se muestra debajo de los menús desplegables.   Esto es algo que hay que tener en cuenta al asignar valores de un campo a otro.
 
-![](assets/d365-to-acs-ui-page-ingress-mappings-fields-selected.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-mappings-fields-selected.png)
 
 >[!NOTE]
 >
@@ -194,7 +194,7 @@ La página **[!UICONTROL Campaign to Microsoft Dynamics 365]** permite identific
 
 Las cuatro métricas que puede controlar son: **Envía**, **Clics**, **Abre** y **Devoluciones**.
 
-![](assets/d365-to-acs-ui-page-workflows-egress.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-egress.png)
 
 Seleccione **Sí** para confirmar que desea que los eventos de ese tipo fluyan a Microsoft Dynamics 365.
 
@@ -208,7 +208,7 @@ Obtenga más información sobre la administración de exclusión en [esta secci�
 
 Recuerde que debe hacer clic en &quot;Guardar&quot; para guardar sus selecciones. Recuerde también que debe detener el flujo de trabajo **de la Campaña a Microsoft Dynamics 365** y, a continuación, hacer clic en reproducir para que la integración incorpore los cambios.
 
-![](assets/d365-to-acs-ui-page-workflows-optinout-disabled.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-optinout-disabled.png)
 
 ### Adhesión/extraer dirección de sincronización
 
