@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
+source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 9%
@@ -40,8 +40,6 @@ Las mensajes transaccionales se pueden enviar por correo electrónico, SMS o [no
 
 <!--Guidelines to implement transactional messaging capabilities in your website are detailed in [this section](../../api/using/managing-transactional-messages.md).-->
 
-<!--All transactional messages are now sent with the Adobe Campaign Enhanced MTA for improved deliverability, throughput, and bounce handling. All impacts are the same as for standard marketing messages. For more on this, see [this section](../../administration/using/configuring-email-channel.md).-->
-
 Antes de comenzar con los mensajes transaccionales, asegúrese de leer las [prácticas recomendadas y limitaciones](../../channels/using/transactional-messaging-limitations.md) correspondientes.
 
 ## Principio operativo de mensajería transaccional {#transactional-messaging-operating-principle}
@@ -52,7 +50,7 @@ El proceso general de mensajería transaccional se puede describir de la siguien
 
 Por ejemplo, imagine que es una compañía con un sitio web en el que sus clientes pueden comprar productos.
 
-Adobe Campaign le permite enviar un correo electrónico de notificación a los clientes que han agregado productos al carro de compras. Cuando uno de ellos abandona el sitio web sin pasar por sus compras (eventos externos que activan un evento de Campaña), se les envía automáticamente un correo electrónico de abandono del carro de compras (envío de mensaje transaccional).
+Adobe Campaign le permite enviar un correo electrónico de notificación a los clientes que han agregado productos al carro de compras. Cuando uno de ellos abandona el sitio web sin pasar por sus compras (evento externo que déclencheur un evento de Campaña), se les envía automáticamente un correo electrónico de abandono del carro de compras (envío de mensaje transaccional).
 
 Los principales pasos para ponerlo en marcha se detallan a continuación en [esta sección](#key-steps).
 
@@ -75,7 +73,7 @@ Puede que desee enviar un mensaje transaccional de evento a un cliente que neces
 * Añadir mensajes transaccionales al sistema de informes de envío global.
 * Aprovechar mensajes transaccionales en el recorrido del cliente.
 
-Por ejemplo, puede utilizar este tipo de mensajes cuando se ponga en contacto con sus clientes después de que abandonen el carro en su sitio web, para alentarlos a continuar con la compra. Al hacer esto, puede personalizar su mensaje con mayor facilidad gracias al acceso directo a toda la información de la base de datos de perfil, aplicar reglas de marketing e incluir este mensaje en el sistema de informes y el viaje del cliente global para obtener una mejor vista del comportamiento del cliente.
+Por ejemplo, puede utilizar este tipo de mensajes cuando se ponga en contacto con sus clientes después de que abandonen el carro en su sitio web, para alentarlos a continuar con la compra. Al hacer esto, puede personalizar más fácilmente su mensaje con acceso directo a toda la información de la base de datos de perfil, aplicar reglas de mercadotecnia e incluir este mensaje en el sistema de informes y el recorrido del cliente global para una mejor vista del comportamiento del cliente.
 
 El tipo de mensaje se define al configurar el evento que se transformará en un mensaje transaccional. Consulte las secciones de configuración [mensajes transaccionales basados en Evento](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages) y [mensajes transaccionales basados en Perfil](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages).
 
