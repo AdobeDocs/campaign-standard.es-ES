@@ -9,15 +9,15 @@ topic-tags: campaign-standard-releases
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 1bf35c654b9c526330a70f7647ec7d9fd87e2335
+source-git-commit: c5807da6bc9a33adcba6fc9825b0496bb5dc609b
 workflow-type: tm+mt
-source-wordcount: '2586'
+source-wordcount: '2587'
 ht-degree: 3%
 
 ---
 
 
-# Nueva versión {#new-release}
+# Notas de la versión anteriores {#new-release}
 
 [Planificación](../../rn/using/release-planning.md)  de la versión| Versiones [ de ](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html) Panel de control de Campaign| Actualizaciones [ ](../../rn/using/documentation-updates.md) de documentación| Notas [ de la versión ](../../rn/using/release-notes.md) más recientes| Funciones  [obsoletas](../../rn/using/deprecated-features.md)
 
@@ -92,7 +92,7 @@ En esta página se describen las nuevas funciones, mejoras y correcciones inclui
 
 **Mejoras**
 
-* **La** integración de Microsoft Dynamics 3655 se ha mejorado con una aplicación de integración de autoservicio dedicada y un proceso de implementación mejorado. [Más información](../../integrating/using/d365-acs-get-started.md)
+* **La** integración de Microsoft Dynamics 3655 se ha mejorado con una aplicación de integración de autoservicio dedicada y un proceso de implementación mejorado. [Obtenga más información](../../integrating/using/d365-acs-get-started.md)
 
 * Se ha realizado una mejora para facilitar la solución de problemas al encontrar problemas con el **proceso de mensajería transaccional**. Los administradores técnicos de Adobe ahora pueden utilizar el seguimiento en cualquier proceso sin reiniciarlo.
 
