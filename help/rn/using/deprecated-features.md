@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
 translation-type: tm+mt
-source-git-commit: 32aba66dd8987414cf90df1e7bfb9c419c5f68ff
+source-git-commit: becaf20fefb6fce05db0824baa69670f810966dc
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 85%
+source-wordcount: '734'
+ht-degree: 80%
 
 ---
 
@@ -47,7 +47,7 @@ Se aconseja a los clientes que comprueben si utilizan la función o la capacidad
  <tbody> 
   <tr> 
    <td> <p> A partir del 15 de diciembre de 2020, la capacidad de la línea de asunto predictivo está obsoleta.</p><br/>
-   <p>Le sugerimos que aproveche las capacidades de correo electrónico con tecnología AI para analizar y predecir las tasas abiertas, los tiempos de envío óptimos y la probable reproducción basada en métricas de participación históricas. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">Más información</a></p></br>
+   <p>Le sugerimos que aproveche las capacidades de correo electrónico con tecnología AI para analizar y predecir las tasas abiertas, los tiempos de envío óptimos y la probable reproducción basada en métricas de participación históricas. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">Obtenga más información</a></p></br>
      <p>
      <em>Eliminación del destinatario: Abril de 2021</em></p>
      </td> 
@@ -62,8 +62,9 @@ Se aconseja a los clientes que comprueben si utilizan la función o la capacidad
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> A partir de la versión 20.1, el SDK v4 ya no se utiliza. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Más información</a>.</p><br/>
-   <p>El <a href="https://aep-sdks.gitbook.io/docs/">SDK de Adobe Experience Platform Mobile</a> (anteriormente denominado v5) admitirá exclusivamente las funciones y funciones de Adobe Experience Cloud que se avecinan.</p></br>
+   <td> <p> El SDK v4 está en desuso al iniciar la versión 20.1 de la Campaña. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Más información</a>.</p><br/>
+   <p>El <a href="https://aep-sdks.gitbook.io/docs/">SDK de Adobe Experience Platform Mobile</a> (anteriormente denominado v5) admitirá exclusivamente las funciones y funciones de Adobe Experience Cloud que se avecinan.</p>
+   <p>Descubra cómo migrar del SDK v4 al SDK de Adobe Experience Platform Mobile <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">en esta página</a>.</p></br>
      <p>
      <em>Fecha de eliminación del destinatario: 31 de agosto de 2021</em></p>
      </td> 
@@ -112,7 +113,7 @@ Se aconseja a los clientes que comprueben si utilizan la función o la capacidad
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>A partir de la versión 18.7, las unidades geográficas quedan obsoletas. Las unidades orgánicas y geográficas son construcciones idénticas en Campaña. Los usuarios deben utilizar las unidades organizativas solo para crear la jerarquía de permisos de usuario y acceso a datos. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html?lang=es#administrating">Más información</a>. Tenga en cuenta que las nuevas instancias de Campaign Standard, así como las instancias existentes sin crear unidades geográficas, no pueden tener esta capacidad implementada a partir de la versión 18.7.</p>
+   <td> <p>A partir de la versión 18.7 de la Campaña, las unidades geográficas quedan obsoletas. Las unidades orgánicas y geográficas son construcciones idénticas en Campaña. Los usuarios deben utilizar las unidades organizativas solo para crear la jerarquía de permisos de usuario y acceso a datos. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html?lang=es#administrating">Más información</a>. Tenga en cuenta que las nuevas instancias de Campaign Standard, así como las instancias existentes sin crear unidades geográficas, no pueden tener esta capacidad implementada a partir de la versión 18.7.</p>
    </td> 
   </tr> 
  </tbody> 
