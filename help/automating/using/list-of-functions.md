@@ -7,7 +7,7 @@ audience: automating
 content-type: reference
 topic-tags: filtering-data
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ef170f2282fcc46e36c90dada2083dea25b95f7c
 workflow-type: tm+mt
 source-wordcount: '1940'
 ht-degree: 98%
@@ -424,7 +424,7 @@ Esta tabla contiene las funciones restantes disponibles.
    <td> <strong>GetEmailDomain</strong><br /> </td> 
    <td> Extrae el dominio de una dirección de correo electrónico<br /> </td> 
    <td> GetEmailDomain(&lt;valor&gt;)<br /> </td> 
-  </tr> 
+  </tr>
   <tr> 
    <td> <strong>GetMirrorURL</strong><br /> </td> 
    <td> Recupera la URL del servidor de la página espejo<br /> </td> 
