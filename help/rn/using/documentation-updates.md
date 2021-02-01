@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 16f937fc34783f22a0c118bb5e2e3f39abb85615
+source-git-commit: a039818cb5d4169ae921df39e9ea9bc9230fceb0
 workflow-type: tm+mt
-source-wordcount: '6372'
-ht-degree: 100%
+source-wordcount: '6511'
+ht-degree: 98%
 
 ---
 
@@ -18,6 +18,26 @@ ht-degree: 100%
 # Actualizaciones de documentación{#documentation-updates}
 
 Además de las [Notas de la versión](../../rn/using/release-notes.md) de Adobe Campaign, esta página enumera todas las nuevas actualizaciones de la documentación de Adobe Campaign Standard.
+
+## Versión 21.1: febrero de 2021 {#release-21-1---february-2021}
+
+**Nuevas funciones incluidas en la versión**
+
+Servicio de comentarios de correo electrónico: [Más información](../../sending/using/confirming-the-send.md#email-feedback-service)
+
+Mejoras en la integración de Adobe Experience Manager: [Más información](../../integrating/using/creating-multilingual-email-aem.md)
+
+Interfaz de Experience Cloud unificada: [Más información](../../start/using/interface-description.md#top-bar)
+
+**Otras actualizaciones de la documentación incluidas en la versión**
+
+Se ha añadido información sobre cómo buscar un perfil en función del correo electrónico, el nombre, los apellidos o cualquier campo personalizado. [Puede obtener más información](../../audiences/using/integrated-customer-profile.md)
+
+Se ha añadido información sobre la nueva función GetOption que le permite devolver el valor de una función especificada al llamar a un flujo de trabajo con parámetros externos. [Puede obtener más información](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)
+
+Se ha agregado información sobre la nueva variable de salida **[!UICONTROL filesCount]** disponible después de usar una actividad **[!UICONTROL Transfer file]**. [Puede obtener más información](../../automating/using/transfer-file.md#output-variables)
+
+La sección **Configuración del canal de correo electrónico** se ha actualizado para aclarar cuál es la configuración de correo electrónico más reciente aplicable. Algunos parámetros preexistentes que aún se utilizan para determinados clientes se enumeran en la parte inferior de esta página. [Puede obtener más información](../../administration/using/configuring-email-channel.md)
 
 ## Diciembre de 2020 {#doc-updates-december-2020}
 
