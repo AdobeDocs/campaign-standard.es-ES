@@ -7,10 +7,10 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 4a039670745810de40fe3622d21d7830d6e33d2c
 workflow-type: tm+mt
-source-wordcount: '1144'
-ht-degree: 96%
+source-wordcount: '1244'
+ht-degree: 81%
 
 ---
 
@@ -47,7 +47,7 @@ La página de inicio está formada por un conjunto de tarjetas que le permiten a
 
 ## Barra superior {#top-bar}
 
-La barra superior es visible en todas las pantallas y le permite navegar por las funciones de Adobe Campaign, así como acceder al perfil de Adobe conectado, a las notificaciones, a otros servicios y soluciones de Adobe Experience Cloud y a la documentación.
+La barra superior está visible en todas las pantallas y le permite navegar por las funcionalidades de Adobe Campaign, así como acceder al perfil de Adobe conectado, las notificaciones, los servicios y soluciones de Adobe Experience Cloud y la documentación.
 
 Los principios de navegación son:
 
@@ -57,13 +57,25 @@ Los principios de navegación son:
 
 * El vínculo **[!UICONTROL Home]** le permite mostrar la página de inicio de Adobe Campaign.
 * Los vínculos **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]**, **[!UICONTROL Audiences]** y **[!UICONTROL Reports]** permiten acceder a las vistas vinculadas a estas funciones.
-* El botón **[!UICONTROL Help]** permite acceder a la documentación del producto y a la ayuda contextual, a las notas de la versión, a los números de la versión y a los avisos legales, así como a los vínculos a la comunidad de Adobe Experience Cloud y al servicio de atención al cliente.
+* El icono **Conmutador de soluciones** le permite cambiar entre sus organizaciones o a una aplicación diferente.
+* El botón **[!UICONTROL Help]** permite acceder a la documentación de Adobe Campaign Standard, los vídeos, las notas de la versión y la planificación de la versión, así como a los vínculos a la comunidad de Adobe Experience Cloud y al servicio de atención al cliente.
+* El botón de organización
+* El icono **Notificaciones** muestra la información o las alertas más recientes.
+* El icono **Usuario** le permite ver información vinculada a su perfil. Proporciona acceso al botón **[!UICONTROL Sign out]** y a la pantalla **[!UICONTROL About]**.
+
+### Ayuda de {#help}
+
+* **[!UICONTROL Search]** incorpora Adobe Experience League al producto: los resultados de la búsqueda incluyen documentación y artículos de ayuda, los resultados de los foros de la comunidad y más contenido de vídeo, lo que facilita el acceso a más contenido para sacar el máximo partido de la aplicación.
+* **[!UICONTROL Help]** Ficha
+   * Los vínculos le permiten acceder rápidamente a la documentación, los vídeos y las notas de la versión de Adobe Campaign Standard.
+   * **[!UICONTROL Learning]** este vínculo le permite acceder a la biblioteca de contenido de Adobe Campaign.
+   * **[!UICONTROL Community]** este enlace le permite acceder al foro dedicado a sus preguntas en ACS.
+
+* **[!UICONTROL Support]** le permite abrir un caso de soporte y ponerse en contacto con nosotros por teléfono o Twitter.
+
+* **[!UICONTROL Feedback]**  facilita el informe de problemas o el uso compartido de ideas.
 
    ![](assets/ux_help.png)
-
-* El icono **Seleccionar solución** le permite cambiar a otra solución de Adobe Experience Cloud, así como a la configuración de perfil.
-* El icono **Notificaciones** muestra la información o las alertas más recientes.
-* El icono **Usuario** le permite ver información vinculada a su perfil. Permite acceder al botón **[!UICONTROL Sign out]**.
 
 ## Menú avanzado {#advanced-menu}
 
