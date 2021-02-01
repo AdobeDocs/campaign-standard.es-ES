@@ -6,10 +6,10 @@ title: Documentación del producto de Adobe Campaign Standard
 description: Documentación del producto de Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 540d14231cb08fa86067be9223160ae6cc4eefda
+source-git-commit: 658e1916e39cb3deec15a87891d07e3e9172dc78
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 95%
+source-wordcount: '233'
+ht-degree: 94%
 
 ---
 
@@ -23,8 +23,6 @@ ht-degree: 95%
 * **[Campaña 21.1 Febrero ¡La versión está activa!](rn/using/release-notes.md)**<br/> Descubrir nuevas funciones, actualizaciones y correcciones
 
 * **[Actualización de devoluciones incorrectas](https://helpx.adobe.com/es/campaign/kb/update-bounce-qualification.html)**<br/> Obtenga información sobre cómo actualizar devoluciones incorrectas tras la interrupción de Gmail
-
-* **[Plan de lanzamiento](rn/using/release-planning.md)**<br/> Las fechas de la próxima versión de febrero de 2021 se han añadido al plan de lanzamiento
 
 * **[Grupos de control](sending/using/control-group.md)**<br/>
 Miden el impacto de sus campañas al excluir una parte de su audiencia.
