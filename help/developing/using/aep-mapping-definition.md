@@ -7,7 +7,7 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 2%
@@ -51,7 +51,7 @@ La siguiente pantalla presenta la sección **[!UICONTROL Field mappings]** donde
 
 El botón **[!UICONTROL Create new field mapping]** permite seleccionar el campo Campaign Standard y la expresión de ruta de campo correspondiente en el esquema XDM.
 
-Si no puede encontrar un campo Campaign Standard, puede utilizar el campo de búsqueda para buscar el campo. Actualmente, la búsqueda solo funciona para los campos que están abiertos en la jerarquía.
+Si no puede encontrar un campo de Adobe Campaign Standard, puede utilizar el campo de búsqueda para buscar el campo. Actualmente, la búsqueda solo funciona para los campos que están abiertos en la jerarquía.
 
 ![](assets/aep_mapfield.png)
 
