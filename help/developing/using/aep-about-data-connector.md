@@ -7,9 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '783'
 ht-degree: 6%
 
 ---
@@ -44,7 +44,7 @@ Las secciones siguientes describen los pasos clave para realizar una asignación
 
 * La asignación de fuera de la caja solo está disponible para los campos que se proporcionan en Campaign Standard de forma predeterminada. Para ingerir todos los campos y recursos personalizados, cada cliente debe definir su propia asignación.
 
-* Adobe Experience Platform Data Connector insertará datos de perfil a través de la plataforma a intervalos regulares. &#x200B; La duración del intervalo es de 15 mn. Este valor se puede modificar mediante [API de Adobe Experience Platform](https://docs.adobe.com/content/help/en/experience-platform/ingestion/home.html).
+* Adobe Experience Platform Data Connector insertará datos de perfil a través de la plataforma a intervalos regulares. &#x200B; La duración del intervalo es de 15 minutos. Este valor se puede modificar mediante [API de Adobe Experience Platform](https://docs.adobe.com/content/help/en/experience-platform/ingestion/home.html).
 
 * El ingeniero de datos puede publicar, modificar y pausar la asignación de Campaña a Adobe Experience Platform.
 
@@ -76,10 +76,10 @@ Las secciones siguientes describen los pasos clave para realizar una asignación
 
 * Cada 15 minutos, el trabajo por lotes se ejecuta e identifica los registros que han cambiado desde el último lote. Si todos los registros cambian con la misma marca de tiempo, podría aparecer un cuello de botella de rendimiento para administrar la ingestión de todos los perfiles
 
-## Videotutorial {#video}
+## Vídeo tutorial {#video}
 
 Este vídeo proporciona información general sobre el conector de datos de Adobe Experience Platform.
 
-https://video.tv.adobe.com/v/27304?quality=12&amp;captions=spa
+>[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=eng)
 
 Hay disponibles más vídeos relacionados con el conector de datos de Adobe Experience Platform [aquí](https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html).
