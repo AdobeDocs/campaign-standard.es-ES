@@ -5,7 +5,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: 6be7a20cde8fcaee73972b8919765ea631f2f1ee
+source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 1%
@@ -19,15 +19,15 @@ La página **[!UICONTROL Workflows]** lista los flujos de trabajo técnicos y su
 
 La aplicación de integración incluye tres flujos de trabajo:
 
-![](assets/d365-to-acs-ui-page-workflows.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows.png)
 
 **Microsoft Dynamics 365 a Campaña**
 * Enviar *contactos* de Microsoft Dynamics 365 a Adobe Campaign
-* *Entidades* personalizadas: Inserte tablas personalizadas de Microsoft Dynamics 365 en Adobe Campaign. [Más información](../../integrating/using/d365-acs-using-the-integration.md#data-flows)
+* *Entidades* personalizadas: Inserte tablas personalizadas de Microsoft Dynamics 365 en Adobe Campaign. [Obtenga más información](../../integrating/using/d365-acs-using-the-integration.md#data-flows)
 * Esto también se conoce como **Ingress** (que se refiere a la ingesta de datos de Microsoft Dynamics 365 a Adobe Campaign)
 
 **Campaña a Microsoft Dynamics 365**
-* Los eventos de marketing por correo electrónico de Adobe Campaign Standard se envían a Dynamics 365 (envío por correo electrónico, apertura, clic, devolución). [Más información](../../integrating/using/d365-acs-using-the-integration.md#email-marketing-event-flow)
+* Los eventos de marketing por correo electrónico de Adobe Campaign Standard se envían a Dynamics 365 (envío por correo electrónico, apertura, clic, devolución). [Obtenga más información](../../integrating/using/d365-acs-using-the-integration.md#email-marketing-event-flow)
 * Esto también se conoce como **Egress** (refiriéndose al ingreso de datos de Adobe Campaign a Microsoft Dynamics 365)
 
 **Inclusión/exclusión**
@@ -71,4 +71,4 @@ Cuando edita un flujo de trabajo, las actualizaciones NO se incorporan inmediata
 
 Se agrega una indicación de advertencia al botón **Detener** para informarle de cuándo (a) ha realizado actualizaciones en el flujo de trabajo, pero (b) no ha realizado un Inicio/detención de este flujo de trabajo.
 
-![](assets/d365-to-acs-icon-stop-with-changes.png)
+![](assets/do-not-localize/d365-to-acs-icon-stop-with-changes.png)
