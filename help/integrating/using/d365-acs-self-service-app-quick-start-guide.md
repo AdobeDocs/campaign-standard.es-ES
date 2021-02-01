@@ -6,7 +6,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: 1e05db3fecc87a026750f40acb0ff063706e3f38
+source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
 workflow-type: tm+mt
 source-wordcount: '1071'
 ht-degree: 2%
@@ -65,7 +65,7 @@ Obtenga más información sobre sus responsabilidades de privacidad y sobre cóm
 
 Al buscar por primera vez en la interfaz de usuario, debería ver una página con un encabezado que tenga este aspecto:
 
-![](assets/d365-to-acs-ui-header.png)
+![](assets/do-not-localize/d365-to-acs-ui-header.png)
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ Verifique que las selecciones &quot;ORG&quot; e &quot;INSTANCE&quot; sean las qu
 
 Si tiene la organización y la instancia correctas, haga clic en el menú &quot;hamburguesa&quot; para mostrar un menú desplegable. A continuación, haga clic en **[!UICONTROL Settings...]** en el menú desplegable para visitar la página en la que ha introducido sus credenciales para Microsoft Dynamics 365 y Campaña (véase más abajo).
 
-![](assets/d365-to-acs-ui-page-workflows-menu-pointers.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-menu-pointers.png)
 
 En la página **[!UICONTROL Settings]**, complete las siguientes secciones:
 
@@ -94,11 +94,11 @@ Suponiendo que haya completado los requisitos previos anteriores y haya agregado
 
 En la página **[!UICONTROL Workflows]**, haga clic en el icono de lápiz asociado al flujo de trabajo **[!UICONTROL Microsoft Dynamics 365 to Campaign]** para editar su configuración.
 
-![](assets/d365-to-acs-ui-page-workflows-ingress-edit-pointer.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-edit-pointer.png)
 
 En la página **[!UICONTROL Microsoft Dynamics 365 to Campaign]**, puede acceder a la lista de las asignaciones de tabla que ha configurado.  Le asignará de forma predeterminada una asignación de contacto/perfil lista para usar. Todas las demás entidades personalizadas deberán configurarse por separado.
 
-![](assets/d365-to-acs-ui-page-ingress-top-pointers.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-top-pointers.png)
 
 En la página **[!UICONTROL Edit Table Mapping]**, marque la sección **[!UICONTROL Mappings]** para asegurarse de que los campos de Microsoft Dynamics 365 se asignen al campo correcto de la Campaña. Si necesita agregar otras asignaciones, hágalo ahora, así como cualquier reemplazo o filtros. [Más información](../../integrating/using/d365-acs-self-service-app-data-sync.md).
 
@@ -111,9 +111,9 @@ Una vez que la configuración sea correcta, haga clic en el botón **[!UICONTROL
 >Le recomendamos **enfáticamente** que primero ejecute esto en los entornos de Etapa o Dev antes de ejecutarlo en Producción. Verifique que la instancia de stage/dev esté seleccionada en el encabezado.
 
 
-![](assets/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
 
-Una vez ejecutada, debe poder realizar pruebas agregando o modificando entradas en Microsoft Dynamics 365 y observando esos cambios en Adobe Campaign en unos minutos. Si en cualquier momento necesita detener este proceso, simplemente presione el mismo botón para detenerlo. [Más información](../../integrating/using/d365-acs-self-service-app-workflows.md#workflow-status)
+Una vez ejecutada, debe poder realizar pruebas agregando o modificando entradas en Microsoft Dynamics 365 y observando esos cambios en Adobe Campaign en unos minutos. Si en cualquier momento necesita detener este proceso, simplemente presione el mismo botón para detenerlo. [Obtenga más información](../../integrating/using/d365-acs-self-service-app-workflows.md#workflow-status)
 
 
 ## Espacio de trabajo de la aplicación de integración {#self-service-app-workspace}
@@ -124,9 +124,9 @@ El encabezado de la aplicación de autoservicio le permite definir la organizaci
 
 Seleccione el **ORG** y la **INSTANCIA** que desea editar/vista. Estos campos aparecen como de solo lectura, pero se pueden editar al colocar el cursor del ratón sobre ellos.
 
-Se mostrará un menú desplegable cuando haga clic en el botón con las tres líneas horizontales ![](assets/d365-to-acs-icon-hamburger.png) en la parte derecha del encabezado.
+Se mostrará un menú desplegable cuando haga clic en el botón con las tres líneas horizontales ![](assets//do-not-localize/d365-to-acs-icon-hamburger.png) en la parte derecha del encabezado.
 
-Las entradas del menú desplegable son
+Las entradas del menú desplegable son:
 
 * **Configuración**: Si selecciona esta opción, se le enviará a una pantalla que le permitirá especificar las credenciales de API para Microsoft Dynamics 365 y Adobe Campaign, así como otras opciones generales para la aplicación.
 
@@ -146,14 +146,14 @@ Las rutas de navegación aparecen en la parte superior de algunas pantallas a me
 
 A continuación se muestra un ejemplo de la pantalla **[!UICONTROL Edit Table Mapping]** que muestra las rutas de exploración y el título de la página. En este caso, puede hacer clic en el texto **[!UICONTROL Workflows]** o **[!UICONTROL Microsoft Dynamics 365 to Campaign]** para ir a una de las pantallas anteriores. **[!UICONTROL Edit Table Mapping]** en las rutas de exploración no se puede hacer clic en este caso porque es la pantalla actual.
 
-![](assets/d365-to-acs-breadcrumbs-ingress.png)
+![](assets/do-not-localize/d365-to-acs-breadcrumbs-ingress.png)
 
 ### Botones comunes {#app-buttons}
 
 Los iconos siguientes se utilizan en varias páginas de la aplicación de autoservicio.
 
-![](assets/d365-to-acs-icon-add.png) - Añadir un nuevo elemento en una lista.
+![](assets/do-not-localize/d365-to-acs-icon-add.png) - Añadir un nuevo elemento en una lista.
 
-![](assets/d365-to-acs-icon-edit.png) - Editar algo que ya existe
+![](assets/do-not-localize/d365-to-acs-icon-edit.png) - Editar algo que ya existe
 
-![](assets/d365-to-acs-icon-delete.png) - Eliminar un elemento de una lista de elementos
+![](assets/do-not-localize/d365-to-acs-icon-delete.png) - Eliminar un elemento de una lista de elementos
