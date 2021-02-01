@@ -7,10 +7,10 @@ audience: designing
 content-type: reference
 topic-tags: about-content-design
 translation-type: tm+mt
-source-git-commit: 15a4484ba846b1e08e5fa456a5448e76d60949c5
+source-git-commit: 300ffd374d7542817ffb7f37614e67804549cc3d
 workflow-type: tm+mt
-source-wordcount: '1225'
-ht-degree: 90%
+source-wordcount: '1250'
+ht-degree: 91%
 
 ---
 
@@ -118,7 +118,9 @@ Para utilizar correctamente el Diseñador de correo electrónico y crear los mej
 
    Previsualice los mensajes antes de enviarlos. Adobe Campaign ofrece una forma de probar el procesamiento de correo electrónico con Litmus. Para obtener más información, consulte [Procesamiento de correo electrónico](../../sending/using/email-rendering.md).
 
-En la siguiente sección se describen más las prácticas recomendadas generales y de diseño en relación con los mensajes: [Prácticas recomendadas de Envío](../../sending/using/delivery-best-practices.md).
+* El diseñador de correo electrónico no admite la etiqueta meta de remitente del reenvío.
+
+En la siguiente guía paso a paso de Adobe Campaign se ofrecen más prácticas generales y de diseño sobre los mensajes: [Prácticas recomendadas de envío con Adobe Campaign](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/communication-channels/delivery-bestpractices/delivery-best-practices.html).
 
 ### Actualización de fragmentos {#email-designer-updates}
 
@@ -160,7 +162,7 @@ Cuando se trata de fragmentos, tenga en cuenta lo siguiente:
 * [Creación de un mensaje SMS](../../channels/using/creating-an-sms-message.md)
 * [Creación y envío de una notificación push](../../channels/using/preparing-and-sending-a-push-notification.md)
 
-## Videotutorial {#video}
+## Vídeo tutorial {#video}
 
 Este vídeo proporciona información general sobre el Diseñador de correo electrónico.
 
