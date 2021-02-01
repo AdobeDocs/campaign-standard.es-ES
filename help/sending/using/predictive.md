@@ -7,7 +7,7 @@ audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
 translation-type: tm+mt
-source-git-commit: 127964c5360344c83dc5ad6a0e2e8523d8995739
+source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
 workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 98%
@@ -29,7 +29,7 @@ Adobe Campaign Standard ofrece dos nuevos modelos de aprendizaje automático: **
 
 * **Puntuación de participación predictiva**: predice la probabilidad de que un destinatario se involucre con un mensaje, así como la probabilidad de exclusión (cancelar la suscripción) en los próximos 7 días después del siguiente envío de correo electrónico. Las probabilidades se dividen además en bloques según el riesgo específico de que no se involucre, medio o bajo. Además, el modelo también proporciona la clasificación del percentil de riesgo para que los clientes entiendan dónde está la clasificación de un determinado cliente en relación con otros.
 
->[!CAUTION]
+>[!IMPORTANT]
 >Esta capacidad no está disponible de forma predeterminada como parte del producto. La implementación requiere la participación de Adobe Consulting. Póngase en contacto con el representante de su Adobe para obtener más información.
 >
 >La función requiere el uso de un almacenamiento de Azure o Amazon S3 que debe proporcionar el cliente.
