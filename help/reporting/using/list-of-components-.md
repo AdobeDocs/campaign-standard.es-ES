@@ -7,9 +7,9 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 translation-type: tm+mt
-source-git-commit: 6fffc6a3574c71c01f1e07ff4e6e6aa194479079
+source-git-commit: e129cde33b24831122433bd4b400204f38799b11
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1295'
 ht-degree: 3%
 
 ---
@@ -247,8 +247,12 @@ Las siguientes tablas proporcionan la lista de las métricas utilizadas en los i
    <td> Número de destinatarios que abrieron el envío.<br /> </td> 
   </tr> 
   <tr> 
+   <td> Baja único<br /> </td> 
+   <td> Número de destinatarios que hicieron clic en el vínculo baja.<br /> </td> 
+  </tr> 
+  <tr> 
    <td> Tasa de cancelación de suscripción<br /> </td> 
-   <td> Porcentaje de anulaciones de suscripciones por destinatario en comparación con los mensajes enviados.<br /> </td> 
+   <td> Número de mensajes únicos bajas en comparación con los enviados.<br /> </td> 
   </tr> 
   <tr> 
    <td> Cancelada la suscripción<br /> </td> 
@@ -338,7 +342,7 @@ Las siguientes tablas proporcionan la lista de las métricas utilizadas en los i
   </tr> 
   <tr> 
    <td> Impresiones<br /> </td> 
-   <td> Total de mensajes en la aplicación que ven los destinatarios en función de si se cumplió el criterio de activación.<br /> </td> 
+   <td> Total de mensajes en la aplicación que ven los destinatarios en función de si se cumple el criterio de déclencheur.<br /> </td> 
   </tr> 
   <tr> 
    <td> Clics en la aplicación <br /> </td> 
