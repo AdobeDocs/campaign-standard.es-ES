@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 91%
+source-wordcount: '513'
+ht-degree: 83%
 
 ---
 
@@ -23,7 +23,7 @@ Para permitirlo, Adobe Campaign captura el procesamiento y lo pone a disposició
 
 Los clientes móviles, de mensajería y de correo web disponibles para **Procesamiento de correo electrónico** en Adobe Campaign se enumeran en el [sitio web](https://litmus.com/email-testing) de Litmus (haga clic en **Ver todos los clientes de correo electrónico**).
 
-## Comprobación del informe de procesamiento de correo electrónico {#checking-the-email-rendering-report}
+## Generación de procesamiento de correo electrónico {#checking-the-email-rendering-report}
 
 Una vez que haya creado su envío de correo electrónico y definido su contenido, así como la población de destino, siga los pasos a continuación.
 
@@ -66,20 +66,21 @@ Se muestra el informe de procesamiento de correo electrónico dedicado. Consulte
 * [Envío de pruebas](../../sending/using/sending-proofs.md)
 * [Editor de consultas](../../automating/using/editing-queries.md#about-query-editor)
 
-## Descripción del informe de procesamiento de correo electrónico {#email-rendering-report-description}
+## Informe de procesamiento de correo electrónico {#email-rendering-report-description}
 
 Este informe presenta los procesamientos de correo electrónico tal y como aparecen al destinatario. Los procesamientos de correo electrónico pueden variar en función del modo en que el destinatario abra la entrega de correo electrónico: en un explorador, en un dispositivo móvil o a través de una aplicación de correo electrónico.
 
->[!NOTE]
->
->El número de procesamientos disponibles aparece en el contrato de licencia. Cada entrega con el **procesamiento de correo electrónico** habilitado disminuye los procesamientos disponibles (conocidos como tokens) uno por uno.
->
->Los tokens representan cada representación individual y no todo el informe de procesamiento de correo electrónico, lo que significa que:
->
->**Cada vez que se genera el informe de renderización de la Bandeja de entrada, se resta un token por cada cliente de mensajería: uno para la renderización de Outlook 2000, uno para la renderización de Outlook , uno para la renderización de Apple Mail , etc.**
->
->**En el mismo envío**, si vuelve a generar el procesamiento por correo electrónico, el número de tokens disponibles se reduce de nuevo en el número de representaciones generadas.
+### Tokens de procesamiento de correo electrónico
 
+El número de procesamientos disponibles aparece en el contrato de licencia. Cada entrega con el **procesamiento de correo electrónico** habilitado disminuye los procesamientos disponibles (conocidos como tokens) uno por uno.
+
+Los tokens representan cada representación individual y no todo el informe de procesamiento de correo electrónico, lo que significa que:
+
+* **Cada** vez que se genera el informe de procesamiento de correo electrónico, se deduce un token por cliente de mensajería: un token para el procesamiento de Outlook 2000, uno para el procesamiento de Outlook, otro para el procesamiento de Apple Mail, etc.
+
+* **En el mismo envío**, si vuelve a generar el procesamiento por correo electrónico, el número de tokens disponibles se reduce de nuevo en el número de representaciones generadas.
+
+### Resumen del informe
 
 El resumen del informe muestra el número de mensajes recibidos, no deseados (spam), no recibidos o pendientes de recepción.
 
