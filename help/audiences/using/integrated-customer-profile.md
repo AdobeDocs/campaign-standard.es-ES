@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: managing-profiles
 context-tags: marketingHistory,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: b3088ed3bbb8828393e28df8f982ed36e7e74590
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 100%
+source-wordcount: '281'
+ht-degree: 48%
 
 ---
 
@@ -22,18 +22,32 @@ Hay disponible un perfil de cliente integrado para cada contacto de la base de d
 
 Para acceder al perfil integrado del cliente, siga estos pasos:
 
-1. En la página de inicio de Adobe Campaign, haga clic en la tarjeta **[!UICONTROL Customer profiles]** o en la pestaña **Perfiles**.
-1. Seleccione un contacto.
+1. En la página de inicio de Adobe Campaign, haga clic en la tarjeta **[!UICONTROL Customer profiles]** o en la ficha **Perfiles** para mostrar la lista de perfiles.
+
+1. Para buscar un perfil basado en un campo específico, abra el panel de búsqueda y seleccione el campo en el que desea realizar la búsqueda.
+
+
+   ![](assets/profile-search.png)
+
+1. Especifique el valor que desea buscar y, a continuación, pulse Intro.
+
+   >[!NOTE]
+   >
+   >Tenga en cuenta que las búsquedas se pueden realizar en función de los campos de correo electrónico, nombre y apellidos, así como de los campos personalizados que se han agregado al ampliar el recurso.
+   >
+   >Las búsquedas distinguen entre mayúsculas y minúsculas y se realizan únicamente en prefijos. Por ejemplo, no podrá buscar un perfil con las últimas letras de su apellido.
+
+1. Seleccione un contacto para abrir su perfil.
 
    ![](assets/mkt_hist_access.png)
 
 Luego puede acceder al **historial de marketing** de este contacto.
 
-![](assets/mkt_hist_view.png)
-
 La información clave sobre el perfil se recopila en esta página, así como la lista de eventos.
 
-Haga clic en un evento de la lista para abrirlo: puede acceder al mensaje que se ha enviado o al servicio al que se ha suscrito el perfil.
+Haga clic en un evento de la lista para abrirlo: puede acceder a los mensajes enviados o a los servicios a los que se ha suscrito el perfil.
+
+![](assets/mkt_hist_view.png)
 
 >[!NOTE]
 >
