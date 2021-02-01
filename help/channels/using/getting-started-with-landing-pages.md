@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: e34d3f032cd49585f86178264e7779b3c92993ae
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 97%
@@ -40,7 +40,7 @@ La sección siguiente enumera las limitaciones que debe tener en cuenta antes de
 * Las páginas de aterrizaje se limitan a **[!UICONTROL Profile]** y solo a recursos de **[!UICONTROL Subscription]**. El registro se puede guardar y actualizar en **[!UICONTROL Profile]**, así como una suscripción/baja en un **[!UICONTROL Service]**.
 Para obtener más información sobre la configuración de recursos, consulte [Configuración de la estructura de datos del recurso](../../developing/using/configuring-the-resource-s-data-structure.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Una página de aterrizaje no puede mostrar ni actualizar datos de ningún otro recurso que no sea **[!UICONTROL Profile]** y **[!UICONTROL Subscription]**.
 
@@ -113,7 +113,7 @@ Una vez definida la página de aterrizaje, puede simular la forma en que se ejec
 
 ![](assets/lp-steps5.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Las pruebas de la página de aterrizaje solo pueden realizarse con perfiles, pero no con perfiles de ensayo. Cuando se envía el formulario, los datos del perfil seleccionado se actualizarán para que sean reales. Para evitar la modificación de perfiles reales, utilice un perfil de cliente falso.
 
@@ -133,7 +133,7 @@ Una vez publicada, la página de aterrizaje estará lista para utilizarse. A con
 
 Para obtener más información sobre la publicación de la página de aterrizaje, consulte [esta sección](../../channels/using/testing-publishing-landing-page.md#publishing-a-landing-page).
 
-## Videotutorial {#video}
+## Vídeo tutorial {#video}
 
 Este vídeo muestra cómo crear y editar una página de aterrizaje.
 
