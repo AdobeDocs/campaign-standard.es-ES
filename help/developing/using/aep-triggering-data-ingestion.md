@@ -2,12 +2,12 @@
 solution: Campaign Standard
 product: campaign
 title: Activación de la ingesta de datos mediante API
-description: Obtenga información sobre cómo activar la ingesta de datos mediante API.
+description: Obtenga información sobre cómo déclencheur la ingesta de datos a través de las API.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 5%
@@ -21,9 +21,9 @@ ht-degree: 5%
 >
 >El conector de datos de Adobe Experience Platform se encuentra actualmente en fase beta, que puede estar sujeto a actualizaciones frecuentes sin previo aviso. Se requiere que los clientes estén alojados en Azure (actualmente en versión beta solo para Norteamérica) para acceder a estas capacidades. Si desea obtener acceso, póngase en contacto con el Servicio de atención al cliente de Adobe.
 
-Adobe Campaign Standard permite activar la ingestión inmediata de asignaciones de datos mediante API y recuperar el estado de las solicitudes de inserción.
+Adobe Campaign Standard le permite realizar el déclencheur de la ingestión inmediata de asignaciones de datos mediante API y recuperar el estado de sus solicitudes de inserción.
 
-Esta página describe cómo activar y recuperar el estado de inserción de las asignaciones de datos. Para obtener información global sobre las API de Campaign Standard, consulte [esta sección](../../api/using/get-started-apis.md).
+En esta página se describe cómo realizar el déclencheur y recuperar el estado de inserción de las asignaciones de datos. Para obtener información global sobre las API de Campaign Standard, consulte [esta sección](../../api/using/get-started-apis.md).
 
 ## Requisitos previos {#prerequisites}
 
@@ -32,7 +32,7 @@ Antes de utilizar las API, la asignación de datos debe haberse configurado y pu
 * [Definición de la asignación](../../developing/using/aep-mapping-definition.md)
 * [Activación de la asignación](../../developing/using/aep-mapping-activation.md)
 
-Una vez creada la asignación de datos, debe evitar que se ejecute para poder activarla desde las API cuando lo desee. Para ello, siga estos pasos:
+Una vez creada la asignación de datos, debe evitar que se ejecute para que pueda realizar el déclencheur desde las API cuando lo desee. Para ello, siga estos pasos:
 
 1. En Campaign Standard, vaya al menú **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]**.
 
@@ -42,7 +42,7 @@ Una vez creada la asignación de datos, debe evitar que se ejecute para poder ac
 
 1. Guarde los cambios
 
-La ejecución de la asignación de datos se ha detenido. Puede utilizar las API de Campaign Standard para activarlas manualmente.
+La ejecución de la asignación de datos se ha detenido. Puede utilizar las API de Campaign Standard para déclencheur manual.
 
 ## Inicio de la ingestión inmediata de la asignación de datos {#starting-immediate-ingestion}
 
@@ -141,7 +141,7 @@ Las respuestas posibles a la operación de GET son:
    }
    ```
 
-* Error en la solicitud de ingesta, con algún registro cargado en un lote:
+* Error en la solicitud de entrada; algunos registros se han cargado en un lote:
 
    ```
    {
