@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: e34d3f032cd49585f86178264e7779b3c92993ae
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 100%
@@ -34,7 +34,7 @@ La pantalla de definición de **[!UICONTROL Content]** es específica para el ca
 
 1. Haga clic en el botón **[!UICONTROL +]** o **[!UICONTROL Add an element]** para añadir una columna de salida. La opción **[!UICONTROL Output columns]** permite definir la información de perfil (columnas) que se va a exportar al archivo de salida.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Asegúrese de que los perfiles incluyan una dirección postal, ya que esta información es esencial para el proveedor de correo. Asegúrese también de haber marcado la casilla **[!UICONTROL Address specified]** en la información de los perfiles. Consulte [Recomendaciones](../../channels/using/about-direct-mail.md#recommendations).
 
