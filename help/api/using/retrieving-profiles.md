@@ -7,10 +7,10 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: da0aa6c111f3e44bb502c1e5c4ad7feff9108d81
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 4%
+source-wordcount: '229'
+ht-degree: 5%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 4%
 La recuperación de perfiles se realiza con una solicitud **GET**.
 
 Luego puede restringir la búsqueda mediante filtros, pedidos y paginación. Para obtener más información sobre esto, consulte la sección [Operaciones adicionales](../../api/using/sorting.md).
+
+Además, las API de Campaign Standard permiten buscar perfiles en función de uno de estos campos: correo electrónico, nombre, apellidos o cualquier campo personalizado. Para obtener más información, consulte [esta sección](#searching-field).
 
 <br/>
 
@@ -82,4 +84,54 @@ Luego puede restringir la búsqueda mediante filtros, pedidos y paginación. Par
        lineStart=@Qy2MRJCS67PFf8soTf4BzF7BXsq1Gbkp_e5lLj1TbE7HJKqc"
    }
    }
+   ```
+
+## Búsqueda de perfiles basada en un campo {#searching-field}
+
+El parámetro **[!UICONTROL filterType]** permite recuperar perfiles en función de uno de estos campos: correo electrónico, nombre, apellidos o cualquier campo personalizado que se haya agregado en el filtro avanzado al ampliar el recurso de perfil.
+
+>[!NOTE]
+>
+>Las búsquedas distinguen entre mayúsculas y minúsculas y se realizan únicamente en prefijos. Por ejemplo, no podrá buscar un perfil con las últimas letras de su apellido.
+
+***Solicitudes de muestra***
+
+* Solicitud de muestra para filtrar perfiles en función del nombre.
+
+   ```
+   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=John&filterType=firstName \
+   -H 'Content-Type: application/json' \
+   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+   -H 'Cache-Control: no-cache' \
+   -H 'X-Api-Key: <API_KEY>'
+   ```
+
+* Solicitud de muestra para filtrar perfiles en función del apellido.
+
+   ```
+   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Miller&filterType=lastName \
+   -H 'Content-Type: application/json' \
+   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+   -H 'Cache-Control: no-cache' \
+   -H 'X-Api-Key: <API_KEY>'
+   ```
+
+* Muestra de una solicitud para filtrar perfiles en base al correo electrónico.
+
+   ```
+   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=John%40gmail.com&filterType=email \
+   -H 'Content-Type: application/json' \
+   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+   -H 'Cache-Control: no-cache' \
+   -H 'X-Api-Key: <API_KEY>'
+   ```
+
+* Solicitud de muestra para filtrar perfiles según el campo personalizado &quot;Hobby&quot;.
+
+   ```
+   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byText?cusHobby=Dancing&filterType=Hobby \
+   -H 'Content-Type: application/json' \
+   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+   -H 'Cache-Control: no-cache' \
+   -H 'X-Api-Key: <API_KEY>'
    ```
