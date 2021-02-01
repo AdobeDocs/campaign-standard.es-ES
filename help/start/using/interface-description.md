@@ -7,10 +7,10 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 translation-type: tm+mt
-source-git-commit: 64eb4fd9bf50cf4a4fb16c1bf8ee29f3f2f583c2
+source-git-commit: c981bd524400e49929d9557aab730ce1ec615551
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 81%
+source-wordcount: '1257'
+ht-degree: 80%
 
 ---
 
@@ -64,11 +64,11 @@ Los principios de navegación son:
 
 ### Ayuda de {#help}
 
-El icono **Ayuda** incorpora a Adobe Experience League al producto.
+En la esquina superior derecha, el icono **Ayuda** lleva a Adobe Experience League al producto.
 
 ![](assets/ux_help.png)
 
-* **[!UICONTROL Search]** field: los resultados de la búsqueda incluyen documentación y artículos de ayuda, los resultados de los foros de la comunidad y más contenido de vídeo, lo que facilita el acceso a más contenido para sacar el máximo partido de la aplicación.
+Utilice el campo **[!UICONTROL Search]** para encontrar instrucciones. Los resultados de la búsqueda incluyen documentación y artículos de ayuda, los resultados de los foros de la comunidad y el contenido de vídeo, lo que facilita el acceso a más contenido para sacar el máximo partido de la aplicación.
 
 Tres fichas le ayudan a encontrar ayuda y asistencia:
 
