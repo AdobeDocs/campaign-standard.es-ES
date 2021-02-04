@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
 translation-type: tm+mt
-source-git-commit: ac669a4dbb3b0f5f8f7352d1271460054913a1b4
+source-git-commit: fb16fc4e24a4345d73e0b2a0ad58a78771a93b8a
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 96%
+source-wordcount: '466'
+ht-degree: 94%
 
 ---
 
@@ -29,7 +29,9 @@ Todas las fechas de lanzamiento están sujetas a cambios: le recomendamos que vi
 
 ## Versión 21.1: versión de febrero {#release-21-1-release}
 
-Las actualizaciones de entorno se producen en olas, durante los intervalos de tiempo indicados a continuación. Encontrará información detallada sobre esta versión en las [Notas de la versión](../../rn/using/release-notes.md) cuando Stage entorno actualiza el inicio. Si tiene alguna duda, póngase en contacto [con el equipo de Atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html).
+Las actualizaciones de entorno se producen en olas, durante los intervalos de tiempo indicados a continuación. Las fechas exactas se comunican por correo electrónico a cada cliente.
+
+Encontrará información detallada sobre esta versión en las [Notas de la versión](../../rn/using/release-notes.md) cuando Stage entorno actualiza el inicio.
 
 <table>
  <thead>
@@ -41,14 +43,16 @@ Las actualizaciones de entorno se producen en olas, durante los intervalos de ti
  <tbody>
   <tr>
    <td>Prueba<br /> </td>
-   <td>1-2 de febrero de 2021<br /> </td>
+   <td>1-10 de febrero de 2021<br /> </td>
   </tr>
   <tr>
    <td> Producción<br /> </td>
-   <td>8 a 15 de febrero de 2021<br /> </td>
+   <td>8 a 17 de febrero de 2021<br /> </td>
   </tr>
  </tbody>
 </table>
+
+Si tiene alguna duda, póngase en contacto [con el equipo de Atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html).
 
 ## Preguntas y respuestas {#questions-and-answers}
 
