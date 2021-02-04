@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: a039818cb5d4169ae921df39e9ea9bc9230fceb0
+source-git-commit: b040a5c6948967d053130268329a8ba4879e363b
 workflow-type: tm+mt
-source-wordcount: '6511'
-ht-degree: 98%
+source-wordcount: '6540'
+ht-degree: 96%
 
 ---
 
@@ -37,13 +37,15 @@ Se ha añadido información sobre la nueva función GetOption que le permite dev
 
 Se ha agregado información sobre la nueva variable de salida **[!UICONTROL filesCount]** disponible después de usar una actividad **[!UICONTROL Transfer file]**. [Puede obtener más información](../../automating/using/transfer-file.md#output-variables)
 
-La sección **Configuración del canal de correo electrónico** se ha actualizado para aclarar cuál es la configuración de correo electrónico más reciente aplicable. Algunos parámetros preexistentes que aún se utilizan para determinados clientes se enumeran en la parte inferior de esta página. [Puede obtener más información](../../administration/using/configuring-email-channel.md)
+La sección **Configuración del canal de correo electrónico** se ha actualizado para aclarar cuál es la configuración de correo electrónico más reciente aplicable. Algunos parámetros preexistentes que aún se utilizan para determinados clientes se muestran en la parte inferior de la página. [Puede obtener más información](../../administration/using/configuring-email-channel.md)
 
 ## Diciembre de 2020 {#doc-updates-december-2020}
 
 **La capacidad de asunto predictivo** ya no se utiliza. [Más información](../../rn/using/deprecated-features.md)
 
-La sección de introducción a la **mensajería transaccional** ahora incluye [esquemas mejorados](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) y un [caso de uso end-to-end](../../channels/using/transactional-messaging-use-case.md) para ilustrar el proceso de implementación. [Más información](../../channels/using/getting-started-with-transactional-msg.md)
+La sección **Introducción a la mensajería transaccional** ahora incluye [esquemas mejorados](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) para una mejor comprensión del proceso.
+
+Ya está disponible un caso de uso de extremo a extremo para ilustrar el proceso de implementación de la mensajería transaccional. [Más información](../../channels/using/transactional-messaging-use-case.md)
 
 La sección **Privacidad** se ha movido [aquí](../../start/using/privacy.md).
 
@@ -57,11 +59,13 @@ La sección **Uso de listados de productos en un mensaje transaccional** se ha m
 
 ## Noviembre de 2020 {#doc-updates-november-2020}
 
-Las secciones Datos personales y Personas se han actualizado con un escenario de caso de uso para ilustrar cómo interactúan las distintas personas en lo que respecta a la privacidad. [Más información](../../start/using/privacy.md#use-case-scenario)
+La sección **Datos personales y personas** se ha actualizado con un escenario de caso de uso para ilustrar cómo interactúan las distintas personas en lo que respecta a la privacidad. [Más información](../../start/using/privacy.md#use-case-scenario)
 
 Se ha añadido una nueva sección que enumera las preguntas más frecuentes sobre Privacidad. [Más información](../../start/using/privacy-faq.md)
 
-La sección Privacidad se ha movido y enriquecido con dos páginas nuevas: [Administración de privacidad](../../start/using/privacy-management.md) y [Administración de solicitudes](../../start/using/privacy-requests.md) de privacidad.
+La sección **Privacidad** se ha movido y enriquecido con dos nuevas páginas: [Administración de privacidad](../../start/using/privacy-management.md) y [Administración de solicitudes de privacidad](../../start/using/privacy-requests.md).
+
+La sección **Mensajes transaccionales** se ha reorganizado y reunido en un solo lugar para mejorar la navegación. [Puede obtener más información](../../channels/using/getting-started-with-transactional-msg.md)
 
 Se ha añadido información en la sección Conector de datos de Adobe Experience Platform sobre el error de validación de asignación de datos relacionado con la administración de privacidad y cómo solucionarlo. [Más información](../../developing/using/aep-mapping-activation.md)
 
@@ -87,7 +91,7 @@ Se ha agregado una sección para describir los nuevos filtros que permiten busca
 
 ## Septiembre de 2020 {#doc-updates-september-2020}
 
-Se ha reorganizado y aclarado la sección de mensajes transaccionales de Evento. [Más información](../../channels/using/editing-transactional-message.md)
+Se ha reorganizado y aclarado la sección **mensajes transaccionales de Evento**. [Más información](../../channels/using/editing-transactional-message.md)
 
 Se ha agregado una nota de precaución para advertir a los usuarios sobre la limitación de permisos relacionada con el acceso al registro. [Más información](../../administration/using/users-management.md)
 
@@ -101,9 +105,9 @@ Se ha agregado información sobre las fuentes anónimas en el informe Perfiles a
 
 Hay disponible una nueva sección actualizada sobre cómo empezar a utilizar la mensajería transaccional. [Más información](../../channels/using/getting-started-with-transactional-msg.md)
 
-La sección **Limitaciones de mensajería transaccional** se movió [aquí](../../channels/using/transactional-messaging-limitations.md)
+La sección **Limitaciones de mensajería transaccional** se movió [aquí](../../channels/using/transactional-messaging-limitations.md).
 
-La sección **Preparación del envío** se movió [aquí](../../sending/using/preparing-the-send.md)
+La sección **Preparación del envío** se movió [aquí](../../sending/using/preparing-the-send.md).
 
 ## Julio de 2020 {#doc-updates-july-2020}
 
