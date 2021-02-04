@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: users-and-security
 context-tags: role,overview;role,main
 translation-type: tm+mt
-source-git-commit: 2c15273c7614204300f615e9060f29c93a4f8481
+source-git-commit: ae2b6587d71f0915da05e53bf45c67c7a37a42c8
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 88%
+source-wordcount: '235'
+ht-degree: 85%
 
 ---
 
@@ -22,10 +22,6 @@ De forma predeterminada, Adobe Campaign ofrece un conjunto de funciones que le p
 
 Combinadas con las unidades organizativas, las funciones proporcionan a los usuarios una vista filtrada de la interfaz y definen su acceso a las diferentes funciones.
 
-Para obtener más información, consulte la [tabla de funciones y permisos](/help/administration/using/assets/acs_rights.pdf) que detalla las funciones disponibles en la interfaz según las autorizaciones seleccionadas.
-
-[![imagen](assets/user_management_3.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
-
 Las funciones se pueden administrar desde el menú **[!UICONTROL Administration > Users & Security > Roles]**.
 
 Los derechos predeterminados son:
@@ -34,13 +30,17 @@ Los derechos predeterminados son:
 
    >[!NOTE]
    >
-   >Si necesita crear activadores, necesitará el **[!UICONTROL Administration]** para poder acceder al menú Desencadenadores. Para obtener más información sobre los activadores, consulte esta [página](../../integrating/using/about-adobe-experience-cloud-triggers.md).
+   >Si necesita trabajar con Déclencheur Experience Cloud, necesitará el derecho **[!UICONTROL Administration]** para poder acceder al menú Déclencheur Experience Cloud. Para obtener más información sobre los Déclencheur de Experience Cloud, consulte esta [página](../../integrating/using/about-adobe-experience-cloud-triggers.md).
 
 * **[!UICONTROL Datamodel]**: Derecho para ejecutar publicaciones y crear recursos personalizados.
 * **[!UICONTROL Generic import]**: Derecho para ejecutar una importación genérica de datos. Para que esto funcione, debe vincular la función **[!UICONTROL Generic import]** a la función **[!UICONTROL Workflow]**.
 * **[!UICONTROL Prepare deliveries]**: Derecho a crear, modificar, preparar y eliminar entregas. Los usuarios con esta función pueden preparar la entrega pero no enviarla.
 * **[!UICONTROL Start deliveries]**: Derecho para crear, modificar, preparar, enviar y eliminar entregas.
 * **[!UICONTROL Workflow]**: Derecho para gestionar la ejecución de flujos de trabajo (inicio, parada, pausa, etc.). Los usuarios con esta función no pueden enviar una entrega ni siquiera en un flujo de trabajo.
+
+Para obtener más información, consulte la [tabla de funciones y permisos](/help/administration/using/assets/acs_rights.pdf) que detalla las funciones disponibles en la interfaz según las autorizaciones seleccionadas.
+
+[![imagen](assets/user_management_3.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
 
 **Temas relacionados:**
 
