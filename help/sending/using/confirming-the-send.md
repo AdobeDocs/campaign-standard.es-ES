@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: sending-and-tracking-messages
 context-tags: delivery,deployment,back
 translation-type: tm+mt
-source-git-commit: b48e246ee515d2f250d866ed72d5765bf1ccb326
+source-git-commit: 8c636ec7a35e9c34210bbb04b1b13aaa6a431345
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 21%
+source-wordcount: '913'
+ht-degree: 22%
 
 ---
 
@@ -84,7 +84,7 @@ Una vez que se envía un mensaje, puede realizar un seguimiento del comportamien
 
 En la vista **[!UICONTROL Summary]** de cada correo electrónico, el **[!UICONTROL Delivered]** inicio al 100% y luego disminuye progresivamente a lo largo del período de validez del envío [](../../administration/using/configuring-email-channel.md#validity-period-parameters), a medida que se informan las devoluciones en bruto y en bruto<!--from the Enhanced MTA to Campaign-->.
 
-De hecho, todos los mensajes se muestran como **[!UICONTROL Sent]** en los [registros de envío](../../sending/using/monitoring-a-delivery.md#sending-logs) tan pronto como se transmiten correctamente desde la Campaña al MTA mejorado (Agente de transferencia de mensajes). Permanecen en ese estado a menos o hasta que una [devolución](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) para ese mensaje se comunique de vuelta del MTA mejorado a la Campaña.
+De hecho, todos los mensajes se muestran como **[!UICONTROL Sent]** en los [registros de envío](../../sending/using/monitoring-a-delivery.md#sending-logs) en cuanto se retransmiten correctamente desde la Campaña al MTA mejorado (Agente de transferencia de mensajes). Permanecen en ese estado a menos o hasta que una [devolución](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) para ese mensaje se comunique de vuelta del MTA mejorado a la Campaña.
 
 Cuando se generan informes de los mensajes de rebote desde el MTA mejorado, su estado cambia de **[!UICONTROL Sent]** a **[!UICONTROL Failed]** y el porcentaje **[!UICONTROL Delivered]** disminuye en consecuencia.
 
@@ -94,17 +94,9 @@ Cuando los mensajes de devolución en pantalla vuelven a informarse desde el MTA
 
 * De lo contrario, el estado cambia a **[!UICONTROL Failed]** y el porcentaje **[!UICONTROL Delivered]** disminuye en consecuencia.
 
-<!--Soft-bouncing messages increment an error counter. When the error counter reaches the limit threshold or when the validity period is over, their status changes to **[!UICONTROL Failed]**.-->
-
-<!--For more on retries after a delivery temporary failure, see [this section](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).-->
-
 Por lo tanto, debe esperar hasta el final del período de validez para ver el porcentaje final **[!UICONTROL Delivered]** y el número final de mensajes **[!UICONTROL Sent]** y **[!UICONTROL Failed]**.
 
 ### Servicio de comentarios de correo electrónico (beta) {#email-feedback-service}
-
->[!NOTE]
->
->Esta sección se aplica solo al canal por correo electrónico.
 
 Con la capacidad del servicio de comentarios de correo electrónico (EFS), el estado de cada correo electrónico se informa con precisión, ya que los comentarios se capturan directamente desde el MTA mejorado (Agente de transferencia de mensajes).
 
