@@ -9,8 +9,8 @@ topic-tags: campaign-standard-releases
 translation-type: tm+mt
 source-git-commit: b040a5c6948967d053130268329a8ba4879e363b
 workflow-type: tm+mt
-source-wordcount: '6540'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +35,7 @@ Se ha añadido información sobre cómo buscar un perfil en función del correo 
 
 Se ha añadido información sobre la nueva función GetOption que le permite devolver el valor de una función especificada al llamar a un flujo de trabajo con parámetros externos. [Puede obtener más información](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)
 
-Se ha agregado información sobre la nueva variable de salida **[!UICONTROL filesCount]** disponible después de usar una actividad **[!UICONTROL Transfer file]**. [Puede obtener más información](../../automating/using/transfer-file.md#output-variables)
+Se ha añadido información sobre la nueva variable de salida **[!UICONTROL filesCount]** disponible después de usar una actividad **[!UICONTROL Transfer file]**. [Puede obtener más información](../../automating/using/transfer-file.md#output-variables)
 
 La sección **Configuración del canal de correo electrónico** se ha actualizado para aclarar cuál es la configuración de correo electrónico más reciente aplicable. Algunos parámetros preexistentes que aún se utilizan para determinados clientes se muestran en la parte inferior de la página. [Puede obtener más información](../../administration/using/configuring-email-channel.md)
 
@@ -637,7 +637,7 @@ Se ha añadido una sección en la documentación de API relacionada con **filtro
 
 **Nuevas funciones incluidas en la versión**
 
-RGPD: Integración de servicios principales: [Más información](https://helpx.adobe.com/es/campaign/kb/campaign-privacy.html)
+RGPD: Integración de servicios principales: [Más información](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=es)
 
 Mejoras de push: comentarios detallados sobre la entrega: [Más información](../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification)
 
