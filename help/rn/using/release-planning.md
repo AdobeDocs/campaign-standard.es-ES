@@ -9,8 +9,8 @@ topic-tags: campaign-standard-release-planning
 translation-type: tm+mt
 source-git-commit: fb16fc4e24a4345d73e0b2a0ad58a78771a93b8a
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ Todas las fechas de lanzamiento están sujetas a cambios: le recomendamos que vi
 
 Las actualizaciones de entorno se producen en olas, durante los intervalos de tiempo indicados a continuación. Las fechas exactas se comunican por correo electrónico a cada cliente.
 
-Encontrará información detallada sobre esta versión en las [Notas de la versión](../../rn/using/release-notes.md) cuando Stage entorno actualiza el inicio.
+Encontrará información detallada acerca esta versión en las [Notas de la versión](../../rn/using/release-notes.md) cuando el entorno de ensayo actualiza el inicio.
 
 <table>
  <thead>
@@ -47,7 +47,7 @@ Encontrará información detallada sobre esta versión en las [Notas de la versi
   </tr>
   <tr>
    <td> Producción<br /> </td>
-   <td>8 a 17 de febrero de 2021<br /> </td>
+   <td>8-17 de febrero de 2021<br /> </td>
   </tr>
  </tbody>
 </table>
