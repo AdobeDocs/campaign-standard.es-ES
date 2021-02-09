@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 41f2280c72a2f6bee3e4e972fab17a7ac94b966c
+source-git-commit: 46d864de0ffd5dce718a2a2c055c3194e45fcdd2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2610'
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 <li>El cálculo del indicador <b>Entregado</b> ahora se basa en los comentarios en tiempo real del MTA mejorado para mejorar la precisión y la reactividad.</li>
 <li>EFS soluciona el problema de los retrasos con la creación de informes de devoluciones en blanco sincrónicas.</li>
 </ul>
-<p>Para obtener más información, consulte la <a href="../../sending/using/confirming-the-send.md#email-feedback-service">documentación detallada</a>.
+<p>Para obtener más información, consulte la <a href="../../sending/using/confirming-the-send.md#message-indicators">documentación detallada</a>.
 </p>
 </td> 
 </tr> 
