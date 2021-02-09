@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 46d864de0ffd5dce718a2a2c055c3194e45fcdd2
+source-git-commit: cb903760fc8fa6168b97a2b02ab7896cd1a8b250
 workflow-type: tm+mt
-source-wordcount: '2610'
-ht-degree: 99%
+source-wordcount: '2627'
+ht-degree: 98%
 
 ---
 
@@ -79,6 +79,8 @@ ht-degree: 99%
 <li>Notificaciones mejoradas: la lista desplegable Notificaciones ahora tiene dos fichas (una para sus propias notificaciones de productos y otra para anuncios de productos globales).</li>
 </ul>
 <p>Para obtener más información, consulte la <a href="../../start/using/interface-description.md#top-bar">documentación detallada</a>.
+</p>
+<p>NOTA: Este cambio se implementará progresivamente en todos los entornos del cliente entre el 10 de febrero y el 1 de marzo.
 </p>
 </td> 
 </tr> 
