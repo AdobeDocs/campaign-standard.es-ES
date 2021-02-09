@@ -7,9 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 4b87ebc2585b87f918bbd688c5858394d8d4a742
+source-git-commit: 160eb4f23d9d683695457c1a1f35be1c300b7793
 workflow-type: tm+mt
-source-wordcount: '8666'
+source-wordcount: '8665'
 ht-degree: 86%
 
 ---
@@ -478,7 +478,7 @@ Especificar código corto resulta útil para dos funciones:
 
 * La previsualización mostrará el código corto si no se proporciona ningún número de origen. Reflejará el comportamiento real en el teléfono móvil.
 
-* La configuración de lista de bloqueados de la función de respuesta automática solo envía a poner en cuarentena al usuario por un código corto específico.
+* La configuración de  de lista de bloqueados de la función de respuesta automática sólo envía al usuario una cuarentena de un código corto específico.
 
 #### TON/NPI de origen, TON/NPI de destino {#ton-npi}
 
@@ -705,7 +705,7 @@ Esta configuración solo permite añadir una opción TLV por mensaje.
 
 ### Respuesta automática enviada al MO {#automatic-reply}
 
-Esta función permite responder texto rápidamente a MO y controlar el envío de código corto a la lista de bloqueados.
+Esta función permite responder texto rápidamente a MO y controlar el envío de código por corto a lista de bloqueados.
 
 Las columnas **Palabra clave** y **Código corto** definen condiciones para la activación de la respuesta automática. Si coinciden ambos campos, se envía el MO y se activa la acción adicional. Para especificar un comodín, debe dejar el campo vacío. La palabra clave coincide con la primera palabra alfanumérica del texto MO, omitiendo la puntuación y los espacios iniciales. Esto significa que el campo **Palabra clave** no puede contener espacios y debe ser una sola palabra.
 
