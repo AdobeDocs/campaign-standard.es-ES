@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: b040a5c6948967d053130268329a8ba4879e363b
+source-git-commit: 87c43d3f97747da03e66634d7236d30a3ec733dc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '6540'
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ Además de las [Notas de la versión](../../rn/using/release-notes.md) de Adobe 
 
 **Nuevas funciones incluidas en la versión**
 
-Servicio de comentarios de correo electrónico: [Más información](../../sending/using/confirming-the-send.md#email-feedback-service)
+Servicio de comentarios de correo electrónico: [Más información](../../sending/using/confirming-the-send.md#message-indicators)
 
 Mejoras en la integración de Adobe Experience Manager: [Más información](../../integrating/using/creating-multilingual-email-aem.md)
 
