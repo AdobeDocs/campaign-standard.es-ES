@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
 translation-type: tm+mt
-source-git-commit: fb16fc4e24a4345d73e0b2a0ad58a78771a93b8a
+source-git-commit: 558f88a129264560851832ca70628509661cb208
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '467'
+ht-degree: 97%
 
 ---
 
@@ -43,11 +43,11 @@ Encontrará información detallada acerca esta versión en las [Notas de la vers
  <tbody>
   <tr>
    <td>Prueba<br /> </td>
-   <td>1-10 de febrero de 2021<br /> </td>
+   <td>1-22 de febrero de 2021<br /> </td>
   </tr>
   <tr>
    <td> Producción<br /> </td>
-   <td>8-17 de febrero de 2021<br /> </td>
+   <td>8 de febrero - 1 de marzo de 2021<br /> </td>
   </tr>
  </tbody>
 </table>
