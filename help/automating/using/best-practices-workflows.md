@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 translation-type: tm+mt
-source-git-commit: 431ab4e83b9d0944cd7b990c3af0e38950dd0272
+source-git-commit: 9b76f02b03ba1180f852b446f0dbbae26a27d4bd
 workflow-type: tm+mt
-source-wordcount: '1120'
-ht-degree: 89%
+source-wordcount: '1179'
+ht-degree: 85%
 
 ---
 
@@ -109,6 +109,8 @@ Puede previsualizar las siguientes diez ejecuciones de sus flujos de trabajo hac
 ![](assets/preview_scheduler.png)
 
 Para obtener más información, consulte [Actividad del planificador](../../automating/using/scheduler.md).
+
+Al diseñar un flujo de trabajo programado que incluya varias actividades, debe asegurarse de que el flujo de trabajo no se vuelva a programar hasta que finalice. Para ello, debe configurar el flujo de trabajo para evitar que se ejecute si una o varias tareas de una ejecución anterior siguen pendientes. Para obtener más información, consulte [esta página](../../automating/using/scheduled-workflows-execution.md).
 
 ## Invocación del flujo de trabajo con parámetros{#workflow-with-parameters}
 
