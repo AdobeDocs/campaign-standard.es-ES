@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 87c43d3f97747da03e66634d7236d30a3ec733dc
+source-git-commit: ea0755d22b34c4c961fd8715ecf4551ffcdcb58e
 workflow-type: tm+mt
-source-wordcount: '6540'
-ht-degree: 98%
+source-wordcount: '6571'
+ht-degree: 97%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 98%
 # Actualizaciones de documentación{#documentation-updates}
 
 Además de las [Notas de la versión](../../rn/using/release-notes.md) de Adobe Campaign, esta página enumera todas las nuevas actualizaciones de la documentación de Adobe Campaign Standard.
+
+## Febrero de 2021 {#doc-updates-february-2021}
+
+Se ha añadido información sobre cómo asegurarse de que un flujo de trabajo programado no se vuelva a programar hasta que una o varias tareas de una ejecución anterior sigan pendientes. [Puede obtener más información](../../automating/using/scheduled-workflows-execution.md)
 
 ## Versión 21.1: febrero de 2021 {#release-21-1---february-2021}
 
