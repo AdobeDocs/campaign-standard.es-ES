@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: schedule,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 9b76f02b03ba1180f852b446f0dbbae26a27d4bd
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 97%
+source-wordcount: '614'
+ht-degree: 89%
 
 ---
 
@@ -33,6 +33,8 @@ Al crear el flujo de trabajo, utilice solamente una actividad **[!UICONTROL Sche
 >[!CAUTION]
 >
 >La **[!UICONTROL Repetition frequency]** de la actividad no puede ser inferior a 10 minutos. Esto significa que un flujo de trabajo no se puede ejecutar automáticamente más de una vez cada 10 minutos.
+
+Al diseñar un flujo de trabajo programado que incluya varias actividades, debe asegurarse de que el flujo de trabajo no se vuelva a programar hasta que finalice. Para ello, debe configurar el flujo de trabajo para evitar que se ejecute si una o varias tareas de una ejecución anterior siguen pendientes. Para obtener más información, consulte [esta página](../../automating/using/scheduled-workflows-execution.md).
 
 **Temas relacionados:**
 
