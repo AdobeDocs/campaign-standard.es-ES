@@ -7,10 +7,10 @@ user-guide-description: 'Centro de ayuda para las principales características, 
 breadcrumb-title: Centro de ayuda
 title: Guía del Campaign Standard
 translation-type: tm+mt
-source-git-commit: 2dedadd1a2879be1aee62272f7b063a365206bd8
+source-git-commit: b6fe1491e3ff519f50e1492abcac7b79dc0e64e6
 workflow-type: tm+mt
-source-wordcount: '1755'
-ht-degree: 100%
+source-wordcount: '1759'
+ht-degree: 99%
 
 ---
 
@@ -287,6 +287,7 @@ ht-degree: 100%
       + [Control de la ejecución del flujo de trabajo](automating/using/monitoring-workflow-execution.md)
       + [Administración de opciones de ejecución](automating/using/managing-execution-options.md)
       + [Administración de propiedades de actividades](automating/using/activity-properties.md)
+      + [Ejecución superpuesta de flujos de trabajo programados](automating/using/scheduled-workflows-execution.md)
    + Invocación de un flujo de trabajo con parámetros externos {#calling-workflow-external-parameters}
       + [Información general](automating/using/calling-a-workflow-with-external-parameters.md)
       + [Declaración de los parámetros en la actividad Señal externa](automating/using/declaring-parameters-external-signal.md)
