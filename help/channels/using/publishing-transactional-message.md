@@ -107,7 +107,7 @@ Para acceder a los informes relacionados con su mensaje transaccional, utilice e
 
 Puede suspender la publicación del mensaje transaccional utilizando el botón **[!UICONTROL Pause]**, por ejemplo, para modificar los datos contenidos en el mensaje. Por lo tanto, los eventos ya no se procesan, sino que se mantienen en cola en la base de datos de Adobe Campaign.
 
-Los eventos en cola se mantienen durante un período de tiempo definido en la API de REST (consulte la [documentación de la API de REST](../../api/using/managing-transactional-messages.md)) o en el evento desencadenador si está utilizando el servicio principal de Triggers (consulte [Acerca de los activadores de Adobe Experience Cloud](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
+Los eventos en cola se mantienen durante un período de tiempo definido en la API de REST (consulte la [documentación de la API de REST](../../api/using/managing-transactional-messages.md)) o en el evento de déclencheur si está utilizando el servicio principal de Déclencheur (consulte [Acerca de Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
 
 ![](assets/message-center_pause.png)
 
