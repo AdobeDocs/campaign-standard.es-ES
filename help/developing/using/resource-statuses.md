@@ -25,7 +25,7 @@ Hay dos columnas dedicadas a mostrar estos estados en la pantalla **[!UICONTROL 
 
 **Estados de publicación**
 
-* **Borrador**: el recurso acaba de ser creado o rediseñado. Para crear las tablas de base de datos y las API correspondientes, el recurso debe volver a publicarse. Si se está rediseñando un recurso, automáticamente se desactiva tras el paso de publicación.
+* **Borrador**: el recurso acaba de ser creado o rediseñado. Para crear las tablas de base de datos, así como las API correspondientes, el recurso debe volver a publicarse. Si se está rediseñando un recurso, automáticamente se desactiva tras el paso de publicación.
 * **Nuevo borrador** pendiente: se volvió a redactar el recurso. El proceso de re-borrador se producirá durante la próxima publicación. La nueva redacción es irreversible. Se muestran varios mensajes de advertencia para informar al usuario, tanto al volver a redactar como al prepararse para la publicación.
 
    Para obtener más información acerca de la nueva redacción, consulte [Eliminación de un recurso](../../developing/using/deleting-a-resource.md).
