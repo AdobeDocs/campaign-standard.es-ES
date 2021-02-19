@@ -121,7 +121,7 @@ Para enviar datos PII a [!DNL Adobe Campaign Standard], cree una regla en [!DNL 
 
    Las claves (por ejemplo, cusEmail, cusFirstName y cusLastName) deben coincidir con los ID de campo definidos en el recurso personalizado de la instancia de Adobe Campaign Standard. Las variables de valor (por ejemplo, email, firstName y LastName) deben coincidir con las claves de los datos JSON que se envían desde la aplicación móvil mientras se llama a la API collectPII de AMS desde el código de la aplicación.
 
-   También puede pasar datos del ciclo vital en el postback Recopilar PII o en otro postback, según los activadores de Evento. a continuación se muestra un ejemplo del JSON de datos del ciclo vital:
+   También puede pasar los datos del ciclo vital en el postback Recopilar PII o en otro postback, según sus déclencheur de Evento. a continuación se muestra un ejemplo del JSON de datos del ciclo vital:
 
    ```
    {
