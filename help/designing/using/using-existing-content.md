@@ -140,7 +140,7 @@ Es posible personalizar la dirección URL remota desde la que se recuperará el 
 
    >[!NOTE]
    >
-   >Las campos de personalización disponibles están vinculadas únicamente a atributos **Envío** (fecha de creación de correo electrónico, estado, etiqueta de campaña...).
+   >Los campos de personalización disponibles están vinculados únicamente a atributos **Envío** (fecha de creación de correo electrónico, estado, etiqueta de campaña...).
 
 ### Modo de compatibilidad {#compatibility-mode}
 
