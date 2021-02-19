@@ -118,7 +118,7 @@ Para crear el origen de datos **[!UICONTROL Declared ID]**:
 
 >[!NOTE]
 >
->El campo **[!UICONTROL AAM Destination ID]** no es necesario si está configurando el origen de datos compartido para la integración [activadores de Campaña](../../integrating/using/configuring-triggers-in-experience-cloud.md). **[!UICONTROL Priority]** solo se necesita al configurar los activadores: integración de Campaña. Priority decide qué fuente de datos se configurará primero. La prioridad puede ser cualquier número, como 1 o 100. Cuanto mayor sea la prioridad, mayor será la preferencia durante la reconciliación.
+>El campo **[!UICONTROL AAM Destination ID]** no es necesario si está configurando el origen de datos compartido para la integración [Déclencheur de Campaña](../../integrating/using/configuring-triggers-in-experience-cloud.md). **[!UICONTROL Priority]** solo se necesita al configurar los Déclencheur: integración de Campañas. Priority decide qué fuente de datos se configurará primero. La prioridad puede ser cualquier número, como 1 o 100. Cuanto mayor sea la prioridad, mayor será la preferencia durante la reconciliación.
 
 ### Paso 3: Configuración del servidor de seguimiento de campaña {#step-3--configure-campaign-tracking-server}
 
