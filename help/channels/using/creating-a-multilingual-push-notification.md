@@ -50,7 +50,7 @@ Antes de personalizar la notificación push multilingüe, primero debemos cargar
 
 1. En las ventanas **[!UICONTROL Audiences]**, arrastre y suelte las consultas para ajustar la audiencia.
 
-   Las consultas agregadas dependen de la plantilla elegida: si elige la plantilla **[!UICONTROL Send multilingual push to Campaign profiles]** puede consulta de destinatarios conocidos de la aplicación móvil. Mientras que si elige la plantilla **[!UICONTROL Send multilingual push to app subscriber]**, puede realizar la consulta de todos los suscriptores de una aplicación concreta que hayan adhesión.
+   Las consultas agregadas dependen de la plantilla seleccionada: si elige la plantilla **[!UICONTROL Send multilingual push to Campaign profiles]** puede consulta de destinatarios conocidos de la aplicación móvil. Mientras que si elige la plantilla **[!UICONTROL Send multilingual push to app subscriber]**, puede realizar la consulta de todos los suscriptores de una aplicación concreta que hayan adhesión.
    >[!NOTE]
    >
    >Si destinatario audiencias con idiomas específicos, debe realizar la lista de todos los idiomas objetivo en el archivo CSV.
