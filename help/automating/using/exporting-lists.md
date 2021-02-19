@@ -76,7 +76,7 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 * [Funciones](../../administration/using/list-of-roles.md)
 * [Personalización de listas](../../start/using/customizing-lists.md)
 
-## Videotutorial {#video}
+## Vídeo tutorial {#video}
 
 Este vídeo muestra cómo configurar listas.
 
