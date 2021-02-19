@@ -95,7 +95,7 @@ _Perfiles y audiencias_
 
 _Integraciones_
 
-* Se ha corregido un problema que podía impedir que algunas fuentes de datos creadas para los activadores se mostraran y se seleccionaran correctamente.
+* Se ha corregido un problema que podía impedir que algunas fuentes de datos creadas para Déclencheur se mostraran y se seleccionaran correctamente.
 
 _Recursos personalizados_
 
@@ -196,11 +196,11 @@ _Perfiles y audiencias_
   </tr> 
   <tr> 
    <td> Alerta de envío<br /> </td> 
-   <td> Además de ver las notificaciones directamente en Adobe Campaign Standard, Adobe Campaign ahora también proporciona un sistema de alerta por correo electrónico para activar alertas por correo electrónico a usuarios o partes interesadas externas de actividades importantes del sistema. Cree, administre y reciba alertas y paneles personalizables para realizar un seguimiento de los éxitos o errores del envío.<br /> La alerta de Envío de Adobe Campaign aumenta la eficacia al mantener a todos los usuarios de Adobe Campaign involucrados en una compañía informados automáticamente sobre el estado de ejecución de envío, a través del correo electrónico y el panel. Para obtener más información, consulte la <a href="../../sending/using/receiving-alerts-when-failures-happen.md">documentación detallada</a>.<br /> </td> 
+   <td> Además de ver las notificaciones directamente en Adobe Campaign Standard, Adobe Campaign ahora también proporciona un sistema de alerta por correo electrónico para las alertas por correo electrónico de déclencheur a usuarios o partes interesadas externas de actividades importantes del sistema. Cree, administre y reciba alertas y paneles personalizables para realizar un seguimiento de los éxitos o errores del envío.<br /> La alerta de Envío de Adobe Campaign aumenta la eficacia al mantener a todos los usuarios de Adobe Campaign involucrados en una compañía informados automáticamente sobre el estado de ejecución de envío, a través del correo electrónico y el panel. Para obtener más información, consulte la <a href="../../sending/using/receiving-alerts-when-failures-happen.md">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Id. declarado cifrado en orígenes de datos<br /> </td> 
-   <td> Enviar desencadenantes de correo electrónico y SMS sin necesidad de un perfil existente en Campaña mediante el uso de información de contacto cifrada (dirección de correo electrónico o número de teléfono) como ID declarado. Como Adobe Campaign Standard puede descodificar los ID declarados cifrados, la Campaña ahora puede crear nuevos perfiles comercializables al recibir audiencias de otras soluciones Experience Cloud que contengan contactos anteriormente desconocidos.<br /> Destinatario clientes y clientes potenciales desconocidos en tiempo real a través de correo electrónico y SMS para mejorar la lealtad en su base de clientes existente y adquirir nuevos clientes respectivamente. Saque el máximo partido a los datos de cookies de origen (de Adobe Audience Manager*) una vez que los clientes potenciales se autentiquen y aprovechen esas perspectivas en Adobe Campaign. <br /> *Se requiere Adobe Audience Manager. Para obtener más información, consulte la <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">documentación detallada</a>.<br /> </td> 
+   <td> Envíe déclencheur por correo electrónico y SMS sin necesidad de un perfil existente en Campaña usando información de contacto cifrada (dirección de correo electrónico o número de teléfono) como ID declarada. Como Adobe Campaign Standard puede descodificar los ID declarados cifrados, la Campaña ahora puede crear nuevos perfiles comercializables al recibir audiencias de otras soluciones Experience Cloud que contengan contactos anteriormente desconocidos.<br /> Destinatario clientes y clientes potenciales desconocidos en tiempo real a través de correo electrónico y SMS para mejorar la lealtad en su base de clientes existente y adquirir nuevos clientes respectivamente. Saque el máximo partido a los datos de cookies de origen (de Adobe Audience Manager*) una vez que los clientes potenciales se autentiquen y aprovechen esas perspectivas en Adobe Campaign. <br /> *Se requiere Adobe Audience Manager. Para obtener más información, consulte la <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Uso compartido de KPI de Campaña a Analytics<br /> </td> 
@@ -423,10 +423,10 @@ _Notificaciones push_
   </tr> 
   <tr> 
    <td> Flujos de trabajo: nueva actividad de señal<br /> </td> 
-   <td> Active un flujo de trabajo desde otro flujo de trabajo mediante la nueva actividad <span class="uicontrol">Señal</span>.<br /> Con la capacidad de inicio de un flujo de trabajo desde otro, ahora puede admitir viajes de clientes más complejos. Puede supervisar mejor los viajes de los clientes y reaccionar en caso de que se produzcan problemas.<br /> Se han actualizado varias actividades de flujo de trabajo:<br /> 
+   <td> Déclencheur de un flujo de trabajo desde otro mediante la nueva actividad <span class="uicontrol">Señal</span>.<br /> Con la capacidad de inicio de un flujo de trabajo desde otro, ahora puede admitir recorridos de cliente más complejos. Puede supervisar mejor los recorridos de los clientes y reaccionar en caso de que se produzcan problemas.<br /> Se han actualizado varias actividades de flujo de trabajo:<br /> 
     <ul> 
-     <li> <span class="uicontrol">Actividad </span> final: una nueva ficha permite especificar un flujo de trabajo que se activará después de que se haya ejecutado esta actividad. </li> 
-     <li> <span class="uicontrol">Actualizar </span> actividad de datos: utilice la nueva transición saliente vacía para agregar una  <strong></strong> actividad final que active otro flujo de trabajo. Las transiciones salientes vacías no transmiten ningún dato y no consumen espacio innecesario en el sistema </li> 
+     <li> <span class="uicontrol">Actividad </span> final: una nueva ficha permite especificar un flujo de trabajo para déclencheur después de que se haya ejecutado esta actividad. </li> 
+     <li> <span class="uicontrol">Actualizar </span> actividad de datos: utilice la nueva transición saliente vacía para agregar una  <strong></strong> actividad final que déclencheur otro flujo de trabajo. Las transiciones salientes vacías no transmiten ningún dato y no consumen espacio innecesario en el sistema </li> 
     </ul> Para obtener más información, consulte la <a href="../../automating/using/external-signal.md">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
@@ -532,12 +532,12 @@ _Flujos de trabajo_
 * Se ha corregido un problema que podía haber impedido previsualizaciones de consultas en recursos de evento (por ejemplo, rtEvent).
 * El archivo de rechazo generado por una actividad **[!UICONTROL Load file]** ahora se puede recuperar en su transición de salida y procesar en la siguiente actividad. Por ejemplo, cargue el archivo de rechazo a través de un servidor SFTP mediante **[!UICONTROL Transfer file]**.
 * Se ha corregido un problema que podía impedir que un usuario limitara la población de un segmento si se seleccionaba **[!UICONTROL Temporary resource]** en la ficha **[!UICONTROL General]** de **[!UICONTROL Segmentation]**.
-* **[!UICONTROL Scheduler]** Ya no se pueden establecer actividades para activar un flujo de trabajo más de una vez cada 10 minutos.
+* **[!UICONTROL Scheduler]** Las actividades ya no se pueden establecer para que el flujo de trabajo se déclencheur más de una vez cada 10 minutos.
 * Se ha corregido un problema que podía haber impedido que **[!UICONTROL Use common columns]** funcionara correctamente en una actividad **[!UICONTROL Union]**.
 
 _Integraciones_
 
-* Se ha corregido un problema que podía haber provocado un error al implementar un activador de evento en Adobe Campaign. Este error se producía cuando se habían agregado los metadatos &quot;Probabilidad de retorno en 30 días&quot; al activador Abandono en Adobe Marketing Cloud.
+* Se ha corregido un problema que podía haber provocado un error al implementar un déclencheur de evento en Adobe Campaign. Este error se producía cuando se habían agregado los metadatos &quot;Probabilidad de retorno en 30 días&quot; al déclencheur de abandono en Adobe Marketing Cloud.
 * Se ha corregido un problema que podía haber provocado que el flujo de trabajo técnico borrara el campo Dimension de Destinatario al importar audiencias desde el servicio principal Personas. Las consultas posteriores no pudieron recuperar las audiencias importadas.
 * Se ha corregido un problema que podía haber provocado que la actividad **[!UICONTROL Save audience]** de un flujo de trabajo fallara al comprobar la opción **[!UICONTROL Share in Adobe Marketing Cloud]**.
 
