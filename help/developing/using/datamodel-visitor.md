@@ -51,7 +51,7 @@ ht-degree: 13%
     </tr>
     <tr>
         <td>envío (envío)</td>
-        <td>Entrega</td>
+        <td>Envío</td>
         <td>link </td>
         <td> </td>
     </tr>
