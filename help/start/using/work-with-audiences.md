@@ -46,7 +46,7 @@ ht-degree: 11%
 
 Los perfiles de Adobe Campaign representan todos los contactos almacenados en la base de datos. Cada perfil corresponde a una entrada de la base de datos que contiene la información necesaria para que ese perfil sea dirigido, calificado y rastreado individualmente. Esto significa que un perfil puede ser: un cliente, un cliente potencial, un individuo suscrito a un boletín, un destinatario, un usuario o cualquier otra denominación según la organización.
 
-**Más información**
+**Puede obtener más información**
 
 * [Acerca de los perfiles](../../audiences/using/about-profiles.md)
 * [Acceso al número de Perfiles activos de su organización](../../audiences/using/active-profiles.md)
@@ -77,7 +77,7 @@ Las páginas de aterrizaje son formularios web que se pueden utilizar para recop
 
 Para obtener más información sobre páginas de aterrizaje, consulte la [documentación dedicada](../../channels/using/getting-started-with-landing-pages.md).
 
-**Más información**
+**Puede obtener más información**
 
 * xxxx
 * xxxx
@@ -91,7 +91,7 @@ Estos contactos son visibles en la lista de Perfiles y se pueden dirigir a campa
 >
 >Tenga en cuenta que el conector Campaign Standard-Microsoft Dynamics 365 está actualmente en disponibilidad limitada y que está sujeto a varias limitaciones, detalladas en la documentación.
 
-**Más información**
+**Puede obtener más información**
 
 * xxxx
 * xxxx
@@ -104,7 +104,7 @@ Las API de Campaign Standard permiten realizar operaciones para actualizar la ba
 >
 >Antes de realizar la creación masiva de perfiles o la actualización mediante llamadas de API, compruebe las limitaciones de escala correspondientes a su contrato de licencia. Para obtener más información, consulte [esta página](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
 
-**Más información**
+**Puede obtener más información**
 
 * xxxx
 * xxxx
@@ -117,7 +117,7 @@ Para permitirle entregar mensajes relevantes y eficaces y captar a sus clientes 
 
 Gracias a los flujos de trabajo y al editor de consultas, puedes crear audiencias que serán blanco de tus diferentes campañas, dependiendo de la información que tengas sobre ellos, sus actividades, su idioma, sus preferencias o su historial de marketing. Esto le permite filtrar los perfiles suscritos, por ejemplo, o crear audiencias de destinatario según un número ilimitado de criterios.
 
-**Más información**
+**Puede obtener más información**
 
 * [Acerca de las audiencias](../../audiences/using/about-audiences.md)
 * [Creación de audiencias](../../audiences/using/creating-audiences.md)
@@ -128,9 +128,9 @@ Gracias a los flujos de trabajo y al editor de consultas, puedes crear audiencia
 
 El Reglamento General de Protección de Datos (GDPR) es la nueva normativa sobre privacidad de la Unión Europea que unifica y moderniza los requisitos de protección de datos. El RGPD se aplica a los clientes de Adobe Campaign que albergan datos de sujetos de datos que residan en la UE. Además de las capacidades de privacidad ya disponibles en Adobe Campaign (incluida la administración de consentimiento, la configuración de retención de datos y las funciones de usuario), aprovechamos esta oportunidad en nuestra función de procesador de datos para incluir capacidades adicionales, a fin de facilitar su preparación como controlador de datos para determinadas solicitudes de RGPD.
 
-Consulte esta [guía](https://helpx.adobe.com/es/campaign/kb/campaign-privacy.html) para obtener más información sobre las herramientas y funcionalidades que proporciona Adobe Campaign para ayudarle a cumplir con el RGPD.
+Consulte esta [guía](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=es) para obtener más información sobre las herramientas y funcionalidades que proporciona Adobe Campaign para ayudarle a cumplir con el RGPD.
 
-**Más información**
+**Puede obtener más información**
 
 * xxxx
 * xxxx
