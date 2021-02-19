@@ -50,7 +50,7 @@ ht-degree: 5%
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lugar de vestibulo mauris libero, no congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehula augue, una lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras y vehículos nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-**Más información**
+**Puede obtener más información**
 
 * xxxx
 * xxxx
@@ -61,7 +61,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lugar de vestibulo maur
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lugar de vestibulo mauris libero, no congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehula augue, una lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras y vehículos nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-**Más información**
+**Puede obtener más información**
 
 * xxxx
 * xxxx
@@ -83,7 +83,7 @@ Los mensajes personalizados son clave para enviar contenido relevante, oferta de
 
 ![](assets/delivery_content_43.png)
 
-**Más información**
+**Puede obtener más información**
 
 * Personalización del correo electrónico de Discover mediante una [muestra completa](../../designing/using/personalization.md#example-email-personalization)
 * [Personalización de direcciones URL](../../designing/using/personalization.md#personalizing-urls)
@@ -104,7 +104,7 @@ La interfaz de usuario del sistema de informes de campaña facilita la creación
 Con Adobe Campaign, puede supervisar y rastrear cada envío individualmente. El panel de mensajes muestra registros dedicados a procesos de seguimiento, reglas e identifica posibles errores y advertencias.
 
 
-**Más información**
+**Puede obtener más información**
 
 * [Acceso a informes](../../reporting/using/about-dynamic-reports.md)
 * [Seguimiento de una entrega](../../sending/using/monitoring-a-delivery.md)
@@ -116,7 +116,7 @@ Con Adobe Campaign, puede supervisar y rastrear cada envío individualmente. El 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lugar de vestibulo mauris libero, no congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehula augue, una lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras y vehículos nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-**Más información**
+**Puede obtener más información**
 
 * xxxx
 * xxxx
