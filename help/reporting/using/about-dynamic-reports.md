@@ -27,7 +27,7 @@ El Sistema de informes dinámico proporciona informes totalmente personalizables
 
 Se puede acceder a los informes:
 
-* Desde la página de inicio, seleccione la ficha **[!UICONTROL Reports]** en la barra superior o la **[!UICONTROL Reports]** tarjeta para acceder a los informes de todos los envíos.
+* En la página de inicio, seleccione la ficha **[!UICONTROL Reports]** en la barra superior o la tarjeta **[!UICONTROL Reports]** para acceder a los informes de todos los envíos.
 
    ![](assets/campaign_reports_access.png)
 
