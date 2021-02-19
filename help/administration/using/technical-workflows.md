@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 'Los flujos de trabajo técnicos '
+title: Flujos de trabajo técnicos
 description: Los flujos de trabajo técnicos son flujos de trabajo listos para usar diseñados para manejar procesos técnicos en segundo plano en Adobe Campaign, lo que garantiza el correcto comportamiento de la plataforma.
 audience: administration
 content-type: reference
