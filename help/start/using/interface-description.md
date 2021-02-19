@@ -76,7 +76,7 @@ Tres fichas le ayudan a encontrar ayuda y asistencia:
    * un acceso rápido a la documentación de Adobe Campaign Standard con vínculos contextuales.
    * un vínculo **[!UICONTROL Learning]** que le permite acceder a la biblioteca de cursos de Adobe Campaign.
    * un vínculo **[!UICONTROL Community]** para acceder al foro dedicado a sus preguntas sobre Campaña.
-   * acceso directo a: Centro de ayuda, Servicio de atención al cliente, estado del producto Experience Cloud, conexión de programadores, notas de la versión, planificación de versiones y la pantalla **[!UICONTROL About]**.
+   * acceso directo a: Centro de ayuda, Servicio de atención al cliente, estado del producto Experience Cloud, conexión de programadores, notas de la versión, planificación de la versión y la pantalla **[!UICONTROL About]**.
 1. La ficha **[!UICONTROL Support]** le permite abrir un caso de soporte y ponerse en contacto con nosotros por teléfono o Twitter.
 1. La ficha **[!UICONTROL Feedback]** facilita el informe de problemas o el uso compartido de ideas.
 
