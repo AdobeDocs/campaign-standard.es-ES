@@ -32,7 +32,7 @@ En este caso, asegúrese de que los siguientes elementos están correctamente co
 
    En **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**, compruebe que la fuente de datos compartida esté configurada correctamente.
 
-   **[!UICONTROL Priority]** se utiliza cuando tiene varias fuentes de datos definidas. Priority decide qué fuente de datos se utilizará para coincidir con el alias recibido en el orden definido. **[!UICONTROL Priority]** solo se necesita para la implementación de Triggers.
+   **[!UICONTROL Priority]** se utiliza cuando tiene varias fuentes de datos definidas. Priority decide qué fuente de datos se utilizará para coincidir con el alias recibido en el orden definido. **[!UICONTROL Priority]** solo se necesita para la implementación de Déclencheur.
 
    Compruebe que la clave de reconciliación es correcta. Es el valor hash/cifrado de este campo el que se utiliza para exportar e importar audiencias.
 
