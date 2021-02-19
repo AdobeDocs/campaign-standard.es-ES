@@ -130,7 +130,7 @@ Su **[!UICONTROL Property Status]** debe ser **[!UICONTROL Ready to configure]**
 
 ## Configuración de aplicaciones específicas del canal en Adobe Campaign {#channel-specific-config}
 
-La aplicación móvil ya está lista para utilizarse en Campaña para notificaciones push o envíos en la aplicación. Ahora puede configurarlo aún más si es necesario para crear eventos que activen los mensajes en la aplicación o carguen certificados push.
+La aplicación móvil ya está lista para utilizarse en Campaña para notificaciones push o envíos en la aplicación. Ahora puede configurarlo aún más si es necesario para crear eventos que generarán déclencheur en los mensajes en la aplicación y/o cargarán certificados push.
 
 1. En el menú avanzado, seleccione **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**.
 
@@ -148,7 +148,7 @@ La aplicación móvil ya está lista para utilizarse en Campaña para notificaci
 
 1. Haga clic en **[!UICONTROL Add]**.
 
-   El evento ya está disponible en la ficha Activadores al crear un mensaje en la aplicación. Para obtener más información, consulte [Preparación y envío de un mensaje en la aplicación](../../channels/using/preparing-and-sending-an-in-app-message.md).
+   El evento ya está disponible en la ficha Déclencheur al crear un mensaje en la aplicación. Para obtener más información, consulte [Preparación y envío de un mensaje en la aplicación](../../channels/using/preparing-and-sending-an-in-app-message.md).
 
 1. En la sección **[!UICONTROL Device-specific settings]** de un panel de aplicaciones móviles, proporcione los detalles de la aplicación para cada dispositivo, incluido el certificado para iOS y la clave del servidor para Android.
 
