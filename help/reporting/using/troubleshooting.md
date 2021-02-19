@@ -111,7 +111,7 @@ Los informes deben tener el siguiente aspecto:
 <table> 
  <thead> 
   <tr> 
-   <th align="center"> <strong>Entrega</strong> <br /> </th> 
+   <th align="center"> <strong>Envío</strong> <br /> </th> 
    <th align="center"> <strong>Enviado</strong> <br /> </th> 
    <th align="center"> <strong>Entrega</strong> <br /> </th>
    <th align="center"> <strong>Aperturas</strong> <br /> </th> 
@@ -124,7 +124,7 @@ Los informes deben tener el siguiente aspecto:
    <td align="center"> <strong>100<br/> </td> 
    <td align="center"> <strong>90<br/> </td> 
    <td align="center"> <strong>10<br/> </td> 
-   <td align="center"> <strong>3<br/> </td> 
+   <td align="center"> <strong>1<br/> </td> 
   </tr> 
   <tr> 
    <td align="center"> RC1<br/> </td> 
