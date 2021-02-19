@@ -62,7 +62,7 @@ El perfil aparece ahora en la lista.
 >[!NOTE]
 >El campo de idioma preferido se utiliza para seleccionar el idioma al enviar mensajes multilingües. Para obtener más información sobre los mensajes multilingües, [consulte esta página](../../channels/using/creating-a-multilingual-email.md).
 
-## Videotutorial {#video}
+## Vídeo tutorial {#video}
 
 Este vídeo muestra cómo importar perfiles con un flujo de trabajo.
 
