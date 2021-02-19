@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '569'
-ht-degree: 75%
+ht-degree: 82%
 
 ---
 
@@ -44,7 +44,7 @@ Un ejemplo de una plantilla de flujo de trabajo genérica diseñada para importa
 * [Cargar actividad de archivo](../../automating/using/load-file.md)
 * [Actividad de reconciliación](../../automating/using/reconciliation.md)
 * [Actividad de segmentación](../../automating/using/segmentation.md)
-* [Actividad de deduplicación](../../automating/using/deduplication.md)
+* [Actividad de anulación de duplicación](../../automating/using/deduplication.md)
 * [Actualizar actividad de datos](../../automating/using/update-data.md)
 
 ## Uso de formatos de archivo plano {#using-flat-file-formats}
@@ -58,7 +58,7 @@ Por ejemplo:
 * Sin delimitador de cadenas
 * Formato de fecha: AAAA/MM/DD HH:mm:SS
 
-Ejemplo del archivo que se va a importar:
+Ejemplo de archivo para importar:
 
 ```
 lastname;firstname;birthdate;email;crmID
@@ -70,7 +70,7 @@ Durance;Allison;15/12/1978;allison.durance@example.com;120987
 
 ## Uso de compresión {#using-compression}
 
-Utilice archivos comprimidos para importar y exportar cuando sea posible. GZIP es compatible de forma predeterminada. Puede agregar preprocesamiento al importar archivos o posprocesamiento al extraer datos, respectivamente, en las actividades de flujo de trabajo **[!UICONTROL Load file]** y **[!UICONTROL Extract file]**.
+Utilice archivos comprimidos para importar y exportar cuando sea posible. GZIP es compatible de forma predeterminada. Puede añadir preprocesamiento al importar archivos o posprocesamiento al extraer datos, respectivamente, en las actividades de flujo de trabajo **[!UICONTROL Load file]** y **[!UICONTROL Extract file]**.
 
 **Temas relacionados:**
 
