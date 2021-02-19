@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 79e172d08557bfeebd088d8a0e8756c5965318cb
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 35%
+ht-degree: 38%
 
 ---
 
@@ -65,7 +65,7 @@ La pestaña **[!UICONTROL Tracking logs]** enumera el historial de seguimiento d
 
 >[!NOTE]
 >
->Si el seguimiento no está habilitado para un envío, esta ficha no se muestra. Solo hay registros de seguimiento disponibles para los canales **email** y **push notification**.
+>Si el seguimiento no está habilitado para una entrega, esta pestaña no se muestra. Solo hay registros de seguimiento disponibles para los canales **email** y **push notification**.
 
 ![](assets/tracking_logs.png)
 
