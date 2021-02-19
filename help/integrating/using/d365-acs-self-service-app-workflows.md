@@ -36,7 +36,7 @@ Los estados de exclusión (por ejemplo, lista de bloqueados de Microsoft Dynamic
 
 >[!IMPORTANT]
 >
->Es muy recomendable que detenga el flujo de trabajo **de Microsoft Dynamics 365 a Campaña** antes de publicar los cambios en Adobe Campaign Standard o Microsoft Dynamics 365. Estos cambios incluyen actualizaciones de recursos/entidades (y sus campos asociados), vínculos, columnas de identificadores, etc. que están siendo utilizados por la integración. Si no lo hace, se podrían perder datos y/o detener inesperadamente el flujo de trabajo.
+>Se recomienda encarecidamente detener el flujo de trabajo **Microsoft Dynamics 365 en Campaña** antes de publicar los cambios en Adobe Campaign Standard o Microsoft Dynamics 365. Estos cambios incluyen actualizaciones de recursos/entidades (y sus campos asociados), vínculos, columnas de identificadores, etc. que están siendo utilizados por la integración. Si no lo hace, se podrían perder datos y/o detener inesperadamente el flujo de trabajo.
 
 ## Retraso de flujo de trabajo
 
