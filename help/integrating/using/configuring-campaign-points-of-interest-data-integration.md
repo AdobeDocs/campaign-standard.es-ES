@@ -130,7 +130,7 @@ Debe tener acceso a Adobe Analytics para realizar la siguiente configuración. S
       ```
 
    * Establezca **Tipo de contenido** como **[!UICONTROL application/json]**.
-   * En **¿Qué etiquetas de datos activan el postback?**, seleccione cualquier evento, normalmente  **[!UICONTROL Launched]** y  **[!UICONTROL exists]**.
+   * En **¿Qué etiquetas de datos Déclencheur el postback?**, seleccione cualquier evento, normalmente  **[!UICONTROL Launched]** y  **[!UICONTROL exists]**.
    * Haga clic en **[!UICONTROL Save & Activate]**.
 
 1. Cree un segundo postback.
@@ -157,7 +157,7 @@ Debe tener acceso a Adobe Analytics para realizar la siguiente configuración. S
       ```
 
    * Establezca **Tipo de contenido** como **[!UICONTROL application/json]**.
-   * En **¿Qué etiquetas de datos activan el postback?**, seleccione  **[!UICONTROL campaign.test]** y  **[!UICONTROL exists]**.
+   * En **¿Qué etiquetas de datos Déclencheur el postback?**, seleccione  **[!UICONTROL campaign.test]** y  **[!UICONTROL exists]**.
    * Haga clic en **[!UICONTROL Save & Activate]**.
 
 >[!NOTE]
