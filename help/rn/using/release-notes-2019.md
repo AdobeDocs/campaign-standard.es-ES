@@ -34,7 +34,7 @@ ht-degree: 9%
    <td> <p>CCPA es la nueva ley de privacidad del Estado de California que armoniza y moderniza los requerimientos de protección de datos que entrarán en vigencia el 1 de enero de 2020. La CCPA se aplica a los clientes de Adobe Campaign que albergan datos de sujetos de datos que residen en California.</p>
    <p>Además de las funciones de privacidad ya disponibles en Adobe Campaign (incluida la administración de consentimiento, la configuración de retención de datos y las funciones de usuario), aprovechamos esta oportunidad para incluir funciones adicionales, para facilitar su preparación para el CCPA:</p>
    <ul>
-    <li>Derecho de acceso y derecho de eliminación: estamos aprovechando las capacidades agregadas para el RGPD. <a href="https://helpx.adobe.com/content/help/es/campaign/kb/acs-privacy.html#righttoaccess">Más información</a> </li>
+    <li>Derecho de acceso y derecho de eliminación: estamos aprovechando las capacidades agregadas para el RGPD. <a href="https://helpx.adobe.com/content/help/es/campaign/kb/acs-privacy.html#righttoaccess">Obtenga más información</a> </li>
     <li><p>Al crear una solicitud de privacidad, se ha agregado el tipo de regulación (GDPR o CCPA) en el servicio principal de privacidad. Este método es el que debe utilizar para todas las solicitudes de acceso y eliminación. El uso de la API y la interfaz de Campaign para las solicitudes de acceso y eliminación quedará obsoleto.  Consulte el artículo <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">Funciones obsoletas y eliminadas</a>.</p></li>
     <li>Se ha agregado un campo <strong>Exclusión de CCPA</strong> al recurso de Perfiles para permitir que los usuarios de Adobe Campaign rastreen si un consumidor ha optado por la venta de información personal. <a href="https://helpx.adobe.com/es/content/help/es-ES/campaign/kb/acs-privacy.html#ccpa">Más información</a>.</li>
   </ul>
@@ -65,22 +65,22 @@ ht-degree: 9%
 * Se ha actualizado la ventana emergente de consentimiento para sistema de informes dinámico para incluir la integración de Adobe Campaign Standard y Microsoft Dynamics 365. Al aceptar los términos, los datos de perfil se incluirán al utilizar la integración de Adobe Campaign Standard/Microsoft Dynamics 365 y el Sistema de informes dinámico. [Más](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)  información (CAMP-29766)
 * Se ha corregido un problema que mostraba fechas de contacto incorrectas al recibir alertas de envío.
 * Cuando se envía un evento de mensaje transaccional con un parámetro de contexto desconocido, la Campaña ahora devuelve un mensaje de error &quot;400&quot; en lugar de &quot;500&quot;. (CAMP-28632)
-* Se ha agregado un nuevo segmento **Excluir prueba** en sistema de informes dinámico. Este segmento ahora está seleccionado de forma predeterminada para filtrar los informes. [Más información](../../reporting/using/list-of-components-.md#segments)
-* La opción **Caducidad del mensaje** se ha agregado a la notificación push. Permite especificar una fecha de caducidad en la que Apple (APNS) o Android (FCM) dejarán de enviar el mensaje. [Más información](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
-* Se han realizado mejoras en la actividad **Cargar archivo**: los registros de flujo de trabajo se han aclarado y detallado sobre el error que se produce cuando un archivo no se carga. La transición de salida generada al activar la opción **Mantener los rechazos en un archivo** ha cambiado el nombre **Rechaza**. [Más información](../../automating/using/load-file.md)
+* Se ha agregado un nuevo segmento **Excluir prueba** en sistema de informes dinámico. Este segmento ahora está seleccionado de forma predeterminada para filtrar los informes. [Puede obtener más información](../../reporting/using/list-of-components-.md#segments)
+* La opción **Caducidad del mensaje** se ha agregado a la notificación push. Permite especificar una fecha de caducidad en la que Apple (APNS) o Android (FCM) dejarán de enviar el mensaje. [Puede obtener más información](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
+* Se han realizado mejoras en la actividad **Cargar archivo**: los registros de flujo de trabajo se han aclarado y detallado sobre el error que se produce cuando un archivo no se carga. La transición de salida generada al activar la opción **Mantener los rechazos en un archivo** ha cambiado el nombre **Rechaza**. [Puede obtener más información](../../automating/using/load-file.md)
 * Se han agregado registros relacionados multilingües a los registros de envío para comprender mejor los errores de envío debido a la ausencia de idiomas en los archivos CSV cargados.
 
 **Mejoras de seguridad**
 
 * Se corrigió un problema que se producía al eliminar la información de un perfil en cuarentena mediante una solicitud de privacidad, el cual eliminaba todos los datos excepto la dirección de correo electrónico de la lista de cuarentena.
 * Se ha mejorado la seguridad para la protección contra inyecciones en los encabezados de correo electrónico.
-* Se ha mejorado la seguridad para la protección contra ataques SSRF donde se pueden usar expresiones xtk (correo electrónico HTML, contenido de texto y asunto, SMS y contenido de notificaciones push).
+* Se ha mejorado la seguridad para la protección contra ataques SSRF donde se pueden utilizar expresiones xtk (correo electrónico HTML, contenido de texto y asunto, SMS y contenido de notificaciones push).
 
 **Mejoras en el diseñador de correo electrónico**
 
 * Se ha corregido un problema que impedía rastrear los vínculos bajas, de suscripción y de página de aterrizaje al insertarlos en un correo electrónico. (CAMP-37809)
 * Se ha corregido un problema que podía provocar errores al crear un nuevo correo electrónico y seleccionar una plantilla. (CAMP-38000)
-* Al editar un vínculo mediante el Diseñador de correo electrónico, ahora puede utilizar la opción **Subrayar vínculo**. Además, se ha agregado una propiedad **Destinatario** con el valor predeterminado establecido en **Ninguno**. [Más información](../../designing/using/styles.md#about-styling-links)
+* Al editar un vínculo mediante el Diseñador de correo electrónico, ahora puede utilizar la opción **Subrayar vínculo**. Además, se ha agregado una propiedad **Destinatario** con el valor predeterminado establecido en **Ninguno**. [Puede obtener más información](../../designing/using/styles.md#about-styling-links)
 * Se ha corregido un problema de color en los vínculos de los componentes de texto en el cuerpo de un correo electrónico. (CAMP-37330)
 * Se ha corregido un problema que impedía que los vínculos asociados se eliminaran al eliminar una imagen. (CAMP-37234)
 * Se ha corregido un problema que impedía guardar las modificaciones en la configuración **Ordenar** del contenido dinámico en una condición. (CAMP-36883)
@@ -229,7 +229,7 @@ ht-degree: 9%
 * Se ha corregido un problema que podía generar un mensaje de error de publicación de recursos personalizados erróneo después del inicio de sesión.
 * Se ha corregido un problema que mostraba una página en blanco al crear o ampliar un recurso personalizado.
 * Se ha corregido un problema que impedía que una audiencia con appSubscriptionrcp como dimensión de segmentación estuviera disponible para la segmentación en un envío móvil.
-* Se ha corregido un error que impedía que las direcciones de correo electrónico de devoluciones en papel se pusieran en cuarentena. (CAMP-24587)
+* Se ha corregido un error que impedía que las direcciones de correo electrónico de devoluciones en bruto se pusieran en cuarentena. (CAMP-24587)
 * Se corrigió un problema que se producía al agregar una reglas de tipología y luego eliminarla antes de guardar la tipología. (CAMP-32789)
 * Se ha corregido un problema que podía impedir que se mostrara contenido de página de aterrizaje al desactivar el contenido dinámico. (CAMP-32924)
 * Se ha corregido un problema con los envíos recurrentes que se producía al usar la personalización en los atributos de un envío principal. (CAMP-32983)
@@ -607,7 +607,7 @@ Se han añadido varias mejoras al canal de mensajería transaccional para optimi
 * Se ha corregido un problema que podía provocar problemas de rendimiento al enviar una notificación push.
 * Se ha corregido un problema que hacía que faltaran campos en los archivos de salida de correo directo.
 * Se ha corregido un problema que permitía a los usuarios modificar flujos de trabajo integrados.
-* Se ha corregido un problema al crear una campaña basada en una plantilla de campaña que incluía un flujo de trabajo con una actividad de extracción configurada. (CAMP-29198)
+* Se corrigió un problema al crear una campaña basada en una plantilla de campaña que incluía un flujo de trabajo con una actividad de extracción configurada. (CAMP-29198)
 * Se ha corregido un problema con la actividad extracción de archivos que impedía usar la misma expresión para varios elementos. (CAMP-29182)
 * Se ha corregido un problema en el editor de consultas con la condición de unión entre el registro de banda ancha y el registro de seguimiento para rtEvent. (CAMP-28780)
 * Se ha corregido un problema que impedía guardar las modificaciones de la opción de página de aterrizaje &quot;Acción específica&quot;. (CAMP-29422)
