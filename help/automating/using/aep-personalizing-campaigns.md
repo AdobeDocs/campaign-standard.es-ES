@@ -21,7 +21,7 @@ ht-degree: 9%
 >
 >El servicio Destinos de audiencia está actualmente en fase beta, que puede estar sujeto a frecuentes actualizaciones sin previo aviso. Se requiere que los clientes estén alojados en Azure (actualmente en versión beta solo para Norteamérica) para acceder a estas capacidades. Si desea obtener acceso, póngase en contacto con el Servicio de atención al cliente de Adobe.
 >
->**** Pushand  **In-** Appchannels aún no están disponibles para su personalización mediante datos contextuales de Adobe Experience Platform.
+>**** Pushand  **In-** Appchannels todavía no están disponibles para su personalización mediante datos contextuales de Adobe Experience Platform.
 
 Una vez configurado el flujo de trabajo con una [audiencia de Adobe Experience Platform](../../audiences/using/aep-about-audience-destinations-service.md), puede personalizar los mensajes con atributos de perfil que existan exclusivamente en el Modelo de datos de experiencia (XDM).
 
