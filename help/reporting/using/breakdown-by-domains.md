@@ -37,5 +37,5 @@ La segunda tabla, **Estadísticas de seguimiento**, contiene los datos disponibl
 * **Haga clic**: Número de veces que se hizo clic en el contenido en un envío.
 * **Cancelada** la suscripción: Número de clics en el vínculo de suscripción.
 * **página espejo**: Número de clics en el vínculo de página espejo.
-* **En lista de bloqueados**: El número de destinatarios que han declarado un correo electrónico como correo no deseado o no deseado. [Más información](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* **En lista de bloqueados**: El número de destinatarios que han declarado un correo electrónico como correo no deseado o no deseado. [Obtenga más información](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
