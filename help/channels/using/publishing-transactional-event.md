@@ -66,7 +66,7 @@ Antes de poder usar el evento, debe previsualización y publicarlo.
 
    >[!NOTE]
    >
-   >Para que el evento active el envío de un mensaje transaccional, debe modificar y publicar el mensaje que se acaba de crear. Consulte las secciones [Edición](../../channels/using/editing-transactional-message.md) y [Publicación de un mensaje transaccional](../../channels/using/publishing-transactional-message.md). También debe [integrar este evento de activación](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger) en su sitio Web.
+   >Para que el evento pueda enviar un déclencheur a un mensaje transaccional, debe modificar y publicar el mensaje que se acaba de crear. Consulte las secciones [Edición](../../channels/using/editing-transactional-message.md) y [Publicación de un mensaje transaccional](../../channels/using/publishing-transactional-message.md). También debe [integrar este evento de déclencheur](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger) en su sitio Web.
 
 1. Una vez que los inicios de Adobe Campaign reciban eventos relacionados con esta configuración de evento, puede hacer clic en el vínculo **[!UICONTROL Latest transactional events]** en la sección **[!UICONTROL History]** para acceder a los últimos eventos enviados por su servicio de terceros y procesados por Adobe Campaign.
 
