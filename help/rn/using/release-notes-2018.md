@@ -162,7 +162,7 @@ Vista las [actualizaciones de documentación más recientes](../../rn/using/docu
 **Otros cambios**
 
 * Se ha agregado un botón **[!UICONTROL Compute stats]** en la ventana **[!UICONTROL Deployment]** de envíos enviados. Le permite recuperar los KPI más recientes, por ejemplo si los resultados del envío tardan demasiado en actualizarse o no se han tenido en cuenta. Para obtener más información, consulte [esta sección](../../sending/using/confirming-the-send.md).
-* En el flujo de trabajo técnico **Actualización de la entregabilidad** listo para usar, los administradores funcionales ahora pueden definir el número de errores consecutivos que se deben ignorar en la actividad de javascript **Actualizar reglas**. De forma predeterminada, el valor del campo se establece en 0, lo que significa que se omitirán todos los errores.
+* En el flujo de trabajo técnico **Actualización para la entregabilidad** listo para usar, los administradores funcionales ahora pueden definir el número de errores consecutivos que se deben ignorar en la actividad de javascript **Actualizar reglas**. De forma predeterminada, el valor del campo se establece en 0, lo que significa que se omitirán todos los errores.
 * Se ha optimizado el SQL generado al administrar las condiciones de restricción de acceso a la unidad.
 * La actividad **[!UICONTROL Update]** ahora le permite agregar, actualizar o eliminar datos relacionados con suscripciones (tabla nms:appSubscriptionRcp).
 * El flujo de trabajo técnico **[!UICONTROL Update delivery execution]** se ha dividido en dos flujos de trabajo para optimizar el rendimiento: - **[!UICONTROL Update delivery execution]**: actualiza el seguimiento del envío. Se inicia cada 10 minutos de forma predeterminada. **[!UICONTROL Update delivery indicators]**:: actualiza los KPI del envío, se inicia cada hora de forma predeterminada. Para obtener más información sobre flujos de trabajo técnicos, consulte esta [sección](../../administration/using/technical-workflows.md#list-of-technical-workflows).
@@ -203,7 +203,7 @@ Vista las [actualizaciones de documentación más recientes](../../rn/using/docu
  <tbody> 
   <tr> 
    <td> RGPD: Integración de servicios principales<br /> </td> 
-   <td> Privacy Core Service Integration le permite automatizar sus solicitudes GDPR en un contexto de varias soluciones a través de una sola llamada de API JSON. <br /> Las solicitudes de RGPD insertadas desde el servicio principal de privacidad a todas las soluciones de Experience Cloud ahora se gestionan automáticamente mediante la Campaña. <br /> Para obtener más información, consulte la <a href="https://helpx.adobe.com/es/campaign/kb/campaign-privacy.html">documentación detallada</a>.<br /> </td> 
+   <td> Privacy Core Service Integration le permite automatizar sus solicitudes GDPR en un contexto de varias soluciones a través de una sola llamada de API JSON. <br /> Las solicitudes de RGPD insertadas desde el servicio principal de privacidad a todas las soluciones de Experience Cloud ahora se gestionan automáticamente mediante la Campaña. <br /> Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=es">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Mejoras de inserción: comentarios detallados de envío<br /> </td> 
@@ -325,7 +325,7 @@ _Recursos personalizados_
    <td> Uso de recursos personalizados en la mensajería transaccional<br /> </td> 
    <td> Además de los campos predeterminados, la mensajería transaccional ahora permite utilizar recursos personalizados para enriquecer el contenido de los mensajes.<br /> Por ejemplo:<br /> 
     <ul> 
-     <li> Aproveche los campos personalizados como criterios de reconciliación para que coincidan con un mensaje transaccional en un perfil </li> 
+     <li> Aproveche los campos personalizados como criterios de reconciliación para que un mensaje transaccional coincida con un perfil </li> 
      <li> Aproveche todos los perfiles, servicios y datos vinculados para personalizar aún más los mensajes transaccionales </li> 
     </ul> Para obtener más información, consulte la <a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">documentación detallada</a>.<br /> </td> 
   </tr> 
@@ -370,7 +370,7 @@ _Integraciones_
 * Ahora, los recursos deben cargarse más rápido al intentar insertar una imagen de la biblioteca de recursos de Experience Cloud en un mensaje.
 * Se ha corregido un problema que podía impedir que la ventana de selección de recursos se cerrara en algunos casos.
 * Desde un detalle de fuente de datos, ahora puede acceder directamente a su flujo de trabajo relacionado para comprobar el estado del flujo de trabajo.
-* Ahora puede actualizar el esquema Desencadenadores directamente al definir o editar un evento desencadenador. Con este cambio, ya no tendrá que cancelar la publicación del activador y crear otro.
+* Ahora puede actualizar el esquema de Déclencheur directamente al definir o editar un evento de déclencheur. Con este cambio, ya no tendrá que cancelar la publicación del déclencheur y crear otro.
 
 _Mensajes transaccionales_
 
@@ -477,7 +477,7 @@ Pueden producirse algunos problemas al utilizar vínculos de ayuda contextuales 
   </tr> 
   <tr> 
    <td> Activación de actividad de señal de API<br /> </td> 
-   <td> Ahora es posible activar una actividad de señal para sus flujos de trabajo directamente desde la API de Adobe Campaign Standard.<br /> Para obtener más información, consulte la <a href="/help/api/using/triggering-a-signal-activity.md">documentación detallada</a> .<br /> </td> 
+   <td> Ahora es posible déclencheur de una actividad de señal para sus flujos de trabajo directamente desde la API de Adobe Campaign Standard.<br /> Para obtener más información, consulte la <a href="/help/api/using/triggering-a-signal-activity.md">documentación detallada</a> .<br /> </td> 
   </tr> 
  </tbody> 
 </table>
