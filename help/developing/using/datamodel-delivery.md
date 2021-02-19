@@ -525,7 +525,7 @@ ht-degree: 10%
                </tr>
                <tr>
                   <td>título</td>
-                  <td>Entrega</td>
+                  <td>Envío</td>
                   <td>string (255)</td>
                   <td> </td>
                </tr>
