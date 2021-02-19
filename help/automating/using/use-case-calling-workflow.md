@@ -19,12 +19,12 @@ ht-degree: 1%
 
 El caso de uso siguiente muestra cómo llamar al flujo de trabajo con parámetros dentro de sus flujos de trabajo.
 
-El objetivo es activar un flujo de trabajo desde una llamada de API con parámetros externos. Este flujo de trabajo cargará datos en la base de datos desde un archivo y creará una audiencia asociada. Una vez creada la audiencia, se activará un segundo flujo de trabajo para enviar un mensaje personalizado con los parámetros externos definidos en la llamada de API.
+El objetivo es el déclencheur de un flujo de trabajo a partir de una llamada de API con parámetros externos. Este flujo de trabajo cargará datos en la base de datos desde un archivo y creará una audiencia asociada. Una vez creada la audiencia, se activará un segundo flujo de trabajo para enviar un mensaje personalizado con los parámetros externos definidos en la llamada de API.
 
 Para realizar este caso de uso, debe realizar las acciones siguientes:
 
-1. **Realice una** llamada de API para activar Workflow 1 con parámetros externos. Consulte [Paso 1: Configuración de la llamada de API](../../automating/using/use-case-calling-workflow.md#step-1--configuring-the-api-call).
-1. **Generar flujo de trabajo 1**: el flujo de trabajo transferirá un archivo y lo cargará en la base de datos. Luego comprobará si los datos están vacíos o no y, finalmente, guardará los perfiles en una audiencia. Finalmente, activará Workflow 2. Consulte [Paso 2: Configuración del flujo de trabajo 1](../../automating/using/use-case-calling-workflow.md#step-2--configuring-workflow-1).
+1. **Realice una** llamada de API a déclencheur Workflow 1 con parámetros externos. Consulte [Paso 1: Configuración de la llamada de API](../../automating/using/use-case-calling-workflow.md#step-1--configuring-the-api-call).
+1. **Generar flujo de trabajo 1**: el flujo de trabajo transferirá un archivo y lo cargará en la base de datos. Luego comprobará si los datos están vacíos o no y, finalmente, guardará los perfiles en una audiencia. Finalmente, déclencheur Flujo de trabajo 2. Consulte [Paso 2: Configuración del flujo de trabajo 1](../../automating/using/use-case-calling-workflow.md#step-2--configuring-workflow-1).
 1. **Generar flujo de trabajo 2**: el flujo de trabajo leerá la audiencia creada en Workflow 1 y, a continuación, enviará un mensaje personalizado a los perfiles, con un código de segmento personalizado con los parámetros. Consulte [Paso 3: Configuración del flujo de trabajo 2](../../automating/using/use-case-calling-workflow.md#step-3--configuring-workflow-2).
 
 ![](assets/extsignal_uc_process.png)
@@ -35,7 +35,7 @@ Antes de configurar los flujos de trabajo, debe crear Workflow 1 y 2 con una act
 
 ## Paso 1: Configuración de la llamada de API {#step-1--configuring-the-api-call}
 
-Realice una llamada de API para activar Workflow 1 con parámetros. Para obtener más información sobre la sintaxis de llamada de API, consulte la [documentación de API de REST de Campaign Standard](../../api/using/triggering-a-signal-activity.md).
+Realice una llamada de API a déclencheur Workflow 1 con parámetros. Para obtener más información sobre la sintaxis de llamada de API, consulte la [documentación de API de REST de Campaign Standard](../../api/using/triggering-a-signal-activity.md).
 
 En nuestro caso, queremos llamar al flujo de trabajo con los parámetros siguientes:
 
@@ -120,7 +120,7 @@ Siga los pasos a continuación para configurar el flujo de trabajo:
    ![](assets/extsignal_uc6.png)
 
 1. Arrastre y suelte una actividad **[!UICONTROL End]** que llamará a Workflow 2 con parámetros y, a continuación, ábrala.
-1. Seleccione la ficha **[!UICONTROL External signal]** y, a continuación, especifique el flujo de trabajo que se activará y su actividad de señal asociada.
+1. Seleccione la ficha **[!UICONTROL External signal]** y, a continuación, especifique el flujo de trabajo que desea déclencheur y su actividad de señal asociada.
 1. Defina los parámetros que desee utilizar en Workflow 2 y sus valores asociados.
 
    En nuestro caso, queremos pasar los parámetros definidos originalmente en la llamada de API (**fileToTarget** y **descuentosDesc**) y un parámetro **segmentCode** adicional con un valor constante (&quot;20% de descuento&quot;).
