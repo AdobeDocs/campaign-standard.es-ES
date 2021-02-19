@@ -108,10 +108,10 @@ Sí, estos mensajes también se denominan mensajes de cadena de margaritas. Siga
 
 1. Crear un mensaje en la aplicación.
 
-1. Defina un evento personalizado y selecciónelo como activador de evento para este IAM, por ejemplo: &quot;Desencadenador de previsualización de otoño push&quot;.
+1. Defina un evento personalizado y selecciónelo como un déclencheur de evento para este IAM, por ejemplo: &quot;Déclencheur de otoño previsualización push&quot;.
 
-1. Al crear el mensaje push, defina una variable personalizada cuyo valor se pueda establecer como un evento utilizado para activar IAM, por ejemplo: Key = &quot;inappkey&quot; y value = &quot;Trigger from fall previsualización Push&quot;.
+1. Al crear el mensaje push, defina una variable personalizada cuyo valor se pueda establecer como un evento utilizado para el déclencheur de IAM, por ejemplo: Key = &quot;inappkey&quot; y value = &quot;Déclencheur de la previsualización de otoño push&quot;.
 
-1. En el código de la aplicación móvil, implemente el activador de evento de la siguiente manera:
+1. En el código de la aplicación móvil, implemente el déclencheur de evento de la siguiente manera:
 
    ![](assets/faq_inapp_2.png)
