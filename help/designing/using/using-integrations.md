@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
 workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -68,37 +68,37 @@ Adobe Campaign oferta varias opciones de creación de correo electrónico. En el
  <tbody> 
   <tr> 
    <td> <strong>Correo electrónico en blanco de inicio</strong><br /> </td> 
-   <td> Compatible<br /> </td> 
-   <td> Compatible<br /> </td> 
-   <td> Compatible<br /> </td> 
+   <td> Admitido<br /> </td> 
+   <td> Admitido<br /> </td> 
+   <td> Admitido<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Escribir HTML</strong><br /> </td> 
-   <td> Compatible<br /> </td> 
+   <td> Admitido<br /> </td> 
    <td> No admitido<br /> </td> 
-   <td> Compatible<br /> </td> 
+   <td> Admitido<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Actualizar HTML</strong><br /> </td> 
    <td> Solo dentro de un componente HTML<br /> </td> 
    <td> No admitido<br /> </td> 
-   <td> Compatible<br /> </td> 
+   <td> Admitido<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Personalización básica</strong><br /> </td> 
-   <td> Compatible<br /> </td> 
-   <td> Compatible<br /> </td> 
-   <td> Compatible<br /> </td> 
+   <td> Admitido<br /> </td> 
+   <td> Admitido<br /> </td> 
+   <td> Admitido<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Personalización avanzada</strong><br /> </td> 
-   <td> Compatible<br /> </td> 
+   <td> Admitido<br /> </td> 
    <td> No admitido<br /> </td> 
    <td> No admitido<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Prueba/Previsualización</strong><br /> </td> 
-   <td> Compatible<br /> </td> 
+   <td> Admitido<br /> </td> 
    <td> Previsualización en Prueba de AEM<br /> en Campaña<br /> </td> 
    <td> Previsualización y prueba en Campaña<br /> </td> 
   </tr> 
@@ -153,7 +153,7 @@ Adobe Campaign oferta varias opciones de creación de correo electrónico. En el
  </tbody> 
 </table>
 
-## Videotutorial {#video}
+## Vídeo tutorial {#video}
 
 Este vídeo muestra cómo crear y editar contenido para Adobe Campaign Standard con Dreamweaver.
 
