@@ -26,7 +26,7 @@ ht-degree: 23%
 </table>
 
 Adobe Campaign le permite iniciar, medir y automatizar campañas en todos los canales.
-La armonización de todos sus canales de marketing no es una tarea imposible. Con la ayuda de Adobe Campaign, puede incorporar datos de clientes de diferentes sistemas, dispositivos y canales en un único perfil. Luego, entregue campañas relevantes y oportunas que satisfagan a sus clientes en los lugares adecuados y en el camino correcto a lo largo de su viaje.
+La armonización de todos sus canales de marketing no es una tarea imposible. Con la ayuda de Adobe Campaign, puede incorporar datos de clientes de diferentes sistemas, dispositivos y canales en un único perfil. Luego, entregue campañas relevantes y oportunas que satisfagan a sus clientes en los lugares adecuados y de la manera correcta a lo largo de su recorrido con ellos.
 
 ## Conceptos globales {#global-concepts}
 
