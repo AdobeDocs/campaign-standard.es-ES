@@ -267,7 +267,7 @@ Los pasos principales para este caso de uso son los siguientes:
 
    ![](assets/substitution_uc_proofs.png)
 
-## Videotutorial {#video}
+## Vídeo tutorial {#video}
 
 Este vídeo muestra cómo puede probar los mensajes de correo electrónico mediante la sustitución de Perfiles.
 
