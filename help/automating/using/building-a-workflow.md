@@ -131,7 +131,7 @@ De forma predeterminada, las actividades no están configuradas y no procesarán
 1. Guarde la actividad y repita estas operaciones para cada actividad del flujo de trabajo.
 1. Guarde el flujo de trabajo.
 
-## Videotutorial {#video}
+## Vídeo tutorial {#video}
 
 Este vídeo muestra cómo crear un flujo de trabajo.
 
