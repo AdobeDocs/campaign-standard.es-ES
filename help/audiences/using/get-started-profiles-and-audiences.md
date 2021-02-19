@@ -36,7 +36,7 @@ Administre el permiso y el consentimiento de los clientes con servicios y págin
 
 Al crear campañas o mensajes, puede especificar el destinatario de los envíos seleccionando entre los contactos de la base de datos de Campañas, utilizando criterios simples o avanzados o seleccionando audiencias.
 
-Identifique a los clientes de manera más eficaz en todos sus canales mediante **perfiles de cliente integrados**, **segmentos personalizados** y **grupos de control**. Cuando conoce a sus clientes, intereses, factores demográficos y preferencias de canal, es más fácil crear experiencias personalizadas que se noten.
+Identifique a los clientes de manera más eficaz en todos sus canales mediante **perfiles integrados del cliente**, **segmentos personalizados** y **grupos de control**. Cuando conoce a sus clientes, intereses, factores demográficos y preferencias de canal, es más fácil crear experiencias personalizadas que se noten.
 
 Adobe Campaign crea perfiles de cliente enriquecidos en tiempo real, permitiéndole ofrecer ofertas más relevantes y personalizadas a medida que cambian las preferencias de sus clientes. Además, Adobe Campaign integra funciones avanzadas de análisis, gestión de datos y determinación de objetivos para crear audiencias.
 
