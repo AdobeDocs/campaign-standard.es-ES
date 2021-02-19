@@ -46,7 +46,7 @@ ht-degree: 8%
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lugar de vestibulo mauris libero, no congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehula augue, una lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras y vehículos nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-**Más información**
+**Puede obtener más información**
 
 * xxxx
 * xxxx
@@ -57,7 +57,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lugar de vestibulo maur
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lugar de vestibulo mauris libero, no congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehula augue, una lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras y vehículos nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-**Más información**
+**Puede obtener más información**
 
 * xxxx
 * xxxx
@@ -68,7 +68,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lugar de vestibulo maur
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lugar de vestibulo mauris libero, no congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehula augue, una lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras y vehículos nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-**Más información**
+**Puede obtener más información**
 
 * xxxx
 * xxxx
@@ -79,7 +79,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lugar de vestibulo maur
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lugar de vestibulo mauris libero, no congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehula augue, una lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras y vehículos nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-**Más información**
+**Puede obtener más información**
 
 * xxxx
 * xxxx
