@@ -84,7 +84,7 @@ Una vez que se envía un mensaje, puede realizar un seguimiento del comportamien
 
 En la vista **[!UICONTROL Summary]** de cada correo electrónico, el **[!UICONTROL Delivered]** inicio al 100% y luego disminuye progresivamente a lo largo del período de validez del envío [](../../administration/using/configuring-email-channel.md#validity-period-parameters), a medida que se informan las devoluciones en bruto y en bruto<!--from the Enhanced MTA to Campaign-->.
 
-De hecho, todos los mensajes se muestran como **[!UICONTROL Sent]** en los [registros de envío](../../sending/using/monitoring-a-delivery.md#sending-logs) en cuanto se retransmiten correctamente desde la Campaña al MTA mejorado (Agente de transferencia de mensajes). Permanecen en ese estado a menos o hasta que una [devolución](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) para ese mensaje se comunique de vuelta del MTA mejorado a la Campaña.
+De hecho, todos los mensajes se muestran como **[!UICONTROL Sent]** en los [registros de envío](../../sending/using/monitoring-a-delivery.md#sending-logs) tan pronto como se transmiten correctamente desde la Campaña al MTA mejorado (Agente de transferencia de mensajes). Permanecen en ese estado a menos o hasta que un [rebote](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) para ese mensaje se comunique de vuelta del MTA mejorado a la Campaña.
 
 Cuando se generan informes de los mensajes de rebote desde el MTA mejorado, su estado cambia de **[!UICONTROL Sent]** a **[!UICONTROL Failed]** y el porcentaje **[!UICONTROL Delivered]** disminuye en consecuencia.
 
