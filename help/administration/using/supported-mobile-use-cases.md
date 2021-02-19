@@ -27,7 +27,7 @@ Adobe Campaign Standard admite los siguientes casos de uso:
 * [Enriquecer un perfil móvil con datos personalizados de la aplicación](../../administration/using/supported-mobile-use-cases.md#enrich-mobile-profile-custom)
 * [Enriquecer un perfil móvil con datos del ciclo vital de la aplicación](../../administration/using/supported-mobile-use-cases.md#enrich-mobile-profile-lifecycle)
 * [Rastrear la interacción del usuario con las notificaciones push](../../administration/using/supported-mobile-use-cases.md#track-user-push)
-* [Implementar un evento personalizado en la aplicación móvil para activar mensajes en la aplicación](../../administration/using/supported-mobile-use-cases.md#custom-event-inapp)
+* [Implementar un evento personalizado en la aplicación móvil en los mensajes en la aplicación de déclencheur](../../administration/using/supported-mobile-use-cases.md#custom-event-inapp)
 * [Definir campos de vinculación para autenticación adicional para la plantilla de perfil basada en mensajes en la aplicación](../../administration/using/supported-mobile-use-cases.md#linkage-fields-inapp)
 
 Para configurar estos casos de uso, necesita las siguientes extensiones de [!DNL Experience Platform Launch]:
@@ -289,7 +289,7 @@ contextData.put("action", "2");
 MobileCore.trackAction("tracking", contextData);
 ```
 
-## Implementar un evento personalizado en la aplicación para activar mensajes en la aplicación {#custom-event-inapp}
+## Implementar un evento personalizado en la aplicación para déclencheur de mensajes en la aplicación {#custom-event-inapp}
 
 ### Con iOS {#custom-event-inapp-ios}
 
