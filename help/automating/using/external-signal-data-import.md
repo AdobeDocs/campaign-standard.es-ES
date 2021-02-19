@@ -38,7 +38,7 @@ El flujo de trabajo de origen se presenta de la siguiente manera:
 
 * Una actividad de [reconciliación](../../automating/using/reconciliation.md) crea los vínculos entre los datos importados y la base de datos para que los datos de transacciones estén correctamente conectados a perfiles y productos.
 * Una actividad de [actualización de datos](../../automating/using/update-data.md) inserta y actualiza el recurso de transacciones de la base de datos con los datos de entrada.
-* Una actividad [End](../../automating/using/start-and-end.md) desencadena el flujo de trabajo de destino, que se utiliza para actualizar los agregados.
+* Una actividad [End](../../automating/using/start-and-end.md) déclencheur el flujo de trabajo de destino, que se utiliza para actualizar los agregados.
 
 ![](assets/signal_example_source1.png)
 
