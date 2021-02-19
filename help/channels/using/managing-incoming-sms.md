@@ -31,7 +31,7 @@ Para ello:
 
    ![](assets/sms_mo_1.png)
 
-1. Elija la palabra clave que activará esta respuesta automática. Las palabras clave no distinguen entre mayúsculas y minúsculas. Por ejemplo: si los destinatarios envían la palabra clave &quot;STOP&quot;, recibirán la respuesta automática.
+1. Elija la palabra clave que déclencheur esta respuesta automática. Las palabras clave no distinguen entre mayúsculas y minúsculas. Por ejemplo: si los destinatarios envían la palabra clave &quot;STOP&quot;, recibirán la respuesta automática.
 
    Deje esta columna vacía si desea enviar la misma respuesta sin importar la palabra clave.
 
