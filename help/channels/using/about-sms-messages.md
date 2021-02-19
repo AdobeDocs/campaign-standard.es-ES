@@ -42,7 +42,7 @@ Para enviar mensajes SMS a un teléfono móvil necesitas:
 * [Informe SMS](../../reporting/using/sms-report.md)
 * [Guía de Campaign Standard Mobile](https://helpx.adobe.com/es/campaign/kb/acs-mobile.html)
 
-## PLANTILLA DE ENVÍOS SMS {#sms-delivery-template}
+## Plantilla de envíos SMS {#sms-delivery-template}
 
 Adobe Campaign oferta una Plantilla de envíos para dispositivos móviles. Esta plantilla debe estar correctamente vinculada a la cuenta externa utilizada para el canal **[!UICONTROL Mobile (SMS)]**. Para acceder y modificarlo:
 
