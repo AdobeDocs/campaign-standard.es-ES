@@ -58,7 +58,7 @@ El campo **[!UICONTROL Execution]** permite definir la acción que se realizará
 El campo **[!UICONTROL In case of error]** permite especificar la acción que se realizará en caso de que la actividad encuentre un error. Hay dos opciones disponibles para esto:
 
 * **Suspender el proceso**: el flujo de trabajo se suspende automáticamente. El estado del flujo de trabajo es **Erróneo** y el color asociado se vuelve rojo. Una vez resuelto el problema, reinicie el flujo de trabajo.
-* **Ignorar**: la actividad no se ejecuta y, como resultado, tampoco se ejecuta ninguna de las actividades que la siguen (en la misma rama). Esto puede resultar útil para tareas recurrentes. Si la rama tiene un Planificador colocado en la parte superior, esto debería activarse en la siguiente fecha de ejecución.
+* **Ignorar**: la actividad no se ejecuta y, como resultado, tampoco se ejecuta ninguna de las actividades que la siguen (en la misma rama). Esto puede resultar útil para tareas recurrentes. Si la rama tiene un Planificador colocado en la parte superior, esto debería generar déclencheur en la siguiente fecha de ejecución.
 
 El campo **[!UICONTROL Behavior]** permite definir el procedimiento que se debe seguir si se utilizan tareas asincrónicas. Hay dos opciones disponibles para esto:
 
