@@ -78,7 +78,7 @@ Más información:
 * [Exportación de registros](../../automating/using/exporting-logs.md)
 * [Acerca de la integración de Campaign-Analytics](../../integrating/using/about-campaign-analytics-integration.md)
 
-## Videotutorial {#video}
+## Vídeo tutorial {#video}
 
 Este vídeo proporciona información general sobre las funciones de sistema de informes de Adobe Campaign Standard.
 
