@@ -185,13 +185,13 @@ Para enviar un mensaje transaccional basado en evento, primero debe crear y conf
 
    Al obtener una vista previa del evento, la API de REST contiene un atributo que especifica la dirección de correo electrónico, el teléfono móvil o los atributos específicos de la notificación push, según el canal seleccionado.
 
-   Una vez publicado el evento, se crea automáticamente un mensaje transaccional vinculado al nuevo evento. Para que el evento active el envío de un mensaje transaccional, debe [modificar](../../channels/using/editing-transactional-message.md) y [publicar](../../channels/using/publishing-transactional-message.md) el mensaje que se acaba de crear.
+   Una vez publicado el evento, se crea automáticamente un mensaje transaccional vinculado al nuevo evento. Para que el evento pueda enviar un mensaje transaccional a déclencheur, debe [modificar](../../channels/using/editing-transactional-message.md) y [publicar](../../channels/using/publishing-transactional-message.md) el mensaje que se acaba de crear.
 
 1. Integre el evento en su sitio Web (consulte [Integración del activador de eventos](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)).
 
 ### Mensajes transaccionales basados en perfil {#profile-based-transactional-messages}
 
-Puede enviar mensajes transaccionales en función de los perfiles de los clientes, lo que le permite aplicar reglas de tipología de marketing, incluir el vínculo de cancelación de suscripción, agregar el mensaje al sistema de informes de envío global y aprovecharlo en el viaje del cliente.
+Puede enviar mensajes transaccionales en función de los perfiles de los clientes, lo que le permite aplicar reglas de tipología de marketing, incluir el vínculo de cancelación de suscripción, agregar el mensaje al sistema de informes de envío global y aprovecharlo en el recorrido del cliente.
 
 Para enviar un mensaje transaccional basado en perfil, primero debe crear y configurar datos de objetivos de evento **desde la base de datos de Adobe Campaign**.
 
@@ -207,7 +207,7 @@ Para enviar un mensaje transaccional basado en perfil, primero debe crear y conf
 
    Al obtener una vista previa del evento, la API de REST no contiene ningún atributo que especifique la dirección de correo electrónico, el teléfono móvil o los atributos específicos de la notificación push, ya que se recuperará del recurso **[!UICONTROL Profile]**.
 
-   Una vez publicado el evento, se crea automáticamente un mensaje transaccional vinculado al nuevo evento. Para que el evento active el envío de un mensaje transaccional, debe [modificar](../../channels/using/editing-transactional-message.md) y [publicar](../../channels/using/publishing-transactional-message.md) el mensaje que se acaba de crear.
+   Una vez publicado el evento, se crea automáticamente un mensaje transaccional vinculado al nuevo evento. Para que el evento pueda enviar un mensaje transaccional a déclencheur, debe [modificar](../../channels/using/editing-transactional-message.md) y [publicar](../../channels/using/publishing-transactional-message.md) el mensaje que se acaba de crear.
 
 1. Integre el evento en su sitio Web (consulte [Integración del activador de eventos](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)).
 
