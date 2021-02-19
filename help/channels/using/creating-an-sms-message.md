@@ -81,7 +81,7 @@ Una vez finalizado el envío, puede empezar a medir el impacto del mensaje con i
 * [Acerca de la modificación del contenido push y SMS](../../channels/using/about-sms-and-push-content-design.md)
 * [Administración de plantillas](../../start/using/marketing-activity-templates.md)
 
-## Videotutorial {#video}
+## Vídeo tutorial {#video}
 
 Este vídeo muestra cómo crear un envío SMS.
 
