@@ -22,12 +22,12 @@ Puede crear un mensaje de correo electrónico [que comience de nuevo en Email De
 
 1. Puede **crear un correo electrónico a partir de un lienzo en blanco** agregando fácilmente componentes de estructura y contenido y personalizando su contenido para enviar un envío rápidamente. También puede administrar completamente los elementos de estilo. Para obtener más información, [comience rápidamente](#from-scratch-email) o consulte la [documentación completa](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 
-1. Puede **crear un mensaje de correo electrónico a partir de una plantilla lista para usar** seleccionando una plantilla y creando su nuevo contenido de correo electrónico desde aquí. [Más información](#building-content-from-an-out-of-the-box-template)
+1. Puede **crear un mensaje de correo electrónico a partir de una plantilla lista para usar** seleccionando una plantilla y creando su nuevo contenido de correo electrónico desde aquí. [Obtenga más información](#building-content-from-an-out-of-the-box-template)
 
 También puede crear un mensaje de correo electrónico [con contenido existente](#with-existing-content):
 
-1. Puede **convertir un contenido HTML existente** (creado externamente o en el editor heredado). [Más información](#converting-an-html-content)
-1. Puede **importar inmediatamente un contenido HTML existente** en modo de compatibilidad. [Más información](#compatibility-mode)
+1. Puede **convertir un contenido HTML existente** (creado externamente o en el editor heredado). [Obtenga más información](#converting-an-html-content)
+1. Puede **importar inmediatamente un contenido HTML existente** en modo de compatibilidad. [Obtenga más información](#compatibility-mode)
 
 | Sin contenido | Con contenido |
 |---|---|
