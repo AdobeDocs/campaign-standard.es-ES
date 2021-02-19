@@ -27,7 +27,7 @@ Una vez creado y publicado un evento transaccional, debe integrar el activador d
 
 Por ejemplo: desea que se active un evento de &quot;abandono del carro de compras&quot; cada vez que uno de sus clientes abandone el sitio web antes de comprar los productos en el carro de compras. Para ello, el desarrollador web debe utilizar la API de Mensajes transaccionales REST.
 
-1. El programador envía una solicitud según el método POST, que activa el [envío del evento transaccional](#sending-a-transactional-event).
+1. El programador envía una solicitud según el método POST, que déclencheur el [envío del evento transaccional](#sending-a-transactional-event).
 1. La respuesta a la solicitud del POST contiene una clave principal, que permite al programador enviar una o varias solicitudes a través de una solicitud de GET. De este modo, puede obtener el [estado de evento](#transactional-event-status).
 
 ## Envío de un evento transaccional {#sending-a-transactional-event}
