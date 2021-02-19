@@ -48,7 +48,7 @@ Consulte la tabla siguiente para obtener más información sobre estas funciones
 
 >[!NOTE]
 >
->[!DNL Places] incluye eventos de lugares como activadores para mensajes en la aplicación (N/D para notificaciones push), lo que enriquece los perfiles con  [!DNL Places] datos y la compatibilidad con las notificaciones locales. Consulte esta [página](../../channels/using/preparing-and-sending-an-in-app-message.md) para obtener más información. <br>[!DNL Places] la integración limitada incluye perfiles enriquecidos con  [!DNL Places] datos.
+>[!DNL Places] incluye eventos de lugares como déclencheur para mensajes en la aplicación (N/D para notificaciones push), lo que enriquece los perfiles con  [!DNL Places] datos y la compatibilidad con las notificaciones locales. Consulte esta [página](../../channels/using/preparing-and-sending-an-in-app-message.md) para obtener más información. <br>[!DNL Places] la integración limitada incluye perfiles enriquecidos con  [!DNL Places] datos.
 
 ## ¿Qué caso de uso facilita la integración del SDK de Adobe Experience Platform en Adobe Campaign Standard? {#aep-use-cases}
 
@@ -82,7 +82,7 @@ Debe configurar un postback CollectPII (consulte esta [página](https://helpx.ad
 
 El objetivo de la llamada CollectPII es enriquecer el Perfil móvil en Campaña. Debe activarse cada vez que haya nueva información significativa que los clientes deseen agregar al perfil en función de sus casos de uso y necesidades comerciales.
 
-## ¿Se pueden activar las llamadas CollectPII en respuesta a varios eventos desencadenadores? {#collect-pii-calls}
+## ¿Se pueden activar llamadas CollectPII en respuesta a varios eventos de déclencheur? {#collect-pii-calls}
 
 Sí. Según las necesidades de su empresa, puede activar llamadas de CollectPII en respuesta al inicio de sesión de usuario en la aplicación, o bien comprar algo o evento de ciclo vital o usuario que entra en una geofence, etc. En resumen, una interacción del usuario con la aplicación que genera la información que desea utilizar para el enriquecimiento de Perfil.
 
