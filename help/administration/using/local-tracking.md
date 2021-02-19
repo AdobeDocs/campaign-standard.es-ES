@@ -46,7 +46,7 @@ Para el seguimiento de impresiones, debe enviar el valor &quot;7&quot; para acti
 
 ### Para Android {#implement-local-impression-tracking-android}
 
-El SDK de Adobe Experience Platform Mobile inicio el seguimiento de impresiones para la notificación local al activarla.
+El SDK de Adobe Experience Platform Mobile inicio el seguimiento de impresiones para las notificaciones locales al activarlas.
 
 ### Para iOS {#implement-local-impression-tracking-ios}
 
@@ -60,7 +60,7 @@ Para explicar cómo implementar el seguimiento de impresión, necesitamos compre
 
 Para que el seguimiento de impresiones siga funcionando mientras la aplicación se encuentra en segundo plano, debemos enviar &quot;Contenido disponible&quot; para que la aplicación sepa que es necesario realizar el seguimiento.
 
-El SDK de Adobe Experience Platform Mobile inicio el seguimiento de impresiones para la notificación local al activarla.
+El SDK de Adobe Experience Platform Mobile inicio el seguimiento de impresiones para las notificaciones locales al activarlas.
 
 >[!CAUTION]
 >
