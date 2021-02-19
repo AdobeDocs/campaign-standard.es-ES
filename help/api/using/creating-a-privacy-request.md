@@ -28,7 +28,7 @@ Antes de crear solicitudes, debe definir la Área de nombres que utilizará. Par
 La carga útil debe contener los siguientes parámetros:
 
 * **name**: un nombre interno único
-* **área de nombres**: el nombre de Área de nombres configurado en la interfaz de Campaign Standard
+* **Área de nombres**: el nombre de Área de nombres configurado en la interfaz de Campaign Standard
 * **validationValue**: el valor de reconciliación basado en la clave de reconciliación definida en la Área de nombres
 * **label**: la etiqueta de solicitud
 * **type**: tipo de solicitud. Los valores aceptados son &quot;access&quot; o &quot;delete&quot;.
