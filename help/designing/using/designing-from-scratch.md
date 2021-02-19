@@ -30,7 +30,7 @@ A continuación se indican los pasos principales para crear y diseñar contenido
 1. Previsualización del correo electrónico.
 1. Guarde el contenido y continúe con el mensaje después de asegurarse de haber definido una audiencia y programado correctamente el envío.
 
-También puede ver este [vídeo de introducción](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=spa).
+También puede ver este [vídeo de introducción](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true).
 
 >[!NOTE]
 >
