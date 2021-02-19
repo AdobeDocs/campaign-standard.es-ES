@@ -77,4 +77,4 @@ Para editar una asignación XDM, ábrala, modifique la información deseada y gu
 
 >[!IMPORTANT]
 >
->Por ahora, si edita un valor en la sección **[!UICONTROL Field mappings]** y luego hace clic fuera del campo, el cambio no se muestra en la interfaz hasta que hace clic en el botón **[!UICONTROL Save]**. Este comportamiento se produce sólo una vez, cuando la edición de **[!UICONTROL Field Mappings]** es la primera edición de la página.
+>Por ahora, si edita un valor en la sección **[!UICONTROL Field mappings]** y luego hace clic fuera del campo, el cambio no se muestra en la interfaz hasta que hace clic en el botón **[!UICONTROL Save]**. Este comportamiento se produce una sola vez, cuando la edición de **[!UICONTROL Field Mappings]** es la primera edición de la página.
