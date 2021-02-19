@@ -59,7 +59,7 @@ Para administrar los destinatarios de las notificaciones, definir los criterios 
 Desde la interfaz de Adobe Campaign, puede:
 
 * Cree y gestione paneles de alertas de envío. Consulte [Creación de un panel de alerta de envío](#creating-a-delivery-alerting-dashboard).
-* Defina y gestione los criterios de alerta de envío para cada panel. Por ejemplo, puede generar alertas basadas en envíos con una preparación fallida o envíos con un rendimiento bajo solamente. Consulte [Acerca de los criterios de alerta](#about-alerting-criteria).
+* Defina y gestione los criterios de alerta de envío para cada panel. Por ejemplo, puede generar alertas en función de envíos con una preparación fallida o envíos con un rendimiento reducido únicamente. Consulte [Acerca de los criterios de alerta](#about-alerting-criteria).
 * Modifique los parámetros de criterios para cada panel. Consulte [Parámetros de criterios](#criteria-parameters).
 * Defina un grupo de destinatarios para cada panel.
 
