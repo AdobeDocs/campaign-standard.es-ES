@@ -21,7 +21,7 @@ ht-degree: 84%
 
 >[!NOTE]
 >
->Para crear activadores, necesitará la función **[!UICONTROL Administration]** o estar en el grupo de seguridad **[!UICONTROL Administrators]**. Para obtener más información, consulte esta [página](../../administration/using/list-of-roles.md).
+>Para crear Déclencheur, necesitará la función **[!UICONTROL Administration]** o estar en el grupo de seguridad **[!UICONTROL Administrators]**. Para obtener más información, consulte esta [página](../../administration/using/list-of-roles.md).
 
 Debe asegurarse de definir los comportamientos que desea supervisar de antemano en Adobe Experience Cloud (servicio principal de **[!UICONTROL Triggers]**). Para obtener más información, consulte la [documentación de Adobe Experience Cloud](https://docs.adobe.com/content/help/es-ES/core-services/interface/activation/triggers.html). Tenga en cuenta que cuando define el activador, debe activar los alias. Para cada comportamiento (navegación/abandono de formulario, adición/eliminación de productos, sesión caducada, etc.), se debe añadir un nuevo activador en Adobe Experience Cloud.
 
@@ -49,17 +49,17 @@ Los pasos para ponerlo en práctica son:
 
    ![](assets/remarketing_4.png)
 
-1. Ahora puede publicar sus activadores. Para obtener más información sobre esto, consulte [Publicación de un activador en Campaña](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign).
+1. Ahora puede publicar sus déclencheur. Para obtener más información sobre esto, consulte [Publicación de un déclencheur en Campaña](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign).
 
-## Publicación de un activador en la Campaña {#publishing-trigger-in-campaign}
+## Publicación de un déclencheur en la Campaña {#publishing-trigger-in-campaign}
 
-Después de crear un evento desencadenador en Adobe Campaign basado en un activador de Adobe Experience Cloud existente, ahora debe publicarlo.
+Después de crear un evento de déclencheur en Adobe Campaign basado en un déclencheur de Adobe Experience Cloud existente, ahora debe publicarlo.
 
-1. Desde el activador creado anteriormente, haga clic en el botón **[!UICONTROL Publish]** para inicio de publicar el evento desencadenador.
+1. Desde el déclencheur creado anteriormente, haga clic en el botón **[!UICONTROL Publish]** para inicio de publicar el evento de déclencheur.
 
    ![](assets/trigger_publish_1.png)
 
-1. Puede comprobar el progreso de la publicación desencadenadora en **[!UICONTROL Publication]**.
+1. Puede comprobar el progreso de la publicación de déclencheur en **[!UICONTROL Publication]**.
 
    ![](assets/trigger_publish_2.png)
 
@@ -73,7 +73,7 @@ Después de crear un evento desencadenador en Adobe Campaign basado en un activa
 
    ![](assets/trigger_publish_4.png)
 
-1. Haga clic en el botón **[!UICONTROL Show Trigger in Experience Cloud]** para poder vista de la definición del activador en Adobe Experience Cloud.
+1. Haga clic en el botón **[!UICONTROL Show Trigger in Experience Cloud]** para poder vista de la definición de déclencheur en Adobe Experience Cloud.
 
 Una vez publicado el evento, se crea automáticamente una plantilla transaccional vinculada al nuevo evento. Después debe modificar y publicar la plantilla que acaba de crear. Para obtener más información, consulte la sección [Modificación de la plantilla](../../start/using/marketing-activity-templates.md).
 
