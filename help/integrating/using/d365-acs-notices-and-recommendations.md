@@ -55,7 +55,7 @@ A continuación encontrará vínculos que le ayudarán a implementar las solicit
 
 ## Opción de exclusión {#opt-out}
 
-Debido a las diferencias en los atributos de exclusión entre Microsoft Dynamics 365 y la Campaña, y a las diferencias en los requisitos comerciales de cada cliente, la asignación de exclusión se ha dejado como un ejercicio para que el cliente lo complete.  Es importante asegurarse de que las opciones de exclusión se asignan correctamente entre sistemas para que las preferencias de exclusión de los usuarios finales se mantengan y no reciban una comunicación a través de un canal del que hayan exclusión.
+Debido a las diferencias en los atributos de exclusión entre Microsoft Dynamics 365 y la Campaña, y a las diferencias en los requisitos comerciales de cada cliente, la asignación de exclusión se ha dejado como un ejercicio para que el cliente lo complete.  Es importante asegurarse de que las opciones de exclusión se asignan correctamente entre los sistemas para que las preferencias de exclusión de los usuarios finales se mantengan y no reciban una comunicación a través de un canal del que hayan exclusión.
 
 Tenga en cuenta que en las asignaciones de exclusión solo se pueden usar las siguientes opciones:
 
