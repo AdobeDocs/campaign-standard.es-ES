@@ -21,7 +21,7 @@ ht-degree: 8%
 
 Adobe debe activar la funcionalidad en Adobe Campaign. Póngase en contacto con el ejecutivo o el socio de servicios profesionales de su cuenta de Adobe.
 
-El equipo de Adobe necesitará la siguiente información para activar los activadores:
+El equipo de Adobe necesitará la siguiente información para activar déclencheur:
 
 * Nombre de Compañía de Marketing Cloud
 * ID de la organización IMS
@@ -75,7 +75,7 @@ El alias al que se hace referencia anteriormente en la DTM debe crearse en el se
 >
 >Vamos a usar este atributo de cliente en la fuente de datos de Adobe Campaign (paso siguiente).
 
-### Configuración de activadores y alias en la Campaña {#configuring-triggers-and-aliases-in-campaign}
+### Configuración de déclencheur y alias en la Campaña {#configuring-triggers-and-aliases-in-campaign}
 
 1. Asegúrese de que tiene **[!UICONTROL Experience Cloud triggers]** visible en la instancia de Adobe Campaign Standard. Si no lo hace, póngase en contacto con los administradores de Adobe Campaign.
 
@@ -87,26 +87,26 @@ El alias al que se hace referencia anteriormente en la DTM debe crearse en el se
 
    >[!NOTE]
    >
-   >Puede reconciliar los activadores tanto para los usuarios anónimos como para los usuarios que iniciaron sesión. Para los usuarios anónimos, el perfil debe existir en Adobe Campaign y antes se ha enviado un correo electrónico al usuario. Para ello, la configuración del ID de Visitante es suficiente. Sin embargo, si desea reconciliar los activadores para los usuarios que iniciaron sesión, debe configurar la fuente de datos de ID declarados. Para obtener más información sobre esto, consulte [Configuración de fuentes de datos](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
+   >Puede reconciliar sus déclencheur tanto para usuarios anónimos como para usuarios con sesión iniciada. Para los usuarios anónimos, el perfil debe existir en Adobe Campaign y antes se ha enviado un correo electrónico al usuario. Para ello, la configuración del ID de Visitante es suficiente. Sin embargo, si desea reconciliar déclencheur para usuarios que iniciaron sesión, debe configurar la fuente de datos de ID declarados. Para obtener más información sobre esto, consulte [Configuración de fuentes de datos](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
 
-## Creación de un activador en la interfaz de Experience Cloud {#creating-a-trigger-in-the-experience-cloud-interface}
+## Creación de un déclencheur en la interfaz de Experience Cloud {#creating-a-trigger-in-the-experience-cloud-interface}
 
-Es necesario crear un activador de Adobe Experience Cloud para poder utilizarlo en la Campaña.
+Es necesario crear un déclencheur de Adobe Experience Cloud para poder utilizarlo en Campaña.
 
-Cree un nuevo activador en Experience Cloud y asegúrese de seleccionar el grupo de informes utilizado en el sitio web. Asegúrese de elegir la dimensión adecuada para que el activador se active.
+Cree un nuevo déclencheur en Experience Cloud y asegúrese de seleccionar el grupo de informes utilizado en el sitio web. Asegúrese de elegir la dimensión adecuada para que el déclencheur se active.
 
 Consulte la [documentación de Adobe Experience Cloud](https://docs.adobe.com/content/help/es-ES/core-services/interface/activation/triggers.html) y vea este [vídeo](https://helpx.adobe.com/es/marketing-cloud/how-to/email-marketing.html#step-two).
 
-## Desencadena las mejores prácticas y limitaciones {#triggers-best-practices-and-limitations}
+## Prácticas recomendadas y limitaciones de déclencheur {#triggers-best-practices-and-limitations}
 
-Esta es una lista de las prácticas recomendadas y las limitaciones para el uso de la Campaña: Desencadena la integración:
+Esta es una lista de las prácticas recomendadas y las limitaciones para el uso de la Campaña: integración de Déclencheur:
 
-* Si tiene varias instancias de Campaign Standard, todas las instancias pueden recibir activadores siempre que estén en el mismo ID de organización de IMS. Analytics también debe estar en el mismo ID de organización de IMS.
-* No se puede crear un activador en el servicio principal de activación con eventos de dos grupos de informes diferentes.
-* Los activadores se basan en mensajes transaccionales. Los mensajes transaccionales se utilizan siempre que se tiene que enviar un mensaje muy rápido. No se pueden poner en cola mensajes transaccionales y, a continuación, reproducirlos por lotes.
-* Los activadores no son de naturaleza determinística. Cuando se genera un activador, envía todos los alias asociados con la cookie, de modo que en el caso de exploradores compartidos como en quioscos de venta minorista, bibliotecas, cibercafés o dispositivos compartidos en casa (marido y mujer que inician sesión desde el mismo dispositivo), no es posible asignar el ID correcto. Todos los ID utilizados para iniciar sesión con el navegador se envían a Campaña, que envía un mensaje en función de la primera reconciliación. Si hay varios &quot;ID de correo electrónico&quot; que pueden conciliarse, la Campaña no envía un mensaje de correo electrónico. No hay forma de que la Campaña sepa cuál es el ID de correo electrónico correcto a menos que Analytics lo capture y envíe.
-* No se puede almacenar el contenido de la carga útil en la Campaña. Los activadores no se pueden usar para actualizar los datos de un perfil.
-* Los atributos del cliente no son compatibles con los activadores (es decir, solo se pueden usar datos de grupos de informes para definir las reglas comerciales de activadores).
+* Si tiene varias instancias de Campaign Standard, todas las instancias pueden recibir déclencheur siempre que estén en el mismo ID de organización de IMS. Analytics también debe estar en el mismo ID de organización de IMS.
+* No puede crear un déclencheur en el servicio principal de Déclencheur con eventos de dos grupos de informes diferentes.
+* Los déclencheur se basan en mensajes transaccionales. Los mensajes transaccionales se utilizan siempre que tiene que enviar un mensaje muy rápido. No se pueden poner en cola mensajes transaccionales y, a continuación, reproducirlos por lotes.
+* Los déclencheur no son de naturaleza determinística. Cuando se genera un déclencheur, envía todos los alias asociados con la cookie, de modo que en el caso de exploradores compartidos como en quioscos de venta minorista, bibliotecas, cibercafés o dispositivos compartidos en casa (marido y mujer que inician sesión desde el mismo dispositivo), no es posible asignar el ID correcto. Todos los ID utilizados para iniciar sesión con el navegador se envían a Campaña, que envía un mensaje en función de la primera reconciliación. Si hay varios &quot;ID de correo electrónico&quot; que pueden conciliarse, la Campaña no envía un mensaje de correo electrónico. No hay forma de que la Campaña sepa cuál es el ID de correo electrónico correcto a menos que Analytics lo capture y envíe.
+* No se puede almacenar el contenido de la carga útil en la Campaña. No se pueden usar déclencheur para actualizar los datos de un perfil.
+* Los atributos del cliente no son compatibles con los Déclencheur (es decir, solo se pueden utilizar los datos del grupo de informes para definir las reglas comerciales de Déclencheur).
 * La colección de colecciones no se admite en la Campaña.
 
 >[!CAUTION]
