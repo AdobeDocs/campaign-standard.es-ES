@@ -31,7 +31,7 @@ La primera tabla **Resumen de participación en la aplicación** se divide en tr
 
 * **[!UICONTROL Processed/sent]**:: Número total de envíos para el envío en la aplicación.
 * **[!UICONTROL Delivered]**:: Número de mensajes en la aplicación enviados correctamente, en relación con el número total de mensajes enviados.
-* **[!UICONTROL Impressions]**:: Total de mensajes en la aplicación que ven los destinatarios en función de si se cumple el criterio de activación.
+* **[!UICONTROL Impressions]**:: Total de mensajes en la aplicación que ven los destinatarios en función de si se cumple el criterio de déclencheur.
 * **[!UICONTROL Unique impressions]**:: Número de impresiones por destinatario.
 * **[!UICONTROL In-App click through rate]**:: Porcentaje de usuarios que hicieron clic en el Botón 1 o en el Botón 2 en comparación con los usuarios que vieron el mensaje.
 * **[!UICONTROL In-App dismissal rate]**:: Porcentaje de mensajes en la aplicación que destinatarios descartaron.
