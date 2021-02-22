@@ -54,8 +54,7 @@ La ingestión inmediata de una asignación XDM en Adobe Experience Platform se a
 >
 >Para ejecutar la llamada de API de POST de ingesta, el usuario debe tener una función **de ejecución de la función SQL**, que puede proporcionar un administrador Campaign Standard mediante la ejecución de JS Script:
 >
->
-```
+>```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
 >REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
 >```

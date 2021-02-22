@@ -88,6 +88,7 @@ La actividad **[!UICONTROL Segmentation]** se suele colocar después de activida
       >[!NOTE]
       >
       >Se pueden usar distintas limitaciones para cada valor. Por ejemplo, puede especificar una agrupación para el campo **[!UICONTROL Gender]**, y limitar la población con miembros **[!UICONTROL Male]** a 10 personas y la población con miembros **[!UICONTROL Female]** a 30 personas. Si utiliza varios campos de agrupación de datos, todas las agrupaciones deben tener el mismo tamaño.
+
    ![](assets/wkf_segment_limit_by_grouping.png)
 
 1. Confirme la configuración de su segmento.
