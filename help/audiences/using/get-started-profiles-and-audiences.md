@@ -62,7 +62,7 @@ Antes de empezar a enviar mensajes a un contacto, debe asegurarse de obtener su 
 
 Con Campaña, le recomendamos que utilice **mecanismos fáciles de inclusión y exclusión** a través de [servicios](../../audiences/using/creating-a-service.md) y [páginas de aterrizaje](../../channels/using/getting-started-with-landing-pages.md) para actualizar su información de contacto y ampliar su base de datos.
 
-Al proporcionar **vínculos bajas** en sus mensajes, se podrán agregar Perfiles a la  de lista de bloqueados, cuando sea necesario, y por lo tanto, se mejorará la capacidad de entrega de la plataforma. Para obtener más información sobre lista de bloqueados administración de , consulte [Acerca de la inclusión y la exclusión en la Campaña](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Al proporcionar **vínculos bajas** en sus mensajes, se podrán agregar Perfiles a la  de lista de bloqueados, cuando sea necesario, y por lo tanto, se mejorará la capacidad de entrega de la plataforma. Para obtener más información sobre la administración de la lista de bloqueados, consulte [Acerca de la inclusión y la exclusión en Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!IMPORTANT]
 >
@@ -77,7 +77,7 @@ Más información:
 
 <img src="assets/do-not-localize/icon_privacy.svg" width="60px">
 
-Adobe Campaign oferta un conjunto de herramientas para ayudarlo con su **Cumplimiento de la privacidad** para el RGPD, la CCPA y otras leyes de privacidad.
+Adobe Campaign ofrece un conjunto de herramientas que le ayudarán con su **cumplimiento de la privacidad** para el RGPD, la CCPA y otras leyes de privacidad.
 
 Obtenga más información en este [artículo](https://helpx.adobe.com/es/campaign/kb/campaign-privacy.html) sobre Administración de privacidad y las características que proporcionamos para administrar el derecho al acceso, el derecho al olvido, el consentimiento, la retención de datos y las funciones de usuario.
 
