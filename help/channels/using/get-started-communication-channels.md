@@ -57,10 +57,10 @@ Además, aproveche las **funcionalidades de personalización y contenido dinámi
 Más información:
 
 * [Creación de correos electrónicos](../../channels/using/about-emails.md)
-* [Creación de mensajes SMS](../../channels/using/about-sms-messages.md)
+* [Creación de un mensaje SMS](../../channels/using/about-sms-messages.md)
 * [Creación de notificaciones push](../../channels/using/about-push-notifications.md)
 * [Creación de mensajes en la aplicación](../../channels/using/about-in-app-messaging.md)
-* [Creación de envíos de Correo postal](../../channels/using/about-direct-mail.md)
+* [Creación de envíos de correo postal](../../channels/using/about-direct-mail.md)
 
 ## Mensajes transaccionales {#transactional-messages}
 
