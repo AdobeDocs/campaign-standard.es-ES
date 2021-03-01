@@ -23,7 +23,7 @@ ht-degree: 13%
 <td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#import-export-data">Importar/exportar datos</a></p></td></tr>
 </table>
 
-Adobe Campaign oferta un entorno gráfico completo que le permite diseñar procesos complejos, incluyendo segmentación, ejecución de campañas, procesamiento de archivos, etc. Por ejemplo, puede utilizar un flujo de trabajo para descargar un archivo de un servidor, descomprimirlo e importar sus registros en la base de datos de Adobe Campaign.
+Adobe Campaign oferta un entorno gráfico completo que le permite diseñar procesos complejos, incluyendo segmentación, ejecución de campañas, procesamiento de archivos, etc. Por ejemplo, puede utilizar un flujo de trabajo para descargar un archivo de un servidor, descomprimirlo y, a continuación, importar sus registros en la base de datos de Adobe Campaign.
 
 Un flujo de trabajo también puede involucrar a los usuarios asignándoles tareas o haciéndoles aprobar tareas realizadas. Esto significa que puede asignar una tarea a uno o varios usuarios para trabajar en contenido o especificar destinatarios, y aprobar pruebas antes de enviar el mensaje.
 
@@ -40,7 +40,7 @@ Se pueden utilizar flujos de trabajo en diferentes contextos, como por ejemplo:
 
 Hay varias actividades disponibles para ayudarle a diseñar sus flujos de trabajo.
 
-[Las ](../../automating/using/about-targeting-activities.md) actividades de establecimiento de objetivos le permiten crear uno o varios destinatarios definiendo conjuntos y dividiendo o combinando estos conjuntos mediante intersecciones, uniones u operaciones de exclusión.
+[Las ](../../automating/using/about-targeting-activities.md) actividades de segmentación le permiten crear uno o más destinos definiendo conjuntos y dividiendo o combinando estos conjuntos mediante operaciones de intersección, unión o exclusión.
 
 Con [actividades de ejecución](../../automating/using/about-execution-activities.md), coordine el flujo de trabajo y sus actividades, mientras que [actividades de Canal](../../automating/using/about-channel-activities.md) le permite combinar canales de comunicación de Campaign Standard para crear flujos de trabajo entre canales.
 
