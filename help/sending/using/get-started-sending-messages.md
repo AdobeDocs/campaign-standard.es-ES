@@ -76,7 +76,7 @@ Más información:
 
 <img src="assets/do-not-localize/icon_deliverability.svg"  width="60px">
 
-La posibilidad de entrega permite medir el éxito de sus campañas alcanzando la bandeja de entrada de sus destinatarios sin rebotar, o bien se marca como correo no deseado.
+La capacidad de entrega permite medir el éxito de las campañas que llegan a la bandeja de entrada de los destinatarios sin rebotar o marcadas como correo no deseado.
 
 Campaign Standard proporciona varias **herramientas de entregabilidad** para ayudarle a mejorar el número de mensajes entregados correctamente: informes de perspectiva de envío, envío de optimización de tiempo, previsualización de mensajes, procesamiento de correo electrónico, administración de cuarentenas, etc.
 
@@ -101,4 +101,4 @@ Este vídeo muestra cómo enviar un correo electrónico de prueba, preparar y en
 
 >[!VIDEO](https://video.tv.adobe.com/v/24013/)
 
-Hay disponibles más vídeos de procedimientos para Campaign Standards [aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
+Hay disponibles vídeos de procedimientos adicionales de Campaign Standard [aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
