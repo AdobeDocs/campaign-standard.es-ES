@@ -53,7 +53,7 @@ Los diferentes menús disponibles son:
 
 <img src="assets/do-not-localize/icon_users.svg"  width="60px">
 
-Invite a los usuarios a acceder a la aplicación y administrar **grupos de seguridad**, que son conjuntos de usuarios que comparten las mismas funciones y derechos dentro de la organización. De forma predeterminada, Adobe Campaign oferta un conjunto de **roles** que le permite definir autorizaciones unitarias asignadas a usuarios y grupos de usuarios. Combinadas con **unidades organizativas**, las funciones proporcionan a los usuarios una vista filtrada de la interfaz y definen su acceso a las diferentes funciones.
+Invite a los usuarios a acceder a la aplicación y administrar **grupos de seguridad**, que son conjuntos de usuarios que comparten las mismas funciones y derechos dentro de la organización. De forma predeterminada, Adobe Campaign ofrece un conjunto de **roles** que le permite definir autorizaciones unitarias asignadas a usuarios y grupos de usuarios. Combinadas con **unidades organizativas**, las funciones proporcionan a los usuarios una vista filtrada de la interfaz y definen su acceso a las diferentes funciones.
 
 El estándar de campaña también le permite supervisar la información relacionada con la seguridad. Puede recuperar información sobre las exportaciones de datos realizadas por los usuarios a través de la pantalla **[!UICONTROL Export audits]** y aprovechar la pantalla **[!UICONTROL Licenses]** para monitorear todas las licencias de Campaña instaladas dentro de su organización, así como información diferente como el número de compilación, la versión de lanzamiento y los términos de acuerdo.
 
