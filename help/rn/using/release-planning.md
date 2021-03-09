@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
 translation-type: tm+mt
-source-git-commit: 558f88a129264560851832ca70628509661cb208
+source-git-commit: 1b971fbf7b5d36283434db0389534a3dda2ebb45
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '466'
 ht-degree: 97%
 
 ---
@@ -25,9 +25,7 @@ Las actualizaciones se implementan en dos fases. En primer lugar, las instancias
 
 Todas las fechas de lanzamiento están sujetas a cambios: le recomendamos que visite esta página con regularidad para buscar actualizaciones.
 
-**¡NOVEDAD!** Suscríbase a las [notificaciones de la versión de Campaign Standard](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) para obtener detalles sobre próximas versiones directamente en la bandeja de entrada.
-
-## Versión 21.1: versión de febrero {#release-21-1-release}
+## Versión 21.2: versión de mayo {#release-21-2-release}
 
 Las actualizaciones de entorno se producen en olas, durante los intervalos de tiempo indicados a continuación. Las fechas exactas se comunican por correo electrónico a cada cliente.
 
@@ -43,16 +41,18 @@ Encontrará información detallada acerca esta versión en las [Notas de la vers
  <tbody>
   <tr>
    <td>Prueba<br /> </td>
-   <td>1-22 de febrero de 2021<br /> </td>
+   <td>19 y 20 de abril de 2021<br /> </td>
   </tr>
   <tr>
    <td> Producción<br /> </td>
-   <td>8 de febrero - 1 de marzo de 2021<br /> </td>
+   <td>26 de abril a 3 de mayo de 2021<br /> </td>
   </tr>
  </tbody>
 </table>
 
 Si tiene alguna duda, póngase en contacto [con el equipo de Atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html).
+
+Suscríbase a las [notificaciones de la versión de Campaign Standard](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) para obtener detalles sobre próximas versiones directamente en la bandeja de entrada.
 
 ## Preguntas y respuestas {#questions-and-answers}
 
