@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: managing-audiences
 context-tags: deliveryCreation,wizard;delivery,audience,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: bdeb3e0c81cf729436a722bfd349a39d5dcad351
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 83%
+source-wordcount: '411'
+ht-degree: 74%
 
 ---
 
@@ -39,19 +39,21 @@ Se pueden definir audiencias al crear el mensaje mediante el asistente de creaci
 
 1. Defina el **[!UICONTROL Target]** principal del correo electrónico. Esta es la audiencia de destinatario normal del correo electrónico.
 
-   El destinatario se define en la pestaña **[!UICONTROL Target]** y está formado por perfiles identificados de la base de datos.
-
-   Puede establecer el destinatario principal mediante las funciones del [editor de consultas](../../automating/using/editing-queries.md#creating-queries).
+   El destinatario se define en la pestaña **[!UICONTROL Target]** y está formado por perfiles identificados de la base de datos. Puede establecer el destinatario principal mediante las funciones del [editor de consultas](../../automating/using/editing-queries.md#creating-queries).
 
    En esta pestaña, la paleta **[!UICONTROL Shortcuts]** solo contiene filtros predefinidos y audiencias que se han definido en los perfiles identificados. La pestaña **[!UICONTROL Explorer]** le permite acceder a configuraciones adicionales.
 
    Por lo tanto, puede reutilizar y combinar audiencias existentes, aplicarles filtros adicionales, etc.
 
+   >[!NOTE]
+   >
+   >Cuando se segmenta una audiencia, tenga en cuenta que no se hace referencia a la definición de la audiencia, sino que **se copia** en la consulta. Si realiza algún cambio en la audiencia después de que se haya segmentado en una consulta, asegúrese de configurar la consulta de nuevo para tener en cuenta la nueva definición.
+
 1. Defina el **[!UICONTROL Test profiles]** que desee utilizar para el correo electrónico. Los perfiles de prueba recibirán las pruebas que puede enviar para probar el correo electrónico antes de enviarlo al destinatario principal.
 
    Para obtener más información sobre la configuración de perfiles de prueba, consulte la sección [Perfiles de prueba](../../audiences/using/managing-test-profiles.md).
 
-1. Si es necesario, puede definir un grupo de control mediante la ficha correspondiente. Esto le permitirá retirar algunos perfiles de su destinatario para que no reciban el mensaje. Para obtener más información sobre esto, consulte [Añadir un grupo de control](../../sending/using/control-group.md).
+1. Si es necesario, puede definir un grupo de control mediante la pestaña correspondiente. Esto le permitirá retirar algunos perfiles de su destinatario para que no reciban el mensaje. Para obtener más información, consulte [Adición de un grupo de control](../../sending/using/control-group.md).
 
 1. También puede utilizar direcciones de sustitución para obtener una representación exacta del mensaje que recibirá el perfil.  Para obtener más información, consulte [Prueba de mensajes de correo electrónico con perfiles de destino](../../sending/using/testing-messages-using-target.md).
 
