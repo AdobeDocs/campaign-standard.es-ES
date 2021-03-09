@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 translation-type: tm+mt
-source-git-commit: 2879066634a8a123ef5d07d46aa96479f156a923
+source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
 workflow-type: tm+mt
 source-wordcount: '1479'
 ht-degree: 100%
@@ -85,7 +85,7 @@ La [legislación principal](#privacy-regulations) se refiere a las diferentes en
 
 Por lo tanto, como compañía que recopila y comparte datos personales, usted es el controlador de datos, sus clientes son los sujetos de datos y Adobe Campaign actúa como un procesador de datos al tratar sus datos personales como usted lo indica. Tenga en cuenta que, como controlador de datos, es su responsabilidad gestionar la relación con los temas de datos, como al administrar [solicitudes de privacidad](#privacy-requests).
 
-Al integrar Campaign con otras soluciones de Experience Cloud en las que las audiencias se pueden transferir de un sistema a otro, como el servicio [Audience Destinations](../../audiences/using/aep-about-audience-destinations-service.md), [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager o el servicio principal People](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md), o con otras soluciones como [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md), debe prestar especial atención a la protección de datos personales.
+Al integrar Campaign con otras soluciones de Experience Cloud en las que las audiencias se pueden transferir de un sistema a otro, como el servicio [Audience Destinations](../../integrating/using/aep-about-audience-destinations-service.md), [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager o el servicio principal People](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md), o con otras soluciones como [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md), debe prestar especial atención a la protección de datos personales.
 
 ## Adquisición de datos {#data-acquisition}
 
