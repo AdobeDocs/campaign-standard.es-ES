@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 36e0f6be4dc8c1a6e4b0d8878d190f2abce99fcd
+source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
 workflow-type: tm+mt
 source-wordcount: '5323'
 ht-degree: 100%
@@ -268,7 +268,7 @@ ht-degree: 100%
 
 **Integraciones de Experience Platform**
 
-* Se ha mejorado la activación de audiencias de [Experience Platform](../../automating/using/aep-targeting-audiences.md) de Adobe desde la actividad **Leer audiencia** para proporcionar un mejor rendimiento y estabilidad. Además, los registros de flujo de trabajo se han simplificado para añadir claridad y detallado con respecto a los trabajos de activación, lo que facilita la monitorización y la resolución de problemas al leer audiencias de Adobe Experience Platform.
+* Se ha mejorado la activación de audiencias de [Experience Platform](../../integrating/using/aep-targeting-audiences.md) de Adobe desde la actividad **Leer audiencia** para proporcionar un mejor rendimiento y estabilidad. Además, los registros de flujo de trabajo se han simplificado para añadir claridad y detallado con respecto a los trabajos de activación, lo que facilita la monitorización y la resolución de problemas al leer audiencias de Adobe Experience Platform.
 
 **Parches**
 
@@ -361,7 +361,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Las funciones de Adobe Experience Platform en Campaign Standard se encuentran actualmente en fase beta, por lo que pueden estar sujetas a actualizaciones frecuentes sin previo aviso. Consulte la documentación detallada: [Experience Platform Data Connector](../../developing/using/aep-about-data-connector.md), [Audience Destinations](../../audiences/using/aep-about-audience-destinations-service.md)
+>Las funciones de Adobe Experience Platform en Campaign Standard se encuentran actualmente en fase beta, por lo que pueden estar sujetas a actualizaciones frecuentes sin previo aviso. Consulte la documentación detallada: [Experience Platform Data Connector](../../integrating/using/aep-about-data-connector.md), [Audience Destinations](../../integrating/using/aep-about-audience-destinations-service.md)
 
 * Ahora, en los registros de flujo de trabajo y cada 10 minutos, Campaign muestra el número de registros que ya ha procesado el trabajo que se está ejecutando.
 * Se ha corregido un problema que se podía producir al importar un perfil de Adobe Experience Platform que se hubiera eliminado de la base de datos.
@@ -408,7 +408,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> <p>Ahora, Adobe Experience Platform Data Connector está integrado con Adobe Campaign Standard. Puede hacer que los datos de Campaign estén disponibles en Adobe Experience Platform asignando datos XTK (datos incorporados en Campaign) al modelo de datos de Adobe Experience Platform (XDM). </p>
-    <p>Tenga en cuenta que esta funcionalidad solo está disponible para los clientes alojados en Azure. Para obtener más información sobre esta funcionalidad y las condiciones para activarla, consulte la <a href="../../developing/using/aep-about-data-connector.md">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">videotutorial</a>.</p>
+    <p>Tenga en cuenta que esta funcionalidad solo está disponible para los clientes alojados en Azure. Para obtener más información sobre esta funcionalidad y las condiciones para activarla, consulte la <a href="../../integrating/using/aep-about-data-connector.md">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">videotutorial</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -423,7 +423,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> <p>Audience Destinations le permite compartir segmentos de Adobe Experience Platform en Adobe Campaign.</p>
-    <p>Tenga en cuenta que esta funcionalidad solo está disponible para los clientes alojados en Azure. Para obtener más información sobre esta funcionalidad y las condiciones para activarla, consulte la <a href="../../audiences/using/aep-about-audience-destinations-service.md">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.translate.html">videotutorial</a>. </p>
+    <p>Tenga en cuenta que esta funcionalidad solo está disponible para los clientes alojados en Azure. Para obtener más información sobre esta funcionalidad y las condiciones para activarla, consulte la <a href="../../integrating/using/aep-about-audience-destinations-service.md">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.translate.html">videotutorial</a>. </p>
    </td> 
   </tr> 
  </tbody> 
