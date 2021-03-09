@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: bdeb3e0c81cf729436a722bfd349a39d5dcad351
 workflow-type: tm+mt
-source-wordcount: '1710'
-ht-degree: 95%
+source-wordcount: '1757'
+ht-degree: 93%
 
 ---
 
@@ -50,6 +50,11 @@ La actividad **[!UICONTROL Query]** se puede utilizar para varios tipos de usos:
    Para obtener más información sobre esto, consulte [Dimensiones de segmentación y recursos](#targeting-dimensions-and-resources).
 
 1. En la pestaña **[!UICONTROL Target]**, ejecute la consulta definiendo y combinando reglas.
+
+   >[!NOTE]
+   >
+   >Cuando se segmenta una audiencia, tenga en cuenta que no se hace referencia a la definición de la audiencia, sino que **se copia** en la consulta. Si realiza algún cambio en la audiencia después de que se haya segmentado en una consulta, asegúrese de configurar la consulta de nuevo para tener en cuenta la nueva definición.
+
 1. Puede definir los **[!UICONTROL Additional data]** para la población objetivo mediante una pestaña dedicada. Estos datos se almacenan en columnas adicionales y solo se pueden utilizar para el flujo de trabajo en curso. En particular, puede añadir datos de las tablas de la base de datos de Adobe Campaign vinculadas a la dimensión de segmentación de la consulta. Consulte la sección [Enriquecimiento de datos](#enriching-data).
 
    >[!NOTE]
@@ -66,7 +71,7 @@ La actividad **[!UICONTROL Query]** se puede utilizar para varios tipos de usos:
 
 Los recursos y dimensiones de segmentación le permiten definir en qué elementos se basará una consulta para determinar el destinatario de un envío.
 
-Se configuran en [asignaciones de destino](../../administration/using/target-mappings-in-campaign.md) y se definen al crear un flujo de trabajo en la ficha **[!UICONTROL Properties]** de una actividad de Consulta.
+Se configuran en [asignaciones de destino](../../administration/using/target-mappings-in-campaign.md) y se definen al crear un flujo de trabajo, en la pestaña **[!UICONTROL Properties]** de una actividad de consulta.
 
 >[!NOTE]
 >
@@ -96,7 +101,7 @@ Ejemplo de filtros disponibles para el recurso **[!UICONTROL Deliveries (deliver
 
 De forma predeterminada, el recurso y la dimensión de segmentación se configuran en perfiles de destinatario. Sin embargo, puede resultar útil utilizar un recurso diferente de la dimensión de segmentación si desea buscar un registro específico en una tabla distante.
 
-Para obtener más información sobre este caso de uso: [Uso de recursos diferentes de dimensiones de segmentación](../../automating/using/using-resources-different-from-targeting-dimensions.md)
+Para obtener más información, consulte este caso de uso: [Uso de recursos diferentes de dimensiones de segmentación](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
 ## Enriquecimiento de datos {#enriching-data}
 
