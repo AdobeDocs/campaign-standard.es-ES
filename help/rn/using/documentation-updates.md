@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: ea0755d22b34c4c961fd8715ecf4551ffcdcb58e
+source-git-commit: 6dd54dc72fdaf3261d13ca972f1258bcbb3c1e3a
 workflow-type: tm+mt
-source-wordcount: '6571'
+source-wordcount: '6616'
 ht-degree: 97%
 
 ---
@@ -19,15 +19,17 @@ ht-degree: 97%
 
 Además de las [Notas de la versión](../../rn/using/release-notes.md) de Adobe Campaign, esta página enumera todas las nuevas actualizaciones de la documentación de Adobe Campaign Standard.
 
-## Febrero de 2021 {#doc-updates-february-2021}
+## Marzo de 2021 {#doc-updates-march-2021}
 
-Se ha añadido información sobre cómo asegurarse de que un flujo de trabajo programado no se vuelva a programar hasta que una o varias tareas de una ejecución anterior sigan pendientes. [Puede obtener más información](../../automating/using/scheduled-workflows-execution.md)
+Se ha añadido información para especificar que, al seleccionar una audiencia en una consulta, su definición se copia y no se hace referencia a ella. [Puede obtener más información](../../audiences/using/selecting-an-audience-in-a-message.md)
+
+La información relacionada con el servicio Audience Destinations y el conector de datos de Adobe Experience Platform se ha reagrupado en una nueva sección. [Puede obtener más información](../../integrating/using/aep-about-audience-destinations-service.md)
 
 ## Versión 21.1: febrero de 2021 {#release-21-1---february-2021}
 
 **Nuevas funciones incluidas en la versión**
 
-Servicio de comentarios de correo electrónico: [Más información](../../sending/using/confirming-the-send.md#message-indicators)
+Servicio de comentarios por correo electrónico: [Más información](../../sending/using/confirming-the-send.md#message-indicators)
 
 Mejoras en la integración de Adobe Experience Manager: [Más información](../../integrating/using/creating-multilingual-email-aem.md)
 
@@ -41,7 +43,9 @@ Se ha añadido información sobre la nueva función GetOption que le permite dev
 
 Se ha añadido información sobre la nueva variable de salida **[!UICONTROL filesCount]** disponible después de usar una actividad **[!UICONTROL Transfer file]**. [Puede obtener más información](../../automating/using/transfer-file.md#output-variables)
 
-La sección **Configuración del canal de correo electrónico** se ha actualizado para aclarar cuál es la configuración de correo electrónico más reciente aplicable. Algunos parámetros preexistentes que aún se utilizan para determinados clientes se muestran en la parte inferior de la página. [Puede obtener más información](../../administration/using/configuring-email-channel.md)
+La sección **Configuración del canal de correo electrónico** se ha actualizado para aclarar cuál es la configuración de correo electrónico más reciente aplicable. Algunos parámetros heredados que aún se utilizan para determinados clientes se enumeran en la parte inferior de la página. [Puede obtener más información](../../administration/using/configuring-email-channel.md)
+
+Se ha añadido información sobre cómo asegurarse de que un flujo de trabajo programado no se vuelva a programar hasta que una o más tareas de una ejecución anterior sigan pendientes. [Puede obtener más información](../../automating/using/scheduled-workflows-execution.md)
 
 ## Diciembre de 2020 {#doc-updates-december-2020}
 
@@ -49,7 +53,7 @@ La sección **Configuración del canal de correo electrónico** se ha actualizad
 
 La sección **Introducción a la mensajería transaccional** ahora incluye [esquemas mejorados](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) para una mejor comprensión del proceso.
 
-Ya está disponible un caso de uso de extremo a extremo para ilustrar el proceso de implementación de la mensajería transaccional. [Más información](../../channels/using/transactional-messaging-use-case.md)
+Ya está disponible un caso de uso completo para ilustrar el proceso de implementación de la mensajería transaccional. [Más información](../../channels/using/transactional-messaging-use-case.md)
 
 La sección **Privacidad** se ha movido [aquí](../../start/using/privacy.md).
 
@@ -67,11 +71,11 @@ La sección **Datos personales y personas** se ha actualizado con un escenario d
 
 Se ha añadido una nueva sección que enumera las preguntas más frecuentes sobre Privacidad. [Más información](../../start/using/privacy-faq.md)
 
-La sección **Privacidad** se ha movido y enriquecido con dos nuevas páginas: [Administración de privacidad](../../start/using/privacy-management.md) y [Administración de solicitudes de privacidad](../../start/using/privacy-requests.md).
+La sección **Privacidad** se ha movido y enriquecido con dos páginas nuevas: [Administración de privacidad](../../start/using/privacy-management.md) y [Administración de solicitudes de privacidad](../../start/using/privacy-requests.md).
 
-La sección **Mensajes transaccionales** se ha reorganizado y reunido en un solo lugar para mejorar la navegación. [Puede obtener más información](../../channels/using/getting-started-with-transactional-msg.md)
+La sección **Mensajes transaccionales** se ha reorganizado y se ha reunido en un solo lugar para mejorar la navegación. [Puede obtener más información](../../channels/using/getting-started-with-transactional-msg.md)
 
-Se ha añadido información en la sección Conector de datos de Adobe Experience Platform sobre el error de validación de asignación de datos relacionado con la administración de privacidad y cómo solucionarlo. [Más información](../../developing/using/aep-mapping-activation.md)
+Se ha añadido información en la sección Conector de datos de Adobe Experience Platform sobre el error de validación de asignación de datos relacionado con la administración de privacidad y cómo solucionarlo. [Más información](../../integrating/using/aep-mapping-activation.md)
 
 ## Versión 20.4: octubre de 2020 {#release-20-4---october-2020}
 
@@ -95,7 +99,7 @@ Se ha agregado una sección para describir los nuevos filtros que permiten busca
 
 ## Septiembre de 2020 {#doc-updates-september-2020}
 
-Se ha reorganizado y aclarado la sección **mensajes transaccionales de Evento**. [Más información](../../channels/using/editing-transactional-message.md)
+Se ha reorganizado y aclarado la sección **Mensajes transaccionales de eventos**. [Más información](../../channels/using/editing-transactional-message.md)
 
 Se ha agregado una nota de precaución para advertir a los usuarios sobre la limitación de permisos relacionada con el acceso al registro. [Más información](../../administration/using/users-management.md)
 
@@ -173,7 +177,7 @@ La integración de Microsoft Dynamics 365 con la documentación de Adobe Campaig
 
 Se han añadido recursos adicionales a la página de inicio de documentación. [Más información](../../campaign-standard-home.md)
 
-Se ha añadido información sobre el servicio de Experience Cloud ID (ECID) a la documentación de Adobe Experience Platform Data Connector. [Más información](../../developing/using/aep-about-data-connector.md#key-concepts)
+Se ha añadido información sobre el servicio de Experience Cloud ID (ECID) a la documentación de Adobe Experience Platform Data Connector. [Más información](../../integrating/using/aep-about-data-connector.md#key-concepts)
 
 La sección mensajería transaccional se ha mejorado con información sobre cómo acceder a los últimos eventos transaccionales y capturas de pantalla actualizadas. [Más información](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
@@ -239,9 +243,9 @@ Se ha añadido información sobre el **[!UICONTROL History in days field]** disp
 
 **Nuevas funciones incluidas en la versión**
 
-Adobe Experience Platform Data Connector (versión beta): [Más información](../../developing/using/aep-about-data-connector.md)
+Adobe Experience Platform Data Connector (versión beta): [Más información](../../integrating/using/aep-about-data-connector.md)
 
-Audience Destinations (versión beta): [Más información](../../audiences/using/aep-about-audience-destinations-service.md)
+Audience Destinations (versión beta): [Más información](../../integrating/using/aep-about-audience-destinations-service.md)
 
 **Otras actualizaciones de la documentación incluidas en la versión**
 
