@@ -6,10 +6,13 @@ description: Automatice los procesos con flujos de trabajo, administre datos y a
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
+feature: Flujos de trabajo
+role: Arquitecto de datos
+level: Principiante
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '523'
 ht-degree: 13%
 
 ---
@@ -23,16 +26,16 @@ ht-degree: 13%
 <td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#import-export-data">Importar/exportar datos</a></p></td></tr>
 </table>
 
-Adobe Campaign oferta un entorno gráfico completo que le permite diseñar procesos complejos, incluyendo segmentación, ejecución de campañas, procesamiento de archivos, etc. Por ejemplo, puede utilizar un flujo de trabajo para descargar un archivo de un servidor, descomprimirlo y, a continuación, importar sus registros en la base de datos de Adobe Campaign.
+Adobe Campaign ofrece un entorno gráfico completo que le permite diseñar procesos complejos, incluida la segmentación, la ejecución de campañas, el procesamiento de archivos, etc. Por ejemplo, puede utilizar un flujo de trabajo para descargar un archivo de un servidor, descomprimirlo y, a continuación, importar sus registros en la base de datos de Adobe Campaign.
 
-Un flujo de trabajo también puede involucrar a los usuarios asignándoles tareas o haciéndoles aprobar tareas realizadas. Esto significa que puede asignar una tarea a uno o varios usuarios para trabajar en contenido o especificar destinatarios, y aprobar pruebas antes de enviar el mensaje.
+Un flujo de trabajo también puede incluir usuarios asignándoles tareas o haciendo que aprueben tareas realizadas. Esto significa que puede asignar una tarea a uno o varios usuarios para que trabajen en el contenido o especifiquen objetivos, y aprobar pruebas antes de enviar el mensaje.
 
-Se pueden utilizar flujos de trabajo en diferentes contextos, como por ejemplo:
+Los flujos de trabajo se pueden utilizar en diferentes contextos, como por ejemplo:
 
-* Establecimiento de objetivos para administrar audiencias o enviar mensajes.
-* Gestión de datos (ETL) para manipular datos.
-* Importación de datos en la base de datos de Campaña.
-* Procesos técnicos como limpieza de bases de datos, recuperación de información de seguimiento, etc.
+* Segmentación para administrar audiencias o enviar mensajes.
+* Gestión de datos (ETL) para manipular los datos.
+* Importación de datos en la base de datos de Campaign.
+* Procesos técnicos, como limpieza de bases de datos, recuperación de información de seguimiento, etc.
 
 ## Actividades de flujo de trabajo {#workflow-activities}
 
@@ -42,9 +45,9 @@ Hay varias actividades disponibles para ayudarle a diseñar sus flujos de trabaj
 
 [Las ](../../automating/using/about-targeting-activities.md) actividades de segmentación le permiten crear uno o más destinos definiendo conjuntos y dividiendo o combinando estos conjuntos mediante operaciones de intersección, unión o exclusión.
 
-Con [actividades de ejecución](../../automating/using/about-execution-activities.md), coordine el flujo de trabajo y sus actividades, mientras que [actividades de Canal](../../automating/using/about-channel-activities.md) le permite combinar canales de comunicación de Campaign Standard para crear flujos de trabajo entre canales.
+Con [Execution activities](../../automating/using/about-execution-activities.md), coordine el flujo de trabajo y sus actividades, mientras que [Channel activities](../../automating/using/about-channel-activities.md) permite combinar canales de comunicación de Campaign Standard para crear flujos de trabajo entre canales.
 
-Por último, [actividades de Gestión de datos](../../automating/using/about-data-management-activities.md) le permiten manipular datos de la base de datos.
+Por último, [Data management activities](../../automating/using/about-data-management-activities.md) permiten manipular los datos de la base de datos.
 
 Más información:
 
@@ -56,9 +59,9 @@ Más información:
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
-Aproveche el **editor de consultas** para filtrar datos de la base de datos y generar una población para mejorar el destinatario de sus destinatarios. El editor de consultas está disponible para realizar varias acciones en Campaign Standard: crear audiencias de tipo de Consulta, definir destinatarios de envío o poblaciones en actividades de flujo de trabajo.
+Aproveche el **editor de consultas** para filtrar los datos de la base de datos y crear una población para dirigirse mejor a los destinatarios. El editor de consultas está disponible para realizar varias acciones en el Campaign Standard: cree audiencias de tipo Consulta , defina objetivos de envío o poblaciones en actividades de flujo de trabajo.
 
-El editor de consultas viene con **filtros predefinidos y reglas** para un filtrado rápido y sencillo. Sin embargo, también puede utilizar **funciones avanzadas de edición de expresiones**. Esto le permite introducir manualmente condiciones y utilizar funciones para formar sus propias reglas.
+El editor de consultas viene con **filtros predefinidos y reglas** para un filtrado rápido y fácil. Sin embargo, también puede utilizar las capacidades de **edición avanzada de expresiones**. Esto le permite introducir manualmente condiciones y utilizar funciones para formar sus propias reglas.
 
 Más información:
 
@@ -70,17 +73,17 @@ Más información:
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-Campaign Standard viene con varias **capacidades de gestión de datos** para importar y exportar datos.
+El Campaign Standard viene con varias **funcionalidades de administración de datos** para importar y exportar datos.
 
-[Las ](../../automating/using/about-data-management-activities.md) actividades de gestión de datos de flujos de trabajo permiten importar datos, realizar actualizaciones masivas en los campos, recibir o enviar archivos o vincular datos no identificados a recursos existentes.
+[Las ](../../automating/using/about-data-management-activities.md) actividades de gestión de datos de flujos de trabajo permiten importar datos, realizar actualizaciones masivas en los campos, recibir o enviar archivos, o vincular datos no identificados a recursos existentes.
 
-Con [Plantillas de importación](../../automating/using/importing-data-with-import-templates.md), administre ciertos tipos de importación definidos por los administradores mediante funciones de importación simplificadas.
+Con [Import templates](../../automating/using/importing-data-with-import-templates.md), administre ciertos tipos de importación definidos por los administradores a través de funciones de importación simplificadas.
 
-[La exportación de ](../../automating/using/exporting-logs.md) registros le permite exportar datos de registro a través de un flujo de trabajo sencillo, lo que le permite analizar los resultados de sus campañas de marketing en sus propias herramientas de sistema de informes o BI.
+[La exportación de ](../../automating/using/exporting-logs.md) registros permite exportar datos de registro a través de un flujo de trabajo sencillo que le permite analizar los resultados de sus campañas de marketing en sus propias herramientas de creación de informes o de BI.
 
-Aproveche [Packages](../../automating/using/managing-packages.md) para intercambiar recursos entre distintas instancias de campaña, por ejemplo, para replicar la configuración de una instancia o para transferir datos de un servidor a otro, incluidos los recursos personalizados.
+Aproveche [Packages](../../automating/using/managing-packages.md) para intercambiar recursos entre diferentes instancias de campaña, por ejemplo, para replicar la configuración de una instancia o para transferir datos de un servidor a otro, incluidos los recursos personalizados.
 
-Por último, [Exportar listas](../../automating/using/exporting-lists.md) permite exportar cualquier lista de un Campaign Standard como, por ejemplo, la lista de perfiles de prueba, la lista de direcciones de correo electrónico de cuarentenas, etc.
+Por último, [Exportación de listas](../../automating/using/exporting-lists.md) permite exportar cualquier lista de Campaign Standards como, por ejemplo, la lista de perfiles de prueba, la lista de direcciones de correo electrónico en cuarentena, etc.
 
 Más información:
 
@@ -89,6 +92,6 @@ Más información:
 
 ## Recursos adicionales
 
-* [Vídeos de tutoriales sobre procesos y gestión de datos](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/getting-started/create-workflow.html)
+* [Tutoriales en vídeo sobre procesos y administración de datos](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/getting-started/create-workflow.html)
 * [Flujos de trabajo técnicos](../../administration/using/technical-workflows.md)
 * [Introducción al modelo de datos de Campaign Standard](../../developing/using/get-started-data-model.md)
