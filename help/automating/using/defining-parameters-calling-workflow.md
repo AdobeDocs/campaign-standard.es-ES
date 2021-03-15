@@ -6,10 +6,13 @@ description: Esta sección detalla cómo llamar a un flujo de trabajo con parám
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
+feature: Flujos de trabajo
+role: Arquitecto de datos
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '192'
 ht-degree: 13%
 
 ---
@@ -17,26 +20,26 @@ ht-degree: 13%
 
 # Definición de los parámetros al invocar al flujo de trabajo {#defining-the-parameters-when-calling-the-workflow}
 
-En esta sección se explica cómo definir parámetros al llamar a un flujo de trabajo. Para obtener más información sobre cómo realizar esta operación desde una llamada de API, consulte la [documentación de las API de REST](../../api/using/triggering-a-signal-activity.md).
+Esta sección detalla cómo definir parámetros al invocar a un flujo de trabajo. Para obtener más información sobre cómo realizar esta operación desde una llamada a la API, consulte la [documentación de las API de REST](../../api/using/triggering-a-signal-activity.md).
 
 Antes de definir los parámetros, asegúrese de que:
 
 * Los parámetros se han declarado en la actividad **[!UICONTROL External Signal]**. Consulte [esta página](../../automating/using/declaring-parameters-external-signal.md).
-* Se está ejecutando el flujo de trabajo que contiene la actividad de señal.
+* El flujo de trabajo que contiene la actividad de señal se está ejecutando.
 
 Para configurar la actividad **[!UICONTROL End]**, siga los pasos a continuación:
 
-1. Abra la actividad **[!UICONTROL End]** y seleccione la ficha **[!UICONTROL External signal]**.
-1. Seleccione el flujo de trabajo y la actividad de señal externa que desea llamar.
-1. Haga clic en el botón **[!UICONTROL Create element]** para agregar un parámetro y luego complete su nombre y valor.
+1. Abra la actividad **[!UICONTROL End]** y seleccione la pestaña **[!UICONTROL External signal]** .
+1. Seleccione el flujo de trabajo y la actividad de señal externa a la que desea llamar.
+1. Haga clic en el botón **[!UICONTROL Create element]** para añadir un parámetro y rellene su nombre y valor.
 
-   * **[!UICONTROL Name]**:: el nombre que se declaró en la  **[!UICONTROL External signal]** actividad (consulte  [esta página](../../automating/using/declaring-parameters-external-signal.md)).
-   * **[!UICONTROL Value]**:: el valor que desea asignar al parámetro. El valor debe seguir la **sintaxis estándar**, que se describe en [esta sección](../../automating/using/advanced-expression-editing.md#standard-syntax).
+   * **[!UICONTROL Name]**: el nombre que se ha declarado en la  **[!UICONTROL External signal]** actividad (consulte  [esta página](../../automating/using/declaring-parameters-external-signal.md)).
+   * **[!UICONTROL Value]**: el valor que desea asignar al parámetro . El valor debe seguir la **sintaxis estándar**, descrita en [esta sección](../../automating/using/advanced-expression-editing.md#standard-syntax).
 
    ![](assets/extsignal_definingparameters_2.png)
 
    >[!CAUTION]
    >
-   >Asegúrese de que todos los parámetros se han declarado en la actividad **[!UICONTROL External signal]**. De lo contrario, se producirá un error al ejecutar la actividad.
+   >Asegúrese de que todos los parámetros se hayan declarado en la actividad **[!UICONTROL External signal]**. De lo contrario, se producirá un error al ejecutar la actividad.
 
 1. Una vez definidos los parámetros, confirme la actividad y guarde el flujo de trabajo.
