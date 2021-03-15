@@ -2,14 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: Segmentación de las audiencias de Adobe Experience Platform
-description: Aprenda a dirigirse a las audiencias de Adobe Experience Platform dentro de flujos de trabajo.
+description: Obtenga información sobre cómo dirigirse a las audiencias de Adobe Experience Platform dentro de flujos de trabajo.
 audience: automating
 content-type: reference
 topic-tags: channel-activities
+feature: Integración de Microsoft CRM
+role: Arquitecto de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '410'
 ht-degree: 5%
 
 ---
@@ -19,11 +22,11 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->El servicio Audience Destinations se encuentra actualmente en fase beta, por lo que puede estar sujeto a frecuentes actualizaciones sin previo aviso. Es necesario que los clientes estén alojados en Azure (actualmente en versión beta solo para Norteamérica) para acceder a estas capacidades. Póngase en contacto con el Servicio de atención al cliente de Adobe si desea obtener acceso.
+>El servicio Audience Destinations se encuentra actualmente en fase beta, por lo que puede estar sujeto a frecuentes actualizaciones sin previo aviso. Es necesario que los clientes estén alojados en Azure (actualmente en versión beta solo para Norteamérica) para acceder a estas capacidades. Si desea acceder, póngase en contacto con el Servicio de atención al cliente de Adobe.
 
-Una vez creada una [audiencia de Adobe Experience Platform](../../integrating/using/aep-about-audience-destinations-service.md) mediante el Generador de segmentos, puede utilizarla del mismo modo que lo haría para una audiencia de Campaign dentro de flujos de trabajo para personalizar y enviar mensajes.
+Una vez que haya creado una [audiencia de Adobe Experience Platform](../../integrating/using/aep-about-audience-destinations-service.md) mediante el Generador de segmentos, puede utilizarla del mismo modo que lo haría para una audiencia de Campaign dentro de flujos de trabajo para personalizar y enviar mensajes.
 
-Para activar una audiencia de Adobe Experience Platform en sus flujos de trabajo, siga estos pasos:
+Para activar una audiencia de Adobe Experience Platform en los flujos de trabajo, siga estos pasos:
 
 1. Agregue una actividad **[!UICONTROL Read audience]** al flujo de trabajo y ábrala.
 
@@ -35,7 +38,7 @@ Para activar una audiencia de Adobe Experience Platform en sus flujos de trabajo
 
    Al hacer clic en el botón de los ojos, simplemente se le dirigirá al Generador de segmentos (en otra pestaña) asociado con la audiencia seleccionada dentro de Campaign.
 
-1. Seleccione un elemento **[!UICONTROL Platform data mapping]** para especificar la dimensión de segmentación deseada para la audiencia seleccionada de Adobe Experience Platform.
+1. Seleccione un elemento **[!UICONTROL Platform data mapping]** para especificar la dimensión de segmentación deseada para la audiencia de Adobe Experience Platform seleccionada.
 
    De forma predeterminada, la clave principal (por ejemplo, iRecipientID para la tabla Perfil, iAppSubscriptionID para AppSubscription table) utilizada para la reconciliación estará disponible automáticamente en la lista desplegable. Para dirigirse fuera de la clave principal, debe crear un **Namespace** personalizado.
 
@@ -59,7 +62,7 @@ Ahora puede configurar el flujo de trabajo con otras actividades . Por ejemplo, 
 >
 >Campaign Standard le permite dirigirse a las audiencias de Adobe Experience Platform dentro de todos los canales de envío: Correos electrónicos, mensajes SMS, mensajes de correo postal, notificaciones push y mensajes en la aplicación.
 >
->*Nota: Para todos los mensajes push y en la aplicación, Campaign Standard solo admite envíos para perfiles conocidos.
+>*Nota: Para todos los mensajes push y en la aplicación, el Campaign Standard solo admite envíos para perfiles conocidos.
 
 Para obtener más información sobre cómo utilizar los flujos de trabajo y los envíos, consulte estas secciones:
 
