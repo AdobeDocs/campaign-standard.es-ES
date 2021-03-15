@@ -6,10 +6,13 @@ description: Con la integración de Adobe Target, puede insertar imágenes diná
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
+feature: Triggers
+role: Arquitecto de datos
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '170'
 ht-degree: 38%
 
 ---
@@ -17,9 +20,9 @@ ht-degree: 38%
 
 # Acerca de la integración de Campaign-Target{#about-campaign-target-integration}
 
-La integración entre Adobe Campaign y Adobe Target (Classic y Standard) dentro de Adobe Experience Cloud le permite insertar una imagen dinámica de Adobe Target en un envío de correo electrónico de Adobe Campaign.
+La integración entre Adobe Campaign y Adobe Target (Classic y Standard) en Adobe Experience Cloud le permite insertar una imagen dinámica desde Adobe Target en una entrega de correo electrónico de Adobe Campaign.
 
-Esta integración permite a destinatario recibir correo electrónico enviado mediante Adobe Campaign, incluida una versión dinámica del contenido gracias a Adobe Target. Esta versión dinámica se calcula según las reglas especificadas previamente al crear el correo electrónico.
+Esta integración permite al destinatario recibir correos electrónicos enviados a través de Adobe Campaign, incluida una versión dinámica del contenido gracias a Adobe Target. Esta versión dinámica se calcula según las reglas especificadas previamente al crear el correo electrónico.
 
 Adobe Target puede utilizar varios tipos de datos:
 
@@ -27,4 +30,4 @@ Adobe Target puede utilizar varios tipos de datos:
 * Segmentos vinculados a la ID de visitante en Adobe Target, si los datos utilizados no están sujetos a limitaciones legales
 * Datos de Adobe Target: agente de usuario, dirección IP, datos de geolocalización
 
-Para obtener más información sobre la integración entre Adobe Campaign y Adobe Target, consulte el [Adobe Target Portal](https://docs.adobe.com/content/help/es-ES/target/using/integrate/campaign-and-target.html).
+Para obtener más información sobre la integración entre Adobe Campaign y Adobe Target, consulte el [Portal de Adobe Target](https://docs.adobe.com/content/help/es-ES/target/using/integrate/campaign-and-target.html).
