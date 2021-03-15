@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: jstest,main
+feature: Flujos de trabajo
+role: Arquitecto de datos
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 4f62d2381403d7d88167334cee54071a19a7c3a8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 82%
+source-wordcount: '194'
+ht-degree: 80%
 
 ---
 
@@ -47,9 +50,9 @@ Las condiciones se pueden basar en **funciones** o en **variables** como, por ej
 
    Al editar el campo **[!UICONTROL Condition]**, dos botones proporcionan ayuda para llamar a variables de eventos y editar expresiones que combinan variables y funciones:
 
-   * ![](assets/extsignal_picker.png):: seleccione la variable de eventos entre todas las variables disponibles en el flujo de trabajo (consulte  [esta página](../../automating/using/customizing-workflow-external-parameters.md)).
+   * ![](assets/extsignal_picker.png): seleccione la variable events entre todas las variables disponibles en el flujo de trabajo (consulte  [esta página](../../automating/using/customizing-workflow-external-parameters.md)).
 
-      Por ejemplo, puede comprobar el número de archivos descargados después de una actividad [de transferencia de archivos](../../automating/using/transfer-file.md) mediante la variable **[!UICONTROL filesCount]**.
+      Por ejemplo, puede comprobar el número de archivos descargados después de una actividad [File transfer](../../automating/using/transfer-file.md) mediante la variable **[!UICONTROL filesCount]**.
 
       ![](assets/wkf_test_activity_variables.png)
 
