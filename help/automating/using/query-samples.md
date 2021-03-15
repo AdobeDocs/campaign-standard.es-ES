@@ -2,16 +2,19 @@
 solution: Campaign Standard
 product: campaign
 title: Ejemplos de consultas
-description: Esta sección presenta el caso de uso al utilizar una actividad de Consulta.
+description: Esta sección presenta casos de uso al utilizar una actividad de consulta.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
+feature: Flujos de trabajo
+role: Arquitecto de datos
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 90%
+source-wordcount: '338'
+ht-degree: 89%
 
 ---
 
