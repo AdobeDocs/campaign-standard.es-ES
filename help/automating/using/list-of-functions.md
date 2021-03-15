@@ -6,10 +6,13 @@ description: La herramienta de edición de consultas le permite utilizar funcion
 audience: automating
 content-type: reference
 topic-tags: filtering-data
+feature: Flujos de trabajo
+role: Arquitecto de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: ef170f2282fcc46e36c90dada2083dea25b95f7c
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1940'
+source-wordcount: '1944'
 ht-degree: 98%
 
 ---
@@ -35,7 +38,7 @@ Existen varios tipos de funciones disponibles, según los resultados deseados y 
 
 >[!NOTE]
 >
->Hay funciones adicionales disponibles en todas las actividades que le permiten utilizar variables de eventos después de llamar a un flujo de trabajo con parámetros externos. Se detallan en [esta sección](../../automating/using/customizing-workflow-external-parameters.md).
+>Hay funciones adicionales disponibles en todas las actividades que permiten utilizar variables de eventos después de llamar a un flujo de trabajo con parámetros externos. Se detallan en [esta sección](../../automating/using/customizing-workflow-external-parameters.md).
 
 ## Fechas {#dates}
 
