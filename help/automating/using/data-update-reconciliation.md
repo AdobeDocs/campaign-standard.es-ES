@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: reconciliation,main
+feature: Flujos de trabajo
+role: Arquitecto de datos
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 67%
+source-wordcount: '132'
+ht-degree: 66%
 
 ---
 
@@ -22,7 +25,7 @@ En el siguiente ejemplo se muestra un flujo de trabajo que crea una audiencia de
 
 ![](assets/identification_example2.png)
 
-* Una actividad [Cargar archivo](../../automating/using/load-file.md) que carga y detecta los datos del archivo que se va a importar. El archivo importado contiene los siguientes datos:
+* Una actividad [Load file](../../automating/using/load-file.md) que carga y detecta los datos del archivo que se va a importar. El archivo importado contiene los siguientes datos:
 
    ```
    lastname;firstname;email;dateofbirth
@@ -37,10 +40,10 @@ En el siguiente ejemplo se muestra un flujo de trabajo que crea una audiencia de
    tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
    ```
 
-* Una actividad [Reconciliación](../../automating/using/reconciliation.md), que vincula cada columna del archivo cargado con una columna de dimensión de perfil. Los registros de archivos que no se pueden identificar (por falta de datos, tipo de datos incompatible, etc.) se ignoran para preservar la integridad de los datos de audiencia final.
+* Una actividad [Reconciliation](../../automating/using/reconciliation.md) que vincula cada columna del archivo cargado con una columna de dimensión de perfil. Los registros de archivos que no se pueden identificar (por falta de datos, tipo de datos incompatible, etc.) se ignoran para preservar la integridad de los datos de audiencia final.
 
    ![](assets/identification_example1.png)
 
-* Una actividad [Guardar audiencia](../../automating/using/save-audience.md), que guarda la audiencia de perfiles.
+* Una actividad [Save audience](../../automating/using/save-audience.md) que guarda la audiencia de perfiles.
 
    ![](assets/identification_example3.png)
