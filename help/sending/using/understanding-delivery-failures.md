@@ -6,11 +6,14 @@ description: Aprenda a administrar los errores de envío con Campaign.
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
+feature: Capacidad de entrega
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1256'
-ht-degree: 76%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +30,7 @@ Cuando una entrega no se puede enviar a un perfil, el servidor remoto envía aut
 >
 >**Los mensajes de error de SMS (o “SR”, de “informe de estado”) se clasifican mediante el proceso MTA.**
 
-Los mensajes también se pueden excluir durante la preparación del envío si se pone en cuarentena una dirección o si hay un perfil en la lista de bloqueados. Los mensajes excluidos se enumeran en la pestaña **[!UICONTROL Exclusion logs]** del panel de entrega (consulte [esta sección](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
+Los mensajes también se pueden excluir durante la preparación de la entrega si una dirección está en cuarentena o si un perfil está en la  de la lista de bloqueados. Los mensajes excluidos se enumeran en la pestaña **[!UICONTROL Exclusion logs]** del panel de entrega (consulte [esta sección](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
 
 ![](assets/exclusion_logs.png)
 
@@ -58,16 +61,16 @@ Los posibles motivos de un error de entrega son:
 ---------|----------|---------
 | **[!UICONTROL User unknown]** | Grave | La dirección no existe. No se intenta realizar entregas adicionales para este perfil. |
 | **[!UICONTROL Quarantined address]** | Grave | La dirección se envió a cuarentena. |
-| **[!UICONTROL Unreachable]** | Leve/Grave | Se ha producido un error en la cadena de envío de mensajes (como un dominio temporalmente inaccesible). Según el error devuelto por el proveedor, la dirección se enviará directamente a cuarentena o la entrega se volverá a intentar hasta que Campaign reciba un error que justifique el estado de la cuarentena o hasta que el número de errores alcance 5. |
+| **[!UICONTROL Unreachable]** | Leve/Grave | Se ha producido un error en la cadena de entrega de mensajes (como un dominio temporalmente inaccesible). Según el error devuelto por el proveedor, la dirección se enviará directamente a cuarentena o la entrega se volverá a intentar hasta que Campaign reciba un error que justifique el estado de la cuarentena o hasta que el número de errores alcance 5. |
 | **[!UICONTROL Address empty]** | Grave | La dirección no está definida. |
 | **[!UICONTROL Mailbox full]** | Leve | El buzón de este usuario está lleno y no puede aceptar más mensajes. Esta dirección se puede eliminar de la lista de cuarentena para realizar otro intento. Se elimina automáticamente al cabo de 30 días. Para que la dirección se elimine de forma automática de la lista de direcciones en cuarentena, debe iniciarse el flujo de trabajo técnico **[!UICONTROL Database cleanup]**. |
 | **[!UICONTROL Refused]** | Leve/Grave | La dirección se ha enviado a cuarentena debido a un comentario de seguridad que informa de correo no deseado. Según el error devuelto por el proveedor, la dirección se enviará directamente a cuarentena o la entrega se volverá a intentar hasta que Campaign reciba un error que justifique el estado de la cuarentena o hasta que el número de errores alcance 5. |
 | **[!UICONTROL Duplicate]** | Ignorado | La dirección ya se ha detectado en la segmentación. |
-| **[!UICONTROL Not defined]** | Leve | la dirección está cualificada porque aún no se han incrementado los errores. Este tipo de error se produce cuando el servidor envía un nuevo mensaje de error: puede tratarse de un error aislado; sin embargo, si vuelve a producirse, el contador de errores aumenta, lo que advierte a los equipos técnicos. |
+| **[!UICONTROL Not defined]** | Leve | la dirección se encuentra sin clasificar porque aún no se han sumado errores. Este tipo de error se produce cuando el servidor envía un nuevo mensaje de error: puede tratarse de un error aislado; sin embargo, si vuelve a producirse, el contador de errores aumenta, lo que advierte a los equipos técnicos. |
 | **[!UICONTROL Error ignored]** | Ignorado | La dirección está en lista de permitidos y se le enviará un correo electrónico en cualquier caso. |
 | **[!UICONTROL Address on denylist]** | Grave | La dirección se agregó a la lista de bloqueados al momento del envío. |
-| **[!UICONTROL Account disabled]** | Leve/Grave | Cuando el proveedor de acceso a Internet (IAP) detecta un largo período de inactividad, puede cerrar la cuenta del usuario: Los envíos a la dirección del usuario serán imposibles. El tipo leve o grave depende del tipo de error recibido: si la cuenta se desactiva temporalmente debido a seis meses de inactividad y aún puede activarse, el estado **[!UICONTROL Erroneous]** se asignará y el envío se volverá a intentar. Si el error recibido indica que la cuenta está desactivada de forma permanente, se envía directamente a Cuarentena. |
-| **[!UICONTROL Not connected]** | Ignorado | El teléfono móvil del perfil está apagado o no conectado a la red cuando se envía el mensaje. |
+| **[!UICONTROL Account disabled]** | Leve/Grave | Cuando el proveedor de acceso a Internet (IAP) detecta un largo periodo de inactividad, puede cerrar la cuenta del usuario: los envíos a la dirección del usuario serán imposibles. El tipo leve o grave depende del tipo de error recibido: si la cuenta se desactiva temporalmente debido a seis meses de inactividad y aún puede activarse, el estado **[!UICONTROL Erroneous]** se asignará y el envío se volverá a intentar. Si el error recibido indica que la cuenta está desactivada de forma permanente, se envía directamente a Cuarentena. |
+| **[!UICONTROL Not connected]** | Ignorado | El teléfono móvil del perfil está apagado o no está conectado a la red cuando se envía el mensaje. |
 | **[!UICONTROL Invalid domain]** | Leve | El dominio de la dirección del correo electrónico es incorrecto o ya no existe. Este perfil se vuelve a seleccionar hasta que el recuento de errores llegue a 5. Después de esto, el registro se pone en estado de cuarentena y no se realiza ningún reintento. |
 | **[!UICONTROL Text too long]** | Ignorado | El número de caracteres del mensaje SMS supera el límite. Para obtener más información, consulte [Codificación, longitud y transliteración del SMS](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration). |
 | **[!UICONTROL Character not supported by encoding]** | Ignorado | El mensaje SMS contiene uno o varios caracteres que no son compatibles con la codificación. Para obtener más información, consulte [Tabla de caracteres: estándar GSM](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard). |
@@ -76,7 +79,7 @@ Los posibles motivos de un error de entrega son:
 
 Si un mensaje falla debido a un error temporal del tipo **Ignorado** , se realizarán reintentos durante la entrega. Para obtener más información sobre los tipos de errores, consulte [Tipos y motivos de errores de entrega](#delivery-failure-types-and-reasons).
 
-El número de reintentos (cuántos reintentos se deben realizar el día siguiente al inicio del envío) y el retraso mínimo entre reintentos ahora son<!--managed by the Adobe Campaign Enhanced MTA,--> según el rendimiento histórico y actual de una IP en un dominio determinado. La configuración de **Reintentos** en Campaign se ignora.
+El número de reintentos (cuántos reintentos se deben realizar el día siguiente al inicio del envío) y el retardo mínimo entre los reintentos ahora son<!--managed by the Adobe Campaign Enhanced MTA,--> en función del rendimiento histórico y actual de una IP en un dominio determinado. La configuración de **Reintentos** en Campaign se ignora.
 
 <!--Please note that Adobe Campaign Enhanced MTA is not available for the Push channel.-->
 
@@ -105,7 +108,7 @@ Una entrega puede fallar inmediatamente (error sincrónico), o más tarde, despu
 
 ## Clasificación del correo rechazado {#bounce-mail-qualification}
 
-Para los mensajes de error de error de envío sincrónico, el MTA mejorado de Adobe Campaign (Agente de transferencia de mensajes) determina el tipo de devolución y la calificación, y envía esa información a la Campaña.
+Para los mensajes de error de error de envío sincrónico, el MTA mejorado de Adobe Campaign (Agente de transferencia de mensajes) determina el tipo de rechazo y la calificación, y envía esa información a Campaign.
 
 >[!NOTE]
 >
@@ -123,7 +126,7 @@ To list the various bounces and their associated error types et reasons, click t
 
 ![](assets/qualification.png)-->
 
-## Optimización de la capacidad de entrega de correo electrónico con el mecanismo de selección de dobles {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
+## Optimización de la capacidad de envío de correo electrónico con el mecanismo de inclusión doble {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
 
 El mecanismo de inclusión doble es una práctica recomendada al enviar correos electrónicos. Protege la plataforma de direcciones de correo electrónico erróneas o no válidas, bots de spam y evita posibles reclamaciones de spam.
 
