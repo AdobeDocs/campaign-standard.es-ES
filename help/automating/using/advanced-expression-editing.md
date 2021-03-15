@@ -7,10 +7,13 @@ audience: automating
 content-type: reference
 topic-tags: filtering-data
 context-tags: queryFilter,overview;audience,main
+feature: Flujos de trabajo
+role: Arquitecto de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1096'
 ht-degree: 98%
 
 ---
@@ -24,7 +27,7 @@ La edición de una expresión implica la introducción manual de condiciones par
 
 Este modo le permite utilizar funciones avanzadas. Estas funciones le permiten manipular los valores utilizados para llevar a cabo consultas específicas, como la manipulación de fechas, cadenas, campos numéricos, clasificación, etc.
 
-También es posible utilizar variables de eventos de flujos de trabajo al editar la expresión. Para obtener más información, consulte la sección [Personalización de actividades con variables de eventos](../../automating/using/customizing-workflow-external-parameters.md).
+También es posible utilizar variables de eventos de flujos de trabajo al editar expresiones. Para obtener más información, consulte la sección [Personalización de actividades con variables de eventos](../../automating/using/customizing-workflow-external-parameters.md).
 
 Puede editar expresiones para:
 
@@ -106,8 +109,7 @@ Las expresiones de JavaScript están formadas por una o varias condiciones y uti
    * **&lt;value2>** es un campo, una función o un valor introducido manualmente.
 
    >[!NOTE]
-   >
-   >Los datos de tipo **&lt;context>** y **&lt;value2>** deben ser idénticos. Por ejemplo, si **&lt;context>** es una fecha, entonces **&lt;value2>** también debe ser una fecha.
+   Los datos de tipo **&lt;context>** y **&lt;value2>** deben ser idénticos. Por ejemplo, si **&lt;context>** es una fecha, entonces **&lt;value2>** también debe ser una fecha.
 
 * Si desea usar varias condiciones, se pueden combinar con operadores lógicos.
 
