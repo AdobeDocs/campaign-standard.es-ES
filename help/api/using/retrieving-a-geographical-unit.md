@@ -6,23 +6,26 @@ description: Obtenga información sobre cómo recuperar la unidad geográfica de
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Ingeniero de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 12%
+source-wordcount: '84'
+ht-degree: 13%
 
 ---
 
 
 # Recuperación de la unidad geográfica de un perfil {#retrieving-geographical-unit}
 
-1. Realice una solicitud de GET en el PKey de perfil para recuperar la dirección URL **geoUnit**.
-1. Realice una solicitud de GET en la URL para recuperar más detalles sobre la unidad geográfica.
+1. Realice una solicitud de GET en el PKey de perfil para recuperar la URL **geoUnit**.
+1. Realice una solicitud de GET en la dirección URL para recuperar más detalles sobre la unidad geográfica.
 
 <br/>
 
-***Solicitud de muestra***
+***Solicitud de ejemplo***
 
 Recupere el registro de perfil.
 
@@ -34,7 +37,7 @@ Recupere el registro de perfil.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Devuelve la dirección URL de geoUnit del perfil.
+Devuelve la URL de geoUnit para el perfil.
 
 ```
 {
@@ -48,7 +51,7 @@ Devuelve la dirección URL de geoUnit del perfil.
 }
 ```
 
-Realice una solicitud de GET en la dirección URL para obtener más información.
+Realice una solicitud de GET en la dirección URL para recuperar más información.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/geoUnitBase/<PKEY> \
