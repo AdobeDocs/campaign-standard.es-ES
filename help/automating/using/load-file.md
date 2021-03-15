@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: fileImport,main
+feature: Flujos de trabajo
+role: Arquitecto de datos
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: c29eff0d241cd561a7e609ab44222700e2a8868d
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1368'
+ht-degree: 93%
 
 ---
 
@@ -22,7 +25,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->Tenga en cuenta los límites de almacenamiento SFTP, almacenamiento de bases de datos y perfil activo según el contrato de Adobe Campaign al utilizar esta funcionalidad.
+>Tenga en cuenta los límites de almacenamiento SFTP, almacenamiento de bases de datos y perfil activo según el contrato de Adobe Campaign mientras utiliza esta funcionalidad.
 
 ![](assets/data_loading.png)
 
