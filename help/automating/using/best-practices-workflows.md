@@ -7,10 +7,13 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
+feature: Flujos de trabajo
+role: Arquitecto de datos
+level: Principiante
 translation-type: tm+mt
-source-git-commit: 9b76f02b03ba1180f852b446f0dbbae26a27d4bd
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '1183'
 ht-degree: 85%
 
 ---
@@ -52,7 +55,7 @@ En contextos específicos, es posible que necesite ejecutar más de 20 flujos de
 
 >[!NOTE]
 >
->Antes de iniciar un flujo de trabajo, [!DNL Campaign Standard] comprobará si hay suficiente memoria física del sistema para ejecutar el flujo de trabajo. Si no hay suficiente memoria disponible, un mensaje le informará de que la ejecución del flujo de trabajo se retrasará hasta que la carga del servidor se reduzca y la memoria del sistema aumente.
+>Antes de iniciar un flujo de trabajo, [!DNL Campaign Standard] comprobará si hay suficiente memoria física del sistema para ejecutar el flujo de trabajo. Si no hay suficiente memoria disponible, un mensaje le informará de que la ejecución del flujo de trabajo se retrasará hasta que se reduzca la carga en el servidor y aumente la memoria del sistema.
 
 ### Frecuencia
 
@@ -77,11 +80,11 @@ Las propiedades del flujo de trabajo le permiten definir un huso horario especí
 
 ### Número de actividades por flujo de trabajo {#number-activities}
 
-Se recomienda usar hasta 100 actividades en un único flujo de trabajo. Más de 100 actividades, es posible que encuentre algunos problemas de rendimiento al diseñar y configurar el flujo de trabajo.
+Se recomienda utilizar hasta 100 actividades en un único flujo de trabajo. Con más de 100 actividades, puede encontrar algunos problemas de rendimiento al diseñar y configurar el flujo de trabajo.
 
 ### Diseño del flujo de trabajo
 
-Para asegurarse de que el flujo de trabajo termina correctamente, evite dejar la última transición de un flujo de trabajo por su cuenta utilizando un **[!UICONTROL End activity]**.
+Para asegurarse de que el flujo de trabajo termina correctamente, evite dejar la última transición de un flujo de trabajo sola utilizando un **[!UICONTROL End activity]**.
 
 Para acceder a la vista de detalles de las transiciones, marque la opción **[!UICONTROL Keep interim results]** en la sección Ejecución de las propiedades del flujo de trabajo.
 
@@ -110,11 +113,11 @@ Puede previsualizar las siguientes diez ejecuciones de sus flujos de trabajo hac
 
 Para obtener más información, consulte [Actividad del planificador](../../automating/using/scheduler.md).
 
-Al diseñar un flujo de trabajo programado que incluya varias actividades, debe asegurarse de que el flujo de trabajo no se vuelva a programar hasta que finalice. Para ello, debe configurar el flujo de trabajo para evitar que se ejecute si una o varias tareas de una ejecución anterior siguen pendientes. Para obtener más información, consulte [esta página](../../automating/using/scheduled-workflows-execution.md).
+Al diseñar un flujo de trabajo programado que incluya varias actividades, debe asegurarse de que el flujo de trabajo no se vuelva a programar hasta que finalice. Para ello, debe configurar el flujo de trabajo para evitar su ejecución si una o más tareas de una ejecución anterior siguen pendientes. Para obtener más información, consulte [esta página](../../automating/using/scheduled-workflows-execution.md).
 
 ## Invocación del flujo de trabajo con parámetros{#workflow-with-parameters}
 
-Asegúrese de que el nombre y el número de parámetros sean idénticos a los definidos al llamar al flujo de trabajo (consulte [esta página](../../automating/using/defining-parameters-calling-workflow.md). Los tipos de parámetros también deben ser consistentes con los valores esperados.
+Asegúrese de que el nombre y el número de parámetros son idénticos a los definidos al llamar al flujo de trabajo (consulte [esta página](../../automating/using/defining-parameters-calling-workflow.md). Los tipos de parámetros también deben ser consistentes con los valores esperados.
 
 Asegúrese de que todos los parámetros se han declarado en la **[!UICONTROL External signal activity]**. De lo contrario, se producirá un error al ejecutar la actividad.
 
