@@ -5,16 +5,19 @@ title: Modelo de datos
 description: Obtenga información sobre el modelo de datos
 audience: developing
 content-type: reference
+feature: Modelo de datos
+role: Desarrollador
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 18%
+source-wordcount: '175'
+ht-degree: 17%
 
 ---
 
 
-# Miembro de semilla (nms:semillaMember)
+# Miembro semilla (nms:seedMember)
 
 ## Descripción del objeto
 
@@ -23,18 +26,18 @@ ht-degree: 18%
                   <th>Name</th>
                   <th>Etiqueta</th>
                   <th>Tipo (longitud)</th>
-                  <th>Valores de lista desglosada</th>
+                  <th>Valores de enumeración</th>
                </tr>
                <tr>
                   <td>PKey</td>
-                  <td>ID de recurso principal</td>
+                  <td>ID del recurso principal</td>
                   <td>string </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>país (países)</td>
                   <td>País</td>
-                  <td>link </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -46,7 +49,7 @@ ht-degree: 18%
                <tr>
                   <td>createdBy (userBase)</td>
                   <td>Creado por</td>
-                  <td>link </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -76,7 +79,7 @@ ht-degree: 18%
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
                   <td>Unidad geográfica</td>
-                  <td>link </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -118,7 +121,7 @@ ht-degree: 18%
                <tr>
                   <td>modifiedBy (userBase)</td>
                   <td>Modificado por</td>
-                  <td>link </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -128,7 +131,7 @@ ht-degree: 18%
                   <td> </td>
                </tr>
                <tr>
-                  <td>nms_destinatario</td>
+                  <td>nms_recipient</td>
                   <td>Perfil</td>
                   <td>item </td>
                   <td> </td>
@@ -142,7 +145,7 @@ ht-degree: 18%
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
                   <td>Unidad organizativa</td>
-                  <td>link </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -159,7 +162,7 @@ ht-degree: 18%
                </tr>
                <tr>
                   <td>pushNotification</td>
-                  <td>Notificación push</td>
+                  <td>Notificaciones push</td>
                   <td>string (255)</td>
                   <td> </td>
                </tr>
@@ -184,7 +187,7 @@ ht-degree: 18%
                <tr>
                   <td>stateLink (estado)</td>
                   <td>Estado</td>
-                  <td>link </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -194,7 +197,7 @@ ht-degree: 18%
                   <td> </td>
                </tr>
                <tr>
-                  <td>thumbnail</td>
+                  <td>miniatura</td>
                   <td>Miniatura</td>
                   <td>string (255)</td>
                   <td> </td>
@@ -206,7 +209,7 @@ ht-degree: 18%
                   <td> </td>
                </tr>
                <tr>
-                  <td>trampa</td>
+                  <td>trap</td>
                   <td>Reventar</td>
                   <td>booleano </td>
                   <td> </td>
@@ -236,7 +239,7 @@ Por nombre o etiqueta (byText)
         <th>Tipo</th>
         </tr>
         <tr>
-        <td>texto</td>
+        <td>text</td>
         <td>string</td>
         </tr>
     </table>
@@ -249,7 +252,7 @@ Por uso (byUsage)
         <th>Tipo</th>
         </tr>
         <tr>
-        <td>trampa</td>
+        <td>trap</td>
         <td>booleano</td>
         </tr>
         <tr>
@@ -270,7 +273,7 @@ Perfil de prueba (perfil)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>startingMember</td>
-    <td>link</td>
+    <td>seedMember</td>
+    <td>vínculo</td>
     </tr>
 </table>
