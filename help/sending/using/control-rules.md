@@ -6,10 +6,13 @@ description: Aprenda a reforzar la comprobación de calidad de sus mensajes con 
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
+feature: Reglas de tipología
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '445'
 ht-degree: 17%
 
 ---
@@ -25,33 +28,33 @@ Las reglas de control permiten comprobar la validez y calidad de los mensajes an
 
 ## Reglas de control predeterminadas {#default-control-rules}
 
-Un conjunto de reglas predeterminadas garantiza los controles estándar. En la tabla siguiente se proporciona información sobre estas reglas, así como sobre sus fases de canal y [ejecución](#control-rules-execution-phases) relacionadas.
+Un conjunto de reglas predeterminadas garantiza los controles estándar. La siguiente tabla proporciona información sobre estas reglas, así como sobre su canal relacionado y [fases de ejecución](#control-rules-execution-phases).
 
 | Etiqueta | Canal | Fase de ejecución | Descripción |
 ---------|----------|---------|---------
-| **[!UICONTROL A/B Test]** | Correo electrónico | At the start of personalization | Extrae la población de prueba de un envío con una prueba A/B. |
+| **[!UICONTROL A/B Test]** | Correo electrónico | At the start of personalization | Extrae la población de prueba para una entrega con una prueba A/B. |
 | **[!UICONTROL Check delivery size]** | Todo | After targeting | Comprueba el tamaño de los mensajes. |
 | **[!UICONTROL Check email content is not empty]** | Correo electrónico | Después de la segmentación | Genera un error si el contenido del mensaje está vacío. |
-| **[!UICONTROL Check In-App content for broadcast template]** | En la aplicación | Personalización de inicio | Comprueba que el contenido y los déclencheur en la aplicación no están vacíos para la plantilla de difusión. |
-| **[!UICONTROL Check In-App content for profile template]** | En la aplicación | En el inicio de la personalización | Comprueba que el contenido y los déclencheur en la aplicación no están vacíos para la plantilla de perfil. |
-| **[!UICONTROL Check In-App content for subscriber template]** | En la aplicación | En el inicio de la personalización | Comprueba que el contenido y los déclencheur en la aplicación no están vacíos para la plantilla de suscriptor. |
-| **[!UICONTROL Check proof size]** | Todo | Después de la segmentación | Genera un mensaje de error si la población de destinatarios de prueba supera los 100 destinatarios. |
-| **[!UICONTROL Check social network sharing link]** | Correo electrónico | En el inicio de la personalización | Comprueba la presencia de un vínculo a una página espejo al incluir un vínculo de uso compartido de redes sociales (ViralLinks) en el contenido. |
-| **[!UICONTROL Check subject]** | Correo electrónico | En el inicio de la personalización | Comprueba que el asunto y la dirección del remitente no contienen caracteres especiales que puedan causar problemas en determinados agentes de transferencia de correo y comprueba que el asunto del mensaje se ha completado. |
-| **[!UICONTROL Check unsubscription link]** | Correo electrónico | En el inicio de la personalización | Comprueba la presencia de al menos una URL baja (de exclusión) en cada contenido (HTML y texto). |
-| **[!UICONTROL Check URL labels]** | Correo electrónico | En el inicio de la personalización | Comprueba que cada URL de seguimiento tiene una etiqueta. |
-| **[!UICONTROL Check URLs]** | Correo electrónico | En el inicio de la personalización | Comprueba las direcciones URL de seguimiento (presencia del carácter &quot;&amp;&quot;). |
+| **[!UICONTROL Check In-App content for broadcast template]** | En la aplicación | Personalización al inicio | Comprueba que el contenido o los déclencheur en la aplicación no estén vacíos para la plantilla de difusión. |
+| **[!UICONTROL Check In-App content for profile template]** | En la aplicación | Al principio de la personalización | Comprueba que el contenido o los déclencheur en la aplicación no estén vacíos para la plantilla de perfil. |
+| **[!UICONTROL Check In-App content for subscriber template]** | En la aplicación | Al principio de la personalización | Comprueba que el contenido o los déclencheur en la aplicación no estén vacíos para la plantilla del suscriptor. |
+| **[!UICONTROL Check proof size]** | Todo | Después de la segmentación | Genera un mensaje de error si la población de destino de prueba supera los 100 destinatarios. |
+| **[!UICONTROL Check social network sharing link]** | Correo electrónico | Al principio de la personalización | Comprueba la presencia de un vínculo a una página espejo al incluir un vínculo de uso compartido de red social (ViralLinks) en el contenido. |
+| **[!UICONTROL Check subject]** | Correo electrónico | Al principio de la personalización | Comprueba que el asunto y la dirección del remitente no contienen caracteres especiales que puedan causar problemas en determinados agentes de transferencia de correo, y comprueba que el asunto del mensaje se haya completado. |
+| **[!UICONTROL Check unsubscription link]** | Correo electrónico | Al principio de la personalización | Comprueba la presencia de al menos una URL de baja (exclusión) en cada contenido (HTML y texto). |
+| **[!UICONTROL Check URL labels]** | Correo electrónico | Al principio de la personalización | Comprueba que cada URL de seguimiento tiene una etiqueta. |
+| **[!UICONTROL Check URLs]** | Correo electrónico | Al principio de la personalización | Comprueba las direcciones URL de seguimiento (presencia del carácter &quot;&amp;&quot;). |
 
-## Fases de ejecución de reglas de control {#control-rules-execution-phases}
+## Fases de ejecución de las reglas de control {#control-rules-execution-phases}
 
-Las reglas de control se pueden aplicar en diferentes fases del ciclo de vida del envío:
+Las reglas de control se pueden aplicar en diferentes fases del ciclo de vida de la entrega:
 
-* **En el inicio del objetivo**: La regla de control se puede aplicar en esta fase para que el paso de personalización no se ejecute en el evento de un error.
+* **Al principio del objetivo**: La regla de control se puede aplicar en esta fase para que el paso de personalización no se ejecute en caso de error.
 
-* **Después del objetivo**: La ejecución después del establecimiento de objetivos permite conocer el volumen del destinatario para aplicar la regla de control.
+* **Después de la segmentación**: La ejecución después de la segmentación permite conocer el volumen del objetivo para aplicar la regla de control.
 
-   Por ejemplo, la regla de control **Comprobar tamaño de prueba** se aplica después de la etapa de objetivo: esta regla evita la preparación de la personalización de mensajes si hay demasiados destinatarios de prueba.
+   Por ejemplo, la regla de control **Check proof size** se aplica después de la fase de objetivo: esta regla evita la preparación de la personalización del mensaje si hay demasiados destinatarios de prueba.
 
-* **En el inicio de la personalización**: Se aplica cuando la comprobación se refiere a la aprobación de la personalización de mensajes. La personalización del mensaje se lleva a cabo durante la fase de análisis.
+* **Al principio de la personalización**: Se aplica cuando la comprobación se relaciona con la aprobación de la personalización del mensaje. La personalización del mensaje se lleva a cabo durante la fase de análisis.
 
-* **At the end of the analysis**:: Cuando una comprobación requiere que se complete la personalización del mensaje.
+* **At the end of the analysis**: Cuando una comprobación requiere que se complete la personalización de mensajes.
