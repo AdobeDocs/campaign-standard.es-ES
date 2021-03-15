@@ -2,16 +2,19 @@
 solution: Campaign Standard
 product: campaign
 title: Emparejamiento de envíos de correo electrónico y correo directo
-description: Este caso de uso presenta un ejemplo de envío de correo electrónico y correo directo desde un flujo de trabajo.
+description: Este caso de uso presenta un ejemplo de envío de correo electrónico y correo postal desde un flujo de trabajo.
 audience: channels
 content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
+feature: Flujos de trabajo
+role: Arquitecto de datos
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 84%
+source-wordcount: '123'
+ht-degree: 82%
 
 ---
 
@@ -32,5 +35,5 @@ Este es un ejemplo de flujo de trabajo que combina canales de correo postal y de
 
 **Temas relacionados:**
 
-* [Actividad envío correo postal](../../automating/using/direct-mail-delivery.md)
+* [Actividad de envío por correo postal](../../automating/using/direct-mail-delivery.md)
 * [Acerca del correo postal](../../channels/using/about-direct-mail.md)
