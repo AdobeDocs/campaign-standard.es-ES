@@ -2,14 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: Acerca de la ampliación de la API
-description: Obtenga información sobre cómo exponer los campos extendidos para los Perfiles de recursos personalizados en la API de Perfiles públicos.
+description: Obtenga información sobre cómo exponer campos ampliados para el recurso personalizado Perfiles en la API de perfiles pública.
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
+feature: Modelo de datos
+role: Desarrollador
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '118'
 ht-degree: 11%
 
 ---
@@ -17,17 +20,17 @@ ht-degree: 11%
 
 # Acerca de la ampliación de la API{#about-extending-the-api}
 
-Este caso de uso detalla la exposición de campos extendidos para los Perfiles de recursos personalizados en la API de Perfiles públicos. Por ejemplo, para actualizar instantáneamente el perfil de un cliente con un código promocional generado a partir de un sistema de facturación.
+Este caso de uso detalla la exposición de campos ampliados para el recurso personalizado Perfiles en la API de perfiles pública. Por ejemplo, para actualizar instantáneamente el perfil de un cliente con un código de promoción generado a partir de un sistema de facturación.
 
 >[!NOTE]
 >
 >Para publicar la API, asegúrese de que tiene la función **[!UICONTROL Datamodel]**.
 
-Los pasos para exponer los campos extendidos en la API pública son los siguientes:
+Los pasos para exponer los campos ampliados en la API pública son los siguientes:
 
-1. [Añadir los campos de extensión al recurso de Perfil](../../developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
+1. [Añadir los campos de extensión al recurso Perfil](../../developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
 1. [Publicar la extensión](../../developing/using/step-2--publish-the-extension.md)
-1. [Compruebe que los nuevos campos extendidos están disponibles en la API](../../developing/using/step-3--verify-the-extension.md)
+1. [Compruebe que los nuevos campos ampliados están disponibles en la API](../../developing/using/step-3--verify-the-extension.md)
 
 **Temas relacionados:**
 
