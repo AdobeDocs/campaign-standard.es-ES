@@ -2,14 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: Administración de estilos de correo electrónico
-description: Descubra cómo se administran los estilos de correo electrónico en el Diseñador de correo electrónico.
+description: Descubra cómo administrar estilos de correo electrónico en el Diseñador de correo electrónico.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
+feature: Diseño de correo electrónico
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1052'
+source-wordcount: '1057'
 ht-degree: 1%
 
 ---
@@ -22,56 +25,56 @@ En el Diseñador de correo electrónico, al seleccionar un elemento, se muestran
 
 ## Selección de un elemento {#selecting-an-element}
 
-Para seleccionar un elemento en la interfaz de Email Designer, puede:
+Para seleccionar un elemento en la interfaz del Diseñador de correo electrónico, puede:
 
 * haga clic directamente en el correo electrónico,
-* o examine el árbol de estructura disponible desde las opciones ubicadas en la **Paleta** izquierda.
+* o busque el árbol de estructura disponible en las opciones ubicadas en la **Paleta** izquierda.
 
 ![](assets/des_tree_structure.png)
 
-Al examinar el árbol de estructura, podrá realizar una selección más precisa. Puede seleccionar una de las opciones siguientes:
+Al navegar por el árbol de estructura, puede realizar una selección más precisa. Puede seleccionar:
 
 * todo el componente de estructura,
 * una de las columnas que componen el componente de estructura,
-* o solo un componente que se encuentra dentro de una columna.
+* o solo un componente ubicado dentro de una columna.
 
 ![](assets/des_tree_structure_selection.png)
 
 Para seleccionar una columna, también puede hacer lo siguiente:
 
-1. Seleccione un componente de estructura (directamente en el correo electrónico o utilizando el árbol de estructura disponible en la **Paleta** de la izquierda).
+1. Seleccione un componente de estructura (directamente en el correo electrónico o mediante el árbol de estructura disponible en la **Paleta** de la izquierda).
 1. En la **barra de herramientas contextual**, haga clic en **[!UICONTROL Select a column]** para elegir la columna deseada.
 
-Vea un ejemplo en [esta sección](#example--adjusting-vertical-alignment-and-padding).
+Consulte un ejemplo en [esta sección](#example--adjusting-vertical-alignment-and-padding).
 
 ## Ajuste de la configuración de estilo {#adjusting-style-settings}
 
-1. Seleccione un elemento en el correo electrónico. Para obtener más información sobre esto, consulte [Selección de un elemento](#selecting-an-element).
-1. Ajuste la configuración según sus necesidades. Cada elemento seleccionado oferta un conjunto diferente de configuraciones.
+1. Seleccione un elemento en el correo electrónico. Para obtener más información, consulte [Selección de un elemento](#selecting-an-element).
+1. Ajuste la configuración según sus necesidades. Cada elemento seleccionado ofrece un conjunto diferente de configuraciones.
 
-   Puede insertar fondos, cambiar el tamaño, modificar la alineación horizontal o vertical, administrar colores, agregar [margen o margen](#selecting-an-element), etc.
+   Puede insertar fondos, cambiar tamaños, modificar alineación horizontal o vertical, administrar colores, agregar [margen o margen](#selecting-an-element), etc.
 
-   Para ello, utilice las opciones que se muestran en el panel **[!UICONTROL Settings]** o [agregue atributos de estilo en línea](#adding-inline-styling-attributes).
+   Para ello, utilice las opciones mostradas en el panel **[!UICONTROL Settings]** o [añadir atributos de estilo en línea](#adding-inline-styling-attributes).
 
    ![](assets/des_settings_pane.png)
 
 1. Guarde el contenido.
 
-## Ajuste del margen y el margen {#about-padding-and-margin}
+## Ajuste del margen y margen {#about-padding-and-margin}
 
-La interfaz de Email Designer permite ajustar rápidamente los ajustes de margen y relleno.
+La interfaz del Diseñador de correo electrónico le permite ajustar rápidamente el relleno y los márgenes.
 
-**[!UICONTROL Padding]**:: esta configuración permite administrar el espacio que se encuentra dentro del borde de un elemento.
+**[!UICONTROL Padding]**: esta configuración permite administrar el espacio que se encuentra dentro del borde de un elemento.
 
 ![](assets/des_padding.png)
 
 Por ejemplo:
 
-* Utilice el relleno para definir los márgenes en los lados izquierdo y derecho de una imagen.
-* Utilice el relleno superior e inferior para agregar más espacio a un componente **[!UICONTROL Text]** o **[!UICONTROL Divider]**.
-* Para definir bordes entre columnas dentro de un elemento de estructura, defina el relleno para cada columna.
+* Utilice el relleno para establecer los márgenes en los lados izquierdo y derecho de una imagen.
+* Utilice el relleno superior e inferior para añadir más espaciado a un componente **[!UICONTROL Text]** o **[!UICONTROL Divider]**.
+* Para definir los bordes entre columnas dentro de un elemento de estructura, defina el relleno para cada columna.
 
-**[!UICONTROL Margin]**:: esta configuración permite administrar el espacio entre el borde del elemento y el siguiente elemento.
+**[!UICONTROL Margin]**: esta configuración le permite administrar el espacio entre el borde del elemento y el siguiente elemento.
 
 ![](assets/des_margin.png)
 
@@ -79,7 +82,7 @@ Por ejemplo:
 >
 >Según la selección (componente de estructura, columna o componente de contenido), el resultado no será el mismo. Adobe recomienda configurar los parámetros **[!UICONTROL Padding]** y **[!UICONTROL Margin]** en el nivel de columna.
 
-Tanto para **[!UICONTROL Padding]** como para **[!UICONTROL Margin]**, haga clic en el icono de bloqueo para romper la sincronización entre los parámetros superior e inferior o derecho e izquierdo. Esto le permite ajustar cada parámetro por separado.
+Para **[!UICONTROL Padding]** y **[!UICONTROL Margin]**, haga clic en el icono de candado para romper la sincronización entre los parámetros superior e inferior o derecho e izquierdo. Esto le permite ajustar cada parámetro por separado.
 
 ![](assets/des_padding_lock_icon.png)
 
@@ -89,7 +92,7 @@ Tanto para **[!UICONTROL Padding]** como para **[!UICONTROL Margin]**, haga clic
 
    ![](assets/des_text_alignment.png)
 
-* **La** alineación horizontal se puede aplicar al texto, las imágenes y los botones, no a los  **[!UICONTROL Divider]** y  **[!UICONTROL Social]** componentes.
+* **La** alineación horizontal se puede aplicar a texto, imágenes y botones; actualmente, no a los componentes  **[!UICONTROL Divider]** y  **[!UICONTROL Social]** .
 
    ![](assets/des_horizontal_alignment.png)
 
@@ -101,41 +104,41 @@ Tanto para **[!UICONTROL Padding]** como para **[!UICONTROL Margin]**, haga clic
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
->title="Ajustes de fondo"
->abstract="El Diseñador de correo electrónico permite personalizar el color de fondo o la imagen de fondo del contenido.Tenga en cuenta que los clientes de correo electrónico no admiten la imagen de fondo."
+>title="Configuración de fondo"
+>abstract="El Diseñador de correo electrónico le permite personalizar el color de fondo o la imagen de fondo del contenido. Tenga en cuenta que los clientes de correo electrónico no admiten la imagen de fondo."
 >additional-url="https://docs.google.com/spreadsheets/d/1TLo62YKm3tThUWDOIliCQFWs3dpNjpDfw6DdTr1oGOw/edit#gid=0" text="Información adicional"
 
 En cuanto a la configuración de fondos con el Diseñador de correo electrónico, Adobe recomienda lo siguiente:
 
-1. Aplique un color de fondo al cuerpo del mensaje de correo electrónico si lo requiere el diseño.
+1. Aplique un color de fondo al cuerpo del correo electrónico si lo requiere el diseño.
 1. En la mayoría de los casos, defina los colores de fondo en el nivel de columna.
 1. Intente no utilizar colores de fondo en componentes de imagen o texto, ya que son difíciles de administrar.
 
 A continuación se muestran los ajustes de fondo disponibles que puede utilizar.
 
-* Configure un **[!UICONTROL Background color]** para todo el correo electrónico. Asegúrese de seleccionar la configuración del cuerpo en el árbol de navegación al que se puede acceder desde la paleta izquierda.
+* Establezca un **[!UICONTROL Background color]** para todo el correo electrónico. Asegúrese de seleccionar la configuración de cuerpo en el árbol de navegación accesible desde la paleta izquierda.
 
    ![](assets/des_background_body.png)
 
-* Para definir el mismo color de fondo para todos los componentes de estructura, seleccione **[!UICONTROL Viewport background color]**. Esta opción le permite seleccionar un ajuste diferente del color de fondo.
+* Para definir el mismo color de fondo para todos los componentes de estructura, seleccione **[!UICONTROL Viewport background color]**. Esta opción le permite seleccionar una configuración diferente del color de fondo.
 
    ![](assets/des_background_viewport.png)
 
-* Defina un color de fondo diferente para cada componente de estructura. Seleccione una estructura del árbol de navegación a la que se pueda acceder desde la paleta izquierda para aplicar un color de fondo específico solo a esa estructura.
+* Defina un color de fondo diferente para cada componente de estructura. Seleccione una estructura del árbol de navegación accesible desde la paleta izquierda para aplicar un color de fondo específico solo a esa estructura.
 
    ![](assets/des_background_structure.png)
 
-   Asegúrese de que no establece un color de fondo de ventanilla porque puede ocultar los colores de fondo de la estructura.
+   Asegúrese de no establecer un color de fondo de ventanilla móvil, ya que podría ocultar los colores de fondo de la estructura.
 
-* Configure un **[!UICONTROL Background image]** para el contenido de un componente de estructura.
+* Establezca un **[!UICONTROL Background image]** para el contenido de un componente de estructura.
 
    ![](assets/des_background_image.png)
 
    >[!NOTE]
    >
-   >Algunos programas de correo electrónico no admiten imágenes de fondo. Cuando no se admite, se utilizará el color de fondo de fila. Asegúrese de seleccionar un color de fondo de reserva adecuado en caso de que no se pueda mostrar la imagen.
+   >Algunos programas de correo electrónico no admiten imágenes de fondo. Cuando no se admita, se utilizará el color de fondo de fila. Asegúrese de seleccionar un color de fondo alternativo adecuado en caso de que la imagen no se pueda mostrar.
 
-* Configure un color de fondo en el nivel de columna.
+* Establezca un color de fondo en el nivel de columna.
 
    ![](assets/des_background_column.png)
 
@@ -145,26 +148,26 @@ A continuación se muestran los ajustes de fondo disponibles que puede utilizar.
 
    También puede establecer una imagen de fondo en el nivel de columna, pero esto no se suele utilizar.
 
-### Ejemplo: ajuste de alineación vertical y relleno {#example--adjusting-vertical-alignment-and-padding}
+### Ejemplo: ajuste de la alineación vertical y el margen {#example--adjusting-vertical-alignment-and-padding}
 
 Desea ajustar el margen y la alineación vertical dentro de un componente de estructura compuesto por tres columnas. Para realizar esto, siga los pasos a continuación:
 
-1. Seleccione el componente de estructura directamente en el correo electrónico o utilizando el árbol de estructura disponible en la **Paleta** izquierda.
-1. En la **barra de herramientas contextual**, haga clic en **[!UICONTROL Select a column]** y elija la que desee editar. También puede seleccionarlo en el árbol de estructura.
+1. Seleccione el componente de estructura directamente en el correo electrónico o utilice el árbol de estructura disponible en la **Paleta** izquierda.
+1. En la **barra de herramientas contextual**, haga clic en **[!UICONTROL Select a column]** y elija la que desea editar. También puede seleccionarlo en el árbol de estructura.
 
    ![](assets/des_selecting_column.png)
 
-   Los parámetros editables de esa columna se muestran en el panel **[!UICONTROL Settings]** de la derecha.
+   Los parámetros editables para esa columna se muestran en el panel **[!UICONTROL Settings]** de la derecha.
 
 1. En **[!UICONTROL Vertical alignment]**, seleccione **[!UICONTROL Up]**.
 
    ![](assets/des_vertical_alignment.png)
 
-   El componente de contenido se muestra en la parte superior de la columna.
+   El componente de contenido se muestra encima de la columna .
 
-1. En **[!UICONTROL Padding]**, defina el margen superior dentro de la columna. Haga clic en el icono de candado para romper la sincronización con el relleno inferior.
+1. En **[!UICONTROL Padding]**, defina el relleno superior dentro de la columna. Haga clic en el icono de candado para romper la sincronización con el relleno inferior.
 
-   Defina el margen izquierdo y derecho de esa columna.
+   Defina el relleno izquierdo y derecho para esa columna.
 
    ![](assets/des_adjusting_padding.png)
 
@@ -174,9 +177,9 @@ Desea ajustar el margen y la alineación vertical dentro de un componente de est
 
 1. Guarde los cambios.
 
-## Estilo de vínculos {#about-styling-links}
+## Diseño de vínculos {#about-styling-links}
 
-Puede subrayar un vínculo y seleccionar su color y destinatario en el Diseñador de correo electrónico.
+Puede subrayar un vínculo y seleccionar su color y destino en el Diseñador de correo electrónico.
 
 1. En un componente en el que se inserta un vínculo, seleccione el texto de la etiqueta del vínculo.
 
@@ -184,7 +187,7 @@ Puede subrayar un vínculo y seleccionar su color y destinatario en el Diseñado
 
    ![](assets/stylelinks-selecttext.png)
 
-1. Para seleccionar en qué contexto de exploración se abrirá el vínculo, seleccione un **[!UICONTROL Target]**.
+1. Para seleccionar en qué contexto de navegación se abrirá el enlace, seleccione un **[!UICONTROL Target]**.
 
    ![](assets/stylelinks-target.png)
 
@@ -192,21 +195,21 @@ Puede subrayar un vínculo y seleccionar su color y destinatario en el Diseñado
 
    ![](assets/stylelinks-colorpicker.png)
 
-1. Elija el color que necesita.
+1. Elija el color que necesite.
 
    ![](assets/stylelinks-colorchanged.png)
 
 1. Guarde los cambios.
 
-## Añadir atributos de estilo en línea {#adding-inline-styling-attributes}
+## Adición de atributos de estilo en línea {#adding-inline-styling-attributes}
 
-En la interfaz de Email Designer, al seleccionar un elemento y mostrar su configuración en el panel lateral, puede personalizar los atributos en línea y su valor para ese elemento específico.
+En la interfaz del Diseñador de correo electrónico, al seleccionar un elemento y mostrar su configuración en el panel lateral, puede personalizar los atributos en línea y su valor para ese elemento específico.
 
 1. Seleccione un elemento en el contenido.
 1. En el panel lateral, busque la configuración **[!UICONTROL Styles Inline]**.
 
    ![](assets/email_designer_inlineattributes.png)
 
-1. Modifique los valores de los atributos existentes o agregue otros nuevos mediante el botón **+**. Puede agregar cualquier atributo y valor que sea compatible con CSS.
+1. Modifique los valores de los atributos existentes o agregue otros nuevos con el botón **+**. Puede añadir cualquier atributo y valor que sea compatible con CSS.
 
 A continuación, el estilo se aplica al elemento seleccionado. Si los elementos secundarios no tienen atributos de estilo específicos definidos, se hereda el estilo del elemento principal.
