@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: setOfService,workflow,main
+feature: Flujos de trabajo
+role: Arquitecto de datos
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 53%
+source-wordcount: '242'
+ht-degree: 52%
 
 ---
 
@@ -24,7 +27,7 @@ El flujo de trabajo se presenta de la siguiente manera:
 
 ![](assets/subscription_activity_example1.png)
 
-* Una actividad [Cargar archivo](../../automating/using/load-file.md) carga el archivo perfil y define la estructura de las columnas importadas.
+* Una actividad de [Load file](../../automating/using/load-file.md) carga el archivo de perfil y define la estructura de las columnas importadas.
 
    Para este ejemplo, el archivo cargado tiene el formato .csv y contiene los datos siguientes:
 
@@ -43,14 +46,14 @@ El flujo de trabajo se presenta de la siguiente manera:
 
    ![](assets/subscription_activity_example2.png)
 
-* Una actividad [Reconciliación](../../automating/using/reconciliation.md) identifica los datos del archivo como pertenecientes a la dimensión de perfil de la base de datos de Adobe Campaign. Solo se configura la pestaña **[!UICONTROL Identification]**. Identifica los datos del archivo según las direcciones de correo electrónico de los perfiles.
+* Una actividad [Reconciliation](../../automating/using/reconciliation.md) identifica los datos del archivo como pertenecientes a la dimensión de perfil de la base de datos de Adobe Campaign. Solo se configura la pestaña **[!UICONTROL Identification]**. Identifica los datos del archivo según las direcciones de correo electrónico de los perfiles.
 
    ![](assets/subscription_activity_example3.png)
 
-* Una [Deduplicación](../../automating/using/deduplication.md) basada en el campo **email** del recurso temporal (resultante de la reconciliación) identifica cualquier duplicado. Si los datos importados del archivo contienen duplicados, la suscripción a un servicio genera un error en todos los datos.
+* Una [Deduplication](../../automating/using/deduplication.md) basada en el campo **email** del recurso temporal (resultante de la reconciliación) identifica cualquier duplicado. Si los datos importados del archivo contienen duplicados, la suscripción a un servicio genera un error en todos los datos.
 
    ![](assets/subscription_activity_example5.png)
 
-* Una actividad [Servicios de suscripción](../../automating/using/subscription-services.md) permite seleccionar el servicio al que se deben suscribir los perfiles, el campo correspondiente a la fecha de suscripción y el origen de la suscripción.
+* Una actividad de [Subscription Services](../../automating/using/subscription-services.md) permite seleccionar el servicio al que se deben suscribir los perfiles, el campo correspondiente a la fecha de suscripción y el origen de la suscripción.
 
    ![](assets/subscription_activity_example4.png)
