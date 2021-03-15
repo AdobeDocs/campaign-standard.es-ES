@@ -2,23 +2,26 @@
 solution: Campaign Standard
 product: campaign
 title: Personalización de un correo electrónico con datos adicionales
-description: Este caso de uso muestra cómo agregar diferentes tipos de datos adicionales a una consulta y utilizarlos como campo de personalización en un mensaje de correo electrónico.
+description: Este caso de uso presenta cómo añadir diferentes tipos de datos adicionales a una consulta y utilizarlos como campo de personalización en un correo electrónico.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
+feature: Flujos de trabajo
+role: Arquitecto de datos
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 86%
+source-wordcount: '483'
+ht-degree: 85%
 
 ---
 
 
 # Personalización de un correo electrónico con datos adicionales {#example--personalizing-an-email-with-additional-data}
 
-El siguiente ejemplo ilustra la adición de diferentes tipos de datos adicionales a una consulta y su uso como campo de personalización en un mensaje de correo electrónico. Para obtener más información sobre cómo enriquecer los datos dirigidos por una actividad **[!UICONTROL Query]**, consulte [esta sección](../../automating/using/query.md#enriching-data).
+El siguiente ejemplo ilustra la adición de diferentes tipos de datos adicionales a una consulta y su uso como campo de personalización en un mensaje de correo electrónico. Para obtener más información sobre cómo enriquecer los datos segmentados por una actividad **[!UICONTROL Query]**, consulte [esta sección](../../automating/using/query.md#enriching-data).
 
 Para este ejemplo, se utilizan [recursos personalizados](../../developing/using/data-model-concepts.md):
 
@@ -32,7 +35,7 @@ El flujo de trabajo se presenta de la siguiente manera:
 
 ![](assets/enrichment_example1.png)
 
-1. Añada una actividad [Consulta](../../automating/using/query.md), que le permite realizar el destinatario de los perfiles que han realizado al menos una transacción.
+1. Agregue una actividad [Query](../../automating/using/query.md) , que le permite dirigirse a los perfiles que han realizado al menos una transacción.
 
    ![](assets/enrichment_example2.png)
 
@@ -53,7 +56,7 @@ El flujo de trabajo se presenta de la siguiente manera:
 
    ![](assets/enrichment_example5.png)
 
-1. Añada una actividad [envío de correo electrónico](../../automating/using/email-delivery.md). En el contenido del correo electrónico, inserte los campos de personalización correspondientes a los datos calculados en la consulta. Puede encontrarlo a través del vínculo **[!UICONTROL Additional data (targetData)]** del explorador de campos de personalización.
+1. Agregue una actividad [Email delivery](../../automating/using/email-delivery.md). En el contenido del correo electrónico, inserte los campos de personalización correspondientes a los datos calculados en la consulta. Puede encontrarlo a través del vínculo **[!UICONTROL Additional data (targetData)]** del explorador de campos de personalización.
 
    ![](assets/enrichment_example3.png)
 
