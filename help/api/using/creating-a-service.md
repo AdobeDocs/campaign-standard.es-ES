@@ -6,11 +6,14 @@ description: Obtenga información sobre cómo crear un servicio con API.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Ingeniero de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 8%
+source-wordcount: '77'
+ht-degree: 9%
 
 ---
 
@@ -23,9 +26,9 @@ Si desea crear el servicio con atributos específicos, agréguelos a la carga ú
 
 <br/>
 
-***Solicitud de muestra***
+***Solicitud de ejemplo***
 
-Muestra de una solicitud de POST para crear un servicio con atributos específicos.
+Solicitud de POST de muestra para crear un servicio con atributos específicos.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/ \
