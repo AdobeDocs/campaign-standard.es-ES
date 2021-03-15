@@ -2,15 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: API externa
-description: null
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
+feature: Flujos de trabajo
+role: Arquitecto de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 6dda990d046cceae2a0c0da87764d4b6a16d9ae8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '2180'
+source-wordcount: '2184'
 ht-degree: 95%
 
 ---
@@ -38,7 +40,7 @@ Las principales características de esta actividad son:
 
 ### Avisos de compatibilidad con versiones anteriores {#from-beta-to-ga}
 
-Con la versión Campaign Standard 20.4, se han reducido los márgenes de límite de tamaño de datos de respuesta http y de tiempo de espera de respuesta para ajustarse a las prácticas recomendadas (consulte [Limitaciones y protecdrails](#guardrails). Estas modificaciones de la limitación no tendrán efecto en las actividades de API externas existentes; por lo tanto, se recomienda reemplazar las actividades de API externas existentes con nuevas versiones en todos los flujos de trabajo.
+Con la versión Campaign Standard 20.4, se han reducido los márgenes de límite de tamaño de datos de respuesta http y de tiempo de espera de respuesta para ajustarse a las prácticas recomendadas; consulte [Limitaciones y protecciones](#guardrails). Estas modificaciones de la limitación no tendrán efecto en las actividades de API externas existentes; por lo tanto, se recomienda reemplazar las actividades de API externas existentes con nuevas versiones en todos los flujos de trabajo.
 
 Al reemplazar actividades de API externas, añada la nueva actividad de API externa al flujo de trabajo, copie manualmente los detalles de configuración y, a continuación, elimine la actividad antigua.
 
@@ -158,7 +160,7 @@ Esta pestaña está disponible en la mayoría de las actividades de flujo de tra
 
 ## Pruebas
 
-Para probar la funcionalidad de API externa con un punto final de prueba sencillo, puede utilizar Postman Echo: https://docs.postman-echo.com.
+Para probar la funcionalidad de la API externa con un punto final de prueba sencillo, puede utilizar Postman Echo: https://docs.postman-echo.com.
 
 ## Resolución de problemas
 
@@ -260,8 +262,8 @@ Estos mensajes de registro se utilizan para registrar información sobre las con
    <td> <p>No se permite la clave de encabezado HTTP (clave de encabezado: “Accept”).</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247 - Un valor de encabezado HTTP es incorrecto (valor de encabezado: '%s').</td> 
-   <td> <p>El valor del encabezado HTTP es malo (valor del encabezado: '%s'). </p>
+   <td> WKF-560247 - Un valor de encabezado HTTP no es correcto (valor de encabezado: '%s').</td> 
+   <td> <p>El valor del encabezado HTTP es incorrecto (valor del encabezado: '%s'). </p>
     <p>Nota: Este error se registra cuando el valor del encabezado personalizado falla en la validación según <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a>.</p></td> 
   </tr> 
   <tr> 
