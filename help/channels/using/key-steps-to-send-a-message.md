@@ -6,18 +6,21 @@ description: Siga estos pasos para crear y enviar mensajes con Adobe Campaign.
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
+feature: Información general
+role: Profesional empresarial
+level: Principiante
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 93%
+source-wordcount: '178'
+ht-degree: 91%
 
 ---
 
 
 # Pasos clave para enviar un mensaje{#key-steps-to-send-a-message}
 
-Para conocer las prácticas recomendadas de envío, consulte la sección [prácticas recomendadas de Envío](../../sending/using/delivery-best-practices.md).
+Para conocer las prácticas recomendadas de envío, consulte la sección [Prácticas recomendadas de envío](../../sending/using/delivery-best-practices.md).
 
 Los pasos para crear y enviar mensajes son los siguientes:
 
