@@ -1,24 +1,27 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Acerca de la capacidad de entrega en Adobe Campaign Standard
-description: Conozca los conceptos y las prácticas recomendadas relacionados con la capacidad de entrega, así como las herramientas ofrecidas por Adobe Campaign Standard para optimizar el envío de envíos.
+title: Acerca de la capacidad de envío en Adobe Campaign Standard
+description: Obtenga información sobre los conceptos y las prácticas recomendadas relacionadas con la capacidad de envío, así como las herramientas que ofrece Adobe Campaign Standard para optimizar la entrega de contenido.
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
+feature: Capacidad de entrega
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 1e7359db2de1a9c420af33ac85c0597c098ae3f8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 83%
+source-wordcount: '654'
+ht-degree: 82%
 
 ---
 
 
 # Acerca de la capacidad de la entrega{#about-deliverability}
 
-La posibilidad de entrega permite medir el éxito de sus campañas alcanzando la bandeja de entrada de sus destinatarios sin rebotar, o bien se marca como correo no deseado.
+La capacidad de entrega permite medir el éxito de las campañas que llegan a la bandeja de entrada de los destinatarios sin rebotar o marcadas como correo no deseado.
 
 La tasa de entrega depende de numerosos factores, en particular:
 
@@ -32,16 +35,16 @@ La tasa de entrega depende de numerosos factores, en particular:
 
 ## Puntos clave que comprobar {#deliverability-key-points}
 
-Para optimizar la entrega de los correos electrónicos de Adobe Campaign, recomendamos que utilice las optimizaciones que se enumeran a continuación. Los problemas de entrega generalmente están vinculados a medidas de protección contra spam implementadas por proveedores de servicio de Internet y administradores de servidores de correo.
+Para optimizar la entrega de los correos electrónicos de Adobe Campaign, recomendamos que utilice las optimizaciones que se enumeran a continuación. Los problemas de entrega generalmente están vinculados a medidas de protección contra spam implementadas por los proveedores de servicios de Internet y los administradores de servidores de correo.
 
 La capacidad de envío de correo electrónico hace referencia al conjunto de características que determinan la capacidad de un mensaje para llegar a su destino a través de una dirección de correo electrónico personal, en poco tiempo y con la calidad esperada en términos de contenido y formato. Estas características se dividen en cuatro categorías principales: calidad de datos, mensaje y contenido, infraestructura de envío y reputación. Juntas forman la base del éxito de un programa de envío de correo electrónico.
 
 La tasa de entrega es el número de correos electrónicos enviados correctamente a sus destinatarios.
 A continuación se muestra una lista de los puntos clave que se deben comprobar para garantizar una buena entrega.
 
-## Herramientas de entrega {#deliverability-tools}
+## Herramientas de envío {#deliverability-tools}
 
-En primer lugar, el inicio consultando la documentación sobre las herramientas de entrega suministradas con el Campaign Standard:
+En primer lugar, comience consultando la documentación sobre las herramientas de envío proporcionadas con el Campaign Standard:
 * [Prácticas recomendadas relacionadas con las entregas](../../sending/using/delivery-best-practices.md)
 * [Personalización del nombre del remitente](../../designing/using/personalization.md#personalizing-the-sender)
 * [Optimización del tiempo de envío](../../sending/using/optimizing-the-sending-time.md)
@@ -58,7 +61,7 @@ En primer lugar, el inicio consultando la documentación sobre las herramientas 
 
 Los remitentes de spam intentan ocultar su identidad real y, como consecuencia, dificultan la identificación de sus servidores. Una configuración de red legítima que no intente ocultar la identidad del servidor es esencial para enviar correos electrónicos en grandes volúmenes.
 
-## Enviando a direcciones válidas {#valid-addresses}
+## Envío a direcciones válidas {#valid-addresses}
 
 Los remitentes de spam suelen utilizar generadores de direcciones basados en listas de nombres y apellidos frecuentes; además, rara vez procesan las notificaciones técnicas enviadas por los servidores de correo. Una tasa alta de direcciones no válidas se interpreta a menudo como un signo de spam. Los mecanismos de doble inclusión y el manejo eficaz de los mensajes de devolución técnicos permiten evitar esto.
 
@@ -74,6 +77,6 @@ Los ISP y otras organizaciones (consulte http://www.projecthoneypot.org/) utiliz
 
 En menor medida, el contenido de ciertos mensajes puede llevar a ciertos filtros a detectarlo como correo no deseado. El uso de ciertas palabras, el uso de exclamaciones en la línea del asunto y dentro de los mensajes se interpretan como signos reveladores de spam. También se sabe que los remitentes de spam reemplazan el texto con imágenes para evitar que el texto ofensivo se analice automáticamente mediante filtros antispam. En respuesta a esto, un mensaje (en formato HTML) con una alta proporción de imágenes, o imágenes como archivos adjuntos, puede terminar siendo bloqueado.
 
-## Enviando periódicamente {#regular-deliveries}
+## Envío regular {#regular-deliveries}
 
 Los remitentes de spam realizan entregas programadas para mantener su reputación con el tiempo. A veces necesitan adaptar su plan de mercadotecnia para cumplir con las mejores prácticas impuestas por los ISP y así, después de un pico de reputación (aumento), configuran entregas regulares.
