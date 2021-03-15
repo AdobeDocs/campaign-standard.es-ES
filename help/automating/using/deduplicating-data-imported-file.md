@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: dedup,main
+feature: Flujos de trabajo
+role: Arquitecto de datos
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 89%
+source-wordcount: '332'
+ht-degree: 88%
 
 ---
 
@@ -24,7 +27,7 @@ El flujo de trabajo consta de:
 
 ![](assets/deduplication_example2_workflow.png)
 
-* Un archivo que contiene una lista de perfiles se importa mediante una actividad [Cargar archivo](../../automating/using/load-file.md). En este ejemplo, el archivo importado está en formato .csv y contiene 10 perfiles:
+* Se importa un archivo que contiene una lista de perfiles mediante una actividad [Load file](../../automating/using/load-file.md). En este ejemplo, el archivo importado está en formato .csv y contiene 10 perfiles:
 
    ```
    lastname;firstname;dateofbirth;email
@@ -44,7 +47,7 @@ El flujo de trabajo consta de:
 
    ![](assets/deduplication_example2_fileloading.png)
 
-* Una actividad [Deduplicación](../../automating/using/deduplication.md). La deduplicación se realiza directamente después de importar el archivo y antes de insertar los datos en la base de datos. Por lo tanto, debe basarse en el **[!UICONTROL Temporary resource]** de la actividad de **[!UICONTROL Load file]**.
+* Una actividad [Deduplication](../../automating/using/deduplication.md). La deduplicación se realiza directamente después de importar el archivo y antes de insertar los datos en la base de datos. Por lo tanto, debe basarse en el **[!UICONTROL Temporary resource]** de la actividad de **[!UICONTROL Load file]**.
 
    Para este ejemplo, queremos mantener una sola entrada por dirección de correo electrónico única contenida en el archivo. Por lo tanto, la identificación del duplicado se lleva a cabo en la columna de **correo electrónico** del recurso temporal. Sin embargo, aparecen dos veces en el archivo dos direcciones de correo electrónico. Por consiguiente, las dos líneas se considerarán duplicados.
 
