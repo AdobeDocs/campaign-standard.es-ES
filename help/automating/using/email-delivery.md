@@ -7,10 +7,13 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 context-tags: delivery,workflow,main
+feature: Flujos de trabajo
+role: Arquitecto de datos
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '861'
 ht-degree: 94%
 
 ---
@@ -65,7 +68,7 @@ La preparación del mensaje se activa según los parámetros de ejecución del f
       Por ejemplo, para un correo electrónico de cumpleaños recurrente, que se envía diariamente, puede elegir acumular los envíos por mes. Esto le permite recibir informes sobre su envío mensualmente, aunque el correo electrónico se envíe todos los días.
    >[!NOTE]
    >
-   >Los envíos recurrentes se preparan en función del **período de agregación**. Por ejemplo, si el período de agregación es &quot;por día&quot;, el envío se volverá a preparar sólo una vez al día. Si planea llamar a este flujo de trabajo varias veces al día, utilice [!UICONTROL No aggregation].
+   >Los envíos recurrentes se preparan en función del **periodo de agregación**. Por ejemplo, si el periodo de acumulación es &quot;por día&quot;, la entrega se vuelve a preparar solo una vez al día. Si planea llamar a este flujo de trabajo varias veces al día, utilice [!UICONTROL No aggregation].
 
 1. Seleccione un tipo de correo electrónico. Los tipos de correo electrónico proceden de plantillas de correo electrónico definidas en el menú **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Introduzca las propiedades generales del correo electrónico. También puede adjuntarlo a una campaña existente. La etiqueta de la actividad envío del flujo de trabajo se actualiza con la etiqueta de correo electrónico.
