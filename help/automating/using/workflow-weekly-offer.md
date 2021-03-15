@@ -7,16 +7,19 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,delivery,scheduler
+feature: Flujos de trabajo
+role: Arquitecto de datos
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 81%
+source-wordcount: '246'
+ht-degree: 80%
 
 ---
 
 
-# Creación de un envío de correo electrónico cada martes{#creating-email-every-tuesday}
+# Creación de un envío de correo electrónico todos los martes{#creating-email-every-tuesday}
 
 Puede enviar un correo electrónico todos los martes a todos los clientes para ofertas especiales.
 
@@ -26,7 +29,7 @@ Puede enviar un correo electrónico todos los martes a todos los clientes para o
 
 ## Creación de una actividad de planificador{#creating-a-scheduler-activity}
 
-1. En **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, arrastre y suelte una actividad [Planificador](../../automating/using/scheduler.md).
+1. En **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, arrastre y suelte una actividad [Scheduler](../../automating/using/scheduler.md).
 1. Haga doble clic en la actividad.
 1. Configure la ejecución del envío.
 1. En **[!UICONTROL Execution frequency]**, seleccione **[!UICONTROL Weekly]**.
@@ -43,7 +46,7 @@ Puede enviar un correo electrónico todos los martes a todos los clientes para o
 
 ## Creación de una actividad de consulta {#creating-a-query-activity}
 
-1. En **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, para seleccionar destinatarios, arrastre y suelte una actividad [Consulta](../../automating/using/query.md) y haga clic en ella con el doble.
+1. En **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, para seleccionar destinatarios, arrastre y suelte una actividad [Query](../../automating/using/query.md) y haga doble clic en ella.
 1. En **[!UICONTROL Shortcuts]** > **[!UICONTROL Profile]**, arrastre y suelte **[!UICONTROL Email]**.
 1. Seleccione **[!UICONTROL is not empty]** como operador.
 1. En **[!UICONTROL Shortcuts]** > **[!UICONTROL General]**, añada perfiles y seleccione **[!UICONTROL no longer contact by email]** con el valor **[!UICONTROL No]**.
@@ -53,7 +56,7 @@ Puede enviar un correo electrónico todos los martes a todos los clientes para o
 
 ## Creación de una entrega de correo electrónico{#creating-an-email-delivery}
 
-1. En **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, arrastre y suelte una actividad [envío de correo electrónico](../../automating/using/email-delivery.md).
+1. En **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, arrastre y suelte una actividad [Email delivery](../../automating/using/email-delivery.md).
 1. Haga clic en la actividad y seleccione ![](assets/edit_darkgrey-24px.png) para editarla.
 1. Seleccione **[!UICONTROL Recurring email]** y haga clic en **[!UICONTROL Next]**.
 1. Seleccione una plantilla de correo electrónico y haga clic en **[!UICONTROL Next]**.
