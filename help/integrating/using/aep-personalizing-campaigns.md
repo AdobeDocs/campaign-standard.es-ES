@@ -6,10 +6,13 @@ description: Obtenga información sobre cómo personalizar sus campañas con atr
 audience: automating
 content-type: reference
 topic-tags: channel-activities
+feature: Integración de Microsoft CRM
+role: Arquitecto de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '277'
 ht-degree: 9%
 
 ---
@@ -19,11 +22,11 @@ ht-degree: 9%
 
 >[!IMPORTANT]
 >
->El servicio Audience Destinations se encuentra actualmente en fase beta, por lo que puede estar sujeto a frecuentes actualizaciones sin previo aviso. Es necesario que los clientes estén alojados en Azure (actualmente en versión beta solo para Norteamérica) para acceder a estas capacidades. Póngase en contacto con el Servicio de atención al cliente de Adobe si desea obtener acceso.
+>El servicio Audience Destinations se encuentra actualmente en fase beta, por lo que puede estar sujeto a frecuentes actualizaciones sin previo aviso. Es necesario que los clientes estén alojados en Azure (actualmente en versión beta solo para Norteamérica) para acceder a estas capacidades. Si desea acceder, póngase en contacto con el Servicio de atención al cliente de Adobe.
 >
->**** Pushand  **In-** Appchannels aún no están disponibles para su personalización mediante datos contextuales de Adobe Experience Platform.
+>**** Los  **Pushand In-** Appchannels aún no están disponibles para su personalización mediante datos contextuales de Adobe Experience Platform.
 
-Una vez configurado el flujo de trabajo con una [audiencia de Adobe Experience Platform](../../integrating/using/aep-about-audience-destinations-service.md), puede personalizar los mensajes con atributos de perfil que existan exclusivamente en el Experience Data Model (XDM).
+Una vez configurado el flujo de trabajo con una [audiencia de Adobe Experience Platform](../../integrating/using/aep-about-audience-destinations-service.md), puede personalizar los mensajes con atributos de perfil que existan exclusivamente en el Modelo de datos de experiencia (XDM).
 
 Para ello, debe añadir estos atributos a la actividad **[!UICONTROL Read audience]** :
 
@@ -53,7 +56,7 @@ Para ello, debe añadir estos atributos a la actividad **[!UICONTROL Read audien
 
 1. Una vez añadidos todos los campos, haga clic en el botón **[!UICONTROL Confirm]** para guardar los cambios. Ahora están disponibles para personalizar los envíos.
 
-Para obtener más información sobre cómo crear y personalizar entregas, consulte la documentación de Campaign Standard:
+Para obtener más información sobre cómo crear y personalizar entregas, consulte la documentación del Campaign Standard:
 
 * [Descubrimiento de canales de comunicación](../../channels/using/get-started-communication-channels.md)
 * [Acerca de las actividades de canal](../../automating/using/about-channel-activities.md)
