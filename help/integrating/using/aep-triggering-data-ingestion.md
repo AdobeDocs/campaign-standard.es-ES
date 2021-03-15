@@ -2,14 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: Activación de la ingesta de datos mediante API
-description: Obtenga información sobre cómo activar la ingesta de datos mediante API.
+description: Obtenga información sobre cómo almacenar en déclencheur la ingesta de datos mediante API.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
+feature: Integración de Microsoft CRM
+role: Arquitecto de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '470'
 ht-degree: 5%
 
 ---
@@ -19,11 +22,11 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector está actualmente en fase beta, que puede estar sujeto a actualizaciones frecuentes sin previo aviso. Es necesario que los clientes estén alojados en Azure (actualmente en versión beta solo para Norteamérica) para acceder a estas capacidades. Póngase en contacto con el Servicio de atención al cliente de Adobe si desea obtener acceso.
+>Adobe Experience Platform Data Connectors se encuentra actualmente en fase beta, por lo que puede estar sujeto a actualizaciones frecuentes sin previo aviso. Es necesario que los clientes estén alojados en Azure (actualmente en versión beta solo para Norteamérica) para acceder a estas capacidades. Si desea acceder, póngase en contacto con el Servicio de atención al cliente de Adobe.
 
-Adobe Campaign Standard le permite activar la ingesta inmediata de asignaciones de datos a través de API y recuperar el estado de sus solicitudes de ingesta.
+Adobe Campaign Standard le permite realizar el déclencheur de la ingesta inmediata de asignaciones de datos mediante API y recuperar el estado de sus solicitudes de ingesta.
 
-En esta página se describe cómo activar y recuperar el estado de ingesta de sus asignaciones de datos. Para obtener información global sobre las API de Campaign Standard, consulte [esta sección](../../api/using/get-started-apis.md).
+En esta página se describe cómo almacenar en déclencheur y recuperar el estado de ingesta de sus asignaciones de datos. Para obtener información global sobre las API de Campaign Standard, consulte [esta sección](../../api/using/get-started-apis.md).
 
 ## Requisitos previos {#prerequisites}
 
@@ -32,9 +35,9 @@ Antes de utilizar las API, la asignación de datos debe haberse configurado y pu
 * [Definición de la asignación](../../integrating/using/aep-mapping-definition.md)
 * [Activación de la asignación](../../integrating/using/aep-mapping-activation.md)
 
-Una vez creada la asignación de datos, debe evitar que se ejecute para que pueda activarla desde las API cuando lo desee. Para ello, siga estos pasos:
+Una vez creada la asignación de datos, debe evitar que se ejecute para que pueda realizar el déclencheur desde las API cuando lo desee. Para ello, siga estos pasos:
 
-1. En Campaign Standard, vaya al menú **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** .
+1. En el Campaign Standard, vaya al menú **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]**.
 
 1. Haga doble clic en la asignación de datos para abrirla y, a continuación, haga clic en el botón **[!UICONTROL Stop]** .
 
@@ -42,17 +45,17 @@ Una vez creada la asignación de datos, debe evitar que se ejecute para que pued
 
 1. Guarde los cambios
 
-La ejecución de la asignación de datos ahora está detenida. Puede utilizar las API de Campaign Standard para activarlas manualmente.
+La ejecución de la asignación de datos ahora está detenida. Puede utilizar las API de Campaign Standard para realizar el déclencheur manualmente.
 
 ## Inicio de la ingesta inmediata de la asignación de datos {#starting-immediate-ingestion}
 
-La ingesta inmediata de una asignación XDM en Adobe Experience Platform se activa con una operación POST:
+La ingesta inmediata de una asignación XDM en Adobe Experience Platform se activa con una operación de POST:
 
 `POST https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest`
 
 >[!NOTE]
 >
->Para ejecutar la llamada de API POST de ingesta, el usuario debe tener una función **SQL function execution** , que puede proporcionar un administrador de Campaign Standard ejecutando el siguiente script JS:
+>Para ejecutar la llamada a la API del POST de ingesta, el usuario debe tener una función **SQL function execution** , que puede proporcionar un administrador del Campaign Standard ejecutando el siguiente script de JS:
 >
 >
 ```
@@ -97,7 +100,7 @@ La operación POST devuelve información sobre el estado de la solicitud creada:
 
 ## Recuperación del estado de una solicitud de ingesta {#retrieving-status}
 
-El estado de una solicitud de ingesta se puede recuperar con una operación GET y el ID de solicitud deseado en los parámetros :
+El estado de una solicitud de ingesta se puede recuperar con una operación de GET y el ID de solicitud deseado en los parámetros :
 
 ```
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest
@@ -108,14 +111,14 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 >
 >La información detallada sobre el estado de la solicitud de asignación XDM y sus trabajos relacionados está disponible en la interfaz de Campaign Standard, en el menú **[!UICONTROL Status of data export to platform]** (consulte [Activación de asignación](../../integrating/using/aep-mapping-activation.md)).
 
-La operación GET devuelve la siguiente información:
+La operación de GET devuelve la siguiente información:
 
 * **batchId**: este campo solo se rellena si se ha producido un error tras la preparación y carga del lote,
 * **información**: el ID de asignación XDM,
 * **numRecords**: el número de registros que se han introducido (solo estado de éxito),
 * **estado**: el estado de la solicitud de ingesta (success/failed/in progress)
 
-Las respuestas posibles a la operación GET son:
+Las posibles respuestas a la operación de GET son:
 
 * Solicitud de ingesta correcta:
 
