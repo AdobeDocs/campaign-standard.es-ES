@@ -5,10 +5,13 @@ products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
+feature: Integración de Microsoft CRM
+role: Arquitecto de datos
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 93e4310c606cb39a1071b8e20d88978839007765
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '848'
 ht-degree: 5%
 
 ---
@@ -67,10 +70,10 @@ Siga los detalles del diagrama de flujo y del diagrama de flujo a continuación 
 
 Detalles del diagrama de flujo (se asigna a los pasos anteriores):
 
-* **Paso 1** : se da por hecho que ya dispone de una licencia para Microsoft Dynamics 365 for Sales y para Adobe Campaign Standard, o que está en proceso de adquirirla.
+* **Paso 1** : se da por hecho que ya dispone de una licencia para Microsoft Dynamics 365 for Sales y para Adobe Campaign Standard o está en proceso de adquirirla.
 * **Paso 2** : La oferta de integración estándar es gratuita para todos los clientes; sin embargo, pueden aplicarse costes adicionales en función de sus necesidades. Obtenga más información sobre [Prácticas recomendadas y limitaciones](../../integrating/using/d365-acs-notices-and-recommendations.md). Será necesario firmar un nuevo pedido de ventas (SO) para aprovechar la integración si no se incluyó en el SO original.
 * **Paso 3** : Complete los pasos previos a la integración para Dynamics 365 y Campaign. Consulte [Configurar esta integración](#configure-this-integration).
-* **Paso 4** : El equipo de integración de Adobe le proporcionará acceso a la interfaz de usuario (IU) de la aplicación de integración.
+* **Paso 4** : El equipo de incorporación de Adobe le proporcionará acceso a la interfaz de usuario (IU) de la aplicación de integración.
 * **Paso 5** : podrá configurar sus asignaciones de datos, reemplazos, filtros, etc. y pruebe la integración desde la interfaz de usuario de la aplicación de integración.
 
    >[!IMPORTANT]
@@ -94,7 +97,7 @@ Se deben aprovisionar y configurar tres sistemas para esta integración:
 
 ### Solicitud de asistencia
 
-Los tickets de asistencia se pueden registrar con el Servicio de atención al cliente de Adobe.
+Los tickets de asistencia técnica se pueden registrar con el Servicio de atención al cliente de Adobe.
 
 Para cualquier problema con los flujos de datos de integración, asegúrese de incluir la siguiente información:
 
@@ -103,4 +106,4 @@ Para cualquier problema con los flujos de datos de integración, asegúrese de i
 * **Título** del proceso: Integración de Microsoft Dynamics 365/Adobe Campaign Standard
 * **Descripción** del problema: Descripción del problema
 
-Actualmente, la cobertura de asistencia para la integración es de 24 horas al día (disponible de lunes a viernes, excluyendo los festivos y periodos de descanso de Adobe).
+La cobertura de soporte de integración es actualmente de 24x5 (disponible de lunes a viernes, excluyendo feriados de Adobe y periodos de descanso).
