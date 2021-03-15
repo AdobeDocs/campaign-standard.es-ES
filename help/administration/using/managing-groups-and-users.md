@@ -7,10 +7,13 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 context-tags: user,overview;user,main;security,overview;security,main
+feature: Gestión de acceso
+role: Administrador
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: ae2b6587d71f0915da05e53bf45c67c7a37a42c8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '944'
 ht-degree: 88%
 
 ---
@@ -35,7 +38,7 @@ Los grupos de seguridad predeterminados son así:
 
 >[!IMPORTANT]
 >
->Los grupos de seguridad **[!UICONTROL Access to the deliverability parameters (Deliverability)]** y **[!UICONTROL Message Center agents (mcExec)]** son Adobes internos solamente y no deben asignarse a ningún usuario.
+>Los grupos de seguridad **[!UICONTROL Access to the deliverability parameters (Deliverability)]** y **[!UICONTROL Message Center agents (mcExec)]** son de Adobe interno solamente y no deben asignarse a ningún usuario.
 
 Para poder acceder a Adobe Campaign, cada usuario debe estar asignado a un grupo de seguridad.
 
@@ -133,7 +136,7 @@ El usuario administrador debe crear el conjunto de grupos de seguridad que se ut
 
    >[!NOTE]
    >
-   >Si va a asignar un grupo de seguridad integrado a sus usuarios, deberá restablecer la unidad organizativa.
+   >Si va a asignar un grupo de seguridad integrado a los usuarios, deberá restablecer la unidad organizativa.
 
    ![](assets/manage_security_group_6.png)
 
@@ -146,5 +149,5 @@ Los usuarios estarán asignados a un grupo de seguridad y podrán conectarse a A
 
 >[!IMPORTANT]
 >
->Si los usuarios se eliminan de un grupo de seguridad en la consola de administración, seguirán formando parte del grupo de seguridad de Adobe Campaign y ya no podrán iniciar sesión en Adobe Campaign. En este caso, elimine las direcciones de correo electrónico de los usuarios en Admin Console para evitar que reciban información confidencial.
+>Si los usuarios se eliminan de un grupo de seguridad en Admin Console, seguirán formando parte del grupo de seguridad de Adobe Campaign y ya no podrán iniciar sesión en Adobe Campaign. En este caso, elimine las direcciones de correo electrónico de los usuarios en Admin Console para evitar que reciban información confidencial.
 
