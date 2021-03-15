@@ -2,14 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: Configuración de la integración de Campaign-Target
-description: Obtenga información sobre cómo configurar la integración de Adobe Target en inicio mediante contenido dinámico en Adobe Campaign.
+description: Aprenda a configurar la integración de Adobe Target para que empiece a usar contenido dinámico en Adobe Campaign.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
+feature: Triggers
+role: Arquitecto de datos
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '186'
 ht-degree: 18%
 
 ---
@@ -19,7 +22,7 @@ ht-degree: 18%
 
 La integración entre Adobe Campaign y Adobe Target permite insertar contenido dinámico en el envío.
 
-En primer lugar, Adobe Campaign necesita una configuración para utilizar las funcionalidades de integración con Adobe Target y debe ser administrada por el administrador funcional.
+Primero se necesita una configuración en Adobe Campaign para utilizar las funcionalidades de integración con Adobe Target y el administrador funcional debe administrarla.
 
 Se necesitan los siguientes elementos para este procedimiento:
 
@@ -28,10 +31,10 @@ Se necesitan los siguientes elementos para este procedimiento:
 * Un “rawbox” de Adobe Target determinada para establecer la conexión con Adobe Campaign
 
 1. En el menú avanzado, a través del logotipo de Adobe Campaign en la esquina superior izquierda, seleccione **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
-1. Para configurar las opciones de servidor e inquilino para Adobe Target, rellene los campos siguientes en consecuencia:
+1. Para configurar las opciones del servidor y del inquilino para Adobe Target, rellene los siguientes campos como corresponda:
 
-   * **[!UICONTROL TNT_TenantName]**:: nombre del inquilino de Adobe Target. Este valor corresponde al nombre de **[!UICONTROL Client]** de Adobe Target.
-   * **[!UICONTROL TNT_EdgeServer]**:: Servidor Adobe Target utilizado para la integración. Esta opción ya se proporciona de forma predeterminada. Este valor corresponde al valor de Adobe Target **[!UICONTROL Server Domain]**, seguido del valor **/m2**. Por ejemplo: **tt.omtrdc.net/m2**.
+   * **[!UICONTROL TNT_TenantName]**: nombre del inquilino de Adobe Target. Este valor corresponde al nombre de **[!UICONTROL Client]** de Adobe Target.
+   * **[!UICONTROL TNT_EdgeServer]**: Servidor de Adobe Target utilizado para la integración. Esta opción ya se proporciona de forma predeterminada. Este valor corresponde al de Adobe Target **[!UICONTROL Server Domain]**, seguido del valor **/m2**. Por ejemplo: **tt.omtrdc.net/m2**.
 
    ![](assets/tar_options.png)
 
