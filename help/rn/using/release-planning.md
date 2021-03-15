@@ -6,11 +6,14 @@ description: Esta página enumera las próximas versiones de Adobe Campaign Stan
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
+feature: Información general
+role: Profesional empresarial
+level: Principiante
 translation-type: tm+mt
-source-git-commit: 1b971fbf7b5d36283434db0389534a3dda2ebb45
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 99%
+source-wordcount: '470'
+ht-degree: 98%
 
 ---
 
