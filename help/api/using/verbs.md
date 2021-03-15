@@ -1,28 +1,31 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: GET/POST/PATCH/verbos de DELETE
+title: GET/POST/PATCH/verbos del DELETE
 description: Obtenga más información sobre los verbos utilizados en las API de Campaign Standard.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Ingeniero de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
 
 
-# GET/POST/PATCH/verbos de DELETE {#verbs}
+# GET/POST/PATCH/verbos del DELETE {#verbs}
 
-Los verbos disponibles para realizar operaciones con los recursos son:
+Los verbos disponibles para realizar operaciones en los recursos son:
 
-* `GET`:: recupera un elemento o una colección de elementos
-* `POST`:: crea un recurso con parámetros.
-* `PATCH`:: actualiza un recurso con parámetros.
-* `DELETE`:: elimina un recurso.
+* `GET`: recupera un elemento o una colección de elementos
+* `POST`: crea un recurso con parámetros.
+* `PATCH`: actualiza un recurso con parámetros.
+* `DELETE`: elimina un recurso.
 
 <!-- ajouter codes retour -->
 
@@ -30,7 +33,7 @@ Los verbos disponibles para realizar operaciones con los recursos son:
 
 ***Solicitudes de muestra***
 
-* Muestra de una solicitud de GET en la colección de perfiles.
+* Solicitud de GET de ejemplo en la recopilación de perfiles.
 
 
    ```
@@ -66,7 +69,7 @@ Los verbos disponibles para realizar operaciones con los recursos son:
    }
    ```
 
-* Muestra de una solicitud de GET en un perfil específico.
+* Solicitud de GET de ejemplo en un perfil específico.
 
 
    ```
@@ -92,7 +95,7 @@ Los verbos disponibles para realizar operaciones con los recursos son:
    }
    ```
 
-* Muestra de una solicitud de POST para crear un perfil.
+* Solicitud de POST de ejemplo para crear un perfil.
 
 
    ```
@@ -116,7 +119,7 @@ Los verbos disponibles para realizar operaciones con los recursos son:
    }
    ```
 
-* Muestra de una solicitud de PATCH para actualizar un perfil.
+* Ejemplo de solicitud del PATCH para actualizar un perfil.
 
    ```
    -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -136,7 +139,7 @@ Los verbos disponibles para realizar operaciones con los recursos son:
    }
    ```
 
-* Muestra de una solicitud de DELETE para eliminar un perfil.
+* Ejemplo de solicitud del DELETE para eliminar un perfil.
 
    ```
    -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
