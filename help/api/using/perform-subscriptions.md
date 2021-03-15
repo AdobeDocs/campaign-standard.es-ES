@@ -2,14 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: Realización de suscripciones
-description: Aprenda a realizar suscripciones con las API.
+description: Obtenga información sobre cómo realizar suscripciones con API.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Ingeniero de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
@@ -43,7 +46,7 @@ Devuelve la URL de suscripciones del perfil.
   }
 ```
 
-Realice una solicitud de POST en la dirección URL de suscripciones con la clave principal de servicio deseada dentro de la carga útil.
+Realice una solicitud de POST en la URL de suscripciones con la clave principal de servicio deseada dentro de la carga útil.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -96,7 +99,7 @@ Devuelve la URL de suscripciones del servicio.
   },
 ```
 
-Realice una solicitud de POST en la dirección URL de suscripciones con la clave principal de perfil deseada dentro de la carga útil.
+Realice una solicitud de POST en la URL de suscripciones con la clave principal del perfil deseada dentro de la carga útil.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign//profileAndServices/service/<PKEY>/subscriptions/ \
