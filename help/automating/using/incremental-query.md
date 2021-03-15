@@ -7,10 +7,13 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: incremental,main
+feature: Flujos de trabajo
+role: Arquitecto de datos
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '618'
 ht-degree: 98%
 
 ---
@@ -44,7 +47,7 @@ La actividad **[!UICONTROL Incremental query]** se puede utilizar para varios ti
 
 **Temas relacionados**
 
-* [Caso de uso: Consulta incremental sobre los suscriptores de un servicio](../../automating/using/incremental-query-on-subscribers.md)
+* [Caso de uso: Consulta incremental de los suscriptores a un servicio](../../automating/using/incremental-query-on-subscribers.md)
 
 ## Configuración {#configuration}
 
