@@ -2,14 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: Supervisión de una solicitud de privacidad
-description: Obtenga información sobre cómo supervisar una solicitud de privacidad con API
+description: Obtenga información sobre cómo monitorizar una solicitud de privacidad con API
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Ingeniero de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '58'
 ht-degree: 25%
 
 ---
@@ -17,13 +20,13 @@ ht-degree: 25%
 
 # Supervisión de una solicitud de privacidad {#monitoring-a-privacy-request}
 
-Puede supervisar la información sobre una solicitud de privacidad creada mediante una solicitud **GET**.
+Puede monitorizar la información sobre una solicitud de privacidad creada mediante una solicitud **GET**.
 
 La descripción de la lista de estado está disponible en la [documentación de administración de privacidad](https://helpx.adobe.com/es/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
 
 <br/>
 
-***Solicitud de muestra***
+***Solicitud de ejemplo***
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \
