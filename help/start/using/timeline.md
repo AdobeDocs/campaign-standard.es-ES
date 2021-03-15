@@ -7,11 +7,14 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: campaignCalendar,main
+feature: Campañas
+role: Profesional empresarial
+level: Principiante
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 91%
+source-wordcount: '376'
+ht-degree: 90%
 
 ---
 
@@ -30,9 +33,9 @@ Cada programa está representado por un cuadro que contiene la miniatura y la et
 
 La línea vertical azul es un marcador cronológico para resaltar la fecha actual. De forma predeterminada, se encuentra en medio de la pantalla. Puede desplazarse hacia la derecha o izquierda dentro de la pantalla para modificar el periodo mostrado.
 
-Utilice los iconos para:
+Utilice los iconos para;
 
-* ![](assets/timeline_zoom_in.png) reducir el perímetro o aumentar el nivel de detalle durante un período más limitado, hasta que se muestren los días
+* ![](assets/timeline_zoom_in.png) reducir el perímetro o aumentar el nivel de detalle durante un periodo más limitado, hasta que se muestren los días
 * ![](assets/timeline_zoom_out.png) aumentar el perímetro o mostrar un intervalo de tiempo mayor
 
 Haga clic en la flecha a la derecha del nombre de cada programa para mostrar el contenido correspondiente. Un programa puede contener programas secundarios, campañas y páginas de aterrizaje. Una campaña se implementa del mismo modo que un programa y puede contener correos electrónicos, SMS y páginas de aterrizaje.
@@ -52,7 +55,7 @@ Cada elemento tiene un icono que corresponde a su tipo:
 * ![](assets/timeline_lp_icon.png) página de aterrizaje
 * ![](assets/timeline_email_icon.png) Correo electrónico
 * ![](assets/timeline_sms_icon.png) SMS
-* ![](assets/timeline_push_icon.png) Notificación push
+* ![](assets/timeline_push_icon.png) Notificaciones push
 
 La línea de color del borde izquierdo de cada cuadro indica el estado del elemento en cuestión.
 
