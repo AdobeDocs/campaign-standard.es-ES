@@ -7,11 +7,14 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
+feature: Audiencias
+role: Profesional empresarial
+level: Principiante
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 91%
+source-wordcount: '253'
+ht-degree: 90%
 
 ---
 
@@ -26,7 +29,7 @@ Adobe Campaign le permite crear audiencias manualmente con consultas o automáti
 
 Puede manipular diferentes tipos de audiencias en Adobe Campaign. El tipo de audiencia corresponde a la forma en que se creó:
 
-* **[!UICONTROL Query]**:: indica que la audiencia se creó con datos de  [](../../automating/using/editing-queries.md#about-query-editor) consulta de la base de datos de Adobe Campaign mediante la lista de audiencias. Las audiencias definidas por una consulta se recomiendan para cada uso posterior.
+* **[!UICONTROL Query]**: indica que la audiencia se creó con datos de  [](../../automating/using/editing-queries.md#about-query-editor) consulta de la base de datos de Adobe Campaign a través de la lista de audiencias. Las audiencias definidas por una consulta se recomiendan para cada uso posterior.
 * **[!UICONTROL List]**: indica que la audiencia es una lista fija de perfiles. Estas listas se crean en un [flujo de trabajo](../../automating/using/get-started-workflows.md) donde la dimensión de datos al guardar la audiencia se conoce. Por ejemplo, después de dirigir actividades (especialmente **[!UICONTROL Query]**) o después de la reconciliación de datos importados de un archivo.
 * **[!UICONTROL File]**: indica que la audiencia se creó directamente a partir de un flujo de trabajo de [importación de archivos](../../automating/using/load-file.md) y que la dimensión de datos era desconocida al guardar la audiencia.
 * **[!UICONTROL Experience Cloud]**: indica que la audiencia se importó desde Adobe Experience Cloud. Esta opción solo está disponible si se ha configurado la funcionalidad de uso compartido de audiencias. Para obtener más información, consulte [Importación de una audiencia desde Adobe Experience Cloud](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md#importing-an-audience).
