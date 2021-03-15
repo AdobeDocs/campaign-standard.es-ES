@@ -6,10 +6,14 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
+description: '"Las plantillas de envíos ofrecen una mayor eficiencia al proporcionar escenarios listos para usar para los tipos de actividades más comunes."'
+feature: Capacidad de entrega
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: a7300666587362048431d0bafacc317170b317aa
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '819'
 ht-degree: 58%
 
 ---
@@ -27,7 +31,7 @@ Una [plantilla de envíos](../../start/using/marketing-activity-templates.md#cre
 
 Cuando se gestionan varias marcas en Adobe Campaign, Adobe recomienda tener un subdominio por marca. Por ejemplo, un banco puede tener varios subdominios correspondientes a cada una de sus agencias regionales. Si un banco posee el dominio bluebank.com, sus subdominios pueden ser @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com, etc. Tener una plantilla de envíos para cada subdominio le permite utilizar los parámetros preconfigurados adecuados para cada una de sus marcas, lo que evita errores y le ahorra tiempo.
 
-**Sugerencia**: Para evitar errores de configuración en la Campaña, le recomendamos que duplicado una plantilla nativa y modifique sus propiedades en lugar de crear una nueva plantilla.
+**Sugerencia**: Para evitar errores de configuración en Campaign, se recomienda duplicar una plantilla nativa y modificar sus propiedades en lugar de crear una nueva plantilla.
 
 ## Configuración de direcciones
 
@@ -47,27 +51,27 @@ En la sección **[!UICONTROL Advanced parameters]** de las propiedades de una pl
 
 El dominio de dirección debe ser el mismo que el subdominio configurado.
 
-Los campos **[!UICONTROL Reply to]** corresponden a la dirección de correo electrónico y al nombre utilizados para las respuestas.
+Los campos **[!UICONTROL Reply to]** corresponden a la dirección de correo electrónico y al nombre utilizado para las respuestas.
 
-**Sugerencia** : Adobe recomienda utilizar una dirección real existente como el servicio de atención al cliente de su marca. En este caso, si un destinatario envía una respuesta, el servicio de atención al cliente podrá atenderla.
+**Sugerencia** : Adobe recomienda utilizar una dirección real existente, como el servicio de atención al cliente de su marca. En este caso, si un destinatario envía una respuesta, el servicio de atención al cliente podrá atenderla.
 
-Para cambiar el nombre del remitente que aparecerá en el encabezado de los mensajes enviados, vaya a la ficha **[!UICONTROL Properties]** de la página de inicio de Email Designer (a la que se puede acceder a través del icono de inicio) y haga clic en el bloque **[!UICONTROL Default sender name]**.
+Para cambiar el nombre del remitente que aparece en el encabezado de los mensajes enviados, vaya a la pestaña **[!UICONTROL Properties]** de la página de inicio del Diseñador de correo electrónico (accesible a través del icono de inicio) y haga clic en el bloque **[!UICONTROL Default sender name]** .
 
 ![](assets/template-content.png)
 
-Para aumentar la tasa de apertura de los envíos, Adobe recomienda utilizar un nombre que sea fácilmente identificable por los destinatarios, como el nombre de su marca.
+Para aumentar la tasa de apertura de los envíos, Adobe recomienda utilizar un nombre fácilmente identificable por los destinatarios, como el nombre de la marca.
 
-**Sugerencia** : Para mejorar aún más la experiencia del destinatario, puede agregar el nombre de una persona, por ejemplo &quot;Emma de Megastore&quot;.
+**Sugerencia** : Para mejorar aún más la experiencia del destinatario, puede añadir el nombre de una persona, por ejemplo &quot;Emma de Megastore&quot;.
 
-Para obtener más información sobre la personalización del nombre del remitente, consulte [Enviar correo electrónico](../../designing/using/subject-line.md#email-sender).
+Para obtener más información sobre la personalización del nombre del remitente, consulte [Email sender](../../designing/using/subject-line.md#email-sender).
 
-## Personalización del nombre del remitente SMS
+## Personalización del nombre del remitente del SMS
 
-En la sección **Parámetros avanzados** de las propiedades de una plantilla SMS, la opción **Desde** permite personalizar el nombre del remitente del mensaje SMS mediante una cadena de caracteres. Este es el nombre que aparecerá como el nombre del remitente del mensaje SMS en el teléfono móvil del destinatario.
+En la sección **Advanced parameters** de las propiedades de una plantilla SMS, la opción **From** le permite personalizar el nombre del remitente del mensaje SMS con una cadena de caracteres. Este es el nombre que aparecerá como el nombre del remitente del mensaje SMS en el teléfono móvil del destinatario.
 
 Si este campo está vacío, será el número de origen proporcionado en la cuenta externa que se utilizará. Si no se proporciona ningún número de origen, será el código corto que se utilizará. Para obtener más información al respecto, consulte [Configuración de SMS](../../administration/using/configuring-sms-channel.md).
 
-**Sugerencia** : Compruebe la legislación de su país relativa a la modificación de la dirección del remitente. También debe consultar a su proveedor de servicio de SMS para ver si ofrece esta funcionalidad.
+**Sugerencia** : Compruebe la legislación de su país sobre la modificación de la dirección del remitente. También debe consultar a su proveedor de servicio de SMS para ver si ofrece esta funcionalidad.
 
 ## Configuración de un grupo de control
 
@@ -85,14 +89,14 @@ Para obtener más información sobre tipologías, consulte [esta sección](../..
 
 ## Vinculación de una marca a una plantilla
 
-Los parámetros de los correos electrónicos enviados relacionados con la identidad de una marca (como el logotipo de la marca o la dirección del remitente) se administran de forma centralizada en Adobe Campaign. Puede crear una o varias marcas y vincularlas a Plantillas de envíos.
+Los parámetros de los correos electrónicos enviados relacionados con la identidad de una marca (como el logotipo de la marca o la dirección del remitente) se administran de forma centralizada en Adobe Campaign. Puede crear una o varias marcas y vincularlas a plantillas de envío.
 
 Para obtener más información sobre el uso y la configuración de marcas en Adobe Campaign, consulte Marcas.
 
-Para mostrar o cambiar la marca asignada a una Plantilla de envíos, seleccione el botón Editar propiedades de la plantilla y desplácese hasta los detalles de la marca.
+Para mostrar o cambiar la marca asignada a una plantilla de envío, seleccione el botón Editar propiedades de la plantilla y vaya a los detalles de la marca.
 
 ![](assets/template-brand.png)
 
-Para obtener más información sobre cómo vincular una marca a una plantilla, consulte [Asignación de una marca a un correo electrónico](../../administration/using/branding.md#assigning-a-brand-to-an-email).
+Para obtener más información sobre la vinculación de una marca a una plantilla, consulte [Asignación de una marca a un correo electrónico](../../administration/using/branding.md#assigning-a-brand-to-an-email).
 
 Aprenda a crear y configurar una marca [en esta sección](../../administration/using/branding.md#creating-a-brand).
