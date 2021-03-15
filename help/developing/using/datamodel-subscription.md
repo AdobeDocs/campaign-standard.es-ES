@@ -5,10 +5,13 @@ title: Modelo de datos
 description: Obtenga información sobre el modelo de datos
 audience: developing
 content-type: reference
+feature: Modelo de datos
+role: Desarrollador
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '81'
 ht-degree: 12%
 
 ---
@@ -23,17 +26,17 @@ ht-degree: 12%
         <th>Name</th>
         <th>Etiqueta</th>
         <th>Tipo (longitud)</th>
-        <th>Valores de lista desglosada</th>
+        <th>Valores de enumeración</th>
     </tr>
     <tr>
         <td>PKey</td>
-        <td>ID de recurso principal</td>
+        <td>ID del recurso principal</td>
         <td>string </td>
         <td> </td>
     </tr>
     <tr>
         <td>ctx</td>
-        <td>Contexto de evento</td>
+        <td>Contexto del evento</td>
         <td>item </td>
         <td> </td>
     </tr>
@@ -46,12 +49,12 @@ ht-degree: 12%
     <tr>
         <td>emailFormat</td>
         <td>Formato del correo electrónico</td>
-        <td>lista desglosada (byte) </td>
+        <td>enumeration (byte) </td>
         <td>
             <ul>
             <li>Texto - texto - 1</li>
             <li>HTML - html - 2</li>
-            <li>VALOR NO VÁLIDO - __Invalid_value_ - __Invalid_value__</li>
+            <li>VALOR NO VÁLIDO - __Invalid_value__ - __Invalid_value__</li>
             <li>Desconocido - desconocido - 0</li>
             </ul>
         </td>
@@ -86,7 +89,7 @@ Por correo electrónico (por correo electrónico)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>correo electrónico</td>
+    <td>email</td>
     <td>string</td>
     </tr>
 </table>
@@ -100,7 +103,7 @@ Por estado o tipo (byStatusOrType)
         </tr>
         <tr>
         <td>status</td>
-        <td>lista desglosada</td>
+        <td>enumeración</td>
         </tr>
         <tr>
         <td>type</td>
