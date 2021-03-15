@@ -2,28 +2,31 @@
 solution: Campaign Standard
 product: campaign
 title: Control de un flujo de trabajo
-description: Aprenda a controlar un flujo de trabajo con las API.
+description: Obtenga información sobre cómo controlar un flujo de trabajo con API.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Ingeniero de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 9%
+source-wordcount: '100'
+ht-degree: 10%
 
 ---
 
 
 # Control de un flujo de trabajo {#controlling-a-workflow}
 
-Puede controlar un flujo de trabajo directamente desde la API de REST, mediante una solicitud de POST que contenga el ID de flujo de trabajo y el comando de ejecución requerido:
+Puede controlar un flujo de trabajo directamente desde la API de REST, a través de una solicitud de POST que contenga el ID de flujo de trabajo y el comando de ejecución requerido:
 
 `POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands`
 
 >[!CAUTION]
 >
->Si se cambia el ID de flujo de trabajo en Adobe Campaign, la solicitud de API ya no funcionará.
+>Si el ID de flujo de trabajo se cambia en Adobe Campaign, la solicitud de API ya no funcionará.
 
 Hay cuatro comandos de ejecución disponibles para controlar un flujo de trabajo:
 
@@ -32,13 +35,13 @@ Hay cuatro comandos de ejecución disponibles para controlar un flujo de trabajo
 * Reanudar
 * Stop
 
-Para obtener más información sobre los comandos de ejecución, consulte la [documentación de Campaña](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html).
+Para obtener más información sobre los comandos de ejecución, consulte la [documentación de Campaign](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html).
 
 <br/>
 
 ***Solicitudes de muestra***
 
-* Inicio de un flujo de trabajo.
+* Iniciar un flujo de trabajo.
 
    ```
    -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands \
