@@ -5,16 +5,19 @@ title: Modelo de datos
 description: Obtenga información sobre el modelo de datos
 audience: developing
 content-type: reference
+feature: Modelo de datos
+role: Desarrollador
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 14%
+source-wordcount: '211'
+ht-degree: 13%
 
 ---
 
 
-# Audiencia (nms:audiencia)
+# Audiencia (nms:audience)
 
 ## Descripción del objeto
 
@@ -23,11 +26,11 @@ ht-degree: 14%
                   <th>Name</th>
                   <th>Etiqueta</th>
                   <th>Tipo (longitud)</th>
-                  <th>Valores de lista desglosada</th>
+                  <th>Valores de enumeración</th>
                </tr>
                <tr>
                   <td>PKey</td>
-                  <td>ID de recurso principal</td>
+                  <td>ID del recurso principal</td>
                   <td>string </td>
                   <td> </td>
                </tr>
@@ -40,12 +43,12 @@ ht-degree: 14%
                <tr>
                   <td>amcDataSource (amcDataSourceBase)</td>
                   <td>Fuente de datos AMC</td>
-                  <td>link </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>audienceData</td>
-                  <td>Población seleccionada de previsualización</td>
+                  <td>Vista previa de la población seleccionada</td>
                   <td>colección </td>
                   <td> </td>
                </tr>
@@ -94,7 +97,7 @@ ht-degree: 14%
                <tr>
                   <td>createdBy (userBase)</td>
                   <td>Creado por</td>
-                  <td>link </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -105,7 +108,7 @@ ht-degree: 14%
                </tr>
                <tr>
                   <td>doNotPersist</td>
-                  <td>No registrar este trabajo</td>
+                  <td>No histórico este trabajo</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
@@ -124,7 +127,7 @@ ht-degree: 14%
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
                   <td>Unidad geográfica</td>
-                  <td>link </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -135,7 +138,7 @@ ht-degree: 14%
                </tr>
                <tr>
                   <td>isAMC</td>
-                  <td>audiencia Adobe Marketing Cloud</td>
+                  <td>Audiencia de Adobe Marketing Cloud</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
@@ -166,7 +169,7 @@ ht-degree: 14%
                <tr>
                   <td>modifiedBy (userBase)</td>
                   <td>Modificado por</td>
-                  <td>link </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -178,11 +181,11 @@ ht-degree: 14%
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
                   <td>Unidad organizativa</td>
-                  <td>link </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>rechazaNombreDeArchivo</td>
+                  <td>rejectFilename</td>
                   <td>Archivo de rechazo</td>
                   <td>string </td>
                   <td> </td>
@@ -195,7 +198,7 @@ ht-degree: 14%
                </tr>
                <tr>
                   <td>source</td>
-                  <td>Origen</td>
+                  <td>Fuente</td>
                   <td>item </td>
                   <td> </td>
                </tr>
@@ -214,13 +217,13 @@ ht-degree: 14%
                <tr>
                   <td>type</td>
                   <td>Tipo</td>
-                  <td>lista desglosada (cadena) (100)</td>
+                  <td>enumeración (cadena) (100)</td>
                   <td>
                      <ul>
                         <li>Consulta - consulta - consulta</li>
                         <li>Lista - lista - lista</li>
                         <li>Archivo - archivo - archivo</li>
-                        <li>VALOR NO VÁLIDO - __Invalid_value_ - __Invalid_value__</li>
+                        <li>VALOR NO VÁLIDO - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -233,7 +236,7 @@ ht-degree: 14%
                <tr>
                   <td>flujo de trabajo (flujo de trabajo)</td>
                   <td>Flujo de trabajo</td>
-                  <td>link </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
             </table>
@@ -248,7 +251,7 @@ Por dimensión de filtrado (byFilteringResource)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>filterResource</td>
+    <td>filteringResource</td>
     <td>string</td>
     </tr>
 </table>
@@ -261,7 +264,7 @@ Por nombre o etiqueta (byText)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>texto</td>
+    <td>text</td>
     <td>string</td>
     </tr>
 </table>
@@ -275,7 +278,7 @@ Por tipo (byType)
     </tr>
     <tr>
     <td>type</td>
-    <td>lista desglosada</td>
+    <td>enumeración</td>
     </tr>
     <tr>
     <td>isAMC</td>
