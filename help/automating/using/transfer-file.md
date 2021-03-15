@@ -7,10 +7,13 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: fileTransfer,main
+feature: Flujos de trabajo
+role: Arquitecto de datos
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: b3088ed3bbb8828393e28df8f982ed36e7e74590
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1099'
 ht-degree: 92%
 
 ---
@@ -165,13 +168,13 @@ Cada vez que se ejecuta la actividad, la carpeta se marca de la siguiente manera
 
 ## Variables de salida {#output-variables}
 
-La actividad **[!UICONTROL Transfer file]** genera variables de evento como resultado, que puede aprovechar en otras actividades, por ejemplo para comprobar el número de archivos descargados mediante una actividad [Test](../../automating/using/test.md).
+La actividad **[!UICONTROL Transfer file]** genera variables de evento como salida que puede aprovechar en otras actividades, por ejemplo para comprobar el número de archivos descargados mediante una actividad [Test](../../automating/using/test.md).
 
 Tenga en cuenta que las variables de evento también se pueden pasar a otro flujo de trabajo mediante una señal externa (consulte [Personalización de un flujo de trabajo con parámetros externos](../../automating/using/customizing-workflow-external-parameters.md)).
 
 Las variables de salida disponibles son:
 
-* **[!UICONTROL fileName]**:: nombre de los archivos transferidos.
-* **[!UICONTROL filesCount]**:: número de archivos transferidos.
+* **[!UICONTROL fileName]**: nombre de los archivos transferidos.
+* **[!UICONTROL filesCount]**: número de archivos transferidos.
 
 
