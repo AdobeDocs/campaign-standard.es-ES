@@ -6,22 +6,25 @@ description: Obtenga información sobre cómo realizar operaciones de recuento.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Ingeniero de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 2%
+source-wordcount: '91'
+ht-degree: 3%
 
 ---
 
 
 # Recuento
 
-La API REST de Adobe Campaign puede contar el número de registros de una solicitud. Para ello, utilice la dirección URL devuelta en el nodo **count**.
+La API de REST de Adobe Campaign puede contar el número de registros de una solicitud. Para ello, utilice la URL que se devuelve en el nodo **count**.
 
 <br/>
 
-***Solicitud de muestra***
+***Solicitud de ejemplo***
 
 Para contar todos los servicios que tienen un valor **messageType** igual a &quot;sms&quot;, realice una solicitud de GET con el filtro **byChannel**.
 
