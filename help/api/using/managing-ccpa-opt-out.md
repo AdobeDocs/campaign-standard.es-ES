@@ -2,14 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: Administración de la exclusión de CCPA
-description: Obtenga información sobre cómo administrar la exclusión de CCPA con las API
+description: Obtenga información sobre cómo administrar la exclusión de CCPA con API
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Ingeniero de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '152'
 ht-degree: 4%
 
 ---
@@ -17,7 +20,7 @@ ht-degree: 4%
 
 # Administración de la exclusión de CCPA {#managing-ccpa-optout}
 
-El estado de exclusión de CCPA de un perfil se puede monitorear y administrar usando el atributo de perfil **cpaOptOut** y los valores &quot;true&quot; o &quot;false&quot;:
+El estado de exclusión de la CCPA de un perfil se puede supervisar y administrar utilizando el atributo de perfil **ccpaOptOut** y los valores &quot;true&quot; o &quot;false&quot;:
 
 `"ccpaOptOut": <value>`
 
@@ -26,15 +29,15 @@ El estado de exclusión de CCPA de un perfil se puede monitorear y administrar u
 
 >[!CAUTION]
 >
->El atributo de exclusión de CCPA solo está disponible a partir de la versión 19.4. Para los entornos 19.3, debe ampliar el recurso Perfiles y agregar un campo booleano. Este campo se agregará a la API con la etiqueta seleccionada. Le sugerimos que utilice &quot;Opción de exclusión para CCPA&quot;.
+>El atributo de exclusión de CCPA solo está disponible a partir de la versión 19.4. Para los entornos de la versión 19.3, debe ampliar el recurso Perfiles y agregar un campo booleano. Este campo se añade a la API con la etiqueta elegida. Le sugerimos que utilice &quot;Exclusión de la CCPA&quot;.
 >
->Para obtener más información sobre esto, consulte la [documentación de Administración de solicitudes de privacidad](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
+>Para obtener más información, consulte [Administración de solicitudes de privacidad](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
 
 <br/>
 
 ***Solicitudes de muestra***
 
-* Muestra de una solicitud de GET para recuperar el estado de exclusión de CCPA de un perfil.
+* Solicitud de GET de ejemplo para recuperar el estado de exclusión de la CCPA de un perfil.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
@@ -56,7 +59,7 @@ El estado de exclusión de CCPA de un perfil se puede monitorear y administrar u
    }
    ```
 
-* Muestra de una solicitud de POST para marcar un perfil para la exclusión de CCPA.
+* Solicitud de POST de muestra para marcar un perfil de exclusión de CCPA.
 
    ```
    -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/ \
@@ -86,7 +89,7 @@ El estado de exclusión de CCPA de un perfil se puede monitorear y administrar u
    }
    ```
 
-* Muestra de una solicitud de PATCH para actualizar un perfil para la exclusión de CCPA.
+* Solicitud del PATCH de muestra para actualizar un perfil de exclusión de CCPA.
 
    ```
    -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
