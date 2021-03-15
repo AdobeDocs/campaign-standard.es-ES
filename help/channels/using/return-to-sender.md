@@ -6,31 +6,34 @@ description: Obtenga información sobre cómo recibir notificaciones de una dire
 audience: channels
 content-type: reference
 topic-tags: direct-mail
+feature: Correo postal
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 2%
+source-wordcount: '219'
+ht-degree: 3%
 
 ---
 
 
 # Devolver al remitente{#return-to-sender}
 
-Se admiten los intercambios de archivos planos con proveedores de Correo postal que incorporan la información de retorno al remitente. Esto permite excluir las direcciones postales correspondientes de futuras comunicaciones. Esto también le permite ser notificado de una dirección incorrecta y ponerse en contacto con el cliente a través de otros canales o alentarlo a actualizar su dirección postal.
+Se admiten los intercambios de archivos planos con proveedores de correo postal que incorporan la información de retorno al remitente. Esto permite excluir las direcciones postales correspondientes de futuras comunicaciones. Esto también le permite recibir notificaciones de una dirección incorrecta y comunicarse con el cliente a través de otros canales o animarlo a actualizar su dirección postal.
 
 Por ejemplo, un contacto se ha trasladado a un nuevo lugar y no le ha proporcionado su nueva dirección postal. El proveedor recupera la lista de direcciones erróneas y envía esta información a Adobe Campaign, que lista de bloqueados automáticamente las direcciones erróneas.
 
-Para que esta funcionalidad funcione, la Plantilla de envíos predeterminada de correo directo incluye, en el contenido, el ID de registro de envío. Por lo tanto, Adobe Campaign podrá sincronizar los datos de perfil y envío con la información devuelta por el proveedor.
+Para que esta funcionalidad funcione, la plantilla de entrega predeterminada de correo postal incluye, en el contenido, el ID de registro de entrega. Por lo tanto, Adobe Campaign podrá sincronizar los datos de perfil y envío con la información devuelta por el proveedor.
 
 ![](assets/direct_mail_return_sender_1.png)
 
-Hay una plantilla de importación disponible en **[!UICONTROL Adobe Campaign > Resources > Templates > Import templates > Update Direct Mail quarantines and delivery logs]**. Duplicado esta plantilla para crear la suya propia. Para obtener más información sobre el uso de plantillas de importación, consulte [Uso de plantillas de importación](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates).
+Hay disponible una plantilla de importación en **[!UICONTROL Adobe Campaign > Resources > Templates > Import templates > Update Direct Mail quarantines and delivery logs]**. Duplique esta plantilla para crear la suya propia. Para obtener más información sobre el uso de plantillas de importación, consulte [Uso de plantillas de importación](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates).
 
 ![](assets/direct_mail_return_sender_2.png)
 
 Cuando la importación ha finalizado, Adobe Campaign realiza automáticamente las siguientes acciones:
 
-* Se agregan direcciones incorrectas a lista de bloqueados a nivel de perfil
+* Se añaden direcciones incorrectas a lista de bloqueados a nivel de perfil
 * Se actualizan los indicadores principales de envío (KPI)
 * Se actualizan los registros de envío
