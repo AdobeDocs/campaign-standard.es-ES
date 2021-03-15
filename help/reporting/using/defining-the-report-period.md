@@ -2,27 +2,30 @@
 solution: Campaign Standard
 product: campaign
 title: Definición del período de informe
-description: El período de tiempo del informe le permite filtrar los datos en función de las fechas elegidas.
+description: El período de tiempo del informe permite filtrar los datos en función de las fechas seleccionadas.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
+feature: Creación de informes
+role: Encabezado
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 3%
+source-wordcount: '207'
+ht-degree: 4%
 
 ---
 
 
 # Definición del período de informe{#defining-the-report-period}
 
-Antes de iniciar o acceder a un informe, debe aplicar un período de tiempo. Se puede acceder al período determinado en la parte superior derecha del informe.
+Antes de iniciar o acceder a un informe, debe aplicar un período de tiempo. Se puede acceder al periodo determinado en la parte superior derecha del informe.
 
-De forma predeterminada, para una campaña o programa, el período de filtro se establece en el inicio y la fecha de finalización del programa o la campaña. Para un envío, la fecha de inicio corresponde a la fecha de envío y la fecha de finalización a la fecha de envío más 7 días.
+De forma predeterminada, para una campaña o programa, el periodo de filtro se establece en la fecha de inicio y finalización del programa o campaña. Para una entrega, la fecha de inicio corresponde a la fecha de envío y la fecha de finalización a la fecha de envío más 7 días.
 
-Para modificar el filtro, seleccione una fecha de inicio y un período o utilice el período de tiempo preestablecido, como la semana pasada, hace dos meses, etc.
+Para modificar el filtro, seleccione una fecha de inicio y un período o utilice el período de tiempo preestablecido como la semana pasada, hace dos meses, etc.
 
-El informe se actualiza automáticamente cuando se aplica o modifica un filtro. El período de informe seleccionado regirá los eventos que se produjeron en el período, no todo el conjunto de datos de los envíos que se crearon en el intervalo; por ejemplo: si un envío se ejecutó del 1 al 5 de enero y el período del informe es del 1 al 2 de enero, es posible que vea datos parciales. Esto puede afectar a los recuentos de clics/aperturas, ya que el clic o el clic se pueden producir incluso un mes después de que se envíe el envío.
+El informe se actualiza automáticamente cuando se aplica o modifica un filtro. El periodo del informe seleccionado regirá los eventos que se produjeron en el periodo, no todo el conjunto de datos de las entregas que se crearon en el intervalo; por ejemplo, si una entrega se ejecutó del 1 al 5 de enero y el periodo del informe es del 1 al 2 de enero, es posible que vea datos parciales. Esto puede afectar a los recuentos de aperturas/clics, ya que la apertura o el clic pueden ocurrir incluso un mes después de la entrega.
 
 ![](assets/campaign_reports_5.png)
