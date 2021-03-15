@@ -2,14 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: Interacción con el historial de marketing
-description: Aprenda a interactuar con el historial de marketing de los perfiles.
+description: Obtenga información sobre cómo interactuar con el historial de marketing de los perfiles.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Ingeniero de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '151'
 ht-degree: 10%
 
 ---
@@ -17,16 +20,16 @@ ht-degree: 10%
 
 # Interacción con el historial de marketing {#interacting-with-marketing-history}
 
-El extremo **historial** permite interactuar con el historial de marketing de un perfil.
-De este modo, puede, por ejemplo, recuperar fácilmente la página espejo de un envío que se envió a un perfil. Para realizar esto, siga los pasos a continuación:
+El extremo **history** permite interactuar con el historial de marketing de un perfil.
+De este modo, puede, por ejemplo, recuperar fácilmente la página espejo para una entrega que se envió a un perfil. Para realizar esto, siga los pasos a continuación:
 
-1. Realice una GET con el extremo **historial** y la clave principal del perfil.
-1. Realice una solicitud de GET en los **eventos** href devueltos.
+1. Realice una GET con el extremo **history** y la clave principal del perfil.
+1. Realice una solicitud de GET en el href **events** devuelto.
 1. Devuelve la lista de eventos para el perfil con vínculos a páginas espejo en el nodo **mirrorPage**.
 
 <br/>
 
-***Solicitud de muestra***
+***Solicitud de ejemplo***
 
 Recupere el historial de marketing del perfil con una solicitud de GET.
 
@@ -38,7 +41,7 @@ Recupere el historial de marketing del perfil con una solicitud de GET.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-El nodo &quot;eventos&quot; devuelve la dirección URL que le proporciona acceso a los eventos del perfil.
+El nodo &quot;events&quot; devuelve la URL que le proporciona acceso a los eventos del perfil.
 
 ```
 {
@@ -63,7 +66,7 @@ Realice una solicitud de GET en los eventos href devueltos.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Devuelve la lista de eventos para el perfil con vínculos a páginas espejo en el nodo &quot;mirrorPage&quot;.
+Devuelve la lista de eventos del perfil con vínculos a páginas espejo en el nodo &quot;mirrorPage&quot;.
 
 ```
     {
