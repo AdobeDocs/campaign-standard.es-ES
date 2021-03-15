@@ -1,16 +1,19 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Monitoreo de la capacidad de entrega en Adobe Campaign Standard
-description: Utilice las herramientas ofrecidas por Adobe Campaign Standard para supervisar la capacidad de entrega de su plataforma.
+title: Monitorización de la capacidad de entrega en Adobe Campaign Standard
+description: Utilice las herramientas que ofrece Adobe Campaign Standard para monitorizar la capacidad de envío de su plataforma.
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
+feature: Capacidad de entrega
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '426'
 ht-degree: 63%
 
 ---
@@ -18,7 +21,7 @@ ht-degree: 63%
 
 # Supervisión de la capacidad de entrega{#monitor-deliverability}
 
-A continuación encontrará detalles sobre el informe **[!UICONTROL Delivery throughput]**, así como las distintas herramientas de monitoreo que ofrece Adobe Campaign. Estas son algunas directrices adicionales sobre la monitorización de la capacidad de envío:
+A continuación encontrará detalles sobre el informe **[!UICONTROL Delivery throughput]**, así como las diferentes herramientas de monitorización que ofrece Adobe Campaign. Estas son algunas directrices adicionales sobre la monitorización de la capacidad de envío:
 * Compruebe regularmente el rendimiento del envío de toda la plataforma para comprobar si es coherente con la configuración original.
 * Compruebe que los reintentos estén correctamente configurados (30 minutos para el periodo de reintento y más de 20 reintentos) en plantillas de envíos.
 * Compruebe periódicamente si puede acceder al buzón de rechazados y que la cuenta no esté a punto de caducar.
@@ -29,7 +32,7 @@ A continuación encontrará detalles sobre el informe **[!UICONTROL Delivery thr
 
 ## Rendimiento de entrega {#delivery-throughput}
 
-Este informe contiene información sobre el rendimiento del envío de toda la plataforma durante un período determinado para medir la velocidad a la que se entregan los mensajes.
+Este informe contiene información sobre el rendimiento de entrega de toda la plataforma durante un periodo determinado para medir la velocidad a la que se envían los mensajes.
 
 Para obtener más información sobre esto, consulte [Rendimiento de los envíos](../../reporting/using/delivery-throughput.md).
 
@@ -37,7 +40,7 @@ Para obtener más información sobre esto, consulte [Rendimiento de los envíos]
 
 Puede configurar los valores visualizados cambiando la escala temporal.
 
-Hay otros informes disponibles, como **[!UICONTROL Delivery summary]** o **[!UICONTROL Non-deliverables and bounces]**. Para obtener más información sobre esto, consulte [Informes dinámicos](../../reporting/using/about-dynamic-reports.md).
+Hay otros informes disponibles, como **[!UICONTROL Delivery summary]** o **[!UICONTROL Non-deliverables and bounces]**. Para obtener más información, consulte [Informes dinámicos](../../reporting/using/about-dynamic-reports.md).
 
 ## Seguimiento de entregas {#monitoring-deliveries}
 
@@ -47,11 +50,11 @@ Para obtener más información sobre esto, consulte [Monitorización de un enví
 
 ![](assets/sending_delivery1.png)
 
-## Recibiendo alertas {#receiving-alerts}
+## Recibir alertas {#receiving-alerts}
 
 La función **[!UICONTROL Delivery alerting]** es un sistema de administración de alertas que permite a un grupo de usuarios recibir automáticamente notificaciones que contengan información sobre la ejecución de sus envíos.
 
-Para obtener más información sobre esto, consulte [Recepción de alertas cuando se producen errores](../../sending/using/receiving-alerts-when-failures-happen.md).
+Para obtener más información sobre esto, consulte [Recibir alertas cuando se producen errores](../../sending/using/receiving-alerts-when-failures-happen.md).
 
 ## Signal Spam {#signal-spam}
 
@@ -63,6 +66,6 @@ Signal Spam también proporciona quejas directas de que los usuarios finales reg
 
 ## 250ok {#solution-250ok}
 
-250ok es una solución de monitoreo que proporciona  de IP y de dominio, así como indicadores de reputación.
+250ok es una solución de monitorización que proporciona  de IP y lista de bloqueados de dominio, así como indicadores de reputación.
 
-La información se proporciona en tiempo real, lo que permite una asistencia proactiva. 250ok una solución complementaria a las herramientas internas de entrega de Adobe.
+La información se proporciona en tiempo real, lo que permite una asistencia proactiva. 250ok una solución complementaria a las herramientas internas de capacidad de envío de Adobe.
