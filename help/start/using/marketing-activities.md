@@ -7,11 +7,14 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: activity,overview
+feature: Campañas
+role: Profesional empresarial
+level: Principiante
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 83%
+source-wordcount: '491'
+ht-degree: 82%
 
 ---
 
@@ -46,7 +49,7 @@ En la zona principal, cada tipo de actividad de la lista tiene un icono:
 * ![](assets/marketing_campaign_icon.png) Campaign
 * ![](assets/marketing_email_icon.png) Correo electrónico
 * ![](assets/marketing_sms_icon.png) SMS
-* ![](assets/marketing_push_icon.png) Notificación push
+* ![](assets/marketing_push_icon.png) Notificaciones push
 * ![](assets/marketing_lp_icon.png) Mensaje en la aplicación
 * ![](assets/marketing_lp_icon.png) página de aterrizaje
 * ![](assets/marketing_workflow_icon.png) Flujo de trabajo
@@ -82,7 +85,7 @@ Los programas y campañas se presentan en la sección [Programas y campañas](..
 Según el contexto, estas son las posibilidades:
 
 * Crear un correo electrónico: [Más información](../../channels/using/creating-an-email.md)
-* Crear un SMS - [Más información](../../channels/using/creating-an-sms-message.md)
+* Crear un SMS: [Más información](../../channels/using/creating-an-sms-message.md)
 * Crear una notificación push: [Más información](../../channels/using/preparing-and-sending-a-push-notification.md)
 * Crear un mensaje en la aplicación: [Más información](../../channels/using/about-in-app-messaging.md)
 * Crear un flujo de trabajo: [Más información](../../automating/using/building-a-workflow.md#creating-a-workflow)
@@ -92,5 +95,5 @@ Según el contexto, estas son las posibilidades:
 
 >[!NOTE]
 >
->También puede crear una actividad de marketing a partir de la lista de actividades de marketing. En este caso, puede crear cualquier tipo de actividad y elegir vincular la actividad de marketing a una campaña principal (o a un programa principal si crea un programa) mediante las propiedades de la actividad.
+>También puede crear una actividad de marketing a partir de la lista de actividades de marketing. En este caso, puede crear cualquier tipo de actividad y elegir vincular la actividad de marketing a una campaña principal (o a un programa principal si crea un programa) a través de las propiedades de la actividad.
 
