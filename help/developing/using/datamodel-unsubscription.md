@@ -5,23 +5,26 @@ title: Modelo de datos
 description: Obtenga información sobre el modelo de datos
 audience: developing
 content-type: reference
+feature: Modelo de datos
+role: Desarrollador
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 16%
+source-wordcount: '57'
+ht-degree: 15%
 
 ---
 
 
-# Evento baja (nms:rtEvent)
+# Evento de cancelación de suscripción (nms:rtEvent)
 
 ## Descripción del objeto
 
 <table>
                <tr>
                   <th>Name</th>
-                  <th>Sólo lectura</th>
+                  <th>Solo lectura</th>
                   <th>Tipo</th>
                   <th>Requerido</th>
                </tr>
@@ -46,7 +49,7 @@ ht-degree: 16%
                <tr>
                   <td>emailFormat</td>
                   <td>False</td>
-                  <td>lista desglosada</td>
+                  <td>enumeración</td>
                   <td>False</td>
                </tr>
                <tr>
@@ -73,7 +76,7 @@ byEmail
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>correo electrónico</td>
+    <td>email</td>
     <td>string</td>
     </tr>
 </table>
@@ -87,7 +90,7 @@ byStatusOrType
         </tr>
         <tr>
         <td>status</td>
-        <td>lista desglosada</td>
+        <td>enumeración</td>
         </tr>
         <tr>
         <td>type</td>
