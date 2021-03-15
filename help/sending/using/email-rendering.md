@@ -6,11 +6,14 @@ description: Descubra la función de procesamiento de correo electrónico.
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
+feature: Optimización del tiempo de envío
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 83%
+source-wordcount: '519'
+ht-degree: 82%
 
 ---
 
@@ -74,11 +77,11 @@ Este informe presenta los procesamientos de correo electrónico tal y como apare
 
 El número de procesamientos disponibles aparece en el contrato de licencia. Cada entrega con el **procesamiento de correo electrónico** habilitado disminuye los procesamientos disponibles (conocidos como tokens) uno por uno.
 
-Los tokens representan cada representación individual y no todo el informe de procesamiento de correo electrónico, lo que significa que:
+Los tokens corresponden a cada renderización individual y no al informe completo de renderización del correo electrónico, lo que significa que:
 
-* **Cada** vez que se genera el informe de procesamiento de correo electrónico, se deduce un token por cliente de mensajería: un token para el procesamiento de Outlook 2000, uno para el procesamiento de Outlook, otro para el procesamiento de Apple Mail, etc.
+* **Cada** vez que se genera el informe de procesamiento de correo electrónico, se resta un token por cliente de mensajería: un token para la renderización de Outlook 2000, uno para la renderización de Outlook, uno para la renderización de Apple Mail, etc.
 
-* **En el mismo envío**, si vuelve a generar el procesamiento por correo electrónico, el número de tokens disponibles se reduce de nuevo en el número de representaciones generadas.
+* **Para la misma entrega**, si vuelve a generar el procesamiento de correo electrónico, el número de tokens disponibles se reduce de nuevo según el número de renderizaciones generadas.
 
 ### Resumen del informe
 
