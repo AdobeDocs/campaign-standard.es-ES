@@ -7,11 +7,14 @@ audience: developing
 content-type: reference
 topic-tags: about-custom-resources
 context-tags: cusResource,overview;eventCusResource,overview
+feature: Modelo de datos
+role: Desarrollador
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 79%
+source-wordcount: '248'
+ht-degree: 78%
 
 ---
 
@@ -42,4 +45,4 @@ Es posible **exportar e importar** recursos personalizados, por ejemplo, del des
 
 >[!CAUTION]
 >
->Sólo los [administradores funcionales](../../administration/using/users-management.md#functional-administrators), con **[!UICONTROL Administration]** rol y acceso a **Todas** unidades pueden acceder al envío de registros, registros de mensajes, registros de seguimiento, registros de exclusión o de suscripciones. Un usuario no administrador puede destinatario estos registros, pero puede comenzar en una tabla vinculada (perfiles, envío).
+>Solo los [administradores](../../administration/using/users-management.md#functional-administrators) funcionales con la función **[!UICONTROL Administration]** y acceso a **Todas las unidades** pueden acceder a registros de envío, registros de mensajes, registros de seguimiento, registros de exclusión o de suscripción. Un usuario no administrador puede segmentar estos registros, pero comenzando en una tabla vinculada (perfiles, envío).
