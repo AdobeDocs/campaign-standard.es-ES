@@ -6,11 +6,14 @@ description: Las actividades de ejecución están disponibles en la parte izquie
 audience: automating
 content-type: reference
 topic-tags: execution-activities
+feature: Flujos de trabajo
+role: Arquitecto de datos
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 67%
+source-wordcount: '69'
+ht-degree: 65%
 
 ---
 
@@ -19,7 +22,7 @@ ht-degree: 67%
 
 En la paleta, en el lado izquierdo de la pantalla, despliegue la sección **[!UICONTROL Execution]**.
 
-Las siguientes actividades son específicas de la organización y ejecución de flujos de trabajo. Su tarea principal es coordinar las demás actividades.
+Las siguientes actividades son específicas para organizar y ejecutar flujos de trabajo. Su tarea principal es coordinar las demás actividades.
 
 ![](assets/wkf_execution_activities.png)
 
