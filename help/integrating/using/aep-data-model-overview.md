@@ -6,10 +6,13 @@ description: El Modelo de datos de experiencia (XDM) es un conjunto estándar de
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
+feature: Integración de Microsoft CRM
+role: Arquitecto de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '255'
 ht-degree: 7%
 
 ---
@@ -19,7 +22,7 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector está actualmente en fase beta, que puede estar sujeto a actualizaciones frecuentes sin previo aviso. Es necesario que los clientes estén alojados en Azure (actualmente en versión beta solo para Norteamérica) para acceder a estas capacidades. Póngase en contacto con el Servicio de atención al cliente de Adobe si desea obtener acceso.
+>Adobe Experience Platform Data Connectors se encuentra actualmente en fase beta, por lo que puede estar sujeto a actualizaciones frecuentes sin previo aviso. Es necesario que los clientes estén alojados en Azure (actualmente en versión beta solo para Norteamérica) para acceder a estas capacidades. Si desea acceder, póngase en contacto con el Servicio de atención al cliente de Adobe.
 
 El Modelo de datos de experiencia (XDM) es un conjunto estándar de esquemas de datos en los que se pueden introducir datos para su uso con soluciones y productos de Adobe Experience Platform.
 
