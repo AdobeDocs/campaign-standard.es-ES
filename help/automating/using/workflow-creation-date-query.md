@@ -7,10 +7,13 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query
+feature: Flujos de trabajo
+role: Arquitecto de datos
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 45c80b5e6bf2169c5acf6eea70da9e2f130982c8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '358'
 ht-degree: 38%
 
 ---
@@ -26,33 +29,33 @@ Puede enviar una oferta por correo electrónico en el aniversario de la creació
 
 ## Creación de una actividad de planificador {#creating-a-scheduler-activity}
 
-1. En **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, arrastre y suelte una actividad [Planificador](../../automating/using/scheduler.md).
+1. En **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, arrastre y suelte una actividad [Scheduler](../../automating/using/scheduler.md).
 1. Haga doble clic en la actividad.
 1. Configure la ejecución del envío.
 1. En **[!UICONTROL Execution frequency]**, seleccione **[!UICONTROL Daily]**.
-1. Seleccione un **[!UICONTROL Time]** y el **[!UICONTROL Repetition frequency]** de ejecución para su flujo de trabajo.
-1. Seleccione una fecha **[!UICONTROL Start]** y **[!UICONTROL Expiration]** para el flujo de trabajo.
+1. Seleccione un **[!UICONTROL Time]** y el **[!UICONTROL Repetition frequency]** de ejecución para el flujo de trabajo.
+1. Seleccione una **[!UICONTROL Start]** fecha y **[!UICONTROL Expiration]** para el flujo de trabajo.
 1. Confirme la actividad y guarde el flujo de trabajo.
 
 >[!NOTE]
 >
->Para inicio del flujo de trabajo en un huso horario específico, en la ficha **[!UICONTROL Execution options]**, configure el huso horario del Planificador en el campo **[!UICONTROL Time zone]**. De forma predeterminada, el huso horario seleccionado es el definido en las propiedades del flujo de trabajo (consulte [Creación de un flujo de trabajo](../../automating/using/building-a-workflow.md)).
+>Para iniciar el flujo de trabajo en un huso horario específico, en la pestaña **[!UICONTROL Execution options]**, configure el huso horario del planificador en el campo **[!UICONTROL Time zone]**. De forma predeterminada, el huso horario seleccionado es el definido en las propiedades del flujo de trabajo (consulte [Creación de un flujo de trabajo](../../automating/using/building-a-workflow.md)).
 
 ![](assets/time_zone.png)
 
 ## Creación de una actividad de consulta {#creating-a-query-activity}
 
-1. Para seleccionar destinatarios, arrastre y suelte una actividad [Consulta](../../automating/using/query.md) y haga clic en ella con el botón de doble.
+1. Para seleccionar destinatarios, arrastre y suelte una actividad [Query](../../automating/using/query.md) y haga doble clic en ella.
 1. Añada **[!UICONTROL Profiles]** y seleccione **[!UICONTROL no longer contact by email]** con el valor **[!UICONTROL no]**.
 
-### Recuperando perfiles creados el mismo día de la ejecución {#retrieving-profiles-created-on-the-same-day}
+### Recuperación de perfiles creados el mismo día que el día de ejecución {#retrieving-profiles-created-on-the-same-day}
 
 1. En **[!UICONTROL Profile]**, arrastre y suelte el campo **[!UICONTROL Created]**. y haga clic en **[!UICONTROL Advanced Mode]**.
    ![](assets/advanced_mode.png)
-1. En el **[!UICONTROL list of functions]**, haga clic con el doble **[!UICONTROL Day]** desde el nodo **[!UICONTROL Date]**.
+1. En **[!UICONTROL list of functions]**, haga doble clic en **[!UICONTROL Day]** desde el nodo **[!UICONTROL Date]**.
 1. A continuación, inserte el campo **[!UICONTROL Created]** como argumento.
 1. Seleccione **[!UICONTROL equals to (=)]** como operador.
-1. Para Valor, seleccione **[!UICONTROL Day]** del nodo **[!UICONTROL Date]** en el **[!UICONTROL List of functions]**.
+1. Para Value, seleccione **[!UICONTROL Day]** del nodo **[!UICONTROL Date]** en **[!UICONTROL List of functions]**.
 1. Inserte la función **[!UICONTROL GetDate()]** como argumento.
 
 Se recuperaron los perfiles cuyo día de creación es igual al día actual.
@@ -65,9 +68,9 @@ Debería terminar con:
 
 Haga clic en **[!UICONTROL Confirm]**.
 
-### Recuperando perfiles creados el mismo mes del mes de la ejecución{#retrieving-profiles-created-on-the-same-month}
+### Recuperación de perfiles creados en el mismo mes del mes de ejecución{#retrieving-profiles-created-on-the-same-month}
 
-1. En el editor **[!UICONTROL Query]**, seleccione la primera consulta y duplicado.
+1. En el editor **[!UICONTROL Query]**, seleccione la primera consulta y duplíquela.
 1. Abra el duplicado.
 1. Reemplace **[!UICONTROL Day]** por **[!UICONTROL Month]** en la consulta.
 1. Haga clic en **[!UICONTROL Confirm]**.
@@ -78,7 +81,7 @@ Debería terminar con esto:
 
 ``` Month(@created) = Month(GetDate()) ```
 
-La consulta final muestra:
+Se muestra la consulta final:
 
 ```Day(@created) = Day(GetDate()) AND Month(@created) = Month(GetDate())```
 
@@ -86,7 +89,7 @@ La consulta final muestra:
 
 ## Creación de una entrega de correo electrónico{#creating-an-email-delivery}
 
-1. Arrastre y suelte una actividad [envío de correo electrónico](../../automating/using/email-delivery.md).
+1. Arrastre y suelte una actividad [Email delivery](../../automating/using/email-delivery.md) .
 1. Haga clic en la actividad y seleccione ![](assets/edit_darkgrey-24px.png) para editarla.
 1. Seleccione **[!UICONTROL Recurring email]** y haga clic en **[!UICONTROL Next]**.
 1. Seleccione una plantilla de correo electrónico y haga clic en **[!UICONTROL Next]**.
