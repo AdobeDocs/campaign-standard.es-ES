@@ -7,10 +7,13 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
+feature: Integración de Microsoft CRM
+role: Arquitecto de datos
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '884'
 ht-degree: 4%
 
 ---
@@ -20,7 +23,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->El servicio Audience Destinations se encuentra actualmente en fase beta, por lo que puede estar sujeto a frecuentes actualizaciones sin previo aviso. Es necesario que los clientes estén alojados en Azure (actualmente en versión beta solo para Norteamérica) para acceder a estas capacidades. Póngase en contacto con el Servicio de atención al cliente de Adobe si desea obtener acceso.
+>El servicio Audience Destinations se encuentra actualmente en fase beta, por lo que puede estar sujeto a frecuentes actualizaciones sin previo aviso. Es necesario que los clientes estén alojados en Azure (actualmente en versión beta solo para Norteamérica) para acceder a estas capacidades. Si desea acceder, póngase en contacto con el Servicio de atención al cliente de Adobe.
 
 El Generador de segmentos le permite crear audiencias definiendo reglas basadas en datos procedentes del [Perfil del cliente en tiempo real](https://docs.adobe.com/content/help/es-ES/experience-platform/profile/home.html).
 
@@ -68,7 +71,7 @@ Los campos mostrados son atributos capturados por su empresa y se han puesto a d
 
 Los campos se organizan en fichas:
 
-* **[!UICONTROL Attributes]**: Atributos de perfil existentes que pueden originarse en la base de datos de Adobe Campaign o Adobe Experience Platform. Se refieren a información estática adjunta a un perfil (por ejemplo, dirección de correo electrónico, país de residencia, estado del programa de fidelidad, etc.).
+* **[!UICONTROL Attributes]**: Atributos de perfil existentes que pueden proceder de la base de datos de Adobe Campaign o Adobe Experience Platform. Se refieren a información estática adjunta a un perfil (por ejemplo, dirección de correo electrónico, país de residencia, estado del programa de fidelidad, etc.).
 
    ![](assets/aep_audiences_attributestab.png)
 
