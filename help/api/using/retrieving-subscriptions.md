@@ -6,10 +6,13 @@ description: Obtenga información sobre cómo recuperar suscripciones con API.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Ingeniero de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '200'
 ht-degree: 2%
 
 ---
@@ -19,18 +22,18 @@ ht-degree: 2%
 
 ## Recuperación de los perfiles suscritos a un servicio
 
-Se trata de un procedimiento de dos pasos.
+Este es un procedimiento de dos pasos.
 
-1. Recupere la dirección URL de suscripciones para el servicio deseado.
+1. Recupere la URL de suscripciones del servicio deseado.
 1. Realice una solicitud de GET en la URL de suscripciones. Devuelve la lista de suscripciones para el servicio, con cada perfil asociado.
 
 >[!CAUTION]
 >
->La API de REST devuelve la propiedad &quot;href&quot;, que contiene la dirección URL que se va a usar. <b>Utilice siempre la dirección URL incluida en la respuesta para realizar la solicitud</b> de API posterior.
+>La API de REST devuelve la propiedad &quot;href&quot;, que contiene la dirección URL que se va a usar. <b>Utilice siempre la URL contenida en la respuesta para realizar la siguiente solicitud</b> de API.
 
 <br/>
 
-***Solicitud de muestra***
+***Solicitud de ejemplo***
 
 Realice una solicitud de GET para recuperar el servicio.
 
@@ -85,14 +88,14 @@ Se muestra la lista de suscripciones para el servicio, con cada perfil asociado.
 
 ## Recuperación de los servicios a los que se suscribió un perfil
 
-Se trata de un procedimiento de dos pasos.
+Este es un procedimiento de dos pasos.
 
-1. Recupere la dirección URL de suscripciones de un perfil determinado.
+1. Recupere la URL de suscripciones de un perfil determinado.
 1. Realice una solicitud de GET en la dirección URL. Devuelve la lista de suscripciones para el perfil, con cada servicio asociado.
 
 <br/>
 
-***Solicitud de muestra***
+***Solicitud de ejemplo***
 
 Realice una solicitud de GET para recuperar el perfil.
 
@@ -128,7 +131,7 @@ Realice una solicitud de GET en la URL de suscripciones.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Devuelve la lista de los servicios a los que se suscribió el perfil.
+Devuelve la lista de servicios a los que se suscribió el perfil.
 
 ```
   {
