@@ -5,10 +5,13 @@ title: Modelo de datos
 description: Obtenga información sobre el modelo de datos
 audience: developing
 content-type: reference
+feature: Modelo de datos
+role: Desarrollador
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '217'
 ht-degree: 11%
 
 ---
@@ -23,11 +26,11 @@ ht-degree: 11%
                   <th>Name</th>
                   <th>Etiqueta</th>
                   <th>Tipo (longitud)</th>
-                  <th>Valores de lista desglosada</th>
+                  <th>Valores de enumeración</th>
                </tr>
                <tr>
                   <td>PKey</td>
-                  <td>ID de recurso principal</td>
+                  <td>ID del recurso principal</td>
                   <td>string </td>
                   <td> </td>
                </tr>
@@ -46,7 +49,7 @@ ht-degree: 11%
                <tr>
                   <td>createdBy (userBase)</td>
                   <td>Creado por</td>
-                  <td>link </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -70,7 +73,7 @@ ht-degree: 11%
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
                   <td>Unidad geográfica</td>
-                  <td>link </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -118,31 +121,31 @@ ht-degree: 11%
                <tr>
                   <td>messageType</td>
                   <td>Canal</td>
-                  <td>lista desglosada (byte) </td>
+                  <td>enumeration (byte) </td>
                   <td>
                      <ul>
                         <li>Móvil (SMS) - sms - 1</li>
                         <li>Correo electrónico - correo electrónico - 0</li>
-                        <li>VALOR NO VÁLIDO - __Invalid_value_ - __Invalid_value__</li>
+                        <li>VALOR NO VÁLIDO - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
-                  <td>modo</td>
+                  <td>mode</td>
                   <td>Modo</td>
-                  <td>lista desglosada (byte) </td>
+                  <td>enumeration (byte) </td>
                   <td>
                      <ul>
                         <li>Viral - viral - 1</li>
                         <li>Newsletter - newsletter - 0</li>
-                        <li>VALOR NO VÁLIDO - __Invalid_value_ - __Invalid_value__</li>
+                        <li>VALOR NO VÁLIDO - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
                   <td>modifiedBy (userBase)</td>
                   <td>Modificado por</td>
-                  <td>link </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -154,7 +157,7 @@ ht-degree: 11%
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
                   <td>Unidad organizativa</td>
-                  <td>link </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -164,7 +167,7 @@ ht-degree: 11%
                   <td> </td>
                </tr>
                <tr>
-                  <td>inicio</td>
+                  <td>start</td>
                   <td>Fecha de inicio</td>
                   <td>date </td>
                   <td> </td>
@@ -172,13 +175,13 @@ ht-degree: 11%
                <tr>
                   <td>subLandingPage (landingPageSubscriptionBase)</td>
                   <td>Página de aterrizaje de suscripción</td>
-                  <td>link </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>subScenario (deliveryMCTemplateBase)</td>
                   <td>Confirmación de suscripción</td>
-                  <td>link </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -202,11 +205,11 @@ ht-degree: 11%
                <tr>
                   <td>plantilla (servicio)</td>
                   <td>Plantilla de servicio</td>
-                  <td>link </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>thumbnail</td>
+                  <td>miniatura</td>
                   <td>Miniatura</td>
                   <td>string (255)</td>
                   <td> </td>
@@ -219,14 +222,14 @@ ht-degree: 11%
                </tr>
                <tr>
                   <td>unsubLandingPage (landingPageUnsubscriptionBase)</td>
-                  <td>Página de aterrizaje baja</td>
-                  <td>link </td>
+                  <td>Cancelar la suscripción a la página de aterrizaje</td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>unsubScenario (deliveryMCTemplateBase)</td>
-                  <td>Confirmación baja</td>
-                  <td>link </td>
+                  <td>Confirmación de baja</td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -245,7 +248,7 @@ ht-degree: 11%
 
 ## Filtros
 
-Disponible durante el período determinado (porPlanning)
+Disponible durante el periodo determinado (byPlanning)
 
 <table>
     <tr>
@@ -262,7 +265,7 @@ Disponible durante el período determinado (porPlanning)
     </tr>
 </table>
 
-Por tipo de canal (byChannel)
+Por tipo de canal (por canal)
 
 <table>
 <tr>
@@ -271,7 +274,7 @@ Por tipo de canal (byChannel)
 </tr>
 <tr>
 <td>canal</td>
-<td>lista desglosada</td>
+<td>enumeración</td>
 </tr>
 </table>
 
@@ -283,12 +286,12 @@ Por nombre o etiqueta (byText)
 <th>Tipo</th>
 </tr>
 <tr>
-<td>texto</td>
+<td>text</td>
 <td>string</td>
 </tr>
 </table>
 
-Mediante el recurso de segmentación (byTargetResource)
+Por recurso de segmentación (byTargetResource)
 
 <table>
 <tr>
