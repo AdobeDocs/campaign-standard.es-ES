@@ -2,29 +2,32 @@
 solution: Campaign Standard
 product: campaign
 title: Actualización de los atributos de la unidad geográfica
-description: Obtenga información sobre cómo actualizar atributos de unidades geográficas con API
+description: Obtenga información sobre cómo actualizar los atributos de una unidad geográfica con API
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Ingeniero de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 11%
+source-wordcount: '90'
+ht-degree: 12%
 
 ---
 
 
 # Actualización de los atributos de la unidad geográfica {#managing-geographical-units}
 
-1. Realice una solicitud de GET en el recurso **geoUnitBase** para recuperar la unidad geográfica PKey.
-1. Realice una solicitud de PATCH en la unidad Geográfica, con los atributos que desea actualizar en la carga útil.
+1. Realice una solicitud de GET en el recurso **geoUnitBase** para recuperar la PKey de la unidad geográfica.
+1. Realice una solicitud de PATCH en la unidad geográfica, con los atributos que desea actualizar en la carga útil.
 
 <br/>
 
-***Solicitud de muestra***
+***Solicitud de ejemplo***
 
-Recuperar la lista de unidades geográficas.
+Recupere la lista de unidades geográficas.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/geoUnitBase/ \
@@ -34,7 +37,7 @@ Recuperar la lista de unidades geográficas.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Devuelve todas las unidades geográficas. Recupere el PKey de la unidad deseada.
+Devuelve todas las unidades geográficas. Recupere la clave PK de la unidad deseada.
 
 ```
 {
@@ -50,7 +53,7 @@ Devuelve todas las unidades geográficas. Recupere el PKey de la unidad deseada.
 },
 ```
 
-Realice una solicitud de PATCH en la unidad Geográfica, con los atributos que desea actualizar en la carga útil.
+Realice una solicitud de PATCH en la unidad geográfica, con los atributos que desea actualizar en la carga útil.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \
