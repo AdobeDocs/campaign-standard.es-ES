@@ -2,16 +2,19 @@
 solution: Campaign Standard
 product: campaign
 title: Prueba de un mensaje transaccional
-description: Aprenda a probar un mensaje transaccional en Adobe Campaign.
+description: Obtenga información sobre cómo probar un mensaje transaccional en Adobe Campaign.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
+feature: Mensajería transaccional
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 41%
+source-wordcount: '283'
+ht-degree: 40%
 
 ---
 
@@ -22,9 +25,9 @@ Antes de publicar el mensaje transaccional, puede crear un perfil de prueba espe
 
 ## Definición de un perfil de prueba específico {#defining-specific-test-profile}
 
-Defina un perfil de prueba que se vinculará a su evento, lo que le permitirá previsualización de su mensaje y enviar una prueba relevante.
+Defina un perfil de prueba que se vincule al evento, lo que le permitirá previsualizar el mensaje y enviar una prueba relevante.
 
-1. En el panel [mensaje transaccional](../../channels/using/editing-transactional-message.md#accessing-transactional-messages), haga clic en el botón **[!UICONTROL Create test profile]**.
+1. En el [panel de mensajes transaccionales](../../channels/using/editing-transactional-message.md#accessing-transactional-messages), haga clic en el botón **[!UICONTROL Create test profile]**.
 
    ![](assets/message-center_test-profile.png)
 
@@ -34,9 +37,9 @@ Defina un perfil de prueba que se vinculará a su evento, lo que le permitirá p
 
    >[!NOTE]
    >
-   >Si ha enriquecido su mensaje, también puede introducir información relacionada con otra tabla, como **[!UICONTROL Profile]**. Consulte [Enriquecimiento del evento](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) y [Personalización de un mensaje transaccional](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
+   >Si ha enriquecido el mensaje, también puede introducir información relacionada con otra tabla, como **[!UICONTROL Profile]**. Consulte [Enriquecimiento del evento](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) y [Personalización de un mensaje transaccional](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
 
-1. Una vez creado, el perfil de prueba se especificará previamente en el mensaje transaccional. Haga clic en el bloque **[!UICONTROL Test profiles]** del mensaje para comprobar el destinatario de la prueba.
+1. Una vez creado, el perfil de prueba se especifica previamente en el mensaje transaccional. Haga clic en el bloque **[!UICONTROL Test profiles]** del mensaje para comprobar el destinatario de la prueba.
 
    ![](assets/message-center_5.png)
 
@@ -58,7 +61,7 @@ También puede crear un nuevo perfil de prueba o utilizar uno que ya exista en e
 
 ## Envío de una prueba {#sending-proof}
 
-Una vez que haya creado uno o varios perfiles de prueba específicos y guardado el mensaje transaccional, puede enviar una prueba para probarlo.
+Una vez que haya creado uno o más perfiles de prueba específicos y guardado el mensaje transaccional, puede enviar una prueba para probarlo.
 
 ![](assets/message-center_10.png)
 
