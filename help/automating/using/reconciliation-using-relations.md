@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: reconciliation,main
+feature: Flujos de trabajo
+role: Arquitecto de datos
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 86%
+source-wordcount: '342'
+ht-degree: 85%
 
 ---
 
@@ -28,7 +31,7 @@ El flujo de trabajo se compone de las siguientes actividades:
 
 ![](assets/reconciliation_example1.png)
 
-* Una actividad [Cargar archivo](../../automating/using/load-file.md), que carga y detecta los datos del archivo que se va a importar. El archivo importado contiene los siguientes datos:
+* Una actividad [Load file](../../automating/using/load-file.md) que carga y detecta los datos del archivo que se va a importar. El archivo importado contiene los siguientes datos:
 
    * Fecha de transacción
    * Dirección de correo electrónico del cliente
@@ -47,7 +50,7 @@ El flujo de trabajo se compone de las siguientes actividades:
    2015-05-19 09:06:00;mail9@email.com;ZZ6
    ```
 
-* Una [actividad de reconciliación](../../automating/using/reconciliation.md) para enlazar los datos de compras con perfiles de base de datos y productos. Por lo tanto, es necesario definir una relación entre los datos del archivo y la tabla de perfiles, así como la tabla de productos. Esta configuración se realiza en la pestaña **[!UICONTROL Relations]** de la actividad:
+* Una actividad [Reconciliation](../../automating/using/reconciliation.md) para enlazar datos de compra a perfiles de base de datos, así como a productos. Por lo tanto, es necesario definir una relación entre los datos del archivo y la tabla de perfiles, así como la tabla de productos. Esta configuración se realiza en la pestaña **[!UICONTROL Relations]** de la actividad:
 
    * Relación con **Profiles**: la columna **cliente** del archivo está vinculada al campo de **correo electrónico** de la dimensión **Profiles** .
    * Relación con **Products**: la columna de **producto** del archivo está vinculada al campo **productCode** de la dimensión **Profiles** .
@@ -56,7 +59,7 @@ El flujo de trabajo se compone de las siguientes actividades:
 
    ![](assets/reconciliation_example3.png)
 
-* Una actividad [Actualizar datos](../../automating/using/update-data.md) permite definir los campos de la base de datos que se actualizarán con los datos importados. Como los datos ya se identificaron como pertenecientes a la dimensión **Transactions** en la actividad anterior, aquí puede utilizar la opción de identificación **[!UICONTROL Directly using the targeting dimension]**.
+* Una actividad [Update data](../../automating/using/update-data.md) permite definir los campos de la base de datos que se actualizarán con los datos importados. Como los datos ya se identificaron como pertenecientes a la dimensión **Transactions** en la actividad anterior, aquí puede utilizar la opción de identificación **[!UICONTROL Directly using the targeting dimension]**.
 
    Mediante la opción que detecta automáticamente los campos que se van a actualizar, los vínculos configurados en la actividad anterior (a perfiles y productos) se agregan a la lista de **[!UICONTROL Fields to update]**. También debe asegurarse de que el campo que corresponde a la fecha de transacción se agrega correctamente a esta lista.
 
