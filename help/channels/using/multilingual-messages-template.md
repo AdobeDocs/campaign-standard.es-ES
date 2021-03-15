@@ -6,11 +6,14 @@ description: Aprenda a definir y ejecutar envíos multilingües de correos elect
 audience: start
 content-type: reference
 topic-tags: managing-templates
+feature: Mensajes multilingües
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
