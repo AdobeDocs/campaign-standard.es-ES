@@ -6,10 +6,13 @@ description: Obtenga información sobre cómo recuperar archivos de datos de pri
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Ingeniero de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '198'
 ht-degree: 12%
 
 ---
@@ -19,19 +22,19 @@ ht-degree: 12%
 
 >[!CAUTION]
 >
->La integración de [Privacy Core Service](https://adobe.io/apis/cloudplatform/gdpr.html) es el método que debe utilizar para todas las solicitudes de acceso y eliminación. A partir de la versión 19.4, el uso de la API y la interfaz de Campaign para las solicitudes de acceso y eliminación quedarán obsoletas. Para obtener más información sobre las funciones eliminadas y obsoletas del Campaign Standard, consulte [esta página](../../rn/using/deprecated-features.md).
+>La integración de [Privacy Core Service](https://adobe.io/apis/cloudplatform/gdpr.html) es el método que debe utilizar para todas las solicitudes de acceso y eliminación. A partir de la versión 19.4, el uso de la API y la interfaz de Campaign para las solicitudes de acceso y eliminación quedarán obsoletas. Para obtener más información sobre las funciones obsoletas y eliminadas del Campaign Standard, consulte [esta página](../../rn/using/deprecated-features.md).
 
 Para recuperar el archivo que contiene toda la información asociada a un valor de reconciliación, siga este procedimiento de tres pasos:
 
-1. Realice una solicitud **POST** para crear una nueva solicitud con el atributo **type=&quot;access&quot;**, consulte [Creación de una nueva solicitud de privacidad](../../api/using/creating-a-privacy-request.md).
+1. Realice una solicitud **POST** para crear una nueva solicitud con el atributo **type=&quot;access&quot;**; consulte [Creación de una nueva solicitud de privacidad](../../api/using/creating-a-privacy-request.md).
 
 1. Realice una solicitud **GET** para recuperar información sobre la solicitud.
 
-1. Recupere el archivo de datos realizando una solicitud **POST** en la dirección URL devuelta **privacyRequestData**, con el nombre interno de la solicitud de privacidad dentro de la carga útil. Por ejemplo: {&quot;name&quot;:&quot;PT17&quot;}.
+1. Recupere el archivo de datos realizando una solicitud **POST** en la dirección URL **privacyRequestData** devuelta, con el nombre interno de la solicitud de privacidad dentro de la carga útil. Por ejemplo: {&quot;name&quot;:&quot;PT17&quot;}.
 
 <br/>
 
-***Solicitud de muestra***
+***Solicitud de ejemplo***
 
 Cree una solicitud de privacidad con el atributo type=&quot;access&quot;.
 
