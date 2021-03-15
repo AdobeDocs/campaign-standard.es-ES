@@ -7,10 +7,13 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: delivery,mobileAppContent,back
+feature: Push
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1498'
 ht-degree: 98%
 
 ---
@@ -111,7 +114,7 @@ Configurar una fecha de vencimiento en la notificación push le permite establec
 
 Para añadir una fecha de vencimiento a la notificación push:
 
-1. Marque la opción **[!UICONTROL Expire message]**: al seleccionar la opción **[!UICONTROL Expire message]**, la duración se establece automáticamente en 0. Si no cambia el valor, APNS y FCM intentan enviar el mensaje inmediatamente. Si ocurre un error, el mensaje no se vuelve a enviar.
+1. Marque la opción **[!UICONTROL Expire message]** : al seleccionar la opción **[!UICONTROL Expire message]**, la duración se establece automáticamente en 0. Si no cambia el valor, APNS y FCM intentan enviar el mensaje inmediatamente. Si ocurre un error, el mensaje no se vuelve a enviar.
 
 1. En el campo **[!UICONTROL Duration]**, seleccione la validez de la notificación push.
 
