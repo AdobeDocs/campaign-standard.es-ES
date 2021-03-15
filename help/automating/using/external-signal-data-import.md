@@ -1,22 +1,25 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Importación de datos y señales externas
-description: El siguiente ejemplo ilustra la actividad de señal externa utilizada con la importación de datos.
+title: Señal externa e importación de datos
+description: El siguiente ejemplo ilustra la actividad Señal externa utilizada con la importación de datos.
 audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: signal,main
+feature: Flujos de trabajo
+role: Arquitecto de datos
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 79%
+source-wordcount: '233'
+ht-degree: 78%
 
 ---
 
 
-# Importación externa de señales y datos {#external-signal-data-import}
+# Señal externa e importación de datos {#external-signal-data-import}
 
 El siguiente ejemplo ilustra la actividad **[!UICONTROL External signal]** en un caso de uso típico. La importación de datos se realiza en un flujo de trabajo de origen. Una vez completada la importación y actualizada la base de datos, se activa un segundo flujo de trabajo. Este segundo flujo de trabajo se utiliza para actualizar un acumulado de los datos importados.
 
@@ -44,7 +47,7 @@ El flujo de trabajo de origen se presenta de la siguiente manera:
 
 El flujo de trabajo de destino se presenta de la siguiente manera:
 
-* Una actividad [de señal externa](../../automating/using/external-signal.md) espera a que el flujo de trabajo de origen finalice correctamente.
+* Una actividad [External signal](../../automating/using/external-signal.md) espera a que el flujo de trabajo de origen finalice correctamente.
 * Una actividad de [consulta](../../automating/using/query.md#enriching-data) detecta perfiles y los enriquece con una recopilación configurada para recuperar la fecha de la última compra.
 * Una actividad de [actualización de datos](../../automating/using/update-data.md) almacena los datos adicionales en un campo personalizado dedicado. Tenga en cuenta que el recurso de perfil se ha ampliado para añadir el campo **Última fecha de compra**.
 
