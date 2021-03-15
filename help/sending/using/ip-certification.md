@@ -2,16 +2,19 @@
 solution: Campaign Standard
 product: campaign
 title: Listas de permitidos en Adobe Campaign Standard
-description: Obtenga información sobre cómo optimizar listas de permitidos con Adobe Campaign Standard.
+description: Aprenda a optimizar las listas de permitidos con Adobe Campaign Standard.
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
+feature: Capacidad de entrega
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 82%
+source-wordcount: '327'
+ht-degree: 81%
 
 ---
 
@@ -22,7 +25,7 @@ La certificación de IP es un programa de prácticas de envío que garantiza que
 
 Actualmente dos proveedores ofrecen certificación IP: Return Path y Certified Senders Alliance.
 
-Los remitentes certificados están en lista de permitidos y son utilizados por proveedores de buzones de correo globales y compañías de seguridad de correo electrónico. Estas listas de permitidos comerciales se basan en un sistema que permite al remitente evitar por completo los filtros antispam o se le asignan puntos incrementales a medida que ingresa al sistema.
+Los remitentes certificados están en lista de permitidos y son utilizados por proveedores de buzones de correo globales y empresas de seguridad de correo electrónico. Estas listas de permitidos comerciales se basan en un sistema que permite al remitente saltarse los filtros de correo no deseado o recibir puntos graduales al entrar en el sistema.
 
 El programa [Return Path Certification](https://www.validity.com/products/returnpath/certification/) ofrece una serie de ventajas, entre las que se incluyen las siguientes:
 * Un aumento mensurable en la ubicación de las bandejas de entrada en los principales proveedores de buzones de correo como Microsoft, AOL, Yahoo, Gmail, Comcast, Orange, Mail.ru y más.
