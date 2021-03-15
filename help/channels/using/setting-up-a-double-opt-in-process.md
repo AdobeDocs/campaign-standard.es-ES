@@ -6,10 +6,13 @@ description: Siga estos pasos para configurar un proceso de inclusión doble med
 audience: channels
 content-type: reference
 topic-tags: landing-pages
+feature: Páginas de aterrizaje
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1155'
 ht-degree: 90%
 
 ---
@@ -27,7 +30,7 @@ El principio es enviar un correo electrónico para confirmar el acuerdo del visi
 
 Para configurarlo, debe:
 
-1. Crear y publicar una página de aterrizaje para que los visitantes puedan registrarse y suscribirse. Esta página de aterrizaje debe estar disponible en un sitio web. Los visitantes que rellenen y envíen esta página de aterrizaje se almacenarán en la base de datos pero se agregarán a la  de lista de bloqueados para no recibir ninguna comunicación antes de la validación final (consulte [Administración de Lista de bloqueados en Campaña](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
+1. Crear y publicar una página de aterrizaje para que los visitantes puedan registrarse y suscribirse. Esta página de aterrizaje debe estar disponible en un sitio web. Los visitantes que rellenen y envíen esta página de aterrizaje se almacenarán en la base de datos, pero se agregarán a la  de lista de bloqueados para no recibir comunicación alguna antes de la validación final (consulte [Lista de bloqueados administración de  en Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
 1. Cree y envíe automáticamente el correo electrónico de inclusión, con un vínculo de confirmación. Este correo electrónico se envía a quienes hayan enviado la página de aterrizaje. Se basa en una plantilla de correo electrónico que permite dirigirse a perfiles de “exclusión”.
 1. Redirija a una página de aterrizaje de confirmación. Esta página de aterrizaje final incluye un botón de confirmación: los visitantes tienen que hacer clic en él. Puede diseñar un mensaje de correo electrónico de bienvenida para que se envíe cuando la confirmación esté completa y, por ejemplo, añadir una oferta especial en el mensaje para nuevos destinatarios.
 
@@ -55,7 +58,7 @@ Para crear y configurar esta página de aterrizaje, debe:
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   Este contexto elimina el campo &quot;En lista de bloqueados de&quot; para poder enviar correos electrónicos. Más adelante, veremos que la primera página de aterrizaje era establecer este campo en **true** antes de la confirmación, para evitar enviar correos electrónicos a perfiles no confirmados. Para obtener más información, consulte el [paso 3: crear la página de aterrizaje de adquisición](#step-3--create-the-acquisition-landing-page).
+   Este contexto elimina el campo &quot;On lista de bloqueados&quot; para poder enviar correos electrónicos. Más adelante, veremos que la primera página de aterrizaje era establecer este campo en **true** antes de la confirmación, para evitar enviar correos electrónicos a perfiles no confirmados. Para obtener más información, consulte el [paso 3: crear la página de aterrizaje de adquisición](#step-3--create-the-acquisition-landing-page).
 
 1. Personalice el contenido de la página de aterrizaje: puede mostrar datos personalizados y cambiar la etiqueta del botón de confirmación a “Haga clic aquí para confirmar la suscripción”, por ejemplo.
 
@@ -96,12 +99,12 @@ El evento está listo. Ahora puede diseñar la plantilla de correo electrónico.
 
 ### Creación de la tipología {#create-the-typology-rule}
 
-Debe crear una [tipología](../../sending/using/about-typology-rules.md) específica duplicando una predeterminada. La tipología permitirá enviar mensajes a los perfiles que aún no han confirmado su acuerdo y siguen en lista de bloqueados. De forma predeterminada, las tipologías excluyen los perfiles de exclusión (es decir, en lista de bloqueados). Para crear esta tipología, siga estos pasos:
+Debe crear una [tipología](../../sending/using/about-typology-rules.md) específica duplicando una predeterminada. La tipología permite enviar mensajes a perfiles que aún no han confirmado su acuerdo y que siguen en lista de bloqueados. De forma predeterminada, las tipologías excluyen los perfiles de exclusión (es decir, al lista de bloqueados). Para crear esta tipología, siga estos pasos:
 
 1. En el logotipo de Adobe Campaign, seleccione **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** y haga clic en **[!UICONTROL Typologies]**.
 1. Duplique la tipología **[!UICONTROL Transactional message on profile (mcTypologyProfile)]** predeterminada.
 1. Una vez confirmada la duplicación, edite la nueva tipología e introduzca la etiqueta **TYPOLOGY_PROFILE**.
-1. Elimine la regla **Dirección de lista de bloqueados**.
+1. Elimine la regla **Address on lista de bloqueados**.
 1. Haga clic en **[!UICONTROL Save]**.
 
 Esta tipología ahora se puede asociar al correo electrónico de confirmación.
@@ -128,7 +131,7 @@ Para crear y configurar esta página de aterrizaje, debe:
 1. Diseñe una [nueva página de aterrizaje](../../channels/using/getting-started-with-landing-pages.md) basada en la plantilla **[!UICONTROL Profile acquisition (acquisition)]**. Escriba la etiqueta “**ACQUISITION**”.
 1. Edite las propiedades de la página de aterrizaje: en la sección **[!UICONTROL Job]** > **[!UICONTROL Additional data]**, haga clic en **[!UICONTROL Add an element]** e introduzca la siguiente ruta de contexto:
 
-   /context/perfil/blackList
+   /context/profile/blackList
 
    y establezca el valor en **true**.
 
