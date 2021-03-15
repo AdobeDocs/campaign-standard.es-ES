@@ -2,14 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: Ordenar
-description: Más información sobre cómo realizar operaciones de ordenación
+description: Obtenga más información sobre cómo realizar operaciones de ordenación
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Ingeniero de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '93'
 ht-degree: 11%
 
 ---
@@ -17,15 +20,15 @@ ht-degree: 11%
 
 # Ordenar
 
-La ordenación está disponible en orden ascendente o descendente. Para ello, utilice el parámetro **%20desc** o **%20asc** en la solicitud.
+La ordenación está disponible en orden ascendente o descendente. Para ello, utilice el parámetro **%20desc** o **%20asc** de la solicitud.
 
-Para saber si se puede ordenar un campo, compruebe el parámetro &quot;ordenable&quot; en los metadatos del recurso. Para obtener más información, consulte [esta sección](../../api/using/metadata-mechanism.md).
+Para saber si un campo se puede ordenar, compruebe el parámetro &quot;ordenable&quot; en los metadatos del recurso. Para obtener más información, consulte [esta sección](../../api/using/metadata-mechanism.md).
 
 <br/>
 
 ***Solicitudes de muestra***
 
-* Muestra de una solicitud de GET para recuperar correos electrónicos en la base de datos ordenados alfabéticamente.
+* Ejemplo de solicitud de GET para recuperar correos electrónicos en la base de datos ordenados alfabéticamente.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email/email?_order=email \
@@ -50,7 +53,7 @@ Para saber si se puede ordenar un campo, compruebe el parámetro &quot;ordenable
    }
    ```
 
-* Muestra de una solicitud de GET para recuperar el correo electrónico en la base de datos en un orden alfa descendente.
+* Solicitud de GET de ejemplo para recuperar el correo electrónico de la base de datos en un orden alfa descendente.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email%20desc \
