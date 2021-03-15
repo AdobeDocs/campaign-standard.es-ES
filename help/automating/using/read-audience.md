@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: readAudience,main
+feature: Flujos de trabajo
+role: Arquitecto de datos
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 87%
+source-wordcount: '210'
+ht-degree: 86%
 
 ---
 
@@ -30,7 +33,7 @@ La actividad **[!UICONTROL Read audience]** es una versión más sencilla de la 
 
 **Temas relacionados**
 
-* [Caso de uso: Unión en dos audiencias refinadas](../../automating/using/union-on-two-refined-audiences.md)
+* [Caso de uso: Unión de dos audiencias refinadas](../../automating/using/union-on-two-refined-audiences.md)
 * [Caso de uso: Reconciliación de una audiencia de archivo con la base de datos](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## Configuración {#configuration}
@@ -41,7 +44,7 @@ La actividad **[!UICONTROL Read audience]** es una versión más sencilla de la 
 
    Puede recuperar audiencias de los siguientes tipos: **[!UICONTROL List]**, **[!UICONTROL Query]**, **[!UICONTROL File]** y **[!UICONTROL Experience Cloud]**. Para obtener más información sobre los tipos de audiencia, consulte la documentación de [Audiencias](../../audiences/using/about-audiences.md).
 
-   La opción **[!UICONTROL Use a dynamic audience]** permite definir el nombre de la audiencia a quien se dirige en función de las variables de eventos del flujo de trabajo. Para obtener más información sobre esto, consulte la sección [esta página](../../automating/using/customizing-workflow-external-parameters.md).
+   La opción **[!UICONTROL Use a dynamic audience]** permite definir el nombre de la audiencia a quien se dirige en función de las variables de eventos del flujo de trabajo. Para obtener más información, consulte la sección [esta página](../../automating/using/customizing-workflow-external-parameters.md) .
 
    ![](assets/readaudience_activity1.png)
 
