@@ -7,10 +7,13 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: enrichment,main
+feature: Flujos de trabajo
+role: Arquitecto de datos
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '532'
 ht-degree: 78%
 
 ---
@@ -18,14 +21,14 @@ ht-degree: 78%
 
 # Enriquecimiento de datos de perfil con datos contenidos en un archivo {#enriching-profile-data-with-data-contained-in-a-file}
 
-Este ejemplo muestra cómo enriquecer datos de perfil con datos de compra incluidos en un archivo. Aquí consideramos que los datos de compra se almacenan en un sistema de terceros. Cada perfil puede tener varias compras almacenadas en el archivo. El objetivo final del flujo de trabajo es enviar un mensaje de correo electrónico a los perfiles de destino que han comprado al menos dos artículos para agradecerles su lealtad.
+Este ejemplo muestra cómo enriquecer datos de perfil con datos de compra contenidos en un archivo. Aquí consideramos que los datos de compra se almacenan en un sistema de terceros. Cada perfil puede tener varias compras almacenadas en el archivo. El objetivo final del flujo de trabajo es enviar un mensaje de correo electrónico a los perfiles de destino que han comprado al menos dos artículos para agradecerles su lealtad.
 
 El flujo de trabajo se configura de la siguiente manera:
 
 ![](assets/enrichment_example_workflow.png)
 
-* Una actividad [Consulta](../../automating/using/query.md) que destinatario a los perfiles que recibirán el mensaje.
-* Una actividad [Cargar archivo](../../automating/using/load-file.md) que carga los datos de compra. Por ejemplo:
+* Una actividad [Query](../../automating/using/query.md) dirigida a los perfiles que recibirán el mensaje.
+* Una actividad [Load file](../../automating/using/load-file.md) que carga los datos de compra. Por ejemplo:
 
    ```
    tcode;tdate;customer;product;tamount
@@ -39,7 +42,7 @@ El flujo de trabajo se configura de la siguiente manera:
 
    Con este archivo de ejemplo, utilizaremos la dirección de correo electrónico para cuadrar los datos con los perfiles de la base de datos. También puede habilitar ID únicos como se describe en [este documento](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
 
-* Una actividad [Enriquecimiento](../../automating/using/enrichment.md) que crea un vínculo entre los datos de transacción cargados desde el archivo y los perfiles seleccionados en **[!UICONTROL Query]**. El vínculo se define en la pestaña **[!UICONTROL Advanced relations]** de la actividad. El vínculo se basa en la transición proveniente de la actividad de **[!UICONTROL Load file]**. Utiliza el campo “correo electrónico” del recurso de perfil y la columna “cliente” del archivo importado como criterios de reconciliación.
+* Una actividad [Enrichment](../../automating/using/enrichment.md) que crea un vínculo entre los datos de transacción cargados desde el archivo y los perfiles seleccionados en **[!UICONTROL Query]**. El vínculo se define en la pestaña **[!UICONTROL Advanced relations]** de la actividad. El vínculo se basa en la transición proveniente de la actividad de **[!UICONTROL Load file]**. Utiliza el campo “correo electrónico” del recurso de perfil y la columna “cliente” del archivo importado como criterios de reconciliación.
 
    ![](assets/enrichment_example_workflow2.png)
 
@@ -77,11 +80,11 @@ El flujo de trabajo se configura de la siguiente manera:
 
       ![](assets/enrichment_example_workflow9.png)
 
-* Una [actividad de segmentación](../../automating/using/segmentation.md) con un solo segmento, que recupera perfiles del destinatario inicial que tienen al menos dos transacciones registradas. Se excluyen los perfiles con una sola transacción. Para ello, la consulta de la segmentación se realiza en el recuento acumulado definido anteriormente.
+* Una actividad [Segmentation](../../automating/using/segmentation.md) con un solo segmento, que recupera perfiles del destinatario inicial que tienen al menos dos transacciones registradas. Se excluyen los perfiles con una sola transacción. Para ello, la consulta de la segmentación se realiza en el recuento acumulado definido anteriormente.
 
    ![](assets/enrichment_example_workflow5.png)
 
-* Una actividad [envío de correo electrónico](../../automating/using/email-delivery.md) que utiliza los datos adicionales definidos en **[!UICONTROL Enrichment]** para recuperar dinámicamente las dos últimas compras realizadas por el perfil. Los datos adicionales se pueden encontrar en el nodo **Datos adicionales (TargetData)** al añadir un campo de personalización.
+* Una actividad [Email delivery](../../automating/using/email-delivery.md) que utiliza los datos adicionales definidos en el **[!UICONTROL Enrichment]** para recuperar dinámicamente las dos últimas compras realizadas por el perfil. Los datos adicionales se pueden encontrar en el nodo **Datos adicionales (TargetData)** al añadir un campo de personalización.
 
    ![](assets/enrichment_example_workflow10.png)
 
