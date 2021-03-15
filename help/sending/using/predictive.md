@@ -6,11 +6,14 @@ description: Aprenda a utilizar la puntuación de tiempo de envío y de particip
 audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
+feature: Optimización del tiempo de envío
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 98%
+source-wordcount: '1070'
+ht-degree: 97%
 
 ---
 
