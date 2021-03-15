@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: saveAudience,main
+feature: Flujos de trabajo
+role: Arquitecto de datos
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 100%
+source-wordcount: '807'
+ht-degree: 99%
 
 ---
 
@@ -64,7 +67,6 @@ La actividad **[!UICONTROL Save audience]** se utiliza esencialmente para manten
       >[!NOTE]
       >
       >Esta opción solo está disponible si el administrador ha configurado la funcionalidad de audiencias compartidas con Adobe Experience Cloud. Para obtener más información, consulte [Trabajar con Campaign y el servicio principal People](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
-
    El tipo de audiencias guardadas o disponibles durante una actualización depende de las actividades que se coloquen en el flujo de trabajo.
 
    Si la dimensión de segmentación de la audiencia es desconocida cuando se guarda (por ejemplo, si procede de un archivo importado), la audiencia se crea o se actualiza como una audiencia de tipo **[!UICONTROL File]**.
