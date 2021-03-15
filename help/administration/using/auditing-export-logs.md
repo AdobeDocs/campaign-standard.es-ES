@@ -6,10 +6,13 @@ description: Los administradores pueden realizar un seguimiento de las exportaci
 audience: administration
 content-type: reference
 topic-tags: users-and-security
+feature: Gestión de acceso
+role: Administrador
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '117'
 ht-degree: 5%
 
 ---
@@ -17,16 +20,16 @@ ht-degree: 5%
 
 # Auditoría de registros de exportación{#auditing-export-logs}
 
-En **[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!UICONTROL Export audits]**, los administradores pueden realizar una lista de las siguientes exportaciones, incluida su fecha y el usuario que realizó la exportación:
+Desde **[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!UICONTROL Export audits]**, los administradores pueden ver una lista de todas las siguientes exportaciones, incluida su fecha y el usuario que realizó la exportación:
 
 * Carga de archivos desde una actividad **[!UICONTROL Transfer file]** en un flujo de trabajo.
-* Exportación de listas desde una lista o sublista.
-* Archivo descargado del panel de envío de un mensaje de Correo postal.
+* Exportación de lista desde una lista o una sublista.
+* Archivo descargado del panel de envío de un mensaje de correo postal.
 
 >[!NOTE]
 >
->No se realiza el seguimiento de otras exportaciones. La lista de las exportaciones se purga cada 6 meses de forma predeterminada.
+>No se realiza un seguimiento de otras exportaciones. La lista de exportaciones se purga cada 6 meses de forma predeterminada.
 
-Desde el panel izquierdo, puede filtrar las exportaciones que desee mostrar en función de sus necesidades.
+En el panel izquierdo, puede filtrar las exportaciones que desee mostrar según sus necesidades.
 
 Puede exportar la lista como un archivo independiente, tal como se describe en la sección [Exportación de listas](../../automating/using/exporting-lists.md).
