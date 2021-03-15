@@ -1,16 +1,19 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Solución de problemas de capacidad de entrega en Adobe Campaign Standard
-description: Aprenda qué hacer cuando experimente problemas de entrega con Adobe Campaign Standard.
+title: Solución de problemas de envío en Adobe Campaign Standard
+description: Aprenda qué hacer al experimentar problemas de capacidad de envío con Adobe Campaign Standard.
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
+feature: Capacidad de entrega
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '463'
 ht-degree: 64%
 
 ---
@@ -29,7 +32,7 @@ Si siempre recibe el mismo mensaje de error para un ISP, es posible que el ISP h
 * Actualice los formularios de suscripción para detectar cualquier error en los nombres de dominio introducidos (por ejemplo: gmaul.com o yaho.com).
 * Si nota errores que indican que sus mensajes están declarados como correo no deseado o que sus mensajes están bloqueados constantemente, intente excluir los destinatarios que no han abierto o hecho clic en uno de sus mensajes en los últimos 12 meses desde el destinatario.
 
-Si el problema persiste, póngase en contacto con los servicios comerciales o de entrega o con el servicio de asistencia de Adobe Campaign.
+Si el problema persiste, póngase en contacto con los servicios comerciales o de envío, o con el servicio de asistencia de Adobe Campaign.
 
 ## Lista de bloqueados frente a cuarentena {#denylist-versus-quarantine}
 
@@ -42,25 +45,25 @@ Si el problema persiste, póngase en contacto con los servicios comerciales o de
 
 * **¿Qué significan las diferentes razones de error de cuarentena?**
 
-   Estas son 10 razones posibles: no definido, usuario desconocido, dominio inválido, dirección en lista de bloqueados, rechazado, error omitido, inaccesible, cuenta deshabilitada, buzón lleno, no conectado.
+   Estas son 10 razones posibles: no definido, usuario desconocido, dominio no válido, dirección en lista de bloqueados, rechazado, error omitido, inaccesible, cuenta deshabilitada, buzón lleno, sin conexión.
 
    Para obtener más información, consulte [Comprensión de la administración de cuarentena](../../sending/using/understanding-quarantine-management.md).
 
 ## Eliminación de la lista de bloqueados {#removing-from-denylist}
 
-* **Uno de mis destinatarios fue agregado a la  de lista de bloqueados por error. ¿Cómo puedo eliminarlos de la  de lista de bloqueados para que pueda enviar mensajes de nuevo con inicio?**
+* **Uno de mis destinatarios se agregó a la  de lista de bloqueados por error. ¿Cómo puedo quitarlos de la  de lista de bloqueados para que pueda volver a enviarles mensajes?**
 
    * Vaya a **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
    * En los detalles del registro correspondiente, establezca el valor del campo **[!UICONTROL Status]** en **[!UICONTROL Valid]**.
    * Guarde el registro.
 
-* **¿Cómo puedo saber si una de mis IP está en  lista de bloqueados? ¿Cómo elimino mis IP de una lista de bloqueados?**
+* **¿Cómo puedo averiguar si una de mis IP está en ? ¿Cómo elimino mis IP de una lista de bloqueados?**
 
-   Para comprobar si su dirección IP está en lista de bloqueados, puede utilizar varios sitios Web para verificarla, como:
+   Para comprobar si su dirección IP está en , puede utilizar varios sitios web para verificarla, como:
    * [MX Toolbox](https://mxtoolbox.com/)
    * [¿Cuál es mi dirección IP?](https://whatismyipaddress.com)
 
-   Generalmente, el resultado de la comprobación de la dirección IP devolverá una lista que contiene detalles de la  de lista de bloqueados y también el nombre del sitio web que bloqueó la dirección IP.
+   Por lo general, el resultado de la comprobación de la dirección IP devolverá una lista que contiene detalles de la  de lista de bloqueados y también el nombre del sitio web que bloqueó la dirección IP.
 
    Al hacer clic en el enlace correspondiente, puede acceder a los detalles del sitio web.
 
