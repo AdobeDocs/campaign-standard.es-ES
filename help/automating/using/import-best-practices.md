@@ -6,11 +6,13 @@ description: Obtenga más información sobre las prácticas recomendadas a segui
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
+feature: Flujos de trabajo
+role: Arquitecto de datos
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 82%
+source-wordcount: '572'
+ht-degree: 81%
 
 ---
 
@@ -19,7 +21,7 @@ ht-degree: 82%
 
 >[!CAUTION]
 >
->Tenga en cuenta los límites de almacenamiento SFTP, Almacenamiento de base de datos y perfil activo según su contrato de Adobe Campaign mientras utiliza esta funcionalidad.
+>Tenga en cuenta los límites de almacenamiento SFTP, almacenamiento de bases de datos y perfil activo según el contrato de Adobe Campaign mientras utiliza esta funcionalidad.
 
 Tenga cuidado y siga las sencillas reglas detalladas debajo, ya que le pueden ayudar a garantizar la coherencia de los datos en la base de datos y a evitar errores comunes durante la actualización o las exportaciones de datos.
 
@@ -33,11 +35,11 @@ En muchos proyectos, las importaciones se crean sin actividad de **[!UICONTROL D
 
 No dé por hecho que los datos entrantes son coherentes y correctos, o que el departamento de TI o el iniciador de Adobe Campaign se pueden encargar de ello. Durante el proyecto, tenga en cuenta la limpieza de los datos. Deduplique, reconcilie y mantenga la coherencia al importar datos.
 
-Un ejemplo de una plantilla de flujo de trabajo genérica diseñada para importar datos está disponible en el [Ejemplo: Importar plantilla de flujo de trabajo](../../automating/using/creating-import-workflow-templates.md).
+Un ejemplo de plantilla de flujo de trabajo genérica diseñada para importar datos está disponible en el [Ejemplo: Importar plantilla de flujo de trabajo](../../automating/using/creating-import-workflow-templates.md) .
 
 >[!NOTE]
 >
->También puede utilizar [plantillas de importación](../../automating/using/importing-data-with-import-templates.md). Son plantillas de flujo de trabajo definidas por un administrador que, una vez activadas, solo oferta la posibilidad de especificar el archivo que contiene los datos que se van a importar.
+>También puede utilizar [plantillas de importación](../../automating/using/importing-data-with-import-templates.md). Son plantillas de flujo de trabajo definidas por un administrador que, una vez activadas, solo ofrece la posibilidad de especificar el archivo que contiene los datos que se van a importar.
 
 **Temas relacionados:**
 
@@ -45,7 +47,7 @@ Un ejemplo de una plantilla de flujo de trabajo genérica diseñada para importa
 * [Actividad de reconciliación](../../automating/using/reconciliation.md)
 * [Actividad de segmentación](../../automating/using/segmentation.md)
 * [Actividad de anulación de duplicación](../../automating/using/deduplication.md)
-* [Actualizar actividad de datos](../../automating/using/update-data.md)
+* [Actividad de actualización de datos](../../automating/using/update-data.md)
 
 ## Uso de formatos de archivo plano {#using-flat-file-formats}
 
@@ -75,7 +77,7 @@ Utilice archivos comprimidos para importar y exportar cuando sea posible. GZIP e
 **Temas relacionados:**
 
 * [Cargar actividad de archivo](../../automating/using/load-file.md)
-* [Extraer actividad de archivo](../../automating/using/extract-file.md)
+* [Actividad Extraer archivo](../../automating/using/extract-file.md)
 
 ## Importación en modo Delta {#importing-in-delta-mode}
 
