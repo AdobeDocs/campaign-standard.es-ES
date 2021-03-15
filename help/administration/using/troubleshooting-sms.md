@@ -6,10 +6,13 @@ description: Solución de problemas de SMS
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
+feature: Configuración de instancia
+role: Administrador
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 80e4f752a1b9b6c8b0125a502c05c19796e98104
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '2696'
+source-wordcount: '2700'
 ht-degree: 90%
 
 ---
@@ -87,7 +90,7 @@ Adobe Campaign admite el manejo de varios códigos cortos en la misma cuenta ext
 
 Una conexión se considera inestable si se produce alguna de las siguientes situaciones:
 
-* Reiniciar el MTA arreglará las cosas temporalmente. Significa que una conexión inestable déclencheur la limitación de MTA en Adobe Campaign Standard, reiniciando el MTA borra la limitación. Ocurrirá de nuevo hasta que se encuentre la causa raíz.
+* Si se reinicia el MTA, las cosas se corregirán temporalmente. Esto significa que una conexión inestable déclencheur la restricción MTA en Adobe Campaign Standard, al reiniciar el MTA se borra la restricción. Ocurrirá de nuevo hasta que se encuentre la causa raíz.
 
 * El proveedor envía `UNBIND PDU`s.
 
@@ -105,7 +108,7 @@ Para solucionar los problemas de estabilidad de la conexión:
 
 * Realizar una captura de red es, a veces, la única manera de ver cómo se cierra la conexión.
 
-* Si el proveedor cierra las conexiones enviando un paquete `TCP FIN` o `TCP RST`, pregunte a su proveedor más información.
+* Si el proveedor cierra las conexiones enviando un paquete `TCP FIN` o `TCP RST`, pregunte al proveedor más información.
 
 * Si el proveedor cierra la conexión después de enviar un error limpio como `DELIVER_SM_RESP` con un código de error, deberá corregir su conector, de lo contrario eso impedirá que se transmitan otros tipos de mensajes y activará la limitación de MTA. Esto es especialmente importante en el modo transceptor, donde el cierre de la conexión afecta tanto a MT como SR.
 
@@ -147,7 +150,7 @@ Reducción de la cantidad de duplicados cuando hay un reintento:
 
 * Compruebe que el `DELIVER_SM PDU` proviene del proveedor y que está bien formado.
 
-* Compruebe que Adobe Campaign responde con un `DELIVER_SM_RESP PDU` correcto de manera oportuna. En Adobe Campaign Standard, esto garantiza que se ha aplicado toda la lógica de procesamiento, si no es el caso, se garantiza que tenga un mensaje de error en los registros que indique por qué falló el procesamiento.
+* Compruebe que Adobe Campaign responde con un `DELIVER_SM_RESP PDU` correcto de manera oportuna. En Adobe Campaign Standard, esto garantiza que se ha aplicado toda la lógica de procesamiento, si no es así, se garantiza que aparezca un mensaje de error en los registros que indica por qué ha fallado el procesamiento.
 
 Si el `DELIVER_SM PDU` no se reconoce correctamente, debe comprobar lo siguiente:
 
@@ -155,9 +158,9 @@ Si el `DELIVER_SM PDU` no se reconoce correctamente, debe comprobar lo siguiente
 
 * Compruebe que los errores están correctamente registrados en la tabla `broadLogMsg`.
 
-* Para Adobe Campaign Standard, compruebe que las tablas `broadLog` y `broadLogExec` están correctamente sincronizadas.
+* Para Adobe Campaign Standard, compruebe que las tablas `broadLog` y `broadLogExec` estén correctamente sincronizadas.
 
-Si ha corregido todo pero algunos SR no válidos siguen en los búferes del proveedor, puede omitirlos con la opción **Recuento de reconocimiento de ID no válido**. Debe utilizarse con cuidado y restablecerse a 0 lo antes posible después de que los búferes estén limpios.
+Si ha corregido todo pero algunas SR no válidas siguen en los búferes del proveedor, puede omitirlas utilizando la opción **Invalid ID confirm count**. Debe utilizarse con cuidado y restablecerse a 0 lo antes posible después de que los búferes estén limpios.
 
 ## Problema al procesar MO (y lista de no permitidos/respuesta automática){#issue-process-MO}
 
@@ -169,7 +172,7 @@ Si ha corregido todo pero algunos SR no válidos siguen en los búferes del prov
 
 * Si aparece `DELIVER_SM PDU`, compruebe que Adobe Campaign lo ha reconocido con un `DELIVER_SM_RESP PDU` (código 0) correcto. Este RESP garantiza que Adobe Campaign ha aplicado toda la lógica de procesamiento (respuesta automática y permitir/denegar lista de bloqueados). Si no es así, busque un mensaje de error en los registros de MTA.
 
-* Si las respuestas automáticas están habilitadas, compruebe que `SUBMIT_SM` se haya enviado al proveedor. De lo contrario, se garantiza que encontrará un mensaje de error en los registros de MTA.
+* Si las respuestas automáticas están habilitadas, compruebe que `SUBMIT_SM` se haya enviado al proveedor. Si no es así, se garantiza que encontrará un mensaje de error en los registros de MTA.
 
 * Si el `SUBMIT_SM MT PDU` que contiene la respuesta se encuentra en los seguimientos, pero el SMS no llega al teléfono móvil, tendrá que ponerse en contacto con el proveedor para obtener ayuda sobre la resolución de problemas.
 
@@ -269,19 +272,19 @@ El nuevo conector admite el registro extendido mediante seguimientos: SMPP. Los 
 
 **Activación por cuenta externa (método preferido)**
 
-1. En la **Cuenta externa**, seleccione **Habilitar los rastros SMPP detallados en el archivo de registro**.
+1. En **External account**, seleccione **Enable verbose SMPP traces in the log file**.
 1. Guardar, el conector se reconectará con los rastros habilitados.
 
 **Activación sobre la marcha**
 
-Adobe Campaign Standard MTA tiene una interfaz de control HTTP que permite cambiar el filtro de seguimiento sobre la marcha.
-Una llamada de POST puede habilitar o deshabilitar los seguimientos. Ejemplo de URL para habilitar los seguimientos de SMPP:
+El MTA de Adobe Campaign Standard tiene una interfaz de control HTTP que permite cambiar el filtro de seguimiento sobre la marcha.
+Una llamada del POST puede habilitar/deshabilitar los seguimientos. Ejemplo de URL para habilitar los trazos de SMPP:
 
 ```
 POST http://host:7780/mta/trace?filter=SMPP
 ```
 
-Para deshabilitar los seguimientos, establezca un filtro vacío:
+Para desactivar los seguimientos, establezca un filtro vacío:
 
 ```
 POST http://host:7780/mta/trace?filter=
