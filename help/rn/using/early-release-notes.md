@@ -8,24 +8,27 @@ content-type: reference
 topic-tags: campaign-standard-releases
 hide: true
 hidefromtoc: true
+feature: Información general
+role: Profesional empresarial
+level: Principiante
 translation-type: tm+mt
-source-git-commit: c5807da6bc9a33adcba6fc9825b0496bb5dc609b
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '2587'
+source-wordcount: '2591'
 ht-degree: 84%
 
 ---
 
 
-# Notas de la versión anteriores {#new-release}
+# Notas de la versión anticipadas {#new-release}
 
-[Planificación](../../rn/using/release-planning.md)  de la versión| Versiones [ de ](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html) Panel de control de Campaign| Actualizaciones [ ](../../rn/using/documentation-updates.md) de documentación| Notas [ de la versión ](../../rn/using/release-notes.md) más recientes| Funciones  [obsoletas](../../rn/using/deprecated-features.md)
+[Planificación de versiones](../../rn/using/release-planning.md)  | Versiones de  [Panel de control de Campaign](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html)  |  [Actualizaciones de documentación](../../rn/using/documentation-updates.md)  |  [Últimas notas de la versión](../../rn/using/release-notes.md)  | Funciones  [obsoletas](../../rn/using/deprecated-features.md)
 
-En esta página se describen las nuevas funciones, mejoras y correcciones incluidas en la próxima versión del Campaign Standard.
+Esta página describe las nuevas funciones, mejoras y correcciones incluidas en la próxima versión del Campaign Standard.
 
 >[!CAUTION]
 >
-> Este contenido está sujeto a cambios sin previo aviso hasta la fecha de actualización del entorno de la fase. Obtenga más información en la [página de planificación de la versión](../../rn/using/release-planning.md).
+> Este contenido está sujeto a cambios sin previo aviso hasta la fecha de actualización de los entornos de ensayo. Obtenga más información en la [página de planificación de versiones](../../rn/using/release-planning.md).
 
 
 ## Versión 21.1: febrero de 2021 {#release-21-1---febuary-2021}
@@ -41,13 +44,13 @@ En esta página se describen las nuevas funciones, mejoras y correcciones inclui
 <tbody> 
 <tr> 
 <td>
-<p>El servicio de comentarios de correo electrónico (EFS) es un servicio escalable que mejora la precisión del sistema de informes al capturar los comentarios de correo electrónico directamente desde el MTA mejorado.</p>
+<p>El servicio de comentarios de correo electrónico (EFS) es un servicio con capacidad de adaptación que mejora la precisión de los informes al capturar los comentarios de correo electrónico directamente desde el MTA mejorado.</p>
 <ul>
-<li>Se capturan todas las categorías de eventos: Retrasos, Entregados, Para Enviar, Cancelar la suscripción (Vínculo, Lista), Comentarios (quejas de correo no deseado, eventos asincrónicos).</li>
-<li>El cálculo de los indicadores enviados/entregados ahora se basa en los comentarios en tiempo real del MTA mejorado para mejorar la precisión y la reactividad.</li>
-<li>EFS soluciona el problema de los retrasos en el sistema de informes de devoluciones sincrónicas y quita el 80 % de la carga del proceso en Mail.</li>
+<li>Se capturan todas las categorías de eventos: Retrasos, Entrega, Envío, Cancelación de suscripción (Vínculo, Lista), Comentarios (quejas de correo no deseado, eventos asíncronos).</li>
+<li>El cálculo de los indicadores Enviados/Entregados ahora se basa en los comentarios en tiempo real del MTA mejorado para mejorar la precisión y la reacción.</li>
+<li>EFS resuelve el problema de los retrasos en los informes de devoluciones sincrónicas y quita el 80% de la carga del proceso inMail.</li>
 </ul>
-<p>Esta capacidad se presenta como una <strong>versión beta privada</strong> y estará disponible progresivamente para todos los clientes en futuras versiones.</p>
+<p>Esta funcionalidad se presenta como una <strong>beta privada</strong> y estará disponible de forma progresiva para todos los clientes en futuras versiones.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -92,9 +95,9 @@ En esta página se describen las nuevas funciones, mejoras y correcciones inclui
 
 **Mejoras**
 
-* **La** integración de Microsoft Dynamics 3655 se ha mejorado con una aplicación de integración de autoservicio dedicada y un proceso de implementación mejorado. [Obtenga más información](../../integrating/using/d365-acs-get-started.md)
+* **La integración con Microsoft Dynamics 365**  se ha mejorado con una aplicación de integración de autoservicio dedicada y un proceso de implementación mejorado. [Obtenga más información](../../integrating/using/d365-acs-get-started.md)
 
-* Se ha realizado una mejora para facilitar la solución de problemas al encontrar problemas con el **proceso de mensajería transaccional**. Los administradores técnicos de Adobe ahora pueden utilizar el seguimiento en cualquier proceso sin reiniciarlo.
+* Se ha realizado una mejora para facilitar la resolución de problemas al encontrar problemas con el **proceso de mensajería transaccional**. Los administradores técnicos de Adobe ahora pueden utilizar el seguimiento en cualquier proceso sin reiniciarlo.
 
 * La lista **Perfiles** ahora le permite buscar registros basados en uno de estos campos: correo electrónico, nombre, apellidos o campos personalizados que se han agregado en el filtrado avanzado al ampliar el recurso de perfil. Esta función también está disponible en las API de Campaign Standard mediante el parámetro filterType.
 
@@ -135,9 +138,9 @@ En esta página se describen las nuevas funciones, mejoras y correcciones inclui
 
 * Se han mejorado los registros de errores al intentar conectarse al servicio Identity Management de Adobe (IMS).
 
-* Ahora puede filtrar aún más las dimensiones de Envío y Campaña mediante la barra de búsqueda de **sistema de informes dinámico**.
+* Ahora puede filtrar aún más las dimensiones Envío y Campaña utilizando la barra de búsqueda en **Informes dinámicos**.
 
-* La fecha de validez del mensaje SMS transaccional ahora se puede definir mediante el valor establecido para el parámetro de caducidad en la **API de Mensajes transaccionales**. (CAMP-36600)
+* La fecha de validez del mensaje SMS transaccional ahora se puede definir mediante el valor establecido para el parámetro de caducidad en la **API de mensajes transaccionales**. (CAMP-36600)
 
 * En la creación de informes dinámica, el informe integrado de **Resumen de entrega** mostraba datos incorrectos para la métrica de tasa sin suscribir. Se ha agregado una nueva métrica con el nombre **baja única** para corregir esto. (CAMP-46445)
 
@@ -145,11 +148,11 @@ En esta página se describen las nuevas funciones, mejoras y correcciones inclui
 
 * Se ha corregido un problema que provocaba que las entregas se ejecutaran muy lentamente debido a ciertos procesos. Esto se debe a unidades incorrectas definidas para varios parámetros (milisegundos en lugar de segundos, por ejemplo).
 * Se ha corregido un problema con los flujos de trabajo que se podía producir al copiar y pegar una actividad de **anulación de duplicación** que se había ejecutado una vez y que aprovechaba un recurso temporal. Una vez duplicado, el recurso de la actividad se definía automáticamente en vacío, lo que producía problemas en otras actividades del flujo de trabajo. Una vez pegado, el recurso de la actividad seguirá siendo el mismo para que el error se active lo antes posible en lugar de más tarde en el flujo de trabajo. (CAMP-46903)
-* Se corrigió un problema cuando el SDK de Mobile enviaba una solicitud de seguimiento abierta basada en la condición de que deliveryID/MessageID no fuera nulo. Esto resultaría en errores 404 para entregas con seguimiento deshabilitado. Una variable adicional (acsDeliveryTracking) con información sobre el estado de seguimiento de la entrega ahora se envía en la carga útil. Esta variable puede tener dos valores activados o desactivados según el estado de seguimiento establecido.
+* Se ha corregido un problema que se producía cuando el SDK móvil enviaba una solicitud de seguimiento abierta basada en la condición de que deliveryID/MessageID no fuera nulo. Esto resultaría en errores 404 para entregas con seguimiento deshabilitado. Una variable adicional (acsDeliveryTracking) con información sobre el estado de seguimiento de la entrega ahora se envía en la carga útil. Esta variable puede tener dos valores activados o desactivados según el estado de seguimiento establecido.
 * Se ha corregido un problema que impedía que los informes de envío se ejecutaran cuando se mostraban 5000 filas.
 * Se ha corregido un problema con las Pruebas A/B que impedía que el contenido de la variante B se actualizara después de que se hubiera modificado la plantilla de envíos. (CAMP-45235)
 * Se ha corregido un problema que provocaba que el proceso de mensajería transaccional se quedara atascado, lo que evitaba que se enviaran mensajes.
-* Se corrigió un problema que ocasionaba que fallara la análisis de envío al enviar un mensaje push transaccional usando la dimensión de destinatario de Perfil. Ahora hay disponible una nueva asignación de envíos (mapRtEventAppSubRcp) para los mensajes push transaccionales dirigidos a perfiles. El envío, la exclusión y los registros de seguimiento de estos envíos estarán ahora disponibles en las tablas broadLogAppSubRcp, excludeLogAppSubRcp y trackingLogAppSubRcp.
+* Se ha corregido un problema que provocaba que fallara el análisis de envío al enviar un mensaje push transaccional usando la dimensión de destino Perfil . Ahora hay disponible una nueva asignación de envíos (mapRtEventAppSubRcp) para los mensajes push transaccionales dirigidos a perfiles. El envío, la exclusión y los registros de seguimiento de estos envíos estarán ahora disponibles en las tablas broadLogAppSubRcp, excludeLogAppSubRcp y trackingLogAppSubRcp.
 * Se ha corregido un problema que podía provocar problemas de navegación al hacer clic en un vínculo interno (por ejemplo, al acceder a la entrega principal desde una pantalla de resumen de prueba).
 * Se ha corregido un problema que impedía que se mostraran todas las plantillas de contenido de Experience Manager disponibles al crear una entrega. (CAMP-45990)
 * Se ha corregido un problema con flujos de trabajo que podía impedir que se mostraran mensajes de error en los registros de envío después de agregar la columna **Motivo** a la pestaña de datos adicional. (CAMP-45139)
@@ -197,13 +200,13 @@ En esta página se describen las nuevas funciones, mejoras y correcciones inclui
 * Se ha corregido un problema al usar una actividad de **Segmentación** con entregas recurrentes en un flujo de trabajo que hacía que la entrega se enviara a la audiencia incorrecta. (CAMP-46275, CAMP-46470)
 * Se ha corregido un error en el que la publicación de recursos personalizados fallaba al intentar ampliar el recurso de perfil para crear dimensiones de perfil personalizadas para creación de informes dinámica. (CAMP-46266)
 * Se ha corregido un error que se producía al agregar un vínculo a una tabla de importación de archivos. Después de agregar una actividad **Enriquecimiento** a la actividad **Importación de archivos**, el vínculo previamente configurado desapareció. (CAMP-46557)
-* Se ha corregido un problema que se producía al utilizar recursos personalizados vinculados a datos de Perfil, en el que el orden de visualización en la pantalla de configuración de detalle se cambiaba al guardar. (CAMP-46312)
-* Se ha corregido un problema que podía impedir que se mostraran datos en sistema de informes dinámico debido a envíos basados en una asignación de envío personalizada.
-* Se ha corregido un error que podía impedir que se seleccionara una colección con un destinatario de recursos incorrecto en una actividad de consulta de flujo de trabajo.
+* Se ha corregido un problema que se producía al utilizar recursos personalizados vinculados a datos de perfil, en el cual el orden de visualización en la pantalla de configuración de detalles se cambiaba al guardar. (CAMP-46312)
+* Se ha corregido un problema que podía impedir que se mostraran datos en informes dinámicos debido a envíos basados en una asignación de envío personalizada.
+* Se ha corregido un error que podía impedir que se seleccionara una colección con un destino de recurso incorrecto en una actividad de consulta de flujo de trabajo.
 * Se ha corregido un problema que podía hacer que el proceso de InMail validara las devoluciones en firme de forma incorrecta.
 * Se ha corregido un error que se producía al abrir una pantalla de perfil debido a un error de vínculo.
 * Se ha corregido un problema que podía impedir que se eliminaran datos de RGPD del flujo de trabajo de limpieza.
-* Se corrigió un error que se producía cuando la configuración de programación se actualizaba manualmente con el teclado de tipo en los parámetros de programación de envío de correo electrónico.
+* Se ha corregido un error que se producía cuando la configuración de programación se actualizaba manualmente con el teclado de tipo en los parámetros de programación de envíos de correo electrónico.
 * Se ha corregido un problema que impedía editar un perfil debido a parámetros incorrectos en la unidad organizativa.
 * Se ha corregido un problema que permitía que el campo de extensión Servicio estuviera vacío e imposible de establecer en las propiedades de correo electrónico, incluso si se había establecido en la Plantilla de envíos.
 * Se ha corregido un problema que podía provocar que las pruebas tardaran más en procesarse. (CAMP-45048)
@@ -221,4 +224,4 @@ En esta página se describen las nuevas funciones, mejoras y correcciones inclui
 * Se ha corregido un problema que obligaba a los botones predeterminados a permanecer centrados cuando se enviaba el mensaje a un buzón de Outlook, aunque estos botones estuvieran alineados a la derecha o a la izquierda en el Diseñador de correo electrónico. (CAMP-46466)
 * Se ha corregido un problema que impedía que la lista de perfiles de prueba se actualizara al buscar perfiles en la previsualización del Diseñador de correo electrónico. (CAMP-45265)
 * Se ha corregido un problema que impedía que se mostraran perfiles de prueba personalizados en la lista al buscar perfiles en la previsualización del Diseñador de correo electrónico. (CAMP-45589)
-* Se ha corregido un problema que hacía que se mostraran fechas que no coincidían correctamente al generar gráficos de tendencias desde el informe de resumen de envíos. (CAMP-45521)
+* Se ha corregido un problema que provocaba que se mostraran fechas que no coincidían al generar gráficos de tendencia desde el informe de resumen de envíos. (CAMP-45521)
