@@ -7,10 +7,13 @@ audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
+feature: Reglas de tipología
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '557'
 ht-degree: 96%
 
 ---
@@ -67,7 +70,7 @@ En el modo de operación estándar, las reglas se aplican en la siguiente secuen
 1. Reglas de control, si se aplican al principio del objetivo.
 1. Reglas de filtrado:
 
-   * Reglas de aplicación nativas para la calificación de direcciones: dirección definida / dirección no verificada / dirección en lista de bloqueados/dirección en cuarentena / calidad de dirección.
+   * Reglas de aplicación nativas para la clasificación de direcciones: dirección definida/dirección no verificada/dirección en lista de bloqueados/dirección en cuarentena/calidad de la dirección.
    * Reglas de filtrado definidas por el usuario.
 
 1. Reglas de control, si se aplican al final del objetivo.
