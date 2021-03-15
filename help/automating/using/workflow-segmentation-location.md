@@ -7,10 +7,13 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,segmentation,delivery
+feature: Flujos de trabajo
+role: Arquitecto de datos
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '272'
 ht-degree: 83%
 
 ---
@@ -26,7 +29,7 @@ Puede enviar un correo electrónico de segmentación a los clientes con ofertas 
 
 ## Selección de destinatarios con los que se puede contactar por correo electrónico{#selecting-recipients-contactable-via-email}
 
-1. En **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, arrastre y suelte una actividad [de Consulta](../../automating/using/query.md) ![](assets/query.png).
+1. En **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, arrastre y suelte una actividad [Query](../../automating/using/query.md) ![](assets/query.png).
 1. Haga doble clic en la actividad.
 1. En **[!UICONTROL Shortcuts]**, arrastre y suelte **[!UICONTROL Profiles]** y seleccione el campo **[!UICONTROL email]** con el operador **[!UICONTROL is not empty]**.
 1. En **[!UICONTROL Shortcuts]**, arrastre y suelte **[!UICONTROL Profiles]** y seleccione el campo **[!UICONTROL no longer contact by email]** con el valor **[!UICONTROL no]**.
@@ -36,7 +39,7 @@ Puede enviar un correo electrónico de segmentación a los clientes con ofertas 
 
 ## Creación de una actividad de segmentación{#creating-a-segmentation-activity}
 
-1. Arrastre y suelte una actividad [Segmentación](../../automating/using/segmentation.md) y haga clic en ella con el doble.
+1. Arrastre y suelte una actividad [Segmentation](../../automating/using/segmentation.md) y haga doble clic en ella.
 1. Haga clic en el segmento y luego abra la transición para dirigirse a las personas en la primera ciudad. Aquí Boston.
 1. Arrastre y suelte **[!UICONTROL Location]** y seleccione **[!UICONTROL City]** con el operador **[!UICONTROL equals to]** y el valor **[!UICONTROL Boston]**.
 Nota: Para llegar a todas las personas introducidas en Boston, sin tener en cuenta las mayúsculas o minúsculas, desactive la opción que distingue mayúsculas de minúsculas.
@@ -48,7 +51,7 @@ Nota: Para llegar a todas las personas introducidas en Boston, sin tener en cuen
 
 ## Creación de una entrega de correo electrónico{#creating-an-email-delivery}
 
-1. En **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, arrastre y suelte una actividad [envío de correo electrónico](../../automating/using/email-delivery.md) después de cada segmento.
+1. En **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, arrastre y suelte una actividad [Email delivery](../../automating/using/email-delivery.md) después de cada segmento.
 1. Haga clic en la actividad y seleccione ![](assets/edit_darkgrey-24px.png) para editarla.
 1. Seleccione **[!UICONTROL Simple email]** y haga clic en **[!UICONTROL Next]**.
 1. Seleccione una plantilla de correo electrónico y haga clic en **[!UICONTROL Next]**.
