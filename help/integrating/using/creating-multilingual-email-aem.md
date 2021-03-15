@@ -6,10 +6,13 @@ description: Con la integración de Adobe Experience Manager, puede crear conten
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
+feature: Triggers
+role: Arquitecto de datos
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 3672f0bc4ebc551c4eb34660a3a55d44fa726f1a
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '598'
 ht-degree: 16%
 
 ---
@@ -23,21 +26,21 @@ Los requisitos previos son:
 
 * Acceso a una instancia de AEM configurada para la integración.
 * Acceso a una instancia de Adobe Campaign configurada para la integración.
-* Plantilla de correo electrónico multilingüe de Adobe Campaign configurada para recibir contenido AEM.
+* Una plantilla de correo electrónico multilingüe de Adobe Campaign configurada para recibir AEM contenido.
 
 ## Crear nuevo contenido de correo electrónico en Adobe Experience Manager {#creating-email-content-aem}
 
-1. En la página principal de Adobe Experience Manager, seleccione **[!UICONTROL Site]**.
+1. En la página de inicio de Adobe Experience Manager, seleccione **[!UICONTROL Site]**.
 
    ![](assets/aem_acs_1.png)
 
-1. Seleccione en qué carpeta desea crear la página y haga clic en **[!UICONTROL Create]** y luego en **[!UICONTROL Page]**. Aquí, creamos nuestra página en la carpeta en_us, que será nuestro idioma predeterminado.
+1. Seleccione en qué carpeta desea crear la página y haga clic en **[!UICONTROL Create]** y luego en **[!UICONTROL Page]**. Aquí, creamos nuestra página en la carpeta en_us , que será nuestro idioma predeterminado.
 
    ![](assets/aem_acs_2.png)
 
-1. Seleccione la plantilla **[!UICONTROL Adobe Campaign Email (ACS)]**.
+1. Seleccione la plantilla **[!UICONTROL Adobe Campaign Email (ACS)]** .
 
-1. Complete las propiedades de su correo electrónico y haga clic en **[!UICONTROL Create]**.
+1. Complete las propiedades del correo electrónico y haga clic en **[!UICONTROL Create]**.
 
    ![](assets/aem_acs_3.png)
 
@@ -45,19 +48,19 @@ Los requisitos previos son:
 
    ![](assets/aem_acs_4.png)
 
-1. En la ficha **[!UICONTROL Workflow]**, seleccione el flujo de trabajo de validación **[!UICONTROL Approve for Adobe Campaign]**. No puede enviar un correo electrónico en Adobe Campaign si utiliza un contenido que no se haya aprobado.
+1. En la pestaña **[!UICONTROL Workflow]** , seleccione el flujo de trabajo de validación **[!UICONTROL Approve for Adobe Campaign]** . No puede enviar un correo electrónico en Adobe Campaign si utiliza un contenido que no se haya aprobado.
 
    ![](assets/aem_acs_7.png)
 
-1. Haga clic en **[!UICONTROL Complete]** y luego en **[!UICONTROL Newsletter review]** desde la ventana **[!UICONTROL Complete work item]**.
+1. Haga clic en **[!UICONTROL Complete]** y luego en **[!UICONTROL Newsletter review]** en la ventana **[!UICONTROL Complete work item]**.
 
-1. Haga clic en **[!UICONTROL Complete]**, luego en **[!UICONTROL Newsletter approval]**. Una vez definidos el contenido y los parámetros de envío, puede proceder a la aprobación, preparación y envío del correo electrónico en Adobe Campaign Standard.
+1. Haga clic en **[!UICONTROL Complete]**, luego en **[!UICONTROL Newsletter approval]**. Una vez definidos los parámetros de contenido y envío, puede proceder a la aprobación, preparación y envío del correo electrónico en Adobe Campaign Standard.
 
    ![](assets/aem_acs_8.png)
 
 ## Creación de copias de idioma {#creating-language-copies}
 
-Después de diseñar el contenido de su correo electrónico, ahora necesita crear sus copias de idioma que se sincronizarán con Adobe Campaign Standard como variantes.
+Después de diseñar el contenido del correo electrónico, debe crear las copias de idioma que se sincronizarán con Adobe Campaign Standard como variantes.
 
 1. Seleccione la página creada anteriormente, haga clic en **[!UICONTROL Create]** y luego en **[!UICONTROL Language Copy]**.
 
@@ -73,17 +76,17 @@ Después de diseñar el contenido de su correo electrónico, ahora necesita crea
 
 1. Haga clic en **[!UICONTROL Create]**.
 
-Ahora se han creado las copias de idioma; ahora puede editar el contenido en función del idioma elegido.
+Se han creado las copias de idioma, ahora puede editar el contenido en función del idioma elegido.
 
 >[!CAUTION]
 >
->Cada copia de idioma debe aprobarse mediante el flujo de trabajo de validación **[!UICONTROL Approve for Adobe Campaign]**. No puede enviar un correo electrónico en Adobe Campaign si utiliza un contenido que no se haya aprobado.
+>Cada copia de idioma debe aprobarse mediante el flujo de trabajo de validación **[!UICONTROL Approve for Adobe Campaign]** . No puede enviar un correo electrónico en Adobe Campaign si utiliza un contenido que no se haya aprobado.
 
 ![](assets/aem_acs_11.png)
 
 ## Creación de contenido multilingüe en Adobe Campaign Standard {#multilingual-acs}
 
-1. En la página principal de Adobe Campaign Standard, haga clic en **[!UICONTROL Create an email]**.
+1. En la página de inicio de Adobe Campaign Standard, haga clic en **[!UICONTROL Create an email]**.
 
    ![](assets/aem_acs_12.png)
 
@@ -91,11 +94,11 @@ Ahora se han creado las copias de idioma; ahora puede editar el contenido en fun
 
    >[!NOTE]
    >
-   >En este caso, deberá crear un duplicado de la plantilla integrada **[!UICONTROL Multilingual email (mailMultiLang)]** para poder enviar su correo electrónico multilingüe.
+   >En este caso, deberá duplicar la plantilla integrada **[!UICONTROL Multilingual email (mailMultiLang)]** para poder enviar el correo electrónico multilingüe.
 
    ![](assets/aem_acs_13.png)
 
-1. Complete los **[!UICONTROL Properties]** y **[!UICONTROL Audience]** de su correo electrónico y haga clic en **[!UICONTROL Create]**.
+1. Rellene los campos **[!UICONTROL Properties]** y **[!UICONTROL Audience]** del correo electrónico y haga clic en **[!UICONTROL Create]**.
 
 1. En **[!UICONTROL Edit properties]**, asegúrese de que la cuenta de Adobe Experience Manager esté correctamente configurada en la lista desplegable **[!UICONTROL Content]**.
 
@@ -105,15 +108,15 @@ Ahora se han creado las copias de idioma; ahora puede editar el contenido en fun
 
    ![](assets/aem_acs_16.png)
 
-1. Seleccione el contenido de Adobe Experience Manager creado anteriormente y haga clic en **[!UICONTROL Confirm]**. El contenido de Adobe Experience Manager mostrado aquí solo es contenido validado y se puede filtrar en sus **[!UICONTROL Label]** y **[!UICONTROL Path]**.
+1. Seleccione el contenido de Adobe Experience Manager creado anteriormente y haga clic en **[!UICONTROL Confirm]**. El contenido de Adobe Experience Manager mostrado aquí solo es contenido validado y puede filtrarse en sus **[!UICONTROL Label]** y **[!UICONTROL Path]**.
 
    >[!NOTE]
    >
-   >La copia de idioma elegida se configurará como predeterminada, luego puede cambiarla en el bloque **[!UICONTROL Content variant]**.
+   >La copia de idioma elegida se establecerá como predeterminada; más adelante, puede cambiarla en el bloque **[!UICONTROL Content variant]** .
 
    ![](assets/aem_acs_17.png)
 
-1. Haga clic **[!UICONTROL Create variants]** para vincular el contenido multilingüe. Adobe Campaign Standard vinculará automáticamente las copias en otros idiomas a este contenido. Las variantes creadas tendrán la misma etiqueta y lenguaje de código que las seleccionadas en Adobe Experience Manager.
+1. Haga clic en **[!UICONTROL Create variants]** para vincular el contenido multilingüe. Adobe Campaign Standard vinculará automáticamente las copias en otros idiomas a este contenido. Las variantes creadas tendrán la misma etiqueta y el mismo lenguaje de código que las seleccionadas en Adobe Experience Manager.
 
    ![](assets/aem_acs_18.png)
 
@@ -123,6 +126,6 @@ Ahora se han creado las copias de idioma; ahora puede editar el contenido en fun
 
 1. Si el contenido o las variantes se actualizan en Adobe Experience Manager, puede sincronizarlo directamente en Adobe Campaign Standard con el botón **[!UICONTROL Refresh AEM contents]**.
 
-1. Su correo electrónico ya está listo para ser enviado. Para obtener más información, consulte esta [página](../../sending/using/get-started-sending-messages.md).
+1. El correo electrónico ya está listo para enviarse. Para obtener más información, consulte esta [página](../../sending/using/get-started-sending-messages.md).
 
-Su audiencia recibirá su correo electrónico en función del **[!UICONTROL Preferred languages]** configurado en su **[!UICONTROL Profiles]**. Para obtener más información sobre cómo editar perfiles e idiomas preferidos, consulte esta [página](../../audiences/using/editing-profiles.md).
+Su audiencia recibirá su correo electrónico según el **[!UICONTROL Preferred languages]** configurado en su **[!UICONTROL Profiles]**. Para obtener más información sobre cómo editar perfiles y idiomas preferidos, consulte esta [página](../../audiences/using/editing-profiles.md).
