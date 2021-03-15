@@ -2,16 +2,19 @@
 solution: Campaign Standard
 product: campaign
 title: Unión de dos audiencias refinadas
-description: Este caso de uso muestra la unión de dos actividades de audiencia de lectura.
+description: Este caso de uso muestra la unión de dos actividades Leer audiencia .
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: readAudience,main
+feature: Flujos de trabajo
+role: Arquitecto de datos
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 58%
+source-wordcount: '154'
+ht-degree: 57%
 
 ---
 
@@ -24,7 +27,7 @@ El flujo de trabajo está diseñado de la siguiente manera:
 
 ![](assets/readaudience_activity_example1.png)
 
-* Una primera actividad [Leer audiencia](../../automating/using/read-audience.md) que recupera la audiencia de miembros Gold y la perfecciona seleccionando sólo perfiles con edades comprendidas entre 18 y 30 años.
+* Una primera actividad [Read audience](../../automating/using/read-audience.md) que recupera la audiencia de miembros oro y la refina seleccionando solo perfiles con edades comprendidas entre 18 y 30 años.
 * Una segunda actividad de **[!UICONTROL Read audience]** que recupera la audiencia de miembros plata y la perfecciona seleccionando solo perfiles de entre 18 y 30 años de edad.
-* Una actividad [de Unión](../../automating/using/union.md) que une poblaciones de ambas actividades **[!UICONTROL Read audiences]** en una población final.
-* Una actividad [envío de correo electrónico](../../automating/using/email-delivery.md) que envía el correo electrónico a la población que proviene de la actividad **[!UICONTROL Union]**.
+* Una actividad [Union](../../automating/using/union.md) que une poblaciones de ambas actividades **[!UICONTROL Read audiences]** en una población final.
+* Una actividad [Email delivery](../../automating/using/email-delivery.md) que envía el correo electrónico a la población que proviene de la actividad **[!UICONTROL Union]**.
