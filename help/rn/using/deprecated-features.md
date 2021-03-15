@@ -6,11 +6,14 @@ description: Esta página lista las funciones obsoletas y eliminadas de Adobe Ca
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
+feature: Información general
+role: Profesional empresarial
+level: Principiante
 translation-type: tm+mt
-source-git-commit: becaf20fefb6fce05db0824baa69670f810966dc
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 80%
+source-wordcount: '738'
+ht-degree: 79%
 
 ---
 
@@ -46,10 +49,10 @@ Se aconseja a los clientes que comprueben si utilizan la función o la capacidad
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> A partir del 15 de diciembre de 2020, la capacidad de la línea de asunto predictivo está obsoleta.</p><br/>
-   <p>Le sugerimos que aproveche las capacidades de correo electrónico con tecnología AI para analizar y predecir las tasas abiertas, los tiempos de envío óptimos y la probable reproducción basada en métricas de participación históricas. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">Obtenga más información</a></p></br>
+   <td> <p> A partir del 15 de diciembre de 2020, la función Línea de asunto predictivo quedará obsoleta.</p><br/>
+   <p>Le sugerimos aprovechar las capacidades de correo electrónico con tecnología de IA para analizar y predecir las tasas abiertas, los tiempos de envío óptimos y la probable reproducción basada en las métricas de participación históricas. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">Obtenga más información</a></p></br>
      <p>
-     <em>Eliminación del destinatario: Abril de 2021</em></p>
+     <em>Eliminación del objetivo: Abril de 2021</em></p>
      </td> 
   </tr> 
   </tbody> 
@@ -62,11 +65,11 @@ Se aconseja a los clientes que comprueben si utilizan la función o la capacidad
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> El SDK v4 está en desuso al iniciar la versión 20.1 de la Campaña. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Más información</a>.</p><br/>
+   <td> <p> A partir de la versión 20.1 de Campaign, el SDK 4 está en desuso. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Más información</a>.</p><br/>
    <p>El <a href="https://aep-sdks.gitbook.io/docs/">SDK de Adobe Experience Platform Mobile</a> (anteriormente denominado v5) admitirá exclusivamente las funciones y funciones de Adobe Experience Cloud que se avecinan.</p>
-   <p>Descubra cómo migrar del SDK v4 al SDK de Adobe Experience Platform Mobile <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">en esta página</a>.</p></br>
+   <p>Aprenda a migrar del SDK v4 al SDK de Adobe Experience Platform Mobile <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">en esta página</a>.</p></br>
      <p>
-     <em>Fecha de eliminación del destinatario: 31 de agosto de 2021</em></p>
+     <em>Fecha de eliminación del objetivo: 31 de agosto de 2021</em></p>
      </td> 
   </tr> 
  </tbody> 
@@ -96,10 +99,10 @@ Se aconseja a los clientes que comprueben si utilizan la función o la capacidad
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>A partir de la versión 19.0 de la Campaña, el editor de correo electrónico heredado queda obsoleto. Utilice <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Diseñador de correo electrónico de Campaña</a> para crear y personalizar el contenido del correo electrónico. </p></br>
+   <td> <p>A partir de la versión 19.0 de la Campaña, el editor de correo electrónico heredado queda obsoleto. Utilice <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campaign Email Designer</a> para crear y personalizar el contenido del correo electrónico. </p></br>
    <p>Lea <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">esta sección</a> para aprender a adaptar las plantillas de correo electrónico al nuevo editor.</p></br>
   <p> 
-  <em>Fecha de eliminación del destinatario: finales de 2021</em></p>
+  <em>Fecha de eliminación del objetivo: finales de 2021</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -113,7 +116,7 @@ Se aconseja a los clientes que comprueben si utilizan la función o la capacidad
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>A partir de la versión 18.7 de la Campaña, las unidades geográficas quedan obsoletas. Las unidades orgánicas y geográficas son construcciones idénticas en Campaña. Los usuarios deben utilizar las unidades organizativas solo para crear la jerarquía de permisos de usuario y acceso a datos. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html?lang=es#administrating">Más información</a>. Tenga en cuenta que las nuevas instancias de Campaign Standard, así como las instancias existentes sin crear unidades geográficas, no pueden tener esta capacidad implementada a partir de la versión 18.7.</p>
+   <td> <p>A partir de la versión 18.7 de Campaign, las unidades geográficas quedan obsoletas. Las unidades orgánicas y geográficas son construcciones idénticas en Campaña. Los usuarios deben utilizar las unidades organizativas solo para crear la jerarquía de permisos de usuario y acceso a datos. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html?lang=es#administrating">Más información</a>. Tenga en cuenta que las nuevas instancias de Campaign Standard, así como las instancias existentes sin crear unidades geográficas, no pueden tener esta capacidad implementada a partir de la versión 18.7.</p>
    </td> 
   </tr> 
  </tbody> 
