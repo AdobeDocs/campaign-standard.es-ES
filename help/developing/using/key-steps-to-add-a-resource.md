@@ -1,16 +1,19 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Pasos clave para agregar un recurso
-description: Aprenda aquí los pasos clave para agregar un recurso en el modelo de datos de Adobe Campaign.
+title: Pasos clave para añadir un recurso
+description: Aprenda aquí los pasos clave para añadir un recurso en el modelo de datos de Adobe Campaign.
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
+feature: Modelo de datos
+role: Desarrollador
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 47%
+source-wordcount: '109'
+ht-degree: 45%
 
 ---
 
@@ -33,4 +36,4 @@ Este vídeo muestra cómo crear recursos personalizados.
 
 >[!VIDEO](https://video.tv.adobe.com/v/27715?quality=9&captions=eng)
 
-Hay disponibles más vídeos de procedimientos para Campaign Standards [aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
+Hay disponibles más vídeos prácticos del Campaign Standard [aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
