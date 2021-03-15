@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: writer,main
+feature: Flujos de trabajo
+role: Arquitecto de datos
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 98%
+source-wordcount: '476'
+ht-degree: 97%
 
 ---
 
@@ -30,7 +33,7 @@ La actividad **actualización de datos** se puede utilizar después de importar 
 
 **Temas relacionados:**
 
-* [Caso de uso: Actualización de datos basados en un archivo](../../automating/using/update-database-file.md)
+* [Caso de uso: Actualización de datos en función de un archivo](../../automating/using/update-database-file.md)
 * [Actualización de datos en función de una descarga automática de archivos](../../automating/using/update-data-automatic-download.md)
 
 ## Configuración {#configuration}
