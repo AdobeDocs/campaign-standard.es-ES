@@ -6,10 +6,13 @@ description: Defina poblaciones segmentadas, seleccione audiencias, filtre desti
 audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
+feature: Perfiles
+role: Profesional empresarial
+level: Principiante
 translation-type: tm+mt
-source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '608'
 ht-degree: 23%
 
 ---
@@ -38,7 +41,7 @@ Al crear campañas o mensajes, puede especificar el destinatario de los envíos 
 
 Identifique a los clientes de forma más eficaz en todos sus canales mediante **perfiles de cliente integrados**, **segmentos personalizados** y **grupos de control**. Cuando conoce sus clientes, intereses, información demográfica y preferencias de canal, es más fácil crear experiencias personalizadas que se noten.
 
-Adobe Campaign crea perfiles de cliente enriquecidos en tiempo real, lo que le permite ofrecer ofertas más relevantes y personalizadas a medida que cambian las preferencias de los clientes. Además, Adobe Campaign integra funciones avanzadas de análisis, administración de datos y segmentación para crear audiencias.
+Adobe Campaign crea perfiles de clientes enriquecidos en tiempo real, lo que le permite ofrecer ofertas más relevantes y personalizadas a medida que cambian las preferencias de sus clientes. Además, Adobe Campaign integra funciones avanzadas de análisis, administración de datos y segmentación para crear audiencias.
 
 **** Los perfiles son contactos individuales almacenados en la base de datos. Cada perfil corresponde a una entrada de la base de datos que contiene la información necesaria para que ese perfil sea segmentado, cualificado y rastreado individualmente: Adobe Campaign puede rastrear cada interacción desde canales en línea y sin conexión y combinarla en un solo perfil.
 
@@ -62,7 +65,7 @@ Antes de empezar a enviar mensajes a un contacto, debe asegurarse de obtener su 
 
 Con Campaign, le recomendamos que utilice **mecanismos de inclusión y exclusión sencillos** a [services](../../audiences/using/creating-a-service.md) y [páginas de aterrizaje](../../channels/using/getting-started-with-landing-pages.md) para actualizar su información de contacto y ampliar la base de datos.
 
-Al proporcionar **vínculos de baja** en los mensajes, los perfiles se podrán añadir a la lista de bloqueados, cuando sea necesario, y, por lo tanto, mejorar la capacidad de envío de la plataforma. Para obtener más información sobre la administración de la lista de bloqueados, consulte [Acerca de la inclusión y la exclusión en Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Si se proporcionan **vínculos de baja** en los mensajes, los perfiles podrán agregarse a la  de lista de bloqueados cuando sea necesario y, por lo tanto, mejorarse la capacidad de envío de la plataforma. Para obtener más información sobre lista de bloqueados administración de , consulte [Acerca de la inclusión y la exclusión en Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!IMPORTANT]
 >
