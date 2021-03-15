@@ -1,17 +1,20 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Rendimiento de entrega
-description: Con el informe listo para usar el rendimiento del Envío, conozca el éxito de su envío.
+title: Rendimiento del envío
+description: Con el informe Delivery throughput listo para usar, obtenga información sobre el éxito de su envío.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 context-tags: deliveryThroughputReport,main;campaignThroughputReport,main;programThroughputReport,main
+feature: Creación de informes
+role: Encabezado
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 4%
+source-wordcount: '85'
+ht-degree: 5%
 
 ---
 
@@ -27,4 +30,4 @@ Este informe contiene datos relacionados con el rendimiento de envío de un env�
 
 >[!NOTE]
 >
->La página **[!UICONTROL Delivery throughput]** muestra la velocidad de transferencia para el reenvío de los mensajes desde la Campaña hasta el MTA mejorado de Adobe Campaign (Agente de transferencia de mensajes).
+>La página **[!UICONTROL Delivery throughput]** muestra la velocidad de rendimiento para el reenvío de los mensajes desde Campaign hasta el MTA mejorado de Adobe Campaign (Agente de transferencia de mensajes).
