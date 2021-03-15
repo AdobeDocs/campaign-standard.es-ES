@@ -7,24 +7,27 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
+feature: Mensajería transaccional
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 76%
+source-wordcount: '656'
+ht-degree: 75%
 
 ---
 
 
 # Ciclo de un mensaje transaccional {#publishing-transactional-message}
 
-Cuando el [mensaje transaccional](../../channels/using/editing-transactional-message.md) está listo para ser enviado, se puede publicar.
+Cuando el [mensaje transaccional](../../channels/using/editing-transactional-message.md) está listo para enviarse, se puede publicar.
 
 A continuación se detallan los pasos para publicar, pausar, cancelar la publicación y eliminar un mensaje transaccional.
 
 >[!IMPORTANT]
 >
->Solo los usuarios con la función [Administración](../../administration/using/users-management.md#functional-administrators) pueden acceder y publicar mensajes transaccionales.
+>Solo los usuarios con la función [Administration](../../administration/using/users-management.md#functional-administrators) pueden acceder y publicar mensajes transaccionales.
 
 ## Proceso de publicación de mensajes transaccionales {#transactional-messaging-pub-process}
 
@@ -34,7 +37,7 @@ El gráfico siguiente ilustra el proceso general de publicación de mensajes tra
 
 **Temas relacionados:**
 * [Publicación de un mensaje transaccional](#publishing-a-transactional-message)
-* [Pausa de un mensaje transaccional](#suspending-a-transactional-message-publication)
+* [Poner en pausa un mensaje transaccional](#suspending-a-transactional-message-publication)
 * [Cancelación de la publicación de un mensaje transaccional](#unpublishing-a-transactional-message)
 * [Publicación de un evento](../../channels/using/publishing-transactional-event.md)
 
@@ -88,7 +91,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 ## Publicación de un mensaje transaccional {#publishing-a-transactional-message}
 
-Una vez editado y probado el mensaje transaccional, puede publicarlo. Haga clic en el botón **[!UICONTROL Publish]**.
+Una vez que haya editado y probado el mensaje transaccional, puede publicarlo. Simplemente haga clic en el botón **[!UICONTROL Publish]**.
 
 ![](assets/message-center_12.png)
 
@@ -107,7 +110,7 @@ Para acceder a los informes relacionados con su mensaje transaccional, utilice e
 
 Puede suspender la publicación del mensaje transaccional utilizando el botón **[!UICONTROL Pause]**, por ejemplo, para modificar los datos contenidos en el mensaje. Por lo tanto, los eventos ya no se procesan, sino que se mantienen en cola en la base de datos de Adobe Campaign.
 
-Los eventos en cola se mantienen durante un período de tiempo definido en la API de REST (consulte la [documentación de la API de REST](../../api/using/managing-transactional-messages.md)) o en el evento de déclencheur si está utilizando el servicio principal de Déclencheur (consulte [Acerca de Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
+Los eventos en cola se mantienen durante un periodo de tiempo definido en la API de REST (consulte la [documentación de la API de REST](../../api/using/managing-transactional-messages.md)) o en el evento de déclencheur si utiliza el servicio principal de Déclencheur (consulte [Acerca de Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
 
 ![](assets/message-center_pause.png)
 
@@ -123,7 +126,7 @@ Ahora, incluso si el evento se activa a través de su sitio web, los mensajes co
 
 >[!NOTE]
 >
->Para volver a publicar el mensaje, debe volver a la configuración de evento correspondiente, [publicar el evento](../../channels/using/publishing-transactional-event.md) y luego [publicar el mensaje](#publishing-a-transactional-message).
+>Para volver a publicar el mensaje, debe volver a la configuración de evento correspondiente, [publicar el evento](../../channels/using/publishing-transactional-event.md) y, a continuación, [publicar el mensaje](#publishing-a-transactional-message).
 
 Si cancela la publicación de un mensaje transaccional en pausa, es posible que tenga que esperar hasta 24 horas para volver a publicarlo. Esto permite que el flujo de trabajo **[!UICONTROL Database cleanup]** limpie todos los eventos en cola.
 
