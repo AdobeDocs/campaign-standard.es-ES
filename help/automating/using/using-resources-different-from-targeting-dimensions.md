@@ -2,15 +2,18 @@
 solution: Campaign Standard
 product: campaign
 title: Uso de recursos diferentes de dimensiones de segmentación
-description: Aprenda a utilizar un recurso que sea diferente de la dimensión de segmentación.
+description: Aprenda a utilizar un recurso que sea diferente a la dimensión de segmentación.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
+feature: Flujos de trabajo
+role: Arquitecto de datos
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '297'
 ht-degree: 81%
 
 ---
@@ -18,9 +21,9 @@ ht-degree: 81%
 
 # Uso de recursos diferentes de dimensiones de segmentación {#using-resources-different-from-targeting-dimensions}
 
-Estos casos de uso muestran cómo utilizar un recurso que es diferente de la dimensión de segmentación, por ejemplo, para buscar un registro específico en una tabla distante.
+Estos casos de uso presentan cómo utilizar un recurso que es diferente de la dimensión de segmentación, por ejemplo, para buscar un registro específico en una tabla distante.
 
-Para obtener más información sobre dimensiones de segmentación y recursos, consulte [esta sección](../../automating/using/query.md#targeting-dimensions-and-resources)
+Para obtener más información sobre dimensiones y recursos de segmentación, consulte [esta sección](../../automating/using/query.md#targeting-dimensions-and-resources)
 
 **Ejemplo 1: identificación de perfiles segmentados por el envío con la etiqueta &quot;Bienvenido de nuevo&quot;**.
 
