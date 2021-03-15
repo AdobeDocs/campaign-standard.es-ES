@@ -1,16 +1,19 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Envío entre canales
+title: Entrega en canales múltiples
 description: Este caso de uso muestra cómo crear un envío entre canales
 audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,wait,delivery
+feature: Flujos de trabajo
+role: Arquitecto de datos
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '860'
 ht-degree: 86%
 
 ---
@@ -65,7 +68,7 @@ Utilice el botón **[!UICONTROL Count]** para ver una estimación del número de
 
 Una vez identificado el destinatario por la actividad de consulta, debe seleccionar un criterio para segmentar el destinatario en dos poblaciones diferentes: una recibirá un correo electrónico y la otro, un SMS.
 
-Debe utilizar una actividad [Segmentación](../../automating/using/segmentation.md) para crear uno o varios segmentos a partir de una población calculada en sentido ascendente en una consulta.
+Debe utilizar una actividad [Segmentation](../../automating/using/segmentation.md) para crear uno o varios segmentos a partir de una población calculada en sentido ascendente en una consulta.
 
 ![](assets/wkf_segment_activity.png)
 
@@ -112,7 +115,7 @@ La segunda transición ahora también está configurada.
 
 ## Creación de envíos {#creating-deliveries}
 
-Como ya se han creado dos transiciones, ahora debe agregar dos tipos de envíos a las transiciones salientes de la actividad de segmentación: una actividad [envío de correo electrónico](../../automating/using/email-delivery.md) y una actividad [envío de SMS](../../automating/using/sms-delivery.md).
+Como ya se han creado dos transiciones, ahora debe añadir dos tipos de envíos a las transiciones salientes de la actividad de segmentación: una actividad [Email delivery](../../automating/using/email-delivery.md) y una actividad [SMS delivery](../../automating/using/sms-delivery.md).
 
 Adobe Campaign le permite añadir envíos a un flujo de trabajo. Para ello, seleccione un envío de la categoría **[!UICONTROL Channels]** en la paleta de la actividad del flujo de trabajo.
 
@@ -120,7 +123,7 @@ Adobe Campaign le permite añadir envíos a un flujo de trabajo. Para ello, sele
 
 Para crear un envío de correo electrónico:
 
-1. Arrastre y suelte una actividad [envío de correo electrónico](../../automating/using/email-delivery.md) después del primer segmento.
+1. Arrastre y suelte una actividad [Email delivery](../../automating/using/email-delivery.md) después del primer segmento.
 1. Haga doble clic en la actividad para editarla.
 1. Seleccione **[!UICONTROL Simple email]**.
 1. Seleccione **[!UICONTROL Add an outbound transition with the population]** y haga clic en **[!UICONTROL Next]**.
@@ -137,7 +140,7 @@ Para crear un envío de correo electrónico:
 
 Para crear un envío de SMS:
 
-1. Arrastre y suelte una actividad [envío SMS](../../automating/using/sms-delivery.md) después del otro segmento.
+1. Arrastre y suelte una actividad [SMS delivery](../../automating/using/sms-delivery.md) después del otro segmento.
 1. Haga doble clic en la actividad para editarla.
 1. Seleccione **[!UICONTROL SMS]** y haga clic en **[!UICONTROL Next]**.
 1. Seleccione una plantilla de SMS y haga clic en **[!UICONTROL Next]**.
@@ -150,7 +153,7 @@ Una vez creados y editados los envíos, el flujo de trabajo está listo para ini
 
 ## Ejecución del flujo de trabajo {#running-the-workflow}
 
-Una vez iniciado el flujo de trabajo, la población objetivo de la actividad **[!UICONTROL Query]** se segmentará para recibir un envío de correo electrónico o SMS.
+Una vez iniciado el flujo de trabajo, la población objetivo de la actividad **[!UICONTROL Query]** se segmenta para recibir un envío de correo electrónico o SMS.
 
 Para ejecutar el flujo de trabajo, haga clic en el botón **[!UICONTROL Start]** de la barra de acciones.
 
