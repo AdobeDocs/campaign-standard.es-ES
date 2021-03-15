@@ -2,15 +2,18 @@
 solution: Campaign Standard
 product: campaign
 title: Uso de trampas
-description: Aprenda a utilizar las trampas en los mensajes.
+description: Aprenda a utilizar trampas en los mensajes.
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
+feature: Dirección semilla
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '387'
 ht-degree: 2%
 
 ---
@@ -18,24 +21,24 @@ ht-degree: 2%
 
 # Uso de trampas {#using-traps}
 
-Al utilizar las trampas, el mensaje se envía al [perfil de prueba](../../audiences/using/managing-test-profiles.md) del mismo modo que se envía al destinatario principal, como medio para identificar si el archivo cliente se está utilizando de forma fraudulenta.
+Al utilizar trampas, el mensaje se envía al [perfil de prueba](../../audiences/using/managing-test-profiles.md) tal como se envía al destinatario principal, como medio para identificar si el archivo cliente se está utilizando de forma fraudulenta.
 
-Las trampas se diseñaron originalmente para envíos de correo directo. Permiten:
+Las trampas se diseñaron originalmente para los envíos de correo postal. Permiten:
 
-* Compruebe que su proveedor de correo directo esté enviando realmente la comunicación.
+* Compruebe que su proveedor de correo postal esté realmente enviando la comunicación.
 * Reciba el correo al mismo tiempo y en las mismas condiciones que sus clientes.
 * Guarde una copia exacta del correo enviado.
-* Compruebe que su proveedor de correo directo no utiliza incorrectamente la lista del cliente. De hecho, si se envía cualquier otra comunicación a la dirección del perfil de prueba, es posible que el archivo de cliente se haya utilizado sin su conocimiento. Por este motivo, la dirección del perfil de ensayo solo debe utilizarse para este fin.
+* Compruebe que su proveedor de correo postal no utiliza incorrectamente la lista de clientes. De hecho, si se envía cualquier otra comunicación a la dirección del perfil de prueba, es posible que el archivo cliente se haya utilizado sin su conocimiento. Por este motivo, la dirección del perfil de prueba solo debe usarse para este fin.
 
-Para obtener más información sobre cómo agregar trampas a una audiencia de correo directo, consulte [Añadir perfiles de prueba y captura](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles).
+Para obtener más información sobre cómo añadir trampas a la audiencia de un correo postal, consulte [Añadir perfiles de prueba y trampa](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles).
 
-Para los demás canales de comunicación, puede agregar perfiles de prueba de reventado al destinatario principal para:
+Para los demás canales de comunicación, puede añadir perfiles de prueba de trampa a su destinatario principal para:
 
 * Compruebe que el mensaje se haya enviado correctamente.
 * Obtenga y mantenga una copia exacta de su mensaje.
-* Rastree cuándo se envió y recibió.
+* Rastrea cuándo se envió y recibió.
 
-Para utilizar un perfil de prueba como reventado, debe incluirse en la audiencia del mensaje.
+Para utilizar un perfil de prueba como trampa, debe incluirse en la audiencia del mensaje.
 
 >[!NOTE]
 >
@@ -43,14 +46,14 @@ Para utilizar un perfil de prueba como reventado, debe incluirse en la audiencia
 
 Al definir la audiencia de un mensaje:
 
-1. En la ficha **[!UICONTROL Test profiles]**, seleccione un perfil de prueba. Asegúrese de que tiene **[!UICONTROL Trap]** como uso previsto.
+1. En la pestaña **[!UICONTROL Test profiles]**, seleccione un perfil de prueba. Asegúrese de que tiene **[!UICONTROL Trap]** como uso previsto.
 
    ![](assets/trap_select.png)
 
-1. Una vez que el contenido del mensaje esté listo, haga clic en el botón **[!UICONTROL Prepare]**. Consulte [Preparación del envío](../../sending/using/preparing-the-send.md).
+1. Una vez que el contenido del mensaje esté listo, haga clic en el botón **[!UICONTROL Prepare]** . Consulte [Preparación del envío](../../sending/using/preparing-the-send.md).
    >[!NOTE]
    >
-   >Asegúrese de seleccionar un destinatario principal. De lo contrario, no se puede enviar el mensaje.
+   >Asegúrese de seleccionar un objetivo principal. De lo contrario, el mensaje no se puede enviar.
 
 1. Haga clic en el botón **[!UICONTROL Confirm]**. Consulte [Confirmando el envío ](../../sending/using/confirming-the-send.md) .
 
@@ -58,8 +61,8 @@ Al definir la audiencia de un mensaje:
 
 El mensaje se envía al destinatario principal y al perfil de prueba.
 
-Puede utilizar las trampas al enviar mensajes transaccionales. En este caso, el perfil de prueba recibirá un mensaje por configuración de evento. Para obtener más información sobre la mensajería transaccional, consulte esta [sección](../../channels/using/getting-started-with-transactional-msg.md).
+Puede utilizar trampas al enviar mensajes transaccionales. En este caso, el perfil de prueba recibirá un mensaje por configuración de evento. Para obtener más información sobre la mensajería transaccional, consulte esta [sección](../../channels/using/getting-started-with-transactional-msg.md).
 
 >[!NOTE]
 >
->Cuando se utiliza un perfil de prueba como reventado, para cualquier campo enriquecido de un mensaje, los datos adicionales correspondientes se seleccionan aleatoriamente de un perfil objetivo real y se asignan al perfil de prueba de reventado. Para obtener más información sobre enriquecimiento, consulte [este ejemplo](../../automating/using/enriching-profile-data-file.md).
+>Al utilizar un perfil de prueba como trampa, para cualquier campo enriquecido de un mensaje, los datos adicionales correspondientes se seleccionan aleatoriamente de un perfil de destino real y se asignan al perfil de prueba de trampa. Para obtener más información sobre el enriquecimiento, consulte [este ejemplo](../../automating/using/enriching-profile-data-file.md).
