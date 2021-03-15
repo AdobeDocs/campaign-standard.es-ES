@@ -2,16 +2,19 @@
 solution: Campaign Standard
 product: campaign
 title: Consulta incremental de los suscriptores a un servicio
-description: En el siguiente ejemplo se muestra cómo configurar una actividad de Consulta incremental para filtrar los suscriptores a un servicio.
+description: El siguiente ejemplo presenta cómo configurar una actividad de consulta incremental para filtrar los suscriptores a un servicio.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: incremental,main
+feature: Flujos de trabajo
+role: Arquitecto de datos
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 67%
+source-wordcount: '215'
+ht-degree: 66%
 
 ---
 
@@ -24,18 +27,18 @@ El flujo de trabajo se compone de los siguientes elementos:
 
 ![](assets/incremental_query_example1.png)
 
-* Una actividad [Planificador](../../automating/using/scheduler.md) para ejecutar el flujo de trabajo todos los lunes a las 6 de la mañana.
+* Una actividad [Scheduler](../../automating/using/scheduler.md) para ejecutar el flujo de trabajo todos los lunes a las 6 de la mañana.
 
    ![](assets/incremental_query_example2.png)
 
-* Una actividad [Consulta incremental](../../automating/using/incremental-query.md), que destinatario a todos los suscriptores actuales durante la primera ejecución, y luego sólo a los nuevos suscriptores de esa semana durante las siguientes ejecuciones.
+* Una actividad [Incremental query](../../automating/using/incremental-query.md) , que se dirige a todos los suscriptores actuales durante la primera ejecución y luego solo a los nuevos suscriptores de esa semana durante las siguientes ejecuciones.
 
    ![](assets/incremental_query_example3.png)
 
-* Una actividad [envío de correo electrónico](../../automating/using/email-delivery.md). El flujo de trabajo se ejecuta una vez por semana, pero puede acumular los correos electrónicos enviados y los resultados por mes, por ejemplo para generar informes a lo largo de un periodo de un mes entero y no solo una semana.
+* Una actividad [Email delivery](../../automating/using/email-delivery.md). El flujo de trabajo se ejecuta una vez por semana, pero puede acumular los correos electrónicos enviados y los resultados por mes, por ejemplo para generar informes a lo largo de un periodo de un mes entero y no solo una semana.
 
    Para ello, elija crear un **[!UICONTROL Recurring email]** aquí que reagrupe los correos electrónicos y los resultados **[!UICONTROL By month]**.
 
-   Defina el contenido del correo electrónico e inserte el código de promoción de bienvenida. Para obtener más información sobre esto, consulte [Definición de contenido de correo electrónico](../../designing/using/personalization.md) secciones.
+   Defina el contenido del correo electrónico e inserte el código de promoción de bienvenida. Para obtener más información, consulte las secciones [Definición del contenido del correo electrónico](../../designing/using/personalization.md) .
 
 A continuación, ejecute el flujo de trabajo. Cada semana los nuevos suscriptores reciben el correo electrónico de bienvenida con el código de promoción.
