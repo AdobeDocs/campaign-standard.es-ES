@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: union,main
+feature: Flujos de trabajo
+role: Arquitecto de datos
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 98%
+source-wordcount: '381'
+ht-degree: 97%
 
 ---
 
@@ -34,7 +37,7 @@ La actividad **[!UICONTROL Union]** se utiliza para combinar las poblaciones de 
 
 **Temas relacionados:**
 
-* [Caso de uso: Unión en dos audiencias refinadas](../../automating/using/union-on-two-refined-audiences.md)
+* [Caso de uso: Unión de dos audiencias refinadas](../../automating/using/union-on-two-refined-audiences.md)
 
 ## Configuración {#configuration}
 
