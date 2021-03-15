@@ -6,11 +6,15 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
+description: Descubra cómo Adobe Campaign le permite realizar un seguimiento de los mensajes enviados y descubrir cómo reaccionan sus destinatarios al envío
+feature: Capacidad de entrega
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: a7300666587362048431d0bafacc317170b317aa
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 44%
+source-wordcount: '436'
+ht-degree: 41%
 
 ---
 
@@ -27,33 +31,33 @@ Para controlar sus campañas, debe asegurarse de que el mensaje se haya enviado 
 
 * Puede controlar el estado de los mensajes en los registros de envío.
 
-* Para realizar un seguimiento de los éxitos o errores del envío, Adobe Campaign proporciona un sistema de alertas por correo electrónico que envía notificaciones para informar a los usuarios de las actividades importantes del sistema.
+* Para realizar un seguimiento de los envíos erróneos o correctos, Adobe Campaign proporciona un sistema de alertas por correo electrónico que envía notificaciones para informar a los usuarios de las actividades importantes del sistema.
 
 * Desde el panel de mensajes, puede acceder a varios informes para este mensaje específico.
 
-Para obtener más información, consulte [Monitoreo de un envío](../../sending/using/monitoring-a-delivery.md).
+Para obtener más información, consulte [Monitorización de un envío](../../sending/using/monitoring-a-delivery.md).
 
 ## Seguimiento {#tracking-deliveries}
 
-Para conocer mejor el comportamiento de los perfiles objetivo, puede rastrear cómo reaccionan a un envío: recepción, apertura, clics en enlaces, suscripciones, etc. Consulte la ficha **Registros de seguimiento** del envío.
+Para conocer mejor el comportamiento de los perfiles de destino, puede realizar un seguimiento de cómo reaccionan a un envío: recepción, apertura, clics en vínculos, bajas de suscripción, etc. Consulte la pestaña **Tracking logs** del envío.
 
 **Sugerencia**: El seguimiento de mensajes está activado de forma predeterminada. Para configurar direcciones URL, seleccione la opción Mostrar direcciones URL en la sección inferior del asistente de envíos. Por cada dirección URL del mensaje, puede elegir si desea activar el seguimiento.
 
-Para obtener más información sobre esto, consulte la sección [Mensajes de seguimiento](../../sending/using/tracking-messages.md) y la descripción [Indicadores de seguimiento](../../reporting/using/tracking-indicators.md).
+Para obtener más información, consulte la sección [Seguimiento de mensajes](../../sending/using/tracking-messages.md) y la descripción [Seguimiento de indicadores](../../reporting/using/tracking-indicators.md).
 
 ## Informes dinámicos {#dyn-reports}
 
 Los informes dinámicos le permiten crear informes totalmente personalizables y en tiempo real para supervisar sus campañas. Los Dimension, las métricas y las visualizaciones le permiten medir el impacto y el éxito de sus campañas en los destinatarios.
 
-**Sugerencia** : Los informes integrados están disponibles para que usted pueda monitorear sus campañas, pero estos informes también se pueden personalizar arrastrando y soltando cualquier métrica o dimensión en el informe.
+**Sugerencia** : Los informes integrados están disponibles para que usted supervise sus campañas, pero estos informes también se pueden personalizar si arrastra y suelta cualquier métrica o dimensión en el informe.
 
-Para obtener más información sobre esto, consulte la [guía de Sistema de informes](../../reporting/using/about-dynamic-reports.md).
+Para obtener más información, consulte la [Guía de informes](../../reporting/using/about-dynamic-reports.md).
 
 ## Clics activos
 
-El informe de clics interactivos presenta el contenido del mensaje (HTML o texto) con el porcentaje de clics en cada vínculo. Al mostrar el porcentaje de clics en cada contenido dinámico, puede medir el contenido que más atrae a los destinatarios.
+El informe de clics activos presenta el contenido del mensaje (HTML o texto) con el porcentaje de clics en cada vínculo. Al mostrar el porcentaje de clics en cada contenido dinámico, puede medir qué contenido atrae más a los destinatarios.
 
-Para obtener más información sobre esto, consulte el [informe de clics en caliente](../../reporting/using/hot-clicks.md).
+Para obtener más información, consulte el [Informe de clics activos](../../reporting/using/hot-clicks.md).
 
 ## Sugerencias de rendimiento de envío {#performance-tips}
 
