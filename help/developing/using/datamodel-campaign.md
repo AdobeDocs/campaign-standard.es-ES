@@ -5,16 +5,19 @@ title: Modelo de datos
 description: Obtenga información sobre el modelo de datos
 audience: developing
 content-type: reference
+feature: Modelo de datos
+role: Desarrollador
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '220'
 ht-degree: 13%
 
 ---
 
 
-# Campaña (nms:campaña)
+# Campaña (nms:campaign)
 
 ## Descripción del objeto
 
@@ -23,11 +26,11 @@ ht-degree: 13%
                   <th>Name</th>
                   <th>Etiqueta</th>
                   <th>Tipo (longitud)</th>
-                  <th>Valores de lista desglosada</th>
+                  <th>Valores de enumeración</th>
                </tr>
                <tr>
                   <td>PKey</td>
-                  <td>ID de recurso principal</td>
+                  <td>ID del recurso principal</td>
                   <td>string </td>
                   <td> </td>
                </tr>
@@ -52,7 +55,7 @@ ht-degree: 13%
                <tr>
                   <td>createdBy (userBase)</td>
                   <td>Creado por</td>
-                  <td>link </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -76,7 +79,7 @@ ht-degree: 13%
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
                   <td>Unidad geográfica</td>
-                  <td>link </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -106,22 +109,22 @@ ht-degree: 13%
                <tr>
                   <td>logicalStatus</td>
                   <td>Estado de ejecución</td>
-                  <td>lista desglosada (cadena) (255)</td>
+                  <td>enumeración (cadena) (255)</td>
                   <td>
                      <ul>
-                        <li>En curso - iniciado - iniciado</li>
+                        <li>In progress - started - started</li>
                         <li>Edición: edición</li>
-                        <li>Finalizado - terminado - terminado</li>
+                        <li>Finalizado: terminado</li>
                         <li>Advertencia - advertencia - advertencia</li>
-                        <li>Erróneo - error - error</li>
-                        <li>VALOR NO VÁLIDO - __Invalid_value_ - __Invalid_value__</li>
+                        <li>Error: error</li>
+                        <li>VALOR NO VÁLIDO - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
                   <td>modifiedBy (userBase)</td>
                   <td>Modificado por</td>
-                  <td>link </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -133,23 +136,23 @@ ht-degree: 13%
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
                   <td>Unidad organizativa</td>
-                  <td>link </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>programa (programBase)</td>
+                  <td>program (programBase)</td>
                   <td>Programa</td>
-                  <td>link </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>realtimeReport</td>
+                  <td>informe en tiempo real</td>
                   <td>Informes en tiempo real</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>inicio</td>
+                  <td>start</td>
                   <td>Fecha de inicio</td>
                   <td>date </td>
                   <td> </td>
@@ -157,24 +160,24 @@ ht-degree: 13%
                <tr>
                   <td>status</td>
                   <td>Estado</td>
-                  <td>lista desglosada (byte) </td>
+                  <td>enumeration (byte) </td>
                   <td>
                      <ul>
-                        <li>Comenzado - Comenzado - 1</li>
+                        <li>Inicio - Inicio - 1</li>
                         <li>Edición - edición - 0</li>
-                        <li>Finalizado - terminado - 2</li>
-                        <li>VALOR NO VÁLIDO - __Invalid_value_ - __Invalid_value__</li>
+                        <li>Finalizado - Finalizado - 2</li>
+                        <li>VALOR NO VÁLIDO - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
                   <td>plantilla (campaña)</td>
                   <td>Plantilla de campaña</td>
-                  <td>link </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>thumbnail</td>
+                  <td>miniatura</td>
                   <td>Miniatura</td>
                   <td>string (255)</td>
                   <td> </td>
@@ -198,7 +201,7 @@ Por estado lógico (byLogicalStatus)
     </tr>
     <tr>
     <td>state</td>
-    <td>lista desglosada</td>
+    <td>enumeración</td>
     </tr>
 </table>
 
@@ -210,12 +213,12 @@ Por nombre o etiqueta (byText)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>texto</td>
+    <td>text</td>
     <td>string</td>
     </tr>
 </table>
 
-Por período (por período)
+Por periodo (por periodo)
 
 <table>
     <tr>
@@ -241,11 +244,11 @@ Por estado (byState)
     </tr>
     <tr>
     <td>state</td>
-    <td>lista desglosada</td>
+    <td>enumeración</td>
     </tr>
 </table>
 
-Incluir envíos continuos de una lista heterogénea (conContinuo)
+Incluir envíos continuos de una lista heterogénea (con Continuous)
 
 <table>
     <tr>
@@ -258,7 +261,7 @@ Incluir envíos continuos de una lista heterogénea (conContinuo)
     </tr>
 </table>
 
-Planificado para el período determinado (porPlanning)
+Planificado para el periodo determinado (byPlanning)
 
 <table>
     <tr>
@@ -275,7 +278,7 @@ Planificado para el período determinado (porPlanning)
     </tr>
 </table>
 
-Presente durante un período determinado (porCalendario)
+Presente durante un periodo determinado (por calendario)
 
 <table>
     <tr>
