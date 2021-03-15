@@ -5,16 +5,19 @@ title: Modelo de datos
 description: Obtenga información sobre el modelo de datos
 audience: developing
 content-type: reference
+feature: Modelo de datos
+role: Desarrollador
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '148'
 ht-degree: 13%
 
 ---
 
 
-# Visitante (nms:visitante)
+# Visitante (nms:visitor)
 
 ## Descripción del objeto
 
@@ -23,17 +26,17 @@ ht-degree: 13%
         <th>Name</th>
         <th>Etiqueta</th>
         <th>Tipo (longitud)</th>
-        <th>Valores de lista desglosada</th>
+        <th>Valores de enumeración</th>
     </tr>
     <tr>
         <td>PKey</td>
-        <td>ID de recurso principal</td>
+        <td>ID del recurso principal</td>
         <td>string </td>
         <td> </td>
     </tr>
     <tr>
         <td>comment</td>
-        <td>Comentario de remitente del reenvío</td>
+        <td>Comentario del referente</td>
         <td>string (255)</td>
         <td> </td>
     </tr>
@@ -46,18 +49,18 @@ ht-degree: 13%
     <tr>
         <td>createdBy (userBase)</td>
         <td>Creado por</td>
-        <td>link </td>
+        <td>vínculo </td>
         <td> </td>
     </tr>
     <tr>
-        <td>envío (envío)</td>
+        <td>entrega (entrega)</td>
         <td>Envío</td>
-        <td>link </td>
+        <td>vínculo </td>
         <td> </td>
     </tr>
     <tr>
         <td>deliveryId</td>
-        <td>ID del último envío</td>
+        <td>ID de la última entrega</td>
         <td>integer </td>
         <td> </td>
     </tr>
@@ -75,7 +78,7 @@ ht-degree: 13%
     </tr>
     <tr>
         <td>externalId</td>
-        <td>ID externa</td>
+        <td>ID externo</td>
         <td>string (64)</td>
         <td> </td>
     </tr>
@@ -94,7 +97,7 @@ ht-degree: 13%
     <tr>
         <td>geoUnit (geoUnitBase)</td>
         <td>Unidad geográfica</td>
-        <td>link </td>
+        <td>vínculo </td>
         <td> </td>
     </tr>
     <tr>
@@ -112,66 +115,66 @@ ht-degree: 13%
     <tr>
         <td>modifiedBy (userBase)</td>
         <td>Modificado por</td>
-        <td>link </td>
+        <td>vínculo </td>
         <td> </td>
     </tr>
     <tr>
         <td>orgUnit (orgUnitBase)</td>
         <td>Unidad organizativa</td>
-        <td>link </td>
+        <td>vínculo </td>
         <td> </td>
     </tr>
     <tr>
-        <td>origen</td>
+        <td>origin</td>
         <td>Origen</td>
-        <td>lista desglosada (byte) </td>
+        <td>enumeration (byte) </td>
         <td>
             <ul>
-            <li>Sin definir - sin definir - 0</li>
-            <li>VALOR NO VÁLIDO - __Invalid_value_ - __Invalid_value__</li>
+            <li>Sin definir - Sin definir - 0</li>
+            <li>VALOR NO VÁLIDO - __Invalid_value__ - __Invalid_value__</li>
             </ul>
         </td>
     </tr>
     <tr>
         <td>destinatario (destinatario)</td>
         <td>Perfil identificado</td>
-        <td>link </td>
+        <td>vínculo </td>
         <td> </td>
     </tr>
     <tr>
-        <td>destinationId</td>
+        <td>recipientId</td>
         <td>ID de perfil</td>
         <td>integer </td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerEmail</td>
-        <td>Correo electrónico del remitente del reenvío</td>
+        <td>Correo electrónico del referente</td>
         <td>string (128)</td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerFirstName</td>
-        <td>Nombre del remitente del reenvío</td>
+        <td>Nombre del referente</td>
         <td>string (30)</td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerId</td>
-        <td>ID de remitente del reenvío</td>
+        <td>ID de referente</td>
         <td>integer </td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerLastName</td>
-        <td>Apellido del remitente del reenvío</td>
+        <td>Apellido del referente</td>
         <td>string (50)</td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerRcp (destinatario)</td>
-        <td>Remitente del reenvío</td>
-        <td>link </td>
+        <td>Referente</td>
+        <td>vínculo </td>
         <td> </td>
     </tr>
     <tr>
@@ -184,7 +187,7 @@ ht-degree: 13%
 
 ## Filtros
 
-Por apellido, nombre o correo electrónico (porTexto)</p>
+Por apellido, nombre o correo electrónico (byText)</p>
 
 <table>
         <tr>
@@ -192,7 +195,7 @@ Por apellido, nombre o correo electrónico (porTexto)</p>
         <th>Tipo</th>
         </tr>
         <tr>
-        <td>texto</td>
+        <td>text</td>
         <td>string</td>
         </tr>
     </table>
