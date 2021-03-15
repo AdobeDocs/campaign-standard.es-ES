@@ -7,10 +7,13 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: segmentation,main
+feature: Flujos de trabajo
+role: Arquitecto de datos
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '855'
 ht-degree: 92%
 
 ---
@@ -38,13 +41,13 @@ La actividad **[!UICONTROL Segmentation]** se suele colocar después de activida
 
 **Temas relacionados**
 
-* [Caso de uso: Segmentación de perfiles según los grupos](../../automating/using/segmentation-age-groups.md) de edad.
+* [Caso de uso: Segmentación de perfiles según sus grupos de edad](../../automating/using/segmentation-age-groups.md).
 
 ## Configuración {#configuration}
 
 1. Arrastre y suelte una actividad **[!UICONTROL Segmentation]** en su flujo de trabajo.
 1. Seleccione la actividad y, a continuación, ábrala con el botón ![](assets/edit_darkgrey-24px.png), en las acciones rápidas que aparecerán.
-1. En la ficha **[!UICONTROL General]**, seleccione la **[!UICONTROL Resource type]** en la que se debe realizar la segmentación:
+1. En la pestaña **[!UICONTROL General]** , seleccione el **[!UICONTROL Resource type]** en el que debe llevarse a cabo la segmentación:
 
    * **[!UICONTROL Database resource]** si la segmentación se realiza con datos que ya existen en la base de datos. Seleccione la **[!UICONTROL Filtering dimension]** en función de los datos que desee segmentar. De forma predeterminada, la segmentación se realiza en los **perfiles**.
    * **[!UICONTROL Temporary resource]** si la segmentación se realiza en los datos temporales del flujo de trabajo: seleccione el **[!UICONTROL Targeted set]** que contiene los datos que se van a segmentar. Este caso de uso se puede encontrar después de importar un archivo o si los datos de la base de datos se enriquecieron.
@@ -61,7 +64,7 @@ La actividad **[!UICONTROL Segmentation]** se suele colocar después de activida
    * **[!UICONTROL Limit segment population]**: le permite limitar el tamaño del segmento.
    * **[!UICONTROL Filter and limit segment population]**: le permite filtrar la población del segmento y limitar su tamaño.
    * **[!UICONTROL Label]**: etiqueta de segmento.
-   * **[!UICONTROL Segment code]**:: código asignado a la población de segmentos.El código de segmento se puede personalizar mediante una expresión estándar y variables de eventos (consulte  [esta página](../../automating/using/customizing-workflow-external-parameters.md)).
+   * **[!UICONTROL Segment code]**: código asignado a la población del segmento. El código de segmento se puede personalizar mediante una expresión estándar y variables de eventos (consulte  [esta página](../../automating/using/customizing-workflow-external-parameters.md)).
    * **[!UICONTROL Exclude segment from population]**: le permite excluir el segmento especificado de la población saliente de la actividad. Esta opción solo se puede utilizar si se selecciona la opción **[!UICONTROL Generate all segments in the same transition]**.
 
    ![](assets/wkf_segment_new_segment.png)
@@ -88,7 +91,6 @@ La actividad **[!UICONTROL Segmentation]** se suele colocar después de activida
       >[!NOTE]
       >
       >Se pueden usar distintas limitaciones para cada valor. Por ejemplo, puede especificar una agrupación para el campo **[!UICONTROL Gender]**, y limitar la población con miembros **[!UICONTROL Male]** a 10 personas y la población con miembros **[!UICONTROL Female]** a 30 personas. Si utiliza varios campos de agrupación de datos, todas las agrupaciones deben tener el mismo tamaño.
-
    ![](assets/wkf_segment_limit_by_grouping.png)
 
 1. Confirme la configuración de su segmento.
