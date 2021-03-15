@@ -6,10 +6,13 @@ description: Aprenda a realizar operaciones de paginación.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Ingeniero de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '161'
 ht-degree: 1%
 
 ---
@@ -19,19 +22,19 @@ ht-degree: 1%
 
 De forma predeterminada, se cargan 25 recursos en una lista.
 
-El parámetro **_lineCount** permite limitar el número de recursos enumerados en la respuesta.  Luego puede utilizar el nodo **next** para mostrar los siguientes resultados.
+El parámetro **_lineCount** le permite limitar el número de recursos enumerados en la respuesta.  A continuación, puede utilizar el nodo **next** para mostrar los siguientes resultados.
 
 >[!NOTE]
 >
->Utilice siempre el valor de URL devuelto en el nodo **next** para realizar una solicitud de paginación.
+>Utilice siempre el valor URL devuelto en el nodo **next** para realizar una solicitud de paginación.
 >
->La solicitud **_lineStart** se calcula y siempre debe usarse dentro de la dirección URL devuelta en el nodo **next**.
+>La solicitud **_lineStart** se calcula y siempre debe utilizarse dentro de la URL devuelta en el nodo **next**.
 
 <br/>
 
-***Solicitud de muestra***
+***Solicitud de ejemplo***
 
-Muestra de una solicitud de GET para mostrar 1 registro del recurso de perfil.
+Solicitud de GET de ejemplo para mostrar 1 registro del recurso de perfil.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_lineCount=1 \
@@ -41,7 +44,7 @@ Muestra de una solicitud de GET para mostrar 1 registro del recurso de perfil.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Respuesta a la solicitud, con el nodo **siguiente** para realizar la paginación.
+Respuesta a la solicitud, con el nodo **next** para realizar la paginación.
 
 ```
 {
@@ -62,7 +65,7 @@ Respuesta a la solicitud, con el nodo **siguiente** para realizar la paginación
 }
 ```
 
-De forma predeterminada, el nodo **next** no está disponible cuando interactúa con tablas con una gran cantidad de datos. Para poder realizar la paginación, debe agregar el parámetro **_forcePagination=true** a la dirección URL de la llamada.
+De forma predeterminada, el nodo **next** no está disponible al interactuar con tablas con una gran cantidad de datos. Para poder realizar la paginación, debe agregar el parámetro **_forcePagination=true** a la dirección URL de la llamada.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \
@@ -74,4 +77,4 @@ De forma predeterminada, el nodo **next** no está disponible cuando interactúa
 
 >[!NOTE]
 >
->El número de registros por encima de los cuales una tabla se considera grande se define en la opción Campaign Standard **XtkBigTableThreshold**. El valor predeterminado es 100.000 registros.
+>El número de registros por encima de los cuales una tabla se considera grande se define en la opción **XtkBigTableThreshold** del Campaign Standard. El valor predeterminado es 100 000 registros.
