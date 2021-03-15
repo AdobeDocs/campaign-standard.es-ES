@@ -5,10 +5,13 @@ products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
+feature: Integración de Microsoft CRM
+role: Arquitecto de datos
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 93e4310c606cb39a1071b8e20d88978839007765
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1077'
 ht-degree: 2%
 
 ---
@@ -31,7 +34,7 @@ Obtenga más información en estas secciones:
 
 ## Requisitos previos {#self-service-app-prerequisites}
 
-Debe configurar Microsoft Dynamics 365 y Adobe Campaign Standard para que la aplicación de integración tenga acceso a los datos. Se tardará algún tiempo en configurar en Dynamics 365, Adobe Campaign Standard y Adobe I/O; sin embargo, una vez configuradas, podrá controlar la integración a través de la interfaz de usuario de la aplicación de integración de autoservicio.
+Debe configurar Microsoft Dynamics 365 y Adobe Campaign Standard para que la aplicación de integración tenga acceso a los datos. Esto tardará algún tiempo en configurarse en Dynamics 365, Adobe Campaign Standard y Adobe I/O; sin embargo, una vez configuradas, podrá controlar la integración a través de la interfaz de usuario de la aplicación de integración de autoservicio.
 
 Obtenga más información en estas secciones:
 
@@ -113,7 +116,7 @@ Una vez que la configuración sea correcta, haga clic en el botón **[!UICONTROL
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
 
-Una vez ejecutado, debe poder probarlo añadiendo o modificando entradas en Microsoft Dynamics 365 y observando esos cambios en Adobe Campaign en unos minutos. Si en cualquier momento necesita detener este proceso, simplemente presione el mismo botón para detenerlo. [Obtenga más información](../../integrating/using/d365-acs-self-service-app-workflows.md#workflow-status)
+Una vez ejecutado, debe poder probarlo agregando o modificando entradas en Microsoft Dynamics 365 y observando esos cambios en Adobe Campaign en unos minutos. Si en cualquier momento necesita detener este proceso, simplemente presione el mismo botón para detenerlo. [Obtenga más información](../../integrating/using/d365-acs-self-service-app-workflows.md#workflow-status)
 
 
 ## Espacio de trabajo de la aplicación de integración {#self-service-app-workspace}
@@ -132,7 +135,7 @@ Las entradas del menú desplegable son:
 
 * **Documentación**: Esta opción es un vínculo a la documentación de Adobe Campaign específica de esta integración
 
-* **Servicio de atención** al cliente: Este es un vínculo a la documentación de Experience Cloud relacionada con la apertura de un ticket del Servicio de atención al cliente
+* **Servicio de atención** al cliente: Este es un vínculo a la documentación del Experience Cloud relacionada con la apertura de un ticket del Servicio de atención al cliente
 
 * **Cerrar sesión**: Esto le cerrará la sesión de la aplicación y le permitirá volver a iniciarla como otro usuario.
 
