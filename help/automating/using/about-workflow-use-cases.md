@@ -2,15 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: Acerca de los casos de uso de flujos de trabajo
-description: Obtenga más información sobre casos de uso que puede realizar con flujos de trabajo de Campaign Standard.
+description: Obtenga más información sobre los casos de uso que puede realizar mediante flujos de trabajo de Campaign Standard.
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
+feature: Flujos de trabajo
+role: Arquitecto de datos
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 94%
+source-wordcount: '237'
+ht-degree: 93%
 
 ---
 
