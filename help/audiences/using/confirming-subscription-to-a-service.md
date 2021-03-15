@@ -6,10 +6,13 @@ description: Siga estos pasos para configurar un mensaje de confirmación para l
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
+feature: Audiencias
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: c276c468627208b584a0342414cdbe382e349f50
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1321'
+source-wordcount: '1325'
 ht-degree: 96%
 
 ---
@@ -92,7 +95,7 @@ El correo electrónico de confirmación es un mensaje transaccional basado en el
 
    Para obtener más información sobre cómo personalizar un mensaje transaccional, consulte [esta sección](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
 
-1. Vista previa del mensaje con un perfil de prueba. Para obtener más información sobre esto, consulte [Definición de un perfil de prueba específico](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
+1. Vista previa del mensaje con un perfil de prueba. Para obtener más información, consulte [Definición de un perfil de prueba específico](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
 
 1. Haga clic en **[!UICONTROL Save & close]** para guardar el contenido.
 1. Publique el mensaje transaccional. Consulte [Publicación de un mensaje transaccional](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
