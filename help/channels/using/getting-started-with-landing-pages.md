@@ -7,10 +7,12 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
+feature: Páginas de aterrizaje
+role: Profesional empresarial
 translation-type: tm+mt
-source-git-commit: e34d3f032cd49585f86178264e7779b3c92993ae
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1031'
 ht-degree: 97%
 
 ---
@@ -139,4 +141,4 @@ Este vídeo muestra cómo crear y editar una página de aterrizaje.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
 
-Hay disponibles más vídeos de procedimientos para Campaign Standards [aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
+Hay disponibles más vídeos prácticos del Campaign Standard [aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
