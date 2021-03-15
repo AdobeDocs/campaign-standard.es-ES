@@ -6,10 +6,13 @@ description: Obtenga información sobre cómo archivar correos electrónicos con
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
+feature: Supervisión del rendimiento
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '362'
 ht-degree: 16%
 
 ---
@@ -17,24 +20,24 @@ ht-degree: 16%
 
 # Archivado con Email BCC{#archiving-emails}
 
-Puede configurar Adobe Campaign para que mantenga una copia de los correos electrónicos enviados desde su plataforma a través de Email BCC.
+Puede configurar Adobe Campaign para que mantenga una copia de los correos electrónicos enviados desde la plataforma a través del correo electrónico CCO.
 
-En particular, si su organización necesita archivar todos los mensajes de correo electrónico salientes para cumplir con la normativa, puede habilitar esta capacidad. Le permite enviar una copia oculta exacta de los mensajes enviados correspondientes a una dirección de correo electrónico CCO (invisible para los destinatarios de envío) que debe especificar.
+En concreto, si su organización necesita archivar todos los mensajes de correo electrónico salientes para que sean compatibles, puede habilitar esta capacidad. Permite enviar una copia oculta exacta de los mensajes enviados correspondientes a una dirección de correo electrónico CCO (invisible para los destinatarios de la entrega) que debe especificar.
 
-Una vez habilitada, debe activar Email BCC desde la opción **[!UICONTROL Archive emails]** en la Plantilla de envíos de correo electrónico.
+Una vez activado, debe activar el correo electrónico CCO desde la opción **[!UICONTROL Archive emails]** en la plantilla de envío de correo electrónico.
 
 >[!NOTE]
 >
->Adobe Campaign no administra los archivos archivados. Le permite enviar los mensajes de su elección a una dirección dedicada, desde donde se pueden procesar y archivar usando un sistema externo.
+>Adobe Campaign no administra los archivos archivados. Permite enviar los mensajes que elija a una dirección específica, desde la que se pueden procesar y archivar mediante un sistema externo.
 
 ## Recommendations y limitaciones {#recommendations-and-limitations}
 
 * Esta función es opcional. Compruebe el acuerdo de licencia y póngase en contacto con el administrador de cuentas para activarlo.
 * La dirección de CCO que elija debe proporcionarse al equipo de Adobe que la configurará por usted.
-* Solo puede usar una dirección de correo electrónico CCO.
+* Solo puede utilizar una dirección de correo electrónico CCO.
 * Solo se tienen en cuenta los correos electrónicos enviados correctamente. Las devoluciones no lo son.
-* Por razones de privacidad, los correos electrónicos CCO deben ser procesados por un sistema de archiving capaz de almacenar información personal (PII) de manera segura.
-* Al crear una nueva Plantilla de envíos, Email BCC no está habilitado de forma predeterminada, aunque la opción se haya adquirido. Debe activarlo manualmente en cada Plantilla de envíos donde desee utilizarla.
+* Por motivos de privacidad, los correos electrónicos CCO deben ser procesados por un sistema de archiving capaz de almacenar información personal segura (PII).
+* Al crear una nueva plantilla de envío, el correo electrónico CCO no está habilitado de forma predeterminada, aunque se haya comprado la opción. Debe activarlo manualmente en cada plantilla de envío donde desee utilizarla.
 
 >[!NOTE]
 >
@@ -42,14 +45,14 @@ Una vez habilitada, debe activar Email BCC desde la opción **[!UICONTROL Archiv
 
 ## Activación del archivado de correo electrónico {#activating-email-archiving}
 
-Una vez habilitada, Email BCC se activa en la [plantilla de correo electrónico](../../start/using/marketing-activity-templates.md) mediante una opción dedicada:
+Una vez activado, el correo electrónico CCO se activa en la [plantilla de correo electrónico](../../start/using/marketing-activity-templates.md) mediante una opción dedicada:
 
 1. Vaya a **Resources**, **Templates**, **Delivery templates**.
-1. Duplicado la plantilla lista para usar **[!UICONTROL Send via email]**.
+1. Duplique la plantilla predeterminada **[!UICONTROL Send via email]** .
 1. Seleccione la plantilla duplicada.
 1. Haga clic en el botón **[!UICONTROL Edit properties]** para editar las propiedades de la plantilla.
-1. Expanda la sección **[!UICONTROL Send]**.
-1. Marque la casilla **[!UICONTROL Archive emails]** para guardar una copia de todos los mensajes enviados para cada envío según esta plantilla.
+1. Expanda la sección **[!UICONTROL Send]** .
+1. Marque la casilla **[!UICONTROL Archive emails]** para mantener una copia de todos los mensajes enviados para cada envío basado en esta plantilla.
 
    ![](assets/email_archiving.png)
 
