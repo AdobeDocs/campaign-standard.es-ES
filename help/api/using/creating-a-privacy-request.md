@@ -2,14 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: Creación de una solicitud de privacidad
-description: Aprenda a crear una solicitud de privacidad con API
+description: Obtenga información sobre cómo crear una solicitud de privacidad con API
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Ingeniero de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '214'
 ht-degree: 14%
 
 ---
@@ -19,26 +22,26 @@ ht-degree: 14%
 
 >[!CAUTION]
 >
->La integración de [Privacy Core Service](https://adobe.io/apis/cloudplatform/gdpr.html) es el método que debe utilizar para todas las solicitudes de acceso y eliminación. A partir de la versión 19.4, el uso de la API y la interfaz de Campaign para las solicitudes de acceso y eliminación quedarán obsoletas. Para obtener más información sobre las funciones eliminadas y obsoletas del Campaign Standard, consulte [esta página](../../rn/using/deprecated-features.md).
+>La integración de [Privacy Core Service](https://adobe.io/apis/cloudplatform/gdpr.html) es el método que debe utilizar para todas las solicitudes de acceso y eliminación. A partir de la versión 19.4, el uso de la API y la interfaz de Campaign para las solicitudes de acceso y eliminación quedarán obsoletas. Para obtener más información sobre las funciones obsoletas y eliminadas del Campaign Standard, consulte [esta página](../../rn/using/deprecated-features.md).
 
 Las solicitudes de privacidad se crean mediante una solicitud **POST**.
 
-Antes de crear solicitudes, debe definir la Área de nombres que utilizará. Para obtener más información sobre esto, consulte la [documentación de administración de privacidad](https://helpx.adobe.com/es/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
+Antes de crear solicitudes, debe definir el espacio de nombres que va a utilizar. Para obtener más información, consulte la [documentación de administración de privacidad](https://helpx.adobe.com/es/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
 
 La carga útil debe contener los siguientes parámetros:
 
-* **name**: un nombre interno único
-* **Área de nombres**: el nombre de Área de nombres configurado en la interfaz de Campaign Standard
-* **validationValue**: el valor de reconciliación basado en la clave de reconciliación definida en la Área de nombres
-* **label**: la etiqueta de solicitud
-* **type**: tipo de solicitud. Los valores aceptados son &quot;access&quot; o &quot;delete&quot;.
-* **reglamento**: tipo de regulación. Ejemplo: &quot;RGPD&quot;, &quot;CCPA&quot;. Este parámetro es obligatorio y está disponible a partir de la versión 19.4 de Campaign Standard. Si está en una versión anterior, no necesita agregarla a la carga útil.
+* **nombre**: un nombre interno único
+* **espacio de nombres**: el nombre de área de nombres configurado en la interfaz de Campaign Standard
+* **reconciliationValue**: el valor de reconciliación basado en la clave de reconciliación definida en el espacio de nombres
+* **etiqueta**: la etiqueta de solicitud
+* **tipo**: el tipo de solicitud. Los valores aceptados son &quot;access&quot; o &quot;delete&quot;.
+* **reglamento**: el tipo de regulación. Ejemplo: &quot;RGPD&quot;, &quot;CCPA&quot;. Este parámetro es obligatorio y está disponible a partir de la versión 19.4 del Campaign Standard. Si se encuentra en una compilación anterior, no es necesario agregarla a la carga útil.
 
 <br/>
 
-***Solicitud de muestra***
+***Solicitud de ejemplo***
 
-Esta solicitud de POST crea una solicitud de privacidad basada en una clave de reconciliación de correo electrónico definida en la Área de nombres AMCDS2:
+Esta solicitud de POST crea una solicitud de privacidad basada en una clave de reconciliación de correo electrónico definida en el área de nombres AMCDS2:
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \
