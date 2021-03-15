@@ -6,11 +6,14 @@ description: Utilice otras soluciones de Adobe y combine sus diferentes capacida
 audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
+feature: Triggers
+role: Arquitecto de datos
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 91%
+source-wordcount: '636'
+ht-degree: 90%
 
 ---
 
@@ -49,14 +52,14 @@ Si desea integrar flujos de datos de otros sistemas con Adobe Campaign, consulte
    <td> Experience Manager<br /> 6.1, 6.2, 6.3, 6.4, 6.5<br /> </td> 
    <td> Permite crear contenido de correo electrónico o formularios asignados a la base de datos de Adobe Campaign directamente en Adobe Experience Manager.<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">Trabajar con Campaña y Experience Manager</a>,  <a href="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignstandard.html">Integrar Experience Manager y Campaign Standard</a>,  <a href="https://gn.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">crear un correo electrónico con Experience Manager y Campaña</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">Trabaje con Campaign y el Experience Manager</a>,  <a href="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignstandard.html">integre el Experience Manager y el Campaign Standard</a> y  <a href="https://gn.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">cree un correo electrónico con el Experience Manager y Campaign</a> 
     </td> 
   </tr> 
   <tr> 
    <td> Target<br /> Classic, Standard<br /> </td> 
    <td> Permite insertar imágenes que Adobe Target calcula dinámicamente cuando se abre un correo electrónico que Adobe Campaign crea y envía.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">Trabajar con Campaña y Destinatario</a>,  <a href="https://docs.adobe.com/content/help/es-ES/target/using/integrate/campaign-and-target.html">integrar Campaña y Destinatario</a>,  <a href="https://helpx.adobe.com/es/marketing-cloud/how-to/email-marketing.html">personalizar imágenes de correo electrónico en </a> tiempo real (paso 3)
+    <a href="../../integrating/using/about-campaign-target-integration.md">Trabajar con Campaign y Target</a>,  <a href="https://docs.adobe.com/content/help/es-ES/target/using/integrate/campaign-and-target.html">integrar Campaign y Target</a>,  <a href="https://helpx.adobe.com/es/marketing-cloud/how-to/email-marketing.html">personalizar imágenes de correo electrónico en vídeo en tiempo </a> real (paso 3)
     </td> 
   </tr> 
   <tr> 
@@ -92,7 +95,7 @@ Si desea integrar flujos de datos de otros sistemas con Adobe Campaign, consulte
    <td> Dreamweaver<br /> </td> 
    <td> Permite editar un contenido de correo electrónico de Dreamweaver y sincronizarlo con Adobe Campaign.<br /> </td> 
    <td> 
-    <a href="https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html">Crear correos electrónicos personalizados con </a> Dreamweavervideo,  <a href="https://helpx.adobe.com/es/dreamweaver/using/working-with-dreamweaver-and-campaign.html">usar extensión de Campaña para Dreamweaver</a> 
+    <a href="https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html">Creación de correos electrónicos personalizados con </a> Dreamweavervideo,  <a href="https://helpx.adobe.com/es/dreamweaver/using/working-with-dreamweaver-and-campaign.html">uso de la extensión de Campaign para Dreamweaver</a> 
   </td> 
   </tr> 
   <tr> 
