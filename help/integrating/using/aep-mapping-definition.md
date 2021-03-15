@@ -6,10 +6,13 @@ description: Obtenga información sobre cómo asignar un campo de Campaign Stand
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
+feature: Integración de Microsoft CRM
+role: Arquitecto de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '505'
 ht-degree: 2%
 
 ---
@@ -19,9 +22,9 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector está actualmente en fase beta, que puede estar sujeto a actualizaciones frecuentes sin previo aviso. Es necesario que los clientes estén alojados en Azure (actualmente en versión beta solo para Norteamérica) para acceder a estas capacidades. Póngase en contacto con el Servicio de atención al cliente de Adobe si desea obtener acceso.
+>Adobe Experience Platform Data Connectors se encuentra actualmente en fase beta, por lo que puede estar sujeto a actualizaciones frecuentes sin previo aviso. Es necesario que los clientes estén alojados en Azure (actualmente en versión beta solo para Norteamérica) para acceder a estas capacidades. Si desea acceder, póngase en contacto con el Servicio de atención al cliente de Adobe.
 
-En esta sección, descubrirá cómo asignar un campo de Campaign Standard con un campo de Experience Data Model (XDM).
+En esta sección, descubrirá cómo asignar un campo de Campaign Standard con un campo de Modelo de datos de experiencia (XDM).
 
 Para realizar esta tarea, los requisitos previos son:
 
@@ -45,17 +48,17 @@ Para realizar esta tarea, los requisitos previos son:
 >
 >Si el conjunto de datos seleccionado ya se está utilizando en una asignación de datos existente, aparece una advertencia para informarle de que los datos pueden sobrescribirse en Adobe Experience Platform. Esto puede suceder cuando hay algunos destinatarios comunes en las asignaciones de datos que utilizan un mismo conjunto de datos.
 
-La siguiente pantalla presenta la sección **[!UICONTROL Field mappings]** donde puede crear una nueva asignación para cada campo en el esquema de Campaign Standard.
+La siguiente pantalla presenta la sección **[!UICONTROL Field mappings]** donde puede crear una nueva asignación para cada campo en el esquema del Campaign Standard.
 
 ![](assets/aep_fieldmappings.png)
 
 El botón **[!UICONTROL Create new field mapping]** permite seleccionar el campo Campaign Standard y la expresión de ruta de campo correspondiente en el esquema XDM.
 
-Si no encuentra un campo de Adobe Campaign Standard, puede utilizar el campo de búsqueda para buscar el campo . Actualmente, la búsqueda solo funciona para campos abiertos en la jerarquía.
+Si no puede encontrar un campo de Adobe Campaign Standard, puede utilizar el campo de búsqueda para buscar el campo. Actualmente, la búsqueda solo funciona para campos abiertos en la jerarquía.
 
 ![](assets/aep_mapfield.png)
 
-Los recursos ampliados definidos en Campaign Standard están asignados a todos los campos nativos. Se definen en la extensión _customer/default en XDM.
+Los recursos ampliados definidos en Campaign Standard se asignan como todos los campos nativos. Se definen en la extensión _customer/default en XDM.
 
 ![](assets/aep_fieldscusmapping.png)
 
