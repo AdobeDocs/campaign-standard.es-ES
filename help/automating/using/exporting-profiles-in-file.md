@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: fileExport,main
+feature: Flujos de trabajo
+role: Arquitecto de datos
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 68%
+source-wordcount: '231'
+ht-degree: 67%
 
 ---
 
@@ -22,7 +25,7 @@ El siguiente ejemplo ilustra cómo configurar una actividad **[!UICONTROL Extrac
 
 El objetivo de este flujo de trabajo es exportar una lista de perfiles en forma de archivo externo para que los datos puedan utilizarse fuera de Adobe Campaign.
 
-1. Arrastre y suelte una actividad [Extraer archivo](../../automating/using/extract-file.md) en el flujo de trabajo y colóquela después de la actividad [Consulta](../../automating/using/query.md).
+1. Arrastre y suelte una actividad [Extract file](../../automating/using/extract-file.md) en el flujo de trabajo y colóquela después de la actividad [Query](../../automating/using/query.md).
 
    En este ejemplo, la consulta se realiza en todos los perfiles de 18 a 30 años.
 
@@ -45,7 +48,7 @@ El objetivo de este flujo de trabajo es exportar una lista de perfiles en forma 
       ![](assets/wkf_data_export9.png)
 
 1. Confirme su actividad.
-1. Arrastre y suelte una actividad [Transferir archivo](../../automating/using/transfer-file.md) después de la actividad **[!UICONTROL Extract file]** para recuperar el archivo de extracción en una cuenta externa.
+1. Arrastre y suelte una actividad [Transfer file](../../automating/using/transfer-file.md) después de la actividad **[!UICONTROL Extract file]** para recuperar el archivo de extracción en una cuenta externa.
 1. Abra la actividad y elija la acción **[!UICONTROL File upload]**.
 
    ![](assets/wkf_data_export11.png)
