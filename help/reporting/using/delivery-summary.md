@@ -2,16 +2,19 @@
 solution: Campaign Standard
 product: campaign
 title: Resumen de entregas
-description: Con el informe listo para usar del resumen de Envíos, conozca las estadísticas de envíos, como el número de envíos, devoluciones y aperturas.
+description: Con el informe predeterminado Delivery summary , obtenga información sobre las estadísticas de los envíos, como el número de envíos, los rechazos y las aperturas.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 context-tags: deliveryCirculationReport,main;campaignCirculationReport,main;programCirculationReport,main
+feature: Creación de informes
+role: Encabezado
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 1%
+source-wordcount: '221'
+ht-degree: 2%
 
 ---
 
@@ -22,19 +25,19 @@ El informe **[!UICONTROL Delivery summary]** detalla la información principal r
 
 ![](assets/campaign_reports_1.png)
 
-Cada tabla está representada por números de resumen y gráficos. Puede cambiar la forma en que se muestran los detalles en sus respectivas configuraciones de visualización.
+Cada tabla está representada por números de resumen y gráficos. Puede cambiar cómo se muestran los detalles en sus respectivos ajustes de visualización.
 
-La tabla **estadísticas de Envío** contiene los datos disponibles para los mensajes de correo electrónico enviados, como:
+La tabla **Delivery statistics** contiene los datos disponibles para los correos electrónicos enviados, como:
 
-* **[!UICONTROL Processed/sent]**:: Número total de envíos para el envío.
-* **[!UICONTROL Delivered]**:: Número de mensajes enviados correctamente, en relación con el número total de mensajes enviados. Se tienen en cuenta los errores generados (devoluciones). Sin embargo, no se tienen en cuenta las quejas (declaraciones de spam) ni los mensajes de &quot;fuera de la oficina&quot;.
-* **[!UICONTROL Bounces + Errors]**:: Número total de errores acumulados durante el procesamiento de envío y de devolución automática en relación con el número total de mensajes enviados.
+* **[!UICONTROL Processed/sent]**: El número total de envíos para la entrega.
+* **[!UICONTROL Delivered]**: Número de mensajes enviados correctamente, en relación con el número total de mensajes enviados. Los errores que se generan (devoluciones) se tienen en cuenta. Sin embargo, no se tienen en cuenta las quejas (declaraciones de correo no deseado) ni los mensajes de &quot;fuera de la oficina&quot;.
+* **[!UICONTROL Bounces + Errors]**: Número de errores totales acumulados durante la entrega y el procesamiento automático de devoluciones en relación con la cantidad total de mensajes enviados.
 
-La tabla **Abrir y hace clic** contiene los datos disponibles para la actividad de destinatario para cada envío, como:
+La tabla **Open and clicks** contiene los datos disponibles para la actividad del destinatario para cada envío, como:
 
-* **Haga clic**: Número de veces que se hizo clic en un contenido en un envío.
-* **Abrir**: Número de veces que se abrió un mensaje en un envío.
-* **Aperturas** únicas: El número de destinatarios que abrieron el envío.
-* **Clics** únicos: El número de destinatarios que hicieron clic en un contenido de un envío.
+* **Haga clic en**: Número de veces que se hizo clic en un contenido en una entrega.
+* **Abrir**: Número de veces que se abrió un mensaje en una entrega.
+* **Aperturas** únicas: El número de destinatarios que abrieron la entrega.
+* **Clics** únicos: El número de destinatarios que hicieron clic en un contenido de una entrega.
 
-La tabla **Repartición de dominio** muestra el estado de los envíos según el dominio del destinatario.
+La tabla **Domain repartición** muestra el estado de los envíos según el dominio del destinatario.
