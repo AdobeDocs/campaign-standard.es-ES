@@ -2,14 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: Exportación de listas
-description: 'Adobe Campaign permite exportar los datos mostrados como listas desde una pantalla de información general directamente en un archivo para su uso futuro. '
+description: 'Adobe Campaign le permite exportar los datos mostrados como listas desde una pantalla de información general directamente en un archivo para su uso futuro. '
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
+feature: Flujos de trabajo
+role: Arquitecto de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '448'
 ht-degree: 7%
 
 ---
@@ -17,38 +20,38 @@ ht-degree: 7%
 
 # Exportación de listas{#exporting-lists}
 
-Adobe Campaign le permite exportar sus listas directamente en un archivo para su uso futuro. Exportar una lista en un archivo genera una entrada de registro en el menú **[!UICONTROL Export audits]**. Para obtener más información sobre las auditorías de exportación, consulte la sección [Auditoría de exportaciones](../../administration/using/auditing-export-logs.md).
+Adobe Campaign le permite exportar las listas directamente en un archivo para su uso futuro. Al exportar una lista en un archivo, se genera una entrada de registro en el menú **[!UICONTROL Export audits]**. Para obtener más información sobre las auditorías de exportación, consulte la sección [Auditoría de exportaciones](../../administration/using/auditing-export-logs.md).
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra cómo configurar una lista en vídeo](#video)
 
-La opción de lista de exportación permite exportar un máximo de 100.000 líneas de forma predeterminada y definidas por la opción **Nms_ExportListLimit**. Esta opción la puede administrar el administrador funcional, en el menú **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
+La opción de lista de exportación permite exportar un máximo de 100 000 líneas de forma predeterminada y definida por la opción **Nms_ExportListLimit**. El administrador funcional puede administrar esta opción en el menú **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
 
-La lista de exportación está disponible en todas las pantallas que tienen una vista de modo **Lista** para los usuarios con la función **[!UICONTROL EXPORT (export)]**.
+La lista de exportación está disponible en todas las pantallas que tienen una vista de modo **List** para los usuarios con la función **[!UICONTROL EXPORT (export)]**.
 
-1. Vaya a la pantalla **Lista** seleccionada. Por ejemplo, la pantalla de información general del perfil de prueba ( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** ).
-1. Compruebe que la pantalla está en modo **Lista**.
+1. Vaya a la pantalla **List** seleccionada. Por ejemplo, la pantalla de información general del perfil de prueba ( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** ).
+1. Compruebe que la pantalla esté en modo **List**.
 
    ![](assets/export_list_mode_switch.png)
 
-1. Organice las columnas de la lista en el orden en que desee exportarlas mediante el botón **[!UICONTROL Configure list]**, en la esquina superior derecha. Además de las columnas configuradas, también se exportará la clave principal del recurso.
-1. Si lo desea, puede aplicar un filtro. Para ello, haga clic en el botón de la esquina superior izquierda para mostrar el panel de búsqueda.
+1. Organice las columnas de la lista en el orden en que desee exportarlas con el botón **[!UICONTROL Configure list]** situado en la esquina superior derecha. Además de las columnas configuradas, también se exporta la clave principal del recurso.
+1. Si lo desea, puede aplicar un filtro. Para ello, haga clic en el botón en la esquina superior izquierda para mostrar el panel de búsqueda.
 
-   Si realiza una exportación desde una lista que contiene distintos recursos, debe aplicar sus filtros para que solo se muestre un tipo de recurso en la lista.
+   Si realiza una exportación desde una lista que contiene recursos diferentes, debe aplicar los filtros para que solo se muestre un tipo de recurso en la lista.
 
 1. Si lo desea, ordene las columnas seleccionadas.
 1. Seleccione el botón de exportación ![](assets/exportlistbutton.png).
 
-   Aparecerá una ventana emergente para confirmar la exportación. Una vez confirmada la exportación, el archivo se descarga automáticamente en el equipo.
+   Aparecerá una ventana emergente para confirmar la exportación. Una vez confirmada la exportación, el archivo se descarga automáticamente al equipo.
 
-El archivo se genera en formato CSV con la extensión .TXT. Su nombre depende del recurso exportado y de la fecha de exportación. Por ejemplo: el nombre profileBase_20150426_120253.txt se aplicaría a una exportación de perfil realizada el 26 de abril de 2015 a las 12:02:53. Está codificado en formato UTF-8.
+El archivo se genera en formato CSV con una extensión .TXT. Su nombre depende del recurso exportado y de la fecha de exportación. Por ejemplo: el nombre profileBase_20150426_120253.txt se aplicaría a una exportación de perfil realizada el 26 de abril de 2015 a las 12:02:53. Está codificado en formato UTF-8.
 
 Los valores numéricos y las fechas tienen en cuenta la hora local (configuración regional) del usuario que realiza la exportación. Por ejemplo: DD-MM-AAAA o MM-DD-AAAA.
 
-Para llevar a cabo una exportación que sea mayor que ésta, debe crear un flujo de trabajo dedicado. Consulte la sección [Extraer archivo](../../automating/using/extract-file.md).
+Para realizar una exportación mayor que esta, debe crear un flujo de trabajo dedicado. Consulte la sección [Extraer archivo](../../automating/using/extract-file.md) .
 
 **Ejemplo**
 
-El ejemplo siguiente es una exportación realizada desde la lista de perfil definida a continuación:
+El siguiente ejemplo es una exportación realizada desde la lista de perfiles definida a continuación:
 
 * Columnas mostradas (en orden): Apellido, Nombre, Fecha de nacimiento, Dirección de correo electrónico.
 * Los nombres se ordenan en orden alfabético.
@@ -82,4 +85,4 @@ Este vídeo muestra cómo configurar listas.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25288/?quality=12)
 
-Hay disponibles más vídeos de procedimientos para Campaign Standards [aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
+Hay disponibles más vídeos prácticos del Campaign Standard [aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
