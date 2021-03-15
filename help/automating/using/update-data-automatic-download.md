@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: fileImport,main
+feature: Flujos de trabajo
+role: Arquitecto de datos
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 79%
+source-wordcount: '283'
+ht-degree: 78%
 
 ---
 
@@ -24,7 +27,7 @@ El siguiente ejemplo muestra el resultado de una actividad de carga de archivo d
 
 ![](assets/load_file_workflow_ex1.png)
 
-Para generar el flujo de trabajo, siga estos pasos:
+Para crear el flujo de trabajo, siga estos pasos:
 
 1. Arrastre y suelte una actividad [Transferir archivo](../../automating/using/transfer-file.md) en el flujo de trabajo.
 1. Seleccione la actividad y, a continuación, ábrala con el botón ![](assets/edit_darkgrey-24px.png), en las acciones rápidas que aparecerán.
@@ -36,13 +39,13 @@ Para generar el flujo de trabajo, siga estos pasos:
    ![](assets/wkf_file_transfer_07.png)
 
 1. Confirme su actividad.
-1. Arrastre y suelte una actividad [Cargar archivo](../../automating/using/load-file.md) en el flujo de trabajo y colóquela después de la actividad **[!UICONTROL Transfer file]**.
+1. Arrastre y suelte una actividad [Load file](../../automating/using/load-file.md) en el flujo de trabajo y colóquela después de la actividad **[!UICONTROL Transfer file]** .
 1. Seleccione la actividad y, a continuación, ábrala con el botón ![](assets/edit_darkgrey-24px.png), en las acciones rápidas que aparecerán.
 1. En la sección **[!UICONTROL File to load]** de la pestaña **[!UICONTROL Execution]**, marque la opción **[!UICONTROL Use the file specified in the inbound transition]**.
 
    ![](assets/wkf_file_loading8.png)
 
 1. Configure la actividad como se ha especificado anteriormente.
-1. Arrastre y suelte una actividad [Actualizar datos](../../automating/using/update-data.md) en el flujo de trabajo y colóquela después de la actividad **[!UICONTROL Load file]**, luego configúrela.
+1. Arrastre y suelte una actividad [Update data](../../automating/using/update-data.md) en el flujo de trabajo y colóquela después de la actividad **[!UICONTROL Load file]** y, a continuación, configúrela.
 
 Una vez iniciado el flujo de trabajo, los datos del archivo cargado se extraen y se utilizan para enriquecer la base de datos de Adobe Campaign.
