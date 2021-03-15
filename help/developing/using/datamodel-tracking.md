@@ -5,16 +5,19 @@ title: Modelo de datos
 description: Obtenga información sobre el modelo de datos
 audience: developing
 content-type: reference
+feature: Modelo de datos
+role: Desarrollador
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '34'
-ht-degree: 8%
+source-wordcount: '38'
+ht-degree: 7%
 
 ---
 
 
-# registros de seguimiento (nms:remoteTracking)
+# Registros de seguimiento (nms:remoteTracking)
 
 ## Descripción del objeto
 
@@ -23,11 +26,11 @@ ht-degree: 8%
                   <th>Name</th>
                   <th>Etiqueta</th>
                   <th>Tipo (longitud)</th>
-                  <th>Valores de lista desglosada</th>
+                  <th>Valores de enumeración</th>
                </tr>
                <tr>
                   <td>PKey</td>
-                  <td>ID de recurso principal</td>
+                  <td>ID del recurso principal</td>
                   <td>string </td>
                   <td> </td>
                </tr>
@@ -38,14 +41,14 @@ ht-degree: 8%
                   <td> </td>
                </tr>
                <tr>
-                  <td>registros</td>
+                  <td>logs</td>
                   <td>“Logs”</td>
                   <td>string </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>punteroTo</td>
-                  <td>PunteroA</td>
+                  <td>pointerTo</td>
+                  <td>PointerTo</td>
                   <td>string </td>
                   <td> </td>
                </tr>
