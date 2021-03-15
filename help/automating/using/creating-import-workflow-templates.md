@@ -6,11 +6,14 @@ description: Obtenga información sobre cómo crear plantillas de flujo de traba
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
+feature: Flujos de trabajo
+role: Arquitecto de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1172'
-ht-degree: 58%
+source-wordcount: '1176'
+ht-degree: 57%
 
 ---
 
@@ -28,7 +31,7 @@ Este ejemplo muestra cómo se puede predefinir un flujo de trabajo para reutiliz
 
       >[!NOTE]
       >
-      >Sólo puede importar datos de un solo archivo. Si el flujo de trabajo tiene varias **[!UICONTROL Load file]** actividades, se utilizará el mismo archivo cada vez.
+      >Solo se pueden importar datos de un solo archivo. Si el flujo de trabajo tiene varias actividades **[!UICONTROL Load file]** , se utilizará el mismo archivo cada vez.
 
    * **[!UICONTROL Reconciliation]**: Reconcilie los datos importados con los datos de la base de datos.
    * **[!UICONTROL Segmentation]**: Cree filtros para procesar registros de formas diferentes, dependiendo de si se podrían reconciliar o no.
@@ -56,7 +59,7 @@ Este ejemplo muestra cómo se puede predefinir un flujo de trabajo para reutiliz
 
 1. Configure la actividad **[!UICONTROL Reconciliation]**. El objetivo de esta actividad en este contexto es identificar los datos entrantes.
 
-   * En la ficha **[!UICONTROL Relations]**, seleccione **[!UICONTROL Create element]** y defina un vínculo entre los datos importados y la dimensión de segmentación de destinatarios (consulte [Dimensiones de segmentación y recursos](../../automating/using/query.md#targeting-dimensions-and-resources)). En este ejemplo, el campo personalizado **CRM ID** se utiliza para crear la condición de unión. Utilice el campo o la combinación de campos que necesite siempre que permita identificar registros únicos.
+   * En la pestaña **[!UICONTROL Relations]**, seleccione **[!UICONTROL Create element]** y defina un vínculo entre los datos importados y la dimensión objetivo de los destinatarios (consulte [Dimensiones de segmentación y recursos](../../automating/using/query.md#targeting-dimensions-and-resources)). En este ejemplo, el campo personalizado **CRM ID** se utiliza para crear la condición de unión. Utilice el campo o la combinación de campos que necesite siempre que permita identificar registros únicos.
    * En la pestaña **[!UICONTROL Identification]** , deje la opción **[!UICONTROL Identify the document from the working data]** sin seleccionar.
 
    ![](assets/import_template_example2.png)
@@ -67,13 +70,13 @@ Este ejemplo muestra cómo se puede predefinir un flujo de trabajo para reutiliz
 
    Los destinatarios que no se pueden reconciliar y no tienen datos suficientes se seleccionan en una transición saliente de complemento y se pueden exportar en un archivo independiente, o sencillamente se ignoran.
 
-   * En la ficha **[!UICONTROL General]** de la actividad, establezca **[!UICONTROL Resource type]** en **[!UICONTROL Temporary resource]** y seleccione **[!UICONTROL Reconciliation]** como conjunto de objetivos.
-   * En la ficha **[!UICONTROL Advanced options]**, marque la opción **[!UICONTROL Generate complement]** para poder ver si no se puede insertar ningún registro en la base de datos. Si lo necesita, puede seguir procesando los datos complementarios: exportación de archivo, actualización de lista, etc.
-   * En el primer segmento de la ficha **[!UICONTROL Segments]**, agregue una condición de filtrado a la población entrante para seleccionar solo los registros para los que la ID de CRM del perfil no sea igual a 0. De este modo, los datos del archivo que se reconcilian con perfiles de la base de datos se seleccionan en ese subconjunto.
+   * En la pestaña **[!UICONTROL General]** de la actividad, establezca **[!UICONTROL Resource type]** en **[!UICONTROL Temporary resource]** y seleccione **[!UICONTROL Reconciliation]** como conjunto de objetivo.
+   * En la pestaña **[!UICONTROL Advanced options]**, marque la opción **[!UICONTROL Generate complement]** para ver si algún registro no se puede insertar en la base de datos. Si lo necesita, puede seguir procesando los datos complementarios: exportación de archivo, actualización de lista, etc.
+   * En el primer segmento de la pestaña **[!UICONTROL Segments]**, añada una condición de filtrado a la población entrante para seleccionar solo los registros cuyo ID de CRM del perfil no sea igual a 0. De este modo, los datos del archivo que se reconcilien con perfiles de la base de datos se seleccionan en ese subconjunto.
 
       ![](assets/import_template_example3.png)
 
-   * Añada un segundo segmento que seleccione registros no conciliados que tengan suficientes datos para insertar en la base de datos. Por ejemplo: dirección de correo electrónico, nombre y apellidos. Los registros no conciliados tienen el valor de ID de CRM de su perfil igual a 0.
+   * Añada un segundo segmento que seleccione registros no reconciliados que tengan datos suficientes para insertarlos en la base de datos. Por ejemplo: dirección de correo electrónico, nombre y apellidos. Los registros que no se reconcilian tienen el valor de ID de CRM de su perfil igual a 0.
 
       ![](assets/import_template_example3_2.png)
 
@@ -82,43 +85,43 @@ Este ejemplo muestra cómo se puede predefinir un flujo de trabajo para reutiliz
 1. Configure la actividad **[!UICONTROL Update data]** ubicada después de la primera transición saliente de la actividad **[!UICONTROL Segmentation]** configurada anteriormente.
 
    * Seleccione **[!UICONTROL Update]** como **[!UICONTROL Operation type]**, ya que la transición de entrada solo contiene destinatarios ya presentes en la base de datos.
-   * En la ficha **[!UICONTROL Identification]**, seleccione **[!UICONTROL Using reconciliation criteria]** y defina una clave entre los **[!UICONTROL Dimension to update]** - Perfiles en este caso - y el vínculo creado en la actividad **[!UICONTROL Reconciliation]**. En este ejemplo, se utiliza el campo personalizado **CRM ID**.
+   * En la pestaña **[!UICONTROL Identification]**, seleccione **[!UICONTROL Using reconciliation criteria]** y defina una clave entre **[!UICONTROL Dimension to update]** - Profiles en este caso - y el vínculo creado en la actividad **[!UICONTROL Reconciliation]**. En este ejemplo, se utiliza el campo personalizado **CRM ID**.
 
       ![](assets/import_template_example6.png)
 
-   * En la ficha **[!UICONTROL Fields to update]**, indique los campos de la dimensión Perfiles que desea actualizar con el valor de la columna correspondiente del archivo. Si los nombres de las columnas del archivo son idénticos o casi idénticos a los nombres de los campos de dimensión de los destinatarios, puede utilizar el botón de varita mágica para hacer coincidir automáticamente los diferentes campos.
+   * En la pestaña **[!UICONTROL Fields to update]**, indique los campos de la dimensión Perfiles que desea actualizar con el valor de la columna correspondiente del archivo. Si los nombres de las columnas del archivo son idénticos o casi idénticos a los nombres de los campos de dimensión de los destinatarios, puede utilizar el botón de varita mágica para hacer coincidir automáticamente los diferentes campos.
 
       ![](assets/import_template_example6_2.png)
 
       >[!NOTE]
       >
-      >Si planea enviar correos directos a estos perfiles, asegúrese de incluir una dirección postal, ya que esta información es esencial para el proveedor de correo directo. Asegúrese también de que la casilla **[!UICONTROL Address specified]** de la información de sus perfiles esté marcada. Para actualizar esta opción desde un flujo de trabajo, simplemente agregue un elemento a los campos para actualizar, especifique **1** como **[!UICONTROL Source]** y seleccione el campo `postalAddress/@addrDefined` como **[!UICONTROL Destination]**. Para obtener más información sobre el correo directo y el uso de la opción **[!UICONTROL Address specified]**, consulte [este documento](../../channels/using/about-direct-mail.md#recommendations).
+      >Si planea enviar correos directos a estos perfiles, asegúrese de incluir una dirección postal, ya que esta información es esencial para el proveedor de correo postal. Asegúrese también de que la casilla **[!UICONTROL Address specified]** de la información de sus perfiles esté marcada. Para actualizar esta opción desde un flujo de trabajo, simplemente agregue un elemento a los campos que desea actualizar, especifique **1** como **[!UICONTROL Source]** y seleccione el campo `postalAddress/@addrDefined` como **[!UICONTROL Destination]**. Para obtener más información sobre el correo postal y el uso de la opción **[!UICONTROL Address specified]**, consulte [este documento](../../channels/using/about-direct-mail.md#recommendations).
 
-1. Configure la actividad **[!UICONTROL Deduplication]** ubicada después de la transición que contiene perfiles no conciliados:
+1. Configure la actividad **[!UICONTROL Deduplication]** ubicada después de la transición que contiene perfiles no reconciliados:
 
-   * En la ficha **[!UICONTROL Properties]**, establezca **[!UICONTROL Resource type]** en el recurso temporal generado a partir de la actividad **[!UICONTROL Reconciliation]** del flujo de trabajo.
+   * En la pestaña **[!UICONTROL Properties]** , configure **[!UICONTROL Resource type]** en el recurso temporal generado a partir de la actividad **[!UICONTROL Reconciliation]** del flujo de trabajo.
 
       ![](assets/import_template_example4.png)
 
    * En este ejemplo, el campo de correo electrónico se utiliza para buscar perfiles únicos. Puede utilizar cualquier campo que esté rellenado y que forme parte de una combinación única.
-   * Elija un **[!UICONTROL Deduplication method]**. En este caso, la solicitud decide automáticamente qué registros se conservan en caso de duplicado.
+   * Elija un **[!UICONTROL Deduplication method]**. En este caso, la aplicación decide automáticamente qué registros se guardan en caso de duplicados.
 
    ![](assets/import_template_example7.png)
 
 1. Configure la actividad **[!UICONTROL Update data]** ubicada después de la actividad **[!UICONTROL Deduplication]** configurada anteriormente.
 
-   * Seleccione **[!UICONTROL Insert only]** como **[!UICONTROL Operation type]** ya que la transición de entrada solo contiene perfiles que no están presentes en la base de datos.
-   * En la ficha **[!UICONTROL Identification]**, seleccione **[!UICONTROL Using reconciliation criteria]** y defina una clave entre los **[!UICONTROL Dimension to update]** - Perfiles en este caso - y el vínculo creado en la actividad **[!UICONTROL Reconciliation]**. En este ejemplo, se utiliza el campo personalizado **CRM ID**.
+   * Seleccione **[!UICONTROL Insert only]** como **[!UICONTROL Operation type]** ya que la transición entrante solo contiene perfiles que no están presentes en la base de datos.
+   * En la pestaña **[!UICONTROL Identification]**, seleccione **[!UICONTROL Using reconciliation criteria]** y defina una clave entre **[!UICONTROL Dimension to update]** - Profiles en este caso - y el vínculo creado en la actividad **[!UICONTROL Reconciliation]**. En este ejemplo, se utiliza el campo personalizado **CRM ID**.
 
       ![](assets/import_template_example6.png)
 
-   * En la ficha **[!UICONTROL Fields to update]**, indique los campos de la dimensión Perfiles que desea actualizar con el valor de la columna correspondiente del archivo. Si los nombres de las columnas del archivo son idénticos o casi idénticos a los nombres de los campos de dimensión de los destinatarios, puede utilizar el botón de varita mágica para hacer coincidir automáticamente los diferentes campos.
+   * En la pestaña **[!UICONTROL Fields to update]**, indique los campos de la dimensión Perfiles que desea actualizar con el valor de la columna correspondiente del archivo. Si los nombres de las columnas del archivo son idénticos o casi idénticos a los nombres de los campos de dimensión de los destinatarios, puede utilizar el botón de varita mágica para hacer coincidir automáticamente los diferentes campos.
 
       ![](assets/import_template_example6_2.png)
 
       >[!NOTE]
       >
-      >Si planea enviar correos directos a estos perfiles, asegúrese de incluir una dirección postal, ya que esta información es esencial para el proveedor de correo directo. Asegúrese también de que la casilla **[!UICONTROL Address specified]** de la información de sus perfiles esté marcada. Para actualizar esta opción desde un flujo de trabajo, simplemente agregue un elemento a los campos para actualizar, especifique **1** como **[!UICONTROL Source]** y seleccione el campo **[postalAddress/@addrDefined]** como **[!UICONTROL Destination]**. Para obtener más información sobre el correo directo y el uso de la opción **[!UICONTROL Address specified]**, consulte [este documento](../../channels/using/about-direct-mail.md#recommendations).
+      >Si planea enviar correos directos a estos perfiles, asegúrese de incluir una dirección postal, ya que esta información es esencial para el proveedor de correo postal. Asegúrese también de que la casilla **[!UICONTROL Address specified]** de la información de sus perfiles esté marcada. Para actualizar esta opción desde un flujo de trabajo, simplemente agregue un elemento a los campos que desea actualizar, especifique **1** como **[!UICONTROL Source]** y seleccione el campo **[postalAddress/@addrDefined]** como **[!UICONTROL Destination]**. Para obtener más información sobre el correo postal y el uso de la opción **[!UICONTROL Address specified]**, consulte [este documento](../../channels/using/about-direct-mail.md#recommendations).
 
 1. Después de la tercera transición de la actividad **[!UICONTROL Segmentation]**, añada una actividad **[!UICONTROL Extract file]** y una actividad **[!UICONTROL Transfer file]** si desea realizar un seguimiento de los datos que no se insertan en la base de datos. Configure las actividades para exportar la columna que necesite y para transferir el archivo en un servidor FTP o SFTP desde donde pueda recuperarlo.
 1. Añada una actividad **[!UICONTROL End]** y guarde la plantilla de flujo de trabajo.
