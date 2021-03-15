@@ -6,10 +6,13 @@ description: Descubra cómo administrar imágenes en correos electrónicos con e
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
+feature: Diseño de correo electrónico
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '308'
 ht-degree: 7%
 
 ---
@@ -19,22 +22,22 @@ ht-degree: 7%
 
 ## Inserción de imágenes{#inserting-images}
 
-Puede insertar imágenes en sus correos electrónicos y páginas de aterrizaje.
+Puede insertar imágenes en los correos electrónicos y páginas de aterrizaje.
 
-Los siguientes tipos de imágenes están disponibles según la configuración:
+Los siguientes tipos de imágenes están disponibles, según la configuración:
 
 * Imágenes locales
-* Imágenes compartidas desde Adobe Experience Cloud: consulte [Trabajo con el servicio principal de Campaña y recursos](../../integrating/using/working-with-campaign-and-assets-core-service.md) / Assets On Demand
-* Imágenes dinámicas de Adobe Target: consulte [Uso de Campaña y Destinatario](../../integrating/using/about-campaign-target-integration.md)
+* Imágenes compartidas desde Adobe Experience Cloud: consulte [Uso de Campaign y del servicio principal de Assets](../../integrating/using/working-with-campaign-and-assets-core-service.md)/Assets On Demand
+* Imágenes dinámicas de Adobe Target: consulte [Uso de Campaign y Target](../../integrating/using/about-campaign-target-integration.md)
 
 >[!CAUTION]
 >
->Si decide agregar una imagen directamente editando la versión HTML del correo electrónico, no debe llamar a **archivos externos en una etiqueta &lt;script>** de la página HTML. Estos archivos no se importan en el servidor de Adobe Campaign.
+>Si decide añadir una imagen directamente editando la versión HTML del correo electrónico, no debe llamar a los **archivos externos en una etiqueta &lt;script>** de la página HTML. Estos archivos no se importan en el servidor de Adobe Campaign.
 
-### Inserción de imágenes en un mensaje de correo electrónico {#inserting-images-in-an-email}
+### Inserción de imágenes en un correo electrónico {#inserting-images-in-an-email}
 
 1. Añada un componente de estructura. Para obtener más información, consulte [Edición de la estructura de correo electrónico](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
-1. Dentro de este componente de estructura, agregue un componente de contenido **[!UICONTROL Image]**.
+1. Dentro de este componente de estructura, añada un componente de contenido **[!UICONTROL Image]**.
 
    ![](assets/des_insert_images_1.png)
 
@@ -49,15 +52,15 @@ Los siguientes tipos de imágenes están disponibles según la configuración:
 
 ## Configuración de propiedades de imagen{#setting-up-image-properties}
 
-Al seleccionar un bloque que contiene una imagen, se ofrecen las siguientes propiedades en la paleta:
+Cuando se selecciona un bloque que contiene una imagen, se ofrecen las siguientes propiedades en la paleta:
 
-* **Activar** personalización permite personalizar el origen de la imagen. Consulte [Personalización de un origen de imagen](../../designing/using/personalization.md#personalizing-an-image-source).
+* **Habilitar** personalización permite personalizar el origen de la imagen. Consulte [Personalización de una fuente de imagen](../../designing/using/personalization.md#personalizing-an-image-source).
 * **Los** títulos de imagen le permiten definir un título para la imagen.
-* **El texto**  alternativo (correo electrónico) o  **Rótulo**  (página de aterrizaje) permite definir el rótulo vinculado a la imagen (corresponde al atributo  **** altHTML).
+* **El texto alternativo**  (correo electrónico) o  **Rótulo**  (página de aterrizaje) permite definir el rótulo vinculado a la imagen (corresponde al atributo  **** altHTML).
 * Al editar un correo electrónico, **Style** permite especificar el tamaño, el fondo y el borde de la imagen.
 * Al editar una página de aterrizaje, **Dimension** permite especificar el tamaño de la imagen en píxeles.
 
-El editor le permite trabajar con **todos los tipos de imagen** cuyos formatos son compatibles con los exploradores. Para ser compatible con el editor, las animaciones de tipo **&quot;Flash&quot;** deben insertarse en una página HTML de la siguiente manera:
+El editor le permite trabajar con **todos los tipos de imagen** cuyos formatos son compatibles con los navegadores. Para ser compatible con el editor, las animaciones de tipo **&quot;Flash&quot;** deben insertarse en una página HTML de la siguiente manera:
 
 ```
 <object type="application/x-shockwave-flash" data="http://www.mydomain.com/flash/your_animation.swf" width="200" height="400">
