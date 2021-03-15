@@ -6,10 +6,13 @@ description: '“Aprenda a desplazarse por el espacio de trabajo de Adobe Campai
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
+feature: Información general
+role: Profesional empresarial
+level: Principiante
 translation-type: tm+mt
-source-git-commit: 05a44f5baa66df70a57da9467baf71a953aed856
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1293'
 ht-degree: 92%
 
 ---
@@ -38,7 +41,7 @@ La página de inicio está formada por un conjunto de tarjetas que le permiten a
 * La tarjeta **[!UICONTROL Create an SMS]** lleva al asistente de creación de SMS. Este asistente le permite elegir un tipo de SMS, seleccionar los destinatarios de los mensajes y definir el contenido. Consulte la sección [Creación de un SMS](../../channels/using/creating-an-sms-message.md).
 * La tarjeta **[!UICONTROL Create a Direct mail]** lleva al asistente de creación de correo postal. Consulte la sección [Creación de un correo postal](../../channels/using/creating-the-direct-mail.md).
 * La tarjeta **[!UICONTROL Create a push notification]** lleva al asistente de creación de notificaciones. Este asistente le permite elegir un tipo de notificación push, seleccionar los destinatarios de los mensajes y definir el contenido. Consulte la sección [Creación de una notificación push](../../channels/using/preparing-and-sending-a-push-notification.md).
-* La tarjeta **[!UICONTROL Create an In-App message]** lo lleva al asistente de creación en la aplicación. Este asistente le permite seleccionar el tipo de mensaje en la aplicación que desea crear, definir sus propiedades, audiencia y contenido. Consulte la sección [Creación de un mensaje en la aplicación](../../channels/using/about-in-app-messaging.md).
+* La tarjeta **[!UICONTROL Create an In-App message]** lleva al asistente de creación en la aplicación. Este asistente le permite seleccionar el tipo de mensaje en la aplicación que desea crear, definir sus propiedades, audiencia y contenido. Consulte la sección [Creación de un mensaje en la aplicación](../../channels/using/about-in-app-messaging.md) .
 * La tarjeta **[!UICONTROL Marketing activities]** lleva a la lista completa de todas las actividades, programas y campañas, particularmente correos electrónicos, SMS, flujos de trabajo y páginas de aterrizaje. Desde aquí puede filtrar los elementos buscando por nombre, fecha, estado o tipo de actividad. Para obtener más información, consulte la sección [Lista de actividades de marketing](../../start/using/marketing-activities.md#about-marketing-activities).
 * La tarjeta **[!UICONTROL Programs & campaigns]** lleva a la lista de programas en los que puede crear y administrar sus campañas. Consulte [Lista de programas](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns).
 * La tarjeta **[!UICONTROL Timeline]** lleva directamente a una cronología interactiva de las actividades de marketing, en la que puede consultar los programas en curso y su contenido. Consulte [Cronología](../../start/using/timeline.md).
@@ -47,7 +50,7 @@ La página de inicio está formada por un conjunto de tarjetas que le permiten a
 
 ## Barra superior {#top-bar}
 
-La barra superior está visible en todas las pantallas y le permite navegar por las funcionalidades de Adobe Campaign, así como acceder al perfil de Adobe conectado, las notificaciones, las soluciones de Adobe Experience Cloud y la documentación de Campaña.
+La barra superior es visible en todas las pantallas y le permite navegar por las funcionalidades de Adobe Campaign, así como acceder al perfil de Adobe conectado, a las notificaciones, a las soluciones de Adobe Experience Cloud y a la documentación de Campaign.
 
 Los principios de navegación son:
 
@@ -57,7 +60,7 @@ Los principios de navegación son:
 
 * El vínculo **[!UICONTROL Home]** le permite mostrar la página de inicio de Adobe Campaign.
 * Los vínculos **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]**, **[!UICONTROL Audiences]** y **[!UICONTROL Reports]** permiten acceder a las vistas vinculadas a estas funciones.
-* El icono **Conmutador de soluciones** le permite cambiar entre sus organizaciones o a una aplicación diferente.
+* El icono **Solution switch** le permite cambiar entre sus organizaciones o a una aplicación diferente.
 * El icono **[!UICONTROL Help]** se describe [debajo](#help).
 * El icono **Notificaciones** muestra la información o las alertas más recientes.
 * El icono **Usuario** le permite ver información vinculada a su perfil. Utilice este icono si necesita **[!UICONTROL Sign out]**.
