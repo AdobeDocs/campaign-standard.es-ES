@@ -10,9 +10,9 @@ feature: Configuración de instancia
 role: Administrador
 level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '658'
 ht-degree: 96%
 
 ---
@@ -77,11 +77,6 @@ Los flujos de trabajo técnicos se utilizan para gestionar procesos técnicos y 
    <td> <span class="uicontrol">Reconciliación de KPI con Adobe Analytics</span> <br /> </td> 
    <td> <span class="uicontrol">kpiReconciliation</span> <br /> </td> 
    <td> Este flujo de trabajo recupera los KPI del servicio de creación de informes una vez al día y los reconcilia con los datos de Adobe Analytics. Luego inserta la diferencia si es necesario. De forma predeterminada, se inicia cada día a las 04:20.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">Administración de las exclusiones de NMAC</span> <br /> </td> 
-   <td> <span class="uicontrol">mobileAppOptOutMgt</span> <br /> </td> 
-   <td> Este flujo de trabajo actualiza las bajas a las notificaciones en dispositivos móviles. De forma predeterminada, se inicia cada 6 horas entre las 01:00 y medianoche.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Archivado local del centro de mensajes</span> <br /> </td> 
