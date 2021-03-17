@@ -272,7 +272,7 @@ ht-degree: 99%
          + [Asignación de datos entre Microsoft Dynamics 365 y Campaign](integrating/using/d365-acs-self-service-app-data-sync.md)
       + [Usar la integración con Microsoft Dynamics 365](integrating/using/d365-acs-using-the-integration.md)
    + Campaign y Adobe Experience Platform {#adobe-experience-platform}
-      + Servicio Audience Destinations {#audience-destinations}
+      + Servicio Destinos de audiencia {#audience-destinations}
          + [Acerca del servicio Audience Destinations](integrating/using/aep-about-audience-destinations-service.md)
          + [Administración de audiencias de Adobe Experience Platform](integrating/using/aep-managing-audiences.md)
          + [Uso del Generador de segmentos](integrating/using/aep-using-segment-builder.md)
