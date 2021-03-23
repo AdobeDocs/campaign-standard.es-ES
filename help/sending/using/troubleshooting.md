@@ -11,10 +11,10 @@ feature: Capacidad de entrega
 role: Profesional empresarial
 level: Intermedio
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 64%
+source-wordcount: '471'
+ht-degree: 59%
 
 ---
 
@@ -38,7 +38,7 @@ Si el problema persiste, póngase en contacto con los servicios comerciales o de
 
 * **¿Cuál es la diferencia entre una dirección de correo electrónico en lista de bloqueados y una dirección de correo electrónico en cuarentena?**
 
-   * El estado **[!UICONTROL On denylist]** es el resultado de un bucle de retroalimentación (cuando una persona informa un mensaje como correo no deseado).
+   * El estado **[!UICONTROL On denylist]** es el resultado de un [bucle de comentarios](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops) (cuando una persona informa un mensaje como correo no deseado).
 
    * El estado **[!UICONTROL Quarantined]** es el resultado de un rechazo suave o fuerte.
    Para obtener más información, consulte esta [sección](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist).
