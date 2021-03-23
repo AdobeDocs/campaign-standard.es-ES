@@ -11,72 +11,117 @@ feature: Capacidad de entrega
 role: Profesional empresarial
 level: Intermedio
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 82%
+source-wordcount: '749'
+ht-degree: 8%
 
 ---
 
 
-# Acerca de la capacidad de la entrega{#about-deliverability}
+# ¿Qué es la capacidad de envío{#about-deliverability}?
 
-La capacidad de entrega permite medir el éxito de las campañas que llegan a la bandeja de entrada de los destinatarios sin rebotar o marcadas como correo no deseado.
+La capacidad de entrega permite medir el éxito de las campañas que llegan a la bandeja de entrada de los destinatarios sin rebotar o marcadas como correo no deseado. [Descubra por qué la capacidad de envío importa](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html#why-deliverability-matters).
 
-La tasa de entrega depende de numerosos factores, en particular:
+Más precisamente, la capacidad de envío de correo electrónico se refiere al conjunto de características que determinan la capacidad de un mensaje para llegar a su destino a través de una dirección de correo electrónico personal, en poco tiempo y con la calidad esperada en términos de contenido y formato. <!--These characteristics fall into four main categories: data quality, message and content, sending infrastructure, and reputation. Together, they form the foundation of a successful email deliverability program.-->
 
-* Configuración correcta de las instancias
-* Su reputación de dirección IP
-* Calidad de las direcciones objetivo
-* Baja cantidad de quejas y tasas de devolución
-* Su contenido del mensaje
-* Autenticación de mensajes (SPF, DKIM, DMARC)
-* Conocimiento del remitente
+Para profundizar en lo que es la capacidad de envío y obtener más información sobre los términos, conceptos y enfoques clave de la capacidad de envío, consulte la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
 
-## Puntos clave que comprobar {#deliverability-key-points}
+## Cómo mejorar la capacidad de envío {#deliverability-key-points}
 
-Para optimizar la entrega de los correos electrónicos de Adobe Campaign, recomendamos que utilice las optimizaciones que se enumeran a continuación. Los problemas de entrega generalmente están vinculados a medidas de protección contra spam implementadas por los proveedores de servicios de Internet y los administradores de servidores de correo.
+Los problemas de entrega generalmente están vinculados a medidas de protección contra spam implementadas por los proveedores de servicios de Internet y los administradores de servidores de correo.
 
-La capacidad de envío de correo electrónico hace referencia al conjunto de características que determinan la capacidad de un mensaje para llegar a su destino a través de una dirección de correo electrónico personal, en poco tiempo y con la calidad esperada en términos de contenido y formato. Estas características se dividen en cuatro categorías principales: calidad de datos, mensaje y contenido, infraestructura de envío y reputación. Juntas forman la base del éxito de un programa de envío de correo electrónico.
+* Para obtener recomendaciones generales sobre cómo diseñar campañas de marketing por correo electrónico exitosas, consulte [Estrategia de entrega y definición](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html).
 
-La tasa de entrega es el número de correos electrónicos enviados correctamente a sus destinatarios.
-A continuación se muestra una lista de los puntos clave que se deben comprobar para garantizar una buena entrega.
+* Para obtener recomendaciones más específicas sobre cómo optimizar la entrega de los correos electrónicos de Adobe Campaign, recomendamos utilizar las prácticas recomendadas que se enumeran en esta sección.
 
-## Herramientas de envío {#deliverability-tools}
+>[!NOTE]
+>
+>Debido a que los ISP están obligados a desarrollar continuamente nuevas técnicas sofisticadas de filtrado para proteger a sus clientes de los remitentes de spam, la capacidad de envío del correo electrónico se caracteriza por criterios y reglas que cambian constantemente. Asegúrese de consultar la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html), que se actualiza regularmente.
 
-En primer lugar, comience consultando la documentación sobre las herramientas de envío proporcionadas con el Campaign Standard:
+### Tasa de entrega
+
+La tasa de entrega es el número de mensajes que llegan a las bandejas de entrada de los destinatarios en comparación con el número de mensajes que se entregaron. Para mejorar la capacidad de envío, puede aumentar esta tasa.
+
+Con Adobe Campaign, la tasa de entrega depende de numerosos factores, especialmente:
+
+* Configuración correcta de las instancias: póngase en contacto con su representante del Adobe para obtener ayuda.
+* Configuración de red legítima: consulte [esta sección](../../sending/using/optimize-delivery.md#network-config) y [Configuración y estrategia del dominio](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#domain-setup-and-strategy).
+* Su reputación de dirección IP: consulte [IP strategy](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#ip-strategy).
+* Calidad de las direcciones objetivo: consulte [Administración de cuarentena](../../sending/using/optimize-delivery.md#quarantine-management).
+* Baja [quejas](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html) y [tasas de rechazo grave](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces).
+* El contenido del mensaje: consulte [Control del contenido del correo electrónico](../../sending/using/control-email-content.md).
+* Autenticación de mensajes (SPF, DKIM, DMARC): consulte [esta sección](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).
+* Conocimiento del remitente: para conocer cómo evalúan los principales ISP la reputación de un remitente, consulte [esta sección](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html).
+
+## Herramientas de envío de campañas {#deliverability-tools}
+
+Adobe Campaign proporciona una serie de herramientas para rastrear y mejorar el rendimiento de envío de su plataforma. Esta página también resalta los principios principales que debe tener en cuenta para optimizar la capacidad de envío al utilizar Campaign.
+
+### Cree cuidadosamente su mensaje
+
+Al configurar, diseñar y probar el mensaje, asegúrese de seguir las prácticas recomendadas que se mencionan en las secciones a continuación. El uso de todas las funciones que proporciona Adobe Campaign le ayudará a mejorar la capacidad de envío.
+
 * [Prácticas recomendadas relacionadas con las entregas](../../sending/using/delivery-best-practices.md)
-* [Personalización del nombre del remitente](../../designing/using/personalization.md#personalizing-the-sender)
-* [Optimización del tiempo de envío](../../sending/using/optimizing-the-sending-time.md)
+* [Control del contenido del correo electrónico](../../sending/using/control-email-content.md)
 * [Vista previa de mensajes](../../sending/using/previewing-messages.md)
-* [Procesamiento de correo electrónico](../../sending/using/email-rendering.md)
-* [Seguimiento de una entrega](../../sending/using/monitoring-a-delivery.md)
-* [Recibir alertas cuando se produzcan errores](../../sending/using/receiving-alerts-when-failures-happen.md)
+* [Envío de pruebas](../../sending/using/sending-proofs.md)
+
+### Verifique el consentimiento mediante la doble adhesión {#double-opt-in}
+
+Para evitar el envío de mensajes a direcciones no válidas, limitar las comunicaciones incorrectas y mejorar la reputación del remitente, Adobe recomienda implementar un mecanismo de inclusión doble. Esto le permite garantizar que sus destinatarios se hayan suscrito intencionadamente.
+
+Para obtener más información sobre esto, consulte [Acerca de la inclusión y la exclusión en Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+
+Para obtener más información sobre las prácticas recomendadas al recopilar datos de sus clientes, consulte la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html#data-quality-and-hygiene).
+
+### Aprovechar la administración de cuarentena
+
+Adobe Campaign administra una lista que recopila quejas por correo no deseado, rechazos graves y rechazos leves que se producen de forma coherente.
+
+Para proteger la capacidad de envío, los destinatarios cuyas direcciones están en esa lista se excluyen de forma predeterminada de todos los envíos futuros, ya que el envío a estos contactos podría dañar su reputación de envío.
+
+Algunos proveedores de acceso a Internet consideran automáticamente los correos electrónicos como no deseados si la tasa de direcciones no válidas es demasiado alta. Por lo tanto, la cuarentena le permite evitar ser incluido en la lista de bloqueados de bloqueados por estos proveedores.
+
+Para obtener más información, consulte las secciones siguientes:
+
 * [Comprensión de los errores de entrega](../../sending/using/understanding-delivery-failures.md)
 * [Comprensión de la gestión de la cuarentena](../../sending/using/understanding-quarantine-management.md)
 * [Cuarentena frente a lista de bloqueados](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
+
+### Uso de herramientas de supervisión y creación de informes
+
+Utilice las funciones que ofrece Adobe Campaign para supervisar la capacidad de envío.
+
+Adobe Campaign le permite comprobar el rendimiento de sus envíos a través de un conjunto de indicadores integrados en tiempo real. <!--For example, you can check the number of messages that are successfully executed, sent and delivered. You can also verify the number of messages that have been opened and the number of messages/links that have been clicked.-->También puede crear informes totalmente personalizables y en tiempo real para obtener una mejor perspectiva de los envíos.
+
+Para obtener más información, consulte las secciones siguientes:
+
+* [Supervisión de la capacidad de entrega](../../sending/using/monitor-deliverability.md)
+
+   <!--[Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)-->
+* [Recibir alertas cuando se produzcan errores](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Informes dinámicos](../../reporting/using/about-dynamic-reports.md)
 
-## Comprobación de la configuración de red {#network-configuration}
+<!--## General recommendations
 
-Los remitentes de spam intentan ocultar su identidad real y, como consecuencia, dificultan la identificación de sus servidores. Una configuración de red legítima que no intente ocultar la identidad del servidor es esencial para enviar correos electrónicos en grandes volúmenes.
+NOT SURE TO KEEP
 
-## Envío a direcciones válidas {#valid-addresses}
+Here are a few additional recommendations when it comes to deliverability.
 
-Los remitentes de spam suelen utilizar generadores de direcciones basados en listas de nombres y apellidos frecuentes; además, rara vez procesan las notificaciones técnicas enviadas por los servidores de correo. Una tasa alta de direcciones no válidas se interpreta a menudo como un signo de spam. Los mecanismos de doble inclusión y el manejo eficaz de los mensajes de devolución técnicos permiten evitar esto.
+### Send to valid addresses {#valid-addresses}
 
-## Reducción de la tasa de quejas {#reduce-complaint-rate}
+Spammers often use address generators based on lists of frequent names and first names; in addition, they rarely process technical notifications sent back by mail servers. A high rate of invalid addresses is often interpreted as a sign of spam.
 
-Los proveedores de servicios de Internet generalmente tienen un medio prominente para informar un mensaje recibido como correo no deseado. Esto permite identificar fuentes no fiables. Al cumplir con rapidez las solicitudes de exclusión, utilizar con regularidad una lista determinada, verificar el consentimiento a través de un sistema de doble inclusión e implementar círculos de retroalimentación, puede reducir las tasas de quejas.
+Double opt-in mechanisms and effective handling of technical bounce messages make it possible to avoid this.
 
-## Envío a direcciones de honeypot {#honeypot-addresses}
+### Reduce complaint rate {#reduce-complaint-rate}
 
-Los ISP y otras organizaciones (consulte http://www.projecthoneypot.org/) utilizan buzones de correo que no corresponden a personas físicas pero que se crean simplemente para engañar a los remitentes de correo no deseado. Estas llamadas &quot;honey pot&quot; se publican en la web para ser recogidas por los spambots y así atrapar a remitentes ilegítimos. El uso de un mecanismo de doble inclusión impide que este tipo de dirección se agregue a una lista. Al utilizar una lista de terceros, debe estar seguro de los métodos empleados por su mantenedor.
+ISPs usually have a prominent means of reporting a received message as spam. This makes it possible to identify unreliable sources. By rapidly honoring opt-out requests, making regular use of a given list, verifying consent through a double opt-in system, and implementing feedback loops, you can reduce complaint rates.
 
-## Adaptación del contenido del mensaje {#adapt-message-content}
+<!--Sending to honeypot addresses {#honeypot-addresses}
+ISPs and other organizations (refer to https://www.projecthoneypot.org/) make use of mailboxes that do not correspond to physical persons but are created simply to trick spammers. These so-called "honey pot" addresses are published on the Web in order to be collected by spambots and thus catch illegitimate senders. The use of a double opt-in mechanism precludes this sort of address being added to a list. When using a third-party list, you must be sure of the methods employed by its maintainer.-->
 
-En menor medida, el contenido de ciertos mensajes puede llevar a ciertos filtros a detectarlo como correo no deseado. El uso de ciertas palabras, el uso de exclamaciones en la línea del asunto y dentro de los mensajes se interpretan como signos reveladores de spam. También se sabe que los remitentes de spam reemplazan el texto con imágenes para evitar que el texto ofensivo se analice automáticamente mediante filtros antispam. En respuesta a esto, un mensaje (en formato HTML) con una alta proporción de imágenes, o imágenes como archivos adjuntos, puede terminar siendo bloqueado.
+<!--## Sending on a regular basis {#regular-deliveries}
 
-## Envío regular {#regular-deliveries}
-
-Los remitentes de spam realizan entregas programadas para mantener su reputación con el tiempo. A veces necesitan adaptar su plan de mercadotecnia para cumplir con las mejores prácticas impuestas por los ISP y así, después de un pico de reputación (aumento), configuran entregas regulares.
+Spammers make programmed deliveries to maintain their reputation over time. They sometimes need to adapt their marketing plan to meet the best practices imposed by the ISPs and so, after a peak in reputation (ramp-up), they configure regular deliveries.-->
