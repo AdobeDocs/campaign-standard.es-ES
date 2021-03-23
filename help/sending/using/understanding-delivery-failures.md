@@ -10,10 +10,10 @@ feature: Capacidad de entrega
 role: Profesional empresarial
 level: Intermedio
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1310'
+ht-degree: 73%
 
 ---
 
@@ -38,6 +38,7 @@ Los mensajes también se pueden excluir durante la preparación de la entrega si
 
 * [Comprensión de la gestión de la cuarentena](../../sending/using/understanding-quarantine-management.md)
 * [Acerca de la inclusión y la exclusión en Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [Devoluciones](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
 
 ## Identificación de errores de entrega para un mensaje {#identifying-delivery-failures-for-a-message}
 
@@ -75,6 +76,11 @@ Los posibles motivos de un error de entrega son:
 | **[!UICONTROL Text too long]** | Ignorado | El número de caracteres del mensaje SMS supera el límite. Para obtener más información, consulte [Codificación, longitud y transliteración del SMS](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration). |
 | **[!UICONTROL Character not supported by encoding]** | Ignorado | El mensaje SMS contiene uno o varios caracteres que no son compatibles con la codificación. Para obtener más información, consulte [Tabla de caracteres: estándar GSM](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard). |
 
+
+**Temas relacionados:**
+* [Rechazos graves](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
+* [Rechazos leves](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
+
 ## Reintentos tras un fallo temporal de entrega {#retries-after-a-delivery-temporary-failure}
 
 Si un mensaje falla debido a un error temporal del tipo **Ignorado** , se realizarán reintentos durante la entrega. Para obtener más información sobre los tipos de errores, consulte [Tipos y motivos de errores de entrega](#delivery-failure-types-and-reasons).
@@ -91,13 +97,12 @@ Para modificar la duración de una entrega, vaya a los parámetros avanzados de 
 
 Por ejemplo, si desea que los reintentos de un envío se detengan después de un día, puede establecer la duración del envío en **1d** y los mensajes de la cola de reintentos se eliminarán después de un día.
 
-<!--For example, if you want retries for a delivery to stop after one day, you can set the delivery duration to **1d**, and the Enhanced MTA will honor that setting by removing messages in the retry queue after one day.-->
-
 >[!NOTE]
 >
 >Una vez que un mensaje ha estado en la cola de reintentos durante un máximo de 3,5 días y no se ha podido entregar, se agotará el tiempo de espera y su estado se actualizará<!--from **[!UICONTROL Sent]**--> a **[!UICONTROL Failed]** en los [registros de envío](../../sending/using/monitoring-a-delivery.md#delivery-logs).
 
-<!--The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
+<!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
+The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
 
 ## Errores sincrónicos y asíncronos {#synchronous-and-asynchronous-errors}
 
@@ -116,7 +121,11 @@ Para los mensajes de error de error de envío sincrónico, el MTA mejorado de Ad
 
 Las devoluciones asincrónicas siguen siendo calificadas por el proceso enMail a través de las **[!UICONTROL Inbound email]** reglas. Para acceder a estas reglas, haga clic en el logotipo **[!UICONTROL Adobe Campaign]**, en la parte superior izquierda, seleccione **[!UICONTROL Administration > Channels > Email > Email processing rules]** y luego **[!UICONTROL Bounce mails]**. Para obtener más información sobre esta regla, consulte [esta sección](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
-<!--Bounces can have the following qualification statuses:
+Para obtener más información sobre las devoluciones y los distintos tipos de devoluciones, consulte [esta sección](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
+
+<!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
+
+Bounces can have the following qualification statuses:
 
 * **[!UICONTROL To qualify]**: the bounce mail needs to be qualified. Qualification must be done by the Deliverability team to ensure that the platform deliverability functions correctly. As long as it is not qualified, the bounce mail is not used to enrich the list of email processing rules.
 * **[!UICONTROL Keep]**: the bounce mail was qualified and will be used by the **Update for deliverability** workflow to be compared to existing email processing rules and enrich the list.
