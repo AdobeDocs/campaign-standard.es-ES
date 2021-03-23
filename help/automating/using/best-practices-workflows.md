@@ -11,10 +11,10 @@ feature: Flujos de trabajo
 role: Arquitecto de datos
 level: Principiante
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: b82335a0c0bf1abc7b9645beee83ac659c4d6b83
 workflow-type: tm+mt
 source-wordcount: '1183'
-ht-degree: 85%
+ht-degree: 84%
 
 ---
 
