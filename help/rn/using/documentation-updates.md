@@ -10,10 +10,10 @@ feature: Información general
 role: Profesional empresarial
 level: Principiante
 translation-type: tm+mt
-source-git-commit: a632087e69a952ff71b828670a1df19ead3dc2c8
+source-git-commit: dd71d843436220c0313d08d76c17633306301456
 workflow-type: tm+mt
-source-wordcount: '6639'
-ht-degree: 99%
+source-wordcount: '6736'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,13 @@ La sección que enumera los pasos clave para enviar un mensaje se ha mejorado co
 
 Se ha añadido información para especificar que, al seleccionar una audiencia en una consulta, su definición se copia y no se hace referencia a ella. [Obtenga más información](../../audiences/using/selecting-an-audience-in-a-message.md)
 
-La información relacionada con el servicio Audience Destinations y el conector de datos de Adobe Experience Platform se ha reagrupado en una nueva sección. [Obtenga más información](../../integrating/using/aep-about-audience-destinations-service.md)
+La información relacionada con el servicio Destinos de audiencia y el Conector de datos de Adobe Experience Platform se ha reagrupado en una nueva sección. [Obtenga más información](../../integrating/using/aep-about-audience-destinations-service.md)
+
+**Ahora, la fuente de datos de** ID declarada también se puede utilizar con la integración del servicio principal Personas. Se ha añadido información en la documentación de integración de Campaign-Audience Manager o del servicio principal People. [Obtenga más información](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
+
+Se ha añadido información sobre cómo implementar el seguimiento local para la aplicación móvil. [Obtenga más información](../../administration/using/local-tracking.md)
+
+La sección [Deliverability](../../sending/using/about-deliverability.md) se ha actualizado y ahora incluye vínculos a la nueva [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html). Toda la información genérica relacionada con la capacidad de envío que se puede aplicar a varias soluciones de Adobe se ha trasladado al [Apéndice de la Guía de prácticas recomendadas](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html#additional-resources).
 
 ## Versión 21.1: febrero de 2021 {#release-21-1---february-2021}
 
@@ -274,7 +280,7 @@ La sección Exportación de registros se ha actualizado para reflejar la disponi
 
 ## Enero de 2020 {#doc-updates-january-2020}
 
-La documentación sobre la capacidad de la entrega se ha actualizado con una nueva sección sobre la certificación de IP. [Más información](../../sending/using/ip-certification.md)
+La documentación sobre la capacidad de la entrega se ha actualizado con una nueva sección sobre la certificación de IP.<!--[Read more](../../sending/using/ip-certification.md)-->
 
 Hay disponible una nueva sección que describe cómo crear un flujo de trabajo de entrega multicanal. [Más información](../../automating/using/workflow-cross-channel-delivery.md)
 
