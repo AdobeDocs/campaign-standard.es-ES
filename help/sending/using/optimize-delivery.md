@@ -11,10 +11,10 @@ feature: Capacidad de entrega
 role: Profesional empresarial
 level: Intermedio
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 86%
+source-wordcount: '754'
+ht-degree: 85%
 
 ---
 
@@ -55,7 +55,7 @@ Para llegar a la bandeja de entrada de sus destinatarios sin rebotar ni ser marc
 
    * Al comprobar la tasa de envíos de sus correos electrónicos, debe centrarse en cuatro categorías principales: calidad de los datos, mensaje y contenido, infraestructuras de envío y reputación. Para profundizar en este tema, consulte [esta sección](../../sending/using/about-deliverability.md).
 
-* Al iniciar una nueva plataforma, aplique las recomendaciones detalladas [en esta página](../../sending/using/starting-new-platform.md).
+* Al iniciar una nueva plataforma, aplique las recomendaciones detalladas en [esta página](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process).
 
 * Póngase en contacto con su representante de Adobe para obtener ayuda.
 
