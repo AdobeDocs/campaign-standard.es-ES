@@ -24,17 +24,17 @@ Además de las [Notas de la versión](../../rn/using/release-notes.md) de Adobe 
 
 ## Marzo de 2021 {#doc-updates-march-2021}
 
-La página &quot;Opciones de ayuda y asistencia&quot; del Campaign Standard se ha integrado en la documentación principal. [Obtenga más información](../../support.md)
+La página &quot;Opciones de ayuda y asistencia&quot; del Campaign Standard se ha integrado en la documentación principal. [Más información](../../support.md)
 
-La sección que enumera los pasos clave para enviar un mensaje se ha mejorado con información y referencias adicionales. [Obtenga más información](../../channels/using/key-steps-to-send-a-message.md)
+La sección que enumera los pasos clave para enviar un mensaje se ha mejorado con información y referencias adicionales. [Más información](../../channels/using/key-steps-to-send-a-message.md)
 
 Se ha añadido información para especificar que, al seleccionar una audiencia en una consulta, su definición se copia y no se hace referencia a ella. [Obtenga más información](../../audiences/using/selecting-an-audience-in-a-message.md)
 
-La información relacionada con el servicio Destinos de audiencia y el Conector de datos de Adobe Experience Platform se ha reagrupado en una nueva sección. [Obtenga más información](../../integrating/using/aep-about-audience-destinations-service.md)
+La información relacionada con el servicio Destinos de audiencia y el Conector de datos de Adobe Experience Platform se ha reagrupado en una nueva sección. [Más información](../../integrating/using/aep-about-audience-destinations-service.md)
 
-**Ahora, la fuente de datos de** ID declarada también se puede utilizar con la integración del servicio principal Personas. Se ha añadido información en la documentación de integración de Campaign-Audience Manager o del servicio principal People. [Obtenga más información](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
+**Ahora, la fuente de datos de** ID declarada también se puede utilizar con la integración del servicio principal Personas. Se ha añadido información en la documentación de integración de Campaign-Audience Manager o del servicio principal People. [Más información](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
-Se ha añadido información sobre cómo implementar el seguimiento local para la aplicación móvil. [Obtenga más información](../../administration/using/local-tracking.md)
+Se ha añadido información sobre cómo implementar el seguimiento local para la aplicación móvil. [Más información](../../administration/using/local-tracking.md)
 
 La sección [Deliverability](../../sending/using/about-deliverability.md) se ha actualizado y ahora incluye vínculos a la nueva [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html). Toda la información genérica relacionada con la capacidad de envío que se puede aplicar a varias soluciones de Adobe se ha trasladado al [Apéndice de la Guía de prácticas recomendadas](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html#additional-resources).
 
@@ -450,7 +450,7 @@ Se ha publicado un nuevo artículo de Planificación de versiones para compartir
 
 Se han actualizado los enlaces de ayuda contextual disponibles directamente desde Adobe Campaign.
 
-La siguiente [página](https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/overview.translate.html) se convierte en la página oficial de vídeos de Adobe Campaign Standard.
+La siguiente [página](https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/overview.html) se convierte en la página oficial de vídeos de Adobe Campaign Standard.
 
 Se ha añadido una sección sobre retención de datos que incluye los valores de retención predeterminados para las tablas estándar. [Más información](../../administration/using/data-retention.md)
 
@@ -820,7 +820,7 @@ La sección “Recursos personalizados” se ha aclarado con un procedimiento m�
 
 Se ha actualizado y aclarado la [nota técnica](https://helpx.adobe.com/es/campaign/kb/integrate-mobile-sdk.html) sobre cómo integrar el SDK móvil de Adobe Marketing Cloud con una aplicación móvil para recibir notificaciones push de Adobe Campaign Standard.
 
-Se ha añadido una nota técnica que explica la estructura de la carga recibida en una aplicación móvil. [Más información.](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/communication-channels/push-notifications/push-payload.translate.html)
+Se ha añadido una nota técnica que explica la estructura de la carga recibida en una aplicación móvil. [Más información.](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/communication-channels/push-notifications/push-payload.html)
 
 La [sección](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) de configuración de canal push se ha actualizado con nuevos datos de carga en la versión del sistema operativo para añadirlos al definir devoluciones en la interfaz de Adobe Mobile Services.
 
@@ -938,7 +938,7 @@ Notificaciones push recurrentes: [Más información](../../automating/using/push
 
 Conector Amazon Simple Storage Service (S3): [Más información](../../administration/using/external-accounts.md)
 
-Integración de Dreamweaver en vivo: [Más información](https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html)
+Integración de Dreamweaver en vivo: [Más información](https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 **Otras actualizaciones de la documentación incluidas en la versión**
 
