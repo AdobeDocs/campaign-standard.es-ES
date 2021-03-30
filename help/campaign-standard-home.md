@@ -8,9 +8,9 @@ feature: Información general
 role: Profesional empresarial
 level: Principiante
 translation-type: tm+mt
-source-git-commit: 8d47cc5546a392283e90914e3b6c9d7e70aaa218
+source-git-commit: 89f2557865ea943405cec1ac53ea20f08ca32aaa
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '237'
 ht-degree: 100%
 
 ---
@@ -66,7 +66,7 @@ Obtenga más información sobre las directrices generales para envíos móviles 
   </td>
   <td valign="top">
        <img alt="Asistencia técnica" src="start/using/assets/do-not-localize/help.jpeg" />
-    <div><a href="https://helpx.adobe.com/es/campaign/kb/ac-support.html">
+    <div><a href="support.md">
     <strong>Obtener asistencia</strong></a>
     </div>
     <p><em>Acceda a preguntas frecuentes, prácticas recomendadas, recursos de ayuda y conecte con los expertos</em></p>
