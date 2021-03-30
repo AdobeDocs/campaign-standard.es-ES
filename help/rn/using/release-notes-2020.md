@@ -9,11 +9,11 @@ topic-tags: campaign-standard-releases
 feature: Información general
 role: Profesional empresarial
 level: Principiante
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5327'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 99%
 
 [Planificación de versiones](https://helpx.adobe.com/es/campaign/kb/acs-release-planning.html) | [Versiones del Panel de control](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html) | [Actualizaciones de documentación](../../rn/using/documentation-updates.md) | [Notas de la versión anteriores](../../rn/using/release-notes-2019.md) | [Funciones obsoletas](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=es#release-notes)
 
-![](assets/do-not-localize/cp-icon.png) **Nuevo lanzamiento del Panel de control de Campaign en junio** con monitorización de perfiles activos, auditoría de entregas de subdominios y administración de claves GPG. [Más información](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Nuevo lanzamiento del Panel de control de Campaign en junio** con monitorización de perfiles activos, auditoría de entregas de subdominios y administración de claves GPG. [Más información](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html).
 
-![](assets/do-not-localize/cp-icon.png) **la nueva versión de Panel de control de Campaign de octubre** con configuración de dominio mediante CNAME y nuevas funciones de supervisión de bases de datos. [Más información](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **la nueva versión de Panel de control de Campaign de octubre** con configuración de dominio mediante CNAME y nuevas funciones de supervisión de bases de datos. [Más información](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html).
 
 ## Versión 20.4: octubre de 2020 {#release-20-4---october-2020}
 
@@ -210,7 +210,7 @@ ht-degree: 99%
 <li>Derecho al acceso y derecho a la eliminación: aprovechamos las funciones añadidas para el RGPD y la CCPA. <a href="https://helpx.adobe.com/content/help/es/campaign/kb/acs-privacy.html#righttoaccess">Más información</a> </li>
 <li><p>Al crear una solicitud de privacidad, se ha agregado el tipo de regulación PDPA en el servicio principal de privacidad. Este método es el que debe utilizar para todas las solicitudes de acceso y eliminación. El uso de la API y la interfaz de Campaign para las solicitudes de acceso y eliminación quedará obsoleto.  Consulte el artículo <a href="../../rn/using/deprecated-features.md">Funciones obsoletas y eliminadas</a>.</p></li>
 </ul>
-<p>Consulte el vídeo de <a href="https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/privacy/privacy-overview.translate.html">procedimiento</a>.</p>
+<p>Consulte el vídeo de <a href="https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/privacy/privacy-overview.html">procedimiento</a>.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -231,7 +231,7 @@ ht-degree: 99%
 <li>Seleccionar y utilizar un objeto de matriz de un JSON sin tener que nombrar al objeto "data" ni tenerlo en el nivel superior.</li>
 </ul>
 <p><strong>Precaución:</strong> Los clientes deberán <strong>reemplazar todas las actividades de API externas beta</strong> con actividades de API externas de GA en sus flujos de trabajo.  Los flujos de trabajo que utilizan la versión beta de la API externa dejarán de funcionar en la versión 20.3.</p>
-<p>Para obtener más información, consulte la <a href="../../automating/using/external-api.md">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/managing-processes-and-data/data-management-activities/external-api-activity.translate.html">videotutorial</a>.</p>
+<p>Para obtener más información, consulte la <a href="../../automating/using/external-api.md">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">videotutorial</a>.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -294,7 +294,7 @@ ht-degree: 99%
 * Se ha corregido un error que impedía a los usuarios realizar cambios en los informes. (CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **El nuevo Panel de control de Campaign puede lanzarse** con la renovación de los certificados para los subdominios CNAME. [Más información](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **El nuevo Panel de control de Campaign puede lanzarse** con la renovación de los certificados para los subdominios CNAME. [Más información](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html).
 
 ## Versión 20.2: abril de 2020 {#release-20-2---april-2020}
 
@@ -324,7 +324,7 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td> <p>Además de probar los perfiles, ahora puede probar los correos electrónicos en perfiles de destino reales. Esto le permite obtener una representación exacta del mensaje que recibirá el perfil: campos personalizados, información dinámica y personalizada, incluidos los datos adicionales de flujos de trabajo, etc. </p>
-    <p>Para obtener más información, consulte la <a href="../../sending/using/testing-messages-using-target.md">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.translate.html">videotutorial</a>. </p>
+    <p>Para obtener más información, consulte la <a href="../../sending/using/testing-messages-using-target.md">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">videotutorial</a>. </p>
    </td> 
   </tr> 
  </tbody> 
@@ -332,7 +332,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->En abril se lanzarán nuevas funciones en el Panel de control de Campaign, incluida la administración de registros TXT de Google, la supervisión de espacio en la base de datos y las alertas por correo electrónico. Para obtener más información sobre estas funciones, consulte la [Nota de la versión del Panel de control](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
+>En abril se lanzarán nuevas funciones en el Panel de control de Campaign, incluida la administración de registros TXT de Google, la supervisión de espacio en la base de datos y las alertas por correo electrónico. Para obtener más información sobre estas funciones, consulte la [Nota de la versión del Panel de control](https://docs.adobe.com/content/help/es-ES/control-panel/using/release-notes.html).
 
 **Mejoras**
 
@@ -426,7 +426,7 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td> <p>Audience Destinations le permite compartir segmentos de Adobe Experience Platform en Adobe Campaign.</p>
-    <p>Tenga en cuenta que esta funcionalidad solo está disponible para los clientes alojados en Azure. Para obtener más información sobre esta funcionalidad y las condiciones para activarla, consulte la <a href="../../integrating/using/aep-about-audience-destinations-service.md">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.translate.html">videotutorial</a>. </p>
+    <p>Tenga en cuenta que esta funcionalidad solo está disponible para los clientes alojados en Azure. Para obtener más información sobre esta funcionalidad y las condiciones para activarla, consulte la <a href="../../integrating/using/aep-about-audience-destinations-service.md">documentación detallada</a> y el <a href="https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">videotutorial</a>. </p>
    </td> 
   </tr> 
  </tbody> 
