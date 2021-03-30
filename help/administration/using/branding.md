@@ -11,10 +11,10 @@ feature: Configuración de instancia
 role: Administrador
 level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt
-source-wordcount: '1254'
-ht-degree: 80%
+source-wordcount: '1286'
+ht-degree: 78%
 
 ---
 
@@ -94,6 +94,10 @@ Puede añadir nuevas entidades de su organización en Campaign o crear un nuevo 
 
 1. **Configurar un nuevo subdominio** : para que el Adobe utilice cualquier nuevo subdominio, el primer paso es configurarlo. Puede hacerlo a través del [Panel de control de Campaign de Campaign](https://docs.adobe.com/content/help/es-ES/control-panel/using/subdomains-and-certificates/subdomains-branding.html) o ponerse en contacto con el contacto técnico de su Adobe. Obtenga más información sobre la configuración de subdominios [en este artículo](https://helpx.adobe.com/es/campaign/kb/domain-name-delegation.html).
 
+   >[!NOTE]
+   >
+   >Todos los usuarios administradores pueden acceder a Panel de control de Campaign. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+
 1. **Crear un ticket** : Una vez configurado el subdominio, Adobe deberá configurarlo en el entorno de producción. Para solicitar esto, [cree un ticket para Client Care](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) con la siguiente información:
 
    * Asunto: ACS Nueva configuración de marca
@@ -106,7 +110,7 @@ Puede añadir nuevas entidades de su organización en Campaign o crear un nuevo 
 
 1. **Crear una plantilla de envíos** : una vez que la nueva marca está disponible, se recomienda crear al menos una nueva plantilla de envíos en blanco que haga referencia a esta nueva marca. [Más información](#linking-a-brand-to-a-template).
 
-1. **Comprobar las directrices de capacidad de entrega** : antes de empezar a usar el nuevo dominio, la estrategia debe discutirse con el equipo de entrega de Adobe. Ayudarán a definir las prácticas recomendadas si se debe crear una nueva afinidad para dividir las direcciones IP entre dominios, por ejemplo, o si se debe definir un plan de aceleración. Obtenga más información sobre las prácticas recomendadas de entrega [en esta sección](../../sending/using/about-deliverability.md).
+1. **Comprobar las directrices**  de entregabilidad: antes de empezar a usar el nuevo dominio, la estrategia debe discutirse con el equipo de entrega de Adobe. Ellos ayudarán a definir las mejores prácticas, si se debe crear una nueva afinidad para dividir las IP entre dominios, por ejemplo, y/o si se debe definir un plan de aumento. Obtenga más información sobre las mejores prácticas de entrega [en esta sección](../../sending/using/about-deliverability.md).
 
 ## Asignación de una marca a un correo electrónico {#assigning-a-brand-to-an-email}
 
