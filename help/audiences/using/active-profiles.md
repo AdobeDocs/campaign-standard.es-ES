@@ -10,9 +10,9 @@ feature: Perfiles
 role: Profesional empresarial
 level: Intermedio
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '310'
 ht-degree: 12%
 
 ---
@@ -26,10 +26,9 @@ Adobe Campaign proporciona un informe que muestra el número de perfiles activos
 
 >[!NOTE]
 >
->Si está alojado en AWS y utiliza el Campaign Standard de la compilación 10368, también puede supervisar el número de perfiles activos utilizados en las instancias directamente desde el Panel de control de Campaign. Para obtener más información, consulte la [documentación del Panel de control de Campaign](https://docs.adobe.com/content/help/es-ES/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
+>Si utiliza Campaign Standard de la compilación 10368, también puede supervisar el número de perfiles activos utilizados en las instancias directamente desde el Panel de control de Campaign. Para obtener más información, consulte la [documentación del Panel de control de Campaign](https://docs.adobe.com/content/help/es-ES/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
 >
 >Tenga en cuenta que la métrica de perfiles activos está disponible y es relevante solo para **instancias de marketing**. No es aplicable ni está disponible para instancias de ejecución, es decir, instancias de MID (intermediario) y RT (centro de mensajes/mensajería en tiempo real).
-
 
 No se tienen en cuenta los perfiles que se excluyeron durante la preparación de la entrega (reglas de tipología, cuarentena o grupos de control). Un perfil identificado por varios envíos solo se contará una vez. En la parte inferior del informe, encontrará la lista de perfiles activos para cada dimensión de segmentación.
 
