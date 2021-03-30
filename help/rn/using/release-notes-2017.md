@@ -10,7 +10,7 @@ feature: Información general
 role: Profesional empresarial
 level: Principiante
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 274a9db2061f78dae9e31790629485d0411d83fb
 workflow-type: tm+mt
 source-wordcount: '4631'
 ht-degree: 8%
@@ -44,7 +44,7 @@ Vea las [actualizaciones de documentación](../../rn/using/documentation-updates
   </tr> 
   <tr> 
    <td> Creación de contenido: Importar desde una dirección URL<br /> </td> 
-   <td> Importar desde una URL permite recuperar rápidamente el contenido creativo de un sitio web para crear correos electrónicos para cualquier envío. Además, puede optimizar el proceso creativo permitiendo que terceros compartan contenido directamente a través de una URL. El contenido importado se puede utilizar de forma flexible como parte de un solo envío o a nivel de plantilla para garantizar la coherencia de la marca en todas las campañas relacionadas, ya sean mensajes transaccionales o basados en flujos de trabajo, e incluir pruebas A/B o multivariadas. Importar desde una dirección URL convierte y rastrea automáticamente todos los vínculos para supervisar el rendimiento del correo electrónico a través de los informes dinámicos.<br /> Para obtener más información, consulte la <a href="../../designing/using/using-existing-content.md#importing-content-from-a-url">documentación detallada</a>.<br /> </td> 
+   <td> Importar desde una URL permite recuperar rápidamente el contenido creativo de un sitio web para crear correos electrónicos para cualquier envío. Además, puede optimizar el proceso creativo permitiendo que terceros compartan contenido directamente a través de una URL. El contenido importado se puede utilizar de forma flexible como parte de un solo envío o a nivel de plantilla para garantizar la coherencia de la marca en todas las campañas relacionadas, ya sean mensajes transaccionales o basados en flujos de trabajo, e incluir pruebas A/B o multivariadas. Importar desde una dirección URL convierte y rastrea automáticamente todos los vínculos para supervisar el rendimiento del correo electrónico a través de los informes dinámicos.<br /> Para obtener más información, consulte la <a href="../../designing/using/using-existing-content.md">documentación detallada</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
