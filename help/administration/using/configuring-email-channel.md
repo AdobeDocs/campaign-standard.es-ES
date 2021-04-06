@@ -10,14 +10,14 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 feature: Configuración de instancia
 role: Administrador
 level: Con experiencia
+exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: b899d1926526fccb2fe1fa42db7a4e4317ddb1cb
 workflow-type: tm+mt
-source-wordcount: '2568'
-ht-degree: 77%
+source-wordcount: '2602'
+ht-degree: 76%
 
 ---
-
 
 # Configuración de canales de correo electrónico{#configuring-email-channel}
 
@@ -311,7 +311,7 @@ La sección **[!UICONTROL Access authorization]** contiene los siguientes parám
 
 ## Configuración heredada {#legacy-settings}
 
-Si está **no** ejecutando la versión más reciente de Campaign, los parámetros y las secciones de interfaz de usuario que se describen a continuación le seguirán siendo aplicables.
+Si está **NOT** ejecutando la versión más reciente de Campaign, los parámetros y las secciones de interfaz de usuario que se describen a continuación le seguirán siendo aplicables.
 
 ### Reintentos {#legacy-retries}
 
@@ -340,6 +340,10 @@ Las devoluciones pueden tener los siguientes estados de calificación:
 * **[!UICONTROL To qualify]**: el correo rechazado debe estar clasificado. El equipo de entrega debe realizar la clasificación para garantizar que la capacidad de entrega de la plataforma funciona correctamente. Siempre y cuando no esté clasificado, el correo rechazado no se utiliza para enriquecer la lista de reglas de procesamiento de correo electrónico.
 * **[!UICONTROL Keep]**: el correo rechazado se ha clasificado y el flujo de trabajo  **Update for** deliverability lo usa para compararlo con las reglas de procesamiento de correo electrónico existentes y enriquecer la lista.
 * **[!UICONTROL Ignore]**: el correo rechazado se ha clasificado, pero el flujo de trabajo  **Update for** deliverability no lo usa. Por lo tanto, no se envía a las instancias de cliente.
+
+>[!NOTE]
+>
+>En caso de una interrupción de un ISP, los correos electrónicos enviados a través de Campaign se marcan erróneamente como rechazos. Para corregir esto, debe actualizar la calificación de devoluciones. Para obtener más información, consulte [esta página](../../administration/using/update-bounce-qualification.md).
 
 <!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->
 
