@@ -9,14 +9,14 @@ topic-tags: sending-and-tracking-messages
 feature: Supervisión del rendimiento
 role: Profesional empresarial
 level: Intermedio
+exl-id: 7bf380d7-195e-413d-b14e-85e78b07ba8b
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: f7d77f524a6c141066056e53fc8616f35189fc39
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '367'
 ht-degree: 16%
 
 ---
-
 
 # Archivado con Email BCC{#archiving-emails}
 
@@ -41,7 +41,7 @@ Una vez activado, debe activar el correo electrónico CCO desde la opción **[!U
 
 >[!NOTE]
 >
->Actualmente, los correos electrónicos archivados no se pueden enviar con el MTA mejorado de Adobe Campaign.
+>Actualmente, los correos electrónicos archivados siguen siendo enviados por el módulo de archivado heredado que utiliza una simple retransmisión SMTP.
 
 ## Activación del archivado de correo electrónico {#activating-email-archiving}
 
