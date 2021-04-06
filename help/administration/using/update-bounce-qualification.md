@@ -7,14 +7,14 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 hidefromtoc: true
+exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
 translation-type: tm+mt
-source-git-commit: 9edf26fa933e9faedecef3b381cb160230a51668
+source-git-commit: f58a6d067a562e5e157e249e6b97c02669caf3a5
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 1%
 
 ---
-
 
 # Actualizar la calificación de devoluciones después de una interrupción del ISP {#update-bounce-qualification.md}
 
@@ -58,4 +58,3 @@ Una vez que tenga la lista de destinatarios afectados, puede establecerlos en un
 **Temas relacionados:**
 * [Comprender los errores de entrega](../../sending/using/understanding-delivery-failures.md)
 * [Clasificación del correo rechazado](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)
-
