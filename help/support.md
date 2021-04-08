@@ -10,11 +10,11 @@ hidefromtoc: true
 feature: Opciones de ayuda y asistencia técnica
 role: Profesional empresarial
 level: Principiante
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '593'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -52,20 +52,20 @@ Obtenga asistencia consultando las preguntas frecuentes, las prácticas recomend
         <li><a href="automating/using/monitoring-workflow-execution.md#error-management">Gestión de errores en flujos de trabajo</a></li>
         <li><a href="automating/using/best-practices-workflows.md">Solución de problemas de ejecución del flujo de trabajo</a></li>
         <li><a href="api/using/troubleshooting.md">Solución de problemas de API</a></li>
-        <li><a href="sending/using/understanding-delivery-failures.md">Comprender los errores de entrega</a></li>
+        <li><a href="sending/using/understanding-delivery-failures.md">Comprensión de los errores de entrega</a></li>
         </ul>
     </td>
    <td valign="top">
         <ul>
-        <li><a href="automating/using/best-practices-workflows.md">Prácticas recomendadas del flujo de trabajo</a></li>
+        <li><a href="automating/using/best-practices-workflows.md">Prácticas recomendadas con flujos de trabajo</a></li>
         <li><a href="automating/using/about-workflow-execution.md">Monitorización de flujos de trabajos</a></li>
         <li><a href="sending/using/tracking-messages.md">Comprensión de la administración del seguimiento</a></li>
-        <li><a href="sending/using/about-deliverability.md">Prácticas recomendadas sobre entregas</a></li>
+        <li><a href="sending/using/about-deliverability.md">Prácticas recomendadas sobre la capacidad de entrega</a></li>
         <li><a href="automating/using/creating-import-workflow-templates.md">Importación de datos con flujos de trabajo</a></li>
         <li><a href="sending/using/sending-messages-at-the-recipient-s-time-zone.md">Administración de zonas horarias</a></li>
         <li><a href="sending/using/receiving-alerts-when-failures-happen.md">Recepción de una notificación cuando se produce un error</a></li>
         <li><a href="designing/using/using-existing-content.md">Importación o conversión de contenido de un correo electrónico</a></li>
-        <li><a href="sending/using/delivery-best-practices.md">Prácticas recomendadas relacionadas con las entregas</a></li>
+        <li><a href="sending/using/delivery-best-practices.md">Prácticas recomendadas de entregas</a></li>
         </ul>
     </td>
     <td valign="top">
@@ -73,9 +73,9 @@ Obtenga asistencia consultando las preguntas frecuentes, las prácticas recomend
         <li><a href="rn/using/release-planning.md">Actualización a una nueva versión</a></li>
         <li><a href="sending/using/monitoring-a-delivery.md">Monitorización de una entrega</a></li>
         <li><a href="sending/using/understanding-quarantine-management.md">Comprensión de la administración de cuarentenas</a></li>
-        <li><a href="start/using/privacy-management.md">Administración de la privacidad y de consentimientos</a></li>
+        <li><a href="start/using/privacy-management.md">Administración de privacidad y consentimientos</a></li>
         <li><a href="automating/using/query.md">Diseño de una consulta</a></li>
-        <li><a href="automating/using/query-samples.md">Ejemplos de consultas</a></li>
+        <li><a href="automating/using/query-samples.md">Muestras de consultas</a></li>
         <li><a href="https://helpx.adobe.com/campaiacs-mobile.html">Configuración de canales móviles</a></li>
         </ul>
     </td>
@@ -93,11 +93,11 @@ El Panel de control le ayuda a aumentar la eficacia del trabajo como administrad
 
 >[!NOTE]
 >
->Todos los usuarios administradores pueden acceder a Panel de control de Campaign. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>Todos los usuarios administradores pueden acceder al Panel de control de Campaign. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel).
 
 ### ¿Cómo acceder al Panel de control?
 
-El Panel de control está disponible directamente en Adobe Experience Cloud. [Haga clic aquí](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=en#discover-control-panel) para obtener más información.
+El Panel de control está disponible directamente en Adobe Experience Cloud. [Haga clic aquí](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=es#discover-control-panel) para obtener más información.
 
 ### Preguntas frecuentes sobre el Panel de control
 
@@ -119,7 +119,7 @@ Puede monitorizar los subdominios y sus certificados. Más información:
 
 <img src="start/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-El nuevo sistema de tickets ha sido a través de [Adobe Admin Console](https://adminconsole.adobe.com/overview). Este nuevo sistema requiere nuevas cuentas individuales para cada usuario con los permisos correctos. Si no puede iniciar sesión con su Adobe ID, solicite acceso a través de Experience League y el equipo de Atención al cliente lo ayudará lo antes posible. [Más información](https://helpx.adobe.com/es/enterprise/admin-guide.html)
+El nuevo sistema de tickets se ha utilizado a través de [Adobe Admin Console](https://adminconsole.adobe.com/overview). Este nuevo sistema requiere nuevas cuentas individuales para cada usuario con los permisos correctos. Si no puede iniciar sesión con su Adobe ID, solicite acceso a través de Experience League y el equipo de Atención al cliente lo ayudará lo antes posible. [Más información](https://helpx.adobe.com/es/enterprise/admin-guide.html)
 
 ### ¡Consulte a los expertos!
 
@@ -127,8 +127,8 @@ El nuevo sistema de tickets ha sido a través de [Adobe Admin Console](https://a
 
 ### Creación de un ticket o inicio de una conversación
 
-La creación de un caso le permite ponerse en contacto con el equipo del Servicio de atención al cliente de Adobe para conocer cualquier problema que tenga con sus productos de Adobe. Para ayudarle a resolver sus problemas, Adobe Admin Console le permitirá hablar con el Servicio de atención al cliente de Adobe.
+La creación de un caso le permite ponerse en contacto con el equipo de Asistencia al cliente de Adobe en relación con cualquier problema que tenga con sus productos de Adobe. Para ayudarle a resolver sus problemas, Adobe Admin Console le permitirá hablar con Asistencia al cliente de Adobe.
 
 Para registrar un problema o iniciar una sesión de chat en el nuevo sistema, conéctese a [Adobe Admin Console](https://adminconsole.adobe.com/overview).
 
-Siga el procedimiento detallado descrito en [esta página](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+Siga el procedimiento detallado descrito en [esta página](https://helpx.adobe.com/es/enterprise/admin-guide.html).
