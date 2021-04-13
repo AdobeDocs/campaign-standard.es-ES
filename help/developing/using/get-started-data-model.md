@@ -7,16 +7,16 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 feature: Modelo de datos
-role: Desarrollador
-level: Intermedio
+role: Developer
+level: Intermediate
+exl-id: a8d15053-c20f-4334-a732-3b36cb00794d
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: c5a9c27a2ce459dfd0f04159095bfc8a2cf4c0f6
 workflow-type: tm+mt
 source-wordcount: '340'
-ht-degree: 30%
+ht-degree: 28%
 
 ---
-
 
 # Introducción al modelo de datos de Campaign Standard {#get-started-data-model}
 
@@ -66,5 +66,5 @@ Con las API de Campaign Standard, cree integraciones para Adobe Campaign Standar
 
 ## Recursos adicionales
 
-* [Acerca de Adobe Experience Platform Data Connector](../../integrating/using/aep-about-data-connector.md)
 * [Exportación e importación de recursos personalizados](https://helpx.adobe.com/campaign/kb/acs-get-started-with-cusres.html)
+* [Exportar datos de Campaign a Adobe Experience Platform](../../integrating/using/export-campaign-data.md)
