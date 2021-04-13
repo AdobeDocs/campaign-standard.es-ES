@@ -7,16 +7,16 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
 feature: Información general
-role: Profesional empresarial
-level: Principiante
-translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: ht
-source-wordcount: '470'
-ht-degree: 100%
+role: Business Practitioner
+level: Beginner
+exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
+translation-type: tm+mt
+source-git-commit: 6b0995f37251644f959425de5bfcc2620e0ef877
+workflow-type: tm+mt
+source-wordcount: '468'
+ht-degree: 99%
 
 ---
-
 
 # Planificación de versiones {#release-planning}
 
@@ -44,11 +44,11 @@ Encontrará información detallada acerca de esta versión en las [Notas de la v
  <tbody>
   <tr>
    <td>Prueba<br /> </td>
-   <td>19 y 20 de abril de 2021<br /> </td>
+   <td>Pronto estará disponible<br /> </td>
   </tr>
   <tr>
    <td> Producción<br /> </td>
-   <td>26 de abril a 3 de mayo de 2021<br /> </td>
+   <td>Pronto estará disponible<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -65,7 +65,7 @@ R: Los cambios se enumeran en las [notas de la versión](../../rn/using/release-
 
 **P: ¿Cuál es el proceso de validación?**
 
-R: A medida que se actualiza la instancia de prueba, Adobe recomienda validar los procesos y casos de uso que funcionan correctamente con esta nueva versión e informar de cualquier problema al [equipo de Atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html).
+R: A medida que se actualiza la instancia de prueba, Adobe recomienda validar los procesos y casos de uso que funcionan correctamente con esta nueva versión e informar de cualquier problema al [equipo de Atención al cliente de Adobe](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
 
 **P: ¿Habrá acceso a la instancia durante el proceso de actualización?**
 
@@ -87,4 +87,4 @@ R: Sí, funcionará. No se pueden enviar nuevos correos electrónicos durante la
 
 R: Al iniciar sesión en Campaign, aparecerá una ventana emergente de notificación que indica la versión más reciente.
 
-Para cualquier otra pregunta, póngase en contacto con [el equipo de Atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html).
+Para cualquier otra pregunta, póngase en contacto con [el equipo de Atención al cliente de Adobe](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
