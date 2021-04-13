@@ -7,16 +7,16 @@ audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
 feature: Triggers
-role: Arquitecto de datos
-level: Intermedio
+role: Data Architect
+level: Intermediate
+exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 3f0c24baf489c516a7a3f665e8c23cec0ed2c3bf
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '669'
 ht-degree: 90%
 
 ---
-
 
 # Acerca de las integraciones de Campaign{#get-started-campaign-integrations}
 
@@ -74,6 +74,11 @@ Si desea integrar flujos de datos de otros sistemas con Adobe Campaign, consulte
    <td> Le permite intercambiar audiencias con las distintas aplicaciones de Adobe Experience Cloud que utiliza.<br /> </td> 
    <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">Servicio principal People (Perfiles y audiencias)</a><br /> </td> 
   </tr> 
+    <tr> 
+   <td>Plataforma de datos de clientes en tiempo real de Adobe (RTCDP)<br /> </td> 
+   <td> La integración entre Adobe Campaign y la plataforma de datos del cliente en tiempo real de Adobe (RTCDP) le permite compartir datos de segmentos e importar audiencias a Adobe Campaign.</td>
+   <td><a href="../../integrating/using/get-started-sources-destinations.md">Introducción a Fuentes y destinos</a></td>
+  </tr> 
   <tr> 
    <td> Servicio principal de recursos y Recursos bajo demanda<br /> </td> 
    <td> Permite insertar activos de la biblioteca de Adobe Experience Cloud en correos electrónicos y páginas de destino creadas en Adobe Campaign.<br /> </td> 
@@ -105,4 +110,3 @@ Si desea integrar flujos de datos de otros sistemas con Adobe Campaign, consulte
   </tr> 
  </tbody> 
 </table>
-
