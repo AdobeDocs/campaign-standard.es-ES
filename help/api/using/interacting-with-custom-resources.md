@@ -7,16 +7,16 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Ingeniero de datos
-level: Con experiencia
+role: Data Engineer
+level: Experienced
+exl-id: 19bfeecb-da60-479c-a929-0cfb72ef59e3
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 01e4eb027b55815c3680b26691e61cbe5b63ee8c
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '191'
 ht-degree: 3%
 
 ---
-
 
 # Uso de recursos personalizados {#interacting-with-custom-resources}
 
@@ -26,12 +26,13 @@ El extremo /customResources tiene exactamente el mismo comportamiento que el ext
 
 Los recursos personalizados que se exponen dentro de esta API son:
 
-* todas las entidades vinculadas a la entidad de perfil
-* todas las entidades vinculadas a los elementos secundarios de la entidad de perfil
+* todas las entidades que no están expuestas en /profileAndServicesExt
 * todas las entidades que no están vinculadas a perfiles y, para estas entidades, sus hijos y nietos.
+* de forma predeterminada, todas las entidades que no están vinculadas a nada, así como sus hijos y nietos.
 
 >[!NOTE]
 >Los recursos personalizados disponibles en /profileAndServicesExt no se exponen en la API /customResources.
+
 
 A continuación, se muestra un ejemplo para recuperar los metadatos de un recurso personalizado:
 
@@ -48,4 +49,3 @@ POST /customResources/<customResourceName>
 >[!NOTE]
 >El extremo y los flujos de trabajo de la API de privacidad (/privacy/privacyTool) no están administrando los recursos personalizados que no están vinculados a la entidad de perfil.
 >Usted tendrá la responsabilidad de administrar y limpiar cualquier PII para estos recursos personalizados. Para obtener más información sobre la herramienta de privacidad, [haga clic aquí](../../api/using/creating-a-privacy-request.md).
-
