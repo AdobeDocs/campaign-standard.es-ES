@@ -3,9 +3,9 @@ solution: Campaign Standard
 product: campaign
 title: Invocación de un recurso mediante una clave de identificación compuesta
 description: Obtenga información sobre cómo llamar a un recurso mediante una clave de identificación compuesta
-feature: Modelo de datos
-role: Desarrollador
-level: Con experiencia
+feature: Data Model
+role: Developer
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

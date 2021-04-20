@@ -6,9 +6,9 @@ description: Descubra cómo personalizar un correo electrónico en el Diseñador
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Diseño de correo electrónico
-role: Profesional empresarial
-level: Intermedio
+feature: Email Design
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt

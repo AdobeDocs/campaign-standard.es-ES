@@ -6,7 +6,7 @@ description: Obtenga información sobre las últimas actualizaciones de la docum
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Información general
+feature: Overview
 role: Business Practitioner
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1

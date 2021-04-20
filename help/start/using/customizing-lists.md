@@ -6,9 +6,9 @@ description: '"Aprenda a personalizar la visualización y a actuar en las pantal
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: Campañas
-role: Profesional empresarial
-level: Intermedio
+feature: Campaigns
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

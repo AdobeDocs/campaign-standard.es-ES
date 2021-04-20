@@ -6,9 +6,9 @@ description: 'Adobe Campaign le permite exportar los datos mostrados como listas
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-feature: Flujos de trabajo
-role: Arquitecto de datos
-level: Con experiencia
+feature: Workflows
+role: Data Architect
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

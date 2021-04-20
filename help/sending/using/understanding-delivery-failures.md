@@ -6,9 +6,9 @@ description: Aprenda a administrar los errores de envío con Campaign.
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-feature: Capacidad de entrega
-role: Profesional empresarial
-level: Intermedio
+feature: Deliverability
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt

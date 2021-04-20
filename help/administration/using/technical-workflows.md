@@ -6,9 +6,9 @@ description: Los flujos de trabajo técnicos son flujos de trabajo listos para u
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Configuración de instancia
-role: Administrador
-level: Con experiencia
+feature: Instance Settings
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
 workflow-type: tm+mt

@@ -7,9 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 context-tags: deliveryCreation,wizard
-feature: Correo electrónico
-role: Profesional empresarial
-level: Principiante
+feature: Email
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

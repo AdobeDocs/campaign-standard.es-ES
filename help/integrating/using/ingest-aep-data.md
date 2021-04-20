@@ -5,7 +5,7 @@ title: Ingesta de audiencias de Adobe Experience Platform en Campaign
 description: Aprenda a incorporar audiencias de Adobe Experience Platform en Campaign Standard.
 audience: integrating
 content-type: reference
-feature: Fuentes y destinos
+feature: Sources and Destinations
 role: Data Architect
 level: Intermediate
 translation-type: tm+mt

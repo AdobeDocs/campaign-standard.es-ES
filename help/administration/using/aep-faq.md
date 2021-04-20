@@ -6,9 +6,9 @@ description: Preguntas frecuentes sobre la integración de Adobe Experience Plat
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Configuración de instancia
-role: Administrador
-level: Con experiencia
+feature: Instance Settings
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

@@ -6,9 +6,9 @@ description: Obtenga información sobre cómo archivar correos electrónicos con
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
-feature: Supervisión del rendimiento
-role: Profesional empresarial
-level: Intermedio
+feature: Performance Monitoring
+role: Business Practitioner
+level: Intermediate
 exl-id: 7bf380d7-195e-413d-b14e-85e78b07ba8b
 translation-type: tm+mt
 source-git-commit: f7d77f524a6c141066056e53fc8616f35189fc39

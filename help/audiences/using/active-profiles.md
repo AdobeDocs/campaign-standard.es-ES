@@ -6,9 +6,9 @@ description: Puede acceder a un informe dedicado sobre las métricas de los clie
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-feature: Perfiles
-role: Profesional empresarial
-level: Intermedio
+feature: Profiles
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt

@@ -6,9 +6,9 @@ description: Descubra cómo utilizar los correos electrónicos creados en el cor
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Diseño de correo electrónico
-role: Profesional empresarial
-level: Intermedio
+feature: Email Design
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

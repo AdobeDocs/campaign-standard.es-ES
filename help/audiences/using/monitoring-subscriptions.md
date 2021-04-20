@@ -6,9 +6,9 @@ description: Obtenga información sobre cómo rastrear a sus suscriptores y medi
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-feature: Audiencias
-role: Profesional empresarial
-level: Intermedio
+feature: Audiences
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

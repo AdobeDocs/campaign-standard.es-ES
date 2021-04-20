@@ -6,7 +6,7 @@ description: Obtenga información sobre cómo administrar las solicitudes de pri
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: Privacidad
+feature: Privacy
 role: Business Practitioner
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b

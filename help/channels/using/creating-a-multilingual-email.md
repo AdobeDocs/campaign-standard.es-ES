@@ -6,9 +6,9 @@ description: Siga estos pasos para crear destinatarios de correo electrónico mu
 audience: channels
 content-type: reference
 topic-tags: email-messages
-feature: Correo electrónico
-role: Profesional empresarial
-level: Intermedio
+feature: Email
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

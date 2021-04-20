@@ -6,9 +6,9 @@ description: Descubra cómo enviar un mensaje en una fecha y hora específicas.
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-feature: Supervisión del rendimiento
-role: Profesional empresarial
-level: Intermedio
+feature: Performance Monitoring
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

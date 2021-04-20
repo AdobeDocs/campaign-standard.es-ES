@@ -6,9 +6,9 @@ description: Con los informes dinámicos, arrastre y suelte variables y dimensio
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: Creación de informes
-role: Encabezado
-level: Principiante
+feature: Reporting
+role: Leader
+level: Beginner
 translation-type: tm+mt
 source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt

@@ -6,9 +6,9 @@ description: Empiece a crear contenido de correo electrónico reutilizable con e
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Diseño de correo electrónico
-role: Profesional empresarial
-level: Intermedio
+feature: Email Design
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

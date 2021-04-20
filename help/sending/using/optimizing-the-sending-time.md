@@ -6,9 +6,9 @@ description: Aprenda a configurar el tiempo de envío y mejorar la velocidad de 
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-feature: Optimización del tiempo de envío
-role: Profesional empresarial
-level: Intermedio
+feature: Send Time Optimization
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

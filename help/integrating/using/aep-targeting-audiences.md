@@ -6,9 +6,9 @@ description: Obtenga información sobre cómo dirigirse a las audiencias de Adob
 audience: automating
 content-type: reference
 topic-tags: channel-activities
-feature: Integración de Microsoft CRM
-role: Arquitecto de datos
-level: Con experiencia
+feature: Microsoft CRM Integration
+role: Data Architect
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

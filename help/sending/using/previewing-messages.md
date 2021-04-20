@@ -6,9 +6,9 @@ description: Obtenga información sobre cómo previsualizar un mensaje en el edi
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-feature: Dirección semilla
-role: Profesional empresarial
-level: Intermedio
+feature: Seed Address
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

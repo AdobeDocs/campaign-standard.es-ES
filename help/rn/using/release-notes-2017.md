@@ -6,9 +6,9 @@ description: Esta página enumera todas las versiones de 2017 de Adobe Campaign 
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Información general
-role: Profesional empresarial
-level: Principiante
+feature: Overview
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 274a9db2061f78dae9e31790629485d0411d83fb
 workflow-type: tm+mt

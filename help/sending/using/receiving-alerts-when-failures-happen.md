@@ -6,9 +6,9 @@ description: Aprenda a utilizar el sistema de gestión de alertas.
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-feature: Pruebas
-role: Profesional empresarial
-level: Principiante
+feature: Proofs
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

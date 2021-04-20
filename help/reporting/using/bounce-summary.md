@@ -7,9 +7,9 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 context-tags: bounceReport,main;campaignCirculationReport,main;programCirculationReport,main
-feature: Creación de informes
-role: Encabezado
-level: Intermedio
+feature: Reporting
+role: Leader
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

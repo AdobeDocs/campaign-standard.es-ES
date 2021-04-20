@@ -6,9 +6,9 @@ description: Esta sección detalla cómo llamar a un flujo de trabajo con parám
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-feature: Flujos de trabajo
-role: Arquitecto de datos
-level: Intermedio
+feature: Workflows
+role: Data Architect
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
