@@ -6,17 +6,17 @@ description: La herramienta de edición de consultas le permite utilizar funcion
 audience: automating
 content-type: reference
 topic-tags: filtering-data
-feature: Workflows
+feature: Flujos de trabajo
 role: Data Architect
 level: Experienced
+exl-id: d1575626-55bb-4303-a796-ad323a399330
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 33cba2254bb90951880126cd9978f1890ee72e9c
 workflow-type: tm+mt
-source-wordcount: '1944'
+source-wordcount: '1941'
 ht-degree: 98%
 
 ---
-
 
 # Lista de funciones{#list-of-functions}
 
@@ -660,7 +660,7 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
   <tr> 
    <td> <strong>encryption_aescbcEncrypt</strong><br /> </td> 
    <td> Codifica utilizando el algoritmo AES (modo de bloque CBC) una cadena de caracteres (primer parámetro) con una clave (segundo parámetro) y un vector de inicialización (tercer parámetro). La clave y el vector de inicialización deben proporcionarse en una representación hexadecimal (comenzando por <strong>\x</strong>). El resultado será hexadecimal sin <strong>\x</strong>.<br /> Tenga en cuenta que el tamaño de la clave puede ser de 128 bits, 192 bits, 256 bits (16, 24, 32 caracteres hexadecimales), pero le recomendamos que utilice 256 bits y una IV aleatoria de la misma longitud que la clave.<br /> </td> 
-   <td> encryption_aescbcEncrypt(&lt;cadena&gt;, &lt;cadena&gt;, &lt;cadena&gt;)<br /> Por ejemplo: encryption_aescbcEncrypt(johndoe@example.com, "<strong>\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
+   <td> encryption_aescbcEncrypt(&lt;cadena&gt;, &lt;cadena&gt;, &lt;cadena&gt;)<br /> Por ejemplo: encryption_aescbcEncrypt(johndoe@example.com, "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\x0123456 789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -749,4 +749,3 @@ Las funciones de representación se utilizan para ordenar valores.
   </tr> 
  </tbody> 
 </table>
-
