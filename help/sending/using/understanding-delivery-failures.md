@@ -6,17 +6,17 @@ description: Aprenda a administrar los errores de envío con Campaign.
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-feature: Deliverability
+feature: Entrega
 role: Business Practitioner
 level: Intermediate
+exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
 translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+source-git-commit: dbc176188d936160e04956e7598bd219ba80347e
 workflow-type: tm+mt
-source-wordcount: '1310'
-ht-degree: 73%
+source-wordcount: '1307'
+ht-degree: 74%
 
 ---
-
 
 # Comprensión de los errores de entrega{#understanding-delivery-failures}
 
@@ -78,8 +78,8 @@ Los posibles motivos de un error de entrega son:
 
 
 **Temas relacionados:**
-* [Rechazos graves](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
-* [Rechazos leves](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
+* [Rechazos graves](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
+* [Rechazos leves](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
 
 ## Reintentos tras un fallo temporal de entrega {#retries-after-a-delivery-temporary-failure}
 
