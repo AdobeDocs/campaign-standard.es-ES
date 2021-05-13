@@ -6,11 +6,10 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Centro de ayuda para las principales características, tareas, configuraciones y otros recursos necesarios para utilizar Campaign Standard. '
 title: Guía de Campaign Standard
 breadcrumb-title: Centro de ayuda
-translation-type: ht
-source-git-commit: 830c003e36cec41e5cf480f66812900312609e9f
-workflow-type: ht
-source-wordcount: '1783'
-ht-degree: 100%
+source-git-commit: c656aba6c9db769208a8af120d492f6a8a2a944e
+workflow-type: tm+mt
+source-wordcount: '1785'
+ht-degree: 99%
 
 ---
 
@@ -46,16 +45,16 @@ ht-degree: 100%
       + [Privacidad y consentimiento](start/using/privacy.md)
       + [Administración de la privacidad](start/using/privacy-management.md)
       + [Solicitudes de privacidad](start/using/privacy-requests.md)
-      + [Preguntas más frecuentes sobre Privacidad](start/using/privacy-faq.md)
-   + [Opciones de ayuda y asistencia técnica](support.md)
+      + [Preguntas más frecuentes sobre privacidad](start/using/privacy-faq.md)
+   + [Opciones de ayuda y asistencia](support.md)
 + Perfiles y audiencias {#profiles-and-audiences}
    + [Introducción a perfiles y audiencias](audiences/using/get-started-profiles-and-audiences.md)
    + Administración de perfiles {#managing-profiles}
       + [Acerca de los perfiles](audiences/using/about-profiles.md)
       + [Creación de perfiles](audiences/using/creating-profiles.md)
       + [Edición de perfiles](audiences/using/editing-profiles.md)
-      + [Integrated Customer Profile](audiences/using/integrated-customer-profile.md)
-      + [Perfiles activos](audiences/using/active-profiles.md)
+      + [Perfil de cliente integrado](audiences/using/integrated-customer-profile.md)
+      + [Métricas y perfiles activos](audiences/using/active-profiles.md)
       + [Administración de perfiles de prueba](audiences/using/managing-test-profiles.md)
       + [Enriquecimiento de la base de datos de Campaign](audiences/using/enriching-campaign-database.md)
    + Administración de audiencias {#managing-audiences}
@@ -182,7 +181,7 @@ ht-degree: 100%
       + [Comprensión de los errores de entrega](sending/using/understanding-delivery-failures.md)
       + [Comprensión de la gestión de la cuarentena](sending/using/understanding-quarantine-management.md)
    + Administración de envíos {#managing-deliverability}
-      + [Acerca de la capacidad del envío](sending/using/about-deliverability.md)
+      + [Acerca de la capacidad de la entrega](sending/using/about-deliverability.md)
       + [Control del contenido del correo electrónico](sending/using/control-email-content.md)
       + [Supervisión de la capacidad de entrega](sending/using/monitor-deliverability.md)
       + [Resolución de problemas](sending/using/troubleshooting.md)
@@ -206,8 +205,8 @@ ht-degree: 100%
       + [Resumen de devoluciones](reporting/using/bounce-summary.md)
       + [Desglose por dominios](reporting/using/breakdown-by-domains.md)
       + [Reclamaciones](reporting/using/complaints.md)
-      + [Resumen de envíos](reporting/using/delivery-summary.md)
-      + [Rendimiento de envío](reporting/using/delivery-throughput.md)
+      + [Resumen de entregas](reporting/using/delivery-summary.md)
+      + [Rendimiento del envío](reporting/using/delivery-throughput.md)
       + [Informe en la aplicación](reporting/using/in-app-report.md)
       + [Rechazos y no entregables](reporting/using/non-deliverables-and-bounces.md)
       + [Aperturas](reporting/using/opens.md)
@@ -270,7 +269,7 @@ ht-degree: 100%
       + [Usar la integración con Microsoft Dynamics 365](integrating/using/d365-acs-using-the-integration.md)
    + Campaign y Adobe Experience Platform {#adobe-experience-platform}
       + Fuentes y destinos de Adobe Experience Platform {#aep-sources-destinations}
-         + [Introducción a fuentes y destinos](integrating/using/get-started-sources-destinations.md)
+         + [Introducción a orígenes y destinos](integrating/using/get-started-sources-destinations.md)
          + [Ingesta de audiencias de Adobe Experience Platform en Campaign](integrating/using/ingest-aep-data.md)
          + [Exportación de datos de Campaign a Adobe Experience Platform](integrating/using/export-campaign-data.md)
       + Servicio Audience Destinations (beta) {#audience-destinations}
@@ -290,7 +289,7 @@ ht-degree: 100%
    + Funcionamiento general del flujo de trabajo {#workflow-general-operation}
       + [Interfaz de flujo de trabajo](automating/using/workflow-interface.md)
       + [Creación de un flujo de trabajo](automating/using/building-a-workflow.md)
-      + [Prácticas recomendadas del flujo de trabajo](automating/using/best-practices-workflows.md)
+      + [Prácticas recomendadas con flujos de trabajo](automating/using/best-practices-workflows.md)
    + Ejecución de un flujo de trabajo {#executing-a-workflow}
       + [Acerca de la ejecución del flujo de trabajo](automating/using/about-workflow-execution.md)
       + [Ciclo de vida del flujo de trabajo](automating/using/workflow-life-cycle.md)
