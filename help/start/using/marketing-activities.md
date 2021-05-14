@@ -7,17 +7,16 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: activity,overview
-feature: Campaigns
+feature: Campañas
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: c75471aa-b947-4488-a569-5412d3825c64
+source-git-commit: 6ca6fabc42f63791f4c2b0f1d2d6bd8ea5e27f7a
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 82%
+source-wordcount: '488'
+ht-degree: 83%
 
 ---
-
 
 # Actividades de marketing{#marketing-activities}
 
@@ -33,7 +32,7 @@ Para acceder a la lista de actividad de marketing, elija el vínculo **[!UICONTR
 >
 >También se puede acceder a las actividades de marketing seleccionando la tarjeta **[!UICONTROL Marketing activities]** en la página de inicio.
 
-![](assets/marketing_activities_1.png)
+![](assets/marketing_activities.png)
 
 El panel **[!UICONTROL Search]** le permite filtrar elementos según diferentes criterios: nombre (etiqueta e ID), fecha, estado o tipo de actividad. De forma predeterminada, se seleccionan todos los tipos de actividad, excepto los programas.
 
@@ -46,7 +45,7 @@ El botón **[!UICONTROL Create]** se puede utilizar para crear una nueva activid
 En la zona principal, cada tipo de actividad de la lista tiene un icono:
 
 * ![](assets/marketing_program_icon.png) Programa
-* ![](assets/marketing_campaign_icon.png) Campaign
+* ![](assets/marketing_campaign_icon.png) Campaña
 * ![](assets/marketing_email_icon.png) Correo electrónico
 * ![](assets/marketing_sms_icon.png) SMS
 * ![](assets/marketing_push_icon.png) Notificaciones push
@@ -96,4 +95,3 @@ Según el contexto, estas son las posibilidades:
 >[!NOTE]
 >
 >También puede crear una actividad de marketing a partir de la lista de actividades de marketing. En este caso, puede crear cualquier tipo de actividad y elegir vincular la actividad de marketing a una campaña principal (o a un programa principal si crea un programa) a través de las propiedades de la actividad.
-
