@@ -8,11 +8,10 @@ feature: Información general
 role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-translation-type: ht
-source-git-commit: c2d3217156bd942ec0948e65d48c65be3b89e71e
-workflow-type: ht
-source-wordcount: '238'
-ht-degree: 100%
+source-git-commit: 105bc765f658cab39ec2628e39d51426005da6bd
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 93%
 
 ---
 
@@ -24,7 +23,7 @@ ht-degree: 100%
 
 * **[Campaign: Integración de RTCDP](integrating/using/get-started-sources-destinations.md)**<br/> Aprenda a compartir datos entre Campaign y la plataforma de datos del cliente en tiempo real (RTCDP)
 
-* **[Actualización de devoluciones incorrectas](https://helpx.adobe.com/es/campaign/kb/update-bounce-qualification.html)**<br/> Obtenga información sobre cómo actualizar devoluciones incorrectas tras la interrupción de Gmail
+* **[Actualizar ](https://helpx.adobe.com/es/campaign/kb/update-bounce-qualification.html)**<br/> devoluciones duras incorrectasObtenga información sobre cómo actualizar devoluciones duras incorrectas después de una interrupción del correo electrónico
 
 * **[Grupos de control](sending/using/control-group.md)**<br/>
 Miden el impacto de sus campañas al excluir una parte de su audiencia.
