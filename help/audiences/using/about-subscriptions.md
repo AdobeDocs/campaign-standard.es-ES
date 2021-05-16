@@ -3,24 +3,20 @@ solution: Campaign Standard
 product: campaign
 title: Acerca de las suscripciones
 description: Obtenga más información sobre servicios y suscripciones en Campaign Standard.
-audience: audiences
-content-type: reference
-topic-tags: managing-subscriptions
-feature: Audiences
+feature: Audiencias
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 177f0115-d269-44e8-94e0-123360ea6299
+source-git-commit: 326683683c1564dc4c828d1ed34a3c13bae3a46e
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 52%
+source-wordcount: '221'
+ht-degree: 40%
 
 ---
 
-
 # Acerca de las suscripciones{#about-subscriptions}
 
-Adobe Campaign le permite crear y administrar boletines informativos y comunicaciones entre canales mediante un conjunto de **servicios**: solo se pueden enviar mensajes a perfiles suscritos al servicio (opción de inclusión). Estos perfiles se identifican mediante un filtro específico al crear un mensaje.
+Utilice Adobe Campaign para crear y administrar boletines informativos y comunicaciones entre canales mediante un conjunto de **servicios**: solo se envían a perfiles suscritos al servicio (inclusión). Estos perfiles se identifican mediante un filtro específico al crear un mensaje.
 
 Se pueden configurar mecanismos de suscripción para ofrecer a sus clientes la posibilidad de suscribirse a estos servicios, especialmente a través de **correos electrónicos** y **páginas de aterrizaje**.
 
