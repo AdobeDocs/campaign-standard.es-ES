@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
-feature: Landing Pages
+feature: Páginas de aterrizaje
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 0b9795e9-83e6-4399-a3b1-fc69081f6a82
+source-git-commit: 2cf8b960789ccf32b4782faa337654986e3fddbf
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 99%
+source-wordcount: '659'
+ht-degree: 97%
 
 ---
-
 
 # Configuración de una página de aterrizaje {#configuring-landing-page}
 
@@ -70,12 +69,11 @@ En el caso de visitantes identificados, puede cargar previamente sus datos en la
 
    Si un visitante a la página corresponde a un perfil de la base de datos, sus datos se muestran en los campos del formulario asignados a los datos de la base de datos y se tienen en cuenta los elementos de personalización de la página de aterrizaje.
 
-   ![](assets/lp_parameters_3.png)
+   ![](assets/lp_parameters_3_temp.png)
 
-También puede realizar lo siguiente:
+También puede autorizar a cualquier visitante a acceder a la página de aterrizaje mediante la opción **[!UICONTROL Authorize unidentified visitors]** .
 
-* Utilice los parámetros de URL para identificar los visitantes mediante la opción **[!UICONTROL Authorize visitor identification via URL parameters]**: a continuación, debe elegir la clave de carga y asignar los parámetros del filtro con los parámetros de la URL correspondiente.
-* Autorice a cualquier visitante para acceder a la página de aterrizaje mediante la opción **[!UICONTROL Authorize unidentified visitors]**.
+<!--Use the URL parameters to identify the visitors, using the **[!UICONTROL Authorize visitor identification via URL parameters]** option: then you must choose the loading key and map the filter parameters with the parameters of the corresponding URL.-->
 
 Las páginas de aterrizaje también pueden vincularse a una unidad organizativa. Esto define el acceso de los usuarios a las diferentes páginas de aterrizaje. Para asignar una unidad organizativa:
 
@@ -111,7 +109,7 @@ Una vez configurada la cuenta externa de Google reCAPTCHA V3, puede añadirla a 
 1. Marque la opción **[!UICONTROL Use reCAPTCHA to protect your site from spam and abuse]**.
 1. Seleccione la cuenta externa reCAPTCHA de Google creada anteriormente.
 
-   ![](assets/lp_parameters_google.png)
+   ![](assets/lp_parameters_google_temp.png)
 
 1. Haga clic en **[!UICONTROL Confirm]**.
 
