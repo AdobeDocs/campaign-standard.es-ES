@@ -7,10 +7,10 @@ feature: Perfiles
 role: Business Practitioner
 level: Intermediate
 exl-id: 22516348-7695-4579-99eb-480e5b723ccc
-source-git-commit: d30ce292ca07b9eb0b6965e47e12ddd4e24041ad
+source-git-commit: f66a4e35e1f42a3d7630556d020ce76adfea5891
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 17%
+source-wordcount: '228'
+ht-degree: 14%
 
 ---
 
@@ -28,7 +28,17 @@ Según el contrato, cada una de las instancias de Campaign se aprovisiona con un
 
 ![](assets/audience_active_profiles_list.png)
 
-Los perfiles que se excluyeron durante la preparación de la entrega (por reglas de tipología o mecanismo de cuarentena, por ejemplo) no se tienen en cuenta. Un perfil identificado por varios envíos solo se contará una vez. Este informe es solo informativo, no tiene un impacto directo en la facturación.
+
+
+* Los perfiles que se excluyeron durante la preparación de la entrega (por reglas de tipología o mecanismo de cuarentena, por ejemplo) no se tienen en cuenta.
+
+* Los destinatarios de Mensajes transaccionales se cuentan para Perfiles activos.
+
+* Un perfil identificado por varios envíos solo se contará una vez.
+
+* Este informe es solo informativo, no tiene un impacto directo en la facturación.
+
+En la parte inferior de la página, las dimensiones de segmentación se enumeran con la cantidad de perfiles para cada una. Los destinatarios de los mensajes transaccionales están asociados a la dimensión **Anonymous**.
 
 >[!NOTE]
 >
