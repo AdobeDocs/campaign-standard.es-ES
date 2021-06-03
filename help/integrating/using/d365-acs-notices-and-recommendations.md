@@ -6,21 +6,20 @@ description: Descubra cómo Campaign Standard y Microsoft Dynamics 365 administr
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-feature: Microsoft CRM Integration
+feature: Integración de Microsoft CRM
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
+source-git-commit: f28aab2ac295d8a45598f5d76a86e594deeece4a
 workflow-type: tm+mt
-source-wordcount: '2473'
+source-wordcount: '2510'
 ht-degree: 1%
 
 ---
 
-
 # Prácticas recomendadas y limitaciones {#acs-msdyn-best-practices}
 
-## Administrar datos {#acs-msdyn-manage-data}
+## Administración de datos {#acs-msdyn-manage-data}
 
 Para la sincronización de contactos y entidades personalizadas, esta integración trata a **Microsoft Dynamics 365 como la fuente de verdad**.  Cualquier cambio en los atributos sincronizados debe realizarse en Dynamics 365 y no en Adobe Campaign Standard).  Si los cambios se realizan en Campaign, pueden sobrescribirse en Campaign durante la sincronización, ya que la sincronización se realiza en una dirección.
 
@@ -96,7 +95,7 @@ Si ha seleccionado la configuración de exclusión **Bidirectional** o **Unidire
 
 La integración debe utilizar el almacenamiento SFTP de Campaign en los casos de uso siguientes.  Deberá asegurarse de que su cuenta SFTP tenga la capacidad de almacenamiento adecuada para admitir estos casos de uso. Si se supera la capacidad de almacenamiento SFTP con licencia, el uso funcional de Campaign, la integración o la cuenta SFTP puede verse gravemente afectado.
 
-| Ejemplo de uso | Descripción |
+| Caso de uso | Descripción |
 |---|---|
 | Bidireccional y unidireccional (Campaign a Microsoft Dynamics 365) | Los flujos de datos de exclusión bidireccional y unidireccional (Campaign a Microsoft Dynamics 365) utilizarán el almacenamiento SFTP de Campaign. Un flujo de trabajo de Campaign exportará cambios incrementales a la carpeta SFTP. A partir de ahí, la integración recogerá los registros y el proceso. |
 | Registros de exclusión | Los registros de salida del conector serán útiles para solucionar el problema de la integración. Los registros de salida se pueden activar o desactivar. |
@@ -106,7 +105,7 @@ La integración debe utilizar el almacenamiento SFTP de Campaign en los casos de
 >
 >Usted es el responsable de la información a la que accede y descarga desde las carpetas SFTP. Si la información contiene datos personales, usted es responsable de cumplir con las leyes y regulaciones de privacidad aplicables. [Más información](#acs-msdyn-manage-privacy).
 
-## Gestión de datos
+## Administración de datos
 
 ### Datos de campaña existentes
 
@@ -170,19 +169,19 @@ Las siguientes barreras deben tenerse en cuenta al planificar el uso de esta int
 
    Al calcular el volumen total de llamadas al motor de Campaign, es importante tener en cuenta otras fuentes de llamadas al motor, incluidas las páginas de aterrizaje, las aplicaciones web, JSSP, las API, los registros de aplicaciones móviles, etc.
 
-   Vea aquí la información del paquete de Campaign: https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html
+   Vea la información del paquete de Adobe Campaign Standard aquí: [https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)
 
-* La integración admite un máximo de 30 millones de contactos.
+* La integración admite un máximo de 15 millones de registros totales para la sincronización inicial con los recursos en Campaign. La sincronización incremental está limitada por el paquete de Adobe Campaign Standard.
 
-* La oferta de integración estándar incluye compatibilidad con hasta cinco entidades personalizadas, cada una con un tamaño máximo de 50 columnas.
+* La oferta de integración estándar incluye compatibilidad con hasta veinte entidades personalizadas, cada una con un tamaño máximo de 50 columnas.
 
 * Debe crear y publicar los recursos personalizados antes de implementar la integración.
 
 * La profundidad máxima de la tabla al vincular tablas es de dos (es decir, tabla1->tabla2->tabla3)
 
-* La compatibilidad con los tipos de datos de Microsoft Dynamic 365 es limitada. Si el modelo de datos contiene un tipo de datos que no sea simples (por ejemplo, cadenas, enteros, decimales, etc.), es posible que tenga que actualizar el modelo de datos antes de utilizar la integración.
+* La integración admite hasta 5 columnas vinculadas por recurso personalizado. Vincular varias columnas entre recursos personalizados puede tener un impacto significativo en el rendimiento. **0 o 1 cardinalidad simple** enlace es preferible a  **1 cardinalidad simple enlace**.
 
-* Si elige conservar los datos existentes en las entidades personalizadas de Campaign, debe preparar los datos para la integración.
+* La integración admite la transformación entre tipos de datos primitivos de Microsoft Dynamics 365 (booleano, entero, decimal, doble, cadena, fecha y fecha) y tipos de datos de Adobe Campaign Standard (entero, booleano, flotante, doble, fecha, fecha, fecha, hora, cadena). Los tipos de datos más avanzados se interpretan como cadenas y se sincronizan tal cual.
 
 * Es posible que sea necesario establecer ventanas de mantenimiento de carga entre el Adobe y el cliente.
 
