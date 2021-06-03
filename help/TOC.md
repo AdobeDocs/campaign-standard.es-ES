@@ -6,10 +6,10 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Centro de ayuda para las principales características, tareas, configuraciones y otros recursos necesarios para utilizar Campaign Standard. '
 title: Guía de Campaign Standard
 breadcrumb-title: Centro de ayuda
-source-git-commit: 105bc765f658cab39ec2628e39d51426005da6bd
+source-git-commit: c98aa913f4004d49a897ea71e39cbfe6b3dd53c1
 workflow-type: tm+mt
 source-wordcount: '1783'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 + [Últimas actualizaciones](rn/using/documentation-updates.md)
 + Notas de la versión {#release-notes}
    + [Última versión](rn/using/release-notes.md)
-   + [Notas de la versión anteriores](rn/using/early-release-notes.md)
+   + [Notas de la versión anteriores](rn/using/e-release-notes.md)
    + Versiones anteriores {#previous-releases}
       + [Notas de la versión 2020](rn/using/release-notes-2020.md)
       + [Notas de la versión 2019](rn/using/release-notes-2019.md)
@@ -115,7 +115,7 @@ ht-degree: 100%
       + [Devolver al remitente](channels/using/return-to-sender.md)
       + [Creación del correo postal](channels/using/creating-the-direct-mail.md)
       + [Definición de la audiencia de correo postal](channels/using/defining-the-direct-mail-audience.md)
-      + [Definición del contenido de correo postal](channels/using/defining-the-direct-mail-content.md)
+      + [Definición del contenido de correo directo](channels/using/defining-the-direct-mail-content.md)
    + Mensajería transaccional {#transactional-messaging}
       + [Introducción a la mensajería transaccional](channels/using/getting-started-with-transactional-msg.md)
       + [Prácticas recomendadas y limitaciones](channels/using/transactional-messaging-limitations.md)
@@ -184,7 +184,7 @@ ht-degree: 100%
       + [Acerca de la capacidad de la entrega](sending/using/about-deliverability.md)
       + [Control del contenido del correo electrónico](sending/using/control-email-content.md)
       + [Supervisión de la capacidad de entrega](sending/using/monitor-deliverability.md)
-      + [Resolución de problemas](sending/using/troubleshooting.md)
+      + [Solución de problemas](sending/using/troubleshooting.md)
    + Trabajo con reglas de tipología {#working-with-typology-rules}
       + [Información sobre las tipologías y reglas de tipología](sending/using/about-typology-rules.md)
       + [Administración de tipologías](sending/using/managing-typologies.md)
@@ -199,7 +199,7 @@ ht-degree: 100%
       + [Interfaz de informes](reporting/using/reporting-interface.md)
       + [Lista de componentes](reporting/using/list-of-components-.md)
       + [Cálculo de indicador](reporting/using/indicator-calculation.md)
-      + [Resolución de problemas](reporting/using/troubleshooting.md)
+      + [Solución de problemas](reporting/using/troubleshooting.md)
    + Lista de informes {#list-of-reports}
       + [Definición del período de informe](reporting/using/defining-the-report-period.md)
       + [Resumen de devoluciones](reporting/using/bounce-summary.md)
@@ -242,7 +242,7 @@ ht-degree: 100%
    + Campaign y Audience Manager o servicio principal People {#working-with-campaign-and-audience-manager-or-people-core-service}
       + [Acerca de la integración de Campaign con Audience Manager o el servicio principal People](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
       + [Aprovisionamiento y configuración de la integración con Audience Manager o el servicio principal People](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
-      + [Resolución de problemas](integrating/using/troubleshooting.md)
+      + [Solución de problemas](integrating/using/troubleshooting.md)
       + [Uso compartido de audiencias con Audience Manager o el servicio principal People](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
       + [Uso de Campaign y del servicio principal Assets](integrating/using/working-with-campaign-and-assets-core-service.md)
    + Campaign y Analytics para dispositivos móviles {#working-with-campaign-and-analytics-for-mobile}
@@ -304,9 +304,9 @@ ht-degree: 100%
       + [Definición de los parámetros al invocar al flujo de trabajo](automating/using/defining-parameters-calling-workflow.md)
       + [Monitorización de las variables de eventos](automating/using/monitoring-events-variables.md)
       + [Personalización del flujo de trabajo con parámetros externos](automating/using/customizing-workflow-external-parameters.md)
-      + [Ejemplo de uso](automating/using/use-case-calling-workflow.md)
-   + Actividades de segmentación {#targeting-activities}
-      + [Acerca de las actividades de segmentación](automating/using/about-targeting-activities.md)
+      + [Caso de uso](automating/using/use-case-calling-workflow.md)
+   + Actividades de direccionamiento {#targeting-activities}
+      + [Acerca de las actividades de direccionamiento](automating/using/about-targeting-activities.md)
       + [Consulta](automating/using/query.md)
       + [Consulta incremental](automating/using/incremental-query.md)
       + [Unión](automating/using/union.md)
@@ -315,12 +315,12 @@ ht-degree: 100%
       + [Segmentación](automating/using/segmentation.md)
       + [Leer audiencia](automating/using/read-audience.md)
       + [Guardar audiencia](automating/using/save-audience.md)
-      + [Deduplicación](automating/using/deduplication.md)
+      + [Anulación de duplicación](automating/using/deduplication.md)
       + [Enriquecimiento](automating/using/enrichment.md)
    + Actividades de ejecución {#execution-activities}
       + [Acerca de las actividades de ejecución](automating/using/about-execution-activities.md)
-      + [Inicio y final (Start y End)](automating/using/start-and-end.md)
-      + [Bifurcación (Fork)](automating/using/fork.md)
+      + [Inicio y final](automating/using/start-and-end.md)
+      + [Bifurcación](automating/using/fork.md)
       + [AND-join](automating/using/and-join.md)
       + [Planificador](automating/using/scheduler.md)
       + [Espera](automating/using/wait.md)
@@ -356,7 +356,7 @@ ht-degree: 100%
       + [Administración de paquetes](automating/using/managing-packages.md)
       + [Exportación de listas](automating/using/exporting-lists.md)
       + [Caso de uso: Exportación e importación de recursos personalizados](automating/using/exporting-importing-custom-resources.md)
-   + Ejemplos de uso {#workflow-use-case}
+   + Casos de uso {#workflow-use-case}
       + [Acerca de los casos de uso de flujos de trabajo](automating/using/about-workflow-use-cases.md)
       + Entregas {#deliveries}
          + [Creación de entregas con un complemento](automating/using/workflow-created-query-with-complement.md)
@@ -377,7 +377,7 @@ ht-degree: 100%
          + [Consulta incremental de los suscriptores a un servicio](automating/using/incremental-query-on-subscribers.md)
          + [Segmentación según grupos de edad](automating/using/segmentation-age-groups.md)
          + [Uso de recursos diferentes de dimensiones de segmentación](automating/using/using-resources-different-from-targeting-dimensions.md)
-      + Gestión de datos {#data-management}
+      + Administración de datos {#data-management}
          + [Reconciliación de una audiencia de archivo con la base de datos](automating/using/reconcile-file-audience-with-database.md)
          + [Deduplicación de datos de un archivo importado](automating/using/deduplicating-data-imported-file.md)
          + [Enriquecimiento de datos de perfil con datos contenidos en un archivo](automating/using/enriching-profile-data-file.md)
@@ -417,7 +417,7 @@ ht-degree: 100%
       + [Introducción](developing/using/datamodel-introduction.md)
       + [Audiencia](developing/using/datamodel-audience.md)
       + [Campaña](developing/using/datamodel-campaign.md)
-      + [Envío](developing/using/datamodel-delivery.md)
+      + [Entrega](developing/using/datamodel-delivery.md)
       + [Páginas de aterrizaje](developing/using/datamodel-landingpage.md)
       + [Historial de marketing](developing/using/datamodel-history.md)
       + [Perfil](developing/using/datamodel-profile.md)
@@ -512,4 +512,4 @@ ht-degree: 100%
       + [Recuperación de la unidad geográfica de un perfil](api/using/retrieving-a-geographical-unit.md)
       + [Actualización de la unidad geográfica de un perfil](api/using/updating-a-geographical-unit.md)
       + [Actualización de los atributos de la unidad geográfica](api/using/updating-geographical-unit-attributes.md)
-   + [Resolución de problemas](api/using/troubleshooting.md)
+   + [Solución de problemas](api/using/troubleshooting.md)
