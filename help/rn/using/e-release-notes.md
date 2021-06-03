@@ -8,9 +8,9 @@ role: Business Practitioner
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: c98aa913f4004d49a897ea71e39cbfe6b3dd53c1
+source-git-commit: 7eb12fbb89f677eb7184cb5ff200d3f8a466d3c8
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1032'
 ht-degree: 3%
 
 ---
@@ -53,6 +53,9 @@ Esta página describe las nuevas funciones, mejoras y correcciones incluidas en 
 * Los usuarios estándar ahora pueden usar la integración del servicio principal de recursos con el diseñador de correo electrónico.
 
 * Se ha añadido un nuevo mensaje para confirmar que la migración de una aplicación push v4 a una aplicación push v5 se ha realizado correctamente.
+
+* Durante la creación de tokens JSONWeb para autenticarse en la API de Campaign Standard, los perfiles de producto ahora se **consideran**. Esto significa que las unidades organizativas y las funciones asignadas al grupo de seguridad (que coincide con el perfil del producto en AdobeIO) se aplicarán a la cuenta técnica de IMS necesaria para las llamadas a la API de Campaign Standard Rest. (CAMP-47479)
+
 
 **Parches**
 
@@ -111,5 +114,3 @@ Esta página describe las nuevas funciones, mejoras y correcciones incluidas en 
 * Se ha corregido un problema en el Diseñador de correo electrónico en el que la integración del servicio principal de recursos seguía fallando al intentar seleccionar un recurso. (CAMP-47446)
 
 * Se ha corregido un problema que bloqueaba algunos envíos de Journey Orchestration debido a que Campaign no admitía marcas de hora con un valor exacto (es decir, que terminaba con 00) enviado por eventos del Journey Orchestration.
-
-* Se ha optimizado el flujo de trabajo técnico updateDeliveryIndicators . Los ID de envío que tienen el mismo esquema de broadlog/trackinglog ahora se agrupan. Esto limita el número de consultas, lo que mejora el rendimiento.
