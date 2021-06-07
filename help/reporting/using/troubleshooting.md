@@ -1,24 +1,23 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Resolución de problemas
+title: Solución de problemas
 description: Encuentre aquí preguntas comunes relacionadas con los informes dinámicos.
 audience: reporting
 content-type: reference
 topic-tags: troubleshooting
-feature: Reporting
+feature: Creación de informes
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-translation-type: tm+mt
-source-git-commit: 6a2ddd03b327beabc6055448aa2fa53de12f0b6f
+source-git-commit: 81ffe6a7e59a745a6f61941dff69be85edf4fe45
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '704'
 ht-degree: 5%
 
 ---
 
-# Resolución de problemas{#troubleshooting}
+# Solución de problemas{#troubleshooting}
 
 En esta sección se pueden encontrar preguntas comunes relacionadas con los informes dinámicos.
 
@@ -176,8 +175,11 @@ Por ejemplo, aquí establecemos **[!UICONTROL Upper limit]** en 500 y **[!UICONT
 
 ![](assets/troubleshooting_3.png)
 
-El valor **N/A** puede aparecer a veces en los informes dinámicos. Esto se puede mostrar por dos motivos:
+El valor **N/A** puede aparecer a veces en los informes dinámicos. Esto se puede mostrar por tres motivos:
 
 * El envío se ha eliminado y se muestra aquí como **N/A** para no causar discrepancias en los resultados.
-* Al arrastrar y soltar la dimensión **[!UICONTROL Transactional Delivery]** en los informes, el valor **N/A** puede aparecer como resultado. Esto sucede porque los informes dinámicos recuperan cada envío aunque no sean transaccionales.
-Esto también puede ocurrir al arrastrar y soltar la dimensión **[!UICONTROL Delivery]** en el informe, pero en este caso, el valor **N/A** representa los envíos transaccionales.
+* Al arrastrar y soltar la dimensión **[!UICONTROL Transactional Delivery]** en los informes, el valor **N/A** puede aparecer como resultado. Esto sucede porque los informes dinámicos recuperan cada envío aunque no sean transaccionales. Esto también puede ocurrir al arrastrar y soltar la dimensión **[!UICONTROL Delivery]** en el informe, pero en este caso, el valor **N/A** representa los envíos transaccionales.
+* Cuando se utiliza una dimensión con una métrica que no está relacionada con la dimensión. En el ejemplo siguiente, se agrega un desglose con la dimensión **[!UICONTROL Tracking URL]** aunque el recuento **[!UICONTROL Click]** esté establecido en 0 en este envío.
+
+   ![](assets/troubleshooting_4.png)
+
