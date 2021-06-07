@@ -6,14 +6,13 @@ description: Obtenga información sobre cómo administrar las solicitudes de pri
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: Privacy
+feature: Privacidad
 role: Business Practitioner
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1712'
+source-git-commit: 664274abc26925044625a31489b10e5339a2ef7b
+workflow-type: tm+mt
+source-wordcount: '1624'
 ht-degree: 100%
 
 ---
@@ -156,21 +155,21 @@ Estos son los distintos estados de las solicitudes de privacidad:
 * **[!UICONTROL Complete]**: el procesamiento de la solicitud ha finalizado sin error.
 * **[!UICONTROL Error]**: el flujo de trabajo ha encontrado un error. El motivo se muestra en la lista de las solicitudes de privacidad de la **[!UICONTROL Request status]** columna. Por ejemplo, **[!UICONTROL Error data not found]** significa que en la base de datos no se han encontrado datos de destinatario que coincidan con los del sujeto de datos **[!UICONTROL Reconciliation value]** .
 
-### Desactivación del proceso de 2 pasos {#disabling-two-step-process}
+<!--### Disabling the 2-step process {#disabling-two-step-process}
 
-El Servicio principal de privacidad no admite el procesamiento en dos pasos.
+The Core Privacy Service does not support the 2-step process.
 
 >[!IMPORTANT]
 >
->Antes de utilizar la integración del Servicio principal de privacidad para administrar sus solicitudes de privacidad, debe deshabilitar el procesamiento en 2 pasos para las solicitudes de Eliminación desde la interfaz de Campaign Standard.
+>Before using the Core Privacy Service integration to manage your Privacy requests, you must disable the 2-step process for Delete requests from the Campaign Standard interface.
 
-Si esta opción no está deshabilitada, todas las solicitudes de Eliminación administradas con el Privacy Service principal permanecerán en estado pendiente y no se completarán.
+If this option is not disabled, all Delete requests managed with the Privacy Core Service will remain in pending state and will not complete.
 
-El procesamiento en 2 pasos está activado de forma predeterminada.
+By default, the 2-step process is activated.
 
-Para cambiar este modo, haga clic en **[!UICONTROL Edit properties]**, en la esquina superior derecha de la **[!UICONTROL Privacy Requests]** pantalla, y desmarque la **[!UICONTROL Activate the 2-step process]** opción.
+To change this mode, click **[!UICONTROL Edit properties]**, in the top right corner of the **[!UICONTROL Privacy Requests]** screen, then uncheck the **[!UICONTROL Activate the 2-step process]** option.
 
-![](assets/privacy-disable-2-step-process.png)
+![](assets/privacy-disable-2-step-process.png)-->
 
 ## Exclusión para la venta de información personal (CCPA) {#sale-of-personal-information-ccpa}
 
