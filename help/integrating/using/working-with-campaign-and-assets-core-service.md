@@ -6,23 +6,26 @@ description: Utilice todos los recursos compartidos dentro de Adobe Experience C
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-assets-core-service
-feature: People Core Service Integration
+feature: Integración del servicio principal People
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 0ef8bbae-03a2-4369-bc57-a56302e0ab21
+source-git-commit: ef3480d3da9c5c0597af90c89a73a1aff0a87809
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 21%
+source-wordcount: '173'
+ht-degree: 20%
 
 ---
-
 
 # Uso de Campaign y del servicio principal Assets{#working-with-campaign-and-assets-core-service}
 
 La integración del servicio principal de Assets o de Assets on Demand (según la configuración del entorno de Adobe Experience Cloud) con Adobe Campaign le permite utilizar cualquier recurso que se comparta dentro de Adobe Experience Cloud en los correos electrónicos y páginas de aterrizaje de Adobe Campaign.
 
-Los recursos compartidos desde Adobe Experience Cloud se pueden utilizar en los mensajes de correo electrónico y en las páginas de aterrizaje.
+>[!CAUTION]
+>
+> La integración con el servicio principal de Assets está restringida a [Administradores funcionales](../../administration/using/users-management.md#functional-administrators).
+
+Los recursos compartidos desde Adobe Experience Cloud se pueden utilizar en los correos electrónicos y páginas de aterrizaje, de la siguiente manera:
 
 1. Al editar el contenido de un correo electrónico o de una página de aterrizaje, vaya a un bloque de imagen y, a continuación, seleccione **[!UICONTROL Image shared from Adobe Experience Cloud]** mediante el menú contextual.
 
@@ -38,4 +41,3 @@ A continuación, se inserta la imagen. La entrega ahora se puede personalizar se
 
 * [Recursos y uso compartido](https://docs.adobe.com/content/help/es-ES/core-services/interface/assets/experience-cloud-assets.html)
 * [Editor de contenido](../../designing/using/personalization.md#example-email-personalization)
-
