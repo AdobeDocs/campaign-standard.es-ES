@@ -6,9 +6,9 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Centro de ayuda para las principales características, tareas, configuraciones y otros recursos necesarios para utilizar Campaign Standard. '
 title: Guía de Campaign Standard
 breadcrumb-title: Centro de ayuda
-source-git-commit: c98aa913f4004d49a897ea71e39cbfe6b3dd53c1
+source-git-commit: 633992a3120eeef4aacd1dadeb4e0b47dbbcb999
 workflow-type: tm+mt
-source-wordcount: '1783'
+source-wordcount: '1785'
 ht-degree: 99%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 99%
    + [Última versión](rn/using/release-notes.md)
    + [Notas de la versión anteriores](rn/using/e-release-notes.md)
    + Versiones anteriores {#previous-releases}
+      + [Notas de la versión 2021](rn/using/release-notes-2021.md)
       + [Notas de la versión 2020](rn/using/release-notes-2020.md)
       + [Notas de la versión 2019](rn/using/release-notes-2019.md)
       + [Notas de la versión 2018](rn/using/release-notes-2018.md)
