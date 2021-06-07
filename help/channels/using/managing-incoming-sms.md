@@ -10,14 +10,13 @@ delivercontext-tags: delivery,smsContent,back
 feature: SMS
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 86cb6f4c-a5a7-4d9d-bbfd-4a70af38cf3a
+source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '621'
 ht-degree: 8%
 
 ---
-
 
 # Administración de SMS entrantes{#managing-incoming-sms}
 
@@ -59,6 +58,10 @@ Para ello:
    Por ejemplo, en la configuración siguiente, si los destinatarios envían la palabra clave &quot;STOP&quot;, reciben automáticamente una confirmación de baja y su número de teléfono se envía a cuarentena con el estado **[!UICONTROL On denylist]**. Este estado hace referencia únicamente al número de teléfono y el perfil es para que el usuario siga recibiendo mensajes de correo electrónico.
 
    ![](assets/sms_mo.png)
+
+1. Haga clic en **[!UICONTROL Save]**.
+
+1. Desde el **[!UICONTROL Advanced parameters]** de su envío de SMS **[!UICONTROL Properties]**, puede establecer un **[!UICONTROL Short code]** específico para excluir automáticamente a los destinatarios que se excluyeron. Para obtener más información, consulte [esta sección](../../administration/using/configuring-sms-channel.md#configuring-sms-properties).
 
 Ahora se puede cancelar la suscripción de sus destinatarios a sus mensajes automáticamente y enviarlos a cuarentena con esta respuesta automática. Los destinatarios en cuarentena se enumeran en la tabla **[!UICONTROL Addresses]** disponible a través del menú **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Quarantines]**. Para obtener más información sobre cuarentenas, consulte esta [sección](../../sending/using/understanding-quarantine-management.md).
 
