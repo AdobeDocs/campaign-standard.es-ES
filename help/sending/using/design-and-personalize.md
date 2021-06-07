@@ -7,17 +7,16 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: Aprenda a diseñar el contenido del mensaje e intente evitar problemas comunes que podrían impedir la ejecución del envío. 
-feature: Deliverability
+feature: Entrega
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
+source-git-commit: d84a11d4064938792a2e2c365b6085c263f55648
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 79%
+source-wordcount: '1034'
+ht-degree: 70%
 
 ---
-
 
 # Creación de contenido personalizado {#build-personalized-content}
 
@@ -75,7 +74,7 @@ De forma predeterminada, cuando se analiza el mensaje, una regla de tipología [
 
 Obtenga información sobre cómo insertar un vínculo de no participación [en esta sección](../../designing/using/personalization.md#adding-a-content-block).
 
-### Tamaño del correo electrónico
+### Tamaño del correo electrónico {#email-size}
 
 Para evitar problemas de rendimiento o de entrega, el tamaño máximo recomendado de un correo electrónico es de unos **35 KB**.
 
@@ -83,11 +82,21 @@ Para mantener el correo electrónico por debajo del límite, haga lo siguiente:
 
 * Eliminar estilos redundantes o que no utilice
 
-* Mover parte del contenido del correo electrónico a una página de aterrizaje
+* Mover parte del contenido del correo electrónico a una [página de aterrizaje](../../channels/using/getting-started-with-landing-pages.md)
 
 * Minimizar el código
 
-Asegúrese de probar los cambios antes del envío final
+Asegúrese de probar los cambios antes del envío final.
+
+En Adobe Campaign, el tamaño máximo predeterminado de un correo electrónico se establece en **100 MB**. <!--This limit enables to prevent any error that could indefinitely increase the size of an email, which can lead to a system crash.-->
+
+Si se alcanza el límite, el mensaje que supera el límite fallará y se mostrará un mensaje de error en los registros de envío. Los demás mensajes del mismo envío no se verán afectados. En ese caso, se debe adaptar la parte dinámica de la plantilla de correo electrónico o los fragmentos de contenido utilizados por la entrega. <!--If you need assistance, or if you have any question or request about the **[!UICONTROL Maximum message size]** option, reach out to your Adobe contact.-->
+
+Adobe recomienda mantener el valor predeterminado del tamaño máximo del mensaje. Sin embargo, este valor se puede cambiar en la opción **[!UICONTROL Maximum message size]**, a través del menú **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**, solo por [administradores funcionales](../../administration/using/users-management.md#functional-administrators).
+
+>[!IMPORTANT]
+>
+>Si establece este valor en cero, no se aplicará ningún límite.
 
 ### Longitud del SMS
 
@@ -136,7 +145,7 @@ Intente que las imágenes sean interactivas y se puedan cambiar de tamaño. Teng
 
 Para que sean accesibles desde el exterior, las imágenes utilizadas en los mensajes de correo electrónico y recursos públicos vinculados a las campañas deben estar presentes en un servidor accesible de forma externa.
 
-## Previsualice el mensaje    {#preview-msg}
+## Previsualice el mensaje  {#preview-msg}
 
 Adobe recomienda previsualizar el mensaje para comprobar su personalización y cómo verán su envío sus destinatarios.
 
