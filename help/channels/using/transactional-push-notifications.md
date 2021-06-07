@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
+feature: Mensajería transaccional
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 61988c1d-d538-47b1-94c1-f3fbdf314b65
+source-git-commit: 33d3dc43a64b9670666844a3266e2aa2458a1c40
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1453'
 ht-degree: 4%
 
 ---
-
 
 # Notificaciones push transaccionales{#transactional-push-notifications}
 
@@ -196,3 +195,37 @@ El usuario correspondiente recibe una notificación push transaccional que inclu
 >[!NOTE]
 >
 >No hay campos de token de registro, aplicación y plataforma push. En este ejemplo, la reconciliación se realiza con el campo de correo electrónico.
+
+## Modificación de la asignación de destino en una notificación push transaccional {#change-target-mapping}
+
+Las notificaciones push transaccionales utilizan una [asignación de destino](../../administration/using/target-mappings-in-campaign.md) específica que contiene la configuración técnica necesaria para enviar este tipo de envíos.
+
+Para cambiar esta asignación de destino, siga los pasos a continuación:
+
+1. En la lista de mensajes transaccionales, seleccione una notificación push.
+
+1. En el panel del mensaje, haga clic en el botón **[!UICONTROL Edit properties]**.
+
+   ![](assets/message-center_push_edit.png)
+
+1. Expanda la sección **[!UICONTROL Advanced parameters]** .
+
+1. Haga clic en **[!UICONTROL Select a 'Target mapping' element]**.
+
+   ![](assets/message-center_push_target-mapping.png)
+
+1. Seleccione una asignación de destino en la lista.
+
+   >[!NOTE]
+   >
+   >Para obtener un tiempo y un rendimiento óptimos de preparación del envío al enviar **notificaciones push transaccionales basadas en perfiles**, utilice la asignación de destino **[!UICONTROL Profile - Real-time event for Push (mapRtEventAppSubRcp)]**.
+
+   ![](assets/message-center_push_target-mapping_change.png)
+
+1. Confirme el cambio y publique el mensaje. Consulte [Publicación de un mensaje transaccional](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
+
+   >[!IMPORTANT]
+   >
+   >Debe volver a publicar el mensaje para que el cambio sea efectivo; de lo contrario, se utilizará la asignación de destino anterior.
+
+
