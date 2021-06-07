@@ -6,17 +6,16 @@ description: Esta página lista las funciones obsoletas y eliminadas de Adobe Ca
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
-feature: Overview
+feature: Información general
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
+source-git-commit: a68adf4de790e30ab9dd1f79e5daeb7feb45c83b
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 79%
+source-wordcount: '728'
+ht-degree: 80%
 
 ---
-
 
 # Funciones obsoletas y eliminadas {#deprecated-and-removed-features}
 
@@ -43,22 +42,6 @@ Se aconseja a los clientes que comprueben si utilizan la función o la capacidad
 
 <table> 
  <thead> 
- <tr> 
-   <th> <strong>Línea de asunto predictivo</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p> A partir del 15 de diciembre de 2020, la función Línea de asunto predictivo quedará obsoleta.</p><br/>
-   <p>Le sugerimos aprovechar las capacidades de correo electrónico con tecnología de IA para analizar y predecir las tasas abiertas, los tiempos de envío óptimos y la probable reproducción basada en las métricas de participación históricas. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">Obtenga más información</a></p></br>
-     <p>
-     <em>Eliminación del objetivo: Abril de 2021</em></p>
-     </td> 
-  </tr> 
-  </tbody> 
-</table>
-<table> 
- <thead> 
   <tr> 
    <th> <strong>Notificaciones push con SDK v4</strong><br /> </th> 
   </tr> 
@@ -71,22 +54,6 @@ Se aconseja a los clientes que comprueben si utilizan la función o la capacidad
      <p>
      <em>Fecha de eliminación del objetivo: 31 de agosto de 2021</em></p>
      </td> 
-  </tr> 
- </tbody> 
-</table>
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>Solicitudes de privacidad: API de Campaña e interfaz</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>A partir de Campaign versión 19.4, el uso de la API y la interfaz de Campaign para las solicitudes de acceso y eliminación quedarán obsoletas. La eliminación del perfil de 2 pasos no estará disponible. Utilice <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a>.</p></br>
-   <p>Consulte también <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">Administración de solicitudes</a>de privacidad.</p>
-  <p> 
-  <em>Fecha de eliminación objetivo: abril de 2021</em></p>
-   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -125,6 +92,37 @@ Se aconseja a los clientes que comprueben si utilizan la función o la capacidad
 ## Funciones eliminadas {#removed-features}
 
 Esta sección enumera las funciones y capacidades que se han eliminado de Campaign Standard.
+
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>Solicitudes de privacidad: API de Campaña e interfaz</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>A partir de Campaign versión 21.2, el uso de la API y la interfaz de Campaign para las solicitudes de acceso y eliminación quedarán obsoletas. La eliminación del perfil de 2 pasos no estará disponible. Utilice <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a>.</p></br>
+   <p>Consulte también <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">Administración de solicitudes</a>de privacidad.</p>
+  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+<table> 
+ <thead> 
+ <tr> 
+   <th> <strong>Línea de asunto predictivo</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> A partir de abril de 2021, se retirará la capacidad de Línea de asunto predictivo.</p><br/>
+   <p>Le sugerimos aprovechar las capacidades de correo electrónico con tecnología de IA para analizar y predecir las tasas abiertas, los tiempos de envío óptimos y la probable reproducción basada en las métricas de participación históricas. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">Más información</a></p></br>
+     </td> 
+  </tr> 
+  </tbody> 
+</table>
 
 <table> 
  <thead> 
