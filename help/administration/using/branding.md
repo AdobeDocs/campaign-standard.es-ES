@@ -7,17 +7,16 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: branding,overview;branding,main
-feature: Instance Settings
+feature: Configuración de instancia
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
+exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
+source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
 workflow-type: tm+mt
-source-wordcount: '1286'
-ht-degree: 78%
+source-wordcount: '1282'
+ht-degree: 80%
 
 ---
-
 
 # Marcas{#branding}
 
@@ -92,11 +91,11 @@ Una **marca** se define con las siguientes características:
 
 Puede añadir nuevas entidades de su organización en Campaign o crear un nuevo tipo de correo electrónico que necesite enviar en un subdominio diferente. Para ello, siga los pasos a continuación:
 
-1. **Configurar un nuevo subdominio** : para que el Adobe utilice cualquier nuevo subdominio, el primer paso es configurarlo. Puede hacerlo a través del [Panel de control de Campaign de Campaign](https://docs.adobe.com/content/help/es-ES/control-panel/using/subdomains-and-certificates/subdomains-branding.html) o ponerse en contacto con el contacto técnico de su Adobe. Obtenga más información sobre la configuración de subdominios [en este artículo](https://helpx.adobe.com/es/campaign/kb/domain-name-delegation.html).
+1. **Configurar un nuevo subdominio** : para que el Adobe utilice cualquier nuevo subdominio, el primer paso es configurarlo. Puede hacerlo a través del [Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=es) o ponerse en contacto con el contacto técnico de su Adobe. Obtenga más información sobre la configuración de subdominios [en este artículo](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=es).
 
    >[!NOTE]
    >
-   >Todos los usuarios administradores pueden acceder a Panel de control de Campaign. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+   >Todos los usuarios administradores pueden acceder al Panel de control de Campaign. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel).
 
 1. **Crear un ticket** : Una vez configurado el subdominio, Adobe deberá configurarlo en el entorno de producción. Para solicitar esto, [cree un ticket para Client Care](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) con la siguiente información:
 
@@ -110,7 +109,7 @@ Puede añadir nuevas entidades de su organización en Campaign o crear un nuevo 
 
 1. **Crear una plantilla de envíos** : una vez que la nueva marca está disponible, se recomienda crear al menos una nueva plantilla de envíos en blanco que haga referencia a esta nueva marca. [Más información](#linking-a-brand-to-a-template).
 
-1. **Comprobar las directrices**  de entregabilidad: antes de empezar a usar el nuevo dominio, la estrategia debe discutirse con el equipo de entrega de Adobe. Ellos ayudarán a definir las mejores prácticas, si se debe crear una nueva afinidad para dividir las IP entre dominios, por ejemplo, y/o si se debe definir un plan de aumento. Obtenga más información sobre las mejores prácticas de entrega [en esta sección](../../sending/using/about-deliverability.md).
+1. **Comprobar las directrices de capacidad de entrega** : antes de empezar a usar el nuevo dominio, la estrategia debe discutirse con el equipo de entrega de Adobe. Ayudarán a definir las prácticas recomendadas si se debe crear una nueva afinidad para dividir las direcciones IP entre dominios, por ejemplo, o si se debe definir un plan de aceleración. Obtenga más información sobre las prácticas recomendadas de entrega [en esta sección](../../sending/using/about-deliverability.md).
 
 ## Asignación de una marca a un correo electrónico {#assigning-a-brand-to-an-email}
 
@@ -200,4 +199,3 @@ Para crear un correo electrónico vinculado a una marca, siga los pasos a contin
 1. Su correo electrónico ya está configurado. Puede comprobar la información antes de probarla con los perfiles de prueba y luego enviarla a la audiencia.
 
    ![](assets/branding_16.png)
-
