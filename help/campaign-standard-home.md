@@ -8,9 +8,9 @@ feature: Información general
 role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: 105bc765f658cab39ec2628e39d51426005da6bd
-workflow-type: ht
-source-wordcount: '239'
+source-git-commit: 92860772ba1ef7ff1503831f05c69d540851258f
+workflow-type: tm+mt
+source-wordcount: '237'
 ht-degree: 100%
 
 ---
@@ -79,7 +79,7 @@ Obtenga más información sobre las directrices generales para envíos móviles 
 | Páginas útiles | Recursos para desarrolladores |
 |---|---|
 | [Notas de la versión](rn/using/release-notes.md) | [Activadores de Experience Cloud](integrating/using/about-adobe-experience-cloud-triggers.md) |
-| [Documentación del Panel de control](https://docs.adobe.com/content/help/es-ES/control-panel/using/control-panel-home.html) | [API de Campaign](api/using/get-started-apis.md) |
+| [Documentación del Panel de control](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es) | [API de Campaign](api/using/get-started-apis.md) |
 | [Guía de implementación](https://helpx.adobe.com/es/campaign/kb/campaign-standard-implementation-guide.html) | [Lista de mensajes de error](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Planificación de versiones](rn/using/release-planning.md) | [Modelo de datos de Campaign](developing/using/datamodel-introduction.md) |
 | [Funciones obsoletas y eliminadas](rn/using/deprecated-features.md) | [Guía de varias soluciones](integrating/using/get-started-campaign-integrations.md) |
