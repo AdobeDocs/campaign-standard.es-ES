@@ -10,10 +10,10 @@ feature: Información general
 role: Business Practitioner
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: ec0dc31e39424a540ca71ff15355814c0e79a283
+source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
 workflow-type: tm+mt
-source-wordcount: '6866'
-ht-degree: 99%
+source-wordcount: '6852'
+ht-degree: 98%
 
 ---
 
@@ -330,7 +330,7 @@ Se ha añadido un nuevo caso de uso que describe cómo crear un grupo de control
 
 La información relacionada con las propiedades de las páginas de aterrizaje se ha movido a una sección dedicada. [Más información](../../channels/using/configuring-landing-page.md)
 
-La documentación del Panel de control se ha integrado en el nuevo conjunto de documentos de colaboración. [Más información](https://docs.adobe.com/content/help/es-ES/control-panel/using/control-panel-home.html)
+La documentación del Panel de control se ha integrado en el nuevo conjunto de documentos de colaboración. [Más información](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es)
 
 Se ha actualizado la tabla de **cálculo de indicador**. [Más información](../../reporting/using/indicator-calculation.md)
 
@@ -394,7 +394,7 @@ Se ha añadido una nueva sección con casos de uso en flujos de trabajo centrado
 
 Se ha agregado un procedimiento en la sección de resolución de problemas del flujo de trabajo sobre cómo mostrar consultas SQL en la pestaña Registro. [Más información](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
-Se ha añadido un nuevo artículo de ayuda con información relacionada con la administración de subdominios y certificados dentro del Panel de control. [Más información](https://docs.adobe.com/content/help/es-ES/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
+Se ha añadido un nuevo artículo de ayuda con información relacionada con la administración de subdominios y certificados dentro del Panel de control. [Más información](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=es)
 
 Se ha actualizado la sección que describe los fragmentos y las plantillas de contenido. [Más información](../../designing/using/using-reusable-content.md#content-templates)
 
@@ -456,7 +456,7 @@ Se ha añadido una advertencia en la documentación de recursos personalizada. S
 
 **Nuevas funciones incluidas en la versión**
 
-Panel de control: [Más información](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+Panel de control: [Más información](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
 
 Notificaciones locales: [Más información](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
@@ -472,7 +472,7 @@ Se ha publicado un nuevo artículo de Planificación de versiones para compartir
 
 Se han actualizado los enlaces de ayuda contextual disponibles directamente desde Adobe Campaign.
 
-La siguiente [página](https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/overview.html) se convierte en la página oficial de vídeos de Adobe Campaign Standard.
+La siguiente [página](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html) se convierte en la página oficial de vídeos de Adobe Campaign Standard.
 
 Se ha añadido una sección sobre retención de datos que incluye los valores de retención predeterminados para las tablas estándar. [Más información](../../administration/using/data-retention.md)
 
@@ -612,7 +612,7 @@ La sección Configuración de una aplicación móvil mediante el SDK V4 se ha mo
 
 La sección Configuración de una aplicación móvil mediante el SDK de Adobe Experience Platform se ha movido [aquí](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
-Los vídeos se han actualizado y movido [aquí](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html).
+Los vídeos se han actualizado y movido [aquí](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html).
 
 Se ha actualizado la sección Tipo de usuarios. [Más información](../../administration/using/users-management.md)
 
@@ -960,7 +960,7 @@ Notificaciones push recurrentes: [Más información](../../automating/using/push
 
 Conector Amazon Simple Storage Service (S3): [Más información](../../administration/using/external-accounts.md)
 
-Integración de Dreamweaver en vivo: [Más información](https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html)
+Integración de Dreamweaver en vivo: [Más información](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 **Otras actualizaciones de la documentación incluidas en la versión**
 
@@ -984,7 +984,7 @@ Se ha actualizado la integración con Adobe Analytics para móviles (punto de in
 
 Creación de informes dinámicos: [Más información](../../reporting/using/about-dynamic-reports.md)
 
-Integración de Dreamweaver (Labs): [Más información](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
+Integración de Dreamweaver (Labs): [Más información](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 Optimización del tiempo de envío manual: [Más información](../../sending/using/optimizing-the-sending-time.md)
 
