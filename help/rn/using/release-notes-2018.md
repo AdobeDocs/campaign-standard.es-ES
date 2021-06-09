@@ -6,17 +6,16 @@ description: Esta página enumera todas las versiones de 2018 de Adobe Campaign 
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Overview
+feature: Información general
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
+source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
 workflow-type: tm+mt
-source-wordcount: '5406'
-ht-degree: 10%
+source-wordcount: '5402'
+ht-degree: 11%
 
 ---
-
 
 # Notas de la versión 2018{#release-notes}
 
@@ -73,7 +72,7 @@ Vea las [actualizaciones de documentación](../../rn/using/documentation-updates
 * Se ha corregido un problema que mostraba una discrepancia en el recuento de registros entre el panel de correo electrónico y el informe de resumen de correo electrónico para los correos electrónicos transaccionales. (CAMP-28237
 * Se ha corregido un problema con flujos de trabajo que podía mostrar un mensaje de error al importar un archivo a través de una actividad de transferencia de archivos . (CAMP-27435)
 * Se ha corregido un problema con las páginas de aterrizaje que contenían más de 25 servicios, que provocaba que se anulara la selección aleatoria de los servicios en el formulario. (CAMP-26572)
-* Se ha corregido un problema en flujos de trabajo que impedía configurar cuentas externas con una URL SFTP al utilizar la actividad de transferencia de archivos. (CAMP-26475)
+* Se ha corregido un problema en flujos de trabajo que impedía configurar cuentas externas con una URL de SFTP al utilizar la actividad de transferencia de archivos. (CAMP-26475)
 * Se ha corregido un problema que impedía actualizar el informe de resumen de servicios. (CAMP-26301)
 * Se ha corregido un problema en los flujos de trabajo al utilizar una actividad de Enriquecimiento que impedía que un campo personalizado mostrara la fecha correcta. (CAMP-26242)
 * Se ha corregido un problema que impedía que las fechas de suscripción del servicio se actualizaran al importarse mediante una importación de archivos.
@@ -128,7 +127,7 @@ Vea las [actualizaciones de documentación](../../rn/using/documentation-updates
 
 **Mejoras**
 
-* La integración de Adobe Campaign y Adobe Target ahora le permite aprovechar la función [Permissions](https://docs.adobe.com/content/help/es-ES/target/using/administer/manage-users/enterprise/properties-overview.html) de Target. Al incluir una imagen dinámica de Adobe Target en un mensaje de correo electrónico, ahora puede especificar una propiedad de destino (código at_property).
+* La integración de Adobe Campaign y Adobe Target ahora le permite aprovechar la función [Permissions](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=es) de Target. Al incluir una imagen dinámica de Adobe Target en un mensaje de correo electrónico, ahora puede especificar una propiedad de destino (código at_property).
 * Las solicitudes de acceso o eliminación de la privacidad del RGPD ahora tienen en cuenta los recursos personalizados que tienen un vínculo de descarga al recurso de perfiles. Para los vínculos simples de cardinalidad 1 y los vínculos de recopilación de cardinalidad N, debe seleccionar &quot;Eliminar/duplicar el registro de destino implica eliminar/duplicar los registros a los que hace referencia el vínculo&quot; en el recurso personalizado. Para vínculos simples de cardinalidad 0 o 1, seleccione &quot;Eliminar/Duplicar el registro implica eliminar/duplicar el registro de destino al que hace referencia el vínculo&quot;.
 
 **Otros cambios**
@@ -472,7 +471,7 @@ Pueden producirse algunos problemas al utilizar vínculos de ayuda contextuales 
      <li> descargar imágenes u otros archivos multimedia y añadirlos como archivos adjuntos a una notificación </li> 
      <li> cambiar el texto del cuerpo o del título de una notificación </li> 
      <li> añadir un identificador de subproceso a una notificación </li> 
-    </ul> Para obtener más información sobre el contenido disponible y el contenido mutable, consulte la <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">documentación detallada</a>.<br /> <strong>Advertencia:</strong> estas actualizaciones de las notificaciones push requieren que los clientes actualicen sus aplicaciones móviles. Consulte <a href="https://docs.adobe.com/content/help/es-ES/campaign-standard/using/communication-channels/push-notifications/push-payload.translate.html">esta nota técnica</a> para obtener más información.<br /> </td> 
+    </ul> Para obtener más información sobre el contenido disponible y el contenido mutable, consulte la <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">documentación detallada</a>.<br /> <strong>Advertencia:</strong> estas actualizaciones de las notificaciones push requieren que los clientes actualicen sus aplicaciones móviles. Consulte <a href="https://docs.adobe.com/content/help/es-ES/campaign-standard/using/communication-channels/push-notifications/push-payload.html">esta nota técnica</a> para obtener más información.<br /> </td> 
   </tr> 
   <tr> 
    <td> Entregas optimizadas para zonas horarias<br /> </td> 
@@ -526,4 +525,3 @@ _Perfiles y audiencias_
 * Se ha añadido una información sobre herramientas que muestra el número de resultado exacto después de contar la población de una consulta.
 * Se ha corregido un problema que podía impedir que un usuario seleccionara una audiencia o cerrara la ventana del selector de audiencias.
 * Se ha actualizado la lista de funciones disponibles en el editor de expresiones. Se han eliminado las funciones **FormatCurrency** y **ConvertCurrency**.
-
