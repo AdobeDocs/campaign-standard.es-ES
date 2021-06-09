@@ -6,17 +6,16 @@ description: 'Aprenda a configurar la integración Audience Manager/servicio pri
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-feature: People Core Service Integration
+feature: Integración del servicio principal People
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '721'
 ht-degree: 42%
 
 ---
-
 
 # Aprovisionamiento y configuración de la integración con Audience Manager o el servicio principal People{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
 
@@ -67,7 +66,7 @@ Después de enviar esta solicitud, el Adobe procederá al aprovisionamiento de l
 
 * [Paso 1: Configuración o verificación de las cuentas externas en Adobe Campaign](#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)
 * [Paso 2: Configuración de las fuentes de datos](#step-2--configure-the-data-sources)
-* [Paso 3: Configuración del servidor de seguimiento de campaña](#step-3--configure-campaign-tracking-server)
+* [Paso 3: Configuración del servidor de seguimiento de Campaign](#step-3--configure-campaign-tracking-server)
 * [Paso 4: Configuración del servicio de ID de visitante](#step-4--configure-the-visitor-id-service)
 
 ### Paso 1: Configuración o verificación de las cuentas externas en Adobe Campaign {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
@@ -127,10 +126,10 @@ Para crear la fuente de datos **[!UICONTROL Declared ID]**:
 
 Para la configuración de la integración con el servicio principal Personas o Audience Manager, también es necesario configurar el servidor de seguimiento de campañas.
 
-En este caso, debe asegurarse de que el servidor de seguimiento de campaña está registrado en el dominio (CNAME). Puede encontrar más información sobre la configuración del nombre de dominio en [este artículo](https://helpx.adobe.com/es/campaign/kb/domain-name-delegation.html).
+En este caso, debe asegurarse de que el servidor de seguimiento de campaña está registrado en el dominio (CNAME). Puede encontrar más información sobre la configuración del nombre de dominio en [este artículo](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=es).
 
 ### Paso 4: Configuración del servicio de ID de visitante {#step-4--configure-the-visitor-id-service}
 
-En caso de que el servicio de ID de visitante no se haya configurado en las propiedades web o sitios web, consulte el siguiente [documento](https://docs.adobe.com/content/help/es-ES/id-service/using/implementation/setup-aam-analytics.html) o el siguiente [vídeo](https://helpx.adobe.com/es/marketing-cloud/how-to/email-marketing.html#step-two) para aprender a configurar el servicio.
+En caso de que el servicio de ID de visitante no se haya configurado en las propiedades web o sitios web, consulte el siguiente [documento](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html?lang=es) o el siguiente [vídeo](https://helpx.adobe.com/es/marketing-cloud/how-to/email-marketing.html#step-two) para aprender a configurar el servicio.
 
 La configuración y el suministro han finalizado, la integración ya puede utilizarse para importar y exportar audiencias o segmentos.
