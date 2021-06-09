@@ -7,17 +7,16 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
-feature: Instance Settings
+feature: Configuración de instancia
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
+exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
+source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
 workflow-type: tm+mt
-source-wordcount: '1778'
-ht-degree: 83%
+source-wordcount: '1774'
+ht-degree: 84%
 
 ---
-
 
 # Cuentas externas{#external-accounts}
 
@@ -87,11 +86,11 @@ Para evitar estos problemas, Adobe recomienda seguir las prácticas recomendadas
 
 Además, tenga en cuenta que las IP públicas desde las que intente iniciar la conexión SFTP deben agregarse a la lista de permitidos de la instancia de Campaign. La adición de direcciones IP a la lista de permitidos se puede solicitar a través de un [ticket de asistencia](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html), junto con la clave pública que se utilizará para la autenticación.
 
-Los servidores SFTP se pueden administrar desde el panel de control. Para obtener más información, consulte la [documentación del panel de control](https://docs.adobe.com/content/help/es-ES/control-panel/using/sftp-management/about-sftp-management.html).
+Los servidores SFTP se pueden administrar desde el panel de control. Para obtener más información, consulte la [documentación del panel de control](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html).
 
 >[!NOTE]
 >
->Todos los usuarios administradores pueden acceder a Panel de control de Campaign. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>Todos los usuarios administradores pueden acceder al Panel de control de Campaign. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel).
 
 ## Cuenta de OAuth 2.0 {#oauth-account}
 
