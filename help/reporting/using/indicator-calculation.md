@@ -6,17 +6,16 @@ description: Comprender los resultados de los informes con una lista de la fórm
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: Reporting
+feature: Creación de informes
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 47cc11d7-89e8-4d1c-9638-5f66a53cef7e
+source-git-commit: a9a91df349b107b06f229db33812a27addfb5c27
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '727'
 ht-degree: 8%
 
 ---
-
 
 # Cálculo de indicador{#indicator-calculation}
 
@@ -191,7 +190,7 @@ Las tablas siguientes proporcionan la lista de indicadores utilizados en los dis
   <tr> 
    <td> Clics únicos<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> Los clics únicos se calculan mediante conceptos de ThetaSketch. Para obtener más información, consulte este <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">ejemplo</a>.<br /> </td> 
+   <td> Los clics únicos se calculan mediante conceptos de ThetaSketch. Para obtener más información, consulte este <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">ejemplo</a>.<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -271,7 +270,7 @@ Las tablas siguientes proporcionan la lista de indicadores utilizados en los dis
   <tr> 
    <td> Aperturas únicas<br /> </td> 
    <td> @uniqueopens<br /> </td> 
-   <td> Las aperturas únicas se calculan utilizando conceptos ThetaSketch de RecipientIds únicos. Para obtener más información, consulte este <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">ejemplo</a>.<br /> </td> 
+   <td> Las aperturas únicas se calculan utilizando conceptos ThetaSketch de RecipientIds únicos. Para obtener más información, consulte este <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">ejemplo</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Impresiones<br /> </td> 
@@ -291,7 +290,7 @@ Las tablas siguientes proporcionan la lista de indicadores utilizados en los dis
   <tr> 
    <td> Clics únicos<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> Los clics únicos se calculan mediante conceptos de ThetaSketch. Para obtener más información, consulte este <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">ejemplo</a>.<br /> </td> 
+   <td> Los clics únicos se calculan mediante conceptos de ThetaSketch. Para obtener más información, consulte este <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">ejemplo</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Tasa de pulsaciones<br /> </td> 
@@ -375,4 +374,3 @@ Las tablas siguientes proporcionan la lista de indicadores utilizados en los dis
   </tr> 
  </tbody> 
 </table>
-
