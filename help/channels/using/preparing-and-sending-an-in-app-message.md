@@ -7,16 +7,15 @@ audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,triggers,back;deliveryCreation,wizard
-feature: In App
+feature: En la aplicación
 role: Business Practitioner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
+source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1272'
 ht-degree: 98%
 
 ---
-
 
 # Preparación y envío de un mensaje en la aplicación{#preparing-and-sending-an-in-app-message}
 
@@ -99,7 +98,7 @@ Los pasos para crear un mensaje independiente en la aplicación con Adobe Campai
 
    * **[!UICONTROL Life Cycle events]**: Eventos de ciclo de vida listos para usar compatibles con el SDK móvil de Adobe.
 
-      Para obtener más información sobre los eventos de ciclo de vida, consulte esta [página](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html).
+      Para obtener más información sobre los eventos de ciclo de vida, consulte esta [página](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html).
 
    * **[!UICONTROL Analytics Events]**: Se admiten las tres categorías siguientes en función de la instrumentación de la aplicación móvil: Adobe Analytics, datos de contexto o estado de vista.
 
@@ -118,7 +117,7 @@ Los pasos para crear un mensaje independiente en la aplicación con Adobe Campai
 
 1. Si utiliza un activador **[!UICONTROL Places]**, los datos de contexto de Places, los metadatos personalizados de Places o el tipo de evento de Places se rellenarán automáticamente en función de todas las bibliotecas y sus puntos de interés creados en Adobe Places.
 
-   Tenga en cuenta que este activador se aplicará en el dispositivo únicamente para los puntos de interés de las bibliotecas seleccionadas en la extensión Places en Experience Platform Launch. Para obtener más información sobre la extensión Places y cómo instalarla, consulte esta [documentación](https://docs.adobe.com/content/help/es-ES/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
+   Tenga en cuenta que este activador se aplicará en el dispositivo únicamente para los puntos de interés de las bibliotecas seleccionadas en la extensión Places en Experience Platform Launch. Para obtener más información sobre la extensión Places y cómo instalarla, consulte esta [documentación](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
 
 1. En la pestaña **[!UICONTROL Frequency & duration]**, elija la frecuencia del activador, la fecha de inicio y final, el día de la semana y la hora del día en que se activará el mensaje en la aplicación.
 
