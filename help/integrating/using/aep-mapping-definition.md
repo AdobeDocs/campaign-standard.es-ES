@@ -6,17 +6,16 @@ description: Obtenga información sobre cómo asignar un campo de Campaign Stand
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Microsoft CRM Integration
+feature: Integración de Microsoft CRM
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6383ddbe-922a-4363-a1da-166cf717b0dd
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 2%
+source-wordcount: '498'
+ht-degree: 0%
 
 ---
-
 
 # Definición de la asignación {#mapping-definition}
 
@@ -44,7 +43,7 @@ Para realizar esta tarea, los requisitos previos son:
 
 >[!NOTE]
 >
->Para que un lote se incorpore en Perfil del cliente en tiempo real o Servicio de identidad, el conjunto de datos debe estar [habilitado para Perfil del cliente en tiempo real](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/intro/get-started.html).
+>Para que un lote se incorpore en Perfil del cliente en tiempo real o Servicio de identidad, el conjunto de datos debe estar [habilitado para Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html).
 >
 >Si el conjunto de datos seleccionado ya se está utilizando en una asignación de datos existente, aparece una advertencia para informarle de que los datos pueden sobrescribirse en Adobe Experience Platform. Esto puede suceder cuando hay algunos destinatarios comunes en las asignaciones de datos que utilizan un mismo conjunto de datos.
 
@@ -64,7 +63,7 @@ Los recursos ampliados definidos en Campaign Standard se asignan como todos los 
 
 Puede personalizar la extensión XDM a través de la API y definir su propia extensión, lo que le permite un mejor control de la asignación.
 
-Consulte [Tutorial de la API del Registro de Esquema](https://docs.adobe.com/content/help/es-ES/experience-platform/xdm/api/getting-started.html) para obtener más información sobre la API XDM.
+Consulte [Tutorial de la API del Registro de Esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) para obtener más información sobre la API XDM.
 
 Para asignar un campo de enumeración, debe utilizar el editor de expresiones para definir cada valor de enumeración correspondiente al valor XDM. Por ejemplo, el campo postalAdressfield debe definirse como:
 
