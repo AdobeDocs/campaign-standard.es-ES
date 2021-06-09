@@ -6,17 +6,16 @@ description: Cree mensajes personalizados en varios canales, utilice plantillas,
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-feature: Overview
+feature: Información general
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 4ea5b0eb-35da-4db6-a529-ba636be7825f
+source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '523'
 ht-degree: 23%
 
 ---
-
 
 # Introducción a los canales de comunicación {#discovering-communication-channels}
 
@@ -101,9 +100,9 @@ Más información:
 ## Recursos adicionales
 
 * [Optimización de la capacidad de envío](../../sending/using/about-deliverability.md)
-* [Prácticas recomendadas relacionadas con las entregas](../../sending/using/delivery-best-practices.md)
+* [Prácticas recomendadas de entregas](../../sending/using/delivery-best-practices.md)
 * [Diseño de contenido de correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md)
 * [Importación de contenido AEM](../../integrating/using/creating-email-experience-manager.md)
 * [Envío de mensajes con flujos de trabajo](../../automating/using/about-channel-activities.md)
-* [Tutoriales en vídeo de canales de comunicación](https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html)
+* [Tutoriales en vídeo de canales de comunicación](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html?lang=es)
 * [Caso de uso: Creación de una entrega multicanal](../../automating/using/workflow-cross-channel-delivery.md)
