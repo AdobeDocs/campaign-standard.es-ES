@@ -7,15 +7,14 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
-feature: Instance Settings
+feature: Configuración de instancia
 role: Administrator
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-translation-type: tm+mt
-source-git-commit: b899d1926526fccb2fe1fa42db7a4e4317ddb1cb
+source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
 workflow-type: tm+mt
-source-wordcount: '2602'
-ht-degree: 76%
+source-wordcount: '2598'
+ht-degree: 77%
 
 ---
 
@@ -34,7 +33,7 @@ La pantalla de configuración de correo electrónico le permite definir los par�
    La sección **[!UICONTROL Header parameters of sent emails]** enumera las direcciones de correo electrónico autorizadas que puede utilizar para enviar correos electrónicos a sus destinatarios (dirección del remitente) y para permitirles enviar respuestas automatizadas como devoluciones asincrónicas, respuestas de fuera de la oficina, etc. (dirección de error).  Adobe Campaign comprueba que las direcciones especificadas son válidas durante la fase de preparación del mensaje. Este modo operativo garantiza que no se utilicen direcciones que puedan activar problemas de la capacidad de entrega.
    * Adobe configura las direcciones del remitente y de error. Estos campos no pueden estar vacíos.
    * No puede editar esos campos. Para actualizar una dirección, póngase en contacto con el equipo de Atención al cliente de Adobe.
-   * Para agregar otra dirección, puede utilizar el [Panel de control](https://docs.adobe.com/content/help/es-ES/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) para configurar un nuevo subdominio o ponerse en contacto con el equipo de Atención al cliente de Adobe. Tenga en cuenta que si se utilizan varias máscaras, se separarán con comas.
+   * Para agregar otra dirección, puede utilizar el [Panel de control](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=es) para configurar un nuevo subdominio o ponerse en contacto con el equipo de Atención al cliente de Adobe. Tenga en cuenta que si se utilizan varias máscaras, se separarán con comas.
    * Se recomienda configurar las direcciones con un asterisco como *@yourdomain.com; de esta forma, le permite utilizar cualquier dirección que termine con su nombre de subdominio.
 
 * **Capacidad de entrega**
