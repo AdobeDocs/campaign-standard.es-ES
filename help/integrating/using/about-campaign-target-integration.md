@@ -6,17 +6,16 @@ description: Con la integración de Adobe Target, puede insertar imágenes diná
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
-feature: Triggers
+feature: Activadores
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: e0d281f7-d522-425c-9854-894e84a0a422
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 38%
+source-wordcount: '165'
+ht-degree: 33%
 
 ---
-
 
 # Acerca de la integración de Campaign-Target{#about-campaign-target-integration}
 
@@ -30,4 +29,4 @@ Adobe Target puede utilizar varios tipos de datos:
 * Segmentos vinculados a la ID de visitante en Adobe Target, si los datos utilizados no están sujetos a limitaciones legales
 * Datos de Adobe Target: agente de usuario, dirección IP, datos de geolocalización
 
-Para obtener más información sobre la integración entre Adobe Campaign y Adobe Target, consulte el [Portal de Adobe Target](https://docs.adobe.com/content/help/es-ES/target/using/integrate/campaign-and-target.html).
+Para obtener más información sobre la integración entre Adobe Campaign y Adobe Target, consulte el [Portal de Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html).
