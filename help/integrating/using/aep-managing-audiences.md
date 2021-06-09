@@ -7,17 +7,16 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-feature: Microsoft CRM Integration
+feature: Integración de Microsoft CRM
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 2f6c5cc6-0634-4418-a2ee-e1c133d9cbd2
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '390'
 ht-degree: 3%
 
 ---
-
 
 # Administración de audiencias de Adobe Experience Platform {#about-audiences}
 
@@ -53,7 +52,7 @@ Para crear una audiencia de Adobe Experience Platform directamente en el Campaig
 
 1. Para crear correctamente un segmento, debe seleccionar una **directiva de combinación** que coincida con su propósito de marketing para este segmento.
 
-   En el panel de configuración, se selecciona una directiva de combinación predeterminada de Platform . Para obtener más información sobre las políticas de combinación, consulte la sección dedicada en la [guía del usuario del Generador de segmentos](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
+   En el panel de configuración, se selecciona una directiva de combinación predeterminada de Platform . Para obtener más información sobre las políticas de combinación, consulte la sección dedicada en la [guía del usuario del Generador de segmentos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
