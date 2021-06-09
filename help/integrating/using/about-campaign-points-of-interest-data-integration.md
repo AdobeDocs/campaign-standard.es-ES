@@ -6,23 +6,22 @@ description: Recopilando los datos de puntos de interés de los suscriptores de 
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
-feature: Audiences
+feature: Audiencias
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 358194f9-34ce-4dd5-b9b2-1a7d541879ab
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '197'
 ht-degree: 6%
 
 ---
-
 
 # Acerca de la integración de Campaign con datos de Puntos de interés{#about-campaign-points-of-interest-data-integration}
 
 Además de rastrear la presencia en línea de los clientes, también puede aprovechar su ubicación física. Mediante la integración con Adobe Analytics para móviles, puede utilizar Adobe Campaign para enviar mensajes de marketing basados en la ubicación a los suscriptores de la aplicación móvil.
 
-Los puntos de interés constan de una latitud, una longitud y un radio asociados a una etiqueta. Se definen en la interfaz [Adobe Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html).
+Los puntos de interés constan de una latitud, una longitud y un radio asociados a una etiqueta. Se definen en la interfaz [Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html).
 
 Cuando un suscriptor abre la aplicación móvil, si la ubicación coincide con un punto de interés, Adobe Campaign captura los datos a través del SDK móvil del Experience Cloud. Puede utilizar esta información para enviar mensajes personalizados en función de la ubicación del usuario (como correos electrónicos, notificaciones push o mensajes SMS).
 
