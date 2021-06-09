@@ -7,17 +7,16 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: Aprenda a proteger y optimizar el proceso de envío ascendente.
-feature: Deliverability
+feature: Entrega
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
+source-git-commit: 8a62ee661b77c3e3062e46477bfce5911e9415ff
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '747'
 ht-degree: 85%
 
 ---
-
 
 # Optimización del envío {#optimize-delivery}
 
@@ -37,7 +36,7 @@ Varios factores pueden afectar directamente al rendimiento del servidor y ralent
 
 * La [ejecución del flujo de trabajo](../../automating/using/about-workflow-execution.md): la monitorización de los flujos de trabajo es esencial para evitar problemas de rendimiento de la plataforma. Siga las directrices enumeradas [en esta página](../../automating/using/monitoring-workflow-execution.md). Obtenga más información en la sección [prácticas recomendadas del flujo de trabajo](../../automating/using/best-practices-workflows.md).
 
-* Puede aprovechar las [funcionalidades del Panel de control de Campaign](https://docs.adobe.com/content/help/es-ES/control-panel/using/discover-control-panel/key-features.html) para monitorizar su plataforma mediante las funcionalidades de [monitoreo del rendimiento](https://docs.adobe.com/content/help/es-ES/control-panel/using/performance-monitoring/about-performance-monitoring.html).
+* Puede aprovechar las [funcionalidades del Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=es) para monitorizar su plataforma mediante las funcionalidades de [monitoreo del rendimiento](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=es).
 
 ## Comprobación de la configuración de red {#network-config}
 
