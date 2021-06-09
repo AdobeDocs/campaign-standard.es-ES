@@ -10,14 +10,13 @@ context-tags: mobileApp,overview
 feature: Push
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
+source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1279'
 ht-degree: 50%
 
 ---
-
 
 # Acerca de las notificaciones push{#about-push-notifications}
 
@@ -85,14 +84,14 @@ Antes de enviar las notificaciones push, debe hacer lo siguiente:
 
 Consulte los siguientes recursos:
 
-* [Tutoriales en vídeo](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
+* [Tutoriales en vídeo](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
 * [Documentación del producto](../../channels/using/about-push-notifications.md)
 * Configurar mediante el SDK de AEP [documentación](../../administration/using/configuring-a-mobile-application.md)
 * [Página de comunidad](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### ¿Qué tengo que hacer para adquirir un token push en Campaign? {#push-token-acquisition}
 
-Asegúrese de que el equipo de aprovisionamiento haya completado el aprovisionamiento del canal push en Adobe Campaign Standard. Implemente la API setPushIdentifier desde el SDK. Para obtener más información, consulte [esta página](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#set-up-push-messaging).
+Asegúrese de que el equipo de aprovisionamiento haya completado el aprovisionamiento del canal push en Adobe Campaign Standard. Implemente la API setPushIdentifier desde el SDK. Para obtener más información, consulte esta [página](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#set-up-push-messaging).
 
 ### Una vez que tengo el token push y el ECID en Campaign, ¿qué más necesito para enviar una notificación push? {#sending-push}
 
