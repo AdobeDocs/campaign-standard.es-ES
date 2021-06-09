@@ -7,17 +7,16 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-feature: Microsoft CRM Integration
+feature: Integración de Microsoft CRM
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9a6c542e-10ed-4e77-abb3-36324e1cb38f
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 4%
+source-wordcount: '869'
+ht-degree: 2%
 
 ---
-
 
 # Uso del Generador de segmentos {#using-the-segment-builder}
 
@@ -25,9 +24,9 @@ ht-degree: 4%
 >
 >El servicio Audience Destinations se encuentra actualmente en fase beta, por lo que puede estar sujeto a frecuentes actualizaciones sin previo aviso. Es necesario que los clientes estén alojados en Azure (actualmente en versión beta solo para Norteamérica) para acceder a estas capacidades. Si desea acceder, póngase en contacto con el Servicio de atención al cliente de Adobe.
 
-El Generador de segmentos le permite crear audiencias definiendo reglas basadas en datos procedentes del [Perfil del cliente en tiempo real](https://docs.adobe.com/content/help/es-ES/experience-platform/profile/home.html).
+El Generador de segmentos le permite crear audiencias definiendo reglas basadas en datos procedentes del [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
 
-Esta sección presenta conceptos globales al crear un segmento. Para obtener información detallada sobre el propio Generador de segmentos, consulte la [guía del usuario del Generador de segmentos](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
+Esta sección presenta conceptos globales al crear un segmento. Para obtener información detallada sobre el propio Generador de segmentos, consulte la [guía del usuario del Generador de segmentos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
 La interfaz del Generador de segmentos se compone de la siguiente manera:
 
@@ -49,7 +48,7 @@ El Generador de segmentos debería mostrarse ahora en su espacio de trabajo. Le 
 
 1. Asegúrese de que la política de combinación deseada esté seleccionada en el panel de configuración.
 
-   Para obtener más información sobre las políticas de combinación, consulte la sección dedicada en la [guía del usuario del Generador de segmentos](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
+   Para obtener más información sobre las políticas de combinación, consulte la sección dedicada en la [guía del usuario del Generador de segmentos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -67,7 +66,7 @@ El Generador de segmentos debería mostrarse ahora en su espacio de trabajo. Le 
 
 El panel izquierdo enumera todos los atributos, eventos y audiencias disponibles para usar en la construcción de reglas.
 
-Los campos mostrados son atributos capturados por su empresa y se han puesto a disposición a través del sistema [Experience Data Model (XDM)](https://docs.adobe.com/content/help/es-ES/experience-platform/xdm/home.html).
+Los campos mostrados son atributos capturados por su empresa y se han puesto a disposición a través del sistema [Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
 
 Los campos se organizan en fichas:
 
@@ -83,7 +82,7 @@ Los campos se organizan en fichas:
 >
 >**La** segmentación de varias entidades le permite ampliar los datos del perfil con datos adicionales basados en productos, tiendas u otras clases que no sean de perfil. Una vez conectados, los datos de clases adicionales estarán disponibles como si fueran nativos del esquema de perfil.
 >
->Para obtener más información, consulte la [documentación dedicada](https://docs.adobe.com/content/help/en/experience-platform/segmentation/multi-entity-segmentation.html).
+>Para obtener más información, consulte la [documentación dedicada](https://experienceleague.adobe.com/docs/experience-platform/segmentation/multi-entity-segmentation.html).
 
 De forma predeterminada, el Generador de segmentos muestra los campos en los que los datos ya están presentes. Para mostrar el esquema completo, incluidos los campos para los que no hay datos, active la opción **[!UICONTROL Show full XDM schema]** desde la configuración.
 
@@ -97,7 +96,7 @@ El símbolo situado al final de cada campo proporciona información adicional so
 
 >[!NOTE]
 >
->La sección siguiente proporciona información global sobre la definición de reglas. Para obtener más información, consulte la [guía del usuario del Generador de segmentos](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
+>La sección siguiente proporciona información global sobre la definición de reglas. Para obtener más información, consulte la [guía del usuario del Generador de segmentos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
 Para generar una regla, siga estos pasos:
 
