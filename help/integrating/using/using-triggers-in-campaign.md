@@ -5,17 +5,16 @@ title: Uso de activadores en Campaign
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-feature: Triggers
+feature: Activadores
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '750'
 ht-degree: 83%
 
 ---
-
 
 # Uso de activadores en Campaign{#using-triggers-in-campaign}
 
@@ -25,7 +24,7 @@ ht-degree: 83%
 >
 >Para crear Déclencheur, necesitará la función **[!UICONTROL Administration]** o para estar en el grupo de seguridad **[!UICONTROL Administrators]**. Para obtener más información, consulte esta [página](../../administration/using/list-of-roles.md).
 
-Debe asegurarse de definir los comportamientos que desea supervisar de antemano en Adobe Experience Cloud (servicio principal de **[!UICONTROL Triggers]**). Para obtener más información, consulte la [documentación de Adobe Experience Cloud](https://docs.adobe.com/content/help/es-ES/core-services/interface/activation/triggers.html). Tenga en cuenta que cuando define el activador, debe activar los alias. Para cada comportamiento (navegación/abandono de formulario, adición/eliminación de productos, sesión caducada, etc.), se debe añadir un nuevo activador en Adobe Experience Cloud.
+Debe asegurarse de definir los comportamientos que desea supervisar de antemano en Adobe Experience Cloud (servicio principal de **[!UICONTROL Triggers]**). Para obtener más información, consulte la [documentación de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html). Tenga en cuenta que cuando define el activador, debe activar los alias. Para cada comportamiento (navegación/abandono de formulario, adición/eliminación de productos, sesión caducada, etc.), se debe añadir un nuevo activador en Adobe Experience Cloud.
 
 Ahora tiene que crear un evento de activación en Adobe Campaign basado en un activador de Adobe Experience Cloud existente.
 
@@ -102,4 +101,3 @@ Para ver el informe de activación en Adobe Campaign, abra el evento de activaci
 El informe muestra el número de eventos procesados en comparación con el número de eventos enviados por Analytics. También muestra una lista de todos los activadores recientes.
 
 ![](assets/trigger_uc_browse_14.png)
-
