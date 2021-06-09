@@ -6,17 +6,16 @@ description: 'Aprenda a configurar la integración de Adobe Experience Cloud Tri
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-feature: Triggers
+feature: Activadores
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 8%
+source-wordcount: '859'
+ht-degree: 7%
 
 ---
-
 
 # Configuración de activadores en Experience Cloud{#configuring-triggers-in-experience-cloud}
 
@@ -98,7 +97,7 @@ Se debe crear un déclencheur de Adobe Experience Cloud para poder utilizarlo en
 
 Cree un nuevo déclencheur en Experience Cloud y asegúrese de seleccionar el grupo de informes utilizado en el sitio web. Asegúrese de elegir la dimensión correcta para que el déclencheur se active.
 
-Consulte la [documentación de Adobe Experience Cloud](https://docs.adobe.com/content/help/es-ES/core-services/interface/activation/triggers.html) y vea este [vídeo](https://helpx.adobe.com/es/marketing-cloud/how-to/email-marketing.html#step-two).
+Consulte la [documentación de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html) y vea este [vídeo](https://helpx.adobe.com/es/marketing-cloud/how-to/email-marketing.html#step-two).
 
 ## Prácticas recomendadas y limitaciones de Déclencheur {#triggers-best-practices-and-limitations}
 
@@ -115,4 +114,3 @@ Esta es una lista de prácticas recomendadas y limitaciones para el uso de la in
 >[!CAUTION]
 >
 >El sitio web debe ejecutarse en el mismo dominio que el servidor de Adobe Campaign. Si no es así, no puede utilizar el id de visitante para reconciliar y ponerse en contacto con los usuarios que visiten el sitio web de forma anónima.
-
