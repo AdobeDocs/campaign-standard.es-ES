@@ -6,34 +6,33 @@ description: Automatice los procesos con flujos de trabajo, administre datos y a
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-feature: Workflows
+feature: Flujos de trabajo
 role: Data Architect
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 26be942a-c252-458f-a590-eb235567ca67
+source-git-commit: 7808aea42f417994a61fdde84a44299c0954b346
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 13%
+source-wordcount: '518'
+ht-degree: 40%
 
 ---
-
 
 # Introducción a la administración de datos y procesos {#get-started-processes-data-management}
 
 <table>
 <tr>
-<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#workflow-activities">Actividades de flujo de trabajo</a></p></td><td><img src="assets/do-not-localize/icon_activities.svg" width="60px"><p><a href="../../automating/using/workflow-created-query-with-complement.md">Ejemplos de uso</a></p></td><td><img src="assets/do-not-localize/icon_filter.svg" width="60px"><p><a href="#filter-data">Filtrar datos</a></p></td>
+<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#workflow-activities">Actividades de flujo de trabajo</a></p></td><td><img src="assets/do-not-localize/icon_activities.svg" width="60px"><p><a href="../../automating/using/workflow-created-query-with-complement.md">Casos de uso</a></p></td><td><img src="assets/do-not-localize/icon_filter.svg" width="60px"><p><a href="#filter-data">Filtrado de datos</a></p></td>
 <td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#import-export-data">Importar/exportar datos</a></p></td></tr>
 </table>
 
-Adobe Campaign ofrece un entorno gráfico completo que le permite diseñar procesos complejos, incluida la segmentación, la ejecución de campañas, el procesamiento de archivos, etc. Por ejemplo, puede utilizar un flujo de trabajo para descargar un archivo de un servidor, descomprimirlo y, a continuación, importar sus registros en la base de datos de Adobe Campaign.
+Adobe Campaign ofrece un entorno gráfico completo que le permite diseñar procesos complejos, incluida la segmentación, la ejecución de campañas, el procesamiento de archivos, etc. Se puede utilizar un flujo de trabajo, por ejemplo, para descargar un archivo de un servidor, descomprimirlo y, a continuación, importar registros de la base de datos de Adobe Campaign.
 
 Un flujo de trabajo también puede incluir usuarios asignándoles tareas o haciendo que aprueben tareas realizadas. Esto significa que puede asignar una tarea a uno o varios usuarios para que trabajen en el contenido o especifiquen objetivos, y aprobar pruebas antes de enviar el mensaje.
 
 Los flujos de trabajo se pueden utilizar en diferentes contextos, como por ejemplo:
 
-* Segmentación para administrar audiencias o enviar mensajes.
-* Gestión de datos (ETL) para manipular los datos.
+* Direccionamiento para administrar audiencias o enviar mensajes.
+* Administración de datos (ETL) para manipular datos.
 * Importación de datos en la base de datos de Campaign.
 * Procesos técnicos, como limpieza de bases de datos, recuperación de información de seguimiento, etc.
 
@@ -53,9 +52,9 @@ Más información:
 
 * [Creación de un flujo de trabajo](../../automating/using/building-a-workflow.md)
 * [Ejecución de un flujo de trabajo](../../automating/using/about-workflow-execution.md)
-* [Prácticas recomendadas del flujo de trabajo](../../automating/using/best-practices-workflows.md)
+* [Prácticas recomendadas con flujos de trabajo](../../automating/using/best-practices-workflows.md)
 
-## Filtrar datos {#filter-data}
+## Filtrado de datos {#filter-data}
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
@@ -92,6 +91,6 @@ Más información:
 
 ## Recursos adicionales
 
-* [Tutoriales en vídeo sobre procesos y administración de datos](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/getting-started/create-workflow.html)
+* [Tutoriales en vídeo sobre procesos y administración de datos](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/managing-processes-and-data/creating-a-workflow.html?lang=es)
 * [Flujos de trabajo técnicos](../../administration/using/technical-workflows.md)
 * [Introducción al modelo de datos de Campaign Standard](../../developing/using/get-started-data-model.md)
