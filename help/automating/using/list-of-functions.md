@@ -10,10 +10,10 @@ feature: Flujos de trabajo
 role: Data Architect
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-source-git-commit: 2672d2f58a2d46394454a88e63f8d09ea7e96148
+source-git-commit: 887396a0871a8ed93642c55a49c8737f5c98bfc2
 workflow-type: tm+mt
-source-wordcount: '1971'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -707,11 +707,7 @@ Las funciones agregadas se utilizan para realizar cálculos en un conjunto de va
    <td> Devuelve el valor mínimo de una columna numérica, de cadena o de fecha.<br /> </td> 
    <td> Min(&lt;valor&gt;)<br /> </td> 
   </tr>
-  <tr> 
-   <td> <strong>StringAgg</strong>, agregado de cadenas<br /> </td> 
-   <td> Devuelve la concatenación de los valores de una columna de tipo cadena, separados por el carácter del segundo argumento (el separador predeterminado es una coma).<br /> </td> 
-   <td> StringAgg(&lt;valores de cadena&gt;,&lt;separador&gt;)
-  </tr>
+
 
 
 
