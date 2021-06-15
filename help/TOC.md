@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Campaign Standard
 user-guide-description: 'Centro de ayuda para las principales características, tareas, configuraciones y otros recursos necesarios para utilizar Campaign Standard. '
 title: Guía de Campaign Standard
-breadcrumb-title: Centro de ayuda
-source-git-commit: 633992a3120eeef4aacd1dadeb4e0b47dbbcb999
+breadcrumb-title: Documentación de Adobe Campaign Standard
+source-git-commit: 5b94e57efb29ba1c3feeba21b41e68571bd646b1
 workflow-type: tm+mt
-source-wordcount: '1785'
+source-wordcount: '1787'
 ht-degree: 99%
 
 ---
@@ -111,7 +111,7 @@ ht-degree: 99%
       + [Acerca de la mensajería en la aplicación](channels/using/about-in-app-messaging.md)
       + [Preparación y envío de un mensaje en la aplicación](channels/using/preparing-and-sending-an-in-app-message.md)
       + [Personalización de un mensaje en la aplicación](channels/using/customizing-an-in-app-message.md)
-   + Correo postal {#direct-mail}
+   + Correo directo {#direct-mail}
       + [Acerca del correo postal](channels/using/about-direct-mail.md)
       + [Devolver al remitente](channels/using/return-to-sender.md)
       + [Creación del correo postal](channels/using/creating-the-direct-mail.md)
@@ -419,7 +419,7 @@ ht-degree: 99%
       + [Audiencia](developing/using/datamodel-audience.md)
       + [Campaña](developing/using/datamodel-campaign.md)
       + [Entrega](developing/using/datamodel-delivery.md)
-      + [Páginas de aterrizaje](developing/using/datamodel-landingpage.md)
+      + [Páginas de destino](developing/using/datamodel-landingpage.md)
       + [Historial de marketing](developing/using/datamodel-history.md)
       + [Perfil](developing/using/datamodel-profile.md)
       + [Programa](developing/using/datamodel-program.md)
