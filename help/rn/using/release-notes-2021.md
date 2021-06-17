@@ -12,8 +12,8 @@ level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
 source-git-commit: 4a8dfc0b8f321447e0ebc23a9f5bbef337454d9f
 workflow-type: tm+mt
-source-wordcount: '2536'
-ht-degree: 95%
+source-wordcount: '2535'
+ht-degree: 100%
 
 ---
 
@@ -151,11 +151,11 @@ ht-degree: 95%
 
 * Se ha corregido un problema con los flujos de trabajo que se podía producir al copiar y pegar una actividad de **anulación de duplicación** que se había ejecutado una vez y que aprovechaba un recurso temporal. Una vez duplicado, el recurso de la actividad se definía automáticamente en vacío, lo que producía problemas en otras actividades del flujo de trabajo. Una vez pegado, el recurso de la actividad seguirá siendo el mismo para que el error se active lo antes posible en lugar de más tarde en el flujo de trabajo. (CAMP-46903)
 
-* Se han corregido problemas que provocaban que fallara el análisis de envío al enviar una notificación push transaccional dirigida a perfiles, al introducir una nueva [asignación de destino](../../administration/using/target-mappings-in-campaign.md): **Perfil: evento en tiempo real para push** (*mapRtEventAppSubRcp*). Los registros de envío, exclusión y seguimiento de las [notificaciones push transaccionales basadas en perfiles](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile) se almacenan ahora en las tablas *broadLogAppSubRcp*, *excludeLogAppSubRcp* y *trackingLogAppSubRcp*.
+* Se ha corregido un problema que ocasionaba que fallara el análisis de entrega al enviar perfiles de direccionamiento de mensajes push transaccionales, al introducir una nueva [asignación de destino](../../administration/using/target-mappings-in-campaign.md): **Perfil: evento en tiempo real para push** (*mapRtEventAppSubRcp*). La entrega, la exclusión y los registros de seguimiento de las [notificaciones push transaccionales basadas en un perfil](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile) se almacenarán ahora en las tablas *broadLogAppSubRcp*, *excludeLogAppSubRcp* y *trackingLogAppSubRcp*.
 
    >[!IMPORTANT]
    >
-   >Debido a este cambio, si está utilizando una notificación transaccional basada en perfiles existente (creada antes de actualizar a Adobe Campaign 21.1), se recomienda actualizar la asignación de destino a la nueva y volver a publicar el mensaje. Consulte los pasos detallados [aquí](../../channels/using/transactional-push-notifications.md#change-target-mapping). El uso de la asignación de destino anterior **Profile - Real-time event** (*mapRtEventRcp*) puede provocar tiempos de preparación de envíos más largos y una degradación del rendimiento.
+   >Debido a este cambio, si está utilizando una notificación transaccional basada en perfiles existente (creada antes de actualizar a Adobe Campaign 21.1), se recomienda actualizar la asignación de destino a la nueva y volver a publicar el mensaje. Consulte los pasos detallados [aquí](../../channels/using/transactional-push-notifications.md#change-target-mapping). El uso de la asignación de destino anterior **Perfil: evento de tiempo real** (*mapRtEventRcp*) puede provocar tiempos de preparación de envíos más largos y una degradación del rendimiento.
 
 * Se ha corregido un problema que impedía que los informes de envío se ejecutaran cuando se mostraban 5000 filas.
 * Se ha corregido un problema con las Pruebas A/B que impedía que el contenido de la variante B se actualizara después de que se hubiera modificado la plantilla de envíos. (CAMP-45235)
