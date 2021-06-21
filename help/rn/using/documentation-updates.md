@@ -13,7 +13,7 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
 workflow-type: tm+mt
 source-wordcount: '6852'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -25,9 +25,9 @@ Además de las [Notas de la versión](../../rn/using/release-notes.md) de Adobe 
 
 **Nuevas funciones incluidas en la versión**
 
-Validación de páginas de aterrizaje : ahora puede agregar una opción de acuerdo obligatoria a sus páginas de aterrizaje. [Más información](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox)
+Validación de páginas de destino: ahora puede añadir una opción de acuerdo obligatoria a sus páginas de destino. [Más información](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox)
 
-La sección **Email size** se ha actualizado con información sobre el tamaño máximo de un correo electrónico, que ahora se establece en 100 MB de forma predeterminada. [Más información](../../sending/using/design-and-personalize.md#email-size)
+La sección **Tamaño de correo electrónico** se ha actualizado con información sobre el tamaño máximo de un correo electrónico, que ahora se establece en 100 MB de forma predeterminada. [Más información](../../sending/using/design-and-personalize.md#email-size)
 
 **Otras actualizaciones de la documentación incluidas en la versión**
 
