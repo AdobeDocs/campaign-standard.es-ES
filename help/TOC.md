@@ -31,7 +31,7 @@ ht-degree: 99%
    + [Funciones obsoletas](rn/using/deprecated-features.md)
    + [Problema de firma de direcciones URL rastreadas](rn/using/tracked-urls.md)
 + Introducción {#getting-started}
-   + [Acerca de Adobe Campaign Classic](start/using/about-campaign-standard.md)
+   + [Acerca de Adobe Campaign Standard](start/using/about-campaign-standard.md)
    + Descubrimiento de la interfaz {#discovering-the-interface}
       + [Acerca de la interfaz](start/using/about-the-interface.md)
       + [Descripción de la interfaz](start/using/interface-description.md)
@@ -46,7 +46,7 @@ ht-degree: 99%
       + [Privacidad y consentimiento](start/using/privacy.md)
       + [Administración de la privacidad](start/using/privacy-management.md)
       + [Solicitudes de privacidad](start/using/privacy-requests.md)
-      + [Preguntas más frecuentes sobre privacidad](start/using/privacy-faq.md)
+      + [Preguntas frecuentes sobre privacidad](start/using/privacy-faq.md)
    + [Opciones de ayuda y asistencia](support.md)
 + Perfiles y audiencias {#profiles-and-audiences}
    + [Introducción a perfiles y audiencias](audiences/using/get-started-profiles-and-audiences.md)
@@ -77,7 +77,7 @@ ht-degree: 99%
    + Acerca de los canales de comunicación {#about-communication-channels}
       + [Pasos clave para enviar un mensaje](channels/using/key-steps-to-send-a-message.md)
       + [Acceso a mensajes](channels/using/accessing-messages.md)
-      + [Panel de mensajes](channels/using/message-dashboard.md)
+      + [Tablero de mensajes](channels/using/message-dashboard.md)
       + [Plantillas de mensajes multilingües](channels/using/multilingual-messages-template.md)
    + Prácticas recomendadas relacionadas con las entregas {#delivery-bestpractices}
       + [Conozca las prácticas recomendadas](sending/using/delivery-best-practices.md)
@@ -112,10 +112,10 @@ ht-degree: 99%
       + [Preparación y envío de un mensaje en la aplicación](channels/using/preparing-and-sending-an-in-app-message.md)
       + [Personalización de un mensaje en la aplicación](channels/using/customizing-an-in-app-message.md)
    + Correo directo {#direct-mail}
-      + [Acerca del correo postal](channels/using/about-direct-mail.md)
-      + [Devolver al remitente](channels/using/return-to-sender.md)
-      + [Creación del correo postal](channels/using/creating-the-direct-mail.md)
-      + [Definición de la audiencia de correo postal](channels/using/defining-the-direct-mail-audience.md)
+      + [Acerca del correo directo](channels/using/about-direct-mail.md)
+      + [Devolución al remitente](channels/using/return-to-sender.md)
+      + [Creación del correo directo](channels/using/creating-the-direct-mail.md)
+      + [Definición de la audiencia de correo directo](channels/using/defining-the-direct-mail-audience.md)
       + [Definición del contenido de correo directo](channels/using/defining-the-direct-mail-content.md)
    + Mensajería transaccional {#transactional-messaging}
       + [Introducción a la mensajería transaccional](channels/using/getting-started-with-transactional-msg.md)
@@ -130,14 +130,14 @@ ht-degree: 99%
          + [Ejecución y monitorización](channels/using/transactional-message-execution.md)
       + [Notificaciones push transaccionales](channels/using/transactional-push-notifications.md)
       + [Mensajes de seguimiento](channels/using/follow-up-messages.md)
-      + [Ejemplo de uso de la mensajería transaccional](channels/using/transactional-messaging-use-case.md)
-   + Páginas de aterrizaje {#landing-pages}
-      + [Introducción a las páginas de aterrizaje](channels/using/getting-started-with-landing-pages.md)
-      + [Acerca de las plantillas de página de aterrizaje](channels/using/landing-page-templates.md)
-      + [Configuración de una página de aterrizaje](channels/using/configuring-landing-page.md)
-      + [Diseño de una página de aterrizaje](channels/using/designing-a-landing-page.md)
-      + [Administración de datos de formulario de una página de aterrizaje](channels/using/managing-landing-page-form-data.md)
-      + [Prueba y publicación de una página de aterrizaje](channels/using/testing-publishing-landing-page.md)
+      + [Caso de uso de la mensajería transaccional](channels/using/transactional-messaging-use-case.md)
+   + Páginas de destino {#landing-pages}
+      + [Introducción a las páginas de destino](channels/using/getting-started-with-landing-pages.md)
+      + [Acerca de las plantillas de página de destino](channels/using/landing-page-templates.md)
+      + [Configuración de una página de destino](channels/using/configuring-landing-page.md)
+      + [Diseño de una página de destino](channels/using/designing-a-landing-page.md)
+      + [Administración de datos de formulario de una página de destino](channels/using/managing-landing-page-form-data.md)
+      + [Prueba y publicación de una página de destino](channels/using/testing-publishing-landing-page.md)
       + [Configuración de un proceso de inclusión doble](channels/using/setting-up-a-double-opt-in-process.md)
 + Diseño del contenido del correo electrónico {#designing-content}
    + [Diseñador de correos electrónicos de Campaign](designing/using/designing-content-in-adobe-campaign.md)
@@ -162,7 +162,7 @@ ht-degree: 99%
       + [Vista previa de entregas](sending/using/previewing-messages.md)
       + [Envío de pruebas](sending/using/sending-proofs.md)
       + [Prueba de mensajes de correo electrónico con perfiles de destino](sending/using/testing-messages-using-target.md)
-      + [Correos electrónicos con tecnología IA](sending/using/predictive.md)
+      + [Correos electrónicos con IA](sending/using/predictive.md)
       + [Procesamiento de correo electrónico](sending/using/email-rendering.md)
       + [Adición de un grupo de control](sending/using/control-group.md)
       + [Uso de trampas](sending/using/using-traps.md)
@@ -175,10 +175,10 @@ ht-degree: 99%
    + Envío y seguimiento de mensajes {#sending-and-tracking-messages}
       + [Confirmación del envío](sending/using/confirming-the-send.md)
       + [Seguimiento de mensajes](sending/using/tracking-messages.md)
-      + [Archivado con Email BCC](sending/using/archiving.md)
+      + [Archivado con CCO de correo electrónico](sending/using/archiving.md)
    + Supervisión de mensajes {#monitoring-messages}
       + [Seguimiento de una entrega](sending/using/monitoring-a-delivery.md)
-      + [Recibir alertas cuando se produzcan errores](sending/using/receiving-alerts-when-failures-happen.md)
+      + [Recepción de alertas cuando se produzcan errores](sending/using/receiving-alerts-when-failures-happen.md)
       + [Comprensión de los errores de entrega](sending/using/understanding-delivery-failures.md)
       + [Comprensión de la gestión de la cuarentena](sending/using/understanding-quarantine-management.md)
    + Administración de envíos {#managing-deliverability}
@@ -187,7 +187,7 @@ ht-degree: 99%
       + [Supervisión de la capacidad de entrega](sending/using/monitor-deliverability.md)
       + [Solución de problemas](sending/using/troubleshooting.md)
    + Trabajo con reglas de tipología {#working-with-typology-rules}
-      + [Información sobre las tipologías y reglas de tipología](sending/using/about-typology-rules.md)
+      + [Acerca de las tipologías y reglas de tipología](sending/using/about-typology-rules.md)
       + [Administración de tipologías](sending/using/managing-typologies.md)
       + [Administración de reglas de tipología](sending/using/managing-typology-rules.md)
       + [Reglas de filtrado](sending/using/filtering-rules.md)
@@ -207,7 +207,7 @@ ht-degree: 99%
       + [Desglose por dominios](reporting/using/breakdown-by-domains.md)
       + [Reclamaciones](reporting/using/complaints.md)
       + [Resumen de entregas](reporting/using/delivery-summary.md)
-      + [Rendimiento del envío](reporting/using/delivery-throughput.md)
+      + [Rendimiento de la entrega](reporting/using/delivery-throughput.md)
       + [Informe en la aplicación](reporting/using/in-app-report.md)
       + [Rechazos y no entregables](reporting/using/non-deliverables-and-bounces.md)
       + [Aperturas](reporting/using/opens.md)
@@ -225,10 +225,10 @@ ht-degree: 99%
       + [Creación de una dimensión de perfil personalizada](reporting/using/creating-a-custom-profile-dimension.md)
       + [Creación de un informe basado en segmentos de flujo de trabajo](reporting/using/creating-a-report-workflow-segment.md)
 + Integración con otras soluciones {#integrating-with-adobe-cloud}
-   + [Integraciones de Campaign Standard](integrating/using/get-started-campaign-integrations.md)
+   + [Introducción a las integraciones de Campaign](integrating/using/get-started-campaign-integrations.md)
    + Campaign y Experience Manager {#working-with-campaign-and-experience-manager}
-      + [Acerca de la integración de Experience Manager en Campaign](integrating/using/integrating-with-experience-manager.md)
-      + [Configuración de la integración Campaign Experience Manager](integrating/using/configure-experience-manager.md)
+      + [Acerca de la integración de Campaign-Experience Manager](integrating/using/integrating-with-experience-manager.md)
+      + [Configuración de la integración de Campaign-Experience Manager](integrating/using/configure-experience-manager.md)
       + [Creación de contenido de correo electrónico en Adobe Experience Manager](integrating/using/creating-email-experience-manager.md)
       + [Creación de un formulario de Campaign en Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
       + [Creación de un correo electrónico multilingüe con la integración de Adobe Experience Manager](integrating/using/creating-multilingual-email-aem.md)
@@ -241,7 +241,7 @@ ht-degree: 99%
       + [Configuración de la integración de Campaign-Analytics](integrating/using/configure-campaign-analytics-integration.md)
       + [Dimensiones y métricas de Campaign en Analytics](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
    + Campaign y Audience Manager o servicio principal People {#working-with-campaign-and-audience-manager-or-people-core-service}
-      + [Acerca de la integración de Campaign con Audience Manager o el servicio principal People](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
+      + [Acerca de la integración de Campaign-Audience Manager o el servicio principal People](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
       + [Aprovisionamiento y configuración de la integración con Audience Manager o el servicio principal People](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
       + [Solución de problemas](integrating/using/troubleshooting.md)
       + [Uso compartido de audiencias con Audience Manager o el servicio principal People](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
@@ -255,7 +255,7 @@ ht-degree: 99%
       + [Configuración de activadores en Experience Cloud](integrating/using/configuring-triggers-in-experience-cloud.md)
       + [Uso de activadores en Campaign](integrating/using/using-triggers-in-campaign.md)
       + [Prueba de los activadores](integrating/using/testing-your-triggers.md)
-      + [Ejemplos prácticos de activadores de abandono](integrating/using/abandonment-triggers-use-cases.md)
+      + [Casos de uso de activadores de abandono](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign y Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
       + [Introducción a la integración con Microsoft Dynamics 365](integrating/using/d365-acs-get-started.md)
       + [Prácticas recomendadas y limitaciones](integrating/using/d365-acs-notices-and-recommendations.md)
@@ -267,7 +267,7 @@ ht-degree: 99%
          + [Conexión de sistemas con la aplicación de integración](integrating/using/d365-acs-self-service-app-settings.md)
          + [Administración de flujos de trabajo de sincronización](integrating/using/d365-acs-self-service-app-workflows.md)
          + [Asignación de datos entre Microsoft Dynamics 365 y Campaign](integrating/using/d365-acs-self-service-app-data-sync.md)
-      + [Usar la integración con Microsoft Dynamics 365](integrating/using/d365-acs-using-the-integration.md)
+      + [Uso de la integración con Microsoft Dynamics 365](integrating/using/d365-acs-using-the-integration.md)
    + Campaign y Adobe Experience Platform {#adobe-experience-platform}
       + Fuentes y destinos de Adobe Experience Platform {#aep-sources-destinations}
          + [Introducción a orígenes y destinos](integrating/using/get-started-sources-destinations.md)
@@ -277,11 +277,11 @@ ht-degree: 99%
          + [Acerca del servicio Audience Destinations](integrating/using/aep-about-audience-destinations-service.md)
          + [Administración de audiencias de Adobe Experience Platform](integrating/using/aep-managing-audiences.md)
          + [Uso del Generador de segmentos](integrating/using/aep-using-segment-builder.md)
-         + [Segmentación de las audiencias de Adobe Experience Platform](integrating/using/aep-targeting-audiences.md)
+         + [Direccionamiento de las audiencias de Adobe Experience Platform](integrating/using/aep-targeting-audiences.md)
          + [Personalización de las campañas con atributos de Adobe Experience Platform](integrating/using/aep-personalizing-campaigns.md)
       + Conector de datos de Adobe Experience Platform (beta) {#data-connector}
-         + [Acerca de Adobe Experience Platform Data Connector](integrating/using/aep-about-data-connector.md)
-         + [Información general de Experience Platform Datamodel](integrating/using/aep-data-model-overview.md)
+         + [Acerca del conector de datos de Adobe Experience Platform](integrating/using/aep-about-data-connector.md)
+         + [Información general del modelo de datos de Experience Platform](integrating/using/aep-data-model-overview.md)
          + [Definición de la asignación](integrating/using/aep-mapping-definition.md)
          + [Activación de la asignación](integrating/using/aep-mapping-activation.md)
          + [Activación de la ingesta de datos mediante API](integrating/using/aep-triggering-data-ingestion.md)
@@ -314,8 +314,8 @@ ht-degree: 99%
       + [Intersección](automating/using/intersection.md)
       + [Exclusión](automating/using/exclusion.md)
       + [Segmentación](automating/using/segmentation.md)
-      + [Leer audiencia](automating/using/read-audience.md)
-      + [Guardar audiencia](automating/using/save-audience.md)
+      + [Lectura de audiencia](automating/using/read-audience.md)
+      + [Guardado de audiencia](automating/using/save-audience.md)
       + [Anulación de duplicación](automating/using/deduplication.md)
       + [Enriquecimiento](automating/using/enrichment.md)
    + Actividades de ejecución {#execution-activities}
@@ -329,18 +329,18 @@ ht-degree: 99%
       + [Prueba](automating/using/test.md)
    + Actividades de canal {#channel-activities}
       + [Acerca de las actividades de canal](automating/using/about-channel-activities.md)
-      + [Envío de correo electrónico](automating/using/email-delivery.md)
-      + [Envío de SMS](automating/using/sms-delivery.md)
-      + [Envío de notificaciones push](automating/using/push-notification-delivery.md)
-      + [Envío por correo postal](automating/using/direct-mail-delivery.md)
+      + [Entrega de correo electrónico](automating/using/email-delivery.md)
+      + [Entrega de SMS](automating/using/sms-delivery.md)
+      + [Entrega de notificaciones push](automating/using/push-notification-delivery.md)
+      + [Entrega de correo directo](automating/using/direct-mail-delivery.md)
       + [Entrega en la aplicación](automating/using/in-app-delivery.md)
-   + Actividades de gestión de datos {#data-management-activities}
+   + Actividades de administración de datos {#data-management-activities}
       + [Acerca de las actividades de administración de datos](automating/using/about-data-management-activities.md)
       + [Actualización de datos](automating/using/update-data.md)
-      + [Cargar archivo](automating/using/load-file.md)
-      + [Transferir archivo](automating/using/transfer-file.md)
+      + [Carga de archivo](automating/using/load-file.md)
+      + [Transferencia de archivo](automating/using/transfer-file.md)
       + [Reconciliación](automating/using/reconciliation.md)
-      + [Extraer archivo](automating/using/extract-file.md)
+      + [Extracción de archivos](automating/using/extract-file.md)
       + [Servicios de suscripción](automating/using/subscription-services.md)
       + [API externa](automating/using/external-api.md)
    + Filtrado de datos {#filtering-data}
@@ -361,12 +361,12 @@ ht-degree: 99%
       + [Acerca de los casos de uso de flujos de trabajo](automating/using/about-workflow-use-cases.md)
       + Entregas {#deliveries}
          + [Creación de entregas con un complemento](automating/using/workflow-created-query-with-complement.md)
-         + [Creación de envíos en la fecha de creación de los perfiles](automating/using/workflow-creation-date-query.md)
-         + [Creación de un envío semanal](automating/using/workflow-weekly-offer.md)
+         + [Creación de entregas en la fecha de creación de los perfiles](automating/using/workflow-creation-date-query.md)
+         + [Creación de una entrega semanal](automating/using/workflow-weekly-offer.md)
          + [Creación de una entrega multicanal](automating/using/workflow-cross-channel-delivery.md)
-         + [Identificación de duplicados antes de un envío](automating/using/identifying-duplicated-before-delivery.md)
-         + [Envío de cumpleaños](automating/using/birthday-delivery.md)
-         + [Emparejamiento de envíos de correo electrónico y correo directo](automating/using/coupling-email-direct-mail.md)
+         + [Identificación de duplicados antes de una entrega](automating/using/identifying-duplicated-before-delivery.md)
+         + [Entrega de cumpleaños](automating/using/birthday-delivery.md)
+         + [Emparejamiento de entregas de correo electrónico y correo directo](automating/using/coupling-email-direct-mail.md)
          + [Envío de un correo electrónico con campos enriquecidos](automating/using/sending-email-enriched-fields.md)
          + [Personalización de un correo electrónico con datos adicionales](automating/using/personalizing-email-with-additional-data.md)
          + [Envío de una notificación push recurrente](automating/using/recurring-push-notifications.md)
@@ -377,7 +377,7 @@ ht-degree: 99%
          + [Redirección de receptores que no abran el correo](automating/using/workflow-cross-channel-retargeting.md)
          + [Consulta incremental de los suscriptores a un servicio](automating/using/incremental-query-on-subscribers.md)
          + [Segmentación según grupos de edad](automating/using/segmentation-age-groups.md)
-         + [Uso de recursos diferentes de dimensiones de segmentación](automating/using/using-resources-different-from-targeting-dimensions.md)
+         + [Uso de recursos diferentes de dimensiones de direccionamiento](automating/using/using-resources-different-from-targeting-dimensions.md)
       + Administración de datos {#data-management}
          + [Reconciliación de una audiencia de archivo con la base de datos](automating/using/reconcile-file-audience-with-database.md)
          + [Deduplicación de datos de un archivo importado](automating/using/deduplicating-data-imported-file.md)
@@ -390,7 +390,7 @@ ht-degree: 99%
          + [Exportación de perfiles en un archivo externo](automating/using/exporting-profiles-in-file.md)
          + [Actualización de varios estados de suscripción de un archivo](automating/using/updating-subscriptions-from-file.md)
          + [Suscripción de perfiles de un archivo a un servicio específico](automating/using/subscribing-profiles-from-file.md)
-+ Desarrollo de {#developing}
++ Desarrollo {#developing}
    + [Introducción al modelo de datos de Campaign Standard](developing/using/get-started-data-model.md)
    + Acerca de los recursos personalizados {#about-custom-resources}
       + [Conceptos del modelo de datos](developing/using/data-model-concepts.md)
@@ -398,7 +398,7 @@ ht-degree: 99%
       + [Control de cambios en el modelo de datos](developing/using/monitoring-data-model-changes.md)
       + [Prácticas recomendadas del modelo de datos](developing/using/data-model-best-practices.md)
    + Adición o ampliación de un recurso {#adding-or-extending-a-resource}
-      + [Pasos clave para agregar un recurso](developing/using/key-steps-to-add-a-resource.md)
+      + [Pasos clave para añadir un recurso](developing/using/key-steps-to-add-a-resource.md)
       + [Creación o ampliación del recurso](developing/using/creating-or-extending-the-resource.md)
       + [Configuración de la estructura de datos del recurso](developing/using/configuring-the-resource-s-data-structure.md)
       + [Configuración de la definición de pantalla](developing/using/configuring-the-screen-definition.md)
@@ -406,12 +406,12 @@ ht-degree: 99%
       + [Actualización de la estructura de la base de datos](developing/using/updating-the-database-structure.md)
       + [Eliminación de un recurso](developing/using/deleting-a-resource.md)
       + [Invocación de un recurso mediante una clave de identificación compuesta](developing/using/uc-calling-resource-id-key.md)
-   + Ejemplo práctico: Ampliación de la API {#use-case--extending-the-api}
+   + Caso de uso: Ampliación de la API {#use-case--extending-the-api}
       + [Acerca de la ampliación de la API](developing/using/about-extending-the-api.md)
-      + [Paso 1: Agregar campos de extensión al recurso de perfil](developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
+      + [Paso 1: Añadir campos de extensión al recurso de perfil](developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
       + [Paso 2: Publicar la extensión](developing/using/step-2--publish-the-extension.md)
       + [Paso 3: Verificar la extensión](developing/using/step-3--verify-the-extension.md)
-   + Ejemplo práctico: Ampliación de recursos {#use-cases--extending-resources}
+   + Caso de uso: Ampliación de recursos {#use-cases--extending-resources}
       + [Ampliación del recurso de perfil con un nuevo campo](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [Ampliación de las suscripciones a un recurso de aplicación](developing/using/extending-the-subscriptions-to-an-application-resource.md)
    + Modelo de datos {#datamodel}
@@ -427,7 +427,7 @@ ht-degree: 99%
       + [Servicio](developing/using/datamodel-service.md)
       + [Evento de suscripción](developing/using/datamodel-subscription.md)
       + [Registros de seguimiento](developing/using/datamodel-tracking.md)
-      + [Evento de cancelación de suscripción](developing/using/datamodel-unsubscription.md)
+      + [Evento de baja](developing/using/datamodel-unsubscription.md)
       + [Visitante](developing/using/datamodel-visitor.md)
 + Administración {#administrating}
    + [Introducción a la administración de Campaign Standard](administration/using/get-started-campaign-administration.md)
@@ -448,24 +448,24 @@ ht-degree: 99%
       + [Configuración de una aplicación móvil](administration/using/configuring-a-mobile-application.md)
    + Configuración de canales móviles {#configuring-mobile}
       + [Implementación del seguimiento push](administration/using/push-tracking.md)
-      + [Añadir imágenes y vídeos en iOS](administration/using/image-push-notification.md)
+      + [Adición de imágenes y vídeos en iOS](administration/using/image-push-notification.md)
       + [Explicación de la estructura de carga de las notificaciones push](administration/using/push-payload.md)
       + [Implementación del seguimiento de notificaciones locales](administration/using/local-tracking.md)
-      + [Preguntas más frecuentes sobre la sincronización de Adobe Experience Platform Launch](administration/using/syncwithlaunch-faq.md)
+      + [Preguntas frecuentes sobre la sincronización de Adobe Launch](administration/using/syncwithlaunch-faq.md)
       + [Preguntas más frecuentes sobre la integración del SDK de Experience Platform](administration/using/aep-faq.md)
-      + [Configuración de reglas de Experience Platform Launch para admitir casos de uso de Adobe Campaign Standard](administration/using/configuring-rules-launch.md)
+      + [Configuración de reglas de Launch para admitir casos de uso de Adobe Campaign Standard](administration/using/configuring-rules-launch.md)
       + [Casos de uso móvil admitidos en Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
       + [Migración de la aplicación móvil del SDK v4 al SDK de Adobe Experience Platform](administration/using/sdkv4-migration.md)
    + Configuración del canal SMS {#configuring-sms}
       + [Implementación del canal SMS](administration/using/configuring-sms-channel.md)
       + [Configuración y protocolo del conector SMS](administration/using/sms-protocol.md)
       + [Solución de problemas de SMS](administration/using/troubleshooting-sms.md)
-   + Ajustes de la aplicación {#application-settings}
+   + Configuración de la aplicación {#application-settings}
       + [Acerca de la configuración de Campaign Standard](administration/using/about-campaign-standard-settings.md)
       + [Cuentas externas](administration/using/external-accounts.md)
       + [Asignaciones de objetivos en Campaign](administration/using/target-mappings-in-campaign.md)
       + [Flujos de trabajo técnicos](administration/using/technical-workflows.md)
-      + [Marcas](administration/using/branding.md)
+      + [Promoción de la marca](administration/using/branding.md)
       + [Envío de notificaciones internas](administration/using/sending-internal-notifications.md)
       + [Retención de datos](administration/using/data-retention.md)
       + [Actualizaciones y operaciones de mantenimiento](administration/using/updates-and-maintenance-operations.md)
@@ -480,8 +480,8 @@ ht-degree: 99%
       + [Mecanismo de metadatos](api/using/metadata-mechanism.md)
       + [Verbos](api/using/verbs.md)
       + Operaciones adicionales {#additional-operations}
-         + [Ordenar](api/using/sorting.md)
-         + [Filtrar](api/using/filtering.md)
+         + [Orden](api/using/sorting.md)
+         + [Filtrado](api/using/filtering.md)
          + [Recuento](api/using/counting.md)
          + [Paginación](api/using/pagination.md)
       + [Recursos personalizados](api/using/custom-resources.md)
@@ -506,8 +506,8 @@ ht-degree: 99%
       + [Control de un flujo de trabajo](api/using/controlling-a-workflow.md)
       + [Activación de una actividad de señal](api/using/triggering-a-signal-activity.md)
    + Administración de las unidades organizativas {#managing-organizational-units}
-      + [Recuperación de la unidad organizativa de un perfil](api/using/retrieving-an-organizational-unit.md)
-      + [Actualización de la unidad organizativa de un perfil](api/using/updating-profile-organizational-unit.md)
+      + [Recuperación de las entidades organizativas de un perfil](api/using/retrieving-an-organizational-unit.md)
+      + [Actualización de las entidades organizativas de un perfil](api/using/updating-profile-organizational-unit.md)
       + [Actualización de los atributos de una unidad organizativa](api/using/updating-organizational-unit-attributes.md)
    + Administración de unidades geográficas {#managing-geographical-units}
       + [Recuperación de la unidad geográfica de un perfil](api/using/retrieving-a-geographical-unit.md)
