@@ -10,8 +10,7 @@ feature: Entrega
 role: Business Practitioner
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-translation-type: tm+mt
-source-git-commit: dbc176188d936160e04956e7598bd219ba80347e
+source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
 workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 74%
@@ -59,7 +58,7 @@ Existen tres tipos de errores cuando falla una entrega:
 Los posibles motivos de un error de entrega son:
 
 | Etiqueta de error | Tipo de error | Descripción |
----------|----------|---------
+| ---------|----------|---------|
 | **[!UICONTROL User unknown]** | Grave | La dirección no existe. No se intenta realizar entregas adicionales para este perfil. |
 | **[!UICONTROL Quarantined address]** | Grave | La dirección se envió a cuarentena. |
 | **[!UICONTROL Unreachable]** | Leve/Grave | Se ha producido un error en la cadena de entrega de mensajes (como un dominio temporalmente inaccesible). Según el error devuelto por el proveedor, la dirección se enviará directamente a cuarentena o la entrega se volverá a intentar hasta que Campaign reciba un error que justifique el estado de la cuarentena o hasta que el número de errores alcance 5. |
@@ -67,7 +66,7 @@ Los posibles motivos de un error de entrega son:
 | **[!UICONTROL Mailbox full]** | Leve | El buzón de este usuario está lleno y no puede aceptar más mensajes. Esta dirección se puede eliminar de la lista de cuarentena para realizar otro intento. Se elimina automáticamente al cabo de 30 días. Para que la dirección se elimine de forma automática de la lista de direcciones en cuarentena, debe iniciarse el flujo de trabajo técnico **[!UICONTROL Database cleanup]**. |
 | **[!UICONTROL Refused]** | Leve/Grave | La dirección se ha enviado a cuarentena debido a un comentario de seguridad que informa de correo no deseado. Según el error devuelto por el proveedor, la dirección se enviará directamente a cuarentena o la entrega se volverá a intentar hasta que Campaign reciba un error que justifique el estado de la cuarentena o hasta que el número de errores alcance 5. |
 | **[!UICONTROL Duplicate]** | Ignorado | La dirección ya se ha detectado en la segmentación. |
-| **[!UICONTROL Not defined]** | Leve | la dirección se encuentra sin clasificar porque aún no se han sumado errores. Este tipo de error se produce cuando el servidor envía un nuevo mensaje de error: puede tratarse de un error aislado; sin embargo, si vuelve a producirse, el contador de errores aumenta, lo que advierte a los equipos técnicos. |
+| **[!UICONTROL Not defined]** | Leve | la dirección se encuentra sin clasificar porque no se han sumado errores. | sin embargo. Este tipo de error se produce cuando el servidor envía un nuevo mensaje de error: puede tratarse de un error aislado; sin embargo, si vuelve a producirse, el contador de errores aumenta, lo que advierte a los equipos técnicos. |
 | **[!UICONTROL Error ignored]** | Ignorado | La dirección está en lista de permitidos y se le enviará un correo electrónico en cualquier caso. |
 | **[!UICONTROL Address on denylist]** | Grave | La dirección se agregó a la lista de bloqueados al momento del envío. |
 | **[!UICONTROL Account disabled]** | Leve/Grave | Cuando el proveedor de acceso a Internet (IAP) detecta un largo periodo de inactividad, puede cerrar la cuenta del usuario: los envíos a la dirección del usuario serán imposibles. El tipo leve o grave depende del tipo de error recibido: si la cuenta se desactiva temporalmente debido a seis meses de inactividad y aún puede activarse, el estado **[!UICONTROL Erroneous]** se asignará y el envío se volverá a intentar. Si el error recibido indica que la cuenta está desactivada de forma permanente, se envía directamente a Cuarentena. |
@@ -135,7 +134,7 @@ To list the various bounces and their associated error types et reasons, click t
 
 ![](assets/qualification.png)-->
 
-## Optimización de la capacidad de envío de correo electrónico con el mecanismo de inclusión doble {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
+## Optimización de la capacidad de entrega de correo electrónico con el mecanismo de inclusión doble {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
 
 El mecanismo de inclusión doble es una práctica recomendada al enviar correos electrónicos. Protege la plataforma de direcciones de correo electrónico erróneas o no válidas, bots de spam y evita posibles reclamaciones de spam.
 
