@@ -4,17 +4,16 @@ description: Obtenga información sobre cómo configurar la aplicación de integ
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
-feature: Microsoft CRM Integration
+feature: Integración de Microsoft CRM
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 184bc656-2107-4380-9b35-148cb4380547
+source-git-commit: f75df49e7957437df72c814aa9055d34770f22d6
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 2%
+source-wordcount: '795'
+ht-degree: 4%
 
 ---
-
 
 # Conexión de sistemas con la aplicación de integración
 
@@ -34,7 +33,7 @@ Las credenciales de Microsoft Dynamics 365 proporcionan a la aplicación de inte
 
 * **[!UICONTROL Tenant]**: Obtenga información sobre cómo encontrar su ID de inquilino en  [esta sección](../../integrating/using/d365-acs-configure-d365.md#get-the-tenant-id)
 
-* **[!UICONTROL URL]**: La dirección URL tendrá el formato `https://&lt;servername>.api.crm.dynamics.com/
+* **[!UICONTROL URL]**: La dirección URL tendrá el formato  `https://&lt;servername&gt;.api.crm.dynamics.com/`
 
 ### Credenciales de la API de Adobe
 
@@ -79,7 +78,7 @@ Debe especificar:
 
 Descubra la administración de SFTP con [Panel de control de Campaign de campaña](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es) en estas secciones:
 
-* [Acerca de la administración SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=en#sftp-management)
+* [Acerca de la administración SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=es#sftp-management)
 
 * [Administración de almacenamiento SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=en#installing-ssh-key)
 
