@@ -6,17 +6,16 @@ description: Utilice reglas de filtrado para reducir la audiencia de los mensaje
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-feature: Typology Rules
+feature: Reglas de tipología
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 43e97f3c-ed82-4fcc-ac0d-fcee6a22da35
+source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '655'
 ht-degree: 22%
 
 ---
-
 
 # Reglas de filtrado {#filtering-rules}
 
@@ -27,7 +26,7 @@ Las reglas de filtrado permiten excluir una parte del destinatario de mensajes s
 La siguiente tabla proporciona información sobre las reglas de filtrado integradas, así como sus canales relacionados.
 
 | Etiqueta | Canal | Descripción |
----------|----------|---------
+| ---------|----------|---------|
 | **[!UICONTROL Address not specified]** | Todo | Excluye la población objetivo sin ninguna dirección especificada (correo electrónico, dirección postal, etc.) según el canal seleccionado). |
 | **[!UICONTROL Address on denylist]** | Todo | Excluye las direcciones que están en la  de lista de bloqueados. |
 | **[!UICONTROL Duplicate]** | Todo | Excluye los duplicados en función del campo **[!UICONTROL Address]** de población objetivo. |
