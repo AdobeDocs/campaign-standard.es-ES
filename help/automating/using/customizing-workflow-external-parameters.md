@@ -6,17 +6,16 @@ description: Esta sección detalla cómo llamar a un flujo de trabajo con parám
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-feature: Workflows
+feature: Flujos de trabajo
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 8c1a47ed-3467-4fcd-8747-86f0e8f15cec
+source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '814'
 ht-degree: 1%
 
 ---
-
 
 # Personalización de un flujo de trabajo con parámetros externos {#customizing-a-workflow-with-external-parameters}
 
@@ -58,7 +57,7 @@ Cuando se utiliza una variable en una actividad, la interfaz proporciona ayuda p
    Además, puede utilizar las funciones siguientes, que están disponibles en todas las actividades que permiten utilizar variables de eventos después de llamar a un flujo de trabajo con parámetros externos (consulte [esta sección](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)):
 
    | Name | Descripción | Sintaxis |
-   ---------|----------|---------
+   | ---------|----------|---------|
    | EndWith | Indica si una cadena (primer parámetro) termina con una cadena específica (segundo parámetro). | EndWith(&lt;String>,&lt;String>) |
    | startWith | Indica si una cadena (primer parámetro) comienza con una cadena específica (segundo parámetro). | startWith(&lt;cadena>,&lt;cadena>) |
    | Extraer | Devuelve los primeros caracteres de una cadena con un separador. | Extract(&lt;String>,&lt;Separator>) |
