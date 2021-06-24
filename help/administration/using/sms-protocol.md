@@ -6,23 +6,22 @@ description: Obtenga más información sobre el conector de SMS y cómo configur
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Instance Settings
+feature: Configuración de instancia
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ea936128-1c51-483d-914c-6d06708456d6
+source-git-commit: f849e668cffaaca05261f0b91726a350a47676e4
 workflow-type: tm+mt
-source-wordcount: '8669'
+source-wordcount: '8666'
 ht-degree: 86%
 
 ---
 
-
-# Protocolo y configuración del conector SMS {#sms-connector-protocol}
+# Configuración y protocolo del conector SMS {#sms-connector-protocol}
 
 >[!NOTE]
 >
->El protocolo del conector **SMS y la configuración** para Adobe Campaign Classic se encuentran en esta [página](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.htmln#sending-messages).
+>El protocolo del conector **SMS y la configuración** para Adobe Campaign Classic se encuentran en esta [página](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html).
 >
 >A través de este documento, todas las referencias a los detalles sobre el protocolo, los nombres de campo y los valores se refieren a la [especificación SMPP 3.4](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
 
@@ -770,7 +769,7 @@ Esta configuración se transmite en el campo opcional `dest_addr_subunit` de `SU
 
 El período de validez se transmite en el campo `validity_period` del `SUBMIT_SM PDU`. La fecha siempre tiene el formato de un formato de hora UTC absoluto (el campo de fecha terminará con &quot;00+&quot;).
 
-#### Parámetros opcionales de SMPP (TLV) {#smpp-optional-parameters}
+#### Parámetros opcionales SMPP (TLV) {#smpp-optional-parameters}
 
 A partir de la versión 21.1, puede añadir varios parámetros opcionales a cada MT enviado para esta entrega. Estos parámetros opcionales se añaden al `SUBMIT_SM PDU` de la respuesta, tal como se describe en la sección 5.3 de la [especificación SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)(página 131).
 
