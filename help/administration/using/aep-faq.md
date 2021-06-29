@@ -6,17 +6,16 @@ description: Preguntas frecuentes sobre la integración de Adobe Experience Plat
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Instance Settings
+feature: Configuración de instancia
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
+source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '916'
 ht-degree: 4%
 
 ---
-
 
 # Preguntas más frecuentes sobre la integración del SDK de Experience Platform {#aep-faq}
 
@@ -27,10 +26,10 @@ La sección siguiente enumera preguntas comunes sobre esta sincronización.
 Para obtener más información sobre push o en la aplicación, consulte las siguientes preguntas frecuentes:
 
 * [Preguntas frecuentes sobre notificaciones push](../../channels/using/about-push-notifications.md#push-faq)
-* [Preguntas más frecuentes en la aplicación](../../channels/using/about-in-app-messaging.md#in-app-faq)
+* [Preguntas más frecuentes en la aplicación](../../channels/using/in-app-faq.md)
 * [Preguntas frecuentes sobre el flujo de trabajo técnico Sincronización con Launch](../../administration/using/syncwithlaunch-faq.md)
 
-## Recursos útiles antes de iniciar {#resource-mobile-property}
+## Recursos útiles antes de empezar {#resource-mobile-property}
 
 Consulte los siguientes recursos para obtener más información sobre la integración del SDK y el Campaign Standard de Adobe Experience Platform:
 
@@ -41,7 +40,7 @@ Consulte los siguientes recursos para obtener más información sobre la integra
 
 Sí, la integración [!DNL Adobe Experience Platform SDK] está disponible tanto para Adobe Campaign Standard como para Adobe Campaign Classic. Debe instalar el **[!UICONTROL Extension]** correspondiente a través de [!DNL Adobe Launch] para habilitar la integración.
 
-Para obtener más información, consulte [esta página](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
+Para obtener más información, consulte esta [página](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
 
 ## ¿Qué capacidades facilita la integración del SDK de Adobe Experience Platform en Adobe Campaign? {#aep-capabilities}
 
@@ -97,7 +96,7 @@ La frecuencia y el diseño de las llamadas de CollectPII deben estar dictados po
 
 Este es un problema conocido y se produce debido a la caducidad del token. Debe intentar iniciar sesión y salir.
 
-## ¿Cuáles serían algunas recomendaciones útiles de recursos para obtener más información sobre el SDK de Adobe Experience Platform (anteriormente conocido como SDK V5)?{#resource-aep}
+## ¿Cuáles serían algunas recomendaciones de recursos útiles para obtener más información sobre el SDK de Adobe Experience Platform (anteriormente conocido como SDK V5)?{#resource-aep}
 
 Consulte los siguientes recursos:
 
