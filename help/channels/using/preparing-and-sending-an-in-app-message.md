@@ -10,18 +10,14 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: En la aplicación
 role: Business Practitioner
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
+source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1173'
 ht-degree: 98%
 
 ---
 
 # Preparación y envío de un mensaje en la aplicación{#preparing-and-sending-an-in-app-message}
-
->[!NOTE]
->
->La personalización en la aplicación se basa en un campo de vinculación que suele ser un ID de CRM o un ID de inicio de sesión de la aplicación móvil. Usted es el único responsable de asegurar este campo de vinculación cuando se utiliza en relación con Adobe Campaign. Si no logra mantener los campos de vinculación seguros, su mensaje personalizado puede ser vulnerable. Adobe no se responsabilizará de los daños que se deriven del acceso no autorizado o del uso de cualquier dato de perfil si no se siguen las prácticas de protección, administración y composición del campo de vinculación segura.
 
 En Adobe Campaign, hay disponibles tres tipos de mensajes en la aplicación:
 
@@ -32,29 +28,15 @@ En Adobe Campaign, hay disponibles tres tipos de mensajes en la aplicación:
 * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**: Este tipo de mensaje le permite enviar mensajes a todos los usuarios (actuales o futuros) de la aplicación móvil aunque no tengan un perfil existente en Adobe Campaign. Por lo tanto, la personalización no es posible cuando se personalizan los mensajes, ya que es posible que el perfil del usuario ni siquiera exista en Adobe Campaign.
 * **[!UICONTROL Target users based on their Mobile profile (inApp)]**: Este tipo de mensaje le permite dirigirse a todos los usuarios conocidos o anónimos de una aplicación móvil que tengan un perfil móvil en Adobe Campaign. Este tipo de mensajes se puede personalizar utilizando únicamente atributos no personales y no confidenciales y no requiere un protocolo de autenticación seguro entre el SDK móvil y el servicio de mensajería en la aplicación de Adobe Campaign.
 
-   Para obtener más información sobre cómo gestionar los datos personales y confidenciales, consulte [Gestión de campos de perfil móvil con datos personales y confidenciales](#handling-mobile-profile-fields-with-personal-and-sensitive-data).
+   Para obtener más información sobre cómo gestionar los datos personales y confidenciales, consulte [Gestión de campos de perfil móvil con datos personales y confidenciales](../../channels/using/about-in-app-messaging.md#handling-mobile-profile-fields-with-personal-and-sensitive-data).
 
 ![](assets/diagram_inapp.png)
 
-## Gestión de campos de perfil móvil con datos personales y confidenciales {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
-
-En Adobe Campaign, los datos de atributos de perfil móviles enviados desde dispositivos móviles se almacenan en el recurso **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**, que le permite definir los datos que desea recopilar de los suscriptores de las aplicaciones.
-
-Este recurso debe ampliarse para recopilar los datos que se van a enviar desde el dispositivo móvil a Adobe Campaign. Para ello, consulte esta [página](../../developing/using/extending-the-subscriptions-to-an-application-resource.md) para conocer los pasos detallados.
-
-Para habilitar la personalización de los mensajes en la aplicación de forma más segura, es necesario configurar los campos de perfil móvil de este recurso. En **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**, al crear los nuevos campos de perfiles móviles, marque **[!UICONTROL Personal and Sensitive]** para que no estén disponibles durante la personalización de mensajes en la aplicación.
-
->[!NOTE]
->
->Si tiene una implementación existente con la extensión de recursos personalizada en esta tabla, le recomendamos que etiquete los campos correctamente antes de utilizarlos para personalizar los mensajes en la aplicación.
-
-![](assets/in_app_personal_data_2.png)
-
-Una vez que su recurso personalizado de **[!UICONTROL Subscriptions to an application]** ha sido configurado y publicado, puede empezar a preparar la entrega en la aplicación con la plantilla **[!UICONTROL Target users based on their Mobile profile (inApp)]**. Solo los campos no personales y no confidenciales estarán disponibles en el recurso **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** para su personalización.
-
-Si necesita personalizar con los campos **Personal y confidencial**, recomendamos utilizar la plantilla **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]** que tiene un mecanismo de seguridad adicional para garantizar que los datos PII de los usuarios sigan siendo seguros.
-
 ## Preparación del mensaje en la aplicación {#preparing-your-in-app-message}
+
+>[!CAUTION]
+>
+>La personalización en la aplicación se basa en un campo de vinculación que suele ser un ID de CRM o un ID de inicio de sesión de la aplicación móvil. Usted es el único responsable de asegurar este campo de vinculación cuando se utiliza en relación con Adobe Campaign. Si no logra mantener los campos de vinculación seguros, su mensaje personalizado puede ser vulnerable. Adobe no se responsabilizará de los daños que se deriven del acceso no autorizado o del uso de cualquier dato de perfil si no se siguen las prácticas de protección, administración y composición del campo de vinculación segura.
 
 Los pasos para crear un mensaje independiente en la aplicación con Adobe Campaign son:
 
@@ -136,6 +118,21 @@ El mensaje en la aplicación ya está listo para enviarse a la audiencia de dest
 * [Personalización de un mensaje en la aplicación](../../channels/using/customizing-an-in-app-message.md)
 * [Informe en la aplicación](../../reporting/using/in-app-report.md)
 * [Envío de un mensaje en la aplicación dentro de un flujo de trabajo](../../automating/using/in-app-delivery.md)
+
+## Vista previa del mensaje en la aplicación {#previewing-the-in-app-message}
+
+Antes de enviar el mensaje en la aplicación, puede realizar pruebas con los perfiles de prueba para comprobar qué verá la audiencia de destino cuando lo reciban.
+
+1. Haga clic en el botón **[!UICONTROL Preview]**.
+
+   ![](assets/inapp_sending_2.png)
+
+1. Haga clic en el botón **[!UICONTROL Select a test profile]** y seleccione uno de los perfiles de prueba para obtener una vista previa del envío. Para obtener más información sobre los perfiles de prueba, consulte esta [sección](../../audiences/using/managing-test-profiles.md).
+1. Pruebe el mensaje en distintos dispositivos, como Android, iPhone o incluso tabletas. También puede comprobar si los campos de personalización recopilan los datos correctamente.
+
+   ![](assets/inapp_sending_3.png)
+
+1. Ahora puede enviar el mensaje y medir su impacto con informes de envío.
 
 ## Envío de un mensaje en la aplicación {#sending-your-in-app-message}
 
