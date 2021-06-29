@@ -7,19 +7,18 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: fileTransfer,main
-feature: Workflows
+feature: Flujos de trabajo
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
+source-git-commit: 643b8cb973a95155e64fed7df04e15aa2332a22d
 workflow-type: tm+mt
-source-wordcount: '1099'
-ht-degree: 92%
+source-wordcount: '1116'
+ht-degree: 91%
 
 ---
 
-
-# Transferir archivo{#transfer-file}
+# Transferencia de archivo{#transfer-file}
 
 ## Descripción {#description}
 
@@ -54,7 +53,7 @@ Puede utilizar esta actividad para recuperar datos que luego se estructuran con 
    * [HTTP](#HTTP-configuration-wf)
    * [SFTP](#SFTP-configuration-wf)
    * [Amazon S3](#S3-configuration-wf)
-   * [Microsoft Azure Blob Storage](#azure-blob-configuration-wf)
+   * [almacenamiento de blob de Microsoft Azure](#azure-blob-configuration-wf)
    * [Archivos presentes en el servidor de Adobe Campaign](#files-server-configuration-wf)
 
 1. La sección **[!UICONTROL Additional options]**, disponible en función del protocolo seleccionado, le permite añadir parámetros al protocolo. Se puede:
@@ -105,6 +104,12 @@ El protocolo Amazon S3 permite iniciar la descarga de un archivo desde una URL o
 3. Especifique la ruta del archivo que desea descargar.
 
    ![](assets/wkf_file_transfer_08.png)
+
+   >[!CAUTION]
+   >
+   > Los comodines no son compatibles con Amazon S3.
+   >
+   > Para dirigirse a varios archivos como `my_file_02` y `my _file_3433`, puede utilizar la siguiente sintaxis: `acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`.
 
 4. Si desea eliminar los archivos de origen cuando la transferencia se haya completado, marque **[!UICONTROL Delete the source files after transfer]**.
 
@@ -176,5 +181,3 @@ Las variables de salida disponibles son:
 
 * **[!UICONTROL fileName]**: nombre de los archivos transferidos.
 * **[!UICONTROL filesCount]**: número de archivos transferidos.
-
-
