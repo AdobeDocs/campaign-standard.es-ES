@@ -10,14 +10,13 @@ context-tags: delivery,mobileAppContent,back
 feature: Push
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3fe3495b-e360-4169-b295-86ad93753468
+source-git-commit: f19b2d618828cb4d83aa3acbc6fbb3ffb4d3af20
 workflow-type: tm+mt
-source-wordcount: '1498'
-ht-degree: 98%
+source-wordcount: '1511'
+ht-degree: 97%
 
 ---
-
 
 # Personalización de una notificación push{#customizing-a-push-notification}
 
@@ -45,7 +44,9 @@ Un sonido alertará a los usuarios de una notificación push, lo que le da más 
 
    ![](assets/push_notif_advanced_7.png)
 
-1. El archivo de sonido se reproduce al enviar la notificación si el archivo está definido en el paquete de la aplicación móvil. De lo contrario, se reproduce el sonido predeterminado del dispositivo.
+1. El archivo de sonido se reproduce al enviar la notificación si el archivo está definido en el paquete de la aplicación móvil. Puede establecerlo en **default** para reproducir el sonido predeterminado del dispositivo.
+
+   Si el campo **[!UICONTROL Play a sound]** se deja vacío, no se reproducirá ningún sonido.
 
 El usuario recibe la notificación push con sonido solo si su teléfono no está silenciado.
 
