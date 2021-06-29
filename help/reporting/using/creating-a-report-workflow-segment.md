@@ -6,19 +6,21 @@ description: Obtenga información sobre cómo comprobar el éxito de la entrega 
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-feature: Reporting
+feature: Creación de informes
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 514bffa0-2413-4212-b1b9-e070031c462f
+source-git-commit: c001aaba50bdce8d949acc6daf74f3c7738bd117
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '625'
 ht-degree: 2%
 
 ---
 
-
 # Creación de un informe basado en segmentos de flujo de trabajo{#creating-a-report-workflow-segment}
+
+>[!CAUTION]
+> **[!UICONTROL Segment code]**solo puede dirigirse a envíos de correo electrónico y SMS.
 
 Después de crear un flujo de trabajo y filtrar la población a una audiencia objetivo diferente, puede medir la eficacia de las campañas de marketing en función de los segmentos definidos en este flujo de trabajo de objetivo.
 Para dirigir estos segmentos a sus informes:
@@ -29,6 +31,7 @@ Para dirigir estos segmentos a sus informes:
 
 >[!CAUTION]
 >Se debe aceptar el acuerdo de uso de los informes dinámicos para empezar a recopilar estos datos.
+>
 >Para obtener más información sobre este acuerdo, consulte esta [página](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
 ## Paso 1: Actualizar el recurso personalizado de perfiles con segmentos{#step-1--update-profiles-custom-resource-segments}
@@ -55,7 +58,7 @@ Ahora puede empezar a crear su flujo de trabajo con códigos de segmento.
 
 Tenga en cuenta que los códigos de segmento se recopilarán en cuanto habilite el código de segmento en **[!UICONTROL Sending logs extension]**.
 
-## Paso 2: Crear un flujo de trabajo con segmentos {#step-2--create-a-workflow-segments}
+## Paso 2: Creación de un flujo de trabajo con segmentos {#step-2--create-a-workflow-segments}
 
 >[!NOTE]
 >Si la transición de entrada del envío de correo electrónico está vacía, el código de segmento de la transición anterior se añade de forma predeterminada.
@@ -85,7 +88,7 @@ Primero debe crear un flujo de trabajo con una población objetivo diferente. Aq
 1. Edite el **[!UICONTROL Segment code]** para cada población que se transmitirá a través del sistema de informes dinámico.
 
    >[!NOTE]
-   >Este paso es obligatorio o, de lo contrario, no podrá comprender qué segmentos informar.
+   >Este paso es obligatorio o no podrá comprender qué segmentos informar.
 
    ![](assets/report_segment_9.png)
 
@@ -101,7 +104,7 @@ Primero debe crear un flujo de trabajo con una población objetivo diferente. Aq
 
 Ahora puede acceder a sus informes para realizar un seguimiento de sus códigos de segmento.
 
-## Paso 3: Cree un informe dinámico para filtrar segmentos {#step-3--create-a-dynamic-report-filter-segments}
+## Paso 3: Crear un informe dinámico para filtrar segmentos {#step-3--create-a-dynamic-report-filter-segments}
 
 Después de realizar envíos con el flujo de trabajo, puede desglosar los informes mediante los códigos de segmento del flujo de trabajo.
 
