@@ -10,20 +10,22 @@ feature: Integración del servicio principal People
 role: Data Architect
 level: Intermediate
 exl-id: 0ef8bbae-03a2-4369-bc57-a56302e0ab21
-source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
+source-git-commit: e86cc930f9b6b3f3990f3b16b3d8fd2d19e126b7
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 15%
+source-wordcount: '192'
+ht-degree: 14%
 
 ---
 
 # Uso de Campaign y del servicio principal Assets{#working-with-campaign-and-assets-core-service}
 
-La integración del servicio principal de Assets o de Assets on Demand (según la configuración del entorno de Adobe Experience Cloud) con Adobe Campaign le permite utilizar cualquier recurso que se comparta dentro de Adobe Experience Cloud en los correos electrónicos y páginas de aterrizaje de Adobe Campaign.
-
 >[!CAUTION]
 >
-> La integración con el servicio principal de Assets está restringida a [Administradores funcionales](../../administration/using/users-management.md#functional-administrators).
+> Recursos de Experience Cloud ya se ha retirado del mercado. Para la nueva implementación, ya no puede integrar Recursos de Experience Cloud con Adobe Campaign Standard.
+
+La integración del servicio principal de Assets o de Assets on Demand (según la configuración del entorno de Adobe Experience Cloud) con Adobe Campaign le permite utilizar cualquier recurso que se comparta dentro de Adobe Experience Cloud en los correos electrónicos y páginas de aterrizaje de Adobe Campaign.
+
+La integración con el servicio principal de Assets está restringida a [Administradores funcionales](../../administration/using/users-management.md#functional-administrators).
 
 Los recursos compartidos desde Adobe Experience Cloud se pueden utilizar en los correos electrónicos y páginas de aterrizaje, de la siguiente manera:
 
