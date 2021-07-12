@@ -6,23 +6,22 @@ description: Prepare, pruebe, programe, envíe y supervise sus mensajes.
 audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
-role: Business Practitioner
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: bcb28ef5-5cad-43c1-b11b-080abc791a72
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 15%
+source-wordcount: '595'
+ht-degree: 17%
 
 ---
-
 
 # Introducción a las pruebas y envíos {#about-sending-messages-with-campaign}
 
 <table>
 <tr>
 <td><img src="assets/do-not-localize/icon_prepare.svg" width="60px"><p><a href="#prepare-test-send">Preparación y prueba</a></p></td>
-<td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#send-track-messages">Envío, monitorización y seguimiento</a></p></td>
+<td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#send-track-messages">Envío, monitorización y seguimiento de</a></p></td>
 <td><img src="assets/do-not-localize/icon_deliverability.svg" width="60px"><p><a href="#improve-deliverability">Directrices de capacidad de entrega</a></p></td></tr>
 </table>
 
@@ -53,9 +52,9 @@ Más información:
 * [Envío de pruebas](../../sending/using/sending-proofs.md)
 * [Procesamiento de correo electrónico](../../sending/using/email-rendering.md)
 * [Programación de mensajes](../../sending/using/about-scheduling-messages.md)
-* [Información sobre las tipologías y reglas de tipología](../../sending/using/about-typology-rules.md)
+* [Acerca de las tipologías y reglas de tipología](../../sending/using/about-typology-rules.md)
 
-## Envío, monitorización y seguimiento {#send-track-messages}
+## Envío, monitorización y seguimiento de {#send-track-messages}
 
 <img src="assets/do-not-localize/icon_send.svg"  width="60px">
 
@@ -69,12 +68,12 @@ Más información:
 
 * [Confirmación del envío](../../sending/using/confirming-the-send.md)
 * [Seguimiento de mensajes](../../sending/using/tracking-messages.md)
-* [Archivado con Email BCC](../../sending/using/archiving.md)
+* [Archivado con CCO de correo electrónico](../../sending/using/archiving.md)
 * [Seguimiento de una entrega](../../sending/using/monitoring-a-delivery.md)
 * [Comprensión de los errores de entrega](../../sending/using/understanding-delivery-failures.md)
 * [Comprensión de la gestión de la cuarentena](../../sending/using/understanding-quarantine-management.md)
 
-## Directrices de capacidad de envío {#improve-deliverability}
+## Directrices de capacidad de entrega {#improve-deliverability}
 
 <img src="assets/do-not-localize/icon_deliverability.svg"  width="60px">
 
@@ -84,19 +83,19 @@ Campaign Standard proporciona varias **herramientas de envío** para ayudarle a 
 
 Más información:
 
-* [Acerca de la capacidad de la entrega](../../sending/using/about-deliverability.md)
+* [Acerca de la capacidad de entrega](../../sending/using/about-deliverability.md)
 * [Supervisión de la capacidad de entrega](../../sending/using/monitor-deliverability.md)
-* [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)
+* [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es)
 * [Control del rendimiento de entrega](../../reporting/using/delivery-throughput.md)
 
 ## Recursos adicionales
 
 * [Diseño de correos electrónicos de prueba A/B](../../channels/using/designing-an-a-b-test-email.md)
 * [Introducción a los correos electrónicos](https://helpx.adobe.com/es/campaign/kb/acs-get-started-with-emails.html)
-* [Prácticas recomendadas relacionadas con las entregas](../../sending/using/delivery-best-practices.md)
+* [Prácticas recomendadas de entregas](../../sending/using/delivery-best-practices.md)
 * [Adición de un grupo de control](../../sending/using/control-group.md)
 
-## Vídeo tutorial {#video}
+## Tutorial en vídeo {#video}
 
 Este vídeo muestra cómo enviar un correo electrónico de prueba, preparar y después enviar una entrega por correo electrónico en Campaign Standard.
 
