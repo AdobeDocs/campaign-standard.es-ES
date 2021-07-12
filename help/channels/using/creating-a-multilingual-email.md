@@ -6,17 +6,16 @@ description: Siga estos pasos para crear destinatarios de correo electrónico mu
 audience: channels
 content-type: reference
 topic-tags: email-messages
-feature: Email
-role: Business Practitioner
+feature: Correo electrónico
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: fcf192cb-f2d5-4340-bc2f-add0c195ad4e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '293'
 ht-degree: 25%
 
 ---
-
 
 # Creación de un correo electrónico multilingüe{#creating-a-multilingual-email}
 
