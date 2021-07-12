@@ -8,10 +8,10 @@ topic-tags: deliveries-best-practices
 index: y
 description: Aprenda a diseñar el contenido del mensaje e intente evitar problemas comunes que podrían impedir la ejecución del envío. 
 feature: Entrega
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
-source-git-commit: d84a11d4064938792a2e2c365b6085c263f55648
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1034'
 ht-degree: 70%
@@ -145,7 +145,7 @@ Intente que las imágenes sean interactivas y se puedan cambiar de tamaño. Teng
 
 Para que sean accesibles desde el exterior, las imágenes utilizadas en los mensajes de correo electrónico y recursos públicos vinculados a las campañas deben estar presentes en un servidor accesible de forma externa.
 
-## Previsualice el mensaje  {#preview-msg}
+## Previsualice el mensaje {#preview-msg}
 
 Adobe recomienda previsualizar el mensaje para comprobar su personalización y cómo verán su envío sus destinatarios.
 
