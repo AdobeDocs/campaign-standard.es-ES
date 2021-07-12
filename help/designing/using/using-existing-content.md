@@ -6,20 +6,20 @@ description: Descubra cómo diseñar correos electrónicos con contenido de corr
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: Diseño de correo electrónico
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3bda4227-2a6e-4813-a288-93a4388a9787
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: '1214'
 ht-degree: 6%
 
 ---
 
 # Diseño con contenido existente {#designing-using-existing-content}
 
-## Selección de un contenido existente{#selecting-an-existing-content}
+## Selección de contenido existente{#selecting-an-existing-content}
 
 Adobe Campaign incluye un conjunto de contenidos predefinidos para ayudarle a empezar. Puede utilizar uno de estos elementos o, si el contenido del mensaje que debe enviar se está preparando fuera de Adobe Campaign, puede importarlo desde su equipo o desde una dirección URL.
 
@@ -56,7 +56,7 @@ Al crear un correo electrónico o una página de aterrizaje, puede elegir cargar
 * [Creación de un correo electrónico](../../channels/using/creating-an-email.md)
 * [Administración de páginas de aterrizaje](../../channels/using/getting-started-with-landing-pages.md)
 
-## Edición del contenido existente con el Diseñador de correo electrónico{#editing-existing-contents-with-the-email-designer}
+## Edición de contenido existente con el Diseñador de correo electrónico{#editing-existing-contents-with-the-email-designer}
 
 Para aprovechar al máximo las posibilidades de edición del [Diseñador de correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md), el HTML cargado debe contener etiquetas específicas que lo hagan compatible con el editor WYSIWYG.
 
@@ -112,7 +112,7 @@ Descubra esta función en vídeo.
 
 Hay disponibles más vídeos prácticos del Campaign Standard [aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
 
-### Recuperación de contenido desde una URL automáticamente en tiempo de preparación {#retrieving-content-from-a-url-automatically-at-preparation-time}
+### Recuperación de contenido de una URL automáticamente en tiempo de preparación {#retrieving-content-from-a-url-automatically-at-preparation-time}
 
 La importación de contenido desde una URL durante la preparación del mensaje le permite recuperar el contenido HTML más reciente cada vez que se prepara el correo electrónico. De este modo, el contenido de los correos electrónicos recurrentes siempre está actualizado en el momento de su envío. Esta función también le permite crear un mensaje programado para una fecha específica, incluso aunque el contenido no esté listo todavía.
 
