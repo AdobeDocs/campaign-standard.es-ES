@@ -6,17 +6,16 @@ description: Descubra cómo diseñar correos electrónicos a través de integrac
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: Diseño de correo electrónico
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d5c72f69-68a2-4523-956f-f265ae79b470
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '723'
 ht-degree: 8%
 
 ---
-
 
 # Diseño de correo electrónico de varias soluciones {#multi-solution-email-design}
 
@@ -42,7 +41,7 @@ Esta funcionalidad se detalla en la documentación de Dreamweaver accesible [aqu
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
 
-## Edición del contenido en el Experience Manager {#editing-content-in-experience-manager}
+## Edición de contenido en Experience Manager {#editing-content-in-experience-manager}
 
 El contenido del correo electrónico se puede editar en Experience Manager y luego utilizar para uno o varios mensajes de correo electrónico en Adobe Campaign Standard. Consulte [este documento](../../integrating/using/integrating-with-experience-manager.md).
 
@@ -156,7 +155,7 @@ Adobe Campaign ofrece varias opciones de creación de correo electrónico. En el
  </tbody> 
 </table>
 
-## Vídeo tutorial {#video}
+## Tutorial en vídeo {#video}
 
 Este vídeo muestra cómo crear y editar contenido para Adobe Campaign Standard mediante Dreamweaver.
 
