@@ -7,17 +7,16 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
-feature: Profiles
-role: Business Practitioner
+feature: Perfiles
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 56ece9da-18ec-4d27-a637-c22709a5e6aa
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 95%
+source-wordcount: '450'
+ht-degree: 96%
 
 ---
-
 
 # Administración de perfiles de prueba {#managing-test-profiles}
 
@@ -81,7 +80,7 @@ Para editar un perfil de prueba y consultar los datos vinculados a él o modific
 
 1. Haga clic en **[!UICONTROL Save]** si ha introducido los cambios o seleccione el nombre del perfil de prueba y, a continuación, en **[!UICONTROL Test profiles]** en la sección de la parte superior de la pantalla para volver al panel de perfiles de prueba.
 
-## Vídeo tutorial {#video}
+## Tutorial en vídeo {#video}
 
 Este vídeo muestra cómo crear un perfil de prueba.
 
