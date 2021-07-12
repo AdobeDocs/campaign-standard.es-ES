@@ -7,19 +7,18 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back;deliveryCreation,wizard
-feature: Direct Mail
-role: Business Practitioner
+feature: Correo directo
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 815b4a0d-0486-4867-b751-b5ca8b643cb9
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 97%
+source-wordcount: '457'
+ht-degree: 98%
 
 ---
 
-
-# Acerca del correo postal{#about-direct-mail}
+# Acerca del correo directo{#about-direct-mail}
 
 El correo postal es un canal sin conexión que le permite personalizar y generar el archivo requerido por los proveedores de correo postal. Esto le ofrece la posibilidad de mezclar canales en línea y sin conexión para los recorridos de los clientes.
 
