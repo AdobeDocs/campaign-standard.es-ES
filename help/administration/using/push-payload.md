@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Instance Settings
-role: Administrator
+feature: Configuración de instancia
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: a6515795-1006-4f27-bc44-5ae8b8edc018
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: '1150'
 ht-degree: 4%
 
 ---
-
 
 # Explicación de la estructura de carga de las notificaciones push {#push-payload}
 
@@ -33,7 +32,7 @@ Este documento describe la estructura de la carga útil recibida en una aplicaci
 >
 >La estructura de carga varía según el tipo de aplicación móvil (es decir, la aplicación iOS o la aplicación Android habilitada para FCM).
 
-## Estructura de carga útil push {#push-payload-structure}
+## Estructura de la carga útil push {#push-payload-structure}
 
 Esta sección detalla la estructura de una carga útil de ejemplo para varias plataformas móviles y describe los principales atributos que contiene. Esta es la estructura de la carga útil recibida en el código de la aplicación móvil en el controlador de eventos que indica que se ha recibido una notificación push.
 
@@ -113,7 +112,7 @@ La sección más importante de la carga útil es el diccionario de aplicaciones,
 
 Puede encontrar información detallada sobre los atributos dentro de las aplicaciones en los documentos para desarrolladores de Apple: [Creación de la carga útil de notificación remota](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH10-SW1).
 
-### Para la aplicación Android {#payload-structure-android}
+### Para la aplicación de Android {#payload-structure-android}
 
 **Ejemplo de carga útil enviada de Adobe Campaign a la aplicación Android**
 
@@ -221,7 +220,7 @@ Para comprender los aspectos de una carga útil de android, consulte [Conceptos 
 | URL de contenido multimedia enriquecido (archivos de imagen)<br>(Solo aplicable para Android) | NA | media-attachment-url | URL de los archivos de imagen para añadir contenido enriquecido a la notificación. |
 | NA | _mId<br>_dId | _mId <br>_dId | Valores de broadlogId y deliveryId.<br>Estos atributos son necesarios si la aplicación desea llamar a un postback de seguimiento para rastrear cuándo se hizo clic o abrió la notificación push. El servidor de aplicaciones calcula esta información y la envía internamente sin intervención del usuario.<br>En esta  [página](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#PIIpostback) se puede encontrar información sobre los postbacks. |
 
-### Cómo recuperar la información de carga útil en el código de aplicación móvil {#payload-information}
+### Cómo recuperar la información de carga útil en el código de la aplicación móvil {#payload-information}
 
 La información de carga útil que envía el servidor de aplicaciones la recibe el código de la aplicación móvil en un controlador de eventos que indica que se recibió una notificación push. Este evento variaría en función de la plataforma móvil en la que se esté trabajando y también en función de si la aplicación se está ejecutando en primer o segundo plano. La siguiente documentación le ayudará a identificar el controlador de eventos que desea gestionar en función de su caso de uso.
 
