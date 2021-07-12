@@ -6,17 +6,16 @@ description: Descubra la administración de usuarios y permisos, las pautas de s
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
-feature: Access Management
-role: Administrator
+feature: Administración de acceso
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
+exl-id: 9676b5e8-4c34-4848-8616-235e0bac5d6b
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '639'
 ht-degree: 15%
 
 ---
-
 
 # Introducción a la administración de Campaign Standard {#about-administrating-adobe-campaign}
 
@@ -24,7 +23,7 @@ ht-degree: 15%
 <tr><td><img src="assets/do-not-localize/icon_menu.svg" width="60px"><p><a href="#administration-menu">Menú Administración</a></p></td>
 <td><img src="assets/do-not-localize/icon_users.svg" width="60px"><p><a href="#users-security">Usuarios y seguridad</a></p></td>
 <td><img src="assets/do-not-localize/icon_channels.svg" width="60px"><p><a href="#channels-configuration">Configuración de canales</a></p></td>
-<td><img src="assets/do-not-localize/icon_settings.svg" width="60px"><p><a href="#application-settings">Ajustes de la aplicación</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_settings.svg" width="60px"><p><a href="#application-settings">Configuración de la aplicación</a></p></td></tr>
 </table>
 
 Como solución basada en la nube, Adobe Campaign ofrece a los administradores diferentes formas de configurar la aplicación. Aunque la configuración de la infraestructura la realiza Adobe, los administradores funcionales pueden realizar varias operaciones de configuración detalladas a continuación.
@@ -86,7 +85,7 @@ Más información:
 * [Configuración de canales de SMS](../../administration/using/configuring-sms-channel.md)
 * [Configuración de una aplicación móvil](../../administration/using/configuring-a-mobile-application.md)
 
-## Ajustes de la aplicación {#application-settings}
+## Configuración de la aplicación {#application-settings}
 
 <img src="assets/do-not-localize/icon_settings.svg" width="60px">
 
@@ -102,5 +101,5 @@ Más información:
 * [Cuentas externas](../../administration/using/external-accounts.md)
 * [Asignaciones de objetivos en Campaign](../../administration/using/target-mappings-in-campaign.md)
 * [Flujos de trabajo técnicos](../../administration/using/technical-workflows.md)
-* [Marcas](../../administration/using/branding.md)
+* [Promoción de la marca](../../administration/using/branding.md)
 * [Envío de notificaciones internas](../../administration/using/sending-internal-notifications.md)
