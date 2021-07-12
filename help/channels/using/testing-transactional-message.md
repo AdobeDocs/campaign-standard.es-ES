@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: Mensajería transaccional
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5138826d-ae08-403b-91ef-91027ef6e78e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 40%
+source-wordcount: '280'
+ht-degree: 41%
 
 ---
-
 
 # Prueba de un mensaje transaccional {#testing-a-transactional-message}
 
