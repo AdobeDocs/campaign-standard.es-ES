@@ -6,17 +6,16 @@ description: Aprenda a crear perfiles y recopilar datos de sus contactos mediant
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-feature: Profiles
-role: Business Practitioner
+feature: Perfiles
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 827df9f6-070c-466a-890c-e363de6b129b
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 89%
+source-wordcount: '381'
+ht-degree: 90%
 
 ---
-
 
 # Creación de perfiles{#creating-profiles}
 
@@ -65,7 +64,7 @@ El perfil aparece ahora en la lista.
 >[!NOTE]
 >El campo de idioma preferido se utiliza para seleccionar el idioma al enviar mensajes multilingües. Para obtener más información sobre los mensajes multilingües, [consulte esta página](../../channels/using/creating-a-multilingual-email.md).
 
-## Vídeo tutorial {#video}
+## Tutorial en vídeo {#video}
 
 Este vídeo muestra cómo importar perfiles con un flujo de trabajo.
 
