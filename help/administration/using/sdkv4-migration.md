@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Instance Settings
-role: Administrator
+feature: Configuración de instancia
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: eb7a209e-069e-4068-966d-05344bd838c7
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1204'
 ht-degree: 1%
 
 ---
-
 
 # Migración de la aplicación móvil del SDK v4 al SDK de Adobe Experience Platform {#sdkv4-migration}
 
@@ -52,7 +51,7 @@ Después de actualizar la versión del SDK de Adobe de 4 a Adobe Experience Plat
 | La aplicación se asociará a un Adobe Experience Platform Launch **[!UICONTROL Mobile Property]**. Se procesará como una aplicación móvil recién creada. |
 | La aplicación de SDK de Adobe Experience Platform original utilizada en la migración no existe como aplicación independiente. Solo estará disponible la aplicación SDK v4 migrada. |
 
-## Migración de la aplicación móvil del SDK v4 al SDK de Adobe Experience Platform {#how-to-migrate}
+## Migración de la aplicación móvil del SDK v4 al SDK para Adobe Experience Platform {#how-to-migrate}
 
 Antes de migrar, debe tener en cuenta las siguientes recomendaciones:
 
@@ -112,7 +111,7 @@ A: En la lista solo se muestra la aplicación apta de su **[!UICONTROL Organizat
 
 ### P: ¿Por qué no se puede utilizar para la migración la aplicación SDK de Adobe Experience Platform con el estado de propiedad configurado? {#property-status}
 
-A: El proceso de migración conserva los suscriptores y atributos del SDK v4. Solo conserva la información relacionada con Launch desde la aplicación SDK de Adobe Experience Platform. Se perderán los suscriptores y otros datos de la aplicación de SDK para Adobe Experience Platform. Para evitar la pérdida de datos, solo las aplicaciones de SDK de Adobe Experience Platform con **[!UICONTROL Ready to Configure]** **[!UICONTROL Property Status]** son elegibles para la migración.
+A: El proceso de migración conserva los suscriptores y atributos de SDK v4. Solo conserva la información relacionada con Launch desde la aplicación SDK de Adobe Experience Platform. Se perderán los suscriptores y otros datos de la aplicación de SDK para Adobe Experience Platform. Para evitar la pérdida de datos, solo las aplicaciones de SDK de Adobe Experience Platform con **[!UICONTROL Ready to Configure]** **[!UICONTROL Property Status]** son elegibles para la migración.
 
 ### P: Después de la migración, ¿dónde puedo encontrar mi aplicación móvil v4 SDK anterior? {#v4-app-not-visible}
 
@@ -132,6 +131,6 @@ A: Si la aplicación del SDK de Adobe Experience Platform es el recurso de un **
 En este caso, debe mover las aplicaciones móviles en el mismo **[!UICONTROL Organizational unit]** o en un **[!UICONTROL Organizational unit]** con un vínculo principal.
 Para obtener más información sobre **[!UICONTROL Organizational unit]**, consulte esta [sección](../../administration/using/organizational-units.md).
 
-### P: En la página de la aplicación móvil del SDK de Adobe Experience Platform (migrada desde la aplicación móvil v4), en la lista desplegable de configuración de canal push, no se muestra información como la fecha y el nombre cargados para la clave de Android o el certificado de iOS {#no-information-v5}
+### P: En la página de la aplicación móvil del SDK de Adobe Experience Platform (migrada desde la aplicación móvil v4), en la lista desplegable de configuración de canal push , no se muestra información como la fecha y el nombre cargados para la clave de Android o el certificado iOS {#no-information-v5}
 
 A: El sistema no almacena esta información cuando se crea la aplicación móvil SDK V4. Al migrar la aplicación móvil SDK V4 a una aplicación móvil del SDK de Adobe Experience Platform, la aplicación móvil migrada no tendrá este tipo de información. Tan pronto como un usuario cargue un nuevo certificado de iOS o una clave de Android, los distintos detalles de la clave o certificado se almacenarán y mostrarán correctamente en la lista desplegable **[!UICONTROL Push channel settings]**.
