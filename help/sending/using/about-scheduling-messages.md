@@ -7,16 +7,15 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Send Time Optimization
-role: Business Practitioner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+feature: Optimización del tiempo de envío
+role: User
+exl-id: 6b26615b-4aa6-401d-a12d-25cef4cd0524
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '271'
 ht-degree: 98%
 
 ---
-
 
 # Acerca de la programación de mensajes{#about-scheduling-messages}
 
@@ -53,4 +52,3 @@ Las propiedades de **[!UICONTROL Schedule]** le permiten establecer opciones de 
 * [Optimización del tiempo de envío](../../sending/using/optimizing-the-sending-time.md)
 * [Envío de mensajes en el huso horario del destinatario](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)
 * [Cálculo de la fecha de envío](../../sending/using/computing-the-sending-date.md)
-
