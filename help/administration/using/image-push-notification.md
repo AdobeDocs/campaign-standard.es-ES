@@ -8,17 +8,17 @@ content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
 feature: Configuración de instancia
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 474c8002-4263-4617-9480-6a9b603bde8e
-source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 20%
 
 ---
 
-# Añadir imágenes y vídeos en iOS {#image-push}
+# Adición de imágenes y vídeos en iOS {#image-push}
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ ht-degree: 20%
 
 En este documento, aprenda a mostrar una imagen desde una notificación push de Adobe Campaign Standard iOS.
 
-## Paso 1: Configurar notificación push {#set-up-push}
+## Paso 1: Configuración de notificaciones push {#set-up-push}
 
 Los SDK de Experience Platform admiten la notificación push.
 
@@ -36,7 +36,7 @@ Al configurar Adobe Campaign y Adobe Mobile Services, podrá usar los datos de s
 
 Para enviar notificaciones push con una aplicación de SDK de Experience Cloud, se debe configurar una aplicación móvil en Adobe Experience Platform Launch y configurarla en Adobe Campaign. Para obtener más información, consulte esta [página](https://helpx.adobe.com/es/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
 
-## Paso 2: Personalice la notificación push en Adobe Campaign {#customize-push}
+## Paso 2: Personalización de la notificación push en Adobe Campaign {#customize-push}
 
 Para modificar una notificación push, Adobe Campaign le permite acceder a un conjunto de opciones avanzadas mientras diseña una notificación push.
 
