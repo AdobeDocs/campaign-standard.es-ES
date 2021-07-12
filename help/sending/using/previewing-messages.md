@@ -6,17 +6,16 @@ description: Obtenga información sobre cómo previsualizar un mensaje en el edi
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-feature: Seed Address
-role: Business Practitioner
+feature: Dirección semilla
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ac8c1265-f530-4438-ab2d-3ca17615ca85
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '626'
 ht-degree: 16%
 
 ---
-
 
 # Vista previa de entregas {#previewing-messages}
 
