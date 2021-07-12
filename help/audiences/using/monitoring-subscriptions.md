@@ -6,17 +6,16 @@ description: Obtenga información sobre cómo rastrear a sus suscriptores y medi
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-feature: Audiences
-role: Business Practitioner
+feature: Audiencias
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ad380122-6791-4580-b0eb-fce75b1ec863
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '358'
 ht-degree: 1%
 
 ---
-
 
 # Supervisión de suscripciones{#monitoring-subscriptions}
 
@@ -68,4 +67,3 @@ Para mostrar un informe que detalle la evolución de las suscripciones y las baj
 Para consultar la lista de servicios a los que se ha suscrito un contacto, puede consultar su historial de marketing. Para obtener más información, consulte la sección [Perfil de cliente integrado](../../audiences/using/integrated-customer-profile.md) .
 
 ![](assets/lp_monitoring_subscriptions_5.png)
-
