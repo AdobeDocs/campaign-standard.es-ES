@@ -6,19 +6,18 @@ description: Preguntas frecuentes sobre el flujo de trabajo técnico de Launch.
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Instance Settings
-role: Administrator
+feature: Configuración de instancia
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: aaaceb3a-5e54-47da-9be4-b70747282830
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '485'
 ht-degree: 2%
 
 ---
 
-
-# Preguntas más frecuentes sobre la sincronización de Adobe Experience Platform Launch {#syncwithlaunch-faq}
+# Preguntas frecuentes sobre la sincronización de Adobe Launch {#syncwithlaunch-faq}
 
 Puede importar propiedades móviles de Launch de Adobe en Adobe Campaign Standard a través del flujo de trabajo técnico dedicado de **[!UICONTROL Sync with Launch]** . Para obtener más información, consulte esta [página](../../administration/using/technical-workflows.md)
 
