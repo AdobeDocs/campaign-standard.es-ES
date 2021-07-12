@@ -7,19 +7,18 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
-feature: Landing Pages
-role: Business Practitioner
+feature: Páginas de destino
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 29d1badf-9ce3-470c-9bdc-169586d2e943
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 93%
+source-wordcount: '234'
+ht-degree: 94%
 
 ---
 
-
-# Acerca de las plantillas de página de aterrizaje {#landing-page-templates}
+# Acerca de las plantillas de página de destino {#landing-page-templates}
 
 Campaign incluye un conjunto de plantillas de página de aterrizaje integradas:
 
@@ -47,4 +46,3 @@ Ejemplo de código HTML en la plantilla:
 ```
 
 La lista oficial de los atributos “type” está disponible en la siguiente dirección: [https://www.w3schools.com/tags/att_input_type.asp](https://www.w3schools.com/tags/att_input_type.asp)
-
