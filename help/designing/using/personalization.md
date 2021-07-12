@@ -6,17 +6,16 @@ description: Descubra cómo personalizar un correo electrónico en el Diseñador
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: Diseño de correo electrónico
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '2578'
+source-wordcount: '2575'
 ht-degree: 5%
 
 ---
-
 
 # Personalización del contenido del correo electrónico {#personalization}
 
@@ -56,7 +55,7 @@ Adobe Campaign le permite personalizar una o varias direcciones URL en el mensaj
 >
 >Las direcciones URL personalizadas no se pueden aplicar al nombre de dominio ni a la extensión URL. Se mostrará un mensaje de error durante el análisis del mensaje si la personalización es incorrecta. Al seleccionar un bloque de contenido, no se le permite seleccionar elementos como **Link to mirror page**. Este tipo de bloques está prohibido dentro de un vínculo.
 
-## Inserción de un campo personalizado{#inserting-a-personalization-field}
+## Inserción de un campo de personalización.{#inserting-a-personalization-field}
 
 Adobe Campaign permite insertar un campo de la base de datos en la página, como el nombre del perfil.
 
@@ -178,7 +177,7 @@ Para obtener más información sobre esto, consulte [Dimensiones de segmentació
 
 **Temas relacionados:**
 
-* [Inserción de un campo de personalización](#inserting-a-personalization-field).
+* [Inserción de un campo de personalización.](#inserting-a-personalization-field)
 * [Añadir un bloque de contenido](#adding-a-content-block)
 * [Definición de contenido dinámico en un correo electrónico](#defining-dynamic-content-in-an-email)
 
@@ -224,7 +223,7 @@ Estas condiciones adoptan la sintaxis de la expresión XTK (p. ej. **context.pro
 >
 >No se puede definir una condición para un bloque que ya contiene un subelemento con contenido dinámico o un bloque que ya constituye un contenido dinámico. Los bloques dinámicos no visibles, como las listas desplegables, no se pueden editar.
 
-### Definición del contenido dinámico en un correo electrónico{#defining-dynamic-content-in-an-email}
+### Definición de contenido dinámico en un correo electrónico{#defining-dynamic-content-in-an-email}
 
 >[!CONTEXTUALHELP]
 >id="ac_dynamic_content"
@@ -313,7 +312,7 @@ En el editor de expresiones, al definir un contenido dinámico, el orden de prio
 
 Solo puede definir un orden de prioridad por contenido dinámico.
 
-## Ejemplo: Personalización de correo electrónico{#example-email-personalization}
+## Ejemplo: Personalización del correo electrónico{#example-email-personalization}
 
 En este ejemplo, un miembro del equipo de servicio de marketing ha creado un correo electrónico para informar a algunos de sus clientes de que hay una oferta especial solo para ellos. El miembro del equipo decidió personalizar el correo electrónico según las edades respectivas de los clientes. Los clientes de entre 18 y 27 años recibirán un correo electrónico con una imagen y un lema diferentes a los que recibirán los clientes mayores de 27 años.
 
@@ -430,4 +429,3 @@ La imagen ha cambiado gracias al contenido dinámico, y el eslogan que aparece e
 
 * [Creación de audiencias](../../audiences/using/creating-audiences.md)
 * [Preparación del envío](../../sending/using/preparing-the-send.md)
-
