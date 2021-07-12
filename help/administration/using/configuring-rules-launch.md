@@ -8,17 +8,17 @@ content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
 feature: Configuración de instancia
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
-source-git-commit: fba2ecddb2ebbf600be28724c8658d6d61eb9ecd
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 5%
 
 ---
 
-# Configuración de reglas de Experience Platform Launch para admitir casos de uso de Adobe Campaign Standard {#configuring-rules-launch}
+# Configuración de reglas de Launch para admitir casos de uso de Adobe Campaign Standard {#configuring-rules-launch}
 
 En [!DNL Adobe Experience Platform Launch], debe crear elementos de datos y reglas para enviar PII y otros datos de aplicaciones móviles a [!DNL Adobe Campaign Standard].
 
@@ -144,7 +144,7 @@ Para enviar datos PII a [!DNL Adobe Campaign Standard], cree una regla en [!DNL 
 
 Los datos de usuario están configurados para enviarse a Campaign.
 
-### Postback de seguimiento en la aplicación {#inapp-tracking-postback}
+### Postback del seguimiento en la aplicación {#inapp-tracking-postback}
 
 >[!NOTE]
 >
@@ -182,7 +182,7 @@ Para enviar datos de seguimiento a [!DNL Adobe Campaign Standard] para generar i
 
    ![](assets/do-not-localize/rules_3.png)
 
-### Postback de seguimiento de notificaciones push {#push-tracking-postback}
+### Seguimiento de notificaciones push postback {#push-tracking-postback}
 
 >[!NOTE]
 >
