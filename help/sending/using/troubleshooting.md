@@ -7,19 +7,18 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Deliverability
-role: Business Practitioner
+feature: Entrega
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: 0470b986-c00a-4441-8621-82c7112a9953
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 59%
+source-wordcount: '468'
+ht-degree: 61%
 
 ---
 
-
-# Resolución de problemas{#troubleshooting}
+# Solución de problemas{#troubleshooting}
 
 ¿Está teniendo un problema de envío? Puede encontrar la solución aquí.
 
@@ -38,7 +37,7 @@ Si el problema persiste, póngase en contacto con los servicios comerciales o de
 
 * **¿Cuál es la diferencia entre una dirección de correo electrónico en lista de bloqueados y una dirección de correo electrónico en cuarentena?**
 
-   * El estado **[!UICONTROL On denylist]** es el resultado de un [bucle de comentarios](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops) (cuando una persona informa un mensaje como correo no deseado).
+   * El estado **[!UICONTROL On denylist]** es el resultado de un [bucle de comentarios](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=es#feedback-loops) (cuando una persona informa un mensaje como correo no deseado).
 
    * El estado **[!UICONTROL Quarantined]** es el resultado de un rechazo suave o fuerte.
    Para obtener más información, consulte esta [sección](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist).
