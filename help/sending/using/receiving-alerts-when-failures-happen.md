@@ -1,26 +1,25 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Recibir alertas cuando se produzcan errores
+title: Recepción de alertas cuando se produzcan errores
 description: Aprenda a utilizar el sistema de gestión de alertas.
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-feature: Proofs
-role: Business Practitioner
+feature: Pruebas
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: dc8bd1d3-e199-4901-9b1f-7b485879897d
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '2035'
+source-wordcount: '2032'
 ht-degree: 3%
 
 ---
 
+# Recepción de alertas cuando se produzcan errores{#receiving-alerts-when-failures-happen}
 
-# Recibir alertas cuando se produzcan errores{#receiving-alerts-when-failures-happen}
-
-## Acerca de las alertas de envío {#about-delivery-alerting}
+## Acerca de las alertas de entrega {#about-delivery-alerting}
 
 La función **Delivery alert alert** es un sistema de administración de alertas que permite a un grupo de usuarios recibir automáticamente notificaciones que contengan información sobre la ejecución de sus envíos.
 
@@ -49,9 +48,9 @@ Las notificaciones enviadas contienen:
 
 ![](assets/delivery-alerting_notification.png)
 
-## Tableros de alerta de envío {#delivery-alerting-dashboards}
+## Tableros de alertas de entrega {#delivery-alerting-dashboards}
 
-### Acerca de los paneles de alerta de envío {#about-delivery-alerting-dashboards}
+### Acerca de los paneles de alertas de entrega {#about-delivery-alerting-dashboards}
 
 Para administrar los destinatarios de las notificaciones, definir los criterios de alerta y acceder al historial de las alertas, debe utilizar los paneles.
 
@@ -74,7 +73,7 @@ Desde la interfaz de Adobe Campaign, puede:
 
 ![](assets/delivery-alerting_dashboard.png)
 
-### Creación de un panel de alertas de envío {#creating-a-delivery-alerting-dashboard}
+### Creación de un panel de alertas de entrega {#creating-a-delivery-alerting-dashboard}
 
 Si desea enviar notificaciones basadas en criterios específicos a distintos grupos de usuarios, debe utilizar varios paneles. Para crear un tablero nuevo:
 
@@ -93,7 +92,7 @@ Si desea enviar notificaciones basadas en criterios específicos a distintos gru
 
 Ahora, cada vez que una entrega cumple los criterios definidos en este panel, se envía una notificación de alerta al grupo de usuarios especificado.
 
-## Criterios de alerta de envío {#delivery-alerting-criteria}
+## Criterios de alerta de entrega {#delivery-alerting-criteria}
 
 ### Acerca de los criterios de alerta {#about-alerting-criteria}
 
@@ -139,7 +138,7 @@ Para cada criterio, puede definir la siguiente configuración:
 * [Frecuencia de alertas](#alerting-frequency)
 * [Iconos y estados de la actividad de marketing](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
 
-### Creación de un criterio de alerta de envío {#creating-a-delivery-alerting-criterion}
+### Creación de un criterio de alerta de entrega {#creating-a-delivery-alerting-criterion}
 
 Puede crear nuevos criterios de alerta de envío para adaptarlos mejor a sus necesidades.
 
@@ -183,7 +182,7 @@ Una vez creados, estos criterios se pueden añadir a un panel de alertas de env�
 
 [Adición o ampliación de un recurso](../../developing/using/key-steps-to-add-a-resource.md)
 
-## Parámetros de alerta de envío {#delivery-alerting-parameters}
+## Parámetros de alerta de entrega {#delivery-alerting-parameters}
 
 ### Parámetros de criterios {#criteria-parameters}
 
@@ -210,7 +209,7 @@ En la pestaña **[!UICONTROL Criteria parameters]** de un [panel de alertas de e
 * **[!UICONTROL Minimum expected throughput (in sent messages per hour)]**: Solo se tienen en cuenta para el  **[!UICONTROL Deliveries with low throughput]** criterio los envíos con un rendimiento inferior al valor especificado.
 * **[!UICONTROL Minimum processed ratio required for 'Deliveries in progress' criterion]**: Solo se tienen en cuenta las entregas con un porcentaje de mensajes procesados superior al porcentaje especificado.
 
-### Frecuencia de alerta {#alerting-frequency}
+### Frecuencia de alertas {#alerting-frequency}
 
 La opción **[!UICONTROL Frequency of delivery alerting]** permite definir el retardo entre dos envíos de alertas. De forma predeterminada, se establece en 10 minutos.
 
@@ -283,4 +282,3 @@ A continuación, se indican algunos motivos posibles para recibir notificaciones
 * [Comprensión de los errores de entrega](../../sending/using/understanding-delivery-failures.md)
 * [Comprensión de la gestión de la cuarentena](../../sending/using/understanding-quarantine-management.md)
 * [Acerca de la inclusión y la exclusión en Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-
