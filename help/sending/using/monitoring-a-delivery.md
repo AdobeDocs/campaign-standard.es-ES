@@ -7,17 +7,16 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 context-tags: delivery,main
-feature: Performance Monitoring
-role: Business Practitioner
+feature: Supervisión del rendimiento
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ddc92077-df73-411d-a161-3263581e6945
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '463'
 ht-degree: 88%
 
 ---
-
 
 # Seguimiento de una entrega{#monitoring-a-delivery}
 
@@ -47,10 +46,10 @@ Existen varias formas de supervisar un envío y medir su impacto. Como administr
 
 **Temas relacionados:**
 
-* [Recibir alertas cuando se produzcan errores](../../sending/using/receiving-alerts-when-failures-happen.md)
+* [Recepción de alertas cuando se produzcan errores](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Informes](../../reporting/using/about-dynamic-reports.md)
 
-## Registros de envío {#delivery-logs}
+## Registros de entregas {#delivery-logs}
 
 ### Registros de envío {#sending-logs}
 
