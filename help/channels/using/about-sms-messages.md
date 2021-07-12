@@ -8,16 +8,15 @@ content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back
 feature: SMS
-role: Business Practitioner
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: a7f22d92-dbf9-4c2b-8fc1-1e31d1e5e79c
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '270'
+ht-degree: 32%
 
 ---
-
 
 # Acerca de los mensajes SMS{#about-sms-messages}
 
@@ -45,7 +44,7 @@ Para enviar mensajes SMS a un teléfono móvil, necesita:
 * [Informe SMS](../../reporting/using/sms-report.md)
 * [Guía de Campaign Standard Mobile](https://helpx.adobe.com/es/campaign/kb/acs-mobile.html)
 
-## Plantilla de envío de SMS {#sms-delivery-template}
+## Plantilla de envío SMS {#sms-delivery-template}
 
 Adobe Campaign ofrece una plantilla de envío para dispositivos móviles. Esta plantilla debe estar correctamente vinculada a la cuenta externa utilizada para el canal **[!UICONTROL Mobile (SMS)]** . Para acceder y modificarlo:
 
