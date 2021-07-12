@@ -7,17 +7,16 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
-feature: Proofs
-role: Business Practitioner
+feature: Pruebas
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 75b64c43-f066-45e7-8d61-95eba8f52b05
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '584'
 ht-degree: 99%
 
 ---
-
 
 # Envío de pruebas {#sending-proofs}
 
