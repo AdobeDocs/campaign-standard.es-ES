@@ -7,22 +7,21 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 feature: Push
-role: Business Practitioner
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: bd9ec3f9-e047-42dc-ab64-9fb274cb4656
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 0%
+source-wordcount: '1128'
+ht-degree: 1%
 
 ---
-
 
 # Generación de un archivo CSV para notificaciones push multilingües{#generating-csv-multilingual-push}
 
 La carga de un archivo CSV para generar contenido y enviarlo es una función que se utiliza para admitir notificaciones push multilingües. El formato del archivo CSV debe cumplir determinadas directrices para que la carga del archivo se realice correctamente y, por lo tanto, poder crear una entrega. Las secciones siguientes describen el formato del archivo y sus consideraciones.
 
-## Formato de archivo {#file-format}
+## Formato del archivo {#file-format}
 
 La funcionalidad push multilingüe requiere 14 columnas en el archivo CSV:
 
@@ -69,7 +68,7 @@ Un valor vacío para esta columna provocará un error en la carga del archivo.
 
 **Discrepancia de variante.** Si utiliza el bloque de contenido y las audiencias de destino con idiomas específicos, debe enumerar todos los idiomas de destino en el archivo CSV, de lo contrario obtendrá un error al realizar la entrega.
 
-## Inserción del campo de personalización en el archivo csv {#personalization-field-csv}
+## Inserción de un campo personalizado en el archivo csv {#personalization-field-csv}
 
 Si desea utilizar campos de personalización, debe incluir la etiqueta <span> en el archivo .
 
