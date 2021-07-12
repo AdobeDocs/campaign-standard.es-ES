@@ -6,17 +6,16 @@ description: Obtenga más información sobre las licencias instaladas en la inst
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Access Management
-role: Administrator
+feature: Administración de acceso
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 4a4c14da-d842-4f65-821a-ca9e73a94adc
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 1%
+source-wordcount: '171'
+ht-degree: 2%
 
 ---
-
 
 # Licencias{#licenses}
 
@@ -37,4 +36,3 @@ Un administrador debe leer y confirmar los nuevos términos del acuerdo en los 3
 Si no se acepta el acuerdo, estos 30 días no se pueden usar. Los usuarios estándar no podrán acceder a las funcionalidades de Adobe Campaign y solo verán el siguiente mensaje hasta que un administrador funcional acepte los términos del acuerdo.
 
 ![](assets/license_4.png)
-
