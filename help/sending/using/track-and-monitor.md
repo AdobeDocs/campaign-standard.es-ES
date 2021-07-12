@@ -7,17 +7,16 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: Descubra cómo Adobe Campaign le permite realizar un seguimiento de los mensajes enviados y descubrir cómo reaccionan sus destinatarios al envío
-feature: Deliverability
-role: Business Practitioner
+feature: Entrega
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: dd3bd672-fb9d-4e82-bdf3-d319f372baaa
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 41%
+source-wordcount: '433'
+ht-degree: 42%
 
 ---
-
 
 # Seguimiento y monitorización {#track-and-monitor}
 
@@ -59,7 +58,7 @@ El informe de clics activos presenta el contenido del mensaje (HTML o texto) con
 
 Para obtener más información, consulte el [Informe de clics activos](../../reporting/using/hot-clicks.md).
 
-## Sugerencias de rendimiento de envío {#performance-tips}
+## Sugerencias de rendimiento de entrega {#performance-tips}
 
 * Evite mantener las entregas en estado de error en la instancia, ya que esto mantiene tablas temporales e influye en el rendimiento.
 
@@ -69,5 +68,5 @@ Para obtener más información, consulte el [Informe de clics activos](../../rep
 
 **Temas relacionados:**
 
-* [Recibir alertas cuando se produzcan errores](../../sending/using/receiving-alerts-when-failures-happen.md)
+* [Recepción de alertas cuando se produzcan errores](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Informes](../../reporting/using/about-dynamic-reports.md)
