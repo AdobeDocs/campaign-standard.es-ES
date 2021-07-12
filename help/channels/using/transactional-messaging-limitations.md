@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: Mensajería transaccional
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d6aaec6e-c718-46a2-88e8-7402970def1a
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 67%
+source-wordcount: '744'
+ht-degree: 68%
 
 ---
-
 
 # Prácticas recomendadas y limitaciones de la mensajería transaccional {#transactional-messaging-limitations}
 
@@ -69,7 +68,7 @@ La forma de personalizar el contenido de un mensaje depende del tipo de mensaje 
 
 Tenga en cuenta que las listas de productos solo están disponibles en **mensajes de correo electrónico** transaccionales. Consulte [Uso de listas de productos en un mensaje transaccional](../../designing/using/using-product-listings.md).
 
-## Marcas {#permissions-and-branding}
+## Promoción de la marca {#permissions-and-branding}
 
 En cuanto a la gestión de la [promoción de la marca](../../administration/using/branding.md), la mensajería transaccional permite menos flexibilidad que la mensajería estándar. Adobe recomienda vincular todas las marcas utilizadas en los mensajes transaccionales a la [unidad organizativa](../../administration/using/organizational-units.md) **[!UICONTROL All]**. Para más información al respecto, lea la explicación detallada a continuación.
 
