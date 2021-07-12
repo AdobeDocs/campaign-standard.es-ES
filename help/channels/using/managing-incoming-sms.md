@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: delivery,smsContent,back
 feature: SMS
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 86cb6f4c-a5a7-4d9d-bbfd-4a70af38cf3a
-source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 8%
@@ -20,7 +20,7 @@ ht-degree: 8%
 
 # Administración de SMS entrantes{#managing-incoming-sms}
 
-## Administración de STOP SMS {#managing-stop-sms}
+## Administración de SMS STOP {#managing-stop-sms}
 
 Cuando un perfil responde a un mensaje SMS enviado por Campaign, puede configurar los mensajes que se le envían automáticamente, así como la acción que se va a realizar.
 
@@ -67,7 +67,7 @@ Ahora se puede cancelar la suscripción de sus destinatarios a sus mensajes auto
 
 Estos SMS entrantes se pueden almacenar si es necesario. Para obtener más información, consulte esta [sección](#storing-incoming-sms).
 
-## Almacenamiento del SMS entrante {#storing-incoming-sms}
+## Almacenamiento de SMS entrantes {#storing-incoming-sms}
 
 En la cuenta externa **[!UICONTROL SMS routing via SMPP]** , puede elegir almacenar los mensajes entrantes, por ejemplo, cuando un suscriptor responde &quot;STOP&quot; a un mensaje SMS para que se elimine de las listas de destinatarios.
 
