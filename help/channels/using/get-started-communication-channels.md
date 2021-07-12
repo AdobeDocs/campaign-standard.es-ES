@@ -7,10 +7,10 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 feature: Información general
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 4ea5b0eb-35da-4db6-a529-ba636be7825f
-source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 23%
@@ -42,7 +42,7 @@ Más información:
 
 * [Pasos clave para enviar un mensaje](../../channels/using/key-steps-to-send-a-message.md)
 * [Acceso a mensajes](../../channels/using/accessing-messages.md)
-* [Panel de mensajes](../../channels/using/message-dashboard.md)
+* [Tablero de mensajes](../../channels/using/message-dashboard.md)
 * [Plantillas de mensajes multilingües](../../channels/using/multilingual-messages-template.md)
 * [Plantillas de actividades de marketing](../../start/using/marketing-activity-templates.md)
 
@@ -92,9 +92,9 @@ Las páginas de aterrizaje también se pueden utilizar para **adquirir o actuali
 
 Más información:
 
-* [Introducción a las páginas de aterrizaje](../../channels/using/getting-started-with-landing-pages.md)
+* [Introducción a las páginas de destino](../../channels/using/getting-started-with-landing-pages.md)
 * [Plantillas de página de aterrizaje](../../channels/using/landing-page-templates.md)
-* [Administración de datos de formulario de una página de aterrizaje](../../channels/using/managing-landing-page-form-data.md)
+* [Administración de datos de formulario de una página de destino](../../channels/using/managing-landing-page-form-data.md)
 * [Configuración de un proceso de inclusión doble](../../channels/using/setting-up-a-double-opt-in-process.md)
 
 ## Recursos adicionales
