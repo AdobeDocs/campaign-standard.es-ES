@@ -7,17 +7,16 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 context-tags: delivery,deployment,back
-feature: Performance Monitoring
-role: Business Practitioner
+feature: Supervisión del rendimiento
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 65%
+source-wordcount: '944'
+ht-degree: 66%
 
 ---
-
 
 # Confirmación del envío{#confirming-the-send}
 
@@ -51,7 +50,7 @@ Si utiliza un envío recurrente sin período de acumulación, puede solicitar co
 
 ![](assets/confirmation_recurring_deliveries.png)
 
-## Entender los indicadores de mensaje {#message-indicators}
+## Explicación de los indicadores de mensaje {#message-indicators}
 
 Una vez que el mensaje se envía a los contactos, la zona **[!UICONTROL Deployment]** muestra los datos de KPI (indicador de rendimiento clave), que incluye la siguiente información:
 
@@ -111,7 +110,7 @@ Una vez que se ha iniciado el envío, no se produce ningún cambio en el porcent
 
 ![](assets/efs-sending.png)
 
-Los registros de envío muestran el estado **[!UICONTROL Pending]** de cada dirección de destino.
+Los registros de envío muestran el estado **[!UICONTROL Pending]** de cada dirección de destino.
 
 ![](assets/efs-pending.png)
 
@@ -119,7 +118,7 @@ Cuando el envío de mensajes a los perfiles de destino se realiza en tiempo real
 
 Cuando los mensajes rechazados en el disco duro se devuelven desde el MTA mejorado, su estado de registro cambia de **[!UICONTROL Pending]** a **[!UICONTROL Failed]** y el porcentaje **[!UICONTROL Bounces + errors]** se incrementa en consecuencia.
 
-Cuando los mensajes de devolución en blanco se devuelven desde el MTA mejorado, su estado de registro también cambia de **[!UICONTROL Pending]** a **[!UICONTROL Failed]** y el porcentaje **[!UICONTROL Bounces + errors]** se incrementa en consecuencia. El porcentaje de **[!UICONTROL Delivered]** permanece sin cambios. A continuación, se vuelven a intentar los mensajes de devolución suave a lo largo del [período de validez del envío](../../administration/using/configuring-email-channel.md#validity-period-parameters):
+Cuando los mensajes de devolución en blanco se devuelven desde el MTA mejorado, su estado de registro también cambia de **[!UICONTROL Pending]** a **[!UICONTROL Failed]** y el porcentaje **[!UICONTROL Bounces + errors]** se incrementa en consecuencia. El porcentaje de **[!UICONTROL Delivered]** permanece sin cambios. A continuación, se vuelven a intentar los mensajes de devolución suave a lo largo del [período de validez del envío](../../administration/using/configuring-email-channel.md#validity-period-parameters):
 
 * Si un reintento se realiza correctamente antes del final del período de validez, el estado del mensaje cambia a **[!UICONTROL Sent]** y el porcentaje de **[!UICONTROL Delivered]** sube en consecuencia.
 
@@ -142,9 +141,9 @@ Las siguientes tablas muestran los cambios en los KPI y los estados de envío de
 | Paso en el proceso de envío | Resumen de KPI | Estado de envío de registros |
 |--- |--- |--- |
 | El mensaje se retransmite correctamente desde Campaign al servidor de correo mejorado | <ul><li>**[!UICONTROL Delivered]** el porcentaje empieza en 0%</li><li>**[!UICONTROL Bounces + errors]** el porcentaje empieza en 0%</li></ul> | Pendiente |
-| Los mensajes de devolución dura se informan desde el servidor de correo mejorado | <ul><li>No hay cambios en el porcentaje de **[!UICONTROL Delivered]**</li><li>El porcentaje de **[!UICONTROL Bounces + errors]** sube en consecuencia</li></ul> | Error |
-| Los mensajes de devolución suave se informan desde el servidor de correo mejorado | <ul><li>No hay cambios en el porcentaje de **[!UICONTROL Delivered]**</li><li>El porcentaje de **[!UICONTROL Bounces + errors]** sube en consecuencia</li></ul> | Error |
-| Los reintentos de mensajes de devolución suave se realizan correctamente | <ul><li>El porcentaje de **[!UICONTROL Delivered]** sube en consecuencia</li><li>El porcentaje de **[!UICONTROL Bounces + errors]** baja en consecuencia</li></ul> | Enviado |
+| Los mensajes de devolución dura se informan desde el servidor de correo mejorado | <ul><li>No hay cambios en el porcentaje de **[!UICONTROL Delivered]**</li><li>El porcentaje de **[!UICONTROL Bounces + errors]** sube en consecuencia</li></ul> | Error |
+| Los mensajes de devolución suave se informan desde el servidor de correo mejorado | <ul><li>No hay cambios en el porcentaje de **[!UICONTROL Delivered]**</li><li>El porcentaje de **[!UICONTROL Bounces + errors]** sube en consecuencia</li></ul> | Error |
+| Los reintentos de mensajes de devolución suave se realizan correctamente | <ul><li>El porcentaje de **[!UICONTROL Delivered]** sube en consecuencia</li><li>El porcentaje de **[!UICONTROL Bounces + errors]** baja en consecuencia</li></ul> | Enviado |
 | Error en los reintentos de mensajes de devolución suave | <ul><li> No hay cambios en el porcentaje de **[!UICONTROL Delivered]** </li><li> No hay cambios en el porcentaje de **[!UICONTROL Bounces + errors]** </li></ul> | Error |
 
 **Sin servicio de comentarios de correo electrónico**
@@ -152,7 +151,7 @@ Las siguientes tablas muestran los cambios en los KPI y los estados de envío de
 | Paso en el proceso de envío | Resumen de KPI | Estado de envío de registros |
 |--- |--- |--- |
 | El mensaje se retransmite correctamente desde Campaign al servidor de correo mejorado | <ul><li>El porcentaje de **[!UICONTROL Delivered]** comienza en 100 %</li><li>El porcentaje de **[!UICONTROL Bounces + errors]** comienza en 0 %</li></ul> | Enviado |
-| Los mensajes de devolución dura se informan desde el servidor de correo mejorado | <ul><li>El porcentaje de **[!UICONTROL Delivered]** baja en consecuencia</li><li>El porcentaje de **[!UICONTROL Bounces + errors]** sube en consecuencia</li></ul> | Error |
+| Los mensajes de devolución dura se informan desde el servidor de correo mejorado | <ul><li>El porcentaje de **[!UICONTROL Delivered]** baja en consecuencia</li><li>El porcentaje de **[!UICONTROL Bounces + errors]** sube en consecuencia</li></ul> | Error |
 | Los mensajes de devolución suave se informan desde el servidor de correo mejorado | <ul><li>No hay cambios en el porcentaje de **[!UICONTROL Delivered]**</li><li>No hay cambios en el porcentaje de **[!UICONTROL Bounces + errors]**</li></ul> | Enviado |
 | Los reintentos de mensajes de devolución suave se realizan correctamente | <ul><li>No hay cambios en el porcentaje de **[!UICONTROL Delivered]**</li><li>No hay cambios en el porcentaje de **[!UICONTROL Bounces + errors]**</li></ul> | Enviado |
-| Error en los reintentos de mensajes de devolución suave | <ul><li>El porcentaje de **[!UICONTROL Delivered]** baja en consecuencia</li><li>El porcentaje de **[!UICONTROL Bounces + errors]** sube en consecuencia</li></ul> | Error |
+| Error en los reintentos de mensajes de devolución suave | <ul><li>El porcentaje de **[!UICONTROL Delivered]** baja en consecuencia</li><li>El porcentaje de **[!UICONTROL Bounces + errors]** sube en consecuencia</li></ul> | Error |
