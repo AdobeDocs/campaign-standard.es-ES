@@ -6,19 +6,18 @@ description: Descubra los modos de texto sin formato y HTML
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: Diseño de correo electrónico
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 760c3c30-c899-4cf4-ba59-fb2fade9fc5e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
 
-
-# Edición de los formatos de texto sin formato, HTML y correo electrónico móvil {#plain-text-and-html-modes}
+# Edición de formatos de texto sin formato, HTML y correo electrónico móvil {#plain-text-and-html-modes}
 
 El Diseñador de correo electrónico permite editar varias representaciones de los correos electrónicos. Puede generar una versión de texto del correo electrónico, editar la fuente HTML de un correo electrónico y diseñar correos electrónicos para la vista móvil.
 
