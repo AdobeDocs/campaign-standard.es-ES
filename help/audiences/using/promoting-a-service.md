@@ -6,17 +6,16 @@ description: Utilice Adobe Campaign para promocionar un servicio e interactuar c
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-feature: Audiences
-role: Business Practitioner
+feature: Audiencias
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: c1f8770a-8b25-41db-aa52-828e181a563d
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '197'
 ht-degree: 3%
 
 ---
-
 
 # Promoción de un servicio{#promoting-a-service}
 
