@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Instance Settings
-role: Administrator
+feature: Configuración de instancia
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
+exl-id: b983d0a3-c345-44d4-bc82-202bf6ed26ab
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '579'
 ht-degree: 1%
 
 ---
-
 
 # Implementación del seguimiento local {#local-tracking}
 
@@ -43,11 +42,11 @@ Para enviar la información de seguimiento, hay tres variables que deben enviars
 | broadlogId | `broadlogId` a partir de datos entrantes (similar al seguimiento push, donde  `_mld` se utiliza) |
 | acción | &quot;1&quot; para Open, &quot;2&quot; para Click y &quot;7&quot; para Impression |
 
-## Implementar el seguimiento de impresión local {#implement-local-impression-tracking}
+## Implementación del seguimiento de impresión local {#implement-local-impression-tracking}
 
 El SDK de Adobe Experience Platform Mobile enviará automáticamente el evento de impresión tanto para Android como para iOS sin ninguna configuración adicional.
 
-## Implementar el rastreo de clics {#implementing-click-tracking}
+## Implementación del rastreo de clics {#implementing-click-tracking}
 
 Para el rastreo de clics, debe enviar el valor &quot;2&quot; para la acción al llamar a las funciones `collectMessageInfo()` o `trackAction()` .
 
