@@ -6,13 +6,12 @@ description: Obtenga más información sobre las funciones de Adobe Campaign Sta
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: Privacy
-role: Business Practitioner
+feature: Privacidad
+role: User
 level: Intermediate
 exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 100%
 
@@ -63,7 +62,7 @@ Todas estas normativas se aplican a los clientes de Adobe Campaign que poseen da
 >
 >Para obtener más información sobre los datos personales y las distintas entidades que administran los datos (controlador de datos, procesador de datos y sujeto de datos), consulte [Datos personales y personas](../../start/using/privacy.md#personal-data).
 
-## Consulte Derecho de acceso y Derecho a ser olvidado{#right-access-forgotten}
+## Derecho de acceso y Derecho a ser olvidado {#right-access-forgotten}
 
 Para ayudarle a facilitar su preparación para la privacidad, Adobe Campaign le permite gestionar solicitudes de **acceso** y **eliminación** .
 
