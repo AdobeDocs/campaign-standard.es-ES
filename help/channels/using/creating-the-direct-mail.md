@@ -7,19 +7,18 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
-feature: Direct Mail
-role: Business Practitioner
+feature: Correo directo
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3e94c872-bf44-4d4c-b6eb-7731021c7931
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 95%
+source-wordcount: '596'
+ht-degree: 96%
 
 ---
 
-
-# Creación del correo postal{#creating-the-direct-mail}
+# Creación del correo directo{#creating-the-direct-mail}
 
 Crear un envío de correo postal es muy similar a crear un correo electrónico normal. Los pasos siguientes describen la configuración específica de este canal. Consulte [Creación de un correo electrónico](../../channels/using/creating-an-email.md) para obtener más información sobre otras opciones.
 
