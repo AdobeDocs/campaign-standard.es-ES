@@ -7,16 +7,15 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 feature: Push
-role: Business Practitioner
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 1b81f6e9-cb31-4664-af78-22e70043fbc8
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '921'
 ht-degree: 3%
 
 ---
-
 
 # Creación de una notificación push multilingüe{#creating-a-multilingual-push-notification}
 
@@ -83,7 +82,7 @@ Antes de personalizar la notificación push multilingüe, primero debemos cargar
 
 Ahora puede empezar a personalizar la notificación push multilingüe.
 
-## Paso 2: Previsualizar y finalizar una notificación push utilizando variantes de contenido multilingüe {#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants}
+## Paso 2: Vista previa y finalización de una notificación push mediante variantes de contenido multilingüe {#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants}
 
 Después de cargar el archivo que contiene variantes de contenido, ahora puede obtener una vista previa de las diferentes variantes de la entrega de notificaciones push.
 
@@ -111,7 +110,7 @@ También es posible crear y editar más variantes además de las cargadas desde 
 
 El envío de notificaciones push multilingües ya está listo para enviarse.
 
-## Paso 3: Envío y análisis del envío de notificaciones push multilingües {#step-3--send-and-analyze-multilingual-push-notification-delivery}
+## Paso 3: Envío y análisis de una entrega de notificaciones push multilingües {#step-3--send-and-analyze-multilingual-push-notification-delivery}
 
 Las notificaciones push de la variante de contenido multilingüe ya están listas para enviarse a los usuarios.
 
