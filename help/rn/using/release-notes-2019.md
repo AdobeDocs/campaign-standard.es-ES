@@ -7,12 +7,12 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: Información general
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '7591'
+source-wordcount: '7590'
 ht-degree: 9%
 
 ---
@@ -472,7 +472,7 @@ Se han añadido varias mejoras al canal de mensajería transaccional para optimi
 * Se ha corregido un problema que impedía desplazarse hacia abajo en el menú de estructura al utilizar más de 18 estructuras. (CAMP-31173)
 * Se ha corregido un problema que mostraba el encabezado previo sobre el contenido al reenviar un correo electrónico que contenía un encabezado previo enviado con Adobe Campaign. (CAMP-30736)
 * Se ha corregido un problema que impedía actualizar la línea de asunto al hacer clic en la opción **Actualizar AEM contenido** después de modificar el asunto en Adobe Experience Manager. (CAMP-29984)
-* Se han corregido varios problemas que impedían el uso de imágenes dinámicas de Adobe Target.
+* Se han corregido varios problemas que evitaban el uso de imágenes dinámicas desde Adobe Target.
 * Se ha corregido un problema que impedía actualizar la vista previa al recuperar contenido en el momento de la preparación si el contenido se había importado previamente de una dirección URL.
 * El icono de YouTube se ha añadido al componente de contenido **Social**.
 * Se ha añadido la vista **List** para los componentes de contenido y los fragmentos mostrados en la paleta Diseñador de correo electrónico.
