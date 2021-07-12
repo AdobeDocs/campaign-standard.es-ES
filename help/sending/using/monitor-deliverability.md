@@ -7,17 +7,16 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Deliverability
-role: Business Practitioner
+feature: Entrega
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: 683341fb-fef5-4aa1-8606-9526d9ae6290
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 59%
+source-wordcount: '307'
+ht-degree: 58%
 
 ---
-
 
 # Supervisión de la capacidad de entrega{#monitor-deliverability}
 
@@ -29,7 +28,7 @@ A continuación encontrará detalles sobre el informe **[!UICONTROL Delivery thr
 * Compruebe que las cantidades de errores y nuevas cuarentenas sean coherentes con otros envíos.
 * Consulte cuidadosamente los registros de envío en detalle para comprobar el tipo de errores resaltados (lista de bloqueados, problemas de DNS, reglas de correo no deseado, etc…).
 
-## Rendimiento de entrega {#delivery-throughput}
+## Rendimiento de la entrega {#delivery-throughput}
 
 Este informe contiene información sobre el rendimiento de entrega de toda la plataforma durante un periodo determinado para medir la velocidad a la que se envían los mensajes.
 
