@@ -7,17 +7,16 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: campaignCalendar,main
-feature: Campaigns
-role: Business Practitioner
+feature: Campañas
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d012e2e7-8022-4bfe-8290-3c512b60d9cf
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 90%
+source-wordcount: '373'
+ht-degree: 91%
 
 ---
-
 
 # Cronología{#timeline}
 
@@ -51,7 +50,7 @@ Cuando se muestra el contenido de un programa o una campaña, el cuadro correspo
 Cada elemento tiene un icono que corresponde a su tipo:
 
 * ![](assets/timeline_program_icon.png) Programa
-* ![](assets/timeline_campaign_icon.png) Campaign
+* ![](assets/timeline_campaign_icon.png) Campaña
 * ![](assets/timeline_lp_icon.png) página de aterrizaje
 * ![](assets/timeline_email_icon.png) Correo electrónico
 * ![](assets/timeline_sms_icon.png) SMS
