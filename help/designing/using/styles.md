@@ -6,17 +6,16 @@ description: Descubra cómo administrar estilos de correo electrónico en el Dis
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: Diseño de correo electrónico
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 8daeb12d-4170-464f-ba33-afb681f72a91
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 1%
+source-wordcount: '1054'
+ht-degree: 2%
 
 ---
-
 
 # Administración de estilos de correo electrónico {#managing-styles}
 
@@ -60,7 +59,7 @@ Consulte un ejemplo en [esta sección](#example--adjusting-vertical-alignment-an
 
 1. Guarde el contenido.
 
-## Ajuste del margen y margen {#about-padding-and-margin}
+## Ajuste del margen y el margen {#about-padding-and-margin}
 
 La interfaz del Diseñador de correo electrónico le permite ajustar rápidamente el relleno y los márgenes.
 
@@ -148,7 +147,7 @@ A continuación se muestran los ajustes de fondo disponibles que puede utilizar.
 
    También puede establecer una imagen de fondo en el nivel de columna, pero esto no se suele utilizar.
 
-### Ejemplo: ajuste de la alineación vertical y el margen {#example--adjusting-vertical-alignment-and-padding}
+### Ejemplo: ajuste de la alineación vertical y el relleno {#example--adjusting-vertical-alignment-and-padding}
 
 Desea ajustar el margen y la alineación vertical dentro de un componente de estructura compuesto por tres columnas. Para realizar esto, siga los pasos a continuación:
 
