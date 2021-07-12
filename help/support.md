@@ -7,13 +7,12 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 hidefromtoc: true
-feature: Help and support options
-role: Business Practitioner
+feature: Opciones de ayuda y asistencia técnica
+role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 100%
 
@@ -131,4 +130,4 @@ La creación de un caso le permite ponerse en contacto con el equipo de Asistenc
 
 Para registrar un problema o iniciar una sesión de chat en el nuevo sistema, conéctese a [Adobe Admin Console](https://adminconsole.adobe.com/overview).
 
-Siga el procedimiento detallado descrito en [esta página](https://helpx.adobe.com/es/enterprise/admin-guide.html).
+Siga el procedimiento detallado descrito en [esta página](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
