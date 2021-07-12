@@ -6,17 +6,16 @@ description: Administre los operadores de Adobe Campaign mediante las funciones,
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Access Management
-role: Administrator
+feature: Administración de acceso
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6aa53aa9-aa5c-4b29-ad84-d983da241ceb
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 98%
+source-wordcount: '228'
+ht-degree: 100%
 
 ---
-
 
 # Acerca de la administración de acceso{#about-access-management}
 
@@ -48,4 +47,3 @@ Los usuarios se administran en Admin Console (consulte la sección [Administraci
 * [Unidades organizativas](../../administration/using/organizational-units.md)
 * [Lista de funciones](../../administration/using/list-of-roles.md)
 * [Administración de grupos y usuarios](../../administration/using/managing-groups-and-users.md)
-
