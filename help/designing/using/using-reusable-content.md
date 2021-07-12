@@ -6,13 +6,13 @@ description: Empiece a crear contenido de correo electrónico reutilizable con e
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: Diseño de correo electrónico
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1824'
+source-wordcount: '1821'
 ht-degree: 1%
 
 ---
@@ -143,7 +143,7 @@ Para utilizarla, cree un correo electrónico y seleccione la plantilla de conten
 * [Vídeo de introducción al Diseñador de correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md#video)
 * [Diseño del contenido de un correo electrónico desde cero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
-### Vídeo tutorial {#video}
+### Tutorial en vídeo {#video}
 
 Este vídeo muestra cómo crear su propia plantilla.
 
@@ -245,7 +245,7 @@ Este fragmento ahora se puede utilizar en cualquier correo electrónico creado c
 >
 >No se pueden insertar campos de personalización dentro de un fragmento a menos que se utilicen en un correo electrónico y se desbloqueen. Consulte [Acerca de los fragmentos](#about-fragments).
 
-### Guardar contenido como un fragmento {#saving-content-as-a-fragment}
+### Guardado de contenido como fragmento {#saving-content-as-a-fragment}
 
 Al editar un correo electrónico con el Diseñador de correo electrónico, puede guardar directamente parte de ese correo como fragmento.
 
