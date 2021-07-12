@@ -6,17 +6,16 @@ description: Descubra cómo definir la línea de asunto y el remitente de un cor
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: Diseño de correo electrónico
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 22112517-40f7-4966-84bf-40794e5d0f79
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '340'
 ht-degree: 12%
 
 ---
-
 
 # Definición del asunto y del remitente de un correo electrónico{#defining-the-subject-line-of-an-email}
 
@@ -56,6 +55,6 @@ Para definir el nombre del remitente que aparece en el encabezado de los mensaje
 
 **Temas relacionados:**
 
-* [Inserción de un campo de personalización](../../designing/using/personalization.md#inserting-a-personalization-field).
+* [Inserción de un campo de personalización.](../../designing/using/personalization.md#inserting-a-personalization-field)
 * [Añadir un bloque de contenido](../../designing/using/personalization.md#adding-a-content-block)
 * [Definición de contenido dinámico en un correo electrónico](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
