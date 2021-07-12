@@ -6,17 +6,16 @@ description: '“Aprenda a desplazarse por el espacio de trabajo de Adobe Campai
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: Overview
-role: Business Practitioner
+feature: Información general
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1290'
 ht-degree: 92%
 
 ---
-
 
 # Descripción de la interfaz{#interface-description}
 
@@ -65,7 +64,7 @@ Los principios de navegación son:
 * El icono **Notificaciones** muestra la información o las alertas más recientes.
 * El icono **Usuario** le permite ver información vinculada a su perfil. Utilice este icono si necesita **[!UICONTROL Sign out]**.
 
-### Ayuda de {#help}
+### Ayuda {#help}
 
 La barra superior es visible en todas las pantallas y le permite navegar por las funciones de Adobe Campaign, así como acceder al perfil de Adobe conectado, a las notificaciones, a otros servicios y soluciones de Adobe Experience Cloud y a la documentación.
 
