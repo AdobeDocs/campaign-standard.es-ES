@@ -6,13 +6,13 @@ description: Empiece a crear contenido de correo electrónico con el Diseñador 
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: Diseño de correo electrónico
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 47f53290-2190-4181-bcd5-e60287189c41
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '926'
 ht-degree: 6%
 
 ---
@@ -25,12 +25,12 @@ Puede crear un correo electrónico [que comience de nuevo en el Diseñador de co
 
 1. Puede **crear un correo electrónico a partir de un lienzo en blanco** añadiendo fácilmente componentes de estructura y contenido y personalizando su contenido para realizar un envío rápidamente. También puede administrar completamente los elementos de estilo. Para obtener más información, [comience rápidamente](#from-scratch-email) o consulte la [documentación completa](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 
-1. Puede **crear un correo electrónico a partir de una plantilla predeterminada** seleccionando una plantilla y creando su nuevo contenido de correo electrónico desde aquí. [Obtenga más información](#building-content-from-an-out-of-the-box-template)
+1. Puede **crear un correo electrónico a partir de una plantilla predeterminada** seleccionando una plantilla y creando su nuevo contenido de correo electrónico desde aquí. [Más información](#building-content-from-an-out-of-the-box-template)
 
 También puede crear un correo electrónico [con contenido existente](#with-existing-content):
 
-1. Puede **convertir un contenido HTML existente** (creado externamente o en el editor heredado). [Obtenga más información](#converting-an-html-content)
-1. Puede **importar de inmediato un contenido HTML existente** en modo de compatibilidad. [Obtenga más información](#compatibility-mode)
+1. Puede **convertir un contenido HTML existente** (creado externamente o en el editor heredado). [Más información](#converting-an-html-content)
+1. Puede **importar de inmediato un contenido HTML existente** en modo de compatibilidad. [Más información](#compatibility-mode)
 
 | Sin contenido | Con contenido |
 |---|---|
