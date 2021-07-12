@@ -7,17 +7,16 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
-feature: Control Groups
-role: Business Practitioner
+feature: Grupos de control
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1516'
 ht-degree: 5%
 
 ---
-
 
 # Prueba de mensajes de correo electrónico con perfiles de destino {#testing-message-profiles}
 
@@ -270,7 +269,7 @@ Los pasos principales para este caso de uso son los siguientes:
 
    ![](assets/substitution_uc_proofs.png)
 
-## Vídeo tutorial {#video}
+## Tutorial en vídeo {#video}
 
 Este vídeo muestra cómo probar los mensajes de correo electrónico mediante la sustitución de perfiles.
 
