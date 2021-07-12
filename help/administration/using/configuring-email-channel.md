@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
 feature: Configuración de instancia
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '2598'
 ht-degree: 77%
@@ -252,7 +252,7 @@ Haga clic en el botón a la derecha del campo que se va a cambiar y, a continuac
 
 La inserción y el uso del contenido de personalización se detallan en la documentación [Personalización del contenido del correo electrónico](../../designing/using/personalization.md).
 
-#### Contexto de direccionamiento{#target-context}
+#### Contexto de direccionamiento {#target-context}
 
 El contexto de direccionamiento le permite definir un conjunto de tablas que se utilizarán para el direccionamiento (en la pantalla de definición de audiencia) y la personalización (definiendo campos de personalización en el editor de contenido HTML) de correo electrónico.
 
@@ -320,7 +320,7 @@ El número de reintentos se puede cambiar globalmente (póngase en contacto con 
 
 De forma predeterminada, se programan cinco reintentos para el primer día con un intervalo mínimo de una hora, distribuidos en las 24 horas del día. Después de ello, se programa un reintento por día hasta la fecha límite de envío, que se define globalmente en la sección **[!UICONTROL Delivery parameters]** del menú **[!UICONTROL Configuration]** o en la sección **[!UICONTROL Validity period]** en el nivel de envío (consulte la sección [Duración de envío](#legacy-delivery-duration) a continuación).
 
-### Duración del envío {#legacy-delivery-duration}
+### Duración de la entrega {#legacy-delivery-duration}
 
 El parámetro **[!UICONTROL Message delivery duration]** del [menú de configuración](#email-channel-parameters) le permite especificar el lapso de tiempo en el que se reintentará cualquier mensaje del envío que detecte un error temporal o una devolución del mensaje.
 
