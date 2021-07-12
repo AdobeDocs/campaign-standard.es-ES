@@ -1,24 +1,23 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Devolver al remitente
+title: Devolución al remitente
 description: Obtenga información sobre cómo recibir notificaciones de una dirección incorrecta y excluirla de futuras comunicaciones.
 audience: channels
 content-type: reference
 topic-tags: direct-mail
-feature: Direct Mail
-role: Business Practitioner
+feature: Correo directo
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6783aa68-7fd7-4f53-86bf-853c0fea5899
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '216'
 ht-degree: 3%
 
 ---
 
-
-# Devolver al remitente{#return-to-sender}
+# Devolución al remitente{#return-to-sender}
 
 Se admiten los intercambios de archivos planos con proveedores de correo postal que incorporan la información de retorno al remitente. Esto permite excluir las direcciones postales correspondientes de futuras comunicaciones. Esto también le permite recibir notificaciones de una dirección incorrecta y comunicarse con el cliente a través de otros canales o animarlo a actualizar su dirección postal.
 
