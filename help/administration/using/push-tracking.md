@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Instance Settings
-role: Administrator
+feature: Configuración de instancia
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '951'
 ht-degree: 1%
 
 ---
-
 
 # Implementación del seguimiento push {#push-tracking}
 
@@ -37,7 +36,7 @@ El seguimiento push se divide en tres tipos:
 
 * **Apertura push** : cuando se envía una notificación push al dispositivo y el usuario ha hecho clic en la notificación que provoca que la aplicación se abra.  Esto es similar al clic push , excepto que no se activará un push Open si se descarta la notificación.
 
-Para implementar el seguimiento para Campaign Standard, la aplicación móvil debe incluir el SDK móvil. Estos SDK están disponibles en Adobe Mobile Services. Para obtener más información, consulte [esta página](../../administration/using/configuring-a-mobile-application.md).
+Para implementar el seguimiento para Campaign Standard, la aplicación móvil debe incluir el SDK móvil. Estos SDK están disponibles en Adobe Mobile Services. Para obtener más información, consulte esta [página](../../administration/using/configuring-a-mobile-application.md).
 
 Para enviar la información de seguimiento hay tres variables que se deben enviar. Dos que son parte de los datos recibidos del Campaign Standard y una variable de acción que dicta si es una **Impresión**, **Clic** o **Abrir**.
 
