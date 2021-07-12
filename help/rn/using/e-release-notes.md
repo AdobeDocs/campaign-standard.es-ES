@@ -4,12 +4,13 @@ product: campaign
 title: Notas de la versión anteriores
 description: Notas de la versión anteriores
 feature: Información general
-role: Business Practitioner
+role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 7eb12fbb89f677eb7184cb5ff200d3f8a466d3c8
-workflow-type: ht
+exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 100%
 
@@ -75,7 +76,7 @@ Esta página describe las nuevas funciones, mejoras y correcciones incluidas en 
 
 * Se ha corregido un problema que podía mostrar un mensaje de error al intentar editar, eliminar o enviar un informe personalizado. (CAMP-47789, CAMP-47798)
 
-* Se ha corregido un problema que provocaba que las llamadas de API dieron error al crear un nuevo recurso personalizado y habilitar la opción **No sincronizar**. (CAMP-48014)
+* Se ha corregido un problema que provocaba que las llamadas de API fallaran al crear un nuevo recurso personalizado y habilitar la opción **No sincronizar**. (CAMP-48014)
 
 * Se ha corregido un problema por el cual los recursos personalizados con la opción **No sincronizar** habilitada podían hacer referencia a un esquema que se había vuelto a redactar o eliminado. Este problema provocaba un error al publicar los recursos personalizados.
 
