@@ -6,17 +6,16 @@ description: La exclusión hace que un perfil ya no se tenga en cuenta para los 
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
-feature: Audiences
-role: Business Practitioner
+feature: Audiencias
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ccb35aeb-2b32-4444-969b-50021111a0d6
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '221'
 ht-degree: 9%
 
 ---
-
 
 # Acerca de la inclusión y la exclusión en Campaign{#about-opt-in-and-opt-out-in-campaign}
 
