@@ -7,17 +7,16 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: readAudience,main;audience,overview;delivery,audience,back
-feature: Audiences
-role: Business Practitioner
+feature: Audiencias
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b40e4f6f-34bb-40f9-80e8-e9f1bce5548c
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 99%
+source-wordcount: '970'
+ht-degree: 100%
 
 ---
-
 
 # Creación de audiencias{#creating-audiences}
 
@@ -147,4 +146,3 @@ La fecha de vencimiento ya estará configurada. En cuanto llegue la fecha, la au
 Si necesita eliminar una audiencia, simplemente puede seleccionar una o varias audiencias y luego hacer clic en el botón **[!UICONTROL Delete element]**.
 
 ![](assets/audience_delete_1.png)
-
