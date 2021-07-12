@@ -6,17 +6,16 @@ description: Siga estos pasos para configurar un proceso de inclusión doble med
 audience: channels
 content-type: reference
 topic-tags: landing-pages
-feature: Landing Pages
-role: Business Practitioner
+feature: Páginas de destino
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 188b1750-e062-4328-9829-6f2848356b5c
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1152'
 ht-degree: 90%
 
 ---
-
 
 # Configuración de un proceso de inclusión doble{#setting-up-a-double-opt-in-process}
 
