@@ -6,17 +6,16 @@ description: Descubra cómo administrar vínculos con el Diseñador de correo el
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: Diseño de correo electrónico
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d1714101-bad0-40c1-8d60-90469d033197
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '594'
 ht-degree: 10%
 
 ---
-
 
 # Adición de vínculos {#links}
 
@@ -72,7 +71,7 @@ Al editar un correo electrónico con el [Diseñador de correo electrónico](../.
 
 **Temas relacionados**:
 
-* [Inserción de un campo de personalización](../../designing/using/personalization.md#inserting-a-personalization-field).
+* [Inserción de un campo de personalización.](../../designing/using/personalization.md#inserting-a-personalization-field)
 * [Adición de bloques de contenido](../../designing/using/personalization.md#adding-a-content-block)
 * [Definición del contenido dinámico](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
 
