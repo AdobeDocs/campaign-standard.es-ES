@@ -9,19 +9,18 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
-feature: Privacy
-role: Business Practitioner
+feature: Privacidad
+role: User
 level: Intermediate
 exl-id: 8f8ce032-5cff-44d3-9d3b-52511dbcaaab
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '814'
 ht-degree: 100%
 
 ---
 
-# Preguntas más frecuentes sobre privacidad {#privacy-faq}
+# Preguntas frecuentes sobre privacidad {#privacy-faq}
 
 Estas son algunas de las preguntas más frecuentes sobre Privacidad y consentimiento al usar Adobe Campaign.
 
@@ -33,7 +32,7 @@ Los elementos que se enumeran a continuación vinculan los términos y conceptos
 
 * [Regulaciones sobre administración de la privacidad](../../start/using/privacy-management.md#privacy-management-regulations)
 * [Datos personales y personas](../../start/using/privacy.md#personal-data)
-* [Consulte Derecho de acceso y Derecho a ser olvidado](../../start/using/privacy-management.md#right-access-forgotten)
+* [Derecho de acceso y Derecho a ser olvidado](../../start/using/privacy-management.md#right-access-forgotten)
 * [Consentimiento, retención y funciones](../../start/using/privacy-management.md#consent-retention-roles)
 
 ## Preparación de las regulaciones de privacidad {#privacy-regulations-readiness}
