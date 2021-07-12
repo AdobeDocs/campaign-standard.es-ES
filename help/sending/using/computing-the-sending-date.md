@@ -6,17 +6,16 @@ description: Descubra cómo enviar un mensaje en una fecha y hora específicas.
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-feature: Performance Monitoring
-role: Business Practitioner
+feature: Supervisión del rendimiento
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 7a0cd10a-24e6-44d1-842c-2067bfbac838
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '1000'
 ht-degree: 7%
 
 ---
-
 
 # Cálculo de la fecha de envío{#computing-the-sending-date}
 
@@ -178,4 +177,3 @@ Puede programar esto mediante un flujo de trabajo.
 * El segundo segmento recibirá el mensaje dos horas más tarde (25 de mayo a las 10:00 AM).
 * El tercer segmento recibirá el mensaje seis horas después (25 de mayo a las 2:00 pm).
 * El cuarto segmento recibirá el mensaje ocho horas más tarde (25 de mayo a las 4:00 pm).
-
