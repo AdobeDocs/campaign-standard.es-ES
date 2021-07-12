@@ -7,19 +7,18 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: Mensajería transaccional
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 4cea7207-469c-46c5-9921-ae2f8f12d141
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '742'
 ht-degree: 63%
 
 ---
 
-
-# Ejecución y monitorización de mensajería transaccional {#transactional-messaging-execution}
+# Ejecución y monitorización de la mensajería transaccional {#transactional-messaging-execution}
 
 ## Entrega de ejecución de mensajes transaccionales {#transactional-message-execution-delivery}
 
@@ -60,7 +59,7 @@ Una vez asignado el evento a un envío de ejecución, el mensaje transaccional p
 >
 >Cuando se asigna un evento a un envío de ejecución, aparece en los registros de este envío de ejecución y solo en este momento. Los envíos fallidos se muestran en la pestaña **[!UICONTROL Execution list]** de los registros de envío de mensajes transaccionales.
 
-### Limitaciones del proceso de reintentos {#limitations}
+### Limitaciones del proceso de reintento {#limitations}
 
 **Envío de la actualización de registros**
 
@@ -72,7 +71,7 @@ No se puede detener un envío de ejecución. Sin embargo, si falla el envío de 
 
 Si algunos eventos ya asignados a un envío de ejecución se han pospuesto como parte del proceso de reintentos y si ese envío de ejecución falla, el sistema de reintentos no asigna los eventos pospuestos al nuevo envío de ejecución, lo que significa que estos eventos se pierden. Compruebe los [delivery logs](#monitoring-transactional-message-delivery) para ver los destinatarios que pueden haber sido afectados.
 
-## Monitorización de mensajes transaccionales {#monitoring-transactional-message-delivery}
+## Supervisión de mensajes transaccionales {#monitoring-transactional-message-delivery}
 
 Para monitorizar un mensaje transaccional, debe acceder a los [envíos de ejecución](#transactional-message-execution-delivery) correspondientes.
 
@@ -94,7 +93,7 @@ Para monitorizar un mensaje transaccional, debe acceder a los [envíos de ejecuc
 
    Para cada entrega de ejecución, puede consultar los registros de envío como lo haría para una entrega estándar. Para obtener más información sobre el acceso y el uso de los registros, consulte [Monitorización de un envío](../../sending/using/monitoring-a-delivery.md).
 
-### Características específicas del mensaje transaccional basado en perfiles {#profile-transactional-message-monitoring}
+### Características específicas de los mensajes transaccionales basados en perfiles {#profile-transactional-message-monitoring}
 
 Para los mensajes transaccionales basados en perfiles, puede monitorizar la siguiente información de perfil.
 
@@ -114,5 +113,5 @@ Esta regla forma parte de una tipología específica que se aplica a todos los m
 
 **Temas relacionados**:
 
-* [Información sobre las tipologías y reglas de tipología](../../sending/using/about-typology-rules.md)
+* [Acerca de las tipologías y reglas de tipología](../../sending/using/about-typology-rules.md)
 * [Seguimiento de una entrega](../../sending/using/monitoring-a-delivery.md)
