@@ -7,17 +7,16 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: '"Cuando tenga preparado el contenido, aprenda cómo definir cuidadosamente quién recibirá el mensaje".'
-feature: Deliverability
-role: Business Practitioner
+feature: Entrega
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 1e06fd9d-e850-4856-8f7b-b581dbe157df
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 74%
+source-wordcount: '517'
+ht-degree: 75%
 
 ---
-
 
 # Definición de la audiencia correcta {#define-the-right-audience}
 
