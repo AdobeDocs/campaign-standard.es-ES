@@ -6,21 +6,20 @@ description: Obtenga información sobre cómo editar perfiles existentes y acced
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-feature: Profiles
-role: Business Practitioner
+feature: Perfiles
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d0c7dc09-6f2b-4336-b545-7afe3a704164
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '315'
 ht-degree: 8%
 
 ---
 
-
 # Edición de perfiles{#editing-profiles}
 
-## Acceso a las propiedades de perfil {#accessing-profile-properties}
+## Acceso a las propiedades del perfil {#accessing-profile-properties}
 
 Para editar un perfil existente y consultar los datos asociados a él, o modificarlo, los pasos son los siguientes:
 
@@ -40,12 +39,12 @@ Para editar un perfil existente y consultar los datos asociados a él, o modific
 
 La edición de perfiles también es posible mediante la API de Adobe Campaign Standard. Para obtener más información, consulte la [documentación específica](../../api/using/updating-profiles.md).
 
-Tema relacionado:
+Temas relacionados:
 
-* [Integrated Customer Profile](../../audiences/using/integrated-customer-profile.md)
+* [Perfil de cliente integrado](../../audiences/using/integrated-customer-profile.md)
 * [Envío en el huso horario del destinatario](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)
 
-## Datos generales de perfil {#general-profile-data}
+## Datos de perfil generales {#general-profile-data}
 
 La pestaña **[!UICONTROL General]** agrupa la siguiente información sobre el perfil:
 
