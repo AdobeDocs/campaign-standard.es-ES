@@ -6,17 +6,16 @@ description: Siga estos pasos para crear un correo electrónico de un solo enví
 audience: channels
 content-type: reference
 topic-tags: email-messages
-feature: Email
-role: Business Practitioner
+feature: Correo electrónico
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 4483e469-0a2b-494d-b768-950168759727
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 20%
+source-wordcount: '557'
+ht-degree: 21%
 
 ---
-
 
 # Creación de un correo electrónico{#creating-an-email}
 
@@ -97,7 +96,7 @@ Puede crear un correo electrónico desde una [campaña](../../start/using/market
 * [Integración de Adobe Campaign y Dreamweaver](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 * [Integración con Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
 
-## Vídeo tutorial {#video}
+## Tutorial en vídeo {#video}
 
 Este vídeo muestra cómo crear un correo electrónico.
 
