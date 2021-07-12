@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 feature: Configuración de instancia
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: ea936128-1c51-483d-914c-6d06708456d6
-source-git-commit: f849e668cffaaca05261f0b91726a350a47676e4
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '8666'
 ht-degree: 86%
@@ -23,7 +23,7 @@ ht-degree: 86%
 >
 >El protocolo del conector **SMS y la configuración** para Adobe Campaign Classic se encuentran en esta [página](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html).
 >
->A través de este documento, todas las referencias a los detalles sobre el protocolo, los nombres de campo y los valores se refieren a la [especificación SMPP 3.4](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
+>En este documento, todas las referencias a los detalles acerca del protocolo, los nombres de campo y los valores se refieren a la [especificación SMPP 3.4](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
 
 ## Información general {#overview}
 
@@ -816,7 +816,7 @@ Este es el proceso aplicado a cada SR:
 
 La comprobación de los pasos anteriores requiere **Habilitar los trazos detallados de SMPP** para comprobar manualmente que todos los pasos se aplican correctamente. Esto es necesario cada vez que Adobe Campaign se conecta a un nuevo proveedor SMPP.
 
-## Antes de empezar a usar {#checklist}
+## Antes de empezar a usarlo {#checklist}
 
 Esta lista de verificación le proporciona una lista de las cosas que debe comprobar antes de empezar a usarlo. Una configuración incompleta puede provocar muchos problemas.
 
@@ -833,7 +833,7 @@ Si necesita tener varias cuentas en la misma instancia de Adobe Campaign que se 
 Siempre debe habilitar los seguimientos detallados del SMPP durante las comprobaciones.
 Incluso si no puede comprobar los registros usted mismo, será más fácil para la asistencia técnica ayudarle.
 
-### Pruebe su SMS {#test}
+### Prueba de SMS {#test}
 
 * **Envíe SMS con todo tipo de caracteres**
 Si necesita enviar un SMS con caracteres que no sean GSM o ASCII, intente enviar algunos mensajes con tantos caracteres diferentes como sea posible. Si configura una tabla de asignación de caracteres personalizada, envíe al menos un SMS para todos los posibles 
