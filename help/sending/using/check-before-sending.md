@@ -7,17 +7,16 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: '"Una vez que el mensaje esté listo, aprenda a realizar todas las comprobaciones antes de enviar"'
-feature: Deliverability
-role: Business Practitioner
+feature: Entrega
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: dfc5fc00-87aa-4d22-ad7c-cc0ba1ee21be
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 89%
+source-wordcount: '411'
+ht-degree: 90%
 
 ---
-
 
 # Realice todas las comprobaciones necesarias antes de enviar {#perform-all-checks}
 
@@ -64,4 +63,3 @@ Si tiene varios contenidos para un envío de correo electrónico, puede utilizar
 * Seleccione el que tenga la tasa de éxito más alta y envíelo al resto de destinatarios
 
 Obtenga más información [en esta sección](../../channels/using/designing-an-a-b-test-email.md).
-
