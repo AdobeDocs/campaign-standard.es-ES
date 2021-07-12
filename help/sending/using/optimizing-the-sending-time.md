@@ -6,17 +6,16 @@ description: Aprenda a configurar el tiempo de envío y mejorar la velocidad de 
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-feature: Send Time Optimization
-role: Business Practitioner
+feature: Optimización del tiempo de envío
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: f35b46c6-de88-4efa-b3b7-8bb9024e40a8
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 97%
+source-wordcount: '275'
+ht-degree: 98%
 
 ---
-
 
 # Optimización del tiempo de envío{#optimizing-the-sending-time}
 
@@ -46,4 +45,3 @@ Hay varias opciones disponibles:
 * **[!UICONTROL Send at a custom date defined by a formula]**: cada destinatario recibe el mensaje en la fecha y hora configuradas por la fórmula especificada.
 
    Consulte [Cálculo de la fecha de envío](../../sending/using/computing-the-sending-date.md).
-
