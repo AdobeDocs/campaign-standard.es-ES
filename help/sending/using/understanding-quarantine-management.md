@@ -6,17 +6,16 @@ description: Aprenda a optimizar la capacidad de entrega con la gestión de la c
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-feature: Deliverability
-role: Business Practitioner
+feature: Entrega
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 83%
+source-wordcount: '782'
+ht-degree: 84%
 
 ---
-
 
 # Comprensión de la gestión de la cuarentena{#understanding-quarantine-management}
 
@@ -94,4 +93,3 @@ La cuarentena en Adobe Campaign distingue entre mayúsculas y minúsculas. Aseg�
 En la lista de direcciones en cuarentena (consulte [Identificación de direcciones en cuarentena para toda la plataforma](#identifying-quarantined-addresses-for-the-entire-platform)), el campo **[!UICONTROL Error reason]** indica por qué la dirección seleccionada se colocó en cuarentena.
 
 ![](assets/quarantines2.png)
-
