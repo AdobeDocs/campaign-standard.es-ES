@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 feature: Configuración de instancia
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 7%
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 # Configuración de una aplicación móvil{#configuring-a-mobile-application}
 
-## Configuración de una aplicación móvil mediante los SDK de Adobe Experience Platform {#using-adobe-experience-platform-sdk}
+## Configuración de una aplicación móvil mediante los SDK para Adobe Experience Platform {#using-adobe-experience-platform-sdk}
 
 >[!IMPORTANT]
 >
@@ -164,7 +164,7 @@ La aplicación móvil ya está lista para su uso en Campaign para notificaciones
 
 1. Haga clic en la pestaña **[!UICONTROL Mobile application subscribers]** para ver una lista de suscriptores y otra información sobre estos suscriptores, por ejemplo, si han excluido sus notificaciones.
 
-## Eliminando la aplicación de Adobe Experience Platform Launch {#delete-app}
+## Eliminación de la aplicación Adobe Experience Platform Launch {#delete-app}
 
 No se puede deshacer la eliminación de la aplicación Experience Platform Launch.
 
