@@ -7,18 +7,18 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
-feature: Páginas de aterrizaje
-role: Business Practitioner
+feature: Páginas de destino
+role: User
 level: Intermediate
 exl-id: 7083447c-4cac-41cb-8453-369819e0c7c1
-source-git-commit: d84a11d4064938792a2e2c365b6085c263f55648
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '613'
-ht-degree: 62%
+ht-degree: 63%
 
 ---
 
-# Administración de datos de formulario de una página de aterrizaje{#managing-landing-page-form-data}
+# Administración de datos de formulario de una página de destino{#managing-landing-page-form-data}
 
 ## Cambio de las propiedades de datos de un formulario de una página de aterrizaje{#changing-a-landing-page-form-data-properties}
 
@@ -63,7 +63,7 @@ Para ello:
 1. Defina el **[!UICONTROL Form parameter mapping]**: esta sección le permite asignar los parámetros del campo de página de aterrizaje y los que se utilizan en la clave de reconciliación.
 1. Seleccione la **[!UICONTROL Update strategy]**: si la clave de reconciliación recupera un perfil existente en la base de datos, puede elegir que este perfil se actualice con los datos introducidos en el formulario o evitar esta actualización.
 
-## Casilla de verificación de acuerdo {#agreement-checkbox}
+## Casilla de verificación Acuerdo {#agreement-checkbox}
 
 Puede añadir una casilla de verificación que el perfil debe marcar antes de enviar la página de aterrizaje.
 
