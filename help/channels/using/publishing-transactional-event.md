@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: Mensajería transaccional
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6bcd8dcd-d710-4ca3-937d-bf4339f36069
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '609'
 ht-degree: 8%
 
 ---
-
 
 # Publicación de un evento transaccional {#publishing-transactional-event}
 
