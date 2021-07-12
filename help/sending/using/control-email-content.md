@@ -7,17 +7,16 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Deliverability
-role: Business Practitioner
+feature: Entrega
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: debbc70d-4094-44c0-b7cb-c999effda1a6
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 28%
+source-wordcount: '791'
+ht-degree: 54%
 
 ---
-
 
 # Control del contenido del correo electrónico{#control-email-content}
 
@@ -27,15 +26,15 @@ Para asegurarse de que los mensajes de correo electrónico llegan a los destinat
 
 Siga los principios que se enumeran a continuación al diseñar el contenido del mensaje:
 
-* [Nombre y dirección](#sender-name) del remitente: la dirección debe identificar explícitamente al remitente. El dominio debe ser propiedad del remitente y estar registrado en él. El registro de dominios no debe privatizarse.
+* [Nombre y dirección](#sender-name) del remitente: la dirección debe identificar explícitamente al remitente. El dominio debe ser propiedad del remitente y estar registrado por él. El registro de dominios no debe privatizarse.
 
    <!--**Subject**: Avoid excessive capitalization and punctuation, and words that are frequently used by spammers ("Win", "Free", etc.).-->
 * [Personalización y optimización](#perso-send-time-optimization) del tiempo de envío: la personalización del contenido y la definición de una hora de envío por destinatario aumentan las posibilidades de que se abra el mensaje.
 * Imágenes y texto: respete una proporción de texto/imagen adecuada (por ejemplo, 60 % de texto y 40 % de imágenes).
-* [Vínculo de baja de ](#opt-out) suscripción y página de aterrizaje: el vínculo de baja es esencial. Debe ser visible y válido, y el formulario debe ser funcional.
+* [Vínculo de baja de suscripción](#opt-out) y página de aterrizaje: el vínculo de baja es esencial. Debe ser visible y válido, y el formulario debe ser funcional.
 * Vista previa: utilice las herramientas que ofrece Adobe Campaign para comprobar y optimizar el contenido de su correo electrónico ([Anti-spam analysis](#anti-spam-analysis), [Email rendering](#message-responsiveness)).
 
-Para obtener sugerencias adicionales para optimizar la capacidad de entrega al diseñar contenido, consulte la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html).
+Para obtener sugerencias adicionales para optimizar la capacidad de entrega al diseñar contenido, consulte la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html?lang=es).
 
 >[!NOTE]
 >
@@ -43,7 +42,7 @@ Para obtener sugerencias adicionales para optimizar la capacidad de entrega al d
 
 ## Nombre y dirección del remitente {#sender-name}
 
-Algunos ISP comprueban la validez de la dirección del remitente (**[!UICONTROL From]**) antes de aceptar mensajes. Una dirección mal formada puede resultar en que el servidor receptor la rechace.
+Algunos ISP verifican la validez de la dirección del remitente (**[!UICONTROL From]**) antes de aceptar mensajes. Una dirección mal formada puede hacer que el servidor receptor la rechace.
 
 ![](assets/delivery_content_edition16.png)
 
@@ -51,7 +50,7 @@ Debe asegurarse de proporcionar una dirección correcta en el nivel de instancia
 
 Para obtener más información, consulte [Definición del remitente de correo electrónico de un correo electrónico](../../designing/using/subject-line.md#email-sender).
 
-## Optimización del tiempo de envío y personalización {#perso-send-time-optimization}
+## Personalización y optimización del tiempo de envío {#perso-send-time-optimization}
 
 Para mejorar la experiencia de los destinatarios y hacer que abran su correo electrónico, Adobe Campaign le permite personalizar sus mensajes. Para obtener más información, consulte [esta sección](../../designing/using/personalization.md).
 
@@ -61,7 +60,7 @@ Para aumentar la tasa de apertura de los mensajes, también puede definir manual
 
 De forma predeterminada, cuando se analiza el mensaje, una regla de tipología comprueba si se ha incluido un vínculo de exclusión y genera una advertencia si falta. Para obtener más información sobre la administración de vínculos, consulte [esta sección](../../designing/using/links.md).
 
-Debe comprobar que el vínculo de exclusión funciona correctamente antes de cada envío. Por ejemplo, al [enviar la prueba](../../sending/using/sending-proofs.md), asegúrese de que el vínculo sea válido, de que el formulario esté en línea y de que al validarlo se comprueben las casillas **[!UICONTROL No longer contact]**. Debe realizar esta comprobación sistemáticamente porque siempre es posible el error humano al introducir el vínculo o al cambiar el formulario. Para obtener más información sobre la administración de la inclusión y la exclusión, consulte [esta sección](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md).
+Debe comprobar que el vínculo de exclusión funciona correctamente antes de cada envío. Por ejemplo, al [enviar la prueba](../../sending/using/sending-proofs.md), asegúrese de que el vínculo sea válido, de que el formulario esté en línea y de que al validarlo se comprueben las casillas **[!UICONTROL No longer contact]**. Debe realizar esta comprobación sistemáticamente porque siempre puede haber errores humanos al introducir el vínculo o al cambiar el formulario. Para obtener más información sobre la administración de la inclusión y la exclusión, consulte [esta sección](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md).
 
 ![](assets/optin_landingpage_3.png)
 
@@ -81,7 +80,7 @@ En el editor de contenido del mensaje, haga clic en **[!UICONTROL Preview]**. Un
 
 ## Procesamiento de correo electrónico {#message-responsiveness}
 
-Antes de enviar el mensaje, puede probar la capacidad de respuesta comprobando el aspecto que tendrá el mensaje en diferentes dispositivos. Esto sirve para asegurarse de que se muestre de una manera óptima en una variedad de clientes, correos y dispositivos web.
+Antes de enviar el mensaje, puede probar la capacidad de respuesta comprobando el aspecto que tendrá el mensaje en diferentes dispositivos. Esto le permite asegurarse de que su mensaje se mostrará de una forma óptima en una gran variedad de clientes, correos web y dispositivos.
 
 ![](assets/inbox_rendering_report_3.png)
 
