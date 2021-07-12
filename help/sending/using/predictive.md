@@ -6,17 +6,16 @@ description: Aprenda a utilizar la puntuación de tiempo de envío y de particip
 audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
-feature: Send Time Optimization
-role: Business Practitioner
+feature: Optimización del tiempo de envío
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1067'
 ht-degree: 97%
 
 ---
-
 
 # Optimización del diseño y el envío con correos electrónicos con tecnología de IA{#journey-ai}
 
@@ -153,26 +152,3 @@ Con una actividad de consulta en un flujo de trabajo, puede utilizar la puntuaci
 Por ejemplo, con los criterios de **nivel de retención:** 
 
 ![](assets/do-not-localize/predictive_score_query.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
