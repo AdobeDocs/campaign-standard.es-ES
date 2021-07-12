@@ -6,17 +6,16 @@ description: Descubra cómo diseñar correos electrónicos desde cero contenido 
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: Diseño de correo electrónico
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1241'
 ht-degree: 2%
 
 ---
-
 
 # Diseño de correos electrónicos desde cero {#designing-an-email-content-from-scratch}
 
