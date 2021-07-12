@@ -6,17 +6,16 @@ description: Descubra cómo utilizar los correos electrónicos creados en el cor
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: Diseño de correo electrónico
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 2b024052-ed42-44f3-9990-be7425cc79d7
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '440'
 ht-degree: 8%
 
 ---
-
 
 # Conversión del contenido de correo electrónico del editor heredado {#converting-an-html-content}
 
@@ -49,7 +48,7 @@ Este caso de uso le permite crear una plantilla de Diseñador de correo electró
 1. Añada un componente HTML a cada componente de estructura. Para obtener más información, consulte [Añadir fragmentos y componentes](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Copie y pegue su HTML en cada componente.
 
-## Administre el estilo de su correo electrónico {#manage-the-style-of-your-email}
+## Administrar el estilo del correo electrónico {#manage-the-style-of-your-email}
 
 1. Cambie a **[!UICONTROL Mobile view]**. Para obtener más información, consulte [esta sección](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
@@ -79,7 +78,7 @@ Este caso de uso le permite crear una plantilla de Diseñador de correo electró
 
 1. Vuelva a la vista móvil para comprobar que el contenido se muestra correctamente y guardar los cambios.
 
-## Ejemplo de uso
+## Caso de uso
 
 Intentemos convertir este correo electrónico, creado en el editor heredado, en una plantilla **[!UICONTROL Email Designer]**.
 
