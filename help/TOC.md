@@ -7,9 +7,9 @@ user-guide-description: 'Centro de ayuda para las principales características, 
 title: Guía de Campaign Standard
 breadcrumb-title: Documentación de Adobe Campaign Standard
 source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1790'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ ht-degree: 99%
       + [Acerca de la mensajería en la aplicación](channels/using/about-in-app-messaging.md)
       + [Preparación y envío de un mensaje en la aplicación](channels/using/preparing-and-sending-an-in-app-message.md)
       + [Personalización de un mensaje en la aplicación](channels/using/customizing-an-in-app-message.md)
-      + [Preguntas más frecuentes en la aplicación](channels/using/in-app-faq.md)
+      + [Preguntas frecuentes en la aplicación](channels/using/in-app-faq.md)
    + Correo directo {#direct-mail}
       + [Acerca del correo directo](channels/using/about-direct-mail.md)
       + [Devolución al remitente](channels/using/return-to-sender.md)
