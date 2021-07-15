@@ -10,16 +10,22 @@ feature: Información general
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: c56d0e0ab4496ae769dc504107f677ef6ea74068
 workflow-type: tm+mt
-source-wordcount: '6852'
-ht-degree: 100%
+source-wordcount: '6893'
+ht-degree: 99%
 
 ---
 
 # Actualizaciones de la documentación{#documentation-updates}
 
 Además de las [Notas de la versión](../../rn/using/release-notes.md) de Adobe Campaign, esta página enumera todas las nuevas actualizaciones de la documentación de Adobe Campaign Standard.
+
+## Julio de 2021 {#doc-updates-july-2021}
+
+Se ha añadido una nueva sección para describir cómo permitir a los usuarios suscribirse o cancelar la suscripción de varios servicios desde una sola página de aterrizaje. [Más información](../../channels/using/managing-landing-page-form-data.md#multiple-subscriptions)
+
+Se ha actualizado y aclarado la sección **Administración de los datos del formulario de la página de aterrizaje**. [Más información](../../channels/using/managing-landing-page-form-data.md)
 
 ## Versión 21.2: junio de 2021 {#release-21-2---june-2021}
 
@@ -178,7 +184,7 @@ La configuración de la cuenta Litmus personalizada se ha eliminado de la capaci
 
 La integración de Campaign Standard con Microsoft Dynamics 365 no está disponible actualmente. Se está desarrollando un nuevo conector que estará disponible en el futuro. Se han eliminado las páginas de ayuda relacionadas. [Más información](../../integrating/using/d365-acs-get-started.md)
 
-## Mayo 2020 {#doc-updates-may-2020}
+## Mayo de 2020 {#doc-updates-may-2020}
 
 La página de información general sobre el Campaign Standard se ha enriquecido y reorganizado en temas temáticos. [Más información](../../start/using/about-campaign-standard.md)
 
@@ -206,7 +212,7 @@ Se ha agregado un caso de uso para permitirle convertir correos electrónicos de
 
 Se ha añadido una sección de preguntas frecuentes sobre el Diseñador de correo electrónico. [Más información](../../designing/using/faq-email-designer.md)
 
-## de abril de 2020 {#doc-updates-april-2020}
+## Abril de 2020 {#doc-updates-april-2020}
 
 La integración de Microsoft Dynamics 365 con la documentación de Adobe Campaign Standard ya está disponible en la documentación principal. [Más información](../../integrating/using/d365-acs-get-started.md)
 
