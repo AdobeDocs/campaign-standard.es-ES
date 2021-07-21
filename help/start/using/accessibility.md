@@ -11,7 +11,7 @@ role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
 ht-degree: 100%
 
@@ -77,7 +77,7 @@ Al diseñar un correo electrónico, puede acceder a una información de herramie
 
 ## Soporte para tecnología de asistencia {#screen-magnifiers}
 
-Nos esforzamos por hacer que la aplicación Adobe Campaign Standard sea lo más beneficiosa posible gracias a diversas tecnologías de asistencia, entre las que se incluyen, entre otras, teclados modificados, software de ampliación de pantalla, lectores de pantalla, software de reconocimiento de voz y otros dispositivos de asistencia.
+Nos esforzamos por hacer que la aplicación Adobe Campaign Standard sea lo más sencilla de usar posible gracias a diversas tecnologías de asistencia, entre las que se incluyen, entre otras, teclados modificados, software de ampliación de pantalla, lectores, software de reconocimiento de voz y otros dispositivos de asistencia.
 
 ## Trabaje en su idioma preferido {#languages}
 
