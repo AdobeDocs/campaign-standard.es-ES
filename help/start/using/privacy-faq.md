@@ -14,7 +14,7 @@ role: User
 level: Intermediate
 exl-id: 8f8ce032-5cff-44d3-9d3b-52511dbcaaab
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '814'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 # Preguntas frecuentes sobre privacidad {#privacy-faq}
 
-Estas son algunas de las preguntas más frecuentes sobre Privacidad y consentimiento al usar Adobe Campaign.
+Estas son algunas de las preguntas frecuentes acerca de la privacidad y el consentimiento al usar Adobe Campaign.
 
 ## Términos clave {#key-terms}
 
@@ -105,7 +105,7 @@ Como controlador de datos, tiene la opción de personalizarlos cambiando la inte
 
 Los informes de Adobe Campaign se basan en indicadores calculados a partir de los datos agregados de envíos y registros de seguimiento. Como resultado, la eliminación de los registros individuales no debería afectar a las métricas de los informes.
 
-## Volver a importar datos {#re-import-data}
+## Reimportación de datos {#re-import-data}
 
 **A menudo en Adobe Campaign, el registro se carga desde una fuente de datos externos. ¿Debo tener en cuenta la posibilidad de volver a importar los datos más adelante?**
 
