@@ -6,17 +6,16 @@ description: Encuentre aquí la lista de todos los componentes disponibles en   
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: Reporting
+feature: Creación de informes
 role: Leader
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 8980bf05-60a8-4360-a354-445e1faeb5b2
+source-git-commit: 8062995481a889d8865267e6134efa74648753f6
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1272'
 ht-degree: 3%
 
 ---
-
 
 # Lista de componentes {#list-of-components}
 
@@ -384,10 +383,6 @@ Las tablas siguientes proporcionan la lista de métricas utilizadas en los infor
 
 ## Segmentos {#segments}
 
->[!NOTE]
->
->De forma predeterminada, el segmento **[!UICONTROL Exclude proof]** ya está seleccionado para filtrar los informes, pero se puede cambiar si es necesario.
-
 La siguiente tabla le ofrece la lista de segmentos utilizados en los informes y sus definiciones.
 
 <table> 
@@ -461,11 +456,6 @@ La siguiente tabla le ofrece la lista de segmentos utilizados en los informes y 
   <tr> 
    <td> Todas las visitas<br /> </td> 
    <td> Cada destinatario<br /> </td> 
-  </tr> 
-    <tr> 
-   <td> Excluir prueba<br /> </td> 
-   <td> Excluir pruebas de los informes<br /> </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
-
