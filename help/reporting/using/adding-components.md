@@ -10,9 +10,9 @@ feature: Creación de informes
 role: Leader
 level: Intermediate
 exl-id: 3db44dec-c48a-4903-a4c6-6bfea33fc38a
-source-git-commit: cc464da0e455ae9c95fc3fe3f00bb3e1c6ff22ae
+source-git-commit: 8062995481a889d8865267e6134efa74648753f6
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '280'
 ht-degree: 4%
 
 ---
@@ -31,7 +31,7 @@ Los componentes ayudan a personalizar los informes con diferentes dimensiones, m
 
    * **Dimension**: Obtenga detalles del registro de envíos, como el navegador o dominio del destinatario, o el éxito de una entrega.
    * **Métricas**: Obtenga detalles sobre el estado de un mensaje. Por ejemplo, si se entregó un mensaje y el usuario lo abrió.
-   * **[!UICONTROL Segments]**: Filtre los datos en función del intervalo de edad del destinatario. **[!UICONTROL Segments]** se pueden arrastrar y soltar directamente en una tabla improvisada o en la barra superior del panel. De forma predeterminada, el segmento **[!UICONTROL Exclude proof]** ya está seleccionado, pero se puede cambiar si es necesario.
+   * **[!UICONTROL Segments]**: Filtre los datos en función del intervalo de edad del destinatario. **[!UICONTROL Segments]** se pueden arrastrar y soltar directamente en una tabla improvisada o en la barra superior del panel.
 
       Esta categoría solo está disponible una vez que el administrador haya aprobado los términos y condiciones del Acuerdo de uso de informes dinámicos que se mostrarán en la pantalla. Si el administrador rechaza el acuerdo, los segmentos no serán visibles en la pestaña **[!UICONTROL Components]** y los datos no se recopilarán.
 
