@@ -6,17 +6,16 @@ description: El informe dinámico permite agregar un panel para filtrar mejor lo
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-feature: Reporting
+feature: Creación de informes
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: e48b9630-c5ce-4d5d-90e6-97b77fbe3d50
+source-git-commit: 8062995481a889d8865267e6134efa74648753f6
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 1%
+source-wordcount: '346'
+ht-degree: 2%
 
 ---
-
 
 # Adición de paneles{#adding-panels}
 
@@ -42,25 +41,25 @@ Las tablas improvisadas le permiten crear una tabla para analizar sus datos util
 
 Cada tabla y visualización se puede cambiar de tamaño y se puede mover para personalizar mejor el informe.
 
-1. Haga clic en el icono **Paneles**.
+1. Haga clic en el icono **[!UICONTROL Panels]**.
 
    ![](assets/dynamic_report_panel_1.png)
 
-1. Arrastre y suelte el elemento **Freeform** en el tablero.
+1. Arrastre y suelte el elemento **[!UICONTROL Freeform]** en el tablero.
 
-   También puede agregar una tabla haciendo clic en la ficha **Insertar** y seleccionando **Nueva forma libre** o haciendo clic en **Agregar una tabla de forma libre** en un panel vacío.
+   También puede agregar una tabla haciendo clic en la pestaña **[!UICONTROL Insert]** y seleccionando **[!UICONTROL New Freeform]** o haciendo clic en **[!UICONTROL Add a freeform table]** en un panel vacío.
 
    ![](assets/dynamic_report_panel_2.png)
 
-1. El segmento **[!UICONTROL Exclude proof]** ya está seleccionado de forma predeterminada. Si es necesario, puede cambiarlo arrastrando y soltando uno de los **[!UICONTROL Segments]** de la pestaña **[!UICONTROL Components]** en la barra superior.
+1. En el campo **[!UICONTROL Drop a segment here]**, añada **[!UICONTROL Segment]** de la pestaña **[!UICONTROL Components]** a la barra superior.
 
    ![](assets/dynamic_report_panel_3.png)
 
-1. Arrastre y suelte elementos de la pestaña **Componentes** en las columnas y filas para crear la tabla.
+1. Arrastre y suelte los elementos de la ficha **[!UICONTROL Components]** en las columnas y filas para crear la tabla.
 
    ![](assets/dynamic_report_freeform_3.png)
 
-1. Haga clic en el icono **Settings** para cambiar cómo se muestran los datos en las columnas.
+1. Haga clic en el icono **[!UICONTROL Settings]** para cambiar cómo se muestran los datos en las columnas.
 
    ![](assets/dynamic_report_freeform_4.png)
 
@@ -72,7 +71,7 @@ Cada tabla y visualización se puede cambiar de tamaño y se puede mover para pe
    * **[!UICONTROL Background]**: permite mostrar u ocultar la barra de progreso horizontal en las celdas.
    * **[!UICONTROL Include retries]**: permite incluir reintentos en el resultado. Esto solo está disponible para **[!UICONTROL Sent]** y **[!UICONTROL Bounces + Errors]**.
 
-1. Seleccione una o varias filas y haga clic en el icono **Visualize**. Se añade una visualización para reflejar las filas seleccionadas.
+1. Seleccione una o varias filas y haga clic en el icono **[!UICONTROL Visualize]**. Se añade una visualización para reflejar las filas seleccionadas.
 
    ![](assets/dynamic_report_freeform_5.png)
 
