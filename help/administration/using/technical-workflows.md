@@ -10,10 +10,10 @@ feature: Configuración de instancia
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 8204ed1118b5445420d99dbc0438752a4dc26846
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 92%
+source-wordcount: '719'
+ht-degree: 90%
 
 ---
 
@@ -107,7 +107,12 @@ Los flujos de trabajo técnicos se utilizan para gestionar procesos técnicos y 
    <td> <span class="uicontrol">Recuperar registros de seguimiento</span> <br /> </td> 
    <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
    <td> Este flujo de trabajo restaura los registros de seguimiento perdidos. Tenga en cuenta que este flujo de trabajo técnico se utiliza en contextos específicos y está restringido solo a uso interno de Adobe. <br> De forma predeterminada, se inicia cada 10 minutos.<br /> </td> 
-  </tr> 
+  </tr>
+  <tr> 
+   <td> <span class="uicontrol">Actualización de la ejecución de entrega</span> <br/> </td> 
+   <td> <span class="uicontrol">updateDeliveryExecInfo</span> <br/> </td> 
+   <td> Este flujo de trabajo copia los broadlogs y los registros de seguimiento en la base de datos local. De forma predeterminada, se inicia cada 10 minutos.<br/> </td> 
+  </tr>
   <tr> 
    <td> <span class="uicontrol">Actualización de los indicadores de entrega</span> <br /> </td> 
    <td> <span class="uicontrol">updateDeliveryIndicators</span> <br /> </td> 
