@@ -2,20 +2,20 @@
 solution: Campaign Standard
 product: campaign
 title: Prueba de los activadores
+description: Conozca las sugerencias para la solución de problemas que le ayudarán a solucionar los problemas más comunes que puede encontrar al usar Déclencheur con Adobe Campaign.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-feature: Triggers
+feature: Activadores
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 66628f2a-6ed3-4b12-b2ed-9b9eec440dc3
+source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '464'
 ht-degree: 2%
 
 ---
-
 
 # Prueba de los activadores{#testing-your-triggers}
 
@@ -84,4 +84,3 @@ Si el mensaje no es válido, compruebe los siguientes elementos:
 
 * Para los campos personalizados de enriquecimiento de déclencheur marcados como no válidos, valide la plantilla transaccional de las colecciones eventCusResource asociadas.
 * Validar el formato del mensaje
-
