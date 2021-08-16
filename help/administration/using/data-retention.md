@@ -2,6 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: Retención de datos
+description: Las tablas de registro estándar en Campaign tienen períodos de retención preestablecidos, lo que generalmente limita su almacenamiento de datos a 6 meses o menos. Obtenga información sobre los valores de retención predeterminados para tablas estándar.
 audience: administration
 content-type: reference
 topic-tags: application-settings
@@ -9,10 +10,10 @@ feature: Configuración de instancia
 role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 63%
+source-wordcount: '162'
+ht-degree: 52%
 
 ---
 
