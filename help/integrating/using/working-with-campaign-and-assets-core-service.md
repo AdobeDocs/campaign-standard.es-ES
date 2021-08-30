@@ -6,22 +6,18 @@ description: Utilice todos los recursos compartidos dentro de Adobe Experience C
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-assets-core-service
-feature: Integración del servicio principal People
+feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: 0ef8bbae-03a2-4369-bc57-a56302e0ab21
-source-git-commit: e86cc930f9b6b3f3990f3b16b3d8fd2d19e126b7
+source-git-commit: 92edfbc2b7bb035d311f107b5b4c39f2521b07f6
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 14%
+source-wordcount: '167'
+ht-degree: 20%
 
 ---
 
 # Uso de Campaign y del servicio principal Assets{#working-with-campaign-and-assets-core-service}
-
->[!CAUTION]
->
-> Recursos de Experience Cloud ya se ha retirado del mercado. Para la nueva implementación, ya no puede integrar Recursos de Experience Cloud con Adobe Campaign Standard.
 
 La integración del servicio principal de Assets o de Assets on Demand (según la configuración del entorno de Adobe Experience Cloud) con Adobe Campaign le permite utilizar cualquier recurso que se comparta dentro de Adobe Experience Cloud en los correos electrónicos y páginas de aterrizaje de Adobe Campaign.
 
@@ -41,5 +37,5 @@ A continuación, se inserta la imagen. La entrega ahora se puede personalizar se
 
 **Temas relacionados:**
 
-* [Recursos y uso compartido](https://experienceleague.adobe.com/docs/core-services/interface/assets/experience-cloud-assets.html)
+* [Recursos y uso compartido](https://experienceleague.adobe.com/docs/core-services/interface/assets/experience-cloud-assets.html?lang=es)
 * [Editor de contenido](../../designing/using/personalization.md#example-email-personalization)
