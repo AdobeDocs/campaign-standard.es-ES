@@ -7,14 +7,14 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Mensajería transaccional
+feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
 source-wordcount: '1674'
-ht-degree: 7%
+ht-degree: 6%
 
 ---
 
@@ -34,7 +34,7 @@ Una vez completada la configuración, se debe publicar el evento. Consulte [Publ
 
 Para empezar, cree el evento que corresponda a sus necesidades.
 
-1. Haga clic en el logotipo de **[!UICONTROL Adobe Campaign]**, en la esquina superior izquierda, y luego seleccione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
+1. Haga clic en el logotipo de **Adobe**, en la esquina superior izquierda, y seleccione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. Haga clic en el botón **[!UICONTROL Create]**.
 1. Introduzca un **[!UICONTROL Label]** y un **[!UICONTROL ID]** para el evento. El campo **[!UICONTROL ID]** es obligatorio y debe comenzar con el prefijo &quot;EVT&quot;. Si no utiliza este prefijo, se añade automáticamente una vez que haga clic en **[!UICONTROL Create]**.
 
@@ -151,7 +151,7 @@ Una vez publicados el evento y el mensaje, este vínculo le permite enriquecer e
 
 Para acceder y buscar los eventos transaccionales ya creados, siga los pasos a continuación.
 
-1. Haga clic en el logotipo de **[!UICONTROL Adobe Campaign]**, en la esquina superior izquierda, y luego seleccione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
+1. Haga clic en el logotipo de **Adobe**, en la esquina superior izquierda, y seleccione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. Haga clic en el botón **[!UICONTROL Show search]**.
 
    ![](assets/message-center_search-events.png)

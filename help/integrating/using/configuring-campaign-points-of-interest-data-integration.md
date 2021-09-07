@@ -6,20 +6,20 @@ description: Aprenda a configurar la función de datos Puntos de interés en Ado
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
-feature: Audiencias
+feature: Audiences
 role: Data Architect
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1330'
 ht-degree: 3%
 
 ---
 
 # Configuración de la integración de Campaign con datos de Puntos de interés{#configuring-campaign-points-of-interest-data-integration}
 
-## Configuración de la integración de Campaign con los datos de Puntos de interés con los SDK de Adobe Experience Platform {#configuring-campaign-poi-aep-sdk}
+## Configuración de la integración de Campaign con datos de Puntos de interés con SDK para Adobe Experience Platform {#configuring-campaign-poi-aep-sdk}
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ Para poder utilizar Adobe Experience Platform Location Services con aplicaciones
 
 1. Asegúrese de acceder a la aplicación móvil y a los datos de ubicación recopilados en Adobe Campaign. Consulte [Acceso a aplicaciones móviles utilizadas para recopilar datos de ubicación](#accessing-mobile-apps-used-to-collect-location-data) y [Acceso a los datos de ubicación recopilados](#accessing-collected-location-data).
 
-## Configuración de la integración de Campaign con datos de Puntos de interés mediante SDK V4 {#configuring-campaign-poi-sdkv4}
+## Configuración de la integración de Campaign con datos de Puntos de interés mediante el SDK V4 {#configuring-campaign-poi-sdkv4}
 
 Las aplicaciones móviles utilizadas para recopilar datos de ubicación deben configurarlas **administrator** en la interfaz de Adobe Campaign.
 
@@ -62,7 +62,7 @@ Para utilizar la función de datos de punto de interés con aplicaciones móvile
 
 Para poder recopilar datos de puntos de interés con Adobe Campaign, debe configurar la aplicación móvil desde la que Adobe Campaign recibirá datos.
 
-1. Haga clic en el logotipo de **[!UICONTROL Adobe Campaign]**, en la esquina superior izquierda, y luego seleccione **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app]**.
+1. Haga clic en el logotipo de **Adobe**, en la esquina superior izquierda, y seleccione **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app]**.
 1. Haga clic en **[!UICONTROL Create]** para configurar una aplicación.
 1. Introduzca un nombre en el campo **[!UICONTROL Application name]** y haga clic en **[!UICONTROL Create]**.
 
@@ -192,11 +192,11 @@ Un recurso personalizado específico le permite definir los datos que desea reco
 Este paso se describe en la página [Configuración de una aplicación móvil mediante el SDK V4](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html).
 
 
-## Acceso a las aplicaciones móviles utilizadas para recopilar datos de ubicación {#accessing-mobile-apps-used-to-collect-location-data}
+## Acceso a aplicaciones móviles utilizadas para recopilar datos de ubicación {#accessing-mobile-apps-used-to-collect-location-data}
 
 Para acceder a las aplicaciones creadas correctamente en Adobe Campaign:
 
-1. Haga clic en el logotipo **[!UICONTROL Adobe Campaign]** en la esquina superior izquierda.
+1. Haga clic en el logotipo **Adobe** en la esquina superior izquierda.
 1. Seleccione **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (SDK v4)]** o **[!UICONTROL Mobile app (AEP SDK)]** según el SDK.
 1. Seleccione una aplicación móvil de la lista para mostrar sus propiedades.
 

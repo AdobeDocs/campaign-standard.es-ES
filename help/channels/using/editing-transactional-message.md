@@ -7,13 +7,13 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Mensajería transaccional
+feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: f5dcb715-7cbd-49f2-8713-7e16cfa04184
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '654'
 ht-degree: 30%
 
 ---
@@ -36,7 +36,7 @@ Una vez que el mensaje esté listo, se puede probar y publicar. Consulte [Prueba
 
 Para acceder al mensaje transaccional que ha creado:
 
-1. Haga clic en el logotipo **[!UICONTROL Adobe Campaign]** en la esquina superior izquierda.
+1. Haga clic en el logotipo **Adobe** en la esquina superior izquierda.
 1. Seleccione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
 
    ![](assets/message-center_4.png)

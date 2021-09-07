@@ -6,14 +6,14 @@ description: 'Los usuarios de Adobe Campaign tienen funciones específicas. Desc
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Administración de acceso
+feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 94%
+source-wordcount: '1218'
+ht-degree: 93%
 
 ---
 
@@ -29,7 +29,7 @@ Los administradores pueden administrar usuarios desde Admin Console. Los usuario
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
 
-Para ver los usuarios en Adobe Campaign, haga clic en el logotipo **[!UICONTROL Adobe Campaign]**, en la esquina superior izquierda, y seleccione **[!UICONTROL Administration > Users & Security > Users]**.
+Para ver los usuarios en Adobe Campaign, haga clic en el logotipo **Adobe** en la esquina superior izquierda y, a continuación, seleccione **[!UICONTROL Administration > Users & Security > Users]**.
 
 Para acceder a la interfaz de administración de usuarios desde Adobe Campaign, haga clic en **[!UICONTROL User administration]**.
 
@@ -156,7 +156,7 @@ A continuación, puede comprobar si el usuario se ha sincronizado correctamente 
 
 El usuario ya está listo para usar Adobe Campaign Standard.
 
-## Tutorial en vídeo (#video)
+## Tutorial en vídeo {#video}
 
 Este vídeo muestra cómo administrar los derechos de acceso de los usuarios.
 

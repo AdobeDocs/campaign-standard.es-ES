@@ -6,14 +6,14 @@ description: Cree un evento de déclencheur en Adobe Campaign basado en un décl
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-feature: Activadores
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
-source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 81%
+ht-degree: 80%
 
 ---
 
@@ -33,7 +33,7 @@ Puede ver este [vídeo](https://helpx.adobe.com/es/marketing-cloud/how-to/email-
 
 Los pasos para ponerlo en práctica son:
 
-1. Haga clic en el logotipo de **[!UICONTROL Adobe Campaign]**, en la esquina superior izquierda, y luego seleccione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud Triggers]**.
+1. Haga clic en el logotipo de **Adobe**, en la esquina superior izquierda, y seleccione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud Triggers]**.
 
    ![](assets/remarketing_1.png)
 

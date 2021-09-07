@@ -6,13 +6,13 @@ description: Descubra cómo personalizar un correo electrónico en el Diseñador
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Diseño de correo electrónico
+feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 671fd9e7ff0551ae9ae5fec26cee0b4c4939ab2f
 workflow-type: tm+mt
-source-wordcount: '2575'
+source-wordcount: '2583'
 ht-degree: 5%
 
 ---
@@ -41,7 +41,7 @@ Este campo se puede personalizar. Para ello, puede añadir campos de personaliza
 
 ## Personalización de direcciones URL{#personalizing-urls}
 
-Adobe Campaign le permite personalizar una o varias direcciones URL en el mensaje al agregarles campos de personalización, bloques de contenido o contenido dinámico. Para ello:
+Adobe Campaign le permite personalizar una o varias direcciones URL en el mensaje al agregarles campos de personalización, bloques de contenido o contenido dinámico. Para ello, haga lo siguiente:
 
 1. Inserte una URL externa y especifique sus parámetros. Consulte [Inserción de un vínculo](../../designing/using/links.md#inserting-a-link).
 1. Si no se muestra, haga clic en el lápiz situado junto a la dirección URL seleccionada en el panel Configuración para acceder a las opciones de personalización.
@@ -53,7 +53,9 @@ Adobe Campaign le permite personalizar una o varias direcciones URL en el mensaj
 
 >[!NOTE]
 >
->Las direcciones URL personalizadas no se pueden aplicar al nombre de dominio ni a la extensión URL. Se mostrará un mensaje de error durante el análisis del mensaje si la personalización es incorrecta. Al seleccionar un bloque de contenido, no se le permite seleccionar elementos como **Link to mirror page**. Este tipo de bloques está prohibido dentro de un vínculo.
+>Cuando el mecanismo de firma de URL para el seguimiento de vínculos está deshabilitado, las direcciones URL personalizadas no se pueden aplicar al nombre de dominio ni a la extensión de URL. Se mostrará un mensaje de error durante el análisis del mensaje si la personalización es incorrecta.
+>
+>Al seleccionar un bloque de contenido, no se le permite seleccionar elementos como **Link to mirror page**. Este tipo de bloques está prohibido dentro de un vínculo.
 
 ## Inserción de un campo de personalización.{#inserting-a-personalization-field}
 
@@ -183,7 +185,7 @@ Para obtener más información sobre esto, consulte [Dimensiones de segmentació
 
 ## Personalización de una fuente de imagen{#personalizing-an-image-source}
 
-Adobe Campaign le permite personalizar una o varias imágenes del mensaje según un criterio en particular o utilizar el seguimiento. Para ello, inserte campos de personalización, bloques de contenido o contenido dinámico en el origen de la imagen. Para ello:
+Adobe Campaign le permite personalizar una o varias imágenes del mensaje según un criterio en particular o utilizar el seguimiento. Para ello, inserte campos de personalización, bloques de contenido o contenido dinámico en el origen de la imagen. Para ello, haga lo siguiente:
 
 1. Inserte una imagen en el contenido del mensaje o seleccione una imagen que ya esté presente.
 1. En la paleta de propiedades de la imagen, marque la opción **[!UICONTROL Enable personalization]**.

@@ -1,28 +1,30 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Última versión
-description: Esta página detalla el contenido de la última versión de Campaign Standard
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
+title: Notas de la versión anteriores
+description: Notas de la versión anteriores
 feature: Overview
 role: User
 level: Beginner
-exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 08d2e4552bcb5f5eef9f92e5a0293270b577f873
+hide: true
+hidefromtoc: true
+exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
+source-git-commit: ac129fd21382d1d89263acae2fdbe280709f5946
 workflow-type: tm+mt
 source-wordcount: '1072'
-ht-degree: 38%
+ht-degree: 43%
 
 ---
 
+# Notas de la versión anteriores {#new-release}
 
-# Última versión{#latest-release}
+Esta página describe las nuevas funciones, mejoras y correcciones incluidas en la próxima versión de Campaign Standard.
+
+>[!CAUTION]
+>
+> Este contenido está sujeto a cambios sin previo aviso hasta la fecha de actualización de los entornos de ensayo. Obtenga más información en la [página de planificación de versiones](../../rn/using/release-planning.md).
 
 ## Versión 21.3: septiembre de 2021 {#release-21-3---sept-2021}
-
-A continuación se enumeran las nuevas funciones, mejoras y correcciones incluidas en la última versión del Campaign Standard.
 
 **Novedades**
 
@@ -98,7 +100,7 @@ A continuación se enumeran las nuevas funciones, mejoras y correcciones incluid
 
 * Al crear una entrega recurrente en un flujo de trabajo, vinculado a un contenido de Adobe Experience Manager, el estado de aprobación del contenido ahora se comprueba antes de enviarla.
 * El límite de conexión a la base de datos ahora está alineado con el paquete de Campaign para evitar errores de conexión.
-* Una nueva comprobación de coherencia en la publicación de recursos personalizados impide que los usuarios creen índices duplicados, lo que provoca que la publicación falle. Un mensaje de error mejorado pide al usuario que cambie el nombre del índice si es necesario.
+* Se ha añadido una comprobación de coherencia al crear índices en recursos personalizados y se han mejorado los mensajes de error.
 
 **Otros cambios**
 

@@ -6,14 +6,14 @@ description: Aprenda a crear, administrar y enviar un mensaje de seguimiento.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-feature: Mensajería transaccional
+feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 0a05cf20-7c8f-406b-acfd-7aece2c5dd26
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 3%
+source-wordcount: '774'
+ht-degree: 2%
 
 ---
 
@@ -44,7 +44,7 @@ Para gestionar un evento en un flujo de trabajo, se requiere una plantilla de en
 
 Para acceder a esta plantilla:
 
-1. Haga clic en el logotipo **[!UICONTROL Adobe Campaign]** en la esquina superior izquierda.
+1. Haga clic en el logotipo **Adobe** en la esquina superior izquierda.
 1. Seleccione **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Marque la casilla **[!UICONTROL Follow-up messages]** en el panel izquierdo.
 

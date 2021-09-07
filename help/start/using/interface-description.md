@@ -6,14 +6,14 @@ description: '“Aprenda a desplazarse por el espacio de trabajo de Adobe Campai
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: Información general
+feature: Overview
 role: User
 level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 92%
+source-wordcount: '1258'
+ht-degree: 79%
 
 ---
 
@@ -53,7 +53,7 @@ La barra superior es visible en todas las pantallas y le permite navegar por las
 
 Los principios de navegación son:
 
-* El logotipo de **[!UICONTROL Adobe Campaign]** en la esquina superior izquierda de la página le permite acceder a las funciones y configuraciones avanzadas. Los menús dependen del perfil y los permisos.
+* El logotipo de **Adobe** en la esquina superior izquierda de la página le permite acceder a las funciones y configuraciones avanzadas. Los menús dependen del perfil y los permisos.
 
    El menú avanzado se presenta en la sección de [menú avanzado](#advanced-menu).
 
@@ -66,23 +66,21 @@ Los principios de navegación son:
 
 ### Ayuda {#help}
 
-La barra superior es visible en todas las pantallas y le permite navegar por las funciones de Adobe Campaign, así como acceder al perfil de Adobe conectado, a las notificaciones, a otros servicios y soluciones de Adobe Experience Cloud y a la documentación.
+En la esquina superior derecha, el icono **Ayuda** incorpora Adobe Experience League al producto.
 
-Los principios de navegación son:
+![](assets/ux_help.png)
 
-* El logotipo de **[!UICONTROL Adobe Campaign]** en la esquina superior izquierda de la página le permite acceder a las funciones y configuraciones avanzadas. Los menús dependen del perfil y los permisos.
+Utilice el campo **[!UICONTROL Search]** para encontrar instrucciones. Los resultados de búsqueda incluyen documentación y artículos de ayuda, resultados de foros de la comunidad y contenido de vídeo, lo que le facilita el acceso a más contenido para sacar el máximo partido de la aplicación.
 
-   El menú avanzado se presenta en la sección de [menú avanzado](#advanced-menu).
+Tres pestañas le ayudan a encontrar ayuda y asistencia:
 
-* El vínculo **[!UICONTROL Home]** le permite mostrar la página de inicio de Adobe Campaign.
-* Los vínculos **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]**, **[!UICONTROL Audiences]** y **[!UICONTROL Reports]** permiten acceder a las vistas vinculadas a estas funciones.
-* El botón **[!UICONTROL Help]** permite acceder a la documentación del producto y a la ayuda contextual, a las notas de la versión, a los números de la versión y a los avisos legales, así como a los vínculos a la comunidad de Adobe Experience Cloud y al servicio de atención al cliente.
-
-   ![](assets/ux_help.png)
-
-* El icono **Seleccionar solución** le permite cambiar a otra solución de Adobe Experience Cloud, así como a la configuración de perfil.
-* El icono **Notificaciones** muestra la información o las alertas más recientes.
-* El icono **Usuario** le permite ver información vinculada a su perfil. Permite acceder al botón **[!UICONTROL Sign out]**.
+1. La pestaña **[!UICONTROL Help]** contiene:
+   * acceso rápido a la documentación de Adobe Campaign Standard con vínculos contextuales.
+   * un enlace **[!UICONTROL Learning]** que le permite acceder a la biblioteca de cursos de Adobe Campaign.
+   * un enlace **[!UICONTROL Community]** para acceder al foro dedicado a sus preguntas en Campaign.
+   * acceso directo a: Centro de ayuda, Servicio de atención al cliente, estado del producto del Experience Cloud, conexión de desarrolladores, Notas de la versión, Planificación de versiones y la pantalla **[!UICONTROL About]**.
+1. La pestaña **[!UICONTROL Support]** le permite abrir un caso de asistencia y ponerse en contacto con nosotros por teléfono o Twitter.
+1. La pestaña **[!UICONTROL Feedback]** facilita el informe de problemas o el uso compartido de sus ideas.
 
 ## Menú avanzado {#advanced-menu}
 

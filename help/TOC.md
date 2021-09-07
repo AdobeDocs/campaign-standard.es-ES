@@ -6,9 +6,9 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Centro de ayuda para las principales características, tareas, configuraciones y otros recursos necesarios para utilizar Campaign Standard. '
 title: Guía de Campaign Standard
 breadcrumb-title: Documentación de Adobe Campaign Standard
-source-git-commit: 89514dad1e318f32dafd3d8add664c37b03c8fb7
+source-git-commit: 3e62ae3fc6e69710edc8977286c655a6b2203a3a
 workflow-type: tm+mt
-source-wordcount: '1790'
+source-wordcount: '1792'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 + [Últimas actualizaciones](rn/using/documentation-updates.md)
 + Notas de la versión {#release-notes}
    + [Última versión](rn/using/release-notes.md)
-   + [Notas de la versión anteriores](rn/using/early-release-notes.md)
+   + [Notas de la versión anteriores](rn/using/e-release-notes.md)
    + Versiones anteriores {#previous-releases}
       + [Notas de la versión 2021](rn/using/release-notes-2021.md)
       + [Notas de la versión 2020](rn/using/release-notes-2020.md)
@@ -433,6 +433,7 @@ ht-degree: 100%
 + Administración {#administrating}
    + [Introducción a la administración de Campaign Standard](administration/using/get-started-campaign-administration.md)
    + [Directrices de monitorización](administration/using/monitoring-guidelines.md)
+   + [Pista de auditoría](administration/using/audit.md)
    + [Directrices de configuración](administration/using/about-configuration-guidelines.md)
    + Usuarios y seguridad {#users-and-security}
       + [Acerca de la administración de acceso](administration/using/about-access-management.md)

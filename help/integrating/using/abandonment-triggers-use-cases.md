@@ -9,16 +9,15 @@ topic-tags: working-with-campaign-and-triggers
 feature: Triggers
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '997'
-ht-degree: 99%
+source-wordcount: '994'
+ht-degree: 98%
 
 ---
 
-
-# Ejemplos prácticos de activadores de abandono{#abandonment-triggers-use-cases}
+# Casos de uso de activadores de abandono{#abandonment-triggers-use-cases}
 
 Esta sección presenta diferentes casos de uso que se pueden implementar mediante la integración entre Adobe Campaign y los activadores de Experience Cloud. A continuación, tiene dos ejemplos de casos de uso:
 
@@ -67,7 +66,7 @@ Ahora que hemos creado un activador de Experience Cloud, vamos a utilizarlo en A
 
 En Adobe Campaign, debe crear un activador vinculado al que ha creado en Experience Cloud.
 
-1. Para crear el activador en Adobe Campaign, haga clic en el logotipo de **[!UICONTROL Adobe Campaign]**, en la esquina superior izquierda y, a continuación, seleccione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
+1. Para crear el Déclencheur en Adobe Campaign, haga clic en el logotipo **Adobe** en la esquina superior izquierda y, a continuación, seleccione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
 
    ![](assets/remarketing_1.png)
 
@@ -164,4 +163,3 @@ La sección **[!UICONTROL Include Meta Data]** le permite pasar cualquier dato r
 1. Unos momentos después, el mismo visitante/destinatario recibe un mensaje de marketing. El mensaje incluye el destino de búsqueda reciente.
 
    ![](assets/trigger_uc_search_7.png)
-

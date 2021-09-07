@@ -9,14 +9,13 @@ topic-tags: working-with-campaign-and-experience-manager
 feature: Triggers
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 0f66fe2b-22b1-49d7-a080-29b00941a2cc
+source-git-commit: b0b1c2978fea84c736f2c7c0fdeb91ab0bd1ac8c
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 16%
+source-wordcount: '617'
+ht-degree: 15%
 
 ---
-
 
 # Creación de un correo electrónico multilingüe con la integración de Adobe Experience Manager {#creating-multilingual-email-aem}
 
@@ -44,7 +43,7 @@ Los requisitos previos son:
 
    ![](assets/aem_acs_3.png)
 
-1. Abra el nuevo contenido del correo electrónico y personalícelo según sea necesario. Para obtener más información, consulte [esta página](../../integrating/using/creating-email-experience-manager.md#editing-email-aem).
+1. Abra el nuevo contenido del correo electrónico y personalícelo según sea necesario. Para obtener más información, consulte esta [página](../../integrating/using/creating-email-experience-manager.md#editing-email-aem).
 
    ![](assets/aem_acs_4.png)
 
@@ -127,5 +126,9 @@ Se han creado las copias de idioma, ahora puede editar el contenido en función 
 1. Si el contenido o las variantes se actualizan en Adobe Experience Manager, puede sincronizarlo directamente en Adobe Campaign Standard con el botón **[!UICONTROL Refresh AEM contents]**.
 
 1. El correo electrónico ya está listo para enviarse. Para obtener más información, consulte esta [página](../../sending/using/get-started-sending-messages.md).
+
+   >[!NOTE]
+   >
+   >No podrá enviar un correo electrónico en Adobe Campaign si utiliza un contenido AEM que no se haya aprobado.
 
 Su audiencia recibirá su correo electrónico según el **[!UICONTROL Preferred languages]** configurado en su **[!UICONTROL Profiles]**. Para obtener más información sobre cómo editar perfiles y idiomas preferidos, consulte esta [página](../../audiences/using/editing-profiles.md).

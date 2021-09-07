@@ -7,13 +7,13 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
-feature: Configuración de instancia
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '2598'
+source-wordcount: '2597'
 ht-degree: 77%
 
 ---
@@ -332,7 +332,7 @@ Los administradores pueden acceder y modificar las reglas **[!UICONTROL MX manag
 
 ### Clasificación del correo rechazado {#legacy-bounce-mail-qualification}
 
-Para enumerar las distintas devoluciones y sus tipos de error asociados y sus motivos, haga clic en el logotipo **[!UICONTROL Adobe Campaign]**, en la parte superior izquierda, y luego seleccione **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
+Para enumerar los distintos rechazos y sus tipos de error asociados y sus motivos, haga clic en el logotipo **Adobe** en la parte superior izquierda y, a continuación, seleccione **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
 
 Las devoluciones pueden tener los siguientes estados de calificación:
 
