@@ -6,14 +6,14 @@ description: La herramienta de edición de consultas le permite utilizar funcion
 audience: automating
 content-type: reference
 topic-tags: filtering-data
-feature: Flujos de trabajo
+feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-source-git-commit: 887396a0871a8ed93642c55a49c8737f5c98bfc2
+source-git-commit: cedb8a0837d9c0339149efd2a99c777a12ef260d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1970'
+ht-degree: 96%
 
 ---
 
@@ -707,11 +707,12 @@ Las funciones agregadas se utilizan para realizar cálculos en un conjunto de va
    <td> Devuelve el valor mínimo de una columna numérica, de cadena o de fecha.<br /> </td> 
    <td> Min(&lt;valor&gt;)<br /> </td> 
   </tr>
-
-
-
-
-<tr> 
+  <tr>
+   <td> <strong>StringAgg</strong>, agregado de cadenas<br /> </td>
+   <td> Devuelve la concatenación de los valores de una columna de tipo cadena, separados por el carácter del segundo argumento (el separador predeterminado es una coma).<br /> </td>
+   <td> StringAgg(&lt;valores de cadena&gt;,&lt;separador&gt;)
+  </tr>
+  <tr> 
    <td> <strong>Sum</strong>, Sum<br /> </td> 
    <td> Devuelve la suma de los valores de una columna numérica.<br /> </td> 
    <td> Sum(&lt;valor&gt;)<br /> </td> 
