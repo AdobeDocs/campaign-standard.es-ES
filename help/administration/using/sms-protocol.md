@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Configuración y protocolo del conector SMS
 description: Obtenga más información sobre el conector de SMS y cómo configurarlo.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Configuración de instancia
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: ea936128-1c51-483d-914c-6d06708456d6
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '8666'
+source-wordcount: '8664'
 ht-degree: 86%
 
 ---
@@ -250,13 +248,13 @@ Hay dos maneras de enviar mensajes largos:
 
 Consulte la descripción de los campos `esm_class`, `short_message` y `message_payload` de la [SUBMIT_SM PDU](../../administration/using/sms-protocol.md#information-pdu) para obtener más detalles sobre el protocolo y los formatos.
 
-### Límite de rendimiento y ventanas {#throughput-capping}
+### Límite de rendimiento y basado en ventanas {#throughput-capping}
 
 La mayoría de los proveedores requieren un límite de rendimiento para cada conexión SMPP. Esto se puede lograr estableciendo un número de SMS en la cuenta externa. Tenga en cuenta que la limitación del rendimiento se produce por conexión, el rendimiento efectivo total es el límite por conexión multiplicado por el número total de conexiones. Esto se detalla en la sección [Conexiones simultáneas](../../administration/using/sms-protocol.md#connection-settings).
 
 Para alcanzar el máximo rendimiento posible, tendrá que ajustar la ventana de envío máxima. La ventana de envío es el número de `SUBMIT_SM PDU` que se puede enviar sin esperar a `SUBMIT_SM_RESP`. Consulte la sección [Configuración de la ventana de envío](../../administration/using/sms-protocol.md#throughput-timeouts) para obtener más detalles.
 
-### SR y administración de errores (&quot;Apéndice B&quot;) {#sr-error-management}
+### SR y administración de errores (“Apéndice B”) {#sr-error-management}
 
 El protocolo SMPP define errores sincrónicos estándar en `RESP PDU`, pero no define códigos de error para SR. Cada proveedor utiliza sus propios códigos de error con su significado.
 
@@ -430,7 +428,7 @@ Esta configuración elimina todo el tráfico de SMPP en los archivos de registro
 
 ### Configuración de conexión del receptor {#receiver-connection}
 
-Esta sección solo está visible en el modo separado **transmisor+receptor**.
+Esta sección solo está visible en el modo separado **transmisor + receptor**.
 
 #### Usar parámetros diferentes para el receptor {#receiver-parameters}
 
@@ -534,7 +532,7 @@ Cuando se pierde la conexión TCP, el conector esperará este número de segundo
 
 Tiempo de espera entre `SUBMIT_SM` y su coincidencia `SUBMIT_SM_RESP`. Si el `RESP` no se recibe a tiempo, el mensaje se considerará fallido y se aplicará la política de reintentos global del MTA.
 
-#### Tiempo de espera de enlace {#bind-timeout}
+#### Tiempo de espera de vínculo {#bind-timeout}
 
 Tiempo de espera entre el intento de conexión TCP y la respuesta `BIND_*_RESP`. Cuando se agota el tiempo de espera, la conexión se cierra mediante el conector de Adobe Campaign y esperará tiempo antes de volver a conectarse antes de intentarlo de nuevo.
 
@@ -793,7 +791,7 @@ El cliente no puede cambiar el número de subprocesos porque requiere cambiar lo
 
 ### Descripción del comportamiento del conector SMPP {#behavior-smpp-connector}
 
-#### Entradas de MT, SR y &quot;broadlog&quot; que coinciden {#matching-mt-sr}
+#### Entradas de MT, SR y “broadlog” que coinciden {#matching-mt-sr}
 
 En Adobe Campaign, un mensaje es una entrada de broadlog. En Adobe Campaign Standard, los conectores externos solo necesitan conocer la tabla de broadlog en funcionamiento: `nmsBroadLogExec`. Un flujo de trabajo se encarga de copiar las entradas del broadlog a sus dimensiones de segmentación específicas (nmsBroadLogXXX).
 
@@ -820,7 +818,7 @@ La comprobación de los pasos anteriores requiere **Habilitar los trazos detalla
 
 Esta lista de verificación le proporciona una lista de las cosas que debe comprobar antes de empezar a usarlo. Una configuración incompleta puede provocar muchos problemas.
 
-### Compruebe si hay conflictos en la cuenta externa {#external-account-conflict}
+### Comprobación de conflictos en la cuenta externa {#external-account-conflict}
 
 Compruebe que no tiene cuentas externas de SMS antiguas. Si deja desactivada la cuenta de prueba, corre el riesgo de que se vuelva a habilitar en el sistema de producción y se generen posibles conflictos.
 
@@ -828,7 +826,7 @@ Compruebe que ninguna otra instancia se conecte a esta cuenta. En concreto, aseg
 
 Si necesita tener varias cuentas en la misma instancia de Adobe Campaign que se conecten al mismo proveedor, póngase en contacto con el proveedor para asegurarse de que realmente distinguen conexiones entre estas cuentas. Si tiene varias cuentas con el mismo inicio de sesión necesita una configuración adicional.
 
-### Habilite los seguimientos detallados del SMPP durante las comprobaciones {#enable-verbose}
+### Habilitación de los seguimientos detallados del SMPP durante las comprobaciones {#enable-verbose}
 
 Siempre debe habilitar los seguimientos detallados del SMPP durante las comprobaciones.
 Incluso si no puede comprobar los registros usted mismo, será más fácil para la asistencia técnica ayudarle.

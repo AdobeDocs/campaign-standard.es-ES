@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Creación de una solicitud de privacidad
 description: Obtenga información sobre cómo crear una solicitud de privacidad con API
 audience: developing
@@ -9,20 +7,19 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 06ad2e13-922b-4f35-8726-007427125c63
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 14%
+source-wordcount: '210'
+ht-degree: 22%
 
 ---
-
 
 # Creación de una solicitud de privacidad {#creating-a-privacy-request}
 
 >[!CAUTION]
 >
->La integración de [Privacy Core Service](https://adobe.io/apis/cloudplatform/gdpr.html) es el método que debe utilizar para todas las solicitudes de acceso y eliminación. A partir de la versión 19.4, el uso de la API y la interfaz de Campaign para las solicitudes de acceso y eliminación quedarán obsoletas. Para obtener más información sobre las funciones obsoletas y eliminadas del Campaign Standard, consulte [esta página](../../rn/using/deprecated-features.md).
+>La integración de [Privacy Core Service](https://adobe.io/apis/cloudplatform/gdpr.html) es el método que debe utilizar para todas las solicitudes de acceso y eliminación. A partir de la versión 19.4, el uso de la API y de la interfaz de Campaign para las solicitudes de acceso y eliminación quedarán obsoletas. Para obtener más información sobre las funciones obsoletas y eliminadas de Campaign Standard, consulte [esta página](../../rn/using/deprecated-features.md).
 
 Las solicitudes de privacidad se crean mediante una solicitud **POST**.
 

@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Envío de notificaciones push
+title: Entrega de notificaciones push
 description: La actividad de entrega de notificaciones push permite configurar el envío de una sola notificación push de envío o una notificación push recurrente en un flujo de trabajo.
 audience: automating
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: channel-activities
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b6a43d51-32d4-4806-b4e4-33236f1e27f5
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 46%
+source-wordcount: '772'
+ht-degree: 47%
 
 ---
 
-
-# Envío de notificaciones push{#push-notification-delivery}
+# Entrega de notificaciones push{#push-notification-delivery}
 
 ## Descripción {#description}
 
@@ -47,7 +44,7 @@ La preparación del mensaje se activa según los parámetros de ejecución del f
 
 ## Configuración {#configuration}
 
-1. Arrastre y suelte una actividad **[!UICONTROL Push notification]** en su flujo de trabajo.
+1. Arrastre y suelte una actividad de **[!UICONTROL Push notification]** en el flujo de trabajo.
 1. Seleccione la actividad y, a continuación, ábrala con el botón ![](assets/edit_darkgrey-24px.png), en las acciones rápidas que aparecerán.
 
    >[!NOTE]

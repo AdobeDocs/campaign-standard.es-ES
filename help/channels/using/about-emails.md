@@ -1,20 +1,18 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Acerca de los correos electrónicos
 description: Descubra los diferentes tipos de correos electrónicos que puede enviar con Adobe Campaign.
 audience: channels
 content-type: reference
 topic-tags: email-messages
 context-tags: deliveryCreation,wizard
-feature: Correo electrónico
+feature: Email
 role: User
 level: Beginner
 exl-id: fd03c6b8-34ed-4b7e-9980-3fc06a2ed726
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 23%
+source-wordcount: '131'
+ht-degree: 22%
 
 ---
 

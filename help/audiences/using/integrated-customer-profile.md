@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Perfil de cliente integrado
 description: '“Rastree la interacción de cada cliente en una sola vista: el perfil de cliente integrado de Adobe Campaign se actualiza durante todo el ciclo de vida del cliente”.'
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 context-tags: marketingHistory,main
-feature: Perfiles
+feature: Profiles
 role: User
 level: Beginner
 exl-id: cf3c6408-7fa0-423a-b34b-f4fee771fb47
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '281'
 ht-degree: 48%
 
 ---

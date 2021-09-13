@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Modelo de datos
 description: Obtenga información sobre el modelo de datos
 audience: developing
@@ -8,14 +6,13 @@ content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: aea3e72d-8e89-46c7-a796-bf856414c654
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '687'
 ht-degree: 10%
 
 ---
-
 
 # Envío (nms:delivery)
 
@@ -23,7 +20,7 @@ ht-degree: 10%
 
 <table>
                <tr>
-                  <th>Name</th>
+                  <th>Nombre</th>
                   <th>Etiqueta</th>
                   <th>Tipo (longitud)</th>
                   <th>Valores de enumeración</th>
@@ -42,7 +39,7 @@ ht-degree: 10%
                </tr>
                <tr>
                   <td>abTesting</td>
-                  <td>Prueba A/B</td>
+                  <td>Pruebas A/B</td>
                   <td>item </td>
                   <td> </td>
                </tr>
@@ -120,7 +117,7 @@ ht-degree: 10%
                </tr>
                <tr>
                   <td>content</td>
-                  <td>Content</td>
+                  <td>Contenido</td>
                   <td>item </td>
                   <td> </td>
                </tr>
@@ -288,7 +285,7 @@ ht-degree: 10%
                </tr>
                <tr>
                   <td>jobLogs</td>
-                  <td>“Logs”</td>
+                  <td>Registros</td>
                   <td>colección </td>
                   <td> </td>
                </tr>
@@ -528,7 +525,7 @@ ht-degree: 10%
                </tr>
                <tr>
                   <td>título</td>
-                  <td>Envío</td>
+                  <td>Entrega</td>
                   <td>string (255)</td>
                   <td> </td>
                </tr>

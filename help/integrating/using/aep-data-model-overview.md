@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Información general del Modelo de datos de experiencia
 description: El Modelo de datos de experiencia (XDM) es un conjunto estándar de esquemas de datos en los que se pueden introducir datos para su uso con soluciones y productos de Adobe Experience Platform.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Integración de Microsoft CRM
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: cc1aa669-30cd-4ea4-9fab-4d1b6c373744
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---

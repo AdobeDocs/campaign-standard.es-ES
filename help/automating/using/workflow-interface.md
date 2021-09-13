@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Interfaz de flujo de trabajo
 description: Conozca la interfaz y las opciones para crear, editar y ejecutar un flujo de trabajo.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: workflow,main;workflow,overview
 feature: Workflows
 role: Data Architect
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: a3f35bb9-e61e-4f3f-b855-1d677422f75a
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '802'
 ht-degree: 4%
 
 ---
-
 
 # Interfaz de flujo de trabajo{#workflow-interface}
 
@@ -157,4 +154,3 @@ También es posible copiar y pegar varias actividades, lo que permite duplicar u
 Para ello, seleccione las actividades dibujando una zona a su alrededor. a continuación, haga clic en el botón **[!UICONTROL Copy selection]** de la barra de acciones (o pulse **Ctrl + C**). A continuación, puede pegarlas en la ubicación deseada.
 
 ![](assets/wkf_copypaste3.png)
-

@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Rendimiento del envío
+title: Rendimiento de la entrega
 description: Con el informe Delivery throughput listo para usar, obtenga información sobre el éxito de su envío.
 audience: reporting
 content-type: reference
@@ -10,16 +8,15 @@ context-tags: deliveryThroughputReport,main;campaignThroughputReport,main;progra
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 53bb4efb-949e-4831-af0d-e7af0ffa6b81
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 5%
+source-wordcount: '82'
+ht-degree: 4%
 
 ---
 
-
-# Rendimiento de entrega{#delivery-throughput}
+# Rendimiento de la entrega{#delivery-throughput}
 
 Este informe contiene datos relacionados con el rendimiento de envío de un envío o de varios envíos. Proporciona:
 

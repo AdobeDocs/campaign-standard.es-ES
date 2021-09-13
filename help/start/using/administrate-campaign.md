@@ -1,13 +1,10 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Personalización de listas
-description: '"Aprenda a personalizar la visualización y a actuar en pantallas de lista en Adobe Campaign Standard:ordenar, filtrar, eliminar o duplicar elementos. Las pantallas de listas muestran elementos de uno o varios recursos determinados."'
+description: '"Aprenda a personalizar la visualización y a actuar en las pantallas de lista en Adobe Campaign Standard:clasificación, filtrado, eliminación o duplicación de elementos. Las pantallas de listas muestran los elementos de uno o varios recursos determinados."'
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 8%
@@ -15,7 +12,7 @@ ht-degree: 8%
 ---
 
 
-# Administrar la instancia
+# Administre la instancia
 
 <table>
 <tr>
@@ -35,8 +32,8 @@ ht-degree: 8%
 <tr>
 <td>Modelo de datos de Campaign</td>
 <td>Trabajar con las API de REST</td>
-<td>Administrar usuarios</td>
-<td>Configurar y supervisar la instancia</td>
+<td>Administración de usuarios</td>
+<td>Configure y supervise la instancia</td>
 </tr>
 </table>
 
@@ -44,9 +41,9 @@ ht-degree: 8%
 
 <img width="60px" alt="condiciones" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lugar de vestibulo mauris libero, no congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehula augue, una lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras y vehículos nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lugar de vestibulum mauris libero, no congue sapien rhoncus id. Luctus blandit ligula entero. Nulla quis vehula augue, una lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras y vehículos nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-**Puede obtener más información**
+**Más información**
 
 * xxxx
 * xxxx
@@ -55,31 +52,31 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lugar de vestibulo maur
 
 <img width="60px" alt="condiciones" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lugar de vestibulo mauris libero, no congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehula augue, una lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras y vehículos nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lugar de vestibulum mauris libero, no congue sapien rhoncus id. Luctus blandit ligula entero. Nulla quis vehula augue, una lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras y vehículos nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-**Puede obtener más información**
+**Más información**
 
 * xxxx
 * xxxx
 
-## Administrar usuarios
+## Administración de usuarios
 
 <img width="60px" alt="condiciones" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lugar de vestibulo mauris libero, no congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehula augue, una lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras y vehículos nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lugar de vestibulum mauris libero, no congue sapien rhoncus id. Luctus blandit ligula entero. Nulla quis vehula augue, una lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras y vehículos nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-**Puede obtener más información**
+**Más información**
 
 * xxxx
 * xxxx
 
-## Configurar y supervisar la instancia
+## Configure y supervise la instancia
 
 <img width="60px" alt="condiciones" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lugar de vestibulo mauris libero, no congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehula augue, una lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras y vehículos nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lugar de vestibulum mauris libero, no congue sapien rhoncus id. Luctus blandit ligula entero. Nulla quis vehula augue, una lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras y vehículos nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-**Puede obtener más información**
+**Más información**
 
 * xxxx
 * xxxx

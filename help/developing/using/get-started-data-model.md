@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Introducción al modelo de datos de Campaign Standard
 description: Enriquezca el modelo de datos de Campaign Standard con campos y recursos personalizados y amplíe las API de REST para exponer los campos extendidos.
 audience: automating
@@ -10,11 +8,10 @@ feature: Data Model
 role: Developer
 level: Intermediate
 exl-id: a8d15053-c20f-4334-a732-3b36cb00794d
-translation-type: tm+mt
-source-git-commit: c5a9c27a2ce459dfd0f04159095bfc8a2cf4c0f6
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 28%
+source-wordcount: '338'
+ht-degree: 31%
 
 ---
 
@@ -58,7 +55,7 @@ Más información:
 * [Caso de uso: Ampliación del recurso de perfil con un nuevo campo](../../developing/using/extending-the-profile-resource-with-a-new-field.md)
 * [Caso de uso: Ampliación de las suscripciones a un recurso de aplicación](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)
 
-## Trabajar con API {#apis}
+## Trabajo con API {#apis}
 
 <img src="assets/do-not-localize/icon_api.svg" width="60px">
 
@@ -67,4 +64,4 @@ Con las API de Campaign Standard, cree integraciones para Adobe Campaign Standar
 ## Recursos adicionales
 
 * [Exportación e importación de recursos personalizados](https://helpx.adobe.com/campaign/kb/acs-get-started-with-cusres.html)
-* [Exportar datos de Campaign a Adobe Experience Platform](../../integrating/using/export-campaign-data.md)
+* [Exportación de datos de Campaign a Adobe Experience Platform](../../integrating/using/export-campaign-data.md)

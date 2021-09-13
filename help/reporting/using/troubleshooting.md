@@ -1,27 +1,25 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Solución de problemas
+title: Resolución de problemas
 description: Encuentre aquí preguntas comunes relacionadas con los informes dinámicos.
 audience: reporting
 content-type: reference
 topic-tags: troubleshooting
-feature: Creación de informes
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-source-git-commit: 81ffe6a7e59a745a6f61941dff69be85edf4fe45
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '703'
 ht-degree: 5%
 
 ---
 
-# Solución de problemas{#troubleshooting}
+# Resolución de problemas{#troubleshooting}
 
 En esta sección se pueden encontrar preguntas comunes relacionadas con los informes dinámicos.
 
-## Para aperturas únicas y clics únicos, el recuento de la fila agregada no coincide con los de filas individuales {#unique-open-clicks-no-match}
+## En el caso de aperturas únicas y clics únicos, el recuento de la fila agregada no coincide con los de filas individuales {#unique-open-clicks-no-match}
 
 Este es un comportamiento esperado.
 Podemos tomar el siguiente ejemplo para explicar este comportamiento.

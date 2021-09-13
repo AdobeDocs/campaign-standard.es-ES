@@ -1,19 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Invocación de un recurso mediante una clave de identificación compuesta
 description: Obtenga información sobre cómo llamar a un recurso mediante una clave de identificación compuesta
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: c7aca0c3-525d-4195-8c04-2fad32ca43b7
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '588'
 ht-degree: 7%
 
 ---
-
 
 # Invocación de un recurso mediante una clave de identificación compuesta{#calling-a-resource-using-a-composite-identification-key}
 
@@ -33,7 +30,7 @@ Temas relacionados:
 * [Definición de claves de identificación](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
 * [API de REST del Campaign Standard](../../api/using/get-started-apis.md)
 
-## Paso 1: Configure la clave de identificación{#step-1-configure-the-identification-key}
+## Paso 1: Configuración de la clave de identificación{#step-1-configure-the-identification-key}
 
 >[!NOTE]
 > Los conceptos globales al configurar claves de identificación se detallan en [esta sección](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
@@ -57,7 +54,7 @@ Temas relacionados:
 
 1. Ahora puede configurar la definición del filtro para poder llamar al recurso mediante su clave de identificación.
 
-## Paso 2: Configurar la definición del filtro{#step-2-configure-the-filter-definition}
+## Paso 2: Configuración de la definición del filtro{#step-2-configure-the-filter-definition}
 
 >[!NOTE]
 > Los conceptos globales al configurar definiciones de filtro se detallan en [esta sección](../../developing/using/configuring-filter-definition.md).

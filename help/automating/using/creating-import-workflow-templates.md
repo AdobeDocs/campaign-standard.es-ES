@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Creación de plantillas de flujo de trabajo para importar datos
 description: Obtenga información sobre cómo crear plantillas de flujo de trabajo para importar datos.
 audience: automating
@@ -9,14 +7,13 @@ topic-tags: workflow-general-operation
 feature: Workflows
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5974a52c-8721-4575-b452-2982d6497235
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1176'
-ht-degree: 57%
+source-wordcount: '1172'
+ht-degree: 58%
 
 ---
-
 
 # Creación de plantillas de flujo de trabajo para importar datos {#import-workflow-template}
 

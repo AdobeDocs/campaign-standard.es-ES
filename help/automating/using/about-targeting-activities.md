@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Acerca de las actividades de segmentación
+title: Acerca de las actividades de direccionamiento
 description: Se puede acceder a las actividades de segmentación desde la parte izquierda de la pantalla.
 audience: automating
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: targeting-activities
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 1cd471e3-5332-4119-b342-2c3c8503fdd1
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '434'
 ht-degree: 52%
 
 ---
 
-
-# Acerca de las actividades de segmentación{#about-targeting-activities}
+# Acerca de las actividades de direccionamiento{#about-targeting-activities}
 
 En la paleta, en el lado izquierdo de la pantalla, despliegue la sección **[!UICONTROL Targeting]**.
 
@@ -34,9 +31,9 @@ La sección **[!UICONTROL Targeting]** ofrece las siguientes actividades:
 * [Intersección](../../automating/using/intersection.md)
 * [Exclusión](../../automating/using/exclusion.md)
 * [Segmentación](../../automating/using/segmentation.md)
-* [Leer audiencia](../../automating/using/read-audience.md)
-* [Guardar audiencia](../../automating/using/save-audience.md)
-* [Deduplicación](../../automating/using/deduplication.md)
+* [Lectura de audiencia](../../automating/using/read-audience.md)
+* [Guardado de audiencia](../../automating/using/save-audience.md)
+* [Anulación de duplicación](../../automating/using/deduplication.md)
 * [Enriquecimiento](../../automating/using/enrichment.md)
 
 **[!UICONTROL Targeting]** actividades le permite definir  **códigos de** segmento para sus transiciones salientes. Puede crear informes basados en estos códigos de segmento para medir la eficacia de sus campañas de marketing. Para obtener más información, consulte [esta sección](../../reporting/using/creating-a-report-workflow-segment.md).

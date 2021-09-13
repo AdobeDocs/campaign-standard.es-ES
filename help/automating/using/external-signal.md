@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Señal externa
 description: La actividad Señal externa activa un flujo de trabajo cuando se cumplen correctamente algunas condiciones en otro flujo de trabajo.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: signal,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: a4fbd6b5-7cfb-44ad-bf3a-f3aabc122b77
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 95%
+source-wordcount: '600'
+ht-degree: 96%
 
 ---
-
 
 # Señal externa{#external-signal}
 

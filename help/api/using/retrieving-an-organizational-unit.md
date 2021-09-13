@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Recuperación de la unidad organizativa de un perfil
+title: Recuperación de las entidades organizativas de un perfil
 description: Aprenda a la unidad organizativa de un perfil con API.
 audience: developing
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 37048884-bd03-46ea-8e2e-a73ad568153b
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 13%
+source-wordcount: '79'
+ht-degree: 12%
 
 ---
 
-
-# Recuperación de la unidad organizativa de un perfil {#retrieving-organizational-units}
+# Recuperación de las entidades organizativas de un perfil {#retrieving-organizational-units}
 
 1. Realice una solicitud de GET en el PKey de perfil para recuperar la URL **orgUnit**.
 1. Realice una solicitud de GET en la dirección URL para recuperar más detalles sobre la unidad organizativa.

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: AND-join
 description: La actividad AND-join le permite sincronizar varias ramas de ejecución de un flujo de trabajo.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: andjoin,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b03c6df3-0104-4900-9468-46824d62e0a6
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 98%
+source-wordcount: '178'
+ht-degree: 100%
 
 ---
-
 
 # AND-join{#and-join}
 
@@ -45,4 +42,3 @@ La actividad **[!UICONTROL AND-join]** solo activa su transición de salida una 
 El siguiente ejemplo muestra dos ramas de flujo de trabajo antes de que se unan a la actividad **[!UICONTROL AND-join]**. La extracción de archivos solo se puede realizar cuando las tres transiciones de entrada de la actividad **[!UICONTROL AND-join]** están habilitadas.
 
 ![](assets/wkf_and-join_example.png)
-

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Segmentación
 description: La actividad Segmentación le permite crear uno o varios segmentos a partir de una población calculada por actividades ubicadas anteriormente en el flujo de trabajo.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: segmentation,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3761ee4a-1ce5-4f9e-b2a5-84388b6b9db8
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '851'
 ht-degree: 92%
 
 ---
-
 
 # Segmentación{#segmentation}
 
@@ -45,7 +42,7 @@ La actividad **[!UICONTROL Segmentation]** se suele colocar después de activida
 
 ## Configuración {#configuration}
 
-1. Arrastre y suelte una actividad **[!UICONTROL Segmentation]** en su flujo de trabajo.
+1. Arrastre y suelte una actividad de **[!UICONTROL Segmentation]** en el flujo de trabajo.
 1. Seleccione la actividad y, a continuación, ábrala con el botón ![](assets/edit_darkgrey-24px.png), en las acciones rápidas que aparecerán.
 1. En la pestaña **[!UICONTROL General]** , seleccione el **[!UICONTROL Resource type]** en el que debe llevarse a cabo la segmentación:
 

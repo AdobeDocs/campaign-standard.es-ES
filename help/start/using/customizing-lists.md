@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Personalización de listas
 description: '"Aprenda a personalizar la visualización y a actuar en las pantallas de lista en Adobe Campaign Standard:clasificación, filtrado, eliminación o duplicación de elementos. Las pantallas de listas muestran los elementos de uno o varios recursos determinados."'
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: Campañas
+feature: Campaigns
 role: User
 level: Intermediate
 exl-id: 651a53b4-e02f-4963-99e6-2e2c324b1c8c
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '393'
 ht-degree: 1%
 
 ---

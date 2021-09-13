@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Segmentación según grupos de edad
 description: Esta página presenta una segmentación de perfiles de base de datos según su grupo de edad. El objetivo del flujo de trabajo es enviar un correo electrónico específico a cada grupo de edad.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: segmentation,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: dab7ef86-4776-48f4-be9a-37de316e0dd9
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 65%
+source-wordcount: '198'
+ht-degree: 66%
 
 ---
-
 
 # Segmentación según grupos de edad {#segmentation-age-groups}
 

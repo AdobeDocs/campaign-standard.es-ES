@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Modelo de datos
 description: Obtenga información sobre el modelo de datos
 audience: developing
@@ -8,14 +6,13 @@ content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: a326b38f-ca88-4a44-a7c2-b6e34497a364
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '213'
 ht-degree: 11%
 
 ---
-
 
 # Servicio (nms:service)
 
@@ -23,7 +20,7 @@ ht-degree: 11%
 
 <table>
                <tr>
-                  <th>Name</th>
+                  <th>Nombre</th>
                   <th>Etiqueta</th>
                   <th>Tipo (longitud)</th>
                   <th>Valores de enumeración</th>

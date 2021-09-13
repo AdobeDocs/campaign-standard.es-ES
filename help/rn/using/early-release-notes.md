@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Notas de la versión anteriores
 description: Notas de la versión anteriores
-feature: Información general
+feature: Overview
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 89514dad1e318f32dafd3d8add664c37b03c8fb7
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 45%
+source-wordcount: '413'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +21,6 @@ Esta página describe las nuevas funciones, mejoras y correcciones incluidas en 
 >[!CAUTION]
 >
 > Este contenido está sujeto a cambios sin previo aviso hasta la fecha de actualización de los entornos de ensayo. Obtenga más información en la [página de planificación de versiones](../../rn/using/release-planning.md).
-
 
 ## Versión 21.3: septiembre de 2021 {#release-21-3---sept-2021}
 
@@ -62,13 +59,13 @@ Esta página describe las nuevas funciones, mejoras y correcciones incluidas en 
 <tbody> 
 <tr> 
 <td>
-<p>La nueva función Pista de auditoría captura, en tiempo real, una lista completa de las acciones y eventos que se producen dentro de Adobe Campaign. Incluye una forma de autoservicio de acceder a un historial de datos para responder preguntas como:</p>
+<p>La nueva pista de auditoría captura, en tiempo real, una lista completa de las acciones y los eventos que se producen dentro de Adobe Campaign. Incluye una forma de autoservicio de acceder a un historial de datos para responder preguntas como las siguientes:</p>
 <ul>
 <li>¿Qué ha pasado con este flujo de trabajo y quién lo actualizó por última vez?</li>
 <li>¿Quién hizo los últimos cambios?</li>
 <li>¿Cuál era el estado anterior?</li>
 </ul>
-<p>Adobe Campaign ahora audita las acciones de creación, edición y eliminación para: flujos de trabajo, opciones, recursos personalizados. También se realiza un seguimiento de las modificaciones de esos elementos.</p>
+<p>Adobe Campaign ahora audita las acciones de creación, edición y eliminación para flujos de trabajo, opciones, recursos personalizados. También se realiza un seguimiento de las modificaciones de esos elementos.</p>
 <!--<p>For more information refer to the <a href="../../administration/using/audit.md">detailed documentation</a>.
 </p>-->
 </td> 
@@ -86,7 +83,7 @@ Esta página describe las nuevas funciones, mejoras y correcciones incluidas en 
 <tbody> 
 <tr> 
 <td>
-<p>Ahora puede ejecutar flujos de trabajo de campaña en modo de diagnóstico. Este modo registra información para ayudar a solucionar los problemas de ejecución. El plan de ejecución completo se registra si una consulta de flujo de trabajo tarda, de forma predeterminada, más de un minuto.</p>
+<p>Ahora puede ejecutar flujos de trabajo de la campaña en modo de diagnóstico. Este modo registra información para solucionar los problemas de ejecución. El plan de ejecución completo se registra si una consulta de flujo de trabajo tarda, de forma predeterminada, más de un minuto.</p>
 <!--<p>For more information refer to the <a href="../../administration/using/audit.md">detailed documentation</a>.
 </p>-->
 </td> 
@@ -96,7 +93,7 @@ Esta página describe las nuevas funciones, mejoras y correcciones incluidas en 
 
 **Mejoras**
 
-* Al crear una entrega recurrente en un flujo de trabajo, vinculado a un contenido de Adobe Experience Manager, el estado de aprobación del contenido ahora se comprueba antes de enviarlo.
+* Al crear una entrega recurrente en un flujo de trabajo, vinculado a un contenido de Adobe Experience Manager, el estado de aprobación del contenido ahora se comprueba antes de enviarla.
 * El límite de conexión a la base de datos ahora está alineado con el paquete de Campaign para evitar errores de conexión.
 * Se ha añadido una comprobación de coherencia al crear índices en recursos personalizados y se han mejorado los mensajes de error.
 
@@ -104,5 +101,5 @@ Esta página describe las nuevas funciones, mejoras y correcciones incluidas en 
 
 * Se ha corregido un error de tiempo de espera al importar contenido de correo electrónico desde una dirección URL. (CAMP-49054)
 * Se ha corregido un error (-69) que se producía al finalizar la sesión, al acceder a una dirección URL con marcador o al actualizar una página desde el explorador. (CAMP-49003, CAMP-48930, CAMP-48894)
-* Se ha corregido un problema que se producía al sincronizar reglas desde el servidor de envío heredado al nuevo servidor de envío. (CAMP-48923)
+* Se ha corregido un problema que se producía al sincronizar reglas desde el servidor de capacidad de entrega heredado al nuevo. (CAMP-48923)
 * Se ha corregido un problema que se producía al cargar una plantilla de correo electrónico con etiquetas HTML en el Diseñador de correo electrónico. (CAMP-48243)

@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Uso de recursos diferentes de dimensiones de segmentación
+title: Uso de recursos diferentes de dimensiones de direccionamiento
 description: Aprenda a utilizar un recurso que sea diferente a la dimensión de segmentación.
 audience: automating
 content-type: reference
@@ -10,16 +8,15 @@ context-tags: query,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5805bdfa-fb33-4a46-ba1e-7a10b067349b
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '293'
 ht-degree: 81%
 
 ---
 
-
-# Uso de recursos diferentes de dimensiones de segmentación {#using-resources-different-from-targeting-dimensions}
+# Uso de recursos diferentes de dimensiones de direccionamiento {#using-resources-different-from-targeting-dimensions}
 
 Estos casos de uso presentan cómo utilizar un recurso que es diferente de la dimensión de segmentación, por ejemplo, para buscar un registro específico en una tabla distante.
 

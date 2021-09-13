@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Invocación de un flujo de trabajo con parámetros externos
 description: Esta sección detalla cómo llamar a un flujo de trabajo con parámetros externos.
 audience: automating
@@ -9,14 +7,13 @@ topic-tags: workflow-general-operation
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 7a21f4f6-316f-4f3d-9d53-37d406a46aae
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '977'
 ht-degree: 1%
 
 ---
-
 
 # Caso de uso {#use-case}
 

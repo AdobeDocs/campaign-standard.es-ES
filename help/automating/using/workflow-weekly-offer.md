@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Creación de un envío semanal
+title: Creación de una entrega semanal
 description: Este caso de uso muestra cómo crear un envío semanal.
 audience: automating
 content-type: reference
@@ -10,16 +8,15 @@ context-tags: workflow,use-case,query,delivery,scheduler
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 32d9d174-8438-48d7-b876-33a0c35d9549
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 80%
+source-wordcount: '242'
+ht-degree: 81%
 
 ---
 
-
-# Creación de un envío de correo electrónico todos los martes{#creating-email-every-tuesday}
+# Creación de una entrega de correo electrónico todos los martes{#creating-email-every-tuesday}
 
 Puede enviar un correo electrónico todos los martes a todos los clientes para ofertas especiales.
 
@@ -44,7 +41,7 @@ Puede enviar un correo electrónico todos los martes a todos los clientes para o
 >
 >Para iniciar el flujo de trabajo en un **[!UICONTROL Time Zone]** específico, en la pestaña **[!UICONTROL Execution options]**, configure el huso horario del planificador en el campo Huso horario. De forma predeterminada, el huso horario seleccionado es el definido en las propiedades del flujo de trabajo (consulte [Creación de un flujo de trabajo](../../automating/using/building-a-workflow.md)).
 
-## Creación de una actividad de consulta {#creating-a-query-activity}
+## Creación de una actividad de consulta{#creating-a-query-activity}
 
 1. En **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, para seleccionar destinatarios, arrastre y suelte una actividad [Query](../../automating/using/query.md) y haga doble clic en ella.
 1. En **[!UICONTROL Shortcuts]** > **[!UICONTROL Profile]**, arrastre y suelte **[!UICONTROL Email]**.

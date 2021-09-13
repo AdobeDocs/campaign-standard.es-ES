@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Funciones de participación predictiva del usuario
 description: Aprenda a utilizar la puntuación de tiempo de envío y de participación predictiva.
 audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
-feature: Optimización del tiempo de envío
+feature: Send Time Optimization
 role: User
 level: Intermediate
 exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
-source-git-commit: 356bac989a6bd4c9039910e2d9c59f33ce1153f8
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 99%
+source-wordcount: '1045'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +31,6 @@ Adobe Campaign Standard ofrece dos nuevos modelos de aprendizaje automático: **
 
 >[!IMPORTANT]
 >Esta capacidad no está disponible de forma predeterminada como parte del producto. La implementación requiere la participación de Adobe Consulting. Póngase en contacto con el representante de su Adobe para obtener más información.
-
 
 ## Optimización del tiempo de envío predictivo{#predictive-send-time}
 
@@ -108,7 +105,6 @@ AddHours([currentDelivery/scheduling/@contactDate],
 >[!NOTE]
 >
 >El modelo de datos puede variar según la implementación.
-
 
 
 ## Puntuación de participación predictiva {#predictive-scoring}

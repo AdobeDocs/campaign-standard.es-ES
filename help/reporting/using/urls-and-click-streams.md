@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: URL y flujos de clics
 description: Con las direcciones URL y los informes predefinidos de flujos de clics, conozca el éxito de las direcciones URL en los envíos.
 audience: reporting
@@ -10,14 +8,13 @@ context-tags: deliveryTopUrlReport,main;campaignTopUrlReport,main;programTopUrlR
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: f9bf39a3-7dca-429e-97bc-454b04f0d2a2
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 7%
+source-wordcount: '116'
+ht-degree: 6%
 
 ---
-
 
 # URL y flujos de clics{#urls-and-click-streams}
 
@@ -31,4 +28,3 @@ La tabla **Los vínculos más visitados** contiene los datos disponibles para el
 
 * **Haga clic en**: Número de veces que se hizo clic en el contenido en una entrega.
 * **Clics** únicos: El número de destinatarios que hicieron clic en el contenido de una entrega.
-

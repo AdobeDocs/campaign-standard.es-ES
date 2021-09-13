@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Creación y actualización de información de perfil basada en datos de aplicaciones móviles
 description: Obtenga información sobre cómo crear y actualizar información de perfil basada en datos de aplicaciones móviles.
 audience: channels
@@ -11,9 +9,9 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1010'
 ht-degree: 5%
 
 ---
@@ -39,7 +37,7 @@ Hay que seguir varios pasos de configuración para habilitar las notificaciones 
 
 ## Paso 1: Ampliación del recurso de perfil para notificaciones push/suscripciones
 
-Para poder crear o actualizar el recurso Perfil con datos PII, primero debe ampliar el recurso Perfil con los campos deseados. Para ello:
+Para poder crear o actualizar el recurso Perfil con datos PII, primero debe ampliar el recurso Perfil con los campos deseados. Para ello, haga lo siguiente:
 
 * Identifique los campos PII que envía la aplicación móvil.
 * Identifique el campo que se utilizará para la reconciliación a fin de asociar los datos PII con los datos de perfil.

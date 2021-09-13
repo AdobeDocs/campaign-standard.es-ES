@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Acerca de la integración de Campaign con datos de Puntos de interés
 description: Recopilando los datos de puntos de interés de los suscriptores de su aplicación móvil, envíe mensajes de marketing basados en la ubicación a sus suscriptores a través de la integración en Adobe Campaign.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
-feature: Audiencias
+feature: Audiences
 role: Data Architect
 level: Intermediate
 exl-id: 358194f9-34ce-4dd5-b9b2-1a7d541879ab
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '196'
 ht-degree: 6%
 
 ---

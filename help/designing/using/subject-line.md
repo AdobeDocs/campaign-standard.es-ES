@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Definición del asunto y del remitente de un correo electrónico
 description: Descubra cómo definir la línea de asunto y el remitente de un correo electrónico en el Diseñador de correo electrónico.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Diseño de correo electrónico
+feature: Email Design
 role: User
 level: Beginner
 exl-id: 22112517-40f7-4966-84bf-40794e5d0f79
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '338'
 ht-degree: 12%
 
 ---

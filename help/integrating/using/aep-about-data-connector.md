@@ -1,23 +1,21 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Acerca de Adobe Experience Platform Data Connector
+title: Acerca del conector de datos de Adobe Experience Platform
 description: Administre esquemas XDM para que los datos del Campaign Standard estén disponibles en Adobe Experience Platform.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Integración de Microsoft CRM
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: f4fcf256-e030-4d7b-b4b7-2448acc2ae1c
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '771'
 ht-degree: 5%
 
 ---
 
-# Acerca de Adobe Experience Platform Data Connector {#about-aep-data-connector}
+# Acerca del conector de datos de Adobe Experience Platform {#about-aep-data-connector}
 
 >[!IMPORTANT]
 >

@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Acerca de las plantillas
 description: '"Las plantillas de Adobe Campaign le permiten preconfigurar parámetros según sus necesidades: las plantillas pueden contener una configuración completa o parcial de la actividad de marketing para simplificar el uso de Adobe Campaign para los usuarios finales no técnicos."'
 audience: start
 content-type: reference
 topic-tags: managing-templates
-feature: Campañas
+feature: Campaigns
 role: User
 level: Beginner
 exl-id: a0f02f69-d72d-48ca-8b38-aaab8d1acfad
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '402'
 ht-degree: 100%
 
 ---

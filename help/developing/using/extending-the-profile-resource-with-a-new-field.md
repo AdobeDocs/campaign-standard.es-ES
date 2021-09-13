@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Ampliación del recurso de perfil con un nuevo campo
 description: Obtenga información sobre cómo ampliar el recurso de perfil.
 audience: developing
@@ -9,14 +7,13 @@ topic-tags: use-cases--extending-resources
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 625d5e10-3d68-440e-a60c-4fcdfca34b5f
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 99%
+source-wordcount: '1022'
+ht-degree: 100%
 
 ---
-
 
 # Ampliación del recurso de perfil con un nuevo campo{#extending-the-profile-resource-with-a-new-field}
 
@@ -43,7 +40,7 @@ Temas relacionados:
 * [Administración de perfiles](../../audiences/using/about-profiles.md)
 * [Administración de perfiles de prueba](../../audiences/using/managing-test-profiles.md)
 
-## Paso 1: Ampliación del recurso de perfil{#step-1--extend-the-profile-resource}
+## Paso 1: Ampliación del recurso de perfil {#step-1--extend-the-profile-resource}
 
 Para crear el nuevo campo **Interés** para nuestros perfiles, primero debe ampliar el recurso listo para usar **[!UICONTROL Profiles (profile)]**.
 
@@ -97,7 +94,7 @@ Así, se configurará el campo. Ahora, tenemos que ampliarlo al perfil de prueba
 >
 >Si no necesita ampliar el recurso de perfil de prueba, puede ir al paso Publicación.
 
-## Paso 2: Ampliación del perfil de prueba{#step-2--extend-the-test-profile}
+## Paso 2: Ampliación del perfil de prueba {#step-2--extend-the-test-profile}
 
 Para comprobar si el nuevo campo creado está correctamente configurado, puede probarlo entregando el envío a los perfiles de prueba. En primer lugar, el nuevo campo también debe llevarse a cabo en los perfiles de prueba.
 

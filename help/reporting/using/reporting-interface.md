@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Interfaz de informes
 description: Obtenga más información sobre la base de la interfaz de informes dinámicos y cómo navegar por las distintas pestañas y menús.
 audience: reporting
@@ -9,14 +7,13 @@ topic-tags: about-reporting
 feature: Reporting
 role: Leader
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 37e9acff-9576-472f-9fdf-2c0f6da773d1
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '731'
 ht-degree: 3%
 
 ---
-
 
 # Interfaz de informes{#reporting-interface}
 
@@ -95,7 +92,7 @@ La pestaña **Edit** le permite:
 * **Deshacer**: Cancela la última acción del panel.
 * **Borrar todo**: Elimina todos los paneles del tablero.
 
-### Insertar pestaña {#insert-tab}
+### Insertar, ficha {#insert-tab}
 
 ![](assets/tab_insert.png)
 
@@ -106,7 +103,7 @@ La pestaña **Insert** permite personalizar los informes mediante la adición de
 * **Nueva línea**: Agrega un nuevo gráfico de líneas al tablero.
 * **Nueva barra**: Agrega un nuevo gráfico de barras al tablero.
 
-### Compartir pestaña {#share-tab}
+### Compartir, ficha {#share-tab}
 
 ![](assets/tab_share_1.png)
 

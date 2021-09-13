@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Inicio y final (Start y End)
 description: Las actividades Start y End permiten marcar claramente dónde termina y dónde comienza el flujo de trabajo.
 audience: automating
@@ -9,16 +7,15 @@ topic-tags: execution-activities
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 1dfc547f-747d-403e-a5b7-a68f56191c71
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 98%
+source-wordcount: '274'
+ht-degree: 100%
 
 ---
 
-
-# Inicio y final (Start y End){#start-and-end}
+# Inicio y final{#start-and-end}
 
 ## Descripción {#description}
 
@@ -51,4 +48,3 @@ En la pestaña **[!UICONTROL External signal]** de una actividad **[!UICONTROL E
 El siguiente ejemplo muestra cómo se ejecuta un flujo de trabajo complejo con una actividad **[!UICONTROL Start]** y varias actividades **[!UICONTROL End]**. La casilla **[!UICONTROL Stop all tasks in progress]** se ha marcado para la primera actividad **[!UICONTROL End]**. Una vez finalizada la tarea correspondiente, se detendrá todo el flujo de trabajo: tendrá el mismo efecto que si se hubiera seleccionado el botón ![](assets/stop_darkgrey-24px.png) (consulte la sección [Barra de acciones](../../automating/using/workflow-interface.md#action-bar)).
 
 ![](assets/wkf_start_end_example.png)
-

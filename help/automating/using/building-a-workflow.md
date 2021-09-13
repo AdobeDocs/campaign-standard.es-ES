@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Creación de un flujo de trabajo
 description: Esta sección detalla los principios fundamentales y las prácticas recomendadas para crear un nuevo flujo de trabajo.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: workflow,wizard;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 7553588c-4679-4dfd-93cb-e705ad4dc0aa
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '983'
 ht-degree: 96%
 
 ---
-
 
 # Creación de un flujo de trabajo{#building-a-workflow}
 
@@ -134,7 +131,7 @@ De forma predeterminada, las actividades no están configuradas y no procesarán
 1. Guarde la actividad y repita estas operaciones para cada actividad del flujo de trabajo.
 1. Guarde el flujo de trabajo.
 
-## Vídeo tutorial {#video}
+## Tutorial en vídeo {#video}
 
 Este vídeo muestra cómo crear un flujo de trabajo.
 

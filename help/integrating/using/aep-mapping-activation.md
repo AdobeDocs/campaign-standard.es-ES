@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Activación de la asignación
 description: Obtenga información sobre cómo activar la asignación de datos
 audience: administration
@@ -9,14 +7,13 @@ topic-tags: configuring-channels
 feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d7ca0de6-7f7b-4e31-877c-909d962c5f53
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
-
 
 # Activación de la asignación {#mapping-activation}
 
@@ -26,7 +23,7 @@ ht-degree: 0%
 
 Cuando finalice la definición de la asignación, puede publicarla. Después del paso de implementación, la duplicación de datos entre Campaign Standard y Adobe Experience Platform se inicia automáticamente. En cualquier momento, puede detener la replicación haciendo clic en el botón **[!UICONTROL Stop]** .
 
-Según las modificaciones de asignación, puede elegir reenviar todos los registros a Adobe Experience Platform.
+Según las modificaciones de la asignación, puede elegir reenviar todos los registros a Adobe Experience Platform.
 
 ![](assets/aep_publishmapping.png)
 

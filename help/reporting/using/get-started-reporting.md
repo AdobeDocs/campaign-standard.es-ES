@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Introducción al sistema de informes dinámicos
 description: Analice el éxito de sus campañas en informes dinámicos integrados o personalizados.
 audience: reporting
@@ -9,14 +7,13 @@ topic-tags: about-reporting
 feature: Reporting
 role: Leader
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9ecb4ba6-c7a3-4b1f-ab73-5eb512ebb016
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '372'
 ht-degree: 20%
 
 ---
-
 
 # Introducción al sistema de informes dinámicos {#get-started-reporting}
 
@@ -44,7 +41,7 @@ Más información:
 * [Acerca de los informes dinámicos](../../reporting/using/about-dynamic-reports.md)
 * [Interfaz de informes](../../reporting/using/reporting-interface.md)
 
-## Cree sus informes {#build-reports}
+## Creación de informes {#build-reports}
 
 <img src="assets/do-not-localize/icon_build.svg" width="60px">
 
@@ -58,7 +55,7 @@ Más información:
 * [Cálculo de indicador](../../reporting/using/indicator-calculation.md)
 * [Lista de informes](../../reporting/using/defining-the-report-period.md)
 
-## Personalización de los informes {#customize-reports}
+## Personalización de informes {#customize-reports}
 
 <img src="assets/do-not-localize/icon_customize.svg" width="60px">
 
@@ -81,7 +78,7 @@ Más información:
 * [Exportación de registros](../../automating/using/exporting-logs.md)
 * [Acerca de la integración de Campaign-Analytics](../../integrating/using/about-campaign-analytics-integration.md)
 
-## Vídeo tutorial {#video}
+## Tutorial en vídeo {#video}
 
 Este vídeo ofrece información general sobre las funciones de creación de informes de Adobe Campaign Standard.
 

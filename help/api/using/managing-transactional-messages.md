@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Administración de mensajes transaccionales
 description: Obtenga información sobre cómo administrar mensajes transaccionales con API.
 audience: developing
@@ -9,14 +7,13 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '678'
 ht-degree: 3%
 
 ---
-
 
 # Administración de mensajes transaccionales {#managing-transactional-messages}
 
@@ -146,5 +143,5 @@ En la respuesta, el campo &quot;status&quot; permite saber si el evento se ha pr
 * **ignorado**: el envío ignoró el evento, normalmente cuando una dirección está en cuarentena.
 * **deliveryFailed**: se produjo un error de entrega mientras se procesaba el evento.
 * **routingFailed**: error en la fase de enrutamiento: esto puede ocurrir, por ejemplo, cuando no se encuentra el tipo de evento especificado.
-* **tooOld**: el evento caducó antes de poder procesarse; esto puede ocurrir por varios motivos, por ejemplo, cuando una entrega falla varias veces (lo que hace que el evento ya no esté actualizado) o cuando el servidor ya no puede procesar eventos después de sobrecargarse.
+* **tooOld**: el evento caducó antes de poder procesarse; esto puede ocurrir por varios motivos, por ejemplo, cuando una entrega falla varias veces (lo que provoca que el evento ya no esté actualizado) o cuando el servidor ya no puede procesar eventos después de sobrecargarse.
 * **targetingFailed**: Campaign Standard no pudo enriquecer un vínculo que se está utilizando para la segmentación de mensajes.

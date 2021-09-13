@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Segmentación de las audiencias de Adobe Experience Platform
+title: Direccionamiento de las audiencias de Adobe Experience Platform
 description: Obtenga información sobre cómo dirigirse a las audiencias de Adobe Experience Platform dentro de flujos de trabajo.
 audience: automating
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: channel-activities
 feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 11e2cd7e-99b7-45cc-a0c2-41049128fe49
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '404'
 ht-degree: 5%
 
 ---
 
-
-# Segmentación de las audiencias de Adobe Experience Platform {#targeting-aep-audiences}
+# Direccionamiento de las audiencias de Adobe Experience Platform {#targeting-aep-audiences}
 
 >[!IMPORTANT]
 >

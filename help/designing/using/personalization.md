@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Personalización del contenido del correo electrónico
 description: Descubra cómo personalizar un correo electrónico en el Diseñador de correo electrónico.
 audience: designing
@@ -10,7 +8,7 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
-source-git-commit: 671fd9e7ff0551ae9ae5fec26cee0b4c4939ab2f
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '2583'
 ht-degree: 5%

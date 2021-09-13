@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Introducción a la administración de datos y procesos
 description: Automatice los procesos con flujos de trabajo, administre datos y audiencias, envíe mensajes, y mucho más.
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-feature: Flujos de trabajo
+feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: 7808aea42f417994a61fdde84a44299c0954b346
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '517'
 ht-degree: 40%
 
 ---

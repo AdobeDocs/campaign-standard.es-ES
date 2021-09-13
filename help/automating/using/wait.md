@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Espera
 description: La actividad Espera suspende momentáneamente la ejecución de una parte de un flujo de trabajo.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: wait,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 2ddc1b2b-0df5-4c91-a381-451cc094f2eb
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 99%
+source-wordcount: '296'
+ht-degree: 100%
 
 ---
-
 
 # Espera{#wait}
 
@@ -33,7 +30,7 @@ La actividad **[!UICONTROL Wait]** se utiliza para permitir que transcurra un ci
 
 ## Configuración {#configuration}
 
-1. Arrastre y suelte una actividad **[!UICONTROL Wait]** en su flujo de trabajo.
+1. Arrastre y suelte una actividad de **[!UICONTROL Wait]** en el flujo de trabajo.
 1. Seleccione la actividad y, a continuación, ábrala con el botón ![](assets/edit_darkgrey-24px.png), en las acciones rápidas que aparecerán.
 1. Especifique la **[!UICONTROL Duration]** de la espera entre la activación de las transiciones de entrada y salida de la actividad.
 
@@ -56,4 +53,3 @@ El flujo de trabajo se presenta de la siguiente manera:
 * Una actividad **[!UICONTROL Wait]** de 24 horas coloca una pausa entre el momento en que se envió la invitación y el resto del flujo de trabajo.
 * Un segundo **[!UICONTROL Query]** segmenta los perfiles que recibieron el primer correo electrónico, pero no hicieron clic en el vínculo de suscripción incluido en el mensaje.
 * Un segundo **[!UICONTROL Email delivery]** envía un recordatorio de la invitación a las personas seleccionadas.
-

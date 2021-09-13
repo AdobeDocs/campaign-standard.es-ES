@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Indicadores de seguimiento
 description: Con el informe integrado Tracking indicators , conozca el comportamiento de sus clientes cuando reciben mensajes de correo electrónico.
 audience: reporting
@@ -10,14 +8,13 @@ context-tags: deliveryTrackingReports,main;campaignTrackingReport,main;programTr
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5071c124-07b7-49c3-8f36-5928ded3c544
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 3%
+source-wordcount: '149'
+ht-degree: 2%
 
 ---
-
 
 # Indicadores de seguimiento{#tracking-indicators}
 
@@ -37,4 +34,3 @@ La tabla **[!UICONTROL Tracking indicators]** y el gráfico **Principales 5 env�
 * **Cancelación de suscripción**: El número de clics en el vínculo de suscripción.
 * **Correo no deseado:** el número de destinatarios que han declarado un correo electrónico como correo no deseado.
 * **Página espejo**: El número de clics en el vínculo de la página espejo.
-

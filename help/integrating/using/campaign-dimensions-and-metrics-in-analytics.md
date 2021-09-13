@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Dimensiones y métricas de Campaign en Analytics
 description: Conozca las diferentes dimensiones que puede encontrar en Adobe Analytics para iniciar el seguimiento de los envíos de correo electrónico desde Adobe Campaign.
 audience: integrating
@@ -9,14 +7,13 @@ topic-tags: working-with-campaign-and-analytics
 feature: Triggers
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6516c71a-efa8-4778-82bb-10615378f985
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '320'
 ht-degree: 7%
 
 ---
-
 
 # Dimensiones y métricas de Campaign en Analytics{#campaign-dimensions-and-metrics-in-analytics}
 
@@ -103,4 +100,3 @@ La campaña **[!UICONTROL metrics]** que se encuentra en Analytics se enumera a 
   </tr> 
  </tbody> 
 </table>
-

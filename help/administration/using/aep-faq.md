@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Preguntas frecuentes sobre la integración de Adobe Experience Platform SDK y Adobe Campaign
 description: Preguntas frecuentes sobre la integración de Adobe Experience Platform SDK y Adobe Campaign
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Configuración de instancia
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '914'
 ht-degree: 4%
 
 ---
@@ -26,7 +24,7 @@ La sección siguiente enumera preguntas comunes sobre esta sincronización.
 Para obtener más información sobre push o en la aplicación, consulte las siguientes preguntas frecuentes:
 
 * [Preguntas frecuentes sobre notificaciones push](../../channels/using/about-push-notifications.md#push-faq)
-* [Preguntas más frecuentes en la aplicación](../../channels/using/in-app-faq.md)
+* [Preguntas frecuentes en la aplicación](../../channels/using/in-app-faq.md)
 * [Preguntas frecuentes sobre el flujo de trabajo técnico Sincronización con Launch](../../administration/using/syncwithlaunch-faq.md)
 
 ## Recursos útiles antes de empezar {#resource-mobile-property}

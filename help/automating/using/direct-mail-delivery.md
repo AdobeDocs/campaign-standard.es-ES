@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Envío por correo postal
 description: La actividad envío por correo postal le permite configurar el envío de un único correo postal o de uno recurrente en un flujo de trabajo.
 audience: automating
@@ -10,16 +8,15 @@ context-tags: directMail,workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: c7854b7b-f955-47ce-99d6-86b3186fd297
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 98%
+source-wordcount: '914'
+ht-degree: 99%
 
 ---
 
-
-# Envío por correo postal{#direct-mail-delivery}
+# Entrega de correo directo{#direct-mail-delivery}
 
 ## Descripción {#description}
 
@@ -45,11 +42,11 @@ La preparación del mensaje se activa según los parámetros de ejecución del f
 **Temas relacionados:**
 
 * [Caso de uso: Emparejamiento de envíos de correo electrónico y correo directo](../../automating/using/coupling-email-direct-mail.md)
-* [Acerca del correo postal](../../channels/using/about-direct-mail.md)
+* [Acerca del correo directo](../../channels/using/about-direct-mail.md)
 
 ## Configuración {#configuration}
 
-1. Arrastre y suelte una actividad **[!UICONTROL Direct mail delivery]** en su flujo de trabajo.
+1. Arrastre y suelte una actividad de **[!UICONTROL Direct mail delivery]** en el flujo de trabajo.
 1. Seleccione la actividad y, a continuación, ábrala con el botón ![](assets/edit_darkgrey-24px.png), en las acciones rápidas que aparecerán.
 
    >[!NOTE]

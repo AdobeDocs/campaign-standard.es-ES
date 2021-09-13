@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Preguntas frecuentes sobre el flujo de trabajo técnico Sincronización con Launch
 description: Preguntas frecuentes sobre el flujo de trabajo técnico de Launch.
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Configuración de instancia
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: aaaceb3a-5e54-47da-9be4-b70747282830
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '483'
 ht-degree: 2%
 
 ---

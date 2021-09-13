@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Envío de un correo electrónico con campos enriquecidos
 description: El ejemplo siguiente muestra cómo enviar un correo electrónico con datos adicionales recuperados de un archivo externo a través de la actividad de carga de archivo.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: fileImport,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5ca7571d-d4d2-4b59-86d4-4f1f3a620b54
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 74%
+source-wordcount: '351'
+ht-degree: 75%
 
 ---
-
 
 # Envío de un correo electrónico con campos enriquecidos {#sending-email-enriched-fields}
 

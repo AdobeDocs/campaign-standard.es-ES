@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Uso de plantillas de envíos
+title: Uso de plantillas de envío
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: '"Las plantillas de envíos ofrecen una mayor eficiencia al proporcionar escenarios listos para usar para los tipos de actividades más comunes."'
-feature: Entrega
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ca134a7f-9035-4885-b4cb-1170b6ec10cc
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '815'
 ht-degree: 59%
 
 ---
@@ -24,7 +22,7 @@ Las plantillas de envíos ofrecen una mayor eficiencia al proporcionar escenario
 
 Obtenga más información sobre las plantillas de envíos en [esta sección](../../start/using/marketing-activity-templates.md).
 
-## Introducción a las plantillas de envíos {#gs-templates}
+## Introducción a las plantillas de entregas {#gs-templates}
 
 Una [plantilla de envíos](../../start/using/marketing-activity-templates.md#creating-a-new-template) le permite definir una vez un conjunto de propiedades técnicas y funcionales que se adaptan a sus necesidades y pueden reutilizarse en futuros envíos. A continuación, puede ahorrar tiempo y estandarizar envíos cuando sea necesario.
 

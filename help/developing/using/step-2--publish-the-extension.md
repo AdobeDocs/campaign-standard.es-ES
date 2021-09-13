@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: '"Paso 2: Publicar la extensión"'
 description: Obtenga información sobre cómo publicar la extensión en Campaign Standard. Parte 2 de una serie.
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
-feature: Modelo de datos
+feature: Data Model
 role: Developer
 level: Experienced
 exl-id: e3bebded-764c-4d2e-9580-c413f1576a2c
-source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 28%
+source-wordcount: '106'
+ht-degree: 29%
 
 ---
 

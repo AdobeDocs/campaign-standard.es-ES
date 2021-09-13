@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Introducción a los informes dinámicos
 description: Con los informes dinámicos, arrastre y suelte variables y dimensiones en su entorno de forma libre y analice el éxito de sus campañas.
 audience: reporting
@@ -9,14 +7,13 @@ topic-tags: about-reporting
 feature: Reporting
 role: Leader
 level: Beginner
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: fc3b28f3-63f6-4edc-923d-c7eb7925d1b7
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '791'
 ht-degree: 6%
 
 ---
-
 
 # Introducción a los informes dinámicos {#about-dynamic-reports}
 

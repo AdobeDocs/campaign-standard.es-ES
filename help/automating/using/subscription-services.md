@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Servicios de suscripción
 description: La actividad Servicios de suscripción le permite recopilar perfiles en masa y suscribirlos a un servicio o cancelar dicha suscripción.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: setOfService,workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 612b6203-1cc9-4015-a026-e5a249f3d03d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 97%
+source-wordcount: '1110'
+ht-degree: 98%
 
 ---
-
 
 # Servicios de suscripción {#subscription-services}
 
@@ -161,4 +158,3 @@ El flujo de trabajo se presenta de la siguiente manera:
    El **[!UICONTROL Operation type]** se identifica como proveniente del campo de **operación** del archivo. Aquí solo se pueden seleccionar los campos booleano o entero. Si la columna del archivo que contiene la operación que se va a realizar no aparece en la lista, asegúrese de que ha configurado correctamente el formato de columna en la actividad de **[!UICONTROL Load file]**, como se ha explicado anteriormente en este ejemplo.
 
    ![](assets/subscription_activity_example_from_file.png)
-

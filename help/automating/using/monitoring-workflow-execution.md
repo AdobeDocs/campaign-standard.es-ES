@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Control de la ejecución del flujo de trabajo
 description: Obtenga información sobre cómo monitorizar la ejecución de un flujo de trabajo.
 audience: automating
@@ -10,18 +8,17 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d2ce702b-92d1-4b94-bd47-34ef46a8bd9f
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '577'
 ht-degree: 6%
 
 ---
 
-
 # Control de la ejecución del flujo de trabajo {#monitoring}
 
-## Registro y tareas de flujo de trabajo {#workflow-log-and-tasks}
+## Registro y tareas del flujo de trabajo {#workflow-log-and-tasks}
 
 El icono ![](assets/printpreview_darkgrey-24px.png) abre el registro de flujo de trabajo y el menú de tareas.
 

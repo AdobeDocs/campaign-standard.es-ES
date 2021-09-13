@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Envío de una notificación push recurrente con un flujo de trabajo
 description: En este ejemplo, se envía una notificación push personalizada todos los primeros días del mes a las 20:00 h a los suscriptores de la aplicación móvil según sus husos horarios.
 audience: automating
@@ -9,14 +7,13 @@ topic-tags: channel-activities
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d5e6034c-3673-4069-ac0b-49c7ad07259d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '475'
 ht-degree: 5%
 
 ---
-
 
 # Envío de una notificación push recurrente con un flujo de trabajo {#sending-a-recurring-push-notification-with-a-workflow}
 

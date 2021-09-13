@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Prácticas recomendadas del modelo de datos en Adobe Campaign Standard
 description: Conozca las prácticas recomendadas al diseñar su modelo de datos de Adobe Campaign Standard.
 audience: developing
@@ -10,14 +8,13 @@ context-tags: cusResource,overview;eventCusResource,overview
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 58d4e02f-3c9a-4e5d-a6aa-fdbcec0d8dda
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1560'
+source-wordcount: '1556'
 ht-degree: 1%
 
 ---
-
 
 # Prácticas recomendadas del modelo de datos{#data-model-best-practices}
 
@@ -160,7 +157,7 @@ Para garantizar un mejor rendimiento en cualquier momento, siga las prácticas r
 * Utilice una o varias tablas de referencia en lugar de duplicar un campo en cada fila. Al utilizar pares clave/valor, se prefiere elegir una clave numérica.
 * Una cadena corta sigue siendo aceptable. En caso de que las tablas de referencias ya estén implementadas en un sistema externo, reutilizar la misma facilitará la integración de datos con Adobe Campaign.
 
-### Relaciones de uno a varios {#one-to-many-relationships}
+### Relaciones &quot;uno a varios&quot; {#one-to-many-relationships}
 
 * El diseño de datos afecta a la capacidad de uso y la funcionalidad. Si diseña su modelo de datos con muchas relaciones de uno a varios, a los usuarios les resultará más difícil construir una lógica significativa en la aplicación. La lógica de filtro &quot;uno a varios&quot; puede resultar difícil para los especialistas en marketing que no son técnicos construir y comprender correctamente.
 * Es bueno tener todos los campos esenciales en una tabla porque facilita a los usuarios la creación de consultas. A veces también es bueno para el rendimiento duplicar algunos campos entre tablas si puede evitar una unión.

@@ -1,16 +1,13 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Personalización de listas
-description: '"Aprenda a personalizar la visualización y a actuar en pantallas de lista en Adobe Campaign Standard:ordenar, filtrar, eliminar o duplicar elementos. Las pantallas de listas muestran elementos de uno o varios recursos determinados."'
+description: '"Aprenda a personalizar la visualización y a actuar en las pantallas de lista en Adobe Campaign Standard:clasificación, filtrado, eliminación o duplicación de elementos. Las pantallas de listas muestran los elementos de uno o varios recursos determinados."'
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: tm+mt
-source-git-commit: 1e7359db2de1a9c420af33ac85c0597c098ae3f8
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '577'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -36,75 +33,75 @@ ht-degree: 5%
     </td>
 </tr>
 <tr>
-<td>Diseñar sus envíos</td>
-<td>Crear envíos</td>
-<td>Personalice y haga dinámicos sus envíos</td>
-<td>Rastrear y monitorear sus envíos</td>
+<td>Diseño de los envíos</td>
+<td>Creación de entregas</td>
+<td>Personalización y dinamización de las entregas</td>
+<td>Seguimiento y monitorización de los envíos</td>
 <td>Informes de configuración</td>
 </tr>
 </table>
 
-## Diseñar sus envíos
+## Diseño de los envíos
 
 <img width="60px" alt="condiciones" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lugar de vestibulo mauris libero, no congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehula augue, una lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras y vehículos nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lugar de vestibulum mauris libero, no congue sapien rhoncus id. Luctus blandit ligula entero. Nulla quis vehula augue, una lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras y vehículos nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-**Puede obtener más información**
+**Más información**
 
 * xxxx
 * xxxx
 
-## Crear envíos
+## Creación de entregas
 
 <img width="60px" alt="condiciones" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lugar de vestibulo mauris libero, no congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehula augue, una lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras y vehículos nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lugar de vestibulum mauris libero, no congue sapien rhoncus id. Luctus blandit ligula entero. Nulla quis vehula augue, una lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras y vehículos nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-**Puede obtener más información**
+**Más información**
 
 * xxxx
 * xxxx
 
-## Personalice y haga dinámicos sus envíos
+## Personalización y dinamización de las entregas
 
 <img width="60px" alt="condiciones" src="assets/icon_profile.svg"/>
 
-Preste atención a los clientes y mejore la tasa de respuesta mediante el uso de contenido y encabezados personalizados según sus perfiles, preferencias y actividad. Toda la información de sus clientes está centralizada en Adobe Campaign y puede oferta de mensajes con contenido adaptado, a través de diferentes canales.
+Preste atención a los clientes y mejore la tasa de respuesta utilizando contenido y encabezados personalizados según sus perfiles, preferencias y actividad. Toda la información de sus clientes está centralizada en Adobe Campaign y puede ofrecer mensajes con contenido adaptado, a través de diferentes canales.
 
-Los mensajes personalizados son clave para enviar contenido relevante, oferta de experiencias personalizadas y aumentar la apertura y las tasas de conversión. Los mensajes de canal cruzado enviados por Adobe Campaign se pueden personalizar de varias formas. Estas formas pueden combinarse con criterios en función de los perfiles. Puede:
+Los mensajes personalizados son fundamentales para enviar contenido relevante, ofrecer experiencias personalizadas y aumentar las tasas de apertura y conversión. Los mensajes multicanal que entrega Adobe Campaign se pueden personalizar de varias formas diferentes. Estas formas se pueden combinar con criterios en función de los perfiles. Puede hacer lo siguiente:
 
-* Inserte [campos de personalización dinámicos](../../designing/using/personalization.md#inserting-a-personalization-field) en los mensajes
+* Inserte [campos de personalización dinámica](../../designing/using/personalization.md#inserting-a-personalization-field) en los mensajes
 * Insertar [bloques de personalización predefinidos](../../designing/using/personalization.md#adding-a-content-block)
-* [Personalice el ](../../designing/using/subject-line.md) remitente de un correo electrónico o un SMS
+* [Personalización del ](../../designing/using/subject-line.md) remitente de un correo electrónico o un SMS
 * [Personalización de la ](../../designing/using/subject-line.md) línea de asunto de un correo electrónico
-* Cree [contenido condicional en un correo electrónico](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) o [en una página de aterrizaje](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
-* Insertar [texto dinámico](../../channels/using/defining-dynamic-text.md) en un mensaje SMS o una notificación Push
+* Crear [contenido condicional en un correo electrónico](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) o [en una página de aterrizaje](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
+* Insertar [texto dinámico](../../channels/using/defining-dynamic-text.md) en un mensaje SMS o en una notificación push
 
 ![](assets/delivery_content_43.png)
 
-**Puede obtener más información**
+**Más información**
 
-* Personalización del correo electrónico de Discover mediante una [muestra completa](../../designing/using/personalization.md#example-email-personalization)
+* Descubra la personalización del correo electrónico mediante una [muestra completa](../../designing/using/personalization.md#example-email-personalization)
 * [Personalización de direcciones URL](../../designing/using/personalization.md#personalizing-urls)
 * [Configuración de la personalización de una imagen](../../designing/using/personalization.md#personalizing-an-image-source)
 
-## Rastrear y monitorear sus envíos
+## Seguimiento y monitorización de los envíos
 
 <img width="60px" alt="condiciones" src="assets/icon_profile.svg"/>
 
-Además de las potentes plantillas de sistema de informes listas para usar, Adobe Campaign le permite crear informes personalizados en un nivel de envío, campaña, usuario o segmento. Rastree sus mensajes y comprenda el comportamiento de sus clientes enriqueciendo progresivamente sus datos de perfil. Las herramientas de sistema de informes y análisis le permiten capitalizar cada nueva campaña, mejorar el destinatario de sus acciones de mercadotecnia y optimizar su impacto y retorno en la inversión.
+Además de las potentes plantillas de informes integradas, Adobe Campaign permite crear informes personalizados en los niveles de envío, campaña, usuario o segmento. Rastree sus mensajes y comprenda el comportamiento de sus clientes enriqueciendo progresivamente sus datos de perfil. Las herramientas de análisis e informes le permiten aprovechar al máximo cada nueva campaña, dirigir mejor sus acciones de marketing y optimizar su impacto y retorno en la inversión.
 
-La interfaz gráfica proporciona un acceso rápido y fácil a los principales indicadores y estadísticas de envío.
+La interfaz gráfica proporciona un acceso rápido y fácil a los indicadores principales y a las estadísticas de envío.
 
 ![](assets/dynamic_report_intro.png)
 
-La interfaz de usuario del sistema de informes de campaña facilita la creación de informes dinámicos. Puede utilizar las variables de arrastrar y soltar para personalizar los informes y analizar el éxito de las campañas. Según la complejidad de sus consultas y cálculos, los datos se pueden agregar a una vista de lista o acceder a ellos en un formato que facilite la generación de informes de análisis de marketing.
+La interfaz de usuario de informes de campaña facilita la creación de informes dinámicos. Puede usar variables de arrastrar y soltar para personalizar los informes y analizar el éxito de las campañas. En función de la complejidad de las consultas y los cálculos, se pueden agregar los datos a una vista de lista o acceder a ellos en un formato que facilite la generación de informes de análisis de marketing.
 
-Con Adobe Campaign, puede supervisar y rastrear cada envío individualmente. El panel de mensajes muestra registros dedicados a procesos de seguimiento, reglas e identifica posibles errores y advertencias.
+Con Adobe Campaign, puede monitorizar y rastrear cada envío individualmente. El panel de mensajes muestra registros dedicados para realizar un seguimiento de procesos, reglas e identificar posibles errores y advertencias.
 
 
-**Puede obtener más información**
+**Más información**
 
 * [Acceso a informes](../../reporting/using/about-dynamic-reports.md)
 * [Seguimiento de una entrega](../../sending/using/monitoring-a-delivery.md)
@@ -114,9 +111,9 @@ Con Adobe Campaign, puede supervisar y rastrear cada envío individualmente. El 
 
 <img width="60px" alt="condiciones" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lugar de vestibulo mauris libero, no congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehula augue, una lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras y vehículos nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lugar de vestibulum mauris libero, no congue sapien rhoncus id. Luctus blandit ligula entero. Nulla quis vehula augue, una lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras y vehículos nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
-**Puede obtener más información**
+**Más información**
 
 * xxxx
 * xxxx

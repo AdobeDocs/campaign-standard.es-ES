@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Notas de la versión 2019
 description: Esta página enumera todas las versiones de 2019 de Adobe Campaign Standard.
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Información general
+feature: Overview
 role: User
 level: Beginner
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '7590'
+source-wordcount: '7589'
 ht-degree: 9%
 
 ---
@@ -306,7 +304,7 @@ Se ha introducido una serie de mejoras y correcciones para optimizar los fragmen
  <tbody> 
   <tr> 
    <td> Panel de control<br /> </td> 
-   <td> <p>Para aumentar la eficacia de su trabajo como usuario administrador, puede supervisar fácilmente la capacidad y administrar la configuración de sus instancias (empezando por la administración de servidores SFTP).</p><p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es">documentación detallada</a> y el <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=en">videotutorial</a>.</p></td> 
+   <td> <p>Para aumentar la eficacia de su trabajo como usuario administrador, puede supervisar fácilmente la capacidad y administrar la configuración de sus instancias (empezando por la administración de servidores SFTP).</p><p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es">documentación detallada</a> y el <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=es">videotutorial</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Notificaciones locales<br /> </td> 

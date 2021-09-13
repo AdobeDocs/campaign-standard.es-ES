@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Pasos clave para añadir un recurso
 description: Aprenda aquí los pasos clave para añadir un recurso en el modelo de datos de Adobe Campaign.
 audience: developing
@@ -9,16 +7,15 @@ topic-tags: adding-or-extending-a-resource
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: bd9747df-cf2f-4837-8438-d12e695cda47
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 45%
+source-wordcount: '105'
+ht-degree: 47%
 
 ---
 
-
-# Pasos clave para agregar un recurso{#key-steps-to-add-a-resource}
+# Pasos clave para añadir un recurso{#key-steps-to-add-a-resource}
 
 Para crear un nuevo recurso o ampliar un recurso existente con campos nuevos, se requieren varios pasos:
 

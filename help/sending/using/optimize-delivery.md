@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Optimización del envío de mensajes
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: Aprenda a proteger y optimizar el proceso de envío ascendente.
-feature: Entrega
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '746'
 ht-degree: 85%
 
 ---
@@ -58,7 +56,7 @@ Para llegar a la bandeja de entrada de sus destinatarios sin rebotar ni ser marc
 
 * Póngase en contacto con su representante de Adobe para obtener ayuda.
 
-## Administración de cuarentenas {#quarantine-management}
+## Administración de cuarentena {#quarantine-management}
 
 Le conviene mantener buenos procesos de gestión de cuarentenas.
 
@@ -74,7 +72,7 @@ Al comenzar a enviar correos electrónicos en una nueva plataforma, puede utiliz
 
 * Además, la gestión de cuarentenas ayuda a reducir el coste de envío de SMS mediante la exclusión en los envíos de los números de teléfono incorrectos.
 
-## Mecanismo de selección de dobles {#double-opt-in}
+## Mecanismo de inclusión doble {#double-opt-in}
 
 Para evitar el envío de mensajes a direcciones no válidas, limitar las comunicaciones incorrectas y mejorar la reputación del remitente, Adobe recomienda implementar un mecanismo de inclusión doble para la confirmación posterior a la suscripción. Esto ayuda a garantizar la suscripción intencionada de un destinatario.
 

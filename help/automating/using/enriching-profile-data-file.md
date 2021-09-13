@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Enriquecimiento de datos de perfil con datos contenidos en un archivo
 description: Este ejemplo muestra cómo enriquecer datos de perfil con datos de compra contenidos en un archivo.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: enrichment,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d5c19884-5a3e-4676-899c-53074a3b0efc
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '528'
 ht-degree: 78%
 
 ---
-
 
 # Enriquecimiento de datos de perfil con datos contenidos en un archivo {#enriching-profile-data-with-data-contained-in-a-file}
 

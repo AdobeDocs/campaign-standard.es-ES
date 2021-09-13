@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Comprensión de los errores de entrega
 description: Aprenda a administrar los errores de envío con Campaign.
 audience: sending
@@ -10,7 +8,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-source-git-commit: 7efdb8aa4f931268cf9a0899179819cbc1f86757
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1303'
 ht-degree: 71%

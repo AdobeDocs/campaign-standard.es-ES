@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Exclusión
 description: La actividad Exclusión permite excluir elementos de una población según determinados criterios.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: exclusion,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: dccb9545-0d7e-4d40-9a8f-2915b4da99a7
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 98%
+source-wordcount: '249'
+ht-degree: 100%
 
 ---
-
 
 # Exclusión{#exclusion}
 
@@ -51,4 +48,3 @@ Un conjunto principal se define entre transiciones de entrada. Los miembros de o
 El siguiente ejemplo muestra dos actividades de consulta configuradas para filtrar perfiles de la base de datos de Adobe Campaign que tienen entre 18 y 27 años y tienen una dirección de correo electrónico no válida. Los perfiles con direcciones de correo electrónico no válidas se excluyen del primer conjunto. Esto le permite enviar un correo electrónico, por ejemplo.
 
 ![](assets/wkf_exclusion_example.png)
-

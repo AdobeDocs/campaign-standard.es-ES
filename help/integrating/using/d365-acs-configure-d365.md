@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Configuración de Microsoft Dynamics 365 para integración con Campaign
 description: Obtenga información sobre cómo configurar Microsoft Dynamics 365 para la integración de Campaign.
 audience: integrating
@@ -9,14 +7,13 @@ topic-tags: working-with-campaign-and-ms-dynamics
 feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '911'
 ht-degree: 1%
 
 ---
-
 
 # Configuración de Microsoft Dynamics 365 para la integración con Adobe Campaign Standard
 
@@ -122,11 +119,11 @@ Este nuevo usuario es un usuario genérico. La aplicación lo usará: este usuar
 
 1. Haga clic en **[!UICONTROL OK]**.
 
-### Obtención del ID de inquilino {#get-the-tenant-id}
+### Obtención del ID del inquilino {#get-the-tenant-id}
 
 Siga las instrucciones [de esta página](https://docs.microsoft.com/en-us/onedrive/find-your-office-365-tenant-id) para encontrar su ID de inquilino.  Necesitará este ID durante la configuración previa a la integración en la herramienta de integración.
 
-## Instalar Campaign Standard para Microsoft Dynamics 365 {#install-appsource-app}
+## Campaign Standard de instalación para Microsoft Dynamics 365 {#install-appsource-app}
 
 Para integrar la aplicación Dynamics 365 en el entorno de Campaign Standard, siga los pasos a continuación:
 

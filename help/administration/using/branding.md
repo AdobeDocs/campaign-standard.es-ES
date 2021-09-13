@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Marcas
 description: Descubra todas las herramientas disponibles para administrar las identidades de marca.
 audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: branding,overview;branding,main
-feature: Configuración de instancia
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1280'
 ht-degree: 80%
 
 ---

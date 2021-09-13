@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Actividades de marketing
 description: '“Aprenda a crear y administrar sus actividades de marketing: campañas, correo electrónico, SMS y envíos de notificaciones push, páginas de aterrizaje o flujos de trabajo. Puede diseñar fácilmente una nueva actividad, editar una existente y consultar su estado y validez”.'
 audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: activity,overview
-feature: Campañas
+feature: Campaigns
 role: User
 level: Beginner
 exl-id: c75471aa-b947-4488-a569-5412d3825c64
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '487'
 ht-degree: 83%
 
 ---

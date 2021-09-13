@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Acerca de los casos de uso de flujos de trabajo
 description: Obtenga más información sobre los casos de uso que puede realizar mediante flujos de trabajo de Campaign Standard.
 audience: automating
@@ -8,14 +6,13 @@ content-type: reference
 topic-tags: about-workflows-and-data-management
 feature: Workflows
 role: Data Architect
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 210d1477-9536-4308-bdb7-b9ccfe4c85bc
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 93%
+source-wordcount: '234'
+ht-degree: 94%
 
 ---
-
 
 # Acerca de los casos de uso de flujos de trabajo {#about-workflow-use-cases}
 
@@ -28,12 +25,12 @@ Le ayudarán a descubrir los diferentes contextos en los que se pueden utilizar 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
 * [Creación de entregas con un complemento](../../automating/using/workflow-created-query-with-complement.md)
-* [Creación de envíos en la fecha de creación de los perfiles](../../automating/using/workflow-creation-date-query.md)
-* [Creación de un envío semanal](../../automating/using/workflow-weekly-offer.md)
+* [Creación de entregas en la fecha de creación de los perfiles](../../automating/using/workflow-creation-date-query.md)
+* [Creación de una entrega semanal](../../automating/using/workflow-weekly-offer.md)
 * [Creación de una entrega multicanal](../../automating/using/workflow-cross-channel-delivery.md)
-* [Identificación de duplicados antes de un envío](../../automating/using/identifying-duplicated-before-delivery.md)
-* [Envío de cumpleaños](../../automating/using/birthday-delivery.md)
-* [Emparejamiento de envíos de correo electrónico y correo directo](../../automating/using/coupling-email-direct-mail.md)
+* [Identificación de duplicados antes de una entrega](../../automating/using/identifying-duplicated-before-delivery.md)
+* [Entrega de cumpleaños](../../automating/using/birthday-delivery.md)
+* [Emparejamiento de entregas de correo electrónico y correo directo](../../automating/using/coupling-email-direct-mail.md)
 * [Envío de un correo electrónico con campos enriquecidos](../../automating/using/sending-email-enriched-fields.md)
 * [Personalización de un correo electrónico con datos adicionales](../../automating/using/personalizing-email-with-additional-data.md)
 * [Envío de una notificación push recurrente](../../automating/using/recurring-push-notifications.md)
@@ -48,9 +45,9 @@ Le ayudarán a descubrir los diferentes contextos en los que se pueden utilizar 
 * [Redirección de receptores que no abran el correo](../../automating/using/workflow-cross-channel-retargeting.md)
 * [Consulta incremental de los suscriptores a un servicio](../../automating/using/incremental-query-on-subscribers.md)
 * [Segmentación según grupos de edad](../../automating/using/segmentation-age-groups.md)
-* [Uso de recursos diferentes de dimensiones de segmentación](../../automating/using/using-resources-different-from-targeting-dimensions.md)
+* [Uso de recursos diferentes de dimensiones de direccionamiento](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
-## Gestión de datos {#management}
+## Administración de datos {#management}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
@@ -66,4 +63,4 @@ Le ayudarán a descubrir los diferentes contextos en los que se pueden utilizar 
 * [Actualización de varios estados de suscripción de un archivo](../../automating/using/updating-subscriptions-from-file.md)
 * [Suscripción de perfiles de un archivo a un servicio específico](../../automating/using/subscribing-profiles-from-file.md)
 * [Importación de datos cifrados con una clave generada por el Panel de control de Campaign](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)
-* [Codificación y exportación de datos con una clave instalada en el Panel de control de Campaign](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)
+* [Cifrado y exportación de datos con una clave instalada en el Panel de control de Campaign](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)

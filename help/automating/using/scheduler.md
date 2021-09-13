@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Planificador
 description: La actividad Planificador le permite programar cuándo se inicia un flujo de trabajo o una actividad.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: schedule,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 39f7b216-b3cd-4aa6-b5df-23e6805076df
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 88%
+source-wordcount: '614'
+ht-degree: 89%
 
 ---
-
 
 # Planificador{#scheduler}
 
@@ -46,7 +43,7 @@ Al diseñar un flujo de trabajo programado que incluya varias actividades, debe 
 
 ## Configuración {#configuration}
 
-1. Arrastre y suelte una actividad **[!UICONTROL Scheduler]** en su flujo de trabajo.
+1. Arrastre y suelte una actividad de **[!UICONTROL Scheduler]** en el flujo de trabajo.
 1. Seleccione la actividad y, a continuación, ábrala con el botón ![](assets/edit_darkgrey-24px.png), en las acciones rápidas que aparecerán.
 1. Especifique la **[!UICONTROL Execution frequency]**:
 
@@ -82,4 +79,3 @@ Al diseñar un flujo de trabajo programado que incluya varias actividades, debe 
 En el ejemplo siguiente, la actividad se configura de modo que se inicie el flujo de trabajo de forma semanal todos los lunes a las 07:00 h durante un tiempo indeterminado.
 
 ![](assets/wkf_scheduler_example.png)
-

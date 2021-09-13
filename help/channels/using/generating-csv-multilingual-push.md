@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Generación de un archivo CSV para notificaciones push multilingües con el Campaign Standard
 description: La carga de un archivo CSV para generar contenido y enviarlo es una función que se utiliza para admitir las notificaciones push multilingües.
 audience: channels
@@ -10,10 +8,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: bd9ec3f9-e047-42dc-ab64-9fb274cb4656
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1128'
-ht-degree: 1%
+source-wordcount: '1127'
+ht-degree: 0%
 
 ---
 

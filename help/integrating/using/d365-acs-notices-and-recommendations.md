@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Administración de datos de Campaign y Microsoft Dynamics 365
 description: Descubra cómo Campaign Standard y Microsoft Dynamics 365 administran datos comunes
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-feature: Integración de Microsoft CRM
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-source-git-commit: f28aab2ac295d8a45598f5d76a86e594deeece4a
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '2510'
+source-wordcount: '2507'
 ht-degree: 1%
 
 ---
@@ -57,7 +55,7 @@ A continuación se muestran vínculos para ayudarle a implementar solicitudes de
 
 ## Exclusión {#opt-out}
 
-Debido a las diferencias en los atributos de exclusión entre Microsoft Dynamics 365 y Campaign, y a las diferencias en los requisitos comerciales de cada cliente, la asignación de exclusión se ha dejado como un ejercicio para que el cliente lo complete.  Es importante asegurarse de que las exclusiones se asignan correctamente entre sistemas para que las preferencias de exclusión del usuario final se mantengan y no reciban una comunicación a través de un canal del que hayan excluido.
+Debido a las diferencias en los atributos de exclusión entre Microsoft Dynamics 365 y Campaign, y a las diferencias en los requisitos comerciales de cada cliente, la asignación de exclusión se ha dejado como un ejercicio para que el cliente lo complete.  Es importante asegurarse de que las exclusiones se asignan correctamente entre sistemas para que las preferencias de exclusión del usuario final se mantengan y no reciban comunicación a través de un canal del que hayan excluido.
 
 Tenga en cuenta que solo se puede usar lo siguiente en las asignaciones de exclusión:
 

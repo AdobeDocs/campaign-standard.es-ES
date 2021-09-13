@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Definición de la asignación
 description: Obtenga información sobre cómo asignar un campo de Campaign Standard con un campo de Experience Data Model (XDM).
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Integración de Microsoft CRM
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: 6383ddbe-922a-4363-a1da-166cf717b0dd
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Informe en la aplicación
 description: Con el informe integrado en la aplicación , conozca el éxito de sus mensajes en la aplicación.
 audience: reporting
@@ -9,14 +7,13 @@ topic-tags: list-of-reports
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b2ac9b82-fbe2-4a19-848c-94597b6141f0
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 2%
+source-wordcount: '242'
+ht-degree: 1%
 
 ---
-
 
 # Informe en la aplicación{#in-app-report}
 
@@ -47,4 +44,3 @@ La segunda tabla **Clics y despidos en la aplicación** se divide en tres catego
 * **[!UICONTROL Unique In-App clicks]**: Número de veces que los destinatarios hicieron clic en el Botón 1 o en el Botón 2.
 * **[!UICONTROL In-App dismissal]**: Número total de mensajes que los destinatarios descartaron haciendo clic en el botón cerrar o descartando automáticamente.
 * **[!UICONTROL Unique In-App dismissal]**: Número de veces que los destinatarios descartaron un mensaje en la aplicación.
-

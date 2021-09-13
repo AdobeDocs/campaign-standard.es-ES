@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Exportación de listas
 description: 'Adobe Campaign le permite exportar los datos mostrados como listas desde una pantalla de información general directamente en un archivo para su uso futuro. '
 audience: automating
@@ -9,14 +7,13 @@ topic-tags: importing-and-exporting-data
 feature: Workflows
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b39ce1f6-0c5b-4270-86a1-b79c49cd199c
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '444'
 ht-degree: 7%
 
 ---
-
 
 # Exportación de listas{#exporting-lists}
 
@@ -79,7 +76,7 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 * [Funciones](../../administration/using/list-of-roles.md)
 * [Personalización de listas](../../start/using/customizing-lists.md)
 
-## Vídeo tutorial {#video}
+## Tutorial en vídeo {#video}
 
 Este vídeo muestra cómo configurar listas.
 

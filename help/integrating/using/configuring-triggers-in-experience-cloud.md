@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Configuración de activadores en Experience Cloud
 description: 'Aprenda a configurar la integración de Adobe Experience Cloud Triggers para que comience a enviar envíos personalizados a sus clientes en función de sus comportamientos anteriores. '
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-feature: Activadores
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '858'
 ht-degree: 7%
 
 ---
@@ -91,7 +89,7 @@ El alias al que se hace referencia anteriormente en la DTM debe crearse en el se
    >
    >Puede reconciliar sus déclencheur tanto para usuarios anónimos como para usuarios que iniciaron sesión. Para los usuarios anónimos, el perfil debe existir en Adobe Campaign y antes se ha enviado un correo electrónico al usuario. Para ello, la configuración del ID de visitante es suficiente. Sin embargo, si desea reconciliar déclencheur para usuarios que iniciaron sesión, debe configurar la fuente de datos de ID declarados. Para obtener más información, consulte [Configuración de fuentes de datos](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
 
-## Creación de un déclencheur en la interfaz de Experience Cloud {#creating-a-trigger-in-the-experience-cloud-interface}
+## Creación de un déclencheur en la interfaz del Experience Cloud {#creating-a-trigger-in-the-experience-cloud-interface}
 
 Se debe crear un déclencheur de Adobe Experience Cloud para poder utilizarlo en Campaign.
 
@@ -99,7 +97,7 @@ Cree un nuevo déclencheur en Experience Cloud y asegúrese de seleccionar el gr
 
 Consulte la [documentación de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html) y vea este [vídeo](https://helpx.adobe.com/es/marketing-cloud/how-to/email-marketing.html#step-two).
 
-## Prácticas recomendadas y limitaciones de Déclencheur {#triggers-best-practices-and-limitations}
+## Déclencheur, prácticas recomendadas y limitaciones {#triggers-best-practices-and-limitations}
 
 Esta es una lista de prácticas recomendadas y limitaciones para el uso de la integración Campaign - Déclencheur :
 

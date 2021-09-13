@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Resumen del servicio
 description: Con el informe predeterminado Resumen de servicio , conozca la evolución de las suscripciones y las bajas de suscripción.
 audience: reporting
@@ -10,19 +8,18 @@ context-tags: deliveryTopUrlReport,main;campaignTopUrlReport,main;programTopUrlR
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b680b0c3-a65b-416f-8e28-46a9b494c754
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 15%
+source-wordcount: '82'
+ht-degree: 14%
 
 ---
-
 
 # Resumen del servicio{#service-summary}
 
 El **[!UICONTROL Service summary]** detalla la evolución de las suscripciones y bajas de suscripción de su servicio.
-Solo se puede acceder a este informe desde la página Servicio a través del menú avanzado **[!UICONTROL Profiles & Audiences]** > **[!UICONTROL Services]**. Para obtener más información, consulte [esta página](../../audiences/using/monitoring-subscriptions.md#service-reports).
+Solo se puede acceder a este informe desde la página Servicio a través del menú avanzado **[!UICONTROL Profiles & Audiences]** > **[!UICONTROL Services]**. Para obtener más información, consulte esta [página](../../audiences/using/monitoring-subscriptions.md#service-reports).
 
 ![](assets/service-summary.png)
 

@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Administración de datos cifrados
 description: Obtenga información sobre cómo administrar datos cifrados.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-feature: Flujos de trabajo
+feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
-source-git-commit: 05e7de6d59420f532e0095ddb1fd7f158519518b
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 52%
+source-wordcount: '924'
+ht-degree: 53%
 
 ---
 
@@ -40,10 +38,10 @@ Una vez procesada la solicitud, los comandos encryption / decryption estarán di
 
 **Temas relacionados:**
 
-* [Cargar archivo](../../automating/using/load-file.md)
-* [Extraer archivo](../../automating/using/extract-file.md)
+* [Carga de archivo](../../automating/using/load-file.md)
+* [Extracción de archivos](../../automating/using/extract-file.md)
 
-## Caso de uso: importación de datos cifrados con una clave generada por el Panel de control de Campaign{#use-case-gpg-decrypt}
+## Caso de uso: importación de datos cifrados con una clave generada por el Panel de control de Campaign {#use-case-gpg-decrypt}
 
 En este caso de uso, crearemos un flujo de trabajo para importar datos cifrados en un sistema externo utilizando una clave generada en el Panel de control de Campaign.
 
@@ -51,7 +49,7 @@ En este caso de uso, crearemos un flujo de trabajo para importar datos cifrados 
 
 Los pasos para realizar este caso de uso son los siguientes:
 
-1. Utilice el Panel de control de Campaign para generar un par de claves (pública/privada). Encontrará los pasos detallados en la documentación [del](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data) Panel de control de Campaign.
+1. Utilice el Panel de control de Campaign para generar un par de claves (pública/privada). Encontrará los pasos detallados en la documentación [del](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=es#decrypting-data) Panel de control de Campaign.
 
    * La clave pública se comparte con el sistema externo, que la utiliza para cifrar los datos que se enviarán a Campaign.
    * Campaign utiliza la clave privada para descifrar los datos cifrados entrantes.

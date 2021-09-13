@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Redirección de receptores que no abran el correo
 description: Este caso de uso muestra cómo volver a dirigirse a los usuarios que no abran el correo.
 audience: automating
@@ -10,16 +8,15 @@ context-tags: workflow,use-case,query,wait,delivery
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: cba4e5c6-8acd-47a1-824e-14415e90d451
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '308'
 ht-degree: 38%
 
 ---
 
-
-# Flujo de trabajo de redireccionamiento que envía un nuevo envío a receptores que no abran el correo{#retargeting-delivery-to-non-openers}
+# Flujo de trabajo de redireccionamiento que envía una nueva entrega a receptores que no abran el correo{#retargeting-delivery-to-non-openers}
 
 Puede enviar un correo electrónico a los clientes y, a continuación, un SMS a los que no lo abrieron.
 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Creación de una dimensión de perfil personalizada
 description: Obtenga información sobre cómo crear una dimensión de perfil personalizada basada en datos de perfil personalizados.
 audience: reporting
@@ -9,14 +7,13 @@ topic-tags: customizing-reports
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 98516af1-d4dd-4c1f-b360-f19208c22f82
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '813'
 ht-degree: 5%
 
 ---
-
 
 # Creación de una dimensión de perfil personalizada{#creating-a-custom-profile-dimension}
 
@@ -90,7 +87,7 @@ El nuevo campo de perfil ya está listo para que lo utilicen y seleccionen los d
 
 Ahora que se ha creado el campo de perfil, es necesario ampliar los registros de envío con nuestro campo de perfil para crear la dimensión de perfil personalizada asociada en los informes dinámicos.
 
-Antes de ampliar el registro con nuestro campo de perfil, asegúrese de que la ventana PII fue aceptada para tener acceso a la pestaña **[!UICONTROL Sending logs extension]**. Para obtener más información, consulte [esta página](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
+Antes de ampliar el registro con nuestro campo de perfil, asegúrese de que la ventana PII fue aceptada para tener acceso a la pestaña **[!UICONTROL Sending logs extension]**. Para obtener más información, consulte esta [página](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
 >[!NOTE]
 >
@@ -107,7 +104,7 @@ Antes de ampliar el registro con nuestro campo de perfil, asegúrese de que la v
 
    ![](assets/custom_profile_10.png)
 
-   Esta opción solo está disponible si se ha aceptado la ventana PII. Para obtener más información, consulte [esta página](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
+   Esta opción solo está disponible si se ha aceptado la ventana PII. Para obtener más información, consulte esta [página](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
 1. Haga clic en **[!UICONTROL Add]** y guarde el recurso personalizado.
 1. Dado que el recurso personalizado se modificó, necesitamos publicarlo para implementar los nuevos cambios.
@@ -122,7 +119,7 @@ El perfil personalizado ya está disponible como dimensión de perfil personaliz
 
 Ahora que el campo se ha creado y que los registros de envío se han ampliado con este campo de perfil, puede empezar a dirigirse a los destinatarios en las entregas.
 
-## Paso 3: Cree un envío dirigido a destinatarios inscritos en el programa de fidelidad {#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program}
+## Paso 3: Creación de un envío dirigido a destinatarios inscritos en el programa de fidelidad {#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program}
 
 Una vez publicado el campo de perfil, puede iniciar la entrega. En este ejemplo, queremos dirigirnos a todos los destinatarios inscritos en el programa de fidelidad.
 

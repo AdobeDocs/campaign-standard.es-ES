@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Diseño de un correo electrónico de prueba A/B
 description: Descubra la funcionalidad de la prueba A/B y siga estos pasos para crear un correo electrónico a partir de una plantilla de prueba A/B en Adobe Campaign.
 audience: channels
 content-type: reference
 topic-tags: email-messages
 context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
-feature: Correo electrónico
+feature: Email
 role: User
 level: Beginner
 exl-id: 07cbf39c-4f53-49b1-8e85-c6df39f014b5
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '817'
 ht-degree: 100%
 
 ---

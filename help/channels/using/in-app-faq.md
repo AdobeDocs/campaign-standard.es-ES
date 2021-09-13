@@ -1,24 +1,22 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Preguntas más frecuentes en la aplicación
+title: Preguntas frecuentes en la aplicación
 description: Preguntas más frecuentes sobre la mensajería en la aplicación
 audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,triggers,back
-feature: En la aplicación
+feature: In App
 role: User
 exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '674'
 ht-degree: 2%
 
 ---
 
 
-# Preguntas más frecuentes en la aplicación {#in-app-faq}
+# Preguntas frecuentes en la aplicación {#in-app-faq}
 
 ## ¿Cuáles serían algunas recomendaciones útiles sobre recursos para obtener más información sobre el canal en la aplicación en Adobe Campaign Standard? {#resources-inapp}
 

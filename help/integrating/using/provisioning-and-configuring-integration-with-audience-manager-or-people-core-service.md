@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Aprovisionamiento y configuración de la integración con Audience Manager o el servicio principal People
 description: 'Aprenda a configurar la integración Audience Manager/servicio principal Personas para comenzar a compartir audiencias o segmentos con las distintas soluciones de Adobe Experience Cloud. '
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-feature: Integración del servicio principal People
+feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '717'
 ht-degree: 42%
 
 ---
@@ -86,7 +84,7 @@ Para ello:
 
 Sus cuentas externas ya están configuradas para esta integración.
 
-### Paso 2: Configurar las fuentes de datos {#step-2--configure-the-data-sources}
+### Paso 2: Configuración de las fuentes de datos {#step-2--configure-the-data-sources}
 
 Las dos fuentes de datos siguientes se crean dentro de Audience Manager: Adobe Campaign (MID) y Adobe Campaign (DeclaredId). Al mismo tiempo, estas dos fuentes de datos están disponibles en Adobe Campaign:
 
@@ -122,7 +120,7 @@ Para crear la fuente de datos **[!UICONTROL Declared ID]**:
 >
 >El campo **[!UICONTROL AAM Destination ID]** no es necesario si está configurando la fuente de datos compartida para la integración [Campaign-Déclencheur](../../integrating/using/configuring-triggers-in-experience-cloud.md). **[!UICONTROL Priority]** solo es necesario al configurar la integración de Déclencheur - Campaign. Priority decide qué fuente de datos se configurará primero. La prioridad puede ser cualquier número, como 1 o 100. Cuanto mayor sea la prioridad, mayor será la preferencia durante la reconciliación.
 
-### Paso 3: Configuración del servidor de seguimiento de campaña {#step-3--configure-campaign-tracking-server}
+### Paso 3: Configuración del servidor de seguimiento de Campaign {#step-3--configure-campaign-tracking-server}
 
 Para la configuración de la integración con el servicio principal Personas o Audience Manager, también es necesario configurar el servidor de seguimiento de campañas.
 

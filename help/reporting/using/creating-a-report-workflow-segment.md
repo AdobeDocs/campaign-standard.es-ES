@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Creación de un informe basado en segmentos de flujo de trabajo
 description: Obtenga información sobre cómo comprobar el éxito de la entrega en función de los segmentos de los flujos de trabajo de los informes.
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-feature: Creación de informes
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 514bffa0-2413-4212-b1b9-e070031c462f
-source-git-commit: c001aaba50bdce8d949acc6daf74f3c7738bd117
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '624'
 ht-degree: 2%
 
 ---
@@ -88,7 +86,7 @@ Primero debe crear un flujo de trabajo con una población objetivo diferente. Aq
 1. Edite el **[!UICONTROL Segment code]** para cada población que se transmitirá a través del sistema de informes dinámico.
 
    >[!NOTE]
-   >Este paso es obligatorio o no podrá comprender qué segmentos informar.
+   >Este paso es obligatorio o, de lo contrario, no podrá comprender qué segmentos informar.
 
    ![](assets/report_segment_9.png)
 

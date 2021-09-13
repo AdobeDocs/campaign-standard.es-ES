@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Administración de propiedades de actividades
 description: Obtenga información sobre cómo administrar las propiedades de las actividades de flujo de trabajo.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9c47ef72-59af-4b55-8e65-d8f687fb5fbe
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '675'
 ht-degree: 0%
 
 ---
-
 
 # Administración de propiedades de actividades {#activity-properties}
 

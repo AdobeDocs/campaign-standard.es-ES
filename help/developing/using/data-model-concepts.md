@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Conceptos del modelo de datos
 description: Obtenga información sobre el modelo de datos de Adobe Campaign y cómo modificarlo.
 audience: developing
@@ -10,14 +8,13 @@ context-tags: cusResource,overview;eventCusResource,overview
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6e9e016a-473b-4a51-8bd6-c23c7b3d3610
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 78%
+source-wordcount: '244'
+ht-degree: 79%
 
 ---
-
 
 # Conceptos del modelo de datos{#data-model-concepts}
 

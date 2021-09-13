@@ -1,15 +1,13 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Perfiles activos de Campaign
 description: Obtenga información sobre cómo acceder a las métricas del cliente y a los perfiles activos
-feature: Perfiles
+feature: Profiles
 role: User
 level: Intermediate
 exl-id: 22516348-7695-4579-99eb-480e5b723ccc
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '227'
 ht-degree: 14%
 
 ---
@@ -43,4 +41,3 @@ En la parte inferior de la página, las dimensiones de segmentación se enumeran
 >[!NOTE]
 >
 >Como usuario administrador, también puede supervisar el número de perfiles activos utilizados en las instancias directamente desde el Panel de control de Campaign. Para obtener más información, consulte la [Documentación del Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=es).
-

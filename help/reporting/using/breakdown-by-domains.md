@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Desglose por dominios
 description: Con el informe Desglose por dominios integrado, obtenga información sobre los datos de rendimiento de los envíos en función de cada dominio del cliente.
 audience: reporting
@@ -10,14 +8,13 @@ context-tags: deliveryDomainBreakdownReport,main;campaignDomainBreakdownReport,m
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 513d74ae-10c0-4d41-a7d1-8ed655e1a2d1
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '235'
 ht-degree: 3%
 
 ---
-
 
 # Desglose por dominios{#breakdown-by-domains}
 
@@ -40,5 +37,4 @@ La segunda tabla, **Tracking statistics**, contiene los datos disponibles para l
 * **Haga clic en**: Número de veces que se hizo clic en el contenido en una entrega.
 * **Cancelación de suscripción**: El número de clics en el vínculo de suscripción.
 * **Página espejo**: El número de clics en el vínculo de la página espejo.
-* **Al lista de bloqueados**: El número de destinatarios que han declarado un correo electrónico como correo no deseado o no deseado. [Obtenga más información](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-
+* **Al lista de bloqueados**: El número de destinatarios que han declarado un correo electrónico como correo no deseado o no deseado. [Más información](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)

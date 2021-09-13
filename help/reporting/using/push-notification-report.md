@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Informe de notificaciones push
 description: Con el informe de notificaciones push listo para usar, conozca el éxito de las notificaciones push.
 audience: reporting
@@ -9,14 +7,13 @@ topic-tags: list-of-reports
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: acfe0b9c-77a4-46ad-8151-7bf9c21fa4b0
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '384'
 ht-degree: 1%
 
 ---
-
 
 # Informe de notificaciones push{#push-notification-report}
 
@@ -51,4 +48,3 @@ La segunda tabla **Push notification Clicks &amp; opens** se divide en tres cate
 * **[!UICONTROL Unique clicks]**: Número de veces que un usuario único interactúa con la notificación push, por ejemplo, haciendo clic en la notificación o el botón.
 * **[!UICONTROL Open]**: Número total de notificaciones push enviadas al dispositivo y en las que los usuarios han hecho clic para abrir la aplicación. Esto es similar al clic push , excepto que no se activará un push Open si se descarta la notificación.
 * **[!UICONTROL Unique Opens]**: Número de destinatarios que abrieron la entrega.
-

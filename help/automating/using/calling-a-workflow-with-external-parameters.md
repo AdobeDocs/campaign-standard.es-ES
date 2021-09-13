@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Información general
 description: Esta sección detalla cómo llamar a un flujo de trabajo con parámetros externos.
 audience: automating
@@ -9,14 +7,13 @@ topic-tags: workflow-general-operation
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 538056e6-b5c0-4258-a34b-524fe6e3cbbe
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '186'
 ht-degree: 4%
 
 ---
-
 
 # Información general {#calling-a-workflow-with-external-parameters}
 

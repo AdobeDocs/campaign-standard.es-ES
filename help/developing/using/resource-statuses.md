@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Estados de recursos
 description: Descubra los distintos estados de recursos según su estado de publicación.
 audience: developing
@@ -9,14 +7,13 @@ topic-tags: about-custom-resources
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 7290ebc5-8a58-4b7f-99bf-d942e37c944e
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '223'
 ht-degree: 1%
 
 ---
-
 
 # Estados de recursos{#resource-statuses}
 

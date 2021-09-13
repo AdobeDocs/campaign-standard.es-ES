@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Invocación de un flujo de trabajo con parámetros externos
 description: Esta sección detalla cómo llamar a un flujo de trabajo con parámetros externos.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-feature: Flujos de trabajo
+feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 8c1a47ed-3467-4fcd-8747-86f0e8f15cec
-source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '813'
 ht-degree: 1%
 
 ---
@@ -56,7 +54,7 @@ Cuando se utiliza una variable en una actividad, la interfaz proporciona ayuda p
 
    Además, puede utilizar las funciones siguientes, que están disponibles en todas las actividades que permiten utilizar variables de eventos después de llamar a un flujo de trabajo con parámetros externos (consulte [esta sección](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)):
 
-   | Name | Descripción | Sintaxis |
+   | Nombre | Descripción | Sintaxis |
    | ---------|----------|---------|
    | EndWith | Indica si una cadena (primer parámetro) termina con una cadena específica (segundo parámetro). | EndWith(&lt;String>,&lt;String>) |
    | startWith | Indica si una cadena (primer parámetro) comienza con una cadena específica (segundo parámetro). | startWith(&lt;cadena>,&lt;cadena>) |

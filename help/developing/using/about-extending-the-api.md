@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Acerca de la ampliación de la API
 description: Obtenga información sobre cómo exponer campos ampliados para el recurso personalizado Perfiles en la API de perfiles pública.
 audience: developing
@@ -9,14 +7,13 @@ topic-tags: use-case--extending-the-api
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 7dc64938-f28f-43eb-a6a3-870e5a41a431
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '114'
 ht-degree: 11%
 
 ---
-
 
 # Acerca de la ampliación de la API{#about-extending-the-api}
 

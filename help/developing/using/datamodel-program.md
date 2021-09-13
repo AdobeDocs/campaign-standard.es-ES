@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Modelo de datos
 description: Obtenga información sobre el modelo de datos
 audience: developing
@@ -8,14 +6,13 @@ content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b05dc67a-6447-4d22-99f2-8a14a0ee46d2
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 13%
+source-wordcount: '222'
+ht-degree: 14%
 
 ---
-
 
 # Programa (nms:program)
 
@@ -23,7 +20,7 @@ ht-degree: 13%
 
 <table>
                <tr>
-                  <th>Name</th>
+                  <th>Nombre</th>
                   <th>Etiqueta</th>
                   <th>Tipo (longitud)</th>
                   <th>Valores de enumeración</th>
@@ -263,7 +260,7 @@ Incluir subprogramas (conParent)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>programa</td>
+    <td>Programa de </td>
     <td>vínculo</td>
     </tr>
 </table>

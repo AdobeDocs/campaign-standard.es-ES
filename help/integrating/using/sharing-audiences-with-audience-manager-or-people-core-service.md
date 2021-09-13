@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Uso compartido de audiencias con Audience Manager o el servicio principal People
 description: Obtenga información sobre cómo importar o exportar la audiencia dentro de las distintas soluciones de Adobe Experience Cloud.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-feature: Integración del servicio principal People
+feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: b0d063de-863c-42e7-98dd-c4c86da3281e
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '805'
-ht-degree: 28%
+source-wordcount: '801'
+ht-degree: 29%
 
 ---
 
@@ -77,7 +75,7 @@ Se puede llevar a cabo en un nuevo flujo de trabajo y solo pueden hacerlo los us
 1. Confirme la configuración de la actividad y guarde el flujo de trabajo.
 1. Inicie el flujo de trabajo para exportar la audiencia. La sincronización entre Adobe Campaign y el servicio principal People puede tardar varias horas
 
-La sincronización entre Adobe Campaign y el servicio principal Personas tarda de 24 a 36 horas. Después de este periodo, puede encontrar la nueva audiencia en el servicio principal Personas y reutilizarla en otras soluciones de Adobe Experience Cloud. Para obtener más información sobre el uso de una audiencia compartida de Adobe Campaign en el servicio principal Personas de Adobe, consulte la siguiente [documentación](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-audience-create.html).
+La sincronización entre Adobe Campaign y el servicio principal Personas tarda de 24 a 36 horas. Después de este periodo, puede encontrar la nueva audiencia en el servicio principal Personas y reutilizarla en otras soluciones de Adobe Experience Cloud. Para obtener más información sobre el uso de una audiencia compartida de Adobe Campaign en el servicio principal Personas de Adobe, consulte la siguiente [documentación](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-audience-create.html?lang=es).
 
 **Temas relacionados:**
 

@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Control del contenido del correo electrónico en Adobe Campaign Standard
 description: Aprenda a mejorar la capacidad de envío en Adobe Campaign Standard al editar el contenido del correo electrónico.
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Entrega
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: debbc70d-4094-44c0-b7cb-c999effda1a6
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '790'
 ht-degree: 54%
 
 ---
@@ -56,7 +54,7 @@ Para mejorar la experiencia de los destinatarios y hacer que abran su correo ele
 
 Para aumentar la tasa de apertura de los mensajes, también puede definir manualmente una hora de envío por destinatario. Cada perfil recibe el mensaje en la fecha y hora especificadas, siempre que sea posible. Para obtener más información sobre esto, consulte [Optimizing the sending time](../../sending/using/optimizing-the-sending-time.md).
 
-## Formulario y vínculo de exclusión {#opt-out}
+## Formulario y vínculo de no participación {#opt-out}
 
 De forma predeterminada, cuando se analiza el mensaje, una regla de tipología comprueba si se ha incluido un vínculo de exclusión y genera una advertencia si falta. Para obtener más información sobre la administración de vínculos, consulte [esta sección](../../designing/using/links.md).
 

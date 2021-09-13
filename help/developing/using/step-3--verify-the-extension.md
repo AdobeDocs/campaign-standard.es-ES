@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: '"Paso 3: Verificar la extensión"'
 description: Obtenga información sobre cómo acceder al campo ampliado con la API de Rest.
 audience: developing
@@ -9,14 +7,13 @@ topic-tags: use-case--extending-the-api
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 34cb416c-ee3d-4b7c-a75b-640432db320d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 12%
+source-wordcount: '59'
+ht-degree: 13%
 
 ---
-
 
 # Paso 3: Verificar la extensión{#step-verify-the-extension}
 
@@ -31,4 +28,3 @@ ht-degree: 12%
    ![](assets/extendpandsapiview.png)
 
    El campo ya está disponible para más desarrollos e integraciones.
-

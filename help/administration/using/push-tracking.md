@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Implementación del seguimiento push
 description: Este documento le permite asegurarse de que el seguimiento de notificaciones push se ha implementado correctamente en iOS y Android.
 audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Configuración de instancia
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '949'
 ht-degree: 1%
 
 ---
