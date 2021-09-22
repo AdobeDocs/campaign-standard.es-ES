@@ -8,7 +8,7 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 7a21f4f6-316f-4f3d-9d53-37d406a46aae
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 El caso de uso siguiente muestra cómo invocar al flujo de trabajo con parámetros dentro de los flujos de trabajo.
 
-El objetivo es el déclencheur de un flujo de trabajo desde una llamada a la API con parámetros externos. Este flujo de trabajo carga datos en la base de datos desde un archivo y crea una audiencia asociada. Una vez creada la audiencia, se activará un segundo flujo de trabajo para enviar un mensaje personalizado con los parámetros externos definidos en la llamada de API.
+El objetivo es el déclencheur de un flujo de trabajo desde una llamada a la API con parámetros externos. Este flujo de trabajo carga datos en la base de datos desde un archivo y crea una audiencia asociada. Una vez creada la audiencia, se activa un segundo flujo de trabajo para enviar un mensaje personalizado con los parámetros externos definidos en la llamada de API.
 
 Para realizar este caso de uso, debe realizar las siguientes acciones:
 

@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '5400'
-ht-degree: 11%
+source-wordcount: '5403'
+ht-degree: 10%
 
 ---
 
@@ -249,7 +249,7 @@ Vea las [actualizaciones de documentación](../../rn/using/documentation-updates
 * Se ha corregido un problema en el cual algunos eventos de informes sin procesar no tenían eventos de seguimiento asociados porque el campo eventDate no se rellenaba correctamente.
 * Se ha corregido un problema que impedía que se mostraran campos personalizados en la ventana de vista previa de una entrega de notificaciones push.
 * Se ha corregido un problema que impedía que el texto ajustara el cuerpo del mensaje de una notificación push en la ventana de vista previa.
-* Se ha corregido un problema que se producía al enviar una entrega de recepción desde un flujo de trabajo cuando el destinatario principal estaba vacío.
+* Se ha corregido un problema que se producía al enviar una entrega recurrente desde un flujo de trabajo cuando el destinatario principal estaba vacío.
 * Se ha corregido un problema que impedía acceder a una asignación de destino si estaba vinculada a un esquema inexistente.
 * Se ha corregido un problema que se podía producir al importar un archivo zip mediante una actividad de carga de archivo . (CAMP-24309)
 * Se ha corregido un problema que provocaba un error PostgreSQL al realizar un envío recurrente. (CAMP-23613)
@@ -469,7 +469,7 @@ Pueden producirse algunos problemas al utilizar vínculos de ayuda contextuales 
      <li> descargar imágenes u otros archivos multimedia y añadirlos como archivos adjuntos a una notificación </li> 
      <li> cambiar el texto del cuerpo o del título de una notificación </li> 
      <li> añadir un identificador de subproceso a una notificación </li> 
-    </ul> Para obtener más información sobre el contenido disponible y el contenido mutable, consulte la <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">documentación detallada</a>.<br /> <strong>Advertencia:</strong> estas actualizaciones de las notificaciones push requieren que los clientes actualicen sus aplicaciones móviles. Consulte <a href="https://docs.adobe.com/content/help/es-ES/campaign-standard/using/communication-channels/push-notifications/push-payload.html">esta nota técnica</a> para obtener más información.<br /> </td> 
+    </ul> Para obtener más información sobre el contenido disponible y el contenido mutable, consulte la <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">documentación detallada</a>.<br /> <strong>Advertencia:</strong> estas actualizaciones de las notificaciones push requieren que los clientes actualicen sus aplicaciones móviles. Consulte <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html">esta nota técnica</a> para obtener más información.<br /> </td> 
   </tr> 
   <tr> 
    <td> Entregas optimizadas para zonas horarias<br /> </td> 

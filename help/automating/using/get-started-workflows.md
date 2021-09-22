@@ -8,7 +8,7 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 40%
@@ -78,7 +78,7 @@ Con [Import templates](../../automating/using/importing-data-with-import-templat
 
 [La exportación de ](../../automating/using/exporting-logs.md) registros permite exportar datos de registro a través de un flujo de trabajo sencillo que le permite analizar los resultados de sus campañas de marketing en sus propias herramientas de creación de informes o de BI.
 
-Aproveche [Packages](../../automating/using/managing-packages.md) para intercambiar recursos entre diferentes instancias de campaña, por ejemplo, para replicar la configuración de una instancia o para transferir datos de un servidor a otro, incluidos los recursos personalizados.
+Aproveche los [Paquetes](../../automating/using/managing-packages.md) para intercambiar recursos entre diferentes instancias de campaña, por ejemplo, para replicar la configuración de una instancia o para transferir datos de un servidor a otro, incluidos los recursos personalizados.
 
 Por último, [Exportación de listas](../../automating/using/exporting-lists.md) permite exportar cualquier lista de Campaign Standards como, por ejemplo, la lista de perfiles de prueba, la lista de direcciones de correo electrónico en cuarentena, etc.
 

@@ -8,9 +8,9 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '711'
 ht-degree: 83%
 
 ---
@@ -49,7 +49,7 @@ Si desea integrar flujos de datos de otros sistemas con Adobe Campaign, consulte
    <td> Adobe Experience Manager<br /> </td> 
    <td> Permite crear contenido de correo electrónico o formularios asignados a la base de datos de Adobe Campaign directamente en Adobe Experience Manager.<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">Trabaje con Campaign y el Experience Manager</a>,  <a href="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignstandard.html">integre el Experience Manager y el Campaign Standard</a> y  <a href="https://gn.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">cree un correo electrónico con el Experience Manager y Campaign</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">Trabaje con Campaign y el Experience Manager</a>,  <a href="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignstandard.html">integre el Experience Manager y el Campaign Standard</a> y  <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">cree un correo electrónico con el Experience Manager y Campaign</a> 
     </td> 
   </tr> 
   <tr> 

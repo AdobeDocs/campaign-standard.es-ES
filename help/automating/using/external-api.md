@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '2200'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -116,11 +116,11 @@ Si se **valida el análisis**, aparece un mensaje que le invita a personalizar l
 
 Esta pestaña permite definir el extremo de la conexión. El campo **[!UICONTROL URL]** permite definir el **extremo HTTPS** con el que se comunicará el Campaign Standard.
 
-Si lo necesita el extremo, hay dos tipos de método de autenticación disponibles.
+Si lo necesita el extremo, hay dos tipos de método de autenticación disponibles:
 
 * Autenticación básica: introduzca la información de nombre de usuario y contraseña en la sección **[!UICONTROL Request Header(s)]**.
 
-* Autenticación de OAuth: Al hacer clic en **[!UICONTROL Use connection parameters defined in an external account]** en una cuenta externa, puede seleccionar una cuenta externa donde se define la autenticación OAuth. Para obtener más información, consulte la sección [Cuentas externas](../../administration/using/external-accounts.md) .
+* Autenticación OAuth: Al hacer clic en **[!UICONTROL Use connection parameters defined in an external account]** en una cuenta externa, puede seleccionar una cuenta externa donde se define la autenticación OAuth. Para obtener más información, consulte la sección [Cuentas externas](../../administration/using/external-accounts.md) .
 
 ![](assets/externalAPI-execution.png)
 
@@ -325,7 +325,7 @@ The workflow is presented as follows:
 ![](assets/externalAPI_activity_example1.png)
 
 1. Drag and drop an **External API** activity
-    1. Parse the JSON sample responsa as {"data":[{"code":"value"}]}.
+    1. Parse the JSON sample response as {"data":[{"code":"value"}]}.
     1. Add the **Rest endpoint URL** and define authentication setting if needed
     ![](assets/externalAPI_activity_example2.png)
     1. In the **column definition** tab, add a new column called **code** that will store the code value.
@@ -351,6 +351,6 @@ The workflow is presented as follows:
     1. The transition **Data Structure** will contain:
         ![](assets/externalAPI_activity_example7.png)
 1. Finally drag and drop a **Send via Email** activity.
-    You can modify your email template by adding the **code** personnalized field.
+    You can modify your email template by adding the **code** personalized field.
 
 -->

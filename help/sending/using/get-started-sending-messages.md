@@ -7,7 +7,7 @@ topic-tags: about-sending-messages-with-campaign
 role: User
 level: Intermediate
 exl-id: bcb28ef5-5cad-43c1-b11b-080abc791a72
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 17%
@@ -27,7 +27,7 @@ Una vez definido el destinatario y creado el contenido de un mensaje, debe prepa
 
 Una vez que se hayan ejecutado las campañas de marketing y enviado los distintos mensajes, monitoréelos mediante registros para comprobar el éxito de la campaña y recuperar la información de seguimiento de los destinatarios.
 
-Por último, aproveche las herramientas y directrices de capacidad de envío disponibles en Campaign Standard para mejorar el número de mensajes enviados y garantizar campañas de marketing exitosas.
+Por último, aproveche las herramientas y directrices de capacidad de envío disponibles en Campaign Standard para mejorar el número de mensajes enviados y garantizar que las campañas de marketing tengan éxito.
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra cómo enviar un correo electrónico de prueba, preparar y enviar una entrega por correo electrónico en vídeo](#video)
 
@@ -77,7 +77,7 @@ Más información:
 
 La capacidad de entrega permite medir el éxito de las campañas que llegan a la bandeja de entrada de los destinatarios sin rebotar o marcadas como correo no deseado.
 
-Campaign Standard proporciona varias **herramientas de envío** para ayudarle a mejorar el número de mensajes enviados correctamente: informes de perspectivas de envío, optimización del tiempo de envío, vista previa de mensajes, procesamiento de correo electrónico, administración de cuarentena, etc.
+Campaign Standard proporciona varias **herramientas de envío** para ayudarle a mejorar el número de mensajes enviados correctamente: informes de rendimiento de entrega, optimización del tiempo de envío, previsualización de mensajes, procesamiento de correo electrónico, administración de cuarentena, etc.
 
 Más información:
 

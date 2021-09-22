@@ -8,9 +8,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '915'
 ht-degree: 4%
 
 ---
@@ -32,7 +32,7 @@ Para obtener más información sobre push o en la aplicación, consulte las sigu
 Consulte los siguientes recursos para obtener más información sobre la integración del SDK y el Campaign Standard de Adobe Experience Platform:
 
 * Vídeo de información general [de Launch/Mobile](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video)
-* Guía de consejos y trucos [de Launch/Mobile](https://www.adobe.com/content/dam/www/us/en/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
+* Guía de consejos y trucos [de Launch/Mobile](https://www.adobe.com/content/dam/dx/us/en/products/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
 
 ## ¿Está disponible la integración del SDK de Adobe Experience Platform tanto para Adobe Campaign Standard como para Adobe Campaign Classic? {#aep-validity}
 

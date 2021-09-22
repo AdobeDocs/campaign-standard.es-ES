@@ -8,7 +8,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '4623'
 ht-degree: 8%
@@ -196,7 +196,7 @@ _Perfiles y audiencias_
   </tr> 
   <tr> 
    <td> Alerta de entrega<br /> </td> 
-   <td> Además de ver las notificaciones directamente en Adobe Campaign Standard, Adobe Campaign ahora también proporciona un sistema de alerta por correo electrónico para enviar alertas por correo electrónico de déclencheur a usuarios o partes interesadas externas sobre actividades importantes del sistema. Cree, administre y reciba alertas y tableros personalizables para realizar un seguimiento de los envíos correctos o fallidos.<br /> Las alertas de entrega de Adobe Campaign aumentan la eficacia al mantener informados automáticamente a todos los usuarios de Adobe Campaign implicados en una empresa sobre el estado de ejecución de la entrega, por correo electrónico y por panel. Para obtener más información, consulte la <a href="../../sending/using/receiving-alerts-when-failures-happen.md">documentación detallada</a>.<br /> </td> 
+   <td> Además de ver las notificaciones directamente en Adobe Campaign Standard, Adobe Campaign ahora también proporciona un sistema de alerta por correo electrónico para enviar alertas por correo electrónico de déclencheur a usuarios o partes interesadas externas de actividades importantes del sistema. Cree, administre y reciba alertas y tableros personalizables para realizar un seguimiento de los envíos correctos o fallidos.<br /> Las alertas de entrega de Adobe Campaign aumentan la eficacia al mantener informados automáticamente a todos los usuarios de Adobe Campaign implicados en una empresa sobre el estado de ejecución de la entrega, por correo electrónico y por panel. Para obtener más información, consulte la <a href="../../sending/using/receiving-alerts-when-failures-happen.md">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> ID declarado cifrado en orígenes de datos<br /> </td> 
@@ -499,7 +499,7 @@ _Flujos de trabajo_
    <td> API de mensajería transaccional<br /> </td> 
    <td> La API de mensajería transaccional ya está disponible a través de <a href="https://docs.campaign.adobe.com/doc/standard/en/adobeio.html">adobe.io</a>, lo que facilita su uso y monitorización:<br /> 
     <ul> 
-     <li> Puede beneficiarse de las capacidades de supervisión e informes de la plataforma adobe.io. </li> 
+     <li> Puede beneficiarse de las funcionalidades de supervisión e informes de la plataforma adobe.io. </li> 
      <li> La autenticación ahora se realiza mediante la autenticación basada en tokens de adobe.io en lugar de la inclusión en la lista de permitidos IP, lo que simplifica el proceso de seguridad. </li> 
      <li> Todas las API están ahora integradas en una sola plataforma, lo que facilita más que nunca la adición de funciones de mensajería transaccional a su integración si ya es compatible con la API de perfil y servicios. </li> 
     </ul> </td> 

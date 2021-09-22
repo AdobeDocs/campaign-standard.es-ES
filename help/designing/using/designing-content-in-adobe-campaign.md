@@ -8,10 +8,10 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '1248'
-ht-degree: 90%
+ht-degree: 88%
 
 ---
 
@@ -22,7 +22,7 @@ Una vez creado un correo electrónico en Adobe Campaign, debe definir su conteni
 El Diseñador de correo electrónico le permite crear correos electrónicos cautivadores y personalizados individualmente arrastrando y soltando
 interfaz. Ya sea desde una pizarra en blanco o aprovechando los fragmentos de contenido o las plantillas existentes, diseñe y perfeccione el contenido de cada correo electrónico, ya sea promocional o transaccional.
 
-Compilado para ofrecer HTML optimizado para un diseño interactivo, el Diseñador de correo electrónico le permite definir y aplicar fácilmente las condiciones de visibilidad y de contenido dinámico a un correo electrónico, una plantilla o un fragmento directamente a través de la interfaz de usuario. Puede alternar sin problemas entre la interfaz de arrastre y suelte y el código HTML haciendo clic en un botón.
+Compilado para ofrecer HTML optimizado para un diseño interactivo, el Diseñador de correo electrónico le permite definir y aplicar fácilmente las condiciones de visibilidad y de contenido dinámico a un correo electrónico, una plantilla o un fragmento directamente a través de la interfaz de usuario. Puede cambiar sin problemas entre la interfaz de arrastrar y soltar y el código HTML haciendo clic en un botón.
 
 El Diseñador de correo electrónico le permite crear plantillas contenido de correo electrónico y las respectivas plantillas. Es compatible con correos electrónicos simples, transaccionales, de prueba A/B, multilingües y recurrentes.
 

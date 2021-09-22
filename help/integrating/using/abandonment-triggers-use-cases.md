@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '994'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 
@@ -81,7 +81,7 @@ En Adobe Campaign, debe crear un activador vinculado al que ha creado en Experie
 
    ![](assets/trigger_uc_browse_6.png)
 
-1. Para mostrar la plantilla de mensaje, haga clic en el botón **[!UICONTROL More]**, en la parte superior derecha, y luego haga clic en **[!UICONTROL Trigger Transactional Template]**.
+1. Para mostrar la plantilla del mensaje, haga clic en el botón **[!UICONTROL More]**, en la parte superior derecha, y luego haga clic en **[!UICONTROL Trigger Transactional Template]**.
 
 1. Personalice el contenido y los detalles del remitente.
 

@@ -8,10 +8,10 @@ feature: Campaigns
 role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 100%
+source-wordcount: '650'
+ht-degree: 88%
 
 ---
 
@@ -87,38 +87,38 @@ Tenga en cuenta que el idioma se configura durante la instalación y no se puede
 
 ### Página principal {#homepage-shortcuts}
 
-| Método abreviado | Acción |
-|:-:|:-:|
-| Pestaña | Navegar por los elementos individuales de la interfaz de usuario |
-| Intro o espacio | Activar el elemento seleccionado |
+| Acción | Método abreviado |
+| --- | --- |
+| Navegar por los elementos individuales de la interfaz de usuario | Pestaña |
+| Activar el elemento seleccionado | Entrar o barra espaciadora |
 
 ### Diseñador de correo electrónico {#email-designer-shortcuts}
 
-| Método abreviado | Acción |
-|:-:|:-:|
-| CTRL + Z | Deshacer |
-| CTRL + Y | Rehacer |
+| Acción | Método abreviado de Windows | acceso directo a macOS |
+| --- | --- | --- |
+| Deshacer | Ctrl + Z | Comando + Z |
+| Rehacer | Ctrl + Y | Mayús + Comando + Z |
 
 ### Informes dinámicos {#report-shortcuts}
 
-| Método abreviado | Acción |
-|:-:|:-:|
-| CTRL + O | Abrir proyecto |
-| CTRL + S | Guardar |
-| Shift + CTRL + S | Guardar como |
-| Alt + R | Actualizar proyecto |
-| Shift + CTRL + V | Descargar CSV |
-| Alt + P | Imprimir |
-| CTRL + Z | Deshacer |
-| CTRL + Shift + Z | Rehacer |
-| Alt + B | Nuevo panel en blanco |
-| Alt + A | Nueva forma libre |
-| Alt + 1 | Nueva tabla de forma libre |
-| Alt + 2 | Nueva línea |
-| Alt + 3 | Nueva barra |
-| Alt + S | Enviar informe ahora |
-| Shift + Alt + S | Enviar informe según lo programado |
-| Shift = Alt + L | Informes programados |
+| Acción | Método abreviado de Windows | acceso directo a macOS |
+| --- | --- | --- |
+| Abrir un proyecto | Ctrl + O | Comando + O |
+| Guardar | Ctrl + S | Comando + S |
+| Guardar como | Mayús + Ctrl + S | Mayús + Comando + S |
+| Actualizar proyecto | Alt + R | Comando + R |
+| Descargar archivo CSV | Mayús + Ctrl + V | Mayús + Comando + V |
+| Imprimir | Alt + P | Comando + P |
+| Deshacer | Ctrl + Z | Comando + Z |
+| Rehacer | Ctrl + Y | Mayús + Comando + Z |
+| Nuevo panel en blanco | Alt + B | Opción + B |
+| Nueva forma libre | Alt + A | Opción + A |
+| Nueva tabla de forma libre | Alt + 1 | Opción + 1 |
+| Nueva línea | Alt + 2 | Opción + 2 |
+| Nueva barra | Alt + 3 | Opción + 3 |
+| Enviar informe ahora | Alt + S | Opción + S |
+| Enviar informe según lo programado | Shift + Alt + S | Mayús + Opción + S |
+| Informes programados | Mayús + Alt + L | <!-- Should be 'Shift + Option + L ' but does not work on Mac --> |
 
 ## Lectura adicional {#further-reading}
 

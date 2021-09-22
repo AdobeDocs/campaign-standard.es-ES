@@ -8,9 +8,9 @@ hidefromtoc: true
 role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 87e91e169fedf962471f82754b1d40a14e5fc32a
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '585'
 ht-degree: 100%
 
 ---
@@ -72,7 +72,7 @@ Obtenga asistencia consultando las preguntas frecuentes, las prácticas recomend
         <li><a href="start/using/privacy-management.md">Administración de privacidad y consentimientos</a></li>
         <li><a href="automating/using/query.md">Diseño de una consulta</a></li>
         <li><a href="automating/using/query-samples.md">Muestras de consultas</a></li>
-        <li><a href="https://helpx.adobe.com/campaiacs-mobile.html">Configuración de canales móviles</a></li>
+        <li><a href="administration/using/push-tracking.md">Configuración de canales móviles</a></li>
         </ul>
     </td>
     </tr>
@@ -119,7 +119,7 @@ El nuevo sistema de tickets se ha utilizado a través de [Adobe Admin Console](h
 
 ### ¡Consulte a los expertos!
 
-Únase a la comunidad Campaign Classic: encuentre respuestas a preguntas existentes o formule una pregunta a la comunidad. [Únase a la conversación](https://experienceleaguecommunities.adobe.cadobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+Únase a la comunidad Campaign Classic: encuentre respuestas a preguntas existentes o formule una pregunta a la comunidad. [Únase a la conversación](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### Creación de un ticket o inicio de una conversación
 

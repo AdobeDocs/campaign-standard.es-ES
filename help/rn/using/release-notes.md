@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 41366b6fa7647dbf0e4e5df71e2755189f4ffc42
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1076'
 ht-degree: 100%
 
 ---
@@ -96,7 +96,7 @@ A continuación, se enumeran las nuevas funciones, mejoras y correcciones inclui
 
 * Al crear una entrega recurrente en un flujo de trabajo, vinculado a un contenido de Adobe Experience Manager, el estado de aprobación del contenido ahora se comprueba antes de enviarla.
 * El límite de conexión a la base de datos ahora está alineado con el paquete de Campaign para evitar errores de conexión.
-* Una nueva comprobación de coherencia en la publicación de recursos personalizados impide que los usuarios creen índices duplicados, lo que provoca que la publicación falle. Un mensaje de error mejorado pide al usuario que cambie el nombre del índice si es necesario.
+* Una nueva comprobación de coherencia en la publicación de recursos personalizados impide que los usuarios creen índices duplicados, lo que provoca que la publicación falle. Un mensaje de error mejorado pide al usuario que cambie el nombre del índice si es necesario. [Más información](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)
 
 **Otros cambios**
 

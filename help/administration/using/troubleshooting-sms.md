@@ -8,7 +8,7 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 7ef0712e-4e42-41c8-9382-fbbd06edfdd9
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '2696'
 ht-degree: 90%
@@ -159,7 +159,7 @@ Si el `DELIVER_SM PDU` no se reconoce correctamente, debe comprobar lo siguiente
 
 Si ha corregido todo pero algunas SR no válidas siguen en los búferes del proveedor, puede omitirlas utilizando la opción **Invalid ID confirm count**. Debe utilizarse con cuidado y restablecerse a 0 lo antes posible después de que los búferes estén limpios.
 
-## Problema al procesar MO (y lista de no permitidos/respuesta automática){#issue-process-MO}
+## Problema al procesar MO (y lista de bloqueados/respuesta automática){#issue-process-MO}
 
 * Habilite los seguimientos del SMPP durante las pruebas. Si no habilita TLS, debe realizar una captura de red al solucionar problemas de MO para comprobar que las PDU contienen la información correcta y tienen el formato adecuado.
 

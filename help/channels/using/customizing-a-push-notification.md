@@ -9,9 +9,9 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 3fe3495b-e360-4169-b295-86ad93753468
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1500'
 ht-degree: 97%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 97%
 
 Para modificar una notificación push, Adobe Campaign le permite acceder a un conjunto de opciones avanzadas mientras diseña una notificación push.
 
-Para configurar aplicaciones móviles en Adobe Campaign como usuario experto, consulte la nota técnica [Explicación de la estructura de carga de notificaciones push de Campaign Standard](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/communication-channels/push-notifications/push-payload.translate.html).
+Para configurar aplicaciones móviles en Adobe Campaign como usuario experto, consulte la nota técnica [Explicación de la estructura de carga de notificaciones push de Campaign Standard](../../administration/using/push-payload.md).
 
 ![](assets/push_notif_advanced.png)
 
@@ -150,7 +150,7 @@ Para incluir elementos multimedia enriquecidos en la notificación push:
 1. Abra la notificación push y acceda a la sección **[!UICONTROL Advanced options]**.
 1. Introduzca la dirección URL del archivo en el campo **[!UICONTROL Rich media content URL]** correspondiente a cada formato: iOS y Android.
 
-   Para iOS 10 o superior, puede insertar archivos de imagen, gif, audio y vídeo. Para versiones anteriores de iOS, la notificación push se muestra sin contenido enriquecido. Para ver los pasos detallados sobre cómo mostrar una imagen desde una notificación push de Adobe Campaign en un dispositivo iOS, consulte esta [página](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/communication-channels/push-notifications/image-push-notification.translate.html).
+   Para iOS 10 o superior, puede insertar archivos de imagen, gif, audio y vídeo. Para versiones anteriores de iOS, la notificación push se muestra sin contenido enriquecido. Para ver los pasos detallados sobre cómo mostrar una imagen desde una notificación push de Adobe Campaign en un dispositivo iOS, consulte esta [página](../../administration/using/image-push-notification.md).
 
    Para Android, solo puede incluir imágenes.
 
