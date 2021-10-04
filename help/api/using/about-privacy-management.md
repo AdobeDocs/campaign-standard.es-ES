@@ -4,10 +4,10 @@ description: Obtenga más información sobre la administración de la privacidad
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 210289d44f0ad0ebf0b2654f6e9795adad7dd458
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 4%
+source-wordcount: '107'
+ht-degree: 0%
 
 ---
 
@@ -27,4 +27,4 @@ El extremo de la API de privacidad es **/privacy/privacyTool**. La descripción 
 
 La exclusión de CCPA se administra mediante el atributo de perfil **cpaOptOut**.
 
-Para obtener más información sobre Adobe Campaign Standard y el cumplimiento de la privacidad, consulte la [documentación dedicada](https://helpx.adobe.com/es/campaign/kb/acs-privacy.html).
+Para obtener más información sobre Adobe Campaign Standard y el cumplimiento de la privacidad, consulte la [documentación dedicada](../../start/using/privacy-requests.md).
