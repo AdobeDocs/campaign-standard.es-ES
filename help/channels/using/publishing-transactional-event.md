@@ -9,9 +9,9 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 6bcd8dcd-d710-4ca3-937d-bf4339f36069
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '607'
 ht-degree: 6%
 
 ---
@@ -100,7 +100,7 @@ For more on publishing, pausing and unpublishing a transactional message, see [t
 
 Una vez que se ha cancelado la publicación de un evento o si aún no se ha publicado, puede eliminarlo de la lista de configuración de evento. Para ello, haga lo siguiente:
 
-1. Haga clic en el logotipo de **Adobe**, en la esquina superior izquierda, y seleccione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
+1. Haga clic en el logotipo **Adobe**, en la esquina superior izquierda, y luego seleccione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. Pase el ratón sobre la configuración de evento de su elección y seleccione el botón **[!UICONTROL Delete element]**.
 
    ![](assets/message-center_delete-button.png)

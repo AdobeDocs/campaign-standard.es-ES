@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 84%
+source-wordcount: '1763'
+ht-degree: 81%
 
 ---
 
@@ -159,7 +159,7 @@ Al configurar esta nueva cuenta externa, debe proporcionar los siguientes detall
 
 El mecanismo de Google reCAPTCHA le permite proteger su página de aterrizaje del spam y los abusos causados por los bots. Esto no es intrusivo para los clientes, ya que no requiere ninguna interacción por parte de ellos y se basa en las interacciones con el sitio. Para registrar su sitio, consulte esta [página](https://www.google.com/recaptcha/admin/create). Debe elegir el tipo de reCAPTCHA V3.
 
-Para agregar Google reCAPTCHA V3 a su página de aterrizaje, primero debe configurarlo en su cuenta externa. Para obtener más información sobre cómo añadirlo a su página de aterrizaje, consulte esta [sección](../../channels/using/configuring-landing-page.md#setting-google-recaptcha).
+Para añadir Google reCAPTCHA V3 a la página de aterrizaje, configúrelo en la cuenta externa. Para obtener más información sobre cómo añadirlo a su página de aterrizaje, consulte esta [sección](../../channels/using/configuring-landing-page.md#setting-google-recaptcha).
 
 Para una cuenta externa de Google reCAPTCHA V3, proporcione los siguientes detalles:
 
@@ -186,7 +186,7 @@ Para una cuenta externa de almacenamiento del blob de Microsoft Azure, proporcio
 * **[!UICONTROL Type]**: almacenamiento de blob de Microsoft Azure
 * Su **[!UICONTROL Account name]** y **[!UICONTROL Account key]**. Para saber dónde encontrar su nombre y clave de la cuenta, consulte [esta página](https://docs.microsoft.com/es-es/azure/storage/common/storage-account-keys-manage).
 * Su **[!UICONTROL Endpoint suffix]**. Se encuentra dentro de **[!UICONTROL Connection string]** del menú **[!UICONTROL Access keys]** en el Azure Portal. Para obtener más información, consulte [esta página](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
-* El nombre de su **[!UICONTROL Container]**. Si planea usar más de un contenedor, debe crear tantas cuentas externas como contenedores.
+* El nombre de su **[!UICONTROL Container]**. Si planea utilizar más de un contenedor, cree tantas cuentas externas como contenedores.
 * La opción **[!UICONTROL Concurrency]** le permite ajustar la velocidad de las transferencias de archivos.
 
 ![](assets/external_accounts_4.png)

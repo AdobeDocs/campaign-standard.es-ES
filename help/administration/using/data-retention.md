@@ -8,10 +8,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 53%
+source-wordcount: '157'
+ht-degree: 38%
 
 ---
 
@@ -34,4 +34,4 @@ Los siguientes son los valores de retención predeterminados para las tablas est
 
 Con la funcionalidad de flujo de trabajo estándar, es posible configurar periodos de retención para cualquier tabla personalizada.
 
-Póngase en contacto con los consultores o administradores técnicos de Adobe para obtener más información sobre la retención o si necesita configurar la retención para tablas personalizadas.
+Póngase en contacto con los consultores de Adobe o administradores técnicos para obtener más información sobre la retención o para configurar la retención para tablas personalizadas.

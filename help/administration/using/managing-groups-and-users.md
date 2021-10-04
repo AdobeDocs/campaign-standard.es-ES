@@ -9,10 +9,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 87%
+source-wordcount: '940'
+ht-degree: 77%
 
 ---
 
@@ -49,9 +49,9 @@ Para restringir el acceso de un usuario, no agregue el usuario al grupo de usuar
 
 >[!IMPORTANT]
 >
->Tenga en cuenta que en Admin Console, los grupos de seguridad se denominan perfiles.
+>Tenga en cuenta que en el Admin Console, los grupos de seguridad se denominan perfiles.
 
-Puede crear sus propios grupos de seguridad si los grupos predeterminados no son suficientes para administrar a los usuarios. Pueden ser administrados por administradores que tienen acceso a menús de administración de Adobe Campaign y Admin Console. Para obtener más información sobre Admin Console, consulte esta [documentación](https://helpx.adobe.com/es/enterprise/managing/user-guide.html).
+Puede crear sus propios grupos de seguridad si los grupos predeterminados no son suficientes para administrar a los usuarios. Pueden ser administrados por administradores que tienen acceso a menús de administración de Adobe Campaign y al Admin Console. Para obtener más información sobre el Admin Console, consulte esta [documentación](https://helpx.adobe.com/es/enterprise/managing/user-guide.html).
 
 En este caso, primero debemos asignar los dos grupos predeterminados Usuario estándar y Administrador a nuestros usuarios. Estos grupos de seguridad restringirán algunas funciones de Adobe Campaign: el usuario estándar tiene acceso básico a Adobe Campaign, mientras que el administrador puede acceder a los menús de administración, por ejemplo.
 
@@ -63,7 +63,7 @@ A continuación, queremos crear un conjunto de grupos de seguridad Geometrixx y 
 
 Primero debe asignar uno de los grupos de seguridad integrados a los usuarios:
 
-1. En Admin Console, seleccione la instancia y, a continuación, la pestaña **Usuarios** .
+1. En el Admin Console, seleccione la instancia y, a continuación, la pestaña **Users**.
 
    ![](assets/manage_security_group_2.png)
 
@@ -78,7 +78,7 @@ Primero debe asignar uno de los grupos de seguridad integrados a los usuarios:
 
 Una vez que los dos usuarios están conectados a los grupos de seguridad **[!UICONTROL Administrators]** y **[!UICONTROL Standard users]** integrados que asignan funciones a nuestros usuarios, el administrador puede crear los dos grupos de seguridad **Geometrixx** y **Geometrixx Clothes** que asignarán unidades organizativas a nuestros usuarios, además de los grupos de seguridad integrados.
 
-1. En Admin Console, seleccione la instancia y, a continuación, la pestaña **Productos**.
+1. En el Admin Console, seleccione la instancia y, a continuación, la pestaña **Products** .
 1. Haga clic en el botón **Nuevo perfil** para crear el grupo de seguridad de **Geometrixx** .
 
    ![](assets/create_security_1.png)
@@ -120,14 +120,14 @@ Una vez que los dos usuarios están conectados a los grupos de seguridad **[!UIC
 
    ![](assets/manage_security_group_9.png)
 
-Los grupos de seguridad recién creados ahora se crean en Admin console. Para que se sincronicen completamente, también debe crearlos en Adobe Campaign.
+Los grupos de seguridad recién creados ahora se crean en el Admin Console . Para que se sincronicen completamente, también debe crearlos en Adobe Campaign.
 
 El usuario administrador debe crear el conjunto de grupos de seguridad que se utilizan para asignar unidades organizativas: Geometrixx Clothes y Geometrixx. Para aprender a crear unidades organizativas, consulte [Creación y administración de unidades](../../administration/using/organizational-units.md#creating-and-managing-units) .
 
 1. Haga clic en el logotipo **Adobe**, en la esquina superior izquierda, y seleccione **[!UICONTROL Administration > Users & Security > Security groups]**.
 1. Cree el nuevo grupo de seguridad, y especifique su **[!UICONTROL Label]** y **[!UICONTROL ID]**.
 
-   El ID debe ser el mismo que el elegido en Admin Console.
+   El ID debe ser el mismo que el elegido en el Admin Console.
 
 1. En el campo **[!UICONTROL User access]**, asigne una unidad organizativa. Aquí, el grupo de seguridad de Geometrixx se asigna a la unidad organizativa **[!UICONTROL All]**.
 
@@ -146,4 +146,4 @@ Los usuarios estarán asignados a un grupo de seguridad y podrán conectarse a A
 
 >[!IMPORTANT]
 >
->Si los usuarios se eliminan de un grupo de seguridad en Admin Console, seguirán formando parte del grupo de seguridad de Adobe Campaign y ya no podrán iniciar sesión en Adobe Campaign. En este caso, elimine las direcciones de correo electrónico de los usuarios en Admin Console para evitar que reciban información confidencial.
+>Si los usuarios se eliminan de un grupo de seguridad en el Admin Console, seguirán formando parte del grupo de seguridad de Adobe Campaign y ya no podrán iniciar sesión en Adobe Campaign. En este caso, elimine las direcciones de correo electrónico de los usuarios en Admin Console para evitar que reciban información confidencial.

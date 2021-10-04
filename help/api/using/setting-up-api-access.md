@@ -8,7 +8,7 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 3%
@@ -21,14 +21,14 @@ El acceso a la API de Adobe Campaign Standard se configura siguiendo los pasos q
 
 >[!IMPORTANT]
 >
->Para administrar certificados en Adobe IO, asegúrese de que tiene <b>derechos de administrador del sistema</b> en la organización o una [cuenta de desarrollador](https://helpx.adobe.com/enterprise/using/manage-developers.html)</a> en Admin Console.
+>Para administrar certificados en Adobe IO, asegúrese de que tiene <b>derechos de administrador del sistema</b> en la organización o una [cuenta de desarrollador](https://helpx.adobe.com/enterprise/using/manage-developers.html)</a> en el Admin Console.
 
 1. **Compruebe que tiene un certificado** digital o cree uno si es necesario. Las claves pública y privada proporcionadas con el certificado son necesarias en los siguientes pasos.
 1. **Cree una nueva integración a Adobe Campaign** Service en Adobe IO y configúrela. A continuación, se generarán sus credenciales (clave de API, secreto de cliente...).
 1. **Cree un token web JSON (JWT)**  a partir de las credenciales generadas anteriormente y firme con su clave privada. El JWT codifica toda la información de identidad y seguridad que necesita el Adobe para comprobar su identidad y permitirle acceder a la API.
 1. **Intercambie su JWT por un token de acceso** a través de una solicitud de POST. Este token de acceso debe utilizarse en cada encabezado de sus solicitudes de API.
 
-Para establecer una sesión de API de Adobe I/O de servicio a servicio segura, cada solicitud a un servicio de Adobe debe incluir en el encabezado Autorización la siguiente información.
+Para establecer una sesión segura de API de Adobe I/O de servicio a servicio, cada solicitud a un servicio de Adobe debe incluir en el encabezado Autorización la información siguiente.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \

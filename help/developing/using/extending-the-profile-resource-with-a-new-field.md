@@ -8,10 +8,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 625d5e10-3d68-440e-a60c-4fcdfca34b5f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '1022'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -71,7 +71,7 @@ Para crear el nuevo campo **Interés** para nuestros perfiles, primero debe ampl
 
 1. Haga clic en **[!UICONTROL Add an element]** y, a continuación, añada todos los valores que sean necesarios añadiendo una **[!UICONTROL Label]** y **[!UICONTROL ID]**, y haciendo clic en **[!UICONTROL Add]**.
 
-   Crearemos los valores de Libros, Exposiciones, Películas y N/D para que los perfiles elijan entre estas opciones.
+   En este ejemplo, cree los valores de Libros, Exposiciones, Películas y N/D para que los perfiles elijan entre estas opciones.
 
    ![](assets/schema_extension_uc11.png)
 

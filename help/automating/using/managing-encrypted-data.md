@@ -8,10 +8,10 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 53%
+source-wordcount: '916'
+ht-degree: 46%
 
 ---
 
@@ -43,7 +43,7 @@ Una vez procesada la solicitud, los comandos encryption / decryption estarán di
 
 ## Caso de uso: importación de datos cifrados con una clave generada por el Panel de control de Campaign {#use-case-gpg-decrypt}
 
-En este caso de uso, crearemos un flujo de trabajo para importar datos cifrados en un sistema externo utilizando una clave generada en el Panel de control de Campaign.
+En este caso de uso, cree un flujo de trabajo para importar datos cifrados en un sistema externo utilizando una clave generada en el Panel de control de Campaign.
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
 
@@ -58,7 +58,7 @@ Los pasos para realizar este caso de uso son los siguientes:
 
 1. En el sistema externo, utilice la clave pública descargada del Panel de control de Campaign para cifrar los datos que se van a importar a Campaign Standard.
 
-1. En Campaign Standard, cree un flujo de trabajo para importar los datos cifrados y descifrarlos con la clave privada que se ha instalado mediante el Panel de control de Campaign. Para ello, crearemos un flujo de trabajo de la siguiente manera:
+1. En Campaign Standard, cree un flujo de trabajo para importar los datos cifrados y descifrarlos con la clave privada que se ha instalado mediante el Panel de control de Campaign. Para ello, cree un flujo de trabajo de la siguiente manera:
 
    ![](assets/gpg_workflow.png)
 
@@ -87,7 +87,7 @@ Los pasos para realizar este caso de uso son los siguientes:
 
 ## Caso de uso: codificación y exportación de datos con una clave instalada en el Panel de control de Campaign {#use-case-gpg-encrypt}
 
-En este caso de uso, crearemos un flujo de trabajo para codificar y exportar los datos con una clave instalada en el Panel de control de Campaign.
+En este caso de uso, cree un flujo de trabajo para cifrar y exportar datos con una clave instalada en el Panel de control de Campaign.
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
 
@@ -97,7 +97,7 @@ Los pasos para realizar este caso de uso son los siguientes:
 
    ![](assets/gpg_install.png)
 
-1. En Campaign Standard, cree un flujo de trabajo para exportar los datos y cifrarlos con la clave privada que se ha instalado mediante el Panel de control de Campaign . Para ello, crearemos un flujo de trabajo de la siguiente manera:
+1. En Campaign Standard, cree un flujo de trabajo para exportar los datos y cifrarlos con la clave privada que se ha instalado mediante el Panel de control de Campaign . Para ello, cree un flujo de trabajo de la siguiente manera:
 
    ![](assets/gpg-workflow-export.png)
 

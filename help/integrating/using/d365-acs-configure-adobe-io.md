@@ -7,20 +7,19 @@ topic-tags: working-with-campaign-and-ms-dynamics
 feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ab21b694-d05c-4ba4-b828-936803651b82
+source-git-commit: 7c34df594d4f649f259fb7edd946477f7b8d92d7
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '626'
 ht-degree: 3%
 
 ---
-
 
 # Configuración de Adobe Campaign Standard y Adobe I/O para la integración con Microsoft Dynamics 365
 
 En este artículo se explica cómo configurar Adobe Campaign Standard y Adobe I/O para que la aplicación de integración tenga acceso a los datos.
 
-## Configurar Adobe Campaign Standard {#campaign-standard}
+## Configuración de Adobe Campaign Standard {#campaign-standard}
 
 ### Extensiones de perfil
 
@@ -50,7 +49,7 @@ Deberá crear un nuevo proyecto de IO de Adobe y configurarlo para la integraci�
 
 Para lograrlo, siga el procedimiento a continuación:
 
-1. Vaya a [Consola de IO de Adobe](https://console.adobe.io/home#) y seleccione el ID de organización de IMS de Adobe en el menú desplegable situado en la parte superior derecha de la pantalla.
+1. Vaya a [Consola de IO de Adobe](https://console.adobe.io/home#) y seleccione su ID de organización de Adobe IMS en el menú desplegable de la parte superior derecha de la pantalla.
 
 1. A continuación, haga clic en **[!UICONTROL Create new project]** en **[!UICONTROL Quick Start]**.
 

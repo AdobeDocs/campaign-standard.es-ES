@@ -9,10 +9,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 00714c80-bdaf-4241-bf2f-51498ca1dbef
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 85%
+source-wordcount: '231'
+ht-degree: 80%
 
 ---
 
@@ -30,7 +30,7 @@ Los derechos predeterminados son:
 
    >[!NOTE]
    >
-   >Si necesita trabajar con Déclencheur de Experience Cloud, necesitará el derecho **[!UICONTROL Administration]** para poder acceder al menú Déclencheur de Experience Cloud. Para obtener más información sobre los Déclencheur del Experience Cloud, consulte esta [página](../../integrating/using/about-adobe-experience-cloud-triggers.md).
+   >Si trabaja con Déclencheur de Experience Cloud, necesita el derecho **[!UICONTROL Administration]** para poder acceder al menú Déclencheur de Experience Cloud. Para obtener más información sobre los Déclencheur del Experience Cloud, consulte esta [página](../../integrating/using/about-adobe-experience-cloud-triggers.md).
 
 * **[!UICONTROL Datamodel]**: Derecho para ejecutar publicaciones y crear recursos personalizados.
 * **[!UICONTROL Generic import]**: Derecho para ejecutar una importación genérica de datos. Para que esto funcione, debe vincular la función **[!UICONTROL Generic import]** a la función **[!UICONTROL Workflow]**.

@@ -8,9 +8,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '913'
 ht-degree: 4%
 
 ---

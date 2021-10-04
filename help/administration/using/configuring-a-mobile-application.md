@@ -8,10 +8,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 7%
+source-wordcount: '1273'
+ht-degree: 6%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->Las implementaciones de notificaciones push y en la aplicación deben realizarlas usuarios expertos. Si necesita asistencia, póngase en contacto con su administrador de cuentas de Adobe o con su socio de servicios profesionales.
+>Las implementaciones de notificaciones push y en la aplicación deben realizarlas usuarios expertos. Para obtener ayuda, póngase en contacto con el ejecutivo de cuentas de Adobe o con el socio de servicios profesionales.
 
 Para enviar notificaciones push y mensajes en la aplicación con la aplicación SDK de Experience Platform, se debe configurar una aplicación móvil en el Experience Platform Launch de Adobe Experience Platform Experience Platform y configurarla en Adobe Campaign.
 
@@ -87,7 +87,7 @@ El flujo de trabajo ahora se reiniciará y sincronizará con las propiedades mó
 
 Para utilizar una propiedad móvil de Experience Platform Launch en Campaign, también debe configurar esta propiedad en Adobe Campaign. En Adobe Campaign, asegúrese de que el usuario de IMS forma parte de los perfiles de usuario y administrador estándar del producto.
 
-Deberá esperar a que se ejecute el flujo de trabajo técnico para sincronizar la propiedad móvil de Launch con Adobe Campaign. A continuación, puede configurarlo en Adobe Campaign.
+Debe esperar a que se ejecute el flujo de trabajo técnico y sincronizar la propiedad móvil de Launch con Adobe Campaign. A continuación, puede configurarlo en Adobe Campaign.
 
 Para obtener más información sobre el flujo de trabajo técnico de la aplicación móvil de sincronización AEPSDK desde Launch, consulte esta [sección](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow).
 

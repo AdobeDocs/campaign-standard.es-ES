@@ -9,9 +9,9 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: fbab695a-2672-4183-8c3b-78af7aefd5b1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '840'
 ht-degree: 5%
 
 ---
@@ -28,7 +28,7 @@ Cada objeto y usuario de la plataforma está vinculado a una unidad organizativa
 >
 >De forma predeterminada, la **[!UICONTROL All (all)]** unidad organizativa se asigna al grupo de seguridad **[!UICONTROL Administrators]**. Es de solo lectura y no se puede modificar.
 
-Un usuario tiene acceso de solo lectura a todos los objetos de las unidades principales. Tiene acceso de lectura y escritura a todos los objetos de su unidad y unidades infantiles. Un usuario no tiene acceso a objetos en ramas paralelas.
+Un usuario tiene acceso de solo lectura a todos los objetos de las unidades principales. Este usuario tiene acceso de lectura y escritura a todos los objetos de su unidad y unidades secundarias. Un usuario no tiene acceso a objetos en ramas paralelas.
 
 De forma predeterminada, solo están disponibles las unidades **[!UICONTROL All]** .
 
@@ -79,17 +79,17 @@ Para ver el impacto de asignar diferentes unidades a diferentes grupos de seguri
 
 1. Siga los mismos procedimientos para crear la segunda plantilla asignada a la unidad organizativa de ropa de Geometrixx creada anteriormente.
 
-El usuario asignado a los grupos Usuario estándar y Ropa de Geometrixx podrá ver ambas plantillas. Debido a la estructura jerárquica de las unidades organizativas, tendrá acceso de lectura y escritura a la plantilla vinculada a la unidad de ropa de Geometrixx y solo acceso de sólo lectura a la plantilla vinculada a la unidad de Geometrixx.
+Los usuarios asignados a los grupos **Usuario estándar** y **Ropa de Geometrixx** podrán ver ambas plantillas. Debido a la estructura jerárquica de las unidades organizativas, tendrán acceso de lectura y escritura a la plantilla vinculada a la unidad Ropa de Geometrixx y solo acceso de sólo lectura a la plantilla vinculada a la unidad de Geometrixx.
 
 ![](assets/manage_units_7.png)
 
-Dado que la unidad Ropa de Geometrixx es una unidad secundaria de Geometrixx, aparece el siguiente mensaje cuando el usuario intenta modificar la plantilla de Geometrixx:
+Dado que la unidad Ropa de Geometrixx es una unidad secundaria de Geometrixx, aparece el siguiente mensaje cuando los usuarios intentan modificar la plantilla de Geometrixx:
 
 ![](assets/manage_units_8.png)
 
-Las unidades organizativas pueden restringir el acceso a diferentes funciones, como perfiles. Por ejemplo, si nuestro usuario de Ropa de Geometrixx accede a la pestaña **[!UICONTROL Profiles]**, podrá acceder y modificar completamente los perfiles con la unidad organizativa de Ropa de Geometrixx.
+Las unidades organizativas pueden restringir el acceso a diferentes funciones, como perfiles. Por ejemplo, si nuestros usuarios de Ropa de Geometrixx acceden a la pestaña **[!UICONTROL Profiles]** , podrán acceder y modificar completamente los perfiles con la unidad organizativa de Ropa de Geometrixx.
 
-Mientras que los perfiles con la unidad organizativa de Geometrixx serán de solo lectura, el siguiente error aparecerá si el usuario intenta modificar un perfil: **[!UICONTROL You do not have the rights needed to modify the 'profile' resource of ID]**.
+Mientras que los perfiles con la unidad organizativa de Geometrixx serán de solo lectura, aparecerá el siguiente error si los usuarios intentan modificar un perfil: **[!UICONTROL You do not have the rights needed to modify the 'profile' resource of ID]**.
 
 ![](assets/manage_units_10.png)
 

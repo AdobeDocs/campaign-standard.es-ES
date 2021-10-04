@@ -9,10 +9,10 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 5e523519-7192-4031-9d96-559af23074d9
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 75%
+source-wordcount: '744'
+ht-degree: 77%
 
 ---
 
@@ -57,7 +57,7 @@ Adobe Campaign proporciona una serie de herramientas para rastrear y mejorar el 
 
 ### Cree su mensaje de forma considerada
 
-Al configurar, diseñar y probar el mensaje, asegúrese de seguir las prácticas recomendadas que se mencionan en las secciones a continuación. El uso de todas las funciones que proporciona Adobe Campaign le ayudará a mejorar la capacidad de envío.
+Al configurar, diseñar y probar el mensaje, asegúrese de seguir las prácticas recomendadas que se mencionan en las secciones a continuación. El uso de todas las funciones que proporciona Adobe Campaign le ayuda a mejorar la capacidad de envío.
 
 * [Prácticas recomendadas de entregas](../../sending/using/delivery-best-practices.md)
 * [Control del contenido del correo electrónico](../../sending/using/control-email-content.md)

@@ -8,7 +8,7 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 7dfbd89f-877e-4598-bfe3-d743bb31ae9e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 33%
@@ -41,7 +41,7 @@ Antes de acceder a la imagen en Adobe Campaign, las siguientes tareas deben real
 1. Si utiliza permisos de empresa en la configuración de Adobe Target, añada la propiedad correspondiente en este campo. Obtenga más información sobre los permisos de empresa de Target en [esta página](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=es). Este campo es opcional y no es necesario si no se utilizan permisos de empresa en Target.
 1. En **[!UICONTROL Additional decision parameters]**, especifique la asignación entre los campos definidos en los segmentos de Adobe Target y los campos de Adobe Campaign.
 
-   Los campos de Adobe Campaign utilizados deben haberse especificado en el “rawbox”. Aquí, definiremos experiencias diferentes según el sexo del destinatario.
+   Los campos de Adobe Campaign utilizados deben haberse especificado en el “rawbox”. En este ejemplo, defina experiencias diferentes según el sexo del destinatario.
 
    ![](assets/tar_additional_decisionning_parameters.png)
 

@@ -8,10 +8,10 @@ feature: Audiences
 role: User
 level: Intermediate
 exl-id: 9992a05b-9f3c-4e6c-82e5-151c679565a1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1321'
-ht-degree: 96%
+source-wordcount: '1315'
+ht-degree: 90%
 
 ---
 
@@ -116,11 +116,11 @@ El correo electrónico de confirmación es un mensaje transaccional basado en el
 
 1. Haga clic en **[!UICONTROL Confirm]** para guardar el servicio.
 
-Ahora, cada vez que un perfil se suscribe a este servicio, recibe el mensaje transaccional que ha definido, con campos personalizados asignados al servicio seleccionado.
+Ahora, cuando los perfiles se suscriben a este servicio, reciben el mensaje transaccional que ha definido, con campos personalizados asignados al servicio seleccionado.
 
 >[!NOTE]
 >
->Solo se envía un mensaje la primera vez que el usuario se suscribe.
+>Un mensaje se envía solo la primera vez que el usuario se suscribe.
 
 ## Configuración del mensaje de confirmación desde una página de aterrizaje {#configuring-confirmation-message-from-landing-page}
 
@@ -190,7 +190,7 @@ Para crear y configurar esta página de aterrizaje, siga los pasos a continuaci�
 
 1. [Prueba y publicación](../../channels/using/testing-publishing-landing-page.md) de una página de aterrizaje.
 
-Ahora, cada vez que un perfil se suscribe a la newsletter enviando la página de aterrizaje, recibe el mensaje de confirmación que ha definido con los campos personalizados asignados al servicio.
+Ahora, cuando los perfiles se suscriben a la newsletter enviando la página de aterrizaje, reciben el mensaje de confirmación que ha definido con los campos personalizados asignados al servicio.
 
 >[!NOTE]
 >

@@ -8,10 +8,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 7ef0712e-4e42-41c8-9382-fbbd06edfdd9
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '2696'
-ht-degree: 90%
+source-wordcount: '2695'
+ht-degree: 89%
 
 ---
 
@@ -235,7 +235,7 @@ Siempre que busque ayuda sobre un problema de SMS, ya sea abriendo una entrada d
 
 ### Captura de red {#network-capture}
 
-No siempre se necesita una captura de red, por lo general los mensajes del SMPP detallados son suficientes. Estas son algunas directrices que le ayudarán a determinar si es necesaria una captura de red:
+No siempre se necesita una captura de red, por lo general los mensajes del SMPP detallados son suficientes. Estas son algunas directrices que le ayudan a determinar si se necesita una captura de red:
 
 * Problemas de conexión, pero los mensajes detallados no muestran ningún `BIND_RESP PDU`.
 

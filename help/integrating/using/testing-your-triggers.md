@@ -8,16 +8,16 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 66628f2a-6ed3-4b12-b2ed-9b9eec440dc3
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '461'
 ht-degree: 1%
 
 ---
 
 # Prueba de los activadores{#testing-your-triggers}
 
-Las siguientes sugerencias para la solución de problemas le ayudarán a resolver los problemas más comunes que pueda encontrar al usar Déclencheur con Adobe Campaign:
+Las siguientes sugerencias para la solución de problemas le ayudan a resolver los problemas más comunes que puede encontrar al usar Déclencheur con Adobe Campaign:
 
 **¿Está activada la funcionalidad?**
 

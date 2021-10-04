@@ -4,9 +4,9 @@ description: '"Aprenda a personalizar la visualización y a actuar en las pantal
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '785'
 ht-degree: 11%
 
 ---
@@ -58,7 +58,7 @@ Campaign Standard ofrece varias herramientas para ayudarle a ampliar su base de 
 
 Los flujos de trabajo permiten recopilar datos e importarlos a la base de datos de Campaign mediante el uso de actividades [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md). La información genérica y las prácticas recomendadas al importar datos mediante flujos de trabajo se presentan en [esta sección](../../automating/using/about-data-import-and-export.md).
 
-Además, puede configurar plantillas para importar datos. El uso de plantillas de importación es una práctica recomendada si necesita importar archivos con la misma estructura de forma regular. Puede configurar dos tipos de plantillas:
+Además, puede configurar plantillas para importar datos. El uso de plantillas de importación es una práctica recomendada para importar archivos con la misma estructura de forma regular. Puede configurar dos tipos de plantillas:
 
 * **Plantillas** de flujo de trabajo: son flujos de trabajo preconfigurados que se pueden configurar una vez según sus necesidades y reutilizar cada vez que desee importar datos y actualizar la base de datos. En [esta sección](../../automating/using/creating-import-workflow-templates.md) se detalla un ejemplo de plantilla de flujo de trabajo para importar datos.
 

@@ -9,16 +9,16 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
-source-git-commit: 8c4e38a3fc66e4d819575fcd64616a822e0e1f82
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '946'
 ht-degree: 5%
 
 ---
 
 # Configuración de reglas de Launch para admitir casos de uso de Adobe Campaign Standard {#configuring-rules-launch}
 
-En [!DNL Adobe Experience Platform Launch], debe crear elementos de datos y reglas para enviar PII y otros datos de aplicaciones móviles a [!DNL Adobe Campaign Standard].
+En [!DNL Adobe Experience Platform Launch], cree elementos de datos y reglas para enviar PII y otros datos de aplicaciones móviles a [!DNL Adobe Campaign Standard].
 
 Para asegurarse de que todos los cambios de configuración en [!DNL Adobe Experience Platform Launch] surtan efecto, debe publicar estos cambios. Para obtener más información, consulte [Publicación](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-the-configuration).
 

@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 80%
+source-wordcount: '1279'
+ht-degree: 77%
 
 ---
 
@@ -87,7 +87,7 @@ Una **marca** se define con las siguientes características:
 
 ## Creación de una nueva marca {#creating-a-brand}
 
-Puede añadir nuevas entidades de su organización en Campaign o crear un nuevo tipo de correo electrónico que necesite enviar en un subdominio diferente. Para ello, siga los pasos a continuación:
+Puede añadir nuevas entidades de su organización en Campaign o crear un nuevo tipo de correo electrónico que debe enviar en un subdominio diferente. Para ello, siga los pasos a continuación:
 
 1. **Configurar un nuevo subdominio** : para que el Adobe utilice cualquier nuevo subdominio, el primer paso es configurarlo. Puede hacerlo a través del [Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=es) o ponerse en contacto con el contacto técnico de su Adobe. Obtenga más información sobre la configuración de subdominios [en este artículo](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=es).
 
@@ -95,7 +95,7 @@ Puede añadir nuevas entidades de su organización en Campaign o crear un nuevo 
    >
    >Todos los usuarios administradores pueden acceder al Panel de control de Campaign. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel).
 
-1. **Crear un ticket** : Una vez configurado el subdominio, Adobe deberá configurarlo en el entorno de producción. Para solicitar esto, [cree un ticket para Client Care](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) con la siguiente información:
+1. **Crear un ticket** : Una vez configurado el subdominio, Adobe lo configurará en el entorno de producción. Para solicitar esto, [cree un ticket para Client Care](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) con la siguiente información:
 
    * Asunto: ACS Nueva configuración de marca
 
@@ -145,13 +145,13 @@ La plantilla está vinculada a la marca. En el editor de correo electrónico, lo
 
 En este ejemplo, vamos a crear una nueva marca relacionada con el turismo y utilizarla en un mensaje de correo electrónico.
 
-#### Configurar una nueva marca {#configure-a-new-brand}
+#### Paso 1: Configurar una nueva marca {#configure-a-new-brand}
 
 >[!IMPORTANT]
 >
 >La configuración de una marca solo la administra Adobe, ya que requiere permisos específicos y configuración técnica.
 
-1. El administrador de Adobe Campaign crea la marca en **[!UICONTROL Administration > Instance settings > Brand configuration]**. Añade el elemento **Vacaciones en los trópicos** desde el menú avanzado y configura el **[!UICONTROL ID]** y el **[!UICONTROL Header parameters of sent emails]** de la marca.
+1. El administrador de Adobe Campaign crea primero la marca desde el menú **[!UICONTROL Administration > Instance settings > Brand configuration]** y agrega el elemento **Vacaciones en los trópicos** y configura el **[!UICONTROL ID]** y el **[!UICONTROL Header parameters of sent emails]** de la marca.
 
    ![](assets/branding_07.png)
 
@@ -163,7 +163,7 @@ En este ejemplo, vamos a crear una nueva marca relacionada con el turismo y util
 
 La marca se crea y configura correctamente. Ahora puede usarse en los equipos de marketing.
 
-#### Implementar una nueva marca {#implement-a-new-brand}
+#### Paso 2: Implementar una nueva marca {#implement-a-new-brand}
 
 Como administrador de envíos, usted se encarga de crear las plantillas de envío para utilizar la nueva marca. Para conseguir esto, siga los pasos a continuación:
 
@@ -182,7 +182,7 @@ Como administrador de envíos, usted se encarga de crear las plantillas de enví
 
    La plantilla de envío ahora se puede utilizar para crear correos electrónicos que se pueden enviar a una audiencia.
 
-#### Usar la nueva marca en un envío {#use-the-new-brand-in-a-delivery}
+#### Paso 3: Usar la nueva marca en un envío {#use-the-new-brand-in-a-delivery}
 
 Para crear un correo electrónico vinculado a una marca, siga los pasos a continuación:
 

@@ -8,7 +8,7 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: 6383ddbe-922a-4363-a1da-166cf717b0dd
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 0%
@@ -63,7 +63,7 @@ Puede personalizar la extensión XDM a través de la API y definir su propia ext
 
 Consulte [Tutorial de la API del Registro de Esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) para obtener más información sobre la API XDM.
 
-Para asignar un campo de enumeración, debe utilizar el editor de expresiones para definir cada valor de enumeración correspondiente al valor XDM. Por ejemplo, el campo postalAdressfield debe definirse como:
+Para asignar un campo de enumeración, debe utilizar el editor de expresiones para definir cada valor de enumeración correspondiente al valor XDM. Por ejemplo, el campo postaladdress debe definirse como:
 
 ![](assets/aep_enummapping.png)
 

@@ -9,9 +9,9 @@ feature: Control Groups
 role: User
 level: Intermediate
 exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1512'
 ht-degree: 5%
 
 ---
@@ -190,7 +190,7 @@ Los pasos principales para este caso de uso son los siguientes:
 1. Cree el flujo de trabajo para crear una audiencia a partir del archivo . Para ello, añada y configure las siguientes actividades:
 
    * **[!UICONTROL Load file]** actividad: Importa el archivo CSV (para obtener más información sobre esta actividad, consulte  [esta sección](../../automating/using/load-file.md)).
-   * **[!UICONTROL Reconciliation]** actividad: Vincula la información del archivo a la información de la base de datos. En este ejemplo, utilizaremos la dirección de correo electrónico del perfil como campo de reconciliación (para obtener más información sobre esta actividad, consulte [esta sección](../../automating/using/reconciliation.md)).
+   * **[!UICONTROL Reconciliation]** actividad: Vincula la información del archivo a la información de la base de datos. En este ejemplo, utilice la dirección de correo electrónico del perfil como campo de reconciliación (para obtener más información sobre esta actividad, consulte [esta sección](../../automating/using/reconciliation.md)).
    * **[!UICONTROL Save audience]** actividad: Crea una audiencia basada en el archivo importado (para obtener más información sobre esta actividad, consulte  [esta sección](../../automating/using/save-audience.md)).
 
    ![](assets/substitution_uc2.png)

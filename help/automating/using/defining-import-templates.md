@@ -4,10 +4,10 @@ description: Las plantillas de importación permiten acortar la configuración n
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 100%
+source-wordcount: '786'
+ht-degree: 96%
 
 ---
 
@@ -48,7 +48,7 @@ Estas plantillas predeterminadas son de solo lectura y no son visibles para los 
 
 1. Vaya a la pestaña **[!UICONTROL Workflow]**. Desde aquí puede enriquecer el flujo de trabajo ofrecido de forma predeterminada añadiendo nuevas actividades según sus necesidades.
 
-   Para obtener más información sobre cómo configurar las actividades del flujo de trabajo, consulte el caso de uso descrito en esta sección: [Ejemplo: importar plantilla de flujo de trabajo](../../automating/using/creating-import-workflow-templates.md). Este caso de uso le puede ayudar a configurar un flujo de trabajo que se puede reutilizar para importar perfiles procedentes de una CRM en la base de datos de Adobe Campaign.
+   Para obtener más información sobre cómo configurar las actividades del flujo de trabajo, consulte el caso de uso descrito en esta sección: [Ejemplo: importar plantilla de flujo de trabajo](../../automating/using/creating-import-workflow-templates.md). Este caso de uso le ayuda a configurar un flujo de trabajo que se puede reutilizar para importar perfiles procedentes de un CRM en la base de datos de Adobe Campaign.
 
 1. Guarde la plantilla para que la configuración del flujo de trabajo se tenga en cuenta correctamente.
 1. Cargue un archivo de muestra desde la pestaña **[!UICONTROL Properties]**. El archivo cargado solo puede tener columnas necesarias para futuras importaciones o datos de muestra. Los datos del archivo de muestra le permiten probar la importación simplificada una vez definido el flujo de trabajo.

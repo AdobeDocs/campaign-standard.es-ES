@@ -9,9 +9,9 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1007'
 ht-degree: 5%
 
 ---
@@ -106,7 +106,7 @@ En la pestaña **[!UICONTROL General]**, configure **[!UICONTROL Execution frequ
 
    ![](assets/update_profile_createelement.png)
 
-1. En el campo **[!UICONTROL Source]**, seleccione un campo de la tabla appSubscriptionRcp como campo de reconciliación. Puede ser el correo electrónico del perfil, crmId, marketingCloudId, etc. En este ejemplo, se utiliza el campo &quot;Correo electrónico (cusEmail)&quot;.
+1. En el campo **[!UICONTROL Source]**, seleccione un campo de la tabla appSubscriptionRcp como campo de reconciliación. Puede ser el correo electrónico del perfil, crmId, marketingCloudId, etc. En este ejemplo, utilice el campo &quot;Correo electrónico (cusEmail)&quot;.
 
 1. En el campo **[!UICONTROL Destination]**, seleccione un campo de la tabla de perfiles para reconciliar los datos de la tabla appSubscriptionRcp . Puede ser el correo electrónico del perfil o cualquier campo extendido como crmId, marketingCloudId, etc. En este ejemplo, es necesario seleccionar el campo &quot;Correo electrónico (correo electrónico)&quot; para asignarlo al campo &quot;Correo electrónico (cusEmail)&quot; de la tabla appSubscriptionRcp .
 

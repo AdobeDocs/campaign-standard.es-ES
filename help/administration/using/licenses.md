@@ -8,9 +8,9 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4a4c14da-d842-4f65-821a-ca9e73a94adc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '168'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ La ventana **[!UICONTROL Licenses]** permite ver las licencias instaladas en la 
 
 ![](assets/license_1.png)
 
-Con una nueva compilación o una nueva función, los términos de licencia pueden cambiar y deben ser aceptados por un administrador funcional de la instancia.
+Con una nueva compilación o una función nueva, los términos de licencia pueden cambiar y deben ser aceptados por un administrador funcional de la instancia.
 
 Después de iniciar sesión, aparecerá la siguiente ventana para los usuarios estándar; no es necesario realizar ninguna acción por su parte. Pueden seguir funcionando en Adobe Campaign haciendo clic en el botón **[!UICONTROL OK]**.
 

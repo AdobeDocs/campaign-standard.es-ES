@@ -9,9 +9,9 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1672'
 ht-degree: 6%
 
 ---
@@ -32,7 +32,7 @@ Una vez completada la configuración, se debe publicar el evento. Consulte [Publ
 
 Para empezar, cree el evento que corresponda a sus necesidades.
 
-1. Haga clic en el logotipo de **Adobe**, en la esquina superior izquierda, y seleccione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
+1. Haga clic en el logotipo **Adobe**, en la esquina superior izquierda, y luego seleccione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. Haga clic en el botón **[!UICONTROL Create]**.
 1. Introduzca un **[!UICONTROL Label]** y un **[!UICONTROL ID]** para el evento. El campo **[!UICONTROL ID]** es obligatorio y debe comenzar con el prefijo &quot;EVT&quot;. Si no utiliza este prefijo, se añade automáticamente una vez que haga clic en **[!UICONTROL Create]**.
 
@@ -149,7 +149,7 @@ Una vez publicados el evento y el mensaje, este vínculo le permite enriquecer e
 
 Para acceder y buscar los eventos transaccionales ya creados, siga los pasos a continuación.
 
-1. Haga clic en el logotipo de **Adobe**, en la esquina superior izquierda, y seleccione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
+1. Haga clic en el logotipo **Adobe**, en la esquina superior izquierda, y luego seleccione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. Haga clic en el botón **[!UICONTROL Show search]**.
 
    ![](assets/message-center_search-events.png)
