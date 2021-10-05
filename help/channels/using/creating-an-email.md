@@ -8,9 +8,9 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '551'
 ht-degree: 20%
 
 ---
@@ -90,7 +90,7 @@ Puede crear un correo electrónico desde una [campaña](../../start/using/market
 
 **Temas relacionados**:
 
-* [Creación de una guía ](https://helpx.adobe.com/es/campaign/kb/acs-get-started-with-emails.html) paso a paso de correo electrónico personalizado
+* [Creación de una guía ](../../channels/using/key-steps-to-send-a-message.md) paso a paso de correo electrónico personalizado
 * [Integración de Adobe Campaign y Dreamweaver](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 * [Integración con Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
 

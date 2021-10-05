@@ -8,9 +8,9 @@ context-tags: delivery,triggers,back
 feature: In App
 role: User
 exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '443'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ Para empezar a enviar mensajes en la aplicación en aplicaciones móviles que ut
 
 1. En Adobe Campaign, asegúrese de que puede acceder al canal **[!UICONTROL In-App]**. Si no puede acceder a estos canales, póngase en contacto con el equipo de su cuenta.
 
-1. Para aprovechar los casos de uso móvil en Adobe Campaign Standard con una aplicación de SDK de Experience Cloud, se debe crear una aplicación móvil en Adobe Experience Platform Launch y configurarla en Adobe Campaign Standard. Para obtener la guía paso a paso, consulte esta [página](https://helpx.adobe.com/es/campaign/kb/configuring-app-sdk.html).
+1. Para aprovechar los casos de uso móvil en Adobe Campaign Standard con una aplicación de SDK de Experience Cloud, se debe crear una aplicación móvil en Adobe Experience Platform Launch y configurarla en Adobe Campaign Standard. Para obtener la guía paso a paso, consulte esta [página](../../administration/using/configuring-a-mobile-application.md).
 
 1. Una vez configurada, ahora puede preparar su mensaje en la aplicación. Para obtener más información, consulte [esta página](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message).
 
@@ -38,8 +38,8 @@ Para empezar a enviar mensajes en la aplicación en aplicaciones móviles que ut
 **Contenido relacionado:**
 
 * [Informe en la aplicación](../../reporting/using/in-app-report.md)
-* [Casos de uso móvil admitidos en Adobe Campaign Standard](https://helpx.adobe.com/es/campaign/kb/configure-launch-rules-acs-use-cases.html)
-* [Guía de Campaign Standard Mobile](https://helpx.adobe.com/es/campaign/kb/acs-mobile.html)
+* [Casos de uso móvil admitidos en Adobe Campaign Standard](../../administration/using/configuring-rules-launch.md)
+* [Guía de Campaign Standard Mobile](../../channels/using/get-started-communication-channels.md)
 
 ## Gestión de campos de perfil móvil con datos personales y confidenciales {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
 

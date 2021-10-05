@@ -8,10 +8,10 @@ feature: Email
 role: User
 level: Intermediate
 exl-id: fcf192cb-f2d5-4340-bc2f-add0c195ad4e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 25%
+source-wordcount: '278'
+ht-degree: 24%
 
 ---
 
@@ -43,6 +43,3 @@ La audiencia se basa en perfiles con información de idioma preferido completada
 1. Programe el envío con **[!UICONTROL Send after confirmation option]**.
 1. Una vez enviado el correo electrónico, puede acceder a sus registros e informes para medir el éxito de la campaña. Para obtener más información sobre la creación de informes, consulte [esta sección](../../reporting/using/about-dynamic-reports.md).
 
-**Temas relacionados:**
-
-* [Alcance de audiencias multilingües mediante un flujo de trabajo](https://helpx.adobe.com/es/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)

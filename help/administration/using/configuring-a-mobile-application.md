@@ -8,9 +8,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '1273'
+source-wordcount: '1248'
 ht-degree: 6%
 
 ---
@@ -25,11 +25,9 @@ ht-degree: 6%
 
 Para enviar notificaciones push y mensajes en la aplicación con la aplicación SDK de Experience Platform, se debe configurar una aplicación móvil en el Experience Platform Launch de Adobe Experience Platform Experience Platform y configurarla en Adobe Campaign.
 
-Para obtener más información sobre la función obsoleta SDK de la versión 4 de Mobile, consulte esta [página](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4-deprecated.html).
-
 Una vez configurada una aplicación móvil, puede recuperar los datos PII recopilados para crear o actualizar perfiles de la base de datos. Para obtener más información, consulte esta sección: [Creación y actualización de información de perfil basada en datos de aplicaciones móviles](../../channels/using/updating-profile-with-mobile-app-data.md).
 
-Para obtener más información sobre los distintos casos de uso móvil admitidos en Adobe Campaign Standard mediante los SDK para Adobe Experience Platform, consulte esta [página](https://helpx.adobe.com/es/campaign/kb/configure-launch-rules-acs-use-cases.html).
+Para obtener más información sobre los distintos casos de uso móvil admitidos en Adobe Campaign Standard mediante los SDK para Adobe Experience Platform, consulte esta [página](../../administration/using/supported-mobile-use-cases.md).
 
 Para completar la configuración, complete los siguientes pasos:
 

@@ -9,10 +9,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '1278'
-ht-degree: 50%
+source-wordcount: '1237'
+ht-degree: 49%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 50%
 
 Adobe Campaign permite enviar notificaciones push personalizadas y segmentadas a dispositivos móviles iOS y Android.
 
-Estos mensajes se reciben en aplicaciones móviles que se configuran en Adobe Campaign mediante el uso del SDK de Experience Platform. Para obtener más información sobre esto, consulte [Configuración de una aplicación móvil mediante el uso de SDK de Adobe Experience Platform](https://helpx.adobe.com/es/campaign/kb/configuring-app-sdk.html).
+Estos mensajes se reciben en aplicaciones móviles que se configuran en Adobe Campaign mediante el uso del SDK de Experience Platform. Para obtener más información sobre esto, consulte [Configuración de una aplicación móvil mediante el uso de SDK de Adobe Experience Platform](../../administration/using/configuring-a-mobile-application.md).
 
 En Adobe Campaign, los datos de atributos de perfil móviles enviados desde dispositivos móviles se almacenan en el recurso **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**, que le permite definir los datos que desea recopilar de los suscriptores de las aplicaciones.
 
@@ -40,8 +40,6 @@ En Adobe Campaign, hay disponibles dos tipos de notificaciones push:
 
 Se pueden configurar algunos ajustes específicos para definir el comportamiento de las notificaciones. Para obtener más información, consulte [esta sección](../../channels/using/customizing-a-push-notification.md).
 
-Como usuario experto, para configurar estos ajustes específicos, consulte las [notas técnicas](https://helpx.adobe.com/es/campaign/kb/acs-article-list.html) de la aplicación móvil.
-
 >[!NOTE]
 >
 >Las leyes relativas a la privacidad difieren según el país. Algunos países obligan a que se informe a los usuarios de los tipos de datos que recopilan las aplicaciones móviles. Consulte las leyes de su país relativas a aplicaciones móviles. Asegúrese de que las notificaciones push enviadas aplicaciones móviles cumplen los requisitos previos y las condiciones especificadas por Apple (Apple Push Notification Service) y Google (Google Cloud Messaging o Firebase Cloud Messaging).
@@ -51,7 +49,7 @@ Como usuario experto, para configurar estos ajustes específicos, consulte las [
 * [Preparación y envío de una notificación push](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [Creación de una notificación push multilingüe](../../channels/using/creating-a-multilingual-push-notification.md)
 * [Informe de notificaciones push](../../reporting/using/push-notification-report.md)
-* [Guía de Campaign Standard Mobile](https://helpx.adobe.com/es/campaign/kb/acs-mobile.html)
+* [Guía de Campaign Standard Mobile](../../channels/using/get-started-communication-channels.md)
 
 ## Requisitos previos {#prerequisites}
 
@@ -70,11 +68,11 @@ Antes de enviar las notificaciones push, debe hacer lo siguiente:
 
 1. En Experience Platform Launch, instale la extensión **[!UICONTROL Adobe Campaign Standard]**.
 
-1. En Adobe Campaign Standard, configure la propiedad móvil que ha creado en Experience Platform Launch. Para obtener más información, consulte [Configuración de la aplicación Experience Platform Launch en Adobe Campaign](https://helpx.adobe.com/es/campaign/kb/configuring-app-sdk.html#SettingupyourAdobeExperiencePlatformLaunchapplicationinAdobeCampaign).
+1. En Adobe Campaign Standard, configure la propiedad móvil que ha creado en Experience Platform Launch. Para obtener más información, consulte [Configuración de la aplicación Experience Platform Launch en Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
 1. Añada la configuración específica del canal a la configuración de la aplicación móvil. Para obtener más información, consulte [Configuración de aplicaciones específicas del canal en Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
-1. Para admitir implementaciones de casos de uso móvil, consulte las instrucciones detalladas sobre extensiones, reglas de Experience Platform Launch e implementación de SDK en [Casos de uso móvil admitidos en Adobe Campaign Standard mediante el uso de SDK de Adobe Experience Platform](https://helpx.adobe.com/es/campaign/kb/configure-launch-rules-acs-use-cases.html).
+1. Para admitir implementaciones de casos de uso móvil, consulte las instrucciones detalladas sobre extensiones, reglas de Experience Platform Launch e implementación de SDK en [Casos de uso móvil admitidos en Adobe Campaign Standard mediante el uso de SDK de Adobe Experience Platform](../../administration/using/configuring-rules-launch.md).
 
 ## Preguntas frecuentes sobre notificaciones push {#push-faq}
 

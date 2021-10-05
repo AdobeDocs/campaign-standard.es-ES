@@ -8,10 +8,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b81f6e9-cb31-4664-af78-22e70043fbc8
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 3%
+source-wordcount: '903'
+ht-degree: 2%
 
 ---
 
@@ -59,7 +59,7 @@ Antes de personalizar la notificación push multilingüe, primero debemos cargar
 
 1. En la ventana **[!UICONTROL Manage Content Variants]**, arrastre y suelte el archivo o seleccione un archivo del equipo.
 
-   El archivo debe tener codificación UTF8 y un diseño específico que se pueda encontrar haciendo clic en la opción **[!UICONTROL Download the sample file]**. También debe utilizar la sintaxis adecuada para los valores de configuración regional. Para obtener más información sobre el formato de archivo y las configuraciones regionales compatibles, consulte esta [nota técnica](https://helpx.adobe.com/es/campaign/kb/acs-generate-csv-multilingual-push.html).
+   El archivo debe tener codificación UTF8 y un diseño específico que se pueda encontrar haciendo clic en la opción **[!UICONTROL Download the sample file]**. También debe utilizar la sintaxis adecuada para los valores de configuración regional. Para obtener más información sobre el formato de archivo y las configuraciones regionales compatibles, consulte esta [página](../../channels/using/generating-csv-multilingual-push.md).
 
    ![](assets/multivariant_push_4.png)
 
@@ -132,4 +132,3 @@ Ahora puede medir el impacto de la entrega de notificaciones push multilingües 
 
 * [Informe de notificaciones push](../../reporting/using/push-notification-report.md)
 * [Envío de una notificación push dentro de un flujo de trabajo](../../automating/using/push-notification-delivery.md)
-* [Alcance de audiencias multilingües mediante un flujo de trabajo](https://helpx.adobe.com/es/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)

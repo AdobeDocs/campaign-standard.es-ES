@@ -9,9 +9,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: a6515795-1006-4f27-bc44-5ae8b8edc018
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1141'
 ht-degree: 4%
 
 ---
@@ -216,7 +216,7 @@ Para comprender los aspectos de una carga útil de android, consulte [Conceptos 
 | Contenido mutable <br> (solo aplicable para iOS 10 o superior) | contenido mutable | NA | La extensión del servicio de notificaciones de su aplicación &quot;interceptará&quot; todas las notificaciones remotas con la clave de contenido mutable y le permitirá gestionar/manipular el contenido de la carga útil de la solicitud, que se puede utilizar para personalizar la notificación. Algunos casos de uso de esta función son la descarga y visualización de varios medios, lo que descifra los datos cifrados presentes en la carga útil push. Puede encontrar más información en [Modificar la carga útil de una notificación remota](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). <br>(Solo aplicable para iOS 10 o posterior) |
 | Contenido disponible | contenido disponible | NA | Al seleccionar esta opción, se habilita la activación de una aplicación de iOS mientras está en estado de fondo/suspendido. Despertar implica que la aplicación se ejecuta en segundo plano y que el controlador de eventos adecuado responsable de la recepción de la carga de datos de la notificación push obtiene un control y puede utilizar los datos para realizar cualquier cálculo, incluida, entre otras cosas, la creación de notificaciones push personalizadas y la visualización de lo mismo. Encontrará más información en [Despertar aplicación con entrega de notificaciones](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html). |
 | URL de contenido multimedia enriquecido (archivos de imagen)<br>(Solo aplicable para Android) | NA | media-attachment-url | URL de los archivos de imagen para añadir contenido enriquecido a la notificación. |
-| NA | _mId<br>_dId | _mId <br>_dId | Valores de broadlogId y deliveryId.<br>Estos atributos son necesarios si la aplicación desea llamar a un postback de seguimiento para rastrear cuándo se hizo clic o abrió la notificación push. El servidor de aplicaciones calcula esta información y la envía internamente sin intervención del usuario.<br>En esta  [página](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#PIIpostback) se puede encontrar información sobre los postbacks. |
+| NA | _mId<br>_dId | _mId <br>_dId | Valores de broadlogId y deliveryId.<br>Estos atributos son necesarios si la aplicación desea llamar a un postback de seguimiento para rastrear cuándo se hizo clic o abrió la notificación push. El servidor de aplicaciones calcula esta información y la envía internamente sin intervención del usuario.<br>En esta  [página](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback) se puede encontrar información sobre los postbacks. |
 
 ### Cómo recuperar la información de carga útil en el código de la aplicación móvil {#payload-information}
 
