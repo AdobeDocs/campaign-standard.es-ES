@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '650'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -94,14 +94,14 @@ Tenga en cuenta que el idioma se configura durante la instalación y no se puede
 
 ### Diseñador de correo electrónico {#email-designer-shortcuts}
 
-| Acción | Método abreviado de Windows | acceso directo a macOS |
+| Acción | Método abreviado de Windows | Método abreviado de macOS |
 | --- | --- | --- |
 | Deshacer | Ctrl + Z | Comando + Z |
 | Rehacer | Ctrl + Y | Mayús + Comando + Z |
 
 ### Informes dinámicos {#report-shortcuts}
 
-| Acción | Método abreviado de Windows | acceso directo a macOS |
+| Acción | Método abreviado de Windows | Método abreviado de macOS |
 | --- | --- | --- |
 | Abrir un proyecto | Ctrl + O | Comando + O |
 | Guardar | Ctrl + S | Comando + S |
@@ -117,7 +117,7 @@ Tenga en cuenta que el idioma se configura durante la instalación y no se puede
 | Nueva línea | Alt + 2 | Opción + 2 |
 | Nueva barra | Alt + 3 | Opción + 3 |
 | Enviar informe ahora | Alt + S | Opción + S |
-| Enviar informe según lo programado | Shift + Alt + S | Mayús + Opción + S |
+| Enviar informe según lo programado | Mayús + Alt + S | Mayús + Opción + S |
 | Informes programados | Mayús + Alt + L | <!-- Should be 'Shift + Option + L ' but does not work on Mac --> |
 
 ## Lectura adicional {#further-reading}
