@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1599'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Por ello, es responsabilidad del controlador de datos confirmar la identidad del
 
 ### Áreas de nombres {#namesspaces}
 
-Antes de crear solicitudes de privacidad, defina el espacio de nombres que utilizará. El área de nombres es la clave que se utiliza para identificar el sujeto de datos en la base de datos de Adobe Campaign. Hay dos Áreas de nombres disponibles: correo electrónico y teléfono móvil. Si necesita una Área de nombres diferente (por ejemplo, un campo personalizado de perfil), siga estos pasos.
+Antes de crear solicitudes de privacidad, debe definir el área de nombres que utilizará. El área de nombres es la clave que se utiliza para identificar el sujeto de datos en la base de datos de Adobe Campaign. Hay dos Áreas de nombres disponibles: correo electrónico y teléfono móvil. Si necesita una Área de nombres diferente (por ejemplo, un campo personalizado de perfil), siga estos pasos.
 
 [Consulte también el tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html?lang=es#privacy) sobre cómo crear un área de nombres.
 
@@ -53,7 +53,7 @@ Antes de crear solicitudes de privacidad, defina el espacio de nombres que utili
 >
 >Si utiliza varias áreas de nombres, cree una solicitud de privacidad por cada área de nombres.
 
-1. Haga clic en el logotipo de Adobe Campaign en la esquina superior izquierda y, a continuación, seleccione **[!UICONTROL Administration]** > **[!UICONTROL Namespaces]**.
+1. Haga clic en el logotipo de Adobe Campaign, en la esquina superior izquierda, y seleccione **[!UICONTROL Administration]** > **[!UICONTROL Namespaces]**.
 
    ![](assets/privacy-namespaces.png)
 
@@ -75,7 +75,7 @@ Antes de crear solicitudes de privacidad, defina el espacio de nombres que utili
 
    Para obtener más información sobre Áreas de nombres de identidad, consulte la documentación del [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=es).
 
-1. Un área de nombres de servicio de identidad se asigna a un área de nombres en Campaign. Debe especificar cómo se reconciliará el área de nombres en Campaign.
+1. Un área de nombres de servicio de identidad se asigna a un área de nombres en Campaign. Debe especificar cómo se asignará el área de nombres en Campaign.
 
    Seleccione una asignación de destino (**[!UICONTROL Recipients]**, **[!UICONTROL Real-time event]** o **[!UICONTROL Subscriptions to an application]**). Si desea utilizar varias asignaciones de destino, cree un área de nombres por asignación de destino.
 
@@ -129,7 +129,7 @@ Consulte también [este tutorial](https://experienceleague.adobe.com/docs/campai
 
 Para que esto funcione, debe seleccionar la opción **[!UICONTROL Deleting the target record implies deleting records referenced by the link]** en el recurso personalizado:
 
-1. Haga clic en el logotipo de Adobe Campaign en la esquina superior izquierda y, a continuación, seleccione **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]**.
+1. Haga clic en el logotipo de Adobe Campaign, en la esquina superior izquierda, y seleccione **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]**.
 
 1. Seleccione un recurso personalizado que tenga un vínculo al recurso de perfiles (tipo propio).
 
@@ -191,7 +191,7 @@ Cuando los usuarios decidan, a través de su sistema, que no permiten que su inf
 
 A partir de la versión 19.4, el campo **[!UICONTROL CCPA Opt-Out]** se proporciona listo para usar en la interfaz y la API de Campaign. De forma predeterminada, el campo está disponible para el recurso de **[!UICONTROL Profile]**.
 
-Si utiliza un recurso de perfil personalizado, debe ampliar el recurso y agregar el campo . Le recomendamos que utilice un nombre distinto al del campo predeterminado, por ejemplo: **[!UICONTROL Opt-Out for CCPA]** (optoutccpa). Cuando se crea un nuevo campo, se vuelve compatible con la API de Campaign de forma automática.
+Si utiliza un recurso de perfil personalizado, debe extender el recurso y agregar el campo. Le recomendamos que utilice un nombre distinto al del campo predeterminado, por ejemplo: **[!UICONTROL Opt-Out for CCPA]** (optoutccpa). Cuando se crea un nuevo campo, se vuelve compatible con la API de Campaign de forma automática.
 
 Para obtener información más detallada sobre cómo ampliar el recurso de perfil, consulte [esta sección](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
 
