@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
-source-wordcount: '425'
-ht-degree: 100%
+source-git-commit: ce3c7cf767a0b6f72f5ca35779b492271d025227
+workflow-type: tm+mt
+source-wordcount: '432'
+ht-degree: 94%
 
 ---
 
@@ -25,11 +25,11 @@ Las actualizaciones se implementan en dos fases. En primer lugar, las instancias
 
 Todas las fechas de lanzamiento están sujetas a cambios: le recomendamos que visite esta página con regularidad para buscar actualizaciones.
 
-## Versión 21.3: versión de septiembre de 2021 {#release-21-3-release}
+## Versión 22.1: versión de febrero de 2022 {#release-22-1-release}
 
 Las actualizaciones de entorno se producen en olas, durante los intervalos de tiempo indicados a continuación. Las fechas exactas se comunican por correo electrónico a cada cliente.
 
-Encontrará información detallada acerca de esta versión en las [Notas de la versión](../../rn/using/release-notes.md).
+Encontrará información detallada sobre esta versión en el [Notas de la versión](../../rn/using/release-notes.md) en la fecha de actualización del entorno de ensayo.
 
 <table>
  <thead>
@@ -41,11 +41,11 @@ Encontrará información detallada acerca de esta versión en las [Notas de la v
  <tbody>
   <tr>
    <td>Prueba<br /> </td>
-   <td>Del 7 al 8 de septiembre de 2021<br /> </td>
+   <td>Del 8 al 9 de febrero de 2022<br /> </td>
   </tr>
   <tr>
    <td>Producción<br /> </td>
-   <td>Del 14 al 21 de septiembre de 2021<br /> </td>
+   <td>15-22 de febrero de 2021<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -60,7 +60,7 @@ R: Los cambios se enumeran en las [notas de la versión](../../rn/using/release-
 
 **P: ¿Cuál es el proceso de validación?**
 
-R: A medida que se actualiza la instancia de prueba, Adobe recomienda validar los procesos y casos de uso que funcionan correctamente con esta nueva versión e informar de cualquier problema al [equipo de Atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html).
+R: A medida que se actualiza la instancia de prueba, Adobe recomienda validar los procesos y casos de uso que funcionan correctamente con esta nueva versión e informar de cualquier problema al [equipo de Atención al cliente de Adobe](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
 
 **P: ¿Habrá acceso a la instancia durante el proceso de actualización?**
 
@@ -82,4 +82,4 @@ R: Sí, funcionará. No se pueden enviar nuevos correos electrónicos durante la
 
 R: Al iniciar sesión en Campaign, aparecerá una ventana emergente de notificación que indica la versión más reciente.
 
-Para cualquier otra pregunta, póngase en contacto con [el equipo de Atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html).
+Para cualquier otra pregunta, póngase en contacto con [el equipo de Atención al cliente de Adobe](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
