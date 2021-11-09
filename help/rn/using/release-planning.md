@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: ce3c7cf767a0b6f72f5ca35779b492271d025227
+source-git-commit: 85c42129e105999483d23865f2534c90406251e4
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 94%
+source-wordcount: '423'
+ht-degree: 74%
 
 ---
 
@@ -21,9 +21,9 @@ Adobe mejora continuamente sus soluciones añadiendo nuevas funciones, mejoras y
 
 Todas las instancias de Adobe Campaign Standard se actualizan con cada nueva versión. No se requiere ninguna acción para la actualización.
 
-Las actualizaciones se implementan en dos fases. En primer lugar, las instancias de prueba se actualizan para permitir a nuestros clientes probar nuevas funciones y adaptar su configuración si es necesario. Las instancias de producción se actualizan posteriormente.
+Las actualizaciones se implementan en dos fases. En primer lugar, las instancias de prueba se actualizan para permitirle probar nuevas funciones y adaptar la configuración si es necesario. A continuación, se actualizan las instancias de producción.
 
-Todas las fechas de lanzamiento están sujetas a cambios: le recomendamos que visite esta página con regularidad para buscar actualizaciones.
+Todas las fechas de lanzamiento están sujetas a cambios: visite esta página regularmente para buscar actualizaciones.
 
 ## Versión 22.1: versión de febrero de 2022 {#release-22-1-release}
 
@@ -45,7 +45,7 @@ Encontrará información detallada sobre esta versión en el [Notas de la versi�
   </tr>
   <tr>
    <td>Producción<br /> </td>
-   <td>15-22 de febrero de 2021<br /> </td>
+   <td>Del 15 al 22 de febrero de 2022<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -68,11 +68,11 @@ R: No. Durante la actualización de la instancia, es posible que la base de dato
 
 **P: ¿Seguirán enviándose los mensajes?**
 
-R: No. Los mensajes no se enviarán durante unos minutos. Tan pronto como se complete la actualización, los procesos se reinician automáticamente.
+R: No. Los mensajes no se enviarán durante unos minutos. Cuando se completa la actualización, los procesos se reinician automáticamente.
 
 **P: ¿Seguirán funcionando los flujos de trabajo y realizarán envíos?**
 
-R: No. Durante la actualización de la compilación, tanto el servidor de flujo de trabajo como el MTA se detienen. Esto significa que los flujos de trabajo no se ejecutarán y los envíos no se realizarán durante unos minutos. No se requiere ninguna acción: los flujos de trabajo se reiniciarán en cuanto se actualice la instancia.
+R: No. Durante la actualización de la compilación, tanto el servidor de flujo de trabajo como el MTA se detienen. Como consecuencia, los flujos de trabajo no se ejecutarán y los envíos no se realizarán durante unos minutos. No se requiere ninguna acción: los flujos de trabajo se reiniciarán en cuanto se actualice la instancia.
 
 **P: ¿Seguirá funcionando el seguimiento de vínculos en los mensajes durante la actualización?**
 
