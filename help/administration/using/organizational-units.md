@@ -9,7 +9,7 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: fbab695a-2672-4183-8c3b-78af7aefd5b1
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 5%
@@ -24,13 +24,13 @@ Cada objeto y usuario de la plataforma está vinculado a una unidad organizativa
 
 >[!IMPORTANT]
 >
->Si un usuario no está vinculado a ninguna unidad, no podrá conectarse a Adobe Campaign. Si desea restringir el acceso de un usuario o grupo de usuarios en particular, no lo vincule a la unidad **[!UICONTROL All]**. Se recomienda añadir la opción **Access authorization management fields** antes de importar cualquier perfil. Para obtener más información, consulte [esta sección](../../administration/using/organizational-units.md#partitioning-profiles).
+>Si un usuario no está vinculado a ninguna unidad, no podrá conectarse a Adobe Campaign. Si desea restringir el acceso de un usuario o grupo de usuarios en particular, no lo vincule al **[!UICONTROL All]** unidad. Se recomienda añadir la opción **Campos de gestión de autorizaciones de acceso** antes de importar cualquier perfil. Para obtener más información, consulte [esta sección](../../administration/using/organizational-units.md#partitioning-profiles).
 >
 >De forma predeterminada, la **[!UICONTROL All (all)]** unidad organizativa se asigna al grupo de seguridad **[!UICONTROL Administrators]**. Es de solo lectura y no se puede modificar.
 
 Un usuario tiene acceso de solo lectura a todos los objetos de las unidades principales. Este usuario tiene acceso de lectura y escritura a todos los objetos de su unidad y unidades secundarias. Un usuario no tiene acceso a objetos en ramas paralelas.
 
-De forma predeterminada, solo están disponibles las unidades **[!UICONTROL All]** .
+De forma predeterminada, solo la variable **[!UICONTROL All]** están disponibles.
 
 Cuando al usuario se le asigna una unidad organizativa, esta unidad siempre se aplicará a los objetos que el usuario haya creado.
 
@@ -38,13 +38,13 @@ Cuando al usuario se le asigna una unidad organizativa, esta unidad siempre se a
 
 >[!NOTE]
 >
->Cuando un usuario está en varios grupos vinculados a diferentes unidades, se aplican ciertas reglas. Para obtener más información, consulte la sección [Administración de grupos y usuarios](../../administration/using/managing-groups-and-users.md).
+>Cuando un usuario está en varios grupos vinculados a diferentes unidades, se aplican ciertas reglas. Para obtener más información, consulte [Administración de grupos y usuarios](../../administration/using/managing-groups-and-users.md) para obtener más información.
 
 ## Creación y administración de unidades {#creating-and-managing-units}
 
 Las unidades organizativas permiten filtrar la instancia según la organización a la que estén vinculados los usuarios. Esta unidad puede representar una región, un país o incluso una marca en su caso.
 
-Aquí, anteriormente, creamos grupos de seguridad con diferentes funciones para dos usuarios: a un usuario se le asignan los grupos de seguridad Administradores y Geometrixx, el otro usuario pertenece a los grupos de seguridad Usuario estándar y Ropa de Geometrixx Consulte [Creación de un grupo de seguridad y asignación de usuarios](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users) para el ejemplo completo.
+Aquí, anteriormente, creamos grupos de seguridad con diferentes funciones para dos usuarios: a un usuario se le asignan los grupos de seguridad Administradores y Geometrixx, el otro usuario pertenece a los grupos de seguridad Usuario estándar y Ropa de Geometrixx Véase [Creación de un grupo de seguridad y asignación de usuarios](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users) para ver el ejemplo completo.
 
 Ahora necesitamos crear las unidades organizativas para los grupos de seguridad de Ropa de Geometrixx y Geometrixx:
 
@@ -53,7 +53,7 @@ Ahora necesitamos crear las unidades organizativas para los grupos de seguridad 
 
    ![](assets/manage_units_1.png)
 
-1. Cambie los valores predeterminados **[!UICONTROL Label]** y **[!UICONTROL ID]** a Geometrixx.
+1. Cambiar el valor predeterminado **[!UICONTROL Label]** y **[!UICONTROL ID]** a Geometrixx.
 1. A continuación, vincule esta unidad a una unidad principal. Aquí, elegimos **[!UICONTROL All]**.
 
    ![](assets/manage_units_2.png)
@@ -67,11 +67,11 @@ Para ver el impacto de asignar diferentes unidades a diferentes grupos de seguri
 
 1. En el menú avanzado, seleccione **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery Templates]**.
 1. Duplique una plantilla existente y personalícela según sea necesario. Para obtener más información, consulte la sección [Acerca de las plantillas](../../start/using/marketing-activity-templates.md).
-1. Cuando se cree la plantilla, seleccione el icono **[!UICONTROL Edit properties]** para asignar unidades a la plantilla.
+1. Cuando se cree la plantilla, seleccione la opción **[!UICONTROL Edit properties]** para asignar unidades a la plantilla.
 
    ![](assets/manage_units_6.png)
 
-1. En el menú desplegable **[!UICONTROL Access authorization]**, seleccione la unidad organizativa.
+1. En el **[!UICONTROL Access authorization]** menú desplegable, seleccione la unidad organizativa.
 
    Aquí vamos a crear una plantilla con la Geometrixx de unidad organizativa creada anteriormente.
 
@@ -79,7 +79,7 @@ Para ver el impacto de asignar diferentes unidades a diferentes grupos de seguri
 
 1. Siga los mismos procedimientos para crear la segunda plantilla asignada a la unidad organizativa de ropa de Geometrixx creada anteriormente.
 
-Los usuarios asignados a los grupos **Usuario estándar** y **Ropa de Geometrixx** podrán ver ambas plantillas. Debido a la estructura jerárquica de las unidades organizativas, tendrán acceso de lectura y escritura a la plantilla vinculada a la unidad Ropa de Geometrixx y solo acceso de sólo lectura a la plantilla vinculada a la unidad de Geometrixx.
+Los usuarios asignados a **Usuario estándar** y **Ropa de Geometrixx** los grupos podrán ver ambas plantillas. Debido a la estructura jerárquica de las unidades organizativas, tendrán acceso de lectura y escritura a la plantilla vinculada a la unidad Ropa de Geometrixx y solo acceso de sólo lectura a la plantilla vinculada a la unidad de Geometrixx.
 
 ![](assets/manage_units_7.png)
 
@@ -87,7 +87,7 @@ Dado que la unidad Ropa de Geometrixx es una unidad secundaria de Geometrixx, ap
 
 ![](assets/manage_units_8.png)
 
-Las unidades organizativas pueden restringir el acceso a diferentes funciones, como perfiles. Por ejemplo, si nuestros usuarios de Ropa de Geometrixx acceden a la pestaña **[!UICONTROL Profiles]** , podrán acceder y modificar completamente los perfiles con la unidad organizativa de Ropa de Geometrixx.
+Las unidades organizativas pueden restringir el acceso a diferentes funciones, como perfiles. Por ejemplo, si nuestros usuarios de Ropa de Geometrixx acceden al **[!UICONTROL Profiles]** , podrán acceder y modificar completamente los perfiles con la unidad organizativa de ropa de Geometrixx.
 
 Mientras que los perfiles con la unidad organizativa de Geometrixx serán de solo lectura, aparecerá el siguiente error si los usuarios intentan modificar un perfil: **[!UICONTROL You do not have the rights needed to modify the 'profile' resource of ID]**.
 
@@ -105,16 +105,16 @@ Si la organización necesita aislar los perfiles contactados por cada una de las
 
 De forma predeterminada, los campos de unidad organizativa no están disponibles en los perfiles y es necesario añadirlos.
 
-1. En el menú avanzado, en el logotipo de Adobe Campaign, seleccione **Administration > Development > Custom resources**.
-1. Seleccione **Perfil** o cree un nuevo recurso personalizado para ampliar los perfiles. Para obtener más información sobre cómo ampliar los perfiles, consulte esta [página](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-1--extend-the-profile-resource).
-1. Marque la casilla **Add access authorization management fields** para añadir las unidades organizativas en la extensión **Profile**.
+1. En el menú avanzado, en el logotipo de Adobe Campaign, seleccione **Administración > Desarrollo > Recursos personalizados**.
+1. Select **Perfil** o cree un nuevo recurso personalizado para ampliar los perfiles. Para obtener más información sobre cómo ampliar los perfiles, consulte esta [página](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-1--extend-the-profile-resource).
+1. Marque la **Añadir campos de gestión de autorización de acceso** para agregar las unidades organizativas en la variable **Perfil** extensión.
 
    ![](assets/user_management_9.png)
 
 1. Haga clic en **[!UICONTROL Save]**.
-1. Actualice la estructura publicando de nuevo los recursos personalizados. Para obtener más información sobre el proceso de publicación, consulte la sección [Actualización de la estructura](../../developing/using/updating-the-database-structure.md) .
+1. Actualice la estructura publicando de nuevo los recursos personalizados. Para obtener más información sobre el proceso de publicación, consulte [Actualización de la estructura](../../developing/using/updating-the-database-structure.md) para obtener más información.
 
-El campo unidad organizativa se agrega a los perfiles en la sección **[!UICONTROL Access authorization]** .
+El campo unidad organizativa se agrega a los perfiles en la variable **[!UICONTROL Access authorization]** para obtener más información.
 
 ![](assets/user_management_10.png)
 

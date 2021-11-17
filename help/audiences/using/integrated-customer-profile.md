@@ -9,7 +9,7 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: cf3c6408-7fa0-423a-b34b-f4fee771fb47
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 48%
@@ -22,7 +22,7 @@ Hay disponible un perfil de cliente integrado para cada contacto de la base de d
 
 Para acceder al perfil integrado del cliente, siga estos pasos:
 
-1. En la página de inicio de Adobe Campaign, haga clic en la tarjeta **[!UICONTROL Customer profiles]** o en la pestaña **Profiles** para mostrar la lista de perfiles.
+1. En la página de inicio de Adobe Campaign, haga clic en el **[!UICONTROL Customer profiles]** o **Perfiles** para mostrar la lista de perfiles.
 
 1. Para buscar un perfil basado en un campo específico, abra el panel de búsqueda y seleccione el campo en el que desea realizar la búsqueda.
 

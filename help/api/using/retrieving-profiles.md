@@ -8,7 +8,7 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 5%
@@ -17,9 +17,9 @@ ht-degree: 5%
 
 # Recuperación de perfiles {#retrieving-profiles}
 
-La recuperación de perfiles se realiza con una solicitud **GET**.
+La recuperación de perfiles se realiza con un **GET** solicitud.
 
-A continuación, puede restringir la búsqueda utilizando filtros, pedidos y paginación. Para obtener más información, consulte la sección [Operaciones adicionales](../../api/using/sorting.md) .
+A continuación, puede restringir la búsqueda utilizando filtros, pedidos y paginación. Para obtener más información, consulte [Operaciones adicionales](../../api/using/sorting.md) para obtener más información.
 
 Además, las API de Campaign Standard permiten buscar perfiles en función de uno de estos campos: correo electrónico, nombre, apellidos o cualquier campo personalizado. Para obtener más información, consulte [esta sección](#searching-field).
 
@@ -88,7 +88,7 @@ Además, las API de Campaign Standard permiten buscar perfiles en función de un
 
 ## Búsqueda de perfiles basados en un campo {#searching-field}
 
-El parámetro **[!UICONTROL filterType]** permite recuperar perfiles en función de uno de estos campos: correo electrónico, nombre, apellidos o cualquier campo personalizado que se haya añadido en Filtro avanzado al ampliar el recurso de perfil.
+La variable **[!UICONTROL filterType]** permite recuperar perfiles en función de uno de estos campos: correo electrónico, nombre, apellidos o cualquier campo personalizado que se haya añadido en Filtro avanzado al ampliar el recurso de perfil.
 
 >[!NOTE]
 >

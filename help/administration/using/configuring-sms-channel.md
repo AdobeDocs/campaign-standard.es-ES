@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '1566'
-ht-degree: 93%
+ht-degree: 91%
 
 ---
 
@@ -316,7 +316,7 @@ La funcionalidad **[!UICONTROL Define a specific mapping of encodings]** permite
 
 ### Respuesta automática enviada al MO {#automatic-reply-sent-to-the-mo}
 
-Cuando un perfil responde a un mensaje SMS enviado por Campaign, puede configurar los mensajes que se le envían automáticamente, así como la acción que se va a realizar.
+Cuando un perfil responde a un mensaje SMS enviado mediante Campaign, puede configurar mensajes que se envían automáticamente, así como la acción que se va a realizar.
 
 Para obtener más información, consulte [esta sección](../../channels/using/managing-incoming-sms.md).
 
@@ -328,15 +328,15 @@ Los parámetros específicos para enviar mensajes SMS se incluyen en las seccion
 
 ![](assets/sms_options.png)
 
-Desde la sección **[!UICONTROL Advanced parameters]**:
+En el **[!UICONTROL Advanced parameters]** sección:
 
-* El **[!UICONTROL Short code]** permite agregar un código corto específico al envío. Los destinatarios que hayan optado por no utilizar este código corto específico se excluirán automáticamente durante la preparación del mensaje. Para obtener más información sobre cómo configurar código corto, consulte [esta sección](../../channels/using/managing-incoming-sms.md).
+* La variable **[!UICONTROL Short code]** le permite añadir un código corto específico al envío. Los destinatarios que hayan optado por no utilizar este código corto específico se excluirán automáticamente durante la preparación del mensaje. Para obtener más información sobre cómo configurar código corto, consulte [esta sección](../../channels/using/managing-incoming-sms.md).
 
    >[!NOTE]
    >
-   >Si el campo **[!UICONTROL Short code]** se deja vacío, se utiliza el valor del campo **[!UICONTROL Short code]** establecido en la cuenta externa.
+   >Si la variable **[!UICONTROL Short code]** se deja vacío, el valor de la variable **[!UICONTROL Short code]** se utiliza el campo configurado en la cuenta externa .
 
-Desde la sección **[!UICONTROL Send]** de una plantilla SMS:
+En el **[!UICONTROL Send]** sección de una plantilla SMS:
 
 * La opción **[!UICONTROL Maximum number of SMS per message]** le permite definir el número de mensajes SMS que se utilizarán para enviar un mensaje. Si se supera este número, no se enviará el mensaje.
 

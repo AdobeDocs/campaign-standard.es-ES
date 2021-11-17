@@ -8,7 +8,7 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 5%
@@ -53,9 +53,9 @@ Esta es una representación visual de la interacción de los perfiles con el cor
  </tbody> 
 </table>
 
-Para comprender el número total de aperturas únicas, necesitamos sumar los recuentos de filas de **[!UICONTROL Unique Opens]**, lo que nos da el valor 3. Pero como el correo electrónico estaba dirigido a solo 2 perfiles, la tasa de apertura debería mostrar el 150%.
+Para comprender el número total de aperturas únicas, necesitamos sumar los recuentos de filas de **[!UICONTROL Unique Opens]** que nos da el valor 3. Pero como el correo electrónico estaba dirigido a solo 2 perfiles, la tasa de apertura debería mostrar el 150%.
 
-Para no obtener un porcentaje superior a 100, la definición de **[!UICONTROL Unique Opens]** se mantiene como el número de registros únicos que se abrieron. En este caso, incluso si P1 abrió el correo electrónico el día 1 y el día 2, sus aperturas únicas seguirán siendo 1.
+Para no obtener un porcentaje superior a 100, la definición de **[!UICONTROL Unique Opens]** se mantiene como el número de broadlogs únicos que se abrieron. En este caso, incluso si P1 abrió el correo electrónico el día 1 y el día 2, sus aperturas únicas seguirán siendo 1.
 
 Esto resultará en la siguiente tabla:
 
@@ -70,7 +70,7 @@ Esto resultará en la siguiente tabla:
  <tbody> 
   <tr> 
    <td align="center"> <strong> Day </strong><br /> </td> 
-   <td align="center"> <strong> 6  </strong><br /> </td> 
+   <td align="center"> <strong> 6 </strong><br /> </td> 
    <td align="center"> <strong> 2</strong><br /> </td>
   </tr> 
   <tr> 
@@ -92,13 +92,13 @@ Esto resultará en la siguiente tabla:
 
 ## Los recuentos abiertos no coinciden con el recuento de bases de datos {#open-counts-no-match-database}
 
-Esto puede deberse a que, en los informes dinámicos, se utilizan heurística para realizar el seguimiento de las aperturas, incluso cuando no se puede realizar el seguimiento de la acción **[!UICONTROL Open]**.
+Esto puede deberse a que, en los informes dinámicos, se usan heurística para realizar el seguimiento de las aperturas, incluso cuando no se puede realizar el seguimiento de la variable **[!UICONTROL Open]** acción.
 
-Por ejemplo, si un usuario ha deshabilitado las imágenes en su cliente y hace clic en un vínculo del correo electrónico, es posible que la **[!UICONTROL Open]** no se rastree en la base de datos, pero la **[!UICONTROL Click]** sí.
+Por ejemplo, si un usuario ha deshabilitado las imágenes en su cliente y hace clic en un vínculo del correo electrónico, se muestra la variable **[!UICONTROL Open]** puede que la base de datos no la rastree, pero la variable **[!UICONTROL Click]** será.
 
-Por lo tanto, es posible que los recuentos de registros de seguimiento **[!UICONTROL Open]** no tengan el mismo recuento en la base de datos.
+Por lo tanto, la variable **[!UICONTROL Open]** es posible que los recuentos de registros de seguimiento no tengan el mismo recuento en la base de datos.
 
-Estas ocurrencias se añaden como **&quot;un clic en el correo electrónico implica una apertura de correo electrónico&quot;**.
+Estas ocurrencias se añaden como **&quot;un clic en un correo electrónico implica una apertura de correo electrónico&quot;**.
 
 >[!NOTE]
 >
@@ -108,8 +108,8 @@ Estas ocurrencias se añaden como **&quot;un clic en el correo electrónico impl
 
 Al trabajar con envíos recurrentes y transaccionales, los recuentos se atribuyen tanto a los envíos principales como a los secundarios.
 Podemos tomar el ejemplo de un envío recurrente llamado **R1** configurado para ejecutarse todos los días en el día 1 (RC1), día 2 (RC2) y día 3 (RC3).
-Supongamos que solo una persona abrió todas las entregas secundarias varias veces. En este caso, los envíos secundarios recurrentes individuales mostrarán el recuento **[!UICONTROL Open]** como 1 para cada uno.
-Sin embargo, dado que la misma persona hizo clic en todos los envíos, el envío recurrente principal también tendrá **[!UICONTROL Unique open]** como 1.
+Supongamos que solo una persona abrió todas las entregas secundarias varias veces. En este caso, los envíos secundarios recurrentes individuales mostrarán la variable **[!UICONTROL Open]** cuenta como 1 para cada uno.
+Sin embargo, como la misma persona hizo clic en todos los envíos, la entrega recurrente principal también tendrá **[!UICONTROL Unique open]** como 1.
 
 Los informes deben tener el siguiente aspecto:
 
@@ -129,7 +129,7 @@ Los informes deben tener el siguiente aspecto:
    <td align="center"> <strong>100</strong><br/> </td> 
    <td align="center"> <strong>90</strong><br/> </td> 
    <td align="center"> <strong>10</strong><br/> </td> 
-   <td align="center"> <strong>1</strong><br/> </td> 
+   <td align="center"> <strong>3</strong><br/> </td> 
   </tr> 
   <tr> 
    <td align="center"> RC1<br/> </td> 
@@ -163,9 +163,9 @@ En el ejemplo siguiente, la celda tiene el mismo color, ya que su valor es del 1
 
 ![](assets/troubleshooting_1.png)
 
-Si cambia **[!UICONTROL Conditional formatting]** a personalizado, cuando el valor alcance el límite superior, la celda se volverá más verde. En cambio, si alcanza el límite inferior, se procesará.
+Si cambia la variable **[!UICONTROL Conditional formatting]** a personalizado, cuando el valor alcance el límite superior, la celda se volverá más verde. En cambio, si alcanza el límite inferior, se procesará.
 
-Por ejemplo, aquí establecemos **[!UICONTROL Upper limit]** en 500 y **[!UICONTROL Lower limit]** en 0.
+Por ejemplo, aquí establecemos la variable **[!UICONTROL Upper limit]** a 500 y **[!UICONTROL Lower limit]** a 0.
 
 ![](assets/troubleshooting_2.png)
 
@@ -173,11 +173,11 @@ Por ejemplo, aquí establecemos **[!UICONTROL Upper limit]** en 500 y **[!UICONT
 
 ![](assets/troubleshooting_3.png)
 
-El valor **N/A** puede aparecer a veces en los informes dinámicos. Esto se puede mostrar por tres motivos:
+El valor **N/D** a veces aparecen en los informes dinámicos. Esto se puede mostrar por tres motivos:
 
-* El envío se ha eliminado y se muestra aquí como **N/A** para no causar discrepancias en los resultados.
-* Al arrastrar y soltar la dimensión **[!UICONTROL Transactional Delivery]** en los informes, el valor **N/A** puede aparecer como resultado. Esto sucede porque los informes dinámicos recuperan cada envío aunque no sean transaccionales. Esto también puede ocurrir al arrastrar y soltar la dimensión **[!UICONTROL Delivery]** en el informe, pero en este caso, el valor **N/A** representa los envíos transaccionales.
-* Cuando se utiliza una dimensión con una métrica que no está relacionada con la dimensión. En el ejemplo siguiente, se agrega un desglose con la dimensión **[!UICONTROL Tracking URL]** aunque el recuento **[!UICONTROL Click]** esté establecido en 0 en este envío.
+* La entrega se ha eliminado y se muestra aquí como **N/D** para no causar discrepancias en los resultados.
+* Al arrastrar y soltar el **[!UICONTROL Transactional Delivery]** dimensión de los informes, el valor **N/D** puede aparecer como resultado. Esto sucede porque los informes dinámicos recuperan cada envío aunque no sean transaccionales. Esto también puede ocurrir al arrastrar y soltar el **[!UICONTROL Delivery]** al informe, pero en este caso, la dimensión **N/D** representa los envíos transaccionales.
+* Cuando se utiliza una dimensión con una métrica que no está relacionada con la dimensión. En el ejemplo siguiente, se agrega un desglose con la variable **[!UICONTROL Tracking URL]** aunque la dimensión **[!UICONTROL Click]** count se establece en 0 en esta entrega.
 
    ![](assets/troubleshooting_4.png)
 

@@ -8,16 +8,16 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: ced9a897-47e9-4128-84fb-35660c553cd4
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 5fef74296a4790102c75e609c270e52d5ead1d58
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 16%
+source-wordcount: '194'
+ht-degree: 5%
 
 ---
 
 # Control de cambios en el modelo de datos{#monitoring-data-model-changes}
 
-El menú **[!UICONTROL Diagnosis]** permite consultar los diferentes objetos técnicos generados por la aplicación para analizarlos.
+En el **[!UICONTROL Diagnosis]** , puede ver los objetos técnicos generados por la aplicación para analizarlos.
 
 >[!NOTE]
 >
@@ -31,4 +31,35 @@ Puede ver los siguientes tipos de objetos:
 * Páginas web
 * Filtros
 * Navegación
+* Componentes
 * Trabajos por lotes
+
+Puede cambiar la configuración de la lista:
+
+* Puede agregar y quitar columnas.
+* Puede definir nombres de columna.
+* Puede definir el orden de visualización de las columnas de la lista.
+* Puede elegir el orden de los valores de la lista.
+
+Puede filtrar la lista:
+
+* Puede incluir o excluir esquemas de datos nativos, páginas web, filtros y objetos de navegación.
+* Puede buscar objetos por su nombre.
+* Puede filtrar los trabajos por lotes según su estado, la fecha de inicio y la fecha de finalización.
+
+Puede descargar la lista mostrada en un archivo en formato TXT con valores separados por comas.
+
+Puede ver los detalles del objeto seleccionado.
+
+Por ejemplo, puede utilizar esta función para ver los criterios de filtrado de los filtros predeterminados. Este ejemplo muestra el código que se muestra para los criterios de filtrado de un filtro predeterminado:
+
+```xml
+<where displayFilter="Has clicked an offer">
+  <condition boolOperator="AND" enabledIf="$(offer) != ''" expr="trackingLog" internalId="1" setOperator="EXISTS">
+    <condition boolOperator="AND" expr="[url/offer] = $RestKey(offer)" internalId="2"/>
+    <condition boolOperator="AND" expr="[@url-id] != 1" internalId="3"/>
+  </condition>
+</where>
+```
+
+![](assets/diagnosis_filter_criteria.png)

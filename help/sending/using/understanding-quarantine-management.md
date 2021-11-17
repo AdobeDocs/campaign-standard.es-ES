@@ -8,7 +8,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '1268'
 ht-degree: 51%
@@ -37,17 +37,17 @@ Para obtener más información sobre las prácticas recomendadas para proteger y
 
 La cuarentena y la lista de bloqueados no se aplican al mismo objeto:
 
-* **** La cuarentena solo se aplica a una  **dirección**  (o número de teléfono, etc.), no al propio perfil. Por ejemplo, un perfil cuya dirección de correo electrónico se haya puesto en cuarentena puede actualizar su perfil e introducir una nueva dirección, y luego puede volver a recibir acciones de envío. Del mismo modo, si dos perfiles tienen el mismo número de teléfono, ambos se verán afectados si el número está en cuarentena.
+* **Cuarentena** solo se aplica a un **address** (o número de teléfono, etc.), no al propio perfil. Por ejemplo, un perfil cuya dirección de correo electrónico se haya puesto en cuarentena puede actualizar su perfil e introducir una nueva dirección, y luego puede volver a recibir acciones de envío. Del mismo modo, si dos perfiles tienen el mismo número de teléfono, ambos se verán afectados si el número está en cuarentena.
 
-   Las direcciones en cuarentena o los números de teléfono se muestran en los [registros de exclusión](#identifying-quarantined-addresses-for-a-delivery) (para un envío) o en la [lista de cuarentena](#identifying-quarantined-addresses-for-the-entire-platform) (para toda la plataforma).
+   Las direcciones en cuarentena o los números de teléfono se muestran en la [registros de exclusión](#identifying-quarantined-addresses-for-a-delivery) (para una entrega) o en el [lista de cuarentena](#identifying-quarantined-addresses-for-the-entire-platform) (para toda la plataforma).
 
-* Al estar en la **lista de bloqueados**, por otro lado, el **perfil** ya no se tendrá en cuenta para el envío, como después de una baja (exclusión) de un canal determinado. Por ejemplo, si un perfil de la  de lista de bloqueados del canal de correo electrónico tiene dos direcciones de correo electrónico, ambas se excluirán del envío. Para obtener más información sobre el proceso de  de lista de bloqueados, consulte [Acerca de la inclusión y la exclusión en Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+* Estar en el **lista de bloqueados**, por otro lado, resultará en la variable **perfil** ya no se tiene en cuenta para el envío, como después de una baja (exclusión), de un canal determinado. Por ejemplo, si un perfil de la  de lista de bloqueados del canal de correo electrónico tiene dos direcciones de correo electrónico, ambas se excluirán del envío. Para obtener más información sobre el proceso de  de lista de bloqueados, consulte [Acerca de la inclusión y la exclusión en Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
-   Puede comprobar si un perfil está en la  de lista de bloqueados para uno o más canales en la sección **[!UICONTROL No longer contact (on denylist)]** de la pestaña **[!UICONTROL General]** del perfil. Consulte [esta sección](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile).
+   Puede comprobar si un perfil está en la  de lista de bloqueados para uno o más canales en la **[!UICONTROL No longer contact (on denylist)]** del perfil **[!UICONTROL General]** pestaña . Consulte [esta sección](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile).
 
 >[!NOTE]
 >
->La cuarentena incluye un estado **On lista de bloqueados**, que se aplica cuando los destinatarios informan del mensaje como correo no deseado o responden a un mensaje SMS con una palabra clave como &quot;STOP&quot;. En ese caso, la dirección o el número de teléfono implicados del perfil se envían a cuarentena con el estado **[!UICONTROL On denylist]**. Para obtener más información sobre la administración de mensajes STOP SMS, consulte [esta sección](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
+>La cuarentena incluye un **En lista de bloqueados** , que se aplica cuando los destinatarios informan del mensaje como correo no deseado o responden a un mensaje SMS con una palabra clave como &quot;STOP&quot;. En ese caso, la dirección o el número de teléfono implicados del perfil se envían a cuarentena con el **[!UICONTROL On denylist]** estado. Para obtener más información sobre la administración de mensajes STOP SMS, consulte [esta sección](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 
 <!--When a user replies to an SMS message with a keyword such as STOP in order to opt-out from SMS deliveries, his profile is not added to the denylist like in the email opt-out process. Instead, the profile's phone number is sent to quarantine with the **[!UICONTROL On denylist]** status. This status refers to the phone number only, meaning that the profile will continue receiving email messages.<!-- Also, if the profile has another phone number, he can still receive SMS messages on the other number. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).-->
 
@@ -67,7 +67,7 @@ Las direcciones en cuarentena para una entrega específica se enumeran durante l
 
 ### Identificación de direcciones en cuarentena para toda la plataforma {#identifying-quarantined-addresses-for-the-entire-platform}
 
-Los administradores pueden acceder a la lista detallada de las direcciones de correo electrónico en cuarentena para toda la plataforma desde el menú **[!UICONTROL Administration > Channels > Quarantines > Addresses]** .
+Los administradores pueden acceder a la lista detallada de las direcciones de correo electrónico en cuarentena para toda la plataforma desde el **[!UICONTROL Administration > Channels > Quarantines > Addresses]** para abrir el Navegador.
 
 <!--
 This menu lists quarantined elements for **Email**, **SMS** and **Push notification** channels.
@@ -83,13 +83,13 @@ Los filtros están disponibles para ayudarle a navegar por la lista. Puede filtr
 
 ![](assets/quarantines-filters.png)
 
-Puede editar o [eliminar](#removing-a-quarantined-address) cada entrada, así como crear otras nuevas.
+Puede editar o [delete](#removing-a-quarantined-address) cada entrada, así como crear nuevas.
 
 Para editar una entrada, haga clic en la fila correspondiente y modifique los campos según sea necesario.
 
 ![](assets/quarantines-edit.png)
 
-Para añadir manualmente una nueva entrada, utilice el botón **[!UICONTROL Create]**.
+Para añadir manualmente una nueva entrada, utilice el **[!UICONTROL Create]** botón.
 
 ![](assets/quarantines-create-button.png)
 
@@ -99,14 +99,14 @@ Defina la dirección (o el número de teléfono, etc.) y tipo de canal. Puede es
 
 ### Eliminación de una dirección en cuarentena {#removing-a-quarantined-address}
 
-Si es necesario, puede eliminar manualmente una dirección de la lista de cuarentena. Además, el flujo de trabajo **[!UICONTROL Database cleanup]** elimina automáticamente de la lista de cuarentena las direcciones que coinciden con condiciones específicas. (Para obtener más información sobre los flujos de trabajo técnicos, consulte [esta sección](../../administration/using/technical-workflows.md#list-of-technical-workflows)).
+Si es necesario, puede eliminar manualmente una dirección de la lista de cuarentena. Además, el flujo de trabajo **[!UICONTROL Database cleanup]** elimina automáticamente de la lista de cuarentena las direcciones que coinciden con condiciones específicas. (Para obtener más información sobre los flujos de trabajo técnicos, consulte [esta sección](../../administration/using/technical-workflows.md#list-of-technical-workflows).)
 
 Para eliminar manualmente una dirección de la lista de cuarentena, realice una de las acciones siguientes.
 
 >[!IMPORTANT]
 Eliminar manualmente una dirección de correo electrónico de la cuarentena significa que volverá a enviar a esta dirección. Por lo tanto, esto puede tener un impacto grave en la capacidad de envío y la reputación de la IP, lo que eventualmente podría provocar que se bloqueara su dirección IP o dominio de envío. Proceda con cuidado adicional cuando considere la posibilidad de eliminar cualquier dirección de la cuarentena. En caso de duda, póngase en contacto con un experto en entregas.
 
-* Seleccione la dirección de la lista **[!UICONTROL Administration > Channels > Quarantines > Addresses]** y seleccione **[!UICONTROL Delete element]**.
+* Seleccione la dirección en la **[!UICONTROL Administration > Channels > Quarantines > Addresses]** seleccione **[!UICONTROL Delete element]**.
 
    ![](assets/quarantine-delete-address.png)
 
@@ -125,9 +125,9 @@ Las direcciones se eliminan automáticamente de la lista de cuarentena en los si
 A continuación, su estado cambia a **[!UICONTROL Valid]**.
 
 >[!IMPORTANT]
-Los destinatarios con una dirección en estado **[!UICONTROL Quarantine]** o **[!UICONTROL On denylist]** nunca se eliminarán automáticamente, aunque reciban un correo electrónico.
+Destinatarios con una dirección en una **[!UICONTROL Quarantine]** o **[!UICONTROL On denylist]** nunca se eliminará automáticamente, aunque reciban un correo electrónico.
 
-El número máximo de reintentos que se deben realizar en caso del estado **[!UICONTROL Erroneous]** y el retraso mínimo entre reintentos ahora se basan en el rendimiento histórico y actual de una IP en un dominio determinado.
+El número máximo de reintentos que se deben realizar en caso de **[!UICONTROL Erroneous]** y el retardo mínimo entre reintentos ahora se basan en el rendimiento histórico y actual de una IP en un dominio determinado.
 
 ## Condiciones para enviar una dirección a cuarentena {#conditions-for-sending-an-address-to-quarantine}
 
@@ -155,9 +155,9 @@ En la lista de direcciones en cuarentena (consulte [Identificación de direccion
 
 A diferencia de los errores en hardware, los errores en software no envían inmediatamente una dirección a la cuarentena, sino que se suman a un contador de errores.
 
-Los reintentos se realizarán durante la [duración del envío](../../administration/using/configuring-email-channel.md#validity-period-parameters). Cuando el contador de errores alcanza el umbral de límite, la dirección se pone en cuarentena. Para obtener más información, consulte [Reintentos después de un error temporal de entrega](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
+Los reintentos se realizarán durante el [duración del envío](../../administration/using/configuring-email-channel.md#validity-period-parameters). Cuando el contador de errores alcanza el umbral de límite, la dirección se pone en cuarentena. Para obtener más información, consulte [Reintentos después de un error temporal de entrega](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
 <!--In the default configuration, the threshold is set at five errors, where two errors are significant if they occur at least 24 hours apart. The address is placed in quarantine at the fifth error.
 The error counter threshold can be modified.-->
 
-El contador de errores se reinicia si el último error significativo se produjo hace más de 10 días. El estado de la dirección cambia a **válido** y se elimina de la lista de cuarentena mediante el flujo de trabajo de **Limpieza de la base de datos.** (Para obtener más información sobre los flujos de trabajo técnicos, consulte [esta sección](../../administration/using/technical-workflows.md#list-of-technical-workflows)).
+El contador de errores se reinicia si el último error significativo se produjo hace más de 10 días. El estado de la dirección cambia a **válido** y se elimina de la lista de cuarentena mediante el flujo de trabajo de **Limpieza de la base de datos.** (Para obtener más información sobre los flujos de trabajo técnicos, consulte [esta sección](../../administration/using/technical-workflows.md#list-of-technical-workflows).)
