@@ -21,13 +21,13 @@ ht-degree: 5%
 >
 >El servicio Audience Destinations se encuentra actualmente en fase beta, por lo que puede estar sujeto a frecuentes actualizaciones sin previo aviso. Es necesario que los clientes estén alojados en Azure (actualmente en versión beta solo para Norteamérica) para acceder a estas capacidades. Si desea acceder, póngase en contacto con el Servicio de atención al cliente de Adobe.
 
-Una vez que haya creado una [audiencia de Adobe Experience Platform](../../integrating/using/aep-about-audience-destinations-service.md) mediante el Generador de segmentos, puede utilizarla del mismo modo que lo haría para una audiencia de Campaign dentro de flujos de trabajo para personalizar y enviar mensajes.
+Una vez que haya creado un [Audiencia de Adobe Experience Platform](../../integrating/using/aep-about-audience-destinations-service.md) con el Generador de segmentos, puede utilizarlo del mismo modo que lo haría con una audiencia de Campaign dentro de flujos de trabajo para personalizar y enviar mensajes.
 
 Para activar una audiencia de Adobe Experience Platform en los flujos de trabajo, siga estos pasos:
 
-1. Agregue una actividad **[!UICONTROL Read audience]** al flujo de trabajo y ábrala.
+1. Agregue un **[!UICONTROL Read audience]** actividad en el flujo de trabajo y, a continuación, ábrala.
 
-1. Seleccione la opción **[!UICONTROL Adobe Experience Platform]** en **[!UICONTROL Type of audience]** y luego añada la audiencia deseada.
+1. Seleccione el **[!UICONTROL Adobe Experience Platform]** opción bajo **[!UICONTROL Type of audience]** y, a continuación, añada la audiencia que desee.
 
    ![](assets/aep_wkf_readaudience.png)
 
@@ -35,9 +35,9 @@ Para activar una audiencia de Adobe Experience Platform en los flujos de trabajo
 
    Al hacer clic en el botón de los ojos, simplemente se le dirigirá al Generador de segmentos (en otra pestaña) asociado con la audiencia seleccionada dentro de Campaign.
 
-1. Seleccione un elemento **[!UICONTROL Platform data mapping]** para especificar la dimensión de segmentación deseada para la audiencia de Adobe Experience Platform seleccionada.
+1. Seleccione un **[!UICONTROL Platform data mapping]** para especificar la dimensión de segmentación deseada para la audiencia de Adobe Experience Platform seleccionada.
 
-   De forma predeterminada, la clave principal (por ejemplo, iRecipientID para la tabla Perfil, iAppSubscriptionID para AppSubscription table) utilizada para la reconciliación estará disponible automáticamente en la lista desplegable. Para dirigirse fuera de la clave principal, debe crear un **Namespace** personalizado.
+   De forma predeterminada, la clave principal (por ejemplo, iRecipientID para la tabla Perfil, iAppSubscriptionID para AppSubscription table) utilizada para la reconciliación estará disponible automáticamente en la lista desplegable. Para segmentar fuera de la clave principal, debe crear un **Área de nombres**.
 
    >[!NOTE]
    >
@@ -49,9 +49,9 @@ Para activar una audiencia de Adobe Experience Platform en los flujos de trabajo
 
    ![](assets/aep_wkf_readaudience_namespace2.png)
 
-1. Una vez que la audiencia y las dimensiones de segmentación estén configuradas correctamente, haga clic en el botón **[!UICONTROL Confirm]** para guardar los cambios.
+1. Una vez que la audiencia y las dimensiones de segmentación estén configuradas correctamente, haga clic en el **[!UICONTROL Confirm]** para guardar los cambios.
 
-Ahora puede configurar el flujo de trabajo con otras actividades . Por ejemplo, puede vincular una actividad **[!UICONTROL Email delivery]** para enviar un correo electrónico a la audiencia que se ha seleccionado.
+Ahora puede configurar el flujo de trabajo con otras actividades . Por ejemplo, puede vincular un **[!UICONTROL Email delivery]** actividad para enviar un correo electrónico a la audiencia que se ha seleccionado.
 
 ![](assets/aep_wkf_email.png)
 

@@ -24,8 +24,8 @@ El flujo de trabajo se configura de la siguiente manera:
 
 ![](assets/enrichment_example_workflow.png)
 
-* Una actividad [Query](../../automating/using/query.md) dirigida a los perfiles que recibirán el mensaje.
-* Una actividad [Load file](../../automating/using/load-file.md) que carga los datos de compra. Por ejemplo:
+* A [Consulta](../../automating/using/query.md) actividad que segmenta los perfiles que recibirán el mensaje.
+* A [Cargar archivo](../../automating/using/load-file.md) actividad que carga los datos de compra. Por ejemplo:
 
    ```
    tcode;tdate;customer;product;tamount
@@ -39,7 +39,7 @@ El flujo de trabajo se configura de la siguiente manera:
 
    Con este archivo de ejemplo, utilice la dirección de correo electrónico para reconciliar los datos con los perfiles de la base de datos. También puede habilitar ID únicos como se describe en [este documento](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
 
-* Una actividad [Enrichment](../../automating/using/enrichment.md) que crea un vínculo entre los datos de transacción cargados desde el archivo y los perfiles seleccionados en **[!UICONTROL Query]**. El vínculo se define en la pestaña **[!UICONTROL Advanced relations]** de la actividad. El vínculo se basa en la transición proveniente de la actividad de **[!UICONTROL Load file]**. Utiliza el campo “correo electrónico” del recurso de perfil y la columna “cliente” del archivo importado como criterios de reconciliación.
+* Un [Enriquecimiento](../../automating/using/enrichment.md) actividad que crea un vínculo entre los datos de transacción cargados desde el archivo y los perfiles seleccionados en la **[!UICONTROL Query]**. El vínculo se define en la pestaña **[!UICONTROL Advanced relations]** de la actividad. El vínculo se basa en la transición proveniente de la actividad de **[!UICONTROL Load file]**. Utiliza el campo “correo electrónico” del recurso de perfil y la columna “cliente” del archivo importado como criterios de reconciliación.
 
    ![](assets/enrichment_example_workflow2.png)
 
@@ -77,11 +77,11 @@ El flujo de trabajo se configura de la siguiente manera:
 
       ![](assets/enrichment_example_workflow9.png)
 
-* Una actividad [Segmentation](../../automating/using/segmentation.md) con un solo segmento, que recupera perfiles del destinatario inicial que tienen al menos dos transacciones registradas. Se excluyen los perfiles con una sola transacción. Para ello, la consulta de la segmentación se realiza en el recuento acumulado definido anteriormente.
+* A [Segmentación](../../automating/using/segmentation.md) actividad con un solo segmento, que recupera perfiles del destinatario inicial que tienen al menos dos transacciones registradas. Se excluyen los perfiles con una sola transacción. Para ello, la consulta de la segmentación se realiza en el recuento acumulado definido anteriormente.
 
    ![](assets/enrichment_example_workflow5.png)
 
-* Una actividad [Email delivery](../../automating/using/email-delivery.md) que utiliza los datos adicionales definidos en el **[!UICONTROL Enrichment]** para recuperar dinámicamente las dos últimas compras realizadas por el perfil. Los datos adicionales se pueden encontrar en el nodo **Datos adicionales (TargetData)** al añadir un campo de personalización.
+* Un [Envío de correo electrónico](../../automating/using/email-delivery.md) actividad que utiliza los datos adicionales definidos en la variable **[!UICONTROL Enrichment]** para recuperar dinámicamente las dos últimas compras realizadas por el perfil. Los datos adicionales se pueden encontrar en el nodo **Datos adicionales (TargetData)** al añadir un campo de personalización.
 
    ![](assets/enrichment_example_workflow10.png)
 

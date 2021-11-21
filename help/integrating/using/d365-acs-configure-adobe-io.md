@@ -1,6 +1,6 @@
 ---
 title: Configuración de Adobe IO para integración con Microsoft Dynamics 365
-description: Obtenga información sobre cómo configurar el Adobe IO para la integración con Microsoft Dynamics 365.
+description: Obtenga información sobre cómo configurar la integración de Adobe IO para Microsoft Dynamics 365.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
@@ -49,9 +49,9 @@ Deberá crear un nuevo proyecto de IO de Adobe y configurarlo para la integraci�
 
 Para lograrlo, siga el procedimiento a continuación:
 
-1. Vaya a [Consola de IO de Adobe](https://console.adobe.io/home#) y seleccione su ID de organización de Adobe IMS en el menú desplegable de la parte superior derecha de la pantalla.
+1. Vaya a [Consola de IO de Adobe](https://console.adobe.io/home#) y seleccione su ID de organización de Adobe IMS en el menú desplegable situado en la parte superior derecha de la pantalla.
 
-1. A continuación, haga clic en **[!UICONTROL Create new project]** en **[!UICONTROL Quick Start]**.
+1. A continuación, haga clic en **[!UICONTROL Create new project]** under **[!UICONTROL Quick Start]**.
 
    ![](assets/adobeIO1.png)
 
@@ -63,7 +63,7 @@ Para lograrlo, siga el procedimiento a continuación:
 
    ![](assets/adobeIO3.png)
 
-1. En la siguiente pantalla tendrá la opción de cargar su propia clave pública o dejar que Adobe IO genere el par de claves por usted. Estas instrucciones siguen esta última opción. Si decide dejar que Adobe IO genere el par de claves, haga clic en la opción 1; a continuación, haga clic en el botón **[!UICONTROL Generate keypair]**.
+1. En la siguiente pantalla tendrá la opción de cargar su propia clave pública o dejar que Adobe IO genere el par de claves por usted. Estas instrucciones siguen esta última opción. Si decide dejar que Adobe IO genere el par de claves, haga clic en la opción 1; a continuación, haga clic en el **[!UICONTROL Generate keypair]** botón.
 
    ![](assets/adobeIO4.png)
 
@@ -83,7 +83,7 @@ Una vez descargado, puede descomprimir el archivo para mostrar las claves públi
 
    ![](assets/adobeIO6.png)
 
-1. En la siguiente pantalla verá los detalles del nuevo proyecto de IO de Adobe. Haga clic **[!UICONTROL Add to Project]** en la parte superior izquierda de la pantalla y seleccione **API** en la lista desplegable.
+1. En la siguiente pantalla verá los detalles del nuevo proyecto de IO de Adobe. Haga clic en **[!UICONTROL Add to Project]** en la parte superior izquierda de la pantalla y seleccione **API** en la lista desplegable .
 
    ![](assets/adobeIO7.png)
 
@@ -91,7 +91,7 @@ Una vez descargado, puede descomprimir el archivo para mostrar las claves públi
 
 1. En la siguiente pantalla, haga clic en **[!UICONTROL Save the configured API]**.  Volverá a la pantalla de detalles del proyecto.
 
-1. Ahora haga clic **[!UICONTROL Add to Project]** en la parte superior izquierda de la pantalla y seleccione **API** en la lista desplegable, como lo hizo anteriormente.
+1. Ahora haga clic en **[!UICONTROL Add to Project]** en la parte superior izquierda de la pantalla y seleccione **API** de la lista desplegable, como lo hizo anteriormente.
 
 1. En la siguiente pantalla tendrá que seleccionar la API de administración de E/S y hacer clic en **[!UICONTROL Next]**.
 
@@ -101,8 +101,8 @@ La configuración de preintegración en Campaign ya ha finalizado.
 
 **Temas relacionados**
 
-* [La configuración de Adobe IO para la ](../../integrating/using/d365-acs-configure-adobe-io.md) integración con Microsoft Dynamics 365 es el siguiente paso para configurar la integración
-* [La ](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) Información general sobre las aplicaciones de autoservicio de integración contiene la lista completa de pasos para poner en marcha la integración.
+* [Configuración de Adobe IO para la integración con Microsoft Dynamics 365](../../integrating/using/d365-acs-configure-adobe-io.md) es el siguiente paso para configurar la integración
+* [Información general sobre la aplicación de autoservicio de integración](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) contiene la lista completa de pasos para poner en marcha la integración.
 
 
 * [Adobe IO: integración de cuenta de servicio](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)

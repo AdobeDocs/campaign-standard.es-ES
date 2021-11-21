@@ -8,14 +8,13 @@ topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: fa0f790d-6a4d-4b83-a51f-f565e9545a1a
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '842'
 ht-degree: 5%
 
 ---
-
 
 # Introducción a la integración con Microsoft Dynamics 365
 
@@ -31,14 +30,13 @@ Esta integración requiere las siguientes versiones de software:
 >
 >Esta capacidad no está disponible de forma predeterminada como parte del producto. La implementación requiere la participación de Adobe Consulting. Póngase en contacto con el representante de su Adobe para obtener más información.
 
-
 ## Principios
 
 La integración de Adobe Campaign Standard con Microsoft Dynamics 365 permite la sincronización de todos los datos de contacto disponibles en el sistema CRM, lo que hace que todos los datos de contacto relevantes estén disponibles para las actividades de campaña.
 
 Por el contrario, a medida que los perfiles de Adobe Campaign Standard interactúan con los mensajes, esos datos (p. ej.: envía, abre, hace clic y salta) se transfiere automáticamente a Microsoft Dynamics 365 para mantener los registros de contacto completos con la actividad de marketing.
 
-La integración también admite la activación de [entidades personalizadas](../../integrating/using/d365-acs-self-service-app-settings.md) en Dynamics 365 para que se sincronicen con los **recursos personalizados** correspondientes en Campaign.
+La integración también admite la activación de [entidades personalizadas](../../integrating/using/d365-acs-self-service-app-settings.md) en Dynamics 365 para sincronizar con **recursos personalizados** en Campaign.
 
 Esta integración está diseñada para admitir cuatro casos de uso principales:
 
@@ -59,7 +57,6 @@ Los beneficios principales son:
 >
 >Esta integración considera a Dynamics 365 como la fuente de verdad para la sincronización de contactos y entidades personalizadas.  Cualquier cambio en los atributos sincronizados debe realizarse en Dynamics 365, no en Adobe Campaign Standard.  Si los cambios se realizan en Campaign, finalmente se pueden sobrescribir durante la sincronización.
 
-
 ## Pasos clave para implementar la integración con Microsoft Dynamics 365{#request-and-implement-this-integration}
 
 Para aprovisionar esta integración, debe seguir los pasos a continuación.
@@ -70,9 +67,9 @@ Siga los detalles del diagrama de flujo y del diagrama de flujo a continuación 
 
 Detalles del diagrama de flujo (se asigna a los pasos anteriores):
 
-* **Paso 1** : se da por hecho que ya dispone de una licencia para Microsoft Dynamics 365 for Sales y para Adobe Campaign Standard o está en proceso de adquirirla.
-* **Paso 2** : La oferta de integración estándar es gratuita para todos los clientes; sin embargo, pueden aplicarse costes adicionales en función de sus necesidades. Obtenga más información sobre [Prácticas recomendadas y limitaciones](../../integrating/using/d365-acs-notices-and-recommendations.md). Será necesario firmar un nuevo pedido de ventas (SO) para aprovechar la integración si no se incluyó en el SO original.
-* **Paso 3** : Complete los pasos previos a la integración para Dynamics 365 y Campaign. Consulte [Configurar esta integración](#configure-this-integration).
+* **Paso 1** - Se da por hecho que ya dispone de una licencia para Microsoft Dynamics 365 for Sales y para Adobe Campaign Standard o está en proceso de adquirirla.
+* **Paso 2** - La oferta de integración estándar es gratuita para todos los clientes; sin embargo, pueden aplicarse costes adicionales en función de sus necesidades. Más información sobre [Prácticas recomendadas y limitaciones](../../integrating/using/d365-acs-notices-and-recommendations.md). Será necesario firmar un nuevo pedido de ventas (SO) para aprovechar la integración si no se incluyó en el SO original.
+* **Paso 3** - Complete los pasos previos a la integración para Dynamics 365 y Campaign. Consulte [Configurar esta integración](#configure-this-integration).
 * **Paso 4** : El equipo de incorporación de Adobe le proporcionará acceso a la interfaz de usuario (IU) de la aplicación de integración.
 * **Paso 5** : podrá configurar sus asignaciones de datos, reemplazos, filtros, etc. y pruebe la integración desde la interfaz de usuario de la aplicación de integración.
 
@@ -80,13 +77,13 @@ Detalles del diagrama de flujo (se asigna a los pasos anteriores):
    >
    > Si necesita la configuración de exclusión bidireccional o de Campaign a Dynamics 365, deberá realizar la solicitud al contacto técnico de Adobe para que los flujos de trabajo de exclusión se configuren en la instancia de Campaign. [Más información](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out).
 
-### Configure esta integración {#configure-this-integration}
+### Configurar esta integración {#configure-this-integration}
 
 Se deben aprovisionar y configurar tres sistemas para esta integración:
 
 * **Adobe Campaign Standard**: debe configurar el acceso a la API y configurar una nueva integración para la herramienta de integración. Para conseguirlo, consulte [este artículo](../../integrating/using/d365-acs-configure-adobe-io.md).
 * **Microsoft Dynamics 365**: debe crear un nuevo registro de aplicación y permitir que un usuario de la aplicación utilice la integración.  Para configurar Microsoft Dynamics 365 para esta integración, consulte [este artículo](../../integrating/using/d365-acs-configure-d365.md).
-* **Integración de Adobe Campaign Standard con la aplicación de autoservicio de Microsoft Dynamics 365**: tendrá que seguir los pasos de  [este artículo](../../integrating/using/d365-acs-self-service-app-control-access.md).
+* **Integración de Adobe Campaign Standard con la aplicación de autoservicio de Microsoft Dynamics 365**: tendrá que seguir los pasos indicados en [este artículo](../../integrating/using/d365-acs-self-service-app-control-access.md).
 
 >[!IMPORTANT]
 >
@@ -94,16 +91,15 @@ Se deben aprovisionar y configurar tres sistemas para esta integración:
 >
 >Los pasos de esta documentación le guiarán a través de la creación de integraciones/registros que implican la asignación de permisos y/o acceso de administrador.  Es su responsabilidad asegurarse de que estos pasos cumplan con las políticas de su empresa antes de realizarlas y realizarlas con cuidado.
 
-
 ### Solicitud de asistencia
 
 Los tickets de asistencia técnica se pueden registrar con el Servicio de atención al cliente de Adobe.
 
 Para cualquier problema con los flujos de datos de integración, asegúrese de incluir la siguiente información:
 
-* **Propietario** del proceso: Arquitectos de Ingeniería
-* **ID** de proceso ES: Proporcionado durante el proceso de incorporación
-* **Título** del proceso: Integración de Microsoft Dynamics 365/Adobe Campaign Standard
-* **Descripción** del problema: Descripción del problema
+* **Propietario del proceso**: Arquitectos de Ingeniería
+* **ID de proceso ES**: Proporcionado durante el proceso de incorporación
+* **Título del proceso**: Integración de Microsoft Dynamics 365/Adobe Campaign Standard
+* **Descripción del problema**: Descripción del problema
 
 La cobertura de soporte de integración es actualmente de 24x5 (disponible de lunes a viernes, excluyendo feriados de Adobe y periodos de descanso).

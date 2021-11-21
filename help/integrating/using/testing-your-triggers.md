@@ -21,7 +21,7 @@ Las siguientes sugerencias para la solución de problemas le ayudan a resolver l
 
 **¿Está activada la funcionalidad?**
 
-Para comprobar si la integración de Déclencheur - Campaign está activada, haga clic en el logotipo de Adobe Campaign, en la esquina superior izquierda, y seleccione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**. Debería ver el elemento **[!UICONTROL Experience Cloud Triggers]**.
+Para comprobar si la integración de Déclencheur - Campaign está activada, haga clic en el logotipo de Adobe Campaign, en la esquina superior izquierda, y seleccione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**. Debería ver el **[!UICONTROL Experience Cloud Triggers]** elemento.
 
 Si lo ve, continúe con el siguiente paso.
 

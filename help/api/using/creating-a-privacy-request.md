@@ -19,20 +19,20 @@ ht-degree: 22%
 
 >[!CAUTION]
 >
->La integración de [Privacy Core Service](https://adobe.io/apis/cloudplatform/gdpr.html) es el método que debe utilizar para todas las solicitudes de acceso y eliminación. A partir de la versión 19.4, el uso de la API y de la interfaz de Campaign para las solicitudes de acceso y eliminación quedarán obsoletas. Para obtener más información sobre las funciones obsoletas y eliminadas de Campaign Standard, consulte [esta página](../../rn/using/deprecated-features.md).
+>La variable [Servicio principal de privacidad](https://adobe.io/apis/cloudplatform/gdpr.html) La integración es el método que debe utilizar para todas las solicitudes de acceso y eliminación. A partir de la versión 19.4, el uso de la API y de la interfaz de Campaign para las solicitudes de acceso y eliminación quedarán obsoletas. Para obtener más información sobre las funciones obsoletas y eliminadas de Campaign Standard, consulte [esta página](../../rn/using/deprecated-features.md).
 
-Las solicitudes de privacidad se crean mediante una solicitud **POST**.
+Las solicitudes de privacidad se crean mediante un **POST** solicitud.
 
-Antes de crear solicitudes, debe definir el espacio de nombres que va a utilizar. Para obtener más información, consulte la [documentación de administración de privacidad](https://helpx.adobe.com/es/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
+Antes de crear solicitudes, debe definir el espacio de nombres que va a utilizar. Para obtener más información, consulte [Documentación de administración de la privacidad](https://helpx.adobe.com/es/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
 
 La carga útil debe contener los siguientes parámetros:
 
-* **nombre**: un nombre interno único
-* **espacio de nombres**: el nombre de área de nombres configurado en la interfaz de Campaign Standard
+* **name**: un nombre interno único
+* **namespace**: el nombre de área de nombres configurado en la interfaz de Campaign Standard
 * **reconciliationValue**: el valor de reconciliación basado en la clave de reconciliación definida en el espacio de nombres
-* **etiqueta**: la etiqueta de solicitud
-* **tipo**: el tipo de solicitud. Los valores aceptados son &quot;access&quot; o &quot;delete&quot;.
-* **reglamento**: el tipo de regulación. Ejemplo: &quot;RGPD&quot;, &quot;CCPA&quot;. Este parámetro es obligatorio y está disponible a partir de la versión 19.4 del Campaign Standard. Si se encuentra en una compilación anterior, no es necesario agregarla a la carga útil.
+* **label**: la etiqueta de solicitud
+* **type**: el tipo de solicitud. Los valores aceptados son &quot;access&quot; o &quot;delete&quot;.
+* **regulación**: el tipo de regulación. Ejemplo: &quot;RGPD&quot;, &quot;CCPA&quot;. Este parámetro es obligatorio y está disponible a partir de la versión 19.4 del Campaign Standard. Si se encuentra en una compilación anterior, no es necesario agregarla a la carga útil.
 
 <br/>
 

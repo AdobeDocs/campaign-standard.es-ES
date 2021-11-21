@@ -19,27 +19,27 @@ ht-degree: 10%
 
 ## Inserción de un vínculo {#inserting-a-link}
 
-El editor le permite personalizar un correo electrónico o una página de aterrizaje al insertar vínculos en los elementos de contenido HTML.
+El editor le permite personalizar un correo electrónico o una página de aterrizaje al insertar vínculos en los elementos de contenido del HTML.
 
 Puede insertar un vínculo en cualquier elemento de página: imagen, palabra, grupo de palabras, bloque de texto, etc.
 
 >[!NOTE]
 >
->Las imágenes siguientes muestran cómo insertar un vínculo mediante el [Diseñador de correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md) en un mensaje de correo electrónico.
+>Las imágenes siguientes muestran cómo insertar un vínculo mediante el [Diseñador de correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md) en un correo electrónico.
 
-1. Seleccione un elemento y haga clic en **[!UICONTROL Insert link]** en la barra de herramientas contextual.
+1. Seleccione un elemento y haga clic en **[!UICONTROL Insert link]** de la barra de herramientas contextual.
 
    ![](assets/des_insert_link.png)
 
 1. Elija el tipo de vínculo que desea crear:
 
-   * **Vínculo** externo: inserte un vínculo a una URL externa.
+   * **Vínculo externo**: inserte un vínculo a una URL externa.
 
       Puede definir la personalización para sus URL. Consulte [Personalización de direcciones URL](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
 
-   * **Página** de aterrizaje: permite acceder a una página de aterrizaje de Adobe Campaign.
-   * **Vínculo** de suscripción: inserte un vínculo para suscribirse a un servicio de Adobe Campaign.
-   * **Vínculo** de baja: inserte un vínculo para cancelar la suscripción a un servicio de Adobe Campaign.
+   * **Página de aterrizaje**: permite acceder a una página de aterrizaje de Adobe Campaign.
+   * **Vínculo de suscripción**: inserte un vínculo para suscribirse a un servicio de Adobe Campaign.
+   * **Vínculo de baja**: inserte un vínculo para cancelar la suscripción a un servicio de Adobe Campaign.
    * **Vínculo que define una acción**: defina una acción cuando se haga clic en un elemento de la página de aterrizaje.
 
       >[!NOTE]
@@ -59,13 +59,13 @@ Una vez creado el vínculo, puede modificarlo desde el panel Configuración . Ha
 
 ![](assets/des_link_edit.png)
 
-Al editar un correo electrónico con el [Diseñador de correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md), puede acceder y modificar fácilmente los vínculos que ha creado a partir de la tabla que enumera todas las direcciones URL incluidas en el correo electrónico. Esta lista permite tener una vista centralizada y localizar cada URL en el contenido del correo electrónico. Para acceder a él, consulte [Acerca de las URL rastreadas](#about-tracked-urls).
+Al editar un correo electrónico con la variable [Diseñador de correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md), puede acceder y modificar fácilmente los vínculos que ha creado a partir de la tabla que enumera todas las direcciones URL incluidas en el correo electrónico. Esta lista permite tener una vista centralizada y localizar cada URL en el contenido del correo electrónico. Para acceder a él, consulte [Acerca de las direcciones URL rastreadas](#about-tracked-urls).
 
 ![](assets/des_link_list.png)
 
 >[!NOTE]
 >
->Las direcciones URL personalizadas como **Mirror page URL** o **Unsubscription** no se pueden modificar desde esta lista. Todos los demás vínculos son editables.
+>Direcciones URL personalizadas como **URL de página espejo** o **Baja** no se puede modificar desde esta lista. Todos los demás vínculos son editables.
 
 **Temas relacionados**:
 
@@ -77,7 +77,7 @@ Al editar un correo electrónico con el [Diseñador de correo electrónico](../.
 
 Adobe Campaign permite rastrear el comportamiento de los destinatarios cuando hacen clic en una URL incluida en un correo electrónico. Para obtener más información de seguimiento, consulte [esta sección](../../sending/using/tracking-messages.md#about-tracking).
 
-El icono **[!UICONTROL Links]** de la barra de acciones muestra automáticamente la lista de todas las direcciones URL del contenido de las que se realizará un seguimiento.
+La variable **[!UICONTROL Links]** en la barra de acciones muestra automáticamente la lista de todas las direcciones URL del contenido que se rastrearán.
 
 ![](assets/des_links.png)
 
@@ -102,13 +102,13 @@ También puede desactivar o activar el seguimiento para cada dirección URL.
 
 >[!NOTE]
 >
->De forma predeterminada, en Adobe Campaign, se realiza el seguimiento de todas las direcciones URL de contenido, excepto el enlace **Mirror page URL** y **Unsubscription**.
+>De forma predeterminada, en Adobe Campaign, se realiza el seguimiento de todas las direcciones URL de contenido excepto **URL de página espejo** y **Baja** vínculo.
 
-Puede agrupar las direcciones URL editando el campo **[!UICONTROL Category]** , según las direcciones URL utilizadas en el mensaje. Estas categorías pueden mostrarse en los informes, como en [URLs and click streams](../../reporting/using/urls-and-click-streams.md).
+Puede agrupar las direcciones URL editando el **[!UICONTROL Category]** , según las direcciones URL utilizadas en el mensaje. Estas categorías pueden mostrarse en los informes, como en [URL y flujos de clics](../../reporting/using/urls-and-click-streams.md).
 
 ![](assets/des_link_tracking_category.png)
 
-Al crear un informe, en la pestaña **[!UICONTROL Components]**, seleccione **[!UICONTROL Dimension]** y desplácese hacia abajo por la lista para acceder a los componentes de seguimiento. Por ejemplo, arrastre y suelte **[!UICONTROL Tracking URL Category]** en el espacio de trabajo para mostrar los resultados según la categoría de seguimiento de cada URL donde se haga clic.
+Al crear un informe, desde el **[!UICONTROL Components]** , seleccione **[!UICONTROL Dimension]** y desplácese hacia abajo por la lista para acceder a los componentes de seguimiento. Por ejemplo, arrastrar y soltar **[!UICONTROL Tracking URL Category]** en el espacio de trabajo para mostrar los resultados según la categoría de seguimiento de cada URL donde se haga clic.
 
 ![](assets/des_link_tracking_report.png)
 

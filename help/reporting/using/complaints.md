@@ -22,6 +22,6 @@ El informe **[!UICONTROL Complaints]** identifica los envíos que reciben la may
 
 ![](assets/delivery_reports_complaints.png)
 
-La tabla **Flop**, ordenada por dominio de destinatario, muestra el número de destinatarios que han declarado un correo electrónico o correo no deseado. Los resultados de la tabla también están disponibles en un gráfico y en números de resumen.
+La variable **Flop** , ordenada por dominio de destinatario, muestra el número de destinatarios que han declarado un correo electrónico o correo no deseado. Los resultados de la tabla también están disponibles en un gráfico y en números de resumen.
 
-La tabla **Delivered vs On Lista de bloqueados** enumera el número de destinatarios que han declarado un correo electrónico como correo no deseado o no deseado. La tabla se ordena por entrega.
+La variable **Entrega frente a  Lista de bloqueados** lista el número de destinatarios que han declarado un correo electrónico como correo no deseado o no deseado. La tabla se ordena por entrega.

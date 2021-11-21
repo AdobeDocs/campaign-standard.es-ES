@@ -32,9 +32,9 @@ Varios factores pueden afectar directamente al rendimiento del servidor y ralent
 
    **SUGERENCIA:** Para evitar esto, coordine la programación de las envíos con los demás miembros de su equipo para garantizar el mejor rendimiento.
 
-* La [ejecución del flujo de trabajo](../../automating/using/about-workflow-execution.md): la monitorización de los flujos de trabajo es esencial para evitar problemas de rendimiento de la plataforma. Siga las directrices enumeradas [en esta página](../../automating/using/monitoring-workflow-execution.md). Obtenga más información en la sección [prácticas recomendadas del flujo de trabajo](../../automating/using/best-practices-workflows.md).
+* La variable [ejecución del flujo de trabajo](../../automating/using/about-workflow-execution.md): la monitorización de los flujos de trabajo es esencial para evitar problemas de rendimiento de la plataforma. Siga las directrices enumeradas [en esta página](../../automating/using/monitoring-workflow-execution.md). Obtenga más información en la [prácticas recomendadas del flujo de trabajo](../../automating/using/best-practices-workflows.md) para obtener más información.
 
-* Puede aprovechar las [funcionalidades de Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=es) para monitorizar su plataforma mediante las funcionalidades de [monitorización del rendimiento](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=es).
+* Puede aprovechar [Funcionalidades del Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=es) para supervisar la plataforma, use [monitorización del rendimiento](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=es) funcionalidades.
 
 ## Comprobación de la configuración de red {#network-config}
 

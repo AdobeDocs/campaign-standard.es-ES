@@ -24,19 +24,19 @@ Para asegurarse de que los mensajes de correo electrónico llegan a los destinat
 
 Siga los principios que se enumeran a continuación al diseñar el contenido del mensaje:
 
-* [Nombre y dirección](#sender-name) del remitente: la dirección debe identificar explícitamente al remitente. El dominio debe ser propiedad del remitente y estar registrado por él. El registro de dominios no debe privatizarse.
+* [Nombre y dirección del remitente](#sender-name): la dirección debe identificar explícitamente al remitente. El dominio debe ser propiedad del remitente y estar registrado por él. El registro de dominios no debe privatizarse.
 
    <!--**Subject**: Avoid excessive capitalization and punctuation, and words that are frequently used by spammers ("Win", "Free", etc.).-->
-* [Personalización y optimización](#perso-send-time-optimization) del tiempo de envío: la personalización del contenido y la definición de una hora de envío por destinatario aumentan las posibilidades de que se abra el mensaje.
+* [Personalización y optimización del tiempo de envío](#perso-send-time-optimization): la personalización del contenido y la definición de una hora de envío por destinatario aumentan las posibilidades de que se abra el mensaje.
 * Imágenes y texto: respete una proporción de texto/imagen adecuada (por ejemplo, 60 % de texto y 40 % de imágenes).
 * [Vínculo de baja de suscripción](#opt-out) y página de aterrizaje: el vínculo de baja es esencial. Debe ser visible y válido, y el formulario debe ser funcional.
-* Vista previa: utilice las herramientas que ofrece Adobe Campaign para comprobar y optimizar el contenido de su correo electrónico ([Anti-spam analysis](#anti-spam-analysis), [Email rendering](#message-responsiveness)).
+* Vista previa: utilice las herramientas que ofrece Adobe Campaign para comprobar y optimizar el contenido del correo electrónico ([Análisis de correo no deseado](#anti-spam-analysis), [Procesamiento de correo electrónico](#message-responsiveness)).
 
 Para obtener sugerencias adicionales para optimizar la capacidad de entrega al diseñar contenido, consulte la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html?lang=es).
 
 >[!NOTE]
 >
->Para obtener más información sobre la edición del contenido del correo electrónico, consulte la [información general del Diseñador de correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md) y las [Prácticas recomendadas del diseño de mensaje](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices).
+>Para obtener más información sobre la edición de contenido de correo electrónico, consulte la [Información general del Diseñador de correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md) y [Prácticas recomendadas para el diseño de mensajes](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices).
 
 ## Nombre y dirección del remitente {#sender-name}
 
@@ -46,19 +46,19 @@ Algunos ISP verifican la validez de la dirección del remitente (**[!UICONTROL F
 
 Debe asegurarse de proporcionar una dirección correcta en el nivel de instancia o en los escenarios más utilizados. Para ello, póngase en contacto con el administrador.
 
-Para obtener más información, consulte [Definición del remitente de correo electrónico de un correo electrónico](../../designing/using/subject-line.md#email-sender).
+Para obtener más información, consulte [Definición del remitente del correo electrónico de un correo electrónico](../../designing/using/subject-line.md#email-sender).
 
 ## Personalización y optimización del tiempo de envío {#perso-send-time-optimization}
 
 Para mejorar la experiencia de los destinatarios y hacer que abran su correo electrónico, Adobe Campaign le permite personalizar sus mensajes. Para obtener más información, consulte [esta sección](../../designing/using/personalization.md).
 
-Para aumentar la tasa de apertura de los mensajes, también puede definir manualmente una hora de envío por destinatario. Cada perfil recibe el mensaje en la fecha y hora especificadas, siempre que sea posible. Para obtener más información sobre esto, consulte [Optimizing the sending time](../../sending/using/optimizing-the-sending-time.md).
+Para aumentar la tasa de apertura de los mensajes, también puede definir manualmente una hora de envío por destinatario. Cada perfil recibe el mensaje en la fecha y hora especificadas, siempre que sea posible. Para obtener más información, consulte [Optimización del tiempo de envío](../../sending/using/optimizing-the-sending-time.md).
 
 ## Formulario y vínculo de no participación {#opt-out}
 
 De forma predeterminada, cuando se analiza el mensaje, una regla de tipología comprueba si se ha incluido un vínculo de exclusión y genera una advertencia si falta. Para obtener más información sobre la administración de vínculos, consulte [esta sección](../../designing/using/links.md).
 
-Debe comprobar que el vínculo de exclusión funciona correctamente antes de cada envío. Por ejemplo, al [enviar la prueba](../../sending/using/sending-proofs.md), asegúrese de que el vínculo sea válido, de que el formulario esté en línea y de que al validarlo se comprueben las casillas **[!UICONTROL No longer contact]**. Debe realizar esta comprobación sistemáticamente porque siempre puede haber errores humanos al introducir el vínculo o al cambiar el formulario. Para obtener más información sobre la administración de la inclusión y la exclusión, consulte [esta sección](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md).
+Debe comprobar que el vínculo de exclusión funciona correctamente antes de cada envío. Por ejemplo, cuando [envío de la prueba](../../sending/using/sending-proofs.md), asegúrese de que el vínculo sea válido, que el formulario esté en línea y que al validarlo se verifique la variable **[!UICONTROL No longer contact]** para abrir el Navegador. Debe realizar esta comprobación sistemáticamente porque siempre puede haber errores humanos al introducir el vínculo o al cambiar el formulario. Para obtener más información sobre la administración de la inclusión y la exclusión, consulte [esta sección](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md).
 
 ![](assets/optin_landingpage_3.png)
 
@@ -70,7 +70,7 @@ La solicitud de confirmación adicional no es fiable: un usuario puede tener dos
 
 ## Análisis de correo no deseado {#anti-spam-analysis}
 
-El editor de mensajes de Adobe Campaign integra un **análisis de correo no deseado** que le permite puntuar correos electrónicos para determinar si un mensaje corre el riesgo de que las herramientas de filtrado de correo no deseado utilizadas durante la recepción lo consideren como no deseado. Para obtener más información, consulte [Vista previa de mensajes](../../sending/using/previewing-messages.md).
+El editor de mensajes de Adobe Campaign integra un **Análisis de correo no deseado** que le permite puntuar correos electrónicos para determinar si un mensaje corre el riesgo de que las herramientas de filtrado de correo no deseado utilizadas durante la recepción lo consideren como no deseado. Para obtener más información, consulte [Vista previa de mensajes](../../sending/using/previewing-messages.md).
 
 En el editor de contenido del mensaje, haga clic en **[!UICONTROL Preview]**. Un mensaje le advierte si la comprobación de correo no deseado ha detectado un alto riesgo para este mensaje. Haga clic en **[!UICONTROL Anti-spam analysis]** para ver los detalles.
 

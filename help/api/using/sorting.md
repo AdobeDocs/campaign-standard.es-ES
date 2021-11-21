@@ -17,7 +17,7 @@ ht-degree: 11%
 
 # Orden
 
-La ordenación está disponible en orden ascendente o descendente. Para ello, utilice el parámetro **%20desc** o **%20asc** de la solicitud.
+La ordenación está disponible en orden ascendente o descendente. Para ello, utilice el **%20desc** o **%20asc** a su solicitud.
 
 Para saber si un campo se puede ordenar, compruebe el parámetro &quot;ordenable&quot; en los metadatos del recurso. Para obtener más información, consulte [esta sección](../../api/using/metadata-mechanism.md).
 

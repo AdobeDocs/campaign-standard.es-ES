@@ -19,11 +19,11 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->Tenga en cuenta que debe arrastrar y soltar las métricas **[!UICONTROL Message type]** en las tablas para dividir los datos según los tipos de envío, en este caso envíos de notificaciones push.
+>Tenga en cuenta que debe arrastrar y soltar el **[!UICONTROL Message type]** a las tablas para dividir los datos en función de los tipos de envío, en este caso envíos de notificaciones push.
 
-El informe **Push notification** proporciona detalles sobre el rendimiento de marketing de las notificaciones push en Adobe Campaign. Este informe de serie le ayuda a comprender cómo interactúan los usuarios con las notificaciones push, las aplicaciones móviles y los envíos.
+La variable **Notificaciones push** proporciona detalles sobre el rendimiento de marketing de las notificaciones push en Adobe Campaign. Este informe de serie le ayuda a comprender cómo interactúan los usuarios con las notificaciones push, las aplicaciones móviles y los envíos.
 
-Se requiere cierta configuración en la aplicación móvil para implementar el seguimiento push, consulte esta [página](../../administration/using/push-tracking.md) para conocer los pasos detallados.
+Se requiere cierta configuración en la aplicación móvil para implementar el seguimiento push; consulte esta [página](../../administration/using/push-tracking.md) para ver los pasos detallados.
 
 ![](assets/dynamic_report_push.png)
 
@@ -40,7 +40,7 @@ La primera tabla **Resumen de participación de notificaciones push** se divide 
 
 ![](assets/dynamic_report_push_2.png)
 
-La segunda tabla **Push notification Clicks &amp; opens** se divide en tres categorías: por día, por aplicación móvil y por entrega. Contiene los datos disponibles para el comportamiento del destinatario por envío:
+La segunda tabla **Clics y aperturas de notificaciones push** se divide en tres categorías: por día, por aplicación móvil y por entrega. Contiene los datos disponibles para el comportamiento del destinatario por envío:
 
 * **[!UICONTROL Impressions]**: Total de notificaciones push vistas por los destinatarios.
 * **[!UICONTROL Unique impressions]**: Número de impresiones por destinatario.

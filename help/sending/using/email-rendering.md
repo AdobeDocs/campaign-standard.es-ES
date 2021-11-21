@@ -76,7 +76,7 @@ El número de procesamientos disponibles aparece en el contrato de licencia. Cad
 
 Los tokens corresponden a cada renderización individual y no al informe completo de renderización del correo electrónico, lo que significa que:
 
-* **Cada** vez que se genera el informe de procesamiento de correo electrónico, se resta un token por cliente de mensajería: un token para la renderización de Outlook 2000, uno para la renderización de Outlook, uno para la renderización de Apple Mail, etc.
+* **Cada vez que** se genera el informe de procesamiento de correo electrónico, se resta un token por cliente de mensajería: un token para la renderización de Outlook 2000, uno para la renderización de Outlook, uno para la renderización de Apple Mail, etc.
 
 * **Para la misma entrega**, si vuelve a generar el procesamiento de correo electrónico, el número de tokens disponibles se reduce de nuevo según el número de renderizaciones generadas.
 

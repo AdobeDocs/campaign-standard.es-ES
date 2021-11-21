@@ -9,13 +9,13 @@ exl-id: 5c266c44-535b-4954-862d-74c83a6f6406
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '326'
-ht-degree: 57%
+ht-degree: 68%
 
 ---
 
 # Ingesta de audiencias de Adobe Experience Platform en Campaign {#destinations}
 
-Para ingerir audiencias de Adobe Experience Platform en Campaign y utilizarlas en sus flujos de trabajo, primero debe conectar Adobe Campaign as a Adobe Experience Platform **Destination** y configurarlo con el segmento a exportar.
+Para introducir público de Adobe Experience Platform en Campaign y utilizarlo en sus flujos de trabajo, primero debe conectar Adobe Campaign como **destino** de Adobe Experience Platform y configurarlo con el segmento a exportar.
 
 Una vez configurado el destino, los datos se exportan a su ubicación de almacenamiento y deberá crear un flujo de trabajo dedicado en Campaign Standard para ingerirlos.
 
@@ -43,7 +43,7 @@ Por ejemplo, el flujo de trabajo siguiente descarga diariamente el archivo desde
 
 ![](assets/rtcdp-workflow.png)
 
-En la sección [workflows use cases](../../automating/using/about-workflow-use-cases.md#management) encontrará ejemplos de flujos de trabajo de administración de datos.
+Hay ejemplos de flujos de trabajo de administración de datos disponibles en la [casos de uso de flujos de trabajo](../../automating/using/about-workflow-use-cases.md#management) para obtener más información.
 
 Temas relacionados:
 

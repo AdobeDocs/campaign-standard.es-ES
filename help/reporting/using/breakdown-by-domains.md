@@ -22,19 +22,19 @@ Este informe contiene los datos de rendimiento de cada dominio representado en l
 
 ![](assets/delivery_reports_6.png)
 
-La tabla **Broadcast statistics** contiene los datos disponibles para detectar posibles errores encontrados con cada dominio, como:
+La tabla **Estadísticas de difusión** contiene los datos disponibles para detectar posibles errores encontrados con cada dominio, como:
 
 * **Procesado/enviado**: Número de correos electrónicos enviados.
 * **Entrega**: Número de correos electrónicos enviados.
 * **Devoluciones + Errores**: Número de mensajes que no se pudieron enviar.
-* **Rechazo** grave: El número total de errores permanentes, como una dirección de correo electrónico incorrecta.
-* **Rechazo** leve: El número total de errores temporales, como una bandeja de entrada completa.
+* **Rechazo grave**: El número total de errores permanentes, como una dirección de correo electrónico incorrecta.
+* **Rechazo suave**: El número total de errores temporales, como una bandeja de entrada completa.
 
-La segunda tabla, **Tracking statistics**, contiene los datos disponibles para la reacción del destinatario al envío, como:
+La segunda tabla, **Estadísticas de seguimiento**, contiene los datos disponibles para la reacción del destinatario a la entrega, como:
 
 * **Entrega**: El número de correos electrónicos enviados
-* **Abrir**: Número de veces que se abrió un mensaje en una entrega.
+* **Apertura**: Número de veces que se abrió un mensaje en una entrega.
 * **Haga clic en**: Número de veces que se hizo clic en el contenido en una entrega.
 * **Cancelación de suscripción**: El número de clics en el vínculo de suscripción.
 * **Página espejo**: El número de clics en el vínculo de la página espejo.
-* **Al lista de bloqueados**: El número de destinatarios que han declarado un correo electrónico como correo no deseado o no deseado. [Más información](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* **En lista de bloqueados**: El número de destinatarios que han declarado un correo electrónico como correo no deseado o no deseado. [Más información](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)

@@ -44,7 +44,7 @@ La actividad **[!UICONTROL Segmentation]** se suele colocar después de activida
 
 1. Arrastre y suelte una actividad de **[!UICONTROL Segmentation]** en el flujo de trabajo.
 1. Seleccione la actividad y, a continuación, ábrala con el botón ![](assets/edit_darkgrey-24px.png), en las acciones rápidas que aparecerán.
-1. En la pestaña **[!UICONTROL General]** , seleccione el **[!UICONTROL Resource type]** en el que debe llevarse a cabo la segmentación:
+1. En el **[!UICONTROL General]** , seleccione **[!UICONTROL Resource type]** sobre el que debe llevarse a cabo la segmentación:
 
    * **[!UICONTROL Database resource]** si la segmentación se realiza con datos que ya existen en la base de datos. Seleccione la **[!UICONTROL Filtering dimension]** en función de los datos que desee segmentar. De forma predeterminada, la segmentación se realiza en los **perfiles**.
    * **[!UICONTROL Temporary resource]** si la segmentación se realiza en los datos temporales del flujo de trabajo: seleccione el **[!UICONTROL Targeted set]** que contiene los datos que se van a segmentar. Este caso de uso se puede encontrar después de importar un archivo o si los datos de la base de datos se enriquecieron.
@@ -61,7 +61,7 @@ La actividad **[!UICONTROL Segmentation]** se suele colocar después de activida
    * **[!UICONTROL Limit segment population]**: le permite limitar el tamaño del segmento.
    * **[!UICONTROL Filter and limit segment population]**: le permite filtrar la población del segmento y limitar su tamaño.
    * **[!UICONTROL Label]**: etiqueta de segmento.
-   * **[!UICONTROL Segment code]**: código asignado a la población del segmento. El código de segmento se puede personalizar mediante una expresión estándar y variables de eventos (consulte  [esta página](../../automating/using/customizing-workflow-external-parameters.md)).
+   * **[!UICONTROL Segment code]**: código asignado a la población del segmento. El código de segmento se puede personalizar mediante una expresión estándar y variables de eventos (consulte [esta página](../../automating/using/customizing-workflow-external-parameters.md)).
    * **[!UICONTROL Exclude segment from population]**: le permite excluir el segmento especificado de la población saliente de la actividad. Esta opción solo se puede utilizar si se selecciona la opción **[!UICONTROL Generate all segments in the same transition]**.
 
    ![](assets/wkf_segment_new_segment.png)

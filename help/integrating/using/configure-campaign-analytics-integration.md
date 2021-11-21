@@ -28,20 +28,20 @@ El administrador funcional de la plataforma solo puede administrar las cuentas e
 
    ![](assets/analytics_2.png)
 
-1. Especifique **[!UICONTROL Web services user name]** y **[!UICONTROL Web services share secret]** en el campo **[!UICONTROL Connection]**.
+1. Especifique la **[!UICONTROL Web services user name]** y **[!UICONTROL Web services share secret]** en el **[!UICONTROL Connection]** campo .
 
    Estos parámetros se pueden encontrar en Analytics seleccionando **[!UICONTROL Admin > Company settings > Web services]**.
 
    ![](assets/analytics_1.png)
 
 1. Haga clic en el botón **[!UICONTROL Refresh report suites]**.
-1. Seleccione en la lista desplegable **[!UICONTROL Analytics default report suite]** el grupo de informes de Adobe Analytics que desea enriquecer con los datos de Adobe Campaign.
+1. Seleccione en el **[!UICONTROL Analytics default report suite]** desplegable del grupo de informes de Adobe Analytics que desea enriquecer con los datos de Adobe Campaign.
 
-   La cuenta externa ya está lista y vinculada a Adobe Analytics. Puede deshabilitarlo en cualquier momento marcando la casilla **[!UICONTROL Enabled]**.
+   La cuenta externa ya está lista y vinculada a Adobe Analytics. Puede deshabilitarlo en cualquier momento comprobando la variable **[!UICONTROL Enabled]** en la ventana
 
    ![](assets/analytics.png)
 
-El flujo de trabajo técnico **[!UICONTROL Share KPIs with Adobe Analytics]** ahora se iniciará automáticamente y se puede ver desde el menú avanzado seleccionando **[!UICONTROL Administration > Application settings > Workflow]**. Este flujo de trabajo técnico se ejecutará automáticamente cada 15 minutos e insertará datos de hasta 6 meses de antigüedad en Adobe Analytics.
+La variable **[!UICONTROL Share KPIs with Adobe Analytics]** el flujo de trabajo técnico ahora se iniciará automáticamente y se puede ver desde el menú avanzado seleccionando **[!UICONTROL Administration > Application settings > Workflow]**. Este flujo de trabajo técnico se ejecutará automáticamente cada 15 minutos e insertará datos de hasta 6 meses de antigüedad en Adobe Analytics.
 
 ![](assets/analytics_3.png)
 
@@ -51,4 +51,4 @@ Los datos ya están disponibles en Adobe Analytics.
 
 * [Cuentas externas](../../administration/using/external-accounts.md)
 * [Flujos de trabajo técnicos](../../administration/using/technical-workflows.md)
-* [Compartir KPI para el vídeo integrado de ](https://helpx.adobe.com/es/marketing-cloud/how-to/email-marketing.html) informes de Campaign
+* [Compartir KPI para la creación de informes de Campaign integrada](https://helpx.adobe.com/es/marketing-cloud/how-to/email-marketing.html) video

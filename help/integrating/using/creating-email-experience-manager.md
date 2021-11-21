@@ -40,14 +40,14 @@ De forma predeterminada, dos plantillas predefinidas permiten crear contenido de
 * **[!UICONTROL Adobe Campaign Email]**: esta plantilla contiene un contenido estándar que puede personalizar. Puede elegir entre Correo electrónico de Adobe Campaign (AC6.1) y Correo electrónico de Adobe Campaign (ACS).
 * **[!UICONTROL Importer Page]**: esta plantilla le permite importar un archivo ZIP que contenga un archivo HTML con contenido que podrá personalizar.
 
-1. En Adobe Experience Manager, cree un nuevo **[!UICONTROL Page]**.
+1. En Adobe Experience Manager, cree una **[!UICONTROL Page]**.
 
-1. Seleccione la plantilla **[!UICONTROL Adobe Campaign Email]** . Consulte el siguiente vídeo para conocer los pasos detallados.
+1. Seleccione el **[!UICONTROL Adobe Campaign Email]** plantilla. Consulte el siguiente vídeo para conocer los pasos detallados.
    >[!VIDEO](https://video.tv.adobe.com/v/29997)
 
 1. Abra el nuevo contenido del correo electrónico.
 
-1. En **[!UICONTROL Page properties]**, establezca **[!UICONTROL Adobe Campaign]** como **[!UICONTROL Cloud Service Configuration]**. Esto permite la comunicación entre el contenido y la instancia de Adobe Campaign.
+1. En el **[!UICONTROL Page properties]**, conjunto **[!UICONTROL Adobe Campaign]** como el **[!UICONTROL Cloud Service Configuration]**. Esto permite la comunicación entre el contenido y la instancia de Adobe Campaign.
 
    Para obtener más información, vea el siguiente vídeo:
 
@@ -59,14 +59,14 @@ Puede editar el contenido del correo electrónico añadiendo componentes y recur
 
 Para crear un contenido de correo electrónico en Adobe Experience Manager:
 
-1. Edite el asunto y la versión **[!UICONTROL Plain text]** del correo electrónico accediendo a la pestaña **[!UICONTROL Page properties]** > **[!UICONTROL Email]** en la barra de tareas.
+1. Edite el asunto, así como el **[!UICONTROL Plain text]** de su correo electrónico accediendo a la **[!UICONTROL Page properties]** > **[!UICONTROL Email]** de la barra de tareas.
 
-1. Añada **[!UICONTROL Personalization fields]** a través del componente **[!UICONTROL Text & Personalization]**. Cada componente corresponde a un uso específico: inserción de imágenes, adición de personalización, etc.
+1. Agregar **[!UICONTROL Personalization fields]** a través de **[!UICONTROL Text & Personalization]** componente. Cada componente corresponde a un uso específico: inserción de imágenes, adición de personalización, etc.
 
    Para obtener más información, vea el siguiente vídeo:
    >[!VIDEO](https://video.tv.adobe.com/v/29998)
 
-1. En la pestaña **[!UICONTROL Workflow]** , seleccione el flujo de trabajo de validación **[!UICONTROL Approve for Adobe Campaign]** . No puede enviar un correo electrónico en Adobe Campaign si utiliza un contenido que no se haya aprobado.
+1. En el **[!UICONTROL Workflow]** , seleccione **[!UICONTROL Approve for Adobe Campaign]** flujo de trabajo de validación. No puede enviar un correo electrónico en Adobe Campaign si utiliza un contenido que no se haya aprobado.
 
 1. Una vez definidos los parámetros de contenido y envío, puede proceder a la aprobación, preparación y envío del correo electrónico en Adobe Campaign Standard.
 

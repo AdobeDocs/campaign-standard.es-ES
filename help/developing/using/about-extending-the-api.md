@@ -21,7 +21,7 @@ Este caso de uso detalla la exposición de campos ampliados para el recurso pers
 
 >[!NOTE]
 >
->Para publicar la API, asegúrese de que tiene la función **[!UICONTROL Datamodel]**.
+>Para publicar la API, asegúrese de que tiene la variable **[!UICONTROL Datamodel]** función.
 
 Los pasos para exponer los campos ampliados en la API pública son los siguientes:
 

@@ -24,7 +24,7 @@ En esta página, aprenda a garantizar que el seguimiento de notificaciones local
 
 El seguimiento de notificaciones locales se puede dividir en tres tipos:
 
-* **Impresiones locales** : cuando se envía una notificación local al dispositivo y se encuentra en el centro de notificaciones, pero no se ha tocado en absoluto. En la mayoría de los casos, el número de impresiones debe ser similar si no es el mismo que el número entregado. Garantiza que el dispositivo obtuvo el mensaje y reenvía esa información al servidor.
+* **Impresiones locales** - Cuando se ha enviado una notificación local al dispositivo y se encuentra en el centro de notificaciones, pero no se ha tocado en absoluto. En la mayoría de los casos, el número de impresiones debe ser similar si no es el mismo que el número entregado. Garantiza que el dispositivo obtuvo el mensaje y reenvía esa información al servidor.
 
 * **Clic local** : cuando se envía una notificación local al dispositivo y el usuario ha hecho clic en la notificación. El usuario quería ver la notificación (que a su vez pasará al seguimiento abierto local) o rechazar la notificación.
 
@@ -36,8 +36,8 @@ Para enviar la información de seguimiento, hay tres variables que se deben envi
 
 | Variable  | Valor |
 | :-: | :-: |
-| deliveryId | `deliveryId` a partir de datos entrantes (similar al seguimiento push, donde  `_dld` se utiliza) |
-| broadlogId | `broadlogId` a partir de datos entrantes (similar al seguimiento push, donde  `_mld` se utiliza) |
+| deliveryId | `deliveryId` a partir de datos entrantes (similar al seguimiento push donde `_dld` se utiliza) |
+| broadlogId | `broadlogId` a partir de datos entrantes (similar al seguimiento push donde `_mld` se utiliza) |
 | acción | &quot;1&quot; para Open, &quot;2&quot; para Click y &quot;7&quot; para Impression |
 
 ## Implementación del seguimiento de impresión local {#implement-local-impression-tracking}
@@ -46,7 +46,7 @@ El SDK de Adobe Experience Platform Mobile enviará automáticamente el evento d
 
 ## Implementación del rastreo de clics {#implementing-click-tracking}
 
-Para el rastreo de clics, debe enviar el valor &quot;2&quot; para la acción al llamar a las funciones `collectMessageInfo()` o `trackAction()` .
+Para el rastreo de clics, debe enviar el valor &quot;2&quot; para la acción cuando llame a `collectMessageInfo()` o `trackAction()` funciones.
 
 ### Para Android {#implement-click-tracking-android}
 

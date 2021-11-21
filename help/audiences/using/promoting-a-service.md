@@ -27,6 +27,6 @@ Puede utilizar Campaign para promocionar un servicio mediante:
 
    >[!NOTE]
    >
-   >También es importante dar a los suscriptores la posibilidad de darse de baja. Para ello, inserte un servicio <b>Unsubscription link</b> en el correo electrónico de confirmación (definido en las propiedades del servicio) enviado automáticamente a los nuevos suscriptores, así como en futuros correos electrónicos del boletín informativo.
+   >También es importante dar a los suscriptores la posibilidad de darse de baja. Para ello, inserte un servicio <b>Vínculo de baja</b> en el correo electrónico de confirmación (definido en las propiedades del servicio) enviado automáticamente a los nuevos suscriptores, así como en futuros correos electrónicos del boletín.
 
-* Hacer que una página de aterrizaje de suscripción o de baja esté disponible en un sitio web. Las direcciones URL que le proporcionan acceso a la página de aterrizaje deben especificar parámetros como el servicio asociado, así como el ID de perfil que accede a ella. Este ID se puede definir en los parámetros de la página de aterrizaje (consulte [Configuración de una página de aterrizaje](../../channels/using/configuring-landing-page.md)).
+* Hacer que una página de aterrizaje de suscripción o de baja esté disponible en un sitio web. Las direcciones URL que le proporcionan acceso a la página de aterrizaje deben especificar parámetros como el servicio asociado, así como el ID de perfil que accede a ella. Esta ID se puede definir en los parámetros de la página de aterrizaje (consulte [Configuración de una página de aterrizaje](../../channels/using/configuring-landing-page.md)).

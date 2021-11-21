@@ -26,7 +26,7 @@ Este es un procedimiento de dos pasos.
 
 >[!CAUTION]
 >
->La API de REST devuelve la propiedad &quot;href&quot;, que contiene la dirección URL que se va a usar. <b>Utilice siempre la URL contenida en la respuesta para realizar la siguiente solicitud</b> de API.
+>La API de REST devuelve la propiedad &quot;href&quot;, que contiene la dirección URL que se va a usar. <b>Utilice siempre la URL contenida en la respuesta para realizar la siguiente solicitud de API</b>.
 
 <br/>
 

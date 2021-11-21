@@ -26,7 +26,7 @@ En esta sección se enumeran las prácticas recomendadas y limitaciones que debe
 
 ## Permisos {#permissions}
 
-Solo los usuarios con la función [Administration](../../administration/using/users-management.md#functional-administrators) pueden configurar eventos transaccionales y acceder a mensajes transaccionales.
+Solo los usuarios con la variable [Administración](../../administration/using/users-management.md#functional-administrators) puede configurar eventos transaccionales y acceder a mensajes transaccionales.
 
 ## Configuración y publicación de eventos {#design-and-publication}
 
@@ -41,7 +41,7 @@ Al configurar y publicar eventos transaccionales, algunos de los pasos que debe 
 
 ## Número de mensajes transaccionales {#transactional-message-number}
 
-El número de mensajes transaccionales publicados puede tener un impacto significativo en su plataforma. Para obtener un rendimiento óptimo, el número de mensajes transaccionales publicados debe permanecer por debajo de 100. Para garantizar esto, cancele la publicación o elimine los mensajes transaccionales no utilizados. Consulte [Cancelación de la publicación de un mensaje transaccional](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) y [Eliminación de un mensaje transaccional](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message).
+El número de mensajes transaccionales publicados puede tener un impacto significativo en su plataforma. Para obtener un rendimiento óptimo, el número de mensajes transaccionales publicados debe permanecer por debajo de 100. Para garantizar esto, cancele la publicación o elimine los mensajes transaccionales que no se hayan utilizado. Consulte [Cancelación de la publicación de un mensaje transaccional](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) y [Eliminación de un mensaje transaccional](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message).
 
 Para garantizar el mejor rendimiento, también puede cancelar la publicación o eliminar eventos que no se hayan utilizado. De hecho, cancelar la publicación o eliminar un evento también cancelará la publicación o eliminación de los mensajes transaccionales correspondientes, y de sus registros de envío y seguimiento, si los hubiera. Consulte [Cancelación de la publicación de un evento](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) y [Eliminación de un evento](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
@@ -51,20 +51,20 @@ La forma de personalizar el contenido de un mensaje depende del tipo de mensaje 
 
 ### Mensajes transaccionales basados en eventos
 
-* La información de personalización proviene de los datos contenidos en el propio evento. Consulte [Configuración de mensaje transaccional basada en eventos](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
-* **no puede** utilizar **[!UICONTROL Unsubscription link]** bloques de contenido en un mensaje transaccional de evento.
+* La información de personalización proviene de los datos contenidos en el propio evento. Consulte [Configuración de mensajes transaccionales basados en eventos](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
+* You **cannot** use **[!UICONTROL Unsubscription link]** bloques de contenido en un mensaje transaccional de evento.
 * Se supone que la mensajería transaccional basada en eventos utiliza solamente los datos que se encuentran en el evento enviado para definir el destinatario y la personalización del contenido del mensaje. Sin embargo, puede enriquecer el contenido de su mensaje transaccional con información de la base de datos de Adobe Campaign. Consulte [Enriquecimiento de un evento](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) y [Personalización de un mensaje transaccional](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
 * Como los mensajes transaccionales de eventos no contienen información sobre perfiles, no son compatibles con las normas de fatiga, incluso en el caso de un enriquecimiento con perfiles.
 
 ### Mensajes transaccionales basados en perfil
 
-* La información de personalización puede proceder de los datos contenidos en el evento o del registro de perfiles conciliado. Consulte [Configuración de mensaje transaccional basada en perfiles](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) y [Características específicas de mensaje transaccional basado en perfiles](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities).
-* **puede** utilizar **[!UICONTROL Unsubscription link]** bloques de contenido en un mensaje transaccional de perfil. Consulte [Adición de un bloque de contenido](../../designing/using/personalization.md#adding-a-content-block).
+* La información de personalización puede proceder de los datos contenidos en el evento o del registro de perfiles conciliado. Consulte [Configuración de mensaje transaccional basado en perfiles](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) y [Características específicas de los mensajes transaccionales basados en perfiles](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities).
+* You **can** use **[!UICONTROL Unsubscription link]** bloques de contenido en un mensaje transaccional de perfil. Consulte [Adición de un bloque de contenido](../../designing/using/personalization.md#adding-a-content-block).
 * Las reglas de fatiga son compatibles con los mensajes transaccionales de perfil. Consulte [Reglas de fatiga](../../sending/using/fatigue-rules.md).
 
 ### Listas de productos
 
-Tenga en cuenta que las listas de productos solo están disponibles en **mensajes de correo electrónico** transaccionales. Consulte [Uso de listas de productos en un mensaje transaccional](../../designing/using/using-product-listings.md).
+Tenga en cuenta que las listas de productos están disponibles en las transacciones **mensajes de correo electrónico** solo. Consulte [Uso de listas de productos en un mensaje transaccional](../../designing/using/using-product-listings.md).
 
 ## Promoción de la marca {#permissions-and-branding}
 

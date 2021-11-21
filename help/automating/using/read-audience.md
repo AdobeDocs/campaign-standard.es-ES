@@ -41,7 +41,7 @@ La actividad **[!UICONTROL Read audience]** es una versión más sencilla de la 
 
    Puede recuperar audiencias de los siguientes tipos: **[!UICONTROL List]**, **[!UICONTROL Query]**, **[!UICONTROL File]** y **[!UICONTROL Experience Cloud]**. Para obtener más información sobre los tipos de audiencia, consulte la documentación de [Audiencias](../../audiences/using/about-audiences.md).
 
-   La opción **[!UICONTROL Use a dynamic audience]** permite definir el nombre de la audiencia a quien se dirige en función de las variables de eventos del flujo de trabajo. Para obtener más información, consulte la sección [esta página](../../automating/using/customizing-workflow-external-parameters.md) .
+   La opción **[!UICONTROL Use a dynamic audience]** permite definir el nombre de la audiencia a quien se dirige en función de las variables de eventos del flujo de trabajo. Para obtener más información, consulte [esta página](../../automating/using/customizing-workflow-external-parameters.md) para obtener más información.
 
    ![](assets/readaudience_activity1.png)
 

@@ -22,17 +22,17 @@ Utilice la interfaz de Adobe Campaign para realizar un seguimiento de sus suscri
 Tiene varias opciones para controlar las suscripciones a y las bajas de suscripción:
 
 * Vea la lista de personas suscritas a su servicio actualmente desde el panel de servicios. Consulte [Panel de servicio](#service-dashboard).
-* Consulte el historial de suscripciones y bajas de suscripción en la pestaña **Subscription history** del panel de servicios. Consulte [Historial de suscripciones](#subscription-history).
-* Visualice un informe que detalle la evolución de las suscripciones y las bajas de suscripción en el servicio **Reports**. Consulte [Informes de servicio](#service-reports).
-* Encuentre la lista de servicios que una persona ha suscrito desde su **Perfil**. Consulte [Historial de eventos vinculados a un perfil](#history-of-events-linked-to-a-profile).
+* Consulte el historial de suscripciones y bajas de suscripción desde la **Historial de suscripciones** en el panel de servicios. Consulte [Historial de suscripciones](#subscription-history).
+* Mostrar un informe que detalle la evolución de las suscripciones y las bajas de suscripción del servicio **Informes**. Consulte [Informes de servicio](#service-reports).
+* Encuentre la lista de servicios que una persona ha suscrito de su **Perfil**. Consulte [Historial de eventos vinculados a un perfil](#history-of-events-linked-to-a-profile).
 
 ## Panel de servicio {#service-dashboard}
 
 Para ver la lista de personas suscritas a un servicio:
 
-1. Vaya a la lista de servicios a través del menú avanzado **Profiles &amp; audiences** > **Services**, al que se puede acceder desde el logotipo de Adobe Campaign.
+1. Vaya a la lista de servicios a través del menú avanzado **Perfiles y audiencias** > **Servicios**, a la que se puede acceder desde el logotipo de Adobe Campaign.
 1. Seleccione el servicio que desee para mostrar el panel correspondiente.
-1. La lista de personas suscritas al servicio se encuentra en la pestaña **Subscriptions**.
+1. La lista de personas suscritas al servicio se encuentra en la **Suscripciones** pestaña .
 
 ![](assets/lp_monitoring_subscriptions_1.png)
 
@@ -40,9 +40,9 @@ Para ver la lista de personas suscritas a un servicio:
 
 Para consultar el historial de suscripción y baja:
 
-1. Vaya a la lista de servicios a través del menú avanzado **Profiles &amp; audiences** > **Services**, al que se puede acceder desde el logotipo de Adobe Campaign.
+1. Vaya a la lista de servicios a través del menú avanzado **Perfiles y audiencias** > **Servicios**, a la que se puede acceder desde el logotipo de Adobe Campaign.
 1. Seleccione el servicio que desee para mostrar el panel correspondiente.
-1. Seleccione la pestaña **Subscription history** para mostrar las fechas en las que cada persona se suscribió y canceló la suscripción.
+1. Seleccione el **Historial de suscripciones** para mostrar las fechas en las que cada persona se suscribió y canceló la suscripción.
 
 ![](assets/lp_monitoring_subscriptions_2.png)
 
@@ -50,18 +50,18 @@ Para consultar el historial de suscripción y baja:
 
 Para mostrar un informe que detalle la evolución de las suscripciones y las bajas de suscripción:
 
-1. Vaya a la lista de servicios a través del menú avanzado **Profiles &amp; audiences** > **Services**, al que se puede acceder desde el logotipo de Adobe Campaign.
+1. Vaya a la lista de servicios a través del menú avanzado **Perfiles y audiencias** > **Servicios**, a la que se puede acceder desde el logotipo de Adobe Campaign.
 1. Seleccione el servicio que desee para mostrar el panel correspondiente.
-1. Haga clic en el botón **Reports** de la barra de acciones y, a continuación, haga clic en **Subscription monitoring** en la pantalla de selección.
+1. Haga clic en el **Informes** en la barra de acciones y, a continuación, **Supervisión de suscripciones** en la pantalla de selección.
 
    ![](assets/lp_monitoring_subscriptions_3.png)
 
-1. El informe **Service summary** presenta el número de suscripciones, la evolución general de las suscripciones y una curva que muestra el progreso a lo largo del tiempo.
+1. La variable **Resumen del servicio** presenta el número de suscripciones, la evolución general de las suscripciones y una curva que muestra el progreso a lo largo del tiempo.
 
 ![](assets/lp_monitoring_subscriptions_4.png)
 
 ## Historial de eventos vinculados a un perfil {#history-of-events-linked-to-a-profile}
 
-Para consultar la lista de servicios a los que se ha suscrito un contacto, puede consultar su historial de marketing. Para obtener más información, consulte la sección [Perfil de cliente integrado](../../audiences/using/integrated-customer-profile.md) .
+Para consultar la lista de servicios a los que se ha suscrito un contacto, puede consultar su historial de marketing. Para obtener más información, consulte [Perfil de cliente integrado](../../audiences/using/integrated-customer-profile.md) para obtener más información.
 
 ![](assets/lp_monitoring_subscriptions_5.png)

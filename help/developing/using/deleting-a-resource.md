@@ -17,7 +17,7 @@ ht-degree: 14%
 
 # Eliminación de un recurso{#deleting-a-resource}
 
-Para eliminar un recurso, el recurso en cuestión debe ser **[!UICONTROL Draft]**. El recurso está en estado **[!UICONTROL Draft]** si:
+Para eliminar un recurso, el recurso en cuestión debe ser un **[!UICONTROL Draft]**. El recurso se encuentra en **[!UICONTROL Draft]** status if:
 
 * Acaba de crearse y aún no se ha publicado.
 * Si ya se ha publicado, el recurso debe volver a redactarse.
@@ -43,13 +43,13 @@ Para volver a redactar y eliminar un recurso publicado:
 
    >[!NOTE]
    >
-   >Si vuelve a redactar una extensión del recurso predeterminado **Profiles (profile)** , también debe volver a redactar cualquier extensión **Test profile (seedMember)** que haya definido. Para obtener más información sobre la ampliación del recurso de perfil, consulte [esta sección](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
+   >Si vuelve a redactar una extensión de la lista predeterminada **Perfiles (perfil)** recurso, también debe volver a redactar cualquier **Perfil de prueba (seedMember)** extensión que haya definido. Para obtener más información sobre la ampliación del recurso de perfil, consulte [esta sección](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
 
 1. Publique el recurso. Para ver los pasos más detallados, consulte [Publicación de un recurso personalizado](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 
-   A continuación, el recurso entra en modo **Borrador** y su estado de activación es **[!UICONTROL Inactive]**.
+   A continuación, el recurso entra en **Borrador** y su estado de activación es **[!UICONTROL Inactive]**.
 
-1. En el modo **[!UICONTROL List]**, compruebe el recurso que desea eliminar y haga clic en el icono ![](assets/delete_darkgrey-24px.png) **[!UICONTROL Delete element]**.
+1. En **[!UICONTROL List]** , compruebe el recurso que desea eliminar y haga clic en el ![](assets/delete_darkgrey-24px.png) **[!UICONTROL Delete element]** icono.
 
    ![](assets/schema_extension_uc28.png)
 

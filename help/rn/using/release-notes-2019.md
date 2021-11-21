@@ -17,7 +17,7 @@ ht-degree: 9%
 
 # Notas de la versión 2019{#release-notes-2019}
 
-[Planificación de versiones](https://helpx.adobe.com/es/campaign/kb/acs-release-planning.html)  | Versiones de  [Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=es)  |  [Actualizaciones de documentación](../../rn/using/documentation-updates.md)  |  [Últimas notas de la versión](../../rn/using/release-notes.md)  | Funciones  [obsoletas](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=es#release-notes)
+[Planificación de versiones](https://helpx.adobe.com/es/campaign/kb/acs-release-planning.html) | [Versiones de Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=es) | [Actualizaciones de documentación](../../rn/using/documentation-updates.md) | [Últimas notas de la versión](../../rn/using/release-notes.md) | [Funciones obsoletas](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=es#release-notes)
 
 ## Versión 19.4: diciembre de 2019 {#release-19-4---october-2019}
 
@@ -36,7 +36,7 @@ ht-degree: 9%
    <ul>
     <li>Derecho de acceso y derecho de eliminación: estamos aprovechando las capacidades agregadas para el RGPD. <a href="https://helpx.adobe.com/content/help/es/campaign/kb/acs-privacy.html#righttoaccess">Más información</a> </li>
     <li><p>Al crear una solicitud de privacidad, se ha agregado el tipo de regulación (RGPD o CCPA) en el servicio principal de privacidad. Este método es el que debe utilizar para todas las solicitudes de acceso y eliminación. El uso de la API y la interfaz de Campaign para las solicitudes de acceso y eliminación quedará obsoleto.  Consulte el artículo <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">Funciones obsoletas y eliminadas</a>.</p></li>
-    <li>Se ha agregado un campo <strong>Exclusión de CCPA</strong> al recurso Perfiles para permitir a los usuarios de Adobe Campaign realizar un seguimiento sobre si un consumidor se ha excluido de la venta de Información personal. <a href="https://helpx.adobe.com/es/content/help/es-ES/campaign/kb/acs-privacy.html#ccpa">Más información</a>.</li>
+    <li>A <strong>Exclusión de CCPA</strong> se ha agregado al recurso Perfiles para permitir a los usuarios de Adobe Campaign realizar un seguimiento de si el consumidor se ha excluido de la venta de Información personal. <a href="https://helpx.adobe.com/es/content/help/es-ES/campaign/kb/acs-privacy.html#ccpa">Más información</a>.</li>
   </ul>
     <p>Consulte el vídeo de <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">procedimiento</a>.</p>
 </td> 
@@ -62,12 +62,12 @@ ht-degree: 9%
 
 **Mejoras**
 
-* La ventana emergente de consentimiento para los informes dinámicos se ha actualizado para incluir la integración de Adobe Campaign Standard y Microsoft Dynamics 365. Al aceptar los términos, los datos de perfil se incluirán al utilizar la integración de Adobe Campaign Standard con Microsoft Dynamics 365 y los informes dinámicos. [Más información](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)  (CAMP-29766)
+* La ventana emergente de consentimiento para los informes dinámicos se ha actualizado para incluir la integración de Adobe Campaign Standard y Microsoft Dynamics 365. Al aceptar los términos, los datos de perfil se incluirán al utilizar la integración de Adobe Campaign Standard/Microsoft Dynamics 365 y los informes dinámicos. [Más información](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
 * Se ha corregido un problema que mostraba fechas de contacto incorrectas al recibir alertas de entrega.
 * Cuando se envía un evento de mensaje transaccional con un parámetro de contexto desconocido, Campaign ahora devuelve un mensaje de error &quot;400&quot; en lugar de &quot;500&quot;. (CAMP-28632)
-* Se ha añadido un nuevo segmento **Exclude proof** en los informes dinámicos. Este segmento ahora está seleccionado de forma predeterminada para filtrar los informes. [Más información](../../reporting/using/list-of-components-.md#segments)
-* Se ha añadido la opción **Message expiration** a la notificación push. Le permite especificar una fecha de caducidad en la que Apple (APNS) o Android (FCM) ya no enviarán el mensaje. [Más información](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
-* Se han realizado mejoras en la actividad **Load file**: los registros de flujo de trabajo se han simplificado para proporcionar información más clara y detallada sobre el error que se produce cuando un archivo no se puede cargar. Se ha cambiado el nombre de la transición saliente generada al activar la opción **Keep the rejects in a file** a **Rejects**. [Más información](../../automating/using/load-file.md)
+* Un nuevo **Excluir prueba** se ha añadido en los informes dinámicos. Este segmento ahora está seleccionado de forma predeterminada para filtrar los informes. [Más información](../../reporting/using/list-of-components-.md#segments)
+* La variable **Caducidad del mensaje** se ha añadido a la notificación push. Le permite especificar una fecha de caducidad en la que Apple (APNS) o Android (FCM) ya no enviarán el mensaje. [Más información](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
+* Se han realizado mejoras en el **Cargar archivo** actividad: los registros de flujo de trabajo se han simplificado para proporcionar información más clara y detallada sobre el error que se produce cuando un archivo no se puede cargar. La transición saliente generada al activar el **Mantener los rechazos en un archivo** se ha cambiado el nombre de la opción **Rechazos**. [Más información](../../automating/using/load-file.md)
 * Se han agregado registros relacionados multilingües a los registros de envío para comprender mejor los errores de envío debido a que faltan idiomas en los archivos CSV cargados.
 
 **Mejoras de seguridad**
@@ -80,20 +80,20 @@ ht-degree: 9%
 
 * Se ha corregido un problema que impedía el seguimiento de los vínculos de baja, suscripción y página de aterrizaje al insertarlos en un correo electrónico. (CAMP-37809)
 * Se ha corregido un problema que podía provocar errores al crear un nuevo correo electrónico y seleccionar una plantilla. (CAMP-38000)
-* Al editar un vínculo con el Diseñador de correo electrónico, ahora puede utilizar la opción **Subrayado de enlace**. Además, se ha agregado una propiedad **Target** con el valor predeterminado establecido en **None**. [Más información](../../designing/using/styles.md#about-styling-links)
+* Al editar un vínculo con el Diseñador de correo electrónico, ahora puede usar la variable **Vínculo de subrayado** . Además, un **Target** se ha añadido la propiedad con el valor predeterminado establecido en **Ninguna**. [Más información](../../designing/using/styles.md#about-styling-links)
 * Se ha corregido un problema de color en los vínculos de los componentes de texto del cuerpo de un correo electrónico. (CAMP-37330)
 * Se ha corregido un problema que impedía que se eliminaran los vínculos asociados al eliminar una imagen. (CAMP-37234)
-* Se ha corregido un problema que impedía guardar las modificaciones en la configuración **Order** del contenido dinámico en una condición. (CAMP-36883)
+* Se ha corregido un problema que impedía guardar las modificaciones en la variable **Pedido** configuración del contenido dinámico en una condición. (CAMP-36883)
 * Se ha corregido un problema que se producía al buscar páginas de aterrizaje. La búsqueda se ha ampliado de los 50 primeros creados a toda la base de datos. (CAMP-36839)
-* Se ha corregido un problema al guardar modificaciones en el remitente del correo electrónico en el **Desde: Campo Name**. (CAMP-36606)
+* Se ha corregido un problema que se producía al guardar modificaciones en el remitente del correo electrónico en la variable **De: Nombre** campo . (CAMP-36606)
 * La advertencia de compatibilidad con componentes de carrusel se ha modificado para reflejar los clientes de correo electrónico admitidos.
 * Se ha corregido un problema de visualización en dispositivos móviles. El atributo height ahora siempre se establece en &quot;altura: auto&quot; al agregar o cargar una imagen nueva en un correo electrónico. (CAMP-35497)
 * Se ha corregido un problema que dejaba etiquetas meta y de estilo en el HTML al eliminar un fragmento de un componente de estructura. (CAMP-35390)
 * Se ha corregido un problema con los fragmentos al actualizar contenido reutilizable. (CAMP-35186)
 * Se ha corregido un problema que se producía al mostrar solo contenido condicional móvil en correos electrónicos. (CAMP-35155)
 * Se ha corregido un problema que mostraba aleatoriamente espacios de no separación de ancho cero. (CAMP-35116)
-* Se ha corregido un problema con la posición de los botones en el cuadro de diálogo **Guardar como fragmento**.
-* Se ha corregido un problema con la vista previa al agregar una etiqueta HTML en un título de imagen y texto alternativo.
+* Se ha corregido un problema con la posición de los botones en la variable **Guardar como fragmento** para abrir el Navegador.
+* Se ha corregido un problema con la vista previa al agregar una etiqueta de HTML en un título de imagen y texto alternativo.
 * Se ha corregido un problema al editar, en el Diseñador de correo electrónico, vínculos creados en correos electrónicos del editor heredado.
 * Se ha corregido un problema que dejaba etiquetas de estilo duplicadas en el contenido.
 * Se ha corregido un problema con el formato de fecha al insertar un campo de personalización en un correo electrónico.
@@ -108,11 +108,11 @@ ht-degree: 9%
 * El intervalo de tiempo predeterminado para el cual se muestran los datos en las páginas KPI de envío y en la página Informes dinámicos se ha alineado para evitar discrepancias en los resultados de los informes. (CAMP-35148)
 * Se ha añadido un mensaje de error en los registros cuando caduca el certificado de la aplicación.
 * La previsualización del cálculo de carga útil ahora incluye un tamaño de campo personalizado para evitar errores de notificaciones push. (CAMP-35303)
-* El nombre del **Rejects file** en la actividad **Load file** ahora se puede personalizar del mismo modo que en la actividad **File export**.
+* El nombre del **Rechaza archivo** en el **Cargar archivo** la actividad ahora se puede personalizar en la misma era que en la **Exportación de archivos** actividad.
 * Ahora se puede acceder a todas las entidades personalizadas que no están vinculadas a ninguna entidad predeterminada a través de la API .
 * Se ha mejorado el rendimiento de la base de datos en recursos de gran tamaño.
 * Se han aclarado las descripciones de algunos errores que se producen al enviar mensajes SMS. (CAMP-36558)
-* Ahora aparece un mensaje de error al ejecutar la actividad **Scheduler** de un flujo de trabajo conectada a sí misma, ya sea directamente o a través de varias actividades, ya que esto podría provocar que el servidor de flujo de trabajo de la instancia se bloquee.
+* Ahora aparece un mensaje de error al ejecutar el flujo de trabajo **Planificador** actividad que está conectada a sí misma, ya sea directamente o a través de varias actividades, ya que esto podría provocar que el servidor de flujo de trabajo de la instancia se bloquee.
 * Se han realizado mejoras para ayudar a solucionar los problemas de la mensajería transaccional: se ha cambiado el nombre del vínculo &quot;Datos&quot; a &quot;Últimos eventos transaccionales&quot; en la pantalla de configuración de eventos, ahora enumera los eventos recibidos ordenados en orden descendente. Además, se ha creado un nuevo estado de evento transaccional: &quot;targetingFailed&quot;. Cuando el módulo de mensajería transaccional no enriquece un vínculo que se utiliza para la segmentación de mensajes, el evento transaccional ahora estará en este nuevo estado (en lugar del estado &quot;routingFailed&quot;).
 * Se han realizado mejoras en la interfaz al restringir el acceso de la página de aterrizaje a unidades geográficas u organizativas específicas. El propósito es advertir que la página de aterrizaje puede estar sujeta a condiciones de visibilidad: ahora es obligatorio seleccionar una unidad geográfica y organizativa al crear una página de aterrizaje. Ahora aparece un banner con información relacionada una vez seleccionada una unidad. Se ha aclarado el mensaje de error que se muestra al probar la página de aterrizaje.
 * En las API de Campaign Standard, las claves personalizadas no se pueden modificar mediante una operación de PATCH si el valor de clave es diferente de la clave de origen o si utiliza su propia clave comercial como URI en lugar de la proporcionada por Adobe.
@@ -129,16 +129,16 @@ ht-degree: 9%
 * Se ha corregido un problema al seleccionar, en una notificación push, una plantilla con una fórmula de fecha de contacto. (CAMP-35300)
 * Se ha corregido un problema que podría provocar que el servicio de envío de mensajes se bloqueara. (CAMP-35287)
 * Se ha corregido un problema con los correos directos recurrentes que se definían todos con la fecha del primer evento. (CAMP-35139)
-* Se ha corregido un problema con los recursos personalizados **Profiles** recién ampliados que no estaban disponibles para consultas. (CAMP-35119)
-* Se ha corregido el modo **Repair database structure** para instancias con la configuración de uso compartido activada. (CAMP-35118)
+* Se ha corregido un problema con la extensión de **Perfiles** recursos personalizados que no estaban disponibles para consultas. (CAMP-35119)
+* Se ha corregido la variable **Reparar estructura de la base de datos** para instancias con la configuración de uso compartido activada. (CAMP-35118)
 * Se ha corregido un problema que provocaba un error de registro SQL al agregar datos acumulados en registros generales. (CAMP-35034)
-* Se ha corregido un problema con las transiciones al crear una actividad **Segmentación**. (CAMP-35033)
-* Se ha corregido un problema en la actividad **Query** que impedía que la función **encryption_aescbcDecrypt** descifrara la función **encryption_aescbcEncrypt**. (CAMP-34952)
-* Se ha corregido un problema que podía impedir que los **Registros de seguimiento** se mostraran en los envíos. (CAMP-34855)
-* Se ha corregido un problema que se producía al utilizar una fórmula de fecha personalizada **Send time optimization** , lo que podía impedir que se enviaran notificaciones push debido a errores con los datos adicionales del flujo de trabajo. (CAMP-30336)
+* Se ha corregido un problema con las transiciones al crear una **Segmentación** actividad. (CAMP-35033)
+* Se ha corregido un problema en la variable **Consulta** actividad que impidió la **encryption_aescbcDecrypt** desde la desencriptación de la función **encryption_aescbcEncrypt** función. (CAMP-34952)
+* Se ha corregido un problema que podía impedir que se mostrara la variable **Registros de seguimiento** desde que se muestra en los envíos. (CAMP-34855)
+* Se ha corregido un problema que se producía al usar un **Optimización del tiempo de envío** fórmula de fecha personalizada, que podría evitar que se envíen notificaciones push debido a errores con los datos adicionales del flujo de trabajo. (CAMP-30336)
 * Se ha corregido un problema que podía impedir la publicación de recursos personalizados. (CAMP-37425)
 * Se ha corregido un problema que impedía a los usuarios administradores modificar paquetes de importación.  (CAMP-37176)
-* Se ha corregido un problema en flujos de trabajo que impedía que se enviaran pruebas si la actividad de envío estaba conectada a una actividad **Read audience** vacía. (CAMP-37164)
+* Se ha corregido un problema en flujos de trabajo que impedía que se enviaran pruebas si la actividad de entrega estaba conectada a un vacío **Leer audiencia** actividad. (CAMP-37164)
 * Se ha corregido un problema que impedía importar recursos personalizados en un nuevo entorno. (CAMP-36506)
 * Se ha corregido un problema en los informes de clics activos que podía provocar que los porcentajes se ocultaran en imágenes (CAMP-36407)
 * Se ha corregido un problema que se producía al intentar exportar un campo de descripción de la entrega. (CAMP-35467)
@@ -174,7 +174,7 @@ ht-degree: 9%
 
 **Mejoras en el diseñador de correo electrónico**
 
-* Se ha corregido un problema que añadía etiquetas de estilo HTML adicionales a una plantilla HTML cada vez que se agregaba un componente, lo que podía aumentar considerablemente el tamaño de la plantilla. (CAMP-34694)
+* Se ha corregido un problema que añadía etiquetas de estilo de HTML adicionales a una plantilla de HTML cada vez que se agregaba un componente, lo que podía aumentar considerablemente el tamaño de la plantilla. (CAMP-34694)
 * Se ha corregido un problema que podía impedir que algunas opciones de menú de la barra de herramientas superior derecha estuvieran disponibles. (CAMP-34577)
 * Se ha corregido un problema que se producía cuando el bloque de contenido de la URL de la página espejo se insertaba en un contenido de correo electrónico. (CAMP-34779)
 * Se ha corregido un problema que se producía al usar código JSPP en un correo electrónico, lo que dificultaba la edición del contenido. (CAMP-34574)
@@ -185,7 +185,7 @@ ht-degree: 9%
 * Se ha corregido un problema que podía impedir que el campo Vínculo se mostrara en el panel Configuración del Diseñador de correo electrónico (CAMP-33749).
 * Se ha corregido un problema con el icono de YouTube que se superaba de tamaño en los correos electrónicos enviados. (CAMP-33726)
 * Se ha corregido un problema de seguridad que hacía que el contenido de la página espejo se pudiera editar. (CAMP-33691)
-* Se ha corregido un problema que rompía la salida HTML al usar el símbolo bueno que en el contenido dinámico. (CAMP-33688)
+* Se ha corregido un problema que rompía la salida del HTML al usar el símbolo bueno que en el contenido dinámico. (CAMP-33688)
 * Se ha corregido un problema que se producía al utilizar la opción Deshacer al editar texto en el Diseñador de correo electrónico. (CAMP-32565)
 * Se ha corregido un problema que creaba etiquetas adicionales al deshacer estilos en lugar de eliminarlos. (CAMP-32359)
 * Ahora puede definir si cada componente utilizado en un correo electrónico se mostrará solo en dispositivos de escritorio o solo en dispositivos móviles.
@@ -202,14 +202,14 @@ ht-degree: 9%
 **Otras mejoras**
 
 * A través de la integración con Adobe Experience Platform Location Services, Adobe Campaign ahora es compatible para enviar mensajes de marketing basados en la ubicación a los suscriptores de la aplicación móvil mediante el SDK de Experience Platform. Para obtener más información, consulte la [documentación detallada](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md).
-* La función de informes se ha mejorado para mejorar la experiencia. Para utilizar esta función, debe aceptar el Acuerdo de uso de informes dinámicos. Para obtener más información, consulte la [documentación detallada](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
-* En los flujos de trabajo, se ha añadido una nueva opción para previsualizar las siguientes diez ejecuciones de un flujo de trabajo. Para obtener más información, consulte la [documentación detallada](../../automating/using/scheduler.md).
-* En la actividad Planificador , una nueva opción le permite seleccionar un día específico de una semana específica para los envíos mensuales. Para obtener más información, consulte la [documentación detallada](../../automating/using/scheduler.md).
-* Al crear envíos recurrentes sin periodo de acumulación, el panel de envío ahora le permite solicitar confirmación antes de realizar la entrega. Para obtener más información, consulte la [documentación detallada](../../sending/using/confirming-the-send.md).
-* Ahora puede personalizar la etiqueta de una entrega con variables de evento que se han declarado en la actividad de señal externa del flujo de trabajo. Para obtener más información, consulte la [documentación detallada](../../automating/using/calling-a-workflow-with-external-parameters.md).
+* La función de informes se ha mejorado para mejorar la experiencia. Para utilizar esta función, debe aceptar el Acuerdo de uso de informes dinámicos. Para obtener más información, consulte [documentación detallada](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
+* En los flujos de trabajo, se ha añadido una nueva opción para previsualizar las siguientes diez ejecuciones de un flujo de trabajo. Para obtener más información, consulte [documentación detallada](../../automating/using/scheduler.md).
+* En la actividad Planificador , una nueva opción le permite seleccionar un día específico de una semana específica para los envíos mensuales. Para obtener más información, consulte [documentación detallada](../../automating/using/scheduler.md).
+* Al crear envíos recurrentes sin periodo de acumulación, el panel de envío ahora le permite solicitar confirmación antes de realizar la entrega. Para obtener más información, consulte [documentación detallada](../../sending/using/confirming-the-send.md).
+* Ahora puede personalizar la etiqueta de una entrega con variables de evento que se han declarado en la actividad de señal externa del flujo de trabajo. Para obtener más información, consulte [documentación detallada](../../automating/using/calling-a-workflow-with-external-parameters.md).
 * La consulta de eliminación del RGPD se ha mejorado para un mejor rendimiento. (CAMP-33504)
 * La opción &quot;ftp&quot; se ha eliminado de la interfaz de configuración de cuentas externas. (CAMP-34472)
-* Ahora puede activar y desactivar la opción del modo de prueba SMTP para cada mensaje de correo electrónico. Para obtener más información, consulte la [documentación detallada](../../administration/using/configuring-email-channel.md#smtp-test-mode). (CAMP-34602)
+* Ahora puede activar y desactivar la opción del modo de prueba SMTP para cada mensaje de correo electrónico. Para obtener más información, consulte [documentación detallada](../../administration/using/configuring-email-channel.md#smtp-test-mode). (CAMP-34602)
 
 **Otros cambios**
 
@@ -278,7 +278,7 @@ ht-degree: 9%
 Se ha introducido una serie de mejoras y correcciones para optimizar los fragmentos en la versión 19.2. Los fragmentos recién creados funcionarán sin problemas. Los fragmentos creados anteriormente han quedado atenuados y deben migrarse al nuevo formato. Para ello, haga clic en cada fragmento y valide su migración al nuevo formato. Se recomienda probar algunos fragmentos antes de migrarlos todos.
 
 * Se ha corregido un problema que impedía a los usuarios editar un fragmento después de desbloquearlo. Esto afectaba a los fragmentos existentes al actualizar a la versión 19.2. (CAMP-33778)
-* Se ha corregido un problema que se producía al usar contenido dinámico. Se agregaron espacios adicionales en el HTML.
+* Se ha corregido un problema que se producía al usar contenido dinámico. Se agregaron espacios adicionales en el HTML .
 
 **Otras mejoras**
 
@@ -312,7 +312,7 @@ Se ha introducido una serie de mejoras y correcciones para optimizar los fragmen
   </tr> 
   <tr> 
    <td> Mejora del flujo de trabajo: Añada una carga útil a la actividad de señal externa<br /> </td> 
-   <td> <p>Inicie un flujo de trabajo con una carga útil cuando las condiciones definidas se cumplan correctamente desde otro flujo de trabajo o una llamada a la API de REST para integrarse con los sistemas externos. Esto también incluye una nueva actividad <strong>test</strong> donde puede ejecutar pruebas en esta funcionalidad.</p><p>Para obtener más información, consulte la <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">documentación detallada</a> y el <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html">videotutorial</a>.</p></td> 
+   <td> <p>Inicie un flujo de trabajo con una carga útil cuando las condiciones definidas se cumplan correctamente desde otro flujo de trabajo o una llamada a la API de REST para integrarse con los sistemas externos. Esto también incluye una nueva <strong>prueba</strong> actividad en la que puede ejecutar pruebas con esta funcionalidad.</p><p>Para obtener más información, consulte la <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">documentación detallada</a> y el <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html">videotutorial</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Mejora de las páginas de aterrizaje: Google reCAPTCHA<br /> </td> 
@@ -329,7 +329,7 @@ Se ha introducido una serie de mejoras y correcciones para optimizar los fragmen
 
 * Se ha corregido un problema que se producía al duplicar fragmentos e intentar utilizarlos en el Diseñador de correo electrónico. (CAMP-33193)
 * Se ha corregido un problema que creaba espacios no deseados al usar elementos en línea en la interfaz del Diseñador de correo electrónico. (CAMP-32163)
-* Se ha corregido un problema que eliminaba algunos atributos de etiqueta HTML adicionales añadidos por el usuario después de guardar contenido de correo electrónico en el Diseñador de correo electrónico. (CAMP-32162)
+* Se ha corregido un problema que eliminaba algunos atributos de etiqueta de HTML adicionales añadidos por el usuario después de guardar contenido de correo electrónico en el Diseñador de correo electrónico. (CAMP-32162)
 * Se ha corregido un problema que mostraba una etiqueta de Microsoft Office en el modo HTML del Diseñador de correo electrónico incluso después de quitarla. (CAMP-32141)
 * Si ha creado un correo electrónico con una versión anterior del Diseñador de correo electrónico, al abrir este contenido de correo electrónico, una ventana emergente ahora solicita al usuario que actualice a la versión más reciente. (CAMP-31529)
 * Se ha corregido un problema que podía distorsionar imágenes de un correo electrónico creado con el Diseñador de correo electrónico cuando se enviaba a algunos clientes de mensajería. (CAMP-31407)
@@ -342,7 +342,7 @@ Se ha introducido una serie de mejoras y correcciones para optimizar los fragmen
 * Se ha corregido un problema que impedía que los fragmentos se cargaran en la paleta izquierda del Diseñador de correo electrónico.
 * Se ha corregido un problema que impedía que los fragmentos creados durante la edición de contenido de correo electrónico se mostraran en la paleta izquierda del Diseñador de correo electrónico al actualizar la lista de fragmentos.
 * Se han corregido varios problemas que se producían al usar contenido dinámico en un correo electrónico.
-* Se ha corregido un problema que se producía con el selector de color al intentar definir un color mediante valores RGB.
+* Se ha corregido un problema que se producía con el selector de color al intentar definir un color mediante valores de RGB.
 * Se ha corregido un problema que impedía que la página espejo respondiera al recibir el correo electrónico en un móvil.
 
 **Mejoras en la mensajería transaccional**
@@ -354,13 +354,13 @@ Se han añadido varias mejoras al canal de mensajería transaccional para optimi
 * El proceso de mensajería transaccional se ha optimizado para poder iniciarse en análisis múltiples paralelos del mismo mensaje.
 * Se ha corregido un problema que podría provocar un rendimiento y latencia incoherentes en las notificaciones push transaccionales.
 * Se ha corregido un problema que mostraba una audiencia de destino incorrecta para las entregas de ejecución de mensajes transaccionales.
-* Se ha corregido un problema que se producía al importar un paquete con una configuración de evento y el mensaje transaccional asociado. Para obtener más información, consulte la [documentación detallada](../../channels/using/getting-started-with-transactional-msg.md#exporting-and-importing-transactional-messages).
+* Se ha corregido un problema que se producía al importar un paquete con una configuración de evento y el mensaje transaccional asociado. Para obtener más información, consulte [documentación detallada](../../channels/using/getting-started-with-transactional-msg.md#exporting-and-importing-transactional-messages).
 * Se ha corregido un problema que eliminaba los datos de recopilación de los perfiles de prueba creados para un mensaje transaccional que contenía listas de productos.
 
 **Otros cambios**
 
-* Se ha añadido una nueva opción a la cuenta externa de SMS. Permite limitar el número máximo de procesos MTA que envían SMS para controlar mejor el número de conexiones paralelas. Para obtener más información, consulte la nota técnica [SMS connector protocol and settings](https://helpx.adobe.com/es/campaign/kb/sms-connector-protocol-and-settings.html) .
-* Al publicar un recurso con extensión de API, si la API ya se ha publicado, ahora se actualiza automáticamente cada vez que se vuelve a publicar. Anteriormente, esta acción era manual y, al no actualizar la API, se podía dañar el perfil o el recurso de servicio de esta API. Para obtener más información, consulte la [documentación detallada](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension).
+* Se ha añadido una nueva opción a la cuenta externa de SMS. Permite limitar el número máximo de procesos MTA que envían SMS para controlar mejor el número de conexiones paralelas. Para obtener más información, consulte [Protocolo y configuración del conector SMS](https://helpx.adobe.com/es/campaign/kb/sms-connector-protocol-and-settings.html) nota técnica.
+* Al publicar un recurso con extensión de API, si la API ya se ha publicado, ahora se actualiza automáticamente cada vez que se vuelve a publicar. Anteriormente, esta acción era manual y, al no actualizar la API, se podía dañar el perfil o el recurso de servicio de esta API. Para obtener más información, consulte [documentación detallada](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension).
 * La dimensión Código postal se ha eliminado de los informes dinámicos. En su lugar, se recomienda utilizar dimensiones de ciudad, país y estado.
 * Se ha eliminado el déclencheur de evento &quot;Primer lanzamiento&quot; del ciclo vital para los mensajes en la aplicación.
 * Al exportar un paquete con grupos de seguridad, ahora contiene las funciones asignadas a cada grupo. (CAMP-32960)
@@ -381,7 +381,7 @@ Se han añadido varias mejoras al canal de mensajería transaccional para optimi
 * Se ha corregido un error que provocaba que fallara el flujo de trabajo de uso compartido de informes .
 * Se ha corregido un error que impedía a los usuarios enviar mensajes en la aplicación solo con la URL de medios.
 * Se ha corregido un problema que mostraba una aplicación móvil aunque su certificado no se hubiera cargado en la instancia.
-* Se ha corregido un error que impedía que los campos de personalización funcionaran al usar la plantilla **Dirigirse a todos los usuarios de una aplicación móvil**.
+* Se ha corregido un error que impedía que los campos de personalización funcionaran al usar la variable **Dirigirse a todos los usuarios de una aplicación móvil** plantilla.
 * Se aprovisionaron nuevas instancias de Campaign Standard. (CAMP-32635 y CAMP-32344)
 * Se ha corregido un error que impedía la personalización de la fórmula de fecha en un flujo de trabajo. (CAMP-30336)
 * Se ha corregido un problema al definir una fórmula de fecha personalizada que podía impedir que los campos &quot;Datos adicionales&quot; y &quot;Código de segmento&quot; estuvieran disponibles en la lista desplegable. (CAMP-32383)
@@ -426,19 +426,19 @@ Se han añadido varias mejoras al canal de mensajería transaccional para optimi
   </tr> 
   <tr> 
    <td> Integración de Launch para aplicaciones móviles<br /> </td> 
-   <td> <p>Esta versión contiene la integración de Adobe Campaign con las versiones GA de las extensiones Android e iOS para Adobe Campaign Standard en Adobe Experience Platform Launch y los SDK para móviles. Estas extensiones admiten la mensajería push, la mensajería en la aplicación y las actualizaciones de perfil de aplicaciones móviles.</p><p> Para obtener más información, consulte la <a href="https://helpx.adobe.com/es/campaign/kb/configuring-app-sdk.html">documentación detallada</a>.</p> </td> 
+   <td> <p>Esta versión contiene la integración de Adobe Campaign con las versiones de GA de las extensiones Android y iOS para Adobe Campaign Standard en Adobe Experience Platform Launch y los SDK para móviles. Estas extensiones admiten la mensajería push, la mensajería en la aplicación y las actualizaciones de perfil de aplicaciones móviles.</p><p> Para obtener más información, consulte la <a href="https://helpx.adobe.com/es/campaign/kb/configuring-app-sdk.html">documentación detallada</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Mensajería en la aplicación móvil<br /> </td> 
-   <td> <p>Esta versión contiene la versión GA del canal In-App en Campaign. Desde el punto de vista funcional, las adiciones más importantes a la versión Beta son los informes dinámicos para el canal In-App y el protocolo de enlace seguro entre el SDK móvil y el MCIAS (Servicio de mensajería In-App de Marketing Cloud que sirve para las reglas del SDK). El protocolo de enlace seguro garantiza que los datos PII de los usuarios no caigan en manos malintencionadas, así como permite mantener la privacidad de los usuarios en un dispositivo compartido eliminando la caché de mensajes cada vez que el usuario cierra la sesión.</p><p>Para obtener más información, consulte la <a href="../../channels/using/about-in-app-messaging.md">documentación detallada</a> y el <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html">tutorial en la aplicación</a> dedicado.</p> </td> 
+   <td> <p>Esta versión contiene la versión GA del canal In-App en Campaign. Desde el punto de vista funcional, las adiciones más importantes a la versión Beta son los informes dinámicos para el canal In-App y el protocolo de enlace seguro entre el SDK móvil y el MCIAS (Servicio de mensajería In-App de Marketing Cloud que sirve para las reglas del SDK). El protocolo de enlace seguro garantiza que los datos PII de los usuarios no caigan en manos malintencionadas, así como permite mantener la privacidad de los usuarios en un dispositivo compartido eliminando la caché de mensajes cada vez que el usuario cierra la sesión.</p><p>Para obtener más información, consulte <a href="../../channels/using/about-in-app-messaging.md">documentación detallada</a> y el <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html">Tutorial en la aplicación</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Mejoras en el flujo de trabajo<br /> </td> 
    <td> <p>Se han añadido las siguientes capacidades de flujo de trabajo:</p> 
     <ul> 
      <li> Ahora puede copiar y pegar actividades dentro de un flujo de trabajo u otro flujo de trabajo desde la misma instancia de Campaign. De este modo, puede duplicar fácilmente un flujo de trabajo completo o actividades específicas y conservar la configuración definida inicialmente. Para obtener más información, consulte la <a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">documentación detallada</a>. (CAMP-20014) </li> 
-     <li> Al utilizar la actividad <strong>Load file</strong>, ahora puede agregar una marca de tiempo al nombre del archivo que contiene los registros rechazados. Para obtener más información, consulte la <a href="../../automating/using/load-file.md#configuration">documentación detallada</a>. </li> 
-     <li> <strong>Las actividades </strong> Consulta y  <strong></strong> Segmentación ahora permiten habilitar una transición saliente si las actividades no recuperan datos. </li> 
+     <li> Al usar la variable <strong>Cargar archivo</strong> , ahora puede agregar una marca de tiempo al nombre del archivo que contiene los registros rechazados. Para obtener más información, consulte la <a href="../../automating/using/load-file.md#configuration">documentación detallada</a>. </li> 
+     <li> <strong>Consulta</strong> y <strong>Segmentación</strong> ahora, las actividades permiten activar una transición saliente si las actividades no recuperan datos. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -446,7 +446,7 @@ Se han añadido varias mejoras al canal de mensajería transaccional para optimi
 
 **Mejoras de seguridad**
 
-* El código HTML de la página de aterrizaje generado se ha actualizado para evitar la indexación del motor de búsqueda.
+* El código de HTML de página de aterrizaje generado se ha actualizado para evitar la indexación del motor de búsqueda.
 
 **Mejoras en el diseñador de correo electrónico**
 
@@ -469,11 +469,11 @@ Se han añadido varias mejoras al canal de mensajería transaccional para optimi
 * Ahora puede agregar canales sociales personalizados a la plantilla de correo electrónico, además de los que ya están disponibles.
 * Se ha corregido un problema que impedía desplazarse hacia abajo en el menú de estructura al utilizar más de 18 estructuras. (CAMP-31173)
 * Se ha corregido un problema que mostraba el encabezado previo sobre el contenido al reenviar un correo electrónico que contenía un encabezado previo enviado con Adobe Campaign. (CAMP-30736)
-* Se ha corregido un problema que impedía actualizar la línea de asunto al hacer clic en la opción **Actualizar AEM contenido** después de modificar el asunto en Adobe Experience Manager. (CAMP-29984)
-* Se han corregido varios problemas que impedían el uso de imágenes dinámicas de Adobe Target.
+* Se ha corregido un problema que impedía actualizar la línea de asunto al hacer clic en el botón **Actualizar AEM contenido** después de modificar el asunto en Adobe Experience Manager. (CAMP-29984)
+* Se han corregido varios problemas que evitaban el uso de imágenes dinámicas desde Adobe Target.
 * Se ha corregido un problema que impedía actualizar la vista previa al recuperar contenido en el momento de la preparación si el contenido se había importado previamente de una dirección URL.
-* El icono de YouTube se ha añadido al componente de contenido **Social**.
-* Se ha añadido la vista **List** para los componentes de contenido y los fragmentos mostrados en la paleta Diseñador de correo electrónico.
+* El icono YouTube se ha añadido a la función **Social** componente de contenido.
+* La variable **Lista** se ha añadido la vista para los componentes de contenido y los fragmentos mostrados en la paleta Diseñador de correo electrónico.
 
 **Otras mejoras**
 
@@ -488,8 +488,8 @@ Se han añadido varias mejoras al canal de mensajería transaccional para optimi
 
 **Otros cambios**
 
-* Adobe Campaign y Adobe Experience Cloud dejarán de ser compatibles con Microsoft Internet Explorer 11 a partir de la primavera de 2019 y con la versión de Campaign Standard 19.2. Cambie a Microsoft Edge u otro explorador compatible. Consulte la página [Funciones obsoletas y eliminadas](../../rn/using/deprecated-features.md).
-* Se ha cambiado el nombre del campo **Código de país** del recurso Perfil a **Código de país/región**.
+* Adobe Campaign y Adobe Experience Cloud dejarán de ser compatibles con Microsoft Internet Explorer 11 a partir de la primavera de 2019 y con la versión de Campaign Standard 19.2. Cambie a Microsoft Edge u otro explorador compatible. Consulte [Funciones obsoletas y eliminadas](../../rn/using/deprecated-features.md) página.
+* La variable **Código de país** El campo del recurso Perfil se ha cambiado a **Código de país/región**.
 
 **Parches**
 
@@ -533,7 +533,7 @@ Se han añadido varias mejoras al canal de mensajería transaccional para optimi
     <ul> 
      <li> El uso de <a href="../../integrating/using/adding-target-dynamic-content.md">imágenes dinámicas de Adobe Target</a> </li> 
      <li> La capacidad de <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">recuperar contenido de una URL automáticamente en tiempo de preparación</a> </li> 
-     <li> <a href="../../designing/using/using-reusable-content.md#content-templates">plantillas de contenido predeterminadas</a> totalmente compatibles. </li> 
+     <li> Cumple plenamente las normas <a href="../../designing/using/using-reusable-content.md#content-templates">plantillas de contenido predeterminadas</a>. </li> 
     </ul> 
     <p>Para obtener más información, consulte la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentación detallada</a> y el <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">videotutorial</a>. A continuación se enumeran las mejoras y correcciones.</p><p>Como consecuencia, el antiguo editor de contenido de correo electrónico ya no se utiliza. Para obtener más información, consulte esta <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">página</a>.</p> </td> 
   </tr> 
@@ -572,7 +572,7 @@ Se han añadido varias mejoras al canal de mensajería transaccional para optimi
 
 * Se ha corregido un problema que habilitaba la capacidad de la unidad geográfica en una plantilla de correo electrónico o un fragmento de contenido creado con el Diseñador de correo electrónico, aunque esta capacidad estuviera deshabilitada en Adobe Campaign, por lo que la plantilla o el fragmento no estaba disponible al intentar acceder de nuevo. (CAMP-28174)
 * Se ha corregido un problema que impedía guardar las condiciones de contenido dinámico al editar contenido con el Diseñador de correo electrónico. (CAMP-27905)
-* Se ha corregido un problema que eliminaba la versión HTML del contenido del correo electrónico después de editar la versión de texto sin formato de un mensaje y de romper la sincronización HTML en el Diseñador de correo electrónico. (CAMP-28507)
+* Se ha corregido un problema que eliminaba la versión del HTML del contenido del correo electrónico después de editar la versión de texto sin formato de un mensaje y de romper la sincronización del HTML en el Diseñador de correo electrónico. (CAMP-28507)
 * Se ha corregido un problema que impedía que se abriera la interfaz del Diseñador de correo electrónico al usar Internet Explorer 11. (CAMP-28273)
 * Se ha corregido un problema que distorsionaba la renderización de Microsoft Outlook de la configuración de estilo aplicada a los botones con el Diseñador de correo electrónico.
 * Se ha corregido un problema en el Diseñador de correo electrónico que hacía que se pudiera editar una dirección URL de un fragmento de contenido utilizado en un correo electrónico, lo cual no se esperaba, ya que el fragmento está bloqueado de forma predeterminada.
@@ -588,7 +588,7 @@ Se han añadido varias mejoras al canal de mensajería transaccional para optimi
 
 * Se ha corregido un problema que mostraba registros de envío incorrectos en los informes dinámicos. (CAMP-23446)
 * Se ha corregido un problema que podría afectar a los números del informe Resumen de devoluciones (CAMP-28703)
-* Se ha corregido un problema con la integración de Campaign y del servicio principal de activos que podía impedir que se mostraran recursos al seleccionar **[!UICONTROL Image shared from Adobe Experience Cloud]** en un mensaje de correo electrónico (CAMP-28732).
+* Se ha corregido un problema con la integración de Campaign y del servicio principal de activos que podía impedir que se mostraran los activos al seleccionar **[!UICONTROL Image shared from Adobe Experience Cloud]** en un correo electrónico (CAMP-28732).
 * Se ha corregido un problema que impedía que se enviaran mensajes SMS que contenían el carácter &quot;oe&quot; aunque la transliteración estuviera autorizada en la cuenta externa de SMPP. (CAMP-29041)
 * Se ha corregido un problema que podía mostrar registros duplicados al usar una actividad de segmentación en flujos de trabajo. (CAMP-28743)
 * Se ha corregido un problema que impedía eliminar una de las asignaciones de valor en una columna de una actividad de flujo de trabajo. (CAMP-28708)

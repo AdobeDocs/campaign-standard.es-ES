@@ -42,10 +42,10 @@ En este caso, asegúrese de que los siguientes elementos estén correctamente co
 
    Si se selecciona el algoritmo de codificación AES, se deben configurar correctamente los siguientes campos adicionales:
 
-   * **Clave de** cifrado para AES
-   * **Cifrado IV**  (vector de inicialización) para AES
-   * **Canal**  (correo electrónico/SMS/otro): Este campo permite descifrar directamente direcciones de correo electrónico y números SMS. Asegúrese de que la clave de reconciliación coincide con la configuración del campo **Channel**. Si selecciona &quot;Otro&quot;, este descifrado específico no se producirá y la clave de reconciliación se utilizará para reconciliar los datos.
+   * **Clave de cifrado** para AES
+   * **Cifrado IV** (Vector de inicialización) para AES
+   * **Canal** (Correo electrónico/SMS/Otros): Este campo permite descifrar directamente direcciones de correo electrónico y números SMS. Asegúrese de que la clave de reconciliación coincide con la configuración de la variable **Canal** campo . Si selecciona &quot;Otro&quot;, este descifrado específico no se producirá y la clave de reconciliación se utilizará para reconciliar los datos.
 
-   Es posible que las audiencias del Experience Cloud no se compartan porque el flujo de trabajo técnico se ha detenido o pausado. Acceda al flujo de trabajo **[!UICONTROL Import shared audience]** haciendo clic directamente en la opción **[!UICONTROL Show ImportShared Audience workflow]** de la fuente de datos.
+   Es posible que las audiencias del Experience Cloud no se compartan porque el flujo de trabajo técnico se ha detenido o pausado. Acceda a la **[!UICONTROL Import shared audience]** flujo de trabajo haciendo clic directamente en **[!UICONTROL Show ImportShared Audience workflow]** en la fuente de datos.
 
 Al importar una audiencia o compartirla mediante el servicio principal Personas, puede que falten algunos datos. Solo se transfieren los registros cuya ID (“ID de visitante” o “ID declarada”) se haya podido conciliar con la dimensión del perfil. Las ID de los segmentos del servicio principal Personas que no reconozca Adobe Campaign no se importan.

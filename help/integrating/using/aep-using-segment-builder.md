@@ -24,7 +24,7 @@ ht-degree: 3%
 
 El Generador de segmentos le permite crear audiencias definiendo reglas basadas en datos procedentes del [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
 
-Esta sección presenta conceptos globales al crear un segmento. Para obtener información detallada sobre el propio Generador de segmentos, consulte la [guía del usuario del Generador de segmentos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+Esta sección presenta conceptos globales al crear un segmento. Para obtener información detallada sobre el propio Generador de segmentos, consulte la [Guía del usuario del Generador de segmentos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
 La interfaz del Generador de segmentos se compone de la siguiente manera:
 
@@ -46,7 +46,7 @@ El Generador de segmentos debería mostrarse ahora en su espacio de trabajo. Le 
 
 1. Asegúrese de que la política de combinación deseada esté seleccionada en el panel de configuración.
 
-   Para obtener más información sobre las políticas de combinación, consulte la sección dedicada en la [guía del usuario del Generador de segmentos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+   Para obtener más información sobre las políticas de combinación, consulte la sección dedicada en la sección [Guía del usuario del Generador de segmentos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -64,7 +64,7 @@ El Generador de segmentos debería mostrarse ahora en su espacio de trabajo. Le 
 
 El panel izquierdo enumera todos los atributos, eventos y audiencias disponibles para usar en la construcción de reglas.
 
-Los campos mostrados son atributos capturados por su empresa y se han puesto a disposición a través del sistema [Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
+Los campos enumerados son atributos capturados por su empresa y se han puesto a disposición a través del [Sistema del Modelo de datos de experiencia (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
 
 Los campos se organizan en fichas:
 
@@ -78,11 +78,11 @@ Los campos se organizan en fichas:
 
 >[!NOTE]
 >
->**La** segmentación de varias entidades le permite ampliar los datos del perfil con datos adicionales basados en productos, tiendas u otras clases que no sean de perfil. Una vez conectados, los datos de clases adicionales estarán disponibles como si fueran nativos del esquema de perfil.
+>**Segmentación de varias entidades** le permite ampliar los datos de perfil con datos adicionales basados en productos, tiendas u otras clases que no sean de perfil. Una vez conectados, los datos de clases adicionales estarán disponibles como si fueran nativos del esquema de perfil.
 >
 >Para obtener más información, consulte la [documentación dedicada](https://experienceleague.adobe.com/docs/experience-platform/segmentation/multi-entity-segmentation.html).
 
-De forma predeterminada, el Generador de segmentos muestra los campos en los que los datos ya están presentes. Para mostrar el esquema completo, incluidos los campos para los que no hay datos, active la opción **[!UICONTROL Show full XDM schema]** desde la configuración.
+De forma predeterminada, el Generador de segmentos muestra los campos en los que los datos ya están presentes. Para mostrar el esquema completo, incluidos los campos para los que no hay datos, habilite la variable **[!UICONTROL Show full XDM schema]** en la configuración.
 
 ![](assets/aep_audiences_populatedfields.png)
 
@@ -94,7 +94,7 @@ El símbolo situado al final de cada campo proporciona información adicional so
 
 >[!NOTE]
 >
->La sección siguiente proporciona información global sobre la definición de reglas. Para obtener más información, consulte la [guía del usuario del Generador de segmentos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+>La sección siguiente proporciona información global sobre la definición de reglas. Para obtener más información, consulte [Guía del usuario del Generador de segmentos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
 Para generar una regla, siga estos pasos:
 
@@ -106,9 +106,9 @@ Para generar una regla, siga estos pasos:
 
    ![](assets/aep_audiences_malegender.png)
 
-   La población estimada correspondiente al segmento se vuelve a calcular automáticamente en la sección **[!UICONTROL Segment Properties]**.
+   La población estimada correspondiente al segmento se vuelve a calcular automáticamente en la variable **[!UICONTROL Segment Properties]** para obtener más información.
 
-1. El botón **[!UICONTROL View Profiles]** le proporciona una previsualización de los 20 primeros registros correspondientes a la regla, lo que le permite validar rápidamente el segmento.
+1. La variable **[!UICONTROL View Profiles]** proporciona una previsualización de los primeros 20 registros correspondientes a la regla, lo que le permite validar el segmento rápidamente.
 
    ![](assets/aep_audiences_samplepreview.png)
 
@@ -132,7 +132,7 @@ Para ello, siga estos pasos:
 
 1. Seleccione el segundo campo (por ejemplo, el código postal de la dirección de trabajo) que se comparará con el primer campo.
 
-   Arrástrela al espacio de trabajo central, en el mismo contenedor que el primer campo, en el cuadro **[!UICONTROL Drop here to compare operands]**.
+   Arrástrela al espacio de trabajo central, en el mismo contenedor que el primer campo, en la **[!UICONTROL Drop here to compare operands]** en la ventana
 
    ![](assets/aep_audiences_comparing_2.png)
 

@@ -17,12 +17,12 @@ ht-degree: 1%
 
 # Personalización de listas{#customizing-lists}
 
-**** Las pantallas de lista permiten mostrar elementos de uno o varios recursos determinados.
+**Lista** las pantallas permiten mostrar elementos de uno o varios recursos determinados.
 
 Adobe Campaign tiene dos tipos de listas:
 
-* Una lista **homogénea**, que es cuando contiene un solo tipo de recurso. Por ejemplo, la lista de perfiles solo contiene perfiles.
-* Una lista **heterogénea**, que es cuando contiene varios tipos de recursos. Por ejemplo, la lista de actividades de marketing contiene páginas de aterrizaje, flujos de trabajo, correos electrónicos, SMS, etc.
+* A **homogéneo** , que es cuando contiene un solo tipo de recurso. Por ejemplo, la lista de perfiles solo contiene perfiles.
+* A **heterogéneo** , que es cuando contiene varios tipos de recursos. Por ejemplo, la lista de actividades de marketing contiene páginas de aterrizaje, flujos de trabajo, correos electrónicos, SMS, etc.
 
 Las listas se muestran en columnas. Cada columna se puede ordenar en orden ascendente o descendente de una en una.
 
@@ -34,15 +34,15 @@ Al pasar el ratón por encima de un elemento de la lista, **acciones rápidas**.
 
 También puede configurar si las columnas de una lista se van a mostrar o no. Para agregar o quitar columnas:
 
-1. Asegúrese de que la pantalla esté en modo **List**.
+1. Asegúrese de que la pantalla esté en **Lista** en el menú contextual.
 
    ![](assets/export_list_mode_switch.png)
 
-1. Vaya a la ventana de configuración de la lista seleccionando el botón ![](assets/columnsettings.png) en la barra de acciones.
+1. Vaya a la ventana de configuración de la lista seleccionando la ![](assets/columnsettings.png) en la barra de acciones.
 
    ![](assets/list_configuration1.png)
 
-1. Añada las columnas que desee incluir en la lista. Para ello, seleccione una columna en la parte izquierda de la ventana y, a continuación, utilice el botón ![](assets/arrowright.png) de la barra de acciones para añadir una columna.
+1. Añada las columnas que desee incluir en la lista. Para ello, seleccione una columna en el lado izquierdo de la ventana y, a continuación, utilice la variable ![](assets/arrowright.png) de la barra de acciones para añadir una columna.
 
    Las columnas seleccionables corresponden al recurso de lista.
 
@@ -52,8 +52,8 @@ También puede configurar si las columnas de una lista se van a mostrar o no. Pa
    * **[!UICONTROL ASC]**: Aplica un orden ascendente (ascendente) en la columna
    * **[!UICONTROL DESC]**: Aplica un orden descendente (descendente) en la columna.
 
-1. Elimine las columnas que no desee mostrar marcando las casillas correspondientes a las columnas que desea eliminar. A continuación, utilice el botón ![](assets/delete.png) de la barra de acciones para confirmar la eliminación.
-1. Una vez que la lista contiene las columnas correctas, puede cambiar el orden en que se muestran en la lista comprobando las columnas que desea mover. A continuación, utilice las flechas ![](assets/arrowdown.png) y ![](assets/arrowup.png) .
+1. Elimine las columnas que no desee mostrar marcando las casillas correspondientes a las columnas que desea eliminar. A continuación, utilice el ![](assets/delete.png) para confirmar la eliminación.
+1. Una vez que la lista contiene las columnas correctas, puede cambiar el orden en que se muestran en la lista comprobando las columnas que desea mover. A continuación, utilice el ![](assets/arrowdown.png) y ![](assets/arrowup.png) flechas.
 1. Confirme la configuración de la lista seleccionando **[!UICONTROL OK]**.
 
 La lista ahora se muestra tal como la ha configurado.

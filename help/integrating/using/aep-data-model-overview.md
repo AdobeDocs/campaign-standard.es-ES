@@ -31,7 +31,7 @@ XDM Workspace permite ver, crear y ampliar esquemas de datos.
 
 Para acceder a la interfaz de usuario XDM, abra Adobe Experience Platform. Acceda a la ventana Modelo de datos para crear o ampliar un esquema XDM.
 
-Consulte la [documentación completa del espacio de trabajo XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
+Consulte el [Documentación de XDM Workspace](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
 
 ![](assets/aep_xdmworkspace.png)
 
@@ -46,4 +46,4 @@ Puede realizar las siguientes acciones a través de la API de esquema XDM:
 * Ver descriptores de esquema
 * Crear, actualizar y eliminar descriptores de esquema
 
-Todos los detalles para manipular las llamadas de API están disponibles en la [Guía del desarrollador](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
+Todos los detalles para manipular las llamadas de API están disponibles en la [Guía para desarrolladores](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).

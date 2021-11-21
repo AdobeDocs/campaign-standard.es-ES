@@ -21,27 +21,27 @@ ht-degree: 16%
 
 Campaign Standard le permite obtener una vista previa de los mensajes antes de enviarlos para comprobar su personalización y cómo los destinatarios los verán.
 
-La vista previa de mensajes se realiza utilizando **Test profiles** que se añade al destino del mensaje.
+La vista previa de mensajes se realiza mediante **Perfiles de prueba** que agregue al destino del mensaje.
 
-Para los mensajes **email**, el Campaign Standard permite previsualizar los mensajes con perfiles de destino en lugar de perfiles de prueba. Esto le permite obtener una representación exacta del mensaje que recibirá un perfil específico. Para obtener más información, consulte [Prueba de mensajes de correo electrónico con perfiles de destino](../../sending/using/testing-messages-using-target.md).
+Para **email** , el Campaign Standard le permite previsualizar mensajes con perfiles de destino en lugar de perfiles de prueba. Esto le permite obtener una representación exacta del mensaje que recibirá un perfil específico. Para obtener más información, consulte [Prueba de mensajes de correo electrónico con perfiles de destino](../../sending/using/testing-messages-using-target.md).
 
 Para obtener una vista previa de un mensaje con perfiles de prueba, siga estos pasos:
 
-1. En [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md), haga clic en el botón **[!UICONTROL Preview]**.
+1. En el [Diseñador de correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md), haga clic en **[!UICONTROL Preview]** botón.
 
    ![](assets/sending_preview.png)
 
    Una vista de escritorio y una vista móvil interactiva del correo electrónico se muestran en paralelo.
 
-1. Durante cada previsualización se realiza una comprobación automática del contenido no deseado. Haga clic en el botón **[!UICONTROL Anti-spam analysis]** para obtener más información sobre la advertencia.
+1. Durante cada previsualización se realiza una comprobación automática del contenido no deseado. Haga clic en el **[!UICONTROL Anti-spam analysis]** para obtener más información sobre la advertencia.
 
    ![](assets/sending_anti-spam_analysis.png)
 
-1. Seleccione el botón **[!UICONTROL Change profile]** para elegir el perfil de prueba en el que desea probar los elementos de personalización.
+1. Seleccione el **[!UICONTROL Change profile]** para elegir el perfil de prueba en el que desea probar los elementos de personalización.
 
    ![](assets/sending_test-profile.png)
 
-1. Para salir del modo **[!UICONTROL Preview]** , haga clic en el botón **[!UICONTROL Edit]** en la parte superior izquierda de la pantalla.
+1. Para salir del **[!UICONTROL Preview]** , haga clic en el botón **[!UICONTROL Edit]** en la parte superior izquierda de la pantalla.
 
    ![](assets/sending_preview_edit.png)
 
@@ -53,25 +53,25 @@ Para obtener una vista previa de un mensaje con perfiles de prueba, siga estos p
 
 ## Vista previa de mensajes SMS {#previewing-sms}
 
-Para los mensajes **SMS**, el Campaign Standard le permite previsualizar los mensajes mediante perfiles de prueba. Esto le permite obtener una representación exacta del mensaje que recibirá un perfil específico. Para obtener más información, consulte [Administración de perfiles de prueba](../../audiences/using/managing-test-profiles.md).
+Para **SMS** , el Campaign Standard le permite obtener una vista previa de los mensajes mediante perfiles de prueba. Esto le permite obtener una representación exacta del mensaje que recibirá un perfil específico. Para obtener más información, consulte [Administración de perfiles de prueba](../../audiences/using/managing-test-profiles.md).
 
 Para obtener una vista previa de un mensaje SMS con perfiles de prueba, siga estos pasos:
 
-1. Una vez que haya rellenado el **[!UICONTROL Properties]** del mensaje SMS y seleccionado las audiencias, puede personalizar el envío. Para obtener más información, consulte [sección](../../channels/using/personalizing-sms-messages.md).
+1. Una vez rellenado el **[!UICONTROL Properties]** de su mensaje SMS y seleccionar sus audiencias, puede personalizar su envío. Para obtener más información, consulte [sección](../../channels/using/personalizing-sms-messages.md).
 
    ![](assets/sms_preview.png)
 
-1. Después de personalizar el contenido, haga clic en **[!UICONTROL Create]** para acceder a la ventana **[!UICONTROL Summary]**.
+1. Después de personalizar el contenido, haga clic en **[!UICONTROL Create]** para acceder a la **[!UICONTROL Summary]** ventana.
 
-1. En la ventana **[!UICONTROL Summary]** , haga clic en **[!UICONTROL Content]** para obtener una vista previa del envío.
+1. En el **[!UICONTROL Summary]** ventana, haga clic en **[!UICONTROL Content]** para obtener una vista previa del envío.
 
    ![](assets/sms_preview_2.png)
 
-1. Haga clic **[!UICONTROL Preview]** en la barra de herramientas.
+1. Haga clic en **[!UICONTROL Preview]** en la barra de herramientas.
 
    ![](assets/sms_preview_3.png)
 
-1. Haga clic en **[!UICONTROL Change profile]** para seleccionar el perfil de prueba y luego en **[!UICONTROL Confirm]**.
+1. Haga clic en **[!UICONTROL Change profile]** para seleccionar el perfil de prueba y, a continuación, **[!UICONTROL Confirm]**.
 
    ![](assets/sms_preview_4.png)
 
@@ -85,11 +85,11 @@ Ahora puede ver la representación exacta del mensaje en función de los perfile
 
 ## Vista previa de notificaciones push {#previewing-push}
 
-Para **Push notification**, el Campaign Standard permite previsualizar los mensajes mediante perfiles de prueba. Esto le permite obtener una representación exacta del mensaje que recibirá un perfil específico. Para obtener más información, consulte [Administración de perfiles de prueba](../../audiences/using/managing-test-profiles.md).
+Para **Notificaciones push**, el Campaign Standard le permite obtener una vista previa de los mensajes mediante perfiles de prueba. Esto le permite obtener una representación exacta del mensaje que recibirá un perfil específico. Para obtener más información, consulte [Administración de perfiles de prueba](../../audiences/using/managing-test-profiles.md).
 
 Para obtener una vista previa de una notificación push con perfiles de prueba, siga estos pasos:
 
-1. Una vez que haya rellenado el **[!UICONTROL Properties]** de la notificación push y haya seleccionado las audiencias, puede personalizar el envío. Para obtener más información, consulte [Personalización de una notificación push](../../channels/using/customizing-a-push-notification.md).
+1. Una vez rellenado el **[!UICONTROL Properties]** de la notificación push y seleccione las audiencias, puede personalizar la entrega. Para obtener más información, consulte [Personalización de una notificación push](../../channels/using/customizing-a-push-notification.md).
 
 1. Después de personalizar el contenido, puede comprobar directamente la renderización de las notificaciones push según los dispositivos y el sistema operativo en la ventana de vista previa.
 
@@ -113,11 +113,11 @@ Ahora puede ver la representación exacta del mensaje en función de los perfile
 
 ## Vista previa de mensajes en la aplicación {#previewing-in-app}
 
-Para **In-App**, el Campaign Standard le permite previsualizar los mensajes mediante perfiles de prueba. Esto le permite obtener una representación exacta del mensaje que recibirá un perfil específico. Para obtener más información, consulte [Administración de perfiles de prueba](../../audiences/using/managing-test-profiles.md).
+Para **En la aplicación**, el Campaign Standard le permite obtener una vista previa de los mensajes mediante perfiles de prueba. Esto le permite obtener una representación exacta del mensaje que recibirá un perfil específico. Para obtener más información, consulte [Administración de perfiles de prueba](../../audiences/using/managing-test-profiles.md).
 
 Para obtener una vista previa de un mensaje en la aplicación mediante perfiles de prueba, siga estos pasos:
 
-1. Una vez que haya rellenado el **[!UICONTROL Properties]** del mensaje en la aplicación, haya seleccionado las audiencias y haya configurado el **[!UICONTROL Triggers]**, puede personalizar el envío. Para obtener más información, consulte [Personalización de un mensaje en la aplicación](../../channels/using/customizing-an-in-app-message.md).
+1. Una vez rellenado el **[!UICONTROL Properties]** del mensaje en la aplicación, seleccionó las audiencias y estableció las **[!UICONTROL Triggers]**, puede personalizar su envío. Para obtener más información, consulte [Personalización de un mensaje en la aplicación](../../channels/using/customizing-an-in-app-message.md).
 
 1. Después de personalizar el contenido, puede comprobar directamente la renderización del mensaje en la aplicación según los dispositivos y el sistema operativo en la ventana de vista previa.
 

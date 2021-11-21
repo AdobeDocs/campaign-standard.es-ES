@@ -16,7 +16,7 @@ ht-degree: 7%
 
 En algunos casos, es posible que necesite definir para un recurso una clave de identificación compuesta por dos campos. Una vez configurada la clave de identificación, debe configurar una definición de filtro para poder llamar al recurso con esta clave de identificación, ya sea desde la interfaz de Campaign Standard o las API.
 
-En este caso de uso, el recurso **Profile** se ha ampliado con los campos personalizados **&quot;CRM ID&quot;** y **&quot;category&quot;**. Crearemos una clave de identificación para el recurso Perfil , que se compone de estos dos campos. A continuación, configuraremos una definición de filtro para que podamos acceder al recurso Perfil mediante la clave de identificación.
+En este caso de uso, la variable **Perfil** el recurso se ha ampliado con **&quot;ID de CRM&quot;** y **&quot;category&quot;** campos. Crearemos una clave de identificación para el recurso Perfil , que se compone de estos dos campos. A continuación, configuraremos una definición de filtro para que podamos acceder al recurso Perfil mediante la clave de identificación.
 
 Los pasos principales para este caso de uso son:
 
@@ -37,29 +37,29 @@ Temas relacionados:
 
 1. Antes de configurar la clave de identificación, asegúrese de que el recurso se ha ampliado con los campos deseados y que se ha publicado. Para obtener más información, consulte [esta sección](../../developing/using/creating-or-extending-the-resource.md).
 
-1. Vaya al menú **[!UICONTROL Administration]** / **[!UICONTROL Development]** / **[!UICONTROL Custom resources]** y, a continuación, abra el recurso **[!UICONTROL Profile]** .
+1. Vaya a la **[!UICONTROL Administration]** / **[!UICONTROL Development]** / **[!UICONTROL Custom resources]** y, a continuación, abra **[!UICONTROL Profile]** recurso.
 
    ![](assets/uc_idkey1.png)
 
-1. En la sección **[!UICONTROL Identification keys]** , haga clic en el botón **[!UICONTROL Create element]** .
+1. En el **[!UICONTROL Identification keys]** , haga clic en el botón **[!UICONTROL Create element]** botón.
 
    ![](assets/uc_idkey2.png)
 
-1. Agregue los dos campos personalizados &quot;CRM ID&quot; y &quot;Category&quot; y haga clic en **[!UICONTROL Confirm]**.
+1. Añada los dos campos personalizados &quot;CRM ID&quot; y &quot;Category&quot; y, a continuación, haga clic en **[!UICONTROL Confirm]**.
 
    ![](assets/uc_idkey3.png)
 
    >[!NOTE]
-   > Si desea mostrar los dos campos personalizados en la interfaz del perfil, configure la pestaña **[!UICONTROL Screen definition]** . Para obtener más información, consulte [esta sección](../../developing/using/configuring-the-screen-definition.md).
+   > Si desea mostrar los dos campos personalizados en la interfaz del perfil, configure la variable **[!UICONTROL Screen definition]** pestaña . Para obtener más información, consulte [esta sección](../../developing/using/configuring-the-screen-definition.md).
 
 1. Ahora puede configurar la definición del filtro para poder llamar al recurso mediante su clave de identificación.
 
 ## Paso 2: Configuración de la definición del filtro{#step-2-configure-the-filter-definition}
 
 >[!NOTE]
-> Los conceptos globales al configurar definiciones de filtro se detallan en [esta sección](../../developing/using/configuring-filter-definition.md).
+> Los conceptos globales al configurar definiciones de filtros se detallan en [esta sección](../../developing/using/configuring-filter-definition.md).
 
-1. En la pestaña **[!UICONTROL Filter definition]**, haga clic en **[!UICONTROL Add an element]** e introduzca la etiqueta y el ID de la definición del filtro.
+1. En el **[!UICONTROL Filter definition]** , haga clic en **[!UICONTROL Add an element]** y, a continuación, introduzca la etiqueta y el ID de la definición del filtro.
 
 1. Edite las propiedades de la definición del filtro para configurar sus reglas.
 
@@ -69,16 +69,16 @@ Temas relacionados:
 
    ![](assets/uc_idkey5.png)
 
-1. Seleccione el primer campo utilizado en la clave de identificación (&quot;CRM ID&quot;) y, a continuación, active la opción **[!UICONTROL Switch to parameters]**.
+1. Seleccione el primer campo utilizado en la clave de identificación (&quot;CRM ID&quot;) y, a continuación, active la variable **[!UICONTROL Switch to parameters]** .
 
    ![](assets/uc_idkey6.png)
 
-1. En la sección **[!UICONTROL Filter conditions]**, mantenga el operador **[!UICONTROL Equal]**, luego defina el nombre del parámetro y haga clic en el signo más para crearlo.
+1. En el **[!UICONTROL Filter conditions]** mantenga la **[!UICONTROL Equal]** , defina el nombre del parámetro y haga clic en el signo más para crearlo.
 
    ![](assets/uc_idkey7.png)
 
    >[!NOTE]
-   > Una vez que haya hecho clic en el botón **+**, el nombre del parámetro se genera automáticamente. Tenga en cuenta esta información, ya que necesitará que utilice el filtro de las API.
+   > Una vez que haya hecho clic en el **+** , el nombre del parámetro se genera automáticamente. Tenga en cuenta esta información, ya que necesitará que utilice el filtro de las API.
 
 1. Repita los pasos anteriores con todos los campos que componen la clave de identificación (&quot;categoría&quot;) y, a continuación, guarde los cambios.
 
@@ -90,7 +90,7 @@ Temas relacionados:
 
 Una vez configurados la clave de identificación y su definición de filtro, puede utilizarla para llamar al recurso, ya sea desde la interfaz estándar de Campaign o las API de REST.
 
-Para utilizar la definición de filtro de la interfaz, utilice una actividad **[!UICONTROL Query]** en un flujo de trabajo (consulte [esta sección](../../automating/using/query.md)). El filtro está disponible en el panel izquierdo.
+Para utilizar la definición de filtro de la interfaz, utilice un **[!UICONTROL Query]** actividad en un flujo de trabajo (consulte [esta sección](../../automating/using/query.md)). El filtro está disponible en el panel izquierdo.
 
 ![](assets/uc_idkey9.png)
 
@@ -109,4 +109,4 @@ En nuestro caso, la sintaxis para recuperar un perfil de la categoría &quot;pri
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byidentification_key?category_parameter=spring&crm_id_parameter=123456
 ```
 
-Para obtener más información, consulte la [documentación de las API de REST del Campaign Standard](../../api/using/filtering.md).
+Para obtener más información, consulte [Documentación de las API de REST del Campaign Standard](../../api/using/filtering.md).

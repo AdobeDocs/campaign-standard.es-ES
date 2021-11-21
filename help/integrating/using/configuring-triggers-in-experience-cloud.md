@@ -53,7 +53,7 @@ También necesita tener un sitio web de trabajo.
 >
 >La configuración del subdominio es un elemento clave de entrega. Asegúrese de que los correos electrónicos de Adobe Campaign se envíen desde el mismo dominio que el utilizado por el sitio web.
 
-Debe configurar [Experience Cloud DTM Core Service](#configuring-experience-cloud-dtm-core-service), [Experience Cloud People Core Service](#configuring-experience-cloud-people-core-service) y [Campaign](#configuring-triggers-and-aliases-in-campaign) para ejecutar estos casos de uso.
+Debe configurar [Servicio principal de Experience Cloud DTM](#configuring-experience-cloud-dtm-core-service), [Servicio principal Personas Experience Cloud](#configuring-experience-cloud-people-core-service) y [Campaign](#configuring-triggers-and-aliases-in-campaign) para ejecutar estos casos de uso.
 
 ### Configuración del servicio principal DTM de Experience Cloud {#configuring-experience-cloud-dtm-core-service}
 
@@ -77,17 +77,17 @@ El alias al que se hace referencia anteriormente en la DTM debe crearse en el se
 
 ### Configuración de déclencheur y alias en Campaign {#configuring-triggers-and-aliases-in-campaign}
 
-1. Asegúrese de que tiene **[!UICONTROL Experience Cloud triggers]** visible en la instancia de Adobe Campaign Standard. Si no lo hace, póngase en contacto con los administradores de Adobe Campaign.
+1. Asegúrese de que **[!UICONTROL Experience Cloud triggers]** visible en la instancia de Adobe Campaign Standard. Si no lo hace, póngase en contacto con los administradores de Adobe Campaign.
 
    ![](assets/remarketing_1.png)
 
-1. Los alias permiten que un contacto de Analytics se reconcilie con un perfil de Campaign. Debe coincidir los alias definidos en el servicio de ID de Experience Cloud con una fuente de datos compartida en Campaign. Debe configurar la resolución de alias en Adobe Campaign mediante una fuente de datos ( **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Shared Data Sources]** ). Asegúrese de elegir la fuente de datos correcta en el menú desplegable **[!UICONTROL Data Source/Alias]**, que se asigna a la misma fuente de datos de Atributos del cliente creada en el paso anterior.
+1. Los alias permiten que un contacto de Analytics se reconcilie con un perfil de Campaign. Debe coincidir los alias definidos en el servicio de ID de Experience Cloud con una fuente de datos compartida en Campaign. Debe configurar la resolución de alias en Adobe Campaign mediante una fuente de datos ( **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Shared Data Sources]** ). Asegúrese de elegir la fuente de datos correcta en la **[!UICONTROL Data Source/Alias]** menú desplegable, que se asigna a la misma fuente de datos de Atributos del cliente creada en el paso anterior.
 
    ![](assets/trigger_uc_conf_5.png)
 
    >[!NOTE]
    >
-   >Puede reconciliar sus déclencheur tanto para usuarios anónimos como para usuarios que iniciaron sesión. Para los usuarios anónimos, el perfil debe existir en Adobe Campaign y antes se ha enviado un correo electrónico al usuario. Para ello, la configuración del ID de visitante es suficiente. Sin embargo, si desea reconciliar déclencheur para usuarios que iniciaron sesión, debe configurar la fuente de datos de ID declarados. Para obtener más información, consulte [Configuración de fuentes de datos](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
+   >Puede reconciliar sus déclencheur tanto para usuarios anónimos como para usuarios que iniciaron sesión. Para los usuarios anónimos, el perfil debe existir en Adobe Campaign y antes se ha enviado un correo electrónico al usuario. Para ello, la configuración del ID de visitante es suficiente. Sin embargo, si desea reconciliar déclencheur para usuarios que iniciaron sesión, debe configurar la fuente de datos de ID declarados. Para obtener más información, consulte [Configuración de la fuente de datos](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
 
 ## Creación de un déclencheur en la interfaz del Experience Cloud {#creating-a-trigger-in-the-experience-cloud-interface}
 
@@ -95,7 +95,7 @@ Se debe crear un déclencheur de Adobe Experience Cloud para poder utilizarlo en
 
 Cree un nuevo déclencheur en Experience Cloud y asegúrese de seleccionar el grupo de informes utilizado en el sitio web. Asegúrese de elegir la dimensión correcta para que el déclencheur se active.
 
-Consulte la [documentación de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html) y vea este [vídeo](https://helpx.adobe.com/es/marketing-cloud/how-to/email-marketing.html#step-two).
+Consulte la [Documentación de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html) y mire esto [video](https://helpx.adobe.com/es/marketing-cloud/how-to/email-marketing.html#step-two).
 
 ## Déclencheur, prácticas recomendadas y limitaciones {#triggers-best-practices-and-limitations}
 

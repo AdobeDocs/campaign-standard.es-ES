@@ -41,7 +41,7 @@ Adobe Campaign Standard es un potente sistema de administración de campañas en
 
 Aunque la mayoría de los proveedores de servicios de correo electrónico se comunican a los clientes mediante un enfoque centrado en la lista, Adobe Campaign depende de una base de datos relacional para aprovechar una vista más amplia de los clientes y sus atributos.
 
-Este enfoque centrado en el cliente se muestra en el gráfico siguiente. El recurso **Profile** en gris representa la tabla del cliente principal en torno a la cual se está creando todo:
+Este enfoque centrado en el cliente se muestra en el gráfico siguiente. La variable **Perfil** recurso en gris representa la tabla de cliente principal en torno a la cual se está creando todo:
 
 ![](assets/customer-centric-data-model.png)
 
@@ -66,10 +66,10 @@ Be able to provide a primary customer record which will be sent to Adobe Campaig
 >Adobe Campaign no es un almacén de datos. Por lo tanto, no intente importar todos los clientes posibles y su información asociada en Adobe Campaign.
 
 Para tomar la decisión de si un atributo sería necesario o no en Adobe Campaign, determine si correspondería a una de estas categorías:
-* Atributo utilizado para la **segmentación**
-* Atributo utilizado para **procesos de administración de datos** (cálculo agregado, por ejemplo)
+* Atributo utilizado para **segmentación**
+* Atributo utilizado para **procesos de administración de datos** (cálculo acumulado, por ejemplo)
 * Atributo utilizado para **personalización**
-* Atributo utilizado para **informes** (los informes se pueden crear en función de los datos de perfil personalizados)
+* Atributo utilizado para **creación de informes** (los informes se pueden crear en función de los datos de perfil personalizados)
 
 Si no se incluye en ninguno de estos parámetros, lo más probable es que no necesite este atributo en Adobe Campaign.
 
@@ -81,7 +81,7 @@ Para garantizar una buena arquitectura y un buen rendimiento de su sistema, siga
 
 ## Configuración de la estructura de datos {#configuring-data-structure}
 
-Esta sección describe las prácticas recomendadas al [configurar la estructura de datos de un recurso](../../developing/using/configuring-the-resource-s-data-structure.md).
+Esta sección describe las prácticas recomendadas cuando [configuración de la estructura de datos de un recurso](../../developing/using/configuring-the-resource-s-data-structure.md).
 
 ### Identificadores {#identifiers}
 
@@ -95,14 +95,14 @@ En la tabla siguiente se describen estos identificadores y su finalidad.
 
 | Nombre para mostrar | Nombre técnico | Descripción | Prácticas recomendadas |
 |--- |--- |--- |--- |
-|  | PKey | <ul><li>La clave PKey es la clave principal física de una tabla Adobe Campaign.</li><li>Este identificador suele ser único para una instancia de Adobe Campaign específica.</li><li>En Adobe Campaign Standard, este valor no es visible para el usuario final (excepto en las direcciones URL).</li></ul> | <ul><li>A través del [sistema API](../../api/using/get-started-apis.md), es posible recuperar un valor PKey (que es un valor generado/hash, no la clave física).</li><li>No se recomienda utilizarlo para nada más que recuperar, actualizar o eliminar registros mediante API.</li></ul> |
+|  | PKey | <ul><li>La clave PKey es la clave principal física de una tabla Adobe Campaign.</li><li>Este identificador suele ser único para una instancia de Adobe Campaign específica.</li><li>En Adobe Campaign Standard, este valor no es visible para el usuario final (excepto en las direcciones URL).</li></ul> | <ul><li>A través de la función [Sistema de API](../../api/using/get-started-apis.md), es posible recuperar un valor PKey (que es un valor generado/hash, no la clave física).</li><li>No se recomienda utilizarlo para nada más que recuperar, actualizar o eliminar registros mediante API.</li></ul> |
 | ID | name o internalName | <ul><li>Esta información es un identificador único de un registro de una tabla. Este valor se puede actualizar manualmente.</li><li>Este identificador mantiene su valor cuando se implementa en una instancia diferente de Adobe Campaign. Debe tener un nombre diferente al valor generado para poder exportarlo a través de un paquete.</li><li>Esta no es la clave principal real de la tabla.</li></ul> | <ul><li>No utilice caracteres especiales como espacio &quot;&quot;, semicolumna &quot;:&quot; o guión &quot;-&quot;.</li><li>Todos estos caracteres se sustituirían por un guión bajo &quot;_&quot; (carácter permitido). Por ejemplo, &quot;abc-def&quot; y &quot;abc:def&quot; se almacenarían como &quot;abc_def&quot; y se sobrescribirían entre sí.</li></ul> |
 | Etiqueta | label | <ul><li>La etiqueta es el identificador comercial de un objeto o registro en Adobe Campaign.</li><li>Este objeto permite espacios y caracteres especiales.</li><li>No garantiza la exclusividad de un registro.</li></ul> | <ul><li>Se recomienda determinar una estructura para las etiquetas de objeto.</li><li>Esta es la solución más fácil de usar para identificar un registro u objeto para un usuario de Adobe Campaign.</li></ul> |
-| ID de ACS | acsId | <ul><li>Se puede generar un identificador adicional: el [ACS ID](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).</li><li>Como el PKey no se puede usar en la interfaz de usuario de Adobe Campaign, esta es una solución para obtener un valor único generado durante la inserción de un registro de perfil.</li><li>El valor solo se puede generar automáticamente si la opción está habilitada en el recurso antes de que se inserte un registro en Adobe Campaign.</li></ul> | <ul><li>Este UUID se puede utilizar como clave de reconciliación.</li><li>Un ID ACS generado automáticamente no se puede utilizar como referencia en un flujo de trabajo o en una definición de paquete.</li><li>Este valor es específico de una instancia de Adobe Campaign.</li></ul> |
+| ID de ACS | acsId | <ul><li>Se puede generar un identificador adicional: el [ID de ACS](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).</li><li>Como el PKey no se puede usar en la interfaz de usuario de Adobe Campaign, esta es una solución para obtener un valor único generado durante la inserción de un registro de perfil.</li><li>El valor solo se puede generar automáticamente si la opción está habilitada en el recurso antes de que se inserte un registro en Adobe Campaign.</li></ul> | <ul><li>Este UUID se puede utilizar como clave de reconciliación.</li><li>Un ID ACS generado automáticamente no se puede utilizar como referencia en un flujo de trabajo o en una definición de paquete.</li><li>Este valor es específico de una instancia de Adobe Campaign.</li></ul> |
 
 ### Claves de identificación {#keys}
 
-Cada recurso creado en Adobe Campaign debe tener al menos una [clave de identificación](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys) única.
+Cada recurso creado en Adobe Campaign debe tener al menos una [clave de identificación](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
 
 <!--Most organizations are importing records from external systems. While the physical key of a resource lies behind the PKey attribute, it is possible to determine a custom key in addition.
 
@@ -133,7 +133,7 @@ When you are performing an initial import with very high volumes of data insert 
 
 ### Vínculos {#links}
 
-La definición de vínculos con otros recursos se presenta en [esta sección](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources).
+La definición de vínculos con otros recursos se muestra en [esta sección](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources).
 
 * Aunque es posible unir cualquier tabla en un flujo de trabajo, Adobe recomienda definir vínculos comunes entre los recursos directamente en la definición de la estructura de datos.
 * El vínculo se debe definir en alineación con los datos reales de las tablas. Una definición incorrecta podría afectar a los datos recuperados mediante vínculos, por ejemplo, duplicando registros de forma inesperada.

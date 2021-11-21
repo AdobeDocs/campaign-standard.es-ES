@@ -40,11 +40,11 @@ Los flujos de trabajo se pueden utilizar en diferentes contextos, como por ejemp
 
 Hay varias actividades disponibles para ayudarle a diseñar sus flujos de trabajo.
 
-[Las ](../../automating/using/about-targeting-activities.md) actividades de segmentación le permiten crear uno o más destinos definiendo conjuntos y dividiendo o combinando estos conjuntos mediante operaciones de intersección, unión o exclusión.
+[Actividades de segmentación](../../automating/using/about-targeting-activities.md) permite crear uno o más objetivos definiendo conjuntos y dividiendo o combinando estos conjuntos mediante operaciones de intersección, unión o exclusión.
 
-Con [Execution activities](../../automating/using/about-execution-activities.md), coordine el flujo de trabajo y sus actividades, mientras que [Channel activities](../../automating/using/about-channel-activities.md) permite combinar canales de comunicación de Campaign Standard para crear flujos de trabajo entre canales.
+con [Actividades de ejecución](../../automating/using/about-execution-activities.md), coordine el flujo de trabajo y sus actividades mientras [Actividades de canal](../../automating/using/about-channel-activities.md) permite combinar canales de comunicación de Campaign Standard para crear flujos de trabajo entre canales.
 
-Por último, [Data management activities](../../automating/using/about-data-management-activities.md) permiten manipular los datos de la base de datos.
+Finalmente, [Actividades de gestión de datos](../../automating/using/about-data-management-activities.md) permite manipular los datos de la base de datos.
 
 Más información:
 
@@ -58,7 +58,7 @@ Más información:
 
 Aproveche el **editor de consultas** para filtrar los datos de la base de datos y crear una población para dirigirse mejor a los destinatarios. El editor de consultas está disponible para realizar varias acciones en el Campaign Standard: cree audiencias de tipo Consulta , defina objetivos de envío o poblaciones en actividades de flujo de trabajo.
 
-El editor de consultas viene con **filtros predefinidos y reglas** para un filtrado rápido y fácil. Sin embargo, también puede utilizar las capacidades de **edición avanzada de expresiones**. Esto le permite introducir manualmente condiciones y utilizar funciones para formar sus propias reglas.
+El editor de consultas viene con **filtros predefinidos y reglas** para un filtrado rápido y sencillo. Sin embargo, también puede utilizar **edición avanzada de expresiones** capacidades. Esto le permite introducir manualmente condiciones y utilizar funciones para formar sus propias reglas.
 
 Más información:
 
@@ -70,17 +70,17 @@ Más información:
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-El Campaign Standard viene con varias **funcionalidades de administración de datos** para importar y exportar datos.
+El Campaign Standard viene con varios **capacidades de administración de datos** para importar y exportar datos.
 
-[Las ](../../automating/using/about-data-management-activities.md) actividades de gestión de datos de flujos de trabajo permiten importar datos, realizar actualizaciones masivas en los campos, recibir o enviar archivos, o vincular datos no identificados a recursos existentes.
+[Actividades de gestión de datos de flujos de trabajo](../../automating/using/about-data-management-activities.md) permite importar datos, realizar actualizaciones masivas en campos, recibir o enviar archivos, o vincular datos no identificados a recursos existentes.
 
-Con [Import templates](../../automating/using/importing-data-with-import-templates.md), administre ciertos tipos de importación definidos por los administradores a través de funciones de importación simplificadas.
+con [Importar plantillas](../../automating/using/importing-data-with-import-templates.md), administre ciertos tipos de importación definidos por los administradores a través de funciones de importación simplificadas.
 
-[La exportación de ](../../automating/using/exporting-logs.md) registros permite exportar datos de registro a través de un flujo de trabajo sencillo que le permite analizar los resultados de sus campañas de marketing en sus propias herramientas de creación de informes o de BI.
+[Exportación de registros](../../automating/using/exporting-logs.md) permite exportar datos de registro a través de un flujo de trabajo sencillo que le permite analizar los resultados de sus campañas de marketing en sus propias herramientas de creación de informes o de BI.
 
-Aproveche los [Paquetes](../../automating/using/managing-packages.md) para intercambiar recursos entre diferentes instancias de campaña, por ejemplo, para replicar la configuración de una instancia o para transferir datos de un servidor a otro, incluidos los recursos personalizados.
+Aprovechar [Paquetes](../../automating/using/managing-packages.md) para intercambiar recursos entre distintas instancias de campaña, por ejemplo, para replicar la configuración de una instancia o para transferir datos de un servidor a otro, incluidos los recursos personalizados.
 
-Por último, [Exportación de listas](../../automating/using/exporting-lists.md) permite exportar cualquier lista de Campaign Standards como, por ejemplo, la lista de perfiles de prueba, la lista de direcciones de correo electrónico en cuarentena, etc.
+Finalmente, [Exportación de listas](../../automating/using/exporting-lists.md) permite exportar cualquier lista desde un Campaign Standard como, por ejemplo, la lista de perfiles de prueba, la lista de direcciones de correo electrónico en cuarentena, etc.
 
 Más información:
 

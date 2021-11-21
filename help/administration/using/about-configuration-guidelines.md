@@ -1,6 +1,6 @@
 ---
 title: Directrices de configuración
-description: Obtenga información sobre las directrices de configuración del Campaign Standard.
+description: Obtenga información sobre las directrices de configuración de Campaign Standard.
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
@@ -43,7 +43,7 @@ Estos son los diferentes extremos utilizados en el Campaign Standard.
 
 | Contexto | URL |
 |--- |--- |
-| Instancias de Campaign | `https://*.experiencecloud.adobe.com` (ID de inquilino * + dominio de cliente)<br>`https://*.campaign.adobe.com`  (inquilino de instancia de Campaign) |
+| Instancias de Campaign | `https://*.experiencecloud.adobe.com` (ID de inquilino * + dominio de cliente)<br>`https://*.campaign.adobe.com` (inquilino de instancia de Campaign) |
 | IMS | `https://adobeid-na1.services.adobe.com`<br>`https://*.adobelogin.com` |
 | Experience Cloud | `https://experiencecloud.adobe.com` |
 | Seguimiento | `https://*.adobedtm.com`<br>`https://*.demdex.net`<br>`https://*.omtrdc.net` |

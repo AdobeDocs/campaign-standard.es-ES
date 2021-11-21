@@ -33,4 +33,4 @@ Este vídeo muestra cómo crear recursos personalizados.
 
 >[!VIDEO](https://video.tv.adobe.com/v/27715?quality=9&captions=eng)
 
-Hay disponibles más vídeos prácticos del Campaign Standard [aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
+Hay disponibles vídeos prácticos adicionales del Campaign Standard [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).

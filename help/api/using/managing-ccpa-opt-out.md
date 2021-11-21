@@ -17,7 +17,7 @@ ht-degree: 4%
 
 # Administración de la exclusión de CCPA {#managing-ccpa-optout}
 
-El estado de exclusión de la CCPA de un perfil se puede supervisar y administrar utilizando el atributo de perfil **ccpaOptOut** y los valores &quot;true&quot; o &quot;false&quot;:
+El estado de exclusión de la CCPA de un perfil se puede supervisar y administrar utilizando la variable **ccpaOptOut** y los valores &quot;true&quot; o &quot;false&quot;:
 
 `"ccpaOptOut": <value>`
 
@@ -28,7 +28,7 @@ El estado de exclusión de la CCPA de un perfil se puede supervisar y administra
 >
 >El atributo de exclusión de CCPA solo está disponible a partir de la versión 19.4. Para los entornos de la versión 19.3, debe ampliar el recurso Perfiles y agregar un campo booleano. Este campo se añade a la API con la etiqueta elegida. Le sugerimos que utilice &quot;Exclusión de la CCPA&quot;.
 >
->Para obtener más información, consulte [Administración de solicitudes de privacidad](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
+>Para obtener más información, consulte [Documentación de solicitudes de privacidad](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
 
 <br/>
 

@@ -19,7 +19,7 @@ ht-degree: 2%
 
 Un mensaje de seguimiento es una plantilla de envío de marketing predefinida que se puede utilizar en un flujo de trabajo para enviar otra comunicación a los destinatarios de un mensaje transaccional específico.
 
-Vamos a reutilizar el ejemplo descrito en la sección [Principio operativo de mensajería transaccional](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle): se envía un correo electrónico de abandono del carro de compras a los usuarios del sitio web que han agregado productos al carro de compras, pero que han abandonado el sitio sin pasar por sus compras.
+Vamos a reutilizar el ejemplo descrito en la sección [Principio operativo de mensajería transaccional](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) sección: se envía un correo electrónico de abandono del carro de compras a los usuarios del sitio web que han agregado productos al carro de compras, pero que han abandonado el sitio sin pasar por sus compras.
 
 Desea enviar un recordatorio descriptivo a todos los clientes que recibieron la notificación de abandono del carro de compras pero que no la abrieron después de tres días. Recibirán un mensaje de seguimiento basado en los mismos datos que se usaron en el primer correo electrónico enviado.
 
@@ -28,23 +28,23 @@ Desea enviar un recordatorio descriptivo a todos los clientes que recibieron la 
 Para enviar un mensaje de seguimiento, primero debe configurar en consecuencia el evento correspondiente al mensaje transaccional que ya se recibió.
 
 1. Utilice la misma configuración de evento que creó para enviar un mensaje transaccional de evento. Consulte [Configuración de un evento transaccional](../../channels/using/configuring-transactional-event.md).
-1. Al configurar el evento, marque la casilla **[!UICONTROL Create follow-up delivery template for this event]** antes de publicar el evento.
+1. Al configurar el evento, marque **[!UICONTROL Create follow-up delivery template for this event]** antes de publicar el evento.
 
    ![](assets/message-center_follow-up-checkbox.png)
 
-1. [Obtenga una vista previa del evento y publíquelo](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
+1. [Vista previa y publicación del evento](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
 
 Una vez publicado el evento, se crea automáticamente un mensaje transaccional y una plantilla de envío de seguimiento vinculada al nuevo evento. Los pasos para enviar el mensaje de seguimiento se detallan en [esta sección](#sending-a-follow-up-message).
 
 ## Acceso a los mensajes de seguimiento {#accessing-the-follow-up-messages}
 
-Para gestionar un evento en un flujo de trabajo, se requiere una plantilla de envío. Sin embargo, al publicar el evento, el [mensaje transaccional](../../channels/using/editing-transactional-message.md) que se crea no se puede usar como plantilla. Por lo tanto, debe crear una plantilla de envío de seguimiento específica diseñada para admitir este tipo de evento y para utilizarse como plantilla en un flujo de trabajo.
+Para gestionar un evento en un flujo de trabajo, se requiere una plantilla de envío. Sin embargo, al publicar el evento, la variable [mensaje transaccional](../../channels/using/editing-transactional-message.md) que se crea no se puede usar como plantilla. Por lo tanto, debe crear una plantilla de envío de seguimiento específica diseñada para admitir este tipo de evento y para utilizarse como plantilla en un flujo de trabajo.
 
 Para acceder a esta plantilla:
 
-1. Haga clic en el logotipo **Adobe** en la esquina superior izquierda.
+1. Haga clic en el **Adobe** , en la esquina superior izquierda.
 1. Seleccione **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
-1. Marque la casilla **[!UICONTROL Follow-up messages]** en el panel izquierdo.
+1. Marque la **[!UICONTROL Follow-up messages]** en el panel izquierdo.
 
    ![](assets/message-center_follow-up-search.png)
 
@@ -52,7 +52,7 @@ Solo se muestran los mensajes de seguimiento.
 
 >[!IMPORTANT]
 >
->Solo los usuarios con la función [Administration](../../administration/using/users-management.md#functional-administrators) pueden acceder y editar mensajes transaccionales.
+>Solo los usuarios con la variable [Administración](../../administration/using/users-management.md#functional-administrators) puede acceder y editar mensajes transaccionales.
 
 ## Envío de un mensaje de seguimiento {#sending-a-follow-up-message}
 
@@ -64,15 +64,15 @@ Una vez creada la plantilla de envío de seguimiento, puede utilizarla en un flu
 
    Consulte [Creación de un flujo de trabajo](../../automating/using/building-a-workflow.md#creating-a-workflow).
 
-1. Arrastre y suelte una actividad **[!UICONTROL Scheduler]** en el flujo de trabajo y ábrala. Establezca la frecuencia de ejecución en una vez al día.
+1. Arrastre y suelte una **[!UICONTROL Scheduler]** actividad en el flujo de trabajo y ábrala. Establezca la frecuencia de ejecución en una vez al día.
 
-   La actividad Planificador se presenta en la sección [Scheduler](../../automating/using/scheduler.md).
+   La actividad Planificador se presenta en la variable [Planificador](../../automating/using/scheduler.md) para obtener más información.
 
-1. Arrastre y suelte una actividad **[!UICONTROL Query]** en el flujo de trabajo y ábrala.
+1. Arrastre y suelte una **[!UICONTROL Query]** actividad en el flujo de trabajo y ábrala.
 
-   La actividad Consulta se presenta en la sección [Consulta](../../automating/using/query.md).
+   La actividad Consulta se presenta en la [Consulta](../../automating/using/query.md) para obtener más información.
 
-1. Para ejecutar la consulta en un recurso que no sea el recurso de perfil, vaya a la pestaña **[!UICONTROL Properties]** de la actividad y haga clic en la lista desplegable **[!UICONTROL Resource]**.
+1. Para ejecutar la consulta en un recurso que no sea el recurso de perfil, vaya a la **[!UICONTROL Properties]** y haga clic en **[!UICONTROL Resource]** lista desplegable.
 
    ![](assets/message-center_follow-up-query-properties.png)
 
@@ -84,19 +84,19 @@ Una vez creada la plantilla de envío de seguimiento, puede utilizarla en un flu
 
    ![](assets/message-center_follow-up-query-resource.png)
 
-1. Vaya a la pestaña **[!UICONTROL Target]** de la actividad y arrastre y suelte el elemento **[!UICONTROL Delivery logs (logs)]** de la paleta en el espacio de trabajo.
+1. Vaya al **[!UICONTROL Target]** y arrastre y suelte la **[!UICONTROL Delivery logs (logs)]** de la paleta al espacio de trabajo.
 
    ![](assets/message-center_follow-up-delivery-logs.png)
 
-   Seleccione **[!UICONTROL Exists]** para dirigirse a todos los clientes que recibieron el correo electrónico.
+   Select **[!UICONTROL Exists]** para dirigirse a todos los clientes que recibieron el correo electrónico.
 
    ![](assets/message-center_follow-up-delivery-logs-exists.png)
 
-1. Mueva el elemento **[!UICONTROL Tracking logs (tracking)]** de la paleta al espacio de trabajo y seleccione **[!UICONTROL Does not exist]** para dirigirse a todos los clientes que no abrieron el correo electrónico.
+1. Mover el **[!UICONTROL Tracking logs (tracking)]** elemento de la paleta al espacio de trabajo y seleccione **[!UICONTROL Does not exist]** para dirigirse a todos los clientes que no hayan abierto el correo electrónico.
 
    ![](assets/message-center_follow-up-delivery-and-tracking-logs.png)
 
-1. Arrastre y suelte el evento de destino (**Abandono del carro de compras** en este ejemplo) de la paleta en el espacio de trabajo. A continuación, defina una regla para dirigirse a todos los mensajes enviados hace tres días.
+1. Arrastre y suelte el evento de destino (**Abandono del carro de compras** en este ejemplo) de la paleta al espacio de trabajo. A continuación, defina una regla para dirigirse a todos los mensajes enviados hace tres días.
 
    ![](assets/message-center_follow-up-created.png)
 
@@ -104,15 +104,15 @@ Una vez creada la plantilla de envío de seguimiento, puede utilizarla en un flu
 
    Haga clic en **[!UICONTROL Confirm]** para guardar la consulta.
 
-1. Arrastre y suelte una actividad **Email delivery** en el flujo de trabajo.
+1. Arrastre y suelte una **Envío de correo electrónico** actividad en el flujo de trabajo.
 
-   La actividad Envío de correo electrónico se presenta en la sección [Email delivery](../../automating/using/email-delivery.md).
+   La actividad Email delivery se presenta en la variable [Envío de correo electrónico](../../automating/using/email-delivery.md) para obtener más información.
 
    ![](assets/message-center_follow-up-workflow.png)
 
-   También puede utilizar una actividad [SMS delivery](../../automating/using/sms-delivery.md) o [Push notification delivery](../../automating/using/push-notification-delivery.md). En este caso, asegúrese de seleccionar el canal **[!UICONTROL Mobile (SMS)]** o **[!UICONTROL Mobile application]** al crear la configuración de evento. Consulte [Creación de un evento](../../channels/using/configuring-transactional-event.md#creating-an-event).
+   También puede usar un [Envío de SMS](../../automating/using/sms-delivery.md) o [Envío de notificaciones push](../../automating/using/push-notification-delivery.md) actividad. En este caso, asegúrese de seleccionar la variable **[!UICONTROL Mobile (SMS)]** o **[!UICONTROL Mobile application]** canal al crear la configuración de evento. Consulte [Creación de un evento](../../channels/using/configuring-transactional-event.md#creating-an-event).
 
-1. Abra la actividad **Email delivery** . En el asistente de creación, marque la casilla **[!UICONTROL Follow-up messages]** y seleccione la plantilla de envío de seguimiento que se creó después de publicar el evento.
+1. Abra el **Envío de correo electrónico** actividad. En el asistente de creación, marque la casilla **[!UICONTROL Follow-up messages]** y seleccione la plantilla de envío de seguimiento que se creó después de publicar el evento.
 
    ![](assets/message-center_follow-up-template.png)
 
@@ -132,4 +132,4 @@ Una vez iniciado el flujo de trabajo, todos los clientes que hayan recibido la n
 
 >[!NOTE]
 >
->Si seleccionó la dimensión de segmentación **[!UICONTROL Profile]** al crear la configuración de evento, el mensaje de seguimiento también aprovechará la base de datos de marketing de Adobe Campaign. Consulte [Mensajes transaccionales de perfil ](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities).
+>Si seleccionó la variable **[!UICONTROL Profile]** dimensión de segmentación al crear la configuración de evento, el mensaje de seguimiento también utilizará la base de datos de marketing de Adobe Campaign. Consulte [Mensajes transaccionales de perfil ](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities).

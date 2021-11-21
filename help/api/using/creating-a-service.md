@@ -17,7 +17,7 @@ ht-degree: 8%
 
 # Creación de un servicio {#creating-a-service}
 
-La creación de servicios se realiza con una solicitud **POST** en el recurso de servicio.
+La creación de servicios se realiza con un **POST** en el recurso de servicio.
 
 Si desea crear el servicio con atributos específicos, agréguelos a la carga útil. De lo contrario, el nuevo servicio se creará con los predeterminados.
 

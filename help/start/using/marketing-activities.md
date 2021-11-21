@@ -85,9 +85,9 @@ Según el contexto, estas son las posibilidades:
 * Crear un SMS: [Más información](../../channels/using/creating-an-sms-message.md)
 * Crear una notificación push: [Más información](../../channels/using/preparing-and-sending-a-push-notification.md)
 * Crear un mensaje en la aplicación: [Más información](../../channels/using/about-in-app-messaging.md)
-* Crear un flujo de trabajo: [Más información](../../automating/using/building-a-workflow.md#creating-a-workflow)
+* Creación de un flujo de trabajo: [Más información](../../automating/using/building-a-workflow.md#creating-a-workflow)
 * Crear una página de aterrizaje: [Más información](../../channels/using/getting-started-with-landing-pages.md)
-* Crear una campaña: [Más información](../../start/using/programs-and-campaigns.md#creating-a-campaign)
+* Creación de una campaña [Más información](../../start/using/programs-and-campaigns.md#creating-a-campaign)
 * Crear un programa: [Más información](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]

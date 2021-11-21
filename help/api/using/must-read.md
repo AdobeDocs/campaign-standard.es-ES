@@ -31,13 +31,13 @@ ht-degree: 0%
 
 ## Representación de recursos
 
-Todos los recursos de API están disponibles en **JSON** con una extensión URL o dentro de un encabezado de aceptación HTTP:
+Todos los recursos de API están disponibles en **JSON** con una extensión URL o dentro de un encabezado aceptar HTTP:
 
 `GET /profileAndServices/<resourceName>.json`
 
 >[!NOTE]
 >
->Sin extensión en la URL, el formato **json es el predeterminado** para el tipo de contenido.
+>Sin extensión en la dirección URL, la variable **el formato json es el predeterminado** para el tipo de contenido.
 
 <br/>
 
@@ -67,7 +67,7 @@ Si el recurso de perfil se ha ampliado con un campo de clave personalizada, pued
 
 Las claves personalizadas no se pueden modificar con una operación de PATCH si el valor de clave es diferente de la clave de origen o si está utilizando su propia clave comercial como URI en lugar de la proporcionada por Adobe.
 
-Utilice una clave personalizada solo para **recursos de perfil de nivel superior**. La API devuelve las direcciones URL, que usted mismo nunca debe crear.
+Use una clave personalizada para **recursos de perfil de nivel superior** solo. La API devuelve las direcciones URL, que usted mismo nunca debe crear.
 
 <br/>
 

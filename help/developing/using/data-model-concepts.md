@@ -42,4 +42,4 @@ Es posible **exportar e importar** recursos personalizados, por ejemplo, del des
 
 >[!CAUTION]
 >
->Solo los [administradores](../../administration/using/users-management.md#functional-administrators) funcionales con la función **[!UICONTROL Administration]** y acceso a **Todas las unidades** pueden acceder a registros de envío, registros de mensajes, registros de seguimiento, registros de exclusión o de suscripción. Un usuario no administrador puede segmentar estos registros, pero comenzando en una tabla vinculada (perfiles, envío).
+>Solo funcional [administradores](../../administration/using/users-management.md#functional-administrators), con **[!UICONTROL Administration]** función y acceso a **Todo** las unidades pueden acceder a registros de envío, registros de mensajes, registros de seguimiento, registros de exclusión o de suscripción. Un usuario no administrador puede segmentar estos registros, pero comenzando en una tabla vinculada (perfiles, envío).

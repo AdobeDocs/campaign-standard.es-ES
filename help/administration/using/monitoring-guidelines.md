@@ -49,7 +49,7 @@ El Panel de control de Campaign le permite administrar varias configuraciones de
 
 **Objetos técnicos**
 
-El menú **[!UICONTROL Diagnosis]** es una herramienta clave para monitorear y analizar los diferentes objetos técnicos generados por la aplicación: esquemas de datos, páginas web, trabajos por lotes, etc. [Más información](../../developing/using/monitoring-data-model-changes.md)
+La variable **[!UICONTROL Diagnosis]** es una herramienta clave para monitorizar y analizar los distintos objetos técnicos generados por la aplicación: esquemas de datos, páginas web, trabajos por lotes, etc. [Más información](../../developing/using/monitoring-data-model-changes.md)
 
 **Exportación de auditorías**
 
@@ -58,7 +58,7 @@ Las auditorías de exportación permiten supervisar las exportaciones realizadas
 
 **Licencias**
 
-Con el menú **[!UICONTROL Licenses]**, supervise la información sobre las instancias: licencias instaladas, versiones de compilación y aceptaciones de acuerdos de términos.
+Con la variable **[!UICONTROL Licenses]** , supervise la información sobre las instancias: licencias instaladas, versiones de compilación y aceptaciones de acuerdos de términos.
 [Más información](../../administration/using/licenses.md)
 
 ## Monitorización de flujos de trabajo {#monitoring-workflows}
@@ -101,5 +101,5 @@ Con la función Alerta de entrega , puede configurar alertas que se envían auto
 
 **Informes dinámicos**
 
-Los informes dinámicos proporcionan varios informes para ayudarle a estar informado del rendimiento de los envíos: devoluciones, envíos más vistos por destinatarios, rendimiento de los envíos, etc.
+Los informes dinámicos proporcionan varios informes para mantenerle informado sobre el rendimiento de los envíos: devoluciones, envíos más vistos por destinatarios, rendimiento de los envíos, etc.
 [Más información](../../reporting/using/about-dynamic-reports.md)

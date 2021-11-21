@@ -17,7 +17,7 @@ ht-degree: 12%
 
 # Recuperación de la unidad geográfica de un perfil {#retrieving-geographical-unit}
 
-1. Realice una solicitud de GET en el PKey de perfil para recuperar la URL **geoUnit**.
+1. Realice una solicitud de GET en el PKey de perfil para recuperar el **geoUnit** URL.
 1. Realice una solicitud de GET en la dirección URL para recuperar más detalles sobre la unidad geográfica.
 
 <br/>

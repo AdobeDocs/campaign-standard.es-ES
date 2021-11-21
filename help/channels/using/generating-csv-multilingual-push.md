@@ -38,14 +38,14 @@ La funcionalidad push multilingüe requiere 14 columnas en el archivo CSV:
 1. language
 1. silenciarPush
 
-Compruebe el ejemplo de CSV haciendo clic en **[!UICONTROL Download a sample file]** en la ventana **[!UICONTROL Manage Content Variants]**. Para obtener más información, consulte esta [sección](../../channels/using/creating-a-multilingual-push-notification.md).
+Compruebe el ejemplo de CSV haciendo clic en el botón **[!UICONTROL Download a sample file]** en el **[!UICONTROL Manage Content Variants]** ventana. Para obtener más información, consulte [sección](../../channels/using/creating-a-multilingual-push-notification.md).
 
 * **title, messageBody, sound, badge, deeplinkURI, category, iosMediaAttachmentURL, androidMediaAttachmentURL**: contenido de carga útil push normal. Debe proporcionar esta información de forma similar a como se hace al crear envíos push.
-* **Campos** personalizados: utilice el formato JSON para los campos personalizados, por ejemplo,  `{"key1":"value1","key2":"value2"}`. Consulte el archivo de muestra anterior para ver un ejemplo de campos personalizados.
+* **Campos personalizados**: utilice el formato JSON para los campos personalizados, por ejemplo, `{"key1":"value1","key2":"value2"}`. Consulte el archivo de muestra anterior para ver un ejemplo de campos personalizados.
 * **isContentAvailable**: para la comprobación de contenido disponible, el valor 1 implica verdadero, el valor 0 implica falso. El valor predeterminado es 0. Si deja esta columna en blanco, el valor se considerará 0.
 * **isMutableContent**: para Contenido mutable, el valor 1 implica verdadero, el valor 0 implica falso. El valor predeterminado es 0. Si deja esta columna en blanco, el valor se considerará 0.
-* **configuración regional**: configuración regional es el campo para las variantes de idioma, por ejemplo &quot;en_us&quot; para EE. UU.-inglés y &quot;fr_fr&quot; para Francia-francés.
-* **idioma**: nombre del idioma asociado con la configuración regional. Por ejemplo, si la configuración regional es &quot;en_us&quot;, el nombre del idioma debe ser &quot;Inglés-Estados Unidos&quot;.
+* **locale**: configuración regional es el campo para las variantes de idioma, por ejemplo &quot;en_us&quot; para EE. UU.-inglés y &quot;fr_fr&quot; para Francia-francés.
+* **language**: nombre del idioma asociado con la configuración regional. Por ejemplo, si la configuración regional es &quot;en_us&quot;, el nombre del idioma debe ser &quot;Inglés-Estados Unidos&quot;.
 * **silenciarPush**: para el tipo de notificación push. Si se trata de una notificación push regular, el valor debe ser 0. Si se trata de una notificación push silenciosa, el valor debe ser 1. El valor predeterminado es 0. Si deja esta columna en blanco, el valor se considerará 0.
 
 ## Restricciones y directrices para la creación del archivo csv {#constraints-guideline-csv}
@@ -56,9 +56,9 @@ Debe incluir el nombre de cada columna en el archivo CSV. Si no utiliza ninguna 
 **las columnas &quot;configuración regional&quot; e &quot;idioma&quot; son obligatorias y el valor es único para cada fila.**
 Un valor vacío para esta columna provocará un error en la carga del archivo.
 
-**El orden de las columnas importa**. El orden de las columnas en el archivo cargado debe seguir el mismo formato que el archivo de muestra.
+**El orden de las columnas es importante**. El orden de las columnas en el archivo cargado debe seguir el mismo formato que el archivo de muestra.
 
-**Cita el contenido** de la columna. Dado que es un archivo CSV (es decir, valores separados por comas), cualquier contenido de columna que incluya coma (,) debe estar citado. Por ejemplo, &quot;Hola, Tom!&quot;
+**Enviar contenido de columna**. Dado que es un archivo CSV (es decir, valores separados por comas), cualquier contenido de columna que incluya coma (,) debe estar citado. Por ejemplo, &quot;Hola, Tom!&quot;
 
 **La codificación UTF-8 es necesaria para los caracteres internacionales.**
 
@@ -68,7 +68,7 @@ Un valor vacío para esta columna provocará un error en la carga del archivo.
 
 ## Inserción de un campo personalizado en el archivo csv {#personalization-field-csv}
 
-Si desea utilizar campos de personalización, debe incluir la etiqueta <span> en el archivo .
+Si desea utilizar campos de personalización, debe incluir <span> en el archivo .
 
 Para insertar el campo personalizado &quot;firstName&quot; en messageBody, el mensaje debe ser:
 

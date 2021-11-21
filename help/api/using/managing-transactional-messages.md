@@ -21,12 +21,12 @@ Una vez creado y publicado un evento transaccional, debe integrar el activador d
 
 >[!NOTE]
 >
->La configuración del evento se detalla en [esta sección](../../channels/using/configuring-transactional-event.md).
+>La configuración de eventos se detalla en [esta sección](../../channels/using/configuring-transactional-event.md).
 
 Por ejemplo, desea que se active un evento de &quot;Abandono del carro de compras&quot; cada vez que uno de los clientes abandone el sitio web antes de comprar los productos del carro de compras. Para ello, como desarrollador web, debe utilizar la API de mensajes transaccionales de REST.
 
-1. Envíe una solicitud según el método del POST, que déclencheur el [envío del evento transaccional](#sending-a-transactional-event).
-1. La respuesta a la solicitud del POST contiene una clave principal, que permite enviar una o varias solicitudes a través de una solicitud de GET. A continuación, puede obtener el estado del evento [](#transactional-event-status).
+1. Envíe una solicitud según el método del POST, que déclencheur la variable [envío del evento transaccional](#sending-a-transactional-event).
+1. La respuesta a la solicitud del POST contiene una clave principal, que permite enviar una o varias solicitudes a través de una solicitud de GET. A continuación, puede obtener la variable [estado del evento](#transactional-event-status).
 
 ## Envío de un evento transaccional {#sending-a-transactional-event}
 
@@ -69,8 +69,8 @@ Los datos del evento están contenidos dentro del cuerpo del POST JSON. La estru
 
 Se pueden añadir los siguientes parámetros opcionales al contenido del evento para administrar el envío de mensajes transaccionales vinculados al evento:
 
-* **caducidad**  (opcional): después de esta fecha, se cancela el envío del evento transaccional.
-* **scheduled**  (opcional): a partir de esta fecha, el evento transaccional se procesa y se envía el mensaje transaccional.
+* **caducidad** (opcional): después de esta fecha, se cancela el envío del evento transaccional.
+* **programado** (opcional): a partir de esta fecha, el evento transaccional se procesa y se envía el mensaje transaccional.
 
 >[!NOTE]
 >
@@ -134,7 +134,7 @@ Respuesta a la solicitud del POST.
 
 En la respuesta, el campo &quot;status&quot; permite saber si el evento se ha procesado o no:
 
-* **pendiente**: el evento está pendiente : el evento toma este estado cuando acaba de activarse.
+* **pending**: el evento está pendiente : el evento toma este estado cuando acaba de activarse.
 * **procesamiento**: el evento está pendiente de envío: se está transformando en un mensaje y este se está enviando.
 * **en pausa**: el proceso de eventos se está pausando. Ya no se procesa, pero se mantiene en cola en la base de datos de Adobe Campaign. Para obtener más información, consulte [esta sección](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication).
 * **procesado**: el evento se procesó y el mensaje se envió correctamente.

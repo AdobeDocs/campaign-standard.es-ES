@@ -19,9 +19,9 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->Tenga en cuenta que debe arrastrar y soltar las métricas **[!UICONTROL Message type]** en las tablas para dividir los datos según los tipos de envío, en este caso envíos en la aplicación.
+>Tenga en cuenta que debe arrastrar y soltar el **[!UICONTROL Message type]** a las tablas para dividir los datos en función de sus tipos de envío, en este caso envíos en la aplicación.
 
-El informe **En la aplicación** proporciona detalles relacionados con los envíos en la aplicación.
+La variable **En la aplicación** proporciona detalles relacionados con los envíos en la aplicación.
 
 Cada tabla está representada por números de resumen y gráficos. Puede cambiar cómo se muestran los detalles en sus respectivos ajustes de visualización.
 

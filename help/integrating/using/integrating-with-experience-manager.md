@@ -21,7 +21,7 @@ Esta integración entre Adobe Campaign Standard y Adobe Experience Manager le pe
 
 Por lo tanto, puede sacar el máximo partido a las funcionalidades de edición de contenido de Adobe Experience Manager, así como a las funciones de administración de datos y envío de Adobe Campaign. Tenga en cuenta que no puede realizar pruebas A/B para el contenido importado de Adobe Experience Manager.
 
-Adobe Campaign Standard es compatible con Adobe Experience Manager 6.1, 6.2, 6.3, 6.4 y 6.5. Las siguientes secciones presentan una descripción general de las acciones que puede ejecutar. Para obtener más información, consulte las secciones dedicadas a [configuración](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html) y [usar](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/campaign.html) de la integración.
+Adobe Campaign Standard es compatible con Adobe Experience Manager 6.1, 6.2, 6.3, 6.4 y 6.5. Las siguientes secciones presentan una descripción general de las acciones que puede ejecutar. Para obtener más información, consulte las secciones dedicadas a [configuración](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html) y [use](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/campaign.html) de la integración.
 
 >[!NOTE]
 >

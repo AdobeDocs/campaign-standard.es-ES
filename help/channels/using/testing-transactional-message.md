@@ -24,7 +24,7 @@ Antes de publicar el mensaje transaccional, puede crear un perfil de prueba espe
 
 Defina un perfil de prueba que se vincule al evento, lo que le permitirá previsualizar el mensaje y enviar una prueba relevante.
 
-1. En el [panel de mensajes transaccionales](../../channels/using/editing-transactional-message.md#accessing-transactional-messages), haga clic en el botón **[!UICONTROL Create test profile]**.
+1. En el [panel de mensajes transaccionales](../../channels/using/editing-transactional-message.md#accessing-transactional-messages), haga clic en **[!UICONTROL Create test profile]** botón.
 
    ![](assets/message-center_test-profile.png)
 
@@ -42,14 +42,14 @@ Defina un perfil de prueba que se vincule al evento, lo que le permitirá previs
 
 También puede crear un nuevo perfil de prueba o utilizar uno que ya exista en el menú **[!UICONTROL Test profiles]**. Para ello, haga lo siguiente:
 
-1. Haga clic en el logotipo **Adobe**, en la esquina superior izquierda, y luego seleccione **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
-1. En la sección **[!UICONTROL Event]**, seleccione el evento que acaba de crear. En este ejemplo, seleccione “Abandono del carro de compras (EVTcartAbandonment)”.
+1. Haga clic en el **Adobe** , en la esquina superior izquierda, seleccione **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
+1. En el **[!UICONTROL Event]** , seleccione el evento que acaba de crear. En este ejemplo, seleccione “Abandono del carro de compras (EVTcartAbandonment)”.
 1. Especifique la información que desea enviar en formato JSON en el cuadro de texto **[!UICONTROL Event data]**.
 
    ![](assets/message-center_3.png)
 
 1. Guarde los cambios.
-1. [Acceda al ](../../channels/using/editing-transactional-message.md#accessing-transactional-messages) mensaje que ha creado y seleccione el perfil de prueba actualizado.
+1. [Acceso al mensaje](../../channels/using/editing-transactional-message.md#accessing-transactional-messages) que ha creado y seleccione el perfil de prueba actualizado.
 
 **Temas relacionados:**
 
@@ -62,4 +62,4 @@ Una vez que haya creado uno o más perfiles de prueba específicos y guardado el
 
 ![](assets/message-center_10.png)
 
-Los pasos para enviar una prueba se detallan en la sección [Envío de pruebas](../../sending/using/sending-proofs.md).
+Los pasos para enviar una prueba se detallan en la sección [Envío de pruebas](../../sending/using/sending-proofs.md) para obtener más información.

@@ -72,7 +72,7 @@ Puede utilizar esta actividad para recuperar datos que luego se estructuran con 
 
 El protocolo HTTP permite iniciar la descarga de un archivo desde una cuenta externa o desde una dirección URL.
 
-Con este protocolo, puede elegir la opción **[!UICONTROL Use connection parameters defined in an external account]** . En este caso, seleccione la cuenta que desee y especifique la ruta del archivo que desea descargar.
+Con este protocolo, puede elegir **[!UICONTROL Use connection parameters defined in an external account]** . En este caso, seleccione la cuenta que desee y especifique la ruta del archivo que desea descargar.
 
 ![](assets/wkf_file_transfer_03.png)
 
@@ -83,7 +83,7 @@ También puede elegir la opción **[!UICONTROL Quick configuration]**. Solo es n
 
 El protocolo SFTP permite iniciar la descarga de un archivo desde una dirección URL o una cuenta externa.
 
-Con este protocolo, puede elegir la opción **[!UICONTROL Use connection parameters defined in an external account]** , luego seleccionar la cuenta que desee y especificar la ruta del archivo que desea descargar.
+Con este protocolo, puede elegir **[!UICONTROL Use connection parameters defined in an external account]** , seleccione la cuenta que desee y especifique la ruta del archivo que desea descargar.
 ![](assets/wkf_file_transfer_07.png)
 
 >[!CAUTION]
@@ -108,7 +108,7 @@ El protocolo Amazon S3 permite iniciar la descarga de un archivo desde una URL o
    >
    > Los comodines no son compatibles con Amazon S3.
    >
-   > Para dirigirse a varios archivos como `my_file_02` y `my _file_3433`, puede utilizar la siguiente sintaxis: `acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`.
+   > Para dirigir varios archivos, como `my_file_02` y `my _file_3433`, puede utilizar la siguiente sintaxis: `acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`.
 
 4. Si desea eliminar los archivos de origen cuando la transferencia se haya completado, marque **[!UICONTROL Delete the source files after transfer]**.
 
@@ -172,9 +172,9 @@ Cada vez que se ejecuta la actividad, la carpeta se marca de la siguiente manera
 
 ## Variables de salida {#output-variables}
 
-La actividad **[!UICONTROL Transfer file]** genera variables de evento como salida que puede aprovechar en otras actividades, por ejemplo para comprobar el número de archivos descargados mediante una actividad [Test](../../automating/using/test.md).
+La variable **[!UICONTROL Transfer file]** la actividad genera variables de evento como salida, que puede aprovechar en otras actividades, por ejemplo para comprobar el número de archivos descargados mediante un [Prueba](../../automating/using/test.md) actividad.
 
-Tenga en cuenta que las variables de evento también se pueden pasar a otro flujo de trabajo mediante una señal externa (consulte [Personalización de un flujo de trabajo con parámetros externos](../../automating/using/customizing-workflow-external-parameters.md)).
+Tenga en cuenta que las variables de eventos también se pueden pasar a otro flujo de trabajo mediante una señal externa (consulte [Personalización de un flujo de trabajo con parámetros externos](../../automating/using/customizing-workflow-external-parameters.md)).
 
 Las variables de salida disponibles son:
 

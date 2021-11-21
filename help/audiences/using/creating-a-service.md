@@ -67,4 +67,4 @@ Este vídeo muestra cómo crear un servicio y administrar sus suscripciones.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24673?quality=12)
 
-Hay disponibles más vídeos prácticos del Campaign Standard [aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
+Hay disponibles vídeos prácticos adicionales del Campaign Standard [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).

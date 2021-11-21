@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # Clics activos{#hot-clicks}
 
-Se puede acceder a este informe desde el botón **[!UICONTROL Reports]** de cada envío o mensaje transaccional.
+Se puede acceder a este informe desde la **[!UICONTROL Reports]** en cada envío o mensaje transaccional.
 
 ![](assets/delivery_reports_hot-clicks_4.png)
 
@@ -26,14 +26,14 @@ Presenta el contenido del mensaje (HTML o texto) con el porcentaje de clics en c
 
 ![](assets/delivery_reports_10.png)
 
-Si ha creado contenido dinámico para su envío, puede ver los porcentajes de cada condición que haya definido. Para obtener más información sobre la inserción de contenido condicional en un envío, consulte [Definición de contenido dinámico](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+Si ha creado contenido dinámico para su envío, puede ver los porcentajes de cada condición que haya definido. Para obtener más información sobre la inserción de contenido condicional en un envío, consulte [Definición del contenido dinámico](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
 Por ejemplo, imagine que ha creado un envío con las siguientes condiciones:
 
 * El enlace en la imagen principal es diferente si el destinatario es un hombre o una mujer.
 * También ha agregado un vínculo a una oferta especial que solo es visible para los destinatarios mayores de 25 años.
 
-Una vez enviado el mensaje, seleccione **[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]** en el panel de envío.
+Una vez enviado el mensaje, seleccione **[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]** del panel de envío.
 
 De forma predeterminada, no hay ningún perfil seleccionado. Solo se muestran los clics de los destinatarios cuyo sexo es desconocido y de los destinatarios menores de 25 años o cuya edad es desconocida.
 
@@ -43,7 +43,7 @@ Para mostrar los clics de las mujeres, haga clic en el botón **[!UICONTROL Chan
 
 ![](assets/delivery_reports_hot-clicks_2.png)
 
-Para mostrar los clics de los destinatarios mayores de 25, haga clic en el botón **[!UICONTROL Change profile]** y seleccione un perfil de prueba cuya fecha de nacimiento coincida con esta condición.
+Para mostrar los clics de los destinatarios mayores de 25 años, haga clic en el botón **[!UICONTROL Change profile]** y seleccione un perfil de prueba cuya fecha de nacimiento coincida con esta condición.
 
 Para obtener más información sobre los perfiles de prueba, consulte [Acerca de los perfiles de prueba](../../audiences/using/managing-test-profiles.md).
 
@@ -59,7 +59,7 @@ Una entrega de ejecución es un mensaje técnico no procesable y no funcional qu
 
    Por ejemplo, si el flujo de trabajo que administra este envío se ejecuta una vez al mes, habrá un envío de ejecución por mes. Además de esto, cada vez que se actualiza el contenido del envío, se crea un envío de ejecución adicional.
 
-   Para obtener más información sobre los envíos de correo electrónico recurrentes, consulte [Envío de correo electrónico](../../automating/using/email-delivery.md).
+   Para obtener más información sobre las entregas de correo electrónico recurrentes, consulte [Envío de correo electrónico](../../automating/using/email-delivery.md).
 
 * De forma predeterminada, una vez al mes para los mensajes transaccionales y cada vez que se edita y vuelve a publicar un mensaje transaccional.
 
@@ -69,9 +69,9 @@ Una entrega de ejecución es un mensaje técnico no procesable y no funcional qu
 >
 >Dado que los ID de las direcciones URL rastreadas son diferentes para cada ejecución, los datos de clics activos no se pueden acumular para todas las entregas de ejecución de un mensaje determinado. Solo se puede mostrar para una entrega de ejecución a la vez.
 
-Una vez enviado el mensaje, seleccione **[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]** en el panel de envío.
+Una vez enviado el mensaje, seleccione **[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]** del panel de envío.
 
-De forma predeterminada, se selecciona la última entrega de ejecución. Haga clic en el botón **[!UICONTROL Change execution delivery]** para seleccionar otra.
+De forma predeterminada, se selecciona la última entrega de ejecución. Haga clic en el **[!UICONTROL Change execution delivery]** para seleccionar otra.
 
 ![](assets/delivery_reports_hot-clicks_3.png)
 

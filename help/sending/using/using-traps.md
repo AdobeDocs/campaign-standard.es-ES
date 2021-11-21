@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # Uso de trampas {#using-traps}
 
-Al utilizar trampas, el mensaje se envía al [perfil de prueba](../../audiences/using/managing-test-profiles.md) tal como se envía al destinatario principal, como medio para identificar si el archivo cliente se está utilizando de forma fraudulenta.
+Cuando se utilizan trampas, el mensaje se envía a la variable [perfil de prueba](../../audiences/using/managing-test-profiles.md) del mismo modo que se envía al destinatario principal, como medio para identificar si el archivo cliente se está utilizando de forma fraudulenta.
 
 Las trampas se diseñaron originalmente para los envíos de correo postal. Permiten:
 
@@ -27,7 +27,7 @@ Las trampas se diseñaron originalmente para los envíos de correo postal. Permi
 * Guarde una copia exacta del correo enviado.
 * Compruebe que su proveedor de correo postal no utiliza incorrectamente la lista de clientes. De hecho, si se envía cualquier otra comunicación a la dirección del perfil de prueba, es posible que el archivo cliente se haya utilizado sin su conocimiento. Por este motivo, la dirección del perfil de prueba solo debe usarse para este fin.
 
-Para obtener más información sobre cómo añadir trampas a la audiencia de un correo postal, consulte [Añadir perfiles de prueba y trampa](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles).
+Para obtener más información sobre cómo añadir trampas a la audiencia de un correo postal, consulte [Adición de perfiles de prueba y trampa](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles).
 
 Para los demás canales de comunicación, puede añadir perfiles de prueba de trampa a su destinatario principal para:
 
@@ -43,11 +43,11 @@ Para utilizar un perfil de prueba como trampa, debe incluirse en la audiencia de
 
 Al definir la audiencia de un mensaje:
 
-1. En la pestaña **[!UICONTROL Test profiles]**, seleccione un perfil de prueba. Asegúrese de que tiene **[!UICONTROL Trap]** como uso previsto.
+1. En el **[!UICONTROL Test profiles]** seleccione un perfil de prueba. Asegúrese de que tiene **[!UICONTROL Trap]** como uso previsto.
 
    ![](assets/trap_select.png)
 
-1. Una vez que el contenido del mensaje esté listo, haga clic en el botón **[!UICONTROL Prepare]** . Consulte [Preparación del envío](../../sending/using/preparing-the-send.md).
+1. Una vez que el contenido del mensaje esté listo, haga clic en el botón **[!UICONTROL Prepare]** botón. Consulte [Preparación del envío](../../sending/using/preparing-the-send.md).
    >[!NOTE]
    >
    >Asegúrese de seleccionar un objetivo principal. De lo contrario, el mensaje no se puede enviar.

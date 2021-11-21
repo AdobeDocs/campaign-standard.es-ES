@@ -27,4 +27,4 @@ Se pueden enviar diferentes tipos de correos electrónicos:
 * Correos electrónicos de prueba A/B: pruebe hasta 3 versiones de un correo electrónico.
 * Correos electrónicos de transacción: correos electrónicos individuales que se activan según el comportamiento de los clientes.
 
-Para conocer las prácticas recomendadas al crear y enviar correos electrónicos, consulte la sección [Prácticas recomendadas de envío](../../sending/using/delivery-best-practices.md).
+Para conocer las prácticas recomendadas al crear y enviar correos electrónicos, consulte la [Prácticas recomendadas relacionadas con las entregas](../../sending/using/delivery-best-practices.md) para obtener más información.

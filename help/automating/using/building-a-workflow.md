@@ -137,4 +137,4 @@ Este vídeo muestra cómo crear un flujo de trabajo.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
-Hay disponibles más vídeos prácticos del Campaign Standard [aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
+Hay disponibles vídeos prácticos adicionales del Campaign Standard [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).

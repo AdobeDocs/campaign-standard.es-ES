@@ -16,7 +16,7 @@ ht-degree: 77%
 
 ---
 
-# Configuración de canales de correo electrónico{#configuring-email-channel}
+# Configuración del canal de correo electrónico{#configuring-email-channel}
 
 Como [administrador](../../administration/using/users-management.md#functional-administrators) de Campaign, puede configurar los canales de correo electrónico. Estas opciones avanzadas incluyen parámetros generales de canal de correo electrónico, cuentas de enrutamiento de correo electrónico, reglas de procesamiento de correo electrónico y propiedades de correo electrónico. En esta página, aprenderá a editar los valores predeterminados del correo electrónico general y a enviar parámetros.
 
@@ -57,7 +57,7 @@ La pantalla de configuración de correo electrónico le permite definir los par�
 
    >[!IMPORTANT]
    >
-   >El número máximo de reintentos que se deben realizar y el retraso mínimo entre reintentos ahora se basan en el rendimiento histórico y actual de una IP en un dominio determinado. Se ignorarán las configuraciones **[!UICONTROL Retry period]** y **[!UICONTROL Number of retries]** en Campaign.
+   >El número máximo de reintentos que se deben realizar y el retraso mínimo entre reintentos ahora se basan en el rendimiento histórico y actual de una IP en un dominio determinado. La variable **[!UICONTROL Retry period]** y **[!UICONTROL Number of retries]** se ignorará la configuración de Campaign.
 
    <!--This section indicates how many retries should be performed the day after the send is started (**Number of retries**) and the minimum delay between retries (**Retry period**). By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.-->
 
@@ -90,7 +90,7 @@ Los administradores pueden acceder a **[!UICONTROL Email processing rules]** a t
 >
 >Los dominios de correo electrónico y las reglas MX ahora se administran automáticamente<!--by the Adobe Campaign Enhanced MTA (Message Transfer Agent)--> y no se pueden cambiar.
 
-* **La firma de autenticación por correo electrónico de DKIM (DomainKeys Identified Mail)**  se realiza para todos los mensajes con todos los dominios. No se firma con **ID del remitente**, **DomainKeys** o **S/MIME**.
+* **DKIM (DomainKeys Identified Mail)** la firma de autenticación por correo electrónico se realiza para todos los mensajes con todos los dominios. No firma con **ID del remitente**, **DomainKeys** o **S/MIME**.
 * Las reglas MX personalizan automáticamente el rendimiento por dominio en función de su propia reputación histórica de correo electrónico y de los comentarios en tiempo real procedentes de los dominios a los que envía correos electrónicos.
 
 <!--Note that the email domains and the MX rules are now managed by the Adobe Campaign Enhanced MTA:
@@ -161,7 +161,7 @@ Los mensajes no entregados temporalmente están sujetos a un reintento automáti
 
 >[!IMPORTANT]
 >
->El retraso mínimo entre reintentos y el número máximo de reintentos que se van a realizar ahora se basa en el rendimiento histórico y actual de una IP en un dominio determinado. Se ignorarán las configuraciones **[!UICONTROL Retry period]** y **[!UICONTROL Max. number of retries]** en Campaign.
+>El retraso mínimo entre reintentos y el número máximo de reintentos que se van a realizar ahora se basa en el rendimiento histórico y actual de una IP en un dominio determinado. La variable **[!UICONTROL Retry period]** y **[!UICONTROL Max. number of retries]** se ignorará la configuración de Campaign.
 
 La **configuración de la duración de la entrega** (definida en la sección [Parámetros del periodo de validez](#validity-period-parameters)) **configurada en Campaign se seguirá cumpliendo, pero solo hasta 3,5 días**. En ese momento, cualquier mensaje de la cola de reintentos se eliminará de la cola y se enviará de nuevo como una devolución. Para obtener más información sobre los fallos de entrega, consulte [esta sección](../../sending/using/understanding-delivery-failures.md#about-delivery-failures).
 
@@ -308,35 +308,35 @@ La sección **[!UICONTROL Access authorization]** contiene los siguientes parám
 
 ## Configuración heredada {#legacy-settings}
 
-Si está **NOT** ejecutando la versión más reciente de Campaign, los parámetros y las secciones de interfaz de usuario que se describen a continuación le seguirán siendo aplicables.
+Si **NOT** al ejecutar la versión más reciente de Campaign, se le seguirán aplicando los parámetros y las secciones de interfaz de usuario que se describen a continuación.
 
 ### Reintentos {#legacy-retries}
 
-La configuración **[!UICONTROL Retries]** del [menú Configuración](#email-channel-parameters) y de los [Parámetros de envío](#retries-parameters) de las propiedades de correo electrónico indican cuántos reintentos se deben realizar el día después de que se inicie el envío (**[!UICONTROL Number of retries]** / **[!UICONTROL Max. number of retries]**) y el retardo mínimo entre los reintentos (**[!UICONTROL Retry period]**).
+La variable **[!UICONTROL Retries]** en la [Menú Configuración](#email-channel-parameters) y en el [Envío de parámetros](#retries-parameters) de las propiedades del correo electrónico indican cuántos reintentos se deben realizar el día después de iniciar el envío (**[!UICONTROL Number of retries]** / **[!UICONTROL Max. number of retries]**) y el retardo mínimo entre los reintentos (**[!UICONTROL Retry period]**).
 
 El número de reintentos se puede cambiar globalmente (póngase en contacto con el administrador técnico del Adobe) o para cada envío o plantilla de envío.
 
-De forma predeterminada, se programan cinco reintentos para el primer día con un intervalo mínimo de una hora, distribuidos en las 24 horas del día. Después de ello, se programa un reintento por día hasta la fecha límite de envío, que se define globalmente en la sección **[!UICONTROL Delivery parameters]** del menú **[!UICONTROL Configuration]** o en la sección **[!UICONTROL Validity period]** en el nivel de envío (consulte la sección [Duración de envío](#legacy-delivery-duration) a continuación).
+De forma predeterminada, se programan cinco reintentos para el primer día con un intervalo mínimo de una hora, distribuidos en las 24 horas del día. Después de ello, se programa un reintento por día hasta la fecha límite de envío, que se define globalmente en la variable **[!UICONTROL Delivery parameters]** de la sección **[!UICONTROL Configuration]** o en la **[!UICONTROL Validity period]** en el nivel de entrega (consulte la sección [Duración de la entrega](#legacy-delivery-duration) a continuación).
 
 ### Duración de la entrega {#legacy-delivery-duration}
 
-El parámetro **[!UICONTROL Message delivery duration]** del [menú de configuración](#email-channel-parameters) le permite especificar el lapso de tiempo en el que se reintentará cualquier mensaje del envío que detecte un error temporal o una devolución del mensaje.
+La variable **[!UICONTROL Message delivery duration]** en el [Menú Configuración](#email-channel-parameters) permite especificar el lapso de tiempo en el que se reintentará cualquier mensaje del envío que detecte un error temporal o una devolución del mensaje.
 
-El parámetro **[!UICONTROL Delivery duration]** o **[!UICONTROL Validity limit for sending messages]** de la sección [Parámetros del periodo de validez](#validity-period-parameters) permite especificar la duración durante la cual se pueden enviar los mensajes.
+La variable **[!UICONTROL Delivery duration]** o **[!UICONTROL Validity limit for sending messages]** en el [Parámetros del periodo de validez](#validity-period-parameters) permite especificar la duración durante la cual se pueden enviar los mensajes.
 
 ### Reglas de procesamiento de correo electrónico {#legacy-email-processing-rules}
 
-Los administradores pueden acceder y modificar las reglas **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** y **[!UICONTROL Domain management]** a través del **[!UICONTROL Administration > Channels > Email > Email processing rules]** [menú](#email-processing-rules).
+La variable **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** y **[!UICONTROL Domain management]** los administradores pueden acceder a las reglas y modificarlas a través del **[!UICONTROL Administration > Channels > Email > Email processing rules]** [menú](#email-processing-rules).
 
 ### Clasificación del correo rechazado {#legacy-bounce-mail-qualification}
 
-Para enumerar los distintos rechazos y sus tipos de error asociados y sus motivos, haga clic en el logotipo **Adobe** en la parte superior izquierda y, a continuación, seleccione **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
+Para enumerar los distintos rechazos y sus tipos de error asociados con motivos, haga clic en el botón **Adobe** , en la parte superior izquierda, seleccione **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
 
 Las devoluciones pueden tener los siguientes estados de calificación:
 
 * **[!UICONTROL To qualify]**: el correo rechazado debe estar clasificado. El equipo de entrega debe realizar la clasificación para garantizar que la capacidad de entrega de la plataforma funciona correctamente. Siempre y cuando no esté clasificado, el correo rechazado no se utiliza para enriquecer la lista de reglas de procesamiento de correo electrónico.
-* **[!UICONTROL Keep]**: el correo rechazado se ha clasificado y el flujo de trabajo  **Update for** deliverability lo usa para compararlo con las reglas de procesamiento de correo electrónico existentes y enriquecer la lista.
-* **[!UICONTROL Ignore]**: el correo rechazado se ha clasificado, pero el flujo de trabajo  **Update for** deliverability no lo usa. Por lo tanto, no se envía a las instancias de cliente.
+* **[!UICONTROL Keep]**: el correo rechazado fue clasificado y el **Actualización de la capacidad de entrega** flujo de trabajo que se comparará con las reglas de procesamiento de correo electrónico existentes y enriquecerá la lista.
+* **[!UICONTROL Ignore]**: el correo rechazado se ha clasificado, pero el **Actualización de la capacidad de entrega** flujo de trabajo. Por lo tanto, no se envía a las instancias de cliente.
 
 >[!NOTE]
 >
@@ -346,6 +346,6 @@ Las devoluciones pueden tener los siguientes estados de calificación:
 
 ### Informes de indicadores entregados {#legacy-delivered-status-report}
 
-En la vista **[!UICONTROL Summary]** de cada mensaje, el porcentaje **[!UICONTROL Delivered]** aumentará progresivamente durante el periodo de validez del envío, a medida que se devuelvan los informes de devoluciones leves y duras.
+En el **[!UICONTROL Summary]** vista de cada mensaje, la variable **[!UICONTROL Delivered]** el porcentaje aumentará progresivamente a lo largo del periodo de validez de la entrega, a medida que se devuelvan los informes de devoluciones leves y duras.
 
-Los mensajes de devolución en blanco se mostrarán como **[!UICONTROL Failed]** después del primer día del envío y se volverán a intentar en cada día adicional del periodo de validez del envío.
+Los mensajes de devolución en blanco se mostrarán como **[!UICONTROL Failed]** después del día uno de la entrega y se vuelven a intentar en cada día adicional del periodo de validez de la entrega.

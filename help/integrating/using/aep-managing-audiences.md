@@ -24,7 +24,7 @@ ht-degree: 3%
 
 ## Acceso a las audiencias de Adobe Experience Platform
 
-Para acceder al Generador de segmentos de Adobe Experience Platform, vaya a la tarjeta **[!UICONTROL Audiences]** en la página de inicio del Campaign Standard (o el enlace **[!UICONTROL Audiences]** en el encabezado) y, a continuación, seleccione el entorno **[!UICONTROL Adobe Experience Platform]** .
+Para acceder al generador de segmentos de Adobe Experience Platform, vaya a la **[!UICONTROL Audiences]** en la página de inicio del Campaign Standard (o en la **[!UICONTROL Audiences]** en el encabezado) y, a continuación, seleccione la **[!UICONTROL Adobe Experience Platform]** entorno.
 
 ![](assets/aep_audiences_access.png)
 
@@ -38,7 +38,7 @@ Hay una barra de búsqueda y un filtro disponibles para ayudarle a encontrar el 
 
 Para crear una audiencia de Adobe Experience Platform directamente en el Campaign Standard, siga estos pasos:
 
-1. En la página de la lista de segmentos de Adobe Experience Platform, haga clic en el botón **[!UICONTROL New audience]** situado en la esquina derecha.
+1. En la página de la lista de segmentos de Adobe Experience Platform, haga clic en el **[!UICONTROL New audience]** situado en la esquina derecha.
 
    ![](assets/aep_audiences_creation_create.png)
 
@@ -48,9 +48,9 @@ Para crear una audiencia de Adobe Experience Platform directamente en el Campaig
 
    ![](assets/aep_audiences_creation_edit_name.png)
 
-1. Para crear correctamente un segmento, debe seleccionar una **directiva de combinación** que coincida con su propósito de marketing para este segmento.
+1. Para crear un segmento correctamente, debe seleccionar una **combinar directiva** que coincida con su propósito de marketing para este segmento.
 
-   En el panel de configuración, se selecciona una directiva de combinación predeterminada de Platform . Para obtener más información sobre las políticas de combinación, consulte la sección dedicada en la [guía del usuario del Generador de segmentos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+   En el panel de configuración, se selecciona una directiva de combinación predeterminada de Platform . Para obtener más información sobre las políticas de combinación, consulte la sección dedicada en la sección [Guía del usuario del Generador de segmentos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -60,7 +60,7 @@ Para crear una audiencia de Adobe Experience Platform directamente en el Campaig
 
    ![](assets/aep_audiences_creation_query.png)
 
-La audiencia ya está lista para su activación y puede utilizarla como destinatario para sus campañas (consulte [Segmentación de audiencias de Adobe Experience Platform](../../integrating/using/aep-targeting-audiences.md)).
+La audiencia ya está lista para su activación, puede utilizarla como destinatario para sus campañas (consulte [Segmentación de las audiencias de Adobe Experience Platform](../../integrating/using/aep-targeting-audiences.md)).
 
 ## Edición de audiencias
 

@@ -23,11 +23,11 @@ Adobe Campaign permite asignar un conjunto de funciones a los usuarios para defi
 
 Las funciones específicas y las autorizaciones correspondientes se detallan en las secciones siguientes: [comprensión de funciones](../../administration/using/list-of-roles.md) y [autorizaciones](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en).
 
-Los administradores pueden administrar usuarios desde el Admin Console. Los usuarios se sincronizan automáticamente con Adobe Campaign. Para obtener más información, consulte la documentación [Admin Console](https://helpx.adobe.com/es/enterprise/using/users.html).
+Los administradores pueden administrar usuarios desde el Admin Console. Los usuarios se sincronizan automáticamente con Adobe Campaign. Para obtener más información, consulte [Admin Console](https://helpx.adobe.com/es/enterprise/using/users.html) documentación.
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
 
-Para ver los usuarios en Adobe Campaign, haga clic en el logotipo **Adobe**, en la esquina superior izquierda, y luego seleccione **[!UICONTROL Administration > Users & Security > Users]**.
+Para ver los usuarios en Adobe Campaign, haga clic en el botón **Adobe** , en la esquina superior izquierda, seleccione **[!UICONTROL Administration > Users & Security > Users]**.
 
 Para acceder a la interfaz de administración de usuarios desde Adobe Campaign, haga clic en **[!UICONTROL User administration]**.
 
@@ -43,12 +43,12 @@ Para acceder a la interfaz de administración de usuarios desde Adobe Campaign, 
 
 Esta segmentación de usuarios no es obligatoria, pues solo representa el uso más común de Adobe Campaign.
 
-Esta sección le ayuda a comprender los tipos principales de usuarios de Adobe Campaign. Para obtener más información sobre las funciones específicas que puede tener un usuario (iniciar entregas, exportar, preparar entregas, etc.), consulte las páginas [Lista de funciones](../../administration/using/list-of-roles.md) y [Administración de grupos y usuarios](../../administration/using/managing-groups-and-users.md) .
+Esta sección le ayuda a comprender los tipos principales de usuarios de Adobe Campaign. Para obtener más información sobre las funciones específicas que puede retener un usuario (iniciar entregas, exportar, preparar entregas, etc.), consulte [Lista de funciones](../../administration/using/list-of-roles.md) y [Administración de grupos y usuarios](../../administration/using/managing-groups-and-users.md) páginas.
 
 Preferiremos centrarnos en cómo las diferentes tareas de Adobe Campaign están divididas en tres tipos de usuarios principales:
 
 * [Administradores funcionales](#functional-administrators): entre todos los usuarios de su organización, son los más técnicos.
-* [Usuarios](#advanced-users) avanzados: configuran todos los elementos que los especialistas en marketing necesitan para enviar y supervisar sus envíos.
+* [Usuarios avanzados](#advanced-users): configuran todos los elementos que los especialistas en marketing necesitan para enviar y supervisar sus envíos.
 * [Usuarios básicos](#basic-users): son los especialistas en marketing que personalizan, entregan y supervisan sus campañas.
 
 >[!NOTE]
@@ -61,7 +61,7 @@ Los administradores funcionales son usuarios que pueden acceder a las partes má
 
 >[!IMPORTANT]
 >
->Solo los administradores funcionales con la función **[!UICONTROL Administration]** y acceso a **Todas las unidades** pueden acceder a los registros de envío, los registros de mensajes, los registros de seguimiento, los registros de exclusión, los registros de propuestas y los registros de suscripción. Un usuario no administrador puede segmentar estos registros, pero comenzando en una tabla vinculada (perfiles, envío).
+>Solo administradores funcionales con **[!UICONTROL Administration]** función y acceso a **Todo** las unidades pueden acceder a registros de envío, registros de mensajes, registros de seguimiento, registros de exclusión, registros de propuestas y registros de suscripción. Un usuario no administrador puede segmentar estos registros, pero comenzando en una tabla vinculada (perfiles, envío).
 
 Los administradores funcionales son los únicos usuarios que pueden acceder al menú **[!UICONTROL Administration]** en la interfaz de Adobe Campaign. Dado que estos usuarios necesitan acceder a los recursos técnicos, se les deben asignar funciones más avanzadas, como las funciones **[!UICONTROL Administration]** y **[!UICONTROL Datamodel]** integradas. Estas funciones se combinan en el grupo de seguridad **[!UICONTROL Administrators]** integrado. Para obtener más información, consulte [esta sección](../../administration/using/list-of-roles.md).
 
@@ -120,7 +120,7 @@ Para agregar un usuario a su instancia, primero debe crearlo en el Admin Console
 
    ![](assets/create_user_3.png)
 
-1. En la pestaña **[!UICONTROL Assign products]**, asigne uno o varios grupos de seguridad al usuario. Para obtener más información sobre los grupos de seguridad, consulte esta [página](../../administration/using/managing-groups-and-users.md).
+1. En el **[!UICONTROL Assign products]** , asigne uno o varios grupos de seguridad al usuario. Para obtener más información sobre los grupos de seguridad, consulte esta [página](../../administration/using/managing-groups-and-users.md).
 
    Haga clic en **[!UICONTROL Save]** cuando termine de configurar.
 
@@ -160,4 +160,4 @@ Este vídeo muestra cómo administrar los derechos de acceso de los usuarios.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24671?quality=12)
 
-Hay disponibles más vídeos prácticos del Campaign Standard [aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
+Hay disponibles vídeos prácticos adicionales del Campaign Standard [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).

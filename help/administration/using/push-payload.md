@@ -18,17 +18,17 @@ ht-degree: 4%
 
 # Explicación de la estructura de carga de las notificaciones push {#push-payload}
 
-Adobe Campaign le permite enviar notificaciones push personalizadas y segmentadas a dispositivos móviles iOS y Android (aplicación móvil).
+Adobe Campaign le permite enviar notificaciones push personalizadas y segmentadas a aplicaciones móviles (aplicación móvil) de iOS y Android.
 
 Cada notificación push recibida en una aplicación móvil contiene información que la aplicación utiliza para mostrar la notificación push si se envía una notificación push de Alert y, probablemente, también realice algún cálculo adicional, especialmente si se envía una notificación push silenciosa.
 
-El código de la aplicación móvil recibe esta información en un controlador de eventos que indica que se recibió una notificación push. Al enviar notificaciones push desde Adobe Campaign Standard, la información recibida en la aplicación móvil también puede contener información específica del Campaign Standard que se puede utilizar para aprovechar algunas funciones proporcionadas por el Campaign Standard. Además, la carga útil puede contener datos personalizados que la aplicación móvil puede consumir.
+El código de la aplicación móvil recibe esta información en un controlador de eventos que indica que se ha recibido una notificación push. Al enviar notificaciones push desde Adobe Campaign Standard, la información recibida en la aplicación móvil también puede contener información específica del Campaign Standard que se puede utilizar para aprovechar algunas funciones proporcionadas por el Campaign Standard. Además, la carga útil puede contener datos personalizados que la aplicación móvil puede consumir.
 
 Este documento describe la estructura de la carga útil recibida en una aplicación móvil cuando una notificación push se envía correctamente a una aplicación desde Adobe Campaign Standard.
 
 >[!NOTE]
 >
->La estructura de carga varía según el tipo de aplicación móvil (es decir, la aplicación iOS o la aplicación Android habilitada para FCM).
+>La estructura de carga varía según el tipo de aplicación móvil (es decir, la aplicación iOS, la aplicación Android habilitada para FCM).
 
 ## Estructura de la carga útil push {#push-payload-structure}
 
@@ -38,7 +38,7 @@ Los atributos de carga útil y sus valores variarán según las configuraciones 
 
 ### Para la aplicación móvil de iOS {#payload-structure-ios}
 
-**Carga útil de muestra enviada desde Adobe Campaign a la aplicación iOS:**
+**Carga útil de muestra enviada desde la aplicación Adobe Campaign a iOS:**
 
 ```
 {
@@ -78,7 +78,7 @@ Los atributos de carga útil y sus valores variarán según las configuraciones 
     "_mId":"h138a"} 
 ```
 
-**Carga útil de muestra de JSON para usar con el probador APNS de  [iOS](https://pushtry.com/)**
+**Carga útil de ejemplo JSON para usar con [iOS APNS Tester](https://pushtry.com/)**
 
 ```
 {
@@ -152,7 +152,7 @@ Puede encontrar información detallada sobre los atributos dentro de las aplicac
 }
 ```
 
-**Carga útil de muestra de JSON para utilizar el evaluador de FCM de  [Google](https://pushtry.com/)**
+**Carga útil de muestra de JSON para usar [Google FCM Tester](https://pushtry.com/)**
 
 ```
 {
@@ -212,17 +212,17 @@ Para comprender los aspectos de una carga útil de android, consulte [Conceptos 
 | Añadir un vínculo profundo | uri | NA | Un vínculo profundo le permite llevar a los usuarios directamente al contenido ubicado dentro de la aplicación (en lugar de abrir una página del explorador web). |
 | Categoría | categoría | categoría | Para mostrar acciones personalizadas con una notificación remota. <br>La clave de categoría ayuda al sistema a mostrar las acciones para esa categoría como botones en la interfaz de alerta. |
 | Campos personalizados | custom_field1, custom_field2 ... | custom_field1, custom_field2 ... | Cualquier dato personalizado que desee enviar a su aplicación. |
-| URL de contenido multimedia enriquecido (archivos de imagen, gif, audio y vídeo)<br>(Solo aplicable para iOS 10 o posterior) | media-attachment-url | NA | URL de los archivos multimedia para añadir contenido enriquecido a la notificación. <br>Al proporcionar un valor para esta URL, el indicador de contenido mutable se envía automáticamente a la carga útil. <br> (Solo aplicable para iOS 10 o posterior) |
-| Contenido mutable <br> (solo aplicable para iOS 10 o superior) | contenido mutable | NA | La extensión del servicio de notificaciones de su aplicación &quot;interceptará&quot; todas las notificaciones remotas con la clave de contenido mutable y le permitirá gestionar/manipular el contenido de la carga útil de la solicitud, que se puede utilizar para personalizar la notificación. Algunos casos de uso de esta función son la descarga y visualización de varios medios, lo que descifra los datos cifrados presentes en la carga útil push. Puede encontrar más información en [Modificar la carga útil de una notificación remota](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). <br>(Solo aplicable para iOS 10 o posterior) |
-| Contenido disponible | contenido disponible | NA | Al seleccionar esta opción, se habilita la activación de una aplicación de iOS mientras está en estado de fondo/suspendido. Despertar implica que la aplicación se ejecuta en segundo plano y que el controlador de eventos adecuado responsable de la recepción de la carga de datos de la notificación push obtiene un control y puede utilizar los datos para realizar cualquier cálculo, incluida, entre otras cosas, la creación de notificaciones push personalizadas y la visualización de lo mismo. Encontrará más información en [Despertar aplicación con entrega de notificaciones](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html). |
+| URL de contenido multimedia enriquecido (archivos de imagen, gif, audio y vídeo)<br>(Solo aplicable para iOS 10 o superior) | media-attachment-url | NA | URL de los archivos multimedia para añadir contenido enriquecido a la notificación. <br>Al proporcionar un valor para esta URL, el indicador de contenido mutable se envía automáticamente a la carga útil. <br> (Solo aplicable para iOS 10 o superior) |
+| Contenido mutable <br> (Solo aplicable para iOS 10 o superior) | contenido mutable | NA | La extensión del servicio de notificaciones de su aplicación &quot;interceptará&quot; todas las notificaciones remotas con la clave de contenido mutable y le permitirá gestionar/manipular el contenido de la carga útil de la solicitud, que se puede utilizar para personalizar la notificación. Algunos casos de uso de esta función son la descarga y visualización de varios medios, lo que descifra los datos cifrados presentes en la carga útil push. Encontrará más información en [Modificación de la carga útil de una notificación remota](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). <br>(Solo aplicable para iOS 10 o superior) |
+| Contenido disponible | contenido disponible | NA | Al seleccionar esta opción, se habilita la activación de una aplicación de iOS mientras está en estado de fondo/suspendido. Despertar implica que la aplicación se ejecuta en segundo plano y que el controlador de eventos adecuado responsable de la recepción de la carga de datos de la notificación push obtiene un control y puede utilizar los datos para realizar cualquier cálculo, incluida, entre otras cosas, la creación de notificaciones push personalizadas y la visualización de lo mismo. Encontrará más información en [Activación de la aplicación con entrega de notificaciones](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html). |
 | URL de contenido multimedia enriquecido (archivos de imagen)<br>(Solo aplicable para Android) | NA | media-attachment-url | URL de los archivos de imagen para añadir contenido enriquecido a la notificación. |
-| NA | _mId<br>_dId | _mId <br>_dId | Valores de broadlogId y deliveryId.<br>Estos atributos son necesarios si la aplicación desea llamar a un postback de seguimiento para rastrear cuándo se hizo clic o abrió la notificación push. El servidor de aplicaciones calcula esta información y la envía internamente sin intervención del usuario.<br>En esta  [página](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback) se puede encontrar información sobre los postbacks. |
+| NA | _mId<br>_dId | _mId <br>_dId | Valores de broadlogId y deliveryId.<br>Estos atributos son necesarios si la aplicación desea llamar a un postback de seguimiento para rastrear cuándo se hizo clic o abrió la notificación push. El servidor de aplicaciones calcula esta información y la envía internamente sin intervención del usuario.<br>En esta sección se puede encontrar información sobre los postbacks [página](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback). |
 
 ### Cómo recuperar la información de carga útil en el código de la aplicación móvil {#payload-information}
 
 La información de carga útil que envía el servidor de aplicaciones la recibe el código de la aplicación móvil en un controlador de eventos que indica que se recibió una notificación push. Este evento variaría en función de la plataforma móvil en la que se esté trabajando y también en función de si la aplicación se está ejecutando en primer o segundo plano. La siguiente documentación le ayuda a identificar el controlador de eventos que desea gestionar en función de su caso de uso.
 
-* Aplicaciones iOS: **Gestión de notificaciones remotas** en [Notificaciones remotas](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html).
+* Aplicaciones de iOS: **Gestión de notificaciones remotas** en [Notificaciones remotas](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html).
 * Aplicaciones de Android: [Recepción de mensajes en una aplicación cliente de Android](https://firebase.google.com/docs/cloud-messaging/android/receive)
 
 **Ejemplo para la aplicación móvil de iOS**

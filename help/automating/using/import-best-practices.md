@@ -10,7 +10,7 @@ exl-id: bb651b91-145f-4e87-92dd-a8b04662e380
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '568'
-ht-degree: 80%
+ht-degree: 82%
 
 ---
 
@@ -32,11 +32,11 @@ En muchos proyectos, las importaciones se crean sin actividad de **[!UICONTROL D
 
 No dé por hecho que los datos entrantes son coherentes y correctos, o que el departamento de TI o el iniciador de Adobe Campaign se pueden encargar de ello. Durante el proyecto, tenga en cuenta la limpieza de los datos. Deduplique, reconcilie y mantenga la coherencia al importar datos.
 
-Un ejemplo de plantilla de flujo de trabajo genérica diseñada para importar datos está disponible en el [Ejemplo: Importar plantilla de flujo de trabajo](../../automating/using/creating-import-workflow-templates.md) .
+Hay disponible un ejemplo de plantilla de flujo de trabajo genérica diseñada para importar datos en el [Ejemplo: Importar plantilla de flujo de trabajo](../../automating/using/creating-import-workflow-templates.md) para obtener más información.
 
 >[!NOTE]
 >
->También puede utilizar [plantillas de importación](../../automating/using/importing-data-with-import-templates.md). Son plantillas de flujo de trabajo definidas por un administrador que, una vez activadas, solo ofrece la posibilidad de especificar el archivo que contiene los datos que se van a importar.
+>También puede utilizar [importar plantillas](../../automating/using/importing-data-with-import-templates.md). Son plantillas de flujo de trabajo definidas por un administrador que, una vez activadas, solo ofrece la posibilidad de especificar el archivo que contiene los datos que se van a importar.
 
 **Temas relacionados:**
 

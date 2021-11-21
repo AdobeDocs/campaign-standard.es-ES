@@ -32,9 +32,9 @@ La armonización de todos los canales de marketing no es una tarea imposible. Co
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-**Aproveche el** panel de mensajes de Campaign para configurar y enviar los mensajes desde una sola ubicación, así como para acceder a varias funcionalidades, como la programación, la mensajería multilingüe...
+**Aprovechar el panel de mensajes de Campaign** para configurar y enviar los mensajes desde una sola ubicación, así como para acceder a varias funcionalidades como la programación, la mensajería multilingüe...
 
-**Administre** plantillas para configurar las propiedades de los mensajes y le permita ganar tiempo y coherencia en su estrategia de mensajería. Por ejemplo, para los correos electrónicos, el administrador funcional encargado de configurar las plantillas puede definir los parámetros estándar de un correo electrónico, como la audiencia, la programación o el contenido, los parámetros avanzados relacionados con el envío, la validez, el seguimiento, etc., o los parámetros de preconfiguración relativos a la segmentación y la personalización (contexto de segmentación).
+**Administrar plantillas** para configurar las propiedades de los mensajes y permitirle ganar tiempo y coherencia en su estrategia de mensajería. Por ejemplo, para los correos electrónicos, el administrador funcional encargado de configurar las plantillas puede definir los parámetros estándar de un correo electrónico, como la audiencia, la programación o el contenido, los parámetros avanzados relacionados con el envío, la validez, el seguimiento, etc., o los parámetros de preconfiguración relativos a la segmentación y la personalización (contexto de segmentación).
 
 Más información:
 
@@ -48,11 +48,11 @@ Más información:
 
 <img src="assets/do-not-localize/icon_channels.svg"  width="60px">
 
-**Hay cinco** canales de comunicación disponibles en Adobe Campaign: Correo electrónico, mensaje SMS, notificación push, mensaje en la aplicación y envío de correo postal.
+**Cinco canales de comunicación** están disponibles en Adobe Campaign: Correo electrónico, mensaje SMS, notificación push, mensaje en la aplicación y envío de correo postal.
 
 Para cada canal, hay disponibles funcionalidades específicas. Por ejemplo, el canal de correo electrónico le permite realizar pruebas A/B para probar hasta 3 versiones de un mensaje de correo electrónico. Con el canal SMS, administre los mensajes STOP SMS y almacene los SMS entrantes de los destinatarios en la base de datos.
 
-Además, aproveche las **funcionalidades de personalización y contenido dinámico** del Campaign Standard para captar el interés de su audiencia.
+Además, aproveche el Campaign Standard **personalización y funciones de contenido dinámico** para captar el interés de su audiencia.
 
 Más información:
 
@@ -66,9 +66,9 @@ Más información:
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-**Envíe** mensajes individuales y únicos a sus clientes en tiempo real: mensajes de bienvenida, confirmaciones de envío de pedidos, modificación de contraseña, etc.
+**Envío de mensajes individuales y únicos** a sus clientes en tiempo real: mensajes de bienvenida, confirmaciones de envío de pedidos, modificación de contraseña, etc.
 
-Los mensajes transaccionales están disponibles para los canales de correo electrónico, SMS y notificaciones push, según las opciones que tenga. Existen dos tipos de mensajes: **mensajes transaccionales de eventos** dirigidos a eventos sin información de perfil y **mensajes transaccionales de perfil** dirigidos a perfiles de la base de datos.
+Los mensajes transaccionales están disponibles para los canales de correo electrónico, SMS y notificaciones push, según las opciones que tenga. Existen dos tipos de mensajes: **mensajes transaccionales de eventos** segmentación de eventos sin información de perfil, y **mensajes transaccionales de perfil** segmentación de perfiles de la base de datos.
 
 Más información:
 
@@ -86,7 +86,7 @@ Más información:
 
 Campaign viene con páginas de aterrizaje que son formularios web que se pueden utilizar para **capturar información sobre las audiencias**, ofrecer suscripciones a un servicio, mostrar datos y ampliar la base de datos.
 
-Las páginas de aterrizaje también se pueden utilizar para **adquirir o actualizar perfiles existentes**, y para configurar un mecanismo de inclusión doble, que le permita proteger la plataforma de direcciones de correo electrónico erróneas o no válidas, o de spambots.
+Las páginas de aterrizaje también se pueden usar para **adquisición o actualización de perfiles existentes** y para configurar un mecanismo de inclusión doble que le permita proteger la plataforma de direcciones de correo electrónico o bots de spam incorrectas o no válidas.
 
 Más información:
 

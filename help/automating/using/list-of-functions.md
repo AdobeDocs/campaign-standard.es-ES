@@ -657,7 +657,7 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
   <tr> 
    <td> <strong>encryption_aescbcEncrypt</strong><br /> </td> 
    <td> Codifica utilizando el algoritmo AES (modo de bloque CBC) una cadena de caracteres (primer parámetro) con una clave (segundo parámetro) y un vector de inicialización (tercer parámetro). La clave y el vector de inicialización deben proporcionarse en una representación hexadecimal (comenzando por <strong>\x</strong>). El resultado será hexadecimal sin <strong>\x</strong>.<br /> Tenga en cuenta que el tamaño de la clave puede ser de 128 bits, 192 bits, 256 bits (16, 24, 32 caracteres hexadecimales), pero le recomendamos que utilice 256 bits y una IV aleatoria de la misma longitud que la clave.<br /> </td> 
-   <td> encryption_aescbcEncrypt(&lt;cadena&gt;, &lt;cadena&gt;, &lt;cadena&gt;)<br /> Por ejemplo: encryption_aescbcEncrypt(johndoe@example.com, "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\x0123456 789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
+   <td> encryption_aescbcEncrypt(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /> Por ejemplo: encryption_aescbcEncrypt(johndoe@example.com, "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -706,9 +706,9 @@ Las funciones agregadas se utilizan para realizar cálculos en un conjunto de va
    <td> Min(&lt;valor&gt;)<br /> </td> 
   </tr>
   <tr>
-   <td> <strong>StringAgg</strong>, agregado de cadenas<br /> </td>
+   <td> <strong>StringAgg</strong>, acumulado de cadenas<br /> </td>
    <td> Devuelve la concatenación de los valores de una columna de tipo cadena, separados por el carácter del segundo argumento (el separador predeterminado es una coma).<br /> </td>
-   <td> StringAgg(&lt;valores de cadena&gt;,&lt;separador&gt;)
+   <td> StringAgg(&lt;string values=""&gt;,&lt;separator&gt;)
   </tr>
   <tr> 
    <td> <strong>Sum</strong>, Sum<br /> </td> 

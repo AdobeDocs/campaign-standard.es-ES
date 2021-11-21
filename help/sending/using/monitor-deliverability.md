@@ -18,7 +18,7 @@ ht-degree: 58%
 
 # Supervisión de la capacidad de entrega{#monitor-deliverability}
 
-A continuación encontrará detalles sobre el informe **[!UICONTROL Delivery throughput]**, así como las diferentes herramientas de monitorización que ofrece Adobe Campaign. Estas son algunas directrices adicionales sobre la monitorización de la capacidad de envío:
+A continuación encontrará detalles sobre la **[!UICONTROL Delivery throughput]** , así como las diferentes herramientas de monitorización que ofrece Adobe Campaign. Estas son algunas directrices adicionales sobre la monitorización de la capacidad de envío:
 * Compruebe regularmente el rendimiento del envío de toda la plataforma para comprobar si es coherente con la configuración original.
 * Compruebe que los reintentos estén correctamente configurados (30 minutos para el periodo de reintento y más de 20 reintentos) en plantillas de envíos.
 * Compruebe periódicamente si puede acceder al buzón de rechazados y que la cuenta no esté a punto de caducar.
@@ -48,9 +48,9 @@ Para obtener más información sobre esto, consulte [Monitorización de un enví
 
 ## Recibir alertas {#receiving-alerts}
 
-La función **[!UICONTROL Delivery alerting]** es un sistema de administración de alertas que permite a un grupo de usuarios recibir automáticamente notificaciones que contengan información sobre la ejecución de sus envíos.
+La variable **[!UICONTROL Delivery alerting]** es un sistema de gestión de alertas que permite a un grupo de usuarios recibir automáticamente notificaciones que contengan información sobre la ejecución de sus entregas.
 
-Para obtener más información sobre esto, consulte [Recibir alertas cuando se producen errores](../../sending/using/receiving-alerts-when-failures-happen.md).
+Para obtener más información, consulte [Recibir alertas cuando se produzcan errores](../../sending/using/receiving-alerts-when-failures-happen.md).
 
 <!--## External tools (#external-tools)
 

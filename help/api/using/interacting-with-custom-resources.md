@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # Uso de recursos personalizados {#interacting-with-custom-resources}
 
-El extremo **/customResources** le permite exponer los recursos personalizados de Campaign en REST. En función de esta API, hay disponible una integración entre entidades personalizadas y extremos externos.
+La variable **/customResources** El extremo de le permite exponer los recursos personalizados de Campaign en REST. En función de esta API, hay disponible una integración entre entidades personalizadas y extremos externos.
 
 El extremo /customResources tiene exactamente el mismo comportamiento que el extremo /profileAndServices.
 

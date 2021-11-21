@@ -38,13 +38,13 @@ El flujo de trabajo de origen se presenta de la siguiente manera:
 
 * Una actividad de [reconciliación](../../automating/using/reconciliation.md) crea los vínculos entre los datos importados y la base de datos para que los datos de transacciones estén correctamente conectados a perfiles y productos.
 * Una actividad de [actualización de datos](../../automating/using/update-data.md) inserta y actualiza el recurso de transacciones de la base de datos con los datos de entrada.
-* Una actividad [End](../../automating/using/start-and-end.md) déclencheur el flujo de trabajo de destino, que se utiliza para actualizar los agregados.
+* Un [Fin](../../automating/using/start-and-end.md) actividad déclencheur el flujo de trabajo de destino, que se utiliza para actualizar los acumulados.
 
 ![](assets/signal_example_source1.png)
 
 El flujo de trabajo de destino se presenta de la siguiente manera:
 
-* Una actividad [External signal](../../automating/using/external-signal.md) espera a que el flujo de trabajo de origen finalice correctamente.
+* Un [Señal externa](../../automating/using/external-signal.md) espera a que el flujo de trabajo de origen finalice correctamente.
 * Una actividad de [consulta](../../automating/using/query.md#enriching-data) detecta perfiles y los enriquece con una recopilación configurada para recuperar la fecha de la última compra.
 * Una actividad de [actualización de datos](../../automating/using/update-data.md) almacena los datos adicionales en un campo personalizado dedicado. Tenga en cuenta que el recurso de perfil se ha ampliado para añadir el campo **Última fecha de compra**.
 

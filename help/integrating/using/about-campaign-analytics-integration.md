@@ -28,7 +28,7 @@ Esto funcionará creando primero una cuenta externa vinculada a Adobe Analytics.
 
 Esta integración solo está disponible para envíos de correo electrónico.
 
-También está disponible una integración entre el servicio principal de Adobe Analytics **Déclencheur** y Adobe Campaign. Le permite enviar correos electrónicos personalizados a sus clientes como una reacción ante comportamientos específicos rastreados en el sitio web mediante Adobe Analytics (en 15 minutos).
+Integración entre el servicio principal de Adobe Analytics **Déclencheur** y Adobe Campaign también están disponibles. Le permite enviar correos electrónicos personalizados a sus clientes como una reacción ante comportamientos específicos rastreados en el sitio web mediante Adobe Analytics (en 15 minutos).
 
 **Temas relacionados:**
 

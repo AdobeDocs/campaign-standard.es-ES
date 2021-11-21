@@ -18,7 +18,7 @@ ht-degree: 7%
 
 # Administración de opciones de ejecución {#managing-execution-options}
 
-Para modificar las opciones de ejecución de un flujo de trabajo, utilice el botón ![](assets/edit_darkgrey-24px.png) para acceder a las propiedades del flujo de trabajo y seleccione la sección **[!UICONTROL Execution]** .
+Para modificar las opciones de ejecución de un flujo de trabajo, utilice el ![](assets/edit_darkgrey-24px.png) para acceder a las propiedades del flujo de trabajo y seleccione **[!UICONTROL Execution]** para obtener más información.
 
 ![](assets/wkf_execution_6.png)
 
@@ -26,19 +26,19 @@ Las opciones posibles son:
 
 * **[!UICONTROL Default affinity]**: este campo permite forzar un flujo de trabajo o una actividad de flujo de trabajo para que se ejecute en un equipo en particular.
 
-* **[!UICONTROL History in days]**: especifica el número de días después de los cuales se debe purgar el historial. El historial contiene elementos relacionados con el flujo de trabajo: registros, tareas, eventos (objetos técnicos vinculados a la operación del flujo de trabajo), así como archivos descargados por la actividad **[!UICONTROL Transfer file]**. El valor predeterminado es de 30 días para las plantillas de flujo de trabajo integradas.
+* **[!UICONTROL History in days]**: especifica el número de días después de los cuales se debe purgar el historial. El historial contiene elementos relacionados con el flujo de trabajo: registros, tareas, eventos (objetos técnicos vinculados a la operación del flujo de trabajo), así como archivos descargados por el **[!UICONTROL Transfer file]** actividad. El valor predeterminado es de 30 días para las plantillas de flujo de trabajo integradas.
 
-   La depuración del historial se realiza mediante el flujo de trabajo técnico Database cleanup , que se ejecuta de forma predeterminada todos los días (consulte [List of technical workflows](../../administration/using/technical-workflows.md)).
+   La depuración del historial se realiza mediante el flujo de trabajo técnico Database cleanup , que se ejecuta de forma predeterminada todos los días (consulte [Lista de flujos de trabajo técnicos](../../administration/using/technical-workflows.md).)
 
    >[!IMPORTANT]
    >
-   >Si el campo **[!UICONTROL History in days]** se deja en blanco, su valor se considerará &quot;1&quot;, lo que significa que el historial se purgará después de 1 día.
+   >Si la variable **[!UICONTROL History in days]** se deja en blanco, su valor se considerará &quot;1&quot;, lo que significa que el historial se purgará después de 1 día.
 
 * **[!UICONTROL Save SQL queries in the log]**: permite guardar las consultas SQL del flujo de trabajo en los registros.
 
 * **[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]**: marque esta opción si desea que se registre todo el plan de ejecución. Está desactivado de forma predeterminada.
 
-   Para obtener más información sobre esta opción, consulte esta [sección](#diagnostic-mode).
+   Para obtener más información sobre esta opción, consulte [sección](#diagnostic-mode).
 
 * **[!UICONTROL Keep interim results]**: marque esta opción si desea poder ver los detalles de las transiciones.
 
@@ -50,7 +50,7 @@ Las opciones posibles son:
 
 * **[!UICONTROL Severity]**: permite especificar un nivel de prioridad para ejecutar flujos de trabajo en la instancia de Adobe Campaign. Los equipos de Adobe utilizan este campo solo para fines de monitorización.
 
-La sección **[!UICONTROL Error management]** proporciona opciones adicionales que le permiten administrar cómo se comportan los flujos de trabajo en caso de errores. Estas opciones se detallan en la sección [Error management](../../automating/using/monitoring-workflow-execution.md#error-management) .
+La variable **[!UICONTROL Error management]** proporciona opciones adicionales que le permiten administrar cómo se comportan los flujos de trabajo en caso de errores. Estas opciones se detallan en la sección [Gestión de errores](../../automating/using/monitoring-workflow-execution.md#error-management) para obtener más información.
 
 ## Modo de diagnóstico {#diagnostic-mode}
 
@@ -58,7 +58,7 @@ La sección **[!UICONTROL Error management]** proporciona opciones adicionales q
 >
 >Esta opción puede afectar al rendimiento del flujo de trabajo de forma significativa y debe utilizarse con moderación.
 
-Cuando está activada, la opción **[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]** de la sección **[!UICONTROL Execution]** de las propiedades del flujo de trabajo registra todo el plan de ejecución si una consulta tarda más de un minuto.
+Cuando se habilita, la variable **[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]** en la **[!UICONTROL Execution]** de las propiedades del flujo de trabajo registra todo el plan de ejecución si una consulta tarda más de un minuto.
 
 ![](assets/wkf_diagnostic.png)
 
@@ -66,7 +66,7 @@ Después de activar esta opción e iniciar el flujo de trabajo, si la consulta t
 
 Para obtener más información, consulte [Documentación PostgreSQL](https://www.postgresql.org/docs/9.4/using-explain.html).
 
-Si tiene un análisis de secuencia en esta consulta, **[!UICONTROL Diagnostic mode]** también proporcionará recomendaciones para crear un índice con la ayuda de una expresión de filtro.
+Si tiene un análisis de secuencia en esta consulta, la variable **[!UICONTROL Diagnostic mode]** también proporciona recomendaciones para crear un índice con la ayuda de una expresión de filtro.
 
 >[!NOTE]
 >
@@ -82,10 +82,10 @@ Se deben cumplir las dos condiciones siguientes durante la ejecución del flujo 
 
 Puede administrar la opción desde el menú avanzado seleccionando **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**:
 
-* **[!UICONTROL Time of query execution (in milliseconds)(DiagnosticModeQueryTime)]**: Desde el  **[!UICONTROL Value]** campo , puede configurar una nueva hora para la ejecución de la consulta. Si la ejecución de la consulta supera este valor, se registrará el plan de ejecución.
+* **[!UICONTROL Time of query execution (in milliseconds)(DiagnosticModeQueryTime)]**: En el **[!UICONTROL Value]** , puede configurar una nueva hora para la ejecución de la consulta. Si la ejecución de la consulta supera este valor, se registrará el plan de ejecución.
 
    ![](assets/wkf_diagnostic_2.png)
 
-* **[!UICONTROL Percentage of seq scan time (DiagnosticModeSeqScanPercentage)]**: Desde el  **[!UICONTROL Value]** campo , puede cambiar el porcentaje de tiempo de consulta que debe tardar el análisis de secuencia en generarse la recomendación.
+* **[!UICONTROL Percentage of seq scan time (DiagnosticModeSeqScanPercentage)]**: En el **[!UICONTROL Value]** , puede cambiar el porcentaje de tiempo de consulta que el análisis de secuencia debe tardar para que se genere la recomendación.
 
    ![](assets/wkf_diagnostic_3.png)

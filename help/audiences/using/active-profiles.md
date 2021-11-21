@@ -14,13 +14,13 @@ ht-degree: 14%
 
 # Perfiles activos{#active-profiles}
 
-Los administradores funcionales de Campaign pueden acceder al informe **[!UICONTROL Customer metrics]** desde **[!UICONTROL Administration > Customer metrics]**.
+Los administradores funcionales de Campaign pueden acceder al **[!UICONTROL Customer metrics]** informe de **[!UICONTROL Administration > Customer metrics]**.
 
 ![](assets/audience_customer_metrics.png)
 
-Este informe se genera cada mes mediante el flujo de trabajo técnico **[!UICONTROL Billing]** y muestra el número de **perfiles activos**.
+Este informe se genera cada mes mediante la variable **[!UICONTROL Billing]** flujo de trabajo técnico y muestra el número de **perfiles activos**.
 
-Un &quot;perfil&quot; es un registro de información que representa a un cliente final, a un cliente potencial o a un posible cliente. Los perfiles se consideran **activos** si han sido objetivos de un envío de Campaign en los últimos 12 meses a través de cualquier canal.
+Un &quot;perfil&quot; es un registro de información que representa a un cliente final, a un cliente potencial o a un posible cliente. Se consideran los perfiles **active** si ha sido un objetivo de una entrega de Campaign en los últimos 12 meses a través de cualquier canal.
 
 Según el contrato, cada una de las instancias de Campaign se aprovisiona con un número específico de perfiles activos. Consulte el contrato de licencia para obtener referencia sobre el número de perfiles activos adquiridos.
 
@@ -36,7 +36,7 @@ Según el contrato, cada una de las instancias de Campaign se aprovisiona con un
 
 * Este informe es solo informativo, no tiene un impacto directo en la facturación.
 
-En la parte inferior de la página, las dimensiones de segmentación se enumeran con la cantidad de perfiles para cada una. Los destinatarios de los mensajes transaccionales están asociados a la dimensión **Anonymous**.
+En la parte inferior de la página, las dimensiones de segmentación se enumeran con la cantidad de perfiles para cada una. Los destinatarios de los mensajes transaccionales están asociados al **Anonymous** dimensión.
 
 >[!NOTE]
 >

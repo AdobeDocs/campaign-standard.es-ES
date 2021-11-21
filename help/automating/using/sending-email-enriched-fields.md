@@ -28,15 +28,15 @@ El ejemplo siguiente muestra cómo enviar un correo electrónico con datos adici
 
 Para crear el flujo de trabajo, siga estos pasos:
 
-1. Arrastre y suelte una actividad [Query](../../automating/using/query.md) en el flujo de trabajo y ábrala para definir el destinatario principal.
+1. Arrastre y suelte una [Consulta](../../automating/using/query.md) actividad en el flujo de trabajo y ábrala para definir el destinatario principal.
 
    <!--The Query activity is presented in the [Query](../../automating/using/query.md) section.-->
 
-1. Arrastre y suelte una actividad [Load file](../../automating/using/load-file.md) para asignar algunos datos a un perfil. En este ejemplo, cargue un archivo que contenga los números de cuenta correspondientes a algunos perfiles de la base de datos.
+1. Arrastre y suelte una [Cargar archivo](../../automating/using/load-file.md) actividad para asignar algunos datos a un perfil. En este ejemplo, cargue un archivo que contenga los números de cuenta correspondientes a algunos perfiles de la base de datos.
 
    ![](assets/load_file_activity.png)
 
-1. Arrastre y suelte una actividad [Enrichment](../../automating/using/enrichment.md) en el flujo de trabajo y vincule las actividades de carga de archivo y consulta.
+1. Arrastre y suelte una [Enriquecimiento](../../automating/using/enrichment.md) actividad en el flujo de trabajo y vincule el archivo de carga y las actividades de consulta a él.
 
 1. En la pestaña **[!UICONTROL Advanced relations]** de la actividad enriquecimiento, seleccione **[!UICONTROL 0 or 1 cardinality simple link]** y defina los campos que se utilizarán para la reconciliación. Aquí utilizamos el apellido para reconciliar los datos con los perfiles de la base de datos.
 
@@ -50,13 +50,13 @@ Para crear el flujo de trabajo, siga estos pasos:
 
    Para obtener más información, consulte la sección [Enriquecimiento](../../automating/using/enrichment.md).
 
-1. Arrastre y suelte una actividad [Segmentation](../../automating/using/segmentation.md) en el flujo de trabajo y ábrala para restringir el destinatario principal.
+1. Arrastre y suelte una [Segmentación](../../automating/using/segmentation.md) en el flujo de trabajo y ábralo para refinar el destinatario principal.
 
    ![](assets/load_file_segmentation.png)
 
    Para obtener más información, consulte la sección [Segmentación](../../automating/using/segmentation.md).
 
-1. Arrastre y suelte una actividad [Email delivery](../../automating/using/email-delivery.md) en el flujo de trabajo y ábrala.
+1. Arrastre y suelte una [Envío de correo electrónico](../../automating/using/email-delivery.md) actividad en el flujo de trabajo y ábrala.
 
    <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
 

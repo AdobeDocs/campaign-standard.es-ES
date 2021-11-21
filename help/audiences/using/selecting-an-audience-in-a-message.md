@@ -47,7 +47,7 @@ Se pueden definir audiencias al crear el mensaje mediante el asistente de creaci
 
    >[!NOTE]
    >
-   >Cuando se segmenta una audiencia, tenga en cuenta que no se hace referencia a la definición de la audiencia, sino que **se copia** en la consulta. Si realiza algún cambio en la audiencia después de que se haya segmentado en una consulta, asegúrese de configurar la consulta de nuevo para tener en cuenta la nueva definición.
+   >Al segmentar una audiencia, tenga en cuenta que no se hace referencia a la definición de la audiencia, pero **copiado** en la consulta. Si realiza algún cambio en la audiencia después de que se haya segmentado en una consulta, asegúrese de configurar la consulta de nuevo para tener en cuenta la nueva definición.
 
 1. Defina el **[!UICONTROL Test profiles]** que desee utilizar para el correo electrónico. Los perfiles de prueba recibirán las pruebas que puede enviar para probar el correo electrónico antes de enviarlo al destinatario principal.
 

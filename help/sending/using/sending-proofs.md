@@ -107,4 +107,4 @@ Para ocultar el número de la prueba en la línea de asunto, active la opción *
 * [Prueba de mensajes de correo electrónico con perfiles de destino](../../sending/using/testing-messages-using-target.md)
 * [Administración de perfiles de prueba](../../audiences/using/managing-test-profiles.md)
 * [Vista previa de mensajes](../../sending/using/previewing-messages.md)
-* [Configuración de canales de correo electrónico](../../administration/using/configuring-email-channel.md)
+* [Configuración del canal de correo electrónico](../../administration/using/configuring-email-channel.md)

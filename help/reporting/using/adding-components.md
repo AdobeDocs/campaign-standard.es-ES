@@ -19,11 +19,11 @@ ht-degree: 4%
 
 Los componentes ayudan a personalizar los informes con diferentes dimensiones, métricas y períodos de tiempo.
 
-1. Haga clic en la pestaña **[!UICONTROL Components]** para acceder a la lista de componentes.
+1. Haga clic en el **[!UICONTROL Components]** para acceder a la lista de componentes.
 
    ![](assets/dynamic_report_components.png)
 
-1. Cada categoría presentada en la pestaña **[!UICONTROL Components]** muestra los cinco elementos más utilizados, haga clic en el nombre de una categoría para acceder a su lista completa de componentes.
+1. Cada categoría presentada en la variable **[!UICONTROL Components]** La pestaña muestra los cinco elementos más utilizados, haga clic en el nombre de una categoría para acceder a su lista completa de componentes.
 
    La tabla de componentes se divide en cuatro categorías:
 
@@ -31,7 +31,7 @@ Los componentes ayudan a personalizar los informes con diferentes dimensiones, m
    * **Métricas**: Obtenga detalles sobre el estado de un mensaje. Por ejemplo, si se entregó un mensaje y el usuario lo abrió.
    * **[!UICONTROL Segments]**: Filtre los datos en función del intervalo de edad del destinatario. **[!UICONTROL Segments]** se pueden arrastrar y soltar directamente en una tabla improvisada o en la barra superior del panel.
 
-      Esta categoría solo está disponible una vez que el administrador haya aprobado los términos y condiciones del Acuerdo de uso de informes dinámicos que se mostrarán en la pantalla. Si el administrador rechaza el acuerdo, los segmentos no serán visibles en la pestaña **[!UICONTROL Components]** y los datos no se recopilarán.
+      Esta categoría solo está disponible una vez que el administrador haya aprobado los términos y condiciones del Acuerdo de uso de informes dinámicos que se mostrarán en la pantalla. Si el administrador rechaza el acuerdo, los segmentos no serán visibles en la variable **[!UICONTROL Components]** y los datos no se recopilarán.
 
    * **Tiempo**: Establezca un período de tiempo para la tabla.
 
@@ -39,11 +39,11 @@ Los componentes ayudan a personalizar los informes con diferentes dimensiones, m
 
    ![](assets/dynamic_report_components_2.png)
 
-1. Después de arrastrar y soltar el componente, puede seguir configurando la tabla con la opción **[!UICONTROL Row settings]**.
+1. Después de arrastrar y soltar el componente, puede seguir configurando la tabla con el **[!UICONTROL Row settings]** .
 
    ![](assets/dynamic_report_components_3.png)
 
-1. También puede filtrar aún más la tabla haciendo clic en el icono **Buscar**. Con esta búsqueda, puede buscar resultados específicos, como un envío específico o un navegador, por ejemplo.
+1. También puede filtrar aún más la tabla haciendo clic en el botón **Buscar** icono. Con esta búsqueda, puede buscar resultados específicos, como un envío específico o un navegador, por ejemplo.
 
    ![](assets/dynamic_report_components_4.png)
 

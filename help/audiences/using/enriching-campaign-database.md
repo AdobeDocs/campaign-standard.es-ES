@@ -21,7 +21,7 @@ Campaign Standard ofrece varias herramientas para ayudarle a ampliar su base de 
 
 ## Importación de datos mediante flujos de trabajo {#importing-data-through-workflows}
 
-Los flujos de trabajo permiten recopilar datos e importarlos a la base de datos de Campaign mediante el uso de actividades [[!UICONTROL Data management]](../../automating/using/about-data-management-activities.md).
+Los flujos de trabajo permiten recopilar datos e importarlos a la base de datos de Campaign mediante el uso de [[!UICONTROL Data management]](../../automating/using/about-data-management-activities.md) actividades.
 
 La información genérica y las prácticas recomendadas al importar datos mediante flujos de trabajo se presentan en [esta sección](../../automating/using/about-data-import-and-export.md).
 
@@ -29,11 +29,11 @@ Además, puede configurar plantillas para importar datos. El uso de plantillas d
 
 Puede configurar dos tipos de plantillas:
 
-* **Plantillas** de flujo de trabajo: son flujos de trabajo preconfigurados que se pueden configurar una vez según sus necesidades y reutilizar cada vez que desee importar datos y actualizar la base de datos.
+* **Plantillas de flujo de trabajo**: son flujos de trabajo preconfigurados que se pueden configurar una vez según sus necesidades y reutilizar cada vez que desee importar datos y actualizar la base de datos.
 
-   En [esta sección](../../automating/using/creating-import-workflow-templates.md) se detalla un ejemplo de plantilla de flujo de trabajo para importar datos.
+   Un ejemplo de plantilla de flujo de trabajo para importar datos se detalla en [esta sección](../../automating/using/creating-import-workflow-templates.md).
 
-* **Importar plantillas** de datos: al igual que las plantillas de flujo de trabajo, se trata de plantillas basadas en flujos de trabajo, que se configuran para cargar archivos para actualizar la base de datos. Una vez configurados, están disponibles para los usuarios con una vista simplificada en el menú **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]**.
+* **Importar plantillas de datos**: al igual que las plantillas de flujo de trabajo, se trata de plantillas basadas en flujos de trabajo, que se configuran para cargar archivos para actualizar la base de datos. Una vez configurados, están disponibles para los usuarios con una vista simplificada en la sección **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** para abrir el Navegador.
 
    Para obtener más información sobre las plantillas de datos de importación, consulte la [documentación dedicada](../../automating/using/importing-data-with-import-templates.md).
 
@@ -47,14 +47,14 @@ El principio es el siguiente:
 * Asigne cada campo de entrada con el campo correspondiente de la base de datos.
 * Haga que la página de aterrizaje esté disponible en línea a través de un sitio web o mediante un vínculo directo a un mensaje.
 
-Para obtener más información sobre las páginas de aterrizaje, consulte la [documentación dedicada](../../channels/using/getting-started-with-landing-pages.md).
+Para obtener más información sobre las páginas de aterrizaje, consulte [documentación dedicada](../../channels/using/getting-started-with-landing-pages.md).
 
 ## Sincronización de perfiles de Microsoft Dynamics 365
 
 La integración de Campaign Standards con Microsoft Dynamics 365 le permite pasar datos de contacto de Microsoft Dynamics 365 a la base de datos de Campaign.
 Estos contactos están visibles en la lista Perfiles y se pueden seleccionar como objetivo en las campañas de marketing.
 
-Para obtener más información sobre esta integración, consulte la [documentación dedicada](../../integrating/using/d365-acs-get-started.md).
+Para obtener más información sobre esta integración, consulte [documentación dedicada](../../integrating/using/d365-acs-get-started.md).
 
 >[!NOTE]
 >

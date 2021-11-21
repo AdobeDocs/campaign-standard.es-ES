@@ -29,9 +29,9 @@ Amplíe el modelo de datos de Campaign Standard con sus propios campos y recurso
 
 <img src="assets/do-not-localize/icon_datamodel.svg" width="60px">
 
-Los datos utilizados por Campaign se definen mediante diferentes recursos definidos en un **modelo de datos predefinido**. El modelo de datos muestra una estructura SQL predeterminada para un conjunto de recursos relacionados con el marketing: envío, audiencia, páginas de aterrizaje, perfil, etc. Cada recurso viene con filtros asociados, lo que le permite navegar por los recursos.
+Los datos que utiliza Campaign se definen mediante diferentes recursos definidos en una **modelo de datos predefinido**. El modelo de datos muestra una estructura SQL predeterminada para un conjunto de recursos relacionados con el marketing: envío, audiencia, páginas de aterrizaje, perfil, etc. Cada recurso viene con filtros asociados, lo que le permite navegar por los recursos.
 
-El menú **Diagnosis** permite enumerar los objetos técnicos generados por el Campaign Standard: esquemas de datos, páginas web, filtros, etc., que le permiten supervisar el modelo de datos y cualquier cambio que se realice en él.
+La variable **Diagnóstico** permite enumerar los objetos técnicos generados por el Campaign Standard: esquemas de datos, páginas web, filtros, etc., que le permiten supervisar el modelo de datos y cualquier cambio que se realice en él.
 
 Más información:
 
@@ -44,9 +44,9 @@ Más información:
 
 <img src="assets/do-not-localize/icon_custom.svg" width="60px">
 
-El Campaign Standard le permite **Enriquecer el modelo de datos predefinido** para crear sus propios recursos (por ejemplo, para agregar tablas de compra o producto), o ampliar los recursos existentes con nuevos campos. También puede configurar las pantallas de Campaign para optimizar la navegación a través de los nuevos recursos y campos que se han creado.
+Campaign Standard le permite **Enriquecimiento del modelo de datos predefinido** para crear sus propios recursos (por ejemplo, para añadir tablas de compra o producto), o para ampliar los recursos existentes con nuevos campos. También puede configurar las pantallas de Campaign para optimizar la navegación a través de los nuevos recursos y campos que se han creado.
 
-Además, puede **ampliar las API de REST del Campaign Standard** para que se muestren en los campos ampliados de las API para los perfiles de recursos personalizados. Esto le permite, por ejemplo, actualizar el perfil de un cliente con un código de promoción generado a partir de un sistema de facturación.
+Además, puede **ampliar las API de REST del Campaign Standard** para mostrarlo en los campos ampliados de las API para los recursos personalizados Perfiles . Esto le permite, por ejemplo, actualizar el perfil de un cliente con un código de promoción generado a partir de un sistema de facturación.
 
 Más información:
 

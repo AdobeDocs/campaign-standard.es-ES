@@ -82,7 +82,7 @@ Consulte los siguientes recursos:
 
 * [Tutoriales en vídeo](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
 * [Documentación del producto](../../channels/using/about-push-notifications.md)
-* Configurar mediante el SDK de AEP [documentación](../../administration/using/configuring-a-mobile-application.md)
+* Configuración mediante el SDK de AEP [documentación](../../administration/using/configuring-a-mobile-application.md)
 * [Página de comunidad](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### ¿Qué tengo que hacer para adquirir un token push en Campaign? {#push-token-acquisition}
@@ -119,11 +119,11 @@ Sí, Campaign es compatible con ambas plataformas al mismo tiempo y le permite c
 
 ### He cargado correctamente los certificados push, pero no se envían mensajes push. {#push-certificates-upload}
 
-Asegúrese de que los certificados push son válidos al probarlos [aquí](https://pushtry.com/).
+Asegúrese de que los certificados push son válidos al probarlos [here](https://pushtry.com/).
 
 ### Puedo enviar notificaciones push correctamente desde pushtry.com pero no a través de Campaign. {#push-not-sending}
 
-Asegúrese de seguir las instrucciones de carga útil push proporcionadas [aquí](../../administration/using/push-payload.md).
+Asegúrese de seguir las instrucciones de carga útil push proporcionadas [here](../../administration/using/push-payload.md).
 
 Tenga en cuenta que para Android, Campaign solo admite la carga útil de datos, no la carga útil de notificación
 
@@ -137,16 +137,16 @@ Abra un ticket de atención al cliente.
 
 ### Las notificaciones push se envían desde Campaign, pero el archivo multimedia no se muestra.{#media-file-unavailable}
 
-Los desarrolladores de aplicaciones móviles deben gestionar la compatibilidad con los archivos multimedia de la aplicación. A veces, el ancho de banda de la red también puede impedir que se represente un archivo multimedia. Consulte esta [página](../../administration/using/image-push-notification.md) para obtener más información.
+Los desarrolladores de aplicaciones móviles deben gestionar la compatibilidad con los archivos multimedia de la aplicación. A veces, el ancho de banda de la red también puede impedir que se represente un archivo multimedia. Consulte esta [página](../../administration/using/image-push-notification.md) para punteros adicionales.
 
 ### ¿Qué tengo que hacer para habilitar los informes push en Campaign? {#push-reporting-enable}
 
 Siga estos pasos:
 
-* Configure un postback de seguimiento push. Las instrucciones se encuentran [aquí](../../administration/using/configuring-a-mobile-application.md).
+* Configure un postback de seguimiento push. Se pueden encontrar instrucciones [here](../../administration/using/configuring-a-mobile-application.md).
 * Implemente la API trackAction desde Mobile Core. Consulte esta [página](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference) para obtener más información.
 
-Puede encontrar instrucciones más detalladas en esta [página](../../administration/using/push-tracking.md).
+Encontrará instrucciones más detalladas en esta [página](../../administration/using/push-tracking.md).
 
 ### ¿Qué informes están disponibles para el canal push? {#push-report-available}
 

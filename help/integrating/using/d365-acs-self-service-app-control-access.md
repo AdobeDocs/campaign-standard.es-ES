@@ -8,14 +8,13 @@ topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 44b59f56-99be-41ae-af8d-76272bb94d18
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '411'
 ht-degree: 1%
 
 ---
-
 
 # Acceso a la integración de Adobe Campaign Standard con la aplicación de autoservicio de Microsoft Dynamics 365
 
@@ -31,11 +30,10 @@ En esta sección aprenderá a otorgar acceso a la integración de Adobe Campaign
 
 >[!IMPORTANT]
 >
-> Estos pasos requieren la función **Administrator** en el Experience Cloud de su organización.
-
+> Estos pasos requieren **Administrador** en el Experience Cloud de su organización.
 
 1. Vaya a https://experience.adobe.com/ e inicie sesión en Adobe Experience Cloud.
-1. Acceda al **Admin Console**.
+1. Acceda a la **Admin Console**.
 
    ![](assets/do-not-localize/d365-to-acs-access-3.png)
 
@@ -56,15 +54,15 @@ En esta sección aprenderá a otorgar acceso a la integración de Adobe Campaign
 
    ![](assets/do-not-localize/d365-to-acs-access-8.png)
 
-1. Haga clic en el botón **[!UICONTROL New Profile]** y añada una nueva entrada denominada: **Campaign Standard - your-prod-instance-name - D365/ACS Integration**
+1. Haga clic en el **[!UICONTROL New Profile]** y añada una nueva entrada denominada: **Campaign Standard - your-prod-instance-name - Integración D365/ACS**
 
-   * Si ve esta entrada en la lista, no es necesario continuar. Haga clic en **Adobe Campaign Standard** en el menú de la izquierda y compruebe las demás instancias de Campaign.
+   * Si ve esta entrada en la lista, no es necesario continuar. Haga clic en **Adobe Campaign Standard** en el menú de la izquierda y compruebe las otras instancias de Campaign.
 
    * Asegúrese de reemplazar &quot;your-prod-instance-name&quot; por el nombre real de su instancia.
 
-1. Puede dejar la lista desplegable **[!UICONTROL Permission Group]** con el valor predeterminado.
+1. Puede dejar el **[!UICONTROL Permission Group]** con el valor predeterminado.
 
-1. Si sus entradas son similares a las siguientes, haga clic en el botón **[!UICONTROL Done]** .
+1. Si las entradas son similares a las siguientes, haga clic en el botón **[!UICONTROL Done]** botón.
 
    ![](assets/do-not-localize/d365-to-acs-access-14.png)
 
@@ -74,9 +72,9 @@ En esta sección aprenderá a otorgar acceso a la integración de Adobe Campaign
 
 ## Conceder acceso a los usuarios {#add-users-to-profile}
 
-En la página **[!UICONTROL Products]** , seleccione la instancia de Campaign y siga los pasos a continuación:
+En el **[!UICONTROL Products]**  seleccione la instancia de Campaign y siga los pasos a continuación:
 
-1. Haga clic en el nuevo perfil que ha creado anteriormente:  **Campaign Standard - your-prod-instance-name - D365/ACS Integration**
+1. Haga clic en el nuevo perfil que ha creado anteriormente:  **Campaign Standard - your-prod-instance-name - Integración D365/ACS**
 
    ![](assets/do-not-localize/d365-to-acs-access-15.png)
 
@@ -84,7 +82,7 @@ En la página **[!UICONTROL Products]** , seleccione la instancia de Campaign y 
 
    ![](assets/do-not-localize/d365-to-acs-access-18.png)
 
-1. Haga clic en el botón **[!UICONTROL Add Developer]**
+1. Haga clic en el **[!UICONTROL Add Developer]** botón
 
 1. Introduzca el nombre o la dirección de correo electrónico del usuario que desea añadir.  Seleccione el resultado que coincida con el usuario.
 

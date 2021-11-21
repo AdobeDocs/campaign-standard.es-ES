@@ -39,42 +39,42 @@ Antes de personalizar la notificación push multilingüe, primero debemos cargar
 >
 >También puede omitir este paso si desea crear una variante manualmente para cada variante de idioma.
 
-1. En **[!UICONTROL Marketing activities]**, haga clic en el botón **[!UICONTROL Create]** y seleccione **[!UICONTROL Push notification]**.
-1. Seleccione la plantilla **[!UICONTROL Send multilingual push to Campaign profiles]** si desea dirigirse a los perfiles de Adobe Campaign que se han suscrito a su aplicación móvil o a la plantilla **[!UICONTROL Send multilingual push to app subscriber]** para enviar una notificación push a todos los usuarios que han elegido recibir notificaciones de su aplicación móvil.
+1. En el **[!UICONTROL Marketing activities]**, haga clic en **[!UICONTROL Create]** a continuación, seleccione **[!UICONTROL Push notification]**.
+1. Seleccione la plantilla **[!UICONTROL Send multilingual push to Campaign profiles]** si desea dirigirse a los perfiles de Adobe Campaign que se han suscrito a su aplicación móvil o a la plantilla **[!UICONTROL Send multilingual push to app subscriber]** para enviar una notificación push a todos los usuarios que hayan elegido recibir notificaciones desde la aplicación móvil.
 
    ![](assets/multivariant_push_2.png)
 
-1. Introduzca las propiedades de la notificación push y seleccione la aplicación móvil en el campo **[!UICONTROL Associate a Mobile App to a delivery]** .
+1. Introduzca las propiedades de la notificación push y seleccione la aplicación móvil en la **[!UICONTROL Associate a Mobile App to a delivery]** campo .
 
    Tenga en cuenta que la lista desplegable mostrará las aplicaciones SDK V4 y SDK de Adobe Experience Platform.
 
-1. En las ventanas **[!UICONTROL Audiences]** , arrastre y suelte las consultas para ajustar la audiencia.
+1. En el **[!UICONTROL Audiences]** ventanas, arrastre y suelte las consultas para ajustar la audiencia.
 
-   Las consultas agregadas dependen de la plantilla elegida: si elige la plantilla **[!UICONTROL Send multilingual push to Campaign profiles]** puede consultar los destinatarios conocidos de su aplicación móvil. Mientras que si elige la plantilla **[!UICONTROL Send multilingual push to app subscriber]** , puede consultar a todos los suscriptores de una aplicación en particular que han elegido entrar.
+   Las consultas agregadas dependen de la plantilla elegida: si elige el **[!UICONTROL Send multilingual push to Campaign profiles]** plantilla puede consultar los destinatarios conocidos de su aplicación móvil. Mientras que si elige la variable **[!UICONTROL Send multilingual push to app subscriber]** , puede consultar a todos los suscriptores de una aplicación en particular que han elegido entrar.
    >[!NOTE]
    >
    >Si segmenta audiencias con idiomas específicos, debe enumerar todos los idiomas de destino en el archivo CSV.
 
    ![](assets/push_notif_audience.png)
 
-1. En la ventana **[!UICONTROL Manage Content Variants]**, arrastre y suelte el archivo o seleccione un archivo del equipo.
+1. En el **[!UICONTROL Manage Content Variants]** , arrastre y suelte el archivo o seleccione un archivo del equipo.
 
-   El archivo debe tener codificación UTF8 y un diseño específico que se pueda encontrar haciendo clic en la opción **[!UICONTROL Download the sample file]**. También debe utilizar la sintaxis adecuada para los valores de configuración regional. Para obtener más información sobre el formato de archivo y las configuraciones regionales compatibles, consulte esta [página](../../channels/using/generating-csv-multilingual-push.md).
+   El archivo debe tener codificación UTF8 y una presentación específica que se pueda encontrar haciendo clic en la **[!UICONTROL Download the sample file]** . También debe utilizar la sintaxis adecuada para los valores de configuración regional. Para obtener más información sobre el formato de archivo y las configuraciones regionales compatibles, consulte esta [página](../../channels/using/generating-csv-multilingual-push.md).
 
    ![](assets/multivariant_push_4.png)
 
-1. Después de cargar el archivo, las variantes de idioma se rellenan automáticamente en la pestaña **[!UICONTROL Variants]**. Tenga en cuenta que puede proporcionar un **[!UICONTROL Default variant]** en el archivo que será su variante de contenido predeterminada si no se especifica ningún idioma preferido para el usuario de destino.
+1. Después de cargar el archivo, las variantes de idioma se rellenan automáticamente en la variable **[!UICONTROL Variants]** pestaña . Tenga en cuenta que puede proporcionar una **[!UICONTROL Default variant]** en el archivo que será su variante de contenido predeterminada si no se especifica ningún idioma preferido para el usuario de destino.
 
    ![](assets/multivariant_push_5.png)
 
-1. La pestaña **[!UICONTROL Variant selection]** proporciona una secuencia de comandos para determinar qué preferencia de idioma se debe tener en cuenta en función de la plantilla de envío. Se trata de un script listo para usar que no requiere que realice ningún cambio.
-1. Si desea agregar más variantes que no estén presentes en el archivo importado, puede hacerlo haciendo clic en el botón **[!UICONTROL Add an element]** y agregando tantas variantes de idioma nuevas como sea necesario.
+1. La variable **[!UICONTROL Variant selection]** proporciona una secuencia de comandos para determinar qué preferencia de idioma se debe tener en cuenta en función de la plantilla de envío. Se trata de un script listo para usar que no requiere que realice ningún cambio.
+1. Si desea agregar más variantes que no estén presentes en el archivo importado, puede hacerlo haciendo clic en el botón **[!UICONTROL Add an element]** y añada tantas variantes de idioma nuevas como sea necesario.
 
    Al añadir variantes que no sean las cargadas desde el archivo, no se vinculará ningún contenido a este idioma. Deberá editar el contenido directamente en el panel de envío.
 
    ![](assets/multivariant_push_6.png)
 
-1. Haga clic en **[!UICONTROL Create]** cuando haya terminado la configuración. Siempre puede volver a la ventana **[!UICONTROL Content variant]** y realizar algunos cambios desde el panel de envío.
+1. Haga clic en **[!UICONTROL Create]** cuando se haya completado la configuración. Siempre puede volver a la **[!UICONTROL Content variant]** y realice algunos cambios desde el panel de envío.
 
    ![](assets/multivariant_push_8.png)
 
@@ -86,13 +86,13 @@ Después de cargar el archivo que contiene variantes de contenido, ahora puede o
 
 También es posible crear y editar más variantes además de las cargadas desde el archivo.
 
-1. En la ventana **[!UICONTROL Content]** del panel de envío, la lista desplegable le permite previsualizar el contenido de la notificación push en función del idioma elegido.
+1. En el **[!UICONTROL Content]** en el panel de entregas, la lista desplegable le permite previsualizar el contenido de las notificaciones push en función del idioma elegido.
 
    ![](assets/multivariant_push_7.png)
 
 1. Si no se ha especificado una variante de contenido para un idioma en particular, haga clic en el icono de campana situado debajo de la vista previa para empezar a añadir contenido a esta variante de idioma.
 
-   Al hacer clic en la ventana **[!UICONTROL Content]** , la notificación push representa el contenido del idioma seleccionado en la lista desplegable. Los cambios realizados en esta ventana solo afectan a un idioma.
+   Al hacer clic en el botón **[!UICONTROL Content]** , la notificación push representa el contenido del idioma seleccionado en la lista desplegable. Los cambios realizados en esta ventana solo afectan a un idioma.
 
 1. También puede hacer clic en una variante de contenido para personalizarla aún más, por ejemplo, con campos de personalización.
 
@@ -100,7 +100,7 @@ También es posible crear y editar más variantes además de las cargadas desde 
 
    ![](assets/multivariant_push_9.png)
 
-1. Haga clic en la ventana **[!UICONTROL Content variant]** si desea agregar o eliminar variantes de idioma.
+1. Haga clic en el **[!UICONTROL Content variant]** si desea añadir o eliminar variantes de idioma.
 
    Tenga en cuenta que al agregar un nuevo idioma, tendrá que añadir contenido manualmente a la notificación push vinculada al idioma añadido.
 
@@ -112,17 +112,17 @@ El envío de notificaciones push multilingües ya está listo para enviarse.
 
 Las notificaciones push de la variante de contenido multilingüe ya están listas para enviarse a los usuarios.
 
-1. Para empezar a preparar el envío, haga clic en el botón **[!UICONTROL Prepare]**.
-1. Cuando finalice la preparación sin advertencias, puede hacer clic en el botón **[!UICONTROL Confirm]** para comenzar a enviar la notificación push multilingüe.
+1. Para empezar a preparar la entrega, haga clic en el botón **[!UICONTROL Prepare]** botón.
+1. Cuando finalice la preparación sin advertencias, puede hacer clic en el botón **[!UICONTROL Confirm]** para empezar a enviar la notificación push multilingüe.
 
    ![](assets/multivariant_push_12.png)
 
-1. Después de enviar correctamente la notificación push, haga clic en el icono **[!UICONTROL Reports]** y luego en **[!UICONTROL Dynamic reports]** para analizar el éxito del envío.
+1. Después de enviar correctamente la notificación push, haga clic en el botón **[!UICONTROL Reports]** icono **[!UICONTROL Dynamic reports]** para analizar el éxito de su envío.
 
    ![](assets/multivariant_push_13.png)
 
 1. Seleccione **[!UICONTROL Push notification report]**.
-1. Arrastre y suelte la dimensión **[!UICONTROL Variant]** en el panel para filtrar los datos.
+1. Arrastre y suelte la **[!UICONTROL Variant]** al panel para filtrar los datos.
 
    ![](assets/multivariant_push_11.png)
 

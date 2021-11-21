@@ -42,7 +42,7 @@ Las tablas siguientes proporcionan la lista de indicadores utilizados en los dis
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Al lista de bloqueados de la <br /> </td> 
+   <td> En lista de bloqueados<br /> </td> 
    <td> @blacklisted<br /> </td> 
    <td> count(@failureReason=8, @failureType=2)<br /> </td> 
    <td> </td> 
@@ -51,7 +51,7 @@ Las tablas siguientes proporcionan la lista de indicadores utilizados en los dis
    <td> lista de bloqueados tasa de <br /> </td> 
    <td> @rateBlacklisted<br /> </td> 
    <td> @blacklisted/@sent<br /> </td> 
-   <td> El denominador para el cálculo de tasa se basa en el recuento de envíos (entregado + devoluciones).<br /> </td> 
+   <td> El denominador para el cálculo de la tasa se basa en el recuento de envíos (entregado + devoluciones).<br /> </td> 
   </tr> 
   <tr> 
    <td> Devoluciones + Errores<br /> </td> 
@@ -60,7 +60,7 @@ Las tablas siguientes proporcionan la lista de indicadores utilizados en los dis
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Devolución + Tasa de error<br /> </td> 
+   <td> Devoluciones + Tasa de error<br /> </td> 
    <td> @rateBounces<br /> </td> 
    <td> @bounces/@sent<br /> </td> 
    <td> </td> 
@@ -68,26 +68,26 @@ Las tablas siguientes proporcionan la lista de indicadores utilizados en los dis
   <tr> 
    <td> Haga clic en<br /> </td> 
    <td> @clicks<br /> </td> 
-   <td> count(@trackingUrlType=1 o 10 o 11)<br /> </td> 
+   <td> count(@trackingUrlType=1, 10 o 11)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> Tasa de pulsaciones<br /> </td> 
    <td> @clickthrough<br /> </td> 
    <td> @uniqueclicks/@deliver<br /> </td> 
-   <td> El denominador para el cálculo de la tasa se basa en Entrega solamente.<br /> </td> 
+   <td> El denominador para el cálculo de tipos de interés se basa únicamente en Entrega.<br /> </td> 
   </tr> 
   <tr> 
    <td> Entrega<br /> </td> 
-   <td> @deliver<br /> </td> 
+   <td> @dropped<br /> </td> 
    <td> count(@status=1)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Tasa entregada<br /> </td> 
+   <td> Tasa de entrega<br /> </td> 
    <td> @rateDelivered<br /> </td> 
    <td> @deliver/@sent<br /> </td> 
-   <td> El denominador para el cálculo de tasa se basa en el recuento de envíos (entregado + devoluciones).<br /> </td> 
+   <td> El denominador para el cálculo de la tasa se basa en el recuento de envíos (entregado + devoluciones).<br /> </td> 
   </tr> 
   <tr> 
    <td> Rechazos graves<br /> </td> 
@@ -99,7 +99,7 @@ Las tablas siguientes proporcionan la lista de indicadores utilizados en los dis
    <td> Tasa de devoluciones duras<br /> </td> 
    <td> @rateHardBounces<br /> </td> 
    <td> @hardBounces/@sent<br /> </td> 
-   <td> El denominador para el cálculo de tasa se basa en el recuento de envíos (entregado + devoluciones).<br /> </td> 
+   <td> El denominador para el cálculo de la tasa se basa en el recuento de envíos (entregado + devoluciones).<br /> </td> 
   </tr> 
   <tr> 
    <td> Dominio inválido<br /> </td> 
@@ -117,12 +117,12 @@ Las tablas siguientes proporcionan la lista de indicadores utilizados en los dis
    <td> Página espejo<br /> </td> 
    <td> @mirrorPage<br /> </td> 
    <td> count(@trackingUrlType=6)<br /> </td> 
-   <td> El denominador para el cálculo de la tasa se basa en Entrega solamente.<br /> </td> 
+   <td> El denominador para el cálculo de tipos de interés se basa únicamente en Entrega.<br /> </td> 
   </tr> 
   <tr> 
    <td> Tasa de página espejo<br /> </td> 
    <td> @rateMirrorPage<br /> </td> 
-   <td> @mirrorPage/@deliver<br /> </td> 
+   <td> @mirrorPage/@delivered<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -141,7 +141,7 @@ Las tablas siguientes proporcionan la lista de indicadores utilizados en los dis
    <td> Tasa de apertura<br /> </td> 
    <td> @rateOpens<br /> </td> 
    <td> @opens/@deliver<br /> </td> 
-   <td> El denominador para el cálculo de la tasa se basa en Entrega solamente.<br /> </td> 
+   <td> El denominador para el cálculo de tipos de interés se basa únicamente en Entrega.<br /> </td> 
   </tr> 
   <tr> 
    <td> Cuarentena<br /> </td> 
@@ -153,7 +153,7 @@ Las tablas siguientes proporcionan la lista de indicadores utilizados en los dis
    <td> Tasa de cuarentena<br /> </td> 
    <td> @rateQuarantine<br /> </td> 
    <td> @quarantine/@sent<br /> </td> 
-   <td> El denominador para el cálculo de tasa se basa en el recuento de envíos (entregado + devoluciones).<br /> </td> 
+   <td> El denominador para el cálculo de la tasa se basa en el recuento de envíos (entregado + devoluciones).<br /> </td> 
   </tr>
   <tr> 
    <td> Rechazado<br /> </td> 
@@ -165,16 +165,16 @@ Las tablas siguientes proporcionan la lista de indicadores utilizados en los dis
    <td> Tasa rechazada<br /> </td> 
    <td> @rateRejected<br /> </td> 
    <td> @rejected/@sent<br /> </td> 
-   <td> El denominador para el cálculo de tasa se basa en el recuento de envíos (entregado + devoluciones).<br /> </td> 
+   <td> El denominador para el cálculo de la tasa se basa en el recuento de envíos (entregado + devoluciones).<br /> </td> 
   </tr> 
   <tr> 
    <td> Procesado/enviado<br /> </td> 
    <td> @sent<br /> </td> 
-   <td> @deliver + @bounces<br /> </td> 
+   <td> @entregada + @bounces<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Rechazo leve<br /> </td> 
+   <td> Rechazo suave<br /> </td> 
    <td> @softBounces<br /> </td> 
    <td> count(@failureType=1)<br /> </td> 
    <td> </td> 
@@ -183,12 +183,12 @@ Las tablas siguientes proporcionan la lista de indicadores utilizados en los dis
    <td> Tasa de devoluciones suave<br /> </td> 
    <td> @rateSoftBounces<br /> </td> 
    <td> @softBounces/@sent<br /> </td> 
-   <td> El denominador para el cálculo de tasa se basa en el recuento de envíos (entregado + devoluciones).<br /> </td> 
+   <td> El denominador para el cálculo de la tasa se basa en el recuento de envíos (entregado + devoluciones).<br /> </td> 
   </tr> 
   <tr> 
    <td> Clics únicos<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> Los clics únicos se calculan mediante conceptos de ThetaSketch. Para obtener más información, consulte este <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">ejemplo</a>.<br /> </td> 
+   <td> Los clics únicos se calculan mediante conceptos de ThetaSketch. Para obtener más información, consulte <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">ejemplo</a>.<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -213,7 +213,7 @@ Las tablas siguientes proporcionan la lista de indicadores utilizados en los dis
    <td> Tasa de cancelación de suscripción<br /> </td> 
    <td> @rateUnsubscribes<br /> </td> 
    <td> @unsubscribes/@deliver<br /> </td> 
-   <td> El denominador para el cálculo de la tasa se basa en Entrega solamente.<br /> </td> 
+   <td> El denominador para el cálculo de tipos de interés se basa únicamente en Entrega.<br /> </td> 
   </tr> 
   <tr> 
    <td> Usuario desconocido<br /> </td> 
@@ -242,16 +242,16 @@ Las tablas siguientes proporcionan la lista de indicadores utilizados en los dis
   </tr> 
   <tr> 
    <td> Entrega<br /> </td> 
-   <td> @deliver<br /> </td> 
+   <td> @dropped<br /> </td> 
    <td> @count(status=deliver)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Tasa entregada<br /> </td> 
+   <td> Tasa de entrega<br /> </td> 
    <td> @rateDelivered<br /> </td> 
    <td> (@deliver/@sent)*100<br /> </td> 
   </tr> 
   <tr> 
-   <td> Devolución + Tasa de error<br /> </td> 
+   <td> Devoluciones + Tasa de error<br /> </td> 
    <td> @rateBounces<br /> </td> 
    <td> (@deliver/@sent)*100<br /> </td> 
   </tr> 
@@ -268,7 +268,7 @@ Las tablas siguientes proporcionan la lista de indicadores utilizados en los dis
   <tr> 
    <td> Aperturas únicas<br /> </td> 
    <td> @uniqueopens<br /> </td> 
-   <td> Las aperturas únicas se calculan utilizando conceptos ThetaSketch de RecipientIds únicos. Para obtener más información, consulte este <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">ejemplo</a>.<br /> </td> 
+   <td> Las aperturas únicas se calculan utilizando conceptos ThetaSketch de RecipientIds únicos. Para obtener más información, consulte <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">ejemplo</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Impresiones<br /> </td> 
@@ -288,12 +288,12 @@ Las tablas siguientes proporcionan la lista de indicadores utilizados en los dis
   <tr> 
    <td> Clics únicos<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> Los clics únicos se calculan mediante conceptos de ThetaSketch. Para obtener más información, consulte este <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">ejemplo</a>.<br /> </td> 
+   <td> Los clics únicos se calculan mediante conceptos de ThetaSketch. Para obtener más información, consulte <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">ejemplo</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Tasa de pulsaciones<br /> </td> 
    <td> @clickthrough<br /> </td> 
-   <td> (@interaction/@delivered)*100<br /> </td> 
+   <td> (@interact/@deliver)*100<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -318,7 +318,7 @@ Las tablas siguientes proporcionan la lista de indicadores utilizados en los dis
   </tr> 
   <tr> 
    <td> Entrega<br /> </td> 
-   <td> @deliver<br /> </td> 
+   <td> @dropped<br /> </td> 
    <td> @count(status=deliver)<br /> </td> 
    <td> deliver=sent<br /> </td> 
   </tr> 
@@ -332,7 +332,7 @@ Las tablas siguientes proporcionan la lista de indicadores utilizados en los dis
    <td> Impresiones únicas<br /> </td> 
    <td> @uniqueimpressions<br /> </td> 
    <td> @unique(@count(status=view))<br /> </td> 
-   <td> Para la plantilla <span class="uicontrol">Target users based on their Campaign profile (inAppProfile)</span> , user = Recipient Id.<br /> Para  <span class="uicontrol">dirigirse a todos los usuarios de una aplicación móvil (en AppBroadcast)</span>  y a los usuarios de  <span class="uicontrol">Target según sus plantillas de perfil móvil (en la aplicación)</span> , user = MC Id o equivalente que represente una combinación única de usuario, aplicación móvil y dispositivo.<br /> </td> 
+   <td> Para <span class="uicontrol">Usuarios de Target según su perfil de Campaign (enAppProfile)</span> plantilla, user = Recipient Id.<br /> Para <span class="uicontrol">Dirigirse a todos los usuarios de una aplicación móvil (enAppBroadcast)</span> y <span class="uicontrol">Usuarios de Target según su perfil móvil (en la aplicación)</span> plantillas, usuario = MC Id o equivalente que representa una combinación única de usuario, aplicación móvil y dispositivo.<br /> </td> 
   </tr> 
   <tr> 
    <td> Clics en la aplicación <br /> </td> 
@@ -343,26 +343,26 @@ Las tablas siguientes proporcionan la lista de indicadores utilizados en los dis
   <tr> 
    <td> Clics únicos en la aplicación<br /> </td> 
    <td> @uniqueinapp<br /> </td> 
-   <td> @unique(@count (status=clicks)<br /> </td> 
-   <td> Para la plantilla <span class="uicontrol">Target users based on their Campaign profile (inAppProfile)</span> , user = Recipient Id.<br /> Para  <span class="uicontrol">dirigirse a todos los usuarios de una aplicación móvil (en AppBroadcast)</span>  y a los usuarios de  <span class="uicontrol">Target según sus plantillas de perfil móvil (en la aplicación)</span> , user = MC Id o equivalente que represente una combinación única de usuario, aplicación móvil y dispositivo.<br /> </td> 
+   <td> @unique(@count (status=clicks))<br /> </td> 
+   <td> Para <span class="uicontrol">Usuarios de Target según su perfil de Campaign (enAppProfile)</span> plantilla, user = Recipient Id.<br /> Para <span class="uicontrol">Dirigirse a todos los usuarios de una aplicación móvil (enAppBroadcast)</span> y <span class="uicontrol">Usuarios de Target según su perfil móvil (en la aplicación)</span> plantillas, usuario = MC Id o equivalente que representa una combinación única de usuario, aplicación móvil y dispositivo.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Tasa de pulsaciones en la aplicación<br /> </td> 
+   <td> Tasa de clics en la aplicación<br /> </td> 
    <td> @inappclickthrough<br /> </td> 
    <td> Clics totales en el Botón 1 o el Botón 2/impresiones totales*100<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> Despido en la aplicación<br /> </td> 
-   <td> @dismissal<br /> </td> 
+   <td> @dismisal<br /> </td> 
    <td> @count (status=close)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> Eliminaciones únicas en la aplicación<br /> </td> 
-   <td> @uniquedismissal<br /> </td> 
+   <td> @uniquedismisal<br /> </td> 
    <td> @unique(@count (status=close))<br /> </td> 
-   <td> Para la plantilla <span class="uicontrol">Target users based on their Campaign profile (inAppProfile)</span> , user = Recipient Id.<br /> Para  <span class="uicontrol">dirigirse a todos los usuarios de una aplicación móvil (en AppBroadcast)</span>  y a los usuarios de  <span class="uicontrol">Target según sus plantillas de perfil móvil (en la aplicación)</span> , user = MC Id o equivalente que represente una combinación única de usuario, aplicación móvil y dispositivo.<br /> </td> 
+   <td> Para <span class="uicontrol">Usuarios de Target según su perfil de Campaign (enAppProfile)</span> plantilla, user = Recipient Id.<br /> Para <span class="uicontrol">Dirigirse a todos los usuarios de una aplicación móvil (enAppBroadcast)</span> y <span class="uicontrol">Usuarios de Target según su perfil móvil (en la aplicación)</span> plantillas, usuario = MC Id o equivalente que representa una combinación única de usuario, aplicación móvil y dispositivo.<br /> </td> 
   </tr> 
   <tr> 
    <td> Tasa de despido en la aplicación<br /> </td> 

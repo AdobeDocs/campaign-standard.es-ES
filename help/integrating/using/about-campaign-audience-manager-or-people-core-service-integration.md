@@ -21,21 +21,21 @@ ht-degree: 22%
 >
 >Según los datos intercambiados, la importación de audiencias en Adobe Campaign puede estar sujeta a restricciones legales.
 
-Adobe Campaign le permite intercambiar y compartir audiencias y segmentos con las distintas aplicaciones de Adobe Experience Cloud. La integración de **Adobe Campaign** con **el servicio principal Personas** (también conocido como **Servicio principal de Perfiles y audiencias**) o Adobe Audience Manager le permite:
+Adobe Campaign le permite intercambiar y compartir audiencias y segmentos con las distintas aplicaciones de Adobe Experience Cloud. Integración **Adobe Campaign** con **Servicio principal Personas** (también conocido como **Servicio principal Perfiles y audiencias**) o Adobe Audience Manager le permite:
 
-* Importar audiencias y segmentos de distintas soluciones de Adobe Experience Cloud en Adobe Campaign. Las audiencias se pueden importar desde el menú **[!UICONTROL Audiences]** en Adobe Campaign.
-* Exportar audiencias como audiencias o segmentos compartidos. Estas audiencias pueden utilizarse con las diferentes soluciones de Adobe Experience Cloud que utiliza. Las audiencias se pueden exportar después de actividades de segmentación en un flujo de trabajo mediante la actividad **[!UICONTROL Save audience]**.
+* Importar audiencias y segmentos de distintas soluciones de Adobe Experience Cloud en Adobe Campaign. Las audiencias se pueden importar desde el **[!UICONTROL Audiences]** en Adobe Campaign.
+* Exportar audiencias como audiencias o segmentos compartidos. Estas audiencias pueden utilizarse con las diferentes soluciones de Adobe Experience Cloud que utiliza. Las audiencias se pueden exportar después de segmentar actividades en un flujo de trabajo mediante la función **[!UICONTROL Save audience]** actividad.
 
 La integración admite dos tipos de Adobe Experience Cloud ID:
 
-* **ID** de visitante: este tipo de ID le permite reconciliar visitantes de Adobe Experience Cloud con perfiles de Adobe Campaign. Tan pronto como una conexión está habilitada a través de Adobe IMS, el servicio de ID de visitante de Marketing Cloud se activa, lo que reemplaza la cookie permanente utilizada por Adobe Campaign. Esto le permite identificar a un visitante y luego vincularlo a un perfil.
+* **ID de visitante**: este tipo de ID le permite reconciliar visitantes de Adobe Experience Cloud con perfiles de Adobe Campaign. Tan pronto como una conexión está habilitada a través de Adobe IMS, el servicio de ID de visitante de Marketing Cloud se activa, lo que reemplaza la cookie permanente utilizada por Adobe Campaign. Esto le permite identificar a un visitante y luego vincularlo a un perfil.
    <br>Un ID de visitante está vinculado a un perfil en cuanto este hace clic en un correo electrónico enviado por Adobe Campaign:
    * Si el perfil ya tiene un ID de visitante, los datos del explorador del perfil permiten a Adobe Campaign recuperarse y vincular automáticamente el perfil al ID de visitante.
    * Si no se encuentra ningún ID de visitante, se crea un nuevo ID. Este ID de visitante se almacena en los registros de seguimiento de perfil.
 
    Las otras aplicaciones de Adobe Marketing Cloud reconocen entonces la ID con el mismo CNAME.
 
-* **ID** declarado: este tipo de ID le permite reconciliar cualquier tipo de datos con elementos de la base de datos de Adobe Campaign. Se representa en Adobe Campaign como una clave de conciliación predefinida. Al intercambiar datos, los identificadores de la base de datos de Adobe Campaign se colocan en hash. A continuación, estos ID con hash se comparan con los ID con hash de la audiencia de Adobe Marketing Cloud implicada en la importación o exportación.
+* **ID declarado**: este tipo de ID le permite reconciliar cualquier tipo de datos con elementos de la base de datos de Adobe Campaign. Se representa en Adobe Campaign como una clave de reconciliación predefinida. Al intercambiar datos, los identificadores de la base de datos de Adobe Campaign se colocan en hash. A continuación, estos ID con hash se comparan con los ID con hash de la audiencia de Adobe Marketing Cloud implicada en la importación o exportación.
    <br>Esta integración admite ID declarados normales, ID declarados con hash e ID declarados cifrados.
 
    >[!NOTE]

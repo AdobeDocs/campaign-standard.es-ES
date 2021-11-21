@@ -18,15 +18,15 @@ ht-degree: 1%
 
 # Resumen de devoluciones{#bounce-summary}
 
-Este informe detalla los errores generales, graves y leves que se han encontrado durante los envíos, así como el procesamiento automático de los rechazos (consulte [Comprensión de los errores de envío](../../sending/using/understanding-delivery-failures.md)).
+Este informe detalla los errores generales, graves y leves que se han encontrado durante las entregas, así como el procesamiento automático de las devoluciones (consulte [Comprensión de los errores de entrega](../../sending/using/understanding-delivery-failures.md)).
 
 ![](assets/campaign_reports_bounces.png)
 
 Cada tabla está representada por números de resumen y gráficos. Puede cambiar cómo se muestran los detalles en sus respectivos ajustes de visualización.
 
-**La** repartición de Flop 5 enumera las cinco entregas con el mayor número de cuarentenas:
+**Flop 5 repartición** enumera las cinco entregas con el mayor número de cuarentenas:
 
-La tabla **Bounce reasons** contiene los datos disponibles para los tipos de errores que causaron devoluciones para cada envío:
+La variable **Motivos de devolución** contiene los datos disponibles para los tipos de errores que causaron devoluciones para cada entrega:
 
 * **[!UICONTROL User unknown]**: Tipo de error generado cuando se realiza un envío a una dirección de correo electrónico no válida.
 * **[!UICONTROL Invalid domain]**: Tipo de error generado cuando se realiza un envío a una dirección de correo electrónico cuyo dominio es incorrecto o ya no existe.
@@ -41,4 +41,4 @@ La tabla **Bounce reasons** contiene los datos disponibles para los tipos de err
 
 * **[!UICONTROL Refused]**: Tipo de error generado cuando el proveedor de servicios de Internet (ISP) rechaza una dirección. Por ejemplo, cuando el software antispam ha aplicado una regla de seguridad.
 
-La tabla **Domain repartir** muestra los problemas generales que se han encontrado durante los envíos según el dominio del destinatario.
+La variable **Repartición de dominios** muestra los problemas generales encontrados durante los envíos según el dominio del destinatario.

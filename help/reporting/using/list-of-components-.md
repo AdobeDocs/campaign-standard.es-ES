@@ -1,6 +1,6 @@
 ---
 title: 'Lista de componentes '
-description: Encuentre aquí la lista de todos los componentes disponibles en     Informes dinámicos, así como sus definiciones.
+description: Encuentre aquí la lista de todos los componentes disponibles en los informes dinámicos, así como sus definiciones.
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # Lista de componentes {#list-of-components}
 
-Para obtener más información sobre la compatibilidad entre dimensiones y métricas, consulte esta [tabla](/help/reporting/using/assets/dynamic_report_compatibility.pdf). Si dos componentes no son compatibles, la celda mostrará el valor **None**.
+Para obtener más información sobre la compatibilidad entre dimensiones y métricas, consulte esta [tabla](/help/reporting/using/assets/dynamic_report_compatibility.pdf). Si dos componentes no son compatibles, la celda mostrará el valor **Ninguna**.
 
 [![imagen](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=en)
 
@@ -55,15 +55,15 @@ La tabla siguiente proporciona la lista de dimensiones utilizadas en los informe
   </tr> 
   <tr> 
    <td> Dispositivo<br /> </td> 
-   <td> Dispositivo desde el que se abrió, visualizó o hizo clic en la notificación por correo electrónico/SMS/push.<br /> </td> 
+   <td> Dispositivo desde el que se abrió, visualizó o hizo clic en la notificación de correo electrónico/SMS/push.<br /> </td> 
   </tr> 
   <tr> 
    <td> Motivo del error<br /> </td> 
-   <td> Tipos de errores que causaron devoluciones para cada envío, por ejemplo, usuario desconocido, dominio no válido o buzón lleno.<br /> </td> 
+   <td> Tipos de errores que causaban devoluciones para cada entrega, por ejemplo, usuario desconocido, dominio no válido o buzón lleno.<br /> </td> 
   </tr> 
   <tr> 
    <td> Sexo<br /> </td> 
-   <td> Sexo del destinatario, como hombre o mujer. Si el campo de género está vacío en el perfil del destinatario, el valor será ninguno.<br /> </td> 
+   <td> Sexo del destinatario, como hombre o mujer. Si el campo gender está vacío en el perfil del destinatario, el valor es none.<br /> </td> 
   </tr> 
   <tr> 
    <td> Acciones de mensajes en la aplicación<br /> </td> 
@@ -71,19 +71,19 @@ La tabla siguiente proporciona la lista de dimensiones utilizadas en los informe
   </tr> 
   <tr> 
    <td> Tipo de mensaje<br /> </td> 
-   <td> Canal utilizado para el envío, como correo electrónico, SMS, notificación push o en la aplicación.<br /> </td> 
+   <td> Canal utilizado para el envío, como correo electrónico, SMS, notificaciones push o en la aplicación.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Nombre de aplicación móvil<br /> </td> 
+   <td> Nombre de la aplicación móvil<br /> </td> 
    <td> Nombre de la aplicación móvil<br /> </td> 
   </tr> 
   <tr> 
    <td> Plataforma<br /> </td> 
-   <td> Plataforma del dispositivo desde el que se abrió, vio o hizo clic en el mensaje.<br /> </td> 
+   <td> Plataforma del dispositivo desde el que se abrió, visualizó o hizo clic en el mensaje.<br /> </td> 
   </tr> 
   <tr> 
    <td> Perfil<br /> </td> 
-   <td> Reagrupa los campos de perfil predeterminados y personalizados creados durante la extensión del recurso de perfil. Para obtener más información, consulte esta <a href="../../developing/using/key-steps-to-add-a-resource.md">página</a> o este <a href="../../reporting/using/creating-a-custom-profile-dimension.md">ejemplo</a>.<br /> Tenga en cuenta que los datos de esta dimensión se recuperan en cuanto se publica el recurso personalizado vinculado al campo de perfil.<br /> </td> 
+   <td> Reagrupa los campos de perfil predeterminados y personalizados creados durante la extensión de recursos de perfil. Para obtener más información, consulte <a href="../../developing/using/key-steps-to-add-a-resource.md">página</a> o <a href="../../reporting/using/creating-a-custom-profile-dimension.md">ejemplo</a>.<br /> Tenga en cuenta que los datos de esta dimensión se recuperan en cuanto se publica el recurso personalizado vinculado al campo de perfil.<br /> </td> 
   </tr> 
   <tr> 
    <td> Plataforma push<br /> </td> 
@@ -114,20 +114,20 @@ La tabla siguiente proporciona la lista de dimensiones utilizadas en los informe
    <td> Dirección URL en la que el usuario hizo clic desde el mensaje.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Categoría URL de seguimiento<br /> </td> 
-   <td> Categoría asignada a la URL de seguimiento.<br /> </td> 
+   <td> Categoría de URL de seguimiento<br /> </td> 
+   <td> Categoría asignada a la dirección URL de seguimiento.<br /> </td> 
   </tr> 
   <tr> 
    <td> Etiqueta de URL de seguimiento<br /> </td> 
-   <td> Etiqueta dada a la dirección URL, como la página espejo, póngase en contacto con nosotros o ábrala.<br /> </td> 
+   <td> Etiqueta dada a la dirección URL, como página espejo, póngase en contacto con nosotros o abra.<br /> </td> 
   </tr> 
   <tr> 
    <td> Entrega transaccional<br /> </td> 
    <td> Etiqueta e ID de la entrega transaccional.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Variante<br /> </td> 
-   <td> Variante del correo electrónico en caso de prueba A/B.<br /> </td> 
+   <td> Variant<br /> </td> 
+   <td> Variant del correo electrónico en caso de prueba A/B.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -147,7 +147,7 @@ Las tablas siguientes proporcionan la lista de métricas utilizadas en los infor
  </thead> 
  <tbody> 
   <tr> 
-   <td> Al lista de bloqueados de la <br /> </td> 
+   <td> En lista de bloqueados<br /> </td> 
    <td> Número de destinatarios que han declarado un correo electrónico como correo no deseado o no deseado.<br /> </td> 
   </tr> 
   <tr> 
@@ -156,26 +156,26 @@ Las tablas siguientes proporcionan la lista de métricas utilizadas en los infor
   </tr> 
   <tr> 
    <td> Devoluciones + Errores<br /> </td> 
-   <td> Total de errores acumulados durante la entrega y el procesamiento automático de devoluciones en relación con el número total de mensajes enviados.<br /> </td> 
+   <td> Total de errores acumulados durante la entrega y el procesamiento automático de devoluciones en relación con la cantidad total de mensajes enviados.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Devolución + Tasa de error<br /> </td> 
+   <td> Devoluciones + Tasa de error<br /> </td> 
    <td> Porcentaje de correos electrónicos devueltos en comparación con el correo electrónico enviado.<br /> </td> 
   </tr> 
   <tr> 
    <td> Haga clic en<br /> </td> 
-   <td> Número de veces que se hizo clic en un contenido en un envío.<br /> </td> 
+   <td> Número de veces que se hizo clic en un contenido en una entrega.<br /> </td> 
   </tr> 
   <tr> 
    <td> Tasa de pulsaciones<br /> </td> 
-   <td> Porcentaje de clics en un envío.<br /> </td> 
+   <td> Porcentaje de clics en una entrega.<br /> </td> 
   </tr> 
   <tr> 
    <td> Entrega<br /> </td> 
    <td> Número de mensajes enviados correctamente, en relación con el número total de mensajes enviados.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Tasa entregada<br /> </td> 
+   <td> Tasa de entrega<br /> </td> 
    <td> Porcentaje de mensajes enviados correctamente.<br /> </td> 
   </tr> 
   <tr> 
@@ -192,7 +192,7 @@ Las tablas siguientes proporcionan la lista de métricas utilizadas en los infor
   </tr> 
   <tr> 
    <td> Tasa de página espejo<br /> </td> 
-   <td> Porcentaje de clics en el vínculo de página espejo comparado con el total de mensajes de envío.<br /> </td> 
+   <td> Porcentaje de clics en el vínculo de página espejo comparado con el total de mensajes de entrega.<br /> </td> 
   </tr> 
   <tr> 
    <td> Clics en ofertas<br /> </td> 
@@ -216,7 +216,7 @@ Las tablas siguientes proporcionan la lista de métricas utilizadas en los infor
   </tr> 
   <tr> 
    <td> Cuarentena<br /> </td> 
-   <td> Número de mensajes que se rebotaron y dieron como resultado la cuarentena de la dirección.<br /> </td> 
+   <td> Número de mensajes que se devolvieron y que dieron como resultado la cuarentena de la dirección.<br /> </td> 
   </tr> 
   <tr> 
    <td> Tasa de cuarentena<br /> </td> 
@@ -231,7 +231,7 @@ Las tablas siguientes proporcionan la lista de métricas utilizadas en los infor
    <td> Porcentaje de mensajes marcados como rechazados.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Rechazo leve<br /> </td> 
+   <td> Rechazo suave<br /> </td> 
    <td> Número total de errores temporales, como una bandeja de entrada completa.<br /> </td> 
   </tr> 
   <tr> 
@@ -276,7 +276,7 @@ Las tablas siguientes proporcionan la lista de métricas utilizadas en los infor
    <td> Total de errores acumulados durante la entrega en relación con el número total de mensajes enviados, por ejemplo errores de MCPNS o del proveedor.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Devolución + Tasa de error<br /> </td> 
+   <td> Devoluciones + Tasa de error<br /> </td> 
    <td> Porcentaje de notificaciones push que rebotaron en comparación con las notificaciones push enviadas.<br /> </td> 
   </tr> 
   <tr> 
@@ -292,7 +292,7 @@ Las tablas siguientes proporcionan la lista de métricas utilizadas en los infor
    <td> Número de notificaciones push enviadas correctamente, en relación con el número total de notificaciones push enviadas.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Tasa entregada<br /> </td> 
+   <td> Tasa de entrega<br /> </td> 
    <td> Porcentaje de notificaciones push enviadas correctamente.<br /> </td> 
   </tr> 
   <tr> 
@@ -305,7 +305,7 @@ Las tablas siguientes proporcionan la lista de métricas utilizadas en los infor
   </tr> 
   <tr> 
    <td> Apertura<br /> </td> 
-   <td> Número total de notificaciones push enviadas al dispositivo y en las que los usuarios han hecho clic para abrir la aplicación. Esto es similar al clic push, excepto que no se activará un abrir push si se descartó la notificación.<br /> </td> 
+   <td> Número total de notificaciones push enviadas al dispositivo y en las que los usuarios han hecho clic para abrir la aplicación. Esto es similar al clic push , excepto que no se activará un push Open si se descarta la notificación.<br /> </td> 
   </tr> 
   <tr> 
    <td> Tasa de apertura<br /> </td> 
@@ -313,7 +313,7 @@ Las tablas siguientes proporcionan la lista de métricas utilizadas en los infor
   </tr> 
   <tr> 
    <td> Clics únicos<br /> </td> 
-   <td> Número de veces que un usuario único interactúa con la notificación push, por ejemplo, cuando hace clic en la notificación o en el botón.<br /> </td> 
+   <td> Número de veces que un usuario único interactúa con la notificación push, por ejemplo, haciendo clic en la notificación o el botón.<br /> </td> 
   </tr> 
   <tr> 
    <td> Impresiones únicas<br /> </td> 
@@ -342,19 +342,19 @@ Las tablas siguientes proporcionan la lista de métricas utilizadas en los infor
   </tr> 
   <tr> 
    <td> Impresiones<br /> </td> 
-   <td> Total de mensajes en la aplicación que ven los destinatarios en función de si se cumple el criterio de déclencheur.<br /> </td> 
+   <td> Total de mensajes en la aplicación vistos por los destinatarios en función de si se cumplió el criterio de déclencheur.<br /> </td> 
   </tr> 
   <tr> 
    <td> Clics en la aplicación <br /> </td> 
    <td> Número total de destinatarios que hicieron clic en el Botón 1 o en el Botón 2.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Tasa de pulsaciones en la aplicación<br /> </td> 
-   <td> Porcentaje de usuarios que hicieron clic en el Botón 1 o en el Botón 2 comparado con los usuarios que vieron el mensaje.<br /> </td> 
+   <td> Tasa de clics en la aplicación<br /> </td> 
+   <td> Porcentaje de usuarios que hicieron clic en Botón 1 o Botón 2 comparados con los usuarios que vieron el mensaje.<br /> </td> 
   </tr> 
   <tr> 
    <td> Despido en la aplicación<br /> </td> 
-   <td> Número total de mensajes que los destinatarios descartaron haciendo clic en el botón de cierre o descartando automáticamente.<br /> </td> 
+   <td> Número total de mensajes que los destinatarios descartaron haciendo clic en el botón cerrar o descartando automáticamente.<br /> </td> 
   </tr> 
   <tr> 
    <td> Tasa de despido en la aplicación<br /> </td> 
@@ -366,7 +366,7 @@ Las tablas siguientes proporcionan la lista de métricas utilizadas en los infor
   </tr> 
   <tr> 
    <td> Impresiones únicas<br /> </td> 
-   <td> Número de impresiones de un destinatario único.<br /> </td> 
+   <td> Número de impresiones por un destinatario único.<br /> </td> 
   </tr> 
   <tr> 
    <td> Clics únicos en la aplicación<br /> </td> 
@@ -429,23 +429,23 @@ La siguiente tabla le ofrece la lista de segmentos utilizados en los informes y 
   </tr> 
   <tr> 
    <td> Edad: Buenos a 50<br /> </td> 
-   <td> Destinatarios cuya edad es buena a 50.<br /> </td> 
+   <td> Destinatarios cuya edad es buena a 50 años.<br /> </td> 
   </tr> 
   <tr> 
    <td> Edad: Menos de 25<br /> </td> 
-   <td> Destinatarios cuya edad es menor de 25.<br /> </td> 
+   <td> Destinatarios cuya edad es menor de 25 años.<br /> </td> 
   </tr> 
   <tr> 
    <td> Edad: Menos de 30<br /> </td> 
-   <td> Destinatarios cuya edad es menor de 30.<br /> </td> 
+   <td> Destinatarios cuya edad es menor de 30 años.<br /> </td> 
   </tr> 
   <tr> 
    <td> Edad: Menos de 40<br /> </td> 
-   <td> Destinatarios cuya edad es menor de 40.<br /> </td> 
+   <td> Destinatarios cuya edad es menor de 40 años.<br /> </td> 
   </tr> 
   <tr> 
    <td> Edad: Menos de 50<br /> </td> 
-   <td> Destinatarios cuya edad es menor de 50.<br /> </td> 
+   <td> Destinatarios cuya edad es menor de 50 años.<br /> </td> 
   </tr> 
   <tr> 
    <td> Edad: Generación silenciosa<br /> </td> 

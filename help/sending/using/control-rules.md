@@ -25,7 +25,7 @@ Las reglas de control permiten comprobar la validez y calidad de los mensajes an
 
 ## Reglas de control predeterminadas {#default-control-rules}
 
-Un conjunto de reglas predeterminadas garantiza los controles estándar. La siguiente tabla proporciona información sobre estas reglas, así como sobre su canal relacionado y [fases de ejecución](#control-rules-execution-phases).
+Un conjunto de reglas predeterminadas garantiza los controles estándar. La tabla siguiente proporciona información sobre estas reglas, así como sobre su canal relacionado y [fases de ejecución](#control-rules-execution-phases).
 
 | Etiqueta | Canal | Fase de ejecución | Descripción |
 |---------|----------|---------|---------|
@@ -46,11 +46,11 @@ Un conjunto de reglas predeterminadas garantiza los controles estándar. La sigu
 
 Las reglas de control se pueden aplicar en diferentes fases del ciclo de vida de la entrega:
 
-* **Al principio del objetivo**: La regla de control se puede aplicar en esta fase para que el paso de personalización no se ejecute en caso de error.
+* **Al principio de la segmentación**: La regla de control se puede aplicar en esta fase para que el paso de personalización no se ejecute en caso de error.
 
 * **Después de la segmentación**: La ejecución después de la segmentación permite conocer el volumen del objetivo para aplicar la regla de control.
 
-   Por ejemplo, la regla de control **Check proof size** se aplica después de la fase de objetivo: esta regla evita la preparación de la personalización del mensaje si hay demasiados destinatarios de prueba.
+   Por ejemplo, la variable **Comprobar tamaño de la prueba** la regla de control se aplica después de la fase de segmentación: esta regla evita la preparación de la personalización del mensaje si hay demasiados destinatarios de prueba.
 
 * **Al principio de la personalización**: Se aplica cuando la comprobación se relaciona con la aprobación de la personalización del mensaje. La personalización del mensaje se lleva a cabo durante la fase de análisis.
 

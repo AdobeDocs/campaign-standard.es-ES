@@ -1,5 +1,5 @@
 ---
-title: Edición de formatos de texto sin formato, HTML y correo electrónico móvil
+title: Edición de formatos de correo electrónico de texto sin formato, HTML y móvil
 description: Descubra los modos de texto sin formato y HTML
 audience: designing
 content-type: reference
@@ -15,21 +15,21 @@ ht-degree: 0%
 
 ---
 
-# Edición de formatos de texto sin formato, HTML y correo electrónico móvil {#plain-text-and-html-modes}
+# Edición de formatos de correo electrónico de texto sin formato, HTML y móvil {#plain-text-and-html-modes}
 
-El Diseñador de correo electrónico permite editar varias representaciones de los correos electrónicos. Puede generar una versión de texto del correo electrónico, editar la fuente HTML de un correo electrónico y diseñar correos electrónicos para la vista móvil.
+El Diseñador de correo electrónico permite editar varias representaciones de los correos electrónicos. Puede generar una versión de texto del correo electrónico, editar la fuente del HTML de un correo electrónico y diseñar correos electrónicos para la vista móvil.
 
 ## Generación de una versión de texto del correo electrónico {#generating-a-text-version-of-the-email}
 
-De forma predeterminada, la versión **[!UICONTROL Plain text]** del correo electrónico se genera automáticamente y se sincroniza con la versión **[!UICONTROL Edit]**.
+De forma predeterminada, la variable **[!UICONTROL Plain text]** la versión del correo electrónico se genera automáticamente y se sincroniza con el **[!UICONTROL Edit]** versión.
 
-Los campos de personalización y los bloques de contenido añadidos a la versión HTML también se sincronizan con la versión de texto sin formato.
+Los campos de personalización y los bloques de contenido añadidos a la versión del HTML también se sincronizan con la versión de texto sin formato.
 
 >[!NOTE]
 >
->Para utilizar bloques de contenido en versión de texto sin formato, asegúrese de que no contengan código HTML.
+>Para utilizar bloques de contenido en versión de texto sin formato, asegúrese de que no contengan código de HTML.
 
-Para tener una versión de texto sin formato diferente de la versión HTML, puede deshabilitar esta sincronización haciendo clic en el conmutador **[!UICONTROL Sync with HTML]** en la vista **[!UICONTROL Plain text]** del correo electrónico.
+Para tener una versión de texto sin formato diferente de la versión del HTML, puede deshabilitar esta sincronización haciendo clic en el botón **[!UICONTROL Sync with HTML]** desde la **[!UICONTROL Plain text]** vista del correo electrónico.
 
 ![](assets/email_designer_textversion.png)
 
@@ -37,25 +37,25 @@ A continuación, puede editar la versión de texto sin formato como desee.
 
 >[!NOTE]
 >
->Si edita la versión **[!UICONTROL Plain text]** mientras la sincronización está deshabilitada, la próxima vez que habilite la opción **[!UICONTROL Sync with HTML]**, todos los cambios realizados en la versión de texto sin formato se sustituirán por la versión HTML. Los cambios realizados en la vista **[!UICONTROL Plain text]** no se pueden reflejar en la vista **[!UICONTROL HTML]**.
+>Si edita la variable **[!UICONTROL Plain text]** mientras la sincronización está deshabilitada, la próxima vez que habilite la función **[!UICONTROL Sync with HTML]** , todos los cambios realizados en la versión de texto sin formato se sustituirán por la versión de HTML. Los cambios realizados en **[!UICONTROL Plain text]** la vista no se puede reflejar en **[!UICONTROL HTML]** vista.
 
-## Edición de una fuente de contenido de correo electrónico en HTML {#editing-an-email-content-source-in-html}
+## Edición de una fuente de contenido de correo electrónico en el HTML {#editing-an-email-content-source-in-html}
 
 Para los usuarios y las depuraciones más avanzados, puede ver y editar el contenido del correo electrónico directamente en HTML.
 
-Tiene dos formas de editar la versión HTML del correo electrónico:
+Tiene dos formas de editar la versión del HTML del correo electrónico:
 
-* Seleccione **[!UICONTROL Edit]** > **[!UICONTROL HTML]** para abrir la versión HTML de todo el correo electrónico.
+* Select **[!UICONTROL Edit]** > **[!UICONTROL HTML]** para abrir la versión del HTML de todo el correo electrónico.
 
    ![](assets/email_designer_html1.png)
 
-* En la interfaz WYSIWYG, seleccione un elemento y haga clic en el icono **[!UICONTROL Source code]**.
+* En la interfaz WYSIWYG, seleccione un elemento y haga clic en el **[!UICONTROL Source code]** icono.
 
-   Solo se muestra el origen del elemento seleccionado. Puede editar el código fuente si el elemento seleccionado es un componente de contenido **[!UICONTROL HTML]**. Otros componentes están en modo de solo lectura, pero se pueden editar en la versión HTML completa del correo electrónico.
+   Solo se muestra el origen del elemento seleccionado. Puede editar el código fuente si el elemento seleccionado es un **[!UICONTROL HTML]** componente de contenido. Otros componentes están en modo de solo lectura, pero se pueden editar en la versión completa del HTML del correo electrónico.
 
    ![](assets/email_designer_html2.png)
 
-Si modifica el HTML y el código, se podría romper la capacidad de respuesta del correo electrónico. Asegúrese de probarlo con el botón **[!UICONTROL Preview]**. Consulte [Vista previa de mensajes](../../sending/using/previewing-messages.md).
+Si modifica el HTML del código, se podría romper la capacidad de respuesta del correo electrónico. Asegúrese de probarlo con el **[!UICONTROL Preview]** botón. Consulte [Vista previa de mensajes](../../sending/using/previewing-messages.md).
 
 ## Diseño de correos electrónicos para procesamiento móvil {#switching-to-mobile-view}
 
@@ -63,8 +63,8 @@ Puede ajustar el diseño interactivo de un correo electrónico editando por sepa
 
 Todas las opciones de estilo están disponibles en la vista móvil. La configuración de estilo del Diseñador de correo electrónico se muestra anteriormente en esta página.
 
-1. Cree un correo electrónico y empiece a editar el contenido. Para obtener más información, consulte [Diseño de un contenido de correo electrónico desde cero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
-1. Para acceder a la vista móvil dedicada, seleccione el botón **[!UICONTROL Switch to mobile view]** .
+1. Cree un correo electrónico y empiece a editar el contenido. Para obtener más información, consulte [Diseño del contenido de un correo electrónico desde cero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+1. Para acceder a la vista móvil dedicada, seleccione la opción **[!UICONTROL Switch to mobile view]** botón.
 
    ![](assets/email_designer_mobile_view_switch.png)
 
@@ -80,7 +80,7 @@ Todas las opciones de estilo están disponibles en la vista móvil. La configura
 
    ![](assets/email_designer_mobile_view_change.png)
 
-1. Puede ocultar un componente cuando se muestre en un dispositivo móvil. Para ello, seleccione **[!UICONTROL Show only on desktop devices]** en el **[!UICONTROL Display options]**.
+1. Puede ocultar un componente cuando se muestre en un dispositivo móvil. Para ello, seleccione **[!UICONTROL Show only on desktop devices]** de la variable **[!UICONTROL Display options]**.
 
    También puede elegir ocultar este componente en dispositivos de escritorio, lo que significa que solo se mostrará en dispositivos móviles. Para ello, seleccione **[!UICONTROL Show only on mobile devices]**.
 
@@ -96,7 +96,7 @@ Todas las opciones de estilo están disponibles en la vista móvil. La configura
 
    >[!NOTE]
    >
-   >La única excepción es la configuración **[!UICONTROL Style inline]**. Cualquier cambio de configuración en línea de estilo también se aplica a la vista de escritorio estándar.
+   >La única excepción es la **[!UICONTROL Style inline]** configuración. Cualquier cambio de configuración en línea de estilo también se aplica a la vista de escritorio estándar.
 
 1. Cualquier otro cambio en la estructura o el contenido del correo electrónico, como ediciones de texto, carga de una nueva imagen, adición de un componente nuevo, etc. también se aplica a la vista estándar.
 
@@ -118,14 +118,14 @@ Todas las opciones de estilo están disponibles en la vista móvil. La configura
 
    ![](assets/email_designer_mobile_view_background_desktop.png)
 
-1. Cambie de nuevo a la vista móvil y, ahora, deshabilite la configuración **[!UICONTROL Background color]**.
+1. Cambie de nuevo a la vista móvil y, ahora, deshabilite el **[!UICONTROL Background color]** configuración.
 
    ![](assets/email_designer_mobile_view_background_mobile_disabled.png)
 
    Ahora se aplica el color de fondo definido en la vista de escritorio: se vuelve gris (no en blanco).
 
-   La única excepción es la configuración **[!UICONTROL Border color]**. Cuando está desactivado en la vista móvil, ya no se aplica ningún borde, aunque el color del borde esté definido en la vista de escritorio.
+   La única excepción es la **[!UICONTROL Border color]** configuración. Cuando está desactivado en la vista móvil, ya no se aplica ningún borde, aunque el color del borde esté definido en la vista de escritorio.
 
 >[!NOTE]
 >
->La vista móvil no está disponible en [fragments](../../designing/using/using-reusable-content.md#about-fragments).
+>La vista móvil no está disponible en [fragmentos](../../designing/using/using-reusable-content.md#about-fragments).

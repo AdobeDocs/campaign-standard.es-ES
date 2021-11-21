@@ -22,27 +22,27 @@ Conozca las prácticas recomendadas relacionadas con el diseño de entregas y en
 
 <img src="assets/do-not-localize/optimize.svg"  width="60px">
 
-**[Optimización de la entrega](optimize-delivery.md)** : seguro y optimización del proceso de envío
+**[Optimización del envío](optimize-delivery.md)** - Asegurar y optimizar el proceso de envío
 
 <img src="assets/do-not-localize/design.svg"  width="60px">
 
-**[Uso de plantillas](use-templates.md)** : Facilitar y acelerar nuevos envíos
+**[Uso de plantillas](use-templates.md)** - Facilitar y acelerar nuevos envíos
 
 <img src="assets/do-not-localize/custom.svg"  width="60px">
 
-**[Personalizar contenido](design-and-personalize.md)** : aplicar la configuración correcta
+**[Personalización del contenido](design-and-personalize.md)** - Aplicar la configuración correcta
 
 <img src="assets/do-not-localize/profiles.svg"  width="60px">
 
-**[Defina la audiencia](define-the-right-audience.md)**  correcta: aplique la configuración correcta
+**[Definición de la audiencia correcta](define-the-right-audience.md)** - Aplicar la configuración correcta
 
 <img src="assets/do-not-localize/start.svg"  width="60px">
 
-**[Comprobación antes de enviar](check-before-sending.md)** : Evitar errores comunes
+**[Comprobación antes de enviar](check-before-sending.md)** - Evitar errores comunes
 
 <img src="assets/do-not-localize/troubleshoot.svg"  width="60px">
 
-**[Seguimiento y monitorización](track-and-monitor.md)** : Controle el envío y la resolución de problemas
+**[Seguimiento y monitorización](track-and-monitor.md)** - Control de entregas y resolución de problemas
 
 ## Contenido relacionado
 

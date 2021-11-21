@@ -26,6 +26,6 @@ Las diferentes configuraciones son las siguientes:
 * Propiedades del mensaje. Al crear un nuevo mensaje, puede ajustar las propiedades según sus necesidades.
 * Algunos canales ofrecen configuraciones adicionales que son opcionales, como Email BCC.
 
-El menú **[!UICONTROL Channel]** reagrupa los parámetros técnicos vinculados a los diferentes canales de aplicación (correo electrónico, SMS), así como la administración de la tipología y la cuarentena.
+La variable **[!UICONTROL Channel]** reagrupa los parámetros técnicos vinculados a los diferentes canales de aplicación (correo electrónico, SMS), así como la administración de la tipología y la cuarentena.
 
-Los administradores pueden acceder a estas configuraciones en el menú **[!UICONTROL Administration]** > **[!UICONTROL Channels]** .
+Los administradores pueden acceder a estas configuraciones en la **[!UICONTROL Administration]** > **[!UICONTROL Channels]** para abrir el Navegador.

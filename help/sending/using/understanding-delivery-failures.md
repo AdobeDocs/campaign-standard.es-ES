@@ -82,7 +82,7 @@ Los posibles motivos de un error de entrega son:
 
 Si un mensaje falla debido a un error temporal, los reintentos se realizan durante la duración del envío. Para obtener más información sobre los tipos de errores, consulte [Tipos y motivos de errores de entrega](#delivery-failure-types-and-reasons).
 
-El número de reintentos (cuántos reintentos se deben realizar el día siguiente al inicio del envío) y el retardo mínimo entre los reintentos ahora son<!--managed by the Adobe Campaign Enhanced MTA,--> en función del rendimiento histórico y actual de una IP en un dominio determinado. La configuración de **Reintentos** en Campaign se ignora.
+El número de reintentos (cuántos reintentos se deben realizar el día después de iniciar la entrega) y el retardo mínimo entre los reintentos ahora<!--managed by the Adobe Campaign Enhanced MTA,--> en función del rendimiento histórico y actual de una IP en un dominio determinado. La configuración de **Reintentos** en Campaign se ignora.
 
 <!--Please note that Adobe Campaign Enhanced MTA is not available for the Push channel.-->
 
@@ -92,11 +92,11 @@ Para modificar la duración de una entrega, vaya a los parámetros avanzados de 
 >
 >**El parámetro **[!UICONTROL Delivery duration]**de las entregas de Campaign ahora solo se utiliza si se establece en 3,5 días o menos.** Si define un valor superior a 3,5 días, no se tendrá en cuenta.
 
-Por ejemplo, si desea que los reintentos de un envío se detengan después de un día, puede establecer la duración del envío en **1d** y los mensajes de la cola de reintentos se eliminarán después de un día.
+Por ejemplo, si desea que los reintentos de una entrega se detengan después de un día, puede establecer la duración de la entrega en **1d**, y los mensajes de la cola de reintentos se eliminarán a partir de un día.
 
 >[!NOTE]
 >
->Una vez que un mensaje ha estado en la cola de reintentos durante un máximo de 3,5 días y no se ha podido entregar, se agotará el tiempo de espera y su estado se actualizará<!--from **[!UICONTROL Sent]**--> a **[!UICONTROL Failed]** en los [registros de envío](../../sending/using/monitoring-a-delivery.md#delivery-logs).
+>Una vez que un mensaje ha estado en la cola de reintentos durante un máximo de 3,5 días y no se ha podido entregar, se agotará el tiempo de espera y se actualizará su estado<!--from **[!UICONTROL Sent]**--> a **[!UICONTROL Failed]** en el [registros de envío](../../sending/using/monitoring-a-delivery.md#delivery-logs).
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
@@ -116,7 +116,7 @@ Para los mensajes de error de error de envío sincrónico, el MTA mejorado de Ad
 >
 >Ya no se utilizan las cualificaciones de devolución de la tabla **[!UICONTROL Message qualification]** de Campaign.
 
-Las devoluciones asincrónicas siguen siendo calificadas por el proceso enMail a través de las **[!UICONTROL Inbound email]** reglas. Para acceder a estas reglas, haga clic en el logotipo **Adobe**, en la parte superior izquierda, seleccione **[!UICONTROL Administration > Channels > Email > Email processing rules]** y seleccione **[!UICONTROL Bounce mails]**. Para obtener más información sobre esta regla, consulte [esta sección](../../administration/using/configuring-email-channel.md#email-processing-rules).
+Las devoluciones asincrónicas siguen siendo calificadas por el proceso enMail a través de las **[!UICONTROL Inbound email]** reglas. Para acceder a estas reglas, haga clic en el botón **Adobe** , en la parte superior izquierda, seleccione **[!UICONTROL Administration > Channels > Email > Email processing rules]** y seleccione **[!UICONTROL Bounce mails]**. Para obtener más información sobre esta regla, consulte [esta sección](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
 Para obtener más información sobre las devoluciones y los distintos tipos de devoluciones, consulte [esta sección](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
 

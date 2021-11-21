@@ -27,7 +27,7 @@ El panel de mensajes es un espacio de trabajo compuesto por diferentes iconos (r
 La barra gris reagrupa varios iconos vinculados al mensaje.
 
 * **[!UICONTROL Summary]**: muestra u oculta la información principal relativa al mensaje.
-* **[!UICONTROL Edit properties]**: permite editar los parámetros  [avanzados](../../administration/using/configuring-email-channel.md#list-of-email-properties) del mensaje.
+* **[!UICONTROL Edit properties]**: permite editar el informe [parámetros avanzados](../../administration/using/configuring-email-channel.md#list-of-email-properties).
 * **[!UICONTROL Reports]**: le permite acceder a los informes relacionados con el mensaje.
 
 **Temas relacionados:**
@@ -47,11 +47,11 @@ Según los parámetros que se hayan configurado y el progreso realizado, es posi
 
    Para obtener más información sobre las pruebas, consulte [Envío de pruebas](../../sending/using/sending-proofs.md).
 
-* **[!UICONTROL Send a test]**: permite seleccionar el modo de aprobación para utilizar:  **[!UICONTROL Email rendering]** (solo correo electrónico),  **[!UICONTROL Proof]** o ambos. Para obtener más información sobre los perfiles de prueba, consulte [Envío de pruebas](../../sending/using/sending-proofs.md). Este botón solo se activa una vez que se hayan creado los perfiles de prueba.
+* **[!UICONTROL Send a test]**: permite seleccionar el modo de aprobación para utilizar: **[!UICONTROL Email rendering]** (solo correo electrónico), **[!UICONTROL Proof]** o ambas. Para obtener más información sobre los perfiles de prueba, consulte [Envío de pruebas](../../sending/using/sending-proofs.md). Este botón solo se activa una vez que se hayan creado los perfiles de prueba.
 
-* **[!UICONTROL Prepare send]**: comienza a preparar el envío. El bloque **[!UICONTROL Deployment]** aparece y muestra el resultado de la preparación. Este botón solo aparece una vez introducido el objetivo. Puede detener la preparación en cualquier momento utilizando el botón correspondiente. Para obtener más información sobre la preparación del mensaje, consulte [Preparación del envío](../../sending/using/preparing-the-send.md).
+* **[!UICONTROL Prepare send]**: comienza a preparar el envío. La variable **[!UICONTROL Deployment]** aparece y muestra el resultado de la preparación. Este botón solo aparece una vez introducido el objetivo. Puede detener la preparación en cualquier momento utilizando el botón correspondiente. Para obtener más información sobre la preparación de mensajes, consulte [Preparación del envío](../../sending/using/preparing-the-send.md).
 
-* **[!UICONTROL Confirm send]**: confirma el envío del mensaje. Las estadísticas de envío aparecen en el bloque **[!UICONTROL Deployment]** . Este botón solo aparece después de preparar el envío. Puede detener o pausar el envío en cualquier momento utilizando los botones **Stop send** y **[!UICONTROL Pause]**. Para obtener más información sobre la confirmación del envío, consulte [Envío de mensajes](../../sending/using/confirming-the-send.md).
+* **[!UICONTROL Confirm send]**: confirma el envío del mensaje. Las estadísticas de envío aparecen en la sección **[!UICONTROL Deployment]** bloque. Este botón solo aparece después de preparar el envío. Puede detener o pausar el envío en cualquier momento usando la variable **Detener envío** y **[!UICONTROL Pause]** botones. Para obtener más información sobre la confirmación de envíos, consulte [Envío de mensajes](../../sending/using/confirming-the-send.md).
 
 ## Bloques {#blocks}
 
@@ -84,10 +84,10 @@ A continuación se muestra una lista de los mensajes que se pueden mostrar:
 
    Si ve este mensaje, hay un problema en el nivel de definición de afinidad de IP o en el nivel de proceso de envío. Póngase en contacto con el administrador de Adobe 
 
-* *&quot;Es una plantilla de mensaje transaccional lista para usar. Si desea modificarla, debe duplicarla y trabajar en su copia.&quot;*
+* *&quot;Es una plantilla de mensaje transaccional lista para usar. Si desea modificarla, debe duplicarla y trabajar en su copia&quot;.*
 
    Algunas de estas plantillas de mensajes transaccionales integradas son plantillas de página de aterrizaje integradas. Para obtener más información, consulte [esta sección](../../channels/using/landing-page-templates.md).
 
-* *&quot;Este mensaje es una plantilla de mensaje transaccional técnica. No puede modificarla ni publicarla.&quot;*
+* *&quot;Este mensaje es una plantilla de mensaje transaccional técnica. No puede modificarla ni publicarla&quot;.*
 
    Esta advertencia se muestra en plantillas de mensaje transaccional vacías que no se pueden editar. Para obtener más información sobre los mensajes transaccionales, consulte [esta sección](../../channels/using/getting-started-with-transactional-msg.md).

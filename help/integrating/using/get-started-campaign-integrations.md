@@ -49,14 +49,14 @@ Si desea integrar flujos de datos de otros sistemas con Adobe Campaign, consulte
    <td> Adobe Experience Manager<br /> </td> 
    <td> Permite crear contenido de correo electrónico o formularios asignados a la base de datos de Adobe Campaign directamente en Adobe Experience Manager.<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">Trabaje con Campaign y el Experience Manager</a>,  <a href="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignstandard.html">integre el Experience Manager y el Campaign Standard</a> y  <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">cree un correo electrónico con el Experience Manager y Campaign</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">Trabajar con Campaign y el Experience Manager</a>, <a href="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignstandard.html">Integrar Experience Manager y Campaign Standard</a>, <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">Creación de un correo electrónico con Experience Manager y Campaign</a> 
     </td> 
   </tr> 
   <tr> 
    <td> Adobe Target<br /> </td> 
    <td> Permite insertar imágenes que Adobe Target calcula dinámicamente cuando se abre un correo electrónico que Adobe Campaign crea y envía.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">Trabajar con Campaign y Target</a>,  <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=es">integrar Campaign y Target</a>,  <a href="https://helpx.adobe.com/es/marketing-cloud/how-to/email-marketing.html">personalizar imágenes de correo electrónico en vídeo en tiempo </a> real (paso 3)
+    <a href="../../integrating/using/about-campaign-target-integration.md">Trabajo con Campaign y Target</a>, <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=es">Integrar Campaign y Target</a>, <a href="https://helpx.adobe.com/es/marketing-cloud/how-to/email-marketing.html">Personalizar imágenes de correo electrónico en tiempo real</a> vídeo (paso 3)
     </td> 
   </tr> 
   <tr> 
@@ -77,7 +77,7 @@ Si desea integrar flujos de datos de otros sistemas con Adobe Campaign, consulte
    <td><a href="../../integrating/using/get-started-sources-destinations.md">Introducción a orígenes y destinos</a></td>
   </tr> 
   <tr> 
-   <td> Servicio principal de recursos de Adobe y Recursos On Demand<br /> </td> 
+   <td> Servicio principal de Recursos de Adobe y Recursos On Demand<br /> </td> 
    <td> Permite insertar activos de la biblioteca de Adobe Experience Cloud en correos electrónicos y páginas de destino creadas en Adobe Campaign.<br /> </td> 
    <td> <a href="../../integrating/using/working-with-campaign-and-assets-core-service.md">Servicio principal de recursos</a> o Recursos bajo demanda<br /> </td> 
   </tr> 
@@ -102,11 +102,11 @@ Si desea integrar flujos de datos de otros sistemas con Adobe Campaign, consulte
    <td> Adobe Dreamweaver<br /> </td> 
    <td> Permite editar un contenido de correo electrónico de Dreamweaver y sincronizarlo con Adobe Campaign.<br /> </td> 
    <td> 
-    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=es">Creación de correos electrónicos personalizados con </a> Dreamweavervideo,  <a href="https://helpx.adobe.com/es/dreamweaver/using/working-with-dreamweaver-and-campaign.html">uso de la extensión de Campaign para Dreamweaver</a> 
+    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=es">Creación de correos electrónicos personalizados con Dreamweaver</a> vídeo, <a href="https://helpx.adobe.com/es/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Usar la extensión de Campaign para Dreamweaver</a> 
   </td> 
   </tr> 
   <tr> 
-   <td> SDK de Adobe Experience Platform<br /> </td> 
+   <td> SDK para Adobe Experience Platform<br /> </td> 
    <td> Permite la automatización del proceso de activación de la Propiedad de la aplicación móvil en Adobe Campaign mediante los SDK de Experience Platform.<br /> </td> 
    <td> <a href="https://helpx.adobe.com/es/campaign/kb/configuring-app-sdk.html">Configuración de una aplicación móvil mediante los SDK de Experience Platform</a><br /> </td> 
   </tr> 

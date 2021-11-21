@@ -17,10 +17,10 @@ ht-degree: 64%
 
 ## Acerca de los orígenes y destinos
 
-Con Adobe Experience Platform, puede compartir datos entre el Campaign Standard y la plataforma de datos del cliente en tiempo real de Adobe (RTCDP). Esto le permite dirigirse a las audiencias de Adobe Experience Platform en sus flujos de trabajo de Campaign y, a continuación, enviar los datos de la plataforma de datos del cliente en tiempo real de Adobe relacionados con estas audiencias, como envíos, aperturas y clics.
+Con Adobe Experience Platform, puede compartir datos entre Campaign Standard y Adobe Real-time Customer Data Platform (RTCDP). Esto le permite dirigirse a las audiencias de Adobe Experience Platform en sus flujos de trabajo de Campaign y, a continuación, enviar los datos de la plataforma de datos del cliente en tiempo real de Adobe relacionados con estas audiencias, como envíos, aperturas y clics.
 
-* Con **Destinations**, incorpore audiencias de Adobe Experience Platform en Campaign Standard. Esto le permite activar los datos conocidos y desconocidos para sus campañas de marketing.
-* Con **Sources**, exporte los datos del Campaign Standard (por ejemplo, envíos, aperturas, clics) a Adobe Experience Platform. Esto le permite centralizar los datos que recopila de orígenes diferentes en un solo lugar y utilizar las perspectivas obtenidas de él para hacer más.
+* con **Destinos**, incorporar audiencias de Adobe Experience Platform a Campaign Standard. Esto le permite activar los datos conocidos y desconocidos para sus campañas de marketing.
+* con **Fuentes**, exportar datos del Campaign Standard (por ejemplo, envíos, aperturas, clics) en Adobe Experience Platform. Esto le permite centralizar los datos que recopila de orígenes diferentes en un solo lugar y utilizar las perspectivas obtenidas de él para hacer más.
 
 
 >[!IMPORTANT]
@@ -35,7 +35,7 @@ Para obtener una descripción más detallada de la plataforma de datos del clien
 
 ## Conectar Campaign Standard con Adobe Experience Platform
 
-Para poder compartir datos entre Adobe Experience Platform y Campaign Standard, primero debe conectar Adobe Campaign como **Destination** y conectar su ubicación de almacenamiento del blob de AWS S3 o Azure como **Source** en Adobe experience Platform.
+Para poder compartir datos entre Adobe Experience Platform y Campaign Standard, primero debe conectar Adobe Campaign as a **Destino** y conecte su ubicación de almacenamiento del blob de AWS S3 o Azure como un **Fuente** en Adobe experience Platform.
 
 Una vez configurados los conectores, puede configurar una importación de datos o exportación a Campaign Standard mediante flujos de trabajo.
 

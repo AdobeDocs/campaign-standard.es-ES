@@ -17,7 +17,7 @@ ht-degree: 10%
 
 # Actualización de las entidades organizativas de un perfil {#managing-organizational-units}
 
-1. Realice una solicitud de GET en el recurso **orgUnitBase** para recuperar la unidad organizativa PKey
+1. Realice una solicitud de GET en el **orgUnitBase** recurso para recuperar la unidad organizativa PKey
 1. Realice una solicitud de PATCH en la clave PKey del perfil, con la unidad organizativa PKey deseada en la carga útil.
 
 <br/>

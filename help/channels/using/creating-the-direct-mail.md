@@ -54,7 +54,7 @@ Crear un envío de correo postal es muy similar a crear un correo electrónico n
 
 1. Si ha añadido perfiles de prueba (consulte [Añadir perfiles de prueba y trampa](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles)), puede probar el envío antes de preparar el archivo final. Le permite crear un archivo de muestra que contenga únicamente los perfiles de prueba seleccionados.
 
-   Haga clic en **[!UICONTROL Test]** para generar el archivo de muestra. Haga clic en **[!UICONTROL Summary]**, en la esquina superior izquierda, y luego seleccione **[!UICONTROL Proofs]**. En la parte izquierda de la pantalla, seleccione la prueba y haga clic en **[!UICONTROL Download file]**.
+   Haga clic en **[!UICONTROL Test]** para generar el archivo de muestra. Haga clic en **[!UICONTROL Summary]**, en la esquina superior izquierda, seleccione **[!UICONTROL Proofs]**. En la parte izquierda de la pantalla, seleccione la prueba y haga clic en **[!UICONTROL Download file]**.
 
    >[!NOTE]
    >

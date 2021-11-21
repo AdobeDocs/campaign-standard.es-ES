@@ -43,7 +43,7 @@ La forma en que se extraerán los datos se define al configurar la actividad.
    ![](assets/wkf_data_export1.png)
 
 1. Seleccione la actividad y, a continuación, ábrala con el botón ![](assets/edit_darkgrey-24px.png), en las acciones rápidas que aparecerán.
-1. Introduzca la etiqueta del **archivo de salida**. La etiqueta del archivo se completará automáticamente con la fecha y hora en que se creó para que sea única. Por ejemplo: recipients_20150815_081532.txt para un archivo generado el 15 de agosto de 2015 a las 08:15:32.
+1. Introduzca la etiqueta del **archivo de salida**. La etiqueta del archivo se completará automáticamente con la fecha y hora en que se creó para que sea única. Por ejemplo: recipients_20150815_081532.txt para un archivo generado el 15 de agosto de 2015 a las 08.08 horas:15:32.
 
    >[!NOTE]
    >
@@ -51,9 +51,9 @@ La forma en que se extraerán los datos se define al configurar la actividad.
 
 1. Si lo desea, puede comprimir el archivo de salida seleccionando **[!UICONTROL Compression]** en el campo **[!UICONTROL Add a post-processing stage]**. El archivo de salida se comprimirá en un archivo GZIP (.gz).
 
-   El campo **[!UICONTROL Add a post-processing stage]** también permite cifrar un archivo antes de extraerlo. Para obtener más información sobre cómo trabajar con archivos cifrados, consulte [esta sección](../../automating/using/managing-encrypted-data.md)
+   La variable **[!UICONTROL Add a post-processing stage]** también permite cifrar un archivo antes de extraerlo. Para obtener más información sobre cómo trabajar con archivos cifrados, consulte [esta sección](../../automating/using/managing-encrypted-data.md)
 
-1. Haga clic en el botón **[!UICONTROL Create element]** para añadir una columna de salida.
+1. Haga clic en el **[!UICONTROL Create element]** para añadir una columna de salida.
 
    ![](assets/wkf_data_export2.png)
 

@@ -7,13 +7,13 @@ topic-tags: in-app-messaging
 context-tags: delivery,triggers,back
 feature: In App
 role: User
-source-git-commit: df7fce6f2fd98688e5a1fb5bc84603e6b3df5cd4
+exl-id: 0101773d-b109-49a3-89d4-b4bb226d9ebd
+source-git-commit: 462ebaf8e8f1f056aa92118226ef77aea37b972b
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 2%
 
 ---
-
 
 # Preguntas frecuentes en la aplicación {#in-app-faq}
 
@@ -34,11 +34,11 @@ Dado que el SDK extrae los mensajes en la aplicación de Campaign, queremos prop
 * Los mensajes creados con la plantilla Perfil solo se pueden servir cuando el usuario ha iniciado sesión en la aplicación.
 * Para facilitar este protocolo de enlace seguro, los desarrolladores de aplicaciones móviles deben pasar detalles de autenticación adicionales mediante la API setLinkageField . Tenga en cuenta que el campo de vinculación son los que se identifican como vínculo entre Perfil móvil y Perfil CRM al ampliar la tabla appSubscriberRcp .
 * Deben vaciar los mensajes en la aplicación almacenados en el dispositivo y los campos resetLinkagefields cuando el usuario cierre la sesión de la aplicación mediante resetLinkageField. Esto garantiza que si un usuario diferente inicia sesión en la aplicación, no vea los mensajes destinados al usuario anterior.
-* Consulte [API del SDK móvil](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference) para implementar este mecanismo de seguridad en el lado del cliente.
+* Consulte [API de SDK móvil](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference) para implementar este mecanismo de seguridad del lado del cliente.
 
 ## ¿Qué tengo que hacer para habilitar los informes en la aplicación en Campaign? {#enable-inapp-reporting}
 
-Debe configurar el postback del seguimiento en la aplicación. Las instrucciones se encuentran [aquí](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback).
+Debe configurar el postback del seguimiento en la aplicación. Se pueden encontrar instrucciones [here](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback).
 
 Para implementar el seguimiento de notificaciones locales, consulte esta [página](../../administration/using/local-tracking.md).
 

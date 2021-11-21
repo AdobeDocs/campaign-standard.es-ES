@@ -69,7 +69,7 @@ En el caso de visitantes identificados, puede cargar previamente sus datos en la
 
    ![](assets/lp_parameters_3_temp.png)
 
-También puede autorizar a cualquier visitante a acceder a la página de aterrizaje mediante la opción **[!UICONTROL Authorize unidentified visitors]** .
+También puede autorizar a cualquier visitante para que acceda a la página de aterrizaje mediante la función **[!UICONTROL Authorize unidentified visitors]** .
 
 <!--Use the URL parameters to identify the visitors, using the **[!UICONTROL Authorize visitor identification via URL parameters]** option: then you must choose the loading key and map the filter parameters with the parameters of the corresponding URL.-->
 

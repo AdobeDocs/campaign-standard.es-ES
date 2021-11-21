@@ -17,7 +17,7 @@ ht-degree: 20%
 
 # Creación de un correo electrónico{#creating-an-email}
 
-Puede crear un correo electrónico desde una [campaña](../../start/using/marketing-activities.md#creating-a-marketing-activity), desde la [página principal](../../start/using/interface-description.md#home-page) de Adobe Campaign o en la [lista de actividades de marketing](../../start/using/marketing-activities.md#about-marketing-activities). También puede crear correos electrónicos recurrentes y de un solo envío a partir de un flujo de trabajo.
+Puede crear un correo electrónico a partir de un [campaign](../../start/using/marketing-activities.md#creating-a-marketing-activity), desde Adobe Campaign [página principal](../../start/using/interface-description.md#home-page)o en la variable [lista de actividades de marketing](../../start/using/marketing-activities.md#about-marketing-activities). También puede crear correos electrónicos recurrentes y de un solo envío a partir de un flujo de trabajo.
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
 
@@ -29,9 +29,9 @@ Puede crear un correo electrónico desde una [campaña](../../start/using/market
 
    >[!NOTE]
    >
-   >Las plantillas de prueba A/B y de seguimiento están ocultas de forma predeterminada. Marque las casillas del lado izquierdo (panel lateral **[!UICONTROL Filter]**) si desea mostrarlas.
+   >Las plantillas de prueba A/B y de seguimiento están ocultas de forma predeterminada. Marque las casillas en el lado izquierdo ( **[!UICONTROL Filter]** panel lateral) si desea mostrarlos.
 
-1. Introduzca las propiedades generales del correo electrónico. Puede introducir un nombre en el campo **Label** y editar el ID. Tanto el nombre de la actividad como su ID aparecen en la interfaz, pero no son visibles para los destinatarios de mensajes.
+1. Introduzca las propiedades generales del correo electrónico. Puede introducir un nombre en la variable **Etiqueta** y edite el ID. Tanto el nombre de la actividad como su ID aparecen en la interfaz, pero no son visibles para los destinatarios de mensajes.
 
    Puede añadir una descripción que el usuario pueda ver en el contenido de la campaña.
 
@@ -47,7 +47,7 @@ Puede crear un correo electrónico desde una [campaña](../../start/using/market
 
    ![](assets/email_creation_3.png)
 
-1. Defina y personalice el contenido del mensaje, el nombre del remitente y el asunto mediante el [Diseñador de correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md). Para obtener más información, consulte [Acerca del diseño de contenido de correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md).
+1. Defina y personalice el contenido del mensaje, el nombre del remitente y el asunto mediante la variable [Diseñador de correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md). Para obtener más información, consulte [Acerca del diseño de contenido de correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md).
 
    ![](assets/email_creation_4.png)
 
@@ -58,11 +58,11 @@ Puede crear un correo electrónico desde una [campaña](../../start/using/market
 
    >[!NOTE]
    >
-   >Para poder guardar el correo electrónico, primero debe realizar algunas modificaciones en el contenido. Si hace clic **[!UICONTROL Cancel]** en este punto, no completará el asistente y no se creará el correo electrónico.
+   >Para poder guardar el correo electrónico, primero debe realizar algunas modificaciones en el contenido. Si hace clic en **[!UICONTROL Cancel]** en este punto, no completará el asistente y su correo electrónico no se creará.
 
-   A continuación, se muestra el panel de correo electrónico. Le permite comprobar el mensaje y [preparar el envío](../../sending/using/preparing-the-send.md).
+   A continuación, se muestra el panel de correo electrónico. Permite comprobar el mensaje y [preparar el envío](../../sending/using/preparing-the-send.md).
 
-   El botón **[!UICONTROL Edit properties]** en la esquina superior derecha permite editar las propiedades del correo electrónico. Por ejemplo, puede configurar el correo electrónico para que su etiqueta se calcule en el momento de la preparación del envío.  Los parámetros disponibles se enumeran en [esta sección](../../administration/using/configuring-email-channel.md#list-of-email-properties).
+   La variable **[!UICONTROL Edit properties]** en la esquina superior derecha permite editar las propiedades del correo electrónico. Por ejemplo, puede configurar el correo electrónico para que su etiqueta se calcule en el momento de la preparación del envío.  Los parámetros disponibles se enumeran en [esta sección](../../administration/using/configuring-email-channel.md#list-of-email-properties).
 
    ![](assets/delivery_dashboard_2.png)
 
@@ -78,7 +78,7 @@ Puede crear un correo electrónico desde una [campaña](../../start/using/market
    >
    >Puede establecer reglas globales de fatiga entre canales que excluyan automáticamente los perfiles superpuestos de las campañas. Para obtener más información, consulte [Reglas de fatiga](../../sending/using/fatigue-rules.md).
 
-1. Envíe pruebas para comprobar y validar el mensaje y supervisar el procesamiento de la bandeja de entrada. Consulte [Envío de la prueba](../../sending/using/sending-proofs.md).
+1. Envíe pruebas para comprobar y validar el mensaje y supervisar el procesamiento de la bandeja de entrada. Consulte [Envío de prueba](../../sending/using/sending-proofs.md).
 
    ![](assets/bat_select.png)
 
@@ -90,7 +90,7 @@ Puede crear un correo electrónico desde una [campaña](../../start/using/market
 
 **Temas relacionados**:
 
-* [Creación de una guía ](../../channels/using/key-steps-to-send-a-message.md) paso a paso de correo electrónico personalizado
+* [Creación de un correo electrónico personalizado](../../channels/using/key-steps-to-send-a-message.md) guía paso a paso
 * [Integración de Adobe Campaign y Dreamweaver](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 * [Integración con Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
 
@@ -100,4 +100,4 @@ Este vídeo muestra cómo crear un correo electrónico.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23721?quality=12)
 
-Hay disponibles más vídeos prácticos del Campaign Standard [aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
+Hay disponibles vídeos prácticos adicionales del Campaign Standard [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).

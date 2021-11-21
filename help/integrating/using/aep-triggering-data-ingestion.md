@@ -34,9 +34,9 @@ Antes de utilizar las API, la asignación de datos debe haberse configurado y pu
 
 Una vez creada la asignación de datos, debe evitar que se ejecute para que pueda realizar el déclencheur desde las API cuando lo desee. Para ello, siga estos pasos:
 
-1. En el Campaign Standard, vaya al menú **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]**.
+1. En el Campaign Standard, vaya a la **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** para abrir el Navegador.
 
-1. Haga doble clic en la asignación de datos para abrirla y, a continuación, haga clic en el botón **[!UICONTROL Stop]** .
+1. Haga doble clic en la asignación de datos para abrirla y, a continuación, haga clic en el botón **[!UICONTROL Stop]** botón.
 
    ![](assets/aep_datamapping_stop.png)
 
@@ -52,7 +52,7 @@ La ingesta inmediata de una asignación XDM en Adobe Experience Platform se acti
 
 >[!NOTE]
 >
->Para ejecutar la llamada a la API del POST de ingesta, el usuario debe tener una función **SQL function execution** , que puede proporcionar un administrador del Campaign Standard ejecutando el siguiente script de JS:
+>Para ejecutar la llamada a la API del POST de ingesta, el usuario debe tener una **Ejecución de funciones SQL** , que puede proporcionar un administrador de Campaign Standards ejecutando a continuación el script de JS:
 >
 >
 ```
@@ -106,14 +106,14 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 
 >[!NOTE]
 >
->La información detallada sobre el estado de la solicitud de asignación XDM y sus trabajos relacionados está disponible en la interfaz de Campaign Standard, en el menú **[!UICONTROL Status of data export to platform]** (consulte [Activación de asignación](../../integrating/using/aep-mapping-activation.md)).
+>La información detallada sobre el estado de la solicitud de asignación XDM y sus trabajos relacionados está disponible en la interfaz de Campaign Standard, en la **[!UICONTROL Status of data export to platform]** (consulte [Activación de la asignación](../../integrating/using/aep-mapping-activation.md)).
 
 La operación de GET devuelve la siguiente información:
 
 * **batchId**: este campo solo se rellena si se ha producido un error tras la preparación y carga del lote,
 * **información**: el ID de asignación XDM,
 * **numRecords**: el número de registros que se han introducido (solo estado de éxito),
-* **estado**: el estado de la solicitud de ingesta (success/failed/in progress)
+* **status**: el estado de la solicitud de ingesta (success/failed/in progress)
 
 Las posibles respuestas a la operación de GET son:
 

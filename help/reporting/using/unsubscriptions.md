@@ -22,4 +22,4 @@ El informe **[!UICONTROL Unsubscriptions]** identifica los envíos con la mayor 
 
 ![](assets/delivery_reports_unsub.png)
 
-La tabla y el gráfico **[!UICONTROL TOP 5 deliveries]** muestran los cinco envíos principales con el mayor número de mensajes enviados y el número de destinatarios que han cancelado la suscripción. Los datos enumerados aquí se basan en el número de clics en el vínculo de baja del mensaje.
+La variable **[!UICONTROL TOP 5 deliveries]** tabla y gráfico muestra los cinco envíos principales con el mayor número de mensajes enviados y el número de destinatarios que han cancelado la suscripción. Los datos enumerados aquí se basan en el número de clics en el vínculo de baja del mensaje.

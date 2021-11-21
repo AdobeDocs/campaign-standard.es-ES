@@ -19,7 +19,7 @@ ht-degree: 7%
 
 La integración de Adobe Campaign y Adobe Analytics permite realizar un seguimiento del éxito de los envíos de correo electrónico directamente en Adobe Analytics.
 
-La campaña **[!UICONTROL dimensions]** que se encuentra en Analytics se enumera a continuación:
+Campaign **[!UICONTROL dimensions]** en Analytics se enumeran a continuación:
 
 <table> 
  <thead> 
@@ -42,7 +42,7 @@ La campaña **[!UICONTROL dimensions]** que se encuentra en Analytics se enumera
    <td> Nombre interno de la entrega como se ve en Campaign.<br /> Por ejemplo, DM1 es un envío recurrente programado para enviar envíos secundarios cada semana. DM2, DM3 y DM4 se envían las primeras tres semanas. La dimensión ID de entrega muestra los resultados de cada entrega, concretamente de DM1 a DM4. <br /> </td> 
   </tr> 
   <tr> 
-   <td> Etiqueta de envío<br /> </td> 
+   <td> Etiqueta de entrega<br /> </td> 
    <td> Etiqueta de entrega tal como se ve en Campaign<br /> </td> 
   </tr> 
   <tr> 
@@ -56,7 +56,7 @@ La campaña **[!UICONTROL dimensions]** que se encuentra en Analytics se enumera
  </tbody> 
 </table>
 
-La campaña **[!UICONTROL metrics]** que se encuentra en Analytics se enumera a continuación:
+Campaign **[!UICONTROL metrics]** en Analytics se enumeran a continuación:
 
 <table> 
  <thead> 
@@ -67,8 +67,8 @@ La campaña **[!UICONTROL metrics]** que se encuentra en Analytics se enumera a 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Haga clic<br /> </td> 
-   <td> Número de veces que se hizo clic en un contenido en un envío.<br /> </td> 
+   <td> Clic<br /> </td> 
+   <td> Número de veces que se hizo clic en un contenido en una entrega.<br /> </td> 
   </tr> 
   <tr> 
    <td> Entrega<br /> </td> 
@@ -84,10 +84,10 @@ La campaña **[!UICONTROL metrics]** que se encuentra en Analytics se enumera a 
   </tr> 
   <tr> 
    <td> Devoluciones totales<br /> </td> 
-   <td> Total de errores acumulados durante la entrega y el procesamiento automático de devoluciones en relación con el número total de mensajes enviados.<br /> </td> 
+   <td> Total de errores acumulados durante la entrega y el procesamiento automático de devoluciones en relación con la cantidad total de mensajes enviados.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Abrir único<br /> </td> 
+   <td> Apertura única<br /> </td> 
    <td> Número de destinatarios que abrieron la entrega.<br /> </td> 
   </tr> 
   <tr> 

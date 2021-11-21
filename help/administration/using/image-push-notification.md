@@ -40,9 +40,9 @@ Para modificar una notificación push, Adobe Campaign le permite acceder a un co
 
 1. Creación de una notificación push. Para obtener más información, consulte esta [página](../../channels/using/preparing-and-sending-a-push-notification.md).
 
-1. Desde la página de contenido de las notificaciones push, acceda a la sección **[!UICONTROL Advanced options]** .
+1. Desde la página de contenido de las notificaciones push, acceda a la variable **[!UICONTROL Advanced options]** para obtener más información.
 
-1. Introduzca la dirección URL del archivo en el campo **[!UICONTROL Rich media content URL]**.
+1. Introduzca la dirección URL del archivo en la **[!UICONTROL Rich media content URL]** campo .
 Para iOS 10 o superior, puede insertar archivos de imagen, gif, audio y vídeo.
 
    ![](assets/push_notif_advanced_6.png)
@@ -55,19 +55,19 @@ Después de personalizar la notificación push en Adobe Campaign, debe configura
 
 >[!NOTE]
 >
->Si su aplicación está en Objective-C, consulte la siguiente [documentación](https://experienceleague.adobe.com/docs/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html).
+>Si su aplicación está en Objective-C, consulte lo siguiente [documentación](https://experienceleague.adobe.com/docs/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html).
 
 Si la aplicación está en [!DNL Swift], siga los pasos a continuación:
 
-1. Abra el proyecto [!DNL Xcode].
+1. Abra su [!DNL Xcode] proyecto.
 
-1. En el proyecto [!DNL Xcode], seleccione **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**.
+1. En [!DNL Xcode] proyecto, seleccione **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**.
 
 1. Seleccione **[!UICONTROL Notification Service Extension]**.
 
    ![](assets/push_notif_advanced_12.png)
 
-1. Compruebe que se crea la clase de archivo **NotificationService.swift**.
+1. Compruebe que la variable **NotificationService.swift** se crea la clase file .
 
 1. Edite esta clase y reemplace el contenido predeterminado por lo siguiente.
 Esto permite que la aplicación gestione el parámetro entrante con la URL de la imagen, lo analice, lo copie localmente y, a continuación, lo muestre desde la notificación push.

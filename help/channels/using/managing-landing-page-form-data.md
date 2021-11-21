@@ -22,7 +22,7 @@ En el contenido de la página de aterrizaje, los campos de entrada se utilizan p
 
 Para ello, estos campos deben asignarse a los campos de base de datos.
 
-Puede definir y administrar su asignación a través de la sección **[!UICONTROL Form data]** de la paleta izquierda.
+Puede definir y administrar su asignación a través de la variable **[!UICONTROL Form data]** en la paleta izquierda.
 
 ![](assets/lp_form-data.png)
 
@@ -38,29 +38,29 @@ Para realizar esto, siga los pasos a continuación:
    >
    >Los campos predeterminados de las páginas de aterrizaje integradas están preconfigurados. Puede modificarlos según sea necesario.
 
-1. Acceda a la sección **[!UICONTROL Form data]** de la paleta izquierda.
+1. Acceda a la **[!UICONTROL Form data]** en la paleta izquierda.
 
-1. Para cambiar el tipo de campo, seleccione un valor en la lista desplegable **[!UICONTROL HTML type of the field]**.
+1. Para cambiar el tipo de campo, seleccione un valor de la variable **[!UICONTROL HTML type of the field]** lista desplegable.
 
    ![](assets/lp_html-field-type.png)
 
    >[!NOTE]
    >
-   >Para obtener más información sobre el uso del tipo de casilla de verificación en una página de aterrizaje, consulte las secciones [Actualizar varias suscripciones de servicio](#multiple-subscriptions) y [Casilla de verificación ](#agreement-checkbox) del Acuerdo.
+   >Para obtener más información sobre el uso del tipo de casilla de verificación en una página de aterrizaje, consulte la [Actualizar varias suscripciones de servicio](#multiple-subscriptions) y [Casilla de verificación Acuerdo](#agreement-checkbox) secciones.
 
-1. Si selecciona un tipo de campo que no es compatible con el campo de base de datos seleccionado actualmente en la zona **[!UICONTROL Field]**, se mostrará un mensaje de advertencia. Para una asignación óptima, seleccione un valor adecuado.
+1. Si selecciona un tipo de campo no compatible con el campo de base de datos seleccionado actualmente en la variable **[!UICONTROL Field]** zona, se mostrará un mensaje de advertencia. Para una asignación óptima, seleccione un valor adecuado.
 
    ![](assets/lp_field-type-warning.png)
 
-1. Utilice la zona **[!UICONTROL Field]** para seleccionar un campo de base de datos que se vinculará al campo de formulario.
+1. Utilice la variable **[!UICONTROL Field]** zona para seleccionar un campo de base de datos que se vinculará al campo de formulario.
 
    ![](assets/lp_select-database-field.png)
 
    >[!NOTE]
    >
-   >Las páginas de aterrizaje solo se pueden asignar con los recursos **[!UICONTROL Profiles]** o **[!UICONTROL Service]** .
+   >Las páginas de aterrizaje solo se pueden asignar con la variable **[!UICONTROL Profiles]** o **[!UICONTROL Service]** recursos.
 
-   En este ejemplo, asigne el campo **Name** de la página de aterrizaje al campo **[!UICONTROL Last name]** del recurso **[!UICONTROL Profiles]**.
+   En este ejemplo, asigne la variable **Nombre** del campo de la página de aterrizaje a la variable **[!UICONTROL Last name]** del campo **[!UICONTROL Profiles]** recurso.
 
    ![](assets/lp_database-field-example.png)
 
@@ -84,7 +84,7 @@ Para ello:
 
    ![](assets/lp_parameters_job.png)
 
-1. Seleccione el **[!UICONTROL Reconciliation key]**: este campo de base de datos se utiliza para determinar si el visitante tiene un perfil que ya se conoce en la base de datos de Adobe Campaign. Puede ser, por ejemplo, correo electrónico, nombre o apellidos. La clave de reconciliación permite actualizar o crear un perfil, según el parámetro **[!UICONTROL Update strategy]** definido a continuación.
+1. Seleccione el **[!UICONTROL Reconciliation key]**: este campo de base de datos se utiliza para determinar si el visitante tiene un perfil que ya se conoce en la base de datos de Adobe Campaign. Puede ser, por ejemplo, correo electrónico, nombre o apellidos. La clave de reconciliación le permite actualizar o crear un perfil, según la variable **[!UICONTROL Update strategy]** definido a continuación.
 
 1. Defina el **[!UICONTROL Form parameter mapping]**: esta sección le permite asignar los parámetros del campo de página de aterrizaje y los que se utilizan en la clave de reconciliación.
 
@@ -100,11 +100,11 @@ Para realizar esto, siga los pasos a continuación:
 
 1. Al diseñar la página de aterrizaje:
 
-   * Seleccione un bloque y, en la sección **[!UICONTROL Form data]** , elija **[!UICONTROL Checkbox]** como tipo de campo.
+   * Seleccione un bloque y, en el **[!UICONTROL Form data]** , elija **[!UICONTROL Checkbox]** como tipo de campo.
 
       ![](assets/lp_field-type-checkbox.png)
 
-   * Si está familiarizado con HTML, también puede insertar manualmente una casilla de verificación mediante el botón **[!UICONTROL Show source]**.
+   * Si está familiarizado con el HTML, también puede insertar manualmente una casilla de verificación mediante el **[!UICONTROL Show source]** botón.
 
       ![](assets/lp_show_source.png)
 
@@ -112,19 +112,19 @@ Para realizar esto, siga los pasos a continuación:
 
       ![](assets/lp_manual-checkbox.png)
 
-1. Asegúrese de que la casilla de verificación esté seleccionada en el contenido. La lista desplegable **[!UICONTROL Type]** se muestra en la sección **[!UICONTROL Form data]** de la paleta izquierda. Seleccione **[!UICONTROL Service and subscription]** en la lista.
+1. Asegúrese de que la casilla de verificación esté seleccionada en el contenido. La variable **[!UICONTROL Type]** la lista desplegable se muestra en la **[!UICONTROL Form data]** de la paleta izquierda. Seleccione **[!UICONTROL Service and subscription]** en la lista.
 
    ![](assets/lp_service-and-subscription.png)
 
-1. Elija una opción en la lista desplegable **[!UICONTROL Behavior]**.
+1. Elija una opción de la lista **[!UICONTROL Behavior]** lista desplegable.
 
    ![](assets/lp_checkbox-behavior.png)
 
-1. Seleccione un [servicio](../../audiences/using/creating-a-service.md) de la lista correspondiente.
+1. Seleccione un [service](../../audiences/using/creating-a-service.md) de la lista correspondiente.
 
    ![](assets/lp_checkbox-service.png)
 
-1. Asegúrese de que la opción **[!UICONTROL Mandatory]** no esté seleccionada. De lo contrario, los usuarios no tendrán opción.
+1. Asegúrese de que la variable **[!UICONTROL Mandatory]** está desactivada. De lo contrario, los usuarios no tendrán opción.
 
    ![](assets/lp_uncheck-mandatory.png)
 
@@ -148,11 +148,11 @@ Para insertar y configurar esta casilla de verificación, haga lo siguiente:
 
 1. Al diseñar la página de aterrizaje:
 
-   * Seleccione un bloque y, en la sección **[!UICONTROL Form data]** , elija **[!UICONTROL Checkbox]** como tipo de campo.
+   * Seleccione un bloque y, en el **[!UICONTROL Form data]** , elija **[!UICONTROL Checkbox]** como tipo de campo.
 
       ![](assets/lp_field-type-checkbox.png)
 
-   * Si está familiarizado con HTML, también puede insertar manualmente una casilla de verificación mediante el botón **[!UICONTROL Show source]**.
+   * Si está familiarizado con el HTML, también puede insertar manualmente una casilla de verificación mediante el **[!UICONTROL Show source]** botón.
 
       ![](assets/lp_show_source.png)
 
@@ -164,15 +164,15 @@ Para insertar y configurar esta casilla de verificación, haga lo siguiente:
 
    ![](assets/lp_select_checkbox.png)
 
-1. La lista desplegable **[!UICONTROL Type]** se muestra en la sección **[!UICONTROL Form data]** de la paleta izquierda. Seleccione **[!UICONTROL Agreement]** en la lista.
+1. La variable **[!UICONTROL Type]** la lista desplegable se muestra en la **[!UICONTROL Form data]** de la paleta izquierda. Seleccione **[!UICONTROL Agreement]** en la lista.
 
    ![](assets/lp_form_data_drop-down.png)
 
    >[!NOTE]
    >
-   >El elemento **[!UICONTROL Agreement]** no está asignado a un campo de la base de datos de Campaign.
+   >La variable **[!UICONTROL Agreement]** no está asignado a un campo de la base de datos de Campaign.
 
-1. Haga clic en el icono ![](assets/lp-properties-icon.png) situado junto a **[!UICONTROL Form data]** para acceder a las propiedades avanzadas de la casilla de verificación.
+1. Haga clic en el ![](assets/lp-properties-icon.png) junto a **[!UICONTROL Form data]** para acceder a las propiedades avanzadas de la casilla de verificación.
 
 1. Si es necesario, puede editar el mensaje.
 

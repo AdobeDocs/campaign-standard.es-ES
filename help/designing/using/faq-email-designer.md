@@ -21,25 +21,25 @@ ht-degree: 7%
 
 Los bloques de contenido y los fragmentos de contenido son fragmentos de contenido reutilizable que son comunes en varios correos electrónicos. Se utilizan para garantizar la coherencia entre los correos electrónicos y también para optimizar/estandarizar la creación de correos electrónicos. Las diferencias entre bloques de contenido y fragmentos de contenido son el nivel de personalización posible.
 
-* Los bloques de contenido son HTML puro donde el código HTML se inserta manualmente (no es una interfaz de usuario fácil de usar, es un código fuente directo). Aunque está realmente orientado a personas con conocimientos HTML, permite un nivel de personalización que no está disponible en los fragmentos de contenido.
+* Los bloques de contenido son HTML puros en los que el código de HTML se inserta manualmente (no es una interfaz de usuario fácil de usar, es un código fuente directo). Aunque está realmente orientado a personas con conocimiento HTML, permite un nivel de personalización que no está disponible en los fragmentos de contenido.
 
 * Los fragmentos de contenido son fragmentos visuales de contenido creados mediante el Diseñador de correo electrónico, utilizando su IU de fácil uso. Sin embargo, no es posible personalizar el contenido. Si la personalización es necesaria, solo se puede realizar mediante bloques de contenido.
 
-## ¿Cómo puedo añadir relleno a un elemento desde la estructura HTML?
+## ¿Cómo puedo añadir relleno a un elemento desde la estructura del HTML?
 
-Puede añadir relleno utilizando la ruta de exploración HTML.
+Puede agregar relleno utilizando la ruta de exploración del HTML.
 
-1. En la parte inferior izquierda de la pantalla, haga clic en la ruta de exploración HTML.
+1. En la parte inferior izquierda de la pantalla, haga clic en la ruta de exploración del HTML.
 
    ![](assets/do-not-localize/breadcrumb.png)
 
 1. Haga clic en el elemento al que desee agregar un relleno.
-1. Haga clic en la etiqueta principal en la ruta de exploración HTML.
+1. Haga clic en la etiqueta principal en la ruta de exploración del HTML.
 Ahora puede agregar un relleno a este elemento.
 
-## ¿Se puede importar contenido HTML en el Diseñador de correo electrónico?
+## ¿Se puede importar contenido de HTML en el Diseñador de correo electrónico?
 
-Puede cargar su propio contenido HTML en el Diseñador de correo electrónico. Si no se ha creado mediante el Diseñador de correo electrónico, se cargará en modo de compatibilidad diseñado para mantener el HTML original, pero limita ciertas funciones de edición a través de la interfaz de usuario.
+Puede cargar su propio contenido de HTML en el Diseñador de correo electrónico. Si no se ha creado mediante el Diseñador de correo electrónico, se cargará en modo de compatibilidad diseñado para mantener el HTML original, pero limita ciertas funciones de edición a través de la interfaz de usuario.
 
 Para obtener más información, consulte [Modo de compatibilidad](../../designing/using/using-existing-content.md#compatibility-mode)
 
@@ -64,4 +64,4 @@ Para obtener más información, consulte [Estilos](../../designing/using/styles.
 
 ## ¿Qué fuentes están disponibles?
 
-Al editar estilos, solo las fuentes web oficialmente admitidas por la mayoría de los clientes de correo electrónico están disponibles de forma predeterminada a través de la interfaz de usuario. El uso de fuentes personalizadas requiere actualizar el código HTML.
+Al editar estilos, solo las fuentes web oficialmente admitidas por la mayoría de los clientes de correo electrónico están disponibles de forma predeterminada a través de la interfaz de usuario. El uso de fuentes personalizadas requiere actualizar el código del HTML.

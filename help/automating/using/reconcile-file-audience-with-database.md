@@ -50,6 +50,6 @@ El flujo de trabajo de reconciliación está diseñado de la siguiente manera:
 
 ![](assets/readaudience_activity_example2.png)
 
-* Una actividad [Read audience](../../automating/using/read-audience.md) carga la audiencia de archivo creada en el flujo de trabajo de importación. Los datos de audiencia aún no están cuadrados con la base de datos de Adobe Campaign.
+* A [Leer audiencia](../../automating/using/read-audience.md) la actividad carga la audiencia de archivo creada en el flujo de trabajo de importación. Los datos de audiencia aún no están cuadrados con la base de datos de Adobe Campaign.
 * Una actividad de [reconciliación](../../automating/using/reconciliation.md) identifica los datos de entrada como perfiles en la pestaña **[!UICONTROL Identification]**. Por ejemplo, utilizando el campo de **correo electrónico** como criterios de reconciliación.
 * Una actividad de [actualización de datos](../../automating/using/update-data.md) inserta y actualiza el recurso de perfiles de la base de datos con los datos de entrada. Como los datos ya están identificados como perfiles, puede seleccionar la opción **[!UICONTROL Directly using the targeting dimension]** y seleccionar **[!UICONTROL Profiles]** en la pestaña **[!UICONTROL Identification]** de la actividad. A continuación, simplemente tiene que añadir la lista de campos que deben actualizarse en la pestaña adecuada.

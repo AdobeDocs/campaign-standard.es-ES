@@ -19,15 +19,15 @@ ht-degree: 21%
 
 >[!CAUTION]
 >
->La integración de [Privacy Core Service](https://adobe.io/apis/cloudplatform/gdpr.html) es el método que debe utilizar para todas las solicitudes de acceso y eliminación. A partir de la versión 19.4, el uso de la API y de la interfaz de Campaign para las solicitudes de acceso y eliminación quedarán obsoletas. Para obtener más información sobre las funciones obsoletas y eliminadas de Campaign Standard, consulte [esta página](../../rn/using/deprecated-features.md).
+>La variable [Servicio principal de privacidad](https://adobe.io/apis/cloudplatform/gdpr.html) La integración es el método que debe utilizar para todas las solicitudes de acceso y eliminación. A partir de la versión 19.4, el uso de la API y de la interfaz de Campaign para las solicitudes de acceso y eliminación quedarán obsoletas. Para obtener más información sobre las funciones obsoletas y eliminadas de Campaign Standard, consulte [esta página](../../rn/using/deprecated-features.md).
 
 Para recuperar el archivo que contiene toda la información asociada a un valor de reconciliación, siga este procedimiento de tres pasos:
 
-1. Realice una solicitud **POST** para crear una nueva solicitud con el atributo **type=&quot;access&quot;**; consulte [Creación de una nueva solicitud de privacidad](../../api/using/creating-a-privacy-request.md).
+1. Realizar una **POST** solicitud para crear una nueva solicitud con el atributo **type=&quot;access&quot;**, consulte [Creación de una nueva solicitud de privacidad](../../api/using/creating-a-privacy-request.md).
 
-1. Realice una solicitud **GET** para recuperar información sobre la solicitud.
+1. Realizar una **GET** para recuperar información sobre la solicitud.
 
-1. Recupere el archivo de datos realizando una solicitud **POST** en la dirección URL **privacyRequestData** devuelta, con el nombre interno de la solicitud de privacidad dentro de la carga útil. Por ejemplo: {&quot;name&quot;:&quot;PT17&quot;}.
+1. Recupere el archivo de datos realizando una **POST** solicitud sobre el **privacyRequestData** URL, con el nombre interno de la solicitud de privacidad dentro de la carga útil. Por ejemplo: {&quot;name&quot;:&quot;PT17&quot;}.
 
 <br/>
 

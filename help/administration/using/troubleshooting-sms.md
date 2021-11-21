@@ -105,7 +105,7 @@ Para solucionar los problemas de estabilidad de la conexión:
 
 * Realizar una captura de red es, a veces, la única manera de ver cómo se cierra la conexión.
 
-* Si el proveedor cierra las conexiones enviando un paquete `TCP FIN` o `TCP RST`, pregunte al proveedor más información.
+* Si el proveedor cierra las conexiones enviando una `TCP FIN` o `TCP RST` , solicite más información al proveedor.
 
 * Si el proveedor cierra la conexión después de enviar un error limpio como `DELIVER_SM_RESP` con un código de error, deberá corregir su conector, de lo contrario eso impedirá que se transmitan otros tipos de mensajes y activará la limitación de MTA. Esto es especialmente importante en el modo transceptor, donde el cierre de la conexión afecta tanto a MT como SR.
 
@@ -155,9 +155,9 @@ Si el `DELIVER_SM PDU` no se reconoce correctamente, debe comprobar lo siguiente
 
 * Compruebe que los errores están correctamente registrados en la tabla `broadLogMsg`.
 
-* Para Adobe Campaign Standard, compruebe que las tablas `broadLog` y `broadLogExec` estén correctamente sincronizadas.
+* Para Adobe Campaign Standard, compruebe que `broadLog` y `broadLogExec` las tablas están correctamente sincronizadas.
 
-Si ha corregido todo pero algunas SR no válidas siguen en los búferes del proveedor, puede omitirlas utilizando la opción **Invalid ID confirm count**. Debe utilizarse con cuidado y restablecerse a 0 lo antes posible después de que los búferes estén limpios.
+Si ha corregido todo pero algunas SR no válidas siguen en los búferes del proveedor, puede omitirlas usando la variable **Recuento de reconocimiento de ID no válido** . Debe utilizarse con cuidado y restablecerse a 0 lo antes posible después de que los búferes estén limpios.
 
 ## Problema al procesar MO (y lista de bloqueados/respuesta automática){#issue-process-MO}
 
@@ -269,7 +269,7 @@ El nuevo conector admite el registro extendido mediante seguimientos: SMPP. Los 
 
 **Activación por cuenta externa (método preferido)**
 
-1. En **External account**, seleccione **Enable verbose SMPP traces in the log file**.
+1. En el **Cuenta externa**, seleccione **Habilitar rastreos detallados de SMPP en el archivo de registro**.
 1. Guardar, el conector se reconectará con los rastros habilitados.
 
 **Activación sobre la marcha**

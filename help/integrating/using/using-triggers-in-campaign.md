@@ -21,7 +21,7 @@ ht-degree: 80%
 
 >[!NOTE]
 >
->Para crear Déclencheur, necesitará la función **[!UICONTROL Administration]** o para estar en el grupo de seguridad **[!UICONTROL Administrators]**. Para obtener más información, consulte esta [página](../../administration/using/list-of-roles.md).
+>Para crear Déclencheur, necesita la variable **[!UICONTROL Administration]** o estar en el **[!UICONTROL Administrators]** grupo de seguridad. Para obtener más información, consulte esta [página](../../administration/using/list-of-roles.md).
 
 Debe asegurarse de definir los comportamientos que desea supervisar de antemano en Adobe Experience Cloud (servicio principal de **[!UICONTROL Triggers]**). Para obtener más información, consulte la [documentación de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html). Tenga en cuenta que cuando define el activador, debe activar los alias. Para cada comportamiento (navegación/abandono de formulario, adición/eliminación de productos, sesión caducada, etc.), se debe añadir un nuevo activador en Adobe Experience Cloud.
 
@@ -31,7 +31,7 @@ Puede ver este [vídeo](https://helpx.adobe.com/es/marketing-cloud/how-to/email-
 
 Los pasos para ponerlo en práctica son:
 
-1. Haga clic en el logotipo **Adobe**, en la esquina superior izquierda, y luego seleccione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud Triggers]**.
+1. Haga clic en el **Adobe** , en la esquina superior izquierda, seleccione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud Triggers]**.
 
    ![](assets/remarketing_1.png)
 
@@ -55,15 +55,15 @@ Los pasos para ponerlo en práctica son:
 
 Después de crear un evento de déclencheur en Adobe Campaign basado en un déclencheur de Adobe Experience Cloud existente, debe publicarlo.
 
-1. Desde el déclencheur creado anteriormente, haga clic en el botón **[!UICONTROL Publish]** para comenzar a publicar el evento de déclencheur.
+1. En el déclencheur creado anteriormente, haga clic en el botón **[!UICONTROL Publish]** para iniciar la publicación del evento de déclencheur.
 
    ![](assets/trigger_publish_1.png)
 
-1. Puede comprobar el progreso de la publicación del déclencheur en **[!UICONTROL Publication]**.
+1. Puede comprobar el progreso de la publicación de déclencheur en **[!UICONTROL Publication]**.
 
    ![](assets/trigger_publish_2.png)
 
-1. Cuando se haya realizado la publicación, el siguiente mensaje aparecerá en **[!UICONTROL Publication]**.
+1. Cuando finalice la publicación, el siguiente mensaje aparecerá en **[!UICONTROL Publication]**.
 
    ![](assets/trigger_publish_3.png)
 
@@ -73,7 +73,7 @@ Después de crear un evento de déclencheur en Adobe Campaign basado en un décl
 
    ![](assets/trigger_publish_4.png)
 
-1. El botón **[!UICONTROL Show Trigger in Experience Cloud]** permite ver la definición del déclencheur en Adobe Experience Cloud.
+1. Haga clic en **[!UICONTROL Show Trigger in Experience Cloud]** permite ver la definición del déclencheur en Adobe Experience Cloud.
 
 Una vez publicado el evento, se crea automáticamente una plantilla transaccional vinculada al nuevo evento. Después debe modificar y publicar la plantilla que acaba de crear. Para obtener más información, consulte la sección [Modificación de la plantilla](../../start/using/marketing-activity-templates.md).
 
@@ -81,7 +81,7 @@ Una vez publicado el evento, se crea automáticamente una plantilla transacciona
 
 Una vez creado y publicado el evento de activación, la plantilla transaccional correspondiente se crea automáticamente. Para obtener más información, consulte [Creación de un activador asignado en Campaign](#creating-a-mapped-trigger-in-campaign).
 
-Para que el evento active el envío de un mensaje transaccional, debe personalizar la plantilla, probarla y publicarla. Estos pasos son los mismos que para un mensaje transaccional estándar. Para obtener más información, consulte la sección [Edición de un mensaje transaccional](../../channels/using/editing-transactional-message.md) .
+Para que el evento active el envío de un mensaje transaccional, debe personalizar la plantilla, probarla y publicarla. Estos pasos son los mismos que para un mensaje transaccional estándar. Para obtener más información, consulte [Edición de un mensaje transaccional](../../channels/using/editing-transactional-message.md) para obtener más información.
 
 >[!NOTE]
 >

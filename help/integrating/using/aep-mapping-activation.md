@@ -21,9 +21,9 @@ ht-degree: 0%
 >
 >Adobe Experience Platform Data Connectors se encuentra actualmente en fase beta, por lo que puede estar sujeto a actualizaciones frecuentes sin previo aviso. Es necesario que los clientes estén alojados en Azure (actualmente en versión beta solo para Norteamérica) para acceder a estas capacidades. Si desea acceder, póngase en contacto con el Servicio de atención al cliente de Adobe.
 
-Cuando finalice la definición de la asignación, puede publicarla. Después del paso de implementación, la duplicación de datos entre Campaign Standard y Adobe Experience Platform se inicia automáticamente. En cualquier momento, puede detener la replicación haciendo clic en el botón **[!UICONTROL Stop]** .
+Cuando finalice la definición de la asignación, puede publicarla. Después del paso de implementación, la duplicación de datos entre Campaign Standard y Adobe Experience Platform se inicia automáticamente. En cualquier momento, puede detener la replicación haciendo clic en el botón **[!UICONTROL Stop]** botón.
 
-Según las modificaciones de la asignación, puede elegir reenviar todos los registros a Adobe Experience Platform.
+Según las modificaciones de asignación, puede elegir reenviar todos los registros a Adobe Experience Platform.
 
 ![](assets/aep_publishmapping.png)
 
@@ -31,11 +31,11 @@ Desde el mosaico de implementación, puede acceder al registro de publicación y
 
 ![](assets/aep_publog.png)
 
-En la pestaña **[!UICONTROL Export jobs]**, puede supervisar el trabajo de exportación para la asignación publicada.
+En el **[!UICONTROL Export jobs]** , puede controlar el trabajo de exportación para la asignación publicada.
 
 ![](assets/aep_jobstatus.png)
 
-Si desea controlar todos los trabajos de exportación de datos, vaya al menú **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]**.
+Si desea controlar todos los trabajos de exportación de datos, vaya a **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** para abrir el Navegador.
 
 ![](assets/aep_statusmapping.png)
 
@@ -58,7 +58,7 @@ Para actualizar el esquema XDM, siga estos pasos:
 
 1. Vaya al esquema XDM.
 
-1. Agregue la mezcla **[!UICONTROL Profile Privacy]** al esquema.
+1. Agregue la variable **[!UICONTROL Profile Privacy]** mezcla en el esquema.
 
    ![](assets/aep_datamapping_privacyfield.png)
 

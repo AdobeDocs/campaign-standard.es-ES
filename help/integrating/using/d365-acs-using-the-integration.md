@@ -1,5 +1,5 @@
 ---
-title: Usar la integración con Microsoft Dynamics 365
+title: Uso de la integración con Microsoft Dynamics 365
 description: Aprenda a utilizar Microsoft Dynamics 365 con integración de Campaign Standard
 audience: integrating
 content-type: reference
@@ -7,20 +7,19 @@ topic-tags: working-with-campaign-and-ms-dynamics
 feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: fb464183-13bf-4b47-ac27-4b785bafef37
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: tm+mt
-source-wordcount: '1613'
+source-wordcount: '1607'
 ht-degree: 1%
 
 ---
-
 
 # Uso de la integración con Microsoft Dynamics 365
 
 Existen varios flujos de datos que Adobe Campaign Standard Integration with Microsoft Dynamics 365 realiza. Estos flujos se detallan en [esta página](../../integrating/using/d365-acs-self-service-app-workflows.md).
 
-Puede encontrar más información sobre los flujos de datos en este documento en la sección [Flujos de datos](#data-flows).
+Puede encontrar más información sobre los flujos de datos en este documento en la sección [Flujos de datos](#data-flows)  para obtener más información.
 
 ## Experiencia del usuario de Adobe Campaign Standard
 
@@ -28,11 +27,11 @@ Cuando se crea, modifica o elimina un contacto (si se elimina está habilitado) 
 
 ![](assets/MSdynamicsACS-usage1.png)
 
-Cuando se modifica un atributo de exclusión en Campaign, este se refleja en Dynamics 365 si ha seleccionado la configuración de exclusión **unidireccional (Campaign to Microsoft Dynamics 365)** o **bidireccional** y si tiene ese atributo en particular asignado correctamente.
+Cuando se modifica un atributo de exclusión en Campaign, este se refleja en Dynamics 365 si ha seleccionado la variable **Unidireccional (Campaign a Microsoft Dynamics 365)** o **Bidireccional** configuración de exclusión y si tiene ese atributo en particular asignado correctamente.
 
-## Experiencia del usuario de Microsoft Dynamics 365
+## Experiencia del usuario en Microsoft Dynamics 365
 
-Para comenzar, los siguientes eventos de marketing por correo electrónico se envían de Campaign a Dynamics 365 y se muestran en la vista Línea de tiempo de Microsoft Dynamics 365 como actividades personalizadas:
+Para comenzar, los siguientes eventos de marketing por correo electrónico se envían de Campaign a Dynamics 365 y se muestran en la vista Cronología de Microsoft Dynamics 365 como actividades personalizadas:
 
 * Envío de correo electrónico de Adobe Campaign
 
@@ -46,7 +45,7 @@ Para ver la línea de tiempo de un contacto, vaya a la lista de contactos hacien
 
 >[!NOTE]
 >
->La aplicación **Adobe Campaign para Microsoft Dynamics 365** en AppSource deberá estar instalada en la instancia de Microsoft Dynamics 365 para poder ver estos eventos. [Más información](../../integrating/using/d365-acs-configure-d365.md#install-appsource-app).
+>La variable **Adobe Campaign para Microsoft Dynamics 365** La aplicación en AppSource deberá estar instalada en la instancia de Microsoft Dynamics 365 para poder ver estos eventos. [Más información](../../integrating/using/d365-acs-configure-d365.md#install-appsource-app).
 
 A continuación puede ver una instantánea de la pantalla Contacto para &quot;Usuario de Dynamics&quot;. En la vista Cronología, verá que se ha enviado un correo electrónico a Dynamics User asociado con los nombres de campaña &quot;2019LoyaltyCamp&quot; y &quot;DM190&quot;. El usuario de Dynamics abrió el correo electrónico y también hizo clic en una dirección URL del mismo; ambas acciones crearon eventos que también se muestran a continuación. Si mira hacia la esquina derecha, verá la tarjeta Asistente de relación (RA); actualmente, contiene una tarea para realizar un seguimiento de la dirección URL donde se hizo clic.
 
@@ -74,21 +73,21 @@ A continuación se muestra una lista de los atributos y una descripción:
 
 * **Propietario**: El usuario de la aplicación que se crea en los pasos posteriores al aprovisionamiento
 
-* **Respecto**: Nombre del contacto
+* **Acerca de**: Nombre del contacto
 
-* **Nombre** de campaña: El ID de campaña en el Campaign Standard
+* **Nombre de campaña**: El ID de campaña en el Campaign Standard
 
-* **Nombre** de la entrega: El ID de entrega en el Campaign Standard
+* **Nombre de la entrega**: El ID de entrega en el Campaign Standard
 
 * **Fecha de envío/apertura/clic/rechazo**: Fecha y hora en que se creó el evento
 
-* **URL** de seguimiento: Dirección URL en la que se hizo clic
+* **URL de seguimiento**: Dirección URL en la que se hizo clic
 
-* **URL** de página espejo: La dirección URL a la página espejo del correo electrónico que se ha enviado, abierto, en el que se ha hecho clic o rechazado. El periodo de caducidad de la página espejo del correo electrónico se puede modificar en la pantalla de configuración de la actividad correspondiente del canal de correo electrónico de Campaign. [Más información](../../administration/using/configuring-email-channel.md#validity-period-parameters).
+* **URL de página espejo**: La dirección URL a la página espejo del correo electrónico que se ha enviado, abierto, en el que se ha hecho clic o rechazado. El periodo de caducidad de la página espejo del correo electrónico se puede modificar en la pantalla de configuración de la actividad correspondiente del canal de correo electrónico de Campaign. [Más información](../../administration/using/configuring-email-channel.md#validity-period-parameters).
 
 >[!NOTE]
 >
->Para la exclusión, cuando se modifica un atributo de exclusión en Microsoft Dynamics 365, este se refleja en Campaign si ha seleccionado la configuración de exclusión **Unidirectional (Campaign to Microsoft Dynamics 365)** o **Bidirectional** y si tiene ese atributo en particular asignado correctamente.
+>Para la exclusión, cuando se modifica un atributo de exclusión en Microsoft Dynamics 365, este se refleja en Campaign si ha seleccionado la variable **Unidireccional (Campaign a Microsoft Dynamics 365)** o **Bidireccional** configuración de exclusión y si tiene ese atributo en particular asignado correctamente.
 
 ## Flujos de datos {#data-flows}
 
@@ -112,7 +111,7 @@ El atributo externalId de la tabla de perfiles de Campaign debe rellenarse con e
 
 #### Entidades personalizadas
 
-La [integración de Microsoft Dynamics 365-Adobe Campaign Standard](../../integrating/using/d365-acs-get-started.md) admite entidades personalizadas, lo que permite sincronizar las entidades personalizadas de Dynamics 365 con los recursos personalizados correspondientes en Campaign.
+La variable [Integración con Microsoft Dynamics 365-Adobe Campaign Standard](../../integrating/using/d365-acs-get-started.md) admite entidades personalizadas, lo que permite sincronizar entidades personalizadas de Dynamics 365 con los recursos personalizados correspondientes en Campaign.
 
 Los nuevos datos de los recursos personalizados se pueden utilizar para varios fines, incluida la segmentación y la personalización.
 
@@ -122,18 +121,17 @@ La integración admite tablas vinculadas y no vinculadas. La vinculación se adm
 >
 >Si algún registro de recursos personalizados de Campaign contiene información personal, se aplican recomendaciones específicas. Obtenga más información [en esta sección](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-data).
 
-
 Al configurar los flujos de datos de entidad personalizados, es importante tener en cuenta lo siguiente:
 
 * La creación y modificación de los recursos personalizados de Campaign son operaciones confidenciales que solo deben realizar usuarios expertos.
 * Para los flujos de datos de entidad personalizados, el seguimiento de cambios debe estar habilitado en Dynamics 365 para las entidades personalizadas sincronizadas.
 * Si se crea un registro principal y un registro secundario vinculado casi al mismo tiempo en Dynamics 365, debido al procesamiento paralelo de la integración, existe una pequeña posibilidad de que se pueda escribir un nuevo registro secundario en Campaign antes de su registro principal.
 
-* Si el principal y el secundario están vinculados en la campaña utilizando la opción **1 cardinality simple link** , el registro secundario permanecerá oculto e inaccesible (a través de la interfaz de usuario o la API) hasta que el registro principal llegue a Campaign.
+* Si el elemento principal y el secundario están vinculados en el lado de la campaña mediante la variable **1 cardinalidad simple enlace** , el registro secundario permanecerá oculto e inaccesible (a través de la interfaz de usuario o la API) hasta que el registro principal llegue a Campaign.
 
-* (Suponiendo **1 cardinalidad simple link** en Campaign) Si el registro secundario se actualiza o elimina en Dynamics 365 y ese cambio se escribe en Campaign antes de que el registro principal se muestre en Campaign (no es probable, pero es una posibilidad remota), esa actualización o eliminación no se procesará en Campaign y se generará un error. En el caso de la actualización, el registro en cuestión deberá actualizarse de nuevo en Dynamics 365 para sincronizar el registro actualizado. En el caso de la eliminación, el registro en cuestión deberá tratarse por separado en Campaign, ya que ya no hay ningún registro en Dynamics 365 para eliminarlo o actualizarlo.
+* (Suponiendo **1 cardinalidad simple enlace** en Campaign) Si el registro secundario se actualiza o elimina en Dynamics 365 y ese cambio se escribe en Campaign antes de que el registro principal se muestre en Campaign (no es probable, pero es una posibilidad remota), esa actualización o eliminación no se procesará en Campaign y se generará un error. En el caso de la actualización, el registro en cuestión deberá actualizarse de nuevo en Dynamics 365 para sincronizar el registro actualizado. En el caso de la eliminación, el registro en cuestión deberá tratarse por separado en Campaign, ya que ya no hay ningún registro en Dynamics 365 para eliminarlo o actualizarlo.
 
-* Si se encuentra en una situación en la que cree que tiene registros secundarios ocultos y no hay forma de acceder a ellos, puede cambiar temporalmente el tipo de enlace de cardinalidad a **0 o 1 cardinalidad simple enlace** para acceder a esos registros.
+* Si se encuentra en una situación en la que cree que tiene registros secundarios ocultos y no hay forma de acceder a ellos, puede cambiar temporalmente el tipo de vínculo de cardinalidad a **0 o 1 cardinalidad simple enlace** para acceder a esos registros.
 
 Puede encontrar una descripción general más completa de los recursos personalizados de Campaign [en esta sección](../../developing/using/key-steps-to-add-a-resource.md).
 
@@ -145,7 +143,7 @@ Tipos de eventos de marketing compatibles:
 * Envío: correo electrónico enviado al destinatario
 * Abrir: correo electrónico abierto por destinatario
 * Haga clic en - URL dentro del correo electrónico en el que se hizo clic por destinatario
-* Devolución: el correo electrónico al destinatario experimentó una devolución grave
+* Devolución: el correo electrónico al destinatario ha experimentado una devolución grave
 
 Los siguientes atributos de evento se muestran en Dynamics 365:
 * Nombre de la campaña de marketing
@@ -168,10 +166,9 @@ Alternativamente, si tiene un proceso independiente para administrar la sincroni
 
 >[!NOTE]
 >
->En la interfaz de usuario de la aplicación de integración, los casos de uso de **Unidirectional (Microsoft Dynamics 365 to Campaign)** y de exclusión **Bidirectional** se configuran en un flujo de trabajo de exclusión independiente. [Más información](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
+>En la interfaz de usuario de la aplicación de integración, la variable **Unidireccional (Microsoft Dynamics 365 to Campaign)** y **Bidireccional** los casos de uso de exclusión se configuran en un flujo de trabajo de exclusión independiente. [Más información](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
 >
->El caso de uso de exclusión **Unidirectional (Campaign to Microsoft Dynamics 365)** es una excepción; está configurado dentro del flujo de trabajo de ingreso (contacto con perfil).
-
+>La variable **Unidireccional (Campaign a Microsoft Dynamics 365)** el caso de uso de exclusión es una excepción; está configurado dentro del flujo de trabajo de ingreso (contacto con perfil).
 
 El cliente debe especificar la asignación de flujo de exclusión, ya que los requisitos comerciales pueden diferir entre empresas. En el lado de Campaign, solo se pueden utilizar los atributos de exclusión de OOTB para la asignación de exclusión:
 
@@ -188,4 +185,4 @@ En Dynamics 365, la mayoría de los campos de exclusión tienen el prefijo &quot
 
 ### Transferencia de datos inicial {#initial-data-transfer}
 
-La transferencia de datos inicial puede tardar un tiempo dependiendo de cuántos registros esté incorporando de Microsoft Dynamics 365. Después de la transferencia de datos inicial, la integración recogerá las actualizaciones incrementales.
+La transferencia de datos inicial puede tardar un tiempo dependiendo de cuántos registros esté incorporando desde Microsoft Dynamics 365. Después de la transferencia de datos inicial, la integración recogerá las actualizaciones incrementales.

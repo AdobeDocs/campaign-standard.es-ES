@@ -65,7 +65,7 @@ La pestaña **[!UICONTROL Tracking logs]** enumera el historial de seguimiento d
 
 >[!NOTE]
 >
->Si el seguimiento no está habilitado para una entrega, esta pestaña no se muestra. Los registros de seguimiento solo están disponibles para los canales **email** y **push notification**.
+>Si el seguimiento no está habilitado para una entrega, esta pestaña no se muestra. Los registros de seguimiento están disponibles para la variable **email** y **notificación push** solo canales.
 
 ![](assets/tracking_logs.png)
 
@@ -75,7 +75,7 @@ En el ejemplo anterior, el destinatario:
 * Se hizo clic en el vínculo de la página espejo.
 * Haga clic en el vínculo personalizado &quot;MÁS INFORMACIÓN&quot;.
 
-En la columna **[!UICONTROL Type]**, los valores posibles son:
+En el **[!UICONTROL Type]** , los valores posibles son:
 
 * **[!UICONTROL Email click]**: los destinatarios que hicieron clic en un vínculo personalizado.
 * **[!UICONTROL Mirror page]**: el destinatario hizo clic en un vínculo a la página espejo.
@@ -84,15 +84,15 @@ En la columna **[!UICONTROL Type]**, los valores posibles son:
 
 >[!NOTE]
 >
->Para el canal **push notification**, solo se realiza el seguimiento de los clics en notificaciones móviles. En ese caso, el valor será **[!UICONTROL Click on mobile notification]**.
+>Para la variable **notificación push** , solo se rastrearán los clics en notificaciones móviles. En ese caso, el valor será **[!UICONTROL Click on mobile notification]**.
 
 Para obtener más información sobre cómo insertar vínculos de seguimiento, consulte [esta página](../../designing/using/links.md#inserting-a-link).
 
-El informe **[!UICONTROL Tracking indicators]** contiene los indicadores clave para el seguimiento del comportamiento después de recibir los mensajes de correo electrónico. Para obtener más información, consulte esta [página](../../reporting/using/tracking-indicators.md).
+La variable **[!UICONTROL Tracking indicators]** contiene los indicadores clave para el seguimiento del comportamiento después de recibir los mensajes de correo electrónico. Para obtener más información, consulte esta [página](../../reporting/using/tracking-indicators.md).
 
 ## Direcciones URL rastreadas {#tracked-urls}
 
-La pestaña **[!UICONTROL Tracked URLs]** reagrupa las direcciones URL incluidas en el mensaje enviado, incluido su tipo de dirección URL y su dirección URL de origen.
+La variable **[!UICONTROL Tracked URLs]** reagrupa las direcciones URL incluidas en el mensaje enviado, incluido su tipo de dirección URL y su dirección URL de origen.
 
 ![](assets/sending_delivery6.png)
 
