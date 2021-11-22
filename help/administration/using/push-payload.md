@@ -22,7 +22,7 @@ Adobe Campaign le permite enviar notificaciones push personalizadas y segmentada
 
 Cada notificación push recibida en una aplicación móvil contiene información que la aplicación utiliza para mostrar la notificación push si se envía una notificación push de Alert y, probablemente, también realice algún cálculo adicional, especialmente si se envía una notificación push silenciosa.
 
-El código de la aplicación móvil recibe esta información en un controlador de eventos que indica que se ha recibido una notificación push. Al enviar notificaciones push desde Adobe Campaign Standard, la información recibida en la aplicación móvil también puede contener información específica del Campaign Standard que se puede utilizar para aprovechar algunas funciones proporcionadas por el Campaign Standard. Además, la carga útil puede contener datos personalizados que la aplicación móvil puede consumir.
+El código de la aplicación móvil recibe esta información en un controlador de eventos que indica que se recibió una notificación push. Al enviar notificaciones push desde Adobe Campaign Standard, la información recibida en la aplicación móvil también puede contener información específica del Campaign Standard que se puede utilizar para aprovechar algunas funciones proporcionadas por el Campaign Standard. Además, la carga útil puede contener datos personalizados que la aplicación móvil puede consumir.
 
 Este documento describe la estructura de la carga útil recibida en una aplicación móvil cuando una notificación push se envía correctamente a una aplicación desde Adobe Campaign Standard.
 
