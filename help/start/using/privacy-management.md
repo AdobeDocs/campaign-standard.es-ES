@@ -11,7 +11,7 @@ exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '963'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ Para ayudarle a facilitar su preparación para la privacidad, Adobe Campaign le 
 
 * El **Derecho al acceso** es el derecho que posee el sujeto de datos a obtener la confirmación por parte del controlador de datos de si se están procesando o no datos relacionados con su persona, dónde y con qué propósito. El controlador de datos proporciona una copia de los datos personales de forma gratuita y en formato electrónico.
 
-* También conocido como eliminación de datos, la variable **Derecho al olvido** (solicitud de eliminación) autoriza al sujeto de datos a hacer que el controlador de datos borre sus datos personales, interrumpa la diseminación de los datos y la posibilidad de que terceros interrumpan el procesamiento de los datos.
+* El **Derecho al olvido** (solicitud de eliminación, también conocida como eliminación de datos) otorga al sujeto de datos el derecho a que el controlador de datos borre sus datos personales, interrumpa la diseminación de los datos y la posibilidad de que terceros interrumpan el procesamiento de los datos.
 
 Para obtener información sobre cómo crear solicitudes **de acceso** y **eliminación** y cómo procesarlas, consulte los pasos [de](../../start/using/privacy-requests.md#about-privacy-requests)implementación.
 

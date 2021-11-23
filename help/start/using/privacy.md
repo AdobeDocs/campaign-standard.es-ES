@@ -16,7 +16,7 @@ exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '1476'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -126,7 +126,7 @@ Adobe Campaign proporciona funciones adicionales que le ayudan a facilitar su pr
 
 * El **derecho de acceso** es el derecho del interesado a obtener del controlador de datos la confirmación de si se están procesando o no los datos personales que les conciernen, dónde y por qué.
 
-* La variable **Derecho al olvido** (solicitud de eliminación) autoriza al sujeto de datos a hacer que el controlador de datos borre sus datos personales.
+* El **Derecho al olvido** (solicitud de eliminación) autoriza al sujeto de datos a hacer que el controlador de datos borre sus datos personales.
 
 >[!NOTE]
 >

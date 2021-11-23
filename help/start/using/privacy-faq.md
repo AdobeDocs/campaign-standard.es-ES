@@ -16,7 +16,7 @@ exl-id: 8f8ce032-5cff-44d3-9d3b-52511dbcaaab
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '812'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -115,6 +115,6 @@ Como controlador de datos, deberá asegurarse de que, cuando reciba una solicitu
 
 **¿Puede un sujeto de datos, cuyos datos se han borrado de Adobe Campaign, incluirse nuevamente más adelante?**
 
-Es posible que un sujeto de datos vuelva a incluirse o se añada como nuevo destinatario después de que sus datos se hayan borrado de Adobe Campaign.
+Es posible que un sujeto de datos vuelva a incluirse o se añada como un nuevo destinatario después de que sus datos se hayan borrado de Adobe Campaign.
 
 Puede utilizar la pista de auditoría que detalla cuándo se realizó la eliminación anterior y cuándo se creó el nuevo destinatario.

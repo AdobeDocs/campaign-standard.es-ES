@@ -11,7 +11,7 @@ exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: 85c42129e105999483d23865f2534c90406251e4
 workflow-type: tm+mt
 source-wordcount: '423'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -21,15 +21,15 @@ Adobe mejora continuamente sus soluciones añadiendo nuevas funciones, mejoras y
 
 Todas las instancias de Adobe Campaign Standard se actualizan con cada nueva versión. No se requiere ninguna acción para la actualización.
 
-Las actualizaciones se implementan en dos fases. En primer lugar, las instancias de prueba se actualizan para permitirle probar nuevas funciones y adaptar la configuración si es necesario. A continuación, se actualizan las instancias de producción.
+Las actualizaciones se implementan en dos fases. En primer lugar, las fases de prueba se actualizan para permitirle probar nuevas funciones y adaptar su configuración si es necesario. Las instancias de producción se actualizan posteriormente.
 
-Todas las fechas de lanzamiento están sujetas a cambios: visite esta página regularmente para buscar actualizaciones.
+Todas las fechas de las versiones están sujetas a cambios: visite esta página regularmente para buscar actualizaciones.
 
-## Versión 22.1: versión de febrero de 2022 {#release-22-1-release}
+## Versión 22.1: febrero de 2022 {#release-22-1-release}
 
 Las actualizaciones de entorno se producen en olas, durante los intervalos de tiempo indicados a continuación. Las fechas exactas se comunican por correo electrónico a cada cliente.
 
-Encontrará información detallada sobre esta versión en el [Notas de la versión](../../rn/using/release-notes.md) en la fecha de actualización del entorno de ensayo.
+Encontrará información detallada acerca esta versión en las [Notas de la versión](../../rn/using/release-notes.md), en la fecha de actualización del entorno de ensayo.
 
 <table>
  <thead>
@@ -41,11 +41,11 @@ Encontrará información detallada sobre esta versión en el [Notas de la versi�
  <tbody>
   <tr>
    <td>Prueba<br /> </td>
-   <td>Del 8 al 9 de febrero de 2022<br /> </td>
+   <td>8-9 de febrero de 2022<br /> </td>
   </tr>
   <tr>
    <td>Producción<br /> </td>
-   <td>Del 15 al 22 de febrero de 2022<br /> </td>
+   <td>15-22 de febrero de 2022<br /> </td>
   </tr>
  </tbody>
 </table>
