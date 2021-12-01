@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: a6748b4b-36c5-4961-a599-ace73a8504cc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 26260b9e633d8be1652eeb46c982864a7477da27
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 11%
+source-wordcount: '221'
+ht-degree: 10%
 
 ---
 
@@ -41,7 +41,7 @@ El administrador funcional de la plataforma solo puede administrar las cuentas e
 
    ![](assets/analytics.png)
 
-La variable **[!UICONTROL Share KPIs with Adobe Analytics]** el flujo de trabajo técnico ahora se iniciará automáticamente y se puede ver desde el menú avanzado seleccionando **[!UICONTROL Administration > Application settings > Workflow]**. Este flujo de trabajo técnico se ejecutará automáticamente cada 15 minutos e insertará datos de hasta 6 meses de antigüedad en Adobe Analytics.
+La variable **[!UICONTROL Share KPIs with Adobe Analytics]** el flujo de trabajo técnico ahora se iniciará automáticamente y se puede ver desde el menú avanzado seleccionando **[!UICONTROL Administration > Application settings > Workflow]**. Este flujo de trabajo técnico puede retener registros generales de hasta 6 meses de antigüedad. Tenga en cuenta que este flujo de trabajo es incremental y push de datos del día anterior.
 
 ![](assets/analytics_3.png)
 
