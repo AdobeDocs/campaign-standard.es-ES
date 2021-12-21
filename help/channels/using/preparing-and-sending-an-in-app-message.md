@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 2ad76d55785f123b590e00c8d33552f4617c32e2
+source-git-commit: 0523c7cc68661a5593ae2c58382f839c2379f2db
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 98%
+source-wordcount: '1170'
+ht-degree: 95%
 
 ---
 
@@ -58,7 +58,9 @@ Los pasos para crear un mensaje independiente en la aplicación con Adobe Campai
    * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**
    * **[!UICONTROL Target users based on their Mobile profile (inApp)]**
 
-1. Introduzca las propiedades de los mensajes en la aplicación y seleccione la aplicación móvil en el campo **[!UICONTROL Associate a Mobile App to a delivery]**. Tenga en cuenta que si no configuró la aplicación móvil con Adobe Campaign Standard, no aparecerá en la lista. Para obtener más información sobre la configuración de la aplicación móvil, consulte esta [página](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
+1. Introduzca las propiedades de los mensajes en la aplicación y seleccione la aplicación móvil en el campo **[!UICONTROL Associate a Mobile App to a delivery]**.
+
+   Si no ve ninguna aplicación en la lista desplegable, asegúrese de que las aplicaciones móviles se encuentran en una **Configurado** estado. Aplicaciones en un **Listo para configurarse** no aparecerá en la lista. Para obtener más información sobre la configuración de la aplicación móvil, consulte esta [página](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
    ![](assets/inapp_creating_3.png)
 

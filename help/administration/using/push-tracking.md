@@ -9,9 +9,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 95d4b9fbb41f5204f387971be3710817a281a8c4
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '954'
 ht-degree: 1%
 
 ---
@@ -232,13 +232,11 @@ Para comprender cómo funcionan las notificaciones de iOS, es necesario detallar
 * **Contexto**: cuando la aplicación is no está en pantalla, pero el proceso no está cerrado. Cuando hace doble clic en el botón principal, normalmente muestra todas las aplicaciones que están en segundo plano.
 * **Desactivado/cerrado**: una aplicación cuyo proceso ha finalizado.
 
-Si se cierra una aplicación, Apple no la llamará hasta que se vuelva a iniciar. Esto significa que no podrá saber cuándo se recibió la notificación en iOS.
-
 Para poder seguir teniendo **[!UICONTROL Impression]** seguimiento funcionando mientras la aplicación está en segundo plano, tenemos que enviar **[!UICONTROL Content-Available]** para que la aplicación sepa que se debe realizar un seguimiento.
 
 >[!CAUTION]
 >
->El seguimiento de impresiones de iOS no es preciso y no debe considerarse fiable.
+> Si se cierra una aplicación, Apple no la llamará hasta que se vuelva a iniciar. Esto significa que no podrá saber cuándo se recibió la notificación en iOS. </br> Por este motivo, es posible que el seguimiento de impresiones de iOS no sea preciso y no se considere fiable.
 
 Para las entregas creados antes de la versión 21.1 o las entregas con plantilla personalizada, consulte esta [sección](../../administration/using/push-tracking.md#about-push-tracking).
 
