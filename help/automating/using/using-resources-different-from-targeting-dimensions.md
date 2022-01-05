@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 5805bdfa-fb33-4a46-ba1e-7a10b067349b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 9c14fc3de60d8e0304f8a7ebd46e7be34d2e0499
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 81%
+ht-degree: 76%
 
 ---
 
@@ -25,7 +25,7 @@ Para obtener más información sobre dimensiones y recursos de segmentación, co
 **Ejemplo 1: identificación de perfiles segmentados por el envío con la etiqueta &quot;Bienvenido de nuevo&quot;**.
 
 * En este caso, queremos segmentar perfiles. Estableceremos la dimensión de segmentación en **[!UICONTROL Profiles (profile)]**.
-* Queremos filtrar los perfiles seleccionados según la etiqueta de envío. Por lo tanto, estableceremos el recurso en **[!UICONTROL Delivery logs]**. De esta manera, estamos filtrando directamente en la tabla de registro de envíos, lo que da mejores resultados.
+* Queremos filtrar los perfiles seleccionados según la etiqueta de envío. Por lo tanto, estableceremos el recurso en **[!UICONTROL Delivery logs]**. De esta manera, estamos filtrando directamente en la tabla de registro de envíos, lo que ofrece un mejor rendimiento.
 
 ![](assets/targeting_dimension6.png)
 

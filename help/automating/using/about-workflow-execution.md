@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 3b95fc66-d6f4-44b2-be33-925c1109a57f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 9%
+source-wordcount: '353'
+ht-degree: 10%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 9%
 
 Un flujo de trabajo siempre se inicia manualmente. Sin embargo, una vez iniciada, puede permanecer inactiva, según la información especificada en una [Planificador](../../automating/using/scheduler.md) actividad.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
-> Adobe recomienda a los clientes priorizar las ejecuciones de flujos de trabajo y ejecutar hasta 20 ejecuciones de flujos de trabajo simultáneos para lograr de forma consistente el máximo rendimiento en toda la instancia. Se pueden planificar más de veinte ejecuciones de flujo de trabajo simultáneas y se ejecutarán secuencialmente de forma predeterminada. Puede ajustar la configuración predeterminada para el número máximo de ejecuciones de flujo de trabajo simultáneas enviando un ticket al Servicio de atención al cliente.
+> Adobe recomienda a los clientes que no ejecuten más de 20 ejecuciones de flujos de trabajo activos simultáneamente y que prioricen y extiendan la ejecución del flujo de trabajo a lo largo del tiempo. Para obtener más información, consulte las prácticas recomendadas que se proporcionan en [esta página](../../automating/using/best-practices-workflows.md).
 
 Acciones relacionadas con la ejecución (inicio, detención, pausa, etc.) are **asincrónico** procesos: el comando se guarda y se hace efectivo una vez que el servidor esté disponible para aplicarlo.
 

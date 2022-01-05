@@ -8,10 +8,10 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 40%
+source-wordcount: '553'
+ht-degree: 37%
 
 ---
 
@@ -33,6 +33,10 @@ Los flujos de trabajo se pueden utilizar en diferentes contextos, como por ejemp
 * Administración de datos (ETL) para manipular datos.
 * Importación de datos en la base de datos de Campaign.
 * Procesos técnicos, como limpieza de bases de datos, recuperación de información de seguimiento, etc.
+
+>[!IMPORTANT]
+>
+> Adobe recomienda a los clientes que no ejecuten más de 20 ejecuciones de flujos de trabajo activos simultáneamente y que prioricen y extiendan la ejecución del flujo de trabajo a lo largo del tiempo. Para obtener más información, consulte las prácticas recomendadas que se proporcionan en [esta página](../../automating/using/best-practices-workflows.md).
 
 ## Actividades de flujo de trabajo {#workflow-activities}
 

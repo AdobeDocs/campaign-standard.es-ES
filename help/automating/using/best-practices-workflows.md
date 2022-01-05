@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 84%
+source-wordcount: '1200'
+ht-degree: 80%
 
 ---
 
@@ -47,12 +47,15 @@ Puede duplicar flujos de trabajo. En **[!UICONTROL Marketing Activities]**, pase
 
 ### Número de flujos de trabajo
 
-De forma predeterminada, se recomienda no ejecutar más de 20 ejecuciones de flujos de trabajo activos simultáneamente. Después de alcanzar ese límite, los flujos de trabajo se colocarán en la cola para no afectar al rendimiento. Del mismo modo, Adobe recomienda que extienda la ejecución del flujo de trabajo con el paso del tiempo.
-En contextos específicos, es posible que necesite ejecutar más de 20 flujos de trabajo. No se aplica a los flujos de trabajo que esperan una ejecución programada.  Si es así, debe consultar los casos de uso con un experto de Campaign y ponerse en contacto con el Servicio de atención al cliente de Adobe para aumentar el límite.
+De forma predeterminada, se recomienda **no ejecutar más de 20 ejecuciones de flujos de trabajo activos simultáneamente** (esto no se aplica a los flujos de trabajo que esperan una ejecución programada). Después de alcanzar ese límite, los flujos de trabajo se colocarán en la cola para no afectar al rendimiento.
 
->[!NOTE]
+En contextos específicos, es posible que necesite ejecutar más de 20 flujos de trabajo. Si es así, debe consultar los casos de uso con un experto de Campaign y ponerse en contacto con el Servicio de atención al cliente de Adobe para aumentar el límite.
+
+>[!IMPORTANT]
 >
->Antes de iniciar un flujo de trabajo, [!DNL Campaign Standard] comprobará si hay suficiente memoria física del sistema para ejecutar el flujo de trabajo. Si no hay suficiente memoria disponible, un mensaje le informará de que la ejecución del flujo de trabajo se retrasará hasta que se reduzca la carga en el servidor y aumente la memoria del sistema.
+>Aunque no alcance el umbral de 20 flujos de trabajo, Adobe recomienda que **difunda la ejecución del flujo de trabajo a lo largo del tiempo**. Escalonar la ejecución de los flujos de trabajo garantizará un mejor rendimiento de la instancia.
+
+Antes de iniciar un flujo de trabajo, [!DNL Campaign Standard] comprobará si hay suficiente memoria física del sistema para ejecutar el flujo de trabajo. Si no hay suficiente memoria disponible, un mensaje le informará de que la ejecución del flujo de trabajo se retrasará hasta que se reduzca la carga en el servidor y aumente la memoria del sistema.
 
 ### Frecuencia
 
