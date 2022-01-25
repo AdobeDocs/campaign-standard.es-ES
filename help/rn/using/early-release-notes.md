@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8bc0b1186e177b6937c1ae72c1f8763c480b12a9
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 100%
+source-wordcount: '684'
+ht-degree: 10%
 
 ---
 
@@ -22,7 +22,7 @@ Esta página describe las nuevas funciones, mejoras y correcciones incluidas en 
 >
 > Este contenido está sujeto a cambios sin previo aviso hasta la fecha de actualización de los entornos de ensayo. Obtenga más información en la [página de planificación de versiones](../../rn/using/release-planning.md).
 
-## Versión 21.3: septiembre de 2021 {#release-21-3---sept-2021}
+## Versión 22.1: febrero de 2022 {#feb-2022}
 
 
 **Novedades**
@@ -31,75 +31,46 @@ Esta página describe las nuevas funciones, mejoras y correcciones incluidas en 
 <table> 
 <thead> 
 <tr> 
-<th> <strong>Interfaz de Experience Cloud unificada</strong><br /> </th> 
+<th> <strong>Actualización de seguridad para las vulnerabilidades de seguridad de Apache Log4j</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
 <td>
-<p>Se ha cambiado la barra de encabezado de Adobe Campaign para unificar y mejorar su experiencia en todos los productos y servicios de Experience Cloud. Estos cambios están diseñados para facilitar su vida, incluyendo:</p>
-<ul>
-<li>Es más fácil cambiar entre las organizaciones o a otra aplicación.</li>
-<li>Guía del usuario mejorada: al incluir Experience League en el producto, los resultados de la búsqueda también incluyen resultados de foros de la comunidad y más contenido de vídeo, lo que facilita el acceso a más contenido para sacar el máximo partido de la aplicación. También hemos agregado un mecanismo de comentarios en el menú Ayuda, lo que facilita informar sobre problemas o compartir ideas.</li>
-<li>Notificaciones mejoradas: la lista desplegable Notificaciones ahora tiene dos fichas (una para sus propias notificaciones de productos y otra para anuncios de productos globales).</li>
-</ul>
-<!--<p>For more information refer to the <a href="../../start/using/interface-description.md#top-bar">detailed documentation</a>.
-</p>-->
+<p>Apache log4j ha corregido las vulnerabilidades notificadas en la versión 2.17.1 de Apache log4j. Adobe Campaign Standard utiliza Apache log4j y en esta versión incluye el último Apache log4j v2.17.1 </p>
 </td> 
 </tr> 
 </tbody> 
 </table>
 
-<table> 
-<thead> 
-<tr> 
-<th> <strong>Pista de auditoría</strong><br /> </th> 
-</tr> 
-</thead> 
-<tbody> 
-<tr> 
-<td>
-<p>La nueva pista de auditoría captura, en tiempo real, una lista completa de las acciones y los eventos que se producen dentro de Adobe Campaign. Incluye una forma de autoservicio de acceder a un historial de datos para responder preguntas como las siguientes:</p>
-<ul>
-<li>¿Qué ha pasado con este flujo de trabajo y quién lo actualizó por última vez?</li>
-<li>¿Quién hizo los últimos cambios?</li>
-<li>¿Cuál era el estado anterior?</li>
-</ul>
-<p>Adobe Campaign ahora audita las acciones de creación, edición y eliminación para flujos de trabajo, opciones, recursos personalizados. También se realiza un seguimiento de las modificaciones de esos elementos.</p>
-<!--<p>For more information refer to the <a href="../../administration/using/audit.md">detailed documentation</a>.
-</p>-->
-</td> 
-</tr> 
-</tbody> 
-</table>
+**Correcciones de seguridad**
 
-
-<table> 
-<thead> 
-<tr> 
-<th> <strong>Modo de diagnóstico del flujo de trabajo</strong><br /> </th> 
-</tr> 
-</thead> 
-<tbody> 
-<tr> 
-<td>
-<p>Ahora puede ejecutar flujos de trabajo de la campaña en modo de diagnóstico. Este modo registra información para solucionar los problemas de ejecución. El plan de ejecución completo se registra si una consulta de flujo de trabajo tarda, de forma predeterminada, más de un minuto.</p>
-<!--<p>For more information refer to the <a href="../../administration/using/audit.md">detailed documentation</a>.
-</p>-->
-</td> 
-</tr> 
-</tbody> 
-</table>
+* Nuevo mecanismo de firma de URL para el seguimiento incluido en esta versión. El mecanismo anterior se había deshabilitado para evitar un problema que estaba causando que algunos vínculos de seguimiento válidos y firmados se bloquearan incorrectamente después de ser modificados por herramientas de seguridad de terceros. (CAMP-48983)
 
 **Mejoras**
 
-* Al crear una entrega recurrente en un flujo de trabajo, vinculado a un contenido de Adobe Experience Manager, el estado de aprobación del contenido ahora se comprueba antes de enviarla.
-* El límite de conexión a la base de datos ahora está alineado con el paquete de Campaign para evitar errores de conexión.
-* Se ha añadido una comprobación de coherencia al crear índices en recursos personalizados y se han mejorado los mensajes de error.
+* Se ha mejorado el procesamiento de los datos de los informes para evitar sobrecargar el sistema. (CAMP-47578)
+* Después de enviar los mensajes en la aplicación, puede optar por desactivar la entrega. Esto le permite eliminar su envío sin perder datos de informes. (CAMP-48469)
+* Para evitar cualquier problema, los usuarios ya no pueden utilizar el mismo nombre para una columna de tabla personalizada que el utilizado para la clave principal automática en la base de datos. `"<dataType><resourceName>Id"`. (CAMP-49358)
+* Ahora puede supervisar su envío y rastrear los registros de trabajos con el nuevo **Historial de trabajos** desplegable del panel de los mensajes. (CAMP-49840)
 
 **Parches**
 
-* Se ha corregido un error de tiempo de espera al importar contenido de correo electrónico desde una dirección URL. (CAMP-49054)
-* Se ha corregido un error (-69) que se producía al finalizar la sesión, al acceder a una dirección URL con marcador o al actualizar una página desde el explorador. (CAMP-49003, CAMP-48930, CAMP-48894)
-* Se ha corregido un problema que se producía al sincronizar reglas desde el servidor de capacidad de entrega heredado al nuevo. (CAMP-48923)
-* Se ha corregido un problema que se producía al cargar una plantilla de correo electrónico con etiquetas HTML en el Diseñador de correo electrónico. (CAMP-48243)
+* Se ha corregido un problema con la variable **Enviar informe ahora** en Informes dinámicos: los trabajos de generación de PDF fallaron con entregas que incluían varias variantes. (CAMP-49120)
+* Se ha corregido un problema que impedía a los usuarios actualizar o desvincular contenido de Adobe Experience Manager (AEM) de sus envíos de Adobe Campaign Standard cuando un contenido duplicado en AEM compartía la misma clave (cq:uuid). (CAMP-49161)
+* Se ha corregido un error al acceder a una instancia en la que las páginas no se cargaban, no se podían abrir los envíos o no se podía guardar ninguna modificación pendiente. (CAMP-50195)
+* Se ha corregido un problema que impedía abrir los criterios de alerta de entrega si el campo **Filtro de envío** aplicado por este criterio no se ha rellenado. (CAMP-49093)
+* Se ha corregido un problema que se producía al editar la variable **Secundario** en entregas en la aplicación que impidieron que se tuvieran en cuenta los cambios. (CAMP-50250)
+* Se ha corregido un error en las instancias de japonés que impedía a los usuarios elegir Varias veces al día como **Frecuencia de ejecución** en el **Planificador** actividad. (CAMP-50247)
+* Se ha corregido un problema que se producía al trabajar en una interfaz de usuario japonesa y que mostraba un mensaje de error al seleccionar una hora en una actividad de planificador. (CAMP-49289)
+* Se ha corregido un error con los informes de notificaciones push que mostraban notificaciones push descartadas como **Apertura** en lugar de **Impresión**. (CAMP-45980)
+* Se ha corregido un problema que podría provocar errores al abrir un informe. (CAMP-49222)
+* Se ha corregido un problema que podría provocar que la preparación del correo electrónico falle después de eliminar un vínculo a AEM contenido. (CAMP-49877)
+* Para resolver varios problemas, se ha mejorado el mecanismo de reintentos para los envíos, incluido el contenido importado de una dirección URL. (CAMP-48888)
+* Se ha corregido un problema que se producía después de crear un nuevo filtro en un recurso personalizado y, a continuación, utilizarlo como clave de reconciliación en una página de aterrizaje. Si el recurso personalizado se volvió a publicar, el filtro se eliminó de la lista de claves de reconciliación disponibles para la página de aterrizaje. (CAMP-49516)
+* Se ha corregido un problema en las páginas de aterrizaje al usar condiciones dinámicas con casillas de verificación. (CAMP-48604)
+* Se ha corregido un problema que se producía en un **Consulta** actividad al usar la condición de filtro &quot;Activado o antes de octubre&quot;. Al trabajar desde una instancia configurada en una zona horaria europea, el mes seleccionado para el filtro se mostraba en septiembre en lugar de octubre, debido a un problema al convertir la zona horaria. (CAMP-48602)
+* Para optimizar la capacidad de envío, Adobe Campaign ahora envía correos electrónicos con codificación de 7 bits en lugar de 8 bits. Esto evita que los relés intermedios invaliden la firma DKIM que podría afectar a la autenticidad de los mensajes. (CAMP-49016)
+* Se ha mejorado el rendimiento al duplicar audiencias para evitar cualquier problema al trabajar con audiencias grandes. (CAMP-49639)
+* Se ha corregido un problema que podía impedir que un filtro personalizado mostrara los resultados correctos cuando se usaba en una **Consulta** actividad. (CAMP-49417)
+* Se ha corregido un error que mostraba un mensaje de error al intentar utilizar un fragmento en una entrega con una coma en su nombre. El problema se ha resuelto, ahora se pueden usar comas en los nombres de los fragmentos. (CAMP-49216)
