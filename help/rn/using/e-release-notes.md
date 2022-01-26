@@ -7,9 +7,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 8bc0b1186e177b6937c1ae72c1f8763c480b12a9
+source-git-commit: 5435e1dbfbe08399c488322320ac5bb8e681a79d
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '734'
 ht-degree: 10%
 
 ---
@@ -53,6 +53,9 @@ Esta página describe las nuevas funciones, mejoras y correcciones incluidas en 
 * Después de enviar los mensajes en la aplicación, puede optar por desactivar la entrega. Esto le permite eliminar su envío sin perder datos de informes. (CAMP-48469)
 * Para evitar cualquier problema, los usuarios ya no pueden utilizar el mismo nombre para una columna de tabla personalizada que el utilizado para la clave principal automática en la base de datos. `"<dataType><resourceName>Id"`. (CAMP-49358)
 * Ahora puede supervisar su envío y rastrear los registros de trabajos con el nuevo **Historial de trabajos** desplegable del panel de los mensajes. (CAMP-49840)
+* Se ha mejorado la estabilidad y el estado de la base de datos, al reducir los tupoles muertos, cuando se envía un gran número de mensajes a través de todos los canales a lo largo del tiempo. (CAMP-49755, CAMP-49792, CAMP-49849)
+* Para garantizar que las conexiones de base de datos se actualicen automáticamente en caso de que se bloquee o reinicie la base de datos, se han implementado mejoras en el Agente de transferencia de correo de Campaign (MTA). (CAMP-48063)
+
 
 **Parches**
 
