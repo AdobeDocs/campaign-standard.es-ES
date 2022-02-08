@@ -9,10 +9,10 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 07cbf39c-4f53-49b1-8e85-c6df39f014b5
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 2adead5903eb2710207d7aeaaa85418bd616ca5d
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 100%
+source-wordcount: '836'
+ht-degree: 95%
 
 ---
 
@@ -50,6 +50,11 @@ En el contexto específico de una prueba A/B:
    * **[!UICONTROL Number of variants]**: puede elegir utilizar dos o tres variantes. Si elige tres variantes, esta opción no se puede modificar una vez confirmado este paso en el asistente.
    * **[!UICONTROL Winning strategy]**: seleccione el criterio que se debe usar para determinar la variante ganadora.
    * **[!UICONTROL Target breakdown]**: elija qué porcentaje de destinatario debe recibir cada variante. El porcentaje restante recibe la variante ganadora una vez que se haya determinado. Los perfiles de destino se seleccionan de forma aleatoria.
+
+      >[!NOTE]
+      >
+      >Si la población total es inferior a 50 k, cada variante debe representar al menos el 10 % de la población total.
+
    * **[!UICONTROL Winner sending method]**: elija si desea que la variante ganadora se envíe automáticamente una vez determinada o si desea confirmar manualmente el envío a la población restante.
    * **[!UICONTROL Test duration]**: especifique la duración de la prueba. La variante ganadora se determina automáticamente después de esta duración. Puede elegir manualmente la variante ganadora antes del final de la prueba en el panel de correo electrónico.
 
@@ -88,4 +93,4 @@ El correo electrónico se ha definido y enviado. Puede acceder a sus registros e
 
 En el panel de correo electrónico, hay varios indicadores disponibles para ayudarle a medir la prueba A/B: cantidad de clics, aperturas, devoluciones, etc.
 
-Tenga en cuenta que el indicador de **[!UICONTROL Estimated recipient reactivity]** es una tasa que compara el número de destinatarios que hicieron clic con el número de destinatarios que abrieron el correo electrónico. Por ejemplo, si indica que 10 destinatarios abrieron el correo electrónico y 5 destinatarios hicieron clic en él, la tasa de reactividad es del 50 %.
+Tenga en cuenta que el indicador de **[!UICONTROL Estimated recipient reactivity]** es una tasa que compara el número de destinatarios que hicieron clic con el número de destinatarios que abrieron el correo electrónico. Por ejemplo, si 10 destinatarios abrieron el correo electrónico y 5 destinatarios hicieron clic en él, la tasa de reacción es del 50 %.
