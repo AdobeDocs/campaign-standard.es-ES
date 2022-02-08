@@ -9,10 +9,10 @@ feature: Performance Monitoring
 role: User
 level: Beginner
 exl-id: ddc92077-df73-411d-a161-3263581e6945
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ed60bde4785da9a8cc5a6cc0efcdb24e2c1f65e3
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 89%
+source-wordcount: '499'
+ht-degree: 82%
 
 ---
 
@@ -37,6 +37,12 @@ Existen varias formas de supervisar un envío y medir su impacto. Como administr
    Para exportar el registro, haga clic en el botón **[!UICONTROL Export list]**.
 
    ![](assets/sending_delivery2.png)
+
+* **Registros de trabajos**: Se puede acceder a una lista de los trabajos por lotes activados por la entrega desde el panel de mensajes seleccionando **[!UICONTROL Job history]** de la variable **[!UICONTROL Summary]** lista desplegable.
+
+   Seleccione cualquier trabajo de la lista para ver los detalles del **[!UICONTROL Batch job]**.
+
+   ![](assets/sending_delivery8.png)
 
 * **Alertas de envío**: para realizar un seguimiento de los envíos erróneos o correctos, Adobe Campaign proporciona un sistema de alertas por correo electrónico que envía notificaciones para informar a los usuarios de las actividades importantes del sistema.
 * **Informes**: en el panel de mensajes, puede acceder a varios informes para este mensaje específico. También tiene el menú **[!UICONTROL Reports]**, que le permite acceder a una lista completa de informes integrados o personalizados que puede utilizar para crear métricas específicas relacionadas con su mensaje o campaña.

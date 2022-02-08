@@ -8,10 +8,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: bda6f8d5-3bcf-498c-a7c4-d3c2c79b9510
-source-git-commit: 462ebaf8e8f1f056aa92118226ef77aea37b972b
+source-git-commit: b7b9b137de1c62b00895550c7f5bec8ae508bd3b
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 2%
+source-wordcount: '491'
+ht-degree: 3%
 
 ---
 
@@ -87,6 +87,10 @@ Para acceder a la pista de auditoría de su instancia:
    ![](assets/audit-trail_3.png)
 
 ## Habilitar/deshabilitar pista de auditoría {#enable-disable-audit}
+
+>[!NOTE]
+>
+> Solo los administradores funcionales pueden habilitar o deshabilitar la pista de auditoría. Para obtener más información, consulte esta [página](../../administration/using/users-management.md#functional-administrators).
 
 La pista de auditoría se puede activar o desactivar fácilmente para una actividad específica.
 

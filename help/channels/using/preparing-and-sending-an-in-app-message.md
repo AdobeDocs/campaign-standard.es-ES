@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 0523c7cc68661a5593ae2c58382f839c2379f2db
+source-git-commit: 99111a0d8d3bf46aae39b80851ebcabaf30be0a0
 workflow-type: tm+mt
-source-wordcount: '1170'
-ht-degree: 95%
+source-wordcount: '1245'
+ht-degree: 89%
 
 ---
 
@@ -159,6 +159,18 @@ Una vez que haya terminado de preparar la entrega y se hayan realizado los pasos
    ![](assets/inapp_sending_7.png)
 
 1. Mida el impacto de los mensajes en la aplicación con informes de entregas. Para obtener más información sobre la creación de informes, consulte [esta sección](../../reporting/using/in-app-report.md).
+
+1. Después de enviar los mensajes en la aplicación, puede optar por desactivar la entrega. Esto puede resultar útil si desea detener un envío en particular o si desea ejecutar un nuevo envío con el mismo déclencheur, por ejemplo.
+
+   Haga clic en **[!UICONTROL Deactivate]** then **[!UICONTROL Ok]** para iniciar la solicitud de desactivación.
+
+   ![](assets/inapp_sending_8.png)
+
+1. Una vez enviada la solicitud, la entrega se desactiva y no se envía ningún otro mensaje.
+
+   Tenga en cuenta que los informes de esta entrega seguirán siendo accesibles.
+
+   ![](assets/inapp_sending_9.png)
 
 **Temas relacionados:**
 

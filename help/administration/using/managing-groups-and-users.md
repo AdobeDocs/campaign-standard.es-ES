@@ -9,10 +9,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: e6939330e0f9a519507f467cc56e3d5a9a995b17
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 77%
+source-wordcount: '933'
+ht-degree: 73%
 
 ---
 
@@ -20,9 +20,13 @@ ht-degree: 77%
 
 ## Acerca de los grupos de seguridad {#about-security-groups}
 
+>[!IMPORTANT]
+>
+>La variable **[!UICONTROL Access to the deliverability parameters (Deliverability)]** y **[!UICONTROL Message Center agents (mcExec)]** los grupos de seguridad son Adobe interno solamente y no deben asignarse a ningún usuario.
+
 Los grupos de seguridad son conjuntos de usuarios que comparten las mismas funciones y derechos dentro de la organización.
 
-Los usuarios siempre deben estar vinculados a un grupo de seguridad. Esto le permitirá asignarles funciones y unidades organizativas específicas.
+Los usuarios siempre deben estar vinculados a un grupo de seguridad. Esto le permitirá asignarles funciones y unidades organizativas específicas. Para restringir el acceso de un usuario, no agregue el usuario a la campaña **[!UICONTROL Standard Users]** grupo ya que está vinculado a **[!UICONTROL All]** unidad organizativa.
 
 Para obtener más información sobre las funciones, la tabla de la siguiente página presenta las posibles operaciones disponibles según las funciones de un usuario: [Autorizaciones de Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en).
 
@@ -33,17 +37,7 @@ Los grupos de seguridad predeterminados son así:
 * **[!UICONTROL Standard Users]**
 * **[!UICONTROL Workflow supervisors]**
 
->[!IMPORTANT]
->
->La variable **[!UICONTROL Access to the deliverability parameters (Deliverability)]** y **[!UICONTROL Message Center agents (mcExec)]** los grupos de seguridad son Adobe interno solamente y no deben asignarse a ningún usuario.
-
-Para poder acceder a Adobe Campaign, cada usuario debe estar asignado a un grupo de seguridad.
-
-Para restringir el acceso de un usuario, no agregue el usuario al grupo de usuarios de Campaign Standard, ya que está vinculado a la unidad organizativa **[!UICONTROL All]** .
-
->[!NOTE]
->
->De forma predeterminada, la **[!UICONTROL All (all)]** unidad organizativa se asigna al grupo de seguridad **[!UICONTROL Administrators]**. Es de solo lectura y no se puede modificar.
+Tenga en cuenta que estos grupos de seguridad integrados son de solo lectura y no se pueden modificar. Para crear su propio grupo de seguridad con un conjunto de funciones específicas, consulte la sección siguiente.
 
 ## Creación de un grupo de seguridad y asignación de usuarios {#creating-a-security-group-and-assigning-users}
 

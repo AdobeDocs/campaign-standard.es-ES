@@ -8,10 +8,10 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: bfc52511-f66f-4948-a939-d0d77e8ef03c
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 4%
+source-wordcount: '96'
+ht-degree: 6%
 
 ---
 
@@ -24,11 +24,9 @@ El estado de exclusión de la CCPA de un perfil se puede supervisar y administra
 * **true**: prohíbe la venta de información personal.
 * **false**: autoriza la venta de información personal.
 
->[!CAUTION]
+<!--The “CCPA Opt-Out” attribute is only available starting 19.4. For 19.3 environments, you need to extend the Profiles resource and add a boolean field. This field will be added to the API with the chosen label. We suggest you use “Opt-Out for CCPA”.
 >
->El atributo de exclusión de CCPA solo está disponible a partir de la versión 19.4. Para los entornos de la versión 19.3, debe ampliar el recurso Perfiles y agregar un campo booleano. Este campo se añade a la API con la etiqueta elegida. Le sugerimos que utilice &quot;Exclusión de la CCPA&quot;.
->
->Para obtener más información, consulte [Documentación de solicitudes de privacidad](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
+>For more on this, refer to the [Managing Privacy requests documentation](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).-->
 
 <br/>
 

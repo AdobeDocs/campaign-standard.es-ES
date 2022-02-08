@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 41be9f7c13a4b3e0a20e714cc42b9d054812ec07
 workflow-type: tm+mt
-source-wordcount: '1115'
-ht-degree: 88%
+source-wordcount: '1157'
+ht-degree: 84%
 
 ---
 
@@ -54,11 +54,13 @@ Puede utilizar esta actividad para recuperar datos que luego se estructuran con 
    * [almacenamiento de blob de Microsoft Azure](#azure-blob-configuration-wf)
    * [Archivos presentes en el servidor de Adobe Campaign](#files-server-configuration-wf)
 
-1. La sección **[!UICONTROL Additional options]**, disponible en función del protocolo seleccionado, le permite añadir parámetros al protocolo. Se puede:
+1. La sección **[!UICONTROL Additional options]**, disponible en función del protocolo seleccionado, le permite añadir parámetros al protocolo.
 
-   * **[!UICONTROL Delete the source files after transfer]**
-   * **[!UICONTROL Disable passive mode]**
-   * **[!UICONTROL List all files]**: esta opción está disponible al seleccionar la acción **[!UICONTROL File listing]** en la pestaña **[!UICONTROL General]**. Permite indexar todos los archivos presentes en el servidor en la variable de evento **vars.filenames** en la que los nombres de archivo están separados por los caracteres **&#39;n&#39;**.
+   Puede hacer lo siguiente:
+
+   * **[!UICONTROL Delete the source files after transfer]**: borra los archivos del servidor remoto. Si deja esta opción sin marcar, asegúrese de supervisar manualmente el tamaño del contenido archivado en el directorio SFTP.
+   * **[!UICONTROL Disable passive mode]**: permite especificar el puerto de conexión que se utilizará para la transferencia de datos.
+   * **[!UICONTROL List all files]**: esta opción está disponible al seleccionar la variable **[!UICONTROL File listing]** en la variable **[!UICONTROL General]** pestaña . Permite indexar todos los archivos presentes en el servidor en la variable de evento **vars.filenames** en la que los nombres de archivo están separados por los caracteres **&#39;n&#39;**.
 
 1. La sección **[!UICONTROL If no files are found]** de la pestaña **[!UICONTROL Advanced options]** permite configurar acciones específicas si se detectan errores o archivos inexistentes al iniciar la actividad.
 
