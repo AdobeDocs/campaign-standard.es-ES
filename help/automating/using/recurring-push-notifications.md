@@ -1,14 +1,11 @@
 ---
 title: Envío de una notificación push recurrente con un flujo de trabajo
-description: En este ejemplo, se envía una notificación push personalizada todos los primeros días del mes a las 20:00 h a los suscriptores de la aplicación móvil según sus husos horarios.
-audience: automating
-content-type: reference
-topic-tags: channel-activities
+description: En este ejemplo, se envía una notificación push personalizada todos los primeros días del mes a las 20:00 h a los suscriptores de la aplicación móvil en función de sus zonas horarias
 feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: d5e6034c-3673-4069-ac0b-49c7ad07259d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 0ab950d4124bf459ba889e2f1c2954210dd350e0
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 5%

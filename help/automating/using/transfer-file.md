@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-source-git-commit: 41be9f7c13a4b3e0a20e714cc42b9d054812ec07
+source-git-commit: 53852538ac1e092dc9376119f29d969ed4b02952
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 84%
+source-wordcount: '1168'
+ht-degree: 83%
 
 ---
 
@@ -59,7 +59,11 @@ Puede utilizar esta actividad para recuperar datos que luego se estructuran con 
    Puede hacer lo siguiente:
 
    * **[!UICONTROL Delete the source files after transfer]**: borra los archivos del servidor remoto. Si deja esta opción sin marcar, asegúrese de supervisar manualmente el tamaño del contenido archivado en el directorio SFTP.
-   * **[!UICONTROL Disable passive mode]**: permite especificar el puerto de conexión que se utilizará para la transferencia de datos.
+
+   * **[!UICONTROL Sorting files]**: permite ordenar archivos de forma alfanumérica. Esta opción está desactivada de forma predeterminada.
+
+      <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
+
    * **[!UICONTROL List all files]**: esta opción está disponible al seleccionar la variable **[!UICONTROL File listing]** en la variable **[!UICONTROL General]** pestaña . Permite indexar todos los archivos presentes en el servidor en la variable de evento **vars.filenames** en la que los nombres de archivo están separados por los caracteres **&#39;n&#39;**.
 
 1. La sección **[!UICONTROL If no files are found]** de la pestaña **[!UICONTROL Advanced options]** permite configurar acciones específicas si se detectan errores o archivos inexistentes al iniciar la actividad.
@@ -80,6 +84,8 @@ Con este protocolo, puede elegir **[!UICONTROL Use connection parameters defined
 
 También puede elegir la opción **[!UICONTROL Quick configuration]**. Solo es necesario introducir la dirección URL en el campo URL.
 ![](assets/wkf_file_transfer_04.png)
+
+**[!UICONTROL Follow redirections]**, **[!UICONTROL Ignore the HTTP return code]** y **[!UICONTROL Add received HTTP headers to the file]** son las opciones adicionales disponibles al seleccionar el protocolo HTTP.
 
 ### Configuración con SFTP {#SFTP-configuration-wf}
 

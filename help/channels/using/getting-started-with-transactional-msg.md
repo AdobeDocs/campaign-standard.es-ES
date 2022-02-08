@@ -9,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Beginner
 exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 0538958289ce19982889f76ed195090a8455fdeb
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 31%
@@ -91,7 +91,7 @@ Cada uno de estos pasos se detalla a continuación.
 
 ### Paso 1: Creación y publicación de la configuración de evento {#create-event-configuration}
 
-<img src="assets/do-not-localize/icon_config.svg" width="60px">
+<!--<img src="assets/do-not-localize/icon_config.svg" width="60px">-->
 
 | Usuario | Acción | Resultado |
 |--- |--- |--- |
@@ -101,7 +101,7 @@ La creación y publicación de un evento se presenta en la [Configuración de un
 
 ### Paso 2: Editar y publicar el mensaje transaccional {#create-transactional-message}
 
-<img src="assets/do-not-localize/icon_notification.svg" width="40px">
+<!--<img src="assets/do-not-localize/icon_notification.svg" width="40px">-->
 
 | Usuario | Acción | Resultado |
 |--- |--- |--- |
@@ -111,7 +111,7 @@ Para obtener más información sobre la edición y publicación de un mensaje tr
 
 ### Paso 3: Integración del activador de eventos {#integrate-event-trigger}
 
-<img src="assets/do-not-localize/icon_api.svg" width="55px">
+<!--<img src="assets/do-not-localize/icon_api.svg" width="55px">-->
 
 <!--**Event triggering integration**-->
 
@@ -125,7 +125,7 @@ Para obtener más información sobre el uso de la API de REST de Campaign para a
 
 ### Paso 4: Envío de mensajes {#message-delivery}
 
-<img src="assets/do-not-localize/icon_channels.svg" width="60px">
+<!--<img src="assets/do-not-localize/icon_channels.svg" width="60px">-->
 
 Una vez realizados todos estos pasos, se puede enviar el mensaje.
 
