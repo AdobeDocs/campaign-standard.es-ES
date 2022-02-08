@@ -1,17 +1,15 @@
 ---
 title: Introducción a la administración de Campaign Standard
-description: Descubra la administración de usuarios y permisos, las pautas de supervisión, configuraciones específicas de canal y pautas de configuración de aplicaciones.
+description: Obtenga información sobre la administración de usuarios y permisos, las directrices de monitorización, las configuraciones específicas de canal y las directrices de configuración de aplicaciones
 audience: administration
-content-type: reference
-topic-tags: about-administrating-adobe-campaign
 feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 9676b5e8-4c34-4848-8616-235e0bac5d6b
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 15%
+source-wordcount: '637'
+ht-degree: 13%
 
 ---
 

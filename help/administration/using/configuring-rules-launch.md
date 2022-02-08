@@ -1,6 +1,6 @@
 ---
 title: Configuración de reglas de Adobe Experience Platform Launch para admitir casos de uso de Adobe Campaign Standard
-description: Configuración de reglas de Adobe Experience Platform Launch para admitir casos de uso de Adobe Campaign Standard
+description: Obtenga información sobre cómo configurar reglas de Adobe Experience Platform Launch para admitir casos de uso de Adobe Campaign Standard
 audience: channels
 content-type: reference
 topic-tags: push-notifications
@@ -9,9 +9,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '949'
 ht-degree: 5%
 
 ---
@@ -83,7 +83,7 @@ Para enviar datos PII a [!DNL Adobe Campaign Standard], cree una regla en [!DNL 
 
 1. En [!DNL Experience Platform Launch], en el panel de la aplicación móvil, haga clic en el botón **[!UICONTROL Rules]** pestaña **[!UICONTROL Create New Rule]**.
 
-1. Escriba un nombre, por ejemplo, **Mobile Core - Recopilar PII**.
+1. Escriba un nombre, por ejemplo, **Mobile Core - Recopilación de PII**.
 
 1. En el **[!UICONTROL Events]** , haga clic en **[!UICONTROL Add]**.
 

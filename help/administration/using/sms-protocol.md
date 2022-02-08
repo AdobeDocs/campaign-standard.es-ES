@@ -1,14 +1,12 @@
 ---
 title: Configuración y protocolo del conector SMS
-description: Obtenga más información sobre el conector de SMS y cómo configurarlo.
+description: Obtenga más información sobre el conector de SMS y cómo configurarlo
 audience: administration
-content-type: reference
-topic-tags: configuring-channels
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: ea936128-1c51-483d-914c-6d06708456d6
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
 source-wordcount: '8664'
 ht-degree: 86%
@@ -807,7 +805,7 @@ Este es el proceso aplicado a cada SR:
 
 * El ID del SR se extrae con un regex.
 * El ID se busca en `nmsBroadLogExec:sProviderId`.
-* El estado y el código de error se extraen del SR mediante regex.
+* El estado + código de error se extraen del SR mediante regex.
 * El mecanismo de mensaje de broadlog se utiliza para clasificar el error y encontrar el ID del mensaje de broadlog.
 * El broadlog se actualiza con toda la información anterior.
 * Se reconoce la SR.

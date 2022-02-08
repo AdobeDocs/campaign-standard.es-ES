@@ -1,16 +1,14 @@
 ---
 title: Auditoría de registros de exportación
-description: Los administradores pueden realizar un seguimiento de las exportaciones realizadas desde Adobe Campaign.
+description: Descubra cómo los administradores pueden realizar el seguimiento de las exportaciones realizadas desde Adobe Campaign
 audience: administration
-content-type: reference
-topic-tags: users-and-security
 feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 552fa4ac-77a2-4d99-b49a-5dc01acedeb2
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '115'
 ht-degree: 5%
 
 ---

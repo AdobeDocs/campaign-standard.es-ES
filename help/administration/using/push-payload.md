@@ -1,17 +1,14 @@
 ---
 title: Explicación de la estructura de carga útil de las notificaciones push del Campaign Standard
-description: El objetivo de este documento es describir la estructura de la carga útil recibida en las aplicaciones móviles.
+description: Obtenga información sobre la estructura de la carga útil recibida en las aplicaciones móviles
 audience: channels
-content-type: reference
-topic-tags: push-notifications
-context-tags: mobileApp,overview
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: a6515795-1006-4f27-bc44-5ae8b8edc018
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1137'
 ht-degree: 4%
 
 ---
@@ -22,7 +19,7 @@ Adobe Campaign le permite enviar notificaciones push personalizadas y segmentada
 
 Cada notificación push recibida en una aplicación móvil contiene información que la aplicación utiliza para mostrar la notificación push si se envía una notificación push de Alert y, probablemente, también realice algún cálculo adicional, especialmente si se envía una notificación push silenciosa.
 
-El código de la aplicación móvil recibe esta información en un controlador de eventos que indica que se recibió una notificación push. Al enviar notificaciones push desde Adobe Campaign Standard, la información recibida en la aplicación móvil también puede contener información específica del Campaign Standard que se puede utilizar para aprovechar algunas funciones proporcionadas por el Campaign Standard. Además, la carga útil puede contener datos personalizados que la aplicación móvil puede consumir.
+El código de la aplicación móvil recibe esta información en un controlador de eventos que indica que se ha recibido una notificación push. Al enviar notificaciones push desde Adobe Campaign Standard, la información recibida en la aplicación móvil también puede contener información específica del Campaign Standard que se puede utilizar para aprovechar algunas funciones proporcionadas por el Campaign Standard. Además, la carga útil puede contener datos personalizados que la aplicación móvil puede consumir.
 
 Este documento describe la estructura de la carga útil recibida en una aplicación móvil cuando una notificación push se envía correctamente a una aplicación desde Adobe Campaign Standard.
 

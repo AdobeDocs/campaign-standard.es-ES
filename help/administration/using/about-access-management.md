@@ -1,17 +1,15 @@
 ---
 title: Acerca de la administración de acceso
-description: Administre los operadores de Adobe Campaign mediante las funciones, los grupos y las unidades organizativas.
+description: Obtenga información sobre cómo administrar los operadores de Adobe Campaign mediante funciones, grupos y unidades organizativas
 audience: administration
-content-type: reference
-topic-tags: users-and-security
 feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6aa53aa9-aa5c-4b29-ad84-d983da241ceb
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 91%
+source-wordcount: '229'
+ht-degree: 85%
 
 ---
 

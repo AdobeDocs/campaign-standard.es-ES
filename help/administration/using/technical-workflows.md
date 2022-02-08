@@ -1,17 +1,15 @@
 ---
 title: Flujos de trabajo técnicos
-description: Los flujos de trabajo técnicos son flujos de trabajo listos para usar diseñados para gestionar procesos técnicos en segundo plano en Adobe Campaign, lo que garantiza el correcto funcionamiento de la plataforma.
+description: Descubra más información sobre los flujos de trabajo técnicos
 audience: administration
-content-type: reference
-topic-tags: application-settings
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 91%
+source-wordcount: '702'
+ht-degree: 93%
 
 ---
 

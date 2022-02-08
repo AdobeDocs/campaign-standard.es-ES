@@ -1,14 +1,11 @@
 ---
 title: Envío de notificaciones internas
-description: Obtenga información sobre cómo enviar notificaciones del sistema en tiempo real a los usuarios de Adobe Campaign.
+description: Obtenga información sobre cómo enviar notificaciones del sistema en tiempo real a los usuarios de Adobe Campaign
 audience: administration
-content-type: reference
-topic-tags: application-settings
-feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 7e04275a-5413-4f03-b18c-b64ab482d7d5
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 2%
