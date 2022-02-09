@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 85c32143f87b1c46dd9aa32e9aac17f5fa9b7c62
+source-git-commit: 1311b88313910acd9fa6585adecbd7c8315e2d77
 workflow-type: tm+mt
-source-wordcount: '7089'
+source-wordcount: '7128'
 ht-degree: 97%
 
 ---
@@ -18,17 +18,27 @@ Además de las [Notas de la versión](../../rn/using/release-notes.md) de Adobe 
 
 ## Febrero de 2022 {#doc-updates-feb-2022}
 
+## Versión 22.1: febrero de 2022 {#release-22-1}
+
+**Mejoras incluidas en la versión**
+
 Se ha mejorado el mecanismo de reintentos de los envíos, incluido el contenido importado de una dirección URL. [Más información](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
-Se ha agregado una nota de advertencia sobre palabras clave que déclencheur las respuestas automáticas de SMS: solo deben contener caracteres alfanuméricos. [Más información](../../channels/using/managing-incoming-sms.md)
-
 Nivel de acceso actualizado de las opciones que controlan Audit: opciones anteriores para activar/desactivar [Pista de auditoría](../../administration/using/audit.md) no eran accesibles para [administradores funcionales](../../administration/using/users-management.md#functional-administrators). Con este cambio, se modifica el nivel de acceso de la auditoría para proporcionar control a los administradores funcionales. [Más información](../../administration/using/audit.md#enable-disable-audit)
+
+El nuevo **Historial de trabajos** se ha añadido al panel de mensajes. [Más información](../../sending/using/monitoring-a-delivery.md)
+
+**Otros cambios**
+
+Se ha agregado una nota de advertencia sobre palabras clave que déclencheur las respuestas automáticas de SMS: solo deben contener caracteres alfanuméricos. [Más información](../../channels/using/managing-incoming-sms.md)
 
 Se ha añadido una nota a la sección de correo electrónico de prueba A/B: si la población total es inferior a 50 k, cada variante debe representar al menos el 10 % de la población total. De lo contrario, los registros mostrarán una advertencia. [Más información](../../channels/using/designing-an-a-b-test-email.md)
 
 Se ha actualizado la descripción del **[!UICONTROL Delete the source files after transfer]** en la **Transferir archivo** , incluido un recordatorio para supervisar manualmente el tamaño del contenido archivado en el directorio SFTP en caso de que la opción no esté seleccionada. [Más información](../../automating/using/transfer-file.md)
 
 Se han actualizado todos los vínculos obsoletos del **Privacidad** secciones. [Más información](../../start/using/privacy.md)
+
+Se ha añadido un vínculo directo a la documentación de Panel de control de Campaign de Campaign en la tabla de contenido de la documentación del Campaign Standard.
 
 ## Versión 21.3: septiembre de 2021 {#release-21-3---september-2021}
 

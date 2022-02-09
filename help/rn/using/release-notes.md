@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 46bb0c52b5437d29173ab4ccb510aeef67bd5c2d
+source-git-commit: 13894dd2ce3922a54e8754dfcb164eb37b18c76c
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 98%
+source-wordcount: '724'
+ht-degree: 97%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 98%
 * Se ha mejorado el procesamiento de los datos de creación de informes para evitar sobrecargar el sistema. (CAMP-47578)
 * Después de enviar los mensajes en la aplicación, puede optar por desactivar la entrega. Esto le permite eliminar su entrega sin perder datos de creación de informes. (CAMP-48469)
 * Para evitar cualquier problema, los usuarios ya no pueden utilizar el mismo nombre para una columna de tabla personalizada que el utilizado para la clave principal automática en la base de datos. `"<dataType><resourceName>Id"`. (CAMP-49358)
-* Ahora puede monitorizar su entrega y rastrear los registros de trabajos con el nuevo desplegable **Historial de trabajos** del tablero de los mensajes. (CAMP-49840)
+* Ahora puede monitorizar su entrega y rastrear los registros de trabajos con el nuevo desplegable **Historial de trabajos** del tablero de los mensajes. [Más información](../../sending/using/monitoring-a-delivery.md) (CAMP-49840)
 * Se ha mejorado la estabilidad y el estado de la base de datos, al reducir las tuplas, cuando se envía un gran número de mensajes a través de todos los canales a lo largo del tiempo. (CAMP-49755, CAMP-49792, CAMP-49849)
 * Para garantizar que las conexiones de base de datos se actualicen automáticamente en caso de que se bloquee o reinicie, se han implementado mejoras en el Agente de transferencia de correo de Campaign (MTA). (CAMP-48063)
 
