@@ -1,21 +1,18 @@
 ---
 title: Recuperación de perfiles
-description: Obtenga más información sobre cómo recuperar perfiles con API.
-audience: developing
-content-type: reference
-topic-tags: campaign-standard-apis
+description: Obtenga más información sobre cómo recuperar perfiles con API
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Recuperación de perfiles {#retrieving-profiles}
+# Recuperación de perfiles con API {#retrieving-profiles}
 
 La recuperación de perfiles se realiza con un **GET** solicitud.
 

@@ -8,10 +8,10 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: 827df9f6-070c-466a-890c-e363de6b129b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 90%
+source-wordcount: '379'
+ht-degree: 87%
 
 ---
 
@@ -21,7 +21,7 @@ En Adobe Campaign, los perfiles se utilizan de forma predeterminada para definir
 
 >[!NOTE]
 >
->También es posible crear perfiles mediante la API de Adobe Campaign Standard. Para obtener más información, consulte [la documentación dedicada](../../api/using/creating-profiles.md).
+>También es posible crear perfiles mediante la API de Adobe Campaign Standard. Para obtener más información, consulte [la documentación dedicada](../../api/using/creating-profiles-api.md).
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra cómo importar perfiles mediante un flujo de trabajo en vídeo](#video)
 
@@ -31,7 +31,7 @@ Para crear o actualizar un perfil en Campaign, puede:
 * Recopilar datos en línea, mediante [páginas de aterrizaje](../../channels/using/getting-started-with-landing-pages.md)
 * Realizar una creación masiva mediante la [API de REST](../../api/using/get-started-apis.md)
 * Sincronizar perfiles de [Microsoft Dynamics](../../integrating/using/d365-acs-get-started.md)
-* Introduzca datos mediante las pantallas de interfaz gráfica, tal como se explica a continuación.
+* Introduzca datos mediante la interfaz de usuario, tal como se explica a continuación
 
 Por ejemplo, para crear un nuevo perfil directamente en la interfaz de usuario, siga los pasos a continuación:
 

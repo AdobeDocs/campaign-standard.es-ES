@@ -1,21 +1,18 @@
 ---
 title: Actualización de perfiles
-description: Obtenga más información sobre cómo actualizar perfiles con API.
-audience: developing
-content-type: reference
-topic-tags: campaign-standard-apis
+description: Obtenga más información sobre cómo actualizar perfiles con API
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: fa3796ee-a00c-4d70-bf3d-e8d2099f1116
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Actualización de perfiles {#updating-profiles}
+# Actualización de perfiles con API{#updating-profiles-api}
 
 La actualización de perfiles se realiza con un **PATCH** solicitud.
 
