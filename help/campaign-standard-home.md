@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 source-git-commit: 9aae75653e3f517e59aae91eaa94c65d247a14dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '251'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 93%
 
 ## Novedades
 
-* **[Las notas de la versión de Campaign 2.1 están activas](rn/using/release-notes.md)**<br/> Descubra las nuevas funciones, mejoras y correcciones incluidas en la versión Campaign Standard 2.1
+* **[Las notas de la versión de Campaign 2.1 se han publicado](rn/using/release-notes.md)**<br/> Descubra las nuevas funciones, mejoras y correcciones incluidas en la versión Campaign Standard 2.1
 
 * **[Preguntas frecuentes sobre la protección de la privacidad del correo de Apple](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html?lang=es)**<br/> Encuentre orientación básica en respuesta al anuncio de Apple sobre iOS 15
 
