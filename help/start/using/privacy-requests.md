@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1591'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -95,9 +95,9 @@ Consulte la documentación del [Privacy Service de Experience Platform](https://
 
 >[!IMPORTANT]
 >
->Para enviar una solicitud utilizando el tipo de área de nombres personalizada, aproveche la variable [método JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#json){target=&quot;_blank&quot;} y añada el namespaceId a la solicitud, o use la variable [Llamada de API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=en#access-delete){target=&quot;_blank&quot;} para realizar la solicitud.
+>Para enviar una solicitud utilizando el tipo de área de nombres personalizada, aproveche el [método JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=es#json){target=&quot;_blank&quot;} y añada el namespaceId a la solicitud, o use la [llamada a la API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=es#access-delete){target=&quot;_blank&quot;} para realizar la solicitud.
 >
->Utilice únicamente la variable [Interfaz de usuario de privacidad](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#request-builder){target=&quot;_blank&quot;} para enviar solicitudes utilizando el tipo de espacio de nombres estándar.
+>Utilice únicamente la [interfaz de usuario de Privacidad](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=es#request-builder){target=&quot;_blank&quot;} para enviar solicitudes con el tipo de área de nombres estándar.
 
 Cada trabajo del servicio principal de privacidad se divide en varias solicitudes de privacidad en Campaña, en función de cuántas Áreas de nombres se estén utilizando, una solicitud que corresponde a una Área de nombres. Además, un trabajo se puede ejecutar en varias instancias. Por lo tanto, se crean varios archivos para un trabajo. Por ejemplo, si una solicitud tiene dos Áreas de nombres y se está ejecutando en tres instancias, se envía un total de seis archivos. Un archivo por Área de nombres e instancia.
 
@@ -189,7 +189,7 @@ Cuando los usuarios decidan, a través de su sistema, que no permiten que su inf
 
 ### Requisito previo para tablas personalizadas {#ccpa-prerequisite}
 
-La variable **[!UICONTROL CCPA Opt-Out]** se proporciona de forma predeterminada en la interfaz de Campaign y la API. De forma predeterminada, el campo está disponible para el recurso de **[!UICONTROL Profile]**.
+El campo **[!UICONTROL CCPA Opt-Out]** se proporciona listo para usar en la interfaz y la API de Campaign. De forma predeterminada, el campo está disponible para el recurso de **[!UICONTROL Profile]** estándar.
 
 Si utiliza un recurso de perfil personalizado, debe extender el recurso y agregar el campo. Le recomendamos que utilice un nombre distinto al del campo predeterminado, por ejemplo: **[!UICONTROL Opt-Out for CCPA]** (optoutccpa). Cuando se crea un nuevo campo, se vuelve compatible con la API de Campaign de forma automática.
 
