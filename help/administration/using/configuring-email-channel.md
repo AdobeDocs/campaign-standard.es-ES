@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 0d473db5013ecc33b100aa884daac53f36fb2e93
 workflow-type: tm+mt
-source-wordcount: '2596'
+source-wordcount: '2614'
 ht-degree: 77%
 
 ---
@@ -234,6 +234,7 @@ La sección **[!UICONTROL Tracking]** contiene los siguientes parámetros:
 * **[!UICONTROL Activate tracking]**: le permite activar o desactivar el seguimiento de URL de mensajes. Para administrar el seguimiento de cada URL de mensaje, utilice el icono **[!UICONTROL Links]** de la barra de acciones del Diseñador de correo electrónico. Consulte [Acerca de las URL rastreadas](../../designing/using/links.md#about-tracked-urls).
 * **[!UICONTROL Tracking validity limit]**: le permite definir la duración durante la cual se activará el seguimiento en las URL.
 * **[!UICONTROL Substitution URL for expired URLs]**: puede introducir una URL a una página web que se mostrará una vez que el seguimiento haya caducado.
+* **[!UICONTROL Use tracking pixel at the top of email]**: le permite mover el píxel de seguimiento en la parte superior del correo electrónico en lugar de en la parte inferior.
 
 ### Parámetros avanzados {#advanced-parameters}
 
@@ -311,7 +312,7 @@ Si **NOT** al ejecutar la versión más reciente de Campaign, se le seguirán ap
 
 La variable **[!UICONTROL Retries]** en la [Menú Configuración](#email-channel-parameters) y en el [Envío de parámetros](#retries-parameters) de las propiedades del correo electrónico indican cuántos reintentos se deben realizar el día después de iniciar el envío (**[!UICONTROL Number of retries]** / **[!UICONTROL Max. number of retries]**) y el retardo mínimo entre los reintentos (**[!UICONTROL Retry period]**).
 
-El número de reintentos se puede cambiar globalmente (póngase en contacto con el administrador técnico del Adobe) o para cada envío o plantilla de envío.
+El número de reintentos se puede cambiar a nivel global (póngase en contacto con el administrador técnico de Adobe) o para cada entrega o plantilla de envíos.
 
 De forma predeterminada, se programan cinco reintentos para el primer día con un intervalo mínimo de una hora, distribuidos en las 24 horas del día. Después de ello, se programa un reintento por día hasta la fecha límite de envío, que se define globalmente en la variable **[!UICONTROL Delivery parameters]** de la sección **[!UICONTROL Configuration]** o en la **[!UICONTROL Validity period]** en el nivel de entrega (consulte la sección [Duración de la entrega](#legacy-delivery-duration) a continuación).
 
