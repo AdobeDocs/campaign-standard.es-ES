@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 0d473db5013ecc33b100aa884daac53f36fb2e93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '762'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 95%
 * Ahora puede monitorizar su entrega y rastrear los registros de trabajos con el nuevo desplegable **Historial de trabajos** del tablero de los mensajes. [Más información](../../sending/using/monitoring-a-delivery.md) (CAMP-49840)
 * Se ha mejorado la estabilidad y el estado de la base de datos, al reducir las tuplas, cuando se envía un gran número de mensajes a través de todos los canales a lo largo del tiempo. (CAMP-49755, CAMP-49792, CAMP-49849)
 * Para garantizar que las conexiones de base de datos se actualicen automáticamente en caso de que se bloquee o reinicie, se han implementado mejoras en el Agente de transferencia de correo de Campaign (MTA). (CAMP-48063)
-* Una nueva opción de seguimiento **Utilice el píxel de seguimiento en la parte superior del correo electrónico** se ha agregado a las propiedades de correo electrónico, lo que le permite mover el píxel de seguimiento al principio del correo electrónico en lugar de al final. (CAMP-49672)
+* Una nueva opción de seguimiento **Utilizar el píxel de seguimiento en la parte superior del correo electrónico** se ha añadido a las propiedades de correo electrónico, lo que le permite mover el píxel de seguimiento al principio del correo electrónico en lugar de al final. (CAMP-49672)
 
 **Parches**
 
