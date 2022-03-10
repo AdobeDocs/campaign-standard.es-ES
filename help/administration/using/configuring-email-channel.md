@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 0d473db5013ecc33b100aa884daac53f36fb2e93
+source-git-commit: 98aa27e4fb5eab9abbce5a9a9ba2c17d04424d70
 workflow-type: tm+mt
-source-wordcount: '2614'
-ht-degree: 77%
+source-wordcount: '2660'
+ht-degree: 76%
 
 ---
 
@@ -234,7 +234,7 @@ La sección **[!UICONTROL Tracking]** contiene los siguientes parámetros:
 * **[!UICONTROL Activate tracking]**: le permite activar o desactivar el seguimiento de URL de mensajes. Para administrar el seguimiento de cada URL de mensaje, utilice el icono **[!UICONTROL Links]** de la barra de acciones del Diseñador de correo electrónico. Consulte [Acerca de las URL rastreadas](../../designing/using/links.md#about-tracked-urls).
 * **[!UICONTROL Tracking validity limit]**: le permite definir la duración durante la cual se activará el seguimiento en las URL.
 * **[!UICONTROL Substitution URL for expired URLs]**: puede introducir una URL a una página web que se mostrará una vez que el seguimiento haya caducado.
-* **[!UICONTROL Use tracking pixel at the top of email]**: le permite mover el píxel de seguimiento en la parte superior del correo electrónico en lugar de en la parte inferior.
+* **[!UICONTROL Use tracking pixel at the top of email]**: le permite mover el píxel de seguimiento en la parte superior del correo electrónico en lugar de en la parte inferior. De forma predeterminada, este píxel se encuentra en la parte inferior de los correos electrónicos. Si envía mensajes de gran tamaño, considere la posibilidad de mover este píxel al principio de los correos electrónicos en lugar de al final para mejorar el seguimiento de aperturas; de lo contrario, algunos proveedores de correo electrónico podrían cortar el píxel de seguimiento.
 
 ### Parámetros avanzados {#advanced-parameters}
 
