@@ -6,16 +6,16 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 98aa27e4fb5eab9abbce5a9a9ba2c17d04424d70
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '766'
+ht-degree: 100%
 
 ---
 
 
 # Última versión{#latest-release}
 
-![Panel de control de Campaign](assets/do-not-localize/cp-icon.png) **Nuevas versiones de Panel de control de Campaign** con entradas, latencia y monitorización de flujo de trabajo. [Más información](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=es){target=&quot;_blank&quot;}.
+![Panel de control de Campaign](assets/do-not-localize/cp-icon.png) **Nuevas versiones del Panel de control de Campaign** con monitorización del rendimiento, la latencia y el flujo de trabajo. [Más información](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=es){target=&quot;_blank&quot;}.
 
 ## Versión 22.1: febrero de 2022 {#feb-2022}
 
