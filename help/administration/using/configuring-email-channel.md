@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 897ec46abace9debce45e7dc174e17074b29a0c2
+source-git-commit: a1b947acf70803a7350dd626e697318e0ed35f26
 workflow-type: tm+mt
-source-wordcount: '2655'
-ht-degree: 63%
+source-wordcount: '2681'
+ht-degree: 62%
 
 ---
 
@@ -177,9 +177,7 @@ Puede configurar el formato de los correos electrónicos que se van a enviar. Ha
 
 #### Modo de prueba SMTP {#smtp-test-mode}
 
-Utilice la variable **[!UICONTROL Enable SMTP test mode]** para probar el envío de correos electrónicos a través de una conexión SMTP sin realmente enviar mensajes.
-
-Los mensajes se procesan hasta que se logra la conexión con el servidor SMTP, pero no se envían.
+Utilice la variable **[!UICONTROL Enable SMTP test mode]** para probar el envío de correos electrónicos a través de una conexión SMTP sin realmente enviar mensajes. La entrega se procesa hasta la conexión con el servidor SMTP, pero no se envía: para cada destinatario de la entrega, Campaign se conecta al servidor del proveedor SMTP, ejecuta el comando SMTP RCPT TO y cierra la conexión antes del comando SMTP DATA.
 
 ![](assets/smtp-test-mode.png)
 
