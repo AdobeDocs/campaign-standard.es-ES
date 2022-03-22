@@ -1,5 +1,5 @@
 ---
-title: Modelo de datos
+title: Página de destino del modelo de datos
 description: Obtenga información sobre el modelo de datos
 audience: designing
 content-type: reference
@@ -9,10 +9,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: bd12a214-5998-4fb9-9f54-0c886067b58b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '1727'
-ht-degree: 2%
+source-wordcount: '1728'
+ht-degree: 3%
 
 ---
 
@@ -350,7 +350,7 @@ ht-degree: 2%
       </tr>
       <tr>
          <td>modifiedBy (userBase)</td>
-         <td>Modificado por</td>
+         <td>modificado por</td>
          <td>vínculo </td>
          <td> </td>
       </tr>
@@ -362,7 +362,7 @@ ht-degree: 2%
       </tr>
       <tr>
          <td>orgUnit (orgUnitBase)</td>
-         <td>Unidad organizativa</td>
+         <td>Entidades organizativas</td>
          <td>vínculo </td>
          <td> </td>
       </tr>

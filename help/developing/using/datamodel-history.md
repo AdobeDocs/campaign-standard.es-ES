@@ -1,5 +1,5 @@
 ---
-title: Modelo de datos
+title: Historial de marketing del modelo de datos
 description: Obtenga información sobre el modelo de datos
 audience: developing
 content-type: reference
@@ -7,10 +7,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 7f2a3139-57eb-48ff-9b1a-ac2caad2f691
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '1204'
-ht-degree: 6%
+source-wordcount: '1206'
+ht-degree: 7%
 
 ---
 
@@ -232,7 +232,7 @@ ht-degree: 6%
                </tr>
                <tr>
                   <td>modifiedBy (userBase)</td>
-                  <td>Modificado por</td>
+                  <td>modificado por</td>
                   <td>vínculo </td>
                   <td> </td>
                </tr>

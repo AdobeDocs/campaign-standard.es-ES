@@ -1,14 +1,14 @@
 ---
-title: Resolución de problemas
+title: Resolución de problemas de API
 description: Obtenga más información sobre problemas comunes relacionados con las API de Campaign Standard
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '357'
+ht-degree: 1%
 
 ---
 
@@ -74,7 +74,7 @@ En la respuesta, el valor ORGANIZATION_ID debe ser el mismo en la primera solici
 }
 ```
 
-* **Al realizar una solicitud a Adobe.io, obtienes {&quot;code&quot;:500, &quot;message&quot;:&quot;Oops. Algo salió mal. Compruebe su URI e inténtelo de nuevo.&quot;}**
+* **Al realizar una solicitud a Adobe.io, obtienes {&quot;code&quot;:500, &quot;message&quot;:&quot;Oops. Se ha producido un error. Compruebe su URI e inténtelo de nuevo.&quot;}**
 
 Adobe.io declara su URI no válido: lo más probable es que el URI que solicita no sea válido. En Adobe.io, al seleccionar el servicio de Campaign, se obtiene un selector con una lista de posibles valores de Organization_ids. Debe comprobar que el que elija es el que introdujo en su URL.
 

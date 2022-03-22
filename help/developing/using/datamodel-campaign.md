@@ -1,5 +1,5 @@
 ---
-title: Modelo de datos
+title: Campaña del modelo de datos
 description: Obtenga información sobre el modelo de datos
 audience: developing
 content-type: reference
@@ -7,10 +7,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: a63fe730-a6b2-4ae0-93da-9f8ee7824c9f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 13%
+source-wordcount: '217'
+ht-degree: 22%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 13%
                   <td> </td>
                </tr>
                <tr>
-                  <td>actividades</td>
+                  <td>Actividades</td>
                   <td>Actividades</td>
                   <td>colección </td>
                   <td> </td>
@@ -69,7 +69,7 @@ ht-degree: 13%
                </tr>
                <tr>
                   <td>end</td>
-                  <td>Fecha final</td>
+                  <td>Fecha de finalización</td>
                   <td>date </td>
                   <td> </td>
                </tr>
@@ -120,7 +120,7 @@ ht-degree: 13%
                </tr>
                <tr>
                   <td>modifiedBy (userBase)</td>
-                  <td>Modificado por</td>
+                  <td>modificado por</td>
                   <td>vínculo </td>
                   <td> </td>
                </tr>
@@ -132,7 +132,7 @@ ht-degree: 13%
                </tr>
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
-                  <td>Unidad organizativa</td>
+                  <td>Entidades organizativas</td>
                   <td>vínculo </td>
                   <td> </td>
                </tr>

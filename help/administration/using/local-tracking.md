@@ -1,12 +1,12 @@
 ---
-title: Implementación del seguimiento push
+title: Implementación del seguimiento local
 description: Obtenga información sobre cómo garantizar que el seguimiento de notificaciones push se haya implementado correctamente en iOS y Android
 audience: channels
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b983d0a3-c345-44d4-bc82-202bf6ed26ab
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 1%
@@ -27,7 +27,7 @@ El seguimiento de notificaciones locales se puede dividir en tres tipos:
 
 * **Apertura local** : cuando se envía una notificación local al dispositivo y el usuario ha hecho clic en la notificación que provoca que la aplicación se abra. Esto es similar al clic local, excepto que una apertura local no se activará si se descarta la notificación.
 
-Para implementar el seguimiento para Adobe Campaign Standard, la aplicación móvil debe incluir el SDK móvil en la aplicación. Estos SDK están disponibles en [!DNL Adobe Mobile Services].
+Para implementar el seguimiento para Adobe Campaign Standard, la aplicación móvil debe incluir el SDK de Mobile en la aplicación. Estos SDK están disponibles en [!DNL Adobe Mobile Services].
 
 Para enviar la información de seguimiento, hay tres variables que se deben enviar: dos son parte de los datos recibidos de Adobe Campaign y el otro es una variable de acción que dicta si es una impresión, un clic o una apertura.
 

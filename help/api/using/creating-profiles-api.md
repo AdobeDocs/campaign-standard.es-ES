@@ -1,5 +1,5 @@
 ---
-title: Creación de perfiles
+title: Creación de perfiles con API
 description: Obtenga más información sobre cómo crear perfiles con API.
 audience: developing
 content-type: reference
@@ -8,9 +8,9 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 69e8d034-6bdd-4b82-bcd7-1ef4be0a59b3
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '108'
 ht-degree: 0%
 
 ---
