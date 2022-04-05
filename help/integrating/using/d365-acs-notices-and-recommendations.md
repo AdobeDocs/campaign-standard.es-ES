@@ -8,7 +8,7 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
 workflow-type: tm+mt
 source-wordcount: '2507'
 ht-degree: 1%
@@ -33,7 +33,7 @@ La integración no emite ninguna privacidad del interesado (p. ej., el RGPD) eli
 
 Si ha configurado la integración para que emita llamadas de eliminación de perfiles normales en Campaign cuando se elimina un contacto en Dynamics 365, se deben seguir los pasos que se indican a continuación. Asegúrese de que no se realicen actualizaciones en el registro en cuestión durante este proceso.
 
-1. Emitir solicitud de eliminación de privacidad a [Adobe Experience Platform Privacy Service](https://www.adobe.io/apis/experiencecloud/gdpr.html)
+1. Emitir solicitud de eliminación de privacidad a [Adobe Experience Platform Privacy Service](https://developer.adobe.com/experience-platform-apis/references/privacy-service)
 
 1. Supervisar la solicitud hasta que se haya completado correctamente
 
