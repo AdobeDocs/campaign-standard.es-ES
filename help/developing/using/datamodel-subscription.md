@@ -64,7 +64,7 @@ ht-degree: 15%
     </tr>
     <tr>
         <td>mobilePhone</td>
-        <td>Número de Mobile</td>
+        <td>Número de móvil</td>
         <td>string (32)</td>
         <td> </td>
     </tr>

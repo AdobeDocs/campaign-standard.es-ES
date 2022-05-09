@@ -233,7 +233,7 @@ ht-degree: 3%
       </tr>
       <tr>
          <td>end</td>
-         <td>Fecha de caducidad</td>
+         <td>Fecha de vencimiento</td>
          <td>date </td>
          <td> </td>
       </tr>

@@ -10,7 +10,7 @@ exl-id: 508361d1-6a0b-4476-a058-4162fb3e8d5e
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '55'
-ht-degree: 20%
+ht-degree: 43%
 
 ---
 
@@ -23,43 +23,43 @@ ht-degree: 20%
                   <th>Nombre</th>
                   <th>Solo lectura</th>
                   <th>Tipo</th>
-                  <th>Requerido</th>
+                  <th>Obligatorio</th>
                </tr>
                <tr>
                   <td>PKey</td>
-                  <td>False</td>
+                  <td>Falso</td>
                   <td>string</td>
-                  <td>False</td>
+                  <td>Falso</td>
                </tr>
                <tr>
                   <td>ctx</td>
-                  <td>False</td>
+                  <td>Falso</td>
                   <td>item</td>
-                  <td>False</td>
+                  <td>Falso</td>
                </tr>
                <tr>
                   <td>email</td>
-                  <td>False</td>
+                  <td>Falso</td>
                   <td>string</td>
-                  <td>False</td>
+                  <td>Falso</td>
                </tr>
                <tr>
                   <td>emailFormat</td>
-                  <td>False</td>
+                  <td>Falso</td>
                   <td>enumeración</td>
-                  <td>False</td>
+                  <td>Falso</td>
                </tr>
                <tr>
                   <td>mobilePhone</td>
-                  <td>False</td>
+                  <td>Falso</td>
                   <td>string</td>
-                  <td>False</td>
+                  <td>Falso</td>
                </tr>
                <tr>
                   <td>serverUrl</td>
-                  <td>True</td>
+                  <td>Verdadero</td>
                   <td>string</td>
-                  <td>False</td>
+                  <td>Falso</td>
                </tr>
             </table>
 

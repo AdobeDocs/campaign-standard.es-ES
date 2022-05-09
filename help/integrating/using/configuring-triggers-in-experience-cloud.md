@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 7%
+source-wordcount: '853'
+ht-degree: 6%
 
 ---
 
@@ -24,7 +24,7 @@ La funcionalidad debe activarse en Adobe Campaign mediante Adobe. Póngase en co
 El equipo de Adobe necesitará la siguiente información para activar déclencheur:
 
 * Nombre de la empresa del Marketing Cloud
-* ID de la organización IMS
+* ID de organización
 * Empresa de inicio de sesión de Analytics (puede ser el mismo que el nombre de la empresa de Marketing Cloud)
 
 ## Configuración de soluciones y servicios {#configuring-solutions-and-services}
@@ -101,7 +101,7 @@ Consulte la [Documentación de Adobe Experience Cloud](https://experienceleague.
 
 Esta es una lista de prácticas recomendadas y limitaciones para el uso de la integración Campaign - Déclencheur :
 
-* Si tiene varias instancias de Campaign Standard, todas las instancias pueden recibir los déclencheur siempre que estén en el mismo ID de organización de IMS. Analytics también debe estar en el mismo ID de organización de IMS.
+* Si tiene varias instancias de Campaign Standard, todas las instancias pueden recibir los déclencheur siempre que estén en la misma organización. Analytics también debe pertenecer a la misma organización.
 * No puede crear un déclencheur en el servicio principal de Déclencheur utilizando eventos de dos grupos de informes diferentes.
 * Los déclencheur se basan en mensajes transaccionales. Los mensajes transaccionales se utilizan siempre que tenga que enviar un mensaje muy rápido. No puede poner en cola los mensajes transaccionales y luego reproducirlos en lote.
 * Los déclencheur no son de naturaleza determinística. Cuando se genera un déclencheur, envía todos los alias asociados con la cookie, por lo que en el caso de exploradores compartidos como en quioscos minoristas, bibliotecas, cibercafés o dispositivos compartidos en casa (marido y mujer que inician sesión desde el mismo dispositivo), no es posible asignar al ID correcto. Todos los ID utilizados para iniciar sesión con el explorador se envían a Campaign, que envía un mensaje en función de la primera reconciliación. Si hay varios &quot;ID de correo electrónico&quot; aptos para la reconciliación, Campaign no envía un correo electrónico. Campaign no puede saber cuál es el ID de correo electrónico correcto a menos que Analytics lo capture y lo envíe.

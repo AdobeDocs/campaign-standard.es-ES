@@ -315,7 +315,7 @@ _Notificaciones push_
   </tr> 
   <tr> 
    <td> Notificaciones push transaccionales<br /> </td> 
-   <td> El canal de aplicación de Mobile se ha agregado a las funciones de mensajería transaccional de Adobe Campaign. Ahora se admiten tres canales para mensajes transaccionales: correo electrónico, SMS y notificaciones push.<br /> Para obtener más información, consulte la <a href="../../channels/using/transactional-push-notifications.md">documentación detallada</a>.<br /> </td> 
+   <td> El canal de aplicaciones móviles se ha agregado a las funciones de mensajería transaccional de Adobe Campaign. Ahora se admiten tres canales para mensajes transaccionales: correo electrónico, SMS y notificaciones push.<br /> Para obtener más información, consulte la <a href="../../channels/using/transactional-push-notifications.md">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Notificaciones push recurrentes<br /> </td> 
@@ -435,7 +435,7 @@ _Notificaciones push_
   </tr> 
   <tr> 
    <td> Datos de puntos de interés<br /> </td> 
-   <td> Los datos de Puntos de interés integran Adobe Campaign con Adobe Analytics para Mobile. Una marca puede recopilar datos de las ubicaciones móviles de los usuarios, denominadas <strong>Puntos de interés</strong> : cuando los usuarios abren la aplicación de la marca. Esto permite a la marca aprovechar los flujos de trabajo de Adobe Campaign para enviar mensajes personalizados en función de la ubicación de los usuarios. Este canal aprovecha el SDK del servicio principal de Mobile.<br /> Tenga en cuenta que esta función requiere Analytics para Mobile, que es una solución de pago.<br /> Para obtener más información, consulte la <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">documentación detallada</a>.<br /> </td> 
+   <td> Los datos de Puntos de interés integran Adobe Campaign con Adobe Analytics para Mobile. Una marca puede recopilar datos de las ubicaciones móviles de los usuarios, denominadas <strong>Puntos de interés</strong> : cuando los usuarios abren la aplicación de la marca. Esto permite a la marca aprovechar los flujos de trabajo de Adobe Campaign para enviar mensajes personalizados en función de la ubicación de los usuarios. Este canal aprovecha el SDK del servicio principal de Mobile.<br /> Tenga en cuenta que esta función requiere Analytics para dispositivos móviles, que es una solución de pago.<br /> Para obtener más información, consulte la <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> API de REST<br /> </td> 

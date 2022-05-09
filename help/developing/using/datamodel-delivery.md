@@ -10,7 +10,7 @@ exl-id: aea3e72d-8e89-46c7-a796-bf856414c654
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '688'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -246,7 +246,7 @@ ht-degree: 14%
                         <li>Teléfono - teléfono - 2</li>
                         <li>Los demás - otros - 120</li>
                         <li>SMS recurrente - smsRefresh - 31</li>
-                        <li>Aplicación Mobile - pushNotification - 40</li>
+                        <li>Aplicación móvil - pushNotification - 40</li>
                         <li>SMS transaccional - smsLightning - 61</li>
                         <li>Correo electrónico - correo electrónico - 0</li>
                         <li>VALOR NO VÁLIDO - __Invalid_value__ - __Invalid_value__</li>
@@ -359,11 +359,11 @@ ht-degree: 14%
                   <td>
                      <ul>
                         <li>Fax - 4</li>
-                        <li>Mobile (SMS) - sms - 1</li>
+                        <li>Móvil (SMS) - sms - 1</li>
                         <li>Correo electrónico - correo electrónico - 0</li>
                         <li>Teléfono - teléfono - 2</li>
                         <li>Correo postal: papel - 3</li>
-                        <li>Aplicación Mobile - pushNotification - 40</li>
+                        <li>Aplicación móvil - pushNotification - 40</li>
                         <li>Los demás - otros - 120</li>
                         <li>VALOR NO VÁLIDO - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
@@ -490,15 +490,15 @@ ht-degree: 14%
                         <li>Fallido - error - 87</li>
                         <li>En curso - Comenzado - 55</li>
                         <li>Segmentación pendiente - targetPrepPending - 11</li>
-                        <li>Personalization pendiente - messagePrepPending - 21</li>
+                        <li>Personalización pendiente - messagePrepPending - 21</li>
                         <li>En pausa - en pausa - 75</li>
                         <li>Edición - edición - 0</li>
                         <li>Finalizado - terminado - 95</li>
                         <li>Recuento en curso - targetSelection - 12</li>
                         <li>Mensaje finalizado - messageReady - 25</li>
-                        <li>Personalization o recuento fallido - error de preparación - 37</li>
+                        <li>Error de personalización o recuento - error de preparación - 37</li>
                         <li>Detenido - cancelado - 85</li>
-                        <li>Personalization en curso - messagePreparation - 22</li>
+                        <li>Personalización en curso - messagePreparation - 22</li>
                         <li>Target ready - targetReady - 15</li>
                         <li>VALOR NO VÁLIDO - __Invalid_value__ - __Invalid_value__</li>
                         <li>Arbitraje en curso - targetArbitration - 13</li>

@@ -8,9 +8,9 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 66628f2a-6ed3-4b12-b2ed-9b9eec440dc3
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '460'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Siga los pasos descritos en [Creación de un déclencheur asignado en Campaign](
 Si se crea el déclencheur, continúe con el siguiente paso. Si no es así, significa que la conexión del punto final del déclencheur ha fallado. Compruebe si Déclencheur está aprovisionado en Experience Cloud (servicios de activación). Si no es así, póngase en contacto con el ejecutivo de su cuenta de Adobe o con el socio de servicios profesionales. Se requiere la siguiente información:
 
 * Nombre de la empresa del Marketing Cloud
-* ID de la organización IMS
+* ID de organización
 * Empresa de inicio de sesión de Analytics (puede ser el mismo que el nombre de la empresa de Marketing Cloud)
 
 **Intente publicar el déclencheur**

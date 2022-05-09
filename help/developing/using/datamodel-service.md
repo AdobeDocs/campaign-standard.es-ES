@@ -121,7 +121,7 @@ ht-degree: 21%
                   <td>enumeration (byte) </td>
                   <td>
                      <ul>
-                        <li>Mobile (SMS) - sms - 1</li>
+                        <li>Móvil (SMS) - sms - 1</li>
                         <li>Correo electrónico - correo electrónico - 0</li>
                         <li>VALOR NO VÁLIDO - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
