@@ -9,10 +9,10 @@ feature: Control Groups
 role: User
 level: Intermediate
 exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: d903c6b5e9eefd65f7494fc17fd754a97e44e49e
 workflow-type: tm+mt
-source-wordcount: '1512'
-ht-degree: 5%
+source-wordcount: '1532'
+ht-degree: 4%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 5%
 
 Además, [perfiles de prueba](../../audiences/using/managing-test-profiles.md), puede probar un mensaje de correo electrónico colocándose en la posición de uno de los perfiles objetivo. Esto le permite obtener una representación exacta del mensaje que recibirá el perfil (campos personalizados, información dinámica y personalizada, incluidos datos adicionales de flujos de trabajo...).
 
->[!NOTE]
+>[!IMPORTANT]
 >
-> Esta función solo está disponible con mensajes de correo electrónico.
+>Esta función le permite enviar información personal de perfil a direcciones de correo electrónico externas. Tenga en cuenta que la ejecución de solicitudes de privacidad (RGPD y CCPA) en Campaign Standard NO ejecutará esa solicitud de manera externa.
 
 Los pasos principales son los siguientes:
 
@@ -35,9 +35,9 @@ Los pasos principales son los siguientes:
 1. **Vista previa** en el Diseñador de correo electrónico, cómo se mostrará el mensaje para los perfiles.
 1. Envíe las pruebas.
 
->[!IMPORTANT]
->
->Esta función le permite enviar información personal de perfil a direcciones de correo electrónico externas. Tenga en cuenta que la ejecución de solicitudes de privacidad (RGPD y CCPA) en Campaign Standard NO ejecutará esa solicitud de manera externa.
+   >[!IMPORTANT]
+   >
+   >Las pruebas las procesa [!DNL Campaign Standard] como envíos estándar. Como resultado, el envío de pruebas mediante la sustitución de perfiles agregará registros a los registros de envío y seguimiento de los perfiles seleccionados.
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
 
@@ -177,7 +177,7 @@ Los pasos principales para este caso de uso son los siguientes:
 1. Cree un flujo de trabajo para perfiles de destinatario y envíe la newsletter.
 1. Configure las sustituciones de perfil del mensaje.
 1. Previsualice el mensaje con perfiles de destino.
-1. Envíe pruebas.
+1. Envío de pruebas.
 
 ### Paso 1: Crear la audiencia que quiere usar para las pruebas
 
