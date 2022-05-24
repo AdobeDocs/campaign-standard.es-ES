@@ -7,9 +7,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 9a57517f308c5394012a92622d62d5e900fb3955
+source-git-commit: 104855851906b96f79a89179108548b3dde17b4f
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '220'
 ht-degree: 24%
 
 ---
@@ -26,7 +26,7 @@ Esta página describe las nuevas funciones, mejoras y correcciones incluidas en 
 
 **Mejoras**
 
-* **Servicio de notificación de Adobe** : Campaign viene con el servicio de notificación de Adobe que permite a las soluciones de Experience Cloud alertar a los usuarios entre Experience Cloud sobre las actividades que son importantes para ellos conocer. A partir de la versión 2.2, la experiencia del usuario se ha mejorado: las notificaciones se priorizan y las notificaciones generadas por el producto se separan de los anuncios de estado del Adobe. Además, cuando la notificación hace referencia a un flujo de trabajo específico, ahora puede acceder al flujo de trabajo correspondiente directamente desde el correo electrónico o la notificación interna del producto.  Para obtener más información sobre las notificaciones de Adobe Campaign, consulte [Notificaciones de Adobe Campaign](../../administration/using/sending-internal-notifications.md).
+* **Servicio de notificación de Adobe** - Campaign viene con el servicio de notificación de Adobe que permite a las soluciones de Experience Cloud alertar a los usuarios entre Experience Cloud sobre las actividades que son importantes para ellos conocer. A partir de la versión 2.2, la experiencia del usuario se ha mejorado: las notificaciones se priorizan y las notificaciones generadas por el producto se separan de los anuncios de estado del Adobe. Además, cuando la notificación hace referencia a un flujo de trabajo específico, ahora puede acceder al flujo de trabajo correspondiente directamente desde el correo electrónico o la notificación interna del producto.  Para obtener más información sobre las notificaciones de Adobe Campaign, consulte [Notificaciones de Adobe Campaign](../../administration/using/sending-internal-notifications.md).
 
 * **Inicio retrasado del flujo de trabajo** : Ahora puede retrasar la ejecución de los flujos de trabajo para evitar la sobrecarga. Habilitado por Adobe mediante una opción dedicada, esta protección garantiza que haya un retraso en el inicio entre flujos de trabajo. Las opciones de la función establecen el número de flujos de trabajo que se pueden ejecutar simultáneamente y el retraso (en segundos) entre ellos.
 
