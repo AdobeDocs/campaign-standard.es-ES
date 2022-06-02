@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
+source-git-commit: 5a7e48da3d62b186f96cd7451fb5a7b2cf94e09c
 workflow-type: tm+mt
 source-wordcount: '853'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -24,7 +24,7 @@ La funcionalidad debe activarse en Adobe Campaign mediante Adobe. Póngase en co
 El equipo de Adobe necesitará la siguiente información para activar déclencheur:
 
 * Nombre de la empresa del Marketing Cloud
-* ID de organización
+* ID de la organización
 * Empresa de inicio de sesión de Analytics (puede ser el mismo que el nombre de la empresa de Marketing Cloud)
 
 ## Configuración de soluciones y servicios {#configuring-solutions-and-services}
@@ -87,7 +87,7 @@ El alias al que se hace referencia anteriormente en la DTM debe crearse en el se
 
    >[!NOTE]
    >
-   >Puede reconciliar sus déclencheur tanto para usuarios anónimos como para usuarios que iniciaron sesión. Para los usuarios anónimos, el perfil debe existir en Adobe Campaign y antes se ha enviado un correo electrónico al usuario. Para ello, la configuración del ID de visitante es suficiente. Sin embargo, si desea reconciliar déclencheur para usuarios que iniciaron sesión, debe configurar la fuente de datos de ID declarados. Para obtener más información, consulte [Configuración de la fuente de datos](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
+   >Puede reconciliar sus déclencheur tanto para usuarios anónimos como para usuarios que iniciaron sesión. Para los usuarios anónimos, el perfil debe existir en Adobe Campaign y antes se ha enviado un correo electrónico al usuario. Para ello, la configuración del ID de visitante es suficiente. Sin embargo, si desea reconciliar déclencheur para usuarios que iniciaron sesión, debe configurar la fuente de datos de ID declarados. Para obtener más información, consulte [Configuración de la fuente de datos](../../integrating/using/integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
 
 ## Creación de un déclencheur en la interfaz del Experience Cloud {#creating-a-trigger-in-the-experience-cloud-interface}
 
