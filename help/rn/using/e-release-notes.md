@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: e2de69844275a9a97f609c7c76cce290c68d09ac
+source-git-commit: 75bc042701ac29d2e525884dc929063147c1cdce
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '383'
+ht-degree: 37%
 
 ---
 
@@ -28,8 +28,19 @@ Esta página describe las nuevas funciones, mejoras y correcciones incluidas en 
 
 * **Servicio de notificación de Adobe**: Campaign viene con el servicio de notificación de Adobe que permite a las soluciones de Experience Cloud alertar a los usuarios entre Experience Cloud sobre las actividades que son importantes que conozcan. A partir de la versión 22.2, la experiencia del usuario se ha mejorado: las notificaciones se priorizan y las notificaciones generadas por el producto se separan de los anuncios de estado del Adobe. Además, cuando la notificación hace referencia a un flujo de trabajo específico, ahora puede acceder al flujo de trabajo correspondiente directamente desde el correo electrónico o la notificación interna del producto.  Para obtener más información sobre las notificaciones de Adobe Campaign, consulte [Notificaciones de Adobe Campaign](../../administration/using/sending-internal-notifications.md).
 
+* **Optimización en el inicio del flujo de trabajo** : Adobe ha añadido una nueva funcionalidad que puede ajustar el número de flujos de trabajo que se inician aproximadamente al mismo tiempo. Esto ayudaría a evitar picos de CPU que podrían haber llevado a interrupciones del servicio o downtime. Adobe lo habilitaría después de la versión 2.2. No hay ningún elemento de acción adicional en el cliente con respecto al mismo.
 
 **Actualización de seguridad**
 
-* Esta versión viene con una actividad de actualización de seguridad para mitigar la vulnerabilidad de Apache y hacer que su entorno de instancia sea más seguro. [Más información](https://experienceleague.adobe.com/docs/campaign-classic/using/technotes/technote-migration/acc-apache-upgrade.html?lang=es){target=&quot;_blank&quot;}.
+* Apache Tomcat se ha actualizado de la versión 7 a la versión 8.5.
 
+**Parches**
+
+* Se ha corregido un problema en el flujo de trabajo técnico Facturación debido a un error de clave duplicada. (CAMP-51029)
+* Se ha añadido la categoría del explorador Microsoft Edge que falta en Seguimiento de informes. Anteriormente se clasificaban con las aperturas de Microsoft Chrome. (CAMP-51165)
+* Se ha corregido un problema con las solicitudes de RGPD que no eliminaban datos de tablas secundarias. (CAMP-48276)
+* Se ha corregido un problema en el Diseñador de correo electrónico que provocaba que la condición de visibilidad de un fragmento no se guardara en una plantilla de mensaje transaccional. (CAMP-50338)
+* Se ha corregido un problema en los informes de campaña que provocaba que no se tuviera en cuenta el intervalo de fechas. (CAMP-50991)
+* Se ha corregido un error que provocaba que fallaran los correos electrónicos programados: el análisis de entrega no se pudo iniciar porque la entrega seguía en estado &quot;Reintento pendiente&quot;. (CAMP-50302)
+* Se ha corregido un problema en el Diseñador de correo electrónico al previsualizar un correo electrónico con una sustitución de perfiles. (CAMP-49312)
+* Se ha corregido un problema con un valor vacío en las enumeraciones personalizadas: al crear un recurso personalizado con un campo que es una enumeración de texto y contiene solo un valor, este valor se establece ahora de forma predeterminada, de modo que puede crear una consulta en este campo como una solicitud simple. (CAMP-50606)
