@@ -8,9 +8,9 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: 37e9acff-9576-472f-9fdf-2c0f6da773d1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '717'
 ht-degree: 3%
 
 ---
@@ -115,14 +115,14 @@ La variable **[!UICONTROL Share]** le permite enviar sus informes con los usuari
 
       ![](assets/tab_share_4.png)
 
-   1. Para seleccionar los destinatarios del correo electrónico, haga clic en el campo y selecciónelos en la lista desplegable o escriba sus direcciones de correo electrónico.
+   1. Seleccione los destinatarios en la lista desplegable . Tenga en cuenta que no puede seleccionar usuarios fuera de la organización.
    1. Marque **[!UICONTROL Show scheduling options]** si desea enviar correos electrónicos recurrentes. Esto también se puede hacer seleccionando **[!UICONTROL Send Report on schedule]** en el **[!UICONTROL Share]** pestaña .
    1. Haga clic en **[!UICONTROL Send now]**. A continuación, los destinatarios recibirán un correo electrónico con el informe adjunto.
 
 * **[!UICONTROL Send report on schedule]**: Programe el informe y envíe correos electrónicos recurrentes a sus destinatarios.
 
    1. En el **[!UICONTROL Send report]** , añada una descripción si es necesario.
-   1. Para seleccionar los destinatarios del correo electrónico, haga clic en el campo y selecciónelos en la lista desplegable o escriba sus direcciones de correo electrónico.
+   1. Seleccione los destinatarios en la lista desplegable . Tenga en cuenta que no puede seleccionar usuarios fuera de la organización.
 
       ![](assets/tab_share_5.png)
 

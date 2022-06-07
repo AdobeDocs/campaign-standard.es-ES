@@ -6,7 +6,7 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 3cd8d756-a271-4e53-8ed0-984ce20298bc
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # Casos de uso móvil admitidos en Adobe Campaign Standard {#mobile-use-cases}
 
-En esta página, encontrará la lista de todos los casos de uso móvil admitidos en [!DNL Adobe Campaign Standard] usando la variable [!DNL Adobe Experience Platform SDKs]. Tenga en cuenta que la compatibilidad con estos casos de uso implica la instalación y configuración de la variable [!DNL Adobe Experience Platform SDKs], [!DNL Adobe Experience Platform Launch]y [!DNL Adobe Campaign Standard]. Para obtener más información, consulte esta [página](../../administration/using/configuring-a-mobile-application.md).
+En esta página, encontrará la lista de todos los casos de uso móvil admitidos en [!DNL Adobe Campaign Standard] usando la variable [!DNL Adobe Experience Platform SDKs]. Tenga en cuenta que la compatibilidad con estos casos de uso implica la instalación y configuración de la variable [!DNL Adobe Experience Platform SDKs], [!DNL tags in Adobe Experience Platform]y [!DNL Adobe Campaign Standard]. Para obtener más información, consulte esta [página](../../administration/using/configuring-a-mobile-application.md).
 
 Adobe Campaign Standard admite los siguientes casos de uso:
 
@@ -27,9 +27,9 @@ Adobe Campaign Standard admite los siguientes casos de uso:
 * [Implemente un evento personalizado en su aplicación móvil para almacenar en déclencheur los mensajes en la aplicación](../../administration/using/supported-mobile-use-cases.md#custom-event-inapp)
 * [Establecer campos de vinculación para una autenticación adicional para la plantilla de perfil basada en mensajes en la aplicación](../../administration/using/supported-mobile-use-cases.md#linkage-fields-inapp)
 
-Para configurar estos casos de uso, necesita las siguientes extensiones de [!DNL Experience Platform Launch]:
+Para configurar estos casos de uso, necesita las siguientes extensiones:
 
-* **[!DNL Adobe Campaign Standard]** <br>Para instalar y configurar la extensión del Campaign Standard, consulte [Configurar la extensión del Campaign Standard en Experience Platform Launch](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#configure-the-campaign-standard-extension-in-experience-platform-launch).
+* **[!DNL Adobe Campaign Standard]** <br>Para instalar y configurar la extensión del Campaign Standard, consulte [Configurar la extensión del Campaign Standard en la interfaz de usuario de la recopilación de datos](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#configure-the-campaign-standard-extension-in-experience-platform-launch).
 * **[!DNL Mobile Core]**, que se instala automáticamente. <br>Para obtener más información sobre la extensión principal de Mobile, consulte [Núcleo móvil](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core).
 * **[!DNL Profile]**, que se instala automáticamente. <br>Para obtener más información sobre la extensión de perfil, consulte [Perfil](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/profile).
 

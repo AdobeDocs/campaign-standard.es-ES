@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Centro de ayuda para las principales características, tareas, configuraciones y otros recursos necesarios para utilizar Campaign Standard. '
 title: Guía de Campaign Standard
 breadcrumb-title: Documentación de Adobe Campaign Standard
-source-git-commit: 5a7e48da3d62b186f96cd7451fb5a7b2cf94e09c
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+workflow-type: tm+mt
+source-wordcount: '1810'
+ht-degree: 99%
 
 ---
 
@@ -452,9 +452,9 @@ ht-degree: 100%
       + [Adición de imágenes y vídeos en iOS](administration/using/image-push-notification.md)
       + [Explicación de la estructura de carga de las notificaciones push](administration/using/push-payload.md)
       + [Implementación del seguimiento de notificaciones locales](administration/using/local-tracking.md)
-      + [Preguntas frecuentes sobre la sincronización de Adobe Launch](administration/using/syncwithlaunch-faq.md)
+      + [Preguntas frecuentes sobre la sincronización de etiquetas en Adobe Experience Platform](administration/using/syncwithlaunch-faq.md)
       + [Preguntas más frecuentes sobre la integración del SDK de Experience Platform](administration/using/aep-faq.md)
-      + [Configuración de reglas de Launch para admitir casos de uso de Adobe Campaign Standard](administration/using/configuring-rules-launch.md)
+      + [Configuración de reglas de etiquetas para admitir casos de uso de Adobe Campaign Standard](administration/using/configuring-rules-launch.md)
       + [Casos de uso móvil admitidos en Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
       + [Migración de la aplicación móvil del SDK v4 al SDK de Adobe Experience Platform](administration/using/sdkv4-migration.md)
    + Configuración del canal SMS {#configuring-sms}

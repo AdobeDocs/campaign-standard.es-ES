@@ -9,10 +9,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 49%
+source-wordcount: '1238'
+ht-degree: 41%
 
 ---
 
@@ -62,17 +62,17 @@ Antes de enviar las notificaciones push, debe hacer lo siguiente:
 
 1. En Adobe Campaign, asegúrese de que puede acceder al canal **[!UICONTROL Push notification]**. Si no puede acceder a estos canales, póngase en contacto con el equipo de su cuenta.
 
-1. Compruebe que el usuario tiene los permisos necesarios en Adobe Campaign Standard y Experience Platform Launch.
+1. Compruebe que el usuario tiene los permisos necesarios en Adobe Campaign Standard y en las etiquetas de Adobe Experience Platform.
 
-1. En Experience Platform Launch, cree una propiedad móvil. Para obtener más información, consulte [Configuración de una propiedad móvil](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property).
+1. En la interfaz de usuario de la recopilación de datos , cree una propiedad móvil. Para obtener más información, consulte [Configuración de una propiedad móvil](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property).
 
-1. En Experience Platform Launch, instale la extensión **[!UICONTROL Adobe Campaign Standard]**.
+1. En la interfaz de usuario de la recopilación de datos , instale la **[!UICONTROL Adobe Campaign Standard]** extensión.
 
-1. En Adobe Campaign Standard, configure la propiedad móvil que ha creado en Experience Platform Launch. Para obtener más información, consulte [Configuración de la aplicación Experience Platform Launch en Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
+1. En Adobe Campaign Standard, configure la propiedad móvil que ha creado en la interfaz de usuario de la recopilación de datos. Para obtener más información, consulte [Configuración de la aplicación de etiquetas en Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
 1. Añada la configuración específica del canal a la configuración de la aplicación móvil. Para obtener más información, consulte [Configuración de aplicaciones específicas del canal en Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
-1. Para admitir implementaciones de casos de uso móvil, consulte las instrucciones detalladas sobre extensiones, reglas de Experience Platform Launch e implementación de SDK en [Casos de uso móvil admitidos en Adobe Campaign Standard mediante el uso de SDK de Adobe Experience Platform](../../administration/using/configuring-rules-launch.md).
+1. Para admitir implementaciones de casos de uso móvil, consulte las instrucciones detalladas sobre extensiones, reglas de etiquetas e implementación de SDK en [Casos de uso móvil admitidos en Adobe Campaign Standard mediante los SDK para Adobe Experience Platform](../../administration/using/configuring-rules-launch.md).
 
 ## Preguntas frecuentes sobre notificaciones push {#push-faq}
 

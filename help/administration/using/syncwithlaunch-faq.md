@@ -6,20 +6,20 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: aaaceb3a-5e54-47da-9be4-b70747282830
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 2%
+source-wordcount: '497'
+ht-degree: 1%
 
 ---
 
-# Preguntas frecuentes sobre la sincronización de Adobe Launch {#syncwithlaunch-faq}
+# Preguntas frecuentes sobre la sincronización de etiquetas en Adobe Experience Platform {#syncwithlaunch-faq}
 
-Puede importar Adobe en propiedades móviles de Launch a Adobe Campaign Standard a través del **[!UICONTROL Sync with Launch]** flujo de trabajo técnico dedicado. Para obtener más información, consulte esta [página](../../administration/using/technical-workflows.md)
+Puede importar propiedades móviles de etiquetas en Adobe Campaign Standard a través de la variable **[!UICONTROL Sync with Launch]** flujo de trabajo técnico dedicado. Para obtener más información, consulte esta [página](../../administration/using/technical-workflows.md)
 
 La sección siguiente enumera preguntas comunes sobre esta sincronización.
 
-## He creado una propiedad en [!DNL Launch] (no administrador de la unidad de organización ALL). Mi aplicación está en estado Preparado para configurar en Adobe Campaign, pero no puedo abrirla ni configurarla. {#configuring-property}
+## Creé una propiedad de etiqueta (no administrador de la unidad de organización ALL). Mi aplicación está en estado Preparado para configurar en Adobe Campaign, pero no puedo abrirla ni configurarla. {#configuring-property}
 
 Solo el administrador de la unidad organizativa ALL puede configurar las aplicaciones móviles en Adobe Campaign Standard. Una vez configurada, solo los usuarios de la unidad organizativa asignada pueden editar la aplicación. Para obtener más información sobre la unidad organizativa, consulte esta [página](../../administration/using/organizational-units.md).
 
@@ -31,21 +31,21 @@ Para obtener más información sobre la unidad organizativa, consulte esta [pág
 
 ## Soy administrador de la unidad organizativa ALL en Adobe Campaign Standard, pero no puedo configurar la aplicación móvil. {#org-unit-mobile}
 
-Un administrador con una unidad organizativa configurada en ALL debe tener derechos de todas las propiedades móviles en [!DNL Launch] para configurar la aplicación móvil.
+Un administrador con la unidad organizativa configurada en ALL debe tener derechos de todas las propiedades móviles de etiquetas para configurar la aplicación móvil.
 
 Para obtener más información sobre la unidad organizativa, consulte esta [página](../../administration/using/organizational-units.md).
 
-## He creado una propiedad móvil en [!DNL Launch] pero mi propiedad no está visible en Adobe Campaign Standard. {#visibility-mobile-property}
+## He creado una propiedad de etiqueta móvil, pero mi propiedad no está visible en Adobe Campaign Standard. {#visibility-mobile-property}
 
-1. Compruebe que la extensión de Adobe Campaign Standard esté instalada en la propiedad móvil en [!DNL Launch].
+1. Compruebe que la extensión de Adobe Campaign Standard esté instalada en la propiedad móvil en la interfaz de usuario de la recopilación de datos.
 
 1. Compruebe que los extremos de la instancia estén correctamente configurados en la extensión de .
 
 1. Compruebe que &quot;Launch_URL_Campaign&quot; o &quot;NmsServer_URL&quot; sean correctos.
 
-1. A continuación, compruebe que la sincronización entre [!DNL Launch] y Adobe Campaign se completa con la variable **[!UICONTROL syncWithLaunch]** flujo de trabajo técnico .
+1. A continuación, compruebe que la sincronización se haya completado con la variable **[!UICONTROL syncWithLaunch]** flujo de trabajo técnico .
 
-## ¿Cómo se comprueba si se ha completado la sincronización entre Adobe Campaign y Launch? {#sync-campaign-launch}
+## ¿Cómo se comprueba si se ha completado la sincronización entre Adobe Campaign y las etiquetas en Adobe Experience Platform? {#sync-campaign-launch}
 
 1. En Adobe Campaign Standard, en el menú avanzado, seleccione **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]**.
 
@@ -55,15 +55,15 @@ Para obtener más información sobre la unidad organizativa, consulte esta [pág
 
 1. Compruebe en los registros que la sincronización del flujo de trabajo está habilitada y completada correctamente.
 
-## Restablece la clave para una aplicación móvil configurada en Launch. ¿Cómo volver a configurar la clave en Launch? {#configuring-pkey}
+## Restablece la clave para una aplicación móvil de etiquetas configurada. ¿Cómo volver a configurar la clave en la interfaz de usuario de recopilación de datos? {#configuring-pkey}
 
-1. Abra la propiedad móvil en Adobe Launch.
+1. Abra la propiedad móvil en la interfaz de usuario de la recopilación de datos.
 
 1. Establezca una nueva URL en la extensión de Adobe Campaign Standard para la que se restableció el PKey.
 
-1. Guárdelo y deje que el flujo de trabajo se sincronice entre Adobe Campaign y [!DNL Launch].
+1. Guárdelo y deje que el flujo de trabajo se sincronice.
 
-1. Una vez finalizada la sincronización, abra la propiedad móvil en [!DNL Launch].
+1. Una vez finalizada la sincronización, abra la propiedad móvil en en la interfaz de usuario de la recopilación de datos.
 
 1. Establezca la dirección URL correcta en la extensión de Adobe Campaign Standard para la que se restableció PKey.
 
@@ -71,7 +71,7 @@ Para obtener más información sobre la unidad organizativa, consulte esta [pág
 
 1. Solo entonces la propiedad aparecerá en **[!UICONTROL Ready to Configure]** en Adobe Campaign y ahora se puede configurar.
 
-## Quiero configurar una propiedad móvil en Adobe Campaign. ¿Tendré que esperar para que el flujo de trabajo técnico se sincronice entre Adobe Launch y Adobe Campaign?
+## Quiero configurar una propiedad móvil en Adobe Campaign. ¿Tendré que esperar para que el flujo de trabajo técnico se sincronice entre Etiquetas en Adobe Experience Platform y Adobe Campaign?
 
 Puede realizar la ejecución inmediata del flujo de trabajo:
 

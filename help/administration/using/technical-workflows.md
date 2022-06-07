@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 93%
+source-wordcount: '700'
+ht-degree: 89%
 
 ---
 
@@ -92,12 +92,12 @@ Los flujos de trabajo técnicos se utilizan para gestionar procesos técnicos y 
    <tr> 
    <td> <span class="uicontrol">Sincronización con Launch</span> <br /> </td> 
    <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
-   <td> Este flujo de trabajo sincroniza las propiedades móviles de Adobe Launch importadas en Adobe Campaign Standard. Se inicia cada 15 minutos.<br /> </td> 
+   <td> Este flujo de trabajo sincroniza la etiqueta de propiedades móviles importada en Adobe Campaign Standard. Se inicia cada 15 minutos.<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">Recuperación de registros de seguimiento</span> <br /> </td> 
    <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
-   <td> Este flujo de trabajo sincroniza las propiedades móviles de Adobe Launch importadas en Adobe Campaign Standard. Se inicia cada 15 minutos.<br /> </td> 
+   <td> Este flujo de trabajo sincroniza la etiqueta de propiedades móviles importada en Adobe Campaign Standard. Se inicia cada 15 minutos.<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">Recuperar registros de seguimiento</span> <br /> </td> 

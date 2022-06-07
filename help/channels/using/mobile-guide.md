@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d4e1b935-b21f-4a24-99ba-f455db0f7cfc
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '786'
 ht-degree: 24%
 
 ---
@@ -96,9 +96,9 @@ Con Adobe Campaign Standard, puede enviar envíos móviles a través de tres can
 <tr>
   <td>
     <div>
-    <p><strong>Configuración de reglas de Adobe Experience Platform Launch para admitir casos de uso de Adobe Campaign Standard</strong></p>
+    <p><strong>Configuración de reglas de etiquetas para admitir casos de uso de Adobe Campaign Standard</strong></p>
     </div>
-    <p><a href="../../administration/using/configuring-rules-launch.md"><strong>Haga clic aquí</strong></a> para empezar a crear elementos de datos y reglas en Adobe Experience Platform Launch para enviar datos PII y otros datos de aplicaciones móviles a Adobe Campaign Standard.</p>
+    <p><a href="../../administration/using/configuring-rules-launch.md"><strong>Haga clic aquí</strong></a> para empezar a crear elementos de datos y reglas en la interfaz de usuario de recopilación de datos para enviar datos PII y otros datos de aplicaciones móviles a Adobe Campaign Standard.</p>
     <br>
   </td>
   <td>
