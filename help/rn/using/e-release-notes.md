@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 75bc042701ac29d2e525884dc929063147c1cdce
+source-git-commit: b00a0b9e4536d388ccfef3cca0315cabd0d99670
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 37%
+source-wordcount: '468'
+ht-degree: 30%
 
 ---
 
@@ -24,11 +24,18 @@ Esta página describe las nuevas funciones, mejoras y correcciones incluidas en 
 
 ## Versión 22.2 de junio de 2022 {#rn-2022}
 
-**Mejora**
+**Mejoras**
 
 * **Servicio de notificación de Adobe**: Campaign viene con el servicio de notificación de Adobe que permite a las soluciones de Experience Cloud alertar a los usuarios entre Experience Cloud sobre las actividades que son importantes que conozcan. A partir de la versión 22.2, la experiencia del usuario se ha mejorado: las notificaciones se priorizan y las notificaciones generadas por el producto se separan de los anuncios de estado del Adobe. Además, cuando la notificación hace referencia a un flujo de trabajo específico, ahora puede acceder al flujo de trabajo correspondiente directamente desde el correo electrónico o la notificación interna del producto.  Para obtener más información sobre las notificaciones de Adobe Campaign, consulte [Notificaciones de Adobe Campaign](../../administration/using/sending-internal-notifications.md).
 
 * **Optimización en el inicio del flujo de trabajo** : Adobe ha añadido una nueva funcionalidad que puede ajustar el número de flujos de trabajo que se inician aproximadamente al mismo tiempo. Esto ayudaría a evitar picos de CPU que podrían haber llevado a interrupciones del servicio o downtime. Adobe lo habilitaría después de la versión 2.2. No hay ningún elemento de acción adicional en el cliente con respecto al mismo.
+
+* **Accesibilidad** : Adobe ha realizado muchas correcciones de accesibilidad para mejorar la facilidad de uso general de la aplicación. Actualmente, estas funciones solo están habilitadas para un conjunto de usuarios que las adoptaron por primera vez, y se implementarán para todos los clientes en la versión ACS 2.3. Algunos ejemplos de mejoras de accesibilidad son:
+
+   * Garantizar que haya un indicador de enfoque visible para los elementos enfocables en cada pantalla
+   * Creación de puntos de referencia de página para facilitar la navegación
+   * Adición del nombre, la función, el valor y el estado para muchos controles
+   * Corrección de problemas con el orden de enfoque dinámico en las pantallas principales
 
 **Actualización de seguridad**
 
