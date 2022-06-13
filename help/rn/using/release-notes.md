@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1182'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 72%
 
 * **Servicio de notificación de Adobe**: Campaign viene con el servicio de notificación de Adobe que permite a las soluciones de Experience Cloud alertar a los usuarios entre Experience Cloud sobre las actividades que son importantes que conozcan. A partir de la versión 22.2, la experiencia del usuario se ha mejorado: las notificaciones se priorizan y las notificaciones generadas por el producto se separan de los anuncios de estado del Adobe. Además, cuando la notificación hace referencia a un flujo de trabajo específico, ahora puede acceder al flujo de trabajo correspondiente directamente desde el correo electrónico o la notificación interna del producto.  Para obtener más información sobre las notificaciones de Adobe Campaign, consulte [Notificaciones de Adobe Campaign](../../administration/using/sending-internal-notifications.md).
 
-* **Optimización en el inicio del flujo de trabajo** : Adobe ha añadido una nueva funcionalidad que puede ajustar el número de flujos de trabajo que se inician aproximadamente al mismo tiempo. Esto ayudaría a evitar picos de CPU que podrían haber llevado a interrupciones del servicio o downtime. Adobe lo habilitaría después de la versión 2.2. No hay ningún elemento de acción adicional en el cliente con respecto al mismo.
+* **Optimización en el inicio del flujo de trabajo**: Adobe ha añadido una nueva funcionalidad que puede ajustar el número de flujos de trabajo que se inician aproximadamente al mismo tiempo. Esto ayudaría a evitar picos de CPU que podrían haber llevado a interrupciones del servicio o downtime. Adobe lo habilitaría después de la versión 22.2. No hay ningún elemento de acción adicional en el cliente con respecto al mismo.
 
-* **Accesibilidad** : Adobe ha realizado muchas correcciones de accesibilidad para mejorar la facilidad de uso general de la aplicación. Actualmente, estas funciones solo están habilitadas para un conjunto de usuarios que las adoptaron por primera vez, y se implementarán para todos los clientes en la versión ACS 2.3. Algunos ejemplos de mejoras de accesibilidad son:
+* **Accesibilidad**: Adobe ha realizado muchas correcciones de accesibilidad para mejorar la facilidad de uso general de la aplicación. Actualmente, estas funciones solo están habilitadas para un conjunto de usuarios que las adoptaron por primera vez, y se implementarán para todos los clientes en la versión ACS 2.3. Algunos ejemplos de mejoras de accesibilidad son los siguientes:
 
    * Garantizar que haya un indicador de enfoque visible para los elementos enfocables en cada pantalla
    * Creación de puntos de referencia de página para facilitar la navegación
@@ -40,7 +40,7 @@ ht-degree: 72%
 **Parches**
 
 * Se ha corregido un problema en el flujo de trabajo técnico Facturación debido a un error de clave duplicada. (CAMP-51029)
-* Se ha añadido la categoría del explorador Microsoft Edge que falta en Seguimiento de informes. Anteriormente se clasificaban con las aperturas de Microsoft Chrome. (CAMP-51165)
+* Se ha añadido la categoría del explorador Microsoft Edge que falta en Seguimiento de informes. Anteriormente, se clasificaban con las aperturas de Microsoft Chrome. (CAMP-51165)
 * Se ha corregido un problema con las solicitudes de RGPD que no eliminaban datos de tablas secundarias. (CAMP-48276)
 * Se ha corregido un problema en el Diseñador de correo electrónico que provocaba que la condición de visibilidad de un fragmento no se guardara en una plantilla de mensaje transaccional. (CAMP-50338)
 * Se ha corregido un problema en los informes de campaña que provocaba que no se tuviera en cuenta el intervalo de fechas. (CAMP-50991)
