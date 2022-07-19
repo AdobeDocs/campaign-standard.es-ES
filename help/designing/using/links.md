@@ -8,7 +8,7 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: d1714101-bad0-40c1-8d60-90469d033197
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 146dfea38bd456a5d9200b0632d4aa279b10a7b9
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 10%
@@ -35,7 +35,7 @@ Puede insertar un vínculo en cualquier elemento de página: imagen, palabra, gr
 
    * **Vínculo externo**: inserte un vínculo a una URL externa.
 
-      Puede definir la personalización para sus URL. Consulte [Personalización de direcciones URL](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
+      Puede definir la personalización para sus URL. Consulte [Personalización de direcciones URL](personalization.md#personalizing-urls).
 
    * **Página de aterrizaje**: permite acceder a una página de aterrizaje de Adobe Campaign.
    * **Vínculo de suscripción**: inserte un vínculo para suscribirse a un servicio de Adobe Campaign.
