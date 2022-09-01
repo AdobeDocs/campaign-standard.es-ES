@@ -1,14 +1,12 @@
 ---
 title: Notas de la versión 2017
 description: Esta página enumera todas las versiones de 2017 de Adobe Campaign Standard.
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
+hidefromtoc: true
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
+source-git-commit: 177d9e0f8d61c000f01ac5e148dbd98fef0538ff
 workflow-type: tm+mt
 source-wordcount: '4613'
 ht-degree: 8%
@@ -435,7 +433,7 @@ _Notificaciones push_
   </tr> 
   <tr> 
    <td> Datos de puntos de interés<br /> </td> 
-   <td> Los datos de Puntos de interés integran Adobe Campaign con Adobe Analytics para Mobile. Una marca puede recopilar datos de las ubicaciones móviles de los usuarios, denominadas <strong>Puntos de interés</strong> : cuando los usuarios abren la aplicación de la marca. Esto permite a la marca aprovechar los flujos de trabajo de Adobe Campaign para enviar mensajes personalizados en función de la ubicación de los usuarios. Este canal aprovecha el SDK del servicio principal de Mobile.<br /> Tenga en cuenta que esta función requiere Analytics para dispositivos móviles, que es una solución de pago.<br /> Para obtener más información, consulte la <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">documentación detallada</a>.<br /> </td> 
+   <td> Los datos de Puntos de interés integran Adobe Campaign con Adobe Analytics para dispositivos móviles. Una marca puede recopilar datos de las ubicaciones móviles de los usuarios, denominadas <strong>Puntos de interés</strong> : cuando los usuarios abren la aplicación de la marca. Esto permite a la marca aprovechar los flujos de trabajo de Adobe Campaign para enviar mensajes personalizados en función de la ubicación de los usuarios. Este canal aprovecha el SDK del servicio principal de Mobile.<br /> Tenga en cuenta que esta función requiere Analytics para dispositivos móviles, que es una solución de pago.<br /> Para obtener más información, consulte la <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> API de REST<br /> </td> 

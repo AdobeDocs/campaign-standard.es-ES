@@ -1,14 +1,12 @@
 ---
 title: Notas de la versión 2019
 description: Esta página enumera todas las versiones de 2019 de Adobe Campaign Standard.
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
+hidefromtoc: true
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 177d9e0f8d61c000f01ac5e148dbd98fef0538ff
 workflow-type: tm+mt
 source-wordcount: '7588'
 ht-degree: 9%
@@ -265,13 +263,13 @@ ht-degree: 9%
 * Se ha corregido un problema que podía impedir que los usuarios que no eran administradores guardaran o programaran informes. (CAMP-31133)
 * Se ha corregido un problema que se producía al usar &quot;|&quot; como separador de fechas en la actividad de flujo de trabajo Cargar archivo . (CAMP-34706)
 
-## Versión 19.2.4: junio de 2019 {#release-19-2-4---june-2019}
+## Versión 19.2.4 de junio de 2019 {#release-19-2-4---june-2019}
 
 **Diseñador de correos electrónicos**
 
 * Se ha corregido un problema que impedía a los usuarios editar fragmentos cuando se utilizaban etiquetas de estilo vacías en el HTML. Esta es una corrección de seguimiento para CAMP-33778 en 19.2.3.
 
-## Versión 19.2.3: junio de 2019 {#release-19-2-3---june-2019}
+## Versión 19.2.3 de junio de 2019 {#release-19-2-3---june-2019}
 
 **Diseñador de correos electrónicos**
 

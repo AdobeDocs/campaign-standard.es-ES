@@ -1,17 +1,15 @@
 ---
 title: Notas de la versión 2018
 description: Esta página enumera todas las versiones de 2018 de Adobe Campaign Standard.
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
+hidefromtoc: true
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 177d9e0f8d61c000f01ac5e148dbd98fef0538ff
 workflow-type: tm+mt
 source-wordcount: '5401'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -138,7 +136,7 @@ Ver las últimas [actualizaciones de documentación](../../rn/using/documentatio
 **Parches**
 
 * Se ha corregido un problema con el filtro de consulta byEmail que no devolvía ningún resultado. (CAMP-23420)
-* Se ha corregido un problema que permitía a un usuario estándar acceder a determinadas funciones o pantallas restringidas a administradores (/rest/head/* extremos, pantallas de mensajería transaccional, perfiles y pantallas de importación de audiencias).
+* Se ha corregido un problema que permitía a un usuario estándar acceder a ciertas funciones o pantallas restringidas a los administradores (/rest/head/)&#42; extremos, pantallas de mensajería transaccional, pantallas de importación de perfiles y audiencias).
 * Se ha corregido un problema que impedía que las solicitudes de eliminación de privacidad de RGPD procesaran recursos personalizados si su nombre empezaba por un número.
 * Se ha corregido un error que impedía que la actividad Guardar audiencia compartiera suscriptores de la aplicación en Adobe Experience Cloud.
 * Se ha corregido un problema con la actividad de transferencia de archivos que se podía producir cuando el nombre del archivo contenía espacios en blanco. (CAMP-25936)
@@ -309,7 +307,7 @@ _Recursos personalizados_
   </tr> 
   <tr> 
    <td> Creative Designer para correo electrónico (Beta)<br /> </td> 
-   <td> El nuevo Creative Designer de Adobe Campaign ofrece una experiencia de creación totalmente integrada en Campaign, lo que permite la creación visual rápida y sencilla de correos electrónicos personalizados cautivadores e individuales sin necesidad de crear una única línea de código. Gracias a su potente interfaz de arrastrar y soltar, Creative Designer ayuda a escalar la creación de correos electrónicos si los usuarios comienzan desde una pizarra en blanco o aprovechan los fragmentos de contenido o las plantillas existentes. <br /> Las funciones clave incluyen:<br /> 
+   <td> El nuevo Creative Designer de Adobe Campaign ofrece una experiencia de creación totalmente integrada en Campaign, lo que permite la creación visual rápida y sencilla de correos electrónicos personalizados cautivadores e individuales sin necesidad de crear una única línea de código. Gracias a su potente interfaz de arrastrar y soltar, Creative Designer ayuda a escalar la creación de correos electrónicos si los usuarios comienzan desde una pizarra en blanco o aprovechan los fragmentos de contenido o las plantillas existentes. <br /> Las funciones clave incluyen las siguientes:<br /> 
     <ul> 
      <li> Diseñe y cree correos electrónicos interactivos y totalmente personalizados mediante una interfaz de arrastrar y soltar, aumentada por las integraciones nativas de Creative Cloud </li> 
      <li> Cree y guarde una plantilla de contenido de correo electrónico y aproveche las plantillas guardadas para ayudar a escalar la creación de correo electrónico </li> 
