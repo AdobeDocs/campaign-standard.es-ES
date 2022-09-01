@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: e74ce4aea097e5078aabf83f424e855db72b04a1
+source-git-commit: 471c0e66f1742346798f61ed8e8912695e9c95b6
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 21%
+source-wordcount: '129'
+ht-degree: 28%
 
 ---
 
@@ -25,25 +25,26 @@ En esta página se describen las mejoras y correcciones incluidas en la próxima
 
 ## Versión 22.3: septiembre de 2022 {#e-rn-2022}
 
-**Mejoras**
-
-**Accesibilidad**
-
-Campaign Standard 2.3 incluye correcciones y mejoras de accesibilidad que facilitan a los usuarios navegar y sacar el máximo partido de Adobe Campaign.
-
-Estas funciones se publican en Disponibilidad limitada y se implementan únicamente en un conjunto de clientes. Para habilitar estas mejoras en los entornos de Campaign, póngase en contacto con el representante de Adobe.
-
 <!--
+### Improvement{#e-rn-improvements}
+
+**Accessibility**
+
+Campaign Standard 22.3 comes with accessibility fixes and improvements which facilitate users to navigate and get the most out of Adobe Campaign.
+
+These capabilities are released in Limited Availability and rolled out to a set of customers only. To have these improvements enabled on your Campaign environment(s), contact your Adobe representative.
+
+
 * **Data retention**
 
     Data retention periods have been reduced to avoid overloading Campaign server. However, you can still modify these values and define a custom period of time based on your needs and data retention policies. To change retention periods, contact Adobe.
 -->
 
-**Actualización de seguridad**
+### Actualización de seguridad{#e-rn-security}
 
 Esta versión incorpora la siguiente actualización de seguridad: Apache Tomcat se ha actualizado de la versión 7.0 a la versión 8.0.
 
-**Correcciones**
+### Correcciones{#e-rn-fixes}
 
 * Se ha corregido un problema con los informes programados, que se activaban una hora antes de la hora programada. (CAMP-51502)
 * Se ha corregido un problema en los indicadores de Entrega del panel Envío que no coincidían con Registros de envío (nms:broadLogRcp). (CAMP-51127)
