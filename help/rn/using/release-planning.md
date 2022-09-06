@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: ab4abe7221c88f2c92e765ba2d158b6fb9c2075f
+source-git-commit: 17baeabf1e01c58fe0ecbb03f9d4b45831fbaaf7
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 99%
+source-wordcount: '421'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ Las actualizaciones se implementan en dos fases. En primer lugar, las fases de p
 
 Todas las fechas de las versiones están sujetas a cambios: visite esta página regularmente para buscar actualizaciones.
 
-## Versión 22.3: versión de septiembre de 2022 {#release-22-3-release}
+## Versión 22.3: versión de otoño/invierno de 2022 {#release-22-3-release}
 
 Las actualizaciones de entorno se producen en olas, durante los intervalos de tiempo indicados a continuación. Las fechas exactas se comunican por correo electrónico a cada cliente.
 
@@ -34,18 +34,18 @@ Encontrará información detallada acerca de esta versión en las [Notas de la v
 <table>
  <thead>
   <tr>
-   <th> Entorno<br /> </th>
+   <th> Entornos<br /> </th>
    <th> Fechas<br /> </th>
   </tr>
  </thead>
  <tbody>
   <tr>
    <td>Prueba<br /> </td>
-   <td>Del 6 al 7 de septiembre de 2022<br /> </td>
+   <td>8 de septiembre de 2022 - principios de 2023<br /> </td>
   </tr>
   <tr>
    <td>Producción<br /> </td>
-   <td>13 y 29 de septiembre de 2022<br /> </td>
+   <td>15 de septiembre de 2022: principios de 2023<br /> </td>
   </tr>
  </tbody>
 </table>
