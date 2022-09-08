@@ -8,9 +8,9 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
-workflow-type: tm+mt
-source-wordcount: '963'
+source-git-commit: ede4bd97ffddca4a5e24f1e4114d50ca5140a01d
+workflow-type: ht
+source-wordcount: '827'
 ht-degree: 100%
 
 ---
@@ -68,7 +68,7 @@ Para ayudarle a facilitar su preparación para la privacidad, Adobe Campaign le 
 
 * El **Derecho al olvido** (solicitud de eliminación, también conocida como eliminación de datos) otorga al sujeto de datos el derecho a que el controlador de datos borre sus datos personales, interrumpa la diseminación de los datos y la posibilidad de que terceros interrumpan el procesamiento de los datos.
 
-Para obtener información sobre cómo crear solicitudes **de acceso** y **eliminación** y cómo procesarlas, consulte los pasos [de](../../start/using/privacy-requests.md#about-privacy-requests)implementación.
+Para obtener información sobre cómo crear solicitudes **de acceso** y **eliminación** y cómo Adobe Campaign las procesa, consulte los [pasos de implementación](../../start/using/privacy-requests.md#about-privacy-requests).
 
 Los tutoriales sobre gestión de la privacidad en Campaign Standard también están disponibles [aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=es#privacy).
 
@@ -81,7 +81,7 @@ Los tutoriales sobre gestión de la privacidad en Campaign Standard también est
 Además de las capacidades más recientes de **Derecho de acceso** y **Derecho al olvido** , Adobe Campaign oferta otras características importantes que son esenciales para la privacidad:
 
 * [Gestión](#consent-management)de consentimiento: Funcionalidad de suscripción para la administración de preferencias
-* [Retención](#data-retention)de datos: períodos de retención de datos en todas las tablas de registro estándar, se pueden configurar períodos de retención adicionales con flujos de trabajo
+* [Retención](../../administration/using/data-retention.md)de datos: períodos de retención de datos en todas las tablas de registro estándar, se pueden configurar períodos de retención adicionales con flujos de trabajo
 * [Gestión de derechos](#rights-management): acceso a los datos administrado mediante el derecho asignado 
 
 ### Gestión de consentimiento {#consent-management}
@@ -95,27 +95,6 @@ Las funciones que ayudan a administrar algunos aspectos del consentimiento han s
 Para obtener más información sobre la administración de consentimientos, consulte [Acerca de las suscripciones](../../audiences/using/about-subscriptions.md) y [Introducción a las páginas de aterrizaje](../../channels/using/getting-started-with-landing-pages.md).
 
 Además de las herramientas de Gestión del consentimiento proporcionadas por Adobe Campaign, puede realizar un seguimiento si el consumidor se ha excluido de la venta de Información personal. Consulte [esta sección](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
-
-### Retención de datos {#data-retention}
-
-Independientemente de la retención, las tablas de registro predeterminadas de Campaign tienen períodos de retención predefinidos, que generalmente limitan el almacenamiento de datos a seis meses o menos.
-
-A continuación se muestran los valores de retención predeterminados para las tablas predeterminadas. Tenga en cuenta que los administradores técnicos de Adobe configuran los ajustes de retención durante la implementación y los valores pueden variar en función de los requisitos de los clientes.
-
-* **Seguimiento consolidado**: 6 meses
-* **Registros de envío**: 6 meses
-* **Registros de seguimiento**: 6 meses
-* **Eventos**: 1 mes
-* **Estadísticas del procesamiento de eventos**: 6 meses
-* **Eventos archivados**: 6 meses
-* **Entidades temporales**: 7 días
-* **Eventos de mapa ignorados**: 1 mes
-* **Alertas de envío**: 1 mes
-* **Registro de exportaciones:** 6 meses
-
-Y de manera similar a eliminar, utilizando la funcionalidad estándar del flujo de trabajo, es posible configurar períodos de retención para cualquier tabla personalizada.
-
-Póngase en contacto con los consultores o administradores técnicos de Adobe para obtener más información sobre la retención o si necesita configurar la retención para tablas personalizadas.
 
 ### Gestión de derechos {#rights-management}
 
