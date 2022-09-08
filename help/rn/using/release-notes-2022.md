@@ -1,19 +1,46 @@
 ---
-title: Notas de la versión 2022
+title: Notas de la versión de 2022
 description: Esta página enumera todas las versiones de 2022 de Adobe Campaign Standard.
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: 1d1869a6c503773f4aaecb6a77f1b72585c88865
+source-git-commit: 20a59e064afeb93a2a6260439b09790692971071
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 100%
+source-wordcount: '1098'
+ht-degree: 97%
 
 ---
 
-# Notas de la versión 2022{#release-notes-2022}
+# Notas de la versión de 2022{#release-notes-2022}
 
-[Planificación de versiones](../../rn/using/release-planning.md) | [Versiones del Panel de control](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=es) | [Actualizaciones de documentación](../../rn/using/documentation-updates.md) | [Notas de la versión anteriores](../../rn/using/release-notes-2020.md) | [Funciones obsoletas](../../rn/using/deprecated-features.md)
+## Versión 22.2 de junio de 2022 {#june-2022}
+
+**Mejoras**
+
+* **Servicio de notificación de Adobe**: Campaign viene con el servicio de notificación de Adobe que permite a las soluciones de Experience Cloud alertar a los usuarios entre Experience Cloud sobre las actividades que son importantes que conozcan. A partir de la versión 22.2, la experiencia del usuario se ha mejorado: las notificaciones se priorizan y las notificaciones generadas por el producto se separan de los anuncios de estado del Adobe. Además, cuando la notificación hace referencia a un flujo de trabajo específico, ahora puede acceder al flujo de trabajo correspondiente directamente desde el correo electrónico o la notificación interna del producto.  Para obtener más información sobre las notificaciones de Adobe Campaign, consulte [Notificaciones de Adobe Campaign](../../administration/using/sending-internal-notifications.md).
+
+<!--
+* **Optimization in Workflow startup** - Adobe has added a new capability which can tune the number of workflows that start around the same time. This would help prevent CPU spikes that could have led to service interruptions or downtime. Adobe would enable it after 22.2 release. There is no further action item on customer regarding the same.
+-->
+
+* **Accesibilidad**: Adobe ha realizado muchas correcciones de accesibilidad para mejorar la facilidad de uso general de la aplicación. Actualmente, estas funciones solo están habilitadas para un conjunto de usuarios que las adoptaron por primera vez, y se implementarán para todos los clientes en futuras versiones. Algunos ejemplos de mejoras de accesibilidad son los siguientes:
+
+   * Garantizar que haya un indicador de enfoque visible para los elementos enfocables en cada pantalla
+   * Creación de puntos de referencia de página para facilitar la navegación
+   * Adición del nombre, la función, el valor y el estado para muchos controles
+   * Corrección de problemas con el orden de enfoque dinámico en las pantallas principales
+
+
+**Parches**
+
+* Se ha corregido un problema en el flujo de trabajo técnico Facturación debido a un error de clave duplicada. (CAMP-51029)
+* Se ha añadido la categoría del explorador Microsoft Edge que falta en Seguimiento de informes. Anteriormente, se clasificaban con las aperturas de Microsoft Chrome. (CAMP-51165)
+* Se ha corregido un problema con las solicitudes de RGPD que no eliminaban datos de tablas secundarias. (CAMP-48276)
+* Se ha corregido un problema en el Diseñador de correo electrónico que provocaba que la condición de visibilidad de un fragmento no se guardara en una plantilla de mensaje transaccional. (CAMP-50338)
+* Se ha corregido un problema en los informes de campaña que provocaba que no se tuviera en cuenta el intervalo de fechas. (CAMP-50991)
+* Se ha corregido un error que provocaba que fallaran los correos electrónicos programados: el análisis de entrega no se pudo iniciar porque la entrega seguía en estado &quot;Reintento pendiente&quot;. (CAMP-50302)
+* Se ha corregido un problema en el Diseñador de correo electrónico al previsualizar un correo electrónico con una sustitución de perfiles. (CAMP-49312)
+* Se ha corregido un problema con un valor vacío en las enumeraciones personalizadas: al crear un recurso personalizado con un campo que es una enumeración de texto y contiene solo un valor, este valor se establece ahora de forma predeterminada, de modo que puede crear una consulta en este campo como una solicitud simple. (CAMP-50606)
 
 
 ## Versión 22.1: febrero de 2022 {#feb-2022}

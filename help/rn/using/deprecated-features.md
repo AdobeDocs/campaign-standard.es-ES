@@ -1,17 +1,14 @@
 ---
 title: Funciones obsoletas y eliminadas Campaign Standard
 description: Esta página lista las funciones obsoletas y eliminadas de Adobe Campaign Standard.
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-deprecated-features
 feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: 47d0f4c42d84e2107da65fae5528af0705f2165f
+source-git-commit: 5b5b3fc968c43be734677f7184b9957a8eb3684f
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 63%
+source-wordcount: '861'
+ht-degree: 64%
 
 ---
 
@@ -48,7 +45,7 @@ Se aconseja a los clientes que comprueben si utilizan la función o la capacidad
   <tr> 
    <td> <p> A partir de la versión 2.3 de Campaign Standard, la integración con el servicio Audience Destinations queda obsoleta. </p>
    <p>Para la nueva implementación, ya no puede integrar el servicio Audience Destinations con Adobe Campaign Standard. Sin embargo, puede integrar Campaign y Adobe Experience Platform a través de Fuentes y Destinos. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">Más información</a>.</p>
-     <em>Fecha de eliminación del objetivo: Septiembre de 2022</em></p>
+     <em>Fecha de eliminación objetivo: 2023</em></p>
      </td> 
   </tr> 
  </tbody> 
@@ -64,7 +61,7 @@ Se aconseja a los clientes que comprueben si utilizan la función o la capacidad
   <tr> 
    <td> <p> A partir de la versión 21.3 de Campaign Standard, la integración con el conector de datos de Adobe Experience Platform está en desuso. </p>
    <p>Para nuevas implementaciones, ya no puede integrar el conector de datos de Adobe Experience Platform con Adobe Campaign Standard. Sin embargo, puede integrar Campaign y Adobe Experience Platform a través de Fuentes y Destinos. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">Más información</a>.</p>
-     <em>Fecha de eliminación del objetivo: Septiembre de 2022</em></p>
+     <em>Fecha de eliminación objetivo: 2023</em></p>
      </td> 
   </tr> 
  </tbody> 
@@ -81,9 +78,7 @@ Se aconseja a los clientes que comprueben si utilizan la función o la capacidad
   <tr> 
    <td> <p>A partir de la versión 19.0 de la Campaña, el editor de correo electrónico heredado queda obsoleto. Uso <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Diseñador de correo electrónico de Campaign</a> para crear y personalizar el contenido del correo electrónico. </p></br>
    <p>Lea <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">esta sección</a> para aprender a adaptar las plantillas de correo electrónico al nuevo editor.</p></br>
-  <p> 
-  <em>Fecha de eliminación del destinatario: finales de 2022</em></p>
-   </td> 
+  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -119,7 +114,7 @@ Esta sección enumera las funciones y capacidades que se han eliminado de Campai
    <td> <p> A partir de la versión 20.1 de Campaign, el SDK 4 está en desuso. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Más información</a>.</p><br/>
    <p>La variable <a href="https://aep-sdks.gitbook.io/docs/">SDK de Adobe Experience Platform Mobile</a> (anteriormente conocido como v5) ahora admite exclusivamente las próximas funciones y funcionalidades de Adobe Experience Cloud.</p>
    <p>Después del 31 de agosto de 2021, los clientes pueden seguir descargando y utilizando los SDK de la versión 4, pero no habrá asistencia técnica del Servicio de atención al cliente ni acceso a los foros.</p>
-   <p>Obtenga información sobre cómo migrar del SDK v4 al SDK para Mobile de Adobe Experience Platform <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">en esta página</a>.</p></br>
+   <p>Obtenga información sobre cómo migrar del SDK v4 al SDK de Adobe Experience Platform Mobile <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">en esta página</a>.</p></br>
      </td> 
   </tr> 
  </tbody> 
