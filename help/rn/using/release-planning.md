@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 17baeabf1e01c58fe0ecbb03f9d4b45831fbaaf7
+source-git-commit: bba1461acf0db47fd2eefca30f5e759c503a6dc7
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 97%
+source-wordcount: '420'
+ht-degree: 95%
 
 ---
 
@@ -29,7 +29,7 @@ Todas las fechas de las versiones están sujetas a cambios: visite esta página 
 
 Las actualizaciones de entorno se producen en olas, durante los intervalos de tiempo indicados a continuación. Las fechas exactas se comunican por correo electrónico a cada cliente.
 
-Encontrará información detallada acerca de esta versión en las [Notas de la versión tempranas](e-release-notes.md).
+Encontrará información detallada sobre esta versión en el [Notas de la versión](release-notes.md).
 
 <table>
  <thead>
