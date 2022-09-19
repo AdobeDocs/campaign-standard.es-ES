@@ -1,5 +1,5 @@
 ---
-title: Notas de la versión 2021
+title: Notas de la versión de 2021
 description: Esta página enumera todas las versiones de 2021 de Adobe Campaign Standard.
 audience: rn
 content-type: reference
@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
 source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4569'
 ht-degree: 100%
 
@@ -144,7 +144,7 @@ A continuación, se enumeran las nuevas funciones, mejoras y correcciones inclui
 
 **Mejoras**
 
-* Al diseñar una página de destino, ahora puede añadir una casilla de verificación obligatoria que los perfiles deben seleccionar antes de enviar el formulario. Para obtener más información, consulte la [documentación detallada](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox).
+* Al diseñar una página de aterrizaje, ahora puede añadir una casilla de verificación obligatoria que los perfiles deben seleccionar antes de enviar el formulario. Para obtener más información, consulte la [documentación detallada](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox).
 
 * Para la integración de activadores, se ha mejorado el mensaje de error que se muestra cuando no hay datos de reconciliación en la carga útil del activador: Faltan datos de alias en la carga útil.
 
@@ -328,7 +328,7 @@ A continuación, se enumeran las nuevas funciones, mejoras y correcciones inclui
 
 * Los usuarios con la función DATAMODEL ahora pueden publicar extensiones de registro de entrega. (CAMP-46604)
 
-* Se ha aclarado el mensaje de error que se mostraba al intentar publicar un recurso direccionado a un recurso personalizado que ya no existe. (CAMP-46893)
+* Se ha aclarado el mensaje de error que se mostraba al intentar publicar un recurso de segmentación a un recurso personalizado que ya no existe. (CAMP-46893)
 
 * Se han agregado los siguientes idiomas a la lista **Idioma preferido**: Indonesio - Indonesia (in-id), Inglés - Suecia (en-se), Inglés - Asia Pacífico (en-ap), Inglés - Japón (en-jp) y Español - América Latina (es-la). (CAMP-46351)
 
@@ -356,11 +356,11 @@ A continuación, se enumeran las nuevas funciones, mejoras y correcciones inclui
 
 * Se ha corregido un problema con los flujos de trabajo que se podía producir al copiar y pegar una actividad de **anulación de duplicación** que se había ejecutado una vez y que aprovechaba un recurso temporal. Una vez duplicado, el recurso de la actividad se definía automáticamente en vacío, lo que producía problemas en otras actividades del flujo de trabajo. Una vez pegado, el recurso de la actividad seguirá siendo el mismo para que el error se active lo antes posible en lugar de más tarde en el flujo de trabajo. (CAMP-46903)
 
-* Se ha corregido un problema que ocasionaba que fallara el análisis de entrega al enviar perfiles de direccionamiento de mensajes push transaccionales, al introducir una nueva [asignación de destino](../../administration/using/target-mappings-in-campaign.md): **Perfil: evento en tiempo real para push** (*mapRtEventAppSubRcp*). La entrega, la exclusión y los registros de seguimiento de las [notificaciones push transaccionales basadas en un perfil](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile) se almacenarán ahora en las tablas *broadLogAppSubRcp*, *excludeLogAppSubRcp* y *trackingLogAppSubRcp*.
+* Se ha corregido un problema que ocasionaba que fallara el análisis de entrega al enviar perfiles de direccionamiento de mensajes push transaccionales, al introducir una nueva [asignación de destinatario](../../administration/using/target-mappings-in-campaign.md): **Perfil: evento en tiempo real para push** (*mapRtEventAppSubRcp*). La entrega, la exclusión y los registros de seguimiento de las [notificaciones push transaccionales basadas en un perfil](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile) se almacenarán ahora en las tablas *broadLogAppSubRcp*, *excludeLogAppSubRcp* y *trackingLogAppSubRcp*.
 
    >[!IMPORTANT]
    >
-   >Debido a este cambio, si está utilizando una notificación transaccional basada en perfiles existente (creada antes de actualizar a Adobe Campaign 21.1), se recomienda actualizar la asignación de destino a la nueva y volver a publicar el mensaje. Consulte los pasos detallados [aquí](../../channels/using/transactional-push-notifications.md#change-target-mapping). El uso de la asignación de destino anterior **Perfil: evento de tiempo real** (*mapRtEventRcp*) puede provocar tiempos de preparación de envíos más largos y una degradación del rendimiento.
+   >Debido a este cambio, si está utilizando una notificación transaccional basada en perfiles existente (creada antes de actualizar a Adobe Campaign 21.1), se recomienda actualizar la asignación de destino a la nueva y volver a publicar el mensaje. Consulte los pasos detallados [aquí](../../channels/using/transactional-push-notifications.md#change-target-mapping). El uso de la asignación de destinatario anterior **Perfil: evento de tiempo real** (*mapRtEventRcp*) puede provocar tiempos de preparación de envíos más largos y una degradación del rendimiento.
 
 * Se ha corregido un problema que impedía que los informes de envío se ejecutaran cuando se mostraban 5000 filas.
 * Se ha corregido un problema con las Pruebas A/B que impedía que el contenido de la variante B se actualizara después de que se hubiera modificado la plantilla de envíos. (CAMP-45235)
@@ -369,7 +369,7 @@ A continuación, se enumeran las nuevas funciones, mejoras y correcciones inclui
 * Se ha corregido un problema que impedía que se mostraran todas las plantillas de contenido de Experience Manager disponibles al crear una entrega. (CAMP-45990)
 * Se ha corregido un problema con flujos de trabajo que podía impedir que se mostraran mensajes de error en los registros de envío después de agregar la columna **Motivo** a la pestaña de datos adicional. (CAMP-45139)
 * Se ha corregido un problema que se podía producir cuando dos llamadas de suscripción de aplicación tenían el mismo ID de Marketing Cloud (&#39;el valor de clave de duplicado infringe el error de restricción única&#39;).
-* Se ha corregido un problema que podía provocar problemas de lentitud al arrastrar y soltar actividades en un flujo de trabajo que contenía una gran cantidad de actividades de **Consulta** y **Leer lectura**. (CAMP-44511)
+* Se ha corregido un problema que podía provocar problemas de lentitud al arrastrar y soltar actividades en un flujo de trabajo que contenía una gran cantidad de actividades de **Consulta** y **Leer audiencia**. (CAMP-44511)
 * Se ha corregido un error que podía producirse al final de la preparación del mensaje transaccional, lo que imped&#39;ia que la información de redirección se cargara en los servidores de seguimiento.
 * Se ha corregido un problema que podía mostrar mensajes de error al intentar abrir plantillas de importación o trabajos de importación anteriores después de haber personalizado el recurso de flujo de trabajo. (CAMP-46183)
 * Se ha corregido un problema que podía impedir que se ejecutara una actividad **Leer audiencia** si estaba configurada con un nombre de audiencia dinámica. (CAMP-46047)
