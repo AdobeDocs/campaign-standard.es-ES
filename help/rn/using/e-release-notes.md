@@ -1,6 +1,6 @@
 ---
-title: Notas de la versión anteriores
-description: Notas de la versión anteriores
+title: Notas de las versiones anteriores
+description: Notas de las versiones anteriores
 feature: Overview
 role: User
 level: Beginner
@@ -8,16 +8,16 @@ hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 source-git-commit: 20a59e064afeb93a2a6260439b09790692971071
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '130'
-ht-degree: 26%
+ht-degree: 100%
 
 ---
 
 
-# Notas de la versión anteriores {#e-new-release}
+# Notas de las versiones anteriores {#e-new-release}
 
-En esta página se describen las mejoras y correcciones incluidas en la próxima versión del Campaign Standard.
+Esta página describe las mejoras y correcciones incluidas en la próxima versión de Campaign Standard.
 
 >[!CAUTION]
 >
@@ -38,11 +38,11 @@ These capabilities are released in Limited Availability and rolled out to a set 
 
 ### Actualización de seguridad{#e-rn-security}
 
-Esta versión incorpora la siguiente actualización de seguridad: Apache Tomcat se ha actualizado de la versión 7.0 a la versión 8.0.
+Esta versión incorpora la siguiente actualización de seguridad: Apache Tomcat se ha actualizado de la versión 7.0 a la 8.0.
 
 ### Correcciones{#e-rn-fixes}
 
-* Se ha corregido un problema con los informes programados, que se activaban una hora antes de la hora programada. (CAMP-51502)
-* Se ha corregido un problema en los indicadores de Entrega del panel Envío que no coincidían con Registros de envío (nms:broadLogRcp). (CAMP-51127)
+* Se ha corregido un problema con los informes programados, que se activaban una hora antes del horario programado. (CAMP-51502)
+* Se ha corregido un problema en los indicadores de Entrega del panel Entrega que no coincidían con los Registros de envío (nms:broadLogRcp). (CAMP-51127)
 * Se ha corregido un problema que impedía la extensión de recursos personalizados con el conector ACS (oferta principal). (CAMP-51033)
 * Se ha mejorado el proceso de publicación de las respuestas de solicitudes de privacidad para evitar demoras. (CAMP-50613)
