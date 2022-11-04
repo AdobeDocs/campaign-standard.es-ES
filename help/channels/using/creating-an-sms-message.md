@@ -9,9 +9,9 @@ feature: SMS
 role: User
 level: Beginner
 exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: add823f51b0907628ed52cb2f4453743bc939cbf
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '518'
 ht-degree: 96%
 
 ---
@@ -43,9 +43,9 @@ Para crear y enviar mensajes SMS a un teléfono móvil, necesita:
 
 1. Introduzca las propiedades generales del SMS.
 
-   ![](assets/sms_creation_2.png)
+   {{$include /help/_includes/channel-activities-name-id-fields.md}}
 
-   Tanto la etiqueta de actividad como su ID aparecen en la interfaz, pero no son visibles para los destinatarios de mensajes.
+   ![](assets/sms_creation_2.png)
 
 1. Especifique la audiencia a la que desea enviar el mensaje. Puede seleccionar una audiencia existente o dirigirlo un destinatario directo de una población definiendo y combinando reglas.
 
