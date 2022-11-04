@@ -8,9 +8,9 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
-source-git-commit: add823f51b0907628ed52cb2f4453743bc939cbf
+source-git-commit: 708bdc1d5dc1c30d609ba0fa1c17debe403afd72
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '551'
 ht-degree: 20%
 
 ---
@@ -31,9 +31,7 @@ Puede crear un correo electrónico a partir de un [campaign](../../start/using/m
    >
    >Las plantillas de prueba A/B y de seguimiento están ocultas de forma predeterminada. Marque las casillas en el lado izquierdo ( **[!UICONTROL Filter]** panel lateral) si desea mostrarlos.
 
-1. Introduzca las propiedades generales del correo electrónico. Puede introducir un nombre en la variable **Etiqueta** y edite el ID.
-
-   {{$include /help/_includes/channel-activities-name-id-fields.md}}
+1. Introduzca las propiedades generales del correo electrónico. Puede introducir un nombre en la variable **Etiqueta** y edite el ID. Tanto el nombre de la actividad como su ID aparecen en la interfaz, pero no son visibles para los destinatarios de mensajes.
 
    Puede añadir una descripción que el usuario pueda ver en el contenido de la campaña.
 
