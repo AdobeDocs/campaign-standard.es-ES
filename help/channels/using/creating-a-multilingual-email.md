@@ -8,7 +8,7 @@ feature: Email
 role: User
 level: Intermediate
 exl-id: fcf192cb-f2d5-4340-bc2f-add0c195ad4e
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 24%
@@ -28,6 +28,7 @@ La audiencia se basa en perfiles con información de idioma preferido completada
    ![](assets/multi_create1.png)
 
 1. Defina las propiedades generales y la audiencia de destino del mensaje de correo electrónico, igual que para un correo electrónico estándar. Consulte la sección [Creación de audiencias](../../audiences/using/creating-audiences.md).
+
 1. En el cuarto paso del asistente de creación, defina las opciones de variante. Si la variable [plantilla multilingüe](../../channels/using/multilingual-messages-template.md) ya contiene todos los parámetros correctos, puede hacer clic directamente en la **[!UICONTROL Create]** botón.
 
    ![](assets/multi_create4.png)

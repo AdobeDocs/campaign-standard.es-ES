@@ -9,10 +9,10 @@ feature: Direct Mail
 role: User
 level: Intermediate
 exl-id: 3e94c872-bf44-4d4c-b6eb-7731021c7931
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 95%
+source-wordcount: '636'
+ht-degree: 88%
 
 ---
 
@@ -35,6 +35,12 @@ Crear un envío de correo postal es muy similar a crear un correo electrónico n
 1. Introduzca las propiedades generales del envío.
 
    ![](assets/direct_mail_3.png)
+
+   >[!NOTE]
+   >
+   >Tanto el nombre de la actividad como su ID aparecen en la interfaz, pero no son visibles para los destinatarios de mensajes.
+   >
+   >Asegúrese de que el campo ID no contenga ningún espacio en blanco para evitar discrepancias, por ejemplo al integrar con Adobe Analytics.
 
 1. Defina la audiencia que desee incluir en el archivo de extracción, así como los perfiles de prueba y trampa. Consulte [Definición de audiencia de correo postal](../../channels/using/defining-the-direct-mail-audience.md).
 

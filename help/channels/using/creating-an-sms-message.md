@@ -9,10 +9,10 @@ feature: SMS
 role: User
 level: Beginner
 exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
-source-git-commit: 708bdc1d5dc1c30d609ba0fa1c17debe403afd72
+source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 96%
+source-wordcount: '561'
+ht-degree: 89%
 
 ---
 
@@ -45,7 +45,11 @@ Para crear y enviar mensajes SMS a un teléfono móvil, necesita:
 
    ![](assets/sms_creation_2.png)
 
-   Tanto la etiqueta de actividad como su ID aparecen en la interfaz, pero no son visibles para los destinatarios de mensajes.
+   >[!NOTE]
+   >
+   >Tanto el nombre de la actividad como su ID aparecen en la interfaz, pero no son visibles para los destinatarios de mensajes.
+   >
+   >Asegúrese de que el campo ID no contenga ningún espacio en blanco para evitar discrepancias, por ejemplo al integrar con Adobe Analytics.
 
 1. Especifique la audiencia a la que desea enviar el mensaje. Puede seleccionar una audiencia existente o dirigirlo un destinatario directo de una población definiendo y combinando reglas.
 
