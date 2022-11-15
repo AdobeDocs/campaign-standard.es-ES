@@ -4,9 +4,10 @@ description: Esta página enumera todas las versiones de 2022 de Adobe Campaign 
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: 20a59e064afeb93a2a6260439b09790692971071
+exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
+source-git-commit: 77c5baaf51b82ea001326f3f20c8ab183155f9e6
 workflow-type: ht
-source-wordcount: '1098'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -96,4 +97,3 @@ ht-degree: 100%
 * Se ha mejorado el rendimiento al duplicar audiencias para evitar cualquier problema al trabajar con audiencias grandes. (CAMP-49639)
 * Se ha corregido un problema que podía impedir que un filtro personalizado mostrara los resultados correctos cuando se usaba en una actividad de **Consulta**. (CAMP-49417)
 * Se ha corregido un error que mostraba un mensaje de error al intentar utilizar un fragmento en una entrega con una coma en su nombre. El problema se ha resuelto y ahora se pueden usar comas en los nombres de los fragmentos. (CAMP-49216)
-
