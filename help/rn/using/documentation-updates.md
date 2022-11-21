@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
+source-git-commit: 88035d0e4f77d66e8b2a74650857bf4ef45744c3
 workflow-type: tm+mt
-source-wordcount: '7270'
-ht-degree: 100%
+source-wordcount: '7293'
+ht-degree: 99%
 
 ---
 
@@ -19,6 +19,8 @@ Además de las [Notas de la versión](../../rn/using/release-notes.md) de Adobe 
 ## Noviembre de 2022 {#doc-updates-november-2022}
 
 Se ha añadido una nota para recomendar evitar espacios en blanco en el campo ID de los envíos. [Más información](../../channels/using/creating-an-email.md)
+
+Se ha añadido información en el **[!UICONTROL Extract file]** actividad de flujo de trabajo para extraer datos a un archivo CSV con una codificación específica. [Más información](../../automating/using/extract-file.md)
 
 ## Versión 22.3: otoño/invierno de 2022 {#release-22-3}
 
