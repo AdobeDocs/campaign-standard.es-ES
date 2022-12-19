@@ -8,7 +8,7 @@ feature: Send Time Optimization
 role: User
 level: Intermediate
 exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
-source-git-commit: e9d0add383410681dfee43c5a67d37455bc31373
+source-git-commit: 16801092547f41dd94f12e4dbe9c9afe0b550a36
 workflow-type: tm+mt
 source-wordcount: '1078'
 ht-degree: 56%
@@ -20,6 +20,7 @@ ht-degree: 56%
 Con Campaign, puede optimizar el diseño y el envío de los recorridos de los clientes para predecir las preferencias de participación de cada individuo. Con la tecnología de IA y aprendizaje automático, la optimización del tiempo de envío y la puntuación de participación predictiva de Adobe Campaign pueden analizar y predecir las tasas abiertas, los tiempos de envío óptimos y la probable reproducción basada en las métricas de participación históricas.
 
 >[!IMPORTANT]
+>
 >Esta capacidad no está disponible de forma predeterminada como parte del producto. La implementación requiere la participación de Adobe Consulting. Póngase en contacto con el representante de su Adobe para obtener más información.
 
 Adobe Campaign ofrece dos nuevos modelos de aprendizaje automático: **Optimización del tiempo de envío predictivo** y **Puntuación de participación predictiva**. Estos dos modelos son modelos de aprendizaje automático específicos para diseñar y ofrecer mejores recorridos para los clientes.
@@ -35,6 +36,7 @@ Predictive Send-Time Optimization predice cuál es el mejor tiempo de envío par
 Dentro del modelo de optimización del tiempo de envío predictivo, hay dos submodelos:
 
 * **El tiempo de envío predictivo de la apertura es el mejor momento para enviar una comunicación al cliente para maximizar las aperturas.**
+
 * **El tiempo de envío predictivo de los clics es el mejor momento para enviar una comunicación al cliente para maximizar los clics.**
 
 **Entrada de modelo**: registros de envío, registros de seguimiento y atributos de perfil (no PII).
@@ -77,6 +79,7 @@ De forma predeterminada, las puntuaciones de perfil proporcionarán la mejor hor
 ### Enviar mensajes en el mejor horario{#use-predictive-send-time}
 
 Para que los mensajes de correo electrónico se publiquen a una hora óptima para el perfil, el envío debe programarse con la opción **[!UICONTROL Send at a custom date defined by a formula]**.
+
 Obtenga información sobre cómo calcular la fecha de envío [en esta sección](../../sending/using/computing-the-sending-date.md).
 
 La fórmula debe rellenarse con la mejor hora específica del día en que se va a realizar el envío.
@@ -86,7 +89,7 @@ La fórmula debe rellenarse con la mejor hora específica del día en que se va 
 Ejemplo de la fórmula:
 
 ```
-AddHours([currentDelivery/scheduling/@contactDate], 
+AddHours([currentDelivery/scheduling/@contactDate],
 [cusSendTimeScoreByClickprofile_link/@EMAIL_BEST_TIME_TO_CLICK_WEDNESDAY])
 ```
 
