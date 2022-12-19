@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Centro de ayuda para las principales características, tareas, configuraciones y otros recursos necesarios para utilizar Campaign Standard.
 title: Guía de Campaign Standard
 breadcrumb-title: Documentación de Adobe Campaign Standard
-source-git-commit: 1d1869a6c503773f4aaecb6a77f1b72585c88865
-workflow-type: ht
-source-wordcount: '1812'
+source-git-commit: e9d0add383410681dfee43c5a67d37455bc31373
+workflow-type: tm+mt
+source-wordcount: '1814'
 ht-degree: 100%
 
 ---
@@ -79,9 +79,9 @@ ht-degree: 100%
       + [Tablero de mensajes](channels/using/message-dashboard.md)
       + [Plantillas de mensajes multilingües](channels/using/multilingual-messages-template.md)
       + [Introducción a los canales móviles](channels/using/mobile-guide.md)
-   + Prácticas recomendadas relacionadas con las entregas {#delivery-bestpractices}
+   + Prácticas recomendadas relacionadas con los envíos {#delivery-bestpractices}
       + [Conozca las prácticas recomendadas](sending/using/delivery-best-practices.md)
-      + [Optimización de las entregas](sending/using/optimize-delivery.md)
+      + [Optimización de las envíos](sending/using/optimize-delivery.md)
       + [Uso de plantillas](sending/using/use-templates.md)
       + [Creación de contenido personalizado](sending/using/design-and-personalize.md)
       + [Definición de la audiencia correcta](sending/using/define-the-right-audience.md)
@@ -163,7 +163,7 @@ ht-degree: 100%
       + [Vista previa de entregas](sending/using/previewing-messages.md)
       + [Envío de pruebas](sending/using/sending-proofs.md)
       + [Prueba de mensajes de correo electrónico con perfiles de destino](sending/using/testing-messages-using-target.md)
-      + [Correos electrónicos con IA](sending/using/predictive.md)
+      + [Funciones de participación predictiva del usuario](sending/using/predictive.md)
       + [Procesamiento de correo electrónico](sending/using/email-rendering.md)
       + [Adición de un grupo de control](sending/using/control-group.md)
       + [Uso de trampas](sending/using/using-traps.md)
@@ -307,8 +307,8 @@ ht-degree: 100%
       + [Monitorización de las variables de eventos](automating/using/monitoring-events-variables.md)
       + [Personalización del flujo de trabajo con parámetros externos](automating/using/customizing-workflow-external-parameters.md)
       + [Caso de uso](automating/using/use-case-calling-workflow.md)
-   + Actividades de direccionamiento {#targeting-activities}
-      + [Acerca de las actividades de direccionamiento](automating/using/about-targeting-activities.md)
+   + Actividades de segmentación {#targeting-activities}
+      + [Crear un flujo de trabajo de segmentación](automating/using/about-targeting-activities.md)
       + [Consulta](automating/using/query.md)
       + [Consulta incremental](automating/using/incremental-query.md)
       + [Unión](automating/using/union.md)
@@ -360,7 +360,7 @@ ht-degree: 100%
       + [Caso de uso: Exportación e importación de recursos personalizados](automating/using/exporting-importing-custom-resources.md)
    + Casos de uso {#workflow-use-case}
       + [Acerca de los casos de uso de flujos de trabajo](automating/using/about-workflow-use-cases.md)
-      + Entregas {#deliveries}
+      + Envíos {#deliveries}
          + [Creación de entregas con un complemento](automating/using/workflow-created-query-with-complement.md)
          + [Creación de entregas en la fecha de creación de los perfiles](automating/using/workflow-creation-date-query.md)
          + [Creación de una entrega semanal](automating/using/workflow-weekly-offer.md)
