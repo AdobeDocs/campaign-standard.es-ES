@@ -6,47 +6,32 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
-source-git-commit: ede4bd97ffddca4a5e24f1e4114d50ca5140a01d
+source-git-commit: 4d67d1d0239c7439cc1f4b8e1fd7fb2f7a99adec
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 55%
+source-wordcount: '178'
+ht-degree: 13%
 
 ---
 
 # Retención de datos{#data-retention}
 
-Las tablas de registro estándar de Campaign tienen períodos de retención preestablecidos en ellas que limitan su duración del almacenamiento de datos.
+Las tablas de registro estándar de Campaign tienen períodos de retención preestablecidos en ellas que limitan su duración del almacenamiento de datos para evitar sobrecargar el sistema.
 
-Los siguientes son los valores de retención predeterminados para las tablas estándar. Tenga en cuenta que los administradores técnicos de Adobe configuran los ajustes de retención durante la implementación y los valores pueden variar en función de los requisitos de los clientes.
+Los administradores técnicos de Adobe establecen la configuración de retención de datos durante la implementación y los valores pueden variar para cada implementación según los requisitos del cliente.
 
-+++[!DNL Campaign Standard] 22.3 o superior
+Póngase en contacto con los consultores de Adobe o administradores técnicos para obtener más información sobre los períodos de retención que se aplican a su entorno o para establecer períodos de retención personalizados.
 
-* **Seguimiento consolidado**: 1 meses
-* **Registros de envío**: 1 meses
-* **Registros de seguimiento**: 1 meses
+Tenga en cuenta que, con la funcionalidad de flujo de trabajo estándar, es posible configurar períodos de retención para cualquier tabla personalizada.
+
+A continuación se muestran los períodos de retención predeterminados para las tablas estándar. Siempre que sea posible y según el uso de los datos, Adobe le sugiere pasar a los periodos de retención recomendados para mejorar el rendimiento de la instancia de Campaign.
+
+* **Seguimiento consolidado**: 6 meses (recomendado: 1 mes)
+* **Registros de envío**: 6 meses (recomendado: 1 mes)
+* **Registros de seguimiento**: 6 meses (recomendado: 1 mes)
 * **Eventos**: 1 mes
-* **Estadísticas del procesamiento de eventos**: 1 meses
-* **Eventos archivados**: 1 meses
+* **Estadísticas del procesamiento de eventos**: 6 meses (recomendado: 1 mes)
+* **Eventos archivados**: 6 meses (recomendado: 1 mes)
 * **Entidades temporales**: 7 días
 * **Eventos de mapa ignorados**: 1 mes
 * **Alertas de envío**: 1 mes
-* **Registro de exportaciones:** 1 meses
-+++
-
-+++ Anterior [!DNL Campaign Standard] compilaciones
-
-* **Seguimiento consolidado**: 6 meses
-* **Registros de envío**: 6 meses
-* **Registros de seguimiento**: 6 meses
-* **Eventos**: 1 mes
-* **Estadísticas del procesamiento de eventos**: 6 meses
-* **Eventos archivados**: 6 meses
-* **Entidades temporales**: 7 días
-* **Eventos de mapa ignorados**: 1 mes
-* **Alertas de envío**: 1 mes
-* **Registro de exportaciones:** 6 meses
-+++
-
-Con la funcionalidad de flujo de trabajo estándar, es posible configurar periodos de retención para cualquier tabla personalizada.
-
-Póngase en contacto con los consultores de Adobe o administradores técnicos para obtener más información sobre la retención o para configurar la retención para tablas personalizadas.
+* **Registro de exportaciones:** 6 meses (recomendado: 1 mes)
