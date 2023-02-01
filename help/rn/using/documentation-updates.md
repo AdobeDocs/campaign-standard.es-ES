@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 88035d0e4f77d66e8b2a74650857bf4ef45744c3
+source-git-commit: bfa34136950218d2fd56870247d39be00c725427
 workflow-type: ht
-source-wordcount: '7293'
+source-wordcount: '7279'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ Se ha añadido información en la página de **[!UICONTROL Extract file]** activ
 
 Se han publicado las notas de la versión 22.3 de Campaign Standard de otoño/invierno. [Más información](release-notes.md)
 
-Los períodos de retención de datos se han actualizado para reflejar los cambios que se producen con la versión 22.3. [Más información](../../administration/using/data-retention.md)
+<!--Data retention periods have been updated to reflect changes coming with 22.3 release. [Read more](../../administration/using/data-retention.md)-->
 
 
 ## Versión 22.2 de junio de 2022 {#release-22-2}
