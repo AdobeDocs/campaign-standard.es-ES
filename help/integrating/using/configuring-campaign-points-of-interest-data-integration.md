@@ -8,9 +8,9 @@ feature: Audiences
 role: Data Architect
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 884cd5e9c09aa85e744ca06b202eb46f73a33a76
 workflow-type: tm+mt
-source-wordcount: '1327'
+source-wordcount: '1311'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ Las aplicaciones móviles utilizadas para recopilar datos de ubicación deben co
 
 Para poder utilizar Adobe Experience Platform Location Services con aplicaciones móviles configuradas con el SDK de Adobe Experience Platform, debe:
 
-1. Agregue la variable **[!UICONTROL Places]** y **[!UICONTROL Places Monitor]** extensiones de la configuración de la aplicación móvil en la interfaz de usuario de la recopilación de datos. Configure la aplicación móvil en Adobe Campaign. Consulte [Instalación de la extensión Places](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch) y [Instalación de la extensión del monitor Places](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html#install-the-places-monitor-extension-in-experience-platform-launch).
+1. Agregue la variable **[!UICONTROL Places]** extensión a la configuración de la aplicación móvil en la interfaz de usuario de la recopilación de datos. Configure la aplicación móvil en Adobe Campaign. Consulte [Instalación de la extensión Places](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch).
 
 1. Una vez configuradas las extensiones, cree elementos de datos en la interfaz de usuario de recopilación de datos para recuperar datos de estas extensiones. Consulte esta [página](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) para crear los elementos de datos.
 
@@ -187,7 +187,7 @@ Para definir los puntos de interés que se utilizan para recopilar datos de ubic
 
 Un recurso personalizado específico le permite definir los datos que desea recopilar de los suscriptores de las aplicaciones.
 
-Este paso se describe en la sección [Configuración de una aplicación móvil mediante el SDK V4](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) página.
+Este paso se describe en la sección [Configuración de una aplicación móvil mediante el SDK V4](https://helpx.adobe.com/es/campaign/kb/configuring-app-sdkv4.html) página.
 
 ## Acceso a aplicaciones móviles utilizadas para recopilar datos de ubicación {#accessing-mobile-apps-used-to-collect-location-data}
 
