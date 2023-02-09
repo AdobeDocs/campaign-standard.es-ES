@@ -10,7 +10,7 @@ exl-id: 9b522c84-e296-47c7-9588-2e5ed08ab631
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '173'
-ht-degree: 31%
+ht-degree: 46%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 31%
                <tr>
                   <td>PKey</td>
                   <td>ID del recurso principal</td>
-                  <td>string </td>
+                  <td>cadena </td>
                   <td> </td>
                </tr>
                <tr>
@@ -94,7 +94,7 @@ ht-degree: 31%
                <tr>
                   <td>ubicación</td>
                   <td>Ubicación</td>
-                  <td>item </td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -106,7 +106,7 @@ ht-degree: 31%
                <tr>
                   <td>mobileApp</td>
                   <td>Aplicación móvil</td>
-                  <td>item </td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -117,7 +117,7 @@ ht-degree: 31%
                </tr>
                <tr>
                   <td>modifiedBy (userBase)</td>
-                  <td>modificado por</td>
+                  <td>Modificado por</td>
                   <td>vínculo </td>
                   <td> </td>
                </tr>
@@ -130,13 +130,13 @@ ht-degree: 31%
                <tr>
                   <td>nms_recipient</td>
                   <td>Perfil</td>
-                  <td>item </td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>nms_rtEvent</td>
                   <td>Evento</td>
-                  <td>item </td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -190,7 +190,7 @@ ht-degree: 31%
                <tr>
                   <td>targetData</td>
                   <td>Extensión</td>
-                  <td>string </td>
+                  <td>cadena </td>
                   <td> </td>
                </tr>
                <tr>
@@ -224,7 +224,7 @@ Por tipo de evento (byEventType)
         </tr>
         <tr>
         <td>eventType</td>
-        <td>string</td>
+        <td>cadena</td>
         </tr>
     </table>
 
@@ -237,7 +237,7 @@ Por nombre o etiqueta (byText)
         </tr>
         <tr>
         <td>text</td>
-        <td>string</td>
+        <td>cadena</td>
         </tr>
     </table>
 

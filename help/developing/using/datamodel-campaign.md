@@ -10,7 +10,7 @@ exl-id: a63fe730-a6b2-4ae0-93da-9f8ee7824c9f
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '217'
-ht-degree: 22%
+ht-degree: 34%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 22%
                <tr>
                   <td>PKey</td>
                   <td>ID del recurso principal</td>
-                  <td>string </td>
+                  <td>cadena </td>
                   <td> </td>
                </tr>
                <tr>
@@ -64,7 +64,7 @@ ht-degree: 22%
                <tr>
                   <td>duration</td>
                   <td>Duración de la campaña</td>
-                  <td>number </td>
+                  <td>número </td>
                   <td> </td>
                </tr>
                <tr>
@@ -87,7 +87,7 @@ ht-degree: 22%
                </tr>
                <tr>
                   <td>isTemplate</td>
-                  <td>Template</td>
+                  <td>Plantilla</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
@@ -120,7 +120,7 @@ ht-degree: 22%
                </tr>
                <tr>
                   <td>modifiedBy (userBase)</td>
-                  <td>modificado por</td>
+                  <td>Modificado por</td>
                   <td>vínculo </td>
                   <td> </td>
                </tr>
@@ -145,7 +145,7 @@ ht-degree: 22%
                <tr>
                   <td>informe en tiempo real</td>
                   <td>Informes en tiempo real</td>
-                  <td>item </td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -155,7 +155,7 @@ ht-degree: 22%
                   <td> </td>
                </tr>
                <tr>
-                  <td>status</td>
+                  <td>estado</td>
                   <td>Estado</td>
                   <td>enumeration (byte) </td>
                   <td>
@@ -211,7 +211,7 @@ Por nombre o etiqueta (byText)
     </tr>
     <tr>
     <td>text</td>
-    <td>string</td>
+    <td>cadena</td>
     </tr>
 </table>
 
@@ -228,7 +228,7 @@ Por periodo (por periodo)
     </tr>
     <tr>
     <td>timePeriod</td>
-    <td>string</td>
+    <td>cadena</td>
     </tr>
 </table>
 

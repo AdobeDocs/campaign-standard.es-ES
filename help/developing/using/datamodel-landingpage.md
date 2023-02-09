@@ -12,7 +12,7 @@ exl-id: bd12a214-5998-4fb9-9f54-0c886067b58b
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '1728'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 3%
       <tr>
          <td>PKey</td>
          <td>ID del recurso principal</td>
-         <td>string </td>
+         <td>cadena </td>
          <td> </td>
       </tr>
       <tr>
@@ -42,7 +42,7 @@ ht-degree: 3%
       <tr>
          <td>additionalLanguages</td>
          <td>Otros idiomas</td>
-         <td>item </td>
+         <td>elemento </td>
          <td> </td>
       </tr>
       <tr>
@@ -66,7 +66,7 @@ ht-degree: 3%
       <tr>
          <td>cache</td>
          <td>Caché</td>
-         <td>string </td>
+         <td>cadena </td>
          <td> </td>
       </tr>
       <tr>
@@ -78,13 +78,13 @@ ht-degree: 3%
       <tr>
          <td>closedLog</td>
          <td>Registro "página de aterrizaje cerrada"</td>
-         <td>string </td>
+         <td>cadena </td>
          <td> </td>
       </tr>
       <tr>
          <td>contextResourceType</td>
          <td>ContextResourceType</td>
-         <td>string </td>
+         <td>cadena </td>
          <td> </td>
       </tr>
       <tr>
@@ -240,13 +240,13 @@ ht-degree: 3%
       <tr>
          <td>errorContextResourceType</td>
          <td>ErrorContextResourceType</td>
-         <td>string </td>
+         <td>cadena </td>
          <td> </td>
       </tr>
       <tr>
          <td>errorPage</td>
          <td>Página de error</td>
-         <td>item </td>
+         <td>elemento </td>
          <td> </td>
       </tr>
       <tr>
@@ -281,7 +281,7 @@ ht-degree: 3%
       </tr>
       <tr>
          <td>isTemplate</td>
-         <td>Template</td>
+         <td>Plantilla</td>
          <td>booleano </td>
          <td> </td>
       </tr>
@@ -350,7 +350,7 @@ ht-degree: 3%
       </tr>
       <tr>
          <td>modifiedBy (userBase)</td>
-         <td>modificado por</td>
+         <td>Modificado por</td>
          <td>vínculo </td>
          <td> </td>
       </tr>
@@ -381,7 +381,7 @@ ht-degree: 3%
       <tr>
          <td>publicUrl</td>
          <td>URL pública</td>
-         <td>string </td>
+         <td>cadena </td>
          <td> </td>
       </tr>
       <tr>
@@ -469,7 +469,7 @@ ht-degree: 3%
       <tr>
          <td>testUrl</td>
          <td>Probar URL</td>
-         <td>string </td>
+         <td>cadena </td>
          <td> </td>
       </tr>
       <tr>
@@ -620,11 +620,11 @@ ht-degree: 3%
       <tr>
          <td>trackingUrlName</td>
          <td>Nombre de URL de seguimiento</td>
-         <td>string </td>
+         <td>cadena </td>
          <td> </td>
       </tr>
       <tr>
-         <td>type</td>
+         <td>tipo</td>
          <td>Tipo</td>
          <td>enumeration (byte) </td>
          <td>
@@ -641,12 +641,12 @@ ht-degree: 3%
       <tr>
          <td>uuid</td>
          <td>ID de seguridad</td>
-         <td>string </td>
+         <td>cadena </td>
          <td> </td>
       </tr>
       <tr>
          <td>webTrackingEnabled</td>
-         <td>Habilitar el seguimiento web</td>
+         <td>Habilitar seguimiento web</td>
          <td>booleano </td>
          <td> </td>
       </tr>
@@ -676,7 +676,7 @@ Por nombre o etiqueta (byText)
     </tr>
     <tr>
     <td>text</td>
-    <td>string</td>
+    <td>cadena</td>
     </tr>
 </table>
 
@@ -702,7 +702,7 @@ Por recurso de segmentación (byTargetResource)
 </tr>
 <tr>
 <td>targetResource</td>
-<td>string</td>
+<td>cadena</td>
 </tr>
 </table>
 

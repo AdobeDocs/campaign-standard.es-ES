@@ -45,7 +45,7 @@ La audiencia se importa ahora en la base de datos de Adobe Campaign. El proceso 
 
 >[!NOTE]
 >
->Si va a importar audiencias de Adobe Analytics a Adobe Campaign, primero debe compartirlas en el servicio principal Personas o en el Audience Manager. Este proceso tarda de 12 a 24 horas, que se deben añadir a la sincronización de 24 a 36 horas con Campaign. En ese caso específico, el tiempo que tarda en compartirse la audiencia puede alcanzar las 60 horas. Para obtener más información sobre el uso compartido de las audiencias de Adobe Analytics en el servicio principal Personas y Audience Manager, consulte esta [documentación](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html).
+>Si va a importar audiencias de Adobe Analytics a Adobe Campaign, primero debe compartirlas en el servicio principal Personas o en el Audience Manager. Este proceso tarda de 12 a 24 horas, que se deben añadir a la sincronización de 24 a 36 horas con Campaign. En ese caso específico, el tiempo que tarda en compartirse la audiencia puede alcanzar las 60 horas. Para obtener más información sobre el uso compartido de las audiencias de Adobe Analytics en el servicio principal Personas y Audience Manager, consulte esta [documentación](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=es).
 
 ## Exportación de un público {#exporting-an-audience}
 

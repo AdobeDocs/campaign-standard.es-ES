@@ -34,7 +34,7 @@ Siga los pasos descritos en [Creación de un déclencheur asignado en Campaign](
 Si se crea el déclencheur, continúe con el siguiente paso. Si no es así, significa que la conexión del punto final del déclencheur ha fallado. Compruebe si Déclencheur está aprovisionado en Experience Cloud (servicios de activación). Si no es así, póngase en contacto con el ejecutivo de su cuenta de Adobe o con el socio de servicios profesionales. Se requiere la siguiente información:
 
 * Nombre de la empresa del Marketing Cloud
-* ID de organización
+* ID de la organización
 * Empresa de inicio de sesión de Analytics (puede ser el mismo que el nombre de la empresa de Marketing Cloud)
 
 **Intente publicar el déclencheur**

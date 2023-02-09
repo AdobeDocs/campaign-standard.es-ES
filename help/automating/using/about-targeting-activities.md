@@ -1,5 +1,5 @@
 ---
-title: Acerca de las actividades de direccionamiento
+title: Crear un flujo de trabajo de segmentación
 description: Se puede acceder a las actividades de segmentación desde la parte izquierda de la pantalla.
 audience: automating
 content-type: reference
@@ -15,7 +15,7 @@ ht-degree: 52%
 
 ---
 
-# Acerca de las actividades de direccionamiento{#about-targeting-activities}
+# Crear un flujo de trabajo de segmentación{#about-targeting-activities}
 
 En la paleta, en el lado izquierdo de la pantalla, despliegue la sección **[!UICONTROL Targeting]**.
 

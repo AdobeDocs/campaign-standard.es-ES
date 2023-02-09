@@ -43,10 +43,10 @@ El botón **[!UICONTROL Create]** se puede utilizar para crear una nueva activid
 En la zona principal, cada tipo de actividad de la lista tiene un icono:
 
 * ![](assets/marketing_program_icon.png) Programa
-* ![](assets/marketing_campaign_icon.png) Campaña
+* ![](assets/marketing_campaign_icon.png) Campaign
 * ![](assets/marketing_email_icon.png) Correo electrónico
 * ![](assets/marketing_sms_icon.png) SMS
-* ![](assets/marketing_push_icon.png) Notificaciones push
+* ![](assets/marketing_push_icon.png) Notificación push
 * ![](assets/marketing_lp_icon.png) Mensaje en la aplicación
 * ![](assets/marketing_lp_icon.png) página de aterrizaje
 * ![](assets/marketing_workflow_icon.png) Flujo de trabajo

@@ -81,7 +81,7 @@ Para evitar estos problemas, Adobe recomienda seguir las prácticas recomendadas
 
 Además, tenga en cuenta que las IP públicas desde las que intente iniciar la conexión SFTP deben agregarse a la lista de permitidos de la instancia de Campaign. La adición de direcciones IP a la lista de permitidos se puede solicitar mediante un [ticket de asistencia](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html), junto con la clave pública que se utilizará para la autenticación.
 
-Los servidores SFTP se pueden administrar desde el panel de control. Para obtener más información, consulte la [documentación del panel de control](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html).
+Los servidores SFTP se pueden administrar desde el panel de control. Para obtener más información, consulte la [documentación del panel de control](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=es).
 
 >[!NOTE]
 >
@@ -182,7 +182,7 @@ Para una cuenta externa de almacenamiento del blob de Microsoft Azure, proporcio
 * Una **[!UICONTROL Label]** y un **[!UICONTROL ID]** de su cuenta externa
 * **[!UICONTROL Type]**: almacenamiento de blob de Microsoft Azure
 * Su **[!UICONTROL Account name]** y **[!UICONTROL Account key]**. Para saber dónde encontrar su nombre y clave de la cuenta, consulte [esta página](https://docs.microsoft.com/es-es/azure/storage/common/storage-account-keys-manage).
-* Su **[!UICONTROL Endpoint suffix]**. Se encuentra dentro de **[!UICONTROL Connection string]** del menú **[!UICONTROL Access keys]** en el Azure Portal. Para obtener más información, consulte [esta página](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
+* Su **[!UICONTROL Endpoint suffix]**. Se encuentra dentro de **[!UICONTROL Connection string]** del menú **[!UICONTROL Access keys]** en el Azure Portal. Para obtener más información, consulte [esta página](https://docs.microsoft.com/es-es/azure/storage/common/storage-account-keys-manage).
 * El nombre de su **[!UICONTROL Container]**. Si planea utilizar más de un contenedor, cree tantas cuentas externas como contenedores.
 * La opción **[!UICONTROL Concurrency]** le permite ajustar la velocidad de las transferencias de archivos.
 

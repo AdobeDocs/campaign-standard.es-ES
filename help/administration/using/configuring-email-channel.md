@@ -9,7 +9,7 @@ exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 source-git-commit: a1b947acf70803a7350dd626e697318e0ed35f26
 workflow-type: tm+mt
 source-wordcount: '2681'
-ht-degree: 62%
+ht-degree: 64%
 
 ---
 
@@ -177,7 +177,7 @@ Puede configurar el formato de los correos electrónicos que se van a enviar. Ha
 
 #### Modo de prueba SMTP {#smtp-test-mode}
 
-Utilice la variable **[!UICONTROL Enable SMTP test mode]** para probar el envío de correos electrónicos a través de una conexión SMTP sin realmente enviar mensajes. La entrega se procesa hasta la conexión con el servidor SMTP, pero no se envía: para cada destinatario de la entrega, Campaign se conecta al servidor del proveedor SMTP, ejecuta el comando SMTP RCPT TO y cierra la conexión antes del comando SMTP DATA.
+Utilice la variable **[!UICONTROL Enable SMTP test mode]** para probar el envío de correos electrónicos a través de una conexión SMTP sin realmente enviar mensajes. La entrega se procesa hasta la conexión con el servidor SMTP, pero no se envía. Para cada destinatario de la entrega, Campaign se conecta al servidor del proveedor SMTP, ejecuta el comando RCPT TO del servidor de correo saliente (SMTP) y cierra la conexión antes del comando DATA del SMTP.
 
 ![](assets/smtp-test-mode.png)
 
@@ -314,7 +314,7 @@ El número de reintentos se puede cambiar a nivel global (póngase en contacto c
 
 De forma predeterminada, se programan cinco reintentos para el primer día con un intervalo mínimo de una hora, distribuidos en las 24 horas del día. Después de ello, se programa un reintento por día hasta la fecha límite de envío, que se define globalmente en la variable **[!UICONTROL Delivery parameters]** de la sección **[!UICONTROL Configuration]** o en la **[!UICONTROL Validity period]** en el nivel de entrega (consulte la sección [Duración de la entrega](#legacy-delivery-duration) a continuación).
 
-### Duración de la entrega {#legacy-delivery-duration}
+### Duración del envío {#legacy-delivery-duration}
 
 Utilice la variable **[!UICONTROL Message delivery duration]** en el [Menú Configuración](#email-channel-parameters) para especificar el lapso de tiempo en el que se reintentará cualquier mensaje de la entrega que detecte un error temporal o una devolución del mensaje.
 

@@ -4,7 +4,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: '"Una vez que el mensaje esté listo, aprenda a realizar todas las comprobaciones antes de enviar"'
+description: "Una vez que el mensaje esté listo, aprenda a realizar todas las comprobaciones antes de enviar"
 feature: Deliverability
 role: User
 level: Intermediate

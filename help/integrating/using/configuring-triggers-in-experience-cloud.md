@@ -1,6 +1,6 @@
 ---
 title: Configuración de activadores en Experience Cloud
-description: 'Aprenda a configurar la integración de Adobe Experience Cloud Triggers para que comience a enviar envíos personalizados a sus clientes en función de sus comportamientos anteriores. '
+description: Aprenda a configurar la integración de Adobe Experience Cloud Triggers para que comience a enviar envíos personalizados a sus clientes en función de sus comportamientos anteriores.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers

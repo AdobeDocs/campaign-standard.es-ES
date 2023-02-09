@@ -1,5 +1,5 @@
 ---
-title: Mensajes de seguimiento y monitorización
+title: Seguimiento y monitorización de mensajes
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices

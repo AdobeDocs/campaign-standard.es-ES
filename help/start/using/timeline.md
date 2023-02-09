@@ -48,11 +48,11 @@ Cuando se muestra el contenido de un programa o una campaña, el cuadro correspo
 Cada elemento tiene un icono que corresponde a su tipo:
 
 * ![](assets/timeline_program_icon.png) Programa
-* ![](assets/timeline_campaign_icon.png) Campaña
+* ![](assets/timeline_campaign_icon.png) Campaign
 * ![](assets/timeline_lp_icon.png) página de aterrizaje
 * ![](assets/timeline_email_icon.png) Correo electrónico
 * ![](assets/timeline_sms_icon.png) SMS
-* ![](assets/timeline_push_icon.png) Notificaciones push
+* ![](assets/timeline_push_icon.png) Notificación push
 
 La línea de color del borde izquierdo de cada cuadro indica el estado del elemento en cuestión.
 

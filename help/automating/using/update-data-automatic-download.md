@@ -1,6 +1,6 @@
 ---
 title: Actualización de datos en función de una descarga automática de archivos
-description: 'El siguiente ejemplo muestra el resultado de una actividad de carga de archivo descargada automáticamente mediante una actividad de transferencia de archivos, seguida de una actividad de actualización de datos. '
+description: El siguiente ejemplo muestra el resultado de una actividad de carga de archivo descargada automáticamente mediante una actividad de transferencia de archivos, seguida de una actividad de actualización de datos.
 audience: automating
 content-type: reference
 topic-tags: data-management-activities

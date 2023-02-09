@@ -50,7 +50,7 @@ Los pasos siguientes describen un caso de uso paso a paso para importar y utiliz
 
 >[!NOTE]
 >
->Nuestro ejemplo usa Postman. Sin embargo, no dude en usar su cliente REST favorito.
+>Nuestro ejemplo utiliza Postman. Sin embargo, no dude en usar su cliente REST favorito.
 
 1. Descargue la colección JSON haciendo clic en [here](https://helpx.adobe.com/content/dam/help/en/campaign/kb/working-with-acs-api/_jcr_content/main-pars/download_section/download-1/KB_postman_collection.json.zip).
 

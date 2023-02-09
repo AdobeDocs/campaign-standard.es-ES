@@ -10,7 +10,7 @@ exl-id: aea3e72d-8e89-46c7-a796-bf856414c654
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '688'
-ht-degree: 15%
+ht-degree: 29%
 
 ---
 
@@ -34,13 +34,13 @@ ht-degree: 15%
                <tr>
                   <td>PKey</td>
                   <td>ID del recurso principal</td>
-                  <td>string </td>
+                  <td>cadena </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>abTesting</td>
                   <td>Pruebas A/B</td>
-                  <td>item </td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -52,7 +52,7 @@ ht-degree: 15%
                <tr>
                   <td>advancedParameters</td>
                   <td>Parámetros avanzados</td>
-                  <td>item </td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -64,13 +64,13 @@ ht-degree: 15%
                <tr>
                   <td>alertMessage</td>
                   <td>Mensaje de advertencia</td>
-                  <td>string </td>
+                  <td>cadena </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>alertMode</td>
                   <td>Tipo de advertencia</td>
-                  <td>string </td>
+                  <td>cadena </td>
                   <td> </td>
                </tr>
                <tr>
@@ -112,13 +112,13 @@ ht-degree: 15%
                <tr>
                   <td>comandos</td>
                   <td>Comandos</td>
-                  <td>item </td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>content</td>
                   <td>Contenido</td>
-                  <td>item </td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -136,7 +136,7 @@ ht-degree: 15%
                <tr>
                   <td>contextResourceType</td>
                   <td>Tipo de recurso</td>
-                  <td>string </td>
+                  <td>cadena </td>
                   <td> </td>
                </tr>
                <tr>
@@ -180,7 +180,7 @@ ht-degree: 15%
                <tr>
                   <td>emailPreview</td>
                   <td>Vista previa del correo electrónico</td>
-                  <td>item </td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -197,8 +197,8 @@ ht-degree: 15%
                </tr>
                <tr>
                   <td>execution</td>
-                  <td>Parámetros de ejecución de entrega</td>
-                  <td>item </td>
+                  <td>Parámetros de ejecución del envío</td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -240,7 +240,7 @@ ht-degree: 15%
                      <ul>
                         <li>Correo electrónico transaccional - emailLightning - 60</li>
                         <li>Fax - 4</li>
-                        <li>Mobile (SMS) - sms - 1</li>
+                        <li>Móvil (SMS) - sms - 1</li>
                         <li>Correo electrónico recurrente - emailRefresh - 30</li>
                         <li>Correo postal: papel - 3</li>
                         <li>Teléfono - teléfono - 2</li>
@@ -267,7 +267,7 @@ ht-degree: 15%
                </tr>
                <tr>
                   <td>isTemplate</td>
-                  <td>Template</td>
+                  <td>Plantilla</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
@@ -292,7 +292,7 @@ ht-degree: 15%
                <tr>
                   <td>kpis</td>
                   <td>Indicadores</td>
-                  <td>item </td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -325,7 +325,7 @@ ht-degree: 15%
                <tr>
                   <td>mailParameters</td>
                   <td>Parámetros de encabezado de correo electrónico</td>
-                  <td>item </td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -349,7 +349,7 @@ ht-degree: 15%
                <tr>
                   <td>masterKpis</td>
                   <td>Indicadores maestros</td>
-                  <td>item </td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -371,7 +371,7 @@ ht-degree: 15%
                </tr>
                <tr>
                   <td>modifiedBy (userBase)</td>
-                  <td>modificado por</td>
+                  <td>Modificado por</td>
                   <td>vínculo </td>
                   <td> </td>
                </tr>
@@ -384,7 +384,7 @@ ht-degree: 15%
                <tr>
                   <td>offerManagement</td>
                   <td>Administración de ofertas</td>
-                  <td>item </td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -395,13 +395,13 @@ ht-degree: 15%
                </tr>
                <tr>
                   <td>parent (deliveryBase)</td>
-                  <td>Entrega principal</td>
+                  <td>Envío de página principal</td>
                   <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>priority</td>
-                  <td>Prioridad de entrega</td>
+                  <td>prioridad</td>
+                  <td>Prioridad de envío</td>
                   <td>enumeration (byte) </td>
                   <td>
                      <ul>
@@ -426,19 +426,19 @@ ht-degree: 15%
                <tr>
                   <td>pushNotificationPreview</td>
                   <td>Vista previa de notificaciones push</td>
-                  <td>item </td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>pushnotificationParameters</td>
                   <td>Parámetros de PushNotification</td>
-                  <td>item </td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>informe en tiempo real</td>
                   <td>Informes en tiempo real</td>
-                  <td>item </td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -450,31 +450,31 @@ ht-degree: 15%
                <tr>
                   <td>ribbonMessage</td>
                   <td>Mensaje de cinta</td>
-                  <td>string </td>
+                  <td>cadena </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>escenario</td>
-                  <td>Parámetros de plantilla de entrega</td>
-                  <td>item </td>
+                  <td>Parámetros de la plantilla de envíos</td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>programación</td>
-                  <td>Programación de entregas</td>
-                  <td>item </td>
+                  <td>Programación de envío</td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>smsParameters</td>
                   <td>Parámetros de SMS</td>
-                  <td>item </td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>smsPreview</td>
                   <td>Vista previa del SMS</td>
-                  <td>item </td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -507,13 +507,13 @@ ht-degree: 15%
                </tr>
                <tr>
                   <td>targets</td>
-                  <td>Público destinatario de la entrega</td>
-                  <td>item </td>
+                  <td>Población de público objetivo de los envíos</td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>template (deliveryTemplateSummary)</td>
-                  <td>Plantilla de envío</td>
+                  <td>Plantilla de envíos</td>
                   <td>vínculo </td>
                   <td> </td>
                </tr>
@@ -525,14 +525,14 @@ ht-degree: 15%
                </tr>
                <tr>
                   <td>título</td>
-                  <td>Entrega</td>
+                  <td>Envío</td>
                   <td>string (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>seguimiento</td>
                   <td>Parámetros de seguimiento</td>
-                  <td>item </td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -543,14 +543,14 @@ ht-degree: 15%
                </tr>
                <tr>
                   <td>trackingUrls</td>
-                  <td>Direcciones URL rastreadas</td>
+                  <td>URL seguidas</td>
                   <td>colección </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>triggerMessage</td>
                   <td>Parámetros del mensaje transaccional</td>
-                  <td>item </td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -632,11 +632,11 @@ Por nombre o etiqueta (byText)
     </tr>
     <tr>
     <td>text</td>
-    <td>string</td>
+    <td>cadena</td>
     </tr>
     <tr>
     <td>mc</td>
-    <td>string</td>
+    <td>cadena</td>
     </tr>
 </table>
 
@@ -649,7 +649,7 @@ Por periodo (por periodo)
     </tr>
     <tr>
     <td>timePeriod</td>
-    <td>string</td>
+    <td>cadena</td>
     </tr>
 </table>
 
@@ -666,7 +666,7 @@ Por periodo (byStartPeriod)
     </tr>
     <tr>
     <td>timePeriod</td>
-    <td>string</td>
+    <td>cadena</td>
     </tr>
 </table>
 

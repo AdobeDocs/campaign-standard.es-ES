@@ -1,5 +1,5 @@
 ---
-title: 'Opciones de ayuda y asistencia de Campaign Standard '
+title: Opciones de ayuda y asistencia de Campaign Standard
 description: ¿Necesita asistencia con Campaign Standard? ¡Está en el lugar correcto!
 audience: rns
 content-type: reference
@@ -127,4 +127,4 @@ La creación de un caso le permite ponerse en contacto con el equipo de Asistenc
 
 Para registrar un problema o iniciar una sesión de chat en el nuevo sistema, conéctese a [Adobe Admin Console](https://adminconsole.adobe.com/overview).
 
-Siga el procedimiento detallado descrito en [esta página](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+Siga el procedimiento detallado descrito en [esta página](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).

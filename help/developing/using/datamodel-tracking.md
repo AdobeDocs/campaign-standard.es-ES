@@ -10,7 +10,7 @@ exl-id: 0f5dd92c-2222-4456-86cd-3cc2e1c83fc1
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '36'
-ht-degree: 11%
+ht-degree: 33%
 
 ---
 
@@ -28,25 +28,25 @@ ht-degree: 11%
                <tr>
                   <td>PKey</td>
                   <td>ID del recurso principal</td>
-                  <td>string </td>
+                  <td>cadena </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>logCountRead</td>
                   <td>LogCountRead</td>
-                  <td>integer </td>
+                  <td>entero </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>logs</td>
+                  <td>registros</td>
                   <td>Registros</td>
-                  <td>string </td>
+                  <td>cadena </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>pointerTo</td>
                   <td>PointerTo</td>
-                  <td>string </td>
+                  <td>cadena </td>
                   <td> </td>
                </tr>
                <tr>

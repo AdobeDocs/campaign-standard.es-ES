@@ -12,7 +12,7 @@ exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
 source-git-commit: 53852538ac1e092dc9376119f29d969ed4b02952
 workflow-type: tm+mt
 source-wordcount: '1168'
-ht-degree: 83%
+ht-degree: 85%
 
 ---
 
@@ -58,7 +58,7 @@ Puede utilizar esta actividad para recuperar datos que luego se estructuran con 
 
    Puede hacer lo siguiente:
 
-   * **[!UICONTROL Delete the source files after transfer]**: borra los archivos del servidor remoto. Si deja esta opción sin marcar, asegúrese de supervisar manualmente el tamaño del contenido archivado en el directorio SFTP.
+   * **[!UICONTROL Delete the source files after transfer]**: borra los archivos del servidor remoto. Si deja esta opción sin marcar, asegúrese de monitorizar manualmente el tamaño del contenido archivado en el directorio SFTP.
 
    * **[!UICONTROL Sorting files]**: permite ordenar archivos de forma alfanumérica. Esta opción está desactivada de forma predeterminada.
 
@@ -145,7 +145,7 @@ El protocolo de Microsoft Azure Blob permite acceder al blob ubicado en una cuen
 ### Configuración con archivos presentes en el servidor de Adobe Campaign {#files-server-configuration-wf}
 
 El protocolo de **[!UICONTROL File(s) present on the Adobe Campaign server]** corresponde al repositorio que contiene los archivos que se van a recuperar.
-Se pueden usar metacaracteres o caracteres comodín (por ejemplo, * o ?) para filtrar archivos.
+Metacaracteres o caracteres comodín (por ejemplo &#42; o ?) para filtrar archivos.
 
 Elija si desea **[!UICONTROL Define a file path]** o **[!UICONTROL Use a dynamic file path]**
 La opción **[!UICONTROL Use a dynamic file path]** permite utilizar una expresión estándar y variables de eventos para personalizar el nombre del archivo que desea transferir. Para obtener más información, consulte [esta página](../../automating/using/customizing-workflow-external-parameters.md).

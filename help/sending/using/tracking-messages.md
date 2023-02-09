@@ -11,7 +11,7 @@ exl-id: fac29bc2-57fa-40f9-a160-cd75f695b91e
 source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 37%
+ht-degree: 38%
 
 ---
 
@@ -53,7 +53,7 @@ El seguimiento con Adobe Campaign Standard le permite acceder a las siguientes f
 <tr>
 <td>Seguimiento de correo electrónico</td>
 <td>Seguimiento push</td>
-<td>Direcciones URL rastreadas</td>
+<td>URL seguidas</td>
 <td>Registros de seguimiento</td>
 <td>Informe de seguimiento</td>
 </tr>
@@ -90,7 +90,7 @@ Para obtener más información sobre cómo insertar vínculos de seguimiento, co
 
 La variable **[!UICONTROL Tracking indicators]** contiene los indicadores clave para el seguimiento del comportamiento después de recibir los mensajes de correo electrónico. Para obtener más información, consulte esta [página](../../reporting/using/tracking-indicators.md).
 
-## Direcciones URL rastreadas {#tracked-urls}
+## URL seguidas {#tracked-urls}
 
 La variable **[!UICONTROL Tracked URLs]** reagrupa las direcciones URL incluidas en el mensaje enviado, incluido su tipo de dirección URL y su dirección URL de origen.
 

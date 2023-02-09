@@ -1,5 +1,5 @@
 ---
-title: 'Diseño de correos electrónicos a través de integraciones de Adobe Campaign '
+title: Diseño de correos electrónicos a través de integraciones de Adobe Campaign
 description: Descubra cómo diseñar correos electrónicos a través de integraciones de Adobe Campaign en el Diseñador de correo electrónico.
 audience: designing
 content-type: reference
@@ -148,7 +148,7 @@ Adobe Campaign ofrece varias opciones de creación de correo electrónico. En el
    <td> <strong>Para obtener más información</strong><br /> </td> 
    <td> Consulte <a href="../../designing/using/designing-content-in-adobe-campaign.md">Acerca del Diseñador de correo electrónico</a>.<br /> </td> 
    <td> Consulte <a href="../../integrating/using/integrating-with-experience-manager.md">Integración con el Experience Manager</a>.<br /> </td> 
-   <td> Consulte <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver y Campaign</a> y mire esto <a href="#video">video</a>.<br /> </td> 
+   <td> Consulte <a href="https://helpx.adobe.com/es/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver y Campaign</a> y mire esto <a href="#video">video</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

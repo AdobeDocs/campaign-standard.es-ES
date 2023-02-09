@@ -1,6 +1,6 @@
 ---
 title: Rechazos y no entregables
-description: 'Con el informe Non-deliverables (no entregables) y los rechazos predeterminados, conozca los errores que pueden producirse en su envío. '
+description: Con el informe Non-deliverables (no entregables) y los rechazos predeterminados, conozca los errores que pueden producirse en su envío.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports

@@ -1,5 +1,5 @@
 ---
-title: 'Diseño de correos electrónicos desde cero '
+title: Diseño de correos electrónicos desde cero
 description: Descubra cómo diseñar correos electrónicos desde cero contenido de correo electrónico en el Diseñador de correo electrónico.
 audience: designing
 content-type: reference
@@ -11,7 +11,7 @@ exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1239'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -65,7 +65,7 @@ Para editar la estructura de un correo electrónico:
 
    >[!NOTE]
    >
-   >Tenga en cuenta que la pila de columnas no es compatible con todos los programas de correo electrónico. Cuando no se admita, las columnas no se apilarán.
+   >Tenga en cuenta que la pila de columnas no es compatible con todos los programas de correo electrónico. Cuando no se admite, las columnas no se apilan.
    >
    >Una vez colocados en el correo electrónico, no puede mover ni eliminar los componentes a menos que ya haya un componente de contenido o un fragmento colocado en él.
 
@@ -98,7 +98,7 @@ Puede añadir un **[!UICONTROL Content block]**, **[!UICONTROL Dynamic content]*
 
 >[!NOTE]
 >
->Tenga en cuenta que el preencabezado no es compatible con todos los programas de correo electrónico. Cuando no se admita, no se mostrará el encabezado previo.
+>Tenga en cuenta que el preencabezado no es compatible con todos los programas de correo electrónico. Cuando no se admite, no se muestra.
 
 ## Uso de componentes de contenido {#about-content-components}
 
@@ -163,7 +163,7 @@ Inserte el componente de vídeo en un componente de estructura de su correo elec
 
 >[!NOTE]
 >
->Tenga en cuenta que el vídeo no es compatible con todos los programas de correo electrónico. Cuando no se admita, se mostrará la reserva.
+>Tenga en cuenta que el vídeo no es compatible con todos los programas de correo electrónico. Cuando no se admite, se muestra la reserva.
 
 ### Imagen
 

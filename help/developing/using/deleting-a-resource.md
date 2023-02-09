@@ -1,6 +1,6 @@
 ---
 title: Eliminación de un recurso
-description: 'Obtenga información sobre cómo eliminar un recurso '
+description: Obtenga información sobre cómo eliminar un recurso
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
@@ -11,7 +11,7 @@ exl-id: 4ddfdbcc-a154-4c10-a97e-73ad888d1f1f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '242'
-ht-degree: 14%
+ht-degree: 16%
 
 ---
 
@@ -45,7 +45,7 @@ Para volver a redactar y eliminar un recurso publicado:
    >
    >Si vuelve a redactar una extensión de la lista predeterminada **Perfiles (perfil)** recurso, también debe volver a redactar cualquier **Perfil de prueba (seedMember)** extensión que haya definido. Para obtener más información sobre la ampliación del recurso de perfil, consulte [esta sección](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
 
-1. Publique el recurso. Para ver los pasos más detallados, consulte [Publicación de un recurso personalizado](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
+1. Publicar el recurso. Para ver los pasos más detallados, consulte [Publicación de un recurso personalizado](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 
    A continuación, el recurso entra en **Borrador** y su estado de activación es **[!UICONTROL Inactive]**.
 

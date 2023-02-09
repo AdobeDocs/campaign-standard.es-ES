@@ -1,6 +1,6 @@
 ---
 title: Administración de usuarios
-description: 'Los usuarios de Adobe Campaign tienen funciones específicas. Descubra los tipos de usuarios principales. '
+description: Los usuarios de Adobe Campaign tienen funciones específicas. Descubra los tipos de usuarios principales.
 audience: administration
 feature: Access Management
 role: Admin

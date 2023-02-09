@@ -1,5 +1,5 @@
 ---
-title: '"Paso 1: Añadir campos de extensión al recurso de perfil"'
+title: "Paso 1: Añadir campos de extensión al recurso de perfil"
 description: Descubra cómo ampliar el recurso de perfil.
 audience: developing
 content-type: reference

@@ -1,6 +1,6 @@
 ---
 title: Acceso a mensajes
-description: '"Obtenga información sobre cómo acceder a los mensajes y sus funcionalidades avanzadas: creación, segmentación, personalización, ejecución y creación de informes."'
+description: "Obtenga información sobre cómo acceder a los mensajes y sus funcionalidades avanzadas: creación, segmentación, personalización, ejecución y creación de informes."
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels

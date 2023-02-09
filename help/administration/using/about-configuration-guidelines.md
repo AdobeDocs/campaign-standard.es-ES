@@ -9,7 +9,7 @@ exl-id: 88684ed6-6d8d-4691-987f-812e7e1d834c
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -30,7 +30,7 @@ Esta es la lista de exploradores compatibles con Adobe Campaign Standard:
 * Safari (versión más reciente)
 * Microsoft Edge (versión más reciente)
 
-**Comprimido:**
+**Tableta:**
 
 * iOS (versión 7 y posterior)
 * Android (versión 4.4 y posterior)
@@ -39,7 +39,7 @@ Esta es la lista de exploradores compatibles con Adobe Campaign Standard:
 
 Estos son los diferentes extremos utilizados en el Campaign Standard.
 
-| Contexto | URL |
+| Contexto | Dirección URL |
 |--- |--- |
 | Instancias de Campaign | `https://*.experiencecloud.adobe.com` (ID de inquilino * + dominio de cliente)<br>`https://*.campaign.adobe.com` (inquilino de instancia de Campaign) |
 | IMS | `https://adobeid-na1.services.adobe.com`<br>`https://*.adobelogin.com` |

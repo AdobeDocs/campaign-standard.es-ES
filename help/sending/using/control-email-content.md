@@ -68,7 +68,7 @@ Como regla general, no debe intentar interferir en los destinatarios que deseen 
 
 La solicitud de confirmación adicional no es fiable: un usuario puede tener dos direcciones de correo electrónico redirigidas al mismo cuadro (por ejemplo: firstname.lastname@club.com y firstname.lastname@internet-club.com). Si el perfil solo puede recordar la primera dirección y desea cancelar la suscripción a través de un mensaje enviado al otro, el formulario lo rechazará porque el identificador cifrado y la dirección de correo electrónico introducidos no coincidirán.
 
-## Análisis de correo no deseado {#anti-spam-analysis}
+## Análisis antispam {#anti-spam-analysis}
 
 El editor de mensajes de Adobe Campaign integra un **Análisis de correo no deseado** que le permite puntuar correos electrónicos para determinar si un mensaje corre el riesgo de que las herramientas de filtrado de correo no deseado utilizadas durante la recepción lo consideren como no deseado. Para obtener más información, consulte [Vista previa de mensajes](../../sending/using/previewing-messages.md).
 

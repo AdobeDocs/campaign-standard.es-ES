@@ -1,6 +1,6 @@
 ---
 title: Acerca de las plantillas
-description: '"Las plantillas de Adobe Campaign le permiten preconfigurar parámetros según sus necesidades: las plantillas pueden contener una configuración completa o parcial de la actividad de marketing para simplificar el uso de Adobe Campaign para los usuarios finales no técnicos."'
+description: "Las plantillas de Adobe Campaign le permiten preconfigurar parámetros según sus necesidades: las plantillas pueden contener una configuración completa o parcial de la actividad de marketing para simplificar el uso de Adobe Campaign para los usuarios finales no técnicos."
 audience: start
 content-type: reference
 topic-tags: managing-templates

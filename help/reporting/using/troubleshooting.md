@@ -116,7 +116,7 @@ Los informes deben tener el siguiente aspecto:
 <table> 
  <thead> 
   <tr> 
-   <th align="center"> <strong>Entrega</strong> <br /> </th> 
+   <th align="center"> <strong>Envío</strong> <br /> </th> 
    <th align="center"> <strong>Enviado</strong> <br /> </th> 
    <th align="center"> <strong>Entrega</strong> <br /> </th>
    <th align="center"> <strong>Aperturas</strong> <br /> </th> 

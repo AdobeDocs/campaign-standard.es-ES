@@ -11,7 +11,7 @@ exl-id: bd9ec3f9-e047-42dc-ab64-9fb274cb4656
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1127'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 La carga de un archivo CSV para generar contenido y enviarlo es una función que se utiliza para admitir notificaciones push multilingües. El formato del archivo CSV debe cumplir determinadas directrices para que la carga del archivo se realice correctamente y, por lo tanto, poder crear una entrega. Las secciones siguientes describen el formato del archivo y sus consideraciones.
 
-## Formato del archivo {#file-format}
+## Formato de archivo {#file-format}
 
 La funcionalidad push multilingüe requiere 14 columnas en el archivo CSV:
 

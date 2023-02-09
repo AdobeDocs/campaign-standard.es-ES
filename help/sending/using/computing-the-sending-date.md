@@ -49,9 +49,9 @@ Puede programar esto mediante un flujo de trabajo.
 
       Para los segmentos restantes, defina los lotes siguientes como se indica a continuación:
 
-      * **2017-06-03 11:00:00+01**
-      * **2017-06-04 11:00:00+01**
-      * **2017-06-05 11:00:00+01**
+      * **2017-06-03 10:00:00+01**
+      * **2017-06-04 10:00:00+01**
+      * **2017-06-05 10:00:00+01**
    * Asegúrese de seleccionar la variable **[!UICONTROL Limit the population of this segment]** .
 
       En el **[!UICONTROL Limitation]** , seleccione **[!UICONTROL Random sampling]** e introduzca el porcentaje deseado para cada segmento: 10 para el primer lote, 15 para el segundo, etc.

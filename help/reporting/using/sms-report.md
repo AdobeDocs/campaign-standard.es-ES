@@ -1,6 +1,6 @@
 ---
 title: Informe SMS
-description: 'Con el informe SMS listo para usar, conozca el éxito de sus envíos SMS. '
+description: Con el informe SMS listo para usar, conozca el éxito de sus envíos SMS.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports

@@ -1,5 +1,5 @@
 ---
-title: 'Conversión del correo electrónico del Editor heredado al Diseñador de correo electrónico '
+title: Conversión del correo electrónico del Editor heredado al Diseñador de correo electrónico
 description: Descubra cómo utilizar los correos electrónicos creados en el correo electrónico del Editor heredado al Diseñador de correo electrónico.
 audience: designing
 content-type: reference

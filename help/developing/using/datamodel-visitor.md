@@ -10,7 +10,7 @@ exl-id: 20dafd81-8546-450a-87a0-59a2509efb7a
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 23%
+ht-degree: 40%
 
 ---
 
@@ -28,12 +28,12 @@ ht-degree: 23%
     <tr>
         <td>PKey</td>
         <td>ID del recurso principal</td>
-        <td>string </td>
+        <td>cadena </td>
         <td> </td>
     </tr>
     <tr>
         <td>comment</td>
-        <td>Comentario del referente</td>
+        <td>Comentario del remitente del reenvío</td>
         <td>string (255)</td>
         <td> </td>
     </tr>
@@ -51,14 +51,14 @@ ht-degree: 23%
     </tr>
     <tr>
         <td>entrega (entrega)</td>
-        <td>Entrega</td>
+        <td>Envío</td>
         <td>vínculo </td>
         <td> </td>
     </tr>
     <tr>
         <td>deliveryId</td>
         <td>ID de la última entrega</td>
-        <td>integer </td>
+        <td>entero </td>
         <td> </td>
     </tr>
     <tr>
@@ -87,7 +87,7 @@ ht-degree: 23%
     </tr>
     <tr>
         <td>forwardUrl</td>
-        <td>Dirección URL de reenvío</td>
+        <td>URL de reenvío</td>
         <td>string (255)</td>
         <td> </td>
     </tr>
@@ -111,7 +111,7 @@ ht-degree: 23%
     </tr>
     <tr>
         <td>modifiedBy (userBase)</td>
-        <td>modificado por</td>
+        <td>Modificado por</td>
         <td>vínculo </td>
         <td> </td>
     </tr>
@@ -141,36 +141,36 @@ ht-degree: 23%
     <tr>
         <td>recipientId</td>
         <td>ID de perfil</td>
-        <td>integer </td>
+        <td>entero </td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerEmail</td>
-        <td>Correo electrónico del referente</td>
+        <td>Correo electrónico del remitente del reenvío</td>
         <td>string (128)</td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerFirstName</td>
-        <td>Nombre del referente</td>
+        <td>Nombre del remitente del reenvío</td>
         <td>string (30)</td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerId</td>
         <td>ID de referente</td>
-        <td>integer </td>
+        <td>entero </td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerLastName</td>
-        <td>Apellido del referente</td>
+        <td>Apellidos del remitente del reenvío</td>
         <td>string (50)</td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerRcp (destinatario)</td>
-        <td>Referente</td>
+        <td>Remitente del reenvío</td>
         <td>vínculo </td>
         <td> </td>
     </tr>
@@ -193,6 +193,6 @@ Por apellido, nombre o correo electrónico (byText)</p>
         </tr>
         <tr>
         <td>text</td>
-        <td>string</td>
+        <td>cadena</td>
         </tr>
     </table>

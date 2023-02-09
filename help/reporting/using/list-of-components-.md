@@ -1,5 +1,5 @@
 ---
-title: 'Lista de componentes '
+title: Lista de componentes
 description: Encuentre aquí la lista de todos los componentes disponibles en los informes dinámicos, así como sus definiciones.
 audience: reporting
 content-type: reference
@@ -11,7 +11,7 @@ exl-id: 8980bf05-60a8-4360-a354-445e1faeb5b2
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1271'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,7 @@ Para obtener más información sobre la compatibilidad entre dimensiones y métr
 
 [![imagen](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=en)
 
-## Dimension {#dimensions}
+## Dimensiones {#dimensions}
 
 La tabla siguiente proporciona la lista de dimensiones utilizadas en los informes y sus definiciones.
 
@@ -126,7 +126,7 @@ La tabla siguiente proporciona la lista de dimensiones utilizadas en los informe
    <td> Etiqueta e ID de la entrega transaccional.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Variant<br /> </td> 
+   <td> Variante<br /> </td> 
    <td> Variant del correo electrónico en caso de prueba A/B.<br /> </td> 
   </tr> 
  </tbody> 

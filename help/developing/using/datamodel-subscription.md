@@ -10,7 +10,7 @@ exl-id: cf0fac4e-59fd-4d6e-a411-41361f45938d
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '79'
-ht-degree: 15%
+ht-degree: 32%
 
 ---
 
@@ -28,13 +28,13 @@ ht-degree: 15%
     <tr>
         <td>PKey</td>
         <td>ID del recurso principal</td>
-        <td>string </td>
+        <td>cadena </td>
         <td> </td>
     </tr>
     <tr>
         <td>ctx</td>
         <td>Contexto del evento</td>
-        <td>item </td>
+        <td>elemento </td>
         <td> </td>
     </tr>
     <tr>
@@ -59,7 +59,7 @@ ht-degree: 15%
     <tr>
         <td>eventHistoId</td>
         <td>ID de evento archivado</td>
-        <td>integer </td>
+        <td>entero </td>
         <td> </td>
     </tr>
     <tr>
@@ -71,7 +71,7 @@ ht-degree: 15%
     <tr>
         <td>serverUrl</td>
         <td>ServerUrl</td>
-        <td>string </td>
+        <td>cadena </td>
         <td> </td>
     </tr>
 </table>
@@ -87,7 +87,7 @@ Por correo electrónico (por correo electrónico)
     </tr>
     <tr>
     <td>email</td>
-    <td>string</td>
+    <td>cadena</td>
     </tr>
 </table>
 
@@ -99,11 +99,11 @@ Por estado o tipo (byStatusOrType)
         <th>Tipo</th>
         </tr>
         <tr>
-        <td>status</td>
+        <td>estado</td>
         <td>enumeración</td>
         </tr>
         <tr>
-        <td>type</td>
-        <td>string</td>
+        <td>tipo</td>
+        <td>cadena</td>
         </tr>
     </table>

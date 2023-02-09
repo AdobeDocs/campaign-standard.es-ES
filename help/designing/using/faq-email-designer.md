@@ -1,5 +1,5 @@
 ---
-title: 'Preguntas más frecuentes del Diseñador de correo electrónico '
+title: Preguntas más frecuentes del Diseñador de correo electrónico
 description: Preguntas más frecuentes sobre el Diseñador de correo electrónico.
 audience: designing
 content-type: reference

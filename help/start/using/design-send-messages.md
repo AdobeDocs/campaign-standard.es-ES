@@ -1,13 +1,13 @@
 ---
 title: Personalización de listas
-description: '"Aprenda a personalizar la visualización y a actuar en las pantallas de lista en Adobe Campaign Standard:clasificación, filtrado, eliminación o duplicación de elementos. Las pantallas de listas muestran los elementos de uno o varios recursos determinados."'
+description: "Aprenda a personalizar la visualización y a actuar en las pantallas de lista en Adobe Campaign Standard:clasificación, filtrado, eliminación o duplicación de elementos. Las pantallas de listas muestran los elementos de uno o varios recursos determinados."
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '577'
-ht-degree: 6%
+ht-degree: 23%
 
 ---
 
@@ -90,13 +90,13 @@ Los mensajes personalizados son fundamentales para enviar contenido relevante, o
 
 <img width="60px" alt="condiciones" src="assets/icon_profile.svg"/>
 
-Además de las potentes plantillas de informes integradas, Adobe Campaign permite crear informes personalizados en los niveles de envío, campaña, usuario o segmento. Rastree sus mensajes y comprenda el comportamiento de sus clientes enriqueciendo progresivamente sus datos de perfil. Las herramientas de análisis e informes le permiten aprovechar al máximo cada nueva campaña, dirigir mejor sus acciones de marketing y optimizar su impacto y retorno en la inversión.
+Además de las potentes plantillas de creación de informes disponibles de forma predeterminada, Adobe Campaign permite crear informes personalizados en los niveles de entrega, campaña, usuario o segmento. Rastree sus mensajes y comprenda el comportamiento de sus clientes enriqueciendo progresivamente sus datos de perfil. Las herramientas de análisis e informes le permiten aprovechar al máximo cada nueva campaña, dirigir mejor sus acciones de marketing y optimizar su impacto y retorno en la inversión.
 
 La interfaz gráfica proporciona un acceso rápido y fácil a los indicadores principales y a las estadísticas de envío.
 
 ![](assets/dynamic_report_intro.png)
 
-La interfaz de usuario de informes de campaña facilita la creación de informes dinámicos. Puede usar variables de arrastrar y soltar para personalizar los informes y analizar el éxito de las campañas. En función de la complejidad de las consultas y los cálculos, se pueden agregar los datos a una vista de lista o acceder a ellos en un formato que facilite la generación de informes de análisis de marketing.
+La interfaz de usuario de informes de campaña facilita la creación de informes dinámicos. Puede usar variables de arrastrar y soltar para personalizarlos y analizar el éxito de las campañas. Según la complejidad de las consultas y los cálculos, se pueden agregar los datos a una vista de lista o acceder a ellos en un formato que facilite la generación de informes de análisis de marketing.
 
 Con Adobe Campaign, puede monitorizar y rastrear cada envío individualmente. El panel de mensajes muestra registros dedicados para realizar un seguimiento de procesos, reglas e identificar posibles errores y advertencias.
 

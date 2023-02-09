@@ -127,7 +127,7 @@ La excepción a esto son los flujos de datos de exclusión bidireccionales y de 
 
 Si se encuentra en regiones de EMEA o APAC, algunos de sus datos se procesarán en EE. UU. como parte de esta integración. Para obtener más información, consulte [esta sección](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
-## Seguridad y limitaciones
+## Mecanismos de protección y limitaciones
 
 >[!IMPORTANT]
 >

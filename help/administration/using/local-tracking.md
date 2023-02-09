@@ -27,7 +27,7 @@ El seguimiento de notificaciones locales se puede dividir en tres tipos:
 
 * **Apertura local** : cuando se envía una notificación local al dispositivo y el usuario ha hecho clic en la notificación que provoca que la aplicación se abra. Esto es similar al clic local, excepto que una apertura local no se activará si se descarta la notificación.
 
-Para implementar el seguimiento para Adobe Campaign Standard, la aplicación móvil debe incluir el SDK de Mobile en la aplicación. Estos SDK están disponibles en [!DNL Adobe Mobile Services].
+Para implementar el seguimiento para Adobe Campaign Standard, la aplicación móvil debe incluir el SDK móvil en la aplicación. Estos SDK están disponibles en [!DNL Adobe Mobile Services].
 
 Para enviar la información de seguimiento, hay tres variables que se deben enviar: dos son parte de los datos recibidos de Adobe Campaign y el otro es una variable de acción que dicta si es una impresión, un clic o una apertura.
 

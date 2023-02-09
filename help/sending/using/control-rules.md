@@ -31,16 +31,16 @@ Un conjunto de reglas predeterminadas garantiza los controles estándar. La tabl
 |---------|----------|---------|---------|
 | **[!UICONTROL A/B Test]** | Correo electrónico | At the start of personalization | Extrae la población de prueba para una entrega con una prueba A/B. |
 | **[!UICONTROL Check delivery size]** | Todo | After targeting | Comprueba el tamaño de los mensajes. |
-| **[!UICONTROL Check email content is not empty]** | Correo electrónico | Después de la segmentación | Genera un error si el contenido del mensaje está vacío. |
+| **[!UICONTROL Check email content is not empty]** | Correo electrónico | After targeting | Genera un error si el contenido del mensaje está vacío. |
 | **[!UICONTROL Check In-App content for broadcast template]** | En la aplicación | Personalización al inicio | Comprueba que el contenido o los déclencheur en la aplicación no estén vacíos para la plantilla de difusión. |
-| **[!UICONTROL Check In-App content for profile template]** | En la aplicación | Al principio de la personalización | Comprueba que el contenido o los déclencheur en la aplicación no estén vacíos para la plantilla de perfil. |
-| **[!UICONTROL Check In-App content for subscriber template]** | En la aplicación | Al principio de la personalización | Comprueba que el contenido o los déclencheur en la aplicación no estén vacíos para la plantilla del suscriptor. |
-| **[!UICONTROL Check proof size]** | Todo | Después de la segmentación | Genera un mensaje de error si la población de destino de prueba supera los 100 destinatarios. |
-| **[!UICONTROL Check social network sharing link]** | Correo electrónico | Al principio de la personalización | Comprueba la presencia de un vínculo a una página espejo al incluir un vínculo de uso compartido de red social (ViralLinks) en el contenido. |
-| **[!UICONTROL Check subject]** | Correo electrónico | Al principio de la personalización | Comprueba que el asunto y la dirección del remitente no contienen caracteres especiales que puedan causar problemas en determinados agentes de transferencia de correo, y comprueba que el asunto del mensaje se haya completado. |
-| **[!UICONTROL Check unsubscription link]** | Correo electrónico | Al principio de la personalización | Comprueba la presencia de al menos una URL de baja (exclusión) en cada contenido (HTML y texto). |
-| **[!UICONTROL Check URL labels]** | Correo electrónico | Al principio de la personalización | Comprueba que cada URL de seguimiento tiene una etiqueta. |
-| **[!UICONTROL Check URLs]** | Correo electrónico | Al principio de la personalización | Comprueba las direcciones URL de seguimiento (presencia del carácter &quot;&amp;&quot;). |
+| **[!UICONTROL Check In-App content for profile template]** | En la aplicación | At the start of personalization | Comprueba que el contenido o los déclencheur en la aplicación no estén vacíos para la plantilla de perfil. |
+| **[!UICONTROL Check In-App content for subscriber template]** | En la aplicación | At the start of personalization | Comprueba que el contenido o los déclencheur en la aplicación no estén vacíos para la plantilla del suscriptor. |
+| **[!UICONTROL Check proof size]** | Todo | After targeting | Genera un mensaje de error si la población de destino de prueba supera los 100 destinatarios. |
+| **[!UICONTROL Check social network sharing link]** | Correo electrónico | At the start of personalization | Comprueba la presencia de un vínculo a una página espejo al incluir un vínculo de uso compartido de red social (ViralLinks) en el contenido. |
+| **[!UICONTROL Check subject]** | Correo electrónico | At the start of personalization | Comprueba que el asunto y la dirección del remitente no contienen caracteres especiales que puedan causar problemas en determinados agentes de transferencia de correo, y comprueba que el asunto del mensaje se haya completado. |
+| **[!UICONTROL Check unsubscription link]** | Correo electrónico | At the start of personalization | Comprueba la presencia de al menos una URL de baja (exclusión) en cada contenido (HTML y texto). |
+| **[!UICONTROL Check URL labels]** | Correo electrónico | At the start of personalization | Comprueba que cada URL de seguimiento tiene una etiqueta. |
+| **[!UICONTROL Check URLs]** | Correo electrónico | At the start of personalization | Comprueba las direcciones URL de seguimiento (presencia del carácter &quot;&amp;&quot;). |
 
 ## Fases de ejecución de las reglas de control {#control-rules-execution-phases}
 

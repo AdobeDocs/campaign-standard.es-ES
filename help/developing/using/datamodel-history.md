@@ -10,7 +10,7 @@ exl-id: 7f2a3139-57eb-48ff-9b1a-ac2caad2f691
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '1206'
-ht-degree: 7%
+ht-degree: 12%
 
 ---
 
@@ -28,13 +28,13 @@ ht-degree: 7%
                <tr>
                   <td>PKey</td>
                   <td>ID del recurso principal</td>
-                  <td>string </td>
+                  <td>cadena </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>age</td>
                   <td>Edad</td>
-                  <td>integer </td>
+                  <td>entero </td>
                   <td> </td>
                </tr>
                <tr>
@@ -69,13 +69,13 @@ ht-degree: 7%
                </tr>
                <tr>
                   <td>blackListPhone</td>
-                  <td>Ya no se puede contactar por teléfono</td>
+                  <td>Ya no tiene contacto por teléfono</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>blackListPostalMail</td>
-                  <td>Ya no se puede contactar por correo postal</td>
+                  <td>Ya no se puede contactar por correo directo</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
@@ -88,13 +88,13 @@ ht-degree: 7%
                <tr>
                   <td>countBroadLogEvents</td>
                   <td>CountBroadLogEvents</td>
-                  <td>integer </td>
+                  <td>entero </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>countSubHistoEvents</td>
                   <td>CountSubHistoEvents</td>
-                  <td>integer </td>
+                  <td>entero </td>
                   <td> </td>
                </tr>
                <tr>
@@ -185,7 +185,7 @@ ht-degree: 7%
                <tr>
                   <td>kpisAndChart</td>
                   <td>KpisAndChart</td>
-                  <td>item </td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -203,7 +203,7 @@ ht-degree: 7%
                <tr>
                   <td>ubicación</td>
                   <td>Ubicación</td>
-                  <td>item </td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -232,7 +232,7 @@ ht-degree: 7%
                </tr>
                <tr>
                   <td>modifiedBy (userBase)</td>
-                  <td>modificado por</td>
+                  <td>Modificado por</td>
                   <td>vínculo </td>
                   <td> </td>
                </tr>
@@ -407,11 +407,11 @@ Cumpleaños (cumpleaños)
 </tr>
 <tr>
 <td>previousUnitsValue</td>
-<td>integer</td>
+<td>entero</td>
 </tr>
 <tr>
 <td>nextUnitsValue</td>
-<td>integer</td>
+<td>entero</td>
 </tr>
 <tr>
 <td>endDay</td>
@@ -423,7 +423,7 @@ Cumpleaños (cumpleaños)
 </tr>
 <tr>
 <td>relationValue</td>
-<td>string</td>
+<td>cadena</td>
 </tr>
 <tr>
 <td>mes</td>
@@ -442,7 +442,7 @@ Cumpleaños (cumpleaños)
 <td>date</td>
 </tr>
 <tr>
-<td>type</td>
+<td>tipo</td>
 <td>enumeración</td>
 </tr>
 <tr>
@@ -460,7 +460,7 @@ Por correo electrónico (por correo electrónico)
 </tr>
 <tr>
 <td>email</td>
-<td>string</td>
+<td>cadena</td>
 </tr>
 </table>
 
@@ -473,7 +473,7 @@ Por claves (byKeysProfile)
 </tr>
 <tr>
 <td>email</td>
-<td>string</td>
+<td>cadena</td>
 </tr>
 </table>
 
@@ -486,7 +486,7 @@ Por nombre o correo electrónico (byText)
 </tr>
 <tr>
 <td>text</td>
-<td>string</td>
+<td>cadena</td>
 </tr>
 </table>
 
@@ -511,7 +511,7 @@ Clic (hasClickedDelivery)
 <th>Tipo</th>
 </tr>
 <tr>
-<td>entrega</td>
+<td>envío</td>
 <td>vínculo</td>
 </tr>
 </table>
@@ -524,7 +524,7 @@ Abierto (hasOpenedDelivery)
 <th>Tipo</th>
 </tr>
 <tr>
-<td>entrega</td>
+<td>envío</td>
 <td>vínculo</td>
 </tr>
 </table>
@@ -550,7 +550,7 @@ Recibido (hasReceivedDelivery)
 <th>Tipo</th>
 </tr>
 <tr>
-<td>entrega</td>
+<td>envío</td>
 <td>vínculo</td>
 </tr>
 </table>

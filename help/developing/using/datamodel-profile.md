@@ -10,7 +10,7 @@ exl-id: 652c22a5-7fff-4d08-9396-f0b292aaca76
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '1249'
-ht-degree: 8%
+ht-degree: 13%
 
 ---
 
@@ -28,13 +28,13 @@ ht-degree: 8%
                <tr>
                   <td>PKey</td>
                   <td>ID del recurso principal</td>
-                  <td>string </td>
+                  <td>cadena </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>age</td>
                   <td>Edad</td>
-                  <td>integer </td>
+                  <td>entero </td>
                   <td> </td>
                </tr>
                <tr>
@@ -75,13 +75,13 @@ ht-degree: 8%
                </tr>
                <tr>
                   <td>blackListPhone</td>
-                  <td>Ya no se puede contactar por teléfono</td>
+                  <td>Ya no tiene contacto por teléfono</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>blackListPostalMail</td>
-                  <td>Ya no se puede contactar por correo postal</td>
+                  <td>Ya no se puede contactar por correo directo</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
@@ -112,7 +112,7 @@ ht-degree: 8%
                <tr>
                   <td>cryptedId</td>
                   <td>ID cifrado</td>
-                  <td>string </td>
+                  <td>cadena </td>
                   <td> </td>
                </tr>
                <tr>
@@ -222,11 +222,11 @@ ht-degree: 8%
                <tr>
                   <td>ubicación</td>
                   <td>Ubicación</td>
-                  <td>item </td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>logs</td>
+                  <td>registros</td>
                   <td>Registros de entregas</td>
                   <td>colección </td>
                   <td> </td>
@@ -245,7 +245,7 @@ ht-degree: 8%
                </tr>
                <tr>
                   <td>modifiedBy (userBase)</td>
-                  <td>modificado por</td>
+                  <td>Modificado por</td>
                   <td>vínculo </td>
                   <td> </td>
                </tr>
@@ -264,7 +264,7 @@ ht-degree: 8%
                <tr>
                   <td>postalAddress</td>
                   <td>Dirección postal</td>
-                  <td>item </td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -452,11 +452,11 @@ Cumpleaños (cumpleaños)
 </tr>
 <tr>
 <td>previousUnitsValue</td>
-<td>integer</td>
+<td>entero</td>
 </tr>
 <tr>
 <td>nextUnitsValue</td>
-<td>integer</td>
+<td>entero</td>
 </tr>
 <tr>
 <td>endDay</td>
@@ -468,7 +468,7 @@ Cumpleaños (cumpleaños)
 </tr>
 <tr>
 <td>relationValue</td>
-<td>string</td>
+<td>cadena</td>
 </tr>
 <tr>
 <td>mes</td>
@@ -487,7 +487,7 @@ Cumpleaños (cumpleaños)
 <td>date</td>
 </tr>
 <tr>
-<td>type</td>
+<td>tipo</td>
 <td>enumeración</td>
 </tr>
 <tr>
@@ -505,7 +505,7 @@ Por correo electrónico (por correo electrónico)
 </tr>
 <tr>
 <td>email</td>
-<td>string</td>
+<td>cadena</td>
 </tr>
 </table>
 
@@ -518,7 +518,7 @@ Por claves (byKeysProfile)
 </tr>
 <tr>
 <td>email</td>
-<td>string</td>
+<td>cadena</td>
 </tr>
 </table>
 
@@ -531,7 +531,7 @@ Por nombre o correo electrónico (byText)
 </tr>
 <tr>
 <td>text</td>
-<td>string</td>
+<td>cadena</td>
 </tr>
 </table>
 
@@ -556,7 +556,7 @@ Clic (hasClickedDelivery)
 <th>Tipo</th>
 </tr>
 <tr>
-<td>entrega</td>
+<td>envío</td>
 <td>vínculo</td>
 </tr>
 </table>
@@ -569,7 +569,7 @@ Abierto (hasOpenedDelivery)
 <th>Tipo</th>
 </tr>
 <tr>
-<td>entrega</td>
+<td>envío</td>
 <td>vínculo</td>
 </tr>
 </table>
@@ -595,7 +595,7 @@ Recibido (hasReceivedDelivery)
 <th>Tipo</th>
 </tr>
 <tr>
-<td>entrega</td>
+<td>envío</td>
 <td>vínculo</td>
 </tr>
 </table>

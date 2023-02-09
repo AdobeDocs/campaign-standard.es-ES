@@ -10,7 +10,7 @@ exl-id: a326b38f-ca88-4a44-a7c2-b6e34497a364
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 21%
+ht-degree: 34%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 21%
                <tr>
                   <td>PKey</td>
                   <td>ID del recurso principal</td>
-                  <td>string </td>
+                  <td>cadena </td>
                   <td> </td>
                </tr>
                <tr>
@@ -52,7 +52,7 @@ ht-degree: 21%
                <tr>
                   <td>cusPrice</td>
                   <td>Precio</td>
-                  <td>integer </td>
+                  <td>entero </td>
                   <td> </td>
                </tr>
                <tr>
@@ -87,7 +87,7 @@ ht-degree: 21%
                </tr>
                <tr>
                   <td>isTemplate</td>
-                  <td>Template</td>
+                  <td>Plantilla</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
@@ -141,7 +141,7 @@ ht-degree: 21%
                </tr>
                <tr>
                   <td>modifiedBy (userBase)</td>
-                  <td>modificado por</td>
+                  <td>Modificado por</td>
                   <td>vínculo </td>
                   <td> </td>
                </tr>
@@ -184,7 +184,7 @@ ht-degree: 21%
                <tr>
                   <td>subScenarioEventType</td>
                   <td>SubScenarioEventType</td>
-                  <td>string </td>
+                  <td>cadena </td>
                   <td> </td>
                </tr>
                <tr>
@@ -232,13 +232,13 @@ ht-degree: 21%
                <tr>
                   <td>unsubScenarioEventType</td>
                   <td>UnsubScenarioEventType</td>
-                  <td>string </td>
+                  <td>cadena </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>validDuration</td>
                   <td>Duración de validez</td>
-                  <td>number </td>
+                  <td>número </td>
                   <td> </td>
                </tr>
             </table>
@@ -284,7 +284,7 @@ Por nombre o etiqueta (byText)
 </tr>
 <tr>
 <td>text</td>
-<td>string</td>
+<td>cadena</td>
 </tr>
 </table>
 
@@ -297,6 +297,6 @@ Por recurso de segmentación (byTargetResource)
 </tr>
 <tr>
 <td>targetResource</td>
-<td>string</td>
+<td>cadena</td>
 </tr>
 </table>

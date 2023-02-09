@@ -46,9 +46,9 @@ Al reemplazar actividades de API externas, añada la nueva actividad de API exte
 >
 >No podrá copiar sobre los valores del encabezado específicos de la actividad, ya que están enmascarados dentro de la actividad.
 
-### Limitaciones y barreras {#guardrails}
+### Limitaciones y mecanismos de protección {#guardrails}
 
-Esta actividad se rige por las siguientes limitaciones:
+Esta actividad se rige por los siguientes mecanismos de protección:
 
 * Límite de tamaño de datos de respuesta http de 5 MB (Nota: Esto supone un cambio con respecto al límite de 50 MB de la versión anterior).
 * El tiempo de espera de la solicitud es de 1 minuto (Nota: Esto supone un cambio con respecto al tiempo de espera de 10 minutos de la versión anterior).
@@ -56,7 +56,7 @@ Esta actividad se rige por las siguientes limitaciones:
 * Se rechazan las direcciones URL que no son HTTPS.
 * Están permitidos el encabezado de solicitud “Accept: application/json” y el encabezado de respuesta “Content-Type: application/json”.
 
-Se han establecido limitaciones específicas:
+Se han establecido mecanismos de protección específicos:
 
 * **Profundidad máxima de JSON**: limitar la profundidad máxima de un archivo JSON personalizado anidado que se puede procesar a 10 niveles.
 * **Longitud máxima de clave JSON**: limitar la longitud máxima de la clave interna generada a 255. Esta clave está asociada al ID de columna.
@@ -261,7 +261,7 @@ Estos mensajes de registro se utilizan para registrar información sobre las con
   </tr> 
   <tr> 
    <td> WKF-560247 - Un valor de encabezado HTTP no es correcto (valor de encabezado: '%s').</td> 
-   <td> <p>El valor del encabezado HTTP es incorrecto (valor del encabezado: '%s'). </p>
+   <td> <p>HTTP header value is bad (header value: '%s'). </p>
     <p>Nota: Este error se registra cuando el valor del encabezado personalizado falla en la validación según <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a>.</p></td> 
   </tr> 
   <tr> 

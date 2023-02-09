@@ -37,7 +37,7 @@ Para editar un perfil existente y consultar los datos asociados a él, o modific
 
 La edición de perfiles también es posible mediante la API de Adobe Campaign Standard. Para obtener más información, consulte la [documentación específica](../../api/using/updating-profiles.md).
 
-Temas relacionados:
+Tema relacionado:
 
 * [Perfil de cliente integrado](../../audiences/using/integrated-customer-profile.md)
 * [Envío en el huso horario del destinatario](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)

@@ -10,7 +10,7 @@ exl-id: 53da6c4e-d4fb-4677-acff-744e3eb10960
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 21%
+ht-degree: 40%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 21%
                <tr>
                   <td>PKey</td>
                   <td>ID del recurso principal</td>
-                  <td>string </td>
+                  <td>cadena </td>
                   <td> </td>
                </tr>
                <tr>
@@ -70,7 +70,7 @@ ht-degree: 21%
                <tr>
                   <td>count</td>
                   <td>Recuento</td>
-                  <td>integer </td>
+                  <td>entero </td>
                   <td> </td>
                </tr>
                <tr>
@@ -82,7 +82,7 @@ ht-degree: 21%
                <tr>
                   <td>countPreview</td>
                   <td>CountPreview</td>
-                  <td>item </td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -105,14 +105,14 @@ ht-degree: 21%
                </tr>
                <tr>
                   <td>doNotPersist</td>
-                  <td>No histórico este trabajo</td>
+                  <td>No historiar este trabajo</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>errorLimit</td>
-                  <td>Errores antes de cancelar</td>
-                  <td>integer </td>
+                  <td>Errores antes de anular</td>
+                  <td>entero </td>
                   <td> </td>
                </tr>
                <tr>
@@ -165,7 +165,7 @@ ht-degree: 21%
                </tr>
                <tr>
                   <td>modifiedBy (userBase)</td>
-                  <td>modificado por</td>
+                  <td>Modificado por</td>
                   <td>vínculo </td>
                   <td> </td>
                </tr>
@@ -184,25 +184,25 @@ ht-degree: 21%
                <tr>
                   <td>rejectFilename</td>
                   <td>Archivo de rechazo</td>
-                  <td>string </td>
+                  <td>cadena </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>sharedAudience</td>
                   <td>Nombre de la audiencia compartida</td>
-                  <td>item </td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>source</td>
+                  <td>origen</td>
                   <td>Fuente</td>
-                  <td>item </td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>sourceId</td>
                   <td>ID de origen</td>
-                  <td>integer </td>
+                  <td>entero </td>
                   <td> </td>
                </tr>
                <tr>
@@ -212,7 +212,7 @@ ht-degree: 21%
                   <td> </td>
                </tr>
                <tr>
-                  <td>type</td>
+                  <td>tipo</td>
                   <td>Tipo</td>
                   <td>enumeración (cadena) (100)</td>
                   <td>
@@ -227,7 +227,7 @@ ht-degree: 21%
                <tr>
                   <td>donde</td>
                   <td>Definición de consulta</td>
-                  <td>item </td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -249,7 +249,7 @@ Por dimensión de filtrado (byFilteringResource)
     </tr>
     <tr>
     <td>filteringResource</td>
-    <td>string</td>
+    <td>cadena</td>
     </tr>
 </table>
 
@@ -262,7 +262,7 @@ Por nombre o etiqueta (byText)
     </tr>
     <tr>
     <td>text</td>
-    <td>string</td>
+    <td>cadena</td>
     </tr>
 </table>
 
@@ -274,11 +274,11 @@ Por tipo (byType)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>type</td>
+    <td>tipo</td>
     <td>enumeración</td>
     </tr>
     <tr>
     <td>isAMC</td>
-    <td>string</td>
+    <td>cadena</td>
     </tr>
 </table>

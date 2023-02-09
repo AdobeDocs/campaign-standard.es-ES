@@ -9,7 +9,7 @@ exl-id: 5f25f2b2-ca41-4baf-ade2-42bbafb4790d
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
 source-wordcount: '505'
-ht-degree: 20%
+ht-degree: 21%
 
 ---
 
@@ -81,7 +81,7 @@ Campaign Standard le permite enviar notificaciones a los supervisores para super
 
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
-**Entrega**
+**Capacidad de entrega**
 
 Campaign Standard proporciona varias herramientas de envío para ayudarle a mejorar el número de mensajes enviados correctamente: informes de rendimiento de entrega, optimización del tiempo de envío, previsualización de mensajes, procesamiento de correo electrónico, administración de cuarentena, etc.
 [Más información](../../sending/using/about-deliverability.md)

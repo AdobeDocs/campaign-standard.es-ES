@@ -1,5 +1,5 @@
 ---
-title: 'Creación y uso de contenido reutilizable '
+title: Creación y uso de contenido reutilizable
 description: Empiece a crear contenido de correo electrónico reutilizable con el Diseñador de correo electrónico.
 audience: designing
 content-type: reference
@@ -11,7 +11,7 @@ exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1819'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 

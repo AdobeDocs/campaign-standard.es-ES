@@ -114,7 +114,7 @@ Una vez definida la página de aterrizaje, puede simular la forma en que se ejec
 
 >[!IMPORTANT]
 >
->Las pruebas de la página de aterrizaje solo pueden realizarse con perfiles, pero no con perfiles de ensayo. Cuando se envía el formulario, los datos del perfil seleccionado se actualizarán para que sean reales. Para evitar la modificación de perfiles reales, utilice un perfil de cliente falso.
+>Las pruebas de la página de aterrizaje solo pueden realizarse con perfiles, pero no con perfiles de prueba. Cuando se envía el formulario, los datos del perfil seleccionado se actualizarán para que sean reales. Para evitar la modificación de perfiles reales, utilice un perfil de cliente falso.
 
 Si está satisfecho con el comportamiento de la página de aterrizaje, puede publicarla para que esté disponible en línea.
 
