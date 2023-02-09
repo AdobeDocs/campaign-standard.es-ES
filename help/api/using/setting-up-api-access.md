@@ -8,23 +8,23 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
-source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 3%
+source-wordcount: '369'
+ht-degree: 2%
 
 ---
 
 # Configuración del acceso a API {#setting-up-api-access}
 
-El acceso a la API de Adobe Campaign Standard se configura siguiendo los pasos que se indican a continuación. Cada uno de estos pasos se detalla en la [Documentación de IO de Adobe](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
+El acceso a la API de Adobe Campaign Standard se configura siguiendo los pasos que se indican a continuación. Cada uno de estos pasos se detalla en la [Documentación de Adobe Developer](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
 
 >[!IMPORTANT]
 >
->Para administrar certificados en Adobe IO, asegúrese de que tiene <b>Administrador del sistema</b> derechos sobre la organización o [cuenta de desarrollador](https://helpx.adobe.com/enterprise/using/manage-developers.html)</a> en el Admin Console.
+>Para administrar certificados en [Adobe Developer](https://developer.adobe.com/), asegúrese de que tiene **Administrador del sistema** derechos sobre la organización o [cuenta de desarrollador](https://helpx.adobe.com/es/enterprise/using/manage-developers.html) en el Admin Console.
 
 1. **Comprobar que tiene un certificado digital** o cree uno si es necesario. Las claves pública y privada proporcionadas con el certificado son necesarias en los siguientes pasos.
-1. **Crear una nueva integración en el servicio de Adobe Campaign** en Adobe IO y configúrelo. A continuación, se generarán sus credenciales (clave de API, secreto de cliente...).
+1. **Crear una nueva integración en el servicio de Adobe Campaign** en [Adobe Developer](https://developer.adobe.com/) y configúrelo. A continuación, se generarán sus credenciales (clave de API, secreto de cliente...).
 1. **Creación de un token web JSON (JWT)** a partir de las credenciales generadas anteriormente y firme con la clave privada. El JWT codifica toda la información de identidad y seguridad que necesita el Adobe para comprobar su identidad y permitirle acceder a la API.
 1. **Intercambiar el JWT por un token de acceso** mediante una solicitud del POST. Este token de acceso debe utilizarse en cada encabezado de sus solicitudes de API.
 
@@ -43,7 +43,7 @@ Para establecer una sesión segura de API de Adobe I/O de servicio a servicio, c
    * &lt;organization> : la instancia de producción,
    * &lt;organization-mkt-stage>: la instancia de stage.
 
-   Para obtener el valor de ID de organización, consulte con el administrador o con el contacto técnico de Adobe. También puede recuperarla en Adobe I/O al crear una nueva integración, en la lista de licencias (consulte la <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Documentación de IO de Adobe</a>).
+   Para obtener el valor de ID de organización, consulte con el administrador o con el contacto técnico de Adobe. También puede recuperarla en Adobe I/O al crear una nueva integración, en la lista de licencias (consulte la <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Documentación de Adobe Developer</a>).
 
 * **&lt;access_token>**: Su token de acceso personal, que se recuperó al intercambiar su token web JSON mediante una solicitud del POST.
 

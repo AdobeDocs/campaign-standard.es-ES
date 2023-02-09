@@ -1,13 +1,13 @@
 ---
 title: Personalización de listas
-description: '"Aprenda a personalizar la visualización y a actuar en las pantallas de lista en Adobe Campaign Standard:clasificación, filtrado, eliminación o duplicación de elementos. Las pantallas de listas muestran los elementos de uno o varios recursos determinados."'
+description: "Aprenda a personalizar la visualización y a actuar en las pantallas de lista en Adobe Campaign Standard:clasificación, filtrado, eliminación o duplicación de elementos. Las pantallas de listas muestran los elementos de uno o varios recursos determinados."
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 11%
+source-wordcount: '776'
+ht-degree: 10%
 
 ---
 
@@ -125,7 +125,7 @@ Gracias a los flujos de trabajo y al editor de consultas, puede crear audiencias
 
 El Reglamento General de Protección de Datos (GDPR) es la nueva normativa sobre privacidad de la Unión Europea que unifica y moderniza los requisitos de protección de datos. El RGPD se aplica a los clientes de Adobe Campaign que albergan datos de sujetos de datos que residan en la UE. Además de las funcionalidades de privacidad ya disponibles en Adobe Campaign (incluida la administración de consentimiento, la configuración de retención de datos y las funciones de usuario), estamos tomando esta oportunidad en nuestro rol como procesador de datos para incluir funcionalidades adicionales, para ayudar a facilitar su preparación como controlador de datos para ciertas solicitudes de RGPD.
 
-Consulte esta [guía](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=es) para obtener más información sobre las herramientas y funcionalidades que proporciona Adobe Campaign para ayudarle a cumplir con el RGPD.
+Consulte [esta sección](../../start/using/privacy.md) para obtener más información sobre las herramientas y funcionalidades que proporciona Adobe Campaign para ayudarle a cumplir con el RGPD.
 
 **Más información**
 

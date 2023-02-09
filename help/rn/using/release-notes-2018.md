@@ -6,10 +6,10 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '5357'
-ht-degree: 10%
+source-wordcount: '5355'
+ht-degree: 9%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 10%
   </tr> 
   <tr> 
    <td> Integración de Adobe Launch para aplicaciones móviles (beta)<br /> </td> 
-   <td> La integración de Adobe Launch con Adobe Campaign ahora simplifica y automatiza el proceso de activación de la propiedad de la aplicación móvil en Campaign mediante el SDK V5 para móviles.<br /> Para obtener más información, consulte la <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">documentación detallada</a>.<br /> </td> 
+   <td> La integración de Adobe Launch con Adobe Campaign ahora simplifica y automatiza el proceso de activación de la propiedad de la aplicación móvil en Campaign mediante el SDK V5 para móviles.<br /> Para obtener más información, consulte la <a href="https://helpx.adobe.com/es/campaign/kb/configuring-app-sdk.html">documentación detallada</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -195,7 +195,7 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td> RGPD: Integración de servicios principales<br /> </td> 
-   <td> La integración del servicio principal de privacidad le permite automatizar sus solicitudes de RGPD en un contexto de varias soluciones a través de una sola llamada de API JSON. <br /> Las solicitudes de RGPD insertadas desde el Servicio principal de privacidad a todas las soluciones de Experience Cloud ahora son gestionadas automáticamente por Campaign. <br /> Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=es">documentación detallada</a>.<br /> </td> 
+   <td> La integración del servicio principal de privacidad le permite automatizar sus solicitudes de RGPD en un contexto de varias soluciones a través de una sola llamada de API JSON. <br /> Las solicitudes de RGPD insertadas desde el Servicio principal de privacidad a todas las soluciones de Experience Cloud ahora son gestionadas automáticamente por Campaign. <br /> Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Mejoras de push: comentarios detallados sobre la entrega<br /> </td> 
@@ -297,7 +297,7 @@ _Recursos personalizados_
     <ul> 
      <li> Derecho de acceso: permite que el sujeto de datos reciba una copia de sus datos personales recopilados por los controladores de datos, lo que incluye datos almacenados en Adobe Campaign. </li> 
      <li> Derecho a eliminación: autoriza al sujeto de datos a que sus datos personales recopilados por los controladores de datos se borren, lo que incluye datos almacenados en Adobe Campaign. </li> 
-    </ul> Para obtener más información, consulte la <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">documentación detallada</a>.<br /> </td> 
+    </ul> Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer para correo electrónico (Beta)<br /> </td> 

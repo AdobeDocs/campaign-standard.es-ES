@@ -9,10 +9,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: fa39eb54-9ec0-4aff-94a8-5459f4c496d0
-source-git-commit: 41366b6fa7647dbf0e4e5df71e2755189f4ffc42
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 93%
+source-wordcount: '768'
+ht-degree: 92%
 
 ---
 
@@ -105,4 +105,4 @@ La análisis del delta es un paso obligatorio, ya que el paso de publicación mo
 >
 >Esta publicación actualiza la API de **[!UICONTROL profilesAndServicesExt]**. La API de **[!UICONTROL profilesAndServices]** no se ha actualizado.
 
-Para obtener más información sobre la API de Adobe Campaign, consulte la documentación de Adobe Campaign sobre [Adobe I/O](https://docs.campaign.adobe.com/doc/standard/en/adobeio.html).
+Para obtener más información sobre las API de Adobe Campaign Standard, consulte [esta sección](../../api/using/get-started-apis.md).

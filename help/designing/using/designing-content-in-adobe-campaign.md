@@ -8,9 +8,9 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1239'
 ht-degree: 88%
 
 ---
@@ -119,7 +119,7 @@ Para utilizar correctamente el Diseñador de correo electrónico y crear los mej
 
 * La metaetiqueta del referente no es compatible con el Diseñador de correo electrónico.
 
-En la siguiente guía paso a paso de Adobe Campaign se ofrecen más prácticas generales y de diseño sobre los mensajes: [Prácticas recomendadas de envío con Adobe Campaign](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/communication-channels/delivery-bestpractices/delivery-best-practices.html).
+En la siguiente guía paso a paso de Adobe Campaign se ofrecen más prácticas generales y de diseño sobre los mensajes: [Prácticas recomendadas de envío con Adobe Campaign](../../sending/using/delivery-best-practices.md).
 
 ### Actualización de fragmentos {#email-designer-updates}
 
