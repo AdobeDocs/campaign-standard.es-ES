@@ -4,16 +4,14 @@ description: Obtenga información sobre cómo actualizar la calificación de dev
 audience: delivery
 hidefromtoc: true
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: f81b8a3b076a6e29b697f21ea4d99fa7d5b6788c
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 91%
+source-wordcount: '425'
+ht-degree: 96%
 
 ---
 
 # Actualización de la calificación de devoluciones después de una interrupción del ISP {#update-bounce-qualification.md}
-
-Si NO está ejecutando la última versión de Campaign, esta sección puede aplicarse a usted. Consulte con su representante de Adobe Campaign.
 
 ## Contexto
 

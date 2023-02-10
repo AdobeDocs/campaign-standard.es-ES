@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: Centro de ayuda para las principales características, tareas, configuraciones y otros recursos necesarios para utilizar Campaign Standard.
 title: Guía de Campaign Standard
 breadcrumb-title: Documentación de Adobe Campaign Standard
-source-git-commit: 7243a97bdc8f0b6ecba42b606d048a3fbd322a63
+source-git-commit: f81b8a3b076a6e29b697f21ea4d99fa7d5b6788c
 workflow-type: tm+mt
-source-wordcount: '1822'
-ht-degree: 99%
+source-wordcount: '1814'
+ht-degree: 100%
 
 ---
 
@@ -182,7 +182,6 @@ ht-degree: 99%
       + [Recepción de alertas cuando se produzcan errores](sending/using/receiving-alerts-when-failures-happen.md)
       + [Comprensión de los errores de entrega](sending/using/understanding-delivery-failures.md)
       + [Comprensión de la gestión de la cuarentena](sending/using/understanding-quarantine-management.md)
-      + [Actualización de devoluciones duras incorrectas después de la interrupción de Italia Online](sending/using/update-bounce-it.md)
    + Administración de envíos {#managing-deliverability}
       + [Acerca de la capacidad de la entrega](sending/using/about-deliverability.md)
       + [Control del contenido del correo electrónico](sending/using/control-email-content.md)
