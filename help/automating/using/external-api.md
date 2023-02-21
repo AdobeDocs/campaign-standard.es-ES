@@ -38,7 +38,7 @@ Las principales características de esta actividad son:
 
 ### Avisos de compatibilidad con versiones anteriores {#from-beta-to-ga}
 
-Con la versión Campaign Standard 20.4, se han reducido los márgenes de límite de tamaño de datos de respuesta http y de tiempo de espera de respuesta para ajustarse a las prácticas recomendadas. Consulte [Limitaciones y barreras](#guardrails). Estas modificaciones de la limitación no tendrán efecto en las actividades de API externas existentes; por lo tanto, se recomienda reemplazar las actividades de API externas existentes con nuevas versiones en todos los flujos de trabajo.
+Con la versión Campaign Standard 20.4, se han reducido los márgenes de límite de tamaño de datos de respuesta http y de tiempo de espera de respuesta para ajustarse a las prácticas recomendadas. Consulte [Limitaciones y barreras](#guardrails). Estas modificaciones en el mecanismo de protección no tendrán efecto en las actividades de API externas existentes; por lo tanto, se recomienda reemplazar las actividades de API externas existentes con nuevas versiones en todos los flujos de trabajo.
 
 Al reemplazar actividades de API externas, añada la nueva actividad de API externa al flujo de trabajo, copie manualmente los detalles de configuración y, a continuación, elimine la actividad antigua.
 

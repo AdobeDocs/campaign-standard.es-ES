@@ -491,7 +491,7 @@ Cumpleaños (cumpleaños)
 <td>enumeración</td>
 </tr>
 <tr>
-<td>day</td>
+<td>día</td>
 <td>date</td>
 </tr>
 </table>

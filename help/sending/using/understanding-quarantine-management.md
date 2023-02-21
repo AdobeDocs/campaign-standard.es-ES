@@ -11,7 +11,7 @@ exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
 source-git-commit: eec8c66d4947e04cd0eb3dcf0f09d395d9db68b9
 workflow-type: tm+mt
 source-wordcount: '1365'
-ht-degree: 53%
+ht-degree: 69%
 
 ---
 
@@ -77,7 +77,7 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
 >[!NOTE]
 >
->El aumento del número de cuarentenas es un efecto normal, relacionado con el &quot;desgaste&quot; de la base de datos. Por ejemplo, si se considera que la duración de una dirección de correo electrónico es de tres años y la tabla de destinatarios aumenta en un 50 % cada año, el aumento de la cuarentena se puede calcular de la siguiente manera: Fin de año 1: (1)&#42;0,33)/(1+0,5) = 22 %. Fin de año 2: (1.22)&#42;0,33)+0,33)/(1,5+0,75) = 32,5%.
+>El aumento del número de cuarentenas es un efecto normal, relacionado con el &quot;desgaste&quot; de la base de datos. Por ejemplo, si se considera que la duración de una dirección de correo electrónico es de tres años y la tabla de destinatarios aumenta en un 50 % cada año, el aumento de la cuarentena se puede calcular de la siguiente manera: Fin de año 1: (1)&#42;0,33)/(1+0,5) = 22 %. Fin de año 2: ((1,22&#42;0,33)+0,33)/(1,5+0,75) = 32,5 %.
 
 Los filtros están disponibles para ayudarle a navegar por la lista. Puede filtrar por la dirección, el estado o el canal.
 
@@ -101,7 +101,7 @@ Defina la dirección (o el número de teléfono, etc.) y tipo de canal. Puede es
 
 ### Actualizaciones automáticas {#unquarantine-auto}
 
-El flujo de trabajo Database cleanup elimina automáticamente de la lista de cuarentena las direcciones que coinciden con condiciones específicas. Obtenga más información sobre los flujos de trabajo técnicos, consulte [esta sección](../../administration/using/technical-workflows.md#list-of-technical-workflows).
+Las direcciones que cumplen condiciones específicas son automáticamente eliminadas de la lista de cuarentena por el flujo de trabajo de limpieza de la base de datos. Obtenga más información sobre los flujos de trabajo técnicos, consulte [esta sección](../../administration/using/technical-workflows.md#list-of-technical-workflows).
 
 Las direcciones se eliminan automáticamente de la lista de cuarentena en los siguientes casos:
 
@@ -116,7 +116,7 @@ El número máximo de reintentos que se deben realizar en caso de **[!UICONTROL 
 
 >[!IMPORTANT]
 >
->Destinatarios con una dirección en una **[!UICONTROL Quarantine]** o **[!UICONTROL Denylisted]** nunca se eliminan, aunque reciban un correo electrónico.
+>Los destinatarios con una dirección en un estado **[!UICONTROL Quarantine]** o **[!UICONTROL Denylisted]** nunca se quitarán, aunque reciban un correo electrónico.
 
 
 ### Actualizaciones manuales {#unquarantine-manual}
@@ -136,18 +136,18 @@ También puede anular la cuarentena de una dirección manualmente.  Para elimina
 
 Es posible que deba realizar actualizaciones masivas en la lista de cuarentena, por ejemplo, en caso de una interrupción del ISP. En este caso, los correos electrónicos se marcan erróneamente como rechazos porque no se pueden enviar correctamente a su destinatario. Estas direcciones deben eliminarse de la lista de cuarentena.
 
-Para ello, cree un flujo de trabajo y añada un **[!UICONTROL Query]** actividad en la tabla de cuarentena para filtrar todos los destinatarios afectados. Una vez identificados, pueden eliminarse de la lista de cuarentena e incluirse en futuros envíos de correo electrónico de Campaign.
+Para ello, cree un flujo de trabajo y añada una actividad **[!UICONTROL Query]** en la tabla de cuarentena para filtrar todos los destinatarios afectados. Una vez identificados, pueden quitarse de la lista de cuarentena e incluirse en futuros envíos de correo electrónico de Campaign.
 
 En función del periodo de tiempo del problema, se indican a continuación las directrices recomendadas para esta consulta.
 
-* **Texto de error (texto de cuarentena)** contiene &quot;550-5.1.1&quot; Y **Texto de error (texto de cuarentena)** contiene &quot;support.ISP.com&quot;
+* **Texto de error (texto de cuarentena)** contiene “550-5.1.1” Y **Texto de error (texto de cuarentena)** contiene “support.ISP.com”
 
-   donde &quot;support.ISP.com&quot; puede ser: &quot;support.apple.com&quot; o &quot;support.google.com&quot;, por ejemplo
+   donde “support.ISP.com” puede ser: “support.apple.com” o “support.google.com”, por ejemplo
 
-* **Actualizar estado (@lastModified)** en o después de MM/DD/AAAA HH:MM:SS AM
-* **Actualizar estado (@lastModified)** en MM/DD/AAAA HH:MM:SS PM
+* **Actualizar estado (@lastModified)** en o después de DD/MM/AAAA HH:MM:SS AM
+* **Actualizar estado (@lastModified)** en DD/MM/AAAA HH:MM:SS PM
 
-Una vez que tenga la lista de destinatarios afectados, añada una **[!UICONTROL Update data]** actividad para establecer su estado de dirección de correo electrónico en **[!UICONTROL Valid]** de modo que el **[!UICONTROL Database cleanup]** flujo de trabajo. También puede eliminarlos de la tabla de cuarentena.
+Una vez que tenga la lista de destinatarios afectados, añada una **[!UICONTROL Update data]** actividad para establecer su estado de dirección de correo electrónico en **[!UICONTROL Valid]** de modo que sean quitadas de la lista de cuarentena por el **[!UICONTROL Database cleanup]** flujo de trabajo. También puede eliminarlos de la tabla de cuarentena.
 
 ## Condiciones para enviar una dirección a cuarentena {#conditions-for-sending-an-address-to-quarantine}
 

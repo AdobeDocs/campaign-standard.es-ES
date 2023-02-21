@@ -106,7 +106,7 @@ A: Únicamente la solicitud elegible de su **[!UICONTROL Organizational unit]** 
 
 ### P: ¿Por qué no se puede utilizar para la migración la aplicación SDK de Adobe Experience Platform con el estado de propiedad configurado? {#property-status}
 
-A: El proceso de migración conserva los suscriptores y atributos del SDK v4. Solo conserva la información relacionada con las etiquetas de la aplicación del SDK para Adobe Experience Platform. Se perderán los suscriptores y otros datos de la aplicación de SDK para Adobe Experience Platform. Para evitar la pérdida de datos, solo las aplicaciones de SDK de Adobe Experience Platform con la variable **[!UICONTROL Ready to Configure]** **[!UICONTROL Property Status]** son aptos para la migración.
+A: El proceso de migración conserva los suscriptores y atributos de SDK v4. Solo conserva la información relacionada con las etiquetas de la aplicación del SDK para Adobe Experience Platform. Se perderán los suscriptores y otros datos de la aplicación de SDK para Adobe Experience Platform. Para evitar la pérdida de datos, solo las aplicaciones de SDK de Adobe Experience Platform con la variable **[!UICONTROL Ready to Configure]** **[!UICONTROL Property Status]** son aptos para la migración.
 
 ### P: Después de la migración, ¿dónde puedo encontrar mi aplicación móvil v4 SDK anterior? {#v4-app-not-visible}
 
