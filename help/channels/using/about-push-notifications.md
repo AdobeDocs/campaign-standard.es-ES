@@ -9,10 +9,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '1238'
-ht-degree: 41%
+source-wordcount: '1239'
+ht-degree: 40%
 
 ---
 
@@ -64,7 +64,7 @@ Antes de enviar las notificaciones push, debe hacer lo siguiente:
 
 1. Compruebe que el usuario tiene los permisos necesarios en Adobe Campaign Standard y en las etiquetas de Adobe Experience Platform.
 
-1. En la interfaz de usuario de la recopilación de datos , cree una propiedad móvil. Para obtener más información, consulte [Configuración de una propiedad móvil](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property).
+1. En la interfaz de usuario de la recopilación de datos , cree una propiedad móvil. Para obtener más información, consulte [Configuración de una propiedad móvil](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/).
 
 1. En la interfaz de usuario de la recopilación de datos , instale la **[!UICONTROL Adobe Campaign Standard]** extensión.
 
@@ -87,7 +87,7 @@ Consulte los siguientes recursos:
 
 ### ¿Qué tengo que hacer para adquirir un token push en Campaign? {#push-token-acquisition}
 
-Asegúrese de que el equipo de aprovisionamiento haya completado el aprovisionamiento del canal push en Adobe Campaign Standard. Implemente la API setPushIdentifier desde el SDK. Para obtener más información, consulte esta [página](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#set-up-push-messaging).
+Asegúrese de que el equipo de aprovisionamiento haya completado el aprovisionamiento del canal push en Adobe Campaign Standard. Implemente la API setPushIdentifier desde el SDK. Para obtener más información, consulte esta [página](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#set-up-push-messaging).
 
 ### Una vez que tengo el token push y el ECID en Campaign, ¿qué más necesito para enviar una notificación push? {#sending-push}
 
@@ -144,7 +144,7 @@ Los desarrolladores de aplicaciones móviles deben gestionar la compatibilidad c
 Siga estos pasos:
 
 * Configure un postback de seguimiento push. Se pueden encontrar instrucciones [here](../../administration/using/configuring-a-mobile-application.md).
-* Implemente la API trackAction desde Mobile Core. Consulte esta [página](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference) para obtener más información.
+* Implemente la API trackAction desde Mobile Core. Consulte esta [página](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/) para obtener más información.
 
 Encontrará instrucciones más detalladas en esta [página](../../administration/using/push-tracking.md).
 

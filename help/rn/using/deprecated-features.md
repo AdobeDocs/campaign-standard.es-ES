@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: 5b5b3fc968c43be734677f7184b9957a8eb3684f
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 64%
+source-wordcount: '863'
+ht-degree: 63%
 
 ---
 
@@ -111,8 +111,8 @@ Esta sección enumera las funciones y capacidades que se han eliminado de Campai
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> A partir de la versión 20.1 de Campaign, el SDK 4 está en desuso. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Más información</a>.</p><br/>
-   <p>La variable <a href="https://aep-sdks.gitbook.io/docs/">SDK de Adobe Experience Platform Mobile</a> (anteriormente conocido como v5) ahora admite exclusivamente las próximas funciones y funcionalidades de Adobe Experience Cloud.</p>
+   <td> <p> A partir de la versión 20.1 de Campaign, el SDK 4 está en desuso. <a href="https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/">Más información</a>.</p><br/>
+   <p>La variable <a href="https://developer.adobe.com/client-sdks/documentation/">SDK de Adobe Experience Platform Mobile</a> (anteriormente conocido como v5) ahora admite exclusivamente las próximas funciones y funcionalidades de Adobe Experience Cloud.</p>
    <p>Después del 31 de agosto de 2021, los clientes pueden seguir descargando y utilizando los SDK de la versión 4, pero no habrá asistencia técnica del Servicio de atención al cliente ni acceso a los foros.</p>
    <p>Obtenga información sobre cómo migrar del SDK v4 al SDK de Adobe Experience Platform Mobile <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">en esta página</a>.</p></br>
      </td> 

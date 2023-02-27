@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back
 feature: In App
 role: User
 exl-id: 0101773d-b109-49a3-89d4-b4bb226d9ebd
-source-git-commit: 462ebaf8e8f1f056aa92118226ef77aea37b972b
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
 source-wordcount: '668'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -34,7 +34,7 @@ Dado que el SDK extrae los mensajes en la aplicación de Campaign, queremos prop
 * Los mensajes creados con la plantilla Perfil solo se pueden servir cuando el usuario ha iniciado sesión en la aplicación.
 * Para facilitar este protocolo de enlace seguro, los desarrolladores de aplicaciones móviles deben pasar detalles de autenticación adicionales mediante la API setLinkageField . Tenga en cuenta que el campo de vinculación son los que se identifican como vínculo entre Perfil móvil y Perfil CRM al ampliar la tabla appSubscriberRcp .
 * Deben vaciar los mensajes en la aplicación almacenados en el dispositivo y los campos resetLinkagefields cuando el usuario cierre la sesión de la aplicación mediante resetLinkageField. Esto garantiza que si un usuario diferente inicia sesión en la aplicación, no vea los mensajes destinados al usuario anterior.
-* Consulte [API de SDK móvil](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference) para implementar este mecanismo de seguridad del lado del cliente.
+* Consulte [API de SDK móvil](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/) para implementar este mecanismo de seguridad del lado del cliente.
 
 ## ¿Qué tengo que hacer para habilitar los informes en la aplicación en Campaign? {#enable-inapp-reporting}
 

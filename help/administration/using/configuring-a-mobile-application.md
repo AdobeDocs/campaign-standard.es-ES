@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 884cd5e9c09aa85e744ca06b202eb46f73a33a76
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 4%
+source-wordcount: '1262'
+ht-degree: 3%
 
 ---
 
@@ -46,9 +46,9 @@ Este paso permite al usuario iniciar sesión en la interfaz de usuario de la rec
 
    Para completar tareas adicionales como instalar una extensión, publicar una aplicación, configurar entornos, etc., debe configurar permisos en el perfil del producto.
 
-1. En la interfaz de usuario de la recopilación de datos, cree un **[!UICONTROL Mobile property]**. Para obtener más información, consulte [Configuración de una propiedad móvil](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property).
+1. En la interfaz de usuario de la recopilación de datos, cree un **[!UICONTROL Mobile property]**. Para obtener más información, consulte [Configuración de una propiedad móvil](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property).
 
-1. En la interfaz de usuario de la recopilación de datos, haga clic en el botón **[!UICONTROL Extensions]** , vaya a **[!UICONTROL Catalog]** y busque la variable **[!UICONTROL Adobe Campaign Standard]** extensión. Para obtener más información, consulte [Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
+1. En la interfaz de usuario de la recopilación de datos, haga clic en el botón **[!UICONTROL Extensions]** , vaya a **[!UICONTROL Catalog]** y busque la variable **[!UICONTROL Adobe Campaign Standard]** extensión. Para obtener más información, consulte [Adobe Campaign Standard](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
 
 1. Para admitir casos de uso de ubicación en el Campaign Standard, instale la variable **[!UICONTROL Places]** en la interfaz de usuario de la recopilación de datos. Consulte [esta página](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
 
@@ -122,7 +122,7 @@ Su **[!UICONTROL Property Status]** debe **[!UICONTROL Ready to configure]**.
 
 1. Para que esta configuración tenga efecto, los cambios deben publicarse en la interfaz de usuario de la recopilación de datos.
 
-   Para obtener más información, consulte [Publicar configuración](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-configuration).
+   Para obtener más información, consulte [Publicar configuración](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration)
 
 ## Configuración de aplicaciones específicas del canal en Adobe Campaign {#channel-specific-config}
 
@@ -164,7 +164,7 @@ La aplicación móvil ya está lista para su uso en Campaign para notificaciones
 >
 >No se puede deshacer la eliminación de la aplicación.
 
-Para eliminar la aplicación, complete los pasos indicados en [Eliminación de propiedades móviles](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#deleting-mobile-properties-in-experience-platform-launch).
+Para eliminar la aplicación, complete los pasos indicados en [Eliminación de propiedades móviles](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#deleting-mobile-properties-in-the-data-collection-ui).
 
 Una vez eliminada la aplicación, en Adobe Campaign, compruebe si el estado de la propiedad de la aplicación se ha actualizado correctamente a Eliminado en Launch.
 

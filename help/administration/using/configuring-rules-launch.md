@@ -9,9 +9,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '999'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 6%
 
 En la interfaz de usuario de recopilación de datos, cree elementos de datos y reglas para enviar PII y otros datos de aplicaciones móviles a [!DNL Adobe Campaign Standard].
 
-Para garantizar que todos los cambios de configuración en la interfaz de usuario de la recopilación de datos se apliquen, debe publicar estos cambios. Para obtener más información, consulte [Publicación](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-the-configuration).
+Para garantizar que todos los cambios de configuración en la interfaz de usuario de la recopilación de datos se apliquen, debe publicar estos cambios. Para obtener más información, consulte [Publicación](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration).
 
 Para crear reglas en la interfaz de usuario de la recopilación de datos, siga estos pasos:
 
@@ -77,13 +77,13 @@ Debe crear reglas para lo siguiente:
 
 >[!NOTE]
 >
->Para enviar información PII de una aplicación móvil a Adobe Campaign, debe implementar una API de SDK. Para obtener más información, vaya a [CollectPII](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii).
+>Para enviar información PII de una aplicación móvil a Adobe Campaign, debe implementar una API de SDK. Para obtener más información, vaya a [CollectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii).
 
 Para enviar datos PII a [!DNL Adobe Campaign Standard], cree una regla en la interfaz de usuario de la recopilación de datos:
 
 1. En la interfaz de usuario de la recopilación de datos, en el panel de la aplicación móvil, haga clic en el botón **[!UICONTROL Rules]** pestaña **[!UICONTROL Create New Rule]**.
 
-1. Escriba un nombre, por ejemplo, **Mobile Core - Recopilación de PII**.
+1. Escriba un nombre, por ejemplo, **Mobile Core - Recopilar PII**.
 
 1. En el **[!UICONTROL Events]** , haga clic en **[!UICONTROL Add]**.
 
