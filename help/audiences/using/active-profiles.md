@@ -5,20 +5,20 @@ feature: Profiles
 role: User
 level: Intermediate
 exl-id: 22516348-7695-4579-99eb-480e5b723ccc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 0ae2501b5c3ecf6dc9562bb53b5354c52aff7323
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 14%
+source-wordcount: '266'
+ht-degree: 12%
 
 ---
 
 # Perfiles activos{#active-profiles}
 
-Los administradores funcionales de Campaign pueden acceder al **[!UICONTROL Customer metrics]** informe de **[!UICONTROL Administration > Customer metrics]**.
+Puede acceder a los detalles de perfiles activos desde la **[!UICONTROL Customer metrics]** informe. Este informe solo está disponible para los administradores funcionales de Campaign. Para acceder a este informe, haga clic en el icono Adobe Campaign en la parte superior izquierda del [interfaz de usuario](../../start/using/interface-description.md#advanced-menu)y busque **[!UICONTROL Administration > Customer metrics]**.
 
 ![](assets/audience_customer_metrics.png)
 
-Este informe se genera cada mes mediante la variable **[!UICONTROL Billing]** flujo de trabajo técnico y muestra el número de **perfiles activos**.
+Este informe se genera cada mes mediante la variable **[!UICONTROL Billing]** flujo de trabajo técnico y muestra el número de **perfiles activos**. Obtenga más información sobre los flujos de trabajo técnicos en [esta página](../../administration/using/technical-workflows.md).
 
 Un &quot;perfil&quot; es un registro de información que representa a un cliente final, a un cliente potencial o a un posible cliente. Se consideran los perfiles **active** si ha sido un objetivo de una entrega de Campaign en los últimos 12 meses a través de cualquier canal.
 
