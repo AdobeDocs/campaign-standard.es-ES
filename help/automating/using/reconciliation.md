@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: ed2e3793-6164-48af-9043-42dc43fa8ed4
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: c2c8d2d05bbc376e2153448ca0a9e6ba0f367420
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 95%
+source-wordcount: '558'
+ht-degree: 78%
 
 ---
 
@@ -42,13 +42,10 @@ La actividad **[!UICONTROL Reconciliation]** se utiliza esencialmente con fines 
 
    Por ejemplo, puede guardar una audiencia, actualizar la base de datos, etc.
 
-Por ejemplo, la actividad **[!UICONTROL Reconciliation]** se puede colocar después de una actividad de datos de carga con el fin de importar datos no estándar en la base de datos.
+Por ejemplo, la variable **[!UICONTROL Reconciliation]** la actividad se puede colocar después de una actividad de datos de carga para importar datos no estándar en la base de datos.
 
-**Temas relacionados:**
+Mientras que la variable **Enriquecimiento** actividad le permite definir datos adicionales para procesarlos en el flujo de trabajo (utilice un **Enriquecimiento** actividad para combinar datos procedentes de varios conjuntos o para crear vínculos a un recurso temporal), la variable **Reconciliación** actividad le permite vincular datos no identificados a recursos existentes. La operación de reconciliación implica que los datos de las dimensiones vinculadas ya están en la base de datos. Los casos de uso están disponibles en [esta sección](#use-cases-reconciliation).
 
-* [Caso de uso: Reconciliación de datos mediante relaciones](../../automating/using/reconciliation-using-relations.md)
-* [Caso de uso: Actualización de datos mediante reconciliación](../../automating/using/data-update-reconciliation.md)
-* [Caso de uso: Reconciliación de una audiencia de archivo con la base de datos](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## Configuración {#configuration}
 
@@ -70,3 +67,12 @@ Por ejemplo, la actividad **[!UICONTROL Reconciliation]** se puede colocar despu
    * **[!UICONTROL Keep in the outbound population]**: todos los datos de la transición entrante se guardan en la transición saliente de la actividad.
 
 1. Confirme la configuración de la actividad y guarde el flujo de trabajo.
+
+
+## Casos de uso{#use-cases-reconciliation}
+
+Aprenda a utilizar esta actividad en los siguientes casos de uso:
+
+* [Caso de uso: Reconciliación de datos mediante relaciones](../../automating/using/reconciliation-using-relations.md)
+* [Caso de uso: Actualización de datos mediante reconciliación](../../automating/using/data-update-reconciliation.md)
+* [Caso de uso: Reconciliación de una audiencia de archivo con la base de datos](../../automating/using/reconcile-file-audience-with-database.md)
