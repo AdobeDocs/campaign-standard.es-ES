@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: bba1461acf0db47fd2eefca30f5e759c503a6dc7
+source-git-commit: 87afaf6fed5bc3db134f10444cd7b6b5f35640f0
 workflow-type: tm+mt
 source-wordcount: '420'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -25,7 +25,7 @@ Las actualizaciones se implementan en dos fases. En primer lugar, las fases de p
 
 Todas las fechas de las versiones están sujetas a cambios: visite esta página regularmente para buscar actualizaciones.
 
-## Versión 22.3: versión de otoño/invierno de 2022 {#release-22-3-release}
+## Versión 23.1: versión de primavera/verano de 2023 {#release-23-1-release}
 
 Las actualizaciones de entorno se producen en olas, durante los intervalos de tiempo indicados a continuación. Las fechas exactas se comunican por correo electrónico a cada cliente.
 
@@ -41,11 +41,11 @@ Encontrará información detallada acerca de esta versión en las [Notas de la v
  <tbody>
   <tr>
    <td>Prueba<br /> </td>
-   <td>8 de septiembre de 2022, principios de 2023<br /> </td>
+   <td>11 de abril de 2023 a julio de 2023<br /> </td>
   </tr>
   <tr>
    <td>Producción<br /> </td>
-   <td>15 de septiembre de 2022, principios de 2023<br /> </td>
+   <td>18 de abril de 2023 a julio de 2023<br /> </td>
   </tr>
  </tbody>
 </table>
