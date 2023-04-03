@@ -1,28 +1,13 @@
 ---
-title: Notas de las versiones anteriores
-description: Notas de las versiones anteriores
-feature: Overview
-role: User
-level: Beginner
-hide: true
-hidefromtoc: true
-exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 1cfc5d51c3eeff35664118f3ee114a40067db3cc
+source-git-commit: 48b6c5de8871e9e1f12c91474376abc53a199bc8
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
-
-
-# Notas de las versiones anteriores {#e-new-release}
-
-Esta página describe las mejoras y correcciones incluidas en la próxima versión de Campaign Standard.
-
 >[!CAUTION]
 >
 > Este contenido está sujeto a cambios sin previo aviso hasta la fecha de actualización de los entornos de ensayo. Obtenga más información en la [página de planificación de versiones](../../rn/using/release-planning.md).
-
 ## Versión 22.3.2 {#dec-22}
 
 ### Actualización de seguridad{#rn-security2}
@@ -41,4 +26,3 @@ Esta versión incorpora la siguiente actualización de seguridad: Apache Tomcat 
 * Se ha corregido un problema en los indicadores de Entrega del panel Entrega que no coincidían con los Registros de envío (nms:broadLogRcp). (CAMP-51127)
 * Se ha corregido un problema que impedía la extensión de recursos personalizados con el conector ACS (oferta principal). (CAMP-51033)
 * Se ha mejorado el proceso de publicación de las respuestas de solicitudes de privacidad para evitar demoras. (CAMP-50613)
-
