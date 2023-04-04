@@ -5,9 +5,9 @@ user-guide-description: Centro de ayuda para las principales características, t
 title: Guía de Campaign Standard
 breadcrumb-title: Documentación de Adobe Campaign Standard
 source-git-commit: d7e0912dd7d19a1f5dd2172235f28a40e130cac1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1818'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 99%
    + Explicación de los procesos de inclusión y exclusión {#understanding-opt-in-and-opt-out-processes}
       + [Acerca de la inclusión y la exclusión en Campaign](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [Administración de la inclusión y la exclusión en Campaign](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
-      + [Identificación de perfiles de exclusión para una entrega](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
+      + [Identificación de perfiles de exclusión para un envío](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
 + Canales de comunicación {#communication-channels}
    + [Introducción a los canales de comunicación](channels/using/get-started-communication-channels.md)
    + Acerca de los canales de comunicación {#about-communication-channels}
@@ -133,13 +133,13 @@ ht-degree: 99%
       + [Notificaciones push transaccionales](channels/using/transactional-push-notifications.md)
       + [Mensajes de seguimiento](channels/using/follow-up-messages.md)
       + [Caso de uso de la mensajería transaccional](channels/using/transactional-messaging-use-case.md)
-   + Páginas de destino {#landing-pages}
-      + [Introducción a las páginas de destino](channels/using/getting-started-with-landing-pages.md)
-      + [Acerca de las plantillas de página de destino](channels/using/landing-page-templates.md)
-      + [Configuración de una página de destino](channels/using/configuring-landing-page.md)
-      + [Diseño de una página de destino](channels/using/designing-a-landing-page.md)
-      + [Administración de datos de formulario de una página de destino](channels/using/managing-landing-page-form-data.md)
-      + [Prueba y publicación de una página de destino](channels/using/testing-publishing-landing-page.md)
+   + Páginas de aterrizaje {#landing-pages}
+      + [Introducción a las páginas de aterrizaje](channels/using/getting-started-with-landing-pages.md)
+      + [Acerca de las plantillas de página de aterrizaje](channels/using/landing-page-templates.md)
+      + [Configuración de una página de aterrizaje](channels/using/configuring-landing-page.md)
+      + [Diseño de una página de aterrizaje](channels/using/designing-a-landing-page.md)
+      + [Administración de datos de formulario de una página de aterrizaje](channels/using/managing-landing-page-form-data.md)
+      + [Prueba y publicación de una página de aterrizaje](channels/using/testing-publishing-landing-page.md)
       + [Configuración de un proceso de inclusión doble](channels/using/setting-up-a-double-opt-in-process.md)
 + Diseño del contenido del correo electrónico {#designing-content}
    + [Diseñador de correos electrónicos de Campaign](designing/using/designing-content-in-adobe-campaign.md)
@@ -161,7 +161,7 @@ ht-degree: 99%
 + Prueba y envío {#testing-and-sending}
    + [Introducción a las pruebas y envíos](sending/using/get-started-sending-messages.md)
    + Preparación y prueba de mensajes {#preparing-and-testing-messages}
-      + [Vista previa de entregas](sending/using/previewing-messages.md)
+      + [Vista previa de envíos](sending/using/previewing-messages.md)
       + [Envío de pruebas](sending/using/sending-proofs.md)
       + [Prueba de mensajes de correo electrónico con perfiles de destino](sending/using/testing-messages-using-target.md)
       + [Funciones de participación predictiva del usuario](sending/using/predictive.md)
@@ -179,9 +179,9 @@ ht-degree: 99%
       + [Seguimiento de mensajes](sending/using/tracking-messages.md)
       + [Archivado con CCO de correo electrónico](sending/using/archiving.md)
    + Supervisión de mensajes {#monitoring-messages}
-      + [Seguimiento de una entrega](sending/using/monitoring-a-delivery.md)
+      + [Seguimiento de un envío](sending/using/monitoring-a-delivery.md)
       + [Recepción de alertas cuando se produzcan errores](sending/using/receiving-alerts-when-failures-happen.md)
-      + [Comprensión de los errores de entrega](sending/using/understanding-delivery-failures.md)
+      + [Comprensión de los errores de envío](sending/using/understanding-delivery-failures.md)
       + [Comprensión de la gestión de la cuarentena](sending/using/understanding-quarantine-management.md)
    + Administración de envíos {#managing-deliverability}
       + [Acerca de la capacidad de la entrega](sending/using/about-deliverability.md)
@@ -208,8 +208,8 @@ ht-degree: 99%
       + [Resumen de devoluciones](reporting/using/bounce-summary.md)
       + [Desglose por dominios](reporting/using/breakdown-by-domains.md)
       + [Reclamaciones](reporting/using/complaints.md)
-      + [Resumen de entregas](reporting/using/delivery-summary.md)
-      + [Rendimiento de la entrega](reporting/using/delivery-throughput.md)
+      + [Resumen de envíos](reporting/using/delivery-summary.md)
+      + [Rendimiento del envío](reporting/using/delivery-throughput.md)
       + [Informe en la aplicación](reporting/using/in-app-report.md)
       + [Rechazos y no entregables](reporting/using/non-deliverables-and-bounces.md)
       + [Aperturas](reporting/using/opens.md)
@@ -331,11 +331,11 @@ ht-degree: 99%
       + [Prueba](automating/using/test.md)
    + Actividades de canal {#channel-activities}
       + [Acerca de las actividades de canal](automating/using/about-channel-activities.md)
-      + [Entrega de correo electrónico](automating/using/email-delivery.md)
-      + [Entrega de SMS](automating/using/sms-delivery.md)
-      + [Entrega de notificaciones push](automating/using/push-notification-delivery.md)
-      + [Entrega de correo directo](automating/using/direct-mail-delivery.md)
-      + [Entrega en la aplicación](automating/using/in-app-delivery.md)
+      + [Envío de correo electrónico](automating/using/email-delivery.md)
+      + [Envío de SMS](automating/using/sms-delivery.md)
+      + [Envío de notificaciones push](automating/using/push-notification-delivery.md)
+      + [Envío de correo directo](automating/using/direct-mail-delivery.md)
+      + [Envío en la aplicación](automating/using/in-app-delivery.md)
    + Actividades de administración de datos {#data-management-activities}
       + [Acerca de las actividades de administración de datos](automating/using/about-data-management-activities.md)
       + [Actualización de datos](automating/using/update-data.md)
@@ -362,13 +362,13 @@ ht-degree: 99%
    + Casos de uso {#workflow-use-case}
       + [Acerca de los casos de uso de flujos de trabajo](automating/using/about-workflow-use-cases.md)
       + Envíos {#deliveries}
-         + [Creación de entregas con un complemento](automating/using/workflow-created-query-with-complement.md)
-         + [Creación de entregas en la fecha de creación de los perfiles](automating/using/workflow-creation-date-query.md)
-         + [Creación de una entrega semanal](automating/using/workflow-weekly-offer.md)
-         + [Creación de una entrega multicanal](automating/using/workflow-cross-channel-delivery.md)
-         + [Identificación de duplicados antes de una entrega](automating/using/identifying-duplicated-before-delivery.md)
-         + [Entrega de cumpleaños](automating/using/birthday-delivery.md)
-         + [Emparejamiento de entregas de correo electrónico y correo directo](automating/using/coupling-email-direct-mail.md)
+         + [Creación de envíos con un complemento](automating/using/workflow-created-query-with-complement.md)
+         + [Creación de envíos en la fecha de creación de los perfiles](automating/using/workflow-creation-date-query.md)
+         + [Creación de un envío semanal](automating/using/workflow-weekly-offer.md)
+         + [Creación de un envío multicanal](automating/using/workflow-cross-channel-delivery.md)
+         + [Identificación de duplicados antes de un envío](automating/using/identifying-duplicated-before-delivery.md)
+         + [Envío de cumpleaños](automating/using/birthday-delivery.md)
+         + [Emparejamiento de envíos de correo electrónico y correo directo](automating/using/coupling-email-direct-mail.md)
          + [Envío de un correo electrónico con campos enriquecidos](automating/using/sending-email-enriched-fields.md)
          + [Personalización de un correo electrónico con datos adicionales](automating/using/personalizing-email-with-additional-data.md)
          + [Envío de una notificación push recurrente](automating/using/recurring-push-notifications.md)
@@ -420,8 +420,8 @@ ht-degree: 99%
       + [Introducción](developing/using/datamodel-introduction.md)
       + [Audiencia](developing/using/datamodel-audience.md)
       + [Campaña](developing/using/datamodel-campaign.md)
-      + [Entrega](developing/using/datamodel-delivery.md)
-      + [Páginas de destino](developing/using/datamodel-landingpage.md)
+      + [Envío](developing/using/datamodel-delivery.md)
+      + [Páginas de aterrizaje](developing/using/datamodel-landingpage.md)
       + [Historial de marketing](developing/using/datamodel-history.md)
       + [Perfil](developing/using/datamodel-profile.md)
       + [Programa](developing/using/datamodel-program.md)
