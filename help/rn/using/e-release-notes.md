@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 1a8e623c034a2fbacd9ddf37711488a8f6b99442
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 25e842d2b012a07b3f1ef1ff5490a6b4afa0e887
+workflow-type: tm+mt
+source-wordcount: '216'
+ht-degree: 27%
 
 ---
 
@@ -22,21 +22,19 @@ Esta página describe las mejoras y correcciones incluidas en la próxima versi�
 >
 > Este contenido está sujeto a cambios sin previo aviso hasta la fecha de actualización de los entornos de ensayo. Obtenga más información en la [página de planificación de versiones](../../rn/using/release-planning.md).
 
-## Versión 22.3.2 {#dec-22}
+## Versión 23.1: versión de primavera/verano de 2023 {#apr-23}
 
-### Actualización de seguridad{#rn-security2}
+### Mejoras {#e-rn-improvements}
 
-Esta versión incluye la siguiente actualización de seguridad: Debian se ha actualizado a la versión 11.0.
+* El servicio de mensajería push se ha modernizado para optimizar el mantenimiento. (CAMP-47959)
+* El servicio de mensajería SMS se ha modernizado para proporcionar una mayor estabilidad. (CAMP-52217)
+* La solución predeterminada **Flujo de trabajo de creación de enriquecimiento de informes** se ha añadido. Después de importar una asignación de destino de una instancia a otra, simplemente ejecute el flujo de trabajo para importar las entradas de enriquecimiento de informes correspondientes. (CAMP-52452)
 
-## Versión 22.3: otoño/invierno de 2022 {#sept-22}
+### Parches{#e-rn-patches}
 
-### Actualización de seguridad{#rn-security}
-
-Esta versión incorpora la siguiente actualización de seguridad: Apache Tomcat se ha actualizado de la versión 7.0 a la 8.0.
-
-### Correcciones{#e-rn-fixes}
-
-* Se ha corregido un problema con los informes programados, que se activaban una hora antes del horario programado. (CAMP-51502)
-* Se ha corregido un problema en los indicadores de Entrega del panel Entrega que no coincidían con los Registros de envío (nms:broadLogRcp). (CAMP-51127)
-* Se ha corregido un problema que impedía la extensión de recursos personalizados con el conector ACS (oferta principal). (CAMP-51033)
-* Se ha mejorado el proceso de publicación de las respuestas de solicitudes de privacidad para evitar demoras. (CAMP-50613)
+* Se ha corregido un problema que podría provocar un error de tiempo de espera al mostrar la variable **Clic en caliente** informe. (CAMP-51582)
+* Se ha corregido un problema que podía impedir que usara la integración con la variable **Lugares** servicio. (CAMP-51923)
+* Se ha corregido un problema que podía impedir que el programador de flujos de trabajo funcionara correctamente. (CAMP-52003)
+* Se ha corregido un problema que impedía que se mostraran los detalles del desglose al ver la versión del PDF de un informe dinámico personalizado con un gran volumen de datos. (CAMP-52178)
+* Se ha corregido un problema que podía mostrar un error al acceder a los informes. (CAMP-52500)
+* Se ha corregido un problema que aplicaba incorrectamente la variable **Limitar instancias de MTA para esta cuenta** Parámetro de conector SMS a todos los canales en lugar de aplicar solo a SMS. (CAMP-52640)
