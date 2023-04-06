@@ -8,8 +8,8 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 87afaf6fed5bc3db134f10444cd7b6b5f35640f0
-workflow-type: ht
+source-git-commit: 36865b52044ffd4b4868250cada3ab585b9ef856
+workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 100%
 
@@ -29,23 +29,23 @@ Todas las fechas de las versiones están sujetas a cambios: visite esta página 
 
 Las actualizaciones de entorno se producen en olas, durante los intervalos de tiempo indicados a continuación. Las fechas exactas se comunican por correo electrónico a cada cliente.
 
-Encontrará información detallada acerca de esta versión en las [Notas de la versión](release-notes.md).
+Encontrará información detallada acerca de esta versión en las [Notas de la versión](e-release-notes.md).
 
 <table>
  <thead>
   <tr>
-   <th> Entornos<br /> </th>
-   <th> Fechas<br /> </th>
+   <th> Entornos </th>
+   <th> Fechas </th>
   </tr>
  </thead>
  <tbody>
   <tr>
-   <td>Prueba<br /> </td>
-   <td>11 de abril de 2023 a julio de 2023<br /> </td>
+   <td>Prueba </td>
+   <td>11 de abril de 2023 a julio de 2023 </td>
   </tr>
   <tr>
-   <td>Producción<br /> </td>
-   <td>18 de abril de 2023 a julio de 2023<br /> </td>
+   <td>Producción </td>
+   <td>18 de abril de 2023 a julio de 2023 </td>
   </tr>
  </tbody>
 </table>
