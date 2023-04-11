@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 25e842d2b012a07b3f1ef1ff5490a6b4afa0e887
+source-git-commit: 485927b217fb68064897dd877c2f4a6dd208d443
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 27%
+source-wordcount: '275'
+ht-degree: 21%
 
 ---
 
@@ -26,11 +26,18 @@ Esta página describe las mejoras y correcciones incluidas en la próxima versi�
 
 ### Mejoras {#e-rn-improvements}
 
-* El servicio de mensajería push se ha modernizado para optimizar el mantenimiento. (CAMP-47959)
-* El servicio de mensajería SMS se ha modernizado para proporcionar una mayor estabilidad. (CAMP-52217)
+* El servicio de mensajería push se ha modernizado para mejorar la compatibilidad. (CAMP-47959)
+* El servicio de mensajería SMS se ha mejorado para proporcionar una mejor estabilidad. (CAMP-52217)
+* Adobe ha realizado muchas correcciones de accesibilidad para mejorar la facilidad de uso general de la aplicación. Estos son algunos ejemplos de mejoras de accesibilidad:
+   * La accesibilidad del teclado de la interfaz se ha optimizado en muchas pantallas.
+   * La aplicación se ha mejorado para usuarios de pantalla táctil.
+   * Se ha cambiado el color de varios elementos en la interfaz para mejorar la visibilidad.
+
+### Otros cambios {#e-rn-changes}
+
 * La solución predeterminada **Flujo de trabajo de creación de enriquecimiento de informes** se ha añadido. Después de importar una asignación de destino de una instancia a otra, simplemente ejecute el flujo de trabajo para importar las entradas de enriquecimiento de informes correspondientes. (CAMP-52452)
 
-### Parches{#e-rn-patches}
+### Problemas solucionados{#e-rn-patches}
 
 * Se ha corregido un problema que podría provocar un error de tiempo de espera al mostrar la variable **Clic en caliente** informe. (CAMP-51582)
 * Se ha corregido un problema que podía impedir que usara la integración con la variable **Lugares** servicio. (CAMP-51923)
