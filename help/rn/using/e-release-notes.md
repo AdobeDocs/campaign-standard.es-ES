@@ -9,8 +9,8 @@ hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 source-git-commit: 485927b217fb68064897dd877c2f4a6dd208d443
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 21%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,13 +35,13 @@ Esta página describe las mejoras y correcciones incluidas en la próxima versi�
 
 ### Otros cambios {#e-rn-changes}
 
-* La solución predeterminada **Flujo de trabajo de creación de enriquecimiento de informes** se ha añadido. Después de importar una asignación de destino de una instancia a otra, simplemente ejecute el flujo de trabajo para importar las entradas de enriquecimiento de informes correspondientes. (CAMP-52452)
+* Se ha añadido la solución predeterminada **Flujo de trabajo de creación de informes de enriquecimiento**. Después de importar una asignación de destinatario de una instancia a otra, simplemente ejecute el flujo de trabajo para importar las entradas de enriquecimiento de creación de informes correspondientes. (CAMP-52452)
 
 ### Problemas solucionados{#e-rn-patches}
 
-* Se ha corregido un problema que podría provocar un error de tiempo de espera al mostrar la variable **Clic en caliente** informe. (CAMP-51582)
-* Se ha corregido un problema que podía impedir que usara la integración con la variable **Lugares** servicio. (CAMP-51923)
-* Se ha corregido un problema que podía impedir que el programador de flujos de trabajo funcionara correctamente. (CAMP-52003)
-* Se ha corregido un problema que impedía que se mostraran los detalles del desglose al ver la versión del PDF de un informe dinámico personalizado con un gran volumen de datos. (CAMP-52178)
+* Se ha corregido un problema que podría provocar un error de tiempo de espera al mostrar el informe **Clic activo**. (CAMP-51582)
+* Se ha corregido un problema que podía impedir que usara la integración con el servicio **Lugares**. (CAMP-51923)
+* Se ha corregido un problema que podía impedir que el planificador de flujos de trabajo funcionara correctamente. (CAMP-52003)
+* Se ha corregido un problema que impedía que se mostraran los detalles del desglose al ver la versión PDF de un informe dinámico personalizado con un gran volumen de datos. (CAMP-52178)
 * Se ha corregido un problema que podía mostrar un error al acceder a los informes. (CAMP-52500)
-* Se ha corregido un problema que aplicaba incorrectamente la variable **Limitar instancias de MTA para esta cuenta** Parámetro de conector SMS a todos los canales en lugar de aplicar solo a SMS. (CAMP-52640)
+* Se ha corregido un problema que aplicaba incorrectamente el parámetro de conector SMS **Limitar instancias de MTA para esta cuenta** a todos los canales, en lugar de solo a SMS. (CAMP-52640)
