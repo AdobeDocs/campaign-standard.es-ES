@@ -17,9 +17,9 @@ ht-degree: 98%
 
 # Notas de la versión 2020{#release-notes-2020}
 
-![](assets/do-not-localize/cp-icon.png) **Nuevo lanzamiento del Panel de control de Campaign en junio** con monitorización de perfiles activos, auditoría de entregas de subdominios y administración de claves GPG. [Más información](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=es).
+![](assets/do-not-localize/cp-icon.png) **Nuevo lanzamiento del Panel de control en junio** con monitorización de perfiles activos, auditoría de entregas de subdominios y administración de claves GPG. [Más información](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=es).
 
-![](assets/do-not-localize/cp-icon.png) **la nueva versión de Panel de control de Campaign de octubre** con configuración de dominio mediante CNAME y nuevas funciones de supervisión de bases de datos. [Más información](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=es).
+![](assets/do-not-localize/cp-icon.png) **la nueva versión de Panel de control de octubre** con configuración de dominio mediante CNAME y nuevas funciones de supervisión de bases de datos. [Más información](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=es).
 
 ## Versión 20.4: octubre de 2020 {#release-20-4---october-2020}
 
@@ -289,7 +289,7 @@ ht-degree: 98%
 * Se ha corregido un error que impedía a los usuarios realizar cambios en los informes. (CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **El nuevo Panel de control de Campaign puede lanzarse** con la renovación de los certificados para los subdominios CNAME. [Más información](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=es).
+![](assets/do-not-localize/cp-icon.png) **El nuevo Panel de control puede lanzarse** con la renovación de los certificados para los subdominios CNAME. [Más información](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=es).
 
 ## Versión 20.2: abril de 2020 {#release-20-2---april-2020}
 
@@ -353,7 +353,7 @@ ht-degree: 98%
 **Otros cambios**
 
 * El flujo de trabajo integrado **Reconciliación de KPI con Adobe Analytics** ahora se ejecuta hasta la fecha actual en lugar de ejecutarse para un solo día.
-* El MCPNS no admite la adición de APNS y APNS-SANDBOX como plataformas en una aplicación. Después de añadir correctamente el certificado en Adobe Campaign Standard, ya no podrá volver a cambiar la configuración, ya que solo se puede añadir una plataforma APNS (producción o simulación de pruebas) a la aplicación MCPNS.
+* El MCPNS no admite la adición de APNS y APNS-SANDBOX como plataformas en una aplicación. Después de añadir correctamente el certificado en Adobe Campaign Standard, ya no podrá volver a cambiar la configuración, ya que solo se puede añadir una plataforma APNS (producción o zona protegida) a la aplicación MCPNS.
 
 **Integraciones de Experience Platform**
 
