@@ -11,7 +11,7 @@ exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1239'
-ht-degree: 7%
+ht-degree: 19%
 
 ---
 
@@ -46,7 +46,7 @@ También puede consultar esta [vídeo introductorio](https://video.tv.adobe.com/
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns"
 >title="Definición de columnas de correo electrónico"
->abstract="El Diseñador de correo electrónico permite definir fácilmente el diseño del correo electrónico definiendo la estructura de columnas."
+>abstract="El diseñador de correo electrónico permite definir fácilmente el diseño del correo electrónico mediante la definición de la estructura de columnas."
 
 El Diseñador de correo electrónico le permite definir fácilmente la estructura del correo electrónico. Al agregar y mover elementos estructurales con simples acciones de arrastrar y soltar, puede diseñar la forma de su correo electrónico en cuestión de segundos.
 
@@ -81,12 +81,12 @@ Para editar la estructura de un correo electrónico:
 
 Una vez definida la estructura, puede añadir fragmentos de contenido y componentes al correo electrónico.
 
-## Uso de un encabezado previo {#preheader}
+## Uso de un preencabezado {#preheader}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="Uso de un encabezado previo"
->abstract="El encabezado previo le permite configurar un breve texto de resumen que ofrece una mayor tasa de apertura para su correo electrónico."
+>title="Uso de un preencabezado"
+>abstract="El preencabezado permite configurar un breve texto de resumen que ofrece una mayor tasa de apertura para su correo electrónico."
 
 Un encabezado previo es un breve texto de resumen que sigue la línea del asunto cuando se visualiza un correo electrónico desde la bandeja de entrada. El encabezado previo ofrece una tasa de apertura más alta.
 

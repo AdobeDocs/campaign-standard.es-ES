@@ -11,7 +11,7 @@ exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '2583'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 5%
 
 El contenido y la visualización de los mensajes que entrega Adobe Campaign se pueden personalizar de varias formas diferentes. Estas formas se pueden combinar según criterios en función de los perfiles. En general, Adobe Campaign le permite:
 
-* Insertar campos personalizados dinámicos. Consulte [Inserción de un campo de personalización](#inserting-a-personalization-field).
+* Insertar campos de personalización dinámicos. Consulte [Inserción de un campo de personalización](#inserting-a-personalization-field).
 * Insertar bloques de personalización predefinidos. Consulte [Adición de un bloque de contenido](#adding-a-content-block).
 * Personalice el remitente de un correo electrónico. Consulte [Personalización del remitente](#personalizing-the-sender).
 * Personalice el asunto de un correo electrónico. Consulte [Personalización de la línea de asunto de un correo electrónico](../../designing/using/subject-line.md#subject-line).
