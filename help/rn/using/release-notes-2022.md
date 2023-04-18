@@ -58,7 +58,7 @@ Esta versión incorpora la siguiente actualización de seguridad: Apache Tomcat 
 * Se ha corregido un problema con las solicitudes de RGPD que no eliminaban datos de tablas secundarias. (CAMP-48276)
 * Se ha corregido un problema en el Diseñador de correo electrónico que provocaba que la condición de visibilidad de un fragmento no se guardara en una plantilla de mensaje transaccional. (CAMP-50338)
 * Se ha corregido un problema en los informes de campaña que provocaba que no se tuviera en cuenta el intervalo de fechas. (CAMP-50991)
-* Se ha corregido un error que provocaba que fallaran los correos electrónicos programados: el análisis de entrega no se pudo iniciar porque la entrega seguía en estado &quot;Reintento pendiente&quot;. (CAMP-50302)
+* Se ha corregido un error que provocaba que fallaran los correos electrónicos programados: el análisis de entrega no se pudo iniciar porque el envío seguía en estado &quot;Reintento pendiente&quot;. (CAMP-50302)
 * Se ha corregido un problema en el Diseñador de correo electrónico al previsualizar un correo electrónico con una sustitución de perfiles. (CAMP-49312)
 * Se ha corregido un problema con un valor vacío en las enumeraciones personalizadas: al crear un recurso personalizado con un campo que es una enumeración de texto y contiene solo un valor, este valor se establece ahora de forma predeterminada, de modo que puede crear una consulta en este campo como una solicitud simple. (CAMP-50606)
 
@@ -89,20 +89,20 @@ Esta versión incorpora la siguiente actualización de seguridad: Apache Tomcat 
 **Mejoras**
 
 * Se ha mejorado el procesamiento de los datos de creación de informes para evitar sobrecargar el sistema. (CAMP-47578)
-* Después de enviar los mensajes en la aplicación, puede optar por desactivar la entrega. Esto le permite eliminar su entrega sin perder datos de creación de informes. (CAMP-48469)
+* Después de enviar los mensajes en la aplicación, puede optar por desactivar el envío. Esto le permite eliminar su envío sin perder datos de creación de informes. (CAMP-48469)
 * Para evitar cualquier problema, los usuarios ya no pueden utilizar el mismo nombre para una columna de tabla personalizada que el utilizado para la clave principal automática en la base de datos. `"<dataType><resourceName>Id"`. (CAMP-49358)
-* Ahora puede monitorizar su entrega y rastrear los registros de trabajos con el nuevo desplegable **Historial de trabajos** del tablero de los mensajes. [Más información](../../sending/using/monitoring-a-delivery.md) (CAMP-49840)
+* Ahora puede monitorizar su envío y rastrear los registros de trabajos con el nuevo desplegable **Historial de trabajos** del tablero de los mensajes. [Más información](../../sending/using/monitoring-a-delivery.md) (CAMP-49840)
 * Se ha mejorado la estabilidad y el estado de la base de datos, al reducir las tuplas, cuando se envía un gran número de mensajes a través de todos los canales a lo largo del tiempo. (CAMP-49755, CAMP-49792, CAMP-49849)
 * Para garantizar que las conexiones de base de datos se actualicen automáticamente en caso de que se bloquee o reinicie, se han implementado mejoras en el Agente de transferencia de correo de Campaign (MTA). (CAMP-48063)
 * Una nueva opción de seguimiento **Utilizar el píxel de seguimiento en la parte superior del correo electrónico** se ha añadido a las propiedades de correo electrónico, lo que le permite mover el píxel de seguimiento al principio del correo electrónico en lugar de al final. (CAMP-49672)
 
 **Parches**
 
-* Se ha corregido un problema con la opción **Enviar informe ahora** en Informes dinámicos: los trabajos de generación de PDF fallaron con entregas que incluían varias variantes. (CAMP-49120)
+* Se ha corregido un problema con la opción **Enviar informe ahora** en Informes dinámicos: los trabajos de generación de PDF fallaron con envíos que incluían varias variantes. (CAMP-49120)
 * Se ha corregido un problema que impedía a los usuarios actualizar o desvincular contenido de Adobe Experience Manager (AEM) de sus envíos de Adobe Campaign Standard cuando un contenido duplicado en AEM compartía la misma clave (cq:uuid). (CAMP-49161)
 * Se ha corregido un error al acceder a una instancia en la que las páginas no se cargaban, no se podían abrir los envíos o no se podía guardar ninguna modificación pendiente. (CAMP-50195)
-* Se ha corregido un problema que impedía abrir los criterios de alerta de entrega si el campo **Filtro de entrega** aplicado por este criterio no se ha rellenado. (CAMP-49093)
-* Se ha corregido un problema que se producía al editar el botón **Secundario** en entregas en la aplicación que impidieron que se tuvieran en cuenta los cambios. (CAMP-50250)
+* Se ha corregido un problema que impedía abrir los criterios de alerta de envío si el campo **Filtro de entrega** aplicado por este criterio no se ha rellenado. (CAMP-49093)
+* Se ha corregido un problema que se producía al editar el botón **Secundario** en envíos en la aplicación que impidieron que se tuvieran en cuenta los cambios. (CAMP-50250)
 * Se ha corregido un error en las instancias de japonés que impedía a los usuarios elegir Varias veces al día como **Frecuencia de ejecución** en la actividad del **Planificador**. (CAMP-50247)
 * Se ha corregido un problema que se producía al trabajar en una interfaz de usuario japonesa y que mostraba un mensaje de error al seleccionar una hora en una actividad del planificador. (CAMP-49289)
 * Se ha corregido un error con los informes de notificaciones push que mostraban notificaciones push descartadas como **Apertura** en lugar de **Impresión**. (CAMP-45980)
@@ -115,4 +115,4 @@ Esta versión incorpora la siguiente actualización de seguridad: Apache Tomcat 
 * Para optimizar la capacidad de envío, Adobe Campaign ahora envía correos electrónicos con codificación de 7 bits en lugar de 8 bits. Esto evita que los relés intermedios invaliden la firma DKIM que podría afectar a la autenticidad de los mensajes. (CAMP-49016)
 * Se ha mejorado el rendimiento al duplicar audiencias para evitar cualquier problema al trabajar con audiencias grandes. (CAMP-49639)
 * Se ha corregido un problema que podía impedir que un filtro personalizado mostrara los resultados correctos cuando se usaba en una actividad de **Consulta**. (CAMP-49417)
-* Se ha corregido un error que mostraba un mensaje de error al intentar utilizar un fragmento en una entrega con una coma en su nombre. El problema se ha resuelto y ahora se pueden usar comas en los nombres de los fragmentos. (CAMP-49216)
+* Se ha corregido un error que mostraba un mensaje de error al intentar utilizar un fragmento en un envío con una coma en su nombre. El problema se ha resuelto y ahora se pueden usar comas en los nombres de los fragmentos. (CAMP-49216)

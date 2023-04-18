@@ -8,7 +8,7 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: f9bd5901d68c09ba20d5d48d263f4818c2e1e86a
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 69%
 
 ### Mejoras {#e-rn-improvements}
 
-* El servicio de mensajería push se ha modernizado para mejorar la compatibilidad. (CAMP-47959)
-* El servicio de mensajería SMS se ha mejorado para proporcionar una mejor estabilidad. (CAMP-52217)
+* El servicio de mensajería push se ha modernizado para optimizar la asistencia. (CAMP-47959)
+* El servicio de mensajería SMS se ha modernizado para proporcionar una mayor estabilidad. (CAMP-52217)
 * Adobe ha realizado muchas correcciones de accesibilidad para mejorar la facilidad de uso general de la aplicación. Estos son algunos ejemplos de mejoras de accesibilidad:
    * La accesibilidad del teclado de la interfaz se ha optimizado en muchas pantallas.
    * La aplicación se ha mejorado para usuarios de pantalla táctil.
