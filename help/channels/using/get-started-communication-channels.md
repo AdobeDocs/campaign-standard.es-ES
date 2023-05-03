@@ -90,9 +90,9 @@ Las páginas de aterrizaje también se pueden usar para **adquisición o actuali
 
 Más información:
 
-* [Introducción a las páginas de destino](../../channels/using/getting-started-with-landing-pages.md)
+* [Introducción a las páginas de aterrizaje](../../channels/using/getting-started-with-landing-pages.md)
 * [Plantillas de página de aterrizaje](../../channels/using/landing-page-templates.md)
-* [Administración de datos de formulario de una página de destino](../../channels/using/managing-landing-page-form-data.md)
+* [Administración de datos de formulario de una página de aterrizaje](../../channels/using/managing-landing-page-form-data.md)
 * [Configuración de un proceso de inclusión doble](../../channels/using/setting-up-a-double-opt-in-process.md)
 
 ## Recursos adicionales

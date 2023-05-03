@@ -157,7 +157,7 @@ Cuando se trata de fragmentos, tenga en cuenta lo siguiente:
 **Temas relacionados**
 
 * [Creación de un correo electrónico](../../channels/using/creating-an-email.md)
-* [Diseño de una página de destino](../../channels/using/designing-a-landing-page.md)
+* [Diseño de una página de aterrizaje](../../channels/using/designing-a-landing-page.md)
 * [Creación de un mensaje SMS](../../channels/using/creating-an-sms-message.md)
 * [Creación y envío de una notificación push](../../channels/using/preparing-and-sending-a-push-notification.md)
 

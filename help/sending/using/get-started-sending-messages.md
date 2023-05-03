@@ -68,7 +68,7 @@ Más información:
 * [Seguimiento de mensajes](../../sending/using/tracking-messages.md)
 * [Archivado con CCO de correo electrónico](../../sending/using/archiving.md)
 * [Seguimiento de una entrega](../../sending/using/monitoring-a-delivery.md)
-* [Comprensión de los errores de entrega](../../sending/using/understanding-delivery-failures.md)
+* [Comprensión de los errores de envío](../../sending/using/understanding-delivery-failures.md)
 * [Comprensión de la gestión de la cuarentena](../../sending/using/understanding-quarantine-management.md)
 
 ## Directrices de capacidad de entrega {#improve-deliverability}
