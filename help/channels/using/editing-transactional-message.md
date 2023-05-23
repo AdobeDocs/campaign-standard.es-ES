@@ -9,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: f5dcb715-7cbd-49f2-8713-7e16cfa04184
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 30%
@@ -20,13 +20,13 @@ ht-degree: 30%
 
 Una vez creado y publicado un evento<!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))-->, el mensaje transaccional correspondiente se crea automáticamente.
 
-Los pasos para configurar y publicar el evento se presentan en la [Configuración de un evento transaccional](../../channels/using/configuring-transactional-event.md) y [Publicación de un evento transaccional](../../channels/using/publishing-transactional-event.md) para obtener más información.
+Los pasos para configurar y publicar el evento se presentan en la [Configuración de un evento transaccional](../../channels/using/configuring-transactional-event.md) y [Publicación de un evento transaccional](../../channels/using/publishing-transactional-event.md) sección.
 
 A continuación se describen los pasos para acceder, editar y personalizar este mensaje.
 
 >[!IMPORTANT]
 >
->Solo los usuarios con la variable [Administración](../../administration/using/users-management.md#functional-administrators) puede acceder y editar mensajes transaccionales.
+>Solo los usuarios con [Administration](../../administration/using/users-management.md#functional-administrators) La función puede acceder y editar mensajes transaccionales.
 
 Una vez que el mensaje esté listo, se puede probar y publicar. Consulte [Prueba de un mensaje transaccional](../../channels/using/testing-transactional-message.md) y [Ciclo de vida del mensaje transaccional](../../channels/using/publishing-transactional-message.md).
 
@@ -34,16 +34,16 @@ Una vez que el mensaje esté listo, se puede probar y publicar. Consulte [Prueba
 
 Para acceder al mensaje transaccional que ha creado:
 
-1. Haga clic en el **Adobe** , en la esquina superior izquierda.
+1. Haga clic en **Adobe** en la esquina superior izquierda.
 1. Seleccione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
 
    ![](assets/message-center_4.png)
 
-1. Haga clic en el mensaje que desee para editarlo.
+1. Haga clic en el mensaje de su elección para editarlo.
 
    ![](assets/message-center_message-board.png)
 
-También puede acceder directamente a un mensaje transaccional a través del vínculo ubicado en el área izquierda de la pantalla de configuración de evento correspondiente. Consulte [Vista previa y publicación de un evento](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
+También puede acceder directamente a un mensaje transaccional a través del vínculo ubicado en el área del lado izquierdo de la pantalla de configuración de evento correspondiente. Consulte [Previsualización y publicación de un evento](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
 ## Personalización de un mensaje transaccional {#personalizing-a-transactional-message}
 
@@ -51,11 +51,11 @@ Para editar y personalizar un mensaje transaccional, siga los pasos a continuaci
 
 >[!NOTE]
 >
->En esta sección se describe cómo editar una **basado en eventos** mensaje transaccional. La variable **basado en perfiles** las características específicas del mensaje transaccional son detalladas [below](#profile-transactional-message-specificities).
+>En esta sección se describe cómo editar una **basado en eventos** mensaje transaccional. El **basado en perfiles** se detallan las características específicas del mensaje transaccional [abajo](#profile-transactional-message-specificities).
 >
 >Los pasos de configuración para crear un mensaje transaccional basado en eventos se presentan en [esta sección](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
 
-Por ejemplo: desea enviar una notificación a los usuarios del sitio web que han agregado productos al carro de compras y han abandonado el sitio sin pasar por sus compras. Este ejemplo se presenta en la [Principio operativo de mensajería transaccional](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) para obtener más información.
+Por ejemplo, desea enviar una notificación a los usuarios del sitio web que han agregado productos al carro de compras y abandonan el sitio sin comprar. Este ejemplo se presenta en la [Principio operativo de mensajería transaccional](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) sección.
 
 1. Haga clic en el bloque **[!UICONTROL Content]** para modificar el asunto y el contenido del mensaje. Para este ejemplo, seleccione cualquier plantilla que contenga imágenes y texto. Para obtener más información sobre las plantillas de contenido de correo electrónico, consulte [Diseño de correos electrónicos con plantillas](../../designing/using/using-reusable-content.md#designing-templates).
 
@@ -73,7 +73,7 @@ Por ejemplo: desea enviar una notificación a los usuarios del sitio web que han
 
    ![](assets/message-center_7.png)
 
-1. También puede enriquecer el contenido del mensaje. Para ello, añada campos de la tabla que vinculó a la configuración del evento (consulte [Enriquecimiento del evento](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)). En este ejemplo, seleccione la **[!UICONTROL Title (salutation)]** del campo **[!UICONTROL Profile]** tabla hasta **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
+1. También puede enriquecer el contenido del mensaje. Para ello, añada campos de la tabla que vinculó a la configuración de evento (consulte [Enriquecimiento del evento](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)). En este ejemplo, seleccione **[!UICONTROL Title (salutation)]** del campo **[!UICONTROL Profile]** tabla a través de **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
 
    ![](assets/message-center_7-enrichment.png)
 
@@ -99,7 +99,7 @@ When editing the content of a transactional email, you can create product listin
 
 To add a list of abandoned products in a transactional message, follow the steps below.
 
-You can also watch [this set of videos](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=en#configure-product-listings-in-transactional-emails) explaining the steps that are required to configure product listings in a transactional email.
+You can also watch [this set of videos](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html#configure-product-listings-in-transactional-emails) explaining the steps that are required to configure product listings in a transactional email.
 
 >[!NOTE]
 >
@@ -209,20 +209,20 @@ For more on creating a collection and related fields when configuring the event,
 
    For more on defining a test profile in a transactional message, see [this section](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).-->
 
-## Características específicas de los mensajes transaccionales basados en perfiles {#profile-transactional-message-specificities}
+## Especificaciones de mensajes transaccionales basados en perfiles {#profile-transactional-message-specificities}
 
-Puede enviar mensajes transaccionales basados en perfiles de marketing de clientes, lo que le permite aprovechar toda la información de perfil para personalizar el contenido del mensaje, utilizar el vínculo de baja y aplicar reglas de tipología de marketing como [reglas de fatiga](../../sending/using/fatigue-rules.md).
+Puede enviar mensajes transaccionales en función de los perfiles de marketing del cliente, lo que le permite aprovechar toda la información de perfil para personalizar el contenido del mensaje, utilizar el vínculo de baja y aplicar reglas de tipología de marketing como [reglas de fatiga](../../sending/using/fatigue-rules.md).
 
-* Para obtener más información sobre las diferencias entre los mensajes transaccionales basados en eventos y los basados en perfiles, consulte [esta sección](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types).
+* Para obtener más información sobre las diferencias entre los mensajes transaccionales basados en eventos y en perfiles, consulte [esta sección](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types).
 
 * Los pasos de configuración para crear un mensaje transaccional basado en perfiles se detallan en [esta sección](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages).
 
-Los pasos para crear, editar y personalizar un mensaje transaccional de perfil son básicamente los mismos que para un mensaje transaccional de evento.
+Los pasos para crear, editar y personalizar un mensaje transaccional de perfil son principalmente los mismos que para un mensaje transaccional de evento.
 
 Las diferencias se enumeran a continuación.
 
 1. [Vaya al mensaje transaccional que se creó para editarlo.](#accessing-transactional-messages)
-1. En el mensaje transaccional, haga clic en la sección **[!UICONTROL Content]**. Además de las plantillas de correo electrónico transaccional, también puede elegir cualquier plantilla de correo electrónico que tenga como objetivo el **[!UICONTROL Profile]** recurso.
+1. En el mensaje transaccional, haga clic en la sección **[!UICONTROL Content]**. Además de las plantillas de correo electrónico transaccionales, también puede elegir cualquier plantilla de correo electrónico dirigida a **[!UICONTROL Profile]** recurso.
 
    ![](assets/message-center_marketing_templates.png)
 
@@ -232,7 +232,7 @@ Las diferencias se enumeran a continuación.
 
    Para obtener más información sobre las plantillas, consulte [esta sección](../../designing/using/using-reusable-content.md#content-templates).
 
-1. Además, a diferencia de las configuraciones basadas en eventos en tiempo real, tiene **acceso directo a toda la información de perfil** para personalizar el mensaje. Puede añadir [campos personalizados](../../designing/using/personalization.md#inserting-a-personalization-field) como lo haría para cualquier otro correo electrónico de marketing estándar.
+1. Además, a diferencia de las configuraciones basadas en eventos en tiempo real, tiene lo siguiente **acceso directo a toda la información de perfil** para personalizar el mensaje. Puede añadir [campos de personalización](../../designing/using/personalization.md#inserting-a-personalization-field) como lo haría para cualquier otro correo electrónico de marketing estándar.
 
 1. Guarde los cambios antes de publicar el mensaje. Para obtener más información, consulte [Publicación de un mensaje transaccional](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
 

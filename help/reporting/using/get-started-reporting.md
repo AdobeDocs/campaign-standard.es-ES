@@ -8,9 +8,9 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: 9ecb4ba6-c7a3-4b1f-ab73-5eb512ebb016
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '370'
 ht-degree: 20%
 
 ---
@@ -19,22 +19,22 @@ ht-degree: 20%
 
 <table>
 <tr>
-<td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#manage-share-reports">Administrar y compartir informes dinámicos</a></p></td>
+<td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#manage-share-reports">Administración y uso compartido de informes dinámicos</a></p></td>
 <td><img src="assets/do-not-localize/icon_build.svg" width="60px"><p><a href="#build-reports">Creación de informes</a></p></td>
 <td><img src="assets/do-not-localize/icon_customize.svg" width="60px"><p><a href="#customize-reports">Personalización de informes</a></p></td></tr>
 </table>
 
-Informes dinámicos proporciona informes totalmente personalizables y en tiempo real para medir el impacto de las actividades de marketing. Agrega acceso a los datos de perfil, lo que permite el análisis demográfico por dimensiones de perfil como sexo, ciudad y edad, además de datos funcionales de campaña de correo electrónico como aperturas y clics.
+El sistema de informes dinámico proporciona informes totalmente personalizables y en tiempo real para medir el impacto de sus actividades de marketing. Añade acceso a los datos de perfil, lo que permite el análisis demográfico por dimensiones de perfil como sexo, ciudad y edad, además de datos funcionales de campaña de correo electrónico como aperturas y clics.
 
-![](assets/do-not-localize/how-to-video.png) [Descubra los informes dinámicos en vídeo](#video)
+![](assets/do-not-localize/how-to-video.png) [Descubra informes dinámicos en vídeo](#video)
 
 ## Administrar y compartir informes {#manage-share-reports}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-Con sistema de informes dinámico **interfaz de arrastrar y soltar**, puede explorar datos, determinar el rendimiento de sus campañas de correo electrónico en relación con los segmentos de clientes más importantes y medir su impacto en los destinatarios desde un solo lugar.
+Con creación de informes dinámica **interfaz de arrastrar y soltar** Además, puede explorar datos, determinar el rendimiento de sus campañas de correo electrónico en relación con los segmentos de clientes más importantes y medir su impacto en los destinatarios desde un solo lugar.
 
-**Administrar los informes dinámicos** gracias a varias funcionalidades: actualice los datos en tiempo real, imprima los informes o exporte los datos como archivos CSV. También puede compartir sus informes con usuarios Campaign Standards mediante correos electrónicos recurrentes o de una sola toma.
+**Administrar los informes dinámicos** gracias a varias funcionalidades: actualizar los datos en tiempo real, imprimir los informes o exportarlos como archivos CSV. También puede compartir sus informes con usuarios de Campaign Standard a través de correos electrónicos recurrentes o de una sola toma.
 
 Más información:
 
@@ -45,9 +45,9 @@ Más información:
 
 <img src="assets/do-not-localize/icon_build.svg" width="60px">
 
-El Campaign Standard viene con un conjunto de **informes dinámicos listos para usar** le permite medir varios aspectos de sus campañas de marketing: devoluciones, envíos que se han declarado más como correo no deseado o no deseado, envíos más vistos por destinatarios, informes relacionados con los canales, rendimiento de envío e informes de seguimiento...
+Campaign Standard viene con un conjunto de **informes dinámicos listos para usar** lo que le permite medir varios aspectos de sus campañas de marketing: devoluciones, envíos que se han declarado como más correo no deseado o no deseado, envíos más vistos por los destinatarios, informes relacionados con los canales, rendimiento de envíos e informes de seguimiento...
 
-**Combinación de diferentes componentes** (dimensiones, métricas y segmentos, períodos de tiempo) para crear sus propios informes o personalizar los informes predeterminados.
+**Combinación de distintos componentes** (dimensiones, métricas y segmentos, periodos de tiempo) para crear sus propios informes o personalizar informes predeterminados.
 
 Más información:
 
@@ -59,11 +59,11 @@ Más información:
 
 <img src="assets/do-not-localize/icon_customize.svg" width="60px">
 
-**Personalización de informes** mediante las capacidades de diseño de informes dinámicos: añada tantos componentes como necesite (paneles y tablas improvisada) para analizar los datos con la métrica y las dimensiones disponibles.
+**Personalización de informes** aproveche las capacidades de diseño de dynamic reporting: añada tantos componentes como necesite (paneles y tablas de forma libre) para analizar los datos con las métricas y dimensiones disponibles.
 
-Arrastrar y soltar **elementos de visualización** para agregar representaciones gráficas de los datos a los informes y configurarlas según sus necesidades.
+Arrastrar y soltar **elementos de visualización** para añadir representaciones gráficas de los datos en los informes y configurarlos según sus necesidades.
 
-Crear informes basados en **datos de perfil personalizados** creada durante la extensión del recurso Perfil y **informes basados en segmentos** definida en flujos de trabajo de objetivos.
+Creación de informes basados en **datos de perfil personalizados** creado durante la extensión de recurso de perfil y **informes basados en segmentos** definidos en flujos de trabajo de objetivos.
 
 Más información:
 
@@ -84,4 +84,4 @@ Este vídeo ofrece información general sobre las funciones de creación de info
 
 >[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=eng)
 
-Hay disponibles vídeos prácticos adicionales del Campaign Standard [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
+Hay disponibles más vídeos de procedimientos para el Campaign Standard [aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).

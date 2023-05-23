@@ -1,6 +1,6 @@
 ---
 title: Uso de listas de productos en un mensaje transaccional
-description: Aprenda a utilizar listas de productos en contenido de mensaje transaccional.
+description: Aprenda a utilizar las listas de productos en el contenido de un mensaje transaccional.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -9,9 +9,9 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3c8ddd46-05b4-4414-ab2e-052d60da09e5
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '847'
 ht-degree: 79%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 79%
 
 >[!IMPORTANT]
 >
->Las listas de productos solo están disponibles para **mensajes de correo electrónico transaccionales** a través de [Diseñador de correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) interfaz.
+>Los listados de productos solo están disponibles para **mensajes de correo electrónico transaccionales** a través de [Diseñador de correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) interfaz.
 
-Al editar el contenido de un correo electrónico transaccional, puede crear listas de productos que hagan referencia a una o más colecciones de datos. Por ejemplo: en un correo electrónico de abandono del carro de compras, puede incluir una lista de todos los productos que estaban en el carro de compras de los usuarios cuando salieron del sitio web, con una imagen, el precio y un vínculo a cada producto.
+Al editar el contenido de un correo electrónico transaccional, puede crear listas de productos que hagan referencia a una o varias colecciones de datos. Por ejemplo, en un correo electrónico de abandono del carro de compras, puede incluir una lista de todos los productos que estaban en el carro de compras de los usuarios cuando salieron del sitio web, con una imagen, el precio y un vínculo a cada producto.
 
 Para añadir una lista de productos abandonados en un mensaje transaccional, siga los pasos a continuación.
 
-También puede ver [este conjunto de vídeos](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=en#configure-product-listings-in-transactional-emails) explicación de los pasos necesarios para configurar listas de productos en un correo electrónico transaccional.
+También puede ver [este conjunto de vídeos](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html#configure-product-listings-in-transactional-emails) explicación de los pasos necesarios para configurar las listas de productos en un correo electrónico transaccional.
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ También puede ver [este conjunto de vídeos](https://experienceleague.adobe.com
 Antes de poder usar una lista de productos en un mensaje transaccional, debe definir a nivel de evento la lista de productos y los campos de cada producto de la lista que desee mostrar. Para obtener más información, consulte [Definición de colecciones de datos](../../channels/using/configuring-transactional-event.md#defining-data-collections).
 
 1. En el mensaje transaccional, haga clic en el bloque **[!UICONTROL Content]** para modificar el contenido del correo electrónico.
-1. Arrastre y suelte un componente de estructura en el espacio de trabajo. Para obtener más información, consulte [Definición de la estructura del correo electrónico](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Arrastre y suelte un componente de estructura en el espacio de trabajo. Para obtener más información, consulte [Definición de la estructura de correo electrónico](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
    Por ejemplo, seleccione un componente de estructura de una columna y añada un componente de texto, un componente de imagen y un componente de botón. Para obtener más información, consulte [Uso de componentes de contenido](../../designing/using/designing-from-scratch.md#about-content-components).
 
@@ -56,7 +56,7 @@ Antes de poder usar una lista de productos en un mensaje transaccional, debe def
 
    >[!NOTE]
    >
-   >La opción **[!UICONTROL Column]** solo está disponible cuando se utiliza un componente de estructura de varias columnas (**[!UICONTROL 2:2 column]**, **[!UICONTROL 3:3 column]** y **[!UICONTROL 4:4 column]**). Al editar la lista de productos, rellene solo la primera columna: las demás columnas no se tendrán en cuenta. Para obtener más información sobre la selección de componentes de estructura, consulte [Definición de la estructura del correo electrónico](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+   >La opción **[!UICONTROL Column]** solo está disponible cuando se utiliza un componente de estructura de varias columnas (**[!UICONTROL 2:2 column]**, **[!UICONTROL 3:3 column]** y **[!UICONTROL 4:4 column]**). Al editar la lista de productos, rellene solo la primera columna: las demás columnas no se tendrán en cuenta. Para obtener más información sobre la selección de componentes de estructura, consulte [Definición de la estructura de correo electrónico](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 1. Seleccione la recopilación de datos que ha creado al configurar el evento relacionado con el mensaje transaccional. Puede encontrarlo en el nodo **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
 

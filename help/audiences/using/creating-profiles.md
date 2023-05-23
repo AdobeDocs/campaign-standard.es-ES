@@ -8,9 +8,9 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: 827df9f6-070c-466a-890c-e363de6b129b
-source-git-commit: e26d0d78126a7795f3341d4f07ee380605d83c77
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '391'
 ht-degree: 84%
 
 ---
@@ -31,7 +31,7 @@ Para crear o actualizar un perfil en Campaign, puede:
 * Recopilar datos en línea, mediante [páginas de aterrizaje](../../channels/using/getting-started-with-landing-pages.md)
 * Realizar una creación masiva mediante la [API de REST](../../api/using/get-started-apis.md)
 * Sincronizar perfiles de [Microsoft Dynamics](../../integrating/using/d365-acs-get-started.md)
-* Introduzca datos mediante la interfaz de usuario, tal como se explica a continuación
+* Introduzca datos mediante la interfaz de usuario de, como se explica a continuación
 
 Por ejemplo, para crear un nuevo perfil directamente en la interfaz de usuario, siga los pasos a continuación:
 
@@ -56,7 +56,7 @@ Por ejemplo, para crear un nuevo perfil directamente en la interfaz de usuario, 
 
    * La categoría **[!UICONTROL No longer contact]** se actualiza en cuanto el perfil cancela la suscripción a un canal.
    * La categoría **[!UICONTROL Address]** contiene la dirección postal que debe rellenarse junto con la opción **[!UICONTROL Address specified]** para enviar [correo postal](../../channels/using/about-direct-mail.md) a dicho perfil. Si la opción **[!UICONTROL Address specified]** no está marcada, este perfil se excluye de todos los envíos de correo postal.
-   * La variable **[!UICONTROL Access authorization]** indica las unidades organizativas del perfil a [administrar permisos](../../administration/using/about-access-management.md). Para añadir los campos organizativos a los perfiles, consulte la sección [Partición de perfiles](../../administration/using/organizational-units.md#partitioning-profiles).
+   * El **[!UICONTROL Access authorization]** categoría indica las unidades organizativas del perfil que se van a [administración de permisos](../../administration/using/about-access-management.md). Para añadir los campos organizativos a los perfiles, consulte la sección [Partición de perfiles](../../administration/using/organizational-units.md#partitioning-profiles).
    * La categoría **[!UICONTROL Traceability]** se actualiza automáticamente con información relativa al usuario que ha creado o modificado el perfil.
 
 1. Haga clic en **[!UICONTROL Create]** para guardar el perfil.
@@ -72,4 +72,4 @@ Este vídeo muestra cómo importar perfiles con un flujo de trabajo.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24993?quality=12)
 
-Hay disponibles vídeos prácticos adicionales del Campaign Standard [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
+Hay disponibles más vídeos de procedimientos para el Campaign Standard [aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).

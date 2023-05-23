@@ -8,10 +8,10 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
-source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 98%
+source-wordcount: '1559'
+ht-degree: 95%
 
 ---
 
@@ -45,7 +45,7 @@ Por ello, es responsabilidad del controlador de datos confirmar la identidad del
 
 Antes de crear solicitudes de privacidad, debe definir el área de nombres que utilizará. El área de nombres es la clave que se utiliza para identificar el sujeto de datos en la base de datos de Adobe Campaign. Hay dos Áreas de nombres disponibles: correo electrónico y teléfono móvil. Si necesita una Área de nombres diferente (por ejemplo, un campo personalizado de perfil), siga estos pasos.
 
-[Consulte también el tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html?lang=es#privacy) sobre cómo crear un área de nombres.
+[Consulte también el tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html#privacy) sobre cómo crear un área de nombres.
 
 >[!NOTE]
 >
@@ -91,13 +91,13 @@ Antes de crear solicitudes de privacidad, debe definir el área de nombres que u
 
 La integración de Privacy Core Service le permite automatizar sus solicitudes de privacidad en un contexto de varias soluciones a través de una sola llamada de API JSON. A través de la integración del Servicio principal de privacidad: Las solicitudes de privacidad enviadas desde el Servicio principal de privacidad a todas las soluciones de Experience Cloud las gestiona Campaign de forma automática a través de un flujo de trabajo dedicado.
 
-Consulte la documentación del [Privacy Service de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es) para obtener información sobre cómo crear solicitudes de privacidad desde el Servicio principal de privacidad.
+Consulte la documentación del [Privacy Service de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) para obtener información sobre cómo crear solicitudes de privacidad desde el Servicio principal de privacidad.
 
 >[!IMPORTANT]
 >
->Para enviar una solicitud utilizando el tipo de área de nombres personalizada, aproveche la variable [método JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=es#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=es#access-delete){target="_blank"} para realizar la solicitud.
+>Para enviar una solicitud utilizando el tipo de área de nombres personalizada, aproveche el [método JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html#access-delete){target="_blank"} para realizar la solicitud.
 >
->Utilice únicamente la variable [Interfaz de usuario de privacidad](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=es#request-builder){target="_blank"} para enviar solicitudes utilizando el tipo de área de nombres estándar.
+>Utilice solo la variable [Interfaz de usuario de privacidad](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#request-builder){target="_blank"} para enviar solicitudes utilizando el tipo de área de nombres estándar.
 
 Cada trabajo del servicio principal de privacidad se divide en varias solicitudes de privacidad en Campaña, en función de cuántas Áreas de nombres se estén utilizando, una solicitud que corresponde a una Área de nombres. Además, un trabajo se puede ejecutar en varias instancias. Por lo tanto, se crean varios archivos para un trabajo. Por ejemplo, si una solicitud tiene dos Áreas de nombres y se está ejecutando en tres instancias, se envía un total de seis archivos. Un archivo por Área de nombres e instancia.
 
@@ -125,7 +125,7 @@ Esta es la lista de recursos predeterminados que se tienen en cuenta al realizar
 
 Si ha creado recursos personalizados que tienen un vínculo al recurso de perfiles (tipo propio), también se tendrán en cuenta. Por ejemplo, si tiene un recurso de transacción vinculado al recurso de perfiles y un recurso de detalles de transacción vinculado al recurso de transacción, ambos se tendrán en cuenta.
 
-Consulte también [este tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html?lang=es#privacy) sobre cómo modificar los recursos personalizados.
+Consulte también [este tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html#privacy) sobre cómo modificar los recursos personalizados.
 
 Para que esto funcione, debe seleccionar la opción **[!UICONTROL Deleting the target record implies deleting records referenced by the link]** en el recurso personalizado:
 

@@ -8,14 +8,14 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 feature: Landing Pages
 role: User
 exl-id: 8015c555-9521-478c-8669-66b9cc145887
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1025'
 ht-degree: 97%
 
 ---
 
-# Introducción a las páginas de destino {#getting-started-with-landing-pages}
+# Introducción a las páginas de aterrizaje {#getting-started-with-landing-pages}
 
 Los pasos principales para configurar páginas de aterrizaje son los siguientes:
 
@@ -138,4 +138,4 @@ Este vídeo muestra cómo crear y editar una página de aterrizaje.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
 
-Hay disponibles vídeos prácticos adicionales del Campaign Standard [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
+Hay disponibles más vídeos de procedimientos para el Campaign Standard [aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).

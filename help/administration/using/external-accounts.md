@@ -1,14 +1,14 @@
 ---
 title: Cuentas externas
-description: Aprenda a configurar cuentas externas para configurar conexiones con sistemas externos como servidores SFTP
+description: Obtenga información sobre cómo configurar cuentas externas para configurar conexiones con sistemas externos como servidores SFTP
 audience: administration
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1766'
+source-wordcount: '1764'
 ht-degree: 80%
 
 ---
@@ -79,22 +79,22 @@ Para evitar estos problemas, Adobe recomienda seguir las prácticas recomendadas
 * Inicie sesión ocasionalmente en el SFTP para comprobar directamente lo que sucede allí.
 * Recuerde que la gestión de discos SFTP es responsabilidad principalmente suya.
 
-Además, tenga en cuenta que las IP públicas desde las que intente iniciar la conexión SFTP deben agregarse a la lista de permitidos de la instancia de Campaign. La adición de direcciones IP a la lista de permitidos se puede solicitar mediante un [ticket de asistencia](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html), junto con la clave pública que se utilizará para la autenticación.
+Tenga en cuenta también que las IP públicas desde las que intente iniciar la conexión SFTP se deben añadir a la lista de permitidos de Campaign. Añadir direcciones IP a la lista de permitidos se puede solicitar mediante una [ticket de asistencia](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html), junto con la clave pública que se utilizará para la autenticación.
 
 Los servidores SFTP se pueden administrar desde el panel de control. Para obtener más información, consulte la [documentación del panel de control](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=es).
 
 >[!NOTE]
 >
->Todos los usuarios administradores pueden acceder al Panel de control de Campaign. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel).
+>Todos los usuarios administradores pueden acceder al Panel de control. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel).
 
 ## Cuenta de OAuth 2.0 {#oauth-account}
 
 Para una cuenta externa de OAuth 2.0, proporcione los siguientes detalles:
 
-* A **Tipo de beca**: only **credenciales de cliente** es compatible.
-* A **URL de API segura**: introduzca el extremo de autorización.
-* **Credenciales confidenciales de OAuth 2.0**: Esta sección está diseñada para credenciales de naturaleza confidencial. Los valores de Credencial se ocultarán en la pantalla una vez añadidos. en este punto, no serán legibles ni editables. Si el extremo de autorización requiere que se inserte una credencial particular en el encabezado de autorización HTTP en lugar del parámetro de cuerpo del POST, puede seleccionar la opción Incluir en el encabezado para esa credencial.
-* **Credenciales no confidenciales de OAuth 2.0**: Esta sección está diseñada para credenciales de naturaleza no sensible. Los valores de Credencial serán visibles en la pantalla una vez añadidos. también se pueden editar.  Si el extremo de autorización requiere que se inserte una credencial particular en el encabezado de autorización HTTP en lugar del parámetro de cuerpo del POST, puede seleccionar la opción Incluir en el encabezado para esa credencial.
+* A **Tipo de concesión**: solo **credenciales de cliente** es compatible.
+* A **URL de API segura**: introduzca el punto final de autorización.
+* **Credenciales confidenciales de OAuth 2.0**: Esta sección está diseñada para credenciales que son de naturaleza confidencial. Los valores de credencial se enmascararán en la pantalla después de agregarse; en ese momento, no serán legibles ni editables. Si el extremo de autorización requiere que se inserte una credencial determinada en el encabezado de autorización HTTP en lugar del parámetro de cuerpo del POST, puede seleccionar la opción Incluir en el encabezado para esa credencial.
+* **Credenciales no confidenciales de OAuth 2.0**: Esta sección está diseñada para credenciales que no son confidenciales. Los valores de credencial serán visibles en la pantalla después de agregarse; también serán editables.  Si el extremo de autorización requiere que se inserte una credencial determinada en el encabezado de autorización HTTP en lugar del parámetro de cuerpo del POST, puede seleccionar la opción Incluir en el encabezado para esa credencial.
 
 Después de introducir la información de la cuenta, haga clic en **Probar conexión** para comprobar que la cuenta externa se ha configurado correctamente.
 
@@ -102,7 +102,7 @@ Después de introducir la información de la cuenta, haga clic en **Probar conex
 
 >[!NOTE]
 >
->Las credenciales &quot;Content-Type: application/x-www-form-urlencoded&quot; y &quot;grant_type=client_credentials&quot; se añadirán automáticamente a la llamada de API; por lo tanto, no es necesario agregarlos en la sección de credenciales.
+>Las credenciales &quot;Content-Type: application/x-www-form-urlencoded&quot; y &quot;grant_type=client_credentials&quot; se añadirán automáticamente a la llamada de API; por lo tanto, no es necesario añadirlas en la sección de credenciales.
 
 ## Cuenta externa de Amazon S3 {#amazon-s3-external-account}
 
@@ -156,7 +156,7 @@ Al configurar esta nueva cuenta externa, debe proporcionar los siguientes detall
 
 El mecanismo de Google reCAPTCHA le permite proteger su página de aterrizaje del spam y los abusos causados por los bots. Esto no es intrusivo para los clientes, ya que no requiere ninguna interacción por parte de ellos y se basa en las interacciones con el sitio. Para registrar su sitio, consulte esta [página](https://www.google.com/recaptcha/admin/create). Debe elegir el tipo de reCAPTCHA V3.
 
-Para añadir Google reCAPTCHA V3 a la página de aterrizaje, configúrelo en la cuenta externa. Para obtener más información sobre cómo añadirlo a su página de aterrizaje, consulte esta [sección](../../channels/using/configuring-landing-page.md#setting-google-recaptcha).
+Para añadir Google reCAPTCHA V3 a su página de aterrizaje, configúrelo en su cuenta externa. Para obtener más información sobre cómo añadirlo a su página de aterrizaje, consulte esta [sección](../../channels/using/configuring-landing-page.md#setting-google-recaptcha).
 
 Para una cuenta externa de Google reCAPTCHA V3, proporcione los siguientes detalles:
 

@@ -9,9 +9,9 @@ feature: SMS
 role: User
 level: Beginner
 exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
-source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '559'
 ht-degree: 89%
 
 ---
@@ -49,7 +49,7 @@ Para crear y enviar mensajes SMS a un teléfono móvil, necesita:
    >
    >Tanto el nombre de la actividad como su ID aparecen en la interfaz, pero no son visibles para los destinatarios de mensajes.
    >
-   >Asegúrese de que el campo ID no contenga ningún espacio en blanco para evitar discrepancias, por ejemplo al integrar con Adobe Analytics.
+   >Asegúrese de que el campo ID no contenga ningún espacio en blanco para evitar discrepancias, por ejemplo, al integrarse con Adobe Analytics.
 
 1. Especifique la audiencia a la que desea enviar el mensaje. Puede seleccionar una audiencia existente o dirigirlo un destinatario directo de una población definiendo y combinando reglas.
 
@@ -87,8 +87,8 @@ Una vez finalizado el envío, puede empezar a medir el impacto del mensaje con i
 
 ## Tutorial en vídeo {#video}
 
-Este vídeo muestra cómo crear un envío SMS.
+Este vídeo muestra cómo crear un envío de SMS.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25265/?quality=12)
 
-Hay disponibles vídeos prácticos adicionales del Campaign Standard [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
+Hay disponibles más vídeos de procedimientos para el Campaign Standard [aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).

@@ -6,10 +6,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 00714c80-bdaf-4241-bf2f-51498ca1dbef
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 80%
+source-wordcount: '229'
+ht-degree: 77%
 
 ---
 
@@ -27,17 +27,17 @@ Los derechos predeterminados son:
 
    >[!NOTE]
    >
-   >Si trabaja con Déclencheur de Experience Cloud, necesita la variable **[!UICONTROL Administration]** derecho para poder acceder al menú Déclencheur del Experience Cloud. Para obtener más información sobre los Déclencheur del Experience Cloud, consulte esta [página](../../integrating/using/about-adobe-experience-cloud-triggers.md).
+   >Si trabaja con Déclencheur Experience Cloud, necesita el **[!UICONTROL Administration]** derecho para acceder al menú Déclencheur del Experience Cloud. Para obtener más información sobre los Déclencheur de Experience Cloud, consulte esta sección [página](../../integrating/using/about-adobe-experience-cloud-triggers.md).
 
 * **[!UICONTROL Datamodel]**: Derecho para ejecutar publicaciones y crear recursos personalizados.
-* **[!UICONTROL Generic import]**: Derecho para ejecutar una importación genérica de datos. Para que esto funcione, debe vincular la variable **[!UICONTROL Generic import]** para **[!UICONTROL Workflow]** función.
+* **[!UICONTROL Generic import]**: Derecho para ejecutar una importación genérica de datos. Para que esto funcione, debe vincular la variable **[!UICONTROL Generic import]** función a la **[!UICONTROL Workflow]** función.
 * **[!UICONTROL Prepare deliveries]**: Derecho a crear, modificar, preparar y eliminar entregas. Los usuarios con esta función pueden preparar la entrega pero no enviarla.
 * **[!UICONTROL Start deliveries]**: Derecho para crear, modificar, preparar, enviar y eliminar entregas.
 * **[!UICONTROL Workflow]**: Derecho para gestionar la ejecución de flujos de trabajo (inicio, parada, pausa, etc.). Los usuarios con esta función no pueden enviar una entrega ni siquiera en un flujo de trabajo.
 
 Para obtener más información, consulte la [tabla de funciones y permisos](/help/administration/using/assets/acs_rights.pdf) que detalla las funciones disponibles en la interfaz según las autorizaciones seleccionadas.
 
-[![imagen](assets/user_management_3.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
+[![imagen](assets/user_management_3.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 **Temas relacionados:**
 
