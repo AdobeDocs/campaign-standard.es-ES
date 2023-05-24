@@ -1,6 +1,6 @@
 ---
 title: Desglose por dominios
-description: Con el informe Desglose por dominios integrado, obtenga información sobre los datos de rendimiento de los envíos en función de cada dominio del cliente.
+description: Con el informe predeterminado Desglose por dominios, obtenga información sobre los datos de rendimiento de las entregas en función de cada uno de los dominios del cliente.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -18,23 +18,23 @@ ht-degree: 3%
 
 # Desglose por dominios{#breakdown-by-domains}
 
-Este informe contiene los datos de rendimiento de cada dominio representado en la audiencia para una entrega de correo electrónico. Si se trata de un informe de campaña o programa, los datos de rendimiento están disponibles para varias audiencias. Estos datos le permiten analizar el comportamiento de cada dominio en respuesta a eventos específicos. Por ejemplo, visualización de vínculos, dirección URL en lista de bloqueados, etc.
+Este informe contiene los datos de rendimiento de cada dominio representado en la audiencia de un envío de correo electrónico. Si se trata de un informe de campaña o de programa, los datos de rendimiento están disponibles para varias audiencias. Estos datos le permiten analizar el comportamiento de cada dominio en reacción a eventos específicos. Por ejemplo, visualización de vínculos, dirección URL en la lista de bloqueados de la, etc.
 
 ![](assets/delivery_reports_6.png)
 
 La tabla **Estadísticas de difusión** contiene los datos disponibles para detectar posibles errores encontrados con cada dominio, como:
 
-* **Procesado/enviado**: Número de correos electrónicos enviados.
-* **Entrega**: Número de correos electrónicos enviados.
-* **Devoluciones + Errores**: Número de mensajes que no se pudieron enviar.
-* **Rechazo grave**: El número total de errores permanentes, como una dirección de correo electrónico incorrecta.
-* **Rechazo suave**: El número total de errores temporales, como una bandeja de entrada completa.
+* **Procesado/enviado**: el número de correos electrónicos enviados.
+* **Entregado**: El número de correos electrónicos entregados.
+* **Devoluciones + Errores**: el número de mensajes que no se pudieron entregar.
+* **Rechazo duro**: el número total de errores permanentes, como una dirección de correo electrónico incorrecta.
+* **Rechazo suave**: el número total de errores temporales, como una bandeja de entrada llena.
 
-La segunda tabla, **Estadísticas de seguimiento**, contiene los datos disponibles para la reacción del destinatario a la entrega, como:
+La segunda tabla, **Estadísticas de seguimiento**, contiene los datos disponibles para la reacción de los destinatarios a la entrega, como:
 
-* **Entrega**: El número de correos electrónicos enviados
-* **Apertura**: Número de veces que se abrió un mensaje en una entrega.
-* **Haga clic en**: Número de veces que se hizo clic en el contenido en una entrega.
-* **Cancelación de suscripción**: El número de clics en el vínculo de suscripción.
-* **Página espejo**: El número de clics en el vínculo de la página espejo.
-* **En lista de bloqueados**: El número de destinatarios que han declarado un correo electrónico como correo no deseado o no deseado. [Más información](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* **Entregado**: el número de correos electrónicos entregados
+* **Abrir**: El número de veces que se abrió un mensaje en una entrega.
+* **Clic**: El número de veces que se hizo clic en el contenido en una entrega.
+* **Cancelado**: el número de clics en el vínculo de suscripción.
+* **Página espejo**: el número de clics en el vínculo de la página espejo.
+* **En la lista de bloqueados**: El número de destinatarios que han declarado un correo electrónico como correo no deseado. [Más información](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)

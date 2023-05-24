@@ -42,9 +42,9 @@ Un sonido alertará a los usuarios de una notificación push, lo que le da más 
 
    ![](assets/push_notif_advanced_7.png)
 
-1. El archivo de sonido se reproduce al enviar la notificación si el archivo está definido en el paquete de la aplicación móvil. Puede definirlo en **default** para reproducir el sonido predeterminado del dispositivo.
+1. El archivo de sonido se reproduce al enviar la notificación si el archivo está definido en el paquete de la aplicación móvil. Puede establecerlo en **predeterminado** para reproducir el sonido predeterminado del dispositivo.
 
-   Si la variable **[!UICONTROL Play a sound]** se deja vacío, no se reproducirá ningún sonido.
+   Si la variable **[!UICONTROL Play a sound]** Si el campo se deja vacío, no se reproducirá ningún sonido.
 
 El usuario recibe la notificación push y el sonido solo si su teléfono no está silenciado.
 
@@ -113,7 +113,7 @@ Configurar una fecha de vencimiento en la notificación push le permite establec
 
 Para añadir una fecha de vencimiento a la notificación push:
 
-1. Marque la **[!UICONTROL Expire message]** opción: seleccionando **[!UICONTROL Expire message]** , la duración se establece automáticamente en 0. Si no cambia el valor, APNS y FCM intentan enviar el mensaje inmediatamente. Si ocurre un error, el mensaje no se vuelve a enviar.
+1. Compruebe la **[!UICONTROL Expire message]** opción: seleccionando la opción **[!UICONTROL Expire message]** , la duración se establece automáticamente en 0. Si no cambia el valor, APNS y FCM intentan enviar el mensaje inmediatamente. Si ocurre un error, el mensaje no se vuelve a enviar.
 
 1. En el campo **[!UICONTROL Duration]**, seleccione la validez de la notificación push.
 

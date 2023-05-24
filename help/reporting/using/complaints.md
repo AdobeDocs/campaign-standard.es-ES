@@ -1,6 +1,6 @@
 ---
 title: Reclamaciones
-description: Con el informe Complaints listo para usar, conozca cuántas veces se declaró el envío como correo no deseado.
+description: Con el informe Predeterminado Quejas, obtenga información sobre la cantidad de tiempo que se declaró la entrega como correo no deseado.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -22,6 +22,6 @@ El informe **[!UICONTROL Complaints]** identifica los envíos que reciben la may
 
 ![](assets/delivery_reports_complaints.png)
 
-La variable **Flop** , ordenada por dominio de destinatario, muestra el número de destinatarios que han declarado un correo electrónico o correo no deseado. Los resultados de la tabla también están disponibles en un gráfico y en números de resumen.
+El **Flop** La tabla, ordenada por dominio de destinatario, muestra el número de destinatarios que han declarado un correo electrónico o correo no deseado. Los resultados de la tabla también están disponibles en un gráfico y números de resumen.
 
-La variable **Entrega frente a  Lista de bloqueados** lista el número de destinatarios que han declarado un correo electrónico como correo no deseado o no deseado. La tabla se ordena por entrega.
+El **Entrega frente a Lista de bloqueados de la** La tabla enumera el número de destinatarios que han declarado un correo electrónico como correo no deseado. La tabla se ordena por envío.

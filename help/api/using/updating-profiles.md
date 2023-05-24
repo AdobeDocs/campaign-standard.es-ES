@@ -18,9 +18,9 @@ La actualización de perfiles se realiza con un **PATCH** solicitud.
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/<apiName>/<resourceName>/<PKEY>`
 
-1. El primer paso es **recuperar el perfil**.
+1. El primer paso es **recuperación del perfil**.
 
-1. En una segunda solicitud, realice una **solicitud del PATCH** en el perfil con la información completada en la carga útil.
+1. En una segunda solicitud, realice una **petición del PATCH** en el perfil con la información completada en la carga útil.
 
 1. Para comprobar si la solicitud del PATCH ha actualizado el perfil, podemos realizar una solicitud de GET final.
 
@@ -28,7 +28,7 @@ La actualización de perfiles se realiza con un **PATCH** solicitud.
 
 ***Solicitud de ejemplo***
 
-Ejemplo de solicitud de GET para recuperar un perfil.
+Solicitud de GET de muestra para recuperar un perfil.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>\
@@ -54,7 +54,7 @@ Respuesta a la solicitud.
 }
 ```
 
-solicitud del PATCH para actualizar el atributo &quot;phone&quot;.
+Solicitud del PATCH para actualizar el atributo &quot;phone&quot;.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -65,7 +65,7 @@ solicitud del PATCH para actualizar el atributo &quot;phone&quot;.
 -d '{"phone":"3301020304"}'
 ```
 
-Devuelve el PKEY y la URL para recuperar el perfil actualizado.
+Devuelve la PKEY y la URL para recuperar el perfil actualizado.
 
 ```
 {

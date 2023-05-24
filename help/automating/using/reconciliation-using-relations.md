@@ -28,7 +28,7 @@ El flujo de trabajo se compone de las siguientes actividades:
 
 ![](assets/reconciliation_example1.png)
 
-* A [Cargar archivo](../../automating/using/load-file.md) actividad , que carga y detecta los datos del archivo que se va a importar. El archivo importado contiene los siguientes datos:
+* A [Cargar archivo](../../automating/using/load-file.md) actividad, que carga y detecta los datos del archivo que se va a importar. El archivo importado contiene los siguientes datos:
 
    * Fecha de transacción
    * Dirección de correo electrónico del cliente
@@ -56,7 +56,7 @@ El flujo de trabajo se compone de las siguientes actividades:
 
    ![](assets/reconciliation_example3.png)
 
-* Un [Actualización de datos](../../automating/using/update-data.md) actividad permite definir los campos de la base de datos que se actualizarán con los datos importados. Como los datos ya se identificaron como pertenecientes a la dimensión **Transactions** en la actividad anterior, aquí puede utilizar la opción de identificación **[!UICONTROL Directly using the targeting dimension]**.
+* Un [Actualización de datos](../../automating/using/update-data.md) La actividad permite definir los campos de base de datos que se actualizarán con los datos importados. Como los datos ya se identificaron como pertenecientes a la dimensión **Transactions** en la actividad anterior, aquí puede utilizar la opción de identificación **[!UICONTROL Directly using the targeting dimension]**.
 
    Mediante la opción que detecta automáticamente los campos que se van a actualizar, los vínculos configurados en la actividad anterior (a perfiles y productos) se agregan a la lista de **[!UICONTROL Fields to update]**. También debe asegurarse de que el campo que corresponde a la fecha de transacción se agrega correctamente a esta lista.
 

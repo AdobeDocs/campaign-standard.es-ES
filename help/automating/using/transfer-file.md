@@ -60,11 +60,11 @@ Puede utilizar esta actividad para recuperar datos que luego se estructuran con 
 
    * **[!UICONTROL Delete the source files after transfer]**: borra los archivos del servidor remoto. Si deja esta opción sin marcar, asegúrese de monitorizar manualmente el tamaño del contenido archivado en el directorio SFTP.
 
-   * **[!UICONTROL Sorting files]**: permite ordenar archivos de forma alfanumérica. Esta opción está desactivada de forma predeterminada.
+   * **[!UICONTROL Sorting files]**: permite ordenar los archivos alfanuméricamente. Esta opción está desactivada de forma predeterminada.
 
       <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
 
-   * **[!UICONTROL List all files]**: esta opción está disponible al seleccionar la variable **[!UICONTROL File listing]** en la variable **[!UICONTROL General]** pestaña . Permite indexar todos los archivos presentes en el servidor en la variable de evento **vars.filenames** en la que los nombres de archivo están separados por los caracteres **&#39;n&#39;**.
+   * **[!UICONTROL List all files]**: esta opción está disponible al seleccionar la variable **[!UICONTROL File listing]** acción en la **[!UICONTROL General]** pestaña. Permite indexar todos los archivos presentes en el servidor en la variable de evento **vars.filenames** en la que los nombres de archivo están separados por los caracteres **&#39;n&#39;**.
 
 1. La sección **[!UICONTROL If no files are found]** de la pestaña **[!UICONTROL Advanced options]** permite configurar acciones específicas si se detectan errores o archivos inexistentes al iniciar la actividad.
 
@@ -78,20 +78,20 @@ Puede utilizar esta actividad para recuperar datos que luego se estructuran con 
 
 El protocolo HTTP permite iniciar la descarga de un archivo desde una cuenta externa o desde una dirección URL.
 
-Con este protocolo, puede elegir **[!UICONTROL Use connection parameters defined in an external account]** . En este caso, seleccione la cuenta que desee y especifique la ruta del archivo que desea descargar.
+Con este protocolo, puede elegir lo siguiente **[!UICONTROL Use connection parameters defined in an external account]** opción. En este caso, seleccione la cuenta que desee y especifique la ruta del archivo que desea descargar.
 
 ![](assets/wkf_file_transfer_03.png)
 
 También puede elegir la opción **[!UICONTROL Quick configuration]**. Solo es necesario introducir la dirección URL en el campo URL.
 ![](assets/wkf_file_transfer_04.png)
 
-**[!UICONTROL Follow redirections]**, **[!UICONTROL Ignore the HTTP return code]** y **[!UICONTROL Add received HTTP headers to the file]** son las opciones adicionales disponibles al seleccionar el protocolo HTTP.
+**[!UICONTROL Follow redirections]**, **[!UICONTROL Ignore the HTTP return code]**, y **[!UICONTROL Add received HTTP headers to the file]** Estas son las opciones adicionales disponibles al seleccionar el protocolo HTTP.
 
 ### Configuración con SFTP {#SFTP-configuration-wf}
 
 El protocolo SFTP permite iniciar la descarga de un archivo desde una dirección URL o una cuenta externa.
 
-Con este protocolo, puede elegir **[!UICONTROL Use connection parameters defined in an external account]** , seleccione la cuenta que desee y especifique la ruta del archivo que desea descargar.
+Con este protocolo, puede elegir lo siguiente **[!UICONTROL Use connection parameters defined in an external account]** , luego seleccione la cuenta que desee y especifique la ruta del archivo que desea descargar.
 ![](assets/wkf_file_transfer_07.png)
 
 >[!CAUTION]
@@ -114,9 +114,9 @@ El protocolo Amazon S3 permite iniciar la descarga de un archivo desde una URL o
 
    >[!CAUTION]
    >
-   > Los comodines no son compatibles con Amazon S3.
+   > Amazon S3 no admite caracteres comodín.
    >
-   > Para dirigir varios archivos, como `my_file_02` y `my _file_3433`, puede utilizar la siguiente sintaxis: `acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`.
+   > Para segmentar varios archivos, como `my_file_02` y `my _file_3433`, puede utilizar la siguiente sintaxis: `acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`.
 
 4. Si desea eliminar los archivos de origen cuando la transferencia se haya completado, marque **[!UICONTROL Delete the source files after transfer]**.
 
@@ -145,7 +145,7 @@ El protocolo de Microsoft Azure Blob permite acceder al blob ubicado en una cuen
 ### Configuración con archivos presentes en el servidor de Adobe Campaign {#files-server-configuration-wf}
 
 El protocolo de **[!UICONTROL File(s) present on the Adobe Campaign server]** corresponde al repositorio que contiene los archivos que se van a recuperar.
-Metacaracteres o caracteres comodín (por ejemplo &#42; o ?) para filtrar archivos.
+Metacaracteres o caracteres comodín (por ejemplo, &#42; o ?) para filtrar archivos.
 
 Elija si desea **[!UICONTROL Define a file path]** o **[!UICONTROL Use a dynamic file path]**
 La opción **[!UICONTROL Use a dynamic file path]** permite utilizar una expresión estándar y variables de eventos para personalizar el nombre del archivo que desea transferir. Para obtener más información, consulte [esta página](../../automating/using/customizing-workflow-external-parameters.md).
@@ -180,9 +180,9 @@ Cada vez que se ejecuta la actividad, la carpeta se marca de la siguiente manera
 
 ## Variables de salida {#output-variables}
 
-La variable **[!UICONTROL Transfer file]** la actividad genera variables de evento como salida, que puede aprovechar en otras actividades, por ejemplo para comprobar el número de archivos descargados mediante un [Prueba](../../automating/using/test.md) actividad.
+El **[!UICONTROL Transfer file]** la actividad genera variables de evento como salida, que se puede aprovechar en otras actividades como, por ejemplo, para comprobar el número de archivos descargados mediante una [Prueba](../../automating/using/test.md) actividad.
 
-Tenga en cuenta que las variables de eventos también se pueden pasar a otro flujo de trabajo mediante una señal externa (consulte [Personalización de un flujo de trabajo con parámetros externos](../../automating/using/customizing-workflow-external-parameters.md)).
+Tenga en cuenta que las variables de evento también se pueden pasar a otro flujo de trabajo mediante una señal externa (consulte [Personalización de un flujo de trabajo con parámetros externos](../../automating/using/customizing-workflow-external-parameters.md)).
 
 Las variables de salida disponibles son:
 

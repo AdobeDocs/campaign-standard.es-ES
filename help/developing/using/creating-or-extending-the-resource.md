@@ -17,7 +17,7 @@ ht-degree: 11%
 
 # Creación o ampliación del recurso{#creating-or-extending-the-resource}
 
-Los administradores pueden crear un nuevo recurso desde cero o crear una extensión de un recurso existente si necesita trabajar con datos que no forman parte del modelo de datos integrado.
+Los administradores pueden crear un nuevo recurso desde cero o crear una extensión de un recurso existente si necesita trabajar en datos que no forman parte del modelo de datos integrado.
 
 Solo se pueden ampliar los siguientes recursos integrados:
 
@@ -33,10 +33,10 @@ Solo se pueden ampliar los siguientes recursos integrados:
 
 Para crear o ampliar un recurso:
 
-1. De **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom Resources]**, haga clic en **[!UICONTROL Create]** botón.
+1. Desde **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom Resources]**, haga clic en **[!UICONTROL Create]** botón.
 1. Elija la acción que desea realizar:
 
-   * **[!UICONTROL Create a new resource]**: Introduzca la variable **[!UICONTROL Label]** y **[!UICONTROL ID]** campos. El campo **[!UICONTROL ID]** es obligatorio. Si deja vacío el campo Label , se completa automáticamente desde el ID.
+   * **[!UICONTROL Create a new resource]**: introduzca el **[!UICONTROL Label]** y **[!UICONTROL ID]** campos. El campo **[!UICONTROL ID]** es obligatorio. Si deja vacío el campo Label, se rellenará automáticamente a partir del ID.
 
       ![](assets/schema_extension_2.png)
 
@@ -44,10 +44,10 @@ Para crear o ampliar un recurso:
       >
       >Utilice un máximo de 30 caracteres.
 
-   * **[!UICONTROL Extend an existing resource]**: Seleccione el recurso que desea ampliar.
+   * **[!UICONTROL Extend an existing resource]**: seleccione el recurso que desea ampliar.
 
       ![](assets/schema_extension_10.png)
 
-1. Haga clic en **[!UICONTROL Create]** para crear el recurso, que luego tomará el **[!UICONTROL Draft]** estado en caso de un nuevo recurso o de la variable **[!UICONTROL Editing]** en caso de extensión.
+1. Clic **[!UICONTROL Create]** para crear el recurso, que luego se encargará de lo siguiente **[!UICONTROL Draft]** estado en caso de un nuevo recurso o de la **[!UICONTROL Editing]** estado en caso de extensión.
 
 El nuevo recurso se crea y ahora se puede configurar. Para obtener más información sobre la configuración de recursos, consulte [Configuración de la estructura de datos del recurso](../../developing/using/configuring-the-resource-s-data-structure.md).

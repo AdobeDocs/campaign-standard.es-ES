@@ -25,13 +25,13 @@ ht-degree: 29%
 
    >[!NOTE]
    >
-   >Si la API ya se ha publicado (es decir, si ya ha marcado esta opción una vez, para este recurso u otro recurso), se fuerza la actualización de la API.
+   >Si la API ya se ha publicado (es decir, si ya ha marcado esta opción una vez, para este recurso u otro), se fuerza la actualización de la API.
 
 1. Seleccione la pestaña **[!UICONTROL Profiles & Services API Preview]**.
 
    Esto le mostrará los cambios que la publicación de la API aplicará a la versión actual de la API profilesAndServicesExt.
 
-   Aquí, el campo Código promocional (ID: cusBrand) se insertará en la API.
+   En este caso, el campo Código de promoción (ID: cusBrand) se inserta en la API.
 
    ![](assets/extendpandsapi_diff.png)
 

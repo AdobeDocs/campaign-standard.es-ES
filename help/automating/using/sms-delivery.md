@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ---
 
-# Entrega de SMS{#sms-delivery}
+# Envío de SMS{#sms-delivery}
 
 ## Descripción {#description}
 

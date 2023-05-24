@@ -17,7 +17,7 @@ ht-degree: 11%
 
 # Actualización de los atributos de la unidad geográfica {#managing-geographical-units}
 
-1. Realice una solicitud de GET en el **geoUnitBase** recurso para recuperar la PKey de la unidad geográfica.
+1. Realice una solicitud de GET en **geoUnitBase** recurso para recuperar la clave clave de la unidad geográfica.
 1. Realice una solicitud de PATCH en la unidad geográfica, con los atributos que desea actualizar en la carga útil.
 
 <br/>

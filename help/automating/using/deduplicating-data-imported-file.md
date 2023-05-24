@@ -24,7 +24,7 @@ El flujo de trabajo consta de:
 
 ![](assets/deduplication_example2_workflow.png)
 
-* Se importa mediante un [Cargar archivo](../../automating/using/load-file.md) actividad. En este ejemplo, el archivo importado está en formato .csv y contiene 10 perfiles:
+* Un archivo que contiene una lista de perfiles se importa mediante una [Cargar archivo](../../automating/using/load-file.md) actividad. En este ejemplo, el archivo importado está en formato .csv y contiene 10 perfiles:
 
    ```
    lastname;firstname;dateofbirth;email
@@ -50,7 +50,7 @@ El flujo de trabajo consta de:
 
    ![](assets/deduplication_example2_dedup.png)
 
-* Un [Actualización de datos](../../automating/using/update-data.md) actividad le permite insertar los datos guardados desde el proceso de deduplicación en la base de datos. Solo cuando se actualizan los datos, se identifican los datos importados como pertenecientes a la dimensión de perfil.
+* Un [Actualización de datos](../../automating/using/update-data.md) La actividad de le permite insertar los datos guardados desde el proceso de deduplicación en la base de datos. Solo cuando se actualizan los datos, se identifican los datos importados como pertenecientes a la dimensión de perfil.
 
    En este caso, nos gustaría **[!UICONTROL Insert only]** los perfiles que no existen en la base de datos. Vamos a hacerlo utilizando la columna de correo electrónico del archivo y el campo de correo electrónico de la dimensión de **Perfil** como clave de reconciliación.
 

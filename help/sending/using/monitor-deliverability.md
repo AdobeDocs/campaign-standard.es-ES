@@ -18,7 +18,7 @@ ht-degree: 58%
 
 # Supervisión de la capacidad de entrega{#monitor-deliverability}
 
-A continuación encontrará detalles sobre la **[!UICONTROL Delivery throughput]** , así como las diferentes herramientas de monitorización que ofrece Adobe Campaign. Estas son algunas directrices adicionales sobre la monitorización de la capacidad de envío:
+A continuación, encontrará detalles sobre la **[!UICONTROL Delivery throughput]** así como las diferentes herramientas de monitorización que ofrece Adobe Campaign. Estas son algunas directrices adicionales sobre la monitorización de la capacidad de envío:
 * Compruebe regularmente el rendimiento del envío de toda la plataforma para comprobar si es coherente con la configuración original.
 * Compruebe que los reintentos estén correctamente configurados (30 minutos para el periodo de reintento y más de 20 reintentos) en plantillas de envíos.
 * Compruebe periódicamente si puede acceder al buzón de rechazados y que la cuenta no esté a punto de caducar.
@@ -26,9 +26,9 @@ A continuación encontrará detalles sobre la **[!UICONTROL Delivery throughput]
 * Compruebe que las cantidades de errores y nuevas cuarentenas sean coherentes con otros envíos.
 * Consulte cuidadosamente los registros de envío en detalle para comprobar el tipo de errores resaltados (lista de bloqueados, problemas de DNS, reglas de correo no deseado, etc…).
 
-## Rendimiento de la entrega {#delivery-throughput}
+## Rendimiento del envío {#delivery-throughput}
 
-Este informe contiene información sobre el rendimiento de entrega de toda la plataforma durante un periodo determinado para medir la velocidad a la que se envían los mensajes.
+Este informe contiene información sobre el rendimiento de entrega de toda la plataforma durante un periodo determinado para medir la velocidad a la que se entregan los mensajes.
 
 Para obtener más información sobre esto, consulte [Rendimiento de los envíos](../../reporting/using/delivery-throughput.md).
 
@@ -40,17 +40,17 @@ Hay otros informes disponibles, como **[!UICONTROL Delivery summary]** o **[!UIC
 
 ## Seguimiento de entregas {#monitoring-deliveries}
 
-El panel de mensajes le permite acceder a los registros de envío: **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]**, **[!UICONTROL Tracking logs]** y **[!UICONTROL Tracked URLs]**. Muestran los detalles del envío, qué destinatario se ha excluido y por qué, así como la información de seguimiento como aperturas y clics.
+El panel de mensajes le permite acceder a los registros de envío: **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]**, **[!UICONTROL Tracking logs]** y **[!UICONTROL Tracked URLs]**. Estos muestran los detalles del envío, los destinatarios que se han excluido y el porqué, así como la información de seguimiento de aperturas y clics.
 
 Para obtener más información sobre esto, consulte [Monitorización de un envío](../../sending/using/monitoring-a-delivery.md).
 
 ![](assets/sending_delivery1.png)
 
-## Recibir alertas {#receiving-alerts}
+## Recepción de alertas {#receiving-alerts}
 
-La variable **[!UICONTROL Delivery alerting]** es un sistema de gestión de alertas que permite a un grupo de usuarios recibir automáticamente notificaciones que contengan información sobre la ejecución de sus entregas.
+El **[!UICONTROL Delivery alerting]** es un sistema de gestión de alertas que permite a un grupo de usuarios recibir automáticamente notificaciones que contengan información sobre la ejecución de sus envíos.
 
-Para obtener más información, consulte [Recibir alertas cuando se produzcan errores](../../sending/using/receiving-alerts-when-failures-happen.md).
+Para obtener más información, consulte [Recepción de alertas cuando se produzcan errores](../../sending/using/receiving-alerts-when-failures-happen.md).
 
 <!--## External tools (#external-tools)
 

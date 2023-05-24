@@ -53,7 +53,7 @@ La actividad **[!UICONTROL Query]** se puede utilizar para varios tipos de usos:
 
    >[!NOTE]
    >
-   >Al segmentar una audiencia, tenga en cuenta que no se hace referencia a la definición de la audiencia, pero **copiado** en la consulta. Si realiza algún cambio en la audiencia después de que se haya segmentado en una consulta, asegúrese de configurar la consulta de nuevo para tener en cuenta la nueva definición.
+   >Al segmentar una audiencia, tenga en cuenta que no se hace referencia a la definición de la audiencia, sino que **copiado** en la consulta. Si realiza cualquier cambio en la audiencia después de haberla segmentado en una consulta, asegúrese de volver a configurar la consulta para tener en cuenta la nueva definición.
 
 1. Puede definir los **[!UICONTROL Additional data]** para la población objetivo mediante una pestaña dedicada. Estos datos se almacenan en columnas adicionales y solo se pueden utilizar para el flujo de trabajo en curso. En particular, puede añadir datos de las tablas de la base de datos de Adobe Campaign vinculadas a la dimensión de segmentación de la consulta. Consulte la sección [Enriquecimiento de datos](#enriching-data).
 
@@ -71,7 +71,7 @@ La actividad **[!UICONTROL Query]** se puede utilizar para varios tipos de usos:
 
 Los recursos y dimensiones de segmentación le permiten definir en qué elementos se basará una consulta para determinar el destinatario de un envío.
 
-Están configurados en [asignaciones de destino](../../administration/using/target-mappings-in-campaign.md)y se definen al crear un flujo de trabajo, en la variable **[!UICONTROL Properties]** de una actividad Query .
+Están configuradas en [asignaciones de destino](../../administration/using/target-mappings-in-campaign.md)y se definen al crear un flujo de trabajo, en la variable **[!UICONTROL Properties]** de una actividad Query.
 
 >[!NOTE]
 >

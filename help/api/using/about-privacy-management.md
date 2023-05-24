@@ -1,6 +1,6 @@
 ---
-title: Acerca de la administración de la privacidad
-description: Obtenga más información sobre la administración de la privacidad con API
+title: Acerca de la administración de privacidad
+description: Obtenga más información acerca de la administración de la privacidad con API
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -12,19 +12,19 @@ ht-degree: 0%
 ---
 
 
-# Acerca de la administración de la privacidad {#about-privacy-management}
+# Acerca de la administración de privacidad {#about-privacy-management}
 
-Las API de Campaign Standard proporcionan funciones que permiten el procesamiento automático de solicitudes relacionadas con regulaciones de privacidad como el RGPD y la CCPA.
+Las API de Campaign Standard proporcionan funciones que permiten el procesamiento automático de solicitudes relacionadas con regulaciones de privacidad como RGPD y CCPA.
 
 Las acciones que puede realizar son las siguientes:
 
-* Cree una nueva solicitud de privacidad,
-* Monitorizar una solicitud de privacidad,
-* Recupere un archivo de datos de privacidad,
-* Administre el estado de exclusión de la CCPA de un perfil.
+* Crear una nueva solicitud de privacidad,
+* Monitorización de una solicitud de privacidad,
+* Recuperación de un archivo de datos de privacidad,
+* Administrar el estado de exclusión de CCPA de un perfil.
 
-El extremo de la API de privacidad es **/privacy/privacyTool**. La descripción del recurso PrivacyTool y los filtros asociados están disponibles en los metadatos del recurso. Consulte [Mecanismo de metadatos](../../api/using/metadata-mechanism.md).
+El punto final de la API de privacidad es **/privacy/privacyTool**. La descripción del recurso PrivacyTool y los filtros asociados están disponibles en los metadatos del recurso. Consulte [Mecanismo de metadatos](../../api/using/metadata-mechanism.md).
 
-La exclusión de CCPA se administra mediante el **ccpaOptOut** atributo de perfil.
+La exclusión de CCPA se administra mediante la variable **ccpaOptOut** atributo de perfil.
 
-Para obtener más información sobre Adobe Campaign Standard y la conformidad con la privacidad, consulte la [documentación dedicada](../../start/using/privacy-requests.md).
+Para obtener más información sobre Adobe Campaign Standard y el cumplimiento de la privacidad, consulte la [documentación dedicada](../../start/using/privacy-requests.md).

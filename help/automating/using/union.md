@@ -34,7 +34,7 @@ La actividad **[!UICONTROL Union]** se utiliza para combinar las poblaciones de 
 
 **Temas relacionados:**
 
-* [Caso de uso: Unión de dos audiencias refinadas](../../automating/using/union-on-two-refined-audiences.md)
+* [Caso de uso: unión en dos audiencias refinadas](../../automating/using/union-on-two-refined-audiences.md)
 
 ## Configuración {#configuration}
 

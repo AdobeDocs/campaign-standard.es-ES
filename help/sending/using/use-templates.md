@@ -46,25 +46,25 @@ En el **[!UICONTROL Advanced parameters]** de las propiedades de una plantilla d
 
 ![](assets/template-parameters.png)
 
-El dominio de dirección debe ser el mismo que el subdominio configurado.
+El dominio de dirección debe ser el mismo que el subdominio que configuró.
 
-La variable **[!UICONTROL Reply to]** los campos corresponden a la dirección de correo electrónico y al nombre utilizado para las respuestas.
+El **[!UICONTROL Reply to]** Los campos de corresponden a la dirección de correo electrónico y al nombre utilizado para las respuestas.
 
 **Sugerencia** - Adobe recomienda utilizar una dirección real existente, como el servicio de atención al cliente de su marca. En este caso, si un destinatario envía una respuesta, el servicio de atención al cliente podrá atenderla.
 
-Para cambiar el nombre del remitente que aparece en el encabezado de los mensajes enviados, vaya a **[!UICONTROL Properties]**  en la página de inicio del Diseñador de correo electrónico (accesible a través del icono de inicio) y haga clic en la **[!UICONTROL Default sender name]** bloque.
+Para cambiar el nombre del remitente que aparece en el encabezado de los mensajes enviados, vaya a **[!UICONTROL Properties]**  de la página de inicio del Diseñador de correo electrónico (accesible a través del icono de inicio) y haga clic en **[!UICONTROL Default sender name]** Bloque.
 
 ![](assets/template-content.png)
 
-Para aumentar la tasa de apertura de los envíos, Adobe recomienda utilizar un nombre fácilmente identificable por los destinatarios, como el nombre de la marca.
+Para aumentar la velocidad de apertura de las entregas, Adobe recomienda utilizar un nombre fácilmente identificable por los destinatarios, como el nombre de su marca.
 
-**Sugerencia** - Para mejorar aún más la experiencia del destinatario, puede añadir el nombre de una persona, por ejemplo &quot;Emma de Megastore&quot;.
+**Sugerencia** - Para mejorar aún más la experiencia del destinatario, puede agregar el nombre de una persona, por ejemplo &quot;Emma de Megastore&quot;.
 
-Para obtener más información sobre la personalización del nombre del remitente, consulte [Remitente del correo electrónico](../../designing/using/subject-line.md#email-sender).
+Para obtener más información sobre cómo personalizar el nombre del remitente, consulte [Remitente del correo electrónico](../../designing/using/subject-line.md#email-sender).
 
-## Personalización del nombre del remitente del SMS
+## Personalice el nombre del remitente del SMS
 
-En el **Parámetros avanzados** de las propiedades de una plantilla SMS, la variable **De** permite personalizar el nombre del remitente del mensaje SMS con una cadena de caracteres. Este es el nombre que aparecerá como el nombre del remitente del mensaje SMS en el teléfono móvil del destinatario.
+En el **Parámetros avanzados** de las propiedades de una plantilla SMS, la sección **Desde** Esta opción le permite personalizar el nombre del remitente del mensaje SMS con una cadena de caracteres. Este es el nombre que aparecerá como el nombre del remitente del mensaje SMS en el teléfono móvil del destinatario.
 
 Si este campo está vacío, será el número de origen proporcionado en la cuenta externa que se utilizará. Si no se proporciona ningún número de origen, será el código corto que se utilizará. Para obtener más información al respecto, consulte [Configuración de SMS](../../administration/using/configuring-sms-channel.md).
 
@@ -90,10 +90,10 @@ Los parámetros de los correos electrónicos enviados relacionados con la identi
 
 Para obtener más información sobre el uso y la configuración de marcas en Adobe Campaign, consulte Marcas.
 
-Para mostrar o cambiar la marca asignada a una plantilla de envío, seleccione el botón Editar propiedades de la plantilla y vaya a los detalles de la marca.
+Para mostrar o cambiar la marca asignada a una plantilla de envío, seleccione el botón Editar propiedades de la plantilla y vaya al detalle de la marca.
 
 ![](assets/template-brand.png)
 
 Para obtener más información sobre cómo vincular una marca a una plantilla, consulte [Asignación de una marca a un correo electrónico](../../administration/using/branding.md#assigning-a-brand-to-an-email).
 
-Obtenga información sobre cómo crear y configurar una marca [en esta sección](../../administration/using/branding.md#creating-a-brand).
+Aprenda a crear y configurar una marca [en esta sección](../../administration/using/branding.md#creating-a-brand).

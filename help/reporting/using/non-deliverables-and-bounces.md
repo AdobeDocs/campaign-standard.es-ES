@@ -1,6 +1,6 @@
 ---
 title: Rechazos y no entregables
-description: Con el informe Non-deliverables (no entregables) y los rechazos predeterminados, conozca los errores que pueden producirse en su envío.
+description: Con el informe Non-deliverables and bounces out-the-box, obtenga información sobre los errores que se pueden producir en la entrega.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -18,16 +18,16 @@ ht-degree: 5%
 
 # Rechazos y no entregables{#non-deliverables-and-bounces}
 
-La variable **[!UICONTROL Non-deliverables and bounces]** proporciona detalles sobre todos los errores encontrados durante una entrega.
+El **[!UICONTROL Non-deliverables and bounces]** Este informe proporciona detalles sobre todos los errores encontrados durante una entrega.
 
 ![](assets/delivery_reports_7.png)
 
-La variable **[!UICONTROL Overview]** contiene los datos disponibles sobre los posibles errores que se pueden encontrar en cada entrega, como:
+El **[!UICONTROL Overview]** contiene los datos disponibles sobre los posibles errores que se pueden encontrar para cada entrega, como:
 
-* **Procesado/enviado**: Número de correos electrónicos enviados.
-* **Entrega**: Número de correos electrónicos enviados.
-* **Rechazo suave**: El número total de errores temporales, como una bandeja de entrada completa.
-* **Rechazo grave**: El número total de errores permanentes, como una dirección de correo electrónico incorrecta.
-* **Devoluciones + Errores**: Número de mensajes que no se pudieron enviar.
+* **Procesado/enviado**: el número de correos electrónicos enviados.
+* **Entregado**: El número de correos electrónicos entregados.
+* **Rechazo suave**: el número total de errores temporales, como una bandeja de entrada llena.
+* **Rechazo duro**: el número total de errores permanentes, como una dirección de correo electrónico incorrecta.
+* **Devoluciones + Errores**: el número de mensajes que no se pudieron entregar.
 
-La variable **Desglose por dominio** lista los rechazos por los dominios de los destinatarios.
+El **Desglose por dominio** La tabla enumera las devoluciones por dominios de los destinatarios.

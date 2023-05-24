@@ -15,20 +15,20 @@ ht-degree: 1%
 
 # Licencias{#licenses}
 
-La variable **[!UICONTROL Licenses]** permite ver las licencias instaladas en la instancia y diferentes informaciones sobre ella, como el número de compilación, la versión de lanzamiento o si se han aceptado los términos de acuerdo y quién lo ha hecho.
+El **[!UICONTROL Licenses]** La ventana de permite ver las licencias instaladas en la instancia y otra información sobre ella, como el número de compilación, la versión de lanzamiento o si los términos del acuerdo se han aceptado y quién los ha aceptado.
 
 ![](assets/license_1.png)
 
-Con una nueva compilación o una función nueva, los términos de licencia pueden cambiar y deben ser aceptados por un administrador funcional de la instancia.
+Con una nueva versión o función, los términos de licencia pueden cambiar y un administrador funcional de la instancia debe aceptarlos.
 
-Después de iniciar sesión, aparecerá la siguiente ventana para los usuarios estándar; no es necesario realizar ninguna acción por su parte. Pueden seguir trabajando en Adobe Campaign haciendo clic en la **[!UICONTROL OK]** botón.
+La siguiente ventana aparecerá para los usuarios estándar después de iniciar sesión, no se requiere ninguna acción por su parte. Todavía pueden trabajar en Adobe Campaign haciendo clic en el **[!UICONTROL OK]** botón.
 
 ![](assets/license_2.png)
 
-Un administrador debe leer y confirmar los nuevos términos del acuerdo en los 30 días siguientes a la instalación de la compilación comprobando **[!UICONTROL I accept the terms from the license agreement]** y haga clic en **[!UICONTROL Confirm]**.
+Un administrador debe leer y confirmar las nuevas condiciones del acuerdo en los 30 días siguientes a la instalación de la versión comprobando **[!UICONTROL I accept the terms from the license agreement]** y haciendo clic en **[!UICONTROL Confirm]**.
 
 ![](assets/license_3.png)
 
-Si no se acepta el acuerdo, estos 30 días no se pueden usar. Los usuarios estándar no podrán acceder a las funcionalidades de Adobe Campaign y solo verán el siguiente mensaje hasta que un administrador funcional acepte los términos del acuerdo.
+Transcurridos estos 30 días si no se acepta el acuerdo, ningún usuario podrá utilizar esta instancia. Los usuarios estándar no podrán acceder a las funcionalidades de Adobe Campaign y solo verán el siguiente mensaje hasta que un administrador funcional acepte los términos del acuerdo.
 
 ![](assets/license_4.png)

@@ -17,13 +17,13 @@ ht-degree: 13%
 
 # Control de un flujo de trabajo {#controlling-a-workflow}
 
-Puede controlar un flujo de trabajo directamente desde la API de REST, a través de una solicitud de POST que contenga el ID de flujo de trabajo y el comando de ejecución requerido:
+Puede controlar un flujo de trabajo directamente desde la API de REST, a través de una solicitud del POST que contenga el ID de flujo de trabajo y el comando de ejecución requerido:
 
 `POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands`
 
 >[!CAUTION]
 >
->Si el ID de flujo de trabajo se cambia en Adobe Campaign, la solicitud de API ya no funcionará.
+>Si se cambia el ID del flujo de trabajo en Adobe Campaign, la solicitud de API ya no funcionará.
 
 Hay cuatro comandos de ejecución disponibles para controlar un flujo de trabajo:
 
@@ -36,7 +36,7 @@ Para obtener más información sobre los comandos de ejecución, consulte la [Do
 
 <br/>
 
-***Solicitudes de muestra***
+***Solicitudes de ejemplo***
 
 * Inicio de un flujo de trabajo.
 
@@ -52,7 +52,7 @@ Para obtener más información sobre los comandos de ejecución, consulte la [Do
 
    <!-- + réponse -->
 
-* Detenga un flujo de trabajo.
+* Detener un flujo de trabajo.
 
    ```
    -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands \

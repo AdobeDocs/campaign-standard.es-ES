@@ -14,7 +14,7 @@ ht-degree: 40%
 
 # Acerca de las suscripciones{#about-subscriptions}
 
-Utilice Adobe Campaign para crear y administrar boletines informativos y comunicaciones entre canales mediante un conjunto de **servicios**: solo se envían a perfiles suscritos al servicio (inclusión). Estos perfiles se identifican mediante un filtro específico al crear un mensaje.
+Utilice Adobe Campaign para crear y administrar boletines informativos y comunicaciones entre canales mediante un conjunto de **servicios**: los mensajes solo se envían a perfiles suscritos al servicio (inclusión). Estos perfiles se identifican mediante un filtro específico al crear un mensaje.
 
 Se pueden configurar mecanismos de suscripción para ofrecer a sus clientes la posibilidad de suscribirse a estos servicios, especialmente a través de **correos electrónicos** y **páginas de aterrizaje**.
 
@@ -30,9 +30,9 @@ Las suscripciones también se pueden administrar mediante la API de Adobe Campai
 
 Siga los pasos a continuación para crear un mecanismo de suscripción:
 
-1. **Creación de un servicio** - siga los pasos descritos [en esta sección](../../audiences/using/creating-a-service.md) para crear un servicio de suscripción
-1. **Compartir el vínculo** - Aprenda a promocionar y compartir su servicio [en esta página](../../audiences/using/promoting-a-service.md)
-1. **Supervisar suscripciones** : descubra varias formas de supervisar las suscripciones a su servicio [en esta sección](../../audiences/using/monitoring-subscriptions.md)
+1. **Crear un servicio** - siga los pasos descritos [en esta sección](../../audiences/using/creating-a-service.md) para crear un servicio de suscripción
+1. **Compartir el vínculo** - aprenda a promocionar y compartir su servicio [en esta página](../../audiences/using/promoting-a-service.md)
+1. **Monitorización de suscripciones** - descubra varias formas de monitorizar las suscripciones a su servicio [en esta sección](../../audiences/using/monitoring-subscriptions.md)
 1. **Confirmar suscripciones** - seguir [este tutorial](../../audiences/using/confirming-subscription-to-a-service.md) para enviar un mensaje de confirmación de suscripción
 
 ## Recursos adicionales
@@ -40,4 +40,4 @@ Siga los pasos a continuación para crear un mecanismo de suscripción:
 * [Caso de uso: Consulta incremental de los suscriptores a un servicio](../../automating/using/incremental-query-on-subscribers.md)
 * [Caso de uso: Actualización de varios estados de suscripción de un archivo](../../automating/using/updating-subscriptions-from-file.md)
 * [Suscripción de perfiles a un servicio específico después de importar un archivo](../../automating/using/subscribing-profiles-from-file.md)
-* [Inclusión y exclusión en Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [Inclusión y exclusión en Campaign.](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)

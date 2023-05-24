@@ -30,7 +30,7 @@ Para aplicar los cambios realizados en los recursos, debe actualizar la base de 
 
 >[!NOTE]
 >
->Si se modifica o elimina un campo de un recurso personalizado utilizado en un evento, se cancela la publicación del evento correspondiente de manera automática. Consulte [Cancelación de la publicación de un evento transaccional](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
+>Si se modifica o elimina un campo de un recurso personalizado utilizado en un evento, se cancela la publicación del evento correspondiente de manera automática. Consulte [Cancelar la publicación de un evento transaccional](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
 
 1. En el menú avanzado, en el logotipo de Adobe Campaign, seleccione **[!UICONTROL Administration]** > **[!UICONTROL Development]** y, a continuación, **[!UICONTROL Publishing]**.
 1. De forma predeterminada, la opción **[!UICONTROL Determine modifications since the last publication]** está marcada, lo que significa que solo se aplicarán los cambios realizados desde la última actualización.
@@ -49,7 +49,7 @@ Para aplicar los cambios realizados en los recursos, debe actualizar la base de 
 
    >[!NOTE]
    >
-   >Como los índices duplicados hacen que la publicación falle, el paso de preparación comprueba si el índice definido para el recurso ya existe con el mismo nombre para otro recurso. Si esto sucede, aparece un mensaje de error en el que se le pide que cambie el nombre del índice. Consulte [Definición de índices](configuring-the-resource-s-data-structure.md#defining-indexes).
+   >Como los índices duplicados hacen que la publicación falle, el paso de preparación comprueba si el índice definido para el recurso ya existe con el mismo nombre para otro recurso. Si esto sucede, aparece un mensaje de error en el que se le solicita que cambie el nombre del índice. Consulte [Definición de índices](configuring-the-resource-s-data-structure.md#defining-indexes).
 
 1. Una vez realizada la publicación, haga clic en el botón **[!UICONTROL Publish]** para aplicar las nuevas configuraciones.
 1. Una vez publicado, el panel **[!UICONTROL Summary]** de cada recurso indica que el estado es ahora **[!UICONTROL Published]** y especifica la fecha de la última publicación.

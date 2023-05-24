@@ -27,7 +27,7 @@ El asunto del mensaje es obligatorio para preparar y enviar el mensaje.
 
 1. Creación de un correo electrónico.
 1. Vaya a **[!UICONTROL Properties]** de la página de inicio del Diseñador de correo electrónico (accesible a través del icono de inicio).
-1. Complete la variable **[!UICONTROL Subject]** para obtener más información.
+1. Rellene el **[!UICONTROL Subject]** sección.
 
    ![](assets/email_designer_subject.png)
 
@@ -39,13 +39,13 @@ Para definir el nombre del remitente que aparece en el encabezado de los mensaje
 
 ![](assets/delivery_content_edition16.png)
 
-* La variable **[!UICONTROL From: name]** permite introducir el nombre del remitente. De forma predeterminada, la variable **Nombre del remitente** se introduce automáticamente en el campo . La dirección de correo electrónico del remitente y el nombre del remitente predeterminados se definen en **[!UICONTROL Brands]** accesible mediante el logotipo de Adobe Campaign en el menú avanzado **[!UICONTROL Administration > Instance settings > Brand configuration]** .
+* El **[!UICONTROL From: name]** permite introducir el nombre del remitente. De forma predeterminada, la opción **Nombre del remitente** El bloque de se introduce automáticamente en el campo. La dirección de correo electrónico y el nombre de remitente predeterminados se definen en **[!UICONTROL Brands]** accesible a través del logotipo de Adobe Campaign en el menú avanzado **[!UICONTROL Administration > Instance settings > Brand configuration]** .
 
-   Para cambiar el nombre del remitente, haga clic en el botón **Nombre del remitente** bloque. A continuación, el campo se puede editar y puede introducir el nombre que desee utilizar.
+   Puede cambiar el nombre del remitente haciendo clic en el icono **Nombre del remitente** Bloque. A continuación, el campo se vuelve editable y puede introducir el nombre que desee utilizar.
 
-   Este campo se puede personalizar. Para ello, puede añadir campos de personalización, bloques de contenido y contenido dinámico haciendo clic en los iconos situados debajo del nombre del remitente. Para obtener más información, consulte [Personalización](../../designing/using/personalization.md).
+   Este campo se puede personalizar. Para ello, puede añadir campos de personalización, bloques de contenido y contenido dinámico haciendo clic en los iconos debajo del nombre del remitente. Para obtener más información, consulte [Personalización](../../designing/using/personalization.md).
 
-* La variable **[!UICONTROL From: email address]** no se puede editar desde esta sección. Puede cambiarlo editando las propiedades del correo electrónico desde su panel. Para obtener más información, consulte [Lista de parámetros avanzados de correo electrónico](../../administration/using/configuring-email-channel.md#advanced-parameters).
+* El **[!UICONTROL From: email address]** el campo no se puede editar desde esta sección. Puede cambiarlo editando las propiedades del correo electrónico desde su panel. Para obtener más información, consulte [Lista de parámetros avanzados de correo electrónico](../../administration/using/configuring-email-channel.md#advanced-parameters).
 
 >[!NOTE]
 >
@@ -55,4 +55,4 @@ Para definir el nombre del remitente que aparece en el encabezado de los mensaje
 
 * [Inserción de un campo de personalización.](../../designing/using/personalization.md#inserting-a-personalization-field)
 * [Añadir un bloque de contenido](../../designing/using/personalization.md#adding-a-content-block)
-* [Definición de contenido dinámico en un correo electrónico](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
+* [Definición del contenido dinámico en un correo electrónico](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)

@@ -1,5 +1,5 @@
 ---
-title: Programa Modelo de datos
+title: Programa DataModel
 description: Obtenga información sobre el modelo de datos
 audience: developing
 content-type: reference
@@ -38,7 +38,7 @@ ht-degree: 33%
                   <td> </td>
                </tr>
                <tr>
-                  <td>buildIn</td>
+                  <td>builtIn</td>
                   <td>Objeto de aplicación integrado</td>
                   <td>booleano </td>
                   <td> </td>
@@ -51,18 +51,19 @@ ht-degree: 33%
                </tr>
                <tr>
                   <td>createdBy (userBase)</td>
-                  <td>Creado por</td>
-                  <td>vínculo </td>
+                  <td>Creada por
+</td>
+                  <td>vincular </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>desc</td>
                   <td>Descripción</td>
-                  <td>string (512)</td>
+                  <td>cadena (512)</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>end</td>
+                  <td>fin</td>
                   <td>Fecha de finalización</td>
                   <td>date </td>
                   <td> </td>
@@ -70,7 +71,7 @@ ht-degree: 33%
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
                   <td>Unidad geográfica</td>
-                  <td>vínculo </td>
+                  <td>vincular </td>
                   <td> </td>
                </tr>
                <tr>
@@ -88,7 +89,7 @@ ht-degree: 33%
                <tr>
                   <td>label</td>
                   <td>Etiqueta</td>
-                  <td>string (128)</td>
+                  <td>cadena (128)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -103,41 +104,41 @@ ht-degree: 33%
                   <td>enumeración (cadena) (255)</td>
                   <td>
                      <ul>
-                        <li>In progress - started - started</li>
-                        <li>Edición: edición</li>
-                        <li>Finalizado: terminado</li>
-                        <li>Advertencia - advertencia - advertencia</li>
-                        <li>Error: error</li>
-                        <li>VALOR NO VÁLIDO - __Invalid_value__ - __Invalid_value__</li>
+                        <li>En curso: iniciado, iniciado</li>
+                        <li>Edición - edición - edición</li>
+                        <li>Finalizado - terminado - terminado</li>
+                        <li>Advertencia: advertencia: advertencia</li>
+                        <li>Erróneo: error: error</li>
+                        <li>VALOR INVÁLIDO - __Valor_no_válido__ - __Valor_no_válido__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
                   <td>modifiedBy (userBase)</td>
                   <td>Modificado por</td>
-                  <td>vínculo </td>
+                  <td>vincular </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>name</td>
                   <td>ID</td>
-                  <td>string (64)</td>
+                  <td>cadena (64)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
                   <td>Entidades organizativas</td>
-                  <td>vínculo </td>
+                  <td>vincular </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>parent (programBase)</td>
+                  <td>principal (programBase)</td>
                   <td>Programa principal</td>
-                  <td>vínculo </td>
+                  <td>vincular </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>informe en tiempo real</td>
+                  <td>realtimeReport</td>
                   <td>Informes en tiempo real</td>
                   <td>elemento </td>
                   <td> </td>
@@ -151,32 +152,32 @@ ht-degree: 33%
                <tr>
                   <td>estado</td>
                   <td>Estado</td>
-                  <td>enumeration (byte) </td>
+                  <td>enumeración (byte) </td>
                   <td>
                      <ul>
-                        <li>Inicio - Inicio - 1</li>
+                        <li>Iniciado - iniciado - 1</li>
                         <li>Edición - edición - 0</li>
-                        <li>Finalizado - Finalizado - 2</li>
-                        <li>VALOR NO VÁLIDO - __Invalid_value__ - __Invalid_value__</li>
+                        <li>Terminado - terminado - 2</li>
+                        <li>VALOR INVÁLIDO - __Valor_no_válido__ - __Valor_no_válido__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
                   <td>plantilla (programa)</td>
-                  <td>Plantilla del programa</td>
-                  <td>vínculo </td>
+                  <td>Plantilla de programa</td>
+                  <td>vincular </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>miniatura</td>
                   <td>Miniatura</td>
-                  <td>string (255)</td>
+                  <td>cadena (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>título</td>
                   <td>Programa</td>
-                  <td>string (255)</td>
+                  <td>cadena (255)</td>
                   <td> </td>
                </tr>
             </table>
@@ -196,7 +197,7 @@ Por estado lógico (byLogicalStatus)
     </tr>
 </table>
 
-Por nombre o etiqueta (byText)
+Por nombre o etiqueta (por texto)
 
 <table>
     <tr>
@@ -204,12 +205,12 @@ Por nombre o etiqueta (byText)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>text</td>
+    <td>texto</td>
     <td>cadena</td>
     </tr>
 </table>
 
-Por periodo (por periodo)
+Por período (por período)
 
 <table>
     <tr>
@@ -226,7 +227,7 @@ Por periodo (por periodo)
     </tr>
 </table>
 
-Incluir envíos continuos de una lista heterogénea (con Continuous)
+Incluir envíos continuos de una lista heterogénea (con Continuo)
 
 <table>
     <tr>
@@ -239,7 +240,7 @@ Incluir envíos continuos de una lista heterogénea (con Continuous)
     </tr>
 </table>
 
-Incluir subprogramas (conParent)
+Incluir subprogramas (withParent)
 
 <table>
         <tr>
@@ -252,7 +253,7 @@ Incluir subprogramas (conParent)
         </tr>
     </table>
 
-Únicamente los progenitores elegibles (progenitores elegibles)
+Solo los padres elegibles (EligibleParents)
 
 <table>
     <tr>
@@ -261,11 +262,11 @@ Incluir subprogramas (conParent)
     </tr>
     <tr>
     <td>Programa de </td>
-    <td>vínculo</td>
+    <td>vincular</td>
     </tr>
 </table>
 
-Planificado para el periodo determinado (byPlanning)
+Planificado para el período determinado (por planificación)
 
 <table>
     <tr>
@@ -282,7 +283,7 @@ Planificado para el periodo determinado (byPlanning)
     </tr>
 </table>
 
-Presente durante un periodo determinado (por calendario)
+Presente durante un período determinado (por calendario)
 
 <table>
     <tr>

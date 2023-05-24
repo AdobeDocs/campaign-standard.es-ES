@@ -1,6 +1,6 @@
 ---
 title: Ingesta de audiencias de Adobe Experience Platform en Campaign
-description: Aprenda a incorporar audiencias de Adobe Experience Platform en Campaign Standard.
+description: Aprenda a introducir audiencias de Adobe Experience Platform en Campaign Standard.
 audience: integrating
 content-type: reference
 role: Data Architect
@@ -17,7 +17,7 @@ ht-degree: 68%
 
 Para introducir público de Adobe Experience Platform en Campaign y utilizarlo en sus flujos de trabajo, primero debe conectar Adobe Campaign como **destino** de Adobe Experience Platform y configurarlo con el segmento a exportar.
 
-Una vez configurado el destino, los datos se exportan a su ubicación de almacenamiento y deberá crear un flujo de trabajo dedicado en Campaign Standard para ingerirlos.
+Una vez configurado el destino, los datos se exportan a su ubicación de almacenamiento y deberá crear un flujo de trabajo específico en Campaign Standard para introducirlo.
 
 ## Conexión de Adobe Campaign como destino
 
@@ -43,7 +43,7 @@ Por ejemplo, el flujo de trabajo siguiente descarga diariamente el archivo desde
 
 ![](assets/rtcdp-workflow.png)
 
-Hay ejemplos de flujos de trabajo de administración de datos disponibles en la [casos de uso de flujos de trabajo](../../automating/using/about-workflow-use-cases.md#management) para obtener más información.
+Hay ejemplos de flujos de trabajo de gestión de datos disponibles en la [casos de uso de flujos de trabajo](../../automating/using/about-workflow-use-cases.md#management) sección.
 
 Temas relacionados:
 

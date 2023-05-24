@@ -38,8 +38,8 @@ Al diseñar un flujo de trabajo programado que incluya varias actividades, debe 
 
 **Temas relacionados:**
 
-* [Caso de uso: Creación de envíos en la fecha de creación de los perfiles](../../automating/using/workflow-creation-date-query.md)
-* [Caso de uso: Creación de una entrega de correo electrónico todos los martes](../../automating/using/workflow-weekly-offer.md)
+* [Caso de uso: Creación de entregas en la fecha de creación de los perfiles](../../automating/using/workflow-creation-date-query.md)
+* [Caso de uso: Creación de una entrega por correo electrónico todos los martes](../../automating/using/workflow-weekly-offer.md)
 
 ## Configuración {#configuration}
 

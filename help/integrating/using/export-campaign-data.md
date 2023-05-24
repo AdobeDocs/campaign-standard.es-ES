@@ -15,7 +15,7 @@ ht-degree: 72%
 
 # Exportación de datos de Campaign a Adobe Experience Platform {#sources}
 
-Para exportar datos de Campaign Standard a Adobe Real-time Customer Data Platform (RTCDP), primero debe crear un flujo de trabajo en Campaign Standard para exportar a su ubicación de almacenamiento de Amazon Storage Service (S3) o Azure Blob los datos que desee compartir.
+Para exportar datos de Campaign Standard a Adobe Real-time Customer Data Platform (RTCDP), primero debe crear un flujo de trabajo en Campaign Standard para exportar los datos que desee compartir a su servicio de almacenamiento de Amazon (S3) o ubicación de almacenamiento de Azure Blob.
 
 Una vez configurado el flujo de trabajo y enviado los datos a su ubicación de almacenamiento, debe conectar su ubicación de S3 o Azure Blob Storage como **fuente** en Adobe Experience Platform.
 
@@ -23,9 +23,9 @@ Una vez configurado el flujo de trabajo y enviado los datos a su ubicación de a
 >
 >Tenga en cuenta que se recomienda exportar solo los datos generados por Campaign (por ejemplo, envíos, aperturas, clics, etc.) a Adobe Experience Platform. Los datos que se incorporan desde una fuente de terceros (como su CRM) deben importarse directamente en Adobe Experience Platform.
 
-## Creación de un flujo de trabajo de exportación en el Campaign Standard
+## Creación de un flujo de trabajo de exportación en Campaign Standard
 
-Para exportar datos de Campaign Standard a su ubicación de almacenamiento S3 o Azure Blob, debe crear un flujo de trabajo para dirigir los datos que desea exportar y enviarlos a su ubicación de almacenamiento.
+Para exportar datos de Campaign Standard a la ubicación de S3 o Azure Blob Storage, debe crear un flujo de trabajo para dirigir los datos que desea exportar y enviarlos a su ubicación de almacenamiento.
 
 Para ello, añada y configure lo siguiente:
 
@@ -41,7 +41,7 @@ Por ejemplo, el flujo de trabajo siguiente extrae registros de forma regular en 
 
 ![](assets/aep-export.png)
 
-Hay ejemplos de flujos de trabajo de administración de datos disponibles en la [casos de uso de flujos de trabajo](../../automating/using/about-workflow-use-cases.md#management) para obtener más información.
+Hay ejemplos de flujos de trabajo de gestión de datos disponibles en la [casos de uso de flujos de trabajo](../../automating/using/about-workflow-use-cases.md#management) sección.
 
 Temas relacionados:
 
@@ -51,7 +51,7 @@ Temas relacionados:
 
 ## Conecte la ubicación de almacenamiento como origen
 
-Los pasos principales para conectar su ubicación de almacenamiento de Amazon Storage Service (S3) o Azure Blob como una **Fuente** en Adobe experience Platform se enumeran a continuación. Encontrará información detallada sobre cada uno de estos pasos en la [Documentación de conectores de origen](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es).
+Pasos principales para conectar su ubicación de almacenamiento de Amazon Storage Service (S3) o Azure Blob como **Origen** en Adobe experience Platform se enumeran a continuación. Encontrará información detallada sobre cada uno de estos pasos en la [Documentación de conectores de origen](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es).
 
 1. En el menú **[!UICONTROL Sources]** de Adobe Experience Platform, cree una conexión con su ubicación de almacenamiento:
 

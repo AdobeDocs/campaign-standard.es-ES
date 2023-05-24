@@ -16,7 +16,7 @@ ht-degree: 94%
 
 ---
 
-# Entrega de correo electrónico{#email-delivery}
+# Envío de correo electrónico{#email-delivery}
 
 ## Descripción {#description}
 
@@ -46,7 +46,7 @@ La preparación del mensaje se activa según los parámetros de ejecución del f
 * [Caso de uso: Creación de una entrega segmentada en una ubicación](../../automating/using/workflow-segmentation-location.md)
 * [Caso de uso: Creación de entregas con un complemento](../../automating/using/workflow-created-query-with-complement.md)
 * [Caso de uso: Flujo de trabajo de redireccionamiento que envía una nueva entrega a receptores que no abran el correo](../../automating/using/workflow-cross-channel-retargeting.md)
-* [Caso de uso: Envío de cumpleaños](../../automating/using/birthday-delivery.md)
+* [Caso de uso: Entrega de cumpleaños](../../automating/using/birthday-delivery.md)
 
 ## Configuración {#configuration}
 
@@ -65,7 +65,7 @@ La preparación del mensaje se activa según los parámetros de ejecución del f
       Por ejemplo, para un correo electrónico de cumpleaños recurrente, que se envía diariamente, puede elegir acumular los envíos por mes. Esto le permite recibir informes sobre su envío mensualmente, aunque el correo electrónico se envíe todos los días.
    >[!NOTE]
    >
-   >Las entregas recurrentes se preparan en función de la variable **periodo de agregación**. Por ejemplo, si el periodo de acumulación es &quot;por día&quot;, la entrega se vuelve a preparar solo una vez al día. Si planea llamar a este flujo de trabajo varias veces al día, utilice [!UICONTROL No aggregation].
+   >Las entregas recurrentes se preparan según el **período de acumulación**. Por ejemplo, si el periodo de acumulación es &quot;por día&quot;, la entrega se vuelve a preparar solo una vez al día. Si planea invocar este flujo de trabajo varias veces al día, utilice [!UICONTROL No aggregation].
 
 1. Seleccione un tipo de correo electrónico. Los tipos de correo electrónico proceden de plantillas de correo electrónico definidas en el menú **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Introduzca las propiedades generales del correo electrónico. También puede adjuntarlo a una campaña existente. La etiqueta de la actividad envío del flujo de trabajo se actualiza con la etiqueta de correo electrónico.

@@ -1,6 +1,6 @@
 ---
 title: Personalización de las campañas con atributos de Adobe Experience Platform
-description: Obtenga información sobre cómo personalizar sus campañas con atributos de Adobe Experience Platform.
+description: Aprenda a personalizar sus campañas con atributos de Adobe Experience Platform.
 audience: automating
 content-type: reference
 topic-tags: channel-activities
@@ -19,41 +19,41 @@ ht-degree: 9%
 
 >[!IMPORTANT]
 >
->El servicio Audience Destinations se encuentra actualmente en fase beta, por lo que puede estar sujeto a frecuentes actualizaciones sin previo aviso. Es necesario que los clientes estén alojados en Azure (actualmente en versión beta solo para Norteamérica) para acceder a estas capacidades. Si desea acceder, póngase en contacto con el Servicio de atención al cliente de Adobe.
+>El servicio Audience Destinations se encuentra actualmente en fase beta, por lo que puede estar sujeto a frecuentes actualizaciones sin previo aviso. Los clientes deben estar alojados en Azure (actualmente en fase beta solo para Norteamérica) para acceder a estas funciones. Póngase en contacto con el Servicio de atención al cliente de Adobe si desea acceder.
 >
->**Push** y **En la aplicación** los canales aún no están disponibles para su personalización mediante datos contextuales de Adobe Experience Platform.
+>**Push** y **En la aplicación** los canales aún no están disponibles para la personalización mediante datos contextuales de Adobe Experience Platform.
 
-Una vez que el flujo de trabajo esté configurado con un [Audiencia de Adobe Experience Platform](../../integrating/using/aep-about-audience-destinations-service.md), puede personalizar mensajes con atributos de perfil que existan exclusivamente en el modelo de datos de experiencia (XDM).
+Una vez configurado el flujo de trabajo con una [Audiencia de Adobe Experience Platform](../../integrating/using/aep-about-audience-destinations-service.md)Además, puede personalizar mensajes con atributos de perfil que existan exclusivamente en el Experience Data Model (XDM).
 
-Para ello, debe añadir estos atributos a la variable **[!UICONTROL Read audience]** actividad:
+Para ello, debe añadir estos atributos a la **[!UICONTROL Read audience]** actividad:
 
-1. Abra la actividad **[!UICONTROL Read audience]**. En el **[!UICONTROL Additional data]** , haga clic en la pestaña **[!UICONTROL Create element]** botón.
+1. Abra la actividad **[!UICONTROL Read audience]**. En el **[!UICONTROL Additional data]** , haga clic en **[!UICONTROL Create element]** botón.
 
-   Tenga en cuenta que **[!UICONTROL Additional data]** solo está disponible después de seleccionar una audiencia de Adobe Experience Platform.
+   Tenga en cuenta que la variable **[!UICONTROL Additional data]** La pestaña solo está disponible después de seleccionar una audiencia de Adobe Experience Platform.
 
    ![](assets/aep_wkf_readaudience_attributes.png)
 
    >[!NOTE]
    >
-   >Esta función no admite los tipos de datos de matriz y asignación. Además, solo se mostrarán en el selector los datos del esquema de unión.
+   >Los tipos de datos de matriz y asignación no son compatibles con esta función. Además, solo se mostrarán en el selector los datos del esquema de unión.
 
 1. Seleccione el campo XDM deseado de la lista y haga clic en **[!UICONTROL Confirm]**.
 
    ![](assets/aep_wkf_readaudience_perso1.png)
 
-1. Haga clic en el **[!UICONTROL Add]** para añadirlos a la lista de datos adicionales.
+1. Haga clic en **[!UICONTROL Add]** para añadirlo a la lista de datos adicionales.
 
    ![](assets/aep_wkf_readaudience_perso3.png)
 
-1. Repita estos pasos para cada campo XDM que desee añadir al flujo de trabajo.
+1. Repita estos pasos para cada campo XDM que desee agregar al flujo de trabajo.
 
    >[!NOTE]
    >
-   >Puede añadir un máximo de 20 campos XDM en un **[!UICONTROL Read audience]** actividad.
+   >Puede añadir un máximo de 20 campos XDM en una **[!UICONTROL Read audience]** actividad.
 
-1. Una vez añadidos todos los campos, haga clic en el botón **[!UICONTROL Confirm]** para guardar los cambios. Ahora están disponibles para personalizar los envíos.
+1. Una vez añadidos todos los campos, haga clic en el **[!UICONTROL Confirm]** para guardar los cambios. Ahora están disponibles para personalizar las entregas.
 
-Para obtener más información sobre cómo crear y personalizar entregas, consulte la documentación del Campaign Standard:
+Para obtener más información sobre cómo crear y personalizar envíos, consulte la documentación del Campaign Standard:
 
 * [Descubrimiento de canales de comunicación](../../channels/using/get-started-communication-channels.md)
 * [Acerca de las actividades de canal](../../automating/using/about-channel-activities.md)

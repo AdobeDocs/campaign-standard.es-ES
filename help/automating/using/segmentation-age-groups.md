@@ -1,6 +1,6 @@
 ---
 title: Segmentación según grupos de edad
-description: Esta página presenta una segmentación de perfiles de base de datos según su grupo de edad. El objetivo del flujo de trabajo es enviar un correo electrónico específico a cada grupo de edad.
+description: Esta página presenta una segmentación de los perfiles de base de datos según su grupo de edad. El objetivo del flujo de trabajo es enviar un correo electrónico específico a cada grupo de edad.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities

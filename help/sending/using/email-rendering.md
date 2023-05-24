@@ -23,7 +23,7 @@ Para permitirlo, Adobe Campaign captura el procesamiento y lo pone a disposició
 
 Los clientes móviles, de mensajería y de correo web disponibles para **Procesamiento de correo electrónico** en Adobe Campaign se enumeran en el [sitio web](https://litmus.com/email-testing) de Litmus (haga clic en **Ver todos los clientes de correo electrónico**).
 
-## Generación de procesamiento de correo electrónico {#checking-the-email-rendering-report}
+## Generando procesamiento de correo electrónico {#checking-the-email-rendering-report}
 
 Una vez que haya creado su envío de correo electrónico y definido su contenido, así como la población de destino, siga los pasos a continuación.
 
@@ -74,11 +74,11 @@ Este informe presenta los procesamientos de correo electrónico tal y como apare
 
 El número de procesamientos disponibles aparece en el contrato de licencia. Cada entrega con el **procesamiento de correo electrónico** habilitado disminuye los procesamientos disponibles (conocidos como tokens) uno por uno.
 
-Los tokens corresponden a cada renderización individual y no al informe completo de renderización del correo electrónico, lo que significa que:
+Los tokens corresponden a cada renderización individual y no al informe completo de renderización de correo electrónico, lo que significa que:
 
-* **Cada vez que** se genera el informe de procesamiento de correo electrónico, se resta un token por cliente de mensajería: un token para la renderización de Outlook 2000, uno para la renderización de Outlook, uno para la renderización de Apple Mail, etc.
+* **Cada vez** Cuando se genera el informe de procesamiento de correo electrónico, se resta un token por cada cliente de mensajería: uno para el procesamiento de Outlook 2000, uno para el procesamiento de Outlook, uno para el procesamiento de Apple Mail, etc.
 
-* **Para la misma entrega**, si vuelve a generar el procesamiento de correo electrónico, el número de tokens disponibles se reduce de nuevo según el número de renderizaciones generadas.
+* **Para el mismo envío** Sin embargo, si vuelve a generar el procesamiento por correo electrónico, el número de tokens disponibles se reduce de nuevo según el número de procesamientos generados.
 
 ### Resumen del informe
 

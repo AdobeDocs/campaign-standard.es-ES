@@ -24,7 +24,7 @@ La edición de una expresión implica la introducción manual de condiciones par
 
 Este modo le permite utilizar funciones avanzadas. Estas funciones le permiten manipular los valores utilizados para llevar a cabo consultas específicas, como la manipulación de fechas, cadenas, campos numéricos, clasificación, etc.
 
-También es posible utilizar variables de eventos de flujos de trabajo al editar expresiones. Para obtener más información, consulte la sección [Personalización de actividades con variables de eventos](../../automating/using/customizing-workflow-external-parameters.md).
+También es posible utilizar variables de eventos de flujos de trabajo al editar la expresión. Para obtener más información, consulte la sección [Personalización de actividades con variables de eventos](../../automating/using/customizing-workflow-external-parameters.md).
 
 Puede editar expresiones para:
 

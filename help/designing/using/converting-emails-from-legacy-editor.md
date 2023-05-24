@@ -1,6 +1,6 @@
 ---
-title: Conversión del correo electrónico del Editor heredado al Diseñador de correo electrónico
-description: Descubra cómo utilizar los correos electrónicos creados en el correo electrónico del Editor heredado al Diseñador de correo electrónico.
+title: Conversión del correo electrónico del editor heredado al diseñador de correo electrónico
+description: Descubra cómo utilizar los correos electrónicos creados en el Editor heredado Enviar por correo electrónico al Diseñador de correo electrónico.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -19,26 +19,26 @@ ht-degree: 8%
 
 Empiece a trabajar con el Diseñador de correo electrónico y cree plantillas y fragmentos reutilizables a partir del HTML de correo electrónico creado en el Editor heredado.
 
-Este caso de uso permite crear una plantilla de Diseñador de correo electrónico utilizando un correo electrónico de HTML y dividiéndola en componentes de HTML en el Diseñador de correo electrónico.
+Este caso de uso le permite crear una plantilla del Diseñador de correo electrónico utilizando un correo electrónico del HTML y dividiéndolo en componentes del HTML en el Diseñador de correo electrónico.
 
 >[!NOTE]
 >
->Al igual que el modo de compatibilidad, un componente HTML es editable con opciones limitadas: solo puede realizar la edición in situ.
+>Al igual que el modo de compatibilidad, un componente de HTML es editable con opciones limitadas: solo puede realizar ediciones in situ.
 
 >[!IMPORTANT]
 >
->Esta sección está dirigida a usuarios avanzados familiarizados con el código de HTML.
+>Esta sección es para usuarios avanzados familiarizados con el código de HTML.
 
 ## Preparación del contenido del correo electrónico
 
-1. Seleccione un correo electrónico del HTML.
-1. Identifique secciones para dividir el correo electrónico del HTML.
-1. Corte los diferentes bloques de su HTML.
+1. Seleccione un correo electrónico de HTML.
+1. Identifique las secciones para dividir el correo electrónico del HTML.
+1. Recorta los diferentes bloques de tu HTML.
 
-## Cree su estructura de correo electrónico
+## Crear la estructura de correo electrónico
 
 1. Abra el **[!UICONTROL Email Designer]**  para crear un contenido de correo electrónico vacío.
-1. Establezca los atributos de nivel de cuerpo: colores de fondo, anchura, etc. Para obtener más información, consulte [Edición de estilos de correo electrónico](../../designing/using/styles.md).
+1. Defina los atributos de nivel de cuerpo: colores de fondo, anchura, etc. Para obtener más información, consulte [Edición de estilos de correo electrónico](../../designing/using/styles.md).
 1. Añada tantos componentes de estructura como secciones. Para obtener más información, consulte [Edición de la estructura de correo electrónico](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 ## Añadir contenido del HTML
@@ -48,9 +48,9 @@ Este caso de uso permite crear una plantilla de Diseñador de correo electrónic
 
 ## Administrar el estilo del correo electrónico {#manage-the-style-of-your-email}
 
-1. Cambie a **[!UICONTROL Mobile view]**. Para obtener más información, consulte [esta sección](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
+1. Cambiar a **[!UICONTROL Mobile view]**. Para obtener más información, consulte [esta sección](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
-1. Para solucionarlo, cambie al modo de código fuente y copie y pegue la sección de estilos en una nueva sección de estilos. Por ejemplo:
+1. Para solucionarlo, cambie al modo de código fuente y copie y pegue la sección de estilo en una nueva sección de estilo. Por ejemplo:
 
    ```
    <style type="text/css">
@@ -65,7 +65,7 @@ Este caso de uso permite crear una plantilla de Diseñador de correo electrónic
    >
    >Asegúrese de agregar el estilo después de esto en otra etiqueta de estilo personalizada.
    >
-   >No modifique la CSS generada por el Diseñador de correo electrónico:
+   >No modifique el CSS generado por el Diseñador de correo electrónico:
    >
    >* `<style data-name="default" type="text/css">(##)</style>`
    >* `<style data-name="supportIOS10" type="text/css">(##)</style>`
@@ -80,7 +80,7 @@ Este caso de uso permite crear una plantilla de Diseñador de correo electrónic
 
 Intentemos convertir este correo electrónico, creado en el editor heredado, en un **[!UICONTROL Email Designer]** plantilla.
 
-### Identifique la sección del correo electrónico
+### Identificar la sección del correo electrónico
 
 Podemos identificar 11 secciones en este correo electrónico.
 
@@ -92,9 +92,9 @@ Para identificar qué elemento es qué sección del HTML, puede seleccionarlo.
 
 Para ver la versión del HTML del correo electrónico, haga clic en **[!UICONTROL Show source]**.
 
-### Creación de la plantilla de correo electrónico y su estructura
+### Crear la plantilla de correo electrónico y su estructura
 
-1. Arrastrar y soltar **[!UICONTROL Structure components]**  reflejando el diseño de nuestro correo electrónico.
+1. Arrastrar y soltar **[!UICONTROL Structure components]**  que refleja la presentación de nuestro correo electrónico.
 
 1. Repita tantas veces como sea necesario. Necesitamos crear 11 componentes de estructura.
 
@@ -106,11 +106,11 @@ Para ver la versión del HTML del correo electrónico, haga clic en **[!UICONTRO
 
    ![](assets/html-components.png)
 
-1. Para cada sección, haga clic en **[!UICONTROL Show source code]** .
+1. Haga clic en cada sección **[!UICONTROL Show source code]** .
 
    ![](assets/show-source-code.png)
 
-1. Inserte la sección del HTML.
+1. Inserte la sección HTML.
 
 1. Haga clic en **[!UICONTROL Save]**.
 
@@ -118,11 +118,11 @@ Ahora puede comprobar la renderización del correo electrónico.
 
 ![](assets/migrated-email-result.png)
 
-### Administración de estilos para ajustarse a la vista móvil
+### Administración de estilos para adaptarlos a la vista móvil
 
-1. Inserte elementos CSS para garantizar que el correo electrónico sea adecuado para la vista móvil.
+1. Inserte elementos CSS para asegurarse de que el correo electrónico sea adecuado para la vista móvil.
 
-1. Cambie al código fuente y copie y pegue la sección de estilos en una nueva sección de estilos.
+1. Cambie al código fuente y copie y pegue la sección de estilo en una nueva sección de estilo.
 
 Para obtener más información, consulte [Administrar el estilo del correo electrónico](#manage-the-style-of-your-email).
 

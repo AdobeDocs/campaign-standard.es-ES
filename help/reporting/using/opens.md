@@ -1,6 +1,6 @@
 ---
 title: Aperturas
-description: Con el informe Aperturas , sepa qué envío se vio más según diversos criterios.
+description: Con el informe Aperturas, descubra qué entrega se vio con mayor frecuencia según varios criterios.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -22,7 +22,7 @@ El informe **[!UICONTROL Opens]** identifica los envíos más vistos por los des
 
 ![](assets/delivery_reports_opens.png)
 
-Cuatro tablas y gráficos desglosan el número total de destinatarios que abrieron un correo electrónico en función de:
+En cuatro tablas y gráficos se desglosa el número total de destinatarios que abrieron un correo electrónico en función de:
 
 * Explorador
 * Dispositivo

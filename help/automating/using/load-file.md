@@ -22,7 +22,7 @@ ht-degree: 93%
 
 >[!CAUTION]
 >
->Tenga en cuenta los límites de almacenamiento SFTP, almacenamiento de bases de datos y perfil activo según el contrato de Adobe Campaign mientras utiliza esta funcionalidad.
+>Tenga en cuenta los límites de almacenamiento SFTP, almacenamiento de la base de datos y perfil activo según el contrato de Adobe Campaign al utilizar esta funcionalidad.
 
 ![](assets/data_loading.png)
 
@@ -46,7 +46,7 @@ Se puede:
 * [Caso de uso: Actualización de la base de datos con datos externos](../../automating/using/update-database-file.md)
 * [Caso de uso: Actualización de datos en función de una descarga automática de archivos](../../automating/using/update-data-automatic-download.md)
 * [Caso de uso: Envío de un correo electrónico con campos enriquecidos](../../automating/using/sending-email-enriched-fields.md)
-* [Caso de uso: Reconciliación de una audiencia de archivo con la base de datos](../../automating/using/reconcile-file-audience-with-database.md)
+* [Caso de uso: reconciliación de una audiencia de archivo con la base de datos](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## Configuración {#configuration}
 
@@ -105,7 +105,7 @@ La configuración de actividad incluye dos pasos. En primer lugar, debe definir 
 
 1. Si el archivo desde el que desea cargar los datos está comprimido en un archivo GZIP (.gz), seleccione la opción **[!UICONTROL Decompression]** en el campo **[!UICONTROL Add a pre-processing stage]**. Esto le permite descomprimir el archivo antes de cargar los datos. Esta opción solo está disponible si el archivo procede de la transición entrante de la actividad.
 
-   La variable **[!UICONTROL Add a pre-processing stage]** también le permite descifrar un archivo antes de importarlo a la base de datos. Para obtener más información sobre cómo trabajar con archivos cifrados, consulte [esta sección](../../automating/using/managing-encrypted-data.md)
+   El **[!UICONTROL Add a pre-processing stage]** Este campo también permite descifrar un archivo antes de importarlo a la base de datos. Para obtener más información sobre cómo trabajar con archivos cifrados, consulte [esta sección](../../automating/using/managing-encrypted-data.md)
 
 1. La opción **[!UICONTROL Keep the rejects in a file]** le permite descargar un archivo que contenga errores producidos durante la importación y aplicarle una fase de procesamiento posterior. Cuando se activa la opción, se cambia el nombre de la transición saliente a “Rechazos”.
 

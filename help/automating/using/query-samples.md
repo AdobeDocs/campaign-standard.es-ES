@@ -1,6 +1,6 @@
 ---
 title: Ejemplos de consultas
-description: Esta sección presenta casos de uso al utilizar una actividad de consulta.
+description: Esta sección presenta un caso de uso al utilizar una actividad de consulta.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -18,7 +18,7 @@ ht-degree: 90%
 
 # Ejemplos de consultas {#query-samples}
 
-Esta sección presenta un caso de uso al usar un **[!UICONTROL Query]** actividad. Para obtener más información sobre cómo usar un **[!UICONTROL Query]** actividad, consulte [esta sección](../../automating/using/query.md).
+Esta sección presenta un caso de uso al utilizar una **[!UICONTROL Query]** actividad. Para obtener más información sobre cómo utilizar un **[!UICONTROL Query]** actividad, consulte [esta sección](../../automating/using/query.md).
 
 ## Segmentación en atributos de perfil simples {#targeting-on-simple-profile-attributes}
 

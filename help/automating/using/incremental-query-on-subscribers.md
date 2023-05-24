@@ -28,7 +28,7 @@ El flujo de trabajo se compone de los siguientes elementos:
 
    ![](assets/incremental_query_example2.png)
 
-* Un [Consulta incremental](../../automating/using/incremental-query.md) actividad , que identifica a todos los suscriptores actuales durante la primera ejecución y luego solo a los nuevos suscriptores de esa semana durante las siguientes ejecuciones.
+* Un [Consulta incremental](../../automating/using/incremental-query.md) actividad de, que identifica a todos los suscriptores actuales durante la primera ejecución y luego solo a los nuevos suscriptores de esa semana durante las siguientes ejecuciones.
 
    ![](assets/incremental_query_example3.png)
 
@@ -36,6 +36,6 @@ El flujo de trabajo se compone de los siguientes elementos:
 
    Para ello, elija crear un **[!UICONTROL Recurring email]** aquí que reagrupe los correos electrónicos y los resultados **[!UICONTROL By month]**.
 
-   Defina el contenido del correo electrónico e inserte el código de promoción de bienvenida. Para obtener más información, consulte [Definición del contenido del correo electrónico](../../designing/using/personalization.md) secciones.
+   Defina el contenido del correo electrónico e inserte el código de promoción de bienvenida. Para obtener más información, consulte [Definición del contenido de correo electrónico](../../designing/using/personalization.md) secciones.
 
 A continuación, ejecute el flujo de trabajo. Cada semana los nuevos suscriptores reciben el correo electrónico de bienvenida con el código de promoción.

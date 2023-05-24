@@ -1,6 +1,6 @@
 ---
 title: Indicadores de seguimiento
-description: Con el informe integrado Tracking indicators , conozca el comportamiento de sus clientes cuando reciben mensajes de correo electrónico.
+description: Con el informe integrado Tracking indicators, obtenga información acerca del comportamiento de sus clientes cuando reciben mensajes de correo electrónico.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -18,19 +18,19 @@ ht-degree: 2%
 
 # Indicadores de seguimiento{#tracking-indicators}
 
-La variable **[!UICONTROL Tracking indicators]** contiene los indicadores clave para el seguimiento del comportamiento después de recibir los mensajes de correo electrónico.
+El **[!UICONTROL Tracking indicators]** Este informe contiene los indicadores clave para rastrear el comportamiento después de recibir los mensajes de correo electrónico.
 
 >[!NOTE]
 >
->Para acceder a estos datos, el seguimiento debe estar habilitado al preparar una entrega.
+>Para acceder a estos datos, se debe activar el seguimiento al preparar una entrega.
 
 ![](assets/delivery_reports_2.png)
 
-La variable **[!UICONTROL Tracking indicators]** tabla y **Principales 5 envíos** El gráfico contiene los datos disponibles para el seguimiento de correo electrónico, como:
+El **[!UICONTROL Tracking indicators]** tabla y **Principales 5 envíos** Los gráficos contienen los datos disponibles para el seguimiento de correo electrónico, como:
 
-* **[!UICONTROL Delivered]**: Número de mensajes enviados correctamente. Los errores que se generan (devoluciones) se tienen en cuenta. sin embargo, no se tienen en cuenta las quejas (declaraciones de correo no deseado) ni los mensajes de &quot;fuera de la oficina&quot;.
-* **Apertura**: Número de veces que se abrió un mensaje en una entrega.
-* **Haga clic en**: Número de veces que se hizo clic en el contenido en una entrega.
-* **Cancelación de suscripción**: El número de clics en el vínculo de suscripción.
+* **[!UICONTROL Delivered]**: el número de mensajes enviados correctamente. Los errores producidos (devoluciones) se tienen en cuenta. sin embargo, no se tienen en cuenta las quejas (declaraciones de correo no deseado) ni los mensajes enviados fuera de la oficina.
+* **Abrir**: El número de veces que se abrió un mensaje en una entrega.
+* **Clic**: El número de veces que se hizo clic en el contenido en una entrega.
+* **Cancelado**: el número de clics en el vínculo de suscripción.
 * **Correo no deseado:** El número de destinatarios que han declarado un correo electrónico como correo no deseado.
-* **Página espejo**: El número de clics en el vínculo de la página espejo.
+* **Página espejo**: el número de clics en el vínculo de la página espejo.

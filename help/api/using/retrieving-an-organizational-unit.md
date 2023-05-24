@@ -1,6 +1,6 @@
 ---
 title: Recuperación de las entidades organizativas de un perfil
-description: Aprenda a la unidad organizativa de un perfil con API.
+description: Aprenda a configurar la unidad organizativa de un perfil con las API.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,7 +17,7 @@ ht-degree: 12%
 
 # Recuperación de las entidades organizativas de un perfil {#retrieving-organizational-units}
 
-1. Realice una solicitud de GET en el PKey de perfil para recuperar el **orgUnit** URL.
+1. Realice una solicitud de GET en la clave principal del perfil para recuperar la clave **orgUnit** URL.
 1. Realice una solicitud de GET en la dirección URL para recuperar más detalles sobre la unidad organizativa.
 
 <br/>
@@ -58,7 +58,7 @@ Realice una solicitud de GET en la dirección URL para recuperar más informaci�
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Devuelve detalles sobre la unidad organizativa.
+Devuelve detalles acerca de la unidad organizativa.
 
 ```
 {

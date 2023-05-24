@@ -40,7 +40,7 @@ Crear un envío de correo postal es muy similar a crear un correo electrónico n
    >
    >Tanto el nombre de la actividad como su ID aparecen en la interfaz, pero no son visibles para los destinatarios de mensajes.
    >
-   >Asegúrese de que el campo ID no contenga ningún espacio en blanco para evitar discrepancias, por ejemplo al integrar con Adobe Analytics.
+   >Asegúrese de que el campo ID no contenga ningún espacio en blanco para evitar discrepancias, por ejemplo, al integrarse con Adobe Analytics.
 
 1. Defina la audiencia que desee incluir en el archivo de extracción, así como los perfiles de prueba y trampa. Consulte [Definición de audiencia de correo postal](../../channels/using/defining-the-direct-mail-audience.md).
 
@@ -103,4 +103,4 @@ Ya está listo para enviar el archivo de extracción a su proveedor de correo po
 * Enviarlo por correo electrónico normal, con el archivo adjunto.
 * Enviarlo por Campaign: realice el correo postal dentro de un [flujo de trabajo](../../automating/using/direct-mail-delivery.md) en Campaign y añada una actividad de **[!UICONTROL Transfer file]** para enviar el archivo por FTP, por ejemplo. Consulte [Transferir archivo](../../automating/using/transfer-file.md).
 
-El proveedor recupera la lista de direcciones erróneas y envía esta información a Adobe Campaign, que lista de bloqueados automáticamente las direcciones erróneas. Consulte [Devolver al remitente ](../../channels/using/return-to-sender.md).
+El proveedor recupera la lista de direcciones erróneas y envía esta información a Adobe Campaign, que las incluye en la lista de bloqueados automáticamente de forma automática. Consulte [Devolver al remitente ](../../channels/using/return-to-sender.md).

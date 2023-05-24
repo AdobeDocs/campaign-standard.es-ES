@@ -1,6 +1,6 @@
 ---
 title: Flujos de trabajo técnicos
-description: Descubra más información sobre los flujos de trabajo técnicos
+description: Descubra más información sobre los Flujos de trabajo técnicos
 audience: administration
 feature: Instance Settings
 role: Admin
@@ -92,17 +92,17 @@ Los flujos de trabajo técnicos se utilizan para gestionar procesos técnicos y 
    <tr> 
    <td> <span class="uicontrol">Sincronización con Launch</span> <br /> </td> 
    <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
-   <td> Este flujo de trabajo sincroniza la etiqueta de propiedades móviles importada en Adobe Campaign Standard. Se inicia cada 15 minutos.<br /> </td> 
+   <td> Este flujo de trabajo sincroniza las propiedades móviles de etiquetas importadas en Adobe Campaign Standard. Se inicia cada 15 minutos.<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">Recuperación de registros de seguimiento</span> <br /> </td> 
    <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
-   <td> Este flujo de trabajo sincroniza la etiqueta de propiedades móviles importada en Adobe Campaign Standard. Se inicia cada 15 minutos.<br /> </td> 
+   <td> Este flujo de trabajo sincroniza las propiedades móviles de etiquetas importadas en Adobe Campaign Standard. Se inicia cada 15 minutos.<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">Recuperar registros de seguimiento</span> <br /> </td> 
    <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
-   <td> Este flujo de trabajo restaura los registros de seguimiento perdidos. Tenga en cuenta que este flujo de trabajo técnico se utiliza en contextos específicos y está restringido solo a uso interno de Adobe. <br> De forma predeterminada, se inicia cada 10 minutos.<br /> </td> 
+   <td> Este flujo de trabajo restaura los registros de seguimiento perdidos. Tenga en cuenta que este flujo de trabajo técnico se utiliza en contextos específicos y se restringe únicamente al uso interno del Adobe. <br> De forma predeterminada, se inicia cada 10 minutos.<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">Actualización de la ejecución de entrega</span> <br/> </td> 

@@ -1,6 +1,6 @@
 ---
-title: GET/POST/PATCH/verbos del DELETE
-description: Obtenga más información sobre los verbos utilizados en las API de Campaign Standard.
+title: GET / POST / PATCH / DELETE verbos
+description: Obtenga más información acerca de los verbos utilizados en las API de Campaign Standard.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ---
 
-# GET/POST/PATCH/verbos del DELETE {#verbs}
+# GET / POST / PATCH / DELETE verbos {#verbs}
 
 Los verbos disponibles para realizar operaciones en los recursos son:
 
@@ -28,9 +28,9 @@ Los verbos disponibles para realizar operaciones en los recursos son:
 
 <br/>
 
-***Solicitudes de muestra***
+***Solicitudes de ejemplo***
 
-* Solicitud de GET de ejemplo en la recopilación de perfiles.
+* Solicitud de GET de muestra en la colección de perfiles.
 
 
    ```
@@ -66,7 +66,7 @@ Los verbos disponibles para realizar operaciones en los recursos son:
    }
    ```
 
-* Solicitud de GET de ejemplo en un perfil específico.
+* Solicitud de GET de muestra en un perfil específico.
 
 
    ```
@@ -92,7 +92,7 @@ Los verbos disponibles para realizar operaciones en los recursos son:
    }
    ```
 
-* Solicitud de POST de ejemplo para crear un perfil.
+* Solicitud del POST de muestra para crear un perfil.
 
 
    ```
@@ -116,7 +116,7 @@ Los verbos disponibles para realizar operaciones en los recursos son:
    }
    ```
 
-* Ejemplo de solicitud del PATCH para actualizar un perfil.
+* Solicitud del PATCH de muestra para actualizar un perfil.
 
    ```
    -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -127,7 +127,7 @@ Los verbos disponibles para realizar operaciones en los recursos son:
    -d '{"firstName":"Mark"',"lastName":"Smith"}'
    ```
 
-   Devuelve el PKEY y la URL para recuperar el perfil actualizado.
+   Devuelve la PKEY y la URL para recuperar el perfil actualizado.
 
    ```
    {
@@ -136,7 +136,7 @@ Los verbos disponibles para realizar operaciones en los recursos son:
    }
    ```
 
-* Ejemplo de solicitud del DELETE para eliminar un perfil.
+* Solicitud del DELETE de muestra para eliminar un perfil.
 
    ```
    -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -146,4 +146,4 @@ Los verbos disponibles para realizar operaciones en los recursos son:
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   La solicitud devuelve una respuesta de 200, que confirma que el perfil se ha eliminado.
+   La solicitud devuelve una respuesta 200, que confirma que el perfil se ha eliminado.

@@ -1,5 +1,5 @@
 ---
-title: Miembro semilla del modelo de datos
+title: Miembro semilla de DataModel
 description: Obtenga información sobre el modelo de datos
 audience: developing
 content-type: reference
@@ -34,7 +34,7 @@ ht-degree: 46%
                <tr>
                   <td>país (países)</td>
                   <td>País</td>
-                  <td>vínculo </td>
+                  <td>vincular </td>
                   <td> </td>
                </tr>
                <tr>
@@ -45,20 +45,21 @@ ht-degree: 46%
                </tr>
                <tr>
                   <td>createdBy (userBase)</td>
-                  <td>Creado por</td>
-                  <td>vínculo </td>
+                  <td>Creada por
+</td>
+                  <td>vincular </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>desc</td>
                   <td>Descripción</td>
-                  <td>string (512)</td>
+                  <td>cadena (512)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>email</td>
                   <td>Correo electrónico</td>
-                  <td>string (128)</td>
+                  <td>cadena (128)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -70,13 +71,13 @@ ht-degree: 46%
                <tr>
                   <td>fax</td>
                   <td>Fax</td>
-                  <td>string (32)</td>
+                  <td>cadena (32)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
                   <td>Unidad geográfica</td>
-                  <td>vínculo </td>
+                  <td>vincular </td>
                   <td> </td>
                </tr>
                <tr>
@@ -100,7 +101,7 @@ ht-degree: 46%
                <tr>
                   <td>marketingCloudId</td>
                   <td>ID de Marketing Cloud</td>
-                  <td>string (256)</td>
+                  <td>cadena (256)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -112,19 +113,19 @@ ht-degree: 46%
                <tr>
                   <td>mobilePhone</td>
                   <td>Móvil</td>
-                  <td>string (32)</td>
+                  <td>cadena (32)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>modifiedBy (userBase)</td>
                   <td>Modificado por</td>
-                  <td>vínculo </td>
+                  <td>vincular </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>name</td>
                   <td>ID</td>
-                  <td>string (64)</td>
+                  <td>cadena (64)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -142,13 +143,13 @@ ht-degree: 46%
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
                   <td>Entidades organizativas</td>
-                  <td>vínculo </td>
+                  <td>vincular </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>phone</td>
                   <td>Teléfono</td>
-                  <td>string (32)</td>
+                  <td>cadena (32)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -160,13 +161,13 @@ ht-degree: 46%
                <tr>
                   <td>pushNotification</td>
                   <td>Notificación push</td>
-                  <td>string (255)</td>
+                  <td>cadena (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>registrationToken</td>
                   <td>Token de registro</td>
-                  <td>string (256)</td>
+                  <td>cadena (256)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -178,13 +179,13 @@ ht-degree: 46%
                <tr>
                   <td>sms</td>
                   <td>Móvil</td>
-                  <td>string (255)</td>
+                  <td>cadena (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>stateLink (estado)</td>
                   <td>Estado</td>
-                  <td>vínculo </td>
+                  <td>vincular </td>
                   <td> </td>
                </tr>
                <tr>
@@ -196,17 +197,17 @@ ht-degree: 46%
                <tr>
                   <td>miniatura</td>
                   <td>Miniatura</td>
-                  <td>string (255)</td>
+                  <td>cadena (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>título</td>
                   <td>Perfil de prueba</td>
-                  <td>string (255)</td>
+                  <td>cadena (255)</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>trap</td>
+                  <td>atrapar</td>
                   <td>Reventar</td>
                   <td>booleano </td>
                   <td> </td>
@@ -228,7 +229,7 @@ Por tipo de evento (byEventType)
         </tr>
     </table>
 
-Por nombre o etiqueta (byText)
+Por nombre o etiqueta (por texto)
 
 <table>
         <tr>
@@ -236,7 +237,7 @@ Por nombre o etiqueta (byText)
         <th>Tipo</th>
         </tr>
         <tr>
-        <td>text</td>
+        <td>texto</td>
         <td>cadena</td>
         </tr>
     </table>
@@ -249,7 +250,7 @@ Por uso (byUsage)
         <th>Tipo</th>
         </tr>
         <tr>
-        <td>trap</td>
+        <td>atrapar</td>
         <td>booleano</td>
         </tr>
         <tr>
@@ -271,6 +272,6 @@ Perfil de prueba (perfil)
     </tr>
     <tr>
     <td>seedMember</td>
-    <td>vínculo</td>
+    <td>vincular</td>
     </tr>
 </table>

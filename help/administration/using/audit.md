@@ -1,6 +1,6 @@
 ---
 title: Pista de auditoría
-description: Monitorizar acciones y eventos con la pista de auditoría de Campaign
+description: Monitorización de acciones y eventos con la pista de auditoría de Campaign
 audience: administration
 feature: Access Management
 role: Admin
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 # Pista de auditoría {#audit}
 
-La variable **[!UICONTROL Audit trail]** le permite acceder al historial completo de los cambios realizados dentro de la instancia.
+El **[!UICONTROL Audit trail]** le permite acceder al historial completo de cambios realizados en su instancia.
 
 **[!UICONTROL Audit trail]** captura, en tiempo real, una lista completa de las acciones y eventos que se producen dentro de la instancia de Adobe Campaign Standard. Incluye una forma de autoservicio de acceder a un historial de datos para responder preguntas como: qué ha pasado con sus flujos de trabajo, recursos personalizados y opciones, quién los actualizó por última vez o qué han hecho los usuarios en la instancia.
 
@@ -23,35 +23,35 @@ La variable **[!UICONTROL Audit trail]** le permite acceder al historial complet
 
 **[!UICONTROL Audit trail]** consta de tres componentes:
 
-* **Pista de auditoría de recursos personalizados**: compruebe la actividad y la última modificación realizada en los recursos personalizados.
+* **Pista de auditoría de recursos personalizados**: compruebe la actividad y la última modificación realizadas en los recursos personalizados.
 
-   Para obtener más información, consulte **[!UICONTROL Custom resources]**, consulte esta [página](../../developing/using/key-steps-to-add-a-resource.md).
+   Para obtener más información sobre **[!UICONTROL Custom resources]**, consulte esta [página](../../developing/using/key-steps-to-add-a-resource.md).
 
-* **Pista de auditoría de flujo de trabajo**: compruebe la actividad y la última modificación realizadas en los flujos de trabajo y, además, el estado de los flujos de trabajo, como:
+* **Pista de auditoría de flujo de trabajo**: compruebe la actividad y la última modificación realizadas en los flujos de trabajo y, además, el estado de los mismos, como por ejemplo:
 
    * Creado
    * Modificado
    * Eliminado
    * Inicio del flujo de trabajo
-   * Pausa del flujo de trabajo
-   * Parada del flujo de trabajo
+   * Pausa de flujo de trabajo
+   * Parada de flujo de trabajo
    * Reinicio del flujo de trabajo
    * Limpieza de flujo de trabajo
-   * Workflow Simulate
-   * Descarga del flujo de trabajo
-   * Flujo de trabajo detención inmediata
+   * Simulación de flujo de trabajo
+   * Reactivación de flujo de trabajo
+   * Parada inmediata del flujo de trabajo
    * Reinicio del flujo de trabajo con el mismo usuario
-   * Reiniciar flujo de trabajo desconocido, comando
+   * Comando Workflow Restart Unknown
 
-   Para obtener más información, consulte **[!UICONTROL Workflows]**, consulte esta [página](../../automating/using/get-started-workflows.md).
+   Para obtener más información sobre **[!UICONTROL Workflows]**, consulte esta [página](../../automating/using/get-started-workflows.md).
 
-* **Pista de auditoría de opciones**: compruebe la actividad y la última modificación realizada en las opciones .
+* **Opción Pista de auditoría**: compruebe la actividad y la última modificación realizada en las opciones.
 
-   Para obtener más información, consulte **[!UICONTROL Options]**, consulte esta [página](../../administration/using/about-campaign-standard-settings.md).
+   Para obtener más información sobre **[!UICONTROL Options]**, consulte esta [página](../../administration/using/about-campaign-standard-settings.md).
 
 Tenga en cuenta que, de forma predeterminada, el período de retención es de 30 días.
 
-## Acceso a la pista de auditoría {#audit-access}
+## Acceso a Pista de auditoría {#audit-access}
 
 Para acceder a la pista de auditoría de su instancia:
 
@@ -59,28 +59,28 @@ Para acceder a la pista de auditoría de su instancia:
 
    ![](assets/audit-trail.png)
 
-1. La variable **[!UICONTROL Audit trail]** se abre con la lista de entidades. Adobe Campaign Standard auditará las acciones de creación, edición y eliminación de flujos de trabajo, opciones y recursos personalizados.
+1. El **[!UICONTROL Audit trail]** se abre con la lista de las entidades. Adobe Campaign Standard auditará las acciones de creación, edición y eliminación de flujos de trabajo, opciones y recursos personalizados.
 
-   En el **[!UICONTROL Search]** , puede filtrar la entidad en:
+   Desde el **[!UICONTROL Search]** , puede filtrar su entidad en:
 
    * **[!UICONTROL Start date]**
    * **[!UICONTROL End date]**
-   * **[!UICONTROL Type]**: Tipo de entidad entre Todos, Flujo de trabajo, Recurso personalizado y Opción.
-   * **[!UICONTROL Entity name]**: ID del flujo de trabajo, la opción o el recurso personalizado
+   * **[!UICONTROL Type]**: tipo de entidad entre Todos, Flujo de trabajo, Recurso personalizado y Opción.
+   * **[!UICONTROL Entity name]**: ID del flujo de trabajo, opción o recurso personalizado
 
    ![](assets/audit-trail_2.png)
 
 1. Seleccione una de las entidades para obtener más información sobre las últimas modificaciones.
 
-1. La ventana Audit entity le proporciona información más detallada sobre la entidad elegida, como:
+1. La ventana Audit entity proporciona información más detallada sobre la entidad elegida, como:
 
-   * **[!UICONTROL Entity]**: ID del flujo de trabajo, la opción o el recurso personalizado.
-   * **[!UICONTROL Action]**: Última acción realizada en esta entidad.
+   * **[!UICONTROL Entity]**: ID del flujo de trabajo, opción o recurso personalizado.
+   * **[!UICONTROL Action]**: última acción realizada en esta entidad.
    * **[!UICONTROL Changed by]**: Nombre de usuario de la última persona que modificó esta entidad por última vez.
    * **[!UICONTROL Changed date]**: Fecha de la última acción realizada en esta entidad.
-   * **[!UICONTROL Content]**: Bloque de código que proporciona más información sobre qué se ha cambiado exactamente en la entidad.
+   * **[!UICONTROL Content]**: Bloque de código que le proporciona más información sobre lo que se ha cambiado exactamente en la entidad.
 
-   En este ejemplo, podemos ver que el flujo de trabajo WKF110 lo inició el 26 de agosto el administrador de negocios de esta instancia.
+   En este ejemplo, podemos ver que el administrador de empresa de esta instancia ha iniciado el flujo de trabajo WKF110 el 26 de agosto.
 
    ![](assets/audit-trail_3.png)
 
@@ -88,7 +88,7 @@ Para acceder a la pista de auditoría de su instancia:
 
 >[!NOTE]
 >
-> Solo los administradores funcionales pueden habilitar o deshabilitar la pista de auditoría. Para obtener más información, consulte esta [página](../../administration/using/users-management.md#functional-administrators).
+> Solo los administradores funcionales pueden activar o desactivar Pista de auditoría. Para obtener más información, consulte esta [página](../../administration/using/users-management.md#functional-administrators).
 
 La pista de auditoría se puede activar o desactivar fácilmente para una actividad específica.
 
@@ -100,17 +100,17 @@ Para ello:
 
 1. Seleccione una de las siguientes opciones en función de la entidad que desee desactivar:
 
-   * **[!UICONTROL XtkAudit_Workflows]** para administrar la pista de auditoría para flujos de trabajo.
-   * **[!UICONTROL XtkAudit_Option]** para administrar la pista de auditoría de Opciones.
-   * **[!UICONTROL XtkAudit_CusResource]** para administrar la pista de auditoría para los recursos personalizados.
+   * **[!UICONTROL XtkAudit_Workflows]** para administrar la pista de auditoría de los flujos de trabajo.
+   * **[!UICONTROL XtkAudit_Option]** para administrar la pista de auditoría de las opciones.
+   * **[!UICONTROL XtkAudit_CusResource]** opción para administrar la pista de auditoría para los recursos personalizados.
    * **[!UICONTROL XtkAudit_Enable_All]** para administrar la pista de auditoría de cada entidad.
 
       >[!NOTE]
       >
-      >Si la variable **[!UICONTROL XtkAudit_Enable_All]** está configurada en 0, la opción **[!UICONTROL Audit trail]** se desactivará por completo, independientemente de los demás valores de opción individuales.
+      >Si la variable **[!UICONTROL XtkAudit_Enable_All]** Si la opción se establece en 0, la variable **[!UICONTROL Audit trail]** Esta función se desactivará completamente, independientemente de otros valores de opción individuales.
    ![](assets/audit-trail_5.png)
 
-1. Desde su **[!UICONTROL Options]** configure la variable **[!UICONTROL Value (integer)]** a 0 si desea deshabilitar la variable **[!UICONTROL Audit trail]** o a 1 para habilitarlo.
+1. De su **[!UICONTROL Options]** página, configure el **[!UICONTROL Value (integer)]** a 0 si desea deshabilitar la variable **[!UICONTROL Audit trail]** o en 1 para habilitarlo.
 
    ![](assets/audit-trail_6.png)
 

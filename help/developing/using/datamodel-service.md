@@ -32,7 +32,7 @@ ht-degree: 34%
                   <td> </td>
                </tr>
                <tr>
-                  <td>buildIn</td>
+                  <td>builtIn</td>
                   <td>Objeto de aplicación integrado</td>
                   <td>booleano </td>
                   <td> </td>
@@ -45,8 +45,9 @@ ht-degree: 34%
                </tr>
                <tr>
                   <td>createdBy (userBase)</td>
-                  <td>Creado por</td>
-                  <td>vínculo </td>
+                  <td>Creada por
+</td>
+                  <td>vincular </td>
                   <td> </td>
                </tr>
                <tr>
@@ -58,11 +59,11 @@ ht-degree: 34%
                <tr>
                   <td>desc</td>
                   <td>Descripción</td>
-                  <td>string (512)</td>
+                  <td>cadena (512)</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>end</td>
+                  <td>fin</td>
                   <td>Fecha de finalización</td>
                   <td>date </td>
                   <td> </td>
@@ -70,11 +71,11 @@ ht-degree: 34%
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
                   <td>Unidad geográfica</td>
-                  <td>vínculo </td>
+                  <td>vincular </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>history</td>
+                  <td>historia</td>
                   <td>Historial de suscripciones</td>
                   <td>colección </td>
                   <td> </td>
@@ -94,7 +95,7 @@ ht-degree: 34%
                <tr>
                   <td>label</td>
                   <td>Etiqueta</td>
-                  <td>string (128)</td>
+                  <td>cadena (128)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -118,49 +119,49 @@ ht-degree: 34%
                <tr>
                   <td>messageType</td>
                   <td>Canal</td>
-                  <td>enumeration (byte) </td>
+                  <td>enumeración (byte) </td>
                   <td>
                      <ul>
                         <li>Móvil (SMS) - sms - 1</li>
                         <li>Correo electrónico - correo electrónico - 0</li>
-                        <li>VALOR NO VÁLIDO - __Invalid_value__ - __Invalid_value__</li>
+                        <li>VALOR INVÁLIDO - __Valor_no_válido__ - __Valor_no_válido__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
-                  <td>mode</td>
+                  <td>modo</td>
                   <td>Modo</td>
-                  <td>enumeration (byte) </td>
+                  <td>enumeración (byte) </td>
                   <td>
                      <ul>
                         <li>Viral - viral - 1</li>
-                        <li>Newsletter - newsletter - 0</li>
-                        <li>VALOR NO VÁLIDO - __Invalid_value__ - __Invalid_value__</li>
+                        <li>Newsletter - Newsletter - 0</li>
+                        <li>VALOR INVÁLIDO - __Valor_no_válido__ - __Valor_no_válido__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
                   <td>modifiedBy (userBase)</td>
                   <td>Modificado por</td>
-                  <td>vínculo </td>
+                  <td>vincular </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>name</td>
                   <td>ID</td>
-                  <td>string (64)</td>
+                  <td>cadena (64)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
                   <td>Entidades organizativas</td>
-                  <td>vínculo </td>
+                  <td>vincular </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>publicLabel</td>
                   <td>Etiqueta de servicio</td>
-                  <td>string (128)</td>
+                  <td>cadena (128)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -172,13 +173,13 @@ ht-degree: 34%
                <tr>
                   <td>subLandingPage (landingPageSubscriptionBase)</td>
                   <td>Página de aterrizaje de suscripción</td>
-                  <td>vínculo </td>
+                  <td>vincular </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>subScenario (deliveryMCTemplateBase)</td>
                   <td>Confirmación de suscripción</td>
-                  <td>vínculo </td>
+                  <td>vincular </td>
                   <td> </td>
                </tr>
                <tr>
@@ -196,37 +197,37 @@ ht-degree: 34%
                <tr>
                   <td>targetResource</td>
                   <td>Dimensión de segmentación</td>
-                  <td>string (255)</td>
+                  <td>cadena (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>plantilla (servicio)</td>
                   <td>Plantilla de servicio</td>
-                  <td>vínculo </td>
+                  <td>vincular </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>miniatura</td>
                   <td>Miniatura</td>
-                  <td>string (255)</td>
+                  <td>cadena (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>título</td>
                   <td>Servicio</td>
-                  <td>string (255)</td>
+                  <td>cadena (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>unsubLandingPage (landingPageUnsubscriptionBase)</td>
-                  <td>Cancelar la suscripción a la página de aterrizaje</td>
-                  <td>vínculo </td>
+                  <td>Página de aterrizaje de baja</td>
+                  <td>vincular </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>unsubScenario (deliveryMCTemplateBase)</td>
                   <td>Confirmación de baja</td>
-                  <td>vínculo </td>
+                  <td>vincular </td>
                   <td> </td>
                </tr>
                <tr>
@@ -236,7 +237,7 @@ ht-degree: 34%
                   <td> </td>
                </tr>
                <tr>
-                  <td>validDuration</td>
+                  <td>validityDuration</td>
                   <td>Duración de validez</td>
                   <td>número </td>
                   <td> </td>
@@ -245,7 +246,7 @@ ht-degree: 34%
 
 ## Filtros
 
-Disponible durante el periodo determinado (byPlanning)
+Disponible durante el período determinado (por planificación)
 
 <table>
     <tr>
@@ -275,7 +276,7 @@ Por tipo de canal (por canal)
 </tr>
 </table>
 
-Por nombre o etiqueta (byText)
+Por nombre o etiqueta (por texto)
 
 <table>
 <tr>
@@ -283,12 +284,12 @@ Por nombre o etiqueta (byText)
 <th>Tipo</th>
 </tr>
 <tr>
-<td>text</td>
+<td>texto</td>
 <td>cadena</td>
 </tr>
 </table>
 
-Por recurso de segmentación (byTargetResource)
+Por recurso de destino (byTargetResource)
 
 <table>
 <tr>

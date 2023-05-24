@@ -26,15 +26,15 @@ ht-degree: 23%
 </table>
 
 Adobe Campaign le permite iniciar, medir y automatizar campañas en todos los canales.
-La armonización de todos los canales de marketing no es una tarea imposible. Con la ayuda de Adobe Campaign, puede incorporar datos de clientes de distintos sistemas, dispositivos y canales en un único perfil. A continuación, ofrezca campañas oportunas y relevantes que satisfagan a sus clientes en los lugares adecuados y de las formas adecuadas a lo largo de su recorrido con los clientes.
+Armonizar todos los canales de marketing no es una tarea imposible. Con la ayuda de Adobe Campaign, puede reunir datos de clientes de diferentes sistemas, dispositivos y canales en un único perfil. A continuación, entregue campañas oportunas y relevantes que satisfagan a sus clientes en los lugares y formas adecuados a lo largo de su recorrido con los clientes.
 
 ## Conceptos globales {#global-concepts}
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-**Aprovechar el panel de mensajes de Campaign** para configurar y enviar los mensajes desde una sola ubicación, así como para acceder a varias funcionalidades como la programación, la mensajería multilingüe...
+**Aprovechamiento del panel de mensajes de Campaign** para configurar y enviar sus mensajes desde una sola ubicación, así como acceder a varias funcionalidades como programación, mensajería multilingüe...
 
-**Administrar plantillas** para configurar las propiedades de los mensajes y permitirle ganar tiempo y coherencia en su estrategia de mensajería. Por ejemplo, para los correos electrónicos, el administrador funcional encargado de configurar las plantillas puede definir los parámetros estándar de un correo electrónico, como la audiencia, la programación o el contenido, los parámetros avanzados relacionados con el envío, la validez, el seguimiento, etc., o los parámetros de preconfiguración relativos a la segmentación y la personalización (contexto de segmentación).
+**Administración de plantillas** para configurar las propiedades de los mensajes y permitirle ganar tiempo y coherencia en su estrategia de mensajería. Por ejemplo, en el caso de los correos electrónicos, el administrador funcional encargado de configurar las plantillas puede definir los parámetros estándar de un correo electrónico, como la audiencia, la programación o el contenido, los parámetros avanzados relacionados con el envío, la validez, el seguimiento, etc., o los parámetros de preconfiguración relacionados con el direccionamiento y la personalización (contexto de direccionamiento).
 
 Más información:
 
@@ -48,27 +48,27 @@ Más información:
 
 <img src="assets/do-not-localize/icon_channels.svg"  width="60px">
 
-**Cinco canales de comunicación** están disponibles en Adobe Campaign: Correo electrónico, mensaje SMS, notificación push, mensaje en la aplicación y envío de correo postal.
+**Cinco canales de comunicación** están disponibles en Adobe Campaign: correo electrónico, mensaje SMS, notificaciones push, mensajes en la aplicación y envíos de correo directo.
 
-Para cada canal, hay disponibles funcionalidades específicas. Por ejemplo, el canal de correo electrónico le permite realizar pruebas A/B para probar hasta 3 versiones de un mensaje de correo electrónico. Con el canal SMS, administre los mensajes STOP SMS y almacene los SMS entrantes de los destinatarios en la base de datos.
+Para cada canal, hay disponibles funcionalidades específicas. Por ejemplo, el canal de correo electrónico permite realizar pruebas A/B para probar hasta 3 versiones de un mensaje de correo electrónico. Con el canal SMS, administre los mensajes SMS de detención y almacene los SMS entrantes de los destinatarios en la base de datos.
 
-Además, aproveche el Campaign Standard **personalización y funciones de contenido dinámico** para captar el interés de su audiencia.
+Además, aproveche el Campaign Standard **funcionalidades de personalización y contenido dinámico** para captar el interés de su audiencia.
 
 Más información:
 
 * [Creación de correos electrónicos](../../channels/using/about-emails.md)
-* [Creación de un mensaje SMS](../../channels/using/about-sms-messages.md)
+* [Creación de mensajes SMS](../../channels/using/about-sms-messages.md)
 * [Creación de notificaciones push](../../channels/using/about-push-notifications.md)
 * [Creación de mensajes en la aplicación](../../channels/using/about-in-app-messaging.md)
-* [Creación de envíos de correo postal](../../channels/using/about-direct-mail.md)
+* [Creación de envíos de correo directo](../../channels/using/about-direct-mail.md)
 
 ## Mensajes transaccionales {#transactional-messages}
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-**Envío de mensajes individuales y únicos** a sus clientes en tiempo real: mensajes de bienvenida, confirmaciones de envío de pedidos, modificación de contraseña, etc.
+**Envío de mensajes individuales y únicos** a sus clientes en tiempo real: mensajes de bienvenida, confirmaciones de envío de pedidos, modificación de contraseñas, etc.
 
-Los mensajes transaccionales están disponibles para los canales de correo electrónico, SMS y notificaciones push, según las opciones que tenga. Existen dos tipos de mensajes: **mensajes transaccionales de eventos** segmentación de eventos sin información de perfil, y **mensajes transaccionales de perfil** segmentación de perfiles de la base de datos.
+Los mensajes transaccionales están disponibles para los canales de correo electrónico, SMS y notificaciones push, según las opciones que tenga. Existen dos tipos de mensajes: **mensajes transaccionales de eventos** segmentación de eventos sin información de perfil, y **mensajes transaccionales de perfil** segmentación de perfiles desde la base de datos.
 
 Más información:
 
@@ -84,9 +84,9 @@ Más información:
 
 <img src="assets/do-not-localize/icon_landing.svg" width="60px">
 
-Campaign viene con páginas de aterrizaje que son formularios web que se pueden utilizar para **capturar información sobre las audiencias**, ofrecer suscripciones a un servicio, mostrar datos y ampliar la base de datos.
+Campaign viene con páginas de destino que son formularios web que se pueden utilizar para lo siguiente **recopilar información sobre sus audiencias**, ofrecer suscripciones a un servicio, mostrar datos y ampliar la base de datos.
 
-Las páginas de aterrizaje también se pueden usar para **adquisición o actualización de perfiles existentes** y para configurar un mecanismo de inclusión doble que le permita proteger la plataforma de direcciones de correo electrónico o bots de spam incorrectas o no válidas.
+Las páginas de aterrizaje también se pueden utilizar para **adquisición o actualización de perfiles existentes** y para configurar un mecanismo de inclusión doble, que le permite proteger la plataforma de direcciones de correo electrónico o bots de spam incorrectos o no válidos.
 
 Más información:
 
@@ -97,10 +97,10 @@ Más información:
 
 ## Recursos adicionales
 
-* [Optimización de la capacidad de envío](../../sending/using/about-deliverability.md)
+* [Optimización de la capacidad de entrega](../../sending/using/about-deliverability.md)
 * [Prácticas recomendadas de entregas](../../sending/using/delivery-best-practices.md)
 * [Diseño de contenido de correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md)
-* [Importación de contenido AEM](../../integrating/using/creating-email-experience-manager.md)
+* [AEM Importación de contenido de un](../../integrating/using/creating-email-experience-manager.md)
 * [Envío de mensajes con flujos de trabajo](../../automating/using/about-channel-activities.md)
 * [Tutoriales en vídeo de canales de comunicación](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html?lang=es)
 * [Caso de uso: Creación de una entrega multicanal](../../automating/using/workflow-cross-channel-delivery.md)

@@ -17,23 +17,23 @@ ht-degree: 2%
 
 # Activación de una actividad de señal {#triggering-a-signal-activity}
 
-En un flujo de trabajo de Adobe Campaign Standard, puede haber uno o más **Señal externa** actividades. Estas actividades son &quot;oyentes&quot; que esperan a ser activados.
+En un flujo de trabajo de Adobe Campaign Standard, puede haber uno o más **Señal externa** actividades. Estas actividades son &quot;oyentes&quot; que esperan a activarse.
 
-Las API de Campaign Standard le permiten realizar el déclencheur de un **Señal externa** actividad para llamar a un flujo de trabajo. La llamada de API puede incluir parámetros que se incorporarán en las variables de eventos del flujo de trabajo (un nombre de audiencia a destinatario, un nombre de archivo a importar, una parte del contenido del mensaje, etc.). De este modo, puede integrar fácilmente sus automatizaciones de Campaign con su sistema externo.
+Las API de Campaign Standard le permiten almacenar en déclencheur una **Señal externa** actividad para invocar a un flujo de trabajo. La llamada de API puede incluir parámetros que se incorporarán a las variables de eventos del flujo de trabajo (un nombre de audiencia para el destinatario, un nombre de archivo para importar, una parte del contenido del mensaje, etc.). De este modo, puede integrar fácilmente las automatizaciones de Campaign con su sistema externo.
 
 >[!NOTE]
 >
->Las actividades de señal externa no se pueden activar con más frecuencia que cada 10 minutos y el flujo de trabajo de destino ya debe estar en ejecución.
+>Las actividades de señal externa no se pueden activar con más frecuencia que cada 10 minutos y el flujo de trabajo de destino debe estar ya en ejecución.
 
-Para crear un déclencheur de un flujo de trabajo, siga los pasos a continuación:
+Para almacenar en déclencheur un flujo de trabajo, siga los pasos a continuación:
 
-1. Realizar una **GET** en el flujo de trabajo para recuperar la URL del déclencheur de actividad Señal externa .
+1. Realice una **GET** en el flujo de trabajo para recuperar la URL del déclencheur de actividad de señal externa.
 
    `GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>`
 
-1. Realizar una **POST** solicitud en la dirección URL devuelta para almacenar en déclencheur la actividad de señal, con la variable **&quot;source&quot;** en la carga útil. Este atributo es obligatorio, le permite indicar el origen de la solicitud de activación.
+1. Realice una **POST** en la URL devuelta para almacenar en déclencheur la actividad de señal, con el **&quot;source&quot;** en la carga útil. Este atributo es obligatorio, permite indicar el origen de la solicitud que lo activa.
 
-Si desea llamar al flujo de trabajo con parámetros, agréguelos a la carga útil con la variable **&quot;parameters&quot;** atributo. La sintaxis consiste en el nombre del parámetro seguido de su valor (se admiten los siguientes tipos: **string**, **number**, **booleano** y **fecha y hora**).
+Si desea llamar al flujo de trabajo con parámetros, añádalos a la carga útil con el **&quot;parameters&quot;** atributo. La sintaxis consiste en el nombre del parámetro seguido de su valor (se admiten los siguientes tipos: **cadena**, **número**, **booleano** y **fecha/hora**).
 
 ```
   -X POST <TRIGGER_URL>
@@ -56,7 +56,7 @@ Si desea llamar al flujo de trabajo con parámetros, agréguelos a la carga úti
 
 >[!NOTE]
 >
->Al añadir un parámetro a la carga útil, asegúrese de que es **name** y **type** son coherentes con la información declarada en la actividad External signal . Además, el tamaño de la carga útil no debe superar los 64 Ko.
+>Al añadir un parámetro a la carga útil, asegúrese de que su **name** y **type** Estos valores son coherentes con la información declarada en la actividad Señal externa. Además, el tamaño de la carga útil no debe superar los 64 Ko.
 
 <br/>
 
@@ -72,7 +72,7 @@ Realice una solicitud de GET en el flujo de trabajo.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Devuelve la actividad de señal de flujo de trabajo y la dirección URL de déclencheur asociada.
+Devuelve la actividad de señal de flujo de trabajo y la URL de déclencheur asociada.
 
 ```
 {
@@ -91,7 +91,7 @@ Devuelve la actividad de señal de flujo de trabajo y la dirección URL de décl
 }
 ```
 
-Para almacenar en déclencheur una actividad de señal, realice una solicitud de POST en la dirección URL de déclencheur con el &quot;origen&quot;. Añada los atributos &quot;parámetros&quot; si desea llamar al flujo de trabajo con parámetros.
+Para almacenar en déclencheur una actividad de señal, realice una solicitud de POST en la dirección URL de déclencheur con la &quot;fuente&quot;. Agregue los atributos &quot;parameters&quot; si desea llamar al flujo de trabajo con parámetros.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<PKEY>/activities/activity/<PKEY>/trigger \
@@ -115,7 +115,7 @@ Para almacenar en déclencheur una actividad de señal, realice una solicitud de
 
 <!-- + réponse -->
 
-Si uno de los parámetros no está declarado en la actividad External signal , la solicitud del POST devuelve el error siguiente, indicando qué parámetro falta.
+Si uno de los parámetros no se declara en la actividad Señal externa, la solicitud del POST devuelve el error siguiente, que indica qué parámetro falta.
 
 ```
 RST-360011 An error has occurred - please contact your administrator.

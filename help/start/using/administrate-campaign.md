@@ -1,6 +1,6 @@
 ---
 title: Personalización de listas
-description: "Aprenda a personalizar la visualización y a actuar en las pantallas de lista en Adobe Campaign Standard:clasificación, filtrado, eliminación o duplicación de elementos. Las pantallas de listas muestran los elementos de uno o varios recursos determinados."
+description: '"Aprenda a personalizar la visualización y a actuar en las pantallas de lista de Adobe Campaign Standard: ordenar, filtrar, eliminar o duplicar elementos. Las pantallas de listas muestran elementos de uno o varios recursos determinados".'
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
@@ -12,7 +12,7 @@ ht-degree: 18%
 ---
 
 
-# Administre la instancia
+# Administrar la instancia
 
 <table>
 <tr>
@@ -31,9 +31,9 @@ ht-degree: 18%
 </tr>
 <tr>
 <td>Modelo de datos de Campaign</td>
-<td>Trabajar con las API de REST</td>
-<td>Administración de usuarios</td>
-<td>Configure y supervise la instancia</td>
+<td>Trabajo con las API de REST</td>
+<td>Administrar usuarios</td>
+<td>Configuración y monitorización de su instancia</td>
 </tr>
 </table>
 
@@ -41,40 +41,40 @@ ht-degree: 18%
 
 <img width="60px" alt="condiciones" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lugar de vestibulum mauris libero, no congue sapien rhoncus id. Luctus blandit ligula entero. Nulla quis vehula augue, una lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras y vehículos nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Entero luctus blandit ligula. Nulla quis vehícuula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehículo nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
 **Más información**
 
 * xxxx
 * xxxx
 
-## Trabajar con las API de REST
+## Trabajo con las API de REST
 
 <img width="60px" alt="condiciones" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lugar de vestibulum mauris libero, no congue sapien rhoncus id. Luctus blandit ligula entero. Nulla quis vehula augue, una lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras y vehículos nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Entero luctus blandit ligula. Nulla quis vehícuula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehículo nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
 **Más información**
 
 * xxxx
 * xxxx
 
-## Administración de usuarios
+## Administrar usuarios
 
 <img width="60px" alt="condiciones" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lugar de vestibulum mauris libero, no congue sapien rhoncus id. Luctus blandit ligula entero. Nulla quis vehula augue, una lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras y vehículos nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Entero luctus blandit ligula. Nulla quis vehícuula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehículo nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
 **Más información**
 
 * xxxx
 * xxxx
 
-## Configure y supervise la instancia
+## Configuración y monitorización de su instancia
 
 <img width="60px" alt="condiciones" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lugar de vestibulum mauris libero, no congue sapien rhoncus id. Luctus blandit ligula entero. Nulla quis vehula augue, una lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras y vehículos nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Entero luctus blandit ligula. Nulla quis vehícuula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehículo nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
 **Más información**
 

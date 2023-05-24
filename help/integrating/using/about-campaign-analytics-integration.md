@@ -1,6 +1,6 @@
 ---
 title: Acerca de la integración de Campaign-Analytics
-description: Recopilando los datos de KPI de Adobe Campaign Standard, ahora puede compartir los datos de campaña con Adobe Analytics para medir las métricas de marketing por correo electrónico de Adobe Campaign.
+description: Al recopilar los datos de KPI de Adobe Campaign Standard, ahora puede compartir datos de campaña con Adobe Analytics para medir las métricas de marketing por correo electrónico de Adobe Campaign.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
@@ -19,19 +19,19 @@ ht-degree: 6%
 
 Gracias a la integración de Adobe Analytics en Adobe Campaign, ahora puede realizar un seguimiento del éxito de sus envíos de correo electrónico directamente en Adobe Analytics.
 
-Esta integración entre Adobe Campaign Standard y Adobe Analytics le permitirá:
+Esta integración entre Adobe Campaign Standard y Adobe Analytics le permite:
 
-* Comparta los datos de KPI (indicador de rendimiento clave) de Adobe Campaign Standard en Adobe Analytics.
+* Comparta los datos de KPI (indicador de rendimiento clave) de Adobe Campaign Standard con Adobe Analytics.
 * Enriquezca las fórmulas de seguimiento con parámetros de Adobe Analytics.
 
-Esto funcionará creando primero una cuenta externa vinculada a Adobe Analytics. A continuación, se iniciará automáticamente un flujo de trabajo técnico que, de forma predeterminada, se ejecutará automáticamente cada 15 minutos. A continuación, los datos de KPI se insertan en Analytics.
+Esto funcionará creando primero una cuenta externa vinculada a Adobe Analytics. A continuación, se inicia automáticamente un flujo de trabajo técnico que, de forma predeterminada, se ejecuta automáticamente cada 15 minutos. Los datos de KPI se insertan en Analytics.
 
 Esta integración solo está disponible para envíos de correo electrónico.
 
-Integración entre el servicio principal de Adobe Analytics **Déclencheur** y Adobe Campaign también están disponibles. Le permite enviar correos electrónicos personalizados a sus clientes como una reacción ante comportamientos específicos rastreados en el sitio web mediante Adobe Analytics (en 15 minutos).
+Integración entre los servicios principales de Adobe Analytics **Déclencheur** y Adobe Campaign también está disponible. Permite enviar correos electrónicos personalizados a sus clientes como reacción a los comportamientos específicos rastreados en el sitio web mediante Adobe Analytics (en 15 minutos).
 
 **Temas relacionados:**
 
-* [Información general sobre la integración de Campaign Standard a Analytics](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html)
-* [Configuración de la integración del Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
+* [Información general sobre la integración de Campaign Standard con Analytics](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html)
+* [Configuración de la integración de Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
 * [Dimensiones y métricas de Campaign en Analytics](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)

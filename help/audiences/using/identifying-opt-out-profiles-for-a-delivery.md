@@ -1,5 +1,5 @@
 ---
-title: Identificación de perfiles de exclusión para una entrega
+title: Identificación de perfiles de exclusión para un envío
 description: Descubra cómo identificar perfiles de exclusión para una entrega.
 audience: audiences
 content-type: reference
@@ -15,9 +15,9 @@ ht-degree: 41%
 
 ---
 
-# Identificación de perfiles de exclusión para una entrega{#identifying-opt-out-profiles-for-a-delivery}
+# Identificación de perfiles de exclusión para un envío{#identifying-opt-out-profiles-for-a-delivery}
 
-Los perfiles de exclusión de un envío específico se enumeran después de la fase de preparación, en la variable **[!UICONTROL Exclusion logs]** del panel de envío.
+Los perfiles de exclusión de un envío específico se enumeran después de la fase de preparación, en la **[!UICONTROL Exclusion logs]** del panel de envío.
 
 ![](assets/exclusion_blocklisting.png)
 

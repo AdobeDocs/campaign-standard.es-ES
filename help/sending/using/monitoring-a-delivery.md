@@ -16,13 +16,13 @@ ht-degree: 82%
 
 ---
 
-# Seguimiento de una entrega{#monitoring-a-delivery}
+# Seguimiento de un envío{#monitoring-a-delivery}
 
-Existen varias formas de supervisar un envío y medir su impacto. Como administrador funcional, puede acceder a los registros de mensajes y de envío.
+Existen varias formas de supervisar un envío y medir su impacto. Como administrador funcional, puede acceder a los registros de mensajes y de envíos.
 
 >[!IMPORTANT]
 >
->Solo funcional [administradores](../../administration/using/users-management.md#functional-administrators), con **[!UICONTROL Administration]** función y acceso a **Todo** las unidades pueden acceder a registros de envío, registros de mensajes, registros de seguimiento, registros de exclusión o de suscripción. Un usuario no administrador puede segmentar estos registros, pero comenzando en una tabla vinculada (perfiles, envío).
+>Solo funcional [administradores](../../administration/using/users-management.md#functional-administrators), con **[!UICONTROL Administration]** función y acceso a **Todo** las unidades pueden acceder a los registros de envío, los registros de mensajes, los registros de seguimiento y los registros de exclusión o suscripción. Un usuario no administrador puede dirigirse a estos registros empezando por una tabla vinculada (perfiles, envío).
 
 * **Registros de mensajes**: se puede acceder a estos registros directamente desde el panel de mensajes. Muestran los detalles del envío, qué destinatario se ha excluido y por qué, así como la información de seguimiento como aperturas y clics.
 
@@ -38,9 +38,9 @@ Existen varias formas de supervisar un envío y medir su impacto. Como administr
 
    ![](assets/sending_delivery2.png)
 
-* **Registros de trabajos**: Se puede acceder a una lista de los trabajos por lotes activados por la entrega desde el panel de mensajes seleccionando **[!UICONTROL Job history]** de la variable **[!UICONTROL Summary]** lista desplegable.
+* **Registros de trabajo**: Se puede acceder a una lista de los trabajos por lotes activados por la entrega desde el panel de mensajes seleccionando **[!UICONTROL Job history]** desde el **[!UICONTROL Summary]** lista desplegable.
 
-   Seleccione cualquier trabajo de la lista para ver los detalles del **[!UICONTROL Batch job]**.
+   Seleccione cualquier trabajo de la lista para ver los detalles de los seleccionados **[!UICONTROL Batch job]**.
 
    ![](assets/sending_delivery8.png)
 
@@ -53,7 +53,7 @@ Existen varias formas de supervisar un envío y medir su impacto. Como administr
 * [Recepción de alertas cuando se produzcan errores](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Informes](../../reporting/using/about-dynamic-reports.md)
 
-## Registros de entregas {#delivery-logs}
+## Registros de envío {#delivery-logs}
 
 ### Registros de envío {#sending-logs}
 

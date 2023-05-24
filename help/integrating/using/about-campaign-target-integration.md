@@ -17,9 +17,9 @@ ht-degree: 37%
 
 # Acerca de la integración de Campaign-Target{#about-campaign-target-integration}
 
-La integración entre Adobe Campaign y Adobe Target (Classic y Standard) en Adobe Experience Cloud le permite insertar una imagen dinámica desde Adobe Target en una entrega de correo electrónico de Adobe Campaign.
+La integración entre Adobe Campaign y Adobe Target (Classic y Standard) en Adobe Experience Cloud le permite insertar una imagen dinámica de Adobe Target en un envío de correo electrónico de Adobe Campaign.
 
-Esta integración permite al destinatario recibir correos electrónicos enviados a través de Adobe Campaign, incluida una versión dinámica del contenido gracias a Adobe Target. Esta versión dinámica se calcula según las reglas especificadas previamente al crear el correo electrónico.
+Esta integración permite al destinatario recibir correos electrónicos enviados mediante Adobe Campaign, incluida una versión dinámica del contenido gracias a Adobe Target. Esta versión dinámica se calcula según las reglas especificadas previamente al crear el correo electrónico.
 
 Adobe Target puede utilizar varios tipos de datos:
 

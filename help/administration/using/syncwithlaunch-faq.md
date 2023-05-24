@@ -1,6 +1,6 @@
 ---
-title: Preguntas frecuentes sobre el flujo de trabajo técnico Sincronización con Launch
-description: Preguntas frecuentes sobre el flujo de trabajo técnico de Adobe Launch
+title: Preguntas frecuentes sobre el flujo de trabajo técnico Sincronizar con Launch
+description: Preguntas comunes sobre el flujo de trabajo técnico de Adobe Launch
 audience: administration
 feature: Instance Settings
 role: Admin
@@ -15,37 +15,37 @@ ht-degree: 2%
 
 # Preguntas frecuentes sobre la sincronización de etiquetas en Adobe Experience Platform {#syncwithlaunch-faq}
 
-Puede importar propiedades móviles de etiquetas en Adobe Campaign Standard a través de la variable **[!UICONTROL Sync with Launch]** flujo de trabajo técnico dedicado. Para obtener más información, consulte esta [página](../../administration/using/technical-workflows.md)
+Puede importar propiedades móviles de etiquetas en Adobe Campaign Standard a través del **[!UICONTROL Sync with Launch]** flujo de trabajo técnico dedicado. Para obtener más información, consulte esta [página](../../administration/using/technical-workflows.md)
 
 La sección siguiente enumera preguntas comunes sobre esta sincronización.
 
-## Creé una propiedad de etiqueta (no administrador de la unidad de organización ALL). Mi aplicación está en estado Preparado para configurar en Adobe Campaign, pero no puedo abrirla ni configurarla. {#configuring-property}
+## He creado una propiedad de etiqueta (que no es administrador de Org-unit ALL). Mi aplicación está en estado Listo para configurar en Adobe Campaign, pero no puedo abrirla o configurarla. {#configuring-property}
 
-Solo el administrador de la unidad organizativa ALL puede configurar las aplicaciones móviles en Adobe Campaign Standard. Una vez configurada, solo los usuarios de la unidad organizativa asignada pueden editar la aplicación. Para obtener más información sobre la unidad organizativa, consulte esta [página](../../administration/using/organizational-units.md).
+Solo el administrador de la unidad organizativa ALL puede configurar aplicaciones móviles en Adobe Campaign Standard. Una vez configurada, solo los usuarios de la unidad organizativa asignada pueden editar la aplicación. Para obtener más información sobre la unidad organizativa, consulte [página](../../administration/using/organizational-units.md).
 
-## No puedo editar una aplicación móvil configurada en Adobe Campaign Standard y las aplicaciones móviles solo están en modo de lectura. {#read-mode-mobile-app}
+## No puedo editar una aplicación móvil configurada en Adobe Campaign Standard y las aplicaciones móviles están solo en modo de lectura. {#read-mode-mobile-app}
 
-Compruebe la unidad organizativa de la aplicación móvil en la **[!UICONTROL Access Authorization]** para obtener más información. Solo los usuarios de la unidad organizativa asignada pueden editar la aplicación móvil.
+Compruebe la unidad organizativa de la aplicación móvil en **[!UICONTROL Access Authorization]** sección. Solo los usuarios de la unidad organizativa asignada pueden editar la aplicación móvil.
 
-Para obtener más información sobre la unidad organizativa, consulte esta [página](../../administration/using/organizational-units.md).
+Para obtener más información sobre la unidad organizativa, consulte [página](../../administration/using/organizational-units.md).
 
-## Soy administrador de la unidad organizativa ALL en Adobe Campaign Standard, pero no puedo configurar la aplicación móvil. {#org-unit-mobile}
+## Soy administrador con la unidad organizativa ALL en Adobe Campaign Standard, pero no puedo configurar la aplicación móvil. {#org-unit-mobile}
 
-Un administrador con la unidad organizativa configurada en ALL debe tener derechos de todas las propiedades móviles de etiquetas para configurar la aplicación móvil.
+Un administrador con la unidad organizativa configurada como TODO debe tener derechos sobre todas las propiedades móviles de etiquetas para configurar la aplicación móvil.
 
-Para obtener más información sobre la unidad organizativa, consulte esta [página](../../administration/using/organizational-units.md).
+Para obtener más información sobre la unidad organizativa, consulte [página](../../administration/using/organizational-units.md).
 
-## He creado una propiedad de etiqueta móvil, pero mi propiedad no está visible en Adobe Campaign Standard. {#visibility-mobile-property}
+## He creado una propiedad móvil de etiqueta, pero mi propiedad no es visible en Adobe Campaign Standard. {#visibility-mobile-property}
 
-1. Compruebe que la extensión de Adobe Campaign Standard esté instalada en la propiedad móvil en la interfaz de usuario de la recopilación de datos.
+1. Compruebe que la extensión de Adobe Campaign Standard esté instalada en la propiedad móvil en la IU de recopilación de datos.
 
-1. Compruebe que los extremos de la instancia estén correctamente configurados en la extensión de .
+1. Compruebe que los puntos finales de instancia están correctamente configurados en la extensión de.
 
-1. Compruebe que &quot;Launch_URL_Campaign&quot; o &quot;NmsServer_URL&quot; sean correctos.
+1. Compruebe que Launch_URL_Campaign o NmsServer_URL sean correctos.
 
-1. A continuación, compruebe que la sincronización se haya completado con la variable **[!UICONTROL syncWithLaunch]** flujo de trabajo técnico .
+1. A continuación, compruebe que la sincronización se haya completado con **[!UICONTROL syncWithLaunch]** flujo de trabajo técnico.
 
-## ¿Cómo se comprueba si se ha completado la sincronización entre Adobe Campaign y las etiquetas en Adobe Experience Platform? {#sync-campaign-launch}
+## ¿Cómo se comprueba si se ha completado la sincronización entre Adobe Campaign y Etiquetas en Adobe Experience Platform? {#sync-campaign-launch}
 
 1. En Adobe Campaign Standard, en el menú avanzado, seleccione **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]**.
 
@@ -55,23 +55,23 @@ Para obtener más información sobre la unidad organizativa, consulte esta [pág
 
 1. Compruebe en los registros que la sincronización del flujo de trabajo está habilitada y completada correctamente.
 
-## Restablece la clave para una aplicación móvil de etiquetas configurada. ¿Cómo volver a configurar la clave en la interfaz de usuario de recopilación de datos? {#configuring-pkey}
+## Restablecí la clave para una aplicación móvil de etiquetas configurada. ¿Cómo volver a configurar la clave en la IU de recopilación de datos? {#configuring-pkey}
 
 1. Abra la propiedad móvil en la interfaz de usuario de la recopilación de datos.
 
-1. Establezca una nueva URL en la extensión de Adobe Campaign Standard para la que se restableció el PKey.
+1. Establezca una nueva URL en la extensión de Adobe Campaign Standard para la que se restableció la clave principal.
 
-1. Guárdelo y deje que el flujo de trabajo se sincronice.
+1. Guárdelo y deje que se sincronice el flujo de trabajo.
 
 1. Una vez finalizada la sincronización, abra la propiedad móvil en en la interfaz de usuario de la recopilación de datos.
 
-1. Establezca la dirección URL correcta en la extensión de Adobe Campaign Standard para la que se restableció PKey.
+1. Establezca la dirección URL correcta en la extensión de Adobe Campaign Standard para la que se restableció la clave principal.
 
-1. Guárdelo y permita que la sincronización del flujo de trabajo se ejecute de nuevo.
+1. Guárdelo y deje que la sincronización del flujo de trabajo se ejecute de nuevo.
 
 1. Solo entonces la propiedad aparecerá en **[!UICONTROL Ready to Configure]** en Adobe Campaign y ahora se puede configurar.
 
-## Quiero configurar una propiedad móvil en Adobe Campaign. ¿Tendré que esperar para que el flujo de trabajo técnico se sincronice entre Etiquetas en Adobe Experience Platform y Adobe Campaign?
+## Quiero configurar una propiedad móvil en Adobe Campaign. ¿Tengo que esperar para que el flujo de trabajo técnico se sincronice entre las etiquetas en Adobe Experience Platform y Adobe Campaign?
 
 Puede realizar la ejecución inmediata del flujo de trabajo:
 
@@ -79,4 +79,4 @@ Puede realizar la ejecución inmediata del flujo de trabajo:
 
 1. Abra el **[!UICONTROL syncWithLaunch]** flujo de trabajo.
 
-1. Haga clic en el **[!UICONTROL Scheduler]** actividad y seleccione **[!UICONTROL Immediate execution]**.
+1. Haga clic en **[!UICONTROL Scheduler]** actividad y seleccione **[!UICONTROL Immediate execution]**.

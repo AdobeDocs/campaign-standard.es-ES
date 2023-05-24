@@ -10,11 +10,11 @@ exl-id: a63fe730-a6b2-4ae0-93da-9f8ee7824c9f
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '217'
-ht-degree: 34%
+ht-degree: 35%
 
 ---
 
-# Campaña (nms:campaign)
+# Campaign (nms:campaign)
 
 ## Descripción del objeto
 
@@ -38,7 +38,7 @@ ht-degree: 34%
                   <td> </td>
                </tr>
                <tr>
-                  <td>buildIn</td>
+                  <td>builtIn</td>
                   <td>Objeto de aplicación integrado</td>
                   <td>booleano </td>
                   <td> </td>
@@ -51,14 +51,15 @@ ht-degree: 34%
                </tr>
                <tr>
                   <td>createdBy (userBase)</td>
-                  <td>Creado por</td>
-                  <td>vínculo </td>
+                  <td>Creada por
+</td>
+                  <td>vincular </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>desc</td>
                   <td>Descripción</td>
-                  <td>string (512)</td>
+                  <td>cadena (512)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -68,7 +69,7 @@ ht-degree: 34%
                   <td> </td>
                </tr>
                <tr>
-                  <td>end</td>
+                  <td>fin</td>
                   <td>Fecha de finalización</td>
                   <td>date </td>
                   <td> </td>
@@ -76,7 +77,7 @@ ht-degree: 34%
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
                   <td>Unidad geográfica</td>
-                  <td>vínculo </td>
+                  <td>vincular </td>
                   <td> </td>
                </tr>
                <tr>
@@ -94,7 +95,7 @@ ht-degree: 34%
                <tr>
                   <td>label</td>
                   <td>Etiqueta</td>
-                  <td>string (128)</td>
+                  <td>cadena (128)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -109,41 +110,41 @@ ht-degree: 34%
                   <td>enumeración (cadena) (255)</td>
                   <td>
                      <ul>
-                        <li>In progress - started - started</li>
-                        <li>Edición: edición</li>
-                        <li>Finalizado: terminado</li>
-                        <li>Advertencia - advertencia - advertencia</li>
-                        <li>Error: error</li>
-                        <li>VALOR NO VÁLIDO - __Invalid_value__ - __Invalid_value__</li>
+                        <li>En curso: iniciado, iniciado</li>
+                        <li>Edición - edición - edición</li>
+                        <li>Finalizado - terminado - terminado</li>
+                        <li>Advertencia: advertencia: advertencia</li>
+                        <li>Erróneo: error: error</li>
+                        <li>VALOR INVÁLIDO - __Valor_no_válido__ - __Valor_no_válido__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
                   <td>modifiedBy (userBase)</td>
                   <td>Modificado por</td>
-                  <td>vínculo </td>
+                  <td>vincular </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>name</td>
                   <td>ID</td>
-                  <td>string (64)</td>
+                  <td>cadena (64)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
                   <td>Entidades organizativas</td>
-                  <td>vínculo </td>
+                  <td>vincular </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>program (programBase)</td>
                   <td>Programa</td>
-                  <td>vínculo </td>
+                  <td>vincular </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>informe en tiempo real</td>
+                  <td>realtimeReport</td>
                   <td>Informes en tiempo real</td>
                   <td>elemento </td>
                   <td> </td>
@@ -157,32 +158,32 @@ ht-degree: 34%
                <tr>
                   <td>estado</td>
                   <td>Estado</td>
-                  <td>enumeration (byte) </td>
+                  <td>enumeración (byte) </td>
                   <td>
                      <ul>
-                        <li>Inicio - Inicio - 1</li>
+                        <li>Iniciado - iniciado - 1</li>
                         <li>Edición - edición - 0</li>
-                        <li>Finalizado - Finalizado - 2</li>
-                        <li>VALOR NO VÁLIDO - __Invalid_value__ - __Invalid_value__</li>
+                        <li>Terminado - terminado - 2</li>
+                        <li>VALOR INVÁLIDO - __Valor_no_válido__ - __Valor_no_válido__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
                   <td>plantilla (campaña)</td>
                   <td>Plantilla de campaña</td>
-                  <td>vínculo </td>
+                  <td>vincular </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>miniatura</td>
                   <td>Miniatura</td>
-                  <td>string (255)</td>
+                  <td>cadena (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>título</td>
                   <td>Campaña</td>
-                  <td>string (255)</td>
+                  <td>cadena (255)</td>
                   <td> </td>
                </tr>
             </table>
@@ -202,7 +203,7 @@ Por estado lógico (byLogicalStatus)
     </tr>
 </table>
 
-Por nombre o etiqueta (byText)
+Por nombre o etiqueta (por texto)
 
 <table>
     <tr>
@@ -210,12 +211,12 @@ Por nombre o etiqueta (byText)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>text</td>
+    <td>texto</td>
     <td>cadena</td>
     </tr>
 </table>
 
-Por periodo (por periodo)
+Por período (por período)
 
 <table>
     <tr>
@@ -232,7 +233,7 @@ Por periodo (por periodo)
     </tr>
 </table>
 
-Por estado (byState)
+Por estado (por estado)
 
 <table>
     <tr>
@@ -245,7 +246,7 @@ Por estado (byState)
     </tr>
 </table>
 
-Incluir envíos continuos de una lista heterogénea (con Continuous)
+Incluir envíos continuos de una lista heterogénea (con Continuo)
 
 <table>
     <tr>
@@ -258,7 +259,7 @@ Incluir envíos continuos de una lista heterogénea (con Continuous)
     </tr>
 </table>
 
-Planificado para el periodo determinado (byPlanning)
+Planificado para el período determinado (por planificación)
 
 <table>
     <tr>
@@ -275,7 +276,7 @@ Planificado para el periodo determinado (byPlanning)
     </tr>
 </table>
 
-Presente durante un periodo determinado (por calendario)
+Presente durante un período determinado (por calendario)
 
 <table>
     <tr>

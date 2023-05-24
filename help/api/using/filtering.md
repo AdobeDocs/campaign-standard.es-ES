@@ -1,6 +1,6 @@
 ---
 title: Filtrado
-description: Aprenda a realizar operaciones de filtrado.
+description: Obtenga información sobre cómo realizar operaciones de filtrado.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,17 +17,17 @@ ht-degree: 1%
 
 # Filtrado {#filtering}
 
-## Recuperación de metadatos de filtros
+## Recuperando metadatos de filtros
 
 Los filtros están disponibles para cada recurso. Para identificar los filtros asociados a un recurso, debe realizar una solicitud de GET en los metadatos del recurso. Esta solicitud devuelve la dirección URL donde se definen todos los filtros para un recurso determinado. Para obtener más información sobre metadatos, consulte [esta sección](../../api/using/metadata-mechanism.md).
 
-Para identificar los metadatos de un filtro y determinar cómo utilizarlo, debe realizar una solicitud de GET en la URL devuelta anteriormente.
+Para identificar los metadatos de un filtro y determinar cómo utilizarlos, se debe realizar una solicitud de GET en la dirección URL devuelta anteriormente.
 
 <br/>
 
 ***Solicitud de ejemplo***
 
-Las cargas útiles de ejemplo que se muestran a continuación muestran cómo recuperar los metadatos del filtro &quot;byText&quot; para el recurso &quot;profile&quot;. Primero realice una solicitud de GET en el recurso de &quot;perfil&quot;.
+Las siguientes cargas útiles de ejemplo muestran cómo recuperar los metadatos de filtro &quot;byText&quot; para el recurso de &quot;perfil&quot;. Primero realice una solicitud de GET en la métrica de recursos &quot;perfil&quot;.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \
@@ -62,14 +62,14 @@ Realice una solicitud de GET en la dirección URL. Devuelve la lista de filtros 
 }
 ```
 
-## Filtros de la estructura de metadatos
+## Estructura de metadatos de filtros
 
 La misma estructura de metadatos está disponible para cada filtro:
 
-* La variable **@formType** y **@webPage** son campos técnicos.
-* La variable **data** ofrece una muestra de cómo utilizar el filtro.
-* La variable **metadata** describe los parámetros del filtro.
-* La variable **condición** describe lo que pretende hacer el filtro. Los parámetros de filtro descritos en el nodo de metadatos se utilizan para crear condiciones de filtro. Para cada condición de filtro, si **enabledIf** es verdadero, la variable **expr** se aplicará.
+* El **@formType** y **@webPage** los campos son campos técnicos.
+* El **datos** Este campo proporciona un ejemplo sobre cómo utilizar el filtro.
+* El **metadatos** node describe los parámetros del filtro.
+* El **condición** node describe lo que pretende hacer el filtro. Los parámetros de filtro descritos en el nodo de metadatos se utilizan para crear condiciones de filtro. Para cada condición de filtro, si **enabledIf** es true, la variable **expr** se aplicarán.
 
 <br/>
 
@@ -99,9 +99,9 @@ Es posible combinar varios filtros en una sola solicitud:
 
 <br/>
 
-***Solicitudes de muestra***
+***Solicitudes de ejemplo***
 
-* Ejemplo de solicitud de GET para recuperar los recursos de &quot;servicio&quot; con el tipo &quot;correo electrónico&quot;.
+* Solicitud de GET de ejemplo para recuperar los recursos del &quot;servicio&quot; con el tipo &quot;correo electrónico&quot;.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=email \
@@ -133,7 +133,7 @@ Es posible combinar varios filtros en una sola solicitud:
    }
    ```
 
-* Solicitud de GET de ejemplo para recuperar los recursos de &quot;perfil&quot; que contienen &quot;Hacer&quot; en los campos de correo electrónico o apellidos (el filtro byText busca en los campos de correo electrónico y apellido).
+* Solicitud de GET de ejemplo para recuperar los recursos de &quot;perfil&quot; que contienen &quot;Listo&quot; en los campos de correo electrónico o apellidos (el filtro byText busca en los campos de correo electrónico y apellidos).
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
@@ -161,7 +161,7 @@ Es posible combinar varios filtros en una sola solicitud:
    }
    ```
 
-* Ejemplo de solicitud de GET para recuperar los recursos de servicios con el tipo &quot;correo electrónico&quot; y la etiqueta &quot;deporte&quot;.
+* Solicitud de GET de ejemplo para recuperar los recursos de servicios con el tipo &quot;correo electrónico&quot; y la etiqueta &quot;deporte&quot;.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/byText?channel=email&text=sport \
@@ -208,7 +208,7 @@ Para obtener más información, consulte la documentación del Campaign Standard
 
 ***Solicitud de ejemplo***
 
-Solicitud de GET de muestra para recuperar los recursos de &quot;perfil&quot; con importes de transacción de 100$ o más. Tenga en cuenta que el filtro &quot;byAmount&quot; se ha definido primero en la interfaz de Adobe Campaign Standard y está vinculado a la tabla personalizada &quot;Transaction&quot;.
+Solicitud de GET de muestra para recuperar los recursos de &quot;perfil&quot; con importes de transacción de 100 $ o más. Tenga en cuenta que el filtro &quot;byAmount&quot; se ha definido primero en la interfaz de Adobe Campaign Standard y se ha vinculado a la tabla personalizada &quot;Transaction&quot;.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byAmount?amount_parameter=100 \

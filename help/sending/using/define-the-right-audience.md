@@ -4,7 +4,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: '"Cuando tenga preparado el contenido, aprenda cómo definir cuidadosamente quién recibirá el mensaje".'
+description: '"Cuando tenga preparado el contenido, aprenda a definir cuidadosamente quién recibirá el mensaje".'
 feature: Deliverability
 role: User
 level: Intermediate
@@ -30,7 +30,7 @@ Para que su envío se realice correctamente, envíe el contenido personalizado m
 
 ## Asignaciones de destino {#target-mappings}
 
-De forma predeterminada, las plantillas de envío tienen como destino **Perfiles**. Adobe Campaign ofrece otras asignaciones de destino para los envíos, que puede cambiar según sus necesidades.
+De forma predeterminada, las plantillas de envío se dirigen a **Perfiles**. Adobe Campaign ofrece otras asignaciones de destino para los envíos, que puede cambiar según sus necesidades.
 
 Estas asignaciones se presentan [en esta sección](../../automating/using/query.md#targeting-dimensions-and-resources).
 
@@ -38,22 +38,22 @@ También puede crear y utilizar una asignación de destino personalizada. Para o
 
 ## Datos externos {#external-data}
 
-Puede enviar a destinatarios que estén almacenados en un archivo externo en lugar de guardarlos en la base de datos. Para ello, el diseño de un flujo de trabajo cargará datos en la base de datos desde un archivo y creará una audiencia asociada.  Obtenga más información [en este caso de uso](../../automating/using/use-case-calling-workflow.md). Consulte también [Invocación de un flujo de trabajo con parámetros](../../automating/using/calling-a-workflow-with-external-parameters.md).
+Puede enviar a destinatarios que estén almacenados en un archivo externo en lugar de guardarlos en la base de datos. Para ello, diseñe un flujo de trabajo que cargue datos en la base de datos desde un archivo y cree una audiencia asociada.  Obtenga más información [en este caso de uso](../../automating/using/use-case-calling-workflow.md). Consulte también [Invocación de un flujo de trabajo con parámetros](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
 ## Envíos a suscriptores {#send-to-subscribers}
 
 Para enviar mensajes a los suscriptores de una newsletter, puede enviar directamente a los destinatarios de los suscriptores al servicio informativo correspondiente. Obtenga más información [en esta sección](../../audiences/using/about-subscriptions.md).
 
-**Sugerencia** - Puede crear una audiencia de Lista , que segmente a los suscriptores de la newsletter mediante un flujo de trabajo. A continuación, puede seleccionar esta audiencia en una entrega. Para obtener más información, consulte [Creación de audiencias de lista](../../audiences/using/creating-audiences.md#creating-list-audiences).
+**Sugerencia** : Puede crear una audiencia de Lista dirigida a los suscriptores del boletín informativo mediante un flujo de trabajo. A continuación, puede seleccionar esta audiencia en una entrega. Para obtener más información, consulte [Creación de audiencias de lista](../../audiences/using/creating-audiences.md#creating-list-audiences).
 
 ## Pruebas, perfiles de prueba y grupos de control {#proofs-test-control-groups}
 
 Para probar el envío, utilice pruebas antes de enviar al destinatario principal.
 Asegúrese de seleccionar los destinatarios de prueba adecuados, ya que validan el formulario y el contenido del mensaje. Se presentan los pasos para enviar pruebas [en esta sección](../../sending/using/sending-proofs.md).
 
-Obtenga más información sobre los perfiles de prueba [en esta sección](../../audiences/using/managing-test-profiles.md).
+Más información sobre los perfiles de prueba [en esta sección](../../audiences/using/managing-test-profiles.md).
 
-Puede usar [Grupos de control](../../sending/using/control-group.md) para medir el impacto de sus campañas excluyendo una parte de su audiencia. A continuación, podrá comparar el comportamiento de la población de destinatarios que recibió el mensaje con el comportamiento de los contactos a los que no estaban destinados. En función de los registros de envío, también puede destinar un grupo de control en campañas futuras.
+Puede utilizar [Grupos de control](../../sending/using/control-group.md) para medir el impacto de sus campañas al excluir una parte de su audiencia. A continuación, podrá comparar el comportamiento de la población de destinatarios que recibió el mensaje con el comportamiento de los contactos a los que no estaban destinados. En función de los registros de envío, también puede destinar un grupo de control en campañas futuras.
 
 ## Deduplicación de direcciones {#deduplicate-addresses}
 

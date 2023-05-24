@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ---
 
-# Prueba y publicación de una página de destino{#testing-publishing--landing-page}
+# Prueba y publicación de una página de aterrizaje{#testing-publishing--landing-page}
 
 ## Acerca de la publicación de páginas de aterrizaje {#about-landing-page-publication}
 

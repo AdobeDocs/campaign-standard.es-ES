@@ -67,7 +67,7 @@ En el modo de operación estándar, las reglas se aplican en la siguiente secuen
 1. Reglas de control, si se aplican al principio del objetivo.
 1. Reglas de filtrado:
 
-   * Reglas de aplicación nativas para la clasificación de direcciones: dirección definida/dirección no verificada/dirección en lista de bloqueados/dirección en cuarentena/calidad de la dirección.
+   * Reglas de aplicación nativas para la revisión de direcciones: dirección definida/dirección no verificada/dirección en la lista de bloqueados/dirección en cuarentena/calidad de la dirección.
    * Reglas de filtrado definidas por el usuario.
 
 1. Reglas de control, si se aplican al final del objetivo.

@@ -17,7 +17,7 @@ ht-degree: 6%
 
 # Administración de la exclusión de CCPA {#managing-ccpa-optout}
 
-El estado de exclusión de la CCPA de un perfil se puede supervisar y administrar utilizando la variable **ccpaOptOut** y los valores &quot;true&quot; o &quot;false&quot;:
+El estado de exclusión de CCPA de un perfil se puede supervisar y administrar mediante la variable **ccpaOptOut** y los valores &quot;true&quot; o &quot;false&quot;:
 
 `"ccpaOptOut": <value>`
 
@@ -30,9 +30,9 @@ El estado de exclusión de la CCPA de un perfil se puede supervisar y administra
 
 <br/>
 
-***Solicitudes de muestra***
+***Solicitudes de ejemplo***
 
-* Solicitud de GET de ejemplo para recuperar el estado de exclusión de la CCPA de un perfil.
+* Solicitud de GET de muestra para recuperar el estado de exclusión de CCPA de un perfil.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
@@ -54,7 +54,7 @@ El estado de exclusión de la CCPA de un perfil se puede supervisar y administra
    }
    ```
 
-* Solicitud de POST de muestra para marcar un perfil de exclusión de CCPA.
+* Solicitud de POST de muestra para marcar un perfil para la exclusión de CCPA.
 
    ```
    -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/ \
@@ -84,7 +84,7 @@ El estado de exclusión de la CCPA de un perfil se puede supervisar y administra
    }
    ```
 
-* Solicitud del PATCH de muestra para actualizar un perfil de exclusión de CCPA.
+* Solicitud del PATCH de muestra para actualizar un perfil para la exclusión de CCPA.
 
    ```
    -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \

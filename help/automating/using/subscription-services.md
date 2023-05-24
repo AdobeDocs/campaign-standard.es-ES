@@ -39,7 +39,7 @@ Si se especifica en un archivo a través de columnas dedicadas, esta actividad t
 **Temas relacionados:**
 
 * [Caso de uso: Actualización de varios estados de suscripción de un archivo](../../automating/using/updating-subscriptions-from-file.md)
-* [Caso de uso: Suscripción de perfiles de un archivo a un servicio específico](../../automating/using/subscribing-profiles-from-file.md)
+* [Caso de uso: suscripción de perfiles de un archivo a un servicio específico](../../automating/using/subscribing-profiles-from-file.md)
 
 ## Configuración {#configuration}
 

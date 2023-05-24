@@ -17,7 +17,7 @@ ht-degree: 11%
 
 # Actualización de los atributos de una unidad organizativa {#updating-organizational-unit-attributes}
 
-1. Realice una solicitud de GET en el **orgUnitBase** para recuperar la unidad organizativa PKey.
+1. Realice una solicitud de GET en **orgUnitBase** recurso para recuperar la clave clave de la unidad organizativa.
 1. Realice una solicitud de PATCH en la unidad organizativa, con los atributos que desea actualizar en la carga útil.
 
 <br/>

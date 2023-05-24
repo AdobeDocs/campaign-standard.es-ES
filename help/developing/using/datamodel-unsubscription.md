@@ -1,5 +1,5 @@
 ---
-title: Evento de cancelación de suscripción del modelo de datos
+title: Evento de baja de DataModel
 description: Obtenga información sobre el modelo de datos
 audience: developing
 content-type: reference
@@ -14,7 +14,7 @@ ht-degree: 60%
 
 ---
 
-# Evento de cancelación de suscripción (nms:rtEvent)
+# Evento de baja (nms:rtEvent)
 
 ## Descripción del objeto
 
@@ -65,7 +65,7 @@ ht-degree: 60%
 
 ## Filtros
 
-byEmail
+por correo electrónico
 
 <table>
     <tr>

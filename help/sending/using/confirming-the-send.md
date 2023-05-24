@@ -20,7 +20,7 @@ ht-degree: 66%
 
 Una vez que haya terminado de preparar sus mensajes y se hayan realizado los pasos de aprobación, puede enviarlos. Para obtener más información sobre la preparación de mensajes, consulte [Preparación del envío](../../sending/using/preparing-the-send.md).
 
-Solo los usuarios con la variable **[!UICONTROL Start deliveries]** puede confirmar el envío. Para obtener más información al respecto, consulte la sección [Lista de funciones](../../administration/using/list-of-roles.md).
+Solo los usuarios con **[!UICONTROL Start deliveries]** función puede confirmar el envío. Para obtener más información al respecto, consulte la sección [Lista de funciones](../../administration/using/list-of-roles.md).
 
 <!--Users without this role will see the following message: 
 
@@ -28,13 +28,13 @@ Solo los usuarios con la variable **[!UICONTROL Start deliveries]** puede confir
 
 ## Envío de mensajes {#sending-message}
 
-Una vez finalizada la preparación, siga los pasos a continuación para enviar el mensaje.
+Una vez completada la preparación, siga los pasos a continuación para enviar su mensaje.
 
-1. Haga clic en el **[!UICONTROL Confirm send]** en la barra de acciones del mensaje.
+1. Haga clic en **[!UICONTROL Confirm send]** botón situado en la barra de acciones del mensaje.
 
    ![](assets/confirm_delivery.png)
 
-1. Finalice la entrega haciendo clic en el botón **[!UICONTROL OK]** botón.
+1. Finalice el envío haciendo clic en **[!UICONTROL OK]** botón.
 
    ![](assets/confirm_delivery1.png)
 
@@ -48,7 +48,7 @@ Si utiliza un envío recurrente sin período de acumulación, puede solicitar co
 
 ![](assets/confirmation_recurring_deliveries.png)
 
-## Explicación de los indicadores de mensaje {#message-indicators}
+## Comprender los indicadores de mensajes {#message-indicators}
 
 Una vez que el mensaje se envía a los contactos, la zona **[!UICONTROL Deployment]** muestra los datos de KPI (indicador de rendimiento clave), que incluye la siguiente información:
 
@@ -65,16 +65,16 @@ Una vez que el mensaje se envía a los contactos, la zona **[!UICONTROL Deployme
 
 ![](assets/sending_delivery.png)
 
-Si los KPI tardan demasiado en actualizarse o no reflejan los resultados de los registros de envío, haga clic en el botón **[!UICONTROL Compute stats]** en el **[!UICONTROL Deployment]** ventana.
+Si los KPI tardan demasiado en actualizarse o no reflejan los resultados de los registros de envío, haga clic en **[!UICONTROL Compute stats]** botón en el **[!UICONTROL Deployment]** ventana.
 
 ![](assets/sending_delivery7.png)
 
 El mensaje se puede ver en el historial de uno de los perfiles objetivo. Consulte [Perfil de cliente integrado](../../audiences/using/integrated-customer-profile.md).
 
-Una vez enviado un mensaje, puede realizar un seguimiento del comportamiento de sus destinatarios y monitorearlo para medir su impacto. Para obtener más información, consulte estas secciones:
+Una vez enviado un mensaje, puede realizar un seguimiento del comportamiento de sus destinatarios y monitorizarlo para medir su impacto. Para obtener más información, consulte estas secciones:
 
 * [Seguimiento de mensajes](../../sending/using/tracking-messages.md)
-* [Seguimiento de una entrega](../../sending/using/monitoring-a-delivery.md)
+* [Seguimiento de un envío](../../sending/using/monitoring-a-delivery.md)
 
 ### Sistema de informes de éxito de envío {#delivered-status-report}
 
@@ -82,9 +82,9 @@ Una vez enviado un mensaje, puede realizar un seguimiento del comportamiento de 
 >
 >Esta sección se aplica solo al canal de correo electrónico.
 
-En el **[!UICONTROL Summary]** vista de cada correo electrónico, la variable **[!UICONTROL Delivered]** el porcentaje comienza al 100% y luego disminuye progresivamente a lo largo de la entrega [periodo de validez](../../administration/using/configuring-email-channel.md#validity-period-parameters), a medida que se devuelven los rechazos leves y duros<!--from the Enhanced MTA to Campaign-->.
+En el **[!UICONTROL Summary]** vista de cada correo electrónico, la variable **[!UICONTROL Delivered]** El porcentaje de comienza en el 100 % y luego desciende progresivamente a lo largo de la entrega [período de validez](../../administration/using/configuring-email-channel.md#validity-period-parameters), a medida que se informan los rebotes suaves y duros<!--from the Enhanced MTA to Campaign-->.
 
-De hecho, todos los mensajes aparecen como **[!UICONTROL Sent]** en el [registros de envío](../../sending/using/monitoring-a-delivery.md#sending-logs) tan pronto como se retransmiten correctamente desde Campaign al MTA mejorado (Agente de transferencia de mensajes). Permanecen en ese estado a menos que un [rebote](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) de ese mensaje se comunique desde el servidor de correo mejorado a Campaign, o hasta que esto ocurra.
+De hecho, todos los mensajes se muestran como **[!UICONTROL Sent]** en el [registros de envío](../../sending/using/monitoring-a-delivery.md#sending-logs) tan pronto como se transmitan correctamente desde Campaign al servidor de correo mejorado (MTA). Permanecen en ese estado a menos que un [rebote](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) de ese mensaje se comunique desde el servidor de correo mejorado a Campaign, o hasta que esto ocurra.
 
 Cuando se generan informes de los mensajes de rebote duro desde el servidor de correo mejorado, su estado cambia de **[!UICONTROL Sent]** a **[!UICONTROL Failed]** y el porcentaje de **[!UICONTROL Delivered]** disminuye en consecuencia.
 
@@ -94,7 +94,7 @@ Cuando se generan informes de los mensajes de rebote suave desde el servidor de 
 
 * De lo contrario, el estado cambia a **[!UICONTROL Failed]** y el porcentaje de **[!UICONTROL Delivered]** disminuye en consecuencia.
 
-Por lo tanto, debe esperar hasta el final del periodo de validez para ver la **[!UICONTROL Delivered]** porcentaje y el número final de **[!UICONTROL Sent]** y **[!UICONTROL Failed]** mensajes.
+Por lo tanto, debe esperar hasta el final del periodo de validez para ver el final **[!UICONTROL Delivered]** y el número final de **[!UICONTROL Sent]** y **[!UICONTROL Failed]** mensajes.
 
 ### Servicio de comentarios de correo electrónico (beta) {#email-feedback-service}
 
@@ -112,15 +112,15 @@ Los registros de envío muestran el estado **[!UICONTROL Pending]** de cada di
 
 ![](assets/efs-pending.png)
 
-Cuando el envío de mensajes a los perfiles de destino se realiza de nuevo en tiempo real desde el MTA mejorado, los registros de envío muestran la variable **[!UICONTROL Sent]** para cada dirección que recibió el mensaje correctamente. El porcentaje de **[!UICONTROL Delivered]** se incrementa en consecuencia con cada envío correcto.
+Cuando se informa en tiempo real del envío de mensajes a los perfiles de destino desde el servidor de correo mejorado, los registros de envío muestran el **[!UICONTROL Sent]** estado de cada dirección que recibió correctamente el mensaje. El porcentaje de **[!UICONTROL Delivered]** se incrementa en consecuencia con cada envío correcto.
 
-Cuando los mensajes rechazados en el sistema se devuelven desde el MTA mejorado, su estado de registro cambia de **[!UICONTROL Pending]** a **[!UICONTROL Failed]** y **[!UICONTROL Bounces + errors]** se incrementa en consecuencia.
+Cuando el servidor de correo mejorado devuelve mensajes de rebote duro, su estado de registro cambia de **[!UICONTROL Pending]** hasta **[!UICONTROL Failed]** y el **[!UICONTROL Bounces + errors]** El porcentaje de sube en consecuencia.
 
-Cuando los mensajes de devolución en blanco se devuelven desde el MTA mejorado, su estado de registro también cambia desde **[!UICONTROL Pending]** a **[!UICONTROL Failed]** y **[!UICONTROL Bounces + errors]** se incrementa en consecuencia. El porcentaje de **[!UICONTROL Delivered]** permanece sin cambios. A continuación, se vuelven a intentar los mensajes de devolución suave a lo largo del [período de validez del envío](../../administration/using/configuring-email-channel.md#validity-period-parameters):
+Cuando se generan informes de los mensajes de rebote suave desde el servidor de correo mejorado, su estado de registro también cambia de **[!UICONTROL Pending]** hasta **[!UICONTROL Failed]** y el **[!UICONTROL Bounces + errors]** El porcentaje de sube en consecuencia. El porcentaje de **[!UICONTROL Delivered]** permanece sin cambios. A continuación, se vuelven a intentar los mensajes de devolución suave a lo largo del [período de validez del envío](../../administration/using/configuring-email-channel.md#validity-period-parameters):
 
 * Si un reintento se realiza correctamente antes del final del período de validez, el estado del mensaje cambia a **[!UICONTROL Sent]** y el porcentaje de **[!UICONTROL Delivered]** sube en consecuencia.
 
-* De lo contrario, el estado se mantiene como **[!UICONTROL Failed]**. La variable **[!UICONTROL Delivered]** y **[!UICONTROL Bounces + errors]** los porcentajes no cambian.
+* De lo contrario, el estado se mantiene como **[!UICONTROL Failed]**. El **[!UICONTROL Delivered]** y **[!UICONTROL Bounces + errors]** los porcentajes permanecen inalterados.
 
 >[!NOTE]
 >
@@ -138,7 +138,7 @@ Las siguientes tablas muestran los cambios en los KPI y los estados de envío de
 
 | Paso en el proceso de envío | Resumen de KPI | Estado de envío de registros |
 |--- |--- |--- |
-| El mensaje se retransmite correctamente desde Campaign al servidor de correo mejorado | <ul><li>**[!UICONTROL Delivered]** el porcentaje empieza en 0%</li><li>**[!UICONTROL Bounces + errors]** el porcentaje empieza en 0%</li></ul> | Pendiente |
+| El mensaje se retransmite correctamente desde Campaign al servidor de correo mejorado | <ul><li>**[!UICONTROL Delivered]** El porcentaje de empieza en 0%</li><li>**[!UICONTROL Bounces + errors]** El porcentaje de empieza en 0%</li></ul> | Pendiente |
 | Los mensajes de devolución dura se informan desde el servidor de correo mejorado | <ul><li>No hay cambios en el porcentaje de **[!UICONTROL Delivered]**</li><li>El porcentaje de **[!UICONTROL Bounces + errors]** sube en consecuencia</li></ul> | Error |
 | Los mensajes de devolución suave se informan desde el servidor de correo mejorado | <ul><li>No hay cambios en el porcentaje de **[!UICONTROL Delivered]**</li><li>El porcentaje de **[!UICONTROL Bounces + errors]** sube en consecuencia</li></ul> | Error |
 | Los reintentos de mensajes de devolución suave se realizan correctamente | <ul><li>El porcentaje de **[!UICONTROL Delivered]** sube en consecuencia</li><li>El porcentaje de **[!UICONTROL Bounces + errors]** baja en consecuencia</li></ul> | Enviado |

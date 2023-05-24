@@ -1,6 +1,6 @@
 ---
 title: Implementación del seguimiento local
-description: Obtenga información sobre cómo garantizar que el seguimiento de notificaciones push se haya implementado correctamente en iOS y Android
+description: Aprenda a garantizar que el seguimiento de notificaciones push se haya implementado correctamente en iOS y Android
 audience: channels
 feature: Instance Settings
 role: Admin
@@ -17,33 +17,33 @@ ht-degree: 1%
 
 ## Acerca del seguimiento local {#about-local-tracking}
 
-En esta página, aprenda a garantizar que el seguimiento de notificaciones locales se haya implementado correctamente. Tenga en cuenta que esto implica que la notificación local ya se ha configurado.
+En esta página, aprenderá a asegurarse de que el seguimiento de notificaciones locales se ha implementado correctamente. Tenga en cuenta que esto implica que la notificación local ya se ha configurado.
 
 El seguimiento de notificaciones locales se puede dividir en tres tipos:
 
-* **Impresiones locales** - Cuando se ha enviado una notificación local al dispositivo y se encuentra en el centro de notificaciones, pero no se ha tocado en absoluto. En la mayoría de los casos, el número de impresiones debe ser similar si no es el mismo que el número entregado. Garantiza que el dispositivo obtuvo el mensaje y reenvía esa información al servidor.
+* **Impresiones locales** : cuando se ha enviado una notificación local al dispositivo y está en el centro de notificaciones, pero no se ha tocado en absoluto. En la mayoría de los casos, el número de impresiones debe ser similar, si no igual, al número enviado. Garantiza que el dispositivo haya recibido el mensaje y retransmite esa información al servidor.
 
-* **Clic local** : cuando se envía una notificación local al dispositivo y el usuario ha hecho clic en la notificación. El usuario quería ver la notificación (que a su vez pasará al seguimiento abierto local) o rechazar la notificación.
+* **Clic local** - Cuando se ha enviado una notificación local al dispositivo y el usuario ha hecho clic en la notificación. El usuario deseaba ver la notificación (que a su vez pasará al seguimiento de aperturas local) o descartarla.
 
-* **Apertura local** : cuando se envía una notificación local al dispositivo y el usuario ha hecho clic en la notificación que provoca que la aplicación se abra. Esto es similar al clic local, excepto que una apertura local no se activará si se descarta la notificación.
+* **Apertura local** - Cuando se ha enviado una notificación local al dispositivo y el usuario ha hecho clic en la notificación que provoca la apertura de la aplicación. Esto es similar al clic local, excepto que la apertura local no se activa si se descarta la notificación.
 
 Para implementar el seguimiento para Adobe Campaign Standard, la aplicación móvil debe incluir el SDK móvil en la aplicación. Estos SDK están disponibles en [!DNL Adobe Mobile Services].
 
-Para enviar la información de seguimiento, hay tres variables que se deben enviar: dos son parte de los datos recibidos de Adobe Campaign y el otro es una variable de acción que dicta si es una impresión, un clic o una apertura.
+Para enviar información de seguimiento, hay tres variables que se deben enviar: dos son parte de los datos recibidos de Adobe Campaign y la otra es una variable de acción que dicta si es una impresión, un clic o una apertura.
 
 | Variable  | Valor |
 | :-: | :-: |
 | deliveryId | `deliveryId` a partir de datos entrantes (similar al seguimiento push donde `_dld` se utiliza) |
 | broadlogId | `broadlogId` a partir de datos entrantes (similar al seguimiento push donde `_mld` se utiliza) |
-| acción | &quot;1&quot; para Open, &quot;2&quot; para Click y &quot;7&quot; para Impression |
+| acción | &quot;1&quot; para Apertura, &quot;2&quot; para Clic y &quot;7&quot; para Impresión |
 
-## Implementación del seguimiento de impresión local {#implement-local-impression-tracking}
+## Implementación del seguimiento de impresiones locales {#implement-local-impression-tracking}
 
 El SDK de Adobe Experience Platform Mobile enviará automáticamente el evento de impresión tanto para Android como para iOS sin ninguna configuración adicional.
 
 ## Implementación del rastreo de clics {#implementing-click-tracking}
 
-Para el rastreo de clics, debe enviar el valor &quot;2&quot; para la acción cuando llame a `collectMessageInfo()` o `trackAction()` funciones.
+Para el rastreo de clics, debe enviar el valor &quot;2&quot; para la acción al llamar a `collectMessageInfo()` o `trackAction()` funciones.
 
 ### Para Android {#implement-click-tracking-android}
 
@@ -59,9 +59,9 @@ Para rastrear clics, se deben implementar dos escenarios:
    </receiver>
    ```
 
-* El usuario ve la notificación y hace clic en ella, lo que lo convierte en un seguimiento abierto.
+* El usuario ve la notificación y hace clic en ella, lo que da como resultado un seguimiento abierto.
 
-   Este escenario debería producir un clic y una apertura. El seguimiento de este clic formará parte de la implementación necesaria para rastrear la apertura. Consulte [Implementación del seguimiento abierto](#implement-open-tracking).
+   Este escenario debería producir un clic y una apertura. El seguimiento de este clic formará parte de la implementación necesaria para realizar el seguimiento de la apertura. Consulte [Implementación del seguimiento abierto](#implement-open-tracking).
 
 ### Para iOS {#implement-click-tracking-ios}
 
@@ -102,11 +102,11 @@ Debe enviar &quot;1&quot; y &quot;2&quot;, ya que el usuario debe hacer clic en 
 
 ### Para Android {#implement-open-tracking-android}
 
-Para rastrear la apertura, debemos crear un objeto Intent. Los objetos de intención permiten que el sistema operativo Android realice una llamada al método cuando se hayan realizado determinadas acciones. En este caso, haga clic en la notificación para abrir la aplicación.
+Para rastrear la apertura, debemos crear la intención. Los objetos de intención permiten al sistema operativo Android llamar al método cuando se realizan determinadas acciones, en este caso haciendo clic en la notificación para abrir la aplicación.
 
-Este código se basa en la implementación del seguimiento de impresión de clics. Con la intención definida, ahora debe enviar la información de seguimiento de vuelta a Adobe Campaign. En este caso, Android View([!DNL Activity]) que activó la notificación se abrirá o pondrá en primer plano como resultado del clic por usuario. El objeto Intent de [!DNL Activity] contiene los datos de notificación que se pueden utilizar para realizar el seguimiento de la apertura.
+Este código se basa en la implementación del seguimiento de impresiones de clics. Con la intención definida, ahora debe devolver la información de seguimiento a Adobe Campaign. En este caso, Android View()[!DNL Activity]) que activó la notificación, se abrirá o se colocará en primer plano como resultado del clic del usuario. El objeto por intención en [!DNL Activity] contiene los datos de notificación que se pueden utilizar para realizar el seguimiento de las aperturas.
 
-MainActivity.java (extiende [!DNL Activity])
+MainActivity.java (extiende) [!DNL Activity])
 
 ```
 @Override

@@ -1,6 +1,6 @@
 ---
 title: Acerca de los casos de uso de flujos de trabajo
-description: Obtenga más información sobre los casos de uso que puede realizar mediante flujos de trabajo de Campaign Standard.
+description: Obtenga más información sobre los casos de uso que puede realizar con flujos de trabajo de Campaign Standard.
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
@@ -18,19 +18,19 @@ ht-degree: 86%
 
 En esta sección, encontrará varios casos de uso que aprovechan las capacidades de los Flujos de trabajo de Campaign.
 
-Ayudan a descubrir los diferentes contextos en los que se pueden utilizar los flujos de trabajo y responder a sus necesidades.
+Le ayudan a descubrir los diferentes contextos en los que se pueden utilizar los flujos de trabajo y responder a sus necesidades.
 
-## Entregas {#deliveries}
+## Envíos {#deliveries}
 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
-* [Creación de entregas con un complemento](../../automating/using/workflow-created-query-with-complement.md)
-* [Creación de entregas en la fecha de creación de los perfiles](../../automating/using/workflow-creation-date-query.md)
-* [Creación de una entrega semanal](../../automating/using/workflow-weekly-offer.md)
-* [Creación de una entrega multicanal](../../automating/using/workflow-cross-channel-delivery.md)
-* [Identificación de duplicados antes de una entrega](../../automating/using/identifying-duplicated-before-delivery.md)
-* [Entrega de cumpleaños](../../automating/using/birthday-delivery.md)
-* [Emparejamiento de entregas de correo electrónico y correo directo](../../automating/using/coupling-email-direct-mail.md)
+* [Creación de envíos con un complemento](../../automating/using/workflow-created-query-with-complement.md)
+* [Creación de envíos en la fecha de creación de los perfiles](../../automating/using/workflow-creation-date-query.md)
+* [Creación de un envío semanal](../../automating/using/workflow-weekly-offer.md)
+* [Creación de un envío multicanal](../../automating/using/workflow-cross-channel-delivery.md)
+* [Identificación de duplicados antes de un envío](../../automating/using/identifying-duplicated-before-delivery.md)
+* [Envío de cumpleaños](../../automating/using/birthday-delivery.md)
+* [Emparejamiento de envíos de correo electrónico y correo directo](../../automating/using/coupling-email-direct-mail.md)
 * [Envío de un correo electrónico con campos enriquecidos](../../automating/using/sending-email-enriched-fields.md)
 * [Personalización de un correo electrónico con datos adicionales](../../automating/using/personalizing-email-with-additional-data.md)
 * [Envío de una notificación push recurrente](../../automating/using/recurring-push-notifications.md)
@@ -62,5 +62,5 @@ Ayudan a descubrir los diferentes contextos en los que se pueden utilizar los fl
 * [Exportación de perfiles en un archivo externo](../../automating/using/exporting-profiles-in-file.md)
 * [Actualización de varios estados de suscripción de un archivo](../../automating/using/updating-subscriptions-from-file.md)
 * [Suscripción de perfiles de un archivo a un servicio específico](../../automating/using/subscribing-profiles-from-file.md)
-* [Importación de datos cifrados con una clave generada por el Panel de control de Campaign](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)
-* [Cifrado y exportación de datos con una clave instalada en el Panel de control de Campaign](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)
+* [Importación de datos cifrados con una clave generada por el Panel de control](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)
+* [Cifrado y exportación de datos con una clave instalada en el Panel de control](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)

@@ -1,6 +1,6 @@
 ---
 title: Actualización de la unidad geográfica de un perfil
-description: Aprenda a administrar unidades geográficas con API.
+description: Aprenda a administrar las unidades geográficas con las API.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,8 +17,8 @@ ht-degree: 10%
 
 # Actualización de la unidad geográfica de un perfil {#updating-a-geographical-unit}
 
-1. Realice una solicitud de GET en el **geoUnitBase** recurso para recuperar la PKey de la unidad geográfica.
-1. Realice una solicitud de PATCH en la clave PKey del perfil, con la unidad geográfica PKey deseada en la carga útil.
+1. Realice una solicitud de GET en **geoUnitBase** recurso para recuperar la clave clave de la unidad geográfica.
+1. Realice una solicitud del PATCH en la clave principal del perfil, con la clave principal de la unidad geográfica deseada en la carga útil.
 
 <br/>
 
@@ -34,7 +34,7 @@ Recupere la lista de unidades geográficas.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Devuelve todas las unidades geográficas. Recupere la clave PK de la unidad a la que desea asignar el perfil.
+Devuelve todas las unidades geográficas. Recupere la clave principal de la unidad a la que desea asignar el perfil.
 
 ```
 {
@@ -50,7 +50,7 @@ Devuelve todas las unidades geográficas. Recupere la clave PK de la unidad a la
 },
 ```
 
-Realice una solicitud de PATCH en el perfil, con la clave PK de la unidad geográfica deseada en la carga útil.
+Realice una solicitud de PATCH en el perfil, con la clave principal de la unidad geográfica deseada en la carga útil.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<PKEY> \

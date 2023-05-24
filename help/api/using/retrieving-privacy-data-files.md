@@ -19,15 +19,15 @@ ht-degree: 4%
 
 >[!CAUTION]
 >
->La variable [Servicio principal de privacidad](https://developer.adobe.com/experience-platform-apis/references/privacy-service) La integración es el método que debe utilizar para todas las solicitudes de acceso y eliminación. <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
+>El [Privacy Core Service](https://developer.adobe.com/experience-platform-apis/references/privacy-service) La integración es el método que debe utilizar para todas las solicitudes de acceso y eliminación. <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
 
 Para recuperar el archivo que contiene toda la información asociada a un valor de reconciliación, siga este procedimiento de tres pasos:
 
-1. Realizar una **POST** solicitud para crear una nueva solicitud con el atributo **type=&quot;access&quot;**, consulte [Creación de una nueva solicitud de privacidad](../../api/using/creating-a-privacy-request.md).
+1. Realice una **POST** solicitud para crear una nueva solicitud con el atributo **type=&quot;access&quot;**, consulte [Creación de una nueva solicitud de privacidad](../../api/using/creating-a-privacy-request.md).
 
-1. Realizar una **GET** para recuperar información sobre la solicitud.
+1. Realice una **GET** para recuperar información sobre la solicitud.
 
-1. Recupere el archivo de datos realizando una **POST** solicitud sobre el **privacyRequestData** URL, con el nombre interno de la solicitud de privacidad dentro de la carga útil. Por ejemplo: {&quot;name&quot;:&quot;PT17&quot;}.
+1. Recupere el archivo de datos realizando una **POST** solicitud en el formulario devuelto **privacyRequestData** URL, con el nombre interno de la solicitud de privacidad dentro de la carga útil. Por ejemplo: {&quot;name&quot;:&quot;PT17&quot;}.
 
 <br/>
 
@@ -85,7 +85,7 @@ Devuelve el atributo privacyRequestData con una dirección URL asociada.
 },
 ```
 
-Realice una solicitud de POST en la URL privacyRequestData, con el nombre interno de la solicitud dentro de la carga útil.
+Realice una solicitud del POST en la URL privacyRequestData, con el nombre interno de la solicitud dentro de la carga útil.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool/<PKEY>/privacyRequestData \

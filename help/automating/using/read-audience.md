@@ -30,8 +30,8 @@ La actividad **[!UICONTROL Read audience]** es una versión más sencilla de la 
 
 **Temas relacionados**
 
-* [Caso de uso: Unión de dos audiencias refinadas](../../automating/using/union-on-two-refined-audiences.md)
-* [Caso de uso: Reconciliación de una audiencia de archivo con la base de datos](../../automating/using/reconcile-file-audience-with-database.md)
+* [Caso de uso: unión en dos audiencias refinadas](../../automating/using/union-on-two-refined-audiences.md)
+* [Caso de uso: reconciliación de una audiencia de archivo con la base de datos](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## Configuración {#configuration}
 
@@ -41,7 +41,7 @@ La actividad **[!UICONTROL Read audience]** es una versión más sencilla de la 
 
    Puede recuperar audiencias de los siguientes tipos: **[!UICONTROL List]**, **[!UICONTROL Query]**, **[!UICONTROL File]** y **[!UICONTROL Experience Cloud]**. Para obtener más información sobre los tipos de audiencia, consulte la documentación de [Audiencias](../../audiences/using/about-audiences.md).
 
-   La opción **[!UICONTROL Use a dynamic audience]** permite definir el nombre de la audiencia a quien se dirige en función de las variables de eventos del flujo de trabajo. Para obtener más información, consulte [esta página](../../automating/using/customizing-workflow-external-parameters.md) para obtener más información.
+   La opción **[!UICONTROL Use a dynamic audience]** permite definir el nombre de la audiencia a quien se dirige en función de las variables de eventos del flujo de trabajo. Para obtener más información, consulte [esta página](../../automating/using/customizing-workflow-external-parameters.md) sección.
 
    ![](assets/readaudience_activity1.png)
 

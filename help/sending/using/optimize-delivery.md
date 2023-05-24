@@ -4,7 +4,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: Aprenda a proteger y optimizar el proceso de envío ascendente.
+description: Aprenda a proteger y optimizar el proceso de envío de forma ascendente.
 feature: Deliverability
 role: User
 level: Intermediate
@@ -26,15 +26,15 @@ En la siguiente sección se describen las prácticas recomendadas y los procedim
 
 Varios factores pueden afectar directamente al rendimiento del servidor y ralentizar la plataforma:
 
-* Número y tipo de elementos de personalización: la personalización en correos electrónicos extrae datos de la base de datos para cada destinatario. Si hay muchos elementos de personalización, esto aumenta la cantidad de datos necesarios para preparar la entrega.  Obtenga más información sobre la personalización de correo electrónico en [esta sección](../../designing/using/personalization.md)
+* Número y tipo de elementos de personalización: la personalización en correos electrónicos extrae datos de la base de datos para cada destinatario. Si hay muchos elementos de personalización, esto aumenta la cantidad de datos necesarios para preparar la entrega.  Obtenga más información acerca de la personalización de correo electrónico en [esta sección](../../designing/using/personalization.md)
 
 * Carga del servidor: cuando Campaign gestiona muchas tareas diferentes al mismo tiempo, puede ralentizar el rendimiento. El servidor de debe coordinar todos los datos entrantes y salientes de todos los envíos para garantizar que los datos sean correctos y oportunos.
 
    **SUGERENCIA:** Para evitar esto, coordine la programación de las envíos con los demás miembros de su equipo para garantizar el mejor rendimiento.
 
-* La variable [ejecución del flujo de trabajo](../../automating/using/about-workflow-execution.md): la monitorización de los flujos de trabajo es esencial para evitar problemas de rendimiento de la plataforma. Siga las directrices enumeradas [en esta página](../../automating/using/monitoring-workflow-execution.md). Obtenga más información en la [prácticas recomendadas del flujo de trabajo](../../automating/using/best-practices-workflows.md) para obtener más información.
+* El [ejecución de flujo de trabajo](../../automating/using/about-workflow-execution.md): la monitorización de los flujos de trabajo es esencial para evitar problemas de rendimiento de la plataforma. Siga las directrices enumeradas [en esta página](../../automating/using/monitoring-workflow-execution.md). Obtenga más información en la [prácticas recomendadas de flujo de trabajo](../../automating/using/best-practices-workflows.md) sección.
 
-* Puede aprovechar [Funcionalidades del Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=es) para supervisar la plataforma, use [monitorización del rendimiento](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=es) funcionalidades.
+* Puede aprovechar [Funcionalidades del Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=es) para supervisar su plataforma, utilizando [supervisión del rendimiento](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=es) funcionalidades.
 
 ## Comprobación de la configuración de red {#network-config}
 

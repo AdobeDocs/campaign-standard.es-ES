@@ -1,6 +1,6 @@
 ---
 title: Unión de dos audiencias refinadas
-description: Este caso de uso muestra la unión de dos actividades Leer audiencia .
+description: Este caso de uso muestra la unión de dos actividades Read audience.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -24,7 +24,7 @@ El flujo de trabajo está diseñado de la siguiente manera:
 
 ![](assets/readaudience_activity_example1.png)
 
-* Un primer [Leer audiencia](../../automating/using/read-audience.md) actividad que recupera la audiencia de miembros oro y la refina seleccionando solo perfiles con edades comprendidas entre 18 y 30 años.
+* Una primera [Leer audiencia](../../automating/using/read-audience.md) actividad de que recupera la audiencia de miembros oro y la perfecciona seleccionando solo perfiles de entre 18 y 30 años de edad.
 * Una segunda actividad de **[!UICONTROL Read audience]** que recupera la audiencia de miembros plata y la perfecciona seleccionando solo perfiles de entre 18 y 30 años de edad.
-* A [Unión](../../automating/using/union.md) actividad que une poblaciones de ambos **[!UICONTROL Read audiences]** actividades en una población final.
+* A [Union](../../automating/using/union.md) actividad que une poblaciones de ambos **[!UICONTROL Read audiences]** actividades en una población final.
 * Un [Envío de correo electrónico](../../automating/using/email-delivery.md) actividad que envía el correo electrónico a la población que proviene del **[!UICONTROL Union]** actividad.

@@ -4,7 +4,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: "Una vez que el mensaje esté listo, aprenda a realizar todas las comprobaciones antes de enviar"
+description: "Una vez que el mensaje esté listo, aprenda a realizar todas las comprobaciones necesarias antes de enviar"
 feature: Deliverability
 role: User
 level: Intermediate
@@ -40,7 +40,7 @@ Para permitirlo, Adobe Campaign captura el procesamiento y lo pone a disposició
 
 * Puede ver el mensaje enviado en los diferentes contextos en los que se puede recibir webmail, servicio de mensajes, móvil, etc.
 
-* Las capacidades de procesamiento de correo electrónico son cruciales para identificar si las campañas de correo electrónico superan correctamente los filtros de los principales ISP (proveedores de servicios de Internet) y servicios de correo web. Estas herramientas envían una copia de un mensaje de correo electrónico a una red de bandejas de entrada de prueba, lo que le permite ver cómo se muestra el mensaje o cómo se renderiza en estos servicios. También pueden incluir informes y opciones de corrección de código que le ayudan a identificar y realizar correcciones con rapidez para mejorar la capacidad de envío.
+* Las funciones de procesamiento de correo electrónico son esenciales para identificar si las campañas de correo electrónico superan correctamente los filtros de los principales ISP (proveedores de servicios de Internet) y servicios de correo web. Estas herramientas envían una copia de un mensaje de correo electrónico a una red de bandejas de entrada de prueba, lo que le permite ver cómo se muestra el mensaje o cómo se renderiza en estos servicios. También pueden incluir informes y opciones de corrección de código que le ayudan a identificar y realizar correcciones con rapidez para mejorar la capacidad de envío.
 
 Obtenga más información [en esta sección](../../sending/using/email-rendering.md).
 

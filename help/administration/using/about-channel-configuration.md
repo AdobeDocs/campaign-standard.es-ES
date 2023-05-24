@@ -1,6 +1,6 @@
 ---
 title: Acerca de la configuración de canales
-description: Obtenga información sobre cómo configurar canales, incluida la configuración técnica, las propiedades de los mensajes y las plantillas
+description: Obtenga información sobre cómo configurar canales, incluida la configuración técnica, las propiedades de mensajes y las plantillas
 audience: administration
 feature: Instance Settings
 role: Admin
@@ -20,10 +20,10 @@ Todos los canales de comunicación de Adobe Campaign deben estar correctamente c
 Las diferentes configuraciones son las siguientes:
 
 * Configuración técnica del canal, incluido el enrutamiento, las reglas de procesamiento, los parámetros de envío, etc.
-* Plantillas y propiedades de mensaje. Todos los mensajes se basan en una plantilla. Adobe Campaign incluye un conjunto de plantillas predefinidas para todos los canales activados. Puede duplicar y personalizar estas plantillas.
-* Propiedades del mensaje. Al crear un nuevo mensaje, puede ajustar las propiedades según sus necesidades.
-* Algunos canales ofrecen configuraciones adicionales que son opcionales, como Email BCC.
+* Plantillas de mensajes y propiedades. Todos los mensajes se basan en una plantilla. Adobe Campaign incluye un conjunto de plantillas predefinidas para todos los canales activados. Puede duplicar y personalizar estas plantillas.
+* Propiedades del mensaje. Al crear un mensaje nuevo, puede ajustar las propiedades según sus necesidades.
+* Algunos canales ofrecen configuraciones adicionales que son opcionales, como el correo electrónico CCO.
 
-La variable **[!UICONTROL Channel]** reagrupa los parámetros técnicos vinculados a los diferentes canales de aplicación (correo electrónico, SMS), así como la administración de la tipología y la cuarentena.
+El **[!UICONTROL Channel]** Este menú reagrupa los parámetros técnicos vinculados a los diferentes canales de aplicación (correo electrónico, SMS), así como la administración de tipología y cuarentena.
 
-Los administradores pueden acceder a estas configuraciones en la **[!UICONTROL Administration]** > **[!UICONTROL Channels]** para abrir el Navegador.
+Los administradores pueden acceder a estas configuraciones en la **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menú.

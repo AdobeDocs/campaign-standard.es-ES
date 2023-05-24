@@ -17,15 +17,15 @@ ht-degree: 11%
 
 # Orden
 
-La ordenación está disponible en orden ascendente o descendente. Para ello, utilice el **%20desc** o **%20asc** a su solicitud.
+La ordenación está disponible en orden ascendente o descendente. Para ello, utilice el **%20desc** o **%20asc** parámetro de la solicitud.
 
 Para saber si un campo se puede ordenar, compruebe el parámetro &quot;ordenable&quot; en los metadatos del recurso. Para obtener más información, consulte [esta sección](../../api/using/metadata-mechanism.md).
 
 <br/>
 
-***Solicitudes de muestra***
+***Solicitudes de ejemplo***
 
-* Ejemplo de solicitud de GET para recuperar correos electrónicos en la base de datos ordenados alfabéticamente.
+* Solicitud de GET de ejemplo para recuperar correos electrónicos en la base de datos ordenados alfabéticamente.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email/email?_order=email \
@@ -50,7 +50,7 @@ Para saber si un campo se puede ordenar, compruebe el parámetro &quot;ordenable
    }
    ```
 
-* Solicitud de GET de ejemplo para recuperar el correo electrónico de la base de datos en un orden alfa descendente.
+* Solicitud de GET de ejemplo para recuperar el correo electrónico en la base de datos en orden alfa descendente.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email%20desc \

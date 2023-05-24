@@ -30,7 +30,7 @@ El administrador funcional de la plataforma puede administrar los roles, grupos 
 
 ![Menú Administración de usuarios](assets/user_management_1.png)
 
-Los usuarios se administran en el Admin Console . Obtenga más información en la [Administración de grupos y usuarios](../../administration/using/managing-groups-and-users.md) y en la sección [documentación del Admin Console](https://helpx.adobe.com/es/enterprise/managing/user-guide.html).
+Los usuarios se administran en el Admin Console. Obtenga más información en la [Administración de grupos y usuarios](../../administration/using/managing-groups-and-users.md) y en la sección [Documentación del Admin Console](https://helpx.adobe.com/es/enterprise/managing/user-guide.html).
 
 ![Acceso a perfiles de producto](assets/user_management_6.png)
 

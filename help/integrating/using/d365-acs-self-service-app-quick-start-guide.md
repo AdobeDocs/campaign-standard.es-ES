@@ -18,11 +18,11 @@ ht-degree: 2%
 
 # Introducción a la aplicación de integración de autoservicio {#gs-self-service-app}
 
-La integración de Adobe Campaign Standard con la aplicación de integración de autoservicio de Microsoft Dynamics 365 le permite configurar flujos de datos, controlar si se están ejecutando o no y en qué entorno. Sin embargo, debe completar algunos requisitos previos antes de empezar a usar la aplicación de integración de autoservicio.
+La integración de Adobe Campaign Standard con la aplicación de integración de autoservicio de Microsoft Dynamics 365 le permite configurar flujos de datos, controlar si se están ejecutando o no y en qué entorno. Sin embargo, debe completar algunos requisitos previos antes de empezar a utilizar la aplicación de integración de autoservicio.
 
 ## Conceptos y restricciones {#concepts-and-restrictions}
 
-Antes de comenzar con la herramienta de integración, debe comprender los conceptos y las barreras asociadas con la integración y realizar algunos pasos iniciales para obtener acceso.
+Antes de comenzar con la herramienta de integración, debe comprender los conceptos y las protecciones asociadas con la integración y realizar algunos pasos iniciales para obtener acceso.
 
 Obtenga más información en estas secciones:
 
@@ -33,7 +33,7 @@ Obtenga más información en estas secciones:
 
 ## Requisitos previos {#self-service-app-prerequisites}
 
-Debe configurar Microsoft Dynamics 365 y Adobe Campaign Standard para que la aplicación de integración tenga acceso a sus datos. Esto tardará algún tiempo en configurarse en Dynamics 365, Adobe Campaign Standard y Adobe I/O; sin embargo, una vez configuradas, podrá controlar la integración a través de la interfaz de usuario de la aplicación de integración de autoservicio.
+Debe configurar Microsoft Dynamics 365 y Adobe Campaign Standard para que la aplicación de integración tenga acceso a sus datos. Esta configuración tardará algún tiempo en realizarse en Dynamics 365, Adobe Campaign Standard y Adobe I/O; sin embargo, una vez configurada, podrá controlar la integración a través de la interfaz de usuario de la aplicación de integración de autoservicio.
 
 Obtenga más información en estas secciones:
 
@@ -46,13 +46,13 @@ Obtenga más información en estas secciones:
 A continuación, puede empezar con la herramienta de integración. Siga los pasos a continuación:
 
 1. [Obtenga acceso a la aplicación de integración](../../integrating/using/d365-acs-self-service-app-control-access.md)
-1. [Configurar la aplicación de integración para su uso](../../integrating/using/d365-acs-self-service-app-settings.md)
-1. [Implementación de la sincronización de datos](../../integrating/using/d365-acs-self-service-app-data-sync.md)
+1. [Configure la aplicación de integración para su uso](../../integrating/using/d365-acs-self-service-app-settings.md)
+1. [Implementación de sincronización de datos](../../integrating/using/d365-acs-self-service-app-data-sync.md)
 1. [Configuración de flujos de trabajo de sincronización](../../integrating/using/d365-acs-self-service-app-workflows.md)
 
 ## Vínculo a la aplicación de integración {#self-service-app-link}
 
-Abra un explorador y vaya al conector asociado con su región:
+Abra un explorador y vaya al conector asociado a su región:
 
 * [Asia-Pacífico](https://d365-acs-ap.ea.adobe.com/)
 * [Europa, Oriente Medio o África (EMEA)](https://d365-acs-em.ea.adobe.com/)
@@ -60,98 +60,98 @@ Abra un explorador y vaya al conector asociado con su región:
 
 ## Confirmación de solicitud de privacidad {#self-service-app-acknowledgement}
 
-Al navegar por la interfaz de usuario de autoservicio por primera vez, se le presentará la confirmación de privacidad. Debe reconocer que comprende su función en la realización de solicitudes de privacidad en Campaign y Microsoft Dynamics 365 por separado antes de continuar.
-Obtenga más información sobre sus responsabilidades de privacidad y sobre cómo administrar las solicitudes de privacidad en [esta sección](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy).
+Al navegar a la interfaz de usuario de autoservicio por primera vez, se le mostrará el reconocimiento de privacidad. Debe reconocer que comprende su función al realizar solicitudes de privacidad en Campaign y Microsoft Dynamics 365 por separado antes de poder continuar.
+Obtenga más información acerca de sus responsabilidades en materia de privacidad y cómo administrar las solicitudes de privacidad en [esta sección](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy).
 
-## Configuración de credenciales {#self-service-app-credentials}
+## Configuración de las credenciales {#self-service-app-credentials}
 
-Cuando vaya a la interfaz de usuario por primera vez, debería ver una página con un encabezado que tenga este aspecto:
+Cuando vaya a la interfaz de usuario por primera vez, debería ver una página con un encabezado similar al siguiente:
 
 ![](assets/do-not-localize/d365-to-acs-ui-header.png)
 
 >[!NOTE]
 >
-> Es normal recibir alertas que mencionen que no se puede conectar a Adobe Campaign Standard o Microsoft Dynamics 365 si la configuración de la aplicación aún no se ha configurado.
+> Es normal recibir alertas que mencionan que es &quot;incapaz de conectarse&quot; a Adobe Campaign Standard o Microsoft Dynamics 365 si la configuración de la aplicación aún no se ha establecido.
 
-Compruebe que las selecciones &quot;ORG&quot; e &quot;INSTANCE&quot; sean las que desea configurar.  Si no es así, haga clic en la lista desplegable y seleccione la organización y la instancia correctas.
+Compruebe que las selecciones &quot;ORG&quot; e &quot;INSTANCE&quot; son las que planea configurar.  Si no es así, haga clic en la lista desplegable y seleccione la organización y la instancia correctas.
 
 >[!IMPORTANT]
 >
-> Si está configurando el conector por primera vez o es nuevo en este proceso, entonces **strong** inste a seleccionar la instancia &quot;stage&quot; o &quot;dev&quot;. Asegúrese de comprobar que la configuración funciona bien antes de intentar la configuración en producción.
+> Si está configurando el conector por primera vez o es nuevo en este proceso, utilice **enérgico** le anima a seleccionar la instancia &quot;stage&quot; o &quot;dev&quot;. Debe asegurarse de que la configuración funciona correctamente antes de intentar realizar la instalación en producción.
 
-Si tiene la organización y la instancia correctas, haga clic en el menú &quot;hamburguesa&quot; para mostrar un menú desplegable. A continuación, haga clic en **[!UICONTROL Settings...]** en el menú desplegable para visitar la página donde introdujo sus credenciales para Microsoft Dynamics 365 y Campaign (consulte a continuación).
+Si tiene la organización y la instancia correctas, haga clic en el menú &quot;hamburguesa&quot; para mostrar un menú desplegable. Luego haga clic en **[!UICONTROL Settings...]** en el menú desplegable para visitar la página donde escribe las credenciales de para Microsoft Dynamics 365 y Campaign (consulte a continuación).
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-menu-pointers.png)
 
-En el **[!UICONTROL Settings]** rellene las secciones siguientes:
+En el **[!UICONTROL Settings]** , rellene las secciones siguientes:
 
 * Credenciales de Microsoft Dynamics 365
 * Credenciales de Adobe
 
-Ir [here](../../integrating/using/d365-acs-self-service-app-settings.md) para encontrar información más detallada sobre dónde encontrar la información para cada entrada. Cuando haya terminado, haga clic en el botón **[!UICONTROL Save]** en la parte inferior.
+Ir [aquí](../../integrating/using/d365-acs-self-service-app-settings.md) para obtener información más detallada sobre dónde encontrar la información de cada entrada. Cuando haya terminado, haga clic en **[!UICONTROL Save]** botón en la parte inferior.
 
 ## Comprobar la configuración inicial {#self-service-app-initial-config}
 
-Suponiendo que haya completado los requisitos previos anteriores y que haya agregado correctamente todas sus credenciales, ahora vamos a navegar a la **[!UICONTROL Workflows]** página. Obtenga más información sobre los flujos de trabajo de la aplicación de integración en [esta página](../../integrating/using/d365-acs-self-service-app-workflows.md).
+Si ha completado los requisitos previos anteriores y ha agregado correctamente todas las credenciales, vamos a navegar a la **[!UICONTROL Workflows]** página. Obtenga más información sobre los flujos de trabajo de la aplicación de integración en [esta página](../../integrating/using/d365-acs-self-service-app-workflows.md).
 
-En el  **[!UICONTROL Workflows]** , haga clic en el icono de lápiz asociado a la **[!UICONTROL Microsoft Dynamics 365 to Campaign]** flujo de trabajo para editar su configuración.
+En el  **[!UICONTROL Workflows]** , haga clic en el icono de lápiz asociado a la página **[!UICONTROL Microsoft Dynamics 365 to Campaign]** flujo de trabajo para editar su configuración.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-edit-pointer.png)
 
-En el **[!UICONTROL Microsoft Dynamics 365 to Campaign]** , puede acceder a la lista de asignaciones de tabla que ha configurado.  De forma predeterminada, tendrá una asignación de contacto/perfil predeterminada. Todas las demás entidades personalizadas deberán configurarse por separado.
+En el **[!UICONTROL Microsoft Dynamics 365 to Campaign]** , puede acceder a la lista de las asignaciones de tabla que ha configurado.  De forma predeterminada, se le asigna una asignación de contacto/perfil lista para usar. Todas las demás entidades personalizadas deberán configurarse por separado.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-top-pointers.png)
 
-En el **[!UICONTROL Edit Table Mapping]** consulte la **[!UICONTROL Mappings]** para garantizar que los campos de Microsoft Dynamics 365 se asignen al campo correcto en Campaign. Si necesita añadir otras asignaciones, hágalo ahora, así como cualquier reemplazo o filtro. [Más información](../../integrating/using/d365-acs-self-service-app-data-sync.md).
+En el **[!UICONTROL Edit Table Mapping]** , marque la **[!UICONTROL Mappings]** para garantizar que los campos de Microsoft Dynamics 365 se asignen al campo correcto en Campaign. Si necesita agregar otras asignaciones, hágalo ahora, así como cualquier reemplazo o filtro. [Más información](../../integrating/using/d365-acs-self-service-app-data-sync.md).
 
-Si desea agregar nuevas asignaciones, consulte [esta sección](../../integrating/using/d365-acs-self-service-app-data-sync.md#add-a-new-mapping) para obtener más información.
+Si desea añadir nuevas asignaciones, consulte [esta sección](../../integrating/using/d365-acs-self-service-app-data-sync.md#add-a-new-mapping) para obtener más información.
 
-Una vez que la configuración sea correcta, haga clic en el botón **[!UICONTROL Play]** junto al botón **[!UICONTROL Microsoft Dynamics 365 to Campaign]** para iniciar la integración y el flujo de datos.
+Una vez que la configuración sea correcta, haga clic en **[!UICONTROL Play]** junto al botón **[!UICONTROL Microsoft Dynamics 365 to Campaign]** para iniciar la integración y el flujo de datos.
 
 >[!IMPORTANT]
 >
->We **strong** recomiende ejecutar primero esto en los entornos de fase o desarrollo antes de ejecutar en producción. Compruebe que la instancia de stage/dev esté seleccionada en el encabezado.
+>Nosotros **enérgico** Se recomienda ejecutar esto primero en los entornos de ensayo o desarrollo antes de ejecutar en producción. Compruebe que la instancia de stage/dev esté seleccionada en el encabezado.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
 
-Una vez ejecutado, debe poder probarlo añadiendo o modificando entradas en Microsoft Dynamics 365 y observando esos cambios en Adobe Campaign en unos minutos. Si en cualquier momento necesita detener este proceso, simplemente presione el mismo botón para detenerlo. [Más información](../../integrating/using/d365-acs-self-service-app-workflows.md#workflow-status)
+Una vez que se esté ejecutando, debería poder realizar pruebas agregando o modificando entradas en Microsoft Dynamics 365 y observando esos cambios en Adobe Campaign en unos minutos. Si en cualquier momento necesita detener este proceso, simplemente pulse el mismo botón para detenerlo. [Más información](../../integrating/using/d365-acs-self-service-app-workflows.md#workflow-status)
 
 
-## Espacio de trabajo de la aplicación de integración {#self-service-app-workspace}
+## Integración de App Workspace {#self-service-app-workspace}
 
-### Encabezado de la aplicación {#app-header}
+### Encabezado de aplicación {#app-header}
 
-El encabezado de la aplicación de autoservicio le permite definir qué organización e instancia está viendo o configurando actualmente.
+El encabezado de la aplicación de autoservicio le permite definir qué organización e instancia está viendo o configurando en ese momento.
 
-Seleccione el **ORG** y **INSTANCIA** desea ver/editar. Estos campos aparecen como de solo lectura, sin embargo, se vuelven editables cuando se coloca el cursor del ratón sobre ellos.
+Seleccione el **ORG** y el **INSTANCIA** desea ver o editar. Estos campos aparecen como de solo lectura, pero se pueden editar cuando se coloca el cursor del ratón sobre ellos.
 
-Se mostrará un menú desplegable al hacer clic en el botón con las tres líneas horizontales ![](assets//do-not-localize/d365-to-acs-icon-hamburger.png) a la derecha del encabezado.
+Se mostrará un menú desplegable cuando haga clic en el botón con las tres líneas horizontales ![](assets//do-not-localize/d365-to-acs-icon-hamburger.png) en el lado derecho del encabezado.
 
-Las entradas del menú desplegable son:
+Las entradas del menú desplegable son las siguientes:
 
-* **Configuración**: Al seleccionar esta opción, se le enviará a una pantalla que le permitirá especificar las credenciales de API para Microsoft Dynamics 365 y Adobe Campaign, así como otras configuraciones generales para la aplicación.
+* **Configuración**: si selecciona esta opción, aparecerá una pantalla que le permite especificar las credenciales de la API para Microsoft Dynamics 365 y Adobe Campaign, así como otra configuración general de la aplicación.
 
-* **Documentación**: Esta opción es un vínculo a la documentación de Adobe Campaign específica de esta integración
+* **Documentación**: esta opción es un vínculo a la documentación de Adobe Campaign específica de esta integración
 
-* **Servicio de atención al cliente**: Este es un vínculo a la documentación del Experience Cloud relacionada con la apertura de un ticket del Servicio de atención al cliente
+* **Atención al cliente**: este es un vínculo a la documentación del Experience Cloud relacionada con la apertura de un ticket del Servicio de atención al cliente
 
-* **Cerrar sesión**: Esto le cerrará la sesión de la aplicación y le permitirá volver a iniciarla como otro usuario.
+* **Cerrar sesión**: esto cerrará la sesión de la aplicación y le permitirá volver a iniciar sesión como otro usuario.
 
-* **Acerca de**: Se muestra un cuadro de diálogo que contiene información sobre la aplicación, incluida la información de copyright.
+* **Acerca de**: Muestra un cuadro de diálogo que contiene información sobre la aplicación, incluida la información de copyright.
 
-### Rutas de exploración {#app-breadcrumbs}
+### Rutas {#app-breadcrumbs}
 
 Las rutas de exploración aparecen en la parte superior de algunas pantallas a medida que navega por la aplicación.
 
 **Ejemplo:**
 
-A continuación se muestra un ejemplo de la **[!UICONTROL Edit Table Mapping]** que muestra las rutas de exploración y el título de la página. En este caso, puede hacer clic en la **[!UICONTROL Workflows]** o **[!UICONTROL Microsoft Dynamics 365 to Campaign]** para ir a una de las pantallas anteriores. **[!UICONTROL Edit Table Mapping]** en las rutas de exploración no se puede hacer clic en este caso porque es la pantalla actual.
+A continuación se muestra un ejemplo de la **[!UICONTROL Edit Table Mapping]** que muestra las rutas de exploración y el título de la página. En este caso, puede hacer clic en **[!UICONTROL Workflows]** o **[!UICONTROL Microsoft Dynamics 365 to Campaign]** texto para ir a una de las pantallas anteriores. **[!UICONTROL Edit Table Mapping]** en las rutas de exploración no se puede hacer clic en este caso porque es la pantalla actual.
 
 ![](assets/do-not-localize/d365-to-acs-breadcrumbs-ingress.png)
 
 ### Botones comunes {#app-buttons}
 
-Los iconos siguientes se utilizan en varias páginas de la aplicación de autoservicio.
+Los siguientes iconos se utilizan en varias páginas de la aplicación de autoservicio.
 
 ![](assets/do-not-localize/d365-to-acs-icon-add.png) - Agregar un nuevo elemento a una lista.
 

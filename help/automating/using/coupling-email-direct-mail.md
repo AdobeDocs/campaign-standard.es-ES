@@ -1,6 +1,6 @@
 ---
-title: Emparejamiento de entregas de correo electrónico y correo directo
-description: Este caso de uso presenta un ejemplo de envío de correo electrónico y correo postal desde un flujo de trabajo.
+title: Emparejamiento de envíos de correo electrónico y correo directo
+description: Este caso de uso presenta un ejemplo de envío de correo electrónico y correo directo desde un flujo de trabajo.
 audience: channels
 content-type: reference
 topic-tags: direct-mail
@@ -16,7 +16,7 @@ ht-degree: 84%
 
 ---
 
-# Emparejamiento de entregas de correo electrónico y correo directo {#coupling-email-direct-mail}
+# Emparejamiento de envíos de correo electrónico y correo directo {#coupling-email-direct-mail}
 
 Como especialista en marketing, puede que quiera enviar catálogos por correo postal. En el catálogo en papel, ciertas páginas ofrecen un 10 % de descuento con un código de promoción y un enlace para comprar el producto en el sitio web.
 
@@ -32,5 +32,5 @@ Este es un ejemplo de flujo de trabajo que combina canales de correo postal y de
 
 **Temas relacionados:**
 
-* [Actividad de envío por correo postal](../../automating/using/direct-mail-delivery.md)
+* [Actividad de envío de correo directo](../../automating/using/direct-mail-delivery.md)
 * [Acerca del correo directo](../../channels/using/about-direct-mail.md)

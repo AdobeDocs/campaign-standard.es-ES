@@ -1,5 +1,5 @@
 ---
-title: Visitante del modelo de datos
+title: Visitante de DataModel
 description: Obtenga información sobre el modelo de datos
 audience: developing
 content-type: reference
@@ -14,7 +14,7 @@ ht-degree: 40%
 
 ---
 
-# Visitante (nms:visitor)
+# Visitante (nms:visitante)
 
 ## Descripción del objeto
 
@@ -32,9 +32,9 @@ ht-degree: 40%
         <td> </td>
     </tr>
     <tr>
-        <td>comment</td>
+        <td>comentario</td>
         <td>Comentario del remitente del reenvío</td>
-        <td>string (255)</td>
+        <td>cadena (255)</td>
         <td> </td>
     </tr>
     <tr>
@@ -45,56 +45,57 @@ ht-degree: 40%
     </tr>
     <tr>
         <td>createdBy (userBase)</td>
-        <td>Creado por</td>
-        <td>vínculo </td>
+        <td>Creada por
+</td>
+        <td>vincular </td>
         <td> </td>
     </tr>
     <tr>
-        <td>entrega (entrega)</td>
+        <td>delivery (delivery)</td>
         <td>Envío</td>
-        <td>vínculo </td>
+        <td>vincular </td>
         <td> </td>
     </tr>
     <tr>
         <td>deliveryId</td>
-        <td>ID de la última entrega</td>
+        <td>ID del último envío</td>
         <td>entero </td>
         <td> </td>
     </tr>
     <tr>
         <td>desc</td>
         <td>Descripción</td>
-        <td>string (512)</td>
+        <td>cadena (512)</td>
         <td> </td>
     </tr>
     <tr>
         <td>email</td>
         <td>Correo electrónico</td>
-        <td>string (128)</td>
+        <td>cadena (128)</td>
         <td> </td>
     </tr>
     <tr>
         <td>externalId</td>
         <td>ID externo</td>
-        <td>string (64)</td>
+        <td>cadena (64)</td>
         <td> </td>
     </tr>
     <tr>
         <td>firstName</td>
         <td>Nombre</td>
-        <td>string (30)</td>
+        <td>cadena (30)</td>
         <td> </td>
     </tr>
     <tr>
         <td>forwardUrl</td>
         <td>URL de reenvío</td>
-        <td>string (255)</td>
+        <td>cadena (255)</td>
         <td> </td>
     </tr>
     <tr>
         <td>geoUnit (geoUnitBase)</td>
         <td>Unidad geográfica</td>
-        <td>vínculo </td>
+        <td>vincular </td>
         <td> </td>
     </tr>
     <tr>
@@ -106,36 +107,36 @@ ht-degree: 40%
     <tr>
         <td>lastName</td>
         <td>Apellido</td>
-        <td>string (50)</td>
+        <td>cadena (50)</td>
         <td> </td>
     </tr>
     <tr>
         <td>modifiedBy (userBase)</td>
         <td>Modificado por</td>
-        <td>vínculo </td>
+        <td>vincular </td>
         <td> </td>
     </tr>
     <tr>
         <td>orgUnit (orgUnitBase)</td>
         <td>Entidades organizativas</td>
-        <td>vínculo </td>
+        <td>vincular </td>
         <td> </td>
     </tr>
     <tr>
-        <td>origin</td>
+        <td>origen</td>
         <td>Origen</td>
-        <td>enumeration (byte) </td>
+        <td>enumeración (byte) </td>
         <td>
             <ul>
-            <li>Sin definir - Sin definir - 0</li>
-            <li>VALOR NO VÁLIDO - __Invalid_value__ - __Invalid_value__</li>
+            <li>Indefinido - indefinido - 0</li>
+            <li>VALOR INVÁLIDO - __Valor_no_válido__ - __Valor_no_válido__</li>
             </ul>
         </td>
     </tr>
     <tr>
         <td>destinatario (destinatario)</td>
         <td>Perfil identificado</td>
-        <td>vínculo </td>
+        <td>vincular </td>
         <td> </td>
     </tr>
     <tr>
@@ -147,13 +148,13 @@ ht-degree: 40%
     <tr>
         <td>referrerEmail</td>
         <td>Correo electrónico del remitente del reenvío</td>
-        <td>string (128)</td>
+        <td>cadena (128)</td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerFirstName</td>
         <td>Nombre del remitente del reenvío</td>
-        <td>string (30)</td>
+        <td>cadena (30)</td>
         <td> </td>
     </tr>
     <tr>
@@ -165,26 +166,26 @@ ht-degree: 40%
     <tr>
         <td>referrerLastName</td>
         <td>Apellidos del remitente del reenvío</td>
-        <td>string (50)</td>
+        <td>cadena (50)</td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerRcp (destinatario)</td>
         <td>Remitente del reenvío</td>
-        <td>vínculo </td>
+        <td>vincular </td>
         <td> </td>
     </tr>
     <tr>
         <td>título</td>
         <td>Etiqueta</td>
-        <td>string (255)</td>
+        <td>cadena (255)</td>
         <td> </td>
     </tr>
 </table>
 
 ## Filtros
 
-Por apellido, nombre o correo electrónico (byText)</p>
+Por apellido, nombre o correo electrónico (por texto)</p>
 
 <table>
         <tr>
@@ -192,7 +193,7 @@ Por apellido, nombre o correo electrónico (byText)</p>
         <th>Tipo</th>
         </tr>
         <tr>
-        <td>text</td>
+        <td>texto</td>
         <td>cadena</td>
         </tr>
     </table>

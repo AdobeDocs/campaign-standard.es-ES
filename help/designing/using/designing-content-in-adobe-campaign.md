@@ -19,15 +19,15 @@ ht-degree: 88%
 
 Una vez creado un correo electrónico en Adobe Campaign, debe definir su contenido.
 
-El Diseñador de correo electrónico le permite crear correos electrónicos personalizados y cautivadores mediante una interfaz de arrastrar y soltar. Ya sea desde una pizarra en blanco o aprovechando los fragmentos de contenido o las plantillas existentes, diseñe y perfeccione el contenido de cada correo electrónico, ya sea promocional o transaccional.
+El Diseñador de correo electrónico le permite crear correos electrónicos personalizados y cautivadores con una interfaz de arrastrar y soltar. Ya sea desde una pizarra en blanco o aprovechando los fragmentos de contenido o las plantillas existentes, diseñe y perfeccione el contenido de cada correo electrónico, ya sea promocional o transaccional.
 
-Compilado para ofrecer HTML optimizado para un diseño interactivo, el Diseñador de correo electrónico le permite definir y aplicar fácilmente las condiciones de visibilidad y de contenido dinámico a un correo electrónico, una plantilla o un fragmento directamente a través de la interfaz de usuario. Puede cambiar sin problemas entre la interfaz de arrastrar y soltar y el código del HTML haciendo clic en un botón.
+Compilado para ofrecer HTML optimizado para un diseño interactivo, el Diseñador de correo electrónico le permite definir y aplicar fácilmente las condiciones de visibilidad y de contenido dinámico a un correo electrónico, una plantilla o un fragmento directamente a través de la interfaz de usuario. Puede alternar sin problemas entre la interfaz de arrastre y suelte y el código del HTML haciendo clic en un botón.
 
 El Diseñador de correo electrónico le permite crear plantillas contenido de correo electrónico y las respectivas plantillas. Es compatible con correos electrónicos simples, transaccionales, de prueba A/B, multilingües y recurrentes.
 
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
-![](assets/do-not-localize/how-to-video.png) [Descubra el Diseñador de correo electrónico en vídeo](#video)
+![](assets/do-not-localize/how-to-video.png) [Descubra el Diseñador de correo electrónico con este vídeo](#video)
 
 * Para descubrir cómo crear contenido de correo electrónico, consulte [Introducción al Diseñador de correo electrónico](../../designing/using/quick-start.md).
 * Para obtener una descripción general del Diseñador de correo electrónico, consulte [Uso del Diseñador de correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md).
@@ -117,7 +117,7 @@ Para utilizar correctamente el Diseñador de correo electrónico y crear los mej
 
    Previsualice los mensajes antes de enviarlos. Adobe Campaign ofrece una forma de probar el procesamiento de correo electrónico con Litmus. Para obtener más información, consulte [Procesamiento de correo electrónico](../../sending/using/email-rendering.md).
 
-* La metaetiqueta del referente no es compatible con el Diseñador de correo electrónico.
+* La metaetiqueta de Remitente del reenvío no es compatible con el Diseñador de correo electrónico.
 
 En la siguiente guía paso a paso de Adobe Campaign se ofrecen más prácticas generales y de diseño sobre los mensajes: [Prácticas recomendadas de envío con Adobe Campaign](../../sending/using/delivery-best-practices.md).
 
@@ -151,8 +151,8 @@ Cuando se trata de fragmentos, tenga en cuenta lo siguiente:
 
 * Al editar estilos, solo están disponibles las fuentes web oficialmente admitidas por la mayoría de los clientes de correo electrónico.
 * Los estilos no se pueden guardar como un tema para su reutilización futura. Sin embargo, el estilo CSS se puede guardar en una plantilla de contenido o en un correo electrónico. Para obtener más información de los estilos, consulte [esta sección](../../designing/using/styles.md).
-* La metaetiqueta del referente no es compatible con el Diseñador de correo electrónico.
-* Los pares de sustitución, caracteres no incluidos en el plano multilingüe básico del conjunto de caracteres Unicode, no se pueden almacenar en 2 bytes (16 bits) y deben codificarse en 2 caracteres UTF-16. Estos caracteres incluyen algunos ideogramas CJK, la mayoría de emojis y algunos idiomas.<br>Estos caracteres pueden causar algunos problemas de incompatibilidad en el texto dinámico. Debe realizar pruebas exhaustivas antes de enviar los mensajes.
+* La metaetiqueta de Remitente del reenvío no es compatible con el Diseñador de correo electrónico.
+* Los pares sustitutos, caracteres no incluidos en el plano multilingüe básico del conjunto de caracteres Unicode, no se pueden almacenar en 2 bytes (16 bits) y deben codificarse en 2 caracteres UTF-16. Estos caracteres incluyen algunos ideogramas CJK, la mayoría de emojis y algunos idiomas.<br>Estos caracteres pueden provocar algunos problemas de incompatibilidad en el texto dinámico. Debe realizar pruebas sólidas antes de enviar los mensajes.
 
 **Temas relacionados**
 
@@ -163,7 +163,7 @@ Cuando se trata de fragmentos, tenga en cuenta lo siguiente:
 
 ## Tutorial en vídeo {#video}
 
-En este vídeo se proporciona información general sobre el Diseñador de correo electrónico.
+Este vídeo ofrece información general sobre el Diseñador de correo electrónico.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
 

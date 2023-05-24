@@ -19,7 +19,7 @@ ht-degree: 87%
 
 La mensajería en la aplicación es un canal de mensajería que le permite mostrar un mensaje cuando el usuario está activo en la aplicación móvil. Este tipo de mensaje es gratuito para las notificaciones push que se envían al centro de notificaciones del teléfono de los usuarios. Para obtener más información sobre el canal de notificaciones push, consulte esta [sección](../../channels/using/about-push-notifications.md).
 
-Este canal requiere que las aplicaciones móviles se integren con el SDK de Adobe Experience Platform. Estas aplicaciones deben activarse en la interfaz de usuario de recopilación de datos antes de estar disponibles en Adobe Campaign para los envíos en la aplicación.
+Este canal requiere que las aplicaciones móviles se integren con el SDK de Adobe Experience Platform. Estas aplicaciones deben activarse en la interfaz de usuario de la recopilación de datos antes de estar disponibles en Adobe Campaign para entregas en la aplicación.
 
 ![](assets/launch_campaign.png)
 

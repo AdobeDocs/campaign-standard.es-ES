@@ -64,7 +64,7 @@ Ahora que hemos creado un activador de Experience Cloud, vamos a utilizarlo en A
 
 En Adobe Campaign, debe crear un activador vinculado al que ha creado en Experience Cloud.
 
-1. Para crear el Déclencheur en Adobe Campaign, haga clic en el botón **Adobe** , en la esquina superior izquierda, seleccione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
+1. Para crear el Déclencheur en Adobe Campaign, haga clic en **Adobe** , en la esquina superior izquierda, y seleccione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
 
    ![](assets/remarketing_1.png)
 
@@ -81,7 +81,7 @@ En Adobe Campaign, debe crear un activador vinculado al que ha creado en Experie
 
    ![](assets/trigger_uc_browse_6.png)
 
-1. Para mostrar la plantilla del mensaje, haga clic en el botón **[!UICONTROL More]** , en la parte superior derecha, haga clic en **[!UICONTROL Trigger Transactional Template]**.
+1. Para mostrar la plantilla de mensaje, haga clic en **[!UICONTROL More]** , en la parte superior derecha, y haga clic en **[!UICONTROL Trigger Transactional Template]**.
 
 1. Personalice el contenido y los detalles del remitente.
 
@@ -101,11 +101,11 @@ En Adobe Campaign, debe crear un activador vinculado al que ha creado en Experie
 
    ![](assets/trigger_uc_browse_10.png)
 
-1. El destinatario hace clic en un vínculo que los lleva al sitio web. En este ejemplo, el banner lleva el destinatario a la página de inicio del sitio web de reservas de viajes.
+1. El destinatario hace clic en un vínculo que le lleva al sitio web. En este ejemplo, el banner lleva el destinatario a la página de inicio del sitio web de reservas de viajes.
 
    ![](assets/trigger_uc_browse_11.png)
 
-1. El destinatario va a la página &quot;Ofertas&quot; pero de repente detiene su visita. Después de un periodo de 10 minutos, Adobe Campaign inicia el envío del mensaje transaccional.
+1. El destinatario va a la página &quot;Ofertas&quot;, pero de repente detiene su visita. Después de un periodo de 10 minutos, Adobe Campaign inicia el envío del mensaje transaccional.
 
    ![](assets/trigger_uc_browse_12.png)
 

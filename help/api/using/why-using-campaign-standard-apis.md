@@ -17,18 +17,18 @@ ht-degree: 3%
 
 # Razones para utilizar las API de Campaign Standard {#why-using-campaign-standard-apis}
 
-Adobe Campaign Standard proporciona API que permiten que los sistemas existentes se integren con la plataforma de Campaign para resolver problemas reales en tiempo real.
+Adobe Campaign Standard proporciona API que permiten que los sistemas existentes se integren con la plataforma de Campaign para solucionar problemas en tiempo real.
 
-Los sitios web públicos como la página de registro o de exclusión deben conectarse a sistemas back-end para almacenar información de perfil. Los sistemas back-end como Adobe Campaign tienen la flexibilidad y la potencia para introducir datos de perfil en y realizar operaciones personalizadas en él.
+Los sitios web públicos como la página de registro o de exclusión deben conectarse a sistemas back-end para almacenar información de perfil. Los sistemas back-end como Adobe Campaign tienen la flexibilidad y la potencia necesarias para introducir datos de perfil en y realizar operaciones personalizadas en ellos.
 
 Estos son algunos ejemplos:
 
-* Posibles inscripciones en línea.
-* Perfil del cliente existente y administración de preferencias de comunicación de marketing.
-* Activación de comunicaciones transaccionales basadas en eventos: confirmación de pedido, itinerario de reserva, restablecimiento de contraseña, etc.
-* Incluso la comunicación por correo electrónico de abandono del carro de compras.
+* Inscripción en línea de clientes potenciales.
+* Administración de preferencias de comunicación de marketing y perfil de cliente existente.
+* Activación de la comunicación transaccional basada en eventos: confirmación de pedido, itinerario de reserva, restablecimiento de contraseña, etc.
+* Comunicación por correo electrónico incluso de abandono del carro de compras.
 
-Las páginas de aterrizaje de registro permiten a los clientes o posibles clientes registrar su nombre y dirección de correo electrónico. Una vez que el Campaign Standard captura la información de perfil y las preferencias, puede enviar mensajes personalizados según los intereses de la persona.
+Las páginas de aterrizaje de registro permiten a los clientes o clientes potenciales registrar su nombre y dirección de correo electrónico. Una vez que el Campaign Standard captura la información y las preferencias del perfil, puede enviar mensajes personalizados en función de los intereses de la persona.
 
 Se crean con los elementos siguientes:
 
@@ -36,35 +36,35 @@ Se crean con los elementos siguientes:
 
    ![texto alternativo](assets/apis_uc1.png)
 
-1. Acciones personalizadas que se deben realizar en función de casillas de verificación. A un cliente que seleccione &quot;Ofertas especiales de correo electrónico&quot; se le enviará un correo personalizado diferente con un cupón de regalo en comparación con el proceso normal de registro.
+1. Acciones personalizadas que se deben realizar en función de las casillas de verificación. Un cliente que selecciona &quot;Ofertas especiales de correo electrónico&quot; recibirá un correo personalizado diferente con un cupón de regalo en comparación con el proceso de registro normal.
 
    ![texto alternativo](assets/apis_uc2.png)
 
-1. Un perfil puede cambiar sus detalles después de hacer clic en el vínculo &quot;Actualizar detalles&quot; del correo electrónico. Esto lleva el perfil a la página &quot;Actualizar los detalles de perfil y preferencias&quot;. Para realizar la operación, los detalles de perfil (Pkey) se pasan al servidor de Campaign y el perfil se recupera y se representa. Una vez que el perfil hace clic en el botón &quot;Actualizar&quot;, la información se actualiza en el sistema (a través de un comando del PATCH).
+1. Un perfil puede cambiar sus detalles después de hacer clic en el vínculo &quot;Actualizar detalles&quot; del correo electrónico. Esto lleva el perfil a la página &quot;Actualizar el perfil y los detalles de preferencia&quot;. Para realizar la operación, los detalles del perfil (Pkey) se pasan al servidor de Campaign y el perfil se recupera y representa. Una vez que el perfil hace clic en el botón &quot;Actualizar&quot;, la información se actualiza en el sistema (mediante un comando del PATCH).
 
    ![texto alternativo](assets/apis_uc3.png)
 
-Hay disponible una colección de solicitudes para ayudarle a familiarizarse con las solicitudes de API de Campaign Standard. Esta colección en formato JSON proporciona solicitudes de API prediseñadas que representan casos de uso comunes.
+Hay una colección de solicitudes disponibles para ayudarle a familiarizarse con las solicitudes de API de Campaign Standard. Esta colección en formato JSON proporciona solicitudes de API prediseñadas que representan casos de uso comunes.
 
-Los pasos siguientes describen un caso de uso paso a paso para importar y utilizar la colección para crear un perfil en la base de datos de Campaign Standard.
+En los pasos siguientes se describe un caso de uso paso a paso para importar y utilizar la colección con el fin de crear un perfil en la base de datos de Campaign Standard.
 
 >[!NOTE]
 >
->Nuestro ejemplo utiliza Postman. Sin embargo, no dude en usar su cliente REST favorito.
+>Nuestro ejemplo utiliza Postman. Sin embargo, siéntase libre de usar su cliente REST favorito.
 
-1. Descargue la colección JSON haciendo clic en [here](https://helpx.adobe.com/content/dam/help/en/campaign/kb/working-with-acs-api/_jcr_content/main-pars/download_section/download-1/KB_postman_collection.json.zip).
+1. Descargue la colección JSON haciendo clic en [aquí](https://helpx.adobe.com/content/dam/help/en/campaign/kb/working-with-acs-api/_jcr_content/main-pars/download_section/download-1/KB_postman_collection.json.zip).
 
-1. Abra Postman y, a continuación, seleccione la opción **Archivo** / **Importar** para abrir el Navegador.
+1. Abra Postman y seleccione la **Archivo** / **Importar** menú.
 
-1. Arrastre y suelte el archivo descargado en la ventana . Se muestran las solicitudes de API prediseñadas, listas para utilizarse.
+1. Arrastre y suelte el archivo descargado en la ventana. Se muestran las solicitudes de API prediseñadas, listas para usar.
 
    ![texto alternativo](assets/postman_collection.png)
 
-1. Seleccione el **Creación de un perfil** y, a continuación, actualice la solicitud del POST y la **Encabezados** con su propia información (&lt;organization>, &lt;api_key>, &lt;access_token>). Para obtener más información, consulte [esta sección](../../api/using/setting-up-api-access.md).
+1. Seleccione el **Creación de un perfil** solicitud, actualice la solicitud del POST y la **Encabezados** con su propia información (&lt;organization>, &lt;api_key>, &lt;access_token>). Para obtener más información, consulte [esta sección](../../api/using/setting-up-api-access.md).
 
    ![texto alternativo](assets/postman_uc1.png)
 
-1. Complete la variable **Cuerpo** con la información que desea agregar al nuevo perfil y, a continuación, haga clic en la pestaña **Enviar** para ejecutar la solicitud.
+1. Rellene el **Cuerpo** con la información que desee añadir al nuevo perfil y, a continuación, haga clic en el icono **Enviar** para ejecutar la solicitud.
 
    ![texto alternativo](assets/postman_uc2.png)
 
@@ -72,6 +72,6 @@ Los pasos siguientes describen un caso de uso paso a paso para importar y utiliz
 
    ![texto alternativo](assets/postman_uc3.png)
 
-1. Abra la instancia de Campaign Standard y, a continuación, compruebe que se ha creado el perfil, con toda la información de la carga útil.
+1. Abra la instancia de Campaign Standard y, a continuación, compruebe que el perfil se ha creado con toda la información de la carga útil.
 
    ![texto alternativo](assets/postman_uc4.png)

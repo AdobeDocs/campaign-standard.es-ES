@@ -29,7 +29,7 @@ La actividad **[!UICONTROL Segmentation]** le permite crear uno o varios segment
 >De forma predeterminada, un miembro de la población entrante solo puede pertenecer a un único segmento. Los filtros se aplican según el orden de los segmentos en la actividad.
 
 **Temas relacionados:**
-* [Caso de uso: Segmentación en la ubicación](../../automating/using/workflow-segmentation-location.md)
+* [Caso de uso: Segmentación en una ubicación](../../automating/using/workflow-segmentation-location.md)
 * [Caso de uso: Segmentación según grupos de edad](../../automating/using/segmentation-age-groups.md)
 
 ## Contexto de uso {#context-of-use}
@@ -44,7 +44,7 @@ La actividad **[!UICONTROL Segmentation]** se suele colocar después de activida
 
 1. Arrastre y suelte una actividad de **[!UICONTROL Segmentation]** en el flujo de trabajo.
 1. Seleccione la actividad y, a continuación, ábrala con el botón ![](assets/edit_darkgrey-24px.png), en las acciones rápidas que aparecerán.
-1. En el **[!UICONTROL General]** , seleccione **[!UICONTROL Resource type]** sobre el que debe llevarse a cabo la segmentación:
+1. En el **[!UICONTROL General]** , seleccione la pestaña **[!UICONTROL Resource type]** en la que debe llevarse a cabo la segmentación:
 
    * **[!UICONTROL Database resource]** si la segmentación se realiza con datos que ya existen en la base de datos. Seleccione la **[!UICONTROL Filtering dimension]** en función de los datos que desee segmentar. De forma predeterminada, la segmentación se realiza en los **perfiles**.
    * **[!UICONTROL Temporary resource]** si la segmentación se realiza en los datos temporales del flujo de trabajo: seleccione el **[!UICONTROL Targeted set]** que contiene los datos que se van a segmentar. Este caso de uso se puede encontrar después de importar un archivo o si los datos de la base de datos se enriquecieron.
@@ -94,10 +94,10 @@ La actividad **[!UICONTROL Segmentation]** se suele colocar después de activida
 1. Añada tantos segmentos como sea necesario mediante la repetición de los pasos 6 a 10 de este procedimiento.
 1. Si es necesario, edite los parámetros en la pestaña **[!UICONTROL Advanced options]**:
 
-   * La variable **[!UICONTROL Enable overlapping of outbound populations]** define cómo administrar perfiles pertenecientes a varios segmentos:
-      * Cuando la opción no está activada, la variable **[!UICONTROL Segmentation]** activity comprueba que un perfil no está presente en varias transiciones de salida, aunque este perfil cumpla los criterios de varios subconjuntos.
-      * Cuando la opción está activada, los perfiles se pueden encontrar en varios subconjuntos si cumplen sus criterios de filtro.
-   * Si ya se ha asignado a la población entrante un código de segmento que desea conservar, marque la casilla **[!UICONTROL Concatenate the code of each segment]** . El código de segmento especificado en la actividad se agregará al código de segmento inicial.
-   * Si necesita explotar la población restante, marque la **[!UICONTROL Generate complement]** . Consulte [Caso de uso: Creación de envíos con un complemento](../../automating/using/workflow-created-query-with-complement.md).
+   * El **[!UICONTROL Enable overlapping of outbound populations]** define cómo administrar perfiles que pertenecen a varios segmentos:
+      * Cuando la opción no está activada, la variable **[!UICONTROL Segmentation]** la actividad comprueba que un perfil no esté presente en varias transiciones de salida, aunque este perfil cumpla los criterios de varios subconjuntos.
+      * Cuando la opción está activada, los perfiles se pueden encontrar en varios subconjuntos si cumplen con sus criterios de filtro.
+   * Si a la población entrante ya se le ha asignado un código de segmento que desee conservar, consulte la **[!UICONTROL Concatenate the code of each segment]** opción. El código de segmento especificado en la actividad se agregará al código de segmento inicial.
+   * Si necesita utilizar la población restante, consulte la **[!UICONTROL Generate complement]** opción. Consulte [Caso de uso: Creación de entregas con un complemento](../../automating/using/workflow-created-query-with-complement.md).
 
 1. Confirme la configuración de la actividad y guarde el flujo de trabajo.

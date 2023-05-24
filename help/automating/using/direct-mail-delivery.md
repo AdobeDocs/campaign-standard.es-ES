@@ -16,7 +16,7 @@ ht-degree: 99%
 
 ---
 
-# Entrega de correo directo{#direct-mail-delivery}
+# Envío de correo directo{#direct-mail-delivery}
 
 ## Descripción {#description}
 

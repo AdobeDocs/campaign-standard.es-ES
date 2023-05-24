@@ -1,6 +1,6 @@
 ---
 title: Bajas
-description: Con el informe predeterminado de bajas de suscripción, conozca cuántas veces los clientes cancelaron la suscripción a sus envíos.
+description: Con el informe predeterminado Cancelación de suscripciones, obtenga información sobre cuántas veces los clientes cancelaron la suscripción a sus envíos.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -22,4 +22,4 @@ El informe **[!UICONTROL Unsubscriptions]** identifica los envíos con la mayor 
 
 ![](assets/delivery_reports_unsub.png)
 
-La variable **[!UICONTROL TOP 5 deliveries]** tabla y gráfico muestra los cinco envíos principales con el mayor número de mensajes enviados y el número de destinatarios que han cancelado la suscripción. Los datos enumerados aquí se basan en el número de clics en el vínculo de baja del mensaje.
+El **[!UICONTROL TOP 5 deliveries]** la tabla y el gráfico muestran los cinco envíos principales con la mayor cantidad de mensajes enviados y la cantidad de destinatarios que se han dado de baja. Los datos enumerados aquí se basan en el número de clics en el vínculo de baja del mensaje.

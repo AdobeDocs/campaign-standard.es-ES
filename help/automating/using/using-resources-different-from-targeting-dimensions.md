@@ -1,6 +1,6 @@
 ---
 title: Uso de recursos diferentes de dimensiones de direccionamiento
-description: Aprenda a utilizar un recurso que sea diferente a la dimensión de segmentación.
+description: Aprenda a utilizar un recurso que sea diferente de la dimensión de segmentación.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -18,14 +18,14 @@ ht-degree: 76%
 
 # Uso de recursos diferentes de dimensiones de direccionamiento {#using-resources-different-from-targeting-dimensions}
 
-Estos casos de uso presentan cómo utilizar un recurso que es diferente de la dimensión de segmentación, por ejemplo, para buscar un registro específico en una tabla distante.
+En estos casos de uso se presenta cómo utilizar un recurso que es diferente de la dimensión de segmentación, por ejemplo, para buscar un registro específico en una tabla distante.
 
-Para obtener más información sobre dimensiones y recursos de segmentación, consulte [esta sección](../../automating/using/query.md#targeting-dimensions-and-resources)
+Para obtener más información sobre dimensiones de segmentación y recursos, consulte [esta sección](../../automating/using/query.md#targeting-dimensions-and-resources)
 
 **Ejemplo 1: identificación de perfiles segmentados por el envío con la etiqueta &quot;Bienvenido de nuevo&quot;**.
 
 * En este caso, queremos segmentar perfiles. Estableceremos la dimensión de segmentación en **[!UICONTROL Profiles (profile)]**.
-* Queremos filtrar los perfiles seleccionados según la etiqueta de envío. Por lo tanto, estableceremos el recurso en **[!UICONTROL Delivery logs]**. De esta manera, estamos filtrando directamente en la tabla de registro de envíos, lo que ofrece un mejor rendimiento.
+* Queremos filtrar los perfiles seleccionados según la etiqueta de envío. Por lo tanto, estableceremos el recurso en **[!UICONTROL Delivery logs]**. De este modo, estamos filtrando directamente en la tabla de registro de envíos, lo que ofrecerá un mejor rendimiento.
 
 ![](assets/targeting_dimension6.png)
 

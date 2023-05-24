@@ -4,7 +4,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: Descubra cómo Adobe Campaign le permite realizar un seguimiento de los mensajes enviados y descubrir cómo reaccionan sus destinatarios al envío
+description: Descubra cómo Adobe Campaign le permite realizar un seguimiento de los mensajes enviados y descubrir cómo reaccionan sus destinatarios a la entrega
 feature: Deliverability
 role: User
 level: Intermediate
@@ -32,31 +32,31 @@ Para controlar sus campañas, debe asegurarse de que el mensaje se haya enviado 
 
 * Desde el panel de mensajes, puede acceder a varios informes para este mensaje específico.
 
-Para obtener más información, consulte [Seguimiento de una entrega](../../sending/using/monitoring-a-delivery.md).
+Para obtener más información, consulte [Monitorización de una entrega](../../sending/using/monitoring-a-delivery.md).
 
 ## Seguimiento {#tracking-deliveries}
 
-Para conocer mejor el comportamiento de los perfiles de destino, puede realizar un seguimiento de cómo reaccionan a un envío: recepción, apertura, clics en vínculos, bajas de suscripción, etc. Consulte la **Registros de seguimiento** del envío.
+Para conocer mejor el comportamiento de los perfiles de destino, puede rastrear cómo reaccionan a un envío: recepción, apertura, clics en vínculos, suscripciones, etc. Consulte la **Registros de seguimiento** de la entrega.
 
 **Sugerencia**: El seguimiento de mensajes está activado de forma predeterminada. Para configurar direcciones URL, seleccione la opción Mostrar direcciones URL en la sección inferior del asistente de envíos. Por cada dirección URL del mensaje, puede elegir si desea activar el seguimiento.
 
-Para obtener más información, consulte [Seguimiento de mensajes](../../sending/using/tracking-messages.md) y [Indicadores de seguimiento](../../reporting/using/tracking-indicators.md) descripción.
+Para obtener más información, consulte [Seguimiento de mensajes](../../sending/using/tracking-messages.md) y la sección [Indicadores de seguimiento](../../reporting/using/tracking-indicators.md) descripción.
 
 ## Informes dinámicos {#dyn-reports}
 
-Los informes dinámicos le permiten crear informes totalmente personalizables y en tiempo real para supervisar sus campañas. Los Dimension, las métricas y las visualizaciones le permiten medir el impacto y el éxito de sus campañas en los destinatarios.
+Los informes dinámicos le permiten crear informes totalmente personalizables y en tiempo real para monitorizar sus campañas. Los Dimension, las métricas y las visualizaciones le permiten medir el impacto y el éxito de sus campañas en los destinatarios.
 
-**Sugerencia** : Los informes integrados están disponibles para que usted supervise sus campañas, pero estos informes también se pueden personalizar si arrastra y suelta cualquier métrica o dimensión en el informe.
+**Sugerencia** : Hay disponibles informes integrados para que supervise sus campañas, pero estos informes también se pueden personalizar arrastrando y soltando cualquier métrica o dimensión en el informe.
 
 Para obtener más información, consulte [Guía de informes](../../reporting/using/about-dynamic-reports.md).
 
 ## Clics activos
 
-El informe de clics activos presenta el contenido del mensaje (HTML o texto) con el porcentaje de clics en cada vínculo. Al mostrar el porcentaje de clics en cada contenido dinámico, puede medir qué contenido atrae más a los destinatarios.
+El informe Clics activos presenta el contenido del mensaje (HTML o texto) con el porcentaje de clics en cada vínculo. Al mostrar el porcentaje de clics en cada contenido dinámico, puede medir qué contenido atrae más a los destinatarios.
 
-Para obtener más información, consulte [Informe de clics activos](../../reporting/using/hot-clicks.md).
+Para obtener más información, consulte [Informe de clic activo](../../reporting/using/hot-clicks.md).
 
-## Sugerencias de rendimiento de entrega {#performance-tips}
+## Sugerencias de rendimiento de entregas {#performance-tips}
 
 * Evite mantener las entregas en estado de error en la instancia, ya que esto mantiene tablas temporales e influye en el rendimiento.
 

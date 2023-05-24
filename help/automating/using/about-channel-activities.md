@@ -25,8 +25,8 @@ Estas actividades representan los diferentes canales de comunicación disponible
 
 La sección **[!UICONTROL Channels]** ofrece las siguientes actividades:
 
-* [Entrega de correo electrónico](../../automating/using/email-delivery.md)
-* [Entrega de SMS](../../automating/using/sms-delivery.md)
-* [Entrega de notificaciones push](../../automating/using/push-notification-delivery.md)
-* [Entrega de correo directo](../../automating/using/direct-mail-delivery.md)
-* [Entrega en la aplicación](../../automating/using/in-app-delivery.md)
+* [Envío de correo electrónico](../../automating/using/email-delivery.md)
+* [Envío de SMS](../../automating/using/sms-delivery.md)
+* [Envío de notificaciones push](../../automating/using/push-notification-delivery.md)
+* [Envío de correo directo](../../automating/using/direct-mail-delivery.md)
+* [Envío en la aplicación](../../automating/using/in-app-delivery.md)

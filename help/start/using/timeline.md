@@ -32,8 +32,8 @@ La línea vertical azul es un marcador cronológico para resaltar la fecha actua
 
 Utilice los iconos para;
 
-* ![](assets/timeline_zoom_in.png) reducir el perímetro o aumentar el nivel de detalle durante un periodo más limitado, hasta que se muestren los días
-* ![](assets/timeline_zoom_out.png) aumentar el perímetro o mostrar un intervalo de tiempo mayor
+* ![](assets/timeline_zoom_in.png) reduzca el perímetro o aumente el nivel de detalle durante un periodo más limitado, hasta que se muestren los días
+* ![](assets/timeline_zoom_out.png) aumente el perímetro o muestre un periodo de tiempo mayor
 
 Haga clic en la flecha a la derecha del nombre de cada programa para mostrar el contenido correspondiente. Un programa puede contener programas secundarios, campañas y páginas de aterrizaje. Una campaña se implementa del mismo modo que un programa y puede contener correos electrónicos, SMS y páginas de aterrizaje.
 

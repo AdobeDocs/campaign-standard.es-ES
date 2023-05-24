@@ -17,7 +17,7 @@ ht-degree: 8%
 
 # Control de cambios en el modelo de datos{#monitoring-data-model-changes}
 
-En el **[!UICONTROL Diagnosis]** , puede ver los objetos técnicos generados por la aplicación para analizarlos.
+Desde el **[!UICONTROL Diagnosis]** , puede ver los objetos técnicos generados por la aplicación para analizarlos.
 
 >[!NOTE]
 >
@@ -36,16 +36,16 @@ Puede ver los siguientes tipos de objetos:
 
 Puede cambiar la configuración de la lista:
 
-* Puede agregar y quitar columnas.
-* Puede definir nombres de columna.
-* Puede definir el orden de visualización de las columnas de la lista.
-* Puede elegir el orden de los valores de la lista.
+* Puede añadir y quitar columnas.
+* Puede definir los nombres de las columnas.
+* Puede definir el orden de visualización de las columnas en la lista.
+* Puede elegir el orden de los valores en la lista.
 
 Puede filtrar la lista:
 
 * Puede incluir o excluir esquemas de datos nativos, páginas web, filtros y objetos de navegación.
 * Puede buscar objetos por su nombre.
-* Puede filtrar los trabajos por lotes según su estado, la fecha de inicio y la fecha de finalización.
+* Puede filtrar los trabajos por lotes según su estado, fecha de inicio y fecha de finalización.
 
 Puede descargar la lista mostrada en un archivo en formato TXT con valores separados por comas.
 

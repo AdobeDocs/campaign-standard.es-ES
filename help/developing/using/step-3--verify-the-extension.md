@@ -1,6 +1,6 @@
 ---
 title: "Paso 3: Verificar la extensión"
-description: Obtenga información sobre cómo acceder al campo ampliado con la API de Rest.
+description: Obtenga información sobre cómo acceder al campo ampliado con la API de REST.
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
@@ -17,7 +17,7 @@ ht-degree: 13%
 
 # Paso 3: Verificar la extensión{#step-verify-the-extension}
 
-1. Realice una operación de GET en los metadatos de la API de extensión de perfiles y servicios para comprobar si el campo añadido en el recurso personalizado Perfiles ya está disponible.
+1. Realice una operación de GET en los metadatos de la API de extensión de perfiles y servicios para comprobar si el campo agregado en el recurso personalizado de perfiles ya está disponible.
 
    ```
    GET profileAndServicesExt/resourceType/profile
@@ -27,4 +27,4 @@ ht-degree: 13%
 
    ![](assets/extendpandsapiview.png)
 
-   El campo ya está disponible para más desarrollos e integraciones.
+   El campo ya está disponible para nuevos desarrollos e integraciones.

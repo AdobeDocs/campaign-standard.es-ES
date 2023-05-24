@@ -17,11 +17,11 @@ ht-degree: 0%
 
 # Creación de perfiles con API {#creating-profiles-api}
 
-La creación de perfiles se realiza con un **POST** en el recurso de perfil.
+La creación de perfiles se realiza con un **POST** solicitud en el recurso de perfil.
 
 >[!CAUTION]
 >
->Si desea asociar un <b>orgUnit</b> al perfil creado, debe ampliar el recurso de perfil con este campo y, después de la publicación de la extensión, realizar una solicitud de POST en la variable <b>ProfileAndServicesExt</b> punto final.
+>Si desea asociar una <b>orgUnit</b> al perfil creado, debe ampliar el recurso de perfil con este campo y, después de la publicación de la extensión, realizar una solicitud de POST en la <b>ProfileAndServicesExt</b> punto final.
 >
 >Para obtener más información sobre la extensión de recursos del perfil, consulte la <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Documentación de Campaign</a>.
 
@@ -29,7 +29,7 @@ La creación de perfiles se realiza con un **POST** en el recurso de perfil.
 
 ***Solicitud de ejemplo***
 
-Ejemplo de solicitud de POST para crear un perfil con el correo electrónico &quot;john.doe@mail.com&quot;.
+Solicitud del POST de muestra para crear un perfil con el correo electrónico &quot;john.doe@mail.com&quot;.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \

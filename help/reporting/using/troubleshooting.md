@@ -1,6 +1,6 @@
 ---
-title: Resolución de problemas de la creación de informes dinámicos
-description: Encuentre aquí preguntas comunes relacionadas con los informes dinámicos.
+title: Solución de problemas de informes dinámicos
+description: Aquí encontrará preguntas comunes relacionadas con la creación de informes dinámicos.
 audience: reporting
 content-type: reference
 topic-tags: troubleshooting
@@ -11,15 +11,15 @@ exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
 # Resolución de problemas{#troubleshooting}
 
-En esta sección se pueden encontrar preguntas comunes relacionadas con los informes dinámicos.
+En esta sección encontrará preguntas comunes relacionadas con la creación de informes dinámicos.
 
-## En el caso de aperturas únicas y clics únicos, el recuento de la fila agregada no coincide con los de filas individuales {#unique-open-clicks-no-match}
+## Para las aperturas únicas y los clics únicos, el recuento de la fila agregada no coincide con los de las filas individuales {#unique-open-clicks-no-match}
 
 Este es un comportamiento esperado.
 Podemos tomar el siguiente ejemplo para explicar este comportamiento.
@@ -53,11 +53,11 @@ Esta es una representación visual de la interacción de los perfiles con el cor
  </tbody> 
 </table>
 
-Para comprender el número total de aperturas únicas, necesitamos sumar los recuentos de filas de **[!UICONTROL Unique Opens]** que nos da el valor 3. Pero como el correo electrónico estaba dirigido a solo 2 perfiles, la tasa de apertura debería mostrar el 150%.
+Para comprender el número total de aperturas únicas, es necesario resumir los recuentos de filas de **[!UICONTROL Unique Opens]** que nos da el valor 3. Pero como el correo electrónico estaba dirigido solo a 2 perfiles, la tasa de apertura debería mostrar el 150 %.
 
-Para no obtener un porcentaje superior a 100, la definición de **[!UICONTROL Unique Opens]** se mantiene como el número de broadlogs únicos que se abrieron. En este caso, incluso si P1 abrió el correo electrónico el día 1 y el día 2, sus aperturas únicas seguirán siendo 1.
+Para no obtener un porcentaje superior a 100, la definición de **[!UICONTROL Unique Opens]** se mantiene para que sea el número de broadlogs únicos que se abrieron. En este caso, incluso si P1 abrió el correo electrónico el día 1 y el día 2, sus aperturas únicas seguirán siendo 1.
 
-Esto resultará en la siguiente tabla:
+Esto dará como resultado la siguiente tabla:
 
 <table> 
  <thead> 
@@ -88,30 +88,30 @@ Esto resultará en la siguiente tabla:
 
 >[!NOTE]
 >
->Los recuentos únicos se basan en un boceto basado en HLL, lo que puede causar pequeñas imprecisiones en recuentos grandes.
+>Los recuentos únicos se basan en un boceto basado en HTML, lo que puede causar pequeñas imprecisiones en recuentos grandes.
 
-## Los recuentos abiertos no coinciden con el recuento de bases de datos {#open-counts-no-match-database}
+## Los recuentos abiertos no coinciden con el recuento de la base de datos {#open-counts-no-match-database}
 
-Esto puede deberse a que, en los informes dinámicos, se usan heurística para realizar el seguimiento de las aperturas, incluso cuando no se puede realizar el seguimiento de la variable **[!UICONTROL Open]** acción.
+Esto puede deberse al hecho de que la heurística se utiliza en el sistema de informes dinámico para rastrear aperturas incluso cuando no podemos rastrear el **[!UICONTROL Open]** acción.
 
-Por ejemplo, si un usuario ha deshabilitado las imágenes en su cliente y hace clic en un vínculo del correo electrónico, se muestra la variable **[!UICONTROL Open]** puede que la base de datos no la rastree, pero la variable **[!UICONTROL Click]** será.
+Por ejemplo, si un usuario ha desactivado las imágenes en su cliente y hace clic en un enlace del correo electrónico, la variable **[!UICONTROL Open]** puede no ser rastreado por la base de datos, pero la variable **[!UICONTROL Click]** lo haré.
 
-Por lo tanto, la variable **[!UICONTROL Open]** es posible que los recuentos de registros de seguimiento no tengan el mismo recuento en la base de datos.
+Por lo tanto, el **[!UICONTROL Open]** es posible que los recuentos de registros de seguimiento no tengan el mismo recuento en la base de datos.
 
-Estas ocurrencias se añaden como **&quot;un clic en un correo electrónico implica una apertura de correo electrónico&quot;**.
+Estos sucesos se añaden como **&quot;un clic en el correo electrónico implica que se ha abierto un correo electrónico&quot;**.
 
 >[!NOTE]
 >
->Dado que los recuentos únicos se basan en un boceto basado en HLL, se pueden experimentar incoherencias menores entre los recuentos.
+>Dado que los recuentos únicos se basan en un boceto basado en HTML, pueden producirse incoherencias menores entre los recuentos.
 
-## ¿Cómo se calculan los recuentos de las entregas recurrentes/transaccionales? {#counts-recurring-deliveries}
+## ¿Cómo se calculan los recuentos de envíos recurrentes/transaccionales? {#counts-recurring-deliveries}
 
 Al trabajar con envíos recurrentes y transaccionales, los recuentos se atribuyen tanto a los envíos principales como a los secundarios.
-Podemos tomar el ejemplo de un envío recurrente llamado **R1** configurado para ejecutarse todos los días en el día 1 (RC1), día 2 (RC2) y día 3 (RC3).
-Supongamos que solo una persona abrió todas las entregas secundarias varias veces. En este caso, los envíos secundarios recurrentes individuales mostrarán la variable **[!UICONTROL Open]** cuenta como 1 para cada uno.
-Sin embargo, como la misma persona hizo clic en todos los envíos, la entrega recurrente principal también tendrá **[!UICONTROL Unique open]** como 1.
+Podemos tomar el ejemplo de un envío recurrente llamado **R1** configurado para ejecutarse todos los días en el día 1 (RC1), el día 2 (RC2) y el día 3 (RC3).
+Supongamos que solo una persona ha abierto todas las entregas secundarias varias veces. En este caso, las entregas secundarias recurrentes individuales mostrarán el **[!UICONTROL Open]** cuente como 1 para cada uno.
+Sin embargo, como la misma persona hizo clic en todas las entregas, la entrega recurrente principal también tiene **[!UICONTROL Unique open]** como 1.
 
-Los informes deben tener el siguiente aspecto:
+Los informes deben tener el aspecto siguiente:
 
 <table> 
  <thead> 
@@ -157,15 +157,15 @@ Los informes deben tener el siguiente aspecto:
 
 ## ¿Cuál es la significación de los colores en la tabla de mis informes? {#reports-color-signification}
 
-Los colores mostrados en los informes se asignan de forma aleatoria y no se pueden personalizar. Representan una barra de progreso y se muestran para ayudarle a resaltar mejor el valor máximo alcanzado en sus informes.
+Los colores que se muestran en los informes son aleatorios y no se pueden personalizar. Representan una barra de progreso y se muestran para ayudarle a resaltar mejor el valor máximo alcanzado en los informes.
 
-En el ejemplo siguiente, la celda tiene el mismo color, ya que su valor es del 100%.
+En el ejemplo siguiente, la celda es del mismo color, ya que su valor es 100%.
 
 ![](assets/troubleshooting_1.png)
 
-Si cambia la variable **[!UICONTROL Conditional formatting]** a personalizado, cuando el valor alcance el límite superior, la celda se volverá más verde. En cambio, si alcanza el límite inferior, se procesará.
+Si cambia el **[!UICONTROL Conditional formatting]** de forma personalizada, cuando el valor alcance el límite superior, la celda se volverá más verde. Mientras que, si alcanza el límite inferior, se pondrá más rojo.
 
-Por ejemplo, aquí establecemos la variable **[!UICONTROL Upper limit]** a 500 y **[!UICONTROL Lower limit]** a 0.
+Por ejemplo, aquí se establece la variable **[!UICONTROL Upper limit]** a 500 y **[!UICONTROL Lower limit]** a 0.
 
 ![](assets/troubleshooting_2.png)
 
@@ -173,20 +173,20 @@ Por ejemplo, aquí establecemos la variable **[!UICONTROL Upper limit]** a 500 y
 
 ![](assets/troubleshooting_3.png)
 
-El valor **N/D** a veces aparecen en los informes dinámicos. Esto se puede mostrar por tres motivos:
+El valor **N/D** a veces puede aparecer en los informes dinámicos. Esto se puede mostrar por tres motivos:
 
 * La entrega se ha eliminado y se muestra aquí como **N/D** para no causar discrepancias en los resultados.
-* Al arrastrar y soltar el **[!UICONTROL Transactional Delivery]** dimensión de los informes, el valor **N/D** puede aparecer como resultado. Esto sucede porque los informes dinámicos recuperan cada envío aunque no sean transaccionales. Esto también puede ocurrir al arrastrar y soltar el **[!UICONTROL Delivery]** al informe, pero en este caso, la dimensión **N/D** representa los envíos transaccionales.
-* Cuando se utiliza una dimensión con una métrica que no está relacionada con la dimensión. En el ejemplo siguiente, se agrega un desglose con la variable **[!UICONTROL Tracking URL]** aunque la dimensión **[!UICONTROL Click]** count se establece en 0 en esta entrega.
+* Al arrastrar y soltar **[!UICONTROL Transactional Delivery]** dimensión a sus informes, el valor **N/D** podría aparecer como resultado. Esto sucede porque el informe dinámico recupera todos los envíos aunque no sean transaccionales. Esto también puede ocurrir cuando arrastra y suelta el **[!UICONTROL Delivery]** dimensión al informe, pero en este caso, la variable **N/D** representará los envíos transaccionales.
+* Cuando se utiliza una dimensión con una métrica que no está relacionada con la dimensión. En el ejemplo siguiente, se añade un desglose con la variable **[!UICONTROL Tracking URL]** dimensión aunque la variable **[!UICONTROL Click]** el recuento se establece en 0 en esta entrega.
 
    ![](assets/troubleshooting_4.png)
 
-## Los informes de envíos muestran datos incompletos al utilizar la asignación de destino personalizada
+## Los informes de las entregas muestran datos incompletos al utilizar la asignación de destino personalizada
 
-Si está utilizando asignaciones de Target personalizadas importadas en envíos y no se muestran datos en los distintos informes, esto podría significar que los enriquecimientos de Reporting no se crearon para esas asignaciones de Target.
+Si utiliza asignaciones de Target personalizadas importadas en las entregas y no se muestran datos en los diferentes informes, esto podría significar que no se crearon los enriquecimientos de informes para esas asignaciones de Target.
 
 Para resolver esto:
 
-* Después de importar la asignación de Target desde un XML, también deberá importar el enriquecimiento de Reporting.
+* Después de importar la asignación de Target desde un XML, también debe importar el enriquecimiento de Creación de informes.
 
-* En lugar de importar la asignación de Target, puede crearla directamente en Adobe Campaign Standard, que creará automáticamente el enriquecimiento de Reporting.
+* En lugar de importar la asignación de Target, puede crearla directamente en Adobe Campaign Standard, que creará automáticamente el enriquecimiento de creación de informes.

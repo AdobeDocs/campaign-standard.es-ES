@@ -71,7 +71,7 @@ Para crear el nuevo campo **Interés** para nuestros perfiles, primero debe ampl
 
 1. Haga clic en **[!UICONTROL Add an element]** y, a continuación, añada todos los valores que sean necesarios añadiendo una **[!UICONTROL Label]** y **[!UICONTROL ID]**, y haciendo clic en **[!UICONTROL Add]**.
 
-   En este ejemplo, cree los valores de Libros, Exposiciones, Películas y N/D para que los perfiles elijan entre estas opciones.
+   En este ejemplo, cree los valores Libros, Exposiciones, Películas y N/D para que los perfiles elijan entre estas opciones.
 
    ![](assets/schema_extension_uc11.png)
 

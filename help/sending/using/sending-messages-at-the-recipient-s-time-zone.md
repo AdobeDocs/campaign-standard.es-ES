@@ -17,7 +17,7 @@ ht-degree: 88%
 
 # Envío de mensajes en el huso horario del destinatario{#sending-messages-at-the-recipient-s-time-zone}
 
-Al administrar una campaña en la que la fecha y la hora son importantes, puede programar una entrega que tenga en cuenta la hora local de cada destinatario: recibirán notificaciones por correo electrónico, SMS o push en el momento que usted programe, en su propio huso horario.
+Al administrar una campaña en la que la fecha y la hora son importantes, puede programar una entrega que tenga en cuenta la hora local de cada destinatario: recibirán notificaciones push, por correo electrónico o SMS en el momento que usted programe, en su propio huso horario.
 
 >[!NOTE]
 >

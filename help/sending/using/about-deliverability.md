@@ -1,6 +1,6 @@
 ---
-title: Acerca de la capacidad de envío en Adobe Campaign Standard
-description: Obtenga información sobre los conceptos y las prácticas recomendadas relacionadas con la capacidad de envío, así como las herramientas que ofrece Adobe Campaign Standard para optimizar la entrega de contenido.
+title: Acerca de la capacidad de entrega en Adobe Campaign Standard
+description: Conozca los conceptos y las prácticas recomendadas relacionadas con la capacidad de entrega, así como las herramientas que ofrece Adobe Campaign Standard para optimizar la entrega de contenido.
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
@@ -18,7 +18,7 @@ ht-degree: 77%
 
 # ¿Qué es la capacidad de entrega?{#about-deliverability}
 
-La capacidad de entrega permite medir el éxito de las campañas que llegan a la bandeja de entrada de los destinatarios sin rebotar o marcadas como correo no deseado. [Descubra por qué la capacidad de entrega es importante](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html?lang=es#why-deliverability-matters).
+La capacidad de entrega permite medir el éxito de las campañas que llegan a la bandeja de entrada de los destinatarios sin rechazarse ni marcarse como correo no deseado. [Descubra por qué la capacidad de entrega es importante](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html?lang=es#why-deliverability-matters).
 
 Más concretamente, la capacidad de entrega de correo electrónico hace referencia al conjunto de características que determinan la capacidad de un mensaje para llegar a su destino a través de una dirección de correo electrónico personal, en poco tiempo y con la calidad esperada en términos de contenido y formato. <!--These characteristics fall into four main categories: data quality, message and content, sending infrastructure, and reputation. Together, they form the foundation of a successful email deliverability program.-->
 
@@ -30,7 +30,7 @@ Los problemas de entrega suelen estar vinculados a medidas de protección contra
 
 * Para obtener recomendaciones generales sobre cómo diseñar campañas de marketing por correo electrónico exitosas, consulte [Estrategia y definición de capacidad de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html?lang=es).
 
-* Para obtener recomendaciones más específicas sobre cómo optimizar la entrega de los correos electrónicos de Adobe Campaign, recomendamos utilizar las prácticas recomendadas que se enumeran en esta sección.
+* Para obtener recomendaciones más específicas sobre cómo optimizar la entrega de los correos electrónicos de Adobe Campaign, recomendamos que utilice las prácticas recomendadas que se enumeran en esta sección.
 
 >[!NOTE]
 >
@@ -66,7 +66,7 @@ Al configurar, diseñar y probar el mensaje, asegúrese de seguir las prácticas
 
 ### Verificación del consentimiento mediante la doble inclusión {#double-opt-in}
 
-Para evitar el envío de mensajes a direcciones no válidas, limitar las comunicaciones incorrectas y mejorar la reputación del remitente, Adobe recomienda implementar un mecanismo de inclusión doble. Esto le permite garantizar que sus destinatarios se hayan suscrito intencionadamente.
+Para evitar el envío de mensajes a direcciones no válidas, limitar las comunicaciones incorrectas y mejorar la reputación del remitente, Adobe recomienda implementar un mecanismo de inclusión doble. Esto le permite asegurarse de que sus destinatarios se hayan suscrito intencionadamente.
 
 Para obtener más información, consulte [Acerca de la inclusión y la exclusión en Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
@@ -90,7 +90,7 @@ Para obtener más información, consulte las siguientes secciones:
 
 Utilice las funciones que ofrece Adobe Campaign para monitorizar su capacidad de entrega.
 
-Adobe Campaign le permite comprobar el rendimiento de sus envíos a través de un conjunto de indicadores integrados en tiempo real. <!--For example, you can check the number of messages that are successfully executed, sent and delivered. You can also verify the number of messages that have been opened and the number of messages/links that have been clicked.-->También puede crear informes totalmente personalizables y en tiempo real para obtener una mejor perspectiva de los envíos.
+Adobe Campaign le permite comprobar el rendimiento de sus envíos a través de un conjunto de indicadores integrados en tiempo real. <!--For example, you can check the number of messages that are successfully executed, sent and delivered. You can also verify the number of messages that have been opened and the number of messages/links that have been clicked.-->También puede crear informes totalmente personalizables y en tiempo real para obtener un mejor conocimiento de sus envíos.
 
 Para obtener más información, consulte las siguientes secciones:
 

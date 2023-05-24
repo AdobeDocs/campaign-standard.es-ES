@@ -47,15 +47,15 @@ Puede duplicar flujos de trabajo. En **[!UICONTROL Marketing Activities]**, pase
 
 ### Número de flujos de trabajo
 
-De forma predeterminada, se recomienda **no ejecutar más de 20 ejecuciones de flujos de trabajo activos simultáneamente** (esto no se aplica a los flujos de trabajo que esperan una ejecución programada). Después de alcanzar ese límite, los flujos de trabajo se colocarán en la cola para no afectar al rendimiento.
+De forma predeterminada, recomendamos **no ejecutar más de 20 ejecuciones de flujos de trabajo activos simultáneamente** (esto no se aplica a los flujos de trabajo que esperan una ejecución programada). Después de alcanzar ese límite, los flujos de trabajo se colocarán en la cola para no afectar al rendimiento.
 
 En contextos específicos, es posible que necesite ejecutar más de 20 flujos de trabajo. Si es así, debe consultar los casos de uso con un experto de Campaign y ponerse en contacto con el Servicio de atención al cliente de Adobe para aumentar el límite.
 
 >[!IMPORTANT]
 >
->Aunque no alcance el umbral de 20 flujos de trabajo, Adobe recomienda que **difunda la ejecución del flujo de trabajo a lo largo del tiempo**. Escalonar la ejecución de los flujos de trabajo garantizará un mejor rendimiento de la instancia.
+>Incluso si no alcanza el umbral de 20 flujos de trabajo, Adobe recomienda **extienda la ejecución del flujo de trabajo con el tiempo**. Escalonar la ejecución de los flujos de trabajo garantizará un mejor rendimiento de la instancia.
 
-Antes de iniciar un flujo de trabajo, [!DNL Campaign Standard] comprobará si hay suficiente memoria física del sistema para ejecutar el flujo de trabajo. Si no hay suficiente memoria disponible, un mensaje le informará de que la ejecución del flujo de trabajo se retrasará hasta que se reduzca la carga en el servidor y aumente la memoria del sistema.
+Antes de iniciar un flujo de trabajo, [!DNL Campaign Standard] comprobará si hay suficiente memoria física del sistema para ejecutar el flujo de trabajo. Si no hay suficiente memoria disponible, un mensaje le informará de que la ejecución del flujo de trabajo se retrasará hasta que la carga en el servidor se reduzca y la memoria del sistema aumente.
 
 ### Frecuencia
 
@@ -80,11 +80,11 @@ Las propiedades del flujo de trabajo le permiten definir un huso horario especí
 
 ### Número de actividades por flujo de trabajo {#number-activities}
 
-Se recomienda utilizar hasta 100 actividades en un único flujo de trabajo. Con más de 100 actividades, puede encontrar algunos problemas de rendimiento al diseñar y configurar el flujo de trabajo.
+Se recomienda utilizar hasta 100 actividades en un solo flujo de trabajo. Más de 100 actividades. Puede encontrar algunos problemas de rendimiento al diseñar y configurar el flujo de trabajo.
 
 ### Diseño del flujo de trabajo
 
-Para asegurarse de que el flujo de trabajo termina correctamente, evite dejar la última transición de un flujo de trabajo sola utilizando un **[!UICONTROL End activity]**.
+Para asegurarse de que el flujo de trabajo termina correctamente, evite dejar la última transición de un flujo de trabajo sola mediante un **[!UICONTROL End activity]**.
 
 Para acceder a la vista de detalles de las transiciones, marque la opción **[!UICONTROL Keep interim results]** en la sección Ejecución de las propiedades del flujo de trabajo.
 
@@ -117,7 +117,7 @@ Al diseñar un flujo de trabajo programado que incluya varias actividades, debe 
 
 ## Invocación del flujo de trabajo con parámetros{#workflow-with-parameters}
 
-Asegúrese de que el nombre y el número de parámetros son idénticos a los definidos al llamar al flujo de trabajo (consulte [esta página](../../automating/using/defining-parameters-calling-workflow.md). Los tipos de parámetros también deben ser consistentes con los valores esperados.
+Asegúrese de que el nombre y el número de parámetros son idénticos a los definidos al invocar al flujo de trabajo (consulte [esta página](../../automating/using/defining-parameters-calling-workflow.md). Los tipos de parámetros también deben ser consistentes con los valores esperados.
 
 Asegúrese de que todos los parámetros se han declarado en la **[!UICONTROL External signal activity]**. De lo contrario, se producirá un error al ejecutar la actividad.
 

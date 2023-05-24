@@ -1,6 +1,6 @@
 ---
-title: Preguntas más frecuentes del Diseñador de correo electrónico
-description: Preguntas más frecuentes sobre el Diseñador de correo electrónico.
+title: Preguntas más frecuentes sobre el Diseñador de correo electrónico
+description: Preguntas frecuentes sobre el Diseñador de correo electrónico.
 audience: designing
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
@@ -15,17 +15,17 @@ ht-degree: 7%
 
 ---
 
-# Preguntas más frecuentes del Diseñador de correo electrónico
+# Preguntas más frecuentes sobre el Diseñador de correo electrónico
 
-## ¿Cuál es la diferencia entre bloques de contenido y fragmentos de contenido?
+## ¿Cuál es la diferencia entre los bloques de contenido y los fragmentos de contenido?
 
-Los bloques de contenido y los fragmentos de contenido son fragmentos de contenido reutilizable que son comunes en varios correos electrónicos. Se utilizan para garantizar la coherencia entre los correos electrónicos y también para optimizar/estandarizar la creación de correos electrónicos. Las diferencias entre bloques de contenido y fragmentos de contenido son el nivel de personalización posible.
+Los bloques de contenido y los fragmentos de contenido son fragmentos de contenido reutilizable que son comunes en varios correos electrónicos. Se utilizan para garantizar la coherencia en todos los correos electrónicos y también para optimizar/estandarizar la creación de correos electrónicos. Las diferencias entre los bloques de contenido y los fragmentos de contenido son el nivel de personalización posible.
 
-* Los bloques de contenido son HTML puros en los que el código de HTML se inserta manualmente (no es una interfaz de usuario fácil de usar, es un código fuente directo). Aunque está realmente orientado a personas con conocimiento HTML, permite un nivel de personalización que no está disponible en los fragmentos de contenido.
+* Los bloques de contenido son HTML puros donde el código de HTML se inserta manualmente (no es una interfaz de usuario fácil de usar, es código fuente directo). Aunque está muy orientado a personas con conocimientos HTML, permite un nivel de personalización que no está disponible en los fragmentos de contenido.
 
-* Los fragmentos de contenido son fragmentos visuales de contenido creados mediante el Diseñador de correo electrónico, utilizando su IU de fácil uso. Sin embargo, no es posible personalizar el contenido. Si la personalización es necesaria, solo se puede realizar mediante bloques de contenido.
+* Los fragmentos de contenido son fragmentos visuales de contenido creados mediante el Diseñador de correo electrónico, con su interfaz de usuario fácil de usar. Sin embargo, no es posible personalizar el contenido. Si la personalización es necesaria, solo se puede realizar mediante bloques de contenido.
 
-## ¿Cómo puedo añadir relleno a un elemento desde la estructura del HTML?
+## ¿Cómo se puede añadir relleno a un elemento desde la estructura del HTML?
 
 Puede agregar relleno utilizando la ruta de exploración del HTML.
 
@@ -33,13 +33,13 @@ Puede agregar relleno utilizando la ruta de exploración del HTML.
 
    ![](assets/do-not-localize/breadcrumb.png)
 
-1. Haga clic en el elemento al que desee agregar un relleno.
+1. Haga clic en el elemento al que desee añadir un relleno.
 1. Haga clic en la etiqueta principal en la ruta de exploración del HTML.
 Ahora puede agregar un relleno a este elemento.
 
-## ¿Se puede importar contenido de HTML en el Diseñador de correo electrónico?
+## ¿Puedo importar contenido de HTML en el Diseñador de correo electrónico?
 
-Puede cargar su propio contenido de HTML en el Diseñador de correo electrónico. Si no se ha creado mediante el Diseñador de correo electrónico, se cargará en modo de compatibilidad diseñado para mantener el HTML original, pero limita ciertas funciones de edición a través de la interfaz de usuario.
+Puede cargar su propio contenido de HTML en el Diseñador de correo electrónico. Si no se ha creado mediante el Diseñador de correo electrónico, se cargará en modo de compatibilidad, diseñado para mantener el HTML original, pero limita ciertas funciones de edición a través de la interfaz de usuario.
 
 Para obtener más información, consulte [Modo de compatibilidad](../../designing/using/using-existing-content.md#compatibility-mode)
 
@@ -52,11 +52,11 @@ Para obtener más información, consulte [Creación de un correo electrónico de
 
 ## ¿Por qué necesito actualizar los fragmentos?
 
-El Diseñador de correo electrónico está en constante mejora. Si creó contenido de correo electrónico desde cero, a partir de una plantilla predeterminada o si creó fragmentos, es posible que tenga que actualizar el contenido a la última versión para evitar problemas como problemas de colisión con CSS.
+El Diseñador de correo electrónico está en constante mejora. Si ha creado contenido de correo electrónico desde cero a partir de una plantilla predeterminada o si ha creado fragmentos, es posible que tenga que actualizar el contenido a la versión más reciente para evitar problemas como problemas de colisión con CSS.
 
 Para obtener más información, consulte [Actualización de fragmentos](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)
 
-## ¿Puedo guardar un estilo en un tema?
+## ¿Puedo guardar estilos en una temática?
 
 Los estilos no se pueden guardar como un tema para su reutilización futura. Sin embargo, el estilo CSS se puede guardar en una plantilla de contenido o en un correo electrónico.
 

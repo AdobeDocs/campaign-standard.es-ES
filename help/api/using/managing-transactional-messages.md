@@ -17,30 +17,30 @@ ht-degree: 3%
 
 # Administración de mensajes transaccionales {#managing-transactional-messages}
 
-Una vez creado y publicado un evento transaccional, debe integrar el activador de este evento en el sitio web.
+Una vez creado y publicado un evento transaccional, debe integrar la activación de este evento en el sitio web.
 
 >[!NOTE]
 >
 >La configuración de eventos se detalla en [esta sección](../../channels/using/configuring-transactional-event.md).
 
-Por ejemplo, desea que se active un evento de &quot;Abandono del carro de compras&quot; cada vez que uno de los clientes abandone el sitio web antes de comprar los productos del carro de compras. Para ello, como desarrollador web, debe utilizar la API de mensajes transaccionales de REST.
+Por ejemplo, desea que se active un evento &quot;Abandono del carro de compras&quot; cada vez que uno de los clientes abandone el sitio web antes de comprar los productos que tiene en el carro de compras. Para ello, como desarrollador web, debe utilizar la API de mensajes transaccionales de REST.
 
-1. Envíe una solicitud según el método del POST, que déclencheur la variable [envío del evento transaccional](#sending-a-transactional-event).
-1. La respuesta a la solicitud del POST contiene una clave principal, que permite enviar una o varias solicitudes a través de una solicitud de GET. A continuación, puede obtener la variable [estado del evento](#transactional-event-status).
+1. Envíe una solicitud según el método POST, que almacena en déclencheur la variable [envío del evento transaccional](#sending-a-transactional-event).
+1. La respuesta a la solicitud del POST contiene una clave principal, que le permite enviar una o varias solicitudes a través de una solicitud de GET. A continuación, puede obtener la [estado del evento](#transactional-event-status).
 
 ## Envío de un evento transaccional {#sending-a-transactional-event}
 
-El evento transaccional se envía mediante una solicitud de POST con la siguiente estructura de URL:
+El evento transaccional se envía a través de una solicitud de POST con la siguiente estructura de URL:
 
 ```
 POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 ```
 
-* **&lt;organization>**: su ID de organización personal. Consulte [esta sección](../../api/using/must-read.md).
+* **&lt;organization>**: su ID de ORGANIZACIÓN personal. Consulte [esta sección](../../api/using/must-read.md).
 
-* **&lt;transactionalapi>**: los extremos de la API de mensajes transaccionales.
+* **&lt;transactionalapi>**: los puntos finales de la API de mensajes transaccionales.
 
-   El nombre del extremo de la API de mensajes transaccionales depende de la configuración de la instancia. Corresponde al valor &quot;mc&quot; seguido de su ID de organización personal. Veamos el ejemplo de la empresa de Geometrixx, con &quot;geometrixx&quot; como ID de organización. En ese caso, la solicitud del POST sería la siguiente:
+   El nombre del punto de conexión de la API de mensajes transaccionales depende de la configuración de la instancia. Corresponde al valor &quot;mc&quot; seguido de su ID personal de organización. Veamos el ejemplo de la empresa de Geometrixx, con &quot;geometrixx&quot; como ID de organización. En ese caso, la solicitud del POST sería la siguiente:
 
    `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
 
@@ -48,11 +48,11 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 * **&lt;eventid>**: el tipo de evento que desea enviar. Este ID se genera al crear la configuración de evento (consulte [esta sección](../../channels/using/configuring-transactional-event.md#creating-an-event)).
 
-### encabezado de solicitud del POST
+### encabezado de solicitud de POST
 
-La solicitud debe contener un &quot;Content-Type: application/json&quot; .
+La solicitud debe contener un encabezado &quot;Content-Type: application/json&quot;.
 
-Debe agregar un conjunto de caracteres, por ejemplo **utf-8**. Tenga en cuenta que este valor depende de la aplicación REST que utilice.
+Debe añadir un conjunto de caracteres, por ejemplo **utf-8**. Tenga en cuenta que este valor depende de la aplicación REST que utilice.
 
 ```
 -X POST \
@@ -65,16 +65,16 @@ Debe agregar un conjunto de caracteres, por ejemplo **utf-8**. Tenga en cuenta q
 
 ### cuerpo de solicitud del POST
 
-Los datos del evento están contenidos dentro del cuerpo del POST JSON. La estructura del evento depende de su definición. El botón Vista previa de API de la pantalla de definición del recurso proporciona una muestra de solicitud. Consulte [esta sección](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
+Los datos de evento están contenidos dentro del cuerpo del POST JSON. La estructura del evento depende de su definición. El botón Vista previa de API en la pantalla de definición del recurso proporciona un ejemplo de solicitud. Consulte [esta sección](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
 
 Se pueden añadir los siguientes parámetros opcionales al contenido del evento para administrar el envío de mensajes transaccionales vinculados al evento:
 
-* **caducidad** (opcional): después de esta fecha, se cancela el envío del evento transaccional.
-* **programado** (opcional): a partir de esta fecha, el evento transaccional se procesa y se envía el mensaje transaccional.
+* **vencimiento** (opcional): después de esta fecha, se cancela el envío del evento transaccional.
+* **programado** (opcional): a partir de esta fecha, se procesa el evento transaccional y se envía el mensaje transaccional.
 
 >[!NOTE]
 >
->Los valores de los parámetros &quot;expiration&quot; y &quot;scheduled&quot; siguen el formato ISO 8601. ISO 8601 especifica el uso de la letra en mayúsculas &quot;T&quot; para separar la fecha y la hora. Sin embargo, se puede eliminar de la entrada o salida para mejorar la legibilidad.
+>Los valores de los parámetros &quot;caducidad&quot; y &quot;programada&quot; siguen el formato ISO 8601. ISO 8601 especifica el uso de la letra mayúscula &quot;T&quot; para separar la fecha y la hora. Sin embargo, se puede eliminar de la entrada o salida para mejorar la legibilidad.
 
 ### Respuesta a la solicitud del POST
 
@@ -86,7 +86,7 @@ La respuesta del POST devuelve el estado del evento transaccional en el momento 
 
 ***Solicitud de ejemplo***
 
-solicitud del POST para enviar el evento.
+Solicitud del POST para enviar el evento.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/mcAdobe/EVTcartAbandonment \
@@ -132,14 +132,14 @@ Respuesta a la solicitud del POST.
 
 ### Estado del evento transaccional {#transactional-event-status}
 
-En la respuesta, el campo &quot;status&quot; permite saber si el evento se ha procesado o no:
+En la respuesta, el campo &quot;estado&quot; permite saber si el evento se ha procesado o no:
 
-* **pending**: el evento está pendiente : el evento toma este estado cuando acaba de activarse.
-* **procesamiento**: el evento está pendiente de envío: se está transformando en un mensaje y este se está enviando.
-* **en pausa**: el proceso de eventos se está pausando. Ya no se procesa, pero se mantiene en cola en la base de datos de Adobe Campaign. Para obtener más información, consulte [esta sección](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication).
-* **procesado**: el evento se procesó y el mensaje se envió correctamente.
+* **pendiente**: el evento está pendiente: el evento adquiere este estado cuando acaba de activarse.
+* **procesamiento**: el evento está pendiente de envío: se está transformando en un mensaje y el mensaje se está enviando.
+* **pausado**: el proceso de eventos se está pausando. Ya no se procesa, sino que se mantiene en cola en la base de datos de Adobe Campaign. Para obtener más información, consulte [esta sección](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication).
+* **Procesado**: el evento se procesó y el mensaje se envió correctamente.
 * **ignorado**: el envío ignoró el evento, normalmente cuando una dirección está en cuarentena.
-* **deliveryFailed**: se produjo un error de entrega mientras se procesaba el evento.
-* **routingFailed**: error en la fase de enrutamiento: esto puede ocurrir, por ejemplo, cuando no se encuentra el tipo de evento especificado.
-* **tooOld**: el evento caducó antes de poder procesarse; esto puede ocurrir por varios motivos, por ejemplo, cuando una entrega falla varias veces (lo que provoca que el evento ya no esté actualizado) o cuando el servidor ya no puede procesar eventos después de sobrecargarse.
-* **targetingFailed**: Campaign Standard no pudo enriquecer un vínculo que se está utilizando para la segmentación de mensajes.
+* **deliveryFailed**: error de envío mientras se procesaba el evento.
+* **routingFailed**: la fase de enrutamiento ha fallado; esto puede ocurrir, por ejemplo, cuando no se encuentra el tipo de evento especificado.
+* **toOld**: el evento caducó antes de que se pudiera procesar. Esto puede ocurrir por varios motivos, por ejemplo, cuando un envío falla varias veces (esto hace que el evento ya no esté actualizado) o cuando el servidor ya no puede procesar eventos después de sobrecargarse.
+* **targetingFailed**: el Campaign Standard no ha podido enriquecer un vínculo que se está utilizando para la segmentación de mensajes.

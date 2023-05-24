@@ -44,7 +44,7 @@ La actividad **[!UICONTROL Reconciliation]** se utiliza esencialmente con fines 
 
 Por ejemplo, la variable **[!UICONTROL Reconciliation]** la actividad se puede colocar después de una actividad de datos de carga para importar datos no estándar en la base de datos.
 
-Mientras que la variable **Enriquecimiento** actividad le permite definir datos adicionales para procesarlos en el flujo de trabajo (utilice un **Enriquecimiento** actividad para combinar datos procedentes de varios conjuntos o para crear vínculos a un recurso temporal), la variable **Reconciliación** actividad le permite vincular datos no identificados a recursos existentes. La operación de reconciliación implica que los datos de las dimensiones vinculadas ya están en la base de datos. Los casos de uso están disponibles en [esta sección](#use-cases-reconciliation).
+Mientras que el **Enriquecimiento** La actividad de le permite definir datos adicionales para procesarlos en el flujo de trabajo (utilice un **Enriquecimiento** actividad para combinar datos procedentes de varios conjuntos o para crear vínculos a un recurso temporal), **Reconciliación** La actividad le permite vincular datos no identificados a recursos existentes. La operación de reconciliación implica que los datos de las dimensiones vinculadas ya están en la base de datos. Los casos de uso están disponibles en [esta sección](#use-cases-reconciliation).
 
 
 ## Configuración {#configuration}
@@ -73,6 +73,6 @@ Mientras que la variable **Enriquecimiento** actividad le permite definir datos 
 
 Aprenda a utilizar esta actividad en los siguientes casos de uso:
 
-* [Caso de uso: Reconciliación de datos mediante relaciones](../../automating/using/reconciliation-using-relations.md)
+* [Caso de uso: reconciliación de datos mediante relaciones](../../automating/using/reconciliation-using-relations.md)
 * [Caso de uso: Actualización de datos mediante reconciliación](../../automating/using/data-update-reconciliation.md)
-* [Caso de uso: Reconciliación de una audiencia de archivo con la base de datos](../../automating/using/reconcile-file-audience-with-database.md)
+* [Caso de uso: reconciliación de una audiencia de archivo con la base de datos](../../automating/using/reconcile-file-audience-with-database.md)

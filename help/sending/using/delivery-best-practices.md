@@ -30,7 +30,7 @@ Conozca las prácticas recomendadas relacionadas con el diseño de entregas y en
 
 <img src="assets/do-not-localize/custom.svg"  width="60px">
 
-**[Personalización del contenido](design-and-personalize.md)** - Aplicar la configuración correcta
+**[Personalizar contenido](design-and-personalize.md)** - Aplicar la configuración correcta
 
 <img src="assets/do-not-localize/profiles.svg"  width="60px">
 
@@ -42,7 +42,7 @@ Conozca las prácticas recomendadas relacionadas con el diseño de entregas y en
 
 <img src="assets/do-not-localize/troubleshoot.svg"  width="60px">
 
-**[Seguimiento y monitorización](track-and-monitor.md)** - Control de entregas y resolución de problemas
+**[Seguimiento y monitorización](track-and-monitor.md)** - Controlar el envío y solucionar problemas
 
 ## Contenido relacionado
 

@@ -1,6 +1,6 @@
 ---
 title: Supervisión de una solicitud de privacidad
-description: Obtenga información sobre cómo monitorizar una solicitud de privacidad con API
+description: Obtenga información sobre cómo supervisar una solicitud de privacidad con API
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,9 +17,9 @@ ht-degree: 16%
 
 # Supervisión de una solicitud de privacidad {#monitoring-a-privacy-request}
 
-Puede controlar la información sobre una solicitud de privacidad creada mediante un **GET** solicitud.
+Puede supervisar la información sobre una solicitud de privacidad creada mediante una **GET** solicitud.
 
-La descripción de la lista de estado está disponible en el [Documentación de administración de la privacidad](../../start/using/privacy-requests.md).
+La descripción de la lista de estado está disponible en la [Documentación de administración de privacidad](../../start/using/privacy-requests.md).
 
 <br/>
 

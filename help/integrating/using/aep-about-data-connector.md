@@ -21,22 +21,22 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connectors se encuentra actualmente en fase beta, por lo que puede estar sujeto a actualizaciones frecuentes sin previo aviso. Es necesario que los clientes estén alojados en Azure (actualmente en versión beta solo para Norteamérica) para acceder a estas capacidades. Si desea acceder, póngase en contacto con el Servicio de atención al cliente de Adobe.
+>El conector de datos de Adobe Experience Platform se encuentra en la versión beta, por lo que puede estar sujeto a frecuentes actualizaciones sin previo aviso. Los clientes deben estar alojados en Azure (actualmente en fase beta solo para Norteamérica) para acceder a estas funciones. Póngase en contacto con el Servicio de atención al cliente de Adobe si desea acceder.
 
-Data Connectors de Adobe Experience Platform ayuda a los clientes existentes a poner sus datos a disposición en Adobe Experience Platform asignando datos XTK (datos incorporados en Campaign) a datos del Modelo de datos de Experience (XDM) en Adobe Experience Platform.
+El conector de datos de Adobe Experience Platform ayuda a los clientes existentes a ofrecer sus datos en Adobe Experience Platform asignando datos XTK (datos incorporados en Campaign) a datos del modelo de datos de experiencia (XDM) en Adobe Experience Platform.
 
-Tenga en cuenta que el conector es **unidireccional** y envía los datos de Adobe Campaign Standard a Adobe Experience Platform. Los datos nunca se envían de Adobe Experience Platform a Adobe Campaign Standard.
+Tenga en cuenta que el conector es **unidireccional** y envía los datos de Adobe Campaign Standard a Adobe Experience Platform. Los datos nunca se envían desde Adobe Experience Platform a Adobe Campaign Standard.
 
-El conector de datos de Adobe Experience Platform está diseñado para **ingenieros de datos** que comprenden los recursos personalizados de Adobe Campaign Standard y comprenden cómo debe estar el esquema de datos general del cliente dentro de Adobe Experience Platform.
+El Conector de datos de Adobe Experience Platform está diseñado para **ingenieros de datos** que comprendan los recursos personalizados de Adobe Campaign Standard y comprendan cómo debe estar el esquema de datos general del cliente dentro de Adobe Experience Platform.
 
-En las secciones siguientes se describen los pasos clave para realizar una asignación de datos entre Campaign Standard y Adobe Experience Platform. Esto comienza con la creación de un esquema XDM y un conjunto de datos.
+En las siguientes secciones se describen los pasos clave para realizar una asignación de datos entre Campaign Standard y Adobe Experience Platform. Esto comienza con la creación de un esquema XDM y un conjunto de datos.
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
 
 >[!NOTE]
->Una vez configurado el conector de datos de Adobe Experience Platform y que los datos se incorporan correctamente en Adobe Experience Platform, debe habilitar el conjunto de datos para que los datos se incluyan en el perfil del cliente en tiempo real.
+>Una vez configurado el conector de datos de Adobe Experience Platform y que los datos se han introducido correctamente en Adobe Experience Platform, debe habilitar el conjunto de datos para que los datos se incluyan en el perfil del cliente en tiempo real.
 >
->Esto se puede realizar a través de las API o la interfaz de Adobe Experience Platform. Para obtener más información, consulte la documentación dedicada:
+>Esto se puede realizar a través de las API o de la interfaz de Adobe Experience Platform. Para obtener más información, consulte la documentación específica:
 >
 >* [Habilitar un conjunto de datos para el perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/datasets/dataset.html)
 >* [Configuración de un conjunto de datos para el perfil del cliente en tiempo real y el servicio de identidad mediante API](https://experienceleague.adobe.com/docs/experience-platform/catalog/api/getting-started.html)
@@ -44,39 +44,39 @@ En las secciones siguientes se describen los pasos clave para realizar una asign
 
 ## Conceptos clave {#key-concepts}
 
-* La asignación predeterminada solo está disponible para los campos que se proporcionan en el Campaign Standard de forma predeterminada. Para ingerir todos los campos y recursos personalizados, cada cliente debe definir su propia asignación.
+* La asignación predeterminada solo está disponible para campos que se proporcionan en Campaign Standard de forma predeterminada. Para ingerir todos los campos y recursos personalizados, cada cliente debe definir su propia asignación.
 
-* El conector de datos de Adobe Experience Platform insertará los datos de perfil a través de la plataforma a intervalos regulares &#x200B;. La duración del intervalo es de 15 minutos. Este valor se puede modificar utilizando [API de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html).
+* Adobe Experience Platform Data Connector insertará datos de perfil a través de la plataforma a intervalos regulares&#x200B; La duración del intervalo es de 15 minutos. Este valor se puede modificar utilizando [API de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html).
 
 * El ingeniero de datos puede publicar, modificar y pausar la asignación de Campaign a Adobe Experience Platform.
 
 * Se puede asignar cualquier dimensión de segmentación. La recomendación es tener una sola asignación para todos los campos en una sola dimensión de segmentación.
 
-* Todas las actualizaciones de perfil, incluidas las exclusiones y exclusiones del canal, forman parte de la actualización por lotes.
+* Todas las actualizaciones de perfil, incluidas las opciones de inclusión/exclusión de canales, forman parte de la actualización por lotes.
 
-* Cualquier cambio en el esquema Adobe Campaign Standard o XDM debe reasignarse manualmente. &#x200B;
+* Cualquier cambio de esquema de Adobe Campaign Standard o XDM debe reasignarse manualmente&#x200B;
 
-* Los datos de registro de seguimiento y Broadlog se introducen automáticamente en Adobe Experience Platform como eventos de experiencia. Esta ingesta se transmite en tiempo real a Adobe Experience Platform.
+* Los datos de registro de seguimiento y registro de banda ancha se incorporan automáticamente a Adobe Experience Platform como eventos de experiencia. Esta ingesta se transmite en tiempo real a Adobe Experience Platform.
 
-* El servicio de ID de Experience Cloud (ECID) es un identificador de dispositivo que se envía de forma predeterminada con Experience Events.
+* El servicio de ID de Experience Cloud (ECID) es un identificador de dispositivo que se envía de forma predeterminada con los eventos de experiencia.
 
-   Es un ID único y persistente asignado a un visitante, que el servicio de ID de plataforma puede usar para identificar al mismo visitante y sus datos en diferentes soluciones de Experience Cloud. Para obtener más información, consulte [Ayuda del servicio de identidad de Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es).
+   Se trata de un ID único y persistente asignado a un visitante que el servicio de ID de Platform puede utilizar para identificar el mismo visitante y sus datos en diferentes soluciones de Experience Cloud. Para obtener más información, consulte [Ayuda del servicio de identidad de Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es).
 
    >[!NOTE]
    >
-   >Tenga en cuenta que, si dos o más perfiles comparten un mismo dispositivo, el ECID sería el mismo para estos dos perfiles en el servicio de identidad unificada.
+   >Tenga en cuenta que, si dos o más perfiles comparten un mismo dispositivo, el ECID sería el mismo para estos dos perfiles en el servicio de identidad unificado.
 
 ## Limitaciones {#limitations}
 
-* No se admite la transferencia predeterminada de eventos de suscripción. Para transferir eventos de suscripción, puede crear el XDM y el conjunto de datos correspondientes en Adobe Experience Platform y, a continuación, configurar una asignación de datos personalizada para estos datos.
+* No se admite la transferencia de eventos de suscripción de forma predeterminada. Para transferir eventos de suscripción, puede crear el XDM y el conjunto de datos correspondientes en Adobe Experience Platform y, a continuación, configurar una asignación de datos personalizada para estos datos.
 
-* Con respecto a las solicitudes de privacidad (tanto las acciones de Acceso como las de Eliminación), los clientes deben colocar solicitudes independientes a través de la variable [Servicio principal de privacidad](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests): una para Campaign y otra para Adobe Experience Platform. Para obtener más información, consulte [Acerca de las solicitudes de privacidad](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=es#getting-started) y [Administración de solicitudes de privacidad](https://helpx.adobe.com/es/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) en Campaign.
+* En cuanto a las solicitudes de privacidad (tanto acciones de acceso como de eliminación), los clientes deben realizar solicitudes independientes a través de [Privacy Core Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests): uno para Campaign y otro para Adobe Experience Platform. Para obtener más información, consulte [Acerca de las solicitudes de privacidad](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=es#getting-started) y [Administración de solicitudes de privacidad](https://helpx.adobe.com/es/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) en Campaign.
 
-* Para cada campo XDM, el etiquetado DULE debe realizarse en Adobe Experience Platform. Es responsabilidad del cliente aplicar etiquetas DULE.
+* Para cada campo XDM, el etiquetado DULE debe realizarse en Adobe Experience Platform. Es responsabilidad del cliente aplicar las etiquetas DULE.
 
-* Las restricciones en las acciones de marketing solo son aplicables después de aplicar las etiquetas DULE en Adobe Experience Platform. Antes de eso, todos los datos están disponibles para todos los tipos de acciones de marketing.
+* Las restricciones en las acciones de marketing solo se aplican después de aplicar las etiquetas DULE en Adobe Experience Platform. Antes de eso, todos los datos están disponibles para todos los tipos de acciones de marketing.
 
-* Cada 15 minutos, el trabajo por lotes se ejecuta e identifica los registros que han cambiado desde el último lote. Si todos los registros cambian con la misma marca de tiempo, podría aparecer un cuello de botella en el rendimiento para administrar la ingesta de todos los perfiles
+* Cada 15 minutos, el trabajo por lotes se está ejecutando e identifica los registros que han cambiado desde el último lote. Si todos los registros cambian al mismo tiempo, podría aparecer un cuello de botella de rendimiento para administrar la ingesta de todos los perfiles
 
 ## Tutorial en vídeo {#video}
 
@@ -84,4 +84,4 @@ Este vídeo proporciona información general sobre el conector de datos de Adobe
 
 >[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=eng)
 
-Hay disponibles vídeos adicionales relacionados con el conector de datos de Adobe Experience Platform [here](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html).
+Hay disponibles más vídeos relacionados con el conector de datos de Adobe Experience Platform [aquí](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html).

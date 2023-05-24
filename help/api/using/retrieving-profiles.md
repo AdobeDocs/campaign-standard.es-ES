@@ -16,15 +16,15 @@ ht-degree: 4%
 
 La recuperación de perfiles se realiza con un **GET** solicitud.
 
-A continuación, puede restringir la búsqueda utilizando filtros, pedidos y paginación. Para obtener más información, consulte [Operaciones adicionales](../../api/using/sorting.md) para obtener más información.
+A continuación, puede restringir la búsqueda mediante filtros, pedidos y paginación. Para obtener más información, consulte [Operaciones adicionales](../../api/using/sorting.md) sección.
 
-Además, las API de Campaign Standard permiten buscar perfiles en función de uno de estos campos: correo electrónico, nombre, apellidos o cualquier campo personalizado. Para obtener más información, consulte [esta sección](#searching-field).
+Además, las API de Campaign Standard le permiten buscar perfiles en función de uno de estos campos: correo electrónico, nombre, apellidos o cualquier campo personalizado. Para obtener más información, consulte [esta sección](#searching-field).
 
 <br/>
 
-***Solicitudes de muestra***
+***Solicitudes de ejemplo***
 
-* Ejemplo de solicitud de GET para recuperar todos los perfiles.
+* Solicitud de GET de muestra para recuperar todos los perfiles.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -50,7 +50,7 @@ Además, las API de Campaign Standard permiten buscar perfiles en función de un
    }
    ```
 
-* Ejemplo de solicitud de GET para recuperar los primeros 10 valores de correo electrónico.
+* Solicitud de GET de muestra para recuperar los 10 primeros valores de correo electrónico.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_lineCount=10 \
@@ -60,7 +60,7 @@ Además, las API de Campaign Standard permiten buscar perfiles en función de un
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   Respuesta a la solicitud. El nodo &quot;next&quot; devuelve la URL que le proporciona acceso a los 10 siguientes valores de correo electrónico.
+   Respuesta a la solicitud. El nodo &quot;siguiente&quot; devuelve la dirección URL que le permite acceder a los 10 valores de correo electrónico siguientes.
 
    ```
    {
@@ -85,15 +85,15 @@ Además, las API de Campaign Standard permiten buscar perfiles en función de un
 
 ## Búsqueda de perfiles basados en un campo {#searching-field}
 
-La variable **[!UICONTROL filterType]** permite recuperar perfiles en función de uno de estos campos: correo electrónico, nombre, apellidos o cualquier campo personalizado que se haya añadido en Filtro avanzado al ampliar el recurso de perfil.
+El **[!UICONTROL filterType]** El parámetro permite recuperar perfiles basados en uno de estos campos: correo electrónico, nombre, apellidos o cualquier campo personalizado que se haya agregado en el filtrado avanzado al ampliar el recurso de perfil.
 
 >[!NOTE]
 >
->Las búsquedas distinguen entre mayúsculas y minúsculas y se realizan únicamente en prefijos. Por ejemplo, no podrá buscar un perfil con las últimas letras de su apellido.
+>Las búsquedas distinguen entre mayúsculas y minúsculas y solo se realizan en prefijos. Por ejemplo, no podrá buscar un perfil con las últimas letras de su apellido.
 
-***Solicitudes de muestra***
+***Solicitudes de ejemplo***
 
-* Solicitud de muestra para filtrar perfiles según el nombre.
+* Solicitud de muestra para filtrar perfiles sobre la base del nombre.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=John&filterType=firstName \
@@ -113,7 +113,7 @@ La variable **[!UICONTROL filterType]** permite recuperar perfiles en función d
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-* Solicitud de ejemplo para filtrar perfiles por correo electrónico.
+* Solicitud de muestra para filtrar perfiles según el correo electrónico.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=John%40gmail.com&filterType=email \
@@ -123,7 +123,7 @@ La variable **[!UICONTROL filterType]** permite recuperar perfiles en función d
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-* Solicitud de ejemplo para filtrar perfiles según el campo personalizado &quot;Hobby&quot;.
+* Solicitud de muestra para filtrar perfiles en función del campo personalizado &quot;Afición&quot;.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byText?cusHobby=Dancing&filterType=Hobby \

@@ -1,6 +1,6 @@
 ---
 title: Información general
-description: Esta sección detalla cómo llamar a un flujo de trabajo con parámetros externos.
+description: Esta sección detalla cómo invocar a un flujo de trabajo con parámetros externos.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
@@ -17,14 +17,14 @@ ht-degree: 4%
 
 # Información general {#calling-a-workflow-with-external-parameters}
 
-Campaign Standard permite llamar a un flujo de trabajo con parámetros (un nombre de audiencia para destinatario, un nombre de archivo para importar, una parte del contenido del mensaje, etc.). De este modo, puede integrar fácilmente sus automatizaciones de Campaign con su sistema externo.
+Campaign Standard permite llamar a un flujo de trabajo con parámetros (un nombre de audiencia para el destino, un nombre de archivo para importar, una parte del contenido del mensaje, etc.). De este modo, puede integrar fácilmente las automatizaciones de Campaign con su sistema externo.
 
-Veamos el siguiente ejemplo, donde queremos enviar correos electrónicos directamente desde un CMS. En ese caso, puede configurar el sistema para que seleccione la audiencia y el contenido de correo electrónico en el CMS. Al hacer clic en Enviar , se llama a un flujo de trabajo de Campaign con estos parámetros, lo que permite utilizarlos en el flujo de trabajo para definir la audiencia y el contenido de la URL que se deben utilizar en la entrega.
+Veamos el siguiente ejemplo, donde queremos enviar correos electrónicos directamente desde un CMS. En ese caso, puede configurar el sistema para que seleccione la audiencia y el contenido del correo electrónico en el CMS. Al hacer clic en Enviar, se llama a un flujo de trabajo de Campaign con estos parámetros, lo que permite utilizarlos en el flujo de trabajo para definir la audiencia y el contenido de la URL que se utilizarán en la entrega.
 
 El proceso para llamar a un flujo de trabajo con parámetros es el siguiente:
 
 1. Declare los parámetros en la variable **[!UICONTROL External signal]** actividad. Consulte [Declaración de los parámetros en la actividad Señal externa](../../automating/using/declaring-parameters-external-signal.md).
-1. Configure las variables **[!UICONTROL End]** actividad o llamada de API para definir los parámetros y el déclencheur del flujo de trabajo **[!UICONTROL External signal]** actividad. Consulte [esta página](../../automating/using/defining-parameters-calling-workflow.md)
-1. Una vez activado el flujo de trabajo, los parámetros se incorporan en las variables de eventos del flujo de trabajo y se pueden utilizar en él. Consulte [esta página](../../automating/using/customizing-workflow-external-parameters.md).
+1. Configure las variables **[!UICONTROL End]** o la llamada de API para definir los parámetros y almacenar en déclencheur el flujo de trabajo **[!UICONTROL External signal]** actividad. Consulte [esta página](../../automating/using/defining-parameters-calling-workflow.md)
+1. Una vez activado el flujo de trabajo, los parámetros se incorporan a las variables de eventos del flujo de trabajo y se pueden utilizar en él. Consulte [esta página](../../automating/using/customizing-workflow-external-parameters.md).
 
 ![](assets/extsignal_process.png)

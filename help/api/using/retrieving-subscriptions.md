@@ -19,11 +19,11 @@ ht-degree: 1%
 Este es un procedimiento de dos pasos.
 
 1. Recupere la URL de suscripciones del servicio deseado.
-1. Realice una solicitud de GET en la URL de suscripciones. Devuelve la lista de suscripciones para el servicio, con cada perfil asociado.
+1. Realizar una solicitud de GET en la URL de suscripciones. Devuelve la lista de suscripciones del servicio, con cada perfil asociado.
 
 >[!CAUTION]
 >
->La API de REST devuelve la propiedad &quot;href&quot;, que contiene la dirección URL que se va a usar. <b>Utilice siempre la URL contenida en la respuesta para realizar la siguiente solicitud de API</b>.
+>La API de REST devuelve la propiedad &quot;href&quot;, que contiene la dirección URL que se va a utilizar. <b>Utilice siempre la dirección URL contenida en la respuesta para realizar la solicitud de API posterior</b>.
 
 <br/>
 
@@ -53,7 +53,7 @@ Devuelve la URL de suscripciones del servicio.
   },
 ```
 
-Realice una solicitud de GET en la URL de suscripciones.
+Realizar una solicitud de GET en la URL de suscripciones.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
@@ -80,12 +80,12 @@ Se muestra la lista de suscripciones para el servicio, con cada perfil asociado.
   }
 ```
 
-## Recuperación de los servicios a los que se suscribió un perfil
+## Recuperación de los servicios a los que se ha suscrito un perfil
 
 Este es un procedimiento de dos pasos.
 
 1. Recupere la URL de suscripciones de un perfil determinado.
-1. Realice una solicitud de GET en la dirección URL. Devuelve la lista de suscripciones para el perfil, con cada servicio asociado.
+1. Realice una solicitud de GET en la dirección URL. Devuelve la lista de suscripciones del perfil, con cada servicio asociado.
 
 <br/>
 
@@ -115,7 +115,7 @@ Devuelve la URL de suscripciones del perfil.
   }
 ```
 
-Realice una solicitud de GET en la URL de suscripciones.
+Realizar una solicitud de GET en la URL de suscripciones.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \

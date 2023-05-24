@@ -1,5 +1,5 @@
 ---
-title: Audiencia del modelo de datos
+title: Audiencia de modelo de datos
 description: Obtenga información sobre el modelo de datos
 audience: developing
 content-type: reference
@@ -14,7 +14,7 @@ ht-degree: 40%
 
 ---
 
-# Audiencia (nms:audience)
+# Audience (nms:audience)
 
 ## Descripción del objeto
 
@@ -34,36 +34,36 @@ ht-degree: 40%
                <tr>
                   <td>aamMappingId</td>
                   <td>ID de asignación de Audience Manager</td>
-                  <td>string (100)</td>
+                  <td>cadena (100)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>amcDataSource (amcDataSourceBase)</td>
                   <td>Fuente de datos AMC</td>
-                  <td>vínculo </td>
+                  <td>vincular </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>audienceData</td>
-                  <td>Vista previa de la población seleccionada</td>
+                  <td>Previsualizar la población seleccionada</td>
                   <td>colección </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>audienceDataSchema</td>
                   <td>Esquema de datos</td>
-                  <td>string (255)</td>
+                  <td>cadena (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>audienceMetadata</td>
                   <td>AudienceMetadata</td>
-                  <td>string (255)</td>
+                  <td>cadena (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>collectLineNumber</td>
-                  <td>Usar un número de línea como ID</td>
+                  <td>Usar un número de línea como identificador</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
@@ -93,14 +93,15 @@ ht-degree: 40%
                </tr>
                <tr>
                   <td>createdBy (userBase)</td>
-                  <td>Creado por</td>
-                  <td>vínculo </td>
+                  <td>Creada por
+</td>
+                  <td>vincular </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>desc</td>
                   <td>Descripción</td>
-                  <td>string (512)</td>
+                  <td>cadena (512)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -124,7 +125,7 @@ ht-degree: 40%
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
                   <td>Unidad geográfica</td>
-                  <td>vínculo </td>
+                  <td>vincular </td>
                   <td> </td>
                </tr>
                <tr>
@@ -154,7 +155,7 @@ ht-degree: 40%
                <tr>
                   <td>label</td>
                   <td>Etiqueta</td>
-                  <td>string (128)</td>
+                  <td>cadena (128)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -166,19 +167,19 @@ ht-degree: 40%
                <tr>
                   <td>modifiedBy (userBase)</td>
                   <td>Modificado por</td>
-                  <td>vínculo </td>
+                  <td>vincular </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>name</td>
                   <td>ID</td>
-                  <td>string (64)</td>
+                  <td>cadena (64)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
                   <td>Entidades organizativas</td>
-                  <td>vínculo </td>
+                  <td>vincular </td>
                   <td> </td>
                </tr>
                <tr>
@@ -208,7 +209,7 @@ ht-degree: 40%
                <tr>
                   <td>título</td>
                   <td>Audiencia</td>
-                  <td>string (255)</td>
+                  <td>cadena (255)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -217,10 +218,10 @@ ht-degree: 40%
                   <td>enumeración (cadena) (100)</td>
                   <td>
                      <ul>
-                        <li>Consulta - consulta - consulta</li>
+                        <li>Query - query - query</li>
                         <li>Lista - lista - lista</li>
                         <li>Archivo - archivo - archivo</li>
-                        <li>VALOR NO VÁLIDO - __Invalid_value__ - __Invalid_value__</li>
+                        <li>VALOR INVÁLIDO - __Valor_no_válido__ - __Valor_no_válido__</li>
                      </ul>
                   </td>
                </tr>
@@ -231,16 +232,16 @@ ht-degree: 40%
                   <td> </td>
                </tr>
                <tr>
-                  <td>flujo de trabajo (flujo de trabajo)</td>
+                  <td>workflow (workflow)</td>
                   <td>Flujo de trabajo</td>
-                  <td>vínculo </td>
+                  <td>vincular </td>
                   <td> </td>
                </tr>
             </table>
 
 ## Filtros
 
-Por dimensión de filtrado (byFilteringResource)
+Mediante dimensión de filtrado (byFilteringResource)
 
 <table>
     <tr>
@@ -253,7 +254,7 @@ Por dimensión de filtrado (byFilteringResource)
     </tr>
 </table>
 
-Por nombre o etiqueta (byText)
+Por nombre o etiqueta (por texto)
 
 <table>
     <tr>
@@ -261,12 +262,12 @@ Por nombre o etiqueta (byText)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>text</td>
+    <td>texto</td>
     <td>cadena</td>
     </tr>
 </table>
 
-Por tipo (byType)
+Por tipo (por tipo)
 
 <table>
     <tr>

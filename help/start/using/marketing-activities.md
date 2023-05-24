@@ -81,15 +81,15 @@ Los programas y campañas se presentan en la sección [Programas y campañas](..
 
 Según el contexto, estas son las posibilidades:
 
-* Crear un correo electrónico: [Más información](../../channels/using/creating-an-email.md)
-* Crear un SMS: [Más información](../../channels/using/creating-an-sms-message.md)
-* Crear una notificación push: [Más información](../../channels/using/preparing-and-sending-a-push-notification.md)
-* Crear un mensaje en la aplicación: [Más información](../../channels/using/about-in-app-messaging.md)
+* Creación de un correo electrónico: [Más información](../../channels/using/creating-an-email.md)
+* Creación de un SMS: [Más información](../../channels/using/creating-an-sms-message.md)
+* Creación de una notificación push - [Más información](../../channels/using/preparing-and-sending-a-push-notification.md)
+* Creación de un mensaje en la aplicación: [Más información](../../channels/using/about-in-app-messaging.md)
 * Creación de un flujo de trabajo: [Más información](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* Crear una página de aterrizaje: [Más información](../../channels/using/getting-started-with-landing-pages.md)
-* Creación de una campaña [Más información](../../start/using/programs-and-campaigns.md#creating-a-campaign)
-* Crear un programa: [Más información](../../start/using/programs-and-campaigns.md#creating-a-program)
+* Creación de una página de aterrizaje: [Más información](../../channels/using/getting-started-with-landing-pages.md)
+* Creación de una campaña: [Más información](../../start/using/programs-and-campaigns.md#creating-a-campaign)
+* Creación de un programa: [Más información](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]
 >
->También puede crear una actividad de marketing a partir de la lista de actividades de marketing. En este caso, puede crear cualquier tipo de actividad y elegir vincular la actividad de marketing a una campaña principal (o a un programa principal si crea un programa) a través de las propiedades de la actividad.
+>También puede crear una actividad de marketing a partir de la lista de actividades de marketing. En este caso, puede crear cualquier tipo de actividad y elegir vincular la actividad de marketing a una campaña principal (o a un programa principal si crea un programa) mediante las propiedades de la actividad.

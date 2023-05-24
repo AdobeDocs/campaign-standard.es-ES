@@ -17,21 +17,21 @@ ht-degree: 5%
 
 # Recursos personalizados {#custom-resources}
 
-Adobe Campaign incluye un modelo de datos predefinido, en el que los datos se definen a través de distintos recursos. Puede enriquecer el modelo de datos que se proporciona ampliando los recursos para agregar sus propios campos personalizados o tablas personalizadas, como tablas de productos o de compras.
+Adobe Campaign viene con un modelo de datos predefinido, donde los datos se definen a través de diferentes recursos. Puede enriquecer el modelo de datos que se proporciona ampliando los recursos para agregar sus propios campos o tablas personalizadas, como las tablas de compras o de productos.
 
-Los recursos personalizados son accesibles a través de las API que usan la variable **/profileAndServicesExt** y el nombre del recurso personalizado.
+Se puede acceder a los recursos personalizados mediante las API de mediante **/profileAndServicesExt** extremo y el nombre del recurso personalizado.
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/`
 
 >[!NOTE]
 >
->Para los recursos que no están listos para usar, utilice siempre la variable <b>&quot;cus&quot;</b> antes del nombre del recurso.
+>Para los recursos que no están listos para usar, utilice siempre el <b>&quot;cus&quot;</b> prefijo antes del nombre del recurso.
 
-Puede realizar cualquier operación con recursos personalizados, siempre que estén vinculados a la tabla Perfil . Por ejemplo, consideremos la estructura de las tablas a continuación:
+Puede realizar cualquier operación con recursos personalizados, siempre y cuando estén vinculados a la tabla Perfil. Por ejemplo, veamos la estructura de las tablas a continuación:
 
 ![texto alternativo](assets/cusresources.png)
 
-En ese caso, todos los recursos de la **Transacción**, **Detalles de transacción** y **Product** las tablas están disponibles siempre que estén vinculadas al **Perfil** tabla.
+En ese caso, todos los recursos del **Transacción**, **TransactionDetails** y **Product** Las tablas están disponibles siempre que estén vinculadas a **Perfil** tabla.
 
 <br/>
 
@@ -47,7 +47,7 @@ Solicitud de GET de ejemplo para acceder al recurso profileAndServicesExt extend
 -H 'X-Api-Key: <API_KEY>' \
 ```
 
-Devuelve la lista de todos los recursos personalizados vinculados. A continuación, puede utilizar las URL de recursos para realizar cualquier tarea de API descrita en esta documentación.
+Devuelve la lista de todos los recursos personalizados vinculados. A continuación, puede utilizar las direcciones URL de los recursos para realizar cualquier tarea de la API descrita en esta documentación.
 
 ```
 {
@@ -72,7 +72,7 @@ Devuelve la lista de todos los recursos personalizados vinculados. A continuaci�
 }
 ```
 
-Para obtener más información sobre la extensión del modelo de datos, consulte la documentación de Campaign:
+Para obtener más información sobre la extensión del modelo de datos, consulte la Documentación de Campaign:
 
 * [Conceptos del modelo de datos](../../developing/using/data-model-concepts.md)
 * [Ampliación de la API](../../developing/using/about-extending-the-api.md)

@@ -1,6 +1,6 @@
 ---
 title: Directrices de configuración
-description: Obtenga información sobre las directrices de configuración de Campaign Standard
+description: Obtenga información acerca de las directrices de configuración de Campaign Standard
 audience: administration
 feature: Access Management
 role: Admin
@@ -17,9 +17,9 @@ ht-degree: 13%
 
 ## Exploradores compatibles{#compatible-browsers}
 
-Adobe Campaign Standard es compatible con la mayoría de los exploradores de ordenadores, así como con los principales sistemas operativos de tabletas.
+Adobe Campaign Standard es compatible con la mayoría de los navegadores para ordenadores, así como con los principales sistemas operativos para tabletas.
 
-Adobe Campaign Standard solo admite horizontal como modo de visualización en tabletas.
+Adobe Campaign Standard solo admite el modo de visualización horizontal en tabletas.
 
 Esta es la lista de exploradores compatibles con Adobe Campaign Standard:
 
@@ -37,7 +37,7 @@ Esta es la lista de exploradores compatibles con Adobe Campaign Standard:
 
 ## Puntos finales de red de Campaign Standard {#campaign-standard-network-endpoints}
 
-Estos son los diferentes extremos utilizados en el Campaign Standard.
+Estos son los diferentes extremos utilizados en Campaign Standard.
 
 | Contexto | Dirección URL |
 |--- |--- |
@@ -48,4 +48,4 @@ Estos son los diferentes extremos utilizados en el Campaign Standard.
 | Integración de recursos | `https://*.marketing-assets.adobe.com` |
 | Servicios internos de Adobe | `https://*.adobe.io` |
 | Encuestas | `https://adobe.allegiancetech.com` |
-| Dirección URL de personalización predeterminada (antes de la configuración del cliente) | `https://*.adobe-campaign.com` |
+| URL de marca predeterminada (antes de la configuración del cliente) | `https://*.adobe-campaign.com` |

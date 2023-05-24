@@ -20,33 +20,33 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->El servicio Audience Destinations se encuentra actualmente en fase beta, por lo que puede estar sujeto a frecuentes actualizaciones sin previo aviso. Es necesario que los clientes estén alojados en Azure (actualmente en versión beta solo para Norteamérica) para acceder a estas capacidades. Si desea acceder, póngase en contacto con el Servicio de atención al cliente de Adobe.
+>El servicio Audience Destinations se encuentra actualmente en fase beta, por lo que puede estar sujeto a frecuentes actualizaciones sin previo aviso. Los clientes deben estar alojados en Azure (actualmente en fase beta solo para Norteamérica) para acceder a estas funciones. Póngase en contacto con el Servicio de atención al cliente de Adobe si desea acceder.
 
-El Generador de segmentos le permite crear audiencias definiendo reglas basadas en datos procedentes del [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
+El Generador de segmentos le permite crear audiencias definiendo reglas basadas en datos procedentes de [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
 
-Esta sección presenta conceptos globales al crear un segmento. Para obtener información detallada sobre el propio Generador de segmentos, consulte la [Guía del usuario del Generador de segmentos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+Esta sección presenta conceptos globales al crear un segmento. Para obtener información detallada sobre el Generador de segmentos, consulte la [Guía del usuario del Generador de segmentos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
-La interfaz del Generador de segmentos se compone de la siguiente manera:
+La interfaz del Generador de segmentos está compuesta de la siguiente manera:
 
 * El panel izquierdo proporciona todos los atributos, eventos y audiencias disponibles para crear el segmento arrastrando y soltando los campos deseados en el espacio de trabajo del generador de segmentos.
 * El área central proporciona un espacio de trabajo para crear el segmento definiendo y combinando reglas de los campos disponibles.
-* El encabezado y el panel derecho muestran las propiedades del segmento (es decir, el nombre, la descripción y los perfiles cualificados estimados para el segmento).
+* El encabezado y el panel derecho muestran las propiedades del segmento (es decir, nombre, descripción y perfiles cualificados estimados para el segmento).
 
 ![](assets/aep_audiences_interface.png)
 
 ## Creación de segmentos
 
-Para crear un segmento, siga estos pasos:
+Para generar un segmento, siga estos pasos:
 
-El Generador de segmentos debería mostrarse ahora en su espacio de trabajo. Le permite crear un segmento utilizando datos de Adobe Experience Platform que eventualmente se utilizarán para crear su audiencia.
+El Generador de segmentos debe mostrarse en el espacio de trabajo. Le permite crear un segmento utilizando datos de Adobe Experience Platform que finalmente se utilizarán para crear su audiencia.
 
-1. Asigne un nombre al segmento e introduzca una descripción (opcional).
+1. Asigne un nombre al segmento y, a continuación, introduzca una descripción (opcional).
 
    ![](assets/aep_audiences_creation_edit_name.png)
 
-1. Asegúrese de que la política de combinación deseada esté seleccionada en el panel de configuración.
+1. Asegúrese de que la política de combinación deseada está seleccionada en el panel de configuración.
 
-   Para obtener más información sobre las políticas de combinación, consulte la sección dedicada en la sección [Guía del usuario del Generador de segmentos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+   Para obtener más información sobre las políticas de combinación, consulte la sección dedicada de la [Guía del usuario del Generador de segmentos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -62,23 +62,23 @@ El Generador de segmentos debería mostrarse ahora en su espacio de trabajo. Le 
 
 ## Búsqueda de los campos adecuados para un segmento
 
-El panel izquierdo enumera todos los atributos, eventos y audiencias disponibles para usar en la construcción de reglas.
+El panel izquierdo enumera todos los atributos, eventos y audiencias disponibles para su uso para construir reglas.
 
-Los campos enumerados son atributos capturados por su empresa y se han puesto a disposición a través del [Sistema del Modelo de datos de experiencia (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
+Los campos enumerados son atributos capturados por su compañía y están disponibles a través del [Sistema de modelo de datos de experiencia (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
 
-Los campos se organizan en fichas:
+Los campos están organizados en pestañas:
 
-* **[!UICONTROL Attributes]**: Atributos de perfil existentes que pueden proceder de la base de datos de Adobe Campaign o Adobe Experience Platform. Se refieren a información estática adjunta a un perfil (por ejemplo, dirección de correo electrónico, país de residencia, estado del programa de fidelidad, etc.).
+* **[!UICONTROL Attributes]**: atributos de perfiles existentes que pueden proceder de la base de datos de Adobe Campaign o de Adobe Experience Platform. Hacen referencia a información estática adjunta a un perfil (por ejemplo, dirección de correo electrónico, país de residencia, estado del programa de fidelidad, etc.).
 
    ![](assets/aep_audiences_attributestab.png)
 
-* **[!UICONTROL Events]**: Actividades que identifican a los consumidores que han tenido alguna interacción con los puntos de contacto de los clientes de su empresa, como &quot;cualquier persona que haya hecho una orden dos veces en dos semanas&quot;. Esto se puede transmitir desde Adobe Analytics o ingerir directamente en Adobe Experience Platform mediante herramientas de ETL de terceros.
+* **[!UICONTROL Events]**: actividades que identifican a consumidores que han tenido alguna interacción con los puntos de contacto de clientes de su empresa, como &quot;cualquier persona que haya hecho un pedido dos veces en dos semanas&quot;. Esto se puede transmitir desde Adobe Analytics o ingerir directamente en Adobe Experience Platform mediante herramientas de ETL de terceros.
 
    ![](assets/aep_audiences_eventstab.png)
 
 >[!NOTE]
 >
->**Segmentación de varias entidades** le permite ampliar los datos de perfil con datos adicionales basados en productos, tiendas u otras clases que no sean de perfil. Una vez conectados, los datos de clases adicionales estarán disponibles como si fueran nativos del esquema de perfil.
+>**Segmentación de varias entidades** permite ampliar datos de perfil con datos adicionales basados en productos, tiendas u otras clases que no sean de perfil. Una vez conectado, los datos de las clases adicionales están disponibles como si fueran nativos del esquema Profile.
 >
 >Para obtener más información, consulte la [documentación dedicada](https://experienceleague.adobe.com/docs/experience-platform/segmentation/multi-entity-segmentation.html).
 
@@ -96,23 +96,23 @@ El símbolo situado al final de cada campo proporciona información adicional so
 >
 >La sección siguiente proporciona información global sobre la definición de reglas. Para obtener más información, consulte [Guía del usuario del Generador de segmentos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
-Para generar una regla, siga estos pasos:
+Para crear una regla, siga estos pasos:
 
-1. Busque el campo en el panel izquierdo que refleja los atributos o eventos en los que se basará la regla.
+1. Busque el campo del panel izquierdo que refleje los atributos o eventos en los que se basará la regla.
 
-1. Arrastre el campo al espacio de trabajo central y, a continuación, configúrelo según la definición de segmento que desee. Para ello, hay disponibles varias funciones de cadena y fecha/hora.
+1. Arrastre el campo al espacio de trabajo central y configúrelo según la definición del segmento deseada. Para ello, hay disponibles varias funciones de cadena y fecha/hora.
 
-   En el ejemplo siguiente, la regla se dirigirá a todos los perfiles con un sexo igual a &quot;Hombre&quot;.
+   En el ejemplo siguiente, la regla se aplica a todos los perfiles cuyo sexo sea igual a &quot;Hombre&quot;.
 
    ![](assets/aep_audiences_malegender.png)
 
-   La población estimada correspondiente al segmento se vuelve a calcular automáticamente en la variable **[!UICONTROL Segment Properties]** para obtener más información.
+   La población estimada correspondiente al segmento se recalcula automáticamente en la variable **[!UICONTROL Segment Properties]** sección.
 
-1. La variable **[!UICONTROL View Profiles]** proporciona una previsualización de los primeros 20 registros correspondientes a la regla, lo que le permite validar el segmento rápidamente.
+1. El **[!UICONTROL View Profiles]** Este botón proporciona una previsualización de los 20 primeros registros correspondientes a la regla, lo que permite validar rápidamente el segmento.
 
    ![](assets/aep_audiences_samplepreview.png)
 
-   Puede agregar tantas reglas adicionales como desee para dirigirse a los perfiles adecuados.
+   Puede agregar tantas reglas adicionales como desee para segmentar los perfiles adecuados.
 
    Al agregar una regla a un contenedor, se anexará a cualquier regla existente con el operador lógico AND. Si es necesario, haga clic en el operador lógico para modificarlo.
 
@@ -122,22 +122,22 @@ Una vez vinculadas, las dos reglas forman un contenedor.
 
 ## Comparación de campos
 
-El Generador de segmentos le permite comparar dos campos para definir una regla. Por ejemplo, las mujeres cuya dirección principal se encuentra en un código postal diferente de su dirección de trabajo.
+El Generador de segmentos le permite comparar dos campos para definir una regla. Por ejemplo, las mujeres cuya dirección postal está en un código postal diferente a la de su dirección de trabajo.
 
 Para ello, siga estos pasos:
 
-1. Arrastre el primer campo que desee comparar (por ejemplo, el código postal de la dirección principal) al espacio de trabajo central.
+1. Arrastre el primer campo que desee comparar (por ejemplo, el código postal de la dirección postal) al espacio de trabajo central.
 
    ![](assets/aep_audiences_comparing_1.png)
 
 1. Seleccione el segundo campo (por ejemplo, el código postal de la dirección de trabajo) que se comparará con el primer campo.
 
-   Arrástrela al espacio de trabajo central, en el mismo contenedor que el primer campo, en la **[!UICONTROL Drop here to compare operands]** en la ventana
+   Arrástrela al espacio de trabajo central, en el mismo contenedor que el primer campo, en la **[!UICONTROL Drop here to compare operands]** cuadro.
 
    ![](assets/aep_audiences_comparing_2.png)
 
-1. Configure el operador entre los dos campos como desee. En este ejemplo, queremos que nuestro segmento se dirija a perfiles con la dirección principal diferente de la dirección de trabajo.
+1. Configure el operador entre los dos campos como desee. En este ejemplo, queremos que nuestro segmento se dirija a perfiles con una dirección de inicio diferente a la dirección de trabajo.
 
    ![](assets/aep_audiences_comparing_3.png)
 
-La regla ahora está configurada y lista para activarse como audiencia.
+La regla está ahora configurada y lista para activarse como audiencia.

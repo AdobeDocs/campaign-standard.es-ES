@@ -1,6 +1,6 @@
 ---
 title: Resumen del servicio
-description: Con el informe predeterminado Resumen de servicio , conozca la evolución de las suscripciones y las bajas de suscripción.
+description: Con el informe predeterminado Resumen del servicio, obtenga información acerca de la evolución de las suscripciones y las bajas de suscripción.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -18,11 +18,11 @@ ht-degree: 14%
 
 # Resumen del servicio{#service-summary}
 
-La variable **[!UICONTROL Service summary]** detalla la evolución de las suscripciones y las bajas de suscripción de su servicio.
-Solo se puede acceder a este informe desde la página de servicios a través del menú avanzado **[!UICONTROL Profiles & Audiences]** > **[!UICONTROL Services]**. Para obtener más información, consulte esta [página](../../audiences/using/monitoring-subscriptions.md#service-reports).
+El **[!UICONTROL Service summary]** detalla la evolución de las suscripciones y bajas de suscripción de su servicio.
+Solo se puede acceder a este informe desde la página Servicio a través del menú avanzado **[!UICONTROL Profiles & Audiences]** > **[!UICONTROL Services]**. Para obtener más información, consulte esta [página](../../audiences/using/monitoring-subscriptions.md#service-reports).
 
 ![](assets/service-summary.png)
 
-La variable **[!UICONTROL Subscription evolution curves]** la visualización detalla el número de suscripciones y bajas de suscripción en función del **[!UICONTROL Period]** seleccionado en la barra desplegable.
+El **[!UICONTROL Subscription evolution curves]** La visualización de detalla el número de suscripciones y bajas de suscripción según la variable **[!UICONTROL Period]** seleccionado en la barra desplegable.
 
-La variable **[!UICONTROL Overall subscription evolution]** le permite ver la evolución de sus suscriptores a lo largo de diferentes periodos de tiempo.
+El **[!UICONTROL Overall subscription evolution]** le permite ver la evolución de sus suscriptores a lo largo de diferentes periodos de tiempo.

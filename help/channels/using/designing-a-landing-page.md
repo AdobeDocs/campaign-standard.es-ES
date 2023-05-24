@@ -16,7 +16,7 @@ ht-degree: 97%
 
 ---
 
-# Diseño de una página de destino{#designing-a-landing-page}
+# Diseño de una página de aterrizaje{#designing-a-landing-page}
 
 ## Acerca del diseño de contenido de una página de aterrizaje {#about-content-design}
 
@@ -28,7 +28,7 @@ El contenido de las páginas de aterrizaje se diseña mediante el editor de cont
 
 >[!NOTE]
 >
->Para el diseño de correo electrónico, si la instancia se instaló antes de la versión 19.0 de Adobe Campaign Standard, seguirá teniendo acceso al editor de contenido de correo electrónico heredado. La interfaz, los principios de uso y la configuración son esencialmente los mismos que se describen a continuación para páginas de aterrizaje. Sin embargo, es posible que todas las funciones no estén disponibles ni se mantengan en el editor de contenido de correo electrónico anterior, que ya no se utiliza en la versión 19.0. Para editar rápidamente el contenido del correo electrónico mediante una interfaz de arrastrar y soltar con funciones extendidas, utilice el [Diseñador de correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md).
+>Para el diseño de correo electrónico, si la instancia se instaló antes de la versión 19.0 de Adobe Campaign Standard, seguirá teniendo acceso al editor de contenido de correo electrónico anterior. La interfaz, los principios de uso y la configuración son esencialmente los mismos que se describen a continuación para páginas de aterrizaje. Sin embargo, es posible que todas las funciones no estén disponibles ni se mantengan en el editor de contenido de correo electrónico anterior, que ya no se utiliza en la versión 19.0. Para editar rápidamente el contenido del correo electrónico mediante una interfaz de arrastrar y soltar con funciones extendidas, utilice el [Diseñador de correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md).
 
 En esta página se describen las características específicas del editor de contenido de páginas de aterrizaje. Para obtener más información sobre las acciones comunes para una o varias actividades de marketing, consulte estas secciones en la guía **Diseño de contenido de correo electrónico**:
 
