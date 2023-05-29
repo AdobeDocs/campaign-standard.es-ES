@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '648'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -126,4 +126,4 @@ Adobe Campaign Standard se esfuerza por proporcionar un grado de accesibilidad c
 
 Le recomendamos que utilice el [Formulario de comentarios de accesibilidad de Adobe](https://www.adobe.com/accessibility/feedback.html) para enviarnos sugerencias de mejora y si encuentra problemas de accesibilidad.
 
-También puede consultar las [Notas de la versión de Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html#release-notes) para estar al tanto de las mejoras y características nuevas.
+También puede consultar las [Notas de la versión de Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=es#release-notes) para estar al tanto de las mejoras y características nuevas.
