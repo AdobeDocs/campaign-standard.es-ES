@@ -8,9 +8,9 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
+source-git-commit: 17522f4df86c7fb46593472316d57b4ba4acee2b
 workflow-type: tm+mt
-source-wordcount: '2507'
+source-wordcount: '2471'
 ht-degree: 1%
 
 ---
@@ -43,11 +43,6 @@ Si ha configurado la integración para que emita llamadas regulares de eliminaci
 
 1. Verificar que el registro se haya eliminado de ambos sistemas
 
-A continuación se muestran vínculos para guiarle en la implementación de las solicitudes de acceso o eliminación relacionadas con la privacidad en cada sistema:
-
-* [Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/)
-
-* [Adobe Campaign Standard](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)
 
 >[!IMPORTANT]
 >
@@ -155,7 +150,7 @@ Puede encontrar una descripción general más completa de los recursos personali
 
 ### Protecciones de integración
 
-Al planificar el uso de esta integración, deben tenerse en cuenta las siguientes limitaciones. Consulte con su técnico de Adobe si cree que sobrepasa estas barreras.
+Al planificar el uso de esta integración, deben tenerse en cuenta las siguientes limitaciones. Consulte con su representante técnico de Adobe si cree que sobrepasa estas barreras.
 
 * Deberá obtener la licencia del paquete de Campaign adecuado para admitir el volumen de llamadas al motor generado por la integración. Si se supera el volumen de llamadas al motor con licencia, podría causar una degradación en el rendimiento de la campaña.
 
