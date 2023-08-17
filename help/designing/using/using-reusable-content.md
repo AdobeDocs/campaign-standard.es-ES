@@ -249,7 +249,7 @@ Al editar un correo electrónico con el Diseñador de correo electrónico, puede
 
 * No se puede guardar como fragmento una estructura que contenga campos de personalización, contenido dinámico u otro fragmento.
 * Solo puede seleccionar estructuras adyacentes entre sí.
-   <!-- - You cannot select an empty structure.-->
+  <!-- - You cannot select an empty structure.-->
 
 1. Al editar un correo electrónico en el Diseñador de correo electrónico, seleccione **[!UICONTROL Save as fragment]** en la barra de herramientas principal.
 

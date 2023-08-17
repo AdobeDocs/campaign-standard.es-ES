@@ -45,23 +45,23 @@ La lista desplegable **[!UICONTROL Layout]** le ofrece cuatro opciones diferente
 
 * **[!UICONTROL Full page]**: este tipo de diseño cubre toda la pantalla de los dispositivos de destino.
 
-   Admite componentes multimedia (imagen, vídeo), de texto y botones.
+  Admite componentes multimedia (imagen, vídeo), de texto y botones.
 
 * **[!UICONTROL Large modal]**: este diseño aparece en una ventana grande como si fuera una alerta. La aplicación sigue visible en segundo plano.
 
-   Admite componentes multimedia (imagen, vídeo), de texto y botones.
+  Admite componentes multimedia (imagen, vídeo), de texto y botones.
 
 * **[!UICONTROL Small modal]**: este diseño aparece como una ventana pequeña como si fuera una alerta. La aplicación sigue visible en segundo plano.
 
-   Admite componentes multimedia (imagen, vídeo), de texto y botones.
+  Admite componentes multimedia (imagen, vídeo), de texto y botones.
 
 * **[!UICONTROL Alert]**: este tipo de diseño aparece como un mensaje de alerta de sistema operativo nativo.
 
-   Solo admite componentes de texto y botones.
+  Solo admite componentes de texto y botones.
 
 * **[!UICONTROL Local notification]**: este tipo de diseño aparece como un mensaje de banner.
 
-   Solo admite sonido, texto y destino. Para obtener más información sobre las notificaciones locales, consulte [Personalización de un tipo de mensaje de notificación local](#customizing-a-local-notification-message-type).
+  Solo admite sonido, texto y destino. Para obtener más información sobre las notificaciones locales, consulte [Personalización de un tipo de mensaje de notificación local](#customizing-a-local-notification-message-type).
 
 Desde la ventana derecha del editor de contenido, se puede obtener una vista previa de todos los diseños en diferentes dispositivos, como teléfonos, tabletas o plataforma (por ejemplo Android o iOS) y según la orientación (por ejemplo horizontal o vertical).
 

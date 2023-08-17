@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # Introducción a la aplicación de integración de autoservicio {#gs-self-service-app}
 
-La integración de Adobe Campaign Standard con la aplicación de integración de autoservicio de Microsoft Dynamics 365 le permite configurar flujos de datos, controlar si se están ejecutando o no y en qué entorno. Sin embargo, debe completar algunos requisitos previos antes de empezar a utilizar la aplicación de integración de autoservicio.
+La aplicación de integración de Adobe Campaign Standard con Microsoft Dynamics 365 le permite configurar flujos de datos, controlar si se están ejecutando o no y en qué entorno. Sin embargo, debe completar algunos requisitos previos antes de empezar a utilizar la aplicación de integración de autoservicio.
 
 ## Conceptos y restricciones {#concepts-and-restrictions}
 
@@ -73,7 +73,7 @@ Cuando vaya a la interfaz de usuario por primera vez, debería ver una página c
 >
 > Es normal recibir alertas que mencionan que es &quot;incapaz de conectarse&quot; a Adobe Campaign Standard o Microsoft Dynamics 365 si la configuración de la aplicación aún no se ha establecido.
 
-Compruebe que las selecciones &quot;ORG&quot; e &quot;INSTANCE&quot; son las que planea configurar.  Si no es así, haga clic en la lista desplegable y seleccione la organización y la instancia correctas.
+Compruebe que las selecciones &quot;ORG&quot; e &quot;INSTANCE&quot; sean las que planea configurar.  Si no es así, haga clic en la lista desplegable y seleccione la organización y la instancia correctas.
 
 >[!IMPORTANT]
 >
@@ -111,6 +111,7 @@ Una vez que la configuración sea correcta, haga clic en **[!UICONTROL Play]** j
 >[!IMPORTANT]
 >
 >Nosotros **enérgico** Se recomienda ejecutar esto primero en los entornos de ensayo o desarrollo antes de ejecutar en producción. Compruebe que la instancia de stage/dev esté seleccionada en el encabezado.
+>
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
 

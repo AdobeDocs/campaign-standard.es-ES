@@ -87,15 +87,15 @@ Para ambos **[!UICONTROL Padding]** y **[!UICONTROL Margin]**, haga clic en el i
 
 * **Alineación de texto**: coloque el cursor del ratón sobre un texto y utilice la barra de herramientas contextual para alinearlo.
 
-   ![](assets/des_text_alignment.png)
+  ![](assets/des_text_alignment.png)
 
 * **Alineación horizontal** se puede aplicar a texto, imágenes y botones, actualmente no a **[!UICONTROL Divider]** y **[!UICONTROL Social]** componentes.
 
-   ![](assets/des_horizontal_alignment.png)
+  ![](assets/des_horizontal_alignment.png)
 
 * Para establecer **alineación vertical**, seleccione una columna dentro de un componente de estructura y elija una opción en el panel Configuración.
 
-   ![](assets/des_set_vertical_alignment.png)
+  ![](assets/des_set_vertical_alignment.png)
 
 ## Estableciendo fondos {#about-backgrounds}
 
@@ -114,35 +114,35 @@ A continuación se muestran los ajustes de fondo disponibles que puede utilizar.
 
 * Establezca un **[!UICONTROL Background color]** para todo el correo electrónico. Asegúrese de seleccionar la configuración del cuerpo en el árbol de navegación accesible desde la paleta izquierda.
 
-   ![](assets/des_background_body.png)
+  ![](assets/des_background_body.png)
 
 * Defina el mismo color de fondo para todos los componentes de la estructura seleccionando **[!UICONTROL Viewport background color]**. Esta opción le permite seleccionar una configuración diferente del color de fondo.
 
-   ![](assets/des_background_viewport.png)
+  ![](assets/des_background_viewport.png)
 
 * Defina un color de fondo diferente para cada componente de estructura. Seleccione una estructura en el árbol de navegación accesible desde la paleta izquierda para aplicar un color de fondo específico únicamente a esa estructura.
 
-   ![](assets/des_background_structure.png)
+  ![](assets/des_background_structure.png)
 
-   Asegúrese de no establecer un color de fondo de ventanilla, ya que podría ocultar los colores de fondo de la estructura.
+  Asegúrese de no establecer un color de fondo de ventanilla, ya que podría ocultar los colores de fondo de la estructura.
 
 * Establezca un **[!UICONTROL Background image]** para el contenido de un componente de estructura.
 
-   ![](assets/des_background_image.png)
+  ![](assets/des_background_image.png)
 
-   >[!NOTE]
-   >
-   >Algunos programas de correo electrónico no admiten imágenes de fondo. Si no se admite, se utilizará en su lugar el color de fondo de la fila. Asegúrese de seleccionar un color de fondo alternativo adecuado en caso de que la imagen no se pueda mostrar.
+  >[!NOTE]
+  >
+  >Algunos programas de correo electrónico no admiten imágenes de fondo. Si no se admite, se utilizará en su lugar el color de fondo de la fila. Asegúrese de seleccionar un color de fondo alternativo adecuado en caso de que la imagen no se pueda mostrar.
 
 * Establezca un color de fondo en el nivel de columna.
 
-   ![](assets/des_background_column.png)
+  ![](assets/des_background_column.png)
 
-   >[!NOTE]
-   >
-   >Este es el caso de uso más común. Adobe recomienda configurar los colores de fondo en el nivel de columna, ya que esto permite una mayor flexibilidad al editar todo el contenido del correo electrónico.
+  >[!NOTE]
+  >
+  >Este es el caso de uso más común. Adobe recomienda configurar los colores de fondo en el nivel de columna, ya que esto permite una mayor flexibilidad al editar todo el contenido del correo electrónico.
 
-   También puede establecer una imagen de fondo en el nivel de columna, pero esto no se suele utilizar.
+  También puede establecer una imagen de fondo en el nivel de columna, pero esto no se suele utilizar.
 
 ### Ejemplo: ajuste de alineación vertical y relleno {#example--adjusting-vertical-alignment-and-padding}
 

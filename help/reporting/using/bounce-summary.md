@@ -35,9 +35,9 @@ El **Motivos del rechazo** contiene los datos disponibles para los tipos de erro
 * **[!UICONTROL Mailbox full]**: Tipo de error generado cuando la bandeja de entrada del destinatario está llena. Hay cinco intentos de enviar el mensaje antes de que se genere este error.
 * **[!UICONTROL Not connected]**: Tipo de error generado cuando el teléfono móvil del destinatario está apagado o no está conectado a una red en el momento en que se envía el mensaje.
 
-   >[!NOTE]
-   >
-   >Este tipo de error solo afecta a las entregas de canales móviles.
+  >[!NOTE]
+  >
+  >Este tipo de error solo afecta a las entregas de canales móviles.
 
 * **[!UICONTROL Refused]**: Tipo de error generado cuando el proveedor de servicios de Internet (ISP) rechaza una dirección. Por ejemplo, cuando un software antispam ha aplicado una regla de seguridad.
 

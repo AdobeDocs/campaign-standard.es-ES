@@ -98,7 +98,7 @@ Mientras que los perfiles con la unidad organizativa de Geometrixx son de solo l
 >
 >Si ya ha importado la base de datos de clientes, es necesario realizar una actualización para establecer los valores de las unidades organizativas en los perfiles ya importados.
 
-Si su organización necesita aislar los perfiles contactados por cada una de las diferentes marcas, puede dividir los perfiles por sus unidades organizativas.
+Si su organización necesita aislar los perfiles contactados por cada una de sus diferentes marcas, puede dividir los perfiles por sus unidades organizativas.
 
 De forma predeterminada, los campos de unidad organizativa no están disponibles en los perfiles y deben añadirse.
 

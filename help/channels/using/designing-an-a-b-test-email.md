@@ -51,14 +51,15 @@ En el contexto específico de una prueba A/B:
    * **[!UICONTROL Winning strategy]**: seleccione el criterio que se debe usar para determinar la variante ganadora.
    * **[!UICONTROL Target breakdown]**: elija qué porcentaje de destinatario debe recibir cada variante. El porcentaje restante recibe la variante ganadora una vez que se haya determinado. Los perfiles de destino se seleccionan de forma aleatoria.
 
-      >[!NOTE]
-      >
-      >Si la población total es inferior a 50 000, cada variante debe representar al menos el 10 % de la población total.
+     >[!NOTE]
+     >
+     >Si la población total es inferior a 50 000, cada variante debe representar al menos el 10 % de la población total.
 
    * **[!UICONTROL Winner sending method]**: elija si desea que la variante ganadora se envíe automáticamente una vez determinada o si desea confirmar manualmente el envío a la población restante.
    * **[!UICONTROL Test duration]**: especifique la duración de la prueba. La variante ganadora se determina automáticamente después de esta duración. Puede elegir manualmente la variante ganadora antes del final de la prueba en el panel de correo electrónico.
 
-      La prueba debe ser de al menos una hora para que todos los datos de seguimiento se recopilen y se tengan en cuenta correctamente para seleccionar la variante ganadora.
+     La prueba debe ser de al menos una hora para que todos los datos de seguimiento se recopilen y se tengan en cuenta correctamente para seleccionar la variante ganadora.
+
    ![](assets/ab_parameters.png)
 
 1. Una vez definidos los parámetros de prueba A/B, pase al siguiente paso del asistente y defina el contenido del correo electrónico. En función de la plantilla que haya elegido, puede definir varios asuntos, varios nombres de remitente o varios contenidos diferentes. Utilice el carrusel para desplazarse entre las distintas variantes. Para obtener más información, consulte la sección del [editor de contenido](../../designing/using/designing-content-in-adobe-campaign.md).

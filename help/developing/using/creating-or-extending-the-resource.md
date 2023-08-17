@@ -38,15 +38,15 @@ Para crear o ampliar un recurso:
 
    * **[!UICONTROL Create a new resource]**: introduzca el **[!UICONTROL Label]** y **[!UICONTROL ID]** campos. El campo **[!UICONTROL ID]** es obligatorio. Si deja vacío el campo Label, se rellenará automáticamente a partir del ID.
 
-      ![](assets/schema_extension_2.png)
+     ![](assets/schema_extension_2.png)
 
-      >[!NOTE]
-      >
-      >Utilice un máximo de 30 caracteres.
+     >[!NOTE]
+     >
+     >Utilice un máximo de 30 caracteres.
 
    * **[!UICONTROL Extend an existing resource]**: seleccione el recurso que desea ampliar.
 
-      ![](assets/schema_extension_10.png)
+     ![](assets/schema_extension_10.png)
 
 1. Clic **[!UICONTROL Create]** para crear el recurso, que luego se encargará de lo siguiente **[!UICONTROL Draft]** estado en caso de un nuevo recurso o de la **[!UICONTROL Editing]** estado en caso de extensión.
 

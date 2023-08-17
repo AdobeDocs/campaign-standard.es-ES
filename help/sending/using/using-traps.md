@@ -29,7 +29,7 @@ Las trampas se diseñaron originalmente para los envíos de correo directo. Perm
 
 Para obtener más información sobre cómo añadir trampas a la audiencia de un correo postal, consulte [Adición de perfiles de prueba y trampa](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles).
 
-Para los demás canales de comunicación, puede añadir perfiles de prueba de trampa al destinatario principal para:
+Para los demás canales de comunicación, puede agregar perfiles de prueba de trampa al destinatario principal para lo siguiente:
 
 * Compruebe que su mensaje se haya enviado correctamente.
 * Obtenga y conserve una copia exacta de su mensaje.

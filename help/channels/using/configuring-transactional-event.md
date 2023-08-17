@@ -105,7 +105,7 @@ Puede enriquecer el contenido del mensaje transaccional con información de la b
 
 Es posible enriquecer el contenido del mensaje transaccional con información de **[!UICONTROL Profile and services Ext API]**. Para obtener más información, consulte [Ampliación de la API: Publicación de la extensión](../../developing/using/step-2--publish-the-extension.md)
 
-Esta información también se puede almacenar en nuevos recursos. En ese caso, el recurso debe estar vinculado al **[!UICONTROL Profile]** o **[!UICONTROL Service]** recursos directamente o a través de otra tabla. Por ejemplo, en la configuración siguiente, es posible enriquecer el contenido del mensaje transaccional con información de la **[!UICONTROL Product]** como la categoría de producto o el ID, si el **[!UICONTROL Product]** el recurso está vinculado al **[!UICONTROL Profile]** recurso.
+Esta información también se puede almacenar en nuevos recursos. En ese caso, el recurso debe estar vinculado al **[!UICONTROL Profile]** o **[!UICONTROL Service]** recursos directamente o a través de otra tabla. Por ejemplo, en la configuración siguiente, es posible enriquecer el contenido del mensaje transaccional con información del **[!UICONTROL Product]** como la categoría de producto o el ID, si el **[!UICONTROL Product]** el recurso está vinculado al **[!UICONTROL Profile]** recurso.
 
 ![](assets/message-center_usecaseschema.png)
 

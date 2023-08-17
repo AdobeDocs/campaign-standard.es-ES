@@ -39,11 +39,11 @@ La cuarentena y la inclusión en la lista de bloqueados no se aplican al mismo o
 
 * La **Cuarentena** solo se aplica a una **dirección** (o número de teléfono, etc.), no al propio perfil. Por ejemplo: un perfil cuya dirección de correo electrónico se haya puesto en cuarentena puede actualizar su perfil e introducir una nueva, y luego puede volver a recibir entregas. Del mismo modo, si dos perfiles tienen el mismo número de teléfono, ambos se verán afectados si el número está en cuarentena.
 
-   Las direcciones en cuarentena o los números de teléfono se muestran en los [registros de exclusión](#identifying-quarantined-addresses-for-a-delivery) (para una entrega) o en la [lista de cuarentena](#identifying-quarantined-addresses-for-the-entire-platform) (para toda la plataforma).
+  Las direcciones en cuarentena o los números de teléfono se muestran en los [registros de exclusión](#identifying-quarantined-addresses-for-a-delivery) (para una entrega) o en la [lista de cuarentena](#identifying-quarantined-addresses-for-the-entire-platform) (para toda la plataforma).
 
 * Al incluirse en la **lista de bloqueados**, no obstante, el **perfil** ya no se tendrá en cuenta en las entregas, por ejemplo, tras una baja (exclusión) de un canal determinado. Por ejemplo, si un perfil incluido en la lista de bloqueados del canal de correo electrónico tiene dos direcciones de correo electrónico, ambas se excluirán de la entrega. Para obtener más información sobre el proceso de lista de bloqueados de la, consulte [Acerca de la inclusión y la exclusión en Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
-   Puede comprobar si un perfil está en la lista de bloqueados de la para uno o más canales en la **[!UICONTROL No longer contact (on denylist)]** de la sección del perfil **[!UICONTROL General]** pestaña. Consulte [esta sección](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile).
+  Puede comprobar si un perfil está en la lista de bloqueados de la para uno o más canales en la **[!UICONTROL No longer contact (on denylist)]** de la sección del perfil **[!UICONTROL General]** pestaña. Consulte [esta sección](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile).
 
 >[!NOTE]
 >
@@ -125,11 +125,11 @@ También puede anular la cuarentena de una dirección manualmente.  Para elimina
 
 * Seleccione la dirección de la lista **[!UICONTROL Administration > Channels > Quarantines > Addresses]** lista y seleccione **[!UICONTROL Delete element]**.
 
-   ![](assets/quarantine-delete-address.png)
+  ![](assets/quarantine-delete-address.png)
 
 * Seleccione una dirección y cambie su **[!UICONTROL Status]** hasta **[!UICONTROL Valid]**.
 
-   ![](assets/quarantine-valid-status.png)
+  ![](assets/quarantine-valid-status.png)
 
 
 ### Actualizaciones masivas {#unquarantine-bulk}
@@ -142,7 +142,7 @@ En función del periodo de tiempo del problema, se indican a continuación las d
 
 * **Texto de error (texto de cuarentena)** contiene “550-5.1.1” Y **Texto de error (texto de cuarentena)** contiene “support.ISP.com”
 
-   donde “support.ISP.com” puede ser: “support.apple.com” o “support.google.com”, por ejemplo
+  donde “support.ISP.com” puede ser: “support.apple.com” o “support.google.com”, por ejemplo
 
 * **Actualizar estado (@lastModified)** en o después de DD/MM/AAAA HH:MM:SS AM
 * **Actualizar estado (@lastModified)** en DD/MM/AAAA HH:MM:SS PM
@@ -157,7 +157,7 @@ Adobe Campaign administra la cuarentena según el tipo de error de entrega y el 
 * **Error grave:** la dirección de correo electrónico correspondiente se envía inmediatamente a la cuarentena.
 * **Error leve**: los errores leves no envían inmediatamente una dirección a la cuarentena, sino que se suman a un contador de errores. Para obtener más información, consulte [Gestión de errores en software](#soft-error-management).
 
-   <!--
+  <!--
   When the error counter reaches the limit threshold, the address goes into quarantine. In the default configuration, the threshold is set at five errors, where two errors are significant if they occur at least 24 hours apart. The address is placed in quarantine at the fifth error. The error counter threshold can be modified. For more on this, refer to this [page](../../administration/using/configuring-email-channel.md#email-channel-parameters).
   When a delivery is successful after a retry, the error counter of the address which was prior to that quarantined is reinitialized. The address status changes to **[!UICONTROL Valid]** and it is deleted from the list of quarantines after two days by the **[!UICONTROL Database cleanup]** workflow.
   -->

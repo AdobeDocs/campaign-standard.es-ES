@@ -102,15 +102,15 @@ Para realizar esto, siga los pasos a continuación:
 
    * Seleccione un bloque y, en el **[!UICONTROL Form data]** , elija **[!UICONTROL Checkbox]** como el tipo de campo.
 
-      ![](assets/lp_field-type-checkbox.png)
+     ![](assets/lp_field-type-checkbox.png)
 
    * Si está familiarizado con HTML, también puede insertar manualmente una casilla de verificación utilizando la variable **[!UICONTROL Show source]** botón.
 
-      ![](assets/lp_show_source.png)
+     ![](assets/lp_show_source.png)
 
-      Esto le permite insertar la casilla de verificación en cualquier lugar de la página que le resulte conveniente.
+     Esto le permite insertar la casilla de verificación en cualquier lugar de la página que le resulte conveniente.
 
-      ![](assets/lp_manual-checkbox.png)
+     ![](assets/lp_manual-checkbox.png)
 
 1. Asegúrese de que la casilla de verificación esté seleccionada en el contenido. El **[!UICONTROL Type]** La lista desplegable se muestra en la variable **[!UICONTROL Form data]** de la paleta izquierda. Seleccione **[!UICONTROL Service and subscription]** en la lista.
 
@@ -150,13 +150,13 @@ Para insertar y configurar esta casilla de verificación, haga lo siguiente:
 
    * Seleccione un bloque y, en el **[!UICONTROL Form data]** , elija **[!UICONTROL Checkbox]** como el tipo de campo.
 
-      ![](assets/lp_field-type-checkbox.png)
+     ![](assets/lp_field-type-checkbox.png)
 
    * Si está familiarizado con HTML, también puede insertar manualmente una casilla de verificación utilizando la variable **[!UICONTROL Show source]** botón.
 
-      ![](assets/lp_show_source.png)
+     ![](assets/lp_show_source.png)
 
-      <!--Manually insert a checkbox, such as in the example below:
+     <!--Manually insert a checkbox, such as in the example below:
 
       <!--Click **[!UICONTROL Hide source]**.-->
 

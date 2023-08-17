@@ -38,11 +38,11 @@ El objetivo de este flujo de trabajo es exportar una lista de perfiles en forma 
 
    * Formato de salida CSV
 
-      ![](assets/wkf_data_export7.png)
+     ![](assets/wkf_data_export7.png)
 
    * Formato de fecha
 
-      ![](assets/wkf_data_export9.png)
+     ![](assets/wkf_data_export9.png)
 
 1. Confirme su actividad.
 1. Arrastrar y soltar una [Transferir archivo](../../automating/using/transfer-file.md) actividad después de **[!UICONTROL Extract file]** actividad para recuperar el archivo de extracción en una cuenta externa.

@@ -96,9 +96,9 @@ Esta configuración le permite mostrar una barra de control en la pantalla de re
 
 * **[!UICONTROL Authorize creating]**: esta opción permite activar la creación de elementos del recurso. Por lo tanto, el usuario puede añadir registros adicionales.
 
-   >[!NOTE]
-   >
-   >Primero debe activar la pantalla de detalles vinculada al recurso para que esta opción esté disponible.
+  >[!NOTE]
+  >
+  >Primero debe activar la pantalla de detalles vinculada al recurso para que esta opción esté disponible.
 
 * **[!UICONTROL Authorize duplicating]**: esta opción permite activar registros duplicados vinculados al recurso personalizado.
 * **[!UICONTROL Authorize deleting]**: esta opción permite activar la eliminación de registros vinculados al recurso personalizado.

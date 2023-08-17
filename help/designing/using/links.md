@@ -35,16 +35,16 @@ Puede insertar un vínculo en cualquier elemento de página: imagen, palabra, gr
 
    * **Vínculo externo**: inserte un vínculo a una dirección URL externa.
 
-      Puede definir la personalización de las direcciones URL. Consulte [Personalización de direcciones URL](personalization.md#personalizing-urls).
+     Puede definir la personalización de las direcciones URL. Consulte [Personalización de direcciones URL](personalization.md#personalizing-urls).
 
    * **Página de aterrizaje**: dé acceso a una página de aterrizaje de Adobe Campaign.
    * **Vínculo de suscripción**: inserte un vínculo para suscribirse a un servicio de Adobe Campaign.
    * **Vínculo de baja**: inserte un vínculo para cancelar la suscripción a un servicio de Adobe Campaign.
    * **Vínculo que define una acción**: defina una acción cuando se haga clic en un elemento de la página de aterrizaje.
 
-      >[!NOTE]
-      >
-      >Este tipo de vínculo solo está disponible para páginas de aterrizaje.
+     >[!NOTE]
+     >
+     >Este tipo de vínculo solo está disponible para páginas de aterrizaje.
 
 1. Se puede modificar el texto mostrado al destinatario.
 1. Puede establecer el comportamiento del explorador cuando el usuario haga clic en el vínculo (por ejemplo, para abrir una nueva ventana).

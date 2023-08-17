@@ -147,9 +147,9 @@ Sin embargo, la eliminación de un mensaje transaccional solo se puede realizar 
 
 * **Mensajes transaccionales**: a menos que se vincule otro mensaje transaccional al evento correspondiente, si se cancela la publicación del mensaje, la configuración de evento también debe cancelarse para eliminar correctamente el mensaje transaccional. Para obtener más información, consulte [Cancelación de la publicación de un evento](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
 
-   >[!IMPORTANT]
-   >
-   >Al eliminar un mensaje transaccional que ya ha enviado notificaciones, también se eliminan sus registros de seguimiento y envíos.
+  >[!IMPORTANT]
+  >
+  >Al eliminar un mensaje transaccional que ya ha enviado notificaciones, también se eliminan sus registros de seguimiento y envíos.
 
 * **Mensajes transaccionales de una plantilla de evento lista para usar (mensajes transaccionales internos)**: si un mensaje transaccional interno es el único asociado al evento interno correspondiente, no se puede eliminar. Primero debe crear otro mensaje transaccional duplicándolo o en el menú **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Transactional message templates]**.
 

@@ -117,8 +117,7 @@ ht-degree: 12%
                </tr>
                <tr>
                   <td>createdBy (userBase)</td>
-                  <td>Creada por
-</td>
+                  <td>Creado por</td>
                   <td>vincular </td>
                   <td> </td>
                </tr>

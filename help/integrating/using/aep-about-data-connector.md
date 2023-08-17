@@ -41,7 +41,6 @@ En las siguientes secciones se describen los pasos clave para realizar una asign
 >* [Habilitar un conjunto de datos para el perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/datasets/dataset.html)
 >* [Configuración de un conjunto de datos para el perfil del cliente en tiempo real y el servicio de identidad mediante API](https://experienceleague.adobe.com/docs/experience-platform/catalog/api/getting-started.html)
 
-
 ## Conceptos clave {#key-concepts}
 
 * La asignación predeterminada solo está disponible para campos que se proporcionan en Campaign Standard de forma predeterminada. Para ingerir todos los campos y recursos personalizados, cada cliente debe definir su propia asignación.
@@ -60,11 +59,11 @@ En las siguientes secciones se describen los pasos clave para realizar una asign
 
 * El servicio de ID de Experience Cloud (ECID) es un identificador de dispositivo que se envía de forma predeterminada con los eventos de experiencia.
 
-   Se trata de un ID único y persistente asignado a un visitante que el servicio de ID de Platform puede utilizar para identificar el mismo visitante y sus datos en diferentes soluciones de Experience Cloud. Para obtener más información, consulte [Ayuda del servicio de identidad de Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es).
+  Se trata de un ID único y persistente asignado a un visitante que el servicio de ID de Platform puede utilizar para identificar el mismo visitante y sus datos en diferentes soluciones de Experience Cloud. Para obtener más información, consulte [Ayuda del servicio de identidad de Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es).
 
-   >[!NOTE]
-   >
-   >Tenga en cuenta que, si dos o más perfiles comparten un mismo dispositivo, el ECID sería el mismo para estos dos perfiles en el servicio de identidad unificado.
+  >[!NOTE]
+  >
+  >Tenga en cuenta que, si dos o más perfiles comparten un mismo dispositivo, el ECID sería el mismo para estos dos perfiles en el servicio de identidad unificado.
 
 ## Limitaciones {#limitations}
 

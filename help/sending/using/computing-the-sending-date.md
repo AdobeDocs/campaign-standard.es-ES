@@ -41,23 +41,23 @@ Puede programarlo mediante un flujo de trabajo.
 
    * Rellene el **[!UICONTROL Segment code]** campo: introduzca manualmente la fecha y la hora deseadas para enviar el mensaje.
 
-      Por ejemplo, desea enviar el primer lote el 1 de junio a las 10:00 AM GMT+1. Utilice el siguiente formato: **DD/MM/YYYY hh:mm:ss+tz**.
+     Por ejemplo, desea enviar el primer lote el 1 de junio a las 10:00 AM GMT+1. Utilice el siguiente formato: **DD/MM/YYYY hh:mm:ss+tz**.
 
-      ![](assets/send-time_opt_segment_configuration.png)
+     ![](assets/send-time_opt_segment_configuration.png)
 
-      Para enviar el siguiente lote el día siguiente, introduzca **02-06-2017 10:00:00+01** para el segundo segmento.
+     Para enviar el siguiente lote el día siguiente, introduzca **02-06-2017 10:00:00+01** para el segundo segmento.
 
-      Para los segmentos restantes, defina los lotes siguientes de la siguiente manera:
+     Para los segmentos restantes, defina los lotes siguientes de la siguiente manera:
 
       * **2017-06-03 10:00:00+01**
       * **2017-06-04 10:00:00+01**
       * **2017-06-05 10:00:00+01**
+
    * Asegúrese de seleccionar la variable **[!UICONTROL Limit the population of this segment]** opción.
 
-      En el **[!UICONTROL Limitation]** pestaña, seleccione **[!UICONTROL Random sampling]** e introduzca el porcentaje deseado para cada segmento: 10 para el primer lote, 15 para el segundo, etc.
+     En el **[!UICONTROL Limitation]** pestaña, seleccione **[!UICONTROL Random sampling]** e introduzca el porcentaje deseado para cada segmento: 10 para el primer lote, 15 para el segundo, etc.
 
-      ![](assets/send-time_opt_segment_limitation.png)
-
+     ![](assets/send-time_opt_segment_limitation.png)
 
 1. Una vez definidos todos los segmentos, seleccione **[!UICONTROL Generate all segments in the same transition]** y haga clic en **[!UICONTROL Confirm]**.
 
@@ -122,13 +122,12 @@ Puede programarlo mediante un flujo de trabajo.
       * 2:00 PM - 4:00 PM: **6**. Cerrando el centro de llamadas entre las 12:00 y las 2:00 p.m., el mensaje se enviará al tercer trimestre de la población objetivo a las 2:00 p.m. (fecha de contacto + 6 horas).
       * 4:00 PM - 6:00 PM: **8**. El mensaje se enviará al último trimestre de la población objetivo a las 4:00 p. m. (fecha de contacto + 8 horas).
 
-      >[!NOTE]
-      >
-      >La fecha de contacto se define en la actividad Entregar correo electrónico más adelante en el flujo de trabajo.
+     >[!NOTE]
+     >
+     >La fecha de contacto se define en la actividad Entregar correo electrónico más adelante en el flujo de trabajo.
 
    * Asegúrese de seleccionar la variable **[!UICONTROL Limit the population of this segment]** opción.
    * En el **[!UICONTROL Limitation]** pestaña, seleccione **[!UICONTROL Random sampling]** e introduzca el porcentaje deseado para cada segmento: **25**.
-
 
 1. Una vez definidos todos los segmentos, seleccione **[!UICONTROL Generate all segments in the same transition]** y haga clic en **[!UICONTROL Confirm]**.
 

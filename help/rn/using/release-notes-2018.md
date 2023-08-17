@@ -47,15 +47,15 @@ ht-degree: 9%
 * En los registros generales hay ahora una distinción entre el número máximo de conexiones y el número máximo de mensajes por hora. Cuando se alcanzan los límites, es posible saber por qué el rendimiento está limitado. Anteriormente, el mismo mensaje (“cuota alcanzada”) se aplica a ambos casos.
 * Al configurar una aplicación móvil en Campaign, el usuario ahora puede saber si el certificado de iOS y la clave del servidor de Android se han cargado correctamente y su fecha de caducidad.
 
-   Para obtener más información, consulte la documentación detallada sobre cómo configurar una aplicación móvil mediante [SDK V4](https://helpx.adobe.com/es/campaign/kb/configuring-app-sdkv4.html) y [SDK V5](https://helpx.adobe.com/es/campaign/kb/configuring-app-sdk.html).
+  Para obtener más información, consulte la documentación detallada sobre cómo configurar una aplicación móvil mediante [SDK V4](https://helpx.adobe.com/es/campaign/kb/configuring-app-sdkv4.html) y [SDK V5](https://helpx.adobe.com/es/campaign/kb/configuring-app-sdk.html).
 
 * Dirija la actividad a usuarios en una aplicación móvil específica seleccionando una aplicación móvil mientras define las propiedades de la campaña. Esta función es para canales de mensajería push y en la aplicación.
 
-   Para obtener más información, consulte la [documentación detallada](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification).
+  Para obtener más información, consulte la [documentación detallada](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification).
 
 * Al seleccionar un bloque de contenido mediante la interfaz de Creative Designer, todos los bloques de contenido de la lista ahora se cargan y muestran. (CAMP-27311)
 
-   Para obtener más información, consulte [documentación detallada](../../designing/using/personalization.md#adding-a-content-block).
+  Para obtener más información, consulte [documentación detallada](../../designing/using/personalization.md#adding-a-content-block).
 
 **Parches**
 
@@ -455,7 +455,7 @@ Pueden producirse algunos problemas al utilizar vínculos de ayuda contextual de
   </tr> 
   <tr> 
    <td> Insertar nuevas funciones<br /> </td> 
-   <td> Vista previa de mensajes push: revise las notificaciones push en dispositivos iOS y Android desde el editor de contenido para ver exactamente lo que verán los destinatarios antes de probar o ejecutar el envío.<br /> Para obtener más información, consulte la <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">documentación detallada</a>.<br /> Contenido disponible: cuando una aplicación no se abre en mucho tiempo, sus datos pueden quedar obsoletos. Esto hace que los datos tengan que actualizarse o reemplazarse en el momento en que un usuario finalmente abre la aplicación, lo que puede causar retrasos en el uso de la aplicación. Con la compatibilidad añadida de Contenido disponible, los usuarios de Adobe Campaign pueden activar su aplicación para actualizar sus datos en segundo plano al enviar una notificación push, lo que permite la buena coherencia y el control de la experiencia en la aplicación de un usuario.<br /> Contenido mutable: con la ayuda de Contenido mutable, ahora los usuarios de Adobe Campaign pueden aprovechar las extensiones de su aplicación móvil para modificar aún más el contenido o la presentación de las notificaciones push entrantes enviadas desde Adobe Campaign. Por ejemplo, los usuarios pueden aprovechar el contenido mutable para lo siguiente: <br /> 
+   <td> Vista previa de mensajes push: revise las notificaciones push en dispositivos iOS y Android desde el editor de contenido para ver exactamente lo que verán los destinatarios antes de probar o ejecutar el envío.<br /> Para obtener más información, consulte la <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">documentación detallada</a>.<br /> Contenido disponible: cuando una aplicación no se abre en mucho tiempo, sus datos pueden quedar obsoletos. Esto hace que los datos tengan que actualizarse o reemplazarse en el momento en que un usuario finalmente abre la aplicación, lo que puede causar retrasos en el uso de la aplicación. Con la compatibilidad añadida de Contenido disponible, los usuarios de Adobe Campaign pueden activar su aplicación para actualizar sus datos en segundo plano al enviar una notificación push, lo que permite una mayor coherencia y control sobre la experiencia en la aplicación de un usuario.<br /> Contenido mutable: con la ayuda de Contenido mutable, ahora los usuarios de Adobe Campaign pueden aprovechar las extensiones de su aplicación móvil para modificar aún más el contenido o la presentación de las notificaciones push entrantes enviadas desde Adobe Campaign. Por ejemplo, los usuarios pueden aprovechar el contenido mutable para lo siguiente: <br /> 
     <ul> 
      <li> descifrar datos que se han entregado en formato cifrado </li> 
      <li> descargar imágenes u otros archivos multimedia y añadirlos como archivos adjuntos a una notificación </li> 

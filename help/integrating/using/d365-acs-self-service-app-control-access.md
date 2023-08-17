@@ -31,6 +31,7 @@ En esta sección aprenderá a conceder acceso a la integración de Adobe Campaig
 >[!IMPORTANT]
 >
 > Estos pasos requieren lo siguiente **Administrador** función en el Experience Cloud de su organización.
+>
 
 1. Vaya a https://experience.adobe.com/ e inicie sesión en Adobe Experience Cloud.
 1. Acceda a la **Admin Console**.
@@ -45,6 +46,7 @@ En esta sección aprenderá a conceder acceso a la integración de Adobe Campaig
    >[!IMPORTANT]
    >
    >Los pasos restantes de esta sección se realizarán para cada una de las instancias de Campaign (desarrollo, texto, producción).
+   >
 
 1. Haga clic en la primera instancia para configurarla.
 

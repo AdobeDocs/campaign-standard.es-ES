@@ -179,7 +179,7 @@ El valor **N/D** a veces puede aparecer en los informes dinámicos. Esto se pued
 * Al arrastrar y soltar **[!UICONTROL Transactional Delivery]** dimensión a sus informes, el valor **N/D** podría aparecer como resultado. Esto sucede porque el informe dinámico recupera todos los envíos aunque no sean transaccionales. Esto también puede ocurrir cuando arrastra y suelta el **[!UICONTROL Delivery]** dimensión al informe, pero en este caso, la variable **N/D** representará los envíos transaccionales.
 * Cuando se utiliza una dimensión con una métrica que no está relacionada con la dimensión. En el ejemplo siguiente, se añade un desglose con la variable **[!UICONTROL Tracking URL]** dimensión aunque la variable **[!UICONTROL Click]** el recuento se establece en 0 en esta entrega.
 
-   ![](assets/troubleshooting_4.png)
+  ![](assets/troubleshooting_4.png)
 
 ## Los informes de las entregas muestran datos incompletos al utilizar la asignación de destino personalizada
 

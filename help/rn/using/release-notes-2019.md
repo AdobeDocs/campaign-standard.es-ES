@@ -181,7 +181,7 @@ ht-degree: 9%
 * Se ha corregido un problema que podía impedir que el campo Vínculo se mostrara en el panel Configuración del Diseñador de correo electrónico (CAMP-33749).
 * Se ha corregido un problema con el icono de YouTube que era demasiado grande en los correos electrónicos enviados. (CAMP-33726)
 * Se ha corregido un problema de seguridad que hacía que el contenido de la página espejo se pudiera editar. (CAMP-33691)
-* Se ha corregido un problema que rompía la salida del HTML al usar el bueno símbolo que en el contenido dinámico. (CAMP-33688)
+* Se ha corregido un problema que rompía la salida del HTML al usar el símbolo mayor que en el contenido dinámico. (CAMP-33688)
 * Se ha corregido un problema que se producía al utilizar la opción Deshacer al editar texto en el Diseñador de correo electrónico. (CAMP-32565)
 * Se ha corregido un problema que creaba etiquetas adicionales al deshacer estilos en lugar de eliminarlos. (CAMP-32359)
 * Ahora puede definir si cada componente utilizado en un correo electrónico se mostrará solo en dispositivos de escritorio o solo en dispositivos móviles.
@@ -448,19 +448,19 @@ Se han añadido varias mejoras al canal de mensajería transaccional para optimi
 
 * Ya está disponible un conjunto de cuatro mejores plantillas de correo electrónico adaptables diseñadas por artistas de Behance.
 
-   Para obtener más información, consulte la [documentación detallada](../../designing/using/using-reusable-content.md#content-templates).
+  Para obtener más información, consulte la [documentación detallada](../../designing/using/using-reusable-content.md#content-templates).
 
 * Nuestra nueva experiencia de incorporación le ayuda a iniciar la creación de correos electrónicos más rápido y le facilita el acceso a la documentación y a los tutoriales.
 
-   Para obtener más información, consulte la [documentación detallada](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page).
+  Para obtener más información, consulte la [documentación detallada](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page).
 
 * Ahora tiene la flexibilidad para configurar el número de columnas y el ancho según sus necesidades.
 
-   Para obtener más información, consulte la [documentación detallada](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+  Para obtener más información, consulte la [documentación detallada](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 * Al editar en la vista móvil, puede ocultar ciertos componentes solo en la visualización móvil para un uso eficaz del espacio.
 
-   Para obtener más información, consulte la [documentación detallada](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
+  Para obtener más información, consulte la [documentación detallada](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
 * Ahora puede añadir canales sociales personalizados a la plantilla de correo electrónico además de los que ya están disponibles.
 * Se ha corregido un problema que impedía desplazarse hacia abajo en el menú de estructura al utilizar más de 18 estructuras. (CAMP-31173)
@@ -480,7 +480,7 @@ Se han añadido varias mejoras al canal de mensajería transaccional para optimi
 * La lista desplegable Zona horaria de la pantalla Creación de perfiles se ha movido de la sección Dirección a la sección superior de la interfaz.
 * Ahora puede agregar separadores al configurar pantallas de recursos personalizadas, lo que le permite organizar los campos en categorías.
 
-   Para obtener más información, consulte la [documentación detallada](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration).
+  Para obtener más información, consulte la [documentación detallada](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration).
 
 **Otros cambios**
 
@@ -588,7 +588,7 @@ Se han añadido varias mejoras al canal de mensajería transaccional para optimi
 * Se ha corregido un problema que impedía que se enviaran mensajes SMS que contuvieran el carácter &quot;one&quot; aunque la transliteración estuviera autorizada en la cuenta externa SMPP. (CAMP-29041)
 * Se ha corregido un problema que podía mostrar registros duplicados al utilizar una actividad de Segmentación en flujos de trabajo. (CAMP-28743)
 * Se ha corregido un problema que impedía eliminar una de las asignaciones de valores en una columna de una actividad de flujo de trabajo. (CAMP-28708)
-* Se ha corregido un problema en la actividad de transferencia de archivos, al utilizar caracteres comodín con la opción &quot;Probar para ver si el archivo existe&quot;. (CAMP-28977)
+* Se ha corregido un problema en la actividad Transferencia de archivos, al utilizar caracteres comodín con la opción &quot;Probar para ver si el archivo existe&quot;. (CAMP-28977)
 * Se ha corregido un problema con la actividad Transferencia de archivos que se podía producir al actualizar la configuración de la cuenta externa. (CAMP-28894)
 * Se ha corregido un problema con los filtros personalizados en el editor de consultas al utilizar la condición &quot;El correo electrónico no está vacío&quot;. (CAMP-28741)
 * Se ha corregido un problema que se podía producir al exportar tablas de recursos personalizadas con más de 100 000 registros. (CAMP-28150)

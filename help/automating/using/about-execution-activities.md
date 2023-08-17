@@ -11,7 +11,7 @@ exl-id: e2841f26-6f87-4bc4-baf7-c3c29dd69eae
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '65'
-ht-degree: 67%
+ht-degree: 83%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 67%
 
 En la paleta, en el lado izquierdo de la pantalla, despliegue la sección **[!UICONTROL Execution]**.
 
-Las siguientes actividades son específicas para organizar y ejecutar flujos de trabajo. Su tarea principal es coordinar las demás actividades.
+Las siguientes actividades son específicas para organizar y ejecutar flujos de trabajo. Su tarea principal es coordinar las otras actividades.
 
 ![](assets/wkf_execution_activities.png)
 

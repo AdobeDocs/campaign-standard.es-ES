@@ -29,6 +29,7 @@ Esta integración requiere las siguientes versiones de software:
 >[!CAUTION]
 >
 >Esta capacidad no está disponible de forma predeterminada como parte del producto. La implementación requiere la participación de Adobe Consulting. Póngase en contacto con el representante de su Adobe para obtener más información.
+>
 
 ## Principios
 
@@ -56,6 +57,7 @@ Las ventajas principales son:
 >[!CAUTION]
 >
 >Esta integración considera Dynamics 365 como la fuente fiable para la sincronización de contactos y entidades personalizadas.  Cualquier cambio en los atributos sincronizados debe realizarse en Dynamics 365, no en Adobe Campaign Standard.  Si los cambios se realizan en Campaign, pueden sobrescribirse finalmente durante la sincronización.
+>
 
 ## Pasos clave para implementar la integración con Microsoft Dynamics 365{#request-and-implement-this-integration}
 
@@ -73,9 +75,9 @@ Detalles del diagrama de flujo (se asigna a los pasos anteriores):
 * **Paso 4** : El equipo de incorporación al Adobe le proporcionará acceso a la interfaz de usuario de la aplicación de integración.
 * **Paso 5** : Podrá configurar sus asignaciones de datos, reemplazos, filtros, etc. y pruebe la integración desde la interfaz de usuario de la aplicación de integración.
 
-   >[!IMPORTANT]
-   >
-   > Si necesita la configuración de exclusión bidireccional o de Campaign a Dynamics 365, deberá enviar la solicitud al contacto técnico de Adobe para que se configuren los flujos de trabajo de exclusión en la instancia de Campaign. [Más información](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out).
+  >[!IMPORTANT]
+  >
+  > Si necesita la configuración de exclusión bidireccional o de Campaign a Dynamics 365, deberá enviar la solicitud al contacto técnico de Adobe para que se configuren los flujos de trabajo de exclusión en la instancia de Campaign. [Más información](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out).
 
 ### Configurar esta integración {#configure-this-integration}
 
@@ -90,6 +92,7 @@ Es necesario aprovisionar y configurar tres sistemas para esta integración:
 >Para cada sistema, estos pasos deben ser realizados por un **administrador**.
 >
 >Los pasos de esta documentación le guiarán a través de la creación de integraciones/registros que impliquen la asignación de permisos o acceso de administrador.  Es su responsabilidad asegurarse de que estos pasos cumplan con las políticas de su compañía antes de realizarlos, y realizarlos cuidadosamente.
+>
 
 ### Solicitar asistencia
 

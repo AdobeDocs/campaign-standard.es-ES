@@ -44,7 +44,7 @@ Una **marca** se define con las siguientes características:
 
 * Una **identidad**, que define y personaliza su marca. Esta sección contiene los campos siguientes:
 
-   ![](assets/branding_01.png)
+  ![](assets/branding_01.png)
 
    * **Etiqueta** visible en la interfaz.
    * **Nombre de la marca**.
@@ -53,7 +53,7 @@ Una **marca** se define con las siguientes características:
 
 * **[!UICONTROL Header parameters of sent emails]**, que personaliza lo que ven los destinatarios de sus campañas. Esta sección contiene los campos siguientes:
 
-   ![](assets/branding_04_header.png)
+  ![](assets/branding_04_header.png)
 
    * **Remitente (dirección de correo electrónico)** con la dirección de correo electrónico de la marca.
    * **Remitente (nombre)** con el nombre de la marca.
@@ -61,27 +61,27 @@ Una **marca** se define con las siguientes características:
    * **Responder a (nombre)** con el nombre de la marca.
    * **Error (dirección de correo electrónico)** con la dirección de correo electrónico que se utiliza en caso de error.
 
-   >[!IMPORTANT]
-   >
-   >Después de haber actualizado los parámetros de encabezado de los correos electrónicos, si el nombre y la dirección de correo electrónico del remitente no han cambiado en el correo electrónico creado a partir de la plantilla, compruebe la configuración avanzada de esta.
+  >[!IMPORTANT]
+  >
+  >Después de haber actualizado los parámetros de encabezado de los correos electrónicos, si el nombre y la dirección de correo electrónico del remitente no han cambiado en el correo electrónico creado a partir de la plantilla, compruebe la configuración avanzada de esta.
 
 * **Los servidores expuestos en Internet** definen los servidores utilizados para el seguimiento, pero también para el acceso de página de aterrizaje. Esta sección contiene los campos siguientes:
 
-   ![](assets/configure_branding_04.png)
+  ![](assets/configure_branding_04.png)
 
    * **Dirección URL externa del servidor de aplicaciones**, que se utiliza para alojar y acceder a las distintas páginas de aterrizaje que cree.
    * **Dirección URL externa del servidor de seguimiento**, que se utiliza como dirección URL rastreada durante los envíos.
    * **Dirección URL externa del servidor de página espejo**, que se utiliza como página espejo predeterminada en los envíos.
 
-   >[!NOTE]
-   >
-   >Para mostrar la vista previa de la página de aterrizaje y el procesamiento de páginas espejo en la interfaz de usuario de Campaign, las URL del servidor de aplicaciones y del servidor de página espejo deben ser seguras. En ese caso, utilice https:// en lugar de http:// al configurar estas direcciones URL.
+  >[!NOTE]
+  >
+  >Para mostrar la vista previa de la página de aterrizaje y el procesamiento de páginas espejo en la interfaz de usuario de Campaign, las URL del servidor de aplicaciones y del servidor de página espejo deben ser seguras. En ese caso, utilice https:// en lugar de http:// al configurar estas direcciones URL.
 
 * **[!UICONTROL Tracking URL configuration (Web Analytics)]**, que define la configuración del seguimiento de direcciones URL de su marca.
 
-   Aquí se definen los parámetros adicionales que permiten realizar el seguimiento de los vínculos en sistemas externos como herramientas de análisis web como Adobe Analytics o Google Analytics.
+  Aquí se definen los parámetros adicionales que permiten realizar el seguimiento de los vínculos en sistemas externos como herramientas de análisis web como Adobe Analytics o Google Analytics.
 
-   ![](assets/branding_05.png)
+  ![](assets/branding_05.png)
 
 ## Creación de una nueva marca {#creating-a-brand}
 

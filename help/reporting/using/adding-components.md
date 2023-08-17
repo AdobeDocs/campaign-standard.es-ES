@@ -31,7 +31,7 @@ Los componentes ayudan a personalizar los informes con diferentes dimensiones, m
    * **Métricas**: obtenga detalles sobre el estado de un mensaje. Por ejemplo, si se entregó un mensaje y el usuario lo abrió.
    * **[!UICONTROL Segments]**: filtre los datos en función del intervalo de edad del destinatario. **[!UICONTROL Segments]** se pueden arrastrar y soltar directamente en una tabla de forma libre o en la barra superior del panel.
 
-      Esta categoría solo está disponible una vez que el administrador ha aprobado los términos y condiciones del contrato de uso de creación de informes dinámicos que se mostrarán en la pantalla. Si el administrador rechaza el acuerdo, los segmentos no aparecen en la **[!UICONTROL Components]** y los datos no se recopilarán.
+     Esta categoría solo está disponible una vez que el administrador ha aprobado los términos y condiciones del contrato de uso de creación de informes dinámicos que se mostrarán en la pantalla. Si el administrador rechaza el acuerdo, los segmentos no aparecen en la **[!UICONTROL Components]** y los datos no se recopilarán.
 
    * **Hora**: establezca un período de tiempo para la tabla.
 

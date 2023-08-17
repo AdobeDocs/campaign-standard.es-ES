@@ -49,7 +49,7 @@ Los pasos de exportación del paquete se describen en la sección [Exportación 
 * El paquete de **[!UICONTROL Platform]** reagrupa todos los recursos añadidos durante la configuración técnica: recursos personalizados, conjuntos de recursos personalizados, activadores y opciones de aplicación con el tipo **[!UICONTROL System]**.
 * El paquete **[!UICONTROL Administration]** reagrupa todos los objetos añadidos durante la configuración de empresa, como: plantillas de campaña, plantillas de contenido, plantillas de envíos, plantillas de página de aterrizaje, plantillas de programa y plantillas de flujo de trabajo.
 
-   También incluye los siguientes objetos: bloques de contenido, asignaciones de destino, cuentas externas, unidades organizativas, opciones de aplicación con el tipo **[!UICONTROL User]**, funciones, tipologías, reglas de tipología y usuarios.
+  También incluye los siguientes objetos: bloques de contenido, asignaciones de destino, cuentas externas, unidades organizativas, opciones de aplicación con el tipo **[!UICONTROL User]**, funciones, tipologías, reglas de tipología y usuarios.
 
 >[!NOTE]
 >
@@ -112,11 +112,11 @@ Una vez finalizada la operación, aparecen varias secciones:
 
 * **[!UICONTROL Export status]**: esta sección muestra si la operación se ha realizado correctamente.
 
-   ![](assets/packages_6.png)
+  ![](assets/packages_6.png)
 
 * Puede consultar los diferentes pasos de la exportación en la pestaña **[!UICONTROL Log]**. Contiene los estados de todas las exportaciones anteriores.
 
-   ![](assets/packages_7.png)
+  ![](assets/packages_7.png)
 
 >[!NOTE]
 >
@@ -168,7 +168,7 @@ Una vez finalizada la operación, aparecen varias secciones:
 * **[!UICONTROL Import status]**: esta sección muestra si la operación se ha realizado correctamente.
 * Puede consultar los diferentes pasos de la importación en la pestaña **[!UICONTROL Execution logs]**. Esto es de especial importancia para errores de visualización.
 
-   ![](assets/packages_20.png)
+  ![](assets/packages_20.png)
 
 Una vez importado un paquete, no se puede volver a importar desde el mismo elemento. Solo puede modificar su etiqueta y su ID.
 

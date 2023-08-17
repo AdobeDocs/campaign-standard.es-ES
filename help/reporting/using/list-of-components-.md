@@ -11,7 +11,7 @@ exl-id: 8980bf05-60a8-4360-a354-445e1faeb5b2
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '1269'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -428,8 +428,8 @@ La siguiente tabla le proporciona la lista de segmentos utilizados en los inform
    <td> Destinatarios nacidos desde 1995 hasta la actualidad.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Edad: Buenos de 50 años<br /> </td> 
-   <td> Destinatarios cuya edad sea buena a 50 años.<br /> </td> 
+   <td> Edad: Mayor de 50 años<br /> </td> 
+   <td> Destinatarios cuya edad es mayor de 50 años.<br /> </td> 
   </tr> 
   <tr> 
    <td> Edad: Menos de 25 años<br /> </td> 

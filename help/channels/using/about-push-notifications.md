@@ -34,7 +34,7 @@ En Adobe Campaign, hay disponibles dos tipos de notificaciones push:
 
 * Las notificaciones del tipo **[!UICONTROL Alert/Message/Badge]** le permiten enviar mensajes estándares basados en texto con contenido adicional (sonidos, distintivos, vínculos profundos, etc.) que puede definir en la sección **[!UICONTROL Advanced options]**.
 
-   Estos tipos de notificación le permiten añadir un título y un mensaje en los que puede utilizar campos de personalización. Para poder personalizar el mensaje, asegúrese de seleccionar la plantilla **[!UICONTROL Send push on profiles]**.
+  Estos tipos de notificación le permiten añadir un título y un mensaje en los que puede utilizar campos de personalización. Para poder personalizar el mensaje, asegúrese de seleccionar la plantilla **[!UICONTROL Send push on profiles]**.
 
 * Las notificaciones del tipo **[!UICONTROL Silent push]** se utilizan para notificar a la aplicación de forma silenciosa sin ningún mensaje ni contenido para el usuario final. Un caso de uso típico de este tipo de mensaje sería hacer que la aplicación sepa que hay contenido disponible en el servidor que se va a descargar.
 

@@ -87,9 +87,9 @@ Antes de importar contenido desde una dirección URL, asegúrese de que cumple l
 * Por motivos de seguridad, solo las direcciones URL que comienzan por **[!UICONTROL https]** están permitidas.
 * Asegúrese de que todos los recursos (imágenes, CSS) estén configurados en vínculos absolutos y en HTTPS. De lo contrario, después de enviar el correo electrónico, la página espejo se muestra sin sus recursos. Este es un ejemplo de definición de vínculo absoluto:
 
-   ```
-   <a href="https://www.mywebsite.com/images/myimage.png">
-   ```
+  ```
+  <a href="https://www.mywebsite.com/images/myimage.png">
+  ```
 
 >[!NOTE]
 >
@@ -249,6 +249,5 @@ Una vez identificados todos los bloques, en el Diseñador de correo electrónico
    >* `<style data-name="mediaIOS8" type="text/css">(##)</style>`
    >* `<style data-name="media-default-max-width-500px" type="text/css">(##)</style>`
    >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
-
 
 1. Vuelva a la vista móvil para comprobar que el contenido se muestra correctamente y guardar los cambios.

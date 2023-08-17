@@ -53,7 +53,7 @@ La preparación del mensaje se activa según los parámetros de ejecución del f
    * **[!UICONTROL SMS]**: el SMS se envía una sola vez. Aquí puede especificar si desea o no añadir una transición de salida a la actividad. Los diferentes tipos de transición se detallan en el paso 7 del procedimiento.
    * **[!UICONTROL Recurring SMS]**: el SMS se envía varias veces, según la frecuencia definida en una actividad de **[!UICONTROL Scheduler]**. Seleccione el periodo de acumulación de los envíos. Esto le permite agrupar todos los envíos que se producen durante el periodo definido en una sola vista que también se denomina **ejecución recurrente** y a la que se puede acceder desde la lista de actividad de marketing de la aplicación.
 
-      Por ejemplo, para un SMS de cumpleaños recurrente, que se envía diariamente, puede elegir acumular los envíos por mes. Esto le permite recibir informes sobre su envío mensualmente, aunque el SMS se envíe todos los días.
+     Por ejemplo, para un SMS de cumpleaños recurrente, que se envía diariamente, puede elegir acumular los envíos por mes. Esto le permite recibir informes sobre su envío mensualmente, aunque el SMS se envíe todos los días.
 
 1. Seleccione un tipo de SMS. Los tipos de SMS provienen de plantillas de SMS definidas en el menú **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Introduzca las propiedades generales del SMS. También puede adjuntarlo a una campaña existente. La etiqueta de la actividad envío del flujo de trabajo se actualiza con la etiqueta SMS.

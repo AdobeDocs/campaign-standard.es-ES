@@ -25,7 +25,7 @@ Los requisitos previos son:
 
 * **Uno o varios recursos personalizados** disponibles y publicados.
 
-   Además, debe haber definido una clave única para estos recursos porque las claves principales automáticas no se exportan en los paquetes. Por lo tanto, el recurso puede tener una clave primaria y una clave única adicional para garantizar la exclusividad de los registros.
+  Además, debe haber definido una clave única para estos recursos porque las claves principales automáticas no se exportan en los paquetes. Por lo tanto, el recurso puede tener una clave primaria y una clave única adicional para garantizar la exclusividad de los registros.
 * **Los derechos necesarios** para crear y exportar un paquete.
 
 Recursos adicionales:

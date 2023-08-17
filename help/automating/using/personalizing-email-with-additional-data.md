@@ -42,11 +42,12 @@ El flujo de trabajo se presenta de la siguiente manera:
    * Dos agregados basados en la recopilación de transacciones: el número de productos comprados y la cantidad total gastada. Puede agregarlos desde la pestaña **[!UICONTROL Data]** de la ventana de configuración de agregados mediante los agregados **Count** y **Sum**. Consulte la sección [Adición de un agregado](../../automating/using/query.md#adding-an-aggregate) .
    * Una colección que devuelve la cantidad gastada, la fecha y el producto de la última transacción efectuada.
 
-      Para ello, debe agregar los diferentes campos que desea mostrar desde la pestaña **[!UICONTROL Data]** de la ventana de configuración de la colección.
+     Para ello, debe agregar los diferentes campos que desea mostrar desde la pestaña **[!UICONTROL Data]** de la ventana de configuración de la colección.
 
-      Para devolver solo la transacción más reciente, debe introducir &quot;1&quot; en **[!UICONTROL Number of lines to return]** y aplicar un orden descendente en el campo **Fecha** de la colección desde la pestaña **[!UICONTROL Sort]**.
+     Para devolver solo la transacción más reciente, debe introducir &quot;1&quot; en **[!UICONTROL Number of lines to return]** y aplicar un orden descendente en el campo **Fecha** de la colección desde la pestaña **[!UICONTROL Sort]**.
 
-      Consulte las secciones [Adición de una colección](../../automating/using/query.md#adding-a-collection) y [Clasificación de datos adicionales](../../automating/using/query.md#sorting-additional-data).
+     Consulte las secciones [Adición de una colección](../../automating/using/query.md#adding-a-collection) y [Clasificación de datos adicionales](../../automating/using/query.md#sorting-additional-data).
+
    ![](assets/enrichment_example4.png)
 
 1. Si desea comprobar que la transición saliente de la actividad transfiere correctamente los datos, inicie el flujo de trabajo por primera vez (sin la actividad **[!UICONTROL Email delivery]**) y abra la transición saliente de la consulta.

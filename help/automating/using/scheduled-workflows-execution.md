@@ -44,9 +44,9 @@ Para comprobar si una o más tareas de una ejecución de flujo de trabajo anteri
 
    * La primera regla filtra la tarea actual (query2) así como la siguiente tarea de planificación (schedule2) que pertenece al flujo de trabajo actual.
 
-      >[!NOTE]
-      >
-      >Cuando un **[!UICONTROL Scheduler]** La actividad se inicia e inmediatamente añade otra tarea de planificación para que se ejecute en la siguiente hora programada e inicie el flujo de trabajo. Por lo tanto, es importante filtrar tanto la consulta como las tareas programadas cuando se buscan tareas pendientes de una ejecución anterior.
+     >[!NOTE]
+     >
+     >Cuando un **[!UICONTROL Scheduler]** La actividad se inicia e inmediatamente añade otra tarea de planificación para que se ejecute en la siguiente hora programada e inicie el flujo de trabajo. Por lo tanto, es importante filtrar tanto la consulta como las tareas programadas cuando se buscan tareas pendientes de una ejecución anterior.
 
    * La segunda regla determina si alguna tarea de una ejecución anterior del flujo de trabajo sigue activa (pendiente), lo que corresponde al estado de ejecución 0.
 

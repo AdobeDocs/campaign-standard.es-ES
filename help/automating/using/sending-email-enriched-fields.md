@@ -38,7 +38,7 @@ Para crear el flujo de trabajo, siga estos pasos:
 
 1. Arrastre y suelte un [Enriquecimiento](../../automating/using/enrichment.md) en el flujo de trabajo y vincule la carga de archivo y las actividades de consulta.
 
-1. En la pestaña **[!UICONTROL Advanced relations]** de la actividad enriquecimiento, seleccione **[!UICONTROL 0 or 1 cardinality simple link]** y defina los campos que se utilizarán para la reconciliación. Aquí utilizamos el apellido para reconciliar los datos con los perfiles de la base de datos.
+1. En la pestaña **[!UICONTROL Advanced relations]** de la actividad de enriquecimiento, seleccione **[!UICONTROL 0 or 1 cardinality simple link]** y defina los campos que se utilizarán para la reconciliación. Aquí utilizamos el apellido para reconciliar los datos con los perfiles de la base de datos.
 
    ![](assets/load_file_enrichment_relation.png)
 

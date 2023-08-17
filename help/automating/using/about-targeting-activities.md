@@ -11,7 +11,7 @@ exl-id: 1cd471e3-5332-4119-b342-2c3c8503fdd1
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 52%
+ht-degree: 58%
 
 ---
 
@@ -48,10 +48,10 @@ Puede seleccionar datos mediante las siguientes actividades:
 
 ## Segmentación de datos {#segmenting-data}
 
-Adobe Campaign permite procesar conjuntos de datos entrantes. Por lo tanto, puede combinar varias poblaciones, excluir parte de ellas o solo mantener datos comunes para varios objetivos.
+Adobe Campaign permite procesar conjuntos de datos entrantes. Por lo tanto, puede combinar varias poblaciones, excluir parte de ellas o solo mantener datos comunes para varios públicos destinatarios.
 
-* La actividad **[!UICONTROL Union]** le permite agrupar el resultado de varias actividades en un solo destino. Consulte la [Union](../../automating/using/union.md) sección.
-* La actividad **[!UICONTROL Intersection]** permite mantener solo los elementos comunes a las diferentes poblaciones de entrada de la actividad. Consulte la [Intersección](../../automating/using/intersection.md) sección.
+* La actividad **[!UICONTROL Union]** le permite agrupar el resultado de varias actividades en un solo destino. Consulte la sección [Unión](../../automating/using/union.md).
+* La actividad **[!UICONTROL Intersection]** permite mantener solo los elementos comunes a las diferentes poblaciones de entrada de la actividad. Consulte la sección [Intersección](../../automating/using/intersection.md).
 * La actividad **[!UICONTROL Exclusion]** permite excluir elementos de una población según determinados criterios. Consulte la [Exclusión](../../automating/using/exclusion.md) sección.
 * La actividad **[!UICONTROL Segmentation]** le permite crear uno o varios segmentos a partir de una población calculada por actividades ubicadas anteriormente en el flujo de trabajo. Al final de la actividad, se pueden procesar en una sola transición o en transiciones diferentes. Consulte la [Segmentación](../../automating/using/segmentation.md) sección.
 

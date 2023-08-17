@@ -53,7 +53,7 @@ Los principios de navegación son:
 
 * El **Adobe** en la esquina superior izquierda de la página, le permite acceder a las funciones y configuraciones avanzadas. Los menús dependen del perfil y los permisos.
 
-   El menú avanzado se presenta en la sección de [menú avanzado](#advanced-menu).
+  El menú avanzado se presenta en la sección de [menú avanzado](#advanced-menu).
 
 * El vínculo **[!UICONTROL Home]** le permite mostrar la página de inicio de Adobe Campaign.
 * Los vínculos **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]**, **[!UICONTROL Audiences]** y **[!UICONTROL Reports]** permiten acceder a las vistas vinculadas a estas funciones.
@@ -126,23 +126,23 @@ El contenido y el formato de visualización de la zona central pueden variar:
 
 * Una **lista** que presenta varios elementos, como programas, campañas, perfiles, etc. Estos elementos se pueden ver en modo **[!UICONTROL Card]** o **[!UICONTROL List]**. Utilice el botón Cambiar modo para cambiar de uno a otro. Cada elemento muestra indicadores.
 
-   ![](assets/ux_liste.png)
+  ![](assets/ux_liste.png)
 
-   Un contador permite conocer el número de elementos. Si este número es superior a 30, debe hacer clic en este contador para obtener el número total.
+  Un contador permite conocer el número de elementos. Si este número es superior a 30, debe hacer clic en este contador para obtener el número total.
 
 * Un **panel** que presenta una visión general de todos los parámetros vinculados a una actividad. Esta pantalla incluye zonas interactivas que permiten separar y configurar los distintos conceptos de forma independiente.
 
-   ![](assets/ux_dashboard.png)
+  ![](assets/ux_dashboard.png)
 
 * Si al crear un elemento es posible realizar varias ofertas, una **pantalla de selección** le permite elegir el tipo de elemento que desea añadir (campañas, envíos). Esta pantalla de selección también sirve para acceder a los informes.
 
-   ![](assets/ux_activityselection.png)
+  ![](assets/ux_activityselection.png)
 
 * Para los flujos de trabajo y el editor de consultas, hay disponible un **espacio de trabajo** con una paleta para diseñar el objeto.
 
-   Puede arrastrar y soltar elementos de la paleta en el espacio de trabajo para configurar el elemento en cuestión.
+  Puede arrastrar y soltar elementos de la paleta en el espacio de trabajo para configurar el elemento en cuestión.
 
-   ![](assets/ux_workspace.png)
+  ![](assets/ux_workspace.png)
 
 ## Barra de acciones {#action-bar}
 

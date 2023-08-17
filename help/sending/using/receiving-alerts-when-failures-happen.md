@@ -63,11 +63,11 @@ Desde la interfaz de Adobe Campaign, puede:
 * Modifique los parámetros de criterio para cada tablero. Consulte [Parámetros de criterio](#criteria-parameters).
 * Defina un grupo de destinatarios para cada panel.
 
-   Por ejemplo, desea informar a los usuarios con derechos de administración solo de los envíos fallidos. Sin embargo, desea que los usuarios de marketing reciban información sobre los envíos con una proporción de errores no válidos de rebote suave. Por lo tanto, debe crear dos paneles diferentes y definir los criterios que desee para cada grupo de destinatarios.
+  Por ejemplo, desea informar a los usuarios con derechos de administración solo de los envíos fallidos. Sin embargo, desea que los usuarios de marketing reciban información sobre los envíos con una proporción de errores no válidos de rebote suave. Por lo tanto, debe crear dos paneles diferentes y definir los criterios que desee para cada grupo de destinatarios.
 
 * Acceda al historial de todas las alertas enviadas para cada panel.
 
-   Al seleccionar un tablero, se muestra de forma predeterminada la última alerta enviada para este tablero. Todas las alertas enviadas se muestran a la izquierda de la pantalla. Haga clic en un elemento de la **[!UICONTROL History]** para acceder a las alertas correspondientes.
+  Al seleccionar un tablero, se muestra de forma predeterminada la última alerta enviada para este tablero. Todas las alertas enviadas se muestran a la izquierda de la pantalla. Haga clic en un elemento de la **[!UICONTROL History]** para acceder a las alertas correspondientes.
 
 ![](assets/delivery-alerting_dashboard.png)
 
@@ -102,8 +102,8 @@ En los paneles de alertas de envío se pueden utilizar los siguientes criterios:
 
 * **[!UICONTROL Deliveries failed]**: Cualquier envío programado dentro de un intervalo definido, con un estado erróneo.
 * **[!UICONTROL Deliveries with preparation failed]**: Cualquier entrega modificada dentro de un intervalo definido, para el cual el paso de preparación (cálculo del objetivo y generación de contenido) ha fallado. Para obtener más información, consulte [Preparación del envío](../../sending/using/preparing-the-send.md).
-* **[!UICONTROL Delivery with bad error ratio for soft bounces]**: cualquier envío programado dentro de un intervalo definido, con un estado al menos **[!UICONTROL In progress]**, con una proporción de errores de rebote suave buena a un porcentaje definido.
-* **[!UICONTROL Delivery with bad error ratio for hard bounces]**: cualquier envío programado dentro de un intervalo definido, con un estado al menos **[!UICONTROL In progress]**, con una proporción de errores de devolución buena a un porcentaje definido.
+* **[!UICONTROL Delivery with bad error ratio for soft bounces]**: cualquier envío programado dentro de un intervalo definido, con un estado al menos **[!UICONTROL In progress]**, con una proporción de errores de rebote suave mayor que un porcentaje definido.
+* **[!UICONTROL Delivery with bad error ratio for hard bounces]**: cualquier envío programado dentro de un intervalo definido, con un estado al menos **[!UICONTROL In progress]**, con una proporción de errores de rechazo grave mayor que un porcentaje definido.
 * **[!UICONTROL Deliveries with long start pending]**: cualquier envío programado dentro de un intervalo definido, con un **[!UICONTROL Start pending]** estado durante más tiempo que una duración definida, **[!UICONTROL Start pending]** estado, lo que significa que el sistema aún no ha tenido en cuenta los mensajes.
 * **[!UICONTROL Deliveries with low throughput]**: Cualquier envío que se inicie durante más tiempo del definido, con menos de un porcentaje definido de mensajes procesados, con un rendimiento inferior a un valor definido.
 * **[!UICONTROL Deliveries in progress]**: cualquier envío programado dentro de un intervalo definido, con el **[!UICONTROL In progress]** estado.
@@ -120,15 +120,15 @@ Para cada criterio, puede definir la siguiente configuración:
 
 * **[!UICONTROL Indicators to add in alerts]**, es decir, las columnas que aparecerán en el **[!UICONTROL Details]** para las entregas correspondientes al criterio seleccionado.
 
-   ![](assets/delivery-alerting_notification_colums.png)
+  ![](assets/delivery-alerting_notification_colums.png)
 
 * **[!UICONTROL Alert type]**, es decir, la etiqueta y el color que aparecerán junto al criterio de entrega en el resumen de la notificación.
 
-   ![](assets/delivery-alerting_notification_labels.png)
+  ![](assets/delivery-alerting_notification_labels.png)
 
-* **[!UICONTROL Criteria frequency]**: Si se cumple un criterio para una entrega, se repite en cada notificación enviada dentro del periodo de monitorización. De lo contrario, solo se envía una alerta al día (en la primera incidencia) según el criterio de alerta de una entrega.
+* **[!UICONTROL Criteria frequency]**: Si se cumple un criterio para una entrega, se repite en cada notificación enviada dentro del período de monitorización. De lo contrario, solo se envía una alerta al día (en la primera incidencia) según el criterio de alerta de una entrega.
 
-   De forma predeterminada, esta opción se establece en una vez al día para todos los criterios.
+  De forma predeterminada, esta opción se establece en una vez al día para todos los criterios.
 
 **Temas relacionados:**
 
@@ -188,18 +188,18 @@ En el **[!UICONTROL Criteria parameters]** pestaña de a [panel de alertas de en
 
 ![](assets/delivery-alerting_dashboard_criteria-parameters.png)
 
-* **[!UICONTROL Delivery target minimum size]**: Por ejemplo, si introduce 100 en este campo, se envía una notificación solo para las entregas con un objetivo igual o bueno a 100 destinatarios. Este parámetro se aplica a todos los criterios.
+* **[!UICONTROL Delivery target minimum size]**: Por ejemplo, si introduce 100 en este campo, se envía una notificación solo para las entregas con un objetivo igual o superior a 100 destinatarios. Este parámetro se aplica a todos los criterios.
 * **[!UICONTROL Monitoring period before and after the contact date (in hours)]**: Número de horas antes y después de la hora actual. Solo se tienen en cuenta las entregas que tienen una fecha de contacto en este intervalo de tiempo. Este parámetro se aplica a todos los criterios. De forma predeterminada, el valor de este campo se establece en 24 horas.
 
-   Para obtener más información sobre la fecha de contacto, consulte [Acerca de la programación](../../sending/using/about-scheduling-messages.md).
+  Para obtener más información sobre la fecha de contacto, consulte [Acerca de la programación](../../sending/using/about-scheduling-messages.md).
 
-* **[!UICONTROL Maximum ratio of soft bounce errors]**: se envía una notificación para todas las entregas con una proporción de errores de devolución suave buena al valor especificado. De forma predeterminada, el valor de este campo se establece en 0,05 (5 %).
+* **[!UICONTROL Maximum ratio of soft bounce errors]**: se envía una notificación para todas las entregas con una proporción de errores de devolución suave mayor que el valor especificado. De forma predeterminada, el valor de este campo se establece en 0,05 (5 %).
 
-   Para obtener más información sobre los errores de rechazos leves, consulte [Cualificación de correo rechazado](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) y [Lista de tipos de errores de entrega](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+  Para obtener más información sobre los errores de rechazos leves, consulte [Cualificación de correo rechazado](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) y [Lista de tipos de errores de entrega](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
-* **[!UICONTROL Maximum ratio of hard bounce errors]**: se envía una notificación para todos los envíos con una proporción de errores de devolución buena al valor especificado. De forma predeterminada, el valor de este campo se establece en 0,05 (5 %).
+* **[!UICONTROL Maximum ratio of hard bounce errors]**: se envía una notificación para todas las entregas con una proporción de errores de devolución dura mayor que el valor especificado. De forma predeterminada, el valor de este campo se establece en 0,05 (5 %).
 
-   Para obtener más información sobre los errores de devoluciones graves, consulte [Cualificación de correo rechazado](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) y [Lista de tipos de errores de entrega](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+  Para obtener más información sobre los errores de devoluciones graves, consulte [Cualificación de correo rechazado](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) y [Lista de tipos de errores de entrega](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
 * **[!UICONTROL Minimum time threshold for delivery in 'Start pending' status (in minutes)]**: Se envía una notificación para todas las entregas con un **[!UICONTROL Start pending]** estado durante más tiempo que el especificado en este campo, **[!UICONTROL Start pending]** estado, lo que significa que el sistema aún no ha tenido en cuenta los mensajes.
 * **[!UICONTROL Minimum time required for the computation of the throughput (in minutes)]**: solo se han iniciado los envíos (con **[!UICONTROL In progress]** estado) durante más tiempo del especificado para el **[!UICONTROL Deliveries with low throughput]** criterio.
@@ -236,7 +236,7 @@ Estos son algunos de los posibles motivos para recibir notificaciones de alerta 
    * Un problema de envío
    * Un flujo de trabajo erróneo
 
-   Si la entrega se activa con un flujo de trabajo, compruebe si dicho flujo de trabajo se inició correctamente. Para obtener más información, consulte [Ejecución de un flujo de trabajo](../../automating/using/about-workflow-execution.md). De lo contrario, póngase en contacto con el administrador de Adobe Campaign para solucionar el problema.
+  Si la entrega se activa con un flujo de trabajo, compruebe si dicho flujo de trabajo se inició correctamente. Para obtener más información, consulte [Ejecución de un flujo de trabajo](../../automating/using/about-workflow-execution.md). De lo contrario, póngase en contacto con el administrador de Adobe Campaign para solucionar el problema.
 
 * **[!UICONTROL Deliveries with preparation failed]**: Se puede producir un error durante la preparación de la entrega en los siguientes casos:
 
@@ -245,35 +245,33 @@ Estos son algunos de los posibles motivos para recibir notificaciones de alerta 
    * Falta el destino.
    * La entrega supera el límite de tamaño.
 
-   Para obtener más información, consulte [Preparación del envío](../../sending/using/preparing-the-send.md). Sin embargo, estos errores generalmente se detectan durante el análisis del mensaje. Consulte [Reglas de control](../../sending/using/control-rules.md).
+  Para obtener más información, consulte [Preparación del envío](../../sending/using/preparing-the-send.md). Sin embargo, estos errores generalmente se detectan durante el análisis del mensaje. Consulte [Reglas de control](../../sending/using/control-rules.md).
 
 * Las posibles causas de una **[!UICONTROL Delivery with bad error ratio for soft bounces]** la alerta puede ser:
 
    * El servidor del destinatario está inactivo.
    * El buzón del destinatario está lleno.
 
-   Para obtener más información, consulte **[!UICONTROL Exclusion logs]** y **[!UICONTROL Exclusion causes]** de los registros de envío. Consulte [Registros de exclusión](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
+  Para obtener más información, consulte **[!UICONTROL Exclusion logs]** y **[!UICONTROL Exclusion causes]** de los registros de envío. Consulte [Registros de exclusión](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
 
-   Las posibles causas de una **[!UICONTROL Delivery with bad error ratio for hard bounces]** la alerta puede ser:
+  Las posibles causas de una **[!UICONTROL Delivery with bad error ratio for hard bounces]** la alerta puede ser:
 
    * El destinatario se añade a la lista de bloqueados de la, lo que significa que ya no desea que se le contacte.
    * La dirección de correo electrónico del destinatario no existe.
    * El dominio del destinatario no existe.
    * El servidor del destinatario está bloqueando la entrega.
 
-   Para evitar errores de rechazos leves y graves, siga las prácticas recomendadas a continuación:
+  Para evitar errores de rechazos leves y graves, siga las prácticas recomendadas a continuación:
 
    * Cree reglas de tipología de filtrado para excluir una parte del destinatario del mensaje durante el análisis de la entrega, como los destinatarios en cuarentena. Consulte [Creación de una regla de filtrado](../../sending/using/filtering-rules.md).
    * Actualice regularmente la base de datos de clientes para mantener buenos procesos de administración de cuarentena. Consulte [Acerca de las cuarentenas](../../sending/using/understanding-quarantine-management.md#about-quarantines).
    * En términos generales, mejore la capacidad de envío lo mejor que pueda. Consulte Adobe Campaign [Entrega](../../sending/using/about-deliverability.md) Para obtener documentación detallada, póngase en contacto con su administrador de Adobe Campaign para obtener ayuda.
 
-
-
 * **[!UICONTROL Deliveries with long start pending]**: Normalmente esto significa que hay un problema en el nivel del MTA (Agente de transferencia de mensajes). El proceso de ejecución está esperando a que estén disponibles algunos recursos. Es posible que el MTA no se haya iniciado.
 
-   **[!UICONTROL Deliveries with low throughput]**: De nuevo, este es un problema de capacidad de entrega que significa que el MTA es demasiado lento.
+  **[!UICONTROL Deliveries with low throughput]**: De nuevo, este es un problema de capacidad de entrega que significa que el MTA es demasiado lento.
 
-   Para obtener más información sobre estos problemas, póngase en contacto con el administrador de Adobe Campaign.
+  Para obtener más información sobre estos problemas, póngase en contacto con el administrador de Adobe Campaign.
 
 **Temas relacionados:**
 

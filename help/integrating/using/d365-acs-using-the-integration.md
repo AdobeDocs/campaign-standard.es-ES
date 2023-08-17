@@ -120,6 +120,7 @@ La integración admite tablas vinculadas y no vinculadas. La vinculación es com
 >[!IMPORTANT]
 >
 >Si algún registro de recurso personalizado de Campaign contiene información personal, se aplican recomendaciones específicas. Obtenga más información [en esta sección](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-data).
+>
 
 Al configurar flujos de datos de entidad personalizados, es importante tener en cuenta lo siguiente:
 
@@ -169,6 +170,7 @@ Alternativamente, si tiene un proceso independiente para administrar la sincroni
 >En la interfaz de usuario de la aplicación de integración, la variable **Unidireccional (de Microsoft Dynamics 365 a Campaign)** y el **Bidireccional** los casos de uso de exclusión se configuran en un flujo de trabajo de exclusión independiente. [Más información](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
 >
 >El **Unidireccional (Campaign a Microsoft Dynamics 365)** El caso de uso de exclusión es una excepción y se configura dentro del flujo de trabajo de entrada (contacto con perfil).
+>
 
 El cliente debe especificar la asignación de flujo de exclusión, ya que los requisitos empresariales pueden diferir entre empresas. En el lado de la campaña, solo se pueden utilizar los atributos de exclusión OOTB para la asignación de exclusión:
 

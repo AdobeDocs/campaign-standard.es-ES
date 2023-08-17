@@ -103,31 +103,31 @@ Debe tener acceso a Adobe Analytics para realizar la siguiente configuración. S
    * En el **[!UICONTROL URL]** , copie el **[!UICONTROL Collect PII Endpoint]** URL de la aplicación móvil configurada en la interfaz de Adobe Campaign, precedida del nombre del servidor. Consulte [Configuración de una aplicación móvil en Campaign](#setting-up-a-mobile-app-in-campaign).
    * Rellene el **[!UICONTROL Post Body]** como se indica a continuación:
 
-      Para iOS:
+     Para iOS:
 
-      ```
-      {
-      "userKey": "{userKey}",
-      "pushPlatform":"apns",
-      "marketingCloudId":"{%mcid%}",
-      "cusEmail":"{email}",
-      "cusFirstName":"{firstName}",
-      "cusLastName":"{lastName}"
-      }
-      ```
+     ```
+     {
+     "userKey": "{userKey}",
+     "pushPlatform":"apns",
+     "marketingCloudId":"{%mcid%}",
+     "cusEmail":"{email}",
+     "cusFirstName":"{firstName}",
+     "cusLastName":"{lastName}"
+     }
+     ```
 
-      Para Android:
+     Para Android:
 
-      ```
-      {
-      "userKey": "{userKey}",
-      "pushPlatform":"gcm",
-      "marketingCloudId":"{%mcid%}",
-      "cusEmail":"{email}",
-      "cusFirstName":"{firstName}",
-      "cusLastName":"{lastName}"
-      }
-      ```
+     ```
+     {
+     "userKey": "{userKey}",
+     "pushPlatform":"gcm",
+     "marketingCloudId":"{%mcid%}",
+     "cusEmail":"{email}",
+     "cusFirstName":"{firstName}",
+     "cusLastName":"{lastName}"
+     }
+     ```
 
    * Establecer **Tipo de contenido** as **[!UICONTROL application/json]**.
    * En el **¿Qué etiquetas de datos almacenan en Déclencheur el Postback?**, seleccione cualquier evento, normalmente **[!UICONTROL Launched]** y **[!UICONTROL exists]**.
@@ -139,22 +139,22 @@ Debe tener acceso a Adobe Analytics para realizar la siguiente configuración. S
    * En el **[!UICONTROL URL]** , copie el **[!UICONTROL Location Services Endpoint]** URL de la aplicación móvil configurada en la interfaz de Adobe Campaign, precedida del nombre del servidor. Consulte [Configuración de una aplicación móvil en Campaign](#setting-up-a-mobile-app-in-campaign).
    * Rellene el **[!UICONTROL Post Body]** como se indica a continuación:
 
-      ```
-      {
-      "locationData":{
-      "distances":"{a.loc.dist}",
-      "poiLabel":"{a.loc.poi}",
-      "latitude.a":"{a.loc.lat.a}",
-      "latitude.b":"{a.loc.lat.b}",
-      "latitude.c":"{a.loc.lat.c}",
-      "longitude.a":"{a.loc.lon.a}",
-      "longitude.b":"{a.loc.lon.b}",
-      "longitude.c":"{a.loc.lon.c}",
-      "appId":"{a.appid}",
-      "marketingCloudId":"{mid}"
-      }
-      }
-      ```
+     ```
+     {
+     "locationData":{
+     "distances":"{a.loc.dist}",
+     "poiLabel":"{a.loc.poi}",
+     "latitude.a":"{a.loc.lat.a}",
+     "latitude.b":"{a.loc.lat.b}",
+     "latitude.c":"{a.loc.lat.c}",
+     "longitude.a":"{a.loc.lon.a}",
+     "longitude.b":"{a.loc.lon.b}",
+     "longitude.c":"{a.loc.lon.c}",
+     "appId":"{a.appid}",
+     "marketingCloudId":"{mid}"
+     }
+     }
+     ```
 
    * Establecer **Tipo de contenido** as **[!UICONTROL application/json]**.
    * En el **¿Qué etiquetas de datos almacenan en Déclencheur el Postback?**, seleccione **[!UICONTROL campaign.test]** y **[!UICONTROL exists]**.

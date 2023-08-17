@@ -358,9 +358,9 @@ A continuación, se enumeran las nuevas funciones, mejoras y correcciones inclui
 
 * Se ha corregido un problema que ocasionaba que fallara el análisis de entrega al enviar perfiles de direccionamiento de mensajes push transaccionales, al introducir una nueva [asignación de destinatario](../../administration/using/target-mappings-in-campaign.md): **Perfil: evento en tiempo real para push** (*mapRtEventAppSubRcp*). La entrega, la exclusión y los registros de seguimiento de las [notificaciones push transaccionales basadas en un perfil](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile) se almacenarán ahora en las tablas *broadLogAppSubRcp*, *excludeLogAppSubRcp* y *trackingLogAppSubRcp*.
 
-   >[!IMPORTANT]
-   >
-   >Debido a este cambio, si está utilizando una notificación transaccional basada en perfiles existente (creada antes de actualizar a Adobe Campaign 21.1), se recomienda actualizar la asignación de destino a la nueva y volver a publicar el mensaje. Consulte los pasos detallados [aquí](../../channels/using/transactional-push-notifications.md#change-target-mapping). El uso de la asignación de destinatario anterior **Perfil: evento de tiempo real** (*mapRtEventRcp*) puede provocar tiempos de preparación de envíos más largos y una degradación del rendimiento.
+  >[!IMPORTANT]
+  >
+  >Debido a este cambio, si está utilizando una notificación transaccional basada en perfiles existente (creada antes de actualizar a Adobe Campaign 21.1), se recomienda actualizar la asignación de destino a la nueva y volver a publicar el mensaje. Consulte los pasos detallados [aquí](../../channels/using/transactional-push-notifications.md#change-target-mapping). El uso de la asignación de destinatario anterior **Perfil: evento de tiempo real** (*mapRtEventRcp*) puede provocar tiempos de preparación de envíos más largos y una degradación del rendimiento.
 
 * Se ha corregido un problema que impedía que los informes de envío se ejecutaran cuando se mostraban 5000 filas.
 * Se ha corregido un problema con las Pruebas A/B que impedía que el contenido de la variante B se actualizara después de que se hubiera modificado la plantilla de envíos. (CAMP-45235)

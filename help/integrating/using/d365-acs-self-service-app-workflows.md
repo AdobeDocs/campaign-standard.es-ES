@@ -46,6 +46,7 @@ Esta aplicación de integración lee primero los datos y luego los escribe en el
 
 >[!NOTE]
 >Si los registros de Microsoft Dynamics 365 o Campaign no se actualizan, primero debe comprobar si hay un gran número de registros esperando a escribirse en el destino.
+>
 
 ## Estado del flujo de trabajo {#workflow-status}
 
@@ -64,7 +65,7 @@ Las acciones posibles se enumeran a continuación.
 
 * **Inicio**: Un botón Start solicita que se inicie un flujo de trabajo detenido. Este botón solo aparece cuando los procesos asociados al flujo de trabajo están detenidos actualmente. Los procesos cambiarán primero a &quot;INICIO&quot; y luego a &quot;EN EJECUCIÓN&quot;. Los datos asociados con el flujo de trabajo no empezarán a sincronizarse hasta que el flujo de trabajo esté en estado &quot;EN EJECUCIÓN&quot;.
 
-   El botón de inicio es una opción. Si los procesos de flujo de trabajo ya se han iniciado, el botón cambiará a **Detener** botón.
+  El botón de inicio es una opción. Si los procesos de flujo de trabajo ya se han iniciado, el botón cambiará a **Detener** botón.
 
 * **Detener**: A **Detener** solicita que se detenga un flujo de trabajo en ejecución. Este botón solo aparece cuando los procesos asociados al flujo de trabajo se están ejecutando actualmente.
 

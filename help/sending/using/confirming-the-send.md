@@ -59,9 +59,9 @@ Una vez que el mensaje se envía a los contactos, la zona **[!UICONTROL Deployme
 * El porcentaje de mensajes abiertos
 * El porcentaje de clics en los mensajes (en el caso de correos electrónicos)
 
-   >[!NOTE]
-   >
-   >La **[!UICONTROL Open rate]** y **[!UICONTROL Click-through rate]** se actualiza cada hora.
+  >[!NOTE]
+  >
+  >La **[!UICONTROL Open rate]** y **[!UICONTROL Click-through rate]** se actualiza cada hora.
 
 ![](assets/sending_delivery.png)
 

@@ -29,17 +29,17 @@ Las propiedades de **[!UICONTROL Schedule]** le permiten establecer opciones de 
 
 * **[!UICONTROL Messages to be sent once confirmed]**: los mensajes se envían en cuanto se confirma el envío. Consulte [Confirmando el envío ](../../sending/using/confirming-the-send.md) .
 
-   ![](assets/delivery_planning_1.png)
+  ![](assets/delivery_planning_1.png)
 
 * **[!UICONTROL Messages to be sent automatically on the date specified below]**: los mensajes se enviarán en una fecha y a una hora posteriores. Especifique la **fecha de contacto** en el campo **Comenzar a enviar desde**.
 
-   Puede preparar y confirmar el envío, pero los mensajes solo se enviarán a partir de la fecha y hora seleccionadas. La preparación y confirmación del envío se presentan en las secciones [Preparación del envío](../../sending/using/preparing-the-send.md) y [Confirmación del envío](../../sending/using/confirming-the-send.md).
+  Puede preparar y confirmar el envío, pero los mensajes solo se enviarán a partir de la fecha y hora seleccionadas. La preparación y confirmación del envío se presentan en las secciones [Preparación del envío](../../sending/using/preparing-the-send.md) y [Confirmación del envío](../../sending/using/confirming-the-send.md).
 
-   La lista desplegable **[!UICONTROL Time zone of the contact date]** le permite modificar el huso horario que se tendrá en cuenta para la hora de envío. Por ejemplo, si introduce 9:00 a. m. en el campo **[!UICONTROL Start sending from]** y selecciona Bruselas, Copenhague, Madrid, París (GMT+1) en la lista desplegable **[!UICONTROL Time zone of the contact date]**, todos los destinatarios recibirán el mensaje a las 9:00 a. m. (hora de París). Por lo tanto, un destinatario ubicado en Moscú (GMT+3) recibirá el mensaje a las 11:00 a. m. hora de Moscú.
+  La lista desplegable **[!UICONTROL Time zone of the contact date]** le permite modificar el huso horario que se tendrá en cuenta para la hora de envío. Por ejemplo, si introduce 9:00 a. m. en el campo **[!UICONTROL Start sending from]** y selecciona Bruselas, Copenhague, Madrid, París (GMT+1) en la lista desplegable **[!UICONTROL Time zone of the contact date]**, todos los destinatarios recibirán el mensaje a las 9:00 a. m. (hora de París). Por lo tanto, un destinatario ubicado en Moscú (GMT+3) recibirá el mensaje a las 11:00 a. m. hora de Moscú.
 
-   Si desea confirmar manualmente el envío, marque la opción **[!UICONTROL Request confirmation before sending messages]**. Esta opción está habilitada de manera predeterminada.
+  Si desea confirmar manualmente el envío, marque la opción **[!UICONTROL Request confirmation before sending messages]**. Esta opción está habilitada de manera predeterminada.
 
-   ![](assets/delivery_planning.png)
+  ![](assets/delivery_planning.png)
 
 >[!IMPORTANT]
 >

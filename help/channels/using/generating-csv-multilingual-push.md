@@ -88,9 +88,9 @@ En el intervalo hay dos atributos obligatorios:
 
 * Otro es data-nl-expr, que es la ruta del campo de personalización. Por ejemplo, si inserta el campo de personalización &quot;firstName&quot; desde la interfaz de usuario, la ruta de navegación será **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]** (como se muestra en la siguiente imagen). En este caso, la ruta es
 
-   ```
-   /context/profile/firstName. data-nl-expr="/context/profile/firstName".
-   ```
+  ```
+  /context/profile/firstName. data-nl-expr="/context/profile/firstName".
+  ```
 
 ![](assets/multilingual_push_2.png)
 

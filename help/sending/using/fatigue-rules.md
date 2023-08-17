@@ -99,9 +99,9 @@ Los siguientes canales están disponibles:
 * Correo postal
 * Aplicación móvil: este canal le permite enviar notificaciones push a perfiles o a suscriptores de la aplicación. Si decide enviar notificaciones a perfiles, serán compatibles con las reglas de fatiga de varios canales.
 
-   >[!IMPORTANT]
-   >
-   >Las reglas de fatiga no son compatibles con las notificaciones push enviadas a los suscriptores de la aplicación. Si va a enviar mensajes a los suscriptores de la aplicación, no se aplicarán las reglas de fatiga.
+  >[!IMPORTANT]
+  >
+  >Las reglas de fatiga no son compatibles con las notificaciones push enviadas a los suscriptores de la aplicación. Si va a enviar mensajes a los suscriptores de la aplicación, no se aplicarán las reglas de fatiga.
 
 * Todos los canales: esta opción le permite aplicar la regla a todos los canales. Por ejemplo, puede decidir enviar un máximo de 3 mensajes al mes en cualquier canal. Si la semana pasada envió dos correos electrónicos a un perfil e intenta enviar una notificación push hoy, se excluirá el mismo perfil.
 
@@ -135,11 +135,11 @@ A continuación, tiene dos opciones:
 
 * Seleccione un campo de perfil: el umbral variará para cada perfil según el campo seleccionado. Por ejemplo, si ha ampliado el recurso de perfiles con un campo “Frecuencia de comunicación”, haga clic en el botón de la derecha del campo **[!UICONTROL Threshold computation formula]** y seleccione el campo. Para cada perfil, el umbral tomará el valor del campo “Frecuencia de comunicación”.
 
-   ![](assets/fatigue21.png)
+  ![](assets/fatigue21.png)
 
 * Definir una fórmula: haga clic en el segundo botón de la derecha del campo **[!UICONTROL Threshold computation formula]** para definir una fórmula de cálculo de umbral avanzada. Por ejemplo, puede indexar el número de mensajes autorizados según el segmento al que pertenezca el perfil. Esto significa que un perfil que pertenece al segmento “Web” puede recibir más mensajes que otros perfiles. Una fórmula de tipo **[!UICONTROL Iif (@origin='Web', 5, 3)]** autoriza el envío de 5 mensajes a perfiles del segmento web y 3 para otros segmentos.
 
-   ![](assets/fatigue14.png)
+  ![](assets/fatigue14.png)
 
 **Restricción del umbral de perfiles y entregas**
 
@@ -176,15 +176,15 @@ Hay tres pestañas disponibles que muestran los detalles de los resultados de la
 
 * Registros de entregas:
 
-   ![](assets/fatigue17.png)
+  ![](assets/fatigue17.png)
 
 * Registros de exclusión:
 
-   ![](assets/fatigue18.png)
+  ![](assets/fatigue18.png)
 
 * Causas de exclusión:
 
-   ![](assets/fatigue19.png)
+  ![](assets/fatigue19.png)
 
 ## Visualización del informe de resumen de la regla de fatiga {#viewing-the-fatigue-rule-summary-report}
 
@@ -221,33 +221,33 @@ Existen muchas posibilidades en cuanto a la implementación de la gestión de fa
 
 * Creación de una regla de fatiga usando un **umbral constante** que se aplique a **todos los canales**:
 
-   Supongamos que crea una regla de varios canales con un umbral constante de 3 durante un periodo deslizante de 7 días.
+  Supongamos que crea una regla de varios canales con un umbral constante de 3 durante un periodo deslizante de 7 días.
 
-   La semana pasada, sus perfiles Premium recibieron un correo electrónico de promoción y un correo electrónico de remarketing transaccional. También programó un SMS que se enviará la semana que viene. Hoy, usted decide enviar una notificación push dirigida a todos sus perfiles. Los perfiles Premium se excluirán de la notificación push de hoy porque ya se ha alcanzado el número máximo de mensajes durante un periodo de 2 semanas.
+  La semana pasada, sus perfiles Premium recibieron un correo electrónico de promoción y un correo electrónico de remarketing transaccional. También programó un SMS que se enviará la semana que viene. Hoy, usted decide enviar una notificación push dirigida a todos sus perfiles. Los perfiles Premium se excluirán de la notificación push de hoy porque ya se ha alcanzado el número máximo de mensajes durante un periodo de 2 semanas.
 
-   ![](assets/fatigue23.png)
+  ![](assets/fatigue23.png)
 
 * Creación de una regla de fatiga usando un **umbral variable** basado en un **campo de perfil**:
 
-   Ha ampliado el recurso de perfiles con un campo “Límite de comunicación” para definir un umbral diferente para cada perfil. En la regla de fatiga, defina un umbral variable basado en este campo y seleccione un periodo deslizante de 2 días. Veamos dos ejemplos de perfiles: John tiene un límite de comunicación de 1 y David tiene un umbral de 2. Ambos ya recibieron un correo electrónico de la newsletter ayer. Hoy decide enviarles otro correo electrónico. Solo David lo recibirá, porque John ha sido excluido de los destinatarios.
+  Ha ampliado el recurso de perfiles con un campo “Límite de comunicación” para definir un umbral diferente para cada perfil. En la regla de fatiga, defina un umbral variable basado en este campo y seleccione un periodo deslizante de 2 días. Veamos dos ejemplos de perfiles: John tiene un límite de comunicación de 1 y David tiene un umbral de 2. Ambos ya recibieron un correo electrónico de la newsletter ayer. Hoy decide enviarles otro correo electrónico. Solo David lo recibirá, porque John ha sido excluido de los destinatarios.
 
-   ![](assets/fatigue24.png)
+  ![](assets/fatigue24.png)
 
 * Creación de una regla de fatiga usando una **fórmula de cálculo de umbral**:
 
-   Desea cambiar el umbral según la edad de sus perfiles. Si un perfil es menor de 40, desea definir un límite de 4 y, para perfiles más antiguos, un límite de 2. En lugar de definir este umbral para cada perfil con un campo ampliado, puede crear una fórmula directamente en la regla de fatiga para calcular el umbral según la edad de los perfiles. En nuestro ejemplo, la fórmula sería **[!UICONTROL Iif (@age<40, 4, 2)]**.
+  Desea cambiar el umbral según la edad de sus perfiles. Si un perfil es menor de 40, desea definir un límite de 4 y, para perfiles más antiguos, un límite de 2. En lugar de definir este umbral para cada perfil con un campo ampliado, puede crear una fórmula directamente en la regla de fatiga para calcular el umbral según la edad de los perfiles. En nuestro ejemplo, la fórmula sería **[!UICONTROL Iif (@age<40, 4, 2)]**.
 
-   ![](assets/fatigue25.png)
+  ![](assets/fatigue25.png)
 
-   >[!NOTE]
-   >
-   >Esta sección también incluye un ejemplo paso a paso de una regla de fatiga que utiliza una fórmula de cálculo de umbral.
+  >[!NOTE]
+  >
+  >Esta sección también incluye un ejemplo paso a paso de una regla de fatiga que utiliza una fórmula de cálculo de umbral.
 
 * Cree una regla de fatiga que **restrinja el umbral** en perfiles y entregas:
 
-   Ha ampliado el recurso de perfiles con un campo “Puntuación” y también ha ampliado el recurso de entregas con un campo “Tipo”. Desea definir un umbral constante de 3, pero quiere excluir del recuento todas las entregas del tipo “Alerta” o “Black Friday” y todos los perfiles con una puntuación mayor que 10. Cuando la regla se ejecute, contará, entre las entregas anteriores y programadas, todas las entregas que no sean del tipo “Alerta” o “Black Friday” enviadas a perfiles cuya puntuación sea menor que 10.
+  Ha ampliado el recurso de perfiles con un campo “Puntuación” y también ha ampliado el recurso de entregas con un campo “Tipo”. Desea definir un umbral constante de 3, pero quiere excluir del recuento todas las entregas del tipo “Alerta” o “Black Friday” y todos los perfiles con una puntuación mayor que 10. Cuando la regla se ejecute, contará, entre las entregas anteriores y programadas, todas las entregas que no sean del tipo “Alerta” o “Black Friday” enviadas a perfiles cuya puntuación sea menor que 10.
 
-   ![](assets/fatigue26.png)
+  ![](assets/fatigue26.png)
 
 Este es un ejemplo paso a paso de una regla de fatiga que utiliza una fórmula de cálculo de umbral.
 

@@ -28,23 +28,23 @@ Las opciones posibles son las siguientes:
 
 * **[!UICONTROL History in days]**: especifica el número de días después de los cuales se debe purgar el historial. El historial contiene elementos relacionados con el flujo de trabajo: registros, tareas, eventos (objetos técnicos vinculados a la operación de flujo de trabajo), así como archivos descargados por **[!UICONTROL Transfer file]** actividad. El valor predeterminado es de 30 días para las plantillas de flujo de trabajo integradas.
 
-   La depuración del historial se realiza mediante el flujo de trabajo de limpieza de la base de datos técnico, que se ejecuta de forma predeterminada todos los días. (consulte [Lista de flujos de trabajo técnicos](../../administration/using/technical-workflows.md).)
+  La depuración del historial se realiza mediante el flujo de trabajo de limpieza de la base de datos técnico, que se ejecuta de forma predeterminada todos los días. (consulte [Lista de flujos de trabajo técnicos](../../administration/using/technical-workflows.md).)
 
-   >[!IMPORTANT]
-   >
-   >Si la variable **[!UICONTROL History in days]** Si se deja en blanco, su valor se considerará como &quot;1&quot;, lo que significa que el historial se depurará después de 1 día.
+  >[!IMPORTANT]
+  >
+  >Si la variable **[!UICONTROL History in days]** Si se deja en blanco, su valor se considerará como &quot;1&quot;, lo que significa que el historial se depurará después de 1 día.
 
 * **[!UICONTROL Save SQL queries in the log]**: permite guardar las consultas SQL del flujo de trabajo en los registros.
 
 * **[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]**: marque esta opción si desea registrar todo el plan de ejecución. Está desactivada de forma predeterminada.
 
-   Para obtener más información sobre esta opción, consulte [sección](#diagnostic-mode).
+  Para obtener más información sobre esta opción, consulte [sección](#diagnostic-mode).
 
 * **[!UICONTROL Keep interim results]**: marque esta opción si desea poder ver los detalles de las transiciones.
 
-   >[!CAUTION]
-   >
-   >Esta opción consume mucho espacio en el disco y está diseñada para ayudarle a crear un flujo de trabajo y garantizar una configuración y un comportamiento adecuados. Deje sin marcar las instancias de producción.
+  >[!CAUTION]
+  >
+  >Esta opción consume mucho espacio en el disco y está diseñada para ayudarle a crear un flujo de trabajo y garantizar una configuración y un comportamiento adecuados. Deje sin marcar las instancias de producción.
 
 * **[!UICONTROL Execute in the engine (do not use in production)]**: permite ejecutar el flujo de trabajo localmente para fines de prueba en el entorno de desarrollo.
 
@@ -84,8 +84,8 @@ Puede administrar la opción desde el menú avanzado seleccionando **[!UICONTROL
 
 * **[!UICONTROL Time of query execution (in milliseconds)(DiagnosticModeQueryTime)]**: desde el **[!UICONTROL Value]** , puede establecer una nueva hora para la ejecución de la consulta. Si la ejecución de la consulta supera este valor, se registrará el plan de ejecución.
 
-   ![](assets/wkf_diagnostic_2.png)
+  ![](assets/wkf_diagnostic_2.png)
 
 * **[!UICONTROL Percentage of seq scan time (DiagnosticModeSeqScanPercentage)]**: desde el **[!UICONTROL Value]** , puede cambiar el porcentaje de tiempo de consulta que debe tardar la exploración de secuencias en generarse la recomendación.
 
-   ![](assets/wkf_diagnostic_3.png)
+  ![](assets/wkf_diagnostic_3.png)

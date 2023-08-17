@@ -65,6 +65,6 @@ El estado de un mensaje se representa mediante un color específico en las lista
 * **[!UICONTROL Finished]** (verde): el envío ha finalizado sin errores.
 * **[!UICONTROL Erroneous]** (rojo): se canceló el envío o se produjo un error mientras se preparaba o enviaba el mensaje.
 
-   >[!NOTE]
-   >
-   >Puede aparecer un aviso amarillo encima de la tarjeta cuando se requiera una acción, por ejemplo cuando tenga que confirmar el envío de un mensaje.
+  >[!NOTE]
+  >
+  >Puede aparecer un aviso amarillo encima de la tarjeta cuando se requiera una acción, por ejemplo cuando tenga que confirmar el envío de un mensaje.

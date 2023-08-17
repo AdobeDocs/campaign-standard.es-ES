@@ -66,34 +66,34 @@ Las consultas se pueden definir en la **[!UICONTROL Audience]** ventana mientras
 
    * Para una cadena o **campo** numérico, especifique el operador de comparación y el valor.
 
-      ![](assets/query_editor_audience_definition2.png)
+     ![](assets/query_editor_audience_definition2.png)
 
    * Para un **campo** de fecha y hora, puede definir una fecha específica, un intervalo entre dos fechas o un período relativo a la fecha de ejecución de la consulta.
 
-      ![](assets/query_editor_date_field.png)
+     ![](assets/query_editor_date_field.png)
 
    * Para un **campo** booleano, marque las casillas vinculadas a los valores posibles del campo.
    * Para un campo de **agrupación**, seleccione el campo de agrupación en el que desea crear la regla y, a continuación, defina la condición del mismo modo que para los demás campos.
 
-      ![](assets/query_editor_audience_definition4.png)
+     ![](assets/query_editor_audience_definition4.png)
 
    * Para un vínculo **1-1** con otro recurso de base de datos, seleccione un valor directamente en la tabla segmentada.
 
-      ![](assets/query_editor_audience_definition5.png)
+     ![](assets/query_editor_audience_definition5.png)
 
    * Para un vínculo **1-N** con otro recurso de base de datos, puede definir una subconsulta en los campos de este segundo recurso.
 
-      No es necesario especificar una subcondición.
+     No es necesario especificar una subcondición.
 
-      Por ejemplo, solo puede seleccionar el operador **[!UICONTROL Exists]** en los registros de seguimiento de perfil y aprobar la regla. La regla devolverá todos los perfiles para los que existen registros de seguimiento.
+     Por ejemplo, solo puede seleccionar el operador **[!UICONTROL Exists]** en los registros de seguimiento de perfil y aprobar la regla. La regla devolverá todos los perfiles para los que existen registros de seguimiento.
 
-      ![](assets/query_editor_audience_definition6.png)
+     ![](assets/query_editor_audience_definition6.png)
 
    * En el caso de un **filtro predefinido**, introduzca o seleccione los elementos que desee según los criterios ofrecidos.
 
-      Los administradores pueden crear filtros para facilitar consultas complejas y repetitivas. Aparecerán en el editor de consultas en forma de reglas preconfiguradas y limitarán el número de pasos que debe realizar el usuario.
+     Los administradores pueden crear filtros para facilitar consultas complejas y repetitivas. Aparecerán en el editor de consultas en forma de reglas preconfiguradas y limitarán el número de pasos que debe realizar el usuario.
 
-      ![](assets/query-editor_filter_email-audience_filter.png)
+     ![](assets/query-editor_filter_email-audience_filter.png)
 
 1. Puede especificar un nombre para la regla. A continuación, se muestra como nombre de la regla en el espacio de trabajo. Si a la regla no se le asigna un nombre, se muestra una descripción automática de las condiciones.
 1. Para combinar los elementos del espacio de trabajo, conéctelos entre sí para crear diferentes grupos o niveles de grupo. A continuación, puede seleccionar un operador lógico para combinar elementos en el mismo nivel:

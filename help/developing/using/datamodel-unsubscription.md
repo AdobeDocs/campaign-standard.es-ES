@@ -27,39 +27,39 @@ ht-degree: 60%
                </tr>
                <tr>
                   <td>PKey</td>
-                  <td>Falso</td>
+                  <td>False</td>
                   <td>cadena</td>
-                  <td>Falso</td>
+                  <td>False</td>
                </tr>
                <tr>
                   <td>ctx</td>
-                  <td>Falso</td>
+                  <td>False</td>
                   <td>elemento</td>
-                  <td>Falso</td>
+                  <td>False</td>
                </tr>
                <tr>
                   <td>email</td>
-                  <td>Falso</td>
+                  <td>False</td>
                   <td>cadena</td>
-                  <td>Falso</td>
+                  <td>False</td>
                </tr>
                <tr>
                   <td>emailFormat</td>
-                  <td>Falso</td>
+                  <td>False</td>
                   <td>enumeración</td>
-                  <td>Falso</td>
+                  <td>False</td>
                </tr>
                <tr>
                   <td>mobilePhone</td>
-                  <td>Falso</td>
+                  <td>False</td>
                   <td>cadena</td>
-                  <td>Falso</td>
+                  <td>False</td>
                </tr>
                <tr>
                   <td>serverUrl</td>
-                  <td>Verdadero</td>
+                  <td>True</td>
                   <td>cadena</td>
-                  <td>Falso</td>
+                  <td>False</td>
                </tr>
             </table>
 

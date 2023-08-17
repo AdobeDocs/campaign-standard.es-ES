@@ -36,35 +36,35 @@ La operación de exportación de registros la pueden realizar los usuarios está
 
    * En el **[!UICONTROL Properties]** pestaña, cambie el recurso de destino a **Registros de envío** (broadLogRcp).
 
-      ![](assets/export_logs_query_properties.png)
+     ![](assets/export_logs_query_properties.png)
 
    * En el **[!UICONTROL Target]** , establezca una condición para recuperar todos los &quot;logs&quot; de entrega que correspondan a las entregas realizadas en 2016 o posteriormente. Para obtener más información, consulte la [Edición de consultas](../../automating/using/editing-queries.md#creating-queries) sección.
 
-      ![](assets/export_logs_query_target.png)
+     ![](assets/export_logs_query_target.png)
 
    * En el **[!UICONTROL Processed data]** pestaña, seleccione **[!UICONTROL Use a date field]** y elija la **lastModified** field. En las siguientes ejecuciones del flujo de trabajo, solo se recuperan los registros que se hayan modificado o creado después de la última ejecución.
 
-      ![](assets/export_logs_query_processeddata.png)
+     ![](assets/export_logs_query_processeddata.png)
 
-      Después de la primera ejecución del flujo de trabajo, puede ver en esta pestaña la última fecha de ejecución que se utiliza en la siguiente ejecución. Se actualiza automáticamente cada vez que se ejecuta el flujo de trabajo. Todavía tiene la posibilidad de anular este valor introduciendo manualmente uno nuevo para que se ajuste a sus necesidades.
+     Después de la primera ejecución del flujo de trabajo, puede ver en esta pestaña la última fecha de ejecución que se utiliza en la siguiente ejecución. Se actualiza automáticamente cada vez que se ejecuta el flujo de trabajo. Todavía tiene la posibilidad de anular este valor introduciendo manualmente uno nuevo para que se ajuste a sus necesidades.
 
 1. Añadir un **[!UICONTROL Extract file]** actividad que exportará los datos consultados en un archivo:
 
    * En el **[!UICONTROL Extraction]** , especifique el nombre del archivo.
 
-      Si selecciona la opción **[!UICONTROL Add date and time to the file name]** , este nombre se completará automáticamente con la fecha de la exportación para garantizar que todos los archivos extraídos sean únicos. Seleccione las columnas que desea exportar en el archivo. Puede seleccionar aquí datos procedentes de recursos relacionados, como información de envío o de perfil.
+     Si selecciona la opción **[!UICONTROL Add date and time to the file name]** , este nombre se completará automáticamente con la fecha de la exportación para garantizar que todos los archivos extraídos sean únicos. Seleccione las columnas que desea exportar en el archivo. Puede seleccionar aquí datos procedentes de recursos relacionados, como información de envío o de perfil.
 
-      >[!NOTE]
-      >
-      >Para exportar un identificador único para cada registro, seleccione **[!UICONTROL Delivery log ID]** Elemento.
+     >[!NOTE]
+     >
+     >Para exportar un identificador único para cada registro, seleccione **[!UICONTROL Delivery log ID]** Elemento.
 
-      Para organizar el archivo final, puede aplicar una ordenación. Por ejemplo, en la fecha de registro, como se muestra en el ejemplo siguiente.
+     Para organizar el archivo final, puede aplicar una ordenación. Por ejemplo, en la fecha de registro, como se muestra en el ejemplo siguiente.
 
-      ![](assets/export_logs_extractfile_extraction.png)
+     ![](assets/export_logs_extractfile_extraction.png)
 
    * En el **[!UICONTROL File structure]** pestaña, defina el formato del archivo de salida para que coincida con sus necesidades.
 
-      Marque la opción **[!UICONTROL Export labels instead of internal values of enumerations]** en caso de exportar valores de enumeración. Esta opción permite recuperar etiquetas más cortas, que son fáciles de entender, en lugar de identificadores.
+     Marque la opción **[!UICONTROL Export labels instead of internal values of enumerations]** en caso de exportar valores de enumeración. Esta opción permite recuperar etiquetas más cortas, que son fáciles de entender, en lugar de identificadores.
 
 1. Añadir un **[!UICONTROL Transfer file]** y configúrelo para transferir el archivo recién creado desde el servidor de Adobe Campaign a otra ubicación desde la que pueda acceder, como un servidor SFTP.
 

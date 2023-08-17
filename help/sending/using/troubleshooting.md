@@ -38,13 +38,14 @@ Si el problema persiste, póngase en contacto con los servicios comerciales o de
    * El estado **[!UICONTROL On denylist]** es el resultado de un [bucle de retroalimentación](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=es#feedback-loops) (cuando una persona informa un mensaje como correo no deseado).
 
    * El estado **[!UICONTROL Quarantined]** es el resultado de un rechazo suave o fuerte.
-   Para obtener más información, consulte esta [sección](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist).
+
+  Para obtener más información, consulte esta [sección](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist).
 
 * **¿Qué significan las diferentes razones de error de cuarentena?**
 
-   Estas son 10 razones posibles: no definido, usuario desconocido, dominio inválido, dirección en la lista de bloqueados, rechazado, error omitido, inaccesible, cuenta deshabilitada, buzón lleno, sin conexión.
+  Estas son 10 razones posibles: no definido, usuario desconocido, dominio inválido, dirección en la lista de bloqueados, rechazado, error omitido, inaccesible, cuenta deshabilitada, buzón lleno, sin conexión.
 
-   Para obtener más información, consulte [Comprensión de la administración de cuarentena](../../sending/using/understanding-quarantine-management.md).
+  Para obtener más información, consulte [Comprensión de la administración de cuarentena](../../sending/using/understanding-quarantine-management.md).
 
 ## Eliminación de la lista de bloqueados {#removing-from-denylist}
 
@@ -56,16 +57,16 @@ Si el problema persiste, póngase en contacto con los servicios comerciales o de
 
 * **¿Cómo puedo averiguar si una de mis IP está en lista de bloqueados de la? ¿Cómo elimino mis IP de una lista de bloqueados?**
 
-   Para comprobar si su dirección IP está en lista de bloqueados, puede utilizar varios sitios web para verificarla, como:
+  Para comprobar si su dirección IP está en lista de bloqueados, puede utilizar varios sitios web para verificarla, como:
    * [MX Toolbox](https://mxtoolbox.com/)
    * [¿Cuál es mi dirección IP?](https://whatismyipaddress.com)
 
-   Por lo general, el resultado de la comprobación de la dirección IP muestra una lista que contiene detalles de la lista de bloqueados de la dirección IP y también el nombre del sitio web que bloqueó la dirección IP.
+  Por lo general, el resultado de la comprobación de la dirección IP muestra una lista que contiene detalles de la lista de bloqueados de la dirección IP y también el nombre del sitio web que bloqueó la dirección IP.
 
-   Al hacer clic en el enlace correspondiente, puede acceder a los detalles del sitio web.
+  Al hacer clic en el enlace correspondiente, puede acceder a los detalles del sitio web.
 
-   Puede solicitar que su sitio web se elimine de la lista del sitio web que añadió la dirección IP a su lista de bloqueados.
+  Puede solicitar que su sitio web se elimine de la lista del sitio web que añadió la dirección IP a su lista de bloqueados.
 
-   >[!NOTE]
-   >
-   >El proceso de supresión de nombres de la lista puede variar según el sitio web. Algunos sitios requieren que cree una cuenta, mientras que otros solo necesitan que proporcione la dirección IP.
+  >[!NOTE]
+  >
+  >El proceso de supresión de nombres de la lista puede variar según el sitio web. Algunos sitios requieren que cree una cuenta, mientras que otros solo necesitan que proporcione la dirección IP.

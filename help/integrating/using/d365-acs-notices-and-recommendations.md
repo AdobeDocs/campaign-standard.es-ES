@@ -88,7 +88,7 @@ Si seleccionó la **Bidireccional** o **Unidireccional (Campaign a Microsoft Dyn
 
 La integración debe utilizar su almacenamiento SFTP de Campaign en los casos de uso que se indican a continuación.  Debe asegurarse de que su cuenta SFTP tenga la capacidad de almacenamiento adecuada para dar cabida a estos casos de uso. El exceso de la capacidad de almacenamiento SFTP con licencia puede afectar gravemente al uso funcional de Campaign, la integración o la cuenta SFTP.
 
-| Caso de uso | Descripción |
+| Ejemplo de uso | Descripción |
 |---|---|
 | Bidireccional y unidireccional (Campaign to Microsoft Dynamics 365) | Los flujos de datos de exclusión bidireccionales y unidireccionales (de Campaign a Microsoft Dynamics 365) utilizarán el almacenamiento SFTP de Campaign. Un flujo de trabajo de Campaign exportará los cambios incrementales a la carpeta SFTP. A partir de ahí, la integración recoge los registros y el proceso. |
 | Registros de exclusión | Los registros de salida del conector serán útiles para solucionar los problemas de la integración. Los registros de salida se pueden activar y desactivar. |
@@ -150,19 +150,19 @@ Puede encontrar una descripción general más completa de los recursos personali
 
 ### Protecciones de integración
 
-Al planificar el uso de esta integración, deben tenerse en cuenta las siguientes limitaciones. Consulte con su representante técnico de Adobe si cree que sobrepasa estas barreras.
+Al planificar el uso de esta integración, deben tenerse en cuenta las siguientes limitaciones. Consulte con su técnico de Adobe si cree que sobrepasa estas barreras.
 
 * Deberá obtener la licencia del paquete de Campaign adecuado para admitir el volumen de llamadas al motor generado por la integración. Si se supera el volumen de llamadas al motor con licencia, podría causar una degradación en el rendimiento de la campaña.
 
-   Utilice lo siguiente para ayudar a calcular el volumen de llamadas al motor desde la integración:
+  Utilice lo siguiente para ayudar a calcular el volumen de llamadas al motor desde la integración:
 
    * Inserciones de registros (es decir, nuevo registro): 1 acceso al motor
    * Eliminación de registros: 1 petición de motor
    * Actualizaciones de registros: 2 llamadas al motor (solo 1 llamada si el registro de destino es idéntico al registro de origen, es decir, si no hay cambios en el registro de campaña)
 
-   Al estimar el volumen total de llamadas al motor de Campaign, es importante tener en cuenta otras fuentes de llamadas al motor, como páginas de aterrizaje, WebApps, JSSP, API, registros de aplicaciones móviles, etc.
+  Al estimar el volumen total de llamadas al motor de Campaign, es importante tener en cuenta otras fuentes de llamadas al motor, como páginas de aterrizaje, WebApps, JSSP, API, registros de aplicaciones móviles, etc.
 
-   Consulte la información del paquete de Adobe Campaign Standard aquí: [https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)
+  Consulte la información del paquete de Adobe Campaign Standard aquí: [https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)
 
 * La integración admite un máximo de 15 millones de registros totales para la sincronización inicial con los recursos en Campaign. La sincronización incremental está limitada por el paquete de Adobe Campaign Standard.
 

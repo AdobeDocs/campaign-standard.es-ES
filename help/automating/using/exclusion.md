@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ---
 
-# Exclusión{#exclusion}
+# Exclusión {#exclusion}
 
 ## Descripción {#description}
 

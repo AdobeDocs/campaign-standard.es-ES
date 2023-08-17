@@ -51,8 +51,8 @@ Por ejemplo, para crear un nuevo perfil directamente en la interfaz de usuario, 
    * El **[!UICONTROL Time zone]** del perfil se utiliza para realizar envíos en el huso horario adecuado. Para obtener más información, consulte [esta sección](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
    * La categoría **[!UICONTROL Channels]**, que contiene la dirección de correo electrónico, el número de teléfono móvil y la información de exclusión, le permite saber por qué canal se puede acceder al perfil.
 
-      >[!NOTE]
-      > Los números de teléfono móvil siempre deben tener un formato internacional (`+<country><number>`) en la tabla de perfiles.
+     >[!NOTE]
+     > Los números de teléfono móvil siempre deben tener un formato internacional (`+<country><number>`) en la tabla de perfiles.
 
    * La categoría **[!UICONTROL No longer contact]** se actualiza en cuanto el perfil cancela la suscripción a un canal.
    * La categoría **[!UICONTROL Address]** contiene la dirección postal que debe rellenarse junto con la opción **[!UICONTROL Address specified]** para enviar [correo postal](../../channels/using/about-direct-mail.md) a dicho perfil. Si la opción **[!UICONTROL Address specified]** no está marcada, este perfil se excluye de todos los envíos de correo postal.

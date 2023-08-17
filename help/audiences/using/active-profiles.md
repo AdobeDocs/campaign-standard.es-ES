@@ -41,3 +41,4 @@ En la parte inferior de la página, las dimensiones de segmentación se enumeran
 >[!NOTE]
 >
 >Como usuario administrador, también puede monitorizar el número de perfiles activos utilizados en las instancias directamente desde la Panel de control de Campaign. Para obtener más información, consulte la [documentación del Panel de control](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=es).
+>

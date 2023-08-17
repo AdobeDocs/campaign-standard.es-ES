@@ -1,6 +1,6 @@
 ---
 title: Enriquecimiento
-description: La actividad Enriquecimiento es una actividad avanzada que le permite definir datos adicionales para procesarlos en el flujo de trabajo.
+description: La actividad de enriquecimiento es una actividad avanzada que le permite definir datos adicionales para procesarlos en el flujo de trabajo.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -16,7 +16,7 @@ ht-degree: 96%
 
 ---
 
-# Enriquecimiento{#enrichment}
+# Enriquecimiento {#enrichment}
 
 ## Descripción {#description}
 

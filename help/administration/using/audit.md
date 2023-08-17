@@ -25,7 +25,7 @@ El **[!UICONTROL Audit trail]** le permite acceder al historial completo de camb
 
 * **Pista de auditoría de recursos personalizados**: compruebe la actividad y la última modificación realizadas en los recursos personalizados.
 
-   Para obtener más información sobre **[!UICONTROL Custom resources]**, consulte esta [página](../../developing/using/key-steps-to-add-a-resource.md).
+  Para obtener más información sobre **[!UICONTROL Custom resources]**, consulte esta [página](../../developing/using/key-steps-to-add-a-resource.md).
 
 * **Pista de auditoría de flujo de trabajo**: compruebe la actividad y la última modificación realizadas en los flujos de trabajo y, además, el estado de los mismos, como por ejemplo:
 
@@ -43,11 +43,11 @@ El **[!UICONTROL Audit trail]** le permite acceder al historial completo de camb
    * Reinicio del flujo de trabajo con el mismo usuario
    * Comando Workflow Restart Unknown
 
-   Para obtener más información sobre **[!UICONTROL Workflows]**, consulte esta [página](../../automating/using/get-started-workflows.md).
+  Para obtener más información sobre **[!UICONTROL Workflows]**, consulte esta [página](../../automating/using/get-started-workflows.md).
 
 * **Opción Pista de auditoría**: compruebe la actividad y la última modificación realizada en las opciones.
 
-   Para obtener más información sobre **[!UICONTROL Options]**, consulte esta [página](../../administration/using/about-campaign-standard-settings.md).
+  Para obtener más información sobre **[!UICONTROL Options]**, consulte esta [página](../../administration/using/about-campaign-standard-settings.md).
 
 Tenga en cuenta que, de forma predeterminada, el período de retención es de 30 días.
 
@@ -105,9 +105,10 @@ Para ello:
    * **[!UICONTROL XtkAudit_CusResource]** opción para administrar la pista de auditoría para los recursos personalizados.
    * **[!UICONTROL XtkAudit_Enable_All]** para administrar la pista de auditoría de cada entidad.
 
-      >[!NOTE]
-      >
-      >Si la variable **[!UICONTROL XtkAudit_Enable_All]** Si la opción se establece en 0, la variable **[!UICONTROL Audit trail]** Esta función se desactivará completamente, independientemente de otros valores de opción individuales.
+     >[!NOTE]
+     >
+     >Si la variable **[!UICONTROL XtkAudit_Enable_All]** Si la opción se establece en 0, la variable **[!UICONTROL Audit trail]** Esta función se desactivará completamente, independientemente de otros valores de opción individuales.
+
    ![](assets/audit-trail_5.png)
 
 1. De su **[!UICONTROL Options]** página, configure el **[!UICONTROL Value (integer)]** a 0 si desea deshabilitar la variable **[!UICONTROL Audit trail]** o en 1 para habilitarlo.

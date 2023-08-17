@@ -73,7 +73,6 @@ Este caso de uso le permite crear una plantilla del Diseñador de correo electr�
    >* `<style data-name="media-default-max-width-500px" type="text/css">(##)</style>`
    >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
 
-
 1. Vuelva a la vista móvil para comprobar que el contenido se muestra correctamente y guardar los cambios.
 
 ## Caso de uso

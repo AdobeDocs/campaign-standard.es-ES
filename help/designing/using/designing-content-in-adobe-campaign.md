@@ -105,17 +105,17 @@ Para utilizar correctamente el Diseñador de correo electrónico y crear los mej
 
 * Utilice estilos en línea en lugar de CSS y CSS independientes en la sección &lt;head> del HTML. Al utilizar el estilo en línea, puede optimizar el almacenamiento y la reutilización de fragmentos de contenido.
 
-   Consulte [Añadir atributos de estilo en línea](../../designing/using/styles.md#adding-inline-styling-attributes).
+  Consulte [Añadir atributos de estilo en línea](../../designing/using/styles.md#adding-inline-styling-attributes).
 
 * Si importa archivos .zip con contenido HTML, utilice CSS normal. No se admiten las hojas de estilo SCSS.
 
 * Configure la marca fácilmente mediante la creación y reutilización de fragmentos de contenido para mantener la coherencia en las campañas de marketing.
 
-   Consulte [Creación de un fragmento de contenido](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
+  Consulte [Creación de un fragmento de contenido](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
 
 * Al editar el contenido **del correo electrónico**:
 
-   Previsualice los mensajes antes de enviarlos. Adobe Campaign ofrece una forma de probar el procesamiento de correo electrónico con Litmus. Para obtener más información, consulte [Procesamiento de correo electrónico](../../sending/using/email-rendering.md).
+  Previsualice los mensajes antes de enviarlos. Adobe Campaign ofrece una forma de probar el procesamiento de correo electrónico con Litmus. Para obtener más información, consulte [Procesamiento de correo electrónico](../../sending/using/email-rendering.md).
 
 * La metaetiqueta de Remitente del reenvío no es compatible con el Diseñador de correo electrónico.
 

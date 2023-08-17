@@ -40,7 +40,7 @@ La actividad **[!UICONTROL Incremental query]** se puede utilizar para varios ti
 
 * Exportación de datos.
 
-   Puede utilizar una actividad de **[!UICONTROL Incremental query]** para exportar con regularidad nuevos registros en los archivos. Puede resultar útil, por ejemplo, si desea utilizar los datos de registro en herramientas externas de sistema de informes o BI. Puede encontrar un ejemplo completo en la sección [Registros de exportación](../../automating/using/exporting-logs.md).
+  Puede utilizar una actividad de **[!UICONTROL Incremental query]** para exportar con regularidad nuevos registros en los archivos. Puede resultar útil, por ejemplo, si desea utilizar los datos de registro en herramientas externas de sistema de informes o BI. Puede encontrar un ejemplo completo en la sección [Registros de exportación](../../automating/using/exporting-logs.md).
 
 **Temas relacionados**
 
@@ -60,7 +60,8 @@ La actividad **[!UICONTROL Incremental query]** se puede utilizar para varios ti
    * **[!UICONTROL Use the exclusion of the results of previous executions]**: se excluyen los resultados de ejecuciones anteriores para cada nueva ejecución.
    * **[!UICONTROL Use a date field]**: las siguientes ejecuciones solo tienen en cuenta los resultados con un valor del campo de fecha seleccionado superior o igual a la fecha de la última ejecución de la actividad **[!UICONTROL Incremental query]**. Puede seleccionar cualquier campo de fecha que pertenezca al recurso seleccionado en la pestaña **[!UICONTROL Properties]**. Este modo ofrece un mejor rendimiento al consultar recursos de gran tamaño, como datos de registro.
 
-      Después de la primera ejecución del flujo de trabajo, puede ver en esta pestaña la última fecha de ejecución que se utiliza en la siguiente ejecución. Se actualiza automáticamente cada vez que se ejecuta el flujo de trabajo. Todavía tiene la posibilidad de anular este valor introduciendo manualmente uno nuevo para que se ajuste a sus necesidades.
+     Después de la primera ejecución del flujo de trabajo, puede ver en esta pestaña la última fecha de ejecución que se utiliza en la siguiente ejecución. Se actualiza automáticamente cada vez que se ejecuta el flujo de trabajo. Todavía tiene la posibilidad de anular este valor introduciendo manualmente uno nuevo para que se ajuste a sus necesidades.
+
    >[!NOTE]
    >
    >El modo **[!UICONTROL Use a date field]** permite una mayor flexibilidad en función del campo de fecha seleccionado. Por ejemplo, si el campo seleccionado corresponde a una fecha de modificación, el modo de campo de fecha permite recuperar datos que se han actualizado recientemente, mientras que el otro modo excluye simplemente las grabaciones que ya estaban segmentadas en una ejecución anterior, aunque se hayan modificado desde la última ejecución del flujo de trabajo.

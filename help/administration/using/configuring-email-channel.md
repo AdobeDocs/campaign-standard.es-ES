@@ -25,7 +25,7 @@ La pantalla de configuración de correo electrónico le permite definir los par�
 
 * **Campos de máscaras autorizadas**
 
-   La sección **[!UICONTROL Header parameters of sent emails]** enumera las direcciones de correo electrónico autorizadas que puede utilizar para enviar correos electrónicos a sus destinatarios (dirección del remitente) y para permitirles enviar respuestas automatizadas como devoluciones asincrónicas, respuestas de fuera de la oficina, etc. (dirección de error).  Adobe Campaign comprueba que las direcciones especificadas son válidas durante la fase de preparación del mensaje. Este modo operativo garantiza que no se utilicen direcciones que puedan activar problemas de la capacidad de entrega.
+  La sección **[!UICONTROL Header parameters of sent emails]** enumera las direcciones de correo electrónico autorizadas que puede utilizar para enviar correos electrónicos a sus destinatarios (dirección del remitente) y para permitirles enviar respuestas automatizadas como devoluciones asincrónicas, respuestas de fuera de la oficina, etc. (dirección de error).  Adobe Campaign comprueba que las direcciones especificadas son válidas durante la fase de preparación del mensaje. Este modo operativo garantiza que no se utilicen direcciones que puedan activar problemas de la capacidad de entrega.
    * Adobe configura las direcciones del remitente y de error. Estos campos no pueden estar vacíos.
    * No puede editar esos campos. Para actualizar una dirección, póngase en contacto con el equipo de Atención al cliente de Adobe.
    * Para agregar otra dirección, puede utilizar [Panel de control de Campaign de campaña](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=es) para configurar un nuevo subdominio o póngase en contacto con el equipo de atención al cliente de Adobe. Tenga en cuenta que si se utilizan varias máscaras, se separan con comas.
@@ -33,39 +33,39 @@ La pantalla de configuración de correo electrónico le permite definir los par�
 
 * **Capacidad de entrega**
 
-   El equipo de Atención al cliente de Adobe proporciona el **[!UICONTROL Delivery reports ID]**. Identifica cada instancia con un ID de capacidad de entrega que se utiliza en los informes técnicos de la capacidad de entrega.
-   <!--The Technical Deliverability report is not accessible through the UI in ACS. It will be replaced with 250ok in the future (project starting).-->
+  El equipo de Atención al cliente de Adobe proporciona el **[!UICONTROL Delivery reports ID]**. Identifica cada instancia con un ID de capacidad de entrega que se utiliza en los informes técnicos de la capacidad de entrega.
+  <!--The Technical Deliverability report is not accessible through the UI in ACS. It will be replaced with 250ok in the future (project starting).-->
 
 * **Parámetros de entrega**
 
-   Adobe Campaign envía los mensajes a partir de la fecha de inicio.
+  Adobe Campaign envía los mensajes a partir de la fecha de inicio.
 
-   Cuando un mensaje de una entrega se rechaza debido a un error temporal o a una devolución del mensaje, Campaign vuelve a intentar enviar este mensaje todos los días. Utilice el **[!UICONTROL Message delivery duration]** para especificar el periodo de tiempo durante los reintentos.
+  Cuando un mensaje de una entrega se rechaza debido a un error temporal o a una devolución del mensaje, Campaign vuelve a intentar enviar este mensaje todos los días. Utilice el **[!UICONTROL Message delivery duration]** para especificar el periodo de tiempo durante los reintentos.
 
-   >[!IMPORTANT]
-   >
-   >**Este parámetro en Campaign ahora solo se utiliza si se establece en 3,5 días o menos.** Si define un valor superior a 3,5 días, no se tendrá en cuenta.
+  >[!IMPORTANT]
+  >
+  >**Este parámetro en Campaign ahora solo se utiliza si se establece en 3,5 días o menos.** Si define un valor superior a 3,5 días, no se tendrá en cuenta.
 
-   El campo **[!UICONTROL Online resources validity duration]** se utiliza para los recursos cargados, principalmente para la página espejo y las imágenes. Los recursos de esta página son válidos durante un tiempo limitado (para ahorrar espacio en el disco).
+  El campo **[!UICONTROL Online resources validity duration]** se utiliza para los recursos cargados, principalmente para la página espejo y las imágenes. Los recursos de esta página son válidos durante un tiempo limitado (para ahorrar espacio en el disco).
 
 * **Reintentos**
 
-   Los mensajes no entregados temporalmente están sujetos a un reintento automático. Para obtener más información, consulte [Reintentos después de un error temporal de entrega](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
+  Los mensajes no entregados temporalmente están sujetos a un reintento automático. Para obtener más información, consulte [Reintentos después de un error temporal de entrega](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
-   >[!IMPORTANT]
-   >
-   >El número máximo de reintentos que se deben realizar y el retraso mínimo entre reintentos ahora se basan en el rendimiento histórico y actual de una IP en un dominio determinado. El **[!UICONTROL Retry period]** y **[!UICONTROL Number of retries]** La configuración de Campaign se ignorará.
+  >[!IMPORTANT]
+  >
+  >El número máximo de reintentos que se deben realizar y el retraso mínimo entre reintentos ahora se basan en el rendimiento histórico y actual de una IP en un dominio determinado. El **[!UICONTROL Retry period]** y **[!UICONTROL Number of retries]** La configuración de Campaign se ignorará.
 
-   <!--This section indicates how many retries should be performed the day after the send is started (**Number of retries**) and the minimum delay between retries (**Retry period**). By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.-->
+  <!--This section indicates how many retries should be performed the day after the send is started (**Number of retries**) and the minimum delay between retries (**Retry period**). By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.-->
 
 * **Parámetros de cuarentena de correo electrónico**
 
-   En el campo **[!UICONTROL Time between two significant errors]**, introduzca un valor para definir el tiempo que la aplicación espera antes de incrementar el contador de errores en caso de que se produzca un error de devolución del mensaje. El valor predeterminado es **“1d”**, para 1 día.
+  En el campo **[!UICONTROL Time between two significant errors]**, introduzca un valor para definir el tiempo que la aplicación espera antes de incrementar el contador de errores en caso de que se produzca un error de devolución del mensaje. El valor predeterminado es **“1d”**, para 1 día.
 
-   Cuando se alcanza el valor **[!UICONTROL Maximum number of errors before quarantine]**, la dirección de correo electrónico se pone en cuarentena. El valor predeterminado es **&quot;5&quot;**: la dirección se pone en cuarentena en el quinto error. Esto significa que el contacto se excluirá automáticamente de las entregas posteriores.
-   <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
+  Cuando se alcanza el valor **[!UICONTROL Maximum number of errors before quarantine]**, la dirección de correo electrónico se pone en cuarentena. El valor predeterminado es **&quot;5&quot;**: la dirección se pone en cuarentena en el quinto error. Esto significa que el contacto se excluirá automáticamente de las entregas posteriores.
+  <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
 
-   Para obtener más información sobre cuarentenas, consulte [Comprensión de la gestión de la cuarentena](../../sending/using/understanding-quarantine-management.md).
+  Para obtener más información sobre cuarentenas, consulte [Comprensión de la gestión de la cuarentena](../../sending/using/understanding-quarantine-management.md).
 
 ## Cuentas de enrutamiento de correo electrónico {#email-routing-accounts}
 
@@ -169,9 +169,9 @@ Puede configurar el formato de los correos electrónicos que se van a enviar. Ha
 * **Uso de preferencias del destinatario** (modo predeterminado): el formato de mensaje se define según los datos almacenados en el perfil de destinatario y se almacena de forma predeterminada en el campo **Formato del correo electrónico** (@emailFormat). Si un destinatario desea recibir mensajes en un formato determinado, este es el formato enviado. Si el campo no está completo, se envía un mensaje multipart-alternative (consulte a continuación).
 * **Permita que el cliente de correo destinatario elija el formato más adecuado (multipart-alternative)**: el mensaje contiene ambos formatos, de texto y HTML. El formato que se muestra al recibirlo depende de la configuración del software de correo del destinatario (multipart-alternative).
 
-   >[!IMPORTANT]
-   >
-   >Esta opción incluye ambas versiones del mensaje. Por lo tanto, esto afecta al rendimiento de entrega, ya que el tamaño del mensaje es mayor.
+  >[!IMPORTANT]
+  >
+  >Esta opción incluye ambas versiones del mensaje. Por lo tanto, esto afecta al rendimiento de entrega, ya que el tamaño del mensaje es mayor.
 
 * **Enviar todos los mensajes en formato de texto**: el mensaje se envía en formato de texto. El formato HTML no se envía, pero se utiliza solo para la página espejo cuando el destinatario hace clic en el enlace del mensaje.
 
@@ -200,17 +200,17 @@ La sección **[!UICONTROL Validity period]** contiene los siguientes parámetros
 
 * **[!UICONTROL Explicitly set validity dates]**: cuando esta casilla está desmarcada, debe introducir una duración en **[!UICONTROL Delivery duration]** y **[!UICONTROL Resource validity limit]**.
 
-   Marque esta casilla si desea definir fechas y horas específicas.
+  Marque esta casilla si desea definir fechas y horas específicas.
 
-   ![](assets/delivery-set-explicit-dates.png)
+  ![](assets/delivery-set-explicit-dates.png)
 
 * **[!UICONTROL Delivery duration]** / **[!UICONTROL Validity limit for sending messages]**: Adobe Campaign envía los mensajes a partir de la fecha de inicio. Utilice este campo para especificar el periodo durante el cual se pueden enviar los mensajes.
 
-   >[!IMPORTANT]
-   >
-   >**Debe definir un valor de hasta 3,5 días.** Si establece un valor superior a 3,5 días, no se tendrá en cuenta.
-   >
-   >El parámetro **[!UICONTROL Delivery duration]** no se aplica a mensajes transaccionales. Para obtener más información sobre la mensajería transaccional, consulte [esta sección](../../channels/using/getting-started-with-transactional-msg.md).
+  >[!IMPORTANT]
+  >
+  >**Debe definir un valor de hasta 3,5 días.** Si establece un valor superior a 3,5 días, no se tendrá en cuenta.
+  >
+  >El parámetro **[!UICONTROL Delivery duration]** no se aplica a mensajes transaccionales. Para obtener más información sobre la mensajería transaccional, consulte [esta sección](../../channels/using/getting-started-with-transactional-msg.md).
 
 * **[!UICONTROL Resource validity duration]** / **[!UICONTROL Validity limit date for resources]**: este campo se utiliza para los recursos cargados, principalmente para la página espejo y las imágenes. Los recursos de esta página son válidos durante un tiempo limitado (para ahorrar espacio en el disco).
 * **[!UICONTROL Mirror page management]**: la página espejo es una página HTML accesible en línea mediante un explorador web. Su contenido es idéntico al contenido del correo electrónico. De forma predeterminada, la página espejo se genera si el vínculo se inserta en el contenido del correo. Utilice este campo para modificar cómo se genera esta página:
@@ -220,9 +220,10 @@ La sección **[!UICONTROL Validity period]** contiene los siguientes parámetros
    * **No generar la página espejo**: no se genera ninguna página espejo, aunque el vínculo esté en los mensajes.
    * **Genera una página espejo accesible solo con el ID de mensaje**: esta opción permite acceder al contenido de la página espejo, con información de personalización, en la ventana del registros de entregas.
 
-   >[!IMPORTANT]
-   >
-   >La página espejo solo se genera si se ha definido un contenido de HTML para el correo electrónico.
+  >[!IMPORTANT]
+  >
+  >La página espejo solo se genera si se ha definido un contenido de HTML para el correo electrónico.
+  >
 
 
 ### Parámetros de seguimiento {#tracking-parameters}
@@ -264,13 +265,13 @@ La preparación de los mensajes se detalla en la sección [Aprobación de mensaj
 
 * **[!UICONTROL Typology]**: antes de cualquier envío, los mensajes deben prepararse para validar el contenido y la configuración. Las reglas de verificación aplicadas durante la fase de preparación se definen en una **tipología**. Por ejemplo, para los correos electrónicos, la preparación implica comprobar el asunto, las direcciones URL y las imágenes, etc. Seleccione la tipología que se aplicará en este campo.
 
-   >[!NOTE]
-   >
-   >Las tipologías a las que se puede acceder a través del menú **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** se presentan en [esta sección](../../sending/using/about-typology-rules.md).
+  >[!NOTE]
+  >
+  >Las tipologías a las que se puede acceder a través del menú **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** se presentan en [esta sección](../../sending/using/about-typology-rules.md).
 
 * **[!UICONTROL Compute the label during delivery preparation]**: utilice esta opción para calcular el valor de la etiqueta del correo electrónico durante la fase de preparación del mensaje mediante campos de personalización, bloques de contenido y texto dinámico.
 
-   También es posible personalizar la etiqueta de entrega con variables de eventos que se han declarado en la actividad de señal externa del flujo de trabajo. Para obtener más información, consulte [esta sección](../../automating/using/calling-a-workflow-with-external-parameters.md).
+  También es posible personalizar la etiqueta de entrega con variables de eventos que se han declarado en la actividad de señal externa del flujo de trabajo. Para obtener más información, consulte [esta sección](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
 * **[!UICONTROL Save SQL queries in the log]**: utilice esta opción para añadir registros de consulta SQL en el historial durante la fase de preparación.
 
@@ -286,9 +287,9 @@ La sección **[!UICONTROL SMTP]** contiene los siguientes parámetros:
 * **[!UICONTROL Bounce mails]**: de forma predeterminada, los mensajes devueltos se reciben en la bandeja de entrada de errores de la plataforma (definida en la pantalla **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email]** > **[!UICONTROL Configuration]**). Para definir una dirección de error específica para un correo electrónico, introduzca la dirección en el campo **[!UICONTROL Error address]**.
 * **[!UICONTROL Additional SMTP headers]**: esta opción permite agregar encabezados SMTP adicionales a los mensajes. La secuencia de comandos introducida en el campo **[!UICONTROL Headers]** debe hacer referencia a un encabezado por línea en forma de **name:value**. Los valores se codifican automáticamente si es necesario.
 
-   >[!IMPORTANT]
-   >
-   >La adición de secuencias de comandos para insertar encabezados SMTP se reserva para usuarios avanzados. La sintaxis de esta secuencia de comandos debe cumplir con los requisitos de este tipo de contenido: no dejar espacios sin utilizar, ninguna línea vacía, etc.
+  >[!IMPORTANT]
+  >
+  >La adición de secuencias de comandos para insertar encabezados SMTP se reserva para usuarios avanzados. La sintaxis de esta secuencia de comandos debe cumplir con los requisitos de este tipo de contenido: no dejar espacios sin utilizar, ninguna línea vacía, etc.
 
 ### Lista de los parámetros de autorización de acceso {#list-of-access-authorization-parameters}
 
@@ -296,9 +297,9 @@ La sección **[!UICONTROL Access authorization]** contiene los siguientes parám
 
 * El **[!UICONTROL Organizational unit]** se utiliza para restringir el acceso a este correo electrónico a determinados usuarios. Los usuarios asociados con la unidad o las unidades principales especificadas tendrán acceso de lectura y escritura a este correo electrónico. Los usuarios asociados con unidades secundarias solo tendrán acceso de lectura a este correo electrónico.
 
-   >[!NOTE]
-   >
-   >Puede configurar las unidades organizativas mediante el menú **Administración** > **Usuarios y seguridad**.
+  >[!NOTE]
+  >
+  >Puede configurar las unidades organizativas mediante el menú **Administración** > **Usuarios y seguridad**.
 
 * Los campos **[!UICONTROL Created by]**, **[!UICONTROL Created]**, **[!UICONTROL Modified by]** y **[!UICONTROL Last modified]** se completan automáticamente.
 

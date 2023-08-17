@@ -26,17 +26,17 @@ Existen dos tipos de destinatarios de prueba:
 
 * **Los perfiles de prueba** permiten llegar a destinatarios adicionales que no coinciden con los criterios de objetivo definidos.
 
-   Se pueden añadir a la audiencia de un mensaje para detectar cualquier uso fraudulento de la base de datos de destinatario o para asegurarse de que los correos electrónicos llegan a las bandejas de entrada. Para obtener más información, consulte [Administración de perfiles de prueba](../../audiences/using/managing-test-profiles.md).
+  Se pueden añadir a la audiencia de un mensaje para detectar cualquier uso fraudulento de la base de datos de destinatario o para asegurarse de que los correos electrónicos llegan a las bandejas de entrada. Para obtener más información, consulte [Administración de perfiles de prueba](../../audiences/using/managing-test-profiles.md).
 
-   >[!NOTE]
-   >
-   >Para enviar una prueba, los perfiles de prueba deben incluirse en la audiencia del mensaje.
+  >[!NOTE]
+  >
+  >Para enviar una prueba, los perfiles de prueba deben incluirse en la audiencia del mensaje.
 
 * **Los perfiles de sustitución** le permiten colocarse en la posición de uno de los perfiles objetivo y obtener una representación exacta del mensaje que va a recibir el perfil. Para obtener más información, consulte [Prueba de mensajes de correo electrónico con perfiles de destino](../../sending/using/testing-messages-using-target.md).
 
-   >[!NOTE]
-   >
-   >Esta función solo está disponible para el canal de correo electrónico.
+  >[!NOTE]
+  >
+  >Esta función solo está disponible para el canal de correo electrónico.
 
 ## Envío de una prueba {#sending-a-proof}
 

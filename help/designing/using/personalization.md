@@ -39,7 +39,7 @@ Este campo se puede personalizar. Para ello, puede añadir campos de personaliza
 
 ## Personalización de direcciones URL{#personalizing-urls}
 
-Adobe Campaign permite personalizar una o varias direcciones URL en el mensaje añadiendo campos de personalización, bloques de contenido o contenido dinámico. Para ello, haga lo siguiente:
+Adobe Campaign permite personalizar una o varias direcciones URL del mensaje añadiendo campos de personalización, bloques de contenido o contenido dinámico. Para ello, haga lo siguiente:
 
 1. Inserte una dirección URL externa y especifique sus parámetros. Consulte [Inserción de un vínculo](../../designing/using/links.md#inserting-a-link).
 1. Si no se muestra, haga clic en el lápiz situado junto a la dirección URL seleccionada en el panel Configuración para acceder a las opciones de personalización.
@@ -199,7 +199,7 @@ Adobe Campaign permite personalizar una o varias imágenes del mensaje según un
 
    >[!NOTE]
    >
-   >El nombre de dominio (http://mydomain.com) no se puede personalizar, debe introducirse manualmente. El resto de la dirección URL se puede personalizar. Por ejemplo: http://mydomain.com/ `[Gender]` .jpg
+   >El nombre de dominio (http://mydomain.com) no se puede personalizar y debe introducirse manualmente. El resto de la dirección URL se puede personalizar. Por ejemplo: http://mydomain.com/ `[Gender]` .jpg
 
 1. Confirme los cambios.
 
@@ -320,15 +320,15 @@ El correo electrónico se crea de la siguiente manera:
 
 * El contenido dinámico se aplica a la imagen y este contenido dinámico se configura según el intervalo de edad.
 
-   ![](assets/delivery_content_43.png)
+  ![](assets/delivery_content_43.png)
 
-   La adición y configuración de contenido dinámico se detallan en [Definición del contenido dinámico en un correo electrónico](#defining-dynamic-content-in-an-email) sección.
+  La adición y configuración de contenido dinámico se detallan en [Definición del contenido dinámico en un correo electrónico](#defining-dynamic-content-in-an-email) sección.
 
 * Los campos de personalización y el contenido dinámico se aplican al texto. Según el intervalo de edad del perfil, el correo electrónico comienza con el nombre del perfil o el título y apellidos del perfil.
 
-   ![](assets/delivery_content_44.png)
+  ![](assets/delivery_content_44.png)
 
-   La adición y configuración de los campos personalizados se detalla en la [Inserción de un campo personalizado](#inserting-a-personalization-field) sección.
+  La adición y configuración de los campos personalizados se detalla en la [Inserción de un campo personalizado](#inserting-a-personalization-field) sección.
 
 ### Configuración de imágenes {#configuring-images}
 
@@ -349,7 +349,7 @@ En este ejemplo, el contenido dinámico aplicado a las imágenes se configura de
 
    ![](assets/delivery_content_49.png)
 
-1. Seleccione el **Bueno que o igual a** operador y luego entrar **18** para crear el **mayor de 18 años** expresión.
+1. Seleccione el **Mayor o igual que** operador y luego entrar **18** para crear el **mayor de 18 años** expresión.
 
    ![](assets/delivery_content_50.png)
 
@@ -365,7 +365,7 @@ En este ejemplo, el contenido dinámico aplicado a las imágenes se configura de
 
 1. Seleccione el contenido dinámico de la paleta y edítelo.
 1. Edite la etiqueta y seleccione la **[!UICONTROL Age]** del campo **[!UICONTROL Profile]** nodo.
-1. Añada el **Bueno que** seguido de 27 en el campo value para crear el **mayor de 27 años** expresión.
+1. Añada el **Mayor que** seguido de 27 en el campo value para crear el **mayor de 27 años** expresión.
 
    ![](assets/delivery_content_52.png)
 

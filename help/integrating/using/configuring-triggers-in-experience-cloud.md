@@ -35,15 +35,15 @@ Para utilizar esta función, debe tener acceso a las siguientes soluciones o ser
 * Adobe Analytics Ultimate, Premium, Foundation, OD, Select, Prime, Mobile Apps, Select o Standard.
 * Servicio principal de los activadores de Experience Cloud
 
-   ![](assets/trigger_uc_prereq_1.png)
+  ![](assets/trigger_uc_prereq_1.png)
 
 * Servicio principal de DTM de Experience Cloud
 
-   ![](assets/trigger_uc_prereq_2.png)
+  ![](assets/trigger_uc_prereq_2.png)
 
 * El ID de visitante de Experience Cloud y el servicio principal People de Experience Cloud
 
-   ![](assets/trigger_uc_prereq_3.png)
+  ![](assets/trigger_uc_prereq_3.png)
 
 También necesita tener un sitio web de trabajo.
 

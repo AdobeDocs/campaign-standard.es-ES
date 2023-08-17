@@ -62,7 +62,8 @@ La preparación del mensaje se activa según los parámetros de ejecución del f
    * **[!UICONTROL Email]**: el correo electrónico se envía una sola vez. Aquí puede especificar si desea o no añadir una transición de salida a la actividad. Los diferentes tipos de transición se detallan en el paso 7 del procedimiento.
    * **[!UICONTROL Recurring email]**: el correo electrónico se envía varias veces, según la frecuencia definida en una actividad de **[!UICONTROL Scheduler]**. Seleccione el periodo de acumulación de los envíos. Esto le permite agrupar todos los envíos que se producen durante el periodo definido en un único mensaje de correo electrónico que también se denomina **ejecución recurrente** y al que se puede acceder desde la lista de actividad de marketing de la aplicación.
 
-      Por ejemplo, para un correo electrónico de cumpleaños recurrente, que se envía diariamente, puede elegir acumular los envíos por mes. Esto le permite recibir informes sobre su envío mensualmente, aunque el correo electrónico se envíe todos los días.
+     Por ejemplo, para un correo electrónico de cumpleaños recurrente, que se envía diariamente, puede elegir acumular los envíos por mes. Esto le permite recibir informes sobre su envío mensualmente, aunque el correo electrónico se envíe todos los días.
+
    >[!NOTE]
    >
    >Las entregas recurrentes se preparan según el **período de acumulación**. Por ejemplo, si el periodo de acumulación es &quot;por día&quot;, la entrega se vuelve a preparar solo una vez al día. Si planea invocar este flujo de trabajo varias veces al día, utilice [!UICONTROL No aggregation].

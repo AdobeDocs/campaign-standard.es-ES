@@ -57,13 +57,13 @@ Un envío de ejecución es un mensaje técnico no procesable y no funcional que 
 
 * Cada vez que se ejecuta o actualiza un envío recurrente.
 
-   Por ejemplo, si el flujo de trabajo que administra este envío se ejecuta una vez al mes, habrá un envío de ejecución al mes. Además, cada vez que se actualiza el contenido del envío, se crea un envío de ejecución adicional.
+  Por ejemplo, si el flujo de trabajo que administra este envío se ejecuta una vez al mes, habrá un envío de ejecución al mes. Además, cada vez que se actualiza el contenido del envío, se crea un envío de ejecución adicional.
 
-   Para obtener más información sobre los envíos recurrentes de correo electrónico, consulte [Envío de correo electrónico](../../automating/using/email-delivery.md).
+  Para obtener más información sobre los envíos recurrentes de correo electrónico, consulte [Envío de correo electrónico](../../automating/using/email-delivery.md).
 
 * De forma predeterminada, una vez al mes para los mensajes transaccionales y cada vez que se edita y vuelve a publicarse un mensaje transaccional.
 
-   Para obtener más información sobre los mensajes transaccionales, consulte [Introducción a la mensajería transaccional](../../channels/using/getting-started-with-transactional-msg.md).
+  Para obtener más información sobre los mensajes transaccionales, consulte [Introducción a la mensajería transaccional](../../channels/using/getting-started-with-transactional-msg.md).
 
 >[!NOTE]
 >

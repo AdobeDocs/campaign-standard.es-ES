@@ -43,13 +43,13 @@ Para crear una sesión segura de la API de Adobe I/O servicio a servicio, cada s
    * &lt;organization> : su instancia de producción,
    * &lt;organization-mkt-stage>: su instancia de fase.
 
-   Para obtener el valor de su ID de ORGANIZACIÓN, consulte con el administrador o con el contacto técnico del Adobe. También puede recuperarla en Adobe I/O al crear una nueva integración, en la lista de licencias (consulte la <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Documentación de Adobe Developer</a>).
+  Para obtener el valor de su ID de ORGANIZACIÓN, consulte con el administrador o con el contacto técnico del Adobe. También puede recuperarla en Adobe I/O al crear una nueva integración, en la lista de licencias (consulte la <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Documentación de Adobe Developer</a>).
 
 * **&lt;access_token>**: el token de acceso personal, que se recuperó al intercambiar el token web JSON a través de una solicitud de POST.
 
 * **&lt;api_key>**: su clave API personal. Se proporciona en Adobe I/O después de crear una nueva integración con el servicio de Adobe Campaign.
 
-   ![texto alternativo](assets/tenant.png)
+  ![texto alternativo](assets/tenant.png)
 
 ## Resolución de problemas
 

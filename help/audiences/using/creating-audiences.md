@@ -113,11 +113,11 @@ Existen diferentes formas de editar una audiencia según el tipo de audiencia:
 
 * Para editar una audiencia de **Consulta**, vaya a la lista de audiencias a través del menú **[!UICONTROL Audiences]** o la tarjeta **[!UICONTROL Audiences]** desde la página de inicio de Adobe Campaign.
 
-   Abra la audiencia pertinente. Se pueden editar todos los elementos de una audiencia creada previamente.
+  Abra la audiencia pertinente. Se pueden editar todos los elementos de una audiencia creada previamente.
 
-   >[!CAUTION]
-   >
-   >Si cambia la **[!UICONTROL Filtering dimension]** en la consulta, se perderán las reglas que se hayan definido previamente.
+  >[!CAUTION]
+  >
+  >Si cambia la **[!UICONTROL Filtering dimension]** en la consulta, se perderán las reglas que se hayan definido previamente.
 
 * Para editar una audiencia de **Lista** o una audiencia de **Archivo**, edite el flujo de trabajo desde el que se creó y modifique la actividad **[!UICONTROL Save audience]**. Inicio el flujo de trabajo para modificar la audiencia.
 * Para editar una audiencia de **Experience Cloud** , consulte la sección [Importación/exportación de audiencias con el servicio principal Personas](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md).

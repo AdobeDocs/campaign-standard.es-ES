@@ -30,7 +30,7 @@ Puede editar expresiones para:
 
 * Definir una consulta mediante la opción **[!UICONTROL Advanced mode]** que está disponible cuando se agrega una regla.
 
-   ![](assets/expression_editor_2.png)
+  ![](assets/expression_editor_2.png)
 
 * Editar una expresión en un flujo de trabajo. Por ejemplo, para agregar datos adicionales a una actividad.
 * Editar una condición de visibilidad para definir cómo se muestra un bloque en el editor de contenido HTML. En este caso, la expresión se edita en formato JavaScript y no ofrece el uso de funciones avanzadas como estándar.
@@ -76,9 +76,9 @@ Las expresiones estándar están formadas por una o varias condiciones que respe
    * **&lt;comparison operator>** es uno de los operadores enumerados en la sección [Operadores de comparación](../../automating/using/advanced-expression-editing.md#comparison-operators). Este operador define el método de comparación entre **&lt;value1>** y **&lt;value2>**.
    * **&lt;value2>** es un campo, una función o un valor introducido manualmente.
 
-   >[!NOTE]
-   >
-   >Los datos de tipo **&lt;value1>** y **&lt;value2>** deben ser idénticos. Por ejemplo, si **&lt;value1>** es una fecha, entonces **&lt;value2>** también debe ser una fecha.
+  >[!NOTE]
+  >
+  >Los datos de tipo **&lt;value1>** y **&lt;value2>** deben ser idénticos. Por ejemplo, si **&lt;value1>** es una fecha, entonces **&lt;value2>** también debe ser una fecha.
 
 * Si desea usar varias condiciones, se pueden combinar con operadores lógicos.
 
@@ -105,8 +105,9 @@ Las expresiones de JavaScript están formadas por una o varias condiciones y uti
    * **&lt;comparison operator>** es uno de los operadores enumerados en la sección [Operadores de comparación](../../automating/using/advanced-expression-editing.md#comparison-operators). Este operador define el método de comparación entre **&lt;context>** y **&lt;value2>**.
    * **&lt;value2>** es un campo, una función o un valor introducido manualmente.
 
-   >[!NOTE]
-   Los datos de tipo **&lt;context>** y **&lt;value2>** deben ser idénticos. Por ejemplo, si **&lt;context>** es una fecha, entonces **&lt;value2>** también debe ser una fecha.
+  >[!NOTE]
+  >
+  Los datos de tipo **&lt;context>** y **&lt;value2>** deben ser idénticos. Por ejemplo, si **&lt;context>** es una fecha, entonces **&lt;value2>** también debe ser una fecha.
 
 * Si desea usar varias condiciones, se pueden combinar con operadores lógicos.
 

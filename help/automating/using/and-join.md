@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ---
 
-# AND-join{#and-join}
+# Combinación-Y{#and-join}
 
 ## Descripción {#description}
 

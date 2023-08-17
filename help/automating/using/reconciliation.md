@@ -30,17 +30,17 @@ La actividad **[!UICONTROL Reconciliation]** se utiliza esencialmente con fines 
 
 * Añadir relaciones: una pestaña **[!UICONTROL Links]** permite agregar vínculos entre los datos de entrada y otras dimensiones de la base de datos de Adobe Campaign.
 
-   Por ejemplo, un archivo que contenga datos de compra también puede tener información para identificar tanto a los productos comprados como al comprador. Dos dimensiones adicionales (además de la de **Purchases**) están preocupadas por los datos del archivo: las dimensiones **Products** y **Profiles**. Luego deben crearse relaciones entre estas y la dimensión **Purchases** (consulte el siguiente ejemplo).
+  Por ejemplo, un archivo que contenga datos de compra también puede tener información para identificar tanto a los productos comprados como al comprador. Dos dimensiones adicionales (además de la de **Purchases**) están preocupadas por los datos del archivo: las dimensiones **Products** y **Profiles**. Luego deben crearse relaciones entre estas y la dimensión **Purchases** (consulte el siguiente ejemplo).
 
-   Al definir una relación, se agrega una columna a los datos de entrada para hacer referencia a la clave externa de la dimensión vinculada.
+  Al definir una relación, se agrega una columna a los datos de entrada para hacer referencia a la clave externa de la dimensión vinculada.
 
-   >[!NOTE]
-   >
-   >Esta operación implica que los datos de las dimensiones vinculadas ya están en la base de datos. Por ejemplo, si importa un archivo de compras que muestre qué producto se compró, a qué hora, por qué cliente, etc., el producto y el cliente ya deben existir en la base de datos.
+  >[!NOTE]
+  >
+  >Esta operación implica que los datos de las dimensiones vinculadas ya están en la base de datos. Por ejemplo, si importa un archivo de compras que muestre qué producto se compró, a qué hora, por qué cliente, etc., el producto y el cliente ya deben existir en la base de datos.
 
 * Identificación de datos: una pestaña **[!UICONTROL Identification]** permite simplemente vincular datos de entrada a columnas de una dimensión existente en la base de datos de Adobe Campaign. Después de la actividad, los datos se identifican como pertenecientes a la dimensión definida.
 
-   Por ejemplo, puede guardar una audiencia, actualizar la base de datos, etc.
+  Por ejemplo, puede guardar una audiencia, actualizar la base de datos, etc.
 
 Por ejemplo, la variable **[!UICONTROL Reconciliation]** la actividad se puede colocar después de una actividad de datos de carga para importar datos no estándar en la base de datos.
 

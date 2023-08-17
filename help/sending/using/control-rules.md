@@ -50,7 +50,7 @@ Las reglas de control se pueden aplicar en diferentes fases del ciclo de vida de
 
 * **After targeting**: la ejecución después del objetivo permite conocer el volumen del objetivo para aplicar la regla de control.
 
-   Por ejemplo, la variable **Comprobar tamaño de revisión** control rule applies after the targeting stage: esta regla evita la preparación de la personalización de mensajes si hay demasiados destinatarios de prueba.
+  Por ejemplo, la variable **Comprobar tamaño de revisión** control rule applies after the targeting stage: esta regla evita la preparación de la personalización de mensajes si hay demasiados destinatarios de prueba.
 
 * **Al principio de la personalización**: se aplica cuando la comprobación está relacionada con la aprobación de la personalización de mensajes. La personalización del mensaje se lleva a cabo durante la fase de análisis.
 

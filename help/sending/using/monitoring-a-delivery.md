@@ -26,23 +26,23 @@ Existen varias formas de supervisar un envío y medir su impacto. Como administr
 
 * **Registros de mensajes**: se puede acceder a estos registros directamente desde el panel de mensajes. Muestran los detalles del envío, qué destinatario se ha excluido y por qué, así como la información de seguimiento como aperturas y clics.
 
-   Para ver los registros de mensajes, haga clic en el icono situado en la parte inferior derecha del bloque **[!UICONTROL Deployment]**.
+  Para ver los registros de mensajes, haga clic en el icono situado en la parte inferior derecha del bloque **[!UICONTROL Deployment]**.
 
-   Varias pestañas contienen información (si existe) acerca de **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]**, **[!UICONTROL Tracking logs]** y **[!UICONTROL Tracked URLs]**. Consulte [Registros de envío](#delivery-logs).
+  Varias pestañas contienen información (si existe) acerca de **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]**, **[!UICONTROL Tracking logs]** y **[!UICONTROL Tracked URLs]**. Consulte [Registros de envío](#delivery-logs).
 
-   ![](assets/sending_delivery1.png)
+  ![](assets/sending_delivery1.png)
 
-   El registro contiene todos los mensajes relacionados con el envío y las pruebas. Los iconos específicos le permiten identificar errores o advertencias. Para obtener más información, consulte [Aprobación de mensajes](../../sending/using/previewing-messages.md).
+  El registro contiene todos los mensajes relacionados con el envío y las pruebas. Los iconos específicos le permiten identificar errores o advertencias. Para obtener más información, consulte [Aprobación de mensajes](../../sending/using/previewing-messages.md).
 
-   Para exportar el registro, haga clic en el botón **[!UICONTROL Export list]**.
+  Para exportar el registro, haga clic en el botón **[!UICONTROL Export list]**.
 
-   ![](assets/sending_delivery2.png)
+  ![](assets/sending_delivery2.png)
 
 * **Registros de trabajo**: Se puede acceder a una lista de los trabajos por lotes activados por la entrega desde el panel de mensajes seleccionando **[!UICONTROL Job history]** desde el **[!UICONTROL Summary]** lista desplegable.
 
-   Seleccione cualquier trabajo de la lista para ver los detalles de los seleccionados **[!UICONTROL Batch job]**.
+  Seleccione cualquier trabajo de la lista para ver los detalles de los seleccionados **[!UICONTROL Batch job]**.
 
-   ![](assets/sending_delivery8.png)
+  ![](assets/sending_delivery8.png)
 
 * **Alertas de envío**: para realizar un seguimiento de los envíos erróneos o correctos, Adobe Campaign proporciona un sistema de alertas por correo electrónico que envía notificaciones para informar a los usuarios de las actividades importantes del sistema.
 * **Informes**: en el panel de mensajes, puede acceder a varios informes para este mensaje específico. También tiene el menú **[!UICONTROL Reports]**, que le permite acceder a una lista completa de informes integrados o personalizados que puede utilizar para crear métricas específicas relacionadas con su mensaje o campaña.

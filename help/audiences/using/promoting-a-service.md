@@ -25,8 +25,8 @@ Puede utilizar Campaign para promocionar un servicio de las siguientes formas:
 
 * [Inserción de un vínculo a una página de aterrizaje de suscripción o de baja en un correo electrónico](../../designing/using/links.md). En este caso, se debe hacer referencia directamente al servicio en las propiedades de las páginas de aterrizaje relacionadas (consulte [Vinculación de una página de aterrizaje a un servicio](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)).
 
-   >[!NOTE]
-   >
-   >También es importante dar a los suscriptores la posibilidad de cancelar la suscripción. Para ello, inserte un servicio <b>Vínculo de baja</b> en el correo electrónico de confirmación (definido en las propiedades del servicio) enviado automáticamente a los nuevos suscriptores, así como en futuros correos electrónicos de newsletter.
+  >[!NOTE]
+  >
+  >También es importante dar a los suscriptores la posibilidad de cancelar la suscripción. Para ello, inserte un servicio <b>Vínculo de baja</b> en el correo electrónico de confirmación (definido en las propiedades del servicio) enviado automáticamente a los nuevos suscriptores, así como en futuros correos electrónicos de newsletter.
 
 * Hacer que una página de aterrizaje de suscripción o de cancelación de suscripción esté disponible en un sitio web. Las direcciones URL que le proporcionan acceso a la página de aterrizaje deben especificar parámetros como el servicio asociado, así como el ID de perfil que accede a él. Este ID se puede definir en los parámetros de página de aterrizaje (consulte [Configuración de una página de aterrizaje](../../channels/using/configuring-landing-page.md)).

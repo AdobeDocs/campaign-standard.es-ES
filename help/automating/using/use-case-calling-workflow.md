@@ -15,7 +15,7 @@ ht-degree: 1%
 
 ---
 
-# Caso de uso {#use-case}
+# Ejemplo de uso {#use-case}
 
 El siguiente caso de uso muestra cómo invocar al flujo de trabajo con parámetros dentro de sus flujos de trabajo.
 

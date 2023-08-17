@@ -31,11 +31,11 @@ Puede configurar dos tipos de plantillas:
 
 * **Plantillas de flujo de trabajo**: se trata de flujos de trabajo preconfigurados que se pueden configurar una vez según sus necesidades y reutilizar cada vez que desee importar datos y actualizar la base de datos.
 
-   Un ejemplo de plantilla de flujo de trabajo para importar datos se detalla en [esta sección](../../automating/using/creating-import-workflow-templates.md).
+  Un ejemplo de plantilla de flujo de trabajo para importar datos se detalla en [esta sección](../../automating/using/creating-import-workflow-templates.md).
 
 * **Importar plantillas de datos**: al igual que las plantillas de flujo de trabajo, estas son plantillas basadas en flujos de trabajo que se configuran para cargar archivos y actualizar la base de datos. Una vez configuradas, están disponibles para los usuarios con una vista simplificada en la **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** menú.
 
-   Para obtener más información sobre la importación de plantillas de datos, consulte la [documentación dedicada](../../automating/using/importing-data-with-import-templates.md).
+  Para obtener más información sobre la importación de plantillas de datos, consulte la [documentación dedicada](../../automating/using/importing-data-with-import-templates.md).
 
 ## Recopilación de datos de páginas de aterrizaje {#collecting-data-from-landing-pages}
 

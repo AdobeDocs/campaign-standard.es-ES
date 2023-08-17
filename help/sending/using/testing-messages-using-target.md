@@ -167,7 +167,7 @@ Para obtener una vista previa de los mensajes mediante la sustitución de perfil
 
    ![](assets/substitution_preview.png)
 
-## Caso de uso {#use-case}
+## Ejemplo de uso {#use-case}
 
 En este caso de uso, queremos enviar a un conjunto de perfiles específicos un boletín de correo electrónico personalizado. Antes de enviar la newsletter, queremos previsualizarla con algunos de los perfiles de destino y enviar pruebas a las direcciones de correo electrónico internas definidas en un archivo externo.
 

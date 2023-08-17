@@ -58,11 +58,11 @@ La preparación del mensaje se activa según los parámetros de ejecución del f
    * **[!UICONTROL Direct mail]**: el correo postal se envía una sola vez. Aquí puede especificar si desea o no añadir una transición de salida a la actividad. Los diferentes tipos de transición se detallan en el paso 7 del procedimiento.
    * **[!UICONTROL Recurring direct mail]**: el correo postal se envía varias veces, según la frecuencia definida en una actividad de **[!UICONTROL Scheduler]**. Seleccione el periodo de acumulación de los envíos. Esto le permite agrupar todos los envíos que se producen durante el periodo definido en un único correo postal que también se denomina **ejecución recurrente** y al que se puede acceder desde la lista de actividad de marketing de la aplicación.
 
-      Por ejemplo, para un correo de cumpleaños recurrente, que se procesa diariamente, puede elegir acumular los envíos por mes. Esto le permite recibir informes sobre su envío mensualmente, aunque el correo se procese todos los días.
+     Por ejemplo, para un correo de cumpleaños recurrente, que se procesa diariamente, puede elegir acumular los envíos por mes. Esto le permite recibir informes sobre su envío mensualmente, aunque el correo se procese todos los días.
 
-      >[!NOTE]
-      >
-      >En el caso de los correos postales recurrentes, se genera un nuevo archivo en cada ejecución del flujo de trabajo. El periodo de acumulación seleccionado no afecta a este comportamiento.
+     >[!NOTE]
+     >
+     >En el caso de los correos postales recurrentes, se genera un nuevo archivo en cada ejecución del flujo de trabajo. El periodo de acumulación seleccionado no afecta a este comportamiento.
 
 1. Seleccione un tipo de correo postal. Los tipos de correo postal proceden de plantillas definidas en el menú **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Introduzca las propiedades generales del correo postal. También puede adjuntarlo a una campaña existente. La etiqueta de la actividad envío del flujo de trabajo se actualiza con la etiqueta de correo postal.

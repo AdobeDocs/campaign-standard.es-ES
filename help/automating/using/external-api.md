@@ -96,7 +96,7 @@ El analizador JSON está diseñado para admitir tipos de patrones de estructura 
 La definición JSON de muestra debe tener las **siguientes características**:
 
 * **Los elementos de matriz** deben contener propiedades de primer nivel (no se admiten niveles más profundos).
-   **Los nombres de propiedades** terminan convirtiéndose en nombres de columna para el esquema de salida de la tabla temporal.
+  **Los nombres de propiedades** terminan convirtiéndose en nombres de columna para el esquema de salida de la tabla temporal.
 * **Los elementos JSON** que se van a recopilar deben tener 10 niveles o menos de anidación dentro de la respuesta JSON.
 * **La definición del nombre de columna** se basa en el primer elemento de la matriz de “datos”.
 La definición de columnas (añadir/quitar) y el valor de tipo de la propiedad se pueden editar en la pestaña **Definición de columna**.

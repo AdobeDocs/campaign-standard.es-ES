@@ -71,19 +71,19 @@ La configuración de actividad incluye dos pasos. En primer lugar, debe definir 
    * Puede elegir utilizar la estructura de otro archivo seleccionando la opción **[!UICONTROL Detect structure from a new file]**.
    * Puede modificar los parámetros de detección predeterminados para adaptarlos al archivo. El campo **[!UICONTROL File type]** le permite especificar si el archivo que desea importar está compuesto por columnas de longitud fija. En ese caso, también debe especificar el número máximo de caracteres para cada columna en la pestaña **[!UICONTROL Column definition]**.
 
-      Todas las opciones de detección necesarias para recuperar correctamente los datos del archivo se reagrupan en **[!UICONTROL File format]**. Puede modificarlas y, a continuación, volver a detectar la estructura del último archivo cargado en la actividad teniendo en cuenta estas nuevas configuraciones. Para ello, utilice el botón **[!UICONTROL Apply configuration]**. Por ejemplo, puede especificar un separador de columnas diferente.
+     Todas las opciones de detección necesarias para recuperar correctamente los datos del archivo se reagrupan en **[!UICONTROL File format]**. Puede modificarlas y, a continuación, volver a detectar la estructura del último archivo cargado en la actividad teniendo en cuenta estas nuevas configuraciones. Para ello, utilice el botón **[!UICONTROL Apply configuration]**. Por ejemplo, puede especificar un separador de columnas diferente.
 
-      >[!NOTE]
-      >
-      >Esta operación tiene en cuenta el último archivo que se cargó en la actividad. Si el archivo detectado es grande, la previsualización de datos solo mostrará las primeras 30 líneas.
+     >[!NOTE]
+     >
+     >Esta operación tiene en cuenta el último archivo que se cargó en la actividad. Si el archivo detectado es grande, la previsualización de datos solo mostrará las primeras 30 líneas.
 
-      ![](assets/wkf_file_loading3.png)
+     ![](assets/wkf_file_loading3.png)
 
-      En la sección **[!UICONTROL File format]**, la opción **[!UICONTROL Check columns from file against column definitions]** le permite verificar que las columnas del archivo que está cargando corresponden a la definición de la columna.
+     En la sección **[!UICONTROL File format]**, la opción **[!UICONTROL Check columns from file against column definitions]** le permite verificar que las columnas del archivo que está cargando corresponden a la definición de la columna.
 
-      Si el número o el nombre de las columnas no coinciden con la definición de la columna, aparecerá un mensaje de error al ejecutar el flujo de trabajo. Si la opción no está activada, se mostrarán advertencias en el archivo de registro.
+     Si el número o el nombre de las columnas no coinciden con la definición de la columna, aparecerá un mensaje de error al ejecutar el flujo de trabajo. Si la opción no está activada, se mostrarán advertencias en el archivo de registro.
 
-      ![](assets/wkf_file_loading_check.png)
+     ![](assets/wkf_file_loading_check.png)
 
 1. Vaya a la pestaña **[!UICONTROL Column definition]** para comprobar el formato de los datos de cada columna y ajustar los parámetros si es necesario.
 
@@ -101,7 +101,7 @@ La configuración de actividad incluye dos pasos. En primer lugar, debe definir 
    * Es el que cargó durante el paso anterior.
    * Es un nuevo archivo que se carga desde el equipo local. La opción **[!UICONTROL Upload a new file from local machine]** aparece si la carga de un primer archivo ya estaba definida en el flujo de trabajo. Esto le permite cargar otro archivo para procesarlo si el archivo actual no se ajusta a sus necesidades.
 
-      ![](assets/wkf_file_loading1.png)
+     ![](assets/wkf_file_loading1.png)
 
 1. Si el archivo desde el que desea cargar los datos está comprimido en un archivo GZIP (.gz), seleccione la opción **[!UICONTROL Decompression]** en el campo **[!UICONTROL Add a pre-processing stage]**. Esto le permite descomprimir el archivo antes de cargar los datos. Esta opción solo está disponible si el archivo procede de la transición entrante de la actividad.
 
@@ -137,7 +137,7 @@ El formato de columna permite definir el valor de procesamiento de cada columna:
 
    * **[!UICONTROL Maximum number of characters]**: especifica el número máximo de caracteres para las columnas de tipo de cadena.
 
-      Este campo debe rellenarse al cargar archivos formados por columnas de longitud fija.
+     Este campo debe rellenarse al cargar archivos formados por columnas de longitud fija.
 
    * **[!UICONTROL Letter case management]**: define si es necesario aplicar un proceso de mayúsculas y minúsculas de caracteres a los datos de **texto**.
    * **[!UICONTROL White space management]**: especifica si determinados espacios deben ignorarse en una cadena para datos de **texto**.
@@ -154,9 +154,9 @@ El formato de columna permite definir el valor de procesamiento de cada columna:
    * **[!UICONTROL Use a default value in case the value is not remapped]**: reemplaza el valor que causa el error por un valor predeterminado, definido en el campo **[!UICONTROL Default value]**, a menos que se haya definido una asignación para el valor erróneo (consulte la opción **[!UICONTROL Remapping of values]** anterior).
    * **[!UICONTROL Reject the line when there is no remapping value]**: la línea completa no se procesa a menos que se haya definido una asignación para el valor erróneo (consulte la opción **[!UICONTROL Remapping of values]** anterior).
 
-   >[!NOTE]
-   >
-   >**[!UICONTROL Error processing]** se refiere a errores relacionados con los valores del archivo importado. Por ejemplo, se encontró un tipo de datos erróneo (“cuatro” en letras para una columna “entero”), una cadena que contiene más caracteres que el número máximo autorizado, una fecha con separadores erróneos, etc. Sin embargo, esta opción no afecta a los errores generados por la administración de valores vacía.
+  >[!NOTE]
+  >
+  >**[!UICONTROL Error processing]** se refiere a errores relacionados con los valores del archivo importado. Por ejemplo, se encontró un tipo de datos erróneo (“cuatro” en letras para una columna “entero”), una cadena que contiene más caracteres que el número máximo autorizado, una fecha con separadores erróneos, etc. Sin embargo, esta opción no afecta a los errores generados por la administración de valores vacía.
 
 * **[!UICONTROL Default value]**: especifica el valor predeterminado de acuerdo con el procesamiento de error seleccionado.
 * **[!UICONTROL Empty value management]**: especifica cómo administrar valores vacíos durante la carga de datos.

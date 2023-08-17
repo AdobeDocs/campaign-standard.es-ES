@@ -45,7 +45,7 @@ Según los parámetros configurados y el progreso realizado, es posible que algu
 
 * **[!UICONTROL Show proofs]**: muestra u oculta la lista de pruebas que se han enviado, si existen. Este botón solo se activa una vez que se han enviado las pruebas.
 
-   Para obtener más información sobre las pruebas, consulte [Envío de pruebas](../../sending/using/sending-proofs.md).
+  Para obtener más información sobre las pruebas, consulte [Envío de pruebas](../../sending/using/sending-proofs.md).
 
 * **[!UICONTROL Send a test]**: permite seleccionar el modo de aprobación que se va a utilizar: **[!UICONTROL Email rendering]** (solo correo electrónico), **[!UICONTROL Proof]** o ambos. Para obtener más información sobre los perfiles de prueba, consulte [Envío de pruebas](../../sending/using/sending-proofs.md). Este botón solo se activa una vez que se han creado perfiles de prueba.
 
@@ -74,20 +74,20 @@ A continuación se muestra una lista de los mensajes que se pueden mostrar:
 
 * *&quot;La opción de modo de prueba SMTP está habilitada para este correo electrónico: no se enviarán mensajes&quot;.*
 
-   Para obtener más información, consulte [esta sección](../../administration/using/configuring-email-channel.md#smtp-test-mode).
+  Para obtener más información, consulte [esta sección](../../administration/using/configuring-email-channel.md#smtp-test-mode).
 
 * *&quot;Se ha deshabilitado la cuenta externa de enrutamiento&quot;.*
 
-   Para obtener más información, consulte [Cuentas externas](../../administration/using/external-accounts.md).
+  Para obtener más información, consulte [Cuentas externas](../../administration/using/external-accounts.md).
 
 * *&quot;No se pueden enviar mensajes porque ningún proceso de envío gestiona la afinidad IP actual&quot;.*
 
-   Si ve este mensaje, hay un problema en el nivel de definición de afinidad de IP o en el nivel de proceso de envío. Póngase en contacto con el administrador de Adobe 
+  Si ve este mensaje, hay un problema en el nivel de definición de afinidad de IP o en el nivel de proceso de envío. Póngase en contacto con el administrador de Adobe 
 
 * *&quot;Se trata de una plantilla de mensaje transaccional lista para usar. Si desea modificarla, debe duplicarla y trabajar en la copia&quot;.*
 
-   Algunas de estas plantillas de mensaje transaccional listas para usar son plantillas de página de aterrizaje integradas. Para obtener más información, consulte [esta sección](../../channels/using/landing-page-templates.md).
+  Algunas de estas plantillas de mensaje transaccional listas para usar son plantillas de página de aterrizaje integradas. Para obtener más información, consulte [esta sección](../../channels/using/landing-page-templates.md).
 
 * *&quot;Este mensaje es una plantilla técnica de mensaje transaccional. No puede modificarlo ni publicarlo&quot;.*
 
-   Esta advertencia se muestra en plantillas de mensaje transaccional vacías que no se pueden editar. Para obtener más información sobre los mensajes transaccionales, consulte [esta sección](../../channels/using/getting-started-with-transactional-msg.md).
+  Esta advertencia se muestra en plantillas de mensaje transaccional vacías que no se pueden editar. Para obtener más información sobre los mensajes transaccionales, consulte [esta sección](../../channels/using/getting-started-with-transactional-msg.md).

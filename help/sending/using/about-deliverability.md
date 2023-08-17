@@ -95,8 +95,7 @@ Adobe Campaign le permite comprobar el rendimiento de sus envíos a través de u
 Para obtener más información, consulte las siguientes secciones:
 
 * [Supervisión de la capacidad de entrega](../../sending/using/monitor-deliverability.md)
-
-   <!--[Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)-->
+  <!--[Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)-->
 * [Recepción de alertas cuando se produzcan errores](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Informes dinámicos](../../reporting/using/about-dynamic-reports.md)
 

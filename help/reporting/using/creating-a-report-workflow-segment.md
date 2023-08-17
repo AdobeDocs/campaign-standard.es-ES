@@ -18,7 +18,7 @@ ht-degree: 2%
 # Creación de un informe basado en segmentos de flujo de trabajo{#creating-a-report-workflow-segment}
 
 >[!CAUTION]
-> **[!UICONTROL Segment code]**solo puede segmentar envíos de correo electrónico y SMS.
+> **[!UICONTROL Segment code]** solo puede segmentar envíos de correo electrónico y SMS.
 
 Después de crear un flujo de trabajo y filtrar la población en diferentes audiencias de destino, puede medir la eficacia de las campañas de marketing en función de los segmentos definidos en este flujo de trabajo de objetivo.
 Para segmentar estos segmentos en los informes:

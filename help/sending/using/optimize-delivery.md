@@ -30,7 +30,7 @@ Varios factores pueden afectar directamente al rendimiento del servidor y ralent
 
 * Carga del servidor: cuando Campaign gestiona muchas tareas diferentes al mismo tiempo, puede ralentizar el rendimiento. El servidor de debe coordinar todos los datos entrantes y salientes de todos los envíos para garantizar que los datos sean correctos y oportunos.
 
-   **SUGERENCIA:** Para evitar esto, coordine la programación de las envíos con los demás miembros de su equipo para garantizar el mejor rendimiento.
+  **SUGERENCIA:** Para evitar esto, coordine la programación de las envíos con los demás miembros de su equipo para garantizar el mejor rendimiento.
 
 * El [ejecución de flujo de trabajo](../../automating/using/about-workflow-execution.md): la monitorización de los flujos de trabajo es esencial para evitar problemas de rendimiento de la plataforma. Siga las directrices enumeradas [en esta página](../../automating/using/monitoring-workflow-execution.md). Obtenga más información en la [prácticas recomendadas de flujo de trabajo](../../automating/using/best-practices-workflows.md) sección.
 

@@ -41,9 +41,9 @@ Para definir el nombre del remitente que aparece en el encabezado de los mensaje
 
 * El **[!UICONTROL From: name]** permite introducir el nombre del remitente. De forma predeterminada, la opción **Nombre del remitente** El bloque de se introduce automáticamente en el campo. La dirección de correo electrónico y el nombre de remitente predeterminados se definen en **[!UICONTROL Brands]** accesible a través del logotipo de Adobe Campaign en el menú avanzado **[!UICONTROL Administration > Instance settings > Brand configuration]** .
 
-   Puede cambiar el nombre del remitente haciendo clic en el icono **Nombre del remitente** Bloque. A continuación, el campo se vuelve editable y puede introducir el nombre que desee utilizar.
+  Puede cambiar el nombre del remitente haciendo clic en el icono **Nombre del remitente** Bloque. A continuación, el campo se vuelve editable y puede introducir el nombre que desee utilizar.
 
-   Este campo se puede personalizar. Para ello, puede añadir campos de personalización, bloques de contenido y contenido dinámico haciendo clic en los iconos debajo del nombre del remitente. Para obtener más información, consulte [Personalización](../../designing/using/personalization.md).
+  Este campo se puede personalizar. Para ello, puede añadir campos de personalización, bloques de contenido y contenido dinámico haciendo clic en los iconos debajo del nombre del remitente. Para obtener más información, consulte [Personalización](../../designing/using/personalization.md).
 
 * El **[!UICONTROL From: email address]** el campo no se puede editar desde esta sección. Puede cambiarlo editando las propiedades del correo electrónico desde su panel. Para obtener más información, consulte [Lista de parámetros avanzados de correo electrónico](../../administration/using/configuring-email-channel.md#advanced-parameters).
 

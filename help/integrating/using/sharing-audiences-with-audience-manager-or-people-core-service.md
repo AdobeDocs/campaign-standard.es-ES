@@ -80,4 +80,4 @@ La sincronización entre Adobe Campaign y el servicio principal Personas tarda d
 **Temas relacionados:**
 
 * [Flujos de trabajo](../../automating/using/get-started-workflows.md)
-* [Audiencias](../../audiences/using/about-audiences.md)
+* [Públicos-alvo](../../audiences/using/about-audiences.md)

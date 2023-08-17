@@ -25,7 +25,7 @@ Para asegurarse de que los mensajes de correo electrónico llegan a los destinat
 Siga los principios que se enumeran a continuación al diseñar el contenido del mensaje:
 
 * [Nombre y dirección del remitente](#sender-name): la dirección debe identificar explícitamente al remitente. El dominio debe ser propiedad del remitente y estar registrado por él. El registro de dominios no debe privatizarse.
-   <!--**Subject**: Avoid excessive capitalization and punctuation, and words that are frequently used by spammers ("Win", "Free", etc.).-->
+  <!--**Subject**: Avoid excessive capitalization and punctuation, and words that are frequently used by spammers ("Win", "Free", etc.).-->
 * [Optimización de la personalización y el tiempo de envío](#perso-send-time-optimization): la personalización del contenido y la definición de una hora de envío por destinatario aumentan las posibilidades de que se abra el mensaje.
 * Imágenes y texto: respete una proporción de texto/imagen adecuada (por ejemplo, 60 % de texto y 40 % de imágenes).
 * [Vínculo de baja de suscripción](#opt-out) y página de aterrizaje: el vínculo de baja es esencial. Debe ser visible y válido, y el formulario debe ser funcional.

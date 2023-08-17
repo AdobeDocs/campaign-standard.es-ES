@@ -147,8 +147,7 @@ ht-degree: 29%
                </tr>
                <tr>
                   <td>createdBy (userBase)</td>
-                  <td>Creada por
-</td>
+                  <td>Creado por</td>
                   <td>vincular </td>
                   <td> </td>
                </tr>
@@ -508,7 +507,7 @@ ht-degree: 29%
                </tr>
                <tr>
                   <td>objetivos</td>
-                  <td>Población de público objetivo de los envíos</td>
+                  <td>Población de público destinatario de los envíos</td>
                   <td>elemento </td>
                   <td> </td>
                </tr>

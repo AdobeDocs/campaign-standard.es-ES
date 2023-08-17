@@ -33,11 +33,11 @@ Una vez que ha comprobado cada cuenta individualmente, existen dos escenarios po
 
 * **El problema apareció en una o varias cuentas**
 
-   En este caso, puede aplicar otros procedimientos de resolución de problemas en cada cuenta de forma individual. Es mejor desactivar otras cuentas al diagnosticar una cuenta para reducir el tráfico de red y la cantidad de registros.
+  En este caso, puede aplicar otros procedimientos de resolución de problemas en cada cuenta de forma individual. Es mejor desactivar otras cuentas al diagnosticar una cuenta para reducir el tráfico de red y la cantidad de registros.
 
 * **El problema no aparecía cuando solo una cuenta estaba activa en cualquier momento**
 
-   Tiene un conflicto entre cuentas. Como se mencionó anteriormente, Adobe Campaign trata las cuentas individualmente, pero el proveedor puede tratarlas como una sola cuenta.
+  Tiene un conflicto entre cuentas. Como se mencionó anteriormente, Adobe Campaign trata las cuentas individualmente, pero el proveedor puede tratarlas como una sola cuenta.
 
    * Utilice diferentes combinaciones de inicio de sesión y contraseña entre todas las cuentas.
 Tendrá que ponerse en contacto con el proveedor para diagnosticar conflictos potenciales de su parte.
@@ -52,17 +52,17 @@ Adobe Campaign admite el manejo de varios códigos cortos en la misma cuenta ext
 
 * Investigue si el conector se ha cambiado recientemente y quién lo ha cambiado (compruebe las Cuentas externas como grupo).
 
-   ```
-   select saccount, (sserver ||':'||sport) as serverPort, iextaccountid, CASE WHEN N0.iactive=1 THEN 'Yes' ELSE 'No' END as "(x) Enabled",
-   
-   (select X1.sname from xtkoperator X1 where N0.icreatedbyid = X1.ioperatorid) as "Created By",
-   
-   (select X1.sname from xtkoperator X1 where N0.imodifiedbyid = X1.ioperatorid) as "Last Modified By",
-   
-   N0.slabel as "External Account", N0.tslastmodified as "LastModifiedDate"
-   
-   from nmsextaccount N0 LEFT JOIN xtkoperator X0 ON (N0.icreatedbyid=X0.ioperatorid) order by 8 DESC LIMIT 50;
-   ```
+  ```
+  select saccount, (sserver ||':'||sport) as serverPort, iextaccountid, CASE WHEN N0.iactive=1 THEN 'Yes' ELSE 'No' END as "(x) Enabled",
+  
+  (select X1.sname from xtkoperator X1 where N0.icreatedbyid = X1.ioperatorid) as "Created By",
+  
+  (select X1.sname from xtkoperator X1 where N0.imodifiedbyid = X1.ioperatorid) as "Last Modified By",
+  
+  N0.slabel as "External Account", N0.tslastmodified as "LastModifiedDate"
+  
+  from nmsextaccount N0 LEFT JOIN xtkoperator X0 ON (N0.icreatedbyid=X0.ioperatorid) order by 8 DESC LIMIT 50;
+  ```
 
 * Investigue (en el directorio/postupgrade) si el sistema se ha actualizado y cuándo
 * Investigue si algún paquete que afecte a SMS pudo haberse actualizado recientemente (/var/log/dpkg.log).

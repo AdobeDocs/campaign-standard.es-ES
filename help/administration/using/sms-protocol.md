@@ -8,7 +8,7 @@ level: Experienced
 exl-id: ea936128-1c51-483d-914c-6d06708456d6
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '8664'
+source-wordcount: '8650'
 ht-degree: 86%
 
 ---
@@ -832,19 +832,16 @@ Incluso si no puede comprobar los registros usted mismo, será más fácil para 
 ### Prueba de SMS {#test}
 
 * **Envíe SMS con todo tipo de caracteres**
-Si necesita enviar un SMS con caracteres que no sean GSM o ASCII, intente enviar algunos mensajes con tantos caracteres diferentes como sea posible. Si configura una tabla de asignación de caracteres personalizada, envíe al menos un SMS para todos los posibles 
-`data_coding` valores.
+Si necesita enviar un SMS con caracteres que no sean GSM o ASCII, intente enviar algunos mensajes con tantos caracteres diferentes como sea posible. Si configura una tabla de asignación de caracteres personalizada, envíe al menos un SMS para todos los posibles `data_coding` valores.
 
 * **Verifique que SR se procesa correctamente**
 El SMS debe marcarse como recibido en el registro de envíos. El registro de envíos debe tener el siguiente aspecto:
-
-Compruebe que ha cambiado el nombre del proveedor de envío. El registro de envíos nunca debe contener    `SR yourProvider stat=DELIVRD err=000|#MESSAGE`
+  `SR yourProvider stat=DELIVRD err=000|#MESSAGE`
 Compruebe que ha cambiado el nombre del proveedor de envío. El registro de envíos nunca debe contener **SR genérico** en entornos de producción.
 
 * **Compruebe que se procesan los MO**
 Si necesita procesar los MO (respuestas automáticas, almacenar los MO en la base de datos, etc.) intente realizar algunas pruebas. Envíe algunos SMS para cada una de las palabras clave de respuesta automática y compruebe si la respuesta es lo suficientemente rápida, no más de unos segundos.
-Compruebe en el registro que Adobe Campaign responde correctamente 
-`DELIVER_SM_RESP` (command_status=0).
+Compruebe en el registro que Adobe Campaign responde correctamente `DELIVER_SM_RESP` (command_status=0).
 
 ### Compruebe las PDU {#check-pdus}
 

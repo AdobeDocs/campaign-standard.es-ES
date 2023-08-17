@@ -78,7 +78,7 @@ Puede añadir varios componentes de contenido al correo electrónico, como image
    1. Clic **Examinar**.
    1. Seleccione el archivo de imagen del equipo.
 
-   ![](assets/browse-image-quick-start.png)
+  ![](assets/browse-image-quick-start.png)
 
 * **Texto con personalización**
 
@@ -87,7 +87,7 @@ Puede añadir varios componentes de contenido al correo electrónico, como image
    1. Para añadir un campo de personalización, haga clic en **Insertar campo de personalización** en la barra de herramientas.
    1. Seleccione el campo que necesite, como Nombre.
 
-   ![](assets/edit-text-quick-start.png)
+  ![](assets/edit-text-quick-start.png)
 
 * **HTML**
 
@@ -96,11 +96,11 @@ Puede añadir varios componentes de contenido al correo electrónico, como image
    1. Introduzca el contenido del HTML.
    1. Haga clic en **Guardar**.
 
-   ![](assets/html-component-source-code.png)
+  ![](assets/html-component-source-code.png)
 
-   Si está familiarizado con HTML, puede copiar y pegar el código del HTML desde el pie de página original mediante **[!UICONTROL Html]** componente de contenido. Para obtener más información, consulte [Acerca de los componentes de contenido](../../designing/using/designing-from-scratch.md#about-content-components).
+  Si está familiarizado con HTML, puede copiar y pegar el código del HTML desde el pie de página original mediante **[!UICONTROL Html]** componente de contenido. Para obtener más información, consulte [Acerca de los componentes de contenido](../../designing/using/designing-from-scratch.md#about-content-components).
 
-   ![](assets/des_loading_compatible_fragment_9.png)
+  ![](assets/des_loading_compatible_fragment_9.png)
 
 ### Estilo del componente de correo electrónico
 

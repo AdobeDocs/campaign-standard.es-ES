@@ -42,7 +42,7 @@ Para crear el flujo de trabajo, siga estos pasos:
    * Arrastre y suelte el **Registros de envío (registros)** en el espacio de trabajo y seleccione **Existe** para dirigirse a todos los clientes que recibieron el correo electrónico.
    * Arrastre y suelte el **Registros de seguimiento (seguimiento)** en el espacio de trabajo y seleccione **No existe** para dirigirse a todos los clientes que no hayan abierto el correo electrónico.
 
-      ![](assets/wkf_push_example_2.png)
+     ![](assets/wkf_push_example_2.png)
 
 1. El [Entrega de notificaciones push](../../automating/using/push-notification-delivery.md) esta actividad le permite introducir el contenido del mensaje y seleccionar los campos de personalización que desea utilizar:
 
@@ -51,7 +51,7 @@ Para crear el flujo de trabajo, siga estos pasos:
    * En el **[!UICONTROL Schedule]** bloque, seleccione **[!UICONTROL Messages to be sent automatically on the time zone specified below]**. Aquí, elegimos el **[!UICONTROL Time zone of the contact date]** Pacífico como en el flujo de trabajo **[!UICONTROL Scheduler]**.
    * En el campo **[!UICONTROL Optimize the sending time per recipient]**, seleccione **[!UICONTROL Send at the recipient's time zone]**.
 
-      ![](assets/wkf_push_example_4.png)
+     ![](assets/wkf_push_example_4.png)
 
 1. Haga clic en **[!UICONTROL Start]** para iniciar el flujo de trabajo recurrente.
 

@@ -20,10 +20,10 @@ ht-degree: 100%
 
 El editor de contenido push y SMS está organizado en dos secciones diferentes que le permiten ver y editar el mensaje.
 
-1. La **barra de acciones** contiene las opciones generales de la página. Puede insertar campos de personalización o bloques de contenido, añadir texto condicional y previsualizar su contenido SMS desde aquí. Consulte [Barra de editor de contenido push y SMS](#sms-and-push-content-editor-action-bar).
+1. La **barra de acciones** contiene las opciones generales de la página. Puede insertar campos de personalización o bloques de contenido, añadir texto condicional y previsualizar su contenido SMS desde aquí. Consulte [Barra de acciones del editor de contenido push y SMS](#sms-and-push-content-editor-action-bar).
 1. La **zona de edición** de la pantalla le permite introducir directamente el mensaje de texto y seleccionar dónde desea insertar la personalización. Consulte [los modos de edición de contenido push y SMS](#sms-and-push-content-edition-modes).
 
-## Barra de editor de contenido push y SMS {#sms-and-push-content-editor-action-bar}
+## Barra de acciones del editor de contenido push y SMS {#sms-and-push-content-editor-action-bar}
 
 La barra de acciones contiene diferentes botones que le permiten interactuar con el contenido que se está creando.
 

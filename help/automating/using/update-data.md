@@ -42,7 +42,7 @@ La actividad **actualización de datos** se puede utilizar después de importar 
    * **[!UICONTROL Insert or update]**: inserte datos o actualícelos si los registros ya existen en la base de datos.
    * **[!UICONTROL Insert only]**: insertar solo datos. Los registros que ya existen no se actualizan. Si se definen los criterios de reconciliación, solo se añaden los registros que no se han cuadrado.
 
-      Marque la casilla **[!UICONTROL Generate an outbound transition for rejects]** si los datos importados contienen ciertos registros que ya existen en la base de datos para evitar posibles errores.
+     Marque la casilla **[!UICONTROL Generate an outbound transition for rejects]** si los datos importados contienen ciertos registros que ya existen en la base de datos para evitar posibles errores.
 
    * **[!UICONTROL Update]**: actualizar los datos de los registros que ya existen solo en la base de datos.
    * **[!UICONTROL Delete]**: eliminar datos.

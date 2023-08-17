@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # Devolución al remitente{#return-to-sender}
 
-Se admiten los intercambios de archivos planos con proveedores de correo postal que incorporen información de devolución al remitente. Esto permite excluir las direcciones postales correspondientes de futuras comunicaciones. Esto también le permite recibir una notificación de una dirección incorrecta y contactar con el cliente a través de otros canales o animarle a actualizar su dirección postal.
+Se admiten los intercambios de archivos planos con proveedores de correo directo que incorporan información de devolución al remitente. Esto permite excluir las direcciones postales correspondientes de futuras comunicaciones. Esto también le permite recibir una notificación de una dirección incorrecta y contactar con el cliente a través de otros canales o animarle a actualizar su dirección postal.
 
 Por ejemplo, un contacto se ha trasladado a un nuevo lugar y no le ha proporcionado su nueva dirección postal. El proveedor recupera la lista de direcciones erróneas y envía esta información a Adobe Campaign, que las incluye en la lista de bloqueados automáticamente de forma automática.
 
