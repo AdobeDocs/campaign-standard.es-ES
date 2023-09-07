@@ -13,10 +13,10 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
-source-git-commit: 013293fce8a923e771e10585c41e4ad482003080
+source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
 workflow-type: tm+mt
-source-wordcount: '1424'
-ht-degree: 100%
+source-wordcount: '1418'
+ht-degree: 96%
 
 ---
 
@@ -87,7 +87,7 @@ La [legislación principal](#privacy-regulations) se refiere a las diferentes en
 
 Por lo tanto, como compañía que recopila y comparte datos personales, usted es el controlador de datos, sus clientes son los sujetos de datos y Adobe Campaign actúa como un procesador de datos al tratar sus datos personales como usted lo indica. Tenga en cuenta que, como controlador de datos, es su responsabilidad gestionar la relación con los temas de datos, como al administrar [solicitudes de privacidad](#privacy-requests).
 
-Al integrar Campaign con otras soluciones de Experience Cloud en las que las audiencias se pueden transferir de un sistema a otro, como el servicio [Audience Destinations](../../integrating/using/aep-about-audience-destinations-service.md), [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager o el servicio principal People](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md), o con otras soluciones como [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md), debe prestar especial atención a la protección de datos personales.
+Al integrar Campaign con otras soluciones de Experience Cloud, donde las audiencias se pueden transferir de un sistema a otro, [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager o servicio principal People](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)o con otras soluciones como [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)Por lo tanto, debe prestar especial atención a la protección de datos personales.
 
 ## Adquisición de datos {#data-acquisition}
 

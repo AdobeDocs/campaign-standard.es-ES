@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
+source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
 workflow-type: tm+mt
-source-wordcount: '5267'
-ht-degree: 98%
+source-wordcount: '5211'
+ht-degree: 99%
 
 ---
 
@@ -266,7 +266,7 @@ ht-degree: 98%
 
 **Integraciones de Experience Platform**
 
-* Se ha mejorado la activación de audiencias de [Experience Platform](../../integrating/using/aep-targeting-audiences.md) de Adobe desde la actividad **Leer audiencia** para proporcionar un mejor rendimiento y estabilidad. Además, los registros de flujo de trabajo se han simplificado para añadir claridad y detallado con respecto a los trabajos de activación, lo que facilita la monitorización y la resolución de problemas al leer audiencias de Adobe Experience Platform.
+* Se ha mejorado la activación de audiencias de Experience Platform de Adobe desde la actividad **Leer audiencia** para proporcionar un mejor rendimiento y estabilidad. Además, los registros de flujo de trabajo se han simplificado para añadir claridad y detallado con respecto a los trabajos de activación, lo que facilita la monitorización y la resolución de problemas al leer audiencias de Adobe Experience Platform.
 
 **Parches**
 
@@ -359,7 +359,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->Las funciones de Adobe Experience Platform en Campaign Standard se encuentran actualmente en fase beta, por lo que pueden estar sujetas a actualizaciones frecuentes sin previo aviso. Consulte la documentación detallada: [Experience Platform Data Connector](../../integrating/using/aep-about-data-connector.md), [Audience Destinations](../../integrating/using/aep-about-audience-destinations-service.md)
+>Las funciones de Adobe Experience Platform en Campaign Standard se encuentran actualmente en fase beta, por lo que pueden estar sujetas a actualizaciones frecuentes sin previo aviso. Consulte la documentación detallada: Experience Platform Data Connector, Audience Destinations
 
 * Ahora, en los registros de flujo de trabajo y cada 10 minutos, Campaign muestra el número de registros que ya ha procesado el trabajo que se está ejecutando.
 * Se ha corregido un problema que se podía producir al importar un perfil de Adobe Experience Platform que se hubiera eliminado de la base de datos.
@@ -406,7 +406,7 @@ ht-degree: 98%
  <tbody> 
   <tr> 
    <td> <p>Ahora, Adobe Experience Platform Data Connector está integrado con Adobe Campaign Standard. Puede hacer que los datos de Campaign estén disponibles en Adobe Experience Platform asignando datos XTK (datos incorporados en Campaign) al modelo de datos de Adobe Experience Platform (XDM). </p>
-    <p>Tenga en cuenta que esta funcionalidad solo está disponible para los clientes alojados en Azure. Para obtener más información sobre esta funcionalidad y las condiciones para activarla, consulte la <a href="../../integrating/using/aep-about-data-connector.md">documentación detallada</a> y el <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">videotutorial</a>.</p>
+    <p>Tenga en cuenta que esta funcionalidad solo está disponible para los clientes alojados en Azure.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -421,7 +421,7 @@ ht-degree: 98%
  <tbody> 
   <tr> 
    <td> <p>Audience Destinations le permite compartir segmentos de Adobe Experience Platform en Adobe Campaign.</p>
-    <p>Tenga en cuenta que esta funcionalidad solo está disponible para los clientes alojados en Azure. Para obtener más información sobre esta funcionalidad y las condiciones para activarla, consulte la <a href="../../integrating/using/aep-about-audience-destinations-service.md">documentación detallada</a> y el <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">videotutorial</a>. </p>
+    <p>Tenga en cuenta que esta funcionalidad solo está disponible para los clientes alojados en Azure.</p>
    </td> 
   </tr> 
  </tbody> 
