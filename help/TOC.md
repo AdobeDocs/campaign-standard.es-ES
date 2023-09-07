@@ -5,7 +5,7 @@ user-guide-description: Centro de ayuda para las principales características, t
 title: Guía de Campaign Standard
 breadcrumb-title: Documentación de Adobe Campaign Standard
 source-git-commit: 957064f708390c33a3295ed7d107cc9c488be875
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1812'
 ht-degree: 100%
 
