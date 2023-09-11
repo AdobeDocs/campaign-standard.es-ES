@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7214'
 ht-degree: 100%
 
@@ -120,7 +120,7 @@ La sección que enumera los pasos clave para enviar un mensaje se ha mejorado co
 
 Se ha añadido información para especificar que, al seleccionar una audiencia en una consulta, su definición se copia y no se hace referencia a ella. [Obtenga más información](../../audiences/using/selecting-an-audience-in-a-message.md)
 
-La información relacionada con el servicio Destinos de audiencia y el Conector de datos de Adobe Experience Platform se ha reagrupado en una nueva sección.
+La información relacionada con el servicio Destinos de público y el Conector de datos de Adobe Experience Platform se ha reagrupado en una nueva sección.
 
 Ahora, la fuente de datos de **ID declarado** también se puede utilizar con la integración del servicio principal Personas. Se ha añadido información en la documentación de la integración de Campaign-Audience Manager o del servicio principal Personas. [Más información](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
@@ -346,9 +346,9 @@ Se ha añadido información sobre el **[!UICONTROL History in days field]** disp
 
 **Nuevas funcionalidades incluidas en la versión**
 
-Conector de datos de Adobe Experience Platform (beta)
+Conector de datos de Adobe Experience Platform (Beta)
 
-Audience Destinations (beta)
+Destinos de público (Beta)
 
 **Otras actualizaciones de la documentación incluidas en la versión**
 
