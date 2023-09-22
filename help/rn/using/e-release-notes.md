@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 485927b217fb68064897dd877c2f4a6dd208d443
+source-git-commit: a15959b34979678e6ed53758e0ba5a00401a765b
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 100%
+source-wordcount: '202'
+ht-degree: 24%
 
 ---
 
@@ -18,30 +18,26 @@ ht-degree: 100%
 # Notas de las versiones anteriores {#e-new-release}
 
 Esta página describe las mejoras y correcciones incluidas en la próxima versión de Campaign Standard.
+
 >[!CAUTION]
 >
 > Este contenido está sujeto a cambios sin previo aviso hasta la fecha de actualización de los entornos de ensayo. Obtenga más información en la [página de planificación de versiones](../../rn/using/release-planning.md).
 
-## Versión 23.1: versión de primavera/verano de 2023 {#apr-23}
+## Versión 23.2: versión de otoño/invierno de 2023 {#fall-23}
+
+>[!AVAILABILITY]
+>
+>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener más información, póngase en contacto con el representante del Adobe.
 
 ### Mejoras {#e-rn-improvements}
 
-* El servicio de mensajería push se ha modernizado para optimizar la asistencia. (CAMP-47959)
-* El servicio de mensajería SMS se ha modernizado para proporcionar una mayor estabilidad. (CAMP-52217)
-* Adobe ha realizado muchas correcciones de accesibilidad para mejorar la facilidad de uso general de la aplicación. Estos son algunos ejemplos de mejoras de accesibilidad:
-   * La accesibilidad del teclado de la interfaz se ha optimizado en muchas pantallas.
-   * La aplicación se ha mejorado para usuarios de pantalla táctil.
-   * Se ha cambiado el color de varios elementos en la interfaz para mejorar la visibilidad.
+* **Integración con Adobe Experience Manager**. Al crear una plantilla de envío para mensajes transaccionales en Adobe Experience Manager, ahora puede personalizar el mensaje seleccionando y utilizando los campos de personalización definidos en Campaign Standard. Hay una nueva lista desplegable disponible en Adobe Experience Manager.
 
-### Otros cambios {#e-rn-changes}
+* **Caducidad de cookie** : La caducidad predeterminada de las cookies ahora es de 6 meses, para ajustarse a la normativa francesa.
 
-* Se ha añadido la solución predeterminada **Flujo de trabajo de creación de informes de enriquecimiento**. Después de importar una asignación de destinatario de una instancia a otra, simplemente ejecute el flujo de trabajo para importar las entradas de enriquecimiento de creación de informes correspondientes. (CAMP-52452)
+* **Mejora de búsqueda de perfiles** - La búsqueda de perfiles se ha optimizado para reducir los escenarios de tiempo de espera de búsqueda
 
-### Problemas solucionados{#e-rn-patches}
+* **Integración con Adobe Experience Cloud Triggers** : La nueva interfaz de usuario para Déclencheur de Experience Cloud ofrece una experiencia intuitiva para administrar los comportamientos de los consumidores y personalizar las experiencias de los usuarios. La nueva interfaz de usuario de Adobe Experience Cloud Triggers se está implementando progresivamente para todos los clientes.
 
-* Se ha corregido un problema que podría provocar un error de tiempo de espera al mostrar el informe **Clic activo**. (CAMP-51582)
-* Se ha corregido un problema que podía impedir que usara la integración con el servicio **Lugares**. (CAMP-51923)
-* Se ha corregido un problema que podía impedir que el planificador de flujos de trabajo funcionara correctamente. (CAMP-52003)
-* Se ha corregido un problema que impedía que se mostraran los detalles del desglose al ver la versión PDF de un informe dinámico personalizado con un gran volumen de datos. (CAMP-52178)
-* Se ha corregido un problema que podía mostrar un error al acceder a los informes. (CAMP-52500)
-* Se ha corregido un problema que aplicaba incorrectamente el parámetro de conector SMS **Limitar instancias de MTA para esta cuenta** a todos los canales, en lugar de solo a SMS. (CAMP-52640)
+  Obtenga más información acerca de Adobe Campaign y los Déclencheur de Experience Cloud en [esta página](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
+
