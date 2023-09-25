@@ -8,9 +8,9 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-source-git-commit: 5a7e48da3d62b186f96cd7451fb5a7b2cf94e09c
+source-git-commit: cf2ded703e53d6db27e62712734f7ea846da9a21
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '842'
 ht-degree: 7%
 
 ---
@@ -95,7 +95,7 @@ Es necesario crear un déclencheur de Adobe Experience Cloud para poder utilizar
 
 Cree un nuevo déclencheur en Experience Cloud y asegúrese de seleccionar el grupo de informes utilizado en el sitio web. Asegúrese de elegir la dimensión correcta para que el déclencheur se active.
 
-Consulte la [Documentación de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html) y mira esto [video](https://helpx.adobe.com/es/marketing-cloud/how-to/email-marketing.html#step-two).
+Consulte la [Documentación de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=es).
 
 ## Prácticas recomendadas y limitaciones de Déclencheur {#triggers-best-practices-and-limitations}
 

@@ -8,9 +8,9 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: cf2ded703e53d6db27e62712734f7ea846da9a21
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '740'
 ht-degree: 80%
 
 ---
@@ -23,13 +23,11 @@ ht-degree: 80%
 >
 >Para crear Déclencheur, necesitará el **[!UICONTROL Administration]** función o para estar en **[!UICONTROL Administrators]** grupo de seguridad. Para obtener más información, consulte esta [página](../../administration/using/list-of-roles.md).
 
-Debe asegurarse de definir los comportamientos que desea supervisar de antemano en Adobe Experience Cloud (servicio principal de **[!UICONTROL Triggers]**). Para obtener más información, consulte la [documentación de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html). Tenga en cuenta que cuando define el activador, debe activar los alias. Para cada comportamiento (navegación/abandono de formulario, adición/eliminación de productos, sesión caducada, etc.), se debe añadir un nuevo activador en Adobe Experience Cloud.
+Debe asegurarse de definir los comportamientos que desea supervisar de antemano en Adobe Experience Cloud (servicio principal de **[!UICONTROL Triggers]**). Para obtener más información, consulte la [documentación de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=es). Tenga en cuenta que cuando define el activador, debe activar los alias. Para cada comportamiento (navegación/abandono de formulario, adición/eliminación de productos, sesión caducada, etc.), se debe añadir un nuevo activador en Adobe Experience Cloud.
 
 Ahora tiene que crear un evento de activación en Adobe Campaign basado en un activador de Adobe Experience Cloud existente.
 
-Puede ver este [vídeo](https://helpx.adobe.com/es/marketing-cloud/how-to/email-marketing.html#step-two) para comprender mejor cómo se configuran los activadores en Adobe Campaign.
-
-Los pasos para ponerlo en práctica son:
+Los pasos para ponerlo en práctica son estos:
 
 1. Haga clic en **Adobe** , en la esquina superior izquierda, y seleccione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud Triggers]**.
 
