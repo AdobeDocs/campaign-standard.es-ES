@@ -5,16 +5,29 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
-workflow-type: ht
-source-wordcount: '7214'
-ht-degree: 100%
+source-git-commit: b1158d718cd799914e46f53947e840b1af8c7a37
+workflow-type: tm+mt
+source-wordcount: '7263'
+ht-degree: 98%
 
 ---
 
 # Actualizaciones de la documentación{#documentation-updates}
 
 Además de las [Notas de la versión](../../rn/using/release-notes.md) de Adobe Campaign, esta página enumera todas las nuevas actualizaciones de la documentación de Adobe Campaign Standard.
+
+<!--## Release 23.2 - Fall/Winter 2023 {#release-23-2}
+
+Release notes for Campaign Standard 23.2 Fall/Winter 2023 release have been published. [Read more](release-notes.md)-->
+
+## Septiembre de 2023 {#doc-updates-sept-2023}
+
+* Ya está disponible la nueva interfaz de usuario para Déclencheur de Experience Cloud. Ofrece una experiencia intuitiva para administrar los comportamientos de los consumidores y personalizar las experiencias de los usuarios. [Más información](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
+
+## Versión 23.1: primavera/verano de 2023 {#release-23-1}
+
+Se han publicado las notas de la versión de Campaign Standard 23.1 Primavera/Verano de 2023. [Más información](release-notes.md)
+
 
 ## Noviembre de 2022 {#doc-updates-november-2022}
 
@@ -24,7 +37,7 @@ Se ha añadido información en la página de **[!UICONTROL Extract file]** activ
 
 ## Versión 22.3: otoño/invierno de 2022 {#release-22-3}
 
-Se han publicado las notas de la versión 22.3 de Campaign Standard de otoño/invierno. [Más información](release-notes.md)
+Se han publicado las notas de la versión 22.3 de Campaign Standard de otoño/invierno de 2022. [Más información](release-notes.md)
 
 <!--Data retention periods have been updated to reflect changes coming with 22.3 release. [Read more](../../administration/using/data-retention.md)-->
 
@@ -226,7 +239,7 @@ Se añadió una nueva sección con directrices relacionadas con la supervisión 
 
 Se ha actualizado la sección de limitaciones y mecanismos de protección de API externas. [Más información](../../automating/using/external-api.md#guardrails)
 
-Se ha actualizado la página Información general sobre administración de privacidad para incluir información sobre la Ley de Protección de Datos Personales de Tailandia (PDPA) y el Lei Geral de Proteção de Dados (LGPD) de Brasil. [Más información](https://helpx.adobe.com/es/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+La página Información general sobre administración de privacidad se ha actualizado para incluir información sobre la Ley de Protección de Datos Personales de Tailandia (PDPA) y el Lei Geral de Proteção de Dados (LGPD) de Brasil. [Más información](https://helpx.adobe.com/es/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
 Se ha reorganizado y mejorado la guía de canal móvil. Se ha añadido una nueva guía de Configuración de canales móviles con documentación técnica sobre la configuración móvil. [Más información](../../administration/using/push-tracking.md)
 
@@ -770,7 +783,7 @@ Se ha añadido información sobre los tipos de registro de seguimiento. [Más in
 
 La sección de actividad de consulta se ha actualizado con ejemplos de consultas. [Más información](../../automating/using/query.md#query-samples)
 
-Se cambió el nombre de la sección de la lista de bloqueados a “Explicación de los procesos de inclusión y exclusión”. Se ha actualizado con información sobre cómo administrar la inclusión en canales específicos y cómo configurar páginas de aterrizaje para administrar la inclusión y la exclusión. [Más información](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+Se ha cambiado el nombre de la sección de la que se ocupan las listas de bloqueados a &quot;Explicación de los procesos de inclusión y exclusión&quot;. Se ha actualizado con información sobre cómo administrar la inclusión en canales específicos y cómo configurar páginas de aterrizaje para administrar la inclusión y la exclusión. [Más información](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Conozca las prácticas recomendadas para utilizar los servidores SFTP alojados por Adobe. [Más información](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -1012,7 +1025,7 @@ Ahora hay disponible una nueva nota técnica: “Integración del SDK móvil de 
 
 Se añadieron instrucciones para configurar el servicio principal People o la integración de Audience Manager con Adobe Campaign. [Más información](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-Se ha revisado la tabla de autorizaciones para que el uso de ciertas funciones sea más claro. [Más información](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
+Se ha revisado la tabla de autorizaciones para que el funcionamiento de ciertas funciones sea más claro. [Más información](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 Actualización de los enlaces de ayuda contextual disponibles directamente desde Adobe Campaign.
 

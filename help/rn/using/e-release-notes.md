@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 668412b6385aafcaf8bb55096758731b8076666a
+source-git-commit: b1158d718cd799914e46f53947e840b1af8c7a37
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 19%
+source-wordcount: '192'
+ht-degree: 25%
 
 ---
 
@@ -45,6 +45,3 @@ Esta página describe las mejoras y correcciones incluidas en la próxima versi�
 
   Estos cambios se implementarán gradualmente con las siguientes versiones de la interfaz de usuario y la documentación.
 
-* **Integración con Adobe Experience Cloud Triggers** : ya está disponible la nueva interfaz de usuario para Déclencheur de Experience Cloud. Ofrece una experiencia intuitiva para administrar los comportamientos de los consumidores y personalizar las experiencias de los usuarios. La nueva interfaz de usuario de Adobe Experience Cloud Triggers se implementa progresivamente para todos los clientes, entre el 11 y el 16 de octubre de 2023.
-
-  Obtenga más información acerca de Adobe Campaign y los Déclencheur de Experience Cloud en [esta página](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
