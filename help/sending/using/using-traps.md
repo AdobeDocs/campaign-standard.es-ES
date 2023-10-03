@@ -9,9 +9,9 @@ feature: Seed Address
 role: User
 level: Intermediate
 exl-id: 0482a946-35b1-426f-8505-42adcd1c3bbb
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee3ab5304e80ea098f7e172f6b3f4af4324e8eb4
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '458'
 ht-degree: 2%
 
 ---
@@ -62,4 +62,6 @@ Puede utilizar trampas al enviar mensajes transaccionales. En este caso, el perf
 
 >[!NOTE]
 >
->Cuando se utiliza un perfil de prueba como trampa, para cualquier campo enriquecido en un mensaje, los datos adicionales correspondientes se seleccionan aleatoriamente de un perfil de destino real y se asignan al perfil de prueba de trampa. Para obtener más información sobre el enriquecimiento, consulte [este ejemplo](../../automating/using/enriching-profile-data-file.md).
+>Cuando se utiliza un perfil de prueba como trampa, los campos enriquecidos de un mensaje tendrán sus datos adicionales correspondientes seleccionados aleatoriamente de un perfil de destino real y asignados al perfil de prueba de trampa. Sin embargo, tenga en cuenta que si el perfil de destino real se excluye debido a las reglas de tipología aplicadas durante la primera preparación del mensaje, la preparación del envío fallará. Este error se produce porque los valores de los campos enriquecidos no se pueden sustituir por el perfil de captura. Por lo tanto, es posible que las reglas de tipología de exclusión no se apliquen correctamente a los destinatarios reales.
+>
+>Para evitar esta situación, evite utilizar perfiles de prueba de trampa simultáneamente con reglas de filtrado o fatiga en su tipología transaccional. Más información sobre el enriquecimiento. Para obtener más información sobre el enriquecimiento, consulte [este ejemplo](../../automating/using/enriching-profile-data-file.md).
