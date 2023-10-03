@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
-source-git-commit: 362f1f6605bc9667a80cddf2bd1bef4338cda31a
+source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
 workflow-type: tm+mt
 source-wordcount: '1201'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -43,7 +43,7 @@ Esta versión incorpora la siguiente actualización de seguridad: Apache Tomcat 
 * **Optimization in Workflow startup** - Adobe has added a new capability which can tune the number of workflows that start around the same time. This would help prevent CPU spikes that could have led to service interruptions or downtime. Adobe would enable it after 22.2 release. There is no further action item on customer regarding the same.
 -->
 
-* **Accesibilidad**: Adobe ha realizado muchas correcciones de accesibilidad para mejorar la facilidad de uso general de la aplicación. Actualmente, estas funciones solo están habilitadas para un conjunto de usuarios que las adoptaron por primera vez, y se implementarán para todos los clientes en versiones futuras. Algunos ejemplos de mejoras de accesibilidad son los siguientes:
+* **Accesibilidad** - El Adobe ha realizado muchas correcciones de accesibilidad para mejorar la facilidad de uso general de la aplicación. Actualmente, estas funciones solo están habilitadas para un conjunto de usuarios que las adoptaron por primera vez, y se implementarán para todos los clientes en versiones futuras. Algunos ejemplos de mejoras de accesibilidad son los siguientes:
 
    * Garantizar que haya un indicador de enfoque visible para los elementos enfocables en cada pantalla
    * Creación de puntos de referencia de página para facilitar la navegación
@@ -89,7 +89,7 @@ Esta versión incorpora la siguiente actualización de seguridad: Apache Tomcat 
 **Mejoras**
 
 * Se ha mejorado el procesamiento de los datos de creación de informes para evitar sobrecargar el sistema. (CAMP-47578)
-* Después de enviar los mensajes en la aplicación, puede optar por desactivar el envío. Esto le permite eliminar su envío sin perder datos de creación de informes. (CAMP-48469)
+* Después de enviar los mensajes en la aplicación, puede optar por desactivar la entrega. Esto le permite eliminar su envío sin perder datos de creación de informes. (CAMP-48469)
 * Para evitar cualquier problema, los usuarios ya no pueden utilizar el mismo nombre para una columna de tabla personalizada que el utilizado para la clave principal automática en la base de datos. `"<dataType><resourceName>Id"`. (CAMP-49358)
 * Ahora puede monitorizar su envío y rastrear los registros de trabajos con el nuevo desplegable **Historial de trabajos** del tablero de los mensajes. [Más información](../../sending/using/monitoring-a-delivery.md) (CAMP-49840)
 * Se ha mejorado la estabilidad y el estado de la base de datos, al reducir las tuplas, cuando se envía un gran número de mensajes a través de todos los canales a lo largo del tiempo. (CAMP-49755, CAMP-49792, CAMP-49849)
@@ -102,7 +102,7 @@ Esta versión incorpora la siguiente actualización de seguridad: Apache Tomcat 
 * Se ha corregido un problema que impedía a los usuarios actualizar o desvincular contenido de Adobe Experience Manager (AEM) de sus envíos de Adobe Campaign Standard cuando un contenido duplicado en AEM compartía la misma clave (cq:uuid). (CAMP-49161)
 * Se ha corregido un error al acceder a una instancia en la que las páginas no se cargaban, no se podían abrir los envíos o no se podía guardar ninguna modificación pendiente. (CAMP-50195)
 * Se ha corregido un problema que impedía abrir los criterios de alerta de envío si el campo **Filtro de entrega** aplicado por este criterio no se ha rellenado. (CAMP-49093)
-* Se ha corregido un problema que se producía al editar el botón **Secundario** en envíos en la aplicación que impidieron que se tuvieran en cuenta los cambios. (CAMP-50250)
+* Se ha corregido un problema que se producía al editar el botón **Secundario** en entregas en la aplicación que impidieron que se tuvieran en cuenta los cambios. (CAMP-50250)
 * Se ha corregido un error en las instancias de japonés que impedía a los usuarios elegir Varias veces al día como **Frecuencia de ejecución** en la actividad del **Planificador**. (CAMP-50247)
 * Se ha corregido un problema que se producía al trabajar en una interfaz de usuario japonesa y que mostraba un mensaje de error al seleccionar una hora en una actividad del planificador. (CAMP-49289)
 * Se ha corregido un error con los informes de notificaciones push que mostraban notificaciones push descartadas como **Apertura** en lugar de **Impresión**. (CAMP-45980)
@@ -111,7 +111,7 @@ Esta versión incorpora la siguiente actualización de seguridad: Apache Tomcat 
 * Para resolver varios problemas, se ha mejorado el mecanismo de reintentos de envíos, incluido el contenido importado de una dirección URL. [Más información](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time) (CAMP-48888)
 * Se ha corregido un problema que se producía después de crear un nuevo filtro en un recurso personalizado y, a continuación, utilizarlo como clave de reconciliación en una página de aterrizaje. Si el recurso personalizado se volvió a publicar, el filtro se eliminó de la lista de claves de reconciliación disponibles para la página de aterrizaje. (CAMP-49516)
 * Se ha corregido un problema en las páginas de aterrizaje al usar condiciones dinámicas con casillas de verificación. (CAMP-48604)
-* Se ha corregido un problema que se producía en una actividad de **Consulta** al usar la condición de filtro En octubre o antes. Al trabajar desde una instancia configurada en una zona horaria europea, el mes seleccionado para filtrar se mostraba en septiembre en lugar de octubre, debido a un problema al convertir la zona horaria. (CAMP-48602)
+* Se ha corregido un problema que se producía en un **Consulta** actividad al usar la condición de filtro En octubre o antes. Al trabajar desde una instancia configurada en una zona horaria europea, el mes seleccionado para filtrar se mostraba en septiembre en lugar de octubre, debido a un problema al convertir la zona horaria. (CAMP-48602)
 * Para optimizar la capacidad de envío, Adobe Campaign ahora envía correos electrónicos con codificación de 7 bits en lugar de 8 bits. Esto evita que los relés intermedios invaliden la firma DKIM que podría afectar a la autenticidad de los mensajes. (CAMP-49016)
 * Se ha mejorado el rendimiento al duplicar audiencias para evitar cualquier problema al trabajar con audiencias grandes. (CAMP-49639)
 * Se ha corregido un problema que podía impedir que un filtro personalizado mostrara los resultados correctos cuando se usaba en una actividad de **Consulta**. (CAMP-49417)

@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: ee3ab5304e80ea098f7e172f6b3f4af4324e8eb4
+source-git-commit: 59404b16e145ded31bf3a374adf4087f6d1817c6
 workflow-type: tm+mt
-source-wordcount: '7283'
+source-wordcount: '7299'
 ht-degree: 97%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 97%
 
 Además de las [Notas de la versión](../../rn/using/release-notes.md) de Adobe Campaign, esta página enumera todas las nuevas actualizaciones de la documentación de Adobe Campaign Standard.
 
-<!--## Release 23.2 - Fall/Winter 2023 {#release-23-2}
+## Versión 23.2: otoño/invierno de 2023 {#release-23-2}
 
-Release notes for Campaign Standard 23.2 Fall/Winter 2023 release have been published. [Read more](release-notes.md)-->
+Se han publicado las notas de la versión 23.2 de Campaign Standard de otoño/invierno de 2023. [Más información](release-notes.md)
 
-## Septiembre de 2023 {#doc-updates-sept-2023}
+## Octubre de 2023 {#doc-updates-oct-2023}
 
 * Ya está disponible la nueva interfaz de usuario para Déclencheur de Experience Cloud. Ofrece una experiencia intuitiva para administrar los comportamientos de los consumidores y personalizar las experiencias de los usuarios. [Más información](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
 

@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: b1158d718cd799914e46f53947e840b1af8c7a37
+source-git-commit: 46c5454ad712910c88bfda7c067fda0337b043d9
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 25%
+source-wordcount: '235'
+ht-degree: 22%
 
 ---
 
@@ -45,3 +45,11 @@ Esta página describe las mejoras y correcciones incluidas en la próxima versi�
 
   Estos cambios se implementarán gradualmente con las siguientes versiones de la interfaz de usuario y la documentación.
 
+### Otros cambios {#e-rn-other-changes}
+
+* La mensajería transaccional ahora admite el uso de varias afinidades separadas por comas.
+
+### Correcciones {#e-rn-fixes}
+
+* Se ha corregido una regresión que podría provocar problemas de rendimiento al utilizar flujos de trabajo grandes. (CAMP-53369)
+* Se ha corregido un problema que impedía que funcionara el vínculo de correo electrónico en una alerta o notificación de flujo de trabajo. (CAMP-51874)
