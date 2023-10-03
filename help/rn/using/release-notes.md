@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: c1271bc0128c583e9b39ef98a422487e1df20fce
+source-git-commit: 4158a5aedf990651a0205f7eac4f4294e2538cba
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 59%
+source-wordcount: '454'
+ht-degree: 60%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 59%
 
 * **Integración con Adobe Experience Manager**. Al crear una plantilla de envío personalizada para mensajes transaccionales en Adobe Experience Manager, ahora puede seleccionar y utilizar los campos de personalización definidos en Campaign Standard en una lista desplegable. [Más información](../../integrating/using/creating-email-experience-manager.md)
 
-* **Caducidad de cookie** : La caducidad predeterminada de las cookies ahora es de 6 meses, para ajustarse a las recomendaciones de la Agencia Francesa de Protección de Datos (CNIL).
+* **Caducidad de cookie** : La caducidad predeterminada de la cookie ahora se establece en 6 meses, para ajustarse a las recomendaciones de la Agencia Francesa de Protección de Datos (CNIL).
 
 * **Mejora de búsqueda de perfiles** - La búsqueda de perfiles se ha optimizado para reducir los escenarios de tiempo de espera de búsqueda
 
@@ -44,12 +44,12 @@ ht-degree: 59%
 
 ### Otros cambios {#fall-23-rn-other-changes}
 
-* La mensajería transaccional ahora admite el uso de varias afinidades separadas por comas.
+* La mensajería transaccional ahora admite el uso de varias afinidades separadas por comas. [Más información](../../sending/using/managing-typologies.md)
 
 ### Correcciones {#fall-23-rn-fixes}
 
 * Se ha corregido una regresión que podría provocar problemas de rendimiento al utilizar flujos de trabajo grandes. (CAMP-53369)
-* Se ha corregido un problema que impedía que funcionara el vínculo de correo electrónico en una alerta o notificación de flujo de trabajo. (CAMP-51874)
+* Se ha corregido un problema que impedía el funcionamiento del vínculo en una alerta o notificación de correo electrónico de flujo de trabajo. (CAMP-51874)
 
 ## Versión 23.1: versión de primavera/verano de 2023 {#apr-23}
 
