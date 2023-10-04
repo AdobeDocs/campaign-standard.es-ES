@@ -11,7 +11,7 @@ exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Las actualizaciones de entorno se producen en olas, durante los intervalos de ti
 
 >[!AVAILABILITY]
 >
->Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener más información, póngase en contacto con el representante del Adobe.
+>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener más información, póngase en contacto con su representante Adobe.
 
 Encontrará información detallada acerca de esta versión en las [Notas de la versión](release-notes.md).
 

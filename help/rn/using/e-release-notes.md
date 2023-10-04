@@ -10,7 +10,7 @@ exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 source-git-commit: 46c5454ad712910c88bfda7c067fda0337b043d9
 workflow-type: tm+mt
 source-wordcount: '235'
-ht-degree: 22%
+ht-degree: 83%
 
 ---
 
@@ -27,23 +27,23 @@ Esta página describe las mejoras y correcciones incluidas en la próxima versi�
 
 >[!AVAILABILITY]
 >
->Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener más información, póngase en contacto con el representante del Adobe.
+>Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener más información, póngase en contacto con su representante Adobe.
 
 ### Mejoras {#e-rn-improvements}
 
 * **Integración con Adobe Experience Manager**. Al crear una plantilla de envío personalizada para mensajes transaccionales en Adobe Experience Manager, ahora puede seleccionar y utilizar los campos de personalización definidos en Campaign Standard en una lista desplegable.
 
-* **Caducidad de cookie** : La caducidad predeterminada de las cookies ahora es de 6 meses, para ajustarse a las recomendaciones de la Agencia Francesa de Protección de Datos (CNIL).
+* **Caducidad de cookie**: la caducidad predeterminada de las cookies es ahora de 6 meses, para ajustarse a las recomendaciones de la agencia francesa de protección de datos (CNIL).
 
-* **Mejora de búsqueda de perfiles** - La búsqueda de perfiles se ha optimizado para reducir los escenarios de tiempo de espera de búsqueda
+* **Mejora de búsqueda de perfiles**: la búsqueda de perfiles se ha optimizado para reducir los escenarios de tiempo de espera de búsqueda
 
-* **Localización** - Las traducciones del término &quot;audiencia&quot; al referirse a un grupo de perfiles destinados a recibir un mensaje se armonizaron en todos los productos de Digital Experience para los siguientes idiomas:
+* **Localización**: las traducciones del término &quot;audience&quot; al referirse a un grupo de perfiles destinados a recibir un mensaje se han armonizado en todos los productos de Digital Experience para los siguientes idiomas:
 
    * Alemán: Zielgruppe
    * Portugués brasileño: público-alvo
    * Español: público destinatario
 
-  Estos cambios se implementarán gradualmente con las siguientes versiones de la interfaz de usuario y la documentación.
+  Estos cambios se implementarán gradualmente con las siguientes versiones de la interfaz de usuario y de la documentación.
 
 ### Otros cambios {#e-rn-other-changes}
 
