@@ -97,7 +97,7 @@ Para ambos **[!UICONTROL Padding]** y **[!UICONTROL Margin]**, haga clic en el i
 
   ![](assets/des_set_vertical_alignment.png)
 
-## Estableciendo fondos {#about-backgrounds}
+## Configuración de fondos {#about-backgrounds}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
