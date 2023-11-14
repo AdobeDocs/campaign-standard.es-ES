@@ -7,47 +7,41 @@ role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 6d1a5cb1d467d7d74fe41e66125fe0fcbf2e3d9b
+source-git-commit: f9a0d01196ac4c31e57ae14cdfa448a9ffd6106f
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 0%
+source-wordcount: '325'
+ht-degree: 1%
 
 ---
 
 # Próximos cambios del canal de notificaciones push {#push-upgrade}
 
-Existen actualizaciones importantes con respecto a los próximos cambios en el canal de notificaciones push en los dispositivos Android y iOS que pueden afectar a la implementación de Adobe Campaign Standard.
+Puede utilizar Campaign para enviar notificaciones push a dispositivos Android y iOS. Para ello, Campaign se basa en servicios de suscripción específicos. Algunos cambios importantes en el servicio Android Firebase Cloud Messaging (FCM) se lanzarán en 2024 y afectarán a la implementación de Adobe Campaign. Además, para las aplicaciones de iOS, el Adobe está cambiando la forma de permitir que los administradores configuren los certificados.
 
-## Android {#push-android}
+## ¿Qué ha cambiado? {#push-changes}
 
-Como parte del esfuerzo continuo de Google por mejorar sus servicios, Google está realizando cambios en su [Protocolo HTTP de Firebase Cloud Messaging](https://firebase.google.com/docs/cloud-messaging/http-server-ref). Como resultado, las &quot;API heredadas HTTP&quot; de Firebase Cloud Messaging que quedaron en desuso el 20 de junio de 2023, se sustituirán por &quot;API HTTP v1&quot; en junio de 2024.
+### Android {#push-android}
 
-Actualmente, Adobe Campaign Standard utiliza las API heredadas de HTTP para enviar mensajes de notificación push de Android y realizará cambios en los próximos meses para actualizar a las API HTTP v1. Se proporcionará más información sobre estos cambios a medida que el Adobe funcione en estas actualizaciones.
+Como parte del esfuerzo continuo de Google por mejorar sus servicios, las API de FCM heredadas dejarán de usarse el **20 de junio de 2024**. Obtenga más información acerca del protocolo HTTP de Firebase Cloud Messaging en [Documentación de Google Firebase](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
 
-## iOS {#push-ios}
+Actualmente, Adobe Campaign Standard utiliza las API heredadas de HTTP para enviar mensajes de notificación push de Android y realizará cambios en los próximos meses para actualizar a las API HTTP v1.
+
+### iOS {#push-ios}
 
 Adobe también actualizará Adobe Campaign Standard para el canal de notificaciones push de iOS y cambiará la forma en que permitimos a los administradores configurar certificados para sus aplicaciones de iOS. Los administradores ahora deberán cargar los certificados de iOS a través de la interfaz de usuario de Adobe Campaign Standard.
 
-Entendemos que usted y nuestros clientes confían en estos servicios para sus campañas de marketing y sus necesidades de comunicación, y queremos asegurarnos de que esté al tanto de nuestros planes y asistencia continuos.
+## ¿Se ha visto afectado? {#push-impact}
 
-## ¿Qué Estamos Haciendo?
+Como usuario Campaign Standard, si envía mensajes de notificaciones push a sus audiencias, se verá afectado.
 
-* **Cambios de productos**: trabajando en los cambios de producto para admitir actualizaciones técnicas de la pila en el canal de notificaciones push de Android/iOS.
+## ¿Cómo realizar la migración? {#push-migration}
 
-* **Instrucciones detalladas**: Proporcionaremos guías paso a paso y otros recursos para facilitar un proceso de transición sin problemas.
+Estas actualizaciones requieren una actualización de la compilación del Campaign Standard, ya que afectan a la configuración del canal móvil y a la administración de permisos.
 
-* **Asistencia**: nuestro equipo de asistencia al cliente estará disponible para ayudarle durante esta transición. También podemos organizar seminarios web y sesiones de capacitación para cubrir los aspectos técnicos y las mejores prácticas para la transición.
+Próximamente se proporcionarán instrucciones detalladas para facilitar un proceso de transición sin contratiempos.
 
-## ¿Cómo Le Afecta Esto?
+Nuestro Equipo de Atención al Cliente estará disponible para ayudarle durante esta transición. También podemos organizar seminarios web y sesiones de capacitación para cubrir los aspectos técnicos y las mejores prácticas para la transición.
 
-* **Manténgase informado**: observe su bandeja de entrada para recibir más comunicaciones nuestras, incluido el plan de transición detallado.
+Mientras tanto, se recomienda dedicar este tiempo a revisar la configuración y personalización actual de Adobe Campaign Standard para que pueda realizar los cambios que sean necesarios.
 
-* **Revisar configuración actual**: Tómese este tiempo para revisar la configuración y personalización actual en Adobe Campaign Standard, de modo que esté preparado para realizar los cambios que sean necesarios.
-
-* **Contáctenos.**: Si tiene alguna duda o pregunta inmediata, no dude en ponerse en contacto con nuestro equipo de asistencia.
-
-## Pasos siguientes
-
-En las próximas semanas, compartiremos más detalles sobre los cambios que se están planificando para el canal push para Android/iOS, incluidas las cronologías y los elementos de acción. Nuestro objetivo principal es hacer que esta transición sea lo más fluida posible para usted y su equipo.
-
-Gracias por su comprensión mientras nos adaptamos a estos cambios. Su éxito es nuestra máxima prioridad, y estamos comprometidos a apoyarle en cada paso del camino.
+Si tiene alguna duda o pregunta inmediata, no dude en ponerse en contacto con nuestro equipo de asistencia.
