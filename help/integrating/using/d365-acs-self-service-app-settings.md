@@ -8,10 +8,10 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: 184bc656-2107-4380-9b35-148cb4380547
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: c701043cbba22711de1ea7ddc5266e193d771e14
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 4%
+source-wordcount: '670'
+ht-degree: 5%
 
 ---
 
@@ -39,11 +39,10 @@ Las credenciales de Microsoft Dynamics 365 otorgan permiso a la aplicación de i
 
 Las credenciales de Adobe Campaign se generan mediante [Adobe I/O](https://www.adobe.io/). Tendrá que visitar la pantalla [Configuración del Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md) y siga las instrucciones antes de poder completar las entradas de esta sección.
 
-La siguiente imagen explica en detalle la asignación entre el Adobe I/O y las entradas de la pantalla de configuración.
+* Seleccione el tipo de autenticación como Oauth, ya que la autenticación basada en JWT está obsoleta.
+* La siguiente imagen explica en detalle la asignación entre el Adobe I/O y las entradas de la pantalla de configuración.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-adobeio.png)
-
-* *Clave privada*: el proceso a para definir esto comienza haciendo clic en el botón &quot;Generar par de claves pública/privada&quot;. Esto creará un archivo zip que debe descargar. Una vez descargado, descomprima el archivo, que generará dos archivos llamados certificate_pub.crt y private.key. Asegúrese de colocar la clave private.key en un lugar seguro y no la comparta. Abra el archivo private.key en un editor de texto. Copie todo el valor en el editor de texto (ctrl-A y después ctrl-C en un equipo o cmd-A y luego cmd-C en un Mac). Esto debe incluir las líneas con &quot;BEGIN PRIVATE KEY&quot; y &quot;END PRIVATE KEY&quot; en su totalidad. Pegue todo este texto multilínea en la entrada &quot;Private Key&quot; de la pantalla Settings.
 
 * *URL*: Este valor se ajustará al patrón https\://mc.adobe.io/&lt;campaign-instance-name>. El encabezado de la aplicación de integración incluye &quot;Org&quot; e &quot;Instance&quot;. La parte &quot;campaign-instance-name&quot; de la dirección URL sería simplemente el nombre encontrado en este valor de instancia.
 

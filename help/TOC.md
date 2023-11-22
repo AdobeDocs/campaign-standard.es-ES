@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Centro de ayuda para las principales características, tareas, configuraciones y otros recursos necesarios para utilizar Campaign Standard.
 title: Guía de Campaign Standard
 breadcrumb-title: Documentación de Adobe Campaign Standard
-source-git-commit: 870b01f118974ed62755dd79143b990cfa2e4e85
+source-git-commit: 01ac9b91a5b4af445bdd6209a0b9494731a47362
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: '1768'
 ht-degree: 99%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 99%
       + [Preguntas frecuentes sobre privacidad](start/using/privacy-faq.md)
    + [Opciones de ayuda y asistencia](support.md)
 + Perfiles y audiencias {#profiles-and-audiences}
-   + [Introducción a perfiles y audiencias](audiences/using/get-started-profiles-and-audiences.md)
+   + [Introducción a perfiles y públicos](audiences/using/get-started-profiles-and-audiences.md)
    + Administración de perfiles {#managing-profiles}
       + [Acerca de los perfiles](audiences/using/about-profiles.md)
       + [Creación de perfiles](audiences/using/creating-profiles.md)
@@ -269,6 +269,7 @@ ht-degree: 99%
          + [Conexión de sistemas con la aplicación de integración](integrating/using/d365-acs-self-service-app-settings.md)
          + [Administración de flujos de trabajo de sincronización](integrating/using/d365-acs-self-service-app-workflows.md)
          + [Asignación de datos entre Microsoft Dynamics 365 y Campaign](integrating/using/d365-acs-self-service-app-data-sync.md)
+         + [Migrar credenciales de JWT a servidor a servidor OAuth](integrating/using/d365-acs-self-service-app-migrate-credentials.md)
       + [Uso de la integración con Microsoft Dynamics 365](integrating/using/d365-acs-using-the-integration.md)
    + Campaign y Adobe Experience Platform {#adobe-experience-platform}
       + [Introducción a orígenes y destinos](integrating/using/get-started-sources-destinations.md)
@@ -405,7 +406,7 @@ ht-degree: 99%
       + [Ampliación de las suscripciones a un recurso de aplicación](developing/using/extending-the-subscriptions-to-an-application-resource.md)
    + Modelo de datos {#datamodel}
       + [Introducción](developing/using/datamodel-introduction.md)
-      + [Audiencia](developing/using/datamodel-audience.md)
+      + [Público](developing/using/datamodel-audience.md)
       + [Campaña](developing/using/datamodel-campaign.md)
       + [Envío](developing/using/datamodel-delivery.md)
       + [Páginas de aterrizaje](developing/using/datamodel-landingpage.md)

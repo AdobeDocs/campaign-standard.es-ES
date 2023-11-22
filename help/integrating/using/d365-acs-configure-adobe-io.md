@@ -8,9 +8,9 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+source-git-commit: c701043cbba22711de1ea7ddc5266e193d771e14
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '572'
 ht-degree: 1%
 
 ---
@@ -59,21 +59,13 @@ Para lograr esto, siga el procedimiento a continuación:
 
    ![](assets/adobeIO2.png)
 
-1. Seleccione la API de Adobe Campaign (es posible que tenga que desplazarse hacia la parte inferior) y haga clic en **[!UICONTROL Next]**.
+1. Seleccione el Adobe Campaign y haga clic en **[!UICONTROL Next]**.
 
    ![](assets/adobeIO3.png)
 
-1. En la siguiente pantalla, tendrá la opción de cargar su propia clave pública o dejar que Adobe Developer genere el par de claves por usted. Estas instrucciones siguen la última opción. Si decide permitir que Adobe Developer genere el par de claves, haga clic en la opción 1 y, a continuación, haga clic en **[!UICONTROL Generate keypair]** botón.
+1. En la siguiente pantalla tendrá la opción de elegir el tipo de autenticación. Puede elegir OAuth Server-to-Server o Service Account (JWT). Tenga en cuenta que las credenciales de la cuenta de servicio (JWT) ya no se recomiendan para los nuevos proyectos y han quedado obsoletas en favor de las nuevas credenciales de servidor a servidor OAuth. Las instrucciones proporcionadas en esta guía solo se aplicarán a la autenticación de servidor a servidor OAuth.
 
    ![](assets/adobeIO4.png)
-
-1. En la siguiente pantalla, se le pedirá que asigne un nombre y seleccione la ubicación de descarga del archivo zip del par de claves.
-
-Una vez descargado, puede descomprimir el archivo para mostrar las claves públicas y privadas. Adobe Developer ya ha aplicado la clave pública a su proyecto de Adobe Developer. Deberá conservar la clave privada para más adelante; la clave privada se utilizará durante la configuración previa a la integración de la herramienta de integración.
-
-1. Clic **[!UICONTROL Next]** para continuar
-
-   ![](assets/adobeIO5.png)
 
 1. En la siguiente pantalla, seleccione los perfiles de producto que desea asociar a este proyecto. Seleccione el perfil de producto que contiene en el título: El ID de inquilino de la instancia de Campaign - [!UICONTROL Administrators]
 
@@ -81,11 +73,11 @@ Una vez descargado, puede descomprimir el archivo para mostrar las claves públi
 
 1. Haga clic en **[!UICONTROL Save configured API]**.
 
-   ![](assets/adobeIO6.png)
+   ![](assets/adobeIO5.png)
 
 1. En la siguiente pantalla verá los detalles del nuevo proyecto de Adobe Developer. Clic **[!UICONTROL Add to Project]** en la parte superior izquierda de la pantalla y seleccione **API** de la lista desplegable.
 
-   ![](assets/adobeIO7.png)
+   ![](assets/adobeIO6.png)
 
 1. En la siguiente pantalla, debe seleccionar la API de eventos de I/O y, a continuación, haga clic en **[!UICONTROL Next]**.
 
@@ -103,8 +95,7 @@ Ya se ha completado la configuración de preintegración en Campaign.
 
 * [Configuración de Adobe Developer para la integración con Microsoft Dynamics 365](../../integrating/using/d365-acs-configure-adobe-io.md) es el siguiente paso para configurar la integración
 * [Descripción general de la aplicación de autoservicio de integración](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) contiene la lista completa de pasos para poner en marcha la integración.
-
-
 * [Adobe Developer: integración de cuenta de servicio](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
 * [Campaign Standard - Configuración de acceso a API](../../api/using/setting-up-api-access.md)
 * [Campaign Standard: integración con Dynamics 365](../../integrating/using/d365-acs-configure-d365.md)
+* [Migrar credenciales de JWT a servidor a servidor OAuth](../../integrating/using/d365-acs-self-service-app-migrate-credentials.md) contiene los pasos para migrar credenciales de JWT a OAuth Server-to-Server.
