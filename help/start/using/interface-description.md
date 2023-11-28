@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 9faf94d3f2643d1fdeeed9156355147bf3b6be58
 workflow-type: tm+mt
-source-wordcount: '1256'
-ht-degree: 78%
+source-wordcount: '1260'
+ht-degree: 77%
 
 ---
 
@@ -77,7 +77,7 @@ Tres pestañas le ayudan a encontrar ayuda y asistencia:
    * a **[!UICONTROL Learning]** vínculo que le permite acceder a la biblioteca de cursos de Adobe Campaign.
    * a **[!UICONTROL Community]** para acceder al foro dedicado a sus preguntas sobre Campaign.
    * un acceso directo a: Centro de ayuda, Servicio de atención al cliente, Estado del producto del Experience Cloud, Conexión de desarrolladores, Notas de la versión, Planificación de versiones y **[!UICONTROL About]** pantalla.
-1. El **[!UICONTROL Support]** Esta pestaña le permite abrir un caso de asistencia y ponerse en contacto con nosotros por teléfono o Twitter.
+1. El **[!UICONTROL Support]** Esta pestaña le permite abrir un caso de asistencia y ponerse en contacto con nosotros por teléfono o X (anteriormente conocido como Twitter).
 1. El **[!UICONTROL Feedback]**  le facilita informar sobre problemas o compartir sus ideas.
 
 ## Menú avanzado {#advanced-menu}
