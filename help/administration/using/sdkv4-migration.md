@@ -6,14 +6,17 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: eb7a209e-069e-4068-966d-05344bd838c7
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+source-git-commit: 3b2f8d9b2b7a4ec9532917af3a0880400d98e636
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1216'
 ht-degree: 1%
 
 ---
 
 # Migración de la aplicación móvil del SDK v4 al SDK de Adobe Experience Platform {#sdkv4-migration}
+
+
+La compatibilidad con los SDK de Adobe Experience Platform Mobile versión 4 finalizó el **31 de agosto de 2021**. Obtenga información sobre cómo migrar al SDK de Adobe Experience Platform en este artículo.
 
 >[!IMPORTANT]
 >
