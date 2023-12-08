@@ -8,10 +8,10 @@ feature: Audiences
 role: Data Architect
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-source-git-commit: 884cd5e9c09aa85e744ca06b202eb46f73a33a76
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
 workflow-type: tm+mt
-source-wordcount: '1311'
-ht-degree: 3%
+source-wordcount: '1252'
+ht-degree: 2%
 
 ---
 
@@ -27,7 +27,7 @@ Las aplicaciones móviles utilizadas para recopilar datos de ubicación deben es
 
 Para poder utilizar los servicios de ubicación de Adobe Experience Platform con aplicaciones móviles configuradas con el SDK de Adobe Experience Platform, debe:
 
-1. Añada el **[!UICONTROL Places]** extensión a la configuración de la aplicación móvil en la IU de recopilación de datos. Configure la aplicación móvil en Adobe Campaign. Consulte [Instalación de la extensión Places](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch).
+1. Añada el **[!UICONTROL Places]** extensión a la configuración de la aplicación móvil en la IU de recopilación de datos. Configure la aplicación móvil en Adobe Campaign. Consulte [Instalación de la extensión Places](https://developer.adobe.com/client-sdks/solution/places).
 
 1. Una vez configuradas las extensiones, cree elementos de datos en la IU de recopilación de datos para recuperar datos de estas extensiones. Consulte esta sección [página](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) para crear los elementos de datos.
 

@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 7ca7e9bd9541a4db708565e65e2ff87e44393238
-workflow-type: ht
-source-wordcount: '7336'
-ht-degree: 100%
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
+workflow-type: tm+mt
+source-wordcount: '7211'
+ht-degree: 99%
 
 ---
 
@@ -232,7 +232,7 @@ Se ha agregado información sobre las fuentes anónimas en el informe Perfiles a
 
 Hay disponible una nueva sección actualizada sobre cómo empezar a utilizar la mensajería transaccional. [Más información](../../channels/using/getting-started-with-transactional-msg.md)
 
-La sección **Limitaciones de mensajería transaccional** se movió [aquí](../../channels/using/transactional-messaging-limitations.md).
+El **Limitaciones de mensajería transaccional** se ha movido la sección [aquí](../../channels/using/transactional-messaging-limitations.md).
 
 La sección **Preparación del envío** se ha movido [aquí](../../sending/using/preparing-the-send.md).
 
@@ -346,7 +346,7 @@ Se ha añadido información más detallada sobre el MTA mejorado a la documentac
 
 Se ha movido y actualizado la sección dedicada al archivado con Email BCC. [Más información](../../sending/using/archiving.md)
 
-La documentación de Configuración de una aplicación móvil y las páginas relacionadas se han actualizado para reflejar la depreciación del SDK V4. [Más información](https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/)
+La documentación de Configuración de una aplicación móvil y las páginas relacionadas se han actualizado para reflejar la depreciación del SDK V4. [Más información](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html)
 
 Se ha actualizado y mejorado la documentación sobre la integración de Adobe Campaign Standard y Adobe Experience Manager. [Más información](../../integrating/using/configure-experience-manager.md)
 

@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 3%
+source-wordcount: '1220'
+ht-degree: 2%
 
 ---
 
@@ -50,7 +50,7 @@ Este paso permite al usuario iniciar sesión en la interfaz de usuario de recopi
 
 1. En la IU de recopilación de datos, haga clic en **[!UICONTROL Extensions]** pestaña, vaya a **[!UICONTROL Catalog]** y busque la variable **[!UICONTROL Adobe Campaign Standard]** extensión. Para obtener más información, consulte [Adobe Campaign Standard](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
 
-1. Para admitir casos de uso de ubicación en Campaign Standard, instale **[!UICONTROL Places]** en la IU de recopilación de datos. Consulte [esta página](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
+1. Para admitir casos de uso de ubicación en Campaign Standard, instale **[!UICONTROL Places]** en la IU de recopilación de datos. Consulte [esta página](https://developer.adobe.com/client-sdks/solution/places).
 
 1. En Adobe Campaign Standard, configure la propiedad móvil que ha creado en la IU de recopilación de datos. Consulte [Configuración de la aplicación de Adobe Experience Platform Launch en Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 

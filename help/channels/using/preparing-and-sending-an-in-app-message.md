@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 83%
+source-wordcount: '1224'
+ht-degree: 80%
 
 ---
 
@@ -40,7 +40,7 @@ Los pasos para crear un mensaje independiente en la aplicación con Adobe Campai
 
 1. En la página de inicio de Adobe Campaign, haga clic en la tarjeta **[!UICONTROL In-App messaging]**.
 
-   También puede crear una aplicación desde la pestaña **Actividades de marketing**, haciendo clic en el botón **[!UICONTROL Create]**.
+   También puede crear un mensaje en la aplicación desde la pestaña **Actividades de marketing**, haciendo clic en el botón **[!UICONTROL Create]**.
 
    Tenga en cuenta que también se puede crear un mensaje en la aplicación desde una campaña, desde la página de inicio de Adobe Campaign o en un flujo de trabajo.
 
@@ -58,7 +58,7 @@ Los pasos para crear un mensaje independiente en la aplicación con Adobe Campai
    * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**
    * **[!UICONTROL Target users based on their Mobile profile (inApp)]**
 
-1. Introduzca las propiedades de los mensajes en la aplicación y seleccione la aplicación móvil en el campo **[!UICONTROL Associate a Mobile App to a delivery]**.
+1. Introduzca las propiedades de los mensajes en la aplicación y seleccione su aplicación móvil en la **[!UICONTROL Associate a Mobile App to a delivery]** field.
 
    Si no ve ninguna aplicación en la lista desplegable, asegúrese de que las aplicaciones móviles se encuentren en un **Configurado** estado. Aplicaciones en una **Listo para configurar** El estado de no aparecerá en la lista. Para obtener más información sobre la configuración de la aplicación móvil, consulte esta [página](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
@@ -100,7 +100,7 @@ Los pasos para crear un mensaje independiente en la aplicación con Adobe Campai
 
 1. Si utiliza un activador **[!UICONTROL Places]**, los datos de contexto de Places, los metadatos personalizados de Places o el tipo de evento de Places se rellenarán automáticamente en función de todas las bibliotecas y sus puntos de interés creados en Adobe Places.
 
-   Tenga en cuenta que este déclencheur se aplicará en el dispositivo únicamente para los puntos de interés de las bibliotecas seleccionadas en la extensión Places en la IU de recopilación de datos. Para obtener más información sobre la extensión Places y cómo instalarla, consulte esta [documentación](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
+   Tenga en cuenta que este déclencheur se aplicará en el dispositivo únicamente para los puntos de interés de las bibliotecas seleccionadas en la extensión Places en la IU de recopilación de datos. Para obtener más información sobre la extensión Places y cómo instalarla, consulte esta [documentación](https://developer.adobe.com/client-sdks/solution/places).
 
 1. En la pestaña **[!UICONTROL Frequency & duration]**, elija la frecuencia del activador, la fecha de inicio y final, el día de la semana y la hora del día en que se activará el mensaje en la aplicación.
 
