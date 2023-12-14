@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
-workflow-type: ht
-source-wordcount: '437'
-ht-degree: 100%
+source-git-commit: 311fdf000333c03cb3b21fc6fea786251ced045f
+workflow-type: tm+mt
+source-wordcount: '472'
+ht-degree: 88%
 
 ---
 
@@ -23,11 +23,34 @@ Todas las instancias de Adobe Campaign Standard se actualizan con cada nueva ver
 
 Las actualizaciones se implementan en dos fases. En primer lugar, las fases de prueba se actualizan para permitirle probar nuevas funciones y adaptar su configuración si es necesario. Las instancias de producción se actualizan posteriormente.
 
-Todas las fechas de las versiones están sujetas a cambios: visite esta página regularmente para buscar actualizaciones.
+Todas las fechas de las versiones están sujetas a cambios: visite esta página regularmente para buscar actualizaciones. Las actualizaciones de entorno se producen en olas, durante los intervalos de tiempo indicados a continuación. Las fechas exactas se comunican por correo electrónico a cada cliente.
 
-## Versión 23.2: versión de otoño/invierno de 2023 {#release-23-2-release}
+## Versión 24.1: versión de invierno de 2024 {#release-24-1-release}
 
-Las actualizaciones de entorno se producen en olas, durante los intervalos de tiempo indicados a continuación. Las fechas exactas se comunican por correo electrónico a cada cliente.
+Encontrará información detallada acerca de esta versión en la [Notas de versión](release-notes.md) una semana antes de que comience la actualización del entorno de ensayo.
+
+<table>
+ <thead>
+  <tr>
+   <th> Entornos </th>
+   <th> Fechas </th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>Prueba </td>
+   <td>16 de enero a 13 de febrero de 2024 </td>
+  </tr>
+  <tr>
+   <td>Producción </td>
+   <td>23 de enero a 20 de febrero de 2024 </td>
+  </tr>
+ </tbody>
+</table>
+
+
+## Versión 23.2: versión limitada de otoño de 2023 {#release-23-2-release}
+
 
 >[!AVAILABILITY]
 >
