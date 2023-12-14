@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 4158a5aedf990651a0205f7eac4f4294e2538cba
-workflow-type: ht
-source-wordcount: '454'
-ht-degree: 100%
+source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,6 @@ ht-degree: 100%
 # Última versión{#latest-release}
 
 ![Panel de control](assets/do-not-localize/cp-icon.png) **Nueva versión de Panel de control**. [Más información](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=es){target="_blank"}.
-
 
 
 ## Versión 23.2: versión de otoño/invierno de 2023 {#fall-23}

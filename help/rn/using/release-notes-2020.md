@@ -7,11 +7,12 @@ topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
+hidefromtoc: true
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
+source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
 workflow-type: tm+mt
-source-wordcount: '5211'
-ht-degree: 99%
+source-wordcount: '5267'
+ht-degree: 97%
 
 ---
 
@@ -68,7 +69,7 @@ ht-degree: 99%
 <tbody> 
 <tr> 
   <td> <p>Nos complace anunciar Journey AI para todos los clientes de Adobe Campaign Standard.</p>
-  <p>Journey AI utiliza aprendizaje automático avanzado (ML) para permitir que las compañías optimicen el diseño y el envío de los recorridos de los clientes mediante la predicción de las preferencias de participación de cada individuo.</p>
+  <p>La IA del recorrido utiliza aprendizaje automático avanzado (ML) para permitir que las empresas optimicen el diseño y el envío de los recorridos de los clientes mediante la predicción de las preferencias de participación de cada individuo.</p>
   <P>Journey AI consta de dos características de ML:</p>
 <ul> 
      <li> <strong>Puntuación de participación predictiva</strong>: identifica de forma inteligente el nivel de compromiso preferido de los clientes para destinar y personalizar de mejor manera los mensajes a fin de aumentar las conversiones y la retención. Vea el <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">vídeo explicativo</a>.</li> 
@@ -235,7 +236,7 @@ ht-degree: 99%
 **Funciones adicionales** (a partir del 13 de julio)
 
 * **Optimización de tiempo de envío con tecnología de IA y puntuación de perfiles**: ahora puede optimizar el diseño y el envío de los recorridos de los clientes para predecir las preferencias de participación de cada individuo. Con la tecnología de Journey AI, Adobe Campaign puede analizar y predecir las tasas abiertas, los tiempos de envío óptimos y la probable reproducción basada en las métricas de participación históricas. [Más información](../../sending/using/predictive.md)
-* **Nueva regulación de privacidad de Brasil**: además de las funcionalidades de privacidad disponibles en Campaign, Adobe le ayuda a facilitar su preparación para la Lei Geral de Proteçao de Datos (LGPD) de Brasil. Al crear una solicitud de privacidad, se ha agregado la regulación LGPD en el servicio principal de privacidad de Adobe. [Más información](https://helpx.adobe.com/es/campaign/kb/campaign-privacy-overview.html)
+* **La nueva regulación de privacidad de Brasil** - Además de las funcionalidades de privacidad disponibles en Campaign, Adobe le ayuda a prepararse para la Lei Geral de Proteçao de Datos (LGPD) de Brasil. Al crear una solicitud de privacidad, se ha agregado la regulación LGPD en el servicio principal de privacidad de Adobe. [Más información](https://helpx.adobe.com/es/campaign/kb/campaign-privacy-overview.html)
 
 **Mejoras**
 
@@ -266,7 +267,7 @@ ht-degree: 99%
 
 **Integraciones de Experience Platform**
 
-* Se ha mejorado la activación de audiencias de Experience Platform de Adobe desde la actividad **Leer audiencia** para proporcionar un mejor rendimiento y estabilidad. Además, los registros de flujo de trabajo se han simplificado para añadir claridad y detallado con respecto a los trabajos de activación, lo que facilita la monitorización y la resolución de problemas al leer audiencias de Adobe Experience Platform.
+* Activación de audiencias de Adobe Experience Platform desde **Leer audiencia** se ha mejorado la actividad de para proporcionar un mejor rendimiento y estabilidad. Además, los registros de flujo de trabajo se han simplificado para añadir claridad y detallado con respecto a los trabajos de activación, lo que facilita la monitorización y la resolución de problemas al leer audiencias de Adobe Experience Platform.
 
 **Parches**
 
@@ -406,7 +407,7 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td> <p>Ahora, Adobe Experience Platform Data Connector está integrado con Adobe Campaign Standard. Puede hacer que los datos de Campaign estén disponibles en Adobe Experience Platform asignando datos XTK (datos incorporados en Campaign) al modelo de datos de Adobe Experience Platform (XDM). </p>
-    <p>Tenga en cuenta que esta funcionalidad solo está disponible para los clientes alojados en Azure.</p>
+    <p>Tenga en cuenta que esta capacidad solo está disponible para clientes alojados en Azure.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -421,7 +422,7 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td> <p>Audience Destinations le permite compartir segmentos de Adobe Experience Platform en Adobe Campaign.</p>
-    <p>Tenga en cuenta que esta funcionalidad solo está disponible para los clientes alojados en Azure.</p>
+    <p>Tenga en cuenta que esta capacidad solo está disponible para clientes alojados en Azure.</p>
    </td> 
   </tr> 
  </tbody> 
