@@ -4,9 +4,9 @@ title: Documentación del producto de Adobe Campaign Standard
 description: Documentación del producto de Adobe Campaign Standard
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 source-git-commit: 7dc9871c3fdc12242e22d094907bd48777a9a95a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '283'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 ## Novedades
 
-Eche un vistazo a las mejoras más recientes en el producto y la documentación de Adobe Campaign Standard. Para obtener una lista completa de funciones, mejoras y correcciones, consulte la [Notas de versión](rn/using/release-notes.md). Manténgase al tanto de los cambios más recientes en nuestra documentación. Para ello, visite el [página actualizaciones de documentación](rn/using/documentation-updates.md).
+Echa un vistazo a las mejoras más recientes del producto y la documentación de Adobe Campaign Standard. Para obtener una lista completa de funciones, mejoras y correcciones, consulta las [Notas de la versión](rn/using/release-notes.md) detalladas. Mantente al tanto de los cambios más recientes en nuestra documentación. Para ello, visita la [página de actualizaciones de documentación](rn/using/documentation-updates.md).
 
 >[!BEGINTABS]
 
@@ -26,19 +26,19 @@ Descubra las nuevas funciones, mejoras y correcciones que se proporcionan con la
 
 >[!TAB Correos electrónicos con IA]
 
-Optimice el diseño y el envío con correos electrónicos con tecnología de IA.
+Optimización del diseño y el envío con correos electrónicos con tecnología de IA.
 
 [![imagen](assets/do-not-localize/learn-more-button.svg)](sending/using/predictive.md)
 
 >[!TAB Campaign: Integración de RTCDP]
 
-Aprenda a compartir datos entre Campaign y Real-time Customer Data Platform (RTCDP).
+Aprenda a compartir datos entre Campaign y la plataforma de datos del cliente en tiempo real (RTCDP).
 
 [![imagen](assets/do-not-localize/learn-more-button.svg)](integrating/using/get-started-sources-destinations.md)
 
 >[!ENDTABS]
 
-## Empiece con lo básico
+## Empieza con los conceptos básicos
 
 <table style="table-layout:fixed">
   <tr style="border: 0;">
@@ -48,11 +48,11 @@ Aprenda a compartir datos entre Campaign y Real-time Customer Data Platform (RTC
     </td>
     <td>
     <a href="designing/using/designing-content-in-adobe-campaign.md"><img src="assets/do-not-localize/start-designer.png"></a>
-    <div><strong>Diseñador de correo electrónico</strong><br/>Aprenda a utilizar el Diseñador de correo electrónico para crear correos interactivos y personalizados.</div>
+    <div><strong>Diseñador de correo electrónico</strong><br/>Aprenda a utilizar el Diseñador de correo electrónico para crear correos adaptables y personalizados.</div>
     </td>
     <td>
     <a href="channels/using/get-started-communication-channels.md"><img src="assets/do-not-localize/start-deliveries.jpeg"></a>
-    <div><strong>Canales de comunicaciones</strong><br/>Aprenda a enviar mensajes a través de varios canales, como correo electrónico, SMS o notificaciones push, entre otros.
+    <div><strong>Canales de comunicaciones</strong><br/>Aprenda a enviar mensajes a través de varios canales, como correo electrónico, SMS, notificaciones push, etc.
     </td>
     <td>
     <a href="automating/using/building-a-workflow.md"><img src="assets/do-not-localize/start-workflows.jpeg"></a>
@@ -67,17 +67,17 @@ Aprenda a compartir datos entre Campaign y Real-time Customer Data Platform (RTC
     </tr>
 </table>
 
-## Explorar la documentación
+## Explore la documentación
 
 <table style="table-layout:auto">
   <tr style="border: 0;">
     <td>
       <img src="assets/do-not-localize/icon-quick-start.svg" width="35px"><br/>
-      <strong>Experiencia del cliente</strong><br/><a href="sending/using/track-and-monitor.md">Supervisión de mensajes</a> - <a href="channels/using/getting-started-with-transactional-msg.md">Mensajería transaccional</a> - <a href="channels/using/getting-started-with-landing-pages.md">Páginas de aterrizaje</a> - <a href="reporting/using/about-dynamic-reports.md">Informes</a> - <a href="start/using/privacy-management.md">Privacidad</a>
+      <strong>Experiencia del cliente</strong><br/><a href="sending/using/track-and-monitor.md">Supervisión de mensajes</a> - <a href="channels/using/getting-started-with-transactional-msg.md">Mensajería transaccional</a> - <a href="channels/using/getting-started-with-landing-pages.md">Páginas de aterrizaje</a> - <a href="reporting/using/about-dynamic-reports.md">Creación de informes</a> - <a href="start/using/privacy-management.md">Privacidad</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-configure.svg" width="35px"><br/>
-      <strong>Configuración<br/>administración</strong><br/><a href="administration/using/about-channel-configuration.md">Configuración de canales</a> - <a href="administration/using/about-campaign-standard-settings.md">configuración del Campaign Standard</a>  - <a href="administration/using/about-access-management.md">Administración de acceso</a> - <a href="administration/using/monitoring-guidelines.md">Directrices de monitorización</a> - <a href="integrating/using/get-started-campaign-integrations.md">Integración de Campaign con otras soluciones</a>
+      <strong>Configuración<br/>administración</strong><br/><a href="administration/using/about-channel-configuration.md">Configuración de canales</a> - <a href="administration/using/about-campaign-standard-settings.md">configuración de Campaign Standard</a>  - <a href="administration/using/about-access-management.md">Administración de acceso</a> - <a href="administration/using/monitoring-guidelines.md">Directrices de monitorización</a> - <a href="integrating/using/get-started-campaign-integrations.md">Integración de Campaign con otras soluciones</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-campaign.svg" width="35px"><br/>
@@ -91,7 +91,7 @@ Aprenda a compartir datos entre Campaign y Real-time Customer Data Platform (RTC
     </td>
     <td>
       <img src="assets/do-not-localize/icon_profile-audience.svg" width="35px"><br/>
-      <strong>Perfiles y audiencias</strong><br/><a href="audiences/using/about-audiences.md">Audiencias</a> - <a href="audiences/using/about-profiles.md">Perfiles</a> - <a href="audiences/using/about-subscriptions.md">Suscripciones</a> - <a href="audiences/using/about-opt-in-and-opt-out-in-campaign.md">Inclusión y exclusión</a>
+      <strong>Perfiles y públicos</strong><br/><a href="audiences/using/about-audiences.md">Públicos</a> - <a href="audiences/using/about-profiles.md">Perfiles</a> - <a href="audiences/using/about-subscriptions.md">Suscripciones</a> - <a href="audiences/using/about-opt-in-and-opt-out-in-campaign.md">Inclusión y exclusión</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-data.svg" width="35px"><br/>
@@ -104,9 +104,9 @@ Aprenda a compartir datos entre Campaign y Real-time Customer Data Platform (RTC
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Páginas útiles</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es" target="_blank">Tutorials</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html" target="_blank">Descripción del producto</a> - <a href="rn/using/deprecated-features.md">Funciones en desuso y eliminadas</a> - <a href="rn/using/release-planning.md">Planificación de versiones</a>
+<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es" target="_blank">Tutoriales</a> - <a href="https://helpx.adobe.com/es/legal/product-descriptions/campaign-standard.html" target="_blank">Descripción del producto</a> - <a href="rn/using/deprecated-features.md">Funciones en desuso y eliminadas</a> - <a href="rn/using/release-planning.md">Planificación de versiones</a>
 </td>
 <td><strong>Recursos técnicos</strong><br/>
-<a href="integrating/using/about-adobe-experience-cloud-triggers.md">déclencheur de Experience Cloud</a> - <a href="api/using/get-started-apis.md">API de Campaign</a> - <a href="https://helpx.adobe.com/es/campaign/kb/acs-article-list.html" target="blank">Notas técnicas</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es" target="_blank">documentación del Panel de control de Campaign</a> - <a href="https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=es">Lista de mensajes de error</a>
+<a href="integrating/using/about-adobe-experience-cloud-triggers.md">Activadores de Experience Cloud</a> - <a href="api/using/get-started-apis.md">API de Campaign</a> - <a href="https://helpx.adobe.com/es/campaign/kb/acs-article-list.html" target="blank">Notas técnicas</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es" target="_blank">Documentación del Panel de control</a> - <a href="https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=es">Lista de mensajes de error</a>
 </td>
 </tr></table>
