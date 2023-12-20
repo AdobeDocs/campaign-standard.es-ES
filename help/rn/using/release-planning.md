@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: 311fdf000333c03cb3b21fc6fea786251ced045f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '472'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Todas las fechas de las versiones están sujetas a cambios: visite esta página 
 
 ## Versión 24.1: versión de invierno de 2024 {#release-24-1-release}
 
-Encontrará información detallada acerca de esta versión en la [Notas de versión](release-notes.md) una semana antes de que comience la actualización del entorno de ensayo.
+Encontrará información detallada acerca de esta versión en las [Notas de la versión](release-notes.md) una semana antes de que el entorno de ensayo actualice el inicio.
 
 <table>
  <thead>
@@ -39,11 +39,11 @@ Encontrará información detallada acerca de esta versión en la [Notas de versi
  <tbody>
   <tr>
    <td>Prueba </td>
-   <td>16 de enero a 13 de febrero de 2024 </td>
+   <td>16 de enero - 13 de febrero de 2024 </td>
   </tr>
   <tr>
    <td>Producción </td>
-   <td>23 de enero a 20 de febrero de 2024 </td>
+   <td>23 de enero - 20 de febrero de 2024 </td>
   </tr>
  </tbody>
 </table>
