@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 46c5454ad712910c88bfda7c067fda0337b043d9
-workflow-type: ht
-source-wordcount: '235'
-ht-degree: 100%
+source-git-commit: 602aca18af81625b9756a8f2020b5bc636199b96
+workflow-type: tm+mt
+source-wordcount: '112'
+ht-degree: 68%
 
 ---
 
@@ -23,7 +23,7 @@ Esta página describe las mejoras y correcciones incluidas en la próxima versi�
 >
 > Este contenido está sujeto a cambios sin previo aviso hasta la fecha de actualización de los entornos de ensayo. Obtenga más información en la [página de planificación de versiones](../../rn/using/release-planning.md).
 
-## Versión 23.2: versión de otoño/invierno de 2023 {#fall-23}
+## Versión 24.1: versión de invierno de 2024 {#winter-24}
 
 >[!AVAILABILITY]
 >
@@ -31,25 +31,9 @@ Esta página describe las mejoras y correcciones incluidas en la próxima versi�
 
 ### Mejoras {#e-rn-improvements}
 
-* **Integración con Adobe Experience Manager**. Al crear una plantilla de envío personalizada para mensajes transaccionales en Adobe Experience Manager, ahora puede seleccionar y utilizar los campos de personalización definidos en Campaign Standard en una lista desplegable.
+Adobe Campaign Standard 24.1 utiliza las API HTTP v1 para enviar mensajes de notificación push de Android a fin de garantizar la compatibilidad con los próximos cambios de FCM. Obtenga más información en [esta nota técnica](../../administration/using/push-technote.md).
 
-* **Caducidad de cookie**: la caducidad predeterminada de las cookies es ahora de 6 meses, para ajustarse a las recomendaciones de la agencia francesa de protección de datos (CNIL).
-
-* **Mejora de búsqueda de perfiles**: la búsqueda de perfiles se ha optimizado para reducir los escenarios de tiempo de espera de búsqueda
-
-* **Localización**: las traducciones del término &quot;audience&quot; al referirse a un grupo de perfiles destinados a recibir un mensaje se han armonizado en todos los productos de Digital Experience para los siguientes idiomas:
-
-   * Alemán: Zielgruppe
-   * Portugués brasileño: público-alvo
-   * Español: público destinatario
-
-  Estos cambios se implementarán gradualmente con las siguientes versiones de la interfaz de usuario y de la documentación.
-
-### Otros cambios {#e-rn-other-changes}
-
-* La mensajería transaccional ahora admite el uso de varias afinidades separadas por comas.
 
 ### Correcciones {#e-rn-fixes}
 
-* Se ha corregido una regresión que podría provocar problemas de rendimiento al utilizar flujos de trabajo grandes. (CAMP-53369)
-* Se ha corregido un problema que impedía que funcionara el vínculo de correo electrónico en una alerta o notificación de flujo de trabajo. (CAMP-51874)
+* Se ha corregido un problema que detenía el flujo de trabajo de Alerta de entrega con el siguiente error: `division by zero`. (CAMP-49786)
