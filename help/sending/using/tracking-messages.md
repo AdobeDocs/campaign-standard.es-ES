@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: fac29bc2-57fa-40f9-a160-cd75f695b91e
 source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 38%
+source-wordcount: '475'
+ht-degree: 34%
 
 ---
 
@@ -54,18 +54,18 @@ El seguimiento con Adobe Campaign Standard le permite acceder a las siguientes f
 <td>Seguimiento de correo electrónico</td>
 <td>Seguimiento push</td>
 <td>Direcciones URL rastreadas</td>
-<td>Registros de seguimiento</td>
+<td>“Logs” de seguimiento</td>
 <td>Informe de seguimiento</td>
 </tr>
 </table>
 
-## Registros de seguimiento {#tracking-logs}
+## “Logs” de seguimiento {#tracking-logs}
 
 La pestaña **[!UICONTROL Tracking logs]** enumera el historial de seguimiento de esta entrega. Esta pestaña muestra la información de seguimiento de los mensajes enviados, como todas las direcciones URL de las que Adobe Campaign ha realizado un seguimiento. La información de seguimiento de esta pestaña se actualiza cada 10 minutos.
 
 >[!NOTE]
 >
->Si el seguimiento no está habilitado para un envío, no se muestra esta pestaña. Los registros de seguimiento están disponibles para **email** y **notificación push** solo canales.
+>Si el seguimiento no está habilitado para una entrega, esta pestaña no se muestra. Los registros de seguimiento están disponibles para **email** y **notificación push** solo canales.
 
 ![](assets/tracking_logs.png)
 

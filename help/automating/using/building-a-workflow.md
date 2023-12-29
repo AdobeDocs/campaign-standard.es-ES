@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 7553588c-4679-4dfd-93cb-e705ad4dc0aa
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '981'
-ht-degree: 96%
+source-wordcount: '976'
+ht-degree: 91%
 
 ---
 
@@ -68,7 +68,7 @@ La creación de una actividad de marketing se detalla en la sección [Creación 
 
 1. Confirme la creación de la actividad y, entonces, se mostrará el panel de dicha actividad. Para obtener más información, consulte la sección [Interfaz de flujo de trabajo](../../automating/using/workflow-interface.md).
 
-1. Una vez que el flujo de trabajo esté listo para configurarse, puede acceder a opciones adicionales haciendo clic en el botón **[!UICONTROL Edit properties]**.
+1. Cuando el flujo de trabajo esté listo para configurarse, puede acceder a opciones adicionales haciendo clic en **[!UICONTROL Edit properties]** botón.
 
    Por ejemplo, puede definir un huso horario específico para utilizarlo de forma predeterminada en todas las actividades del flujo de trabajo. De forma predeterminada, el uso horario del flujo de trabajo es la definida para el operador de Campaign actual.
 
@@ -118,7 +118,7 @@ Además, las actividades **[!UICONTROL Targeting]** y **[!UICONTROL Data managem
 * [Caso de uso: Creación de una entrega de correo electrónico una vez a la semana](../../automating/using/workflow-weekly-offer.md)
 * [Caso de uso: Creación de una entrega segmentada en una ubicación](../../automating/using/workflow-segmentation-location.md)
 * [Caso de uso: Creación de entregas con un complemento](../../automating/using/workflow-created-query-with-complement.md)
-* [Caso de uso: Flujo de trabajo de redireccionamiento que envía una nueva entrega a receptores que no abran el correo](../../automating/using/workflow-cross-channel-retargeting.md)
+* [Caso de uso: Flujo de trabajo de redireccionamiento que envía una nueva entrega a receptores que no abran el mensaje](../../automating/using/workflow-cross-channel-retargeting.md)
 
 ## Configuración de actividades {#configuring-activities}
 

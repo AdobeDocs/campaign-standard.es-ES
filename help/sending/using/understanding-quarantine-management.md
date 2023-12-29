@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
 source-git-commit: eec8c66d4947e04cd0eb3dcf0f09d395d9db68b9
 workflow-type: tm+mt
-source-wordcount: '1429'
-ht-degree: 66%
+source-wordcount: '1442'
+ht-degree: 64%
 
 ---
 
@@ -41,13 +41,13 @@ La cuarentena y la inclusión en la lista de bloqueados no se aplican al mismo o
 
   Las direcciones en cuarentena o los números de teléfono se muestran en los [registros de exclusión](#identifying-quarantined-addresses-for-a-delivery) (para una entrega) o en la [lista de cuarentena](#identifying-quarantined-addresses-for-the-entire-platform) (para toda la plataforma).
 
-* Al incluirse en la **lista de bloqueados**, no obstante, el **perfil** ya no se tendrá en cuenta en las entregas, por ejemplo, tras una baja (exclusión) de un canal determinado. Por ejemplo, si un perfil incluido en la lista de bloqueados del canal de correo electrónico tiene dos direcciones de correo electrónico, ambas se excluirán de la entrega. Para obtener más información sobre el proceso de lista de bloqueados de la, consulte [Acerca de la inclusión y la exclusión en Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+* Al incluirse en la **lista de bloqueados**, no obstante, el **perfil** ya no se tendrá en cuenta en las entregas, por ejemplo, tras una baja (exclusión) de un canal determinado. Por ejemplo, si un perfil de la lista de bloqueados de la para el canal de correo electrónico tiene dos direcciones de correo electrónico, ambas se excluirán de la entrega. Para obtener más información sobre el proceso de lista de bloqueados de la, consulte [Acerca de la inclusión y la exclusión en Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
-  Puede comprobar si un perfil está en la lista de bloqueados de la para uno o más canales en la **[!UICONTROL No longer contact (on denylist)]** de la sección del perfil **[!UICONTROL General]** pestaña. Consulte [esta sección](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile).
+  Puede comprobar si un perfil está en la lista de bloqueados de uno o más canales en la sección **[!UICONTROL No longer contact (on denylist)]** de la pestaña **[!UICONTROL General]** del perfil. Consulte [esta sección](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile).
 
 >[!NOTE]
 >
->La cuarentena incluye un **En la lista de bloqueados** estado, que se aplica cuando los destinatarios informan el mensaje como correo no deseado o responden a un mensaje SMS con la palabra clave como &quot;DETENER&quot;. En ese caso, la dirección o el número de teléfono del perfil se envían a cuarentena con el **[!UICONTROL On denylist]** estado. Para obtener más información sobre la administración de SMS de detención, consulte [esta sección](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
+>La cuarentena incluye un **En la lista de bloqueados** estado, que se aplica cuando los destinatarios informan el mensaje como correo no deseado o responden a un mensaje SMS con la palabra clave como &quot;DETENER&quot;. En ese caso, la dirección o el número de teléfono del perfil se envían a cuarentena con el estado **[!UICONTROL On denylist]**. Para obtener más información sobre la administración de SMS de detención, consulte [esta sección](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 
 &lt;!: Cuando un usuario responde a un mensaje SMS con una palabra clave como STOP para impedir la exclusión de entregas SMS, su perfil no se añade a la lista de bloqueados de la exclusión de correo electrónico en el proceso de exclusión de correo electrónico. En su lugar, el número de teléfono del perfil se envía a cuarentena con el **[!UICONTROL On denylist]** estado. Este estado hace referencia únicamente al número de teléfono, lo que significa que el perfil seguirá recibiendo mensajes de correo electrónico.<!-- Also, if the profile has another phone number, he can still receive SMS messages on the other number. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).-->
 
@@ -101,7 +101,7 @@ Defina la dirección (o el número de teléfono, etc.) y tipo de canal. Puede es
 
 ### Actualizaciones automáticas {#unquarantine-auto}
 
-Las direcciones que cumplen condiciones específicas son automáticamente eliminadas de la lista de cuarentena por el flujo de trabajo de limpieza de la base de datos. Para obtener más información sobre los flujos de trabajo técnicos, consulte [esta sección](../../administration/using/technical-workflows.md#list-of-technical-workflows).
+El flujo de trabajo Limpieza de la base de datos elimina automáticamente de la lista de cuarentena las direcciones que cumplan condiciones específicas. Para obtener más información sobre los flujos de trabajo técnicos, consulte [esta sección](../../administration/using/technical-workflows.md#list-of-technical-workflows).
 
 Las direcciones se eliminan automáticamente de la lista de cuarentena en los siguientes casos:
 
@@ -181,4 +181,4 @@ Los reintentos se realizarán durante la [duración de la entrega](../../adminis
 <!--In the default configuration, the threshold is set at five errors, where two errors are significant if they occur at least 24 hours apart. The address is placed in quarantine at the fifth error.
 The error counter threshold can be modified.-->
 
-El contador de errores se reinicia si el último error significativo se produjo hace más de 10 días. El estado de la dirección cambia a **válido** y se elimina de la lista de cuarentena mediante el flujo de trabajo de **Limpieza de la base de datos.** (Para obtener más información sobre flujos de trabajo técnicos, consulte [esta sección](../../administration/using/technical-workflows.md#list-of-technical-workflows).)
+El contador de errores se reinicia si el último error significativo se produjo hace más de 10 días. El estado de la dirección cambia a **Válido** y se elimina de la lista de cuarentenas por el **Database cleanup** flujo de trabajo. (Para obtener más información sobre flujos de trabajo técnicos, consulte [esta sección](../../administration/using/technical-workflows.md#list-of-technical-workflows).)

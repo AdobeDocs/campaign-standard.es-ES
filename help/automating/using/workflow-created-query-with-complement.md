@@ -12,7 +12,7 @@ exl-id: 5cd71e07-f955-4c15-bdfb-14b0daccec1a
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 41%
+ht-degree: 39%
 
 ---
 
@@ -51,7 +51,7 @@ Puede enviar un correo electrónico a los clientes: uno para los clientes creado
 >
 >Para observar la estructura de la regla, haga clic en **[!UICONTROL Advanced Mode]**.
 
-## Creación de una entrega de correo electrónico {#create-an-email-delivery}
+## Creación de una entrega por correo electrónico {#create-an-email-delivery}
 
 1. Entrada **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, arrastre y suelte un [Envío de correo electrónico](../../automating/using/email-delivery.md) actividad después de cada segmento.
 1. Haga clic en la actividad y seleccione ![](assets/edit_darkgrey-24px.png) para editarla.

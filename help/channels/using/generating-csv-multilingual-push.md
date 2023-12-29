@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: bd9ec3f9-e047-42dc-ab64-9fb274cb4656
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1016'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ La funcionalidad push multilingüe requiere 14 columnas en el archivo CSV:
 1. isMutableContent
 1. customFields
 1. locale
-1. language
+1. idioma
 1. quietPush
 
 Compruebe el ejemplo de CSV haciendo clic en **[!UICONTROL Download a sample file]** en el **[!UICONTROL Manage Content Variants]** ventana. Para obtener más información, consulte esta [sección](../../channels/using/creating-a-multilingual-push-notification.md).
@@ -98,7 +98,7 @@ En el intervalo hay dos atributos obligatorios:
 
 Se admiten los siguientes idiomas:
 
-| locale | language |
+| locale | idioma |
 |:-:|:-:|
 | af_za | Afrikáans (Sudáfrica) |
 | sq_al | Albanés (Albania) |

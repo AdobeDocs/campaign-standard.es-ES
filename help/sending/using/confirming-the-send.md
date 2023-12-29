@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 66%
+source-wordcount: '947'
+ht-degree: 64%
 
 ---
 
@@ -50,7 +50,7 @@ Si utiliza un envío recurrente sin período de acumulación, puede solicitar co
 
 ## Comprender los indicadores de mensajes {#message-indicators}
 
-Una vez que el mensaje se envía a los contactos, la zona **[!UICONTROL Deployment]** muestra los datos de KPI (indicador de rendimiento clave), que incluye la siguiente información:
+Una vez enviado el mensaje a los contactos, la variable **[!UICONTROL Deployment]** La zona de muestra los datos de KPI (indicador de rendimiento clave), que incluye:
 
 * El número de mensajes que enviar
 * El número de mensajes enviados
@@ -148,7 +148,7 @@ Las siguientes tablas muestran los cambios en los KPI y los estados de envío de
 
 | Paso en el proceso de envío | Resumen de KPI | Estado de envío de registros |
 |--- |--- |--- |
-| El mensaje se retransmite correctamente desde Campaign al servidor de correo mejorado | <ul><li>El porcentaje de **[!UICONTROL Delivered]** comienza en 100 %</li><li>El porcentaje de **[!UICONTROL Bounces + errors]** comienza en 0 %</li></ul> | Enviado |
+| El mensaje se retransmite correctamente desde Campaign al servidor de correo mejorado | <ul><li>El porcentaje de **[!UICONTROL Delivered]** comienza en 100 %</li><li>El porcentaje de **[!UICONTROL Bounces + errors]** comienza en 0%</li></ul> | Enviado |
 | Los mensajes de devolución dura se informan desde el servidor de correo mejorado | <ul><li>El porcentaje de **[!UICONTROL Delivered]** baja en consecuencia</li><li>El porcentaje de **[!UICONTROL Bounces + errors]** sube en consecuencia</li></ul> | Error |
 | Los mensajes de devolución suave se informan desde el servidor de correo mejorado | <ul><li>No hay cambios en el porcentaje de **[!UICONTROL Delivered]**</li><li>No hay cambios en el porcentaje de **[!UICONTROL Bounces + errors]**</li></ul> | Enviado |
 | Los reintentos de mensajes de devolución suave se realizan correctamente | <ul><li>No hay cambios en el porcentaje de **[!UICONTROL Delivered]**</li><li>No hay cambios en el porcentaje de **[!UICONTROL Bounces + errors]**</li></ul> | Enviado |

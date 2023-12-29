@@ -9,8 +9,8 @@ level: Experienced
 exl-id: b05dc67a-6447-4d22-99f2-8a14a0ee46d2
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 33%
+source-wordcount: '228'
+ht-degree: 31%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 33%
                   <td> </td>
                </tr>
                <tr>
-                  <td>Actividades</td>
+                  <td>actividades</td>
                   <td>Actividades</td>
                   <td>colección </td>
                   <td> </td>
@@ -46,7 +46,7 @@ ht-degree: 33%
                <tr>
                   <td>created</td>
                   <td>Creado</td>
-                  <td>date </td>
+                  <td>fecha </td>
                   <td> </td>
                </tr>
                <tr>
@@ -64,7 +64,7 @@ ht-degree: 33%
                <tr>
                   <td>fin</td>
                   <td>Fecha de finalización</td>
-                  <td>date </td>
+                  <td>fecha </td>
                   <td> </td>
                </tr>
                <tr>
@@ -86,7 +86,7 @@ ht-degree: 33%
                   <td> </td>
                </tr>
                <tr>
-                  <td>label</td>
+                  <td>etiqueta</td>
                   <td>Etiqueta</td>
                   <td>cadena (128)</td>
                   <td> </td>
@@ -94,7 +94,7 @@ ht-degree: 33%
                <tr>
                   <td>lastModified</td>
                   <td>Última modificación</td>
-                  <td>date </td>
+                  <td>fecha </td>
                   <td> </td>
                </tr>
                <tr>
@@ -120,7 +120,7 @@ ht-degree: 33%
                </tr>
                <tr>
                   <td>name</td>
-                  <td>ID</td>
+                  <td>Identificación</td>
                   <td>cadena (64)</td>
                   <td> </td>
                </tr>
@@ -145,7 +145,7 @@ ht-degree: 33%
                <tr>
                   <td>start</td>
                   <td>Fecha de inicio</td>
-                  <td>date </td>
+                  <td>fecha </td>
                   <td> </td>
                </tr>
                <tr>
@@ -218,7 +218,7 @@ Por período (por período)
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>fecha</td>
     </tr>
     <tr>
     <td>timePeriod</td>
@@ -260,7 +260,7 @@ Solo los padres elegibles (EligibleParents)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>Programa de </td>
+    <td>programa</td>
     <td>vincular</td>
     </tr>
 </table>
@@ -274,11 +274,11 @@ Planificado para el período determinado (por planificación)
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>fecha</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>fecha</td>
     </tr>
 </table>
 
@@ -291,10 +291,10 @@ Presente durante un período determinado (por calendario)
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>fecha</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>fecha</td>
     </tr>
 </table>

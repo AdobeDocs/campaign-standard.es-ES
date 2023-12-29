@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: b0d063de-863c-42e7-98dd-c4c86da3281e
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 29%
+source-wordcount: '790'
+ht-degree: 26%
 
 ---
 
@@ -80,4 +80,4 @@ La sincronización entre Adobe Campaign y el servicio principal Personas tarda d
 **Temas relacionados:**
 
 * [Flujos de trabajo](../../automating/using/get-started-workflows.md)
-* [Públicos-alvo](../../audiences/using/about-audiences.md)
+* [Públicos](../../audiences/using/about-audiences.md)

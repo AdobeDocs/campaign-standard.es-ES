@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 70%
+source-wordcount: '1039'
+ht-degree: 67%
 
 ---
 
@@ -74,7 +74,7 @@ Obtenga información sobre cómo insertar un vínculo de no participación [en e
 
 ### Tamaño del correo electrónico {#email-size}
 
-Para evitar problemas de rendimiento o de entrega, el tamaño máximo recomendado de un correo electrónico es de unos **35 KB**.
+Para evitar problemas de rendimiento o de envío, el tamaño máximo recomendado de un correo electrónico es de **35 KB**.
 
 Para mantener el correo electrónico por debajo del límite, haga lo siguiente:
 
@@ -117,7 +117,7 @@ El diseño interactivo garantiza que un correo electrónico se represente de for
 
 * Utilice HTML de correo electrónico interactivo en lugar de HTML web
 
-* Utilice el modo de vista previa y envíe pruebas para probar el diseño en tantos dispositivos como sea posible. Obtenga información sobre cómo [mensaje de previsualización](../../sending/using/previewing-messages.md) antes de enviar.
+* Utilice el modo de vista previa y envíe pruebas para probar el procesamiento en tantos dispositivos como sea posible. Obtenga información sobre cómo [mensaje de previsualización](../../sending/using/previewing-messages.md) antes de enviar.
 
 * El Diseñador de correo electrónico de Campaign incluye plantillas con formato de diseño interactivo para dispositivos móviles. Obtenga más información [en esta página](../../designing/using/using-reusable-content.md#content-templates).
 

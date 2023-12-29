@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 12fe13c2-899d-4c85-8381-ba812ff26f54
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 74%
+source-wordcount: '652'
+ht-degree: 70%
 
 ---
 
@@ -26,7 +26,7 @@ A continuación se detallan los pasos para publicar, pausar, cancelar la publica
 >
 >Solo los usuarios con [Administration](../../administration/using/users-management.md#functional-administrators) La función puede acceder y publicar mensajes transaccionales.
 
-## Proceso de publicación de mensajes transaccionales {#transactional-messaging-pub-process}
+## Proceso de publicación de mensajería transaccional {#transactional-messaging-pub-process}
 
 El gráfico siguiente ilustra el proceso general de publicación de mensajes transaccionales.
 
@@ -35,7 +35,7 @@ El gráfico siguiente ilustra el proceso general de publicación de mensajes tra
 **Temas relacionados:**
 * [Publicación de un mensaje transaccional](#publishing-a-transactional-message)
 * [Pausa de un mensaje transaccional](#suspending-a-transactional-message-publication)
-* [Cancelación de la publicación de un mensaje transaccional](#unpublishing-a-transactional-message)
+* [Cancelar la publicación de un mensaje transaccional](#unpublishing-a-transactional-message)
 * [Publicación de un evento](../../channels/using/publishing-transactional-event.md)
 
 <!--## Testing a transactional message {#testing-a-transactional-message}
@@ -113,7 +113,7 @@ Los eventos en cola se mantienen durante un período de tiempo definido en la AP
 
 Al hacer clic en **[!UICONTROL Resume]**, se procesan todos los eventos en cola (siempre que no hayan caducado). Ahora contienen todas las modificaciones realizadas durante la suspensión de la publicación de la plantilla.
 
-## Cancelación de la publicación de un mensaje transaccional {#unpublishing-a-transactional-message}
+## Cancelar la publicación de un mensaje transaccional {#unpublishing-a-transactional-message}
 
 Al hacer clic en **[!UICONTROL Unpublish]** se puede cancelar la publicación del mensaje transaccional, pero también la publicación del evento correspondiente, que elimina de la API de REST el recurso correspondiente al evento que ha creado anteriormente.
 

@@ -10,8 +10,8 @@ level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
 source-git-commit: 7ca7e9bd9541a4db708565e65e2ff87e44393238
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 3%
+source-wordcount: '384'
+ht-degree: 11%
 
 ---
 
@@ -29,7 +29,7 @@ El acceso a la API de Adobe Campaign Standard se configura mediante los pasos si
 
    >[!AVAILABILITY]
    >
-   >JWT (JSON Web Tokens) está actualmente en proceso de depreciación y se está reemplazando con OAuth. La transición se está llevando a cabo de forma progresiva dentro de las próximas versiones de Campaign y la documentación se actualizará para reflejar estas actualizaciones.
+   >JWT (JSON Web Tokens) está actualmente en desuso y se está reemplazando por OAuth. La transición se está llevando a cabo de forma progresiva dentro de las próximas versiones de Campaign y la documentación se actualizará para reflejar estas actualizaciones.
 
 1. **Intercambio del JWT por un token de acceso** a través de una solicitud de POST. Este token de acceso deberá utilizarse en cada encabezado de sus solicitudes de API.
 

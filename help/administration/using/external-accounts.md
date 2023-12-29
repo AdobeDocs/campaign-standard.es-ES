@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1764'
-ht-degree: 80%
+source-wordcount: '1720'
+ht-degree: 78%
 
 ---
 
@@ -62,7 +62,7 @@ Para una cuenta externa SFTP, proporcione los siguientes detalles:
 * Número de puerto. Por ejemplo, **22**.
 * Credenciales del servidor SFTP: nombre y contraseña de la cuenta utilizados para conectarse al servidor.
 
-### Recomendaciones de servidor SFTP alojado por Adobe {#adobe-hosted-sftp-server-recommendations}
+### Recomendaciones de servidor SFTP alojado en el Adobe {#adobe-hosted-sftp-server-recommendations}
 
 Al administrar archivos y datos para fines de ETL, estos archivos se almacenan en un servidor SFTP alojado proporcionado por Adobe. Este SFTP está diseñado para ser un espacio de almacenamiento temporal en el que se puede controlar la retención y eliminación de archivos.
 
@@ -169,7 +169,7 @@ Para una cuenta externa de Google reCAPTCHA V3, proporcione los siguientes detal
 
 ![](assets/external_accounts_3.png)
 
-## Cuenta externa del almacenamiento de blob de Microsoft Azure {#microsoft-azure-external-account}
+## Cuenta externa del almacenamiento del blob de Microsoft Azure {#microsoft-azure-external-account}
 
 >[!NOTE]
 >

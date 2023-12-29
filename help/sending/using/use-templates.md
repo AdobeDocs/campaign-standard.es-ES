@@ -4,7 +4,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: "Las plantillas de envíos ofrecen una mayor eficiencia al proporcionar escenarios listos para usar para los tipos de actividades más comunes."
+description: '"Las plantillas de envío ofrecen una mayor eficiencia al proporcionar escenarios listos para usar para los tipos de actividades más comunes".'
 feature: Deliverability
 role: User
 level: Intermediate
@@ -12,7 +12,7 @@ exl-id: ca134a7f-9035-4885-b4cb-1170b6ec10cc
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '815'
-ht-degree: 59%
+ht-degree: 57%
 
 ---
 

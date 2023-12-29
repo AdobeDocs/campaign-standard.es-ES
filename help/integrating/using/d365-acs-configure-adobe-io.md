@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82
 source-git-commit: c701043cbba22711de1ea7ddc5266e193d771e14
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 1%
+source-wordcount: '568'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ Habilite las &quot;extensiones de perfil&quot; en Adobe Campaign Standard.   Est
 1. Haga clic en &quot;Preparar publicación&quot; para preparar una publicación.
 1. Una vez finalizada la preparación, marque &quot;Crear la API de salida de perfiles y servicios&quot; y haga clic en &quot;Publicar&quot;.
 
-## Configuración de Adobe I/O {#adobe-io}
+## Configuración del Adobe I/O {#adobe-io}
 
 El Adobe I/O le permite habilitar el acceso de API a Adobe Campaign Standard, así como a otros productos de Adobe.   Este artículo detallará cómo configurar el Adobe I/O para proporcionar a la integración de Adobe Campaign Standard con Microsoft Dynamics 365 acceso para sincronizar los datos.
 

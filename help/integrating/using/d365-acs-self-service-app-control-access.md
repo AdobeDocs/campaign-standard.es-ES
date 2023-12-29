@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 44b59f56-99be-41ae-af8d-76272bb94d18
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 1%
+source-wordcount: '415'
+ht-degree: 0%
 
 ---
 
@@ -80,7 +80,7 @@ Desde el **[!UICONTROL Products]**  , seleccione la instancia de Campaign y siga
 
    ![](assets/do-not-localize/d365-to-acs-access-15.png)
 
-1. Haga clic en la pestaña **[!UICONTROL Developers]**. 
+1. Haga clic en **[!UICONTROL Developers]** pestaña.
 
    ![](assets/do-not-localize/d365-to-acs-access-18.png)
 

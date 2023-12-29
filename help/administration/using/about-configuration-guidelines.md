@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 88684ed6-6d8d-4691-987f-812e7e1d834c
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 13%
+source-wordcount: '119'
+ht-degree: 7%
 
 ---
 
@@ -30,12 +30,12 @@ Esta es la lista de exploradores compatibles con Adobe Campaign Standard:
 * Safari (versión más reciente)
 * Microsoft Edge (versión más reciente)
 
-**Tableta:**
+**Comprimido:**
 
 * iOS (versión 7 y posterior)
 * Android (versión 4.4 y posterior)
 
-## Puntos finales de red de Campaign Standard {#campaign-standard-network-endpoints}
+## extremos de red de Campaign Standard {#campaign-standard-network-endpoints}
 
 Estos son los diferentes extremos utilizados en Campaign Standard.
 

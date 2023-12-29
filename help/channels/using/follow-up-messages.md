@@ -43,7 +43,7 @@ Para gestionar un evento en un flujo de trabajo, se requiere una plantilla de en
 Para acceder a esta plantilla:
 
 1. Haga clic en **Adobe** en la esquina superior izquierda.
-1. Seleccione **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
+1. Seleccionar **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Compruebe la **[!UICONTROL Follow-up messages]** en el panel izquierdo.
 
    ![](assets/message-center_follow-up-search.png)

@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: c7854b7b-f955-47ce-99d6-86b3186fd297
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 99%
+source-wordcount: '915'
+ht-degree: 93%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 99%
 
 La actividad **[!UICONTROL Direct mail delivery]** le permite configurar y preparar un archivo que contenga datos de perfil que desee utilizar para una campaña de correo postal. Puede ser un correo postal que se utiliza una sola vez o uno recurrente.
 
-* **Los mensajes de correo postal estándar se envían una vez.**
-* **Los mensajes recurrentes le permiten enviar el mismo correo postal varias veces a diferentes destinatarios durante un periodo definido.** Puede acumular los envíos por periodo para obtener informes que se correspondan con sus necesidades.
+* **Standard** los mensajes de correo postal se envían una vez.
+* **Recurrente** los correos electrónicos le permiten enviar el mismo correo postal varias veces a diferentes destinatarios durante un periodo definido. Puede acumular los envíos por periodo para obtener informes que se correspondan con sus necesidades.
 
 ## Contexto de uso {#context-of-use}
 

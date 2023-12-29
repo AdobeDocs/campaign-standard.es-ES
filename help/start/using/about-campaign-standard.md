@@ -10,8 +10,8 @@ level: Beginner
 exl-id: b62c70fe-c838-4a0e-9b0a-2e916a06ff39
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 100%
+source-wordcount: '778'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Campaign Standard es una potente herramienta de administración de campañ
 
 Controle todo el proceso de creación, ejecución y seguimiento de campaña en canales múltiples y envíe mensajes personalizados según el perfil, el comportamiento, las preferencias y las necesidades de los clientes. Puede orquestar, modelizar y automatizar fácilmente todo el proceso de marketing e integrarlo con otras soluciones de Adobe.
 
-## Aumento de la base de datos de marketing {#grow-database}
+## Ampliación de la base de datos de marketing {#grow-database}
 
 <img width="60px" alt="condiciones" src="assets/icon_segment.svg"/>
 
@@ -33,9 +33,9 @@ Controle todo el proceso de creación, ejecución y seguimiento de campaña en c
 
 **Enriquezca la base de datos** con varias funcionalidades: los flujos de trabajo, las páginas de aterrizaje o las API, o Microsoft Dynamics 365.
 
-[Introducción a perfiles y audiencias](../../audiences/using/get-started-profiles-and-audiences.md)
+[Introducción a perfiles y públicos](../../audiences/using/get-started-profiles-and-audiences.md)
 
-## Orquestación de campaña de marketing en canales múltiples {#orchestrate-campaigns}
+## Organización de campañas de marketing multicanal {#orchestrate-campaigns}
 
 <img width="60px" alt="condiciones" src="assets/icon_workflows.svg"/>
 
@@ -57,7 +57,7 @@ Diseñe y envíe mensajes en canales de comunicación en línea y sin conexión,
 
 **Analice y verifique el contenido de sus mensajes** antes de enviarlos, utilizando varias funciones de prueba como previsualización, pruebas, ensayos de línea de asunto de correos electrónicos, procesamiento de correo electrónico, etc. Asegúrese de que los mensajes se envíen en el momento adecuado optimizando la hora de envío (programación, administración del huso horario). [Introducción a las pruebas y envíos de mensajes](../../sending/using/get-started-sending-messages.md)
 
-## Rastreo del impacto de las campañas {#track-impact-campaigns}
+## Seguimiento del impacto de las campañas {#track-impact-campaigns}
 
 <img width="60px" alt="condiciones" src="assets/icon_report.svg"/>
 

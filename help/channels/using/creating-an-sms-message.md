@@ -11,8 +11,8 @@ level: Beginner
 exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 89%
+source-wordcount: '554'
+ht-degree: 87%
 
 ---
 
@@ -22,7 +22,7 @@ Crear un envío SMS es muy similar a crear un correo electrónico normal. Los pa
 
 Los parámetros avanzados de SMS se detallan en la sección de [configuración de SMS](../../administration/using/configuring-sms-channel.md).
 
-![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
+![](assets/do-not-localize/how-to-video.png) [Descubra esta funcionalidad en vídeo](#video)
 
 Para crear y enviar mensajes SMS a un teléfono móvil, necesita:
 
@@ -82,7 +82,7 @@ Una vez finalizado el envío, puede empezar a medir el impacto del mensaje con i
 
 **Temas relacionados:**
 
-* [Acerca de la modificación del contenido push y SMS](../../channels/using/about-sms-and-push-content-design.md)
+* [Acerca de la edición de contenido push y SMS](../../channels/using/about-sms-and-push-content-design.md)
 * [Administración de plantillas](../../start/using/marketing-activity-templates.md)
 
 ## Tutorial en vídeo {#video}

@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 90%
+source-wordcount: '466'
+ht-degree: 91%
 
 ---
 
@@ -34,7 +34,7 @@ El diagrama siguiente detalla cómo funciona esta integración.
 * Vea los [mensajes de remarketing de activador basados en el vídeo de Actividad del sitio](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
 * Descubra nuestros dos [ejemplos prácticos de activadores de abandono](../../integrating/using/abandonment-triggers-use-cases.md).
 
-## Activa el proceso de usuario {#triggers-user-process}
+## Proceso de usuario de Déclencheur {#triggers-user-process}
 
 >[!CAUTION]
 >
@@ -57,7 +57,7 @@ Estas son algunas notas importantes que deben tenerse en cuenta antes de utiliza
 * Las notificaciones push no son compatibles con los activadores. Solo se admiten mensajes de correo electrónico y SMS.
 * Puede enriquecer el activador con metadatos capturados a través de Analytics, como ID de correo electrónico, nombre de página, etc.
 * Puede reconciliar el activador con un perfil almacenado en Campaign Standard y utilizar los campos del perfil para personalizar el mensaje.
-* En cuanto se recibe un activador, se procesa, se concilia y se envía. Tarda entre 5 y 15 minutos en función del volumen de activadores recibidos y el número de campos de personalización utilizados en la plantilla.
+* En cuanto se recibe un activador, se procesa, se reconcilia y se envía. Tarda entre 5 y 15 minutos en función del volumen de activadores recibidos y el número de campos de personalización utilizados en la plantilla.
 
 >[!NOTE]
 >

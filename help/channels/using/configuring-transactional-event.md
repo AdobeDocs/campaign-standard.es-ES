@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
 source-git-commit: fc6788bf62fa66bd43b3e50fb9bc676ccb466078
 workflow-type: tm+mt
-source-wordcount: '1705'
-ht-degree: 6%
+source-wordcount: '1709'
+ht-degree: 3%
 
 ---
 
@@ -146,7 +146,7 @@ Una vez publicados el evento y el mensaje, este vínculo le permite enriquecer e
 **Temas relacionados:**
 
 * [Previsualización y publicación del evento](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
-* [Personalización de un mensaje transaccional](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)
+* [Personalizar un mensaje transaccional](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)
 * [Publicación de un mensaje transaccional](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
 
 ## Búsqueda de eventos transaccionales {#searching-transactional-events}
@@ -181,7 +181,7 @@ Para enviar un mensaje transaccional basado en eventos, primero debe crear y con
 
 1. Al crear la configuración de evento, seleccione **[!UICONTROL Real-time event]** dimensión objetivo (consulte [Creación de un evento](#creating-an-event)).
 1. Añada campos al evento para poder personalizar el mensaje transaccional (consulte [Definición de los atributos del evento](#defining-the-event-attributes)).
-1. Se supone que la mensajería transaccional basada en eventos utiliza solamente los datos que se encuentran en el evento enviado para definir el destinatario y la personalización del contenido del mensaje.
+1. Se supone que la mensajería transaccional basada en eventos utiliza solo los datos que se encuentran en el evento enviado para definir el destinatario y la personalización del contenido del mensaje.
 
    Sin embargo, si desea utilizar información adicional de la base de datos de Adobe Campaign, puede enriquecer el contenido del mensaje transaccional (consulte [Enriquecimiento del contenido de mensajes transaccionales](#enriching-the-transactional-message-content)).
 
@@ -193,7 +193,7 @@ Para enviar un mensaje transaccional basado en eventos, primero debe crear y con
 
 1. Integre el evento en su sitio web (consulte [Integración del activador del evento](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)).
 
-### Mensajes transaccionales basados en perfil {#profile-based-transactional-messages}
+### Mensajes transaccionales basados en perfiles {#profile-based-transactional-messages}
 
 Puede enviar mensajes transaccionales en función de los perfiles del cliente, lo que le permite aplicar reglas de tipología de marketing, incluir el vínculo de cancelación de suscripción, añadir el mensaje a los informes de envío globales y aprovecharlo en el recorrido del cliente.
 

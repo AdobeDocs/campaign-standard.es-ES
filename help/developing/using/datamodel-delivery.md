@@ -9,8 +9,8 @@ level: Experienced
 exl-id: aea3e72d-8e89-46c7-a796-bf856414c654
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 29%
+source-wordcount: '725'
+ht-degree: 27%
 
 ---
 
@@ -142,7 +142,7 @@ ht-degree: 29%
                <tr>
                   <td>created</td>
                   <td>Creado</td>
-                  <td>date </td>
+                  <td>fecha </td>
                   <td> </td>
                </tr>
                <tr>
@@ -296,7 +296,7 @@ ht-degree: 29%
                   <td> </td>
                </tr>
                <tr>
-                  <td>label</td>
+                  <td>etiqueta</td>
                   <td>Etiqueta</td>
                   <td>cadena (128)</td>
                   <td> </td>
@@ -304,7 +304,7 @@ ht-degree: 29%
                <tr>
                   <td>lastModified</td>
                   <td>Última modificación</td>
-                  <td>date </td>
+                  <td>fecha </td>
                   <td> </td>
                </tr>
                <tr>
@@ -331,7 +331,7 @@ ht-degree: 29%
                <tr>
                   <td>mainDate</td>
                   <td>Fecha</td>
-                  <td>date </td>
+                  <td>fecha </td>
                   <td> </td>
                </tr>
                <tr>
@@ -377,7 +377,7 @@ ht-degree: 29%
                </tr>
                <tr>
                   <td>name</td>
-                  <td>ID</td>
+                  <td>Identificación</td>
                   <td>cadena (64)</td>
                   <td> </td>
                </tr>
@@ -537,7 +537,7 @@ ht-degree: 29%
                </tr>
                <tr>
                   <td>trackingLogs</td>
-                  <td>Registros de seguimiento</td>
+                  <td>“Logs” de seguimiento</td>
                   <td>colección </td>
                   <td> </td>
                </tr>
@@ -662,7 +662,7 @@ Por período (byStartPeriod)
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>fecha</td>
     </tr>
     <tr>
     <td>timePeriod</td>
@@ -757,11 +757,11 @@ Planificado durante el período determinado (por planificación)
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>fecha</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>fecha</td>
     </tr>
 </table>
 
@@ -774,11 +774,11 @@ Presente durante un período determinado (por calendario)
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>fecha</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>fecha</td>
     </tr>
 </table>
 

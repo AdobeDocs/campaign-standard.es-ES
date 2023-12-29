@@ -11,8 +11,8 @@ level: Experienced
 exl-id: b00fdeb9-2431-4209-8a3f-59c7e6ce7c31
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1657'
-ht-degree: 100%
+source-wordcount: '1663'
+ht-degree: 98%
 
 ---
 
@@ -26,9 +26,9 @@ Al editar el recurso, en la pestaña **[!UICONTROL Data structure]**, puede aña
 * [Claves de identificación](#defining-identification-keys)
 * [Índices](#defining-indexes)
 * [Vínculos](#defining-links-with-other-resources)
-* [Registros de envío](#defining-sending-logs-extension)
+* [Envío de registros](#defining-sending-logs-extension)
 
-## Añadir campos a un recurso {#adding-fields-to-a-resource}
+## Adición de campos a un recurso {#adding-fields-to-a-resource}
 
 Puede añadir nuevos campos a un recurso para almacenar datos que no forman parte del modelo de datos predeterminado.
 
@@ -170,7 +170,7 @@ Un vínculo detalla la asociación que una tabla tiene con otras tablas.
 
 1. En la sección **[!UICONTROL Join definition]**, se selecciona la opción predeterminada **[!UICONTROL Use the primary keys to make the join]**, pero puede elegir entre dos opciones:
 
-   * **[!UICONTROL Use the primary key to make the join]**: esta definición de combinación le permite utilizar la clave primaria de perfiles para cuadrarse con la clave primaria de las compras.
+   * **[!UICONTROL Use the primary key to make the join]**: esta definición de combinación le permite utilizar la clave primaria de perfiles para reconciliarse con la clave primaria de las compras.
    * **[!UICONTROL Define specific join conditions]**: esta definición de combinación le permite seleccionar manualmente los campos que se unen a ambos recursos. Tenga en cuenta que si los datos no están correctamente configurados, el registro de **compra** no estará visible.
 
    ![](assets/schema_extension_17.png)
@@ -215,7 +215,7 @@ Al añadir este vínculo, se añade una pestaña de **compra** en la pantalla de
 
 ![](assets/custom_resource_link_to_profile.png)
 
-## Definición de la extensión de registros de envío {#defining-sending-logs-extension}
+## Definición de extensiones de registros de envío {#defining-sending-logs-extension}
 
 La extensión de registros de envío le permite:
 
@@ -282,7 +282,7 @@ Se han guardado las modificaciones. Debe volver a publicar el recurso para aplic
 De forma predeterminada, los perfiles y los recursos personalizados no tienen un ID empresarial cuando se crean. Puede activar una opción que genere automáticamente un ID único cuando se crean los elementos. Este ID se puede utilizar para:
 
 * Identificar fácilmente los registros exportados en una herramienta externa.
-* Cuadrar registros al importar datos actualizados procesados en otra aplicación.
+* Reconciliar registros al importar datos actualizados procesados en otra aplicación.
 
 Solo se puede habilitar para perfiles y recursos personalizados.
 
@@ -303,7 +303,7 @@ Al exportar perfiles o recursos personalizados, ahora puede añadir la columna *
 
 ![](assets/export_id_field.png)
 
-Al volver a importar datos que se han procesado o actualizado en otra aplicación (por ejemplo, un CRM), puede cuadrarlos fácilmente con este ID único.
+Al volver a importar datos que se han procesado o actualizado en otra aplicación (por ejemplo, un CRM), puede reconciliarlos fácilmente con este ID único.
 
 >[!NOTE]
 >

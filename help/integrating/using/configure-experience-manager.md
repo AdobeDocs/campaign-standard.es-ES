@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: f56f5a19-6283-4eef-8127-c69a16a42a37
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 18%
+source-wordcount: '314'
+ht-degree: 9%
 
 ---
 
@@ -25,8 +25,8 @@ Con este caso de uso, aprenderá a crear y administrar el contenido del correo e
 
 Debe asegurarse de tener los siguientes elementos de antemano:
 
-* Una instancia **creación** de Adobe Experience Manager
-* Una instancia **publicación** de Adobe Experience Manager
+* Un Adobe Experience Manager **creación** instancia
+* Un Adobe Experience Manager **publicación** instancia
 * Una instancia de Adobe Campaign
 
 ## Configuración en Adobe Campaign Standard {#config-acs}

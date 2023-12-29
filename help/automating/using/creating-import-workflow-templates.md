@@ -10,8 +10,8 @@ level: Experienced
 exl-id: 5974a52c-8721-4575-b452-2982d6497235
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1172'
-ht-degree: 58%
+source-wordcount: '1176'
+ht-degree: 55%
 
 ---
 
@@ -48,7 +48,7 @@ Este ejemplo muestra cómo se puede predefinir un flujo de trabajo para reutiliz
 
    * En la sección **[!UICONTROL File to load]** , seleccione **[!UICONTROL Upload a new file from the local machine]** y deje el campo en blanco. Cada vez que cree un nuevo flujo de trabajo a partir de esta plantilla, puede especificar aquí el archivo que desee, siempre que se corresponda con la estructura definida.
 
-     Puede utilizar cualquiera de las opciones, pero debe modificar la plantilla según corresponda. Por ejemplo, si selecciona **[!UICONTROL Use the file specified in the inbound transition]**, puede añadir una actividad de **[!UICONTROL Transfer file]** antes de recuperar el archivo de importación de un servidor FTP/SFTP.
+     Puede utilizar cualquiera de las opciones, pero debe modificar la plantilla según corresponda. Por ejemplo, si selecciona **[!UICONTROL Use the file specified in the inbound transition]**, puede agregar un **[!UICONTROL Transfer file]** antes de recuperar el archivo de importación de un servidor FTP/SFTP.
 
      Si desea que los usuarios puedan descargar un archivo que contenga errores producidos durante una importación, consulte la **[!UICONTROL Keep the rejects in a file]** y especifique la opción **[!UICONTROL File name]**.
 

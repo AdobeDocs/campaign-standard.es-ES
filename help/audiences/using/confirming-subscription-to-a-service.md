@@ -10,14 +10,14 @@ level: Intermediate
 exl-id: 9992a05b-9f3c-4e6c-82e5-151c679565a1
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1315'
-ht-degree: 90%
+source-wordcount: '1320'
+ht-degree: 85%
 
 ---
 
 # Confirmación de la suscripción a un servicio{#confirming-subscription-to-a-service}
 
-## Acerca del envío de confirmación de suscripción {#sending-subscription-confirmation}
+## Acerca del envío de confirmaciones de suscripción {#sending-subscription-confirmation}
 
 En esta sección se describe cómo enviar un correo electrónico de confirmación personalizado y automático a los perfiles que se suscriben a un servicio específico.
 
@@ -97,7 +97,7 @@ El correo electrónico de confirmación es un mensaje transaccional basado en el
 1. Haga clic en **[!UICONTROL Save & close]** para guardar el contenido.
 1. Publique el mensaje transaccional. Consulte [Publicación de un mensaje transaccional](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
 
-### Paso 2: crear y configurar el servicio {#step-2--create-and-configure-the-service-1}
+### Paso 2: Crear y configurar el servicio {#step-2--create-and-configure-the-service-1}
 
 1. Desde el logotipo de Adobe Campaign, en el menú avanzado seleccione **Perfiles y audiencias** > **Servicios** para crear un servicio.
 1. En el panel de servicios, seleccione el botón ![](assets/edit_darkgrey-24px.png) y vaya a la sección **[!UICONTROL Service properties]**.
@@ -164,7 +164,7 @@ El correo electrónico de confirmación es un [mensaje transaccional](../../chan
 
 Los pasos para diseñar el mensaje transaccional se describen en esta [sección](#design-the-confirmation-message-1).
 
-### Paso 2: crear y configurar el servicio {#step-2--create-and-configure-the-service-2}
+### Paso 2: Crear y configurar el servicio {#step-2--create-and-configure-the-service-2}
 
 1. Desde el logotipo de Adobe Campaign, seleccione en el menú avanzado **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Services]** y cree un servicio.
 1. En el panel de servicios, seleccione el botón ![](assets/edit_darkgrey-24px.png) y vaya a la sección **[!UICONTROL Service properties]**.

@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: d6aaec6e-c718-46a2-88e8-7402970def1a
 source-git-commit: 2d3ef53d5ea5603d90da169366be6ea516d96823
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 67%
+source-wordcount: '756'
+ht-degree: 61%
 
 ---
 
@@ -47,7 +47,7 @@ Para garantizar el mejor rendimiento, también puede cancelar la publicación de
 
 ## Personalización {#personalization}
 
-La forma de personalizar el contenido de un mensaje depende del tipo de mensaje transaccional. A continuación, se enumeran las características específicas.
+La forma de personalizar el contenido de un mensaje depende del tipo de mensaje transaccional. Las particularidades se enumeran a continuación.
 
 ### Mensajes transaccionales basados en eventos
 
@@ -56,9 +56,9 @@ La forma de personalizar el contenido de un mensaje depende del tipo de mensaje 
 * Se supone que la mensajería transaccional basada en eventos utiliza solamente los datos que se encuentran en el evento enviado para definir el destinatario y la personalización del contenido del mensaje. Sin embargo, puede enriquecer el contenido de su mensaje transaccional con información de la base de datos de Adobe Campaign. Consulte [Enriquecimiento de un evento](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) y [Personalizar un mensaje transaccional](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
 * Como los mensajes transaccionales de eventos no contienen información sobre perfiles, no son compatibles con las normas de fatiga, incluso en el caso de un enriquecimiento con perfiles.
 
-### Mensajes transaccionales basados en perfil
+### Mensajes transaccionales basados en perfiles
 
-* La información de personalización puede proceder de los datos contenidos en el evento o del registro de perfiles conciliado. Consulte [Configuración de mensaje transaccional basado en perfil](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) y [Especificaciones de mensajes transaccionales basados en perfiles](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities).
+* La información de personalización puede proceder de los datos contenidos en el evento o del registro de perfiles reconciliado. Consulte [Configuración de mensaje transaccional basado en perfil](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) y [Especificaciones de mensajes transaccionales basados en perfiles](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities).
 * Usted **lata** use **[!UICONTROL Unsubscription link]** bloques de contenido en un mensaje transaccional de perfil. Consulte [Adición de un bloque de contenido](../../designing/using/personalization.md#adding-a-content-block).
 * Las reglas de fatiga son compatibles con los mensajes transaccionales de perfil. Consulte [Reglas de fatiga](../../sending/using/fatigue-rules.md).
 

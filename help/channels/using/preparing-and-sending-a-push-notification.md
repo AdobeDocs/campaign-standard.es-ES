@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 41b83014-aea9-4ec2-b20e-c0a05bcad503
 source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 7%
+source-wordcount: '841'
+ht-degree: 3%
 
 ---
 
@@ -93,7 +93,7 @@ Las notificaciones push se pueden enviar a una audiencia seleccionada en Adobe C
 
    ![](assets/push_send_1.png)
 
-1. Una vez que la preparación ha finalizado correctamente, la variable **[!UICONTROL Deployment]** presenta los siguientes KPI: **[!UICONTROL Target]** y **[!UICONTROL To deliver]**. Tenga en cuenta que el recuento **[!UICONTROL To deliver]** es menor que el de **[!UICONTROL Targeted]**, debido a exclusiones que se pueden ver haciendo clic en el botón ![](assets/lp_link_properties.png) de la parte inferior de la ventana **[!UICONTROL Deployment]**.
+1. Una vez que la preparación ha finalizado correctamente, la variable **[!UICONTROL Deployment]** presenta los siguientes KPI: **[!UICONTROL Target]** y **[!UICONTROL To deliver]**. Tenga en cuenta que la variable **[!UICONTROL To deliver]** el recuento es menor que **[!UICONTROL Targeted]** uno debido a exclusiones que se pueden ver haciendo clic en ![](assets/lp_link_properties.png) botón en la parte inferior de **[!UICONTROL Deployment]** ventana.
 
    ![](assets/push_send_2.png)
 

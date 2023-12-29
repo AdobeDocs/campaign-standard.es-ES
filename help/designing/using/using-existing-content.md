@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 3bda4227-2a6e-4813-a288-93a4388a9787
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 6%
+source-wordcount: '1277'
+ht-degree: 5%
 
 ---
 
@@ -223,7 +223,7 @@ Una vez identificados todos los bloques, en el Diseñador de correo electrónico
 1. Añada un componente de estructura. Para obtener más información, consulte [Edición de la estructura de correo electrónico](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Añada un componente HTML. Para obtener más información, consulte [Añadir fragmentos y componentes](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Copiar y pegar el HTML en ese componente.
-1. Cambiar a la vista móvil. Para obtener más información, consulte [esta sección](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
+1. Cambie a la vista móvil. Para obtener más información, consulte [esta sección](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
    La vista adaptable está dañada porque falta el archivo CSS.
 

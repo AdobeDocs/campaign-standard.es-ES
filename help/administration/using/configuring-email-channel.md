@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 source-git-commit: a1b947acf70803a7350dd626e697318e0ed35f26
 workflow-type: tm+mt
-source-wordcount: '2681'
-ht-degree: 64%
+source-wordcount: '2683'
+ht-degree: 61%
 
 ---
 
@@ -120,7 +120,7 @@ The MX rules are now managed by the Adobe Campaign Enhanced MTA. The Adobe Campa
 
 The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.-->
 
-## Lista de las propiedades de correo electrónico {#list-of-email-properties}
+## Lista de propiedades de correo electrónico {#list-of-email-properties}
 
 Esta sección detalla la lista de los parámetros disponibles en la pantalla de propiedades de un correo electrónico o de una plantilla de correo electrónico.
 
@@ -162,7 +162,7 @@ Los mensajes no entregados temporalmente están sujetos a un reintento automáti
 
 La **configuración de la duración de la entrega** (definida en la sección [Parámetros del periodo de validez](#validity-period-parameters)) **configurada en Campaign se seguirá cumpliendo, pero solo hasta 3,5 días**. En ese momento, cualquier mensaje de la cola de reintentos se eliminará de la cola y se enviará de nuevo como una devolución. Para obtener más información sobre los fallos de entrega, consulte [esta sección](../../sending/using/understanding-delivery-failures.md#about-delivery-failures).
 
-#### Parámetros del formato del correo electrónico {#email-format-parameters}
+#### Parámetros de formato de correo electrónico {#email-format-parameters}
 
 Puede configurar el formato de los correos electrónicos que se van a enviar. Hay tres opciones disponibles:
 
@@ -247,7 +247,7 @@ Haga clic en el botón a la derecha del campo que se va a cambiar y, a continuac
 
 La inserción y el uso del contenido de personalización se detallan en la documentación [Personalización del contenido del correo electrónico](../../designing/using/personalization.md).
 
-#### Contexto de direccionamiento {#target-context}
+#### Contexto de destino {#target-context}
 
 Utilice el contexto de segmentación para definir un conjunto de tablas que se utilizarán para el direccionamiento (en la pantalla de definición de audiencia) y la personalización (definiendo campos de personalización en el editor de contenido del HTML) de correo electrónico.
 
@@ -279,7 +279,7 @@ La preparación de los mensajes se detalla en la sección [Aprobación de mensaj
 
 En esta sección, puede configurar el prefijo predeterminado para utilizarlo en la línea de asunto de los mensajes de prueba. Obtenga más información acerca de las pruebas en [esta sección](../../sending/using/sending-proofs.md).
 
-### Lista de los parámetros SMTP de correo electrónico {#list-of-email-smtp-parameters}
+### Lista de parámetros SMTP de correo electrónico {#list-of-email-smtp-parameters}
 
 La sección **[!UICONTROL SMTP]** contiene los siguientes parámetros:
 
@@ -291,7 +291,7 @@ La sección **[!UICONTROL SMTP]** contiene los siguientes parámetros:
   >
   >La adición de secuencias de comandos para insertar encabezados SMTP se reserva para usuarios avanzados. La sintaxis de esta secuencia de comandos debe cumplir con los requisitos de este tipo de contenido: no dejar espacios sin utilizar, ninguna línea vacía, etc.
 
-### Lista de los parámetros de autorización de acceso {#list-of-access-authorization-parameters}
+### Lista de parámetros de autorización de acceso {#list-of-access-authorization-parameters}
 
 La sección **[!UICONTROL Access authorization]** contiene los siguientes parámetros:
 
@@ -311,7 +311,7 @@ Si es usted **NO** Al ejecutar la versión más reciente de Campaign, se siguen 
 
 El **[!UICONTROL Retries]** configuración en la [Menú Configuración](#email-channel-parameters) y en el [Envío de parámetros](#retries-parameters) Algunas de las propiedades de correo electrónico indican cuántos reintentos se deben realizar el día después de iniciar la entrega (**[!UICONTROL Number of retries]** / **[!UICONTROL Max. number of retries]**) y el retardo mínimo entre reintentos (**[!UICONTROL Retry period]**).
 
-El número de reintentos se puede cambiar a nivel global (póngase en contacto con el administrador técnico de Adobe) o para cada entrega o plantilla de envíos.
+El número de reintentos se puede cambiar a nivel global (póngase en contacto con el administrador técnico de Adobe) o para cada envío o plantilla de envíos.
 
 De forma predeterminada, se programan cinco reintentos para el primer día con un intervalo mínimo de una hora, distribuidos durante las 24 horas del día. Después de ello, se programa un reintento por día hasta la fecha límite de envío, que se define globalmente en **[!UICONTROL Delivery parameters]** de la sección **[!UICONTROL Configuration]** o en el menú **[!UICONTROL Validity period]** en el nivel de entrega (consulte la [Duración del envío](#legacy-delivery-duration) más abajo).
 

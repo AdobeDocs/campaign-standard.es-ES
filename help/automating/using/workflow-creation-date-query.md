@@ -12,7 +12,7 @@ exl-id: f611e023-f74c-476e-83b9-aff451f68c81
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '354'
-ht-degree: 38%
+ht-degree: 33%
 
 ---
 
@@ -84,7 +84,7 @@ Se muestra la consulta final:
 
 ![](assets/expression_editor_1.png)
 
-## Creación de una entrega de correo electrónico{#creating-an-email-delivery}
+## Creación de una entrega por correo electrónico{#creating-an-email-delivery}
 
 1. Arrastre y suelte un [Envío de correo electrónico](../../automating/using/email-delivery.md) actividad.
 1. Haga clic en la actividad y seleccione ![](assets/edit_darkgrey-24px.png) para editarla.

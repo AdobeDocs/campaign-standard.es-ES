@@ -1,5 +1,5 @@
 ---
-title: Introducción a perfiles y audiencias
+title: Introducción a perfiles y públicos
 description: Defina poblaciones segmentadas, seleccione audiencias, filtre destinatarios, recopile datos y actualice perfiles.
 audience: audiences
 content-type: reference
@@ -10,12 +10,12 @@ level: Beginner
 exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 25%
+source-wordcount: '591'
+ht-degree: 14%
 
 ---
 
-# Introducción a perfiles y audiencias{#about-profiles-and-audiences}
+# Introducción a perfiles y públicos{#about-profiles-and-audiences}
 
 <table>
 <tr>
@@ -24,11 +24,11 @@ ht-degree: 25%
 <td><img src="assets/do-not-localize/icon_privacy.svg" width="60px"><p><a href="#privacy">Cumplimiento de privacidad</a></p></td></tr>
 </table>
 
-Los perfiles de cliente integrados de Campaign le permiten realizar un seguimiento de cada interacción con los clientes en canales múltiples dentro de una sola vista, lo que le permite enviar mensajes relevantes y personalizados a sus clientes.
+Los perfiles de cliente integrados de Campaign le permiten realizar un seguimiento de cada interacción con los clientes en todos los canales dentro de una sola vista, lo que le permite enviar mensajes relevantes y personalizados a sus clientes.
 
 Segmente la base de datos en audiencias para optimizar el destinatario de las campañas de marketing.
 
-Administre el permiso y el consentimiento de los clientes con servicios y páginas de aterrizaje para configurar mecanismos de inclusión y exclusión sencillos.
+Administre el permiso y el consentimiento de los clientes mediante servicios y páginas de aterrizaje para configurar mecanismos de inclusión y exclusión sencillos.
 
 ## Segmentación y direccionamiento {#segmenting-targeting}
 

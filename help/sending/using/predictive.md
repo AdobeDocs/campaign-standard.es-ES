@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
 source-git-commit: 75628ed8a2f9b21def23e5b257a3592e1a721536
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 56%
+source-wordcount: '1103'
+ht-degree: 47%
 
 ---
 
@@ -35,9 +35,9 @@ La optimización del tiempo de envío predictivo predice cuál es la mejor hora 
 
 Dentro del modelo de optimización del tiempo de envío predictivo, hay dos submodelos:
 
-* **El tiempo de envío predictivo de la apertura es el mejor momento para enviar una comunicación al cliente para maximizar las aperturas.**
+* **Tiempo de envío predictivo para apertura** es el mejor momento para enviar una comunicación al cliente para maximizar las aperturas.
 
-* **El tiempo de envío predictivo de los clics es el mejor momento para enviar una comunicación al cliente para maximizar los clics.**
+* **Tiempo de envío predictivo de los clics** es el mejor momento para enviar una comunicación al cliente para maximizar los clics.
 
 **Entrada de modelo**: registros de envío, registros de seguimiento y atributos de perfil (no PII).
 
@@ -78,9 +78,9 @@ De forma predeterminada, las puntuaciones de perfil proporcionarán la mejor hor
 
 ![](assets/do-not-localize/SendTimeScore.png)
 
-### Enviar mensajes en el mejor horario{#use-predictive-send-time}
+### Enviar mensajes en el mejor momento{#use-predictive-send-time}
 
-Para que los mensajes de correo electrónico se publiquen a una hora óptima para el perfil, el envío debe programarse con la opción **[!UICONTROL Send at a custom date defined by a formula]**.
+Para que los correos electrónicos se publiquen a una hora óptima para el perfil, el envío debe programarse con la opción **[!UICONTROL Send at a custom date defined by a formula]**.
 
 Obtenga información sobre cómo calcular la fecha de envío [en esta sección](../../sending/using/computing-the-sending-date.md).
 
@@ -117,7 +117,7 @@ Este modelo utiliza varias puntuaciones para indicar:
 
 * **Puntuación de participación de aperturas/Puntuación de participación de clics**: este valor coincide con la probabilidad de que un suscriptor interactúe con un mensaje específico (lo abra o haga clic). Los valores van del 0,0 al 1,0.
 * **Probabilidad de baja**: este valor coincide con la probabilidad de que el destinatario cancele la suscripción del canal de correo electrónico a partir de un correo electrónico abierto. Los valores van del 0,0 al 1,0.
-* **Nivel de retención**: este valor clasifica a los usuarios en tres niveles: baja, media y alta. Es muy probable que el nivel alto permanezca con la marca y que el bajo probablemente cancele la suscripción.
+* **Nivel de retención**: este valor clasifica a los usuarios en tres niveles: bajo, medio y alto. Es muy probable que el nivel alto permanezca con la marca y que el bajo probablemente cancele la suscripción.
 * **Clasificación del percentil de retención**: clasificación de perfiles en términos de las probabilidades de baja. Los valores van del 0,0 al 1,0. Por ejemplo: si la clasificación del porcentaje de retención es de 0,953, es más probable que este destinatario permanezca con la marca y tenga menos probabilidades de cancelar la suscripción que el 95,3% de todos los destinatarios.
 
 >[!NOTE]
@@ -136,6 +136,6 @@ Para acceder a estas métricas, debe hacer lo siguiente:
 
 1. Haga clic en la pestaña **Puntuaciones de participación para el canal de correo electrónico**.
 
-Con una actividad de consulta en un flujo de trabajo, puede utilizar la puntuación para optimizar la audiencia. Por ejemplo, con los criterios de **nivel de retención:** 
+Mediante una actividad de consulta en un flujo de trabajo, puede utilizar la puntuación para optimizar la audiencia. Por ejemplo, con los criterios de **nivel de retención:** 
 
 ![](assets/do-not-localize/predictive_score_query.png)

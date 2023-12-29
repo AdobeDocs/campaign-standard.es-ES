@@ -10,8 +10,8 @@ level: Experienced
 exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
 source-git-commit: 69c47c8f3cbb405acbef634aa1ebaef8e767f159
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 46%
+source-wordcount: '889'
+ht-degree: 38%
 
 ---
 
@@ -41,7 +41,7 @@ Una vez procesada la solicitud, los comandos de cifrado/descifrado estarán disp
 * [Carga de archivo](../../automating/using/load-file.md)
 * [Extracción de archivos](../../automating/using/extract-file.md)
 
-## Caso de uso: importación de datos cifrados con una clave generada por el Panel de control {#use-case-gpg-decrypt}
+## Caso de uso: importación de datos cifrados con una clave generada por el Panel de control de Campaign {#use-case-gpg-decrypt}
 
 En este caso de uso, cree un flujo de trabajo para importar datos cifrados en un sistema externo utilizando una clave generada en el Panel de control de Campaign.
 
@@ -85,7 +85,7 @@ Los pasos para realizar este caso de uso son los siguientes:
 
 1. Ahora puede ejecutar el flujo de trabajo.
 
-## Caso de uso: codificación y exportación de datos con una clave instalada en el Panel de control {#use-case-gpg-encrypt}
+## Caso de uso: cifrado y exportación de datos con una clave instalada en el Panel de control de Campaign {#use-case-gpg-encrypt}
 
 En este caso de uso, cree un flujo de trabajo para cifrar y exportar datos con una clave instalada en el Panel de control de Campaign.
 

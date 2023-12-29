@@ -6,8 +6,8 @@ content-type: reference
 topic-tags: discovering-the-interface
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 11%
+source-wordcount: '775'
+ht-degree: 6%
 
 ---
 
@@ -123,7 +123,7 @@ Gracias a los flujos de trabajo y al editor de consultas, puede crear audiencias
 
 <img width="60px" alt="condiciones" src="assets/icon_privacy.svg"/>
 
-El Reglamento General de Protección de Datos (GDPR) es la nueva normativa sobre privacidad de la Unión Europea que unifica y moderniza los requisitos de protección de datos. El RGPD se aplica a los clientes de Adobe Campaign que albergan datos de sujetos de datos que residan en la UE. Además de las funciones de privacidad ya disponibles en Adobe Campaign (incluida la administración de consentimientos, la configuración de retención de datos y las funciones de usuario), aprovechamos esta oportunidad en nuestra función de procesador de datos para incluir funciones adicionales que le ayudarán a prepararse como controlador de datos para determinadas solicitudes de RGPD.
+El RGPD es la nueva ley de privacidad de la Unión Europea (UE) que armoniza y moderniza los requisitos de protección de datos. El RGPD se aplica a los clientes de Adobe Campaign que albergan datos de sujetos de datos que residan en la UE. Además de las funciones de privacidad ya disponibles en Adobe Campaign (incluida la administración de consentimientos, la configuración de retención de datos y las funciones de usuario), aprovechamos esta oportunidad en nuestra función de procesador de datos para incluir funciones adicionales que le ayudarán a prepararse como controlador de datos para determinadas solicitudes de RGPD.
 
 Consulte [esta sección](../../start/using/privacy.md) para obtener más información sobre las herramientas y funcionalidades que proporciona Adobe Campaign para ayudarle a cumplir con el RGPD.
 

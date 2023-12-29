@@ -12,7 +12,7 @@ exl-id: c75471aa-b947-4488-a569-5412d3825c64
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 83%
+ht-degree: 79%
 
 ---
 
@@ -48,7 +48,7 @@ En la zona principal, cada tipo de actividad de la lista tiene un icono:
 * ![](assets/marketing_sms_icon.png) SMS
 * ![](assets/marketing_push_icon.png) Notificación push
 * ![](assets/marketing_lp_icon.png) Mensaje en la aplicación
-* ![](assets/marketing_lp_icon.png) página de aterrizaje
+* ![](assets/marketing_lp_icon.png) Página de aterrizaje
 * ![](assets/marketing_workflow_icon.png) Flujo de trabajo
 
 Según el periodo de validez y el estado, el color asociado a este icono indica el estado de ejecución de la actividad correspondiente.

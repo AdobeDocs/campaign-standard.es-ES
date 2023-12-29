@@ -9,8 +9,8 @@ level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 76%
+source-wordcount: '1259'
+ht-degree: 73%
 
 ---
 
@@ -85,7 +85,7 @@ Una **marca** se define con las siguientes características:
 
 ## Creación de una nueva marca {#creating-a-brand}
 
-Puede añadir nuevas entidades de su organización en Campaign o crear un nuevo tipo de correo electrónico que debe enviar en un subdominio diferente. Para ello, siga los pasos a continuación:
+Puede añadir nuevas entidades de su organización en Campaign o crear un nuevo tipo de correo electrónico que debe enviar en un subdominio diferente. Para realizar esto, siga los pasos a continuación:
 
 1. **Configuración de un nuevo subdominio** : Para que cualquier nuevo subdominio se utilice en el Adobe, el primer paso será configurarlo. Puede realizar esta acción mediante [Panel de control de Campaign de campaña](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=es) o póngase en contacto con el contacto técnico del Adobe. Más información sobre la configuración de subdominios [en este artículo](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html).
 
@@ -139,7 +139,7 @@ Una vez creada la plantilla, puede vincularla a una marca. Para ello:
 
 La plantilla está vinculada a la marca. En el editor de correo electrónico, los elementos como la **dirección de correo electrónico del remitente predeterminado**, el **nombre del remitente predeterminado** o el **logotipo** utilizan los datos de marca configurados.
 
-### Caso de uso de la marca {#branding-use-case}
+### Caso de uso de marca {#branding-use-case}
 
 En este ejemplo, vamos a crear una nueva marca relacionada con el turismo y utilizarla en un mensaje de correo electrónico.
 

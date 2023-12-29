@@ -12,7 +12,7 @@ exl-id: 0b9795e9-83e6-4399-a3b1-fc69081f6a82
 source-git-commit: 17522f4df86c7fb46593472316d57b4ba4acee2b
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 97%
+ht-degree: 93%
 
 ---
 
@@ -115,4 +115,4 @@ La página de aterrizaje ahora está configurada con Google reCAPTCHA, que se pu
 
 ![](assets/lp_parameters_google2.png)
 
-Google reCAPTCHA devuelve una puntuación basada en las interacciones de los usuarios con la página. Para comprobar su puntuación, conéctese a la consola de administración de Google.
+Google reCAPTCHA devuelve una puntuación basada en las interacciones de los usuarios con la página. Para comprobar su puntuación, conéctese a Admin Console de Google.

@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 65d3f3d8-039d-4188-a6a4-0065724aa82b
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 100%
+source-wordcount: '785'
+ht-degree: 93%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 100%
 
 La actividad **[!UICONTROL SMS delivery]** le permite configurar el envío de un SMS en un flujo de trabajo. Puede ser un único SMS y enviado una sola vez, o puede ser un SMS recurrente.
 
-* **Los mensajes SMS de un solo envío son SMS estándar, enviados una vez.**
-* **Los mensajes SMS recurrentes le permiten enviar el mismo SMS varias veces a diferentes destinatarios durante un periodo definido.** Puede acumular los envíos por periodo para obtener informes que se correspondan con sus necesidades.
+* **Envío único** Los mensajes SMS son SMS estándar, enviados una vez.
+* **Recurrente** Los mensajes SMS le permiten enviar el mismo SMS varias veces a diferentes destinatarios durante un periodo definido. Puede acumular los envíos por periodo para obtener informes que se correspondan con sus necesidades.
 
 ## Contexto de uso {#context-of-use}
 

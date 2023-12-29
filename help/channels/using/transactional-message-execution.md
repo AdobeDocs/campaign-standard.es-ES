@@ -12,7 +12,7 @@ exl-id: 4cea7207-469c-46c5-9921-ae2f8f12d141
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '740'
-ht-degree: 63%
+ht-degree: 61%
 
 ---
 
@@ -39,7 +39,7 @@ Cuando no se puede enviar un mensaje transaccional, hay dos sistemas de reintent
 * En el nivel de mensajería transaccional, un mensaje transaccional puede fallar antes de que el evento se asigne a un envío de ejecución; es decir, entre la recepción del evento y la preparación de este. Consulte [Proceso de reintentos del procesamiento de un evento](#event-processing-retry-process).
 * A nivel de proceso de envío, una vez que el evento se ha asignado a un envío de ejecución, el mensaje transaccional puede fallar debido a un error temporal. Consulte [Proceso de reintentos del envío de mensajes](#message-sending-retry-process).
 
-### Proceso de reintentos del procesamiento de un evento {#event-processing-retry-process}
+### Proceso de reintentos del procesamiento de eventos {#event-processing-retry-process}
 
 Cuando se activa un evento, se asigna a un envío de ejecución. Si el evento no se puede asignar a un envío de ejecución, se pospone el procesamiento del evento. Los reintentos se realizan hasta que se asignan a un nuevo envío de ejecución.
 

@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 3c8ddd46-05b4-4414-ab2e-052d60da09e5
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 79%
+source-wordcount: '844'
+ht-degree: 77%
 
 ---
 
@@ -74,7 +74,7 @@ Antes de poder usar una lista de productos en un mensaje transaccional, debe def
    >
    >Si desea que los elementos de la lista se muestren verticalmente (**[!UICONTROL Column]**), el número máximo de elementos queda limitado según el componente de estructura seleccionado (2, 3 o 4 columnas). Para obtener más información sobre la selección de componentes de estructura, consulte [Edición de la estructura de correo electrónico](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-## Rellenar el listado de productos {#populating-the-product-listing}
+## Rellenar la lista de productos {#populating-the-product-listing}
 
 Para mostrar una lista de productos procedentes del evento vinculado al correo electrónico de transacción, siga los pasos a continuación.
 

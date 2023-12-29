@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1514'
 ht-degree: 100%
 
 ---
@@ -73,7 +73,7 @@ Antes de crear solicitudes de privacidad, debe definir el área de nombres que u
 
    Para obtener más información sobre Áreas de nombres de identidad, consulte la documentación del [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=es).
 
-1. Un área de nombres de servicio de identidad se asigna a un área de nombres en Campaign. Debe especificar cómo se asignará el área de nombres en Campaign.
+1. Un área de nombres de servicio de identidad se asigna a un área de nombres en Campaign. Debe especificar cómo se reconciliará el área de nombres en Campaign.
 
    Seleccione una asignación de destino (**[!UICONTROL Recipients]**, **[!UICONTROL Real-time event]** o **[!UICONTROL Subscriptions to an application]**). Si desea utilizar varias asignaciones de destino, cree un área de nombres por asignación de destino.
 

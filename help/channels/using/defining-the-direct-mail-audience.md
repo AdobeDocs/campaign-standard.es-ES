@@ -12,7 +12,7 @@ exl-id: ea167fec-d4df-4147-9dcd-33001d8a1c9b
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -22,7 +22,7 @@ Puede definir la audiencia en el asistente de creación o haciendo clic en la se
 
 ![](assets/direct_mail_15.png)
 
-## Definición del destinatario principal {#defining-the-main-target}
+## Definición del objetivo principal {#defining-the-main-target}
 
 Para el correo postal, los perfiles de destino son los que se incluyen en el archivo de extracción que ha de enviar a su proveedor de correo postal.
 
@@ -32,7 +32,7 @@ Para cada perfil de destino se añade una nueva línea en el archivo de extracci
 >
 >Asegúrese de que los perfiles incluyan una dirección postal, ya que esta información es esencial para el proveedor de correo. Asegúrese también de haber marcado la casilla **[!UICONTROL Address specified]** en la información de los perfiles. Consulte [Recomendaciones](../../channels/using/about-direct-mail.md#recommendations).
 
-## Añadir perfiles de prueba y trampa {#adding-test-and-trap-profiles}
+## Adición de perfiles de prueba y trampa {#adding-test-and-trap-profiles}
 
 Añada perfiles de prueba para poder probar el archivo con un pequeño número de perfiles. Permite crear rápidamente un ejemplo de archivo para probar y validar la estructura antes de preparar el archivo real. Consulte [Administración de perfiles de prueba](../../audiences/using/managing-test-profiles.md).
 

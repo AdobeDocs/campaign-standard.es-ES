@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 7ef0712e-4e42-41c8-9382-fbbd06edfdd9
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '2695'
-ht-degree: 89%
+source-wordcount: '2710'
+ht-degree: 87%
 
 ---
 
@@ -173,7 +173,7 @@ Si ha corregido todo, pero algunos SR no válidos siguen en los búferes del pro
 
 ## Problema durante la preparación de la entrega sin excluir destinatarios en cuarentena (en cuarentena por la función de respuesta automática) {#issue-delivery-preparation}
 
-* Compruebe que el formato del número de teléfono es exactamente el mismo en la tabla de cuarentenas y en el registro de envíos.  Si no es así, consulte esta [sección](../../administration/using/sms-protocol.md#automatic-reply) si tiene problemas con el prefijo más del formato del número de teléfono internacional.
+* Compruebe que el formato del número de teléfono sea exactamente el mismo en la tabla de cuarentena y en el registro de envíos.  Si no es así, consulte esta [sección](../../administration/using/sms-protocol.md#automatic-reply) si tiene problemas con el prefijo más del formato del número de teléfono internacional.
 
 * Compruebe los códigos cortos. Las exclusiones pueden producirse si el código corto del destinatario es el mismo que se define en la cuenta externa o si está vacío (vacío = cualquier código abreviado). Si solo se utiliza un código corto para toda la instancia de Adobe Campaign, es más fácil dejar vacíos todos los campos de **código corto**.
 

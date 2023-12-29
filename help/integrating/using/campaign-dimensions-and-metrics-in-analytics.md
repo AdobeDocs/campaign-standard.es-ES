@@ -11,7 +11,7 @@ exl-id: 6516c71a-efa8-4778-82bb-10615378f985
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 10%
+ht-degree: 4%
 
 ---
 
@@ -24,7 +24,7 @@ Campaign **[!UICONTROL dimensions]** que se encuentran en Analytics se enumeran 
 <table> 
  <thead> 
   <tr> 
-   <th> Dimensión<br /> </th> 
+   <th> Dimension<br /> </th> 
    <th> Definición<br /> </th> 
   </tr> 
  </thead> 
@@ -67,7 +67,7 @@ Campaign **[!UICONTROL metrics]** que se encuentran en Analytics se enumeran a c
  </thead> 
  <tbody> 
   <tr> 
-   <td> Cliqueado<br /> </td> 
+   <td> Clic<br /> </td> 
    <td> Número de veces que se hizo clic en un contenido en una entrega.<br /> </td> 
   </tr> 
   <tr> 

@@ -12,7 +12,7 @@ exl-id: 1e06fd9d-e850-4856-8f7b-b581dbe157df
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '516'
-ht-degree: 75%
+ht-degree: 71%
 
 ---
 
@@ -38,7 +38,7 @@ También puede crear y utilizar una asignación de destino personalizada. Para o
 
 ## Datos externos {#external-data}
 
-Puede enviar a destinatarios que estén almacenados en un archivo externo en lugar de guardarlos en la base de datos. Para ello, diseñe un flujo de trabajo que cargue datos en la base de datos desde un archivo y cree una audiencia asociada.  Obtenga más información [en este caso de uso](../../automating/using/use-case-calling-workflow.md). Consulte también [Invocación de un flujo de trabajo con parámetros](../../automating/using/calling-a-workflow-with-external-parameters.md).
+Puede enviar a destinatarios que estén almacenados en un archivo externo en lugar de guardarlos en la base de datos. Para ello, diseñe un flujo de trabajo que cargue datos en la base de datos desde un archivo y cree una audiencia asociada.  Más información [en este caso de uso](../../automating/using/use-case-calling-workflow.md). Consulte también [Invocación de un flujo de trabajo con parámetros](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
 ## Envíos a suscriptores {#send-to-subscribers}
 

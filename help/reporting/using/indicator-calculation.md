@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 47cc11d7-89e8-4d1c-9638-5f66a53cef7e
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 10%
+source-wordcount: '738'
+ht-degree: 7%
 
 ---
 
@@ -66,7 +66,7 @@ Las tablas siguientes proporcionan la lista de los indicadores utilizados en los
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Haga clic en<br /> </td> 
+   <td> Clic<br /> </td> 
    <td> @clicks<br /> </td> 
    <td> count(@trackingUrlType=1 ó 10 ó 11)<br /> </td> 
    <td> </td> 
@@ -108,7 +108,7 @@ Las tablas siguientes proporcionan la lista de los indicadores utilizados en los
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Buzón de correo lleno<br /> </td> 
+   <td> Buzón lleno<br /> </td> 
    <td> @mailBoxFull<br /> </td> 
    <td> count(@failureReason=5)<br /> </td> 
    <td> </td> 
@@ -281,7 +281,7 @@ Las tablas siguientes proporcionan la lista de los indicadores utilizados en los
    <td> @unique(@count(status=view))<br /> </td> 
   </tr> 
   <tr> 
-   <td> Haga clic en<br /> </td> 
+   <td> Clic<br /> </td> 
    <td> @clicks<br /> </td> 
    <td> @count(estado=interactuar)<br /> </td> 
   </tr> 
@@ -298,7 +298,7 @@ Las tablas siguientes proporcionan la lista de los indicadores utilizados en los
  </tbody> 
 </table>
 
-## Envío en la aplicación {#in-app-delivery}
+## Entrega en la aplicación {#in-app-delivery}
 
 <table> 
  <thead> 

@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 0470b986-c00a-4441-8621-82c7112a9953
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 61%
+source-wordcount: '460'
+ht-degree: 58%
 
 ---
 
@@ -63,7 +63,7 @@ Si el problema persiste, póngase en contacto con los servicios comerciales o de
 
   Por lo general, el resultado de la comprobación de la dirección IP muestra una lista que contiene detalles de la lista de bloqueados de la dirección IP y también el nombre del sitio web que bloqueó la dirección IP.
 
-  Al hacer clic en el enlace correspondiente, puede acceder a los detalles del sitio web.
+  Al hacer clic en el vínculo correspondiente, puede acceder a los detalles del sitio web.
 
   Puede solicitar que su sitio web se elimine de la lista del sitio web que añadió la dirección IP a su lista de bloqueados.
 

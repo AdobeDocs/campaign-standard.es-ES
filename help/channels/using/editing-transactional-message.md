@@ -12,7 +12,7 @@ exl-id: f5dcb715-7cbd-49f2-8713-7e16cfa04184
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 30%
+ht-degree: 27%
 
 ---
 
@@ -35,7 +35,7 @@ Una vez que el mensaje esté listo, se puede probar y publicar. Consulte [Prueba
 Para acceder al mensaje transaccional que ha creado:
 
 1. Haga clic en **Adobe** en la esquina superior izquierda.
-1. Seleccione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
+1. Seleccionar **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
 
    ![](assets/message-center_4.png)
 
@@ -45,7 +45,7 @@ Para acceder al mensaje transaccional que ha creado:
 
 También puede acceder directamente a un mensaje transaccional a través del vínculo ubicado en el área del lado izquierdo de la pantalla de configuración de evento correspondiente. Consulte [Previsualización y publicación de un evento](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
-## Personalización de un mensaje transaccional {#personalizing-a-transactional-message}
+## Personalizar un mensaje transaccional {#personalizing-a-transactional-message}
 
 Para editar y personalizar un mensaje transaccional, siga los pasos a continuación.
 
@@ -221,7 +221,7 @@ Los pasos para crear, editar y personalizar un mensaje transaccional de perfil s
 
 Las diferencias se enumeran a continuación.
 
-1. [Vaya al mensaje transaccional que se creó para editarlo.](#accessing-transactional-messages)
+1. [Ir al mensaje transaccional](#accessing-transactional-messages) que se creó para editarlo.
 1. En el mensaje transaccional, haga clic en la sección **[!UICONTROL Content]**. Además de las plantillas de correo electrónico transaccionales, también puede elegir cualquier plantilla de correo electrónico dirigida a **[!UICONTROL Profile]** recurso.
 
    ![](assets/message-center_marketing_templates.png)

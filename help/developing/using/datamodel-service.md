@@ -9,8 +9,8 @@ level: Experienced
 exl-id: a326b38f-ca88-4a44-a7c2-b6e34497a364
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 35%
+source-wordcount: '222'
+ht-degree: 33%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 35%
                <tr>
                   <td>created</td>
                   <td>Creado</td>
-                  <td>date </td>
+                  <td>fecha </td>
                   <td> </td>
                </tr>
                <tr>
@@ -64,7 +64,7 @@ ht-degree: 35%
                <tr>
                   <td>fin</td>
                   <td>Fecha de finalización</td>
-                  <td>date </td>
+                  <td>fecha </td>
                   <td> </td>
                </tr>
                <tr>
@@ -92,7 +92,7 @@ ht-degree: 35%
                   <td> </td>
                </tr>
                <tr>
-                  <td>label</td>
+                  <td>etiqueta</td>
                   <td>Etiqueta</td>
                   <td>cadena (128)</td>
                   <td> </td>
@@ -100,7 +100,7 @@ ht-degree: 35%
                <tr>
                   <td>lastModified</td>
                   <td>Última modificación</td>
-                  <td>date </td>
+                  <td>fecha </td>
                   <td> </td>
                </tr>
                <tr>
@@ -147,7 +147,7 @@ ht-degree: 35%
                </tr>
                <tr>
                   <td>name</td>
-                  <td>ID</td>
+                  <td>Identificación</td>
                   <td>cadena (64)</td>
                   <td> </td>
                </tr>
@@ -166,7 +166,7 @@ ht-degree: 35%
                <tr>
                   <td>start</td>
                   <td>Fecha de inicio</td>
-                  <td>date </td>
+                  <td>fecha </td>
                   <td> </td>
                </tr>
                <tr>
@@ -254,11 +254,11 @@ Disponible durante el período determinado (por planificación)
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>fecha</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>fecha</td>
     </tr>
 </table>
 

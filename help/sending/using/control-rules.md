@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 6461c128-1e42-4685-88f8-507244147e6f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 17%
+source-wordcount: '441'
+ht-degree: 16%
 
 ---
 
@@ -29,18 +29,18 @@ Un conjunto de reglas predeterminadas garantiza los controles estándar. La sigu
 
 | Etiqueta | Canal | Fase de ejecución | Descripción |
 |---------|----------|---------|---------|
-| **[!UICONTROL A/B Test]** | Correo electrónico | At the start of personalization | Extrae la población de prueba para una entrega con una prueba A/B. |
-| **[!UICONTROL Check delivery size]** | Todo | After targeting | Comprueba el tamaño de los mensajes. |
-| **[!UICONTROL Check email content is not empty]** | Correo electrónico | After targeting | Genera un error si el contenido del mensaje está vacío. |
+| **[!UICONTROL A/B Test]** | Correo electrónico | Al principio de la personalización | Extrae la población de prueba para una entrega con una prueba A/B. |
+| **[!UICONTROL Check delivery size]** | Todas | Después de la segmentación | Comprueba el tamaño de los mensajes. |
+| **[!UICONTROL Check email content is not empty]** | Correo electrónico | Después de la segmentación | Genera un error si el contenido del mensaje está vacío. |
 | **[!UICONTROL Check In-App content for broadcast template]** | En la aplicación | Personalización al principio | Comprueba que los déclencheur o el contenido en la aplicación no estén vacíos para la plantilla de difusión. |
-| **[!UICONTROL Check In-App content for profile template]** | En la aplicación | At the start of personalization | Comprueba que los déclencheur o el contenido en la aplicación no estén vacíos para la plantilla del perfil. |
-| **[!UICONTROL Check In-App content for subscriber template]** | En la aplicación | At the start of personalization | Comprueba que los déclencheur o el contenido en la aplicación no estén vacíos para la plantilla del suscriptor. |
-| **[!UICONTROL Check proof size]** | Todo | After targeting | Genera un mensaje de error si la población de destino de prueba supera los 100 destinatarios. |
-| **[!UICONTROL Check social network sharing link]** | Correo electrónico | At the start of personalization | Comprueba la presencia de un vínculo a una página espejo cuando se incluye un vínculo de uso compartido de una red social (vínculos virales) en el contenido. |
-| **[!UICONTROL Check subject]** | Correo electrónico | At the start of personalization | Comprueba que el asunto y la dirección del remitente no contienen caracteres especiales que puedan causar problemas en determinados agentes de transferencia de correo y comprueba que el asunto del mensaje se haya completado. |
-| **[!UICONTROL Check unsubscription link]** | Correo electrónico | At the start of personalization | Comprueba la presencia de al menos una URL de baja (exclusión) en cada contenido (HTML y texto). |
-| **[!UICONTROL Check URL labels]** | Correo electrónico | At the start of personalization | Comprueba que cada URL de seguimiento tiene una etiqueta. |
-| **[!UICONTROL Check URLs]** | Correo electrónico | At the start of personalization | Comprueba las direcciones URL de seguimiento (presencia del carácter &quot;&amp;&quot;). |
+| **[!UICONTROL Check In-App content for profile template]** | En la aplicación | Al principio de la personalización | Comprueba que los déclencheur o el contenido en la aplicación no estén vacíos para la plantilla del perfil. |
+| **[!UICONTROL Check In-App content for subscriber template]** | En la aplicación | Al principio de la personalización | Comprueba que los déclencheur o el contenido en la aplicación no estén vacíos para la plantilla del suscriptor. |
+| **[!UICONTROL Check proof size]** | Todas | Después de la segmentación | Genera un mensaje de error si la población de destino de prueba supera los 100 destinatarios. |
+| **[!UICONTROL Check social network sharing link]** | Correo electrónico | Al principio de la personalización | Comprueba la presencia de un vínculo a una página espejo cuando se incluye un vínculo de uso compartido de una red social (vínculos virales) en el contenido. |
+| **[!UICONTROL Check subject]** | Correo electrónico | Al principio de la personalización | Comprueba que el asunto y la dirección del remitente no contienen caracteres especiales que puedan causar problemas en determinados agentes de transferencia de correo y comprueba que el asunto del mensaje se haya completado. |
+| **[!UICONTROL Check unsubscription link]** | Correo electrónico | Al principio de la personalización | Comprueba la presencia de al menos una URL de baja (exclusión) en cada contenido (HTML y texto). |
+| **[!UICONTROL Check URL labels]** | Correo electrónico | Al principio de la personalización | Comprueba que cada URL de seguimiento tiene una etiqueta. |
+| **[!UICONTROL Check URLs]** | Correo electrónico | Al principio de la personalización | Comprueba las direcciones URL de seguimiento (presencia del carácter &quot;&amp;&quot;). |
 
 ## Fases de ejecución de reglas de control {#control-rules-execution-phases}
 
@@ -54,4 +54,4 @@ Las reglas de control se pueden aplicar en diferentes fases del ciclo de vida de
 
 * **Al principio de la personalización**: se aplica cuando la comprobación está relacionada con la aprobación de la personalización de mensajes. La personalización del mensaje se lleva a cabo durante la fase de análisis.
 
-* **At the end of the analysis**: Cuando una comprobación requiere que se complete la personalización de mensajes.
+* **Al final del análisis**: Cuando una comprobación requiere que se complete la personalización de mensajes.

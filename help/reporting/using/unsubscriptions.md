@@ -12,13 +12,13 @@ exl-id: 02c24d66-f379-476d-9536-e652dc74bcf8
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 17%
+ht-degree: 3%
 
 ---
 
 # Bajas{#unsubscriptions}
 
-El informe **[!UICONTROL Unsubscriptions]** identifica los envíos con la mayor cantidad de bajas.
+El **[!UICONTROL Unsubscriptions]** identifica los envíos con la mayor cantidad de bajas.
 
 ![](assets/delivery_reports_unsub.png)
 

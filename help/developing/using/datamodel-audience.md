@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 53da6c4e-d4fb-4677-acff-744e3eb10960
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 40%
+source-wordcount: '214'
+ht-degree: 38%
 
 ---
 
@@ -69,14 +69,14 @@ ht-degree: 40%
                </tr>
                <tr>
                   <td>count</td>
-                  <td>Recuento</td>
+                  <td>Cuenta</td>
                   <td>entero </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>countDate</td>
                   <td>Fecha de recuento</td>
-                  <td>date </td>
+                  <td>fecha </td>
                   <td> </td>
                </tr>
                <tr>
@@ -88,7 +88,7 @@ ht-degree: 40%
                <tr>
                   <td>created</td>
                   <td>Creado</td>
-                  <td>date </td>
+                  <td>fecha </td>
                   <td> </td>
                </tr>
                <tr>
@@ -118,7 +118,7 @@ ht-degree: 40%
                <tr>
                   <td>expirationDate</td>
                   <td>Caduca el</td>
-                  <td>date </td>
+                  <td>fecha </td>
                   <td> </td>
                </tr>
                <tr>
@@ -152,7 +152,7 @@ ht-degree: 40%
                   <td> </td>
                </tr>
                <tr>
-                  <td>label</td>
+                  <td>etiqueta</td>
                   <td>Etiqueta</td>
                   <td>cadena (128)</td>
                   <td> </td>
@@ -160,7 +160,7 @@ ht-degree: 40%
                <tr>
                   <td>lastModified</td>
                   <td>Última modificación</td>
-                  <td>date </td>
+                  <td>fecha </td>
                   <td> </td>
                </tr>
                <tr>
@@ -171,7 +171,7 @@ ht-degree: 40%
                </tr>
                <tr>
                   <td>name</td>
-                  <td>ID</td>
+                  <td>Identificación</td>
                   <td>cadena (64)</td>
                   <td> </td>
                </tr>
@@ -207,7 +207,7 @@ ht-degree: 40%
                </tr>
                <tr>
                   <td>título</td>
-                  <td>Audiencia</td>
+                  <td>Público</td>
                   <td>cadena (255)</td>
                   <td> </td>
                </tr>

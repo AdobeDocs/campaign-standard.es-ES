@@ -11,8 +11,8 @@ level: Beginner
 exl-id: b0cc38fe-cf71-4350-8b4e-7daf0bf94066
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 14%
+source-wordcount: '525'
+ht-degree: 8%
 
 ---
 
@@ -28,7 +28,7 @@ Las opciones posibles son las siguientes:
 
 * **[!UICONTROL History in days]**: especifica el número de días después de los cuales se debe purgar el historial. El historial contiene elementos relacionados con el flujo de trabajo: registros, tareas, eventos (objetos técnicos vinculados a la operación de flujo de trabajo), así como archivos descargados por **[!UICONTROL Transfer file]** actividad. El valor predeterminado es de 30 días para las plantillas de flujo de trabajo integradas.
 
-  La depuración del historial se realiza mediante el flujo de trabajo de limpieza de la base de datos técnico, que se ejecuta de forma predeterminada todos los días. (consulte [Lista de flujos de trabajo técnicos](../../administration/using/technical-workflows.md).)
+  La depuración del historial se realiza mediante el flujo de trabajo técnico Database cleanup, que se ejecuta de forma predeterminada todos los días (consulte [Lista de flujos de trabajo técnicos](../../administration/using/technical-workflows.md).)
 
   >[!IMPORTANT]
   >

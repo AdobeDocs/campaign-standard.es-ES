@@ -10,8 +10,8 @@ level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 95%
+source-wordcount: '2011'
+ht-degree: 93%
 
 ---
 
@@ -492,12 +492,12 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
   <tr> 
    <td> <strong>AllNonNull2</strong><br /> </td> 
    <td> Indica si todos los parámetros no son nulos y no están vacíos.<br /> </td> 
-   <td> AllNonNull2(&lt;cadena&gt;, &lt;cadena&gt;)<br /> </td> 
+   <td> AllNonNull2(&lt;string&gt;, &lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>AllNonNull3</strong><br /> </td> 
    <td> Indica si todos los parámetros no son nulos y no están vacíos.<br /> </td> 
-   <td> AllNonNull3(&lt;cadena&gt;, &lt;cadena&gt;, &lt;cadena&gt;)<br /> </td> 
+   <td> AllNonNull3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ASCII</strong><br /> </td> 
@@ -507,7 +507,7 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
   <tr> 
    <td> <strong>Char</strong><br /> </td> 
    <td> Devuelve el carácter correspondiente al código ASCII “n”.<br /> </td> 
-   <td> Char(&lt;número&gt;)<br /> </td> 
+   <td> Char()&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Charindex</strong><br /> </td> 
@@ -522,7 +522,7 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
   <tr> 
    <td> <strong>GetLine</strong><br /> </td> 
    <td> Muestra la línea nth (de 1 a n) de la cadena.<br /> </td> 
-   <td> GetLine(&lt;cadena&gt;)<br /> </td> 
+   <td> GetLine()&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>IfEquals</strong><br /> </td> 
@@ -552,7 +552,7 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
   <tr> 
    <td> <strong>Left</strong><br /> </td> 
    <td> Devuelve los primeros “n” caracteres de la cadena<br /> </td> 
-   <td> Left(&lt;cadena&gt;, &lt;número&gt;)<br /> </td> 
+   <td> Left()&lt;string&gt;, &lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Length</strong><br /> </td> 
@@ -562,27 +562,27 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
    <td> Devuelve la cadena en minúscula<br /> </td> 
-   <td> Lower(&lt;cadena&gt;)<br /> </td> 
+   <td> Lower()&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
    <td> Elimina los espacios a la izquierda de la cadena<br /> </td> 
-   <td> Ltrim(&lt;cadena&gt;)<br /> </td> 
+   <td> Ltrim()&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Md5Digest</strong><br /> </td> 
    <td> Devuelve una representación hexadecimal de la clave MD5 de una cadena<br /> </td> 
-   <td> Md5Digest(&lt;cadena&gt;)<br /> </td> 
+   <td> Md5Digest(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>MemoContains</strong><br /> </td> 
    <td> Especifica si la nota contiene la cadena transferida como parámetro<br /> </td> 
-   <td> MemoContains(&lt;Memo&gt;, &lt;cadena&gt;)<br /> </td> 
+   <td> MemoContains()&lt;memo&gt;, &lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>RPad</strong><br /> </td> 
    <td> Devuelve la cadena completa a la derecha<br /> </td> 
-   <td> RPad(&lt;cadena&gt;, &lt;número&gt;, &lt;carácter&gt;)<br /> </td> 
+   <td> RPad()&lt;string&gt;, &lt;number&gt;, &lt;character&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Replace</strong><br /> </td> 

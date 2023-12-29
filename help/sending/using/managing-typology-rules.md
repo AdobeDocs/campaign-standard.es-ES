@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: 5ef66b1b-1c81-42fb-a18c-fcf7f21e1ff7
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '554'
 ht-degree: 96%
 
 ---
@@ -58,7 +58,7 @@ Los pasos principales para crear una regla de tipología son los siguientes:
 
 1. Una vez seleccionadas todas las tipologías, haga clic en **[!UICONTROL Create]** para confirmar la creación de la regla de tipología.
 
-## Orden de ejecución de las reglas de tipología {#typology-rules-execution-order}
+## Orden de ejecución de reglas de tipología {#typology-rules-execution-order}
 
 Las reglas de tipología se ejecutan en un orden especificado durante las fases de direccionamiento, análisis y personalización de mensajes.
 

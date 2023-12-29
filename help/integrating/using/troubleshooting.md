@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 5882ada6-dff4-4fd1-a433-0eb31570f73c
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '350'
 ht-degree: 18%
 
 ---
@@ -48,4 +48,4 @@ En este caso, asegúrese de que los siguientes elementos están correctamente co
 
   Es posible que las audiencias del Experience Cloud no se compartan porque el flujo de trabajo técnico se ha detenido o pausado. Acceda a la **[!UICONTROL Import shared audience]** haciendo clic directamente en el **[!UICONTROL Show ImportShared Audience workflow]** en la fuente de datos.
 
-Al importar una audiencia o compartirla mediante el servicio principal Personas, puede que falten algunos datos. Solo se transfieren los registros cuya ID (“ID de visitante” o “ID declarada”) se haya podido conciliar con la dimensión del perfil. Las ID de los segmentos del servicio principal Personas que no reconozca Adobe Campaign no se importan.
+Al importar una audiencia o compartirla mediante el servicio principal Personas, puede que falten algunos datos. Solo se transfieren los registros cuya ID (“ID de visitante” o “ID declarada”) se haya podido reconciliar con la dimensión del perfil. Las ID de los segmentos del servicio principal Personas que no reconozca Adobe Campaign no se importan.

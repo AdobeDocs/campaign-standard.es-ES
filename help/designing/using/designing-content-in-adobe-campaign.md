@@ -11,7 +11,7 @@ exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
 source-wordcount: '1239'
-ht-degree: 88%
+ht-degree: 84%
 
 ---
 
@@ -45,7 +45,7 @@ También puede definir contenido dinámico que varíe según cada perfil. Consul
 
 Mejore sus mensajes y páginas de aterrizaje con vínculos e imágenes. Consulte [Inserción de vínculos](../../designing/using/links.md#inserting-a-link) e [Inserción de imágenes](../../designing/using/images.md#inserting-images).
 
-## Interfaz de Diseñador de correo electrónico {#email-designer-interface}
+## Interfaz del Diseñador de correo electrónico {#email-designer-interface}
 
 El Diseñador de correo electrónico proporciona muchas opciones que le permiten crear, editar y personalizar todos los aspectos del contenido.
 
@@ -99,7 +99,7 @@ Si no selecciona una plantilla, la página de inicio de Diseñador de correo ele
 
 **Componentes de contenido**: son componentes sin procesar y vacíos que se pueden editar una vez colocados en un correo electrónico.
 
-## Prácticas recomendadas para el diseño de contenido {#content-design-best-practices}
+## Prácticas recomendadas de diseño de contenido {#content-design-best-practices}
 
 Para utilizar correctamente el Diseñador de correo electrónico y crear los mejores correos electrónicos de la manera más sencilla posible, se recomienda aplicar los siguientes principios:
 
@@ -167,4 +167,4 @@ Este vídeo ofrece información general sobre el Diseñador de correo electróni
 
 >[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
 
-Para la introducción del Diseñador de correo electrónico, consulte este [conjunto de vídeos](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) que explican la funcionalidad general del Diseñador de correo electrónico y cómo diseñar un correo electrónico desde cero o con plantillas
+Para empezar a usar el Diseñador de correo electrónico, observe esto [conjunto de vídeos](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) que explican la funcionalidad general del Diseñador de correo electrónico y cómo diseñar un correo electrónico desde cero o mediante plantillas

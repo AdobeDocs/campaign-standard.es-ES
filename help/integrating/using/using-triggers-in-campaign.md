@@ -10,20 +10,20 @@ level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
 source-git-commit: cf2ded703e53d6db27e62712734f7ea846da9a21
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 80%
+source-wordcount: '736'
+ht-degree: 74%
 
 ---
 
 # Uso de activadores en Campaign{#using-triggers-in-campaign}
 
-## Creación de un activador asignado en Campaign {#creating-a-mapped-trigger-in-campaign}
+## Creación de un déclencheur asignado en Campaign {#creating-a-mapped-trigger-in-campaign}
 
 >[!NOTE]
 >
->Para crear Déclencheur, necesitará el **[!UICONTROL Administration]** función o para estar en **[!UICONTROL Administrators]** grupo de seguridad. Para obtener más información, consulte esta [página](../../administration/using/list-of-roles.md).
+>Para crear Déclencheur, necesitará el **[!UICONTROL Administration]** función o para estar en **[!UICONTROL Administrators]** grupo de seguridad. Para obtener más información, consulte [página](../../administration/using/list-of-roles.md).
 
-Debe asegurarse de definir los comportamientos que desea supervisar de antemano en Adobe Experience Cloud (servicio principal de **[!UICONTROL Triggers]**). Para obtener más información, consulte la [documentación de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=es). Tenga en cuenta que cuando define el activador, debe activar los alias. Para cada comportamiento (navegación/abandono de formulario, adición/eliminación de productos, sesión caducada, etc.), se debe añadir un nuevo activador en Adobe Experience Cloud.
+Debe asegurarse de definir los comportamientos que desea supervisar de antemano en Adobe Experience Cloud (**[!UICONTROL Triggers]** servicio principal). Para obtener más información, consulte la [documentación de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=es). Tenga en cuenta que cuando define el activador, debe activar los alias. Para cada comportamiento (navegación/abandono de formulario, adición/eliminación de productos, sesión caducada, etc.), se debe añadir un nuevo activador en Adobe Experience Cloud.
 
 Ahora tiene que crear un evento de activación en Adobe Campaign basado en un activador de Adobe Experience Cloud existente.
 
@@ -75,7 +75,7 @@ Después de crear un evento de déclencheur en Adobe Campaign basado en un décl
 
 Una vez publicado el evento, se crea automáticamente una plantilla transaccional vinculada al nuevo evento. Después debe modificar y publicar la plantilla que acaba de crear. Para obtener más información, consulte la sección [Modificación de la plantilla](../../start/using/marketing-activity-templates.md).
 
-## Modificación de la plantilla de mensaje transaccional {#editing-the-transactional-message-template}
+## Edición de la plantilla de mensaje transaccional {#editing-the-transactional-message-template}
 
 Una vez creado y publicado el evento de activación, la plantilla transaccional correspondiente se crea automáticamente. Para obtener más información, consulte [Creación de un activador asignado en Campaign](#creating-a-mapped-trigger-in-campaign).
 

@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 7f2a3139-57eb-48ff-9b1a-ac2caad2f691
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 12%
+source-wordcount: '1347'
+ht-degree: 10%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 12%
                <tr>
                   <td>birthDate</td>
                   <td>Fecha de nacimiento</td>
-                  <td>date </td>
+                  <td>fecha </td>
                   <td> </td>
                </tr>
                <tr>
@@ -112,7 +112,7 @@ ht-degree: 12%
                <tr>
                   <td>created</td>
                   <td>Creado</td>
-                  <td>date </td>
+                  <td>fecha </td>
                   <td> </td>
                </tr>
                <tr>
@@ -130,7 +130,7 @@ ht-degree: 12%
                <tr>
                   <td>cusLastTransactionDate</td>
                   <td>Fecha de última transacción</td>
-                  <td>date </td>
+                  <td>fecha </td>
                   <td> </td>
                </tr>
                <tr>
@@ -140,7 +140,7 @@ ht-degree: 12%
                   <td> </td>
                </tr>
                <tr>
-                  <td>email</td>
+                  <td>correo electrónico</td>
                   <td>Correo electrónico</td>
                   <td>cadena (128)</td>
                   <td> </td>
@@ -164,8 +164,8 @@ ht-degree: 12%
                   <td> </td>
                </tr>
                <tr>
-                  <td>gender</td>
-                  <td>Sexo</td>
+                  <td>género</td>
+                  <td>Género</td>
                   <td>enumeración (byte) </td>
                   <td>
                      <ul>
@@ -191,7 +191,7 @@ ht-degree: 12%
                <tr>
                   <td>lastModified</td>
                   <td>Última modificación</td>
-                  <td>date </td>
+                  <td>fecha </td>
                   <td> </td>
                </tr>
                <tr>
@@ -215,13 +215,13 @@ ht-degree: 12%
                <tr>
                   <td>minBroadLogEvents</td>
                   <td>MinBroadLogEvents</td>
-                  <td>date </td>
+                  <td>fecha </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>minSubHistoEvents</td>
                   <td>MinSubHistoEvents</td>
-                  <td>date </td>
+                  <td>fecha </td>
                   <td> </td>
                </tr>
                <tr>
@@ -243,7 +243,7 @@ ht-degree: 12%
                   <td> </td>
                </tr>
                <tr>
-                  <td>salutation</td>
+                  <td>salutación</td>
                   <td>Título</td>
                   <td>cadena (20)</td>
                   <td> </td>
@@ -415,7 +415,7 @@ Cumpleaños (cumpleaños)
 </tr>
 <tr>
 <td>endDay</td>
-<td>date</td>
+<td>fecha</td>
 </tr>
 <tr>
 <td>precisión</td>
@@ -427,7 +427,7 @@ Cumpleaños (cumpleaños)
 </tr>
 <tr>
 <td>mes</td>
-<td>date</td>
+<td>fecha</td>
 </tr>
 <tr>
 <td>operador</td>
@@ -439,7 +439,7 @@ Cumpleaños (cumpleaños)
 </tr>
 <tr>
 <td>endMonth</td>
-<td>date</td>
+<td>fecha</td>
 </tr>
 <tr>
 <td>tipo</td>
@@ -447,7 +447,7 @@ Cumpleaños (cumpleaños)
 </tr>
 <tr>
 <td>día</td>
-<td>date</td>
+<td>fecha</td>
 </tr>
 </table>
 
@@ -459,7 +459,7 @@ Por correo electrónico (por correo electrónico)
 <th>Tipo</th>
 </tr>
 <tr>
-<td>email</td>
+<td>correo electrónico</td>
 <td>cadena</td>
 </tr>
 </table>
@@ -472,7 +472,7 @@ Por claves (byKeysProfile)
 <th>Tipo</th>
 </tr>
 <tr>
-<td>email</td>
+<td>correo electrónico</td>
 <td>cadena</td>
 </tr>
 </table>
@@ -498,7 +498,7 @@ Por audiencia estática (byStaticAudience)
 <th>Tipo</th>
 </tr>
 <tr>
-<td>audiencia</td>
+<td>destinatarios</td>
 <td>vincular</td>
 </tr>
 </table>

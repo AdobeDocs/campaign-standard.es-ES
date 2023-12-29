@@ -12,7 +12,7 @@ exl-id: 32d9d174-8438-48d7-b876-33a0c35d9549
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '242'
-ht-degree: 81%
+ht-degree: 76%
 
 ---
 
@@ -51,7 +51,7 @@ Puede enviar un correo electrónico todos los martes a todos los clientes para o
 
 ![](assets/wf-complement-query.png)
 
-## Creación de una entrega de correo electrónico{#creating-an-email-delivery}
+## Creación de una entrega por correo electrónico{#creating-an-email-delivery}
 
 1. Entrada **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, arrastre y suelte un [Envío de correo electrónico](../../automating/using/email-delivery.md) actividad.
 1. Haga clic en la actividad y seleccione ![](assets/edit_darkgrey-24px.png) para editarla.

@@ -10,12 +10,12 @@ level: Intermediate
 exl-id: d5c72f69-68a2-4523-956f-f265ae79b470
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 10%
+source-wordcount: '706'
+ht-degree: 5%
 
 ---
 
-# Diseño de correo electrónico de varias soluciones {#multi-solution-email-design}
+# Diseño de correo electrónico con varias soluciones {#multi-solution-email-design}
 
 Adobe Campaign ofrece varias opciones de creación de correo electrónico. Puede utilizar soluciones como Dreamweaver para editar el contenido del correo electrónico y crear mensajes adaptables en el Diseñador de correo electrónico. También puede enviar contenido por correo electrónico con Adobe Experience Manager y utilizarlo en sus correos electrónicos en Adobe Campaign Standard.
 
@@ -37,7 +37,7 @@ La integración de Adobe Campaign Standard con Dreamweaver permite editar el con
 
 Esta capacidad se detalla en la Documentación de Dreamweaver a la que se puede acceder [aquí](https://helpx.adobe.com/es/dreamweaver/using/working-with-dreamweaver-and-campaign.html).
 
-![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
+![](assets/do-not-localize/how-to-video.png) [Descubra esta funcionalidad en vídeo](#video)
 
 ## Edición de contenido en Experience Manager {#editing-content-in-experience-manager}
 

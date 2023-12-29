@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 2a6a851c-df91-472b-a8a4-0b3876d51c1d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 100%
+source-wordcount: '287'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,7 @@ La actividad **[!UICONTROL Intersection]** se utiliza generalmente como un filtr
 1. Seleccione el **[!UICONTROL Reconciliation type]**:
 
    * **[!UICONTROL Keys only]**: modo predeterminado. La actividad solo mantiene un elemento cuando los elementos de las distintas transiciones de entrada tienen la misma clave.
-   * **[!UICONTROL All shared columns]**: los datos se cuadran sobre la base de columnas comunes con las transiciones de entrada. Por lo tanto, debe seleccionar el conjunto principal que debe servir como base para la comparación. Esta opción se puede utilizar si las dimensiones de segmentación de población de entrada son diferentes.
+   * **[!UICONTROL All shared columns]**: los datos se reconcilian sobre la base de columnas comunes con las transiciones de entrada. Por lo tanto, debe seleccionar el conjunto principal que debe servir como base para la comparación. Esta opción se puede utilizar si las dimensiones de segmentación de población de entrada son diferentes.
    * **[!UICONTROL A selection of columns]**: seleccione esta opción para definir la lista de columnas a las que desea aplicar la reconciliación de datos. Primero debe seleccionar el conjunto principal (el que contiene los datos de origen) y luego especificar los campos que se deben utilizar para la combinación.
 
 1. Marque la casilla **[!UICONTROL Use common additional data only]** si desea mantener solo los datos adicionales que están en todas las transiciones de entrada.

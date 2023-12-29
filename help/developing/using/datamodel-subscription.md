@@ -9,8 +9,8 @@ level: Experienced
 exl-id: cf0fac4e-59fd-4d6e-a411-41361f45938d
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 32%
+source-wordcount: '82'
+ht-degree: 30%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 32%
         <td> </td>
     </tr>
     <tr>
-        <td>email</td>
+        <td>correo electrónico</td>
         <td>Correo electrónico</td>
         <td>cadena (128)</td>
         <td> </td>
@@ -86,7 +86,7 @@ Por correo electrónico (por correo electrónico)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>email</td>
+    <td>correo electrónico</td>
     <td>cadena</td>
     </tr>
 </table>

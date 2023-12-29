@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: e73e2069-e86d-4be2-bf73-22e6dc164340
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 2%
+source-wordcount: '1079'
+ht-degree: 1%
 
 ---
 
@@ -38,7 +38,7 @@ Debe configurar Microsoft Dynamics 365 y Adobe Campaign Standard para que la apl
 Obtenga más información en estas secciones:
 
 * [Configuración de Microsoft Dynamics 365 para integración con Campaign](../../integrating/using/d365-acs-configure-d365.md)
-* [Configuración de Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md)
+* [Configuración del Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md)
 * [Asignación de recursos personalizados de Campaign y entidades personalizadas de Microsoft Dynamics 365](../../integrating/using/d365-acs-notices-and-recommendations.md)
 
 ## Pasos clave para configurar la aplicación de integración de autoservicio {#self-service-app-configuration-steps}

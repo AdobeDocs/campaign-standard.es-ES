@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 612b6203-1cc9-4015-a026-e5a249f3d03d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 98%
+source-wordcount: '1116'
+ht-degree: 96%
 
 ---
 
@@ -108,7 +108,7 @@ El flujo de trabajo se presenta de la siguiente manera:
 
   ![](assets/subscription_activity_example4.png)
 
-## Ejemplo: actualización de varios estados de suscripción de un archivo {#example--updating-multiple-subscription-statuses-from-a-file}
+## Ejemplo: Actualización de varios estados de suscripción de un archivo {#example--updating-multiple-subscription-statuses-from-a-file}
 
 Este ejemplo ilustra cómo importar un archivo que contiene perfiles y actualizar su suscripción a varios servicios especificados en el archivo. Después de importar el archivo, es necesario llevar a cabo una reconciliación para que los datos importados puedan identificarse como perfiles con un vínculo a los servicios. Para asegurarse de que el archivo no contenga duplicados, se ejecutará un proceso de anulación de duplicación en los datos.
 

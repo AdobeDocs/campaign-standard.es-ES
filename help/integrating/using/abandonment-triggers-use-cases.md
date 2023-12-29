@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 94%
+source-wordcount: '996'
+ht-degree: 90%
 
 ---
 
@@ -40,11 +40,11 @@ También necesita tener un sitio web de trabajo.
 
 Para obtener más información, consulte [Configuración de soluciones y servicios](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-solutions-and-services).
 
-## Activador de abandono de exploración {#browse-abandonment-trigger}
+## Déclencheur de abandono de exploración {#browse-abandonment-trigger}
 
 En este caso de uso, vamos a crear un activador simple que se activa cada vez que un cliente abandone una visita en el sitio web. En este ejemplo se supone que ya dispone de la DTM para recopilar y enviar datos a Adobe Analytics y que tiene todos los eventos creados.
 
-### Creación de un activador de Experience Cloud {#creating-an-experience-cloud-trigger}
+### Creación de un Déclencheur de Experience Cloud {#creating-an-experience-cloud-trigger}
 
 1. Seleccione **[!UICONTROL Manage Triggers]** en el menú del servicio principal de activación de Experience Cloud.
 
@@ -58,7 +58,7 @@ En este caso de uso, vamos a crear un activador simple que se activa cada vez qu
 
    ![](assets/trigger_uc_browse_3.png)
 
-### Uso del activador en Adobe Campaign {#using-the-trigger-in-adobe-campaign}
+### Uso del déclencheur en Adobe Campaign {#using-the-trigger-in-adobe-campaign}
 
 Ahora que hemos creado un activador de Experience Cloud, vamos a utilizarlo en Adobe Campaign.
 
@@ -117,11 +117,11 @@ En Adobe Campaign, debe crear un activador vinculado al que ha creado en Experie
 
    ![](assets/trigger_uc_browse_14.png)
 
-## Activador de abandono de búsqueda {#search-abandonment-trigger}
+## Déclencheur de abandono de búsqueda {#search-abandonment-trigger}
 
 En este caso de uso, vamos a crear un activador para volver a conectar con visitantes que fueron a nuestro sitio web de reservas de viajes, buscaron un destino, no encontraron resultados y no reservaron nada después. El proceso general es el mismo que en el caso de uso anterior (consulte [Activador de abandono de exploración](#browse-abandonment-trigger)). Nos centraremos aquí en cómo personalizar el mensaje de correo electrónico de marketing.
 
-### Creación de un activador de Experience Cloud {#creating-an-experience-cloud-trigger-1}
+### Creación de un Déclencheur de Experience Cloud {#creating-an-experience-cloud-trigger-1}
 
 Siga los pasos descritos en el caso de uso anterior para crear un activador de Experience Cloud. Consulte [Creación de un activador de Experience Cloud](#creating-an-experience-cloud-trigger). La diferencia principal es la definición del activador.
 
@@ -129,7 +129,7 @@ Siga los pasos descritos en el caso de uso anterior para crear un activador de E
 
 La sección **[!UICONTROL Include Meta Data]** le permite pasar cualquier dato recopilado de Analytics a la carga del activador. En este ejemplo, creamos una eVar personalizada (por ejemplo, eVar 3) para recopilar el término de búsqueda que introduce el visitante. Este término se utiliza en el mensaje de correo electrónico transaccional enviado al mismo visitante.
 
-### Uso del activador en Adobe Campaign {#using-the-trigger-in-adobe-campaign-1}
+### Uso del déclencheur en Adobe Campaign {#using-the-trigger-in-adobe-campaign-1}
 
 1. Siga los pasos descritos en el caso de uso anterior para crear el activador en Adobe Campaign. Consulte [Uso del activador en Adobe Campaign](#using-the-trigger-in-adobe-campaign). La principal diferencia es cómo accedemos y utilizamos, en Adobe Campaign, los metadatos insertados en la carga del activador.
 1. En el activador de abandono de búsqueda que ha creado en Adobe Campaign, haga clic en el icono **[!UICONTROL Event content and enrichment]** para ver la carga insertada en Adobe Campaign.

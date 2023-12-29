@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 31f4e557-55b3-4bf5-8d5d-9d412b7670a6
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 83%
+source-wordcount: '512'
+ht-degree: 79%
 
 ---
 
@@ -72,7 +72,7 @@ Este informe presenta los procesamientos de correo electrónico tal y como apare
 
 ### Tokens de procesamiento de correo electrónico
 
-El número de procesamientos disponibles aparece en el contrato de licencia. Cada entrega con el **procesamiento de correo electrónico** habilitado disminuye los procesamientos disponibles (conocidos como tokens) uno por uno.
+El número de procesamientos disponibles aparece en el contrato de licencia. Cada envío con **Procesamiento de correo electrónico** enabled reduce en uno los procesamientos disponibles (conocidos como tokens).
 
 Los tokens corresponden a cada renderización individual y no al informe completo de renderización de correo electrónico, lo que significa que:
 

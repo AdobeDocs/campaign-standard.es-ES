@@ -11,14 +11,14 @@ level: Intermediate
 exl-id: 553897d4-2652-453f-960e-bb2993889f37
 source-git-commit: 9bfae9e956fa86254578eda821aedd240c81288c
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 98%
+source-wordcount: '1317'
+ht-degree: 95%
 
 ---
 
 # Adición de un grupo de control {#adding-control-group}
 
-Puede utilizar grupos de control para evitar el envío de mensajes a una parte de la audiencia a fin de medir el impacto de sus campañas.
+Puede utilizar grupos de control para impedir el envío de mensajes a una parte del público con el fin de medir el impacto de sus campañas.
 
 Para hacerlo en Adobe Campaign, cree un <b>grupo de control</b> al definir el destinatario del envío. Los perfiles se agregan al grupo de control aleatoriamente, se filtran o no, o se basan en criterios.
 
@@ -40,7 +40,7 @@ Todos los perfiles que formen parte del grupo de control en la fase de preparaci
 
 Para definir un grupo de control, puede elegir extraer, aleatoriamente o en función de un orden, un porcentaje o un número fijo de perfiles de la población de destinatarios.
 
-### Extracción de destinatario {#target-extraction}
+### Extracción de público objetivo {#target-extraction}
 
 En primer lugar, defina la forma en que se extraerán los perfiles del destinatario: **aleatoriamente** o en función de un **orden**.
 
@@ -116,7 +116,7 @@ Los perfiles que coincidan con el resultado de la consulta se excluirán del des
 
 <!--For more on using the query editor, see the [Editing queries](../../automating/using/editing-queries.md) section.-->
 
-## Caso de uso: configurar un grupo de control {#control-group-example}
+## Caso de uso: Configuración de un grupo de control {#control-group-example}
 
 A continuación se muestra un ejemplo que muestra cómo definir un grupo de control mediante ambos métodos: extraer perfiles del destinatario principal y utilizar una consulta para excluir una población específica.
 

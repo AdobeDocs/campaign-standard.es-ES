@@ -10,14 +10,14 @@ level: Intermediate
 exl-id: 188b1750-e062-4328-9829-6f2848356b5c
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
-source-wordcount: '1149'
-ht-degree: 89%
+source-wordcount: '1152'
+ht-degree: 86%
 
 ---
 
 # Configuración de un proceso de inclusión doble{#setting-up-a-double-opt-in-process}
 
-## Acerca de la opción de inclusión doble {#about-double-opt-in}
+## Acerca de la doble inclusión {#about-double-opt-in}
 
 El mecanismo de inclusión doble es una práctica recomendada al enviar correos electrónicos. Protege la plataforma de direcciones de correo electrónico erróneas o no válidas, bots de spam y evita posibles reclamaciones de spam.
 

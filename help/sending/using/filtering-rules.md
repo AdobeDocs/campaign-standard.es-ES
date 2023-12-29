@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 43e97f3c-ed82-4fcc-ac0d-fcee6a22da35
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '655'
 ht-degree: 23%
 
 ---
@@ -25,15 +25,15 @@ La siguiente tabla proporciona información sobre las reglas de filtrado listas 
 
 | Etiqueta | Canal | Descripción |
 | ---------|----------|---------|
-| **[!UICONTROL Address not specified]** | Todo | Excluye la población objetivo sin una dirección especificada (correo electrónico, dirección postal, etc.) según el canal seleccionado). |
-| **[!UICONTROL Address on denylist]** | Todo | Excluye las direcciones que se encuentran en la lista de bloqueados de la. |
-| **[!UICONTROL Duplicate]** | Todo | Excluye duplicados en función de la población objetivo **[!UICONTROL Address]** field. |
+| **[!UICONTROL Address not specified]** | Todas | Excluye la población objetivo sin una dirección especificada (correo electrónico, dirección postal, etc.) según el canal seleccionado). |
+| **[!UICONTROL Address on denylist]** | Todas | Excluye las direcciones que se encuentran en la lista de bloqueados de la. |
+| **[!UICONTROL Duplicate]** | Todas | Excluye duplicados en función de la población objetivo **[!UICONTROL Address]** field. |
 | **[!UICONTROL Exclude mobile applications]** | Aplicación móvil | Excluye las suscripciones de la aplicación que no coinciden con la aplicación móvil definida en el mensaje. |
 | **[!UICONTROL Exclude mobile applications for In-App]** | En la aplicación | Excluye las suscripciones de la aplicación que no coinciden con la aplicación móvil definida en el mensaje (plantilla en la aplicación). |
 | **[!UICONTROL Exclude mobile applications for In-App broadcast]** | En la aplicación | Excluye las suscripciones a aplicaciones que no coinciden con la aplicación móvil definida en el mensaje (plantilla de difusión en la aplicación) |
 | **[!UICONTROL Exclude mobile applications for Push]** | Aplicación móvil | Excluye las suscripciones de la aplicación que no coinciden con la aplicación móvil definida en el mensaje (para push) |
-| **[!UICONTROL Quarantined address]** | Todo | Excluye las direcciones en cuarentena. |
-| **[!UICONTROL Target limited in size]** | Todo | Comprueba si se ha alcanzado el tamaño máximo de envío para el destino. Se aplica a los envíos de correo directo con la opción &quot;delivery limit&quot; activada. |
+| **[!UICONTROL Quarantined address]** | Todas | Excluye las direcciones en cuarentena. |
+| **[!UICONTROL Target limited in size]** | Todas | Comprueba si se ha alcanzado el tamaño máximo de envío para el destino. Se aplica a los envíos de correo directo con la opción &quot;delivery limit&quot; activada. |
 
 Además de estas reglas de filtrado predeterminadas, hay dos reglas de exclusión disponibles:
 

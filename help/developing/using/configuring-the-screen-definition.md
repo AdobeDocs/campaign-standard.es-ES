@@ -12,7 +12,7 @@ exl-id: dc45f487-7502-478d-a2b3-51669cc6b225
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ En la pestaña **[!UICONTROL Screen definition]**, puede:
 * Personalizar la forma en que se presenta la lista de elementos que conforman el recurso.
 * Definir la forma en que se muestra la vista de detalles de cada elemento del recurso.
 
-## Habilitación del acceso desde el menú de navegación {#enabling-access-from-the-navigation-menu}
+## Habilitar el acceso desde el menú de navegación {#enabling-access-from-the-navigation-menu}
 
 Si desea que el recurso tenga una pantalla dedicada, puede activarla en el menú de navegación.
 
@@ -61,7 +61,7 @@ La sección **[!UICONTROL List configuration]** de la definición de pantalla pe
 
 La pantalla de información general del recurso ya está definida.
 
-## Definición de la configuración de la pantalla de detalles {#defining-the-detail-screen-configuration}
+## Definición de la configuración de pantalla de detalles {#defining-the-detail-screen-configuration}
 
 La sección **[!UICONTROL Detail screen configuration]** de la definición de pantalla permite definir las columnas y la información que se muestran en la pantalla de detalles de cada elemento del recurso.
 

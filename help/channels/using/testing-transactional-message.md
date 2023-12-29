@@ -12,7 +12,7 @@ exl-id: 5138826d-ae08-403b-91ef-91027ef6e78e
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 37%
+ht-degree: 31%
 
 ---
 
@@ -40,7 +40,7 @@ Defina un perfil de prueba que estará vinculado a su evento, lo que le permitir
 
    ![](assets/message-center_5.png)
 
-También puede crear un nuevo perfil de prueba o utilizar uno que ya exista en el menú **[!UICONTROL Test profiles]**. Para ello, haga lo siguiente:
+También puede crear un nuevo perfil de prueba o utilizar uno que ya exista en la **[!UICONTROL Test profiles]** menú. Para ello, haga lo siguiente:
 
 1. Haga clic en **Adobe** , en la esquina superior izquierda, y seleccione **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
 1. En el **[!UICONTROL Event]** , seleccione el evento que acaba de crear. En este ejemplo, seleccione “Abandono del carro de compras (EVTcartAbandonment)”.

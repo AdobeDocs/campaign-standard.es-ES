@@ -29,4 +29,4 @@ La sección **[!UICONTROL Channels]** ofrece las siguientes actividades:
 * [Envío de SMS](../../automating/using/sms-delivery.md)
 * [Envío de notificaciones push](../../automating/using/push-notification-delivery.md)
 * [Envío de correo directo](../../automating/using/direct-mail-delivery.md)
-* [Envío en la aplicación](../../automating/using/in-app-delivery.md)
+* [Entrega en la aplicación](../../automating/using/in-app-delivery.md)

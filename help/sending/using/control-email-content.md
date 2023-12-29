@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: debbc70d-4094-44c0-b7cb-c999effda1a6
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 54%
+source-wordcount: '787'
+ht-degree: 47%
 
 ---
 
@@ -57,7 +57,7 @@ Para aumentar la velocidad de apertura de los mensajes, también puede definir m
 
 De forma predeterminada, cuando se analiza el mensaje, una regla de tipología comprueba si se ha incluido un vínculo de exclusión y genera una advertencia si falta. Para obtener más información sobre la administración de vínculos, consulte [esta sección](../../designing/using/links.md).
 
-Debe comprobar que el vínculo de exclusión funciona correctamente antes de cada envío. Por ejemplo, cuando [envío de la prueba](../../sending/using/sending-proofs.md), asegúrese de que el vínculo sea válido, de que el formulario esté en línea y de que al validarlo se compruebe la **[!UICONTROL No longer contact]** cajas. Debe realizar esta comprobación sistemáticamente porque siempre puede haber errores humanos al introducir el vínculo o al cambiar el formulario. Para obtener más información sobre la administración de la inclusión y la exclusión, consulte [esta sección](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md).
+Debe comprobar que el vínculo de exclusión funciona correctamente antes de cada envío. Por ejemplo, cuando [envío de la prueba](../../sending/using/sending-proofs.md), asegúrese de que el vínculo sea válido, de que el formulario esté en línea y de que al validarlo se compruebe la **[!UICONTROL No longer contact]** cajas. Debe realizar esta comprobación sistemáticamente porque siempre es posible el error humano al introducir el vínculo o al cambiar el formulario. Para obtener más información sobre la administración de la inclusión y la exclusión, consulte [esta sección](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md).
 
 ![](assets/optin_landingpage_3.png)
 

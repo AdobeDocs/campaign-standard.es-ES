@@ -13,8 +13,8 @@ hide: true
 hidefromtoc: true
 source-git-commit: 376f00576ca1d0dfb536b29dbf25d88f7c93b9a8
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 4%
+source-wordcount: '335'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->El servicio Audience Destinations ya no se utiliza. Las funciones obsoletas siguen estando disponibles, pero no se pueden mejorar ni admitir. Obtenga más información [en esta página](../../rn/using/deprecated-features.md)
+>El servicio Audience Destinations ya no se utiliza. Las funciones obsoletas siguen estando disponibles, pero no se pueden mejorar ni admitir. Más información [en esta página](../../rn/using/deprecated-features.md)
 
 Potencie las experiencias de sus consumidores aprovechando el [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html) para crear audiencias con objetivos muy precisos basadas en conjuntos de datos grandes y complejos. Adobe Experience Platform consolida los datos de perfil, comportamiento y de varias entidades en fuentes en línea y sin conexión, incluido Adobe Analytics, para ayudarle a crear una vista de 360 grados de su cliente, lo que le permite administrar de forma eficaz sus experiencias con los clientes.
 

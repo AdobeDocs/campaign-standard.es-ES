@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 19%
+source-wordcount: '567'
+ht-degree: 15%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 19%
 
 Puede crear un correo electrónico a partir de una [campaña](../../start/using/marketing-activities.md#creating-a-marketing-activity), desde Adobe Campaign [página principal](../../start/using/interface-description.md#home-page), o en el [lista de actividades de marketing](../../start/using/marketing-activities.md#about-marketing-activities). También puede crear correos electrónicos recurrentes y de un solo envío a partir de un flujo de trabajo.
 
-![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
+![](assets/do-not-localize/how-to-video.png) [Descubra esta funcionalidad en vídeo](#video)
 
 1. Una vez que haya empezado a crear una actividad de marketing por correo electrónico, seleccione la plantilla que desee utilizar.
 

@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 3fe3495b-e360-4169-b295-86ad93753468
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
-source-wordcount: '1500'
-ht-degree: 96%
+source-wordcount: '1439'
+ht-degree: 93%
 
 ---
 
@@ -107,7 +107,7 @@ Para añadir una categoría en una notificación push:
 
 Según lo que haga el usuario, se notifica a la aplicación para que pueda realizar cualquier tarea asociada.
 
-## Añadir una fecha de vencimiento {#add-expiration-date}
+## Añadir una fecha de caducidad {#add-expiration-date}
 
 Configurar una fecha de vencimiento en la notificación push le permite establecer una fecha límite específica a partir de la cual Apple ([APNS](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/sending_notification_requests_to_apns)) o Android ([FCM](https://firebase.google.com/docs/cloud-messaging/concept-options)) ya no enviarán el mensaje.
 
@@ -139,7 +139,7 @@ Para ello:
 
    ![](assets/push_notif_actionable_buttons.png)
 
-## Añadir contenido multimedia enriquecido {#add-rich-media-content}
+## Añadir contenido con medios enriquecidos {#add-rich-media-content}
 
 El contenido multimedia enriquecido permite propiciar una mejor participación del usuario, quien puede estar más inclinado a abrir la notificación push.
 
@@ -160,7 +160,7 @@ Para incluir elementos multimedia enriquecidos en la notificación push:
 
    ![](assets/push_notif_advanced_2.png)
 
-## Cambiar el comportamiento de notificación para iOS {#change-the-notification-behavior-for-ios}
+## Cambio del comportamiento de notificación para iOS {#change-the-notification-behavior-for-ios}
 
 ![](assets/push_notif_advanced_5.png)
 
@@ -177,7 +177,7 @@ Puede aprovechar las extensiones de la aplicación móvil para modificar aún m�
 
 Cuando se selecciona **[!UICONTROL Content available]**, el indicador de contenido disponible se envía en la carga push para garantizar que la aplicación se activa en cuanto recibe la notificación push, lo que significa que la aplicación puede acceder a los datos de carga. Esto funciona incluso si la aplicación se está ejecutando en segundo plano y sin necesidad de interacción del usuario (p. ej., al tocar la notificación push); sin embargo, no se aplica si la aplicación no se está ejecutando. Para obtener más información, consulte la [documentación para desarrolladores de Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html).
 
-## Cambiar el comportamiento de notificación para Android {#change-the-notification-behavior-for-android}
+## Cambio del comportamiento de notificación para Android {#change-the-notification-behavior-for-android}
 
 Para Android, puede introducir la dirección URL del archivo en el campo **URL de contenido multimedia enriquecido**. Al contrario que con la versión de iOS, para Android solo puede incluir imágenes y no archivos gif, de audio o de vídeo.
 

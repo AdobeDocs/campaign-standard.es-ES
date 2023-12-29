@@ -12,7 +12,7 @@ exl-id: fa39eb54-9ec0-4aff-94a8-5459f4c496d0
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
 source-wordcount: '768'
-ht-degree: 92%
+ht-degree: 90%
 
 ---
 
@@ -72,7 +72,7 @@ Para aplicar los cambios realizados en los recursos, debe actualizar la base de 
 
    ![](assets/schema_extension_31.png)
 
-## Publicación de un recurso con la extensión de API {#publishing-a-resource-with-api-extension}
+## Publicación de un recurso con la extensión API {#publishing-a-resource-with-api-extension}
 
 Puede crear la API de perfil y servicios en los siguientes casos:
 

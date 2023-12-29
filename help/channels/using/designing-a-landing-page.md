@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 28398843-a170-48cf-b9c0-dca7af56236d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1666'
-ht-degree: 97%
+source-wordcount: '1672'
+ht-degree: 93%
 
 ---
 
@@ -34,7 +34,7 @@ En esta página se describen las características específicas del editor de con
 
 * [Inserción de un campo de personalización.](../../designing/using/personalization.md#inserting-a-personalization-field)
 * [Añadir un bloque de contenido](../../designing/using/personalization.md#adding-a-content-block)
-* [Inserción de un vínculo](../../designing/using/links.md#inserting-a-link)
+* [Inserción de un enlace](../../designing/using/links.md#inserting-a-link)
 * [Inserción de imágenes](../../designing/using/images.md)
 * [Prácticas recomendadas generales para el diseño de contenido](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)
 
@@ -43,7 +43,7 @@ En esta página se describen las características específicas del editor de con
 >
 >Antes de importar una página HTML en Adobe Campaign, asegúrese de que se abra y se muestre correctamente en los distintos navegadores. Si la página HTML contiene secuencias de comandos JavaScript, deben ejecutarse sin errores fuera del editor. En general, evite utilizar secuencias de comandos en el contenido del mensaje para asegurarse de que los clientes de correo electrónico lo procesan correctamente.
 
-## Interfaz del editor de contenido de páginas de aterrizaje{#landing-page-content-editor-interface}
+## Interfaz del editor de contenido de página de aterrizaje{#landing-page-content-editor-interface}
 
 El editor de contenido de páginas de aterrizaje le permite definir, modificar y personalizar fácilmente el contenido en Adobe Campaign. Para acceder a él, haga clic en el bloque **[!UICONTROL Content]** del panel de una página de aterrizaje.
 
@@ -237,7 +237,7 @@ La **barra de herramientas** es un elemento contextual de la interfaz del editor
  </tbody> 
 </table>
 
-## Administración de la estructura y el estilo de la página de aterrizaje{#managing-landing-page-structure-and-style}
+## Administración de la estructura y el estilo de página de aterrizaje{#managing-landing-page-structure-and-style}
 
 ### Administración de bloques en el editor de contenido {#managing-blocks-in-the-content-editor}
 

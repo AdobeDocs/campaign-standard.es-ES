@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 23%
+source-wordcount: '1232'
+ht-degree: 22%
 
 ---
 
@@ -27,7 +27,7 @@ Estos son los pasos principales para crear y diseñar un contenido de correo ele
 1. Añada imágenes y edite el texto del correo electrónico. Consulte [Inserción de imágenes](../../designing/using/images.md#inserting-images).
 1. Personalice su correo electrónico añadiendo campos de personalización, vínculos, etc. Consulte [Inserción de un campo personalizado](../../designing/using/personalization.md#inserting-a-personalization-field), [Inserción de un vínculo](../../designing/using/links.md#inserting-a-link) y [Definición del contenido dinámico en un correo electrónico](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 1. Defina la línea de asunto del correo electrónico. Consulte [Personalización de la línea de asunto de un correo electrónico](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
-1. Previsualización del correo electrónico.
+1. Previsualice el correo electrónico.
 1. Guarde el contenido y continúe con el mensaje después de asegurarse de haber definido una audiencia y de haber programado correctamente el envío.
 
 También puede consultar esta sección [vídeo de introducción](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true).
@@ -203,5 +203,5 @@ El componente de carrusel no es compatible con todos los programas de correo ele
 - [Creación de un correo electrónico](../../channels/using/creating-an-email.md)
 - [Selección de una audiencia en un mensaje](../../audiences/using/selecting-an-audience-in-a-message.md)
 - [Programación de mensajes](../../sending/using/about-scheduling-messages.md)
-- [Vista previa de mensajes](../../sending/using/previewing-messages.md)
+- [Previsualización de mensajes](../../sending/using/previewing-messages.md)
 - [Procesamiento de correo electrónico](../../sending/using/email-rendering.md)

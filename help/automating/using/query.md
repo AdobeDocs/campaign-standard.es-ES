@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 0c26a0f9-9d71-4692-ae86-d47e2df53bb7
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1757'
-ht-degree: 93%
+source-wordcount: '1765'
+ht-degree: 90%
 
 ---
 
@@ -29,7 +29,7 @@ La actividad utiliza la herramienta de edición de consultas. Esta herramienta s
 **Temas relacionados:**
 
 * [Ejemplos de consultas](../../automating/using/query-samples.md)
-* [Caso de uso: Flujo de trabajo de redireccionamiento que envía una nueva entrega a receptores que no abran el correo](../../automating/using/workflow-cross-channel-retargeting.md)
+* [Caso de uso: Flujo de trabajo de redireccionamiento que envía una nueva entrega a receptores que no abran el mensaje](../../automating/using/workflow-cross-channel-retargeting.md)
 
 ## Contexto de uso {#context-of-use}
 
@@ -99,7 +99,7 @@ Ejemplo de filtros disponibles para el recurso **[!UICONTROL Deliveries (deliver
 
 ![](assets/targeting_dimension5.png)
 
-De forma predeterminada, el recurso y la dimensión de segmentación se configuran en perfiles de destinatario. Sin embargo, puede resultar útil utilizar un recurso diferente de la dimensión de segmentación si desea buscar un registro específico en una tabla distante.
+De forma predeterminada, el recurso y la dimensión de segmentación se configuran en perfiles de destino. Sin embargo, puede resultar útil utilizar un recurso diferente de la dimensión de segmentación si desea buscar un registro específico en una tabla distante.
 
 Para obtener más información, consulte este caso de uso: [Uso de recursos diferentes de dimensiones de segmentación](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 

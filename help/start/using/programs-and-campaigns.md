@@ -11,14 +11,14 @@ level: Beginner
 exl-id: 3f4f9307-c65f-47bb-bc92-ce8b5d06557f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 100%
+source-wordcount: '642'
+ht-degree: 97%
 
 ---
 
 # Programas y campañas{#programs-and-campaigns}
 
-## Acerca de los planes, los programas y las campañas {#about-plans--programs-and-campaigns}
+## Acerca de los planes, programas y campañas {#about-plans--programs-and-campaigns}
 
 Adobe Campaign le permite planificar campañas de marketing en las que puede crear y administrar diferentes tipos de actividades: correos electrónicos, mensajes SMS, notificaciones push, flujos de trabajo o páginas de aterrizaje. Estas campañas y su contenido se pueden reunir en programas.
 

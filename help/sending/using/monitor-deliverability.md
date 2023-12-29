@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 683341fb-fef5-4aa1-8606-9526d9ae6290
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 58%
+source-wordcount: '308'
+ht-degree: 25%
 
 ---
 
@@ -21,10 +21,10 @@ ht-degree: 58%
 A continuación, encontrará detalles sobre la **[!UICONTROL Delivery throughput]** así como las diferentes herramientas de monitorización que ofrece Adobe Campaign. Estas son algunas directrices adicionales sobre la monitorización de la capacidad de envío:
 * Compruebe regularmente el rendimiento del envío de toda la plataforma para comprobar si es coherente con la configuración original.
 * Compruebe que los reintentos estén correctamente configurados (30 minutos para el periodo de reintento y más de 20 reintentos) en plantillas de envíos.
-* Compruebe periódicamente si puede acceder al buzón de rechazados y que la cuenta no esté a punto de caducar.
+* Compruebe regularmente que el buzón de rechazos es accesible y que la cuenta no está a punto de caducar.
 * Compruebe el rendimiento de cada envío para asegurarse de que es coherente con la validez del contenido del envío (p. ej. las “ventas flash” deben entregarse en minutos, no en días).
-* Compruebe que las cantidades de errores y nuevas cuarentenas sean coherentes con otros envíos.
-* Consulte cuidadosamente los registros de envío en detalle para comprobar el tipo de errores resaltados (lista de bloqueados, problemas de DNS, reglas de correo no deseado, etc…).
+* Compruebe que el número de errores y nuevas cuarentenas sea coherente con otros envíos.
+* Consulte cuidadosamente los registros de envío en detalle para comprobar el tipo de errores resaltados (listas de bloqueados de, problemas de DNS, reglas de correo no deseado, etc.).
 
 ## Rendimiento del envío {#delivery-throughput}
 
@@ -34,7 +34,7 @@ Para obtener más información sobre esto, consulte [Rendimiento de los envíos]
 
 ![](assets/delivery_reports_1.png)
 
-Puede configurar los valores visualizados cambiando la escala temporal.
+Puede configurar los valores mostrados cambiando la escala temporal.
 
 Hay otros informes disponibles, como **[!UICONTROL Delivery summary]** o **[!UICONTROL Non-deliverables and bounces]**. Para obtener más información, consulte [Informes dinámicos](../../reporting/using/about-dynamic-reports.md).
 

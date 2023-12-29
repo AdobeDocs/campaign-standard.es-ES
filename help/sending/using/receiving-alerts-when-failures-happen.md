@@ -10,8 +10,8 @@ level: Beginner
 exl-id: dc8bd1d3-e199-4901-9b1f-7b485879897d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '2031'
-ht-degree: 3%
+source-wordcount: '2038'
+ht-degree: 2%
 
 ---
 
@@ -75,7 +75,7 @@ Desde la interfaz de Adobe Campaign, puede:
 
 Si desea enviar notificaciones basadas en criterios específicos a diferentes grupos de usuarios, debe utilizar varios paneles. Para crear un nuevo tablero:
 
-1. Vaya a **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]**.
+1. Ir a **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]**.
 1. Seleccione **[!UICONTROL Delivery alerting dashboards]** y haga clic en **[!UICONTROL Create]**.
 1. Compruebe la **[!UICONTROL Enabled]** para activar el tablero actual.
 
@@ -85,7 +85,7 @@ Si desea enviar notificaciones basadas en criterios específicos a diferentes gr
 
 1. Seleccione el grupo de destinatarios al que desea notificar desde el **[!UICONTROL Alert group]** lista desplegable. Para modificar o crear un grupo, consulte [Creación de un grupo de seguridad y asignación de usuarios](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users).
 1. Desde el **[!UICONTROL Delivery alerting criteria]** , haga clic en **[!UICONTROL Create element]** para agregar criterios. Consulte [Acerca de los criterios de alerta](#about-alerting-criteria).
-1. Seleccione el botón **[!UICONTROL Edit properties]**. En el **[!UICONTROL Criteria parameters]** pestaña, defina cómo se aplicarán los criterios. Consulte [Parámetros de criterio](#criteria-parameters).
+1. Seleccione el **[!UICONTROL Edit properties]** botón. En el **[!UICONTROL Criteria parameters]** pestaña, defina cómo se aplicarán los criterios. Consulte [Parámetros de criterio](#criteria-parameters).
 1. Clic **[!UICONTROL Create]** para guardar el tablero.
 
 Ahora, cada vez que una entrega cumple los criterios definidos en este panel, se envía una notificación de alerta al grupo de usuarios especificado.
@@ -132,7 +132,7 @@ Para cada criterio, puede definir la siguiente configuración:
 
 **Temas relacionados:**
 
-* [Registros de envío](../../sending/using/monitoring-a-delivery.md#sending-logs)
+* [Envío de registros](../../sending/using/monitoring-a-delivery.md#sending-logs)
 * [Frecuencia de alerta](#alerting-frequency)
 * [Iconos y estados de la actividad de marketing](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
 

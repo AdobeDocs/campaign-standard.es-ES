@@ -11,7 +11,7 @@ exl-id: f8e7eb96-9541-4d28-9d8d-f06af822debd
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '629'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -114,7 +114,7 @@ El paquete generado está disponible en la carpeta de descargas. El nombre del a
 
    ![](assets/cusresources_import3.png)
 
-### Publicación {#publish-structure}
+### Publicar {#publish-structure}
 
 1. Vaya al menú **[!UICONTROL Administration]** / **[!UICONTROL Development]** / **[!UICONTROL Publication]**.
 1. Haga clic en **[!UICONTROL Prepare publication]** y luego en **[!UICONTROL Publish]** para actualizar la instancia con los datos de los nuevos recursos personalizados.
@@ -137,7 +137,7 @@ Del mismo modo que en el paso anterior, se divide en dos partes: importar el paq
 
    ![](assets/cusresources_importdata.png)
 
-### Publicación {#publish-data}
+### Publicar {#publish-data}
 
 1. Vaya al menú **[!UICONTROL Administration]** / **[!UICONTROL Development]** / **[!UICONTROL Publication]**.
 1. Haga clic en **[!UICONTROL Prepare publication]** y luego en **[!UICONTROL Publish]** para actualizar la instancia con los datos de los recursos personalizados.

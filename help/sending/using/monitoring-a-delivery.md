@@ -12,7 +12,7 @@ exl-id: ddc92077-df73-411d-a161-3263581e6945
 source-git-commit: ed60bde4785da9a8cc5a6cc0efcdb24e2c1f65e3
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 82%
+ht-degree: 79%
 
 ---
 
@@ -55,7 +55,7 @@ Existen varias formas de supervisar un envío y medir su impacto. Como administr
 
 ## Registros de envío {#delivery-logs}
 
-### Registros de envío {#sending-logs}
+### Envío de registros {#sending-logs}
 
 La pestaña **[!UICONTROL Sending logs]** muestra el historial de cada ocurrencia de este envío. La lista de los mensajes enviados y sus estados se almacena aquí. Permite ver el estado de envío de cada destinatario.
 

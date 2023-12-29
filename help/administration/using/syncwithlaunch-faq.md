@@ -8,14 +8,14 @@ level: Experienced
 exl-id: aaaceb3a-5e54-47da-9be4-b70747282830
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 2%
+source-wordcount: '494'
+ht-degree: 1%
 
 ---
 
 # Preguntas frecuentes sobre la sincronización de etiquetas en Adobe Experience Platform {#syncwithlaunch-faq}
 
-Puede importar propiedades móviles de etiquetas en Adobe Campaign Standard a través del **[!UICONTROL Sync with Launch]** flujo de trabajo técnico dedicado. Para obtener más información, consulte esta [página](../../administration/using/technical-workflows.md)
+Puede importar propiedades móviles de etiquetas en Adobe Campaign Standard a través del **[!UICONTROL Sync with Launch]** flujo de trabajo técnico dedicado. Para obtener más información, consulte [página](../../administration/using/technical-workflows.md)
 
 La sección siguiente enumera preguntas comunes sobre esta sincronización.
 

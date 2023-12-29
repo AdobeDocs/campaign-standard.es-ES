@@ -30,7 +30,7 @@ El uso de plantillas de importación facilita la preparación de importaciones s
 
 En muchos proyectos, las importaciones se crean sin actividad de **[!UICONTROL Deduplication]** porque los archivos utilizados en el proyecto no tienen duplicados. Los duplicados aparecen en ocasiones al importar archivos diferentes. En este caso, la deduplicación resulta difícil. Por lo tanto, la deduplicación es una buena precaución en todos los flujos de trabajo de importación.
 
-No dé por hecho que los datos entrantes son coherentes y correctos, o que el departamento de TI o el iniciador de Adobe Campaign se pueden encargar de ello. Durante el proyecto, tenga en cuenta la limpieza de los datos. Deduplique, reconcilie y mantenga la coherencia al importar datos.
+No dé por hecho que los datos entrantes son coherentes y correctos, o que el departamento de TI o el supervisor de Adobe Campaign se pueden encargar de ello. Durante el proyecto, tenga en cuenta la limpieza de los datos. Deduplique, reconcilie y mantenga la coherencia al importar datos.
 
 Un ejemplo de una plantilla de flujo de trabajo genérica diseñada para importar datos está disponible en la [Ejemplo: importar plantilla de flujo de trabajo](../../automating/using/creating-import-workflow-templates.md) sección.
 

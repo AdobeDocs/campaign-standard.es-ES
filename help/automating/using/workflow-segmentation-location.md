@@ -12,7 +12,7 @@ exl-id: feedc2f5-63da-44a5-b8f0-15afdfd47daa
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '268'
-ht-degree: 83%
+ht-degree: 80%
 
 ---
 
@@ -24,7 +24,7 @@ Puede enviar un correo electrónico de segmentación a los clientes con ofertas 
 1. Seleccione **[!UICONTROL New Workflow]** como tipo de flujo de trabajo y haga clic en **[!UICONTROL Next]**.
 1. Introduzca las propiedades del flujo de trabajo y haga clic en **[!UICONTROL Create]**.
 
-## Selección de destinatarios con los que se puede contactar por correo electrónico{#selecting-recipients-contactable-via-email}
+## Selección de destinatarios contactables por correo electrónico{#selecting-recipients-contactable-via-email}
 
 1. Entrada **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, arrastre y suelte una [Consulta](../../automating/using/query.md) actividad ![](assets/query.png).
 1. Haga doble clic en la actividad.

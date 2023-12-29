@@ -12,7 +12,7 @@ exl-id: 239959ad-6386-42bf-a86a-5694cdaecd83
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 74%
+ht-degree: 70%
 
 ---
 
@@ -39,7 +39,7 @@ Se pueden definir audiencias al crear el mensaje mediante el asistente de creaci
 
 1. Defina el **[!UICONTROL Target]** principal del correo electrónico. Esta es la audiencia de destinatario normal del correo electrónico.
 
-   El destinatario se define en la pestaña **[!UICONTROL Target]** y está formado por perfiles identificados de la base de datos. Puede establecer el destinatario principal mediante las funciones del [editor de consultas](../../automating/using/editing-queries.md#creating-queries).
+   El objetivo se define en la variable **[!UICONTROL Target]** y se compone de perfiles identificados de la base de datos. Puede establecer el destinatario principal mediante las funciones del [editor de consultas](../../automating/using/editing-queries.md#creating-queries).
 
    En esta pestaña, la paleta **[!UICONTROL Shortcuts]** solo contiene filtros predefinidos y audiencias que se han definido en los perfiles identificados. La pestaña **[!UICONTROL Explorer]** le permite acceder a configuraciones adicionales.
 

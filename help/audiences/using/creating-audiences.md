@@ -12,13 +12,13 @@ exl-id: b40e4f6f-34bb-40f9-80e8-e9f1bce5548c
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '969'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # Creación de audiencias{#creating-audiences}
 
-## Creación de audiencias de Consulta {#creating-query-audiences}
+## Creación de audiencias de consulta {#creating-query-audiences}
 
 En esta sección se describe cómo crear una audiencia de **Consulta** . También puede crear audiencias importando un archivo o segmentando en un [flujo de trabajo](../../automating/using/get-started-workflows.md).
 

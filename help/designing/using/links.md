@@ -11,13 +11,13 @@ exl-id: d1714101-bad0-40c1-8d60-90469d033197
 source-git-commit: 146dfea38bd456a5d9200b0632d4aa279b10a7b9
 workflow-type: tm+mt
 source-wordcount: '592'
-ht-degree: 15%
+ht-degree: 8%
 
 ---
 
 # Adición de vínculos {#links}
 
-## Inserción de un vínculo {#inserting-a-link}
+## Inserción de un enlace {#inserting-a-link}
 
 El editor permite personalizar un correo electrónico o una página de aterrizaje insertando vínculos en los elementos de contenido del HTML.
 
@@ -59,7 +59,7 @@ Una vez creado el vínculo, aún puede modificarlo desde el panel Configuración
 
 ![](assets/des_link_edit.png)
 
-Al editar un correo electrónico con [Diseñador de correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md), puede acceder fácilmente a los vínculos creados a partir de la tabla de todas las direcciones URL incluidas en el correo electrónico y modificarlos. Esta lista permite tener una vista centralizada y localizar cada URL en el contenido del correo electrónico. Para acceder a él, consulte [Acerca de las URL rastreadas](#about-tracked-urls).
+Al editar un correo electrónico con [Diseñador de correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md), puede acceder fácilmente a los vínculos creados a partir de la tabla de todas las direcciones URL incluidas en el correo electrónico y modificarlos. Esta lista le permite tener una vista centralizada y localizar cada dirección URL en el contenido del correo electrónico. Para acceder a él, consulte [Acerca de las URL rastreadas](#about-tracked-urls).
 
 ![](assets/des_link_list.png)
 
@@ -92,9 +92,9 @@ La dirección URL, la categoría, la etiqueta y el tipo de seguimiento de cada v
 Para cada URL rastreada, puede establecer el modo de seguimiento en uno de estos valores:
 
 * **Rastreado**: activa el seguimiento en esta dirección URL.
-* **Mirror page**: considera esta URL como una URL de página espejo.
-* **Never**: nunca activa el seguimiento de esta dirección URL. Esta información se guarda: si la dirección URL aparece de nuevo en un mensaje futuro, su seguimiento se desactiva automáticamente.
-* **Opt-out**: considera esta URL como una URL de exclusión o de baja.
+* **Página espejo**: considera esta URL como una URL de página espejo.
+* **Nunca**: nunca activa el seguimiento de esta dirección URL. Esta información se guarda: si la dirección URL aparece de nuevo en un mensaje futuro, su seguimiento se desactiva automáticamente.
+* **Opción de exclusión**: considera esta URL como una URL de exclusión o de baja.
 
 ![](assets/des_link_tracking_type.png)
 

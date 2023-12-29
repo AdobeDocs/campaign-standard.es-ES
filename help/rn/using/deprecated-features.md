@@ -127,7 +127,7 @@ Esta sección enumera las funciones y capacidades que se han eliminado de Campai
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> A partir de la versión Campaign 20.1, el SDK v4 queda obsoleto. Ahora se elimina. <a href="https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html">Más información</a>.</p><br/>
+   <td> <p> A partir de la versión Campaign 20.1, el SDK v4 queda obsoleto. Ahora se elimina. <a href="https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html?lang=es">Más información</a>.</p><br/>
    <p>El <a href="https://developer.adobe.com/client-sdks/documentation/">SDK de Adobe Experience Platform Mobile</a> (anteriormente denominada v5) ahora admiten exclusivamente las próximas funciones y funcionalidades de Adobe Experience Cloud.</p>
    <p>Después del 31 de agosto de 2021, los clientes pueden seguir descargando y utilizando los SDK de la versión 4, pero no habrá asistencia técnica del Servicio de atención al cliente ni acceso a los foros.</p>
    <p>Obtenga información sobre cómo migrar del SDK v4 al SDK de Adobe Experience Platform Mobile <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">en esta página</a>.</p></br>

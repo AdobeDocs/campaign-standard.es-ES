@@ -8,8 +8,8 @@ level: Experienced
 exl-id: ea936128-1c51-483d-914c-6d06708456d6
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '8650'
-ht-degree: 86%
+source-wordcount: '8640'
+ht-degree: 85%
 
 ---
 
@@ -62,7 +62,7 @@ Un SMS lleva más información que texto. Aquí hay una lista de lo que puede en
 
 * Una dirección de destinatario, a veces denominada `ADC` o `MSISDN`. Ese es el número del móvil que recibirá el SMS.
 
-* Una dirección de remitente, que puede llamarse `oADC` o, a veces, `sender id`. Puede ser un número de teléfono de uso diario, un código corto cuando se envía a través de un proveedor o un nombre. El nombre es una característica opcional, en ese caso no puede responder al mensaje de texto.
+* Una dirección de remitente, que puede llamarse `oADC` o, a veces, `sender id`. Puede ser un número de teléfono de uso diario, un código corto cuando se envía a través de un proveedor o un nombre. El nombre es una característica opcional, en ese caso no puede responder al SMS.
 
 * Un indicador que señala si el mensaje es un mensaje flash. Un mensaje flash es una ventana emergente que no se almacena en la memoria.
 
@@ -150,7 +150,7 @@ Campos notables en una `BIND_* PDU`:
 
 #### UNBIND {#unbind}
 
-El sistema debe enviar esta PDU antes de desconectarse. Debe esperar la correspondiente `UNBIND_RESP PDU` antes de cerrar la conexión.
+El sistema debe enviar esta PDU antes de desconectarse. Debe esperar la coincidencia `UNBIND_RESP PDU` antes de cerrar la conexión.
 
 La conformidad con SMSC no debe cerrar la conexión, la conexión TCP está controlada por el conector Adobe Campaign.
 
@@ -238,7 +238,7 @@ Cada parte de un mensaje largo es un SMS individual. Estas partes viajan indepen
 
 Se puede establecer el número máximo de SMS por mensaje por envío mediante la configuración **Número máximo de SMS por mensaje** en la **Plantilla de envíos**. Los mensajes que superen este límite fallarán al enviar un mensaje de error con el motivo SMS demasiado largo.
 
-Hay dos maneras de enviar mensajes largos:
+Hay dos maneras de enviar SMS largos:
 
 * **UDH**: la forma predeterminada y recomendada de enviar mensajes largos. En este modo, el conector divide el mensaje en varios `SUBMIT_SM PDU` con información UDH en ellos. Este protocolo es el que utilizan los propios teléfonos móviles. Esto significa que Adobe Campaign tiene el mayor control sobre la generación de mensajes, lo que le permite calcular exactamente cuántas partes se enviaron y cómo se dividieron.
 
@@ -381,7 +381,7 @@ Establece la conexión en **transceptor** modo o en separado **transmisor+recept
 
 #### Nombre de implementación de SMSC {#smsc-implementation-name}
 
-Define el nombre de la implementación de SMSC. Debe configurarse con el nombre de su proveedor. Póngase en contacto con el administrador o con el equipo de entrega para saber qué añadir en este campo. La función de este campo se describe en la sección [gestión de errores SR](../../administration/using/sms-protocol.md#sr-error-management).
+Define el nombre de la implementación de SMSC. Debe configurarse con el nombre de su proveedor. Póngase en contacto con el administrador o con el equipo de entregabilidad para saber qué añadir en este campo. La función de este campo se describe en la sección [gestión de errores SR](../../administration/using/sms-protocol.md#sr-error-management).
 
 #### Servidor {#server}
 
@@ -500,8 +500,7 @@ Ejemplo de una transmisión con una ventana máxima de 4:
 
 ![](assets/do-not-localize/sms_protocol_2.png)
 
-La ventana ayuda a aumentar el rendimiento cuando el vínculo de red tiene una latencia alta.  El valor de la ventana debe ser al menos el número de SMS/s multiplicado por la latencia del vínculo
-en segundos, de modo que el conector nunca está esperando un `SUBMIT_SM_RESP` antes de enviar el siguiente mensaje.
+La ventana ayuda a aumentar el rendimiento cuando el vínculo de red tiene una latencia alta.  El valor de la ventana debe ser al menos el número de SMS/s multiplicado por la latencia del vínculo en segundos, de modo que el conector nunca está esperando un `SUBMIT_SM_RESP` antes de enviar el siguiente mensaje.
 Si la ventana es demasiado grande, puede enviar más mensajes de duplicado en caso de problemas de conexión. Además, la mayoría de los proveedores tienen un límite muy estricto para la ventana y rechazan los mensajes que sobrepasan el límite.
 
 Calcular la fórmula óptima de la ventana de envío:
@@ -542,7 +541,7 @@ Tiempo de espera entre el intento de conexión TCP y la respuesta `BIND_*_RESP`.
 
 Estas configuraciones son ajustes avanzados que adaptan el conector de Adobe Campaign a la mayoría de las peculiaridades de implementación de SMPP.
 
-#### Definir una asignación específica de codificaciones {#encoding-specific-mapping}
+#### Defina una asignación específica de codificaciones {#encoding-specific-mapping}
 
 Consulte la sección [Codificación de texto SMS](../../administration/using/sms-protocol.md#sms-text-encoding) para obtener más información sobre la codificación de texto.
 
@@ -739,7 +738,7 @@ El campo está limitado a 21 caracteres por la especificación del SMPP, pero al
 
 #### Número máximo de SMS por mensaje {#maximum-sms}
 
-Esta configuración solo funciona si la configuración **Carga útil del mensaje** está deshabilitada. Para obtener más información, consulte esta [página](../../administration/using/configuring-sms-channel.md). Si el mensaje requiere más SMS que este valor, se activará un error.
+Esta configuración solo funciona si la configuración **Carga útil del mensaje** está deshabilitada. Para obtener más información, consulte [página](../../administration/using/configuring-sms-channel.md). Si el mensaje requiere más SMS que este valor, se activará un error.
 
 El protocolo SMS limita los SMS a 255 partes, pero algunos teléfonos móviles tienen problemas para reunir mensajes largos con más de 10 partes, el límite depende del modelo exacto. Le recomendamos que no pase más de 5 partes por mensaje.
 

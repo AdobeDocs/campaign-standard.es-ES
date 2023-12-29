@@ -8,7 +8,7 @@ hidefromtoc: true
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '7556'
+source-wordcount: '7674'
 ht-degree: 9%
 
 ---
@@ -210,7 +210,7 @@ ht-degree: 9%
 **Otros cambios**
 
 * Se ha añadido una advertencia en la interfaz de propiedades de entrega. Especifica que las entregas se preparan en función de su periodo de agregación y se descongelan para llamar al flujo de trabajo varias veces al día; debe asegurarse de que no tengan ningún periodo. (CAMP-34393)
-* Se ha agregado una advertencia en las pantallas de configuración de recursos personalizadas. Se recomienda usar un máximo de 30 caracteres para los ID de recursos personalizados. Esto también se aplica a los campos de recursos personalizados, las claves, los índices y los enlaces.
+* Se ha agregado una advertencia en las pantallas de configuración de recursos personalizadas. Se recomienda usar un máximo de 30 caracteres para los ID de recursos personalizados. Esto también se aplica a los campos de recursos personalizados, las claves, los índices y los vínculos.
 * Ahora aparece un mensaje al intentar eliminar un mensaje transaccional que una página de aterrizaje utiliza como mensaje de confirmación.
 * Ahora aparece una advertencia en los registros de flujos de trabajo cuando una actividad se ha estado ejecutando durante más de 6 horas. Esto no se aplica a las actividades Push notification, Delivery, Signal, Start, End, Fork , AND-Joint, Schedule y Wait.
 * Ahora aparece una advertencia en los registros de flujos de trabajo cuando se alcanza el número máximo de flujos de trabajo que se están ejecutando simultáneamente.
@@ -261,13 +261,13 @@ ht-degree: 9%
 * Se ha corregido un problema que podía impedir que los usuarios que no eran administradores guardaran o programaran informes. (CAMP-31133)
 * Se ha corregido un problema que se producía al usar &quot;|&quot; como separador de fechas en la actividad de flujo de trabajo Cargar archivo. (CAMP-34706)
 
-## Versión 19.2.4 de junio de 2019 {#release-19-2-4---june-2019}
+## Versión 19.2.4: junio de 2019 {#release-19-2-4---june-2019}
 
 **Diseñador de correos electrónicos**
 
 * Se ha corregido un problema que impedía que los usuarios editaran fragmentos cuando se utilizaban etiquetas de estilo vacías en el HTML. Esta es una corrección de seguimiento para CAMP-33778 en 19.2.3.
 
-## Versión 19.2.3 de junio de 2019 {#release-19-2-3---june-2019}
+## Versión 19.2.3: junio de 2019 {#release-19-2-3---june-2019}
 
 **Diseñador de correos electrónicos**
 
@@ -531,7 +531,7 @@ Se han añadido varias mejoras al canal de mensajería transaccional para optimi
      <li> La capacidad de <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">recuperar contenido de una URL automáticamente al momento de la preparación</a> </li> 
      <li> Totalmente compatible <a href="../../designing/using/using-reusable-content.md#content-templates">plantillas de contenido listas para usar</a>. </li> 
     </ul> 
-    <p>Para obtener más información, consulte la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentación detallada</a> y el <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">videotutorial</a>. A continuación se enumeran las mejoras y correcciones.</p><p>Como consecuencia, el antiguo editor de contenido se considera ya obsoleto. Para obtener más información, consulte esta <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=es#release-notes">página</a>.</p> </td> 
+    <p>Para obtener más información, consulte la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentación detallada</a> y el <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">vídeo explicativo</a>. A continuación se enumeran las mejoras y correcciones.</p><p>Como consecuencia, el antiguo editor de contenido se considera ya obsoleto. Para obtener más información, consulte esta <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=es#release-notes">página</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Listados de productos en correos electrónicos transaccionales<br /> </td> 

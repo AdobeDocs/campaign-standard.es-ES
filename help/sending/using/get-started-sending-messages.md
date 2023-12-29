@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: bcb28ef5-5cad-43c1-b11b-080abc791a72
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 16%
+source-wordcount: '578'
+ht-degree: 12%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 16%
 <table>
 <tr>
 <td><img src="assets/do-not-localize/icon_prepare.svg" width="60px"><p><a href="#prepare-test-send">Preparar y probar</a></p></td>
-<td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#send-track-messages">Envío, monitorización y seguimiento de</a></p></td>
+<td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#send-track-messages">Envío, monitorización y seguimiento</a></p></td>
 <td><img src="assets/do-not-localize/icon_deliverability.svg" width="60px"><p><a href="#improve-deliverability">Directrices de entrega</a></p></td></tr>
 </table>
 
@@ -46,13 +46,13 @@ Uso **tipologías** para comprobar durante la preparación si su mensaje es vál
 Más información:
 
 * [Preparación del envío](../../sending/using/preparing-the-send.md)
-* [Vista previa de mensajes](../../sending/using/previewing-messages.md)
+* [Previsualización de mensajes](../../sending/using/previewing-messages.md)
 * [Envío de pruebas](../../sending/using/sending-proofs.md)
 * [Procesamiento de correo electrónico](../../sending/using/email-rendering.md)
 * [Programación de mensajes](../../sending/using/about-scheduling-messages.md)
 * [Acerca de las tipologías y reglas de tipología](../../sending/using/about-typology-rules.md)
 
-## Envío, monitorización y seguimiento de {#send-track-messages}
+## Envío, monitorización y seguimiento {#send-track-messages}
 
 <img src="assets/do-not-localize/icon_send.svg"  width="60px">
 

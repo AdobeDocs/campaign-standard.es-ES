@@ -11,7 +11,7 @@ exl-id: d4e1b935-b21f-4a24-99ba-f455db0f7cfc
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '786'
-ht-degree: 25%
+ht-degree: 22%
 
 ---
 
@@ -111,7 +111,7 @@ Con Adobe Campaign Standard, puede realizar envíos móviles a través de tres c
 </tr>
 </table>
 
-## Creación de una notificación push {#create-push}
+## Crear una notificación push {#create-push}
 
 <table style="table-layout:fixed">
 <tr>

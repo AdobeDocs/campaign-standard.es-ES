@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
 source-git-commit: 26e37cea37b33924ac634c5e4ab7c60804a738f1
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 40%
+source-wordcount: '759'
+ht-degree: 46%
 
 ---
 
@@ -88,7 +88,7 @@ Sus cuentas externas ya están configuradas para esta integración.
 
 Las dos fuentes de datos siguientes se crean dentro de Audience Manager: Adobe Campaign (MID) y Adobe Campaign (DeclaredId). Al mismo tiempo, estas dos fuentes de datos están disponibles en Adobe Campaign:
 
-* **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**: Constituye una fuente de datos de serie y configurada de forma predeterminada para la ID del visitante. Los segmentos creados con Campaign forman parte de esta fuente de datos.
+* **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**: Es una fuente de datos predeterminada configurada para el ID de visitante. Los segmentos creados con Campaign forman parte de esta fuente de datos.
 * **ID declarado** fuente de datos: esta fuente de datos debe crearse y asignarse con la variable **[!UICONTROL DeclaredId]** definición de fuente de datos del Audience Manager.
 
 Tenga en cuenta que en el caso de varios sitios web con dominios diferentes, Adobe Campaign no admite la reconciliación basada en ECID.
@@ -124,7 +124,7 @@ Para crear el **[!UICONTROL Declared ID]** fuente de datos:
 
 Para la configuración de la integración con el servicio principal Personas o Audience Manager, también es necesario configurar el servidor de seguimiento de campañas.
 
-Para permitir que las audiencias compartidas funcionen con el ID de visitante, el dominio del servidor de seguimiento debe ser un subdominio de la dirección URL en la que se hizo clic o del sitio web principal.
+Para permitir que los públicos compartidos funcionen con el ID de visitante, el dominio del servidor de seguimiento debe ser un subdominio de la dirección URL en la que se hizo clic o del sitio web principal.
 
 >[!IMPORTANT]
 >
@@ -134,6 +134,6 @@ Para permitir que las audiencias compartidas funcionen con el ID de visitante, e
 
 En caso de que el servicio de ID de visitante no se haya configurado en las propiedades web o sitios web, consulte el siguiente [documento](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html?lang=es) o el siguiente [vídeo](https://helpx.adobe.com/es/marketing-cloud/how-to/email-marketing.html#step-two) para aprender a configurar el servicio.
 
-Sincronizar los identificadores de cliente con el ID declarado mediante `setCustomerID` en el servicio de ID de Experience Cloud con el código de integración: `AdobeCampaignID`. El `AdobeCampaignID` debe coincidir con el valor de la clave de reconciliación establecida en la fuente de datos del destinatario configurada en [Paso 2: Configuración de las fuentes de datos](#step-2--configure-the-data-sources).
+Sincronizar los identificadores de cliente con el ID declarado mediante la función `setCustomerID` en el servicio de ID de Experience Cloud con el código de integración: `AdobeCampaignID`. El `AdobeCampaignID` debe coincidir con el valor de la clave de reconciliación establecida en la fuente de datos del destinatario configurada en [Paso 2: Configuración de las fuentes de datos](#step-2--configure-the-data-sources).
 
-La configuración y el suministro han finalizado, la integración ya puede utilizarse para importar y exportar audiencias o segmentos.
+La configuración y el aprovisionamiento han finalizado, la integración ya puede utilizarse para importar y exportar públicos o segmentos.

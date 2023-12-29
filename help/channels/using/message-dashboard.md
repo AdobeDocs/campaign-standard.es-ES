@@ -12,7 +12,7 @@ exl-id: 886aae39-2029-471c-b4d1-c6ca57d0e568
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '587'
-ht-degree: 6%
+ht-degree: 4%
 
 ---
 
@@ -59,7 +59,7 @@ La pantalla principal está formada por diferentes bloques. Haga clic dentro de 
 
 ![](assets/delivery_dashboard_3.png)
 
-* **[!UICONTROL Deployment]**: le permite realizar un seguimiento del progreso de la preparación o envío del mensaje. Haga clic en el botón situado en la sección inferior derecha de este bloque para acceder a los registros de envío y análisis. Este bloque solo aparece una vez preparado el envío. Para obtener más información, consulte. Consulte [Confirmación del envío](../../sending/using/confirming-the-send.md).
+* **[!UICONTROL Deployment]**: le permite realizar un seguimiento del progreso de la preparación o envío del mensaje. Haga clic en el botón situado en la sección inferior derecha de este bloque para acceder a los registros de envío y análisis. Este bloque solo aparece una vez preparado el envío. Para más información. Consulte [Confirmación del envío](../../sending/using/confirming-the-send.md).
 * **[!UICONTROL Audience]**: le permite establecer el destinatario principal del mensaje, así como los perfiles de prueba. Consulte [Creación de audiencias](../../audiences/using/creating-audiences.md).
 * **[!UICONTROL Schedule]**: le permite especificar la fecha en la que se enviará el mensaje. Consulte [Programación](../../sending/using/about-scheduling-messages.md).
 * **[!UICONTROL Content]**: le permite definir el contenido del mensaje y previsualizarlo. Consulte [Pasos clave para enviar un mensaje](../../channels/using/key-steps-to-send-a-message.md).
@@ -82,7 +82,7 @@ A continuación se muestra una lista de los mensajes que se pueden mostrar:
 
 * *&quot;No se pueden enviar mensajes porque ningún proceso de envío gestiona la afinidad IP actual&quot;.*
 
-  Si ve este mensaje, hay un problema en el nivel de definición de afinidad de IP o en el nivel de proceso de envío. Póngase en contacto con el administrador de Adobe 
+  Si ve este mensaje, hay un problema en el nivel de definición de afinidad de IP o en el nivel de proceso de envío. Póngase en contacto con el administrador del Adobe.
 
 * *&quot;Se trata de una plantilla de mensaje transaccional lista para usar. Si desea modificarla, debe duplicarla y trabajar en la copia&quot;.*
 

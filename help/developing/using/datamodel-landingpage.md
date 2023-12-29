@@ -11,7 +11,7 @@ level: Experienced
 exl-id: bd12a214-5998-4fb9-9f54-0c886067b58b
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '1728'
+source-wordcount: '1817'
 ht-degree: 7%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 7%
       <tr>
          <td>created</td>
          <td>Creado</td>
-         <td>date </td>
+         <td>fecha </td>
          <td> </td>
       </tr>
       <tr>
@@ -234,7 +234,7 @@ ht-degree: 7%
       <tr>
          <td>fin</td>
          <td>Fecha de vencimiento</td>
-         <td>date </td>
+         <td>fecha </td>
          <td> </td>
       </tr>
       <tr>
@@ -298,7 +298,7 @@ ht-degree: 7%
          <td> </td>
       </tr>
       <tr>
-         <td>label</td>
+         <td>etiqueta</td>
          <td>Etiqueta</td>
          <td>cadena (128)</td>
          <td> </td>
@@ -306,7 +306,7 @@ ht-degree: 7%
       <tr>
          <td>lastModified</td>
          <td>Última modificación</td>
-         <td>date </td>
+         <td>fecha </td>
          <td> </td>
       </tr>
       <tr>
@@ -356,7 +356,7 @@ ht-degree: 7%
       </tr>
       <tr>
          <td>name</td>
-         <td>ID</td>
+         <td>Identificación</td>
          <td>cadena (64)</td>
          <td> </td>
       </tr>
@@ -387,12 +387,12 @@ ht-degree: 7%
       <tr>
          <td>publicationDate</td>
          <td>Fecha de publicación</td>
-         <td>date </td>
+         <td>fecha </td>
          <td> </td>
       </tr>
       <tr>
          <td>reconciliationFilter (queryFilterBase)</td>
-         <td>Clave de reconciliación</td>
+         <td>Clave de conciliación</td>
          <td>vincular </td>
          <td> </td>
       </tr>
@@ -437,7 +437,7 @@ ht-degree: 7%
       <tr>
          <td>start</td>
          <td>Fecha de implementación</td>
-         <td>date </td>
+         <td>fecha </td>
          <td> </td>
       </tr>
       <tr>
@@ -607,7 +607,7 @@ ht-degree: 7%
       </tr>
       <tr>
          <td>título</td>
-         <td>página de aterrizaje</td>
+         <td>Página de aterrizaje</td>
          <td>cadena (255)</td>
          <td> </td>
       </tr>
@@ -741,11 +741,11 @@ Presente durante un período determinado (por calendario)
         </tr>
         <tr>
         <td>startDate</td>
-        <td>date</td>
+        <td>fecha</td>
         </tr>
         <tr>
         <td>endDate</td>
-        <td>date</td>
+        <td>fecha</td>
         </tr>
     </table>
 
@@ -758,10 +758,10 @@ Publicado durante un período determinado (por Planning)
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>fecha</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>fecha</td>
     </tr>
 </table>

@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 3cd8d756-a271-4e53-8ed0-984ce20298bc
 source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 1%
+source-wordcount: '852'
+ht-degree: 0%
 
 ---
 
 # Casos de uso móvil admitidos en Adobe Campaign Standard {#mobile-use-cases}
 
-En esta página, encontrará la lista de todos los casos de uso móvil admitidos en [!DNL Adobe Campaign Standard] uso del [!DNL Adobe Experience Platform SDKs]. Tenga en cuenta que la compatibilidad con estos casos de uso implica instalar y configurar el [!DNL Adobe Experience Platform SDKs], [!DNL tags in Adobe Experience Platform], y [!DNL Adobe Campaign Standard]. Para obtener más información, consulte esta [página](../../administration/using/configuring-a-mobile-application.md).
+En esta página, encontrará la lista de todos los casos de uso móvil admitidos en [!DNL Adobe Campaign Standard] uso del [!DNL Adobe Experience Platform SDKs]. Tenga en cuenta que la compatibilidad con estos casos de uso implica instalar y configurar el [!DNL Adobe Experience Platform SDKs], [!DNL tags in Adobe Experience Platform], y [!DNL Adobe Campaign Standard]. Para obtener más información, consulte [página](../../administration/using/configuring-a-mobile-application.md).
 
 Adobe Campaign Standard admite los siguientes casos de uso:
 

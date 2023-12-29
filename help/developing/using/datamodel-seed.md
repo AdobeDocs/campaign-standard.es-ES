@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 9b522c84-e296-47c7-9588-2e5ed08ab631
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 46%
+source-wordcount: '183'
+ht-degree: 42%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 46%
                <tr>
                   <td>created</td>
                   <td>Creado</td>
-                  <td>date </td>
+                  <td>fecha </td>
                   <td> </td>
                </tr>
                <tr>
@@ -56,7 +56,7 @@ ht-degree: 46%
                   <td> </td>
                </tr>
                <tr>
-                  <td>email</td>
+                  <td>correo electrónico</td>
                   <td>Correo electrónico</td>
                   <td>cadena (128)</td>
                   <td> </td>
@@ -88,7 +88,7 @@ ht-degree: 46%
                <tr>
                   <td>lastModified</td>
                   <td>Última modificación</td>
-                  <td>date </td>
+                  <td>fecha </td>
                   <td> </td>
                </tr>
                <tr>
@@ -123,7 +123,7 @@ ht-degree: 46%
                </tr>
                <tr>
                   <td>name</td>
-                  <td>ID</td>
+                  <td>Identificación</td>
                   <td>cadena (64)</td>
                   <td> </td>
                </tr>

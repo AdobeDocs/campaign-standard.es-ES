@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 0f66fe2b-22b1-49d7-a080-29b00941a2cc
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 15%
+source-wordcount: '616'
+ht-degree: 12%
 
 ---
 
@@ -123,7 +123,7 @@ Se han creado las copias de idioma y ahora puede editar el contenido en función
 
 1. Si el contenido o las variantes se actualizan en Adobe Experience Manager, puede sincronizarlos directamente en Adobe Campaign Standard con el **[!UICONTROL Refresh AEM contents]** botón.
 
-1. El correo electrónico está listo para enviarse. Para obtener más información, consulte esta [página](../../sending/using/get-started-sending-messages.md).
+1. El correo electrónico está listo para enviarse. Para obtener más información, consulte [página](../../sending/using/get-started-sending-messages.md).
 
    >[!NOTE]
    >

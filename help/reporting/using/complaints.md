@@ -12,13 +12,13 @@ exl-id: 8de120e9-014f-4faa-948b-843b2ec03f5e
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '86'
-ht-degree: 17%
+ht-degree: 2%
 
 ---
 
 # Reclamaciones{#complaints}
 
-El informe **[!UICONTROL Complaints]** identifica los envíos que reciben la mayoría de las declaraciones como correo no deseado.
+El **[!UICONTROL Complaints]** Este informe identifica los envíos que reciben la mayoría de las declaraciones como correo no deseado.
 
 ![](assets/delivery_reports_complaints.png)
 

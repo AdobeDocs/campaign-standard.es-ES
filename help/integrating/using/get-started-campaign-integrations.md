@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 83%
+source-wordcount: '657'
+ht-degree: 78%
 
 ---
 
@@ -72,8 +72,8 @@ Si desea integrar flujos de datos de otros sistemas con Adobe Campaign, consulte
    <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">Servicio principal People (Perfiles y audiencias)</a><br /> </td> 
   </tr> 
    <tr> 
-   <td> Plataforma de datos de clientes en tiempo real de Adobe (RTCDP)<br /> </td> 
-   <td> La integración entre Adobe Campaign y la plataforma de datos del cliente en tiempo real de Adobe (RTCDP) le permite compartir datos de segmentos e importar audiencias a Adobe Campaign.</td>
+   <td> Adobe Real-time Customer Data Platform (RTCDP)<br /> </td> 
+   <td> La integración entre Adobe Campaign y Adobe Real-time Customer Data Platform (RTCDP) le permite compartir datos de segmentos e importar audiencias a Adobe Campaign.</td>
    <td><a href="../../integrating/using/get-started-sources-destinations.md">Introducción a orígenes y destinos</a></td>
   </tr> 
   <tr> 
@@ -87,7 +87,7 @@ Si desea integrar flujos de datos de otros sistemas con Adobe Campaign, consulte
    <td> <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">Envío de mensajes de marketing según la ubicación con datos</a> de Campaign y puntos de interés (Analytics para dispositivos móviles)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Activadores de Adobe Experience Cloud<br /> </td> 
+   <td> Adobe Experience Cloud Triggers<br /> </td> 
    <td> Le permite enviar correos electrónicos personalizados a sus clientes en Adobe Campaign como reacción a los comportamientos específicos que Adobe Analytics rastrea en su sitio web.<br /> </td> 
    <td> 
     <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">Utilización de los activadores de Experience Cloud en Campaign Standard</a>, <a href="../../integrating/using/abandonment-triggers-use-cases.md">Ejemplos de uso de los activadores de abandono</a>, y vídeo de <a href="https://helpx.adobe.com/es/marketing-cloud/how-to/email-marketing.html">mensajes de remarketing del activador basados en la Actividad del sitio</a> (paso 2)

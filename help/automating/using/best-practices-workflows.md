@@ -11,8 +11,8 @@ level: Beginner
 exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
 source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 80%
+source-wordcount: '1212'
+ht-degree: 77%
 
 ---
 
@@ -24,7 +24,7 @@ Con Adobe Campaign, puede configurar todos los tipos de flujo de trabajo para re
 >
 >El diseño y la ejecución del flujo de trabajo deben ser realizados por un usuario avanzado de Adobe Campaign.
 
-## Asignación de nombre{#naming}
+## Nombre{#naming}
 
 Para facilitar la solución de problemas del flujo de trabajo, Adobe recomienda nombrar y etiquetar sus flujos de trabajo explícitamente. Rellene el campo de descripción del flujo de trabajo para resumir el proceso que se va a realizar de modo que el operador pueda entenderlo fácilmente.
 Si el flujo de trabajo forma parte de un proceso que involucra varios flujos de trabajo, puede utilizar números al introducir una etiqueta para ordenarlos con claridad.
@@ -103,7 +103,7 @@ Durante el desarrollo del flujo de trabajo, se genera un nombre para cada activi
 
 Para duplicar actividades existentes, puede utilizar copiar y pegar. De este modo, se conserva la configuración que se definió originalmente. Para obtener más información, consulte [Duplicado de actividades de flujo de trabajo](../../automating/using/workflow-interface.md).
 
-### Actividad del planificador{#acheduler-activity}
+### Actividad planificador{#acheduler-activity}
 
 Al crear el flujo de trabajo, utilice solamente una **[!UICONTROL Scheduler activity]** por rama. Si la misma rama de un flujo de trabajo tiene varios planificadores (vinculados entre sí), el número de tareas que se van a ejecutar se multiplica exponencialmente, lo cual sobrecarga considerablemente la base de datos.
 
@@ -115,7 +115,7 @@ Para obtener más información, consulte [Actividad del planificador](../../auto
 
 Al diseñar un flujo de trabajo programado que incluya varias actividades, debe asegurarse de que el flujo de trabajo no se vuelva a programar hasta que finalice. Para ello, debe configurar el flujo de trabajo para evitar su ejecución si una o más tareas de una ejecución anterior siguen pendientes. Para obtener más información, consulte [esta página](../../automating/using/scheduled-workflows-execution.md).
 
-## Invocación del flujo de trabajo con parámetros{#workflow-with-parameters}
+## Flujo de trabajo de llamada con parámetros{#workflow-with-parameters}
 
 Asegúrese de que el nombre y el número de parámetros son idénticos a los definidos al invocar al flujo de trabajo (consulte [esta página](../../automating/using/defining-parameters-calling-workflow.md). Los tipos de parámetros también deben ser consistentes con los valores esperados.
 
@@ -137,13 +137,13 @@ Para obtener más información, consulte [Exportación de listas](../../automati
 
 Adobe Campaign ofrece varios registros para comprender mejor los problemas del flujo de trabajo.
 
-### Uso de registros de flujo de trabajo{#using-workflow-logs}
+### Uso de registros de flujo{#using-workflow-logs}
 
 Puede acceder a los registros de flujo de trabajo para monitorizar la ejecución de sus actividades. Indexa las operaciones realizadas y los errores de ejecución por orden cronológico. La pestaña Registros consta del historial de ejecución de todas o algunas actividades seleccionadas.
 La pestaña Tareas detalla la secuencia de ejecución de las actividades. Para obtener más información sobre una actividad, haga clic en una tarea.
 Para obtener más información, consulte [Monitorización de la ejecución del flujo de trabajo](../../automating/using/monitoring-workflow-execution.md).
 
-#### Resolución de problemas de las actividades de administración de datos{#troubleshooting-data-management-activities}
+#### Solución de problemas de actividades de gestión de datos{#troubleshooting-data-management-activities}
 
 Puede analizar consultas SQL en la pestaña Registro.
 
@@ -157,16 +157,16 @@ Puede analizar consultas SQL en la pestaña Registro.
 
 La consulta se muestra en la columna **[!UICONTROL Message]** de los registros.
 
-### Uso de registros de entrega{#using-delivery-logs}
+### Uso de registros de envío{#using-delivery-logs}
 
 Los registros de entrega permiten monitorizar el éxito de sus envíos. Los registros de exclusión devuelven mensajes excluidos durante la preparación del envío. El envío de registros proporciona el estado del envío para cada perfil.
 Para obtener más información, consulte [Comprensión de los errores de entrega](../../sending/using/understanding-delivery-failures.md).
 
-### Uso de las alertas de entrega{#delivery-alerting}
+### Uso de alertas de envío{#delivery-alerting}
 
 La función de alerta de entrega es un sistema de gestión de alertas que permite a un grupo de usuarios recibir automáticamente notificaciones que contengan información sobre la ejecución de sus entregas.
 Para obtener más información, consulte [Alerta de entrega](../../sending/using/receiving-alerts-when-failures-happen.md).
 
 **Temas relacionados:**
 
-* [Gestión de errores](../../automating/using/monitoring-workflow-execution.md)
+* [Administración de errores](../../automating/using/monitoring-workflow-execution.md)

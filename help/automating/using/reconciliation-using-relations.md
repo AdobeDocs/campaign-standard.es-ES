@@ -1,6 +1,6 @@
 ---
 title: Reconciliación de datos mediante relaciones
-description: En el siguiente ejemplo se muestra un flujo de trabajo que actualiza la base de datos con los datos de compra de un archivo.
+description: En el siguiente ejemplo se muestra un flujo de trabajo que actualiza la base de datos utilizando los datos de compra de un archivo.
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -12,7 +12,7 @@ exl-id: 7d0e3f17-ef04-4890-b63b-6957fc6cd648
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 86%
+ht-degree: 81%
 
 ---
 

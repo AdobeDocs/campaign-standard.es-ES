@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 6c01662e-1e19-4cec-aa21-6e84b9b7a677
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 100%
+source-wordcount: '434'
+ht-degree: 99%
 
 ---
 
@@ -34,7 +34,7 @@ Aquí tomamos un ejemplo de mensaje SMS que contiene campos de personalización 
 >
 >El algoritmo que elige automáticamente la mejor codificación se ejecuta de forma independiente para cada mensaje, caso por caso. De este modo, solo se envían en Unicode los mensajes personalizados que requieran codificación Unicode; todos los demás utilizan la codificación GSM.
 
-## Remitente del SMS {#sms-sender}
+## Remitente de SMS {#sms-sender}
 
 >[!IMPORTANT]
 >

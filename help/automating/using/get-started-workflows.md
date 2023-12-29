@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
 source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 38%
+source-wordcount: '548'
+ht-degree: 35%
 
 ---
 
@@ -29,7 +29,7 @@ Un flujo de trabajo también puede incluir usuarios asignándoles tareas o hacie
 
 Los flujos de trabajo se pueden utilizar en diferentes contextos, como por ejemplo:
 
-* Direccionamiento para administrar audiencias o enviar mensajes.
+* Direccionamiento para administrar públicos o enviar mensajes.
 * Administración de datos (ETL) para manipular datos.
 * Importación de datos en la base de datos de Campaign.
 * Procesos técnicos, como limpieza de bases de datos, recuperación de información de seguimiento, etc.

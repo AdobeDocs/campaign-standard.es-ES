@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 85%
+source-wordcount: '727'
+ht-degree: 82%
 
 ---
 
@@ -28,7 +28,7 @@ Varios factores pueden afectar directamente al rendimiento del servidor y ralent
 
 * Número y tipo de elementos de personalización: la personalización en correos electrónicos extrae datos de la base de datos para cada destinatario. Si hay muchos elementos de personalización, esto aumenta la cantidad de datos necesarios para preparar la entrega.  Obtenga más información acerca de la personalización de correo electrónico en [esta sección](../../designing/using/personalization.md)
 
-* Carga del servidor: cuando Campaign gestiona muchas tareas diferentes al mismo tiempo, puede ralentizar el rendimiento. El servidor de debe coordinar todos los datos entrantes y salientes de todos los envíos para garantizar que los datos sean correctos y oportunos.
+* Carga del servidor: cuando Campaign gestiona muchas tareas diferentes al mismo tiempo, puede ralentizar el rendimiento. El servidor debe coordinar todos los datos entrantes y salientes de todas las entregas para garantizar que los datos sean correctos y oportunos.
 
   **SUGERENCIA:** Para evitar esto, coordine la programación de las envíos con los demás miembros de su equipo para garantizar el mejor rendimiento.
 

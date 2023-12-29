@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 56ece9da-18ec-4d27-a637-c22709a5e6aa
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 96%
+source-wordcount: '442'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 96%
 
 Los perfiles de prueba permiten encontrar destinatarios adicionales que no coinciden con los criterios de objetivo definidos. Se añaden a la audiencia de un mensaje para detectar cualquier uso fraudulento de la base de datos de destinatario o para garantizar que los correos electrónicos llegan a las bandejas de entrada.
 
-![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
+![](assets/do-not-localize/how-to-video.png) [Descubra esta funcionalidad en vídeo](#video)
 
 Puede administrar los perfiles de prueba desde el menú avanzado **[!UICONTROL Profiles & audiences > Test profiles]**.
 

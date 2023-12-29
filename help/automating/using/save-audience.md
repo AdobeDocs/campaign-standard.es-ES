@@ -12,11 +12,11 @@ exl-id: c3f029d7-779e-47e7-a925-1e8f672da4dd
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
-# Guardado de audiencia{#save-audience}
+# Guardado de público{#save-audience}
 
 ## Descripción {#description}
 
@@ -59,7 +59,7 @@ La actividad **[!UICONTROL Save audience]** se utiliza esencialmente para manten
    * **[!UICONTROL Create a new audience]**: introduzca el nombre de la audiencia que va a crear. La hora y la fecha de creación de la audiencia se añaden automáticamente al nombre. Esto hace que la audiencia sea única cada vez que se ejecuta el flujo de trabajo.
    * **[!UICONTROL Share in Adobe Experience Cloud]**: si tiene perfiles objetivo y desea exportar la audiencia a Adobe Experience Cloud, seleccione esta opción y, a continuación, seleccione una audiencia compartida existente o cree una nueva.
 
-     Seleccione también una **[!UICONTROL Shared Data source]** que corresponda al recurso de los datos contenidos en la audiencia para que los datos cuadren en Adobe Experience Cloud.
+     Seleccione también una **[!UICONTROL Shared Data source]** que corresponda al recurso de los datos contenidos en la audiencia para que los datos se reconcilien correctamente en Adobe Experience Cloud.
 
      Con esta opción, la audiencia compartida no se añade a la lista de audiencias de Adobe Campaign disponible en el menú **[!UICONTROL Audiences]**.
 

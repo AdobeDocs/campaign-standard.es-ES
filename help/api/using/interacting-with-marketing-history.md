@@ -1,5 +1,5 @@
 ---
-title: Interacción con el historial de marketing
+title: Interactuar con el historial de marketing
 description: Aprenda a interactuar con el historial de marketing de los perfiles
 feature: API
 role: Data Engineer
@@ -8,11 +8,11 @@ exl-id: 67282d21-b4ed-4af5-b751-848a6d705118
 source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
 source-wordcount: '147'
-ht-degree: 10%
+ht-degree: 4%
 
 ---
 
-# Interacción con el historial de marketing{#interacting-with-marketing-history}
+# Interactuar con el historial de marketing{#interacting-with-marketing-history}
 
 El **historia** el punto de conexión permite interactuar con el historial de marketing de un perfil.
 De este modo, puede, por ejemplo, recuperar fácilmente la página espejo de una entrega enviada a un perfil. Para realizar esto, siga los pasos a continuación:

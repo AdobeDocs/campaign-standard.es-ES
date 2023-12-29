@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
 source-git-commit: 4d67d1d0239c7439cc1f4b8e1fd7fb2f7a99adec
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 13%
+source-wordcount: '194'
+ht-degree: 10%
 
 ---
 
@@ -34,4 +34,4 @@ A continuación se muestran los períodos de retención predeterminados para las
 * **Entidades temporales**: 7 días
 * **Eventos de mapa ignorados**: 1 mes
 * **Alertas de envío**: 1 mes
-* **Registro de exportaciones:** 6 meses (recomendado: 1 mes)
+* **Exportar auditoría**: 6 meses (recomendado: 1 mes)

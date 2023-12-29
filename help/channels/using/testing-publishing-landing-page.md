@@ -11,13 +11,13 @@ exl-id: af849377-686f-45b3-bf6e-5069a8966987
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '383'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
 # Prueba y publicación de una página de aterrizaje{#testing-publishing--landing-page}
 
-## Acerca de la publicación de páginas de aterrizaje {#about-landing-page-publication}
+## Acerca de la publicación de página de aterrizaje {#about-landing-page-publication}
 
 Antes de publicar una página de aterrizaje, debe hacer pruebas: valide la ejecución, configure el acceso y configure la caducidad de la página de aterrizaje. Estos pasos son requisitos previos y deben ejecutarse con precaución.
 

@@ -12,7 +12,7 @@ exl-id: d012e2e7-8022-4bfe-8290-3c512b60d9cf
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 91%
+ht-degree: 89%
 
 ---
 
@@ -49,7 +49,7 @@ Cada elemento tiene un icono que corresponde a su tipo:
 
 * ![](assets/timeline_program_icon.png) Programa
 * ![](assets/timeline_campaign_icon.png) Campaign
-* ![](assets/timeline_lp_icon.png) página de aterrizaje
+* ![](assets/timeline_lp_icon.png) Página de aterrizaje
 * ![](assets/timeline_email_icon.png) Correo electrónico
 * ![](assets/timeline_sms_icon.png) SMS
 * ![](assets/timeline_push_icon.png) Notificación push

@@ -10,7 +10,7 @@ level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
 source-git-commit: 17522f4df86c7fb46593472316d57b4ba4acee2b
 workflow-type: tm+mt
-source-wordcount: '2471'
+source-wordcount: '2523'
 ht-degree: 1%
 
 ---
@@ -162,7 +162,7 @@ Al planificar el uso de esta integración, deben tenerse en cuenta las siguiente
 
   Al estimar el volumen total de llamadas al motor de Campaign, es importante tener en cuenta otras fuentes de llamadas al motor, como páginas de aterrizaje, WebApps, JSSP, API, registros de aplicaciones móviles, etc.
 
-  Consulte la información del paquete de Adobe Campaign Standard aquí: [https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)
+  Consulte la información del paquete de Adobe Campaign Standard aquí: [https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/es/legal/product-descriptions/campaign-standard.html)
 
 * La integración admite un máximo de 15 millones de registros totales para la sincronización inicial con los recursos en Campaign. La sincronización incremental está limitada por el paquete de Adobe Campaign Standard.
 

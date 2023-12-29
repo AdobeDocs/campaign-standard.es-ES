@@ -8,8 +8,8 @@ hidefromtoc: true
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '5355'
-ht-degree: 9%
+source-wordcount: '5386'
+ht-degree: 6%
 
 ---
 
@@ -110,7 +110,7 @@ ht-degree: 9%
   </tr> 
   <tr> 
    <td> Administración de usuarios<br /> </td> 
-   <td> La capacidad de unidad geográfica ya no está disponible para las nuevas instancias de Campaign Standard, así como para las instancias existentes sin crear unidades geográficas, a partir de la versión 18.7.<br /> Para obtener más información, consulte esta <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=es#release-notes">página</a>.<br /> </td> 
+   <td> La capacidad de unidad geográfica ya no está disponible para las nuevas instancias de Campaign Standard, así como para las instancias existentes sin crear unidades geográficas, a partir de la versión 18.7.<br /> Para obtener más información, consulte <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=es#release-notes">página</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -167,7 +167,7 @@ ht-degree: 9%
 * Se ha corregido un problema que podía impedir que se enviaran correos electrónicos al incluir una imagen dinámica de Adobe Target (CAMP-24848).
 * Se ha corregido un problema con **[!UICONTROL Privacy Access/Delete Request]** flujos de trabajo técnicos, que no se completaron si falló alguna de las solicitudes.
 * Se ha corregido un problema que impedía que el servicio principal de privacidad recibiera actualizaciones de estado de solicitud de Campaign.
-* Se ha corregido un problema que impedía que el flujo de trabajo técnico **[!UICONTROL Import shared audience]** funcionara correctamente (CAMP -25465).
+* Se ha corregido un problema que podía impedir que **[!UICONTROL Import shared audience]** que el flujo de trabajo técnico funcione correctamente (CAMP-25465).
 * Se ha corregido un problema que impedía que las solicitudes de privacidad de Campaign se marcaran como completadas en el Privacy Service principal.
 * Se ha corregido un problema que podía impedir que algunos usuarios iniciaran sesión en el Campaign Standard a través de la autenticación IMS cuando el Adobe ID era demasiado largo. (CAMP-24095)
 * Se ha corregido un problema con Creative Designer que se podía producir al eliminar módulos de contenido. (CAMP-25242)
@@ -293,7 +293,7 @@ _Recursos personalizados_
  <tbody> 
   <tr> 
    <td> Reglamento General de Protección de Datos.<br /> </td> 
-   <td> El Reglamento General de Protección de Datos (RGPD) es la nueva normativa sobre privacidad de la Unión Europea que unifica y moderniza los requisitos de protección de datos y entrará en vigencia el 25 de mayo de 2018. El RGPD se aplica a los clientes de Adobe Campaign que albergan datos de sujetos de datos que residan en la UE.<br /> Además de las funcionalidades de privacidad disponibles en Adobe Campaign (incluida la administración de consentimiento, configuración de retención de datos y funciones de usuario), estamos tomando esta oportunidad en nuestro rol como procesador de datos para incluir funcionalidades adicionales, para ayudar a facilitar su preparación como controlador de datos para ciertas solicitudes de RGPD:<br /> 
+   <td> El Reglamento General de Protección de Datos (RGPD) es la nueva normativa sobre privacidad de la Unión Europea que unifica y moderniza los requisitos de protección de datos y entrará en vigencia el 25 de mayo de 2018. El RGPD se aplica a los clientes de Adobe Campaign que albergan datos de sujetos de datos que residan en la UE.<br /> Además de las funciones de privacidad ya disponibles en Adobe Campaign (incluida la administración de consentimientos, la configuración de retención de datos y las funciones de usuario), aprovechamos esta oportunidad en nuestra función de procesador de datos para incluir funciones adicionales que le ayudarán a prepararse como controlador de datos para determinadas solicitudes de RGPD:<br /> 
     <ul> 
      <li> Derecho de acceso: permite que el sujeto de datos reciba una copia de sus datos personales capturados por los controladores de datos, incluso los datos almacenados en Adobe Campaign. </li> 
      <li> Derecho a eliminación: autoriza al sujeto de datos a que sus datos personales recopilados por los controladores de datos se borren, lo que incluye datos almacenados en Adobe Campaign. </li> 
@@ -301,7 +301,7 @@ _Recursos personalizados_
   </tr> 
   <tr> 
    <td> Creative Designer para correo electrónico (Beta)<br /> </td> 
-   <td> El nuevo diseñador creativo de Adobe Campaign ofrece una experiencia de creación totalmente integrada en Campaign, lo que permite la creación visual rápida y sencilla de correos electrónicos personalizados y cautivadores sin necesidad de crear una sola línea de código. A través de su potente interfaz de arrastrar y soltar, Creative Designer ayuda a escalar la creación de correos electrónicos tanto si los usuarios comienzan desde una pizarra en blanco como si aprovechan los fragmentos de contenido o las plantillas existentes. <br /> Las funciones clave incluyen las siguientes:<br /> 
+   <td> El nuevo diseñador creativo de Adobe Campaign ofrece una experiencia de creación totalmente integrada en Campaign, lo que permite la creación visual rápida y sencilla de correos electrónicos personalizados y cautivadores sin necesidad de crear una sola línea de código. A través de su potente interfaz de arrastrar y soltar, Creative Designer ayuda a escalar la creación de correos electrónicos tanto si los usuarios comienzan desde una pizarra en blanco como si aprovechan los fragmentos de contenido o las plantillas existentes. <br /> Las funciones clave incluyen:<br /> 
     <ul> 
      <li> Diseñe y cree correos electrónicos adaptables y totalmente personalizados con una interfaz de arrastrar y soltar, aumentada por integraciones de Creative Cloud nativos </li> 
      <li> Cree y guarde una plantilla de contenido de correo electrónico, y aproveche las plantillas guardadas para escalar la creación de correo electrónico </li> 

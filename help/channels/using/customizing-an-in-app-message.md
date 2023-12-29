@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 7d06cf9c-06b6-4041-8360-4f6bdbd48dd3
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '975'
-ht-degree: 100%
+source-wordcount: '976'
+ht-degree: 97%
 
 ---
 
@@ -22,7 +22,7 @@ Para ajustar mejor el mensaje en la aplicación, Adobe Campaign le permite acced
 
 El editor de contenido en la aplicación permite elegir entre dos modos de mensaje:
 
-* [Plantilla de mensaje](#customizing-with-a-message-template): esta plantilla le permite personalizar completamente el mensaje de aplicación con imágenes o vídeos y botones de acción.
+* [Plantilla de mensaje](#customizing-with-a-message-template): esta plantilla le permite personalizar completamente el mensaje en la aplicación con imágenes o vídeos y botones de acción.
 * [Mensaje personalizado](#customizing-with-a-custom-html-message): esta plantilla permite importar HTML personalizado.
 
 ![](assets/inapp_customize_1.png)
@@ -34,7 +34,7 @@ El editor de contenido en la aplicación permite elegir entre dos modos de mensa
 **Temas relacionados:**
 
 * [Envío de un mensaje en la aplicación](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message)
-* [Informes en la aplicación](../../reporting/using/in-app-report.md)
+* [Creación de informes en la aplicación](../../reporting/using/in-app-report.md)
 * [Implementación del seguimiento de notificaciones locales](../../administration/using/local-tracking.md)
 
 ## Personalización con una plantilla de mensaje {#customizing-with-a-message-template}
@@ -67,7 +67,7 @@ Desde la ventana derecha del editor de contenido, se puede obtener una vista pre
 
 ![](assets/inapp_customize_4.png)
 
-### Multimedia {#media}
+### Medios {#media}
 
 La lista desplegable **[!UICONTROL Media]** le permite añadir contenido multimedia al mensaje en la aplicación para crear una experiencia atractiva para el usuario final.
 
@@ -116,7 +116,7 @@ Puede añadir hasta dos botones al mensaje en la aplicación.
    ![](assets/inapp_customize_12.png)
 
 1. Elija cuál de las dos acciones, **[!UICONTROL Dismiss]** o **[!UICONTROL Redirect]**, se asignará al botón principal.
-1. En la categoría **[!UICONTROL Secondary]**, escriba el texto para añadir un segundo botón a la aplicación si es necesario.
+1. En la categoría **[!UICONTROL Secondary]**, escriba el texto para añadir un segundo botón en la aplicación si es necesario.
 1. Seleccione la acción asociada al segundo botón.
 1. Si elige la acción **[!UICONTROL Redirect]**, introduzca la URL web o el vínculo profundo en el campo **[!UICONTROL Destination URL]**.
 
@@ -168,7 +168,7 @@ Para personalizar una notificación local:
 
 1. En la categoría **[!UICONTROL Apple options]**, rellene los campos de **[!UICONTROL Category]** para añadir un ID de acciones personalizadas si está disponible en la aplicación móvil de Apple.
 
-## Personalización con un mensaje HTML personalizado {#customizing-with-a-custom-html-message}
+## Personalización con un mensaje de HTML personalizado {#customizing-with-a-custom-html-message}
 
 >[!NOTE]
 >

@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1198'
-ht-degree: 82%
+source-wordcount: '1171'
+ht-degree: 81%
 
 ---
 
@@ -23,7 +23,7 @@ Las funciones específicas y las autorizaciones correspondientes se detallan en 
 
 Los administradores pueden administrar usuarios desde el Admin Console. Los usuarios se sincronizan automáticamente con Adobe Campaign. Para obtener más información, consulte [Admin Console](https://helpx.adobe.com/es/enterprise/using/users.html) documentación.
 
-![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
+![](assets/do-not-localize/how-to-video.png) [Descubra esta funcionalidad en vídeo](#video)
 
 Para ver los usuarios en Adobe Campaign, haga clic en **Adobe** , en la esquina superior izquierda, y seleccione **[!UICONTROL Administration > Users & Security > Users]**.
 

@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 5e523519-7192-4031-9d96-559af23074d9
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 77%
+source-wordcount: '676'
+ht-degree: 69%
 
 ---
 
@@ -61,7 +61,7 @@ Al configurar, diseñar y probar el mensaje, asegúrese de seguir las prácticas
 
 * [Prácticas recomendadas de entregas](../../sending/using/delivery-best-practices.md)
 * [Control del contenido del correo electrónico](../../sending/using/control-email-content.md)
-* [Vista previa de mensajes](../../sending/using/previewing-messages.md)
+* [Previsualización de mensajes](../../sending/using/previewing-messages.md)
 * [Envío de pruebas](../../sending/using/sending-proofs.md)
 
 ### Verificación del consentimiento mediante la doble inclusión {#double-opt-in}

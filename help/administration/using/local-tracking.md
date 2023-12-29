@@ -8,8 +8,8 @@ level: Experienced
 exl-id: b983d0a3-c345-44d4-bc82-202bf6ed26ab
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 1%
+source-wordcount: '574'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ Para implementar el seguimiento para Adobe Campaign Standard, la aplicación mó
 
 Para enviar información de seguimiento, hay tres variables que se deben enviar: dos son parte de los datos recibidos de Adobe Campaign y la otra es una variable de acción que dicta si es una impresión, un clic o una apertura.
 
-| Variable  | Valor |
+| Variable | Valor |
 | :-: | :-: |
 | deliveryId | `deliveryId` a partir de datos entrantes (similar al seguimiento push donde `_dld` se utiliza) |
 | broadlogId | `broadlogId` a partir de datos entrantes (similar al seguimiento push donde `_mld` se utiliza) |

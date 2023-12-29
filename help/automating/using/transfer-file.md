@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
 source-git-commit: 53852538ac1e092dc9376119f29d969ed4b02952
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 85%
+source-wordcount: '1170'
+ht-degree: 77%
 
 ---
 
@@ -51,10 +51,10 @@ Puede utilizar esta actividad para recuperar datos que luego se estructuran con 
    * [HTTP](#HTTP-configuration-wf)
    * [SFTP](#SFTP-configuration-wf)
    * [Amazon S3](#S3-configuration-wf)
-   * [almacenamiento de blob de Microsoft Azure](#azure-blob-configuration-wf)
+   * [Almacenamiento del blob de Microsoft Azure](#azure-blob-configuration-wf)
    * [Archivos presentes en el servidor de Adobe Campaign](#files-server-configuration-wf)
 
-1. La sección **[!UICONTROL Additional options]**, disponible en función del protocolo seleccionado, le permite añadir parámetros al protocolo.
+1. El **[!UICONTROL Additional options]** , disponible en función del protocolo seleccionado, le permite añadir parámetros al protocolo.
 
    Puede hacer lo siguiente:
 
@@ -160,7 +160,7 @@ Por ejemplo:
 
 `//myserver/hello/myrecipients.csv` es incorrecto.
 
-## Configuración de la histórica {#historization-settings}
+## Configuración de historización {#historization-settings}
 
 Cada vez que se ejecuta una actividad de **[!UICONTROL Transfer file]**, almacena los archivos cargados o descargados en una carpeta dedicada. Se crea una carpeta para cada actividad de **[!UICONTROL Transfer file]** de un flujo de trabajo. Por lo tanto, es importante poder limitar el tamaño de esta carpeta para conservar el espacio físico en el servidor.
 

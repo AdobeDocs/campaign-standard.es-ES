@@ -11,7 +11,7 @@ exl-id: d0c7dc09-6f2b-4336-b545-7afe3a704164
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
@@ -37,7 +37,7 @@ Para editar un perfil existente y consultar los datos asociados a él o modifica
 
 También es posible editar perfiles mediante la API de Adobe Campaign Standard. Para obtener más información, consulte la [documentación específica](../../api/using/updating-profiles.md).
 
-Tema relacionado:
+Temas relacionados:
 
 * [Perfil de cliente integrado](../../audiences/using/integrated-customer-profile.md)
 * [Envío en el huso horario del destinatario](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)

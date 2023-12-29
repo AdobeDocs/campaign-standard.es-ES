@@ -19,7 +19,7 @@ ht-degree: 83%
 
 En la paleta, en el lado izquierdo de la pantalla, despliegue la sección **[!UICONTROL Execution]**.
 
-Las siguientes actividades son específicas para organizar y ejecutar flujos de trabajo. Su tarea principal es coordinar las otras actividades.
+Las siguientes actividades son específicas para organizar y ejecutar flujos de trabajo. Su tarea principal es coordinar las demás actividades.
 
 ![](assets/wkf_execution_activities.png)
 

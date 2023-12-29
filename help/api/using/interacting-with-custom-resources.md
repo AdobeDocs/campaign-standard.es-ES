@@ -1,5 +1,5 @@
 ---
-title: Uso de recursos personalizados
+title: Interacción con recursos personalizados
 description: Obtenga más información sobre la administración de recursos personalizados con API/
 audience: developing
 content-type: reference
@@ -11,11 +11,11 @@ exl-id: 19bfeecb-da60-479c-a929-0cfb72ef59e3
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '192'
-ht-degree: 4%
+ht-degree: 0%
 
 ---
 
-# Uso de recursos personalizados {#interacting-with-custom-resources}
+# Interacción con recursos personalizados {#interacting-with-custom-resources}
 
 El **/customResources** Este punto de conexión le permite exponer los recursos personalizados de Campaign en REST. En función de esta API, hay disponible una integración entre entidades personalizadas y extremos externos.
 

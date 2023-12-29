@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 8980bf05-60a8-4360-a354-445e1faeb5b2
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 5%
+source-wordcount: '1308'
+ht-degree: 1%
 
 ---
 
@@ -28,7 +28,7 @@ La siguiente tabla le proporciona la lista de dimensiones utilizadas en los info
 <table> 
  <thead> 
   <tr> 
-   <th> Dimensión<br /> </th> 
+   <th> Dimension<br /> </th> 
    <th> Definición<br /> </th> 
   </tr> 
  </thead> 
@@ -163,7 +163,7 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
    <td> Porcentaje de correos electrónicos devueltos en comparación con los enviados por correo electrónico.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Haga clic en<br /> </td> 
+   <td> Clic<br /> </td> 
    <td> Número de veces que se hizo clic en un contenido en una entrega.<br /> </td> 
   </tr> 
   <tr> 
@@ -280,7 +280,7 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
    <td> Porcentaje de notificaciones push que rebotaron en comparación con las notificaciones push enviadas.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Haga clic en<br /> </td> 
+   <td> Clic<br /> </td> 
    <td> Número de veces que el usuario ha enviado una notificación push al dispositivo y ha hecho clic en ella. El usuario deseaba ver la notificación, que luego se moverá al seguimiento de Apertura push, o descartarla.<br /> </td> 
   </tr> 
   <tr> 

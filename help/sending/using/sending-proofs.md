@@ -12,7 +12,7 @@ exl-id: 75b64c43-f066-45e7-8d61-95eba8f52b05
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '583'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -106,5 +106,5 @@ Para ocultar el número de la prueba en la línea de asunto, active la opción *
 * [Envío de una prueba, preparación y envío de un vídeo por correo electrónico](../../sending/using/get-started-sending-messages.md#video)
 * [Prueba de mensajes de correo electrónico con perfiles de destino](../../sending/using/testing-messages-using-target.md)
 * [Administración de perfiles de prueba](../../audiences/using/managing-test-profiles.md)
-* [Vista previa de mensajes](../../sending/using/previewing-messages.md)
+* [Previsualización de mensajes](../../sending/using/previewing-messages.md)
 * [Configuración del canal de correo electrónico](../../administration/using/configuring-email-channel.md)

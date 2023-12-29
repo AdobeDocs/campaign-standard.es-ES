@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 474c8002-4263-4617-9480-6a9b603bde8e
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 18%
+source-wordcount: '414'
+ht-degree: 12%
 
 ---
 
@@ -35,7 +35,7 @@ Para enviar notificaciones push con una aplicación de SDK de Experience Cloud, 
 
 Para modificar una notificación push, Adobe Campaign le permite acceder a un conjunto de opciones avanzadas mientras diseña una notificación push.
 
-1. Creación de una notificación push. Para obtener más información, consulte esta [página](../../channels/using/preparing-and-sending-a-push-notification.md).
+1. Cree una notificación push. Para obtener más información, consulte esta [página](../../channels/using/preparing-and-sending-a-push-notification.md).
 
 1. En la página de contenido de las notificaciones push, acceda al **[!UICONTROL Advanced options]** sección.
 

@@ -1,5 +1,5 @@
 ---
-title: Envío en la aplicación
+title: Entrega en la aplicación
 description: La actividad Entrega en la aplicación permite configurar el envío de un mensaje en la aplicación dentro de un flujo de trabajo.
 audience: automating
 content-type: reference
@@ -10,12 +10,12 @@ level: Intermediate
 exl-id: 8d5a35c4-e22b-498e-b71c-c5922cf8c2fd
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 43%
+source-wordcount: '693'
+ht-degree: 39%
 
 ---
 
-# Envío en la aplicación{#in-app-delivery}
+# Entrega en la aplicación{#in-app-delivery}
 
 ## Descripción {#description}
 
@@ -44,7 +44,7 @@ La preparación del mensaje se activa según los parámetros de ejecución del f
 
    >[!NOTE]
    >
-   >Puede acceder a las propiedades generales y a las opciones avanzadas de la actividad (y no al propio envío) mediante el botón ![](assets/dlv_activity_params-24px.png) de las acciones rápidas de la actividad.
+   >Puede acceder a las propiedades generales y a las opciones avanzadas de la actividad (y no al propio envío) a través de ![](assets/dlv_activity_params-24px.png) de las acciones rápidas de la actividad.
 
    ![](assets/wkf_in_app_3.png)
 

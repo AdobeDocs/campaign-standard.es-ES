@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
 source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 40%
+source-wordcount: '1206'
+ht-degree: 39%
 
 ---
 
@@ -54,7 +54,7 @@ Se pueden configurar algunos ajustes específicos para definir el comportamiento
 ## Requisitos previos {#prerequisites}
 
 >[!NOTE]
->Para aprovechar la función de notificación push de Campaign debe proporcionar un certificado push válido en formato .pem sin contraseñas.
+>Para aprovechar la función de notificación push de Campaign, debe proporcionar un certificado push válido en formato .pem sin contraseñas.
 >
 >Si tiene un certificado p12 válido, puede convertirlo fácilmente a un archivo .pem con recursos en línea.
 
@@ -80,7 +80,7 @@ Antes de enviar las notificaciones push, debe hacer lo siguiente:
 
 Consulte los siguientes recursos:
 
-* [Tutoriales en vídeo](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
+* [Tutorials de vídeo](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
 * [Documentación del producto](../../channels/using/about-push-notifications.md)
 * Configuración mediante el SDK de AEP [documentación](../../administration/using/configuring-a-mobile-application.md)
 * [Página de comunidad](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)

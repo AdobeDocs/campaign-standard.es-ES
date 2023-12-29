@@ -12,8 +12,8 @@ hide: true
 hidefromtoc: true
 source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 9%
+source-wordcount: '272'
+ht-degree: 6%
 
 ---
 
@@ -29,7 +29,7 @@ Una vez configurado el flujo de trabajo con una [Audiencia de Adobe Experience P
 
 Para ello, debe añadir estos atributos a la **[!UICONTROL Read audience]** actividad:
 
-1. Abra la actividad **[!UICONTROL Read audience]**. En el **[!UICONTROL Additional data]** , haga clic en **[!UICONTROL Create element]** botón.
+1. Abra el **[!UICONTROL Read audience]** actividad. En el **[!UICONTROL Additional data]** , haga clic en **[!UICONTROL Create element]** botón.
 
    Tenga en cuenta que la variable **[!UICONTROL Additional data]** La pestaña solo está disponible después de seleccionar una audiencia de Adobe Experience Platform.
 

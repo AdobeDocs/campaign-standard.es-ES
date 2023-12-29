@@ -11,7 +11,7 @@ level: Experienced
 exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '2200'
+source-wordcount: '2208'
 ht-degree: 93%
 
 ---
@@ -46,7 +46,7 @@ Al reemplazar actividades de API externas, añada la nueva actividad de API exte
 >
 >No podrá copiar sobre los valores del encabezado específicos de la actividad, ya que están enmascarados dentro de la actividad.
 
-### Limitaciones y mecanismos de protección {#guardrails}
+### Limitaciones y barreras {#guardrails}
 
 Esta actividad se rige por los siguientes mecanismos de protección:
 

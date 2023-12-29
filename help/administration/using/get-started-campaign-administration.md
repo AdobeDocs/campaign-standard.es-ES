@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 9676b5e8-4c34-4848-8616-235e0bac5d6b
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 15%
+source-wordcount: '631'
+ht-degree: 13%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 15%
 <tr><td><img src="assets/do-not-localize/icon_menu.svg" width="60px"><p><a href="#administration-menu">Menú Administración</a></p></td>
 <td><img src="assets/do-not-localize/icon_users.svg" width="60px"><p><a href="#users-security">Usuarios y seguridad</a></p></td>
 <td><img src="assets/do-not-localize/icon_channels.svg" width="60px"><p><a href="#channels-configuration">Configuración de canales</a></p></td>
-<td><img src="assets/do-not-localize/icon_settings.svg" width="60px"><p><a href="#application-settings">Configuración de la aplicación</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_settings.svg" width="60px"><p><a href="#application-settings">Configuración de aplicación</a></p></td></tr>
 </table>
 
 Como solución basada en la nube, Adobe Campaign ofrece a los administradores diferentes formas de configurar la aplicación. Aunque la configuración de la infraestructura la realiza el Adobe, los administradores funcionales pueden realizar diversas operaciones de configuración detalladas a continuación.
@@ -81,7 +81,7 @@ Más información:
 * [Configuración de canales de SMS](../../administration/using/configuring-sms-channel.md)
 * [Configuración de una aplicación móvil](../../administration/using/configuring-a-mobile-application.md)
 
-## Configuración de la aplicación {#application-settings}
+## Configuración de aplicación {#application-settings}
 
 <img src="assets/do-not-localize/icon_settings.svg" width="60px">
 

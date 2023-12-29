@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 3189745c-dcc9-4719-b080-85ffa3bb66be
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 98%
+source-wordcount: '381'
+ht-degree: 97%
 
 ---
 
@@ -44,7 +44,7 @@ La actividad **[!UICONTROL Union]** se utiliza para combinar las poblaciones de 
 1. Seleccione el **[!UICONTROL Reconciliation type]** para definir cómo se manejan los duplicados de la confrontación entre poblaciones entrantes:
 
    * **[!UICONTROL Keys only]**: este es el modo predeterminado. La actividad solo mantiene un elemento cuando los elementos de las distintas transiciones de entrada tienen la misma clave. Puede usar esta opción solo si las poblaciones entrantes son homogéneas.
-   * **[!UICONTROL All shared columns]**: los datos se concilian sobre la base de todas las columnas comunes con transiciones entrantes. Por lo tanto, debe seleccionar el conjunto principal que se mantendrá en caso de duplicado. Esta opción se puede utilizar si las dimensiones de segmentación de población de entrada son diferentes.
+   * **[!UICONTROL All shared columns]**: los datos se reconcilian sobre la base de todas las columnas comunes con transiciones entrantes. Por lo tanto, debe seleccionar el conjunto principal que se mantendrá en caso de duplicado. Esta opción se puede utilizar si las dimensiones de segmentación de población de entrada son diferentes.
    * **[!UICONTROL A selection of columns]**: seleccione esta opción para definir la lista de columnas a las que desea aplicar la reconciliación de datos. Primero debe seleccionar el conjunto principal (el que contiene los datos de origen) y luego las columnas que se utilizarán para la unión.
 
 1. Marque la casilla **[!UICONTROL Use common additional data only]** si desea mantener solo los datos adicionales que están en todas las transiciones de entrada.

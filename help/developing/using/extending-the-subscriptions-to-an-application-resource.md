@@ -11,13 +11,13 @@ exl-id: ac9c556d-c0f6-4b33-8855-1f5f669c148f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '232'
-ht-degree: 24%
+ht-degree: 10%
 
 ---
 
 # Ampliación de las suscripciones a un recurso de aplicación{#extending-the-subscriptions-to-an-application-resource}
 
-En Adobe Campaign, los datos de atributos de perfil móviles enviados desde dispositivos móviles se almacenan en el recurso **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**, que le permite definir los datos que desea recopilar de los suscriptores de las aplicaciones. Para obtener más información sobre los recursos personalizados, consulte [esta página](../../developing/using/key-steps-to-add-a-resource.md).
+En Adobe Campaign, los datos de atributos de perfil móviles enviados desde dispositivos móviles se almacenan en **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** Este recurso le permite definir los datos que desea recopilar de los suscriptores de las aplicaciones. Para obtener más información sobre los recursos personalizados, consulte [esta página](../../developing/using/key-steps-to-add-a-resource.md).
 
 Este recurso se puede ampliar para recopilar los datos que se van a enviar desde el dispositivo móvil a Adobe Campaign.
 

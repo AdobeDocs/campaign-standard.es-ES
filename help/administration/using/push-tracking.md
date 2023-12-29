@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
 source-git-commit: acbe5f1990738f586e4310d13f0e19baab11d771
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '973'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Para implementar el seguimiento para Campaign Standard, la aplicación móvil de
 
 Para enviar información de seguimiento, hay tres variables que deben enviarse. Dos que forman parte de los datos recibidos del Campaign Standard y una variable de acción que dicta si es un **Impresión**, **Clic** o **Abrir**.
 
-| Variable  | Valor |
+| Variable | Valor |
 |:-:|:-:|
 | broadlogId | _mId de datos |
 | deliveryId | _dId desde datos |

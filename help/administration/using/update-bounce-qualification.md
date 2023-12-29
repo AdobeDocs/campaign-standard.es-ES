@@ -6,8 +6,8 @@ hidefromtoc: true
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
 source-git-commit: f81b8a3b076a6e29b697f21ea4d99fa7d5b6788c
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 96%
+source-wordcount: '435'
+ht-degree: 97%
 
 ---
 
@@ -43,7 +43,7 @@ En función del periodo de tiempo del problema, se indican a continuación las d
 Para instancias de Campaign con información de respuesta de rechazo SMTP en el campo **[!UICONTROL Error text]** de la lista de cuarentena:
 
 * **El texto de error (texto de cuarentena)** contiene “550-5.1.1 La cuenta de correo electrónico que intentó alcanzar no existe” Y **el texto de error (texto de cuarentena)** contiene “support.google.com” **
-* **Actualizar estado (@lastModified)** el 14/12/2020 o después 6:55:00
+* **Estado de la actualización (@lastModified)** el 14/12/2020 a las 6:55:00, o después
 * **Actualizar estado (@lastModified)** el 16/12/2020 o antes 6:00:00
 
 Una vez que tenga la lista de destinatarios afectados, puede aplicarles un estado **[!UICONTROL Valid]** para que el flujo de trabajo **[!UICONTROL Database cleanup]** los elimine de la lista de cuarentena, o simplemente elimínelos de la tabla.

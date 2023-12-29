@@ -11,8 +11,8 @@ level: Experienced
 exl-id: a0adb913-2ee7-4cce-9b4f-74ebb7f1ce6a
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 100%
+source-wordcount: '788'
+ht-degree: 94%
 
 ---
 
@@ -41,7 +41,7 @@ El editor de consultas está formado por una **paleta** y un **espacio de trabaj
 La paleta, situada en la parte izquierda del editor, se divide en dos pestañas, que contienen elementos divididos en bloques temáticos. Las pestañas son estas:
 
 * Los **accesos directos**, disponibles de forma predeterminada, o creados por el administrador de instancias. Aquí encontrará campos, nodos, agrupaciones, vínculos 1-1, vínculos 1-N y otros filtros predefinidos.
-* El **explorador** permite acceder a todos los campos disponibles en el recurso de destinatario: nodos, elementos de agrupación, vínculos (1-1 y 1-N).
+* **Explorer** permite acceder a todos los campos disponibles en el recurso de destinatario: nodos, elementos de agrupación, vínculos (1-1 y 1-N).
 
 Los elementos contenidos en las pestañas deben moverse al espacio de trabajo para que se puedan configurar y tener en cuenta en la consulta. Según la dimensión de segmentación seleccionada (consulte [Dimensiones de segmentación y recursos](../../automating/using/query.md#targeting-dimensions-and-resources)), puede hacer lo siguiente:
 
@@ -117,4 +117,4 @@ Sus consultas ahora se han creado y definido, lo que le permite crear una poblac
 * [Caso de uso: Creación de una entrega de correo electrónico una vez a la semana](../../automating/using/workflow-weekly-offer.md)
 * [Caso de uso: Creación de una entrega segmentada en una ubicación](../../automating/using/workflow-segmentation-location.md)
 * [Caso de uso: Creación de entregas con un complemento](../../automating/using/workflow-created-query-with-complement.md)
-* [Caso de uso: Flujo de trabajo de redireccionamiento que envía una nueva entrega a receptores que no abran el correo](../../automating/using/workflow-cross-channel-retargeting.md)
+* [Caso de uso: Flujo de trabajo de redireccionamiento que envía una nueva entrega a receptores que no abran el mensaje](../../automating/using/workflow-cross-channel-retargeting.md)

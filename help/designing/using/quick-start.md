@@ -11,7 +11,7 @@ exl-id: 47f53290-2190-4181-bcd5-e60287189c41
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '924'
-ht-degree: 6%
+ht-degree: 5%
 
 ---
 
@@ -45,7 +45,7 @@ También puede crear un correo electrónico [con contenido existente](#with-exis
 
 Puede crear un correo electrónico fácilmente, añadir componentes y personalizar su contenido para realizar una entrega rápidamente. Puede adaptar las opciones de estilo al contenido si es necesario. Para obtener más información sobre la administración de la configuración de estilos y atributos en línea, consulte [Edición de estilos de correo electrónico](../../designing/using/styles.md).
 
-1. Creación de un correo electrónico.
+1. Cree un correo electrónico.
 1. Cerrar página principal.
 
 ### Adición de una línea de asunto {#add-a-subject-line}

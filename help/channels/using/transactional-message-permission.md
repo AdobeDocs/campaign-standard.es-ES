@@ -12,7 +12,7 @@ exl-id: 995da330-6c86-444b-86b2-61d887f37db4
 source-git-commit: 7247fe596494690ac0676196fbb72c6139aeb0c7
 workflow-type: tm+mt
 source-wordcount: '797'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->Actualmente, estas funciones solo están disponibles para un conjunto de organizaciones (disponibilidad limitada). Para obtener más información, póngase en contacto con el representante del Adobe.
+>Actualmente, estas funciones solo están disponibles para un conjunto de organizaciones (disponibilidad limitada). Para obtener más información, póngase en contacto con su representante Adobe.
 
 Actualmente, en Adobe Campaign Standard, los usuarios sin el grupo de seguridad Administrador no pueden acceder, crear ni publicar eventos transaccionales, lo que provoca problemas para los usuarios empresariales que necesitan configurar y publicar eventos pero carecen de derechos de administrador. Además, no es posible duplicar eventos transaccionales.
 

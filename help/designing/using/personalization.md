@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
-source-wordcount: '2583'
-ht-degree: 7%
+source-wordcount: '2611'
+ht-degree: 6%
 
 ---
 
@@ -35,7 +35,7 @@ Este campo se puede personalizar. Para ello, puede añadir campos de personaliza
 
 >[!NOTE]
 >
->Los parámetros de encabezado no deben estar vacíos. La dirección del remitente es obligatoria para permitir que se envíe un mensaje de correo electrónico (estándar RFC). Adobe Campaign comprueba la sintaxis de las direcciones de correo electrónico introducidas.
+>Los parámetros de encabezado no deben estar vacíos. La dirección del remitente es obligatoria para permitir que se envíe un correo electrónico (estándar RFC). Adobe Campaign comprueba la sintaxis de las direcciones de correo electrónico introducidas.
 
 ## Personalización de direcciones URL{#personalizing-urls}
 

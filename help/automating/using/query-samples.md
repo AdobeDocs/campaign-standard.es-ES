@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 0a71e3a7-60e6-49ec-af2e-099ad0d69a15
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 90%
+source-wordcount: '338'
+ht-degree: 76%
 
 ---
 
@@ -92,7 +92,7 @@ El siguiente ejemplo muestra una actividad de consulta configurada para filtrar 
 
    ![](assets/query_sample_7days2.png)
 
-## Segmentación de perfiles que han hecho clic en un vínculo específico {#targeting-profiles-who-clicked-a-specific-link-}
+## Segmentación de perfiles que hicieron clic en un vínculo específico {#targeting-profiles-who-clicked-a-specific-link-}
 
 1. Arrastre el filtro **[!UICONTROL Tracking logs (tracking)]** a la consulta.
 

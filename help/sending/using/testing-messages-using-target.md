@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1533'
 ht-degree: 4%
 
 ---
@@ -39,7 +39,7 @@ Los pasos principales son los siguientes:
    >
    >Las pruebas las procesa [!DNL Campaign Standard] como envíos estándar. Como resultado, al enviar pruebas utilizando la sustitución de perfiles, se añaden registros a los &quot;logs&quot; de envío y seguimiento de los perfiles seleccionados.
 
-![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
+![](assets/do-not-localize/how-to-video.png) [Descubra esta funcionalidad en vídeo](#video)
 
 ## Selección de perfiles y direcciones de sustitución {#selecting-profiles}
 
@@ -177,7 +177,7 @@ Los pasos principales para este caso de uso son los siguientes:
 1. Cree un flujo de trabajo para segmentar perfiles y enviar la newsletter.
 1. Configure las sustituciones de perfil del mensaje.
 1. Vista previa del mensaje con perfiles de destino.
-1. Envío de pruebas.
+1. Envíe pruebas.
 
 ### Paso 1: Crear la audiencia que se utilizará para la prueba
 
@@ -211,7 +211,7 @@ Los pasos principales para este caso de uso son los siguientes:
 
 ### Paso 3: Configuración de la pestaña Sustitución de perfiles del mensaje
 
-1. Abra la actividad **[!UICONTROL Email delivery]**. En el panel del mensaje, haga clic en **[!UICONTROL Audience]** Bloque.
+1. Abra el **[!UICONTROL Email delivery]** actividad. En el panel del mensaje, haga clic en **[!UICONTROL Audience]** Bloque.
 
    ![](assets/substitution_uc5.png)
 

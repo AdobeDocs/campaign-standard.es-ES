@@ -11,7 +11,7 @@ exl-id: 8015c555-9521-478c-8669-66b9cc145887
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '1025'
-ht-degree: 97%
+ht-degree: 93%
 
 ---
 
@@ -30,7 +30,7 @@ En esta página encontrará información sobre cada uno de estos pasos, así com
 * [Creación de un servicio](../../audiences/using/creating-a-service.md)
 * [Configuración de un proceso de inclusión doble](setting-up-a-double-opt-in-process.md)
 
-## Limitaciones de las páginas de aterrizaje{#landing-page-limitations}
+## Limitaciones de páginas de aterrizaje{#landing-page-limitations}
 
 La sección siguiente enumera las limitaciones que debe tener en cuenta antes de comenzar a configurar páginas de aterrizaje.
 

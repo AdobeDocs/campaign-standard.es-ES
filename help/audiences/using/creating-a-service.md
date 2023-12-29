@@ -11,8 +11,8 @@ level: Beginner
 exl-id: 6f42251e-75da-4707-a855-6ba9a86256c9
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 95%
+source-wordcount: '433'
+ht-degree: 92%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 95%
 
 Para poder administrar suscripciones, primero debe crear un servicio y configurarlo. La configuración de un nuevo servicio le permite especificar las confirmaciones de correo electrónico que los perfiles van a recibir cuando se suscriban o cancelen su suscripción al servicio. También debe definir las páginas de aterrizaje de suscripción y de cancelación de suscripción vinculadas al servicio. Por ejemplo, un vínculo de suscripción de servicio insertado en un correo electrónico dirige automáticamente el perfil a la página de aterrizaje de suscripción especificada en el servicio.
 
-![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
+![](assets/do-not-localize/how-to-video.png) [Descubra esta funcionalidad en vídeo](#video)
 
 Para configurar un servicio:
 

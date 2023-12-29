@@ -11,7 +11,7 @@ exl-id: 22112517-40f7-4966-84bf-40794e5d0f79
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 12%
+ht-degree: 6%
 
 ---
 
@@ -25,7 +25,7 @@ El asunto del mensaje es obligatorio para preparar y enviar el mensaje.
 >
 >Si la línea de asunto está vacía, se muestra una advertencia en el panel de mensajes y en el Diseñador de correo electrónico.
 
-1. Creación de un correo electrónico.
+1. Cree un correo electrónico.
 1. Vaya a **[!UICONTROL Properties]** de la página de inicio del Diseñador de correo electrónico (accesible a través del icono de inicio).
 1. Rellene el **[!UICONTROL Subject]** sección.
 
@@ -49,7 +49,7 @@ Para definir el nombre del remitente que aparece en el encabezado de los mensaje
 
 >[!NOTE]
 >
->Los parámetros de encabezado no deben estar vacíos. La dirección del remitente es obligatoria para permitir que se envíe un mensaje de correo electrónico (estándar RFC). Adobe Campaign comprueba la sintaxis de las direcciones de correo electrónico introducidas.
+>Los parámetros de encabezado no deben estar vacíos. La dirección del remitente es obligatoria para permitir que se envíe un correo electrónico (estándar RFC). Adobe Campaign comprueba la sintaxis de las direcciones de correo electrónico introducidas.
 
 **Temas relacionados:**
 

@@ -12,7 +12,7 @@ exl-id: f9b36b4d-0e9d-4dcf-9079-91dc83764102
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1053'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -138,7 +138,7 @@ La pestaña **[!UICONTROL Execution logs]** almacena todos los pasos de la impor
 >
 >Estos elementos son accesibles en modo de solo lectura.
 
-### Importación de un paquete {#importing-a-package}
+### Importación de paquetes {#importing-a-package}
 
 Un administrador puede importar manualmente un paquete originado en una exportación ejecutada anteriormente desde una instancia de Adobe Campaign. Para obtener más información, consulte la sección [Exportaciones de paquetes ](#package-exports).
 

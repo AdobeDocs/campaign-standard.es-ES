@@ -7,12 +7,12 @@ level: Experienced
 exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
 source-git-commit: b65bf28565c25072c6a95cebdb999ce38a2e2e1a
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 1%
+source-wordcount: '351'
+ht-degree: 0%
 
 ---
 
-# Solución de problemas de API {#troubleshooting}
+# Solución de problemas API {#troubleshooting}
 
 * **Al ir a la consola de Adobe.io recibe el siguiente error: &quot;La consola de Adobe I/O solo está disponible para miembros seleccionados de cuentas de empresa. Si cree que debería tener acceso, póngase en contacto con el administrador del sistema&quot;.**
 

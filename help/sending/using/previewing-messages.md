@@ -1,5 +1,5 @@
 ---
-title: Vista previa de mensajes
+title: Previsualización de mensajes
 description: Obtenga información sobre cómo obtener una vista previa de un mensaje en el editor de contenido o en el Diseñador de correo electrónico.
 audience: sending
 content-type: reference
