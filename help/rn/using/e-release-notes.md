@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 602aca18af81625b9756a8f2020b5bc636199b96
+source-git-commit: ac4a52263482557a6d5c370af6df5d54a42671b4
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 68%
+source-wordcount: '159'
+ht-degree: 52%
 
 ---
 
@@ -33,7 +33,10 @@ Esta página describe las mejoras y correcciones incluidas en la próxima versi�
 
 Adobe Campaign Standard 24.1 utiliza las API HTTP v1 para enviar mensajes de notificación push de Android a fin de garantizar la compatibilidad con los próximos cambios de FCM. Obtenga más información en [esta nota técnica](../../administration/using/push-technote.md).
 
+Adobe Campaign Standard 24.1 ahora admite certificados de autenticación p8 para notificaciones push de iOS. Su implementación debe adaptarse para activar estos cambios. Obtenga más información en [esta nota técnica](../../administration/using/push-technote.md).
+
 
 ### Correcciones {#e-rn-fixes}
 
+* Se ha corregido un problema que impedía que las direcciones de correo electrónico devueltas se eliminaran de la cuarentena pasados 30 días. (CAMP-52977)
 * Se ha corregido un problema que detenía el flujo de trabajo de Alerta de entrega con el siguiente error: `division by zero`. (CAMP-49786)
