@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 source-git-commit: ac4a52263482557a6d5c370af6df5d54a42671b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '159'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
@@ -38,5 +38,5 @@ Adobe Campaign Standard 24.1 ahora admite certificados de autenticación p8 para
 
 ### Correcciones {#e-rn-fixes}
 
-* Se ha corregido un problema que impedía que las direcciones de correo electrónico devueltas se eliminaran de la cuarentena pasados 30 días. (CAMP-52977)
-* Se ha corregido un problema que detenía el flujo de trabajo de Alerta de entrega con el siguiente error: `division by zero`. (CAMP-49786)
+* Se ha corregido un problema que impedía que las direcciones de correo electrónico devueltas se eliminaran de la cuarentena pasados 30 días. (CAMP-52977)
+* Se ha corregido un problema que detenía el flujo de trabajo de Alerta de envío con el siguiente error: `division by zero`. (CAMP-49786)
