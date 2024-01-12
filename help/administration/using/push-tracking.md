@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
-source-git-commit: acbe5f1990738f586e4310d13f0e19baab11d771
+source-git-commit: 1346f7d833515fb2e6feabb39d199ffd5610c88e
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ Para garantizar que la notificación push se haya desarrollado completamente, de
 
 El seguimiento push se divide en tres tipos:
 
-* **Impresiones push** : cuando se ha enviado una notificación push al dispositivo y está en el centro de notificaciones, pero no se ha tocado.  Esto se considera una impresión.  En la mayoría de los casos, los números de impresiones deben ser similares, si no iguales, al número entregado. Garantiza que el dispositivo haya recibido el mensaje y haya retransmitido esa información al servidor.
+* **Impresiones push** : cuando se ha enviado correctamente una notificación push al dispositivo, que reside en el centro de notificaciones sin ninguna interacción del usuario.
 
 * **Clic push** : cuando se ha enviado una notificación push al dispositivo y el usuario ha hecho clic en él.  El usuario deseaba ver la notificación (que a su vez pasará al seguimiento de Apertura push) o descartarla.
 
-* **Push Open** : cuando se ha enviado una notificación push al dispositivo y el usuario ha hecho clic en la notificación, lo que provoca que la aplicación se abra.  Esto es similar al clic push, excepto que una apertura push no se activa si se descarta la notificación.
+* **Push Open** : cuando se ha enviado una notificación push al dispositivo y el usuario ha hecho clic en la notificación, lo que provoca que la aplicación se abra. Esto es similar al clic push, excepto que una apertura push no se activa si se descarta la notificación.
 
 Para implementar el seguimiento para Campaign Standard, la aplicación móvil debe incluir los SDK de Adobe Experience Platform. Estos SDK están disponibles en [Documentación de SDK para Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
