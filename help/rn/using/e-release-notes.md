@@ -7,9 +7,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: ac4a52263482557a6d5c370af6df5d54a42671b4
-workflow-type: ht
-source-wordcount: '159'
+source-git-commit: d6421cda301eed85fddf2df7b2d6fc2cf1db96b3
+workflow-type: tm+mt
+source-wordcount: '140'
 ht-degree: 100%
 
 ---
@@ -24,10 +24,6 @@ Esta página describe las mejoras y correcciones incluidas en la próxima versi�
 > Este contenido está sujeto a cambios sin previo aviso hasta la fecha de actualización de los entornos de ensayo. Obtenga más información en la [página de planificación de versiones](../../rn/using/release-planning.md).
 
 ## Versión 24.1: versión de invierno de 2024 {#winter-24}
-
->[!AVAILABILITY]
->
->Esta versión solo está disponible para un conjunto de organizaciones (disponibilidad limitada). Para obtener más información, póngase en contacto con su representante Adobe.
 
 ### Mejoras {#e-rn-improvements}
 
