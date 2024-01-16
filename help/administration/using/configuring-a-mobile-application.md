@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
+source-git-commit: 630a4d0d0ced73d469fe81431f8bcf954b74cb45
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1271'
 ht-degree: 2%
 
 ---
@@ -146,15 +146,31 @@ La aplicación móvil ya está lista para utilizarse en Campaign para notificaci
 
    El evento ahora está disponible en la pestaña Déclencheur al crear un mensaje en la aplicación. Para obtener más información, consulte [Preparación y envío de un mensaje en la aplicación](../../channels/using/preparing-and-sending-an-in-app-message.md).
 
-1. En el **[!UICONTROL Device-specific settings]** de un tablero de aplicaciones móviles, para cada dispositivo, proporcione los detalles de la aplicación, incluido el certificado de iOS y la clave del servidor para Android.
+1. En el **[!UICONTROL Device-specific settings]** de un tablero de aplicaciones móviles, proporcione los detalles de la aplicación para cada dispositivo.
 
-   Una vez cargado el certificado, un mensaje le notifica que la carga se realizó correctamente y muestra la fecha de caducidad del certificado.
+   * +++ Para iOS
 
-   >[!NOTE]
-   >
-   >Después de agregar correctamente el certificado en Adobe Campaign Standard, ya no podrá volver a cambiar la configuración, ya que solo se puede agregar una plataforma APNS (producción o simulación de pruebas) a la aplicación MCPNS.
+     Introduzca los siguientes detalles de la aplicación:
 
-   ![](assets/launch_8.png)
+      * **ID de aplicación (ID de paquete de iOS)**: Consulte [Documentación de Apple](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) para obtener más información sobre el ID de paquete.
+      * **Archivo de certificado iOS (P8)**: arrastre y suelte la clave de autenticación .p8.
+      * **ID de clave**: Consulte [Documentación de Apple](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/) para obtener más información sobre Key ID.
+      * **Identificador de equipo de iOS**: Consulte [Documentación de Apple](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id//) para obtener más información sobre el iOS Team ID.
+
+        ![](assets/mobile_app_ios_config.png)
++++
+
+   * +++ Para Android
+
+     Introduzca los siguientes detalles de la aplicación:
+
+      * **ID de aplicación (nombre del paquete de Android)**: Consulte [Documentación de Android](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) para obtener más información sobre Package name.
+      * **Archivo De Clave De Android (Json)**: arrastre y suelte el archivo de clave privada .json.
+
+        ![](assets/mobile_app_android_config.png)
++++
+
+1. Una vez cargado el certificado, un mensaje le notifica que la carga se realizó correctamente y muestra la fecha de caducidad del certificado.
 
 1. Haga clic en **[!UICONTROL Mobile application subscribers]** para ver una lista de suscriptores y otra información sobre estos suscriptores, por ejemplo, si se excluyeron de las notificaciones.
 
