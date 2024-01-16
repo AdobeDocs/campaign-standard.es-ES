@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 630a4d0d0ced73d469fe81431f8bcf954b74cb45
+source-git-commit: 1619e1f434742b89d0f0802c40e82d7b59773a59
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1307'
 ht-degree: 2%
 
 ---
@@ -153,7 +153,7 @@ La aplicación móvil ya está lista para utilizarse en Campaign para notificaci
      Introduzca los siguientes detalles de la aplicación:
 
       * **ID de aplicación (ID de paquete de iOS)**: Consulte [Documentación de Apple](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) para obtener más información sobre el ID de paquete.
-      * **Archivo de certificado iOS (P8)**: arrastre y suelte la clave de autenticación .p8.
+      * **Archivo de certificado iOS (P8)**: arrastre y suelte la clave de autenticación .p8. Para obtener instrucciones sobre cómo generar el archivo de autenticación .p8, consulte su [cuenta de desarrollador de Apple](https://developer.apple.com/account/ios/authkey/create).
       * **ID de clave**: Consulte [Documentación de Apple](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/) para obtener más información sobre Key ID.
       * **Identificador de equipo de iOS**: Consulte [Documentación de Apple](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id//) para obtener más información sobre el iOS Team ID.
 
@@ -165,7 +165,7 @@ La aplicación móvil ya está lista para utilizarse en Campaign para notificaci
      Introduzca los siguientes detalles de la aplicación:
 
       * **ID de aplicación (nombre del paquete de Android)**: Consulte [Documentación de Android](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) para obtener más información sobre Package name.
-      * **Archivo De Clave De Android (Json)**: arrastre y suelte el archivo de clave privada .json.
+      * **Archivo De Clave De Android (Json)**: arrastre y suelte el archivo de clave privada .json. Para obtener instrucciones sobre cómo generar el archivo de clave privada .json, consulte la [Documentación para desarrolladores de Firebase](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments).
 
         ![](assets/mobile_app_android_config.png)
 +++
