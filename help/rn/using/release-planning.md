@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: ff6e926b66547632b74e58cc0e419c83a4ea556e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '408'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Todas las fechas de las versiones están sujetas a cambios: visite esta página 
 
 ## Versión 24.1: versión de invierno de 2024 {#release-24-1-release}
 
-Encontrará información detallada acerca de esta versión en la [Notas de versión](release-notes.md) cuando el entorno de ensayo actualiza el inicio.
+Encontrará información detallada acerca de esta versión en las [Notas de la versión](release-notes.md) cuando comiencen las actualizaciones del entorno de ensayo.
 
 <table>
  <thead>
