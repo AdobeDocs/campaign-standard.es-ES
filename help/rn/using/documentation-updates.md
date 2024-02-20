@@ -5,8 +5,8 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 8702a07c50afa82a24b79cf768ab079f6384cf3f
-workflow-type: ht
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+workflow-type: tm+mt
 source-wordcount: '7258'
 ht-degree: 100%
 
@@ -898,7 +898,7 @@ Se ha actualizado la sección de creación de servicios. [Más información](../
 
 Se han añadido casos de uso para una mejor comprensión de los grupos y unidades de seguridad. [Más información](../../administration/using/organizational-units.md)
 
-Se han mejorado las definiciones y los cálculos de dimensiones, las métricas y los segmentos en los informes dinámicos. [Más información](../../reporting/using/list-of-components-.md)
+Se han mejorado las definiciones y los cálculos de dimensiones, las métricas y los segmentos en los informes dinámicos. [Más información](../../reporting/using/list-of-components.md)
 
 Se ha añadido información sobre la recuperación de mensajes SMS entrantes con un flujo de trabajo. [Más información](../../administration/using/configuring-sms-channel.md)
 
@@ -958,7 +958,7 @@ Mejora de la suscripción masiva: [Más información](../../automating/using/sub
 
 **Otras actualizaciones de la documentación incluidas en la versión**
 
-Lista detallada de todos los componentes disponibles en Informes dinámicos y algunos cambios en las fórmulas. [Más información](../../reporting/using/list-of-components-.md)
+Lista detallada de todos los componentes disponibles en Informes dinámicos y algunos cambios en las fórmulas. [Más información](../../reporting/using/list-of-components.md)
 
 Lista detallada de los KPI compartidos con Adobe Analytics. [Más información](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 
@@ -1010,7 +1010,7 @@ Se ha actualizado la documentación de procesamiento del correo electrónico. [M
 
 Se ha actualizado la tabla de cálculo del indicador del informe. [Más información](../../reporting/using/indicator-calculation.md)
 
-La documentación de la creación de informes se ha actualizado con cuatro métricas nuevas. [Más información](../../reporting/using/list-of-components-.md)
+La documentación de la creación de informes se ha actualizado con cuatro métricas nuevas. [Más información](../../reporting/using/list-of-components.md)
 
 Se ha añadido documentación sobre la generación de ID únicos para perfiles. [Más información](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)
 

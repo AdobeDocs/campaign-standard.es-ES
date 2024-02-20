@@ -6,7 +6,7 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '7674'
 ht-degree: 9%
@@ -61,7 +61,7 @@ ht-degree: 9%
 * La ventana emergente de consentimiento para la creación de informes dinámica se ha actualizado para incluir la integración de Adobe Campaign Standard y Microsoft Dynamics 365. Al aceptar los términos, los datos de perfil se incluirán al utilizar la integración de Adobe Campaign Standard / Microsoft Dynamics 365 y el sistema de informes dinámico. [Más información](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
 * Se ha corregido un problema que mostraba fechas de contacto incorrectas al recibir alertas de entrega.
 * Cuando se envía un evento de mensaje transaccional con un parámetro de contexto desconocido, Campaign ahora devuelve un mensaje de error 400 en lugar de 500. (CAMP-28632)
-* Un nuevo **Excluir revisión** El segmento se ha añadido a la creación de informes dinámica. Este segmento está seleccionado de forma predeterminada para filtrar los informes. [Más información](../../reporting/using/list-of-components-.md#segments)
+* Un nuevo **Excluir revisión** El segmento se ha añadido a la creación de informes dinámica. Este segmento está seleccionado de forma predeterminada para filtrar los informes. [Más información](../../reporting/using/list-of-components.md#segments)
 * El **Caducidad del mensaje** se ha añadido a la notificación push. Permite especificar una fecha de caducidad en la que Apple (APNS) o Android (FCM) ya no enviarán el mensaje. [Más información](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
 * Se han realizado mejoras en el **Cargar archivo** actividad: los registros de flujo de trabajo se han simplificado para añadir claridad y detallado sobre el error que se produce cuando no se puede cargar un archivo. La transición saliente generada al activar el **Mantener los rechazos en un archivo** se ha cambiado el nombre de la opción **Rechazos**. [Más información](../../automating/using/load-file.md)
 * Se han añadido registros relacionados multilingües a los registros de envío para comprender mejor los errores de envío debido a la falta de idiomas en los archivos CSV cargados.

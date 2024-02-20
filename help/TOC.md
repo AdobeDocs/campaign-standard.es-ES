@@ -4,8 +4,8 @@ user-guide-title: Campaign Standard
 user-guide-description: Documentación del producto de Adobe Campaign Standard.
 title: Guía de Campaign Standard
 breadcrumb-title: Documentación de Campaign Standard
-source-git-commit: 64e3bb463497548d6fbae80f00b8c963b65c4f40
-workflow-type: ht
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 100%
 
@@ -201,7 +201,7 @@ ht-degree: 100%
    + Acerca de los informes {#about-reporting}
       + [Acerca de los informes dinámicos](reporting/using/about-dynamic-reports.md)
       + [Interfaz de informes](reporting/using/reporting-interface.md)
-      + [Lista de componentes](reporting/using/list-of-components-.md)
+      + [Lista de componentes](reporting/using/list-of-components.md)
       + [Cálculo de indicador](reporting/using/indicator-calculation.md)
       + [Solución de problemas](reporting/using/troubleshooting.md)
    + Lista de informes {#list-of-reports}
@@ -233,7 +233,7 @@ ht-degree: 100%
       + [Acerca de la integración de Campaign-Experience Manager](integrating/using/integrating-with-experience-manager.md)
       + [Configuración de la integración de Campaign-Experience Manager](integrating/using/configure-experience-manager.md)
       + [Creación de contenido de correo electrónico en Adobe Experience Manager](integrating/using/creating-email-experience-manager.md)
-      + [Creación de un formulario de Campaign en Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
+      + [Creación de un formulario de Campaign en Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager.md)
       + [Creación de un correo electrónico multilingüe con la integración de Adobe Experience Manager](integrating/using/creating-multilingual-email-aem.md)
    + Campaign y Target {#working-with-campaign-and-target}
       + [Acerca de la integración de Campaign-Target](integrating/using/about-campaign-target-integration.md)
@@ -397,11 +397,11 @@ ht-degree: 100%
       + [Actualización de la estructura de la base de datos](developing/using/updating-the-database-structure.md)
       + [Eliminación de un recurso](developing/using/deleting-a-resource.md)
       + [Invocación de un recurso mediante una clave de identificación compuesta](developing/using/uc-calling-resource-id-key.md)
-   + Caso de uso: Ampliación de la API {#use-case--extending-the-api}
+   + Caso de uso: Ampliación de la API {#use-case-extending-the-api}
       + [Acerca de la ampliación de la API](developing/using/about-extending-the-api.md)
-      + [Paso 1: Añadir campos de extensión al recurso de perfil](developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
-      + [Paso 2: Publicar la extensión](developing/using/step-2--publish-the-extension.md)
-      + [Paso 3: Verificar la extensión](developing/using/step-3--verify-the-extension.md)
+      + [Paso 1: Añadir campos de extensión al recurso de perfil](developing/using/step-1-add-extension-fields-to-the-profile-resource.md)
+      + [Paso 2: Publicar la extensión](developing/using/step-2-publish-the-extension.md)
+      + [Paso 3: Verificar la extensión](developing/using/step-3-verify-the-extension.md)
    + Caso de uso: Ampliación de recursos {#use-cases--extending-resources}
       + [Ampliación del recurso de perfil con un nuevo campo](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [Ampliación de las suscripciones a un recurso de aplicación](developing/using/extending-the-subscriptions-to-an-application-resource.md)
