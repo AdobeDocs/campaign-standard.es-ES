@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 54114df89724c995d9140453356251a7d2fa5708
-workflow-type: ht
-source-wordcount: '110'
-ht-degree: 100%
+source-git-commit: 3acca24c9a5616ae993b7e734e2448c3520baf79
+workflow-type: tm+mt
+source-wordcount: '127'
+ht-degree: 86%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 100%
 Adobe Campaign Standard 24.1 utiliza las API HTTP v1 para enviar mensajes de notificación push de Android a fin de garantizar la compatibilidad con los próximos cambios de FCM. Obtenga más información en [esta nota técnica](../../administration/using/push-technote.md).
 
 Adobe Campaign Standard 24.1 ahora admite certificados de autenticación p8 para notificaciones push de iOS. Su implementación debe adaptarse para activar estos cambios. Obtenga más información en [esta nota técnica](../../administration/using/push-technote.md).
+
+A partir del 19 de febrero de 2024, Campaign ofrecerá compatibilidad predeterminada con Google y Yahoo **Cancelación de suscripción a una lista con un clic** capacidad. Obtenga más información en [página](../../administration/using/configuring-email-channel.md#email-channel-parameters).
 
 
 ### Correcciones {#e-rn-fixes}

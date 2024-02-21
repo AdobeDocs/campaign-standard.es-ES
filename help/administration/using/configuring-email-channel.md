@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: a1b947acf70803a7350dd626e697318e0ed35f26
+source-git-commit: 3acca24c9a5616ae993b7e734e2448c3520baf79
 workflow-type: tm+mt
-source-wordcount: '2683'
-ht-degree: 61%
+source-wordcount: '2714'
+ht-degree: 59%
 
 ---
 
@@ -25,11 +25,15 @@ La pantalla de configuración de correo electrónico le permite definir los par�
 
 * **Campos de máscaras autorizadas**
 
-  La sección **[!UICONTROL Header parameters of sent emails]** enumera las direcciones de correo electrónico autorizadas que puede utilizar para enviar correos electrónicos a sus destinatarios (dirección del remitente) y para permitirles enviar respuestas automatizadas como devoluciones asincrónicas, respuestas de fuera de la oficina, etc. (dirección de error).  Adobe Campaign comprueba que las direcciones especificadas son válidas durante la fase de preparación del mensaje. Este modo operativo garantiza que no se utilicen direcciones que puedan activar problemas de la capacidad de entrega.
+  La sección **[!UICONTROL Header parameters of sent emails]** enumera las direcciones de correo electrónico autorizadas que puede utilizar para enviar correos electrónicos a sus destinatarios (dirección del remitente) y para permitirles enviar respuestas automatizadas como devoluciones asincrónicas, respuestas de fuera de la oficina, etc. (dirección de error).
+
+  Adobe Campaign comprueba que las direcciones especificadas son válidas durante la fase de preparación del mensaje. Este modo operativo garantiza que no se utilicen direcciones que puedan activar problemas de la capacidad de entrega.
+
    * Adobe configura las direcciones del remitente y de error. Estos campos no pueden estar vacíos.
    * No puede editar esos campos. Para actualizar una dirección, póngase en contacto con el equipo de Atención al cliente de Adobe.
    * Para agregar otra dirección, puede utilizar [Panel de control de Campaign de campaña](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=es) para configurar un nuevo subdominio o póngase en contacto con el equipo de atención al cliente de Adobe. Tenga en cuenta que si se utilizan varias máscaras, se separan con comas.
-   * Se recomienda configurar las direcciones con un asterisco como *@yourdomain.com; de esta forma, le permite utilizar cualquier dirección que termine con su nombre de subdominio.
+   * Se recomienda configurar las direcciones con un asterisco como **@yourdomain.com**: permite utilizar cualquier dirección que termine con el nombre de subdominio.
+   * Campaign admite, de forma predeterminada, Google y Yahoo **Cancelación de suscripción a una lista con un clic** capacidad. Tenga en cuenta que si modifica el valor del encabezado en las plantillas personalizadas, podría romper la conformidad con Google/Yahoo **Cancelación de suscripción a una lista con un clic**.
 
 * **Capacidad de entrega**
 
