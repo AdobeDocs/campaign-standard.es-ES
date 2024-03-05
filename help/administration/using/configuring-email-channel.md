@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 3baadaf774092bb48a029e098e8f56170660400b
+source-git-commit: 26a1c36003645446fb8b827d76afba749d64e9f2
 workflow-type: tm+mt
-source-wordcount: '2737'
-ht-degree: 58%
+source-wordcount: '2729'
+ht-degree: 59%
 
 ---
 
@@ -294,13 +294,11 @@ La sección **[!UICONTROL SMTP]** contiene los siguientes parámetros:
   >
   >La adición de secuencias de comandos para insertar encabezados SMTP se reserva para usuarios avanzados. La sintaxis de esta secuencia de comandos debe cumplir con los requisitos de este tipo de contenido: no dejar espacios sin utilizar, ninguna línea vacía, etc.
 
-  A partir del 1 de junio de 2024, Google y Yahoo! exigirá a los remitentes que cumplan lo siguiente **Cancelación de suscripción a una lista con un clic**. Campaign admite, de forma predeterminada, esta capacidad. [Obtenga más información sobre este cambio](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#1-click-(list)-unsubscribe%3A){target="_blank"}
+  A partir del 1 de junio de 2024, Google y Yahoo! exigirá a los remitentes que cumplan lo siguiente **Cancelación de suscripción a una lista con un clic**. Campaign admite esta capacidad de forma predeterminada.
 
   >[!CAUTION]
   >
   >Si modifica el valor del encabezado en **[!UICONTROL Additional SMTP headers]** de sus plantillas de correo electrónico, podría romper el cumplimiento de la **Cancelación de suscripción a una lista con un clic** de Google y Yahoo!.
-
-  <!--Campaign supports, out-of-the-box, Google and Yahoo **One-Click List-Unsubscribe** capability. Be aware that if you modify the header value in custom templates, it could break the compliance with Google/Yahoo **One-Click List-Unsubscribe**.-->
 
 ### Lista de parámetros de autorización de acceso {#list-of-access-authorization-parameters}
 
