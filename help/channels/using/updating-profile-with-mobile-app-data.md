@@ -9,7 +9,7 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 2%
@@ -49,7 +49,7 @@ En este ejemplo, la variable **[!UICONTROL Fields]** reflejan los datos PII envi
 Asignación de datos de perfil al ampliar el **[!UICONTROL Subscriptions to an Application]** El recurso es de solo lectura. Se utiliza para la reconciliación. El perfil debe introducirse en el sistema con los datos necesarios para conciliarlo con los datos PII. En nuestro caso, una dirección de correo electrónico del perfil debe coincidir con un correo electrónico de la PII de recopilación para que se produzca la reconciliación:
 
 * La PII de recopilación se recibe de una aplicación móvil para un usuario cuyo nombre es &quot;Jane&quot;, el apellido es &quot;Doe&quot; y la dirección de correo electrónico es janedoe@doe.com.
-* Por separado, los datos de perfil deben existir (por ejemplo, los datos deben introducirse manualmente o ya proceder de algún otro recurso) donde la dirección de correo electrónico del perfil sea janedoe@doe.com.
+* Por otro lado, los datos de perfil deben existir (por ejemplo, los datos deben introducirse manualmente o ya proceder de algún otro recurso) donde la dirección de correo electrónico del perfil sea janedoe@doe.com.
 
 **Temas relacionados:**
 
@@ -88,7 +88,7 @@ En el **[!UICONTROL General]** pestaña, configure el **[!UICONTROL Execution fr
 
 ### Configure las variables **[!UICONTROL Incremental query]** actividad.
 
-1. En el **[!UICONTROL Properties]** , haga clic en **[!UICONTROL Select an element]** icono de la **[!UICONTROL Resource]** y, a continuación, seleccione el **[!UICONTROL Subscriptions to an application (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** Elemento.
+1. En el **[!UICONTROL Properties]** , haga clic en **[!UICONTROL Select an element]** icono de la **[!UICONTROL Resource]** y, a continuación, seleccione el **[!UICONTROL Subscriptions to an application (`nms:appSubscriptionRcp:appSubscriptionRcpDetail`)]** Elemento.
 
    ![](assets/update_profile3.png)
 

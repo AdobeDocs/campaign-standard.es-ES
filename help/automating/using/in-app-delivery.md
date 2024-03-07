@@ -8,7 +8,7 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 8d5a35c4-e22b-498e-b71c-c5922cf8c2fd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 39%
@@ -37,7 +37,7 @@ La preparación del mensaje se activa según los parámetros de ejecución del f
 
    * La dimensión de segmentación debe establecerse en **[!UICONTROL mobileApp (mobileAppV5)]** para el **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]** plantilla.
    * La dimensión de segmentación debe establecerse en **[!UICONTROL profile (profile)]** para el **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]** plantilla.
-   * La dimensión de segmentación debe establecerse en **[!UICONTROL subscriptions to an application (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** para el **[!UICONTROL Target users based on their Mobile profile (inApp)]** plantilla.
+   * La dimensión de segmentación debe establecerse en **[!UICONTROL subscriptions to an application (`nms:appSubscriptionRcp:appSubscriptionRcpDetail`)]** para el **[!UICONTROL Target users based on their Mobile profile (inApp)]** plantilla.
 
 1. Arrastre y suelte una actividad de **[!UICONTROL In-App delivery]** en el flujo de trabajo.
 1. Seleccione la actividad y, a continuación, ábrala con el botón ![](assets/edit_darkgrey-24px.png), en las acciones rápidas que aparecerán.

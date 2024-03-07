@@ -8,10 +8,10 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
-source-git-commit: eec8c66d4947e04cd0eb3dcf0f09d395d9db68b9
+source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
 workflow-type: tm+mt
-source-wordcount: '1442'
-ht-degree: 64%
+source-wordcount: '1430'
+ht-degree: 63%
 
 ---
 
@@ -116,7 +116,7 @@ El número máximo de reintentos que se deben realizar en caso de **[!UICONTROL 
 
 >[!IMPORTANT]
 >
->Los destinatarios con una dirección en un estado **[!UICONTROL Quarantine]** o **[!UICONTROL Denylisted]** nunca se quitarán, aunque reciban un correo electrónico.
+Los destinatarios con una dirección en un estado **[!UICONTROL Quarantine]** o **[!UICONTROL Denylisted]** nunca se quitarán, aunque reciban un correo electrónico.
 
 
 ### Actualizaciones manuales {#unquarantine-manual}
@@ -140,12 +140,12 @@ Para ello, cree un flujo de trabajo y añada una actividad **[!UICONTROL Query]*
 
 En función del periodo de tiempo del problema, se indican a continuación las directrices recomendadas para esta consulta.
 
-* **Texto de error (texto de cuarentena)** contiene “550-5.1.1” Y **Texto de error (texto de cuarentena)** contiene “support.ISP.com”
+* **El texto del error (texto de cuarentena)** contiene “550-5.1.1” Y **El texto del error (texto de cuarentena)** contiene “support.ISP.com”
 
   donde “support.ISP.com” puede ser: “support.apple.com” o “support.google.com”, por ejemplo
 
-* **Actualizar estado (@lastModified)** en o después de DD/MM/AAAA HH:MM:SS AM
-* **Actualizar estado (@lastModified)** en DD/MM/AAAA HH:MM:SS PM
+* **Actualizar estado (@lastModified)** el o después `MM/DD/YYYY HH:MM:SS AM`
+* **Actualizar estado (@lastModified)** el o antes  `MM/DD/YYYY HH:MM:SS PM`
 
 Una vez que tenga la lista de destinatarios afectados, añada una **[!UICONTROL Update data]** actividad para establecer su estado de dirección de correo electrónico en **[!UICONTROL Valid]** de modo que sean quitadas de la lista de cuarentena por el **[!UICONTROL Database cleanup]** flujo de trabajo. También puede eliminarlos de la tabla de cuarentena.
 
@@ -166,7 +166,7 @@ Si un usuario clasifica un correo electrónico como correo no deseado ([bucle de
 
 >[!NOTE]
 >
->La cuarentena en Adobe Campaign distingue entre mayúsculas y minúsculas. Asegúrese de importar las direcciones de correo electrónico en minúsculas para que no se redireccionen más adelante.
+La cuarentena en Adobe Campaign distingue entre mayúsculas y minúsculas. Asegúrese de importar las direcciones de correo electrónico en minúsculas para que no se redireccionen más adelante.
 
 En la lista de direcciones en cuarentena (consulte [Identificación de direcciones en cuarentena para toda la plataforma](#identifying-quarantined-addresses-for-the-entire-platform)), el campo **[!UICONTROL Error reason]** indica por qué la dirección seleccionada se colocó en cuarentena.
 
