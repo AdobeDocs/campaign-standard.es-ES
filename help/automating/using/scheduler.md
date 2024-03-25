@@ -9,7 +9,7 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 39f7b216-b3cd-4aa6-b5df-23e6805076df
-source-git-commit: 7deb1147febfcc8956768715a65416806752c92f
+source-git-commit: 6107f5e43b25037f7f5a7f130922a3a22d0047af
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 52%
@@ -107,3 +107,4 @@ Al diseñar un flujo de trabajo programado que incluya varias actividades, debe 
 En el ejemplo siguiente, la actividad se configura de modo que se inicie el flujo de trabajo de forma semanal todos los lunes a las 07:00 h durante un tiempo indeterminado.
 
 ![](assets/wkf_scheduler_example.png)
+
