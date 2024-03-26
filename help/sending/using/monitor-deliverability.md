@@ -16,7 +16,7 @@ ht-degree: 25%
 
 ---
 
-# Supervisión de la capacidad de entrega{#monitor-deliverability}
+# Supervisión de la entregabilidad{#monitor-deliverability}
 
 A continuación, encontrará detalles sobre la **[!UICONTROL Delivery throughput]** así como las diferentes herramientas de monitorización que ofrece Adobe Campaign. Estas son algunas directrices adicionales sobre la monitorización de la capacidad de envío:
 * Compruebe regularmente el rendimiento del envío de toda la plataforma para comprobar si es coherente con la configuración original.

@@ -55,7 +55,7 @@ Por ejemplo:
 * Separador: tabulación o punto y coma
 * Primera línea con encabezados
 * Sin delimitador de cadenas
-* Formato de fecha: `YYYY/MM/DD HH:mm:SS`
+* Formato de fecha:`YYYY/MM/DD HH:mm:SS`
 
 Ejemplo de archivo para importar:
 

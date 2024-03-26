@@ -16,7 +16,7 @@ ht-degree: 69%
 
 ---
 
-# ¿Qué es la capacidad de entrega?{#about-deliverability}
+# ¿Qué es la entregabilidad?{#about-deliverability}
 
 La capacidad de entrega permite medir el éxito de las campañas que llegan a la bandeja de entrada de los destinatarios sin rechazarse ni marcarse como correo no deseado. [Descubra por qué la capacidad de entrega es importante](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html?lang=es#why-deliverability-matters).
 

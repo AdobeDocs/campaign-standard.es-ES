@@ -831,7 +831,7 @@ Incluso si no puede comprobar los registros usted mismo, será más fácil para 
 ### Prueba de SMS {#test}
 
 * **Envíe SMS con todo tipo de caracteres**
-Si necesita enviar un SMS con caracteres que no sean GSM o ASCII, intente enviar algunos mensajes con tantos caracteres diferentes como sea posible. Si configura una tabla de asignación de caracteres personalizada, envíe al menos un SMS para todos los posibles `data_coding` valores.
+Si necesita enviar un SMS con caracteres que no sean GSM o ASCII, intente enviar algunos mensajes con tantos caracteres diferentes como sea posible. Si configura una tabla de asignación de caracteres personalizada, envíe al menos un SMS para todos los valores `data_coding` posibles.
 
 * **Verifique que SR se procesa correctamente**
 El SMS debe marcarse como recibido en el registro de envíos. El registro de envíos debe tener el siguiente aspecto:
@@ -840,7 +840,7 @@ Compruebe que ha cambiado el nombre del proveedor de envío. El registro de env�
 
 * **Compruebe que se procesan los MO**
 Si necesita procesar los MO (respuestas automáticas, almacenar los MO en la base de datos, etc.) intente realizar algunas pruebas. Envíe algunos SMS para cada una de las palabras clave de respuesta automática y compruebe si la respuesta es lo suficientemente rápida, no más de unos segundos.
-Compruebe en el registro que Adobe Campaign responde correctamente `DELIVER_SM_RESP` (command_status=0).
+Compruebe en el registro que Adobe Campaign responde con `DELIVER_SM_RESP` correctamente (command_status=0).
 
 ### Compruebe las PDU {#check-pdus}
 

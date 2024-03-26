@@ -11,7 +11,7 @@ exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
 source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
 workflow-type: tm+mt
 source-wordcount: '1430'
-ht-degree: 63%
+ht-degree: 64%
 
 ---
 
@@ -144,8 +144,8 @@ En función del periodo de tiempo del problema, se indican a continuación las d
 
   donde “support.ISP.com” puede ser: “support.apple.com” o “support.google.com”, por ejemplo
 
-* **Actualizar estado (@lastModified)** el o después `MM/DD/YYYY HH:MM:SS AM`
-* **Actualizar estado (@lastModified)** el o antes  `MM/DD/YYYY HH:MM:SS PM`
+* **Estado de la actualización (@lastModified)** el `MM/DD/YYYY HH:MM:SS AM` o después 
+* **Estado de la actualización (@lastModified)** el `MM/DD/YYYY HH:MM:SS PM` o antes
 
 Una vez que tenga la lista de destinatarios afectados, añada una **[!UICONTROL Update data]** actividad para establecer su estado de dirección de correo electrónico en **[!UICONTROL Valid]** de modo que sean quitadas de la lista de cuarentena por el **[!UICONTROL Database cleanup]** flujo de trabajo. También puede eliminarlos de la tabla de cuarentena.
 

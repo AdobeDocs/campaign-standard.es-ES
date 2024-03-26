@@ -78,7 +78,7 @@ Para obtener más información sobre la privacidad de Adobe Experience Cloud, co
 
 Al administrar la privacidad, es importante definir qué datos deben manejarse con cuidado y quién debe hacerlo.
 * Los **datos personales** son información que puede identificar directa o indirectamente a un individuo.
-* Los **datos personales confidenciales** son información relacionada con el origen étnico, las opiniones políticas, las creencias religiosas, los antecedentes penales, la información genética, los datos de salud, las preferencias sexuales, la información biométrica, y la afiliación a sindicatos.
+* Los **datos personales confidenciales** son información relacionada con el origen étnico, las opiniones políticas, las creencias religiosas, los antecedentes penales, la información genética, los datos de salud, las preferencias sexuales, la información biométrica y la afiliación a sindicatos.
 
 La [legislación principal](#privacy-regulations) se refiere a las diferentes entidades que administran los datos de la siguiente manera:
 * Un **controlador de datos** es una autoridad que determina los medios y el propósito de recopilar, utilizar y compartir datos personales.

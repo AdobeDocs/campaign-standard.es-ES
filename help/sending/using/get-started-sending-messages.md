@@ -82,7 +82,7 @@ El Campaign Standard proporciona varios **herramientas de envío** para ayudarle
 Más información:
 
 * [Acerca de la capacidad de entrega](../../sending/using/about-deliverability.md)
-* [Supervisión de la capacidad de entrega](../../sending/using/monitor-deliverability.md)
+* [Supervisión de la entregabilidad](../../sending/using/monitor-deliverability.md)
 * [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es)
 * [Control del rendimiento del envío](../../reporting/using/delivery-throughput.md)
 
