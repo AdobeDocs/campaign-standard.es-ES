@@ -8,10 +8,10 @@ hidefromtoc: true
 role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: afb988281f00dc17b484872259d44f51864d55f1
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 100%
+source-wordcount: '492'
+ht-degree: 96%
 
 ---
 
@@ -115,11 +115,11 @@ Puede monitorizar los subdominios y sus certificados. Más información:
 
 <img src="start/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-El nuevo sistema de tickets se ha utilizado a través de [Adobe Admin Console](https://adminconsole.adobe.com/overview). Este nuevo sistema requiere nuevas cuentas individuales para cada usuario con los permisos correctos. Si no puede iniciar sesión con su Adobe ID, solicite acceso a través de Experience League y el equipo de Atención al cliente lo ayudará lo antes posible. [Más información](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+El nuevo sistema de tickets se ha utilizado a través de [Adobe Admin Console](https://adminconsole.adobe.com/overview). Este nuevo sistema requiere nuevas cuentas individuales para cada usuario con los permisos correctos. Si no puede iniciar sesión con su Adobe ID, solicite acceso a través de Experience League y el equipo de Servicio de atención al cliente le ayudará lo antes posible. [Más información](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 
 ### ¡Consulte a los expertos!
 
-Únase a la comunidad Campaign Classic: encuentre respuestas a preguntas existentes o formule una pregunta a la comunidad. [Únase a la conversación](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+Únase a la comunidad de Campaign: encuentre respuestas a preguntas existentes o formule una pregunta a la comunidad. [Únase a la conversación](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### Creación de un ticket o inicio de una conversación
 

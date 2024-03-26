@@ -6,7 +6,7 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 1619e1f434742b89d0f0802c40e82d7b59773a59
+source-git-commit: 58b07f023f52e2bf4972b4a86bf4412f613f38da
 workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
-> Adobe Experience Platform Launch se ha convertido en un conjunto de tecnologías de recopilación de datos en Adobe Experience Platform. Como resultado, se han implementado varios cambios terminológicos en la documentación del producto. Consulte la [siguiente documento](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html) para obtener una referencia consolidada de los cambios terminológicos.
+> Adobe Experience Platform Launch se ha convertido en un conjunto de tecnologías de recopilación de datos en Adobe Experience Platform. Como resultado, se han implementado varios cambios terminológicos en la documentación del producto. Consulte la [siguiente documento](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html){target="_blank"} para obtener una referencia consolidada de los cambios terminológicos.
 
 Tenga en cuenta que las implementaciones de notificaciones push e en la aplicación deben realizarlas usuarios expertos. Para obtener ayuda, póngase en contacto con su administrador de cuentas de Adobe o con su socio de servicios profesionales.
 
@@ -39,6 +39,7 @@ Para completar la configuración, complete los siguientes pasos:
    Si no es así, póngase en contacto con el equipo de su cuenta.
 
 1. Compruebe que el usuario tenga los permisos necesarios en Adobe Campaign Standard y en Adobe Experience Platform.
+
    * En Adobe Campaign Standard, asegúrese de que el usuario de IMS forme parte de los Perfiles de producto de usuario y administrador estándar. Este paso permite al usuario iniciar sesión en Adobe Campaign Standard, navegar a la página de la aplicación móvil del SDK de Experience Platform y ver las propiedades de la aplicación móvil que ha creado en la IU de recopilación de datos.
 
    * En la IU de recopilación de datos, asegúrese de que el usuario de IMS forme parte de un perfil de producto de Experience Platform Launch.
@@ -152,10 +153,10 @@ La aplicación móvil ya está lista para utilizarse en Campaign para notificaci
 
      Introduzca los siguientes detalles de la aplicación:
 
-      * **ID de aplicación (ID de paquete de iOS)**: Consulte [Documentación de Apple](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) para obtener más información sobre el ID de paquete.
-      * **Archivo de certificado iOS (P8)**: arrastre y suelte la clave de autenticación .p8. Para obtener instrucciones sobre cómo generar el archivo de autenticación .p8, consulte su [cuenta de desarrollador de Apple](https://developer.apple.com/account/ios/authkey/create).
-      * **ID de clave**: Consulte [Documentación de Apple](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/) para obtener más información sobre Key ID.
-      * **Identificador de equipo de iOS**: Consulte [Documentación de Apple](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id//) para obtener más información sobre el iOS Team ID.
+      * **ID de aplicación (ID de paquete de iOS)**: Consulte [Documentación de Apple](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids){target="_blank"} para obtener más información sobre el ID de paquete.
+      * **Archivo de certificado iOS (P8)**: arrastre y suelte la clave de autenticación .p8. Para obtener instrucciones sobre cómo generar el archivo de autenticación .p8, consulte su [cuenta de desarrollador de Apple](https://developer.apple.com/account/ios/authkey/create){target="_blank"}.
+      * **ID de clave**: Consulte [Documentación de Apple](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/){target="_blank"} para obtener más información sobre Key ID.
+      * **Identificador de equipo de iOS**: Consulte [Documentación de Apple](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"} para obtener más información sobre el iOS Team ID.
 
         ![](assets/mobile_app_ios_config.png)
 +++
@@ -164,8 +165,8 @@ La aplicación móvil ya está lista para utilizarse en Campaign para notificaci
 
      Introduzca los siguientes detalles de la aplicación:
 
-      * **ID de aplicación (nombre del paquete de Android)**: Consulte [Documentación de Android](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) para obtener más información sobre Package name.
-      * **Archivo De Clave De Android (Json)**: arrastre y suelte el archivo de clave privada .json. Para obtener instrucciones sobre cómo generar el archivo de clave privada .json, consulte la [Documentación para desarrolladores de Firebase](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments).
+      * **ID de aplicación (nombre del paquete de Android)**: Consulte [Documentación de Android](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores){target="_blank"} para obtener más información sobre Package name.
+      * **Archivo De Clave De Android (Json)**: arrastre y suelte el archivo de clave privada .json. Para obtener instrucciones sobre cómo generar el archivo de clave privada .json, consulte la [Documentación para desarrolladores de Firebase](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments){target="_blank"}.
 
         ![](assets/mobile_app_android_config.png)
 +++
