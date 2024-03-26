@@ -6,7 +6,7 @@ feature: Push
 role: Admin
 level: Experienced
 exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
-source-git-commit: 2d3210f681bef0f94b7f22f43906ac62b29541f2
+source-git-commit: db035a41515e94836bdfbfc3d620586dc1f5ce31
 workflow-type: tm+mt
 source-wordcount: '1134'
 ht-degree: 3%
@@ -31,7 +31,7 @@ Para garantizar un servicio ininterrumpido, debe actualizar las aplicaciones mó
 
 Como parte del esfuerzo continuo de Google por mejorar sus servicios, las API de FCM existentes dejarán de usarse el **20 de junio de 2024**. Obtenga más información acerca del protocolo HTTP de Firebase Cloud Messaging en [Documentación de Google Firebase](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
 
-A partir de la versión 24.2, Adobe Campaign Standard admite las API HTTP v1 para enviar mensajes de notificación push de Android.
+Inicio [Versión 24.1](../../rn/using/release-notes.md), Adobe Campaign Standard admite las API HTTP v1 para enviar mensajes de notificación push de Android.
 
 ### ¿Se ha visto afectado? {#fcm-impact}
 
@@ -118,7 +118,7 @@ Si la implementación actual depende de solicitudes basadas en certificados para
 
 #### Requisitos previos {#ios-transition-prerequisites}
 
-* El apoyo de **Autenticación basada en tokens** se ha añadido el modo en la versión 24.1. Si su entorno se está ejecutando en una versión anterior, un requisito previo para este cambio es actualizar su entorno a la versión de [última versión de Campaign Standard](../../rn/using/release-notes.md).
+* El apoyo de **Autenticación basada en tokens** se ha añadido el modo en [Versión 24.1](../../rn/using/release-notes.md). Si su entorno se está ejecutando en una versión anterior, un requisito previo para este cambio es actualizar su entorno a la versión de [última versión de Campaign Standard](../../rn/using/release-notes.md).
 
 * Necesita una clave de firma de token de autenticación de APNS para generar los tokens que utiliza su servidor. Puede solicitar esta clave a su cuenta de desarrollador de Apple, tal como se explica en [Documentación para desarrolladores de Apple](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
 
