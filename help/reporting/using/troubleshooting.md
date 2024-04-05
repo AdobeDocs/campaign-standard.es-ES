@@ -8,9 +8,9 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 8625a26686570d555d7f5614b38536c248ee16a3
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '1205'
 ht-degree: 1%
 
 ---
@@ -190,3 +190,25 @@ Para resolver esto:
 * Después de importar la asignación de Target desde un XML, también debe importar el enriquecimiento de Creación de informes.
 
 * En lugar de importar la asignación de Target, puede crearla directamente en Adobe Campaign Standard, que creará automáticamente el enriquecimiento de creación de informes.
+
+## Discrepancia entre el número de encabezado de columna y la suma de las filas
+
+Se espera una discrepancia entre el número de encabezado de columna y la suma de todas las filas en los siguientes casos:
+
+* **Métricas únicas**: El uso de métricas únicas puede alterar el recuento total mostrado en el encabezado, ya que se basa en los ID de destinatario en lugar de una simple suma de recuentos de filas. Por consiguiente, un solo perfil puede almacenar en déclencheur numerosos eventos en diversas dimensiones, lo que da lugar a varias filas en el conjunto de datos. Sin embargo, en el encabezado, cada perfil se cuenta solo una vez.
+
+  Por ejemplo:
+
+   * Si un perfil A abre un correo electrónico en tres días diferentes, el desglose por día mostrará A en tres filas, pero en el encabezado, A se contará como 1.
+
+   * Si el perfil A hace clic en tres vínculos diferentes en un mensaje de correo electrónico el mismo día, el desglose por URL de seguimiento mostrará A en tres filas, pero en el encabezado, A contará como 1. Lo mismo se aplica a los desgloses por dispositivo y explorador.
+
+* **Abrir métricas**: el recuento de aperturas se determina sumando el total de eventos abiertos reales y eventos de clics únicos (por ID de destinatario), excluyendo los casos en los que no se ha producido un evento de apertura, ya que no se puede hacer clic en un vínculo de correo electrónico sin un evento de apertura.
+
+  Por ejemplo:
+
+   * Cuando el perfil A abre un correo electrónico rastreado (con la URL U1), se registra como un evento abierto con la URL anotada como nula. Al hacer clic en U1 más adelante, se genera un evento de clic. Aunque el clic de A en U1 también se cuenta como un evento abierto, no hay ningún evento abierto específico para U1. Por lo tanto, A solo se cuenta una vez en la cantidad abierta única.
+
+   * Un perfil R abre un correo electrónico el día 1, registra un evento abierto y hace clic en un vínculo. En los dos días siguientes, R vuelve a abrir el correo electrónico y hace clic en el vínculo de nuevo, lo que genera un evento de clic cada día. Mientras que el compromiso de R se rastrea diariamente en el número Abierto, R solo se cuenta una vez en el encabezado de la columna, centrándose en compromisos únicos.
+
+* **Evento anulado**: en los informes, el evento anulado significa intentos de envío que inicialmente se marcaron como correctos, pero que finalmente fallaron después de los reintentos. Se indican mediante un recuento de -1. Para evitar confusiones, estos recuentos negativos se excluyen de los números de métricas de entrega que se muestran. Como resultado, es posible que el total de todas las filas de la métrica de envío no coincidan con el número de encabezado de columna.
