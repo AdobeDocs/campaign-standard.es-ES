@@ -30,12 +30,12 @@ Un conjunto de reglas predeterminadas garantiza los controles estándar. La sigu
 | Etiqueta | Canal | Fase de ejecución | Descripción |
 |---------|----------|---------|---------|
 | **[!UICONTROL A/B Test]** | Correo electrónico | Al principio de la personalización | Extrae la población de prueba para una entrega con una prueba A/B. |
-| **[!UICONTROL Check delivery size]** | Todas | Después de la segmentación | Comprueba el tamaño de los mensajes. |
+| **[!UICONTROL Check delivery size]** | Todos | Después de la segmentación | Comprueba el tamaño de los mensajes. |
 | **[!UICONTROL Check email content is not empty]** | Correo electrónico | Después de la segmentación | Genera un error si el contenido del mensaje está vacío. |
 | **[!UICONTROL Check In-App content for broadcast template]** | En la aplicación | Personalización al principio | Comprueba que los déclencheur o el contenido en la aplicación no estén vacíos para la plantilla de difusión. |
 | **[!UICONTROL Check In-App content for profile template]** | En la aplicación | Al principio de la personalización | Comprueba que los déclencheur o el contenido en la aplicación no estén vacíos para la plantilla del perfil. |
 | **[!UICONTROL Check In-App content for subscriber template]** | En la aplicación | Al principio de la personalización | Comprueba que los déclencheur o el contenido en la aplicación no estén vacíos para la plantilla del suscriptor. |
-| **[!UICONTROL Check proof size]** | Todas | Después de la segmentación | Genera un mensaje de error si la población de destino de prueba supera los 100 destinatarios. |
+| **[!UICONTROL Check proof size]** | Todos | Después de la segmentación | Genera un mensaje de error si la población de destino de prueba supera los 100 destinatarios. |
 | **[!UICONTROL Check social network sharing link]** | Correo electrónico | Al principio de la personalización | Comprueba la presencia de un vínculo a una página espejo cuando se incluye un vínculo de uso compartido de una red social (vínculos virales) en el contenido. |
 | **[!UICONTROL Check subject]** | Correo electrónico | Al principio de la personalización | Comprueba que el asunto y la dirección del remitente no contienen caracteres especiales que puedan causar problemas en determinados agentes de transferencia de correo y comprueba que el asunto del mensaje se haya completado. |
 | **[!UICONTROL Check unsubscription link]** | Correo electrónico | Al principio de la personalización | Comprueba la presencia de al menos una URL de baja (exclusión) en cada contenido (HTML y texto). |

@@ -25,15 +25,15 @@ La siguiente tabla proporciona información sobre las reglas de filtrado listas 
 
 | Etiqueta | Canal | Descripción |
 | ---------|----------|---------|
-| **[!UICONTROL Address not specified]** | Todas | Excluye la población objetivo sin una dirección especificada (correo electrónico, dirección postal, etc.) según el canal seleccionado). |
-| **[!UICONTROL Address on denylist]** | Todas | Excluye las direcciones que se encuentran en la lista de bloqueados de la. |
-| **[!UICONTROL Duplicate]** | Todas | Excluye duplicados en función de la población objetivo **[!UICONTROL Address]** field. |
+| **[!UICONTROL Address not specified]** | Todos | Excluye la población objetivo sin una dirección especificada (correo electrónico, dirección postal, etc.) según el canal seleccionado). |
+| **[!UICONTROL Address on denylist]** | Todos | Excluye las direcciones que se encuentran en la lista de bloqueados de la. |
+| **[!UICONTROL Duplicate]** | Todos | Excluye duplicados en función de la población objetivo **[!UICONTROL Address]** field. |
 | **[!UICONTROL Exclude mobile applications]** | Aplicación móvil | Excluye las suscripciones de la aplicación que no coinciden con la aplicación móvil definida en el mensaje. |
 | **[!UICONTROL Exclude mobile applications for In-App]** | En la aplicación | Excluye las suscripciones de la aplicación que no coinciden con la aplicación móvil definida en el mensaje (plantilla en la aplicación). |
 | **[!UICONTROL Exclude mobile applications for In-App broadcast]** | En la aplicación | Excluye las suscripciones a aplicaciones que no coinciden con la aplicación móvil definida en el mensaje (plantilla de difusión en la aplicación) |
 | **[!UICONTROL Exclude mobile applications for Push]** | Aplicación móvil | Excluye las suscripciones de la aplicación que no coinciden con la aplicación móvil definida en el mensaje (para push) |
-| **[!UICONTROL Quarantined address]** | Todas | Excluye las direcciones en cuarentena. |
-| **[!UICONTROL Target limited in size]** | Todas | Comprueba si se ha alcanzado el tamaño máximo de envío para el destino. Se aplica a los envíos de correo directo con la opción &quot;delivery limit&quot; activada. |
+| **[!UICONTROL Quarantined address]** | Todos | Excluye las direcciones en cuarentena. |
+| **[!UICONTROL Target limited in size]** | Todos | Comprueba si se ha alcanzado el tamaño máximo de envío para el destino. Se aplica a los envíos de correo directo con la opción &quot;delivery limit&quot; activada. |
 
 Además de estas reglas de filtrado predeterminadas, hay dos reglas de exclusión disponibles:
 

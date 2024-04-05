@@ -90,7 +90,7 @@ Si desea enviar notificaciones basadas en criterios específicos a diferentes gr
 
 Ahora, cada vez que una entrega cumple los criterios definidos en este panel, se envía una notificación de alerta al grupo de usuarios especificado.
 
-## Criterios de alerta de envío {#delivery-alerting-criteria}
+## Criterios de alertas de envío {#delivery-alerting-criteria}
 
 ### Acerca de los criterios de alerta {#about-alerting-criteria}
 

@@ -441,7 +441,7 @@ ht-degree: 7%
          <td> </td>
       </tr>
       <tr>
-         <td>state</td>
+         <td>estado</td>
          <td>Estado</td>
          <td>enumeración (byte) </td>
          <td>
@@ -479,7 +479,7 @@ ht-degree: 7%
          <td> </td>
       </tr>
       <tr>
-         <td>timezone</td>
+         <td>zona horaria</td>
          <td>Zona horaria</td>
          <td>enumeración (cadena) (64)</td>
          <td>
@@ -662,7 +662,7 @@ Por estado lógico (byLogicalStatus)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>state</td>
+    <td>estado</td>
     <td>enumeración</td>
     </tr>
 </table>
@@ -688,7 +688,7 @@ Por estado (por estado)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>state</td>
+    <td>estado</td>
     <td>enumeración</td>
     </tr>
 </table>
