@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 2e81a05b1b647991250d13d7d37f5da275a8db44
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 88%
+source-wordcount: '820'
+ht-degree: 76%
 
 ---
 
@@ -47,6 +47,12 @@ Los flujos de trabajo técnicos se utilizan para gestionar procesos técnicos y 
    <td> <span class="uicontrol">Facturación</span> <br /> </td> 
    <td> <span class="uicontrol">facturación</span> <br /> </td> 
    <td> Este flujo de trabajo envía el informe de actividad del sistema al usuario de “facturación” por correo electrónico. De forma predeterminada, se inicia automáticamente todos los días a las 01:00.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">Copia de encabezados de plantillas de envío</span> <br /> </td> 
+   <td> <span class="uicontrol">smtpHeaderupdate</span> <br /> </td> 
+   <td> Este flujo de trabajo copia los encabezados SMTP establecidos para las plantillas de envíos de correo electrónico en los envíos secundarios correspondientes que no sean plantillas. Este flujo de trabajo solo recoge las entregas de marketing por correo electrónico. Los encabezados SMTP no se copian en envíos transaccionales y envíos de prueba. <br> Este flujo de trabajo no se ejecuta periódicamente. El usuario debe iniciarlo en función de cada uso. <!--So it'not really a technical workflow like all workflows on this page, because it's not run automatically - TBC--> <br> Si hay un gran volumen de envíos en la instancia, puede actualizar la opción NmsCleanup_DeliveryPurgeDelay en <strong>Configuración de aplicación</strong>. Si realiza un cambio en los encabezados SMTP de cualquier plantilla, debe volver a ejecutar el flujo de trabajo después del cambio para que los encabezados corregidos se copien en los envíos que no sean de plantilla.<a href="data-retention.md#deliveries">Más información</a>
+   <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Database cleanup</span> <br /> </td> 

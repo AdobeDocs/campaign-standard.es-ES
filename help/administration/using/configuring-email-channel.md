@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 26a1c36003645446fb8b827d76afba749d64e9f2
+source-git-commit: 2e81a05b1b647991250d13d7d37f5da275a8db44
 workflow-type: tm+mt
-source-wordcount: '2729'
-ht-degree: 59%
+source-wordcount: '2749'
+ht-degree: 58%
 
 ---
 
@@ -294,7 +294,9 @@ La sección **[!UICONTROL SMTP]** contiene los siguientes parámetros:
   >
   >La adición de secuencias de comandos para insertar encabezados SMTP se reserva para usuarios avanzados. La sintaxis de esta secuencia de comandos debe cumplir con los requisitos de este tipo de contenido: no dejar espacios sin utilizar, ninguna línea vacía, etc.
 
-  A partir del 1 de junio de 2024, Google y Yahoo! exigirá a los remitentes que cumplan lo siguiente **Cancelación de suscripción a una lista con un clic**. Campaign admite esta capacidad de forma predeterminada.
+  A partir del 1 de junio de 2024, Google y Yahoo! exigirá a los remitentes que cumplan lo siguiente **Cancelación de suscripción a una lista con un clic**. Campaign admite esta capacidad de forma predeterminada para plantillas de envío.
+
+  Para aplicar **Cancelación de suscripción a una lista con un clic** para todas las entregas de correo electrónico que no sean de plantilla, debe ejecutar el **[!UICONTROL Copy headers from delivery templates]** flujo de trabajo técnico. [Más información](technical-workflows.md)
 
   >[!CAUTION]
   >
@@ -332,7 +334,7 @@ Utilice el **[!UICONTROL Delivery duration]** o **[!UICONTROL Validity limit for
 
 ### Reglas de procesamiento de correo electrónico {#legacy-email-processing-rules}
 
-El **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** y **[!UICONTROL Domain management]** los administradores pueden acceder y modificar las reglas a través de la **[!UICONTROL Administration > Channels > Email > Email processing rules]** menú. [Más información](#email-processing-rules).
+El **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** y **[!UICONTROL Domain management]** los administradores pueden acceder y modificar las reglas a través de la **[!UICONTROL Administration > Channels > Email > Email processing rules]** menú. [Más información](#email-processing-rules)
 
 ### Clasificación del correo rechazado {#legacy-bounce-mail-qualification}
 
