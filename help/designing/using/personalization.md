@@ -8,7 +8,7 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 9291eb06c35b1d06c0a992fa64a460215477f57e
 workflow-type: tm+mt
 source-wordcount: '2611'
 ht-degree: 6%
@@ -37,7 +37,7 @@ Este campo se puede personalizar. Para ello, puede añadir campos de personaliza
 >
 >Los parámetros de encabezado no deben estar vacíos. La dirección del remitente es obligatoria para permitir que se envíe un correo electrónico (estándar RFC). Adobe Campaign comprueba la sintaxis de las direcciones de correo electrónico introducidas.
 
-## Personalización de direcciones URL{#personalizing-urls}
+## Personalización de direcciones URL {#personalizing-urls}
 
 Adobe Campaign permite personalizar una o varias direcciones URL del mensaje añadiendo campos de personalización, bloques de contenido o contenido dinámico. Para ello, haga lo siguiente:
 
@@ -85,7 +85,7 @@ Una vez generada la personalización (al previsualizar y preparar el correo elec
 >
 >Si el correo electrónico se crea a partir de un flujo de trabajo, los datos adicionales calculados en el flujo de trabajo también están disponibles en los campos personalizados. Para obtener más información sobre cómo añadir datos adicionales desde un flujo de trabajo, consulte la [Enriquecimiento de datos](../../automating/using/about-targeting-activities.md#enriching-data) sección.
 
-## Añadir un bloque de contenido{#adding-a-content-block}
+## Añadir un bloque de contenido {#adding-a-content-block}
 
 Adobe Campaign ofrece una lista de bloques de contenido preconfigurados. Estos bloques de contenido son dinámicos, personalizados y tienen una renderización específica. Por ejemplo, puede agregar un saludo o un vínculo a la página espejo.
 
