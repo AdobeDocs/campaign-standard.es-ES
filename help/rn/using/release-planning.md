@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: ff6e926b66547632b74e58cc0e419c83a4ea556e
+source-git-commit: c35f8caeab9b6605b042618705eecc347d13fd18
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 100%
+source-wordcount: '419'
+ht-degree: 94%
 
 ---
 
@@ -25,7 +25,7 @@ Las actualizaciones se implementan en dos fases. En primer lugar, las fases de p
 
 Todas las fechas de las versiones están sujetas a cambios: visite esta página regularmente para buscar actualizaciones. Las actualizaciones de entorno se producen en olas, durante los intervalos de tiempo indicados a continuación. Las fechas exactas se comunican por correo electrónico a cada cliente.
 
-## Versión 24.1: versión de invierno de 2024 {#release-24-1-release}
+## Versión 24.2: versión de verano de 2024 {#release-24-2-release}
 
 Encontrará información detallada acerca de esta versión en las [Notas de la versión](release-notes.md) cuando comiencen las actualizaciones del entorno de ensayo.
 
@@ -33,17 +33,20 @@ Encontrará información detallada acerca de esta versión en las [Notas de la v
  <thead>
   <tr>
    <th> Entornos </th>
-   <th> Fechas </th>
+   <th> Disponibilidad limitada </th>
+   <th> Disponibilidad general </th>
   </tr>
  </thead>
  <tbody>
   <tr>
    <td>Prueba </td>
-   <td>16 de enero - 13 de febrero de 2024 </td>
+   <td>6 y 13 de agosto de 2024 </td>
+   <td>2025: fechas por confirmar</td>
   </tr>
   <tr>
    <td>Producción </td>
-   <td>23 de enero - 20 de febrero de 2024 </td>
+   <td>20 y 27 de agosto de 2024 </td>
+   <td>2025: fechas por confirmar</td>
   </tr>
  </tbody>
 </table>
