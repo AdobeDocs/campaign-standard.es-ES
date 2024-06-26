@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: 2e81a05b1b647991250d13d7d37f5da275a8db44
+source-git-commit: dba7ed7d68a33ddf1a1e62ea0f20e855c0b7eb20
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 76%
+source-wordcount: '839'
+ht-degree: 73%
 
 ---
 
@@ -62,7 +62,8 @@ Los flujos de trabajo técnicos se utilizan para gestionar procesos técnicos y 
   <tr> 
    <td> <span class="uicontrol">Previsión</span> <br /> </td> 
    <td> <span class="uicontrol">previsión</span> <br /> </td> 
-   <td> Este flujo de trabajo ejecuta el análisis de los envíos almacenados en la previsión provisional (creación de los registros provisionales). De forma predeterminada, se inicia cada día a las 01:00. <br /> </td> 
+   <td> Este flujo de trabajo ejecuta el análisis de los envíos almacenados en la previsión provisional (creación de los registros provisionales). De forma predeterminada, se inicia todos los días a las 01:00. <br />
+   El flujo de trabajo de previsión es un flujo de trabajo heredado que ahora se ha detenido en Campaign Standard y ya no funciona.</td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Importación de una audiencia compartida</span> <br /> </td> 
