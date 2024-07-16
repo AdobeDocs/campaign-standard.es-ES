@@ -9,10 +9,10 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 5e523519-7192-4031-9d96-559af23074d9
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 69%
+source-wordcount: '697'
+ht-degree: 70%
 
 ---
 
@@ -23,6 +23,10 @@ La capacidad de entrega permite medir el éxito de las campañas que llegan a la
 Más concretamente, la capacidad de entrega de correo electrónico hace referencia al conjunto de características que determinan la capacidad de un mensaje para llegar a su destino a través de una dirección de correo electrónico personal, en poco tiempo y con la calidad esperada en términos de contenido y formato. <!--These characteristics fall into four main categories: data quality, message and content, sending infrastructure, and reputation. Together, they form the foundation of a successful email deliverability program.-->
 
 Para profundizar en lo que es la capacidad de entrega y obtener más información sobre los términos, conceptos y enfoques clave de la capacidad de entrega, consulte la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es).
+
+>[!NOTE]
+>
+>La participación del equipo de entregabilidad se basa en el contrato y los clientes deben ponerse en contacto con su representante de Adobe para obtener información relacionada con la participación en la entregabilidad.
 
 ## Cómo mejorar la capacidad de entrega {#deliverability-key-points}
 
@@ -38,7 +42,7 @@ Los problemas de entrega suelen estar vinculados a medidas de protección contra
 
 ### Tasa de entrega
 
-La tasa de entrega es el número de mensajes que llegan a las bandejas de entrada de los destinatarios en comparación con el número de mensajes que se entregaron. Para mejorar la capacidad de entrega, puede aumentar esta tasa.
+La tasa de entregabilidad es el número de mensajes que llegan a las bandejas de entrada de los destinatarios en comparación con el número de mensajes que se entregaron. Para mejorar la capacidad de entrega, puede aumentar esta tasa.
 
 Con Adobe Campaign, la tasa de entrega depende de numerosos factores, especialmente:
 
@@ -68,7 +72,7 @@ Al configurar, diseñar y probar el mensaje, asegúrese de seguir las prácticas
 
 Para evitar el envío de mensajes a direcciones no válidas, limitar las comunicaciones incorrectas y mejorar la reputación del remitente, Adobe recomienda implementar un mecanismo de inclusión doble. Esto le permite asegurarse de que sus destinatarios se hayan suscrito intencionadamente.
 
-Para obtener más información, consulte [Acerca de la inclusión y la exclusión en Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Para obtener más información sobre esto, consulte [Acerca de la inclusión y la exclusión en Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 Para obtener más información sobre las prácticas recomendadas al recopilar datos de sus clientes, consulte la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html?lang=es#data-quality-and-hygiene).
 
@@ -90,7 +94,7 @@ Para obtener más información, consulte las siguientes secciones:
 
 Utilice las funciones que ofrece Adobe Campaign para monitorizar su capacidad de entrega.
 
-Adobe Campaign le permite comprobar el rendimiento de sus envíos a través de un conjunto de indicadores integrados en tiempo real. <!--For example, you can check the number of messages that are successfully executed, sent and delivered. You can also verify the number of messages that have been opened and the number of messages/links that have been clicked.-->También puede crear informes totalmente personalizables y en tiempo real para obtener un mejor conocimiento de sus envíos.
+Adobe Campaign le permite comprobar el rendimiento de sus envíos a través de un conjunto de indicadores integrados en tiempo real. <!--For example, you can check the number of messages that are successfully executed, sent and delivered. You can also verify the number of messages that have been opened and the number of messages/links that have been clicked.-->También puede generar informes totalmente personalizables y en tiempo real para obtener un mejor conocimiento de sus envíos.
 
 Para obtener más información, consulte las siguientes secciones:
 

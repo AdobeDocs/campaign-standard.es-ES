@@ -9,7 +9,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 0470b986-c00a-4441-8621-82c7112a9953
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 58%
@@ -25,6 +25,7 @@ ht-degree: 58%
 **¿Por qué siempre recibo el mismo mensaje de error para un ISP en particular?**
 
 Si siempre recibe el mismo mensaje de error para un ISP, es posible que el ISP haya detectado un error en su dirección de correo electrónico o IP. Siga las siguientes recomendaciones:
+
 * Compruebe si recibe un gran porcentaje de errores vinculados a direcciones de correo electrónico inexistentes (errores de **usuario desconocido**).
 * Actualice los formularios de suscripción para detectar cualquier error en los nombres de dominio introducidos (por ejemplo: gmaul.com o yaho.com).
 * Si nota errores que indican que sus mensajes están declarados como correo no deseado o que sus mensajes están bloqueados constantemente, intente excluir los destinatarios que no han abierto o hecho clic en uno de sus mensajes en los últimos 12 meses desde el destinatario.
@@ -33,9 +34,9 @@ Si el problema persiste, póngase en contacto con los servicios comerciales o de
 
 ## Lista de bloqueados frente a cuarentena {#denylist-versus-quarantine}
 
-* **¿Cuál es la diferencia entre una dirección de correo electrónico en la lista de bloqueados de la y una dirección de correo electrónico en cuarentena?**
+* **¿Cuál es la diferencia entre una dirección de correo electrónico en la lista de bloqueados y una dirección de correo electrónico en cuarentena?**
 
-   * El estado **[!UICONTROL On denylist]** es el resultado de un [bucle de retroalimentación](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=es#feedback-loops) (cuando una persona informa un mensaje como correo no deseado).
+   * El estado **[!UICONTROL On denylist]** es el resultado de un [bucle de comentarios](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=es#feedback-loops) (cuando una persona informa un mensaje como correo no deseado).
 
    * El estado **[!UICONTROL Quarantined]** es el resultado de un rechazo suave o fuerte.
 
@@ -49,7 +50,7 @@ Si el problema persiste, póngase en contacto con los servicios comerciales o de
 
 ## Eliminación de la lista de bloqueados {#removing-from-denylist}
 
-* **Uno de mis destinatarios fue agregado a la lista de bloqueados de la por error. ¿Cómo puedo quitarlos de la lista de bloqueados de la para que pueda volver a enviarles mensajes?**
+* **Uno de mis destinatarios se agregó a la lista de bloqueados de la por error. ¿Cómo puedo quitarlos de la lista de bloqueados de la para que pueda volver a enviarles mensajes?**
 
    * Vaya a **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
    * En los detalles del registro correspondiente, establezca el valor del campo **[!UICONTROL Status]** en **[!UICONTROL Valid]**.

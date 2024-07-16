@@ -1,22 +1,42 @@
 ---
-title: Última versión
+title: Últimas notas de la versión
 description: Esta página detalla el contenido de la última versión de Campaign Standard
 feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: a8013bac719a45442e09d710db12df0abe721cc4
-workflow-type: ht
-source-wordcount: '244'
-ht-degree: 100%
+source-git-commit: 44c436a74a0a4aa688427bfb36d506566d57ac3a
+workflow-type: tm+mt
+source-wordcount: '387'
+ht-degree: 79%
 
 ---
 
 
-# Última versión{#latest-release}
+# Últimas notas de la versión {#latest-release}
 
 <!--
 ![Control Panel](assets/do-not-localize/cp-icon.png) **New Control Panel release**. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html){target="_blank"}.-->
+
+
+## Notas de la versión preliminar {#e-new-release}
+
+Esta sección enumera las mejoras y cambios incluidos en la próxima versión de Campaign Standard.
+
+>[!CAUTION]
+>
+>Este contenido está sujeto a cambios sin previo aviso hasta la fecha de actualización de los entornos de ensayo. Obtenga más información en la [página de planificación de versiones](../../rn/using/release-planning.md).
+
+**Versión 24.2 - Versión de verano de 2024**
+
+* **Fecha de lanzamiento**: agosto de 2024 (disponibilidad limitada) - [Más información](../../rn/using/release-planning.md).
+
+* **Migración a la credencial de servidor a servidor OAuth**
+
+  A partir de esta versión, y habiendo declarado Adobe la credencial Cuenta de servicio (JWT) como obsoleta, las integraciones de salida de Campaign con aplicaciones y soluciones de Adobe ahora dependen de la credencial OAuth de servidor a servidor. Adobe realizará la migración de JWT a OAuth para sus integraciones de salida, como la integración de Campaign-Analytics o la integración de Activadores de Experience Cloud.
+
+  Si ha implementado integraciones entrantes con Campaign y usa [las API de Campaign](../../api/using/get-started-apis.md), debe migrar su cuenta técnica como se detalla en [esta documentación](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. Las credenciales de la cuenta de servicio (JWT) existentes dejarán de funcionar el **27 de enero de 2025**.
+
 
 ## Versión 24.1: versión de invierno de 2024 {#winter-24}
 

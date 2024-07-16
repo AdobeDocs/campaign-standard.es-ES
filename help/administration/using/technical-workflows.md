@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: dba7ed7d68a33ddf1a1e62ea0f20e855c0b7eb20
+source-git-commit: f87795ee2378a1e9e1b393c6cce002bcb70178b8
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 73%
+source-wordcount: '791'
+ht-degree: 75%
 
 ---
 
@@ -49,22 +49,16 @@ Los flujos de trabajo técnicos se utilizan para gestionar procesos técnicos y 
    <td> Este flujo de trabajo envía el informe de actividad del sistema al usuario de “facturación” por correo electrónico. De forma predeterminada, se inicia automáticamente todos los días a las 01:00.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Copia de encabezados de plantillas de envío</span> <br /> </td> 
+   <td> <span class="uicontrol">Copiar encabezados de plantillas de envío</span> <br /> </td> 
    <td> <span class="uicontrol">smtpHeaderupdate</span> <br /> </td> 
-   <td> Este flujo de trabajo copia los encabezados SMTP establecidos para las plantillas de envíos de correo electrónico en los envíos secundarios correspondientes que no sean plantillas. Este flujo de trabajo solo recoge las entregas de marketing por correo electrónico. Los encabezados SMTP no se copian en envíos transaccionales y envíos de prueba. <br> Este flujo de trabajo no se ejecuta periódicamente. El usuario debe iniciarlo en función de cada uso. <!--So it'not really a technical workflow like all workflows on this page, because it's not run automatically - TBC--> <br> Si hay un gran volumen de envíos en la instancia, puede actualizar la opción NmsCleanup_DeliveryPurgeDelay en <strong>Configuración de aplicación</strong>. Si realiza un cambio en los encabezados SMTP de cualquier plantilla, debe volver a ejecutar el flujo de trabajo después del cambio para que los encabezados corregidos se copien en los envíos que no sean de plantilla.<a href="data-retention.md#deliveries">Más información</a>
+   <td> Este flujo de trabajo copia los encabezados SMTP establecidos para las plantillas de envíos de correo electrónico en los envíos secundarios correspondientes que no sean plantillas. Este flujo de trabajo solo recoge las entregas de marketing por correo electrónico. Los encabezados SMTP no se copian en envíos transaccionales y envíos de prueba. <br> Este flujo de trabajo no se ejecuta periódicamente. El usuario debe iniciarlo en función de cada uso. <!--So it'not really a technical workflow like all workflows on this page, because it's not run automatically - TBC--> <br> Si hay un gran volumen de envíos en su instancia, puede actualizar la opción NmsCleanup_DeliveryPurgeDelay en <strong>Configuración de la aplicación</strong>. Si realiza un cambio en los encabezados SMTP de cualquier plantilla, debe volver a ejecutar el flujo de trabajo después del cambio para que los encabezados corregidos se copien en los envíos que no sean de plantilla.<a href="data-retention.md#deliveries">Más información</a>
    <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Database cleanup</span> <br /> </td> 
    <td> <span class="uicontrol">cleanup</span> <br /> </td> 
    <td> Este flujo de trabajo es el flujo de trabajo de mantenimiento de la base de datos: ejecuta diferentes estadísticas y procesos y elimina datos obsoletos de la base de datos según la configuración que se haya definido. De forma predeterminada, se inicia automáticamente todos los días a las 04:00.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">Previsión</span> <br /> </td> 
-   <td> <span class="uicontrol">previsión</span> <br /> </td> 
-   <td> Este flujo de trabajo ejecuta el análisis de los envíos almacenados en la previsión provisional (creación de los registros provisionales). De forma predeterminada, se inicia todos los días a las 01:00. <br />
-   El flujo de trabajo de previsión es un flujo de trabajo heredado que ahora se ha detenido en Campaign Standard y ya no funciona.</td> 
-  </tr> 
+  </tr>
   <tr> 
    <td> <span class="uicontrol">Importación de una audiencia compartida</span> <br /> </td> 
    <td> <span class="uicontrol">importSharedAudience</span> <br /> </td> 
@@ -109,7 +103,7 @@ Los flujos de trabajo técnicos se utilizan para gestionar procesos técnicos y 
   <tr> 
    <td> <span class="uicontrol">Recuperar registros de seguimiento</span> <br /> </td> 
    <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
-   <td> Este flujo de trabajo restaura los registros de seguimiento perdidos. Tenga en cuenta que este flujo de trabajo técnico se utiliza en contextos específicos y se restringe únicamente al uso interno del Adobe. <br> De forma predeterminada, se inicia cada 10 minutos.<br /> </td> 
+   <td> Este flujo de trabajo restaura los registros de seguimiento perdidos. Tenga en cuenta que este flujo de trabajo técnico se utiliza en contextos específicos y se restringe únicamente al uso interno del Adobe. <br> De manera predeterminada, se inicia cada 10 minutos.<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">Actualización de la ejecución de entrega</span> <br/> </td> 
