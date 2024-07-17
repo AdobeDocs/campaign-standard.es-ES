@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: c35f8caeab9b6605b042618705eecc347d13fd18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '419'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -40,12 +40,12 @@ Encontrará información detallada acerca de esta versión en las [Notas de la v
  <tbody>
   <tr>
    <td>Prueba </td>
-   <td>6 y 13 de agosto de 2024 </td>
+   <td>6-13 de agosto de 2024 </td>
    <td>2025: fechas por confirmar</td>
   </tr>
   <tr>
    <td>Producción </td>
-   <td>20 y 27 de agosto de 2024 </td>
+   <td>20-27 de agosto de 2024 </td>
    <td>2025: fechas por confirmar</td>
   </tr>
  </tbody>
