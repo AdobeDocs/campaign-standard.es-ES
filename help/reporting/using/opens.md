@@ -18,7 +18,7 @@ ht-degree: 9%
 
 # Aperturas{#opens}
 
-El **[!UICONTROL Opens]** Este informe identifica los envíos más vistos por los destinatarios.
+El informe **[!UICONTROL Opens]** identifica los envíos más vistos por los destinatarios.
 
 ![](assets/delivery_reports_opens.png)
 
@@ -29,4 +29,4 @@ En cuatro tablas y gráficos se desglosa el número total de destinatarios que a
 * Plataforma
 * Dominio
 
-El **[!UICONTROL TOP 5]** la tabla y el gráfico muestran los envíos con la mayor cantidad de mensajes enviados.
+La tabla **[!UICONTROL TOP 5]** y el gráfico muestran los envíos con la mayor cantidad de mensajes enviados.

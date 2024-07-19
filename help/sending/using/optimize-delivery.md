@@ -32,9 +32,9 @@ Varios factores pueden afectar directamente al rendimiento del servidor y ralent
 
   **SUGERENCIA:** Para evitar esto, coordine la programación de las envíos con los demás miembros de su equipo para garantizar el mejor rendimiento.
 
-* El [ejecución de flujo de trabajo](../../automating/using/about-workflow-execution.md): la monitorización de los flujos de trabajo es esencial para evitar problemas de rendimiento de la plataforma. Siga las directrices enumeradas [en esta página](../../automating/using/monitoring-workflow-execution.md). Obtenga más información en la [prácticas recomendadas de flujo de trabajo](../../automating/using/best-practices-workflows.md) sección.
+* [ejecución del flujo de trabajo](../../automating/using/about-workflow-execution.md): la supervisión de los flujos de trabajo es esencial para evitar problemas de rendimiento de la plataforma. Siga las directrices enumeradas [en esta página](../../automating/using/monitoring-workflow-execution.md). Obtenga más información en la sección [prácticas recomendadas de flujo de trabajo](../../automating/using/best-practices-workflows.md).
 
-* Puede aprovechar [Funcionalidades del Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=es) para supervisar su plataforma, utilizando [supervisión del rendimiento](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=es) funcionalidades.
+* Puede aprovechar las [funcionalidades de Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=es) para monitorizar su plataforma mediante las funcionalidades de [supervisión del rendimiento](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=es).
 
 ## Comprobación de la configuración de red {#network-config}
 

@@ -17,12 +17,12 @@ ht-degree: 0%
 
 # Actualización de los atributos de una unidad organizativa {#updating-organizational-unit-attributes}
 
-1. Realice una solicitud de GET en **orgUnitBase** recurso para recuperar la clave clave de la unidad organizativa.
+1. Realice una solicitud de GET en el recurso **orgUnitBase** para recuperar la clave principal de la unidad organizativa.
 1. Realice una solicitud de PATCH en la unidad organizativa, con los atributos que desea actualizar en la carga útil.
 
 <br/>
 
-***Solicitud de ejemplo***
+***Solicitud de muestra***
 
 Recupere la lista de unidades organizativas.
 

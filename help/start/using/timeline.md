@@ -32,8 +32,8 @@ La línea vertical azul es un marcador cronológico para resaltar la fecha actua
 
 Utilice los iconos para;
 
-* ![](assets/timeline_zoom_in.png) reduzca el perímetro o aumente el nivel de detalle durante un periodo más limitado, hasta que se muestren los días
-* ![](assets/timeline_zoom_out.png) aumente el perímetro o muestre un periodo de tiempo mayor
+* ![](assets/timeline_zoom_in.png) reduce el perímetro o aumenta el nivel de detalle durante un período más limitado, hasta que se muestren los días
+* ![](assets/timeline_zoom_out.png) aumenta el perímetro o muestra un periodo de tiempo mayor
 
 Haga clic en la flecha a la derecha del nombre de cada programa para mostrar el contenido correspondiente. Un programa puede contener programas secundarios, campañas y páginas de aterrizaje. Una campaña se implementa del mismo modo que un programa y puede contener correos electrónicos, SMS y páginas de aterrizaje.
 
@@ -47,12 +47,12 @@ Cuando se muestra el contenido de un programa o una campaña, el cuadro correspo
 
 Cada elemento tiene un icono que corresponde a su tipo:
 
-* ![](assets/timeline_program_icon.png) Programa
-* ![](assets/timeline_campaign_icon.png) Campaign
-* ![](assets/timeline_lp_icon.png) Página de aterrizaje
-* ![](assets/timeline_email_icon.png) Correo electrónico
+* Programa ![](assets/timeline_program_icon.png)
+* ![](assets/timeline_campaign_icon.png) campaña
+* ![](assets/timeline_lp_icon.png) página de aterrizaje
+* ![](assets/timeline_email_icon.png) correo electrónico
 * ![](assets/timeline_sms_icon.png) SMS
-* ![](assets/timeline_push_icon.png) Notificación push
+* ![](assets/timeline_push_icon.png) notificación push
 
 La línea de color del borde izquierdo de cada cuadro indica el estado del elemento en cuestión.
 

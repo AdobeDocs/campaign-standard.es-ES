@@ -36,7 +36,7 @@ Administre el permiso y el consentimiento de los clientes mediante servicios y p
 
 Al crear campañas o mensajes, puede especificar el destinatario de los envíos seleccionando entre los contactos de la base de datos de Campaign, utilizando criterios simples o avanzados o seleccionando audiencias.
 
-Identifique a los clientes de forma más eficaz en todos los canales mediante **perfiles de cliente integrados**, **segmentos personalizados** y **grupos de control**. Cuando conoce sus clientes, intereses, características demográficas y preferencias de canal, es más fácil crear experiencias personalizadas que pasen desapercibidas.
+Identifique a los clientes de forma más eficaz en todos sus canales mediante **perfiles de clientes integrados**, **segmentos personalizados** y **grupos de control**. Cuando conoce sus clientes, intereses, características demográficas y preferencias de canal, es más fácil crear experiencias personalizadas que pasen desapercibidas.
 
 Adobe Campaign crea perfiles de clientes enriquecidos en tiempo real, lo que le permite ofrecer ofertas más relevantes y personalizadas a medida que cambian las preferencias de sus clientes. Además, Adobe Campaign integra funciones avanzadas de análisis, administración de datos y segmentación para crear audiencias.
 
@@ -60,13 +60,13 @@ Más información:
 
 Antes de empezar a enviar mensajes a un contacto, debe asegurarse de obtener su permiso. Si no es así, es posible que los correos electrónicos se marquen como correo no deseado, lo que afectará a la capacidad de envío de la plataforma. Para asegurarse de crear una base de datos de perfiles en buen estado, proteja este permiso como primer paso.
 
-Con Campaign, le recomendamos que utilice **mecanismos de inclusión y exclusión sencillos** mediante [servicios](../../audiences/using/creating-a-service.md), y [páginas de aterrizaje](../../channels/using/getting-started-with-landing-pages.md) para actualizar su información de contacto y ampliar su base de datos.
+Con Campaign, le recomendamos que utilice **mecanismos fáciles de inclusión y exclusión** mediante [servicios](../../audiences/using/creating-a-service.md) y [páginas de aterrizaje](../../channels/using/getting-started-with-landing-pages.md) para actualizar su información de contacto y ampliar su base de datos.
 
-Proporcionar **vínculos de baja** en sus mensajes, permitirá que se añadan perfiles a la lista de bloqueados de la, cuando sea necesario, y, por lo tanto, para mejorar la capacidad de envío de la plataforma. Para obtener más información sobre la administración de la lista de bloqueados de la, consulte [Acerca de la inclusión y la exclusión en Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Si proporciona **vínculos para darse de baja** en sus mensajes, los perfiles podrán agregarse a la lista de bloqueados de la plataforma cuando sea necesario y, por lo tanto, para mejorar la capacidad de envío de la plataforma. Para obtener más información sobre la administración de la lista de bloqueados de la, consulte [Acerca de la inclusión y la exclusión en Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!IMPORTANT]
 >
->Se le exige que respete el [Política de uso aceptable de Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
+>Debe respetar la [política de uso aceptable de Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
 
 Más información:
 
@@ -77,9 +77,9 @@ Más información:
 
 <img src="assets/do-not-localize/icon_privacy.svg" width="60px">
 
-Adobe Campaign ofrece un conjunto de herramientas para ayudarle con su **Cumplimiento de privacidad** para el RGPD, la CCPA y otras leyes de privacidad.
+Adobe Campaign ofrece un conjunto de herramientas que lo ayudarán con su **cumplimiento de la privacidad** para RGPD, CCPA y otras leyes de privacidad.
 
-Obtenga más información en esta [este artículo](https://helpx.adobe.com/es/campaign/kb/campaign-privacy.html) Acerca de la administración de la privacidad y las funciones que proporcionamos para administrar el derecho de acceso, el derecho a ser olvidado, el consentimiento, la retención de datos y las funciones de usuario.
+Obtenga más información en este [artículo](https://helpx.adobe.com/es/campaign/kb/campaign-privacy.html) sobre la administración de privacidad y las características que proporcionamos para administrar el derecho de acceso, el derecho a ser olvidado, el consentimiento, la retención de datos y las funciones de usuario.
 
 La privacidad y el consentimiento en Campaign y cómo administrarlos se presentan en [esta sección](../../start/using/privacy.md). Entérese también de las mejores prácticas recomendadas para ayudarle con el cumplimiento de las normas de privacidad al utilizar el servicio.
 

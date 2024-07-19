@@ -28,7 +28,7 @@ Si la solicitud de eliminación se realiza correctamente, el estado de respuesta
 
 <br/>
 
-***Solicitud de ejemplo***
+***Solicitud de muestra***
 
 Las cargas útiles de ejemplo siguientes muestran cómo cancelar la suscripción de un perfil a un servicio. Primero realice una solicitud de GET para recuperar el perfil.
 
@@ -101,7 +101,7 @@ Si la solicitud de eliminación se realiza correctamente, el estado de respuesta
 
 <br/>
 
-***Solicitud de ejemplo***
+***Solicitud de muestra***
 
 Recupere el registro de servicio.
 

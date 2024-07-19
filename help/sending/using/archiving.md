@@ -21,7 +21,7 @@ Puede configurar Adobe Campaign para que conserve una copia de los correos elect
 
 En concreto, si su organización necesita archivar todos los mensajes de correo electrónico salientes para fines de conformidad, puede activar esta capacidad. Permite enviar una copia oculta exacta de los mensajes enviados correspondientes a una dirección de correo electrónico CCO (invisible para los destinatarios de la entrega) que debe especificar.
 
-Una vez activado, debe activar el correo electrónico CCO desde el **[!UICONTROL Archive emails]** en la plantilla de envíos de correo electrónico.
+Una vez habilitado, debe activar el correo electrónico CCO desde la opción **[!UICONTROL Archive emails]** en la plantilla de envíos de correo electrónico.
 
 >[!NOTE]
 >
@@ -42,14 +42,14 @@ Una vez activado, debe activar el correo electrónico CCO desde el **[!UICONTROL
 
 ## Activando archivado de correo electrónico {#activating-email-archiving}
 
-Una vez activado, el correo electrónico CCO se activa en la [plantilla de correo electrónico](../../start/using/marketing-activity-templates.md), a través de una opción dedicada:
+Una vez habilitado, el correo electrónico CCO se activa en la [plantilla de correo electrónico](../../start/using/marketing-activity-templates.md), a través de una opción dedicada:
 
 1. Vaya a **Resources**, **Templates**, **Delivery templates**.
-1. Duplique el de forma predeterminada **[!UICONTROL Send via email]** plantilla.
+1. Duplique la plantilla **[!UICONTROL Send via email]** lista para usar.
 1. Seleccione la plantilla duplicada.
-1. Haga clic en **[!UICONTROL Edit properties]** para editar las propiedades de la plantilla.
-1. Expanda el **[!UICONTROL Send]** sección.
-1. Compruebe la **[!UICONTROL Archive emails]** para guardar una copia de todos los mensajes enviados para cada envío basado en esta plantilla.
+1. Haga clic en el botón **[!UICONTROL Edit properties]** para editar las propiedades de la plantilla.
+1. Expanda la sección **[!UICONTROL Send]**.
+1. Marque la casilla **[!UICONTROL Archive emails]** para conservar una copia de todos los mensajes enviados para cada envío basado en esta plantilla.
 
    ![](assets/email_archiving.png)
 

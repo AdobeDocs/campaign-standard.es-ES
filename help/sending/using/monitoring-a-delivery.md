@@ -22,7 +22,7 @@ Existen varias formas de supervisar un envío y medir su impacto. Como administr
 
 >[!IMPORTANT]
 >
->Solo funcional [administradores](../../administration/using/users-management.md#functional-administrators), con **[!UICONTROL Administration]** función y acceso a **Todo** las unidades pueden acceder a los registros de envío, los registros de mensajes, los registros de seguimiento y los registros de exclusión o suscripción. Un usuario no administrador puede dirigirse a estos registros empezando por una tabla vinculada (perfiles, envío).
+>Solo los [administradores](../../administration/using/users-management.md#functional-administrators) funcionales con el rol **[!UICONTROL Administration]** y acceso a las unidades **All** pueden acceder a los registros de envío, los registros de mensajes, los registros de seguimiento y los registros de exclusión o suscripción. Un usuario no administrador puede dirigirse a estos registros empezando por una tabla vinculada (perfiles, envío).
 
 * **Registros de mensajes**: se puede acceder a estos registros directamente desde el panel de mensajes. Muestran los detalles del envío, qué destinatario se ha excluido y por qué, así como la información de seguimiento como aperturas y clics.
 
@@ -38,9 +38,9 @@ Existen varias formas de supervisar un envío y medir su impacto. Como administr
 
   ![](assets/sending_delivery2.png)
 
-* **Registros de trabajo**: Se puede acceder a una lista de los trabajos por lotes activados por la entrega desde el panel de mensajes seleccionando **[!UICONTROL Job history]** desde el **[!UICONTROL Summary]** lista desplegable.
+* **Registros de trabajo**: Se puede acceder a una lista de los trabajos por lotes activados por la entrega desde el panel de mensajes seleccionando **[!UICONTROL Job history]** de la lista desplegable **[!UICONTROL Summary]**.
 
-  Seleccione cualquier trabajo de la lista para ver los detalles de los seleccionados **[!UICONTROL Batch job]**.
+  Seleccione cualquier trabajo de la lista para ver los detalles de los **[!UICONTROL Batch job]** seleccionados.
 
   ![](assets/sending_delivery8.png)
 

@@ -28,7 +28,7 @@ Los verbos disponibles para realizar operaciones en los recursos son:
 
 <br/>
 
-***Solicitudes de ejemplo***
+***Solicitudes de muestra***
 
 * Solicitud de GET de muestra en la colección de perfiles.
 

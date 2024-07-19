@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >El informe de clics activos muestra exclusivamente la versión del HTML del correo electrónico y no admite la versión de texto.
 
-Se puede acceder a este informe desde el **[!UICONTROL Reports]** en cada envío o mensaje transaccional.
+Se puede acceder a este informe desde el botón **[!UICONTROL Reports]** en cada envío o mensaje transaccional.
 
 ![](assets/delivery_reports_hot-clicks_4.png)
 
@@ -30,7 +30,7 @@ Presenta el contenido del mensaje con el porcentaje de clics en cada vínculo.
 
 ![](assets/delivery_reports_10.png)
 
-Si ha creado contenido dinámico para su envío, puede ver los porcentajes de cada condición que ha definido. Para obtener más información sobre la inserción de contenido condicional en una entrega, consulte [Definición del contenido dinámico](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+Si ha creado contenido dinámico para su envío, puede ver los porcentajes de cada condición que ha definido. Para obtener más información sobre la inserción de contenido condicional en una entrega, consulte [Definición de contenido dinámico](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
 Por ejemplo, imaginemos que ha creado una entrega con las siguientes condiciones:
 
@@ -43,11 +43,11 @@ De forma predeterminada, no se selecciona ningún perfil. Solo se muestran los c
 
 ![](assets/delivery_reports_hot-clicks_1.png)
 
-Para mostrar los clics de las mujeres, haga clic en **[!UICONTROL Change profile]** y seleccione un perfil de prueba femenino. Para mostrar los clics de los hombres, continúe de forma similar y seleccione un perfil de prueba masculino.
+Para mostrar los clics de las mujeres, haga clic en el botón **[!UICONTROL Change profile]** y seleccione un perfil de prueba femenino. Para mostrar los clics de los hombres, continúe de forma similar y seleccione un perfil de prueba masculino.
 
 ![](assets/delivery_reports_hot-clicks_2.png)
 
-Para mostrar los clics de los destinatarios mayores de 25 años, haga clic en **[!UICONTROL Change profile]** y seleccione un perfil de prueba cuya fecha de nacimiento coincida con esta condición.
+Para mostrar los clics de los destinatarios mayores de 25 años, haga clic en el botón **[!UICONTROL Change profile]** y seleccione un perfil de prueba cuya fecha de nacimiento coincida con esta condición.
 
 Para obtener más información sobre los perfiles de prueba, consulte [Acerca de los perfiles de prueba](../../audiences/using/managing-test-profiles.md).
 
@@ -75,7 +75,7 @@ Un envío de ejecución es un mensaje técnico no procesable y no funcional que 
 
 Una vez enviado el mensaje, seleccione **[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]** en el panel de envío.
 
-De forma predeterminada, se selecciona la última entrega de ejecución. Haga clic en **[!UICONTROL Change execution delivery]** para seleccionar otro.
+De forma predeterminada, se selecciona la última entrega de ejecución. Haga clic en el botón **[!UICONTROL Change execution delivery]** para seleccionar otro.
 
 ![](assets/delivery_reports_hot-clicks_3.png)
 

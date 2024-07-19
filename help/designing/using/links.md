@@ -1,6 +1,6 @@
 ---
 title: Adición de vínculos
-description: Descubra cómo administrar vínculos con el Diseñador de correo electrónico.
+description: Descubra cómo administrar vínculos con Email Designer.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -25,7 +25,7 @@ Puede insertar un vínculo en cualquier elemento de página: imagen, palabra, gr
 
 >[!NOTE]
 >
->Las siguientes imágenes muestran cómo insertar un vínculo utilizando la variable [Diseñador de correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md) en un correo electrónico.
+>Las siguientes imágenes muestran cómo insertar un vínculo con el [correo electrónico Designer](../../designing/using/designing-content-in-adobe-campaign.md) en un mensaje de correo electrónico.
 
 1. Seleccione un elemento y haga clic en **[!UICONTROL Insert link]** en la barra de herramientas contextual.
 
@@ -35,7 +35,7 @@ Puede insertar un vínculo en cualquier elemento de página: imagen, palabra, gr
 
    * **Vínculo externo**: inserte un vínculo a una dirección URL externa.
 
-     Puede definir la personalización de las direcciones URL. Consulte [Personalización de direcciones URL](personalization.md#personalizing-urls).
+     Puede definir la personalización de las direcciones URL. Ver [Personalización de direcciones URL](personalization.md#personalizing-urls).
 
    * **Página de aterrizaje**: dé acceso a una página de aterrizaje de Adobe Campaign.
    * **Vínculo de suscripción**: inserte un vínculo para suscribirse a un servicio de Adobe Campaign.
@@ -59,13 +59,13 @@ Una vez creado el vínculo, aún puede modificarlo desde el panel Configuración
 
 ![](assets/des_link_edit.png)
 
-Al editar un correo electrónico con [Diseñador de correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md), puede acceder fácilmente a los vínculos creados a partir de la tabla de todas las direcciones URL incluidas en el correo electrónico y modificarlos. Esta lista le permite tener una vista centralizada y localizar cada dirección URL en el contenido del correo electrónico. Para acceder a él, consulte [Acerca de las URL rastreadas](#about-tracked-urls).
+Al editar un correo electrónico con [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md), puede acceder fácilmente a los vínculos que creó a partir de la tabla que enumera todas las direcciones URL incluidas en el correo electrónico y modificarlos. Esta lista le permite tener una vista centralizada y localizar cada dirección URL en el contenido del correo electrónico. Para obtener acceso a él, consulte [Acerca de las direcciones URL rastreadas](#about-tracked-urls).
 
 ![](assets/des_link_list.png)
 
 >[!NOTE]
 >
->Direcciones URL personalizadas como **URL de página espejo** o **Baja** El vínculo no se puede modificar desde esta lista. El resto de vínculos se pueden editar.
+>Las direcciones URL personalizadas, como **URL de la página espejo** o el vínculo **Baja**, no se pueden modificar desde esta lista. El resto de vínculos se pueden editar.
 
 **Temas relacionados**:
 
@@ -77,7 +77,7 @@ Al editar un correo electrónico con [Diseñador de correo electrónico](../../d
 
 Adobe Campaign permite rastrear el comportamiento de los destinatarios cuando hacen clic en una dirección URL incluida en un correo electrónico. Para obtener más información de seguimiento, consulte [esta sección](../../sending/using/tracking-messages.md#about-tracking).
 
-El **[!UICONTROL Links]** en la barra de acciones muestra automáticamente la lista de todas las direcciones URL del contenido de las que se realizará un seguimiento.
+El icono **[!UICONTROL Links]** de la barra de acciones muestra automáticamente la lista de todas las direcciones URL del contenido de las que se realizará un seguimiento.
 
 ![](assets/des_links.png)
 
@@ -94,7 +94,7 @@ Para cada URL rastreada, puede establecer el modo de seguimiento en uno de estos
 * **Rastreado**: activa el seguimiento en esta dirección URL.
 * **Página espejo**: considera esta URL como una URL de página espejo.
 * **Nunca**: nunca activa el seguimiento de esta dirección URL. Esta información se guarda: si la dirección URL aparece de nuevo en un mensaje futuro, su seguimiento se desactiva automáticamente.
-* **Opción de exclusión**: considera esta URL como una URL de exclusión o de baja.
+* **Exclusión**: considera esta URL como una URL de exclusión o de baja.
 
 ![](assets/des_link_tracking_type.png)
 
@@ -102,14 +102,14 @@ También puede desactivar o activar el seguimiento para cada dirección URL.
 
 >[!NOTE]
 >
->De forma predeterminada, en Adobe Campaign se realiza el seguimiento de todas las direcciones URL de contenido, excepto **URL de página espejo** y **Baja** vínculo.
+>De forma predeterminada en Adobe Campaign, se hace un seguimiento de todas las direcciones URL de contenido, excepto **URL de la página espejo** y el vínculo **Baja**.
 
-Puede reagrupar las direcciones URL editando el **[!UICONTROL Category]** , según las direcciones URL utilizadas en el mensaje. Estas categorías pueden mostrarse en los informes, como en [URL y flujos de clics](../../reporting/using/urls-and-click-streams.md).
+Puede reagrupar las direcciones URL editando el campo **[!UICONTROL Category]**, según las direcciones URL utilizadas en el mensaje. Estas categorías pueden mostrarse en los informes, como en [URL y flujos de clics](../../reporting/using/urls-and-click-streams.md).
 
 ![](assets/des_link_tracking_category.png)
 
-Al crear un informe, desde el **[!UICONTROL Components]** pestaña, seleccione **[!UICONTROL Dimension]** y desplácese hacia abajo por la lista para acceder a los componentes de seguimiento. Por ejemplo, arrastrar y soltar **[!UICONTROL Tracking URL Category]** en el espacio de trabajo para mostrar los resultados según la categoría de seguimiento de cada dirección URL en la que se hizo clic.
+Al crear un informe, en la ficha **[!UICONTROL Components]**, seleccione **[!UICONTROL Dimension]** y desplácese hacia abajo por la lista para acceder a los componentes de seguimiento. Por ejemplo, arrastre y suelte **[!UICONTROL Tracking URL Category]** en el área de trabajo para mostrar los resultados según la categoría de seguimiento de cada dirección URL en la que se hizo clic.
 
 ![](assets/des_link_tracking_report.png)
 
-Para obtener más información sobre la creación de informes personalizados, consulte [esta sección](../../reporting/using/about-dynamic-reports.md).
+Para obtener más información sobre la generación de informes personalizados, consulte [esta sección](../../reporting/using/about-dynamic-reports.md).

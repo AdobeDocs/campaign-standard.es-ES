@@ -492,12 +492,12 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
   <tr> 
    <td> <strong>AllNonNull2</strong><br /> </td> 
    <td> Indica si todos los parámetros no son nulos y no están vacíos.<br /> </td> 
-   <td> AllNonNull2(&lt;string&gt;, &lt;string&gt;)<br /> </td> 
+   <td> AllNonNull2(&lt;cadena&gt;, &lt;cadena&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>AllNonNull3</strong><br /> </td> 
    <td> Indica si todos los parámetros no son nulos y no están vacíos.<br /> </td> 
-   <td> AllNonNull3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /> </td> 
+   <td> AllNonNull3(&lt;cadena&gt;, &lt;cadena&gt;, &lt;cadena&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ASCII</strong><br /> </td> 
@@ -507,7 +507,7 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
   <tr> 
    <td> <strong>Char</strong><br /> </td> 
    <td> Devuelve el carácter correspondiente al código ASCII “n”.<br /> </td> 
-   <td> Char()&lt;number&gt;)<br /> </td> 
+   <td> Char(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Charindex</strong><br /> </td> 
@@ -522,7 +522,7 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
   <tr> 
    <td> <strong>GetLine</strong><br /> </td> 
    <td> Muestra la línea nth (de 1 a n) de la cadena.<br /> </td> 
-   <td> GetLine()&lt;string&gt;)<br /> </td> 
+   <td> GetLine(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>IfEquals</strong><br /> </td> 
@@ -552,7 +552,7 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
   <tr> 
    <td> <strong>Left</strong><br /> </td> 
    <td> Devuelve los primeros “n” caracteres de la cadena<br /> </td> 
-   <td> Left()&lt;string&gt;, &lt;number&gt;)<br /> </td> 
+   <td> Left(&lt;cadena&gt;, &lt;número&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Length</strong><br /> </td> 
@@ -562,27 +562,27 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
    <td> Devuelve la cadena en minúscula<br /> </td> 
-   <td> Lower()&lt;string&gt;)<br /> </td> 
+   <td> Lower(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
    <td> Elimina los espacios a la izquierda de la cadena<br /> </td> 
-   <td> Ltrim()&lt;string&gt;)<br /> </td> 
+   <td> Ltrim(&lt;cadena&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Md5Digest</strong><br /> </td> 
    <td> Devuelve una representación hexadecimal de la clave MD5 de una cadena<br /> </td> 
-   <td> Md5Digest(&lt;string&gt;)<br /> </td> 
+   <td> Md5Digest(&lt;cadena&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>MemoContains</strong><br /> </td> 
    <td> Especifica si la nota contiene la cadena transferida como parámetro<br /> </td> 
-   <td> MemoContains()&lt;memo&gt;, &lt;string&gt;)<br /> </td> 
+   <td> MemoContains(&lt;memo&gt;, &lt;cadena&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>RPad</strong><br /> </td> 
    <td> Devuelve la cadena completa a la derecha<br /> </td> 
-   <td> RPad()&lt;string&gt;, &lt;number&gt;, &lt;character&gt;)<br /> </td> 
+   <td> RPad(&lt;cadena&gt;, &lt;número&gt;, &lt;carácter&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Replace</strong><br /> </td> 
@@ -657,7 +657,7 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
   <tr> 
    <td> <strong>encryption_aescbcEncrypt</strong><br /> </td> 
    <td> Codifica utilizando el algoritmo AES (modo de bloque CBC) una cadena de caracteres (primer parámetro) con una clave (segundo parámetro) y un vector de inicialización (tercer parámetro). La clave y el vector de inicialización deben proporcionarse en una representación hexadecimal (comenzando por <strong>\x</strong>). El resultado será hexadecimal sin <strong>\x</strong>.<br /> Tenga en cuenta que el tamaño de la clave puede ser de 128 bits, 192 bits, 256 bits (16, 24, 32 caracteres hexadecimales), pero le recomendamos que utilice 256 bits y una IV aleatoria de la misma longitud que la clave.<br /> </td> 
-   <td> encryption_aescbcEncrypt()&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /> Por ejemplo: encryption_aescbcEncrypt(johndoe@example.com, "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
+   <td> encryption_aescbcEncrypt(&lt;cadena&gt;, &lt;cadena&gt;, &lt;cadena&gt;)<br /> Por ejemplo: encryption_aescbcEncrypt(johndoe@example.com, "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -676,7 +676,7 @@ Las funciones agregadas se utilizan para realizar cálculos en un conjunto de va
    <td> <strong>Syntax</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Avg</strong>, Average<br /> </td> 
+   <td> <strong>Promedio</strong>, Promedio<br /> </td> 
    <td> Devuelve el promedio en una columna numérica.<br /> </td> 
    <td> Avg(&lt;valor&gt;)<br /> </td> 
   </tr> 
@@ -706,9 +706,9 @@ Las funciones agregadas se utilizan para realizar cálculos en un conjunto de va
    <td> Min(&lt;valor&gt;)<br /> </td> 
   </tr>
   <tr>
-   <td> <strong>StringAgg</strong>, acumulado de cadena<br /> </td>
-   <td> Devuelve la concatenación de los valores de una columna de tipo cadena, separados por el carácter del segundo argumento (el separador predeterminado es la coma).<br /> </td>
-   <td> StringAgg()&lt;string values=""&gt;,&lt;separator&gt;)
+   <td> <strong>StringAgg</strong>, agregado de cadena<br /> </td>
+   <td> Devuelve la concatenación de los valores de una columna de tipo de cadena, separados por el carácter del segundo argumento (el separador predeterminado es la coma).<br /> </td>
+   <td> StringAgg(&lt;valores de cadena&gt;,&lt;separador&gt;)
   </tr>
   <tr> 
    <td> <strong>Sum</strong>, Sum<br /> </td> 

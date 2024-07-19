@@ -26,7 +26,7 @@ Los administradores técnicos pueden definir una o varias marcas para introducir
 
 El principio primordial de la configuración y el uso de marcas es:
 
-1. Crear y configurar la marca: esta operación requiere permisos específicos y la realiza el administrador técnico de Adobe Campaign. Se detallan los pasos para obtener una nueva marca en Campaign [en esta sección](#creating-a-brand).
+1. Crear y configurar la marca: esta operación requiere permisos específicos y la realiza el administrador técnico de Adobe Campaign. Los pasos para obtener una nueva marca en Campaign se detallan [en esta sección](#creating-a-brand).
 1. Cree una o varias plantillas de envío y página de aterrizaje para esta marca. Consulte la sección [Creación de una plantilla](../../start/using/marketing-activity-templates.md).
 1. Cree mensajes y páginas de aterrizaje basados en esta plantilla. Consulte las secciones [Creación de un correo electrónico](../../channels/using/creating-an-email.md) y [Creación de una página de aterrizaje](../../channels/using/designing-a-landing-page.md).
 
@@ -87,13 +87,13 @@ Una **marca** se define con las siguientes características:
 
 Puede añadir nuevas entidades de su organización en Campaign o crear un nuevo tipo de correo electrónico que debe enviar en un subdominio diferente. Para realizar esto, siga los pasos a continuación:
 
-1. **Configuración de un nuevo subdominio** : Para que cualquier nuevo subdominio se utilice en el Adobe, el primer paso será configurarlo. Puede realizar esta acción mediante [Panel de control de Campaign de campaña](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=es) o póngase en contacto con el contacto técnico del Adobe. Más información sobre la configuración de subdominios [en este artículo](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html).
+1. **Configurar un nuevo subdominio**: para que el Adobe utilice cualquier nuevo subdominio, el primer paso será configurarlo. Puede hacerlo a través de [Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=es) o comunicarse con el contacto técnico del Adobe. Obtenga más información acerca de la configuración de subdominios [ en este artículo](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html).
 
    >[!NOTE]
    >
    >Todos los usuarios administradores pueden acceder al Panel de control. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel).
 
-1. **Crear un ticket** : Una vez configurado el subdominio, Adobe lo configurará en el entorno de producción. Para solicitar esto, [crear un ticket para Client Care](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) con la siguiente información:
+1. **Crear un ticket**: una vez configurado el subdominio, el Adobe lo configurará en su entorno de producción. Para solicitarlo, [cree un ticket para el servicio de atención al cliente](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) con la siguiente información:
 
    * Asunto: Nueva configuración de la marca ACS
 
@@ -103,9 +103,9 @@ Puede añadir nuevas entidades de su organización en Campaign o crear un nuevo 
 
    * URL de producción: XXX.campaign.adobe.com
 
-1. **Creación de una plantilla de envíos** - Una vez que la nueva marca está disponible, la práctica recomendada es crear al menos una nueva plantilla de envíos en blanco que haga referencia a esta nueva marca. [Más información](#linking-a-brand-to-a-template).
+1. **Crear una plantilla de envíos**: una vez que la nueva marca esté disponible, la práctica recomendada es crear al menos una nueva plantilla de envíos en blanco que haga referencia a esta nueva marca. [Más información](#linking-a-brand-to-a-template).
 
-1. **Comprobación de directrices de entrega** : Antes de empezar a utilizar el nuevo dominio, la estrategia debe discutirse con el equipo de entrega de Adobe. Ayudan a definir las prácticas recomendadas si, por ejemplo, se debe crear una nueva afinidad para dividir las IP entre dominios o si se debe definir un plan de ampliación. Obtenga más información acerca de las prácticas recomendadas de entrega [en esta sección](../../sending/using/about-deliverability.md).
+1. **Compruebe las directrices de capacidad de entrega**. Antes de empezar a usar el nuevo dominio, la estrategia debe discutirse con el equipo de capacidad de entrega de Adobe. Ayudan a definir las prácticas recomendadas si, por ejemplo, se debe crear una nueva afinidad para dividir las IP entre dominios o si se debe definir un plan de ampliación. Obtenga más información acerca de las prácticas recomendadas de entrega [en esta sección](../../sending/using/about-deliverability.md).
 
 ## Asignación de una marca a un correo electrónico {#assigning-a-brand-to-an-email}
 
@@ -149,7 +149,7 @@ En este ejemplo, vamos a crear una nueva marca relacionada con el turismo y util
 >
 >La configuración de una marca solo la administra Adobe, ya que requiere permisos específicos y configuración técnica.
 
-1. El administrador de Adobe Campaign crea primero la marca a partir de las etiquetas **[!UICONTROL Administration > Instance settings > Brand configuration]** y añade el **Vacaciones en los trópicos** y configura el elemento **[!UICONTROL ID]** y el **[!UICONTROL Header parameters of sent emails]** de la marca.
+1. El administrador de Adobe Campaign primero crea la marca a partir del menú **[!UICONTROL Administration > Instance settings > Brand configuration]**, agrega el elemento **Vacaciones en los trópicos** y configura **[!UICONTROL ID]** y **[!UICONTROL Header parameters of sent emails]** de la marca.
 
    ![](assets/branding_07.png)
 

@@ -1,6 +1,6 @@
 ---
-title: Conversión del correo electrónico del editor heredado al diseñador de correo electrónico
-description: Descubra cómo utilizar los correos electrónicos creados en el Editor heredado Enviar por correo electrónico al Diseñador de correo electrónico.
+title: Conversión del correo electrónico del editor heredado al Designer de correo electrónico
+description: Descubra cómo utilizar los correos electrónicos creados en el Editor heredado Enviar correo electrónico a Designer de correo electrónico.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -17,9 +17,9 @@ ht-degree: 8%
 
 # Conversión del contenido de correo electrónico del editor heredado {#converting-an-html-content}
 
-Empiece a trabajar con el Diseñador de correo electrónico y cree plantillas y fragmentos reutilizables a partir del HTML de correo electrónico creado en el Editor heredado.
+Empiece a trabajar con Email Designer y cree plantillas y fragmentos reutilizables a partir del HTML de correo electrónico creado en el Editor heredado.
 
-Este caso de uso le permite crear una plantilla del Diseñador de correo electrónico utilizando un correo electrónico del HTML y dividiéndolo en componentes del HTML en el Diseñador de correo electrónico.
+Este caso de uso le permite crear una plantilla de Designer de correo electrónico mediante un correo electrónico de HTML y dividirlo en componentes de HTML en el Designer de correo electrónico.
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ Este caso de uso le permite crear una plantilla del Diseñador de correo electr�
 
 ## Crear la estructura de correo electrónico
 
-1. Abra el **[!UICONTROL Email Designer]**  para crear un contenido de correo electrónico vacío.
+1. Abra **[!UICONTROL Email Designer]** para crear contenido de correo electrónico vacío.
 1. Defina los atributos de nivel de cuerpo: colores de fondo, anchura, etc. Para obtener más información, consulte [Edición de estilos de correo electrónico](../../designing/using/styles.md).
 1. Añada tantos componentes de estructura como secciones. Para obtener más información, consulte [Edición de la estructura de correo electrónico](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
@@ -65,7 +65,7 @@ Este caso de uso le permite crear una plantilla del Diseñador de correo electr�
    >
    >Asegúrese de agregar el estilo después de esto en otra etiqueta de estilo personalizada.
    >
-   >No modifique el CSS generado por el Diseñador de correo electrónico:
+   >No modifique el CSS generado por el Designer de correo electrónico:
    >
    >* `<style data-name="default" type="text/css">(##)</style>`
    >* `<style data-name="supportIOS10" type="text/css">(##)</style>`
@@ -77,7 +77,7 @@ Este caso de uso le permite crear una plantilla del Diseñador de correo electr�
 
 ## Caso de uso
 
-Intentemos convertir este correo electrónico, creado en el editor heredado, en un **[!UICONTROL Email Designer]** plantilla.
+Intentemos convertir este correo electrónico, creado en el editor heredado, en una plantilla **[!UICONTROL Email Designer]**.
 
 ### Identificar la sección del correo electrónico
 
@@ -89,11 +89,11 @@ Para identificar qué elemento es qué sección del HTML, puede seleccionarlo.
 
 ![](assets/breadcrumbs.png)
 
-Para ver la versión del HTML del correo electrónico, haga clic en **[!UICONTROL Show source]**.
+Para ver la versión de HTML del correo electrónico, haga clic en **[!UICONTROL Show source]**.
 
 ### Crear la plantilla de correo electrónico y su estructura
 
-1. Arrastrar y soltar **[!UICONTROL Structure components]**  que refleja la presentación de nuestro correo electrónico.
+1. Arrastre y suelte **[!UICONTROL Structure components]** según el diseño del correo electrónico.
 
 1. Repita tantas veces como sea necesario. Necesitamos crear 11 componentes de estructura.
 
@@ -101,11 +101,11 @@ Para ver la versión del HTML del correo electrónico, haga clic en **[!UICONTRO
 
 ### Inserción de componentes de contenido del HTML
 
-1. Insertar un **[!UICONTROL HTML component]**  en cada **[!UICONTROL Structure component]** .
+1. Insertar un **[!UICONTROL HTML component]** en cada **[!UICONTROL Structure component]**
 
    ![](assets/html-components.png)
 
-1. Haga clic en cada sección **[!UICONTROL Show source code]** .
+1. Para cada sección, haga clic en **[!UICONTROL Show source code]**
 
    ![](assets/show-source-code.png)
 
@@ -125,4 +125,4 @@ Ahora puede comprobar la renderización del correo electrónico.
 
 Para obtener más información, consulte [Administrar el estilo del correo electrónico](#manage-the-style-of-your-email).
 
-El correo electrónico heredado ya está disponible en el Diseñador de correo electrónico.
+El correo electrónico heredado ya está disponible en la Designer de correo electrónico.

@@ -58,29 +58,29 @@ Al diseñar un flujo de trabajo programado que incluya varias actividades, debe 
 
    >[!NOTE]
    >
-   >El **[!UICONTROL Repetition frequency]** disponible para las frecuencias de ejecución diaria y mensual le permite ampliar el espacio de tiempo de activación del flujo de trabajo. Por ejemplo, si selecciona un período de ejecución diario y define la frecuencia de repetición en **2** (días), el flujo de trabajo se activará cada dos días. No puede ser inferior a 10 minutos. Si la frecuencia de repetición está establecida en **0** (también el valor predeterminado), esta opción no se tiene en cuenta y el flujo de trabajo se ejecutará según la frecuencia de ejecución especificada.
+   >El campo **[!UICONTROL Repetition frequency]** disponible para las frecuencias de ejecución diaria y mensual le permite ampliar el espacio de tiempo de activación del flujo de trabajo. Por ejemplo, si selecciona un período de ejecución diario y define la frecuencia de repetición en **2** (días), el flujo de trabajo se activará cada dos días. No puede ser inferior a 10 minutos. Si la frecuencia de repetición está establecida en **0** (también el valor predeterminado), esta opción no se tiene en cuenta y el flujo de trabajo se ejecutará según la frecuencia de ejecución especificada.
 
-   Al establecer la frecuencia de ejecución en **[!UICONTROL Several times a day]** Además, tiene la flexibilidad de elegir entre ejecutar el flujo de trabajo a horas específicas del día o periódicamente durante todo el día.
+   Al establecer la frecuencia de ejecución en **[!UICONTROL Several times a day]**, tiene la flexibilidad de elegir entre ejecutar el flujo de trabajo a horas específicas del día o periódicamente a lo largo del día.
 
-+++ Obtenga información sobre cómo configurar una **[!UICONTROL "Several times a day"]** frecuencia de ejecución
++++ Obtenga información sobre cómo configurar una frecuencia de ejecución de **[!UICONTROL "Several times a day"]**
 
-   * Para ejecutar el flujo de trabajo varias veces en momentos concretos durante el día, active la opción **[!UICONTROL Specific times]** y luego haga clic en **[!UICONTROL Add an element]** para especificar el tiempo de ejecución deseado. Añada tantas veces como sea necesario para cumplir con sus necesidades.
+   * Para ejecutar el flujo de trabajo varias veces en momentos específicos durante el día, active la opción **[!UICONTROL Specific times]** y haga clic en **[!UICONTROL Add an element]** para especificar el tiempo de ejecución deseado. Añada tantas veces como sea necesario para cumplir con sus necesidades.
 
-   * Para ejecutar el flujo de trabajo periódicamente a lo largo del día, active la opción **[!UICONTROL Periodic]** a continuación, configure la periodicidad de ejecución:
+   * Para ejecutar el flujo de trabajo periódicamente a lo largo del día, active la opción **[!UICONTROL Periodic]** y configure la periodicidad de ejecución:
 
-      1. En el **[!UICONTROL Repeat processing according to the following frequency (e.g. 2h)]** , especifique el intervalo con el que se debe ejecutar el flujo de trabajo (por ejemplo, cada 30 minutos, cada 2 horas).
+      1. En el campo **[!UICONTROL Repeat processing according to the following frequency (e.g. 2h)]**, especifique el intervalo con el que se debe ejecutar el flujo de trabajo (por ejemplo, cada 30 minutos, cada 2 horas).
 
          >[!NOTE]
          >
          >Esta opción también permite frecuencias de repetición diarias, mensuales o anuales. Tenga en cuenta que, en este caso, el flujo de trabajo no se ejecutará varias veces al día, sino según la frecuencia especificada en este campo.
          >
-         > Si el flujo de trabajo no requiere varias ejecuciones en un día, sino que debe ejecutarse diariamente, mensualmente o anualmente, se recomienda utilizar el **[!UICONTROL Daily]**, **[!UICONTROL Monthly]** o **[!UICONTROL Yearly]** opciones disponibles en la **[!UICONTROL Execution frequency]** lista desplegable.
+         > Si el flujo de trabajo no requiere varias ejecuciones en un día, sino que debe ejecutarse diariamente, mensualmente o anualmente, se recomienda utilizar las opciones **[!UICONTROL Daily]**, **[!UICONTROL Monthly]** o **[!UICONTROL Yearly]** disponibles en la lista desplegable **[!UICONTROL Execution frequency]**.
 
-      1. En el **[!UICONTROL Start]**/**[!UICONTROL End]** campos de tiempo, defina la hora a la que debe comenzar y finalizar la ejecución del flujo de trabajo.
+      1. En los campos de tiempo **[!UICONTROL Start]**/**[!UICONTROL End]**, defina la hora a la que debe comenzar y finalizar la ejecución del flujo de trabajo.
 
-         Si no se especifica ninguna hora de finalización, la ejecución finaliza a medianoche 00:00:00 horas y la siguiente ejecución se inicia al día siguiente a la hora de inicio especificada.
+         Si no se especifica ninguna hora de finalización, la ejecución finaliza a medianoche (00:00:00 horas) y la siguiente ejecución se inicia al día siguiente a la hora de inicio especificada.
 
-      1. En el **[!UICONTROL Start]** date, seleccione la fecha en la que debe comenzar la primera ejecución.
+      1. En el campo **[!UICONTROL Start]** fecha, seleccione la fecha en la que debe comenzar la primera ejecución.
 
    En el ejemplo siguiente, la actividad está configurada para ejecutar el flujo de trabajo cada 2 horas entre las 8:00 y las 5:00, a partir del 1 de marzo.
 

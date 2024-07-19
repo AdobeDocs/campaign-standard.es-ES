@@ -17,7 +17,7 @@ ht-degree: 8%
 
 # Control de cambios en el modelo de datos{#monitoring-data-model-changes}
 
-Desde el **[!UICONTROL Diagnosis]** , puede ver los objetos técnicos generados por la aplicación para analizarlos.
+Desde el menú **[!UICONTROL Diagnosis]**, puede ver los objetos técnicos generados por la aplicación para analizarlos.
 
 >[!NOTE]
 >

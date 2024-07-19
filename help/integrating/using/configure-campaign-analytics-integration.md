@@ -28,20 +28,20 @@ Solo el administrador funcional de la plataforma puede administrar las cuentas e
 
    ![](assets/analytics_2.png)
 
-1. Especifique su **[!UICONTROL Web services user name]** y **[!UICONTROL Web services share secret]** en el **[!UICONTROL Connection]** field.
+1. Especifique sus **[!UICONTROL Web services user name]** y **[!UICONTROL Web services share secret]** en el campo **[!UICONTROL Connection]**.
 
    Estos parámetros se pueden encontrar en Analytics seleccionando **[!UICONTROL Admin > Company settings > Web services]**.
 
    ![](assets/analytics_1.png)
 
 1. Haga clic en el botón **[!UICONTROL Refresh report suites]**.
-1. Seleccione en la **[!UICONTROL Analytics default report suite]** desplegable del grupo de informes de Adobe Analytics que desee enriquecer con datos de Adobe Campaign.
+1. Seleccione en la lista desplegable **[!UICONTROL Analytics default report suite]** el grupo de informes de Adobe Analytics que desee enriquecer con datos de Adobe Campaign.
 
-   La cuenta externa ya está lista y vinculada con Adobe Analytics. Puede desactivarlo en cualquier momento marcando la opción **[!UICONTROL Enabled]** cuadro.
+   La cuenta externa ya está lista y vinculada con Adobe Analytics. Puede deshabilitarlo en cualquier momento marcando la casilla **[!UICONTROL Enabled]**.
 
    ![](assets/analytics.png)
 
-El **[!UICONTROL Share KPIs with Adobe Analytics]** el flujo de trabajo técnico se iniciará automáticamente y se podrá ver desde el menú avanzado seleccionando **[!UICONTROL Administration > Application settings > Workflow]**. Este flujo de trabajo técnico puede conservar broadlogs de hasta 6 meses de antigüedad. Tenga en cuenta que este flujo de trabajo es incremental y enviará datos del día anterior.
+El flujo de trabajo técnico **[!UICONTROL Share KPIs with Adobe Analytics]** se iniciará automáticamente y se podrá ver desde el menú avanzado seleccionando **[!UICONTROL Administration > Application settings > Workflow]**. Este flujo de trabajo técnico puede conservar broadlogs de hasta 6 meses de antigüedad. Tenga en cuenta que este flujo de trabajo es incremental y enviará datos del día anterior.
 
 ![](assets/analytics_3.png)
 
@@ -51,4 +51,4 @@ Los datos ya están disponibles en Adobe Analytics.
 
 * [Cuentas externas](../../administration/using/external-accounts.md)
 * [Flujos de trabajo técnicos](../../administration/using/technical-workflows.md)
-* [Compartir KPI para la creación de informes de Campaign integrada](https://helpx.adobe.com/es/marketing-cloud/how-to/email-marketing.html) video
+* [Compartir KPI para la creación de informes de Campaign integrada](https://helpx.adobe.com/es/marketing-cloud/how-to/email-marketing.html) vídeo

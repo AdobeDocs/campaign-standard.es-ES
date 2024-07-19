@@ -17,12 +17,12 @@ ht-degree: 10%
 
 # Actualización de la unidad geográfica de un perfil {#updating-a-geographical-unit}
 
-1. Realice una solicitud de GET en **geoUnitBase** recurso para recuperar la clave clave de la unidad geográfica.
+1. Realice una solicitud de GET en el recurso **geoUnitBase** para recuperar la clave principal de la unidad geográfica.
 1. Realice una solicitud del PATCH en la clave principal del perfil, con la clave principal de la unidad geográfica deseada en la carga útil.
 
 <br/>
 
-***Solicitud de ejemplo***
+***Solicitud de muestra***
 
 Recupere la lista de unidades geográficas.
 

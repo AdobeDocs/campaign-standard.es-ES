@@ -22,19 +22,19 @@ Este informe contiene los datos de rendimiento de cada dominio representado en l
 
 ![](assets/delivery_reports_6.png)
 
-La tabla **Estadísticas de difusión** contiene los datos disponibles para detectar posibles errores encontrados con cada dominio, como:
+La tabla **Estadísticas de difusión** contiene los datos disponibles para los posibles errores encontrados en cada dominio, como:
 
-* **Procesado/enviado**: el número de correos electrónicos enviados.
+* **Procesado/enviado**: El número de correos electrónicos enviados.
 * **Entregado**: El número de correos electrónicos entregados.
-* **Devoluciones + Errores**: el número de mensajes que no se pudieron entregar.
-* **Rechazo duro**: el número total de errores permanentes, como una dirección de correo electrónico incorrecta.
-* **Rechazo suave**: el número total de errores temporales, como una bandeja de entrada llena.
+* **Devoluciones + Errores**: El número de mensajes que no se pudieron entregar.
+* **Rechazo grave**: El número total de errores permanentes, como una dirección de correo electrónico incorrecta.
+* **Devolución suave**: El número total de errores temporales, como una bandeja de entrada completa.
 
-La segunda tabla, **Estadísticas de seguimiento**, contiene los datos disponibles para la reacción de los destinatarios a la entrega, como:
+La segunda tabla, **Tracking statistics**, contiene los datos disponibles para la reacción del destinatario a la entrega, como:
 
-* **Entregado**: el número de correos electrónicos entregados
+* **Entregado**: El número de correos electrónicos entregados
 * **Abrir**: El número de veces que se abrió un mensaje en una entrega.
 * **Clic**: El número de veces que se hizo clic en el contenido en una entrega.
-* **Cancelado**: el número de clics en el vínculo de suscripción.
-* **Página espejo**: el número de clics en el vínculo de la página espejo.
-* **En la lista de bloqueados**: El número de destinatarios que han declarado un correo electrónico como correo no deseado. [Más información](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* **Cancelación de la suscripción**: El número de clics en el vínculo de suscripción.
+* **Página espejo**: El número de clics en el vínculo de la página espejo.
+* **En la lista de bloqueados de la**: El número de destinatarios que han declarado un correo electrónico como correo no deseado. [Más información](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)

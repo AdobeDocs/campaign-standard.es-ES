@@ -27,7 +27,7 @@ Habilite las &quot;extensiones de perfil&quot; en Adobe Campaign Standard.   Est
 
 1. Vaya a Configuración -> Administración -> Desarrollo -> Publicación.
 1. Haga clic en &quot;Preparar publicación&quot; para preparar una publicación.
-1. Una vez finalizada la preparación, marque &quot;Crear la API de salida de perfiles y servicios&quot; y haga clic en &quot;Publicar&quot;.
+1. Una vez finalizada la preparación, marque &quot;Crear la API de salida de perfiles y servicios&quot; y haga clic en &quot;Publish&quot;.
 
 ## Configuración del Adobe I/O {#adobe-io}
 
@@ -49,9 +49,9 @@ Debe crear un nuevo proyecto de Adobe Developer y configurarlo para la integraci
 
 Para lograr esto, siga el procedimiento a continuación:
 
-1. Vaya a [Consola de Adobe Developer](https://console.adobe.io/home#) y seleccione su ID de organización de Adobe en el menú desplegable situado en la parte superior derecha de la pantalla.
+1. Vaya a [Adobe Developer Console](https://console.adobe.io/home#) y seleccione su ID de organización de Adobe en el menú desplegable en la parte superior derecha de la pantalla.
 
-1. Luego haga clic en **[!UICONTROL Create new project]** bajo **[!UICONTROL Quick Start]**.
+1. Luego haga clic en **[!UICONTROL Create new project]** en **[!UICONTROL Quick Start]**.
 
    ![](assets/adobeIO1.png)
 
@@ -67,7 +67,7 @@ Para lograr esto, siga el procedimiento a continuación:
 
    ![](assets/adobeIO4.png)
 
-1. En la siguiente pantalla, seleccione los perfiles de producto que desea asociar a este proyecto. Seleccione el perfil de producto que contiene en el título: El ID de inquilino de la instancia de Campaign - [!UICONTROL Administrators]
+1. En la siguiente pantalla, seleccione los perfiles de producto que desea asociar a este proyecto. Seleccione el perfil de producto que contiene en el título: El ID de inquilino de la instancia de Campaign: [!UICONTROL Administrators]
 
    Ejemplo: Campaign Standard - your-campaign-tenantID - Administradores
 
@@ -75,27 +75,27 @@ Para lograr esto, siga el procedimiento a continuación:
 
    ![](assets/adobeIO5.png)
 
-1. En la siguiente pantalla verá los detalles del nuevo proyecto de Adobe Developer. Clic **[!UICONTROL Add to Project]** en la parte superior izquierda de la pantalla y seleccione **API** de la lista desplegable.
+1. En la siguiente pantalla verá los detalles del nuevo proyecto de Adobe Developer. Haga clic en **[!UICONTROL Add to Project]** en la parte superior izquierda de la pantalla y seleccione **API** en la lista desplegable.
 
    ![](assets/adobeIO6.png)
 
-1. En la siguiente pantalla, debe seleccionar la API de eventos de I/O y, a continuación, haga clic en **[!UICONTROL Next]**.
+1. En la siguiente pantalla, tendrá que seleccionar la API de eventos de E/S y, a continuación, hacer clic en **[!UICONTROL Next]**.
 
-1. En la pantalla siguiente, haga clic en **[!UICONTROL Save the configured API]**.  Volverá a la pantalla de detalles del proyecto.
+1. En la siguiente pantalla, haga clic en **[!UICONTROL Save the configured API]**.  Volverá a la pantalla de detalles del proyecto.
 
-1. Ahora haga clic en **[!UICONTROL Add to Project]** en la parte superior izquierda de la pantalla y seleccione **API** de la lista desplegable, como lo hizo anteriormente.
+1. Ahora haga clic en **[!UICONTROL Add to Project]** en la parte superior izquierda de la pantalla y seleccione **API** en la lista desplegable, como lo hizo anteriormente.
 
-1. En la siguiente pantalla, debe seleccionar la API de administración de E/S y hacer clic en **[!UICONTROL Next]**.
+1. En la siguiente pantalla, tendrá que seleccionar la API de administración de E/S y hacer clic en **[!UICONTROL Next]**.
 
-1. En la pantalla siguiente, haga clic en **[!UICONTROL Save the configured API]**.
+1. En la siguiente pantalla, haga clic en **[!UICONTROL Save the configured API]**.
 
 Ya se ha completado la configuración de preintegración en Campaign.
 
 **Temas relacionados**
 
-* [Configuración de Adobe Developer para la integración con Microsoft Dynamics 365](../../integrating/using/d365-acs-configure-adobe-io.md) es el siguiente paso para configurar la integración
+* [Configurar Adobe Developer para la integración con Microsoft Dynamics 365](../../integrating/using/d365-acs-configure-adobe-io.md) es el siguiente paso para configurar la integración
 * [Descripción general de la aplicación de autoservicio de integración](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) contiene la lista completa de pasos para poner en marcha la integración.
-* [Adobe Developer: integración de cuenta de servicio](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
+* [Adobe Developer - Integración de cuenta de servicio](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
 * [Campaign Standard - Configuración de acceso a API](../../api/using/setting-up-api-access.md)
 * [Campaign Standard: integración con Dynamics 365](../../integrating/using/d365-acs-configure-d365.md)
-* [Migrar credenciales de JWT a servidor a servidor OAuth](../../integrating/using/d365-acs-self-service-app-migrate-credentials.md) contiene los pasos para migrar credenciales de JWT a OAuth Server-to-Server.
+* [Migrar credenciales de JWT a servidor OAuth](../../integrating/using/d365-acs-self-service-app-migrate-credentials.md) contiene los pasos para migrar credenciales de JWT a servidor OAuth.

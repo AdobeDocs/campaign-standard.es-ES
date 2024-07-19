@@ -29,10 +29,10 @@ Para poder cifrar datos salientes o descifrar datos entrantes, debe administrar 
 
 Si no puede utilizar el Panel de control de Campaign, debe ponerse en contacto con el Servicio de atención al cliente de Adobe para que le proporcionen los comandos de cifrado y descifrado necesarios. Para ello, envíe una solicitud indicando:
 
-* El **etiqueta** que se mostrará en la interfaz de Campaign para utilizar el comando. Por ejemplo, &quot;Cifrar archivo&quot;.
-* El **mando** para instalarlo en su instancia.
+* La **etiqueta** que se mostrará en la interfaz de Campaign para usar el comando. Por ejemplo, &quot;Cifrar archivo&quot;.
+* El **comando** que se va a instalar en su instancia.
 
-Una vez procesada la solicitud, los comandos de cifrado/descifrado estarán disponibles en el **[!UICONTROL Pre-processing stage]** del campo **[!UICONTROL Load file]** y **[!UICONTROL Extract file]** actividades. Puede utilizarlos para descifrar o cifrar los archivos que desea importar o exportar.
+Una vez procesada la solicitud, los comandos de cifrado/descifrado estarán disponibles en el campo **[!UICONTROL Pre-processing stage]** desde las actividades **[!UICONTROL Load file]** y **[!UICONTROL Extract file]**. Puede utilizarlos para descifrar o cifrar los archivos que desea importar o exportar.
 
 ![](assets/preprocessing-encryption.png)
 
@@ -62,18 +62,18 @@ Los pasos para realizar este caso de uso son los siguientes:
 
    ![](assets/gpg_workflow.png)
 
-   * **[!UICONTROL Transfer file]** actividad: transfiere el archivo de un origen externo a Campaign. En este ejemplo, queremos transferir el archivo desde un servidor SFTP.
+   * Actividad **[!UICONTROL Transfer file]**: transfiere el archivo de un origen externo a Campaign. En este ejemplo, queremos transferir el archivo desde un servidor SFTP.
    * **[!UICONTROL Load file]** actividad: carga los datos del archivo en la base de datos y los descifra utilizando la clave privada generada en el Panel de control.
 
 1. Abra la actividad **[!UICONTROL Transfer file]** y configúrela según sus necesidades. Los conceptos globales sobre cómo configurar la actividad están disponibles en [esta sección](../../automating/using/load-file.md).
 
-   En el **[!UICONTROL Protocol]** pestaña, especifique los detalles acerca del servidor sftp y el archivo .gpg cifrado que desea transferir.
+   En la ficha **[!UICONTROL Protocol]**, especifique los detalles acerca del servidor sftp y el archivo .gpg cifrado que desea transferir.
 
    ![](assets/gpg_transfer.png)
 
 1. Abra la actividad **[!UICONTROL Load file]** y configúrela según sus necesidades. Los conceptos globales sobre cómo configurar la actividad están disponibles en [esta sección](../../automating/using/load-file.md).
 
-   Añada una fase de preprocesamiento a la actividad para descifrar los datos entrantes. Para ello, seleccione la **[!UICONTROL Decryption GPG]** de la lista.
+   Añada una fase de preprocesamiento a la actividad para descifrar los datos entrantes. Para ello, seleccione la opción **[!UICONTROL Decryption GPG]** en la lista.
 
    >[!NOTE]
    >
@@ -102,12 +102,12 @@ Los pasos para realizar este caso de uso son los siguientes:
    ![](assets/gpg-workflow-export.png)
 
    * **[!UICONTROL Query]** actividad: En este ejemplo, queremos ejecutar una consulta para un destinatario de los datos de la base de datos que queremos exportar.
-   * **[!UICONTROL Extract file]** actividad: codifica y extrae los datos en un archivo.
-   * **[!UICONTROL Transfer file]** actividad: transfiere el archivo que contiene los datos cifrados a un servidor SFTP.
+   * Actividad **[!UICONTROL Extract file]**: codifica y extrae los datos en un archivo.
+   * Actividad **[!UICONTROL Transfer file]**: transfiere el archivo que contiene los datos cifrados a un servidor SFTP.
 
 1. Configure la actividad **[!UICONTROL Query]** para destinatario de los datos deseados de la base de datos. Para obtener más información, consulte [esta sección](../../automating/using/query.md).
 
-1. Abra el **[!UICONTROL Extract file]** a continuación, configúrela según sus necesidades (archivo de salida, columnas, formato, etc.). Los conceptos globales sobre cómo configurar la actividad están disponibles en [esta sección](../../automating/using/extract-file.md).
+1. Abra la actividad **[!UICONTROL Extract file]** y configúrela según sus necesidades (archivo de salida, columnas, formato, etc.). Los conceptos globales sobre cómo configurar la actividad están disponibles en [esta sección](../../automating/using/extract-file.md).
 
    Añada una fase de preprocesamiento a la actividad para cifrar los datos que desea extraer. Para ello, seleccione la clave GPG de cifrado que desea utilizar para cifrar los datos.
 
@@ -115,7 +115,7 @@ Los pasos para realizar este caso de uso son los siguientes:
 
    >[!NOTE]
    >
-   >El valor entre paréntesis es **comentario** que definió al generar el par de claves mediante la herramienta de cifrado GPG. Asegúrese de seleccionar la clave coincidente correcta; de lo contrario, el destinatario no podrá descifrar el archivo.
+   >El valor entre paréntesis es el **comentario** que definió al generar el par de claves mediante la herramienta de cifrado GPG. Asegúrese de seleccionar la clave coincidente correcta; de lo contrario, el destinatario no podrá descifrar el archivo.
 
 1. Abra la actividad **[!UICONTROL Transfer file]** y especifique el servidor SFTP al que desea enviar el archivo. Los conceptos globales sobre cómo configurar la actividad están disponibles en [esta sección](../../automating/using/transfer-file.md).
 
@@ -133,4 +133,4 @@ Este vídeo muestra cómo utilizar una clave GPG para cifrar datos.
 
 >[!VIDEO](https://video.tv.adobe.com/v/36380?quality=12)
 
-Hay disponibles más vídeos de procedimientos para el Campaign Standard [aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
+Hay disponibles [más vídeos de procedimientos para el Campaign Standard aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).

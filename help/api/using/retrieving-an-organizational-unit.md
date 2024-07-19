@@ -17,12 +17,12 @@ ht-degree: 12%
 
 # Recuperación de las entidades organizativas de un perfil {#retrieving-organizational-units}
 
-1. Realice una solicitud de GET en la clave principal del perfil para recuperar la clave **orgUnit** URL.
+1. Realice una solicitud de GET en la clave principal del perfil para recuperar la dirección URL **orgUnit**.
 1. Realice una solicitud de GET en la dirección URL para recuperar más detalles sobre la unidad organizativa.
 
 <br/>
 
-***Solicitud de ejemplo***
+***Solicitud de muestra***
 
 Recupere el registro de perfil.
 

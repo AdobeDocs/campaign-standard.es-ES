@@ -34,26 +34,26 @@ Tenga en cuenta que los usuarios administradores también pueden aprovechar el P
 
 <img src="assets/do-not-localize/icon_menu.svg" width="60px">
 
-Las diferentes operaciones de administración de Adobe Campaign se llevan a cabo mediante la variable **[!UICONTROL Administration]** al hacer clic en el logotipo de Adobe Campaign, en la esquina superior izquierda. Solo los administradores funcionales de la plataforma pueden acceder a esta parte de la interfaz.
+Las diferentes operaciones de administración de Adobe Campaign se llevan a cabo mediante el menú **[!UICONTROL Administration]**, al que se puede acceder haciendo clic en el logotipo de Adobe Campaign, en la esquina superior izquierda. Solo los administradores funcionales de la plataforma pueden acceder a esta parte de la interfaz.
 
 Los diferentes menús disponibles son:
 
 * [Usuarios y seguridad](../../administration/using/about-access-management.md): Este menú le permite administrar el acceso a la plataforma (usuarios, funciones, grupos de seguridad y unidades).
-* [Canales](../../administration/using/about-channel-configuration.md): Este menú reagrupa los parámetros técnicos vinculados a los diferentes canales de la plataforma (correo electrónico, móvil), así como la administración de tipología y cuarentena.
-* [Configuración de aplicación](../../administration/using/external-accounts.md): Este menú permite configurar diferentes elementos de la aplicación (cuentas externas, opciones y flujos de trabajo técnicos).
+* [Canales](../../administration/using/about-channel-configuration.md): Este menú reagrupa los parámetros técnicos vinculados a los diferentes canales de la plataforma (correo electrónico, móvil), así como la administración de la tipología y la cuarentena.
+* [Configuración de la aplicación](../../administration/using/external-accounts.md): este menú le permite configurar diferentes elementos de la aplicación (cuentas externas, opciones, flujos de trabajo técnicos).
 * [Desarrollo](../../developing/using/data-model-concepts.md): este menú le permite administrar sus recursos personalizados y acceder a las herramientas de diagnóstico.
-* [Configuración de instancia](../../administration/using/branding.md): En este menú se definen las diferentes marcas y se establece su configuración (logotipo, administración del seguimiento y dominio de URL para acceder a las páginas de aterrizaje, etc.).
-* [Implementación](../../automating/using/managing-packages.md): Este menú reagrupa las opciones de importación y exportación del paquete.
+* [Configuración de instancia](../../administration/using/branding.md): en este menú se definen las diferentes marcas y se establece su configuración (logotipo, administración del seguimiento, dominio de URL para acceder a las páginas de aterrizaje, etc.).
+* [Implementación](../../automating/using/managing-packages.md): este menú reagrupa las opciones de importación y exportación del paquete.
 * [Métricas del cliente](../../audiences/using/active-profiles.md): Adobe Campaign proporciona un informe que muestra el número de perfiles activos. Este informe es solo informativo, no tiene un impacto directo en la facturación.
-* [Herramientas de privacidad](../../start/using/privacy-management.md): Este menú le permite crear solicitudes de eliminación y acceso de RGPD, y rastrear su evolución.
+* [Herramientas de privacidad](../../start/using/privacy-management.md): este menú le permite crear solicitudes de eliminación y acceso de RGPD, así como realizar un seguimiento de su evolución.
 
 ## Usuarios y seguridad {#users-security}
 
 <img src="assets/do-not-localize/icon_users.svg"  width="60px">
 
-Invitar a usuarios a acceder a la aplicación y administrar **grupos de seguridad**, que son conjuntos de usuarios que comparten las mismas funciones y derechos dentro de la organización. De forma predeterminada, Adobe Campaign ofrece un conjunto de **funciones** que le permite definir autorizaciones unitarias asignadas a usuarios y grupos de usuarios. Combinado con **unidades organizativas**, las funciones proporcionan a los usuarios una vista filtrada de la interfaz y definen su acceso a las diferentes funciones.
+Invite a usuarios a acceder a la aplicación y administrar **grupos de seguridad**, que son conjuntos de usuarios que comparten los mismos roles y derechos dentro de su organización. De manera predeterminada, Adobe Campaign ofrece un conjunto de **roles** que le permite definir autorizaciones unitarias asignadas a usuarios y grupos de usuarios. Combinadas con **unidades organizativas**, las funciones proporcionan a los usuarios una vista filtrada de la interfaz y definen su acceso a las diferentes características.
 
-Campaign Standard también le permite supervisar la información relacionada con la seguridad. Puede recuperar información sobre las exportaciones de datos realizadas por los usuarios a través del **[!UICONTROL Export audits]** y aproveche la función **[!UICONTROL Licenses]** para monitorizar todas las licencias de Campaign instaladas en su organización, así como información diferente como el número de compilación, la versión de lanzamiento y los términos del acuerdo.
+Campaign Standard también le permite supervisar la información relacionada con la seguridad. Puede recuperar información sobre las exportaciones de datos realizadas por los usuarios a través de la pantalla **[!UICONTROL Export audits]** y aprovechar la pantalla **[!UICONTROL Licenses]** para supervisar todas las licencias de Campaign instaladas dentro de su organización, así como información diferente como el número de compilación, la versión de lanzamiento y los términos del acuerdo.
 
 Más información:
 
@@ -68,11 +68,11 @@ Más información:
 
 <img src="assets/do-not-localize/icon_channels.svg" width="60px">
 
-Todos los canales de comunicación de Adobe Campaign deben estar correctamente configurados para poder enviar mensajes de forma eficaz.,El **[!UICONTROL Channel]**  permite administrar los parámetros técnicos vinculados a los diferentes canales.
+Todos los canales de comunicación de Adobe Campaign deben estar correctamente configurados para poder enviar mensajes de forma eficaz.,El menú **[!UICONTROL Channel]** le permite administrar los parámetros técnicos vinculados a los diferentes canales.
 
-Configurar varios **email** parámetros: reglas de procesamiento para rechazos, cuarentena, propiedades de correo electrónico y parámetros de enrutamiento, reglas de tipología. Defina las configuraciones y propiedades de enrutamiento para **SMS** , así como la codificación y los formatos SMS.
+Configure varios parámetros **email**: reglas de procesamiento para rechazos, cuarentena, propiedades de correo electrónico y parámetros de enrutamiento, reglas de tipología. Defina las configuraciones y propiedades de enrutamiento para el canal **SMS**, así como la codificación y los formatos SMS.
 
-Configuración de **aplicaciones móviles** para poder enviar mensajes en la aplicación y notificaciones push mediante los SDK de Adobe Experience Platform.
+Configure **aplicaciones móviles** para poder enviar mensajes en la aplicación y notificaciones push mediante los SDK de Adobe Experience Platform.
 
 Más información:
 
@@ -87,9 +87,9 @@ Más información:
 
 Campaign Standard viene con diferentes elementos de aplicación que se pueden configurar para que coincidan con sus necesidades.
 
-Configuración de **cuentas externas**, que se utilizan para conectar Adobe Campaign a servidores externos. Acceda a las asignaciones de destino del Campaign Standard y monitorice su plataforma mediante **flujos de trabajo técnicos**.
+Configure **cuentas externas**, que se usan para conectar Adobe Campaign a servidores externos. Acceda a asignaciones de destino de Campaign Standard y supervise su plataforma mediante **flujos de trabajo técnicos**.
 
-Defina una o varias **marcas** para su organización y configure el envío de **notificaciones en tiempo real** dentro de la aplicación en caso de actividades importantes del sistema.
+Defina una o varias **marcas** para su organización y configure el envío de **notificaciones en tiempo real** dentro de la aplicación en caso de que se produzcan actividades importantes del sistema.
 
 Más información:
 

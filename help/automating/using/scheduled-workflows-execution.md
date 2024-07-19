@@ -22,7 +22,7 @@ ht-degree: 1%
 
 En Campaign Standard, el motor de flujos de trabajo garantiza que una instancia de flujo de trabajo se ejecute en un solo proceso. El bloqueo de actividades como importaciones, consultas de larga ejecución o escrituras en la base de datos impide la ejecución de cualquier otra tarea al ejecutarse.
 
-Por otro lado, las actividades que no bloquean no bloquean la ejecución de otras tareas (normalmente actividades que esperan un evento como el **[!UICONTROL Scheduler]** actividad).
+Por otro lado, las actividades que no bloquean no bloquean la ejecución de otras tareas (normalmente actividades que esperan un evento como la actividad **[!UICONTROL Scheduler]**).
 
 Esto puede dar lugar a un escenario en el que un flujo de trabajo basado en programación pueda empezar a ejecutarse incluso cuando la ejecución anterior de ese mismo flujo de trabajo aún no haya finalizado, lo que podría provocar problemas de datos inesperados.
 
@@ -30,11 +30,11 @@ Por lo tanto, al diseñar un flujo de trabajo programado que incluya varias acti
 
 ## Configuración del flujo de trabajo
 
-Para comprobar si una o más tareas de una ejecución de flujo de trabajo anterior siguen pendientes, debe utilizar un **[!UICONTROL Query]** y una **[!UICONTROL Test]** actividad.
+Para comprobar si una o más tareas de una ejecución de flujo de trabajo anterior siguen pendientes, debe utilizar una actividad **[!UICONTROL Query]** y una actividad **[!UICONTROL Test]**.
 
-1. Añadir un **[!UICONTROL Query]** actividad después de **[!UICONTROL Scheduler]** actividad y, a continuación, configúrela como se indica a continuación.
+1. Agregue una actividad **[!UICONTROL Query]** después de la actividad **[!UICONTROL Scheduler]** y configúrela de la siguiente manera.
 
-1. Cambie el recurso de la actividad a **[!UICONTROL WorkflowTaskDetail]**, lo que significa que se dirigirá a las tareas actuales del flujo de trabajo.
+1. Cambie el recurso de la actividad a **[!UICONTROL WorkflowTaskDetail]**, para que se dirija a las tareas actuales del flujo de trabajo.
 
    ![](assets/scheduled-wkf-resource.png)
 
@@ -46,11 +46,11 @@ Para comprobar si una o más tareas de una ejecución de flujo de trabajo anteri
 
      >[!NOTE]
      >
-     >Cuando un **[!UICONTROL Scheduler]** La actividad se inicia e inmediatamente añade otra tarea de planificación para que se ejecute en la siguiente hora programada e inicie el flujo de trabajo. Por lo tanto, es importante filtrar tanto la consulta como las tareas programadas cuando se buscan tareas pendientes de una ejecución anterior.
+     >Cuando se inicia una actividad **[!UICONTROL Scheduler]**, agrega inmediatamente otra tarea de programación para que se ejecute a la siguiente hora programada e inicie el flujo de trabajo. Por lo tanto, es importante filtrar tanto la consulta como las tareas programadas cuando se buscan tareas pendientes de una ejecución anterior.
 
    * La segunda regla determina si alguna tarea de una ejecución anterior del flujo de trabajo sigue activa (pendiente), lo que corresponde al estado de ejecución 0.
 
-1. Añadir un **[!UICONTROL Test]** actividad para comprobar el número de tareas pendientes devueltas por el **[!UICONTROL Query]** actividad. Para ello, configure dos transiciones salientes.
+1. Agregue una actividad **[!UICONTROL Test]** para comprobar la cantidad de tareas pendientes devueltas por la actividad **[!UICONTROL Query]**. Para ello, configure dos transiciones salientes.
 
    ![](assets/scheduled-wkf-test.png)
 

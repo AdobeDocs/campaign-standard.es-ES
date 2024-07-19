@@ -28,10 +28,10 @@ Para crear el flujo de trabajo, siga estos pasos:
 
   ![](assets/wkf_delivery_example_2.png)
 
-* El [Consulta](../../automating/using/query.md) La actividad permite calcular los perfiles que han proporcionado un correo electrónico y cuyo cumpleaños es el día actual, cada vez que se ejecuta el flujo de trabajo. El cálculo del cumpleaños se realiza mediante un filtro predefinido disponible en la paleta de la herramienta de edición de consultas.
+* La actividad [Consulta](../../automating/using/query.md) le permite calcular los perfiles que han proporcionado un correo electrónico y cuyo cumpleaños es el día actual, cada vez que se ejecuta el flujo de trabajo. El cálculo del cumpleaños se realiza mediante un filtro predefinido disponible en la paleta de la herramienta de edición de consultas.
 
   ![](assets/wkf_delivery_example_3.png)
 
-* El [Envío de correo electrónico](../../automating/using/email-delivery.md) es recurrente. Los envíos se acumulan por mes. Así que todos los correos electrónicos enviados en un mes se acumulan en una sola vista. En un año se ejecutan 365 envíos, pero se reagrupan en 12 vistas (también llamadas **ejecuciones recurrentes**) en la interfaz de Adobe Campaign. Los detalles del historial y del informe se muestran cada mes y no para cada envío.
+* La [entrega de correo electrónico](../../automating/using/email-delivery.md) es recurrente. Los envíos se acumulan por mes. Así que todos los correos electrónicos enviados en un mes se acumulan en una sola vista. En un año se ejecutan 365 envíos, pero se reagrupan en 12 vistas (también llamadas **ejecuciones recurrentes**) en la interfaz de Adobe Campaign. Los detalles del historial y del informe se muestran cada mes y no para cada envío.
 
   ![](assets/wkf_delivery_example_4.png)

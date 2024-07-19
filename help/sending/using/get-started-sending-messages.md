@@ -35,13 +35,13 @@ Por último, aproveche las directrices y herramientas de capacidad de envío dis
 
 <img src="assets/do-not-localize/icon_prepare.svg" width="60px">
 
-Campaign Standard **preparación mensajes** analiza el destinatario, la personalización y la validez del mensaje. Los errores detectados durante este paso deben corregirse antes de poder continuar.
+el Campaign Standard **message preparation** analiza el objetivo, la personalización y la validez del mensaje. Los errores detectados durante este paso deben corregirse antes de poder continuar.
 
-**Previsualización y prueba** Envíe mensajes con varias funciones: envíe pruebas para probar perfiles o perfiles objetivo, pruebe la línea de asunto de los correos electrónicos y compruebe el procesamiento de los mensajes para asegurarse de que se muestran de una manera óptima en una variedad de clientes, correos web y dispositivos web.
+**Previsualice y pruebe** sus mensajes con varias funciones: envíe pruebas para probar perfiles o perfiles objetivo, pruebe la línea de asunto de sus correos electrónicos y compruebe el procesamiento de sus mensajes para asegurarse de que se mostrarán de una manera óptima en una variedad de clientes, correos web y dispositivos web.
 
 Aproveche las funcionalidades de programación de Campaign para definir cuándo se enviarán los mensajes. Por ejemplo, puede adaptar la entrega en el huso horario del destinatario, optimizar la hora de envío o calcular la fecha de envío.
 
-Uso **tipologías** para comprobar durante la preparación si su mensaje es válido y cumple con los criterios de calidad mediante la fatiga, el control y las reglas de segmentación. Por ejemplo, para comprobar que los correos electrónicos siempre contienen una línea de asunto o para excluir a los suscriptores que cancelaron la suscripción de los destinatarios del mensaje.
+Use **tipologías** para comprobar durante la preparación si su mensaje es válido y cumple con sus criterios de calidad mediante reglas de fatiga, control y segmentación. Por ejemplo, para comprobar que los correos electrónicos siempre contienen una línea de asunto o para excluir a los suscriptores que cancelaron la suscripción de los destinatarios del mensaje.
 
 Más información:
 
@@ -56,11 +56,11 @@ Más información:
 
 <img src="assets/do-not-localize/icon_send.svg"  width="60px">
 
-Una vez que el mensaje esté listo, puede confirmar el envío y los registros de acceso y los informes a **monitorización de la entrega** y mida el éxito de su campaña. Adobe Campaign también proporciona un sistema de alertas por correo electrónico para realizar un seguimiento de los éxitos o errores de entrega, así como funciones de administración de cuarentena.
+Una vez que el mensaje esté listo, puede confirmar el envío y los registros de acceso y los informes para **supervisar la entrega** y medir el éxito de la campaña. Adobe Campaign también proporciona un sistema de alertas por correo electrónico para realizar un seguimiento de los éxitos o errores de entrega, así como funciones de administración de cuarentena.
 
-**Seguimiento del comportamiento** de los destinatarios de mensajes mediante cookies permanentes y de sesión para recuperar la información de seguimiento (direcciones URL en las que se hizo clic, páginas espejo, mensajes abiertos, etc.).
+**Rastree el comportamiento** de los destinatarios del mensaje usando cookies permanentes y de sesión para recuperar la información de seguimiento (direcciones URL en las que se hizo clic, páginas espejo, mensajes abiertos...).
 
-Por último, puede configurar Adobe Campaign para que **conservar una copia de los correos electrónicos** enviado desde su plataforma a través del correo electrónico CCO. En concreto, si su organización necesita archivar todos los mensajes de correo electrónico salientes para fines de conformidad, puede activar esta capacidad.
+Por último, puede configurar Adobe Campaign para que **conserve una copia de los mensajes de correo electrónico** enviados desde su plataforma a través del correo electrónico CCO. En concreto, si su organización necesita archivar todos los mensajes de correo electrónico salientes para fines de conformidad, puede activar esta capacidad.
 
 Más información:
 
@@ -77,7 +77,7 @@ Más información:
 
 La capacidad de entrega permite medir el éxito de las campañas que llegan a la bandeja de entrada de los destinatarios sin rechazarse ni marcarse como correo no deseado.
 
-El Campaign Standard proporciona varios **herramientas de envío** para ayudarle a mejorar el número de mensajes entregados correctamente: informes de rendimiento de entrega, optimización del tiempo de envío, vista previa de mensajes, procesamiento de correo electrónico, administración de cuarentena, etc.
+El Campaign Standard proporciona **herramientas de envío** para ayudarle a mejorar el número de mensajes enviados correctamente: informes de rendimiento de envío, optimización del tiempo de envío, vista previa de mensajes, procesamiento de correo electrónico, administración de cuarentena, etc.
 
 Más información:
 
@@ -99,4 +99,4 @@ Este vídeo muestra cómo enviar un correo electrónico de prueba, prepararse y,
 
 >[!VIDEO](https://video.tv.adobe.com/v/24013/)
 
-Hay disponibles más vídeos de procedimientos para el Campaign Standard [aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
+Hay disponibles [más vídeos de procedimientos para el Campaign Standard aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).

@@ -24,7 +24,7 @@ Una vez que se publica el mensaje y se completa la integración del sitio, cuand
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-Un **envío de ejecución** es un mensaje técnico no procesable y no funcional que se crea una vez al mes para cada mensaje transaccional y cada vez que se edita y vuelve a publicarse un mensaje transaccional.
+Un **envío de ejecución** es un mensaje técnico no procesable y no funcional que se crea una vez al mes para cada mensaje transaccional y cada vez que se edita y publica de nuevo un mensaje transaccional.
 
 **Temas relacionados**:
 * [Publicación de un mensaje transaccional](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
@@ -55,7 +55,7 @@ Una vez asignado el evento a un envío de ejecución, el mensaje transaccional p
 
 >[!NOTE]
 >
->Cuando se asigna un evento a un envío de ejecución, aparece en los registros de este envío de ejecución y solo en este momento. Los envíos fallidos se muestran en la **[!UICONTROL Execution list]** de los registros de envío del mensaje transaccional.
+>Cuando se asigna un evento a un envío de ejecución, aparece en los registros de este envío de ejecución y solo en este momento. Los envíos con errores se muestran en la pestaña **[!UICONTROL Execution list]** de los registros de envío de mensajes transaccionales.
 
 ### Limitaciones de procesos de reintento {#limitations}
 
@@ -67,11 +67,11 @@ En el proceso de reintentos, los registros de envío del nuevo envío de ejecuci
 
 No se puede detener un envío de ejecución. Sin embargo, si falla el envío de ejecución actual, se crea uno nuevo en cuanto se recibe un nuevo evento y todos los eventos nuevos se procesan con este nuevo envío de ejecución. El envío de ejecución con errores no procesa eventos nuevos.
 
-Si algunos eventos ya asignados a un envío de ejecución se han pospuesto como parte del proceso de reintento y si ese envío de ejecución falla, el sistema de reintentos no asigna los eventos pospuestos al nuevo envío de ejecución, lo que significa que estos eventos se pierden. Compruebe la [registros de envío](#monitoring-transactional-message-delivery) para ver los destinatarios que pueden haberse visto afectados.
+Si algunos eventos ya asignados a un envío de ejecución se han pospuesto como parte del proceso de reintento y si ese envío de ejecución falla, el sistema de reintentos no asigna los eventos pospuestos al nuevo envío de ejecución, lo que significa que estos eventos se pierden. Compruebe [registros de envío](#monitoring-transactional-message-delivery) para ver los destinatarios que puedan haberse visto afectados.
 
 ## Supervisión de mensajes transaccionales {#monitoring-transactional-message-delivery}
 
-Para monitorizar un mensaje transaccional, debe acceder a la [entregas de ejecución](#transactional-message-execution-delivery).
+Para supervisar un mensaje transaccional, debe acceder a los [envíos de ejecución](#transactional-message-execution-delivery) correspondientes.
 
 1. Para ver el registro de envíos de mensajes, haga clic en el icono situado en la parte inferior derecha del bloque **[!UICONTROL Deployment]**.
 
@@ -85,11 +85,11 @@ Para monitorizar un mensaje transaccional, debe acceder a la [entregas de ejecuc
 
    ![](assets/message-center_execution_delivery.png)
 
-1. Haga clic de nuevo en el icono en la parte inferior derecha de la **[!UICONTROL Deployment]** Bloque.
+1. Vuelva a hacer clic en el icono situado en la parte inferior derecha del bloque **[!UICONTROL Deployment]**.
 
    ![](assets/message-center_execution_access_logs.png)
 
-   Para cada envío de ejecución, puede consultar los registros de envío como lo haría para un envío estándar. Para obtener más información sobre el acceso y el uso de los registros, consulte [Monitorización de una entrega](../../sending/using/monitoring-a-delivery.md).
+   Para cada envío de ejecución, puede consultar los registros de envío como lo haría para un envío estándar. Para obtener más información sobre el acceso y el uso de los registros, consulte [Supervisión de una entrega](../../sending/using/monitoring-a-delivery.md).
 
 ### Especificaciones de mensajes transaccionales basados en perfiles {#profile-transactional-message-monitoring}
 
@@ -99,7 +99,7 @@ Seleccione la pestaña **[!UICONTROL Sending logs]** En la columna **[!UICONTROL
 
 ![](assets/message-center_marketing_sending_logs.png)
 
-Seleccione el **[!UICONTROL Exclusions logs]** para ver los destinatarios que se han excluido del objetivo del mensaje, como las direcciones en la lista de bloqueados.
+Seleccione la pestaña **[!UICONTROL Exclusions logs]** para ver los destinatarios que se han excluido del objetivo del mensaje, como las direcciones en la lista de bloqueados de la.
 
 ![](assets/message-center_marketing_exclusion_logs.png)
 

@@ -26,8 +26,8 @@ ht-degree: 93%
 
 La actividad **[!UICONTROL Direct mail delivery]** le permite configurar y preparar un archivo que contenga datos de perfil que desee utilizar para una campaña de correo postal. Puede ser un correo postal que se utiliza una sola vez o uno recurrente.
 
-* **Standard** los mensajes de correo postal se envían una vez.
-* **Recurrente** los correos electrónicos le permiten enviar el mismo correo postal varias veces a diferentes destinatarios durante un periodo definido. Puede acumular los envíos por periodo para obtener informes que se correspondan con sus necesidades.
+* Los mensajes de correo postal **Standard** se envían una vez.
+* **Los correos recurrentes** le permiten enviar el mismo correo postal varias veces a diferentes destinatarios durante un periodo definido. Puede acumular los envíos por periodo para obtener informes que se correspondan con sus necesidades.
 
 ## Contexto de uso {#context-of-use}
 

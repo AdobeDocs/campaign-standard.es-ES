@@ -23,11 +23,11 @@ Este es un procedimiento de dos pasos.
 
 >[!CAUTION]
 >
->La API de REST devuelve la propiedad &quot;href&quot;, que contiene la dirección URL que se va a utilizar. <b>Utilice siempre la dirección URL contenida en la respuesta para realizar la solicitud de API posterior</b>.
+>La API de REST devuelve la propiedad &quot;href&quot;, que contiene la dirección URL que se va a utilizar. <b>Use siempre la dirección URL contenida en la respuesta para realizar la solicitud de API posterior</b>.
 
 <br/>
 
-***Solicitud de ejemplo***
+***Solicitud de muestra***
 
 Realice una solicitud de GET para recuperar el servicio.
 
@@ -89,7 +89,7 @@ Este es un procedimiento de dos pasos.
 
 <br/>
 
-***Solicitud de ejemplo***
+***Solicitud de muestra***
 
 Realice una solicitud de GET para recuperar el perfil.
 

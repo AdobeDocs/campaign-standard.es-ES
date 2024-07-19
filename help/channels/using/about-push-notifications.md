@@ -66,7 +66,7 @@ Antes de enviar las notificaciones push, debe hacer lo siguiente:
 
 1. En la IU de recopilación de datos, cree una propiedad móvil. Para obtener más información, consulte [Configuración de una propiedad móvil](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/).
 
-1. En la IU de recopilación de datos, instale el **[!UICONTROL Adobe Campaign Standard]** extensión.
+1. En la IU de recopilación de datos , instale la extensión **[!UICONTROL Adobe Campaign Standard]**.
 
 1. En Adobe Campaign Standard, configure la propiedad móvil que ha creado en la IU de recopilación de datos. Para obtener más información, consulte [Configuración de la aplicación de etiquetas en Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
@@ -82,8 +82,8 @@ Consulte los siguientes recursos:
 
 * [Tutorials de vídeo](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
 * [Documentación del producto](../../channels/using/about-push-notifications.md)
-* Configuración mediante el SDK de AEP [documentación](../../administration/using/configuring-a-mobile-application.md)
-* [Página de comunidad](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+* Configurar mediante el SDK de AEP [documentación](../../administration/using/configuring-a-mobile-application.md)
+* [Página de la comunidad](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### ¿Qué tengo que hacer para adquirir un token push en Campaign? {#push-token-acquisition}
 
@@ -113,13 +113,13 @@ No, las aplicaciones funcionarán en modo de simulación de pruebas o de producc
 
 Para cambiar al modo de producción, debe crear otra aplicación. Asegúrese también de no marcar la casilla de verificación de la zona protegida y cargar un certificado de producción.
 
-### ¿Puedo cargar credenciales de iOS y Android al mismo tiempo? {#ios-android-credentials}
+### ¿Puedo cargar credenciales de iOS y de Android al mismo tiempo? {#ios-android-credentials}
 
 Sí, Campaign admite ambas plataformas al mismo tiempo y le permite cargar credenciales para ambas plataformas.
 
 ### He cargado correctamente certificados push, pero no se envían mensajes push. {#push-certificates-upload}
 
-Asegúrese de que los certificados push sean válidos probándolos [aquí](https://pushtry.com/).
+Asegúrese de que los certificados de inserción sean válidos probándolos [aquí](https://pushtry.com/).
 
 ### Puedo enviar notificaciones push correctamente desde pushtry.com, pero no a través de Campaign. {#push-not-sending}
 
@@ -137,26 +137,26 @@ Abra un ticket de atención al cliente.
 
 ### Las notificaciones push se envían desde Campaign, pero el archivo de medios no se muestra.{#media-file-unavailable}
 
-Los desarrolladores de aplicaciones móviles deben gestionar la compatibilidad con archivos multimedia en la aplicación. A veces, el ancho de banda de la red también puede impedir que se procese un archivo multimedia. Consulte esta sección [página](../../administration/using/image-push-notification.md) para obtener punteros adicionales.
+Los desarrolladores de aplicaciones móviles deben gestionar la compatibilidad con archivos multimedia en la aplicación. A veces, el ancho de banda de la red también puede impedir que se procese un archivo multimedia. Consulte esta [página](../../administration/using/image-push-notification.md) para obtener punteros adicionales.
 
 ### ¿Qué tengo que hacer para habilitar la creación de informes push en Campaign? {#push-reporting-enable}
 
 Siga estos pasos:
 
-* Configure un postback de seguimiento push. Se pueden encontrar las instrucciones [aquí](../../administration/using/configuring-a-mobile-application.md).
-* Implemente la API trackAction desde Mobile Core. Consulte esta sección [página](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/) para obtener más información.
+* Configure un postback de seguimiento push. Encontrará instrucciones [aquí](../../administration/using/configuring-a-mobile-application.md).
+* Implemente la API trackAction desde Mobile Core. Consulte esta [página](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/) para obtener más información.
 
-Encontrará instrucciones más detalladas en esta sección [página](../../administration/using/push-tracking.md).
+Encontrará instrucciones más detalladas en esta [página](../../administration/using/push-tracking.md).
 
 ### ¿Qué informes están disponibles para el canal push? {#push-report-available}
 
-Hay disponible un informe listo para usar en el canal push de Adobe Campaign. Consulte esta sección [documentación](../../reporting/using/push-notification-report.md).
+Hay disponible un informe listo para usar en el canal push de Adobe Campaign. Consulte esta [documentación](../../reporting/using/push-notification-report.md).
 
-Ver esto [página](../../reporting/using/indicator-calculation.md#push-notification-delivery) para comprender cómo se calculan las métricas push.
+Consulte esta [página](../../reporting/using/indicator-calculation.md#push-notification-delivery) para comprender cómo se calcula cada métrica push.
 
 ### ¿Se admiten los vínculos profundos en los mensajes push y en la aplicación? {#deeplink-push}
 
 Sí, los vínculos profundos son compatibles con los mensajes push. Los vínculos profundos deben incluir:
 
 * Idioma que indica que es necesario deshabilitar el seguimiento de envíos para que funcionen los vínculos profundos.
-* Folleto de aplicaciones con Branch como socios que pueden realizar el seguimiento de vínculos profundos. Para obtener más información sobre la integración de Rama y Adobe Campaign Standard, consulte esta sección [página](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
+* Folleto de aplicaciones con Branch como socios que pueden realizar el seguimiento de vínculos profundos. Para obtener más información sobre la integración de ramas y Adobe Campaign Standard, consulte esta [página](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).

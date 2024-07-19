@@ -21,7 +21,7 @@ ht-degree: 74%
 
 >[!NOTE]
 >
->Para crear Déclencheur, necesitará el **[!UICONTROL Administration]** función o para estar en **[!UICONTROL Administrators]** grupo de seguridad. Para obtener más información, consulte [página](../../administration/using/list-of-roles.md).
+>Para crear Déclencheur, necesitará el rol **[!UICONTROL Administration]** o para estar en el grupo de seguridad **[!UICONTROL Administrators]**. Para obtener más información, consulte esta [página](../../administration/using/list-of-roles.md).
 
 Debe asegurarse de definir los comportamientos que desea supervisar de antemano en Adobe Experience Cloud (**[!UICONTROL Triggers]** servicio principal). Para obtener más información, consulte la [documentación de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=es). Tenga en cuenta que cuando define el activador, debe activar los alias. Para cada comportamiento (navegación/abandono de formulario, adición/eliminación de productos, sesión caducada, etc.), se debe añadir un nuevo activador en Adobe Experience Cloud.
 
@@ -29,7 +29,7 @@ Ahora tiene que crear un evento de activación en Adobe Campaign basado en un ac
 
 Los pasos para ponerlo en práctica son estos:
 
-1. Haga clic en **Adobe** , en la esquina superior izquierda, y seleccione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud Triggers]**.
+1. Haga clic en el logotipo de **Adobe**, en la esquina superior izquierda, y luego seleccione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud Triggers]**.
 
    ![](assets/remarketing_1.png)
 
@@ -53,7 +53,7 @@ Los pasos para ponerlo en práctica son estos:
 
 Después de crear un evento de déclencheur en Adobe Campaign basado en un déclencheur de Adobe Experience Cloud existente, ahora debe publicarlo.
 
-1. En el déclencheur creado anteriormente, haga clic en **[!UICONTROL Publish]** para iniciar la publicación del evento de déclencheur.
+1. Desde el déclencheur creado anteriormente, haga clic en el botón **[!UICONTROL Publish]** para iniciar la publicación del evento de déclencheur.
 
    ![](assets/trigger_publish_1.png)
 
@@ -71,7 +71,7 @@ Después de crear un evento de déclencheur en Adobe Campaign basado en un décl
 
    ![](assets/trigger_publish_4.png)
 
-1. Clic **[!UICONTROL Show Trigger in Experience Cloud]** permite ver la definición del déclencheur en Adobe Experience Cloud.
+1. El botón **[!UICONTROL Show Trigger in Experience Cloud]** le permite ver la definición del déclencheur en Adobe Experience Cloud.
 
 Una vez publicado el evento, se crea automáticamente una plantilla transaccional vinculada al nuevo evento. Después debe modificar y publicar la plantilla que acaba de crear. Para obtener más información, consulte la sección [Modificación de la plantilla](../../start/using/marketing-activity-templates.md).
 
@@ -79,7 +79,7 @@ Una vez publicado el evento, se crea automáticamente una plantilla transacciona
 
 Una vez creado y publicado el evento de activación, la plantilla transaccional correspondiente se crea automáticamente. Para obtener más información, consulte [Creación de un activador asignado en Campaign](#creating-a-mapped-trigger-in-campaign).
 
-Para que el evento active el envío de un mensaje transaccional, debe personalizar la plantilla, probarla y publicarla. Estos pasos son los mismos que para un mensaje transaccional estándar. Para obtener más información, consulte [Edición de un mensaje transaccional](../../channels/using/editing-transactional-message.md) sección.
+Para que el evento active el envío de un mensaje transaccional, debe personalizar la plantilla, probarla y publicarla. Estos pasos son los mismos que para un mensaje transaccional estándar. Para obtener más información, consulte la sección [Edición de un mensaje transaccional](../../channels/using/editing-transactional-message.md).
 
 >[!NOTE]
 >

@@ -10,7 +10,7 @@ exl-id: bb651b91-145f-4e87-92dd-a8b04662e380
 source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 82%
+ht-degree: 83%
 
 ---
 
@@ -32,15 +32,15 @@ En muchos proyectos, las importaciones se crean sin actividad de **[!UICONTROL D
 
 No dé por hecho que los datos entrantes son coherentes y correctos, o que el departamento de TI o el supervisor de Adobe Campaign se pueden encargar de ello. Durante el proyecto, tenga en cuenta la limpieza de los datos. Deduplique, reconcilie y mantenga la coherencia al importar datos.
 
-Un ejemplo de una plantilla de flujo de trabajo genérica diseñada para importar datos está disponible en la [Ejemplo: importar plantilla de flujo de trabajo](../../automating/using/creating-import-workflow-templates.md) sección.
+Un ejemplo de una plantilla de flujo de trabajo genérica diseñada para importar datos está disponible en la sección [Ejemplo: Importar plantilla de flujo de trabajo](../../automating/using/creating-import-workflow-templates.md).
 
 >[!NOTE]
 >
->También puede utilizar [importar plantillas](../../automating/using/importing-data-with-import-templates.md). Son plantillas de flujo de trabajo definidas por un administrador que, una vez activadas, solo ofrecen la posibilidad de especificar el archivo que contiene los datos que se van a importar.
+>También puede usar [plantillas de importación](../../automating/using/importing-data-with-import-templates.md). Son plantillas de flujo de trabajo definidas por un administrador que, una vez activadas, solo ofrecen la posibilidad de especificar el archivo que contiene los datos que se van a importar.
 
 **Temas relacionados:**
 
-* [Actividad de carga de archivo](../../automating/using/load-file.md)
+* [Actividad Cargar archivo](../../automating/using/load-file.md)
 * [Actividad de reconciliación](../../automating/using/reconciliation.md)
 * [Actividad de segmentación](../../automating/using/segmentation.md)
 * [Actividad de anulación de duplicación](../../automating/using/deduplication.md)
@@ -73,8 +73,8 @@ Utilice archivos comprimidos para importar y exportar cuando sea posible. GZIP e
 
 **Temas relacionados:**
 
-* [Actividad de carga de archivo](../../automating/using/load-file.md)
-* [Actividad de extracción de archivo](../../automating/using/extract-file.md)
+* [Actividad Cargar archivo](../../automating/using/load-file.md)
+* [Extraer actividad de archivo](../../automating/using/extract-file.md)
 
 ## Importación en modo Delta {#importing-in-delta-mode}
 

@@ -26,9 +26,9 @@ El objetivo del flujo de trabajo es enviar un correo electrónico específico a 
 
 El flujo de trabajo se compone de los siguientes elementos:
 
-* A [Actividad del planificador](../../automating/using/segmentation.md) para especificar la fecha de ejecución del flujo de trabajo.
-* A [Consulta](../../automating/using/query.md) actividad para dirigirse a perfiles de personas cuyo cumpleaños y dirección de correo electrónico han sido especificados.
-* A [Segmentación](../../automating/using/segmentation.md) actividad para crear 3 segmentos divididos en diferentes transiciones salientes: 18 a 25 años, 26 a 32 años y perfiles mayores de 32 años. Los segmentos se definen según los siguientes parámetros:
+* Una [actividad de planificador](../../automating/using/segmentation.md) para especificar la fecha de ejecución del flujo de trabajo.
+* Una actividad [Query](../../automating/using/query.md) para segmentar perfiles de personas cuyo cumpleaños y dirección de correo electrónico han sido especificados.
+* Una actividad [Segmentation](../../automating/using/segmentation.md) para crear 3 segmentos divididos en diferentes transiciones salientes: 18 a 25 años, 26 a 32 años y perfiles mayores de 32 años. Los segmentos se definen según los siguientes parámetros:
 
   ![](assets/wkf_segment_example_3.png)
 
@@ -40,4 +40,4 @@ El flujo de trabajo se compone de los siguientes elementos:
 
      ![](assets/wkf_segment_example_1.png)
 
-* Un [Envío de correo electrónico](../../automating/using/email-delivery.md) actividad por segmento.
+* Una actividad de [envío de correo electrónico](../../automating/using/email-delivery.md) por segmento.

@@ -19,7 +19,8 @@ ht-degree: 84%
 
 Una vez creado un correo electrónico en Adobe Campaign, debe definir su contenido.
 
-El Diseñador de correo electrónico le permite crear correos electrónicos personalizados y cautivadores con una interfaz de arrastrar y soltar. Ya sea desde una pizarra en blanco o aprovechando los fragmentos de contenido o las plantillas existentes, diseñe y perfeccione el contenido de cada correo electrónico, ya sea promocional o transaccional.
+Email Designer le permite crear correos electrónicos personalizados y cautivadores arrastrando y soltando
+interfaz. Ya sea desde una pizarra en blanco o aprovechando los fragmentos de contenido o las plantillas existentes, diseñe y perfeccione el contenido de cada correo electrónico, ya sea promocional o transaccional.
 
 Compilado para ofrecer HTML optimizado para un diseño interactivo, el Diseñador de correo electrónico le permite definir y aplicar fácilmente las condiciones de visibilidad y de contenido dinámico a un correo electrónico, una plantilla o un fragmento directamente a través de la interfaz de usuario. Puede alternar sin problemas entre la interfaz de arrastre y suelte y el código del HTML haciendo clic en un botón.
 
@@ -27,7 +28,7 @@ El Diseñador de correo electrónico le permite crear plantillas contenido de co
 
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
-![](assets/do-not-localize/how-to-video.png) [Descubra el Diseñador de correo electrónico con este vídeo](#video)
+![](assets/do-not-localize/how-to-video.png) [Descubra el correo electrónico Designer en vídeo](#video)
 
 * Para descubrir cómo crear contenido de correo electrónico, consulte [Introducción al Diseñador de correo electrónico](../../designing/using/quick-start.md).
 * Para obtener una descripción general del Diseñador de correo electrónico, consulte [Uso del Diseñador de correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md).
@@ -45,7 +46,7 @@ También puede definir contenido dinámico que varíe según cada perfil. Consul
 
 Mejore sus mensajes y páginas de aterrizaje con vínculos e imágenes. Consulte [Inserción de vínculos](../../designing/using/links.md#inserting-a-link) e [Inserción de imágenes](../../designing/using/images.md#inserting-images).
 
-## Interfaz del Diseñador de correo electrónico {#email-designer-interface}
+## Interfaz de Designer de correo electrónico {#email-designer-interface}
 
 El Diseñador de correo electrónico proporciona muchas opciones que le permiten crear, editar y personalizar todos los aspectos del contenido.
 
@@ -65,7 +66,7 @@ Acceda a las opciones y configuraciones más generales desde la **barra de herra
 
 La **barra de herramientas contextual** de la interfaz del editor ofrece varias funcionalidades en función de la zona seleccionada. Contiene botones de acción y botones que permiten cambiar el estilo del texto. Las modificaciones realizadas se aplican siempre a la zona seleccionada.
 
-### Página de inicio del Diseñador de correo electrónico {#email-designer-home-page}
+### Página de inicio de Designer de correo electrónico {#email-designer-home-page}
 
 Al [crear un correo electrónico](../../channels/using/creating-an-email.md), se muestra la **[!UICONTROL Email Designer]** página de inicio automáticamente al seleccionar el contenido del correo electrónico.
 
@@ -143,7 +144,7 @@ Cuando se trata de fragmentos, tenga en cuenta lo siguiente:
 
 * La actualización de fragmentos utilizados en correos electrónicos que ya están preparados no afecta a esos mensajes.
 
-## Limitaciones del Diseñador de correo electrónico {#email-designer-limitations}
+## Limitaciones de Email Designer {#email-designer-limitations}
 
 * No se pueden usar los campos de personalización en un fragmento. Para obtener más información sobre fragmentos, consulte [esta sección](../../designing/using/using-reusable-content.md#about-fragments).
 
@@ -152,7 +153,7 @@ Cuando se trata de fragmentos, tenga en cuenta lo siguiente:
 * Al editar estilos, solo están disponibles las fuentes web oficialmente admitidas por la mayoría de los clientes de correo electrónico.
 * Los estilos no se pueden guardar como un tema para su reutilización futura. Sin embargo, el estilo CSS se puede guardar en una plantilla de contenido o en un correo electrónico. Para obtener más información de los estilos, consulte [esta sección](../../designing/using/styles.md).
 * La metaetiqueta de Remitente del reenvío no es compatible con el Diseñador de correo electrónico.
-* Los pares sustitutos, caracteres no incluidos en el plano multilingüe básico del conjunto de caracteres Unicode, no se pueden almacenar en 2 bytes (16 bits) y deben codificarse en 2 caracteres UTF-16. Estos caracteres incluyen algunos ideogramas CJK, la mayoría de emojis y algunos idiomas.<br>Estos caracteres pueden provocar algunos problemas de incompatibilidad en el texto dinámico. Debe realizar pruebas sólidas antes de enviar los mensajes.
+* Los pares sustitutos, caracteres no incluidos en el plano multilingüe básico del conjunto de caracteres Unicode, no se pueden almacenar en 2 bytes (16 bits) y deben codificarse en 2 caracteres UTF-16. Estos caracteres incluyen algunos ideogramas CJK, la mayoría de emojis y algunos idiomas.<br>Estos caracteres pueden causar algunos problemas de incompatibilidad en el texto dinámico. Debe realizar pruebas sólidas antes de enviar los mensajes.
 
 **Temas relacionados**
 
@@ -163,8 +164,8 @@ Cuando se trata de fragmentos, tenga en cuenta lo siguiente:
 
 ## Tutorial en vídeo {#video}
 
-Este vídeo ofrece información general sobre el Diseñador de correo electrónico.
+Este vídeo ofrece información general sobre el Designer de correo electrónico.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
 
-Para empezar a usar el Diseñador de correo electrónico, observe esto [conjunto de vídeos](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) que explican la funcionalidad general del Diseñador de correo electrónico y cómo diseñar un correo electrónico desde cero o mediante plantillas
+Para empezar a usar el Designer de correo electrónico, vea este [conjunto de vídeos](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) que explican la funcionalidad general del Designer de correo electrónico y cómo diseñar un correo electrónico desde cero o con plantillas

@@ -22,7 +22,7 @@ En el siguiente ejemplo se muestra un flujo de trabajo que crea una audiencia de
 
 ![](assets/identification_example2.png)
 
-* A [Cargar archivo](../../automating/using/load-file.md) actividad, que carga y detecta los datos del archivo que se va a importar. El archivo importado contiene los siguientes datos:
+* Una actividad [Cargar archivo](../../automating/using/load-file.md), que carga y detecta los datos del archivo que se va a importar. El archivo importado contiene los siguientes datos:
 
   ```
   lastname;firstname;email;dateofbirth
@@ -37,10 +37,10 @@ En el siguiente ejemplo se muestra un flujo de trabajo que crea una audiencia de
   tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
   ```
 
-* A [Reconciliación](../../automating/using/reconciliation.md) actividad, que vincula cada columna del archivo cargado con una columna de dimensión de perfil. Los registros de archivos que no se pueden identificar (por falta de datos, tipo de datos incompatible, etc.) se ignoran para preservar la integridad de los datos de audiencia final.
+* Una actividad [Reconciliation](../../automating/using/reconciliation.md) que vincula cada columna del archivo cargado con una columna de dimensión de perfil. Los registros de archivos que no se pueden identificar (por falta de datos, tipo de datos incompatible, etc.) se ignoran para preservar la integridad de los datos de audiencia final.
 
   ![](assets/identification_example1.png)
 
-* A [Guardar audiencia](../../automating/using/save-audience.md) actividad, que guarda la audiencia de perfiles.
+* Una actividad [Guardar audiencia](../../automating/using/save-audience.md), que guarda la audiencia de perfiles.
 
   ![](assets/identification_example3.png)

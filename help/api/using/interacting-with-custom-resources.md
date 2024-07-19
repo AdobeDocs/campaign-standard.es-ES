@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Interacción con recursos personalizados {#interacting-with-custom-resources}
 
-El **/customResources** Este punto de conexión le permite exponer los recursos personalizados de Campaign en REST. En función de esta API, hay disponible una integración entre entidades personalizadas y extremos externos.
+El extremo **/customResources** le permite exponer los recursos personalizados de Campaign en REST. En función de esta API, hay disponible una integración entre entidades personalizadas y extremos externos.
 
 El extremo /customResources tiene exactamente el mismo comportamiento que el extremo /profileAndServices.
 

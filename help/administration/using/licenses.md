@@ -15,17 +15,17 @@ ht-degree: 1%
 
 # Licencias{#licenses}
 
-El **[!UICONTROL Licenses]** La ventana de permite ver las licencias instaladas en la instancia y otra información sobre ella, como el número de compilación, la versión de lanzamiento o si los términos del acuerdo se han aceptado y quién los ha aceptado.
+La ventana **[!UICONTROL Licenses]** le permite ver las licencias instaladas en su instancia y otra información sobre la misma, como el número de compilación, la versión de lanzamiento o si se han aceptado los términos del acuerdo y quién los ha aceptado.
 
 ![](assets/license_1.png)
 
 Con una nueva versión o función, los términos de licencia pueden cambiar y un administrador funcional de la instancia debe aceptarlos.
 
-La siguiente ventana aparecerá para los usuarios estándar después de iniciar sesión, no se requiere ninguna acción por su parte. Todavía pueden trabajar en Adobe Campaign haciendo clic en el **[!UICONTROL OK]** botón.
+La siguiente ventana aparecerá para los usuarios estándar después de iniciar sesión, no se requiere ninguna acción por su parte. Pueden seguir funcionando en Adobe Campaign si hace clic en el botón **[!UICONTROL OK]**.
 
 ![](assets/license_2.png)
 
-Un administrador debe leer y confirmar las nuevas condiciones del acuerdo en los 30 días siguientes a la instalación de la versión comprobando **[!UICONTROL I accept the terms from the license agreement]** y haciendo clic en **[!UICONTROL Confirm]**.
+Un administrador debe leer y confirmar las nuevas condiciones del contrato en los 30 días siguientes a la instalación de la compilación. Para ello, debe marcar **[!UICONTROL I accept the terms from the license agreement]** y hacer clic en **[!UICONTROL Confirm]**.
 
 ![](assets/license_3.png)
 

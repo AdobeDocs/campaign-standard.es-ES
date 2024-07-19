@@ -79,7 +79,7 @@ Para evitar estos problemas, Adobe recomienda seguir las prácticas recomendadas
 * Inicie sesión ocasionalmente en el SFTP para comprobar directamente lo que sucede allí.
 * Recuerde que la gestión de discos SFTP es responsabilidad principalmente suya.
 
-Tenga en cuenta también que las IP públicas desde las que intente iniciar la conexión SFTP se deben añadir a la lista de permitidos de Campaign. Añadir direcciones IP a la lista de permitidos se puede solicitar mediante una [ticket de asistencia](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html), junto con la clave pública que se utilizará para la autenticación.
+Tenga en cuenta también que las IP públicas desde las que intente iniciar la conexión SFTP se deben añadir a la lista de permitidos de Campaign. Añadir direcciones IP a la lista de permitidos se puede solicitar a través de un [ticket de asistencia](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html), junto con la clave pública que se utilizará para la autenticación.
 
 Los servidores SFTP se pueden administrar desde el panel de control. Para obtener más información, consulte la [documentación del panel de control](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=es).
 
@@ -91,12 +91,12 @@ Los servidores SFTP se pueden administrar desde el panel de control. Para obtene
 
 Para una cuenta externa de OAuth 2.0, proporcione los siguientes detalles:
 
-* A **Tipo de concesión**: solo **credenciales de cliente** es compatible.
-* A **URL de API segura**: introduzca el punto final de autorización.
-* **Credenciales confidenciales de OAuth 2.0**: Esta sección está diseñada para credenciales que son de naturaleza confidencial. Los valores de credencial se enmascararán en la pantalla después de agregarse; en ese momento, no serán legibles ni editables. Si el extremo de autorización requiere que se inserte una credencial determinada en el encabezado de autorización HTTP en lugar del parámetro de cuerpo del POST, puede seleccionar la opción Incluir en el encabezado para esa credencial.
+* Un **tipo de concesión**: solo se admiten **credenciales de cliente**.
+* Una **URL de API segura**: escriba el extremo de autorización.
+* **Credenciales confidenciales de OAuth 2.0**: Esta sección está diseñada para credenciales que son confidenciales por naturaleza. Los valores de credencial se enmascararán en la pantalla después de agregarse; en ese momento, no serán legibles ni editables. Si el extremo de autorización requiere que se inserte una credencial determinada en el encabezado de autorización HTTP en lugar del parámetro de cuerpo del POST, puede seleccionar la opción Incluir en el encabezado para esa credencial.
 * **Credenciales no confidenciales de OAuth 2.0**: Esta sección está diseñada para credenciales que no son confidenciales. Los valores de credencial serán visibles en la pantalla después de agregarse; también serán editables.  Si el extremo de autorización requiere que se inserte una credencial determinada en el encabezado de autorización HTTP en lugar del parámetro de cuerpo del POST, puede seleccionar la opción Incluir en el encabezado para esa credencial.
 
-Después de introducir la información de la cuenta, haga clic en **Probar conexión** para comprobar que la cuenta externa se ha configurado correctamente.
+Después de escribir la información de la cuenta, haga clic en **Probar conexión** para comprobar que la cuenta externa se haya configurado correctamente.
 
 ![](assets/external_accounts_OAuth.png)
 

@@ -17,13 +17,13 @@ ht-degree: 11%
 
 # Orden
 
-La ordenación está disponible de forma predeterminada en orden ascendente. Para ordenar en orden descendente, agregue **%20desc** a la **_order** valor del parámetro.
+La ordenación está disponible de forma predeterminada en orden ascendente. Para ordenar en orden descendente, agregue **%20desc** al valor del parámetro **_order**.
 
 Para saber si un campo se puede ordenar, compruebe el parámetro &quot;ordenable&quot; en los metadatos del recurso. Para obtener más información, consulte [esta sección](../../api/using/metadata-mechanism.md).
 
 <br/>
 
-***Solicitudes de ejemplo***
+***Solicitudes de muestra***
 
 * Solicitud de GET de ejemplo para recuperar correos electrónicos en la base de datos ordenados alfabéticamente.
 

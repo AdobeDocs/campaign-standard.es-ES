@@ -25,7 +25,7 @@ Para que esta funcionalidad funcione, la plantilla de envíos predeterminada de 
 
 ![](assets/direct_mail_return_sender_1.png)
 
-Hay una plantilla de importación disponible en **[!UICONTROL Adobe Campaign > Resources > Templates > Import templates > Update Direct Mail quarantines and delivery logs]**. Duplique esta plantilla para crear la suya propia. Para obtener más información sobre la importación de plantillas, consulte [Uso de plantillas de importación](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates).
+Hay disponible una plantilla de importación en **[!UICONTROL Adobe Campaign > Resources > Templates > Import templates > Update Direct Mail quarantines and delivery logs]**. Duplique esta plantilla para crear la suya propia. Para obtener más información sobre cómo usar plantillas de importación, consulte [Usar plantillas de importación](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates).
 
 ![](assets/direct_mail_return_sender_2.png)
 

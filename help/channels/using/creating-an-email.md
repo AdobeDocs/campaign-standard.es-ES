@@ -17,7 +17,7 @@ ht-degree: 15%
 
 # Creación de un correo electrónico{#creating-an-email}
 
-Puede crear un correo electrónico a partir de una [campaña](../../start/using/marketing-activities.md#creating-a-marketing-activity), desde Adobe Campaign [página principal](../../start/using/interface-description.md#home-page), o en el [lista de actividades de marketing](../../start/using/marketing-activities.md#about-marketing-activities). También puede crear correos electrónicos recurrentes y de un solo envío a partir de un flujo de trabajo.
+Puede crear un mensaje de correo electrónico a partir de una [campaña](../../start/using/marketing-activities.md#creating-a-marketing-activity), desde la [página de inicio](../../start/using/interface-description.md#home-page) de Adobe Campaign o desde la [lista de actividades de marketing](../../start/using/marketing-activities.md#about-marketing-activities). También puede crear correos electrónicos recurrentes y de un solo envío a partir de un flujo de trabajo.
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra esta funcionalidad en vídeo](#video)
 
@@ -29,9 +29,9 @@ Puede crear un correo electrónico a partir de una [campaña](../../start/using/
 
    >[!NOTE]
    >
-   >Las plantillas de prueba A/B y de seguimiento están ocultas de forma predeterminada. Marque las casillas en el lado izquierdo ( **[!UICONTROL Filter]** panel lateral) si desea mostrarlos.
+   >Las plantillas de prueba A/B y de seguimiento están ocultas de forma predeterminada. Marque las casillas del lado izquierdo (panel lateral **[!UICONTROL Filter]**) si desea mostrarlas.
 
-1. Introduzca las propiedades generales del correo electrónico. Puede introducir un nombre en la variable **Etiqueta** y editar el ID.
+1. Introduzca las propiedades generales del correo electrónico. Puede escribir un nombre en el campo **Etiqueta** y editar el identificador.
 
    >[!NOTE]
    >
@@ -47,13 +47,13 @@ Puede crear un correo electrónico a partir de una [campaña](../../start/using/
    >
    >Puede crear su correo electrónico dentro de una campaña principal desde la página principal o la lista de actividades de marketing. Selecciónelo entre las campañas que ya se han creado.
 
-1. Defina el destinatario del mensaje en función de los criterios empresariales. Consulte [Acerca de los perfiles](../../audiences/using/about-profiles.md).
+1. Defina el destinatario del mensaje en función de los criterios empresariales. Ver [Acerca de los perfiles](../../audiences/using/about-profiles.md).
 
    También puede definir los perfiles de prueba que validarán el mensaje. Consulte [Administración de perfiles de prueba](../../audiences/using/managing-test-profiles.md).
 
    ![](assets/email_creation_3.png)
 
-1. Defina y personalice el contenido del mensaje, el nombre del remitente y el asunto mediante la variable [Diseñador de correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md). Para obtener más información, consulte [Acerca del diseño de contenido de correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md).
+1. Defina y personalice el contenido del mensaje, el nombre del remitente y el asunto con [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md). Para obtener más información, consulte [Acerca del diseño del contenido del correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md).
 
    ![](assets/email_creation_4.png)
 
@@ -64,11 +64,11 @@ Puede crear un correo electrónico a partir de una [campaña](../../start/using/
 
    >[!NOTE]
    >
-   >Para poder guardar el correo electrónico, primero debe realizar algunas ediciones en el contenido. Si hace clic **[!UICONTROL Cancel]** en este punto, no completará el asistente y no se creará el correo electrónico.
+   >Para poder guardar el correo electrónico, primero debe realizar algunas ediciones en el contenido. Si hace clic en **[!UICONTROL Cancel]** en este momento, no completará el asistente y no se creará el correo electrónico.
 
-   A continuación, se muestra el panel de correo electrónico. Le permite comprobar el mensaje y [preparación del envío](../../sending/using/preparing-the-send.md).
+   A continuación, se muestra el panel de correo electrónico. Le permite comprobar el mensaje y [preparar el envío](../../sending/using/preparing-the-send.md).
 
-   El **[!UICONTROL Edit properties]** en la esquina superior derecha permite editar las propiedades del correo electrónico. Por ejemplo, puede configurar el correo electrónico para que su etiqueta se calcule en el momento de la preparación de la entrega.  Los parámetros disponibles se enumeran en [esta sección](../../administration/using/configuring-email-channel.md#list-of-email-properties).
+   El botón **[!UICONTROL Edit properties]** en la esquina superior derecha le permite editar las propiedades del correo electrónico. Por ejemplo, puede configurar el correo electrónico para que su etiqueta se calcule en el momento de la preparación de la entrega.  Los parámetros disponibles se enumeran en [esta sección](../../administration/using/configuring-email-channel.md#list-of-email-properties).
 
    ![](assets/delivery_dashboard_2.png)
 
@@ -76,7 +76,7 @@ Puede crear un correo electrónico a partir de una [campaña](../../start/using/
 
    ![](assets/delivery_planning.png)
 
-1. Prepare el mensaje para analizar su destinatario. Consulte [Preparación del envío](../../sending/using/confirming-the-send.md).
+1. Prepare el mensaje para analizar su destinatario. Ver [Preparando el envío](../../sending/using/confirming-the-send.md).
 
    ![](assets/preparing_delivery_2.png)
 
@@ -106,4 +106,4 @@ Este vídeo muestra cómo crear un correo electrónico.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23721?quality=12)
 
-Hay disponibles más vídeos de procedimientos para el Campaign Standard [aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
+Hay disponibles [más vídeos de procedimientos para el Campaign Standard aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).

@@ -66,7 +66,7 @@ La preparación del mensaje se activa según los parámetros de ejecución del f
 
    >[!NOTE]
    >
-   >Las entregas recurrentes se preparan según el **período de acumulación**. Por ejemplo, si el periodo de acumulación es &quot;por día&quot;, la entrega se vuelve a preparar solo una vez al día. Si planea invocar este flujo de trabajo varias veces al día, utilice [!UICONTROL No aggregation].
+   >Las entregas recurrentes se preparan en función del **período de acumulación**. Por ejemplo, si el periodo de acumulación es &quot;por día&quot;, la entrega se vuelve a preparar solo una vez al día. Si planea llamar a este flujo de trabajo varias veces al día, use [!UICONTROL No aggregation].
 
 1. Seleccione un tipo de correo electrónico. Los tipos de correo electrónico proceden de plantillas de correo electrónico definidas en el menú **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Introduzca las propiedades generales del correo electrónico. También puede adjuntarlo a una campaña existente. La etiqueta de la actividad envío del flujo de trabajo se actualiza con la etiqueta de correo electrónico.

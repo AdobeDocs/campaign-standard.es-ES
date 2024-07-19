@@ -14,16 +14,16 @@ ht-degree: 4%
 
 # Interactuar con el historial de marketing{#interacting-with-marketing-history}
 
-El **historia** el punto de conexión permite interactuar con el historial de marketing de un perfil.
+El extremo **history** le permite interactuar con el historial de marketing de un perfil.
 De este modo, puede, por ejemplo, recuperar fácilmente la página espejo de una entrega enviada a un perfil. Para realizar esto, siga los pasos a continuación:
 
-1. Realice una GET con **historia** extremo y clave principal del perfil.
-1. Realice una solicitud de GET en **eventos** href devuelto.
-1. Devuelve la lista de eventos del perfil con vínculos a páginas espejo en el **mirrorPage** nodo.
+1. Realice una GET con el extremo **history** y la clave principal del perfil.
+1. Realizar una solicitud de GET de los **eventos** href devueltos.
+1. Devuelve la lista de eventos del perfil con vínculos a páginas espejo en el nodo **mirrorPage**.
 
 <br/>
 
-***Solicitud de ejemplo***
+***Solicitud de muestra***
 
 Recupere el historial de marketing del perfil con una solicitud de GET.
 

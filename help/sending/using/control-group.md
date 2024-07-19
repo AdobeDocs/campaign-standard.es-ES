@@ -155,7 +155,7 @@ Puede extraer los **registros de envío** para comparar cómo actuó el grupo de
 
 >[!IMPORTANT]
 >
->Para acceder a los registros de envío, debe tener un [Función Administrador](../../administration/using/users-management.md#functional-administrators) y formar parte de la **[!UICONTROL All]** [entidad organizativa](../../administration/using/organizational-units.md). <!--If you would like to restrict access for a particular user or group of users, do not link it to **[!UICONTROL All]** units.-->
+>Para acceder a los registros de envío, debe tener una [función de administrador](../../administration/using/users-management.md#functional-administrators) y formar parte de la **[!UICONTROL All]** [unidad organizativa](../../administration/using/organizational-units.md). <!--If you would like to restrict access for a particular user or group of users, do not link it to **[!UICONTROL All]** units.-->
 
 ### Comprobación de los registros de envío {#checking-logs}
 

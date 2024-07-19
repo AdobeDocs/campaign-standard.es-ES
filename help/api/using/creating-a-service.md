@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Creación de un servicio con API{#creating-a-service-api}
 
-La creación de servicios se realiza con un **POST** solicitud en el recurso de servicio.
+La creación de servicios se realiza con una solicitud **POST** en el recurso de servicios.
 
 Si desea crear el servicio con atributos específicos, agréguelos a la carga útil. De lo contrario, el nuevo servicio se creará con los predeterminados.
 
 <br/>
 
-***Solicitud de ejemplo***
+***Solicitud de muestra***
 
 Solicitud del POST de ejemplo para crear un servicio con atributos específicos.
 

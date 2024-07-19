@@ -30,7 +30,7 @@ Para realizar esta tarea, los requisitos previos son:
 * Crear una definición de esquema XDM a través de la interfaz o utilizando la API de REST asociada a XDM
 * una creación de conjunto de datos basada en la definición de esquema XDM
 
-1. Ir a **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** y elija la **[!UICONTROL Data mappings]** entrada.
+1. Vaya a **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** y elija la entrada **[!UICONTROL Data mappings]**.
 
 1. Haga clic en **[!UICONTROL Create]** para iniciar una nueva asignación XDM.
 
@@ -38,20 +38,20 @@ Para realizar esta tarea, los requisitos previos son:
 
 1. Rellene los campos obligatorios y seleccione:
 
-   * a **dimensión objetivo**: este es el esquema del Campaign Standard para asignar
-   * a **conjunto de datos**: este es el paquete de datos asociado a un esquema XDM en Adobe Experience Platform.
+   * una **dimensión de segmentación**: este es el esquema de Campaign Standard que se va a asignar
+   * un **conjunto de datos**: este es el paquete de datos asociado a un esquema XDM en Adobe Experience Platform.
 
 >[!NOTE]
 >
->Para que un lote se incorpore al perfil del cliente en tiempo real o al servicio de identidad, el conjunto de datos debe ser [habilitado para Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html).
+>Para que se ingrese un lote en el perfil del cliente en tiempo real o en el servicio de identidad, el conjunto de datos debe estar [habilitado para el perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html).
 >
 >Si el conjunto de datos seleccionado ya se está utilizando en una asignación de datos existente, aparece una advertencia para informarle de que los datos pueden sobrescribirse en Adobe Experience Platform. Esto puede ocurrir cuando hay algunos destinatarios comunes en las asignaciones de datos que utilizan un mismo conjunto de datos.
 
-La siguiente pantalla presenta el **[!UICONTROL Field mappings]** donde puede crear una nueva asignación para cada campo del esquema del Campaign Standard.
+La siguiente pantalla presenta la sección **[!UICONTROL Field mappings]**, donde puede crear una nueva asignación para cada campo en el esquema del Campaign Standard.
 
 ![](assets/aep_fieldmappings.png)
 
-El **[!UICONTROL Create new field mapping]** permite seleccionar el campo de Campaign Standard y la expresión de ruta de campo correspondiente en el esquema XDM.
+El botón **[!UICONTROL Create new field mapping]** le permite seleccionar el campo Campaign Standard y la expresión de ruta de campo correspondiente en el esquema XDM.
 
 Si no puede encontrar un campo de Adobe Campaign Standard, puede utilizar el campo de búsqueda para buscarlo. Actualmente, la búsqueda solo funciona para campos que están abiertos en la jerarquía.
 
@@ -69,7 +69,7 @@ Para asignar un campo de enumeración, debe utilizar el editor de expresiones pa
 
 ![](assets/aep_enummapping.png)
 
-Si el valor XDM se define como una enumeración en el esquema XDM, puede utilizar la función EXDM nativa que reemplazará automáticamente al **vida** sintaxis.
+Si el valor XDM se define como una enumeración en el esquema XDM, puede utilizar la función EXDM nativa que reemplazará automáticamente la sintaxis **lif**.
 
 ![](assets/aep_enummappingexdm.png)
 
@@ -79,4 +79,4 @@ Para editar una asignación XDM, ábrala, modifique la información deseada y, a
 
 >[!IMPORTANT]
 >
->Por ahora, si edita un valor en **[!UICONTROL Field mappings]** y luego haga clic fuera del campo, el cambio no se mostrará en la interfaz hasta que haga clic en **[!UICONTROL Save]** botón. Este comportamiento solo se produce una vez, cuando se edita en **[!UICONTROL Field Mappings]** es la primera edición de la página.
+>Por ahora, si edita un valor en la sección **[!UICONTROL Field mappings]** y hace clic fuera del campo, el cambio no se mostrará en la interfaz hasta que haga clic en el botón **[!UICONTROL Save]**. Este comportamiento se produce una sola vez, cuando la edición de **[!UICONTROL Field Mappings]** es la primera edición de la página.

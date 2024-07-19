@@ -25,7 +25,7 @@ Con Campaign, puede optimizar el diseño y el envío de los recorridos de los cl
 
 Adobe Campaign ofrece dos nuevos modelos de aprendizaje automático: **Optimización del tiempo de envío predictivo** y **Puntuación de participación predictiva**. Estos dos modelos son modelos de aprendizaje automático específicos para diseñar y ofrecer mejores recorridos de cliente.
 
-* **Optimización del tiempo de envío predictivo** predice cuál es el mejor tiempo de envío para cada perfil de destinatario para aperturas de correo electrónico o clics y para aperturas de mensajes push. Para cada perfil de destinatario, las puntuaciones indican la mejor hora de envío para cada día de la semana y qué día es mejor para enviar y obtener los mejores resultados.
+* **Optimización del tiempo de envío predictivo** predice cuál es la mejor hora de envío para cada perfil de destinatario para aperturas de correos electrónicos o clics, y para aperturas de mensajes push. Para cada perfil de destinatario, las puntuaciones indican la mejor hora de envío para cada día de la semana y qué día es mejor para enviar y obtener los mejores resultados.
 
 * **Puntuación de participación predictiva**: predice la probabilidad de que un destinatario se involucre con un mensaje, así como la probabilidad de exclusión (cancelar la suscripción) en los próximos 7 días después del siguiente envío de correo electrónico. Las probabilidades se dividen además en bloques según el nivel de participación previsto con el contenido: alto, medio o bajo. Estos modelos también proporcionan la clasificación del percentil de riesgo de cancelación de suscripción para que los clientes entiendan dónde está la clasificación de un determinado cliente en relación con otros.
 
@@ -35,9 +35,9 @@ La optimización del tiempo de envío predictivo predice cuál es la mejor hora 
 
 Dentro del modelo de optimización del tiempo de envío predictivo, hay dos submodelos:
 
-* **Tiempo de envío predictivo para apertura** es el mejor momento para enviar una comunicación al cliente para maximizar las aperturas.
+* **El tiempo de envío predictivo de la apertura** es el mejor momento para enviar una comunicación al cliente para maximizar las aperturas.
 
-* **Tiempo de envío predictivo de los clics** es el mejor momento para enviar una comunicación al cliente para maximizar los clics.
+* **El tiempo de envío predictivo de los clics** es el mejor momento para enviar una comunicación al cliente para maximizar los clics
 
 **Entrada de modelo**: registros de envío, registros de seguimiento y atributos de perfil (no PII).
 
@@ -80,7 +80,7 @@ De forma predeterminada, las puntuaciones de perfil proporcionarán la mejor hor
 
 ### Enviar mensajes en el mejor momento{#use-predictive-send-time}
 
-Para que los correos electrónicos se publiquen a una hora óptima para el perfil, el envío debe programarse con la opción **[!UICONTROL Send at a custom date defined by a formula]**.
+Para que los mensajes de correo electrónico se publiquen a una hora óptima para el perfil, el envío debe programarse con la opción **[!UICONTROL Send at a custom date defined by a formula]**.
 
 Obtenga información sobre cómo calcular la fecha de envío [en esta sección](../../sending/using/computing-the-sending-date.md).
 
@@ -110,14 +110,14 @@ Las probabilidades se dividen además en bloques según el nivel de participaci�
 La puntuación de participación predictiva le permite:
 
 * **Seleccionar una audiencia**: mediante la actividad de consulta, puede seleccionar la audiencia para interactuar con un mensaje específico
-* **Excluir una audiencia**: mediante la actividad de consulta, puede eliminar la audiencia que tiene más probabilidades de cancelar la suscripción
-* **Personalizar**: personalice los mensajes en función del nivel de participación (los usuarios con un alto nivel de participación recibirán un mensaje diferente al que reciben los que no participan).
+* **Excluir una audiencia**: mediante la actividad de consulta, puede quitar la audiencia que tiene más probabilidades de cancelar la suscripción
+* **Personalizar**: personalice los mensajes según el nivel de participación (los usuarios con un alto nivel de participación recibirán un mensaje diferente al que reciben los que no participan).
 
 Este modelo utiliza varias puntuaciones para indicar:
 
 * **Puntuación de participación de aperturas/Puntuación de participación de clics**: este valor coincide con la probabilidad de que un suscriptor interactúe con un mensaje específico (lo abra o haga clic). Los valores van del 0,0 al 1,0.
 * **Probabilidad de baja**: este valor coincide con la probabilidad de que el destinatario cancele la suscripción del canal de correo electrónico a partir de un correo electrónico abierto. Los valores van del 0,0 al 1,0.
-* **Nivel de retención**: este valor clasifica a los usuarios en tres niveles: bajo, medio y alto. Es muy probable que el nivel alto permanezca con la marca y que el bajo probablemente cancele la suscripción.
+* **Nivel de retención**: este valor clasifica a los usuarios en tres niveles: baja, media y alta. Es muy probable que el nivel alto permanezca con la marca y que el bajo probablemente cancele la suscripción.
 * **Clasificación del percentil de retención**: clasificación de perfiles en términos de las probabilidades de baja. Los valores van del 0,0 al 1,0. Por ejemplo: si la clasificación del porcentaje de retención es de 0,953, es más probable que este destinatario permanezca con la marca y tenga menos probabilidades de cancelar la suscripción que el 95,3% de todos los destinatarios.
 
 >[!NOTE]

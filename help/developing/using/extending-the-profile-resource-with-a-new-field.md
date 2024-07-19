@@ -27,7 +27,7 @@ Para ello, siga los pasos a continuación:
 
 * [Paso 1: Ampliación del recurso de perfil](#step-1--extend-the-profile-resource)
 * [Paso 2: Ampliación del perfil de prueba](#step-2--extend-the-test-profile)
-* [Paso 3: Publicar el recurso personalizado](#step-3--publish-your-custom-resource)
+* [Paso 3: Publish como recurso personalizado](#step-3--publish-your-custom-resource)
 * [Paso 4: Actualización y definición de perfiles con un flujo de trabajo](#step-4--update-and-target-profiles-with-a-workflow)
 
 A continuación, se añadirá el siguiente campo a nuestros perfiles, que se puede definir como objetivo en un envío:
@@ -119,7 +119,7 @@ Para comprobar si el nuevo campo creado está correctamente configurado, puede p
 
 Tanto los perfiles como los perfiles de prueba tendrán ahora su nuevo campo disponible. Para que todo esté correctamente configurado, debe publicar el recurso personalizado.
 
-## Paso 3: Publicar el recurso personalizado {#step-3--publish-your-custom-resource}
+## Paso 3: Publish como recurso personalizado {#step-3--publish-your-custom-resource}
 
 Para aplicar los cambios realizados en los recursos y poder utilizarlos, debe actualizar la base de datos.
 

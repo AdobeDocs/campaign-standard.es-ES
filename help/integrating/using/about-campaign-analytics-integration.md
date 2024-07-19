@@ -28,10 +28,10 @@ Esto funcionará creando primero una cuenta externa vinculada a Adobe Analytics.
 
 Esta integración solo está disponible para envíos de correo electrónico.
 
-Integración entre los servicios principales de Adobe Analytics **Déclencheur** y Adobe Campaign también está disponible. Permite enviar correos electrónicos personalizados a sus clientes como reacción a los comportamientos específicos rastreados en el sitio web mediante Adobe Analytics (en 15 minutos).
+También está disponible una integración entre el servicio principal de Adobe Analytics **Déclencheur** y Adobe Campaign. Permite enviar correos electrónicos personalizados a sus clientes como reacción a los comportamientos específicos rastreados en el sitio web mediante Adobe Analytics (en 15 minutos).
 
 **Temas relacionados:**
 
-* [Información general sobre la integración de Campaign Standard con Analytics](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html)
-* [Configuración de la integración de Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
+* [Información general sobre la integración de Campaign Standard a Analytics](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html)
+* [Configuración de la integración del Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
 * [Dimensiones y métricas de Campaign en Analytics](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)

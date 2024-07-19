@@ -18,8 +18,8 @@ ht-degree: 3%
 
 # Bajas{#unsubscriptions}
 
-El **[!UICONTROL Unsubscriptions]** identifica los envíos con la mayor cantidad de bajas.
+El informe **[!UICONTROL Unsubscriptions]** identifica los envíos con la mayor cantidad de bajas.
 
 ![](assets/delivery_reports_unsub.png)
 
-El **[!UICONTROL TOP 5 deliveries]** la tabla y el gráfico muestran los cinco envíos principales con la mayor cantidad de mensajes enviados y la cantidad de destinatarios que se han dado de baja. Los datos enumerados aquí se basan en el número de clics en el vínculo de baja del mensaje.
+La tabla y el gráfico **[!UICONTROL TOP 5 deliveries]** muestran los cinco envíos principales con la mayor cantidad de mensajes enviados y la cantidad de destinatarios que han cancelado la suscripción. Los datos enumerados aquí se basan en el número de clics en el vínculo de baja del mensaje.

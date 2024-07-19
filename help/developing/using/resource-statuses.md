@@ -19,23 +19,23 @@ ht-degree: 1%
 
 Según su estado de publicación o activación, los recursos pueden tener diferentes estados.
 
-Hay dos columnas dedicadas a mostrar estos estados en la variable **[!UICONTROL Custom resources]** pantalla.
+Hay dos columnas dedicadas a mostrar estos estados en la pantalla **[!UICONTROL Custom resources]**.
 
 ![](assets/schema_colonne_1.png)
 
 **Estados de publicación**
 
-* **Borrador**: el recurso acaba de crearse o de volverse a redactar. Para crear las tablas de base de datos y las API correspondientes, el recurso debe volver a publicarse. Si se vuelve a redactar un recurso, queda inactivo automáticamente después del paso de publicación.
-* **Nueva redacción pendiente**: el recurso se ha vuelto a redactar. El proceso de nuevo borrador se producirá durante la siguiente publicación. La nueva redacción es irreversible. Se muestran varios mensajes de advertencia para informar al usuario, tanto al volver a redactar como al prepararse para publicar.
+* **Borrador**: el recurso acaba de ser creado o vuelto a redactar. Para crear las tablas de base de datos y las API correspondientes, el recurso debe volver a publicarse. Si se vuelve a redactar un recurso, queda inactivo automáticamente después del paso de publicación.
+* **Borrador pendiente**: el recurso se ha vuelto a redactar. El proceso de nuevo borrador se producirá durante la siguiente publicación. La nueva redacción es irreversible. Se muestran varios mensajes de advertencia para informar al usuario, tanto al volver a redactar como al prepararse para publicar.
 
-  Para obtener más información sobre la nueva redacción, consulte [Eliminación de un recurso](../../developing/using/deleting-a-resource.md).
+  Para obtener más información sobre cómo volver a redactar, consulte [Eliminación de un recurso](../../developing/using/deleting-a-resource.md).
 
   >[!NOTE]
   >
-  >El **[!UICONTROL Cancel re-draft]** está disponible cuando el recurso que desea volver a redactar aún contiene vínculos a través de otros recursos con el estado &quot;Publicado&quot;. Esta opción le permite revertir el proceso de &quot;nuevo borrador&quot;. Los recursos personalizados vuelven a su estado original.
+  >La opción **[!UICONTROL Cancel re-draft]** está disponible cuando el recurso que desea volver a redactar aún contiene vínculos a través de otros recursos con el estado &quot;Publicado&quot;. Esta opción le permite revertir el proceso de &quot;nuevo borrador&quot;. Los recursos personalizados vuelven a su estado original.
 
-* **Publicado**: se ha publicado el recurso. Si el recurso se modifica después de la última fecha de modificación, se muestra un mensaje para invitarle a volver a publicar el recurso a fin de tener en cuenta las últimas modificaciones.
+* **Publicado**: el recurso se ha publicado. Si el recurso se modifica después de la última fecha de modificación, se muestra un mensaje para invitarle a volver a publicar el recurso a fin de tener en cuenta las últimas modificaciones.
 
-El **[!UICONTROL Do not publish latest modifications]** Este campo evita que las modificaciones se tengan en cuenta en futuras publicaciones.
+El campo **[!UICONTROL Do not publish latest modifications]** evita que se tengan en cuenta las modificaciones durante futuras publicaciones.
 
 Este campo se puede configurar en la definición de recurso personalizada.

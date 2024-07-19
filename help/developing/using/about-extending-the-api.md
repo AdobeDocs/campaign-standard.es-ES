@@ -21,12 +21,12 @@ Este caso de uso detalla la exposición de los campos ampliados para el recurso 
 
 >[!NOTE]
 >
->Para publicar la API, asegúrese de que dispone de lo siguiente **[!UICONTROL Datamodel]** función.
+>Para publicar la API, asegúrese de que tiene el rol **[!UICONTROL Datamodel]**.
 
 Los pasos para exponer los campos extendidos en la API pública son los siguientes:
 
 1. [Añadir los campos de extensión al recurso de perfil](../../developing/using/step-1-add-extension-fields-to-the-profile-resource.md)
-1. [Publicación de la extensión](../../developing/using/step-2-publish-the-extension.md)
+1. [Publish la extensión de](../../developing/using/step-2-publish-the-extension.md)
 1. [Compruebe que los nuevos campos ampliados estén disponibles en la API](../../developing/using/step-3-verify-the-extension.md)
 
 **Temas relacionados:**

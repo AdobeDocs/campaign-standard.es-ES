@@ -43,7 +43,7 @@ Por ejemplo, el flujo de trabajo siguiente descarga diariamente el archivo desde
 
 ![](assets/rtcdp-workflow.png)
 
-Hay ejemplos de flujos de trabajo de gestión de datos disponibles en la [casos de uso de flujos de trabajo](../../automating/using/about-workflow-use-cases.md#management) sección.
+Hay ejemplos de flujos de trabajo de administración de datos disponibles en la sección [casos de uso de flujos de trabajo](../../automating/using/about-workflow-use-cases.md#management).
 
 Temas relacionados:
 

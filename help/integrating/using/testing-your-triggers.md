@@ -21,15 +21,15 @@ Las siguientes sugerencias para la resolución de problemas le ayudan a solucion
 
 **¿Está activada la funcionalidad?**
 
-Para comprobar si la integración Déclencheur - Campaign está activada, haga clic en el logotipo de Adobe Campaign, en la esquina superior izquierda, y seleccione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**. Debería ver el **[!UICONTROL Experience Cloud Triggers]** elemento.
+Para comprobar si la integración Déclencheur - Campaign está activada, haga clic en el logotipo de Adobe Campaign, en la esquina superior izquierda, y luego seleccione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**. Debería ver el elemento **[!UICONTROL Experience Cloud Triggers]**.
 
 Si lo ve, continúe con el siguiente paso.
 
-Si no es así, póngase en contacto con su administrador de cuentas de Adobe o con su socio de servicios profesionales. Consulte [Activación de la funcionalidad](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality).
+Si no es así, póngase en contacto con su administrador de cuentas de Adobe o con su socio de servicios profesionales. Consulte [Activar la funcionalidad](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality).
 
 **Intente crear un déclencheur**
 
-Siga los pasos descritos en [Creación de un déclencheur asignado en Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) para crear un déclencheur.
+Siga los pasos que se describen en [Creación de un déclencheur asignado en Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) para crear un déclencheur.
 
 Si se crea el déclencheur, continúe con el paso siguiente. Si no es así, significa que la conexión de punto final de déclencheur ha fallado. Compruebe si Déclencheur está aprovisionado en Experience Cloud (servicios de activación). Si no es así, póngase en contacto con su administrador de cuentas de Adobe o con su socio de servicios profesionales. Se requiere la siguiente información:
 
@@ -39,7 +39,7 @@ Si se crea el déclencheur, continúe con el paso siguiente. Si no es así, sign
 
 **Intente publicar el déclencheur**
 
-Siga los pasos descritos en [Creación de un déclencheur asignado en Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) para publicar el déclencheur.
+Siga los pasos que se describen en [Creación de un déclencheur asignado en Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) para publicar el déclencheur.
 
 Si la publicación se ha realizado correctamente, continúe con el paso siguiente. Si no es así, póngase en contacto con el Adobe de para reiniciar la instancia e inténtelo de nuevo.
 
@@ -53,7 +53,7 @@ Si Analytics recibe el déclencheur, continúe con el paso siguiente. Si no es a
 * El sitio web utilizado por MCID y Analytics está habilitado en DTM
 * Se utiliza el grupo de informes correcto de Analytics al crear déclencheur
 
-**¿El déclencheur se recibe en Campaign?**
+**¿El déclencheur se ha recibido en Campaign?**
 
 Si no es así, compruebe si el déclencheur se recibe de la canalización.
 

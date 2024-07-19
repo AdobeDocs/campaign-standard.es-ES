@@ -40,7 +40,7 @@ Puede abrir transiciones para comprobar que los datos enviados son correctos dur
 
 Puede crear un flujo de trabajo desde un programa, una campaña o la lista de actividad de marketing.
 
-![](assets/do-not-localize/how-to-video.png) [Descubra cómo crear un flujo de trabajo con este vídeo](#video)
+![](assets/do-not-localize/how-to-video.png) [Descubra cómo crear un flujo de trabajo en vídeo](#video)
 
 La creación de una actividad de marketing se detalla en la sección [Creación de actividades de marketing](../../start/using/marketing-activities.md#creating-a-marketing-activity).
 
@@ -68,7 +68,7 @@ La creación de una actividad de marketing se detalla en la sección [Creación 
 
 1. Confirme la creación de la actividad y, entonces, se mostrará el panel de dicha actividad. Para obtener más información, consulte la sección [Interfaz de flujo de trabajo](../../automating/using/workflow-interface.md).
 
-1. Cuando el flujo de trabajo esté listo para configurarse, puede acceder a opciones adicionales haciendo clic en **[!UICONTROL Edit properties]** botón.
+1. Una vez que el flujo de trabajo esté listo para configurarse, puede acceder a opciones adicionales haciendo clic en el botón **[!UICONTROL Edit properties]**.
 
    Por ejemplo, puede definir un huso horario específico para utilizarlo de forma predeterminada en todas las actividades del flujo de trabajo. De forma predeterminada, el uso horario del flujo de trabajo es la definida para el operador de Campaign actual.
 
@@ -137,4 +137,4 @@ Este vídeo muestra cómo crear un flujo de trabajo.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
-Hay disponibles más vídeos de procedimientos para el Campaign Standard [aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
+Hay disponibles [más vídeos de procedimientos para el Campaign Standard aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).

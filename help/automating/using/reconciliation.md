@@ -42,9 +42,9 @@ La actividad **[!UICONTROL Reconciliation]** se utiliza esencialmente con fines 
 
   Por ejemplo, puede guardar una audiencia, actualizar la base de datos, etc.
 
-Por ejemplo, la variable **[!UICONTROL Reconciliation]** la actividad se puede colocar después de una actividad de datos de carga para importar datos no estándar en la base de datos.
+Por ejemplo, la actividad **[!UICONTROL Reconciliation]** se puede colocar después de una actividad de datos de carga para importar datos no estándar en la base de datos.
 
-Mientras que el **Enriquecimiento** La actividad de le permite definir datos adicionales para procesarlos en el flujo de trabajo (utilice un **Enriquecimiento** actividad para combinar datos procedentes de varios conjuntos o para crear vínculos a un recurso temporal), **Reconciliación** La actividad le permite vincular datos no identificados a recursos existentes. La operación de reconciliación implica que los datos de las dimensiones vinculadas ya están en la base de datos. Los casos de uso están disponibles en [esta sección](#use-cases-reconciliation).
+Aunque la actividad **Enrichment** le permite definir datos adicionales para procesarlos en el flujo de trabajo (use una actividad **Enrichment** para combinar datos procedentes de varios conjuntos o para crear vínculos a un recurso temporal), la actividad **Reconciliation** le permite vincular datos no identificados a recursos existentes. La operación de reconciliación implica que los datos de las dimensiones vinculadas ya están en la base de datos. Los casos de uso están disponibles en [esta sección](#use-cases-reconciliation).
 
 
 ## Configuración {#configuration}

@@ -58,9 +58,9 @@ Los pasos para crear un mensaje independiente en la aplicación con Adobe Campai
    * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**
    * **[!UICONTROL Target users based on their Mobile profile (inApp)]**
 
-1. Introduzca las propiedades de los mensajes en la aplicación y seleccione su aplicación móvil en la **[!UICONTROL Associate a Mobile App to a delivery]** field.
+1. Introduzca las propiedades de los mensajes en la aplicación y seleccione su aplicación móvil en el campo **[!UICONTROL Associate a Mobile App to a delivery]**.
 
-   Si no ve ninguna aplicación en la lista desplegable, asegúrese de que las aplicaciones móviles se encuentren en un **Configurado** estado. Aplicaciones en una **Listo para configurar** El estado de no aparecerá en la lista. Para obtener más información sobre la configuración de la aplicación móvil, consulte esta [página](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
+   Si no ve ninguna aplicación en la lista desplegable, asegúrese de que sus aplicaciones móviles tengan el estado **Configurado**. Las aplicaciones con un estado **Listo para configurar** no aparecerán en la lista. Para obtener más información sobre la configuración de la aplicación móvil, consulte esta [página](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
    ![](assets/inapp_creating_3.png)
 
@@ -92,7 +92,7 @@ Los pasos para crear un mensaje independiente en la aplicación con Adobe Campai
 
    ![](assets/inapp_creating_4.png)
 
-1. Si utiliza un **[!UICONTROL Analytics Events]** Los eventos de estado, Adobe Analytics y Vista se rellenarán automáticamente en función de los grupos de informes configurados en la extensión de Analytics en la IU de recopilación de datos, mientras que los eventos de datos de contexto deben agregarse manualmente.
+1. Si usa un **[!UICONTROL Analytics Events]**, los eventos de estado de vista y Adobe Analytics se rellenarán automáticamente en función de los grupos de informes configurados en la extensión de Analytics en la IU de recopilación de datos, mientras que los eventos de datos de contexto deben agregarse manualmente.
 
    Tenga en cuenta que estos eventos solo están disponibles si dispone de una licencia de Adobe Analytics.
 
@@ -163,7 +163,7 @@ Una vez que haya terminado de preparar la entrega y se hayan realizado los pasos
 
 1. Después de enviar los mensajes en la aplicación, puede optar por desactivar la entrega. Esto puede resultar útil si desea detener una entrega en particular o si desea ejecutar una nueva entrega con el mismo déclencheur, por ejemplo.
 
-   Clic **[!UICONTROL Deactivate]** entonces **[!UICONTROL Ok]** para iniciar la solicitud de desactivación.
+   Haga clic en **[!UICONTROL Deactivate]** y luego en **[!UICONTROL Ok]** para iniciar la solicitud de desactivación.
 
    ![](assets/inapp_sending_8.png)
 

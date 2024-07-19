@@ -26,7 +26,7 @@ ht-degree: 2%
 
 ## Acceso a las audiencias de Adobe Experience Platform
 
-Para acceder al Generador de segmentos de Adobe Experience Platform, vaya a **[!UICONTROL Audiences]** en la página de inicio del Campaign Standard (o en la **[!UICONTROL Audiences]** en el encabezado) y, a continuación, **[!UICONTROL Adobe Experience Platform]** entorno.
+Para acceder al generador de segmentos de Adobe Experience Platform, vaya a la tarjeta **[!UICONTROL Audiences]** en la página de inicio del Campaign Standard (o al vínculo **[!UICONTROL Audiences]** en el encabezado) y, a continuación, seleccione el entorno **[!UICONTROL Adobe Experience Platform]**.
 
 ![](assets/aep_audiences_access.png)
 
@@ -40,7 +40,7 @@ Hay disponibles una barra de búsqueda y un filtro para ayudarle a encontrar el 
 
 Para crear una audiencia de Adobe Experience Platform directamente en Campaign Standard, siga estos pasos:
 
-1. En la página de lista de segmentos de Adobe Experience Platform, haga clic en **[!UICONTROL New audience]** situado en la esquina derecha.
+1. En la página de lista de segmentos de Adobe Experience Platform, haga clic en el botón **[!UICONTROL New audience]** ubicado en la esquina derecha.
 
    ![](assets/aep_audiences_creation_create.png)
 
@@ -50,24 +50,24 @@ Para crear una audiencia de Adobe Experience Platform directamente en Campaign S
 
    ![](assets/aep_audiences_creation_edit_name.png)
 
-1. Para crear correctamente un segmento, debe seleccionar una **política de combinación** que coincida con su propósito de marketing para este segmento.
+1. Para crear correctamente un segmento, debe seleccionar una **política de combinación** que coincida con el propósito de marketing para este segmento.
 
-   En el panel de configuración, se selecciona una política de combinación predeterminada de Platform. Para obtener más información sobre las políticas de combinación, consulte la sección dedicada de la [Guía del usuario del Generador de segmentos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+   En el panel de configuración, se selecciona una política de combinación predeterminada de Platform. Para obtener más información sobre las políticas de combinación, consulte la sección dedicada de la [guía del usuario del Generador de segmentos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
 1. Defina las reglas que identificarán los perfiles que se recuperarán en la audiencia.
 
-   Para ello, arrastre los atributos o eventos deseados del panel izquierdo al espacio de trabajo, defina las reglas correspondientes y haga clic en **[!UICONTROL Create segment]** para guardar el segmento (consulte [Uso del Generador de segmentos](../../integrating/using/aep-using-segment-builder.md)).
+   Para ello, arrastre los atributos o eventos deseados del panel izquierdo al espacio de trabajo, defina las reglas correspondientes y haga clic en el botón **[!UICONTROL Create segment]** para guardar el segmento (consulte [Uso del Generador de segmentos](../../integrating/using/aep-using-segment-builder.md)).
 
    ![](assets/aep_audiences_creation_query.png)
 
-La audiencia ya está lista para activarse y puede utilizarla como objetivo para sus campañas (consulte [Segmentación de audiencias de Adobe Experience Platform](../../integrating/using/aep-targeting-audiences.md)).
+La audiencia ya está lista para activarse. Puede usarla como objetivo para sus campañas (consulte [Segmentación de audiencias de Adobe Experience Platform](../../integrating/using/aep-targeting-audiences.md)).
 
 ## Edición de audiencias
 
 Para editar una audiencia, ábrala y modifique las reglas según sea necesario en la interfaz del Generador de segmentos (consulte [Uso del Generador de segmentos](../../integrating/using/aep-using-segment-builder.md)).
 
-Una vez completados los cambios, haga clic en el **[!UICONTROL Save segment]** para actualizar la audiencia.
+Una vez completados los cambios, haga clic en el botón **[!UICONTROL Save segment]** para actualizar la audiencia.
 
 ![](assets/aep_audiences_editing.png)

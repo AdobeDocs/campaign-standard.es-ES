@@ -543,7 +543,7 @@ Por audiencia estática (byStaticAudience)
 <th>Tipo</th>
 </tr>
 <tr>
-<td>destinatarios</td>
+<td>público</td>
 <td>vincular</td>
 </tr>
 </table>

@@ -17,14 +17,14 @@ ht-degree: 0%
 
 # Declaración de los parámetros en la actividad Señal externa {#declaring-the-parameters-in-the-external-signal-activity}
 
-El primer paso para llamar a un flujo de trabajo con parámetros es declararlos en un **[!UICONTROL External signal]** actividad.
+El primer paso para llamar a un flujo de trabajo con parámetros es declararlos en una actividad **[!UICONTROL External signal]**.
 
-1. Abra el **[!UICONTROL External signal]** actividad, luego seleccione la **[!UICONTROL Parameters]** pestaña.
-1. Haga clic en **[!UICONTROL Create element]** y, a continuación, especifique el nombre y el tipo de cada parámetro.
+1. Abra la actividad **[!UICONTROL External signal]** y seleccione la pestaña **[!UICONTROL Parameters]**.
+1. Haga clic en el botón **[!UICONTROL Create element]** y, a continuación, especifique el nombre y el tipo de cada parámetro.
 
    >[!CAUTION]
    >
-   >Asegúrese de que el nombre y el número de parámetros son idénticos a los definidos al invocar al flujo de trabajo (consulte [esta página](../../automating/using/defining-parameters-calling-workflow.md)). Además, los tipos de parámetros deben ser coherentes con los valores esperados.
+   >Asegúrese de que el nombre y el número de parámetros son idénticos a los definidos al llamar al flujo de trabajo (consulte [esta página](../../automating/using/defining-parameters-calling-workflow.md)). Además, los tipos de parámetros deben ser coherentes con los valores esperados.
 
    ![](assets/extsignal_declaringparameters_1.png)
 

@@ -17,12 +17,12 @@ ht-degree: 10%
 
 # Actualización de las entidades organizativas de un perfil {#managing-organizational-units}
 
-1. Realice una solicitud de GET en **orgUnitBase** recurso para recuperar la clave clave de la unidad organizativa
+1. Realice una solicitud de GET en el recurso **orgUnitBase** para recuperar la clave principal de la unidad organizativa
 1. Realice una solicitud del PATCH en la clave principal del perfil, con la clave principal de la unidad organizativa deseada en la carga útil.
 
 <br/>
 
-***Solicitud de ejemplo***
+***Solicitud de muestra***
 
 Recupere la lista de unidades organizativas.
 

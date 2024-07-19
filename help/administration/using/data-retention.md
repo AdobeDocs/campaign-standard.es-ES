@@ -34,26 +34,26 @@ A continuación se muestran los períodos de retención predeterminados para las
 * **Entidades temporales**: 7 días
 * **Eventos de mapa ignorados**: 1 mes
 * **Alertas de envío**: 1 mes
-* **Exportar auditoría**: 6 meses (recomendado: 1 mes)
+* **Auditoría de exportación**: 6 meses (recomendado: 1 mes)
 
 ## Período de retención para envíos {#deliveries}
 
 De forma predeterminada, el período de retención de envíos es ilimitado.
 
-Sin embargo, si hay un gran volumen de envíos en su instancia, puede actualizar el **NmsCleanup_DeliveryPurgeDelay** opción disponible en el **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** menú.
+Sin embargo, si hay un gran volumen de envíos en su instancia, puede actualizar la opción **NmsCleanup_DeliveryPurgeDelay** disponible en el menú **[!UICONTROL Administration]** > **[!UICONTROL Application settings]**.
 
-Cada vez que **[!UICONTROL Database cleanup]** Cuando se ejecute el flujo de trabajo, se eliminarán los envíos que cumplan las condiciones establecidas para esta opción.
+Cada vez que se ejecute el flujo de trabajo **[!UICONTROL Database cleanup]**, se eliminarán los envíos que cumplan las condiciones establecidas para esta opción.
 
-Esta acción puede ayudar a acelerar procesos como el **[!UICONTROL Copy headers from delivery templates]** flujo de trabajo.
+Esta acción puede ayudar a acelerar procesos como el flujo de trabajo **[!UICONTROL Copy headers from delivery templates]**.
 
 >[!NOTE]
 >
->Obtenga más información sobre flujos de trabajo técnicos en [esta sección](technical-workflows.md).
+>Obtenga más información sobre los flujos de trabajo técnicos en [esta sección](technical-workflows.md).
 
 
-El valor predeterminado para **NmsCleanup_DeliveryPurgeDelay** La opción es `-1`. En este caso, no se elimina ninguna entrega.
+El valor predeterminado de la opción **NmsCleanup_DeliveryPurgeDelay** es `-1`. En este caso, no se elimina ninguna entrega.
 
-Por ejemplo, si lo establece en `180`, cualquier envío que no sea de plantilla y que no se haya actualizado en los últimos 180 días se eliminará cuando el **[!UICONTROL Database cleanup]** flujo de trabajo de se ejecuta.
+Por ejemplo, si lo establece en `180`, los envíos que no sean de plantilla y que no se hayan actualizado en los últimos 180 días se eliminarán cuando se ejecute el flujo de trabajo **[!UICONTROL Database cleanup]**.
 
 >[!NOTE]
 >
@@ -61,5 +61,5 @@ Por ejemplo, si lo establece en `180`, cualquier envío que no sea de plantilla 
 >
 >* En el caso de las entregas recurrentes, no se eliminan las entregas secundarias con un periodo de acumulación establecido como mes o año.
 
-Al actualizar el **NmsCleanup_DeliveryPurgeDelay** , se recomienda continuar gradualmente con varias iteraciones. Por ejemplo, puede empezar estableciendo el valor en 300 días, luego en 180 días, luego en 120 días, etc., asegurándose de que las iteraciones se produzcan al menos con una diferencia de 2 días. De lo contrario, la variable **[!UICONTROL Database cleanup]** el flujo de trabajo puede tardar mucho más debido al gran número de envíos que se pueden eliminar.
+Al actualizar la opción **NmsCleanup_DeliveryPurgeDelay**, se recomienda continuar gradualmente con varias iteraciones. Por ejemplo, puede empezar estableciendo el valor en 300 días, luego en 180 días, luego en 120 días, etc., asegurándose de que las iteraciones se produzcan al menos con una diferencia de 2 días. De lo contrario, el flujo de trabajo **[!UICONTROL Database cleanup]** puede tardar mucho más debido al gran número de envíos que se van a eliminar.
 

@@ -23,7 +23,7 @@ Consulte los siguientes recursos:
 
 * [Tutorials de vídeo](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html)
 * [Publicación de blog](https://theblog.adobe.com/get-more-out-of-the-new-in-app-message-channel-from-adobe-campaign/)
-* [Página de comunidad](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+* [Página de la comunidad](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ## ¿Cuál es el propósito de las API de extensiones de Campaign setLinkageField y resetLinkageField? {#extensions-apis}
 
@@ -38,15 +38,15 @@ Dado que el SDK extrae los mensajes en la aplicación de Campaign, queremos prop
 
 ## ¿Qué tengo que hacer para habilitar la creación de informes en la aplicación en Campaign? {#enable-inapp-reporting}
 
-Debe configurar el postback de seguimiento en la aplicación. Se pueden encontrar las instrucciones [aquí](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback).
+Debe configurar el postback de seguimiento en la aplicación. Encontrará instrucciones [aquí](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback).
 
-Para implementar el seguimiento de notificaciones locales, consulte esto [página](../../administration/using/local-tracking.md).
+Para implementar el seguimiento de notificaciones locales, consulte esta [página](../../administration/using/local-tracking.md).
 
 ## ¿Qué informes están disponibles para el canal en la aplicación? {#report-inapp}
 
-Hay disponible un informe predeterminado en Adobe Campaign para el canal en la aplicación. Consulte esta sección [documentación](../../reporting/using/in-app-report.md).
+Hay disponible un informe predeterminado en Adobe Campaign para el canal en la aplicación. Consulte esta [documentación](../../reporting/using/in-app-report.md).
 
-Ver esto [página](../../reporting/using/indicator-calculation.md#in-app-delivery) para comprender cómo se calcula cada métrica en la aplicación.
+Consulte esta [página](../../reporting/using/indicator-calculation.md#in-app-delivery) para comprender cómo se calcula cada métrica en la aplicación.
 
 ## ¿Admite variantes de contenido multilingüe para aplicaciones similares a push? {#multilingual-inapp}
 
@@ -73,7 +73,7 @@ Para el sonido personalizado en iOS, debe proporcionar un nombre de archivo con 
 Sí, los vínculos profundos son compatibles con los mensajes en la aplicación. Los vínculos profundos deben incluir:
 
 * idioma que indica que el seguimiento de la entrega debe deshabilitarse para que funcionen los vínculos profundos.
-* Folleto de aplicaciones con Branch como socios que pueden realizar el seguimiento de vínculos profundos. Para obtener más información sobre la integración de Rama y Adobe Campaign Standard, consulte esta sección [página](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
+* Folleto de aplicaciones con Branch como socios que pueden realizar el seguimiento de vínculos profundos. Para obtener más información sobre la integración de ramas y Adobe Campaign Standard, consulte esta [página](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
 
 ## ¿Se puede activar un mensaje en la aplicación cuando el usuario inicia la aplicación desde una notificación push? {#inapp-push-trigger}
 

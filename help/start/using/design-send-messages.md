@@ -71,18 +71,18 @@ Obtenga la atención de sus clientes y mejore su tasa de respuesta mediante el u
 
 Los mensajes personalizados son esenciales para enviar contenido relevante, ofrecer experiencias personalizadas y aumentar las tasas de apertura y conversión. Los mensajes multicanal enviados por Adobe Campaign se pueden personalizar de varias formas diferentes. Estas formas se pueden combinar con criterios según los perfiles. Puede hacer lo siguiente:
 
-* Insertar [campos de personalización dinámicos](../../designing/using/personalization.md#inserting-a-personalization-field) en los mensajes
+* Inserte [campos de personalización dinámicos](../../designing/using/personalization.md#inserting-a-personalization-field) en sus mensajes
 * Insertar [bloques de personalización predefinidos](../../designing/using/personalization.md#adding-a-content-block)
-* [Personalización del remitente](../../designing/using/subject-line.md) de un correo electrónico o un SMS
-* [Personalización de la línea de asunto](../../designing/using/subject-line.md) de un correo electrónico
+* [Personalizar el remitente](../../designing/using/subject-line.md) de un correo electrónico o un SMS
+* [Personalizar la línea de asunto](../../designing/using/subject-line.md) de un correo electrónico
 * Crear [contenido condicional en un correo electrónico](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) o [en una página de aterrizaje](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
-* Insertar [Texto dinámico](../../channels/using/defining-dynamic-text.md) en un mensaje SMS o una notificación push
+* Insertar [texto dinámico](../../channels/using/defining-dynamic-text.md) en un mensaje SMS o una notificación push
 
 ![](assets/delivery_content_43.png)
 
 **Más información**
 
-* Descubra la personalización de correo electrónico mediante una [muestra de extremo a extremo](../../designing/using/personalization.md#example-email-personalization)
+* Descubra la personalización del correo electrónico mediante una [muestra completa](../../designing/using/personalization.md#example-email-personalization)
 * [Personalización de direcciones URL](../../designing/using/personalization.md#personalizing-urls)
 * [Configuración de la personalización de una imagen](../../designing/using/personalization.md#personalizing-an-image-source)
 

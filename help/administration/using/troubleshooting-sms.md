@@ -103,7 +103,7 @@ Para solucionar los problemas de estabilidad de la conexión:
 
 * Realizar una captura de red es, a veces, la única manera de ver cómo se cierra la conexión.
 
-* Si el proveedor cierra las conexiones enviando un `TCP FIN` o una `TCP RST` packet, pida más información a su proveedor.
+* Si el proveedor cierra las conexiones enviando un paquete `TCP FIN` o `TCP RST`, pida más información a su proveedor.
 
 * Si el proveedor cierra la conexión después de enviar un error limpio como `DELIVER_SM_RESP` con un código de error, deberá corregir su conector, de lo contrario eso impedirá que se transmitan otros tipos de mensajes y activará la limitación de MTA. Esto es especialmente importante en el modo transceptor, donde el cierre de la conexión afecta tanto a MT como SR.
 
@@ -153,9 +153,9 @@ Si el `DELIVER_SM PDU` no se reconoce correctamente, debe comprobar lo siguiente
 
 * Compruebe que los errores están correctamente registrados en la tabla `broadLogMsg`.
 
-* Para Adobe Campaign Standard, marque `broadLog` y `broadLogExec` Las tablas de se sincronizan correctamente.
+* Para Adobe Campaign Standard, compruebe que las tablas `broadLog` y `broadLogExec` estén sincronizadas correctamente.
 
-Si ha corregido todo, pero algunos SR no válidos siguen en los búferes del proveedor, puede omitirlos utilizando **Recuento de confirmación de ID no válido** opción. Debe utilizarse con cuidado y restablecerse a 0 lo antes posible después de que los búferes estén limpios.
+Si ha corregido todo, pero algunos SR no válidos siguen en los búferes del proveedor, puede omitirlos con la opción **Recuento de confirmación de ID no válido**. Debe utilizarse con cuidado y restablecerse a 0 lo antes posible después de que los búferes estén limpios.
 
 ## Problema al procesar MO (y lista de bloqueados/respuesta automática de la){#issue-process-MO}
 
@@ -267,10 +267,10 @@ El nuevo conector admite el registro extendido mediante seguimientos: SMPP. Los 
 
 **Activación por cuenta externa (método preferido)**
 
-1. En el **Cuenta externa**, seleccione **Habilite seguimientos detallados del SMPP en el archivo de registro**.
+1. En la **Cuenta externa**, seleccione **Habilitar los seguimientos detallados del SMPP en el archivo de registro**.
 1. Guardar, el conector se volverá a conectar con los seguimientos activados.
 
-**Activación sobre la marcha**
+**Habilitando sobre la marcha**
 
 El MTA de Adobe Campaign Standard tiene una interfaz de control HTTP que permite cambiar el filtro de seguimiento sobre la marcha.
 Una llamada al POST puede habilitar o deshabilitar los seguimientos. Ejemplo de URL para habilitar los seguimientos del SMPP:

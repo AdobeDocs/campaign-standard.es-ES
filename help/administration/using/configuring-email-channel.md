@@ -31,8 +31,8 @@ La pantalla de configuración de correo electrónico le permite definir los par�
 
    * Adobe configura las direcciones del remitente y de error. Estos campos no pueden estar vacíos.
    * No puede editar esos campos. Para actualizar una dirección, póngase en contacto con el equipo de Atención al cliente de Adobe.
-   * Para agregar otra dirección, puede utilizar [Panel de control de Campaign de campaña](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=es) para configurar un nuevo subdominio o póngase en contacto con el equipo de atención al cliente de Adobe. Tenga en cuenta que si se utilizan varias máscaras, se separan con comas.
-   * Se recomienda configurar las direcciones con un asterisco como **@yourdomain.com**: permite utilizar cualquier dirección que termine con el nombre de subdominio.
+   * Para agregar otra dirección, puede usar [Panel de control de Campaign de campaña](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=es) para configurar un nuevo subdominio o ponerse en contacto con el equipo de atención al cliente de Adobe. Tenga en cuenta que si se utilizan varias máscaras, se separan con comas.
+   * Se recomienda configurar las direcciones con un asterisco como **@yourdomain.com**, de modo que pueda usar cualquier dirección que termine con su nombre de subdominio.
 
 * **Capacidad de entrega**
 
@@ -43,7 +43,7 @@ La pantalla de configuración de correo electrónico le permite definir los par�
 
   Adobe Campaign envía los mensajes a partir de la fecha de inicio.
 
-  Cuando un mensaje de una entrega se rechaza debido a un error temporal o a una devolución del mensaje, Campaign vuelve a intentar enviar este mensaje todos los días. Utilice el **[!UICONTROL Message delivery duration]** para especificar el periodo de tiempo durante los reintentos.
+  Cuando un mensaje de una entrega se rechaza debido a un error temporal o a una devolución del mensaje, Campaign vuelve a intentar enviar este mensaje todos los días. Utilice el campo **[!UICONTROL Message delivery duration]** para especificar el intervalo de tiempo durante los reintentos.
 
   >[!IMPORTANT]
   >
@@ -57,7 +57,7 @@ La pantalla de configuración de correo electrónico le permite definir los par�
 
   >[!IMPORTANT]
   >
-  >El número máximo de reintentos que se deben realizar y el retraso mínimo entre reintentos ahora se basan en el rendimiento histórico y actual de una IP en un dominio determinado. El **[!UICONTROL Retry period]** y **[!UICONTROL Number of retries]** La configuración de Campaign se ignorará.
+  >El número máximo de reintentos que se deben realizar y el retraso mínimo entre reintentos ahora se basan en el rendimiento histórico y actual de una IP en un dominio determinado. Se omitirá la configuración de **[!UICONTROL Retry period]** y **[!UICONTROL Number of retries]** en Campaign.
 
   <!--This section indicates how many retries should be performed the day after the send is started (**Number of retries**) and the minimum delay between retries (**Retry period**). By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.-->
 
@@ -65,7 +65,7 @@ La pantalla de configuración de correo electrónico le permite definir los par�
 
   En el campo **[!UICONTROL Time between two significant errors]**, introduzca un valor para definir el tiempo que la aplicación espera antes de incrementar el contador de errores en caso de que se produzca un error de devolución del mensaje. El valor predeterminado es **“1d”**, para 1 día.
 
-  Cuando se alcanza el valor **[!UICONTROL Maximum number of errors before quarantine]**, la dirección de correo electrónico se pone en cuarentena. El valor predeterminado es **&quot;5&quot;**: la dirección se pone en cuarentena en el quinto error. Esto significa que el contacto se excluirá automáticamente de las entregas posteriores.
+  Cuando se alcanza el valor **[!UICONTROL Maximum number of errors before quarantine]**, la dirección de correo electrónico se pone en cuarentena. El valor predeterminado es **&quot;5&quot;**: la dirección está en cuarentena en el quinto error. Esto significa que el contacto se excluirá automáticamente de las entregas posteriores.
   <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
 
   Para obtener más información sobre cuarentenas, consulte [Comprensión de la gestión de la cuarentena](../../sending/using/understanding-quarantine-management.md).
@@ -90,7 +90,7 @@ Los administradores pueden acceder a **[!UICONTROL Email processing rules]** a t
 >
 >Los dominios de correo electrónico y las reglas MX ahora se administran automáticamente<!--by the Adobe Campaign Enhanced MTA (Message Transfer Agent)--> y no se pueden cambiar.
 
-* **DKIM (DomainKeys Identified Mail)** la firma de autenticación por correo electrónico se realiza para todos los mensajes con todos los dominios. No se firma con **ID de remitente**, **DomainKeys**, o **S/MIME**.
+* **DKIM (DomainKeys Identified Mail)**: la firma de autenticación por correo electrónico se ha completado para todos los mensajes con todos los dominios. No se firma con **Id. de remitente**, **DomainKeys** o **S/MIME**.
 * Las reglas MX personalizan automáticamente el rendimiento por dominio en función de su propia reputación histórica de correo electrónico y de los comentarios en tiempo real procedentes de los dominios a los que envía correos electrónicos.
 
 <!--Note that the email domains and the MX rules are now managed by the Adobe Campaign Enhanced MTA:
@@ -145,9 +145,9 @@ En la parte superior de la pantalla del parámetro de correo electrónico, ident
 >
 >El ID debe ser único.
 
-Utilice el **[!UICONTROL Brand]** para seleccionar la marca vinculada al envío. Para obtener más información sobre el uso y la configuración de marcas, consulte la sección [Marcas](../../administration/using/branding.md).
+Utilice el campo **[!UICONTROL Brand]** para seleccionar la marca vinculada al envío. Para obtener más información sobre el uso y la configuración de marcas, consulte la sección [Marcas](../../administration/using/branding.md).
 
-En el **[!UICONTROL Campaign]** , introduzca la campaña asociada al correo electrónico.
+En el campo **[!UICONTROL Campaign]**, introduzca la campaña asociada al correo electrónico.
 
 También puede agregar una **[!UICONTROL Description]** en el campo correspondiente y editar la imagen mostrada en la miniatura del correo electrónico en las listas.
 
@@ -161,7 +161,7 @@ Los mensajes no entregados temporalmente están sujetos a un reintento automáti
 
 >[!IMPORTANT]
 >
->El retraso mínimo entre reintentos y el número máximo de reintentos que se van a realizar ahora se basa en el rendimiento histórico y actual de una IP en un dominio determinado. El **[!UICONTROL Retry period]** y **[!UICONTROL Max. number of retries]** La configuración de Campaign se ignorará.
+>El retraso mínimo entre reintentos y el número máximo de reintentos que se van a realizar ahora se basa en el rendimiento histórico y actual de una IP en un dominio determinado. Se omitirá la configuración de **[!UICONTROL Retry period]** y **[!UICONTROL Max. number of retries]** en Campaign.
 
 La **configuración de la duración de la entrega** (definida en la sección [Parámetros del periodo de validez](#validity-period-parameters)) **configurada en Campaign se seguirá cumpliendo, pero solo hasta 3,5 días**. En ese momento, cualquier mensaje de la cola de reintentos se eliminará de la cola y se enviará de nuevo como una devolución. Para obtener más información sobre los fallos de entrega, consulte [esta sección](../../sending/using/understanding-delivery-failures.md#about-delivery-failures).
 
@@ -180,7 +180,7 @@ Puede configurar el formato de los correos electrónicos que se van a enviar. Ha
 
 #### Modo de prueba SMTP {#smtp-test-mode}
 
-Utilice el **[!UICONTROL Enable SMTP test mode]** para probar el envío de correos electrónicos a través de una conexión SMTP sin realmente enviar mensajes. El envío se procesa hasta la conexión con el servidor SMTP, pero no se envía. Para cada destinatario, Campaign se conecta al servidor del proveedor SMTP, ejecuta el comando RCPT TO del servidor de correo saliente (SMTP) y cierra la conexión antes del comando DATA del SMTP.
+Utilice la opción **[!UICONTROL Enable SMTP test mode]** para probar el envío de correos electrónicos a través de una conexión SMTP sin realmente enviar mensajes. El envío se procesa hasta la conexión con el servidor SMTP, pero no se envía. Para cada destinatario, Campaign se conecta al servidor del proveedor SMTP, ejecuta el comando RCPT TO del servidor de correo saliente (SMTP) y cierra la conexión antes del comando DATA del SMTP.
 
 ![](assets/smtp-test-mode.png)
 
@@ -233,9 +233,9 @@ La sección **[!UICONTROL Validity period]** contiene los siguientes parámetros
 
 La sección **[!UICONTROL Tracking]** contiene los siguientes parámetros:
 
-* **[!UICONTROL Activate tracking]**: utilice esta opción para activar o desactivar el seguimiento de URL de mensajes. Para administrar el seguimiento de cada URL de mensaje, utilice el icono **[!UICONTROL Links]** de la barra de acciones del Diseñador de correo electrónico. Consulte [Acerca de las URL rastreadas](../../designing/using/links.md#about-tracked-urls).
+* **[!UICONTROL Activate tracking]**: use esta opción para activar o desactivar el seguimiento de URL de mensajes. Para administrar el seguimiento de cada URL de mensaje, utilice el icono **[!UICONTROL Links]** de la barra de acciones del Diseñador de correo electrónico. Consulte [Acerca de las URL rastreadas](../../designing/using/links.md#about-tracked-urls).
 * **[!UICONTROL Tracking validity limit]**: utilice esta opción para definir la duración durante la cual se activará el seguimiento en las direcciones URL.
-* **[!UICONTROL Substitution URL for expired URLs]**: utilice esta opción para introducir una URL a una página web de reserva: se muestra una vez que el seguimiento ha caducado.
+* **[!UICONTROL Substitution URL for expired URLs]**: utilice esta opción para introducir una dirección URL en una página web de reserva: se muestra una vez que ha caducado el seguimiento.
 * **[!UICONTROL Use tracking pixel at the top of email]**: utilice esta opción para mover el píxel de seguimiento al principio del correo electrónico en lugar de al final. De forma predeterminada, este píxel se encuentra en la parte inferior de los correos electrónicos. Si envía mensajes grandes, considere la posibilidad de mover este píxel al principio de los correos electrónicos en lugar de al final para mejorar el seguimiento abierto; de lo contrario, algunos proveedores de correo electrónico podrían cortar el píxel de seguimiento.
 
 ### Parámetros avanzados {#advanced-parameters}
@@ -272,15 +272,15 @@ La preparación de los mensajes se detalla en la sección [Aprobación de mensaj
   >
   >Las tipologías a las que se puede acceder a través del menú **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** se presentan en [esta sección](../../sending/using/about-typology-rules.md).
 
-* **[!UICONTROL Compute the label during delivery preparation]**: utilice esta opción para calcular el valor de la etiqueta del correo electrónico durante la fase de preparación del mensaje mediante campos de personalización, bloques de contenido y texto dinámico.
+* **[!UICONTROL Compute the label during delivery preparation]**: utilice esta opción para calcular el valor de etiqueta del correo electrónico durante la fase de preparación del mensaje mediante campos de personalización, bloques de contenido y texto dinámico.
 
   También es posible personalizar la etiqueta de entrega con variables de eventos que se han declarado en la actividad de señal externa del flujo de trabajo. Para obtener más información, consulte [esta sección](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
-* **[!UICONTROL Save SQL queries in the log]**: utilice esta opción para añadir registros de consulta SQL en el historial durante la fase de preparación.
+* **[!UICONTROL Save SQL queries in the log]**: utilice esta opción para agregar registros de consulta SQL en el historial durante la fase de preparación.
 
 #### Configuración de prueba {#proof-settings}
 
-En esta sección, puede configurar el prefijo predeterminado para utilizarlo en la línea de asunto de los mensajes de prueba. Obtenga más información acerca de las pruebas en [esta sección](../../sending/using/sending-proofs.md).
+En esta sección, puede configurar el prefijo predeterminado para utilizarlo en la línea de asunto de los mensajes de prueba. Obtenga más información acerca de las revisiones en [esta sección](../../sending/using/sending-proofs.md).
 
 ### Lista de parámetros SMTP de correo electrónico {#list-of-email-smtp-parameters}
 
@@ -294,19 +294,19 @@ La sección **[!UICONTROL SMTP]** contiene los siguientes parámetros:
   >
   >La adición de secuencias de comandos para insertar encabezados SMTP se reserva para usuarios avanzados. La sintaxis de esta secuencia de comandos debe cumplir con los requisitos de este tipo de contenido: no dejar espacios sin utilizar, ninguna línea vacía, etc.
 
-  A partir del 1 de junio de 2024, Google y Yahoo! exigirá a los remitentes que cumplan lo siguiente **Cancelación de suscripción a una lista con un clic**. Campaign admite esta capacidad de forma predeterminada para plantillas de envío.
+  A partir del 1 de junio de 2024, Google y Yahoo! exigirá a los remitentes que cumplan con **Cancelación de suscripción a una lista con un solo clic**. Campaign admite esta capacidad de forma predeterminada para plantillas de envío.
 
-  Para aplicar **Cancelación de suscripción a una lista con un clic** para todas las entregas de correo electrónico que no sean de plantilla, debe ejecutar el **[!UICONTROL Copy headers from delivery templates]** flujo de trabajo técnico. [Más información](technical-workflows.md)
+  Para aplicar **Cancelación de suscripción a una lista con un solo clic** a todas las entregas de correo electrónico que no sean de plantilla, debe ejecutar el flujo de trabajo técnico de **[!UICONTROL Copy headers from delivery templates]**. [Más información](technical-workflows.md)
 
   >[!CAUTION]
   >
-  >Si modifica el valor del encabezado en **[!UICONTROL Additional SMTP headers]** de sus plantillas de correo electrónico, podría romper el cumplimiento de la **Cancelación de suscripción a una lista con un clic** de Google y Yahoo!.
+  >Si modifica el valor del encabezado en **[!UICONTROL Additional SMTP headers]** de sus plantillas de correo electrónico, podría incumplir el requisito de **Cancelar la suscripción a una lista con un solo clic** de Google y Yahoo!.
 
 ### Lista de parámetros de autorización de acceso {#list-of-access-authorization-parameters}
 
 La sección **[!UICONTROL Access authorization]** contiene los siguientes parámetros:
 
-* El **[!UICONTROL Organizational unit]** se utiliza para restringir el acceso a este correo electrónico a determinados usuarios. Los usuarios asociados con la unidad o las unidades principales especificadas tendrán acceso de lectura y escritura a este correo electrónico. Los usuarios asociados con unidades secundarias solo tendrán acceso de lectura a este correo electrónico.
+* El campo **[!UICONTROL Organizational unit]** se usa para restringir el acceso a este correo electrónico a ciertos usuarios. Los usuarios asociados con la unidad o las unidades principales especificadas tendrán acceso de lectura y escritura a este correo electrónico. Los usuarios asociados con unidades secundarias solo tendrán acceso de lectura a este correo electrónico.
 
   >[!NOTE]
   >
@@ -316,35 +316,35 @@ La sección **[!UICONTROL Access authorization]** contiene los siguientes parám
 
 ## Configuración heredada {#legacy-settings}
 
-Si es usted **NO** Al ejecutar la versión más reciente de Campaign, se siguen aplicando los parámetros y las secciones de la interfaz de usuario que se describen a continuación.
+Si **NOT** está ejecutando la versión más reciente de Campaign, se le seguirán aplicando los parámetros y las secciones de la interfaz de usuario que se describen a continuación.
 
 ### Reintentos {#legacy-retries}
 
-El **[!UICONTROL Retries]** configuración en la [Menú Configuración](#email-channel-parameters) y en el [Envío de parámetros](#retries-parameters) Algunas de las propiedades de correo electrónico indican cuántos reintentos se deben realizar el día después de iniciar la entrega (**[!UICONTROL Number of retries]** / **[!UICONTROL Max. number of retries]**) y el retardo mínimo entre reintentos (**[!UICONTROL Retry period]**).
+La configuración de **[!UICONTROL Retries]** en el [menú de configuración](#email-channel-parameters) y en los [parámetros de envío](#retries-parameters) de las propiedades de correo electrónico indican cuántos reintentos se deben realizar el día siguiente después de iniciar el envío (**[!UICONTROL Number of retries]** / **[!UICONTROL Max. number of retries]**) y el retardo mínimo entre reintentos (**[!UICONTROL Retry period]**).
 
 El número de reintentos se puede cambiar a nivel global (póngase en contacto con el administrador técnico de Adobe) o para cada envío o plantilla de envíos.
 
-De forma predeterminada, se programan cinco reintentos para el primer día con un intervalo mínimo de una hora, distribuidos durante las 24 horas del día. Después de ello, se programa un reintento por día hasta la fecha límite de envío, que se define globalmente en **[!UICONTROL Delivery parameters]** de la sección **[!UICONTROL Configuration]** o en el menú **[!UICONTROL Validity period]** en el nivel de entrega (consulte la [Duración del envío](#legacy-delivery-duration) más abajo).
+De forma predeterminada, se programan cinco reintentos para el primer día con un intervalo mínimo de una hora, distribuidos durante las 24 horas del día. Después de ello, se programa un reintento por día hasta la fecha límite de entrega, que se define globalmente en la sección **[!UICONTROL Delivery parameters]** del menú **[!UICONTROL Configuration]**, o en la sección **[!UICONTROL Validity period]** al nivel de entrega (consulte la sección [Duración de entrega](#legacy-delivery-duration) a continuación).
 
 ### Duración del envío {#legacy-delivery-duration}
 
-Utilice el **[!UICONTROL Message delivery duration]** en el campo [Menú Configuración](#email-channel-parameters) para especificar el lapso de tiempo en el que se reintentará cualquier mensaje de la entrega que detecte un error temporal o una devolución del mensaje.
+Use el parámetro **[!UICONTROL Message delivery duration]** en el [menú de configuración](#email-channel-parameters) para especificar el lapso de tiempo en el que se reintentará cualquier mensaje de la entrega que detecte un error temporal o una devolución del mensaje.
 
-Utilice el **[!UICONTROL Delivery duration]** o **[!UICONTROL Validity limit for sending messages]** en el campo [Parámetros del periodo de validez](#validity-period-parameters) para especificar la duración durante la cual se pueden enviar los mensajes.
+Use el parámetro **[!UICONTROL Delivery duration]** o **[!UICONTROL Validity limit for sending messages]** en la sección [Parámetros del período de validez](#validity-period-parameters) para especificar la duración durante la cual se pueden enviar los mensajes.
 
 ### Reglas de procesamiento de correo electrónico {#legacy-email-processing-rules}
 
-El **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** y **[!UICONTROL Domain management]** los administradores pueden acceder y modificar las reglas a través de la **[!UICONTROL Administration > Channels > Email > Email processing rules]** menú. [Más información](#email-processing-rules)
+Los administradores pueden acceder y modificar las reglas **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** y **[!UICONTROL Domain management]** a través del menú **[!UICONTROL Administration > Channels > Email > Email processing rules]**. [Más información](#email-processing-rules)
 
 ### Clasificación del correo rechazado {#legacy-bounce-mail-qualification}
 
-Para enumerar las distintas devoluciones, así como los tipos de error y motivos asociados, haga clic en **Adobe** logotipo, en la parte superior izquierda, y luego seleccione **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
+Para enumerar las distintas devoluciones, así como los tipos y motivos de error asociados, haga clic en el logotipo de **Adobe**, en la parte superior izquierda, y luego seleccione **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
 
 Las devoluciones pueden tener los siguientes estados de calificación:
 
-* **[!UICONTROL To qualify]**: es necesario clasificar el correo rechazado. El equipo de entrega debe realizar la clasificación para garantizar que la capacidad de entrega de la plataforma funcione correctamente. Siempre que no esté clasificado, el correo rechazado no se utiliza para enriquecer la lista de reglas de procesamiento de correo electrónico.
-* **[!UICONTROL Keep]**: el correo rechazado fue clasificado y el **Actualización para la entrega** flujo de trabajo que se va a comparar con las reglas de procesamiento de correo electrónico existentes y enriquecer la lista.
-* **[!UICONTROL Ignore]**: el correo rechazado se ha clasificado, pero no lo utilizará el **Actualización para la entrega** flujo de trabajo. Por lo tanto, no se envía a las instancias de cliente.
+* **[!UICONTROL To qualify]**: el correo rechazado debe ser clasificado. El equipo de entrega debe realizar la clasificación para garantizar que la capacidad de entrega de la plataforma funcione correctamente. Siempre que no esté clasificado, el correo rechazado no se utiliza para enriquecer la lista de reglas de procesamiento de correo electrónico.
+* **[!UICONTROL Keep]**: el correo rechazado se ha clasificado y el flujo de trabajo **Actualizar la entrega** lo usará para compararlo con las reglas de procesamiento de correo electrónico existentes y enriquecer la lista.
+* **[!UICONTROL Ignore]**: el correo rechazado se ha clasificado, pero el flujo de trabajo **Actualización para la entrega** no lo usará. Por lo tanto, no se envía a las instancias de cliente.
 
 >[!NOTE]
 >
@@ -354,6 +354,6 @@ Las devoluciones pueden tener los siguientes estados de calificación:
 
 ### Informes de indicador entregado {#legacy-delivered-status-report}
 
-En el **[!UICONTROL Summary]** vista de cada mensaje, la variable **[!UICONTROL Delivered]** El porcentaje de sube progresivamente a lo largo del periodo de validez del envío, a medida que se informan los rechazos suaves y duros.
+En la vista **[!UICONTROL Summary]** de cada mensaje, el porcentaje **[!UICONTROL Delivered]** aumenta progresivamente durante el período de validez de la entrega, a medida que se informan las devoluciones suaves y duras.
 
-Los mensajes de devolución suave se muestran como **[!UICONTROL Failed]** el primer día después de la entrega. Estos mensajes se vuelven a intentar cada día, hasta que finaliza el periodo de validez de la entrega.
+Los mensajes de devolución suave se muestran como **[!UICONTROL Failed]** el primer día después de la entrega. Estos mensajes se vuelven a intentar cada día, hasta que finaliza el periodo de validez de la entrega.

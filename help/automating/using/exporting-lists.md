@@ -17,20 +17,20 @@ ht-degree: 5%
 
 # Exportación de listas{#exporting-lists}
 
-Adobe Campaign le permite exportar las listas directamente en un archivo para uso futuro. La exportación de una lista en un archivo genera una entrada de registro en la variable **[!UICONTROL Export audits]** menú. Para obtener más información sobre las auditorías de exportación, consulte la sección [Auditoría de exportaciones](../../administration/using/auditing-export-logs.md).
+Adobe Campaign le permite exportar las listas directamente en un archivo para uso futuro. Exportar una lista en un archivo genera una entrada de registro en el menú **[!UICONTROL Export audits]**. Para obtener más información sobre las auditorías de exportación, consulte la sección [Auditoría de exportaciones](../../administration/using/auditing-export-logs.md).
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra cómo configurar una lista en vídeo](#video)
 
-La opción de lista de exportación permite exportar un máximo de 100 000 líneas de forma predeterminada y definida por el **Nms_ExportListLimit** opción. El administrador funcional puede administrar esta opción en la variable **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** menú.
+La opción de lista de exportación le permite exportar un máximo de 100 000 líneas de forma predeterminada y definida por la opción **Nms_ExportListLimit**. El administrador funcional puede administrar esta opción en el menú **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
 
-La lista de exportación está disponible en todas las pantallas que tienen un **Lista** vista de modo, para usuarios con **[!UICONTROL EXPORT (export)]** función.
+La lista de exportación está disponible en todas las pantallas que tienen una vista de modo **List** para los usuarios con el rol **[!UICONTROL EXPORT (export)]**.
 
-1. Vaya a la página seleccionada **Lista** pantalla. Por ejemplo, la pantalla de información general del perfil de prueba ( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** ).
-1. Compruebe que la pantalla está en **Lista** modo.
+1. Vaya a la pantalla **List** que haya elegido. Por ejemplo, la pantalla de información general del perfil de prueba ( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** ).
+1. Compruebe que la pantalla esté en modo **List**.
 
    ![](assets/export_list_mode_switch.png)
 
-1. Organice las columnas de la lista en el orden en que desee exportarlas con la variable **[!UICONTROL Configure list]** botón, en la esquina superior derecha. Además de las columnas configuradas, también se exporta la clave principal del recurso.
+1. Organice las columnas de la lista en el orden en que desee exportarlas con el botón **[!UICONTROL Configure list]**, en la esquina superior derecha. Además de las columnas configuradas, también se exporta la clave principal del recurso.
 1. Si lo desea, puede aplicar un filtro. Para ello, haga clic en el botón en la esquina superior izquierda para mostrar el panel de búsqueda.
 
    Si realiza una exportación desde una lista que contiene diferentes recursos, debe aplicar los filtros para que solo se muestre un tipo de recurso en la lista.
@@ -44,7 +44,7 @@ El archivo se genera en formato CSV con una extensión .TXT. Se le asigna un nom
 
 Los valores numéricos y las fechas tienen en cuenta la hora local (configuración regional) del usuario que realiza la exportación. Por ejemplo: DD-MM-AAAA o DD-MM-AAAA.
 
-Para realizar una exportación de mayor tamaño, debe crear un flujo de trabajo dedicado. Consulte la [Extraer archivo](../../automating/using/extract-file.md) sección.
+Para realizar una exportación de mayor tamaño, debe crear un flujo de trabajo dedicado. Consulte la sección [Extraer archivo](../../automating/using/extract-file.md).
 
 **Por ejemplo**
 
@@ -82,4 +82,4 @@ Este vídeo muestra cómo configurar listas.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25288/?quality=12)
 
-Hay disponibles más vídeos de procedimientos para el Campaign Standard [aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
+Hay disponibles [más vídeos de procedimientos para el Campaign Standard aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).

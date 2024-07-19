@@ -32,9 +32,9 @@ El sistema de informes dinámico proporciona informes totalmente personalizables
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-Con creación de informes dinámica **interfaz de arrastrar y soltar** Además, puede explorar datos, determinar el rendimiento de sus campañas de correo electrónico en relación con los segmentos de clientes más importantes y medir su impacto en los destinatarios desde un solo lugar.
+Con la creación de informes dinámicos **interfaz de arrastrar y soltar**, puede explorar datos, determinar el rendimiento de sus campañas de correo electrónico en relación con los segmentos de clientes más importantes y medir su impacto en los destinatarios desde un solo lugar.
 
-**Administrar los informes dinámicos** gracias a varias funcionalidades: actualizar los datos en tiempo real, imprimir los informes o exportarlos como archivos CSV. También puede compartir sus informes con usuarios de Campaign Standard a través de correos electrónicos recurrentes o de una sola toma.
+**Administre sus informes dinámicos** gracias a varias funcionalidades: actualice los datos en tiempo real, imprima los informes o exporte los datos como archivos CSV. También puede compartir sus informes con usuarios de Campaign Standard a través de correos electrónicos recurrentes o de una sola toma.
 
 Más información:
 
@@ -45,9 +45,9 @@ Más información:
 
 <img src="assets/do-not-localize/icon_build.svg" width="60px">
 
-Campaign Standard viene con un conjunto de **informes dinámicos listos para usar** lo que le permite medir varios aspectos de sus campañas de marketing: devoluciones, envíos que se han declarado como más correo no deseado o no deseado, envíos más vistos por los destinatarios, informes relacionados con los canales, rendimiento de envíos e informes de seguimiento...
+Campaign Standard incluye un conjunto de **informes dinámicos listos para usar** que le permiten medir varios aspectos de sus campañas de marketing: devoluciones, envíos que se han declarado como los más frecuentes como correo no deseado o no deseado, envíos más vistos por los destinatarios, informes relacionados con los canales, rendimiento de envíos e informes de seguimiento...
 
-**Combinación de distintos componentes** (dimensiones, métricas y segmentos, periodos de tiempo) para crear sus propios informes o personalizar informes predeterminados.
+**Combine diferentes componentes** (dimensiones, métricas y segmentos, períodos de tiempo) para crear sus propios informes o personalizar informes predeterminados.
 
 Más información:
 
@@ -59,11 +59,11 @@ Más información:
 
 <img src="assets/do-not-localize/icon_customize.svg" width="60px">
 
-**Personalización de informes** aproveche las capacidades de diseño de dynamic reporting: añada tantos componentes como necesite (paneles y tablas de forma libre) para analizar los datos con las métricas y dimensiones disponibles.
+**Personalice sus informes** aprovechando las capacidades de diseño de creación de informes dinámicos: agregue tantos componentes como necesite (paneles y tablas de forma libre) para analizar los datos mediante las métricas y dimensiones disponibles.
 
-Arrastrar y soltar **elementos de visualización** para añadir representaciones gráficas de los datos en los informes y configurarlos según sus necesidades.
+Arrastre y suelte **elementos de visualización** para agregar representaciones gráficas de sus datos en sus informes y configurarlos según sus necesidades.
 
-Creación de informes basados en **datos de perfil personalizados** creado durante la extensión de recurso de perfil y **informes basados en segmentos** definidos en flujos de trabajo de objetivos.
+Cree informes basados en **datos de perfil personalizados** creados durante la extensión de recursos de perfil e **informes basados en segmentos** definidos en flujos de trabajo de segmentación.
 
 Más información:
 
@@ -84,4 +84,4 @@ Este vídeo ofrece información general sobre las funciones de creación de info
 
 >[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=eng)
 
-Hay disponibles más vídeos de procedimientos para el Campaign Standard [aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
+Hay disponibles [más vídeos de procedimientos para el Campaign Standard aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).

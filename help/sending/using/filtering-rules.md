@@ -27,7 +27,7 @@ La siguiente tabla proporciona información sobre las reglas de filtrado listas 
 | ---------|----------|---------|
 | **[!UICONTROL Address not specified]** | Todos | Excluye la población objetivo sin una dirección especificada (correo electrónico, dirección postal, etc.) según el canal seleccionado). |
 | **[!UICONTROL Address on denylist]** | Todos | Excluye las direcciones que se encuentran en la lista de bloqueados de la. |
-| **[!UICONTROL Duplicate]** | Todos | Excluye duplicados en función de la población objetivo **[!UICONTROL Address]** field. |
+| **[!UICONTROL Duplicate]** | Todos | Excluye duplicados según el campo de población de destinatarios **[!UICONTROL Address]**. |
 | **[!UICONTROL Exclude mobile applications]** | Aplicación móvil | Excluye las suscripciones de la aplicación que no coinciden con la aplicación móvil definida en el mensaje. |
 | **[!UICONTROL Exclude mobile applications for In-App]** | En la aplicación | Excluye las suscripciones de la aplicación que no coinciden con la aplicación móvil definida en el mensaje (plantilla en la aplicación). |
 | **[!UICONTROL Exclude mobile applications for In-App broadcast]** | En la aplicación | Excluye las suscripciones a aplicaciones que no coinciden con la aplicación móvil definida en el mensaje (plantilla de difusión en la aplicación) |
@@ -56,21 +56,21 @@ Para crear una regla de tipología de filtrado, siga estos pasos:
 
 1. Cree una nueva regla de tipología. Los pasos principales para crear reglas de tipología se detallan en [esta sección](../../sending/using/managing-typology-rules.md).
 
-1. Seleccione el **[!UICONTROL Filtering]** tipo de regla y, a continuación, especifique el canal deseado.
+1. Seleccione el tipo de regla **[!UICONTROL Filtering]** y, a continuación, especifique el canal deseado.
 
-1. En el **[!UICONTROL Filtering criteria]** pestaña, seleccione las suscripciones en la **[!UICONTROL Subscription]** categoría.
+1. En la ficha **[!UICONTROL Filtering criteria]**, seleccione las suscripciones en la categoría **[!UICONTROL Subscription]**.
 
    ![](assets/typology_create-rule-subscription.png)
 
-1. En el **[!UICONTROL Explorer]** del editor de consultas, arrastre y suelte el **[!UICONTROL Subscriber]** en la parte principal de la pantalla.
+1. En la ficha **[!UICONTROL Explorer]** del editor de consultas, arrastre y suelte el nodo **[!UICONTROL Subscriber]** en la parte principal de la pantalla.
 
    ![](assets/typology_create-rule-subscriber.png)
 
-1. Seleccione el **[!UICONTROL Age]** y defina las condiciones de filtrado para que la edad de los suscriptores sea inferior a 18.
+1. Seleccione el campo **[!UICONTROL Age]** y defina las condiciones de filtrado para que la edad de los suscriptores sea inferior a 18 años.
 
    ![](assets/typology_create-rule-age.png)
 
-1. En el **[!UICONTROL Typologies]** pestaña, vincule esta regla a una tipología.
+1. En la ficha **[!UICONTROL Typologies]**, vincule esta regla a una tipología.
 
    ![](assets/typology_create-rule-typology.png)
 
@@ -82,11 +82,11 @@ Siempre que se utilice esta regla en un mensaje, se excluirá automáticamente a
 
 ## Configuración del contexto de segmentación de reglas de filtrado {#configuring-filtering-rules-targeting-context}
 
-El Campaign Standard le permite configurar las  **Segmentación** y **Filtrado** dimensiones que se deben utilizar según los datos a los que se desee destinarlas.
+El Campaign Standard le permite configurar las dimensiones **Segmentación** y **Filtrado** para usarlas según los datos a los que desee destinarlas.
 
-Para ello, abra las propiedades de la regla de tipología de y acceda a la **[!UICONTROL Advanced information]** sección.
+Para ello, abra las propiedades de la regla de tipología y luego acceda a la sección **[!UICONTROL Advanced information]**.
 
-De forma predeterminada, el filtrado se realiza en **[!UICONTROL Profiles]**. Por ejemplo, si la regla está dirigida a una aplicación móvil, la variable **[!UICONTROL Filtering dimension]** se puede cambiar a **[!UICONTROL Subscriptions to an application]**.
+De manera predeterminada, el filtrado se realiza en **[!UICONTROL Profiles]**. Por ejemplo, si la regla está dirigida a una aplicación móvil, **[!UICONTROL Filtering dimension]** se puede cambiar a **[!UICONTROL Subscriptions to an application]**.
 
 ![](assets/typology_rule-order_2.png)
 
@@ -94,7 +94,7 @@ De forma predeterminada, el filtrado se realiza en **[!UICONTROL Profiles]**. Po
 
 Puede restringir la aplicabilidad de una regla de filtrado según el mensaje que se va a enviar.
 
-1. En las reglas de tipología de **[!UICONTROL Application criteria]** pestaña, desmarque la **[!UICONTROL Apply the rule on all deliveries]** , que está activada de forma predeterminada.
+1. En la ficha **[!UICONTROL Application criteria]** de la regla de tipología, desmarque la opción **[!UICONTROL Apply the rule on all deliveries]**, que está habilitada de forma predeterminada.
 
    ![](assets/typology_limit.png)
 

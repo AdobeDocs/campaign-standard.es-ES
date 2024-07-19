@@ -18,11 +18,11 @@ ht-degree: 14%
 
 # Resumen del servicio{#service-summary}
 
-El **[!UICONTROL Service summary]** detalla la evolución de las suscripciones y bajas de suscripción de su servicio.
-Solo se puede acceder a este informe desde la página Servicio a través del menú avanzado **[!UICONTROL Profiles & Audiences]** > **[!UICONTROL Services]**. Para obtener más información, consulte esta [página](../../audiences/using/monitoring-subscriptions.md#service-reports).
+El **[!UICONTROL Service summary]** detalla la evolución de las suscripciones y las bajas de suscripción de su servicio.
+Solo se puede acceder a este informe desde la página de servicio a través del menú avanzado **[!UICONTROL Profiles & Audiences]** > **[!UICONTROL Services]**. Para obtener más información, consulte esta [página](../../audiences/using/monitoring-subscriptions.md#service-reports).
 
 ![](assets/service-summary.png)
 
-El **[!UICONTROL Subscription evolution curves]** La visualización de detalla el número de suscripciones y bajas de suscripción según la variable **[!UICONTROL Period]** seleccionado en la barra desplegable.
+La visualización **[!UICONTROL Subscription evolution curves]** detalla el número de suscripciones y cancelaciones de suscripción en función de **[!UICONTROL Period]** que se haya elegido en la barra desplegable.
 
-El **[!UICONTROL Overall subscription evolution]** le permite ver la evolución de sus suscriptores a lo largo de diferentes periodos de tiempo.
+El **[!UICONTROL Overall subscription evolution]** le permite ver la evolución de sus suscriptores en diferentes períodos de tiempo.

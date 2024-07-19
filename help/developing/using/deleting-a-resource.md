@@ -17,7 +17,7 @@ ht-degree: 14%
 
 # Eliminación de un recurso{#deleting-a-resource}
 
-Para eliminar un recurso, este debe ser un **[!UICONTROL Draft]**. El recurso se encuentra en **[!UICONTROL Draft]** estado si:
+Para eliminar un recurso, este debe ser un **[!UICONTROL Draft]**. El recurso se encuentra en estado **[!UICONTROL Draft]** si:
 
 * Acaba de crearse y aún no se ha publicado.
 * Si ya se ha publicado, el recurso debe volver a redactarse.
@@ -43,13 +43,13 @@ Para volver a redactar y eliminar un recurso publicado:
 
    >[!NOTE]
    >
-   >Si vuelve a redactar una extensión de la lista para usar **Perfiles (perfil)** recurso, también debe volver a redactar cualquier **Perfil de prueba (seedMember)** extensión que puede haber definido. Para obtener más información sobre la ampliación del recurso de perfil, consulte [esta sección](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
+   >Si vuelve a redactar una extensión del recurso predeterminado **Perfiles (perfil)**, también debe volver a redactar cualquier extensión de **perfil de prueba (seedMember)** que haya definido. Para obtener más información sobre cómo ampliar el recurso de perfil, consulte [esta sección](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
 
-1. Publique el recurso. Para ver los pasos más detallados, consulte [Publicación de un recurso personalizado](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
+1. Publish el recurso. Para ver los pasos más detallados, consulte [Publicación de un recurso personalizado](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 
-   A continuación, el recurso se dirige a **Borrador** y su estado de activación es **[!UICONTROL Inactive]**.
+   A continuación, el recurso pasa al modo **Draft** y su estado de activación es **[!UICONTROL Inactive]**.
 
-1. Entrada **[!UICONTROL List]** modo, compruebe el recurso que desea eliminar y haga clic en el botón ![](assets/delete_darkgrey-24px.png) **[!UICONTROL Delete element]** icono.
+1. En el modo **[!UICONTROL List]**, compruebe el recurso que desea eliminar y haga clic en el icono ![](assets/delete_darkgrey-24px.png) **[!UICONTROL Delete element]**.
 
    ![](assets/schema_extension_uc28.png)
 

@@ -27,10 +27,10 @@ Los derechos predeterminados son:
 
   >[!NOTE]
   >
-  >Si trabaja con Déclencheur Experience Cloud, necesita el **[!UICONTROL Administration]** derecho para acceder al menú Déclencheur del Experience Cloud. Para obtener más información sobre los Déclencheur de Experience Cloud, consulte esta sección [página](../../integrating/using/about-adobe-experience-cloud-triggers.md).
+  >Si trabaja con Déclencheur de Experience Cloud, necesita el derecho de **[!UICONTROL Administration]** para poder acceder al menú Déclencheur de Experience Cloud. Para obtener más información sobre los Déclencheur de Experience Cloud, consulte esta [página](../../integrating/using/about-adobe-experience-cloud-triggers.md).
 
 * **[!UICONTROL Datamodel]**: Derecho para ejecutar publicaciones y crear recursos personalizados.
-* **[!UICONTROL Generic import]**: Derecho para ejecutar una importación genérica de datos. Para que esto funcione, debe vincular la variable **[!UICONTROL Generic import]** función a la **[!UICONTROL Workflow]** función.
+* **[!UICONTROL Generic import]**: Derecho para ejecutar una importación genérica de datos. Para que esto funcione, debe vincular el rol **[!UICONTROL Generic import]** al rol **[!UICONTROL Workflow]**.
 * **[!UICONTROL Prepare deliveries]**: Derecho a crear, modificar, preparar y eliminar entregas. Los usuarios con esta función pueden preparar la entrega pero no enviarla.
 * **[!UICONTROL Start deliveries]**: Derecho para crear, modificar, preparar, enviar y eliminar entregas.
 * **[!UICONTROL Workflow]**: Derecho para gestionar la ejecución de flujos de trabajo (inicio, parada, pausa, etc.). Los usuarios con esta función no pueden enviar una entrega ni siquiera en un flujo de trabajo.

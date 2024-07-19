@@ -46,7 +46,7 @@ El Panel de control de Campaign le permite administrar varias configuraciones de
 
 **Objetos técnicos**
 
-El **[!UICONTROL Diagnosis]** El menú es una herramienta clave para monitorizar y analizar los diferentes objetos técnicos generados por la aplicación: esquemas de datos, páginas web, trabajos por lotes, etc. [Más información](../../developing/using/monitoring-data-model-changes.md)
+El menú **[!UICONTROL Diagnosis]** es una herramienta clave para monitorizar y analizar los diferentes objetos técnicos generados por la aplicación: esquemas de datos, páginas web, trabajos por lotes, etc. [Más información](../../developing/using/monitoring-data-model-changes.md)
 
 **Exportar auditorías**
 
@@ -55,7 +55,7 @@ Las auditorías de exportación permiten monitorizar las exportaciones realizada
 
 **Licencias**
 
-Con el **[!UICONTROL Licenses]** menú, monitorice la información sobre sus instancias: licencias instaladas, versiones de compilación y aceptaciones del acuerdo de términos.
+Con el menú **[!UICONTROL Licenses]**, supervise la información sobre las instancias: licencias instaladas, versiones de compilación y aceptaciones de acuerdos de términos.
 [Más información](../../administration/using/licenses.md)
 
 ## Monitorización de flujos de trabajo {#monitoring-workflows}
@@ -91,12 +91,12 @@ Campaign Standard proporciona varias herramientas de envío para ayudarle a mejo
 Una vez enviados los mensajes, los registros detallados le permiten monitorizar los envíos y medir el éxito de la campaña, así como rastrear el comportamiento de los destinatarios de los mensajes.
 [Más información](../../sending/using/monitoring-a-delivery.md)
 
-**Alerta de envío**
+**Alertas de envío**
 
 Con la función de alerta de entrega, puede configurar alertas que se envían automáticamente a un grupo de usuarios con respecto a la ejecución de entregas: envío o preparación fallidos, proporción de devoluciones incorrecta, bajo rendimiento, etc.
 [Más información](../../sending/using/receiving-alerts-when-failures-happen.md)
 
-**Creación de informes dinámicos**
+**Informes dinámicos**
 
 La creación de informes dinámicos proporciona varios informes que le ayudan a mantenerse informado del rendimiento de las entregas: devoluciones, entregas más vistas por destinatarios, rendimiento de las entregas, etc.
 [Más información](../../reporting/using/about-dynamic-reports.md)

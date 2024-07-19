@@ -27,7 +27,7 @@ El principio es enviar un correo electrónico para confirmar el acuerdo del visi
 
 Para configurarlo, debe:
 
-1. Crear y publicar una página de aterrizaje para que los visitantes puedan registrarse y suscribirse. Esta página de aterrizaje debe estar disponible en un sitio web. Los visitantes que rellenen y envíen esta página de aterrizaje se almacenan en la base de datos, pero se añaden a la lista de bloqueados para no recibir ninguna comunicación antes de la validación final (consulte ). [Administración de la Lista de bloqueados de datos en Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
+1. Crear y publicar una página de aterrizaje para que los visitantes puedan registrarse y suscribirse. Esta página de aterrizaje debe estar disponible en un sitio web. Los visitantes que rellenen y envíen esta página de aterrizaje se almacenarán en la base de datos, pero se agregarán a la lista de bloqueados de envíos para que no reciban comunicación alguna antes de la validación final (consulte [Administración de la Lista de bloqueados de en Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
 1. Cree y envíe automáticamente el correo electrónico de inclusión, con un vínculo de confirmación. Este correo electrónico se envía a quienes hayan enviado la página de aterrizaje. Se basa en una plantilla de correo electrónico que permite dirigirse a perfiles de “exclusión”.
 1. Redirija a una página de aterrizaje de confirmación. Esta página de aterrizaje final incluye un botón de confirmación: los visitantes tienen que hacer clic en él. Puede diseñar un mensaje de correo electrónico de bienvenida para que se envíe cuando la confirmación esté completa y, por ejemplo, añadir una oferta especial en el mensaje para nuevos destinatarios.
 
@@ -101,7 +101,7 @@ Debe crear una [tipología](../../sending/using/about-typology-rules.md) especí
 1. En el logotipo de Adobe Campaign, seleccione **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** y haga clic en **[!UICONTROL Typologies]**.
 1. Duplique la tipología **[!UICONTROL Transactional message on profile (mcTypologyProfile)]** predeterminada.
 1. Una vez confirmada la duplicación, edite la nueva tipología e introduzca la etiqueta **TYPOLOGY_PROFILE**.
-1. Retire el **Dirección en la lista de bloqueados de** regla.
+1. Quitar la regla **Dirección en la lista de bloqueados de la regla**.
 1. Haga clic en **[!UICONTROL Save]**.
 
 Esta tipología ahora se puede asociar al correo electrónico de confirmación.

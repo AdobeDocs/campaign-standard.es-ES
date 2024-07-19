@@ -25,7 +25,7 @@ Para identificar los metadatos de un filtro y determinar cómo utilizarlos, se d
 
 <br/>
 
-***Solicitud de ejemplo***
+***Solicitud de muestra***
 
 Las siguientes cargas útiles de ejemplo muestran cómo recuperar los metadatos de filtro &quot;byText&quot; para el recurso de &quot;perfil&quot;. Primero realice una solicitud de GET en la métrica de recursos &quot;perfil&quot;.
 
@@ -66,10 +66,10 @@ Realice una solicitud de GET en la dirección URL. Devuelve la lista de filtros 
 
 La misma estructura de metadatos está disponible para cada filtro:
 
-* El **@formType** y **@webPage** los campos son campos técnicos.
-* El **datos** Este campo proporciona un ejemplo sobre cómo utilizar el filtro.
-* El **metadatos** node describe los parámetros del filtro.
-* El **condición** node describe lo que pretende hacer el filtro. Los parámetros de filtro descritos en el nodo de metadatos se utilizan para crear condiciones de filtro. Para cada condición de filtro, si **enabledIf** es true, la variable **expr** se aplicarán.
+* Los campos **@formType** y **@webPage** son campos técnicos.
+* El campo **data** proporciona un ejemplo sobre cómo usar el filtro.
+* El nodo **metadata** describe los parámetros del filtro.
+* El nodo **condition** describe lo que el filtro pretende hacer. Los parámetros de filtro descritos en el nodo de metadatos se utilizan para crear condiciones de filtro. Para cada condición de filtro, si **enabledIf** es true, se aplicará **expr**.
 
 <br/>
 
@@ -99,7 +99,7 @@ Es posible combinar varios filtros en una sola solicitud:
 
 <br/>
 
-***Solicitudes de ejemplo***
+***Solicitudes de muestra***
 
 * Solicitud de GET de ejemplo para recuperar los recursos del &quot;servicio&quot; con el tipo &quot;correo electrónico&quot;.
 
@@ -133,7 +133,8 @@ Es posible combinar varios filtros en una sola solicitud:
   }
   ```
 
-* Solicitud de GET de ejemplo para recuperar los recursos de &quot;perfil&quot; que contienen &quot;Listo&quot; en los campos de correo electrónico o apellidos (el filtro byText busca en los campos de correo electrónico y apellidos).
+* Solicitud de GET de muestra para recuperar los recursos de &quot;perfil&quot; que contienen &quot;Listo&quot; en
+los campos correo electrónico o apellidos (el filtro por texto busca en los campos correo electrónico y apellidos).
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
@@ -201,12 +202,12 @@ Si desea utilizar un filtro personalizado, debe crearlo y personalizarlo en la i
 
 Para obtener más información, consulte la documentación del Campaign Standard:
 
-* [Configuración de la definición de filtro](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
-* [Caso de uso: Invocación de un recurso mediante una clave de identificación compuesta](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
+* [Configurando definición de filtro](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
+* [Caso de uso: invocando a un recurso mediante una clave de identificación compuesta](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
 
 <br/>
 
-***Solicitud de ejemplo***
+***Solicitud de muestra***
 
 Solicitud de GET de muestra para recuperar los recursos de &quot;perfil&quot; con importes de transacción de 100 $ o más. Tenga en cuenta que el filtro &quot;byAmount&quot; se ha definido primero en la interfaz de Adobe Campaign Standard y se ha vinculado a la tabla personalizada &quot;Transaction&quot;.
 

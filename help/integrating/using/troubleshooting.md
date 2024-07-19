@@ -23,16 +23,16 @@ En este caso, asegúrese de que los siguientes elementos están correctamente co
 
 * **Cuentas externas**
 
-  Entrada **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL External accounts]**, asegúrese de que las siguientes cuentas externas S3 estén configuradas correctamente. Los servidores S3 mencionados deberían haberse configurado durante el aprovisionamiento.
+  En **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL External accounts]**, asegúrese de que las siguientes cuentas externas de S3 estén configuradas correctamente. Los servidores S3 mencionados deberían haberse configurado durante el aprovisionamiento.
 
-   * **[!UICONTROL importSharedAudience]**: Cuenta S3 específica para la importación de audiencias.
-   * **[!UICONTROL exportSharedAudience]**: Cuenta S3 específica para la exportación de audiencias.
+   * **[!UICONTROL importSharedAudience]**: cuenta S3 dedicada a la importación de audiencias.
+   * **[!UICONTROL exportSharedAudience]**: cuenta S3 dedicada a la exportación de audiencias.
 
 * **Fuentes de datos compartidas**
 
-  Entrada **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**, compruebe que la fuente de datos compartidos está correctamente configurada.
+  En **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**, compruebe que el origen de datos compartido esté configurado correctamente.
 
-  **[!UICONTROL Priority]** se utiliza cuando se definen varias fuentes de datos. La prioridad decide qué fuente de datos se utilizará para hacer coincidir el alias recibido en el orden definido. **[!UICONTROL Priority]** solo es necesario para la implementación de Déclencheur.
+  **[!UICONTROL Priority]** se usa cuando se han definido varios orígenes de datos. La prioridad decide qué fuente de datos se utilizará para hacer coincidir el alias recibido en el orden definido. **[!UICONTROL Priority]** solo es necesario para la implementación de Déclencheur.
 
   Compruebe que la clave de reconciliación sea correcta. Es el valor cifrado/con hash de este campo el que se utiliza para exportar e importar audiencias.
 
@@ -43,9 +43,9 @@ En este caso, asegúrese de que los siguientes elementos están correctamente co
   Si se selecciona el algoritmo de cifrado AES, se deben configurar correctamente los siguientes campos adicionales:
 
    * **Clave de cifrado** para AES
-   * **Cifrado IV** (Vector de inicialización) para AES
-   * **Canal** (Correo electrónico/SMS/Otros): Este campo permite descifrar directamente las direcciones de correo electrónico y los números de SMS. Asegúrese de que la clave de reconciliación coincida con la configuración del **Canal** field. Si selecciona &quot;Otro&quot;, este descifrado específico no se producirá y la clave de reconciliación se utilizará para reconciliar los datos.
+   * **Cifrado IV** (vector de inicialización) para AES
+   * **Canal** (correo electrónico/SMS/otro): este campo permite descifrar directamente direcciones de correo electrónico y números de SMS. Asegúrese de que la clave de reconciliación coincida con la configuración del campo **Canal**. Si selecciona &quot;Otro&quot;, este descifrado específico no se producirá y la clave de reconciliación se utilizará para reconciliar los datos.
 
-  Es posible que las audiencias del Experience Cloud no se compartan porque el flujo de trabajo técnico se ha detenido o pausado. Acceda a la **[!UICONTROL Import shared audience]** haciendo clic directamente en el **[!UICONTROL Show ImportShared Audience workflow]** en la fuente de datos.
+  Es posible que las audiencias del Experience Cloud no se compartan porque el flujo de trabajo técnico se ha detenido o pausado. Para obtener acceso al flujo de trabajo **[!UICONTROL Import shared audience]**, haga clic directamente en la opción **[!UICONTROL Show ImportShared Audience workflow]** del origen de datos.
 
 Al importar una audiencia o compartirla mediante el servicio principal Personas, puede que falten algunos datos. Solo se transfieren los registros cuya ID (“ID de visitante” o “ID declarada”) se haya podido reconciliar con la dimensión del perfil. Las ID de los segmentos del servicio principal Personas que no reconozca Adobe Campaign no se importan.

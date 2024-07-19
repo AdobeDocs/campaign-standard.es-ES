@@ -19,7 +19,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
-> Adobe Experience Platform Launch se ha convertido en un conjunto de tecnologías de recopilación de datos en Adobe Experience Platform. Como resultado, se han implementado varios cambios terminológicos en la documentación del producto. Consulte la [siguiente documento](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html){target="_blank"} para obtener una referencia consolidada de los cambios terminológicos.
+> Adobe Experience Platform Launch se ha convertido en un conjunto de tecnologías de recopilación de datos en Adobe Experience Platform. Como resultado, se han implementado varios cambios terminológicos en la documentación del producto. Consulte el [siguiente documento](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html){target="_blank"} para obtener una referencia consolidada de los cambios terminológicos.
 
 Tenga en cuenta que las implementaciones de notificaciones push e en la aplicación deben realizarlas usuarios expertos. Para obtener ayuda, póngase en contacto con su administrador de cuentas de Adobe o con su socio de servicios profesionales.
 
@@ -27,7 +27,7 @@ Para enviar notificaciones push y mensajes en la aplicación con la aplicación 
 
 Una vez configurada una aplicación móvil, puede recuperar los datos PII que recopiló para crear o actualizar perfiles de la base de datos. Para obtener más información, consulte esta sección: [Creación y actualización de información de perfil basada en datos de aplicaciones móviles](../../channels/using/updating-profile-with-mobile-app-data.md).
 
-Para obtener más información sobre los distintos casos de uso móvil admitidos en Adobe Campaign Standard mediante el uso de los SDK para Adobe Experience Platform, consulte esta sección [página](../../administration/using/supported-mobile-use-cases.md).
+Para obtener más información sobre los diferentes casos de uso móvil admitidos en Adobe Campaign Standard mediante los SDK de Adobe Experience Platform, consulte esta [página](../../administration/using/supported-mobile-use-cases.md).
 
 Para completar la configuración, complete los siguientes pasos:
 
@@ -43,36 +43,36 @@ Para completar la configuración, complete los siguientes pasos:
    * En Adobe Campaign Standard, asegúrese de que el usuario de IMS forme parte de los Perfiles de producto de usuario y administrador estándar. Este paso permite al usuario iniciar sesión en Adobe Campaign Standard, navegar a la página de la aplicación móvil del SDK de Experience Platform y ver las propiedades de la aplicación móvil que ha creado en la IU de recopilación de datos.
 
    * En la IU de recopilación de datos, asegúrese de que el usuario de IMS forme parte de un perfil de producto de Experience Platform Launch.
-Este paso permite al usuario iniciar sesión en la interfaz de usuario de recopilación de datos para crear y ver las propiedades. Para obtener más información sobre los perfiles de producto en la IU de recopilación de datos, consulte [Crear el perfil de producto](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html#gain-admin-rights-for-a-tags-product-profile). En el perfil del producto no debe haber permisos establecidos en la empresa o las propiedades, pero el usuario debe poder iniciar sesión.
+Este paso permite al usuario iniciar sesión en la interfaz de usuario de recopilación de datos para crear y ver las propiedades. Para obtener más información sobre los perfiles de producto en la IU de recopilación de datos, consulta [Crear tu perfil de producto](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html#gain-admin-rights-for-a-tags-product-profile). En el perfil del producto no debe haber permisos establecidos en la empresa o las propiedades, pero el usuario debe poder iniciar sesión.
 
    Para completar tareas adicionales como instalar una extensión, publicar una aplicación, configurar entornos, etc., debe establecer permisos en el perfil del producto.
 
-1. En la IU de recopilación de datos, cree un **[!UICONTROL Mobile property]**. Para obtener más información, consulte [Configuración de una propiedad móvil](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property).
+1. En la interfaz de usuario de recopilación de datos, cree un(a) **[!UICONTROL Mobile property]**. Para obtener más información, consulte [Configuración de una propiedad móvil](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property).
 
-1. En la IU de recopilación de datos, haga clic en **[!UICONTROL Extensions]** pestaña, vaya a **[!UICONTROL Catalog]** y busque la variable **[!UICONTROL Adobe Campaign Standard]** extensión. Para obtener más información, consulte [Adobe Campaign Standard](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
+1. En la interfaz de usuario de recopilación de datos, haga clic en la ficha **[!UICONTROL Extensions]**, vaya a **[!UICONTROL Catalog]** y busque la extensión **[!UICONTROL Adobe Campaign Standard]**. Para obtener más información, consulte [Adobe Campaign Standard](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
 
-1. Para admitir casos de uso de ubicación en Campaign Standard, instale **[!UICONTROL Places]** en la IU de recopilación de datos. Consulte [esta página](https://developer.adobe.com/client-sdks/solution/places).
+1. Para admitir casos de uso de ubicación en el Campaign Standard, instale la extensión **[!UICONTROL Places]** en la interfaz de usuario de la recopilación de datos. Consulte [esta página](https://developer.adobe.com/client-sdks/solution/places).
 
-1. En Adobe Campaign Standard, configure la propiedad móvil que ha creado en la IU de recopilación de datos. Consulte [Configuración de la aplicación de Adobe Experience Platform Launch en Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
+1. En Adobe Campaign Standard, configure la propiedad móvil que ha creado en la IU de recopilación de datos. Consulte [Configuración de la aplicación Adobe Experience Platform Launch en Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
 1. Añada la configuración específica del canal a la configuración de la aplicación móvil.
 Para obtener más información, consulte [Configuración de aplicaciones específicas del canal en Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
 1. Si es necesario, puede eliminar la propiedad de etiquetas.
-Para obtener más información, consulte [Eliminación de la aplicación](../../administration/using/configuring-a-mobile-application.md#delete-app).
+Para obtener más información, consulte [Eliminando su aplicación](../../administration/using/configuring-a-mobile-application.md#delete-app).
 
 ## Flujo de trabajo técnico Sincronizar aplicación móvil AEPSDK desde Launch {#aepsdk-workflow}
 
-Después de crear y configurar la propiedad móvil en la interfaz de usuario de recopilación de datos, **[!UICONTROL Sync Mobile app AEPSDK from Launch]** El flujo de trabajo técnico de ahora sincronizará las propiedades móviles de etiqueta importadas en Adobe Campaign Standard.
+Después de crear y configurar la propiedad móvil en la interfaz de usuario de la recopilación de datos, el flujo de trabajo técnico de **[!UICONTROL Sync Mobile app AEPSDK from Launch]** sincronizará ahora las propiedades móviles de la etiqueta importadas en Adobe Campaign Standard.
 
 De forma predeterminada, el flujo de trabajo técnico se inicia cada 15 minutos. Si es necesario, se puede reiniciar manualmente:
 
 1. En Adobe Campaign Standard, en el menú avanzado, seleccione **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]**.
-1. Abra el **[!UICONTROL Sync Mobile app AEPSDK from Launch (syncWithLaunch)]** flujo de trabajo.
+1. Abra el flujo de trabajo **[!UICONTROL Sync Mobile app AEPSDK from Launch (syncWithLaunch)]**.
 
    ![](assets/launch_10.png)
 
-1. Haga clic en **[!UICONTROL Scheduler]** actividad.
+1. Haga clic en la actividad **[!UICONTROL Scheduler]**.
 
 1. Seleccione **[!UICONTROL Immediate execution]**.
 
@@ -86,7 +86,7 @@ Para utilizar una propiedad móvil de etiqueta en Campaign, también debe config
 
 Debe esperar a que se ejecute el flujo de trabajo técnico y sincronizar la propiedad móvil de etiquetas con Adobe Campaign. A continuación, puede configurarlo en Adobe Campaign.
 
-Para obtener más información sobre el flujo de trabajo técnico de la aplicación móvil de sincronización AEPSDK desde Launch, consulte esta sección [sección](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow).
+Para obtener más información sobre el flujo de trabajo técnico Sincronizar aplicación móvil AEPSDK desde Launch, consulte esta [sección](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow).
 
 >[!NOTE]
 >
@@ -97,17 +97,17 @@ Para obtener más información sobre el flujo de trabajo técnico de la aplicaci
    ![](assets/launch.png)
 
 1. Seleccione la aplicación móvil que creó en la interfaz de usuario de la recopilación de datos.
-Su **[!UICONTROL Property Status]** debería ser **[!UICONTROL Ready to configure]**.
+Su **[!UICONTROL Property Status]** debe ser **[!UICONTROL Ready to configure]**.
 
    >[!NOTE]
    >
    >De forma predeterminada, para recuperar la lista de aplicaciones móviles creadas en la interfaz de usuario de recopilación de datos, Campaign Standard utiliza el valor definido en la opción NmsServer_URL para buscar propiedades coincidentes.
    >
-   >En algunos casos, el punto final de Campaign para una aplicación móvil puede ser diferente del definido en NmsServer_URL. En ese caso, defina el punto final en `Launch_URL_Campaign` opción. Campaign utilizará el valor de esta opción para buscar propiedades coincidentes en la IU de recopilación de datos.
+   >En algunos casos, el punto final de Campaign para una aplicación móvil puede ser diferente del definido en NmsServer_URL. En ese caso, defina el extremo en la opción `Launch_URL_Campaign`. Campaign utilizará el valor de esta opción para buscar propiedades coincidentes en la IU de recopilación de datos.
 
    ![](assets/launch_4.png)
 
-1. Puede cambiar la unidad organizativa de la aplicación móvil en el **[!UICONTROL Access Authorization]** para limitar el acceso a esta aplicación móvil a unidades organizativas específicas. Para obtener más información, consulte esta página.
+1. Puede cambiar la unidad organizativa de la aplicación móvil en la sección **[!UICONTROL Access Authorization]** para limitar el acceso a esta aplicación móvil a unidades organizativas específicas. Para obtener más información, consulte esta página.
 
    En este caso, el administrador puede asignar unidades organizativas secundarias seleccionándolas en la lista desplegable.
 
@@ -115,7 +115,7 @@ Su **[!UICONTROL Property Status]** debería ser **[!UICONTROL Ready to configur
 
 1. Para establecer la conexión entre Campaign y las etiquetas en Adobe Experience Platform, haga clic en **[!UICONTROL Save]**.
 
-1. Compruebe que el estado de la aplicación móvil ha cambiado de **[!UICONTROL Ready to Configure]** hasta **[!UICONTROL Configured]**.
+1. Compruebe que el estado de la aplicación móvil haya cambiado de **[!UICONTROL Ready to Configure]** a **[!UICONTROL Configured]**.
 
    Cuando la extensión de Campaign muestra que la clave se ha configurado correctamente, también puede verificar que la propiedad se haya configurado correctamente en Campaign.
 
@@ -123,7 +123,7 @@ Su **[!UICONTROL Property Status]** debería ser **[!UICONTROL Ready to configur
 
 1. Para que esta configuración surta efecto, los cambios deben publicarse en la interfaz de usuario de la recopilación de datos.
 
-   Para obtener más información, consulte [Publicar configuración](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration)
+   Para obtener más información, consulte [Configuración de Publish](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration)
 
 ## Configuración de aplicaciones específicas del canal en Adobe Campaign {#channel-specific-config}
 
@@ -133,7 +133,7 @@ La aplicación móvil ya está lista para utilizarse en Campaign para notificaci
 
 1. Seleccione la aplicación móvil que creó y configuró en la interfaz de usuario de la recopilación de datos.
 
-1. En el **[!UICONTROL Mobile application properties]** , puede empezar a añadir eventos disponibles en la aplicación móvil para los mensajes en la aplicación.
+1. En la ficha **[!UICONTROL Mobile application properties]**, puede empezar a agregar eventos disponibles en la aplicación móvil para los mensajes en la aplicación.
 
 1. Para configurar los eventos, haga clic en **[!UICONTROL Create Element]**.
 
@@ -147,16 +147,16 @@ La aplicación móvil ya está lista para utilizarse en Campaign para notificaci
 
    El evento ahora está disponible en la pestaña Déclencheur al crear un mensaje en la aplicación. Para obtener más información, consulte [Preparación y envío de un mensaje en la aplicación](../../channels/using/preparing-and-sending-an-in-app-message.md).
 
-1. En el **[!UICONTROL Device-specific settings]** de un tablero de aplicaciones móviles, proporcione los detalles de la aplicación para cada dispositivo.
+1. En la sección **[!UICONTROL Device-specific settings]** de un panel de aplicaciones móviles, proporcione los detalles de la aplicación para cada dispositivo.
 
    * +++ Para iOS
 
      Introduzca los siguientes detalles de la aplicación:
 
-      * **ID de aplicación (ID de paquete de iOS)**: Consulte [Documentación de Apple](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids){target="_blank"} para obtener más información sobre el ID de paquete.
-      * **Archivo de certificado iOS (P8)**: arrastre y suelte la clave de autenticación .p8. Para obtener instrucciones sobre cómo generar el archivo de autenticación .p8, consulte su [cuenta de desarrollador de Apple](https://developer.apple.com/account/ios/authkey/create){target="_blank"}.
-      * **ID de clave**: Consulte [Documentación de Apple](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/){target="_blank"} para obtener más información sobre Key ID.
-      * **Identificador de equipo de iOS**: Consulte [Documentación de Apple](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"} para obtener más información sobre el iOS Team ID.
+      * **ID de aplicación (ID de paquete de iOS)**: consulte la [documentación de Apple](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids){target="_blank"} para obtener más información sobre el ID de paquete.
+      * **Archivo de certificado iOS (P8)**: Arrastre y suelte la clave de autenticación .p8. Para obtener instrucciones sobre cómo generar el archivo de autenticación .p8, consulte su [cuenta de desarrollador de Apple](https://developer.apple.com/account/ios/authkey/create){target="_blank"}.
+      * **ID de clave**: consulte la [documentación de Apple](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/){target="_blank"} para obtener más información sobre el ID de clave.
+      * **ID de equipo de iOS**: consulte la [documentación de Apple](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"} para obtener más información sobre el ID de equipo de iOS.
 
         ![](assets/mobile_app_ios_config.png)
 +++
@@ -165,15 +165,15 @@ La aplicación móvil ya está lista para utilizarse en Campaign para notificaci
 
      Introduzca los siguientes detalles de la aplicación:
 
-      * **ID de aplicación (nombre del paquete de Android)**: Consulte [Documentación de Android](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores){target="_blank"} para obtener más información sobre Package name.
-      * **Archivo De Clave De Android (Json)**: arrastre y suelte el archivo de clave privada .json. Para obtener instrucciones sobre cómo generar el archivo de clave privada .json, consulte la [Documentación para desarrolladores de Firebase](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments){target="_blank"}.
+      * **ID de aplicación (nombre de paquete de Android)**: consulte la [documentación de Android](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores){target="_blank"} para obtener más información sobre el nombre del paquete.
+      * **Archivo de clave Android (Json)**: Arrastre y suelte su archivo de clave privada .json. Para obtener instrucciones sobre cómo generar el archivo de clave privada .json, consulte la [documentación para desarrolladores de Firebase](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments){target="_blank"}.
 
         ![](assets/mobile_app_android_config.png)
 +++
 
 1. Una vez cargado el certificado, un mensaje le notifica que la carga se realizó correctamente y muestra la fecha de caducidad del certificado.
 
-1. Haga clic en **[!UICONTROL Mobile application subscribers]** para ver una lista de suscriptores y otra información sobre estos suscriptores, por ejemplo, si se excluyeron de las notificaciones.
+1. Haga clic en la ficha **[!UICONTROL Mobile application subscribers]** para ver una lista de suscriptores y otra información sobre estos suscriptores, por ejemplo, si se excluyeron de las notificaciones.
 
 ## Eliminación de la aplicación {#delete-app}
 
@@ -181,7 +181,7 @@ La aplicación móvil ya está lista para utilizarse en Campaign para notificaci
 >
 >No se puede deshacer la eliminación de su aplicación.
 
-Para eliminar la aplicación, complete los pasos en [Eliminación de propiedades móviles](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#deleting-mobile-properties-in-the-data-collection-ui).
+Para eliminar su aplicación, complete los pasos en [Eliminación de propiedades móviles](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#deleting-mobile-properties-in-the-data-collection-ui).
 
 Una vez eliminada la aplicación, en Adobe Campaign, compruebe si el estado de la propiedad de la aplicación se ha actualizado correctamente a Eliminado en Launch.
 

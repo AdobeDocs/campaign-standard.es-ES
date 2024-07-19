@@ -9,11 +9,11 @@ exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
 source-git-commit: db035a41515e94836bdfbfc3d620586dc1f5ce31
 workflow-type: tm+mt
 source-wordcount: '1134'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
-# Cambios en el canal de notificaciones push {#push-upgrade}
+# Cambios del canal de notificaciones push {#push-upgrade}
 
 Puede utilizar Campaign para enviar notificaciones push a dispositivos Android y iOS. Para ello, Campaign se basa en servicios de suscripción específicos. Algunos cambios importantes en el servicio Android Firebase Cloud Messaging (FCM) se lanzarán en 2024 y pueden afectar a su implementación de Adobe Campaign. Es posible que sea necesario actualizar la configuración de los servicios de suscripción para los mensajes push de Android a fin de admitir este cambio.
 
@@ -31,7 +31,7 @@ Para garantizar un servicio ininterrumpido, debe actualizar las aplicaciones mó
 
 Como parte del esfuerzo continuo de Google por mejorar sus servicios, las API de FCM existentes dejarán de usarse el **20 de junio de 2024**. Obtenga más información acerca del protocolo HTTP de Firebase Cloud Messaging en [Documentación de Google Firebase](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
 
-Inicio [Versión 24.1](../../rn/using/release-notes.md), Adobe Campaign Standard admite las API HTTP v1 para enviar mensajes de notificación push de Android.
+A partir de la versión [24.1](../../rn/using/release-notes.md), Adobe Campaign Standard admite las API HTTP v1 para enviar mensajes de notificación push de Android.
 
 ### ¿Se ha visto afectado? {#fcm-impact}
 
@@ -49,30 +49,30 @@ La transición a las API más recientes es obligatoria para evitar cualquier int
 
 #### Requisitos previos {#fcm-transition-prerequisites}
 
-* El apoyo de **API HTTP v1** se ha añadido el modo en la versión 24.1. Si su entorno se está ejecutando en una versión anterior, un requisito previo para este cambio es actualizar su entorno a la versión de [última versión de Campaign Standard](../../rn/using/release-notes.md).
+* La compatibilidad con el modo **HTTP v1 API** se ha agregado en la versión 24.1. Si su entorno se está ejecutando en una versión anterior, un requisito previo para este cambio es actualizar su entorno a la [última versión de Campaign Standard](../../rn/using/release-notes.md).
 
 * El archivo JSON de la cuenta del servicio Android Firebase Admin SDK es necesario para mover la aplicación móvil a HTTP v1. Obtenga información sobre cómo obtener este archivo en [Documentación de Google Firebase](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
 * Si sigue utilizando esta versión heredada del SDK, debe actualizar la implementación con el SDK de Adobe Experience Platform. Obtenga información sobre cómo migrar al SDK de Adobe Experience Platform en [este artículo](sdkv4-migration.md).
 
-* Asegúrese de que tiene el **Configuración de aplicaciones móviles** en Adobe Experience Platform Data Collection Mobile antes de realizar los pasos siguientes. [Más información](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=en#adobe-experience-platform-data-collection-permissions){target="_blank"}.
+* Asegúrese de tener el permiso **Configuración de aplicación móvil** en la recopilación de datos de Adobe Experience Platform Mobile antes de realizar los pasos siguientes. [Más información](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=en#adobe-experience-platform-data-collection-permissions){target="_blank"}.
 
 
 #### Procedimiento de transición {#fcm-transition-steps}
 
 Para mover el entorno a HTTP v1, siga estos pasos:
 
-1. Navegar a **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**.
+1. Vaya a **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**.
 
    ![](assets/push_technote_1.png)
 
 1. Seleccione la aplicación móvil específica que requiere la actualización del certificado.
 
-1. Compruebe la **[!UICONTROL Update app credentials]** casilla de verificación
+1. Marque la casilla **[!UICONTROL Update app credentials]**.
 
    ![](assets/push_technote_5.png)
 
-1. Proporcione el ID de la aplicación (nombre del paquete de Android) del proyecto de Android. `build.gradle` archivo. Por ejemplo, `com.android.test.testApp`. Asegúrese de utilizar ID diferentes para los entornos de ensayo y producción.
+1. Proporcione el ID de aplicación (nombre del paquete de Android) del archivo `build.gradle` de su proyecto de Android. Por ejemplo, `com.android.test.testApp`. Asegúrese de utilizar ID diferentes para los entornos de ensayo y producción.
 
 1. Cargue el archivo de clave privada JSON de Android.
 
@@ -97,7 +97,7 @@ La autenticación basada en tokens ofrece una forma sin estado de comunicarse co
 
 * Puede utilizar un token para distribuir notificaciones para todas las aplicaciones de la empresa.
 
-Obtenga más información acerca de las conexiones basadas en tokens a APNS en [Documentación para desarrolladores de Apple](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
+Obtenga más información acerca de las conexiones basadas en tokens a APN en [Documentación para desarrolladores de Apple](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
 
 Adobe Campaign Standard admite conexiones basadas en tokens y en certificados. Si la implementación depende de una conexión basada en certificados, Adobe le recomienda encarecidamente que la actualice a una conexión basada en tokens.
 
@@ -118,30 +118,30 @@ Si la implementación actual depende de solicitudes basadas en certificados para
 
 #### Requisitos previos {#ios-transition-prerequisites}
 
-* El apoyo de **Autenticación basada en tokens** se ha añadido el modo en [Versión 24.1](../../rn/using/release-notes.md). Si su entorno se está ejecutando en una versión anterior, un requisito previo para este cambio es actualizar su entorno a la versión de [última versión de Campaign Standard](../../rn/using/release-notes.md).
+* La compatibilidad con el modo **Autenticación basada en tokens** se ha agregado en [24.1](../../rn/using/release-notes.md). Si su entorno se está ejecutando en una versión anterior, un requisito previo para este cambio es actualizar su entorno a la [última versión de Campaign Standard](../../rn/using/release-notes.md).
 
-* Necesita una clave de firma de token de autenticación de APNS para generar los tokens que utiliza su servidor. Puede solicitar esta clave a su cuenta de desarrollador de Apple, tal como se explica en [Documentación para desarrolladores de Apple](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
+* Necesita una clave de firma de token de autenticación de APNS para generar los tokens que utiliza su servidor. Usted solicita esta clave desde su cuenta de desarrollador de Apple, como se explica en [Documentación para desarrolladores de Apple](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
 
 
 #### Procedimiento de transición {#ios-transition-steps}
 
 Para mover las aplicaciones móviles de iOS al modo de autenticación basado en tokens, siga estos pasos:
 
-1. Navegar a **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**.
+1. Vaya a **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**.
 
    ![](assets/push_technote_1.png)
 
 1. Seleccione la aplicación móvil específica que requiere la actualización del certificado.
 
-1. Compruebe la **[!UICONTROL Update app credentials]** casilla de verificación
+1. Marque la casilla **[!UICONTROL Update app credentials]**.
 
    ![](assets/push_technote_2.png)
 
-1. Proporcione el **ID de aplicación** (ID del paquete de iOS). Puede encontrar el ID del paquete de iOS (ID de aplicación) en el destino principal de la aplicación en Xcode.
+1. Proporcione el **ID de aplicación** (ID de paquete de iOS). Puede encontrar el ID del paquete de iOS (ID de aplicación) en el destino principal de la aplicación en Xcode.
 
 1. Cargue su **archivo de certificado p8 de iOS**.
 
-1. Rellene la configuración de conexión de APNS **[!UICONTROL Key Id]** y **[!UICONTROL iOS Team Id]**.
+1. Complete la configuración de conexión de APNS **[!UICONTROL Key Id]** y **[!UICONTROL iOS Team Id]**.
 
    ![](assets/push_technote_4.png)
 

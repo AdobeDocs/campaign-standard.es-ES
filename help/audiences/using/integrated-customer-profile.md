@@ -22,7 +22,7 @@ Hay disponible un perfil de cliente integrado para cada contacto de la base de d
 
 Para acceder al perfil integrado del cliente, siga estos pasos:
 
-1. En la página de inicio de Adobe Campaign, haga clic en **[!UICONTROL Customer profiles]** o la **Perfiles** para mostrar la lista de perfiles.
+1. En la página de inicio de Adobe Campaign, haga clic en la tarjeta **[!UICONTROL Customer profiles]** o en la ficha **Perfiles** para mostrar la lista de perfiles.
 
 1. Para buscar un perfil basado en un campo específico, abra el panel de búsqueda y, a continuación, seleccione el campo en el que desea realizar la búsqueda.
 

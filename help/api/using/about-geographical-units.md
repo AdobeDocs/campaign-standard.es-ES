@@ -20,8 +20,8 @@ ht-degree: 0%
 >
 >Como resultado, las nuevas instancias de Campaign Standard, así como las instancias existentes sin crear unidades geográficas, no pueden tener esta capacidad implementada a partir de la versión 18.7.
 >
->Para obtener más información, consulte <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=es#release-notes">Funciones obsoletas</a> página.
+>Para obtener más información, consulte la página <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=es#release-notes">Funciones obsoletas</a>.
 
-El **geoUnitBase** El punto de conexión permite interactuar con las unidades geográficas, lo que permite, por ejemplo, actualizar sus atributos o actualizar la unidad de un perfil.
+El extremo **geoUnitBase** le permite interactuar con unidades geográficas, lo que le permite, por ejemplo, actualizar sus atributos o actualizar la unidad de un perfil.
 
-El **Unidad geográfica** Este campo se añade a un perfil al ampliar el recurso de perfil. Como resultado, recuerde utilizar siempre la variable **profileAndServicesExt** punto de conexión para interactuar con unidades geográficas. Para obtener más información sobre la extensión de recursos del perfil, consulte la [Documentación de Campaign](https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles).
+El campo **Unidad geográfica** se agrega a un perfil al ampliar el recurso de perfil. Como resultado, recuerde usar siempre el extremo **profileAndServicesExt** para interactuar con las unidades geográficas. Para obtener más información sobre la extensión de recursos del perfil, consulte la [documentación de Campaign](https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles).

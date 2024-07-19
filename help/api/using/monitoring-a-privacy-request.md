@@ -17,13 +17,13 @@ ht-degree: 16%
 
 # Supervisión de una solicitud de privacidad {#monitoring-a-privacy-request}
 
-Puede supervisar la información sobre una solicitud de privacidad creada mediante una **GET** solicitud.
+Puede supervisar la información sobre una solicitud de privacidad creada mediante una solicitud de **GET**.
 
-La descripción de la lista de estado está disponible en la [Documentación de administración de privacidad](../../start/using/privacy-requests.md).
+La descripción de la lista de estado está disponible en [Documentación de administración de privacidad](../../start/using/privacy-requests.md).
 
 <br/>
 
-***Solicitud de ejemplo***
+***Solicitud de muestra***
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \

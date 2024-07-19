@@ -19,12 +19,12 @@ ht-degree: 22%
 
 <table style="table-layout:fixed">
 <tr>
-<td><img src="assets/do-not-localize/config_push.png" width="60px"><p>Obtenga información sobre cómo configurar la aplicación móvil para notificaciones push </br><a href="#configuration-push">Haga clic aquí</a></p></td>
-<td><img src="assets/do-not-localize/config_inapp.png" width="60px"><p>Obtenga información sobre cómo configurar la aplicación móvil para mensajes en la aplicación </br><a href="#configuring-mobile-app">Haga clic aquí</a></p></td>
+<td><img src="assets/do-not-localize/config_push.png" width="60px"><p>Aprenda a configurar su aplicación móvil para las notificaciones push </br><a href="#configuration-push">Haga clic aquí</a></p></td>
+<td><img src="assets/do-not-localize/config_inapp.png" width="60px"><p>Aprenda a configurar la aplicación móvil para los mensajes en la aplicación </br><a href="#configuring-mobile-app">Haga clic aquí</a></p></td>
 </tr>
 <tr>
-<td><img src="assets/do-not-localize/push2.png" width="60px"><p>Más información sobre cómo crear notificaciones push </br><a href="#create-push">Haga clic aquí</a></p></td>
-<td><img src="assets/do-not-localize/inapp.png" width="60px"><p>Obtenga información sobre cómo crear mensajes en la aplicación</br><a href="#create-inapp">Haga clic aquí</a></p></td></tr>
+<td><img src="assets/do-not-localize/push2.png" width="60px"><p>Más información sobre cómo crear notificaciones push </br><a href="#create-push">Haz clic aquí</a></p></td>
+<td><img src="assets/do-not-localize/inapp.png" width="60px"><p>Aprenda a crear mensajes en la aplicación</br><a href="#create-inapp">Haga clic aquí</a></p></td></tr>
 </table>
 
 ## Acerca de la entrega móvil {#about-mobile}
@@ -68,7 +68,7 @@ Con Adobe Campaign Standard, puede realizar envíos móviles a través de tres c
     <div>
     <p><strong>Implementación del seguimiento push</strong></p>
     </div>
-    <p>Aprenda a garantizar que el seguimiento de notificaciones push se haya implementado correctamente en iOS y Android.</br><a href="../../administration/using/push-tracking.md"><strong>Haga clic aquí</strong></a> para obtener más información.</p>
+    <p>Obtenga información sobre cómo asegurarse de que el seguimiento de notificaciones push se haya implementado correctamente en iOS y Android.</br><a href="../../administration/using/push-tracking.md"><strong>Haga clic aquí</strong></a> para obtener más información.</p>
     <br>
   </td>
 </tr>
@@ -98,7 +98,7 @@ Con Adobe Campaign Standard, puede realizar envíos móviles a través de tres c
     <div>
     <p><strong>Configuración de reglas de etiquetas para admitir casos de uso de Adobe Campaign Standard</strong></p>
     </div>
-    <p><a href="../../administration/using/configuring-rules-launch.md"><strong>Haga clic aquí</strong></a> para empezar a crear elementos de datos y reglas en la interfaz de usuario de recopilación de datos para enviar PII y otros datos de aplicaciones móviles a Adobe Campaign Standard.</p>
+    <p><a href="../../administration/using/configuring-rules-launch.md"><strong>Haga clic aquí</strong></a> para empezar a crear elementos de datos y reglas en la IU de recopilación de datos para enviar PII y otros datos de aplicaciones móviles a Adobe Campaign Standard.</p>
     <br>
   </td>
   <td>
@@ -119,7 +119,7 @@ Con Adobe Campaign Standard, puede realizar envíos móviles a través de tres c
     <div>
     <p><strong>Preparación y envío de una notificación push</strong></p>
     </div>
-    <p><a href="../../channels/using/preparing-and-sending-a-push-notification.md"><strong>Obtenga información aquí</strong></a> Obtenga información sobre cómo preparar la notificación push y, a continuación, cómo enviarla a la audiencia de destino.</p>
+    <p><a href="../../channels/using/preparing-and-sending-a-push-notification.md"><strong>Obtenga información aquí</strong></a> sobre cómo preparar la notificación push y cómo enviarla a la audiencia de destino.</p>
     <br>
   </td>
   <td>
@@ -142,7 +142,7 @@ Con Adobe Campaign Standard, puede realizar envíos móviles a través de tres c
     <div>
     <p><strong>Mostrar una imagen desde una notificación push de Adobe Campaign Standard</strong></p>
     </div>
-    <p><a href="../../administration/using/image-push-notification.md"><strong>Obtenga información aquí</strong></a> Obtenga información sobre cómo mostrar una imagen desde una notificación push de Adobe Campaign en un dispositivo iOS.</p>
+    <p><a href="../../administration/using/image-push-notification.md"><strong>Aprenda aquí</strong></a> cómo mostrar una imagen desde una notificación push de Adobe Campaign en un dispositivo iOS.</p>
     <br>
   </td>
 </tr>
@@ -156,7 +156,7 @@ Con Adobe Campaign Standard, puede realizar envíos móviles a través de tres c
     <div>
     <p><strong>Preparación y envío de un mensaje en la aplicación</strong></p>
     </div>
-    <p><a href="../../channels/using/preparing-and-sending-an-in-app-message.md"><strong>Obtenga información aquí</strong></a> Obtenga información sobre cómo preparar los mensajes en la aplicación y, a continuación, cómo enviarlos a la audiencia de destino.</p>
+    <p><a href="../../channels/using/preparing-and-sending-an-in-app-message.md"><strong>Aprenda aquí</strong></a> a preparar sus mensajes en la aplicación y a enviarlos a su audiencia de destino.</p>
     <br>
   </td>
   <td>
@@ -193,7 +193,7 @@ Con Adobe Campaign Standard, puede realizar envíos móviles a través de tres c
     <div>
     <p><strong>Creación de un mensaje SMS</strong></p>
     </div>
-    <p>Crear un envío SMS es muy similar a crear un correo electrónico normal. </br>Los pasos <a href="../../channels/using/creating-an-sms-message.md"><strong>detalladamente aquí</strong></a> describa la configuración específica de este canal.</p>
+    <p>Crear un envío SMS es muy similar a crear un correo electrónico normal. </br>Los pasos <a href="../../channels/using/creating-an-sms-message.md"><strong>detallados aquí</strong></a> describen la configuración específica de este canal.</p>
     <br>
   </td>
   <td>
@@ -210,7 +210,7 @@ Con Adobe Campaign Standard, puede realizar envíos móviles a través de tres c
     <div>
     <p><strong>Administración de SMS entrantes</strong></p>
     </div>
-    <p>Cuando un perfil responde a un mensaje SMS enviado a través de Campaign, puede configurar mensajes que se envían automáticamente, así como la acción que se va a realizar.Personalización de un tipo de mensaje de notificación local</br><a href="../../channels/using/managing-incoming-sms.md"><strong>Haga clic aquí para obtener más información.</p>
+    <p>Cuando un perfil responde a un mensaje SMS enviado a través de Campaign, puede configurar los mensajes que se les envían automáticamente, así como la acción que se va a realizar.Personalizar un tipo de mensaje de notificación local</br><a href="../../channels/using/managing-incoming-sms.md"><strong>Haga clic aquí para obtener más información.</p>
     <br>
   </td>
   <td>

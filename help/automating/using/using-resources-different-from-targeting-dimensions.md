@@ -20,7 +20,7 @@ ht-degree: 76%
 
 En estos casos de uso se presenta cómo utilizar un recurso que es diferente de la dimensión de segmentación, por ejemplo, para buscar un registro específico en una tabla distante.
 
-Para obtener más información sobre dimensiones de segmentación y recursos, consulte [esta sección](../../automating/using/query.md#targeting-dimensions-and-resources)
+Para obtener más información sobre recursos y dimensiones de segmentación, consulte [esta sección](../../automating/using/query.md#targeting-dimensions-and-resources)
 
 **Ejemplo 1: identificación de perfiles segmentados por el envío con la etiqueta &quot;Bienvenido de nuevo&quot;**.
 

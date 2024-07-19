@@ -22,10 +22,10 @@ Puede crear flujos de trabajo para administrar procesos completos en sus campañ
 
 La pantalla de edición del flujo de trabajo se compone de los siguientes elementos:
 
-* El [Paleta](#palette), que hace referencia a las actividades disponibles.
-* El [Workspace](#workspace), en el que se configuran y organizan las actividades.
-* El [Barra de acciones](#action-bar), que está formado por botones que le permiten interactuar con el flujo de trabajo y/o sus componentes.
-* El [Acciones rápidas](#quick-actions), que aparecen alrededor de una actividad seleccionada, le permiten interactuar con ella.
+* La [Paleta](#palette), que hace referencia a las actividades disponibles.
+* [Workspace](#workspace), en el que se configuran y organizan las actividades.
+* La [barra de acciones](#action-bar), que está formada por botones que le permiten interactuar con el flujo de trabajo o sus componentes.
+* Las [acciones rápidas](#quick-actions), que aparecen alrededor de una actividad seleccionada, le permiten interactuar con ella.
 
 ![](assets/wkf_overview.png)
 
@@ -33,7 +33,7 @@ La pantalla de edición del flujo de trabajo se compone de los siguientes elemen
 
 La paleta se encuentra en el lado izquierdo de la pantalla. Todas las actividades disponibles se clasifican en varias categorías:
 
-* [Segmentación](../../automating/using/about-targeting-activities.md): actividades específicas para segmentar, manipular los datos de población y filtrar actividades
+* [Segmentación](../../automating/using/about-targeting-activities.md): actividades específicas para la segmentación, manipulación de datos de población y filtrado de actividades
 * [Ejecución](../../automating/using/about-execution-activities.md): actividades específicas para organizar y ejecutar flujos de trabajo
 * [Canales](../../automating/using/about-channel-activities.md): actividades que representan los diferentes canales de comunicación disponibles
 * [Administración de datos (ETL)](../../automating/using/about-data-management-activities.md): actividades específicas para manipular datos
@@ -50,22 +50,22 @@ El espacio de trabajo es la zona central del editor de flujo de trabajo. Es en e
 
 Para vincular dos actividades, mueva el final de la flecha desde la primera actividad hasta la siguiente actividad hasta que se conecten. También puede mover la actividad hacia el punto de la flecha detrás de ella para vincularla a la actividad anterior. Si mueve cualquiera de las actividades, permanecerán vinculadas.
 
-Las transiciones que siguen a actividades que procesan datos contienen las poblaciones intermediarias. Puede acceder a ellas si marca la **[!UICONTROL Keep interim results]** en la opción **[!UICONTROL Execution]** de las propiedades del flujo de trabajo
+Las transiciones que siguen a actividades que procesan datos contienen las poblaciones intermediarias. Puede acceder a ellas si marca la opción **[!UICONTROL Keep interim results]** en la sección **[!UICONTROL Execution]** de las propiedades del flujo de trabajo.
 
 >[!CAUTION]
 >
 >Esta opción consume mucho espacio en el disco y está diseñada para ayudarle a crear un flujo de trabajo y garantizar una configuración y un comportamiento adecuados. Deje sin marcar las instancias de producción.
 
 
-Cuando se selecciona una actividad, aparecen acciones rápidas en torno a ella, lo que le permite interactuar con ella. Por ejemplo, para configurar una actividad, selecciónela y ábrala utilizando el ![](assets/edit_darkgrey-24px_table.png) en las acciones rápidas.
+Cuando se selecciona una actividad, aparecen acciones rápidas en torno a ella, lo que le permite interactuar con ella. Por ejemplo, para configurar una actividad, selecciónela y ábrala con el botón ![](assets/edit_darkgrey-24px_table.png) en las acciones rápidas.
 
 Algunas funciones solo están habilitadas en el espacio de trabajo:
 
 * Seleccione varias actividades y transiciones dibujando una zona alrededor de ellas.
-* Prensa **Ctrl** + clic izquierdo para seleccionar varias actividades y/o transiciones.
-* Prensa **Entrar** para ver los detalles de la actividad o transición seleccionada actualmente.
-* Prensa **Eliminar** para eliminar la actividad seleccionada actualmente.
-* Prensa **Ctrl + C** para copiar las actividades seleccionadas y **Ctrl + V** para pegarlos en el espacio de trabajo.
+* Presione **Ctrl** + clic izquierdo para seleccionar varias actividades y/o transiciones.
+* Pulse **Intro** para ver los detalles de la actividad o transición seleccionada actualmente.
+* Pulse **Eliminar** para eliminar la actividad seleccionada actualmente.
+* Presione **Ctrl + C** para copiar las actividades seleccionadas y **Ctrl + V** para pegarlas en el área de trabajo.
 
 ![](assets/workflow_workspace.png)
 
@@ -87,7 +87,7 @@ Según los elementos seleccionados en el espacio de trabajo o el estado de ejecu
 
 <img height="21px" src="assets/checkcircle_darkgrey-24px_table.png" /> **[!UICONTROL Enable multi-selection]**<br/>Habilita el modo de selección múltiple. El flujo de trabajo debe estar compuesto por al menos dos actividades.
 
-<img height="21px" src="assets/closecircle_darkgrey-24px_table.png" /> **[!UICONTROL Disable multi-selection]**<br/>Desactiva el modo de selección múltiple.<br />
+<img height="21px" src="assets/closecircle_darkgrey-24px_table.png" /> **[!UICONTROL Disable multi-selection]**<br/>Deshabilita el modo de selección múltiple.<br />
 
 <img height="21px" src="assets/targeted.png" /> **[!UICONTROL Open transition]**<br/>Abre la transición seleccionada.<br />
 
@@ -95,7 +95,7 @@ Según los elementos seleccionados en el espacio de trabajo o el estado de ejecu
 
 <img height="21px" src="assets/check_pause_darkgrey-24px_table.png" /> **[!UICONTROL Execution suspended]**<br/>Pausa el flujo de trabajo en la actividad seleccionada.<br />
 
-<img height="21px" src="assets/checkdisable.png" /> **[!UICONTROL No execution]**<br/>Desactiva la actividad.<br />
+<img height="21px" src="assets/checkdisable.png" /> **[!UICONTROL No execution]**<br/>Deshabilita la actividad.<br />
 
 <img height="21px" src="assets/delete_darkgrey-24px_table.png" /> **[!UICONTROL Delete selection]**<br/>Elimina las actividades seleccionadas.<br />
 
@@ -111,15 +111,15 @@ Cuando se selecciona una actividad, aparecen botones de acción rápida alrededo
 
 <img height="21px" src="assets/copy_24px.png" /> **[!UICONTROL Copy selection]**<br/>Copia la actividad seleccionada.
 
-<img height="21px" src="assets/wkf_dlv_act_params_icon.png" /> **[!UICONTROL Open the activity's advanced options]**<br/>Abre las opciones avanzadas de la actividad Entregar correo electrónico o SMS seleccionada.
+<img height="21px" src="assets/wkf_dlv_act_params_icon.png" /> **[!UICONTROL Open the activity's advanced options]**<br/>Abre las opciones avanzadas de la actividad de envío de correo electrónico o SMS seleccionada.
 
 <img height="21px" src="assets/check_darkgrey-24px_table.png" /> **[!UICONTROL Normal execution]**<br/>Vuelve a habilitar la selección si anteriormente se ha deshabilitado o marcado como en pausa.
 
 <img height="21px" src="assets/check_pause_darkgrey-24px_table.png" /> **[!UICONTROL Execution suspended]**<br/>Pausa el flujo de trabajo en la actividad seleccionada.
 
-<img height="21px" src="assets/checkdisable.png" /> **[!UICONTROL No execution]**<br/>Desactiva la actividad.
+<img height="21px" src="assets/checkdisable.png" /> **[!UICONTROL No execution]**<br/>Deshabilita la actividad.
 
-<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Immediate execution]**<br/>Fuerza el procesamiento inmediato de la selección. Este botón solo está disponible para <span class="uicontrol">Planificador</span> y <span class="uicontrol">Esperar</span> actividades.
+<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Immediate execution]**<br/>Obliga al procesamiento inmediato de la selección. Este botón solo está disponible para las actividades <span class="uicontrol">Scheduler</span> y <span class="uicontrol">Wait</span>.
 
 <img height="21px" src="assets/delete_darkgrey-24px_table.png" /> **[!UICONTROL Delete selection]**<br/>Elimina las actividades seleccionadas.
 
@@ -135,15 +135,15 @@ Una vez duplicada una actividad, se conserva toda su configuración. Para las ac
 
 Para duplicar una actividad, siga los pasos a continuación:
 
-1. Seleccione la actividad y haga clic en **[!UICONTROL Copy selection]** de las acciones rápidas.
+1. Seleccione la actividad y haga clic en el botón **[!UICONTROL Copy selection]** en las acciones rápidas.
 
-   También puede utilizar la variable **Ctrl + C** método abreviado de teclado.
+   También puede usar el método abreviado de teclado **Ctrl + C**.
 
    ![](assets/wkf_copypaste1.png)
 
-1. Haga clic con el botón derecho en el espacio de trabajo del flujo de trabajo de destinatario y luego haga clic en **[!UICONTROL Paste]** botón.
+1. Haga clic con el botón derecho en el área de trabajo de flujo de trabajo de destino y luego haga clic en el botón **[!UICONTROL Paste]**.
 
-   También puede utilizar la variable **CTRL + V** método abreviado de teclado.
+   También puede usar el método abreviado de teclado **CTRL + V**.
 
    ![](assets/wkf_copypaste2.png)
 
@@ -151,6 +151,6 @@ Para duplicar una actividad, siga los pasos a continuación:
 
 También es posible copiar y pegar varias actividades, lo que permite duplicar un flujo de trabajo completo.
 
-Para ello, seleccione las actividades dibujando una zona alrededor de ellas. luego haga clic en **[!UICONTROL Copy selection]** botón de la barra de acciones (o pulse **Ctrl + C**). A continuación, puede pegarlos en la ubicación deseada.
+Para ello, seleccione las actividades dibujando una zona alrededor de ellas. a continuación, haga clic en el botón **[!UICONTROL Copy selection]** de la barra de acciones (o presione **Ctrl + C**). A continuación, puede pegarlos en la ubicación deseada.
 
 ![](assets/wkf_copypaste3.png)

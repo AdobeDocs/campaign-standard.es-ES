@@ -236,7 +236,7 @@ ht-degree: 97%
 **Funciones adicionales** (a partir del 13 de julio)
 
 * **Optimización de tiempo de envío con tecnología de IA y puntuación de perfiles**: ahora puede optimizar el diseño y el envío de los recorridos de los clientes para predecir las preferencias de participación de cada individuo. Con la tecnología de Journey AI, Adobe Campaign puede analizar y predecir las tasas abiertas, los tiempos de envío óptimos y la probable reproducción basada en las métricas de participación históricas. [Más información](../../sending/using/predictive.md)
-* **La nueva regulación de privacidad de Brasil** - Además de las funcionalidades de privacidad disponibles en Campaign, Adobe le ayuda a prepararse para la Lei Geral de Proteçao de Datos (LGPD) de Brasil. Al crear una solicitud de privacidad, se ha agregado la regulación LGPD en el servicio principal de privacidad de Adobe. [Más información](https://helpx.adobe.com/es/campaign/kb/campaign-privacy-overview.html)
+* **Nueva regulación de privacidad de Brasil**: además de las capacidades de privacidad ya disponibles en Campaign, Adobe le ayuda a prepararse para la Lei Geral de Proteçao de Datos (LGPD) de Brasil. Al crear una solicitud de privacidad, se ha agregado la regulación LGPD en el servicio principal de privacidad de Adobe. [Más información](https://helpx.adobe.com/es/campaign/kb/campaign-privacy-overview.html)
 
 **Mejoras**
 
@@ -267,7 +267,7 @@ ht-degree: 97%
 
 **Integraciones de Experience Platform**
 
-* Activación de audiencias de Adobe Experience Platform desde **Leer audiencia** se ha mejorado la actividad de para proporcionar un mejor rendimiento y estabilidad. Además, los registros de flujo de trabajo se han simplificado para añadir claridad y detallado con respecto a los trabajos de activación, lo que facilita la monitorización y la resolución de problemas al leer audiencias de Adobe Experience Platform.
+* Se ha mejorado la activación de audiencias de Adobe Experience Platform desde la actividad **Leer audiencia** para proporcionar un mejor rendimiento y estabilidad. Además, los registros de flujo de trabajo se han simplificado para añadir claridad y detallado con respecto a los trabajos de activación, lo que facilita la monitorización y la resolución de problemas al leer audiencias de Adobe Experience Platform.
 
 **Parches**
 

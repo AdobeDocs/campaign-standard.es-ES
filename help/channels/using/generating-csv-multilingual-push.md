@@ -38,37 +38,37 @@ La funcionalidad push multilingüe requiere 14 columnas en el archivo CSV:
 1. idioma
 1. quietPush
 
-Compruebe el ejemplo de CSV haciendo clic en **[!UICONTROL Download a sample file]** en el **[!UICONTROL Manage Content Variants]** ventana. Para obtener más información, consulte esta [sección](../../channels/using/creating-a-multilingual-push-notification.md).
+Compruebe el ejemplo CSV haciendo clic en **[!UICONTROL Download a sample file]** en la ventana **[!UICONTROL Manage Content Variants]**. Para obtener más información, consulte esta [sección](../../channels/using/creating-a-multilingual-push-notification.md).
 
-* **title, messageBody, sound, badge, deeplinkURI, category, iosMediaAttachmentURL, androidMediaAttachmentURL**: contenido de carga útil push normal. Debe proporcionar esta información de manera similar a como se hace al crear envíos push.
-* **Campos personalizados**: utilice el formato JSON para los campos personalizados, por ejemplo. `{"key1":"value1","key2":"value2"}`. Consulte el archivo de muestra anterior para ver un ejemplo de campos personalizados.
-* **isContentAvailable**: indicador para la comprobación de Contenido disponible, el valor 1 implica verdadero, el valor 0 implica falso. El valor predeterminado es 0. Si deja esta columna en blanco, el valor se considerará 0.
-* **isMutableContent**: indicador para Contenido mutable, el valor 1 implica verdadero, el valor 0 implica falso. El valor predeterminado es 0. Si deja esta columna en blanco, el valor se considerará 0.
-* **locale**: configuración regional es el campo para las variantes de idioma, por ejemplo, &quot;en_us&quot; para inglés estadounidense y &quot;fr_fr&quot; para francés.
+* **title, messageBody, sound, badge, deeplinkURI, category, iosMediaAttachmentURL, androidMediaAttachmentURL**: contenido de carga push normal. Debe proporcionar esta información de manera similar a como se hace al crear envíos push.
+* **Campos personalizados**: use el formato JSON para los campos personalizados, p. ej. `{"key1":"value1","key2":"value2"}`. Consulte el archivo de muestra anterior para ver un ejemplo de campos personalizados.
+* **isContentAvailable**: indicador de la comprobación de Contenido disponible, el valor 1 implica verdadero, el valor 0 implica falso. El valor predeterminado es 0. Si deja esta columna en blanco, el valor se considerará 0.
+* **isMutableContent**: indicador de contenido mutable, el valor 1 implica verdadero, el valor 0 implica falso. El valor predeterminado es 0. Si deja esta columna en blanco, el valor se considerará 0.
+* **configuración regional**: la configuración regional es el campo para las variantes de idioma, por ejemplo, &quot;en_us&quot; para inglés de EE. UU. y &quot;fr_fr&quot; para francés.
 * **idioma**: nombre del idioma asociado con la configuración regional. Por ejemplo, si la configuración regional es &quot;en_us&quot;, el nombre del idioma debe ser &quot;Inglés-Estados Unidos&quot;.
-* **quietPush**: indicador para el tipo de notificación push. Si es una notificación push regular, el valor debe ser 0. Si se trata de una inserción silenciosa, el valor debe ser 1. El valor predeterminado es 0. Si deja esta columna en blanco, el valor se considerará 0.
+* **quietPush**: indicador del tipo de notificación push. Si es una notificación push regular, el valor debe ser 0. Si se trata de una inserción silenciosa, el valor debe ser 1. El valor predeterminado es 0. Si deja esta columna en blanco, el valor se considerará 0.
 
 ## Restricciones y directrices para la creación de archivos .csv {#constraints-guideline-csv}
 
 **El nombre de cada columna es fijo**.
 Debe incluir el nombre de cada columna en el archivo CSV. Si no utiliza ninguna columna para el contenido, déjelo en blanco.
 
-**Las columnas &quot;locale&quot; e &quot;language&quot; son obligatorias y el valor es único para cada fila.**
+Las columnas **&quot;locale&quot; e &quot;language&quot; son obligatorias y el valor es único para cada fila.**
 Un valor en blanco para esta columna provocará un error en la carga del archivo.
 
-**El orden de las columnas importa**. El orden de las columnas del archivo cargado debe seguir el mismo formato que el archivo de muestra.
+**El orden de las columnas es importante**. El orden de las columnas del archivo cargado debe seguir el mismo formato que el archivo de muestra.
 
-**Citar contenido de columna**. Dado que se trata de un archivo CSV (significa Valores separados por comas), cualquier contenido de columna que incluya una coma (,) debe citarse. Por ejemplo: &quot;¡Hola, Tom!&quot;
+**Contenido de columna de cotización**. Dado que se trata de un archivo CSV (significa Valores separados por comas), cualquier contenido de columna que incluya una coma (,) debe citarse. Por ejemplo: &quot;¡Hola, Tom!&quot;
 
-**La codificación UTF-8 es necesaria para caracteres internacionales.**
+Se requiere la codificación **UTF-8 para los caracteres internacionales.**
 
 **Si genera el archivo mediante texto sin formato, separe cada columna con &quot;,&quot;.**
 
-**La variante no coincide.** Si utiliza bloques de contenido y audiencias de destino con idiomas específicos, debe enumerar todos los idiomas de destino en el archivo CSV o se producirá un error al realizar el envío.
+**Variante No Coincidente.** Si usa bloques de contenido y audiencias de destino con idiomas específicos, debe enumerar todos los idiomas de destino en el archivo CSV o recibirá un error al realizar el envío.
 
 ## Inserción del campo de personalización en el archivo CSV {#personalization-field-csv}
 
-Si desea utilizar campos de personalización, debe incluir lo siguiente <span> en el archivo.
+Si desea utilizar campos de personalización, debe incluir la etiqueta <span> en el archivo.
 
 Para insertar el campo de personalización &quot;firstName&quot; en messageBody, el mensaje debe:
 
@@ -86,7 +86,7 @@ En el intervalo hay dos atributos obligatorios:
 
 * Una es la clase que es estática. Independientemente del campo de personalización que planee utilizar, siempre será class=&quot;nl-dce-field nl-dce-done&quot;.
 
-* Otro es data-nl-expr, que es la ruta del campo de personalización. Por ejemplo, si inserta el campo de personalización &quot;firstName&quot; desde la interfaz de usuario, la ruta de navegación será **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]** (como se muestra en la siguiente imagen). En este caso, la ruta es
+* Otro es data-nl-expr, que es la ruta del campo de personalización. Por ejemplo, si inserta el campo de personalización &quot;firstName&quot; desde la interfaz de usuario, la ruta de navegación será **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]** (como se muestra en la imagen siguiente). En este caso, la ruta es
 
   ```
   /context/profile/firstName. data-nl-expr="/context/profile/firstName".

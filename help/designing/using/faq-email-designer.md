@@ -1,6 +1,6 @@
 ---
-title: Preguntas más frecuentes sobre el Diseñador de correo electrónico
-description: Preguntas frecuentes sobre el Diseñador de correo electrónico.
+title: Preguntas más frecuentes sobre Designer de correo electrónico
+description: Preguntas frecuentes sobre Email Designer.
 audience: designing
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 ---
 
-# Preguntas más frecuentes sobre el Diseñador de correo electrónico
+# Preguntas más frecuentes sobre Designer de correo electrónico
 
 ## ¿Cuál es la diferencia entre los bloques de contenido y los fragmentos de contenido?
 
@@ -23,7 +23,7 @@ Los bloques de contenido y los fragmentos de contenido son fragmentos de conteni
 
 * Los bloques de contenido son HTML puros donde el código de HTML se inserta manualmente (no es una interfaz de usuario fácil de usar, es código fuente directo). Aunque está muy orientado a personas con conocimientos HTML, permite un nivel de personalización que no está disponible en los fragmentos de contenido.
 
-* Los fragmentos de contenido son fragmentos visuales de contenido creados mediante el Diseñador de correo electrónico, con su interfaz de usuario fácil de usar. Sin embargo, no es posible personalizar el contenido. Si la personalización es necesaria, solo se puede realizar mediante bloques de contenido.
+* Los fragmentos de contenido son fragmentos visuales de contenido creados mediante Designer de correo electrónico, con su interfaz de usuario fácil de usar. Sin embargo, no es posible personalizar el contenido. Si la personalización es necesaria, solo se puede realizar mediante bloques de contenido.
 
 ## ¿Cómo se puede añadir relleno a un elemento desde la estructura del HTML?
 
@@ -37,9 +37,9 @@ Puede agregar relleno utilizando la ruta de exploración del HTML.
 1. Haga clic en la etiqueta principal en la ruta de exploración del HTML.
 Ahora puede agregar un relleno a este elemento.
 
-## ¿Puedo importar contenido de HTML en el Diseñador de correo electrónico?
+## ¿Puedo importar contenido de HTML en Email Designer?
 
-Puede cargar su propio contenido de HTML en el Diseñador de correo electrónico. Si no se ha creado mediante el Diseñador de correo electrónico, se cargará en modo de compatibilidad, diseñado para mantener el HTML original, pero limita ciertas funciones de edición a través de la interfaz de usuario.
+Puede cargar su propio contenido de HTML en el Designer de correo electrónico. Si no se ha creado mediante Email Designer, se cargará en modo de compatibilidad diseñado para mantener el HTML original, pero limita ciertas funciones de edición a través de la interfaz de usuario.
 
 Para obtener más información, consulte [Modo de compatibilidad](../../designing/using/using-existing-content.md#compatibility-mode)
 
@@ -54,7 +54,7 @@ Para obtener más información, consulte [Creación de un correo electrónico de
 
 El Diseñador de correo electrónico está en constante mejora. Si ha creado contenido de correo electrónico desde cero a partir de una plantilla predeterminada o si ha creado fragmentos, es posible que tenga que actualizar el contenido a la versión más reciente para evitar problemas como problemas de colisión con CSS.
 
-Para obtener más información, consulte [Actualización de fragmentos](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)
+Para obtener más información, consulte [Actualizar fragmentos](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)
 
 ## ¿Puedo guardar estilos en una temática?
 

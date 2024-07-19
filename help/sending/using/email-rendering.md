@@ -72,13 +72,13 @@ Este informe presenta los procesamientos de correo electrónico tal y como apare
 
 ### Tokens de procesamiento de correo electrónico
 
-El número de procesamientos disponibles aparece en el contrato de licencia. Cada envío con **Procesamiento de correo electrónico** enabled reduce en uno los procesamientos disponibles (conocidos como tokens).
+El número de procesamientos disponibles aparece en el contrato de licencia. Cada entrega con **Procesamiento de correo electrónico** habilitado reduce en uno los procesamientos disponibles (conocidos como tokens).
 
 Los tokens corresponden a cada renderización individual y no al informe completo de renderización de correo electrónico, lo que significa que:
 
-* **Cada vez** Cuando se genera el informe de procesamiento de correo electrónico, se resta un token por cada cliente de mensajería: uno para el procesamiento de Outlook 2000, uno para el procesamiento de Outlook, uno para el procesamiento de Apple Mail, etc.
+* **Cada vez** que se genera el informe de procesamiento de correo electrónico, se resta un token por cada cliente de mensajería: uno para el procesamiento de Outlook 2000, uno para el procesamiento de Outlook, uno para el procesamiento de Apple Mail, etc.
 
-* **Para el mismo envío** Sin embargo, si vuelve a generar el procesamiento por correo electrónico, el número de tokens disponibles se reduce de nuevo según el número de procesamientos generados.
+* **Para el mismo envío**, si genera de nuevo el procesamiento de correo electrónico, el número de tokens disponibles se reduce de nuevo según el número de procesamientos generados.
 
 ### Resumen del informe
 

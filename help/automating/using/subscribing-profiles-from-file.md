@@ -24,7 +24,7 @@ El flujo de trabajo se presenta de la siguiente manera:
 
 ![](assets/subscription_activity_example1.png)
 
-* A [Cargar archivo](../../automating/using/load-file.md) la actividad carga el archivo de perfil y define la estructura de las columnas importadas.
+* Una actividad [Cargar archivo](../../automating/using/load-file.md) carga el archivo de perfil y define la estructura de las columnas importadas.
 
   Para este ejemplo, el archivo cargado tiene el formato .csv y contiene los datos siguientes:
 
@@ -43,14 +43,14 @@ El flujo de trabajo se presenta de la siguiente manera:
 
   ![](assets/subscription_activity_example2.png)
 
-* A [Reconciliación](../../automating/using/reconciliation.md) La actividad identifica los datos del archivo como pertenecientes a la dimensión de perfil de la base de datos de Adobe Campaign. Solo se configura la pestaña **[!UICONTROL Identification]**. Identifica los datos del archivo según las direcciones de correo electrónico de los perfiles.
+* Una actividad [Reconciliation](../../automating/using/reconciliation.md) identifica los datos del archivo como pertenecientes a la dimensión de perfil de la base de datos de Adobe Campaign. Solo se configura la pestaña **[!UICONTROL Identification]**. Identifica los datos del archivo según las direcciones de correo electrónico de los perfiles.
 
   ![](assets/subscription_activity_example3.png)
 
-* A [Deduplicación](../../automating/using/deduplication.md) basado en el **email** el campo del recurso temporal (resultante de la reconciliación) identifica cualquier duplicado. Si los datos importados del archivo contienen duplicados, la suscripción a un servicio genera un error en todos los datos.
+* Una [anulación de duplicación](../../automating/using/deduplication.md) basada en el campo **correo electrónico** del recurso temporal (resultante de la reconciliación) identifica cualquier duplicado. Si los datos importados del archivo contienen duplicados, la suscripción a un servicio genera un error en todos los datos.
 
   ![](assets/subscription_activity_example5.png)
 
-* A [Servicios de suscripción](../../automating/using/subscription-services.md) La actividad de permite seleccionar el servicio al que se deben suscribir los perfiles, el campo correspondiente a la fecha de suscripción y el origen de la suscripción.
+* Una actividad [Servicios de suscripción](../../automating/using/subscription-services.md) le permite seleccionar el servicio al que se deben suscribir los perfiles, el campo correspondiente a la fecha de suscripción y el origen de la suscripción.
 
   ![](assets/subscription_activity_example4.png)

@@ -17,12 +17,12 @@ ht-degree: 12%
 
 # Recuperación de la unidad geográfica de un perfil {#retrieving-geographical-unit}
 
-1. Realice una solicitud de GET en la clave principal del perfil para recuperar la clave **geoUnit** URL.
+1. Realice una solicitud de GET en la clave principal del perfil para recuperar la dirección URL **geoUnit**.
 1. Realice una solicitud de GET en la URL para recuperar más detalles sobre la unidad geográfica.
 
 <br/>
 
-***Solicitud de ejemplo***
+***Solicitud de muestra***
 
 Recupere el registro de perfil.
 

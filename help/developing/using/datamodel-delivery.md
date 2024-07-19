@@ -490,15 +490,15 @@ ht-degree: 28%
                         <li>Error - error - 87</li>
                         <li>En curso - iniciado - 55</li>
                         <li>Segmentación pendiente: targetPrepPending: 11</li>
-                        <li>Personalización pendiente: messagePrepPending: 21</li>
+                        <li>Personalization pendiente: messagePrepPending: 21</li>
                         <li>En pausa: en pausa: 75</li>
                         <li>Edición - edición - 0</li>
                         <li>Terminado - terminado - 95</li>
                         <li>Recuento en curso - targetSelection - 12</li>
                         <li>Mensaje finalizado - messageReady - 25</li>
-                        <li>Error de personalización o recuento - preparationError - 37</li>
+                        <li>Error de Personalization o recuento - preparationError - 37</li>
                         <li>Detenido - cancelado - 85</li>
-                        <li>Personalización en curso: messagePreparation: 22</li>
+                        <li>Personalization en curso: messagePreparation: 22</li>
                         <li>Target ready - targetReady - 15</li>
                         <li>VALOR INVÁLIDO - __Valor_no_válido__ - __Valor_no_válido__</li>
                         <li>Arbitraje en curso - targetArbitration - 13</li>

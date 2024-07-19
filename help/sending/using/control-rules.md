@@ -25,7 +25,7 @@ Las reglas de control permiten comprobar la validez y la calidad de los mensajes
 
 ## Reglas de control predeterminadas {#default-control-rules}
 
-Un conjunto de reglas predeterminadas garantiza los controles estándar. La siguiente tabla proporciona información sobre estas reglas, así como su canal y [fases de ejecución](#control-rules-execution-phases).
+Un conjunto de reglas predeterminadas garantiza los controles estándar. La tabla siguiente proporciona información sobre estas reglas, así como su canal relacionado y [fases de ejecución](#control-rules-execution-phases).
 
 | Etiqueta | Canal | Fase de ejecución | Descripción |
 |---------|----------|---------|---------|
@@ -46,12 +46,12 @@ Un conjunto de reglas predeterminadas garantiza los controles estándar. La sigu
 
 Las reglas de control se pueden aplicar en diferentes fases del ciclo de vida de la entrega:
 
-* **Al principio del objetivo**: la regla de control se puede aplicar en esta fase para que el paso de personalización no se ejecute en caso de error.
+* **Al principio del direccionamiento**: la regla de control se puede aplicar en esta fase para que el paso de personalización no se ejecute en caso de error.
 
-* **After targeting**: la ejecución después del objetivo permite conocer el volumen del objetivo para aplicar la regla de control.
+* **Después del direccionamiento**: la ejecución después del direccionamiento le permite conocer el volumen del destino para aplicar la regla de control.
 
-  Por ejemplo, la variable **Comprobar tamaño de revisión** control rule applies after the targeting stage: esta regla evita la preparación de la personalización de mensajes si hay demasiados destinatarios de prueba.
+  Por ejemplo, la regla de control **Check proof size** se aplica después de la fase de direccionamiento: esta regla evita la preparación de la personalización del mensaje si hay demasiados destinatarios de prueba.
 
-* **Al principio de la personalización**: se aplica cuando la comprobación está relacionada con la aprobación de la personalización de mensajes. La personalización del mensaje se lleva a cabo durante la fase de análisis.
+* **Al comienzo de la personalización**: se aplica cuando la comprobación está relacionada con la aprobación de la personalización de mensajes. La personalización del mensaje se lleva a cabo durante la fase de análisis.
 
-* **Al final del análisis**: Cuando una comprobación requiere que se complete la personalización de mensajes.
+* **Al final del análisis**: Cuando una comprobación requiere que se complete la personalización del mensaje.

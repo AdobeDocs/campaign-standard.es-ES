@@ -17,7 +17,7 @@ ht-degree: 6%
 
 # Administración de la exclusión de CCPA {#managing-ccpa-optout}
 
-El estado de exclusión de CCPA de un perfil se puede supervisar y administrar mediante la variable **ccpaOptOut** y los valores &quot;true&quot; o &quot;false&quot;:
+El estado de exclusión de CCPA de un perfil se puede supervisar y administrar mediante el atributo de perfil **ccpaOptOut** y los valores &quot;true&quot; o &quot;false&quot;:
 
 `"ccpaOptOut": <value>`
 
@@ -30,7 +30,7 @@ El estado de exclusión de CCPA de un perfil se puede supervisar y administrar m
 
 <br/>
 
-***Solicitudes de ejemplo***
+***Solicitudes de muestra***
 
 * Solicitud de GET de muestra para recuperar el estado de exclusión de CCPA de un perfil.
 

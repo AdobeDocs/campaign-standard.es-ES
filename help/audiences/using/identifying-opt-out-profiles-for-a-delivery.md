@@ -17,11 +17,11 @@ ht-degree: 29%
 
 # Identificación de perfiles de exclusión para un envío{#identifying-opt-out-profiles-for-a-delivery}
 
-Los perfiles de exclusión de un envío específico se enumeran después de la fase de preparación, en la **[!UICONTROL Exclusion logs]** del panel de envío.
+Los perfiles de exclusión de un envío específico se enumeran después de la fase de preparación, en la pestaña **[!UICONTROL Exclusion logs]** del panel de envío.
 
 ![](assets/exclusion_blocklisting.png)
 
 **Temas relacionados:**
 
-* [Monitorización de una entrega](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
-* [Preparación del envío](../../sending/using/preparing-the-send.md).
+* [Supervisar un envío](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
+* [Preparando el envío](../../sending/using/preparing-the-send.md).

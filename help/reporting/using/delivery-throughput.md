@@ -21,10 +21,10 @@ ht-degree: 4%
 Este informe contiene datos relacionados con el rendimiento de entrega de un envío o de varios envíos. Proporciona lo siguiente:
 
 * Número de mensajes procesados por hora
-* El **[!UICONTROL Top 5 deliveries]** números de resumen complementarios y de tabla que muestran los cinco envíos con la mejor ganancia en reintentos.
+* La tabla **[!UICONTROL Top 5 deliveries]** y los números de resumen complementarios que muestran los cinco envíos con la mejor ganancia en reintentos.
 
 ![](assets/delivery_reports_1.png)
 
 >[!NOTE]
 >
->El **[!UICONTROL Delivery throughput]** Esta página muestra la velocidad de rendimiento para el reenvío de sus mensajes desde Campaign al servidor de correo mejorado de Adobe Campaign (MTA).
+>La página **[!UICONTROL Delivery throughput]** muestra la velocidad de rendimiento para el reenvío de sus mensajes desde Campaign hasta el servidor de correo mejorado de Adobe Campaign (Agente de transferencia de mensajes).

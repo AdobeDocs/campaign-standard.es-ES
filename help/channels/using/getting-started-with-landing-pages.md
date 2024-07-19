@@ -120,7 +120,7 @@ Si está satisfecho con el comportamiento de la página de aterrizaje, puede pub
 
 Para obtener más información sobre cómo probar una página de aterrizaje, consulte [esta sección](../../channels/using/testing-publishing-landing-page.md#testing-the-landing-page-).
 
-## Paso 5: Publicación de la página de aterrizaje {#publish-the-landing-page}
+## Paso 5: Publish de la página de aterrizaje {#publish-the-landing-page}
 
 Una vez realizadas las pruebas correctamente, puede publicar la página de aterrizaje con el botón **[!UICONTROL Publish]** de la barra de acciones del panel. Un bloque de monitorización muestra la progresión y el estado de la publicación.
 
@@ -138,4 +138,4 @@ Este vídeo muestra cómo crear y editar una página de aterrizaje.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
 
-Hay disponibles más vídeos de procedimientos para el Campaign Standard [aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
+Hay disponibles [más vídeos de procedimientos para el Campaign Standard aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).

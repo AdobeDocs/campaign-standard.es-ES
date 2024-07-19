@@ -33,10 +33,10 @@ Solo se pueden ampliar los siguientes recursos integrados:
 
 Para crear o ampliar un recurso:
 
-1. Desde **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom Resources]**, haga clic en **[!UICONTROL Create]** botón.
+1. En **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom Resources]**, haga clic en el botón **[!UICONTROL Create]**.
 1. Elija la acción que desea realizar:
 
-   * **[!UICONTROL Create a new resource]**: introduzca el **[!UICONTROL Label]** y **[!UICONTROL ID]** campos. El campo **[!UICONTROL ID]** es obligatorio. Si deja vacío el campo Label, se rellenará automáticamente a partir del ID.
+   * **[!UICONTROL Create a new resource]**: escriba los campos **[!UICONTROL Label]** y **[!UICONTROL ID]**. El campo **[!UICONTROL ID]** es obligatorio. Si deja vacío el campo Label, se rellenará automáticamente a partir del ID.
 
      ![](assets/schema_extension_2.png)
 
@@ -48,6 +48,6 @@ Para crear o ampliar un recurso:
 
      ![](assets/schema_extension_10.png)
 
-1. Clic **[!UICONTROL Create]** para crear el recurso, que luego se encargará de lo siguiente **[!UICONTROL Draft]** estado en caso de un nuevo recurso o de la **[!UICONTROL Editing]** estado en caso de extensión.
+1. Haga clic en **[!UICONTROL Create]** para crear el recurso, que luego adoptará el estado **[!UICONTROL Draft]** en caso de que se cree un nuevo recurso o el estado **[!UICONTROL Editing]** en caso de que se produzca la extensión.
 
 El nuevo recurso se crea y ahora se puede configurar. Para obtener más información sobre la configuración de recursos, consulte [Configuración de la estructura de datos del recurso](../../developing/using/configuring-the-resource-s-data-structure.md).

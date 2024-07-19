@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## Acerca del seguimiento push {#about-push-tracking}
 
-Para garantizar que la notificación push se haya desarrollado completamente, debe asegurarse de que la parte de seguimiento se haya implementado correctamente, ya que no todas las notificaciones push tienen seguimiento habilitado. Para habilitar esto, los desarrolladores deben identificar qué entregas tienen seguimiento habilitado, Adobe Campaign Standard enviará un indicador llamado `_acsDeliveryTracking` con dos valores **el** o **desactivado**. El desarrollador de aplicaciones debe enviar una solicitud de seguimiento solo en los envíos que tengan la variable configurada como **el**.
+Para garantizar que la notificación push se haya desarrollado completamente, debe asegurarse de que la parte de seguimiento se haya implementado correctamente, ya que no todas las notificaciones push tienen seguimiento habilitado. Para habilitar esto, los desarrolladores deben identificar qué entregas tienen seguimiento habilitado, Adobe Campaign Standard enviará un indicador llamado `_acsDeliveryTracking` con dos valores **activado** o **desactivado**. El desarrollador de aplicaciones debería enviar una solicitud de seguimiento solamente en los envíos que tengan la variable establecida como **on**.
 
 >[!IMPORTANT]
 >
@@ -25,15 +25,15 @@ Para garantizar que la notificación push se haya desarrollado completamente, de
 
 El seguimiento push se divide en tres tipos:
 
-* **Impresiones push** : cuando se ha enviado correctamente una notificación push al dispositivo, que reside en el centro de notificaciones sin ninguna interacción del usuario.
+* **Impresiones push**: cuando una notificación push se ha enviado correctamente al dispositivo, reside en el centro de notificaciones sin ninguna interacción del usuario.
 
-* **Clic push** : cuando se ha enviado una notificación push al dispositivo y el usuario ha hecho clic en él.  El usuario deseaba ver la notificación (que a su vez pasará al seguimiento de Apertura push) o descartarla.
+* **Clic push**: cuando se ha enviado una notificación push al dispositivo y el usuario ha hecho clic en él.  El usuario deseaba ver la notificación (que a su vez pasará al seguimiento de Apertura push) o descartarla.
 
-* **Push Open** : cuando se ha enviado una notificación push al dispositivo y el usuario ha hecho clic en la notificación, lo que provoca que la aplicación se abra. Esto es similar al clic push, excepto que una apertura push no se activa si se descarta la notificación.
+* **Apertura push**: cuando se ha enviado una notificación push al dispositivo y el usuario ha hecho clic en la notificación, la aplicación se abre. Esto es similar al clic push, excepto que una apertura push no se activa si se descarta la notificación.
 
-Para implementar el seguimiento para Campaign Standard, la aplicación móvil debe incluir los SDK de Adobe Experience Platform. Estos SDK están disponibles en [Documentación de SDK para Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
+Para implementar el seguimiento para Campaign Standard, la aplicación móvil debe incluir los SDK de Adobe Experience Platform. Estos SDK están disponibles en la [documentación de SDK para Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
-Para enviar información de seguimiento, hay tres variables que deben enviarse. Dos que forman parte de los datos recibidos del Campaign Standard y una variable de acción que dicta si es un **Impresión**, **Clic** o **Abrir**.
+Para enviar información de seguimiento, hay tres variables que deben enviarse. Dos que forman parte de los datos recibidos del Campaign Standard y una variable de acción que dicta si se trata de una **impresión**, **clic** o **apertura**.
 
 | Variable | Valor |
 |:-:|:-:|
@@ -45,9 +45,9 @@ Para enviar información de seguimiento, hay tres variables que deben enviarse. 
 
 ### Implementación del seguimiento de impresiones push {#push-impression-tracking-android}
 
-Para el seguimiento de impresiones, tendrá que enviar el valor &quot;7&quot; para la acción al llamar a `collectMessageInfo()` o `trackAction()` funciones.
+Para el seguimiento de impresiones, tendrá que enviar el valor &quot;7&quot; para que se lleve a cabo una acción al llamar a las funciones `collectMessageInfo()` o `trackAction()`.
 
-Para las entregas creadas antes de la versión 21.1 o las entregas con plantilla personalizada, consulte esta sección [sección](../../administration/using/push-tracking.md#about-push-tracking).
+Para los envíos creados antes de la versión 21.1 o los envíos con plantilla personalizada, consulte esta [sección](../../administration/using/push-tracking.md#about-push-tracking).
 
 ```
 @Override
@@ -86,7 +86,7 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
 
 ### Implementación del rastreo de clics {#push-click-tracking-android}
 
-Para el rastreo de clics, tendrá que enviar el valor &quot;2&quot; para la acción al llamar a `collectMessageInfo()` o `trackAction()` funciones.
+Para el rastreo de clics, tendrá que enviar el valor &quot;2&quot; para que se lleve a cabo una acción al llamar a las funciones `collectMessageInfo()` o `trackAction()`.
 Para rastrear clics, se deben manejar dos situaciones:
 
 * El usuario ve la notificación, pero la borra.
@@ -94,7 +94,7 @@ Para rastrear clics, se deben manejar dos situaciones:
 
 Para gestionar esto, debe utilizar dos intenciones: una para hacer clic en la notificación y otra para descartar la notificación.
 
-Para las entregas creadas antes de la versión 21.1 o las entregas con plantilla personalizada, consulte esta sección [sección](../../administration/using/push-tracking.md#about-push-tracking).
+Para los envíos creados antes de la versión 21.1 o los envíos con plantilla personalizada, consulte esta [sección](../../administration/using/push-tracking.md#about-push-tracking).
 
 **[!UICONTROL MyFirebaseMessagingService.java]**
 
@@ -125,7 +125,7 @@ private void sendNotification(Map<String, String> data) {
 }
 ```
 
-Para que la **[!UICONTROL BroadcastReceiver]** para trabajar, debe registrarlo en el **[!UICONTROL AndroidManifest.xml]**
+Para que **[!UICONTROL BroadcastReceiver]** funcione, debe registrarlo en **[!UICONTROL AndroidManifest.xml]**
 
 ```
 <manifest>
@@ -182,9 +182,9 @@ Deberá enviar &quot;1&quot; y &quot;2&quot;, ya que el usuario debe hacer clic 
 
 Para rastrear la apertura, debe crear Intención. Los objetos de intención permiten al sistema operativo Android llamar al método cuando se realizan determinadas acciones. En este caso, haga clic en la notificación para abrir la aplicación.
 
-Este código se basa en la implementación del seguimiento de impresiones de clics. Con **[!UICONTROL Intent]** configurado, ahora debe devolver la información de seguimiento a Adobe Campaign Standard. En este caso, debe configurar la variable **[!UICONTROL Open Intent]** para abrir una vista determinada en la aplicación, se llamará al método onResume con los datos de notificación en el **[!UICONTROL Intent Object]**.
+Este código se basa en la implementación del seguimiento de impresiones de clics. Con **[!UICONTROL Intent]** establecido, ahora necesita devolver la información de seguimiento a Adobe Campaign Standard. En este caso, debe configurar **[!UICONTROL Open Intent]** para que se abra en una vista determinada de la aplicación, lo que llamará al método onResume con los datos de notificación en **[!UICONTROL Intent Object]**.
 
-Para las entregas creadas antes de la versión 21.1 o las entregas con plantilla personalizada, consulte esta sección [sección](../../administration/using/push-tracking.md#about-push-tracking).
+Para los envíos creados antes de la versión 21.1 o los envíos con plantilla personalizada, consulte esta [sección](../../administration/using/push-tracking.md#about-push-tracking).
 
 ```
 @Override
@@ -248,21 +248,21 @@ private void handleTracking() {
 
 ### Implementación del seguimiento de impresiones push {#push-impression-tracking-iOS}
 
-Para el seguimiento de impresiones, tendrá que enviar el valor &quot;7&quot; para la acción al llamar a `collectMessageInfo()` o `trackAction()` funciones.
+Para el seguimiento de impresiones, tendrá que enviar el valor &quot;7&quot; para que se lleve a cabo una acción al llamar a las funciones `collectMessageInfo()` o `trackAction()`.
 
 Para comprender cómo funcionan las notificaciones de iOS, es necesario detallar los tres estados de una aplicación:
 
 * **Primer plano**: cuando la aplicación está activa actualmente y en pantalla (en primer plano).
-* **Fondo**: cuando la aplicación is no está en pantalla, pero el proceso no está cerrado. Al hacer doble clic en el botón de inicio, generalmente se muestran todas las aplicaciones que están en segundo plano.
-* **Desactivado/cerrado**: una aplicación cuyo proceso se ha eliminado.
+* **Fondo**: cuando la aplicación is no está en pantalla pero el proceso no está cerrado. Al hacer doble clic en el botón de inicio, generalmente se muestran todas las aplicaciones que están en segundo plano.
+* **Desactivado/cerrado**: una aplicación cuyo proceso se ha cerrado.
 
-Para poder seguir teniendo **[!UICONTROL Impression]** el seguimiento funciona mientras la aplicación está en segundo plano y es necesario enviarlo **[!UICONTROL Content-Available]** para que la aplicación sepa que se debe realizar un seguimiento.
+Para que el seguimiento de **[!UICONTROL Impression]** funcione mientras la aplicación se encuentra en segundo plano, necesitamos enviar a **[!UICONTROL Content-Available]** para que la aplicación sepa que se debe realizar un seguimiento.
 
 >[!CAUTION]
 >
-> Si se cierra una aplicación, Apple no la llamará hasta que se haya reiniciado. Esto significa que no podrá saber cuándo se ha recibido la notificación en iOS. </br> Debido a este motivo, el seguimiento de impresiones de iOS puede no ser preciso y no debe considerarse fiable.
+> Si se cierra una aplicación, Apple no la llamará hasta que se haya reiniciado. Esto significa que no podrá saber cuándo se ha recibido la notificación en iOS. </br> Debido a este motivo, el seguimiento de impresiones de iOS podría no ser preciso y no debería considerarse fiable.
 
-Para las entregas creadas antes de la versión 21.1 o las entregas con plantilla personalizada, consulte esta sección [sección](../../administration/using/push-tracking.md#about-push-tracking).
+Para los envíos creados antes de la versión 21.1 o los envíos con plantilla personalizada, consulte esta [sección](../../administration/using/push-tracking.md#about-push-tracking).
 
 El siguiente código se dirige a la aplicación en segundo plano:
 
@@ -332,8 +332,8 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent noti
 
 ### Implementación del rastreo de clics {#push-click-tracking-iOS}
 
-Para el rastreo de clics, tendrá que enviar el valor &quot;2&quot; para la acción al llamar a `collectMessageInfo()` o `trackAction()` funciones.
-Para las entregas creadas antes de la versión 21.1 o las entregas con plantilla personalizada, consulte esta sección [sección](../../administration/using/push-tracking.md#about-push-tracking).
+Para el rastreo de clics, tendrá que enviar el valor &quot;2&quot; para que se lleve a cabo una acción al llamar a las funciones `collectMessageInfo()` o `trackAction()`.
+Para los envíos creados antes de la versión 21.1 o los envíos con plantilla personalizada, consulte esta [sección](../../administration/using/push-tracking.md#about-push-tracking).
 
 ```
 // AppDelegate.swift
@@ -374,7 +374,7 @@ Ahora, cuando envía notificaciones push, debe añadir una categoría. En este c
 
 ![](assets/tracking_push.png)
 
-A continuación, para gestionar el **[!UICONTROL Dismiss]** y enviar una información de seguimiento: debe añadir lo siguiente:
+A continuación, para controlar **[!UICONTROL Dismiss]** y enviar una información de seguimiento, debe agregar lo siguiente:
 
 ```
 func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
@@ -412,7 +412,7 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive respo
 
 Deberá enviar &quot;1&quot; y &quot;2&quot;, ya que el usuario debe hacer clic en la notificación para abrir la aplicación. Si la aplicación no se inicia o abre mediante una notificación push, no se produce ningún evento de seguimiento.
 
-Para las entregas creadas antes de la versión 21.1 o las entregas con plantilla personalizada, consulte esta sección [sección](../../administration/using/push-tracking.md#about-push-tracking).
+Para los envíos creados antes de la versión 21.1 o los envíos con plantilla personalizada, consulte esta [sección](../../administration/using/push-tracking.md#about-push-tracking).
 
 ```
 import Foundation
