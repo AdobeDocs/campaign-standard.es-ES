@@ -8,7 +8,7 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: c7c4826f69ac988911b9d72a3e06240ed9582862
+source-git-commit: 69621657e1d367043200f741d93972664e6eb8fb
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 30%
@@ -38,8 +38,6 @@ Los flujos de trabajo se pueden utilizar en diferentes contextos, como por ejemp
 
 ## Actividades de flujo de trabajo {#workflow-activities}
 
-<img src="assets/do-not-localize/icon_workflows.svg" width="10px">
-
 Hay varias actividades disponibles para ayudarle a diseñar sus flujos de trabajo.
 
 [Las actividades de segmentación](../../automating/using/about-targeting-activities.md) le permiten crear uno o más objetivos definiendo conjuntos y dividiendo o combinando estos conjuntos mediante operaciones de intersección, unión o exclusión.
@@ -56,8 +54,6 @@ Más información:
 
 ## Filtrado de datos {#filter-data}
 
-<img src="assets/do-not-localize/icon_filter.svg" width="15px">
-
 Aproveche **el editor de consultas** para filtrar datos de su base de datos y crear una población para una mejor segmentación de destinatarios. El editor de consultas está disponible para realizar varias acciones en Campaign Standard: crear audiencias de tipo Query, definir objetivos de entrega o poblaciones en actividades de flujo de trabajo.
 
 El editor de consultas viene con **filtros predefinidos y reglas** para un filtrado rápido y fácil. Sin embargo, también puede utilizar las capacidades de **edición avanzada de expresiones**. Esto le permite introducir manualmente condiciones y utilizar funciones para formar sus propias reglas.
@@ -69,8 +65,6 @@ Más información:
 * [Lista de funciones](../../automating/using/list-of-functions.md)
 
 ## Importar/exportar datos {#import-export-data}
-
-<img src="assets/do-not-localize/icon_manage.svg" width="20px">
 
 El Campaign Standard incluye **funciones de administración de datos** para importar y exportar datos.
 
