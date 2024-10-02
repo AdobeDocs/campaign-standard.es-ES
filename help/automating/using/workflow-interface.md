@@ -9,9 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: a3f35bb9-e61e-4f3f-b855-1d677422f75a
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: ea524bdcef0324c7fc4b9da0bb443b6abc66a23a
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '829'
 ht-degree: 4%
 
 ---
@@ -28,6 +28,8 @@ La pantalla de edición del flujo de trabajo se compone de los siguientes elemen
 * Las [acciones rápidas](#quick-actions), que aparecen alrededor de una actividad seleccionada, le permiten interactuar con ella.
 
 ![](assets/wkf_overview.png)
+
+![](assets/do-not-localize/how-to-video.png) [Descubra cómo crear un flujo de trabajo en vídeo](#video)
 
 ## Paleta {#palette}
 
@@ -154,3 +156,11 @@ También es posible copiar y pegar varias actividades, lo que permite duplicar u
 Para ello, seleccione las actividades dibujando una zona alrededor de ellas. a continuación, haga clic en el botón **[!UICONTROL Copy selection]** de la barra de acciones (o presione **Ctrl + C**). A continuación, puede pegarlos en la ubicación deseada.
 
 ![](assets/wkf_copypaste3.png)
+
+## Tutorial en vídeo {#video}
+
+Este vídeo muestra cómo crear un flujo de trabajo.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
+
+Hay disponibles [más vídeos de procedimientos para el Campaign Standard aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
