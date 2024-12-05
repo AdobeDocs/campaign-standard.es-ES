@@ -4,9 +4,9 @@ title: Documentación del producto de Adobe Campaign Standard
 description: Documentación del producto de Adobe Campaign Standard
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 source-git-commit: 2f3a0f4233df2915c5b7d293452246c688d69228
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '301'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Echa un vistazo a las mejoras más recientes del producto y la documentación de
 
 >[!TAB Transición a Campaign v8]
 
-Nos complace anunciar que los usuarios de Adobe Campaign Standard ahora pueden realizar la transición a Adobe Campaign Managed Cloud Services v8.
+Nos complace anunciar que los usuarios de Adobe Campaign Standard pueden realizar ahora la transición a Adobe Campaign Managed Cloud Services v8. 
 
-[![imagen](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/home){target="_blank"}
+[![imagen](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign-web/acs-to-ac/home){target="_blank"}
 
 >[!TAB ¡La versión 24.2 de Campaign está activa!]
 
