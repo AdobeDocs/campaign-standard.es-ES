@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: c2d2f3843801d108f007fea52a76e41abe16d76c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '390'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ En esta sección se enumeran las mejoras y correcciones incluidas en la próxima
 
 #### Correcciones de seguridad {#winter-25-security}
 
-* Esta versión incluye correcciones de seguridad.
+* Esta versión incorpora correcciones de seguridad.
 * Esta versión incorpora la siguiente actualización de seguridad: Apache Tomcat se ha actualizado a la versión 10.1.33.
 
 #### Otras correcciones {#winter-25-fixes}
@@ -39,8 +39,8 @@ En esta sección se enumeran las mejoras y correcciones incluidas en la próxima
 * Se ha corregido un problema de duplicado en las plantillas (CAMP-56340)
 * Se ha corregido una regresión del seguimiento cuando se utilizaban direcciones URL dinámicas en plantillas de Adobe Experience Manager (CAMP-51932)
 * Se ha corregido un problema de rendimiento en el proceso de facturación (CAMP-56796)
-* Se ha corregido un problema de codificación del HTML con el carácter `>` en las páginas web de JSSP (CAMP-56497)
-* Se corrigió un problema en los informes dinámicos al usar la opción **Mostrar en las filas seleccionadas** (CAMP-55895)
+* Se ha corregido un problema de codificación de HTML con el carácter `>` en las páginas web de JSSP (CAMP-56497)
+* Se ha corregido un problema en la creación de informes dinámicos al usar la opción **Mostrar en las filas seleccionadas** (CAMP-55895)
 
 
 ## Versión 24.2: versión de verano de 2024 (LA) {#summer-24}
