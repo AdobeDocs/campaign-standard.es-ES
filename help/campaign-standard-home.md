@@ -3,10 +3,10 @@ keywords: Campaign Standard;home;popular topics
 title: Documentación del producto de Adobe Campaign Standard
 description: Documentación del producto de Adobe Campaign Standard
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: 2f3a0f4233df2915c5b7d293452246c688d69228
-workflow-type: ht
-source-wordcount: '301'
-ht-degree: 100%
+source-git-commit: 9924d811359a6845ee6fd230eb6ffd73985404ba
+workflow-type: tm+mt
+source-wordcount: '284'
+ht-degree: 91%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ## Novedades
 
-Echa un vistazo a las mejoras más recientes del producto y la documentación de Adobe Campaign Standard. Para obtener una lista completa de funciones, mejoras y correcciones, consulta las [Notas de la versión](rn/using/release-notes.md) detalladas. Mantente al tanto de los cambios más recientes en nuestra documentación. Para ello, visita la [página de actualizaciones de documentación](rn/using/documentation-updates.md).
+Echa un vistazo a las mejoras más recientes del producto y la documentación de Adobe Campaign Standard. Para obtener una lista completa de características, mejoras y correcciones, consulte las [Notas de la versión](rn/using/release-notes.md) detalladas.
 
 >[!BEGINTABS]
 
@@ -24,9 +24,9 @@ Nos complace anunciar que los usuarios de Adobe Campaign Standard pueden realiza
 
 [![imagen](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign-web/acs-to-ac/home){target="_blank"}
 
->[!TAB ¡La versión 24.2 de Campaign está activa!]
+>[!TAB ¡La versión 25.1 de Campaign está activa!]
 
-Descubra las nuevas funciones, mejoras y correcciones que se proporcionan con la versión 24.2 de Campaign Standard.
+Descubra las mejoras y correcciones que se proporcionan con la versión 25.1 de Campaign Standard.
 
 [![imagen](assets/do-not-localize/learn-more-button.svg)](rn/using/release-notes.md)
 
