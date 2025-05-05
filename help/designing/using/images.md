@@ -57,7 +57,7 @@ Al seleccionar un bloque que contiene una imagen, se ofrecen las siguientes prop
 * Al editar un correo electrónico, **Style** le permite especificar el tamaño, el fondo y el borde de la imagen.
 * Al editar una página de aterrizaje, **Dimension** le permite especificar el tamaño de la imagen en píxeles.
 
-El editor le permite trabajar con **todos los tipos de imágenes** cuyos formatos son compatibles con los exploradores. Para ser compatible con el editor, las animaciones de tipo &quot;Flash&quot; **** deben insertarse en una página de HTML de la siguiente manera:
+El editor le permite trabajar con **todos los tipos de imágenes** cuyos formatos son compatibles con los exploradores. Para ser compatible con el editor, las animaciones de tipo &quot;Flash&quot; **&#x200B;**&#x200B;deben insertarse en una página de HTML de la siguiente manera:
 
 ```
 <object type="application/x-shockwave-flash" data="http://www.mydomain.com/flash/your_animation.swf" width="200" height="400">

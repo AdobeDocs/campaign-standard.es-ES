@@ -149,7 +149,7 @@ La aplicación móvil ya está lista para utilizarse en Campaign para notificaci
 
 1. En la sección **[!UICONTROL Device-specific settings]** de un panel de aplicaciones móviles, proporcione los detalles de la aplicación para cada dispositivo.
 
-   * +++ Para iOS
+   +++*  Para iOS
 
      Introduzca los siguientes detalles de la aplicación:
 
@@ -159,9 +159,9 @@ La aplicación móvil ya está lista para utilizarse en Campaign para notificaci
       * **ID de equipo de iOS**: consulte la [documentación de Apple](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"} para obtener más información sobre el ID de equipo de iOS.
 
         ![](assets/mobile_app_ios_config.png)
-+++
+   +++
 
-   * +++ Para Android
+   +++*  Para Android
 
      Introduzca los siguientes detalles de la aplicación:
 
@@ -169,7 +169,7 @@ La aplicación móvil ya está lista para utilizarse en Campaign para notificaci
       * **Archivo de clave Android (Json)**: Arrastre y suelte su archivo de clave privada .json. Para obtener instrucciones sobre cómo generar el archivo de clave privada .json, consulte la [documentación para desarrolladores de Firebase](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments){target="_blank"}.
 
         ![](assets/mobile_app_android_config.png)
-+++
+   +++
 
 1. Una vez cargado el certificado, un mensaje le notifica que la carga se realizó correctamente y muestra la fecha de caducidad del certificado.
 

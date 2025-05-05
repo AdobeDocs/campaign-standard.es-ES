@@ -116,7 +116,7 @@ El número máximo de reintentos que se realizarán en caso de **[!UICONTROL Err
 
 >[!IMPORTANT]
 >
-Los destinatarios con una dirección en un estado **[!UICONTROL Quarantine]** o **[!UICONTROL Denylisted]** nunca se quitarán, aunque reciban un correo electrónico.
+>Los destinatarios con una dirección en un estado **[!UICONTROL Quarantine]** o **[!UICONTROL Denylisted]** nunca se quitarán, aunque reciban un correo electrónico.
 
 
 ### Actualizaciones manuales {#unquarantine-manual}
@@ -166,7 +166,7 @@ Si un usuario clasifica un correo electrónico como correo no deseado ([bucle de
 
 >[!NOTE]
 >
-La cuarentena en Adobe Campaign distingue entre mayúsculas y minúsculas. Asegúrese de importar las direcciones de correo electrónico en minúsculas para que no se redireccionen más adelante.
+>La cuarentena en Adobe Campaign distingue entre mayúsculas y minúsculas. Asegúrese de importar las direcciones de correo electrónico en minúsculas para que no se redireccionen más adelante.
 
 En la lista de direcciones en cuarentena (consulte [Identificación de direcciones en cuarentena para toda la plataforma](#identifying-quarantined-addresses-for-the-entire-platform)), el campo **[!UICONTROL Error reason]** indica por qué la dirección seleccionada se colocó en cuarentena.
 
