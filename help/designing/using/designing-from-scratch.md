@@ -30,7 +30,7 @@ Estos son los pasos principales para crear y diseñar un contenido de correo ele
 1. Previsualice el correo electrónico.
 1. Guarde el contenido y continúe con el mensaje después de asegurarse de haber definido una audiencia y de haber programado correctamente el envío.
 
-También puedes ver este [vídeo de introducción](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true).
+También puedes ver este [vídeo de introducción](https://video.tv.adobe.com/v/330103/?autoplay=true&hidetitle=true&captions=spa).
 
 >[!NOTE]
 >

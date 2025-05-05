@@ -97,6 +97,6 @@ Más información:
 
 Este vídeo muestra cómo enviar un correo electrónico de prueba, prepararse y, a continuación, enviar un envío de correo electrónico en Campaign Standard.
 
->[!VIDEO](https://video.tv.adobe.com/v/24013/)
+>[!VIDEO](https://video.tv.adobe.com/v/328369?captions=spa)
 
 Hay disponibles [más vídeos de procedimientos para el Campaign Standard aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).

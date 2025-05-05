@@ -82,6 +82,6 @@ Más información:
 
 Este vídeo ofrece información general sobre las funciones de creación de informes de Adobe Campaign Standard.
 
->[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=eng)
+>[!VIDEO](https://video.tv.adobe.com/v/38314?quality=12&captions=spa)
 
 Hay disponibles [más vídeos de procedimientos para el Campaign Standard aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).

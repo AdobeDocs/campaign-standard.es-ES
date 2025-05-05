@@ -157,6 +157,6 @@ Adobe Campaign ofrece varias opciones de creación de correo electrónico. En el
 
 Este vídeo muestra cómo crear y editar contenido para Adobe Campaign Standard mediante Dreamweaver.
 
->[!VIDEO](https://video.tv.adobe.com/v/23121?quality=12&captions=eng)
+>[!VIDEO](https://video.tv.adobe.com/v/37537?quality=12&captions=spa)
 
 Hay disponibles [más vídeos de procedimientos para el Campaign Standard aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).

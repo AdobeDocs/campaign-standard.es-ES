@@ -145,7 +145,7 @@ Para usarlo, cree un correo electrónico y seleccione la plantilla de contenido 
 
 Este vídeo muestra cómo crear su propia plantilla.
 
->[!VIDEO](https://video.tv.adobe.com/v/23106?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/37539?quality=12&captions=spa)
 
 Hay disponibles [más vídeos de procedimientos para el Campaign Standard aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
 

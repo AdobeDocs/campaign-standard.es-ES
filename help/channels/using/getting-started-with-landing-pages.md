@@ -136,6 +136,6 @@ Para obtener más información sobre la publicación de la página de aterrizaje
 
 Este vídeo muestra cómo crear y editar una página de aterrizaje.
 
->[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36315?quality=12&captions=spa)
 
 Hay disponibles [más vídeos de procedimientos para el Campaign Standard aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).

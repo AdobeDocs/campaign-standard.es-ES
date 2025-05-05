@@ -135,6 +135,6 @@ De forma predeterminada, las actividades no están configuradas y no procesarán
 
 Este vídeo muestra cómo crear un flujo de trabajo.
 
->[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27576?quality=12&captions=spa)
 
 Hay disponibles [más vídeos de procedimientos para el Campaign Standard aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).

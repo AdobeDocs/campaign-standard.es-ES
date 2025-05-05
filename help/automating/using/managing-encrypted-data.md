@@ -127,10 +127,10 @@ Los pasos para realizar este caso de uso son los siguientes:
 
 Este vídeo muestra cómo utilizar una clave GPG para descifrar datos.
 
->[!VIDEO](https://video.tv.adobe.com/v/35753?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/41351?quality=12&captions=spa)
 
 Este vídeo muestra cómo utilizar una clave GPG para cifrar datos.
 
->[!VIDEO](https://video.tv.adobe.com/v/36380?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/41337?quality=12&captions=spa)
 
 Hay disponibles [más vídeos de procedimientos para el Campaign Standard aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
