@@ -52,7 +52,7 @@ Para crear una audiencia de Adobe Experience Platform directamente en Campaign S
 
 1. Para crear correctamente un segmento, debe seleccionar una **política de combinación** que coincida con el propósito de marketing para este segmento.
 
-   En el panel de configuración, se selecciona una política de combinación predeterminada de Platform. Para obtener más información sobre las políticas de combinación, consulte la sección dedicada de la [guía del usuario del Generador de segmentos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+   En el panel de configuración, se selecciona una política de combinación predeterminada de Platform. Para obtener más información sobre las políticas de combinación, consulte la sección dedicada de la [guía del usuario del Generador de segmentos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es).
 
    ![](assets/aep_audiences_mergepolicy.png)
 

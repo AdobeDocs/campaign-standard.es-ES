@@ -38,4 +38,4 @@ Para crear un formulario de Adobe Campaign AEM en el sitio de la:
 1. Edite el contenido del formulario añadiendo diferentes campos y componentes que puede asignar a los campos de la base de datos de Adobe Campaign.
 1. AEM Pruebe y publique el formulario para que sea accesible en el sitio de la.
 
-Para obtener más información, consulte la [documentación detallada](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html).
+Para obtener más información, consulte la [documentación detallada](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html?lang=es).

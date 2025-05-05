@@ -32,6 +32,6 @@ También está disponible una integración entre el servicio principal de Adobe 
 
 **Temas relacionados:**
 
-* [Información general sobre la integración de Campaign Standard a Analytics](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html)
-* [Configuración de la integración del Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
+* [Información general sobre la integración de Campaign Standard a Analytics](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html?lang=es)
+* [Configuración de la integración del Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html?lang=es)
 * [Dimensiones y métricas de Campaign en Analytics](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)

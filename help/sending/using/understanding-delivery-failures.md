@@ -35,7 +35,7 @@ Los mensajes también se pueden excluir durante la preparación de la entrega si
 
 * [Comprensión de la gestión de la cuarentena](../../sending/using/understanding-quarantine-management.md)
 * [Acerca de la inclusión y la exclusión en Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-* [Devoluciones](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
+* [Devoluciones](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=es#metrics-for-deliverability)
 
 ## Identificación de errores de entrega para un mensaje {#identifying-delivery-failures-for-a-message}
 
@@ -76,7 +76,7 @@ Los posibles motivos de un error de entrega son:
 
 **Temas relacionados:**
 * [Devoluciones graves](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=es#hard-bounces)
-* [devoluciones leves](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
+* [devoluciones leves](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=es#soft-bounces)
 
 ## Reintentos tras un fallo temporal de entrega {#retries-after-a-delivery-temporary-failure}
 
@@ -118,7 +118,7 @@ Para los mensajes de error sincrónico de fallo de entrega, el MTA mejorado de A
 
 Las devoluciones asincrónicas siguen siendo calificadas por el proceso enMail a través de las **[!UICONTROL Inbound email]** reglas. Para acceder a estas reglas, haga clic en el logotipo de **Adobe**, en la parte superior izquierda, luego seleccione **[!UICONTROL Administration > Channels > Email > Email processing rules]** y seleccione **[!UICONTROL Bounce mails]**. Para obtener más información sobre esta regla, consulte [esta sección](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
-Para obtener más información sobre las devoluciones y los diferentes tipos de devoluciones, consulte [esta sección](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
+Para obtener más información sobre las devoluciones y los diferentes tipos de devoluciones, consulte [esta sección](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=es#metrics-for-deliverability).
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 

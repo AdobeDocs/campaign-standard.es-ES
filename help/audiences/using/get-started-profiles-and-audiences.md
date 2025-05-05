@@ -89,4 +89,4 @@ La privacidad y el consentimiento en Campaign y cómo administrarlos se presenta
 * [Uso de Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
 * [Adobe de audiencias compartidas](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [Uso de flujos de trabajo para importar perfiles](../../automating/using/creating-import-workflow-templates.md)
-* [Vídeos de perfiles y audiencias](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
+* [Vídeos de perfiles y audiencias](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html?lang=es)

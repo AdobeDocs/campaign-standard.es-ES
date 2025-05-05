@@ -19,7 +19,7 @@ ht-degree: 6%
 
 Además de rastrear la presencia en línea de los clientes, también puede aprovechar sus ubicaciones físicas. Mediante la integración con Adobe Analytics para dispositivos móviles, puede utilizar Adobe Campaign para enviar mensajes de marketing basados en la ubicación a los suscriptores de la aplicación móvil.
 
-Los puntos de interés constan de una latitud, una longitud y un radio asociados a una etiqueta. Se definen en la interfaz de [Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html).
+Los puntos de interés constan de una latitud, una longitud y un radio asociados a una etiqueta. Se definen en la interfaz de [Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=es).
 
 Cuando un suscriptor abre la aplicación móvil, si la ubicación coincide con un punto de interés, Adobe Campaign captura los datos mediante el SDK para móviles de Experience Cloud. Puede utilizar esta información para enviar mensajes personalizados según la ubicación del usuario (como correos electrónicos, notificaciones push o mensajes SMS).
 

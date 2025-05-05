@@ -49,7 +49,7 @@ Si desea integrar flujos de datos de otros sistemas con Adobe Campaign, consulte
    <td> Adobe Experience Manager<br /> </td> 
    <td> Permite crear contenido de correo electrónico o formularios asignados a la base de datos de Adobe Campaign directamente en Adobe Experience Manager.<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">Trabajar con Campaign y el Experience Manager</a>, <a href="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignstandard.html">Integrar el Experience Manager y el Campaign Standard</a>, <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">Crear un correo electrónico con el Experience Manager y la campaña</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">Trabajar con Campaign y el Experience Manager</a>, <a href="https://helpx.adobe.com/es/experience-manager/6-4/sites/administering/using/campaignstandard.html">Integrar el Experience Manager y el Campaign Standard</a>, <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=es">Crear un correo electrónico con el Experience Manager y la campaña</a> 
     </td> 
   </tr> 
   <tr> 
@@ -96,7 +96,7 @@ Si desea integrar flujos de datos de otros sistemas con Adobe Campaign, consulte
     <tr> 
    <td> Journey Orchestration de Adobe <br /> </td> 
    <td> Permite enviar correos electrónicos, notificaciones push y SMS mediante las funciones de mensajería transaccional de Adobe Campaign Standard en el contexto del Journey Orchestration de Adobe, mediante una acción predeterminada.<br /> </td> 
-   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html">Trabajando con el Journey Orchestration de Adobe y Adobe Campaign Standard</a><br /> </td> 
+   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html?lang=es">Trabajando con el Journey Orchestration de Adobe y Adobe Campaign Standard</a><br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Dreamweaver<br /> </td> 

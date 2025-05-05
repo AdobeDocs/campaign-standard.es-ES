@@ -79,13 +79,13 @@ Descubra la administración de SFTP con [Panel de control de Campaign de campañ
 
 * [Acerca de la administración SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=es#sftp-management)
 
-* [Administración de almacenamiento SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#installing-ssh-key)
+* [Administración de almacenamiento SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=es#installing-ssh-key)
 
-* [Agregar intervalos de IP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html#sftp-management)
+* [Agregar intervalos de IP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html?lang=es#sftp-management)
 
-* [Administrar claves](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#sftp-management)
+* [Administrar claves](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=es#sftp-management)
 
-* [Inicie sesión en su servidor SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html#sftp-management)
+* [Inicie sesión en su servidor SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html?lang=es#sftp-management)
 
 Una vez completada la configuración, inicie sesión en el servidor SFTP con la clave privada y cree el directorio &quot;d365_loads/exports&quot;.
 

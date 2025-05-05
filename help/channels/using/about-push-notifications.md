@@ -80,10 +80,10 @@ Antes de enviar las notificaciones push, debe hacer lo siguiente:
 
 Consulte los siguientes recursos:
 
-* [Tutorials de vídeo](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
+* [Tutorials de vídeo](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html?lang=es)
 * [Documentación del producto](../../channels/using/about-push-notifications.md)
 * Configurar mediante el SDK de AEP [documentación](../../administration/using/configuring-a-mobile-application.md)
-* [Página de la comunidad](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+* [Página de la comunidad](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=es)
 
 ### ¿Qué tengo que hacer para adquirir un token push en Campaign? {#push-token-acquisition}
 

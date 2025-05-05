@@ -80,7 +80,7 @@ Los pasos para crear un mensaje independiente en la aplicación con Adobe Campai
 
    * **[!UICONTROL Life Cycle events]**: Eventos de ciclo de vida listos para usar compatibles con el SDK móvil de Adobe.
 
-     Para obtener más información sobre los eventos de ciclo de vida, consulte esta [página](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html).
+     Para obtener más información sobre los eventos de ciclo de vida, consulte esta [página](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=es).
 
    * **[!UICONTROL Analytics Events]**: Se admiten las tres categorías siguientes en función de la instrumentación de la aplicación móvil: Adobe Analytics, datos de contexto o estado de vista.
 
@@ -88,7 +88,7 @@ Los pasos para crear un mensaje independiente en la aplicación con Adobe Campai
 
    * **[!UICONTROL Places]**: Las tres categorías siguientes utilizan los datos de ubicación en tiempo real para ofrecer experiencias móviles relevantes para el contexto: datos de contexto de Places, metadatos personalizados de Places o tipo de evento de Places.
 
-     Para obtener más información sobre Adobe Places, consulte la [documentación de Places](https://experienceleague.adobe.com/docs/places/using/home.html).
+     Para obtener más información sobre Adobe Places, consulte la [documentación de Places](https://experienceleague.adobe.com/docs/places/using/home.html?lang=es).
 
    ![](assets/inapp_creating_4.png)
 

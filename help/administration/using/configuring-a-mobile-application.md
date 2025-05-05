@@ -19,7 +19,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
-> Adobe Experience Platform Launch se ha convertido en un conjunto de tecnologías de recopilación de datos en Adobe Experience Platform. Como resultado, se han implementado varios cambios terminológicos en la documentación del producto. Consulte el [siguiente documento](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html){target="_blank"} para obtener una referencia consolidada de los cambios terminológicos.
+> Adobe Experience Platform Launch se ha convertido en un conjunto de tecnologías de recopilación de datos en Adobe Experience Platform. Como resultado, se han implementado varios cambios terminológicos en la documentación del producto. Consulte el [siguiente documento](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=es){target="_blank"} para obtener una referencia consolidada de los cambios terminológicos.
 
 Tenga en cuenta que las implementaciones de notificaciones push e en la aplicación deben realizarlas usuarios expertos. Para obtener ayuda, póngase en contacto con su administrador de cuentas de Adobe o con su socio de servicios profesionales.
 
@@ -43,7 +43,7 @@ Para completar la configuración, complete los siguientes pasos:
    * En Adobe Campaign Standard, asegúrese de que el usuario de IMS forme parte de los Perfiles de producto de usuario y administrador estándar. Este paso permite al usuario iniciar sesión en Adobe Campaign Standard, navegar a la página de la aplicación móvil del SDK de Experience Platform y ver las propiedades de la aplicación móvil que ha creado en la IU de recopilación de datos.
 
    * En la IU de recopilación de datos, asegúrese de que el usuario de IMS forme parte de un perfil de producto de Experience Platform Launch.
-Este paso permite al usuario iniciar sesión en la interfaz de usuario de recopilación de datos para crear y ver las propiedades. Para obtener más información sobre los perfiles de producto en la IU de recopilación de datos, consulta [Crear tu perfil de producto](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html#gain-admin-rights-for-a-tags-product-profile). En el perfil del producto no debe haber permisos establecidos en la empresa o las propiedades, pero el usuario debe poder iniciar sesión.
+Este paso permite al usuario iniciar sesión en la interfaz de usuario de recopilación de datos para crear y ver las propiedades. Para obtener más información sobre los perfiles de producto en la IU de recopilación de datos, consulta [Crear tu perfil de producto](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html?lang=es#gain-admin-rights-for-a-tags-product-profile). En el perfil del producto no debe haber permisos establecidos en la empresa o las propiedades, pero el usuario debe poder iniciar sesión.
 
    Para completar tareas adicionales como instalar una extensión, publicar una aplicación, configurar entornos, etc., debe establecer permisos en el perfil del producto.
 

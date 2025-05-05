@@ -195,7 +195,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td> RGPD: Integración de servicios principales <br /> </td> 
-   <td> La integración de Privacy Core Service le permite automatizar sus solicitudes de RGPD en un contexto de varias soluciones a través de una sola llamada de API JSON. <br /> solicitudes de RGPD enviadas desde Privacy Core Service a todas las soluciones de Experience Cloud ahora son gestionadas automáticamente por Campaign. <br /> Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">documentación detallada</a>.<br /> </td> 
+   <td> La integración de Privacy Core Service le permite automatizar sus solicitudes de RGPD en un contexto de varias soluciones a través de una sola llamada de API JSON. <br /> solicitudes de RGPD enviadas desde Privacy Core Service a todas las soluciones de Experience Cloud ahora son gestionadas automáticamente por Campaign. <br /> Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=es">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Mejoras de push: comentarios detallados sobre la entrega<br /> </td> 
@@ -297,7 +297,7 @@ _Recursos personalizados_
     <ul> 
      <li> Derecho de acceso: permite que el sujeto de datos reciba una copia de sus datos personales capturados por los controladores de datos, incluso los datos almacenados en Adobe Campaign. </li> 
      <li> Derecho a eliminación: autoriza al sujeto de datos a que sus datos personales recopilados por los controladores de datos se borren, lo que incluye datos almacenados en Adobe Campaign. </li> 
-    </ul> Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">documentación detallada</a>.<br /> </td> 
+    </ul> Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=es">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer para correo electrónico (Beta)<br /> </td> 
@@ -461,7 +461,7 @@ Pueden producirse algunos problemas al utilizar vínculos de ayuda contextual de
      <li> descargar imágenes u otros archivos multimedia y añadirlos como archivos adjuntos a una notificación </li> 
      <li> cambiar el texto del cuerpo o del título de una notificación </li> 
      <li> añadir un identificador de subproceso a una notificación </li> 
-    </ul> Para obtener más información sobre contenido disponible y contenido mutable, consulte la <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">documentación detallada</a>.<br /> <strong>Advertencia:</strong> estas actualizaciones en las notificaciones push requieren que los clientes actualicen sus aplicaciones móviles. Consulte <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html">esta nota técnica</a> para obtener más información.<br /> </td> 
+    </ul> Para obtener más información sobre contenido disponible y contenido mutable, consulte la <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">documentación detallada</a>.<br /> <strong>Advertencia:</strong> estas actualizaciones en las notificaciones push requieren que los clientes actualicen sus aplicaciones móviles. Consulte <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html?lang=es">esta nota técnica</a> para obtener más información.<br /> </td> 
   </tr> 
   <tr> 
    <td> Entregas optimizadas para husos horarios<br /> </td> 

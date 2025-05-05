@@ -17,7 +17,7 @@ ht-degree: 85%
 
 >[!NOTE]
 >
->El protocolo y la configuración del conector **SMS** para Adobe Campaign Classic se encuentran en esta [página](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html).
+>El protocolo y la configuración del conector **SMS** para Adobe Campaign Classic se encuentran en esta [página](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html?lang=es).
 >
 >En este documento, todas las referencias a los detalles acerca del protocolo, los nombres de campo y los valores se refieren a la [especificación SMPP 3.4](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
 

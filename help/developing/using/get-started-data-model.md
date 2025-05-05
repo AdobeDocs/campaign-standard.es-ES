@@ -63,5 +63,5 @@ Con las API de Campaign Standard, cree integraciones para Adobe Campaign Standar
 
 ## Recursos adicionales
 
-* [Exportación e importación de recursos personalizados](https://helpx.adobe.com/campaign/kb/acs-get-started-with-cusres.html)
+* [Exportación e importación de recursos personalizados](https://helpx.adobe.com/es/campaign/kb/acs-get-started-with-cusres.html)
 * [Exportación de datos de Campaign a Adobe Experience Platform](../../integrating/using/export-campaign-data.md)

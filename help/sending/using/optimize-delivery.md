@@ -52,7 +52,7 @@ Para llegar a la bandeja de entrada de sus destinatarios sin rebotar ni ser marc
 
    * Al comprobar la tasa de envíos de sus correos electrónicos, debe centrarse en cuatro categorías principales: calidad de los datos, mensaje y contenido, infraestructuras de envío y reputación. Para profundizar en este tema, consulte [esta sección](../../sending/using/about-deliverability.md).
 
-* Al iniciar una nueva plataforma, aplique las recomendaciones detalladas en [esta página](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process).
+* Al iniciar una nueva plataforma, aplique las recomendaciones detalladas en [esta página](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html?lang=es#transition-process).
 
 * Póngase en contacto con su representante de Adobe para obtener ayuda.
 

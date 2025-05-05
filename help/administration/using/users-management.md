@@ -19,7 +19,7 @@ ht-degree: 81%
 
 Adobe Campaign permite asignar un conjunto de funciones a los usuarios para definir a qué parte de la interfaz pueden acceder.
 
-Las funciones específicas y las autorizaciones correspondientes se detallan en las secciones siguientes: [comprensión de funciones](../../administration/using/list-of-roles.md) y [autorizaciones](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf).
+Las funciones específicas y las autorizaciones correspondientes se detallan en las secciones siguientes: [comprensión de funciones](../../administration/using/list-of-roles.md) y [autorizaciones](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=es).
 
 Los administradores pueden administrar usuarios desde el Admin Console. Los usuarios se sincronizan automáticamente con Adobe Campaign. Para obtener más información, consulte la [documentación del Admin Console](https://helpx.adobe.com/es/enterprise/using/users.html).
 
@@ -33,9 +33,9 @@ Para acceder a la interfaz de administración de usuarios desde Adobe Campaign, 
 
 **Temas relacionados:**
 
-* Vídeo sobre la [administración de permisos de usuarios](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html)
+* Vídeo sobre la [administración de permisos de usuarios](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html?lang=es)
 * [Lista de funciones](../../administration/using/list-of-roles.md)
-* [Lista de autorizaciones](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
+* [Lista de autorizaciones](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=es)
 
 ## Tipo de usuarios {#type-of-users}
 
