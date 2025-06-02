@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 8da7d90905745b99f52841483a2d540e9781104e
-workflow-type: ht
+source-git-commit: c2c732bc3dff7ee1a140af5a102e388f394ade52
+workflow-type: tm+mt
 source-wordcount: '408'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ Las actualizaciones se implementan en dos fases. En primer lugar, las fases de p
 
 Todas las fechas de las versiones están sujetas a cambios: visite esta página regularmente para buscar actualizaciones. Las actualizaciones de entorno se producen en olas, durante los intervalos de tiempo indicados a continuación. Las fechas exactas se comunican por correo electrónico a cada cliente.
 
-## Versión 25.1: versión de invierno de 2025 {#release-25-1-release}
+## Versión 25.2: versión de verano de 2025 {#release-25-2-release}
 
 Encontrará información detallada acerca de esta versión en las [Notas de la versión](release-notes.md) cuando comiencen las actualizaciones del entorno de ensayo.
 
@@ -40,12 +40,12 @@ Encontrará información detallada acerca de esta versión en las [Notas de la v
  <tbody>
   <tr>
    <td>Prueba </td>
-   <td>7 de enero - 4 de febrero de 2025 </td>
+   <td>Del 8 de julio al 19 de agosto de 2025 </td>
    <!--td>2025 - Dates to be confirmed</td-->
   </tr>
   <tr>
    <td>Producción </td>
-   <td>13 de enero - 25 de febrero de 2025 </td>
+   <td>Del 15 de julio al 27 de agosto de 2025 </td>
    <!--td>2025 - Dates to be confirmed</td-->
   </tr>
  </tbody>
