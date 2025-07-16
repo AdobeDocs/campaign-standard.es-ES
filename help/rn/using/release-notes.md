@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 48cb3341c9f987bd275414c91dc8141f4fae719d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '201'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -36,8 +36,8 @@ This section lists improvements and changes included in the next Campaign Standa
 
 ### Otras correcciones {#25.1.2-fixes}
 
-* Se ha corregido un problema con el análisis de tokens que podía impedir que los usuarios iniciaran sesión a través de IMS. (CAMP-57337)
-* Se ha mejorado el mecanismo de generación de ID de secuencia automática para mejorar la fiabilidad del sistema. (CAMP-57281)
+* Se ha corregido un problema con el análisis de token que impedía que los usuarios iniciaran sesión a través de IMS. (CAMP-57337)
+* Se ha mejorado el mecanismo de generación de ID de secuencia automática para aumentar la fiabilidad del sistema. (CAMP-57281)
 
 ## Versión 25.1: versión de invierno de 2025 {#winter-25}
 
