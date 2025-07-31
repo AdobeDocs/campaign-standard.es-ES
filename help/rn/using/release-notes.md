@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: c1f64589578c144a9b8eb879684f27834efaf8d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -36,11 +36,11 @@ This section lists improvements and changes included in the next Campaign Standa
 
 ### Otras correcciones {#summer-25-fixes}
 
-* Se ha mejorado el manejo del agotamiento de la secuencia para mejorar la fiabilidad del sistema. (CAMP-57281)
+* Se ha mejorado la administración del agotamiento de secuencia para mejorar la fiabilidad del sistema. (CAMP-57281)
 * Actualizaciones generales de estabilización del producto. (CAMP-57339)
 * Se ha mejorado el sistema de informes dinámico para mejorar la solidez y reducir las discrepancias de datos. (CAMP-58157)
-* Se ha corregido un problema en el cual los menús desplegables no ajustaban el texto correctamente. (CAMP-57360)
-* Se ha actualizado la funcionalidad de creación de informes para evitar que los usuarios consulten datos de más de dos años. (CAMP-59262)
+* Se ha corregido un problema que provocaba que los menús desplegables no ajustaran el texto correctamente. (CAMP-57360)
+* Se ha actualizado la funcionalidad de creación de informes para evitar que los usuarios consulten datos de más de dos años de antigüedad. (CAMP-59262)
 
 ## Versión 25.1.2 {#25.1.2}
 
