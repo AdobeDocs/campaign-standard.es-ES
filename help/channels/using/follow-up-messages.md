@@ -132,4 +132,4 @@ Una vez iniciado el flujo de trabajo, todos los clientes que recibieron la notif
 
 >[!NOTE]
 >
->Si seleccionó la dimensión de segmentación **[!UICONTROL Profile]** al crear la configuración de evento, el mensaje de seguimiento también aprovechará la base de datos de marketing de Adobe Campaign. Consulte [Mensajes transaccionales de perfil ](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities).
+>Si seleccionó la dimensión de segmentación **[!UICONTROL Profile]** al crear la configuración de evento, el mensaje de seguimiento también aprovechará la base de datos de marketing de Adobe Campaign. Consulte [Mensajes transaccionales de perfil &#x200B;](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities).

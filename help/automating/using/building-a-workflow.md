@@ -87,7 +87,7 @@ A continuación debe definir las distintas actividades y vincularlas todas en el
 Las actividades se agrupan por categorías dentro de las diferentes secciones de la paleta.
 
 * La primera sección contiene las [actividades de segmentación](../../automating/using/about-targeting-activities.md)
-* La segunda sección contiene las [actividades de ejecución ](../../automating/using/about-execution-activities.md), que se utilizan principalmente para coordinar otras actividades.
+* La segunda sección contiene las [actividades de ejecución &#x200B;](../../automating/using/about-execution-activities.md), que se utilizan principalmente para coordinar otras actividades.
 * La tercera sección contiene actividades que pueden utilizarse para enviar mensajes en diferentes [canales](../../automating/using/about-channel-activities.md). Las actividades de esta sección pueden variar en función de los canales habilitados en su instancia.
 * La cuarta sección contiene [actividades de manipulación de archivos y gestión de datos](../../automating/using/about-data-management-activities.md).
 

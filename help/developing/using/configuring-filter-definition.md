@@ -71,7 +71,7 @@ Para ello, debe ampliar el recurso **[!UICONTROL Profiles]** y definir un filtro
 
 1. Guarde los cambios y publique los recursos. Para obtener más información, consulte la sección [Actualización de la estructura de la base de datos](../../developing/using/updating-the-database-structure.md).
 
-Una vez publicada la extensión del recurso **[!UICONTROL Profiles]**, los usuarios verán este filtro en la pestaña de métodos abreviados de la interfaz del [editor de consultas ](../../automating/using/editing-queries.md).
+Una vez publicada la extensión del recurso **[!UICONTROL Profiles]**, los usuarios verán este filtro en la pestaña de métodos abreviados de la interfaz del [editor de consultas &#x200B;](../../automating/using/editing-queries.md).
 
 Esto permitirá al usuario definir fácilmente su audiencia al crear un correo electrónico para enviarlo a todos los clientes que gastaron más de una determinada cantidad en los últimos tres meses.
 

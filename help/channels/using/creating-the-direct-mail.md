@@ -103,4 +103,4 @@ Ya está listo para enviar el archivo de extracción a su proveedor de correo po
 * Enviarlo por correo electrónico normal, con el archivo adjunto.
 * Enviarlo por Campaign: realice el correo postal dentro de un [flujo de trabajo](../../automating/using/direct-mail-delivery.md) en Campaign y añada una actividad de **[!UICONTROL Transfer file]** para enviar el archivo por FTP, por ejemplo. Consulte [Transferir archivo](../../automating/using/transfer-file.md).
 
-El proveedor recupera la lista de direcciones erróneas y envía esta información a Adobe Campaign, que las incluye en la lista de bloqueados automáticamente de forma automática. Consulte [Devolver al remitente ](../../channels/using/return-to-sender.md).
+El proveedor recupera la lista de direcciones erróneas y envía esta información a Adobe Campaign, que las incluye en la lista de bloqueados automáticamente de forma automática. Consulte [Devolver al remitente &#x200B;](../../channels/using/return-to-sender.md).

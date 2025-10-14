@@ -82,7 +82,7 @@ En esta sección se explica cómo crear una audiencia de **Archivo** mediante la
 Para crear una audiencia de **Archivo**, los pasos son los siguientes:
 
 1. En la pestaña **Marketing activities**, haga clic en **Create** y seleccione **Workflow**.
-1. Arrastre y suelte y, a continuación, configure una actividad **[!UICONTROL Load file]** que le permitirá importar una población que tenga una dimensión **desconocida** cuando se ejecute el flujo de trabajo. Para obtener más información sobre la configuración de esta actividad, consulte la sección [Cargar archivo ](../../automating/using/load-file.md) .
+1. Arrastre y suelte y, a continuación, configure una actividad **[!UICONTROL Load file]** que le permitirá importar una población que tenga una dimensión **desconocida** cuando se ejecute el flujo de trabajo. Para obtener más información sobre la configuración de esta actividad, consulte la sección [Cargar archivo &#x200B;](../../automating/using/load-file.md) .
 
    ![](assets/audience_files_1.png)
 

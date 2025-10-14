@@ -52,7 +52,7 @@ Al definir la audiencia de un mensaje:
    >
    >Asegúrese de seleccionar un objetivo principal. De lo contrario, no se podrá enviar el mensaje.
 
-1. Haga clic en el botón **[!UICONTROL Confirm]**. Consulte [Confirmando el envío ](../../sending/using/confirming-the-send.md) .
+1. Haga clic en el botón **[!UICONTROL Confirm]**. Consulte [Confirmando el envío &#x200B;](../../sending/using/confirming-the-send.md) .
 
    ![](assets/trap_confirm.png)
 
