@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: a2a524eb3d90bbe41064bdcb078f69d483f90dac
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: c14a52f5425972899f51af7ee6ea2d5796c46765
+workflow-type: tm+mt
+source-wordcount: '7259'
+ht-degree: 99%
 
 ---
 
@@ -70,7 +70,7 @@ Se ha detallado el uso del modo de prueba SMTP. [Más información](../../admini
 
 ## Marzo de 2022 {#doc-updates-march-2022}
 
-Se ha incluido una nota para especificar que al enviar pruebas utilizando la sustitución de perfiles se añaden registros a los registros de los perfiles seleccionados. [Más información](../../sending/using/testing-messages-using-target.md)
+Se ha añadido una nota para especificar que al enviar pruebas utilizando la sustitución de perfiles se añaden registros a los registros de los perfiles seleccionados. [Más información](../../sending/using/testing-messages-using-target.md)
 
 ## Versión 22.1: febrero de 2022 {#release-22-1}
 
@@ -78,9 +78,9 @@ Se ha incluido una nota para especificar que al enviar pruebas utilizando la sus
 
 Se ha mejorado el mecanismo de reintentos de los envíos, incluido el contenido importado de una dirección URL. [Más información](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
-Nivel de acceso actualizado de las opciones que controlan la auditoría: las opciones anteriores para activar/desactivar [Pista de auditoría](../../administration/using/audit.md) no eran accesibles para los [administradores funcionales](../../administration/using/users-management.md#functional-administrators). Con este cambio, se modifica el nivel de acceso de la auditoría para proporcionar control a los administradores funcionales. [Más información](../../administration/using/audit.md#enable-disable-audit)
+Nivel de acceso actualizado de las opciones que controlan la auditoría: las opciones anteriores para habilitar/deshabilitar [Pista de auditoría](../../administration/using/audit.md) no eran accesibles para los [administradores funcionales](../../administration/using/users-management.md#functional-administrators). Con este cambio, se modifica el nivel de acceso de la auditoría para proporcionar control a los administradores funcionales. [Más información](../../administration/using/audit.md#enable-disable-audit)
 
-El nuevo desplegable **Historial de trabajos** se ha añadido al panel de mensajes. [Más información](../../sending/using/monitoring-a-delivery.md)
+El nuevo desplegable **Historial de trabajos** se ha añadido al panel de control de mensajes. [Más información](../../sending/using/monitoring-a-delivery.md)
 
 **Otros cambios**
 
@@ -112,15 +112,15 @@ Se ha aclarado la sección **Cuarentena frente a Lista de bloqueados**. [Más in
 
 ## Julio de 2021 {#doc-updates-july-2021}
 
-Se ha añadido una nueva sección para describir cómo puede permitir a los usuarios suscribirse o cancelar la suscripción de varios servicios desde una sola página de aterrizaje. [Más información](../../channels/using/managing-landing-page-form-data.md#multiple-subscriptions)
+Se ha añadido una nueva sección para describir cómo puede permitir a los usuarios suscribirse o cancelar la suscripción de varios servicios desde una sola página de destino. [Más información](../../channels/using/managing-landing-page-form-data.md#multiple-subscriptions)
 
-Se ha actualizado y aclarado la sección **Administración de los datos del formulario de la página de aterrizaje**. [Más información](../../channels/using/managing-landing-page-form-data.md)
+Se ha actualizado y aclarado la sección **Administración de los datos del formulario de la página de destino**. [Más información](../../channels/using/managing-landing-page-form-data.md)
 
 ## Versión 21.2: junio de 2021 {#release-21-2---june-2021}
 
 **Nuevas funciones incluidas en la versión**
 
-Validación de páginas de aterrizaje: ahora puede añadir una opción de acuerdo obligatoria a sus páginas de aterrizaje. [Más información](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox)
+Validación de páginas de destino: ahora puede añadir una opción de acuerdo obligatoria a sus páginas de destino. [Más información](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox)
 
 La sección **Tamaño de correo electrónico** se ha actualizado con información sobre el tamaño máximo de un correo electrónico, que ahora se establece en 100 MB de forma predeterminada. [Más información](../../sending/using/design-and-personalize.md#email-size)
 
@@ -145,7 +145,7 @@ Nueva página de **Opciones de ayuda y asistencia**. [Más información](../../s
 
 La sección que enumera los pasos clave para enviar un mensaje se ha mejorado con información y referencias adicionales. [Más información](../../channels/using/key-steps-to-send-a-message.md)
 
-Se ha añadido información para especificar que, al seleccionar una audiencia en una consulta, su definición se copia y no se hace referencia a ella. [Obtenga más información](../../audiences/using/selecting-an-audience-in-a-message.md)
+Se ha añadido información para especificar que, al seleccionar un público en una consulta, su definición se copia y no se hace referencia a ella. [Obtenga más información](../../audiences/using/selecting-an-audience-in-a-message.md)
 
 La información relacionada con el servicio Destinos de público y el Conector de datos de Adobe Experience Platform se ha reagrupado en una nueva sección.
 
@@ -389,11 +389,11 @@ Se ha añadido información sobre cómo definir un huso horario específico para
 
 Se ha añadido información en la guía de Uso de API sobre el nuevo parámetro **_forcePagination=true**, que le permite realizar la paginación en tablas grandes. [Más información](../../api/using/pagination.md)
 
-Hay disponible una nueva sección que describe las advertencias que se pueden mostrar en un panel de mensajes. [Más información](../../channels/using/message-dashboard.md#warnings)
+Hay disponible una nueva sección que describe las advertencias que se pueden mostrar en un panel de control de mensajes. [Más información](../../channels/using/message-dashboard.md#warnings)
 
 Ya está disponible la documentación de MTA mejorado de Adobe Campaign, que describe la infraestructura de envío actualizada, lo que permite mejorar la capacidad de la entrega, el rendimiento y la gestión de devoluciones. [Más información](https://helpx.adobe.com/es/campaign/kb/campaign-enhanced-mta.html)
 
-Se han agregado notas para indicar que las URL del servidor de aplicaciones y del servidor de página espejo deben ser seguras para que las previsualizaciones de la página de aterrizaje y de la página espejo se muestren desde la interfaz de usuario de Campaign. [Más información](../../administration/using/branding.md#configuring-and-using-brands)
+Se han agregado notas para indicar que las URL del servidor de aplicaciones y del servidor de página espejo deben ser seguras para que las previsualizaciones de la página de destino y de la página espejo se muestren desde la interfaz de usuario de Campaign. [Más información](../../administration/using/branding.md#configuring-and-using-brands)
 
 La sección Exportación de registros se ha actualizado para reflejar la disponibilidad del ID de registro de entregas en los recursos de Registros de entregas y Registros de seguimiento, lo que permite exportar un identificador único para cada registro. [Más información](../../automating/using/exporting-logs.md)
 
@@ -423,7 +423,7 @@ La guía de introducción sobre cómo exportar e importar recursos personalizado
 
 Se ha añadido un nuevo caso de uso que describe cómo crear un grupo de control mediante un flujo de trabajo en Campaign Standard.
 
-La información relacionada con las propiedades de las páginas de aterrizaje se ha movido a una sección dedicada. [Más información](../../channels/using/configuring-landing-page.md)
+La información relacionada con las propiedades de las páginas de destino se ha movido a una sección dedicada. [Más información](../../channels/using/configuring-landing-page.md)
 
 La documentación del Panel de control se ha integrado en el nuevo conjunto de documentos de colaboración. [Más información](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es)
 
@@ -471,7 +471,7 @@ Se ha añadido una nueva sección que describe cómo enviar un correo electróni
 
 La sección Mensajería transaccional se ha modificado con las últimas actualizaciones de la interfaz de usuario, incluida la edición de contenido con el Diseñador de correo electrónico. [Más información](../../channels/using/editing-transactional-message.md)
 
-Se ha reorganizado el capítulo páginas de aterrizaje. También se ha enriquecido con una nueva sección en la que se detallan los pasos para establecer una página de aterrizaje. [Más información](../../channels/using/getting-started-with-landing-pages.md)
+Se ha reorganizado el capítulo páginas de destino. También se ha enriquecido con una nueva sección en la que se detallan los pasos para establecer una página de destino. [Más información](../../channels/using/getting-started-with-landing-pages.md)
 
 Se ha añadido una nueva sección en la sección Notificaciones push sobre cómo crear y actualizar información de perfil basada en datos de suscripción de aplicaciones móviles. [Más información](../../channels/using/updating-profile-with-mobile-app-data.md)
 
@@ -537,7 +537,7 @@ Se ha añadido una advertencia en la documentación de recursos personalizada. S
 
 ## De junio a julio de 2019 {#doc-updates-2019}
 
-Se ha añadido una nueva página sobre las limitaciones de las páginas de aterrizaje. [Más información](../../channels/using/getting-started-with-landing-pages.md#landing-page-limitations)
+Se ha añadido una nueva página sobre las limitaciones de las páginas de destino. [Más información](../../channels/using/getting-started-with-landing-pages.md#landing-page-limitations)
 
 Se ha añadido un caso de uso sobre cómo invocar a un perfil mediante una clave de identificación compuesta. [Más información](../../developing/using/uc-calling-resource-id-key.md)
 
@@ -557,7 +557,7 @@ Notificaciones locales: [Más información](../../channels/using/customizing-an-
 
 Mejora del flujo de trabajo: Añada una carga útil a la actividad de señal externa: [Más información](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
-Mejora de las páginas de aterrizaje: Google reCAPTCHA: [Más información](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)
+Mejora de las páginas de destino: Google reCAPTCHA: [Más información](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)
 
 **Otras actualizaciones de la documentación incluidas en la versión**
 
@@ -589,7 +589,7 @@ La guía Automatización se ha actualizado con enlaces a actividades de flujo de
 
 Se ha actualizado la sección Cálculo de indicador para los informes dinámicos. [Más información](../../reporting/using/indicator-calculation.md)
 
-Se ha añadido una tabla de compatibilidad de creación de informes dinámicos para comprender mejor la compatibilidad entre dimensiones y métricas. [Más información](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=es)
+Se ha añadido una tabla de compatibilidad de creación de informes dinámicos para comprender mejor la compatibilidad entre dimensiones y métricas. [Más información](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 Se ha actualizado la lista de funciones para los flujos de trabajo. [Más información](../../automating/using/list-of-functions.md)
 
@@ -689,7 +689,7 @@ La guía de Diseño de contenido se ha actualizado para reflejar la disponibilid
 
 Se ha actualizado la documentación de [notificaciones push](../../channels/using/about-in-app-messaging.md) y [en la aplicación](../../channels/using/about-push-notifications.md).
 
-Se ha añadido más información sobre los diferentes tipos de audiencias en Adobe Campaign. [Más información](../../audiences/using/about-audiences.md)
+Se ha añadido más información sobre los diferentes tipos de públicos en Adobe Campaign. [Más información](../../audiences/using/about-audiences.md)
 
 Se ha actualizado el capítulo Usuarios y seguridad para reflejar la depreciación de las unidades geográficas. [Más información](../../administration/using/organizational-units.md)
 
@@ -723,7 +723,7 @@ Integración de Adobe Launch para aplicaciones móviles (versión beta): [Más i
 
 Se ha actualizado la guía de notificaciones push con cambios en la interfaz. [Más información](../../channels/using/about-push-notifications.md)
 
-Se ha añadido información sobre cómo eliminar una audiencia. [Más información](../../audiences/using/creating-audiences.md#deleting-audiences)
+Se ha añadido información sobre cómo eliminar un público. [Más información](../../audiences/using/creating-audiences.md#deleting-audiences)
 
 Se ha actualizado la sección de informes integrados de notificaciones push. [Más información](../../reporting/using/push-notification-report.md)
 
@@ -797,7 +797,7 @@ Se ha añadido información sobre los tipos de registro de seguimiento. [Más in
 
 La sección de actividad de consulta se ha actualizado con ejemplos de consultas. [Más información](../../automating/using/query.md#query-samples)
 
-Se ha cambiado el nombre de la sección de la lista de bloqueados a “Explicación de los procesos de inclusión y exclusión”. Se ha actualizado con información sobre cómo administrar la inclusión en canales específicos y cómo configurar páginas de aterrizaje para administrar la inclusión y la exclusión. [Más información](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+Se ha cambiado el nombre de la sección de la lista de bloqueados a “Explicación de los procesos de inclusión y exclusión”. Se ha actualizado con información sobre cómo administrar la inclusión en canales específicos y cómo configurar páginas de destino para administrar la inclusión y la exclusión. [Más información](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Conozca las prácticas recomendadas para utilizar los servidores SFTP alojados por Adobe. [Más información](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -821,13 +821,13 @@ Uso de recursos personalizados en la mensajería transaccional - [Más informaci
 
 La API del RGPD reagrupa funciones que permiten el procesamiento automático de solicitudes de RGPD. [Más información](../../api/using/creating-a-privacy-request.md)
 
-Se añadió información sobre cómo configurar páginas de aterrizaje para que se puedan incluir a los destinatarios en la lista de bloqueados. [Más información](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+Se añadió información sobre cómo configurar páginas de destino para que se puedan incluir a los destinatarios en la lista de bloqueados. [Más información](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 Se ha reorganizado la sección [Configuración de mensaje transaccional](../../channels/using/configuring-transactional-event.md) y se ha añadido un [caso de uso paso a paso](../../channels/using/transactional-messaging-use-case.md).
 
 Se ha añadido una nota técnica para aprender a generar un archivo CSV multilingüe para utilizarlo en las notificaciones push. [Más información](https://helpx.adobe.com/es/campaign/kb/acs-generate-csv-multilingual-push.html).
 
-Información añadida sobre la plantilla de importación **Actualización de las cuarentenas de correo postal y registros de entregas**. [Más información](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)
+Información añadida sobre la plantilla de importación **Actualización de las cuarentenas de correo directo y registros de entregas**. [Más información](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)
 
 Se ha actualizado la lista de flujos de trabajo técnicos. [Más información](../../administration/using/technical-workflows.md)
 
@@ -859,7 +859,7 @@ La sección **[!UICONTROL Working with typologies]** se ha actualizado para mejo
 
 Ya está disponible una nueva opción que permite obtener rendimiento al definir muchos datos adicionales en una **[!UICONTROL Query]**. [Más información](../../automating/using/query-samples.md)
 
-El ejemplo de importación de perfil se ha actualizado con algunas sugerencias para que sus perfiles estén listos para recibir correos postales. [Más información](../../automating/using/about-data-import-and-export.md)
+El ejemplo de importación de perfil se ha actualizado con algunas sugerencias para que sus perfiles estén listos para recibir correos directos. [Más información](../../automating/using/about-data-import-and-export.md)
 
 Hay una nueva actividad disponible en flujos de trabajo: la actividad **[!UICONTROL Enrichment]**. [Más información](../../automating/using/enrichment.md)
 
@@ -867,7 +867,7 @@ La actividad **[!UICONTROL Subscription Services]** se ha actualizado para admit
 
 Se ha añadido un caso de uso paso a paso sobre cómo preparar una entrega. [Más información](../../sending/using/preparing-the-send.md)
 
-Se ha eliminado la sección que incluye la lista de autorizaciones. [Más información](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=es) (PDF).
+Se ha eliminado la sección que incluye la lista de autorizaciones. [Más información](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf) (PDF).
 
 Se ha añadido un caso de uso paso a paso sobre cómo usar la respuesta automática de SMS. [Más información](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -945,7 +945,7 @@ La documentación de SMS se ha actualizado con algunas aclaraciones agregadas a 
 
 Nueva sección dedicada a la administración de flujos de trabajo mediante la API. [Más información](../../api/using/controlling-a-workflow.md)
 
-Nueva sección dedicada a las claves primarias y al uso de un ID comercial como clave en la API. [Más información](../../api/using/get-started-apis.md)
+Nueva sección dedicada a las claves principals y al uso de un ID comercial como clave en la API. [Más información](../../api/using/get-started-apis.md)
 
 Se ha añadido información sobre el filtrado simple y múltiple en la API. [Más información](../../api/using/filtering.md)
 
@@ -1003,13 +1003,13 @@ ID declarado cifrado en orígenes de datos: [Más información](../../integratin
 
 Uso compartido de KPI de Campaign a Analytics: [Más información](../../integrating/using/about-campaign-analytics-integration.md)
 
-Canal de correo postal: Devolver al remitente: [Más información](../../channels/using/return-to-sender.md)
+Canal de correo directo: Devolver al remitente: [Más información](../../channels/using/return-to-sender.md)
 
 **Otras actualizaciones de la documentación incluidas en la versión**
 
 Las guías de introducción y los vídeos explicativos se han reagrupado en una sección dedicada.
 
-Se ha actualizado la documentación de procesamiento del correo electrónico. [Más información](../../sending/using/email-rendering.md)
+Se ha actualizado la documentación de representación de correo electrónico. [Más información](../../sending/using/email-rendering.md)
 
 Se ha actualizado la tabla de cálculo del indicador del informe. [Más información](../../reporting/using/indicator-calculation.md)
 
@@ -1025,7 +1025,7 @@ Se ha actualizado la sección Lista de funciones. [Más información](../../admi
 
 **Nuevas funciones incluidas en la versión**
 
-Correo postal: [Más información](../../channels/using/about-direct-mail.md)
+Correo directo: [Más información](../../channels/using/about-direct-mail.md)
 
 Email BCC: [Más información](../../sending/using/archiving.md)
 
@@ -1039,7 +1039,7 @@ Ahora hay disponible una nueva nota técnica: “Integración del SDK móvil de 
 
 Se añadieron instrucciones para configurar el servicio principal People o la integración de Audience Manager con Adobe Campaign. [Más información](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-Se ha revisado la tabla de autorizaciones para que el uso de ciertas funciones sea más claro. [Más información](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=es)
+Se ha revisado la tabla de autorizaciones para que el uso de ciertas funciones sea más claro. [Más información](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 Actualización de los enlaces de ayuda contextual disponibles directamente desde Adobe Campaign.
 
@@ -1087,7 +1087,7 @@ Mejoras en las notificaciones push: [Más información](../../channels/using/abo
 
 Flujos de trabajo: nueva actividad de señal: [Más información](../../automating/using/external-signal.md)
 
-Flujos de trabajo: nueva actividad de lectura de audiencia: [Más información](../../automating/using/read-audience.md)
+Flujos de trabajo: nueva actividad de lectura de público: [Más información](../../automating/using/read-audience.md)
 
 Datos de puntos de interés: [Más información](../../integrating/using/about-campaign-points-of-interest-data-integration.md)
 
@@ -1099,7 +1099,7 @@ Integración de activadores: se han añadido dos casos de uso. [Más informació
 
 Hemos rediseñado la documentación de la API de desarrollador con nuevos fragmentos de código e información para mejorar la experiencia del usuario. [Más información](../../api/using/get-started-apis.md)
 
-Descubra ejemplos de las nuevas actividades de flujo de trabajo de [Lectura de audiencia](../../automating/using/read-audience.md) y [Señal externa](../../automating/using/external-signal.md).
+Descubra ejemplos de las nuevas actividades de flujo de trabajo de [Lectura de público](../../automating/using/read-audience.md) y [Señal externa](../../automating/using/external-signal.md).
 
 ## Versión 17.1: enero de 2017 {#release-17-1---january-2017}
 
@@ -1121,4 +1121,4 @@ Cambio de URL: Servicio principal de recursos: [Más información](../../integra
 
 Cambio de URL: Servicio principal People: [Más información](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
-Se ha reorganizado la guía Perfiles y audiencias. [Más información](../../audiences/using/get-started-profiles-and-audiences.md)
+Se ha reorganizado la guía Perfiles y públicos. [Más información](../../audiences/using/get-started-profiles-and-audiences.md)
