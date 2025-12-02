@@ -52,7 +52,7 @@ Inserte una actividad de consulta en el flujo de trabajo para identificar los pe
 
 1. En **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, arrastre y suelte una actividad de [Consulta](../../automating/using/query.md).
 1. Haga doble clic en la actividad.
-1. En la pestaña **[!UICONTROL Target]**, examine los accesos directos y seleccione uno de los públicos](../../audiences/using/about-audiences.md).[
+1. En la pestaña **[!UICONTROL Target]**, examine los accesos directos y seleccione uno de los públicos[&#128279;](../../audiences/using/about-audiences.md).
 1. Arrastre y suelte el acceso directo en la zona de edición. Según el tipo de acceso directo seleccionado, aparece una ventana.
 1. Configure los elementos de objetivo y confirme la consulta.
 

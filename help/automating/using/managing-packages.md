@@ -141,7 +141,7 @@ La pestaña **[!UICONTROL Execution logs]** almacena todos los pasos de la impor
 
 ### Importación de paquetes {#importing-a-package}
 
-Un administrador puede importar manualmente un paquete originado en una exportación ejecutada anteriormente desde una instancia de Adobe Campaign. Para obtener más información, consulte la sección [Exportaciones de paquetes ](#package-exports).
+Un administrador puede importar manualmente un paquete originado en una exportación ejecutada anteriormente desde una instancia de Adobe Campaign. Para obtener más información, consulte la sección [Exportaciones de paquetes &#x200B;](#package-exports).
 
 La importación manual del paquete consta de dos pasos: primero, debe cargar un archivo para luego poder importar su contenido.
 

@@ -90,7 +90,7 @@ Para modificar la duración de una entrega, vaya a los parámetros avanzados de 
 
 >[!IMPORTANT]
 >
->**El parámetro **[!UICONTROL Delivery duration]**de las entregas de Campaign ahora solo se utiliza si se establece en 3,5 días o menos.** Si define un valor superior a 3,5 días, no se tendrá en cuenta.
+>**El parámetro &#x200B;** [!UICONTROL Delivery duration]&#x200B;**de las entregas de Campaign ahora solo se utiliza si se establece en 3,5 días o menos.** Si define un valor superior a 3,5 días, no se tendrá en cuenta.
 
 Por ejemplo, si desea que los reintentos de una entrega se detengan después de un día, puede establecer la duración de la entrega en **1d** y los mensajes de la cola de reintentos se eliminarán después de un día.
 
