@@ -82,6 +82,6 @@ En las siguientes secciones se describen los pasos clave para realizar una asign
 
 Este vídeo proporciona información general sobre el conector de datos de Adobe Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=eng)
+>[!VIDEO](https://video.tv.adobe.com/v/34374?quality=12&captions=spa)
 
 Hay disponibles [más vídeos relacionados con el conector de datos de Adobe Experience Platform aquí](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html?lang=es).

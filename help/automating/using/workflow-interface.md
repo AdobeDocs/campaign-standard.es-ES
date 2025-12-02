@@ -162,6 +162,6 @@ Para ello, seleccione las actividades dibujando una zona alrededor de ellas. a c
 
 Este vídeo muestra cómo crear un flujo de trabajo.
 
->[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27576?captions=spa&quality=12)
 
 Hay disponibles [más vídeos de procedimientos para Campaign Standard aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
