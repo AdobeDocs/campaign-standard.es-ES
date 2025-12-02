@@ -31,7 +31,7 @@ El diagrama siguiente detalla cómo funciona esta integración.
 
 **Temas relacionados:**
 
-* Obtenga información sobre los distintos tipos de activadores: [Documentación de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/triggers.html).
+* Obtenga información sobre los distintos tipos de activadores: [Documentación de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/triggers.html?lang=es).
 * Vea los [mensajes de remarketing de activador basados en el vídeo de Actividad del sitio](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
 * Descubra nuestros dos [ejemplos prácticos de activadores de abandono](../../integrating/using/abandonment-triggers-use-cases.md).
 
