@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 06ad2e13-922b-4f35-8726-007427125c63
-source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 4%
@@ -21,18 +22,18 @@ ht-degree: 4%
 >
 >La integración de [Privacy Core Service](https://developer.adobe.com/experience-platform-apis/references/privacy-service) es el método que debería usar para todas las solicitudes de acceso y eliminación. <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
 
-Las solicitudes de privacidad se crean mediante una solicitud de **POST**.
+Las solicitudes de privacidad se crean mediante una solicitud **POST**.
 
 Antes de crear solicitudes de, debe definir el área de nombres que utilizará. Para obtener más información, consulte la [documentación de administración de privacidad](../../start/using/privacy-requests.md).
 
 La carga útil debe contener los siguientes parámetros:
 
 * **nombre**: un nombre interno único
-* **namespace**: el nombre del área de nombres configurado en la interfaz del Campaign Standard
+* **namespace**: el nombre del área de nombres configurado en la interfaz de Campaign Standard
 * **reconciliationValue**: el valor de reconciliación basado en la clave de reconciliación definida en el área de nombres
 * **etiqueta**: la etiqueta de solicitud
 * **tipo**: el tipo de solicitud. Los valores aceptados son &quot;access&quot; o &quot;delete&quot;.
-* **regulación**: el tipo de regulación. Ejemplo: &quot;RGPD&quot;, &quot;CCPA&quot;. Este parámetro es obligatorio y está disponible a partir de la versión 19.4 del Campaign Standard. Si tiene una versión anterior, no es necesario que la añada a la carga útil.
+* **regulación**: el tipo de regulación. Ejemplo: &quot;RGPD&quot;, &quot;CCPA&quot;. Este parámetro es obligatorio y está disponible a partir de la versión 19.4 de Campaign Standard. Si tiene una versión anterior, no es necesario que la añada a la carga útil.
 
 <br/>
 
@@ -57,7 +58,7 @@ Esta solicitud de POST crea una solicitud de privacidad basada en una clave de r
 }
 ```
 
-Respuesta a la solicitud del POST.
+Respuesta a la solicitud de POST.
 
 ```
 {

@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: fb464183-13bf-4b47-ac27-4b785bafef37
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1652'
 ht-degree: 1%
@@ -23,7 +24,7 @@ Encontrará más detalles sobre los flujos de datos más abajo en este documento
 
 ## Experiencia del usuario de Adobe Campaign Standard
 
-Cuando se crea, modifica o elimina un contacto (si se elimina está habilitado) en Microsoft Dynamics 365, se envía al Campaign Standard. Estos contactos se pueden ver en la pantalla Perfiles de Campaign y se pueden segmentar en las campañas de marketing. Consulte la pantalla Perfiles a continuación.
+Cuando se crea, modifica o elimina un contacto (si se elimina está habilitado) en Microsoft Dynamics 365, se envía a Campaign Standard. Estos contactos se pueden ver en la pantalla Perfiles de Campaign y se pueden segmentar en las campañas de marketing. Consulte la pantalla Perfiles a continuación.
 
 ![](assets/MSdynamicsACS-usage1.png)
 
@@ -45,7 +46,7 @@ Para ver la cronología de un contacto, vaya a la lista de contactos haciendo cl
 
 >[!NOTE]
 >
->La aplicación **Adobe Campaign for Microsoft Dynamics 365** de AppSource deberá instalarse en la instancia de Microsoft Dynamics 365 para poder ver estos eventos. [Más información](../../integrating/using/d365-acs-configure-d365.md#install-appsource-app).
+>La aplicación **Adobe Campaign para Microsoft Dynamics 365** en AppSource deberá instalarse en la instancia de Microsoft Dynamics 365 para poder ver estos eventos. [Más información](../../integrating/using/d365-acs-configure-d365.md#install-appsource-app).
 
 A continuación puede ver una instantánea de la pantalla de contacto de &quot;Usuario de Dynamics&quot;. En la vista Cronología, verá que se ha enviado al usuario de Dynamics un correo electrónico asociado al nombre de campaña &quot;2019LoyaltyCamp&quot; y al nombre de entrega &quot;DM190&quot;. El usuario de Dynamics abrió el correo electrónico y también hizo clic en una dirección URL del mismo. Ambas acciones crearon eventos que también se muestran a continuación. Si mira a la esquina derecha, verá la tarjeta Asistente de relaciones (RA); actualmente, contiene una tarea para realizar un seguimiento de la dirección URL en la que se hizo clic.
 
@@ -55,7 +56,7 @@ Consulte a continuación un resumen de la vista Cronología del usuario de Dynam
 
 ![](assets/do-not-localize/MSdynamicsACS-usage5.png)
 
-A continuación se muestra un primer plano de la tarjeta Asistente de relaciones (RA). La aplicación AppSource contiene un flujo de trabajo que inspecciona un evento de clic en URL de correo electrónico de Adobe. Cuando se produce este evento, se crea una tarea y se establece una fecha de vencimiento. Esto permite que la tarea aparezca en la tarjeta de RA, lo que le proporciona visibilidad adicional. Hay un flujo de trabajo similar para los eventos de Adobe de rechazo de correo electrónico, lo que agrega una tarea para reconciliar la dirección de correo electrónico no válida. Estos flujos de trabajo se pueden desactivar en la solución.
+A continuación se muestra un primer plano de la tarjeta Asistente de relaciones (RA). La aplicación AppSource contiene un flujo de trabajo que observa un evento de clic en la URL del correo electrónico de Adobe. Cuando se produce este evento, se crea una tarea y se establece una fecha de vencimiento. Esto permite que la tarea aparezca en la tarjeta de RA, lo que le proporciona visibilidad adicional. Hay un flujo de trabajo similar para los eventos de rechazo de correo electrónico de Adobe, lo que agrega una tarea para reconciliar la dirección de correo electrónico no válida. Estos flujos de trabajo se pueden desactivar en la solución.
 
 ![](assets/do-not-localize/MSdynamicsACS-usage6.png)
 
@@ -75,9 +76,9 @@ A continuación se muestra una lista de los atributos y una descripción:
 
 * **Con respecto a**: El nombre del contacto
 
-* **Nombre de campaña**: El identificador de campaña en el Campaign Standard
+* **Nombre de campaña**: El identificador de campaña en Campaign Standard
 
-* **Nombre de entrega**: El identificador de entrega en el Campaign Standard
+* **Nombre de entrega**: El identificador de entrega en Campaign Standard
 
 * **Fecha de envío/apertura/clic/rechazo**: Fecha/hora en que se creó el evento
 
@@ -93,9 +94,9 @@ A continuación se muestra una lista de los atributos y una descripción:
 
 ### Entrada de contacto y entidad personalizada
 
-Los registros nuevos, actualizados y eliminados (Nota: los registros eliminados deben estar habilitados) se envían de la tabla de contacto de Microsoft Dynamics 365 a la tabla de perfil de Campaign.
+Los registros nuevos, actualizados y eliminados (Nota: los registros eliminados deben estar habilitados) se envían de la tabla de contactos de Microsoft Dynamics 365 a la tabla de perfiles de Campaign.
 
-Las asignaciones de tabla se pueden configurar en la interfaz de usuario de la aplicación de integración para asignar atributos de tabla de Microsoft Dynamics 365 a atributos de tabla de Campaign. Las asignaciones de tabla se pueden modificar para agregar o quitar atributos, según sea necesario.
+Las asignaciones de tablas se pueden configurar en la interfaz de usuario de la aplicación de integración para asignar atributos de tablas de Microsoft Dynamics 365 a atributos de tablas de Campaign. Las asignaciones de tabla se pueden modificar para agregar o quitar atributos, según sea necesario.
 
 La ejecución inicial del flujo de datos está diseñada para transferir todos los registros asignados, incluidos los marcados como &quot;inactivos&quot;; posteriormente, la integración solo procesará las actualizaciones incrementales. La excepción a esto es si los datos se reproducen o si se configura un filtro; se pueden configurar reglas básicas de filtrado basadas en atributos para determinar qué registros se sincronizan con Campaign.
 
@@ -159,9 +160,9 @@ Los eventos de marketing por correo electrónico se pueden habilitar o deshabili
 
 Los valores de exclusión (por ejemplo, la lista de bloqueados de la) se sincronizan entre sistemas. Puede elegir entre las siguientes opciones al incorporarlos:
 
-* **Unidireccional (de Microsoft Dynamics 365 a Campaign)**: Dynamics 365 es la fuente fiable para las exclusiones. Los atributos de exclusión se sincronizarán en una dirección desde Dynamics 365 a &quot;Campaign Standard&quot;
-* **Unidireccional (de Campaign a Microsoft Dynamics 365)**: El Campaign Standard es la fuente fiable de las exclusiones. Los atributos de exclusión se sincronizarán en una dirección desde Campaign Standard a Dynamics 365
-* **Bidireccional**: Dynamics 365 AND Campaign Standard son fuentes de verdad. Los atributos de exclusión se sincronizarán bidireccionalmente entre Campaign Standard y Dynamics 365
+* **Unidireccional (de Microsoft Dynamics 365 a Campaign)**: Dynamics 365 es la fuente fiable para las exclusiones. Los atributos de exclusión se sincronizarán en una dirección desde Dynamics 365 a Campaign Standard&quot;
+* **Unidireccional (de Campaign a Microsoft Dynamics 365)**: Campaign Standard es la fuente fiable de las exclusiones. Los atributos de exclusión se sincronizarán en una dirección desde Campaign Standard hasta Dynamics 365
+* **Bidireccional**: Dynamics 365 Y Campaign Standard son fuentes de verdad. Los atributos de exclusión se sincronizarán bidireccionalmente entre Campaign Standard y Dynamics 365
 
 Alternativamente, si tiene un proceso independiente para administrar la sincronización de exclusión entre los sistemas, se puede desactivar el flujo de datos de exclusión de la integración.
 
@@ -187,4 +188,4 @@ En Dynamics 365, la mayoría de los campos de exclusión tienen el prefijo &quot
 
 ### Transferencia de datos inicial {#initial-data-transfer}
 
-La transferencia de datos inicial puede tardar un tiempo en función de cuántos registros esté ingiriendo desde Microsoft Dynamics 365. Después de la transferencia de datos inicial, la integración recoge las actualizaciones incrementales.
+La transferencia de datos inicial puede tardar unos minutos en función de la cantidad de registros que esté introduciendo desde Microsoft Dynamics 365. Después de la transferencia de datos inicial, la integración recoge las actualizaciones incrementales.

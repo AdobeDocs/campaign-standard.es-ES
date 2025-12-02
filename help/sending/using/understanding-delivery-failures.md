@@ -8,7 +8,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 66%
@@ -19,7 +19,7 @@ ht-degree: 66%
 
 ## Acerca de los errores de entrega {#about-delivery-failures}
 
-Cuando una entrega no se puede enviar a un perfil, el servidor remoto envía automáticamente un mensaje de error que recoge la plataforma de Adobe Campaign para determinar si la dirección de correo electrónico o el número de teléfono deben ponerse en cuarentena. Consulte [Cualificación de correo rechazado](#bounce-mail-qualification).
+Cuando una entrega no se puede enviar a un perfil, el servidor remoto envía automáticamente un mensaje de error que recoge la plataforma de Adobe Campaign para determinar si la dirección de correo electrónico o el número de teléfono deben ponerse en cuarentena. Consulte [Calificación de correo rechazado](#bounce-mail-qualification).
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ Cuando una entrega no se puede enviar a un perfil, el servidor remoto envía aut
 >
 >**Los mensajes de error de SMS (o “SR”, de “informe de estado”) se clasifican mediante el proceso MTA.**
 
-Los mensajes también se pueden excluir durante la preparación de la entrega si una dirección está en cuarentena o si un perfil está en la lista de bloqueados de la. Los mensajes excluidos se enumeran en la pestaña **[!UICONTROL Exclusion logs]** del panel de entrega (consulte [esta sección](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
+Los mensajes también se pueden excluir durante la preparación de la entrega si una dirección está en cuarentena o si un perfil está en la lista de bloqueados de la. Los mensajes excluidos se enumeran en la pestaña **[!UICONTROL Exclusion logs]** del panel de control de entrega (consulte [esta sección](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
 
 ![](assets/exclusion_logs.png)
 
@@ -35,7 +35,7 @@ Los mensajes también se pueden excluir durante la preparación de la entrega si
 
 * [Comprensión de la gestión de la cuarentena](../../sending/using/understanding-quarantine-management.md)
 * [Acerca de la inclusión y la exclusión en Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-* [Devoluciones](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=es#metrics-for-deliverability)
+* [Devoluciones](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
 
 ## Identificación de errores de entrega para un mensaje {#identifying-delivery-failures-for-a-message}
 
@@ -64,7 +64,7 @@ Los posibles motivos de un error de entrega son:
 | **[!UICONTROL Mailbox full]** | Leve | El buzón de este usuario está lleno y no puede aceptar más mensajes. Esta dirección se puede eliminar de la lista de cuarentena para realizar otro intento. Se elimina automáticamente al cabo de 30 días. Para que la dirección se elimine de forma automática de la lista de direcciones en cuarentena, debe iniciarse el flujo de trabajo técnico **[!UICONTROL Database cleanup]**. |
 | **[!UICONTROL Refused]** | Suave/Duro | La dirección se ha enviado a cuarentena debido a un comentario de seguridad que informa de correo no deseado. Según el error devuelto por el proveedor, la dirección se enviará directamente a cuarentena o la entrega se volverá a intentar hasta que Campaign reciba un error que justifique el estado de la cuarentena o hasta que el número de errores alcance 5. |
 | **[!UICONTROL Duplicate]** | Ignorado | La dirección ya se ha detectado en la segmentación. |
-| **[!UICONTROL Not defined]** | Leve | la dirección está en proceso de calificación porque no se han sumado errores. | sin embargo. Este tipo de error se produce cuando el servidor envía un nuevo mensaje de error: puede tratarse de un error aislado; sin embargo, si vuelve a producirse, el contador de errores aumenta, lo que advierte a los equipos técnicos. |
+| **[!UICONTROL Not defined]** | Leve | la dirección está en proceso de calificación porque aún no se han sumado errores. Este tipo de error se produce cuando el servidor envía un nuevo mensaje de error: puede tratarse de un error aislado; sin embargo, si vuelve a producirse, el contador de errores aumenta, lo que advierte a los equipos técnicos. |
 | **[!UICONTROL Error ignored]** | Ignorado | La dirección está en lista de permitidos y se le enviará un correo electrónico en cualquier caso. |
 | **[!UICONTROL Address on denylist]** | Grave | La dirección se añadió a la lista de bloqueados de la en el momento del envío. |
 | **[!UICONTROL Account disabled]** | Suave/Duro | Cuando el proveedor de acceso a Internet (IAP) detecta un largo periodo de inactividad, puede cerrar la cuenta del usuario: las entregas a la dirección del usuario no serán posibles. El tipo leve o grave depende del tipo de error recibido: si la cuenta se desactiva temporalmente debido a seis meses de inactividad y aún puede activarse, el estado **[!UICONTROL Erroneous]** se asignará y el envío se volverá a intentar. Si el error recibido indica que la cuenta está desactivada de forma permanente, se envía directamente a Cuarentena. |
@@ -76,7 +76,7 @@ Los posibles motivos de un error de entrega son:
 
 **Temas relacionados:**
 * [Devoluciones graves](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=es#hard-bounces)
-* [devoluciones leves](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=es#soft-bounces)
+* [devoluciones leves](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
 
 ## Reintentos tras un fallo temporal de entrega {#retries-after-a-delivery-temporary-failure}
 
@@ -90,7 +90,7 @@ Para modificar la duración de una entrega, vaya a los parámetros avanzados de 
 
 >[!IMPORTANT]
 >
->**El parámetro &#x200B;** [!UICONTROL Delivery duration]&#x200B;**de las entregas de Campaign ahora solo se utiliza si se establece en 3,5 días o menos.** Si define un valor superior a 3,5 días, no se tendrá en cuenta.
+>**El parámetro **[!UICONTROL Delivery duration]**de las entregas de Campaign ahora solo se utiliza si se establece en 3,5 días o menos.** Si define un valor superior a 3,5 días, no se tendrá en cuenta.
 
 Por ejemplo, si desea que los reintentos de una entrega se detengan después de un día, puede establecer la duración de la entrega en **1d** y los mensajes de la cola de reintentos se eliminarán después de un día.
 
@@ -108,17 +108,17 @@ Una entrega puede fallar inmediatamente (error sincrónico), o más tarde, despu
 * **Error sincrónico**: el servidor remoto contactado mediante el servidor de entrega de Adobe Campaign devuelve inmediatamente un mensaje de error y la entrega no puede enviarse al servidor del perfil.
 * **Error asíncrono**: el servidor receptor reenvía más tarde un correo electrónico devuelto o una SR. Pueden producirse errores asíncronos hasta una semana después de mandar la entrega.
 
-## Clasificación del correo rechazado {#bounce-mail-qualification}
+## Calificación del correo rechazado {#bounce-mail-qualification}
 
 Para los mensajes de error sincrónico de fallo de entrega, el MTA mejorado de Adobe Campaign (Agente de transferencia de mensajes) determina el tipo de devolución y calificación, y envía esa información a Campaign.
 
 >[!NOTE]
 >
->Ya no se utilizan las cualificaciones de devolución de la tabla **[!UICONTROL Message qualification]** de Campaign.
+>Ya no se utilizan las calificaciones de devolución de la tabla **[!UICONTROL Message qualification]** de Campaign.
 
 Las devoluciones asincrónicas siguen siendo calificadas por el proceso enMail a través de las **[!UICONTROL Inbound email]** reglas. Para acceder a estas reglas, haga clic en el logotipo de **Adobe**, en la parte superior izquierda, luego seleccione **[!UICONTROL Administration > Channels > Email > Email processing rules]** y seleccione **[!UICONTROL Bounce mails]**. Para obtener más información sobre esta regla, consulte [esta sección](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
-Para obtener más información sobre las devoluciones y los diferentes tipos de devoluciones, consulte [esta sección](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=es#metrics-for-deliverability).
+Para obtener más información sobre las devoluciones y los diferentes tipos de devoluciones, consulte [esta sección](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 

@@ -1,15 +1,16 @@
 ---
 title: API externa
-description: La actividad de API externa introduce datos en el flujo de trabajo del Campaign Standard desde un sistema externo a través de una llamada de API HTTP.
+description: La actividad de API externa introduce datos en el flujo de trabajo de Campaign Standard desde un sistema externo a través de una llamada de API HTTP.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '2208'
 ht-degree: 93%
@@ -107,14 +108,14 @@ La casilla Acoplar (sin marcar por defecto) sirve para indicar si desea acoplar 
 
 * Cuando la **casilla de verificación está desactivada** (sin marcar), el archivo JSON de muestra se analiza para buscar un objeto de matriz. El usuario debe proporcionar una versión recortada como muestra de la respuesta de API en formato JSON para que Adobe Campaign pueda determinar exactamente qué matriz le interesa utilizar. En el momento de la creación del flujo de trabajo, se determina y registra la ruta al objeto de matriz anidado, de modo que se pueda utilizar en el momento de la ejecución para acceder a ese objeto de matriz desde el cuerpo de respuesta JSON recibido de la llamada de API.
 
-* Cuando la **casilla de verificación está activada** (marcada), el archivo JSON de muestra se acopla y todas las propiedades especificadas en el archivo de muestra proporcionado se utilizan para crear columnas de la tabla temporal de salida y se muestran en la pestaña Definiciones de columna. Tenga en cuenta que si hay algún objeto de matriz en el archivo JSON de muestra, también se acoplan todos los elementos de esos objetos de matriz.
+* Cuando la **casilla de verificación está habilitada** (marcada), el archivo JSON de muestra se acopla y todas las propiedades especificadas en el archivo de muestra proporcionado se utilizan para crear columnas de la tabla temporal de salida y se muestran en la pestaña Definiciones de columna. Tenga en cuenta que si hay algún objeto de matriz en el archivo JSON de muestra, también se acoplan todos los elementos de esos objetos de matriz.
 
 
 Si se **valida el análisis**, aparece un mensaje que le invita a personalizar la asignación de datos en la pestaña “Definición de columna”. En otros casos, se muestra un mensaje de error.
 
 ### Ejecución
 
-Esta pestaña permite definir el extremo de la conexión. El campo **[!UICONTROL URL]** le permite definir el **extremo HTTPS** con el que se comunicará el Campaign Standard.
+Esta pestaña permite definir el extremo de la conexión. El campo **[!UICONTROL URL]** le permite definir el **extremo HTTPS** con el que se comunicará Campaign Standard.
 
 Si lo necesita el extremo, hay dos tipos de método de autenticación disponibles:
 

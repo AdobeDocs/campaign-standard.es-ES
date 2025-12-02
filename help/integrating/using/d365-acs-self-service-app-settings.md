@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 184bc656-2107-4380-9b35-148cb4380547
-source-git-commit: c701043cbba22711de1ea7ddc5266e193d771e14
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 2%
@@ -19,7 +20,7 @@ ht-degree: 2%
 
 ## Añadir credenciales a la aplicación de integración
 
-La pantalla **[!UICONTROL Settings]** le permite especificar las credenciales de la API de Adobe y Microsoft Dynamics 365. También puede definir las opciones relacionadas con la instancia SFTP de Adobe Campaign.
+La pantalla **[!UICONTROL Settings]** le permite especificar las credenciales de la API de Microsoft Dynamics 365 y Adobe. También puede definir las opciones relacionadas con la instancia SFTP de Adobe Campaign.
 
 ### Credenciales de Microsoft Dynamics 365
 
@@ -37,10 +38,10 @@ Las credenciales de Microsoft Dynamics 365 otorgan permiso a la aplicación de i
 
 ### Credenciales de API de Adobe
 
-Las credenciales de Adobe Campaign se generan mediante [Adobe I/O](https://www.adobe.io/). Tendrá que visitar la pantalla [Adobe I/O de configuración](../../integrating/using/d365-acs-configure-adobe-io.md) y seguir las instrucciones antes de poder completar las entradas de esta sección.
+Las credenciales de Adobe Campaign se generan mediante [Adobe I/O](https://www.adobe.io/). Tendrás que visitar la pantalla [Configurar Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md) y seguir las instrucciones antes de poder completar las entradas de esta sección.
 
 * Seleccione el tipo de autenticación como Oauth, ya que la autenticación basada en JWT está obsoleta.
-* La siguiente imagen explica en detalle la asignación entre el Adobe I/O y las entradas de la pantalla de configuración.
+* La siguiente imagen explica en detalle la asignación entre Adobe I/O y las entradas de la pantalla de configuración.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-adobeio.png)
 
@@ -79,13 +80,13 @@ Descubra la administración de SFTP con [Panel de control de Campaign de campañ
 
 * [Acerca de la administración SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=es#sftp-management)
 
-* [Administración de almacenamiento SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=es#installing-ssh-key)
+* [Administración de almacenamiento SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#installing-ssh-key)
 
-* [Agregar intervalos de IP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html?lang=es#sftp-management)
+* [Agregar intervalos de IP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html#sftp-management)
 
-* [Administrar claves](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=es#sftp-management)
+* [Administrar claves](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#sftp-management)
 
-* [Inicie sesión en su servidor SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html?lang=es#sftp-management)
+* [Inicie sesión en su servidor SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html#sftp-management)
 
 Una vez completada la configuración, inicie sesión en el servidor SFTP con la clave privada y cree el directorio &quot;d365_loads/exports&quot;.
 

@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: d7b2231d-46ff-4966-9ea7-27a775e5236b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 3%
@@ -37,7 +38,7 @@ En ese caso, todos los recursos de las tablas **Transaction**, **TransactionDeta
 
 ***Solicitud de muestra***
 
-Solicitud de GET de ejemplo para acceder al recurso profileAndServicesExt extendido.
+Solicitud de GET de ejemplo para acceder al recurso profileAndServicesExt ampliado.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/\
@@ -76,4 +77,4 @@ Para obtener más información sobre la extensión del modelo de datos, consulte
 
 * [Conceptos del modelo de datos](../../developing/using/data-model-concepts.md)
 * [Ampliación de la API](../../developing/using/about-extending-the-api.md)
-* [Definición de vínculos con otros recursos](https://helpx.adobe.com/es/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)
+* [Definición de vínculos con otros recursos](https://helpx.adobe.com/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)

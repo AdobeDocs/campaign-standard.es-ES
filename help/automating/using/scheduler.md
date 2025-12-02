@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: schedule,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 39f7b216-b3cd-4aa6-b5df-23e6805076df
-source-git-commit: 6107f5e43b25037f7f5a7f130922a3a22d0047af
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 52%
@@ -62,7 +63,7 @@ Al diseñar un flujo de trabajo programado que incluya varias actividades, debe 
 
    Al establecer la frecuencia de ejecución en **[!UICONTROL Several times a day]**, tiene la flexibilidad de elegir entre ejecutar el flujo de trabajo a horas específicas del día o periódicamente a lo largo del día.
 
-+++ Obtenga información sobre cómo configurar una frecuencia de ejecución de **[!UICONTROL "Several times a day"]**
+   +++ Obtenga información sobre cómo configurar una frecuencia de ejecución de **[!UICONTROL "Several times a day"]**
 
    * Para ejecutar el flujo de trabajo varias veces en momentos específicos durante el día, active la opción **[!UICONTROL Specific times]** y haga clic en **[!UICONTROL Add an element]** para especificar el tiempo de ejecución deseado. Añada tantas veces como sea necesario para cumplir con sus necesidades.
 
@@ -86,7 +87,7 @@ Al diseñar un flujo de trabajo programado que incluya varias actividades, debe 
 
    ![](assets/wkf_scheduler_day.png)
 
-+++
+   +++
 
 1. Especifique cuándo caduca la ejecución:
 

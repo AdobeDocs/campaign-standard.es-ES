@@ -2,10 +2,11 @@
 title: Envío de una notificación push recurrente con un flujo de trabajo
 description: En este ejemplo, se envía una notificación push personalizada todos los primeros días del mes a las 20:00 a los suscriptores de la aplicación móvil en función de sus husos horarios
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: d5e6034c-3673-4069-ac0b-49c7ad07259d
-source-git-commit: 0ab950d4124bf459ba889e2f1c2954210dd350e0
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 5%
@@ -34,9 +35,9 @@ Para crear el flujo de trabajo, siga estos pasos:
 
    ![](assets/wkf_push_example_5.png)
 
-1. VIP La actividad [Consulta](../../automating/using/query.md) le permite dirigirse a sus clientes de entre 20 y 30 años de edad que se hayan suscrito a su aplicación móvil y que no hayan abierto el correo electrónico que ha enviado:
+1. La actividad [Query](../../automating/using/query.md) le permite dirigirse a sus clientes de VIP de entre 20 y 30 años de edad, que se hayan suscrito a su aplicación móvil y que no hayan abierto el correo electrónico que ha enviado:
 
-   * VIP Seleccione una audiencia (sus clientes de) y filtre por edad.
+   * Seleccione una audiencia (sus clientes de VIP) y filtre por edad.
    * Arrastre y suelte el elemento **Subscriptions to an application** en el área de trabajo. Seleccione **Existe** y la aplicación móvil que desea utilizar.
    * Seleccione el correo electrónico que envió a sus clientes.
    * Arrastre y suelte el elemento **Registros de envío (registros)** en el área de trabajo y seleccione **Existe** para llegar a todos los clientes que recibieron el correo electrónico.

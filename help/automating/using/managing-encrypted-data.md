@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows, Encryption
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
-source-git-commit: 69c47c8f3cbb405acbef634aa1ebaef8e767f159
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 38%
@@ -56,7 +57,7 @@ Los pasos para realizar este caso de uso son los siguientes:
 
    ![](assets/gpg_generate.png)
 
-1. En el sistema externo, utilice la clave pública descargada de la Panel de control de Campaign para cifrar los datos que se van a importar a Campaign Standard.
+1. En el sistema externo, utilice la clave pública descargada del Panel de control de Campaign para cifrar los datos que se van a importar a Campaign Standard.
 
 1. En Campaign Standard, cree un flujo de trabajo para importar los datos cifrados y descifrarlos con la clave privada que se ha instalado mediante el Panel de control de Campaign. Para ello, cree un flujo de trabajo de la siguiente manera:
 
@@ -127,10 +128,10 @@ Los pasos para realizar este caso de uso son los siguientes:
 
 Este vídeo muestra cómo utilizar una clave GPG para descifrar datos.
 
->[!VIDEO](https://video.tv.adobe.com/v/41351?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/35753?quality=12)
 
 Este vídeo muestra cómo utilizar una clave GPG para cifrar datos.
 
->[!VIDEO](https://video.tv.adobe.com/v/41337?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/36380?quality=12)
 
-Hay disponibles [más vídeos de procedimientos para el Campaign Standard aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
+Hay disponibles [más vídeos de procedimientos para Campaign Standard aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).

@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 19bfeecb-da60-479c-a929-0cfb72ef59e3
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 0%
@@ -37,7 +38,7 @@ A continuación, se muestra un ejemplo para recuperar los metadatos de un recurs
 GET /customResources/resourceType/<customResourceName>
 ```
 
-Para realizar una creación, actualización o eliminación, se utilizan el GET, el POST, el PATCH y el DELETE.
+Para realizar una creación, actualización o eliminación, se utilizan GET, POST, PATCH y DELETE.
 
 ```
 POST /customResources/<customResourceName>

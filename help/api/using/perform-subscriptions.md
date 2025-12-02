@@ -2,10 +2,11 @@
 title: Realización de suscripciones
 description: Obtenga información sobre cómo realizar suscripciones con API
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 64f321a3-436a-4b7c-99d8-0c006203012e
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 ## Método 1: Suscripción de un perfil a un servicio
 
-Realice una solicitud de GET para recuperar el perfil.
+Realice una petición GET para recuperar el perfil.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -40,7 +41,7 @@ Devuelve la URL de suscripciones del perfil.
   }
 ```
 
-Realice una solicitud de POST en la URL de suscripciones con la clave principal de servicio deseada dentro de la carga útil.
+Realice una petición POST en la URL de suscripciones con la clave principal de servicio deseada dentro de la carga útil.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -69,7 +70,7 @@ Devuelve el perfil actualizado con el nodo de servicio completado.
 
 ## Método 2: Añadir un perfil a los suscriptores de un servicio
 
-Realice una solicitud de GET para recuperar el servicio.
+Realice una petición GET para recuperar el servicio.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -93,7 +94,7 @@ Devuelve la URL de suscripciones del servicio.
   },
 ```
 
-Realice una solicitud de POST en la URL de suscripciones con la clave principal del perfil deseada dentro de la carga útil.
+Realice una petición POST en la URL de suscripciones con la clave principal del perfil deseada dentro de la carga útil.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign//profileAndServices/service/<PKEY>/subscriptions/ \

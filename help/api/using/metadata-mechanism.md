@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 58ec0999-b28a-4198-8d57-729b074c6a6d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 1%
@@ -17,7 +18,7 @@ ht-degree: 1%
 
 # Mecanismo de metadatos {#metadata-mechanism}
 
-Puede recuperar los metadatos de los recursos mediante **resourceType** en una solicitud de GET:
+Puede recuperar los metadatos de los recursos mediante **resourceType** en una petición GET:
 
 `GET /profileAndServices/resourceType/<resourceName>`
 
@@ -27,7 +28,7 @@ La respuesta devuelve los metadatos principales del recurso (todos los demás ca
 
    * &quot;apiName&quot;: nombre del atributo utilizado en las API.
    * &quot;tipo&quot;: es la definición de tipo de alto nivel (cadena, número, vínculo, colección, enumeración...).
-   * &quot;dataPolicy&quot;: el valor del campo debe seguir las reglas de directiva dadas. Por ejemplo, si la regla dataPolicy se establece en &quot;correo electrónico&quot;, el valor debe ser un correo electrónico válido. Durante un PATCH o un POST, dataPolicy puede comprobar el valor o modificarlo para transformarlo (por ejemplo, smartCase).
+   * &quot;dataPolicy&quot;: el valor del campo debe seguir las reglas de directiva dadas. Por ejemplo, si la regla dataPolicy se establece en &quot;correo electrónico&quot;, el valor debe ser un correo electrónico válido. Durante un PATCH o un POST, dataPolicy puede comprobar el valor o modificarlo para transformarlo (smartCase por ejemplo).
    * &quot;category&quot;: proporciona la categoría del campo en el editor de consultas.
    * &quot;resType&quot;: es el tipo técnico.
 
@@ -45,7 +46,7 @@ si on prend l'exemple de l'org unit, on aura un bon exemple lien -->
 
 ***Solicitud de muestra***
 
-Realice una solicitud de GET en el recurso.
+Realice una petición GET en el recurso.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \

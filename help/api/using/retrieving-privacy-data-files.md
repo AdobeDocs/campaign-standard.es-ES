@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: df06cb86-dba2-41e4-81d0-66f3a86e47bd
-source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 4%
@@ -23,7 +24,7 @@ ht-degree: 4%
 
 Para recuperar el archivo que contiene toda la información asociada a un valor de reconciliación, siga este procedimiento de tres pasos:
 
-1. Realice una solicitud de **POST** para crear una nueva solicitud con el atributo **type=&quot;access&quot;**; consulte [Creación de una nueva solicitud de privacidad](../../api/using/creating-a-privacy-request.md).
+1. Realice una solicitud **POST** para crear una nueva solicitud con el atributo **type=&quot;access&quot;**; consulte [Creación de una nueva solicitud de privacidad](../../api/using/creating-a-privacy-request.md).
 
 1. Realice una solicitud **GET** para recuperar información sobre la solicitud.
 
@@ -54,7 +55,7 @@ Cree una solicitud de privacidad con el atributo type=&quot;access&quot;.
 
 <!-- + réponse -->
 
-Realice una solicitud de GET para recuperar información sobre la solicitud.
+Realice una petición GET para recuperar información sobre la petición.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \
@@ -85,7 +86,7 @@ Devuelve el atributo privacyRequestData con una dirección URL asociada.
 },
 ```
 
-Realice una solicitud del POST en la URL privacyRequestData, con el nombre interno de la solicitud dentro de la carga útil.
+Realice una petición POST en la URL privacyRequestData, con el nombre interno de la solicitud dentro de la carga útil.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool/<PKEY>/privacyRequestData \

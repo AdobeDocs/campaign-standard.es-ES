@@ -1,23 +1,24 @@
 ---
-title: Ingesta de audiencias de Adobe Experience Platform en Campaign
-description: Aprenda a introducir audiencias de Adobe Experience Platform en Campaign Standard.
+title: Ingesta de públicos de Adobe Experience Platform en Campaign
+description: Obtenga información sobre cómo introducir audiencias de Adobe Experience Platform en Campaign Standard.
 audience: integrating
 content-type: reference
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 5c266c44-535b-4954-862d-74c83a6f6406
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 68%
 
 ---
 
-# Ingesta de audiencias de Adobe Experience Platform en Campaign {#destinations}
+# Ingesta de públicos de Adobe Experience Platform en Campaign {#destinations}
 
 Para introducir público de Adobe Experience Platform en Campaign y utilizarlo en sus flujos de trabajo, primero debe conectar Adobe Campaign como **destino** de Adobe Experience Platform y configurarlo con el segmento a exportar.
 
-Una vez configurado el destino, los datos se exportan a su ubicación de almacenamiento y deberá crear un flujo de trabajo específico en Campaign Standard para introducirlo.
+Una vez configurado el destino, los datos se exportan a su ubicación de almacenamiento y deberá crear un flujo de trabajo dedicado en Campaign Standard para introducirlo.
 
 ## Conexión de Adobe Campaign como destino
 
@@ -31,7 +32,7 @@ Ahora puede configurar un flujo de trabajo de Campaign Standard para introducir 
 
 ## Creación de un flujo de trabajo de importación en Campaign Standard
 
-Una vez configurado el Campaign Standard como destino, debe crear un flujo de trabajo dedicado para importar el archivo que ha exportado Adobe Experience Platform.
+Una vez configurado Campaign Standard como destino, debe crear un flujo de trabajo dedicado para importar el archivo que ha exportado Adobe Experience Platform.
 
 Para ello, debe añadir y configurar una actividad **[!UICONTROL Transfer file]**. Para obtener más información sobre cómo configurar esta actividad, consulte [esta sección](../../automating/using/transfer-file.md).
 

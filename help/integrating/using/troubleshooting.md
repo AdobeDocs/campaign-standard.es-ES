@@ -5,19 +5,20 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 5882ada6-dff4-4fd1-a433-0eb31570f73c
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 18%
 
 ---
 
-# Resolución de problemas{#troubleshooting}
+# Solución de problemas{#troubleshooting}
 
-Se pueden encontrar errores al utilizar la integración con el Audience Manager o el servicio principal Personas.
+Se pueden encontrar errores al utilizar la integración con Audience Manager o el servicio principal Personas.
 
 En este caso, asegúrese de que los siguientes elementos están correctamente configurados:
 
@@ -46,6 +47,6 @@ En este caso, asegúrese de que los siguientes elementos están correctamente co
    * **Cifrado IV** (vector de inicialización) para AES
    * **Canal** (correo electrónico/SMS/otro): este campo permite descifrar directamente direcciones de correo electrónico y números de SMS. Asegúrese de que la clave de reconciliación coincida con la configuración del campo **Canal**. Si selecciona &quot;Otro&quot;, este descifrado específico no se producirá y la clave de reconciliación se utilizará para reconciliar los datos.
 
-  Es posible que las audiencias del Experience Cloud no se compartan porque el flujo de trabajo técnico se ha detenido o pausado. Para obtener acceso al flujo de trabajo **[!UICONTROL Import shared audience]**, haga clic directamente en la opción **[!UICONTROL Show ImportShared Audience workflow]** del origen de datos.
+  Es posible que las audiencias de Experience Cloud no se compartan porque el flujo de trabajo técnico se ha detenido o pausado. Para obtener acceso al flujo de trabajo **[!UICONTROL Import shared audience]**, haga clic directamente en la opción **[!UICONTROL Show ImportShared Audience workflow]** del origen de datos.
 
-Al importar una audiencia o compartirla mediante el servicio principal Personas, puede que falten algunos datos. Solo se transfieren los registros cuya ID (“ID de visitante” o “ID declarada”) se haya podido reconciliar con la dimensión del perfil. Las ID de los segmentos del servicio principal Personas que no reconozca Adobe Campaign no se importan.
+Al importar un público o compartirlo mediante el servicio principal Personas, puede que falten algunos datos. Solo se transfieren los registros cuya ID (“ID de visitante” o “ID declarada”) se haya podido reconciliar con la dimensión del perfil. Las ID de los segmentos del servicio principal Personas que no reconozca Adobe Campaign no se importan.

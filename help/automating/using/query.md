@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 0c26a0f9-9d71-4692-ae86-d47e2df53bb7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1765'
 ht-degree: 90%
@@ -35,7 +36,7 @@ La actividad utiliza la herramienta de edición de consultas. Esta herramienta s
 
 La actividad **[!UICONTROL Query]** se puede utilizar para varios tipos de usos:
 
-* Segmentación de individuos para definir el destinatario de un mensaje, la audiencia, etc.
+* Segmentación de individuos para definir el destinatario de un mensaje, el público, etc.
 * Enriquecimiento de datos de toda la tabla de la base de datos de Adobe Campaign.
 * Exportación de datos.
 
@@ -75,7 +76,7 @@ Se configuran en [asignaciones de destino](../../administration/using/target-map
 
 >[!NOTE]
 >
->La dimensión de segmentación también se puede definir al crear una audiencia (consulte [esta sección](../../audiences/using/creating-audiences.md)).
+>La dimensión de segmentación también se puede definir al crear un público (consulte [esta sección](../../audiences/using/creating-audiences.md)).
 
 ![](assets/targeting_dimension1.png)
 

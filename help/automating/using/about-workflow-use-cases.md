@@ -5,9 +5,10 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 exl-id: 210d1477-9536-4308-bdb7-b9ccfe4c85bc
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 85%
@@ -40,18 +41,18 @@ Le ayudan a descubrir los diferentes contextos en los que se pueden utilizar los
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
 * [Ejemplos de consultas](../../automating/using/query-samples.md)
-* [Unión de dos audiencias refinadas](../../automating/using/union-on-two-refined-audiences.md)
+* [Unión de dos públicos refinados](../../automating/using/union-on-two-refined-audiences.md)
 * [Creación de una segmentación en una ubicación](../../automating/using/workflow-segmentation-location.md)
 * [Redirección de receptores que no abran el correo](../../automating/using/workflow-cross-channel-retargeting.md)
 * [Consulta incremental de los suscriptores a un servicio](../../automating/using/incremental-query-on-subscribers.md)
 * [Segmentación según grupos de edad](../../automating/using/segmentation-age-groups.md)
-* [Uso de recursos diferentes de dimensiones de direccionamiento](../../automating/using/using-resources-different-from-targeting-dimensions.md)
+* [Uso de recursos diferentes de dimensiones de segmentación](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
 ## Administración de datos {#management}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-* [Reconciliación de una audiencia de archivo con la base de datos](../../automating/using/reconcile-file-audience-with-database.md)
+* [Reconciliación de un público de archivo con la base de datos](../../automating/using/reconcile-file-audience-with-database.md)
 * [Deduplicación de datos de un archivo importado](../../automating/using/deduplicating-data-imported-file.md)
 * [Enriquecimiento de datos de perfil con datos contenidos en un archivo](../../automating/using/enriching-profile-data-file.md)
 * [Actividad de señales externas e importación de datos](../../automating/using/external-signal-data-import.md)

@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileTransfer,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-source-git-commit: 53852538ac1e092dc9376119f29d969ed4b02952
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 77%
@@ -160,7 +161,7 @@ Por ejemplo:
 
 `//myserver/hello/myrecipients.csv` no es correcto.
 
-## Configuración de historización {#historization-settings}
+## Configuración de la historización {#historization-settings}
 
 Cada vez que se ejecuta una actividad de **[!UICONTROL Transfer file]**, almacena los archivos cargados o descargados en una carpeta dedicada. Se crea una carpeta para cada actividad de **[!UICONTROL Transfer file]** de un flujo de trabajo. Por lo tanto, es importante poder limitar el tamaño de esta carpeta para conservar el espacio físico en el servidor.
 

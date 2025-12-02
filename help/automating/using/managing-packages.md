@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 context-tags: packageDef,overview;packageInstall,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: f9b36b4d-0e9d-4dcf-9079-91dc83764102
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 98%
@@ -47,7 +48,7 @@ Para mostrar y modificar el contenido de un elemento, haga clic en su etiqueta. 
 Los pasos de exportación del paquete se describen en la sección [Exportación de un paquete](#exporting-a-package) .
 
 * El paquete de **[!UICONTROL Platform]** reagrupa todos los recursos añadidos durante la configuración técnica: recursos personalizados, conjuntos de recursos personalizados, activadores y opciones de aplicación con el tipo **[!UICONTROL System]**.
-* El paquete **[!UICONTROL Administration]** reagrupa todos los objetos añadidos durante la configuración de empresa, como: plantillas de campaña, plantillas de contenido, plantillas de envíos, plantillas de página de aterrizaje, plantillas de programa y plantillas de flujo de trabajo.
+* El paquete **[!UICONTROL Administration]** reagrupa todos los objetos añadidos durante la configuración de empresa, como: plantillas de campaña, plantillas de contenido, plantillas de envíos, plantillas de página de destino, plantillas de programa y plantillas de flujo de trabajo.
 
   También incluye los siguientes objetos: bloques de contenido, asignaciones de destino, cuentas externas, unidades organizativas, opciones de aplicación con el tipo **[!UICONTROL User]**, funciones, tipologías, reglas de tipología y usuarios.
 
@@ -140,7 +141,7 @@ La pestaña **[!UICONTROL Execution logs]** almacena todos los pasos de la impor
 
 ### Importación de paquetes {#importing-a-package}
 
-Un administrador puede importar manualmente un paquete originado en una exportación ejecutada anteriormente desde una instancia de Adobe Campaign. Para obtener más información, consulte la sección [Exportaciones de paquetes &#x200B;](#package-exports).
+Un administrador puede importar manualmente un paquete originado en una exportación ejecutada anteriormente desde una instancia de Adobe Campaign. Para obtener más información, consulte la sección [Exportaciones de paquetes ](#package-exports).
 
 La importación manual del paquete consta de dos pasos: primero, debe cargar un archivo para luego poder importar su contenido.
 

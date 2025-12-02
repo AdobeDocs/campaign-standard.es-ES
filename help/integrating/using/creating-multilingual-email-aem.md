@@ -1,14 +1,15 @@
 ---
 title: Creación de un correo electrónico multilingüe con la integración de Adobe Experience Manager.
-description: Con la integración de Adobe Experience Manager AEM Adobe Campaign, puede crear contenido directamente en y usarlo más adelante en.
+description: Con la integración de Adobe Experience Manager, puede crear contenido directamente en AEM y utilizarlo posteriormente en Adobe Campaign.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 0f66fe2b-22b1-49d7-a080-29b00941a2cc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 12%
@@ -21,9 +22,9 @@ Con este documento, aprenderá a crear un correo electrónico multilingüe con c
 
 Los requisitos previos son:
 
-* AEM Acceso a una instancia de configurada para la integración.
+* Acceso a una instancia de AEM configurada para la integración.
 * Acceso a una instancia de Adobe Campaign configurada para la integración.
-* Una plantilla de correo electrónico multilingüe de Adobe Campaign AEM configurada para recibir contenido de.
+* Plantilla de correo electrónico multilingüe de Adobe Campaign configurada para recibir contenido de AEM.
 
 ## Crear nuevo contenido de correo electrónico en Adobe Experience Manager {#creating-email-content-aem}
 
@@ -127,6 +128,6 @@ Se han creado las copias de idioma y ahora puede editar el contenido en función
 
    >[!NOTE]
    >
-   >No podrá enviar un correo electrónico en Adobe Campaign AEM si utiliza un contenido de la lista de distribución que no se ha aprobado y que no se ha aprobado.
+   >No podrá enviar un correo electrónico en Adobe Campaign si utiliza un contenido de AEM que no se haya aprobado.
 
 Su audiencia recibirá su correo electrónico según el conjunto de **[!UICONTROL Preferred languages]** en su **[!UICONTROL Profiles]**. Para obtener más información sobre cómo editar perfiles e idiomas preferidos, consulte esta [página](../../audiences/using/editing-profiles.md).

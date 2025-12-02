@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 90%
@@ -54,7 +55,7 @@ En este caso de uso, vamos a crear un activador simple que se activa cada vez qu
 
    ![](assets/trigger_uc_browse_2.png)
 
-1. Para este caso de uso, necesitamos un activador de abandono simple. El objetivo comercial es identificar a los visitantes que navegan por nuestro sitio web de reservas de viajes, ven la página “Ofertas”, pero no reservan ningún viaje. Una vez que identificamos esta audiencia, queremos volver a contactarlos en un corto periodo de tiempo. En este ejemplo, elegimos enviar el activador después de un periodo de 10 minutos.
+1. Para este caso de uso, necesitamos un activador de abandono simple. El objetivo comercial es identificar a los visitantes que navegan por nuestro sitio web de reservas de viajes, ven la página “Ofertas”, pero no reservan ningún viaje. Una vez que identificamos este público, queremos volver a contactarlos en un corto periodo de tiempo. En este ejemplo, elegimos enviar el activador después de un periodo de 10 minutos.
 
    ![](assets/trigger_uc_browse_3.png)
 
@@ -93,7 +94,7 @@ En Adobe Campaign, debe crear un activador vinculado al que ha creado en Experie
 
 ### Ejecución del escenario {#running-the-scenario}
 
-1. Este caso de uso comienza con un correo electrónico que se ha enviado a la audiencia correspondiente con Adobe Campaign.
+1. Este caso de uso comienza con un correo electrónico que se ha enviado al público correspondiente con Adobe Campaign.
 
    ![](assets/trigger_uc_browse_9.png)
 

@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: bfc52511-f66f-4948-a939-d0d77e8ef03c
-source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 6%
@@ -54,7 +55,7 @@ El estado de exclusión de CCPA de un perfil se puede supervisar y administrar m
   }
   ```
 
-* Solicitud de POST de muestra para marcar un perfil para la exclusión de CCPA.
+* Ejemplo de solicitud POST para marcar un perfil para la exclusión de CCPA.
 
   ```
   -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/ \
@@ -84,7 +85,7 @@ El estado de exclusión de CCPA de un perfil se puede supervisar y administrar m
   }
   ```
 
-* Solicitud del PATCH de muestra para actualizar un perfil para la exclusión de CCPA.
+* Solicitud de PATCH de muestra para actualizar un perfil para la exclusión de CCPA.
 
   ```
   -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \

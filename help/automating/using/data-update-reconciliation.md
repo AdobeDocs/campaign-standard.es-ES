@@ -6,19 +6,20 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: reconciliation,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: cfca6202-791d-4baf-b5ed-677d2480cf06
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '128'
-ht-degree: 52%
+ht-degree: 33%
 
 ---
 
 # Actualización de datos mediante reconciliación {#data-update-reconciliation}
 
-En el siguiente ejemplo se muestra un flujo de trabajo que crea una audiencia de perfiles directamente desde un archivo importado que contiene nuevos clientes. Se compone de las siguientes actividades:
+En el siguiente ejemplo se muestra un flujo de trabajo que crea un público de perfiles directamente desde un archivo importado que contiene nuevos clientes. Se compone de las siguientes actividades:
 
 ![](assets/identification_example2.png)
 
@@ -37,7 +38,7 @@ En el siguiente ejemplo se muestra un flujo de trabajo que crea una audiencia de
   tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
   ```
 
-* Una actividad [Reconciliation](../../automating/using/reconciliation.md) que vincula cada columna del archivo cargado con una columna de dimensión de perfil. Los registros de archivos que no se pueden identificar (por falta de datos, tipo de datos incompatible, etc.) se ignoran para preservar la integridad de los datos de audiencia final.
+* Una actividad [Reconciliation](../../automating/using/reconciliation.md) que vincula cada columna del archivo cargado con una columna de dimensión de perfil. Los registros de archivo que no se pueden identificar (por falta de datos, tipo de datos incompatible, etc.) se omiten para preservar la integridad de los datos de audiencia final.
 
   ![](assets/identification_example1.png)
 

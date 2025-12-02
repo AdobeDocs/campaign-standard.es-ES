@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 9dc07d86-00b2-4885-b6ac-0a6f9bc45236
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 10%
@@ -17,8 +18,8 @@ ht-degree: 10%
 
 # Actualización de la unidad geográfica de un perfil {#updating-a-geographical-unit}
 
-1. Realice una solicitud de GET en el recurso **geoUnitBase** para recuperar la clave principal de la unidad geográfica.
-1. Realice una solicitud del PATCH en la clave principal del perfil, con la clave principal de la unidad geográfica deseada en la carga útil.
+1. Realice una petición GET en el recurso **geoUnitBase** para recuperar la clave principal de la unidad geográfica.
+1. Realice una solicitud PATCH en la clave principal del perfil, con la clave principal de la unidad geográfica deseada en la carga útil.
 
 <br/>
 
@@ -50,7 +51,7 @@ Devuelve todas las unidades geográficas. Recupere la clave principal de la unid
 },
 ```
 
-Realice una solicitud de PATCH en el perfil, con la clave principal de la unidad geográfica deseada en la carga útil.
+Realice una solicitud PATCH en el perfil, con la clave principal de la unidad geográfica deseada en la carga útil.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<PKEY> \

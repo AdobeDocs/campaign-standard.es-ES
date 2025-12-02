@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
-source-git-commit: 3450c549f4910a6c5f6be7bf82fbc93ac06625e8
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 5%
@@ -21,11 +22,11 @@ El acceso a la API de Adobe Campaign Standard se configura mediante los pasos si
 
 >[!IMPORTANT]
 >
->Para administrar certificados en [Adobe Developer](https://developer.adobe.com/), asegúrate de que tienes los derechos de **administrador del sistema** en la organización o de [cuenta de desarrollador](https://helpx.adobe.com/es/enterprise/using/manage-developers.html) en el Admin Console.
+>Para administrar certificados en [Adobe Developer](https://developer.adobe.com/), asegúrate de que tienes los derechos de **administrador del sistema** en la organización o una [cuenta de desarrollador](https://helpx.adobe.com/es/enterprise/using/manage-developers.html) en Admin Console.
 
 1. **Compruebe que tiene un certificado digital** o cree uno si es necesario. Las claves públicas y privadas proporcionadas con el certificado son necesarias en los siguientes pasos.
 1. **Cree una nueva integración al servicio Adobe Campaign** en [Adobe Developer](https://developer.adobe.com/) y configúrelo. A continuación, se generan sus credenciales (clave de API, secreto de cliente...).
-1. **Cree un token web JSON (JWT)** a partir de las credenciales generadas anteriormente y fírmelo con su clave privada. El JWT codifica toda la información de identidad y seguridad que necesita el Adobe para comprobar su identidad y concederle acceso a la API.
+1. **Cree un token web JSON (JWT)** a partir de las credenciales generadas anteriormente y fírmelo con su clave privada. El JWT codifica toda la información de identidad y seguridad que Adobe necesita para comprobar su identidad y concederle acceso a la API.
 
    >[!IMPORTANT]
    >
@@ -34,9 +35,9 @@ El acceso a la API de Adobe Campaign Standard se configura mediante los pasos si
    >* [Implementación](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)
    >* [Preguntas frecuentes sobre JWT en desuso](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)
 
-1. **Intercambie su JWT por un token de acceso** mediante una solicitud de POST. Este token de acceso deberá utilizarse en cada encabezado de sus solicitudes de API.
+1. **Intercambie su JWT por un token de acceso** mediante una petición POST. Este token de acceso deberá utilizarse en cada encabezado de sus solicitudes de API.
 
-Para crear una sesión segura de la API de Adobe I/O servicio a servicio, cada solicitud a un servicio de Adobe debe incluir en el encabezado Autorización la información siguiente.
+Para establecer una sesión segura de la API de Adobe I/O de servicio a servicio, cada solicitud a un servicio de Adobe debe incluir en el encabezado Autorización la información siguiente.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -46,20 +47,20 @@ Para crear una sesión segura de la API de Adobe I/O servicio a servicio, cada s
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-* **&lt;ORGANIZATION>**: Este es su ID de ORGANIZACIÓN personal; el Adobe proporciona un ID de ORGANIZACIÓN para cada una de sus instancias:
+* **&lt;ORGANIZATION>**: Este es su ID de ORGANIZACIÓN personal; Adobe proporciona un ID de ORGANIZACIÓN para cada una de sus instancias:
 
    * &lt;ORGANIZATION> : su instancia de producción,
    * &lt;ORGANIZATION-mkt-stage>: su instancia de fase.
 
-  Para obtener el valor de su ID de ORGANIZACIÓN, consulte con el administrador o con el contacto técnico del Adobe. También puede recuperarla en Adobe I/O al crear una nueva integración, en la lista de licencias (consulte la <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">documentación de Adobe Developer</a>).
+  Para obtener el valor de su ID de ORGANIZACIÓN, consulte con el administrador o con el contacto técnico de Adobe. También puede recuperarla en Adobe I/O al crear una nueva integración, en la lista de licencias (consulte la <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">documentación de Adobe Developer</a>).
 
-* **&lt;ACCESS_TOKEN>**: Su token de acceso personal, que se recuperó al intercambiar su token web JSON a través de una solicitud de POST.
+* **&lt;ACCESS_TOKEN>**: Su token de acceso personal, que se recuperó al intercambiar su token web JSON a través de una solicitud POST.
 
 * **&lt;API_KEY>**: su clave API personal. Se proporciona en Adobe I/O después de crear una nueva integración con el servicio de Adobe Campaign.
 
   ![texto alternativo](assets/tenant.png)
 
-## Resolución de problemas
+## Solución de problemas
 
 Durante la integración de AdobeIO, si aparece el siguiente error:
 
@@ -71,4 +72,4 @@ Durante la integración de AdobeIO, si aparece el siguiente error:
 ```
 
 
-Póngase en contacto con el administrador o con el contacto técnico del Adobe para comprobar si el parámetro CNAME se crea correctamente.
+Póngase en contacto con el administrador o con el contacto técnico de Adobe para comprobar si el parámetro CNAME se crea correctamente.

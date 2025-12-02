@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: f8e7eb96-9541-4d28-9d8d-f06af822debd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 95%
@@ -25,7 +26,7 @@ Los requisitos previos son:
 
 * **Uno o varios recursos personalizados** disponibles y publicados.
 
-  Además, debe haber definido una clave única para estos recursos porque las claves principales automáticas no se exportan en los paquetes. Por lo tanto, el recurso puede tener una clave primaria y una clave única adicional para garantizar la exclusividad de los registros.
+  Además, debe haber definido una clave única para estos recursos porque las claves principales automáticas no se exportan en los paquetes. Por lo tanto, el recurso puede tener una clave principal y una clave única adicional para garantizar la exclusividad de los registros.
 * **Los derechos necesarios** para crear y exportar un paquete.
 
 Recursos adicionales:
@@ -114,7 +115,7 @@ El paquete generado está disponible en la carpeta de descargas. El nombre del a
 
    ![](assets/cusresources_import3.png)
 
-### Publicar {#publish-structure}
+### Publicación {#publish-structure}
 
 1. Vaya al menú **[!UICONTROL Administration]** / **[!UICONTROL Development]** / **[!UICONTROL Publication]**.
 1. Haga clic en **[!UICONTROL Prepare publication]** y luego en **[!UICONTROL Publish]** para actualizar la instancia con los datos de los nuevos recursos personalizados.
@@ -137,7 +138,7 @@ Del mismo modo que en el paso anterior, se divide en dos partes: importar el paq
 
    ![](assets/cusresources_importdata.png)
 
-### Publicar {#publish-data}
+### Publicación {#publish-data}
 
 1. Vaya al menú **[!UICONTROL Administration]** / **[!UICONTROL Development]** / **[!UICONTROL Publication]**.
 1. Haga clic en **[!UICONTROL Prepare publication]** y luego en **[!UICONTROL Publish]** para actualizar la instancia con los datos de los recursos personalizados.

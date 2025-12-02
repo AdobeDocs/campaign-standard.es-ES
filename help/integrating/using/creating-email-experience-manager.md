@@ -1,14 +1,15 @@
 ---
 title: Creación de contenido de correo electrónico en Adobe Experience Manager.
-description: Con la integración de Adobe Experience Manager AEM Adobe Campaign, puede crear contenido directamente en y usarlo más adelante en.
+description: Con la integración de Adobe Experience Manager, puede crear contenido directamente en AEM y utilizarlo posteriormente en Adobe Campaign.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 72b99864-d9d9-4cf4-be06-dc5719a2e4f2
-source-git-commit: 579404ddc128e25cc7f8f93dfec30663c7cf754e
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 12%
@@ -21,9 +22,9 @@ Con este documento, aprenderá a crear y administrar el contenido del correo ele
 
 Los requisitos previos son:
 
-* AEM Acceso a una instancia de configurada para la integración.
+* Acceso a una instancia de AEM configurada para la integración.
 * Acceso a una instancia de Adobe Campaign configurada para la integración.
-* Una plantilla de correo electrónico de Adobe Campaign AEM configurada para recibir contenido de.
+* Una plantilla de correo electrónico de Adobe Campaign configurada para recibir contenido de AEM.
 
 ## Acceso a correos electrónicos en Adobe Experience Manager {#email-content-aem}
 
@@ -38,7 +39,7 @@ Hay disponibles varias plantillas específicas de Adobe Campaign. Debe utilizar 
 De forma predeterminada, dos plantillas predefinidas le permiten crear contenido de correo electrónico para Adobe Campaign.
 
 * **[!UICONTROL Adobe Campaign Email]**: esta plantilla contiene contenido estándar que puede personalizar. Puede elegir entre Correo electrónico de Adobe Campaign (AC6.1) y Correo electrónico de Adobe Campaign (ACS).
-* **[!UICONTROL Importer Page]**: esta plantilla le permite importar un archivo ZIP que contiene un archivo de HTML con contenido que podrá personalizar.
+* **[!UICONTROL Importer Page]**: esta plantilla le permite importar un archivo ZIP que contiene un archivo HTML con contenido que podrá personalizar.
 
 1. En Adobe Experience Manager, cree un nuevo(a) **[!UICONTROL Page]**.
 
@@ -72,9 +73,9 @@ Para crear contenido de correo electrónico en Adobe Experience Manager:
 
 Para enviar el correo electrónico en Adobe Campaign Standard:
 
-1. AEM Una vez definidos el contenido y los parámetros de envío, cree un correo electrónico basado en una plantilla de correo electrónico específica de la en Adobe Campaign Standard.
+1. Una vez definidos los parámetros de contenido y envío, cree un correo electrónico basado en una plantilla de correo electrónico específica de AEM en Adobe Campaign Standard.
 
-+++ AEM Obtenga más información sobre la plantilla específica de la.
+   +++ Más información sobre las Plantillas específicas de AEM.
 
    1. Desde el menú avanzado, acceda a **[!UICONTROL Resources]** `>` **[!UICONTROL Templates]** `>` **[!UICONTROL Delivery templates]**.
 
@@ -86,11 +87,11 @@ Para enviar el correo electrónico en Adobe Campaign Standard:
 
       ![](assets/aem_templates_2.png)
 
-+++
+   +++
 
    ![](assets/aem_send_1.png)
 
-1. AEM Complete las propiedades del correo electrónico y haga clic en **[!UICONTROL Create]** para poder seleccionar el contenido de su mensaje de correo electrónico que le ha sido enviado por el.
+1. Complete las propiedades del correo electrónico y haga clic en **[!UICONTROL Create]** para poder seleccionar el contenido de AEM.
 
 1. Obtener acceso al bloque **[!UICONTROL Content]**.
 

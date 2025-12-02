@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,wizard;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 7553588c-4679-4dfd-93cb-e705ad4dc0aa
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 91%
@@ -66,7 +67,7 @@ La creación de una actividad de marketing se detalla en la sección [Creación 
 
    Para facilitarle la búsqueda y la resolución de problemas si no funcionan de la forma esperada, Adobe recomienda dar nombres propios a los flujos de trabajo y a las etiquetas: rellene el campo de descripción del flujo de trabajo para resumir el proceso a realizar de modo que el operador pueda entenderlo fácilmente.
 
-1. Confirme la creación de la actividad y, entonces, se mostrará el panel de dicha actividad. Para obtener más información, consulte la sección [Interfaz de flujo de trabajo](../../automating/using/workflow-interface.md).
+1. Confirme la creación de la actividad y, entonces, se mostrará el panel de control de dicha actividad. Para obtener más información, consulte la sección [Interfaz de flujo de trabajo](../../automating/using/workflow-interface.md).
 
 1. Una vez que el flujo de trabajo esté listo para configurarse, puede acceder a opciones adicionales haciendo clic en el botón **[!UICONTROL Edit properties]**.
 
@@ -87,7 +88,7 @@ A continuación debe definir las distintas actividades y vincularlas todas en el
 Las actividades se agrupan por categorías dentro de las diferentes secciones de la paleta.
 
 * La primera sección contiene las [actividades de segmentación](../../automating/using/about-targeting-activities.md)
-* La segunda sección contiene las [actividades de ejecución &#x200B;](../../automating/using/about-execution-activities.md), que se utilizan principalmente para coordinar otras actividades.
+* La segunda sección contiene las [actividades de ejecución ](../../automating/using/about-execution-activities.md), que se utilizan principalmente para coordinar otras actividades.
 * La tercera sección contiene actividades que pueden utilizarse para enviar mensajes en diferentes [canales](../../automating/using/about-channel-activities.md). Las actividades de esta sección pueden variar en función de los canales habilitados en su instancia.
 * La cuarta sección contiene [actividades de manipulación de archivos y gestión de datos](../../automating/using/about-data-management-activities.md).
 
@@ -135,6 +136,6 @@ De forma predeterminada, las actividades no están configuradas y no procesarán
 
 Este vídeo muestra cómo crear un flujo de trabajo.
 
->[!VIDEO](https://video.tv.adobe.com/v/27576?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
-Hay disponibles [más vídeos de procedimientos para el Campaign Standard aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
+Hay disponibles [más vídeos de procedimientos para Campaign Standard aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).

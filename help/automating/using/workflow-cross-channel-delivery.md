@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,wait,delivery
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 9cee2005-a99b-47cb-b573-a25812614409
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 84%
@@ -20,7 +21,7 @@ ht-degree: 84%
 
 Este documento le permite descubrir la siguiente funcionalidad de Adobe Campaign mediante un caso de uso estándar: creación de un flujo de trabajo de envío entre canales.
 
-El objetivo aquí es seleccionar una audiencia de los destinatarios de la base de datos y segmentarla en dos grupos diferentes con el fin de enviar un correo electrónico al primer grupo y un mensaje SMS al segundo grupo.
+El objetivo aquí es seleccionar un público de los destinatarios de la base de datos y segmentarlo en dos grupos diferentes con el fin de enviar un correo electrónico al primer grupo y un mensaje SMS al segundo grupo.
 
 ![](assets/wkf_segment_overview.png)
 
@@ -51,7 +52,7 @@ Inserte una actividad de consulta en el flujo de trabajo para identificar los pe
 
 1. En **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, arrastre y suelte una actividad de [Consulta](../../automating/using/query.md).
 1. Haga doble clic en la actividad.
-1. En la pestaña **[!UICONTROL Target]**, examine los accesos directos y seleccione una de las [audiencias](../../audiences/using/about-audiences.md).
+1. En la pestaña **[!UICONTROL Target]**, examine los accesos directos y seleccione uno de los públicos](../../audiences/using/about-audiences.md).[
 1. Arrastre y suelte el acceso directo en la zona de edición. Según el tipo de acceso directo seleccionado, aparece una ventana.
 1. Configure los elementos de objetivo y confirme la consulta.
 
@@ -154,4 +155,4 @@ Una vez iniciado el flujo de trabajo, la población objetivo de la actividad **[
 
 Para ejecutar el flujo de trabajo, haga clic en el botón **[!UICONTROL Start]** de la barra de acciones.
 
-Puede acceder a sus envíos desde el logotipo de Adobe Campaign, en el menú avanzado **[!UICONTROL Marketing plans]** > **[!UICONTROL Marketing activities]**. Haga clic en el envío y, a continuación, en el botón **[!UICONTROL Reports]** para acceder a los [informes de envío](../../reporting/using/about-dynamic-reports.md#accessing-dynamic-reports), como el resumen del envío, la velocidad de apertura o el procesamiento por correo electrónico según la bandeja de entrada del destinatario.
+Puede acceder a sus envíos desde el logotipo de Adobe Campaign, en el menú avanzado **[!UICONTROL Marketing plans]** > **[!UICONTROL Marketing activities]**. Haga clic en el envío y, a continuación, en el botón **[!UICONTROL Reports]** para acceder a los [informes de envío](../../reporting/using/about-dynamic-reports.md#accessing-dynamic-reports), como el resumen del envío, la velocidad de apertura o la representación de correo electrónico según la bandeja de entrada del destinatario.

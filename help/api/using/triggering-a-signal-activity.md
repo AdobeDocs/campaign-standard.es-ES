@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 9f94e98f-fe04-4369-8946-1380e02cdece
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 2%
@@ -31,7 +32,7 @@ Para almacenar en déclencheur un flujo de trabajo, siga los pasos a continuaci�
 
    `GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>`
 
-1. Realice una solicitud **POST** en la dirección URL devuelta para almacenar en déclencheur la actividad de señal con el parámetro **&quot;origen&quot;** en la carga. Este atributo es obligatorio, permite indicar el origen de la solicitud que lo activa.
+1. Realice una solicitud **POST** en la dirección URL devuelta para almacenar en déclencheur la actividad de señal con el parámetro **&quot;source&quot;** en la carga. Este atributo es obligatorio, permite indicar el origen de la solicitud que lo activa.
 
 Si desea llamar al flujo de trabajo con parámetros, agréguelos a la carga útil con el atributo **&quot;parameters&quot;**. La sintaxis consiste en el nombre del parámetro seguido de su valor (se admiten los siguientes tipos: **string**, **number**, **boolean** y **date/time**).
 
@@ -62,7 +63,7 @@ Si desea llamar al flujo de trabajo con parámetros, agréguelos a la carga úti
 
 ***Solicitud de muestra***
 
-Realice una solicitud de GET en el flujo de trabajo.
+Realice una petición GET en el flujo de trabajo.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID> \
@@ -91,7 +92,7 @@ Devuelve la actividad de señal de flujo de trabajo y la URL de déclencheur aso
 }
 ```
 
-Para almacenar en déclencheur una actividad de señal, realice una solicitud de POST en la dirección URL de déclencheur con la &quot;fuente&quot;. Agregue los atributos &quot;parameters&quot; si desea llamar al flujo de trabajo con parámetros.
+Para almacenar en déclencheur una actividad de señal, realice una petición POST en la dirección URL de déclencheur con el &quot;origen&quot;. Agregue los atributos &quot;parameters&quot; si desea llamar al flujo de trabajo con parámetros.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<PKEY>/activities/activity/<PKEY>/trigger \
@@ -115,7 +116,7 @@ Para almacenar en déclencheur una actividad de señal, realice una solicitud de
 
 <!-- + réponse -->
 
-Si uno de los parámetros no se declara en la actividad Señal externa, la solicitud del POST devuelve el error siguiente, que indica qué parámetro falta.
+Si uno de los parámetros no se declara en la actividad Señal externa, la solicitud POST devuelve el error siguiente, que indica qué parámetro falta.
 
 ```
 RST-360011 An error has occurred - please contact your administrator.

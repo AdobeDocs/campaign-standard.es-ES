@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Beginner
 exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
-source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 77%
@@ -39,7 +40,7 @@ Por ejemplo:
 
 ## Duplicación de flujos de trabajo{#duplicating-workflows}
 
-Puede duplicar flujos de trabajo. En **[!UICONTROL Marketing Activities]**, pase el cursor sobre el flujo de trabajo y haga clic en **[!UICONTROL Duplicate element]**. Una vez duplicados, las modificaciones del flujo de trabajo no se transfieren a la copia del flujo de trabajo. La copia del flujo de trabajo se puede editar.
+Puede duplicar flujos de trabajo. En **[!UICONTROL Marketing Activities]**, pase el puntero por encima del flujo de trabajo y haga clic en **[!UICONTROL Duplicate element]**. Una vez duplicados, las modificaciones del flujo de trabajo no se transfieren a la copia del flujo de trabajo. La copia del flujo de trabajo se puede editar.
 
 ![](assets/duplicating_workflow.png)
 
@@ -133,7 +134,7 @@ Para obtener más información, consulte [Administración de paquetes](../../aut
 La opción de lista de exportación le permite exportar un máximo de 100 000 líneas de forma predeterminada y definida por la **opción Nms_ExportListLimit**. El administrador funcional puede administrar esta opción en **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
 Para obtener más información, consulte [Exportación de listas](../../automating/using/exporting-lists.md).
 
-## Resolución de problemas{#workflow-troubleshooting}
+## Solución de problemas{#workflow-troubleshooting}
 
 Adobe Campaign ofrece varios registros para comprender mejor los problemas del flujo de trabajo.
 

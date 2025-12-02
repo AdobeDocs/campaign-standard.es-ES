@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: de97a194-d497-4665-906e-53178fd3b119
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -30,7 +31,7 @@ Los verbos disponibles para realizar operaciones en los recursos son:
 
 ***Solicitudes de muestra***
 
-* Solicitud de GET de muestra en la colección de perfiles.
+* Solicitud GET de ejemplo en la colección de perfiles.
 
 
   ```
@@ -66,7 +67,7 @@ Los verbos disponibles para realizar operaciones en los recursos son:
   }
   ```
 
-* Solicitud de GET de muestra en un perfil específico.
+* Solicitud de GET de ejemplo en un perfil específico.
 
 
   ```
@@ -92,7 +93,7 @@ Los verbos disponibles para realizar operaciones en los recursos son:
   }
   ```
 
-* Solicitud del POST de muestra para crear un perfil.
+* Ejemplo de solicitud POST para crear un perfil.
 
 
   ```
@@ -116,7 +117,7 @@ Los verbos disponibles para realizar operaciones en los recursos son:
   }
   ```
 
-* Solicitud del PATCH de muestra para actualizar un perfil.
+* Solicitud de PATCH de ejemplo para actualizar un perfil.
 
   ```
   -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -136,7 +137,7 @@ Los verbos disponibles para realizar operaciones en los recursos son:
   }
   ```
 
-* Solicitud del DELETE de muestra para eliminar un perfil.
+* Ejemplo de solicitud de DELETE para eliminar un perfil.
 
   ```
   -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \

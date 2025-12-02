@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: dedup,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: a09b101b-f76f-4377-9854-1fcffaad4f9a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 79%
@@ -37,4 +38,4 @@ El flujo de trabajo consta de:
   ![](assets/deduplication_example_dedup.png)
 
 * [Envío de correo electrónico](../../automating/using/email-delivery.md) después de la transición saliente principal de la anulación de duplicación.
-* Una actividad [Guardar audiencia](../../automating/using/save-audience.md) colocada después de la transición adicional de la anulación de duplicación para guardar los duplicados en una audiencia **Duplicados**. Esta audiencia se puede reutilizar para excluir directamente a sus miembros de cada entrega de correo electrónico.
+* Una actividad [Guardar audiencia](../../automating/using/save-audience.md) colocada después de la transición adicional de la anulación de duplicación para guardar los duplicados en una audiencia **Duplicados**. Este público se puede reutilizar para excluir directamente a sus miembros de cada entrega de correo electrónico.

@@ -2,10 +2,11 @@
 title: Interactuar con el historial de marketing
 description: Aprenda a interactuar con el historial de marketing de los perfiles
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 67282d21-b4ed-4af5-b751-848a6d705118
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 4%
@@ -18,14 +19,14 @@ El extremo **history** le permite interactuar con el historial de marketing de u
 De este modo, puede, por ejemplo, recuperar fácilmente la página espejo de una entrega enviada a un perfil. Para realizar esto, siga los pasos a continuación:
 
 1. Realice una GET con el extremo **history** y la clave principal del perfil.
-1. Realizar una solicitud de GET de los **eventos** href devueltos.
+1. Realizar una petición GET en los **eventos** href devueltos.
 1. Devuelve la lista de eventos del perfil con vínculos a páginas espejo en el nodo **mirrorPage**.
 
 <br/>
 
 ***Solicitud de muestra***
 
-Recupere el historial de marketing del perfil con una solicitud de GET.
+Recupere el historial de marketing del perfil con una petición GET.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/history/"<PKEY>" \
@@ -50,7 +51,7 @@ El nodo &quot;events&quot; devuelve la dirección URL que le permite acceder a l
 }
 ```
 
-Realice una solicitud de GET sobre los eventos href devueltos.
+Realizar una petición GET en los eventos href devueltos.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/history/<PKEY>/events \

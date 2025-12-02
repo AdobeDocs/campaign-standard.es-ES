@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 78%
@@ -49,7 +50,7 @@ Si desea integrar flujos de datos de otros sistemas con Adobe Campaign, consulte
    <td> Adobe Experience Manager<br /> </td> 
    <td> Permite crear contenido de correo electrónico o formularios asignados a la base de datos de Adobe Campaign directamente en Adobe Experience Manager.<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">Trabajar con Campaign y el Experience Manager</a>, <a href="https://helpx.adobe.com/es/experience-manager/6-4/sites/administering/using/campaignstandard.html">Integrar el Experience Manager y el Campaign Standard</a>, <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=es">Crear un correo electrónico con el Experience Manager y la campaña</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">Trabaje con Campaign y Experience Manager</a>, <a href="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignstandard.html">Integre Experience Manager y Campaign Standard</a>, <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">Cree un correo electrónico con Experience Manager y Campaign</a> 
     </td> 
   </tr> 
   <tr> 
@@ -68,16 +69,16 @@ Si desea integrar flujos de datos de otros sistemas con Adobe Campaign, consulte
   </tr> 
   <tr> 
    <td> Adobe Audience Manager y Servicio principal People (Perfiles y audiencias)<br /> </td> 
-   <td> Le permite intercambiar audiencias con las distintas aplicaciones de Adobe Experience Cloud que utiliza.<br /> </td> 
-   <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">Servicio principal People (Perfiles y audiencias)</a><br /> </td> 
+   <td> Le permite intercambiar públicos con las distintas aplicaciones de Adobe Experience Cloud que utiliza.<br /> </td> 
+   <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">Servicio principal People (Perfiles y públicos)</a><br /> </td> 
   </tr> 
    <tr> 
-   <td> Adobe Real-time Customer Data Platform (RTCDP)<br /> </td> 
-   <td> La integración entre Adobe Campaign y Adobe Real-time Customer Data Platform (RTCDP) le permite compartir datos de segmentos e importar audiencias a Adobe Campaign.</td>
+   <td> Plataforma de datos de clientes en tiempo real de Adobe (RTCDP)<br /> </td> 
+   <td> La integración entre Adobe Campaign y Real-time Customer Data Platform (RTCDP) de Adobe le permite compartir datos de segmentos e importar audiencias a Adobe Campaign.</td>
    <td><a href="../../integrating/using/get-started-sources-destinations.md">Introducción a orígenes y destinos</a></td>
   </tr> 
   <tr> 
-   <td> Adobe el servicio principal de recursos y Assets On Demand<br /> </td> 
+   <td> Servicio principal de recursos de Adobe y Assets On Demand<br /> </td> 
    <td> Permite insertar activos de la biblioteca de Adobe Experience Cloud en correos electrónicos y páginas de destino creadas en Adobe Campaign.<br /> </td> 
    <td> <a href="../../integrating/using/working-with-campaign-and-assets-core-service.md">Servicio principal de recursos</a> o Recursos bajo demanda<br /> </td> 
   </tr> 
@@ -87,16 +88,16 @@ Si desea integrar flujos de datos de otros sistemas con Adobe Campaign, consulte
    <td> <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">Envío de mensajes de marketing según la ubicación con datos</a> de Campaign y puntos de interés (Analytics para dispositivos móviles)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Adobe Experience Cloud Triggers<br /> </td> 
+   <td> Activadores de Adobe Experience Cloud<br /> </td> 
    <td> Le permite enviar correos electrónicos personalizados a sus clientes en Adobe Campaign como reacción a los comportamientos específicos que Adobe Analytics rastrea en su sitio web.<br /> </td> 
    <td> 
     <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">Utilización de los activadores de Experience Cloud en Campaign Standard</a>, <a href="../../integrating/using/abandonment-triggers-use-cases.md">Ejemplos de uso de los activadores de abandono</a>, y vídeo de <a href="https://helpx.adobe.com/es/marketing-cloud/how-to/email-marketing.html">mensajes de remarketing del activador basados en la Actividad del sitio</a> (paso 2)
     </td> 
   </tr> 
     <tr> 
-   <td> Journey Orchestration de Adobe <br /> </td> 
-   <td> Permite enviar correos electrónicos, notificaciones push y SMS mediante las funciones de mensajería transaccional de Adobe Campaign Standard en el contexto del Journey Orchestration de Adobe, mediante una acción predeterminada.<br /> </td> 
-   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html?lang=es">Trabajando con el Journey Orchestration de Adobe y Adobe Campaign Standard</a><br /> </td> 
+   <td> Adobe Journey Orchestration<br /> </td> 
+   <td> Permite enviar correos electrónicos, notificaciones push y SMS mediante las funciones de mensajería transaccional de Adobe Campaign Standard en el contexto de Adobe Journey Orchestration, mediante una acción predeterminada.<br /> </td> 
+   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html">Trabajando con Adobe Journey Orchestration y Adobe Campaign Standard</a><br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Dreamweaver<br /> </td> 

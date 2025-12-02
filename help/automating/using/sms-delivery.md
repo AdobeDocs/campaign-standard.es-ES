@@ -6,13 +6,14 @@ content-type: reference
 topic-tags: channel-activities
 context-tags: sms,main;delivery,smsContent,back
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 65d3f3d8-039d-4188-a6a4-0065724aa82b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '785'
-ht-degree: 93%
+ht-degree: 91%
 
 ---
 
@@ -37,7 +38,7 @@ Cuando se vincula a un planificador, puede definir mensajes SMS recurrentes.
 
 Los destinatarios del SMS se definen antes de la actividad en el mismo flujo de trabajo, a través de actividades de segmentación como consultas, intersecciones, etc.
 
-La preparación del mensaje se activa según los parámetros de ejecución del flujo de trabajo. En el panel de mensajes, puede seleccionar si desea solicitar o no una confirmación manual para enviar el mensaje (requerido de forma predeterminada). Puede realizar el inicio del flujo de trabajo manualmente o colocar una actividad de planificador en el flujo de trabajo para automatizar la ejecución.
+La preparación del mensaje se activa según los parámetros de ejecución del flujo de trabajo. En el panel de control de mensajes, puede seleccionar si desea solicitar o no una confirmación manual para enviar el mensaje (requerido de forma predeterminada). Puede realizar el inicio del flujo de trabajo manualmente o colocar una actividad de planificador en el flujo de trabajo para automatizar la ejecución.
 
 ## Configuración {#configuration}
 
@@ -46,7 +47,7 @@ La preparación del mensaje se activa según los parámetros de ejecución del f
 
    >[!NOTE]
    >
-   >Puede acceder a las propiedades generales y a las opciones avanzadas de la actividad (y no al propio envío) mediante el botón ![](assets/dlv_activity_params-24px.png) de la barra de acciones del flujo de trabajo. Este botón es específico de la actividad **[!UICONTROL SMS delivery]**. Se puede acceder a las propiedades del SMS a través de la barra de acción del panel SMS.
+   >Puede acceder a las propiedades generales y a las opciones avanzadas de la actividad (y no al propio envío) mediante el botón ![](assets/dlv_activity_params-24px.png) de la barra de acciones del flujo de trabajo. Este botón es específico de la actividad **[!UICONTROL SMS delivery]**. Se puede acceder a las propiedades del SMS a través de la barra de acción del panel de control SMS.
 
 1. Seleccione el modo de envío SMS:
 
@@ -65,13 +66,13 @@ La preparación del mensaje se activa según los parámetros de ejecución del f
 
 1. Confirme la configuración de la actividad y guarde el flujo de trabajo.
 
-Cuando vuelva a abrir la actividad, le lleva directamente al panel SMS. Solo se puede editar su contenido.
+Cuando vuelva a abrir la actividad, le lleva directamente al panel de control SMS. Solo se puede editar su contenido.
 
-De forma predeterminada, iniciar un flujo de trabajo de envío solo activa la preparación del mensaje. El envío de mensajes creados a partir de un flujo de trabajo aún debe confirmarse una vez iniciado el flujo de trabajo. Sin embargo, desde el panel del mensaje, y solo si el mensaje se ha creado a partir de un flujo de trabajo, puede desactivar la opción **[!UICONTROL Request confirmation before sending messages]**. Al desmarcar esta opción, los mensajes se envían sin previo aviso una vez que se ha realizado la preparación.
+De forma predeterminada, iniciar un flujo de trabajo de envío solo activa la preparación del mensaje. El envío de mensajes creados a partir de un flujo de trabajo aún debe confirmarse una vez iniciado el flujo de trabajo. Sin embargo, desde el panel de control del mensaje, y solo si el mensaje se ha creado a partir de un flujo de trabajo, puede desactivar la opción **[!UICONTROL Request confirmation before sending messages]**. Al desmarcar esta opción, los mensajes se envían sin previo aviso una vez que se ha realizado la preparación.
 
 ## Observaciones {#remarks}
 
-Se puede acceder a los envíos creados dentro de un flujo de trabajo en la lista de actividad de marketing de la aplicación. Puede vista del estado de ejecución del flujo de trabajo mediante el panel. Los vínculos del panel de resumen de SMS permiten acceder directamente a los elementos vinculados (flujo de trabajo, campaña o envío principal en caso de un SMS recurrente).
+Se puede acceder a los envíos creados dentro de un flujo de trabajo en la lista de actividad de marketing de la aplicación. Puede vista del estado de ejecución del flujo de trabajo mediante el panel de control. Los vínculos del panel de resumen de SMS permiten acceder directamente a los elementos vinculados (flujo de trabajo, campaña o envío principal en caso de un SMS recurrente).
 
 Sin embargo, las ejecuciones de envíos recurrentes se enmascaran de forma predeterminada. Para verlos, marque la opción **[!UICONTROL Show recurring executions]** en el panel de búsqueda de las actividades de marketing.
 

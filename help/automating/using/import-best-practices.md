@@ -5,9 +5,10 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 exl-id: bb651b91-145f-4e87-92dd-a8b04662e380
-source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 83%
@@ -43,7 +44,7 @@ Un ejemplo de una plantilla de flujo de trabajo genérica diseñada para importa
 * [Actividad Cargar archivo](../../automating/using/load-file.md)
 * [Actividad de reconciliación](../../automating/using/reconciliation.md)
 * [Actividad de segmentación](../../automating/using/segmentation.md)
-* [Actividad de anulación de duplicación](../../automating/using/deduplication.md)
+* [Actividad de deduplicación](../../automating/using/deduplication.md)
 * [Actividad de actualización de datos](../../automating/using/update-data.md)
 
 ## Uso de formatos de archivo plano {#using-flat-file-formats}
@@ -87,7 +88,7 @@ Las importaciones completas deben utilizarse únicamente para la carga inicial.
 Para mantener la coherencia de los datos en la base de datos de Adobe Campaign, siga los principios siguientes:
 
 * Si los datos importados coinciden con una tabla de referencia de Adobe Campaign, se deben reconciliar con esa tabla en el flujo de trabajo. Los registros que no coinciden deben ser rechazados.
-* Asegúrese de que los datos importados siempre estén **&quot;normalizados&quot;** (correo electrónico, número de teléfono, dirección de correo postal) y que esta normalización sea fiable y no cambie con los años. Si no es así, es probable que algunos duplicados aparezcan en la base de datos y, como Adobe Campaign no proporciona herramientas para establecer correspondencias &quot;difusas&quot;, resulta muy difícil administrarlos y eliminarlos.
-* Los datos de transacciones deben tener una clave de reconciliación y se deben reconciliar con los datos existentes para evitar la creación de duplicados.
+* Asegúrese de que los datos importados siempre estén **&quot;normalizados&quot;** (correo electrónico, número de teléfono, dirección de correo directo) y que esta normalización sea fiable y no cambie con los años. Si no es así, es probable que algunos duplicados aparezcan en la base de datos y, como Adobe Campaign no proporciona herramientas para establecer correspondencias &quot;difusas&quot;, resulta muy difícil administrarlos y eliminarlos.
+* Los datos transaccionales deben tener una clave de reconciliación y se deben reconciliar con los datos existentes para evitar la creación de duplicados.
 * **Importación de archivos relacionados en orden**. Si la importación está compuesta por varios archivos que dependen unos de otros, el flujo de trabajo debe asegurar que los archivos se importen en el orden correcto. Si un archivo falla, los demás archivos no se importan.
 * **Deduplique**, reconcilie y mantenga la coherencia al importar datos.

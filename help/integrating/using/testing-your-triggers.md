@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 66628f2a-6ed3-4b12-b2ed-9b9eec440dc3
-source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 1%
@@ -41,7 +42,7 @@ Si se crea el déclencheur, continúe con el paso siguiente. Si no es así, sign
 
 Siga los pasos que se describen en [Creación de un déclencheur asignado en Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) para publicar el déclencheur.
 
-Si la publicación se ha realizado correctamente, continúe con el paso siguiente. Si no es así, póngase en contacto con el Adobe de para reiniciar la instancia e inténtelo de nuevo.
+Si la publicación se ha realizado correctamente, continúe con el paso siguiente. Si no es así, póngase en contacto con Adobe para reiniciar la instancia e inténtelo de nuevo.
 
 **Generar el déclencheur desde el sitio web**
 
@@ -57,14 +58,14 @@ Si Analytics recibe el déclencheur, continúe con el paso siguiente. Si no es a
 
 Si no es así, compruebe si el déclencheur se recibe de la canalización.
 
-Si no es así, póngase en contacto con el Adobe de para comprobar la configuración de los puntos finales de la canalización.
+Si no es así, póngase en contacto con Adobe para comprobar la configuración de los puntos finales de la canalización.
 
 Si es así, siga estas directrices:
 
 * Compruebe el tipo de ID de reconciliación en la fuente de datos de Campaign.
 * CustomerId Datasource se crea mediante Atributos del cliente.
 * Compruebe el ID de origen de datos.
-* Pida al Adobe que reinicie la instancia de Campaign después de la configuración de Datasource.
+* Pida a Adobe que reinicie la instancia de Campaign después de la configuración de Datasource.
 * Consulte los problemas de análisis de déclencheur en el informe de déclencheur.
 
 **¿Está el déclencheur en estado pendiente?**

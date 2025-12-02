@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 3b95fc66-d6f4-44b2-be33-925c1109a57f
-source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 10%
@@ -24,7 +25,7 @@ Un flujo de trabajo siempre se inicia manualmente. Sin embargo, una vez iniciada
 >
 > Adobe recomienda a los clientes que no ejecuten más de 20 ejecuciones de flujos de trabajo activos simultáneamente, y que prioricen y extiendan la ejecución del flujo de trabajo a lo largo del tiempo. Para obtener más información, consulte las prácticas recomendadas que se proporcionan en [esta página](../../automating/using/best-practices-workflows.md).
 
-Acciones relacionadas con la ejecución (inicio, parada, pausa, etc.) son **procesos asincrónicos**: el comando se guarda y entrará en vigencia una vez que el servidor esté disponible para aplicarlo.
+Las acciones relacionadas con la ejecución (inicio, detención, pausa, etc.) son **procesos asincrónicos**: el comando se guarda y se aplicará una vez que el servidor esté disponible para su aplicación.
 
 En un flujo de trabajo, el resultado de cada actividad se envía generalmente a la siguiente actividad a través de una transición, representada por una flecha.
 
@@ -50,4 +51,4 @@ De forma predeterminada, solo se puede acceder a los detalles de la última tran
 
 Cuando una transición está abierta, puede editar su **[!UICONTROL Label]** o enlazarle un **[!UICONTROL Segment code]**. Para ello, edite los campos correspondientes y confirme las modificaciones.
 
-Con las API de REST del Campaign Standard, puede **iniciar**, **pausar**, **reanudar** y **detener** un flujo de trabajo. Puede encontrar más detalles y ejemplos de llamadas REST en la [documentación de API.](../../api/using/controlling-a-workflow.md)
+Con las API de REST de Campaign Standard, puede **iniciar**, **pausar**, **reanudar** y **detener** un flujo de trabajo. Puede encontrar más detalles y ejemplos de llamadas REST en la [documentación de API.](../../api/using/controlling-a-workflow.md)

@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: filtering-data
 context-tags: queryFilter,overview;audience,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: a0adb913-2ee7-4cce-9b4f-74ebb7f1ce6a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '788'
 ht-degree: 94%
@@ -26,7 +27,7 @@ Esta función le permite crear una población para una mejor segmentación de de
 
 Varias funcionalidades de la aplicación lo utilizan para lo siguiente:
 
-* Crear **audiencias** de tipo **Consulta**
+* Crear **públicos** de tipo **Consulta**
 * Definir destinatarios de **correo electrónico**
 * Definir poblaciones en actividades de **flujo de trabajo**
 
@@ -45,20 +46,20 @@ La paleta, situada en la parte izquierda del editor, se divide en dos pestañas,
 
 Los elementos contenidos en las pestañas deben moverse al espacio de trabajo para que se puedan configurar y tener en cuenta en la consulta. Según la dimensión de segmentación seleccionada (consulte [Dimensiones de segmentación y recursos](../../automating/using/query.md#targeting-dimensions-and-resources)), puede hacer lo siguiente:
 
-* Seleccionar audiencias o perfiles uno a uno
+* Seleccionar públicos o perfiles uno a uno
 * Usar filtros predefinidos
 * Definir reglas sencillas para los campos que elija
 * Definir reglas avanzadas que le permitan aplicar funciones a determinados campos
 
 ### Espacio de trabajo {#workspace}
 
-El espacio de trabajo es la zona central en la que se pueden configurar y combinar reglas, audiencias y filtros predefinidos agregados desde la paleta.
+El espacio de trabajo es la zona central en la que se pueden configurar y combinar reglas, públicos y filtros predefinidos agregados desde la paleta.
 
 Cuando se mueve un elemento de la paleta al espacio de trabajo, se abre una nueva ventana y puede comenzar a [crear consultas](#creating-queries).
 
 ## Creación de consultas {#creating-queries}
 
-El editor de consultas puede utilizarse para definir una audiencia o un perfil de prueba en un mensaje, o una población en un flujo de trabajo, y crear una audiencia de tipo de consulta.
+El editor de consultas puede utilizarse para definir un público o un perfil de prueba en un mensaje, o una población en un flujo de trabajo, y crear un público de tipo de consulta.
 
 Las consultas se pueden definir en la **[!UICONTROL Audience]** ventana mientras se crea un envío o en una actividad **Consulta** mientras se crea un flujo de trabajo.
 

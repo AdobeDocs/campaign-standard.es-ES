@@ -2,10 +2,11 @@
 title: Eliminación de suscripciones
 description: Obtenga información sobre cómo eliminar suscripciones con API
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 76e2d102-c877-41a6-af87-2f407201a572
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
@@ -21,8 +22,8 @@ ht-degree: 0%
 Este es un procedimiento de tres pasos.
 
 1. Recupere la URL de suscripciones para el perfil deseado.
-1. Realizar una solicitud de GET en la URL de suscripciones.
-1. Realice una solicitud de DELETE en la dirección URL de servicio deseada.
+1. Realice una petición GET en la dirección URL de suscripciones.
+1. Realice una petición DELETE en la dirección URL de servicio deseada.
 
 Si la solicitud de eliminación se realiza correctamente, el estado de respuesta es 204 Sin contenido.
 
@@ -30,7 +31,7 @@ Si la solicitud de eliminación se realiza correctamente, el estado de respuesta
 
 ***Solicitud de muestra***
 
-Las cargas útiles de ejemplo siguientes muestran cómo cancelar la suscripción de un perfil a un servicio. Primero realice una solicitud de GET para recuperar el perfil.
+Las cargas útiles de ejemplo siguientes muestran cómo cancelar la suscripción de un perfil a un servicio. En primer lugar, realice una petición GET para recuperar el perfil.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -53,7 +54,7 @@ Devuelve la URL de suscripciones del perfil.
   }
 ```
 
-Realizar una solicitud de GET en la URL de suscripciones.
+Realice una petición GET en la dirección URL de suscripciones.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -77,7 +78,7 @@ Devuelve la lista de suscripciones del perfil seleccionado, con una URL para cad
 ...
 ```
 
-Realice una solicitud de DELETE en la dirección URL de servicio deseada.
+Realice una petición DELETE en la dirección URL de servicio deseada.
 
 ```
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -94,8 +95,8 @@ Realice una solicitud de DELETE en la dirección URL de servicio deseada.
 Este es un procedimiento de tres pasos.
 
 1. Recupere el servicio deseado y su URL de suscripción.
-1. Realice una solicitud de GET en la URL de suscripciones para recuperar todos los perfiles y suscripciones.
-1. Realice una solicitud de DELETE en la URL de suscripción de perfil deseada.
+1. Realice una petición GET en la URL de suscripciones para recuperar todos los perfiles y suscripciones.
+1. Realice una petición DELETE en la URL de suscripción de perfil que desee.
 
 Si la solicitud de eliminación se realiza correctamente, el estado de respuesta es 204 Sin contenido.
 
@@ -130,7 +131,7 @@ Devuelve la URL de suscripciones del servicio.
 },
 ```
 
-Realizar una solicitud de GET en la URL de suscripciones.
+Realice una petición GET en la dirección URL de suscripciones.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
@@ -157,7 +158,7 @@ Devuelve la lista de suscripciones del servicio seleccionado, con una URL (href)
 }
 ```
 
-Realice una solicitud de DELETE en la URL de suscripción de perfil deseada.
+Realice una petición DELETE en la URL de suscripción de perfil que desee.
 
 ```
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions/<PKEY> \

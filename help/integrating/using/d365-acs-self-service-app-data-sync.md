@@ -6,10 +6,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 66623c76-96aa-45cd-9637-19d8a9732c04
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1839'
 ht-degree: 0%
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 # Sincronizar datos
 
-Puede sincronizar tablas de Microsoft Dynamics 365 a las métricas de marketing de Campaign y Campaign a Microsoft Dynamics 365. La sincronización se ejecuta mediante tres flujos de trabajo técnicos dedicados: **[!UICONTROL Microsoft Dynamics 365 to Campaign]**, **[!UICONTROL Campaign to Microsoft Dynamics 365]**, **[!UICONTROL Opt-In/Out]**. Consulte esta sección para [obtener más información](../../integrating/using/d365-acs-self-service-app-workflows.md).
+Puede sincronizar tablas de Microsoft Dynamics 365 a las métricas de marketing de Campaign y de Campaign a Microsoft Dynamics 365. La sincronización se ejecuta mediante tres flujos de trabajo técnicos dedicados: **[!UICONTROL Microsoft Dynamics 365 to Campaign]**, **[!UICONTROL Campaign to Microsoft Dynamics 365]**, **[!UICONTROL Opt-In/Out]**. Consulte esta sección para [obtener más información](../../integrating/using/d365-acs-self-service-app-workflows.md).
 
 >[!IMPORTANT]
 >Debe detener o iniciar el flujo de trabajo **[!UICONTROL Microsoft Dynamics 365 to Campaign]** para que se tengan en cuenta los cambios. [Más información](../../integrating/using/d365-acs-self-service-app-workflows.md)
@@ -64,7 +65,7 @@ Para crear una nueva asignación, siga los pasos a continuación:
 
 1. en la página **[!UICONTROL Microsoft Dynamics 365 to Campaign]**, haga clic en el botón **[!UICONTROL Add New Mapping]**.
 
-1. Utilice las listas desplegables para seleccionar las tablas de Microsoft Dynamics 365 y Campaign que desea asignar.
+1. Utilice las listas desplegables para seleccionar las tablas de Microsoft Dynamics 365 y Campaign que desee asignar.
 La mayoría de las demás entradas de la página dependerán de las tablas que elija.
 
    ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-choose-tables.png)
@@ -94,7 +95,7 @@ En esta sección aprenderá a configurar una asignación **única** de una tabla
 
 Puede definir la siguiente configuración:
 
-* **[!UICONTROL Tables]**: en esta sección se muestra el nombre de la tabla de Microsoft Dynamics 365 y la tabla de Campaign a la que se asignará.
+* **[!UICONTROL Tables]**: en esta sección se muestra el nombre de la tabla de Microsoft Dynamics 365 y de la tabla de Campaign a la que se asignará.
 * **[!UICONTROL Field Mappings]**: obtenga más información en [esta sección](#field-mappings)
 * **[!UICONTROL Field Replacements]**: obtenga más información en [esta sección](#field-replacements)
 * **[!UICONTROL Filters]**: obtenga más información en [esta sección](#filters)
@@ -104,7 +105,7 @@ Puede definir la siguiente configuración:
 
 #### Claves principales
 
-Al añadir una nueva asignación de tabla de Microsoft Dynamics 365 a Campaign, debe identificar el campo de ID.
+Al añadir una nueva Microsoft Dynamics 365 a la asignación de tablas de Campaign, debe identificar el campo de ID.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-mappings-first-key.png)
 
@@ -128,7 +129,7 @@ Seleccione los campos Microsoft Dynamics 365 y Campaign en las listas:
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-new-field-mapping.png)
 
-Estas listas contienen los nombres de campo asociados con las tablas de Microsoft Dynamics 365 y Campaign seleccionadas en la parte superior de la página.
+Estas listas contienen los nombres de campo asociados con las tablas de Microsoft Dynamics 365 y Campaign que ha seleccionado en la parte superior de la página.
 
 El conmutador **[!UICONTROL Apply updates]** le permite controlar si las actualizaciones de este campo se propagarán de Microsoft Dynamics 365 a Campaign:
 * Si se activa ![](assets/do-not-localize/d365-to-acs-icon-switch-on.png), las actualizaciones de los valores de Microsoft Dynamics 365 se propagarán a Adobe Campaign a medida que se produzcan las actualizaciones.
@@ -154,7 +155,7 @@ Utilice el botón **[!UICONTROL Add New Field Replacement]** para definir un nue
 
 Los reemplazos de campo le permiten identificar:
 
-* un nombre de campo de Microsoft Dynamics 365 (que se ha agregado anteriormente en la sección de asignaciones de campos),
+* un nombre de campo de Microsoft Dynamics 365 (que se ha añadido más arriba en la sección de asignaciones de campos),
 * un valor existente (que existe en Microsoft Dynamics 365), y
 * un nuevo valor para escribir en Adobe Campaign
 
@@ -196,7 +197,7 @@ Las cuatro métricas que puede controlar son: **Envíos**, **Clics**, **Abrir** 
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-egress.png)
 
-Seleccione **Sí** para confirmar que desea que los eventos de ese tipo fluyan a Microsoft Dynamics 365.
+Seleccione **Yes** para confirmar que desea que los eventos de ese tipo fluyan a Microsoft Dynamics 365.
 
 Haga clic [aquí](../../integrating/using/d365-acs-self-service-app-workflows.md) para obtener más información sobre estos flujos de eventos de correo electrónico.
 
@@ -216,9 +217,9 @@ A continuación se muestra la lista de opciones disponibles para sincronizar dat
 
 * **[!UICONTROL Disabled]**: cuando se selecciona esta opción, no se moverá ninguna información de inclusión/exclusión entre Adobe Campaign y Microsoft Dynamics 365.
 
-* **[!UICONTROL Unidirectional (Microsoft Dynamics 365 to Campaign)]**: esta opción se usa para el flujo de inclusión/exclusión de Microsoft Dynamics 365 a Adobe Campaign únicamente. La aplicación de integración no le permitirá configurar el flujo en esta pantalla; en su lugar, haga clic en **[!UICONTROL Save button]** y vaya al flujo de trabajo **[!UICONTROL Microsoft Dynamics 365 to Campaign]**. En este flujo de trabajo, puede editar la asignación de contactos/tablas de perfil para identificar cómo desea que se asignen los campos de inclusión/exclusión.
+* **[!UICONTROL Unidirectional (Microsoft Dynamics 365 to Campaign)]**: esta opción se usa para el flujo de inclusión/exclusión de Microsoft Dynamics 365 solo a Adobe Campaign. La aplicación de integración no le permitirá configurar el flujo en esta pantalla; en su lugar, haga clic en **[!UICONTROL Save button]** y vaya al flujo de trabajo **[!UICONTROL Microsoft Dynamics 365 to Campaign]**. En este flujo de trabajo, puede editar la asignación de contactos/tablas de perfil para identificar cómo desea que se asignen los campos de inclusión/exclusión.
 
-* **[!UICONTROL Unidirectional (Campaign to Microsoft Dynamics 365)]**: esta opción hará visible la sección **Asignaciones**. Estas entradas le permitirán definir qué campos de Adobe Campaign asignarán datos a qué campos de Microsoft Dynamics 365. Esto significa que si actualiza manualmente un valor en Microsoft Dynamics 365, su valor se sobrescribirá con el valor de Adobe Campaign si cambia.
+* **[!UICONTROL Unidirectional (Campaign to Microsoft Dynamics 365)]**: esta opción hará visible la sección **Asignaciones**. Estas entradas le permiten definir qué campos de Adobe Campaign asignarán datos a qué campos de Microsoft Dynamics 365. Esto significa que si actualiza manualmente un valor en Microsoft Dynamics 365, su valor se sobrescribirá con el valor de Adobe Campaign si cambia.
 
 * **[!UICONTROL Bidirectional]**: esta opción hará visible la sección **Asignaciones**. Estos pares identificarán qué campos de Microsoft Dynamics 365 y Adobe Campaign se asignarán entre sí. [Más información](../../integrating/using/d365-acs-notices-and-recommendations.md).
 

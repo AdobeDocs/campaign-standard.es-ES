@@ -2,19 +2,20 @@
 title: Solución de problemas API
 description: Obtenga más información acerca de problemas comunes relacionados con las API de Campaign Standard
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
-source-git-commit: b65bf28565c25072c6a95cebdb999ce38a2e2e1a
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
 
 # Solución de problemas API {#troubleshooting}
 
-* **Al ir a la consola de Adobe.io, aparece el siguiente error: &quot;La consola de Adobe I/O solo está disponible para seleccionar miembros de cuentas de empresa. Si cree que debería tener acceso, comuníquese con el administrador del sistema.&quot;**
+* **Al ir a la consola de Adobe.io, aparece el siguiente error: &quot;La consola de Adobe I/O solo está disponible para seleccionar miembros de cuentas empresariales. Si cree que debería tener acceso, comuníquese con el administrador del sistema.&quot;**
 
 Solo puede crear claves API para las organizaciones de las que es administrador. Si se muestra este mensaje, desea crear claves de API y desea preguntar a uno de los administradores de la organización.
 
@@ -74,7 +75,7 @@ En la respuesta, el valor ORGANIZATION_ID debe ser el mismo en la primera solici
 }
 ```
 
-* **Al realizar una solicitud a Adobe.io, recibe {&quot;code&quot;:500, &quot;message&quot;:&quot;Uy. Se ha producido un error. Compruebe su URI e inténtelo de nuevo.&quot;}**
+* **Al realizar una solicitud a Adobe.io, se obtiene {&quot;code&quot;:500, &quot;message&quot;:&quot;Uy. Se ha producido un error. Compruebe su URI e inténtelo de nuevo.&quot;}**
 
 Adobe.io declara su URI no válido: lo más probable es que el URI que está solicitando no sea válido. En Adobe.io, al seleccionar el servicio de Campaign, se obtiene un selector con una lista de posibles organization_ids. Debe comprobar que el que elige es el que introduce en la dirección URL.
 

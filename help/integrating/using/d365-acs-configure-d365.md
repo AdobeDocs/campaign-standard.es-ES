@@ -1,16 +1,17 @@
 ---
-title: Configuración de Microsoft Dynamics 365 para integración con Campaign
-description: Obtenga información sobre cómo configurar la integración de Microsoft Dynamics 365 para Campaign.
+title: Configuración de Microsoft Dynamics 365 para la integración con Campaign
+description: Obtenga información sobre cómo configurar Microsoft Dynamics 365 para la integración de Campaign.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
-source-git-commit: 6947d163119dd6fc5966fdc723530b02bdd4a469
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -27,17 +28,17 @@ Se deberán configurar varias aplicaciones para habilitar la integración; sin e
 
 ## Requisitos previos
 
-Antes de realizar la configuración de preintegración en este documento, se da por hecho que ya se ha aprovisionado y tiene acceso de administrador a la instancia de Microsoft Dynamics 365 de su organización.  Si no es así, tendrá que ponerse en contacto con el servicio de atención al cliente de Microsoft para completar el aprovisionamiento de Dynamics 365.
+Antes de realizar la configuración previa a la integración en este documento, se da por hecho que ya se ha aprovisionado y tiene acceso de administrador a la instancia de Microsoft Dynamics 365 de su organización.  Si no es así, tendrá que ponerse en contacto con el servicio de atención al cliente de Microsoft para completar el aprovisionamiento de Dynamics 365.
 
 Si está configurando la integración para los entornos de ensayo y producción, deberá realizar los pasos siguientes para las instancias de Dynamics 365 de ensayo y producción. Algunas instrucciones a continuación varían ligeramente según si está configurando una instancia de Dynamics 365 de fase o producción (por ejemplo, para la instancia de producción, seleccione &quot;prod&quot; para `<stage or prod>`)
 
 ## Configuración de la aplicación y los permisos
 
-Un token de acceso de OAuth permite a la herramienta de integración autenticarse con la instancia de Microsoft Dynamics 365 a través de las API web para publicar eventos de experiencia del Campaign Standard en la vista de cronología de la interfaz de Microsoft Dynamics 365.
+Un token de acceso de OAuth permite a la herramienta de integración autenticarse con la instancia de Microsoft Dynamics 365 a través de las API web para publicar eventos de experiencia de Campaign Standard en la vista de cronología de la interfaz de Microsoft Dynamics 365.
 
 Los pasos principales se describen en el siguiente vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/34835?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/27637)
 
 Para generar el token de acceso de OAuth, siga los pasos descritos a continuación.
 
@@ -91,7 +92,7 @@ Este nuevo usuario es un usuario genérico. La utilizará la aplicación: cualqu
 
 1. Haga clic en el menú desplegable para ir a **[!UICONTROL Application Users]**. Haga clic en **[!UICONTROL New]**.
 
-1. Asegúrese de que la lista desplegable junto al icono de usuario indica **[!UICONTROL USER:APPLICATION USER]**.
+1. Asegúrese de que la lista desplegable junto al icono de usuario indique **[!UICONTROL USER:APPLICATIONUSUARIO]**.
 
    Rellene la pantalla del nuevo usuario.  Sugerencias de parámetros:
 
@@ -115,7 +116,7 @@ Este nuevo usuario es un usuario genérico. La utilizará la aplicación: cualqu
 
 Siga las instrucciones [de esta página](https://docs.microsoft.com/en-us/onedrive/find-your-office-365-tenant-id) para encontrar su ID de inquilino.  Necesitará este ID durante la configuración previa a la integración en la herramienta de integración.
 
-## Campaign Standard de instalación para Microsoft Dynamics 365 {#install-appsource-app}
+## Instalación de Campaign Standard para Microsoft Dynamics 365 {#install-appsource-app}
 
 Para integrar la aplicación de Dynamics 365 en su entorno de Campaign Standard, siga los pasos a continuación:
 
@@ -125,7 +126,7 @@ También puede navegar a este [vínculo](https://appsource.microsoft.com/en-us/p
 1. Una vez instalada, vaya a la instancia de Dynamics 365 e inicie sesión como administrador.
 1. Haga clic en el icono de engranaje en la esquina superior derecha y haga clic en **[!UICONTROL Advanced Settings]**. En el banner superior, haga clic en el menú desplegable situado junto a **[!UICONTROL Settings]**, haga clic en **[!UICONTROL Processes]** en **[!UICONTROL Process Center]**.
 1. Busque **[!UICONTROL Adobe Campaign Email Bounce]** tarea y haga clic en ella.
-1. En la ficha **[!UICONTROL Administration]**, cambie el propietario al usuario de la aplicación API de Adobe creado anteriormente haciendo clic en **[!UICONTROL Actions]** en la cinta de opciones superior, luego seleccione la opción **[!UICONTROL Assign to another User]** y seleccione **[!UICONTROL Adobe API application user]** en el menú desplegable para asignar.
+1. En la ficha **[!UICONTROL Administration]**, cambie el propietario a la aplicación API de Adobe creada anteriormente haciendo clic en **[!UICONTROL Actions]** en la cinta de opciones superior, luego seleccione la opción **[!UICONTROL Assign to another User]** y seleccione **[!UICONTROL Adobe API application user]** en el menú desplegable para asignar.
 1. Reactive el proceso.
 1. Haga lo mismo para la tarea **[!UICONTROL Adobe Campaign Email Click]**.
 

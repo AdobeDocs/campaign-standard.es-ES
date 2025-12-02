@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 51f07f08-5d57-4c4c-aff2-d03e5956ec6f
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 1%
@@ -26,7 +27,7 @@ La aplicación de integración incluye tres flujos de trabajo:
 **Microsoft Dynamics 365 a Campaign**
 * Enviar *contactos* de Microsoft Dynamics 365 a Adobe Campaign
 * *Entidades personalizadas*: Traiga tablas personalizadas de Microsoft Dynamics 365 a Adobe Campaign. [Más información](../../integrating/using/d365-acs-using-the-integration.md#data-flows)
-* Esto también se conoce como **Ingreso** (en referencia al ingreso de datos de Microsoft Dynamics 365 a Adobe Campaign)
+* Esto también se conoce como **Ingreso** (en referencia a la entrada de datos de Microsoft Dynamics 365 a Adobe Campaign)
 
 **Campaña a Microsoft Dynamics 365**
 * Los eventos de marketing por correo electrónico de Adobe Campaign Standard se envían a Dynamics 365 (envío de correo electrónico, apertura, clic, rechazo). [Más información](../../integrating/using/d365-acs-using-the-integration.md#email-marketing-event-flow)

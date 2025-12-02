@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 feature: People Core Service Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
-source-git-commit: 60386a9e6e424d76b1de0f2ecbeab48dd06fb354
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 44%
@@ -17,11 +18,11 @@ ht-degree: 44%
 
 # Aprovisionamiento y configuración de la integración con Audience Manager o el servicio principal People{#integration-with-audience-manager-or-people-core-service}
 
-El aprovisionamiento y la configuración del Audience Manager y del núcleo Personas en Adobe Campaign realizan dos pasos: [Enviar la solicitud al Adobe](#submitting-request-to-adobe) y después [Configurar la integración en Adobe Campaign](#configuring-the-integration-in-adobe-campaign).
+El aprovisionamiento y la configuración de Audience Manager y del núcleo People en Adobe Campaign realizan dos pasos: [Enviar la solicitud a Adobe](#submitting-request-to-adobe) y después [Configurar la integración en Adobe Campaign](#configuring-the-integration-in-adobe-campaign).
 
 ## Envío de la solicitud a Adobe {#submitting-request-to-adobe}
 
-La integración de Audience Manager AAM () o servicio principal Personas permite importar y exportar audiencias o segmentos en Adobe Campaign.
+La integración de Audience Manager (AAM) o el servicio principal Personas permite importar y exportar audiencias o segmentos en Adobe Campaign.
 
 Esta integración debe configurarse primero. Para solicitar la provisión de esta integración, póngase en contacto con el Soporte técnico de Adobe y proporcione la siguiente información:
 
@@ -60,7 +61,7 @@ Esta integración debe configurarse primero. Para solicitar la provisión de est
 
 ## Configuración de la integración en Adobe Campaign {#configuring-the-integration-in-adobe-campaign}
 
-Después de enviar esta solicitud, el Adobe procede a suministrarle la integración y a ponerse en contacto con usted para proporcionarle los detalles y la información necesarios para finalizar la configuración:
+Después de enviar esta solicitud, Adobe procede a suministrarle la integración y a ponerse en contacto con usted para proporcionarle los detalles y la información necesarios para finalizar la configuración:
 
 * [Paso 1: Configuración o verificación de las cuentas externas en Adobe Campaign](#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)
 * [Paso 2: Configuración de las fuentes de datos](#step-2--configure-the-data-sources)
@@ -69,7 +70,7 @@ Después de enviar esta solicitud, el Adobe procede a suministrarle la integraci
 
 ### Paso 1: Configuración o verificación de las cuentas externas en Adobe Campaign {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
 
-Primero debemos configurar o comprobar las cuentas externas en Adobe Campaign. Estas cuentas deberían haberse configurado por Adobe y la información necesaria debería haberse comunicado a usted.
+Primero debemos configurar o comprobar las cuentas externas en Adobe Campaign. Estas cuentas deberían haber sido configuradas por Adobe y se le debería haber comunicado la información necesaria.
 
 Para ello:
 
@@ -89,7 +90,7 @@ Sus cuentas externas ya están configuradas para esta integración.
 Las dos fuentes de datos siguientes se crean dentro de Audience Manager: Adobe Campaign (MID) y Adobe Campaign (DeclaredId). Al mismo tiempo, estas dos fuentes de datos están disponibles en Adobe Campaign:
 
 * **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**: es un origen de datos predeterminado configurado para el ID de visitante de forma predeterminada. Los segmentos creados con Campaign forman parte de esta fuente de datos.
-* **Origen de datos del ID declarado**: este origen de datos debe crearse y asignarse con la definición de origen de datos **[!UICONTROL DeclaredId]** del Audience Manager.
+* **Origen de datos del ID declarado**: este origen de datos debe crearse y asignarse con la definición de origen de datos **[!UICONTROL DeclaredId]** de Audience Manager.
 
 Tenga en cuenta que en el caso de varios sitios web con dominios diferentes, Adobe Campaign no admite la reconciliación basada en ECID.
 
@@ -100,7 +101,7 @@ Para configurar la fuente de datos **[!UICONTROL Recipient - Visitor ID (Default
    ![](assets/integration_aam_2.png)
 
 1. Elija **[!UICONTROL Adobe Campaign]** en la lista desplegable **[!UICONTROL Data Source/ Alias]**.
-1. Escriba el **[!UICONTROL AAM Destination ID]** proporcionado por el Adobe.
+1. Escriba el **[!UICONTROL AAM Destination ID]** proporcionado por Adobe.
 
    ![](assets/integration_aam_3.png)
 
@@ -111,8 +112,8 @@ Para crear el origen de datos **[!UICONTROL Declared ID]**:
 
 1. En **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**, haga clic en el botón **[!UICONTROL Create]**.
 1. Edite **[!UICONTROL Label]** de su origen de datos.
-1. En la lista desplegable **[!UICONTROL Data Source/ Alias]**, elija el Source de datos correspondiente al origen de datos **[!UICONTROL DeclaredID]** del Audience Manager.
-1. Configure su fuente de datos ingresando **[!UICONTROL Data Source / Alias]** y **[!UICONTROL AAM Destination ID]** proporcionados por el Adobe.
+1. En la lista desplegable **[!UICONTROL Data Source/ Alias]**, elija el Source de datos correspondiente al origen de datos **[!UICONTROL DeclaredID]** de Audience Manager.
+1. Configure su fuente de datos ingresando **[!UICONTROL Data Source / Alias]** y **[!UICONTROL AAM Destination ID]** proporcionados por Adobe.
 1. Establezca **[!UICONTROL Reconciliation process]** según sea necesario.
 1. Haga clic en **[!UICONTROL Save]**.
 

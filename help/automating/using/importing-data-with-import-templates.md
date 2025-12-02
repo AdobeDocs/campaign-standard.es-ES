@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 5e93b39e-cdd1-4632-8f65-dfa76a735626
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 99%
@@ -52,17 +53,17 @@ El administrador funcional define una plantilla de importación que se puede adm
 
 Hay tres plantillas de solo lectura predeterminadas disponibles:
 
-* **[!UICONTROL Update Direct mail quarantines and delivery logs]**: esta plantilla puede servir de base para nuevas importaciones a fin de actualizar cuarentenas y registros de envío para el correo postal. El flujo de trabajo de la plantilla contiene las siguientes actividades:
+* **[!UICONTROL Update Direct mail quarantines and delivery logs]**: esta plantilla puede servir de base para nuevas importaciones a fin de actualizar cuarentenas y registros de envío para el correo directo. El flujo de trabajo de la plantilla contiene las siguientes actividades:
 * **[!UICONTROL Import data]**: esta plantilla puede servir de base para que las nuevas importaciones inserten datos de un archivo en la base de datos. El flujo de trabajo de esta plantilla contiene las siguientes actividades:
 
    * **[!UICONTROL Load file]**: esta actividad le permite cargar un archivo en el servidor de Adobe Campaign.
    * **[!UICONTROL Update data]**: esta actividad le permite insertar datos del archivo en la base de datos.
 
-* **[!UICONTROL Import list]**: esta plantilla puede servir de base para que las nuevas importaciones creen una audiencia de tipo **lista** a partir de los datos de un archivo. El flujo de trabajo de esta plantilla contiene las siguientes actividades:
+* **[!UICONTROL Import list]**: esta plantilla puede servir de base para que las nuevas importaciones creen un público de tipo **lista** a partir de los datos de un archivo. El flujo de trabajo de esta plantilla contiene las siguientes actividades:
 
    * **[!UICONTROL Load file]**: esta actividad le permite cargar un archivo en el servidor de Adobe Campaign.
-   * **[!UICONTROL Reconciliation]**: esta actividad le permite vincular una dimensión de segmentación a los datos importados. Esto le permite crear una audiencia de tipo **lista**. Si no se conoce la dimensión de segmentación de los datos importados, la audiencia es de tipo **archivo**. Consulte [Dimensiones de segmentación y recursos](../../automating/using/query.md#targeting-dimensions-and-resources).
-   * **[!UICONTROL Save audience]**: esta actividad permite guardar datos importados en forma de audiencia de tipo **lista**. El nombre de la audiencia guardada corresponde al nombre del archivo importado por el usuario y se añade un sufijo que especifica la fecha y la hora de la importación. Por ejemplo: “perfiles_20150406_151448”.
+   * **[!UICONTROL Reconciliation]**: esta actividad le permite vincular una dimensión de segmentación a los datos importados. Esto le permite crear un público de tipo **lista**. Si no se conoce la dimensión de segmentación de los datos importados, el público es de tipo **archivo**. Consulte [Dimensiones de segmentación y recursos](../../automating/using/query.md#targeting-dimensions-and-resources).
+   * **[!UICONTROL Save audience]**: esta actividad permite guardar datos importados en forma de público de tipo **lista**. El nombre del público guardado corresponde al nombre del archivo importado por el usuario y se añade un sufijo que especifica la fecha y la hora de la importación. Por ejemplo: “perfiles_20150406_151448”.
 
 Estas plantillas predeterminadas son de solo lectura y no son visibles para los usuarios estándar. Para crear una plantilla disponible para los usuarios, siga estos pasos:
 

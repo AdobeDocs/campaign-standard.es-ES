@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: e0fb289a-6b6e-473d-80af-50f6d0d72af1
-source-git-commit: abdcd3f9f7f709818dee794b4c830e486fefa290
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 1%
@@ -35,16 +36,14 @@ La migración a las credenciales de servidor a servidor de OAuth es un proceso s
 4. La nueva credencial **OAuth Server-to-Server** se agregará a la navegación del lado izquierdo.
    * Haga clic en Cancelar migración si desea cancelar la migración.
    * No haga clic en el botón Revisar y eliminar hasta comprobar si la nueva credencial de servidor a servidor OAuth funciona.
-
      ![](assets/JwtToOAuthMigration3.png)
 
-5. Actualizar las credenciales en la aplicación de Microsoft Dynamics 365 a Adobe Campaign Standard
+5. Actualizar las credenciales en Microsoft Dynamics 365 a la aplicación de Adobe Campaign Standard
    * Inicie sesión en la aplicación de integración y navegue hasta la página Configuración.
    * Seleccione OAuth como tipo de autenticación.
    * Dado que la nueva credencial de servidor a servidor OAuth utiliza las mismas credenciales que la credencial de cuenta de servicio (JWT) anterior, la mayoría de los campos ya se rellenarán.
    * Introduzca el ID de cliente y el secreto de cliente. Se pueden encontrar en el proyecto en Adobe Developer Console.
    * Haga clic en Guardar para guardar la configuración.
-
      ![](assets/JwtToOAuthMigration4.png)
 
 6. Compruebe si las nuevas credenciales funcionan
@@ -58,11 +57,8 @@ La migración a las credenciales de servidor a servidor de OAuth es un proceso s
    * Haga clic en los proyectos y seleccione el proyecto que ha migrado.
    * Haga clic en la pestaña Credencial de la cuenta de servicio (JWT) en el panel de navegación del lado izquierdo.
    * Haga clic en el botón Revisar y eliminar.
-
      ![](assets/JwtToOAuthMigration5.png)
    * Revise la marca de tiempo del último acceso o del último menú utilizado para comprobar si la aplicación de integración está generando tokens de acceso con la nueva credencial de OAuth o sigue utilizando la credencial JWT antigua.
-
      ![](assets/JwtToOAuthMigration6.png)
    * Una vez que se verifique que la aplicación de integración está usando la nueva credencial de OAuth y ya no usa la credencial JWT, continúe con la eliminación de la credencial antigua haciendo clic en el botón **Confirmar y continuar**, con lo que se completará la migración.
-
      ![](assets/JwtToOAuthMigration7.png)

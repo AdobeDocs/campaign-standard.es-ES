@@ -6,13 +6,14 @@ content-type: reference
 topic-tags: filtering-data
 context-tags: queryFilter,overview;audience,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: f11754fb-188e-4cae-bd5b-0dfbf74befb3
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1100'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -39,7 +40,7 @@ Puede editar expresiones para:
 
 La edición avanzada de expresiones le permite definir manualmente una expresión que se adapte específicamente a sus necesidades.
 
-La edición de expresiones se puede utilizar en la ventana Audiencia al crear un correo electrónico o en una actividad de Consulta al crear un flujo de trabajo.
+La edición de expresiones se puede utilizar en la ventana Público al crear un correo electrónico o en una actividad de Consulta al crear un flujo de trabajo.
 
 1. Acceda a la ventana de edición de expresiones mediante uno de los métodos detallados en la sección [Acerca de la edición avanzada de expresiones](../../automating/using/advanced-expression-editing.md#about-advanced-expression-editing). Incluye los siguientes elementos:
 
@@ -57,7 +58,7 @@ La edición de expresiones se puede utilizar en la ventana Audiencia al crear un
 
 1. Asigne un nombre específico a la regla si es necesario. El nombre introducido aparecerá como nombre de regla en el espacio de trabajo del editor de consultas.
 
-Editar una expresión le permite personalizar la expresión de Audiencias para dirigirse a la población según sea necesario.
+Editar una expresión le permite personalizar la expresión de Públicos para dirigirse a la población según sea necesario.
 
 **Temas relacionados:**
 
@@ -200,7 +201,7 @@ Las condiciones deben vincularse a los valores mediante uno de los siguientes op
    <td> NOT<br /> </td> 
    <td> N/A<br /> </td> 
    <td> Es similar a <span class="uicontrol">Like</span> . Le permite no recuperar el valor introducido. En este caso, el valor introducido debe contener el carácter comodín <span class="uicontrol">%</span>.<br /> </td> 
-   <td> <strong>@lastName NOT Smi%h</strong>. Aquí, los destinatarios corresponden al nombre “Smi%h” (por lo tanto, Smith, etc.) no se devuelven como resultado.<br /> </td> 
+   <td> <strong>@lastName NOT Smi%h</strong>. En este caso, los destinatarios corresponden al nombre "Smi%h" (por lo que Smith, etc.) no se devuelven como resultado.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Is empty</span> <br /> </td> 

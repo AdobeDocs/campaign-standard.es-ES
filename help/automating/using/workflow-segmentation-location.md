@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,segmentation,delivery
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: feedc2f5-63da-44a5-b8f0-15afdfd47daa
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 80%
@@ -41,7 +42,7 @@ Puede enviar un correo electrónico de segmentación a los clientes con ofertas 
 1. Arrastre y suelte **[!UICONTROL Location]** y seleccione **[!UICONTROL City]** con el operador **[!UICONTROL equals to]** y el valor **[!UICONTROL Boston]**.
 Nota: Para llegar a todas las personas introducidas en Boston, sin tener en cuenta las mayúsculas o minúsculas, desactive la opción que distingue mayúsculas de minúsculas.
 1. Haga clic en **[!UICONTROL Confirm]**.
-1. En **[!UICONTROL List of outbound segments]**, haga clic en **[!UICONTROL Add an element]** y haga clic en ![](assets/edit_darkgrey-24px.png) para crear un segmento dirigido a personas de la segunda ciudad. Aquí Chicago.
+1. En **[!UICONTROL List of outbound segments]**, haga clic en **[!UICONTROL Add an element]** y haga clic en ![](assets/edit_darkgrey-24px.png) para crear un grupo segmentado a personas de la segunda ciudad. Aquí Chicago.
 1. Arrastre y suelte **[!UICONTROL Location]** y seleccione **[!UICONTROL City]** con el operador **[!UICONTROL equals to]** e introduzca **[!UICONTROL Chicago]** en el valor.
 1. Para llegar a todas las personas introducidas en Chicago, sin tener en cuenta el caso, desactive la opción que distingue mayúsculas de minúsculas.
 1. Haga clic en **[!UICONTROL Confirm]**.

@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 63864f0f-2c22-4a65-86ae-21897031f30a
-source-git-commit: 013293fce8a923e771e10585c41e4ad482003080
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 16%
@@ -17,7 +18,7 @@ ht-degree: 16%
 
 # Supervisión de una solicitud de privacidad {#monitoring-a-privacy-request}
 
-Puede supervisar la información sobre una solicitud de privacidad creada mediante una solicitud de **GET**.
+Puede supervisar la información sobre una solicitud de privacidad creada con una solicitud de **GET**.
 
 La descripción de la lista de estado está disponible en [Documentación de administración de privacidad](../../start/using/privacy-requests.md).
 

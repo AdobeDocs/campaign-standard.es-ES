@@ -6,19 +6,20 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 44b59f56-99be-41ae-af8d-76272bb94d18
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # Acceso a la integración de Adobe Campaign Standard con la aplicación de autoservicio de Microsoft Dynamics 365
 
-Esta configuración requiere que trabaje con un Experience Cloud (EC) de su organización. Estos son los pasos iniciales necesarios para darle acceso a la interfaz de la aplicación de integración de autoservicio. Una vez que tenga acceso a la herramienta, configurará las conexiones a los datos y el flujo de datos entre Adobe Campaign y Microsoft Dynamics 365.
+Esta configuración requiere que trabaje con un administrador de Experience Cloud (EC) para su organización. Estos son los pasos iniciales necesarios para darle acceso a la interfaz de la aplicación de integración de autoservicio. Una vez que tenga acceso a la herramienta, configurará las conexiones a los datos y el flujo de datos entre Adobe Campaign y Microsoft Dynamics 365.
 
 >[!NOTE]
 >
@@ -30,15 +31,15 @@ En esta sección aprenderá a conceder acceso a la integración de Adobe Campaig
 
 >[!IMPORTANT]
 >
-> Estos pasos requieren la función **Administrator** en el Experience Cloud de su organización.
+> Estos pasos requieren la función **Administrator** en Experience Cloud para su organización.
 >
 
 1. Vaya a https://experience.adobe.com/ e inicie sesión en Adobe Experience Cloud.
-1. Acceda al **Admin Console**.
+1. Acceder a **Admin Console**.
 
    ![](assets/do-not-localize/d365-to-acs-access-3.png)
 
-1. Haga clic en **[!UICONTROL Products]** para acceder a las soluciones de Experience Cloud.
+1. Haga clic en **[!UICONTROL Products]** para acceder a sus soluciones de Experience Cloud.
 
    ![](assets/do-not-localize/d365-to-acs-access-6.png)
 
@@ -72,7 +73,7 @@ En esta sección aprenderá a conceder acceso a la integración de Adobe Campaig
 
    ![](assets/do-not-localize/d365-to-acs-access-15.png)
 
-## Concesión de acceso a los usuarios {#add-users-to-profile}
+## Concesión del acceso a los usuarios {#add-users-to-profile}
 
 En la página **[!UICONTROL Products]**, seleccione la instancia de Campaign y siga los pasos a continuación:
 

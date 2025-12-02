@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: reconciliation,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: ed2e3793-6164-48af-9043-42dc43fa8ed4
-source-git-commit: c2c8d2d05bbc376e2153448ca0a9e6ba0f367420
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 78%
@@ -40,7 +41,7 @@ La actividad **[!UICONTROL Reconciliation]** se utiliza esencialmente con fines 
 
 * Identificación de datos: una pestaña **[!UICONTROL Identification]** permite simplemente vincular datos de entrada a columnas de una dimensión existente en la base de datos de Adobe Campaign. Después de la actividad, los datos se identifican como pertenecientes a la dimensión definida.
 
-  Por ejemplo, puede guardar una audiencia, actualizar la base de datos, etc.
+  Por ejemplo, puede guardar un público, actualizar la base de datos, etc.
 
 Por ejemplo, la actividad **[!UICONTROL Reconciliation]** se puede colocar después de una actividad de datos de carga para importar datos no estándar en la base de datos.
 

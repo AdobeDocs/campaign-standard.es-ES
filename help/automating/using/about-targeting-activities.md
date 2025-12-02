@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 1cd471e3-5332-4119-b342-2c3c8503fdd1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 40%
@@ -31,9 +32,9 @@ La sección **[!UICONTROL Targeting]** ofrece las siguientes actividades:
 * [Intersección](../../automating/using/intersection.md)
 * [Exclusión](../../automating/using/exclusion.md)
 * [Segmentación](../../automating/using/segmentation.md)
-* [Lectura de audiencia](../../automating/using/read-audience.md)
-* [Guardado de audiencia](../../automating/using/save-audience.md)
-* [Anulación de duplicación](../../automating/using/deduplication.md)
+* [Lectura de público](../../automating/using/read-audience.md)
+* [Guardado de público](../../automating/using/save-audience.md)
+* [Deduplicación](../../automating/using/deduplication.md)
 * [Enriquecimiento](../../automating/using/enrichment.md)
 
 Las actividades **[!UICONTROL Targeting]** le permiten definir **códigos de segmento** para sus transiciones salientes. Puede crear informes basados en estos códigos de segmento para medir la eficacia de sus campañas de marketing. Para obtener más información, consulte [esta sección](../../reporting/using/creating-a-report-workflow-segment.md).
@@ -42,8 +43,8 @@ Las actividades **[!UICONTROL Targeting]** le permiten definir **códigos de seg
 
 Puede seleccionar datos mediante las siguientes actividades:
 
-* La actividad **[!UICONTROL Query]** permite filtrar y extraer una recopilación de elementos de la base de datos de Adobe Campaign. Consulte la sección [Consulta](../../automating/using/query.md).
-* La actividad **[!UICONTROL Incremental query]** permite filtrar y extraer una recopilación de elementos de la base de datos de Adobe Campaign. Cada vez que se ejecuta esta actividad, se excluyen los resultados de las ejecuciones anteriores. Esto le permite dirigirse únicamente a los elementos nuevos Consulte. [Consulta incremental](../../automating/using/incremental-query.md) sección.
+* La actividad **[!UICONTROL Query]** permite filtrar y extraer una población de elementos de la base de datos de Adobe Campaign. Consulte la sección [Consulta](../../automating/using/query.md).
+* La actividad **[!UICONTROL Incremental query]** permite filtrar y extraer una población de elementos de la base de datos de Adobe Campaign. Cada vez que se ejecuta esta actividad, se excluyen los resultados de las ejecuciones anteriores. Esto le permite dirigirse únicamente a los elementos nuevos Consulte. [Consulta incremental](../../automating/using/incremental-query.md) sección.
 * La actividad **[!UICONTROL Read audience]** le permite recuperar una audiencia existente y refinarla mediante la aplicación de condiciones de filtrado adicionales. Consulte la sección [Leer audiencia](../../automating/using/read-audience.md).
 
 ## Segmentación de datos {#segmenting-data}

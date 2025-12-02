@@ -5,12 +5,13 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: d67a796a-0730-4502-802c-d0b3583dd1dc
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 6%
@@ -21,7 +22,7 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->El conector de datos de Adobe Experience Platform se encuentra en la versión beta, por lo que puede estar sujeto a frecuentes actualizaciones sin previo aviso. Los clientes deben estar alojados en Azure (actualmente en fase beta solo para Norteamérica) para acceder a estas funciones. Póngase en contacto con el Servicio de atención al cliente de Adobe si desea acceder.
+>El conector de datos de Adobe Experience Platform se encuentra en la versión beta, por lo que puede estar sujeto a frecuentes actualizaciones sin previo aviso. Los clientes deben estar alojados en Azure (actualmente en fase beta solo para Norteamérica) para acceder a estas funciones. Si desea acceder, póngase en contacto con el Servicio de atención al cliente de Adobe.
 
 Adobe Campaign Standard le permite almacenar en déclencheur la ingesta inmediata de asignaciones de datos a través de API y recuperar el estado de las solicitudes de ingesta.
 
@@ -48,13 +49,13 @@ La ejecución de la asignación de datos está detenida. Puede utilizar las API 
 
 ## Inicio de la ingesta inmediata de asignación de datos {#starting-immediate-ingestion}
 
-La ingesta inmediata de una asignación XDM en Adobe Experience Platform se activa con una operación de POST:
+La ingesta inmediata de una asignación XDM en Adobe Experience Platform se activa con una operación POST:
 
 `POST https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest`
 
 >[!NOTE]
 >
->Para ejecutar la llamada de API del POST de ingesta, el usuario debe tener un rol de **ejecución de función SQL**, que un administrador de Campaign Standards puede proporcionar ejecutando el siguiente script JS:
+>Para ejecutar la llamada de API de POST de ingesta, el usuario debe tener un rol de **ejecución de función SQL**, que un administrador de Campaign Standard puede proporcionar ejecutando el siguiente script JS:
 >
 >```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
@@ -62,7 +63,7 @@ La ingesta inmediata de una asignación XDM en Adobe Experience Platform se acti
 >```
 >
 
-La operación del POST devuelve información sobre el estado de la solicitud creada:
+La operación POST devuelve información sobre el estado de la solicitud creada:
 
 * Solicitud enviada correctamente para la asignación XDM:
 
@@ -108,7 +109,7 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 
 >[!NOTE]
 >
->Encontrará información detallada sobre el estado de la solicitud de asignación XDM y sus trabajos relacionados en la interfaz del Campaign Standard, en el menú **[!UICONTROL Status of data export to platform]** (consulte [Activación de asignación](../../integrating/using/aep-mapping-activation.md)).
+>Encontrará información detallada sobre el estado de la solicitud de asignación XDM y sus trabajos relacionados en la interfaz de Campaign Standard, en el menú **[!UICONTROL Status of data export to platform]** (consulte [Activación de asignación](../../integrating/using/aep-mapping-activation.md)).
 
 La operación de GET devuelve la siguiente información:
 

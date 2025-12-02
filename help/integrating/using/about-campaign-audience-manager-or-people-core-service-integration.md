@@ -1,14 +1,15 @@
 ---
 title: Acerca de la integración de Campaign-Audience Manager o el servicio principal People
-description: Con la integración del servicio principal Audience Manager / Personas, puede compartir audiencias o segmentos dentro de las diferentes soluciones de Adobe Experience Cloud.
+description: Con la integración de Audience Manager y el servicio principal Personas, puede compartir audiencias o segmentos dentro de las distintas soluciones de Adobe Experience Cloud.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: e8b96c66-82f7-4adb-88b2-b7e0f7c4a96f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 20%
@@ -24,7 +25,7 @@ ht-degree: 20%
 Adobe Campaign le permite intercambiar y compartir audiencias y segmentos con las distintas aplicaciones de Adobe Experience Cloud. La integración de **Adobe Campaign** con **servicio principal Personas** (también conocido como **servicio principal Perfiles y audiencias**) o Adobe Audience Manager le permite:
 
 * Importar audiencias y segmentos de diferentes soluciones de Adobe Experience Cloud en Adobe Campaign. Las audiencias se pueden importar desde el menú **[!UICONTROL Audiences]** en Adobe Campaign.
-* Exportar audiencias como audiencias o segmentos compartidos. Estas audiencias pueden utilizarse con las diferentes soluciones de Adobe Experience Cloud que utiliza. Las audiencias se pueden exportar después de segmentar actividades en un flujo de trabajo con la actividad **[!UICONTROL Save audience]**.
+* Exportar audiencias como audiencias o segmentos compartidos. Estos públicos pueden utilizarse con las diferentes soluciones de Adobe Experience Cloud que utiliza. Las audiencias se pueden exportar después de segmentar actividades en un flujo de trabajo con la actividad **[!UICONTROL Save audience]**.
 
 La integración es compatible con dos tipos de Adobe Experience Cloud ID:
 
@@ -49,6 +50,6 @@ La integración es compatible con dos tipos de Adobe Experience Cloud ID:
 
   Por ejemplo, con la capacidad de descifrar direcciones de correo electrónico o números SMS cifrados, también puede enviar mensajes activados a los usuarios aunque su perfil no exista en la base de datos de Adobe Campaign.
 
-El diagrama siguiente detalla cómo funciona esta integración. AAM Aquí, las siglas en inglés para Adobe Audience Manager y ACS para Adobe Campaign Standard.
+El diagrama siguiente detalla cómo funciona esta integración. En este caso, AAM significa Adobe Audience Manager y ACS para Adobe Campaign Standard.
 
 ![](assets/aam_diagram.png)

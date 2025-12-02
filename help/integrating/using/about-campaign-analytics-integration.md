@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: ada1a5d1-879b-49cd-b4ef-43d7a40bafdb
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 7%
@@ -32,6 +33,6 @@ También está disponible una integración entre el servicio principal de Adobe 
 
 **Temas relacionados:**
 
-* [Información general sobre la integración de Campaign Standard a Analytics](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html?lang=es)
-* [Configuración de la integración del Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html?lang=es)
+* [Información general sobre la integración de Campaign Standard con Analytics](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html)
+* [Configurar la integración de Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
 * [Dimensiones y métricas de Campaign en Analytics](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)

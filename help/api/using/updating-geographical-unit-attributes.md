@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 86810821-6f62-46ab-ba0b-2175797fe9dd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%
@@ -17,8 +18,8 @@ ht-degree: 0%
 
 # Actualización de los atributos de la unidad geográfica {#managing-geographical-units}
 
-1. Realice una solicitud de GET en el recurso **geoUnitBase** para recuperar la clave principal de la unidad geográfica.
-1. Realice una solicitud de PATCH en la unidad geográfica, con los atributos que desea actualizar en la carga útil.
+1. Realice una petición GET en el recurso **geoUnitBase** para recuperar la clave principal de la unidad geográfica.
+1. Realice una solicitud PATCH en la unidad geográfica, con los atributos que desea actualizar en la carga útil.
 
 <br/>
 
@@ -50,7 +51,7 @@ Devuelve todas las unidades geográficas. Recupere la clave PK de la unidad dese
 },
 ```
 
-Realice una solicitud de PATCH en la unidad geográfica, con los atributos que desea actualizar en la carga útil.
+Realice una solicitud PATCH en la unidad geográfica, con los atributos que desea actualizar en la carga útil.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \

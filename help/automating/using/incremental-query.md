@@ -1,15 +1,16 @@
 ---
 title: Consulta incremental
-description: La actividad consulta incremental permite filtrar y extraer una recopilación de elementos de la base de datos de Adobe Campaign.
+description: La actividad consulta incremental permite filtrar y extraer una población de elementos de la base de datos de Adobe Campaign.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: incremental,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 18d6ffc0-cfc3-436e-8f0c-ea9c307541e4
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 94%
@@ -22,7 +23,7 @@ ht-degree: 94%
 
 ![](assets/incremental.png)
 
-La actividad **[!UICONTROL Incremental query]** permite filtrar y extraer una recopilación de elementos de la base de datos de Adobe Campaign. Cada vez que se ejecuta esta actividad, se excluyen los resultados de las ejecuciones anteriores. Esto permite buscar solo elementos nuevos.
+La actividad **[!UICONTROL Incremental query]** permite filtrar y extraer una población de elementos de la base de datos de Adobe Campaign. Cada vez que se ejecuta esta actividad, se excluyen los resultados de las ejecuciones anteriores. Esto permite buscar solo elementos nuevos.
 
 Puede definir los **[!UICONTROL Additional data]** para la población objetivo mediante una pestaña dedicada. Estos datos se almacenan en columnas adicionales y solo se pueden utilizar para el flujo de trabajo en curso.
 
@@ -36,7 +37,7 @@ La pestaña **[!UICONTROL Processed data]**, que es específica de esta activida
 
 La actividad **[!UICONTROL Incremental query]** se puede utilizar para varios tipos de usos:
 
-* Segmentación de individuos para definir el destinatario de un mensaje, la audiencia, etc.
+* Segmentación de individuos para definir el destinatario de un mensaje, el público, etc.
 
 * Exportación de datos.
 

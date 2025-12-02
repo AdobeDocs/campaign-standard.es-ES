@@ -1,14 +1,15 @@
 ---
 title: Introducción a la administración de datos y procesos
-description: Automatice los procesos con flujos de trabajo, administre datos y audiencias, envíe mensajes, y mucho más.
+description: Automatice los procesos con flujos de trabajo, administre datos y públicos, envíe mensajes, y mucho más.
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: 69621657e1d367043200f741d93972664e6eb8fb
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 30%
@@ -42,7 +43,7 @@ Hay varias actividades disponibles para ayudarle a diseñar sus flujos de trabaj
 
 [Las actividades de segmentación](../../automating/using/about-targeting-activities.md) le permiten crear uno o más objetivos definiendo conjuntos y dividiendo o combinando estos conjuntos mediante operaciones de intersección, unión o exclusión.
 
-Con [Actividades de ejecución](../../automating/using/about-execution-activities.md), coordine el flujo de trabajo y sus actividades, mientras que las [Actividades de canal](../../automating/using/about-channel-activities.md) le permiten combinar canales de comunicación del Campaign Standard para crear flujos de trabajo multicanal.
+Con [Actividades de ejecución](../../automating/using/about-execution-activities.md), coordine el flujo de trabajo y sus actividades, mientras que las [Actividades de canal](../../automating/using/about-channel-activities.md) le permiten combinar canales de comunicación de Campaign Standard para crear flujos de trabajo multicanal.
 
 Por último, [las actividades de administración de datos](../../automating/using/about-data-management-activities.md) le permiten manipular datos de su base de datos.
 
@@ -66,7 +67,7 @@ Más información:
 
 ## Importar/exportar datos {#import-export-data}
 
-El Campaign Standard incluye **funciones de administración de datos** para importar y exportar datos.
+Campaign Standard incluye **funciones de administración de datos** para importar y exportar datos.
 
 [Las actividades de administración de datos de flujos de trabajo](../../automating/using/about-data-management-activities.md) le permiten importar datos, realizar actualizaciones masivas de campos, recibir o enviar archivos, o vincular datos no identificados a recursos existentes.
 
@@ -76,7 +77,7 @@ Con [Importar plantillas](../../automating/using/importing-data-with-import-temp
 
 Aproveche [Paquetes](../../automating/using/managing-packages.md) para intercambiar recursos entre diferentes instancias de Campaign, por ejemplo, para replicar la configuración de una instancia o para transferir datos de un servidor a otro, incluidos los recursos personalizados.
 
-Por último, [las listas de exportación](../../automating/using/exporting-lists.md) le permiten exportar cualquier lista del Campaign Standard, como por ejemplo la lista de perfiles de prueba, la lista de direcciones de correo electrónico en cuarentena, etc.
+Por último, [las listas de exportación](../../automating/using/exporting-lists.md) le permiten exportar cualquier lista de Campaign Standard como, por ejemplo, la lista de perfiles de prueba, la lista de direcciones de correo electrónico en cuarentena, etc.
 
 Más información:
 

@@ -1,27 +1,28 @@
 ---
-title: Direccionamiento de las audiencias de Adobe Experience Platform
+title: Segmentación de los públicos de Adobe Experience Platform
 description: Obtenga información sobre cómo dirigirse a audiencias de Adobe Experience Platform dentro de flujos de trabajo.
 audience: automating
 content-type: reference
 topic-tags: channel-activities
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 11e2cd7e-99b7-45cc-a0c2-41049128fe49
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 3%
 
 ---
 
-# Direccionamiento de las audiencias de Adobe Experience Platform {#targeting-aep-audiences}
+# Segmentación de los públicos de Adobe Experience Platform {#targeting-aep-audiences}
 
 >[!IMPORTANT]
 >
->El servicio Audience Destinations se encuentra actualmente en fase beta, por lo que puede estar sujeto a frecuentes actualizaciones sin previo aviso. Los clientes deben estar alojados en Azure (actualmente en fase beta solo para Norteamérica) para acceder a estas funciones. Póngase en contacto con el Servicio de atención al cliente de Adobe si desea acceder.
+>El servicio Audience Destinations se encuentra actualmente en fase beta, por lo que puede estar sujeto a frecuentes actualizaciones sin previo aviso. Los clientes deben estar alojados en Azure (actualmente en fase beta solo para Norteamérica) para acceder a estas funciones. Si desea acceder, póngase en contacto con el Servicio de atención al cliente de Adobe.
 
 Una vez que haya creado una [audiencia de Adobe Experience Platform](../../integrating/using/aep-about-audience-destinations-service.md) mediante el Generador de segmentos, puede usarla de la misma manera que lo haría para una audiencia de Campaign dentro de flujos de trabajo para personalizar y enviar mensajes.
 
@@ -59,7 +60,7 @@ Ahora puede configurar el flujo de trabajo con otras actividades. Por ejemplo, p
 
 >[!NOTE]
 >
->Campaign Standard le permite dirigirse a las audiencias de Adobe Experience Platform en todos los canales de entrega: correos electrónicos, mensajes SMS, mensajes de correo directo, notificaciones push y mensajes en la aplicación.
+>Campaign Standard permite dirigirse a las audiencias de Adobe Experience Platform en todos los canales de envío: correos electrónicos, mensajes SMS, mensajes de correo directo, notificaciones push y mensajes en la aplicación.
 >
 >*Nota: Para todos los mensajes push y en la aplicación, Campaign Standard solo admite envíos para perfiles conocidos.
 

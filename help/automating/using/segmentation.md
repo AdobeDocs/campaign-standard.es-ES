@@ -6,13 +6,14 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: segmentation,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 3761ee4a-1ce5-4f9e-b2a5-84388b6b9db8
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '885'
-ht-degree: 82%
+ht-degree: 79%
 
 ---
 
@@ -34,7 +35,7 @@ La actividad **[!UICONTROL Segmentation]** le permite crear uno o varios segment
 
 ## Contexto de uso {#context-of-use}
 
-La actividad **[!UICONTROL Segmentation]** se suele colocar después de actividades de segmentación (consulta, intersección, unión, exclusión, etc.) para definir la población estándar basada en la formación de los segmentos.
+La actividad **[!UICONTROL Segmentation]** se suele colocar después de actividades de segmentación (consulta, intersección, unión, exclusión, etc.) para definir la población estándar en función de la cual se forman los segmentos.
 
 **Temas relacionados**
 
