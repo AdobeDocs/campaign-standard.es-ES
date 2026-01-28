@@ -67,7 +67,7 @@ Aprenda a compartir datos entre Campaign y la plataforma de datos del cliente en
     </tr>
 </table>
 
-## Explore la documentación
+## Explora la documentación
 
 <table style="table-layout:auto">
   <tr style="border: 0;">

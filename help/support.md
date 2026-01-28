@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
 source-git-commit: afb988281f00dc17b484872259d44f51864d55f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '492'
 ht-degree: 100%
 
@@ -48,7 +48,7 @@ Obtenga asistencia consultando las preguntas frecuentes, las prácticas recomend
         <li><a href="automating/using/monitoring-workflow-execution.md#error-management">Gestión de errores en flujos de trabajo</a></li>
         <li><a href="automating/using/best-practices-workflows.md">Solución de problemas de ejecución del flujo de trabajo</a></li>
         <li><a href="api/using/troubleshooting.md">Solución de problemas de API</a></li>
-        <li><a href="sending/using/understanding-delivery-failures.md">Comprensión de los errores de entrega</a></li>
+        <li><a href="sending/using/understanding-delivery-failures.md">Comprender los errores de envío</a></li>
         </ul>
     </td>
    <td valign="top">
@@ -61,7 +61,7 @@ Obtenga asistencia consultando las preguntas frecuentes, las prácticas recomend
         <li><a href="sending/using/sending-messages-at-the-recipient-s-time-zone.md">Administración de zonas horarias</a></li>
         <li><a href="sending/using/receiving-alerts-when-failures-happen.md">Recepción de una notificación cuando se produce un error</a></li>
         <li><a href="designing/using/using-existing-content.md">Importación o conversión de contenido de un correo electrónico</a></li>
-        <li><a href="sending/using/delivery-best-practices.md">Prácticas recomendadas de entregas</a></li>
+        <li><a href="sending/using/delivery-best-practices.md">Prácticas recomendadas para envíos</a></li>
         </ul>
     </td>
     <td valign="top">
@@ -119,7 +119,7 @@ El nuevo sistema de tickets se ha utilizado a través de [Adobe Admin Console](h
 
 ### ¡Consulte a los expertos!
 
-Únase a la comunidad de Campaign: encuentre respuestas a preguntas existentes o formule una pregunta a la comunidad. [Únase a la conversación](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=es)
+Únase a la comunidad de Campaign: encuentre respuestas a preguntas existentes o formule una pregunta a la comunidad. [Únase a la conversación](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### Creación de un ticket o inicio de una conversación
 

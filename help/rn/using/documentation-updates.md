@@ -145,7 +145,7 @@ Nueva página de **Opciones de ayuda y asistencia**. [Más información](../../s
 
 La sección que enumera los pasos clave para enviar un mensaje se ha mejorado con información y referencias adicionales. [Más información](../../channels/using/key-steps-to-send-a-message.md)
 
-Se ha añadido información para especificar que, al seleccionar un público en una consulta, su definición se copia y no se hace referencia a ella. [Obtenga más información](../../audiences/using/selecting-an-audience-in-a-message.md)
+Se ha añadido información para especificar que, al seleccionar un público en una consulta, su definición se copia y no se hace referencia a ella. [Más información](../../audiences/using/selecting-an-audience-in-a-message.md)
 
 La información relacionada con el servicio Destinos de público y el Conector de datos de Adobe Experience Platform se ha reagrupado en una nueva sección.
 
@@ -167,15 +167,15 @@ Interfaz de Experience Cloud unificada: [Más información](../../start/using/in
 
 **Otras actualizaciones de la documentación incluidas en la versión**
 
-Se ha añadido información sobre cómo buscar un perfil en función del correo electrónico, el nombre, los apellidos o cualquier campo personalizado. [Puede obtener más información](../../audiences/using/integrated-customer-profile.md)
+Se ha añadido información sobre cómo buscar un perfil en función del correo electrónico, el nombre, los apellidos o cualquier campo personalizado. [Más información](../../audiences/using/integrated-customer-profile.md)
 
-Se ha añadido información sobre la nueva función GetOption que le permite devolver el valor de una función especificada al llamar a un flujo de trabajo con parámetros externos. [Puede obtener más información](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)
+Se ha añadido información sobre la nueva función GetOption que le permite devolver el valor de una función especificada al llamar a un flujo de trabajo con parámetros externos. [Más información](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)
 
-Se ha añadido información sobre la nueva variable de salida **[!UICONTROL filesCount]** disponible después de usar una actividad **[!UICONTROL Transfer file]**. [Puede obtener más información](../../automating/using/transfer-file.md#output-variables)
+Se ha añadido información sobre la nueva variable de salida **[!UICONTROL filesCount]** disponible después de usar una actividad **[!UICONTROL Transfer file]**. [Más información](../../automating/using/transfer-file.md#output-variables)
 
-La sección **Configuración del canal de correo electrónico** se ha actualizado para aclarar cuál es la configuración de correo electrónico más reciente aplicable. Algunos parámetros heredados que aún se utilizan para determinados clientes se enumeran en la parte inferior de esta página. [Obtenga más información](../../administration/using/configuring-email-channel.md)
+La sección **Configuración del canal de correo electrónico** se ha actualizado para aclarar cuál es la configuración de correo electrónico más reciente aplicable. Algunos parámetros heredados que aún se utilizan para determinados clientes se enumeran en la parte inferior de esta página. [Más información](../../administration/using/configuring-email-channel.md)
 
-Se ha añadido información sobre cómo asegurarse de que un flujo de trabajo programado no se vuelva a programar hasta que una o más tareas de una ejecución anterior sigan pendientes. [Obtenga más información](../../automating/using/scheduled-workflows-execution.md)
+Se ha añadido información sobre cómo asegurarse de que un flujo de trabajo programado no se vuelva a programar hasta que una o más tareas de una ejecución anterior sigan pendientes. [Más información](../../automating/using/scheduled-workflows-execution.md)
 
 ## Diciembre de 2020 {#doc-updates-december-2020}
 
@@ -203,7 +203,7 @@ Se ha añadido una nueva sección que enumera las preguntas más frecuentes sobr
 
 La sección **Privacidad** se ha movido y enriquecido con dos páginas nuevas: [Administración de privacidad](../../start/using/privacy-management.md) y [Administración de solicitudes de privacidad](../../start/using/privacy-requests.md).
 
-La sección **Mensajería transaccional** se ha reorganizado y reunido en un solo lugar para mejorar la navegación. [Obtenga más información](../../channels/using/getting-started-with-transactional-msg.md)
+La sección **Mensajería transaccional** se ha reorganizado y reunido en un solo lugar para mejorar la navegación. [Más información](../../channels/using/getting-started-with-transactional-msg.md)
 
 Se ha añadido información en la sección Conector de datos de Adobe Experience Platform sobre el error de validación de asignación de datos relacionado con la administración de privacidad y cómo solucionarlo.
 
@@ -589,7 +589,7 @@ La guía Automatización se ha actualizado con enlaces a actividades de flujo de
 
 Se ha actualizado la sección Cálculo de indicador para los informes dinámicos. [Más información](../../reporting/using/indicator-calculation.md)
 
-Se ha añadido una tabla de compatibilidad de creación de informes dinámicos para comprender mejor la compatibilidad entre dimensiones y métricas. [Más información](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=es)
+Se ha añadido una tabla de compatibilidad de creación de informes dinámicos para comprender mejor la compatibilidad entre dimensiones y métricas. [Más información](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 Se ha actualizado la lista de funciones para los flujos de trabajo. [Más información](../../automating/using/list-of-functions.md)
 
@@ -867,7 +867,7 @@ La actividad **[!UICONTROL Subscription Services]** se ha actualizado para admit
 
 Se ha añadido un caso de uso paso a paso sobre cómo preparar una entrega. [Más información](../../sending/using/preparing-the-send.md)
 
-Se ha eliminado la sección que incluye la lista de autorizaciones. [Más información](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=es) (PDF).
+Se ha eliminado la sección que incluye la lista de autorizaciones. [Más información](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf) (PDF).
 
 Se ha añadido un caso de uso paso a paso sobre cómo usar la respuesta automática de SMS. [Más información](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -1039,7 +1039,7 @@ Ahora hay disponible una nueva nota técnica: “Integración del SDK móvil de 
 
 Se añadieron instrucciones para configurar el servicio principal People o la integración de Audience Manager con Adobe Campaign. [Más información](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-Se ha revisado la tabla de autorizaciones para que el uso de ciertas funciones sea más claro. [Más información](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=es)
+Se ha revisado la tabla de autorizaciones para que el uso de ciertas funciones sea más claro. [Más información](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 Actualización de los enlaces de ayuda contextual disponibles directamente desde Adobe Campaign.
 

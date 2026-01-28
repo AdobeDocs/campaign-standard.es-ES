@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
 source-git-commit: 63cd437c5a19791ffb9d3c0b8690ee1532a4774d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4695'
 ht-degree: 100%
 
@@ -95,7 +95,7 @@ A continuación, se enumeran las nuevas funciones, mejoras y correcciones inclui
 **Mejoras**
 
 * Al crear una entrega recurrente en un flujo de trabajo, vinculado a un contenido de Adobe Experience Manager, el estado de aprobación del contenido ahora se comprueba antes de enviarla.
-* El límite de conexión a la base de datos ahora está alineado con el paquete de Campaign para evitar errores de conexión.
+* El límite de conexión a la base de datos ahora está alineado con el paquete de campaña para evitar errores de conexión.
 * Una nueva comprobación de coherencia en la publicación de recursos personalizados impide que los usuarios creen índices duplicados, lo que provoca que la publicación falle. Un mensaje de error mejorado pide al usuario que cambie el nombre del índice si es necesario. [Más información](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)
 
 **Otros cambios**
@@ -146,7 +146,7 @@ A continuación, se enumeran las nuevas funciones, mejoras y correcciones inclui
 
 **Mejoras**
 
-* Al diseñar una página de aterrizaje, ahora puede añadir una casilla de verificación obligatoria que los perfiles deben seleccionar antes de enviar el formulario. Para obtener más información, consulte la [documentación detallada](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox).
+* Al diseñar una página de destino, ahora puede añadir una casilla de verificación obligatoria que los perfiles deben seleccionar antes de enviar el formulario. Para obtener más información, consulte la [documentación detallada](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox).
 
 * Para la integración de activadores, se ha mejorado el mensaje de error que se muestra cuando no hay datos de reconciliación en la carga útil del activador: Faltan datos de alias en la carga útil.
 
@@ -245,7 +245,7 @@ A continuación, se enumeran las nuevas funciones, mejoras y correcciones inclui
 <ul>
 <li>Ahora se capturan todas las categorías de comentarios para obtener una creación de informes completa y precisa.</li>
 <li>El cálculo del indicador <b>Entregado</b> ahora se basa en los comentarios en tiempo real del MTA mejorado para mejorar la precisión y la reactividad.</li>
-<li>EFS soluciona el problema de los retrasos con la creación de informes de devoluciones en blanco sincrónicas.</li>
+<li>EFS soluciona el problema de los retrasos con la creación de informes de devoluciones síncronas suaves.</li>
 </ul>
 <p>Para obtener más información, consulte la <a href="../../sending/using/confirming-the-send.md">documentación detallada</a>.
 </p>
@@ -300,17 +300,17 @@ A continuación, se enumeran las nuevas funciones, mejoras y correcciones inclui
 
 **Mejoras**
 
-* **La integración de Microsoft Dynamics 365** se ha mejorado con una aplicación de integración de autoservicio dedicada y un proceso de implementación mejorado. [Obtenga más información](../../integrating/using/d365-acs-get-started.md)
+* **La integración de Microsoft Dynamics 365** se ha mejorado con una aplicación de integración de autoservicio dedicada y un proceso de implementación mejorado. [Más información](../../integrating/using/d365-acs-get-started.md)
 
 * Se ha realizado una mejora para facilitar la resolución de problemas al encontrar problemas con el proceso de mensajería transaccional. Los administradores técnicos de Adobe ahora pueden utilizar el seguimiento en cualquier proceso sin reiniciarlo.
 
-* La lista **Perfiles** ahora le permite buscar registros basados en uno de estos campos: correo electrónico, nombre, apellidos o campos personalizados que se han agregado en el filtrado avanzado al ampliar el recurso de perfil. Esta función también está disponible en las API de Campaign Standard mediante el parámetro filterType. [Obtenga más información](../../audiences/using/integrated-customer-profile.md)
+* La lista **Perfiles** ahora le permite buscar registros basados en uno de estos campos: correo electrónico, nombre, apellidos o campos personalizados que se han agregado en el filtrado avanzado al ampliar el recurso de perfil. Esta función también está disponible en las API de Campaign Standard mediante el parámetro filterType. [Más información](../../audiences/using/integrated-customer-profile.md)
 
 * Se ha ajustado un parámetro al número de contenedores que ejecutan el proceso de agrupación de bases de datos de mensajería transaccionales. Esto permite que la carga se distribuya uniformemente en todos los contenedores utilizados y alcance un rendimiento óptimo.
 
-* Ahora hay una nueva función **GetOption** disponible en actividades que utilizan variables de evento después de llamar a un flujo de trabajo con parámetros externos. Permite devolver el valor de una función especificada. [Obtenga más información](../../automating/using/customizing-workflow-external-parameters.md)
+* Ahora hay una nueva función **GetOption** disponible en actividades que utilizan variables de evento después de llamar a un flujo de trabajo con parámetros externos. Permite devolver el valor de una función especificada. [Más información](../../automating/using/customizing-workflow-external-parameters.md)
 
-* Una nueva opción permite a Campaign Standard **comprobar la disponibilidad de la memoria física** en el sistema antes de iniciar un flujo de trabajo. Si la cantidad de memoria es demasiado baja, la ejecución del flujo de trabajo se retrasará hasta que la memoria del sistema alcance este umbral. Esto evita una mayor degradación del rendimiento y mitiga el riesgo de una interrupción del servicio. El flujo de trabajo se reanudará automáticamente una vez que la carga en el servidor se haya reducido y la memoria aumente. Tenga en cuenta que esta opción es de solo lectura y no se puede modificar. [Obtenga más información](../../automating/using/best-practices-workflows.md#execution)
+* Una nueva opción permite a Campaign Standard **comprobar la disponibilidad de la memoria física** en el sistema antes de iniciar un flujo de trabajo. Si la cantidad de memoria es demasiado baja, la ejecución del flujo de trabajo se retrasará hasta que la memoria del sistema alcance este umbral. Esto evita una mayor degradación del rendimiento y mitiga el riesgo de una interrupción del servicio. El flujo de trabajo se reanudará automáticamente una vez que la carga en el servidor se haya reducido y la memoria aumente. Tenga en cuenta que esta opción es de solo lectura y no se puede modificar. [Más información](../../automating/using/best-practices-workflows.md#execution)
 
 * Hay un nuevo proceso disponible en Adobe Campaign Standard que le permite migrar más fácilmente desde la aplicación móvil heredada SDK v4 a **SDK para móviles de Adobe Experience Platform**. Consulte [esta página](../../administration/using/sdkv4-migration.md).
 
@@ -326,7 +326,7 @@ A continuación, se enumeran las nuevas funciones, mejoras y correcciones inclui
 
 * La actividad **Transferir archivo** ahora genera una variable adicional (filesCount) que contiene el número de archivos cargados o descargados. (CAMP-45842) [Obtenga más información](../../automating/using/transfer-file.md#output-variables)
 
-* El conector SMS ahora puede enviar varios parámetros opcionales con cada mensaje. [Obtenga más información](../../administration/using/sms-protocol.md)
+* El conector SMS ahora puede enviar varios parámetros opcionales con cada mensaje. [Más información](../../administration/using/sms-protocol.md)
 
 * Los usuarios con la función DATAMODEL ahora pueden publicar extensiones de registro de entrega. (CAMP-46604)
 
@@ -334,11 +334,11 @@ A continuación, se enumeran las nuevas funciones, mejoras y correcciones inclui
 
 * Se han agregado los siguientes idiomas a la lista **Idioma preferido**: Indonesio - Indonesia (in-id), Inglés - Suecia (en-se), Inglés - Asia Pacífico (en-ap), Inglés - Japón (en-jp) y Español - América Latina (es-la). (CAMP-46351)
 
-* El selector de selección de perfiles al probar una página de aterrizaje utilizará ahora el recurso profilBase en lugar de perfil para evitar el tiempo de espera.
+* El selector de selección de perfiles al probar una página de destino utilizará ahora el recurso profilBase en lugar de perfil para evitar el tiempo de espera.
 
 * Se ha mejorado el formato de registro de SMPP.
 
-* Se han añadido parámetros opcionales a las funciones cryptString y decryptString JS para que coincidan con las API estándar de Adobe Campaign.
+* Se han añadido parámetros opcionales a las funciones cryptString y decryptString JS para que coincidan con las API estándar de Adobe Campaign Standard.
 
 * Se han mejorado los mensajes de advertencia o error en los registros de preparación de entrega.
 
@@ -354,7 +354,7 @@ A continuación, se enumeran las nuevas funciones, mejoras y correcciones inclui
 
 * Se ha corregido un problema que provocaba que las entregas se ejecutaran muy lentamente debido a ciertos procesos. Esto se debe a unidades incorrectas definidas para varios parámetros (milisegundos en lugar de segundos, por ejemplo).
 
-* Se ha corregido un problema que se producía cuando el SDK de Mobile enviaba una solicitud de seguimiento abierta basada en la condición de que deliveryId/MessageID no fuera nulo. Esto resultaría en errores 404 para entregas con seguimiento deshabilitado. Una variable adicional (acsDeliveryTracking) con información sobre el estado de seguimiento de la entrega ahora se envía en la carga útil. Esta variable puede tener dos valores activados o desactivados según el estado de seguimiento establecido. [Obtenga más información](../../administration/using/push-tracking.md).
+* Se ha corregido un problema que se producía cuando el SDK de Mobile enviaba una solicitud de seguimiento abierta basada en la condición de que deliveryId/MessageID no fuera nulo. Esto resultaría en errores 404 para entregas con seguimiento deshabilitado. Una variable adicional (acsDeliveryTracking) con información sobre el estado de seguimiento de la entrega ahora se envía en la carga útil. Esta variable puede tener dos valores activados o desactivados según el estado de seguimiento establecido. [Más información](../../administration/using/push-tracking.md).
 
 * Se ha corregido un problema con los flujos de trabajo que se podía producir al copiar y pegar una actividad de **anulación de duplicación** que se había ejecutado una vez y que aprovechaba un recurso temporal. Una vez duplicado, el recurso de la actividad se definía automáticamente en vacío, lo que producía problemas en otras actividades del flujo de trabajo. Una vez pegado, el recurso de la actividad seguirá siendo el mismo para que el error se active lo antes posible en lugar de más tarde en el flujo de trabajo. (CAMP-46903)
 
@@ -371,10 +371,10 @@ A continuación, se enumeran las nuevas funciones, mejoras y correcciones inclui
 * Se ha corregido un problema que impedía que se mostraran todas las plantillas de contenido de Experience Manager disponibles al crear una entrega. (CAMP-45990)
 * Se ha corregido un problema con flujos de trabajo que podía impedir que se mostraran mensajes de error en los registros de envío después de agregar la columna **Motivo** a la pestaña de datos adicional. (CAMP-45139)
 * Se ha corregido un problema que se podía producir cuando dos llamadas de suscripción de aplicación tenían el mismo ID de Marketing Cloud (&#39;el valor de clave de duplicado infringe el error de restricción única&#39;).
-* Se ha corregido un problema que podía provocar problemas de lentitud al arrastrar y soltar actividades en un flujo de trabajo que contenía una gran cantidad de actividades de **Consulta** y **Leer audiencia**. (CAMP-44511)
+* Se ha corregido un problema que podía provocar problemas de lentitud al arrastrar y soltar actividades en un flujo de trabajo que contenía una gran cantidad de actividades de **Consulta** y **Leer público**. (CAMP-44511)
 * Se ha corregido un error que podía producirse al final de la preparación del mensaje transaccional, lo que imped&#39;ia que la información de redirección se cargara en los servidores de seguimiento.
 * Se ha corregido un problema que podía mostrar mensajes de error al intentar abrir plantillas de importación o trabajos de importación anteriores después de haber personalizado el recurso de flujo de trabajo. (CAMP-46183)
-* Se ha corregido un problema que podía impedir que se ejecutara una actividad **Leer audiencia** si estaba configurada con un nombre de audiencia dinámica. (CAMP-46047)
+* Se ha corregido un problema que podía impedir que se ejecutara una actividad **Leer público** si estaba configurado con un nombre de público dinámico. (CAMP-46047)
 * Se ha corregido un problema que impedía que se mostrara el botón **Exportar lista**
 * Se ha corregido un problema que podía provocar un error en el flujo de trabajo **Agregados de creación de informes**. (CAMP-45979)
 * Se ha corregido un problema al crear un recurso personalizado con una clave compuesta personalizada (contenido dinámico de texto/fecha).
@@ -411,7 +411,7 @@ A continuación, se enumeran las nuevas funciones, mejoras y correcciones inclui
 * Se ha corregido un problema en el cual la **preparación de la notificación push** tardaba demasiado en completarse. Esto se debía a que faltaba un índice en las tablas de trabajo transitorias.
 * Se ha corregido un error que se podía producir al utilizar la opción **Dimensión para reconciliar** en una actividad de **Reconciliación** en un flujo de trabajo si ya se había definido una relación entre un recurso personalizado y un recurso de perfil.
 * Se ha corregido un problema que se producía al agregar vínculos a través de una actividad de **Reconciliación** o **Enriquecimiento**. Los vínculos seleccionados no se mostraban en la transición de salida.
-* Se ha corregido un problema al usar una actividad de **Segmentación** con entregas recurrentes en un flujo de trabajo que hacía que la entrega se enviara a la audiencia incorrecta. (CAMP-46275, CAMP-46470)
+* Se ha corregido un problema al usar una actividad de **Segmentación** con entregas recurrentes en un flujo de trabajo que hacía que la entrega se enviara al público incorrecto. (CAMP-46275, CAMP-46470)
 * Se ha corregido un error en el que la publicación de recursos personalizados fallaba al intentar ampliar el recurso de perfil para crear dimensiones de perfil personalizadas para creación de informes dinámica. (CAMP-46266)
 * Se ha corregido un error que se producía al agregar un vínculo a una tabla de importación de archivos. Después de agregar una actividad **Enriquecimiento** a la actividad **Importación de archivos**, el vínculo previamente configurado desapareció. (CAMP-46557)
 * Se ha corregido un problema al usar recursos personalizados vinculados a datos de perfil en el cual el orden de visualización en la pantalla de configuración **Detalles** se cambiaba al guardar. (CAMP-46312)
@@ -428,7 +428,7 @@ A continuación, se enumeran las nuevas funciones, mejoras y correcciones inclui
 * Se ha corregido un problema de generación de miniaturas que podía ocurrir en Azure en las variantes de correo electrónico que contenían caracteres chinos. (CAMP-47152)
 * Se ha corregido una regresión introducida en Campaign 20.4 que podría llevar a tasas abiertas incorrectas para Gmail debido al filtrado de eventos de seguimiento recibidos de cuentas de Gmail. (CAMP-46504)
 * Se ha corregido un problema que podía impedir la importación de contenido HTML en una plantilla de mensaje transaccional. (CAMP-47318)
-* Se ha corregido un problema que podía ralentizar la visualización de las representaciones en el **informe de procesamiento de correo electrónico**. (CAMP-46226)
+* Se ha corregido un problema que podía ralentizar la visualización de las representaciones en el **informe de representación de correo electrónico**. (CAMP-46226)
 * Se ha corregido un problema que podía impedir la publicación de recursos personalizados configurados con un elemento de tipo lista en la definición de pantalla. (CAMP-47217)
 * Se ha corregido un problema con el Diseñador de correo electrónico que impedía que los divisores de línea se representaran correctamente en **Microsoft Outlook** al colocarse en la parte superior del contenido del correo electrónico. (CAMP-46294)
 * Se ha corregido un problema que provocaba que la reconciliación de KPI con el flujo de trabajo técnico de **Adobe Analytics** se quedara atascada. (CAMP-46576)

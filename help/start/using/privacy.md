@@ -14,7 +14,7 @@ role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
 source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1377'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Para gestionar correctamente la privacidad y administrar los datos personales, s
 * [DPA](https://www.gov.uk/data-protection) (implementación del RGPD en el Reino Unido)
 * [Directiva europea sobre privacidad y comunicaciones electrónicas](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02002L0058-20091219)
 * [CAN-SPAM Act](https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business) (ley estadounidense que establece las reglas y requisitos de los correos electrónicos comerciales)
-* [CCPA](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=) (Ley de Privacidad del Consumidor de California)
+* [CCPA](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=1.81.5.&part=4.&chapter=&article=) (Ley de Privacidad del Consumidor de California)
 * [PDPA](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/) (Ley de Protección de Datos Personales de Tailandia)
 
 >[!NOTE]
@@ -114,8 +114,8 @@ Las principales funcionalidades de privacidad en Campaign y un ejemplo de las pe
 
 En principio, Adobe Campaign ofrece funcionalidades importantes que son esenciales para la privacidad:
 
-* **Gestión del consentimiento**: A través del proceso de administración de suscripciones, puede administrar las preferencias de sus destinatarios y rastrear qué destinatarios han elegido qué tipo de suscripciones. Para obtener más información sobre esto, consulte [Suscripciones](../../audiences/using/about-subscriptions.md) y [Páginas de aterrizaje](../../channels/using/getting-started-with-landing-pages.md).
-* **Retención de datos**: Todas las tablas de registro estándar incorporadas tienen períodos de retención preestablecidos, lo que generalmente limita su almacenamiento de datos a 6 meses o menos. Se pueden configurar períodos de retención adicionales con flujos de trabajo. Para obtener más información, póngase en contacto con los consultores o administradores técnicos de Adobe.
+* **Gestión del consentimiento**: A través del proceso de administración de suscripciones, puede administrar las preferencias de sus destinatarios y rastrear qué destinatarios han elegido qué tipo de suscripciones. Para obtener más información sobre esto, consulte [Suscripciones](../../audiences/using/about-subscriptions.md) y [Páginas de destino](../../channels/using/getting-started-with-landing-pages.md).
+* **Retención de datos**: Todas las tablas de registro integradas tienen períodos de retención preestablecidos, lo que generalmente limita su almacenamiento de datos a 6 meses o menos. Se pueden configurar períodos de retención adicionales con flujos de trabajo. Para obtener más información, póngase en contacto con los consultores o administradores técnicos de Adobe.
 * **Administración de derechos**: Adobe Campaign permite administrar los derechos asignados a los distintos operadores de campaña a través de diferentes funciones generadas previamente o personalizadas. Esto le permite administrar qué persona de su compañía puede acceder, modificar o exportar diferentes tipos de datos. Para obtener más información sobre esto, consulte [Acerca de la administración de acceso](../../administration/using/about-access-management.md).
 
 Para obtener más información sobre estas funciones y cómo administrarlas en Adobe Campaign, consulte [esta página](../../start/using/privacy-management.md#consent-retention-roles).
