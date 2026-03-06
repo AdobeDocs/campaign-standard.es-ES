@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Documentación del producto de Adobe Campaign Standard.
 title: Guía de Campaign Standard
 breadcrumb-title: Documentación de Campaign Standard
-source-git-commit: c70e3058f75ba2b11a8311628198e5c02d489964
+source-git-commit: 4df02bb5bbac105057a33d61a7158482bbc48a53
 workflow-type: tm+mt
-source-wordcount: '1753'
+source-wordcount: '1754'
 ht-degree: 90%
 
 ---
@@ -17,7 +17,8 @@ ht-degree: 90%
 + [Documentación de Campaign Standard](campaign-standard-home.md)
 + Notas de la versión {#release-notes}
    + [Último lanzamiento](rn/using/release-notes.md)
-   + Versiones anteriores {#previous-releases}
+   + Versiones anteriores  {#previous-releases}
+      + [2025](rn/using/release-notes-2025.md)
       + [2024](rn/using/release-notes-2024.md)
       + [2023](rn/using/release-notes-2023.md)
       + [2022](rn/using/release-notes-2022.md)
@@ -82,7 +83,7 @@ ht-degree: 90%
       + [Introducción a los canales móviles](channels/using/mobile-guide.md)
    + Prácticas recomendadas para envíos {#delivery-bestpractices}
       + [Conozca las prácticas recomendadas](sending/using/delivery-best-practices.md)
-      + [Optimización de las envíos](sending/using/optimize-delivery.md)
+      + [Optimización de las entregas](sending/using/optimize-delivery.md)
       + [Uso de plantillas](sending/using/use-templates.md)
       + [Creación de contenido personalizado](sending/using/design-and-personalize.md)
       + [Definición del público correcto](sending/using/define-the-right-audience.md)
@@ -180,9 +181,9 @@ ht-degree: 90%
       + [Seguimiento de mensajes](sending/using/tracking-messages.md)
       + [Archivado con CCO de correo electrónico](sending/using/archiving.md)
    + Supervisión de mensajes {#monitoring-messages}
-      + [Seguimiento de un envío](sending/using/monitoring-a-delivery.md)
+      + [Seguimiento de una entrega](sending/using/monitoring-a-delivery.md)
       + [Recepción de alertas cuando se produzcan errores](sending/using/receiving-alerts-when-failures-happen.md)
-      + [Comprensión de los errores de envío](sending/using/understanding-delivery-failures.md)
+      + [Comprensión de los errores de entrega](sending/using/understanding-delivery-failures.md)
       + [Comprensión de la gestión de la cuarentena](sending/using/understanding-quarantine-management.md)
    + Administración de entregabilidad {#managing-deliverability}
       + [Acerca de la capacidad de la entrega](sending/using/about-deliverability.md)
@@ -209,7 +210,7 @@ ht-degree: 90%
       + [Resumen de devoluciones](reporting/using/bounce-summary.md)
       + [Desglose por dominios](reporting/using/breakdown-by-domains.md)
       + [Reclamaciones](reporting/using/complaints.md)
-      + [Resumen de envíos](reporting/using/delivery-summary.md)
+      + [Resumen de entregas](reporting/using/delivery-summary.md)
       + [Rendimiento del envío](reporting/using/delivery-throughput.md)
       + [Informe en la aplicación](reporting/using/in-app-report.md)
       + [Rechazos y correos que no se pueden entregar](reporting/using/non-deliverables-and-bounces.md)
@@ -296,9 +297,9 @@ ht-degree: 90%
       + [Definición de los parámetros al invocar al flujo de trabajo](automating/using/defining-parameters-calling-workflow.md)
       + [Monitorización de las variables de eventos](automating/using/monitoring-events-variables.md)
       + [Personalización del flujo de trabajo con parámetros externos](automating/using/customizing-workflow-external-parameters.md)
-      + [Caso de uso](automating/using/use-case-calling-workflow.md)
+      + [Ejemplo de uso](automating/using/use-case-calling-workflow.md)
    + Actividades de segmentación {#targeting-activities}
-      + [Crear un flujo de trabajo de segmentación](automating/using/about-targeting-activities.md)
+      + [Acerca de las actividades de segmentación](automating/using/about-targeting-activities.md)
       + [Consulta](automating/using/query.md)
       + [Consulta incremental](automating/using/incremental-query.md)
       + [Unión](automating/using/union.md)
@@ -312,7 +313,7 @@ ht-degree: 90%
    + Actividades de ejecución {#execution-activities}
       + [Acerca de las actividades de ejecución](automating/using/about-execution-activities.md)
       + [Inicio y final](automating/using/start-and-end.md)
-      + [Bifurcación](automating/using/fork.md)
+      + [Bifurcación (Fork)](automating/using/fork.md)
       + [AND-join](automating/using/and-join.md)
       + [Planificador](automating/using/scheduler.md)
       + [Espera](automating/using/wait.md)
@@ -350,7 +351,7 @@ ht-degree: 90%
       + [Caso de uso: Exportación e importación de recursos personalizados](automating/using/exporting-importing-custom-resources.md)
    + Casos de uso {#workflow-use-case}
       + [Acerca de los casos de uso de flujos de trabajo](automating/using/about-workflow-use-cases.md)
-      + Envíos {#deliveries}
+      + Entregas {#deliveries}
          + [Creación de envíos con un complemento](automating/using/workflow-created-query-with-complement.md)
          + [Creación de envíos en la fecha de creación de los perfiles](automating/using/workflow-creation-date-query.md)
          + [Creación de un envío semanal](automating/using/workflow-weekly-offer.md)

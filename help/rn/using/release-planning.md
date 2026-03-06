@@ -8,7 +8,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 373760ba6560bebf68e730eb083f646099503986
+source-git-commit: 4df02bb5bbac105057a33d61a7158482bbc48a53
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 99%
@@ -25,7 +25,7 @@ Las actualizaciones se implementan en dos fases. En primer lugar, las instancias
 
 Todas las fechas de las versiones están sujetas a cambios: visite esta página regularmente para buscar actualizaciones. Las actualizaciones de entorno se producen en olas, durante los intervalos de tiempo indicados a continuación. Las fechas exactas se comunican por correo electrónico a cada cliente.
 
-## Versión 26.1 {#release-26.1}
+## Versión 26.2: {#release-26-2-release}
 
 Encontrará información detallada acerca de esta versión en las [Notas de la versión](release-notes.md) cuando comiencen las actualizaciones del entorno de ensayo.
 
