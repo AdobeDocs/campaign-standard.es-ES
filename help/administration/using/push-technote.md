@@ -6,7 +6,7 @@ feature: Push
 role: Admin
 level: Experienced
 exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
-source-git-commit: db035a41515e94836bdfbfc3d620586dc1f5ce31
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '1134'
 ht-degree: 4%
@@ -39,11 +39,13 @@ Si ya utiliza Adobe Campaign Standard para enviar notificaciones push, la implem
 
 La transición a las API más recientes es obligatoria para evitar cualquier interrupción del servicio.
 
-<!--To check if you are impacted, you can filter your **Services and Subscriptions** as per the filter below
+<!--
+To check if you are impacted, you can filter your **Services and Subscriptions** as per the filter below
 
 * If any of your active push notification service uses the **HTTP (legacy)** API, your setup will be directly impacted by this change. You must review your current configurations and move to the newer APIs as described below.
 
-* If your setup exclusively uses the **HTTP v1** API for Android push notifications, then you are already in compliance and no further action will be required on your part.-->
+* If your setup exclusively uses the **HTTP v1** API for Android push notifications, then you are already in compliance and no further action will be required on your part.
+-->
 
 ### ¿Cómo realizar la actualización? {#fcm-transition-procedure}
 
@@ -53,9 +55,9 @@ La transición a las API más recientes es obligatoria para evitar cualquier int
 
 * El archivo JSON de la cuenta del servicio Android Firebase Admin SDK es necesario para mover la aplicación móvil a HTTP v1. Obtenga información sobre cómo obtener este archivo en [Documentación de Google Firebase](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
-* Si sigue utilizando esta versión heredada del SDK, debe actualizar la implementación con el SDK de Adobe Experience Platform. Obtenga información sobre cómo migrar al SDK de Adobe Experience Platform en [este artículo](sdkv4-migration.md).
+* Si sigue utilizando esta versión heredada de SDK, debe actualizar la implementación con Adobe Experience Platform SDK. Obtenga información sobre cómo migrar a Adobe Experience Platform SDK en [este artículo](sdkv4-migration.md).
 
-* Asegúrese de tener el permiso **Configuración de aplicación móvil** en la recopilación de datos de Adobe Experience Platform Mobile antes de realizar los pasos siguientes. [Más información](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=es#adobe-experience-platform-data-collection-permissions){target="_blank"}.
+* Asegúrese de tener el permiso **Configuración de aplicación móvil** en la recopilación de datos de Adobe Experience Platform Mobile antes de realizar los pasos siguientes. [Más información](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=en#adobe-experience-platform-data-collection-permissions){target="_blank"}.
 
 
 #### Procedimiento de transición {#fcm-transition-steps}
@@ -105,14 +107,16 @@ Adobe Campaign Standard admite conexiones basadas en tokens y en certificados. S
 
 Si la implementación actual depende de solicitudes basadas en certificados para conectarse a APNS, se verá afectado. Se recomienda la transición a una conexión basada en token.
 
-<!--To check if you are impacted, you can filter your **Services and Subscriptions** as per the filter below:
+<!--
+To check if you are impacted, you can filter your **Services and Subscriptions** as per the filter below:
 
 ![](assets/filter-services-ios.png)
 
 
 * If any of your active push notification service uses the **Certificate-based authentication** mode (.p12), your current implementations should be reviewed and moved to a **Token-based authentication** mode (.p8) as described below.
 
-* If your setup exclusively uses the **Token-based authentication** mode for iOS push notifications, then your implementation is already up-to-date and no further action will be required on your part.-->
+* If your setup exclusively uses the **Token-based authentication** mode for iOS push notifications, then your implementation is already up-to-date and no further action will be required on your part.
+-->
 
 ### ¿Cómo realizar la actualización? {#ios-transition-procedure}
 

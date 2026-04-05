@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 2e81a05b1b647991250d13d7d37f5da275a8db44
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
-source-wordcount: '2749'
+source-wordcount: '2748'
 ht-degree: 58%
 
 ---
@@ -90,14 +90,16 @@ Los administradores pueden acceder a **[!UICONTROL Email processing rules]** a t
 >
 >Los dominios de correo electrónico y las reglas MX ahora se administran automáticamente<!--by the Adobe Campaign Enhanced MTA (Message Transfer Agent)--> y no se pueden cambiar.
 
-* **DKIM (DomainKeys Identified Mail)**: la firma de autenticación por correo electrónico se ha completado para todos los mensajes con todos los dominios. No se firma con **Id. de remitente**, **DomainKeys** o **S/MIME**.
+* **DKIM (DomainKeys Identified Mail)** ha finalizado la firma de autenticación por correo electrónico para todos los mensajes con todos los dominios. No se firma con **Id. de remitente**, **DomainKeys** o **S/MIME**.
 * Las reglas MX personalizan automáticamente el rendimiento por dominio en función de su propia reputación histórica de correo electrónico y de los comentarios en tiempo real procedentes de los dominios a los que envía correos electrónicos.
 
-<!--Note that the email domains and the MX rules are now managed by the Adobe Campaign Enhanced MTA:
+<!--
+Note that the email domains and the MX rules are now managed by the Adobe Campaign Enhanced MTA:
 * **DKIM (DomainKeys Identified Mail)** email authentication signing is done by the Enhanced MTA for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, or **S/MIME** unless otherwise specified at the Enhanced MTA level.
-* The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.-->
+* The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.
+-->
 
-### Correos devueltos {#bounce-mails}
+### Correos rechazados {#bounce-mails}
 
 Las devoluciones asincrónicas siguen siendo calificadas por el proceso inMail de Campaign a través de las reglas **[!UICONTROL Bounce mails]**.
 
@@ -109,7 +111,8 @@ Estas reglas contienen la lista de cadenas de caracteres que pueden devolver los
 
 Para obtener más información sobre la calificación de correo devuelto, consulte esta [sección](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
 
-<!--Because they are now managed by the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used. For more on bounce mail qualification, see this [section](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
+<!--
+Because they are now managed by the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used. For more on bounce mail qualification, see this [section](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
 
 ### Management of email domains {#managing-email-domains}
 
@@ -121,7 +124,8 @@ The email domains are now managed by the Adobe Campaign Enhanced MTA. The Adobe 
 
 The MX rules are now managed by the Adobe Campaign Enhanced MTA. The Adobe Campaign **[!UICONTROL MX management]** delivery throughput rules are no longer used.
 
-The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.-->
+The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.
+-->
 
 ## Lista de propiedades de correo electrónico {#list-of-email-properties}
 
@@ -180,7 +184,7 @@ Puede configurar el formato de los correos electrónicos que se van a enviar. Ha
 
 #### Modo de prueba SMTP {#smtp-test-mode}
 
-Utilice la opción **[!UICONTROL Enable SMTP test mode]** para probar el envío de correos electrónicos a través de una conexión SMTP sin realmente enviar mensajes. El envío se procesa hasta la conexión con el servidor SMTP, pero no se envía. Para cada destinatario, Campaign se conecta al servidor del proveedor SMTP, ejecuta el comando RCPT TO del servidor de correo saliente (SMTP) y cierra la conexión antes del comando DATA del SMTP.
+Utilice la opción **[!UICONTROL Enable SMTP test mode]** para probar el envío de correos electrónicos a través de una conexión SMTP sin realmente enviar mensajes. La entrega se procesa hasta la conexión con el servidor SMTP, pero no se envía. Para cada destinatario de la entrega, Campaign se conecta al servidor del proveedor SMTP, ejecuta el comando RCPT TO del servidor de correo saliente (SMTP) y cierra la conexión antes del comando DATA del SMTP.
 
 ![](assets/smtp-test-mode.png)
 
@@ -191,7 +195,7 @@ Si activa la opción de modo de prueba SMTP para una plantilla de correo electr�
 >[!IMPORTANT]
 >
 >Cuando esta opción está habilitada para un correo electrónico, no se enviará ningún mensaje hasta que esté desmarcada.
->Se mostrará una advertencia en el panel del correo electrónico o de la plantilla de correo electrónico.
+>Se mostrará una advertencia en el panel de control del correo electrónico o de la plantilla de correo electrónico.
 
 Para obtener más información sobre la configuración de SMTP, consulte la sección [Lista de parámetros SMTP de correo electrónico](#list-of-email-smtp-parameters).
 
@@ -225,7 +229,7 @@ La sección **[!UICONTROL Validity period]** contiene los siguientes parámetros
 
   >[!IMPORTANT]
   >
-  >La página espejo solo se genera si se ha definido un contenido de HTML para el correo electrónico.
+  >La página espejo solo se genera si se ha definido un contenido HTML para el correo electrónico.
   >
 
 
@@ -252,7 +256,7 @@ La inserción y el uso del contenido de personalización se detallan en la docum
 
 #### Contexto de destino {#target-context}
 
-Utilice el contexto de segmentación para definir un conjunto de tablas que se utilizarán para el direccionamiento (en la pantalla de definición de audiencia) y la personalización (definiendo campos de personalización en el editor de contenido del HTML) de correo electrónico.
+Utilice el contexto de segmentación para definir un conjunto de tablas que se utilizarán para el direccionamiento (en la pantalla de definición de audiencia) y la personalización (definiendo campos de personalización en el editor de contenido de HTML) de correo electrónico.
 
 #### Enrutamiento {#routing}
 
@@ -288,7 +292,7 @@ La sección **[!UICONTROL SMTP]** contiene los siguientes parámetros:
 
 * **[!UICONTROL Character encoding]**: marque la casilla **[!UICONTROL Force encoding]** si desea forzar la codificación del mensaje y, a continuación, seleccione la codificación que desee utilizar.
 * **[!UICONTROL Bounce mails]**: de forma predeterminada, los mensajes devueltos se reciben en la bandeja de entrada de errores de la plataforma (definida en la pantalla **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email]** > **[!UICONTROL Configuration]**). Para definir una dirección de error específica para un correo electrónico, introduzca la dirección en el campo **[!UICONTROL Error address]**.
-* **[!UICONTROL Additional SMTP headers]**: esta opción permite agregar encabezados SMTP adicionales a los mensajes. La secuencia de comandos introducida en el campo **[!UICONTROL Headers]** debe hacer referencia a un encabezado por línea en forma de **name:value**. Los valores se codifican automáticamente si es necesario.
+* **[!UICONTROL Additional SMTP headers]**: esta opción permite agregar encabezados SMTP adicionales a los mensajes. La secuencia de comandos especificada en el campo **[!UICONTROL Headers]** debe hacer referencia a un encabezado por línea en forma de **nombre:value**. Los valores se codifican automáticamente si es necesario.
 
   >[!IMPORTANT]
   >
@@ -336,9 +340,9 @@ Use el parámetro **[!UICONTROL Delivery duration]** o **[!UICONTROL Validity li
 
 Los administradores pueden acceder y modificar las reglas **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** y **[!UICONTROL Domain management]** a través del menú **[!UICONTROL Administration > Channels > Email > Email processing rules]**. [Más información](#email-processing-rules)
 
-### Clasificación del correo rechazado {#legacy-bounce-mail-qualification}
+### Calificación del correo rechazado {#legacy-bounce-mail-qualification}
 
-Para enumerar las distintas devoluciones, así como los tipos y motivos de error asociados, haga clic en el logotipo de **Adobe**, en la parte superior izquierda, y luego seleccione **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
+Para enumerar las distintas devoluciones, así como los tipos y motivos de error asociados, haz clic en el logotipo de **Adobe**, en la parte superior izquierda, y luego selecciona **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
 
 Las devoluciones pueden tener los siguientes estados de calificación:
 

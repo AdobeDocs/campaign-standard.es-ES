@@ -1,15 +1,15 @@
 ---
-title: Uso de plantillas de envío
+title: Uso de plantillas de envíos
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
-description: '"Las plantillas de envío ofrecen una mayor eficiencia al proporcionar escenarios listos para usar para los tipos de actividades más comunes".'
+index: true
+description: Las plantillas de envío ofrecen una mayor eficiencia al proporcionar escenarios listos para usar para los tipos de actividades más comunes.
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ca134a7f-9035-4885-b4cb-1170b6ec10cc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 57%
@@ -50,7 +50,7 @@ El dominio de dirección debe ser el mismo que el subdominio que configuró.
 
 Los campos **[!UICONTROL Reply to]** corresponden a la dirección de correo electrónico y al nombre usado para las respuestas.
 
-**Sugerencia**: el Adobe recomienda usar una dirección real existente, como el servicio de atención al cliente de su marca. En este caso, si un destinatario envía una respuesta, el servicio de atención al cliente podrá atenderla.
+**Sugerencia**: Adobe recomienda usar una dirección real existente, como el servicio de atención al cliente de su marca. En este caso, si un destinatario envía una respuesta, el servicio de atención al cliente podrá atenderla.
 
 Para cambiar el nombre del remitente que aparecerá en el encabezado de los mensajes enviados, vaya a la pestaña **[!UICONTROL Properties]** de la página de inicio de Email Designer (a la que se puede acceder mediante el icono de inicio) y haga clic en el bloque **[!UICONTROL Default sender name]**.
 

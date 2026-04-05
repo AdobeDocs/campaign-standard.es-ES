@@ -3,13 +3,13 @@ title: Comprobación antes de enviar
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
-description: "Una vez que el mensaje esté listo, aprenda a realizar todas las comprobaciones necesarias antes de enviar"
+index: true
+description: Una vez que el mensaje esté listo, aprenda a realizar todas las comprobaciones necesarias antes de enviar
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: dfc5fc00-87aa-4d22-ad7c-cc0ba1ee21be
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 90%
@@ -30,7 +30,7 @@ Este paso le permite detectar posibles errores y corregirlos antes de enviarlos 
 
 Los pasos para validar un envío se presentan [en esta sección](../../sending/using/get-started-sending-messages.md#prepare-test-send).
 
-## Procesamiento de correo electrónico {#email-rendering}
+## Representación de correo electrónico {#email-rendering}
 
 Antes de pulsar el botón **[!UICONTROL Send]**, asegúrese de que su mensaje se mostrará de una forma óptima en una gran variedad de clientes, correos y dispositivos web.
 

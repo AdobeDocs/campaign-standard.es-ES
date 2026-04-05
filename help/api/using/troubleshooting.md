@@ -6,7 +6,7 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 0%
@@ -87,7 +87,8 @@ Su token no es válido (se ha utilizado una llamada IMS incorrecta para generar 
 
 Según la configuración de la instancia, el perfil creado debe asociarse a una **orgUnit**. Para saber cómo agregar este campo en su creación, consulte [esta sección](../../api/using/creating-profiles-api.md).
 
-<!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu’un POST)
+<!--
+* (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu’un POST)
 
 With Curl
 List all profiles

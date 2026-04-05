@@ -1,28 +1,28 @@
 ---
-title: Definición de la audiencia correcta
+title: Definición del público correcto
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
-description: '"Cuando tenga preparado el contenido, aprenda a definir cuidadosamente quién recibirá el mensaje".'
+index: true
+description: Cuando tenga preparado el contenido, aprenda a definir cuidadosamente quién recibirá el mensaje.
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 1e06fd9d-e850-4856-8f7b-b581dbe157df
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 71%
 
 ---
 
-# Definición de la audiencia correcta {#define-the-right-audience}
+# Definición del público correcto {#define-the-right-audience}
 
 La población objetivo es clave: cree sus listas con cuidado, pruebe sus correos electrónicos con clientes de correo electrónico y dispositivos móviles populares, y asegúrese de que sus listas de correos electrónicos estén actualizadas (sin direcciones desconocidas u obsoletas). También puede enviar pruebas que ayuden a configurar un ciclo de validación completo.
 
 Aprenda más sobre las poblaciones objetivo [en esta sección](../../audiences/using/selecting-an-audience-in-a-message.md)
 
-## Selección de la audiencia de destino correcta {#target-the-right-audience}
+## Selección del público destinatario correcto {#target-the-right-audience}
 
 Cuando tenga preparado el contenido, debe definir cuidadosamente quién recibirá el mensaje.
 

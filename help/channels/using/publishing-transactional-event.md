@@ -9,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 6bcd8dcd-d710-4ca3-937d-bf4339f36069
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 6%
@@ -88,17 +88,19 @@ Ahora, incluso si el evento se activa a través de su sitio web, los mensajes co
 
 Haga clic en el botón **[!UICONTROL Publish]** para generar una nueva API de REST.
 
-<!--## Transactional messaging publication process {#transactional-messaging-pub-process}
+<!--
+## Transactional messaging publication process {#transactional-messaging-pub-process}
 
 The chart below illustrates the transactional messaging publication process.
 
 ![](assets/message-center_pub-process.png)
 
-For more on publishing, pausing and unpublishing a transactional message, see [this section](../../channels/using/publishing-transactional-message.md).-->
+For more on publishing, pausing and unpublishing a transactional message, see [this section](../../channels/using/publishing-transactional-message.md).
+-->
 
 ## Eliminación de un evento {#deleting-an-event}
 
-Una vez cancelada la publicación de un evento, o si un evento aún no se ha publicado, puede eliminarlo de la lista de configuración de eventos. Para ello, haga lo siguiente:
+Una vez cancelada la publicación de un evento, o si un evento aún no se ha publicado, puede eliminarlo de la lista de configuración de eventos. Para ello:
 
 1. Haga clic en el logotipo de **Adobe**, en la esquina superior izquierda, y luego seleccione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. Pase el ratón sobre la configuración de evento que desee y seleccione el botón **[!UICONTROL Delete element]**.

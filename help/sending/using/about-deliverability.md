@@ -9,14 +9,14 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 5e523519-7192-4031-9d96-559af23074d9
-source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 70%
 
 ---
 
-# ¿Qué es la entregabilidad?{#about-deliverability}
+# ¿Qué es la capacidad de entrega?{#about-deliverability}
 
 La capacidad de entrega permite medir el éxito de las campañas que llegan a la bandeja de entrada de los destinatarios sin rechazarse ni marcarse como correo no deseado. [Descubra por qué la capacidad de entrega es importante](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html?lang=es#why-deliverability-matters).
 
@@ -63,7 +63,7 @@ Adobe Campaign proporciona una serie de herramientas para rastrear y mejorar el 
 
 Al configurar, diseñar y probar el mensaje, asegúrese de seguir las prácticas recomendadas que se mencionan en las secciones a continuación. El uso de todas las funciones que proporciona Adobe Campaign le ayuda a mejorar la capacidad de envío.
 
-* [Prácticas recomendadas de entregas](../../sending/using/delivery-best-practices.md)
+* [Prácticas recomendadas para envíos](../../sending/using/delivery-best-practices.md)
 * [Control del contenido del correo electrónico](../../sending/using/control-email-content.md)
 * [Previsualización de mensajes](../../sending/using/previewing-messages.md)
 * [Envío de pruebas](../../sending/using/sending-proofs.md)
@@ -94,7 +94,7 @@ Para obtener más información, consulte las siguientes secciones:
 
 Utilice las funciones que ofrece Adobe Campaign para monitorizar su capacidad de entrega.
 
-Adobe Campaign le permite comprobar el rendimiento de sus envíos a través de un conjunto de indicadores integrados en tiempo real. <!--For example, you can check the number of messages that are successfully executed, sent and delivered. You can also verify the number of messages that have been opened and the number of messages/links that have been clicked.-->También puede generar informes totalmente personalizables y en tiempo real para obtener un mejor conocimiento de sus envíos.
+Adobe Campaign le permite comprobar el rendimiento de sus envíos a través de un conjunto de indicadores integrados en tiempo real. <!--For example, you can check the number of messages that are successfully executed, sent and delivered. You can also verify the number of messages that have been opened and the number of messages/links that have been clicked.-->También puede generar informes totalmente personalizables y en tiempo real para mejorar insight en sus envíos.
 
 Para obtener más información, consulte las siguientes secciones:
 
@@ -103,7 +103,8 @@ Para obtener más información, consulte las siguientes secciones:
 * [Recepción de alertas cuando se produzcan errores](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Informes dinámicos](../../reporting/using/about-dynamic-reports.md)
 
-<!--## General recommendations
+<!--
+## General recommendations
 
 NOT SURE TO KEEP
 
@@ -119,9 +120,10 @@ Double opt-in mechanisms and effective handling of technical bounce messages mak
 
 ISPs usually have a prominent means of reporting a received message as spam. This makes it possible to identify unreliable sources. By rapidly honoring opt-out requests, making regular use of a given list, verifying consent through a double opt-in system, and implementing feedback loops, you can reduce complaint rates.
 
-<!--Sending to honeypot addresses {#honeypot-addresses}
-ISPs and other organizations (refer to https://www.projecthoneypot.org/) make use of mailboxes that do not correspond to physical persons but are created simply to trick spammers. These so-called "honey pot" addresses are published on the Web in order to be collected by spambots and thus catch illegitimate senders. The use of a double opt-in mechanism precludes this sort of address being added to a list. When using a third-party list, you must be sure of the methods employed by its maintainer.-->
+Sending to honeypot addresses {#honeypot-addresses}
+ISPs and other organizations (refer to https://www.projecthoneypot.org/) make use of mailboxes that do not correspond to physical persons but are created simply to trick spammers. These so-called "honey pot" addresses are published on the Web in order to be collected by spambots and thus catch illegitimate senders. The use of a double opt-in mechanism precludes this sort of address being added to a list. When using a third-party list, you must be sure of the methods employed by its maintainer.
 
-<!--## Sending on a regular basis {#regular-deliveries}
+## Sending on a regular basis {#regular-deliveries}
 
-Spammers make programmed deliveries to maintain their reputation over time. They sometimes need to adapt their marketing plan to meet the best practices imposed by the ISPs and so, after a peak in reputation (ramp-up), they configure regular deliveries.-->
+Spammers make programmed deliveries to maintain their reputation over time. They sometimes need to adapt their marketing plan to meet the best practices imposed by the ISPs and so, after a peak in reputation (ramp-up), they configure regular deliveries.
+-->

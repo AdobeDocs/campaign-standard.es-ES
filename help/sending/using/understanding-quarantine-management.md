@@ -8,10 +8,10 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
-source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
-source-wordcount: '1430'
-ht-degree: 64%
+source-wordcount: '1366'
+ht-degree: 67%
 
 ---
 
@@ -29,7 +29,7 @@ Los perfiles cuyas direcciones de correo electrónico o número de teléfono est
 
 Algunos proveedores de acceso a Internet consideran automáticamente los correos electrónicos como no deseados si la tasa de direcciones no válidas es demasiado alta. Por lo tanto, la cuarentena le permite evitar ser incluido en la lista de bloqueados de bloqueados por estos proveedores.
 
-Además, la cuarentena reduce el coste de entrega de los SMS mediante la exclusión en las entregas de los números de teléfono incorrectos.
+Además, la cuarentena reduce el coste de envío de los SMS mediante la exclusión en los envíos de los números de teléfono incorrectos.
 
 Para obtener más información sobre las prácticas recomendadas para proteger y optimizar las entregas, consulte [esta página](../../sending/using/delivery-best-practices.md).
 
@@ -49,7 +49,7 @@ La cuarentena y la inclusión en la lista de bloqueados no se aplican al mismo o
 >
 >La cuarentena incluye el estado **En la lista de bloqueados**, que se aplica cuando los destinatarios informan el mensaje como correo no deseado o responden a un mensaje SMS con la palabra clave como &quot;DETENER&quot;. En ese caso, la dirección o el número de teléfono del perfil se envían a cuarentena con el estado **[!UICONTROL On denylist]**. Para obtener más información sobre la administración de SMS de detención, consulte [esta sección](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 
-&lt;!: Cuando un usuario responde a un mensaje SMS con una palabra clave como STOP para impedir la exclusión de entregas SMS, su perfil no se añade a la lista de bloqueados de la exclusión de correo electrónico en el proceso de exclusión de correo electrónico. En su lugar, el número de teléfono del perfil se envía a cuarentena con el estado **[!UICONTROL On denylist]**. Este estado hace referencia únicamente al número de teléfono, lo que significa que el perfil seguirá recibiendo mensajes de correo electrónico.<!-- Also, if the profile has another phone number, he can still receive SMS messages on the other number. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).-->
+<!--When a user replies to an SMS message with a keyword such as STOP in order to opt-out from SMS deliveries, his profile is not added to the denylist like in the email opt-out process. Instead, the profile's phone number is sent to quarantine with the **[!UICONTROL On denylist]** status. This status refers to the phone number only, meaning that the profile will continue receiving email messages. Also, if the profile has another phone number, he can still receive SMS messages on the other number. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).-->
 
 ## Identificación de direcciones en cuarentena {#identifying-quarantined-addresses}
 
@@ -61,7 +61,7 @@ If you need to remove an address from quarantine, contact your technical adminis
 
 ### Identificación de direcciones en cuarentena para una entrega {#identifying-quarantined-addresses-for-a-delivery}
 
-Las direcciones en cuarentena para una entrega específica se enumeran durante la fase de preparación de la entrega, en la pestaña **[!UICONTROL Exclusion logs]** del panel de entrega (consulte [esta sección](../../sending/using/monitoring-a-delivery.md#exclusion-logs)). Para obtener más información sobre preparación de entregas, consulte [esta sección](../../sending/using/preparing-the-send.md).
+Las direcciones en cuarentena para una entrega específica se enumeran durante la fase de preparación de la entrega, en la pestaña **[!UICONTROL Exclusion logs]** del panel de control de entrega (consulte [esta sección](../../sending/using/monitoring-a-delivery.md#exclusion-logs)). Para obtener más información sobre preparación de entregas, consulte [esta sección](../../sending/using/preparing-the-send.md).
 
 ![](assets/exclusion_logs.png)
 
@@ -93,7 +93,7 @@ Para agregar manualmente una nueva entrada, utilice el botón **[!UICONTROL Crea
 
 ![](assets/quarantines-create-button.png)
 
-Defina la dirección (o el número de teléfono, etc.) y tipo de canal. Puede establecer un estado para estar en la lista de cuarentena y un motivo de error. También puede indicar la fecha en la que se produjo el error, el número de errores e introducir el texto del error. Si es necesario, seleccione la última entrega realizada a la dirección en la lista desplegable.
+Defina la dirección (o el número de teléfono, etc.) y el tipo de canal. Puede establecer un estado para estar en la lista de cuarentena y un motivo de error. También puede indicar la fecha en la que se produjo el error, el número de errores e introducir el texto del error. Si es necesario, seleccione la última entrega realizada a la dirección en la lista desplegable.
 
 ![](assets/quarantines-create-last-delivery.png)
 
@@ -178,7 +178,9 @@ A diferencia de los errores en el hardware, los de software no envían inmediata
 
 Los reintentos se realizarán durante la [duración de la entrega](../../administration/using/configuring-email-channel.md#validity-period-parameters). Cuando el contador de errores alcanza el umbral de límite, la dirección se pone en cuarentena. Para obtener más información, consulte [Reintentos tras un fallo temporal de entrega](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
-<!--In the default configuration, the threshold is set at five errors, where two errors are significant if they occur at least 24 hours apart. The address is placed in quarantine at the fifth error.
-The error counter threshold can be modified.-->
+<!--
+In the default configuration, the threshold is set at five errors, where two errors are significant if they occur at least 24 hours apart. The address is placed in quarantine at the fifth error.
+The error counter threshold can be modified.
+-->
 
 El contador de errores se reinicia si el último error significativo se produjo hace más de 10 días. El estado de la dirección cambia a **Valid** y el flujo de trabajo **Database cleanup** la elimina de la lista de cuarentena. (Para obtener más información sobre flujos de trabajo técnicos, consulte [esta sección](../../administration/using/technical-workflows.md#list-of-technical-workflows).)

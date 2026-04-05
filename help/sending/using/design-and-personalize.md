@@ -3,13 +3,13 @@ title: Creación de contenido personalizado
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
+index: true
 description: Aprenda a diseñar el contenido del mensaje e intente evitar problemas comunes que podrían impedir la ejecución del envío. 
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 67%
@@ -18,13 +18,13 @@ ht-degree: 67%
 
 # Creación de contenido personalizado {#build-personalized-content}
 
-Al diseñar el contenido del mensaje, trate de evitar problemas comunes que podrían impedir la ejecución del envío. La mayoría de las veces, los posibles errores están relacionados con la [personalización](../../designing/using/personalization.md), el formato al [usar contenido existente](../../designing/using/using-existing-content.md) - y la [conversión de contenido de un HTML](../../designing/using/using-existing-content.md#converting-an-html-content) - y [imágenes](../../designing/using/images.md).
+Al diseñar el contenido del mensaje, trate de evitar problemas comunes que podrían impedir la ejecución del envío. La mayoría de las veces, los posibles errores están relacionados con la [personalización](../../designing/using/personalization.md), el formato al [usar contenido existente](../../designing/using/using-existing-content.md) - y la [conversión de contenido de HTML](../../designing/using/using-existing-content.md#converting-an-html-content) - y [imágenes](../../designing/using/images.md).
 
 ## Optimización de la personalización {#optimize-personalization}
 
 Para evitar problemas comunes que podrían impedirle ejecutar su envío y mejorar la experiencia de sus destinatarios, Adobe Campaign le permite personalizar sus mensajes.
 
-Puede utilizar los datos de destinatarios almacenados en la base de datos de Adobe Campaign o recopilados mediante seguimiento, páginas de aterrizaje, suscripciones, etc.
+Puede utilizar los datos de destinatarios almacenados en la base de datos de Adobe Campaign o recopilados mediante seguimiento, páginas de destino, suscripciones, etc.
 Los conceptos básicos de la personalización se presentan en [esta sección](../../designing/using/personalization.md).
 
 Asegúrese de que el contenido del mensaje esté diseñado correctamente para evitar errores, que generalmente están relacionados con la personalización.
@@ -50,7 +50,7 @@ Cuando cree sus correos electrónicos, tenga en cuenta las optimizaciones genera
 
 ### Línea de asunto
 
-Cree una [línea de asunto &#x200B;](../../designing/using/subject-line.md) para mejorar las tasas de apertura:
+Cree una [línea de asunto ](../../designing/using/subject-line.md) para mejorar las tasas de apertura:
 
 * Evite los asuntos demasiado largos. Utilice un máximo de 50 caracteres
 
@@ -90,7 +90,7 @@ En Adobe Campaign, el tamaño máximo predeterminado de un correo electrónico s
 
 Si se alcanza el límite, el mensaje que lo supera fallará y se mostrará un mensaje de error en los registros de envío. Los demás mensajes del mismo envío no se ven afectados. En ese caso, debe adaptar la parte dinámica de la plantilla de correo electrónico o los fragmentos de contenido utilizados por la entrega. <!--If you need assistance, or if you have any question or request about the **[!UICONTROL Maximum message size]** option, reach out to your Adobe contact.-->
 
-El Adobe recomienda mantener el valor predeterminado de tamaño máximo del mensaje. Sin embargo, este valor se puede cambiar en la opción **[!UICONTROL Maximum message size]**, a través del menú **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**, solamente por [administradores funcionales](../../administration/using/users-management.md#functional-administrators).
+Adobe recomienda mantener el valor predeterminado de tamaño máximo del mensaje. Sin embargo, este valor se puede cambiar en la opción **[!UICONTROL Maximum message size]**, a través del menú **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**, solamente por [administradores funcionales](../../administration/using/users-management.md#functional-administrators).
 
 >[!IMPORTANT]
 >
@@ -147,4 +147,4 @@ Para que sean accesibles desde el exterior, las imágenes utilizadas en los mens
 
 Adobe recomienda previsualizar el mensaje para comprobar su personalización y cómo verán los destinatarios su entrega.
 
-En el Diseñador de correo electrónico, el botón **[!UICONTROL Preview]** permite ver la renderización de cada contenido para un destinatario. Los campos personalizados y los elementos condicionales del contenido se sustituyen por la información correspondiente del perfil seleccionado. [Más información](../../sending/using/previewing-messages.md)
+En el Diseñador de correo electrónico, el botón **[!UICONTROL Preview]** permite ver la renderización de cada contenido para un destinatario. Los campos de personalización y los elementos condicionales del contenido se sustituyen por la información correspondiente del perfil seleccionado. [Más información](../../sending/using/previewing-messages.md)

@@ -3,13 +3,13 @@ title: Optimización del envío de mensajes
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
+index: true
 description: Aprenda a proteger y optimizar el proceso de envío de forma ascendente.
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 82%
@@ -52,7 +52,7 @@ Para llegar a la bandeja de entrada de sus destinatarios sin rebotar ni ser marc
 
    * Al comprobar la tasa de envíos de sus correos electrónicos, debe centrarse en cuatro categorías principales: calidad de los datos, mensaje y contenido, infraestructuras de envío y reputación. Para profundizar en este tema, consulte [esta sección](../../sending/using/about-deliverability.md).
 
-* Al iniciar una nueva plataforma, aplique las recomendaciones detalladas en [esta página](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html?lang=es#transition-process).
+* Al iniciar una nueva plataforma, aplique las recomendaciones detalladas en [esta página](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process).
 
 * Póngase en contacto con su representante de Adobe para obtener ayuda.
 

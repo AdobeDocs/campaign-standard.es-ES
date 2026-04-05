@@ -8,10 +8,10 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '1526'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -41,21 +41,21 @@ Por ello, es responsabilidad del controlador de datos confirmar la identidad del
 >
 >Para obtener más información sobre los datos personales y las distintas entidades que administran los datos (controlador de datos, procesador de datos y sujeto de datos), consulte [Datos personales y personas](../../start/using/privacy.md#personal-data).
 
-### Áreas de nombres {#namesspaces}
+### Espacios de nombres {#namesspaces}
 
-Antes de crear solicitudes de privacidad, debe definir el área de nombres que utilizará. El área de nombres es la clave que se utiliza para identificar el sujeto de datos en la base de datos de Adobe Campaign. Hay dos Áreas de nombres disponibles: correo electrónico y teléfono móvil. Si necesita una Área de nombres diferente (por ejemplo, un campo personalizado de perfil), siga estos pasos.
+Antes de crear solicitudes de privacidad, debe definir el espacio de nombres que utilizará. El espacio de nombres es la clave que se utiliza para identificar el sujeto de datos en la base de datos de Adobe Campaign. Hay dos Espacios de nombres disponibles: correo electrónico y teléfono móvil. Si necesita un Espacio de nombres diferente (por ejemplo, un campo personalizado de perfil), siga estos pasos.
 
-[Consulte también el tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html?lang=es#privacy) sobre cómo crear un área de nombres.
+[Consulte también el tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html?lang=es#privacy) sobre cómo crear un espacio de nombres.
 
 >[!NOTE]
 >
->Si utiliza varias áreas de nombres, cree una solicitud de privacidad por cada área de nombres.
+>Si utiliza varios espacios de nombres, cree una solicitud de privacidad por cada espacio de nombres.
 
 1. Haga clic en el logotipo de Adobe Campaign, en la esquina superior izquierda, y seleccione **[!UICONTROL Administration]** > **[!UICONTROL Namespaces]**.
 
    ![](assets/privacy-namespaces.png)
 
-1. En la lista de Áreas de nombres, haga clic en **[!UICONTROL Create]**.
+1. En la lista de Espacios de nombres, haga clic en **[!UICONTROL Create]**.
 
    ![](assets/privacy-namespace-create.png)
 
@@ -63,19 +63,19 @@ Antes de crear solicitudes de privacidad, debe definir el área de nombres que u
 
    ![](assets/privacy-namespace-label.png)
 
-1. Si desea utilizar una Área de nombres de servicio de identidad existente, elija **[!UICONTROL Map from Identity Namespace Service]** y seleccione una Área de nombres de la **[!UICONTROL Identity Service Namespaces]** lista.
+1. Si desea utilizar un Espacio de nombres de servicio de identidad existente, elija **[!UICONTROL Map from Identity Namespace Service]** y seleccione un Espacio de nombres de la **[!UICONTROL Identity Service Namespaces]** lista.
 
    ![](assets/privacy-map-from-namespace.png)
 
-   Si desea crear una nueva Área de nombres en **[!UICONTROL Identity Service]** y asignarla en Campaña, seleccione **[!UICONTROL Create new]** e introduzca un nombre en el **[!UICONTROL Identity namespace name]** campo.
+   Si desea crear un nuevo Espacio de nombres en **[!UICONTROL Identity Service]** y asignarlo en Campaña, seleccione **[!UICONTROL Create new]** e introduzca un nombre en el **[!UICONTROL Identity namespace name]** campo.
 
    ![](assets/privacy-create-new-namespace.png)
 
-   Para obtener más información sobre Áreas de nombres de identidad, consulte la documentación del [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=es).
+   Para obtener más información sobre Espacios de nombres de identidad, consulte la documentación del [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=es).
 
-1. Un área de nombres de servicio de identidad se asigna a un área de nombres en Campaign. Debe especificar cómo se reconciliará el área de nombres en Campaign.
+1. Un espacio de nombres de servicio de identidad se asigna a un espacio de nombres en Campaign. Debe especificar cómo se reconciliará el espacio de nombres en Campaign.
 
-   Seleccione una asignación de destino (**[!UICONTROL Recipients]**, **[!UICONTROL Real-time event]** o **[!UICONTROL Subscriptions to an application]**). Si desea utilizar varias asignaciones de destino, cree un área de nombres por asignación de destino.
+   Seleccione una asignación de destino (**[!UICONTROL Recipients]**, **[!UICONTROL Real-time event]** o **[!UICONTROL Subscriptions to an application]**). Si desea utilizar varias asignaciones de destino, cree un espacio de nombres por asignación de destino.
 
    ![](assets/privacy-namespace-target-mapping.png)
 
@@ -83,7 +83,7 @@ Antes de crear solicitudes de privacidad, debe definir el área de nombres que u
 
    ![](assets/privacy-namespace-reconciliation-key.png)
 
-1. Haga clic en **[!UICONTROL Create]**. Ahora puede crear solicitudes de privacidad basadas en su nueva Área de nombres. Si utiliza varias áreas de nombres, cree una solicitud de privacidad por cada área de nombres.
+1. Haga clic **[!UICONTROL Create]**. Ahora puede crear solicitudes de privacidad basadas en su nuevo Espacio de nombres. Si utiliza varios espacios de nombres, cree una solicitud de privacidad por cada espacio de nombres.
 
 ### Creación de una solicitud de privacidad {#create-privacy-request}
 
@@ -97,14 +97,14 @@ Consulte la documentación del [Privacy Service de Experience Platform](https://
 >
 >Para enviar una solicitud usando el tipo de área de nombres personalizada, aprovecha el [método JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=es#json){target="_blank"} y agrega el namespaceId a la solicitud, o usa la [llamada de API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=es#access-delete){target="_blank"} para realizar la solicitud.
 >
->Utilice únicamente la [interfaz de usuario de Privacidad](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=es#request-builder){target="_blank"} para enviar solicitudes con el tipo de área de nombres estándar.
+>Use solamente la [interfaz de usuario de privacidad](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=es#request-builder){target="_blank"} para enviar solicitudes usando el tipo de área de nombres estándar.
 
-Cada trabajo del servicio principal de privacidad se divide en varias solicitudes de privacidad en Campaña, en función de cuántas Áreas de nombres se estén utilizando, una solicitud que corresponde a una Área de nombres. Además, un trabajo se puede ejecutar en varias instancias. Por lo tanto, se crean varios archivos para un trabajo. Por ejemplo, si una solicitud tiene dos Áreas de nombres y se está ejecutando en tres instancias, se envía un total de seis archivos. Un archivo por Área de nombres e instancia.
+Cada trabajo del servicio principal de privacidad se divide en varias solicitudes de privacidad en Campaña, en función de cuántos Espacios de nombres se estén utilizando, una solicitud que corresponde a un Espacio de nombres. Además, un trabajo se puede ejecutar en varias instancias. Por lo tanto, se crean varios archivos para un trabajo. Por ejemplo, si una solicitud tiene dos Espacios de nombres y se está ejecutando en tres instancias, se envía un total de seis archivos. Un archivo por Espacio de nombres e instancia.
 
 El patrón para un nombre de archivo es: `<InstanceName>-<NamespaceId>-<ReconciliationKey>.xml`
 
 * **InstanceName**: Nombre de instancia de Campaign
-* **NamespaceId**: ID de Área de nombres de servicio de identidad de la Área de nombres utilizada
+* **NamespaceId**: ID de Espacio de nombres de servicio de identidad del Espacio de nombres utilizado
 * **Clave de reconciliación**: Clave de reconciliación codificada
 
 ### Lista de los recursos {#list-of-resources}
@@ -153,7 +153,8 @@ Estos son los distintos estados de las solicitudes de privacidad:
 * **[!UICONTROL Complete]**: el procesamiento de la solicitud ha finalizado sin error.
 * **[!UICONTROL Error]**: el flujo de trabajo ha encontrado un error. El motivo se muestra en la lista de las solicitudes de privacidad de la **[!UICONTROL Request status]** columna. Por ejemplo, **[!UICONTROL Error data not found]** significa que en la base de datos no se han encontrado datos de destinatario que coincidan con los del sujeto de datos **[!UICONTROL Reconciliation value]** .
 
-<!--### Disabling the 2-step process {#disabling-two-step-process}
+<!--
+### Disabling the 2-step process {#disabling-two-step-process}
 
 The Core Privacy Service does not support the 2-step process.
 
@@ -167,7 +168,8 @@ By default, the 2-step process is activated.
 
 To change this mode, click **[!UICONTROL Edit properties]**, in the top right corner of the **[!UICONTROL Privacy Requests]** screen, then uncheck the **[!UICONTROL Activate the 2-step process]** option.
 
-![](assets/privacy-disable-2-step-process.png)-->
+![](assets/privacy-disable-2-step-process.png)
+-->
 
 ## Exclusión para la venta de información personal (CCPA) {#sale-of-personal-information-ccpa}
 

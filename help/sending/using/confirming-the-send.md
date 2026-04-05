@@ -9,7 +9,7 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
-source-git-commit: 058c59136c28e7fce2a79686919f900f410e324a
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '982'
 ht-degree: 62%
@@ -22,9 +22,11 @@ Una vez que haya terminado de preparar sus mensajes y se hayan realizado los pas
 
 Solo los usuarios con el rol **[!UICONTROL Start deliveries]** pueden confirmar el envío. Para obtener más información al respecto, consulte la sección [Lista de funciones](../../administration/using/list-of-roles.md).
 
-<!--Users without this role will see the following message: 
+<!--
+Users without this role will see the following message:
 
-![](assets/confirm_delivery_2.png)-->
+![](assets/confirm_delivery_2.png)
+-->
 
 ## Envío de mensajes {#sending-message}
 
@@ -78,7 +80,7 @@ El mensaje se puede ver en el historial de uno de los perfiles objetivo. Consult
 Una vez enviado un mensaje, puede realizar un seguimiento del comportamiento de sus destinatarios y monitorizarlo para medir su impacto. Para obtener más información, consulte estas secciones:
 
 * [Seguimiento de mensajes](../../sending/using/tracking-messages.md)
-* [Seguimiento de un envío](../../sending/using/monitoring-a-delivery.md)
+* [Seguimiento de una entrega](../../sending/using/monitoring-a-delivery.md)
 
 ### Sistema de informes de éxito de envío {#delivered-status-report}
 

@@ -1,6 +1,6 @@
 ---
-title: Administración de datos de formulario de una página de aterrizaje
-description: Obtenga información sobre cómo administrar los datos de formularios de páginas de aterrizaje.
+title: Administración de datos de formulario de una página de destino
+description: Obtenga información sobre cómo administrar los datos de formularios de páginas de destino.
 audience: channels
 content-type: reference
 topic-tags: landing-pages
@@ -9,14 +9,14 @@ feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 7083447c-4cac-41cb-8453-369819e0c7c1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '835'
 ht-degree: 15%
 
 ---
 
-# Administración de datos de formulario de una página de aterrizaje{#managing-landing-page-form-data}
+# Administración de datos de formulario de una página de destino{#managing-landing-page-form-data}
 
 En el contenido de la página de aterrizaje, los campos de entrada se utilizan para almacenar o actualizar datos de la base de datos de Campaign.
 
@@ -36,7 +36,7 @@ Para realizar esto, siga los pasos a continuación:
 
    >[!NOTE]
    >
-   >Los campos predeterminados de las páginas de aterrizaje integradas están preconfigurados. Puede modificarlos según sea necesario.
+   >Los campos predeterminados de las páginas de destino integradas están preconfigurados. Puede modificarlos según sea necesario.
 
 1. Acceda a la sección **[!UICONTROL Form data]** en la paleta izquierda.
 
@@ -76,17 +76,17 @@ Para realizar esto, siga los pasos a continuación:
 
 ## Almacenamiento y reconciliación de datos{#data-storage-and-reconciliation}
 
-Los parámetros de reconciliación de datos le permiten definir cómo se administran los datos introducidos en la página de aterrizaje una vez que los ha enviado un usuario.
+Los parámetros de reconciliación de datos le permiten definir cómo se administran los datos introducidos en la página de destino una vez que los ha enviado un usuario.
 
 Para ello:
 
-1. Edite las propiedades de página de aterrizaje a las que se accede mediante el icono ![](assets/edit_darkgrey-24px.png) del panel de página de aterrizaje y muestre los parámetros de **[!UICONTROL Job]**.
+1. Edite las propiedades de página de destino a las que se accede mediante el icono ![](assets/edit_darkgrey-24px.png) del panel de control de página de destino y muestre los parámetros de **[!UICONTROL Job]**.
 
    ![](assets/lp_parameters_job.png)
 
 1. Seleccione **[!UICONTROL Reconciliation key]**: este campo de base de datos se utiliza para determinar si el visitante tiene un perfil que ya se conoce en la base de datos de Adobe Campaign. Puede ser, por ejemplo, correo electrónico, nombre, apellidos. La clave de reconciliación le permite actualizar o crear un perfil, según el parámetro **[!UICONTROL Update strategy]** definido a continuación.
 
-1. Defina el **[!UICONTROL Form parameter mapping]**: esta sección le permite asignar los parámetros del campo de página de aterrizaje y los que se utilizan en la clave de reconciliación.
+1. Defina el **[!UICONTROL Form parameter mapping]**: esta sección le permite asignar los parámetros del campo de página de destino y los que se utilizan en la clave de reconciliación.
 
 1. Seleccione **[!UICONTROL Update strategy]**: si la clave de reconciliación recupera un perfil existente en la base de datos, puede elegir que este perfil se actualice con los datos introducidos en el formulario o evitar esta actualización.
 
@@ -156,9 +156,11 @@ Para insertar y configurar esta casilla de verificación, haga lo siguiente:
 
      ![](assets/lp_show_source.png)
 
-     <!--Manually insert a checkbox, such as in the example below:
+     <!--
+      Manually insert a checkbox, such as in the example below:
 
-      <!--Click **[!UICONTROL Hide source]**.-->
+      Click **[!UICONTROL Hide source]**.
+      -->
 
 1. Asegúrese de que la casilla de verificación esté seleccionada.
 

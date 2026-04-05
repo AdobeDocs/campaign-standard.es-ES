@@ -3,13 +3,13 @@ title: Seguimiento y monitorización de mensajes
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
+index: true
 description: Descubra cómo Adobe Campaign le permite realizar un seguimiento de los mensajes enviados y descubrir cómo reaccionan sus destinatarios a la entrega
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: dd3bd672-fb9d-4e82-bdf3-d319f372baaa
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 39%
@@ -38,13 +38,13 @@ Para obtener más información, consulte [Supervisión de una entrega](../../sen
 
 Para conocer mejor el comportamiento de los perfiles de destino, puede rastrear cómo reaccionan a un envío: recepción, apertura, clics en vínculos, suscripciones, etc. Consulte la pestaña **Registros de seguimiento** de la entrega.
 
-**Sugerencia**: El seguimiento de mensajes está activado de forma predeterminada. Para configurar direcciones URL, seleccione la opción Mostrar direcciones URL en la sección inferior del asistente de envíos. Por cada dirección URL del mensaje, puede elegir si desea activar el seguimiento.
+**Sugerencia**: El seguimiento de mensajes está habilitado de forma predeterminada. Para configurar direcciones URL, seleccione la opción Mostrar direcciones URL en la sección inferior del asistente de envíos. Por cada dirección URL del mensaje, puede elegir si desea activar el seguimiento.
 
 Para obtener más información, consulte la sección [Seguimiento de mensajes](../../sending/using/tracking-messages.md) y la descripción de [Indicadores de seguimiento](../../reporting/using/tracking-indicators.md).
 
 ## Informes dinámicos {#dyn-reports}
 
-Los informes dinámicos le permiten crear informes totalmente personalizables y en tiempo real para monitorizar sus campañas. Los Dimension, las métricas y las visualizaciones le permiten medir el impacto y el éxito de sus campañas en los destinatarios.
+Los informes dinámicos le permiten crear informes totalmente personalizables y en tiempo real para monitorizar sus campañas. Las dimensiones, métricas y visualizaciones le permiten medir el impacto y el éxito de sus campañas en los destinatarios.
 
 **Sugerencia**: Hay informes integrados disponibles para que supervise sus campañas, pero estos informes también se pueden personalizar arrastrando y soltando cualquier métrica o dimensión en el informe.
 
