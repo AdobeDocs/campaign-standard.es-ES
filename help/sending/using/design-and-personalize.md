@@ -50,7 +50,7 @@ Cuando cree sus correos electrónicos, tenga en cuenta las optimizaciones genera
 
 ### Línea de asunto
 
-Cree una [línea de asunto ](../../designing/using/subject-line.md) para mejorar las tasas de apertura:
+Cree una [línea de asunto &#x200B;](../../designing/using/subject-line.md) para mejorar las tasas de apertura:
 
 * Evite los asuntos demasiado largos. Utilice un máximo de 50 caracteres
 
