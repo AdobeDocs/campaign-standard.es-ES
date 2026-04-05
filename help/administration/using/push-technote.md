@@ -57,7 +57,7 @@ To check if you are impacted, you can filter your **Services and Subscriptions**
 
 * Si sigue utilizando esta versión heredada de SDK, debe actualizar la implementación con Adobe Experience Platform SDK. Obtenga información sobre cómo migrar a Adobe Experience Platform SDK en [este artículo](sdkv4-migration.md).
 
-* Asegúrese de tener el permiso **Configuración de aplicación móvil** en la recopilación de datos de Adobe Experience Platform Mobile antes de realizar los pasos siguientes. [Más información](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=en#adobe-experience-platform-data-collection-permissions){target="_blank"}.
+* Asegúrese de tener el permiso **Configuración de aplicación móvil** en la recopilación de datos de Adobe Experience Platform Mobile antes de realizar los pasos siguientes. [Más información](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=es#adobe-experience-platform-data-collection-permissions){target="_blank"}.
 
 
 #### Procedimiento de transición {#fcm-transition-steps}
