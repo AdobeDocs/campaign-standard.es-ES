@@ -10,8 +10,7 @@ role: Developer
 level: Experienced
 exl-id: f4fcf256-e030-4d7b-b4b7-2448acc2ae1c
 hide: true
-hidefromtoc: true
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 3%
@@ -32,21 +31,21 @@ El Conector de datos de Adobe Experience Platform está diseñado para **ingenie
 
 En las siguientes secciones se describen los pasos clave para realizar una asignación de datos entre Campaign Standard y Adobe Experience Platform. Esto comienza con la creación de un esquema XDM y un conjunto de datos.
 
-![](assets/do-not-localize/how-to-video.png) [Descubra esta funcionalidad en vídeo](#video)
+![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
 
 >[!NOTE]
 >Una vez configurado el conector de datos de Adobe Experience Platform y que los datos se han introducido correctamente en Adobe Experience Platform, debe habilitar el conjunto de datos para que los datos se incluyan en el perfil del cliente en tiempo real.
 >
 >Esto se puede realizar a través de las API o de la interfaz de Adobe Experience Platform. Para obtener más información, consulte la documentación específica:
 >
->* [Habilitar un conjunto de datos para el perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/datasets/dataset.html?lang=es)
->* [Configurar un conjunto de datos para el perfil del cliente en tiempo real y el servicio de identidad mediante API](https://experienceleague.adobe.com/docs/experience-platform/catalog/api/getting-started.html?lang=es)
+>* [Habilitar un conjunto de datos para el perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/datasets/dataset.html)
+>* [Configurar un conjunto de datos para el perfil del cliente en tiempo real y el servicio de identidad mediante API](https://experienceleague.adobe.com/docs/experience-platform/catalog/api/getting-started.html)
 
 ## Conceptos clave {#key-concepts}
 
 * La asignación predeterminada solo está disponible para campos que se proporcionan en Campaign Standard de forma predeterminada. Para ingerir todos los campos y recursos personalizados, cada cliente debe definir su propia asignación.
 
-* Adobe Experience Platform Data Connector insertará datos de perfil a través de la plataforma a intervalos regulares&#x200B; La duración del intervalo es de 15 minutos. Este valor se puede modificar mediante [API de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=es).
+* Adobe Experience Platform Data Connector insertará datos de perfil a través de la plataforma a intervalos regulares&#x200B; La duración del intervalo es de 15 minutos. Este valor se puede modificar mediante [API de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html).
 
 * El ingeniero de datos puede publicar, modificar y pausar la asignación de Campaign a Adobe Experience Platform.
 
@@ -70,7 +69,7 @@ En las siguientes secciones se describen los pasos clave para realizar una asign
 
 * No se admite la transferencia de eventos de suscripción de forma predeterminada. Para transferir eventos de suscripción, puede crear el XDM y el conjunto de datos correspondientes en Adobe Experience Platform y, a continuación, configurar una asignación de datos personalizada para estos datos.
 
-* En cuanto a las solicitudes de privacidad (tanto acciones de acceso como de eliminación), los clientes deben realizar solicitudes independientes a través del [Servicio principal de privacidad](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es#how-to-use-privacy-service-to-manage-privacy-job-requests): una para Campaign y otra para Adobe Experience Platform. Para obtener más información sobre esto, consulte [Acerca de las solicitudes de privacidad](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=es#getting-started) y [Administración de solicitudes de privacidad](https://helpx.adobe.com/es/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) en Campaign.
+* En cuanto a las solicitudes de privacidad (tanto acciones de acceso como de eliminación), los clientes deben realizar solicitudes independientes a través del [Servicio principal de privacidad](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests): una para Campaign y otra para Adobe Experience Platform. Para obtener más información sobre esto, consulte [Acerca de las solicitudes de privacidad](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=es#getting-started) y [Administración de solicitudes de privacidad](https://helpx.adobe.com/es/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) en Campaign.
 
 * Para cada campo XDM, el etiquetado DULE debe realizarse en Adobe Experience Platform. Es responsabilidad del cliente aplicar las etiquetas DULE.
 
@@ -82,6 +81,6 @@ En las siguientes secciones se describen los pasos clave para realizar una asign
 
 Este vídeo proporciona información general sobre el conector de datos de Adobe Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/34374?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=eng)
 
-Hay disponibles [más vídeos relacionados con el conector de datos de Adobe Experience Platform aquí](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html?lang=es).
+Hay disponibles [más vídeos relacionados con el conector de datos de Adobe Experience Platform aquí](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html).

@@ -10,8 +10,7 @@ role: Developer
 level: Experienced
 exl-id: 6383ddbe-922a-4363-a1da-166cf717b0dd
 hide: true
-hidefromtoc: true
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
@@ -22,7 +21,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->El conector de datos de Adobe Experience Platform se encuentra en la versión beta, por lo que puede estar sujeto a frecuentes actualizaciones sin previo aviso. Los clientes deben estar alojados en Azure (actualmente en fase beta solo para Norteamérica) para acceder a estas funciones. Si desea acceder, póngase en contacto con el Servicio de atención al cliente de Adobe.
+>El conector de datos de Adobe Experience Platform se encuentra en la versión beta, por lo que puede estar sujeto a frecuentes actualizaciones sin previo aviso. Los clientes deben estar alojados en Azure (actualmente en versión beta solo para Norteamérica) para acceder a estas funciones. Si desea acceder, póngase en contacto con el Servicio de atención al cliente de Adobe.
 
 En esta sección, descubrirá cómo asignar un campo de Campaign Standard con un campo de modelo de datos de experiencia (XDM).
 
@@ -44,7 +43,7 @@ Para realizar esta tarea, los requisitos previos son:
 
 >[!NOTE]
 >
->Para que se ingrese un lote en el perfil del cliente en tiempo real o en el servicio de identidad, el conjunto de datos debe estar [habilitado para el perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html?lang=es).
+>Para que se ingrese un lote en el perfil del cliente en tiempo real o en el servicio de identidad, el conjunto de datos debe estar [habilitado para el perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html).
 >
 >Si el conjunto de datos seleccionado ya se está utilizando en una asignación de datos existente, aparece una advertencia para informarle de que los datos pueden sobrescribirse en Adobe Experience Platform. Esto puede ocurrir cuando hay algunos destinatarios comunes en las asignaciones de datos que utilizan un mismo conjunto de datos.
 
@@ -64,7 +63,7 @@ Los recursos extendidos definidos en Campaign Standard se asignan como vínculos
 
 Puede personalizar la extensión XDM mediante la API y definir su propia extensión, lo que le permite un mejor control de la asignación.
 
-Consulte [Tutorial de API de Registro de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=es) para obtener más información sobre la API de XDM.
+Consulte [Tutorial de API de Registro de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) para obtener más información sobre la API de XDM.
 
 Para asignar un campo de enumeración, debe utilizar el editor de expresiones para definir cada valor de enumeración correspondiente al valor XDM. Por ejemplo, el campo postaladdress debe definirse como:
 

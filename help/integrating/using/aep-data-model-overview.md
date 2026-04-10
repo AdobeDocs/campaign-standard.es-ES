@@ -10,8 +10,7 @@ role: Developer
 level: Experienced
 exl-id: cc1aa669-30cd-4ea4-9fab-4d1b6c373744
 hide: true
-hidefromtoc: true
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%
@@ -22,7 +21,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->El conector de datos de Adobe Experience Platform se encuentra en la versión beta, por lo que puede estar sujeto a frecuentes actualizaciones sin previo aviso. Los clientes deben estar alojados en Azure (actualmente en fase beta solo para Norteamérica) para acceder a estas funciones. Si desea acceder, póngase en contacto con el Servicio de atención al cliente de Adobe.
+>El conector de datos de Adobe Experience Platform se encuentra en la versión beta, por lo que puede estar sujeto a frecuentes actualizaciones sin previo aviso. Los clientes deben estar alojados en Azure (actualmente en versión beta solo para Norteamérica) para acceder a estas funciones. Si desea acceder, póngase en contacto con el Servicio de atención al cliente de Adobe.
 
 Modelo de datos de experiencia (XDM) es un conjunto estándar de esquemas de datos en los que se pueden ingerir datos para utilizarlos con soluciones y productos de Adobe Experience Platform.
 
@@ -34,7 +33,7 @@ XDM Workspace permite ver, crear y ampliar esquemas de datos.
 
 Para acceder a la interfaz de usuario de XDM, abra Adobe Experience Platform. Acceda a la ventana Modelo de Datos para crear o ampliar un esquema XDM.
 
-Consulte la [documentación completa de XDM Workspace](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=es).
+Consulte la [documentación completa de XDM Workspace](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
 
 ![](assets/aep_xdmworkspace.png)
 
@@ -49,4 +48,4 @@ Puede realizar las siguientes acciones a través de la API de esquema XDM:
 * Ver descriptores de esquema
 * Crear, actualizar y eliminar descriptores de esquema
 
-Todos los detalles para manipular las llamadas API están disponibles en [Guía para desarrolladores](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=es).
+Todos los detalles para manipular las llamadas API están disponibles en [Guía para desarrolladores](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).

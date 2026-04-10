@@ -4,11 +4,10 @@ description: Esta página enumera todas las versiones de 2018 de Adobe Campaign 
 feature: Overview
 role: User
 level: Beginner
-hidefromtoc: true
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
-source-wordcount: '5386'
+source-wordcount: '5384'
 ht-degree: 6%
 
 ---
@@ -33,7 +32,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td> Integración de Adobe Launch para aplicaciones móviles (versión beta)<br /> </td> 
-   <td> La integración de Adobe Launch con Adobe Campaign ahora simplifica y automatiza el proceso de activación de la propiedad de la aplicación móvil en Campaign mediante el SDK V5 para móviles.<br /> Para obtener más información, consulte la <a href="https://helpx.adobe.com/es/campaign/kb/configuring-app-sdk.html">documentación detallada</a>.<br /> </td> 
+   <td> La integración de Adobe Launch con Adobe Campaign ahora simplifica y automatiza el proceso de activación de la propiedad de la aplicación móvil en Campaign con la versión 5 de SDK móvil.<br /> Para obtener más información, consulte la <a href="https://helpx.adobe.com/es/campaign/kb/configuring-app-sdk.html">documentación detallada</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,7 +52,7 @@ ht-degree: 6%
 
   Para obtener más información, consulte la [documentación detallada](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification).
 
-* Al seleccionar un bloque de contenido mediante la interfaz de Creative Designer, todos los bloques de contenido de la lista ahora se cargan y muestran. (CAMP-27311)
+* Al seleccionar un bloque de contenido mediante la interfaz de Designer de Creative, todos los bloques de contenido de la lista ahora se cargan y muestran. (CAMP-27311)
 
   Para obtener más información, consulte la [documentación detallada](../../designing/using/personalization.md#adding-a-content-block).
 
@@ -140,7 +139,7 @@ ht-degree: 6%
 * Se ha corregido un problema que podía provocar un mensaje de error al cancelar la edición de una regla de tipología de fatiga.
 * Se ha corregido un problema que se podía producir al obtener una vista previa del contenido de una entrega después de editarlo.
 * Se ha corregido un problema que se podía producir al procesar archivos zip CSV mientras se utilizaba la opción de descompresión.
-* Se ha corregido un problema en Creative Designer que provocaba fuentes de color y formato no deseados al cambiar algún texto con estilo integrado a un vínculo o al editar ese vínculo. (CAMP-26001)
+* Se ha corregido un problema en la Designer de Creative que provocaba fuentes de color y formato no deseados al cambiar algún texto con estilo integrado a un vínculo o al editar ese vínculo. (CAMP-26001)
 * Se ha corregido un problema que impedía que el informe de clic activo mostrara los porcentajes de cada condición en las entregas que contenían contenido dinámico. Anteriormente, solo se mostraban los clics en la variante predeterminada.
 
 ## Versión 18.6: junio de 2018 {#release-18-6---june-2018}
@@ -168,8 +167,8 @@ ht-degree: 6%
 * Se ha corregido un problema con los flujos de trabajo técnicos de **[!UICONTROL Privacy Access/Delete Request]**, que no se completaban si fallaba alguna de las solicitudes.
 * Se ha corregido un problema que impedía que el servicio principal de privacidad recibiera actualizaciones de estado de solicitud de Campaign.
 * Se ha corregido un problema que podía impedir que el flujo de trabajo técnico de **[!UICONTROL Import shared audience]** funcionara correctamente (CAMP -25465).
-* Se ha corregido un problema que impedía que las solicitudes de privacidad de Campaign se marcaran como completadas en el Privacy Service principal.
-* Se ha corregido un problema que podía impedir que algunos usuarios iniciaran sesión en el Campaign Standard a través de la autenticación IMS cuando el Adobe ID era demasiado largo. (CAMP-24095)
+* Se ha corregido un problema que impedía que las solicitudes de privacidad de Campaign se marcaran como completadas en la Privacy Service principal.
+* Se ha corregido un problema que podía impedir que algunos usuarios iniciaran sesión en Campaign Standard mediante la autenticación IMS cuando Adobe ID era demasiado largo. (CAMP-24095)
 * Se ha corregido un problema en Creative Designer que se podía producir al eliminar módulos de contenido. (CAMP-25242)
 * Se ha corregido un problema que se producía al utilizar reglas de fatiga de notificaciones push para suscriptores sin perfil en la base de datos. (CAMP-25344)
 * Se ha corregido un problema que podía mostrar un mensaje de error al acceder a los registros de exclusión de envíos. (CAMP-24724)
@@ -195,7 +194,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td> RGPD: Integración de servicios principales <br /> </td> 
-   <td> La integración de Privacy Core Service le permite automatizar sus solicitudes de RGPD en un contexto de varias soluciones a través de una sola llamada de API JSON. <br /> solicitudes de RGPD enviadas desde Privacy Core Service a todas las soluciones de Experience Cloud ahora son gestionadas automáticamente por Campaign. <br /> Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=es">documentación detallada</a>.<br /> </td> 
+   <td> La integración de Privacy Core Service le permite automatizar sus solicitudes de RGPD en un contexto de varias soluciones a través de una sola llamada de API JSON. <br /> solicitudes de RGPD enviadas desde Privacy Core Service a todas las soluciones de Experience Cloud ahora son gestionadas automáticamente por Campaign. <br /> Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Mejoras de push: comentarios detallados sobre la entrega<br /> </td> 
@@ -223,14 +222,14 @@ ht-degree: 6%
 **Otros cambios**
 
 * La actividad de flujo de trabajo Leer audiencia ahora puede leer audiencias de Experience Cloud. Anteriormente, esta actividad solo podía leer audiencias de Consulta y Lista. Consulte la [documentación detallada](../../automating/using/read-audience.md). (CAMP-23623)
-* El identificador de la fuente de datos compartida predeterminada ahora está en modo de solo lectura y ya no se puede cambiar. Si se cambia este identificador, podrían producirse algunos problemas al compartir audiencias con el Experience Cloud.
+* El identificador de la fuente de datos compartida predeterminada ahora está en modo de solo lectura y ya no se puede cambiar. Si se cambia este identificador, podrían producirse algunos problemas al compartir audiencias con Experience Cloud.
 * La importación de audiencias desde el Gestor de colaboradores ahora funciona con archivos divididos. Anteriormente, el último archivo del segmento se importó mediante el flujo de trabajo técnico Importar audiencia compartida.
 * Las cuentas externas de AWS S3 ahora admiten regiones y el mecanismo de autenticación de la versión 4. Consulte la [documentación detallada](../../administration/using/external-accounts.md).
 * La ventana de Selección de recursos ahora debe cargarse más rápido, permitir la selección de un recurso y salir de la ventana sin ningún problema.
 * Las propiedades y la estructura de los flujos de trabajo técnicos ahora pueden modificarlas los usuarios con derechos de administración y pertenecientes a las unidades organizativas y geográficas &quot;Todos&quot;.
 * Se han realizado mejoras en la interfaz de actividad de Segmentación al crear nuevos segmentos: La pestaña Limitación ahora aparece directamente después de añadir una limitación. Los nombres de los nuevos segmentos ahora se incrementan (&quot;Segmento 1&quot;, &quot;Segmento 2&quot;, etc.).
 * Se agrega un campo &quot;nextProcessingDate&quot; al recurso de flujo de trabajo. Este campo solo está visible a través de llamadas a la API de REST y le permite visualizar los flujos de trabajo en las próximas fechas de procesamiento.
-* El campo &quot;sourceId&quot; ahora se expone en el recurso de registros de seguimiento (nms:trackingLog).
+* El campo &quot;sourceId&quot; ahora está expuesto en el recurso de registros de seguimiento (nms:trackingLog).
 * Los valores &quot;Total opens&quot; y &quot;Total clicks&quot; ahora se pueden exportar en un archivo plano a través de un flujo de trabajo. (CAMP-24186)
 * &quot;Inglés - Danmark&quot; ya está disponible en la lista Idiomas preferidos en los perfiles. (CAMP-23728)
 * Al utilizar una actividad de Segmentación con un vínculo de Datos adicionales (targetData), un mensaje ahora le informa de que los datos no están disponibles fuera del flujo de trabajo. Este mensaje se muestra al hacer clic en el botón Recuento o Vista previa de la actividad Segmentación. (CAMP-23651)
@@ -250,7 +249,7 @@ ht-degree: 6%
 * Se ha corregido un problema que se producía al enviar envíos utilizados con la condición de idoneidad del bloque de contenido dinámico o de personalización mientras se utilizaban atributos de un esquema de perfil vinculado. (CAMP-22751)
 * Se ha corregido un problema que impedía eliminar servicios de. (CAMP-22050)
 * Se ha corregido un problema que impedía cambiar los valores de País o Estado en un perfil de Prueba. (CAMP-20426)
-* Se ha corregido un problema que podía impedir que Creative Designer se cargara. (CAMP-24573)
+* Se ha corregido un problema que podía impedir que se cargara Creative Designer. (CAMP-24573)
 * Se ha corregido un problema que eliminaba los caracteres añadidos después de los campos de personalización en el asunto del correo electrónico. (CAMP-24113)
 
 ## Versión 18.4: abril de 2018 {#release-18-4---april-2018}
@@ -297,17 +296,17 @@ _Recursos personalizados_
     <ul> 
      <li> Derecho de acceso: permite que el sujeto de datos reciba una copia de sus datos personales capturados por los controladores de datos, incluso los datos almacenados en Adobe Campaign. </li> 
      <li> Derecho a eliminación: autoriza al sujeto de datos a que sus datos personales recopilados por los controladores de datos se borren, lo que incluye datos almacenados en Adobe Campaign. </li> 
-    </ul> Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=es">documentación detallada</a>.<br /> </td> 
+    </ul> Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer para correo electrónico (Beta)<br /> </td> 
-   <td> El nuevo Creative Designer de Adobe Campaign ofrece una experiencia de creación totalmente integrada en Campaign, lo que permite la creación visual rápida y sencilla de correos electrónicos personalizados y cautivadores sin necesidad de crear una sola línea de código. A través de su potente interfaz de arrastrar y soltar, Creative Designer ayuda a escalar la creación de correos electrónicos tanto si los usuarios comienzan desde una pizarra en blanco como si aprovechan los fragmentos o plantillas de contenido existentes. <br /> Las funcionalidades clave incluyen:<br /> 
+   <td> El nuevo Creative Designer de Adobe Campaign ofrece una experiencia de creación totalmente integrada en Campaign, lo que permite crear correos electrónicos personalizados, cautivadores y personalizados de forma rápida y sencilla sin necesidad de crear una línea de código única. A través de su potente interfaz de arrastrar y soltar, Creative Designer ayuda a escalar la creación de correos electrónicos tanto si los usuarios comienzan desde una pizarra en blanco como si aprovechan los fragmentos de contenido o las plantillas existentes. <br /> Las funcionalidades clave incluyen:<br /> 
     <ul> 
-     <li> Diseñe y cree correos electrónicos adaptables y totalmente personalizados con una interfaz de arrastrar y soltar, aumentada por integraciones de Creative Cloud nativos </li> 
+     <li> Diseñe y cree correos electrónicos adaptables y totalmente personalizados con una interfaz de arrastrar y soltar, aumentada por integraciones nativas de Creative Cloud </li> 
      <li> Cree y guarde una plantilla de contenido de correo electrónico, y aproveche las plantillas guardadas para escalar la creación de correo electrónico </li> 
-     <li> Crear y guardar fragmentos de contenido (como un encabezado, pie de página, artículo, etc.) para optimizar la creación de contenido y garantizar la coherencia de la marca </li> 
+     <li> Cree y guarde fragmentos de contenido (como un encabezado, pie de página, artículo, etc.) para optimizar la creación de contenido y garantizar la coherencia de la marca </li> 
      <li> Cambie fácilmente entre crear en la interfaz de arrastrar y soltar y editar directamente el HTML de un correo electrónico haciendo clic en un botón </li> 
-    </ul> Creative Designer para correo electrónico solo está disponible en inglés.<br /> Para obtener más información, consulte la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentación detallada</a> y vea este <a href="https://www.youtube.com/watch?time_continue=1&v=5S_6A4fsfms">vídeo</a>.<br /> </td> 
+    </ul> Creative Designer para correo electrónico solo está disponible en inglés.<br /> Para obtener más información, consulte la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentación detallada</a> y vea este <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">vídeo</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Entregas push multilingües<br /> </td> 
@@ -359,7 +358,7 @@ _Flujos de trabajo_
 _Integraciones_
 
 * Se ha corregido un problema que impedía que los caracteres internacionales se enviaran correctamente a Adobe Analytics.
-* Assets debería cargarse más rápido al intentar insertar una imagen de la biblioteca de recursos del Experience Cloud en un mensaje.
+* Assets debería cargarse más rápido al intentar insertar una imagen de la biblioteca de recursos de Experience Cloud en un mensaje.
 * Se ha corregido un problema que podía impedir que se cerrara la ventana de selección de recursos en algunos casos.
 * Desde los detalles de una fuente de datos, ahora puede acceder directamente a su flujo de trabajo relacionado para comprobar el estado del flujo de trabajo.
 * Ahora puede actualizar el esquema de Déclencheur directamente al definir o editar un evento de déclencheur. Con este cambio, ya no tiene que cancelar la publicación del déclencheur y crear otro.
@@ -396,7 +395,7 @@ _Mensajes transaccionales_
 
 _Plataforma_
 
-* La barra superior de la interfaz de Adobe Campaign se ha actualizado con el nuevo menú del Experience Cloud.
+* La barra superior de la interfaz de Adobe Campaign se ha actualizado con el nuevo menú de Experience Cloud.
 * Se ha corregido un problema que impedía que se mostrara el vínculo a **[!UICONTROL Offers]** en la lista desplegable de soluciones.
 
 _Correos electrónicos, mensajes SMS y correo directo_
@@ -447,7 +446,7 @@ Pueden producirse algunos problemas al utilizar vínculos de ayuda contextual de
  <tbody> 
   <tr> 
    <td> Informes para la administración de fatiga<br /> </td> 
-   <td> Informes para la administración de la fatiga es un informe dedicado y configurable que muestra el impacto que las reglas de fatiga tienen en las entregas en los canales de correo electrónico, push, SMS y correo directo dentro de un intervalo de fechas especificado antes de la entrega. Con la perspectiva añadida de poder ver rápidamente todas las campañas en conflicto en una sola vista, los especialistas en marketing pueden planificar campañas de marketing según las reglas de fatiga de forma más eficaz y priorizar las comunicaciones.<br /> Para obtener más información, consulte la <a href="../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report">documentación detallada</a>.<br /> </td> 
+   <td> Informes para la administración de la fatiga es un informe dedicado y configurable que muestra el impacto que las reglas de fatiga tienen en las entregas en los canales de correo electrónico, push, SMS y correo directo dentro de un intervalo de fechas especificado antes de la entrega. Con el insight añadido de poder ver rápidamente todas las campañas en conflicto en una sola vista, los especialistas en marketing pueden planificar campañas de marketing según las reglas de fatiga de forma más eficaz y priorizar las comunicaciones.<br /> Para obtener más información, consulte la <a href="../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Compartir informes<br /> </td> 
@@ -461,7 +460,7 @@ Pueden producirse algunos problemas al utilizar vínculos de ayuda contextual de
      <li> descargar imágenes u otros archivos multimedia y añadirlos como archivos adjuntos a una notificación </li> 
      <li> cambiar el texto del cuerpo o del título de una notificación </li> 
      <li> añadir un identificador de subproceso a una notificación </li> 
-    </ul> Para obtener más información sobre contenido disponible y contenido mutable, consulte la <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">documentación detallada</a>.<br /> <strong>Advertencia:</strong> estas actualizaciones en las notificaciones push requieren que los clientes actualicen sus aplicaciones móviles. Consulte <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html?lang=es">esta nota técnica</a> para obtener más información.<br /> </td> 
+    </ul> Para obtener más información sobre contenido disponible y contenido mutable, consulte la <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">documentación detallada</a>.<br /> <strong>Advertencia:</strong> estas actualizaciones en las notificaciones push requieren que los clientes actualicen sus aplicaciones móviles. Consulte <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html">esta nota técnica</a> para obtener más información.<br /> </td> 
   </tr> 
   <tr> 
    <td> Entregas optimizadas para husos horarios<br /> </td> 

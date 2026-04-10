@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: Documentación del producto de Adobe Campaign Standard.
 title: Guía de Campaign Standard
 breadcrumb-title: Documentación de Campaign Standard
-source-git-commit: 4df02bb5bbac105057a33d61a7158482bbc48a53
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
 source-wordcount: '1754'
-ht-degree: 90%
+ht-degree: 89%
 
 ---
 
@@ -22,15 +22,15 @@ ht-degree: 90%
       + [2024](rn/using/release-notes-2024.md)
       + [2023](rn/using/release-notes-2023.md)
       + [2022](rn/using/release-notes-2022.md)
-      + [2021](rn/using/release-notes-2021.md)
-      + [2020](rn/using/release-notes-2020.md)
-      + [2019](rn/using/release-notes-2019.md)
-      + [2018](rn/using/release-notes-2018.md)
-      + [2017](rn/using/release-notes-2017.md)
+      + {hide-from-toc}[2021](rn/using/release-notes-2021.md)
+      + {hide-from-toc}[2020](rn/using/release-notes-2020.md)
+      + {hide-from-toc}[2019](rn/using/release-notes-2019.md)
+      + {hide-from-toc}[2018](rn/using/release-notes-2018.md)
+      + {hide-from-toc}[2017](rn/using/release-notes-2017.md)
    + [Planificación de versiones](rn/using/release-planning.md)
    + [Funciones obsoletas](rn/using/deprecated-features.md)
-   + [Problema de firma de direcciones URL rastreadas](rn/using/tracked-urls.md)
-   + [Últimas actualizaciones de la documentación](rn/using/documentation-updates.md)
+   + {hide-from-toc}[Problema de firma de URL rastreadas](rn/using/tracked-urls.md)
+   + {hide-from-toc}[Últimas actualizaciones de la documentación](rn/using/documentation-updates.md)
 + Primeros pasos {#getting-started}
    + [Acerca de Adobe Campaign Standard](start/using/about-campaign-standard.md)
    + Descubrimiento de la interfaz {#discovering-the-interface}
@@ -48,7 +48,7 @@ ht-degree: 90%
       + [Administración de la privacidad](start/using/privacy-management.md)
       + [Solicitudes de privacidad](start/using/privacy-requests.md)
       + [Preguntas frecuentes sobre privacidad](start/using/privacy-faq.md)
-   + [Opciones de ayuda y asistencia](support.md)
+   + {hide-from-toc}[Opciones de ayuda y asistencia](support.md)
 + Perfiles y públicos {#profiles-and-audiences}
    + [Introducción a perfiles y públicos](audiences/using/get-started-profiles-and-audiences.md)
    + Administración de perfiles {#managing-profiles}
@@ -437,7 +437,7 @@ ht-degree: 90%
    + Configuración de canales {#configuring-channels}
       + [Acerca de la configuración de canales](administration/using/about-channel-configuration.md)
       + [Configuración de canales de correo electrónico](administration/using/configuring-email-channel.md)
-      + [Actualización de la calificación de devoluciones después de una interrupción del ISP](administration/using/update-bounce-qualification.md)
+      + {hide-from-toc}[Actualizar calificación de rebote después de una interrupción del ISP](administration/using/update-bounce-qualification.md)
       + [Configuración de una aplicación móvil](administration/using/configuring-a-mobile-application.md)
    + Configuración de canales móviles {#configuring-mobile}
       + [Implementación del seguimiento push](administration/using/push-tracking.md)
