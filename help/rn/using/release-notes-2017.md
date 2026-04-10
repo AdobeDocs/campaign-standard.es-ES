@@ -4,9 +4,8 @@ description: Esta página enumera todas las versiones de 2017 de Adobe Campaign 
 feature: Overview
 role: User
 level: Beginner
-hidefromtoc: true
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
 source-wordcount: '4572'
 ht-degree: 5%
@@ -46,7 +45,7 @@ _Plataforma_
 * Se ha mejorado la seguridad en la gestión de marcas. La modificación del nombre y la dirección del remitente de una marca ahora está reservada para los administradores técnicos de Adobe.
 * Para mejorar la seguridad, el contenido generado por el usuario (imágenes, páginas espejo, páginas de aterrizaje, etc.) ya no se puede servir en el dominio adobe.com. Ahora es obligatorio que utilice su propio dominio para administrar estos recursos, a través del uso de la marca.
 * Se ha corregido un problema de la interfaz al mostrar y filtrar actividades de marketing.
-* Se ha corregido un problema que impedía que los campos de fecha de suscripción se actualizaran con una llamada de API de REST de POST.
+* Se ha corregido un problema que impedía que los campos de fecha de suscripción se actualizaran con una llamada de API POST Rest.
 
 _Correos electrónicos, mensajes SMS y correo directo_
 
@@ -303,7 +302,7 @@ _Notificaciones push_
  <tbody> 
   <tr> 
    <td> Funciones mejoradas de edición de imágenes con Creative SDK<br /> </td> 
-   <td> Ahora tiene acceso a un conjunto completo de funciones con el SDK de Creative para mejorar sus imágenes directamente en el editor de contenido al editar correos electrónicos o páginas de aterrizaje.<br /> Esta característica no requiere la adquisición de soluciones de Creative Cloud adicionales.<br /> Para obtener más información, consulte la <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">documentación detallada</a>.<br /> </td> 
+   <td> Ahora tiene acceso a un conjunto completo de funciones con tecnología Creative SDK para mejorar sus imágenes directamente en el editor de contenido al editar correos electrónicos o páginas de aterrizaje.<br /> Esta característica no requiere la adquisición de soluciones de Creative Cloud adicionales.<br /> Para obtener más información, consulte la <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Notificaciones push transaccionales<br /> </td> 
@@ -343,7 +342,7 @@ _Mensajes transaccionales_
 
 * El campo rtEventHistoId ya no se expone como campo de personalización en una plantilla de mensaje transaccional.
 
-_Páginas de aterrizaje_
+_Páginas de destino_
 
 * Hemos optimizado el filtro **[!UICONTROL by email]** utilizado en las páginas de aterrizaje para reconciliar nuevos suscriptores con perfiles de base de datos.
 * Se ha corregido un problema que mostraba entradas de texto libre en lugar de casillas de verificación al utilizar campos booleanos en una configuración de formulario.
@@ -392,7 +391,7 @@ _Notificaciones push_
   </tr> 
   <tr> 
    <td> Integración de Dreamweaver (Labs)<br /> </td> 
-   <td> Con la integración de Adobe Campaign y Dreamweaver, ahora tiene un proceso integrado para crear campañas de correo electrónico con soluciones de Adobe.<br /> Puede editar correos electrónicos de Adobe Campaign en Dreamweaver y hacer que el contenido se sincronice perfectamente entre ambas soluciones.<br /> En la versión inicial, la integración está disponible como característica de "Labs" y solo funciona con Beta de la versión preliminar de Dreamweaver. Si desea activarlo, póngase en contacto con AC-DW-integration@adobe.com.<br /> Para obtener más información, consulte este <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=es">vídeo</a>.<br /> </td> 
+   <td> Con la integración de Adobe Campaign y Dreamweaver, ahora tiene un proceso integrado para crear campañas de correo electrónico con las soluciones de Adobe.<br /> Puede editar correos electrónicos de Adobe Campaign en Dreamweaver y hacer que el contenido se sincronice perfectamente entre ambas soluciones.<br /> En la versión inicial, la integración está disponible como característica de "Labs" y solo funciona con Beta de la versión preliminar de Dreamweaver. Si desea activarlo, póngase en contacto con AC-DW-integration@adobe.com.<br /> Para obtener más información, consulte este <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=es">vídeo</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Optimización del tiempo de envío manual<br /> </td> 
@@ -448,7 +447,7 @@ _Correos electrónicos y mensajes SMS_
 * Se ha corregido un problema que podía impedir la cancelación de la publicación de correos electrónicos transaccionales.
 * Se ha corregido un problema en el cual el contenido no se podía sincronizar correctamente con los cambios más recientes antes de previsualizar una entrega.
 
-_Páginas de aterrizaje_
+_Páginas de destino_
 
 * Se ha corregido un error que impedía que un usuario editara al hacer clic en el contenido de una página de aterrizaje.
 
@@ -510,7 +509,7 @@ _General_
 
 _Correos electrónicos y mensajes SMS_
 
-* Se ha corregido un problema relativo a las plantillas de envío con contenido de HTML que contenía un
+* Se ha corregido un problema relativo a las plantillas de envío con contenido de HTML que contiene una
 
 _Notificaciones push_
 
@@ -530,5 +529,5 @@ _Flujos de trabajo_
 _Integraciones_
 
 * Se ha corregido un problema que podría haber provocado un error al implementar un déclencheur de eventos en Adobe Campaign. Este error se producía cuando se habían agregado los metadatos &quot;Probabilidad de retorno en 30 días&quot; al déclencheur de abandono en Adobe Marketing Cloud.
-* Se ha corregido un problema que podía hacer que el flujo de trabajo técnico borrara el campo Dimension de destinatario al importar audiencias desde el servicio principal Personas. Las consultas posteriores no pudieron recuperar las audiencias importadas.
+* Se ha corregido un problema que podía hacer que el flujo de trabajo técnico borrara el campo Target Dimension al importar audiencias desde el servicio principal Personas. Las consultas posteriores no pudieron recuperar las audiencias importadas.
 * Se ha corregido un problema que podría haber causado un error en la actividad **[!UICONTROL Save audience]** de un flujo de trabajo al marcar la opción **[!UICONTROL Share in Adobe Marketing Cloud]**.

@@ -7,9 +7,8 @@ topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
-hidefromtoc: true
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
 source-wordcount: '5267'
 ht-degree: 97%
@@ -34,7 +33,7 @@ ht-degree: 97%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>Ahora puede utilizar <strong>Grupos de control</strong> para medir el impacto de sus campañas al excluir una parte de su audiencia. A continuación, podrá comparar el comportamiento de la población de destinatarios que recibió el mensaje con el comportamiento de los contactos a los que no estaban destinados. En función de los registros de envío, también puede destinar un grupo de control en campañas futuras.
+  <td> <p>Ahora puede utilizar <strong>Grupos de control</strong> para medir el impacto de sus campañas al excluir una parte de su público. A continuación, podrá comparar el comportamiento de la población de destinatarios que recibió el mensaje con el comportamiento de los contactos a los que no estaban destinados. En función de los registros de envío, también puede destinar un grupo de control en campañas futuras.
 </p>
 <p>Para obtener más información, consulte la <a href="../../sending/using/control-group.md">documentación detallada</a> y el <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html?lang=es">videotutorial</a>.
 </p>
@@ -108,7 +107,7 @@ ht-degree: 97%
 
 **Otros cambios**
 
-* Se han agregado mecanismos de reintento en caso de error al intentar importar una audiencia de Experience Platform mediante una actividad de **audiencia de lectura**. (CAMP-43947, CAMP-43366)
+* Se han agregado mecanismos de reintento en caso de error al intentar importar un público de Experience Platform mediante una actividad de **público de lectura**. (CAMP-43947, CAMP-43366)
 * Las unidades organizativas ahora se configuran automáticamente para que coincidan con la unidad organizativa del usuario que crea el perfil o la entidad. Las unidades organizativas ya no se pueden eliminar y dejar vacías.
 * Al publicar un recurso personalizado, ahora se muestra una ventana emergente de confirmación después de la preparación.
 * Se ha mejorado el mensaje emergente que aparece cuando falla un recurso personalizado para una mejor claridad.
@@ -116,7 +115,7 @@ ht-degree: 97%
 * [Se han agregado nuevos filtros a la lista de eventos transaccionales. &#x200B;](../../channels/using/configuring-transactional-event.md#searching-transactional-events) Permiten filtrar las configuraciones de evento según su estado, así como la última vez que se recibió un evento.
 * Los registros que se muestran al exportar los paquetes son más específicos y detallados sobre los errores encontrados en caso de error.
 * Después de enviar un mensaje, ahora puede buscar, filtrar y exportar la lista de [direcciones URL rastreadas](../../sending/using/tracking-messages.md).
-* La [sincronización automática entre Experience Platform Launch y Campaign](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) ahora es GA y está activada de forma predeterminada.
+* La [sincronización automática entre Experience Platform Launch y Campaign](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) ahora es GA y está habilitada de forma predeterminada.
 * Se ha optimizado el tamaño de los paquetes de exportación de flujo de trabajo eliminando la exportación de envío de pruebas.
 * Se ha agregado un nuevo mensaje para mostrar el tamaño del archivo descargado en la actividad de **transferencia de archivos**.
 * Se han mejorado los mensajes de error para tokens de sesión no válidos.
@@ -134,7 +133,7 @@ ht-degree: 97%
 * Se ha corregido un problema que podía impedir que asignara marcas a un correo electrónico transaccional. Durante el paso de publicación se muestran varios mensajes de error. (CAMP-44988)
 * Se ha corregido un problema en la interfaz de usuario del flujo de trabajo que impedía guardar información en campos que solicitaban valores numéricos. (CAMP-44025)
 * Se ha corregido un problema que podía mostrar un mensaje de error al usar una **actividad de prueba** en un flujo de trabajo de plantilla de importación. (CAMP-42910)
-* Se ha corregido un problema que se producía al usar una actividad de **audiencia de lectura** que contenía un campo de tipo de lista desglosada y se conectaba a actividades de **Unión** o **Enriquecimiento**. (CAMP-42795)
+* Se ha corregido un problema que se producía al usar una actividad de **público de lectura** que contenía un campo de tipo de lista desglosada y se conectaba a actividades de **Unión** o **Enriquecimiento**. (CAMP-42795)
 * Se ha corregido un problema en los informes dinámicos al usar los segmentos predeterminados para filtrar datos en los informes. (CAMP-42627)
 * Se ha corregido un problema que impedía establecer una actividad de **Planificador** en 12 de la mañana. (CAMP-42674)
 * Se ha corregido un problema que podía interrumpir el envío de mensajes SMS cuando la conexión SMPP era inestable. (CAMP-42789)
@@ -142,7 +141,7 @@ ht-degree: 97%
 * Se ha corregido un problema que impedía que se mostraran los porcentajes de los informes de clics interactivos al importar contenido desde una dirección URL. (CAMP-44468)
 * Se ha corregido un problema que podía mostrar un error de tiempo de espera al seleccionar un perfil para utilizarlo en el contexto de la sustitución de perfiles. (CAMP-44746)
 * Se ha corregido un problema que podía impedir que las instancias funcionaran después de implementar recursos personalizados con definiciones de vínculos incorrectas. (CAMP-44406)
-* Se ha corregido un problema que creaba entidades vinculadas vacías (tipologías, marcas, etc.) después de copiar y pegar un envío en una plantilla de campaña. (CAMP-44765)
+* Se ha corregido un problema que creaba entidades vinculadas vacías (tipologías, marcas, etc.) después de copiar y pegar una entrega en una plantilla de campaña. (CAMP-44765)
 * Se ha corregido un problema que impedía que se enviaran pruebas debido a un manejo incorrecto de las tablas de preparación de envíos en caso de que se bloqueara o se reiniciara la base de datos de Azure.
 * Se ha corregido un problema que podía impedir la eliminación de vínculos del contenido de Experience Manager en un envío configurado con contenido multilingüe. (CAMP-44029)
 * Se ha corregido un problema en los informes dinámicos que podía mostrar un mensaje de error al intentar filtrar las dimensiones.  (CAMP-43097)
@@ -155,13 +154,13 @@ ht-degree: 97%
 * Se ha corregido un problema al importar paquetes, incluidos eventos transaccionales y plantillas de mensajes. El proceso de importación se detuvo al 5%. (CAMP-42544)
 * Se ha corregido un problema que provocaba un error (TypeError no capturado) tras modificar la actividad de **Enriquecimiento** y agregar datos adicionales en un flujo de trabajo. (CAMP-41877)
 * Se ha corregido un error que impedía la eliminación del flujo de trabajo. Los registros tuvieron que purgarse para eliminar el flujo de trabajo. (CAMP-44144)
-* Se ha corregido un error al crear una página de aterrizaje con código HTML. Las casillas de verificación obligatorias no se reconocieron en Campaign y no estaban disponibles en la página de aterrizaje publicada. (CAMP-44181)
+* Se ha corregido un error al crear una página de destino con código HTML. Las casillas de verificación obligatorias no se reconocieron en Campaign y no estaban disponibles en la página de destino publicada. (CAMP-44181)
 * Se ha corregido un problema que provocaba que los flujos de trabajo se reprodujeran al usar una actividad de **espera**. (CAMP-43981)
 * Se ha corregido un problema al enviar mensajes transaccionales que hacía que varias direcciones de correo electrónico se dirigieran varias veces a un mismo envío. (CAMP-44202)
 * Se ha corregido un error al usar la sustitución de perfiles con la personalización targetData. (CAMP-44996)
 * Se ha corregido un problema que ocasionaba que la previsualización del envío fallara al exportar una plantilla de envíos en un paquete. (CAMP-44084)
 * Se ha corregido un problema que impedía que se enviaran pruebas a perfiles de prueba al usar asignaciones de destino personalizadas. (CAMP-43701)
-* Se ha corregido un error que se producía en los flujos de trabajo al usar la actividad **Leer Audiencia** y al segmentar una audiencia configurada con una dimensión de segmentación distinta a **Perfil**.  (CAMP-41885)
+* Se ha corregido un error que se producía en los flujos de trabajo al usar la actividad **Leer Público** y al segmentar un público configurado con una dimensión de segmentación distinta a **Perfil**.  (CAMP-41885)
 * Se ha corregido un problema que provocaba errores cuando el flujo de trabajo técnico **updateEventsStatus** tardaba demasiado en recuperar el historial de eventos (cuando se detuvo el flujo de trabajo). El campo acumulado “sumQueueTime” no utilizado se ha eliminado del flujo de trabajo para resolver el problema. (CAMP-43920)
 * Se ha corregido un problema de memoria al implementar recursos personalizados. (CAMP-42909)
 * Se ha corregido el problema de los mensajes transaccionales de falta de atributos en las colecciones. Ahora todos los atributos que faltan se definen con un valor predeterminado y se incluyen en la carga útil. (CAMP-42882)
@@ -182,7 +181,7 @@ ht-degree: 97%
 * Se ha corregido un problema que provocaba errores de Memoria insuficiente al importar un paquete.
 * Se ha corregido un problema que ocasionaba que la acción de desvinculación de Experience Manager fallara cuando el contenido incluía una ruta con el carácter “%20”.
 * Se ha corregido un error en las etiquetas al duplicar las actividades de flujo de trabajo.
-* Se ha corregido un problema con el selector de mensajes transaccionales en una página de aterrizaje cuando se seleccionaba la opción de **mensaje de envío de Inicio**.
+* Se ha corregido un problema con el selector de mensajes transaccionales en una página de destino cuando se seleccionaba la opción de **mensaje de envío de Inicio**.
 * Se ha corregido un problema con los mensajes transaccionales o envíos recurrentes que impedía que el estado del envío se inicializara con el valor predeterminado correcto. También se han mejorado los registros de los errores.
 * Se ha corregido un problema al ampliar la **Suscripción a un esquema de aplicación** (appSubscriptionRcp) con un vínculo de perfil mediante un campo personalizado. El índice no se creó automáticamente, lo que podría afectar al tiempo de envío de notificaciones push. (CAMP-41120)
 
@@ -250,7 +249,7 @@ ht-degree: 97%
 
 * El diseñador de correo electrónico ahora puede gestionar un formato HTML más flexible que W3C estricto. (CAMP-42529)
 * Se ha corregido un problema con las [imágenes en las que se puede hacer clic](../../designing/using/links.md#inserting-a-link) para evitar que se muestren vínculos junto a la imagen en bloques de contenido. (CAMP-41586)
-* Se ha corregido un problema que impedía la redirección a una página de aterrizaje cuando la dirección [URL rastreada](../../designing/using/links.md#about-tracked-urls) tenía una categoría añadida en la plantilla. (CAMP-41537)
+* Se ha corregido un problema que impedía la redirección a una página de destino cuando la dirección [URL rastreada](../../designing/using/links.md#about-tracked-urls) tenía una categoría añadida en la plantilla. (CAMP-41537)
 * Se ha corregido un problema con el relleno de botones en Outlook.
 * Se ha corregido un problema que provocaba que las etiquetas HTML aparecieran en texto sin formato.
 * La búsqueda de bloques de contenido ahora muestra resultados de búsqueda del servidor, así como resultados precargados. (CAMP-41870)
@@ -260,31 +259,31 @@ ht-degree: 97%
 * La interfaz de publicación de recursos personalizada se ha mejorado con mensajes de error más claros.
 * Las asignaciones de envío no utilizadas se han eliminado de la interfaz.
 * Se han eliminado funciones de administrador innecesarias de la interfaz.
-* Ahora las casillas de verificación pueden ser obligatorias en una página de aterrizaje.
+* Ahora las casillas de verificación pueden ser obligatorias en una página de destino.
 * Al descargar el archivo CSV de un informe dinámico, se ha eliminado el límite de 200 filas. Ahora puede incluir cada fila del informe. (CAMP-40810)
 * Se ha añadido el lenguaje ES-US a la lista de idiomas predeterminados para correos electrónicos multilingües. (CAMP-42279)
 * Los archivos descargados con una actividad Transferir archivo ahora se eliminarán después de X días, donde X se determina con el campo **Historial en días** en el menú **Ejecución** de las propiedades Flujo de trabajo. [Más información](../../automating/using/managing-execution-options.md)
 
 **Integraciones de Experience Platform**
 
-* Se ha mejorado la activación de audiencias de Adobe Experience Platform desde la actividad **Leer audiencia** para proporcionar un mejor rendimiento y estabilidad. Además, los registros de flujo de trabajo se han simplificado para añadir claridad y detallado con respecto a los trabajos de activación, lo que facilita la monitorización y la resolución de problemas al leer audiencias de Adobe Experience Platform.
+* Se ha mejorado la activación de audiencias de Adobe Experience Platform desde la actividad **Leer audiencia** para proporcionar un mejor rendimiento y estabilidad. Además, los registros de flujo de trabajo se han simplificado para añadir claridad y detallado con respecto a los trabajos de activación, lo que facilita la monitorización y la resolución de problemas al leer públicos de Adobe Experience Platform.
 
 **Parches**
 
 * Se ha corregido un error que hacía que se creara un recurso fantasma durante el trabajo de publicación de un recurso personalizado.
 * Se ha corregido un problema que podía impedir que se mostrara el Historial de marketing de los perfiles si el recurso Perfil se ampliaba con un recurso personalizado. (CAMP-41009)
-* Se ha corregido un problema con las plantillas de la página de aterrizaje integradas que mostraban su contenido en francés al abrir el editor. (CAMP-41639)
+* Se ha corregido un problema con las plantillas de la página de destino integradas que mostraban su contenido en francés al abrir el editor. (CAMP-41639)
 * Se ha corregido un problema en las notificaciones push con contenido dinámico que podía impedir que se mostraran emojis. (CAMP-40715)
 * Se ha corregido un problema con la actividad **Deduplicación** que podía hacer que se asignara un código de segmento incorrecto a una de las transiciones de complemento salientes. (CAMP-41400)
 * Se ha corregido un error que impedía que se eliminaran informes programados. (CAMP-41302)
-* Se ha corregido un problema que provocaba discrepancias entre el panel de envíos y el informe **Resumen de envíos**. (CAMP-41145)
+* Se ha corregido un problema que provocaba discrepancias entre el panel de control de envíos y el informe **Resumen de envíos**. (CAMP-41145)
 * Se ha corregido un problema que provocaba un problema de visualización de superposición de caracteres en informes descargados.
 * Se ha corregido un problema que impedía que la previsualización de un envío funcionara para la sustitución de pruebas.
 * Se ha corregido un error al eliminar campos personalizados de una notificación local en la aplicación.
 * Se ha corregido un problema que impedía que la función charIndex funcionara con una actividad **Fin** o **Transferir archivo** en un flujo de trabajo.
 * Se ha corregido un problema con flujos de trabajo que se podía producir al usar una actividad de **Enriquecimiento** con dos actividades de entrada, incluidos los recursos de destinatario que tenían un vínculo entre ellos. (CAMP-42133)
 * Se ha corregido un problema que podía impedir que se ejecutara un flujo de trabajo al usar funciones desconocidas. (CAMP-41873)
-* Se ha corregido un problema con flujos de trabajo que se podía producir al crear audiencias con varias actividades **Guardar audiencia** con transiciones salientes complementarias. (CAMP-39992)
+* Se ha corregido un problema con flujos de trabajo que se podía producir al crear públicos con varias actividades **Guardar público** con transiciones salientes complementarias. (CAMP-39992)
 * Se ha corregido un problema que provocaba discrepancias en los datos al utilizar la personalización en correos electrónicos transaccionales. (CAMP-41842)
 * Se han corregido problemas que se producían al eliminar campos personalizados en envíos de notificaciones push. (CAMP-37586)
 * Se ha corregido un error que impedía a los usuarios realizar cambios en los informes. (CAMP-42505)
@@ -347,7 +346,7 @@ ht-degree: 97%
 * Se ha corregido un problema que provocaba que las etiquetas HTML se mostraran en el correo electrónico después de cambiar del contenido HTML a texto sin formato. (CAMP-41138)
 * Se ha corregido un problema que impedía procesar botones con un solo borde definido.
 * Se ha corregido un problema en la sangría HTML que provocaba que el pie de página de los correos electrónicos se moviera hacia la izquierda en Microsoft Outlook. (CAMP-40987)
-* Se ha corregido un problema que provocaba que los campos de personalización dirigidos a un atributo de recopilación definido en HTML se copiaran en el contenido de texto sin formato al cambiar al modo de texto sin formato. (CAMP-40365)
+* Se ha corregido un problema que provocaba que los campos de personalización segmentados a un atributo de recopilación definido en HTML se copiaran en el contenido de texto sin formato al cambiar al modo de texto sin formato. (CAMP-40365)
 * Se ha corregido un problema que impedía que los vínculos se insertaran en un segmento de texto seleccionado. (CAMP-41406)
 * Se ha corregido un problema que provocaba que la fecha se modificara al seleccionar una zona horaria en el editor de consultas. (CAMP-38277)
 
@@ -379,7 +378,7 @@ ht-degree: 97%
 
 ## Versión 20.1.4: febrero de 2020 {#release-20-1-4---february-2020}
 
-* Se ha corregido un problema al activar la opción **Leer audiencia** en flujos de trabajo existentes. (CAMP-41002)
+* Se ha corregido un problema al activar la opción **Leer público** en flujos de trabajo existentes. (CAMP-41002)
 
 ## Versión 20.1.3: febrero de 2020 {#release-20-1-3---february-2020}
 
@@ -407,7 +406,7 @@ ht-degree: 97%
  <tbody> 
   <tr> 
    <td> <p>Ahora, Adobe Experience Platform Data Connector está integrado con Adobe Campaign Standard. Puede hacer que los datos de Campaign estén disponibles en Adobe Experience Platform asignando datos XTK (datos incorporados en Campaign) al modelo de datos de Adobe Experience Platform (XDM). </p>
-    <p>Tenga en cuenta que esta capacidad solo está disponible para clientes alojados en Azure.</p>
+    <p>Tenga en cuenta que esta funcionalidad solo está disponible para clientes alojados en Azure.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -422,7 +421,7 @@ ht-degree: 97%
  <tbody> 
   <tr> 
    <td> <p>Audience Destinations le permite compartir segmentos de Adobe Experience Platform en Adobe Campaign.</p>
-    <p>Tenga en cuenta que esta capacidad solo está disponible para clientes alojados en Azure.</p>
+    <p>Tenga en cuenta que esta funcionalidad solo está disponible para clientes alojados en Azure.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -440,7 +439,7 @@ ht-degree: 97%
 
 **Mejoras en el Diseñador de correo electrónico**
 
-* Se han añadido las instrucciones de texto obligatorias que faltaban al crear una audiencia.
+* Se han añadido las instrucciones de texto obligatorias que faltaban al crear un público.
 * Se ha corregido un problema al hacer clic en el botón **Cambiar contenido** en el asistente del editor de correo electrónico antiguo.
 * Se ha corregido un problema que impedía que los encabezados se alinearan con el contenido del informe Resumen de servicios. (CAMP-38103)
 * Se ha corregido un problema que impedía que las variantes de contenido dinámico se eliminaran sin afectar al resto de la línea de asunto. (CAMP-40096)
@@ -470,15 +469,15 @@ ht-degree: 97%
 * Se ha corregido un problema al usar una actividad de **[!UICONTROL Union]** en consultas con diferentes dimensiones de segmentación. Los datos de transición solo mostraban registros de la dimensión de segmentación del conjunto principal. (CAMP-36831)
 * Se ha corregido un problema que podía provocar un error al usar una actividad de **[!UICONTROL Reconciliation]** en contextos específicos, por ejemplo, con dos actividades entrantes, una de las cuales era de exclusión. (CAMP-37490)
 * Se han corregido problemas de rendimiento que podían producirse al seleccionar y actualizar perfiles de prueba. (CAMP-37976)
-* Se ha corregido un problema que podía mostrar páginas de error al suscribirse o cancelar la suscripción mediante páginas de aterrizaje. (CAMP-37771)
+* Se ha corregido un problema que podía mostrar páginas de error al suscribirse o cancelar la suscripción mediante páginas de destino. (CAMP-37771)
 * Se ha corregido un problema que se producía al cargar contenido en formato zip, con archivos PNG referenciados en HTML con su extensión en mayúsculas. (CAMP-37913)
 * Se ha corregido un problema que impedía que se enviaran mensajes en la aplicación al añadir un perfil de prueba al envío.
 * Se ha corregido un error con la actividad flujo de trabajo de API externa que fallaba al vincularse a actividades de enriquecimiento.
 * Se ha corregido un problema que podía hacer que el estado de los mensajes SMS se mostrara incorrectamente.
 * Se ha corregido un problema con los recursos personalizados que provocaba que las entradas duplicadas aparecieran en diferentes extremos de API.
-* Se ha corregido un problema que impedía que las páginas de aterrizaje estuvieran disponibles tras la publicación. (CAMP-38695)
+* Se ha corregido un problema que impedía que las páginas de destino estuvieran disponibles tras la publicación. (CAMP-38695)
 * Se ha corregido un error que se producía al mostrar datos de una transición de intersección procedentes de dos recursos diferentes. (CAMP-38974)
-* Se ha corregido un problema que provocaba que el valor de lista desglosada de una plantilla de envíos se configurara incorrectamente. (CAMP-38388)
+* Se ha corregido un problema que provocaba que el valor de enumeración de una plantilla de envíos se configurara incorrectamente. (CAMP-38388)
 * Se ha corregido un error con los envíos masivos de correo electrónico que mostraban el estado de los envíos como “pendiente” y el estado “enviado” como “finalizado”. (CAMP-35355)
 * Se ha corregido un error que mostraba el dominio del remitente incorrectamente en el sistema de informes dinámico. (CAMP-33123)
 * Se ha corregido un problema que provocaba discrepancias en los recuentos de bajas en el sistema de informes dinámico. (CAMP-39949)

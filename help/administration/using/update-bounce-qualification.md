@@ -2,12 +2,11 @@
 title: Actualización de la calificación de devoluciones después de una interrupción del ISP
 description: Obtenga información sobre cómo actualizar la calificación de devoluciones después de una interrupción del ISP.
 audience: delivery
-hidefromtoc: true
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
-source-git-commit: f81b8a3b076a6e29b697f21ea4d99fa7d5b6788c
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 97%
+source-wordcount: '434'
+ht-degree: 83%
 
 ---
 
@@ -19,11 +18,11 @@ En caso de interrupción de un ISP, los correos electrónicos enviados a través
 
 En diciembre de 2020, un problema mundial con Gmail hizo que algunos mensajes de correo electrónico enviados a direcciones de correo electrónico de Gmail válidas fueran rechazados incorrectamente como direcciones de correo electrónico no válidas por los servidores de Gmail con la siguiente respuesta de rechazo: *“550-5.1.1 La cuenta de correo electrónico a la que intentó llegar no existe”.*
 
-Google ha dicho que los cortes y las interrupciones de Gmail que causaron este problema empezaron el 14 de diciembre a las 06:55 h y terminaron a las 18:09 h EST del 15 de diciembre. Nuestro análisis de datos también mostró un pico muy corto en los rebotes de Gmail a las 02:06 h EST del 16 de diciembre, la mayoría ocurrió el 15 de diciembre entre las 14:00 h EST y las 18:30 h EST.
+Google ha declarado que las interrupciones y cortes de Gmail que causaron este problema empezaron el 14 de diciembre a las 6:55AM y terminaron a las 6:09PM EST el 15 de diciembre. Nuestro análisis de datos también mostró un pico muy corto en los rebotes de Gmail en 2:06AM EST el 16 de diciembre, la mayoría ocurrió el 15 de diciembre entre las 2:00 pm EST y las 6:30 pm EST.
 
 >[!NOTE]
 >
->Puede consultar el Tablero de estado de Google Workspace en [esta página](https://www.google.com/appsstatus#hl=en&amp;v=status).
+>Puede consultar el Panel de control de estado de Google Workspace en [esta página](https://www.google.com/appsstatus#hl=en&v=status).
 
 
 Por lógica de gestión de devoluciones estándar, Adobe Campaign añadió automáticamente estos destinatarios a la lista de cuarentena con una configuración **[!UICONTROL Status]** de **[!UICONTROL Quarantine]**. Para corregir esto, debe actualizar la tabla de cuarentena en Campaign buscando y quitando estos destinatarios o cambiando su **[!UICONTROL Status]** a **[!UICONTROL Valid]** para que el flujo de trabajo de limpieza nocturno los elimine.
@@ -50,4 +49,4 @@ Una vez que tenga la lista de destinatarios afectados, puede aplicarles un estad
 
 **Temas relacionados:**
 * [Comprensión de los errores de entrega](../../sending/using/understanding-delivery-failures.md)
-* [Clasificación del correo rechazado](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)
+* [Calificación del correo rechazado](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)

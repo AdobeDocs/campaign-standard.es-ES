@@ -4,11 +4,10 @@ description: Esta página enumera todas las versiones de 2019 de Adobe Campaign 
 feature: Overview
 role: User
 level: Beginner
-hidefromtoc: true
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
-source-wordcount: '7674'
+source-wordcount: '7673'
 ht-degree: 9%
 
 ---
@@ -58,7 +57,7 @@ ht-degree: 9%
 
 **Mejoras**
 
-* La ventana emergente de consentimiento para la creación de informes dinámica se ha actualizado para incluir la integración de Adobe Campaign Standard y Microsoft Dynamics 365. Al aceptar los términos, los datos de perfil se incluirán al utilizar la integración de Adobe Campaign Standard / Microsoft Dynamics 365 y el sistema de informes dinámico. [Más información](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
+* La ventana emergente de consentimiento para la creación de informes dinámica se ha actualizado para incluir la integración de Adobe Campaign Standard y Microsoft Dynamics 365. Al aceptar los términos, se incluirán los datos de perfil al utilizar la integración Adobe Campaign Standard / Microsoft Dynamics 365 y el sistema de informes dinámico. [Más información](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
 * Se ha corregido un problema que mostraba fechas de contacto incorrectas al recibir alertas de entrega.
 * Cuando se envía un evento de mensaje transaccional con un parámetro de contexto desconocido, Campaign ahora devuelve un mensaje de error 400 en lugar de 500. (CAMP-28632)
 * Se ha agregado un nuevo segmento **Excluir revisión** en el sistema de informes dinámico. Este segmento está seleccionado de forma predeterminada para filtrar los informes. [Más información](../../reporting/using/list-of-components.md#segments)
@@ -84,16 +83,16 @@ ht-degree: 9%
 * Se corrigió un problema que se producía al guardar modificaciones en el remitente de correo electrónico en el campo **De: Nombre**. (CAMP-36606)
 * La advertencia de compatibilidad del componente de carrusel se ha modificado para reflejar los clientes de correo electrónico admitidos.
 * Se ha corregido un problema de visualización en dispositivos móviles. El atributo height ahora siempre se establece en &quot;height: auto&quot; al añadir o cargar una imagen nueva en un correo electrónico. (CAMP-35497)
-* Se ha corregido un problema que dejaba etiquetas de estilo y metadatos en el HTML al eliminar un fragmento de un componente de estructura. (CAMP-35390)
+* Se ha corregido un problema que dejaba etiquetas de estilos y metadatos en HTML al eliminar un fragmento de un componente de estructura. (CAMP-35390)
 * Se ha corregido un problema con los fragmentos al actualizar contenido reutilizable. (CAMP-35186)
 * Se ha corregido un problema que se producía al mostrar solo contenido condicional móvil en correos electrónicos. (CAMP-35155)
 * Se ha corregido un problema que mostraba de forma aleatoria espacios de no separación de anchura cero. (CAMP-35116)
 * Se ha corregido un problema con la posición de los botones en el cuadro de diálogo **Guardar como fragmento**.
-* Se ha corregido un problema con la vista previa al añadir una etiqueta de HTML en un título de imagen y texto alternativo.
+* Se ha corregido un problema con la vista previa al añadir una etiqueta HTML en un título de imagen y texto alternativo.
 * Se ha corregido un problema al editar, en el Diseñador de correo electrónico, los vínculos creados en correos electrónicos desde el editor heredado.
 * Se ha corregido un problema que dejaba etiquetas de estilo duplicadas en el contenido.
 * Se ha corregido un problema con el formato de fecha al insertar un campo de personalización en un correo electrónico.
-* Se ha corregido un problema que se producía al guardar al cambiar del modo HTML a texto sin formato.
+* Se ha corregido un problema al guardar al cambiar del modo HTML a texto sin formato.
 * Se ha corregido un problema que se producía al hacer clic en la opción de bloqueo y desbloqueo, que añadía valores de margen en el panel de propiedades de estilo en línea.
 * Se ha corregido un problema con el tamaño de la vista previa para móviles para un mejor procesamiento.
 * Se ha corregido un problema con el tamaño de los botones en las plantillas y los fragmentos.
@@ -119,7 +118,7 @@ ht-degree: 9%
 * Se ha corregido un problema que impedía que se ordenaran o buscaran informes programados.
 * Se ha corregido un problema con las reglas de Déclencheur que provocaba que las reglas AND y OR se confundieran.
 * Se ha corregido un problema que mostraba la propiedad Mobile como Eliminada en Launch. (CAMP-35382)
-* Se ha corregido un problema que impedía que las propiedades móviles de Adobe de Launch se sincronizaran en Adobe Campaign. (CAMP-35411, CAMP-35089, CAMP-35014, CAMP-35487)
+* Se ha corregido un problema que impedía que las propiedades móviles de Adobe Launch se sincronizaran en Adobe Campaign. (CAMP-35411, CAMP-35089, CAMP-35014, CAMP-35487)
 * Se ha corregido un problema en el cual los mensajes push transaccionales fallaban cuando los eventos se enriquecieron con datos de perfil. (CAMP-34385)
 * Se ha corregido un problema con las propiedades móviles, que no se sincronizaban en varios entornos. (CAMP-37060)
 * Se ha corregido un problema que se producía al seleccionar, en una notificación push, una plantilla con una fórmula de fecha de contacto. (CAMP-35300)
@@ -170,7 +169,7 @@ ht-degree: 9%
 
 **Mejoras en el diseñador de correo electrónico**
 
-* Se ha corregido un problema que añadía etiquetas de estilo de HTML adicionales a una plantilla de HTML cada vez que se añadía un componente, lo que podía aumentar drásticamente el tamaño de la plantilla. (CAMP-34694)
+* Se ha corregido un problema que añadía etiquetas de estilo HTML adicionales a una plantilla HTML cada vez que se añadía un componente, lo que podía aumentar drásticamente el tamaño de la plantilla. (CAMP-34694)
 * Se ha corregido un problema que podía impedir que algunas opciones del menú de la barra de herramientas superior derecha estuvieran disponibles. (CAMP-34577)
 * Se ha corregido un problema que se producía cuando el bloque de contenido de URL de la página espejo se insertaba en un contenido de correo electrónico. (CAMP-34779)
 * Se ha corregido un problema que se producía al utilizar el código JSP en un correo electrónico, lo que dificultaba la edición del contenido. (CAMP-34574)
@@ -181,7 +180,7 @@ ht-degree: 9%
 * Se ha corregido un problema que podía impedir que el campo Vínculo se mostrara en el panel Configuración de Designer de correo electrónico (CAMP-33749).
 * Se ha corregido un problema con el icono de YouTube que era demasiado grande en los correos electrónicos enviados. (CAMP-33726)
 * Se ha corregido un problema de seguridad que hacía que el contenido de la página espejo se pudiera editar. (CAMP-33691)
-* Se ha corregido un problema que rompía la salida del HTML al usar el símbolo mayor que en el contenido dinámico. (CAMP-33688)
+* Se ha corregido un problema que rompía la salida de HTML al utilizar el símbolo mayor que en el contenido dinámico. (CAMP-33688)
 * Se ha corregido un problema que se producía al utilizar la opción Deshacer al editar texto en el Designer de correo electrónico. (CAMP-32565)
 * Se ha corregido un problema que creaba etiquetas adicionales al deshacer estilos en lugar de eliminarlos. (CAMP-32359)
 * Ahora puede definir si cada componente utilizado en un correo electrónico se mostrará solo en dispositivos de escritorio o solo en dispositivos móviles.
@@ -197,7 +196,7 @@ ht-degree: 9%
 
 **Otras mejoras**
 
-* Gracias a la integración con los servicios de ubicación de Adobe Experience Platform, ahora Adobe Campaign es compatible para enviar mensajes de marketing basados en la ubicación a los suscriptores de la aplicación móvil mediante el SDK de Experience Platform. Para obtener más información, consulte la [documentación detallada](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md).
+* Mediante la integración con los servicios de ubicación de Adobe Experience Platform, Adobe Campaign ahora es compatible para enviar mensajes de marketing basados en la ubicación a los suscriptores de la aplicación móvil a través de Experience Platform SDK. Para obtener más información, consulte la [documentación detallada](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md).
 * La función de creación de informes se ha mejorado para mejorar la experiencia. Para utilizar esta función, debe aceptar el Contrato de uso de creación de informes dinámicos. Para obtener más información, consulte la [documentación detallada](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 * En los flujos de trabajo, se ha añadido una nueva opción para previsualizar las siguientes diez ejecuciones de un flujo de trabajo. Para obtener más información, consulte la [documentación detallada](../../automating/using/scheduler.md).
 * En la actividad Scheduler, una nueva opción le permite seleccionar un día específico de una semana específica para las entregas mensuales. Para obtener más información, consulte la [documentación detallada](../../automating/using/scheduler.md).
@@ -265,7 +264,7 @@ ht-degree: 9%
 
 **Diseñador de correos electrónicos**
 
-* Se ha corregido un problema que impedía que los usuarios editaran fragmentos cuando se utilizaban etiquetas de estilo vacías en el HTML. Esta es una corrección de seguimiento para CAMP-33778 en 19.2.3.
+* Se ha corregido un problema que impedía que los usuarios editaran fragmentos cuando se utilizaban etiquetas de estilo vacías en HTML. Esta es una corrección de seguimiento para CAMP-33778 en 19.2.3.
 
 ## Versión 19.2.3: junio de 2019 {#release-19-2-3---june-2019}
 
@@ -274,14 +273,14 @@ ht-degree: 9%
 Se ha introducido una serie de mejoras y correcciones para optimizar los fragmentos en la versión 19.2. Los fragmentos recién creados funcionarán sin problemas. Los fragmentos creados anteriormente se han atenuado y deben migrarse al nuevo formato. Para ello, haga clic en cada fragmento y valide su migración al nuevo formato. Le recomendamos que pruebe algunos fragmentos antes de migrarlos todos.
 
 * Se ha corregido un problema que impedía a los usuarios editar un fragmento después de desbloquearlo. Esto afectaba a los fragmentos existentes al actualizar a 19.2. (CAMP-33778)
-* Se ha corregido un problema al usar contenido dinámico. Se han añadido espacios adicionales en el HTML.
+* Se ha corregido un problema al usar contenido dinámico. Se han añadido espacios adicionales en HTML.
 
 **Otras mejoras**
 
 * Se ha corregido un problema que podía impedir que el envío de SMS se reanudara después de una desconexión del conector SMS.
 * Se ha corregido un problema que podía cerrar las conexiones SMPP cuando TLS estaba habilitado.
 * Se ha corregido un problema que podía cerrar las conexiones SMPP cuando TLS estaba habilitado.
-* La opción &quot;Launch_URL_Campaign&quot; se ha añadido en Campaign para administrar las propiedades de las aplicaciones móviles creadas con el SDK para móviles de Adobe Experience Platform.
+* La opción &quot;Launch_URL_Campaign&quot; se ha añadido en Campaign para administrar las propiedades de las aplicaciones móviles creadas con Adobe Experience Platform Mobile SDK.
 * Se ha corregido un error que provocaba que la opción de entorno de espacio aislado se desactivara después de cargar el certificado de una propiedad móvil recién creada y de salir de la página de propiedades de la aplicación móvil.
 * Se ha corregido un problema que impedía enriquecer el contenido de un mensaje transaccional con información del recurso Servicio. (CAMP-33707)
 * Se ha corregido un problema en las páginas de aterrizaje de lista de bloqueados de la que se producía al intentar cancelar la suscripción de perfiles de un servicio.
@@ -426,7 +425,7 @@ Se han añadido varias mejoras al canal de mensajería transaccional para optimi
   </tr> 
   <tr> 
    <td> Mensajería en la aplicación móvil<br /> </td> 
-   <td> <p>Esta versión contiene la versión GA del canal In-App en Campaign. Desde el punto de vista funcional, las adiciones más importantes a la versión de Beta son los informes dinámicos para el canal In-App y el protocolo de enlace seguro entre el SDK móvil y el MCIAS (servicio de mensajería In-App de Marketing Cloud que sirve para las reglas In-App al SDK). Un protocolo de enlace seguro garantiza que los datos PII de los usuarios no caigan en manos malintencionadas, y permite mantener la privacidad de los usuarios en un dispositivo compartido al borrar la caché de mensajes cada vez que el usuario cierra la sesión.</p><p>Para obtener más información, consulte la <a href="../../channels/using/about-in-app-messaging.md">documentación detallada</a> y el <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html?lang=es">tutorial en la aplicación</a>.</p> </td> 
+   <td> <p>Esta versión contiene la versión GA del canal In-App en Campaign. Desde el punto de vista funcional, las adiciones más importantes a la versión de Beta son los informes dinámicos para el canal In-App y el protocolo de enlace seguro entre Mobile SDK y MCIAS (servicio de mensajería In-App de Marketing Cloud que sirve para las reglas In-App para SDK). Un protocolo de enlace seguro garantiza que los datos PII de los usuarios no caigan en manos malintencionadas, y permite mantener la privacidad de los usuarios en un dispositivo compartido al borrar la caché de mensajes cada vez que el usuario cierra la sesión.</p><p>Para obtener más información, consulte la <a href="../../channels/using/about-in-app-messaging.md">documentación detallada</a> y el <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html?lang=es">tutorial en la aplicación</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Mejoras en el flujo de trabajo <br /> </td> 
@@ -442,7 +441,7 @@ Se han añadido varias mejoras al canal de mensajería transaccional para optimi
 
 **Mejoras de seguridad**
 
-* El código del HTML de la página de aterrizaje generada se ha actualizado para evitar la indexación del motor de búsqueda.
+* El código HTML de la página de aterrizaje generada se ha actualizado para evitar la indexación del motor de búsqueda.
 
 **Mejoras en el diseñador de correo electrónico**
 
@@ -465,7 +464,7 @@ Se han añadido varias mejoras al canal de mensajería transaccional para optimi
 * Ahora puede añadir canales sociales personalizados a la plantilla de correo electrónico además de los que ya están disponibles.
 * Se ha corregido un problema que impedía desplazarse hacia abajo en el menú de estructura al utilizar más de 18 estructuras. (CAMP-31173)
 * Se ha corregido un problema que mostraba el preencabezado encima del contenido al reenviar un correo electrónico que contenía un preencabezado enviado con Adobe Campaign. (CAMP-30736)
-* AEM Se ha corregido un problema que impedía actualizar la línea de asunto al hacer clic en la opción **Actualizar contenido** después de modificar el asunto en Adobe Experience Manager. (CAMP-29984)
+* Se ha corregido un problema que impedía actualizar la línea de asunto al hacer clic en la opción **Actualizar contenido de AEM** después de modificar el asunto en Adobe Experience Manager. (CAMP-29984)
 * Se han corregido varios problemas que evitaban el uso de imágenes dinámicas desde Adobe Target.
 * Se ha corregido un problema que impedía actualizar la vista previa al recuperar contenido en el momento de la preparación si el contenido se había importado previamente desde una dirección URL.
 * El icono de YouTube se ha agregado al componente de contenido **Social**.
@@ -473,7 +472,7 @@ Se han añadido varias mejoras al canal de mensajería transaccional para optimi
 
 **Otras mejoras**
 
-* Adobe Campaign ahora es totalmente compatible con FCM para las aplicaciones SDK V4 y SDK de AEP.
+* Adobe Campaign ahora es totalmente compatible con FCM para las aplicaciones SDK V4 y AEP SDK.
 * Adobe Campaign admite notificaciones push en Wear OS de Android, así como watchOS de Apple.
 * Los mensajes de advertencia y error que se pueden mostrar al navegar en la interfaz se han aclarado y simplificado.
 * Ahora puede agregar a la lista de perfiles columnas relacionadas con la inclusión y la exclusión (campos &quot;Ya no contacte con...&quot;).
@@ -484,7 +483,7 @@ Se han añadido varias mejoras al canal de mensajería transaccional para optimi
 
 **Otros cambios**
 
-* Adobe Campaign y Adobe Experience Cloud dejarán de ofrecer asistencia para Microsoft Internet Explorer 11 a partir de la primavera de 2019 y para Campaign Standard 19.2. Cambie a Microsoft Edge u otro explorador compatible. Ver [página Funciones obsoletas y eliminadas](../../rn/using/deprecated-features.md).
+* Adobe Campaign y Adobe Experience Cloud dejarán de ofrecer asistencia para Microsoft Internet Explorer 11 a partir de la primavera de 2019 y para la versión 19.2 de Campaign Standard. Cambie a Microsoft Edge u otro explorador compatible. Ver [página Funciones obsoletas y eliminadas](../../rn/using/deprecated-features.md).
 * Se cambió el nombre del campo **Código de país** del recurso de perfil a **Código de país o región**.
 
 **Parches**
@@ -496,7 +495,7 @@ Se han añadido varias mejoras al canal de mensajería transaccional para optimi
 * Se ha corregido un problema que se podía producir con la generación de PKEY al utilizar recursos de perfil extendidos. (CAMP-30285)
 * Se ha corregido un problema que se podía producir con las reglas de fatiga basadas en el día del calendario. (CAMP-30136)
 * Se ha corregido un problema que se podía producir al intentar acceder a recursos personalizados con nombres que terminaban con &quot;Base&quot;. (CAMP-30109)
-* Se ha corregido un problema que impedía usar una llamada al PATCH para suscribir un perfil a un servicio. (CAMP-29728)
+* Se ha corregido un problema que impedía usar una llamada de PATCH para suscribir un perfil a un servicio. (CAMP-29728)
 * Se ha corregido un problema que podía dañar un flujo de trabajo al importar un archivo XML a través de la actividad Cargar archivo. (CAMP-29208 y CAMP-28205)
 * Se ha corregido un problema que se producía al vincular recursos personalizados y que podía impedir que se generaran vínculos de cardinalidad inversa. (CAMP-30476)
 * Se ha corregido un problema que impedía ampliar los registros de envío al utilizar solo el código de segmento.
@@ -568,12 +567,12 @@ Se han añadido varias mejoras al canal de mensajería transaccional para optimi
 
 * Se ha corregido un problema que habilitaba la capacidad de la unidad geográfica en una plantilla de correo electrónico o en un fragmento de contenido creado con el Designer de correo electrónico, aunque esta capacidad estuviera deshabilitada en Adobe Campaign, lo que hacía que la plantilla o el fragmento no estuviera disponible al intentar acceder a él de nuevo. (CAMP-28174)
 * Se ha corregido un problema que impedía guardar las condiciones de contenido dinámico al editar contenido con el Designer de correo electrónico. (CAMP-27905)
-* Se ha corregido un problema que eliminaba la versión del HTML del contenido del correo electrónico después de editar la versión de texto sin formato de un mensaje y romper la sincronización del HTML en el Designer de correo electrónico. (CAMP-28507)
+* Se ha corregido un problema que eliminaba la versión de HTML del contenido del correo electrónico después de editar la versión de texto sin formato de un mensaje y romper la sincronización de HTML en el Designer de correo electrónico. (CAMP-28507)
 * Se ha corregido un problema que impedía que la interfaz de Designer de correo electrónico se abriera al usar Internet Explorer 11. (CAMP-28273)
 * Se ha corregido un problema que distorsionaba la renderización de Microsoft Outlook de la configuración de estilo aplicada a los botones con el Designer de correo electrónico.
 * Se ha corregido un problema en el Designer de correo electrónico que hacía que se pudiera editar una dirección URL a partir de un fragmento de contenido utilizado en un correo electrónico, lo cual no se esperaba, ya que el fragmento está bloqueado de forma predeterminada.
 * Se ha corregido un problema que impedía que el componente divisor Email Designer se mostrara en Microsoft Office.
-* AEM Se ha corregido un problema que provocaba la congelación de una página en ciertos navegadores de Internet al ver un contenido sincronizado desde el uso del editor de contenido de correo electrónico heredado de, que se ha sincronizado desde el editor de contenido. (CAMP-29068)
+* Se ha corregido un problema que provocaba el bloqueo de una página en ciertos navegadores de Internet al ver un contenido sincronizado desde AEM mediante el editor de contenido de correo electrónico heredado. (CAMP-29068)
 * Se ha corregido un error que se producía al hacer clic en cualquier imagen de un correo electrónico al utilizar el editor de contenido de correo electrónico heredado. (CAMP-30424)
 * Se ha corregido un problema que impedía que se mostraran los fragmentos recién creados al editar un correo electrónico con el Designer de correo electrónico. (CAMP-29928)
 * Se ha corregido un problema que impedía que el texto del botón se mostrara correctamente en los correos electrónicos creados con Email Designer y recibidos con el cliente de correo web de Outlook.
