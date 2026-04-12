@@ -37,11 +37,11 @@ La integración de Adobe Campaign Standard con Dreamweaver permite editar el con
 
 Esta funcionalidad se detalla en la Documentación de Dreamweaver [accesible aquí](https://helpx.adobe.com/es/dreamweaver/using/working-with-dreamweaver-and-campaign.html).
 
-![](assets/do-not-localize/how-to-video.png) [Descubra esta funcionalidad en vídeo](#video)
+![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
 
 ## Edición de contenido en Experience Manager {#editing-content-in-experience-manager}
 
-El contenido del correo electrónico se puede editar en Experience Manager y, a continuación, utilizar para uno o varios mensajes de correo electrónico en Adobe Campaign Standard. Consulte [este documento](../../integrating/using/integrating-with-experience-manager.md).
+El contenido del correo electrónico se puede editar en Experience Manager y, a continuación, utilizarse para uno o varios mensajes de correo electrónico en Adobe Campaign Standard. Consulte [este documento](../../integrating/using/integrating-with-experience-manager.md).
 
 ## Listados de productos {#product-listing}
 
@@ -73,14 +73,14 @@ Adobe Campaign ofrece varias opciones de creación de correo electrónico. En el
    <td> Compatible<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>HTML de escritura</strong><br /> </td> 
+   <td> <strong>Escribir en HTML</strong><br /> </td> 
    <td> Compatible<br /> </td> 
    <td> No admitido<br /> </td> 
    <td> Compatible<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>HTML de la actualización</strong><br /> </td> 
-   <td> Solamente dentro de un componente de HTML <br /> </td> 
+   <td> <strong>Actualizar HTML</strong><br /> </td> 
+   <td> Solo dentro de un componente HTML<br /> </td> 
    <td> No admitido<br /> </td> 
    <td> Compatible<br /> </td> 
   </tr> 
@@ -99,7 +99,7 @@ Adobe Campaign ofrece varias opciones de creación de correo electrónico. En el
   <tr> 
    <td> <strong>Revisión/Previsualización</strong><br /> </td> 
    <td> Compatible<br /> </td> 
-   <td> AEM Vista previa en la revisión <br /> de la prueba en la campaña <br /> </td> 
+   <td> Vista previa en AEM<br /> Proof en Campaign<br /> </td> 
    <td> Vista previa y revisión en Campaign<br /> </td> 
   </tr> 
   <tr> 
@@ -117,7 +117,7 @@ Adobe Campaign ofrece varias opciones de creación de correo electrónico. En el
   </td> 
    <td> 
      <p>- Reutilización de recursos del sitio web en correos electrónicos</p>
-     <p>: Aprovechamiento del poder del Experience Manager en el contenido del correo electrónico</p>
+     <p>: Aprovechamiento de la potencia de Experience Manager en el contenido del correo electrónico</p>
     </td> 
    <td> 
     <p>: Capacidad para que un desarrollador codifique directamente un correo electrónico</p>
@@ -139,15 +139,15 @@ Adobe Campaign ofrece varias opciones de creación de correo electrónico. En el
    <td> No se admite contenido dinámico<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Audiencia</strong><br /> </td> 
-   <td> Los especialistas en marketing que deseen mantener la flexibilidad para utilizar componentes de HTML en combinación con las características de arrastrar y soltar<br /> </td> 
-   <td> Los especialistas en marketing ya están usando un Experience Manager que desea usar plantillas de correo electrónico estándar con poca personalización<br /> </td> 
+   <td> <strong>Público</strong><br /> </td> 
+   <td> Los especialistas en marketing que deseen mantener la flexibilidad para utilizar los componentes de HTML en combinación con las características de arrastrar y soltar<br /> </td> 
+   <td> Los especialistas en marketing que ya utilizan Experience Manager y que desean utilizar plantillas de correo electrónico estándar con poca personalización<br /> </td> 
    <td> Desarrolladores que deseen codificar el contenido del correo electrónico e integrarlo directamente con Adobe Campaign<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Para obtener más información</strong><br /> </td> 
    <td> Ver <a href="../../designing/using/designing-content-in-adobe-campaign.md">Acerca del correo electrónico Designer</a>.<br /> </td> 
-   <td> Ver <a href="../../integrating/using/integrating-with-experience-manager.md">Integración con el Experience Manager</a>.<br /> </td> 
+   <td> Ver <a href="../../integrating/using/integrating-with-experience-manager.md">Integración con Experience Manager</a>.<br /> </td> 
    <td> Ver <a href="https://helpx.adobe.com/es/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver y Campaign</a> y ver este <a href="#video">vídeo</a>.<br /> </td> 
   </tr> 
  </tbody> 
@@ -159,4 +159,4 @@ Este vídeo muestra cómo crear y editar contenido para Adobe Campaign Standard 
 
 >[!VIDEO](https://video.tv.adobe.com/v/37537?quality=12&captions=spa)
 
-Hay disponibles [más vídeos de procedimientos para el Campaign Standard aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
+Hay disponibles [más vídeos de procedimientos para Campaign Standard aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).

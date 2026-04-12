@@ -39,7 +39,7 @@ Este campo se puede personalizar. Para ello, puede añadir campos de personaliza
 
 ## Personalización de direcciones URL {#personalizing-urls}
 
-Adobe Campaign permite personalizar una o varias direcciones URL del mensaje añadiendo campos de personalización, bloques de contenido o contenido dinámico. Para ello, haga lo siguiente:
+Adobe Campaign permite personalizar una o varias direcciones URL del mensaje añadiendo campos de personalización, bloques de contenido o contenido dinámico. Para ello:
 
 1. Inserte una dirección URL externa y especifique sus parámetros. Consulte [Inserción de un vínculo](../../designing/using/links.md#inserting-a-link).
 1. Si no se muestra, haga clic en el lápiz situado junto a la dirección URL seleccionada en el panel Configuración para acceder a las opciones de personalización.
@@ -151,7 +151,7 @@ Para crear un bloque de contenido, siga estos pasos:
 
    ![](assets/content_bloc_04.png)
 
-1. Puede seleccionar la opción **[!UICONTROL Depends on format]** para definir dos bloques diferentes: uno para los correos electrónicos de los HTML y otro para los correos electrónicos en formato de texto. A continuación, se muestran dos pestañas en el editor (HTML y Texto) para definir los contenidos correspondientes.
+1. Puede seleccionar la opción **[!UICONTROL Depends on format]** para definir dos bloques diferentes: uno para los correos electrónicos de HTML y otro para los correos electrónicos en formato de texto. A continuación, se muestran dos pestañas en el editor (HTML y Texto) para definir los contenidos correspondientes.
 
    ![](assets/content_bloc_03.png)
 
@@ -183,7 +183,7 @@ Para obtener más información sobre esto, consulte [Dimensiones de segmentació
 
 ## Personalización de una fuente de imagen{#personalizing-an-image-source}
 
-Adobe Campaign permite personalizar una o varias imágenes del mensaje según un criterio determinado o utilizar el seguimiento. Para ello, inserte campos de personalización, bloques de contenido o contenido dinámico en el origen de la imagen. Para ello, haga lo siguiente:
+Adobe Campaign permite personalizar una o varias imágenes del mensaje según un criterio determinado o utilizar el seguimiento. Para ello, inserte campos de personalización, bloques de contenido o contenido dinámico en el origen de la imagen. Para ello:
 
 1. Inserte una imagen en el contenido del mensaje o seleccione una imagen que ya esté presente.
 1. En la paleta de propiedades de la imagen, marque la opción **[!UICONTROL Enable personalization]**.
@@ -427,5 +427,5 @@ La imagen ha cambiado gracias al contenido dinámico, y el eslogan que aparece e
 
 **Temas relacionados:**
 
-* [Creación de audiencias](../../audiences/using/creating-audiences.md)
+* [Creación de públicos](../../audiences/using/creating-audiences.md)
 * [Preparación del envío](../../sending/using/preparing-the-send.md)

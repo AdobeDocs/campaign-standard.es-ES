@@ -10,7 +10,7 @@ level: Beginner
 exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
 source-git-commit: 0079a924db522de8afc628ef50aa2c861e5a12ee
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1230'
 ht-degree: 22%
 
 ---
@@ -30,7 +30,7 @@ Estos son los pasos principales para crear y diseñar un contenido de correo ele
 1. Previsualice el correo electrónico.
 1. Guarde el contenido y continúe con el mensaje después de asegurarse de haber definido una audiencia y de haber programado correctamente el envío.
 
-También puedes ver este [vídeo de introducción](https://video.tv.adobe.com/v/330103/?autoplay=true&hidetitle=true&captions=spa).
+También puedes ver este [vídeo de introducción](https://video.tv.adobe.com/v/330103/?captions=spa&autoplay=true&hidetitle=true).
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Para editar la estructura de un correo electrónico:
 
 1. Hay disponibles varios componentes de estructura compuestos de una o más columnas.
 
-   Seleccione el componente **[!UICONTROL n:n column]** para definir el número de columnas que desee (entre 3 y 10). También puede definir la anchura de cada columna moviendo las flechas en la parte inferior de cada columna.
+   Seleccione el componente **[!UICONTROL n:ncolumn]** para definir el número de columnas que desee (entre 3 y 10). También puede definir la anchura de cada columna moviendo las flechas en la parte inferior de cada columna.
 
    ![](assets/email_designer_n-n-column.png)
 
@@ -200,7 +200,7 @@ El componente de carrusel no es compatible con todos los programas de correo ele
 **Temas relacionados**:
 
 - [Creación de un correo electrónico](../../channels/using/creating-an-email.md)
-- [Selección de una audiencia en un mensaje](../../audiences/using/selecting-an-audience-in-a-message.md)
+- [Selección de un público en un mensaje](../../audiences/using/selecting-an-audience-in-a-message.md)
 - [Programación de mensajes](../../sending/using/about-scheduling-messages.md)
 - [Previsualización de mensajes](../../sending/using/previewing-messages.md)
-- [Procesamiento de correo electrónico](../../sending/using/email-rendering.md)
+- [Representación de correo electrónico](../../sending/using/email-rendering.md)

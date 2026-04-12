@@ -77,7 +77,7 @@ Por ejemplo:
 
 >[!NOTE]
 >
->Según la selección (componente de estructura, columna o componente de contenido), el resultado no será el mismo. El Adobe recomienda establecer los parámetros **[!UICONTROL Padding]** y **[!UICONTROL Margin]** en el nivel de columna.
+>Según la selección (componente de estructura, columna o componente de contenido), el resultado no será el mismo. Adobe recomienda establecer los parámetros **[!UICONTROL Padding]** y **[!UICONTROL Margin]** en el nivel de columna.
 
 Para **[!UICONTROL Padding]** y **[!UICONTROL Margin]**, haga clic en el icono de candado para interrumpir la sincronización entre los parámetros superior e inferior, o derecho e izquierdo. Esto permite ajustar cada parámetro por separado.
 
