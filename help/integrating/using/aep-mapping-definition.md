@@ -43,7 +43,7 @@ Para realizar esta tarea, los requisitos previos son:
 
 >[!NOTE]
 >
->Para que se ingrese un lote en el perfil del cliente en tiempo real o en el servicio de identidad, el conjunto de datos debe estar [habilitado para el perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html).
+>Para que se ingrese un lote en el perfil del cliente en tiempo real o en el servicio de identidad, el conjunto de datos debe estar [habilitado para el perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html?lang=es).
 >
 >Si el conjunto de datos seleccionado ya se está utilizando en una asignación de datos existente, aparece una advertencia para informarle de que los datos pueden sobrescribirse en Adobe Experience Platform. Esto puede ocurrir cuando hay algunos destinatarios comunes en las asignaciones de datos que utilizan un mismo conjunto de datos.
 
@@ -63,7 +63,7 @@ Los recursos extendidos definidos en Campaign Standard se asignan como vínculos
 
 Puede personalizar la extensión XDM mediante la API y definir su propia extensión, lo que le permite un mejor control de la asignación.
 
-Consulte [Tutorial de API de Registro de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) para obtener más información sobre la API de XDM.
+Consulte [Tutorial de API de Registro de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=es) para obtener más información sobre la API de XDM.
 
 Para asignar un campo de enumeración, debe utilizar el editor de expresiones para definir cada valor de enumeración correspondiente al valor XDM. Por ejemplo, el campo postaladdress debe definirse como:
 
