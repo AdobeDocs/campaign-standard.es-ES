@@ -11,7 +11,7 @@ role: Developer
 level: Experienced
 exl-id: 2f6c5cc6-0634-4418-a2ee-e1c133d9cbd2
 hide: true
-source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
+source-git-commit: 7ad12890a24b2c0b8730d09b7d161bff511f4c69
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 2%
@@ -52,7 +52,7 @@ Para crear una audiencia de Adobe Experience Platform directamente en Campaign S
 
 1. Para crear correctamente un segmento, debe seleccionar una **política de combinación** que coincida con el propósito de marketing para este segmento.
 
-   En el panel de configuración, se selecciona una política de combinación predeterminada de Platform. Para obtener más información sobre las políticas de combinación, consulte la sección dedicada de la [guía del usuario del Generador de segmentos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=es).
+   En el panel de configuración, se selecciona una política de combinación predeterminada de Platform. Para obtener más información sobre las políticas de combinación, consulte la sección dedicada de la [guía del usuario del Generador de segmentos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
