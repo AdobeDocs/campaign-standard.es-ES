@@ -10,8 +10,8 @@ level: Beginner
 hide: true
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
 source-git-commit: 7ad12890a24b2c0b8730d09b7d161bff511f4c69
-workflow-type: tm+mt
-source-wordcount: '4695'
+workflow-type: ht
+source-wordcount: '4728'
 ht-degree: 100%
 
 ---
@@ -131,7 +131,7 @@ A continuación, se enumeran las nuevas funciones, mejoras y correcciones inclui
 * Se ha corregido un error que se producía aleatoriamente al intentar guardar un flujo de trabajo después de editarlo. (CAMP-48695)
 * Se ha corregido un problema que impedía publicar recursos personalizados, ya que el esquema de datos de un activador permanecía allí incluso después de su eliminación. (CAMP-48523)
 * Se ha corregido un problema que impedía que se aceptaran las solicitudes del bucle de comentarios, ya que el proceso de InMail no podía recuperar los registros de envío para actualizar. (CAMP-48705)
-* Se ha corregido un problema que impedía definir correctamente las opciones de exclusión en la actividad de flujo de trabajo **Exclusión**.(CAMP-48355)
+* Se ha corregido un problema que impedía definir correctamente las opciones de exclusión en la actividad de flujo de trabajo **Exclusión** (CAMP-48355)
 * Se ha corregido un problema que se producía cuando las actividades de enriquecimiento en flujos de trabajo implicaban suscripciones o cancelaciones de suscripción de un servicio. Este problema provocaba un bloqueo.
 * Se ha corregido un problema que podía impedir que se ejecutaran flujos de trabajo.
 * Se ha corregido un problema que podía impedir que los usuarios cambiaran el nombre de los grupos de seguridad predeterminados o los eliminaran de la interfaz de usuario.
