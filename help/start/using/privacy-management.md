@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a
 source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: tm+mt
-source-wordcount: '788'
+workflow-type: ht
+source-wordcount: '851'
 ht-degree: 100%
 
 ---
@@ -84,7 +84,7 @@ Además de las capacidades más recientes de **Derecho de acceso** y **Derecho a
 
 * [Gestión](#consent-management)de consentimiento: Funcionalidad de suscripción para la administración de preferencias
 * [Retención](../../administration/using/data-retention.md)de datos: períodos de retención de datos en todas las tablas de registro estándar, se pueden configurar períodos de retención adicionales con flujos de trabajo
-* [Gestión de derechos](#rights-management): acceso a los datos administrado mediante el derecho asignado 
+* [Gestión de derechos](#rights-management): acceso a los datos administrado mediante el derecho asignado
 
 ### Gestión de consentimiento {#consent-management}
 

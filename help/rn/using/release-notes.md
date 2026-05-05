@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: f06902aaa2fd6b5efbf15ad535a9794bb56775d4
-workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 42%
+workflow-type: ht
+source-wordcount: '232'
+ht-degree: 100%
 
 ---
 
@@ -38,12 +38,12 @@ This section lists improvements and changes included in the next Campaign Standa
 
 * Se ha mejorado el sistema de informes dinámico para mejorar la solidez y reducir las discrepancias de datos. (CAMP-58964)
 * Se ha mejorado el mecanismo de inicio de sesión de IMS para mejorar la fiabilidad. (CAMP-59418)
-* Se ha mejorado la integración de contenido de AEM con un mejor control de URL para solicitudes paginadas. (CAMP-59540)
-* Se ha agregado compatibilidad con la entrada de tipo contraseña en la pantalla Opciones con hash automático. (CAMP-60206)
-* Se ha corregido un problema en el cual los flujos de trabajo temporales utilizaban ID de secuencia incorrectos. (CAMP-59824)
+* Se ha mejorado la integración de contenido de AEM con una mejor gestión de URL para solicitudes paginadas. (CAMP-59540)
+* Se ha añadido compatibilidad con la entrada de tipo de contraseña en la pantalla Opciones con hash automático.(CAMP-60206)
+* Se ha corregido un problema en el que los flujos de trabajo temporales utilizaban ID de secuencia incorrectos. (CAMP-59824)
 * Se ha corregido un problema que podría provocar errores al recuperar el contenido de la campaña de AEM. (CAMP-59926)
 
-## Versión 26.1 (LA) {#26.1}
+## Versión 26.1 (disponibilidad limitada) {#26.1}
 
 >[!AVAILABILITY]
 >
@@ -58,7 +58,7 @@ This section lists improvements and changes included in the next Campaign Standa
 
 * Se ha mejorado el sistema de informes dinámico para mejorar la solidez y reducir las discrepancias de datos. (CAMP-58964)
 * Se ha mejorado el mecanismo de inicio de sesión de IMS para mejorar la fiabilidad. (CAMP-59418)
-* Se ha mejorado la integración de contenido de AEM con un mejor control de URL para solicitudes paginadas. (CAMP-59540)
-* Se ha agregado compatibilidad con la entrada de tipo contraseña en la pantalla Opciones con hash automático. (CAMP-60206)
-* Se ha corregido un problema en el cual los flujos de trabajo temporales utilizaban ID de secuencia incorrectos. (CAMP-59824)
+* Se ha mejorado la integración de contenido de AEM con una mejor gestión de URL para solicitudes paginadas. (CAMP-59540)
+* Se ha añadido compatibilidad con la entrada de tipo de contraseña en la pantalla Opciones con hash automático.(CAMP-60206)
+* Se ha corregido un problema en el que los flujos de trabajo temporales utilizaban ID de secuencia incorrectos. (CAMP-59824)
 * Se ha corregido un problema que podría provocar errores al recuperar el contenido de la campaña de AEM. (CAMP-59926)

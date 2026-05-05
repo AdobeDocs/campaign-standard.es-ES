@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
-source-wordcount: '648'
+workflow-type: ht
+source-wordcount: '661'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Obtenga información sobre la compatibilidad con la accesibilidad en el Espacio de trabajo de Adobe Campaign Standard.
 
-La accesibilidad se refiere a hacer que los productos sean utilizables para personas con discapacidades visuales, auditivas, cognitivas, motoras y de otro tipo. Algunos ejemplos de funciones de accesibilidad para productos de software son contenido semánticamente estructurado, compatibilidad con lectores de pantalla, equivalentes de texto para gráficos, métodos abreviados de teclado, etc.
+La accesibilidad se refiere a hacer que los productos sean utilizables para personas con discapacidades visuales, auditivas, cognitivas, motoras y de otro tipo. Algunos ejemplos de funciones de accesibilidad para productos de software son contenido estructurado semánticamente, compatibilidad con lectores de pantalla, equivalentes de texto para gráficos, métodos abreviados de teclado, etc.
 
 Adobe Campaign Standard ofrece funciones que hacen que sea más accesible usar, como contraste, etiquetas, contenido estructurado, navegación mediante el teclado y ayuda contextual.
 

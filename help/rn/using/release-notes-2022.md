@@ -6,8 +6,8 @@ role: User
 level: Beginner
 exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
 source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
-workflow-type: tm+mt
-source-wordcount: '1248'
+workflow-type: ht
+source-wordcount: '1254'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ Esta versión incorpora la siguiente actualización de seguridad: Apache Tomcat 
 ### Correcciones{#rn-fixes}
 
 * Se ha corregido un problema con los informes programados, que se activaban una hora antes del horario programado. (CAMP-51502)
-* Se ha corregido un problema en los indicadores de entrega del panel Entrega que no coincidían con los Registros de envío (nms:broadLogRcp). (CAMP-51127)
+* Se ha corregido un problema en los indicadores de envío del panel de control de envíos que no coincidían con los registros de envío (nms:broadLogRcp). (CAMP-51127)
 * Se ha corregido un problema que impedía la extensión de recursos personalizados con el conector ACS (oferta principal). (CAMP-51033)
 * Se ha mejorado el proceso de publicación de las respuestas de solicitudes de privacidad para evitar demoras. (CAMP-50613)
 
@@ -99,7 +99,7 @@ Esta versión incorpora la siguiente actualización de seguridad: Apache Tomcat 
 **Parches**
 
 * Se ha corregido un problema con la opción **Enviar informe ahora** en Informes dinámicos: los trabajos de generación de PDF fallaron con envíos que incluían varias variantes. (CAMP-49120)
-* Se ha corregido un problema que impedía a los usuarios actualizar o desvincular contenido de Adobe Experience Manager (AEM) de sus envíos de Adobe Campaign Standard cuando un contenido duplicado en AEM compartía la misma clave (cq:uuid). (CAMP-49161)
+* Se ha corregido un problema que impedía a los usuarios que actualizaran o desvincularan contenido de Adobe Experience Manager (AEM) de sus envíos de Adobe Campaign Standard cuando un contenido duplicado en AEM compartía la misma clave (cq:uuid).(CAMP-49161)
 * Se ha corregido un error al acceder a una instancia en la que las páginas no se cargaban, no se podían abrir los envíos o no se podía guardar ninguna modificación pendiente. (CAMP-50195)
 * Se ha corregido un problema que impedía abrir los criterios de alerta de envío si el campo **Filtro de entrega** aplicado por este criterio no se ha rellenado. (CAMP-49093)
 * Se ha corregido un problema que se producía al editar el botón **Secundario** en envíos en la aplicación que impidieron que se tuvieran en cuenta los cambios. (CAMP-50250)
@@ -109,10 +109,10 @@ Esta versión incorpora la siguiente actualización de seguridad: Apache Tomcat 
 * Se ha corregido un problema que podría provocar errores al abrir un informe. (CAMP-49222)
 * Se ha corregido un problema que podría provocar que la preparación del correo electrónico falle después de eliminar un vínculo al contenido de AEM. (CAMP-49877)
 * Para resolver varios problemas, se ha mejorado el mecanismo de reintentos de envíos, incluido el contenido importado de una dirección URL. [Más información](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time) (CAMP-48888)
-* Se ha corregido un problema que se producía después de crear un nuevo filtro en un recurso personalizado y, a continuación, utilizarlo como clave de reconciliación en una página de aterrizaje. Si el recurso personalizado se volvió a publicar, el filtro se eliminó de la lista de claves de reconciliación disponibles para la página de aterrizaje. (CAMP-49516)
-* Se ha corregido un problema en las páginas de aterrizaje al usar condiciones dinámicas con casillas de verificación. (CAMP-48604)
+* Se ha corregido un problema que se producía después de crear un nuevo filtro en un recurso personalizado y, a continuación, utilizarlo como clave de reconciliación en una página de destino. Si el recurso personalizado se volvió a publicar, el filtro se eliminó de la lista de claves de reconciliación disponibles para la página de destino. (CAMP-49516)
+* Se ha corregido un problema en las páginas de destino al usar condiciones dinámicas con casillas de verificación. (CAMP-48604)
 * Se ha corregido un problema que se producía en una actividad de **Consulta** al usar la condición de filtro &quot;En octubre o antes&quot;. Al trabajar desde una instancia configurada en una zona horaria europea, el mes seleccionado para filtrar se mostraba en septiembre en lugar de octubre, debido a un problema al convertir la zona horaria. (CAMP-48602)
 * Para optimizar la capacidad de envío, Adobe Campaign ahora envía correos electrónicos con codificación de 7 bits en lugar de 8 bits. Esto evita que los relés intermedios invaliden la firma DKIM que podría afectar a la autenticidad de los mensajes. (CAMP-49016)
-* Se ha mejorado el rendimiento al duplicar audiencias para evitar cualquier problema al trabajar con audiencias grandes. (CAMP-49639)
+* Se ha mejorado el rendimiento al duplicar públicos para evitar cualquier problema al trabajar con públicos grandes. (CAMP-49639)
 * Se ha corregido un problema que podía impedir que un filtro personalizado mostrara los resultados correctos cuando se usaba en una actividad de **Consulta**. (CAMP-49417)
 * Se ha corregido un error que mostraba un mensaje de error al intentar utilizar un fragmento en un envío con una coma en su nombre. El problema se ha resuelto y ahora se pueden usar comas en los nombres de los fragmentos. (CAMP-49216)

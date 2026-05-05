@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: tm+mt
-source-wordcount: '1526'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '1619'
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Antes de crear solicitudes de privacidad, debe definir el espacio de nombres que
 
    ![](assets/privacy-namespaces.png)
 
-1. En la lista de Espacios de nombres, haga clic en **[!UICONTROL Create]**.
+1. En la lista de espacios de nombres, haga clic en **[!UICONTROL Create]**.
 
    ![](assets/privacy-namespace-create.png)
 
@@ -63,11 +63,11 @@ Antes de crear solicitudes de privacidad, debe definir el espacio de nombres que
 
    ![](assets/privacy-namespace-label.png)
 
-1. Si desea utilizar un Espacio de nombres de servicio de identidad existente, elija **[!UICONTROL Map from Identity Namespace Service]** y seleccione un Espacio de nombres de la **[!UICONTROL Identity Service Namespaces]** lista.
+1. Si desea utilizar un espacio de nombres de servicio de identidad existente, elija **[!UICONTROL Map from Identity Namespace Service]** y seleccione uno de la **[!UICONTROL Identity Service Namespaces]** lista.
 
    ![](assets/privacy-map-from-namespace.png)
 
-   Si desea crear un nuevo Espacio de nombres en **[!UICONTROL Identity Service]** y asignarlo en Campaña, seleccione **[!UICONTROL Create new]** e introduzca un nombre en el **[!UICONTROL Identity namespace name]** campo.
+   Si desea crear un nuevo espacio de nombres en **[!UICONTROL Identity Service]** y asignarlo en Campaña, seleccione **[!UICONTROL Create new]** e introduzca un nombre en el campo **[!UICONTROL Identity namespace name]**.
 
    ![](assets/privacy-create-new-namespace.png)
 
@@ -95,9 +95,9 @@ Consulte la documentación del [Privacy Service de Experience Platform](https://
 
 >[!IMPORTANT]
 >
->Para enviar una solicitud usando el tipo de área de nombres personalizada, aprovecha el [método JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=es#json){target="_blank"} y agrega el namespaceId a la solicitud, o usa la [llamada de API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=es#access-delete){target="_blank"} para realizar la solicitud.
+>Para enviar una solicitud usando el tipo de espacio de nombres personalizado, aproveche el [método JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=es#json){target="_blank"} y añada el namespaceId a la solicitud, o utilice la [llamada API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=es#access-delete){target="_blank"} para efectuar la solicitud.
 >
->Use solamente la [interfaz de usuario de privacidad](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=es#request-builder){target="_blank"} para enviar solicitudes usando el tipo de área de nombres estándar.
+>Utilice solamente la [interfaz de usuario de privacidad](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=es#request-builder){target="_blank"} para enviar solicitudes usando el tipo de espacio de nombres estándar.
 
 Cada trabajo del servicio principal de privacidad se divide en varias solicitudes de privacidad en Campaña, en función de cuántos Espacios de nombres se estén utilizando, una solicitud que corresponde a un Espacio de nombres. Además, un trabajo se puede ejecutar en varias instancias. Por lo tanto, se crean varios archivos para un trabajo. Por ejemplo, si una solicitud tiene dos Espacios de nombres y se está ejecutando en tres instancias, se envía un total de seis archivos. Un archivo por Espacio de nombres e instancia.
 
