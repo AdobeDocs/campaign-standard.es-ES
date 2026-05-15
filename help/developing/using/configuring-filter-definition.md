@@ -10,10 +10,14 @@ role: Developer
 level: Experienced
 exl-id: 342911c5-0746-4205-b380-be195b9cb82a
 TQID: https://experienceleague.adobe.com/LZNc1yJEI9GGnxAs-eLhrDoX91RtZKXRMhqQxkiSN-g
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
-subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2:
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 542
@@ -76,7 +80,7 @@ Para ello, debe ampliar el recurso **[!UICONTROL Profiles]** y definir un filtro
 
 1. Guarde los cambios y publique los recursos. Para obtener más información, consulte la sección [Actualización de la estructura de la base de datos](../../developing/using/updating-the-database-structure.md).
 
-Una vez publicada la extensión del recurso **[!UICONTROL Profiles]**, los usuarios verán este filtro en la pestaña de métodos abreviados de la interfaz del [editor de consultas ](../../automating/using/editing-queries.md).
+Una vez publicada la extensión del recurso **[!UICONTROL Profiles]**, los usuarios verán este filtro en la pestaña de métodos abreviados de la interfaz del [editor de consultas &#x200B;](../../automating/using/editing-queries.md).
 
 Esto permitirá al usuario definir fácilmente su público al crear un correo electrónico para enviarlo a todos los clientes que gastaron más de una determinada cantidad en los últimos tres meses.
 
