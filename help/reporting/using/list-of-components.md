@@ -1,6 +1,6 @@
 ---
 title: Lista de componentes
-description: Aquí encontrará la lista de todos los componentes disponibles en     Informes dinámicos, así como sus definiciones.
+description: Aquí encontrará la lista de todos los componentes disponibles en los informes dinámicos, así como sus definiciones.
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
@@ -8,10 +8,15 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: 8980bf05-60a8-4360-a354-445e1faeb5b2
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+TQID: https://experienceleague.adobe.com/NWtd6wo3BgCFapPO6lVQAcVk8KUud-ioDf1-6MzXfw0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 1%
+source-wordcount: 1333
+ht-degree: 2%
 
 ---
 
@@ -19,7 +24,7 @@ ht-degree: 1%
 
 Para obtener más información sobre la compatibilidad entre dimensiones y métricas, consulte esta [tabla](/help/reporting/using/assets/dynamic_report_compatibility.pdf). Si dos componentes no son compatibles, la celda mostrará el valor **None**.
 
-[![imagen](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=es)
+[![imagen](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 ## Dimensiones {#dimensions}
 
@@ -62,7 +67,7 @@ La siguiente tabla le proporciona la lista de dimensiones utilizadas en los info
    <td> Tipos de errores que ocasionaron devoluciones para cada entrega; por ejemplo, usuario desconocido, dominio no válido o buzón lleno.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Sexo<br /> </td> 
+   <td> Género<br /> </td> 
    <td> Sexo del destinatario, como hombre o mujer. Si el campo de género está vacío en el perfil del destinatario, el valor será ninguno.<br /> </td> 
   </tr> 
   <tr> 
@@ -83,7 +88,7 @@ La siguiente tabla le proporciona la lista de dimensiones utilizadas en los info
   </tr> 
   <tr> 
    <td> Perfil <br /> </td> 
-   <td> Reagrupa los campos de perfil personalizados y predefinidos creados durante la extensión de recursos de perfil; para obtener más información, consulte esta <a href="../../developing/using/key-steps-to-add-a-resource.md">página</a> o este <a href="../../reporting/using/creating-a-custom-profile-dimension.md">ejemplo</a>.<br /> Tenga en cuenta que los datos de esta dimensión se recuperan en cuanto se publica el recurso personalizado vinculado al campo de perfil.<br /> </td> 
+   <td> Reagrupa los campos de perfil personalizados y predeterminados creados durante la extensión de recursos de perfil; para obtener más información, consulte esta <a href="../../developing/using/key-steps-to-add-a-resource.md">página</a> o este <a href="../../reporting/using/creating-a-custom-profile-dimension.md">ejemplo</a>.<br /> Tenga en cuenta que los datos de esta dimensión se recuperan en cuanto se publica el recurso personalizado vinculado al campo de perfil.<br /> </td> 
   </tr> 
   <tr> 
    <td> Plataforma push<br /> </td> 

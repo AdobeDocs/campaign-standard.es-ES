@@ -1,6 +1,6 @@
 ---
 title: Acerca de las plantillas
-description: "Las plantillas de Adobe Campaign le permiten preconfigurar parámetros según sus necesidades: las plantillas pueden contener una configuración completa o parcial de la actividad de marketing para simplificar el uso de Adobe Campaign para los usuarios finales no técnicos."
+description: 'Las plantillas de Adobe Campaign le permiten preconfigurar parámetros según sus necesidades: las plantillas pueden contener una configuración completa o parcial de la actividad de marketing para simplificar el uso de Adobe Campaign por parte de los usuarios finales no técnicos.'
 audience: start
 content-type: reference
 topic-tags: managing-templates
@@ -8,10 +8,15 @@ feature: Campaigns
 role: User
 level: Beginner
 exl-id: a0f02f69-d72d-48ca-8b38-aaab8d1acfad
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/kZTyOD8tL-C3HzPpUhVohvr7dM0WZ-EdNNQA1S1iB6k
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 99%
+source-wordcount: 417
+ht-degree: 79%
 
 ---
 
@@ -23,7 +28,7 @@ Cuando se crea una nueva actividad de marketing, la primera pantalla del asisten
 
 El usuario final tiene una interfaz simplificada. Al crear una nueva actividad de marketing, solo tiene que seleccionar la plantilla que desee utilizar. No hay necesidad de preocuparse por configuraciones técnicas. El administrador funcional de la plantilla ya lo ha preconfigurado.
 
-Por ejemplo, en el caso de una plantilla de correo electrónico, puede rellenar previamente el contenido HTML, la audiencia y cualquier otro parámetro del envío: programación, perfiles de prueba, propiedades generales del envío, parámetros avanzados, etc. Esto le permite ahorrar tiempo al crear una nueva actividad.
+Por ejemplo, en el caso de una plantilla de correo electrónico, puede rellenar previamente el contenido de HTML, la audiencia y cualquier otro parámetro del envío: programación, perfiles de prueba, propiedades generales del envío, parámetros avanzados, etc. Esto le permite ahorrar tiempo al crear una nueva actividad.
 
 ![](assets/template_1.png)
 
@@ -36,7 +41,7 @@ Las plantillas están disponibles para las siguientes actividades de marketing:
 * Envíos de correo electrónico
 * Envíos de SMS
 * Notificaciones push
-* Páginas de aterrizaje
+* Páginas de destino
 * Flujos de trabajo
 * Servicios
 * Importación
@@ -50,7 +55,7 @@ El administrador funcional de la plataforma puede administrar las plantillas de 
 
    ![](assets/template_2.png)
 
-1. Pase el ratón sobre ella y, a continuación, seleccione la opción **[!UICONTROL Duplicate element]**.
+1. Pase el puntero por encima de ella y, a continuación, seleccione la opción **[!UICONTROL Duplicate element]**.
 
    ![](assets/template_3.png)
 

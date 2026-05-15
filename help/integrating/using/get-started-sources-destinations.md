@@ -7,10 +7,16 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: ba6205fa-dbcf-497a-882f-f15c00f12e68
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/r1rASYXuo-xeKH80eZVYG-jUhxy93GuTa8CIDyouSNY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 62%
+source-wordcount: 314
+ht-degree: 64%
 
 ---
 
@@ -30,9 +36,9 @@ Con Adobe Experience Platform, puede compartir datos entre Campaign Standard y l
 
 Para obtener una descripción más detallada de la plataforma de datos del cliente en tiempo real de Adobe, los destinos y los orígenes, consulte estas páginas:
 
-* [Plataforma de datos del cliente en tiempo real de Adobe](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=es)
-* [Documentación de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=es)
-* [Documentación de orígenes](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es)
+* [Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=es)
+* [Documentación sobre los destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=es)
+* [Documentación sobre los orígenes](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es)
 
 ## Conexión de Campaign Standard con Adobe Experience Platform
 

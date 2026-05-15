@@ -8,10 +8,15 @@ feature: Send Time Optimization
 role: User
 level: Intermediate
 exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
-source-git-commit: 75628ed8a2f9b21def23e5b257a3592e1a721536
+TQID: https://experienceleague.adobe.com/fDzmrslmo3YdV0vVeGlC2SOWdATbYlUyGD6C-kLbSMY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 47%
+source-wordcount: 1117
+ht-degree: 45%
 
 ---
 
@@ -45,7 +50,7 @@ Dentro del modelo de optimización del tiempo de envío predictivo, hay dos subm
 
 Detalles de la salida
 
-* Calcula la mejor hora del día para enviar un correo electrónico durante los 7 días de la semana con intervalos de 1 hora (por ejemplo: 9:00, 10:00 y 11:00 de la mañana).
+* Calcula la mejor hora del día para enviar un correo electrónico durante los 7 días de la semana con intervalos de 1 hora (por ejemplo: 9:00 a. m., 10:00 a. m., 11:00 a. m.)
 * El modelo indicará el mejor día de la semana y la mejor hora de ese día.
 * Cada horario óptimo se calcula dos veces: una vez para maximizar la tasa de apertura y otra para maximizar la tasa de clics.
 * Se dan 16 campos (14 para los días de la semana y 2 para toda la semana):
@@ -118,7 +123,7 @@ Este modelo utiliza varias puntuaciones para indicar:
 * **Puntuación de participación de aperturas/Puntuación de participación de clics**: este valor coincide con la probabilidad de que un suscriptor interactúe con un mensaje específico (lo abra o haga clic). Los valores van del 0,0 al 1,0.
 * **Probabilidad de baja**: este valor coincide con la probabilidad de que el destinatario cancele la suscripción del canal de correo electrónico a partir de un correo electrónico abierto. Los valores van del 0,0 al 1,0.
 * **Nivel de retención**: este valor clasifica a los usuarios en tres niveles: baja, media y alta. Es muy probable que el nivel alto permanezca con la marca y que el bajo probablemente cancele la suscripción.
-* **Clasificación del percentil de retención**: clasificación de perfiles en términos de las probabilidades de baja. Los valores van del 0,0 al 1,0. Por ejemplo: si la clasificación del porcentaje de retención es de 0,953, es más probable que este destinatario permanezca con la marca y tenga menos probabilidades de cancelar la suscripción que el 95,3% de todos los destinatarios.
+* **Clasificación del percentil de retención**: clasificación de perfiles en términos de las probabilidades de baja. Los valores van del 0,0 al 1,0. Por ejemplo, si la clasificación del porcentaje de retención es de 0,953, es más probable que este destinatario permanezca con la marca y tenga menos probabilidades de cancelar la suscripción que el 95,3 % de todos los destinatarios.
 
 >[!NOTE]
 >
@@ -136,6 +141,6 @@ Para acceder a estas métricas, debe hacer lo siguiente:
 
 1. Haga clic en la pestaña **Puntuaciones de participación para el canal de correo electrónico**.
 
-Mediante una actividad de consulta en un flujo de trabajo, puede utilizar la puntuación para optimizar la audiencia. Por ejemplo, con los criterios de **nivel de retención:** 
+Mediante una actividad de consulta en un flujo de trabajo, puede utilizar la puntuación para optimizar la audiencia. Por ejemplo, con los criterios de **nivel de retención:**
 
 ![](assets/do-not-localize/predictive_score_query.png)

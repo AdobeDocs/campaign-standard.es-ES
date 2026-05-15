@@ -6,9 +6,13 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b983d0a3-c345-44d4-bc82-202bf6ed26ab
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+TQID: https://experienceleague.adobe.com/t8aqY1Bp8McHJjthjuLMZo2zA3-bG6GTC6ZeeVWZD0A
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: 574
 ht-degree: 0%
 
 ---
@@ -27,7 +31,7 @@ El seguimiento de notificaciones locales se puede dividir en tres tipos:
 
 * **Apertura local**: cuando se ha enviado una notificación local al dispositivo y el usuario ha hecho clic en la notificación que provoca la apertura de la aplicación. Esto es similar al clic local, excepto que la apertura local no se activa si se descarta la notificación.
 
-Para implementar el seguimiento para Adobe Campaign Standard, la aplicación móvil debe incluir el SDK móvil en la aplicación. Estos SDK están disponibles en [!DNL Adobe Mobile Services].
+Para implementar el seguimiento para Adobe Campaign Standard, la aplicación móvil debe incluir SDK móvil en la aplicación. Estos SDK están disponibles en [!DNL Adobe Mobile Services].
 
 Para enviar información de seguimiento, hay tres variables que se deben enviar: dos son parte de los datos recibidos de Adobe Campaign y la otra es una variable de acción que dicta si es una impresión, un clic o una apertura.
 
@@ -39,7 +43,7 @@ Para enviar información de seguimiento, hay tres variables que se deben enviar:
 
 ## Implementación del seguimiento de impresiones locales {#implement-local-impression-tracking}
 
-El SDK de Adobe Experience Platform Mobile enviará automáticamente el evento de impresión tanto para Android como para iOS sin ninguna configuración adicional.
+Adobe Experience Platform Mobile SDK enviará automáticamente el evento de impresión tanto para Android como para iOS sin ninguna configuración adicional.
 
 ## Implementación del rastreo de clics {#implementing-click-tracking}
 

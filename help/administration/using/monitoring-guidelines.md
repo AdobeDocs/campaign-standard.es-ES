@@ -1,15 +1,20 @@
 ---
 title: Directrices de monitorización
-description: Esta página presenta las directrices generales para el Campaign Standard de monitorización
+description: Esta página presenta las directrices generales para monitorizar Campaign Standard
 audience: production
 feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 5f25f2b2-ca41-4baf-ade2-42bbafb4790d
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+TQID: https://experienceleague.adobe.com/4hy5-pubF9F2FDQGaC7GF-BfMHqMDykC4mtypRc-zsk
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 13%
+source-wordcount: 512
+ht-degree: 19%
 
 ---
 
@@ -29,7 +34,7 @@ Campaign Standard proporciona varias formas de monitorizar las instancias para a
 
 **Notificaciones del sistema**
 
-La interfaz de Campaign Standard proporciona un panel de notificaciones que le permite mantenerse informado de lo que está ocurriendo en el sistema: eventos, estados, actualizaciones del sistema, acciones requeridas, etc. [Más información](../../start/using/interface-description.md#top-bar)
+La interfaz de Campaign Standard proporciona un panel de notificación que le permite mantenerse informado de lo que está sucediendo en el sistema: eventos, estados, actualizaciones del sistema, acciones necesarias, etc. [Más información](../../start/using/interface-description.md#top-bar)
 
 
 **Flujos de trabajo técnicos**
@@ -46,7 +51,7 @@ El Panel de control de Campaign le permite administrar varias configuraciones de
 
 **Objetos técnicos**
 
-El menú **[!UICONTROL Diagnosis]** es una herramienta clave para monitorizar y analizar los diferentes objetos técnicos generados por la aplicación: esquemas de datos, páginas web, trabajos por lotes, etc. [Más información](../../developing/using/monitoring-data-model-changes.md)
+El menú **[!UICONTROL Diagnosis]** es una herramienta clave para supervisar y analizar los diferentes objetos técnicos generados por la aplicación: esquemas de datos, páginas web, trabajos por lotes, etc. [Más información](../../developing/using/monitoring-data-model-changes.md)
 
 **Exportar auditorías**
 

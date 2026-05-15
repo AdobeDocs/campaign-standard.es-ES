@@ -10,10 +10,13 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: f11754fb-188e-4cae-bd5b-0dfbf74befb3
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/Wz7KYgeVn1RlS4wnfhs-FD-kO5PJb1DzuUg9t1asD5U
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 95%
+source-wordcount: 1103
+ht-degree: 92%
 
 ---
 
@@ -200,8 +203,8 @@ Las condiciones deben vincularse a los valores mediante uno de los siguientes op
    <td> <span class="uicontrol">Not like</span> <br /> </td> 
    <td> NOT<br /> </td> 
    <td> N/A<br /> </td> 
-   <td> Es similar a <span class="uicontrol">Like</span> . Le permite no recuperar el valor introducido. En este caso, el valor introducido debe contener el carácter comodín <span class="uicontrol">%</span>.<br /> </td> 
-   <td> <strong>@lastName NOT Smi%h</strong>. En este caso, los destinatarios corresponden al nombre "Smi%h" (por lo que Smith, etc.) no se devuelven como resultado.<br /> </td> 
+   <td> Es similar a <span class="uicontrol">Like</span> . Le permite no recuperar el valor introducido. En este caso, el valor introducido debe contener <span class="uicontrol">%</span> wild card character.<br /> </td> 
+   <td> <strong>@lastName NOT Smi%h</strong>. Aquí, los destinatarios corresponden al nombre "Smi%h" (por lo tanto, Smith, etc.) no se devuelven como resultado.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Is empty</span> <br /> </td> 

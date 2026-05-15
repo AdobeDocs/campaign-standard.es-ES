@@ -6,10 +6,14 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/VFoQlDxzagik5EI-gzWmNkHfZaJtM7V9-1TwJnGxstc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1307'
-ht-degree: 2%
+source-wordcount: 1443
+ht-degree: 3%
 
 ---
 
@@ -19,7 +23,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
-> Adobe Experience Platform Launch se ha convertido en un conjunto de tecnologías de recopilación de datos en Adobe Experience Platform. Como resultado, se han implementado varios cambios terminológicos en la documentación del producto. Consulte el [siguiente documento](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=es){target="_blank"} para obtener una referencia consolidada de los cambios terminológicos.
+> Adobe Experience Platform Launch se ha convertido en un conjunto de tecnologías de recopilación de datos en Adobe Experience Platform. Como resultado, se han implementado varios cambios terminológicos en la documentación del producto. Consulte el [siguiente documento](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html){target="_blank"} para obtener una referencia consolidada de los cambios terminológicos.
 
 Tenga en cuenta que las implementaciones de notificaciones push e en la aplicación deben realizarlas usuarios expertos. Para obtener ayuda, póngase en contacto con su administrador de cuentas de Adobe o con su socio de servicios profesionales.
 
@@ -43,7 +47,7 @@ Para completar la configuración, complete los siguientes pasos:
    * En Adobe Campaign Standard, asegúrese de que el usuario de IMS forme parte de los Perfiles de producto de usuario y administrador estándar. Este paso permite al usuario iniciar sesión en Adobe Campaign Standard, navegar a la página de la aplicación móvil de Experience Platform SDK y ver las propiedades de la aplicación móvil que ha creado en la IU de recopilación de datos.
 
    * En la IU de recopilación de datos, asegúrese de que el usuario de IMS forme parte de un perfil de producto de Experience Platform Launch.
-Este paso permite al usuario iniciar sesión en la interfaz de usuario de recopilación de datos para crear y ver las propiedades. Para obtener más información sobre los perfiles de producto en la IU de recopilación de datos, consulta [Crear tu perfil de producto](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html?lang=es#gain-admin-rights-for-a-tags-product-profile). En el perfil del producto no debe haber permisos establecidos en la empresa o las propiedades, pero el usuario debe poder iniciar sesión.
+Este paso permite al usuario iniciar sesión en la interfaz de usuario de recopilación de datos para crear y ver las propiedades. Para obtener más información sobre los perfiles de producto en la IU de recopilación de datos, consulta [Crear tu perfil de producto](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html#gain-admin-rights-for-a-tags-product-profile). En el perfil del producto no debe haber permisos establecidos en la empresa o las propiedades, pero el usuario debe poder iniciar sesión.
 
    Para completar tareas adicionales como instalar una extensión, publicar una aplicación, configurar entornos, etc., debe establecer permisos en el perfil del producto.
 
@@ -143,7 +147,7 @@ La aplicación móvil ya está lista para utilizarse en Campaign para notificaci
 
    ![](assets/launch_7.png)
 
-1. Haga clic en **[!UICONTROL Add]**.
+1. Haga clic **[!UICONTROL Add]**.
 
    El evento ahora está disponible en la pestaña Déclencheur al crear un mensaje en la aplicación. Para obtener más información, consulte [Preparación y envío de un mensaje en la aplicación](../../channels/using/preparing-and-sending-an-in-app-message.md).
 

@@ -6,9 +6,13 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 7ef0712e-4e42-41c8-9382-fbbd06edfdd9
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+TQID: https://experienceleague.adobe.com/14iQSiLOTGCwAvxz0lwxS8tB0X3pg0Pi8JB0NjBOTAc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '2710'
+source-wordcount: 2724
 ht-degree: 87%
 
 ---
@@ -91,13 +95,13 @@ Una conexión se considera inestable si se produce alguna de las siguientes situ
 
 * `enquire_link` agota el tiempo de espera, ya sea en el lado de Adobe Campaign o en el del proveedor. Puede ver `ENQUIRE_LINK_RESP` con un código de error distinto de cero en ese caso.
 
-* Hay muchas `BIND PDU`. No debe haber más de unas pocas durante un día, según la cantidad de conexiones. Más de una PDU BIND por hora debería llamar su atención.
+* Hay un montón de `BIND PDU`. No debe haber más de unas pocas durante un día, según el número de conexiones. Más de una PDU BIND por hora debería llamar su atención.
 
 Para solucionar los problemas de estabilidad de la conexión:
 
 * Las conexiones inestables rara vez son la causa principal, a menudo es el resultado de otro problema que desencadena una desconexión. La prioridad es encontrar la causa raíz.
 
-* Habilite seguimientos detallados del SMPP. Los necesitará para ver que está ocurriendo cuando la conexión re reinicie. 
+* Habilite seguimientos detallados del SMPP. Los necesitará para ver que está ocurriendo cuando la conexión re reinicie.
 
 * Si el proveedor envía `BIND PDU`, algo podría estar mal. Pregunte al proveedor por qué se envía `UNBING`.
 
@@ -117,9 +121,9 @@ Para solucionar los problemas de estabilidad de la conexión:
 
 * Compruebe que el MTA procesa realmente el mensaje. Si no es así, podría no ser un problema de SMS.
 
-* Compruebe que el conector SMS está vinculado con el equipo del proveedor. Pídale información al proveedor para asegurarse de que todos los sistemas se comunican correctamente. Consulte `BIND_TRANSMITTER` y `BIND_TRANSCEIVER PDU` para obtener información sobre el proceso de vinculación. Es posible que deba habilitar los seguimientos del SMPP para la correcta resolución de problemas.
+* Compruebe que el conector SMS está vinculado con el equipo del proveedor. Pídale comentarios al proveedor para asegurarse de que todos los sistemas se comunican correctamente. Consulte `BIND_TRANSMITTER` y `BIND_TRANSCEIVER PDU` para obtener información sobre el proceso de vinculación. Es posible que deba habilitar los seguimientos del SMPP para la correcta resolución de problemas.
 
-* Con los seguimientos del SMPP activados, compruebe que `SUBMIT_SM PDU` contiene la información correcta.
+* Con los seguimientos del SMPP habilitados, compruebe que `SUBMIT_SM PDU` contiene la información correcta.
 
 * Compruebe que el proveedor responde con un `SUBMIT_SM_RESP PDU` con un valor &quot;OK&quot; (código 0). Asegúrese de que la PDU llega con un retraso razonable: cualquier valor superior a 1 segundo debe ser consultado con el proveedor, normalmente llega en menos de 100 ms.
 
@@ -141,7 +145,7 @@ Reducción de la cantidad de duplicados cuando hay un reintento:
 
 ## Problema al procesar SR (recibos de entrega) {#issue-process-SR}
 
-* Necesitará los seguimientos del SMPP activados para realizar cualquier tipo de resolución de problemas de SR.
+* Necesitará los seguimientos del SMPP habilitados para realizar cualquier tipo de resolución de problemas de SR.
 
 * Compruebe que el `DELIVER_SM PDU` proviene del proveedor y que está bien formado.
 
@@ -173,7 +177,7 @@ Si ha corregido todo, pero algunos SR no válidos siguen en los búferes del pro
 
 ## Problema durante la preparación de la entrega sin excluir destinatarios en cuarentena (en cuarentena por la función de respuesta automática) {#issue-delivery-preparation}
 
-* Compruebe que el formato del número de teléfono sea exactamente el mismo en la tabla de cuarentena y en el registro de envíos.  Si no es así, consulte esta [sección](../../administration/using/sms-protocol.md#automatic-reply) si tiene problemas con el prefijo más del formato del número de teléfono internacional.
+* Compruebe que el formato del número de teléfono es exactamente el mismo en la tabla de cuarentenas y en el registro de envíos.  Si no es así, consulte esta [sección](../../administration/using/sms-protocol.md#automatic-reply) si tiene problemas con el prefijo más del formato del número de teléfono internacional.
 
 * Compruebe los códigos cortos. Las exclusiones pueden producirse si el código corto del destinatario es el mismo que se define en la cuenta externa o si está vacío (vacío = cualquier código abreviado). Si solo se utiliza un código corto para toda la instancia de Adobe Campaign, es más fácil dejar vacíos todos los campos de **código corto**.
 
@@ -211,7 +215,7 @@ Envíe diferentes tipos de caracteres especiales al realizar pruebas. Por ejempl
 
 Siempre que busque ayuda sobre un problema de SMS, ya sea abriendo una entrada de asistencia en Adobe Campaign, al proveedor de SMS o cualquier tipo de comunicación sobre el tema, necesitará incluir la siguiente información para asegurarse de que esté debidamente clasificado. Los problemas debidamente clasificados son la clave para que se resuelvan más rápido.
 
-* **Active los** mensajes SMPP detallados cuando aparezca el problema. La mayoría de los problemas de SMS son imposibles de resolver sin esto.
+* **Habilite los** mensajes SMPP detallados cuando aparezca el problema. La mayoría de los problemas de SMS son imposibles de resolver sin esto.
 
 * Si el problema está relacionado con el tráfico de SMS, póngase en contacto primero con el proveedor. Su plataforma es más adecuada para un diagnóstico eficiente de los problemas de tráfico SMS en tiempo real.
 
@@ -261,11 +265,11 @@ En algunos casos, no es necesario capturar el tráfico de red. Estas son las sit
 
 * Errores que no implican tráfico SMPP real: Preparación de envíos, problemas de API de centros de mensajes, problemas de flujo de trabajo, etc.
 
-## Activación de los seguimientos del SMPP {#enabling-smpp-traces}
+## Habilitación de los seguimientos del SMPP {#enabling-smpp-traces}
 
 El nuevo conector admite el registro extendido mediante seguimientos: SMPP. Los seguimientos aparecen en el registro MTA, no en la salida estándar.
 
-**Activación por cuenta externa (método preferido)**
+**Habilitación por cuenta externa (método preferido)**
 
 1. En la **Cuenta externa**, seleccione **Habilitar los seguimientos detallados del SMPP en el archivo de registro**.
 1. Guardar, el conector se volverá a conectar con los seguimientos activados.
@@ -273,7 +277,7 @@ El nuevo conector admite el registro extendido mediante seguimientos: SMPP. Los 
 **Habilitando sobre la marcha**
 
 El MTA de Adobe Campaign Standard tiene una interfaz de control HTTP que permite cambiar el filtro de seguimiento sobre la marcha.
-Una llamada al POST puede habilitar o deshabilitar los seguimientos. Ejemplo de URL para habilitar los seguimientos del SMPP:
+Una llamada de POST puede habilitar/deshabilitar los seguimientos. Ejemplo de URL para habilitar los seguimientos del SMPP:
 
 ```
 POST http://host:7780/mta/trace?filter=SMPP

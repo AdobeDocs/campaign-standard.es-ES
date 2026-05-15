@@ -9,10 +9,14 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 7dfbd89f-877e-4598-bfe3-d743bb31ae9e
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/51wbz72EYAf6-7RvC0QhOCm1Jmw9o7W04fs9iN0viNw
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 31%
+source-wordcount: 457
+ht-degree: 34%
 
 ---
 
@@ -25,8 +29,8 @@ Al editar un correo electrónico, puede insertar una imagen dinámica desde Adob
 Antes de acceder a la imagen en Adobe Campaign, se deben realizar primero las siguientes tareas en Adobe Target:
 
 * Cree una o varias [ofertas de redireccionamiento](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html?lang=es), en las que debe especificar la dirección URL de la imagen que va a utilizar.
-* Cree una o varias [audiencias](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=es) para definir el público objetivo de la actividad.
-* Cree una actividad de [Compositor de experiencias basadas en formularios](https://experienceleague.adobe.com/docs/target/using/experiences/form-experience-composer.html?lang=es), en la cual tendrá que seleccionar un &quot;rawbox&quot; y especificar varias experiencias, dependiendo del número de ofertas de redireccionamiento creadas. Para cada experiencia, debe seleccionar una de las ofertas de redireccionamiento creadas.
+* Cree una o varias [audiencias](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html) para definir el público objetivo de la actividad.
+* Cree una actividad de [Compositor de experiencias basadas en formularios](https://experienceleague.adobe.com/docs/target/using/experiences/form-experience-composer.html), en la cual tendrá que seleccionar un &quot;rawbox&quot; y especificar varias experiencias, dependiendo del número de ofertas de redireccionamiento creadas. Para cada experiencia, debe seleccionar una de las ofertas de redireccionamiento creadas.
 * Cree segmentos con información de Adobe Campaign para especificar experiencias. Para utilizar datos de Adobe Campaign en las reglas de selección de la oferta, debe especificar los datos en el “rawbox” en Adobe Target.
 
 1. Creación de una entrega de correo electrónico.

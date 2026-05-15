@@ -7,10 +7,13 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: a326b38f-ca88-4a44-a7c2-b6e34497a364
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+TQID: https://experienceleague.adobe.com/kGtxG4yKA8Uxzc0hZbZFk1VLiVM9FPTvCoIoMd--n4M
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 37%
+source-wordcount: 222
+ht-degree: 44%
 
 ---
 
@@ -20,7 +23,7 @@ ht-degree: 37%
 
 <table>
                <tr>
-                  <th>Nombre</th>
+                  <th>Name</th>
                   <th>Etiqueta</th>
                   <th>Tipo (longitud)</th>
                   <th>Valores de enumeración</th>
@@ -46,7 +49,7 @@ ht-degree: 37%
                <tr>
                   <td>createdBy (userBase)</td>
                   <td>Creado por</td>
-                  <td>vincular </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -70,7 +73,7 @@ ht-degree: 37%
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
                   <td>Unidad geográfica</td>
-                  <td>vincular </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -142,19 +145,19 @@ ht-degree: 37%
                <tr>
                   <td>modifiedBy (userBase)</td>
                   <td>Modificado por</td>
-                  <td>vincular </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>name</td>
-                  <td>Identificación</td>
+                  <td>Identidad</td>
                   <td>cadena (64)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
                   <td>Entidades organizativas</td>
-                  <td>vincular </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -164,7 +167,7 @@ ht-degree: 37%
                   <td> </td>
                </tr>
                <tr>
-                  <td>start</td>
+                  <td>iniciar</td>
                   <td>Fecha de inicio</td>
                   <td>fecha </td>
                   <td> </td>
@@ -172,13 +175,13 @@ ht-degree: 37%
                <tr>
                   <td>subLandingPage (landingPageSubscriptionBase)</td>
                   <td>Página de aterrizaje de suscripción</td>
-                  <td>vincular </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>subScenario (deliveryMCTemplateBase)</td>
                   <td>Confirmación de suscripción</td>
-                  <td>vincular </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -202,7 +205,7 @@ ht-degree: 37%
                <tr>
                   <td>plantilla (servicio)</td>
                   <td>Plantilla de servicio</td>
-                  <td>vincular </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -220,13 +223,13 @@ ht-degree: 37%
                <tr>
                   <td>unsubLandingPage (landingPageUnsubscriptionBase)</td>
                   <td>Página de aterrizaje de baja</td>
-                  <td>vincular </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>unsubScenario (deliveryMCTemplateBase)</td>
                   <td>Confirmación de baja</td>
-                  <td>vincular </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>

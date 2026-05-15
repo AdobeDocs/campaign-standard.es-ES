@@ -9,18 +9,23 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 342911c5-0746-4205-b380-be195b9cb82a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/LZNc1yJEI9GGnxAs-eLhrDoX91RtZKXRMhqQxkiSN-g
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: 542
 ht-degree: 95%
 
 ---
 
 # Configuración de la definición del filtro{#configuring-filter-definition}
 
-En la pestaña **[!UICONTROL Filter definition]**, puede crear filtros avanzados a los que los usuarios pueden acceder directamente al crear consultas complejas, como cuando se define una audiencia.
+En la pestaña **[!UICONTROL Filter definition]**, puede crear filtros avanzados a los que los usuarios pueden acceder directamente al crear consultas complejas, como cuando se define un público.
 
-Este paso no es obligatorio, ya que aún puede rellenar el recurso y acceder a sus datos a través de flujos de trabajo, audiencias y API de REST.
+Este paso no es obligatorio, ya que aún puede rellenar el recurso y acceder a sus datos a través de flujos de trabajo, públicos y API de REST.
 
 ![](assets/custom_resource_filter-definition.png)
 
@@ -71,9 +76,9 @@ Para ello, debe ampliar el recurso **[!UICONTROL Profiles]** y definir un filtro
 
 1. Guarde los cambios y publique los recursos. Para obtener más información, consulte la sección [Actualización de la estructura de la base de datos](../../developing/using/updating-the-database-structure.md).
 
-Una vez publicada la extensión del recurso **[!UICONTROL Profiles]**, los usuarios verán este filtro en la pestaña de métodos abreviados de la interfaz del [editor de consultas &#x200B;](../../automating/using/editing-queries.md).
+Una vez publicada la extensión del recurso **[!UICONTROL Profiles]**, los usuarios verán este filtro en la pestaña de métodos abreviados de la interfaz del [editor de consultas ](../../automating/using/editing-queries.md).
 
-Esto permitirá al usuario definir fácilmente su audiencia al crear un correo electrónico para enviarlo a todos los clientes que gastaron más de una determinada cantidad en los últimos tres meses.
+Esto permitirá al usuario definir fácilmente su público al crear un correo electrónico para enviarlo a todos los clientes que gastaron más de una determinada cantidad en los últimos tres meses.
 
 ![](assets/custom_resource_filter-definition_email-audience.png)
 
@@ -85,4 +90,4 @@ Una vez configurado un filtro, puede utilizarlo desde las API de Campaign Standa
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/by<customFilterName>?<customFilterparam>=<customFilterValue>`
 
-Para obtener más información, consulte la [documentación de API de Campaign Standard](../../api/using/filtering.md#custom-filters).
+Para obtener más información, consulte la [documentación de las API de Campaign Standard](../../api/using/filtering.md#custom-filters).

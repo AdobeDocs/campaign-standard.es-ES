@@ -9,9 +9,14 @@ feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 10bd4e4f-78b4-4318-bded-4cf33b466f1d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/1uLedUXL9KXfGfdTv05T6PVQGGcgy3orf2l6TgIi4Gw
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: 310
 ht-degree: 97%
 
 ---
@@ -70,6 +75,6 @@ Para vincular una tipología a un mensaje, siga estos pasos:
 
    ![](assets/typology_message.png)
 
-1. Haga clic en **[!UICONTROL Confirm]**.
+1. Haga clic **[!UICONTROL Confirm]**.
 
    La tipología seleccionada está ahora vinculada al mensaje. Todas sus reglas de tipología asociadas se ejecutarán para comprobar la validez del mensaje.

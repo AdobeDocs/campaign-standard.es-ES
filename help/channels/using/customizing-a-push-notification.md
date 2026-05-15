@@ -9,9 +9,14 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 3fe3495b-e360-4169-b295-86ad93753468
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+TQID: https://experienceleague.adobe.com/dS7csVOV5g64DQCssB9Nzz2ByX3t1gAe2HXdGJo1N50
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1439'
+source-wordcount: 1509
 ht-degree: 93%
 
 ---
@@ -109,9 +114,9 @@ Según lo que haga el usuario, se notifica a la aplicación para que pueda reali
 
 ## Añadir una fecha de caducidad {#add-expiration-date}
 
-Configurar una fecha de vencimiento en la notificación push le permite establecer una fecha límite específica a partir de la cual Apple ([APNS](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/sending_notification_requests_to_apns)) o Android ([FCM](https://firebase.google.com/docs/cloud-messaging/concept-options)) ya no enviarán el mensaje.
+Configurar una fecha de caducidad en la notificación push le permite establecer una fecha límite específica a partir de la cual Apple ([APNS](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/sending_notification_requests_to_apns)) o Android ([FCM](https://firebase.google.com/docs/cloud-messaging/concept-options)) ya no enviarán el mensaje.
 
-Para añadir una fecha de vencimiento a la notificación push:
+Para añadir una fecha de caducidad a la notificación push:
 
 1. Marque la opción **[!UICONTROL Expire message]**: al seleccionar la opción **[!UICONTROL Expire message]**, la duración se establece automáticamente en 0. Si no cambia el valor, APNS y FCM intentan enviar el mensaje inmediatamente. Si ocurre un error, el mensaje no se vuelve a enviar.
 
@@ -119,9 +124,9 @@ Para añadir una fecha de vencimiento a la notificación push:
 
    ![](assets/push_expiration.png)
 
-1. Después de enviar la notificación push, si el usuario no la ha recibido de inmediato debido a que el teléfono no estaba encendido o no tenía cobertura, la notificación push se envía dentro del intervalo de fecha de vencimiento.
+1. Después de enviar la notificación push, si el usuario no la ha recibido de inmediato debido a que el teléfono no estaba encendido o no tenía cobertura, la notificación push se envía dentro del intervalo de fecha de caducidad.
 
-Tenga en cuenta que si la notificación push no se ha enviado antes de la fecha de vencimiento, se descarta.
+Tenga en cuenta que si la notificación push no se ha enviado antes de la fecha de caducidad, se descarta.
 
 ## Añadir campos personalizados {#add-custom-fields}
 

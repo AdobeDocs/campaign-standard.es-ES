@@ -9,14 +9,19 @@ feature: Performance Monitoring
 role: User
 level: Beginner
 exl-id: ddc92077-df73-411d-a161-3263581e6945
-source-git-commit: ed60bde4785da9a8cc5a6cc0efcdb24e2c1f65e3
+TQID: https://experienceleague.adobe.com/QybG0D0D6-Fa6bfpjD-sI7WrQbxDelc0IBVC4BcWLlg
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: 503
 ht-degree: 79%
 
 ---
 
-# Seguimiento de un envío{#monitoring-a-delivery}
+# Seguimiento de una entrega{#monitoring-a-delivery}
 
 Existen varias formas de supervisar un envío y medir su impacto. Como administrador funcional, puede acceder a los registros de mensajes y de envíos.
 
@@ -24,7 +29,7 @@ Existen varias formas de supervisar un envío y medir su impacto. Como administr
 >
 >Solo los [administradores](../../administration/using/users-management.md#functional-administrators) funcionales con el rol **[!UICONTROL Administration]** y acceso a las unidades **All** pueden acceder a los registros de envío, los registros de mensajes, los registros de seguimiento y los registros de exclusión o suscripción. Un usuario no administrador puede dirigirse a estos registros empezando por una tabla vinculada (perfiles, envío).
 
-* **Registros de mensajes**: se puede acceder a estos registros directamente desde el panel de mensajes. Muestran los detalles del envío, qué destinatario se ha excluido y por qué, así como la información de seguimiento como aperturas y clics.
+* **Registros de mensajes**: se puede acceder a estos registros directamente desde el panel de control de mensajes. Muestran los detalles del envío, qué destinatario se ha excluido y por qué, así como la información de seguimiento como aperturas y clics.
 
   Para ver los registros de mensajes, haga clic en el icono situado en la parte inferior derecha del bloque **[!UICONTROL Deployment]**.
 
@@ -45,7 +50,7 @@ Existen varias formas de supervisar un envío y medir su impacto. Como administr
   ![](assets/sending_delivery8.png)
 
 * **Alertas de envío**: para realizar un seguimiento de los envíos erróneos o correctos, Adobe Campaign proporciona un sistema de alertas por correo electrónico que envía notificaciones para informar a los usuarios de las actividades importantes del sistema.
-* **Informes**: en el panel de mensajes, puede acceder a varios informes para este mensaje específico. También tiene el menú **[!UICONTROL Reports]**, que le permite acceder a una lista completa de informes integrados o personalizados que puede utilizar para crear métricas específicas relacionadas con su mensaje o campaña.
+* **Informes**: en el panel de control de mensajes, puede acceder a varios informes para este mensaje específico. También tiene el menú **[!UICONTROL Reports]**, que le permite acceder a una lista completa de informes integrados o personalizados que puede utilizar para crear métricas específicas relacionadas con su mensaje o campaña.
 * Un administrador también puede exportar registros a un archivo independiente que se puede procesar en sus propias herramientas de creación de informes o de inteligencia de negocios. Para obtener más información, consulte [Exportación de registros](../../automating/using/exporting-logs.md).
 
 **Temas relacionados:**

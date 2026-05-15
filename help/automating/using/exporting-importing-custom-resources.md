@@ -9,10 +9,14 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: f8e7eb96-9541-4d28-9d8d-f06af822debd
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/3WJ46WcDxxGM-6Cx6Owk-p0z6J4k6KVRx8TqdbKFz9c
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 95%
+source-wordcount: 629
+ht-degree: 96%
 
 ---
 
@@ -111,7 +115,7 @@ El paquete generado está disponible en la carpeta de descargas. El nombre del a
    ![](assets/cusresources_import2.png)
 
 1. Modifique la etiqueta, por ejemplo **Importar estructura**, luego haga clic en **[!UICONTROL Save]**.
-1. Haga clic en **[!UICONTROL Start import]**.
+1. Haga clic **[!UICONTROL Start import]**.
 
    ![](assets/cusresources_import3.png)
 
@@ -134,7 +138,7 @@ Del mismo modo que en el paso anterior, se divide en dos partes: importar el paq
 1. Vaya al menú **[!UICONTROL Administration]** / **[!UICONTROL Deployment]** / **[!UICONTROL Package imports]** para crear un nuevo paquete e importar el archivo que contiene los datos.
 1. Arrastre y suelte el archivo de datos en la zona proporcionada para tal fin. Los formatos aceptados son ZIP o XML.
 1. Modifique la etiqueta, por ejemplo “Importar datos”, y luego haga clic en **[!UICONTROL Save]**.
-1. Haga clic en **[!UICONTROL Start import]**.
+1. Haga clic **[!UICONTROL Start import]**.
 
    ![](assets/cusresources_importdata.png)
 

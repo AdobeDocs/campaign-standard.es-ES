@@ -1,6 +1,6 @@
 ---
 title: Actividades de marketing
-description: '“Aprenda a crear y administrar sus actividades de marketing: campañas, correo electrónico, SMS y envíos de notificaciones push, páginas de aterrizaje o flujos de trabajo. Puede diseñar fácilmente una nueva actividad, editar una existente y consultar su estado y validez”.'
+description: 'Obtenga información sobre cómo crear y administrar sus actividades de marketing: campañas, correo electrónico, SMS y envíos de notificaciones push, páginas de aterrizaje o flujos de trabajo. Puede diseñar fácilmente una nueva actividad, editar una existente y consultar su estado y validez.'
 audience: start
 content-type: reference
 topic-tags: marketing-plans
@@ -9,10 +9,15 @@ feature: Campaigns
 role: User
 level: Beginner
 exl-id: c75471aa-b947-4488-a569-5412d3825c64
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/qtUofiuJOT-dL9VwrRGjx7-y7-JD4y-TJ7PDt-qfVNo
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 79%
+source-wordcount: 489
+ht-degree: 71%
 
 ---
 
@@ -22,7 +27,7 @@ ht-degree: 79%
 
 Puede crear y administrar sus actividades de marketing desde los programas y campañas a los que pertenecen, o mediante la lista de actividades de marketing.
 
-La lista de actividades de marketing centraliza todas las actividades, independientemente de los programas o campañas en los que se crearon. Por lo tanto, los programas, las campañas, los envíos (correos electrónicos, mensajes SMS y notificaciones push), las páginas de aterrizaje y los flujos de trabajo no se desglosan en un orden jerárquico determinado.
+La lista de actividades de marketing centraliza todas las actividades, independientemente de los programas o campañas en los que se crearon. Por lo tanto, los programas, las campañas, los envíos (correos electrónicos, mensajes SMS y notificaciones push), las páginas de destino y los flujos de trabajo no se desglosan en un orden jerárquico determinado.
 
 Para acceder a la lista de actividad de marketing, elija el vínculo **[!UICONTROL Marketing activities]** en la barra superior.
 
@@ -61,9 +66,9 @@ Según el periodo de validez y el estado, el color asociado a este icono indica 
 
 ## Creación de una actividad de marketing {#creating-a-marketing-activity}
 
-Desde una campaña existente, puede crear diferentes tipos de mensajes (**correo electrónico**, **SMS**, **notificación push**, etc.), flujos de trabajo y páginas de aterrizaje.
+Desde una campaña existente, puede crear diferentes tipos de mensajes (**correo electrónico**, **SMS**, **notificación push**, etc.), flujos de trabajo y páginas de destino.
 
-Desde un programa existente, puede crear otros programas, campañas, flujos de trabajo y páginas de aterrizaje.
+Desde un programa existente, puede crear otros programas, campañas, flujos de trabajo y páginas de destino.
 
 >[!NOTE]
 >
@@ -71,7 +76,7 @@ Desde un programa existente, puede crear otros programas, campañas, flujos de t
 
 Los programas y campañas se presentan en la sección [Programas y campañas](../../start/using/programs-and-campaigns.md).
 
-1. En el panel de un programa o una campaña, cree una nueva actividad de marketing con el botón **[!UICONTROL Create]**.
+1. En el panel de control de un programa o una campaña, cree una nueva actividad de marketing con el botón **[!UICONTROL Create]**.
 
    ![](assets/marketing_activiy_creation_1.png)
 

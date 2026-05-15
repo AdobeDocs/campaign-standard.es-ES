@@ -8,10 +8,15 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 7bf380d7-195e-413d-b14e-85e78b07ba8b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/azrQgfcyinGmbmazAdX8-9zBVYqew1j3DS4sb2FaU-4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 16%
+source-wordcount: 365
+ht-degree: 15%
 
 ---
 
@@ -27,10 +32,10 @@ Una vez habilitado, debe activar el correo electrónico CCO desde la opción **[
 >
 >Adobe Campaign no administra los archivos archivados. Esto permite enviar los mensajes que elija a una dirección específica, desde la que se pueden procesar y archivar mediante un sistema externo.
 
-## Recommendations y limitaciones {#recommendations-and-limitations}
+## Recomendaciones y limitaciones {#recommendations-and-limitations}
 
 * Esta función es opcional. Compruebe el acuerdo de licencia y póngase en contacto con el administrador de cuentas para activarlo.
-* La dirección de CCO que elija se debe proporcionar al equipo de Adobe que la configurará.
+* La dirección de CCO que elija se debe proporcionar al equipo de Adobe, que la configurará por usted.
 * Solo puede utilizar una dirección de correo electrónico CCO.
 * Solo se tienen en cuenta los correos electrónicos enviados correctamente. Las devoluciones no lo son.
 * Por motivos de privacidad, los correos electrónicos CCO deben procesarse mediante un sistema de archivado capaz de almacenar información de identificación personal (PII) de forma segura.

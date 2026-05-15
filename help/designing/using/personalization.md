@@ -8,10 +8,15 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
-source-git-commit: 9291eb06c35b1d06c0a992fa64a460215477f57e
+TQID: https://experienceleague.adobe.com/q4g-LFCqxGuz-d400R4m7GZ-d74L6iCzWBF6at8xjIE
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '2611'
-ht-degree: 6%
+source-wordcount: 2628
+ht-degree: 7%
 
 ---
 
@@ -35,7 +40,7 @@ Este campo se puede personalizar. Para ello, puede añadir campos de personaliza
 
 >[!NOTE]
 >
->Los parámetros de encabezado no deben estar vacíos. La dirección del remitente es obligatoria para permitir que se envíe un correo electrónico (estándar RFC). Adobe Campaign comprueba la sintaxis de las direcciones de correo electrónico introducidas.
+>Los parámetros de encabezado no deben estar vacíos. La dirección del remitente es obligatoria para permitir que se envíe un mensaje de correo electrónico (estándar RFC). Adobe Campaign comprueba la sintaxis de las direcciones de correo electrónico introducidas.
 
 ## Personalización de direcciones URL {#personalizing-urls}
 
@@ -73,7 +78,7 @@ Para añadir un campo de personalización al contenido:
 
    ![](assets/email_perso_field_2.png)
 
-1. Haga clic en **[!UICONTROL Confirm]**.
+1. Haga clic **[!UICONTROL Confirm]**.
 
 El nombre del campo aparece en el editor y se resalta.
 
@@ -103,7 +108,7 @@ Para añadir un bloque de contenido:
 
    ![](assets/email_content_block_2.png)
 
-1. Haga clic en **[!UICONTROL Save]**.
+1. Haga clic **[!UICONTROL Save]**.
 
 El nombre del bloque de contenido aparece en el editor y se resalta en amarillo. Se adaptará automáticamente al perfil cuando se genere la personalización.
 
@@ -217,7 +222,7 @@ Esta opción solo está disponible para los siguientes elementos: ADDRESS, BLOCK
 
 El editor de expresiones se presenta en la sección [Edición avanzada de expresiones](../../automating/using/editing-queries.md#about-query-editor).
 
-Estas condiciones adoptan la sintaxis de la expresión XTK (p. ej. **context.profile.email !=&#39;&#39;** o **context.profile.status=&#39;0&#39;**). De forma predeterminada, todos los campos son visibles.
+Estas condiciones adoptan la sintaxis de expresión XTK (p. ej. **context.profile.email !=&#39;&#39;** o **context.profile.status=&#39;0&#39;**). De forma predeterminada, todos los campos son visibles.
 
 >[!NOTE]
 >

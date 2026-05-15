@@ -9,9 +9,15 @@ feature: Control Groups
 role: User
 level: Intermediate
 exl-id: 553897d4-2652-453f-960e-bb2993889f37
-source-git-commit: 9bfae9e956fa86254578eda821aedd240c81288c
+TQID: https://experienceleague.adobe.com/JIR0DIeokRtjXbXBl8cHhhC2N9xnVypjNlVllHpQn14
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: 1319
 ht-degree: 95%
 
 ---
@@ -106,11 +112,11 @@ Para ello:
 
    ![](assets/control-group-define-target-exclusion.png)
 
-1. Defina los criterios de exclusión mediante el [editor de consultas](../../automating/using/editing-queries.md). También puede seleccionar una [audiencia](../../audiences/using/about-audiences.md) que se haya creado anteriormente.
+1. Defina los criterios de exclusión mediante el [editor de consultas](../../automating/using/editing-queries.md). También puede seleccionar un público](../../audiences/using/about-audiences.md) que se haya creado anteriormente.[
 
    ![](assets/control-group-target-exclusion.png)
 
-1. Haga clic en **[!UICONTROL Confirm]**.
+1. Haga clic **[!UICONTROL Confirm]**.
 
 Los perfiles que coincidan con el resultado de la consulta se excluirán del destino.
 
@@ -124,7 +130,7 @@ A continuación se muestra un ejemplo que muestra cómo definir un grupo de cont
 1. En **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, arrastre y suelte una actividad de [Consulta](../../automating/using/query.md). Haga doble clic en la actividad y defina el destinatario. <!--For example, in **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profile]**, select **[!UICONTROL Age]** with the operator **[!UICONTROL Greater than]** and type 25 in the **[!UICONTROL Value]** field.-->
 
 1. En **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, arrastre y suelte una actividad de [envío de correo electrónico](../../automating/using/email-delivery.md) después del segmento de destinatario principal y edítela.
-1. Haga clic en el bloque **[!UICONTROL Audience]** del panel de envío.
+1. Haga clic en el bloque **[!UICONTROL Audience]** del panel de control de envío.
 
 1. Seleccione la pestaña **[!UICONTROL Control group]** .
 
@@ -184,13 +190,13 @@ Una vez realizado el envío, puede usar los registros de envío para filtrar los
 
    ![](assets/control-group-status-ignored.png)
 
-1. Haga clic en **[!UICONTROL Confirm]**.
+1. Haga clic **[!UICONTROL Confirm]**.
 
 1. En la pestaña **[!UICONTROL Target]**, arrastre y suelte **[!UICONTROL Nature of failure]** y seleccione **[!UICONTROL Control group]** como condición de filtro.
 
    ![](assets/control-group-nature-of-failure.png)
 
-1. Haga clic en **[!UICONTROL Confirm]**.
+1. Haga clic **[!UICONTROL Confirm]**.
 
    ![](assets/control-group-delivery-target.png)
 
@@ -214,15 +220,15 @@ Para realizar una segmentación basada en los perfiles que no recibieron el mens
 
    ![](assets/control-group-rule-delivery.png)
 
-1. Seleccione el correo electrónico enviado como condición de filtro. Haga clic en **[!UICONTROL Confirm]**.
+1. Seleccione el correo electrónico enviado como condición de filtro. Haga clic **[!UICONTROL Confirm]**.
 
    ![](assets/control-group-email-sent.png)
 
-1. De nuevo en la ventana **[!UICONTROL Add a rule]**, arrastre y suelte **[!UICONTROL Status]** y seleccione **[!UICONTROL Ignored]** como condición de filtro. Haga clic en **[!UICONTROL Confirm]**.
+1. De nuevo en la ventana **[!UICONTROL Add a rule]**, arrastre y suelte **[!UICONTROL Status]** y seleccione **[!UICONTROL Ignored]** como condición de filtro. Haga clic **[!UICONTROL Confirm]**.
 
    ![](assets/control-group-status-ignored.png)
 
-1. Arrastre y suelte **[!UICONTROL Nature of failure]** y seleccione **[!UICONTROL Control group]** como condición de filtro. Haga clic en **[!UICONTROL Confirm]**.
+1. Arrastre y suelte **[!UICONTROL Nature of failure]** y seleccione **[!UICONTROL Control group]** como condición de filtro. Haga clic **[!UICONTROL Confirm]**.
 
    ![](assets/control-group-nature-of-failure.png)
 
@@ -230,7 +236,7 @@ Para realizar una segmentación basada en los perfiles que no recibieron el mens
 
    ![](assets/control-group-delivery-logs-conditions.png)
 
-1. Haga clic en **[!UICONTROL Confirm]**.
+1. Haga clic **[!UICONTROL Confirm]**.
 
 Ahora puede enviar a los perfiles que no recibieron su primer mensaje porque formaban parte del grupo de control y se les envió otro correo electrónico.
 

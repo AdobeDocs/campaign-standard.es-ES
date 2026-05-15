@@ -9,10 +9,15 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 184bc656-2107-4380-9b35-148cb4380547
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/PRwXxoE4v-Nn8gLT-7-2hbEe3IOiXT2dXTylTwHcmGs
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 2%
+source-wordcount: 724
+ht-degree: 7%
 
 ---
 
@@ -38,7 +43,7 @@ Las credenciales de Microsoft Dynamics 365 otorgan permiso a la aplicación de i
 
 ### Credenciales de API de Adobe
 
-Las credenciales de Adobe Campaign se generan mediante [Adobe I/O](https://www.adobe.io/). Tendrás que visitar la pantalla [Configurar Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md) y seguir las instrucciones antes de poder completar las entradas de esta sección.
+Las credenciales de Adobe Campaign se generan mediante [Adobe I/O](https://www.adobe.io/). Tendrás que visitar la pantalla [Configuración de Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md) y seguir las instrucciones antes de poder completar las entradas de esta sección.
 
 * Seleccione el tipo de autenticación como Oauth, ya que la autenticación basada en JWT está obsoleta.
 * La siguiente imagen explica en detalle la asignación entre Adobe I/O y las entradas de la pantalla de configuración.
@@ -72,7 +77,7 @@ Debe especificar lo siguiente:
 
 * Se necesitarán **intervalos de IP** para incluirlos en la configuración del SFTP de Adobe Campaign. Deberán estar incluidos en la lista de permitidos para que la integración pueda utilizar el punto final SFTP.
 
-* **¿Desea exportar los registros a su SFTP de Adobe Campaign?** le permite determinar si la integración generará información de registro en el extremo SFTP. Se puede usar para depurar si Adobe Campaign o Microsoft Dynamics 365 no muestran la información que espera.
+* **¿Desea exportar los registros a su SFTP de Adobe Campaign?** permite determinar si la integración generará información de registro en el extremo SFTP. Se puede usar para depurar si Adobe Campaign o Microsoft Dynamics 365 no muestran la información que espera.
 
 ## Configuración de SFTP en Adobe Campaign {#ac-control-panel-settings}
 
@@ -80,13 +85,13 @@ Descubra la administración de SFTP con [Panel de control de Campaign de campañ
 
 * [Acerca de la administración SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=es#sftp-management)
 
-* [Administración de almacenamiento SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=es#installing-ssh-key)
+* [Administración de almacenamiento SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#installing-ssh-key)
 
-* [Agregar intervalos de IP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html?lang=es#sftp-management)
+* [Agregar intervalos de IP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html#sftp-management)
 
-* [Administrar claves](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=es#sftp-management)
+* [Administrar claves](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#sftp-management)
 
-* [Inicie sesión en su servidor SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html?lang=es#sftp-management)
+* [Inicio de sesión en el servidor SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html#sftp-management)
 
 Una vez completada la configuración, inicie sesión en el servidor SFTP con la clave privada y cree el directorio &quot;d365_loads/exports&quot;.
 

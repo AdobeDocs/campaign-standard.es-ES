@@ -9,9 +9,15 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 41b83014-aea9-4ec2-b20e-c0a05bcad503
-source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
+TQID: https://experienceleague.adobe.com/gTGkg0NPjtcDsY5RcaVwHklBVZ-dpLAe5qM9fcS9Bj4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: 858
 ht-degree: 3%
 
 ---
@@ -44,13 +50,13 @@ Los pasos para crear una notificación push con Adobe Campaign son estos:
 
 1. Introduzca las propiedades de las notificaciones push y seleccione la aplicación móvil en el campo **[!UICONTROL Associate a Mobile App to a delivery]**.
 
-   Tenga en cuenta que la lista desplegable mostrará tanto las aplicaciones de SDK V4 como las de SDK de Experience Platform.
+   Tenga en cuenta que la lista desplegable mostrará tanto la aplicación de SDK V4 como la Experience Platform SDK.
 
    ![](assets/push_notif_properties.png)
 
    Puede vincular la notificación push a una campaña. Para ello, selecciónelo entre las campañas que ya se han creado.
 
-1. VIP En la siguiente pantalla, puede especificar una audiencia, por ejemplo, todos los clientes de la aplicación móvil que se hayan suscrito a una aplicación móvil específica. Para obtener más información, consulte [Creación de audiencias](../../audiences/using/creating-audiences.md).
+1. En la siguiente pantalla, puede especificar una audiencia, por ejemplo, todos los clientes de VIP que se suscribieron a una aplicación móvil específica. Para obtener más información, consulte [Creación de audiencias](../../audiences/using/creating-audiences.md).
 
    La audiencia se filtrará automáticamente en función de la aplicación móvil seleccionada en el paso anterior.
 
@@ -64,7 +70,7 @@ Los pasos para crear una notificación push con Adobe Campaign son estos:
 
    El contenido de las notificaciones push y las opciones configuradas aquí se pasan a la aplicación móvil en forma de carga útil. La estructura detallada de la carga útil se describe en la nota técnica [Explicación de la estructura de carga de las notificaciones push de Campaign Standard](../../administration/using/push-payload.md).
 
-1. Haga clic en **[!UICONTROL Create]**.
+1. Haga clic **[!UICONTROL Create]**.
 
    ![](assets/push_notif_content_2.png)
 
@@ -108,7 +114,7 @@ Las notificaciones push se pueden enviar a una audiencia seleccionada en Adobe C
    ![](assets/push_send_7.png)
 
 1. Ahora puede hacer clic en **[!UICONTROL Confirm]** para empezar a enviar notificaciones push.
-1. Compruebe el estado de la entrega a través del panel de mensajes y los registros. Para obtener más información sobre esto, consulte [Envío de mensajes](../../sending/using/confirming-the-send.md) y [Registros de envío](../../sending/using/monitoring-a-delivery.md#delivery-logs).
+1. Compruebe el estado de la entrega a través del panel de control de mensajes y los registros. Para obtener más información sobre esto, consulte [Envío de mensajes](../../sending/using/confirming-the-send.md) y [Registros de envío](../../sending/using/monitoring-a-delivery.md#delivery-logs).
 
    En este ejemplo, el panel de mensajes muestra que Adobe Campaign intentó enviar dos notificaciones push: una se entregó correctamente al dispositivo y otra falló. Para saber por qué la entrega tiene errores, haga clic en el botón ![](assets/lp_link_properties.png) en la parte inferior de la ventana **[!UICONTROL Deployment]**.
 

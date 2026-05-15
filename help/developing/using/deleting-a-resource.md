@@ -8,10 +8,13 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 4ddfdbcc-a154-4c10-a97e-73ad888d1f1f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/cDShxyrLISaGidkLNnhtMwZHbo8SlRie6DTV0yVR6IY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 14%
+source-wordcount: 251
+ht-degree: 15%
 
 ---
 
@@ -33,7 +36,7 @@ Para volver a redactar y eliminar un recurso publicado:
 
    ![](assets/schema_extension_uc26.png)
 
-1. Haga clic en **[!UICONTROL Ok]**.
+1. Haga clic **[!UICONTROL Ok]**.
 
    >[!IMPORTANT]
    >
@@ -45,7 +48,7 @@ Para volver a redactar y eliminar un recurso publicado:
    >
    >Si vuelve a redactar una extensión del recurso predeterminado **Perfiles (perfil)**, también debe volver a redactar cualquier extensión de **perfil de prueba (seedMember)** que haya definido. Para obtener más información sobre cómo ampliar el recurso de perfil, consulte [esta sección](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
 
-1. Publish el recurso. Para ver los pasos más detallados, consulte [Publicación de un recurso personalizado](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
+1. Publicar el recurso. Para ver los pasos más detallados, consulte [Publicación de un recurso personalizado](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 
    A continuación, el recurso pasa al modo **Draft** y su estado de activación es **[!UICONTROL Inactive]**.
 

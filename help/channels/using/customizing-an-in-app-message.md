@@ -9,9 +9,14 @@ feature: In App
 role: User
 level: Intermediate
 exl-id: 7d06cf9c-06b6-4041-8360-4f6bdbd48dd3
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/QhRAK2kBrSzvgyXK84KTPHS3wPJF7X17e5foclRPXIc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: 1004
 ht-degree: 97%
 
 ---
@@ -43,7 +48,7 @@ El editor de contenido en la aplicación permite elegir entre dos modos de mensa
 
 La lista desplegable **[!UICONTROL Layout]** le ofrece cuatro opciones diferentes para elegir según lo que necesite para los mensajes:
 
-* **[!UICONTROL Full page]**: este tipo de diseño cubre toda la pantalla de los dispositivos de destino.
+* **[!UICONTROL Full page]**: este tipo de diseño cubre toda la pantalla de los dispositivos objetivo.
 
   Admite componentes multimedia (imagen, vídeo), de texto y botones.
 
@@ -80,7 +85,7 @@ La lista desplegable **[!UICONTROL Media]** le permite añadir contenido multime
 
 1. Para el tipo de **[!UICONTROL Video]**, introduzca la dirección URL en el campo **[!UICONTROL Media URL]**.
 
-   A continuación, introduzca el **[!UICONTROL Video poster]** que desea utilizar mientras se descarga el vídeo en los dispositivos de destino o hasta que los usuarios toquen el botón de reproducción.
+   A continuación, introduzca el **[!UICONTROL Video poster]** que desea utilizar mientras se descarga el vídeo en los dispositivos objetivo o hasta que los usuarios toquen el botón de reproducción.
 
    ![](assets/inapp_customize_6.png)
 
@@ -168,7 +173,7 @@ Para personalizar una notificación local:
 
 1. En la categoría **[!UICONTROL Apple options]**, rellene los campos de **[!UICONTROL Category]** para añadir un ID de acciones personalizadas si está disponible en la aplicación móvil de Apple.
 
-## Personalización con un mensaje de HTML personalizado {#customizing-with-a-custom-html-message}
+## Personalización con un mensaje personalizado de HTML {#customizing-with-a-custom-html-message}
 
 >[!NOTE]
 >

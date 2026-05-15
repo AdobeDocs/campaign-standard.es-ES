@@ -9,9 +9,14 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 8c1a47ed-3467-4fcd-8747-86f0e8f15cec
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/-MOTkG1XRoqVckcmiFoUgFZK2Ae47h86Y6nGrSM-CGs
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: 812
 ht-degree: 0%
 
 ---
@@ -20,7 +25,7 @@ ht-degree: 0%
 
 Una vez activado el flujo de trabajo, los parámetros se incorporan a las variables de eventos y se pueden utilizar para personalizar las actividades del flujo de trabajo.
 
-Se pueden utilizar, por ejemplo, para definir qué audiencia leer en la actividad **[!UICONTROL Read audience]**, el nombre del archivo que se va a transferir en la actividad **[!UICONTROL Transfer file]**, etc. (vea [esta página](../../automating/using/customizing-workflow-external-parameters.md)).
+Se pueden usar, por ejemplo, para definir qué audiencia leer en la actividad **[!UICONTROL Read audience]**, el nombre del archivo que transferir en la actividad **[!UICONTROL Transfer file]**, etc. (vea [esta página](../../automating/using/customizing-workflow-external-parameters.md)).
 
 ## Uso de variables de eventos {#using-events-variables}
 
@@ -55,7 +60,7 @@ Cuando se utiliza una variable en una actividad, la interfaz proporciona ayuda p
 
   Además, puede usar las funciones siguientes, que están disponibles en todas las actividades que le permiten usar variables de eventos después de llamar a un flujo de trabajo con parámetros externos (vea [esta sección](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)):
 
-  | Nombre | Descripción | Sintaxis |
+  | Name | Descripción | Sintaxis |
   | ---------|----------|---------|
   | EndWith | Indica si una cadena (primer parámetro) termina con una cadena específica (segundo parámetro). | EndWith(&lt;String>,&lt;String>) |
   | startWith | Indica si una cadena (primer parámetro) comienza con una cadena específica (segundo parámetro). | startWith(&lt;cadena>,&lt;cadena>) |

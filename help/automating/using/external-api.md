@@ -10,10 +10,16 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/9f2fthO3uwDSjhIhVMzOZgqdimJcJOxlodEP1cJZicA
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '2208'
-ht-degree: 93%
+source-wordcount: 2262
+ht-degree: 92%
 
 ---
 
@@ -141,7 +147,7 @@ La pestaña **Definición de columna** le permite especificar con precisión la 
 
 ![](assets/externalAPI-column.png)
 
-Por ejemplo, puede cambiar la etiqueta de una columna y seleccionar su tipo (cadena, entero, fecha, etc.) o incluso especificar el procesamiento de errores.
+Por ejemplo, puede cambiar la etiqueta de una columna, seleccionar su tipo (cadena, entero, fecha, etc.) o incluso especificar el procesamiento de errores.
 
 Para obtener más información, consulte la sección [Cargar archivo](../../automating/using/load-file.md).
 
@@ -161,7 +167,7 @@ Esta pestaña está disponible en la mayoría de las actividades de flujo de tra
 
 Para probar la funcionalidad de la API externa con un punto final de prueba simple, puede utilizar Postman Echo: https://docs.postman-echo.com.
 
-## Resolución de problemas
+## Solución de problemas
 
 Se han añadido dos tipos de mensajes de registro a esta nueva actividad de flujo de trabajo: información y errores. Pueden ayudarle a solucionar problemas potenciales.
 

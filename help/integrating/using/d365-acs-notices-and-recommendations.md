@@ -9,9 +9,14 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/nb1iMYLX1mkPlTN0vodjRWHh4QhHKUU091nEvq-rGDg
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '2523'
+source-wordcount: 2582
 ht-degree: 1%
 
 ---
@@ -20,7 +25,7 @@ ht-degree: 1%
 
 ## Administración de datos {#acs-msdyn-manage-data}
 
-Para la sincronización de contactos y entidades personalizadas, esta integración trata a **Microsoft Dynamics 365 como la fuente de verdad**.  Cualquier cambio en los atributos sincronizados debe realizarse en Dynamics 365 (y no en Adobe Campaign Standard).  Si los cambios se realizan en Campaign, pueden sobrescribirse finalmente en Campaign durante la sincronización, ya que la sincronización va en una dirección.
+Para la sincronización de contactos y entidades personalizadas, esta integración trata a **Microsoft Dynamics 365 como la fuente de la verdad**. Cualquier cambio en los atributos sincronizados debe realizarse en Dynamics 365 y no en Adobe Campaign Standard). Si los cambios se realizan en Campaign, pueden sobrescribirse en Campaign durante la sincronización, ya que la sincronización va en una dirección.
 
 La integración se puede configurar de forma opcional para que emita llamadas de eliminación de perfiles a Campaign cuando se elimine un contacto en Dynamics 365 para ayudar a mantener la integridad de los datos. Sin embargo, una eliminación de perfil es diferente a una eliminación de privacidad. Una eliminación de privacidad en Campaign eliminará el registro de perfil de Campaign y las entradas de registro asociadas; mientras que una eliminación de perfil normal solo eliminará el registro de perfil de Campaign, dejando remanentes en los registros de Campaign. Si la función de eliminación de perfiles está habilitada en la integración, se deberán seguir pasos adicionales para procesar correctamente las solicitudes de privacidad del interesado. Consulte los pasos de la sección [Privacidad a continuación](#manage-privacy-requests).
 
@@ -51,7 +56,7 @@ Si ha configurado la integración para que emita llamadas regulares de eliminaci
 
 ## Exclusión {#opt-out}
 
-Debido a las diferencias en los atributos de exclusión entre Microsoft Dynamics 365 y Campaign, y a las diferencias en los requisitos comerciales de cada cliente, la asignación de exclusión se ha dejado como un ejercicio para que el cliente la complete.  Es importante asegurarse de que las exclusiones se asignen correctamente entre sistemas, de modo que las preferencias de exclusión del usuario final se mantengan y no reciba una comunicación a través del canal al que se ha excluido.
+Debido a las diferencias en los atributos de exclusión entre Microsoft Dynamics 365 y Campaign, y a las diferencias en los requisitos comerciales de cada cliente, la asignación de exclusión se ha dejado como un ejercicio para que el cliente la complete. Es importante asegurarse de que las exclusiones estén correctamente asignadas entre sistemas para que se mantengan las preferencias de exclusión del usuario final y de que no reciban una comunicación a través de un canal que hayan excluido.
 
 Tenga en cuenta que solo se pueden utilizar los siguientes elementos en las asignaciones de exclusión:
 
@@ -127,7 +132,7 @@ Si se encuentra en regiones de EMEA o APAC, algunos de sus datos se procesarán 
 
 >[!IMPORTANT]
 >
->Ciertas acciones por su parte (por ejemplo, la ingesta inicial de registros, la reproducción de datos de registros, etc.) podrían resultar en una gran carga de registros que se ingieren desde Microsoft Dynamics 365 a su instancia de Adobe Campaign. Para reducir el riesgo de problemas de rendimiento, se recomienda detener todos los procesos de Campaign (por ejemplo, sin actividad de marketing, sin ejecución de flujos de trabajo, etc.) hasta que se haya introducido la gran carga de registros en Campaign.
+>Ciertas acciones por su parte (por ejemplo, ingesta inicial de registros, reproducción de datos de registros, etc.) podría provocar una gran carga de registros ingeridos desde Microsoft Dynamics 365 a la instancia de Adobe Campaign. Para reducir el riesgo de problemas de rendimiento, se recomienda detener todos los procesos de Campaign (por ejemplo, sin actividad de marketing, sin ejecución de flujos de trabajo, etc.) hasta que se incorpora la gran carga de registros en Campaign.
 
 ### Entidades personalizadas
 
@@ -163,7 +168,7 @@ Al planificar el uso de esta integración, deben tenerse en cuenta las siguiente
 
   Al estimar el volumen total de llamadas al motor de Campaign, es importante tener en cuenta otras fuentes de llamadas al motor, como páginas de aterrizaje, WebApps, JSSP, API, registros de aplicaciones móviles, etc.
 
-  Vea la información del paquete de Adobe Campaign Standard aquí: [https://helpx.adobe.com/es/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/es/legal/product-descriptions/campaign-standard.html)
+  Vea la información del paquete de Adobe Campaign Standard aquí: [https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/es/legal/product-descriptions/campaign-standard.html)
 
 * La integración admite un máximo de 15 millones de registros totales para la sincronización inicial con los recursos en Campaign. La sincronización incremental está limitada por el paquete de Adobe Campaign Standard.
 

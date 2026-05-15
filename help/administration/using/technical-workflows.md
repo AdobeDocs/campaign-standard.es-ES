@@ -6,10 +6,16 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: f87795ee2378a1e9e1b393c6cce002bcb70178b8
+TQID: https://experienceleague.adobe.com/imU-lsjNUEb2VZ-hLLAobuJ0UFlFqygQD-KE80hRpG0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: beb7a3c1-66ab-4786-b879-7621375b3c40id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 75%
+source-wordcount: 799
+ht-degree: 63%
 
 ---
 
@@ -103,7 +109,7 @@ Los flujos de trabajo técnicos se utilizan para gestionar procesos técnicos y 
   <tr> 
    <td> <span class="uicontrol">Recuperar registros de seguimiento</span> <br /> </td> 
    <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
-   <td> Este flujo de trabajo restaura los registros de seguimiento perdidos. Tenga en cuenta que este flujo de trabajo técnico se utiliza en contextos específicos y se restringe únicamente al uso interno del Adobe. <br> De manera predeterminada, se inicia cada 10 minutos.<br /> </td> 
+   <td> Este flujo de trabajo restaura los registros de seguimiento perdidos. Tenga en cuenta que este flujo de trabajo técnico se utiliza en contextos específicos y está restringido únicamente al uso interno de Adobe. <br> De forma predeterminada, se inicia cada 10 minutos.<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">Actualización de la ejecución de entrega</span> <br/> </td> 
@@ -118,7 +124,7 @@ Los flujos de trabajo técnicos se utilizan para gestionar procesos técnicos y 
   <tr> 
    <td> <span class="uicontrol">Actualizar estado del evento</span> <br /> </td> 
    <td> <span class="uicontrol">updateEventsStatus</span> <br /> </td> 
-   <td> Este flujo de trabajo le permite atribuir un estado a un evento. Están disponibles los siguientes estados de evento:<br /> <strong>Pendiente</strong>: el evento está en una cola. Aún no se le ha asignado ninguna plantilla de mensaje.<br /> <span class="uicontrol">Entrega pendiente</span>: el evento está en cola, se le ha asignado una plantilla de mensaje y la entrega lo está procesando.<br /> <strong>Enviado</strong>: este estado se copia desde los registros de envío. Significa que la entrega se ha enviado.<br /> <strong>Ignorado por la entrega</strong>: este estado se copia desde los registros de envío. Significa que la entrega se ha omitido.<br /> <strong>Error de entrega</strong>: este estado se copia desde los registros de envío. Significa que la entrega ha fallado.<br /> <span class="uicontrol">No se tiene en cuenta el evento</span>: el evento no se ha podido relacionar con una plantilla de mensaje. El evento no se va a procesar.<br /> </td> 
+   <td> Este flujo de trabajo le permite atribuir un estado a un evento. Están disponibles los siguientes estados de evento:<br /> <strong>Pendiente</strong>: el evento está en una cola. Aún no se le ha asignado ninguna plantilla de mensaje.<br /> <span class="uicontrol">Envío pendiente</span>: el evento está en cola, se le ha asignado una plantilla de mensaje y la entrega lo está procesando.<br /> <strong>Enviado</strong>: este estado se copia desde los registros de envío. Significa que la entrega se realizó.<br /> <strong>Envío ignorado</strong>: este estado se copia desde los registros de envío. Significa que la entrega se omitió.<br /> <strong>Error de entrega</strong>: este estado se copia desde los registros de envío. Significa que la entrega ha fallado.<br /> <span class="uicontrol">No se tiene en cuenta el evento</span> : el evento no se pudo vincular a una plantilla de mensaje. El evento no se va a procesar.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Update for deliverability</span> <br /> </td> 

@@ -8,10 +8,16 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 7a0cd10a-24e6-44d1-842c-2067bfbac838
-source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
+TQID: https://experienceleague.adobe.com/p90XYfq1xHy3wLT6XX8itIHZer0Ix3FS6aq2r2u2HhI
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 7%
+source-wordcount: 1051
+ht-degree: 8%
 
 ---
 
@@ -27,7 +33,7 @@ Cuando se envían correos electrónicos utilizando una plataforma nueva, los pro
 
 Para evitar que se lo considere correo no deseado, puede aumentar progresivamente el volumen enviado distribuyendo grandes volúmenes de correos electrónicos en diferentes momentos. Esto debería garantizar un desarrollo uniforme de la fase de inicio y permitir reducir la velocidad total de direcciones no válidas.
 
-Por ejemplo, puede segmentar la audiencia de destino aleatoriamente para realizar la entrega en cinco lotes. Enviará un primer lote que representa el 10 % de la audiencia de destinatario el 1 de junio a las 10:00 a. m., un segundo lote 24 horas después con el 15 % de la audiencia, y así sucesivamente.
+Por ejemplo, puede segmentar la audiencia de destino aleatoriamente para realizar la entrega en cinco lotes. Enviará un primer lote que representa el 10% de la audiencia de destinatario el 1 de junio a las 10:00 a. m., un segundo lote 24 horas después que representa el 15% de la audiencia, y así sucesivamente.
 
 Puede programarlo mediante un flujo de trabajo.
 
@@ -118,8 +124,8 @@ Puede programarlo mediante un flujo de trabajo.
    * Defina los códigos de segmento de la siguiente manera:
 
       * 8:00 AM - 10:00 AM: **0**. El mensaje se enviará al primer trimestre de la población objetivo a las 8:00 a. m. (fecha de contacto).
-      * 10:00 AM - 12:00 PM: **2**. El mensaje se envía al segundo trimestre de la población objetivo a las 10:00 a. m. (fecha de contacto + 2 horas).
-      * 2:00 PM - 4:00 PM: **6**. Cerrando el centro de llamadas entre las 12:00 y las 2:00 p.m., el mensaje se enviará al tercer trimestre de la población objetivo a las 2:00 p.m. (fecha de contacto + 6 horas).
+      * 10:00 AM - 12:00 PM: **2**. El mensaje se enviará al segundo trimestre de la población objetivo a las 10:00 a. m. (fecha de contacto + 2 horas).
+      * 2:00 PM - 4:00 PM: **6**. El centro de llamadas se cerrará entre las 12:00 p.m. y las 2:00 p.m., y el mensaje se enviará al tercer trimestre de la población objetivo a las 2:00 p.m. (fecha de contacto + 6 horas).
       * 4:00 PM - 6:00 PM: **8**. El mensaje se enviará al último trimestre de la población objetivo a las 4:00 p. m. (fecha de contacto + 8 horas).
 
      >[!NOTE]
@@ -171,6 +177,6 @@ Puede programarlo mediante un flujo de trabajo.
 1. Confirme para guardar la expresión. Confirme la programación, guarde la entrega y ejecute el flujo de trabajo.
 
 * El primer segmento recibirá el mensaje en la fecha de contacto (25 de mayo a las 8:00 a. m.).
-* El segundo segmento recibirá el mensaje dos horas más tarde (25 de mayo a las 10:00 a. m.).
-* El tercer segmento recibirá el mensaje seis horas más tarde (25 de mayo a las 2:00 p. m.).
-* El cuarto segmento recibirá el mensaje ocho horas más tarde (25 de mayo a las 4:00 p.m.).
+* El segundo segmento recibirá el mensaje dos horas más tarde (25 de mayo a las 10:00 a.m.).
+* El tercer segmento recibirá el mensaje seis horas después (25 de mayo a las 2:00 p.m.).
+* El cuarto segmento recibirá el mensaje ocho horas después (25 de mayo a las 4:00 p.m.).

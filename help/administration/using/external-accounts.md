@@ -6,10 +6,16 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+TQID: https://experienceleague.adobe.com/V4W1ZeT4iyA7SJXdVH-MQJLiJQN9WYGu-aghFFpj32c
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9bid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: b5852c32-876b-41ae-92a7-9f588865ae52id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1720'
-ht-degree: 78%
+source-wordcount: 1820
+ht-degree: 79%
 
 ---
 
@@ -62,7 +68,7 @@ Para una cuenta externa SFTP, proporcione los siguientes detalles:
 * Número de puerto. Por ejemplo, **22**.
 * Credenciales del servidor SFTP: nombre y contraseña de la cuenta utilizados para conectarse al servidor.
 
-### Recomendaciones de servidor SFTP alojado en el Adobe {#adobe-hosted-sftp-server-recommendations}
+### Recomendaciones de servidor SFTP alojado por Adobe {#adobe-hosted-sftp-server-recommendations}
 
 Al administrar archivos y datos para fines de ETL, estos archivos se almacenan en un servidor SFTP alojado proporcionado por Adobe. Este SFTP está diseñado para ser un espacio de almacenamiento temporal en el que se puede controlar la retención y eliminación de archivos.
 
@@ -93,8 +99,8 @@ Para una cuenta externa de OAuth 2.0, proporcione los siguientes detalles:
 
 * Un **tipo de concesión**: solo se admiten **credenciales de cliente**.
 * Una **URL de API segura**: escriba el extremo de autorización.
-* **Credenciales confidenciales de OAuth 2.0**: Esta sección está diseñada para credenciales que son confidenciales por naturaleza. Los valores de credencial se enmascararán en la pantalla después de agregarse; en ese momento, no serán legibles ni editables. Si el extremo de autorización requiere que se inserte una credencial determinada en el encabezado de autorización HTTP en lugar del parámetro de cuerpo del POST, puede seleccionar la opción Incluir en el encabezado para esa credencial.
-* **Credenciales no confidenciales de OAuth 2.0**: Esta sección está diseñada para credenciales que no son confidenciales. Los valores de credencial serán visibles en la pantalla después de agregarse; también serán editables.  Si el extremo de autorización requiere que se inserte una credencial determinada en el encabezado de autorización HTTP en lugar del parámetro de cuerpo del POST, puede seleccionar la opción Incluir en el encabezado para esa credencial.
+* **Credenciales confidenciales de OAuth 2.0**: Esta sección está diseñada para credenciales que son confidenciales por naturaleza. Los valores de credencial se enmascararán en la pantalla después de agregarse; en ese momento, no serán legibles ni editables. Si el extremo de autorización requiere que se inserte una credencial determinada en el encabezado de autorización HTTP en lugar del parámetro de cuerpo POST, puede seleccionar la opción Incluir en el encabezado para esa credencial.
+* **Credenciales no confidenciales de OAuth 2.0**: Esta sección está diseñada para credenciales que no son confidenciales. Los valores de credencial serán visibles en la pantalla después de agregarse; también serán editables.  Si el extremo de autorización requiere que se inserte una credencial determinada en el encabezado de autorización HTTP en lugar del parámetro de cuerpo POST, puede seleccionar la opción Incluir en el encabezado para esa credencial.
 
 Después de escribir la información de la cuenta, haga clic en **Probar conexión** para comprobar que la cuenta externa se haya configurado correctamente.
 
@@ -129,7 +135,7 @@ Especifique la **[!UICONTROL AWS Region]** asociada a su extremo. Puede consulta
 Para ayudarle a configurar su cuenta de Amazon S3, le aconsejamos que siga estas recomendaciones:
 
 * Cree una política de compartimento estricta para restringir el acceso a los compartimentos de S3. La política de compartimento se puede configurar al crear un compartimento. Para obtener más información, consulte la [documentación de Amazon S3](https://docs.aws.amazon.com/es_es/AmazonS3/latest/dev//example-bucket-policies.html).
-* Durante la creación de una cuenta externa, active la casilla **[!UICONTROL Keep files in S3 encrypted]** para que el cifrado almacene datos confidenciales en el compartimento de S3.
+* Durante la creación de una cuenta externa, habilite la casilla **[!UICONTROL Keep files in S3 encrypted]** para que el cifrado almacene datos confidenciales en el compartimento de S3.
 * Conceda permisos de compartimento para especificar quién puede acceder al objeto en un compartimento. Para obtener más información sobre el permiso del compartimento, consulte la [documentación de Amazon S3](https://docs.aws.amazon.com/es_es/AmazonS3/latest/dev//access-control-overview.html).
 
 ## Cuenta externa de Adobe Experience Manager {#adobe-experience-manager-external-account}
@@ -154,9 +160,9 @@ Al configurar esta nueva cuenta externa, debe proporcionar los siguientes detall
 >
 >La configuración de Google reCAPTCHA requiere una cuenta de Google.
 
-El mecanismo de Google reCAPTCHA le permite proteger su página de aterrizaje del spam y los abusos causados por los bots. Esto no es intrusivo para los clientes, ya que no requiere ninguna interacción por parte de ellos y se basa en las interacciones con el sitio. Para registrar su sitio, consulte esta [página](https://www.google.com/recaptcha/admin/create). Debe elegir el tipo de reCAPTCHA V3.
+El mecanismo de Google reCAPTCHA le permite proteger su página de destino del spam y los abusos causados por los bots. Esto no es intrusivo para los clientes, ya que no requiere ninguna interacción por parte de ellos y se basa en las interacciones con el sitio. Para registrar su sitio, consulte esta [página](https://www.google.com/recaptcha/admin/create). Debe elegir el tipo de reCAPTCHA V3.
 
-Para añadir Google reCAPTCHA V3 a su página de aterrizaje, configúrelo en su cuenta externa. Para obtener más información sobre cómo añadirlo a su página de aterrizaje, consulte esta [sección](../../channels/using/configuring-landing-page.md#setting-google-recaptcha).
+Para añadir Google reCAPTCHA V3 a su página de aterrizaje, configúrelo en su cuenta externa. Para obtener más información sobre cómo añadirlo a su página de destino, consulte esta [sección](../../channels/using/configuring-landing-page.md#setting-google-recaptcha).
 
 Para una cuenta externa de Google reCAPTCHA V3, proporcione los siguientes detalles:
 

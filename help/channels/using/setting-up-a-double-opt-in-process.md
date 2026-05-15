@@ -1,6 +1,6 @@
 ---
 title: Configuración de un proceso de inclusión doble
-description: Siga estos pasos para configurar un proceso de inclusión doble mediante páginas de aterrizaje en Adobe Campaign.
+description: Siga estos pasos para configurar un proceso de inclusión doble mediante páginas de destino en Adobe Campaign.
 audience: channels
 content-type: reference
 topic-tags: landing-pages
@@ -8,9 +8,15 @@ feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 188b1750-e062-4328-9829-6f2848356b5c
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+TQID: https://experienceleague.adobe.com/uEAfmHvm5tpDoCp9nEQeveyH0oBvmP24IvkUy73QPSw
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b631758a-142d-425f-b9aa-f756d85cb979
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: 1172
 ht-degree: 86%
 
 ---
@@ -21,29 +27,29 @@ ht-degree: 86%
 
 El mecanismo de inclusión doble es una práctica recomendada al enviar correos electrónicos. Protege la plataforma de direcciones de correo electrónico erróneas o no válidas, bots de spam y evita posibles reclamaciones de spam.
 
-El principio es enviar un correo electrónico para confirmar el acuerdo del visitante antes de almacenarlo como “perfiles” en la base de datos de Campaign: el visitante rellena una página de aterrizaje en línea, luego recibe un correo electrónico y tiene que hacer clic en el enlace de confirmación para finalizar su suscripción.
+El principio es enviar un correo electrónico para confirmar el acuerdo del visitante antes de almacenarlo como “perfiles” en la base de datos de Campaign: el visitante rellena una página de destino en línea, luego recibe un correo electrónico y tiene que hacer clic en el enlace de confirmación para finalizar su suscripción.
 
 ![](assets/optin_mechanism.png)
 
 Para configurarlo, debe:
 
-1. Crear y publicar una página de aterrizaje para que los visitantes puedan registrarse y suscribirse. Esta página de aterrizaje debe estar disponible en un sitio web. Los visitantes que rellenen y envíen esta página de aterrizaje se almacenarán en la base de datos, pero se agregarán a la lista de bloqueados de envíos para que no reciban comunicación alguna antes de la validación final (consulte [Administración de la Lista de bloqueados de en Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
-1. Cree y envíe automáticamente el correo electrónico de inclusión, con un vínculo de confirmación. Este correo electrónico se envía a quienes hayan enviado la página de aterrizaje. Se basa en una plantilla de correo electrónico que permite dirigirse a perfiles de “exclusión”.
-1. Redirija a una página de aterrizaje de confirmación. Esta página de aterrizaje final incluye un botón de confirmación: los visitantes tienen que hacer clic en él. Puede diseñar un mensaje de correo electrónico de bienvenida para que se envíe cuando la confirmación esté completa y, por ejemplo, añadir una oferta especial en el mensaje para nuevos destinatarios.
+1. Crear y publicar una página de destino para que los visitantes puedan registrarse y suscribirse. Esta página de destino debe estar disponible en un sitio web. Los visitantes que rellenen y envíen esta página de aterrizaje se almacenarán en la base de datos, pero se agregarán a la lista de bloqueados de envíos para que no reciban comunicación alguna antes de la validación final (consulte [Administración de la Lista de bloqueados de en Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
+1. Cree y envíe automáticamente el correo electrónico de inclusión, con un vínculo de confirmación. Este correo electrónico está dirigido a la población que envió la página de destino. Se basa en una plantilla de correo electrónico que permite dirigirse a perfiles de “exclusión”.
+1. Redirija a una página de destino de confirmación. Esta página de destino final incluye un botón de confirmación: los visitantes tienen que hacer clic en él. Puede diseñar un mensaje de correo electrónico de bienvenida para que se envíe cuando la confirmación esté completa y, por ejemplo, añadir una oferta especial en el mensaje para nuevos destinatarios.
 
-Estos pasos deben configurarse en Adobe Campaign en un orden específico para que todos los parámetros estén correctamente activados.
+Estos pasos deben configurarse en Adobe Campaign en un orden específico para que todos los parámetros estén correctamente habilitados.
 
 ## Paso 1: crear la página de aterrizaje de confirmación {#step-1--create-the-confirmation-landing-page}
 
-Proceso para configurar inicios del mecanismo de inclusión doble con la creación de la página de aterrizaje de confirmación: esta página se muestra cuando los visitantes hayan hecho clic en el correo electrónico de confirmación para registrarse.
+Proceso para configurar inicios del mecanismo de inclusión doble con la creación de la página de destino de confirmación: esta página se muestra cuando los visitantes hayan hecho clic en el correo electrónico de confirmación para registrarse.
 
-Para crear y configurar esta página de aterrizaje, debe:
+Para crear y configurar esta página de destino, debe:
 
-1. Diseñe una [nueva página de aterrizaje](../../channels/using/getting-started-with-landing-pages.md) basada en la plantilla **[!UICONTROL Profile acquisition (acquisition)]**. Introducir la etiqueta “**CONFIRMATION**”.
+1. Diseñe una [nueva página de destino](../../channels/using/getting-started-with-landing-pages.md) basada en la plantilla **[!UICONTROL Profile acquisition (acquisition)]**. Introducir la etiqueta “**CONFIRMATION**”.
 
    Si necesita utilizar [servicios](../../audiences/using/about-subscriptions.md), también puede utilizar la plantilla **[!UICONTROL Subscription (sub)]**.
 
-1. Edite las propiedades de la página de aterrizaje y en la sección **[!UICONTROL Access and loading]**, desactive la opción **[!UICONTROL Authorize unidentified visitors]**, seleccione **[!UICONTROL Preload visitor data]** (esta opción no es obligatoria).
+1. Edite las propiedades de la página de destino y en la sección **[!UICONTROL Access and loading]**, desactive la opción **[!UICONTROL Authorize unidentified visitors]**, seleccione **[!UICONTROL Preload visitor data]** (esta opción no es obligatoria).
 
    ![](assets/optin_confirmlp_param.png)
 
@@ -55,9 +61,9 @@ Para crear y configurar esta página de aterrizaje, debe:
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   Este contexto elimina el campo &quot;En la lista de bloqueados de la&quot; para poder enviar correos electrónicos. Más adelante, veremos que la primera página de aterrizaje era establecer este campo en **true** antes de la confirmación, para evitar enviar correos electrónicos a perfiles no confirmados. Para obtener más información, consulte el [paso 3: crear la página de aterrizaje de adquisición](#step-3--create-the-acquisition-landing-page).
+   Este contexto elimina el campo &quot;En la lista de bloqueados de la&quot; para poder enviar correos electrónicos. Más adelante, veremos que la primera página de destino era establecer este campo en **true** antes de la confirmación, para evitar enviar correos electrónicos a perfiles no confirmados. Para obtener más información, consulte el [paso 3: crear la página de destino de adquisición](#step-3--create-the-acquisition-landing-page).
 
-1. Personalice el contenido de la página de aterrizaje: puede mostrar datos personalizados y cambiar la etiqueta del botón de confirmación a “Haga clic aquí para confirmar la suscripción”, por ejemplo.
+1. Personalice el contenido de la página de destino: puede mostrar datos personalizados y cambiar la etiqueta del botón de confirmación a “Haga clic aquí para confirmar la suscripción”, por ejemplo.
 
    ![](assets/optin_confirmlp_design.png)
 
@@ -65,13 +71,13 @@ Para crear y configurar esta página de aterrizaje, debe:
 
    ![](assets/optin_confimlp_page2.png)
 
-1. [Prueba y publicación](../../channels/using/testing-publishing-landing-page.md) de una página de aterrizaje.
+1. [Prueba y publicación](../../channels/using/testing-publishing-landing-page.md) de una página de destino.
 
 ## Paso 2: crear el correo electrónico de confirmación {#step-2--create-the-confirmation-email}
 
-Una vez creada la página de aterrizaje de confirmación, puede diseñar el correo electrónico de confirmación: este correo se envía automáticamente a todos los visitantes que validan la página de aterrizaje de adquisición. Esta validación se considera un evento y el correo electrónico es un mensaje transaccional, vinculado a una regla de tipología específica que permite el envío a poblaciones de exclusión.
+Una vez creada la página de destino de confirmación, puede diseñar el correo electrónico de confirmación: este correo se envía automáticamente a todos los visitantes que validan la página de destino de adquisición. Esta validación se considera un evento y el correo electrónico es un mensaje transaccional, vinculado a una regla de tipología específica que permite el envío a poblaciones de exclusión.
 
-A continuación se describen los pasos para crear estos elementos. Debe seguirlos antes de crear la propia página de aterrizaje de adquisición, ya que en ella se hace referencia a esta plantilla de correo electrónico.
+A continuación se describen los pasos para crear estos elementos. Debe seguirlos antes de crear la propia página de destino de adquisición, ya que en ella se hace referencia a esta plantilla de correo electrónico.
 
 ### Creación del evento {#create-the-event}
 
@@ -92,7 +98,7 @@ El correo electrónico de confirmación es un [mensaje transaccional](../../chan
 1. Seleccione **[!UICONTROL Profile]** como el **[!UICONTROL Targeting enrichment]** en la lista desplegable.
 1. Haga clic en **[!UICONTROL Publish]** para publicar el evento.
 
-El evento está listo. Ahora puede diseñar la plantilla de correo electrónico. Esta plantilla debe incluir un vínculo a la página de aterrizaje de **CONFIRMACIÓN** creada anteriormente. Para obtener más información, consulte [Diseño del mensaje de confirmación](#design-the-confirmation-message).
+El evento está listo. Ahora puede diseñar la plantilla de correo electrónico. Esta plantilla debe incluir un vínculo a la página de destino de **CONFIRMACIÓN** creada anteriormente. Para obtener más información, consulte [Diseño del mensaje de confirmación](#design-the-confirmation-message).
 
 ### Creación de la tipología {#create-the-typology-rule}
 
@@ -112,7 +118,7 @@ El correo electrónico de confirmación es un mensaje transaccional basado en el
 
 1. En el logotipo de Adobe Campaign, seleccione **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** y haga clic en **[!UICONTROL Transactional messages]**.
 1. Edite la plantilla de correo electrónico **CONFIRM** y personalícela. Puede cargar un contenido existente o utilizar una plantilla predeterminada.
-1. Añada un vínculo a la página de aterrizaje de **CONFIRMACIÓN** y haga clic en **[!UICONTROL Confirm]** para guardar las modificaciones.
+1. Añada un vínculo a la página de destino de **CONFIRMACIÓN** y haga clic en **[!UICONTROL Confirm]** para guardar las modificaciones.
 
    ![](assets/optin_email_selectlp.png)
 
@@ -121,25 +127,25 @@ El correo electrónico de confirmación es un mensaje transaccional basado en el
 
 ## Paso 3: crear la página de aterrizaje de adquisición {#step-3--create-the-acquisition-landing-page}
 
-Debe crear la página de aterrizaje de adquisición inicial: este formulario de inclusión se publica en su sitio web.
+Debe crear la página de destino de adquisición inicial: este formulario de inclusión se publica en su sitio web.
 
-Para crear y configurar esta página de aterrizaje, debe:
+Para crear y configurar esta página de destino, debe:
 
-1. Diseñe una [nueva página de aterrizaje](../../channels/using/getting-started-with-landing-pages.md) basada en la plantilla **[!UICONTROL Profile acquisition (acquisition)]**. Escriba la etiqueta “**ACQUISITION**”.
-1. Edite las propiedades de la página de aterrizaje: en la sección **[!UICONTROL Job]** > **[!UICONTROL Additional data]**, haga clic en **[!UICONTROL Add an element]** e introduzca la siguiente ruta de contexto:
+1. Diseñe una [nueva página de destino](../../channels/using/getting-started-with-landing-pages.md) basada en la plantilla **[!UICONTROL Profile acquisition (acquisition)]**. Escriba la etiqueta “**ACQUISITION**”.
+1. Edite las propiedades de la página de destino: en la sección **[!UICONTROL Job]** > **[!UICONTROL Additional data]**, haga clic en **[!UICONTROL Add an element]** e introduzca la siguiente ruta de contexto:
 
    /context/profile/blackList
 
    y establezca el valor en **true**.
 
-   Esto es obligatorio para forzar la adición a la lista de bloqueados de la y evitar enviar mensajes a los visitantes que no confirmaron su acuerdo. La validación de la página de aterrizaje de CONFIRMACIÓN establece este campo en **false** tras la confirmación. Para obtener más información, consulte el [paso 1: crear la página de aterrizaje de confirmación](#step-1--create-the-confirmation-landing-page).
+   Esto es obligatorio para forzar la adición a la lista de bloqueados de la y evitar enviar mensajes a los visitantes que no confirmaron su acuerdo. La validación de la página de destino de CONFIRMACIÓN establece este campo en **false** tras la confirmación. Para obtener más información, consulte el [paso 1: crear la página de destino de confirmación](#step-1--create-the-confirmation-landing-page).
 
 1. En la sección **[!UICONTROL Job]** > **[!UICONTROL Specific actions]**, seleccione la opción **[!UICONTROL Start sending messages]**.
 1. En la lista desplegable asociada, elija la plantilla de mensaje transaccional **CONFIRM** que ha creado.
 
    ![](assets/optin_acquisition_startoption.png)
 
-1. Personalice el contenido de la página de aterrizaje en función de su marca y de los datos que necesite adquirir. Puede mostrar datos personalizados y cambiar la etiqueta del botón de confirmación a, por ejemplo, **Confirmar mi suscripción**.
+1. Personalice el contenido de la página de destino en función de su marca y de los datos que necesite adquirir. Puede mostrar datos personalizados y cambiar la etiqueta del botón de confirmación a, por ejemplo, **Confirmar mi suscripción**.
 
    ![](assets/optin_acquisition_page1.png)
 
@@ -147,6 +153,6 @@ Para crear y configurar esta página de aterrizaje, debe:
 
    ![](assets/optin_acquisition_page2.png)
 
-1. [Prueba y publicación](../../channels/using/testing-publishing-landing-page.md) de una página de aterrizaje.
+1. [Prueba y publicación](../../channels/using/testing-publishing-landing-page.md) de una página de destino.
 
-El mecanismo de inclusión doble ya está configurado. Puede ejecutar y probar el procedimiento de principio a fin, empezando por la dirección URL pública de esta página de aterrizaje **[!UICONTROL ACQUISITION]**. Esta dirección URL se muestra en el panel de página de aterrizaje.
+El mecanismo de inclusión doble ya está configurado. Puede ejecutar y probar el procedimiento de principio a fin, empezando por la dirección URL pública de esta página de destino **[!UICONTROL ACQUISITION]**. Esta dirección URL se muestra en el panel de control de página de destino.

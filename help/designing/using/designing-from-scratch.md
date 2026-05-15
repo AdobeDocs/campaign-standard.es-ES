@@ -8,10 +8,15 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
-source-git-commit: 0079a924db522de8afc628ef50aa2c861e5a12ee
+TQID: https://experienceleague.adobe.com/RK13F3Nw-2wxI9rKip-XKDJ3xi0hgpwI-F1uGcKoFKM
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 22%
+source-wordcount: 1238
+ht-degree: 15%
 
 ---
 
@@ -30,7 +35,7 @@ Estos son los pasos principales para crear y diseñar un contenido de correo ele
 1. Previsualice el correo electrónico.
 1. Guarde el contenido y continúe con el mensaje después de asegurarse de haber definido una audiencia y de haber programado correctamente el envío.
 
-También puedes ver este [vídeo de introducción](https://video.tv.adobe.com/v/330103/?captions=spa&autoplay=true&hidetitle=true).
+También puedes ver este [vídeo de introducción](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true).
 
 >[!NOTE]
 >
@@ -98,7 +103,7 @@ Puede agregar **[!UICONTROL Content block]**, **[!UICONTROL Dynamic content]** o
 
 >[!NOTE]
 >
->Tenga en cuenta que el preencabezado no es compatible con todos los programas de correo electrónico. Cuando no se admite, no se muestra.
+>Tenga en cuenta que el preencabezado no es compatible con todos los programas de correo electrónico. Cuando no se admite, el preencabezado no se muestra.
 
 ## Uso de componentes de contenido {#about-content-components}
 
@@ -179,7 +184,7 @@ Utilice este componente para insertar vínculos a páginas de medios sociales en
 >[!CONTEXTUALHELP]
 >id="ac_edition_carousel"
 >title="Configuración de carrusel"
->abstract="Obtenga información sobre cómo insertar y configurar un carrusel en el contenido. Tenga en cuenta que el carrusel no funciona en todos los clientes de correo electrónico y que la imagen de reserva se mostrará en caso de que no sea compatible."
+>abstract="Aprenda a insertar y configurar un carrusel en el contenido.Tenga en cuenta que el carrusel no funciona en todos los clientes de correo electrónico y que la imagen de reserva se muestra en caso de que no sea compatible."
 
 1. Arrastre y suelte el componente **[!UICONTROL Carousel]** dentro de un componente de estructura.
 1. Examine para seleccionar imágenes del equipo.

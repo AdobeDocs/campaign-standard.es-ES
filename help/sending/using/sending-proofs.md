@@ -9,9 +9,13 @@ feature: Proofs
 role: User
 level: Intermediate
 exl-id: 75b64c43-f066-45e7-8d61-95eba8f52b05
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/L2Rj-JoGUPKPQnEUZY-l-fh4FMI-vMm7D4OX8S2Vnd0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: 585
 ht-degree: 98%
 
 ---
@@ -26,11 +30,11 @@ Existen dos tipos de destinatarios de prueba:
 
 * **Los perfiles de prueba** permiten llegar a destinatarios adicionales que no coinciden con los criterios de objetivo definidos.
 
-  Se pueden añadir a la audiencia de un mensaje para detectar cualquier uso fraudulento de la base de datos de destinatario o para asegurarse de que los correos electrónicos llegan a las bandejas de entrada. Para obtener más información, consulte [Administración de perfiles de prueba](../../audiences/using/managing-test-profiles.md).
+  Se pueden añadir al público de un mensaje para detectar cualquier uso fraudulento de la base de datos de destinatario o para asegurarse de que los correos electrónicos llegan a las bandejas de entrada. Para obtener más información, consulte [Administración de perfiles de prueba](../../audiences/using/managing-test-profiles.md).
 
   >[!NOTE]
   >
-  >Para enviar una prueba, los perfiles de prueba deben incluirse en la audiencia del mensaje.
+  >Para enviar una prueba, los perfiles de prueba deben incluirse en el público del mensaje.
 
 * **Los perfiles de sustitución** le permiten colocarse en la posición de uno de los perfiles objetivo y obtener una representación exacta del mensaje que va a recibir el perfil. Para obtener más información, consulte [Prueba de mensajes de correo electrónico con perfiles de destino](../../sending/using/testing-messages-using-target.md).
 
@@ -43,7 +47,7 @@ Existen dos tipos de destinatarios de prueba:
 Para enviar pruebas, siga estos pasos:
 
 1. Asegúrese de que los destinatarios de las pruebas estén configurados:
-   * **Los perfiles de prueba** deben incluirse en la audiencia del mensaje.
+   * **Los perfiles de prueba** deben incluirse en el público del mensaje.
    * **Los perfiles de sustitución** deben añadirse una vez que la preparación del mensaje se haya realizado correctamente (consulte [esta sección](../../sending/using/testing-messages-using-target.md)).
 
 1. Haga clic en el botón **[!UICONTROL Send a test]**.
@@ -52,7 +56,7 @@ Para enviar pruebas, siga estos pasos:
 
 1. Seleccione el tipo de prueba que desee utilizar:
 
-   * **[!UICONTROL Email rendering]**: seleccione esta opción para probar la forma en que se recibe el mensaje según las bandejas de entrada objetivo. Para obtener más información, consulte [Procesamiento de correo electrónico](../../sending/using/email-rendering.md).
+   * **[!UICONTROL Email rendering]**: seleccione esta opción para probar la forma en que se recibe el mensaje según las bandejas de entrada objetivo. Para obtener más información, consulte [Representación de correo electrónico](../../sending/using/email-rendering.md).
    * **[!UICONTROL Proof]**: seleccione esta opción para probar el mensaje antes de enviarlo al destinatario principal. Los destinatarios de prueba se encargan de aprobar el envío, comprobando tanto su contenido como su formato.
    * **[!UICONTROL Proof + Email rendering]**: esta opción combina las dos opciones anteriores.
 
@@ -60,7 +64,7 @@ Para enviar pruebas, siga estos pasos:
 
    >[!NOTE]
    >
-   >El procesamiento por correo electrónico solo está disponible con perfiles de prueba. Si no se han añadido perfiles de prueba al mensaje, solo está disponible la opción **[!UICONTROL Proof]**.
+   >La representación por correo electrónico solo está disponible con perfiles de prueba. Si no se han añadido perfiles de prueba al mensaje, solo está disponible la opción **[!UICONTROL Proof]**.
 
 1. Confirme la elección.
 
@@ -72,7 +76,7 @@ Para enviar pruebas, siga estos pasos:
 
    ![](assets/bat_view.png)
 
-1. Seleccione una prueba para acceder al resumen. En el caso de un correo electrónico, si ha seleccionado la opción de **Procesamiento de correo electrónico** como tipo de prueba, el icono **[!UICONTROL Access email rendering]** se muestra a la derecha de la etiqueta de prueba. Consulte [Procesamiento de correo electrónico](../../sending/using/email-rendering.md).
+1. Seleccione una prueba para acceder al resumen. En el caso de un correo electrónico, si ha seleccionado la opción de **Representación de correo electrónico** como tipo de prueba, el icono **[!UICONTROL Access email rendering]** se muestra a la derecha de la etiqueta de prueba. Consulte [Representación de correo electrónico](../../sending/using/email-rendering.md).
 
    ![](assets/bat_view2.png)
 
@@ -88,7 +92,7 @@ Cuando se envía una prueba, su línea de asunto se configura de forma predeterm
 
 Para cambiar la línea de asunto predeterminada y utilizarla, siga estos pasos:
 
-1. En el panel del mensaje, haga clic en el botón **[!UICONTROL Open properties]**.
+1. En el panel de control del mensaje, haga clic en el botón **[!UICONTROL Open properties]**.
 1. En la sección **[!UICONTROL Advanced parameters]**, defina el prefijo que desee utilizar de forma predeterminada en la línea de asunto.
 
 Para ocultar el número de la prueba en la línea de asunto, active la opción **[!UICONTROL Hide proof prefix counter]**.
@@ -99,7 +103,7 @@ Para ocultar el número de la prueba en la línea de asunto, active la opción *
 
 ![](assets/proof-prefix-configuration.png)
 
-1. Haga clic en **[!UICONTROL Confirm]**. La configuración se aplica de forma predeterminada a todas las pruebas enviadas para el mensaje seleccionado.
+1. Haga clic **[!UICONTROL Confirm]**. La configuración se aplica de forma predeterminada a todas las pruebas enviadas para el mensaje seleccionado.
 
 **Temas relacionados:**
 

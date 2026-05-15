@@ -8,9 +8,16 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/w2tAC7xLJRx9ObytKLbKQHTJT-FV5WEuufxIHzy34Vg
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: b5852c32-876b-41ae-92a7-9f588865ae52
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1366'
+source-wordcount: 1381
 ht-degree: 67%
 
 ---
@@ -93,7 +100,7 @@ Para agregar manualmente una nueva entrada, utilice el botón **[!UICONTROL Crea
 
 ![](assets/quarantines-create-button.png)
 
-Defina la dirección (o el número de teléfono, etc.) y el tipo de canal. Puede establecer un estado para estar en la lista de cuarentena y un motivo de error. También puede indicar la fecha en la que se produjo el error, el número de errores e introducir el texto del error. Si es necesario, seleccione la última entrega realizada a la dirección en la lista desplegable.
+Defina la dirección (o el número de teléfono, etc.) y tipo de canal. Puede establecer un estado para estar en la lista de cuarentena y un motivo de error. También puede indicar la fecha en la que se produjo el error, el número de errores e introducir el texto del error. Si es necesario, seleccione la última entrega realizada a la dirección en la lista desplegable.
 
 ![](assets/quarantines-create-last-delivery.png)
 
@@ -144,7 +151,7 @@ En función del periodo de tiempo del problema, se indican a continuación las d
 
   donde “support.ISP.com” puede ser: “support.apple.com” o “support.google.com”, por ejemplo
 
-* **Estado de la actualización (@lastModified)** el `MM/DD/YYYY HH:MM:SS AM` o después 
+* **Estado de la actualización (@lastModified)** el `MM/DD/YYYY HH:MM:SS AM` o después
 * **Estado de la actualización (@lastModified)** el `MM/DD/YYYY HH:MM:SS PM` o antes
 
 Una vez que tenga la lista de destinatarios afectados, añada una **[!UICONTROL Update data]** actividad para establecer su estado de dirección de correo electrónico en **[!UICONTROL Valid]** de modo que sean quitadas de la lista de cuarentena por el **[!UICONTROL Database cleanup]** flujo de trabajo. También puede eliminarlos de la tabla de cuarentena.

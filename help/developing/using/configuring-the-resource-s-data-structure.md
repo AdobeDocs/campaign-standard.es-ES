@@ -9,9 +9,14 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: b00fdeb9-2431-4209-8a3f-59c7e6ce7c31
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+TQID: https://experienceleague.adobe.com/Ol-6IkRGAr7OGkXQgHhMSYhPfjmg-DY7s2dr6wxFenU
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: 1666
 ht-degree: 98%
 
 ---
@@ -47,11 +52,11 @@ Puede añadir nuevos campos a un recurso para almacenar datos que no forman part
 
    ![](assets/schema_extension_24.png)
 
-1. En la pantalla **[!UICONTROL Field definition]**, puede definir una categoría que se utiliza para la audiencia y la segmentación, o incluso añadir una descripción.
+1. En la pantalla **[!UICONTROL Field definition]**, puede definir una categoría que se utiliza para el público y la segmentación, o incluso añadir una descripción.
 
    ![](assets/schema_extension_5.png)
 
-1. Seleccione la opción **[!UICONTROL Specify a list of authorized values]** si necesita definir los valores que se ofrecen al usuario (valores de lista desglosada).
+1. Seleccione la opción **[!UICONTROL Specify a list of authorized values]** si necesita definir los valores que se ofrecen al usuario (valores de enumeración).
 
    A continuación, haga clic en **[!UICONTROL Create element]** y especifique un **[!UICONTROL Label]** y **[!UICONTROL Value]**. Añada tantos valores como sea necesario.
 
@@ -67,7 +72,7 @@ Puede añadir nuevos campos a un recurso para almacenar datos que no forman part
 
    >[!NOTE]
    >
-   >Si no marca esta opción, se utilizará la clave primaria automática (que se crea automáticamente cada vez que se añade una entidad a la tabla) cuando se enumeran todas las entidades de esta tabla.
+   >Si no marca esta opción, se utilizará la clave principal automática (que se crea automáticamente cada vez que se añade una entidad a la tabla) cuando se enumeran todas las entidades de esta tabla.
 
 Los campos del recurso ahora están definidos.
 
@@ -119,7 +124,7 @@ Se recomienda definir índices, pero no es obligatorio.
 
    ![](assets/schema_extension_27.png)
 
-1. Haga clic en **[!UICONTROL Confirm]**.
+1. Haga clic **[!UICONTROL Confirm]**.
 
 Los índices que se han creado aparecen en la lista de la sección **[!UICONTROL Index]**.
 
@@ -132,7 +137,7 @@ Los índices que se han creado aparecen en la lista de la sección **[!UICONTROL
 Un vínculo detalla la asociación que una tabla tiene con otras tablas.
 
 1. Utilice el botón **[!UICONTROL Create element]** para crear un vínculo a un recurso de destino.
-1. Haga clic en **[!UICONTROL Select a target resource]**.
+1. Haga clic **[!UICONTROL Select a target resource]**.
 
    ![](assets/schema_extension_28.png)
 
@@ -160,7 +165,7 @@ Un vínculo detalla la asociación que una tabla tiene con otras tablas.
    >
    >No es posible cambiar el nombre de un vínculo después de crearlo. Para cambiar el nombre de un vínculo, debe eliminarlo y crearlo de nuevo.
 
-1. La lista **[!UICONTROL Category for the audience and targeting]** le permite asignar este vínculo a una categoría para que sea más visible en la herramienta de edición de consultas.
+1. La lista **[!UICONTROL Category for the audience and targeting]** le permite asignar este vínculo a una categoría para que sea más visible en la herramienta del editor de consultas.
 1. Si es necesario, la sección **[!UICONTROL Reverse link definition]** le permite mostrar la etiqueta y el ID del recurso en el recurso de destino.
 1. Defina el comportamiento de los registros a los que hace referencia el vínculo en la sección **[!UICONTROL Behavior if deleted/duplicated]**.
 
@@ -170,7 +175,7 @@ Un vínculo detalla la asociación que una tabla tiene con otras tablas.
 
 1. En la sección **[!UICONTROL Join definition]**, se selecciona la opción predeterminada **[!UICONTROL Use the primary keys to make the join]**, pero puede elegir entre dos opciones:
 
-   * **[!UICONTROL Use the primary key to make the join]**: esta definición de combinación le permite utilizar la clave primaria de perfiles para reconciliarse con la clave primaria de las compras.
+   * **[!UICONTROL Use the primary key to make the join]**: esta definición de combinación le permite utilizar la clave principal de perfiles para reconciliarse con la clave principal de las compras.
    * **[!UICONTROL Define specific join conditions]**: esta definición de combinación le permite seleccionar manualmente los campos que se unen a ambos recursos. Tenga en cuenta que si los datos no están correctamente configurados, el registro de **compra** no estará visible.
 
    ![](assets/schema_extension_17.png)
@@ -279,7 +284,7 @@ Se han guardado las modificaciones. Debe volver a publicar el recurso para aplic
 
 ## Generación de un ID único para perfiles y recursos personalizados {#generating-a-unique-id-for-profiles-and-custom-resources}
 
-De forma predeterminada, los perfiles y los recursos personalizados no tienen un ID empresarial cuando se crean. Puede activar una opción que genere automáticamente un ID único cuando se crean los elementos. Este ID se puede utilizar para:
+De forma predeterminada, los perfiles y los recursos personalizados no tienen un ID empresarial cuando se crean. Puede habilitar una opción que genere automáticamente un ID único cuando se crean los elementos. Este ID se puede utilizar para:
 
 * Identificar fácilmente los registros exportados en una herramienta externa.
 * Reconciliar registros al importar datos actualizados procesados en otra aplicación.
@@ -307,6 +312,6 @@ Al volver a importar datos que se han procesado o actualizado en otra aplicació
 
 >[!NOTE]
 >
->El campo **[!UICONTROL ACS ID]** no se actualiza para perfiles o elementos creados antes de activar la opción. Solo los registros nuevos tendrán un ID de ACS.
+>El campo **[!UICONTROL ACS ID]** no se actualiza para perfiles o elementos creados antes de habilitar la opción. Solo los registros nuevos tendrán un ID de ACS.
 >
 >Este campo está en modo de solo lectura. No se puede modificar.

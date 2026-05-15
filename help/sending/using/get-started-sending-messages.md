@@ -7,10 +7,16 @@ topic-tags: about-sending-messages-with-campaign
 role: User
 level: Intermediate
 exl-id: bcb28ef5-5cad-43c1-b11b-080abc791a72
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+TQID: https://experienceleague.adobe.com/0dYFLX0zAqDIz27Y-ekkp9a9rHE9zdjOjioh5gBwaAA
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 12%
+source-wordcount: 595
+ht-degree: 15%
 
 ---
 
@@ -27,7 +33,7 @@ Una vez definido el objetivo y creado el contenido de un mensaje, se debe prepar
 
 Una vez que se hayan ejecutado las campañas de marketing y enviado los diferentes mensajes, monitorícelos con registros para comprobar el éxito de la campaña y recuperar la información de seguimiento de los destinatarios.
 
-Por último, aproveche las directrices y herramientas de capacidad de envío disponibles en Campaign Standard para mejorar el número de mensajes enviados y garantizar el éxito de las campañas de marketing.
+Por último, aproveche las directrices y herramientas de capacidad de entrega disponibles en Campaign Standard para mejorar el número de mensajes enviados y garantizar el éxito de las campañas de marketing.
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra cómo enviar un correo electrónico de prueba, preparar y enviar un envío de correo electrónico en vídeo](#video)
 
@@ -35,7 +41,7 @@ Por último, aproveche las directrices y herramientas de capacidad de envío dis
 
 <img src="assets/do-not-localize/icon_prepare.svg" width="60px">
 
-el Campaign Standard **message preparation** analiza el objetivo, la personalización y la validez del mensaje. Los errores detectados durante este paso deben corregirse antes de poder continuar.
+Campaign Standard **message preparation** analiza el objetivo, la personalización y la validez del mensaje. Los errores detectados durante este paso deben corregirse antes de poder continuar.
 
 **Previsualice y pruebe** sus mensajes con varias funciones: envíe pruebas para probar perfiles o perfiles objetivo, pruebe la línea de asunto de sus correos electrónicos y compruebe el procesamiento de sus mensajes para asegurarse de que se mostrarán de una manera óptima en una variedad de clientes, correos web y dispositivos web.
 
@@ -48,7 +54,7 @@ Más información:
 * [Preparación del envío](../../sending/using/preparing-the-send.md)
 * [Previsualización de mensajes](../../sending/using/previewing-messages.md)
 * [Envío de pruebas](../../sending/using/sending-proofs.md)
-* [Procesamiento de correo electrónico](../../sending/using/email-rendering.md)
+* [Representación de correo electrónico](../../sending/using/email-rendering.md)
 * [Programación de mensajes](../../sending/using/about-scheduling-messages.md)
 * [Acerca de las tipologías y reglas de tipología](../../sending/using/about-typology-rules.md)
 
@@ -68,7 +74,7 @@ Más información:
 * [Seguimiento de mensajes](../../sending/using/tracking-messages.md)
 * [Archivado con CCO de correo electrónico](../../sending/using/archiving.md)
 * [Seguimiento de una entrega](../../sending/using/monitoring-a-delivery.md)
-* [Comprensión de los errores de envío](../../sending/using/understanding-delivery-failures.md)
+* [Comprensión de los errores de entrega](../../sending/using/understanding-delivery-failures.md)
 * [Comprensión de la gestión de la cuarentena](../../sending/using/understanding-quarantine-management.md)
 
 ## Directrices de entrega {#improve-deliverability}
@@ -77,7 +83,7 @@ Más información:
 
 La capacidad de entrega permite medir el éxito de las campañas que llegan a la bandeja de entrada de los destinatarios sin rechazarse ni marcarse como correo no deseado.
 
-El Campaign Standard proporciona **herramientas de envío** para ayudarle a mejorar el número de mensajes enviados correctamente: informes de rendimiento de envío, optimización del tiempo de envío, vista previa de mensajes, procesamiento de correo electrónico, administración de cuarentena, etc.
+Campaign Standard proporciona **herramientas de envío** para ayudarle a mejorar el número de mensajes enviados correctamente: informes de rendimiento de envío, optimización del tiempo de envío, vista previa de mensajes, procesamiento de correo electrónico, administración de cuarentena, etc.
 
 Más información:
 
@@ -90,13 +96,13 @@ Más información:
 
 * [Diseño de correos electrónicos de prueba A/B](../../channels/using/designing-an-a-b-test-email.md)
 * [Introducción a los mensajes](../../channels/using/key-steps-to-send-a-message.md)
-* [Prácticas recomendadas de entregas](../../sending/using/delivery-best-practices.md)
+* [Prácticas recomendadas para envíos](../../sending/using/delivery-best-practices.md)
 * [Adición de un grupo de control](../../sending/using/control-group.md)
 
 ## Tutorial en vídeo {#video}
 
 Este vídeo muestra cómo enviar un correo electrónico de prueba, prepararse y, a continuación, enviar un envío de correo electrónico en Campaign Standard.
 
->[!VIDEO](https://video.tv.adobe.com/v/328369?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/24013/)
 
-Hay disponibles [más vídeos de procedimientos para el Campaign Standard aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
+Hay disponibles [más vídeos de procedimientos para Campaign Standard aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).

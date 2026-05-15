@@ -1,6 +1,6 @@
 ---
-title: Definición del contenido de correo postal
-description: Aprenda a definir el contenido de su envío de correo postal.
+title: Definición del contenido de correo directo
+description: Aprenda a definir el contenido de su envío de correo directo.
 audience: channels
 content-type: reference
 topic-tags: direct-mail
@@ -9,20 +9,25 @@ feature: Direct Mail
 role: User
 level: Intermediate
 exl-id: 0a4c45ea-acc2-424f-8596-73376e344172
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/Kt-KqyEadpziu8z5snOeg717epieMst36-gkdSt0Th8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: 337
 ht-degree: 96%
 
 ---
 
 # Definición del contenido de correo directo{#defining-the-direct-mail-content}
 
-Puede definir el contenido en la última pantalla del asistente para la creación o haciendo clic en la sección **Contenido** del panel de envío.
+Puede definir el contenido en la última pantalla del asistente para la creación o haciendo clic en la sección **Contenido** del panel de control de envío.
 
 ![](assets/direct_mail_6.png)
 
-La pantalla de definición de **[!UICONTROL Content]** es específica para el canal de correo postal. Se divide en cuatro pestañas: **[!UICONTROL Extraction]**, **[!UICONTROL File structure]**, **[!UICONTROL Header]** y **[!UICONTROL Footer]**.
+La pantalla de definición de **[!UICONTROL Content]** es específica para el canal de correo directo. Se divide en cuatro pestañas: **[!UICONTROL Extraction]**, **[!UICONTROL File structure]**, **[!UICONTROL Header]** y **[!UICONTROL Footer]**.
 
 ![](assets/direct_mail_11.png)
 
@@ -62,8 +67,8 @@ A veces quizá deba añadir información al principio o al final del archivo de 
 
 ![](assets/direct_mail_7.png)
 
-Por ejemplo, es posible que desee incluir, para el proveedor de correo postal, la información del remitente en el encabezado del archivo. Es posible personalizar el pie de página y el encabezado con la información disponible en el contexto del envío. Consulte [Definición de contenido](../../designing/using/personalization.md#example-email-personalization).
+Por ejemplo, es posible que desee incluir, para el proveedor de correo directo, la información del remitente en el encabezado del archivo. Es posible personalizar el pie de página y el encabezado con la información disponible en el contexto del envío. Consulte [Definición de contenido](../../designing/using/personalization.md#example-email-personalization).
 
-La dirección del remitente se define en la sección **[!UICONTROL Send]** de las propiedades de correo postal o en el nivel de plantilla.
+La dirección del remitente se define en la sección **[!UICONTROL Send]** de las propiedades de correo directo o en el nivel de plantilla.
 
 ![](assets/direct_mail_24.png)

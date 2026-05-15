@@ -8,9 +8,14 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: b58a378d-18da-4c0f-b4e7-5d0a02aab4c2
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/XYTeliw80GkBHk3-1DFWD-CE-85irbDAAjcuOSbQvLI
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: 303
 ht-degree: 7%
 
 ---
@@ -29,7 +34,7 @@ Los siguientes tipos de imágenes están disponibles, según la configuración:
 
 >[!CAUTION]
 >
->Si decide agregar una imagen directamente editando la versión del correo electrónico del HTML, no debe llamar a **archivos externos en una etiqueta &lt;script>** de la página del HTML. Estos archivos no se importan en el servidor de Adobe Campaign.
+>Si decide agregar una imagen directamente editando la versión de HTML del correo electrónico, no debe llamar a **archivos externos en una etiqueta &lt;script>** de la página de HTML. Estos archivos no se importan en el servidor de Adobe Campaign.
 
 ### Inserción de imágenes en un correo electrónico {#inserting-images-in-an-email}
 
@@ -38,7 +43,7 @@ Los siguientes tipos de imágenes están disponibles, según la configuración:
 
    ![](assets/des_insert_images_1.png)
 
-1. Haga clic en **[!UICONTROL Browse]**. Arrastre y suelte una imagen o haga clic para seleccionar un archivo del equipo.
+1. Haga clic **[!UICONTROL Browse]**. Arrastre y suelte una imagen o haga clic para seleccionar un archivo del equipo.
 
    ![](assets/des_insert_images_2.png)
 
@@ -53,11 +58,11 @@ Al seleccionar un bloque que contiene una imagen, se ofrecen las siguientes prop
 
 * **Habilitar personalización** le permite personalizar el origen de la imagen. Ver [Personalización de un origen de imagen](../../designing/using/personalization.md#personalizing-an-image-source).
 * **Image Title** le permite definir un título para la imagen.
-* **Texto alternativo** (correo electrónico) o **Pie de ilustración** (página de aterrizaje) permite definir el pie de ilustración vinculado a la imagen (corresponde al atributo de HTML **alt**).
+* **Texto alternativo** (correo electrónico) o **Pie de ilustración** (página de aterrizaje) permite definir el pie de ilustración vinculado a la imagen (corresponde al atributo HTML **alt**).
 * Al editar un correo electrónico, **Style** le permite especificar el tamaño, el fondo y el borde de la imagen.
-* Al editar una página de aterrizaje, **Dimension** le permite especificar el tamaño de la imagen en píxeles.
+* Al editar una página de aterrizaje, **Dimensiones** le permite especificar el tamaño de la imagen en píxeles.
 
-El editor le permite trabajar con **todos los tipos de imágenes** cuyos formatos son compatibles con los exploradores. Para ser compatible con el editor, las animaciones de tipo &quot;Flash&quot; **&#x200B;**&#x200B;deben insertarse en una página de HTML de la siguiente manera:
+El editor le permite trabajar con **todos los tipos de imágenes** cuyos formatos son compatibles con los exploradores. Para ser compatible con el editor, las animaciones de tipo **&quot;Flash&quot;** deben insertarse en una página HTML de la siguiente manera:
 
 ```
 <object type="application/x-shockwave-flash" data="http://www.mydomain.com/flash/your_animation.swf" width="200" height="400">

@@ -10,9 +10,15 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 3b95fc66-d6f4-44b2-be33-925c1109a57f
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/Fgr5Fy5R3xAe5QUwkNFA3k1y-nHDC5uqeCIJeEx7axI
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: 354
 ht-degree: 10%
 
 ---
@@ -25,7 +31,7 @@ Un flujo de trabajo siempre se inicia manualmente. Sin embargo, una vez iniciada
 >
 > Adobe recomienda a los clientes que no ejecuten más de 20 ejecuciones de flujos de trabajo activos simultáneamente, y que prioricen y extiendan la ejecución del flujo de trabajo a lo largo del tiempo. Para obtener más información, consulte las prácticas recomendadas que se proporcionan en [esta página](../../automating/using/best-practices-workflows.md).
 
-Las acciones relacionadas con la ejecución (inicio, detención, pausa, etc.) son **procesos asincrónicos**: el comando se guarda y se aplicará una vez que el servidor esté disponible para su aplicación.
+Acciones relacionadas con la ejecución (inicio, parada, pausa, etc.) son **procesos asincrónicos**: el comando se guarda y entrará en vigencia una vez que el servidor esté disponible para aplicarlo.
 
 En un flujo de trabajo, el resultado de cada actividad se envía generalmente a la siguiente actividad a través de una transición, representada por una flecha.
 

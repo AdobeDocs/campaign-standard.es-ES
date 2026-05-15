@@ -9,9 +9,15 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/F-zxGFIsIDW-Xc5hMICIAwHOVDpChxl-AjyCJLjR-v4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: 601
 ht-degree: 0%
 
 ---
@@ -72,7 +78,7 @@ Para lograr esto, siga el procedimiento a continuación:
 
    Ejemplo: Campaign Standard - your-campaign-tenantID - Administradores
 
-1. Haga clic en **[!UICONTROL Save configured API]**.
+1. Haga clic **[!UICONTROL Save configured API]**.
 
    ![](assets/adobeIO5.png)
 
@@ -96,7 +102,7 @@ Ya se ha completado la configuración de preintegración en Campaign.
 
 * [Configurar Adobe Developer para la integración con Microsoft Dynamics 365](../../integrating/using/d365-acs-configure-adobe-io.md) es el siguiente paso para configurar la integración
 * [Descripción general de la aplicación de autoservicio de integración](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) contiene la lista completa de pasos para poner en marcha la integración.
-* [Adobe Developer - Integración de cuenta de servicio](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
+* [Adobe Developer: integración de cuenta de servicio](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
 * [Campaign Standard: Configuración de acceso a API](../../api/using/setting-up-api-access.md)
 * [Integración de Campaign Standard con Dynamics 365](../../integrating/using/d365-acs-configure-d365.md)
 * [Migrar credenciales de JWT a servidor OAuth](../../integrating/using/d365-acs-self-service-app-migrate-credentials.md) contiene los pasos para migrar credenciales de JWT a servidor OAuth.

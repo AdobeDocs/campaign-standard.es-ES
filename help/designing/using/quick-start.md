@@ -8,9 +8,15 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 47f53290-2190-4181-bcd5-e60287189c41
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/0eUMMX7vLCR8uHV45WX3u-XfExReU0HLhunWZ1ho-X0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b631758a-142d-425f-b9aa-f756d85cb979
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: 942
 ht-degree: 5%
 
 ---
@@ -27,12 +33,12 @@ Puede crear un mensaje de correo electrónico [empezando de nuevo en el Designer
 
 También puede crear un mensaje de correo electrónico [con contenido existente](#with-existing-content):
 
-1. Puede **convertir contenido existente del HTML** (creado externamente o en el editor heredado). [Más información](#converting-an-html-content)
-1. Puede **importar un contenido existente del HTML** de inmediato en modo de compatibilidad. [Más información](#compatibility-mode)
+1. Puede **convertir contenido existente de HTML** (creado externamente o en el editor heredado). [Más información](#converting-an-html-content)
+1. Puedes **importar un contenido existente de HTML** de inmediato en modo de compatibilidad. [Más información](#compatibility-mode)
 
 | Sin contenido | Con contenido |
 |---|---|
-| [Creando un correo electrónico desde cero](#from-scratch-email) | [Convirtiendo contenido de un HTML existente](#converting-an-html-content) |
+| [Creando un correo electrónico desde cero](#from-scratch-email) | [Convirtiendo contenido de HTML existente](#converting-an-html-content) |
 | [Creación de contenido a partir de una plantilla predeterminada](#building-content-from-an-out-of-the-box-template) | [Importando un HTML existente](#compatibility-mode) |
 
 ## Diseño de correos electrónicos con el editor {#without-existing-content}
@@ -91,14 +97,14 @@ Puede añadir varios componentes de contenido al correo electrónico, como image
 
 * **HTML**
 
-   1. En **Componentes de contenido**, arrastre y suelte el HTML en uno de los componentes de la estructura.
+   1. En **Componentes de contenido**, arrastre y suelte HTML en uno de sus componentes de estructura.
    1. Haga clic en **Mostrar código fuente**.
-   1. Introduzca el contenido del HTML.
-   1. Haga clic en **Guardar**.
+   1. Introduzca el contenido de HTML.
+   1. Haga clic en **Save**.
 
   ![](assets/html-component-source-code.png)
 
-  Si está familiarizado con HTML, puede copiar y pegar el código del HTML desde el pie de página original mediante el componente de contenido **[!UICONTROL Html]**. Para obtener más información, consulte [Acerca de los componentes de contenido](../../designing/using/designing-from-scratch.md#about-content-components).
+  Si está familiarizado con HTML, puede copiar y pegar el código de HTML del pie de página original mediante el componente de contenido **[!UICONTROL Html]**. Para obtener más información, consulte [Acerca de los componentes de contenido](../../designing/using/designing-from-scratch.md#about-content-components).
 
   ![](assets/des_loading_compatible_fragment_9.png)
 
@@ -110,7 +116,7 @@ Puede ajustar el estilo del correo electrónico, por ejemplo, cambiando el relle
 1. A la derecha, en la paleta, ve a **Relleno**.
 1. Haga clic en el icono de bloqueo para interrumpir la sincronización entre los parámetros superior e inferior, o derecho e izquierdo.
 1. Ajuste **Relleno** según lo necesite.
-1. Haga clic en **Guardar**.
+1. Haga clic en **Save**.
 
 ![](assets/padding-quick-start.png)
 
@@ -122,8 +128,8 @@ Puede crear un mensaje de correo electrónico a partir de plantillas predetermin
 
 1. Cree un correo electrónico y abra su contenido. Para obtener más información, consulte [Creación de un correo electrónico](../../channels/using/creating-an-email.md).
 1. Haga clic en el icono de inicio para acceder a la página principal de **[!UICONTROL Email Designer]**.
-1. Seleccione la pestaña **[!UICONTROL Templates]**.
-1. Elija una plantilla de HTML predeterminada.
+1. Haga clic en la pestaña **[!UICONTROL Templates]**.
+1. Elija una plantilla de HTML lista para usar.
 Las distintas plantillas presentan varias combinaciones de varios tipos de elementos. Por ejemplo, las plantillas &quot;Pluma&quot; tienen márgenes mientras que las plantillas &quot;Astro&quot; no los tienen. Para obtener más información, consulte [Plantillas de contenido](../../designing/using/using-reusable-content.md#content-templates).
 1. Vaya a la pestaña **[!UICONTROL Properties]** de la página de inicio de Email Designer (a la que se puede acceder mediante el icono de inicio) y rellene la sección **[!UICONTROL Subject]**.
 1. Puede combinar estos elementos para crear una serie de variantes de correo electrónico. Por ejemplo, puede duplicar una sección de correo electrónico seleccionando un componente de estructura y haciendo clic en **[!UICONTROL Duplicate]** en la barra de herramientas contextual.
@@ -134,23 +140,23 @@ Las distintas plantillas presentan varias combinaciones de varios tipos de eleme
 
 ## Uso de contenido de correo electrónico existente {#with-existing-content}
 
-Si desea crear un marco de plantillas modulares y fragmentos que se puedan combinar para reutilizarlos en varios correos electrónicos, debe considerar la posibilidad de convertir el HTML de correo electrónico en una plantilla de Designer de correo electrónico.
+Si desea crear un marco de plantillas modulares y fragmentos que se puedan combinar para reutilizarlos en varios correos electrónicos, debe considerar la posibilidad de convertir la HTML de correo electrónico en una plantilla de Designer de correo electrónico.
 
 ### Conversión de contenido de HTML {#converting-an-html-content}
 
-Este caso de uso ofrece una forma rápida de convertir el correo electrónico del HTML en componentes de Designer de correo electrónico. Para obtener más información sobre este tema, consulte [Conversión del contenido del HTML](../../designing/using/using-existing-content.md#converting-an-html-content).
+Este caso de uso ofrece una forma rápida de convertir el correo electrónico de HTML en componentes de Designer de correo electrónico. Para obtener más información sobre este tema, consulte [Conversión del contenido de HTML](../../designing/using/using-existing-content.md#converting-an-html-content).
 
 >[!CAUTION]
 >
->Esta sección es para usuarios familiarizados con el código de HTML.
+>Esta sección es para usuarios familiarizados con el código HTML.
 
 >[!NOTE]
 >
 >Al igual que el modo de compatibilidad, un componente de HTML es editable con opciones limitadas: solo puede realizar ediciones in situ.
 
 
-### Importación y edición de un correo electrónico de HTML {#compatibility-mode}
+### Importar y editar un correo electrónico de HTML {#compatibility-mode}
 
-Al cargar un contenido, debe contener un etiquetado específico para que sea totalmente compatible y editable con el editor WYSIWYG de Email Designer.
+Al cargar un contenido, debe contener un etiquetado específico para que sea totalmente compatible y editable con el editor de WYSIWYG de Email Designer.
 
 Para obtener más información sobre cómo convertir un correo electrónico existente en un correo electrónico compatible con Designer de correo electrónico, consulte [esta sección](../../designing/using/using-existing-content.md#compatibility-mode).

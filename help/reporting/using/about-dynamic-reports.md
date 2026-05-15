@@ -8,16 +8,23 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: fc3b28f3-63f6-4edc-923d-c7eb7925d1b7
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+TQID: https://experienceleague.adobe.com/L392oFEzYUkSajzO3Gi7gjWLmDrpbOhW24k1OXFmoRc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c309ee4e-82e4-4f7e-b608-ef345678c34eid: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 6%
+source-wordcount: 831
+ht-degree: 10%
 
 ---
 
 # Introducción a los informes dinámicos {#about-dynamic-reports}
 
-El sistema de informes dinámico proporciona informes totalmente personalizables y en tiempo real. Añade acceso a los datos del perfil, lo que permite el análisis demográfico por dimensiones de perfil como sexo, ciudad y edad, además de datos funcionales de campaña de correo electrónico como aperturas y clics. Con la interfaz de arrastrar y soltar, puede explorar datos, determinar el rendimiento de sus campañas de correo electrónico en relación con los segmentos de clientes más importantes y medir su impacto en los destinatarios.
+El sistema de informes dinámico proporciona informes totalmente personalizables y en tiempo real. Este añade acceso a los datos de perfil, lo que permite el análisis demográfico por dimensiones de perfil como sexo, ciudad y edad, además de datos funcionales de campaña de correo electrónico como aperturas y clics. Con la interfaz de arrastrar y soltar, puede explorar datos, determinar el rendimiento de sus campañas de correo electrónico en relación con los segmentos de clientes más importantes y medir su impacto en los destinatarios.
 
 >[!NOTE]
 >
@@ -48,7 +55,7 @@ Los informes dinámicos se dividen en dos categorías:
 
 ![](assets/dynamic_report_overview.png)
 
-## Acuerdo de uso de creación de informes dinámicos {#dynamic-reporting-usage-agreement}
+## Acuerdo de uso del sistema de informes dinámicos {#dynamic-reporting-usage-agreement}
 
 El propósito del acuerdo de uso de creación de informes dinámicos es funcionar como un consentimiento emergente para el procesamiento de datos. De forma predeterminada, el acuerdo solo es visible y solo lo pueden aceptar o rechazar los usuarios con derechos de administración.
 
@@ -60,17 +67,17 @@ Hay tres opciones disponibles:
 
 La tabla siguiente muestra lo que sucede después de aceptar este acuerdo según su región.
 
-|  | Creación de informes dinámicos | Conector de Microsoft Dynamics 365 |
+|  | Sistema de informes dinámicos | Conector de Microsoft Dynamics 365 |
 |---|---|---|
 | América y APAC (Asia-Pacífico) | **Característica disponible**. <br>Toda la información predeterminada (es decir, ciudad, país/región, estado, sexo y segmentos según la edad) y los perfiles personalizados se envía al centro de informes de EE. UU. Para obtener más información sobre las dimensiones de perfil, consulte esta [página](../../reporting/using/list-of-components.md) | **Característica disponible**. <br>Todos los campos de perfiles personalizados y listos para usar y los campos de eventos de Adobe Campaign Standard se procesan en el centro de datos de EE. UU. |
 | EMEA (Europa, Oriente Medio y África) | **Característica disponible**. <br>Toda la información predeterminada (es decir, ciudad, país/región, estado, sexo y segmentos según la edad) y los perfiles personalizados se envía al centro de informes de EMEA. Para obtener más información sobre las dimensiones de perfil, consulte esta [página](../../reporting/using/list-of-components.md) | **Característica disponible.** <br>Todos los campos de perfiles personalizados y listos para usar y los campos de eventos de Adobe Campaign Standard procesados en el centro de datos de EMEA. <br>**[!UICONTROL Control data]**, que contiene datos de registro de Adobe I/O e ID de eventos de usuarios finales de clientes enviados y almacenados en el centro de datos de EE. UU. |
 
 La tabla siguiente muestra lo que sucede después de rechazar este acuerdo según su región. Tenga en cuenta que aunque rechace este acuerdo, los informes sobre entregas y la integración con Microsoft Dynamics 365 seguirán estando disponibles.
 
-| Región | Creación de informes dinámicos | Conector de Microsoft Dynamics 365 |
+| Región | Sistema de informes dinámicos | Conector de Microsoft Dynamics 365 |
 |---|---|---|
-| América y APAC (Asia-Pacífico) | **Característica disponible**. <br> No se ha insertado información de perfiles personalizados y preestablecida en el centro de informes de EE. UU. con la excepción de ExternalID. | **Característica disponible**. <br>No se han enviado campos de perfil personalizados o predeterminados al centro de datos de EE. UU. con la excepción del ID externo y el ID de destinatario. <br>Todos los campos de evento de Adobe Campaign Standard procesados en el centro de datos de EE. UU. excepto el ID de página espejo. <br>Para obtener más información sobre la integración con Microsoft Dynamics 365, consulte esta [página](../../integrating/using/d365-acs-get-started.md). |
-| EMEA (Europa, Oriente Medio y África) | **Característica disponible**. <br>No se ha insertado información de perfiles personalizados y preestablecida en el centro de informes de EMEA, con la excepción de ExternalID. | **Característica disponible.** <br>No se han enviado campos de perfil predeterminados o personalizados al centro de datos de EMEA, con la excepción del ID externo y el ID de destinatario. <br>Todos los campos de evento de Adobe Campaign Standard procesados en el centro de datos de EMEA, excepto el ID de página espejo.  <br>**[!UICONTROL Control data]**, que contiene datos de registro de Adobe I/O e ID de eventos de usuarios finales de clientes enviados y almacenados en el centro de datos de EE. UU.<br>Para obtener más información sobre la integración con Microsoft Dynamics 365, consulte esta [página](../../integrating/using/d365-acs-get-started.md). |
+| América y APAC (Asia-Pacífico) | **Característica disponible**. <br> No se inserta información de perfiles personalizados y lista para usar en el centro de informes de EE. UU. con la excepción de ExternalID. | **Característica disponible**. <br>No se han enviado campos de perfil personalizados o predeterminados al centro de datos de EE. UU. con la excepción del ID externo y el ID de destinatario. <br>Todos los campos de evento de Adobe Campaign Standard procesados en el centro de datos de EE. UU. excepto el ID de página espejo. <br>Para obtener más información sobre la integración con Microsoft Dynamics 365, consulte esta [página](../../integrating/using/d365-acs-get-started.md). |
+| EMEA (Europa, Oriente Medio y África) | **Característica disponible**. <br>No se ha insertado información de perfiles personalizados y preestablecida en el centro de informes de EMEA, con la excepción de ExternalID. | **Característica disponible.** <br>No se han enviado campos de perfil personalizados o predeterminados al centro de datos de EMEA, con la excepción del ID externo y el ID de destinatario. <br>Todos los campos de evento de Adobe Campaign Standard procesados en el centro de datos de EMEA, excepto el ID de página espejo. <br>**[!UICONTROL Control data]**, que contiene los datos de registro de Adobe I/O y los ID de los eventos de clientes y usuarios finales enviados y almacenados en el centro de datos de EE. UU.<br>Para obtener más información sobre la integración con Microsoft Dynamics 365, consulte esta [página](../../integrating/using/d365-acs-get-started.md). |
 
 Esta opción no es final, siempre puede cambiarla seleccionando **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** en **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**.
 

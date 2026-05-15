@@ -7,20 +7,24 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 20dafd81-8546-450a-87a0-59a2509efb7a
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+TQID: https://experienceleague.adobe.com/jzmKAer7SITNpxJRT1CsPf-LWW-bglgNhDl5NKP6mzU
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 36%
+source-wordcount: 154
+ht-degree: 42%
 
 ---
 
-# Visitante (nms:visitante)
+# Visitante (nms:visitor)
 
 ## Descripción del objeto
 
 <table>
     <tr>
-        <th>Nombre</th>
+        <th>Name</th>
         <th>Etiqueta</th>
         <th>Tipo (longitud)</th>
         <th>Valores de enumeración</th>
@@ -46,13 +50,13 @@ ht-degree: 36%
     <tr>
         <td>createdBy (userBase)</td>
         <td>Creado por</td>
-        <td>vincular </td>
+        <td>vínculo </td>
         <td> </td>
     </tr>
     <tr>
         <td>delivery (delivery)</td>
         <td>Envío</td>
-        <td>vincular </td>
+        <td>vínculo </td>
         <td> </td>
     </tr>
     <tr>
@@ -94,7 +98,7 @@ ht-degree: 36%
     <tr>
         <td>geoUnit (geoUnitBase)</td>
         <td>Unidad geográfica</td>
-        <td>vincular </td>
+        <td>vínculo </td>
         <td> </td>
     </tr>
     <tr>
@@ -112,13 +116,13 @@ ht-degree: 36%
     <tr>
         <td>modifiedBy (userBase)</td>
         <td>Modificado por</td>
-        <td>vincular </td>
+        <td>vínculo </td>
         <td> </td>
     </tr>
     <tr>
         <td>orgUnit (orgUnitBase)</td>
         <td>Entidades organizativas</td>
-        <td>vincular </td>
+        <td>vínculo </td>
         <td> </td>
     </tr>
     <tr>
@@ -135,7 +139,7 @@ ht-degree: 36%
     <tr>
         <td>destinatario (destinatario)</td>
         <td>Perfil identificado</td>
-        <td>vincular </td>
+        <td>vínculo </td>
         <td> </td>
     </tr>
     <tr>
@@ -171,7 +175,7 @@ ht-degree: 36%
     <tr>
         <td>referrerRcp (destinatario)</td>
         <td>Remitente del reenvío</td>
-        <td>vincular </td>
+        <td>vínculo </td>
         <td> </td>
     </tr>
     <tr>

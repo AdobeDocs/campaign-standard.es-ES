@@ -8,10 +8,14 @@ context-tags: delivery,triggers,back
 feature: In App
 role: User
 exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+TQID: https://experienceleague.adobe.com/olwPmGMR2gMySu7Nx65g2bPvaxN6kjiRD94FyHxhg3A
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 84%
+source-wordcount: 460
+ht-degree: 85%
 
 ---
 
@@ -27,7 +31,7 @@ Para empezar a enviar mensajes en la aplicación en aplicaciones móviles que ut
 
 1. En Adobe Campaign, asegúrese de que puede acceder al canal **[!UICONTROL In-App]**. Si no puede acceder a estos canales, póngase en contacto con el equipo de su cuenta.
 
-1. Para aprovechar los casos de uso móvil en Adobe Campaign Standard con una aplicación de SDK para Experience Cloud, se debe crear una aplicación móvil en la interfaz de usuario de recopilación de datos y configurarla en Adobe Campaign Standard. Para obtener la guía paso a paso, consulte esta [página](../../administration/using/configuring-a-mobile-application.md).
+1. Para aprovechar los casos de uso móvil en Adobe Campaign Standard con una aplicación para SDK de Experience Cloud, se debe crear una aplicación móvil en la interfaz de usuario de recopilación de datos y configurarla en Adobe Campaign Standard. Para obtener la guía paso a paso, consulte esta [página](../../administration/using/configuring-a-mobile-application.md).
 
 1. Una vez configurada, ahora puede preparar su mensaje en la aplicación. Para obtener más información, consulte [esta página](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message).
 

@@ -8,9 +8,15 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 760c3c30-c899-4cf4-ba59-fb2fade9fc5e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/H-WFy-faNPufQFw5A-zN8c-G7rqwUuXTQ8iGN1CDk00
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: d5ef99fa-df0c-4153-bf94-105ad0724167
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: 778
 ht-degree: 2%
 
 ---
@@ -23,13 +29,13 @@ El Designer de correo electrónico permite editar varios procesamientos de corre
 
 De manera predeterminada, la versión **[!UICONTROL Plain text]** de su correo electrónico se genera automáticamente y se sincroniza con la versión **[!UICONTROL Edit]**.
 
-Los campos personalizados y los bloques de contenido añadidos a la versión del HTML también se sincronizan con la versión de texto sin formato.
+Los campos personalizados y los bloques de contenido añadidos a la versión de HTML también se sincronizan con la versión de texto sin formato.
 
 >[!NOTE]
 >
->Para utilizar bloques de contenido en versión de texto sin formato, asegúrese de que no contengan código de HTML.
+>Para utilizar bloques de contenido en versión de texto sin formato, asegúrese de que no contengan código HTML.
 
-Para tener una versión de texto sin formato diferente de la versión del HTML, puede deshabilitar esta sincronización haciendo clic en el modificador **[!UICONTROL Sync with HTML]** desde la vista **[!UICONTROL Plain text]** de su correo electrónico.
+Para tener una versión de texto sin formato diferente a la versión de HTML, puede deshabilitar esta sincronización haciendo clic en el modificador **[!UICONTROL Sync with HTML]** desde la vista **[!UICONTROL Plain text]** de su correo electrónico.
 
 ![](assets/email_designer_textversion.png)
 
@@ -37,21 +43,21 @@ A continuación, puede editar la versión de texto sin formato como desee.
 
 >[!NOTE]
 >
->Si edita la versión de **[!UICONTROL Plain text]** mientras está deshabilitada la sincronización, la próxima vez que active la opción **[!UICONTROL Sync with HTML]**, todos los cambios realizados en la versión de texto sin formato se reemplazarán con la versión de HTML. Los cambios realizados en la vista **[!UICONTROL Plain text]** no se pueden reflejar en la vista **[!UICONTROL HTML]**.
+>Si edita la versión de **[!UICONTROL Plain text]** mientras está deshabilitada la sincronización, la próxima vez que habilite la opción **[!UICONTROL Sync with HTML]**, todos los cambios realizados en la versión de texto sin formato se reemplazarán con la versión de HTML. Los cambios realizados en la vista **[!UICONTROL Plain text]** no se pueden reflejar en la vista **[!UICONTROL HTML]**.
 
 ## Edición de un origen de contenido de correo electrónico en HTML {#editing-an-email-content-source-in-html}
 
 Para los usuarios y la depuración más avanzados, puede ver y editar el contenido del correo electrónico directamente en HTML.
 
-Existen dos formas de editar la versión de HTML del correo electrónico:
+Tiene dos formas de editar la versión de HTML del correo electrónico:
 
 * Seleccione **[!UICONTROL Edit]** > **[!UICONTROL HTML]** para abrir la versión de HTML de todo el correo electrónico.
 
   ![](assets/email_designer_html1.png)
 
-* En la interfaz WYSIWYG, seleccione un elemento y haga clic en el icono **[!UICONTROL Source code]**.
+* En la interfaz de WYSIWYG, seleccione un elemento y haga clic en el icono **[!UICONTROL Source code]**.
 
-  Solo se muestra el origen del elemento seleccionado. Puede editar el código fuente si el elemento seleccionado es un componente de contenido de **[!UICONTROL HTML]**. Otros componentes están en modo de solo lectura, pero se pueden editar en la versión completa del HTML del correo electrónico.
+  Solo se muestra el origen del elemento seleccionado. Puede editar el código fuente si el elemento seleccionado es un componente de contenido de **[!UICONTROL HTML]**. Otros componentes están en modo de solo lectura, pero se pueden editar en la versión completa de HTML del correo electrónico.
 
   ![](assets/email_designer_html2.png)
 
@@ -98,7 +104,7 @@ Todas las opciones de estilo están disponibles en la vista móvil. La configura
    >
    >La única excepción es la configuración de **[!UICONTROL Style inline]**. Cualquier cambio en la configuración de estilo en línea también se aplica a la vista de escritorio estándar.
 
-1. Cualquier otro cambio en la estructura o el contenido del correo electrónico, como ediciones de texto, carga de una nueva imagen, adición de un nuevo componente, etc. también se aplica a la vista estándar.
+1. Cualquier otro cambio en la estructura o el contenido del correo electrónico, como ediciones de texto, carga de una nueva imagen, adición de un nuevo componente, etc., también se aplica a la vista estándar.
 
    Por ejemplo, vuelva a la vista móvil, edite texto y reemplace una imagen.
 

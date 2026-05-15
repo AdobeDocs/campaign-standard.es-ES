@@ -9,10 +9,14 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: bd12a214-5998-4fb9-9f54-0c886067b58b
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+TQID: https://experienceleague.adobe.com/-9eD752Kgh4kFoeiKTRJH78rm0BVInrZ84-5M7--dfY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1817'
-ht-degree: 8%
+source-wordcount: 1819
+ht-degree: 9%
 
 ---
 
@@ -22,7 +26,7 @@ ht-degree: 8%
 
 <table>
       <tr>
-         <th>Nombre</th>
+         <th>Name</th>
          <th>Etiqueta</th>
          <th>Tipo (longitud)</th>
          <th>Valores de enumeración</th>
@@ -54,7 +58,7 @@ ht-degree: 8%
       <tr>
          <td>personalización de marca (brandingBase)</td>
          <td>Marca</td>
-         <td>vincular </td>
+         <td>vínculo </td>
          <td> </td>
       </tr>
       <tr>
@@ -72,7 +76,7 @@ ht-degree: 8%
       <tr>
          <td>campaign (campaignBase)</td>
          <td>Campaña</td>
-         <td>vincular </td>
+         <td>vínculo </td>
          <td> </td>
       </tr>
       <tr>
@@ -96,7 +100,7 @@ ht-degree: 8%
       <tr>
          <td>createdBy (userBase)</td>
          <td>Creado por</td>
-         <td>vincular </td>
+         <td>vínculo </td>
          <td> </td>
       </tr>
       <tr>
@@ -162,7 +166,7 @@ ht-degree: 8%
       <tr>
          <td>defaultOrigin (envío)</td>
          <td>Fuente de tráfico</td>
-         <td>vincular </td>
+         <td>vínculo </td>
          <td> </td>
       </tr>
       <tr>
@@ -233,7 +237,7 @@ ht-degree: 8%
       </tr>
       <tr>
          <td>fin</td>
-         <td>Fecha de vencimiento</td>
+         <td>Fecha de caducidad</td>
          <td>fecha </td>
          <td> </td>
       </tr>
@@ -252,7 +256,7 @@ ht-degree: 8%
       <tr>
          <td>geoUnit (geoUnitBase)</td>
          <td>Unidad geográfica</td>
-         <td>vincular </td>
+         <td>vínculo </td>
          <td> </td>
       </tr>
       <tr>
@@ -312,7 +316,7 @@ ht-degree: 8%
       <tr>
          <td>loadingFilter (queryFilterBase)</td>
          <td>Cargando clave</td>
-         <td>vincular </td>
+         <td>vínculo </td>
          <td> </td>
       </tr>
       <tr>
@@ -345,25 +349,25 @@ ht-degree: 8%
       <tr>
          <td>messageActionDelivery (deliveryMCTemplateBase)</td>
          <td>Mensaje transaccional</td>
-         <td>vincular </td>
+         <td>vínculo </td>
          <td> </td>
       </tr>
       <tr>
          <td>modifiedBy (userBase)</td>
          <td>Modificado por</td>
-         <td>vincular </td>
+         <td>vínculo </td>
          <td> </td>
       </tr>
       <tr>
          <td>name</td>
-         <td>Identificación</td>
+         <td>Identidad</td>
          <td>cadena (64)</td>
          <td> </td>
       </tr>
       <tr>
          <td>orgUnit (orgUnitBase)</td>
          <td>Entidades organizativas</td>
-         <td>vincular </td>
+         <td>vínculo </td>
          <td> </td>
       </tr>
       <tr>
@@ -375,7 +379,7 @@ ht-degree: 8%
       <tr>
          <td>program (programBase)</td>
          <td>Programa</td>
-         <td>vincular </td>
+         <td>vínculo </td>
          <td> </td>
       </tr>
       <tr>
@@ -393,7 +397,7 @@ ht-degree: 8%
       <tr>
          <td>reconciliationFilter (queryFilterBase)</td>
          <td>Clave de conciliación</td>
-         <td>vincular </td>
+         <td>vínculo </td>
          <td> </td>
       </tr>
       <tr>
@@ -417,7 +421,7 @@ ht-degree: 8%
       <tr>
          <td>service (serviceBase)</td>
          <td>Servicio de suscripción</td>
-         <td>vincular </td>
+         <td>vínculo </td>
          <td> </td>
       </tr>
       <tr>
@@ -435,7 +439,7 @@ ht-degree: 8%
          </td>
       </tr>
       <tr>
-         <td>start</td>
+         <td>iniciar</td>
          <td>Fecha de implementación</td>
          <td>fecha </td>
          <td> </td>
@@ -463,7 +467,7 @@ ht-degree: 8%
       <tr>
          <td>plantilla (landingPage)</td>
          <td>Plantilla de página de aterrizaje</td>
-         <td>vincular </td>
+         <td>vínculo </td>
          <td> </td>
       </tr>
       <tr>

@@ -1,6 +1,6 @@
 ---
-title: Creación del correo postal
-description: Siga estos pasos para crear un envío de correo postal en Adobe Campaign.
+title: Creación del correo directo
+description: Siga estos pasos para crear un envío de correo directo en Adobe Campaign.
 audience: channels
 content-type: reference
 topic-tags: direct-mail
@@ -9,22 +9,28 @@ feature: Direct Mail
 role: User
 level: Intermediate
 exl-id: 3e94c872-bf44-4d4c-b6eb-7731021c7931
-source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
+TQID: https://experienceleague.adobe.com/z-rDsGlbZEzyIA-lxwtu-ujfxkeiblDnhK-jsXviFGQ
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: 642
 ht-degree: 88%
 
 ---
 
 # Creación del correo directo{#creating-the-direct-mail}
 
-Crear un envío de correo postal es muy similar a crear un correo electrónico normal. Los pasos siguientes describen la configuración específica de este canal. Consulte [Creación de un correo electrónico](../../channels/using/creating-an-email.md) para obtener más información sobre otras opciones.
+Crear un envío de correo directo es muy similar a crear un correo electrónico normal. Los pasos siguientes describen la configuración específica de este canal. Consulte [Creación de un correo electrónico](../../channels/using/creating-an-email.md) para obtener más información sobre otras opciones.
 
 >[!NOTE]
 >
->También puede añadir una actividad de correo postal en un flujo de trabajo. Para obtener más información, consulte la guía [Flujos de trabajo](../../automating/using/direct-mail-delivery.md).
+>También puede añadir una actividad de correo directo en un flujo de trabajo. Para obtener más información, consulte la guía [Flujos de trabajo](../../automating/using/direct-mail-delivery.md).
 
-1. Cree un nuevo envío de correo postal. Puede crear un desde la [página de inicio](../../start/using/interface-description.md#home-page) de Adobe Campaign, en una [campaña](../../start/using/marketing-activities.md#creating-a-marketing-activity) o en una [lista de actividades de marketing](../../start/using/programs-and-campaigns.md#creating-a-campaign).
+1. Cree un nuevo envío de correo directo. Puede crear un desde la [página de inicio](../../start/using/interface-description.md#home-page) de Adobe Campaign, en una [campaña](../../start/using/marketing-activities.md#creating-a-marketing-activity) o en una [lista de actividades de marketing](../../start/using/programs-and-campaigns.md#creating-a-campaign).
 
    ![](assets/direct_mail_1.png)
 
@@ -42,19 +48,19 @@ Crear un envío de correo postal es muy similar a crear un correo electrónico n
    >
    >Asegúrese de que el campo ID no contenga ningún espacio en blanco para evitar discrepancias, por ejemplo, al integrarse con Adobe Analytics.
 
-1. Defina la audiencia que desee incluir en el archivo de extracción, así como los perfiles de prueba y trampa. Consulte [Definición de audiencia de correo postal](../../channels/using/defining-the-direct-mail-audience.md).
+1. Defina el público que desee incluir en el archivo de extracción, así como los perfiles de prueba y trampa. Consulte [Definición de público de correo postal](../../channels/using/defining-the-direct-mail-audience.md).
 
    ![](assets/direct_mail_4.png)
 
    >[!NOTE]
    >
-   >La definición de audiencia es muy similar a la definición de una audiencia de correo electrónico normal. Consulte [Creación de audiencias](../../audiences/using/creating-audiences.md).
+   >La definición de público es muy similar a la definición de un público de correo electrónico normal. Consulte [Creación de públicos](../../audiences/using/creating-audiences.md).
 
-1. Edite el contenido del archivo: columnas que se incluyen en cada perfil, estructura de los archivos, encabezado y pie de página. Consulte [Definición del contenido de correo postal](../../channels/using/defining-the-direct-mail-content.md).
+1. Edite el contenido del archivo: columnas que se incluyen en cada perfil, estructura de los archivos, encabezado y pie de página. Consulte [Definición del contenido de correo directo](../../channels/using/defining-the-direct-mail-content.md).
 
    ![](assets/direct_mail_5.png)
 
-1. Haga clic en la sección **[!UICONTROL Schedule]** del panel de envío para definir la fecha de contacto. Para el correo postal, la fecha de contacto es obligatoria. Para obtener más información, consulte [Programación del envío](../../sending/using/about-scheduling-messages.md).
+1. Haga clic en la sección **[!UICONTROL Schedule]** del panel de control de envío para definir la fecha de contacto. Para el correo directo, la fecha de contacto es obligatoria. Para obtener más información, consulte [Programación del envío](../../sending/using/about-scheduling-messages.md).
 
    ![](assets/direct_mail_8.png)
 
@@ -68,11 +74,11 @@ Crear un envío de correo postal es muy similar a crear un correo electrónico n
 
    ![](assets/direct_mail_19.png)
 
-1. Una vez definido el contenido de su envío, la audiencia y la fecha de contacto, haga clic en el botón **[!UICONTROL Prepare]** del panel de envío.
+1. Una vez definido el contenido de su envío, la audiencia y la fecha de contacto, haga clic en el botón **[!UICONTROL Prepare]** del panel de control de envío.
 
    ![](assets/direct_mail_16.png)
 
-   Se aplican reglas de tipología. Por ejemplo, todas las direcciones postales no especificadas se excluyen del destinatario. Por este motivo, debe asegurarse de haber marcado la casilla **[!UICONTROL Address specified]** en la información de los perfiles (consulte [Recomendaciones](../../channels/using/about-direct-mail.md#recommendations)). Si ha definido un **[!UICONTROL Maximum volume of message]** en las propiedades de correo postal o en el nivel de plantilla, también se aplica aquí.
+   Se aplican reglas de tipología. Por ejemplo, todas las direcciones postales no especificadas se excluyen del destinatario. Por este motivo, debe asegurarse de haber marcado la casilla **[!UICONTROL Address specified]** en la información de los perfiles (consulte [Recomendaciones](../../channels/using/about-direct-mail.md#recommendations)). Si ha definido un **[!UICONTROL Maximum volume of message]** en las propiedades de correo directo o en el nivel de plantilla, también se aplica aquí.
 
    ![](assets/direct_mail_25.png)
 
@@ -94,13 +100,13 @@ Crear un envío de correo postal es muy similar a crear un correo electrónico n
 
    ![](assets/direct_mail_21.png)
 
-1. Para confirmar que el archivo es definitivo, haga clic en **[!UICONTROL Confirm]** en el panel de envío.
+1. Para confirmar que el archivo es definitivo, haga clic en **[!UICONTROL Confirm]** en el panel de control de envío.
 
    ![](assets/direct_mail_20.png)
 
-Ya está listo para enviar el archivo de extracción a su proveedor de correo postal. Para ello, tiene varias opciones:
+Ya está listo para enviar el archivo de extracción a su proveedor de correo directo. Para ello, tiene varias opciones:
 
 * Enviarlo por correo electrónico normal, con el archivo adjunto.
-* Enviarlo por Campaign: realice el correo postal dentro de un [flujo de trabajo](../../automating/using/direct-mail-delivery.md) en Campaign y añada una actividad de **[!UICONTROL Transfer file]** para enviar el archivo por FTP, por ejemplo. Consulte [Transferir archivo](../../automating/using/transfer-file.md).
+* Enviarlo por Campaign: realice el correo directo dentro de un [flujo de trabajo](../../automating/using/direct-mail-delivery.md) en Campaign y añada una actividad de **[!UICONTROL Transfer file]** para enviar el archivo por FTP, por ejemplo. Consulte [Transferir archivo](../../automating/using/transfer-file.md).
 
-El proveedor recupera la lista de direcciones erróneas y envía esta información a Adobe Campaign, que las incluye en la lista de bloqueados automáticamente de forma automática. Consulte [Devolver al remitente &#x200B;](../../channels/using/return-to-sender.md).
+El proveedor recupera la lista de direcciones erróneas y envía esta información a Adobe Campaign, que las incluye en la lista de bloqueados automáticamente de forma automática. Consulte [Devolver al remitente ](../../channels/using/return-to-sender.md).

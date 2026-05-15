@@ -8,10 +8,15 @@ context-tags: delivery,triggers,back
 feature: In App
 role: User
 exl-id: 0101773d-b109-49a3-89d4-b4bb226d9ebd
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+TQID: https://experienceleague.adobe.com/eR4kpesC5-G0rsM3FecB4uqiPFNE4Q3K-iJJoZ09iuM
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 0%
+source-wordcount: 725
+ht-degree: 2%
 
 ---
 
@@ -21,13 +26,13 @@ ht-degree: 0%
 
 Consulte los siguientes recursos:
 
-* [Tutorials de vídeo](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html?lang=es)
+* [Tutoriales en vídeo](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html)
 * [Publicación de blog](https://theblog.adobe.com/get-more-out-of-the-new-in-app-message-channel-from-adobe-campaign/)
-* [Página de la comunidad](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=es)
+* [Página de comunidad](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ## ¿Cuál es el propósito de las API de extensiones de Campaign setLinkageField y resetLinkageField? {#extensions-apis}
 
-Dado que el SDK extrae los mensajes en la aplicación de Campaign, queremos proporcionar un mecanismo seguro para garantizar que los mensajes en la aplicación que contienen datos PII no caigan en manos malintencionadas. Como tal, contamos con el siguiente mecanismo para garantizar la entrega segura de mensajes al dispositivo:
+Dado que SDK extrae los mensajes en la aplicación de Campaign, queremos proporcionar un mecanismo seguro para garantizar que los mensajes en la aplicación que contienen datos PII no caigan en manos malintencionadas. Como tal, contamos con el siguiente mecanismo para garantizar la entrega segura de mensajes al dispositivo:
 
 * Los clientes marcan los campos de campos de perfil móvil (tabla appSubscriberRcp) como Personales y confidenciales si desean garantizar que esta información en particular se entregue de forma segura.
 * Los campos marcados como tales solo se pueden usar en la plantilla Perfil (no en la plantilla appSubscriber o la plantilla Broadcast) que tenga integrado un mecanismo de seguridad adicional.
@@ -56,7 +61,7 @@ Sin embargo, si el objetivo es enviar un mensaje en la aplicación en un idioma 
 
 ![](assets/faq_inapp.png)
 
-## ¿Se pueden añadir campos de personalización de Campaign al HTML personalizado? {#custom-html-inapp}
+## ¿Se pueden añadir campos de personalización de Campaign a la HTML personalizada? {#custom-html-inapp}
 
 No, aún no es compatible.
 

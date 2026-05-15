@@ -9,26 +9,30 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: 6f42251e-75da-4707-a855-6ba9a86256c9
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+TQID: https://experienceleague.adobe.com/uSoAvkY4kGrVnzSmHbgj1gd4YKPFFzSBC-4maW-9VEw
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: 442
 ht-degree: 92%
 
 ---
 
 # Creación de un servicio{#creating-a-service}
 
-Para poder administrar suscripciones, primero debe crear un servicio y configurarlo. La configuración de un nuevo servicio le permite especificar las confirmaciones de correo electrónico que los perfiles van a recibir cuando se suscriban o cancelen su suscripción al servicio. También debe definir las páginas de aterrizaje de suscripción y de cancelación de suscripción vinculadas al servicio. Por ejemplo, un vínculo de suscripción de servicio insertado en un correo electrónico dirige automáticamente el perfil a la página de aterrizaje de suscripción especificada en el servicio.
+Para poder administrar suscripciones, primero debe crear un servicio y configurarlo. La configuración de un nuevo servicio le permite especificar las confirmaciones de correo electrónico que los perfiles van a recibir cuando se suscriban o cancelen su suscripción al servicio. También debe definir las páginas de destino de suscripción y de cancelación de suscripción vinculadas al servicio. Por ejemplo, un vínculo de suscripción de servicio insertado en un correo electrónico dirige automáticamente el perfil a la página de destino de suscripción especificada en el servicio.
 
-![](assets/do-not-localize/how-to-video.png) [Descubra esta funcionalidad en vídeo](#video)
+![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
 
 Para configurar un servicio:
 
 1. En el logotipo de Adobe Campaign, vaya al menú avanzado **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Services]** y añada un servicio nuevo o seleccione uno existente. Si crea un nuevo servicio, simplemente siga los pasos que se muestran en la pantalla.
 
-   Hay disponible una plantilla de servicio predeterminada. Esta plantilla está preconfigurada con páginas de aterrizaje predeterminadas y correos electrónicos de confirmación. Puede crear otras plantillas para definir configuraciones específicas. Para obtener más información, consulte la sección [Administración de plantillas](../../start/using/marketing-activity-templates.md).
+   Hay disponible una plantilla de servicio predeterminada. Esta plantilla está preconfigurada con páginas de destino predeterminadas y correos electrónicos de confirmación. Puede crear otras plantillas para definir configuraciones específicas. Para obtener más información, consulte la sección [Administración de plantillas](../../start/using/marketing-activity-templates.md).
 
-1. En el panel del servicio, haga clic en el botón ![](assets/edit_darkgrey-24px.png) para acceder a la sección **[!UICONTROL Service properties]** y configure los mensajes de confirmación para suscripciones y cancelaciones de suscripción.
+1. En el panel de control del servicio, haga clic en el botón ![](assets/edit_darkgrey-24px.png) para acceder a la sección **[!UICONTROL Service properties]** y configure los mensajes de confirmación para suscripciones y cancelaciones de suscripción.
 
    ![](assets/lp_service_parameters.png)
 
@@ -36,7 +40,7 @@ Para configurar un servicio:
 
    ![](assets/lp_service_expiration.png)
 
-   Puede usar la fecha de vencimiento en una actividad de segmentación para perfiles de destinatario suscritos a un servicio que no ha caducado.
+   Puede usar la fecha de caducidad en una actividad de segmentación para perfiles de destinatario suscritos a un servicio que no ha caducado.
 
 1. Rellene el campo **[!UICONTROL Service label]**. La etiqueta de servicio es obligatoria cuando se utiliza un mensaje de confirmación personalizado.
 
@@ -65,6 +69,6 @@ Una vez creado un servicio, puede empezar a promoverlo.
 
 Este vídeo muestra cómo crear un servicio y administrar sus suscripciones.
 
->[!VIDEO](https://video.tv.adobe.com/v/328372?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/24673?quality=12)
 
-Hay disponibles [más vídeos de procedimientos para el Campaign Standard aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
+Hay disponibles [más vídeos de procedimientos para Campaign Standard aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).

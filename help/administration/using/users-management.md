@@ -6,9 +6,15 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+TQID: https://experienceleague.adobe.com/i2k6ljZYcDA4Fg4lqWm7LffeNukHA4SlvHUg3-ljsmA
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a658c786-869b-4194-a780-2594d663addaid: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: a2002dba-5e37-4dff-8e04-1cc3ec73558cid: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875fid: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63id: e3988c18-3cfa-4f16-b812-ac2d2b1056faid: e739ee2b-6228-412e-878f-45de0791417d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: 1227
 ht-degree: 81%
 
 ---
@@ -19,13 +25,13 @@ ht-degree: 81%
 
 Adobe Campaign permite asignar un conjunto de funciones a los usuarios para definir a qué parte de la interfaz pueden acceder.
 
-Las funciones específicas y las autorizaciones correspondientes se detallan en las secciones siguientes: [comprensión de funciones](../../administration/using/list-of-roles.md) y [autorizaciones](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=es).
+Las funciones específicas y las autorizaciones correspondientes se detallan en las secciones siguientes: [comprensión de funciones](../../administration/using/list-of-roles.md) y [autorizaciones](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf).
 
-Los administradores pueden administrar usuarios desde el Admin Console. Los usuarios se sincronizan automáticamente con Adobe Campaign. Para obtener más información, consulte la [documentación del Admin Console](https://helpx.adobe.com/es/enterprise/using/users.html).
+Los administradores pueden administrar usuarios desde Admin Console. Los usuarios se sincronizan automáticamente con Adobe Campaign. Para obtener más información, consulte la [documentación de Admin Console](https://helpx.adobe.com/es/enterprise/using/users.html).
 
-![](assets/do-not-localize/how-to-video.png) [Descubra esta funcionalidad en vídeo](#video)
+![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
 
-Para ver los usuarios en Adobe Campaign, haga clic en el logotipo de **Adobe**, en la esquina superior izquierda, y luego seleccione **[!UICONTROL Administration > Users & Security > Users]**.
+Para ver los usuarios en Adobe Campaign, haz clic en el logotipo de **Adobe**, en la esquina superior izquierda, y luego selecciona **[!UICONTROL Administration > Users & Security > Users]**.
 
 Para acceder a la interfaz de administración de usuarios desde Adobe Campaign, haga clic en **[!UICONTROL User administration]**.
 
@@ -33,9 +39,9 @@ Para acceder a la interfaz de administración de usuarios desde Adobe Campaign, 
 
 **Temas relacionados:**
 
-* Vídeo sobre la [administración de permisos de usuarios](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html?lang=es)
+* Vídeo sobre la [administración de permisos de usuarios](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html)
 * [Lista de funciones](../../administration/using/list-of-roles.md)
-* [Lista de autorizaciones](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=es)
+* [Lista de autorizaciones](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 ## Tipo de usuarios {#type-of-users}
 
@@ -69,7 +75,7 @@ Estas son las principales tareas que pueden realizar:
 * [Configurar los diferentes canales](../../administration/using/about-channel-configuration.md): configurar los diferentes canales de la plataforma, así como la administración de la tipología y la cuarentena.
 * [Configurar las opciones generales de aplicaciones](../../administration/using/external-accounts.md): configurar los diferentes elementos de la aplicación (cuentas externas, opciones y flujos de trabajo técnicos).
 * [Desarrollar nuevas funciones para mejorar las funcionalidades integradas](../../developing/using/data-model-concepts.md): administrar sus recursos personalizados y acceder a las herramientas de diagnóstico.
-* [Configurar los parámetros de instancia](../../administration/using/branding.md): definir las diferentes marcas y configurar sus opciones (logotipo, administración del seguimiento y dominio de URL para acceder a las páginas de aterrizaje, etc.).
+* [Configurar los parámetros de instancia](../../administration/using/branding.md): definir las diferentes marcas y configurar sus opciones (logotipo, administración del seguimiento y dominio de URL para acceder a las páginas de destino, etc.).
 * [Exportar e importar paquetes de datos](../../automating/using/managing-packages.md): intercambiar recursos entre distintas instancias de Adobe Campaign a través de archivos XML estructurados.
 * [Exportar registros](../../automating/using/exporting-logs.md) y [definir plantillas de importación](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates).
 
@@ -83,7 +89,7 @@ Estas son las principales tareas que pueden realizar:
 
 * [Crear y ejecutar flujos de trabajo de gestión de datos complejos](../../automating/using/about-data-management-activities.md): importar, enriquecer y transformar datos para alimentar la base de datos, o exportar los datos necesarios en archivos externos para procesarlos en sus propias herramientas.
 * [Administrar plantillas](../../start/using/marketing-activity-templates.md): administrar plantillas para preconfigurar ciertos parámetros de actividades de marketing según las necesidades.
-* [Crear consultas](../../automating/using/editing-queries.md#about-query-editor) y [administrar sus audiencias](../../audiences/using/about-audiences.md): crear audiencias manualmente con consultas o automáticamente con flujos de trabajo dedicados.
+* [Crear consultas](../../automating/using/editing-queries.md#about-query-editor) y [administrar sus públicos](../../audiences/using/about-audiences.md): crear públicos manualmente con consultas o automáticamente con flujos de trabajo dedicados.
 * [Realizar edición avanzada de expresiones](../../automating/using/editing-queries.md#about-query-editor): utilizar funciones avanzadas para manipular los valores utilizados para llevar a cabo consultas específicas como fechas, cadenas, campos numéricos, ordenación, etc.
 * [Exportar listas](../../automating/using/exporting-lists.md) e [importar datos mediante plantillas de importación existentes](../../automating/using/importing-data-with-import-templates.md).
 
@@ -93,16 +99,16 @@ Gracias al administrador funcional y a los usuarios avanzados, los especialistas
 
 Estas son las principales tareas que pueden realizar:
 
-* [Administrar programas y campañas](../../start/using/programs-and-campaigns.md): crear campañas de marketing que incluyan distintos tipos de actividades (correos electrónicos, mensajes SMS, notificaciones push, flujos de trabajo y páginas de aterrizaje).
+* [Administrar programas y campañas](../../start/using/programs-and-campaigns.md): crear campañas de marketing que incluyan distintos tipos de actividades (correos electrónicos, mensajes SMS, notificaciones push, flujos de trabajo y páginas de destino).
 * Administrar [perfiles](../../audiences/using/about-profiles.md) y [perfiles de prueba](../../audiences/using/managing-test-profiles.md): administrar destinatarios identificados y de prueba que serán el objetivo de los envíos. Añadir información como nombre, apellidos, información de contacto, suscripciones, correos electrónicos, etc.
-* [Crear y enviar mensajes](../../sending/using/confirming-the-send.md): crear su mensaje, seleccionar la audiencia, definir el contenido del mensaje y sus elementos de personalización, enviar pruebas y enviar el mensaje final a la audiencia.
-* [Crear y publicar páginas de aterrizaje](../../channels/using/getting-started-with-landing-pages.md): crear y administrar un conjunto de servicios que desee que tengan oferta con sus clientes (por ejemplo, formularios bajas o de suscripción).
+* [Crear y enviar mensajes](../../sending/using/confirming-the-send.md): crear su mensaje, seleccionar el público, definir el contenido del mensaje y sus elementos de personalización, enviar pruebas y enviar el mensaje final al público.
+* [Crear y publicar páginas de destino](../../channels/using/getting-started-with-landing-pages.md): crear y administrar un conjunto de servicios que desee que tengan oferta con sus clientes (por ejemplo, formularios bajas o de suscripción).
 * [Crear y ejecutar flujos de trabajo de la campaña](../../automating/using/building-a-workflow.md): automatizar los procesos de campaña mediante flujos de trabajo.
 * Monitorizar las actividades de marketing a través de los [informes disponibles](../../reporting/using/defining-the-report-period.md).
 
 ## Creación de un usuario {#creating-a-user}
 
-Para agregar un usuario a su instancia, primero debe crearlo en el Admin Console antes de administrarlo en Adobe Campaign Standard.
+Para agregar un usuario a su instancia, primero debe crearlo en Admin Console antes de administrarlo en Adobe Campaign Standard.
 
 1. En el menú avanzado, seleccione **[!UICONTROL Administration > Users & Security > Users]** y haga clic en **[!UICONTROL User administration]** para acceder a Admin Console.
 
@@ -110,7 +116,7 @@ Para agregar un usuario a su instancia, primero debe crearlo en el Admin Console
 
 1. En la **[!UICONTROL Admin Console]**, haga clic en la pestaña **[!UICONTROL Users]**.
 
-1. Haga clic en **[!UICONTROL Add User]**.
+1. Haga clic **[!UICONTROL Add User]**.
 
    ![](assets/create_user_2.png)
 
@@ -156,6 +162,6 @@ El usuario ya está listo para usar Adobe Campaign Standard.
 
 Este vídeo muestra cómo administrar los derechos de acceso de los usuarios.
 
->[!VIDEO](https://video.tv.adobe.com/v/35997?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/24671?quality=12)
 
-Hay disponibles [más vídeos de procedimientos para el Campaign Standard aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
+Hay disponibles [más vídeos de procedimientos para Campaign Standard aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).

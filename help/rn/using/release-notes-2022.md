@@ -5,9 +5,14 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
-source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
-workflow-type: ht
-source-wordcount: '1254'
+TQID: https://experienceleague.adobe.com/XeyIUqddLskoYUTD8zF1emb99O6HoL0gJrJlbX4V438
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1254
 ht-degree: 100%
 
 ---
@@ -99,7 +104,7 @@ Esta versión incorpora la siguiente actualización de seguridad: Apache Tomcat 
 **Parches**
 
 * Se ha corregido un problema con la opción **Enviar informe ahora** en Informes dinámicos: los trabajos de generación de PDF fallaron con envíos que incluían varias variantes. (CAMP-49120)
-* Se ha corregido un problema que impedía a los usuarios que actualizaran o desvincularan contenido de Adobe Experience Manager (AEM) de sus envíos de Adobe Campaign Standard cuando un contenido duplicado en AEM compartía la misma clave (cq:uuid).(CAMP-49161)
+* Se ha corregido un problema que impedía a los usuarios que actualizaran o desvincularan contenido de Adobe Experience Manager (AEM) de sus envíos de Adobe Campaign Standard cuando un contenido duplicado en AEM compartía la misma clave (cq:uuid). (CAMP-49161)
 * Se ha corregido un error al acceder a una instancia en la que las páginas no se cargaban, no se podían abrir los envíos o no se podía guardar ninguna modificación pendiente. (CAMP-50195)
 * Se ha corregido un problema que impedía abrir los criterios de alerta de envío si el campo **Filtro de entrega** aplicado por este criterio no se ha rellenado. (CAMP-49093)
 * Se ha corregido un problema que se producía al editar el botón **Secundario** en envíos en la aplicación que impidieron que se tuvieran en cuenta los cambios. (CAMP-50250)

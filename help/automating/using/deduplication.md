@@ -10,10 +10,14 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 57c56e4a-892c-46d6-9bb4-6a345a8d9f5b
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/dkAPwzqgld7-LbCyzuz24CnRMjmepFIxG6F0HRBuh8c
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 96%
+source-wordcount: 575
+ht-degree: 85%
 
 ---
 
@@ -62,7 +66,7 @@ Para configurar una actividad de deduplicación, debe introducir una etiqueta, e
    * Si el valor del campo es 0: se guardan todos los registros.
    * Si el valor del campo es 2: se conservan los registros C y Z y se conservan dos registros de A, B e Y, al azar o en función del método de deduplicación seleccionado posteriormente.
 
-1. Defina los criterios **[!UICONTROL Duplicate identification]** agregando condiciones en la lista proporcionada. Especifique los campos o expresiones para los que los valores idénticos permiten identificar los duplicados: dirección de correo electrónico, nombre, apellidos, etc. El orden de las condiciones le permite especificar las que se procesarán en primer lugar.
+1. Defina los criterios **[!UICONTROL Duplicate identification]** agregando condiciones en la lista proporcionada. Especifique los campos o expresiones para los que los valores idénticos permiten identificar los duplicados: dirección de correo electrónico, nombre, apellidos, etc. El orden de las condiciones le permite especificar las que se procesarán primero.
 1. En la lista desplegable, seleccione el **[!UICONTROL Deduplication method]** que desee utilizar:
 
    * **[!UICONTROL Choose for me]**: selecciona de forma aleatoria el registro que se va a excluir de los duplicados.

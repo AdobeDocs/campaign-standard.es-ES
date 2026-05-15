@@ -9,9 +9,14 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: 6c01662e-1e19-4cec-aa21-6e84b9b7a677
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/rNZ7AuSVilyEUjsV2cgu2SLCxfT693AORqR6-GF9d5E
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: 434
 ht-degree: 99%
 
 ---
@@ -25,7 +30,7 @@ Aquí tomamos un ejemplo de mensaje SMS que contiene campos de personalización 
 **Oye, &lt; Nombre > &lt; Apellido >. Los nuevos productos ya están disponibles. ¡Echa un vistazo a la tienda!**
 
 * Para un destinatario llamado “Jose García”, ya que no contiene caracteres especiales, Adobe Campaign elige la codificación GSM, que autoriza hasta 160 caracteres por mensaje SMS. Por lo tanto, el mensaje se envía de una.
-* Para un destinatario llamado “Raphaël Forêt”, los caracteres “ë” y “ê” no se pueden codificar en GSM. Según si la transliteración se ha activado o no, Adobe Campaign puede seleccionar entre dos comportamientos:
+* Para un destinatario llamado “Raphaël Forêt”, los caracteres “ë” y “ê” no se pueden codificar en GSM. Según si la transliteración se ha habilitado o no, Adobe Campaign puede seleccionar entre dos comportamientos:
 
    * Si se autoriza la transliteración, “ë” y “ê” se cambian por “e”, lo que significa que se puede utilizar la codificación GSM y se pueden usar hasta 160 caracteres en el SMS. Este mensaje se envía como un solo mensaje SMS, pero se modifica ligeramente.
    * Si no se autoriza la transliteración, Adobe Campaign elige enviar el mensaje en formato binario (Unicode): todos los caracteres se envían tal como son. Como los mensajes SMS en Unicode están limitados a 70 caracteres, Adobe Campaign tiene que enviar el mensaje en dos partes.

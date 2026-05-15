@@ -7,10 +7,13 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 9b522c84-e296-47c7-9588-2e5ed08ab631
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+TQID: https://experienceleague.adobe.com/lfD2ncth570TSScQZE3UiO3ikqqxpjf4CVd7PvuAFXs
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 42%
+source-wordcount: 182
+ht-degree: 46%
 
 ---
 
@@ -20,7 +23,7 @@ ht-degree: 42%
 
 <table>
                <tr>
-                  <th>Nombre</th>
+                  <th>Name</th>
                   <th>Etiqueta</th>
                   <th>Tipo (longitud)</th>
                   <th>Valores de enumeración</th>
@@ -34,7 +37,7 @@ ht-degree: 42%
                <tr>
                   <td>país (países)</td>
                   <td>País</td>
-                  <td>vincular </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -46,7 +49,7 @@ ht-degree: 42%
                <tr>
                   <td>createdBy (userBase)</td>
                   <td>Creado por</td>
-                  <td>vincular </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -63,7 +66,7 @@ ht-degree: 42%
                </tr>
                <tr>
                   <td>emailRendering</td>
-                  <td>Procesamiento de correo electrónico</td>
+                  <td>Representación de correo electrónico</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
@@ -76,7 +79,7 @@ ht-degree: 42%
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
                   <td>Unidad geográfica</td>
-                  <td>vincular </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -99,7 +102,7 @@ ht-degree: 42%
                </tr>
                <tr>
                   <td>marketingCloudId</td>
-                  <td>ID de Marketing Cloud</td>
+                  <td>MARKETING CLOUD ID</td>
                   <td>cadena (256)</td>
                   <td> </td>
                </tr>
@@ -118,12 +121,12 @@ ht-degree: 42%
                <tr>
                   <td>modifiedBy (userBase)</td>
                   <td>Modificado por</td>
-                  <td>vincular </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>name</td>
-                  <td>Identificación</td>
+                  <td>Identidad</td>
                   <td>cadena (64)</td>
                   <td> </td>
                </tr>
@@ -142,7 +145,7 @@ ht-degree: 42%
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
                   <td>Entidades organizativas</td>
-                  <td>vincular </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -184,7 +187,7 @@ ht-degree: 42%
                <tr>
                   <td>stateLink (estado)</td>
                   <td>Estado</td>
-                  <td>vincular </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -271,6 +274,6 @@ Perfil de prueba (perfil)
     </tr>
     <tr>
     <td>seedMember</td>
-    <td>vincular</td>
+    <td>vínculo</td>
     </tr>
 </table>

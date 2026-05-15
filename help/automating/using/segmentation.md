@@ -10,9 +10,13 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 3761ee4a-1ce5-4f9e-b2a5-84388b6b9db8
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/0JaRwv07dtCgzlGeRxr-AnLlPzvWUpH2zxS-Nzk1hVw
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: 886
 ht-degree: 79%
 
 ---
@@ -35,7 +39,7 @@ La actividad **[!UICONTROL Segmentation]** le permite crear uno o varios segment
 
 ## Contexto de uso {#context-of-use}
 
-La actividad **[!UICONTROL Segmentation]** se suele colocar después de actividades de segmentación (consulta, intersección, unión, exclusión, etc.) para definir la población estándar en función de la cual se forman los segmentos.
+La actividad **[!UICONTROL Segmentation]** se suele colocar después de actividades de segmentación (consulta, intersección, unión, exclusión, etc.) para definir la población estándar basada en la formación de los segmentos.
 
 **Temas relacionados**
 
@@ -62,7 +66,7 @@ La actividad **[!UICONTROL Segmentation]** se suele colocar después de activida
    * **[!UICONTROL Limit segment population]**: le permite limitar el tamaño del segmento.
    * **[!UICONTROL Filter and limit segment population]**: le permite filtrar la población del segmento y limitar su tamaño.
    * **[!UICONTROL Label]**: etiqueta de segmento.
-   * **[!UICONTROL Segment code]**: código asignado a la población del segmento. El código de segmento se puede personalizar mediante una expresión estándar y variables de eventos (consulte [esta página](../../automating/using/customizing-workflow-external-parameters.md)).
+   * **[!UICONTROL Segment code]**: código asignado a la población del segmento.El código de segmento se puede personalizar mediante una expresión estándar y variables de eventos (consulte [esta página](../../automating/using/customizing-workflow-external-parameters.md)).
    * **[!UICONTROL Exclude segment from population]**: le permite excluir el segmento especificado de la población saliente de la actividad. Esta opción solo se puede utilizar si se selecciona la opción **[!UICONTROL Generate all segments in the same transition]**.
 
    ![](assets/wkf_segment_new_segment.png)

@@ -10,9 +10,13 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 3189745c-dcc9-4719-b080-85ffa3bb66be
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/tZmyjYoYBX7mzN7CSuLXgLIiH-QldGCXmr-F62ruPDU
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: 381
 ht-degree: 97%
 
 ---
@@ -39,7 +43,7 @@ La actividad **[!UICONTROL Union]** se utiliza para combinar las poblaciones de 
 
 ## Configuración {#configuration}
 
-1. Arrastre y suelte una actividad **[!UICONTROL Union]** en su flujo de trabajo.
+1. Arrastre y suelte una actividad de **[!UICONTROL Union]** en el flujo de trabajo.
 1. Conéctela a las demás actividades que la precedan, como consultas.
 1. Seleccione la actividad y, a continuación, ábrala con el botón ![](assets/edit_darkgrey-24px.png), en las acciones rápidas que aparecerán.
 1. Seleccione el **[!UICONTROL Reconciliation type]** para definir cómo se manejan los duplicados de la confrontación entre poblaciones entrantes:

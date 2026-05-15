@@ -8,10 +8,16 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+TQID: https://experienceleague.adobe.com/vMtypGa523dBe7gAb-czQgSM9SEyMyd-ayg0SYjKj2E
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b631758a-142d-425f-b9aa-f756d85cb979id: d5ef99fa-df0c-4153-bf94-105ad0724167
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 84%
+source-wordcount: 1263
+ht-degree: 83%
 
 ---
 
@@ -22,7 +28,7 @@ Una vez creado un correo electrónico en Adobe Campaign, debe definir su conteni
 Email Designer le permite crear correos electrónicos personalizados y cautivadores arrastrando y soltando
 interfaz. Ya sea desde una pizarra en blanco o aprovechando los fragmentos de contenido o las plantillas existentes, diseñe y perfeccione el contenido de cada correo electrónico, ya sea promocional o transaccional.
 
-Compilado para ofrecer HTML optimizado para un diseño interactivo, el Diseñador de correo electrónico le permite definir y aplicar fácilmente las condiciones de visibilidad y de contenido dinámico a un correo electrónico, una plantilla o un fragmento directamente a través de la interfaz de usuario. Puede alternar sin problemas entre la interfaz de arrastre y suelte y el código del HTML haciendo clic en un botón.
+Compilado para ofrecer HTML optimizado para un diseño interactivo, el Diseñador de correo electrónico le permite definir y aplicar fácilmente las condiciones de visibilidad y de contenido dinámico a un correo electrónico, una plantilla o un fragmento directamente a través de la interfaz de usuario. Puede alternar sin problemas entre la interfaz de arrastrar y soltar y el código HTML haciendo clic en un botón.
 
 El Diseñador de correo electrónico le permite crear plantillas contenido de correo electrónico y las respectivas plantillas. Es compatible con correos electrónicos simples, transaccionales, de prueba A/B, multilingües y recurrentes.
 
@@ -42,9 +48,9 @@ Al crear un correo electrónico, puede elegir utilizar una plantilla predefinida
 
 Para aumentar la eficacia de sus campañas de marketing, personalice su contenido. Consulte [Inserción de campos de personalización](../../designing/using/personalization.md#inserting-a-personalization-field) y [Añadir un bloque de contenido](../../designing/using/personalization.md#adding-a-content-block).
 
-También puede definir contenido dinámico que varíe según cada perfil. Consulte [Definición del contenido dinámico en un correo electrónico](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) y [Definición del contenido dinámico en una página de aterrizaje](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page).
+También puede definir contenido dinámico que varíe según cada perfil. Consulte [Definición del contenido dinámico en un correo electrónico](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) y [Definición del contenido dinámico en una página de destino](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page).
 
-Mejore sus mensajes y páginas de aterrizaje con vínculos e imágenes. Consulte [Inserción de vínculos](../../designing/using/links.md#inserting-a-link) e [Inserción de imágenes](../../designing/using/images.md#inserting-images).
+Mejore sus mensajes y páginas de destino con vínculos e imágenes. Consulte [Inserción de vínculos](../../designing/using/links.md#inserting-a-link) e [Inserción de imágenes](../../designing/using/images.md#inserting-images).
 
 ## Interfaz de Designer de correo electrónico {#email-designer-interface}
 
@@ -116,7 +122,7 @@ Para utilizar correctamente el Diseñador de correo electrónico y crear los mej
 
 * Al editar el contenido **del correo electrónico**:
 
-  Previsualice los mensajes antes de enviarlos. Adobe Campaign ofrece una forma de probar el procesamiento de correo electrónico con Litmus. Para obtener más información, consulte [Procesamiento de correo electrónico](../../sending/using/email-rendering.md).
+  Previsualice los mensajes antes de enviarlos. Adobe Campaign ofrece una forma de probar la representación de correo electrónico con Litmus. Para obtener más información, consulte [Representación de correo electrónico](../../sending/using/email-rendering.md).
 
 * La metaetiqueta de Remitente del reenvío no es compatible con el Diseñador de correo electrónico.
 
@@ -158,7 +164,7 @@ Cuando se trata de fragmentos, tenga en cuenta lo siguiente:
 **Temas relacionados**
 
 * [Creación de un correo electrónico](../../channels/using/creating-an-email.md)
-* [Diseño de una página de aterrizaje](../../channels/using/designing-a-landing-page.md)
+* [Diseño de una página de destino](../../channels/using/designing-a-landing-page.md)
 * [Creación de un mensaje SMS](../../channels/using/creating-an-sms-message.md)
 * [Creación y envío de una notificación push](../../channels/using/preparing-and-sending-a-push-notification.md)
 
@@ -166,6 +172,6 @@ Cuando se trata de fragmentos, tenga en cuenta lo siguiente:
 
 Este vídeo ofrece información general sobre el Designer de correo electrónico.
 
->[!VIDEO](https://video.tv.adobe.com/v/330103?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
 
-Para empezar a usar el Designer de correo electrónico, vea este [conjunto de vídeos](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=es#GettingStarted) que explican la funcionalidad general del Designer de correo electrónico y cómo diseñar un correo electrónico desde cero o con plantillas
+Para empezar a usar el Designer de correo electrónico, vea este [conjunto de vídeos](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) que explican la funcionalidad general del Designer de correo electrónico y cómo diseñar un correo electrónico desde cero o con plantillas

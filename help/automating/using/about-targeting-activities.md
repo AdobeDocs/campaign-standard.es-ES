@@ -1,5 +1,5 @@
 ---
-title: Crear un flujo de trabajo de segmentación
+title: Acerca de las actividades de segmentación
 description: Se puede acceder a las actividades de segmentación desde la parte izquierda de la pantalla.
 audience: automating
 content-type: reference
@@ -9,14 +9,20 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 1cd471e3-5332-4119-b342-2c3c8503fdd1
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/PPDlvoeHKNpeLfYe4qYFq7mzQUb3oR7XkrMK-jQFpmY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 40%
+source-wordcount: 437
+ht-degree: 58%
 
 ---
 
-# Crear un flujo de trabajo de segmentación{#about-targeting-activities}
+# Acerca de las actividades de segmentación{#about-targeting-activities}
 
 En la paleta, en el lado izquierdo de la pantalla, despliegue la sección **[!UICONTROL Targeting]**.
 
@@ -45,15 +51,15 @@ Puede seleccionar datos mediante las siguientes actividades:
 
 * La actividad **[!UICONTROL Query]** permite filtrar y extraer una población de elementos de la base de datos de Adobe Campaign. Consulte la sección [Consulta](../../automating/using/query.md).
 * La actividad **[!UICONTROL Incremental query]** permite filtrar y extraer una población de elementos de la base de datos de Adobe Campaign. Cada vez que se ejecuta esta actividad, se excluyen los resultados de las ejecuciones anteriores. Esto le permite dirigirse únicamente a los elementos nuevos Consulte. [Consulta incremental](../../automating/using/incremental-query.md) sección.
-* La actividad **[!UICONTROL Read audience]** le permite recuperar una audiencia existente y refinarla mediante la aplicación de condiciones de filtrado adicionales. Consulte la sección [Leer audiencia](../../automating/using/read-audience.md).
+* La actividad **[!UICONTROL Read audience]** le permite recuperar un público existente y refinarlo mediante la aplicación de condiciones de filtrado adicionales.Consulte la sección [Leer audiencia](../../automating/using/read-audience.md).
 
 ## Segmentación de datos {#segmenting-data}
 
 Adobe Campaign permite procesar conjuntos de datos entrantes. Por lo tanto, puede combinar varias poblaciones, excluir parte de ellas o solo mantener datos comunes para varios objetivos.
 
 * La actividad **[!UICONTROL Union]** le permite agrupar el resultado de varias actividades en un solo destino. Consulte la sección [Unión](../../automating/using/union.md).
-* La actividad **[!UICONTROL Intersection]** le permite mantener solamente los elementos comunes a las diferentes poblaciones de entrada de la actividad. Consulte la sección [Intersección](../../automating/using/intersection.md).
-* La actividad **[!UICONTROL Exclusion]** le permite excluir elementos de una población según determinados criterios. Consulte la sección [Exclusión](../../automating/using/exclusion.md).
+* La actividad **[!UICONTROL Intersection]** permite mantener solo los elementos comunes a las diferentes poblaciones de entrada de la actividad. Consulte la sección [Intersección](../../automating/using/intersection.md).
+* La actividad **[!UICONTROL Exclusion]** permite excluir elementos de una población según determinados criterios. Consulte la sección [Exclusión](../../automating/using/exclusion.md).
 * La actividad **[!UICONTROL Segmentation]** le permite crear uno o varios segmentos a partir de una población calculada por actividades ubicadas anteriormente en el flujo de trabajo. Al final de la actividad, se pueden procesar en una sola transición o en transiciones diferentes. Consulte la sección [Segmentación](../../automating/using/segmentation.md).
 
 ## Enriquecimiento de datos {#enriching-data}

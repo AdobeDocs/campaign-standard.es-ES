@@ -9,9 +9,14 @@ feature: Control Groups
 role: User
 level: Intermediate
 exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+TQID: https://experienceleague.adobe.com/52Xrj9jJWTlTtIrIqTt-Fhc4V-lRNfjfGDRiHv5dgUs
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: 1544
 ht-degree: 4%
 
 ---
@@ -39,7 +44,7 @@ Los pasos principales son los siguientes:
    >
    >[!DNL Campaign Standard] procesa las pruebas como envíos estándar. Como resultado, al enviar pruebas utilizando la sustitución de perfiles, se añaden registros a los &quot;logs&quot; de envío y seguimiento de los perfiles seleccionados.
 
-![](assets/do-not-localize/how-to-video.png) [Descubra esta funcionalidad en vídeo](#video)
+![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
 
 ## Selección de perfiles y direcciones de sustitución {#selecting-profiles}
 
@@ -99,7 +104,7 @@ Para utilizar perfiles de destino para realizar pruebas, primero debe selecciona
 
 ### Importación de perfiles de una audiencia {#importing-from-audience}
 
-Campaign Standard permite importar una audiencia de perfiles que puede utilizar para realizar pruebas. Esto le permite, por ejemplo, enviar a una dirección de correo electrónico única un conjunto completo de mensajes dirigidos a diferentes perfiles.
+Campaign Standard le permite importar una audiencia de perfiles que puede utilizar para realizar pruebas. Esto le permite, por ejemplo, enviar a una dirección de correo electrónico única un conjunto completo de mensajes dirigidos a diferentes perfiles.
 
 Además, si la audiencia ya está configurada con las columnas dirección y prefijo, podrá importar esta información en la pestaña **[!UICONTROL Profile substitutions]**. Un ejemplo de importación de audiencias con direcciones de sustitución se detalla en [esta sección](#use-case).
 
@@ -271,6 +276,6 @@ Los pasos principales para este caso de uso son los siguientes:
 
 Este vídeo muestra cómo puede probar los mensajes de correo electrónico mediante la sustitución de perfiles.
 
->[!VIDEO](https://video.tv.adobe.com/v/36462?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/32368?quality=12)
 
-Hay disponibles [más vídeos de procedimientos para el Campaign Standard aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
+Hay disponibles [más vídeos de procedimientos para Campaign Standard aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
