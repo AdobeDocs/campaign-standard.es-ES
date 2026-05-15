@@ -8,10 +8,23 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
+TQID: https://experienceleague.adobe.com/608lVGbr-umlPJM4t-eV2qhW6Vpypx3deu9oKf-b0iU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1224'
-ht-degree: 80%
+source-wordcount: 1289
+ht-degree: 79%
 
 ---
 
@@ -48,7 +61,7 @@ Los pasos para crear un mensaje independiente en la aplicación con Adobe Campai
 
    ![](assets/inapp_creating.png)
 
-1. Seleccione una plantilla adecuada según sus necesidades de segmentación de audiencias.
+1. Seleccione una plantilla adecuada según sus necesidades de segmentación del público.
 
    ![](assets/inapp_creating_2.png)
 
@@ -64,7 +77,7 @@ Los pasos para crear un mensaje independiente en la aplicación con Adobe Campai
 
    ![](assets/inapp_creating_3.png)
 
-1. Seleccione la audiencia a la que desee dirigirse para el mensaje en la aplicación. La audiencia se filtra previamente según la aplicación móvil asociada a esta entrega.
+1. Seleccione el público al que desee dirigirse para el mensaje en la aplicación. El público se filtra previamente según la aplicación móvil asociada a esta entrega.
 
    Tenga en cuenta que este paso no es necesario con **[!UICONTROL Broadcast an In-App message (inAppBroadcast)]**, ya que se dirige a todos los usuarios de una aplicación móvil.
 
@@ -102,7 +115,7 @@ Los pasos para crear un mensaje independiente en la aplicación con Adobe Campai
 
    Tenga en cuenta que este déclencheur se aplicará en el dispositivo únicamente para los puntos de interés de las bibliotecas seleccionadas en la extensión Places en la IU de recopilación de datos. Para obtener más información sobre la extensión Places y cómo instalarla, consulte esta [documentación](https://developer.adobe.com/client-sdks/solution/places).
 
-1. En la pestaña **[!UICONTROL Frequency & duration]**, elija la frecuencia del activador, la fecha de inicio y final, el día de la semana y la hora del día en que se activará el mensaje en la aplicación.
+1. En la pestaña **[!UICONTROL Frequency & duration]**, elija la frecuencia del activador, la fecha de inicio y finalización, el día de la semana y la hora del día en que se activará el mensaje en la aplicación.
 
    ![](assets/inapp_creating_5.png)
 
@@ -110,9 +123,9 @@ Los pasos para crear un mensaje independiente en la aplicación con Adobe Campai
 
    ![](assets/inapp_creating_6.png)
 
-1. Haga clic en **[!UICONTROL Create]**.
+1. Haga clic **[!UICONTROL Create]**.
 
-El mensaje en la aplicación ya está listo para enviarse a la audiencia de destino.
+El mensaje en la aplicación ya está listo para enviarse al público destinatario.
 
 **Temas relacionados:**
 
@@ -122,7 +135,7 @@ El mensaje en la aplicación ya está listo para enviarse a la audiencia de dest
 
 ## Vista previa del mensaje en la aplicación {#previewing-the-in-app-message}
 
-Antes de enviar el mensaje en la aplicación, puede realizar pruebas con los perfiles de prueba para comprobar qué verá la audiencia de destino cuando lo reciban.
+Antes de enviar el mensaje en la aplicación, puede realizar pruebas con los perfiles de prueba para comprobar qué verá el público destinatario cuando lo reciban.
 
 1. Haga clic en el botón **[!UICONTROL Preview]**.
 
@@ -153,7 +166,7 @@ Una vez que haya terminado de preparar la entrega y se hayan realizado los pasos
 
    ![](assets/inapp_sending_6.png)
 
-1. Compruebe el estado de la entrega a través del panel de mensajes y los registros. Para obtener más información, consulte [esta sección](../../sending/using/monitoring-a-delivery.md).
+1. Compruebe el estado de la entrega a través del panel de control de mensajes y los registros. Para obtener más información, consulte [esta sección](../../sending/using/monitoring-a-delivery.md).
 
    Los recuentos de KPI **[!UICONTROL Delivered]** y **[!UICONTROL Sent]** se basan en lo que se envía correctamente desde Campaign al servicio de entrega de mensajes. Tenga en cuenta que estos KPI no indican el recuento de dispositivos móviles que recibieron o descargaron el mensaje correctamente desde el servicio de entrega de mensajes.
 

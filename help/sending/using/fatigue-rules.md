@@ -8,10 +8,22 @@ feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 21abf3c2-d319-40a8-9479-1fc02c82e5d2
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+TQID: https://experienceleague.adobe.com/yzZqni5CgzXiOBFYrKXbUjfSbpMRdxKAMeSuZL2hiuk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '2374'
-ht-degree: 98%
+source-wordcount: 2398
+ht-degree: 97%
 
 ---
 
@@ -32,7 +44,7 @@ Temas relacionados:
 * [Preparación](../../administration/using/configuring-email-channel.md#preparation)
 * [Administración de tipologías](../../sending/using/managing-typologies.md)
 * [Reglas de tipología](../../sending/using/managing-typology-rules.md)
-* [Optimización de la frecuencia de comunicación para prevenir la fatiga de contacto](https://helpx.adobe.com/es/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
+* [Optimización de la frecuencia de comunicación para evitar la fatiga por contacto](https://helpx.adobe.com/es/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
 
 ## Creación de una regla de fatiga {#creating-a-fatigue-rule}
 
@@ -50,7 +62,7 @@ Para crear y configurar una regla de tipología de **[!UICONTROL Fatigue]**, sig
 
    ![](assets/fatigue3.png)
 
-1. En el campo **[!UICONTROL Channel]**, seleccione a qué canal se aplicará la regla. Puede seleccionar un solo canal (correo electrónico, SMS, correo postal, aplicación móvil) o seleccionar **[!UICONTROL All channels]**. Consulte [Selección del canal](#choosing-the-channel).
+1. En el campo **[!UICONTROL Channel]**, seleccione a qué canal se aplicará la regla. Puede seleccionar un solo canal (correo electrónico, SMS, correo directo, aplicación móvil) o seleccionar **[!UICONTROL All channels]**. Consulte [Selección del canal](#choosing-the-channel).
 
    ![](assets/fatigue5.png)
 
@@ -96,7 +108,7 @@ Los siguientes canales están disponibles:
 
 * Correo electrónico
 * Móvil (SMS)
-* Correo postal
+* Correo directo
 * Aplicación móvil: este canal le permite enviar notificaciones push a perfiles o a suscriptores de la aplicación. Si decide enviar notificaciones a perfiles, serán compatibles con las reglas de fatiga de varios canales.
 
   >[!IMPORTANT]
@@ -109,7 +121,7 @@ Los siguientes canales están disponibles:
 
 Las reglas de fatiga son compatibles con todos los tipos de entrega: entregas únicas, entregas recurrentes, entregas de flujo de trabajo y mensajes transaccionales.
 
-La **mensajería transaccional** se pueden utilizar para enviar mensajes de servicio dirigidos a un evento (rtEvent), así como mensajes de marketing (perfiles de objetivo), por ejemplo un mensaje de remarketing. Las reglas de fatiga solo son compatibles con los mensajes de marketing (perfiles de objetivo). Los mensajes transaccionales de evento no contienen información sobre perfiles, por lo que no son compatibles con las normas de fatiga (incluso en el caso de un enriquecimiento con perfiles). Con el soporte de los mensajes de marketing en la mensajería transaccional, puede **aplicar una regla de fatiga a todos los canales, incluidos los mensajes transaccionales de marketing**.
+La **mensajería transaccional** se pueden utilizar para enviar mensajes de servicio segmentados a un evento (rtEvent), así como mensajes de marketing (perfiles de objetivo), por ejemplo un mensaje de remarketing. Las reglas de fatiga solo son compatibles con los mensajes de marketing (perfiles de objetivo). Los mensajes transaccionales de evento no contienen información sobre perfiles, por lo que no son compatibles con las normas de fatiga (incluso en el caso de un enriquecimiento con perfiles). Con el soporte de los mensajes de marketing en la mensajería transaccional, puede **aplicar una regla de fatiga a todos los canales, incluidos los mensajes transaccionales de marketing**.
 
 ## Definición del umbral {#defining-the-threshold}
 
@@ -223,7 +235,7 @@ Existen muchas posibilidades en cuanto a la implementación de la gestión de fa
 
   Supongamos que crea una regla de varios canales con un umbral constante de 3 durante un periodo deslizante de 7 días.
 
-  La semana pasada, sus perfiles Premium recibieron un correo electrónico de promoción y un correo electrónico de remarketing transaccional. También programó un SMS que se enviará la semana que viene. Hoy, usted decide enviar una notificación push dirigida a todos sus perfiles. Los perfiles Premium se excluirán de la notificación push de hoy porque ya se ha alcanzado el número máximo de mensajes durante un periodo de 2 semanas.
+  La semana pasada, sus perfiles Premium recibieron un correo electrónico de promoción y un correo electrónico de remarketing transaccional. También programó un SMS que se enviará la semana que viene. Hoy, usted decide enviar una notificación push segmentada a todos sus perfiles. Los perfiles Premium se excluirán de la notificación push de hoy porque ya se ha alcanzado el número máximo de mensajes durante un periodo de 2 semanas.
 
   ![](assets/fatigue23.png)
 

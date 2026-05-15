@@ -9,10 +9,17 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 0f66fe2b-22b1-49d7-a080-29b00941a2cc
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/eYHAXWPC6z7AhWv1qGoiBRZlN5nSp1-PiYOjCbVdU0g
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 12%
+source-wordcount: 619
+ht-degree: 13%
 
 ---
 
@@ -72,7 +79,7 @@ Después de diseñar el contenido del correo electrónico, ahora debe crear las 
 
    ![](assets/aem_acs_9.png)
 
-1. Haga clic en **[!UICONTROL Create]**.
+1. Haga clic **[!UICONTROL Create]**.
 
 Se han creado las copias de idioma y ahora puede editar el contenido en función del idioma elegido.
 
@@ -102,7 +109,7 @@ Se han creado las copias de idioma y ahora puede editar el contenido en función
 
    ![](assets/aem_acs_20.png)
 
-1. Haga clic en **[!UICONTROL Language copy creation]**.
+1. Haga clic **[!UICONTROL Language copy creation]**.
 
    ![](assets/aem_acs_16.png)
 

@@ -8,10 +8,21 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d4e1b935-b21f-4a24-99ba-f455db0f7cfc
-source-git-commit: afb988281f00dc17b484872259d44f51864d55f1
+TQID: https://experienceleague.adobe.com/sBjTFd0Su7In8xai4J8cp5QAsAh6pOVOf4OVAijQmXo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 22%
+source-wordcount: 799
+ht-degree: 18%
 
 ---
 
@@ -50,9 +61,9 @@ Con Adobe Campaign Standard, puede realizar envíos móviles a través de tres c
   </td>
   <td>
     <div>
-    <p><strong>Explicación de la estructura de carga de notificaciones push de Campaign Standard</strong></p>
+    <p><strong>Explicación de la estructura de carga útil de notificaciones push de Campaign Standard</strong></p>
     </div>
-    <p>Obtenga más información acerca de la estructura de la carga útil recibida en aplicaciones móviles cuando una notificación push se envía correctamente a una aplicación desde Adobe Campaign Standard.</br><a href="../../administration/using/push-payload.md"><strong>Haga clic aquí</strong></a> para obtener más información.</p>
+    <p>Obtenga más información acerca de la estructura de la carga útil recibida en aplicaciones móviles cuando Adobe Campaign Standard envía correctamente una notificación push a una aplicación.</br><a href="../../administration/using/push-payload.md"><strong>Haga clic aquí</strong></a> para obtener más información.</p>
     <br>
   </td>
 </tr>
@@ -68,7 +79,7 @@ Con Adobe Campaign Standard, puede realizar envíos móviles a través de tres c
     <div>
     <p><strong>Implementación del seguimiento push</strong></p>
     </div>
-    <p>Obtenga información sobre cómo asegurarse de que el seguimiento de notificaciones push se haya implementado correctamente en iOS y Android.</br><a href="../../administration/using/push-tracking.md"><strong>Haga clic aquí</strong></a> para obtener más información.</p>
+    <p>Aprenda a asegurarse de que el seguimiento de notificaciones push se haya implementado correctamente en iOS y Android.</br><a href="../../administration/using/push-tracking.md"><strong>Haga clic aquí</strong></a> para obtener más información.</p>
     <br>
   </td>
 </tr>
@@ -89,7 +100,7 @@ Con Adobe Campaign Standard, puede realizar envíos móviles a través de tres c
     <div>
     <p><strong>Casos de uso móvil admitidos con los SDK de Adobe Experience Platform</strong></p>
     </div>
-    <p>Obtenga más información acerca de los casos de uso móvil admitidos en Adobe Campaign Standard mediante el uso de los SDK para Adobe Experience Platform.</br><a href="../../administration/using/supported-mobile-use-cases.md"><strong>Haga clic aquí</strong></a> para obtener más información.</p>
+    <p>Obtenga más información acerca de los casos de uso móvil admitidos en Adobe Campaign Standard mediante los SDK para Adobe Experience Platform.</br><a href="../../administration/using/supported-mobile-use-cases.md"><strong>Haga clic aquí</strong></a> para obtener más información.</p>
     <br>
   </td>
 </tr>
@@ -163,7 +174,7 @@ Con Adobe Campaign Standard, puede realizar envíos móviles a través de tres c
     <div>
     <p><strong>Personalización de los mensajes en la aplicación</strong></p>
     </div>
-    <p>Para ajustar mejor la entrega, Adobe Campaign le permite acceder a un conjunto de opciones avanzadas mientras diseña una aplicación.</br><a href="../../channels/using/customizing-an-in-app-message.md"><strong>Haga clic aquí</strong></a> para obtener más información.</p>
+    <p>Para ajustar tu entrega, Adobe Campaign te permite acceder a un conjunto de opciones avanzadas mientras diseñas una aplicación.</br><a href="../../channels/using/customizing-an-in-app-message.md"><strong>Haz clic aquí</strong></a> para obtener más información.</p>
     <br>
   </td>
 </tr>
@@ -210,7 +221,7 @@ Con Adobe Campaign Standard, puede realizar envíos móviles a través de tres c
     <div>
     <p><strong>Administración de SMS entrantes</strong></p>
     </div>
-    <p>Cuando un perfil responde a un mensaje SMS enviado a través de Campaign, puede configurar los mensajes que se les envían automáticamente, así como la acción que se va a realizar.Personalizar un tipo de mensaje de notificación local</br><a href="../../channels/using/managing-incoming-sms.md"><strong>Haga clic aquí para obtener más información.</p>
+    <p>Cuando un perfil responde a un mensaje SMS enviado por Campaign, puede configurar los mensajes que se les envían automáticamente, así como la acción que se va a realizar.Personalizando un tipo de mensaje de notificación local</br><a href="../../channels/using/managing-incoming-sms.md"><strong>Haga clic aquí para obtener más información.</p>
     <br>
   </td>
   <td>

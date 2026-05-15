@@ -7,9 +7,22 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+TQID: https://experienceleague.adobe.com/we4WG7qol0-EXX1i1YkwYTPdOeTUD7wZftO02X-B2ek
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: b5852c32-876b-41ae-92a7-9f588865ae52
+  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: 1310
 ht-degree: 73%
 
 ---
@@ -20,15 +33,15 @@ ht-degree: 73%
 
 Cada compañía tiene directrices técnicas y visuales de marca. Con Adobe Campaign, puede definir un conjunto de especificaciones para presentar una marca coherente a sus clientes, desde logotipos hasta aspectos técnicos, como el remitente de correos electrónicos, la dirección URL o los dominios.
 
-Los administradores técnicos pueden definir una o varias marcas para introducir de forma centralizada los parámetros que afectan a la identidad de una marca. Esto incluye el logotipo de la marca, el dominio de la URL de acceso de la página de aterrizaje o la configuración del seguimiento de mensajes. Con Adobe Campaign, puede crear estas marcas y vincularlas a mensajes o páginas de aterrizaje. Esta configuración se administra en plantillas.
+Los administradores técnicos pueden definir una o varias marcas para introducir de forma centralizada los parámetros que afectan a la identidad de una marca. Esto incluye el logotipo de la marca, el dominio de la URL de acceso de la página de destino o la configuración del seguimiento de mensajes. Con Adobe Campaign, puede crear estas marcas y vincularlas a mensajes o páginas de destino. Esta configuración se administra en plantillas.
 
 ## Configuración y uso de marcas {#configuring-and-using-brands}
 
 El principio primordial de la configuración y el uso de marcas es:
 
 1. Crear y configurar la marca: esta operación requiere permisos específicos y la realiza el administrador técnico de Adobe Campaign. Los pasos para obtener una nueva marca en Campaign se detallan [en esta sección](#creating-a-brand).
-1. Cree una o varias plantillas de envío y página de aterrizaje para esta marca. Consulte la sección [Creación de una plantilla](../../start/using/marketing-activity-templates.md).
-1. Cree mensajes y páginas de aterrizaje basados en esta plantilla. Consulte las secciones [Creación de un correo electrónico](../../channels/using/creating-an-email.md) y [Creación de una página de aterrizaje](../../channels/using/designing-a-landing-page.md).
+1. Cree una o varias plantillas de envío y página de destino para esta marca. Consulte la sección [Creación de una plantilla](../../start/using/marketing-activity-templates.md).
+1. Cree mensajes y páginas de destino basados en esta plantilla. Consulte las secciones [Creación de un correo electrónico](../../channels/using/creating-an-email.md) y [Creación de una página de destino](../../channels/using/designing-a-landing-page.md).
 
 >[!IMPORTANT]
 >
@@ -65,17 +78,17 @@ Una **marca** se define con las siguientes características:
   >
   >Después de haber actualizado los parámetros de encabezado de los correos electrónicos, si el nombre y la dirección de correo electrónico del remitente no han cambiado en el correo electrónico creado a partir de la plantilla, compruebe la configuración avanzada de esta.
 
-* **Los servidores expuestos en Internet** definen los servidores utilizados para el seguimiento, pero también para el acceso de página de aterrizaje. Esta sección contiene los campos siguientes:
+* **Los servidores expuestos en Internet** definen los servidores utilizados para el seguimiento, pero también para el acceso de página de destino. Esta sección contiene los campos siguientes:
 
   ![](assets/configure_branding_04.png)
 
-   * **Dirección URL externa del servidor de aplicaciones**, que se utiliza para alojar y acceder a las distintas páginas de aterrizaje que cree.
+   * **Dirección URL externa del servidor de aplicaciones**, que se utiliza para alojar y acceder a las distintas páginas de destino que cree.
    * **Dirección URL externa del servidor de seguimiento**, que se utiliza como dirección URL rastreada durante los envíos.
    * **Dirección URL externa del servidor de página espejo**, que se utiliza como página espejo predeterminada en los envíos.
 
   >[!NOTE]
   >
-  >Para mostrar la vista previa de la página de aterrizaje y el procesamiento de páginas espejo en la interfaz de usuario de Campaign, las URL del servidor de aplicaciones y del servidor de página espejo deben ser seguras. En ese caso, utilice https:// en lugar de http:// al configurar estas direcciones URL.
+  >Para mostrar la vista previa de la página de destino y el procesamiento de páginas espejo en la interfaz de usuario de Campaign, las URL del servidor de aplicaciones y del servidor de página espejo deben ser seguras. En ese caso, utilice https:// en lugar de http:// al configurar estas direcciones URL.
 
 * **[!UICONTROL Tracking URL configuration (Web Analytics)]**, que define la configuración del seguimiento de direcciones URL de su marca.
 
@@ -87,13 +100,13 @@ Una **marca** se define con las siguientes características:
 
 Puede añadir nuevas entidades de su organización en Campaign o crear un nuevo tipo de correo electrónico que debe enviar en un subdominio diferente. Para realizar esto, siga los pasos a continuación:
 
-1. **Configurar un nuevo subdominio**: para que el Adobe utilice cualquier nuevo subdominio, el primer paso será configurarlo. Puede hacerlo a través de [Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=es) o comunicarse con el contacto técnico del Adobe. Obtenga más información acerca de la configuración de subdominios [&#x200B; en este artículo](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html?lang=es).
+1. **Configurar un nuevo subdominio**: para que Adobe utilice cualquier nuevo subdominio, el primer paso será configurarlo. Puede hacerlo a través de [Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=es) o ponerse en contacto con su contacto técnico de Adobe. Obtenga más información acerca de la configuración de subdominios [&#x200B; en este artículo](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html?lang=es).
 
    >[!NOTE]
    >
    >Todos los usuarios administradores pueden acceder al Panel de control. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel).
 
-1. **Crear un ticket**: una vez configurado el subdominio, el Adobe lo configurará en su entorno de producción. Para solicitarlo, [cree un ticket para el servicio de atención al cliente](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) con la siguiente información:
+1. **Crear un ticket**: una vez configurado el subdominio, Adobe lo configurará en su entorno de producción. Para solicitarlo, [cree un ticket para el servicio de atención al cliente](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) con la siguiente información:
 
    * Asunto: Nueva configuración de la marca ACS
 
@@ -105,13 +118,13 @@ Puede añadir nuevas entidades de su organización en Campaign o crear un nuevo 
 
 1. **Crear una plantilla de envíos**: una vez que la nueva marca esté disponible, la práctica recomendada es crear al menos una nueva plantilla de envíos en blanco que haga referencia a esta nueva marca. [Más información](#linking-a-brand-to-a-template).
 
-1. **Compruebe las directrices de capacidad de entrega**. Antes de empezar a usar el nuevo dominio, la estrategia debe discutirse con el equipo de capacidad de entrega de Adobe. Ayudan a definir las prácticas recomendadas si, por ejemplo, se debe crear una nueva afinidad para dividir las IP entre dominios o si se debe definir un plan de ampliación. Obtenga más información acerca de las prácticas recomendadas de entrega [en esta sección](../../sending/using/about-deliverability.md).
+1. **Compruebe las directrices de capacidad de entrega**. Antes de empezar a utilizar el nuevo dominio, la estrategia debe discutirse con el equipo de capacidad de entrega de Adobe. Ayudan a definir las prácticas recomendadas si, por ejemplo, se debe crear una nueva afinidad para dividir las IP entre dominios o si se debe definir un plan de ampliación. Obtenga más información acerca de las prácticas recomendadas de entrega [en esta sección](../../sending/using/about-deliverability.md).
 
 ## Asignación de una marca a un correo electrónico {#assigning-a-brand-to-an-email}
 
 ### Vinculación de una marca a una plantilla {#linking-a-brand-to-a-template}
 
-Para utilizar los parámetros definidos para una marca, debe estar vinculada a una plantilla de envío o de página de aterrizaje. Para ello, debe crear o editar una plantilla.
+Para utilizar los parámetros definidos para una marca, debe estar vinculada a una plantilla de envío o de página de destino. Para ello, debe crear o editar una plantilla.
 
 >[!NOTE]
 >
@@ -153,7 +166,7 @@ En este ejemplo, vamos a crear una nueva marca relacionada con el turismo y util
 
    ![](assets/branding_07.png)
 
-1. A continuación, el administrador configura la dirección URL de los **servidores expuestos en Internet** para que se puedan utilizar las páginas de aterrizaje y, a continuación, las direcciones URL de seguimiento.
+1. A continuación, el administrador configura la dirección URL de los **servidores expuestos en Internet** para que se puedan utilizar las páginas de destino y, a continuación, las direcciones URL de seguimiento.
 
    En este ejemplo, la herramienta **de análisis web** utilizada es **Google Analytics**. El administrador configura la URL de seguimiento de la siguiente manera:
 
@@ -178,7 +191,7 @@ Como administrador de envíos, usted se encarga de crear las plantillas de enví
 
    ![](assets/branding_10.png)
 
-   La plantilla de envío ahora se puede utilizar para crear correos electrónicos que se pueden enviar a una audiencia.
+   La plantilla de envío ahora se puede utilizar para crear correos electrónicos que se pueden enviar a un público.
 
 #### Paso 3: Uso de la nueva marca en una entrega {#use-the-new-brand-in-a-delivery}
 
@@ -192,6 +205,6 @@ Para crear un correo electrónico vinculado a una marca, siga los pasos a contin
 
    ![](assets/branding_15.png)
 
-1. Su correo electrónico ya está configurado. Puede comprobar la información antes de probarla con los perfiles de prueba y luego enviarla a la audiencia.
+1. Su correo electrónico ya está configurado. Puede comprobar la información antes de probarla con los perfiles de prueba y luego enviarla al público.
 
    ![](assets/branding_16.png)

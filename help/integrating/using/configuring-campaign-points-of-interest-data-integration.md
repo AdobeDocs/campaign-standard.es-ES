@@ -9,10 +9,21 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/IWKDZDotgF6Kj0jtroM2BhEiaJAND3TyfwEhfFCtVBU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1252'
-ht-degree: 2%
+source-wordcount: 1346
+ht-degree: 3%
 
 ---
 
@@ -91,7 +102,7 @@ Debe tener acceso a Adobe Analytics para realizar la siguiente configuración. S
 1. Inicie sesión en [mobilemarketing.adobe.com](https://mobilemarketing.adobe.com/).
 1. Cree la aplicación o seleccione una existente.
 1. Vaya a la página **[!UICONTROL Manage App Settings]**.
-1. En la sección **Servicio de ID de visitante**, marque **Habilitar** y seleccione su organización en la lista desplegable. Haga clic en **Guardar**.
+1. En la sección **Servicio de ID de visitante**, marque **Habilitar** y seleccione su organización en la lista desplegable. Haga clic en **Save**.
 
    >[!CAUTION]
    >
@@ -159,7 +170,7 @@ Debe tener acceso a Adobe Analytics para realizar la siguiente configuración. S
 
    * Establecer **tipo de contenido** como **[!UICONTROL application/json]**.
    * En **¿Qué etiquetas de datos almacenan en Déclencheur el Postback?**, seleccione **[!UICONTROL campaign.test]** y **[!UICONTROL exists]**.
-   * Haga clic en **[!UICONTROL Save & Activate]**.
+   * Haga clic **[!UICONTROL Save & Activate]**.
 
 >[!NOTE]
 >

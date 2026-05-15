@@ -8,9 +8,18 @@ feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 43e97f3c-ed82-4fcc-ac0d-fcee6a22da35
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+TQID: https://experienceleague.adobe.com/ThX9BHPlbOlav6-5z8P1ruwSc2-phnvnkqjLaSZO3Fs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: 662
 ht-degree: 23%
 
 ---
@@ -25,7 +34,7 @@ La siguiente tabla proporciona información sobre las reglas de filtrado listas 
 
 | Etiqueta | Canal | Descripción |
 | ---------|----------|---------|
-| **[!UICONTROL Address not specified]** | Todos | Excluye la población objetivo sin una dirección especificada (correo electrónico, dirección postal, etc.) según el canal seleccionado). |
+| **[!UICONTROL Address not specified]** | Todos | Excluye la población objetivo sin una dirección especificada (correo electrónico, dirección postal, etc. según el canal seleccionado). |
 | **[!UICONTROL Address on denylist]** | Todos | Excluye las direcciones que se encuentran en la lista de bloqueados de la. |
 | **[!UICONTROL Duplicate]** | Todos | Excluye duplicados según el campo de población de destinatarios **[!UICONTROL Address]**. |
 | **[!UICONTROL Exclude mobile applications]** | Aplicación móvil | Excluye las suscripciones de la aplicación que no coinciden con la aplicación móvil definida en el mensaje. |
@@ -40,7 +49,7 @@ Además de estas reglas de filtrado predeterminadas, hay dos reglas de exclusió
 * **[!UICONTROL Exclusion of addresses]** ( **[!UICONTROL addressExclusions]** )
 * **[!UICONTROL Exclusion of domains]** ( **[!UICONTROL domainExclusions]** ).
 
-Durante el análisis del correo electrónico, estas reglas comparan las direcciones de correo de los destinatarios con las direcciones o nombres de dominio prohibidos incluidos en una lista de supresión global encriptada que se administra en la instancia de envío. Si se encuentra una coincidencia, el mensaje no se envía a ese destinatario.
+Durante el análisis del correo electrónico, estas reglas comparan las direcciones de correo de los destinatarios con las direcciones o nombres de dominio prohibidos incluidos en una lista de supresión global cifrada que se administra en la instancia de envío. Si se encuentra una coincidencia, el mensaje no se envía a ese destinatario.
 
 El objetivo de esto es evitar que se incluya el servicio en una lista de bloqueados de actividad maliciosa, especialmente a través de Spamtrap. Por ejemplo, si se utiliza un Spamtrap para suscribirse a través de uno de sus formularios web, se envía un mensaje de correo electrónico de confirmación automáticamente a ese Spamtrap y esto hace que incluya su dirección lista de bloqueados automáticamente.
 
@@ -82,7 +91,7 @@ Siempre que se utilice esta regla en un mensaje, se excluirá automáticamente a
 
 ## Configuración del contexto de segmentación de reglas de filtrado {#configuring-filtering-rules-targeting-context}
 
-El Campaign Standard le permite configurar las dimensiones **Segmentación** y **Filtrado** para usarlas según los datos a los que desee destinarlas.
+Campaign Standard le permite configurar las dimensiones **Segmentación** y **Filtrado** para usarlas según los datos a los que desee destinarlas.
 
 Para ello, abra las propiedades de la regla de tipología y luego acceda a la sección **[!UICONTROL Advanced information]**.
 

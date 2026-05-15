@@ -7,10 +7,15 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 7f2a3139-57eb-48ff-9b1a-ac2caad2f691
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+TQID: https://experienceleague.adobe.com/HW5N4zs81-HaJcpbxLVFOnvoGHGnq3h10lmkQQcplw4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 10%
+source-wordcount: 1348
+ht-degree: 11%
 
 ---
 
@@ -20,7 +25,7 @@ ht-degree: 10%
 
 <table>
                <tr>
-                  <th>Nombre</th>
+                  <th>Name</th>
                   <th>Etiqueta</th>
                   <th>Tipo (longitud)</th>
                   <th>Valores de enumeración</th>
@@ -100,7 +105,7 @@ ht-degree: 10%
                <tr>
                   <td>país (países)</td>
                   <td>País</td>
-                  <td>vincular </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -118,13 +123,13 @@ ht-degree: 10%
                <tr>
                   <td>createdBy (userBase)</td>
                   <td>Creado por</td>
-                  <td>vincular </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>cusHobbieslink (cusHobbies)</td>
                   <td>CusHobbieslink</td>
-                  <td>vincular </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -233,7 +238,7 @@ ht-degree: 10%
                <tr>
                   <td>modifiedBy (userBase)</td>
                   <td>Modificado por</td>
-                  <td>vincular </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -251,7 +256,7 @@ ht-degree: 10%
                <tr>
                   <td>stateLink (estado)</td>
                   <td>Estado</td>
-                  <td>vincular </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -499,7 +504,7 @@ Por audiencia estática (byStaticAudience)
 </tr>
 <tr>
 <td>público</td>
-<td>vincular</td>
+<td>vínculo</td>
 </tr>
 </table>
 
@@ -512,7 +517,7 @@ Se hizo clic en (hasClickedDelivery)
 </tr>
 <tr>
 <td>envío</td>
-<td>vincular</td>
+<td>vínculo</td>
 </tr>
 </table>
 
@@ -525,7 +530,7 @@ Abierto (hasOpenedDelivery)
 </tr>
 <tr>
 <td>envío</td>
-<td>vincular</td>
+<td>vínculo</td>
 </tr>
 </table>
 
@@ -538,7 +543,7 @@ Perfil (perfil)
 </tr>
 <tr>
 <td>perfil</td>
-<td>vincular</td>
+<td>vínculo</td>
 </tr>
 </table>
 
@@ -551,7 +556,7 @@ Recibido (hasReceivedDelivery)
 </tr>
 <tr>
 <td>envío</td>
-<td>vincular</td>
+<td>vínculo</td>
 </tr>
 </table>
 
@@ -564,6 +569,6 @@ Suscriptores (suscriptores)
 </tr>
 <tr>
 <td>servicio</td>
-<td>vincular</td>
+<td>vínculo</td>
 </tr>
 </table>

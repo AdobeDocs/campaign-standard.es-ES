@@ -9,16 +9,25 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 61988c1d-d538-47b1-94c1-f3fbdf314b65
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/iL7T6x6t2hi3QAw5osARvnBAqTPTXsFnLBCAq4H1B0k
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1451'
+source-wordcount: 1459
 ht-degree: 3%
 
 ---
 
 # Notificaciones push transaccionales{#transactional-push-notifications}
 
-Puede utilizar Adobe Campaign para enviar notificaciones push transaccionales en dispositivos móviles iOS y Android. Estos mensajes se reciben en aplicaciones móviles que se configuran en Adobe Campaign mediante el uso del SDK de Experience Cloud Mobile.
+Puede utilizar Adobe Campaign para enviar notificaciones push transaccionales en dispositivos móviles iOS y Android. Estos mensajes se reciben en aplicaciones móviles que se configuran en Adobe Campaign mediante el uso de Experience Cloud Mobile SDK.
 
 >[!NOTE]
 >
@@ -208,7 +217,7 @@ Para cambiar esta asignación de destino, siga los pasos a continuación:
 
 1. Expanda la sección **[!UICONTROL Advanced parameters]**.
 
-1. Haga clic en **[!UICONTROL Select a 'Target mapping' element]**.
+1. Haga clic **[!UICONTROL Select a 'Target mapping' element]**.
 
    ![](assets/message-center_push_target-mapping.png)
 

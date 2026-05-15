@@ -10,10 +10,19 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: c7854b7b-f955-47ce-99d6-86b3186fd297
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/Ukag-6PvyojhuKCNHM3QjpZW9hYE2n9OjslWUx-Kkvc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 91%
+source-wordcount: 915
+ht-degree: 87%
 
 ---
 
@@ -36,7 +45,7 @@ La actividad **[!UICONTROL Direct mail delivery]** se utiliza generalmente para 
 
 Cuando se vincula a un planificador, puede definir los correos directos recurrentes.
 
-Los destinatarios del correo directo se definen antes de la actividad en el mismo flujo de trabajo, a través de actividades de segmentación como consultas, intersecciones, etc. Los perfiles cuya dirección postal no se haya especificado se excluyen automáticamente cuando se prepara el correo directo.
+Los destinatarios del correo postal se definen antes de la actividad en el mismo flujo de trabajo, a través de actividades de segmentación como consultas, intersecciones, etc. Los perfiles cuya dirección postal no se haya especificado se excluyen automáticamente cuando se prepara el correo postal.
 
 La preparación del mensaje se activa según los parámetros de ejecución del flujo de trabajo. En el panel de control de mensajes, puede seleccionar si desea solicitar o no una confirmación manual para enviar el mensaje (requerido de forma predeterminada). Puede realizar el inicio del flujo de trabajo manualmente o colocar una actividad de planificador en el flujo de trabajo para automatizar la ejecución.
 

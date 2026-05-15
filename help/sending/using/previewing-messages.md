@@ -8,9 +8,18 @@ feature: Seed Address
 role: User
 level: Intermediate
 exl-id: ac8c1265-f530-4438-ab2d-3ca17615ca85
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+TQID: https://experienceleague.adobe.com/0nQFLX-FzzajBKqGZO-MCnpS9zP5-tRNllV366m8hbs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: 635
 ht-degree: 16%
 
 ---
@@ -19,11 +28,11 @@ ht-degree: 16%
 
 ## Previsualización de correos electrónicos {#previewing-emails}
 
-Campaign Standard permite obtener una vista previa de los mensajes antes de enviarlos para comprobar su personalización y cómo los verán los destinatarios.
+Campaign Standard le permite obtener una vista previa de los mensajes antes de enviarlos para comprobar su personalización y cómo los verán sus destinatarios.
 
 La vista previa de mensajes se realiza con **perfiles de prueba** que agrega al destinatario del mensaje.
 
-Para los mensajes de **email**, el Campaign Standard le permite obtener una vista previa de los mensajes mediante perfiles de destino en lugar de perfiles de prueba. Esto le permite obtener una representación exacta del mensaje que recibirá un perfil específico. Para obtener más información, consulte [Prueba de mensajes de correo electrónico con perfiles de destino](../../sending/using/testing-messages-using-target.md).
+Para los mensajes de **email**, Campaign Standard le permite obtener una vista previa de los mensajes mediante perfiles de destino en lugar de perfiles de prueba. Esto le permite obtener una representación exacta del mensaje que recibirá un perfil específico. Para obtener más información, consulte [Prueba de mensajes de correo electrónico con perfiles de destino](../../sending/using/testing-messages-using-target.md).
 
 Para obtener una vista previa de un mensaje mediante perfiles de prueba, siga estos pasos:
 
@@ -53,7 +62,7 @@ Para obtener una vista previa de un mensaje mediante perfiles de prueba, siga es
 
 ## Previsualización de mensajes SMS {#previewing-sms}
 
-Para **mensajes SMS**, el Campaign Standard le permite obtener una vista previa de los mensajes mediante perfiles de prueba. Esto le permite obtener una representación exacta del mensaje que recibirá un perfil específico. Para obtener más información, consulte [Administración de perfiles de prueba](../../audiences/using/managing-test-profiles.md).
+Para **mensajes SMS**, Campaign Standard le permite obtener una vista previa de los mensajes mediante perfiles de prueba. Esto le permite obtener una representación exacta del mensaje que recibirá un perfil específico. Para obtener más información, consulte [Administración de perfiles de prueba](../../audiences/using/managing-test-profiles.md).
 
 Para obtener una vista previa de un mensaje SMS con perfiles de prueba, siga estos pasos:
 
@@ -85,7 +94,7 @@ Ahora puede ver la representación exacta del mensaje en función de los perfile
 
 ## Previsualización de notificaciones push {#previewing-push}
 
-Para **notificación push**, el Campaign Standard le permite obtener una vista previa de los mensajes mediante perfiles de prueba. Esto le permite obtener una representación exacta del mensaje que recibirá un perfil específico. Para obtener más información, consulte [Administración de perfiles de prueba](../../audiences/using/managing-test-profiles.md).
+Para **notificación push**, Campaign Standard le permite obtener una vista previa de los mensajes mediante perfiles de prueba. Esto le permite obtener una representación exacta del mensaje que recibirá un perfil específico. Para obtener más información, consulte [Administración de perfiles de prueba](../../audiences/using/managing-test-profiles.md).
 
 Para previsualizar una notificación push mediante perfiles de prueba, siga estos pasos:
 
@@ -113,7 +122,7 @@ Ahora puede ver la representación exacta del mensaje en función de los perfile
 
 ## Vista previa de mensajes en la aplicación {#previewing-in-app}
 
-Para **En la aplicación**, el Campaign Standard le permite obtener una vista previa de los mensajes mediante perfiles de prueba. Esto le permite obtener una representación exacta del mensaje que recibirá un perfil específico. Para obtener más información, consulte [Administración de perfiles de prueba](../../audiences/using/managing-test-profiles.md).
+Para **En la aplicación**, Campaign Standard le permite obtener una vista previa de los mensajes mediante perfiles de prueba. Esto le permite obtener una representación exacta del mensaje que recibirá un perfil específico. Para obtener más información, consulte [Administración de perfiles de prueba](../../audiences/using/managing-test-profiles.md).
 
 Para obtener una vista previa de un mensaje en la aplicación mediante perfiles de prueba, siga estos pasos:
 

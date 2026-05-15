@@ -9,9 +9,20 @@ feature: SMS
 role: User
 level: Beginner
 exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+TQID: https://experienceleague.adobe.com/Y9oiKbi65Zl6pRoi10SHvEecQ5zeWbpK0rBLAhsPliE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: 568
 ht-degree: 87%
 
 ---
@@ -22,7 +33,7 @@ Crear un envío SMS es muy similar a crear un correo electrónico normal. Los pa
 
 Los parámetros avanzados de SMS se detallan en la sección de [configuración de SMS](../../administration/using/configuring-sms-channel.md).
 
-![](assets/do-not-localize/how-to-video.png) [Descubra esta funcionalidad en vídeo](#video)
+![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
 
 Para crear y enviar mensajes SMS a un teléfono móvil, necesita:
 
@@ -33,7 +44,7 @@ Para crear y enviar mensajes SMS a un teléfono móvil, necesita:
 
    También puede añadir una actividad SMS en un flujo de trabajo. Para obtener más información, consulte la guía [Flujos de trabajo](../../automating/using/sms-delivery.md).
 
-   Al crear un mensaje, aparece un asistente para guiarle por los pasos más importantes. Lo que se define a través del asistente se puede seguir editando después desde el panel de mensajes.
+   Al crear un mensaje, aparece un asistente para guiarle por los pasos más importantes. Lo que se define a través del asistente se puede seguir editando después desde el panel de control de mensajes.
 
 1. Seleccione la plantilla que desee utilizar. Puede elegir la plantilla de SMS predeterminada o una de sus propias plantillas.
 
@@ -51,17 +62,17 @@ Para crear y enviar mensajes SMS a un teléfono móvil, necesita:
    >
    >Asegúrese de que el campo ID no contenga ningún espacio en blanco para evitar discrepancias, por ejemplo, al integrarse con Adobe Analytics.
 
-1. Especifique la audiencia a la que desea enviar el mensaje. Puede seleccionar una audiencia existente o dirigirlo un destinatario directo de una población definiendo y combinando reglas.
+1. Especifique el público al que desea enviar el mensaje. Puede seleccionar un público existente o dirigirlo un destinatario directo de una población definiendo y combinando reglas.
 
    ![](assets/sms_creation_3.png)
 
-1. Añade contenido a tu SMS. También puede definir el contenido haciendo clic en la sección **[!UICONTROL Content]** del panel de envío, una vez que se haya finalizado la creación del SMS. Consulte [Acerca del diseño de contenido de SMS](../../channels/using/about-sms-and-push-content-design.md).
+1. Añade contenido a tu SMS. También puede definir el contenido haciendo clic en la sección **[!UICONTROL Content]** del panel de control de envío, una vez que se haya finalizado la creación del SMS. Consulte [Acerca del diseño de contenido de SMS](../../channels/using/about-sms-and-push-content-design.md).
 
    Si ha insertado campos de personalización o texto condicional en el contenido del mensaje SMS, la longitud del mensaje puede variar de un destinatario a otro. De hecho, estos factores pueden introducir caracteres que no se tienen en cuenta en la codificación GSM. Por este motivo, la longitud del mensaje debe evaluarse una vez realizada la personalización. Consulte [Personalización de mensajes SMS](../../channels/using/personalizing-sms-messages.md).
 
    ![](assets/sms_creation_4.png)
 
-1. Confirme el mensaje que ha creado. A continuación, aparece un panel.
+1. Confirme el mensaje que ha creado. A continuación, aparece un panel de control.
 1. Programe el envío. El SMS se puede enviar manualmente justo después de la preparación del mensaje o automáticamente en una fecha programada. Consulte [Programación de mensajes](../../sending/using/about-scheduling-messages.md).
 1. Prepare el mensaje para analizar su validez, personalización y destinatario.
 
@@ -76,7 +87,7 @@ Para crear y enviar mensajes SMS a un teléfono móvil, necesita:
 
    ![](assets/sms_creation_7.png)
 
-Se envía el mensaje. Puede consultar el envío a través del panel de mensajes y los registros.
+Se envía el mensaje. Puede consultar el envío a través del panel de control de mensajes y los registros.
 
 Una vez finalizado el envío, puede empezar a medir el impacto del mensaje con informes de envío integrados o personalizados.
 
@@ -89,6 +100,6 @@ Una vez finalizado el envío, puede empezar a medir el impacto del mensaje con i
 
 Este vídeo muestra cómo crear un envío de SMS.
 
->[!VIDEO](https://video.tv.adobe.com/v/328378/?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/328378/?captions=spa&quality=12)
 
-Hay disponibles [más vídeos de procedimientos para el Campaign Standard aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).
+Hay disponibles [más vídeos de procedimientos para Campaign Standard aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).

@@ -9,9 +9,16 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 07cbf39c-4f53-49b1-8e85-c6df39f014b5
-source-git-commit: 2adead5903eb2710207d7aeaaa85418bd616ca5d
+TQID: https://experienceleague.adobe.com/dfZ-v5Mfq7-u8GvDulzONuDGj4Ff2sCmPSFggeYuqPM
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: 842
 ht-degree: 94%
 
 ---
@@ -44,7 +51,7 @@ En el contexto específico de una prueba A/B:
    >
    >Las plantillas de prueba A/B y de seguimiento están ocultas de forma predeterminada. Compruebe la casilla de verificación A/B en el lado izquierdo (**[!UICONTROL Filter]** panel lateral) para mostrarlas.
 
-1. Defina las propiedades generales y la audiencia de destino del mensaje de correo electrónico, igual que para un correo electrónico estándar. Consulte la sección [Creación de audiencias](../../audiences/using/creating-audiences.md).
+1. Defina las propiedades generales y el público destinatario del mensaje de correo electrónico, igual que para un correo electrónico estándar. Consulte la sección [Creación de públicos](../../audiences/using/creating-audiences.md).
 1. En el cuarto paso del asistente de creación, defina los parámetros de prueba A/B:
 
    * **[!UICONTROL Number of variants]**: puede elegir utilizar dos o tres variantes. Si elige tres variantes, esta opción no se puede modificar una vez confirmado este paso en el asistente.
@@ -56,7 +63,7 @@ En el contexto específico de una prueba A/B:
      >Si la población total es inferior a 50 000, cada variante debe representar al menos el 10 % de la población total.
 
    * **[!UICONTROL Winner sending method]**: elija si desea que la variante ganadora se envíe automáticamente una vez determinada o si desea confirmar manualmente el envío a la población restante.
-   * **[!UICONTROL Test duration]**: especifique la duración de la prueba. La variante ganadora se determina automáticamente después de esta duración. Puede elegir manualmente la variante ganadora antes del final de la prueba en el panel de correo electrónico.
+   * **[!UICONTROL Test duration]**: especifique la duración de la prueba. La variante ganadora se determina automáticamente después de esta duración. Puede elegir manualmente la variante ganadora antes del final de la prueba en el panel de control de correo electrónico.
 
      La prueba debe ser de al menos una hora para que todos los datos de seguimiento se recopilen y se tengan en cuenta correctamente para seleccionar la variante ganadora.
 
@@ -66,7 +73,7 @@ En el contexto específico de una prueba A/B:
 
    ![](assets/create_ab_testing2.png)
 
-1. Confirme el correo electrónico que ha creado. A continuación, se muestra el panel de correo electrónico.
+1. Confirme el correo electrónico que ha creado. A continuación, se muestra el panel de control de correo electrónico.
 1. Programe el envío. La fecha definida indica el inicio de la prueba A/B.
 1. Compruebe los parámetros de prueba A/B que se muestran en el bloque **[!UICONTROL A/B test parameters]**. Puede modificarlos hasta que confirme el envío de la prueba (paso 9) seleccionando el bloque.
 
@@ -92,6 +99,6 @@ El correo electrónico se ha definido y enviado. Puede acceder a sus registros e
 
 ## Acerca de los indicadores de prueba A/B {#about-a-b-test-indicators}
 
-En el panel de correo electrónico, hay varios indicadores disponibles para ayudarle a medir la prueba A/B: cantidad de clics, aperturas, devoluciones, etc.
+En el panel de control de correo electrónico, hay varios indicadores disponibles para ayudarle a medir la prueba A/B: cantidad de clics, aperturas, devoluciones, etc.
 
 Tenga en cuenta que el indicador de **[!UICONTROL Estimated recipient reactivity]** es una tasa que compara el número de destinatarios que hicieron clic con el número de destinatarios que abrieron el correo electrónico. Por ejemplo, si 10 destinatarios abrieron el correo electrónico y 5 destinatarios hicieron clic en él, la tasa de reacción es del 50 %.

@@ -8,9 +8,26 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d32f2dd1-c579-4a3e-8330-b39bce941656
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/QRxTBg-V-7ingt25U37UEKIQOrbjOOM4MY0jdEpM-OA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: 433
 ht-degree: 4%
 
 ---
@@ -36,4 +53,4 @@ Los pasos clave para crear y organizar una campaña de marketing con Adobe Campa
 * **Creación de mensajes y contenido**: esta fase implica la selección del [canal de comunicación](../../channels/using/get-started-communication-channels.md). También puede diseñar [páginas de aterrizaje](../../channels/using/getting-started-with-landing-pages.md) para adquirir o actualizar perfiles y ampliar su base de datos. Ver [Creación de un correo electrónico](../../channels/using/creating-an-email.md), [Creación de un mensaje SMS](../../channels/using/creating-an-sms-message.md), [Creación de una notificación push](../../channels/using/preparing-and-sending-a-push-notification.md), [Creación de un mensaje en la aplicación](../../channels/using/about-in-app-messaging.md), [Creación de una entrega de correo directo](../../channels/using/creating-the-direct-mail.md).
 * **Prueba y envío**: la fase de ejecución permite al usuario llevar a cabo los distintos pasos de validación (contenido, destino), especialmente a través de las pantallas de vista previa y enviando una prueba a los aprobadores antes de enviarla. Ver [Prueba y envío](../../sending/using/get-started-sending-messages.md).
 * **Supervisión e informes**: una vez que se ha ejecutado la campaña y se han enviado los diferentes mensajes, esta fase permite al usuario recopilar los distintos estados de los envíos, así como la información de seguimiento y supervisión. Los informes de campaña y entrega se generan para realizar un seguimiento del impacto de la campaña y de las actividades de los destinatarios. Consulte [Herramientas de informes](../../reporting/using/about-dynamic-reports.md).
-* **Automatización**: durante esta fase, factores adicionales como los métodos de implementación del mecanismo de importación/exportación, los modos de actualización y administración de datos, la identificación de datos de personalización, etc. están definidas. Consulte [Administración de datos y flujos de trabajo](../../automating/using/get-started-workflows.md).
+* **Automatización**: durante esta fase, se definen factores adicionales como los métodos de implementación del mecanismo de importación/exportación, los modos de actualización y administración de datos, la identificación de datos de personalización, etc. Consulte [Administración de datos y flujos de trabajo](../../automating/using/get-started-workflows.md).

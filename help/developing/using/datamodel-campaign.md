@@ -7,20 +7,25 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: a63fe730-a6b2-4ae0-93da-9f8ee7824c9f
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+TQID: https://experienceleague.adobe.com/ialeaJzsFmhu1if-CTJfg9xLwq6jjA4aA0eXnOT-oyo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 36%
+source-wordcount: 222
+ht-degree: 40%
 
 ---
 
-# Campaign (nms:campaign)
+# Campaña (nms:campaign)
 
 ## Descripción del objeto
 
 <table>
                <tr>
-                  <th>Nombre</th>
+                  <th>Name</th>
                   <th>Etiqueta</th>
                   <th>Tipo (longitud)</th>
                   <th>Valores de enumeración</th>
@@ -52,7 +57,7 @@ ht-degree: 36%
                <tr>
                   <td>createdBy (userBase)</td>
                   <td>Creado por</td>
-                  <td>vincular </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -76,7 +81,7 @@ ht-degree: 36%
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
                   <td>Unidad geográfica</td>
-                  <td>vincular </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -121,25 +126,25 @@ ht-degree: 36%
                <tr>
                   <td>modifiedBy (userBase)</td>
                   <td>Modificado por</td>
-                  <td>vincular </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>name</td>
-                  <td>Identificación</td>
+                  <td>Identidad</td>
                   <td>cadena (64)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
                   <td>Entidades organizativas</td>
-                  <td>vincular </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>program (programBase)</td>
                   <td>Programa</td>
-                  <td>vincular </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -149,7 +154,7 @@ ht-degree: 36%
                   <td> </td>
                </tr>
                <tr>
-                  <td>start</td>
+                  <td>iniciar</td>
                   <td>Fecha de inicio</td>
                   <td>fecha </td>
                   <td> </td>
@@ -170,7 +175,7 @@ ht-degree: 36%
                <tr>
                   <td>plantilla (campaña)</td>
                   <td>Plantilla de campaña</td>
-                  <td>vincular </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>

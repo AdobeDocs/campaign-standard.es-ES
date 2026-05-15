@@ -6,10 +6,20 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
-source-git-commit: 52217326ec7f17ab7ce4d058d185b2680681a9c0
+TQID: https://experienceleague.adobe.com/f9WHgzRKHNEXrZESUsupb1Jk-ydnAsD47R1205A6CKE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 65%
+source-wordcount: 990
+ht-degree: 66%
 
 ---
 
@@ -42,7 +52,7 @@ Tenga en cuenta que estos grupos de seguridad integrados son de solo lectura y n
 >
 >Tenga en cuenta que en Admin Console, los grupos de seguridad se denominan perfiles.
 
-Puede crear sus propios grupos de seguridad si los grupos predeterminados no son suficientes para administrar a los usuarios. Pueden ser administrados por administradores que tienen acceso a menús de administración de Adobe Campaign y a Admin Console. Para obtener más información sobre Admin Console, consulte esta [documentación](https://helpx.adobe.com/es/enterprise/managing/user-guide.html).
+Puede crear sus propios grupos de seguridad si los grupos predeterminados no son suficientes para administrar a los usuarios. Pueden ser administrados por administradores que tienen acceso a menús de administración de Adobe Campaign y a Admin Console. Para obtener más información sobre Admin Console, consulte esta [documentación](https://helpx.adobe.com/es/enterprise/admin-guide.html).
 
 En este caso, primero debemos asignar los dos grupos predeterminados Usuario estándar y Administrador a nuestros usuarios. Estos grupos de seguridad restringirán algunas funciones de Adobe Campaign: el usuario estándar tiene acceso básico a Adobe Campaign, mientras que el administrador puede acceder a los menús de administración, por ejemplo.
 
@@ -97,7 +107,7 @@ Una vez que los dos usuarios están conectados a los grupos de seguridad **[!UIC
 
 1. En la pestaña **[!UICONTROL Assign Products]**, seleccione la instancia y, a continuación, los grupos de seguridad creados anteriormente con Geometrixx en la lista desplegable para asignarla al usuario administrador.
 
-   Haga clic en **[!UICONTROL Save]**.
+   Haga clic **[!UICONTROL Save]**.
 
    ![](assets/manage_security_group_3.png)
 

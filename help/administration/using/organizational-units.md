@@ -6,9 +6,19 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: fbab695a-2672-4183-8c3b-78af7aefd5b1
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+TQID: https://experienceleague.adobe.com/OjO9gSlb5OKrPgK2vNQsmEjJ3ykPPULZR5KOb5BenlU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: 844
 ht-degree: 5%
 
 ---
@@ -41,11 +51,11 @@ Cuando al usuario se le asigna una unidad organizativa, esta unidad se aplica si
 
 Las unidades organizativas permiten filtrar la instancia en función de la organización a la que estén vinculados los usuarios. Esta unidad puede representar una región, un país o incluso una marca en su instancia.
 
-Aquí hemos creado grupos de seguridad con diferentes funciones para dos usuarios: a un usuario se le asignan los grupos de seguridad Administradores y Geometrixx, al otro usuario pertenece a los grupos de seguridad Usuario estándar y Geometrixx. Vea [Creación de un grupo de seguridad y asignación de usuarios](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users) para ver el ejemplo completo.
+Aquí hemos creado grupos de seguridad con diferentes funciones para dos usuarios: a un usuario se le asignan los grupos de seguridad Administradores y Geometrixx, al otro usuario pertenece los grupos de seguridad Usuario estándar y Geometrixx Clothes Consulte [Creación de un grupo de seguridad y asignación de usuarios](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users) para ver el ejemplo completo.
 
 Ahora necesitamos crear las unidades organizativas para los grupos de seguridad de Geometrixx Clothes y Geometrixx:
 
-1. En el menú avanzado de la campaña de Adobe, seleccione **[!UICONTROL Administration]** > **[!UICONTROL Users & security]** > **[!UICONTROL Organizational units]**.
+1. En el menú avanzado de Adobe campaign, seleccione **[!UICONTROL Administration]** > **[!UICONTROL Users & security]** > **[!UICONTROL Organizational units]**.
 1. Haga clic en **[!UICONTROL Create]** para comenzar a configurar la unidad organizativa.
 
    ![](assets/manage_units_1.png)
@@ -60,7 +70,7 @@ Ahora necesitamos crear las unidades organizativas para los grupos de seguridad 
 
    ![](assets/manage_units_3.png)
 
-Para ver el impacto de la asignación de diferentes unidades a diferentes grupos de seguridad, el usuario asignado al administrador y a los grupos de Geometrixx creará dos plantillas de correo electrónico para ver a qué puede acceder o no el otro usuario asignado al usuario estándar y a Geometrixx Clothes.
+Para ver el impacto de la asignación de diferentes unidades a diferentes grupos de seguridad, el usuario asignado a los grupos Administrator y Geometrixx creará dos plantillas de correo electrónico para ver a qué puede acceder o no el otro usuario asignado a Standard User y Geometrixx Clothes.
 
 1. En el menú avanzado, seleccione **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery Templates]**.
 1. Duplique una plantilla existente y personalícela según sea necesario. Para obtener más información, consulte la sección [Acerca de las plantillas](../../start/using/marketing-activity-templates.md).
@@ -70,13 +80,13 @@ Para ver el impacto de la asignación de diferentes unidades a diferentes grupos
 
 1. En el menú desplegable **[!UICONTROL Access authorization]**, seleccione la unidad organizativa.
 
-   Aquí vamos a crear una plantilla con la Geometrixx de unidad organizativa creada anteriormente.
+   Aquí vamos a crear una plantilla con la unidad organizativa creada anteriormente, Geometrixx.
 
    ![](assets/manage_units_5.png)
 
-1. Siga los mismos procedimientos para crear la segunda plantilla asignada a la unidad organizativa Geometrixx Clothes creada anteriormente.
+1. Siga los mismos procedimientos para crear la segunda plantilla asignada a la unidad organizativa de Geometrixx Clothes creada anteriormente.
 
-Los usuarios asignados a los grupos **Usuario estándar** y **Ropa de Geometrixx** podrán ver ambas plantillas. Debido a la estructura jerárquica de las unidades organizativas, tendrán acceso de lectura y escritura a la plantilla vinculada a la unidad de Geometrixx Clothes y acceso de solo lectura a la plantilla vinculada a la unidad de Geometrixx.
+Los usuarios asignados a los grupos **Usuario estándar** y **Geometrixx Clothes** podrán ver ambas plantillas. Debido a la estructura jerárquica de las unidades organizativas, tendrán acceso de lectura y escritura a la plantilla vinculada a la unidad Geometrixx Clothes y acceso de solo lectura a la plantilla vinculada a la unidad Geometrixx.
 
 ![](assets/manage_units_7.png)
 
@@ -108,7 +118,7 @@ De forma predeterminada, los campos de unidad organizativa no están disponibles
 
    ![](assets/user_management_9.png)
 
-1. Haga clic en **[!UICONTROL Save]**.
+1. Haga clic **[!UICONTROL Save]**.
 1. Actualice la estructura volviendo a publicar los recursos personalizados. Para obtener más información sobre el proceso de publicación, consulte [Actualización de la estructura](../../developing/using/updating-the-database-structure.md).
 
 El campo de unidad organizativa se agrega a los perfiles en la sección **[!UICONTROL Access authorization]**.

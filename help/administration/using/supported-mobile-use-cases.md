@@ -6,10 +6,21 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 3cd8d756-a271-4e53-8ed0-984ce20298bc
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+TQID: https://experienceleague.adobe.com/sIwJVutJ9iO9GIKSPquL5LOKVqkj34x3LTaI072C8V4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 0%
+source-wordcount: 1006
+ht-degree: 1%
 
 ---
 
@@ -20,7 +31,7 @@ En esta página, encontrará la lista de todos los casos de uso móvil admitidos
 Adobe Campaign Standard admite los siguientes casos de uso:
 
 * [Registro de un perfil móvil en Campaign Standard](../../administration/using/supported-mobile-use-cases.md#register-mobile-profile)
-* [Envío de un token push al Campaign Standard](../../administration/using/supported-mobile-use-cases.md#send-push-token)
+* [Envío de un token push a Campaign Standard](../../administration/using/supported-mobile-use-cases.md#send-push-token)
 * [Enriquecimiento de un perfil móvil con datos personalizados de su aplicación](../../administration/using/supported-mobile-use-cases.md#enrich-mobile-profile-custom)
 * [Enriquecimiento de un perfil móvil con datos del ciclo vital de la aplicación](../../administration/using/supported-mobile-use-cases.md#enrich-mobile-profile-lifecycle)
 * [Seguimiento de la interacción del usuario con notificaciones push](../../administration/using/supported-mobile-use-cases.md#track-user-push)
@@ -29,7 +40,7 @@ Adobe Campaign Standard admite los siguientes casos de uso:
 
 Para configurar estos casos de uso, necesita las siguientes extensiones:
 
-* **[!DNL Adobe Campaign Standard]** <br>Para instalar y configurar la extensión de Campaign Standard, consulte [Configuración de la extensión de Campaign Standard en la IU de recopilación de datos](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#configure-the-campaign-standard-extension).
+* **[!DNL Adobe Campaign Standard]** <br>Para instalar y configurar la extensión de Campaign Standard, consulte [Configurar la extensión de Campaign Standard en la interfaz de usuario de la recopilación de datos](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#configure-the-campaign-standard-extension).
 * **[!DNL Mobile Core]**, que se instala automáticamente. <br>Para obtener más información acerca de la extensión móvil principal, consulte [Mobile Core](https://developer.adobe.com/client-sdks/documentation/mobile-core/).
 * **[!DNL Profile]**, que se instala automáticamente. <br>Para obtener más información sobre la extensión de perfil, consulte [Perfil](https://developer.adobe.com/client-sdks/documentation/profile/).
 
@@ -341,7 +352,7 @@ ACPCampaign.resetLinkageFields(linkageFields)
 
 ### Con Android {#linkage-fields-inapp-android}
 
-Para establecer campos de vinculación para una autenticación adicional para la plantilla de perfil basada en mensajes en la aplicación en Android, se requiere el siguiente SDK de Experience Platform:
+Para establecer los campos de vinculación para la autenticación adicional de la plantilla de perfil basada en los mensajes en la aplicación de Android, se requiere el siguiente SDK de Experience Platform:
 
 * Establecer campos de vinculación <br>Para obtener más información, consulte [Establecer campos de vinculación](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#setlinkagefields).
 * Restablecer campos de vinculación <br>Para obtener más información, consulte [Restablecer campos de vinculación](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#resetlinkagefields).

@@ -10,10 +10,17 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 373e4012-9daf-4da7-aad6-54726d991544
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/edHsRImxIpD0dL-LI3-xcet9JIFvxWFO3ALu-Jr-6-A
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1366'
-ht-degree: 91%
+source-wordcount: 1368
+ht-degree: 90%
 
 ---
 
@@ -90,7 +97,7 @@ La configuración de actividad incluye dos pasos. En primer lugar, debe definir 
 
    La pestaña **[!UICONTROL Column definition]** le permite especificar con precisión la estructura de datos de cada columna para importar datos que no contengan errores (por ejemplo, mediante el uso de la administración nula) y hacer que coincida con los tipos que ya están presentes en la base de datos de Adobe Campaign para futuras operaciones.
 
-   Por ejemplo, puede cambiar la etiqueta de una columna, seleccionar su tipo (cadena, entero, fecha, etc.) o incluso especificar el procesamiento de errores.
+   Por ejemplo, puede cambiar la etiqueta de una columna y seleccionar su tipo (cadena, entero, fecha, etc.) o incluso especificar el procesamiento de errores.
 
    Para obtener más información, consulte la sección [Formato de columna](#column-format).
 
@@ -157,7 +164,7 @@ El formato de columna permite definir el valor de procesamiento de cada columna:
 
   >[!NOTE]
   >
-  >**[!UICONTROL Error processing]** se refiere a errores relacionados con los valores del archivo importado. Por ejemplo, se encontró un tipo de datos erróneo (“cuatro” en letras para una columna “entero”), una cadena que contiene más caracteres que el número máximo autorizado, una fecha con separadores erróneos, etc. Sin embargo, esta opción no afecta a los errores generados por la administración de valores vacía.
+  >**[!UICONTROL Error processing]** se refiere a errores relacionados con los valores del archivo importado. Por ejemplo, se encontró un tipo de datos erróneo (&quot;cuatro&quot; en letras para una columna &quot;entero&quot;), una cadena que contiene más caracteres que el número máximo autorizado, una fecha con separadores erróneos, etc. Sin embargo, esta opción no afecta a los errores generados por la administración de valores vacía.
 
 * **[!UICONTROL Default value]**: especifica el valor predeterminado de acuerdo con el procesamiento de error seleccionado.
 * **[!UICONTROL Empty value management]**: especifica cómo administrar valores vacíos durante la carga de datos.

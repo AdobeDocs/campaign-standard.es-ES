@@ -1,6 +1,6 @@
 ---
-title: Diseño de una página de aterrizaje
-description: Aprenda a diseñar el contenido de una página de aterrizaje.
+title: Diseño de una página de destino
+description: Aprenda a diseñar el contenido de una página de destino.
 audience: channels
 content-type: reference
 topic-tags: landing-pages
@@ -9,28 +9,37 @@ feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 28398843-a170-48cf-b9c0-dca7af56236d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/Khit4ZawqjXKPd9FG7eJaIgU-eQhaFGtNhLGzE74Xio
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1672'
-ht-degree: 93%
+source-wordcount: 1684
+ht-degree: 91%
 
 ---
 
-# Diseño de una página de aterrizaje{#designing-a-landing-page}
+# Diseño de una página de destino{#designing-a-landing-page}
 
 ## Acerca del diseño de contenido de una página de aterrizaje {#about-content-design}
 
-Las páginas de aterrizaje se crean como cualquier [actividad de marketing](../../start/using/marketing-activities.md#about-marketing-activities).
+Las páginas de destino se crean como cualquier [actividad de marketing](../../start/using/marketing-activities.md#about-marketing-activities).
 
-Al diseñar una página de aterrizaje, debe definir el contenido de la propia página, la página de confirmación y la página de error. Utilice el selector situado debajo de la barra de acciones para mostrar y configurar cada una de estas páginas.
+Al diseñar una página de destino, debe definir el contenido de la propia página, la página de confirmación y la página de error. Utilice el selector situado debajo de la barra de acciones para mostrar y configurar cada una de estas páginas.
 
 El contenido de las páginas de aterrizaje se diseña mediante el editor de contenido de Campaign.
 
 >[!NOTE]
 >
->Para el diseño de correo electrónico, si la instancia se instaló antes de la versión 19.0 de Adobe Campaign Standard, seguirá teniendo acceso al editor de contenido de correo electrónico anterior. La interfaz, los principios de uso y la configuración son esencialmente los mismos que se describen a continuación para páginas de aterrizaje. Sin embargo, es posible que todas las funciones no estén disponibles ni se mantengan en el editor de contenido de correo electrónico anterior, que ya no se utiliza en la versión 19.0. Para editar rápidamente el contenido del correo electrónico mediante una interfaz de arrastrar y soltar con funciones extendidas, utilice el [Diseñador de correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md).
+>Para el diseño de correo electrónico, si la instancia se instaló antes de la versión 19.0 de Adobe Campaign Standard, seguirá teniendo acceso al editor de contenido de correo electrónico anterior. La interfaz, los principios de uso y la configuración son esencialmente los mismos que se describen a continuación para páginas de destino. Sin embargo, es posible que todas las funciones no estén disponibles ni se mantengan en el editor de contenido de correo electrónico anterior, que ya no se utiliza en la versión 19.0. Para editar rápidamente el contenido del correo electrónico mediante una interfaz de arrastrar y soltar con funciones extendidas, utilice el [Diseñador de correo electrónico](../../designing/using/designing-content-in-adobe-campaign.md).
 
-En esta página se describen las características específicas del editor de contenido de páginas de aterrizaje. Para obtener más información sobre las acciones comunes para una o varias actividades de marketing, consulte estas secciones en la guía **Diseño de contenido de correo electrónico**:
+En esta página se describen las características específicas del editor de contenido de páginas de destino. Para obtener más información sobre las acciones comunes para una o varias actividades de marketing, consulte estas secciones en la guía **Diseño de contenido de correo electrónico**:
 
 * [Inserción de un campo de personalización.](../../designing/using/personalization.md#inserting-a-personalization-field)
 * [Añadir un bloque de contenido](../../designing/using/personalization.md#adding-a-content-block)
@@ -39,19 +48,19 @@ En esta página se describen las características específicas del editor de con
 * [Prácticas recomendadas generales para el diseño de contenido](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)
 
 >[!NOTE]
->Si tiene una página de aterrizaje que ya está predefinida en formato HTML, puede importarla directamente con el botón **[!UICONTROL Change content]**.
+>Si tiene una página de destino que ya está predefinida en formato HTML, puede importarla directamente con el botón **[!UICONTROL Change content]**.
 >
 >Antes de importar una página HTML en Adobe Campaign, asegúrese de que se abra y se muestre correctamente en los distintos navegadores. Si la página HTML contiene secuencias de comandos JavaScript, deben ejecutarse sin errores fuera del editor. En general, evite utilizar secuencias de comandos en el contenido del mensaje para asegurarse de que los clientes de correo electrónico lo procesan correctamente.
 
 ## Interfaz del editor de contenido de página de aterrizaje{#landing-page-content-editor-interface}
 
-El editor de contenido de páginas de aterrizaje le permite definir, modificar y personalizar fácilmente el contenido en Adobe Campaign. Para acceder a él, haga clic en el bloque **[!UICONTROL Content]** del panel de una página de aterrizaje.
+El editor de contenido de páginas de destino le permite definir, modificar y personalizar fácilmente el contenido en Adobe Campaign. Para acceder a él, haga clic en el bloque **[!UICONTROL Content]** del panel de control de una página de destino.
 
 El editor de contenido está organizado en tres secciones diferentes. Estas secciones le permiten ver y editar el contenido.
 
 ![](assets/des_lp_content_8.png)
 
-1. La **paleta** de la parte izquierda de la pantalla permite modificar las opciones generales vinculadas a un bloque seleccionado. Las opciones que se pueden modificar son: color de fondo, borde, alineación del texto, condición de visibilidad, etc. Consulte [Inserción de un campo de personalización](../../designing/using/personalization.md#inserting-a-personalization-field).
+1. La **paleta** de la parte izquierda de la pantalla permite modificar las opciones generales vinculadas a un bloque seleccionado. Las opciones que se pueden modificar son: color de fondo, borde, alineación del texto, condición de visibilidad, etc. Consulte [Inserción de un campo personalizado](../../designing/using/personalization.md#inserting-a-personalization-field).
 1. La **barra de acciones** contiene las opciones generales de la página. Puede seleccionar una plantilla y cambiar el modo de visualización.
 1. La **zona de edición** principal le permite interactuar directamente con el contenido mediante la barra de herramientas contextual: insertar un vínculo en una imagen, cambiar la fuente, eliminar un campo, etc.
 
@@ -72,7 +81,7 @@ La **barra de acciones** contiene diferentes botones que le permiten interactuar
   <tr> 
    <td> <img height="21px" src="assets/download_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Cambiar contenido</span> <br /> </td> 
-   <td> Página de aterrizaje y correo electrónico<br /> </td> 
+   <td> Página de destino y correo electrónico<br /> </td> 
    <td> Le permite seleccionar contenido listo para usar o importar su propio contenido HTML. Consulte <a href="../../designing/using/using-existing-content.md">Carga de contenido existente</a>.<br /> </td> 
   </tr> 
   <tr> 
@@ -90,13 +99,13 @@ La **barra de acciones** contiene diferentes botones que le permiten interactuar
   <tr> 
    <td> <img height="21px" src="assets/display_block_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Mostrar bloques</span> <br /> </td> 
-   <td> Página de aterrizaje y correo electrónico<br /> </td> 
+   <td> Página de destino y correo electrónico<br /> </td> 
    <td> Permite mostrar los cuadros alrededor de los bloques de contenido (corresponde a la etiqueta HTML <strong>&lt;div&gt;</strong>).<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/code_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Mostrar origen</span> <br /> </td> 
-   <td> Página de aterrizaje y correo electrónico<br /> </td> 
+   <td> Página de destino y correo electrónico<br /> </td> 
    <td> Permite mostrar el código fuente HTML de la página.<br /> </td> 
   </tr> 
  </tbody> 
@@ -130,7 +139,7 @@ La **barra de herramientas** es un elemento contextual de la interfaz del editor
    <td> <img height="21px" src="assets/linkpage_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Vincular a una página de aterrizaje</span> <br /> </td> 
    <td> Cualquier elemento<br /> </td> 
-   <td> Permite acceder a una página de aterrizaje de Adobe Campaign. Los detalles de cómo configurar un vínculo se describen en la sección <a href="../../designing/using/links.md#inserting-a-link">Inserción de un vínculo</a>.<br /> </td> 
+   <td> Permite acceder a una página de destino de Adobe Campaign. Los detalles de cómo configurar un vínculo se describen en la sección <a href="../../designing/using/links.md#inserting-a-link">Inserción de un vínculo</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/link_Subscribe_darkgrey-24px.png" /> <br /> </td> 
@@ -147,7 +156,7 @@ La **barra de herramientas** es un elemento contextual de la interfaz del editor
   <tr> 
    <td> <img height="21px" src="assets/linkoff_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Quitar vínculo</span> <br /> </td> 
-   <td> Vínculo<br /> </td> 
+   <td> Enlace<br /> </td> 
    <td> Permite eliminar el vínculo, así como todas las configuraciones enlazadas a él, después de confirmarlo.<br /> </td> 
   </tr> 
   <tr> 
@@ -190,7 +199,7 @@ La **barra de herramientas** es un elemento contextual de la interfaz del editor
    <td> <img height="21px" src="assets/textbold_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Negrita</span> <br /> </td> 
    <td> Elemento de texto<br /> </td> 
-   <td> Añade el estilo en negrita al texto seleccionado (ajusta el texto con las etiquetas <strong>&lt;strong&gt;</strong><strong>&lt;/strong&gt;</strong>).<br /> </td> 
+   <td> Añade el estilo en negrita al texto seleccionado (ajusta el texto con las etiquetas <strong><strong></strong>&lt;strong&gt;</strong>&lt;/strong&gt;).<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/textitalic_darkgrey-24px.png" /> <br /> </td> 
@@ -247,17 +256,17 @@ Los diferentes elementos de contenido HTML se muestran en la página de aterriza
 
 Si se selecciona un bloque, los objetos principales del elemento HTML correspondiente se muestran en una ruta de exploración ubicada en la parte inferior de la zona de edición.
 
-Cuando el ratón se sitúa sobre uno de los elementos de la ruta de exploración, este aparece resaltado. Por lo tanto, puede desplazarse fácilmente entre los diferentes bloques y seleccionar exactamente el elemento HTML que desea modificar.
+Cuando el puntero se sitúa encima de uno de los elementos de la ruta de exploración, este aparece resaltado. Por lo tanto, puede desplazarse fácilmente entre los diferentes bloques y seleccionar exactamente el elemento HTML que desea modificar.
 
 ![](assets/des_lp_content_2.png)
 
 Utilice las opciones de la paleta y la barra de herramientas contextual para modificar, eliminar o duplicado el bloque.
 
-Para los bloques que contienen texto, vuelva a hacer clic en el bloque para activar el modo de edición de texto. El marco alrededor del bloque se vuelve verde. A continuación, puede seleccionar o introducir texto. Utilice las opciones de la paleta y la barra de herramientas contextual para añadir un vínculo o modificar el formato del texto.
+Para los bloques que contienen texto, vuelva a hacer clic en el bloque para habilitar el modo de edición de texto. El marco alrededor del bloque se vuelve verde. A continuación, puede seleccionar o introducir texto. Utilice las opciones de la paleta y la barra de herramientas contextual para añadir un vínculo o modificar el formato del texto.
 
 ![](assets/des_lp_content_3.png)
 
-Los parámetros definidos para un elemento de un bloque (vínculos, campos de personalización, bloques de contenido, etc.) pueden modificarse en cualquier momento desde la paleta.
+Los parámetros definidos para un elemento de un bloque (vínculos, campos de personalización, bloques de contenido, etc.) se puede modificar en cualquier momento desde la paleta.
 
 ![](assets/des_lp_content_4.png)
 
@@ -287,7 +296,7 @@ También puede utilizar la barra de herramientas para cambiar los atributos de l
 
 ### Inserción de imágenes en una página de aterrizaje {#inserting-images-in-a-landing-page}
 
-1. En el contenido de una página de aterrizaje, seleccione un bloque que contenga una imagen.
+1. En el contenido de una página de destino, seleccione un bloque que contenga una imagen.
 1. Seleccione el botón **[!UICONTROL Insert]**.
 
    ![](assets/des_insert_images_lp_1.png)
@@ -306,7 +315,7 @@ También puede utilizar la barra de herramientas para cambiar los atributos de l
 
 ## Definición de contenido dinámico en una página de aterrizaje{#defining-dynamic-content-in-a-landing-page}
 
-Para definir contenido dinámico en una página de aterrizaje, seleccione un bloque con la ruta de exploración o haga clic directamente en un elemento.
+Para definir contenido dinámico en una página de destino, seleccione un bloque con la ruta de exploración o haga clic directamente en un elemento.
 
 ![](assets/dynamic_content_lp_1.png)
 
@@ -314,7 +323,7 @@ Algunos bloques, como las imágenes, no se pueden seleccionar directamente. En e
 
 La ruta de exploración se presenta en la sección [Administración de bloques](../../channels/using/designing-a-landing-page.md#managing-landing-page-structure-and-style).
 
-Los siguientes pasos para definir contenido dinámico en una página de aterrizaje son similares a los pasos que se deben seguir para un correo electrónico. Consulte [esta sección](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+Los siguientes pasos para definir contenido dinámico en una página de destino son similares a los pasos que se deben seguir para un correo electrónico. Consulte [esta sección](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
 >[!NOTE]
 >

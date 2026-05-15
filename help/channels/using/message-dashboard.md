@@ -1,5 +1,5 @@
 ---
-title: Tablero de mensajes
+title: Panel de control de mensajes
 description: Descubra de qué se compone el panel de mensajes, incluida la barra de acciones y los distintos bloques funcionales.
 audience: channels
 content-type: reference
@@ -9,14 +9,23 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 886aae39-2029-471c-b4d1-c6ca57d0e568
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/lPW7QI7jtfKL-78I3E8l6W2c9xJQml9JFXpw-5NX0aA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: 594
 ht-degree: 4%
 
 ---
 
-# Tablero de mensajes{#message-dashboard}
+# Panel de control de mensajes{#message-dashboard}
 
 El panel de mensajes es un espacio de trabajo compuesto por diferentes iconos (reagrupados en una barra de acciones) y varios bloques funcionales que permiten establecer los parámetros del mensaje y enviarlo. Estos elementos se presentan a continuación.
 
@@ -60,7 +69,7 @@ La pantalla principal está formada por diferentes bloques. Haga clic dentro de 
 ![](assets/delivery_dashboard_3.png)
 
 * **[!UICONTROL Deployment]**: permite realizar un seguimiento del progreso de la preparación o envío del mensaje. Haga clic en el botón situado en la sección inferior derecha de este bloque para acceder a los registros de envío y análisis. Este bloque solo aparece una vez preparado el envío. Para más información. Ver [Confirmación del envío](../../sending/using/confirming-the-send.md).
-* **[!UICONTROL Audience]**: permite establecer el destinatario principal del mensaje, así como los perfiles de prueba. Consulte [Creación de audiencias](../../audiences/using/creating-audiences.md).
+* **[!UICONTROL Audience]**: permite establecer el destinatario principal del mensaje, así como los perfiles de prueba. Consulte [Creación de públicos](../../audiences/using/creating-audiences.md).
 * **[!UICONTROL Schedule]**: permite especificar la fecha en que se enviará el mensaje. Consulte [Programación](../../sending/using/about-scheduling-messages.md).
 * **[!UICONTROL Content]**: permite definir el contenido del mensaje y previsualizarlo. Ver [Pasos clave para enviar un mensaje](../../channels/using/key-steps-to-send-a-message.md).
 
@@ -82,7 +91,7 @@ A continuación se muestra una lista de los mensajes que se pueden mostrar:
 
 * *&quot;No se pueden enviar mensajes porque ningún proceso de envío administra la afinidad IP actual.&quot;*
 
-  Si ve este mensaje, hay un problema en el nivel de definición de afinidad de IP o en el nivel de proceso de envío. Póngase en contacto con el administrador del Adobe.
+  Si ve este mensaje, hay un problema en el nivel de definición de afinidad de IP o en el nivel de proceso de envío. Póngase en contacto con el administrador de Adobe.
 
 * *&quot;Se trata de una plantilla de mensaje transaccional lista para usar. Si desea modificarla, debe duplicarla y trabajar en la copia.&quot;*
 

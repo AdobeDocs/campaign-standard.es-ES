@@ -10,10 +10,19 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/tl7zyRjRGu9XFjQbPnubDvwqTY-HV7DDPDfOdiKHSi4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1170'
-ht-degree: 77%
+source-wordcount: 1172
+ht-degree: 75%
 
 ---
 
@@ -57,7 +66,7 @@ Puede utilizar esta actividad para recuperar datos que luego se estructuran con 
 
 1. La sección **[!UICONTROL Additional options]**, disponible según el protocolo seleccionado, le permite agregar parámetros al protocolo.
 
-   Puede hacer lo siguiente:
+   Se puede:
 
    * **[!UICONTROL Delete the source files after transfer]**: borra los archivos del servidor remoto. Si deja esta opción sin marcar, asegúrese de monitorizar manualmente el tamaño del contenido archivado en el directorio SFTP.
 
@@ -121,7 +130,7 @@ El protocolo Amazon S3 permite iniciar la descarga de un archivo desde una URL o
 
 4. Si desea eliminar los archivos de origen cuando la transferencia se haya completado, marque **[!UICONTROL Delete the source files after transfer]**.
 
-### Configuración con Microsoft Azure Blob Storage {#azure-blob-configuration-wf}
+### Configuración con el almacenamiento del blob de Microsoft Azure {#azure-blob-configuration-wf}
 
 El protocolo de Microsoft Azure Blob permite acceder al blob ubicado en una cuenta de Microsoft Azure Blob Storage.
 
@@ -149,7 +158,7 @@ El protocolo de **[!UICONTROL File(s) present on the Adobe Campaign server]** co
 Se pueden usar metacaracteres o caracteres comodín (por ejemplo &#42; o ?) para filtrar archivos.
 
 Elija si desea **[!UICONTROL Define a file path]** o **[!UICONTROL Use a dynamic file path]**
-La opción **[!UICONTROL Use a dynamic file path]** permite utilizar una expresión estándar y variables de eventos para personalizar el nombre del archivo que desea transferir. Para obtener más información, consulte [esta página](../../automating/using/customizing-workflow-external-parameters.md).
+La opción **[!UICONTROL Use a dynamic file path]** le permite utilizar una expresión estándar y variables de eventos para personalizar el nombre del archivo que desea transferir. Para obtener más información, consulte [esta página](../../automating/using/customizing-workflow-external-parameters.md).
 
 Tenga en cuenta que la ruta debe estar relacionada con el directorio de espacio de almacenamiento del servidor de Adobe Campaign. Los archivos se encuentran en el directorio **sftp&lt;yourinstancename>/** . Tampoco puede examinar los directorios situados encima del espacio de almacenamiento.
 

@@ -8,9 +8,19 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: 37e9acff-9576-472f-9fdf-2c0f6da773d1
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+TQID: https://experienceleague.adobe.com/QMERUwGatI5VLYzyUgA4dZxLkozubYyYBgueoJ6gZzI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: 725
 ht-degree: 3%
 
 ---
@@ -45,7 +55,7 @@ La tabla **Insert** le permite personalizar los informes al agregar gráficos y 
 * [Adición de paneles](../../reporting/using/adding-panels.md)
 * [Adición de visualizaciones](../../reporting/using/adding-visualizations.md)
 * [Adición de componentes](../../reporting/using/adding-components.md)
-* [Compartir informes automáticamente con las partes interesadas por correo electrónico](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
+* [Uso compartido de informes automáticamente con las partes interesadas por correo electrónico](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
 
 ## Fichas {#tabs}
 
@@ -117,7 +127,7 @@ La ficha **[!UICONTROL Share]** le permite enviar los informes con los usuarios 
 
    1. Seleccione los destinatarios de la lista desplegable. Tenga en cuenta que no puede seleccionar usuarios fuera de la organización.
    1. Seleccione **[!UICONTROL Show scheduling options]** si desea enviar correos electrónicos recurrentes. Esto también se puede hacer seleccionando **[!UICONTROL Send Report on schedule]** en la ficha **[!UICONTROL Share]**.
-   1. Haga clic en **[!UICONTROL Send now]**. Los destinatarios recibirán un correo electrónico con el informe adjunto.
+   1. Haga clic **[!UICONTROL Send now]**. Los destinatarios recibirán un correo electrónico con el informe adjunto.
 
 * **[!UICONTROL Send report on schedule]**: programe el informe y envíe correos electrónicos recurrentes a los destinatarios.
 
@@ -147,4 +157,4 @@ Los usuarios objetivo recibirán un correo electrónico con el informe adjunto d
 
 **Temas relacionados:**
 
-* [Compartir informes automáticamente con las partes interesadas por correo electrónico](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
+* [Uso compartido de informes automáticamente con las partes interesadas por correo electrónico](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)

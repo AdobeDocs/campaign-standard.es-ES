@@ -9,14 +9,28 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 0470b986-c00a-4441-8621-82c7112a9953
-source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
+TQID: https://experienceleague.adobe.com/UyKD0H4ffjVDfJRubitjN0pJs2DQbswTlOPNzvU6zLo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 58%
+source-wordcount: 475
+ht-degree: 60%
 
 ---
 
-# Resolución de problemas{#troubleshooting}
+# Solución de problemas{#troubleshooting}
 
 ¿Está teniendo un problema de envío? Puede encontrar la solución aquí.
 
@@ -60,11 +74,11 @@ Si el problema persiste, póngase en contacto con los servicios comerciales o de
 
   Para comprobar si su dirección IP está en lista de bloqueados, puede utilizar varios sitios web para verificarla, como:
    * [MX Toolbox](https://mxtoolbox.com/)
-   * [¿Cuál es mi dirección IP?](https://whatismyipaddress.com)
+   * [Cuál es mi dirección IP](https://whatismyipaddress.com)
 
   Por lo general, el resultado de la comprobación de la dirección IP muestra una lista que contiene detalles de la lista de bloqueados de la dirección IP y también el nombre del sitio web que bloqueó la dirección IP.
 
-  Al hacer clic en el vínculo correspondiente, puede acceder a los detalles del sitio web.
+  Al hacer clic en el enlace correspondiente, puede acceder a los detalles del sitio web.
 
   Puede solicitar que su sitio web se elimine de la lista del sitio web que añadió la dirección IP a su lista de bloqueados.
 

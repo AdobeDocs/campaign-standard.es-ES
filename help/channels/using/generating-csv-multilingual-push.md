@@ -8,9 +8,18 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: bd9ec3f9-e047-42dc-ab64-9fb274cb4656
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/sSLZ7Yi5SZTrFKNknQcrCKr49aeNUL4y249CleELWWo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: 1026
 ht-degree: 1%
 
 ---
@@ -64,7 +73,7 @@ Se requiere la codificación **UTF-8 para los caracteres internacionales.**
 
 **Si genera el archivo mediante texto sin formato, separe cada columna con &quot;,&quot;.**
 
-**Variante No Coincidente.** Si usa bloques de contenido y audiencias de destino con idiomas específicos, debe enumerar todos los idiomas de destino en el archivo CSV o recibirá un error al realizar el envío.
+**Variante No Coincidente.** Si utiliza bloques de contenido y audiencias de destino con idiomas específicos, debe enumerar todos los idiomas de destino en el archivo CSV o se producirá un error al realizar el envío.
 
 ## Inserción del campo de personalización en el archivo CSV {#personalization-field-csv}
 

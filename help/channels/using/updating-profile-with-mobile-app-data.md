@@ -9,10 +9,17 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
-source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
+TQID: https://experienceleague.adobe.com/bvy-7wuqsSH-ZYxQrx2Nlbjp-HXHvzAK-CwdkSlb1FM
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 2%
+source-wordcount: 1006
+ht-degree: 3%
 
 ---
 
@@ -23,7 +30,7 @@ ht-degree: 2%
 En esta página se describen los pasos para desarrollar un flujo de trabajo que cree o actualice datos de perfil después de que una aplicación móvil envíe Recopilar datos PII de forma programada.
 
 * **PII** significa &quot;Información de identificación personal&quot;. Puede ser cualquier dato, incluida la información que no aparece en la tabla Perfil de la base de datos de Campaign como, por ejemplo, Analytics para móviles [Puntos de interés](../../integrating/using/about-campaign-points-of-interest-data-integration.md). El desarrollador de aplicaciones móviles define la PII, normalmente con un experto en marketing.
-* **Recopilar PII** es una operación de POST de HTTP a una API de REST en Adobe Campaign Standard desde una aplicación móvil.
+* **Recopilar PII** es una operación HTTP-POST para una API de REST en Adobe Campaign Standard desde una aplicación móvil.
 
 El objetivo de este caso de uso es crear o actualizar un perfil de Campaign Standard, si los datos PII devueltos por una aplicación móvil contienen datos relacionados con el perfil.
 
@@ -32,12 +39,12 @@ El objetivo de este caso de uso es crear o actualizar un perfil de Campaign Stan
 Hay que seguir varios pasos de configuración para habilitar las notificaciones push en Campaign Standard antes de poder crear o actualizar perfiles según los datos de suscripción de aplicaciones móviles:
 
 1. [Crear una aplicación móvil](../../administration/using/configuring-a-mobile-application.md)
-1. [Integre el SDK móvil de Adobe con su aplicación móvil](../../administration/using/supported-mobile-use-cases.md).
+1. [Integre Adobe Mobile SDK con su aplicación móvil](../../administration/using/supported-mobile-use-cases.md).
 1. [Configurar Adobe Campaign para enviar notificaciones push](../../administration/using/configuring-a-mobile-application.md).
 
 ## Paso 1: Ampliación del recurso de perfil para notificaciones push/suscripciones
 
-Para poder crear o actualizar el recurso de perfil con datos PII, primero debe ampliar el recurso de perfil con los campos deseados. Para ello, haga lo siguiente:
+Para poder crear o actualizar el recurso de perfil con datos PII, primero debe ampliar el recurso de perfil con los campos deseados. Para ello:
 
 * Identifique los campos PII que envía la aplicación móvil.
 * Identifique el campo que se utilizará para la reconciliación a fin de asociar los datos PII con los datos del perfil.
@@ -58,7 +65,7 @@ La asignación de datos de perfil al ampliar el recurso **[!UICONTROL Subscripti
 
 ## Paso 2: Creación del flujo de trabajo
 
-El uso de un flujo de trabajo en Campaign Standard permite a este identificar y sincronizar datos de forma exclusiva entre los datos de suscripción de aplicación (suscriptor) y los datos de perfil o destinatario. Aunque una actualización basada en el flujo de trabajo no sincroniza los datos de perfil en tiempo real, no debería provocar bloqueos o sobrecargas indebidos en la base de datos.
+El uso de un flujo de trabajo en Campaign Standard permite a un administrador identificar y sincronizar datos de forma exclusiva entre los datos de la suscripción de la aplicación (suscriptor) y los datos del perfil o destinatario. Aunque una actualización basada en el flujo de trabajo no sincroniza los datos de perfil en tiempo real, no debería provocar bloqueos o sobrecargas indebidos en la base de datos.
 
 Los pasos principales para crear el flujo de trabajo son estos:
 
@@ -114,7 +121,7 @@ En la ficha **[!UICONTROL General]**, establezca **[!UICONTROL Execution frequen
 
 1. En la ficha **[!UICONTROL Fields to update]**, haga clic en el botón **[!UICONTROL Create element]** y, a continuación, asigne los campos que provienen de la tabla appSubscriptionRcp (campo **[!UICONTROL Source]**) con los campos que desea actualizar en la tabla Perfil (campo **[!UICONTROL Destination]**).
 
-1. En el campo **[!UICONTROL Enabled if]**, agregue una expresión para asegurarse de que el campo correspondiente de la tabla Perfil se actualice solo si el campo de origen contiene un valor. Para ello, seleccione el campo de la lista y añada el icono &quot;!Expresión =&#39;&#39;&quot; (si el campo de Source es `[target/@cusEmail]` en el Editor de expresiones, asegúrese de escribir `[target/@cusEmail] != ''"`).
+1. En el campo **[!UICONTROL Enabled if]**, agregue una expresión para asegurarse de que el campo correspondiente de la tabla Perfil se actualice solo si el campo de origen contiene un valor. Para ello, seleccione el campo de la lista y, a continuación, añada la expresión &quot;!=&#39;&#39;&quot; (si el campo de Source es `[target/@cusEmail]` en el Editor de expresiones, asegúrese de escribir `[target/@cusEmail] != ''"`).
 
    ![](assets/update_profile8.png)
 

@@ -6,10 +6,18 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
-source-git-commit: 1346f7d833515fb2e6feabb39d199ffd5610c88e
+TQID: https://experienceleague.adobe.com/tSPkfU35NbnvlF8s39rDKPbyrLFm8uKx7jvU4ZyB1hw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 0%
+source-wordcount: 939
+ht-degree: 1%
 
 ---
 
@@ -33,7 +41,7 @@ El seguimiento push se divide en tres tipos:
 
 Para implementar el seguimiento para Campaign Standard, la aplicación móvil debe incluir los SDK de Adobe Experience Platform. Estos SDK están disponibles en la [documentación de SDK para Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
-Para enviar información de seguimiento, hay tres variables que deben enviarse. Dos que forman parte de los datos recibidos del Campaign Standard y una variable de acción que dicta si se trata de una **impresión**, **clic** o **apertura**.
+Para enviar información de seguimiento, hay tres variables que deben enviarse. Dos que forman parte de los datos recibidos de Campaign Standard y una variable de acción que dicta si se trata de una **impresión**, **clic** o **apertura**.
 
 | Variable | Valor |
 |:-:|:-:|
@@ -260,7 +268,7 @@ Para que el seguimiento de **[!UICONTROL Impression]** funcione mientras la apli
 
 >[!CAUTION]
 >
-> Si se cierra una aplicación, Apple no la llamará hasta que se haya reiniciado. Esto significa que no podrá saber cuándo se ha recibido la notificación en iOS. </br> Debido a este motivo, el seguimiento de impresiones de iOS podría no ser preciso y no debería considerarse fiable.
+> Si se cierra una aplicación, Apple no la llamará hasta que se haya reiniciado. Esto significa que no podrá saber cuándo se recibió la notificación en iOS. </br> Debido a este motivo, el seguimiento de impresiones de iOS puede no ser preciso y no debe considerarse fiable.
 
 Para los envíos creados antes de la versión 21.1 o los envíos con plantilla personalizada, consulte esta [sección](../../administration/using/push-tracking.md#about-push-tracking).
 

@@ -9,10 +9,20 @@ feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 5ef66b1b-1c81-42fb-a18c-fcf7f21e1ff7
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+TQID: https://experienceleague.adobe.com/EAQzeoYku9S-ZThn-x3IBpLetTHqO2zNeY1ZsWQKVPE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 96%
+source-wordcount: 560
+ht-degree: 88%
 
 ---
 
@@ -26,7 +36,7 @@ Las reglas de tipología son reglas empresariales que permiten realizar comproba
 
 * Reglas de **fatiga**: este tipo de reglas le permite definir un número máximo de mensajes por perfil para evitar saturar demasiado. Para obtener más información, consulte [esta sección](../../sending/using/fatigue-rules.md).
 
-* Reglas de **control**: este tipo de reglas permite al usuario comprobar la validez y la calidad de los mensajes antes de enviarlos, como la visualización de caracteres, el tamaño del mensaje SMS, el formato de la dirección, etc. Para obtener más información, consulte [esta sección](../../sending/using/control-rules.md).
+* Reglas de **Control**: este tipo de reglas permite al usuario comprobar la validez y la calidad de los mensajes antes de enviarlos, como la visualización de caracteres, el tamaño del mensaje SMS, el formato de la dirección, etc. Para obtener más información, consulte [esta sección](../../sending/using/control-rules.md).
 
 Las reglas de tipología están disponibles en el menú **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** > **[!UICONTROL Typology rules]**.
 

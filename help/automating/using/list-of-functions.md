@@ -9,10 +9,15 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/lpfCIMUH03d9zMB-R1Uq9ZwxnD1G-LG8b-iN3TQc7o8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '2011'
-ht-degree: 93%
+source-wordcount: 2020
+ht-degree: 91%
 
 ---
 
@@ -82,7 +87,7 @@ Las funciones de fecha se utilizan para manipular los valores de fecha y hora.
   <tr> 
    <td> <strong>DateOnly</strong><br /> </td> 
    <td> Devuelve solo la fecha (con hora 00:00)<br /> </td> 
-   <td> DateOnly(&lt;fecha&gt;)<br /> </td> 
+   <td> DateOnly(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Day</strong><br /> </td> 
@@ -92,17 +97,17 @@ Las funciones de fecha se utilizan para manipular los valores de fecha y hora.
   <tr> 
    <td> <strong>DayOfYear</strong><br /> </td> 
    <td> Devuelve un número que representa el día del año de la fecha<br /> </td> 
-   <td> DayOfYear(&lt;fecha&gt;)<br /> </td> 
+   <td> DayOfYear(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>DaysAgo</strong><br /> </td> 
    <td> Devuelve la fecha actual menos N días<br /> </td> 
-   <td> DaysAgo(&lt;número&gt;)<br /> </td> 
+   <td> DaysAgo(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>DaysAgoInt</strong><br /> </td> 
    <td> Devuelve la fecha actual menos N días (como un entero aaaammdd)<br /> </td> 
-   <td> DaysAgoInt(&lt;número&gt;)<br /> </td> 
+   <td> DaysAgoInt(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>DaysDiff</strong><br /> </td> 
@@ -127,7 +132,7 @@ Las funciones de fecha se utilizan para manipular los valores de fecha y hora.
   <tr> 
    <td> <strong>HoursDiff</strong><br /> </td> 
    <td> Devuelve el número de horas entre dos fechas<br /> </td> 
-   <td> HoursDiff(&lt;fecha de finalización&gt;, &lt;fecha de inicio&gt;)<br /> </td> 
+   <td> HoursDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>LocalToUTC</strong><br /> </td> 
@@ -167,7 +172,7 @@ Las funciones de fecha se utilizan para manipular los valores de fecha y hora.
   <tr> 
    <td> <strong>Second</strong><br /> </td> 
    <td> Devuelve los segundos de la fecha<br /> </td> 
-   <td> Second(&lt;fecha&gt;)<br /> </td> 
+   <td> Second(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Oldest</strong><br /> </td> 
@@ -217,11 +222,11 @@ Las funciones de fecha se utilizan para manipular los valores de fecha y hora.
   <tr> 
    <td> <strong>ToDateTime</strong><br /> </td> 
    <td> Convierte una cadena en una fecha + hora.<br /> </td> 
-   <td> ToDateTime(&lt;cadena&gt;)<br /> </td> 
+   <td> ToDateTime(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ToDateTimeWithTimezone</strong><br /> </td> 
-   <td> Convierte una cadena en una fecha + huso horario.<br /> Ejemplo: ToDateTimeWithTimezone ("2019-02-19 08:09:00", "Asia/Teherán")<br /> </td> 
+   <td> Convierte una cadena en una fecha + zona horaria.<br /> Ejemplo: ToDateTimeWithTimezone ("2019-02-19 08:09:00", "Asia/Teherán")<br /> </td> 
    <td> ToDateTimeWithTimezone(&lt;cadena&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -252,7 +257,7 @@ Las funciones de fecha se utilizan para manipular los valores de fecha y hora.
   <tr> 
    <td> <strong>TruncYear</strong><br /> </td> 
    <td> Redondea una fecha y hora al 1 de enero del año<br /> </td> 
-   <td> TruncYear(&lt;fecha&gt;)<br /> </td> 
+   <td> TruncYear(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>WeekDay</strong><br /> </td> 
@@ -277,7 +282,7 @@ Las funciones de fecha se utilizan para manipular los valores de fecha y hora.
   <tr> 
    <td> <strong>YearsOld</strong><br /> </td> 
    <td> Devuelve la edad en años de una fecha<br /> </td> 
-   <td> YearsOld(&lt;fecha&gt;)<br /> </td> 
+   <td> YearsOld(&lt;date&gt;)<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -296,7 +301,7 @@ Las funciones de geomarketing se utilizan para manipular los valores geográfico
   <tr> 
    <td> <strong>Distance</strong><br /> </td> 
    <td> Devuelve la distancia en kilómetros entre dos puntos definidos por su longitud y latitud (expresada en grados)<br /> </td> 
-   <td> Distance(&lt;Longitud A&gt;, &lt;Latitud A&gt;, &lt;Longitud B&gt;, &lt;Latitud B&gt;)<br /> </td> 
+   <td> Distance(&lt;Longitude A&gt;, &lt;Latitude A&gt;, &lt;Longitude B&gt;, &lt;Latitude B&gt;)<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -325,7 +330,7 @@ Las funciones de valores numéricos se utilizan para convertir texto en números
   <tr> 
    <td> <strong>Floor</strong><br /> </td> 
    <td> Devuelve el mayor entero que sea menor o igual que un número<br /> </td> 
-   <td> Floor(&lt;número&gt;)<br /> </td> 
+   <td> Floor(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Greatest</strong><br /> </td> 
@@ -340,7 +345,7 @@ Las funciones de valores numéricos se utilizan para convertir texto en números
   <tr> 
    <td> <strong>Mod</strong><br /> </td> 
    <td> Devuelve el resto de la división del entero de n1 entre n2<br /> </td> 
-   <td> Mod(&lt;número 1&gt;, &lt;número 2&gt;)<br /> </td> 
+   <td> Mod(&lt;number 1&gt;, &lt;number 2&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Percent</strong><br /> </td> 
@@ -399,7 +404,7 @@ Esta tabla contiene las funciones restantes disponibles.
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
    <td> Devuelve el valor 1 si la condición está verificada. De lo contrario, devuelve el valor 2<br /> </td> 
-   <td> Case(When(&lt;condición&gt;, &lt;valor 1&gt;), Else(&lt;valor 2&gt;))<br /> </td> 
+   <td> Case(When(&lt;condition&gt;, &lt;value 1&gt;), Else(&lt;value 2&gt;))<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ClearBit</strong><br /> </td> 
@@ -414,7 +419,7 @@ Esta tabla contiene las funciones restantes disponibles.
   <tr> 
    <td> <strong>Decode</strong><br /> </td> 
    <td> Devuelve el valor 3 si el valor 1 = valor 2; en caso contrario, devuelve el valor 4<br /> </td> 
-   <td> Decode(&lt;valor 1&gt;, &lt;valor 2&gt;, &lt;valor 3&gt;, &lt;valor 4&gt;)<br /> </td> 
+   <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Else</strong><br /> </td> 
@@ -434,7 +439,7 @@ Esta tabla contiene las funciones restantes disponibles.
   <tr> 
    <td> <strong>Iif</strong><br /> </td> 
    <td> Devuelve el valor 1 si la expresión es verdadera; en caso contrario, devuelve el valor 2<br /> </td> 
-   <td> Iif(&lt;condición&gt;, &lt;valor 1&gt;, &lt;valor 2&gt;)<br /> </td> 
+   <td> Iif(&lt;condition&gt;, &lt;value 1&gt;, &lt;value 2&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>IsBitSet</strong><br /> </td> 
@@ -469,7 +474,7 @@ Esta tabla contiene las funciones restantes disponibles.
   <tr> 
    <td> <strong>When</strong><br /> </td> 
    <td> Devuelve el valor 1 si la expresión está verificada. De lo contrario, devuelve el valor 2 (solo puede utilizarse como parámetro de la función case)<br /> </td> 
-   <td> When(&lt;condición&gt;, &lt;valor 1&gt;)<br /> </td> 
+   <td> When(&lt;condition&gt;, &lt;value 1&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>newUUID</strong><br /> </td> 
@@ -598,7 +603,7 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
   <tr> 
    <td> <strong>Rtrim</strong><br /> </td> 
    <td> Elimina los espacios a la derecha de la cadena<br /> </td> 
-   <td> Rtrim(&lt;cadena&gt;)<br /> </td> 
+   <td> Rtrim(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha256Digest</strong><br /> </td> 
@@ -623,7 +628,7 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
   <tr> 
    <td> <strong>Substring</strong><br /> </td> 
    <td> Extrae la subcadena que comienza en el carácter n1 de la cadena con una longitud de n2<br /> </td> 
-   <td> Substring(&lt;cadena&gt;, &lt;desajuste&gt;, &lt;longitud&gt;)<br /> </td> 
+   <td> Substring(&lt;string&gt;, &lt;offset&gt;, &lt;length&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ToIntlString</strong><br /> </td> 
@@ -648,7 +653,7 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
   <tr> 
    <td> <strong>VirtualLinkStr</strong><br /> </td> 
    <td> Devuelve la clave externa (texto) de un enlace transferido como parámetro si los otros dos parámetros son iguales<br /> </td> 
-   <td> VirtualLinkStr(&lt;cadena&gt;, &lt;número&gt;, &lt;número&gt;)<br /> </td> 
+   <td> VirtualLinkStr(&lt;string&gt;, &lt;number&gt;, &lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>encryption_aescbcDecrypt</strong><br /> </td> 
@@ -657,7 +662,7 @@ Las funciones de cadena se utilizan para manipular un conjunto de cadenas.
   </tr> 
   <tr> 
    <td> <strong>encryption_aescbcEncrypt</strong><br /> </td> 
-   <td> El cifrado se realiza mediante el algoritmo AES (modo de bloque CBC) una cadena de caracteres (primer parámetro) con una clave (segundo parámetro) y un vector de inicialización (tercer parámetro). La clave y el vector de inicialización deben proporcionarse en una representación hexadecimal (comenzando por <strong>\x</strong>). El resultado será hexadecimal sin <strong>\x</strong>.<br /> Tenga en cuenta que el tamaño de la clave puede ser de 128 bits, 192 bits, 256 bits (16, 24, 32 caracteres hexadecimales), pero le recomendamos que utilice 256 bits y una IV aleatoria de la misma longitud que la clave.<br /> </td> 
+   <td> El cifrado se realiza mediante el algoritmo AES (modo de bloque CBC) una cadena de caracteres (primer parámetro) con una clave (segundo parámetro) y un vector de inicialización (tercer parámetro). La clave y el vector de inicialización deben proporcionarse en una representación hexadecimal (comenzando por <strong>\x</strong>). El resultado será hexadecimal sin <strong>\x</strong>.<br /> Tenga en cuenta que el tamaño de la clave puede ser de 128 bits, 192 bits, 256 bits (16, 24, 32 caracteres hexadecimales), pero le recomendamos que utilice 256 bits y una IV aleatoria de la misma longitud que la clave.<br /> </td> 
    <td> encryption_aescbcEncrypt(&lt;cadena&gt;, &lt;cadena&gt;, &lt;cadena&gt;)<br /> Por ejemplo: encryption_aescbcEncrypt(johndoe@example.com, "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
   </tr> 
  </tbody> 
@@ -748,7 +753,7 @@ Las funciones de representación se utilizan para ordenar valores.
   <tr> 
    <td> <strong>RowNum</strong><br /> </td> 
    <td> Genera un número de línea basado en la partición de tabla y en una secuencia de ordenación. Esta función no es compatible con MySQL<br /> </td> 
-   <td> RowNum(PartitionBy(&lt;valor 1&gt;), OrderBy(&lt;valor 1&gt;))<br /> </td> 
+   <td> RowNum(PartitionBy(&lt;value 1&gt;), OrderBy(&lt;value 1&gt;))<br /> </td> 
   </tr> 
  </tbody> 
 </table>

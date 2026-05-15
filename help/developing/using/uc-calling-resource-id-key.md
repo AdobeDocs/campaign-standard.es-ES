@@ -5,16 +5,27 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: c7aca0c3-525d-4195-8c04-2fad32ca43b7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/sOXv3QMAjOt2gadC9uDyaZA8SVVfoXspzpJ8NOZQkzQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2:
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: 593
 ht-degree: 6%
 
 ---
 
 # Invocación de un recurso mediante una clave de identificación compuesta{#calling-a-resource-using-a-composite-identification-key}
 
-En algunos casos, es posible que tenga que definir para un recurso una clave de identificación que esté formada por dos campos. Una vez configurada la clave de identificación, debe configurar una definición de filtro para poder llamar al recurso con esta clave de identificación, ya sea desde la interfaz del Campaign Standard o desde las API.
+En algunos casos, es posible que tenga que definir para un recurso una clave de identificación que esté formada por dos campos. Una vez configurada la clave de identificación, debe configurar una definición de filtro para poder llamar al recurso con esta clave de identificación, ya sea desde la interfaz de Campaign Standard o desde las API.
 
 En este caso de uso, el recurso **Perfil** se ha ampliado con los campos personalizados **&quot;CRM ID&quot;** y **&quot;category&quot;**. Crearemos una clave de identificación para el recurso de perfil, que se compone de estos dos campos. A continuación, configuraremos una definición de filtro para que podamos acceder al recurso de perfil mediante la clave de identificación.
 
@@ -94,7 +105,7 @@ Para usar la definición de filtro de la interfaz, use una actividad **[!UICONTR
 
 ![](assets/uc_idkey9.png)
 
-Para utilizar la definición de filtro de las API de REST de Campaign Standard, utilice la siguiente sintaxis:
+Para utilizar la definición del filtro desde las API de REST de Campaign Standard, utilice la siguiente sintaxis:
 
 ```
 GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<value>&<param2_parameter>=<value>

@@ -9,10 +9,24 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/gPeRyclF6wtJj0D3iN19ZwaxTGu-BoznkpccCQgO6XE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1709'
-ht-degree: 3%
+source-wordcount: 1726
+ht-degree: 4%
 
 ---
 
@@ -68,7 +82,7 @@ Los pasos para agregar y modificar campos son los mismos que para [recursos pers
 
 Puede añadir al contenido del evento una colección de elementos, cada uno de los cuales incluye varios atributos.
 
-Esta colección se puede usar en un mensaje de correo electrónico transaccional para agregar [listados de productos](../../designing/using/using-product-listings.md) al contenido del mensaje; por ejemplo, una lista de productos con el precio, el número de referencia, la cantidad, etc. para cada producto de la lista.
+Esta colección se puede usar en un mensaje de correo electrónico transaccional para agregar [listados de productos](../../designing/using/using-product-listings.md) al contenido del mensaje; por ejemplo, una lista de productos con el precio, el número de referencia, la cantidad, etc. de cada producto de la lista.
 
 1. En la sección **[!UICONTROL Collections]**, haga clic en el botón **[!UICONTROL Create element]**.
 
@@ -181,7 +195,7 @@ Para enviar un mensaje transaccional basado en eventos, primero debe crear y con
 
 1. Al crear la configuración de evento, seleccione la dimensión de segmentación **[!UICONTROL Real-time event]** (consulte [Creación de un evento](#creating-an-event)).
 1. Agregue campos al evento para poder personalizar el mensaje transaccional (consulte [Definición de los atributos del evento](#defining-the-event-attributes)).
-1. Se supone que la mensajería transaccional basada en eventos utiliza solo los datos que se encuentran en el evento enviado para definir el destinatario y la personalización del contenido del mensaje.
+1. Se supone que la mensajería transaccional basada en eventos utiliza solamente los datos que se encuentran en el evento enviado para definir el destinatario y la personalización del contenido del mensaje.
 
    Sin embargo, si desea utilizar información adicional de la base de datos de Adobe Campaign, puede enriquecer el contenido del mensaje transaccional (consulte [Enriquecimiento del contenido del mensaje transaccional](#enriching-the-transactional-message-content)).
 

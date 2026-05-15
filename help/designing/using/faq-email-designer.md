@@ -8,10 +8,19 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: f3208380-a4cf-4944-aa24-883995d1075d
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+TQID: https://experienceleague.adobe.com/E-pr-K2MhoGRnz46df3Dz---s3NRdSbweBFhTAMgSw4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 3%
+source-wordcount: 445
+ht-degree: 7%
 
 ---
 
@@ -21,25 +30,25 @@ ht-degree: 3%
 
 Los bloques de contenido y los fragmentos de contenido son fragmentos de contenido reutilizable que son comunes en varios correos electrónicos. Se utilizan para garantizar la coherencia en todos los correos electrónicos y también para optimizar/estandarizar la creación de correos electrónicos. Las diferencias entre los bloques de contenido y los fragmentos de contenido son el nivel de personalización posible.
 
-* Los bloques de contenido son HTML puros donde el código de HTML se inserta manualmente (no es una interfaz de usuario fácil de usar, es código fuente directo). Aunque está muy orientado a personas con conocimientos HTML, permite un nivel de personalización que no está disponible en los fragmentos de contenido.
+* Los bloques de contenido son HTML puro donde el código HTML se inserta manualmente (no es una interfaz de usuario fácil de usar, es código fuente directo). Aunque está muy orientado a personas con conocimientos de HTML, permite un nivel de personalización que no está disponible en los fragmentos de contenido.
 
 * Los fragmentos de contenido son fragmentos visuales de contenido creados mediante Designer de correo electrónico, con su interfaz de usuario fácil de usar. Sin embargo, no es posible personalizar el contenido. Si la personalización es necesaria, solo se puede realizar mediante bloques de contenido.
 
-## ¿Cómo se puede añadir relleno a un elemento desde la estructura del HTML?
+## ¿Cómo se puede añadir relleno a un elemento desde la estructura de HTML?
 
-Puede agregar relleno utilizando la ruta de exploración del HTML.
+Puede agregar relleno utilizando la ruta de exploración de HTML.
 
-1. En la parte inferior izquierda de la pantalla, haga clic en la ruta de exploración del HTML.
+1. En la parte inferior izquierda de la pantalla, haga clic en la ruta de exploración de HTML.
 
    ![](assets/do-not-localize/breadcrumb.png)
 
 1. Haga clic en el elemento al que desee añadir un relleno.
-1. Haga clic en la etiqueta principal en la ruta de exploración del HTML.
+1. Haga clic en la etiqueta principal en la ruta de exploración de HTML.
 Ahora puede agregar un relleno a este elemento.
 
-## ¿Puedo importar contenido de HTML en Email Designer?
+## ¿Puedo importar contenido de HTML en el Designer de correo electrónico?
 
-Puede cargar su propio contenido de HTML en el Designer de correo electrónico. Si no se ha creado mediante Email Designer, se cargará en modo de compatibilidad diseñado para mantener el HTML original, pero limita ciertas funciones de edición a través de la interfaz de usuario.
+Puede cargar su propio contenido de HTML en el Designer de correo electrónico. Si no se ha creado mediante Email Designer, se cargará en modo de compatibilidad diseñado para mantener su HTML original, pero limita ciertas funcionalidades de edición a través de la interfaz de usuario.
 
 Para obtener más información, consulte [Modo de compatibilidad](../../designing/using/using-existing-content.md#compatibility-mode)
 
@@ -64,4 +73,4 @@ Para obtener más información, consulte [Estilos](../../designing/using/styles.
 
 ## ¿Qué fuentes están disponibles?
 
-Al editar estilos, solo las fuentes web oficialmente admitidas por la mayoría de los clientes de correo electrónico están disponibles de forma predeterminada a través de la interfaz de usuario. El uso de fuentes personalizadas requiere actualizar el código del HTML.
+Al editar estilos, solo las fuentes web oficialmente admitidas por la mayoría de los clientes de correo electrónico están disponibles de forma predeterminada a través de la interfaz de usuario. El uso de fuentes personalizadas requiere actualizar el código de HTML.

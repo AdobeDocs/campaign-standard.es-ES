@@ -6,10 +6,21 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: ea936128-1c51-483d-914c-6d06708456d6
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+TQID: https://experienceleague.adobe.com/KaN9nMAWXIbyhlv6AzJXrsjfGz-ZJG3zWbaLanmddDQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '8640'
-ht-degree: 85%
+source-wordcount: 8714
+ht-degree: 84%
 
 ---
 
@@ -17,7 +28,7 @@ ht-degree: 85%
 
 >[!NOTE]
 >
->El protocolo y la configuración del conector **SMS** para Adobe Campaign Classic se encuentran en esta [página](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html?lang=es).
+>El protocolo y la configuración del conector **SMS** para Adobe Campaign Classic se encuentran en esta [página](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html).
 >
 >En este documento, todas las referencias a los detalles acerca del protocolo, los nombres de campo y los valores se refieren a la [especificación SMPP 3.4](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
 
@@ -44,7 +55,7 @@ Los proveedores de SMPP a veces pueden desviarse de la especificación oficial, 
 
 Al enviar SMS masivos a través de un proveedor de SMS, se encontrará con tres tipos diferentes de SMS:
 
-* **SMS MT (móvil finalizado)**: un SMS emitido por Adobe Campaign hacia los teléfonos móviles a través del proveedor de SMPP.
+* **SMS MT (móvil terminado)**: un SMS emitido por Adobe Campaign hacia los teléfonos móviles a través del proveedor de SMPP.
 
 * **SMS MO (móvil original)**: un SMS que un móvil envía a Adobe Campaign a través del proveedor de SMPP.
 
@@ -652,7 +663,7 @@ Indica el formato del ID devuelto en el campo `message_id` del `SUBMIT_SM_RESP P
 
 * **Número decimal** : Se espera que el ID sea un número decimal en formato ASCII. Cuando se utiliza este ajuste, se eliminan los espacios iniciales y finales y los ceros al inicio.
 
-* **Número hexadecimal**: Se espera que el ID sea un número hexadecimal en formato ASCII, sin 0x inicial ni h final. El ID se convierte a continuación en un número decimal antes de almacenarse en la base de datos.
+* **Número hexadecimal**: Se espera que el identificador sea un número hexadecimal en formato ASCII, sin 0x inicial ni h final. A continuación, el ID se convierte en un número decimal antes de almacenarse en la base de datos.
 
 * **Cadena hexadecimal**: Se espera que el ID sea un texto con codificación ASCII que es en sí mismo una cadena de bytes codificados como hexadecimales. P. ej.: en la PDU encontrará `0x34 0x31 0x34 0x32 0x34 0x33`, que se traduce como ASCII &quot;414243&quot;. A continuación, esta cadena se descodifica como una cadena hexadecimal de bytes y se obtiene &quot;ABC&quot; como resultado: almacenará el ID &quot;ABC&quot; en la base de datos.
 
@@ -664,7 +675,7 @@ Esto indica el formato del ID capturado por la regex `Extraction` del ID en el S
 
 Si se selecciona, el contenido de los campos opcionales se anexará al texto procesado por las expresiones regulares anteriores. El texto tendrá el formato `0xTAG:VALUE`, `0xTAG` siendo el valor hexadecimal de 4 dígitos de la etiqueta en mayúsculas, p. ej.: `0x002E`.
 
-Por ejemplo, es posible que desee capturar el ID en el campo `receipted_message_id`. Para ello, active esta casilla de verificación y el siguiente texto se agrega al estado:
+Por ejemplo, es posible que desee capturar el ID en el campo `receipted_message_id`. Para ello, habilite esta casilla de verificación y el siguiente texto se agrega al estado:
 
 ```
 0x001E:05e3299e-8d37-49d0-97c6-8e4fe60c7739
@@ -714,13 +725,13 @@ La columna **Acción adicional** proporciona una acción adicional cuando tanto 
 
 >[!IMPORTANT]
 >
->La configuración del número de teléfono completo de envío afecta al comportamiento del mecanismo de cuarentena de respuesta automática: si el número de teléfono de envío completo no está marcado, el número de teléfono puesto en cuarentena estará marcado con un signo más (&quot;+&quot;) para que sea compatible con el formato de número de teléfono internacional.
+>La configuración del número de teléfono completo de envío afecta al comportamiento del mecanismo de cuarentena de respuesta automática: si el número de teléfono de envío completo no está marcado, el número de teléfono puesto en cuarentena tendrá un signo más (&quot;+&quot;) como prefijo para que sea compatible con el formato de número de teléfono internacional.
 
 Todas las entradas de la tabla se procesan en el orden especificado, hasta que una regla coincida. Si varias reglas coinciden con un MO, solo se aplicará la regla superior.
 
 ### Parámetros opcionales de respuesta automática (TLV) {#automatic-reply-tlv}
 
-A partir de la versión 21.1, puede añadir parámetros opcionales al mensaje MT de respuesta automática. Se agregan como parámetros TLV opcionales a `SUBMIT_SM PDU` de la respuesta, tal como se describe en la sección 5.3 de la [especificación SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)(página 131).
+A partir de la versión 21.1, puede añadir parámetros opcionales al mensaje MT de respuesta automática. Se agregan como parámetros TLV opcionales a `SUBMIT_SM PDU` de la respuesta, tal como se describe en la sección 5.3 de la [especificación SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)&#x200B;(página 131).
 
 Para obtener más información acerca de los parámetros opcionales, consulte esta [sección](../../administration/using/sms-protocol.md#smpp-optional-parameters).
 
@@ -766,7 +777,7 @@ El período de validez se transmite en el campo `validity_period` del `SUBMIT_SM
 
 #### Parámetros opcionales de SMPP (TLV) {#smpp-optional-parameters}
 
-A partir de la versión 21.1, puede añadir varios parámetros opcionales a cada MT enviado para esta entrega. Estos parámetros opcionales se agregan a `SUBMIT_SM PDU` de la respuesta, tal como se describe en la sección 5.3 de la [especificación SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)(página 131).
+A partir de la versión 21.1, puede añadir varios parámetros opcionales a cada MT enviado para esta entrega. Estos parámetros opcionales se agregan a `SUBMIT_SM PDU` de la respuesta, tal como se describe en la sección 5.3 de la [especificación SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)&#x200B;(página 131).
 
 Cada fila de la tabla representa un parámetro opcional:
 
@@ -830,16 +841,16 @@ Incluso si no puede comprobar los registros usted mismo, será más fácil para 
 
 ### Prueba de SMS {#test}
 
-* **Envíe SMS con todo tipo de caracteres**
-Si necesita enviar un SMS con caracteres que no sean GSM o ASCII, intente enviar algunos mensajes con tantos caracteres diferentes como sea posible. Si configura una tabla de asignación de caracteres personalizada, envíe al menos un SMS para todos los valores `data_coding` posibles.
+* **Enviar SMS con todo tipo de caracteres**
+Si necesita enviar SMS con caracteres que no sean GSM o ASCII, intente enviar algunos mensajes con tantos caracteres diferentes como sea posible. Si configura una tabla de asignación de caracteres personalizada, envíe al menos un SMS para todos los valores `data_coding` posibles.
 
-* **Verifique que SR se procesa correctamente**
+* **Compruebe que SR se procesa correctamente**
 El SMS debe marcarse como recibido en el registro de envíos. El registro de envíos debe tener el siguiente aspecto:
   `SR yourProvider stat=DELIVRD err=000|#MESSAGE`
 Compruebe que ha cambiado el nombre del proveedor de envío. El registro de envíos nunca debe contener **SR genérico** en entornos de producción.
 
-* **Compruebe que se procesan los MO**
-Si necesita procesar los MO (respuestas automáticas, almacenar los MO en la base de datos, etc.) intente realizar algunas pruebas. Envíe algunos SMS para cada una de las palabras clave de respuesta automática y compruebe si la respuesta es lo suficientemente rápida, no más de unos segundos.
+* **Comprobar que se procesan los MO**
+Si necesita procesar MO (respuestas automáticas, almacenar MO en la base de datos, etc.) intente realizar algunas pruebas. Envíe algunos SMS para cada una de las palabras clave de respuesta automática y compruebe si la respuesta es lo suficientemente rápida, no más de unos segundos.
 Compruebe en el registro que Adobe Campaign responde con `DELIVER_SM_RESP` correctamente (command_status=0).
 
 ### Compruebe las PDU {#check-pdus}
@@ -852,7 +863,7 @@ Este paso es necesario cuando se conecta a un proveedor que no estaba conectado 
 
 Verifique que `BIND_* PDUs` se envíen correctamente. Lo más importante que hay que comprobar es que el proveedor siempre devuelve `BIND_*_RESP PDUs` (command_status = 0) correctamente.
 
-Compruebe que no hay demasiadas `BIND_* PDU`. Si hay demasiados, podría indicar que la conexión es inestable. Consulte la sección [Problemas con conexiones inestables](../../administration/using/sms-protocol.md#issues-unstable-connection) para obtener más información.
+Compruebe que no hay demasiados `BIND_* PDU`. Si hay demasiados, podría indicar que la conexión es inestable. Consulte la sección [Problemas con conexiones inestables](../../administration/using/sms-protocol.md#issues-unstable-connection) para obtener más información.
 
 #### ENQUIRE_LINK {#enquire-link-pdus}
 
@@ -891,4 +902,4 @@ Aunque el SMS se haya enviado correctamente, póngase en contacto con el proveed
 
 ### Deshabilite los seguimientos detallados del SMPP {#disable-verbose}
 
-Una vez completadas todas las comprobaciones, lo último que debe hacer es **Deshabilitar los seguimientos detallados del SMPP** para no generar demasiados registros. Puede volver a activarlos para solucionar los problemas incluso en sistemas de producción.
+Una vez completadas todas las comprobaciones, lo último que debe hacer es **Deshabilitar los seguimientos detallados del SMPP** para no generar demasiados registros. Puede volver a habilitarlos para solucionar los problemas incluso en sistemas de producción.

@@ -8,9 +8,22 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 98516af1-d4dd-4c1f-b360-f19208c22f82
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/hlBJ-vJIu4LU3OlZN06Gni-zvwCLFRKiIWx3fStufpc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: 829
 ht-degree: 5%
 
 ---
@@ -60,7 +73,7 @@ Para ello:
 
    ![](assets/custom_profile_14.png)
 
-1. Seleccione la pestaña **[!UICONTROL Screen definition]** En la lista desplegable **[!UICONTROL Detail screen configuration]**, marque la sección **[!UICONTROL Add personalized fields]** para crear una nueva sección en su perfil.
+1. Seleccione la pestaña **[!UICONTROL Screen definition]** . En la lista desplegable **[!UICONTROL Detail screen configuration]**, marque la sección **[!UICONTROL Add personalized fields]** para crear una nueva sección en su perfil.
 
    ![](assets/custom_profile_4.png)
 
@@ -104,7 +117,7 @@ Antes de ampliar el registro con nuestro campo de perfil, asegúrese de que se a
 
    ![](assets/custom_profile_10.png)
 
-   Esta opción solo está disponible si se ha aceptado la ventana PII. Para obtener más información, consulte esta [página](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
+   Esta opción solo está disponible si se ha aceptado la ventana PII. Para obtener más información, consulte [esta página](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
 1. Haga clic en **[!UICONTROL Add]** y guarde el recurso personalizado.
 1. Dado que el recurso personalizado se ha modificado, es necesario publicarlo para implementar los nuevos cambios.

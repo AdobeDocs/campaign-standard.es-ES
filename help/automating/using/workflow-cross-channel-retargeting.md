@@ -10,10 +10,17 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: cba4e5c6-8acd-47a1-824e-14415e90d451
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/FmSP-ecHeXM-ozitQoL684ZAQC0tbuj3vprW06znCUw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 38%
+source-wordcount: 315
+ht-degree: 43%
 
 ---
 
@@ -31,7 +38,7 @@ Puede enviar un correo electrónico a los clientes y, a continuación, un SMS a 
 1. Haga doble clic en la actividad.
 1. En **[!UICONTROL Shortcuts]**, arrastre y suelte **[!UICONTROL Profiles]** y seleccione **[!UICONTROL email]** con el operador **[!UICONTROL is not empty]**.
 1. En **[!UICONTROL Shortcuts]**, arrastre y suelte **[!UICONTROL Profiles]** y seleccione **[!UICONTROL no longer contact by email]** con el valor **[!UICONTROL no]**.
-1. Haga clic en **[!UICONTROL Confirm]**.
+1. Haga clic **[!UICONTROL Confirm]**.
 
 ![](assets/wf-complement-query.png)
 
@@ -45,7 +52,7 @@ Puede enviar un correo electrónico a los clientes y, a continuación, un SMS a 
 1. Introduzca las propiedades de correo electrónico y haga clic en **[!UICONTROL Next]**.
 1. Para crear el diseño del correo electrónico, haga clic en **[!UICONTROL Using the Email Designer]**.
 1. Inserte elementos o seleccione una plantilla existente.
-1. Personalice su correo electrónico con ofertas específicas para cada ubicación. Para obtener más información, consulte [diseño de un correo electrónico](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+1. Personalice su correo electrónico con ofertas específicas para cada ubicación.Para obtener más información, consulte [diseño de un correo electrónico](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 1. Haga clic en **[!UICONTROL Preview]** para comprobar el diseño.
 1. Haga clic en **[!UICONTROL Save]**.
 
@@ -73,7 +80,7 @@ Puede enviar un correo electrónico a los clientes y, a continuación, un SMS a 
 1. Personalice sus SMS con ofertas específicas para cada ubicación.
 Para obtener más información, consulte la sección [Diseño de un sms](../../channels/using/creating-an-sms-message.md).
 1. Haga clic en **[!UICONTROL Preview]** para comprobar el diseño.
-1. Haga clic en **[!UICONTROL Save]**.
+1. Haga clic **[!UICONTROL Save]**.
 
 ![](assets/wf-retargeting-non-openers.png)
 

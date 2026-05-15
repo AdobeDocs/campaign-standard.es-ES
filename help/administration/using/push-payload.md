@@ -1,15 +1,22 @@
 ---
-title: Explicación de la estructura de carga de notificaciones push de Campaign Standard
+title: Explicación de la estructura de carga útil de notificaciones push de Campaign Standard
 description: Obtenga información acerca de la estructura de la carga útil recibida en aplicaciones móviles
 audience: channels
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: a6515795-1006-4f27-bc44-5ae8b8edc018
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+TQID: https://experienceleague.adobe.com/KSJ-umygCpPr5pjkpiAcbHh-zb1HjK-vZJJLCXz3c5A
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1088'
-ht-degree: 3%
+source-wordcount: 1150
+ht-degree: 4%
 
 ---
 
@@ -19,7 +26,7 @@ Adobe Campaign permite enviar notificaciones push personalizadas y segmentadas e
 
 Cada notificación push recibida en una aplicación móvil lleva consigo información que la aplicación utiliza para mostrar la notificación push si se envía una notificación push de alerta. Es muy probable que también realice algún cálculo adicional, especialmente si se envía una notificación push silenciosa.
 
-El código de la aplicación móvil recibe esta información en un controlador de eventos que indica que se recibió una notificación push. Al enviar notificaciones push desde Adobe Campaign Standard, la información recibida en la aplicación móvil también puede contener información específica del Campaign Standard que puede utilizarse para aprovechar algunas funciones proporcionadas por Campaign Standard. Además, la carga útil puede contener datos personalizados que la aplicación móvil puede consumir.
+El código de la aplicación móvil recibe esta información en un controlador de eventos que indica que se recibió una notificación push. Al enviar notificaciones push desde Adobe Campaign Standard, la información recibida en la aplicación móvil también puede contener información específica de Campaign Standard que puede utilizarse para aprovechar algunas funciones proporcionadas por Campaign Standard. Además, la carga útil puede contener datos personalizados que la aplicación móvil puede consumir.
 
 Este documento describe la estructura de la carga útil recibida en una aplicación móvil cuando se envía correctamente una notificación push a una aplicación desde Adobe Campaign Standard.
 
@@ -209,11 +216,11 @@ Para comprender los aspectos de una carga útil de Android, consulte [Conceptos 
 | Añadir un vínculo profundo | uri | NA | Un vínculo profundo le permite llevar a los usuarios directamente al contenido ubicado dentro de la aplicación (en lugar de abrir una página del explorador web). |
 | Categoría | categoría | categoría | Para mostrar acciones personalizadas con una notificación remota. <br>La clave de categoría ayuda al sistema a mostrar las acciones de esa categoría como botones en la interfaz de alertas. |
 | Campos personalizados | custom_field1, custom_field2 ... | custom_field1, custom_field2 ... | Los datos personalizados que desee enviar a la aplicación. |
-| URL de contenido multimedia enriquecido (archivos de imagen, gif, audio y vídeo)<br>(solo aplicable para iOS 10 o superior) | media-attachment-url | NA | URL de los archivos multimedia para añadir contenido enriquecido a la notificación. <br>Al proporcionar un valor para esta dirección URL, el indicador de contenido mutable se envía automáticamente a la carga. <br> (solo aplicable a iOS 10 o superior) |
+| URL de contenido multimedia enriquecido (archivos de imagen, gif, audio y vídeo)<br>(solo aplicable para iOS 10 o superior) | media-attachment-url | NA | URL de los archivos multimedia para añadir contenido enriquecido a la notificación. <br>Al proporcionar un valor para esta dirección URL, el indicador de contenido mutable se envía automáticamente a la carga. <br> (Solo se aplica a iOS 10 o superior) |
 | Contenido mutable <br> (solo aplicable a iOS 10 o superior) | mutable-content | NA | La extensión del servicio de notificaciones en su aplicación &quot;interceptará&quot; todas las notificaciones remotas con la clave de contenido mutable y le permitirá gestionar/manipular el contenido de la carga útil de la solicitud, que luego se puede utilizar para personalizar la notificación. Algunos casos de uso de esta función son la descarga y visualización de varios medios, el descifrado de cualquier dato cifrado presente en la carga útil push. Encontrará más información en [Modificar la carga útil de una notificación remota](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). <br>(solo aplicable a iOS 10 o superior) |
 | Contenido disponible | content-available | NA | Al seleccionar esta opción, se activa la activación de una aplicación de iOS mientras está en segundo plano o suspendida. Cuando se activa, la aplicación se ejecuta en segundo plano y el controlador de eventos adecuado responsable de recibir la carga útil de datos de notificaciones push obtiene un control y puede utilizar los datos para realizar cualquier cálculo, incluido, entre otros, la creación de notificaciones push personalizadas y la visualización de las mismas. Encontrará más información en [Reactivar aplicación con entrega de notificación](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html). |
 | URL de contenido multimedia enriquecido (archivos de imagen)<br>(solo aplicable para Android) | NA | media-attachment-url | URL de los archivos de imagen para añadir contenido enriquecido a la notificación. |
-| NA | _mId<br>_dId | _mId <br>_dId | Valores de broadlogId y deliveryId.<br>Estos atributos son necesarios si su aplicación desea llamar a un postback de seguimiento para rastrear cuándo se hizo clic o se abrió la notificación push. El servidor de aplicaciones calcula y envía internamente esta información sin la intervención del usuario.<br>Encontrará información sobre los postbacks en esta [página](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback). |
+| NA | _mId<br>_dId | _mId <br>_dId | Valores de broadlogId y deliveryId.<br>Estos atributos son necesarios si la aplicación desea llamar a un postback de seguimiento para realizar un seguimiento de cuándo se hizo clic o se abrió la notificación push. El servidor de aplicaciones calcula y envía internamente esta información sin la intervención del usuario.<br>Encontrará información sobre los postbacks en esta [página](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback). |
 
 ### Cómo recuperar información de carga útil en el código de la aplicación móvil {#payload-information}
 

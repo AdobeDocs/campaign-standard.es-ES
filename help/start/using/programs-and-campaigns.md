@@ -9,9 +9,21 @@ feature: Campaigns
 role: User
 level: Beginner
 exl-id: 3f4f9307-c65f-47bb-bc92-ce8b5d06557f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/S8NBJyVZiLk2GtkOVPWAwgF37przd3kfL0J-d5rCT6o
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: 648
 ht-degree: 97%
 
 ---
@@ -20,12 +32,12 @@ ht-degree: 97%
 
 ## Acerca de los planes, programas y campañas {#about-plans--programs-and-campaigns}
 
-Adobe Campaign le permite planificar campañas de marketing en las que puede crear y administrar diferentes tipos de actividades: correos electrónicos, mensajes SMS, notificaciones push, flujos de trabajo o páginas de aterrizaje. Estas campañas y su contenido se pueden reunir en programas.
+Adobe Campaign le permite planificar campañas de marketing en las que puede crear y administrar diferentes tipos de actividades: correos electrónicos, mensajes SMS, notificaciones push, flujos de trabajo o páginas de destino. Estas campañas y su contenido se pueden reunir en programas.
 
 Los programas y campañas le permiten agrupar y ver las diferentes actividades de marketing que están vinculadas a ellos.
 
-* Un **programa** puede contener otros programas, así como campañas, flujos de trabajo y páginas de aterrizaje. Aparece en la línea de tiempo y le ayuda a organizar sus actividades de marketing: puede separarlos por país, marca, unidad, etc.
-* Una **campaña** le permite recopilar todas las actividades de marketing de su elección en una sola entidad. Una campaña puede contener correos electrónicos, SMS, notificaciones push, correos directos, flujos de trabajo y páginas de aterrizaje.
+* Un **programa** puede contener otros programas, así como campañas, flujos de trabajo y páginas de destino. Aparece en la cronología y le ayuda a organizar sus actividades de marketing: puede separarlos por país, marca, unidad, etc.
+* Una **campaña** le permite recopilar todas las actividades de marketing de su elección en una sola entidad. Una campaña puede contener correos electrónicos, SMS, notificaciones push, correos directos, flujos de trabajo y páginas de destino.
 
 Para organizar mejor sus planes de marketing, Adobe recomienda la siguiente jerarquía: Programa > Programas secundarios > Campañas > Flujos de trabajo > Envíos.
 
@@ -38,7 +50,7 @@ Los informes sobre programas y campañas le permiten analizar su impacto. Por ej
 
 ## Creación de un programa {#creating-a-program}
 
-El programa es el primer nivel de organización. Puede contener programas secundarios, campañas, flujos de trabajo o páginas de aterrizaje.
+El programa es el primer nivel de organización. Puede contener programas secundarios, campañas, flujos de trabajo o páginas de destino.
 
 1. En la página de inicio de Adobe Campaign, seleccione la tarjeta **[!UICONTROL Programs & Campaigns]**.
 1. Haga clic en el botón **[!UICONTROL Create]**.
@@ -58,7 +70,7 @@ El programa es el primer nivel de organización. Puede contener programas secund
 
 1. Haga clic en **[!UICONTROL Create]** para confirmar la creación del programa.
 
-El programa se crea y aparece. Utilice el botón **[!UICONTROL Create]** para añadir programas secundarios, campañas, flujos de trabajo o páginas de aterrizaje.
+El programa se crea y aparece. Utilice el botón **[!UICONTROL Create]** para añadir programas secundarios, campañas, flujos de trabajo o páginas de destino.
 
 >[!NOTE]
 >
@@ -66,7 +78,7 @@ El programa se crea y aparece. Utilice el botón **[!UICONTROL Create]** para a�
 
 ## Creación de una campaña {#creating-a-campaign}
 
-Puede añadir campañas en programas y programas secundarios. Las campañas pueden contener actividades de marketing como correos electrónicos, SMS, notificaciones push, flujos de trabajo y páginas de aterrizaje.
+Puede añadir campañas en programas y programas secundarios. Las campañas pueden contener actividades de marketing como correos electrónicos, SMS, notificaciones push, flujos de trabajo y páginas de destino.
 
 1. En la página de inicio de Adobe Campaign, seleccione la tarjeta **[!UICONTROL Programs & Campaigns]** y acceda a un programa o programa secundario.
 1. Haga clic en el botón **[!UICONTROL Create]** y seleccione **[!UICONTROL Campaign]**.

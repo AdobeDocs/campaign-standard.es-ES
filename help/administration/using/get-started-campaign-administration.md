@@ -6,10 +6,26 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 9676b5e8-4c34-4848-8616-235e0bac5d6b
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+TQID: https://experienceleague.adobe.com/FKO2q2Cn5rO8aKh0d88eaFi7p1Xa608fOmEZiCRazBc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: b4ecd69f-2adf-4219-bc47-c9cd9a53c118
+  - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 13%
+source-wordcount: 647
+ht-degree: 16%
 
 ---
 
@@ -19,14 +35,14 @@ ht-degree: 13%
 <tr><td><img src="assets/do-not-localize/icon_menu.svg" width="60px"><p><a href="#administration-menu">Menú Administración</a></p></td>
 <td><img src="assets/do-not-localize/icon_users.svg" width="60px"><p><a href="#users-security">Usuarios y seguridad</a></p></td>
 <td><img src="assets/do-not-localize/icon_channels.svg" width="60px"><p><a href="#channels-configuration">Configuración de canales</a></p></td>
-<td><img src="assets/do-not-localize/icon_settings.svg" width="60px"><p><a href="#application-settings">Configuración de aplicación</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_settings.svg" width="60px"><p><a href="#application-settings">Configuración de la aplicación</a></p></td></tr>
 </table>
 
-Como solución basada en la nube, Adobe Campaign ofrece a los administradores diferentes formas de configurar la aplicación. Aunque la configuración de la infraestructura la realiza el Adobe, los administradores funcionales pueden realizar diversas operaciones de configuración detalladas a continuación.
+Como solución basada en la nube, Adobe Campaign ofrece a los administradores diferentes formas de configurar la aplicación. Aunque la configuración de la infraestructura la realiza Adobe, los administradores funcionales pueden realizar diversas operaciones de configuración detalladas a continuación.
 
 >[!NOTE]
 >
->Si tiene preguntas o solicitudes acerca de cuestiones de implementación y configuración, póngase en contacto con su administrador de cuentas de Adobe.
+>Si tiene preguntas o solicitudes sobre implementación y cuestiones de configuración, póngase en contacto con su administrador de cuentas de Adobe.
 
 Tenga en cuenta que los usuarios administradores también pueden aprovechar el Panel de control de Campaign de Campaign para administrar la configuración y rastrear los usos de cada una de las instancias. Para obtener más información, consulte la [documentación dedicada](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es).
 
@@ -81,13 +97,13 @@ Más información:
 * [Configuración de canales de SMS](../../administration/using/configuring-sms-channel.md)
 * [Configuración de una aplicación móvil](../../administration/using/configuring-a-mobile-application.md)
 
-## Configuración de aplicación {#application-settings}
+## Configuración de la aplicación {#application-settings}
 
 <img src="assets/do-not-localize/icon_settings.svg" width="60px">
 
 Campaign Standard viene con diferentes elementos de aplicación que se pueden configurar para que coincidan con sus necesidades.
 
-Configure **cuentas externas**, que se usan para conectar Adobe Campaign a servidores externos. Acceda a asignaciones de destino de Campaign Standard y supervise su plataforma mediante **flujos de trabajo técnicos**.
+Configure **cuentas externas**, que se usan para conectar Adobe Campaign a servidores externos. Acceda a las asignaciones de destino de Campaign Standard y supervise su plataforma mediante **flujos de trabajo técnicos**.
 
 Defina una o varias **marcas** para su organización y configure el envío de **notificaciones en tiempo real** dentro de la aplicación en caso de que se produzcan actividades importantes del sistema.
 

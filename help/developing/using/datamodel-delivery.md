@@ -7,10 +7,17 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: aea3e72d-8e89-46c7-a796-bf856414c654
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+TQID: https://experienceleague.adobe.com/zFUpmYKXJPF3cW-KGjKpdG1rbt3lv-5hsCjVugdSLA0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 28%
+source-wordcount: 730
+ht-degree: 30%
 
 ---
 
@@ -20,7 +27,7 @@ ht-degree: 28%
 
 <table>
                <tr>
-                  <th>Nombre</th>
+                  <th>Name</th>
                   <th>Etiqueta</th>
                   <th>Tipo (longitud)</th>
                   <th>Valores de enumeración</th>
@@ -82,7 +89,7 @@ ht-degree: 28%
                <tr>
                   <td>personalización de marca (brandingBase)</td>
                   <td>Marca</td>
-                  <td>vincular </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -100,13 +107,13 @@ ht-degree: 28%
                <tr>
                   <td>campaign (campaignBase)</td>
                   <td>Campaña</td>
-                  <td>vincular </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>cmsAccount (extAccountAEMBase)</td>
                   <td>cuenta de Adobe Experience Manager</td>
-                  <td>vincular </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -148,7 +155,7 @@ ht-degree: 28%
                <tr>
                   <td>createdBy (userBase)</td>
                   <td>Creado por</td>
-                  <td>vincular </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -168,7 +175,7 @@ ht-degree: 28%
                <tr>
                   <td>deliveryProvider (extAccountBase)</td>
                   <td>Enrutamiento</td>
-                  <td>vincular </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -223,12 +230,12 @@ ht-degree: 28%
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
                   <td>Unidad geográfica</td>
-                  <td>vincular </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>hasAttachments</td>
-                  <td>Agregar archivos adjuntos</td>
+                  <td>Añadir archivos adjuntos</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
@@ -273,7 +280,7 @@ ht-degree: 28%
                </tr>
                <tr>
                   <td>iteraciones</td>
-                  <td>Envíos</td>
+                  <td>Entregas</td>
                   <td>colección </td>
                   <td> </td>
                </tr>
@@ -337,13 +344,13 @@ ht-degree: 28%
                <tr>
                   <td>asignación (deliveryMapping)</td>
                   <td>Asignación de destino</td>
-                  <td>vincular </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>maestro (deliveryBase)</td>
                   <td>Instancia maestra</td>
-                  <td>vincular </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -372,12 +379,12 @@ ht-degree: 28%
                <tr>
                   <td>modifiedBy (userBase)</td>
                   <td>Modificado por</td>
-                  <td>vincular </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>name</td>
-                  <td>Identificación</td>
+                  <td>Identidad</td>
                   <td>cadena (64)</td>
                   <td> </td>
                </tr>
@@ -390,13 +397,13 @@ ht-degree: 28%
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
                   <td>Entidades organizativas</td>
-                  <td>vincular </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>principal (deliveryBase)</td>
                   <td>Envío de página principal</td>
-                  <td>vincular </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -414,7 +421,7 @@ ht-degree: 28%
                <tr>
                   <td>program (programBase)</td>
                   <td>Programa</td>
-                  <td>vincular </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -514,7 +521,7 @@ ht-degree: 28%
                <tr>
                   <td>plantilla (deliveryTemplateSummary)</td>
                   <td>Plantilla de envíos</td>
-                  <td>vincular </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
@@ -556,13 +563,13 @@ ht-degree: 28%
                <tr>
                   <td>tipología (typologyBase)</td>
                   <td>Tipología</td>
-                  <td>vincular </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>flujo de trabajo (workflowBase)</td>
                   <td>Flujo de trabajo de direccionamiento</td>
-                  <td>vincular </td>
+                  <td>vínculo </td>
                   <td> </td>
                </tr>
                <tr>

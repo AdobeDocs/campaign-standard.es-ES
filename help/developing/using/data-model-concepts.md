@@ -9,9 +9,19 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 6e9e016a-473b-4a51-8bd6-c23c7b3d3610
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/jOKJ64oRWaLCf7C9V8ZTbrtSphd4cJrGLlyw0K4sFB8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: 251
 ht-degree: 79%
 
 ---
@@ -28,7 +38,7 @@ El menú **[!UICONTROL Administration]** > **[!UICONTROL Development]** , al que
 
 Los datos que usa Adobe Campaign se definen a través de diferentes recursos. Puede **enriquecer la plantilla de datos** proporcionada creando sus propios recursos personalizados, como tablas de productos o de compras.
 
-Los recursos integrados (como campañas, correos electrónicos o audiencias) no se pueden modificar. Sin embargo, los recursos personalizados se pueden ampliar para añadir nuevos campos.
+Los recursos integrados (como campañas, correos electrónicos o públicos) no se pueden modificar. Sin embargo, los recursos personalizados se pueden ampliar para añadir nuevos campos.
 
 Los campos de extensión se generan con un prefijo para que nunca entren en conflicto con los campos integrados.
 
