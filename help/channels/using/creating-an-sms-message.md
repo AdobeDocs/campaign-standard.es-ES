@@ -100,6 +100,6 @@ Una vez finalizado el envío, puede empezar a medir el impacto del mensaje con i
 
 Este vídeo muestra cómo crear un envío de SMS.
 
->[!VIDEO](https://video.tv.adobe.com/v/25265/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/328378/?captions=spa&quality=12)
 
 Hay disponibles [más vídeos de procedimientos para Campaign Standard aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).

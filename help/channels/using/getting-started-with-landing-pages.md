@@ -144,6 +144,6 @@ Para obtener más información sobre la publicación de la página de destino, c
 
 Este vídeo muestra cómo crear y editar una página de aterrizaje.
 
->[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36315?captions=spa&quality=12)
 
 Hay disponibles [más vídeos de procedimientos para Campaign Standard aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).

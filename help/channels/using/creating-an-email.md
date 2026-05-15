@@ -119,6 +119,6 @@ Puede crear un mensaje de correo electrónico a partir de una [campaña](../../s
 
 Este vídeo muestra cómo crear un correo electrónico.
 
->[!VIDEO](https://video.tv.adobe.com/v/23721?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/29750?captions=spa&quality=12)
 
 Hay disponibles [más vídeos de procedimientos para Campaign Standard aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).

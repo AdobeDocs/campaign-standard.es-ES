@@ -72,6 +72,6 @@ Una vez creado un servicio, puede empezar a promoverlo.
 
 Este vídeo muestra cómo crear un servicio y administrar sus suscripciones.
 
->[!VIDEO](https://video.tv.adobe.com/v/24673?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/328372?captions=spa&quality=12)
 
 Hay disponibles [más vídeos de procedimientos para Campaign Standard aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).

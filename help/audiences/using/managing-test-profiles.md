@@ -91,6 +91,6 @@ Para editar un perfil de prueba y consultar los datos vinculados a él o modific
 
 Este vídeo muestra cómo crear un perfil de prueba.
 
->[!VIDEO](https://video.tv.adobe.com/v/24094?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/328366?captions=spa&quality=12)
 
 Hay disponibles [más vídeos de procedimientos para Campaign Standard aquí](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es).

@@ -179,6 +179,6 @@ Cuando se trata de fragmentos, tenga en cuenta lo siguiente:
 
 Este vídeo ofrece información general sobre el Designer de correo electrónico.
 
->[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/330103?captions=spa&quality=12)
 
 Para empezar a usar el Designer de correo electrónico, vea este [conjunto de vídeos](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=es#GettingStarted) que explican la funcionalidad general del Designer de correo electrónico y cómo diseñar un correo electrónico desde cero o con plantillas
