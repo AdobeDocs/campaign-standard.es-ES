@@ -20,7 +20,7 @@ topic_v2:
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 1238
-ht-degree: 15%
+ht-degree: 18%
 
 ---
 
@@ -188,7 +188,7 @@ Utilice este componente para insertar vínculos a páginas de medios sociales en
 >[!CONTEXTUALHELP]
 >id="ac_edition_carousel"
 >title="Configuración de carrusel"
->abstract="Aprenda a insertar y configurar un carrusel en el contenido.Tenga en cuenta que el carrusel no funciona en todos los clientes de correo electrónico y que la imagen de reserva se muestra en caso de que no sea compatible."
+>abstract="Aprenda a insertar y configurar un carrusel en el contenido.Tenga en cuenta que el carrusel no funciona en todos los clientes de correo electrónico y que la imagen de reserva se mostrará en caso de que no sea compatible."
 
 1. Arrastre y suelte el componente **[!UICONTROL Carousel]** dentro de un componente de estructura.
 1. Examine para seleccionar imágenes del equipo.
