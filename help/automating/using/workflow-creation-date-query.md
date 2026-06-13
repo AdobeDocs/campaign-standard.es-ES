@@ -17,10 +17,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+source-git-commit: 2fe8bfb2bc8d0266bea52504feffb7b11f481b91
 workflow-type: tm+mt
-source-wordcount: 357
-ht-degree: 35%
+source-wordcount: 346
+ht-degree: 32%
 
 ---
 
@@ -55,7 +55,7 @@ Puede enviar una oferta por correo electrónico en el aniversario de la creació
 
 ### Recuperación de perfiles creados el mismo día que el día de ejecución {#retrieving-profiles-created-on-the-same-day}
 
-1. En **[!UICONTROL Profile]**, arrastre y suelte el campo **[!UICONTROL Created]**. y haga clic en **[!UICONTROL Advanced Mode]**.
+1. En **[!UICONTROL Profile]**, arrastre y suelte el campo **[!UICONTROL Created]**. Y haga clic en **[!UICONTROL Advanced Mode]**.
    ![](assets/advanced_mode.png)
 1. En **[!UICONTROL list of functions]**, haga doble clic en **[!UICONTROL Day]** desde el nodo **[!UICONTROL Date]**.
 1. A continuación, inserte el campo **[!UICONTROL Created]** como argumento.
@@ -67,28 +67,28 @@ Ha recuperado los perfiles cuyo día de creación es igual al día actual.
 
 Debería terminar con lo siguiente:
 
-```Day(@created) = Day(GetDate())```
+`Day(@created) = Day(GetDate())`
 
 ![](assets/day_creation_query.png)
 
-Haga clic **[!UICONTROL Confirm]**.
+Haga clic en **[!UICONTROL Confirm]**.
 
 ### Recuperación de perfiles creados en el mismo mes que el mes de ejecución{#retrieving-profiles-created-on-the-same-month}
 
 1. En el editor **[!UICONTROL Query]**, seleccione la primera consulta y duplíquela.
 1. Abra el duplicado.
 1. Reemplazar **[!UICONTROL Day]** por **[!UICONTROL Month]** en la consulta.
-1. Haga clic **[!UICONTROL Confirm]**.
+1. Haga clic en **[!UICONTROL Confirm]**.
 
 ![](assets/month_rule.png)
 
 Debería terminar con esto:
 
-``` Month(@created) = Month(GetDate()) ```
+`Month(@created) = Month(GetDate())`
 
 Se muestra la consulta final:
 
-```Day(@created) = Day(GetDate()) AND Month(@created) = Month(GetDate())```
+`Day(@created) = Day(GetDate()) AND Month(@created) = Month(GetDate())`
 
 ![](assets/expression_editor_1.png)
 
