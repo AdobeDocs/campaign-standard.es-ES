@@ -19,10 +19,10 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
 workflow-type: tm+mt
-source-wordcount: 629
-ht-degree: 100%
+source-wordcount: 624
+ht-degree: 95%
 
 ---
 
@@ -95,7 +95,7 @@ Obtenga asistencia consultando las preguntas frecuentes, las prácticas recomend
 
 ### ¿Qué es el Panel de control?
 
-El Panel de control le ayuda a aumentar la eficacia del trabajo como administrador de productos de Campaign Standard, lo que le permite administrar la configuración y rastrear los usos de cada una de sus instancias.
+El Panel de control de Campaign le ayuda a aumentar la eficacia de su trabajo como administrador de productos de Campaign Standard, lo que le permite administrar la configuración y rastrear los usos de cada una de sus instancias.
 [Haga clic aquí](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=es#discover-control-panel) para obtener más información.
 
 >[!NOTE]
@@ -108,7 +108,7 @@ El Panel de control está disponible directamente en Adobe Experience Cloud. [Ha
 
 ### Preguntas frecuentes sobre el Panel de control
 
-[Haga clic aquí ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=es) para acceder a las preguntas frecuentes sobre el Panel de control de Campaign.
+[Haga clic aquí &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=es) para acceder a las preguntas frecuentes sobre el Panel de control de Campaign.
 
 ### Administración de SFTP
 
@@ -139,3 +139,4 @@ La creación de un caso le permite ponerse en contacto con el equipo de Asistenc
 Para registrar un problema o iniciar una sesión de chat en el nuevo sistema, conéctese a [Adobe Admin Console](https://adminconsole.adobe.com/overview).
 
 Siga el procedimiento detallado descrito en [esta página](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+

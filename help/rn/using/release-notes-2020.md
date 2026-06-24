@@ -39,10 +39,10 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
 workflow-type: tm+mt
-source-wordcount: 5439
-ht-degree: 95%
+source-wordcount: 5380
+ht-degree: 94%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 95%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>Ahora puede utilizar <strong>Grupos de control</strong> para medir el impacto de sus campañas al excluir una parte de su público. A continuación, podrá comparar el comportamiento de la población de destinatarios que recibió el mensaje con el comportamiento de los contactos a los que no estaban destinados. En función de los registros de envío, también puede destinar un grupo de control en campañas futuras.
+  <td> <p>Ahora puede usar <strong>Grupos de control</strong> para medir el impacto de sus campañas al excluir una parte de su audiencia. A continuación, podrá comparar el comportamiento de la población de destinatarios que recibió el mensaje con el comportamiento de los contactos a los que no estaban destinados. En función de los registros de envío, también puede destinar un grupo de control en campañas futuras.
 </p>
 <p>Para obtener más información, consulte la <a href="../../sending/using/control-group.md">documentación detallada</a> y el <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html?lang=es">videotutorial</a>.
 </p>
@@ -81,7 +81,7 @@ ht-degree: 95%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>Adobe Campaign ahora admite OAuth para la autenticación en la actividad de flujo de trabajo de <strong>API externa</strong>. Esta nueva capacidad permite que esta actividad se comunique con sistemas que requieren soporte para OAuth.
+  <td> <p>Adobe Campaign ahora admite OAuth para la autenticación en la actividad de flujo de trabajo <strong>API externa</strong>. Esta nueva capacidad permite que esta actividad se comunique con sistemas que requieren soporte para OAuth.
 </p>
 <p>Para obtener más información, consulte la <a href="../../automating/using/external-api.md">documentación detallada</a>.
 </p>
@@ -515,3 +515,4 @@ ht-degree: 95%
 * Se ha corregido un problema que impedía que las direcciones se mostraran en la pantalla de registro de envío al enviar mensajes en la aplicación.
 * Se ha corregido un problema que impedía que los registros de envío de SMS se actualizaran con el número correcto de devoluciones. (CAMP-38395)
 * Se ha corregido una laguna que permitía que las llamadas posteriores a la suscripción de la aplicación actualizaran los tokens de notificaciones push. (CAMP-39273)
+

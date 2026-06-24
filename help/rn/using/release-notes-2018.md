@@ -33,9 +33,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
 workflow-type: tm+mt
-source-wordcount: 5477
+source-wordcount: 5217
 ht-degree: 8%
 
 ---
@@ -230,7 +230,7 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td> Extensión de registros de envío<br /> </td> 
-   <td> La extensión de registros de envío permite ampliar los registros de envío con datos de perfil y código de segmento procedentes de flujos de trabajo. Esta información se puede utilizar en los informes dinámicos y le permite mantener una instantánea de cierta información en el momento de la entrega de un envío.<br /> Hay 2 casos de uso más: <br /> 
+   <td> La extensión de registros de envío permite ampliar los registros de envío con datos de perfil y código de segmento procedentes de flujos de trabajo. Esta información se puede usar en los informes dinámicos y le permite mantener una instantánea de cierta información en el momento de la entrega de un envío.<br /> Hay dos casos de uso más: <br /> 
     <ul> 
      <li> Exportar registros extendidos con datos "congelados": como experto en marketing, me gustaría exportar todos los perfiles con un código de segmento igual a "A" (proveniente del motor de flujo de trabajo). </li> 
      <li> Segmentación en datos "inmovilizados": como experto en marketing, quisiera <strong>redireccionar</strong> todos los perfiles que hayan obtenido 1000 puntos de lealtad desde el último envío o cuyo código de segmento sea igual a "A". </li> 
@@ -249,7 +249,7 @@ ht-degree: 8%
 
 **Otros cambios**
 
-* La actividad de flujo de trabajo Leer audiencia ahora puede leer audiencias de Experience Cloud. Anteriormente, esta actividad solo podía leer audiencias de Consulta y Lista. Consulte la [documentación detallada](../../automating/using/read-audience.md). (CAMP-23623)
+* La actividad del flujo de trabajo Leer audiencia ahora puede leer audiencias de Experience Cloud. Anteriormente, esta actividad solo podía leer audiencias de Consulta y Lista. Consulte la [documentación detallada](../../automating/using/read-audience.md). (CAMP-23623)
 * El identificador de la fuente de datos compartida predeterminada ahora está en modo de solo lectura y ya no se puede cambiar. Si se cambia este identificador, podrían producirse algunos problemas al compartir audiencias con Experience Cloud.
 * La importación de audiencias desde el Gestor de colaboradores ahora funciona con archivos divididos. Anteriormente, el último archivo del segmento se importó mediante el flujo de trabajo técnico Importar audiencia compartida.
 * Las cuentas externas de AWS S3 ahora admiten regiones y el mecanismo de autenticación de la versión 4. Consulte la [documentación detallada](../../administration/using/external-accounts.md).
@@ -320,7 +320,7 @@ _Recursos personalizados_
  <tbody> 
   <tr> 
    <td> Reglamento General de Protección de Datos.<br /> </td> 
-   <td> El Reglamento General de Protección de Datos (RGPD) es la nueva normativa sobre privacidad de la Unión Europea que unifica y moderniza los requisitos de protección de datos y entrará en vigencia el 25 de mayo de 2018. El RGPD se aplica a los clientes de Adobe Campaign que albergan datos de sujetos de datos que residan en la UE.<br /> Además de las funciones de privacidad ya disponibles en Adobe Campaign (incluida la administración de consentimientos, la configuración de retención de datos y las funciones de usuario), aprovechamos esta oportunidad en nuestra función de procesador de datos para incluir funciones adicionales que le ayudarán a prepararse como controlador de datos para determinadas solicitudes de RGPD:<br /> 
+   <td> El RGPD es la nueva ley de privacidad de la Unión Europea (UE) que armoniza y moderniza los requisitos de protección de datos y entrará en vigencia el 25 de mayo de 2018. El RGPD se aplica a los clientes de Adobe Campaign que albergan datos de sujetos de datos que residan en la UE.<br /> Además de las funciones de privacidad ya disponibles en Adobe Campaign (incluida la administración de consentimiento, la configuración de retención de datos y las funciones de usuario), aprovechamos esta oportunidad en nuestra función de procesador de datos para incluir funciones adicionales que le ayudarán a prepararse como controlador de datos para determinadas solicitudes de RGPD:<br /> 
     <ul> 
      <li> Derecho de acceso: permite que el sujeto de datos reciba una copia de sus datos personales capturados por los controladores de datos, incluso los datos almacenados en Adobe Campaign. </li> 
      <li> Derecho a eliminación: autoriza al sujeto de datos a que sus datos personales recopilados por los controladores de datos se borren, lo que incluye datos almacenados en Adobe Campaign. </li> 
@@ -328,7 +328,7 @@ _Recursos personalizados_
   </tr> 
   <tr> 
    <td> Creative Designer para correo electrónico (Beta)<br /> </td> 
-   <td> El nuevo Creative Designer de Adobe Campaign ofrece una experiencia de creación totalmente integrada en Campaign, lo que permite crear correos electrónicos personalizados, cautivadores y personalizados de forma rápida y sencilla sin necesidad de crear una línea de código única. A través de su potente interfaz de arrastrar y soltar, Creative Designer ayuda a escalar la creación de correos electrónicos tanto si los usuarios comienzan desde una pizarra en blanco como si aprovechan los fragmentos de contenido o las plantillas existentes. <br /> Las funciones clave incluyen:<br /> 
+   <td> El nuevo Creative Designer de Adobe Campaign ofrece una experiencia de creación totalmente integrada en Campaign, lo que permite crear correos electrónicos personalizados, cautivadores y personalizados de forma rápida y sencilla sin necesidad de crear una línea de código única. A través de su potente interfaz de arrastrar y soltar, Creative Designer ayuda a escalar la creación de correos electrónicos tanto si los usuarios comienzan desde una pizarra en blanco como si aprovechan los fragmentos de contenido o las plantillas existentes. <br /> Las funcionalidades clave incluyen:<br /> 
     <ul> 
      <li> Diseñe y cree correos electrónicos adaptables y totalmente personalizados con una interfaz de arrastrar y soltar, aumentada por integraciones nativas de Creative Cloud </li> 
      <li> Cree y guarde una plantilla de contenido de correo electrónico, y aproveche las plantillas guardadas para escalar la creación de correo electrónico </li> 
@@ -423,7 +423,7 @@ _Mensajes transaccionales_
 
 _Plataforma_
 
-* La barra superior de la interfaz de Adobe Campaign se ha actualizado con el nuevo menú de Experience Cloud.
+* La barra superior de la interfaz de Adobe Campaign se ha actualizado con el nuevo menú Experience Cloud.
 * Se ha corregido un problema que impedía que se mostrara el vínculo a **[!UICONTROL Offers]** en la lista desplegable de soluciones.
 
 _Correos electrónicos, mensajes SMS y correo directo_
@@ -482,7 +482,7 @@ Pueden producirse algunos problemas al utilizar vínculos de ayuda contextual de
   </tr> 
   <tr> 
    <td> Insertar nuevas funciones<br /> </td> 
-   <td> Vista previa de mensajes push: previsualice las notificaciones push en dispositivos iOS y Android desde el editor de contenido de notificaciones push para ver exactamente lo que verán los destinatarios antes de probar o ejecutar el envío.<br /> Para obtener más información, consulte la <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">documentación detallada</a>.<br /> Contenido disponible: cuando una aplicación no se abre en mucho tiempo, sus datos pueden quedar obsoletos. Esto hace que los datos tengan que actualizarse o reemplazarse en el momento en que un usuario finalmente abre la aplicación, lo que puede causar retrasos en el uso de la aplicación. Con la compatibilidad añadida de Contenido disponible, los usuarios de Adobe Campaign pueden activar su aplicación para actualizar sus datos en segundo plano al enviar una notificación push, lo que permite una mayor coherencia y control sobre la experiencia en la aplicación de un usuario.<br /> Contenido mutable: con la ayuda de Contenido mutable, ahora los usuarios de Adobe Campaign pueden aprovechar las extensiones de su aplicación móvil para modificar aún más el contenido o la presentación de las notificaciones push entrantes enviadas desde Adobe Campaign. Por ejemplo, los usuarios pueden aprovechar el contenido mutable para: <br /> 
+   <td> Vista previa de mensajes push: obtenga una vista previa de las notificaciones push en dispositivos iOS y Android desde el editor de contenido de notificaciones push para ver exactamente lo que verán los destinatarios antes de probar o ejecutar el envío.<br /> Para obtener más información, consulte la <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">documentación detallada</a>.<br /> Contenido disponible: cuando una aplicación no se abre en mucho tiempo, sus datos pueden quedar obsoletos. Esto hace que los datos tengan que actualizarse o reemplazarse en el momento en que un usuario finalmente abre la aplicación, lo que puede causar retrasos en el uso de la aplicación. Con la compatibilidad añadida de Contenido disponible, los usuarios de Adobe Campaign pueden activar su aplicación para actualizar sus datos en segundo plano al enviar una notificación push, lo que permite una mayor coherencia y control sobre la experiencia en la aplicación de un usuario.<br /> Contenido mutable: con la compatibilidad añadida de Contenido mutable, los usuarios de Adobe Campaign ahora pueden aprovechar las extensiones de su aplicación móvil para modificar aún más el contenido o la presentación de las notificaciones push entrantes enviadas desde Adobe Campaign. Por ejemplo, los usuarios pueden aprovechar el contenido mutable para: <br /> 
     <ul> 
      <li> descifrar datos que se han entregado en formato cifrado </li> 
      <li> descargar imágenes u otros archivos multimedia y añadirlos como archivos adjuntos a una notificación </li> 
@@ -542,3 +542,4 @@ _Perfiles y audiencias_
 * Se ha añadido información de objeto que muestra el número de resultado exacto después de contar la población de una consulta.
 * Se ha corregido un problema que podía impedir que un usuario seleccionara una audiencia o cerrara la ventana del selector de audiencias.
 * Se ha actualizado la lista de funciones disponibles en el editor de expresiones. Se han quitado las funciones **FormatCurrency** y **ConvertCurrency**.
+

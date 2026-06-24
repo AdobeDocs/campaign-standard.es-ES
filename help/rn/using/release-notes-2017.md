@@ -33,9 +33,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
 workflow-type: tm+mt
-source-wordcount: 4623
+source-wordcount: 4540
 ht-degree: 8%
 
 ---
@@ -219,7 +219,7 @@ _Perfiles y audiencias_
   </tr> 
   <tr> 
    <td> ID declarado cifrado en orígenes de datos <br /> </td> 
-   <td> Envíe déclencheur de correo electrónico y SMS sin necesidad de un perfil existente en Campaign mediante el uso de información de contacto cifrada (dirección de correo electrónico o número de teléfono) como ID declarado. Dado que los ID declarados cifrados se pueden descodificar mediante Adobe Campaign Standard, Campaign ahora puede crear nuevos perfiles comercializables al recibir audiencias de otras soluciones de Experience Cloud que contengan contactos anteriormente desconocidos.<br /> Segmente a clientes y clientes potenciales desconocidos en tiempo real mediante correo electrónico y SMS para mejorar la lealtad en su base de clientes existente y adquirir nuevos clientes, respectivamente. Saque el máximo partido a los datos de cookies de origen (de Adobe Audience Manager*) una vez que los posibles clientes se autentifiquen y aprovechen esas perspectivas en Adobe Campaign. <br /> *Se requiere Adobe Audience Manager. Para obtener más información, consulte la <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">documentación detallada</a>.<br /> </td> 
+   <td> Envíe déclencheur de correo electrónico y SMS sin necesidad de un perfil existente en Campaign mediante el uso de información de contacto cifrada (dirección de correo electrónico o número de teléfono) como ID declarado. Dado que Adobe Campaign Standard puede descodificar los ID declarados cifrados, Campaign ahora puede crear nuevos perfiles comercializables al recibir audiencias de otras soluciones de Experience Cloud que contengan contactos anteriormente desconocidos.<br /> Segmente a clientes y clientes potenciales desconocidos en tiempo real mediante correo electrónico y SMS para mejorar la lealtad en su base de clientes existente y adquirir nuevos clientes, respectivamente. Saque el máximo partido a los datos de cookies de origen (de Adobe Audience Manager*) una vez que los posibles clientes se autentifiquen y aprovechen esas perspectivas en Adobe Campaign. <br /> *Se requiere Adobe Audience Manager. Para obtener más información, consulte la <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Uso compartido de KPI de Campaign a Analytics<br /> </td> 
@@ -442,7 +442,7 @@ _Notificaciones push_
   </tr> 
   <tr> 
    <td> Flujos de trabajo: nueva actividad de señal <br /> </td> 
-   <td> Almacene en déclencheur un flujo de trabajo de otro flujo de trabajo con la nueva actividad <span class="uicontrol">Signal</span>.<br /> Con la capacidad de iniciar un flujo de trabajo desde otro, ahora puede satisfacer recorridos de clientes más complejos. Puede supervisar mejor los recorridos de los clientes y reaccionar en caso de que haya problemas.<br /> Se han actualizado varias actividades de flujo de trabajo: <br /> 
+   <td> Almacene en déclencheur un flujo de trabajo de otro flujo de trabajo con la nueva actividad <span class="uicontrol">Signal</span>.<br /> Con la capacidad de iniciar un flujo de trabajo de otro, ahora puede admitir recorridos de cliente más complejos. Puede supervisar mejor los recorridos de los clientes y reaccionar en caso de que haya problemas.<br /> Se han actualizado varias actividades de flujo de trabajo:<br /> 
     <ul> 
      <li> Actividad <span class="uicontrol">End</span>: una nueva pestaña le permite especificar un flujo de trabajo para almacenar en déclencheur después de ejecutar esta actividad. </li> 
      <li> Actividad <span class="uicontrol">Actualizar datos</span>: use la nueva transición saliente vacía para agregar una actividad <strong>End</strong> que ponga en déclencheur otro flujo de trabajo. Las transiciones salientes vacías no transmiten datos ni consumen espacio innecesario en el sistema </li> 
@@ -559,3 +559,4 @@ _Integraciones_
 * Se ha corregido un problema que podría haber provocado un error al implementar un déclencheur de eventos en Adobe Campaign. Este error se producía cuando se habían agregado los metadatos &quot;Probabilidad de retorno en 30 días&quot; al déclencheur de abandono en Adobe Marketing Cloud.
 * Se ha corregido un problema que podía hacer que el flujo de trabajo técnico borrara el campo Target Dimension al importar audiencias desde el servicio principal Personas. Las consultas posteriores no pudieron recuperar las audiencias importadas.
 * Se ha corregido un problema que podría haber causado un error en la actividad **[!UICONTROL Save audience]** de un flujo de trabajo al marcar la opción **[!UICONTROL Share in Adobe Marketing Cloud]**.
+

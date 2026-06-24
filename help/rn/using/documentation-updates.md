@@ -6,8 +6,8 @@ role: User
 level: Beginner
 hide: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 7ad12890a24b2c0b8730d09b7d161bff511f4c69
-workflow-type: ht
+source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+workflow-type: tm+mt
 source-wordcount: '7629'
 ht-degree: 100%
 
@@ -1121,3 +1121,4 @@ Cambio de URL: Servicio principal de recursos: [Más información](../../integra
 Cambio de URL: Servicio principal People: [Más información](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
 Se ha reorganizado la guía Perfiles y públicos. [Más información](../../audiences/using/get-started-profiles-and-audiences.md)
+

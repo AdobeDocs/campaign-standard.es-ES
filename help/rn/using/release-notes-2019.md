@@ -25,7 +25,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
 workflow-type: tm+mt
 source-wordcount: 7892
 ht-degree: 10%
@@ -503,7 +503,7 @@ Se han añadido varias mejoras al canal de mensajería transaccional para optimi
 
 **Otros cambios**
 
-* Adobe Campaign y Adobe Experience Cloud dejarán de ofrecer asistencia para Microsoft Internet Explorer 11 a partir de la primavera de 2019 y para la versión 19.2 de Campaign Standard. Cambie a Microsoft Edge u otro explorador compatible. Ver [página Funciones obsoletas y eliminadas](../../rn/using/deprecated-features.md).
+* Adobe Campaign y Adobe Experience Cloud dejarán de ser compatibles con Microsoft Internet Explorer 11 a partir de la primavera de 2019 y con la versión 19.2 de Campaign Standard. Cambie a Microsoft Edge u otro explorador compatible. Ver [página Funciones obsoletas y eliminadas](../../rn/using/deprecated-features.md).
 * Se cambió el nombre del campo **Código de país** del recurso de perfil a **Código de país o región**.
 
 **Parches**
@@ -633,3 +633,4 @@ Se han añadido varias mejoras al canal de mensajería transaccional para optimi
 * El rendimiento de envío se ha mejorado y estabilizado para los mensajes SMS.
 * Se ha corregido un problema que impedía que el carácter &quot;~&quot; se usara en un mensaje SMS. (CAMP-29172)
 * Se ha corregido un problema en los envíos con la opción Send time optimization. (CAMP-29231)
+
