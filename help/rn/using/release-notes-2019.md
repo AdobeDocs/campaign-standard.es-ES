@@ -6,26 +6,13 @@ role: User
 level: Beginner
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
 TQID: https://experienceleague.adobe.com/Os1EM221DXk1yVqd-md5iTlvK623LzFiqg5Ag7N2tTw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-subfeature_v2:
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
 workflow-type: tm+mt
 source-wordcount: 7892
 ht-degree: 10%
@@ -53,7 +40,7 @@ ht-degree: 10%
     <li><p>Al crear una solicitud de privacidad, se ha agregado el tipo de regulación (RGPD o CCPA) en el servicio principal de privacidad. Este método es el que debe utilizar para todas las solicitudes de acceso y eliminación. El uso de la API y la interfaz de Campaign para las solicitudes de acceso y eliminación quedará obsoleto.  Consulte el artículo <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=es#release-notes">Funciones obsoletas y eliminadas</a>.</p></li>
     <li>Se ha agregado un campo de exclusión de <strong>CCPA</strong> al recurso Perfiles para permitir que los usuarios de Adobe Campaign rastreen si un consumidor se ha excluido de la venta de Información personal. <a href="https://helpx.adobe.com/es/content/help/es-ES/campaign/kb/acs-privacy.html#ccpa">Más información</a>.</li>
   </ul>
-    <p>Consulte el vídeo de <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html?lang=es">procedimiento</a>.</p>
+    <p>Consulte el vídeo de <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">procedimiento</a>.</p>
 </td> 
   </tr> 
  </tbody> 
@@ -174,11 +161,11 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td> Actividad de API externa (Beta público)<br /> </td> 
-   <td> <p>Para una personalización más detallada, la actividad de API externa permite introducir datos de sistemas externos en un flujo de trabajo mediante una llamada de API de REST. Los extremos de REST pueden ser un sistema de administración de clientes, un extremo de REST de Adobe I/O Runtime o Adobe Experience Cloud (por ejemplo, Data Platform, Target, Analytics, Campaign).</p><p>Esta funcionalidad se encuentra actualmente en versión de beta pública.</p><p>Para obtener más información, consulte la <a href="../../automating/using/external-api.md">documentación detallada</a> y el <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html?lang=es">videotutorial</a>.</p></td> 
+   <td> <p>Para una personalización más detallada, la actividad de API externa permite introducir datos de sistemas externos en un flujo de trabajo mediante una llamada de API de REST. Los extremos de REST pueden ser un sistema de administración de clientes, un extremo de REST de Adobe I/O Runtime o Adobe Experience Cloud (por ejemplo, Data Platform, Target, Analytics, Campaign).</p><p>Esta funcionalidad se encuentra actualmente en versión de beta pública.</p><p>Para obtener más información, consulte la <a href="../../automating/using/external-api.md">documentación detallada</a> y el <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">videotutorial</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Informe sobre el segmento de flujo de trabajo <br /> </td> 
-   <td> <p>Esta función permite a los especialistas en marketing desglosar el rendimiento de entrega por código de segmento. Cuando crea un flujo de trabajo y utiliza una actividad de segmentación para asignar segmentos a la población de entrega, estos segmentos ahora pueden entrar en el mismo envío. Esto le permite mostrar las estadísticas de aperturas/clics basadas en varios segmentos dentro de un envío.</p><p>Para obtener más información, consulte la <a href="../../reporting/using/creating-a-report-workflow-segment.md">documentación detallada</a> y el <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html?lang=es">videotutorial</a>.</p></td>
+   <td> <p>Esta función permite a los especialistas en marketing desglosar el rendimiento de entrega por código de segmento. Cuando crea un flujo de trabajo y utiliza una actividad de segmentación para asignar segmentos a la población de entrega, estos segmentos ahora pueden entrar en el mismo envío. Esto le permite mostrar las estadísticas de aperturas/clics basadas en varios segmentos dentro de un envío.</p><p>Para obtener más información, consulte la <a href="../../reporting/using/creating-a-report-workflow-segment.md">documentación detallada</a> y el <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">videotutorial</a>.</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -327,7 +314,7 @@ Se ha introducido una serie de mejoras y correcciones para optimizar los fragmen
   </tr> 
   <tr> 
    <td> Mejora del flujo de trabajo: Agregue una carga útil a la actividad de señal externa <br /> </td> 
-   <td> <p>Inicie un flujo de trabajo con una carga útil cuando las condiciones definidas se cumplan correctamente con otro flujo de trabajo o una llamada de API REST para integrarlos con los sistemas externos. Esto también incluye una nueva actividad <strong>test</strong> en la que puede ejecutar pruebas en esta funcionalidad.</p><p>Para obtener más información, consulte la <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">documentación detallada</a> y el <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html?lang=es">videotutorial</a>.</p></td> 
+   <td> <p>Inicie un flujo de trabajo con una carga útil cuando las condiciones definidas se cumplan correctamente con otro flujo de trabajo o una llamada de API REST para integrarlos con los sistemas externos. Esto también incluye una nueva actividad <strong>test</strong> en la que puede ejecutar pruebas en esta funcionalidad.</p><p>Para obtener más información, consulte la <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">documentación detallada</a> y el <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html">videotutorial</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Mejora de las páginas de aterrizaje: Google reCAPTCHA<br /> </td> 
@@ -445,7 +432,7 @@ Se han añadido varias mejoras al canal de mensajería transaccional para optimi
   </tr> 
   <tr> 
    <td> Mensajería en la aplicación móvil<br /> </td> 
-   <td> <p>Esta versión contiene la versión GA del canal In-App en Campaign. Desde el punto de vista funcional, las adiciones más importantes a la versión de Beta son los informes dinámicos para el canal In-App y el protocolo de enlace seguro entre Mobile SDK y MCIAS (servicio de mensajería In-App de Marketing Cloud que sirve para las reglas In-App para SDK). Un protocolo de enlace seguro garantiza que los datos PII de los usuarios no caigan en manos malintencionadas, y permite mantener la privacidad de los usuarios en un dispositivo compartido al borrar la caché de mensajes cada vez que el usuario cierra la sesión.</p><p>Para obtener más información, consulte la <a href="../../channels/using/about-in-app-messaging.md">documentación detallada</a> y el <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html?lang=es">tutorial en la aplicación</a>.</p> </td> 
+   <td> <p>Esta versión contiene la versión GA del canal In-App en Campaign. Desde el punto de vista funcional, las adiciones más importantes a la versión de Beta son los informes dinámicos para el canal In-App y el protocolo de enlace seguro entre Mobile SDK y MCIAS (servicio de mensajería In-App de Marketing Cloud que sirve para las reglas In-App para SDK). Un protocolo de enlace seguro garantiza que los datos PII de los usuarios no caigan en manos malintencionadas, y permite mantener la privacidad de los usuarios en un dispositivo compartido al borrar la caché de mensajes cada vez que el usuario cierra la sesión.</p><p>Para obtener más información, consulte la <a href="../../channels/using/about-in-app-messaging.md">documentación detallada</a> y el <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html">tutorial en la aplicación</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Mejoras en el flujo de trabajo <br /> </td> 
@@ -503,7 +490,7 @@ Se han añadido varias mejoras al canal de mensajería transaccional para optimi
 
 **Otros cambios**
 
-* Adobe Campaign y Adobe Experience Cloud dejarán de ofrecer asistencia para Microsoft Internet Explorer 11 a partir de la primavera de 2019 y para la versión 19.2 de Campaign Standard. Cambie a Microsoft Edge u otro explorador compatible. Ver [página Funciones obsoletas y eliminadas](../../rn/using/deprecated-features.md).
+* Adobe Campaign y Adobe Experience Cloud dejarán de ser compatibles con Microsoft Internet Explorer 11 a partir de la primavera de 2019 y con la versión 19.2 de Campaign Standard. Cambie a Microsoft Edge u otro explorador compatible. Ver [página Funciones obsoletas y eliminadas](../../rn/using/deprecated-features.md).
 * Se cambió el nombre del campo **Código de país** del recurso de perfil a **Código de país o región**.
 
 **Parches**
@@ -550,11 +537,11 @@ Se han añadido varias mejoras al canal de mensajería transaccional para optimi
      <li> La capacidad de <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">recuperar contenido de una dirección URL automáticamente al momento de la preparación</a> </li> 
      <li> <a href="../../designing/using/using-reusable-content.md#content-templates">plantillas de contenido predeterminadas</a> totalmente compatibles. </li> 
     </ul> 
-    <p>Para obtener más información, consulte la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentación detallada</a> y el <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=es">videotutorial</a>. A continuación se enumeran las mejoras y correcciones.</p><p>Como consecuencia, el antiguo editor de contenido se considera ya obsoleto. Para obtener más información, consulte esta <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=es#release-notes">página</a>.</p> </td> 
+    <p>Para obtener más información, consulte la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentación detallada</a> y el <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">videotutorial</a>. A continuación se enumeran las mejoras y correcciones.</p><p>Como consecuencia, el antiguo editor de contenido se considera ya obsoleto. Para obtener más información, consulte esta <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=es#release-notes">página</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Listados de productos en correos electrónicos de transacción<br /> </td> 
-   <td> <p>Ahora puede hacer referencia a una o más colecciones de productos en un mensaje de correo electrónico transaccional. Por ejemplo, puede enviar automáticamente un correo electrónico de abandono de carrito que enumere todos los productos que había en el carrito del usuario, incluyéndose una imagen, un precio y un vínculo a cada uno de los productos.</p><p>Para obtener más información, consulte la <a href="../../designing/using/using-product-listings.md">documentación detallada</a> y el <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html?lang=es">videotutorial</a>.</p> </td> 
+   <td> <p>Ahora puede hacer referencia a una o más colecciones de productos en un mensaje de correo electrónico transaccional. Por ejemplo, puede enviar automáticamente un correo electrónico de abandono de carrito que enumere todos los productos que había en el carrito del usuario, incluyéndose una imagen, un precio y un vínculo a cada uno de los productos.</p><p>Para obtener más información, consulte la <a href="../../designing/using/using-product-listings.md">documentación detallada</a> y el <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">videotutorial</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Vista móvil en el correo electrónico Designer<br /> </td> 
@@ -633,3 +620,4 @@ Se han añadido varias mejoras al canal de mensajería transaccional para optimi
 * El rendimiento de envío se ha mejorado y estabilizado para los mensajes SMS.
 * Se ha corregido un problema que impedía que el carácter &quot;~&quot; se usara en un mensaje SMS. (CAMP-29172)
 * Se ha corregido un problema en los envíos con la opción Send time optimization. (CAMP-29231)
+
