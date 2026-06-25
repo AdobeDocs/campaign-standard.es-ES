@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: b023e07c337e3352b8d1e26254ce342e0d560a27
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1596'
 ht-degree: 89%
 
 ---
@@ -55,15 +55,15 @@ Si desea utilizar el protocolo SMPP, también puede crear una nueva cuenta exter
 
 1. Defina los parámetros **[!UICONTROL Throughput and timeouts]**.
 
-   Puede especificar el rendimiento máximo de los mensajes salientes (“MT”, móvil finalizado) en MT por segundo. Si introduce &quot;0&quot; en el campo correspondiente, el rendimiento es ilimitado.
+   Puede especificar el rendimiento máximo de los mensajes salientes (“MT”, móvil terminado) en MT por segundo. Si introduce &quot;0&quot; en el campo correspondiente, el rendimiento es ilimitado.
 
    Los valores de todos los campos correspondientes a las duraciones deben rellenarse en segundos.
 
 1. Defina los parámetros específicos de SMS-C en caso de que deba definir una asignación de codificación específica. Para obtener más información, consulte la sección [Detalles de SMSC](#smsc-specifics).
 
-   Active la opción **[!UICONTROL Send full phone number (send characters other than digits)]** si no desea respetar el protocolo SMPP y transferir el prefijo **[!UICONTROL +]** al servidor del proveedor de SMS (SMS-C).
+   Habilite la opción **[!UICONTROL Send full phone number (send characters other than digits)]** si no desea respetar el protocolo SMPP y transferir el prefijo **[!UICONTROL +]** al servidor del proveedor de SMS (SMS-C).
 
-   Sin embargo, dado que determinados proveedores requieren el uso del prefijo **[!UICONTROL +]**. se recomienda que se ponga en contacto con su proveedor y que este le recomiende si es necesario activar esta opción.
+   Sin embargo, dado que determinados proveedores requieren el uso del prefijo **[!UICONTROL +]**. se recomienda que se ponga en contacto con su proveedor y que este le recomiende si es necesario habilitar esta opción.
 
 1. Si es necesario, defina respuestas automáticas para activar acciones en función del contenido de una respuesta. Para obtener más información, consulte [esta sección](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 1. Guarde la configuración de la cuenta externa de enrutamiento SMS.
@@ -80,7 +80,7 @@ Los mensajes SMS con codificación GSM están limitados a 160 caracteres, o a 15
 
 >[!NOTE]
 >
->Algunos caracteres cuentan como dos (llaves, corchetes, símbolo del euro, etc.). La lista de los caracteres GSM disponibles se incluye en la sección [Tabla de caracteres: Estándar GSM](#table-of-characters---gsm-standard).
+>Algunos caracteres cuentan como dos (llaves, corchetes, símbolo del euro, etc.). La lista de los caracteres GSM disponibles se incluye en la sección [Tabla de caracteres: Estándar GSM](#table-of-characters-gsm-standard).
 
 Si lo desea, puede autorizar la transliteración de caracteres marcando el cuadro correspondiente.
 
@@ -88,7 +88,7 @@ Si lo desea, puede autorizar la transliteración de caracteres marcando el cuadr
 
 La transliteración consiste en reemplazar un carácter de un SMS por otro cuando el estándar GSM no tiene en cuenta dicho carácter.
 
-* Si la transliteración es **authorized**, cada carácter que no se tiene en cuenta se sustituye por un carácter GSM cuando se envía el mensaje. Por ejemplo, la letra “ë” se sustituye por “e”. Por lo tanto, el mensaje se altera ligeramente, pero el límite de caracteres se mantiene.
+* Si la transliteración es **authorized**, cada carácter que no se tiene en cuenta se sustituye por un carácter GSM cuando se envía el mensaje. Por ejemplo, la letra &quot;ë&quot; se sustituye por &quot;e&quot;. Por lo tanto, el mensaje se altera ligeramente, pero el límite de caracteres se mantiene.
 * Cuando la transliteración es **not authorized**, cada mensaje que contiene caracteres que no se tienen en cuenta se envía en formato binario (Unicode): todos los caracteres se envían tal cual. Sin embargo, los mensajes SMS con Unicode están limitados a 70 caracteres (o 67 caracteres por SMS en el caso de los mensajes enviados en varias partes). Si se supera el número máximo de caracteres, se envían varios mensajes, lo que puede suponer costes adicionales.
 
 >[!IMPORTANT]
@@ -97,9 +97,9 @@ La transliteración consiste en reemplazar un carácter de un SMS por otro cuand
 
 De forma predeterminada, la transliteración de caracteres está desactivada. Si desea que todos los caracteres de los mensajes SMS se mantengan tal cual, para, por ejemplo, no modificar los nombres propios, es recomendable que no habilite esta opción.
 
-Sin embargo, si los mensajes SMS contienen muchos caracteres que generan mensajes Unicode, puede optar por activar esta opción para limitar los costes de envío de mensajes.
+Sin embargo, si los mensajes SMS contienen muchos caracteres que generan mensajes Unicode, puede optar por habilitar esta opción para limitar los costes de envío de mensajes.
 
-### Tabla de caracteres: Estándar GSM {#table-of-characters---gsm-standard}
+### Tabla de caracteres: Estándar GSM {#table-of-characters-gsm-standard}
 
 Esta sección incluye los caracteres que tiene cuenta el estándar GSM. Todos los caracteres insertados en el cuerpo del mensaje que no sean los mencionados abajo convierten todo el mensaje a formato binario (Unicode) y lo limitan a 70 caracteres. Para obtener más información sobre esto, consulte la sección [Codificación, longitud y transliteración de SMS](#sms-encoding--length-and-transliteration).
 

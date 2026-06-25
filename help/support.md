@@ -8,21 +8,15 @@ role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
 TQID: https://experienceleague.adobe.com/apHTVXi6iRZ0s-yydKzBcOxJTNWo1oYZmGkHKqyCMhw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
-source-wordcount: 624
-ht-degree: 95%
+source-wordcount: 636
+ht-degree: 98%
 
 ---
 
@@ -42,7 +36,7 @@ Obtenga asistencia consultando las preguntas frecuentes, las prácticas recomend
 
 ## Problemas frecuentes y prácticas recomendadas
 
-<img src="start/using/assets/do-not-localize/icon-faq.svg" width="60px">
+![icono de preguntas más frecuentes](start/using/assets/do-not-localize/icon-faq.svg){width="60px"}
 
 <table>
     <tr><td><strong>Preguntas y respuestas sobre temas</strong></td><td><strong>Problemas comunes</strong></td><td><strong>Prácticas recomendadas</strong></td><td><strong>Instrucciones</strong></td></tr>
@@ -91,11 +85,12 @@ Obtenga asistencia consultando las preguntas frecuentes, las prácticas recomend
 
 ## Panel de control de Campaign
 
-<img src="start/using/assets/do-not-localize/icon-control-panel.svg" width="60px">
+![icono del panel de control](start/using/assets/do-not-localize/icon-control-panel.svg){width="60px"}
 
 ### ¿Qué es el Panel de control?
 
-El Panel de control de Campaign le ayuda a aumentar la eficacia de su trabajo como administrador de productos de Campaign Standard, lo que le permite administrar la configuración y rastrear los usos de cada una de sus instancias.
+El Panel de control le ayuda a aumentar la eficacia del trabajo como administrador de productos de Campaign Standard, lo que le permite administrar la configuración y rastrear los usos de cada una de sus instancias.
+
 [Haga clic aquí](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=es#discover-control-panel) para obtener más información.
 
 >[!NOTE]
@@ -108,7 +103,7 @@ El Panel de control está disponible directamente en Adobe Experience Cloud. [Ha
 
 ### Preguntas frecuentes sobre el Panel de control
 
-[Haga clic aquí &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=es) para acceder a las preguntas frecuentes sobre el Panel de control de Campaign.
+[Haga clic aquí ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=es) para acceder a las preguntas frecuentes sobre el Panel de control de Campaign.
 
 ### Administración de SFTP
 
@@ -124,13 +119,13 @@ Puede monitorizar los subdominios y sus certificados. Más información:
 
 ## Solicitud de ayuda
 
-<img src="start/using/assets/do-not-localize/icon-support.svg" width="60px">
+![icono de asistencia](start/using/assets/do-not-localize/icon-support.svg){width="60px"}
 
 El nuevo sistema de tickets se ha utilizado a través de [Adobe Admin Console](https://adminconsole.adobe.com/overview). Este nuevo sistema requiere nuevas cuentas individuales para cada usuario con los permisos correctos. Si no puede iniciar sesión con su Adobe ID, solicite acceso a través de Experience League y el equipo de Servicio de atención al cliente le ayudará lo antes posible. [Más información](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 
 ### ¡Consulte a los expertos!
 
-Únase a la comunidad de Campaign: encuentre respuestas a preguntas existentes o formule una pregunta a la comunidad. [Únase a la conversación](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=es)
+Únase a la comunidad de Campaign: encuentre respuestas a preguntas existentes o formule una pregunta a la comunidad. [Únase a la conversación](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### Creación de un ticket o inicio de una conversación
 
@@ -139,4 +134,3 @@ La creación de un caso le permite ponerse en contacto con el equipo de Asistenc
 Para registrar un problema o iniciar una sesión de chat en el nuevo sistema, conéctese a [Adobe Admin Console](https://adminconsole.adobe.com/overview).
 
 Siga el procedimiento detallado descrito en [esta página](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
-
