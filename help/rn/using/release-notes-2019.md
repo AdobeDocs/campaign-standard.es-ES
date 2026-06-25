@@ -25,7 +25,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 7892
 ht-degree: 10%
@@ -34,7 +34,7 @@ ht-degree: 10%
 
 # Notas de la versión 2019{#release-notes-2019}
 
-## Versión 19.4: diciembre de 2019 {#release-19-4---october-2019}
+## Versión 19.4: diciembre de 2019 {#release-19-4-october-2019}
 
 **Novedades**
 
@@ -160,7 +160,7 @@ ht-degree: 10%
 * Se ha corregido un problema que podía dejar el estado de una entrega como &quot;Inicio pendiente&quot;, aunque la entrega había finalizado. (CAMP-35355)
 * Se ha corregido un problema que impedía que se mostraran los registros de flujo de trabajo después de habilitar y, a continuación, deshabilitar los registros SQL.
 
-## Versión 19.3: julio de 2019 {#release-19-3---july-2019}
+## Versión 19.3: julio de 2019 {#release-19-3-july-2019}
 
 **Novedades**
 
@@ -271,7 +271,7 @@ ht-degree: 10%
 * Se ha corregido un problema de seguridad que rompía el contenido del correo electrónico cuando el asunto contenía varias líneas.
 
 
-## Versión 19.2.7: julio de 2019 {#release-19-2-7---july-2019}
+## Versión 19.2.7: julio de 2019 {#release-19-2-7-july-2019}
 
 **Mejoras**
 
@@ -280,13 +280,13 @@ ht-degree: 10%
 * Se ha corregido un problema que podía impedir que los usuarios que no eran administradores guardaran o programaran informes. (CAMP-31133)
 * Se ha corregido un problema que se producía al usar &quot;|&quot; como separador de fechas en la actividad de flujo de trabajo Cargar archivo. (CAMP-34706)
 
-## Versión 19.2.4: junio de 2019 {#release-19-2-4---june-2019}
+## Versión 19.2.4: junio de 2019 {#release-19-2-4-june-2019}
 
 **Diseñador de correos electrónicos**
 
 * Se ha corregido un problema que impedía que los usuarios editaran fragmentos cuando se utilizaban etiquetas de estilo vacías en HTML. Esta es una corrección de seguimiento para CAMP-33778 en 19.2.3.
 
-## Versión 19.2.3: junio de 2019 {#release-19-2-3---june-2019}
+## Versión 19.2.3: junio de 2019 {#release-19-2-3-june-2019}
 
 **Diseñador de correos electrónicos**
 
@@ -305,7 +305,7 @@ Se ha introducido una serie de mejoras y correcciones para optimizar los fragmen
 * Se ha corregido un problema que impedía enriquecer el contenido de un mensaje transaccional con información del recurso Servicio. (CAMP-33707)
 * Se ha corregido un problema en las páginas de aterrizaje de lista de bloqueados de la que se producía al intentar cancelar la suscripción de perfiles de un servicio.
 
-## Versión 19.2: mayo de 2019 {#release-19-2---may-2019}
+## Versión 19.2: mayo de 2019 {#release-19-2-may-2019}
 
 **Novedades**
 
@@ -409,7 +409,7 @@ Se han añadido varias mejoras al canal de mensajería transaccional para optimi
 * Se ha corregido un problema que provocaba que el flujo de trabajo de la Capacidad de entrega se desactivara si no terminaba correctamente.
 * Se ha corregido un problema que podía impedir que los usuarios guardaran o programaran informes. (CAMP-31133)
 
-## Versión 19.1.3: marzo de 2019 {#release-19-1-3---march-2019}
+## Versión 19.1.3: marzo de 2019 {#release-19-1-3-march-2019}
 
 **Mejoras en el diseñador de correo electrónico**
 
@@ -423,7 +423,7 @@ Se han añadido varias mejoras al canal de mensajería transaccional para optimi
 * Se ha corregido un problema que impedía que se editaran las reglas de tipología. (CAMP-31750)
 * Se ha corregido un problema con el proceso de inMail que podía detenerse inesperadamente. (CAMP-31238)
 
-## Versión 19.1: febrero de 2019 {#release-19-1---february-2019}
+## Versión 19.1: febrero de 2019 {#release-19-1-february-2019}
 
 **Novedades**
 
@@ -529,7 +529,7 @@ Se han añadido varias mejoras al canal de mensajería transaccional para optimi
 * Se ha corregido un problema que provocaba discrepancias entre los perfiles segmentados al crear una entrega en la aplicación y los mostrados en el panel de entrega. (CAMP-28722)
 * Se ha corregido un problema con la integración de Campaign y el servicio principal de Assets que podía impedir la selección de un recurso compartido en un mensaje de correo electrónico.
 
-## Versión 19.0: enero de 2019 {#release-19-0---january-2019}
+## Versión 19.0: enero de 2019 {#release-19-0-january-2019}
 
 **Novedades**
 

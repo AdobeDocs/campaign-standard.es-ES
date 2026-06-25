@@ -33,7 +33,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 4540
 ht-degree: 8%
@@ -42,7 +42,7 @@ ht-degree: 8%
 
 # Notas de la versión 2017{#release-notes}
 
-## Versión 17.10: octubre de 2017 {#release-17-10---october-2017}
+## Versión 17.10: octubre de 2017 {#release-17-10-october-2017}
 
 **Nuevas funciones**
 
@@ -121,7 +121,7 @@ _Recursos personalizados_
 * Se ha corregido un problema que se producía en las pantallas de lista en las que las filas de recursos personalizadas se podían mostrar sin ningún dato.
 * Se ha corregido un problema que impedía que los campos de tipo booleano con valor &quot;False&quot; se mostraran en los recursos personalizados.
 
-## Versión 17.9: septiembre de 2017 {#release-17-9---september-2017}
+## Versión 17.9: septiembre de 2017 {#release-17-9-september-2017}
 
 **Nuevas funciones**
 
@@ -193,7 +193,7 @@ _Perfiles y audiencias_
 * Adobe Campaign ahora proporciona un informe que muestra el número de perfiles activos. Este informe es solo informativo, no tiene un impacto directo en la facturación. Para obtener más información, consulte la [documentación detallada](../../audiences/using/active-profiles.md).
 * Se ha corregido un problema que impedía que los perfiles se suscribieran a un servicio al usar la API de perfiles y servicios.
 
-## Versión 17.7: julio de 2017 {#release-17-7---july-2017}
+## Versión 17.7: julio de 2017 {#release-17-7-july-2017}
 
 **Nuevas funciones**
 
@@ -269,7 +269,7 @@ _Flujos de trabajo_
 * Se ha corregido un problema que impedía establecer una transición saliente en el asistente de creación de envíos recurrentes.
 * Se ha corregido un problema que se producía al utilizar una actividad de consulta de flujo de trabajo basada en un campo de recurso personalizado con una enumeración que tenía muchos valores
 
-## Versión 17.5: mayo de 2017 {#release-17-5---may-2017}
+## Versión 17.5: mayo de 2017 {#release-17-5-may-2017}
 
 **Nuevas funciones**
 
@@ -316,7 +316,7 @@ _Notificaciones push_
 * Se ha corregido un problema que impedía hacer clic en un evento push en el historial de marketing de un perfil.
 * Se ha mejorado el uso de notificaciones push en flujos de trabajo.
 
-## Versión 17.4: abril de 2017 {#release-17-4---april-2017}
+## Versión 17.4: abril de 2017 {#release-17-4-april-2017}
 
 **Nuevas funciones**
 
@@ -401,7 +401,7 @@ _Notificaciones push_
 * Se ha corregido un problema por el cual no se mostraba un mensaje de error al crear una aplicación de Android vinculada a una aplicación móvil que no se había podido crear en MCPNS.
 * Se ha corregido un problema que permitía al usuario agregar sonidos a una notificación silenciosa.
 
-## Versión 17.2: marzo de 2017 {#release-17-2---march-2017}
+## Versión 17.2: marzo de 2017 {#release-17-2-march-2017}
 
 **Nuevas funciones**
 
@@ -454,7 +454,7 @@ _Notificaciones push_
   </tr> 
   <tr> 
    <td> Datos de puntos de interés<br /> </td> 
-   <td> Los datos de puntos de interés integran Adobe Campaign con Adobe Analytics para dispositivos móviles. Una marca puede recopilar datos de las ubicaciones móviles de los usuarios, denominados <strong>puntos de interés</strong>, cuando estos abren la aplicación de la marca. Esto permite a la marca aprovechar los flujos de trabajo de Adobe Campaign para enviar mensajes personalizados según la ubicación de los usuarios. Este canal aprovecha el SDK del servicio principal de Mobile.<br /> Tenga en cuenta que el uso de esta característica requiere Analytics para dispositivos móviles, que es una solución de pago.<br /> Para obtener más información, consulte la <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">documentación detallada</a>.<br /> </td> 
+   <td> Los datos de puntos de interés integran Adobe Campaign con Adobe Analytics para dispositivos móviles. Una marca puede recopilar datos de las ubicaciones móviles de los usuarios, denominados <strong>puntos de interés</strong>, cuando estos abren la aplicación de la marca. Esto permite a la marca aprovechar los flujos de trabajo de Adobe Campaign para enviar mensajes personalizados en función de la ubicación de los usuarios. Este canal aprovecha el SDK del servicio principal de Mobile.<br /> Tenga en cuenta que el uso de esta característica requiere Analytics para dispositivos móviles, que es una solución de pago.<br /> Para obtener más información, consulte la <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> API de REST<br /> </td> 
@@ -484,7 +484,7 @@ _Flujos de trabajo_
 * Se ha corregido un problema que podía impedir la lectura del contenido de la transición de rechazo de una actividad **[!UICONTROL Load file]**.
 * Se ha corregido un problema que impedía que las columnas intercambiadas se tuvieran en cuenta correctamente al configurar una actividad **[!UICONTROL Load file]**.
 
-## Versión 17.1: enero de 2017 {#release-17-1---january-2017}
+## Versión 17.1: enero de 2017 {#release-17-1-january-2017}
 
 **Nuevas funciones**
 

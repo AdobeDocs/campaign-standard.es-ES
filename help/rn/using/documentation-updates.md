@@ -6,7 +6,7 @@ role: User
 level: Beginner
 hide: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: '7629'
 ht-degree: 100%
@@ -93,7 +93,7 @@ Se han actualizado todos los vínculos obsoletos de las secciones **Privacidad**
 
 Se ha añadido un vínculo directo a la documentación de Panel de control de Campaign en la tabla de contenidos de la documentación de Campaign Standard.
 
-## Versión 21.3: septiembre de 2021 {#release-21-3---september-2021}
+## Versión 21.3: septiembre de 2021 {#release-21-3-september-2021}
 
 **Nuevas funcionalidades incluidas en la versión**
 
@@ -115,7 +115,7 @@ Se ha añadido una nueva sección para describir cómo puede permitir a los usua
 
 Se ha actualizado y aclarado la sección **Administración de los datos del formulario de la página de destino**. [Más información](../../channels/using/managing-landing-page-form-data.md)
 
-## Versión 21.2: junio de 2021 {#release-21-2---june-2021}
+## Versión 21.2: junio de 2021 {#release-21-2-june-2021}
 
 **Nuevas funciones incluidas en la versión**
 
@@ -154,7 +154,7 @@ Se ha añadido información sobre cómo implementar el seguimiento local para la
 
 La sección [Entrega](../../sending/using/about-deliverability.md) se ha actualizado y ahora incluye vínculos a la nueva [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es). Toda la información genérica relacionada con la capacidad de envío que se puede aplicar a varias soluciones de Adobe se ha trasladado al [Apéndice de la Guía de prácticas recomendadas](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=es#additional-resources).
 
-## Versión 21.1: febrero de 2021 {#release-21-1---february-2021}
+## Versión 21.1: febrero de 2021 {#release-21-1-february-2021}
 
 **Nuevas funcionalidades incluidas en la versión**
 
@@ -206,7 +206,7 @@ La sección **Mensajería transaccional** se ha reorganizado y reunido en un sol
 
 Se ha añadido información en la sección Conector de datos de Adobe Experience Platform sobre el error de validación de asignación de datos relacionado con la administración de privacidad y cómo solucionarlo.
 
-## Versión 20.4: octubre de 2020 {#release-20-4---october-2020}
+## Versión 20.4: octubre de 2020 {#release-20-4-october-2020}
 
 **Nuevas funciones incluidas en la versión**
 
@@ -280,7 +280,7 @@ La sección Parámetros de canal de correo electrónico se ha aclarado con más 
 
 La configuración de una aplicación móvil mediante los SDK de Adobe Experience Platform está ahora disponible en la documentación principal con más información sobre el flujo de trabajo técnico de la aplicación móvil de sincronización AEPSDK desde Launch. [Más información](../../administration/using/configuring-a-mobile-application.md)
 
-## Versión 20.3: mayo de 2020 {#release-20-3---may-2020}
+## Versión 20.3: mayo de 2020 {#release-20-3-may-2020}
 
 **Nuevas funciones incluidas en la versión**
 
@@ -326,7 +326,7 @@ La sección Configuración de canales de correo electrónico se ha actualizado c
 
 La sección de mensajería transaccional se ha actualizado con más información sobre los derechos necesarios para editar configuraciones de eventos y sobre cómo enriquecer las colecciones de los mensajes transaccionales. [Más información](../../channels/using/configuring-transactional-event.md).
 
-## Versión 20.2: abril de 2020 {#release-20-2---april-2020}
+## Versión 20.2: abril de 2020 {#release-20-2-april-2020}
 
 **Nuevas funciones incluidas en la versión**
 
@@ -368,7 +368,7 @@ Se ha añadido información sobre el derecho de integración de **[!UICONTROL Wo
 
 Se ha añadido información sobre el **[!UICONTROL History in days field]** disponible en las propiedades de los flujos de trabajo. [Más información](../../automating/using/about-workflow-execution.md)
 
-## Versión 20.1: febrero de 2020 {#release-20-1---february-2020}
+## Versión 20.1: febrero de 2020 {#release-20-1-february-2020}
 
 **Nuevas funcionalidades incluidas en la versión**
 
@@ -438,7 +438,7 @@ El modelo de datos se ha integrado en la documentación de Campaign Standard. [M
 
 El nuevo extremo **/customResources** de la API se ha agregado a la documentación de la API.[Más información](../../api/using/interacting-with-custom-resources.md)
 
-## Versión 19.4: octubre de 2019 {#release-19-4---october-2019}
+## Versión 19.4: octubre de 2019 {#release-19-4-october-2019}
 
 **Nuevas funciones incluidas en la versión**
 
@@ -494,7 +494,7 @@ Se ha actualizado la sección que describe los fragmentos y las plantillas de co
 
 Se ha añadido una nueva sección sobre cómo guardar contenido de correo electrónico como plantilla en el Diseñador de correo electrónico. [Más información](../../designing/using/using-reusable-content.md#saving-content-as-template)
 
-## Versión 19.3: julio de 2019 {#release-19-3---july-2019}
+## Versión 19.3: julio de 2019 {#release-19-3-july-2019}
 
 **Nuevas funciones incluidas en la versión**
 
@@ -546,7 +546,7 @@ Se ha actualizado la lista de mensajes de error para Standard y Campaign Classic
 
 Se ha añadido una advertencia en la documentación de recursos personalizada. Se recomienda usar un máximo de 30 caracteres para los ID de recursos personalizados. Esto también se aplica a los campos de recursos personalizados, las claves, los índices y los enlaces. [Más información](../../developing/using/creating-or-extending-the-resource.md)
 
-## Versión 19.2: mayo de 2019 {#release-19-2---may-2019}
+## Versión 19.2: mayo de 2019 {#release-19-2-may-2019}
 
 **Nuevas funciones incluidas en la versión**
 
@@ -614,7 +614,7 @@ Se ha actualizado la página Funciones obsoletas y eliminadas. [Más informació
 
 Se ha actualizado y mejorado la sección Integración de Dreamweaver. [Más información](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 
-## Versión 19.1: febrero de 2019 {#release-19-1---february-2019}
+## Versión 19.1: febrero de 2019 {#release-19-1-february-2019}
 
 **Nuevas funciones incluidas en la versión**
 
@@ -670,7 +670,7 @@ Se ha añadido información en la sección de actividad de actualización de dat
 
 Se ha añadido información en la sección de actividad de extracción de archivo sobre la nueva opción que le permite desactivar el proceso de generación de archivos si la transición saliente está vacía. [Más información](../../automating/using/extract-file.md#configuration)
 
-## Versión 19.0: enero de 2019 {#release-19-0---january-2019}
+## Versión 19.0: enero de 2019 {#release-19-0-january-2019}
 
 **Nuevas funciones incluidas en la versión**
 
@@ -710,7 +710,7 @@ Los vídeos se han actualizado y movido [aquí](https://experienceleague.adobe.c
 
 Se ha actualizado la sección Tipo de usuarios. [Más información](../../administration/using/users-management.md)
 
-## Versión 18.9: septiembre de 2018 {#release-18-9---september-2018}
+## Versión 18.9: septiembre de 2018 {#release-18-9-september-2018}
 
 **Nuevas funciones incluidas en la versión**
 
@@ -726,7 +726,7 @@ Se ha añadido información sobre cómo eliminar un público. [Más información
 
 Se ha actualizado la sección de informes integrados de notificaciones push. [Más información](../../reporting/using/push-notification-report.md)
 
-## Versión 18.7: julio de 2018 {#release-18-7---july-2018}
+## Versión 18.7: julio de 2018 {#release-18-7-july-2018}
 
 **Nuevas funciones incluidas en la versión**
 
@@ -750,7 +750,7 @@ Se ha añadido información sobre el idioma predeterminado de la plantilla multi
 
 La guía Usuarios y seguridad se ha actualizado para reflejar la depreciación de la capacidad de la unidad geográfica en las nuevas instancias de Campaign Standard, así como en las instancias existentes sin crear unidades geográficas, a partir de la versión 18.7. [Más información](../../rn/using/deprecated-features.md)
 
-## Versión 18.6: junio de 2018 {#release-18-6---june-2018}
+## Versión 18.6: junio de 2018 {#release-18-6-june-2018}
 
 **Nuevas funciones incluidas en la versión**
 
@@ -770,7 +770,7 @@ Se ha añadido un ejemplo en la sección de actividad de consultas sobre cómo d
 
 Se ha añadido una sección en la documentación de API relacionada con **filtros personalizados**. [Más información](../../api/using/filtering.md)
 
-## Versión 18.5: mayo de 2018 {#release-18-5---may-2018}
+## Versión 18.5: mayo de 2018 {#release-18-5-may-2018}
 
 **Nuevas funciones incluidas en la versión**
 
@@ -804,7 +804,7 @@ Se ha actualizado la lista de SKU de Analytics compatibles para la integración 
 
 Algunas páginas de la documentación del editor de contenido se han fusionado para ofrecer una vista más completa de las diferentes acciones disponibles. [Más información](../../designing/using/designing-content-in-adobe-campaign.md)
 
-## Versión 18.3: marzo de 2018 {#release-18-3---march-2018}
+## Versión 18.3: marzo de 2018 {#release-18-3-march-2018}
 
 **Nuevas funciones incluidas en la versión**
 
@@ -836,7 +836,7 @@ Se ha actualizado la lista de materiales de ayuda sobre Campaign y la integraci�
 
 Se ha actualizado la ayuda contextual de Campaign Standard en el producto.
 
-## Versión 18.2: febrero de 2018 {#release-18-2---february-2018}
+## Versión 18.2: febrero de 2018 {#release-18-2-february-2018}
 
 **Nuevas funciones incluidas en la versión**
 
@@ -880,7 +880,7 @@ Se ha actualizado la información sobre errores y cuarentenas de entregas. [Más
 
 Nuevas secciones dedicadas a [asignaciones de destinatarios](../../administration/using/target-mappings-in-campaign.md) y [dimensiones de segmentación y recursos](../../automating/using/query.md#targeting-dimensions-and-resources).
 
-## Versión 18.1: enero de 2018 {#release-18-1---january-2018}
+## Versión 18.1: enero de 2018 {#release-18-1-january-2018}
 
 **Nuevas funciones incluidas en la versión**
 
@@ -908,7 +908,7 @@ Se ha añadido información sobre la configuración de historias de la actividad
 
 Se han actualizado las instrucciones para configurar la integración con Audience Manager o el servicio principal People. [Más información](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-## Versión 17.10: octubre de 2017 {#release-17-10---october-2017}
+## Versión 17.10: octubre de 2017 {#release-17-10-october-2017}
 
 **Nuevas funciones incluidas en la versión**
 
@@ -948,7 +948,7 @@ Nueva sección dedicada a las claves principals y al uso de un ID comercial como
 
 Se ha añadido información sobre el filtrado simple y múltiple en la API. [Más información](../../api/using/filtering.md)
 
-## Versión 17.9: septiembre de 2017 {#release-17-9---september-2017}
+## Versión 17.9: septiembre de 2017 {#release-17-9-september-2017}
 
 **Nuevas funciones incluidas en la versión**
 
@@ -988,7 +988,7 @@ Se ha actualizado la sección sobre la actividad del flujo de trabajo de transfe
 
 Se ha añadido información sobre la opción “Solicitar confirmación antes de enviar mensajes” en la actividad del flujo de trabajo de envío de correo electrónico. [Más información](../../automating/using/email-delivery.md)
 
-## Versión 17.7: julio de 2017 {#release-17-7---july-2017}
+## Versión 17.7: julio de 2017 {#release-17-7-july-2017}
 
 **Nuevas funciones incluidas en la versión**
 
@@ -1020,7 +1020,7 @@ El mecanismo de inclusión doble ahora se documenta con un procedimiento paso a 
 
 Se ha actualizado la sección Lista de funciones. [Más información](../../administration/using/list-of-roles.md)
 
-## Versión 17.5: mayo de 2017 {#release-17-5---may-2017}
+## Versión 17.5: mayo de 2017 {#release-17-5-may-2017}
 
 **Nuevas funciones incluidas en la versión**
 
@@ -1042,7 +1042,7 @@ Se ha revisado la tabla de autorizaciones para que el uso de ciertas funciones s
 
 Actualización de los enlaces de ayuda contextual disponibles directamente desde Adobe Campaign.
 
-## Versión 17.4: abril de 2017 {#release-17-4---april-2017}
+## Versión 17.4: abril de 2017 {#release-17-4-april-2017}
 
 **Nuevas funciones incluidas en la versión**
 
@@ -1072,7 +1072,7 @@ Se ha actualizado la sección sobre cómo trabajar con imágenes en Campaign. [M
 
 Se ha actualizado la integración con Adobe Analytics para móviles (punto de interés), incluidos los pasos de configuración y el caso de uso. [Más información](../../integrating/using/about-campaign-points-of-interest-data-integration.md)
 
-## Versión 17.2: marzo de 2017 {#release-17-2---march-2017}
+## Versión 17.2: marzo de 2017 {#release-17-2-march-2017}
 
 **Nuevas funciones incluidas en la versión**
 
@@ -1100,7 +1100,7 @@ Hemos rediseñado la documentación de la API de desarrollador con nuevos fragme
 
 Descubra ejemplos de las nuevas actividades de flujo de trabajo de [Lectura de público](../../automating/using/read-audience.md) y [Señal externa](../../automating/using/external-signal.md).
 
-## Versión 17.1: enero de 2017 {#release-17-1---january-2017}
+## Versión 17.1: enero de 2017 {#release-17-1-january-2017}
 
 **Nuevas funciones incluidas en la versión**
 
