@@ -8,21 +8,15 @@ role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
 TQID: https://experienceleague.adobe.com/apHTVXi6iRZ0s-yydKzBcOxJTNWo1oYZmGkHKqyCMhw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 636
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +36,7 @@ Obtenga asistencia consultando las preguntas frecuentes, las prácticas recomend
 
 ## Problemas frecuentes y prácticas recomendadas
 
-![icono de preguntas más frecuentes](start/using/assets/do-not-localize/icon-faq.svg){width="60px"}
+![icono de preguntas frecuentes](start/using/assets/do-not-localize/icon-faq.svg){width="60px"}
 
 <table>
     <tr><td><strong>Preguntas y respuestas sobre temas</strong></td><td><strong>Problemas comunes</strong></td><td><strong>Prácticas recomendadas</strong></td><td><strong>Instrucciones</strong></td></tr>
@@ -109,7 +103,7 @@ El Panel de control está disponible directamente en Adobe Experience Cloud. [Ha
 
 ### Preguntas frecuentes sobre el Panel de control
 
-[Haga clic aquí &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=es) para acceder a las preguntas frecuentes sobre el Panel de control de Campaign.
+[Haga clic aquí ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=es) para acceder a las preguntas frecuentes sobre el Panel de control de Campaign.
 
 ### Administración de SFTP
 
@@ -131,7 +125,7 @@ El nuevo sistema de tickets se ha utilizado a través de [Adobe Admin Console](h
 
 ### ¡Consulte a los expertos!
 
-Únase a la comunidad de Campaign: encuentre respuestas a preguntas existentes o formule una pregunta a la comunidad. [Únase a la conversación](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=es)
+Únase a la comunidad de Campaign: encuentre respuestas a preguntas existentes o formule una pregunta a la comunidad. [Únase a la conversación](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### Creación de un ticket o inicio de una conversación
 
