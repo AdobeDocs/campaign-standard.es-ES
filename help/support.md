@@ -20,9 +20,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 636
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Obtenga asistencia consultando las preguntas frecuentes, las prácticas recomend
 
 ## Problemas frecuentes y prácticas recomendadas
 
-![icono de preguntas más frecuentes](start/using/assets/do-not-localize/icon-faq.svg){width="60px"}
+![icono de preguntas frecuentes](start/using/assets/do-not-localize/icon-faq.svg){width="60px"}
 
 <table>
     <tr><td><strong>Preguntas y respuestas sobre temas</strong></td><td><strong>Problemas comunes</strong></td><td><strong>Prácticas recomendadas</strong></td><td><strong>Instrucciones</strong></td></tr>
@@ -109,7 +109,7 @@ El Panel de control está disponible directamente en Adobe Experience Cloud. [Ha
 
 ### Preguntas frecuentes sobre el Panel de control
 
-[Haga clic aquí &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=es) para acceder a las preguntas frecuentes sobre el Panel de control de Campaign.
+[Haga clic aquí ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=es) para acceder a las preguntas frecuentes sobre el Panel de control de Campaign.
 
 ### Administración de SFTP
 
