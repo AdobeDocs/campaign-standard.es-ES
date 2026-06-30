@@ -6,36 +6,15 @@ role: User
 level: Beginner
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
 TQID: https://experienceleague.adobe.com/o3S2hQizbgi5V-8uEzd4UsVZslopMk6BlpCy-DXESUQ
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: bb6c4d97-79f4-412c-a764-b541e9f9facd
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
-  - id: d8d962e2-fcf3-4f64-82dc-4b50292e7f75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: bb6c4d97-79f4-412c-a764-b541e9f9facdid: bf97c196-a4d1-4fa3-a151-e68a114c8ac0id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0id: d8d962e2-fcf3-4f64-82dc-4b50292e7f75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: beb7a3c1-66ab-4786-b879-7621375b3c40id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
 workflow-type: tm+mt
-source-wordcount: 4540
+source-wordcount: 4623
 ht-degree: 8%
 
 ---
@@ -423,8 +402,7 @@ _Notificaciones push_
   </tr> 
   <tr> 
    <td> Optimización del tiempo de envío manual<br /> </td> 
-   <td> Ahora puede definir manualmente una hora de envío personalizada por destinatario: en el nivel de entrega o mediante un flujo de trabajo. <br /> Hay dos opciones nuevas disponibles: <br /> 
-    <ul> 
+   <td> Ahora puede definir manualmente una hora de envío personalizada por destinatario: en el nivel de entrega o mediante un flujo de trabajo. <br /> Hay dos opciones nuevas disponibles: <br /> <ul> 
      <li> Todos los destinatarios reciben el mensaje teniendo en cuenta su huso horario. </li> 
      <li> Cada destinatario recibe el mensaje en una fecha y hora calculadas definidas por una fórmula. </li> 
     </ul> Para obtener más información, consulte la <a href="../../sending/using/optimizing-the-sending-time.md">documentación detallada</a>.<br /> </td> 
@@ -442,8 +420,7 @@ _Notificaciones push_
   </tr> 
   <tr> 
    <td> Flujos de trabajo: nueva actividad de señal <br /> </td> 
-   <td> Almacene en déclencheur un flujo de trabajo de otro flujo de trabajo con la nueva actividad <span class="uicontrol">Signal</span>.<br /> Con la capacidad de iniciar un flujo de trabajo de otro, ahora puede admitir recorridos de cliente más complejos. Puede supervisar mejor los recorridos de los clientes y reaccionar en caso de que haya problemas.<br /> Se han actualizado varias actividades de flujo de trabajo:<br /> 
-    <ul> 
+   <td> Almacene en déclencheur un flujo de trabajo de otro flujo de trabajo con la nueva actividad <span class="uicontrol">Signal</span>.<br /> Con la capacidad de iniciar un flujo de trabajo desde otro, ahora puede satisfacer recorridos de clientes más complejos. Puede supervisar mejor los recorridos de los clientes y reaccionar en caso de que haya problemas.<br /> Se han actualizado varias actividades de flujo de trabajo: <br /> <ul> 
      <li> Actividad <span class="uicontrol">End</span>: una nueva pestaña le permite especificar un flujo de trabajo para almacenar en déclencheur después de ejecutar esta actividad. </li> 
      <li> Actividad <span class="uicontrol">Actualizar datos</span>: use la nueva transición saliente vacía para agregar una actividad <strong>End</strong> que ponga en déclencheur otro flujo de trabajo. Las transiciones salientes vacías no transmiten datos ni consumen espacio innecesario en el sistema </li> 
     </ul> Para obtener más información, consulte la <a href="../../automating/using/external-signal.md">documentación detallada</a>.<br /> </td> 
@@ -498,16 +475,14 @@ _Flujos de trabajo_
  <tbody> 
   <tr> 
    <td> Exportación de registro para informes externos <br /> </td> 
-   <td> Exporte registros, como registros de envío y seguimiento, para procesarlos en sus herramientas de sistema de informes o BI preferidas. Puede utilizar flujos de trabajo simples con consultas incrementales para automatizar las exportaciones regulares de nuevos registros.<br /> Además de la disponibilidad de los recursos de registro del selector de recursos, se realizaron mejoras en las actividades <a href="../../automating/using/incremental-query.md">Incremental query</a> y <a href="../../automating/using/extract-file.md">Extraer archivo</a>:<br /> 
-    <ul> 
+   <td> Exporte registros, como registros de envío y seguimiento, para procesarlos en sus herramientas de sistema de informes o BI preferidas. Puede utilizar flujos de trabajo simples con consultas incrementales para automatizar las exportaciones regulares de nuevos registros.<br /> Además de la disponibilidad de los recursos de registro del selector de recursos, se realizaron mejoras en las actividades <a href="../../automating/using/incremental-query.md">Incremental query</a> y <a href="../../automating/using/extract-file.md">Extraer archivo</a>:<br /> <ul> 
      <li> <span class="uicontrol">La consulta incremental</span> ahora le permite usar un campo de fecha para recuperar datos nuevos o actualizados. Anteriormente, todos los resultados de ejecuciones anteriores se excluían automáticamente, incluso si se habían actualizado desde la última ejecución. </li> 
      <li> <span class="uicontrol">Extraer archivo</span> ahora puede exportar etiquetas para valores de enumeración en lugar de identificadores. </li> 
     </ul> Estas actividades están disponibles para los administradores con acceso a todas las unidades geográficas y de organización.<br /> Para obtener más información sobre la exportación de registros, consulte la <a href="../../automating/using/exporting-logs.md">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Funciones de marketing para mensajes transaccionales<br /> </td> 
-   <td> Los especialistas en marketing ahora pueden enviar mensajes transaccionales basados en perfiles de marketing de clientes. Esto les permite:<br /> 
-    <ul> 
+   <td> Los especialistas en marketing ahora pueden enviar mensajes transaccionales basados en perfiles de marketing de clientes. Esto les permite:<br /> <ul> 
      <li> Aplicar reglas de tipología de marketing como <span class="uicontrol">Dirección en la lista de bloqueados de la</span> </li> 
      <li> Incluir vínculos de baja en los mensajes. </li> 
      <li> Añadir mensajes transaccionales al sistema de informes de envío global. </li> 
@@ -559,4 +534,5 @@ _Integraciones_
 * Se ha corregido un problema que podría haber provocado un error al implementar un déclencheur de eventos en Adobe Campaign. Este error se producía cuando se habían agregado los metadatos &quot;Probabilidad de retorno en 30 días&quot; al déclencheur de abandono en Adobe Marketing Cloud.
 * Se ha corregido un problema que podía hacer que el flujo de trabajo técnico borrara el campo Target Dimension al importar audiencias desde el servicio principal Personas. Las consultas posteriores no pudieron recuperar las audiencias importadas.
 * Se ha corregido un problema que podría haber causado un error en la actividad **[!UICONTROL Save audience]** de un flujo de trabajo al marcar la opción **[!UICONTROL Share in Adobe Marketing Cloud]**.
+
 

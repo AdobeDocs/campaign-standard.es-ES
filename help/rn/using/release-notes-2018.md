@@ -6,36 +6,15 @@ role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
 TQID: https://experienceleague.adobe.com/BtRFMP6fh8X5Z6R1wGzc0Q07HCQlx-2-3evgAOnU3eA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
-  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
-  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
-  - id: e739ee2b-6228-412e-878f-45de0791417d
-  - id: eff19c99-440a-4318-b319-444edc4d8d8f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: c5474392-5419-4296-9e41-f6f4ce4f6e9bid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: b1fd1501-3105-4d6b-b4d4-9af53126df75id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0id: e3988c18-3cfa-4f16-b812-ac2d2b1056faid: e5e477db-ebc7-4368-ab0f-4d8fc2aed405id: e739ee2b-6228-412e-878f-45de0791417did: eff19c99-440a-4318-b319-444edc4d8d8f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
 workflow-type: tm+mt
-source-wordcount: 5217
+source-wordcount: 5477
 ht-degree: 8%
 
 ---
@@ -222,7 +201,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td> RGPD: Integración de servicios principales <br /> </td> 
-   <td> La integración de Privacy Core Service le permite automatizar sus solicitudes de RGPD en un contexto de varias soluciones a través de una sola llamada de API JSON. <br /> Las solicitudes de RGPD enviadas desde el Servicio principal de privacidad a todas las soluciones de Experience Cloud ahora se gestionan automáticamente mediante Campaign. <br /> Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=es">documentación detallada</a>.<br /> </td> 
+   <td> La integración de Privacy Core Service le permite automatizar sus solicitudes de RGPD en un contexto de varias soluciones a través de una sola llamada de API JSON. <br /> Las solicitudes de RGPD enviadas desde el Servicio principal de privacidad a todas las soluciones de Experience Cloud ahora se gestionan automáticamente mediante Campaign. <br /> Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Mejoras de push: comentarios detallados sobre la entrega<br /> </td> 
@@ -230,8 +209,7 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td> Extensión de registros de envío<br /> </td> 
-   <td> La extensión de registros de envío permite ampliar los registros de envío con datos de perfil y código de segmento procedentes de flujos de trabajo. Esta información se puede usar en los informes dinámicos y le permite mantener una instantánea de cierta información en el momento de la entrega de un envío.<br /> Hay dos casos de uso más: <br /> 
-    <ul> 
+   <td> La extensión de registros de envío permite ampliar los registros de envío con datos de perfil y código de segmento procedentes de flujos de trabajo. Esta información se puede utilizar en los informes dinámicos y le permite mantener una instantánea de cierta información en el momento de la entrega de un envío.<br /> Hay 2 casos de uso más: <br /> <ul> 
      <li> Exportar registros extendidos con datos "congelados": como experto en marketing, me gustaría exportar todos los perfiles con un código de segmento igual a "A" (proveniente del motor de flujo de trabajo). </li> 
      <li> Segmentación en datos "inmovilizados": como experto en marketing, quisiera <strong>redireccionar</strong> todos los perfiles que hayan obtenido 1000 puntos de lealtad desde el último envío o cuyo código de segmento sea igual a "A". </li> 
     </ul> Para obtener más información, consulte la <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">documentación detallada</a>.<br /> </td> 
@@ -320,21 +298,19 @@ _Recursos personalizados_
  <tbody> 
   <tr> 
    <td> Reglamento General de Protección de Datos.<br /> </td> 
-   <td> El RGPD es la nueva ley de privacidad de la Unión Europea (UE) que armoniza y moderniza los requisitos de protección de datos y entrará en vigencia el 25 de mayo de 2018. El RGPD se aplica a los clientes de Adobe Campaign que albergan datos de sujetos de datos que residan en la UE.<br /> Además de las funciones de privacidad ya disponibles en Adobe Campaign (incluida la administración de consentimiento, la configuración de retención de datos y las funciones de usuario), aprovechamos esta oportunidad en nuestra función de procesador de datos para incluir funciones adicionales que le ayudarán a prepararse como controlador de datos para determinadas solicitudes de RGPD:<br /> 
-    <ul> 
+   <td> El Reglamento General de Protección de Datos (RGPD) es la nueva normativa sobre privacidad de la Unión Europea que unifica y moderniza los requisitos de protección de datos y entrará en vigencia el 25 de mayo de 2018. El RGPD se aplica a los clientes de Adobe Campaign que albergan datos de sujetos de datos que residan en la UE.<br /> Además de las funciones de privacidad ya disponibles en Adobe Campaign (incluida la administración de consentimientos, la configuración de retención de datos y las funciones de usuario), aprovechamos esta oportunidad en nuestra función de procesador de datos para incluir funciones adicionales que le ayudarán a prepararse como controlador de datos para determinadas solicitudes de RGPD:<br /> <ul> 
      <li> Derecho de acceso: permite que el sujeto de datos reciba una copia de sus datos personales capturados por los controladores de datos, incluso los datos almacenados en Adobe Campaign. </li> 
      <li> Derecho a eliminación: autoriza al sujeto de datos a que sus datos personales recopilados por los controladores de datos se borren, lo que incluye datos almacenados en Adobe Campaign. </li> 
-    </ul> Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=es">documentación detallada</a>.<br /> </td> 
+    </ul> Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer para correo electrónico (Beta)<br /> </td> 
-   <td> El nuevo Creative Designer de Adobe Campaign ofrece una experiencia de creación totalmente integrada en Campaign, lo que permite crear correos electrónicos personalizados, cautivadores y personalizados de forma rápida y sencilla sin necesidad de crear una línea de código única. A través de su potente interfaz de arrastrar y soltar, Creative Designer ayuda a escalar la creación de correos electrónicos tanto si los usuarios comienzan desde una pizarra en blanco como si aprovechan los fragmentos de contenido o las plantillas existentes. <br /> Las funcionalidades clave incluyen:<br /> 
-    <ul> 
+   <td> El nuevo Creative Designer de Adobe Campaign ofrece una experiencia de creación totalmente integrada en Campaign, lo que permite crear correos electrónicos personalizados, cautivadores y personalizados de forma rápida y sencilla sin necesidad de crear una línea de código única. A través de su potente interfaz de arrastrar y soltar, Creative Designer ayuda a escalar la creación de correos electrónicos tanto si los usuarios comienzan desde una pizarra en blanco como si aprovechan los fragmentos de contenido o las plantillas existentes. <br /> Las funciones clave incluyen:<br /> <ul> 
      <li> Diseñe y cree correos electrónicos adaptables y totalmente personalizados con una interfaz de arrastrar y soltar, aumentada por integraciones nativas de Creative Cloud </li> 
      <li> Cree y guarde una plantilla de contenido de correo electrónico, y aproveche las plantillas guardadas para escalar la creación de correo electrónico </li> 
      <li> Crear y guardar fragmentos de contenido (como un encabezado, pie de página, artículo, etc.) para optimizar la creación de contenido y garantizar la coherencia de la marca </li> 
      <li> Cambie fácilmente entre crear en la interfaz de arrastrar y soltar y editar directamente el HTML de un correo electrónico haciendo clic en un botón </li> 
-    </ul> Creative Designer para correo electrónico solo está disponible en inglés.<br /> Para obtener más información, consulte la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentación detallada</a> y vea este <a href="https://www.youtube.com/watch?time_continue=1&v=5S_6A4fsfms">vídeo</a>.<br /> </td> 
+    </ul> Creative Designer para correo electrónico solo está disponible en inglés.<br /> Para obtener más información, consulte la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentación detallada</a> y vea este <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">vídeo</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Entregas push multilingües<br /> </td> 
@@ -342,8 +318,7 @@ _Recursos personalizados_
   </tr> 
   <tr> 
    <td> Uso de recursos personalizados en mensajes transaccionales<br /> </td> 
-   <td> Además de los campos predeterminados, la mensajería transaccional ahora le permite utilizar recursos personalizados para enriquecer el contenido de sus mensajes.<br /> Por ejemplo:<br /> 
-    <ul> 
+   <td> Además de los campos predeterminados, la mensajería transaccional ahora le permite utilizar recursos personalizados para enriquecer el contenido de sus mensajes.<br /> Por ejemplo:<br /> <ul> 
      <li> Aproveche los campos personalizados como criterios de reconciliación para hacer coincidir un mensaje transaccional con un perfil </li> 
      <li> Aproveche perfiles completos, servicios y datos vinculados para personalizar aún más los mensajes transaccionales </li> 
     </ul> Para obtener más información, consulte la <a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">documentación detallada</a>.<br /> </td> 
@@ -482,13 +457,12 @@ Pueden producirse algunos problemas al utilizar vínculos de ayuda contextual de
   </tr> 
   <tr> 
    <td> Insertar nuevas funciones<br /> </td> 
-   <td> Vista previa de mensajes push: obtenga una vista previa de las notificaciones push en dispositivos iOS y Android desde el editor de contenido de notificaciones push para ver exactamente lo que verán los destinatarios antes de probar o ejecutar el envío.<br /> Para obtener más información, consulte la <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">documentación detallada</a>.<br /> Contenido disponible: cuando una aplicación no se abre en mucho tiempo, sus datos pueden quedar obsoletos. Esto hace que los datos tengan que actualizarse o reemplazarse en el momento en que un usuario finalmente abre la aplicación, lo que puede causar retrasos en el uso de la aplicación. Con la compatibilidad añadida de Contenido disponible, los usuarios de Adobe Campaign pueden activar su aplicación para actualizar sus datos en segundo plano al enviar una notificación push, lo que permite una mayor coherencia y control sobre la experiencia en la aplicación de un usuario.<br /> Contenido mutable: con la compatibilidad añadida de Contenido mutable, los usuarios de Adobe Campaign ahora pueden aprovechar las extensiones de su aplicación móvil para modificar aún más el contenido o la presentación de las notificaciones push entrantes enviadas desde Adobe Campaign. Por ejemplo, los usuarios pueden aprovechar el contenido mutable para: <br /> 
-    <ul> 
+   <td> Vista previa de mensajes push: previsualice las notificaciones push en dispositivos iOS y Android desde el editor de contenido de notificaciones push para ver exactamente lo que verán los destinatarios antes de probar o ejecutar el envío.<br /> Para obtener más información, consulte la <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">documentación detallada</a>.<br /> Contenido disponible: cuando una aplicación no se abre en mucho tiempo, sus datos pueden quedar obsoletos. Esto hace que los datos tengan que actualizarse o reemplazarse en el momento en que un usuario finalmente abre la aplicación, lo que puede causar retrasos en el uso de la aplicación. Con la compatibilidad añadida de Contenido disponible, los usuarios de Adobe Campaign pueden activar su aplicación para actualizar sus datos en segundo plano al enviar una notificación push, lo que permite una mayor coherencia y control sobre la experiencia en la aplicación de un usuario.<br /> Contenido mutable: con la ayuda de Contenido mutable, ahora los usuarios de Adobe Campaign pueden aprovechar las extensiones de su aplicación móvil para modificar aún más el contenido o la presentación de las notificaciones push entrantes enviadas desde Adobe Campaign. Por ejemplo, los usuarios pueden aprovechar el contenido mutable para: <br /> <ul> 
      <li> descifrar datos que se han entregado en formato cifrado </li> 
      <li> descargar imágenes u otros archivos multimedia y añadirlos como archivos adjuntos a una notificación </li> 
      <li> cambiar el texto del cuerpo o del título de una notificación </li> 
      <li> añadir un identificador de subproceso a una notificación </li> 
-    </ul> Para obtener más información sobre contenido disponible y contenido mutable, consulte la <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">documentación detallada</a>.<br /> <strong>Advertencia:</strong> estas actualizaciones en las notificaciones push requieren que los clientes actualicen sus aplicaciones móviles. Consulte <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html?lang=es">esta nota técnica</a> para obtener más información.<br /> </td> 
+    </ul> Para obtener más información sobre contenido disponible y contenido mutable, consulte la <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">documentación detallada</a>.<br /> <strong>Advertencia:</strong> estas actualizaciones en las notificaciones push requieren que los clientes actualicen sus aplicaciones móviles. Consulte <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html">esta nota técnica</a> para obtener más información.<br /> </td> 
   </tr> 
   <tr> 
    <td> Entregas optimizadas para husos horarios<br /> </td> 
@@ -542,4 +516,5 @@ _Perfiles y audiencias_
 * Se ha añadido información de objeto que muestra el número de resultado exacto después de contar la población de una consulta.
 * Se ha corregido un problema que podía impedir que un usuario seleccionara una audiencia o cerrara la ventana del selector de audiencias.
 * Se ha actualizado la lista de funciones disponibles en el editor de expresiones. Se han quitado las funciones **FormatCurrency** y **ConvertCurrency**.
+
 
