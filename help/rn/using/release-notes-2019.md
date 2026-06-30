@@ -25,7 +25,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
+source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
 workflow-type: tm+mt
 source-wordcount: 7892
 ht-degree: 10%
@@ -633,4 +633,5 @@ Se han añadido varias mejoras al canal de mensajería transaccional para optimi
 * El rendimiento de envío se ha mejorado y estabilizado para los mensajes SMS.
 * Se ha corregido un problema que impedía que el carácter &quot;~&quot; se usara en un mensaje SMS. (CAMP-29172)
 * Se ha corregido un problema en los envíos con la opción Send time optimization. (CAMP-29231)
+
 
