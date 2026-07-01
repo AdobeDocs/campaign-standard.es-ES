@@ -4,13 +4,12 @@ user-guide-title: Campaign Standard
 user-guide-description: Documentación del producto de Adobe Campaign Standard.
 title: Guía de Campaign Standard
 breadcrumb-title: Documentación de Campaign Standard
-source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
-workflow-type: ht
+source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
+workflow-type: tm+mt
 source-wordcount: '1796'
 ht-degree: 100%
 
 ---
-
 
 # Documentación de Adobe Campaign Standard {#using}
 
@@ -180,7 +179,7 @@ ht-degree: 100%
       + [Confirmación del envío](sending/using/confirming-the-send.md)
       + [Seguimiento de mensajes](sending/using/tracking-messages.md)
       + [Archivado con CCO de correo electrónico](sending/using/archiving.md)
-   + Monitorización de mensajes  {#monitoring-messages}
+   + Monitorización de mensajes {#monitoring-messages}
       + [Seguimiento de una entrega](sending/using/monitoring-a-delivery.md)
       + [Recepción de alertas cuando se produzcan errores](sending/using/receiving-alerts-when-failures-happen.md)
       + [Comprensión de los errores de entrega](sending/using/understanding-delivery-failures.md)
@@ -509,4 +508,3 @@ ht-degree: 100%
       + [Actualización de los atributos de la unidad geográfica](api/using/updating-geographical-unit-attributes.md)
    + [Solución de problemas](api/using/troubleshooting.md)
 + [Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es)
-
