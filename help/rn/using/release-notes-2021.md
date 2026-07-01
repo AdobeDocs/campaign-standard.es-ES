@@ -28,7 +28,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
+source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
 workflow-type: tm+mt
 source-wordcount: 4728
 ht-degree: 100%
@@ -457,5 +457,3 @@ A continuación, se enumeran las nuevas funciones, mejoras y correcciones inclui
 * Se ha corregido un problema que impedía que la lista de perfiles de prueba se actualizara al buscar perfiles en la previsualización del **Diseñador de correo electrónico**. (CAMP-45265)
 * Se ha corregido un problema que impedía que se mostraran perfiles de prueba personalizados en la lista al buscar perfiles en la previsualización del **Diseñador de correo electrónico**. (CAMP-45589)
 * Se ha corregido un problema que provocaba que se mostraran fechas no coincidentes al generar gráficos de tendencias desde el **Informe de resumen de entrega**. (CAMP-45521)
-
-

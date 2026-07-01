@@ -25,7 +25,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
+source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
 workflow-type: tm+mt
 source-wordcount: 7892
 ht-degree: 10%
@@ -604,7 +604,7 @@ Se han añadido varias mejoras al canal de mensajería transaccional para optimi
 * Se ha corregido un problema que mostraba registros de envío incorrectos en creación de informes dinámica. (CAMP-23446)
 * Se ha corregido un problema que podía afectar a los números del informe Resumen de devoluciones (CAMP-28703)
 * Se ha corregido un problema con la integración de Campaign y el servicio principal de Assets que podía impedir que se mostraran los recursos al seleccionar **[!UICONTROL Image shared from Adobe Experience Cloud]** en un correo electrónico (CAMP-28732).
-* Se ha corregido un problema que impedía que se enviaran mensajes SMS que contuvieran el carácter &quot;one&quot; aunque la transliteración estuviera autorizada en la cuenta externa SMPP. (CAMP-29041)
+* Se ha corregido un problema que impedía que se enviaran mensajes SMS que contuvieran el carácter &quot;one&quot; aunque la transliteración estuviera autorizada en la cuenta externa de SMPP. (CAMP-29041)
 * Se ha corregido un problema que podía mostrar registros duplicados al utilizar una actividad de Segmentación en flujos de trabajo. (CAMP-28743)
 * Se ha corregido un problema que impedía eliminar una de las asignaciones de valores en una columna de una actividad de flujo de trabajo. (CAMP-28708)
 * Se ha corregido un problema en la actividad Transferencia de archivos, al utilizar caracteres comodín con la opción &quot;Probar para ver si el archivo existe&quot;. (CAMP-28977)
@@ -633,5 +633,3 @@ Se han añadido varias mejoras al canal de mensajería transaccional para optimi
 * El rendimiento de envío se ha mejorado y estabilizado para los mensajes SMS.
 * Se ha corregido un problema que impedía que el carácter &quot;~&quot; se usara en un mensaje SMS. (CAMP-29172)
 * Se ha corregido un problema en los envíos con la opción Send time optimization. (CAMP-29231)
-
-

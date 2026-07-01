@@ -33,7 +33,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
+source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
 workflow-type: tm+mt
 source-wordcount: 4623
 ht-degree: 8%
@@ -555,5 +555,3 @@ _Integraciones_
 * Se ha corregido un problema que podría haber provocado un error al implementar un déclencheur de eventos en Adobe Campaign. Este error se producía cuando se habían agregado los metadatos &quot;Probabilidad de retorno en 30 días&quot; al déclencheur de abandono en Adobe Marketing Cloud.
 * Se ha corregido un problema que podía hacer que el flujo de trabajo técnico borrara el campo Target Dimension al importar audiencias desde el servicio principal Personas. Las consultas posteriores no pudieron recuperar las audiencias importadas.
 * Se ha corregido un problema que podría haber causado un error en la actividad **[!UICONTROL Save audience]** de un flujo de trabajo al marcar la opción **[!UICONTROL Share in Adobe Marketing Cloud]**.
-
-

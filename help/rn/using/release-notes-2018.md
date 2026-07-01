@@ -33,7 +33,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
+source-git-commit: 1e34b244937569402d8fe873f6dd67f20b9a9a29
 workflow-type: tm+mt
 source-wordcount: 5477
 ht-degree: 8%
@@ -71,7 +71,7 @@ ht-degree: 8%
 
 **Otros cambios**
 
-* En los registros generales hay ahora una distinción entre el número máximo de conexiones y el número máximo de mensajes por hora. Cuando se alcanzan los límites, es posible saber por qué el rendimiento está limitado. Anteriormente, el mismo mensaje (“cuota alcanzada”) se aplica a ambos casos.
+* En los registros generales hay ahora una distinción entre el número máximo de conexiones y el número máximo de mensajes por hora. Cuando se alcanzan los límites, es posible saber por qué el rendimiento está limitado. Anteriormente, el mismo mensaje (&quot;cuota alcanzada&quot;) se aplicaba a ambos casos.
 * Al configurar una aplicación móvil en Campaign, el usuario ahora puede saber si el certificado de iOS y la clave del servidor de Android se han cargado correctamente y su fecha de caducidad.
 
   Para obtener más información, consulte la documentación detallada sobre cómo configurar una aplicación móvil con [SDK V4](https://helpx.adobe.com/es/campaign/kb/configuring-app-sdkv4.html) y [SDK V5](https://helpx.adobe.com/es/campaign/kb/configuring-app-sdk.html).
@@ -285,7 +285,7 @@ ht-degree: 8%
 
 _Plataforma_
 
-* Se ha corregido un error que podía impedir que se procesaran correctamente las solicitudes de eliminación o acceso de RGPD. Este comportamiento se ha observado en algunos casos excepcionales en los que los datos extraídos contenían uno de los siguientes caracteres: &amp; &lt; > &quot; &#39;.
+* Se ha corregido un error que podía impedir que se procesaran correctamente las solicitudes de eliminación o acceso de RGPD. Este comportamiento se ha observado en algunos casos excepcionales en los que los datos extraídos contenían uno de los siguientes caracteres: `& < > " '`.
 
 _Correos electrónicos, mensajes SMS y correo directo_
 
@@ -319,7 +319,7 @@ _Recursos personalizados_
  <tbody> 
   <tr> 
    <td> Reglamento General de Protección de Datos.<br /> </td> 
-   <td> El Reglamento General de Protección de Datos (RGPD) es la nueva normativa sobre privacidad de la Unión Europea que unifica y moderniza los requisitos de protección de datos y entrará en vigencia el 25 de mayo de 2018. El RGPD se aplica a los clientes de Adobe Campaign que albergan datos de sujetos de datos que residan en la UE.<br /> Además de las funciones de privacidad ya disponibles en Adobe Campaign (incluida la administración de consentimientos, la configuración de retención de datos y las funciones de usuario), aprovechamos esta oportunidad en nuestra función de procesador de datos para incluir funciones adicionales que le ayudarán a prepararse como controlador de datos para determinadas solicitudes de RGPD:<br /> <ul> 
+   <td> El RGPD es la nueva ley de privacidad de la Unión Europea (UE) que armoniza y moderniza los requisitos de protección de datos y entrará en vigencia el 25 de mayo de 2018. El RGPD se aplica a los clientes de Adobe Campaign que albergan datos de sujetos de datos que residan en la UE.<br /> Además de las funciones de privacidad ya disponibles en Adobe Campaign (incluida la administración de consentimientos, la configuración de retención de datos y las funciones de usuario), aprovechamos esta oportunidad en nuestra función de procesador de datos para incluir funciones adicionales que le ayudarán a prepararse como controlador de datos para determinadas solicitudes de RGPD:<br /> <ul> 
      <li> Derecho de acceso: permite que el sujeto de datos reciba una copia de sus datos personales capturados por los controladores de datos, incluso los datos almacenados en Adobe Campaign. </li> 
      <li> Derecho a eliminación: autoriza al sujeto de datos a que sus datos personales recopilados por los controladores de datos se borren, lo que incluye datos almacenados en Adobe Campaign. </li> 
     </ul> Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=es">documentación detallada</a>.<br /> </td> 
@@ -384,7 +384,7 @@ _Integraciones_
 * Se ha corregido un problema que impedía que los caracteres internacionales se enviaran correctamente a Adobe Analytics.
 * Assets debería cargarse más rápido al intentar insertar una imagen de la biblioteca de recursos de Experience Cloud en un mensaje.
 * Se ha corregido un problema que podía impedir que se cerrara la ventana de selección de recursos en algunos casos.
-* Desde los detalles de una fuente de datos, ahora puede acceder directamente a su flujo de trabajo relacionado para comprobar el estado del flujo de trabajo.
+* Desde un detalle de fuente de datos, ahora puede acceder directamente a su flujo de trabajo relacionado para comprobar el estado del flujo de trabajo.
 * Ahora puede actualizar el esquema de Déclencheur directamente al definir o editar un evento de déclencheur. Con este cambio, ya no tiene que cancelar la publicación del déclencheur y crear otro.
 
 _Mensajes transaccionales_
@@ -487,7 +487,7 @@ Pueden producirse algunos problemas al utilizar vínculos de ayuda contextual de
   </tr> 
   <tr> 
    <td> Entregas optimizadas para husos horarios<br /> </td> 
-   <td> Programe notificaciones recurrentes por correo electrónico, SMS y push para que se entreguen en un día u hora específico en el huso horario de cada destinatario, lo que garantiza que los mensajes se envíen en el momento adecuado sin necesidad de configurar varios envíos. <br /> Para obtener más información, consulte la <a href="../../automating/using/scheduler.md">documentación detallada</a>.<br /> </td> 
+   <td> Programe notificaciones recurrentes por correo electrónico, SMS y push para que se envíen en un día u hora específico en el huso horario de cada destinatario, lo que garantiza que los mensajes se envíen en el momento adecuado sin configurar varios envíos. <br /> Para obtener más información, consulte la <a href="../../automating/using/scheduler.md">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Activación de actividad de señal API <br /> </td> 
@@ -537,5 +537,3 @@ _Perfiles y audiencias_
 * Se ha añadido información de objeto que muestra el número de resultado exacto después de contar la población de una consulta.
 * Se ha corregido un problema que podía impedir que un usuario seleccionara una audiencia o cerrara la ventana del selector de audiencias.
 * Se ha actualizado la lista de funciones disponibles en el editor de expresiones. Se han quitado las funciones **FormatCurrency** y **ConvertCurrency**.
-
-
