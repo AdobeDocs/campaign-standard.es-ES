@@ -1,13 +1,13 @@
 ---
 title: Personalización de listas
-description: '"Aprenda a personalizar la visualización y a actuar en las pantallas de lista de Adobe Campaign Standard: ordenar, filtrar, eliminar o duplicar elementos. Las pantallas de listas muestran elementos de uno o varios recursos determinados".'
+description: 'Aprenda a personalizar la visualización y a actuar en las pantallas de lista en Adobe Campaign Standard: ordenar, filtrar, eliminar o duplicar elementos. Las pantallas de listas muestran elementos de uno o varios recursos determinados.'
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 19%
+source-wordcount: '584'
+ht-degree: 24%
 
 ---
 
@@ -69,7 +69,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mau
 
 Obtenga la atención de sus clientes y mejore su tasa de respuesta mediante el uso de contenido y encabezados personalizados según sus perfiles, sus preferencias y su actividad. Toda la información de sus clientes está centralizada en Adobe Campaign y puede ofrecer mensajes con contenido adaptado a través de diferentes canales.
 
-Los mensajes personalizados son esenciales para enviar contenido relevante, ofrecer experiencias personalizadas y aumentar las tasas de apertura y conversión. Los mensajes multicanal enviados por Adobe Campaign se pueden personalizar de varias formas diferentes. Estas formas se pueden combinar con criterios según los perfiles. Puede hacer lo siguiente:
+Los mensajes personalizados son esenciales para enviar contenido relevante, ofrecer experiencias personalizadas y aumentar las tasas de apertura y conversión. Los mensajes multicanal enviados por Adobe Campaign se pueden personalizar de varias formas diferentes. Estas formas se pueden combinar con criterios según los perfiles. Se puede:
 
 * Inserte [campos de personalización dinámicos](../../designing/using/personalization.md#inserting-a-personalization-field) en sus mensajes
 * Insertar [bloques de personalización predefinidos](../../designing/using/personalization.md#adding-a-content-block)
@@ -104,7 +104,7 @@ Con Adobe Campaign, puede monitorizar y rastrear cada envío individualmente. El
 **Más información**
 
 * [Acceso a informes](../../reporting/using/about-dynamic-reports.md)
-* [Seguimiento de un envío](../../sending/using/monitoring-a-delivery.md)
+* [Seguimiento de una entrega](../../sending/using/monitoring-a-delivery.md)
 * [Seguimiento de mensajes](../../sending/using/tracking-messages.md)
 
 ## Configurar informes
