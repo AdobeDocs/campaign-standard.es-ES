@@ -6,10 +6,10 @@ role: User
 level: Beginner
 hide: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
+source-git-commit: a86fd995b57d9c0e672611d99a3063a2baab15db
 workflow-type: tm+mt
-source-wordcount: '7629'
-ht-degree: 100%
+source-wordcount: '7650'
+ht-degree: 99%
 
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 100%
 
 Además de las [Notas de la versión](../../rn/using/release-notes.md) de Adobe Campaign, esta página enumera todas las nuevas actualizaciones de la documentación de Adobe Campaign Standard.
 
+
+## Junio de 2026 {#doc-updates-june-2026}
+
+Se ha añadido una página sobre las directrices de CNIL para los píxeles de seguimiento de correo electrónico y las funciones de Adobe Campaign Standard relacionadas. [Más información](../../administration/using/cnil-pixel-tracking.md)
 
 ## Versión 24.1: invierno de 2024 {#release-24-1}
 
@@ -588,7 +592,7 @@ La guía Automatización se ha actualizado con enlaces a actividades de flujo de
 
 Se ha actualizado la sección Cálculo de indicador para los informes dinámicos. [Más información](../../reporting/using/indicator-calculation.md)
 
-Se ha añadido una tabla de compatibilidad de creación de informes dinámicos para comprender mejor la compatibilidad entre dimensiones y métricas. [Más información](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=es)
+Se ha añadido una tabla de compatibilidad de creación de informes dinámicos para comprender mejor la compatibilidad entre dimensiones y métricas. [Más información](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 Se ha actualizado la lista de funciones para los flujos de trabajo. [Más información](../../automating/using/list-of-functions.md)
 
@@ -866,7 +870,7 @@ La actividad **[!UICONTROL Subscription Services]** se ha actualizado para admit
 
 Se ha añadido un caso de uso paso a paso sobre cómo preparar una entrega. [Más información](../../sending/using/preparing-the-send.md)
 
-Se ha eliminado la sección que incluye la lista de autorizaciones. [Más información](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=es) (PDF).
+Se ha eliminado la sección que incluye la lista de autorizaciones. [Más información](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf) (PDF).
 
 Se ha añadido un caso de uso paso a paso sobre cómo usar la respuesta automática de SMS. [Más información](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -1038,7 +1042,7 @@ Ahora hay disponible una nueva nota técnica: “Integración del SDK móvil de 
 
 Se añadieron instrucciones para configurar el servicio principal People o la integración de Audience Manager con Adobe Campaign. [Más información](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-Se ha revisado la tabla de autorizaciones para que el uso de ciertas funciones sea más claro. [Más información](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=es)
+Se ha revisado la tabla de autorizaciones para que el uso de ciertas funciones sea más claro. [Más información](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 Actualización de los enlaces de ayuda contextual disponibles directamente desde Adobe Campaign.
 
