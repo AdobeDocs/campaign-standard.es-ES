@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: Documentación del producto de Adobe Campaign Standard.
 title: Guía de Campaign Standard
 breadcrumb-title: Documentación de Campaign Standard
-source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
+source-git-commit: f097d24265d3542ca8fc8a7f2727c49e7a21e773
 workflow-type: tm+mt
-source-wordcount: '1796'
-ht-degree: 100%
+source-wordcount: '1802'
+ht-degree: 99%
 
 ---
 
@@ -436,6 +436,7 @@ ht-degree: 100%
    + Configuración de canales {#configuring-channels}
       + [Acerca de la configuración de canales](administration/using/about-channel-configuration.md)
       + [Configuración de canales de correo electrónico](administration/using/configuring-email-channel.md)
+      + {hide-from-toc}[Guía de CNIL sobre píxeles de seguimiento de correo electrónico](administration/using/cnil-pixel-tracking.md)
       + {hide-from-toc}[Actualización de la calificación de rechazos después de una interrupción del ISP](administration/using/update-bounce-qualification.md)
       + [Configuración de una aplicación móvil](administration/using/configuring-a-mobile-application.md)
    + Configuración de canales móviles {#configuring-mobile}
