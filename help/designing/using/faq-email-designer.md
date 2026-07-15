@@ -8,7 +8,7 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: f3208380-a4cf-4944-aa24-883995d1075d
-TQID: https://experienceleague.adobe.com/E-pr-K2MhoGRnz46df3Dz---s3NRdSbweBFhTAMgSw4
+TQID: https://experienceleague.adobe.com/E-pr-K2MhoGRnz46df3Dz%2D%2D%2Ds3NRdSbweBFhTAMgSw4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 role_v2:
@@ -17,7 +17,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+source-git-commit: 116306c9479f7094cb2cb78b7fe2df31a508c9cd
 workflow-type: tm+mt
 source-wordcount: 445
 ht-degree: 7%
@@ -43,8 +43,7 @@ Puede agregar relleno utilizando la ruta de exploración de HTML.
    ![](assets/do-not-localize/breadcrumb.png)
 
 1. Haga clic en el elemento al que desee añadir un relleno.
-1. Haga clic en la etiqueta principal en la ruta de exploración de HTML.
-Ahora puede agregar un relleno a este elemento.
+1. Haga clic en la etiqueta principal en la ruta de exploración de HTML.Ahora puede agregar un relleno a este elemento.
 
 ## ¿Puedo importar contenido de HTML en el Designer de correo electrónico?
 
@@ -54,8 +53,7 @@ Para obtener más información, consulte [Modo de compatibilidad](../../designin
 
 ## ¿Cómo creo mi primer contenido de correo electrónico?
 
-En primer lugar, cree un correo electrónico desde la página principal.
-A continuación, para añadir contenido a un correo electrónico, debe añadir un componente de estructura e insertar un componente de contenido en él.
+En primer lugar, cree un correo electrónico desde la página principal.A continuación, para añadir contenido a un correo electrónico, debe añadir un componente de estructura e insertar un componente de contenido en él.
 
 Para obtener más información, consulte [Creación de un correo electrónico desde cero](../../designing/using/quick-start.md#from-scratch-email)
 
