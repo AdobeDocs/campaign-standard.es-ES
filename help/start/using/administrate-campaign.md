@@ -1,13 +1,13 @@
 ---
 title: Personalización de listas
-description: '"Aprenda a personalizar la visualización y a actuar en las pantallas de lista de Adobe Campaign Standard: ordenar, filtrar, eliminar o duplicar elementos. Las pantallas de listas muestran elementos de uno o varios recursos determinados".'
+description: 'Aprenda a personalizar la visualización y a actuar en las pantallas de lista en Adobe Campaign Standard: ordenar, filtrar, eliminar o duplicar elementos. Las pantallas de listas muestran elementos de uno o varios recursos determinados.'
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 8%
+source-wordcount: '294'
+ht-degree: 23%
 
 ---
 
