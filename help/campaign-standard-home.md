@@ -20,10 +20,10 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e6bc6cdc81a89cded1fa59e6a22c5a3bfaf84363
-workflow-type: ht
-source-wordcount: 227
-ht-degree: 100%
+source-git-commit: 437c3f380f03b901309160572c0ee1dda0369225
+workflow-type: tm+mt
+source-wordcount: 584
+ht-degree: 95%
 
 ---
 
@@ -90,7 +90,7 @@ Aprenda a compartir datos entre Campaign y la plataforma de datos del cliente en
   <tr style="border: 0;">
     <td>
       <img src="assets/do-not-localize/icon-quick-start.svg" width="35px"><br/>
-      <strong>Experiencia del cliente</strong><br/><a href="sending/using/track-and-monitor.md">Supervisión de mensajes</a> - <a href="channels/using/getting-started-with-transactional-msg.md">Mensajería transaccional</a> - <a href="channels/using/getting-started-with-landing-pages.md">Páginas de aterrizaje</a> - <a href="reporting/using/about-dynamic-reports.md">Creación de informes</a> - <a href="start/using/privacy-management.md">Privacidad</a>
+      <strong>Experiencia del cliente</strong><br/><a href="sending/using/track-and-monitor.md">Monitorización de mensajes</a> - <a href="channels/using/getting-started-with-transactional-msg.md">Mensajería transaccional</a> - <a href="channels/using/getting-started-with-landing-pages.md">Páginas de aterrizaje</a> - <a href="reporting/using/about-dynamic-reports.md">Creación de informes</a> - <a href="start/using/privacy-management.md">Privacidad</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-configure.svg" width="35px"><br/>
@@ -121,9 +121,9 @@ Aprenda a compartir datos entre Campaign y la plataforma de datos del cliente en
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Páginas útiles</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es" target="_blank">Tutoriales</a> - <a href="https://helpx.adobe.com/es/legal/product-descriptions/campaign-standard.html" target="_blank">Descripción del producto</a> - <a href="rn/using/deprecated-features.md">Funciones en desuso y eliminadas</a> - <a href="rn/using/release-planning.md">Planificación de versiones</a> - <a href="administration/using/cnil-pixel-tracking.md">Guía de la CNIL sobre píxeles de seguimiento de correo electrónico</a>
+<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=es" target="_blank">Tutoriales</a> - <a href="https://helpx.adobe.com/es/legal/product-descriptions/campaign-standard.html" target="_blank">Descripción del producto</a> - <a href="rn/using/deprecated-features.md">Funciones obsoletas y eliminadas</a> - <a href="rn/using/release-planning.md">Planificación de versiones</a> - <a href="administration/using/cnil-pixel-tracking.md">Directrices de CNIL sobre los píxeles de seguimiento de correo electrónico</a>
 </td>
 <td><strong>Recursos técnicos</strong><br/>
-<a href="integrating/using/about-adobe-experience-cloud-triggers.md">Activadores de Experience Cloud</a> - <a href="api/using/get-started-apis.md">API de Campaign</a> - <a href="https://helpx.adobe.com/es/campaign/kb/acs-article-list.html" target="blank">Notas técnicas</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es" target="_blank">Documentación del Panel de control</a> - <a href="https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=es">Lista de mensajes de error</a>
+<a href="integrating/using/about-adobe-experience-cloud-triggers.md">déclencheur de Experience Cloud</a> - <a href="api/using/get-started-apis.md">API de Campaign</a> - <a href="https://helpx.adobe.com/es/campaign/kb/acs-article-list.html" target="blank">Notas técnicas</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es" target="_blank">Documentación de Panel de control de Campaign</a>
 </td>
 </tr></table>
