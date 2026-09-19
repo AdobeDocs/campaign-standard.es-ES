@@ -1,18 +1,16 @@
 ---
-title: Notas de la versión de 2025
+title: Notas de la versión 2025
 description: Esta página enumera todas las versiones de 2025 de Adobe Campaign Standard
 feature: Overview
 role: User
 level: Beginner
-exl-id: e1f55a9b-be51-4f57-8719-fed7efc89114
-source-git-commit: 4df02bb5bbac105057a33d61a7158482bbc48a53
+exl-id: 9046db34-f610-4721-b6eb-92334149366d
+source-git-commit: 4e39100c19fa7bd943b16e3ed87b8c2d82bdf814
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 100%
-
+ht-degree: 94%
 ---
-
-# Notas de la versión de 2025 {#release-notes-2025}
+# Notas de la versión 2025 {#release-notes-2025}
 
 ## Versión 25.2: verano de 2025 {#summer-25}
 
@@ -58,4 +56,3 @@ ht-degree: 100%
 * Se ha corregido un problema de rendimiento en el proceso de facturación (CAMP-56796)
 * Se ha corregido un problema de codificación de HTML con el carácter `>` en las páginas web de JSSP (CAMP-56497)
 * Se ha corregido un problema en la creación de informes dinámicos al usar la opción **Mostrar en las filas seleccionadas** (CAMP-55895)
-
