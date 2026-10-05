@@ -6,17 +6,16 @@ content-type: reference
 topic-tags: campaign-standard-apis
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 0%
+source-wordcount: '145'
+ht-degree: 6%
 
 ---
-
 
 # Acerca de unidades geográficas {#about-geographical-units}
 
 >[!CAUTION]
 >
->La función de unidad geográfica ha quedado obsoleta con la versión de Campaign Standard 18.7.
+>La función de unidad geográfica ha quedado obsoleta con la versión 18.7 de Campaign Standard.
 >
 >Como resultado, las nuevas instancias de Campaign Standard, así como las instancias existentes sin crear unidades geográficas, no pueden tener esta capacidad implementada a partir de la versión 18.7.
 >

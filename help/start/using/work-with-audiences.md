@@ -1,16 +1,14 @@
 ---
 title: Personalización de listas
-description: '"Aprenda a personalizar la visualización y a actuar en las pantallas de lista de Adobe Campaign Standard: ordenar, filtrar, eliminar o duplicar elementos. Las pantallas de listas muestran elementos de uno o varios recursos determinados".'
+description: 'Aprenda a personalizar la visualización y a actuar en las pantallas de lista en Adobe Campaign Standard: ordenar, filtrar, eliminar o duplicar elementos. Las pantallas de listas muestran elementos de uno o varios recursos determinados.'
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 6%
-
+source-wordcount: '789'
+ht-degree: 9%
 ---
-
 
 # Uso de perfiles y audiencias
 
@@ -86,7 +84,7 @@ Estos contactos se pueden ver en la lista Perfiles y se pueden segmentar en camp
 
 >[!NOTE]
 >
->Tenga en cuenta que el conector de Campaign Standard-Microsoft Dynamics 365 está actualmente en disponibilidad limitada y que está sujeto a varias limitaciones, detalladas en la documentación.
+>Tenga en cuenta que el conector Campaign Standard-Microsoft Dynamics 365 está actualmente en disponibilidad limitada y que está sujeto a varias limitaciones que se detallan en la documentación.
 
 **Más información**
 
@@ -116,8 +114,8 @@ Gracias a los flujos de trabajo y al editor de consultas, puede crear audiencias
 
 **Más información**
 
-* [Acerca de las audiencias](../../audiences/using/about-audiences.md)
-* [Creación de audiencias](../../audiences/using/creating-audiences.md)
+* [Acerca de los públicos](../../audiences/using/about-audiences.md)
+* [Creación de públicos](../../audiences/using/creating-audiences.md)
 
 ## Administración de la privacidad {#privacy-management}
 
