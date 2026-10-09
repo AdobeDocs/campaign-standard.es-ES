@@ -11,17 +11,18 @@ exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 TQID: https://experienceleague.adobe.com/J9pNnea7LEzzIOs3B8lLWG7DhVI-iytVfpArC3Xdy94
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Beginner
+source-git-commit: 85ffa7d709dc970ab5315fb76577c457380b40f8
 workflow-type: tm+mt
-source-wordcount: 411
-ht-degree: 100%
-
+source-wordcount: '417'
+ht-degree: 94%
 ---
-
 # Planificación de versiones {#release-planning}
 
 Adobe mejora continuamente sus soluciones añadiendo nuevas funciones, mejoras y correcciones.
@@ -30,39 +31,13 @@ Todas las instancias de Adobe Campaign Standard se actualizan con cada nueva ver
 
 Las actualizaciones se implementan en dos fases. En primer lugar, las instancias de prueba se actualizan para permitirle probar nuevas funciones y adaptar su configuración si es necesario. Las instancias de producción se actualizan posteriormente.
 
-Todas las fechas de las versiones están sujetas a cambios: visite esta página regularmente para buscar actualizaciones. Las actualizaciones de entorno se producen en olas, durante los intervalos de tiempo indicados a continuación. Las fechas exactas se comunican por correo electrónico a cada cliente.
+Todas las fechas de las versiones están sujetas a cambios: visite esta página regularmente para buscar actualizaciones. Las actualizaciones de entorno se producen en olas. Las fechas exactas se comunican por correo electrónico a cada cliente.
 
 ## Versión 26.3 {#release-26-3-release}
 
 Encontrará información detallada acerca de esta versión en las [Notas de la versión](release-notes.md) cuando comiencen las actualizaciones del entorno de ensayo.
 
-<table>
- <thead>
-  <tr>
-   <th> Entornos </th>
-   <th> Fechas</th>
-   <!--
-   <th> General Availability </th>
-   -->
-  </tr>
- </thead>
- <tbody>
-  <tr>
-   <td>Prueba </td>
-   <td>Agosto </td>
-   <!--
-   <td>2025 - Dates to be confirmed</td>
-   -->
-  </tr>
-  <tr>
-   <td>Producción </td>
-   <td>Septiembre </td>
-   <!--
-   <td>2025 - Dates to be confirmed</td>
-   -->
-  </tr>
- </tbody>
-</table>
+Las fechas de actualización para la versión 26.3 aún no están disponibles. Visite esta página regularmente para buscar actualizaciones.
 
 ## Preguntas y respuestas {#questions-and-answers}
 
