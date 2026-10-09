@@ -9,25 +9,32 @@ exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 TQID: https://experienceleague.adobe.com/veKfBzSOBLDuuVmwQjSQoa3cb-fY4jUigBdGTCUL8pM
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+    internal-label: Application settings
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: 690eddf477a139564babaa4e39cc66d095371480
 workflow-type: tm+mt
-source-wordcount: 2782
+source-wordcount: '2782'
 ht-degree: 55%
-
 ---
-
 # Configuración del canal de correo electrónico{#configuring-email-channel}
 
 Como [administrador](../../administration/using/users-management.md#functional-administrators) de Campaign, puede configurar los canales de correo electrónico. Estas opciones avanzadas incluyen parámetros generales de canal de correo electrónico, cuentas de enrutamiento de correo electrónico, reglas de procesamiento de correo electrónico y propiedades de correo electrónico. En esta página, aprenderá a editar los valores predeterminados del correo electrónico general y a enviar parámetros.
@@ -44,10 +51,10 @@ La pantalla de configuración de correo electrónico le permite definir los par�
 
   Adobe Campaign comprueba que las direcciones especificadas son válidas durante la fase de preparación del mensaje. Este modo operativo garantiza que no se utilicen direcciones que puedan activar problemas de la capacidad de entrega.
 
-   * Adobe configura las direcciones del remitente y de error. Estos campos no pueden estar vacíos.
-   * No puede editar esos campos. Para actualizar una dirección, póngase en contacto con el equipo de Atención al cliente de Adobe.
-   * Para agregar otra dirección, puede usar [Panel de control de Campaign de campaña](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=es) para configurar un nuevo subdominio o ponerse en contacto con el equipo de atención al cliente de Adobe. Tenga en cuenta que si se utilizan varias máscaras, se separan con comas.
-   * Se recomienda configurar las direcciones con un asterisco como **@yourdomain.com**, de modo que pueda usar cualquier dirección que termine con su nombre de subdominio.
+  * Adobe configura las direcciones del remitente y de error. Estos campos no pueden estar vacíos.
+  * No puede editar esos campos. Para actualizar una dirección, póngase en contacto con el equipo de Atención al cliente de Adobe.
+  * Para agregar otra dirección, puede usar [Panel de control de Campaign de campaña](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=es) para configurar un nuevo subdominio o ponerse en contacto con el equipo de atención al cliente de Adobe. Tenga en cuenta que si se utilizan varias máscaras, se separan con comas.
+  * Se recomienda configurar las direcciones con un asterisco como **@yourdomain.com**, de modo que pueda usar cualquier dirección que termine con su nombre de subdominio.
 
 * **Capacidad de entrega**
 
@@ -237,10 +244,10 @@ La sección **[!UICONTROL Validity period]** contiene los siguientes parámetros
 * **[!UICONTROL Resource validity duration]** / **[!UICONTROL Validity limit date for resources]**: este campo se utiliza para los recursos cargados, principalmente para la página espejo y las imágenes. Los recursos de esta página son válidos durante un tiempo limitado (para ahorrar espacio en el disco).
 * **[!UICONTROL Mirror page management]**: la página espejo es una página HTML accesible en línea mediante un explorador web. Su contenido es idéntico al contenido del correo electrónico. De forma predeterminada, la página espejo se genera si el vínculo se inserta en el contenido del correo. Utilice este campo para modificar cómo se genera esta página:
 
-   * **[!UICONTROL Generate the mirror page if a mirror link appears in the email content]** (modo predeterminado): la página espejo se genera si el vínculo se inserta en el contenido del correo.
-   * **Forzar la generación de la página espejo**: incluso si no se inserta ningún vínculo a la página espejo en el mensaje se creará la página espejo.
-   * **No generar la página espejo**: no se genera ninguna página espejo, aunque el vínculo esté en los mensajes.
-   * **Genera una página espejo accesible solo con el ID de mensaje**: esta opción permite acceder al contenido de la página espejo, con información de personalización, en la ventana del registros de entregas.
+  * **[!UICONTROL Generate the mirror page if a mirror link appears in the email content]** (modo predeterminado): la página espejo se genera si el vínculo se inserta en el contenido del correo.
+  * **Forzar la generación de la página espejo**: incluso si no se inserta ningún vínculo a la página espejo en el mensaje se creará la página espejo.
+  * **No generar la página espejo**: no se genera ninguna página espejo, aunque el vínculo esté en los mensajes.
+  * **Genera una página espejo accesible solo con el ID de mensaje**: esta opción permite acceder al contenido de la página espejo, con información de personalización, en la ventana del registros de entregas.
 
   >[!IMPORTANT]
   >

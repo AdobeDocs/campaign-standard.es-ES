@@ -11,19 +11,21 @@ exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
 TQID: https://experienceleague.adobe.com/RK13F3Nw-2wxI9rKip-XKDJ3xi0hgpwI-F1uGcKoFKM
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Personalization
+source-git-commit: 690eddf477a139564babaa4e39cc66d095371480
 workflow-type: tm+mt
-source-wordcount: 1238
+source-wordcount: '1238'
 ht-degree: 18%
-
 ---
-
 # Diseño de correos electrónicos desde cero {#designing-an-email-content-from-scratch}
 
 Obtenga información sobre cómo dominar la edición de contenido de correo electrónico. Con Email Designer, puede crear correos electrónicos y plantillas que comiencen por su propio contenido predefinido o no.
@@ -39,7 +41,7 @@ Estos son los pasos principales para crear y diseñar un contenido de correo ele
 1. Previsualice el correo electrónico.
 1. Guarde el contenido y continúe con el mensaje después de asegurarse de haber definido una audiencia y de haber programado correctamente el envío.
 
-También puedes ver este [vídeo de introducción](https://video.tv.adobe.com/v/330103/?captions=spa&autoplay=true&hidetitle=true).
+También puedes ver este [vídeo de introducción](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true).
 
 >[!NOTE]
 >
