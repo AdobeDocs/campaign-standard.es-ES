@@ -87,7 +87,7 @@ Si proporciona **vínculos para darse de baja** en sus mensajes, los perfiles po
 
 >[!IMPORTANT]
 >
->Debe respetar la [política de uso aceptable de Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
+>Debe respetar la [política de uso aceptable de Adobe Campaign](https://www.adobe.com/es/legal/terms/aup.html).
 
 Más información:
 
