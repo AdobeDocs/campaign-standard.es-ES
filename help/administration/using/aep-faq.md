@@ -39,7 +39,7 @@ Para obtener más información sobre notificaciones push o en la aplicación, co
 
 Consulte los recursos siguientes para obtener más información sobre la integración de Adobe Experience Platform SDK y Campaign Standard:
 
-* [Vídeo de información general](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video){target="_blank"} de Launch/Mobile
+* [Vídeo de información general](https://www.adobe.com/es/experience-platform/launch.html#acpl-mobile-video){target="_blank"} de Launch/Mobile
 * [Guía de sugerencias y trucos para Launch/Mobile](https://www.adobe.com/content/dam/dx/us/en/products/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
 
 ## ¿La integración de Adobe Experience Platform SDK está disponible tanto para Adobe Campaign Standard como para Adobe Campaign Classic? {#aep-validity}
