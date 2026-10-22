@@ -40,7 +40,7 @@ En el panel de control de mensajes, el bloque **[!UICONTROL Schedule]** permite 
 
 Las propiedades de **[!UICONTROL Schedule]** le permiten establecer opciones de envío de correos electrónicos, SMS o notificaciones push:
 
-* **[!UICONTROL Messages to be sent once confirmed]**: los mensajes se envían en cuanto se confirma el envío. Consulte [Confirmando el envío ](../../sending/using/confirming-the-send.md) .
+* **[!UICONTROL Messages to be sent once confirmed]**: los mensajes se envían en cuanto se confirma el envío. Consulte [Confirmando el envío &#x200B;](../../sending/using/confirming-the-send.md) .
 
   ![](assets/delivery_planning_1.png)
 

@@ -126,7 +126,7 @@ Para ello:
 
    ![](assets/control-group-define-target-exclusion.png)
 
-1. Defina los criterios de exclusión mediante el [editor de consultas](../../automating/using/editing-queries.md). También puede seleccionar un público](../../audiences/using/about-audiences.md) que se haya creado anteriormente.[
+1. Defina los criterios de exclusión mediante el [editor de consultas](../../automating/using/editing-queries.md). También puede seleccionar un público[&#128279;](../../audiences/using/about-audiences.md) que se haya creado anteriormente.
 
    ![](assets/control-group-target-exclusion.png)
 
