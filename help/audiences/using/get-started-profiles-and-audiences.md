@@ -101,7 +101,7 @@ Si proporciona **vínculos para darse de baja** en sus mensajes, los perfiles po
 
 >[!IMPORTANT]
 >
->Debe respetar la [política de uso aceptable de Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
+>Debe respetar la [política de uso aceptable de Adobe Campaign](https://www.adobe.com/es/legal/terms/aup.html).
 
 Más información:
 
@@ -124,4 +124,4 @@ La privacidad y el consentimiento en Campaign y cómo administrarlos se presenta
 * [Uso de Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
 * [Audiencias compartidas de Adobe](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [Uso de flujos de trabajo para importar perfiles](../../automating/using/creating-import-workflow-templates.md)
-* [Vídeos de perfiles y audiencias](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
+* [Vídeos de perfiles y audiencias](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html?lang=es)
