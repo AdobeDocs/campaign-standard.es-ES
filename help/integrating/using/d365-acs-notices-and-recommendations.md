@@ -9,26 +9,42 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-TQID: https://experienceleague.adobe.com/nb1iMYLX1mkPlTN0vodjRWHh4QhHKUU091nEvq-rGDg
+TQID: 'https://experienceleague.adobe.com/nb1iMYLX1mkPlTN0vodjRWHh4QhHKUU091nEvq-rGDg'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Privacy
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 2582
+source-wordcount: '2582'
 ht-degree: 1%
-
 ---
-
 # Prácticas recomendadas y limitaciones {#acs-msdyn-best-practices}
 
 ## Administración de datos {#acs-msdyn-manage-data}
@@ -170,13 +186,13 @@ Al planificar el uso de esta integración, deben tenerse en cuenta las siguiente
 
   Utilice lo siguiente para ayudar a calcular el volumen de llamadas al motor desde la integración:
 
-   * Inserciones de registros (es decir, nuevo registro): 1 acceso al motor
-   * Eliminación de registros: 1 petición de motor
-   * Actualizaciones de registros: 2 llamadas al motor (solo 1 llamada si el registro de destino es idéntico al registro de origen, es decir, si no hay cambios en el registro de campaña)
+  * Inserciones de registros (es decir, nuevo registro): 1 acceso al motor
+  * Eliminación de registros: 1 petición de motor
+  * Actualizaciones de registros: 2 llamadas al motor (solo 1 llamada si el registro de destino es idéntico al registro de origen, es decir, si no hay cambios en el registro de campaña)
 
   Al estimar el volumen total de llamadas al motor de Campaign, es importante tener en cuenta otras fuentes de llamadas al motor, como páginas de aterrizaje, WebApps, JSSP, API, registros de aplicaciones móviles, etc.
 
-  Vea la información del paquete de Adobe Campaign Standard aquí: [https://helpx.adobe.com/es/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/es/legal/product-descriptions/campaign-standard.html)
+  Vea la información del paquete de Adobe Campaign Standard aquí: [https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/es/legal/product-descriptions/campaign-standard.html)
 
 * La integración admite un máximo de 15 millones de registros totales para la sincronización inicial con los recursos en Campaign. La sincronización incremental está limitada por el paquete de Adobe Campaign Standard.
 

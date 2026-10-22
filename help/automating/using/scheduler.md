@@ -10,20 +10,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 39f7b216-b3cd-4aa6-b5df-23e6805076df
-TQID: https://experienceleague.adobe.com/pOXtN7OIlZSZTe5WWHJjiSuX56sS5pGojHp79GWgRP4
+TQID: 'https://experienceleague.adobe.com/pOXtN7OIlZSZTe5WWHJjiSuX56sS5pGojHp79GWgRP4'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 877
+source-wordcount: '877'
 ht-degree: 52%
-
 ---
-
 # Planificador{#scheduler}
 
 ## Descripción {#description}
@@ -76,19 +85,19 @@ Al diseñar un flujo de trabajo programado que incluya varias actividades, debe 
 
    * Para ejecutar el flujo de trabajo periódicamente a lo largo del día, active la opción **[!UICONTROL Periodic]** y configure la periodicidad de ejecución:
 
-      1. En el campo **[!UICONTROL Repeat processing according to the following frequency (e.g. 2h)]**, especifique el intervalo con el que se debe ejecutar el flujo de trabajo (por ejemplo, cada 30 minutos, cada 2 horas).
+     1. En el campo **[!UICONTROL Repeat processing according to the following frequency (e.g. 2h)]**, especifique el intervalo con el que se debe ejecutar el flujo de trabajo (por ejemplo, cada 30 minutos, cada 2 horas).
 
-         >[!NOTE]
-         >
-         >Esta opción también permite frecuencias de repetición diarias, mensuales o anuales. Tenga en cuenta que, en este caso, el flujo de trabajo no se ejecutará varias veces al día, sino según la frecuencia especificada en este campo.
-         >
-         > Si el flujo de trabajo no requiere varias ejecuciones en un día, sino que debe ejecutarse diariamente, mensualmente o anualmente, se recomienda utilizar las opciones **[!UICONTROL Daily]**, **[!UICONTROL Monthly]** o **[!UICONTROL Yearly]** disponibles en la lista desplegable **[!UICONTROL Execution frequency]**.
+        >[!NOTE]
+        >
+        >Esta opción también permite frecuencias de repetición diarias, mensuales o anuales. Tenga en cuenta que, en este caso, el flujo de trabajo no se ejecutará varias veces al día, sino según la frecuencia especificada en este campo.
+        >
+        > Si el flujo de trabajo no requiere varias ejecuciones en un día, sino que debe ejecutarse diariamente, mensualmente o anualmente, se recomienda utilizar las opciones **[!UICONTROL Daily]**, **[!UICONTROL Monthly]** o **[!UICONTROL Yearly]** disponibles en la lista desplegable **[!UICONTROL Execution frequency]**.
 
-      1. En los campos de tiempo **[!UICONTROL Start]**/**[!UICONTROL End]**, defina la hora a la que debe comenzar y finalizar la ejecución del flujo de trabajo.
+     1. En los campos de tiempo **[!UICONTROL Start]**/**[!UICONTROL End]**, defina la hora a la que debe comenzar y finalizar la ejecución del flujo de trabajo.
 
-         Si no se especifica ninguna hora de finalización, la ejecución finaliza a medianoche (00:00:00 horas) y la siguiente ejecución se inicia al día siguiente a la hora de inicio especificada.
+        Si no se especifica ninguna hora de finalización, la ejecución finaliza a medianoche (00:00:00 horas) y la siguiente ejecución se inicia al día siguiente a la hora de inicio especificada.
 
-      1. En el campo **[!UICONTROL Start]** fecha, seleccione la fecha en la que debe comenzar la primera ejecución.
+     1. En el campo **[!UICONTROL Start]** fecha, seleccione la fecha en la que debe comenzar la primera ejecución.
 
    En el ejemplo siguiente, la actividad está configurada para ejecutar el flujo de trabajo cada 2 horas entre las 8:00 y las 5:00, a partir del 1 de marzo.
 

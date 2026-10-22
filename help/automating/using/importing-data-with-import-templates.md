@@ -9,20 +9,32 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 5e93b39e-cdd1-4632-8f65-dfa76a735626
-TQID: https://experienceleague.adobe.com/eGnAy8lTEYc5wTmUCHKbidvDKU--U6rt8UEHdi1d3ak
+TQID: 'https://experienceleague.adobe.com/eGnAy8lTEYc5wTmUCHKbidvDKU--U6rt8UEHdi1d3ak'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Security
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1095
+source-wordcount: '1095'
 ht-degree: 99%
-
 ---
-
 # Importación de datos con plantillas de importación{#importing-data-with-import-templates}
 
 La importación de datos le permite recopilar datos para alimentar la base de datos de Campaign.
@@ -63,14 +75,14 @@ Hay tres plantillas de solo lectura predeterminadas disponibles:
 * **[!UICONTROL Update Direct mail quarantines and delivery logs]**: esta plantilla puede servir de base para nuevas importaciones a fin de actualizar cuarentenas y registros de envío para el correo directo. El flujo de trabajo de la plantilla contiene las siguientes actividades:
 * **[!UICONTROL Import data]**: esta plantilla puede servir de base para que las nuevas importaciones inserten datos de un archivo en la base de datos. El flujo de trabajo de esta plantilla contiene las siguientes actividades:
 
-   * **[!UICONTROL Load file]**: esta actividad le permite cargar un archivo en el servidor de Adobe Campaign.
-   * **[!UICONTROL Update data]**: esta actividad le permite insertar datos del archivo en la base de datos.
+  * **[!UICONTROL Load file]**: esta actividad le permite cargar un archivo en el servidor de Adobe Campaign.
+  * **[!UICONTROL Update data]**: esta actividad le permite insertar datos del archivo en la base de datos.
 
 * **[!UICONTROL Import list]**: esta plantilla puede servir de base para que las nuevas importaciones creen un público de tipo **lista** a partir de los datos de un archivo. El flujo de trabajo de esta plantilla contiene las siguientes actividades:
 
-   * **[!UICONTROL Load file]**: esta actividad le permite cargar un archivo en el servidor de Adobe Campaign.
-   * **[!UICONTROL Reconciliation]**: esta actividad le permite vincular una dimensión de segmentación a los datos importados. Esto le permite crear un público de tipo **lista**. Si no se conoce la dimensión de segmentación de los datos importados, el público es de tipo **archivo**. Consulte [Dimensiones de segmentación y recursos](../../automating/using/query.md#targeting-dimensions-and-resources).
-   * **[!UICONTROL Save audience]**: esta actividad permite guardar datos importados en forma de público de tipo **lista**. El nombre del público guardado corresponde al nombre del archivo importado por el usuario y se añade un sufijo que especifica la fecha y la hora de la importación. Por ejemplo: “perfiles_20150406_151448”.
+  * **[!UICONTROL Load file]**: esta actividad le permite cargar un archivo en el servidor de Adobe Campaign.
+  * **[!UICONTROL Reconciliation]**: esta actividad le permite vincular una dimensión de segmentación a los datos importados. Esto le permite crear un público de tipo **lista**. Si no se conoce la dimensión de segmentación de los datos importados, el público es de tipo **archivo**. Consulte [Dimensiones de segmentación y recursos](../../automating/using/query.md#targeting-dimensions-and-resources).
+  * **[!UICONTROL Save audience]**: esta actividad permite guardar datos importados en forma de público de tipo **lista**. El nombre del público guardado corresponde al nombre del archivo importado por el usuario y se añade un sufijo que especifica la fecha y la hora de la importación. Por ejemplo: “perfiles_20150406_151448”.
 
 Estas plantillas predeterminadas son de solo lectura y no son visibles para los usuarios estándar. Para crear una plantilla disponible para los usuarios, siga estos pasos:
 

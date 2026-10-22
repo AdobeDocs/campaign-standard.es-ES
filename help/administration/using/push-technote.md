@@ -6,24 +6,38 @@ feature: Push
 role: Admin
 level: Experienced
 exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
-TQID: https://experienceleague.adobe.com/yBsPSuZxxsrM6Q2wzM7ctsrtUi2txyV8Nx4naMPfuMo
+TQID: 'https://experienceleague.adobe.com/yBsPSuZxxsrM6Q2wzM7ctsrtUi2txyV8Nx4naMPfuMo'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: a4657621-810c-498b-8a27-7ced9c176dda
+    internal-label: Push notifications
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1210
+source-wordcount: '1210'
 ht-degree: 6%
-
 ---
-
 # Cambios del canal de notificaciones push {#push-upgrade}
 
 Puede utilizar Campaign para enviar notificaciones push a dispositivos Android y iOS. Para ello, Campaign se basa en servicios de suscripción específicos. Algunos cambios importantes en el servicio Android Firebase Cloud Messaging (FCM) se lanzarán en 2024 y pueden afectar a su implementación de Adobe Campaign. Es posible que sea necesario actualizar la configuración de los servicios de suscripción para los mensajes push de Android a fin de que admitan este cambio.
@@ -68,7 +82,7 @@ To check if you are impacted, you can filter your **Services and Subscriptions**
 
 * Si sigue utilizando esta versión heredada de SDK, debe actualizar la implementación con Adobe Experience Platform SDK. Obtenga información sobre cómo migrar a Adobe Experience Platform SDK en [este artículo](sdkv4-migration.md).
 
-* Asegúrese de tener el permiso **Configuración de aplicación móvil** en la recopilación de datos de Adobe Experience Platform Mobile antes de realizar los pasos siguientes. [Más información](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=es#adobe-experience-platform-data-collection-permissions){target="_blank"}.
+* Asegúrese de tener el permiso **Configuración de aplicación móvil** en la recopilación de datos de Adobe Experience Platform Mobile antes de realizar los pasos siguientes. [Más información](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=en#adobe-experience-platform-data-collection-permissions){target="_blank"}.
 
 
 #### Procedimiento de transición {#fcm-transition-steps}
@@ -91,7 +105,7 @@ Para mover el entorno a HTTP v1, siga estos pasos:
 
    ![](assets/push_technote_3.png)
 
-1. Haga clic en el botón **Save.**
+1. Haga clic en el botón **Save**.
 
 >[!NOTE]
 >
@@ -160,7 +174,7 @@ Para mover las aplicaciones móviles de iOS al modo de autenticación basado en 
 
    ![](assets/push_technote_4.png)
 
-1. Haga clic **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Save]**.
 
 La aplicación de iOS ahora se mueve al modo de autenticación basado en token.
 

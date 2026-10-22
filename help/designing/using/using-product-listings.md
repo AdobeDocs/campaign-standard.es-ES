@@ -4,29 +4,41 @@ description: Aprenda a utilizar las listas de productos en el contenido de un me
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-context-tags: null
+context-tags:
 feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3c8ddd46-05b4-4414-ab2e-052d60da09e5
-TQID: https://experienceleague.adobe.com/dkHLMJ1OU3-chsOAaZbooc0tbLI8dmNENuUnEApEVS8
+TQID: 'https://experienceleague.adobe.com/dkHLMJ1OU3-chsOAaZbooc0tbLI8dmNENuUnEApEVS8'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
+subfeature_v2:
+  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 868
+source-wordcount: '865'
 ht-degree: 74%
-
 ---
-
 # Uso de listas de productos en un mensaje transaccional {#using-product-listings}
 
 >[!IMPORTANT]
@@ -37,7 +49,7 @@ Al editar el contenido de un correo electrónico transaccional, puede crear list
 
 Para añadir una lista de productos abandonados en un mensaje transaccional, siga los pasos a continuación.
 
-También puedes ver [este conjunto de vídeos](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=es#configure-product-listings-in-transactional-emails) explicando los pasos necesarios para configurar las listas de productos en un mensaje de correo electrónico transaccional.
+También puedes ver [este conjunto de vídeos](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html#configure-product-listings-in-transactional-emails) explicando los pasos necesarios para configurar las listas de productos en un mensaje de correo electrónico transaccional.
 
 >[!NOTE]
 >
@@ -67,7 +79,7 @@ Antes de poder usar una lista de productos en un mensaje transaccional, debe def
 
    >[!NOTE]
    >
-   >La opción **[!UICONTROL Column]** solo está disponible cuando se usa un componente de estructura de varias columnas ( **[!UICONTROL 2:2columna]**, **[!UICONTROL 3:3columna]** y **[!UICONTROL 4:4columna]** ). Al editar la lista de productos, rellene solo la primera columna: las demás columnas no se tendrán en cuenta. Para obtener más información sobre la selección de componentes de estructura, consulte [Definición de la estructura del correo electrónico](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+   >La opción **[!UICONTROL Column]** solo está disponible cuando se usa un componente de estructura de varias columnas ( **[!UICONTROL 2:2 column]**, **[!UICONTROL 3:3 column]** y **[!UICONTROL 4:4 column]** ). Al editar la lista de productos, rellene solo la primera columna: las demás columnas no se tendrán en cuenta. Para obtener más información sobre la selección de componentes de estructura, consulte [Definición de la estructura del correo electrónico](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 1. Seleccione la recopilación de datos que ha creado al configurar el evento relacionado con el mensaje transaccional. Puede encontrarlo en el nodo **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
 
@@ -97,7 +109,7 @@ Para obtener más información sobre la creación de una recopilación y los cam
 
 1. Seleccione **[!UICONTROL Add personalization field]** en la ventana **[!UICONTROL Image source URL]** que se abrirá.
 
-   En el nodo **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**, abra el nodo correspondiente a la recopilación que ha creado (aquí **[!UICONTROL Product list]**) y seleccione el campo de imagen que ha definido (aquí **[!UICONTROL Product image]**). Haga clic **[!UICONTROL Save]**.
+   En el nodo **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**, abra el nodo correspondiente a la recopilación que ha creado (aquí **[!UICONTROL Product list]**) y seleccione el campo de imagen que ha definido (aquí **[!UICONTROL Product image]**). Haga clic en **[!UICONTROL Save]**.
 
    ![](assets/message-center_loop_product-image.png)
 
@@ -107,7 +119,7 @@ Para obtener más información sobre la creación de una recopilación y los cam
 
    ![](assets/message-center_loop_product.png)
 
-1. En el nodo **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**, abra el nodo correspondiente a la recopilación que ha creado (aquí **[!UICONTROL Product list]**) y seleccione el campo que ha creado (aquí **[!UICONTROL Product name]**). Haga clic **[!UICONTROL Confirm]**.
+1. En el nodo **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**, abra el nodo correspondiente a la recopilación que ha creado (aquí **[!UICONTROL Product list]**) y seleccione el campo que ha creado (aquí **[!UICONTROL Product name]**). Haga clic en **[!UICONTROL Confirm]**.
 
    ![](assets/message-center_loop_product_node.png)
 
@@ -120,7 +132,7 @@ Para obtener más información sobre la creación de una recopilación y los cam
 
 1. Seleccione **[!UICONTROL Add personalization field]** en la ventana **[!UICONTROL Insert link]** que se abrirá.
 
-   En el nodo **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**, abra el nodo correspondiente a la recopilación que ha creado (aquí **[!UICONTROL Product list]**) y seleccione el campo URL que ha creado (aquí **[!UICONTROL Product URL]**). Haga clic **[!UICONTROL Save]**.
+   En el nodo **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**, abra el nodo correspondiente a la recopilación que ha creado (aquí **[!UICONTROL Product list]**) y seleccione el campo URL que ha creado (aquí **[!UICONTROL Product URL]**). Haga clic en **[!UICONTROL Save]**.
 
    >[!IMPORTANT]
    >

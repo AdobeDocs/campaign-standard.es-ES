@@ -10,22 +10,32 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 66623c76-96aa-45cd-9637-19d8a9732c04
-TQID: https://experienceleague.adobe.com/rEACKEIILPxKSh-KZ8bFkXqt1MvmffvCTbb2IaJhQ0I
+TQID: 'https://experienceleague.adobe.com/rEACKEIILPxKSh-KZ8bFkXqt1MvmffvCTbb2IaJhQ0I'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Email marketing
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1854
+source-wordcount: '1854'
 ht-degree: 0%
-
 ---
-
 # Sincronizar datos
 
 Puede sincronizar tablas de Microsoft Dynamics 365 a las métricas de marketing de Campaign y de Campaign a Microsoft Dynamics 365. La sincronización se ejecuta mediante tres flujos de trabajo técnicos dedicados: **[!UICONTROL Microsoft Dynamics 365 to Campaign]**, **[!UICONTROL Campaign to Microsoft Dynamics 365]**, **[!UICONTROL Opt-In/Out]**. Consulte esta sección para [obtener más información](../../integrating/using/d365-acs-self-service-app-workflows.md).
@@ -48,25 +58,25 @@ Esta es una descripción de cada una de las columnas de esta tabla:
 
 * **[!UICONTROL ACTIONS]**: a continuación se enumeran las posibles acciones:
 
-   * Haga clic en el icono **[!UICONTROL Edit]** para editar esta asignación.
+  * Haga clic en el icono **[!UICONTROL Edit]** para editar esta asignación.
 
-   * Utilice el icono **[!UICONTROL Delete]** para eliminar una asignación de tabla.
+  * Utilice el icono **[!UICONTROL Delete]** para eliminar una asignación de tabla.
 
-   * Haga clic en el icono **[!UICONTROL Replay Data]** para volver a sincronizar todos los datos de la tabla de Microsoft Dynamics 365. Normalmente, la aplicación de integración solo sincroniza los datos de Microsoft Dynamics 365 que han cambiado recientemente.  Sin embargo, en algunos casos (por ejemplo, si ha realizado un cambio o ha cometido un error), es posible que desee volver a sincronizar todos los datos.  En estos casos, haría clic en este botón y, la próxima vez que detenga o inicie el flujo de trabajo **[!UICONTROL Microsoft Dynamics 365 to Campaign]**, los datos comenzarán a sincronizarse.
+  * Haga clic en el icono **[!UICONTROL Replay Data]** para volver a sincronizar todos los datos de la tabla de Microsoft Dynamics 365. Normalmente, la aplicación de integración solo sincroniza los datos de Microsoft Dynamics 365 que han cambiado recientemente.  Sin embargo, en algunos casos (por ejemplo, si ha realizado un cambio o ha cometido un error), es posible que desee volver a sincronizar todos los datos.  En estos casos, haría clic en este botón y, la próxima vez que detenga o inicie el flujo de trabajo **[!UICONTROL Microsoft Dynamics 365 to Campaign]**, los datos comenzarán a sincronizarse.
 
-     Si hace clic en el botón **[!UICONTROL Replay Data]** y las comprobaciones se realizan correctamente, el icono se deshabilitará: indica que los datos de este par de asignación de tabla se volverán a sincronizar con la siguiente ejecución del flujo de trabajo **[!UICONTROL Microsoft Dynamics 365 to Campaign]**.
+    Si hace clic en el botón **[!UICONTROL Replay Data]** y las comprobaciones se realizan correctamente, el icono se deshabilitará: indica que los datos de este par de asignación de tabla se volverán a sincronizar con la siguiente ejecución del flujo de trabajo **[!UICONTROL Microsoft Dynamics 365 to Campaign]**.
 
-     No puede seleccionar la reproducción de los datos cuando se cumplen las siguientes condiciones:
+    No puede seleccionar la reproducción de los datos cuando se cumplen las siguientes condiciones:
 
-      * Si hay 2.000.000 (o más) elementos en la métrica Registro de pendientes asociados con el flujo de trabajo **[!UICONTROL Microsoft Dynamics 365 to Campaign]** (mostrado en la página **[!UICONTROL Workflows]**)
-      * Si hay 2 000 000 o más registros en la tabla de Microsoft Dynamics 365
+    * Si hay 2.000.000 (o más) elementos en la métrica Registro de pendientes asociados con el flujo de trabajo **[!UICONTROL Microsoft Dynamics 365 to Campaign]** (mostrado en la página **[!UICONTROL Workflows]**)
+    * Si hay 2 000 000 o más registros en la tabla de Microsoft Dynamics 365
 
-     El número de registros que deben volver a sincronizarse varía. Si tiene un gran número de registros, puede tardar algún tiempo en completar el proceso de sincronización. Consulte la métrica **[!UICONTROL Backlog]** en la página **[!UICONTROL Workflows]**, ya que la aplicación de integración funciona para completar el proceso de sincronización.
+    El número de registros que deben volver a sincronizarse varía. Si tiene un gran número de registros, puede tardar algún tiempo en completar el proceso de sincronización. Consulte la métrica **[!UICONTROL Backlog]** en la página **[!UICONTROL Workflows]**, ya que la aplicación de integración funciona para completar el proceso de sincronización.
 
-     >[!IMPORTANT]
-     >
-     > Se recomienda detener el flujo de trabajo de integración al publicar cambios en Adobe Campaign Standard o Microsoft Dynamics 365. Los cambios aplicables incluyen: actualizaciones de recursos/entidades (y sus campos asociados), vínculos, columnas de identificadores, etc. que la integración utiliza actualmente.
-     >
+    >[!IMPORTANT]
+    >
+    > Se recomienda detener el flujo de trabajo de integración al publicar cambios en Adobe Campaign Standard o Microsoft Dynamics 365. Los cambios aplicables incluyen: actualizaciones de recursos/entidades (y sus campos asociados), vínculos, columnas de identificadores, etc. que la integración utiliza actualmente.
+    >
 
 ## Creación de una nueva asignación {#add-a-new-mapping}
 

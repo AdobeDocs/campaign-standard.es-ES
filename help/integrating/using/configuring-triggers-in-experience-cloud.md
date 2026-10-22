@@ -9,22 +9,32 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-TQID: https://experienceleague.adobe.com/PQ8Xf9wScBLj1ooFZW5fe-LOzhZy3jeq8pajISxQcK8
+TQID: 'https://experienceleague.adobe.com/PQ8Xf9wScBLj1ooFZW5fe-LOzhZy3jeq8pajISxQcK8'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+    internal-label: Triggers
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 845
+source-wordcount: '845'
 ht-degree: 7%
-
 ---
-
 # Configuración de activadores en Experience Cloud{#configuring-triggers-in-experience-cloud}
 
 ## Activación de la funcionalidad {#activating-the-functionality}
@@ -65,9 +75,9 @@ También necesita tener un sitio web de trabajo.
 
 Debe configurar el [servicio principal de DTM de Experience Cloud](#configuring-experience-cloud-dtm-core-service), el [servicio principal de personas de Experience Cloud](#configuring-experience-cloud-people-core-service) y [Campaign](#configuring-triggers-and-aliases-in-campaign) para ejecutar estos casos de uso.
 
-### Configuración del servicio principal de Experience Cloud DTM {#configuring-experience-cloud-dtm-core-service}
+### Configuración del servicio principal de DTM de Experience Cloud {#configuring-experience-cloud-dtm-core-service}
 
-1. En el servicio principal de Experience Cloud DTM (Dynamic Tag Management), active Experience Cloud ID y Adobe Analytics para sus páginas de sitio web.
+1. En el servicio principal de DTM de Experience Cloud (Dynamic Tag Management), active Experience Cloud ID y Adobe Analytics para las páginas de su sitio web.
 
    ![](assets/trigger_uc_conf_1.png)
 

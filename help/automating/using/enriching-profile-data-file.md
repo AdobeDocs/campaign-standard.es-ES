@@ -10,23 +10,34 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: d5c19884-5a3e-4676-899c-53074a3b0efc
-TQID: https://experienceleague.adobe.com/M6lCo6PjkTiTa1mwADcrEKr2cTrWvGIzTncDR0HMKa4
+TQID: 'https://experienceleague.adobe.com/M6lCo6PjkTiTa1mwADcrEKr2cTrWvGIzTncDR0HMKa4'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Customer profiles
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 531
+source-wordcount: '531'
 ht-degree: 79%
-
 ---
-
 # Enriquecimiento de datos de perfil con datos contenidos en un archivo {#enriching-profile-data-with-data-contained-in-a-file}
 
 Este ejemplo muestra cómo enriquecer datos de perfil con datos de compra contenidos en un archivo. Aquí consideramos que los datos de compra se almacenan en un sistema de terceros. Cada perfil puede tener varias compras almacenadas en el archivo. El objetivo final del flujo de trabajo es enviar un mensaje de correo electrónico a los perfiles de destino que han comprado al menos dos artículos para agradecerles su lealtad.
@@ -56,37 +67,37 @@ El flujo de trabajo se configura de la siguiente manera:
 
   Una vez creado el vínculo, se añaden dos conjuntos de **[!UICONTROL Additional data]**:
 
-   * Recopilación de dos líneas correspondientes a las dos últimas transacciones de cada perfil. Para esta recopilación, el nombre del producto, la fecha de transacción y el precio del producto se añaden como datos adicionales. Se aplica un orden descendente a los datos. Para crear la recopilación, en la pestaña **[!UICONTROL Additional data]**:
+  * Recopilación de dos líneas correspondientes a las dos últimas transacciones de cada perfil. Para esta recopilación, el nombre del producto, la fecha de transacción y el precio del producto se añaden como datos adicionales. Se aplica un orden descendente a los datos. Para crear la recopilación, en la pestaña **[!UICONTROL Additional data]**:
 
-     Seleccione el vínculo previamente definido en la pestaña **[!UICONTROL Advanced relations]** de la actividad.
+    Seleccione el vínculo previamente definido en la pestaña **[!UICONTROL Advanced relations]** de la actividad.
 
-     ![](assets/enrichment_example_workflow3.png)
+    ![](assets/enrichment_example_workflow3.png)
 
-     Marque **[!UICONTROL Collection]** y especifique el número de líneas que desea recuperar (2 en este ejemplo). En esta pantalla, puede personalizar el **[!UICONTROL Alias]** y la **[!UICONTROL Label]** de la recopilación. Estos valores están visibles en las siguientes actividades del flujo de trabajo al hacer referencia a esta recopilación.
+    Marque **[!UICONTROL Collection]** y especifique el número de líneas que desea recuperar (2 en este ejemplo). En esta pantalla, puede personalizar el **[!UICONTROL Alias]** y la **[!UICONTROL Label]** de la recopilación. Estos valores están visibles en las siguientes actividades del flujo de trabajo al hacer referencia a esta recopilación.
 
-     ![](assets/enrichment_example_workflow4.png)
+    ![](assets/enrichment_example_workflow4.png)
 
-     Como **[!UICONTROL Data]** que se deben conservar para la recopilación, seleccione las columnas que se deben usar en el envío final.
+    Como **[!UICONTROL Data]** que se deben conservar para la recopilación, seleccione las columnas que se deben usar en el envío final.
 
-     ![](assets/enrichment_example_workflow6.png)
+    ![](assets/enrichment_example_workflow6.png)
 
-     Aplique un orden descendente en la fecha de transacción para asegurarse de recuperar las más recientes.
+    Aplique un orden descendente en la fecha de transacción para asegurarse de recuperar las más recientes.
 
-     ![](assets/enrichment_example_workflow7.png)
+    ![](assets/enrichment_example_workflow7.png)
 
-   * Un recuento acumulado del número total de transacciones para cada perfil. Este recuento se utiliza más adelante para filtrar perfiles que tengan al menos dos transacciones registradas. Para crear el recuento, en la pestaña **[!UICONTROL Additional data]**:
+  * Un recuento acumulado del número total de transacciones para cada perfil. Este recuento se utiliza más adelante para filtrar perfiles que tengan al menos dos transacciones registradas. Para crear el recuento, en la pestaña **[!UICONTROL Additional data]**:
 
-     Seleccione el vínculo previamente definido en la pestaña **[!UICONTROL Advanced relations]** de la actividad.
+    Seleccione el vínculo previamente definido en la pestaña **[!UICONTROL Advanced relations]** de la actividad.
 
-     ![](assets/enrichment_example_workflow3.png)
+    ![](assets/enrichment_example_workflow3.png)
 
-     Seleccione **[!UICONTROL Aggregate]**.
+    Seleccione **[!UICONTROL Aggregate]**.
 
-     ![](assets/enrichment_example_workflow8.png)
+    ![](assets/enrichment_example_workflow8.png)
 
-     Como **[!UICONTROL Data]** que se deben mantener, defina la opción de recuento **Contar todo**. Si es necesario, especifique un alias personalizado para buscarlo más rápido en las siguientes actividades.
+    Como **[!UICONTROL Data]** que se deben mantener, defina la opción de recuento **Contar todo**. Si es necesario, especifique un alias personalizado para buscarlo más rápido en las siguientes actividades.
 
-     ![](assets/enrichment_example_workflow9.png)
+    ![](assets/enrichment_example_workflow9.png)
 
 * Una actividad [Segmentation](../../automating/using/segmentation.md) con un solo segmento, que recupera perfiles del destinatario inicial que tienen al menos dos transacciones registradas. Se excluyen los perfiles con una sola transacción. Para ello, la consulta de la segmentación se realiza en el recuento acumulado definido anteriormente.
 

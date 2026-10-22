@@ -10,25 +10,38 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
-TQID: https://experienceleague.adobe.com/9f2fthO3uwDSjhIhVMzOZgqdimJcJOxlodEP1cJZicA
+TQID: 'https://experienceleague.adobe.com/9f2fthO3uwDSjhIhVMzOZgqdimJcJOxlodEP1cJZicA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
 subfeature_v2:
   - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+    internal-label: REST API
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Security
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 2262
+source-wordcount: '2262'
 ht-degree: 92%
-
 ---
-
 # API externa {#external-api}
 
 ## Descripción {#description}
@@ -100,7 +113,7 @@ El cuadro de texto **Personalizar parámetro** le permite añadir un archivo JSO
 
 ### Asignación de salida
 
-Esta pestaña le permite definir la **estructura JSON** de muestra devuelta por la llamada de API.
+Esta pestaña le permite definir la **estructura JSON** de muestra devuelta por la llamada API.
 
 ![](assets/externalAPI-outbound.png)
 
@@ -118,7 +131,7 @@ El comportamiento de la **casilla Acoplar**:
 
 La casilla Acoplar (sin marcar por defecto) sirve para indicar si desea acoplar el archivo JSON a un mapa de clave/valor o no.
 
-* Cuando la **casilla de verificación está desactivada** (sin marcar), el archivo JSON de muestra se analiza para buscar un objeto de matriz. El usuario debe proporcionar una versión recortada como muestra de la respuesta de API en formato JSON para que Adobe Campaign pueda determinar exactamente qué matriz le interesa utilizar. En el momento de la creación del flujo de trabajo, se determina y registra la ruta al objeto de matriz anidado, de modo que se pueda utilizar en el momento de la ejecución para acceder a ese objeto de matriz desde el cuerpo de respuesta JSON recibido de la llamada de API.
+* Cuando la **casilla de verificación está desactivada** (sin marcar), el archivo JSON de muestra se analiza para buscar un objeto de matriz. El usuario debe proporcionar una versión recortada como muestra de la respuesta de API en formato JSON para que Adobe Campaign pueda determinar exactamente qué matriz le interesa utilizar. En el momento de la creación del flujo de trabajo, se determina y registra la ruta al objeto de matriz anidado, de modo que se pueda utilizar en el momento de la ejecución para acceder a ese objeto de matriz desde el cuerpo de respuesta JSON recibido de la llamada API.
 
 * Cuando la **casilla de verificación está habilitada** (marcada), el archivo JSON de muestra se acopla y todas las propiedades especificadas en el archivo de muestra proporcionado se utilizan para crear columnas de la tabla temporal de salida y se muestran en la pestaña Definiciones de columna. Tenga en cuenta que si hay algún objeto de matriz en el archivo JSON de muestra, también se acoplan todos los elementos de esos objetos de matriz.
 

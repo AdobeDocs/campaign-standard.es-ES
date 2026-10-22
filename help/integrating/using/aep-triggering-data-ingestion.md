@@ -10,13 +10,28 @@ role: Developer
 level: Experienced
 exl-id: d67a796a-0730-4502-802c-d0b3583dd1dc
 hide: true
-source-git-commit: 7ad12890a24b2c0b8730d09b7d161bff511f4c69
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '466'
 ht-degree: 6%
-
 ---
-
 # Activación de la ingesta de datos mediante API {#triggering-data-ingestion-apis}
 
 >[!IMPORTANT]
@@ -99,7 +114,7 @@ La operación POST devuelve información sobre el estado de la solicitud creada:
 
 ## Recuperación del estado de una solicitud de ingesta {#retrieving-status}
 
-El estado de una solicitud de ingesta se puede recuperar con una operación de GET y el ID de solicitud deseado en los parámetros:
+El estado de una solicitud de ingesta se puede recuperar con una operación GET y el ID de solicitud deseado en los parámetros:
 
 ```
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest
@@ -110,14 +125,14 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 >
 >Encontrará información detallada sobre el estado de la solicitud de asignación XDM y sus trabajos relacionados en la interfaz de Campaign Standard, en el menú **[!UICONTROL Status of data export to platform]** (consulte [Activación de asignación](../../integrating/using/aep-mapping-activation.md)).
 
-La operación de GET devuelve la siguiente información:
+La operación GET devuelve la siguiente información:
 
 * **batchId**: este campo se rellena solamente si ocurrió un error después de la preparación y carga por lotes,
 * **info**: el ID de asignación XDM,
 * **numRecords**: el número de registros que se han ingerido (solo estado de éxito),
 * **estado**: el estado de la solicitud de ingesta (correcta/errónea/en curso)
 
-Las posibles respuestas a la operación de GET son:
+Las posibles respuestas a la operación GET son:
 
 * Solicitud de ingesta correcta:
 
