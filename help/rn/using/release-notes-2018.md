@@ -5,41 +5,64 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-TQID: https://experienceleague.adobe.com/BtRFMP6fh8X5Z6R1wGzc0Q07HCQlx-2-3evgAOnU3eA
+TQID: 'https://experienceleague.adobe.com/BtRFMP6fh8X5Z6R1wGzc0Q07HCQlx-2-3evgAOnU3eA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+    internal-label: Target integration
   - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+    internal-label: REST API
   - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+    internal-label: Triggers
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+    internal-label: Release notes
   - id: e739ee2b-6228-412e-878f-45de0791417d
+    internal-label: Use cases
   - id: eff19c99-440a-4318-b319-444edc4d8d8f
+    internal-label: Upgrade
+  - id: e8d937ec-9046-41b5-834b-d22a624e0d37
+    internal-label: Campaign overview
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1e34b244937569402d8fe873f6dd67f20b9a9a29
+    internal-label: Privacy
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 5477
+source-wordcount: '5477'
 ht-degree: 8%
-
 ---
-
 # Notas de la versión 2018{#release-notes}
 
 ## Versión 18.9: septiembre de 2018 {#release-18-9-september-2018}
@@ -230,7 +253,8 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td> Extensión de registros de envío<br /> </td> 
-   <td> La extensión de registros de envío permite ampliar los registros de envío con datos de perfil y código de segmento procedentes de flujos de trabajo. Esta información se puede utilizar en los informes dinámicos y le permite mantener una instantánea de cierta información en el momento de la entrega de un envío.<br /> Hay 2 casos de uso más: <br /> <ul> 
+   <td> La extensión de registros de envío permite ampliar los registros de envío con datos de perfil y código de segmento procedentes de flujos de trabajo. Esta información se puede utilizar en los informes dinámicos y le permite mantener una instantánea de cierta información en el momento de la entrega de un envío.<br /> Hay 2 casos de uso más: <br /> 
+    <ul> 
      <li> Exportar registros extendidos con datos "congelados": como experto en marketing, me gustaría exportar todos los perfiles con un código de segmento igual a "A" (proveniente del motor de flujo de trabajo). </li> 
      <li> Segmentación en datos "inmovilizados": como experto en marketing, quisiera <strong>redireccionar</strong> todos los perfiles que hayan obtenido 1000 puntos de lealtad desde el último envío o cuyo código de segmento sea igual a "A". </li> 
     </ul> Para obtener más información, consulte la <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">documentación detallada</a>.<br /> </td> 
@@ -319,14 +343,16 @@ _Recursos personalizados_
  <tbody> 
   <tr> 
    <td> Reglamento General de Protección de Datos.<br /> </td> 
-   <td> El RGPD es la nueva ley de privacidad de la Unión Europea (UE) que armoniza y moderniza los requisitos de protección de datos y entrará en vigencia el 25 de mayo de 2018. El RGPD se aplica a los clientes de Adobe Campaign que albergan datos de sujetos de datos que residan en la UE.<br /> Además de las funciones de privacidad ya disponibles en Adobe Campaign (incluida la administración de consentimientos, la configuración de retención de datos y las funciones de usuario), aprovechamos esta oportunidad en nuestra función de procesador de datos para incluir funciones adicionales que le ayudarán a prepararse como controlador de datos para determinadas solicitudes de RGPD:<br /> <ul> 
+   <td> El RGPD es la nueva ley de privacidad de la Unión Europea (UE) que armoniza y moderniza los requisitos de protección de datos y entrará en vigencia el 25 de mayo de 2018. El RGPD se aplica a los clientes de Adobe Campaign que albergan datos de sujetos de datos que residan en la UE.<br /> Además de las funciones de privacidad ya disponibles en Adobe Campaign (incluida la administración de consentimientos, la configuración de retención de datos y las funciones de usuario), aprovechamos esta oportunidad en nuestra función de procesador de datos para incluir funciones adicionales que le ayudarán a prepararse como controlador de datos para determinadas solicitudes de RGPD:<br /> 
+    <ul> 
      <li> Derecho de acceso: permite que el sujeto de datos reciba una copia de sus datos personales capturados por los controladores de datos, incluso los datos almacenados en Adobe Campaign. </li> 
      <li> Derecho a eliminación: autoriza al sujeto de datos a que sus datos personales recopilados por los controladores de datos se borren, lo que incluye datos almacenados en Adobe Campaign. </li> 
     </ul> Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=es">documentación detallada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer para correo electrónico (Beta)<br /> </td> 
-   <td> El nuevo Creative Designer de Adobe Campaign ofrece una experiencia de creación totalmente integrada en Campaign, lo que permite crear correos electrónicos personalizados, cautivadores y personalizados de forma rápida y sencilla sin necesidad de crear una línea de código única. A través de su potente interfaz de arrastrar y soltar, Creative Designer ayuda a escalar la creación de correos electrónicos tanto si los usuarios comienzan desde una pizarra en blanco como si aprovechan los fragmentos de contenido o las plantillas existentes. <br /> Las funciones clave incluyen:<br /> <ul> 
+   <td> El nuevo Creative Designer de Adobe Campaign ofrece una experiencia de creación totalmente integrada en Campaign, lo que permite crear correos electrónicos personalizados, cautivadores y personalizados de forma rápida y sencilla sin necesidad de crear una línea de código única. A través de su potente interfaz de arrastrar y soltar, Creative Designer ayuda a escalar la creación de correos electrónicos tanto si los usuarios comienzan desde una pizarra en blanco como si aprovechan los fragmentos de contenido o las plantillas existentes. <br /> Las funciones clave incluyen:<br /> 
+    <ul> 
      <li> Diseñe y cree correos electrónicos adaptables y totalmente personalizados con una interfaz de arrastrar y soltar, aumentada por integraciones nativas de Creative Cloud </li> 
      <li> Cree y guarde una plantilla de contenido de correo electrónico, y aproveche las plantillas guardadas para escalar la creación de correo electrónico </li> 
      <li> Crear y guardar fragmentos de contenido (como un encabezado, pie de página, artículo, etc.) para optimizar la creación de contenido y garantizar la coherencia de la marca </li> 
@@ -339,7 +365,8 @@ _Recursos personalizados_
   </tr> 
   <tr> 
    <td> Uso de recursos personalizados en mensajes transaccionales<br /> </td> 
-   <td> Además de los campos predeterminados, la mensajería transaccional ahora le permite utilizar recursos personalizados para enriquecer el contenido de sus mensajes.<br /> Por ejemplo:<br /> <ul> 
+   <td> Además de los campos predeterminados, la mensajería transaccional ahora le permite utilizar recursos personalizados para enriquecer el contenido de sus mensajes.<br /> Por ejemplo:<br /> 
+    <ul> 
      <li> Aproveche los campos personalizados como criterios de reconciliación para hacer coincidir un mensaje transaccional con un perfil </li> 
      <li> Aproveche perfiles completos, servicios y datos vinculados para personalizar aún más los mensajes transaccionales </li> 
     </ul> Para obtener más información, consulte la <a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">documentación detallada</a>.<br /> </td> 
@@ -478,7 +505,8 @@ Pueden producirse algunos problemas al utilizar vínculos de ayuda contextual de
   </tr> 
   <tr> 
    <td> Insertar nuevas funciones<br /> </td> 
-   <td> Vista previa de mensajes push: previsualice las notificaciones push en dispositivos iOS y Android desde el editor de contenido de notificaciones push para ver exactamente lo que verán los destinatarios antes de probar o ejecutar el envío.<br /> Para obtener más información, consulte la <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">documentación detallada</a>.<br /> Contenido disponible: cuando una aplicación no se abre en mucho tiempo, sus datos pueden quedar obsoletos. Esto hace que los datos tengan que actualizarse o reemplazarse en el momento en que un usuario finalmente abre la aplicación, lo que puede causar retrasos en el uso de la aplicación. Con la compatibilidad añadida de Contenido disponible, los usuarios de Adobe Campaign pueden activar su aplicación para actualizar sus datos en segundo plano al enviar una notificación push, lo que permite una mayor coherencia y control sobre la experiencia en la aplicación de un usuario.<br /> Contenido mutable: con la ayuda de Contenido mutable, ahora los usuarios de Adobe Campaign pueden aprovechar las extensiones de su aplicación móvil para modificar aún más el contenido o la presentación de las notificaciones push entrantes enviadas desde Adobe Campaign. Por ejemplo, los usuarios pueden aprovechar el contenido mutable para: <br /> <ul> 
+   <td> Vista previa de mensajes push: previsualice las notificaciones push en dispositivos iOS y Android desde el editor de contenido de notificaciones push para ver exactamente lo que verán los destinatarios antes de probar o ejecutar el envío.<br /> Para obtener más información, consulte la <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">documentación detallada</a>.<br /> Contenido disponible: cuando una aplicación no se abre en mucho tiempo, sus datos pueden quedar obsoletos. Esto hace que los datos tengan que actualizarse o reemplazarse en el momento en que un usuario finalmente abre la aplicación, lo que puede causar retrasos en el uso de la aplicación. Con la compatibilidad añadida de Contenido disponible, los usuarios de Adobe Campaign pueden activar su aplicación para actualizar sus datos en segundo plano al enviar una notificación push, lo que permite una mayor coherencia y control sobre la experiencia en la aplicación de un usuario.<br /> Contenido mutable: con la ayuda de Contenido mutable, ahora los usuarios de Adobe Campaign pueden aprovechar las extensiones de su aplicación móvil para modificar aún más el contenido o la presentación de las notificaciones push entrantes enviadas desde Adobe Campaign. Por ejemplo, los usuarios pueden aprovechar el contenido mutable para: <br /> 
+    <ul> 
      <li> descifrar datos que se han entregado en formato cifrado </li> 
      <li> descargar imágenes u otros archivos multimedia y añadirlos como archivos adjuntos a una notificación </li> 
      <li> cambiar el texto del cuerpo o del título de una notificación </li> 

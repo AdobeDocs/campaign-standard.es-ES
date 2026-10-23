@@ -9,27 +9,36 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 0470b986-c00a-4441-8621-82c7112a9953
-TQID: https://experienceleague.adobe.com/UyKD0H4ffjVDfJRubitjN0pJs2DQbswTlOPNzvU6zLo
+TQID: 'https://experienceleague.adobe.com/UyKD0H4ffjVDfJRubitjN0pJs2DQbswTlOPNzvU6zLo'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: 63876777-85c3-57e1-a2da-81f02956c63c
+    internal-label: Deliverability
 subfeature_v2:
   - id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875f
+    internal-label: Troubleshooting
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 475
-ht-degree: 60%
-
+source-wordcount: '475'
+ht-degree: 61%
 ---
-
 # Solución de problemas{#troubleshooting}
 
 ¿Está teniendo un problema de envío? Puede encontrar la solución aquí.
@@ -50,9 +59,9 @@ Si el problema persiste, póngase en contacto con los servicios comerciales o de
 
 * **¿Cuál es la diferencia entre una dirección de correo electrónico en la lista de bloqueados y una dirección de correo electrónico en cuarentena?**
 
-   * El estado **[!UICONTROL On denylist]** es el resultado de un [bucle de comentarios](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=es#feedback-loops) (cuando una persona informa un mensaje como correo no deseado).
+  * El estado **[!UICONTROL On denylist]** es el resultado de un [bucle de comentarios](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=es#feedback-loops) (cuando una persona informa un mensaje como correo no deseado).
 
-   * El estado **[!UICONTROL Quarantined]** es el resultado de un rechazo suave o fuerte.
+  * El estado **[!UICONTROL Quarantined]** es el resultado de un rechazo suave o fuerte.
 
   Para obtener más información, consulte esta [sección](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist).
 
@@ -66,15 +75,15 @@ Si el problema persiste, póngase en contacto con los servicios comerciales o de
 
 * **Uno de mis destinatarios se agregó a la lista de bloqueados de la por error. ¿Cómo puedo quitarlos de la lista de bloqueados de la para que pueda volver a enviarles mensajes?**
 
-   * Vaya a **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
-   * En los detalles del registro correspondiente, establezca el valor del campo **[!UICONTROL Status]** en **[!UICONTROL Valid]**.
-   * Guarde el registro.
+  * Vaya a **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
+  * En los detalles del registro correspondiente, establezca el valor del campo **[!UICONTROL Status]** en **[!UICONTROL Valid]**.
+  * Guarde el registro.
 
 * **¿Cómo puedo averiguar si una de mis IP está en lista de bloqueados de la? ¿Cómo elimino mis IP de una lista de bloqueados?**
 
   Para comprobar si su dirección IP está en lista de bloqueados, puede utilizar varios sitios web para verificarla, como:
-   * [MX Toolbox](https://mxtoolbox.com/)
-   * [Cuál es mi dirección IP](https://whatismyipaddress.com)
+  * [MX Toolbox](https://mxtoolbox.com/)
+  * [¿Cuál es mi dirección IP?](https://whatismyipaddress.com)
 
   Por lo general, el resultado de la comprobación de la dirección IP muestra una lista que contiene detalles de la lista de bloqueados de la dirección IP y también el nombre del sitio web que bloqueó la dirección IP.
 

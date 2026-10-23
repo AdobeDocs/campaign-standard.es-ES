@@ -10,20 +10,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: c3f029d7-779e-47e7-a925-1e8f672da4dd
-TQID: https://experienceleague.adobe.com/j9eu2D31Ic-nhZEk9NT4SGXYWdTpD-DAHLzJIS8ySLs
+TQID: 'https://experienceleague.adobe.com/j9eu2D31Ic-nhZEk9NT4SGXYWdTpD-DAHLzJIS8ySLs'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 803
+source-wordcount: '803'
 ht-degree: 99%
-
 ---
-
 # Guardado de público{#save-audience}
 
 ## Descripción {#description}
@@ -51,18 +60,18 @@ La actividad **[!UICONTROL Save audience]** se utiliza esencialmente para manten
 
    * **[!UICONTROL Update an existing audience]**: seleccione un público existente y elija el tipo de actualización:
 
-      * **[!UICONTROL Replace audience content with new data]**: reemplace todo el contenido del público. Se pierden los datos antiguos. Solo se conservan los datos de la transición de entrada de la actividad Guardar público.
-      * **[!UICONTROL Complete audience with new data]**: los datos de público anteriores se conservan y se añaden a ellos los datos de la transición de entrada de la actividad Guardar público.
+     * **[!UICONTROL Replace audience content with new data]**: reemplace todo el contenido del público. Se pierden los datos antiguos. Solo se conservan los datos de la transición de entrada de la actividad Guardar público.
+     * **[!UICONTROL Complete audience with new data]**: los datos de público anteriores se conservan y se añaden a ellos los datos de la transición de entrada de la actividad Guardar público.
 
    * **[!UICONTROL Create then update an audience]**: introduzca el nombre del público y seleccione el tipo de actualización. Si el público no existe, se crea. Si ya existe, se actualiza según el modo seleccionado:
 
-      * **[!UICONTROL Replace audience content with new data]**: reemplace todo el contenido del público. Se pierden los datos antiguos. Solo se conservan los datos de la transición de entrada de la actividad Guardar público.
+     * **[!UICONTROL Replace audience content with new data]**: reemplace todo el contenido del público. Se pierden los datos antiguos. Solo se conservan los datos de la transición de entrada de la actividad Guardar público.
 
-        Advertencia, esta opción borra el tipo de público y la dimensión de segmentación del público actualizado.
+       Advertencia, esta opción borra el tipo de público y la dimensión de segmentación del público actualizado.
 
-      * **[!UICONTROL Complete audience with new data]**: los datos de público anteriores se conservan y se añaden a ellos los datos de la transición de entrada de la actividad Guardar público.
+     * **[!UICONTROL Complete audience with new data]**: los datos de público anteriores se conservan y se añaden a ellos los datos de la transición de entrada de la actividad Guardar público.
 
-        Advertencia: Esta opción provoca un error si el tipo de público o la dimensión de segmentación del público actualizado no son compatibles con la configuración actual del flujo de trabajo. Por ejemplo, no se puede completar un público de tipo de archivo con perfiles procedentes de una consulta.
+       Advertencia: Esta opción provoca un error si el tipo de público o la dimensión de segmentación del público actualizado no son compatibles con la configuración actual del flujo de trabajo. Por ejemplo, no se puede completar un público de tipo de archivo con perfiles procedentes de una consulta.
 
    * **[!UICONTROL Create a new audience]**: introduzca el nombre del público que va a crear. La hora y la fecha de creación del público se añaden automáticamente al nombre. Esto hace que el público sea único cada vez que se ejecuta el flujo de trabajo.
    * **[!UICONTROL Share in Adobe Experience Cloud]**: si tiene perfiles objetivo y desea exportar el público a Adobe Experience Cloud, seleccione esta opción y, a continuación, seleccione un público compartido existente o cree uno nuevo.

@@ -10,20 +10,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 3761ee4a-1ce5-4f9e-b2a5-84388b6b9db8
-TQID: https://experienceleague.adobe.com/0JaRwv07dtCgzlGeRxr-AnLlPzvWUpH2zxS-Nzk1hVw
+TQID: 'https://experienceleague.adobe.com/0JaRwv07dtCgzlGeRxr-AnLlPzvWUpH2zxS-Nzk1hVw'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 886
+source-wordcount: '886'
 ht-degree: 79%
-
 ---
-
 # Segmentación{#segmentation}
 
 ## Descripción {#description}
@@ -104,8 +113,8 @@ La actividad **[!UICONTROL Segmentation]** se suele colocar después de activida
 1. Si es necesario, edite los parámetros en la pestaña **[!UICONTROL Advanced options]**:
 
    * La opción **[!UICONTROL Enable overlapping of outbound populations]** define cómo administrar perfiles que pertenecen a varios segmentos:
-      * Cuando la opción no está habilitada, la actividad **[!UICONTROL Segmentation]** comprueba que un perfil no esté presente en varias transiciones de salida, aunque este perfil cumpla los criterios de varios subconjuntos.
-      * Cuando la opción está activada, los perfiles se pueden encontrar en varios subconjuntos si cumplen con sus criterios de filtro.
+     * Cuando la opción no está habilitada, la actividad **[!UICONTROL Segmentation]** comprueba que un perfil no esté presente en varias transiciones de salida, aunque este perfil cumpla los criterios de varios subconjuntos.
+     * Cuando la opción está activada, los perfiles se pueden encontrar en varios subconjuntos si cumplen con sus criterios de filtro.
    * Si a la población entrante ya se le ha asignado un código de segmento que desee conservar, marque la opción **[!UICONTROL Concatenate the code of each segment]**. El código de segmento especificado en la actividad se agregará al código de segmento inicial.
    * Si necesita aprovechar la población restante, marque la opción **[!UICONTROL Generate complement]**. Consulte [Caso de uso: creación de envíos con un complemento](../../automating/using/workflow-created-query-with-complement.md).
 

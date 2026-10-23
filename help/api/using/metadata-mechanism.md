@@ -9,13 +9,25 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 58ec0999-b28a-4198-8d57-729b074c6a6d
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '228'
 ht-degree: 1%
-
 ---
-
 # Mecanismo de metadatos {#metadata-mechanism}
 
 Puede recuperar los metadatos de los recursos mediante **resourceType** en una petición GET:
@@ -26,14 +38,14 @@ La respuesta devuelve los metadatos principales del recurso (todos los demás ca
 
 * El nodo **Content** devuelve los campos del recurso. Para cada campo en el nodo **content**, se pueden encontrar los siguientes campos:
 
-   * &quot;apiName&quot;: nombre del atributo utilizado en las API.
-   * &quot;tipo&quot;: es la definición de tipo de alto nivel (cadena, número, vínculo, colección, enumeración...).
-   * &quot;dataPolicy&quot;: el valor del campo debe seguir las reglas de directiva dadas. Por ejemplo, si la regla dataPolicy se establece en &quot;correo electrónico&quot;, el valor debe ser un correo electrónico válido. Durante un PATCH o un POST, dataPolicy puede comprobar el valor o modificarlo para transformarlo (smartCase por ejemplo).
-   * &quot;category&quot;: proporciona la categoría del campo en el editor de consultas.
-   * &quot;resType&quot;: es el tipo técnico.
+  * &quot;apiName&quot;: nombre del atributo utilizado en las API.
+  * &quot;tipo&quot;: es la definición de tipo de alto nivel (cadena, número, vínculo, colección, enumeración...).
+  * &quot;dataPolicy&quot;: el valor del campo debe seguir las reglas de directiva dadas. Por ejemplo, si la regla dataPolicy se establece en &quot;correo electrónico&quot;, el valor debe ser un correo electrónico válido. Durante un PATCH o un POST, dataPolicy puede comprobar el valor o modificarlo para transformarlo (smartCase por ejemplo).
+  * &quot;category&quot;: proporciona la categoría del campo en el editor de consultas.
+  * &quot;resType&quot;: es el tipo técnico.
 
-     Si &quot;type&quot; se completa con el valor &quot;link&quot; o &quot;collection&quot;, el valor resTarget es el nombre del recurso al que se dirige el vínculo.
-Si &quot;type&quot; se completa con el valor &quot;enumeration&quot;, se agrega un campo &quot;values&quot; y cada valor de enumeración se detalla en el nodo **values**.
+    Si &quot;type&quot; se completa con el valor &quot;link&quot; o &quot;collection&quot;, el valor resTarget es el nombre del recurso al que se dirige el vínculo.
+    Si &quot;type&quot; se completa con el valor &quot;enumeration&quot;, se agrega un campo &quot;values&quot; y cada valor de enumeración se detalla en el nodo **values**.
 
 * El nodo **Filters** devuelve la URL para recuperar los filtros asociados. Para obtener más información sobre los filtros, consulte [esta sección](../../api/using/filtering.md).
 

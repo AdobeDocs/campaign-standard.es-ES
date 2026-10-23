@@ -6,24 +6,37 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: ea936128-1c51-483d-914c-6d06708456d6
-TQID: https://experienceleague.adobe.com/KaN9nMAWXIbyhlv6AzJXrsjfGz-ZJG3zWbaLanmddDQ
+TQID: 'https://experienceleague.adobe.com/KaN9nMAWXIbyhlv6AzJXrsjfGz-ZJG3zWbaLanmddDQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: 7f0a1ee5-eeb8-5478-a9cd-b1896f033118
+    internal-label: Instance Settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 8714
-ht-degree: 84%
-
+source-wordcount: '8720'
+ht-degree: 85%
 ---
-
 # Configuración y protocolo del conector SMS {#sms-connector-protocol}
 
 >[!NOTE]
@@ -85,7 +98,7 @@ Un SMS lleva más información que texto. Aquí hay una lista de lo que puede en
 
 ## Protocolo SMPP {#smpp-protocol}
 
-Adobe Campaign Standard es compatible con la versión 3.4 del protocolo SMPP. Se trata de un protocolo muy extendido que permite enviar SMS a un proveedor (SMSC) y recibir SMS, así como recibos. Para obtener más información, consulte la [documentación de SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
+Adobe Campaign Standard es compatible con la versión 3.4 del protocolo SMPP. Es un protocolo muy extendido que permite enviar SMS a un proveedor (SMSC) y recibir SMS, así como acuses de recibo. Para obtener más información, consulte la [documentación de SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
 
 El equipo de red en el lado del proveedor de servicios SMS suele conocerse como SMSC.
 
@@ -558,7 +571,7 @@ Consulte la sección [Codificación de texto SMS](../../administration/using/sms
 
 Esta configuración le permite definir una asignación de codificación personalizada, diferente de la especificación. Podrá declarar una lista de codificaciones, junto con su valor `data_coding`.
 
-El MTA intentará codificar usando la primera codificación de la lista. Si falla, intentará usar la siguiente codificación en la lista, etc. Si no se puede utilizar ninguna codificación para codificar el mensaje, se producirá un error. Una vez encontrada la codificación, el MTA creará el `SUBMIT_SM PDU` con el texto codificado y el campo establecido `data_coding` con el valor especificado en la tabla.
+El MTA intentará codificar usando la primera codificación de la lista. Si falla, intentará utilizar la siguiente codificación de la lista, etc. Si no se puede utilizar ninguna codificación para codificar el mensaje, se producirá un error. Una vez encontrada la codificación, el MTA creará el `SUBMIT_SM PDU` con el texto codificado y el campo establecido `data_coding` con el valor especificado en la tabla.
 
 El orden de los elementos de la tabla es importante: las codificaciones prueban de arriba abajo. Debe colocar la codificación más barata o recomendada en la parte superior de la lista, seguida de codificaciones más y más caras.
 
@@ -663,7 +676,7 @@ Indica el formato del ID devuelto en el campo `message_id` del `SUBMIT_SM_RESP P
 
 * **Número decimal** : Se espera que el ID sea un número decimal en formato ASCII. Cuando se utiliza este ajuste, se eliminan los espacios iniciales y finales y los ceros al inicio.
 
-* **Número hexadecimal**: Se espera que el identificador sea un número hexadecimal en formato ASCII, sin 0x inicial ni h final. A continuación, el ID se convierte en un número decimal antes de almacenarse en la base de datos.
+* **Número hexadecimal**: se espera que el ID sea un número hexadecimal en formato ASCII, sin 0x inicial ni h final. El ID se convierte a continuación en un número decimal antes de almacenarse en la base de datos.
 
 * **Cadena hexadecimal**: Se espera que el ID sea un texto con codificación ASCII que es en sí mismo una cadena de bytes codificados como hexadecimales. P. ej.: en la PDU encontrará `0x34 0x31 0x34 0x32 0x34 0x33`, que se traduce como ASCII &quot;414243&quot;. A continuación, esta cadena se descodifica como una cadena hexadecimal de bytes y se obtiene &quot;ABC&quot; como resultado: almacenará el ID &quot;ABC&quot; en la base de datos.
 
@@ -847,7 +860,7 @@ Si necesita enviar SMS con caracteres que no sean GSM o ASCII, intente enviar al
 * **Compruebe que SR se procesa correctamente**
 El SMS debe marcarse como recibido en el registro de envíos. El registro de envíos debe tener el siguiente aspecto:
   `SR yourProvider stat=DELIVRD err=000|#MESSAGE`
-Compruebe que ha cambiado el nombre del proveedor de envío. El registro de envíos nunca debe contener **SR genérico** en entornos de producción.
+  Compruebe que ha cambiado el nombre del proveedor de envío. El registro de envíos nunca debe contener **SR genérico** en entornos de producción.
 
 * **Comprobar que se procesan los MO**
 Si necesita procesar MO (respuestas automáticas, almacenar MO en la base de datos, etc.) intente realizar algunas pruebas. Envíe algunos SMS para cada una de las palabras clave de respuesta automática y compruebe si la respuesta es lo suficientemente rápida, no más de unos segundos.
@@ -863,7 +876,7 @@ Este paso es necesario cuando se conecta a un proveedor que no estaba conectado 
 
 Verifique que `BIND_* PDUs` se envíen correctamente. Lo más importante que hay que comprobar es que el proveedor siempre devuelve `BIND_*_RESP PDUs` (command_status = 0) correctamente.
 
-Compruebe que no hay demasiados `BIND_* PDU`. Si hay demasiados, podría indicar que la conexión es inestable. Consulte la sección [Problemas con conexiones inestables](../../administration/using/sms-protocol.md#issues-unstable-connection) para obtener más información.
+Compruebe que no hay demasiadas `BIND_* PDU`. Si hay demasiadas, esto podría indicar que la conexión no es estable. Consulte la sección [Problemas con conexiones inestables](../../administration/using/sms-protocol.md#issues-unstable-connection) para obtener más información.
 
 #### ENQUIRE_LINK {#enquire-link-pdus}
 

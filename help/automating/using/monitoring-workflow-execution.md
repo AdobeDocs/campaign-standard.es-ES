@@ -10,21 +10,30 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: d2ce702b-92d1-4b94-bd47-34ef46a8bd9f
-TQID: https://experienceleague.adobe.com/x8m3RC6xTxysD8WLgMBICv3Qp1Fz9FYm-OlDqimecbc
+TQID: 'https://experienceleague.adobe.com/x8m3RC6xTxysD8WLgMBICv3Qp1Fz9FYm-OlDqimecbc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 580
+source-wordcount: '580'
 ht-degree: 8%
-
 ---
-
-# Control de la ejecución del flujo de trabajo {#monitoring}
+# Monitorización de la ejecución del flujo de trabajo {#monitoring}
 
 ## Registro de flujo de trabajo y tareas {#workflow-log-and-tasks}
 
@@ -70,11 +79,11 @@ Las opciones posibles son:
 
 * **[!UICONTROL In case of error]**: permite especificar la acción que se va a realizar en caso de que la actividad encuentre un error. Hay dos opciones disponibles para esto:
 
-   * **Suspender el proceso**: el flujo de trabajo se suspende automáticamente. El estado del flujo de trabajo es **Erróneo** y el color asociado se vuelve rojo. Una vez resuelto el problema, reinicie el flujo de trabajo.
-   * **Ignorar**: la actividad no se ejecuta y, como resultado, ninguna de las actividades que la siguen (en la misma rama). Esto puede resultar útil para tareas recurrentes. Si la rama tiene un planificador en una posición anterior, el déclencheur debería ser la siguiente fecha de ejecución.
+  * **Suspender el proceso**: el flujo de trabajo se suspende automáticamente. El estado del flujo de trabajo es **Erróneo** y el color asociado se vuelve rojo. Una vez resuelto el problema, reinicie el flujo de trabajo.
+  * **Ignorar**: la actividad no se ejecuta y, como resultado, ninguna de las actividades que la siguen (en la misma rama). Esto puede resultar útil para tareas recurrentes. Si la rama tiene un planificador en una posición anterior, el déclencheur debería ser la siguiente fecha de ejecución.
 
 * **[!UICONTROL Consecutive errors]** : permite definir una serie de errores consecutivos que se autorizan antes de que la ejecución del flujo de trabajo se suspenda automáticamente.
 
-   * Si el número especificado es **[!UICONTROL 0]**, o siempre que no se alcance el número especificado, se omiten las actividades que encuentren errores. Las demás ramas del flujo de trabajo se ejecutan normalmente.
+  * Si el número especificado es **[!UICONTROL 0]**, o siempre que no se alcance el número especificado, se omiten las actividades que encuentren errores. Las demás ramas del flujo de trabajo se ejecutan normalmente.
 
-   * Si se alcanza el número especificado, se suspende todo el flujo de trabajo y se convierte en **[!UICONTROL Erroneous]**. Si se han definido supervisores, se les notifica automáticamente por correo electrónico. Consulte [Notificaciones de Adobe Campaign](../../administration/using/sending-internal-notifications.md).
+  * Si se alcanza el número especificado, se suspende todo el flujo de trabajo y se convierte en **[!UICONTROL Erroneous]**. Si se han definido supervisores, se les notifica automáticamente por correo electrónico. Consulte [Notificaciones de Adobe Campaign](../../administration/using/sending-internal-notifications.md).

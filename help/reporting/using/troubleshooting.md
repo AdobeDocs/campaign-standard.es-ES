@@ -8,25 +8,34 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-TQID: https://experienceleague.adobe.com/IZdWRhWkAwgvpZnanpAu6-taR723XFwOxvq3UTcyc-o
+TQID: 'https://experienceleague.adobe.com/IZdWRhWkAwgvpZnanpAu6-taR723XFwOxvq3UTcyc-o'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
+subfeature_v2:
+  - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Troubleshooting
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1208
+source-wordcount: '1218'
 ht-degree: 3%
-
 ---
-
 # Solución de problemas{#troubleshooting}
 
 En esta sección encontrará preguntas comunes relacionadas con la creación de informes dinámicos.
@@ -211,16 +220,16 @@ Se espera una discrepancia entre el número de encabezado de columna y la suma d
 
   Por ejemplo:
 
-   * Si un perfil A abre un correo electrónico en tres días diferentes, el desglose por día mostrará A en tres filas, pero en el encabezado, A se contará como 1.
+  * Si un perfil A abre un correo electrónico en tres días diferentes, el desglose por día mostrará A en tres filas, pero en el encabezado, A se contará como 1.
 
-   * Si el perfil A hace clic en tres vínculos diferentes en un mensaje de correo electrónico el mismo día, el desglose por URL de seguimiento mostrará A en tres filas, pero en el encabezado, A contará como 1. Lo mismo se aplica a los desgloses por dispositivo y explorador.
+  * Si el perfil A hace clic en tres vínculos diferentes en un mensaje de correo electrónico el mismo día, el desglose por URL de seguimiento mostrará A en tres filas, pero en el encabezado, A contará como 1. Lo mismo se aplica a los desgloses por dispositivo y explorador.
 
 * **Métricas de apertura**: el recuento de aperturas se determina sumando el total de eventos de apertura reales y eventos de clic único (por ID de destinatario), excluyendo los casos en los que no se ha producido un evento de apertura porque no se puede hacer clic en un vínculo de correo electrónico sin un evento de apertura.
 
   Por ejemplo:
 
-   * Cuando el perfil A abre un correo electrónico rastreado (con la URL U1), se registra como un evento abierto con la URL anotada como nula. Al hacer clic en U1 más adelante, se genera un evento de clic. Aunque el clic de A en U1 también se cuenta como un evento abierto, no hay ningún evento abierto específico para U1. Por lo tanto, A solo se cuenta una vez en la cantidad abierta única.
+  * Cuando el perfil A abre un correo electrónico rastreado (con la URL U1), se registra como un evento abierto con la URL anotada como nula. Al hacer clic en U1 más adelante, se genera un evento de clic. Aunque el clic de A en U1 también se cuenta como un evento abierto, no hay ningún evento abierto específico para U1. Por lo tanto, A solo se cuenta una vez en la cantidad abierta única.
 
-   * Un perfil R abre un correo electrónico el día 1, registra un evento abierto y hace clic en un vínculo. En los dos días siguientes, R vuelve a abrir el correo electrónico y hace clic en el vínculo de nuevo, lo que genera un evento de clic cada día. Mientras que el compromiso de R se rastrea diariamente en el número Abierto, R solo se cuenta una vez en el encabezado de la columna, centrándose en compromisos únicos.
+  * Un perfil R abre un correo electrónico el día 1, registra un evento abierto y hace clic en un vínculo. En los dos días siguientes, R vuelve a abrir el correo electrónico y hace clic en el vínculo de nuevo, lo que genera un evento de clic cada día. Mientras que el compromiso de R se rastrea diariamente en el número Abierto, R solo se cuenta una vez en el encabezado de la columna, centrándose en compromisos únicos.
 
 * **Evento anulado**: en los informes, el evento anulado significa intentos de envío que inicialmente se marcaron como correctos, pero que finalmente fallaron después de los reintentos. Se indican mediante un recuento de -1. Para evitar confusiones, estos recuentos negativos se excluyen de los números de métricas de entrega que se muestran. Como resultado, es posible que el total de todas las filas de la métrica de envío no coincidan con el número de encabezado de columna.

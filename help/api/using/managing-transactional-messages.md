@@ -9,13 +9,25 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '676'
 ht-degree: 3%
-
 ---
-
 # Administración de mensajes transaccionales {#managing-transactional-messages}
 
 Una vez creado y publicado un evento transaccional, debe integrar la activación de este evento en el sitio web.
@@ -27,7 +39,7 @@ Una vez creado y publicado un evento transaccional, debe integrar la activación
 Por ejemplo, desea que se active un evento &quot;Abandono del carro de compras&quot; cada vez que uno de los clientes abandone el sitio web antes de comprar los productos que tiene en el carro de compras. Para ello, como desarrollador web, debe utilizar la API de mensajes transaccionales de REST.
 
 1. Envíe una solicitud según el método POST, que almacena en déclencheur el [envío del evento transaccional](#sending-a-transactional-event).
-1. La respuesta a la solicitud de POST contiene una clave principal, que le permite enviar una o varias solicitudes a través de una solicitud de GET. A continuación, puede obtener el [estado del evento](#transactional-event-status).
+1. La respuesta a la solicitud POST contiene una clave principal, que le permite enviar una o varias solicitudes a través de una solicitud GET. A continuación, puede obtener el [estado del evento](#transactional-event-status).
 
 ## Envío de un evento transaccional {#sending-a-transactional-event}
 
@@ -79,7 +91,7 @@ Se pueden añadir los siguientes parámetros opcionales al contenido del evento 
 
 ### Respuesta a la solicitud de POST
 
-La respuesta POST devuelve el estado del evento transaccional en el momento en que se creó. Para recuperar su estado actual (datos de evento, estado de evento...), utilice la clave principal devuelta por la respuesta POST en una solicitud GET:
+La respuesta POST devuelve el estado del evento transaccional en el momento en que se creó. Para recuperar su estado actual (datos de evento, estado de evento...), utilice la clave principal devuelta por la respuesta POST en una petición GET:
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>/`
 

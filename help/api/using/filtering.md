@@ -9,36 +9,44 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: cdb050b7-d327-42f7-b534-d32d988c8ffb
-TQID: https://experienceleague.adobe.com/LyXfuuNnGxZc6gW0m8tmgc5H8bKxaMaZi3kRHsGzjG4
+TQID: 'https://experienceleague.adobe.com/LyXfuuNnGxZc6gW0m8tmgc5H8bKxaMaZi3kRHsGzjG4'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Customer experience
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 444
+source-wordcount: '444'
 ht-degree: 0%
-
 ---
-
 # Filtrado {#filtering}
 
 ## Recuperando metadatos de filtros
 
 Los filtros están disponibles para cada recurso. Para identificar los filtros asociados a un recurso, debe realizar una petición GET en los metadatos del recurso. Esta solicitud devuelve la dirección URL donde se definen todos los filtros para un recurso determinado. Para obtener más información sobre metadatos, consulte [esta sección](../../api/using/metadata-mechanism.md).
 
-Para identificar los metadatos de un filtro y determinar cómo utilizarlos, se debe realizar una petición GET en la dirección URL devuelta anteriormente.
+Para identificar los metadatos de un filtro y determinar cómo utilizarlos, debe realizar una petición GET en la dirección URL devuelta anteriormente.
 
 <br/>
 
 ***Solicitud de muestra***
 
-Las siguientes cargas útiles de ejemplo muestran cómo recuperar los metadatos de filtro &quot;byText&quot; para el recurso de &quot;perfil&quot;. Primero realice una solicitud GET en la métrica de recursos &quot;perfil&quot;.
+Las siguientes cargas útiles de ejemplo muestran cómo recuperar los metadatos de filtro &quot;byText&quot; para el recurso de &quot;perfil&quot;. Primero realice una petición GET en la métrica de recursos &quot;perfil&quot;.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \
@@ -112,7 +120,7 @@ Es posible combinar varios filtros en una sola solicitud:
 
 ***Solicitudes de muestra***
 
-* Solicitud de GET de ejemplo para recuperar los recursos del &quot;servicio&quot; con el tipo &quot;correo electrónico&quot;.
+* Solicitud GET de muestra para recuperar los recursos del &quot;servicio&quot; con el tipo &quot;correo electrónico&quot;.
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=email \
@@ -144,7 +152,7 @@ Es posible combinar varios filtros en una sola solicitud:
   }
   ```
 
-* Solicitud de GET de muestra para recuperar los recursos de &quot;perfil&quot; que contienen &quot;Listo&quot; en
+* Solicitud GET de muestra para recuperar los recursos de &quot;perfil&quot; que contienen &quot;Listo&quot; en
 los campos correo electrónico o apellidos (el filtro por texto busca en los campos correo electrónico y apellidos).
 
   ```
@@ -173,7 +181,7 @@ los campos correo electrónico o apellidos (el filtro por texto busca en los cam
   }
   ```
 
-* Solicitud de GET de ejemplo para recuperar los recursos de servicios con el tipo &quot;correo electrónico&quot; y la etiqueta &quot;deporte&quot;.
+* Solicitud GET de muestra para recuperar los recursos de servicios con el tipo &quot;correo electrónico&quot; y la etiqueta &quot;deporte&quot;.
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/byText?channel=email&text=sport \
@@ -220,7 +228,7 @@ Para obtener más información, consulte la documentación de Campaign Standard:
 
 ***Solicitud de muestra***
 
-Solicitud de GET de muestra para recuperar los recursos de &quot;perfil&quot; con importes de transacción de 100 $ o más. Tenga en cuenta que el filtro &quot;byAmount&quot; se ha definido primero en la interfaz de Adobe Campaign Standard y se ha vinculado a la tabla personalizada &quot;Transaction&quot;.
+Solicitud GET de muestra para recuperar los recursos de &quot;perfil&quot; con importes de transacción de 100 $ o más. Tenga en cuenta que el filtro &quot;byAmount&quot; se ha definido primero en la interfaz de Adobe Campaign Standard y se ha vinculado a la tabla personalizada &quot;Transaction&quot;.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byAmount?amount_parameter=100 \

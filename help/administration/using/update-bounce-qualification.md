@@ -3,18 +3,20 @@ title: Actualización de la calificación de devoluciones después de una interr
 description: Obtenga información sobre cómo actualizar la calificación de devoluciones después de una interrupción del ISP.
 audience: delivery
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
-TQID: https://experienceleague.adobe.com/PcNbVFzTVJhadANGQ5uogj16VHiaNIf7HVn-7X-EbJA
+TQID: 'https://experienceleague.adobe.com/PcNbVFzTVJhadANGQ5uogj16VHiaNIf7HVn-7X-EbJA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 441
-ht-degree: 67%
-
+source-wordcount: '446'
+ht-degree: 66%
 ---
-
 # Actualización de la calificación de devoluciones después de una interrupción del ISP {#update-bounce-qualification.md}
 
 ## Contexto
@@ -23,7 +25,7 @@ En caso de interrupción de un ISP, los correos electrónicos enviados a través
 
 En diciembre de 2020, un problema global en Gmail hizo que algunos mensajes de correo electrónico enviados a direcciones de correo electrónico de Gmail válidas fueran rechazados incorrectamente como direcciones de correo electrónico no válidas por los servidores de Gmail con la siguiente respuesta de rechazo: *&quot;550-5.1.1 La cuenta de correo electrónico a la que intentó llegar no existe.&quot;*
 
-Google ha declarado que las interrupciones y cortes de Gmail que causaron este problema empezaron el 14 de diciembre a las 6:55AM y terminaron a las 6:09PM EST el 15 de diciembre. Nuestro análisis de datos también mostró un pico muy corto en los rebotes de Gmail en 2:06AM EST el 16 de diciembre, la mayoría ocurrió el 15 de diciembre entre las 2:00 pm EST y las 6:30 pm EST.
+Google ha declarado que los cortes y las interrupciones de Gmail que causaron este problema empezaron el 14 de diciembre a las 06:55 h y terminaron a las 18:09 h EST del 15 de diciembre. Nuestro análisis de datos también mostró un pico muy corto en los rebotes de Gmail a las 02:06 h EST del 16 de diciembre, la mayoría ocurrió el 15 de diciembre entre las 14:00 h EST y las 18:30 h EST.
 
 >[!NOTE]
 >

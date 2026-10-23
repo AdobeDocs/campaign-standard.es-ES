@@ -9,20 +9,32 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: f8e7eb96-9541-4d28-9d8d-f06af822debd
-TQID: https://experienceleague.adobe.com/3WJ46WcDxxGM-6Cx6Owk-p0z6J4k6KVRx8TqdbKFz9c
+TQID: 'https://experienceleague.adobe.com/3WJ46WcDxxGM-6Cx6Owk-p0z6J4k6KVRx8TqdbKFz9c'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 629
+source-wordcount: '629'
 ht-degree: 96%
-
 ---
-
 # Exportación e importación de recursos personalizados {#exporting-importing-custom-resources}
 
 En este tutorial se explica cómo exportar e importar un paquete de recursos personalizados desde un entorno de desarrollo a un entorno de producción.
@@ -118,7 +130,7 @@ El paquete generado está disponible en la carpeta de descargas. El nombre del a
    ![](assets/cusresources_import2.png)
 
 1. Modifique la etiqueta, por ejemplo **Importar estructura**, luego haga clic en **[!UICONTROL Save]**.
-1. Haga clic **[!UICONTROL Start import]**.
+1. Haga clic en **[!UICONTROL Start import]**.
 
    ![](assets/cusresources_import3.png)
 
@@ -141,7 +153,7 @@ Del mismo modo que en el paso anterior, se divide en dos partes: importar el paq
 1. Vaya al menú **[!UICONTROL Administration]** / **[!UICONTROL Deployment]** / **[!UICONTROL Package imports]** para crear un nuevo paquete e importar el archivo que contiene los datos.
 1. Arrastre y suelte el archivo de datos en la zona proporcionada para tal fin. Los formatos aceptados son ZIP o XML.
 1. Modifique la etiqueta, por ejemplo “Importar datos”, y luego haga clic en **[!UICONTROL Save]**.
-1. Haga clic **[!UICONTROL Start import]**.
+1. Haga clic en **[!UICONTROL Start import]**.
 
    ![](assets/cusresources_importdata.png)
 

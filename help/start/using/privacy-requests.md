@@ -8,25 +8,36 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
-TQID: https://experienceleague.adobe.com/aLCKnFhj-MsnIUA0AQ-LcCAlcjqkCejKiosCGrtamJg
+TQID: 'https://experienceleague.adobe.com/aLCKnFhj-MsnIUA0AQ-LcCAlcjqkCejKiosCGrtamJg'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+  - id: a7760dfc-5c44-4d77-bb68-c50b1e265c93
+    internal-label: Security and privacy
+subfeature_v2:
+  - id: ac9c0a9c-8a76-4419-bd64-9c34c5782666
+    internal-label: Privacy
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Privacy
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1619
+source-wordcount: '1619'
 ht-degree: 100%
-
 ---
-
 # Administración de solicitudes de privacidad {#privacy-requests}
 
 Para una presentación general sobre la Gestión de la privacidad, consulte esta [sección](../../start/using/privacy-management.md).
@@ -67,7 +78,7 @@ Antes de crear solicitudes de privacidad, debe definir el espacio de nombres que
 
    ![](assets/privacy-namespaces.png)
 
-1. En la lista de espacios de nombres, haga clic en **[!UICONTROL Create]**.
+1. En la lista de Espacios de nombres, haga clic en **[!UICONTROL Create]**.
 
    ![](assets/privacy-namespace-create.png)
 
@@ -75,11 +86,11 @@ Antes de crear solicitudes de privacidad, debe definir el espacio de nombres que
 
    ![](assets/privacy-namespace-label.png)
 
-1. Si desea utilizar un espacio de nombres de servicio de identidad existente, elija **[!UICONTROL Map from Identity Namespace Service]** y seleccione uno de la **[!UICONTROL Identity Service Namespaces]** lista.
+1. Si desea utilizar un Espacio de nombres de servicio de identidad existente, elija **[!UICONTROL Map from Identity Namespace Service]** y seleccione un Espacio de nombres de la **[!UICONTROL Identity Service Namespaces]** lista.
 
    ![](assets/privacy-map-from-namespace.png)
 
-   Si desea crear un nuevo espacio de nombres en **[!UICONTROL Identity Service]** y asignarlo en Campaña, seleccione **[!UICONTROL Create new]** e introduzca un nombre en el campo **[!UICONTROL Identity namespace name]**.
+   Si desea crear un nuevo Espacio de nombres en **[!UICONTROL Identity Service]** y asignarlo en Campaña, seleccione **[!UICONTROL Create new]** e introduzca un nombre en el **[!UICONTROL Identity namespace name]** campo.
 
    ![](assets/privacy-create-new-namespace.png)
 
@@ -101,7 +112,7 @@ Antes de crear solicitudes de privacidad, debe definir el espacio de nombres que
 
 <!--Starting 19.4, the use of the Campaign API and interface for Access and Delete requests is deprecated. Use the **Privacy Core Service** for any GDPR, CCPA, PDPA, or LGPD Access and Delete requests.-->
 
-La integración de Privacy Core Service le permite automatizar sus solicitudes de privacidad en un contexto de varias soluciones a través de una sola llamada de API JSON. A través de la integración del Servicio principal de privacidad: Las solicitudes de privacidad enviadas desde el Servicio principal de privacidad a todas las soluciones de Experience Cloud las gestiona Campaign de forma automática a través de un flujo de trabajo dedicado.
+La integración de Privacy Core Service le permite automatizar sus solicitudes de privacidad en un contexto de varias soluciones a través de una sola llamada API JSON. A través de la integración del Servicio principal de privacidad: Las solicitudes de privacidad enviadas desde el Servicio principal de privacidad a todas las soluciones de Experience Cloud las gestiona Campaign de forma automática a través de un flujo de trabajo dedicado.
 
 Consulte la documentación del [Privacy Service de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=es) para obtener información sobre cómo crear solicitudes de privacidad desde el Servicio principal de privacidad.
 

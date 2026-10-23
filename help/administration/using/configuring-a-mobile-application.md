@@ -6,22 +6,33 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-TQID: https://experienceleague.adobe.com/VFoQlDxzagik5EI-gzWmNkHfZaJtM7V9-1TwJnGxstc
+TQID: 'https://experienceleague.adobe.com/VFoQlDxzagik5EI-gzWmNkHfZaJtM7V9-1TwJnGxstc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: 7f0a1ee5-eeb8-5478-a9cd-b1896f033118
+    internal-label: Instance Settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1443
+source-wordcount: '1460'
 ht-degree: 3%
-
 ---
-
 # Configuración de una aplicación móvil{#configuring-a-mobile-application}
 
 ## Configuración de una aplicación móvil mediante los SDK de Adobe Experience Platform {#using-adobe-experience-platform-sdk}
@@ -52,7 +63,7 @@ Para completar la configuración, complete los siguientes pasos:
    * En Adobe Campaign Standard, asegúrese de que el usuario de IMS forme parte de los Perfiles de producto de usuario y administrador estándar. Este paso permite al usuario iniciar sesión en Adobe Campaign Standard, navegar a la página de la aplicación móvil de Experience Platform SDK y ver las propiedades de la aplicación móvil que ha creado en la IU de recopilación de datos.
 
    * En la IU de recopilación de datos, asegúrese de que el usuario de IMS forme parte de un perfil de producto de Experience Platform Launch.
-Este paso permite al usuario iniciar sesión en la interfaz de usuario de recopilación de datos para crear y ver las propiedades. Para obtener más información sobre los perfiles de producto en la IU de recopilación de datos, consulta [Crear tu perfil de producto](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html?lang=es#gain-admin-rights-for-a-tags-product-profile). En el perfil del producto no debe haber permisos establecidos en la empresa o las propiedades, pero el usuario debe poder iniciar sesión.
+     Este paso permite al usuario iniciar sesión en la interfaz de usuario de recopilación de datos para crear y ver las propiedades. Para obtener más información sobre los perfiles de producto en la IU de recopilación de datos, consulta [Crear tu perfil de producto](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html?lang=es#gain-admin-rights-for-a-tags-product-profile). En el perfil del producto no debe haber permisos establecidos en la empresa o las propiedades, pero el usuario debe poder iniciar sesión.
 
    Para completar tareas adicionales como instalar una extensión, publicar una aplicación, configurar entornos, etc., debe establecer permisos en el perfil del producto.
 
@@ -152,7 +163,7 @@ La aplicación móvil ya está lista para utilizarse en Campaign para notificaci
 
    ![](assets/launch_7.png)
 
-1. Haga clic **[!UICONTROL Add]**.
+1. Haga clic en **[!UICONTROL Add]**.
 
    El evento ahora está disponible en la pestaña Déclencheur al crear un mensaje en la aplicación. Para obtener más información, consulte [Preparación y envío de un mensaje en la aplicación](../../channels/using/preparing-and-sending-an-in-app-message.md).
 
