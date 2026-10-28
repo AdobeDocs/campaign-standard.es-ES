@@ -28,7 +28,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '636'
 ht-degree: 100%
 ---
@@ -137,7 +137,7 @@ El nuevo sistema de tickets se ha utilizado a través de [Adobe Admin Console](h
 
 ### ¡Consulte a los expertos!
 
-Únase a la comunidad de Campaign: encuentre respuestas a preguntas existentes o formule una pregunta a la comunidad. [Únase a la conversación](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=es)
+Únase a la comunidad de Campaign: encuentre respuestas a preguntas existentes o formule una pregunta a la comunidad. [Únase a la conversación](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### Creación de un ticket o inicio de una conversación
 

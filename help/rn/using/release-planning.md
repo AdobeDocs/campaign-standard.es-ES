@@ -27,9 +27,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
 source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '417'
-ht-degree: 94%
+ht-degree: 100%
 ---
 # Planificación de versiones {#release-planning}
 
@@ -45,7 +45,7 @@ Todas las fechas de las versiones están sujetas a cambios: visite esta página 
 
 Encontrará información detallada acerca de esta versión en las [Notas de la versión](release-notes.md) cuando comiencen las actualizaciones del entorno de ensayo.
 
-Las fechas de actualización para la versión 26.3 aún no están disponibles. Visite esta página regularmente para buscar actualizaciones.
+Las fechas de actualización para la versión 26.3 aún no están disponibles. Visite esta página con regularidad para buscar actualizaciones.
 
 ## Preguntas y respuestas {#questions-and-answers}
 
